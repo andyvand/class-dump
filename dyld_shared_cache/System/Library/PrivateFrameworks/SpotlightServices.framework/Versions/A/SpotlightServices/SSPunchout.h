@@ -11,10 +11,10 @@
     NSString *_counterpartBundleIdentifier;
 }
 
-+ (id);
++ (id)setMaximumWidth:(id)arg1;
 - (id);
 - (void);
-- (void)tedMatchedText;
+- (void)highlightedMatchedText;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *counterpartBundleIdentifier; // @synthesize counterpartBundleIdentifier=_counterpartBundleIdentifier;

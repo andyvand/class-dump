@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UIHDRSettings
 {
     _Bool _asymmetricAnimationDurations;
-    double _animationDurationUp;
-    double _animationDurationDown;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (double);
-- (double);
-- (void)AnimatingBackdrops: /* Error: Ran out of types for this method. */;
+- (_Bool),N,V_mappingChatsToHighlightsQueue;
+- (double)Handle",&,N,V_recipient;
+- (double)ringController",R,N;
+- (void)setAnimatingBackdrops: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double animationDurationDown; // @synthesize animationDurationDown=_animationDurationDown;
 @property(nonatomic) double animationDurationUp; // @synthesize animationDurationUp=_animationDurationUp;
-@property(nonatomic) _Bool asymmetricAnimationDurations; // @synthesize asymmetricAnimationDurations=_asymmetricAnimationDurations;
 
 @end
 

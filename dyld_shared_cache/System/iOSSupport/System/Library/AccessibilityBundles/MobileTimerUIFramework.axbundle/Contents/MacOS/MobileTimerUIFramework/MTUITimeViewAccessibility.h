@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)_trailingItem;
 + (id);
 - (unsigned long long);
 - (id);

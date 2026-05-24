@@ -9,28 +9,24 @@
 @interface MPSCNNSpatialNormalization : MPSCNNKernel
 {
     float _alpha;
-    float _beta;
-    float _delta;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
 - (id);
 - (id);
-- (float);
+- (float)2(;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)q ;
 - (id);
 - (float);
-- (id)y_float;
+- (id)MPSRNNImageCombine_2dArray_2d_2dArray_float;
 - (float);
 
 // Remaining properties
 @property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float beta; // @synthesize beta=_beta;
-@property(nonatomic) float delta; // @synthesize delta=_delta;
 
 @end
 

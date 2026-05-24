@@ -9,8 +9,6 @@
 @interface AppStoreKit.TopShelfInsetItem : AppStoreKit.TopShelfItem
 {
     id heading;
-    id subheading;
-    id tintStyle;
 }
 
 @end

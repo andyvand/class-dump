@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAgeRangeSettings, NSObject;
-@protocol OS_dispatch_queue;
+@class AKAgeRangeSettings;
 
 @interface AKAgeRangeSettingsCache
 {
     AKAgeRangeSettings *_ageRangeSettings;
-    int _notificationToken;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    struct os_unfair_lock_s _unfairLock;
 }
 
 - (void);
@@ -21,11 +17,11 @@
 - (void);
 - (int);
 - (int);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Y;
 - (id);
 - (void);
 

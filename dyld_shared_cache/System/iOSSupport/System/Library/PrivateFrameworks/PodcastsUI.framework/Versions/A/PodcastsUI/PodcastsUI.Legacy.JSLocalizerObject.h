@@ -9,12 +9,9 @@
 @interface PodcastsUI.Legacy.JSLocalizerObject
 {
     id bundle;
-    id locale;
-    id preferredLocalization;
-    id dateIntervalFormatters;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

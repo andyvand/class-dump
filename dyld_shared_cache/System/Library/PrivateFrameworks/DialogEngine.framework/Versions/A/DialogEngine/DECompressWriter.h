@@ -10,10 +10,6 @@
 @interface DECompressWriter
 {
     _Bool _compressed;
-    _Bool _streamInitialized;
-    _Bool _streamEnded;
-    NSObject<DEWriter> *_writer;
-    struct z_stream_s _stream;
 }
 
 + (_Bool);
@@ -22,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ogEvent - Log Type:%ld, linkType:%@, operationType:%@, suspendedState:%@, reachable:%d, remotelyReachable:%d, wakeDurationSec:%f, wolanWakeUpType:%ld, wolanVersion:%hhu /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -33,13 +29,9 @@
 - (struct z_stream_s);
 - (void);
 - (void)½ÑÑÑÑ;
-- (void)ault_deleteIS3_S3_EE;
+- (void)NSt3__110shared_ptrIN4YAML6detail4nodeEE27__shared_ptr_default_deleteIS3_S3_EE;
 
 // Remaining properties
-@property(nonatomic) _Bool compressed; // @synthesize compressed=_compressed;
-@property(nonatomic) struct z_stream_s stream; // @synthesize stream=_stream;
-@property(nonatomic) _Bool streamEnded; // @synthesize streamEnded=_streamEnded;
-@property(nonatomic) _Bool streamInitialized; // @synthesize streamInitialized=_streamInitialized;
 @property(retain, nonatomic) NSObject<DEWriter> *writer; // @synthesize writer=_writer;
 
 @end

@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PFWallpaperCompoundDeviceConfiguration, VCPMediaAnalysisService;
-@protocol OS_os_log;
-
 @interface PGWallpaperSuggestionAssetGater
 {
     unsigned long long _type;
-    VCPMediaAnalysisService *_mediaAnalysisService;
-    PFWallpaperCompoundDeviceConfiguration *_deviceWallpaperLayoutConfiguration;
-    NSObject<OS_os_log> *_loggingConnection;
-    _Bool _isUserInitiated;
-    _Bool _coversTracks;
-    _Bool _enableSettlingEffect;
-    _Bool _isLastGatingCallingMediaAnalysis;
-    CDStruct_0e6d901a _currentGatingStatistics;
-    CDStruct_89fd307b _settlingEffectGatingStatistics;
 }
 
-+ (double);
-+ (int);
++ (double)objectForKeyedSubscript:(id)arg1;
++ (int)AXLineForIndex;
 + (unsigned long long);
 + (id);
-- (CDStruct_89fd307b);
+- (CDStruct_3e3b199e);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id)setMenuBarOwningApplication:(id)arg1;
+- (id)setMaximumFractionDigits:(id)arg1;
+- (id)hasRowBasedChildControllers;
+- (_Bool)accessibilitySelectedCells;
+- (CDStruct_66ad1804)_rangeForElement:centerAroundRange:withNumberOfLines:shouldTrimNewline: /* Error: Ran out of types for this method. */;
+- (_Bool)_lineRangeForElement:centeredAroundLine:numberOfLines: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (CDStruct_0e6d901a);
-- (_Bool);
-- (id);
-- (id);
+- (id)W;
 - (_Bool);
 - (id);
 - (void);
@@ -46,12 +34,7 @@
 - (void)ltiModal-V1.0_DEPRECATED;
 
 // Remaining properties
-@property(nonatomic) _Bool coversTracks; // @synthesize coversTracks=_coversTracks;
-@property(readonly, nonatomic) CDStruct_0e6d901a currentGatingStatistics; // @synthesize currentGatingStatistics=_currentGatingStatistics;
-@property(nonatomic) _Bool enableSettlingEffect; // @synthesize enableSettlingEffect=_enableSettlingEffect;
-@property(readonly, nonatomic) _Bool isLastGatingCallingMediaAnalysis; // @synthesize isLastGatingCallingMediaAnalysis=_isLastGatingCallingMediaAnalysis;
 @property(nonatomic) _Bool isUserInitiated; // @synthesize isUserInitiated=_isUserInitiated;
-@property(readonly, nonatomic) CDStruct_89fd307b settlingEffectGatingStatistics; // @synthesize settlingEffectGatingStatistics=_settlingEffectGatingStatistics;
 
 @end
 

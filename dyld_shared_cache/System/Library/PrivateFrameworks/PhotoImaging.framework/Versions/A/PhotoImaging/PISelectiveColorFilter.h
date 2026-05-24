@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray;
+@class CIImage;
 
 @interface PISelectiveColorFilter
 {
     CIImage *_inputImage;
-    NSArray *_inputCorrections;
 }
 
 + (id);
-+ (double);
++ (double)_;
 + (void);
-+ (float);
++ (float);
 + (id);
 + (id);
-- (void);
+- (void)G;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)ssStyles;
+- (void)supportsBackgroundlessStyles;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *inputCorrections; // @synthesize inputCorrections=_inputCorrections;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 
 @end

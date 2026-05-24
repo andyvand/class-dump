@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerProvider
 {
     id data;
-    id coordinator;
-    id metadata;
-    id playMethod;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)";
 - (double);
 - (id);
 - (void)ÁS:üT /* Error: Ran out of types for this method. */;

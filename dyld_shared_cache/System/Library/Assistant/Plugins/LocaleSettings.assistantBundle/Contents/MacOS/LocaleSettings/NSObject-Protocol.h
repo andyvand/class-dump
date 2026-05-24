@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (unsigned long long)SSettingsStoreConfiguration";
+- (_Bool)05m;
+- (_Bool)__unwind_info;
+- (id)er has not yet made a choice to authorize access to photo data with regards to this application;
+
+@optional
+- (NSString *)97;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -14,9 +14,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
-- (void):algorithm: /* Error: Ran out of types for this method. */;
+- (void)topicsMultiplierForBundleId:algorithm: /* Error: Ran out of types for this method. */;
 
 @end
 

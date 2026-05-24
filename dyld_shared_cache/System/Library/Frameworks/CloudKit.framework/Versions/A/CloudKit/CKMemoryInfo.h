@@ -10,10 +10,9 @@
 @interface CKMemoryInfo
 {
     long long _memoryPressure;
-    NSObject<OS_dispatch_source> *_source;
 }
 
-+ (id)eyByyy_;
++ (id)So15CKShareMetadataCSo0A0CSgSo7NSErrorCSgIeyByyy_;
 + (id)D;
 - (long long);
 - (void);
@@ -23,7 +22,6 @@
 - (void)¨f;
 
 // Remaining properties
-@property(readonly) long long memoryPressure; // @synthesize memoryPressure=_memoryPressure;
 @property(readonly, nonatomic) NSObject<OS_dispatch_source> *source; // @synthesize source=_source;
 
 @end

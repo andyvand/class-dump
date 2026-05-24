@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)ground;
+- (unsigned long long)timeIntervalSinceInitialForeground;
 @end
 

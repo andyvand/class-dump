@@ -11,17 +11,17 @@
     NSMutableDictionary *_filters;
 }
 
-+ (unsigned long long);
-+ (id);
-+ (unsigned long long);
++ (unsigned long long)setHasCirAlertRespectScoreOverrides:(id)arg1;
++ (id)setHasCharacterCount:(id)arg1;
++ (unsigned long long)setHasCdmServiceSetupMetricsReported:(id)arg1;
 + (id);
 + (unsigned long long);
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)0!;
+- (_Bool)_showingAlert;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,15 +29,16 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)~CNqVugAWQ5WhulJaJpNKHqW-i77fVwpBOrWH8oM/Library/Caches/com.apple.xbs/TemporaryDirectory.yQAVYw/Sources/TwoBit/AppAttestInternal/Source/Interfaces/AppAttestWebAuthentication.m;
+- (void);
+- (id);
+- (id)1*
+;
+- (id)d;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)ing due to %{public}@ action=%d;
 - (void);
 - (void);
 

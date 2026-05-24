@@ -5,9 +5,10 @@
 //
 
 @protocol CKEncryptable
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool needsDecryption;
 @property(readonly, nonatomic) _Bool needsEncryption;
 @end
 

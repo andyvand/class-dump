@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EMTSentencePieceText
 {
     float _score;
-    NSString *_text;
-    NSArray *_pieces;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)framework/ConfigurationProfiles;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setRecipientCount: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -28,8 +26,6 @@
 - (void)ì;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *pieces; // @synthesize pieces=_pieces;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

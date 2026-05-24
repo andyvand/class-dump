@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDPersonCoreDataManager;
+
 @protocol HMDPersonCoreDataManagerDelegate
+- (void)block when checkin is completed;
+- (void)block;
+- (void)attempt checkin;
+- (void)current connection:(HMDPersonCoreDataManager *)arg1 %@;
 @end
 

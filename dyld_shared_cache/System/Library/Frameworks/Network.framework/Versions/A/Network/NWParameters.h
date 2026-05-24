@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSObject, NSSet, NSString, NSURL, NSUUID, NWAddressEndpoint, NWInterface;
+@class NSObject;
 @protocol OS_nw_parameters;
 
 @interface NWParameters
 {
     NSObject<OS_nw_parameters> *_internalParameters;
-    NSSet *_SSLCipherSuitesInternal;
-    unsigned long long _minimumSSLProtocolVersionInternal;
-    unsigned long long _maximumSSLProtocolVersionInternal;
 }
 
 + (id);
 + (_Bool)public}s called with null out_audit_token, backtrace limit exceeded;
 + (id){public}s NECP_CLIENT_ACTION_COPY_LIST for %u items %{darwin.errno}d, backtrace limit exceeded;
-- (void);
-- (long long);
+- (void)fakeEventQueue_block_invoke;
+- (long long)5Q~;
 - (void);
 - (void);
 - (void);
@@ -34,66 +31,66 @@
 - (id);
 - (int);
 - (_Bool);
+- (unsigned long long)#;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)nLoopSource=}16^{__CFRunLoop=}24;
+- (_Bool);
+- (id);
+- (_Bool)from server (%d);
+- (void);
+- (_Bool)PRGhABsovXmw_TpblA3Xhf;
+- (_Bool);
+- (id);
+- (void);
+- (id)H;
+- (void);
+- (void);
+- (void)h;
+- (_Bool);
+- (_Bool);
+- (void) ;
+- (void);
+- (void);
+- (_Bool)A;
+- (void);
+- (void);
+- (void);
+- (id)!;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (_Bool)Re;
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -103,40 +100,40 @@
 - (void);
 - (void);
 - (unsigned short);
-- (void);
+- (void);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool),;
 - (long long);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)F;
+- (id)D;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)nly="%@/Documents/*" || _kMDQueryItemInScopeForRankingOnly="%@/Downloads/*");
+- (void)*, _Bool, unsigned int, copy_object_behavior_t);
 - (int);
 - (void);
 - (void);
 - (void);
-- (id)ternalEndpoint;
+- (id)_internalEndpoint;
 - (_Bool)p{ä\è8<;
 - (_Bool)¼;ô;,<d<<Ä<ü<4=l=¸=ì=$>`>>Ì>?P??;
 - (_Bool)´^Ü;
@@ -163,14 +160,14 @@
 - (void)0ÿÿ;
 - (void);
 - (unsigned long long)_£ècy_HÿÿGSSG;
-- (void)gth;
-- (void)ata;
-- (unsigned char)erride_info_copy_resolver_configs;
+- (void)capsule_length;
+- (void)nw_http_connection_metadata_set_shared_connection_pool_metadata;
+- (unsigned char)nw_path_override_info_copy_resolver_configs;
 - (void)nw_http_proxy_server_get_port;
-- (unsigned char)config;
+- (unsigned char)nw_resolver_config_clear_odoh_config;
 - (void)_capacity;
-- (id)w_parameters_copy_preferred_netagent_types;
-- (void)pressedMessageSize;
+- (id)nw_parameters_copy_preferred_netagent_types;
+- (void)replyCompressedMessageSize;
 - (_Bool)@;
 - (_Bool)@;
 - (void);
@@ -178,9 +175,9 @@
 - (_Bool);
 - (void)@;
 - (_Bool)6;
-- (unsigned long long);
-- (void)hj;
-- (id)A;
+- (unsigned long long):MW /* Error: Ran out of types for this method. */;
+- (void)6hj;
+- (id)2_A;
 - (id)ºUèm¾Úºò%ÊØµÀkÒì/Æ&J¦3ñ>I~ä+tÇä+tÇä+tÇä+tÇä+tÇä+tÇä+tÇQôQôSÚ+gSÚ+gSÚ+gSÚ+gSÚ+gø²ø²©Ø:ùÈÆßÏ!|ßÏ!|;z;}òUÂòUÂòUÂòUÂòUÂòUÂHHÅ÷^Å÷^Å÷^Å÷^Å÷^Å÷^Å÷^Å÷^Å÷^Å÷^Å÷^
 u³XLçXLçXLç=ß=ßJjh(½ÎSÚ+gSÚ+gSÚ+gSÚ+gSÚ+gSÚ+gSÚ+gSÚ+gSÚ+gÓ2½N
 N
@@ -192,77 +189,7 @@ N
 - (unsigned char)U;;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *SSLCipherSuites;
-@property(retain, nonatomic) NSSet *SSLCipherSuitesInternal; // @synthesize SSLCipherSuitesInternal=_SSLCipherSuitesInternal;
-@property(copy, nonatomic) NSData *TLSSessionID;
-@property(copy, nonatomic) NSString *account;
-@property(nonatomic) _Bool allowDuplicateStateUpdates;
-@property(nonatomic) _Bool allowJoiningConnectedFd;
-@property(nonatomic) _Bool allowSocketAccess;
-@property(nonatomic) _Bool allowUnusableAddresses;
-@property(nonatomic) _Bool attachProtocolListener;
-@property(nonatomic) unsigned long long dataMode;
-@property(nonatomic) _Bool disableNagleAlgorithm;
-@property(nonatomic, getter=isDiscretionary) _Bool discretionary;
-@property(readonly, nonatomic, getter=isDryRun) _Bool dryRun;
-@property(copy, nonatomic) NSString *effectiveBundleID;
-@property(copy, nonatomic) NSUUID *effectiveProcessUUID;
-@property(nonatomic) _Bool enableTFO;
-@property(nonatomic) _Bool enableTFONoCookie;
-@property(nonatomic) _Bool enableTLS;
-@property(nonatomic) _Bool fastOpenForceEnable;
-@property(nonatomic) _Bool httpsProxyIsOpaque;
-@property(nonatomic) _Bool httpsProxyOverTLS;
-@property(nonatomic) _Bool ignoreResolverStats;
-@property(nonatomic) _Bool indefinite;
 @property(retain) NSObject<OS_nw_parameters> *internalParameters; // @synthesize internalParameters=_internalParameters;
-@property(readonly, nonatomic) unsigned char ipProtocol;
-@property(nonatomic) _Bool keepAlive;
-@property(nonatomic) unsigned long long keepAliveIdleTime;
-@property(nonatomic) unsigned long long keepAliveInterval;
-@property(nonatomic) _Bool keepAliveOffload;
-@property(retain, nonatomic) NWAddressEndpoint *localAddress;
-@property(nonatomic) unsigned long long maximumSSLProtocolVersion;
-@property(nonatomic) unsigned long long maximumSSLProtocolVersionInternal; // @synthesize maximumSSLProtocolVersionInternal=_maximumSSLProtocolVersionInternal;
-@property(retain, nonatomic) NSData *metadata;
-@property(nonatomic) unsigned long long minimumSSLProtocolVersion;
-@property(nonatomic) unsigned long long minimumSSLProtocolVersionInternal; // @synthesize minimumSSLProtocolVersionInternal=_minimumSSLProtocolVersionInternal;
-@property(nonatomic) _Bool multipath;
-@property(nonatomic) _Bool multipathForceEnable;
-@property(nonatomic) int multipathService;
-@property(nonatomic) _Bool noProxy;
-@property(retain, nonatomic) NSUUID *parentID;
-@property(readonly, nonatomic) NSArray *parentIDs;
-@property(nonatomic) int pid;
-@property(nonatomic) _Bool preferNoProxy;
-@property(readonly, copy, nonatomic) NSString *privateDescription;
-@property(copy, nonatomic) NSUUID *processUUID;
-@property(readonly, nonatomic) _Bool prohibitCellular;
-@property(nonatomic) _Bool prohibitConstrainedPaths;
-@property(nonatomic) _Bool prohibitExpensivePaths;
-@property(nonatomic) _Bool prohibitFallback;
-@property(nonatomic) _Bool prohibitJoiningProtocols;
-@property(nonatomic) _Bool prohibitRoaming;
-@property(copy, nonatomic) NSArray *protocolTransforms;
-@property(copy, nonatomic) NSDictionary *proxyConfiguration;
-@property(nonatomic) _Bool reduceBuffering;
-@property(nonatomic) unsigned char requiredAddressFamily;
-@property(nonatomic) long long requiredCompanionProxyInterfaceType;
-@property(retain, nonatomic) NWInterface *requiredInterface;
-@property(nonatomic) long long requiredInterfaceSubtype;
-@property(nonatomic) long long requiredInterfaceType;
-@property(nonatomic) _Bool resolvePTR;
-@property(nonatomic) _Bool reuseLocalAddress;
-@property(readonly, nonatomic) NSURL *sanitizedURL;
-@property(nonatomic) unsigned long long trafficClass;
-@property(readonly, nonatomic) unsigned char transportProtocol;
-@property(nonatomic) _Bool trustInvalidCertificates;
-@property(nonatomic) unsigned int uid;
-@property(copy, nonatomic) NSURL *url;
-@property(nonatomic) _Bool useAWDL;
-@property(nonatomic) _Bool useLongOutstandingQueries;
-@property(nonatomic) _Bool useP2P;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface FCPaidBundleViaOfferConfig
 {
     _Bool _paywallsEnabled;
-    _Bool _subscriptionsDeeplinkEnabled;
-    _Bool _mastheadBannerEnabled;
-    _Bool _iconBadgeMercuryEnabled;
-    _Bool _localNotificationEnabled;
-    _Bool _upsellEnabled;
-    _Bool _appLaunchUpsellEnabled;
-    long long _iconBadgeQuiescenceInterval;
-    long long _iconBadgeMaxNumberOfPresentations;
-    long long _localNotificationQuiescenceInterval;
-    long long _localNotificationMaxNumberOfPresentations;
-    NSString *_localNotificationTitle;
-    NSString *_localNotificationSubtitle;
-    NSString *_localNotificationBody;
-    NSString *_localNotificationURL;
-    long long _localNotificationDelay;
-    long long _upsellQuiescenceInterval;
-    long long _upsellMaxNumberOfPresentations;
-    NSArray *_vendorAdHocOfferIds;
-    long long _upsellBestOfferRefreshQuiescenceInterval;
 }
 
 - (id);
@@ -46,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -55,37 +34,18 @@
 - (long long);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (_Bool);
 - (void)ice init];
 - (id)P;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appLaunchUpsellEnabled; // @synthesize appLaunchUpsellEnabled=_appLaunchUpsellEnabled;
-@property(nonatomic) long long iconBadgeMaxNumberOfPresentations; // @synthesize iconBadgeMaxNumberOfPresentations=_iconBadgeMaxNumberOfPresentations;
-@property(readonly, nonatomic) _Bool iconBadgeMercuryEnabled; // @synthesize iconBadgeMercuryEnabled=_iconBadgeMercuryEnabled;
 @property(nonatomic) long long iconBadgeQuiescenceInterval; // @synthesize iconBadgeQuiescenceInterval=_iconBadgeQuiescenceInterval;
-@property(copy, nonatomic) NSString *localNotificationBody; // @synthesize localNotificationBody=_localNotificationBody;
-@property(nonatomic) long long localNotificationDelay; // @synthesize localNotificationDelay=_localNotificationDelay;
-@property(readonly, nonatomic) _Bool localNotificationEnabled; // @synthesize localNotificationEnabled=_localNotificationEnabled;
-@property(nonatomic) long long localNotificationMaxNumberOfPresentations; // @synthesize localNotificationMaxNumberOfPresentations=_localNotificationMaxNumberOfPresentations;
-@property(nonatomic) long long localNotificationQuiescenceInterval; // @synthesize localNotificationQuiescenceInterval=_localNotificationQuiescenceInterval;
-@property(copy, nonatomic) NSString *localNotificationSubtitle; // @synthesize localNotificationSubtitle=_localNotificationSubtitle;
-@property(copy, nonatomic) NSString *localNotificationTitle; // @synthesize localNotificationTitle=_localNotificationTitle;
-@property(copy, nonatomic) NSString *localNotificationURL; // @synthesize localNotificationURL=_localNotificationURL;
-@property(readonly, nonatomic) _Bool mastheadBannerEnabled; // @synthesize mastheadBannerEnabled=_mastheadBannerEnabled;
-@property(readonly, nonatomic) _Bool paywallsEnabled; // @synthesize paywallsEnabled=_paywallsEnabled;
-@property(readonly, nonatomic) _Bool subscriptionsDeeplinkEnabled; // @synthesize subscriptionsDeeplinkEnabled=_subscriptionsDeeplinkEnabled;
-@property(readonly, nonatomic) long long upsellBestOfferRefreshQuiescenceInterval; // @synthesize upsellBestOfferRefreshQuiescenceInterval=_upsellBestOfferRefreshQuiescenceInterval;
-@property(readonly, nonatomic) _Bool upsellEnabled; // @synthesize upsellEnabled=_upsellEnabled;
-@property(nonatomic) long long upsellMaxNumberOfPresentations; // @synthesize upsellMaxNumberOfPresentations=_upsellMaxNumberOfPresentations;
-@property(nonatomic) long long upsellQuiescenceInterval; // @synthesize upsellQuiescenceInterval=_upsellQuiescenceInterval;
-@property(retain, nonatomic) NSArray *vendorAdHocOfferIds; // @synthesize vendorAdHocOfferIds=_vendorAdHocOfferIds;
 
 @end
 

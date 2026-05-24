@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioSessionCoordinationDeviceInfo, AFAudioSessionCoordinationSnapshot, NSArray, NSDateInterval, NSString;
+@class AFAudioSessionCoordinationSnapshot;
 
 @interface _AFAudioSessionCoordinationSnapshotMutation
 {
     AFAudioSessionCoordinationSnapshot *_base;
-    NSDateInterval *_currentOrUpNextDateInterval;
-    _Bool _isAudioSessionActive;
-    NSArray *_localActiveAssertionContexts;
-    NSArray *_localPendingAssertionContexts;
-    NSArray *_remoteActiveAssertionContexts;
-    NSArray *_remotePendingAssertionContexts;
-    AFAudioSessionCoordinationDeviceInfo *_localDevice;
-    NSArray *_remoteQualifiedInRangeDevices;
-    NSArray *_remoteQualifiedOutOfRangeDevices;
-    NSArray *_remoteDisqualifiedDevices;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasCurrentOrUpNextDateInterval:1;
-        unsigned int hasIsAudioSessionActive:1;
-        unsigned int hasLocalActiveAssertionContexts:1;
-        unsigned int hasLocalPendingAssertionContexts:1;
-        unsigned int hasRemoteActiveAssertionContexts:1;
-        unsigned int hasRemotePendingAssertionContexts:1;
-        unsigned int hasLocalDevice:1;
-        unsigned int hasRemoteQualifiedInRangeDevices:1;
-        unsigned int hasRemoteQualifiedOutOfRangeDevices:1;
-        unsigned int hasRemoteDisqualifiedDevices:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -42,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Bq(;
 - (id);
 - (id);
 - (id);
@@ -55,17 +32,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (id)erId;
-- (void)dentifier;
+- (id)sharedUserId;
+- (void)_homeKitMediaSystemIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

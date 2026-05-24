@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPersistentStoreCoordinatorCache, NSString;
-@protocol CNAccountCollection, CNCDIOSLegacyIdentifierRegistration;
+@class CNPersistentStoreCoordinatorCache;
+@protocol CNCDIOSLegacyIdentifierRegistration;
 
 __attribute__((visibility("hidden")))
 @interface CNCDPersistentBackend
 {
     id <CNCDIOSLegacyIdentifierRegistration> _iOSLegacyIdentifierRegistrar;
-    CNPersistentStoreCoordinatorCache *_pscCache;
-    id <CNAccountCollection> _accountCollection;
 }
 
-+ (id);
++ (id)T;
 + (id);
 - (void);
 - (id);
@@ -27,20 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNAccountCollection> accountCollection; // @synthesize accountCollection=_accountCollection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <CNCDIOSLegacyIdentifierRegistration> iOSLegacyIdentifierRegistrar; // @synthesize iOSLegacyIdentifierRegistrar=_iOSLegacyIdentifierRegistrar;
 @property(readonly, nonatomic) CNPersistentStoreCoordinatorCache *pscCache; // @synthesize pscCache=_pscCache;
-@property(readonly) Class superclass;
 
 @end
 

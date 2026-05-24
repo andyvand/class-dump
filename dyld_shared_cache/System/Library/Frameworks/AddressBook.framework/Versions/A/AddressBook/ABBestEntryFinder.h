@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSArray, NSMutableArray;
+@class NSArray;
 
 @interface ABBestEntryFinder
 {
     NSArray *_entries;
-    NSArray *_searchTerms;
-    int _highestScore;
-    NSMutableArray *_highestScoringEntries;
-    ABAddressBook *_addressBook;
 }
 
 + (id);

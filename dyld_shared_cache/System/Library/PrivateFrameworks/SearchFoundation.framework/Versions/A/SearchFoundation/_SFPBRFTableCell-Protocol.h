@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFTableCell
+- (unsigned long long)";
+- (NSData *)initWithSource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool applySmallCaps;
-@property(nonatomic) int column_span;
-@property(nonatomic) int horizontal_alignment;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text;
-@property(retain, nonatomic) _SFPBRFVisualProperty *visual;
-@property(readonly, nonatomic) unsigned long long whichContent;
 @end
 

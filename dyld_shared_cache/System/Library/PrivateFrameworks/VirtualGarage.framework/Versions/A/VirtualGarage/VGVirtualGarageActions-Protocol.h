@@ -5,5 +5,8 @@
 //
 
 @protocol VGVirtualGarageActions
+- (void);
+- (void);
+- (void);
 @end
 

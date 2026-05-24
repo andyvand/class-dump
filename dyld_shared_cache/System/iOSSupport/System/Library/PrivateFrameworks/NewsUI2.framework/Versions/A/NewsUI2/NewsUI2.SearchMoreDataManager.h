@@ -7,12 +7,6 @@
 @interface NewsUI2.SearchMoreDataManager
 {
     id delegate;
-    id resultsStream;
-    id headlineService;
-    id subscriptionService;
-    id feedService;
-    id feedServiceConfigFetcher;
-    id accessQueue;
 }
 
 - (id);

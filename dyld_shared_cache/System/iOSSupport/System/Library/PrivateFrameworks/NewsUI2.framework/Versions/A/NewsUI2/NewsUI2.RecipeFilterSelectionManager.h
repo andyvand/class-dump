@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeFilterSelectionManager
 {
     id currentFilterSelection;
-    id _observers;
 }
 
 @end

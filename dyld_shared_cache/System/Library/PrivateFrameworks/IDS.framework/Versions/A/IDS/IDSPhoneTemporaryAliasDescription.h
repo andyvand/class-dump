@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSDate;
+@class IDSURI;
 
 @interface IDSPhoneTemporaryAliasDescription
 {
     _Bool _selected;
-    IDSURI *_URI;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IDSURI *URI; // @synthesize URI=_URI;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

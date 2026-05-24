@@ -18,9 +18,9 @@
 - (id);
 - (Class);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void)leSecond: /* Error: Ran out of types for this method. */;
+- (void)setWeekViewFirstVisibleSecond: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) EKChangeTracker *originalChangeTracker; // @synthesize originalChangeTracker=_originalChangeTracker;

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol TMBackupProtocol
 
 // Remaining properties
-@property(readonly) NSDate *dateCompleted;
-@property(readonly) _Bool isComplete;
-@property(readonly) unsigned long long maximumFileID;
 @property(readonly) NSString *name;
 @end
 

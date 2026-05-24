@@ -11,20 +11,14 @@
 @interface BWVideoPlaybackSupportMetadataNode : BWNode
 {
     BWNodeOutput *_passthruOutput;
-    BWNodeOutput *_boxedMetadataOutput;
-    struct opaqueCMFormatDescription *_boxedMetadataFormatDescription;
-    unsigned int _localIDOfLuxMetadata_BE;
-    struct OpaqueCMBlockBuffer *_emptyMetadataSampleData;
-    _Bool _previousGeneratedMetadataBufferWasEmpty;
-    unsigned int _prevSceneIlluminationValue;
 }
 
 + (void)Layout:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)CXNamespace",&,N,VmPXPresentationMLNamespace;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id)$Ð1Â0@ù
 × ;
 - (id)r to rotate Preview %@ for backwards compatibility for captureID:%lld /* Error: Ran out of types for this method. */;
@@ -37,7 +31,6 @@ P÷ÿPøÿQøÿQøÿ#Qøÿ+Qøÿ2Røÿ9RùÿBRùÿISùÿPSúÿXSûÿ_TüÿgT�
 - (void)h8(ÿq8(ÿz7'ÿ5&ÿ4%ÿ3$ÿ1"ÿ¤. ÿ«,ÿ²*ÿ¸'ÿ¾$ÿÃ"ÿÆ!ÿÉ"ÿÊ#ÿL8ÿK7ÿJ7ÿI6ÿI5ÿ"H5ÿ)H5ÿ.H5ÿ4G4ÿ;G3ÿ@G2ÿGG1ÿME/ÿTE.ÿ\D-ÿcC,ÿkB+ÿsA)ÿ|@(ÿ?'ÿ>&ÿ<$ÿ:(id)arg1 #ÿ¥8 ÿ¬6ÿ³3ÿ¹1ÿÀ.ÿÄ,ÿÇ+ÿÊ+ÿÊ-ÿ#V<ÿ"V;ÿ"U;ÿ!U:(id)arg2 ÿ T9ÿ%S9ÿ+R8ÿ1R8ÿ7R7ÿ>Q6ÿDQ5ÿJQ4ÿQQ3ÿXP2ÿ_O0ÿfN/ÿnM-ÿuL,ÿ~J*ÿI)ÿG'ÿF%ÿD#ÿ§A ÿ®?ÿµ=ÿ»:ÿÁ8ÿÅ6ÿÉ5ÿË5ÿË6ÿ(a>ÿ'`>ÿ'`>ÿ'_=ÿ&^<ÿ'];ÿ-];ÿ4\;ÿ:\:ÿA\9ÿG\8ÿM\7ÿT\6ÿ\\5ÿcZ3ÿjY1ÿqW0ÿxV.ÿT,ÿS*ÿQ(ÿP&ÿ N#ÿ¨K ÿ°Iÿ¶Gÿ¼DÿÂBÿÇ@ÿÊ?ÿÌ?ÿÌ@ÿ-l@ÿ,k@ÿ,k@ÿ,j?ÿ+j?ÿ+i>ÿ/h=ÿ6h=ÿ<g<ÿCg<ÿJg;ÿPg:ÿWg8ÿ_g7ÿhg6ÿne4ÿtd2ÿ{b0ÿ`.ÿ_,ÿ])ÿ['ÿ¢Y$ÿªW ÿ±Tÿ¸Rÿ¾PÿÄNÿÈLÿËKÿÍKÿÍKÿ1vBÿ0uAÿ0uAÿ0tAÿ/t@ÿ/s?ÿ/r?ÿ7r>ÿ=q>ÿEq=ÿLq<ÿRq;ÿYq:ÿaq8ÿiq7ÿrq6ÿxo4ÿm2ÿk0ÿi-ÿg+ÿe(ÿ¤c%ÿ¬a ÿ³_ÿ¹]ÿÀZÿÆXÿÊWÿÍVÿÎUÿÎVÿ4Bÿ4Bÿ4Bÿ3~Bÿ3~Aÿ3}Aÿ2|@ÿ7|?ÿ>{?ÿF{>ÿM{=ÿT{<ÿ[{;ÿb{:ÿk{8ÿs{6ÿ|{6ÿy3ÿv0ÿt.ÿr,ÿp)ÿ¥n%ÿ®l!ÿ´iÿ»gÿÁeÿÇc	ÿËbÿÎa /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeOutput *boxedMetadataOutput; // @synthesize boxedMetadataOutput=_boxedMetadataOutput;
 @property(readonly, nonatomic) BWNodeOutput *passthruOutput; // @synthesize passthruOutput=_passthruOutput;
 
 @end

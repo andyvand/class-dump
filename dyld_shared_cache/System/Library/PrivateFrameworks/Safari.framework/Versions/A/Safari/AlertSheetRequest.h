@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface AlertSheetRequest : SheetRequest
 {
     NSAlert *_alert;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSAlert *alert; // @synthesize alert=_alert;
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 
 @end
 

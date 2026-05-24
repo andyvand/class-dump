@@ -6,53 +6,38 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor, UIPickerTableView, UIPickerView;
+@class UIPickerTableView;
 
 __attribute__((visibility("hidden")))
 @interface UIPickerColumnView : UIView
 {
     UIPickerTableView *_topTable;
-    UIPickerTableView *_middleTable;
-    UIPickerTableView *_bottomTable;
-    UIView *_topContainerView;
-    UIView *_middleContainerView;
-    UIView *_bottomContainerView;
-    double _middleBarHeight;
-    double _rowHeight;
-    double _paddingAroundWheels;
-    UIPickerView *_pickerView;
-    struct CGRect _tableFrame;
-    struct CATransform3D _perspectiveTransform;
-    _Bool _isNoLongerInUse;
-    UIColor *__textColor;
-    double _leftHitTestExtension;
-    double _rightHitTestExtension;
 }
 
 - (struct CATransform3D);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)CEMSecurityTimeLimitsDeclaration_TimeLimits;
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)t;
 - (long long);
 - (id);
 - (id);
-- (id);
-- (struct CATransform3D);
+- (id)setUserInfo:(struct CGRect)arg1;
+- (struct CATransform3D);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
 - (struct CGRect);
-- (id);
+- (id);
 - (id);
 - (void)1Â0@ù
 × ;
@@ -65,26 +50,26 @@ __attribute__((visibility("hidden")))
 - (_Bool)ITable_RowDataSource>";
 - (_Bool)ewManager";
 - (_Bool)dd}}40;
-- (double)tate: /* Error: Ran out of types for this method. */;
+- (double)titleColorForState: /* Error: Ran out of types for this method. */;
 - (void)on: /* Error: Ran out of types for this method. */;
-- (_Bool)raitCollection: /* Error: Ran out of types for this method. */;
-- (_Bool)Inset:(id)arg1 bottomInset:(_Bool)arg2 forBarMetrics:barPosition: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)ransitionIndicatorsFromPage:toPage:ripple: /* Error: Ran out of types for this method. */;
-- (void)ackingRect;
-- (double)alizeTentativeViewContainers;
+- (_Bool)nonCenterCellFontWithTraitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)getTopInset:(id)arg1 bottomInset:(_Bool)arg2 forBarMetrics:barPosition: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)animateTransitionIndicatorsFromPage:toPage:ripple: /* Error: Ran out of types for this method. */;
+- (void)_rolloverTrackingRect;
+- (double)_initializeTentativeViewContainers;
 - (void)fableDataSource",&,N,V_impl;
-- (_Bool)eOverride:(long long)arg1;
+- (_Bool)initWithStatusBarStyleOverride:(long long)arg1;
 - (double)erGestureRecognizerImpDelegate>",W,N,V_delegate;
-- (id)leControl;
-- (long long)E55D530921B5D45A8EA231E2252C983511DimmingView;
+- (id)_UINavigationBarTitleControl;
+- (long long)_TtCE5UIKitCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983511DimmingView;
 - (struct CATransform3D)¶;
 - (id);
 - (void)þÿ;
 - (id)UnavailableView.m;
-- (double)me;
-- (id)CenterY;
+- (double)EngineActiveTime;
+- (id)BIB_CenterY_CenterY;
 - (id)E¾7z_Xx;
-- (void)DidEndEditingMessage;
+- (void)TextDidEndEditingMessage;
 - (void)ÌÕç¦\;
 - (void)ûc;
 - (void)Öd;
@@ -92,23 +77,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ!;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_textColor, setter=_setTextColor:) UIColor *_textColor; // @synthesize _textColor=__textColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIView *highlightedRegion;
 @property(nonatomic) _Bool isNoLongerInUse; // @synthesize isNoLongerInUse=_isNoLongerInUse;
-@property(nonatomic) double leftHitTestExtension; // @synthesize leftHitTestExtension=_leftHitTestExtension;
-@property(nonatomic) struct CATransform3D perspectiveTransform; // @synthesize perspectiveTransform=_perspectiveTransform;
-@property(nonatomic) double rightHitTestExtension; // @synthesize rightHitTestExtension=_rightHitTestExtension;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(nonatomic) struct CGRect selectionBarRect;
-@property(readonly, nonatomic) long long selectionBarRow;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIView *view;
 
 @end
 

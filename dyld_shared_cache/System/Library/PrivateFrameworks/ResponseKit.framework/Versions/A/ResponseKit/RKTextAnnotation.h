@@ -7,13 +7,11 @@
 @interface RKTextAnnotation
 {
     _Bool _machineGenerated;
-    unsigned long long _type;
-    struct _NSRange _range;
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool machineGenerated; // @synthesize machineGenerated=_machineGenerated;
 @property struct _NSRange range; // @synthesize range=_range;
-@property unsigned long long type; // @synthesize type=_type;
 
 @end
 

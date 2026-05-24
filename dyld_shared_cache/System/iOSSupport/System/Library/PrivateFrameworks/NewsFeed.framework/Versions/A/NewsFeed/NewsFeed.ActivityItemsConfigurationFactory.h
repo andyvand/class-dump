@@ -7,13 +7,6 @@
 @interface NewsFeed.ActivityItemsConfigurationFactory
 {
     id shareLinkProvider;
-    id mailShareLinkTextProvider;
-    id recipeImageShareAttributeProvider;
-    id puzzleImageShareAttributeProvider;
-    id puzzleRankProvider;
-    id puzzleDifficultyDescriptionProvider;
-    id recipeFactory;
-    id featureAvailability;
 }
 
 @end

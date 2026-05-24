@@ -4,42 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AWDWiFiMetricsKnownNetworksEvent
 {
     unsigned long long _timestamp;
-    NSString *_bundleID;
-    unsigned int _colocatedState;
-    unsigned int _eventType;
-    int _networkScore;
-    unsigned int _networkSecurity;
-    unsigned int _networkTypeBitMap;
-    NSData *_oui;
-    unsigned int _switchToCount;
-    unsigned int _switchedAwayFromCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int colocatedState:1;
-        unsigned int eventType:1;
-        unsigned int networkScore:1;
-        unsigned int networkSecurity:1;
-        unsigned int networkTypeBitMap:1;
-        unsigned int switchToCount:1;
-        unsigned int switchedAwayFromCount:1;
-    } _has;
 }
 
 - (unsigned int);
 - (unsigned int);
 - (void);
+- (void)	jA;
 - (void);
 - (void);
+- (void))h
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
@@ -53,53 +33,34 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)r;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (int);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)b;
+- (void)I;
 - (id);
 - (_Bool);
 - (void);
-- (void)asWifinumberOfSpatialStreams;
+- (void)hasWifinumberOfSpatialStreams;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) unsigned int colocatedState; // @synthesize colocatedState=_colocatedState;
-@property(nonatomic) unsigned int eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(nonatomic) _Bool hasColocatedState;
-@property(nonatomic) _Bool hasEventType;
-@property(nonatomic) _Bool hasNetworkScore;
-@property(nonatomic) _Bool hasNetworkSecurity;
-@property(nonatomic) _Bool hasNetworkTypeBitMap;
-@property(readonly, nonatomic) _Bool hasOui;
-@property(nonatomic) _Bool hasSwitchToCount;
-@property(nonatomic) _Bool hasSwitchedAwayFromCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int networkScore; // @synthesize networkScore=_networkScore;
-@property(nonatomic) unsigned int networkSecurity; // @synthesize networkSecurity=_networkSecurity;
-@property(nonatomic) unsigned int networkTypeBitMap; // @synthesize networkTypeBitMap=_networkTypeBitMap;
-@property(retain, nonatomic) NSData *oui; // @synthesize oui=_oui;
-@property(nonatomic) unsigned int switchToCount; // @synthesize switchToCount=_switchToCount;
-@property(nonatomic) unsigned int switchedAwayFromCount; // @synthesize switchedAwayFromCount=_switchedAwayFromCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

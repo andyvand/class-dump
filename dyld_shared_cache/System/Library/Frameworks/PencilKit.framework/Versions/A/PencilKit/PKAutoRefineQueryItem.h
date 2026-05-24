@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTokenizedTextResult, NSArray, NSIndexSet, NSLocale;
+@class NSIndexSet;
 
 @interface PKAutoRefineQueryItem
 {
     struct vector<CGRect, std::allocator<CGRect>> _boundingBoxForTokenColumn;
-    struct vector<CGRect, std::allocator<CGRect>> _rotatedBoundingBoxForTokenColumn;
-    vector_3f2cadd7 _writingOrientationAngleForTokenColumn;
-    CHTokenizedTextResult *_textResult;
-    NSIndexSet *_refinedTokenColumns;
-    NSArray *_strokeIdentifiers;
-    NSArray *_strokesUUIDs;
-    NSIndexSet *_refinableStrokes;
-    NSLocale *_locale;
 }
 
 - (double);
@@ -29,19 +21,14 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)+;
+- (id)Packet;
 - (id);
 - (void)![Ð!,Cùqß1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSIndexSet *refinableStrokes; // @synthesize refinableStrokes=_refinableStrokes;
 @property(copy, nonatomic) NSIndexSet *refinedTokenColumns; // @synthesize refinedTokenColumns=_refinedTokenColumns;
-@property(readonly, copy, nonatomic) NSArray *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *strokesUUIDs; // @synthesize strokesUUIDs=_strokesUUIDs;
-@property(readonly, copy, nonatomic) CHTokenizedTextResult *textResult; // @synthesize textResult=_textResult;
 
 @end
 

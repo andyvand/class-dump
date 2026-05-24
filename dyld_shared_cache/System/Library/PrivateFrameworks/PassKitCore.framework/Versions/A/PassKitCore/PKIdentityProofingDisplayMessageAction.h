@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKIdentityProofingDisplayMessageAction
 {
     NSString *_title;
-    long long _actionType;
-    NSURL *_actionURL;
 }
 
 + (_Bool)X"!Gùî%1Â0@ù
@@ -20,18 +18,16 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)sectionAsString:(id)arg1;
+- (void)timerFiringCount;
 - (id);
 - (id);
-- (id)uestForSuperEasyProvisioning:(id)arg1 sid:completion: /* Error: Ran out of types for this method. */;
-- (id)onInformation;
+- (id)_updateRequirementsRequestForSuperEasyProvisioning:(id)arg1 sid:completion: /* Error: Ran out of types for this method. */;
+- (id)PKApplyVerificationInformation;
 - (id)ed in.;
-- (void)in;
+- (void)encryptionCertificateChain;
 
 // Remaining properties
-@property(readonly, nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) NSURL *actionURL; // @synthesize actionURL=_actionURL;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -7,7 +7,6 @@
 @interface JetEngine.Unstable.Accounts
 {
     id backingStore;
-    id _activeiTunesAccount;
 }
 
 - (void);

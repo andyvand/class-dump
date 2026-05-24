@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKApplicationMessageAction, PKApplicationMessageContentDefault, PKApplicationMessageGroupDescriptor;
+@class PKApplicationMessageContentDefault;
 
 @interface PKApplicationMessageContent
 {
     long long _type;
-    PKApplicationMessageGroupDescriptor *_group;
-    PKApplicationMessageAction *_action;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -18,17 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)UPayloadEncryption:failed to load key from keychain so we can't encrypt data. Returning nil. /* Error: Ran out of types for this method. */;
+- (void)85;
 - (id)ceIdentifier;
 - (id)",&,N,V_manageability;
-- (void)ACTION_DECLINED_REASON_VERIFICATION_FAILED_SECURITY_CODE;
+- (void)TRANSACTION_DECLINED_REASON_VERIFICATION_FAILED_SECURITY_CODE;
 
 // Remaining properties
-@property(readonly, nonatomic) PKApplicationMessageAction *action; // @synthesize action=_action;
 @property(readonly, nonatomic) PKApplicationMessageContentDefault *contentTypeDefault;
-@property(readonly, nonatomic) PKApplicationMessageGroupDescriptor *group; // @synthesize group=_group;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -7,16 +7,6 @@
 @interface NewsFeed.DebugFormatLogViewController
 {
     id editor;
-    id styler;
-    id tableView;
-    id consolePaneDisplayController;
-    id entries;
-    id unfilteredEntries;
-    id filter;
-    id $__lazy_storage_$_nowBarButtonItem;
-    id $__lazy_storage_$_clearLogBarButtonItem;
-    id searchBar;
-    id throttler;
 }
 
 - (void);
@@ -32,7 +22,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void)q½ÿÿÿÿÿè;
 - (void)u(:?Ø /* Error: Ran out of types for this method. */;
 - (void);

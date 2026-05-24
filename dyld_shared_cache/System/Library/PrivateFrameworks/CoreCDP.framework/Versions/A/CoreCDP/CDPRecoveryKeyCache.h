@@ -11,7 +11,7 @@
     AAFKeychainManager *_keychainManager;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);

@@ -11,19 +11,17 @@
 @interface FCGetNewsletterSubscriptionOperation : FCOperation
 {
     FCNewsletterEndpointConnection *_endpointConnection;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void)dyTwoStreaks;
-- (void)ta;
+- (CDUnknownBlockType)principal '%@';
+- (void)streakNotificationBodyTwoStreaks;
+- (void)thumbnailHQMetadata;
 - (void)d to initialize FCNewsTabiRecipeDiversificationInputConfiguration due to failure to decode nonBundleInputConfiguration from configuration %{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain, nonatomic) FCNewsletterEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
 
 @end

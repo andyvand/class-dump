@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface _DPBitValueMap
 {
     NSString *_key;
-    NSDictionary *_map;
 }
 
 + (void);
@@ -19,14 +18,13 @@
 + (void);
 - (id);
 - (id);
+- (id)i;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)ed key window was not NSApp.keyWindow;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSDictionary *map; // @synthesize map=_map;
 
 @end
 

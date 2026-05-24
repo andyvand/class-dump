@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, MNArrivalInfo, MNLocation, MNNavigationSession, MNNavigationSessionState, NSString;
 @protocol MNLocationTrackerDelegate;
 
 @interface MNLocationTracker
 {
     id <MNLocationTrackerDelegate> _delegate;
-    int _state;
-    GEOApplicationAuditToken *_auditToken;
-    MNLocation *_lastMatchedLocation;
-    unsigned long long _targetLegIndex;
-    MNNavigationSession *_navigationSession;
-    _Bool _localizeRoadNames;
-    _Bool _hasVisitedFirstStop;
-    unsigned long long _navigationCapabilities;
-    MNNavigationSessionState *_navigationSessionState;
-    MNArrivalInfo *_arrivalInfo;
 }
 
+- (void);
 - (void);
 - (void);
+- (void);
+- (void)AccessibilityNode;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)IndexWrappingVisitor;
+- (void)EmptyMatchedTransitionSourceConfiguration;
 - (_Bool);
-- (_Bool);
+- (_Bool)Z7Tl
+;
 - (void);
 - (void);
+- (void)LargeSidebarFooterAddButtonStyle;
 - (void);
-- (void);
-- (void);
+- (void)TitleAndIconLabelStyle;
 - (id);
 - (id);
 - (unsigned long long);
@@ -45,22 +35,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);;
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)AlertEnvironment;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)PreferenceKey;
 - (void);
 - (void);
 - (void);
@@ -75,40 +65,19 @@
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)oller";
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)imeAndDistanceUpdater"16Q24d32d40;
 - (void)nager";
-- (int)mp;
+- (int)_relativeTimestamp;
 - (void))þÿrþÿ²'þÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MNArrivalInfo *arrivalInfo; // @synthesize arrivalInfo=_arrivalInfo;
-@property(retain, nonatomic, getter=_auditToken, setter=_setAuditToken:) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <MNLocationTrackerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArrived;
-@property(readonly, nonatomic) _Bool hasArrivedAtFinalDestination;
-@property(readonly, nonatomic) _Bool hasVisitedFirstStop; // @synthesize hasVisitedFirstStop=_hasVisitedFirstStop;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRerouting;
-@property(readonly, nonatomic) MNLocation *lastMatchedLocation; // @synthesize lastMatchedLocation=_lastMatchedLocation;
-@property(nonatomic) unsigned long long navigationCapabilities; // @synthesize navigationCapabilities=_navigationCapabilities;
-@property(readonly, nonatomic) __weak MNNavigationSession *navigationSession; // @synthesize navigationSession=_navigationSession;
-@property(copy, nonatomic) MNNavigationSessionState *navigationSessionState; // @synthesize navigationSessionState=_navigationSessionState;
-@property(readonly, nonatomic) _Bool shouldProjectAlongRoute;
-@property(nonatomic, setter=_setState:) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic, setter=_setTargetLegIndex:) unsigned long long targetLegIndex; // @synthesize targetLegIndex=_targetLegIndex;
-@property(readonly, nonatomic) int transportType;
 
 @end
 

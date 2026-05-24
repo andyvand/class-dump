@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryAnchor, CNGroup, NSNumber, NSString;
+@class NSString;
 
 @interface CNChangeHistoryGroupChange
 {
     NSString *_groupIdentifier;
-    long long _changeType;
-    CNGroup *_group;
-    CNChangeHistoryAnchor *_changeAnchor;
-    NSNumber *_changeID;
-    NSString *_externalID;
-    NSString *_externalURI;
-    NSString *_externalModificationTag;
 }
 
-+ (_Bool);
++ (_Bool)%;
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)ng ;
+- (id);
+- (void);
+- (id)h;
 - (id);
 - (void);
 - (void);
@@ -41,14 +34,7 @@
 - (void)28;
 
 // Remaining properties
-@property(retain, nonatomic) CNChangeHistoryAnchor *changeAnchor; // @synthesize changeAnchor=_changeAnchor;
-@property(retain, nonatomic) NSNumber *changeID; // @synthesize changeID=_changeID;
 @property(nonatomic) long long changeType; // @synthesize changeType=_changeType;
-@property(retain, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
-@property(retain, nonatomic) NSString *externalModificationTag; // @synthesize externalModificationTag=_externalModificationTag;
-@property(retain, nonatomic) NSString *externalURI; // @synthesize externalURI=_externalURI;
-@property(retain, nonatomic) CNGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 
 @end
 

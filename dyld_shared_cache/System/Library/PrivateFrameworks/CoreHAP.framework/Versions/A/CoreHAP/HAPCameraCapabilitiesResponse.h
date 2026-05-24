@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCameraSensors, HAPTLVUnsignedNumberValue, NSMutableArray, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraCapabilitiesResponse
 {
     HAPTLVUnsignedNumberValue *_version;
-    NSMutableArray *_videoStreamCapabilities;
-    HAPCameraSensors *_cameraSensors;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)getSegmentVersion:(id)arg1 config:stream: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void)@"CBPeripheral"24;
 
 // Remaining properties
-@property(retain, nonatomic) HAPCameraSensors *cameraSensors; // @synthesize cameraSensors=_cameraSensors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *version; // @synthesize version=_version;
-@property(retain, nonatomic) NSMutableArray *videoStreamCapabilities; // @synthesize videoStreamCapabilities=_videoStreamCapabilities;
 
 @end
 

@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)I;
 
 // Remaining properties
 @property(retain, nonatomic) EWSFolderType *Folder; // @synthesize Folder=_Folder;

@@ -7,16 +7,6 @@
 @interface JetEngine.BrotliCursor__priv_0549EB54255FBBB16CDF12939BA0B863
 {
     id inputBufferSize;
-    id outputBufferSize;
-    id inputBuffer;
-    id outputBuffer;
-    id inputStream;
-    id outputStream;
-    id availableIn;
-    id nextIn;
-    id availableOut;
-    id nextOut;
-    id totalBytesRead;
 }
 
 @end

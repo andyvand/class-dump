@@ -7,7 +7,6 @@
 @interface AppStoreKit.SearchGhostHintMetricsTracker
 {
     id trackedExpansion;
-    id searchGhostHintTermLastDisplayed;
 }
 
 @end

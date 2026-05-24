@@ -5,5 +5,6 @@
 //
 
 @protocol SPUnknownDiscoveryXPCClientProtocol
+- (void);
 @end
 

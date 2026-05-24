@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBString;
-
 @interface _INPBHomeEntity
 {
     CDStruct_95bda58d _deviceTypes;
-    struct {
-        unsigned int deviceType:1;
-        unsigned int entityType:1;
-        unsigned int sceneType:1;
-    } _has;
-    int _deviceType;
-    int _entityType;
-    int _sceneType;
-    NSString *_entityIdentifier;
-    _INPBDataString *_entityName;
-    _INPBDataString *_group;
-    _INPBDataString *_home;
-    _INPBString *_name;
-    _INPBDataString *_room;
-    _INPBDataString *_zone;
-    NSArray *_zones;
 }
 
 + (Class);
@@ -35,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -56,12 +38,13 @@
 - (int);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (int);
+- (_Bool)pc data length too short for user name offset 
+;
+- (void)nal CTA.;
+- (int)dentifier:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)U;
 - (_Bool);
 - (void);
 - (id);
@@ -77,55 +60,25 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)ABC snapshot response:(id)arg1 %@;
+- (void)rkName, skipping for presentation;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (int);
-- (int);
+- (int);
 - (id)1Â0@ù
 × ;
 - (void)8;
-- (void)ailure;
+- (void)INPayBillIntentResponseCodeFailure;
 - (id);
 - (id);
 - (void)Kíÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) int *deviceTypes;
-@property(readonly, nonatomic) unsigned long long deviceTypesCount;
-@property(copy, nonatomic) NSString *entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
-@property(retain, nonatomic) _INPBDataString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(retain, nonatomic) _INPBDataString *group; // @synthesize group=_group;
-@property(nonatomic) _Bool hasDeviceType;
-@property(readonly, nonatomic) _Bool hasEntityIdentifier;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasGroup;
-@property(readonly, nonatomic) _Bool hasHome;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasRoom;
-@property(nonatomic) _Bool hasSceneType;
-@property(readonly, nonatomic) _Bool hasZone;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBDataString *home; // @synthesize home=_home;
-@property(retain, nonatomic) _INPBString *name; // @synthesize name=_name;
-@property(retain, nonatomic) _INPBDataString *room; // @synthesize room=_room;
-@property(nonatomic) int sceneType; // @synthesize sceneType=_sceneType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDataString *zone; // @synthesize zone=_zone;
-@property(copy, nonatomic) NSArray *zones; // @synthesize zones=_zones;
-@property(readonly, nonatomic) unsigned long long zonesCount;
 
 @end
 

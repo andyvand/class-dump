@@ -6,18 +6,9 @@
 
 #import <PhotoImaging/PICompositionExporterOptions.h>
 
-@class NSString;
-
 @interface PICompositionExporterVideoOptions : PICompositionExporterOptions
 {
     _Bool _preserveSourceColorSpace;
-    _Bool _bypassOutputSettingsIfNoComposition;
-    _Bool _applyVideoOrientationAsMetadata;
-    _Bool _requireHardwareEncoder;
-    _Bool _includeCinematicVideoTracks;
-    _Bool _computeDigest;
-    CDUnknownBlockType _metadataProcessor;
-    NSString *_videoCodecType;
 }
 
 - (void);
@@ -28,27 +19,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)mumDensity: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)regionWithSubregionsOfMinimumDensity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool applyVideoOrientationAsMetadata; // @synthesize applyVideoOrientationAsMetadata=_applyVideoOrientationAsMetadata;
-@property(nonatomic) _Bool bypassOutputSettingsIfNoComposition; // @synthesize bypassOutputSettingsIfNoComposition=_bypassOutputSettingsIfNoComposition;
-@property(nonatomic) _Bool computeDigest; // @synthesize computeDigest=_computeDigest;
-@property(nonatomic) _Bool includeCinematicVideoTracks; // @synthesize includeCinematicVideoTracks=_includeCinematicVideoTracks;
 @property(copy) CDUnknownBlockType metadataProcessor; // @synthesize metadataProcessor=_metadataProcessor;
-@property(nonatomic) _Bool preserveSourceColorSpace; // @synthesize preserveSourceColorSpace=_preserveSourceColorSpace;
-@property(nonatomic) _Bool requireHardwareEncoder; // @synthesize requireHardwareEncoder=_requireHardwareEncoder;
-@property(copy, nonatomic) NSString *videoCodecType; // @synthesize videoCodecType=_videoCodecType;
 
 @end
 

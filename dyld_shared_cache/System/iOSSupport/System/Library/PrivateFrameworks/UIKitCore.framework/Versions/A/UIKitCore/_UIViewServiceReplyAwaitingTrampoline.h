@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)eOrientation:(id)arg1 duration: /* Error: Ran out of types for this method. */;
+- (void)window:(id)arg1 willRotateToInterfaceOrientation:duration: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTPaymentMethod : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -25,15 +22,13 @@
 - (id)
 × ;
 - (id)T@"SISchemaUEISiriCarCommandFailed",&,N,V_failed;
-- (id)ventMetadata;
+- (id)ANCSchemaANCClientEventMetadata;
 - (_Bool)Út!;
 - (_Bool)úµÿø;
 - (void)Ü);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLValueSource, NSString;
-@protocol EFSQLValueExpressable;
+@class EFSQLValueSource;
 
 @interface EFSQLGeneratorComparisonPredicateNode
 {
     EFSQLValueSource *_valueSource;
-    unsigned long long _predicateOperator;
-    id <EFSQLValueExpressable> _constantValue;
-    EFSQLValueSource *_comparisonSource;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`
+;
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EFSQLValueSource *comparisonSource; // @synthesize comparisonSource=_comparisonSource;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> constantValue; // @synthesize constantValue=_constantValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long predicateOperator; // @synthesize predicateOperator=_predicateOperator;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> sqlExpressable;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) EFSQLValueSource *valueSource; // @synthesize valueSource=_valueSource;
 
 @end

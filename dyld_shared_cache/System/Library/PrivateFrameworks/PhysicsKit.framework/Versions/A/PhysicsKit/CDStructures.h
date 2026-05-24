@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -13,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
@@ -23,31 +21,18 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CGVector {
-    double dx;
-    double dy;
+    double _field1;
+    double _field2;
 };
 
 struct PKCField;
 
 struct PKCGrid;
-
-struct PKCPathHolder;
-
-struct PKContactListener {
-    CDUnknownFunctionPointerType *_vptr$b2ContactListener;
-    NSMutableDictionary *_contacts;
-    id _contactDelegate;
-};
-
-struct PKDebugDrawPacket {
-    struct vector<PKPoint, std::allocator<PKPoint>> _linePoints;
-    struct vector<PKDebugDrawPacket::color4, std::allocator<PKDebugDrawPacket::color4>> _colors;
-};
 
 struct PKPath;
 
@@ -60,97 +45,7 @@ struct QuadTree;
 
 struct __shared_weak_count;
 
-struct b2Body {
-    _Bool _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-    unsigned int _field4;
-    unsigned int _field5;
-    int _field6;
-    unsigned short _field7;
-    int _field8;
-    struct b2Transform _field9;
-    struct b2Transform _field10;
-    struct b2Sweep _field11;
-    struct b2Vec2 _field12;
-    float _field13;
-    struct b2Vec2 _field14;
-    float _field15;
-    struct b2World *_field16;
-    struct b2Body *_field17;
-    struct b2Body *_field18;
-    struct b2Fixture *_field19;
-    int _field20;
-    struct b2JointEdge *_field21;
-    struct b2ContactEdge *_field22;
-    float _field23;
-    float _field24;
-    float _field25;
-    float _field26;
-    float _field27;
-    float _field28;
-    float _field29;
-    float _field30;
-    void *_field31;
-};
-
-struct b2BodyDef {
-    _Bool _sk_affectedByGravity;
-    unsigned int _sk_fieldCategoryBitMask;
-    unsigned int _sk_categoryBitMask;
-    unsigned int _sk_collisionBitMask;
-    unsigned int _sk_intersectionCallbackBitMask;
-    int type;
-    struct b2Vec2 position;
-    float angle;
-    struct b2Vec2 linearVelocity;
-    float angularVelocity;
-    float charge;
-    float linearDamping;
-    float angularDamping;
-    _Bool allowSleep;
-    _Bool awake;
-    _Bool fixedRotation;
-    _Bool bullet;
-    _Bool active;
-    void *userData;
-};
-
-struct b2ContactEdge;
-
-struct b2DistanceJoint {
-    CDUnknownFunctionPointerType *_field1;
-    int _field2;
-    struct b2Joint *_field3;
-    struct b2Joint *_field4;
-    struct b2JointEdge _field5;
-    struct b2JointEdge _field6;
-    struct b2Body *_field7;
-    struct b2Body *_field8;
-    _Bool _field9;
-    _Bool _field10;
-    void *_field11;
-    float _field12;
-    float _field13;
-    float _field14;
-    struct b2Vec2 _field15;
-    struct b2Vec2 _field16;
-    float _field17;
-    float _field18;
-    float _field19;
-    int _field20;
-    int _field21;
-    struct b2Vec2 _field22;
-    struct b2Vec2 _field23;
-    struct b2Vec2 _field24;
-    struct b2Vec2 _field25;
-    struct b2Vec2 _field26;
-    float _field27;
-    float _field28;
-    float _field29;
-    float _field30;
-    float _field31;
-};
+struct b2Body;
 
 struct b2DistanceJointDef {
     int type;
@@ -206,56 +101,6 @@ struct b2JointEdge {
     struct b2JointEdge *_field4;
 };
 
-struct b2Mat33 {
-    struct b2Vec3 _field1;
-    struct b2Vec3 _field2;
-    struct b2Vec3 _field3;
-};
-
-struct b2PrismaticJoint {
-    CDUnknownFunctionPointerType *_field1;
-    int _field2;
-    struct b2Joint *_field3;
-    struct b2Joint *_field4;
-    struct b2JointEdge _field5;
-    struct b2JointEdge _field6;
-    struct b2Body *_field7;
-    struct b2Body *_field8;
-    _Bool _field9;
-    _Bool _field10;
-    void *_field11;
-    struct b2Vec2 _field12;
-    struct b2Vec2 _field13;
-    struct b2Vec2 _field14;
-    struct b2Vec2 _field15;
-    float _field16;
-    struct b2Vec3 _field17;
-    float _field18;
-    float _field19;
-    float _field20;
-    float _field21;
-    float _field22;
-    _Bool _field23;
-    _Bool _field24;
-    int _field25;
-    int _field26;
-    int _field27;
-    struct b2Vec2 _field28;
-    struct b2Vec2 _field29;
-    float _field30;
-    float _field31;
-    float _field32;
-    float _field33;
-    struct b2Vec2 _field34;
-    struct b2Vec2 _field35;
-    float _field36;
-    float _field37;
-    float _field38;
-    float _field39;
-    struct b2Mat33 _field40;
-    float _field41;
-};
-
 struct b2PrismaticJointDef {
     int type;
     void *userData;
@@ -272,44 +117,6 @@ struct b2PrismaticJointDef {
     _Bool enableMotor;
     float maxMotorForce;
     float motorSpeed;
-};
-
-struct b2RevoluteJoint {
-    CDUnknownFunctionPointerType *_field1;
-    int _field2;
-    struct b2Joint *_field3;
-    struct b2Joint *_field4;
-    struct b2JointEdge _field5;
-    struct b2JointEdge _field6;
-    struct b2Body *_field7;
-    struct b2Body *_field8;
-    _Bool _field9;
-    _Bool _field10;
-    void *_field11;
-    struct b2Vec2 _field12;
-    struct b2Vec2 _field13;
-    struct b2Vec3 _field14;
-    float _field15;
-    _Bool _field16;
-    float _field17;
-    float _field18;
-    _Bool _field19;
-    float _field20;
-    float _field21;
-    float _field22;
-    int _field23;
-    int _field24;
-    struct b2Vec2 _field25;
-    struct b2Vec2 _field26;
-    struct b2Vec2 _field27;
-    struct b2Vec2 _field28;
-    float _field29;
-    float _field30;
-    float _field31;
-    float _field32;
-    struct b2Mat33 _field33;
-    float _field34;
-    int _field35;
 };
 
 struct b2RevoluteJointDef {
@@ -329,38 +136,6 @@ struct b2RevoluteJointDef {
     float maxMotorTorque;
 };
 
-struct b2RopeJoint {
-    CDUnknownFunctionPointerType *_field1;
-    int _field2;
-    struct b2Joint *_field3;
-    struct b2Joint *_field4;
-    struct b2JointEdge _field5;
-    struct b2JointEdge _field6;
-    struct b2Body *_field7;
-    struct b2Body *_field8;
-    _Bool _field9;
-    _Bool _field10;
-    void *_field11;
-    struct b2Vec2 _field12;
-    struct b2Vec2 _field13;
-    float _field14;
-    float _field15;
-    float _field16;
-    int _field17;
-    int _field18;
-    struct b2Vec2 _field19;
-    struct b2Vec2 _field20;
-    struct b2Vec2 _field21;
-    struct b2Vec2 _field22;
-    struct b2Vec2 _field23;
-    float _field24;
-    float _field25;
-    float _field26;
-    float _field27;
-    float _field28;
-    int _field29;
-};
-
 struct b2RopeJointDef {
     int type;
     void *userData;
@@ -372,63 +147,11 @@ struct b2RopeJointDef {
     float maxLength;
 };
 
-struct b2Rot {
-    float _field1;
-    float _field2;
-};
-
 struct b2Shape;
-
-struct b2Sweep {
-    struct b2Vec2 _field1;
-    union b2Position _field2;
-    union b2Position _field3;
-    float _field4;
-};
-
-struct b2Transform {
-    struct b2Vec2 _field1;
-    struct b2Rot _field2;
-};
 
 struct b2Vec2 {
     float x;
     float y;
-};
-
-struct b2Vec3 {
-    float _field1;
-    float _field2;
-    float _field3;
-};
-
-struct b2WeldJoint {
-    CDUnknownFunctionPointerType *_field1;
-    int _field2;
-    struct b2Joint *_field3;
-    struct b2Joint *_field4;
-    struct b2JointEdge _field5;
-    struct b2JointEdge _field6;
-    struct b2Body *_field7;
-    struct b2Body *_field8;
-    _Bool _field9;
-    _Bool _field10;
-    void *_field11;
-    struct b2Vec2 _field12;
-    struct b2Vec2 _field13;
-    float _field14;
-    struct b2Vec3 _field15;
-    int _field16;
-    int _field17;
-    struct b2Vec2 _field18;
-    struct b2Vec2 _field19;
-    struct b2Vec2 _field20;
-    struct b2Vec2 _field21;
-    float _field22;
-    float _field23;
-    float _field24;
-    float _field25;
-    struct b2Mat33 _field26;
 };
 
 struct b2WeldJointDef {
@@ -442,8 +165,6 @@ struct b2WeldJointDef {
     float referenceAngle;
 };
 
-struct b2World;
-
 struct shared_ptr<PKCField> {
     struct PKCField *__ptr_;
     struct __shared_weak_count *__cntrl_;
@@ -454,43 +175,14 @@ struct shared_ptr<PKCGrid> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<PKCPathHolder> {
-    struct PKCPathHolder *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<PKPath> {
-    struct PKPath *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct PKPath *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<QuadTree> {
     struct QuadTree *__ptr_;
     struct __shared_weak_count *__cntrl_;
-};
-
-struct vec4 {
-    id v;
-};
-
-struct vector<PKDebugDrawPacket::color4, std::allocator<PKDebugDrawPacket::color4>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
-struct vector<PKPhysicsShape *, std::allocator<PKPhysicsShape *>> {
-    struct PKPhysicsShape **__begin_;
-    struct PKPhysicsShape **__end_;
-    struct {
-        struct PKPhysicsShape **__cap_;
-    } ;
-};
-
-struct vector<PKPoint, std::allocator<PKPoint>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
 };
 
 #pragma mark Typedef'd Structures
@@ -499,12 +191,6 @@ typedef struct {
     float _field1;
     float _field2;
 } CDStruct_b2fbf00d;
-
-typedef struct CDStruct_183601bc;
-
-typedef struct {
-    CDStruct_183601bc *__cap_;
-} CDStruct_669ce3ce;
 
 typedef struct {
     CDStruct_b2fbf00d _field1;
@@ -523,17 +209,7 @@ typedef struct shared_ptr<PKCGrid> {
 } shared_ptr_c9c6a83f;
 
 typedef struct shared_ptr<PKPath> {
-    struct PKPath *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_2aaf3a07;
-
-#pragma mark Named Unions
-
-union b2Position {
-    struct {
-        struct b2Vec2 _field1;
-        float _field2;
-        float _field3;
-    } _field1;
-};
+    struct PKPath *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_05ccfe2f;
 

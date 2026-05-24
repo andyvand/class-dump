@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface AFEnablementConfiguration
 {
     _Bool _voiceSelectionAllowsRandomSelection;
-    _Bool _requiresVoiceSelection;
-    CDUnknownBlockType _completionLoggingBlock;
-    NSDictionary *_voiceCountForRecognitionLanguage;
 }
 
 - (_Bool);
@@ -23,10 +18,7 @@
 - (void)ueryParameters;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) CDUnknownBlockType completionLoggingBlock; // @synthesize completionLoggingBlock=_completionLoggingBlock;
 @property(readonly, nonatomic) _Bool requiresVoiceSelection; // @synthesize requiresVoiceSelection=_requiresVoiceSelection;
-@property(readonly, nonatomic) NSDictionary *voiceCountForRecognitionLanguage; // @synthesize voiceCountForRecognitionLanguage=_voiceCountForRecognitionLanguage;
-@property(readonly, nonatomic) _Bool voiceSelectionAllowsRandomSelection; // @synthesize voiceSelectionAllowsRandomSelection=_voiceSelectionAllowsRandomSelection;
 
 @end
 

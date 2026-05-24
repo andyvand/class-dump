@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void)aximumTriesExceededViewInAppStoreButton;
+- (void)PINMaximumTriesExceededViewInAppStoreButton;
 - (id)üìÿ;
 
 // Remaining properties

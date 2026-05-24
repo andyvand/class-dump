@@ -7,16 +7,14 @@
 @interface MediaPlaybackCore.PodcastsArtworkCatalogDataSource
 {
     id artworkLoader;
-    id storeArtworkDataSource;
-    id cache;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)<;
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void)UID:%{public}@ /* Error: Ran out of types for this method. */;
 

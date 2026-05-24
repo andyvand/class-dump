@@ -7,9 +7,6 @@
 @interface NewsUI2.TagFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
-    id featureAvailability;
 }
 
 @end

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id)nSelector(__unsafe_unretained Class _Nonnull, SEL _Nonnull);
 
 @end
 

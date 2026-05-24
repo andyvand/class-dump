@@ -4,38 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OTEscrowRecordMetadata;
-
 @interface OTEscrowRecord
 {
     unsigned long long _coolOffEnd;
-    unsigned long long _creationDate;
-    unsigned long long _remainingAttempts;
-    unsigned long long _silentAttemptAllowed;
-    OTEscrowRecordMetadata *_escrowInformationMetadata;
-    NSString *_expectedFederationId;
-    NSString *_federationId;
-    NSString *_label;
-    NSString *_recordId;
-    int _recordStatus;
-    int _recordViability;
-    int _recoveryStatus;
-    NSString *_serialNumber;
-    int _viabilityStatus;
-    struct {
-        unsigned int coolOffEnd:1;
-        unsigned int creationDate:1;
-        unsigned int remainingAttempts:1;
-        unsigned int silentAttemptAllowed:1;
-        unsigned int recordStatus:1;
-        unsigned int recordViability:1;
-        unsigned int recoveryStatus:1;
-        unsigned int viabilityStatus:1;
-    } _has;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -81,12 +56,12 @@
 - (int);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)+;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)6@24;
+- (id)getVolumeRampForTime:startVolume:endVolume:timeRange:rampMode: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -97,41 +72,14 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)n;
 - (void);
-- (void);
-- (void);
+- (void)p;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long coolOffEnd; // @synthesize coolOffEnd=_coolOffEnd;
-@property(nonatomic) unsigned long long creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) OTEscrowRecordMetadata *escrowInformationMetadata; // @synthesize escrowInformationMetadata=_escrowInformationMetadata;
-@property(retain, nonatomic) NSString *expectedFederationId; // @synthesize expectedFederationId=_expectedFederationId;
-@property(retain, nonatomic) NSString *federationId; // @synthesize federationId=_federationId;
-@property(nonatomic) _Bool hasCoolOffEnd;
 @property(nonatomic) _Bool hasCreationDate;
-@property(readonly, nonatomic) _Bool hasEscrowInformationMetadata;
-@property(readonly, nonatomic) _Bool hasExpectedFederationId;
-@property(readonly, nonatomic) _Bool hasFederationId;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasRecordId;
-@property(nonatomic) _Bool hasRecordStatus;
-@property(nonatomic) _Bool hasRecordViability;
-@property(nonatomic) _Bool hasRecoveryStatus;
-@property(nonatomic) _Bool hasRemainingAttempts;
-@property(readonly, nonatomic) _Bool hasSerialNumber;
-@property(nonatomic) _Bool hasSilentAttemptAllowed;
-@property(nonatomic) _Bool hasViabilityStatus;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *recordId; // @synthesize recordId=_recordId;
-@property(nonatomic) int recordStatus; // @synthesize recordStatus=_recordStatus;
-@property(nonatomic) int recordViability; // @synthesize recordViability=_recordViability;
-@property(nonatomic) int recoveryStatus; // @synthesize recoveryStatus=_recoveryStatus;
-@property(nonatomic) unsigned long long remainingAttempts; // @synthesize remainingAttempts=_remainingAttempts;
-@property(retain, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(nonatomic) unsigned long long silentAttemptAllowed; // @synthesize silentAttemptAllowed=_silentAttemptAllowed;
-@property(nonatomic) int viabilityStatus; // @synthesize viabilityStatus=_viabilityStatus;
 
 @end
 

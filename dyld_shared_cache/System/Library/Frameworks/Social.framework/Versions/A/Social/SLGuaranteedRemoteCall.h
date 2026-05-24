@@ -7,7 +7,6 @@
 @interface SLGuaranteedRemoteCall
 {
     CDUnknownBlockType _block;
-    id _proxy;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(retain) id proxy; // @synthesize proxy=_proxy;
 
 @end
 

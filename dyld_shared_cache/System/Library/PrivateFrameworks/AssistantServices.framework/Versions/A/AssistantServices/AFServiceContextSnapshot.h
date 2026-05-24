@@ -11,7 +11,7 @@
     NSDate *_deliveryDate;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);

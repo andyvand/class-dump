@@ -12,10 +12,10 @@
 }
 
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (void)gPreviewDisableClock: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)setSegmentationDebugPreviewDisableClock: /* Error: Ran out of types for this method. */;
+- (void)blueColor;
 - (id)OÔP;
 
 // Remaining properties

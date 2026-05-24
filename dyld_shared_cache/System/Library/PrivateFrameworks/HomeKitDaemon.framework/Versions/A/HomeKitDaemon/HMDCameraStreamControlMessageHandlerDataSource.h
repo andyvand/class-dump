@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraNetworkConfig, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCameraStreamControlMessageHandlerDataSource
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)descriptorForRequiredKeysForStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteWithObjects:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -23,18 +21,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDCameraNetworkConfig *localNetworkConfig;
-@property(readonly, getter=isResidentCapable) _Bool residentCapable;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsApplicationBackgroundStateMonitoring;
-@property(readonly) _Bool supportsBidirectionalAudioForCameraStreaming;
-@property(readonly) _Bool supportsChangingVolume;
 @property(readonly) _Bool supportsReceivingRemoteCameraStream;
 
 @end

@@ -4,82 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CALayer, NSAppearance, NSArray, NSColor;
-
 __attribute__((visibility("hidden")))
 @interface _MKPuckAccuracyLayer
 {
     unsigned long long _mapType;
-    NSColor *_tintColor;
-    _Bool _stale;
-    double _minimumRadius;
-    _Bool _externallyHidden;
-    _Bool _internallyHidden;
-    _Bool _shouldShowAnimationsIfAvailable;
-    NSColor *_fullOpacityFillColor;
-    double _baseOpacity;
-    double _additionalOpacityMultiplier;
-    NSColor *_fullOpacityStrokeColor;
-    double _baseStrokeOpacity;
-    double _additionalStrokeOpacityMultiplier;
-    NSAppearance *_effectiveAppearance;
-    _Bool _faux3DEnabled;
-    _Bool _useDarkAppearance;
-    double _mapPitchRadians;
-    double _mapCameraDistance;
-    CALayer *_ring;
-    CAGradientLayer *_faux3DHighlight;
-    CALayer *_faux3DHighlightMask;
-    NSArray *_faux3DHighlightMaskRings;
-    CALayer *_faux3DShadow;
 }
 
 - (void);
 - (void);
 - (struct CGRect);
+- (void)setRemoteObjectInterface:(double)arg1;
+- (void)executionQueue;
+- (void)dateByAddingTimeInterval:(double)arg1;
+- (void)createIdentifierForSubsystem:(double)arg1 category: /* Error: Ran out of types for this method. */;
+- (void)_dynamicCache;
+- (void)_currentStartDate;
+- (void)_accumulatedNetworkEnergy;
+- (void)NSDate",&,V_powerlogTimestampLast;
+- (double)d, %@ at %@) - %@
+;
+- (double)napshot=%@, firstRelevantSnapshot=%@;
+- (double)@', '%@');
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
+- (void)D;
 - (double);
 - (_Bool);
 - (double);
 - (id);
 - (double);
-- (id);
+- (id)CVMLImageprintObservation_VersionCodingKey;
 - (unsigned long long);
-- (void);
+- (void)iggerFirstPassConfig",&,N,V_firstPassConfig;
 - (id);
 - (_Bool);
 - (void);
+- (void)6;
 - (void);
-- (void);
-- (void)meChangedNotifications: /* Error: Ran out of types for this method. */;
+- (void)setPostsFrameChangedNotifications: /* Error: Ran out of types for this method. */;
 - (void)Q$T¼TTUìU¸V¬W;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double accuracy;
-@property(readonly, nonatomic) double currentAccuracy;
-@property(retain, nonatomic) NSAppearance *effectiveAppearance; // @synthesize effectiveAppearance=_effectiveAppearance;
 @property(nonatomic, getter=isFaux3DEnabled) _Bool faux3DEnabled; // @synthesize faux3DEnabled=_faux3DEnabled;
-@property(nonatomic) double mapCameraDistance; // @synthesize mapCameraDistance=_mapCameraDistance;
-@property(nonatomic) double mapPitchRadians; // @synthesize mapPitchRadians=_mapPitchRadians;
-@property(nonatomic) unsigned long long mapType; // @synthesize mapType=_mapType;
-@property(nonatomic) double minimumRadius; // @synthesize minimumRadius=_minimumRadius;
-@property(readonly, nonatomic) double presentationFillOpacity;
-@property(readonly, nonatomic) struct CGRect significantBounds;
-@property(nonatomic, getter=isStale) _Bool stale; // @synthesize stale=_stale;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

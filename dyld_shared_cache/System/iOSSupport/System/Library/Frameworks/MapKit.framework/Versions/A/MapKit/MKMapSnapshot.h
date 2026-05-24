@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIImage, UITraitCollection, VKMapSnapshot;
+@class UIImage, VKMapSnapshot;
 
 @interface MKMapSnapshot
 {
     VKMapSnapshot *_snapshot;
-    UIImage *_image;
-    UITraitCollection *_traitCollection;
-    NSArray *_allTraitCollections;
-    NSArray *_allImages;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)|ї`";
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct CLLocationCoordinate2D);
 - (struct CGPoint);
 - (id);
-- (void)ntLabelText;
-- (id)ate;
+- (void)_updateEnvironmentLabelText;
+- (id)UIAdaptivePresentationControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

@@ -4,49 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegationServiceSecuritySettings, NSDictionary, NSNetService, NSObject, NSString;
+@class NSObject;
 @protocol ICDelegationConsumerNetServiceDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationConsumerNetService
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    _Bool _didPublish;
-    _Bool _isPublished;
-    NSNetService *_netService;
-    NSObject<OS_dispatch_queue> *_netServiceQueue;
-    ICDelegationServiceSecuritySettings *_securitySettings;
-    id <ICDelegationConsumerNetServiceDelegate> _delegate;
-    NSDictionary *_userIdentityDelegationAccountUUIDs;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)public}@;
+- (void)reated new album pid %lld;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Rect={CGPoint=dd}{CGSize=dd}}16d48;
 - (void);
 - (void)
 p8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ICDelegationConsumerNetServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ICDelegationServiceSecuritySettings *securitySettings;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDictionary *userIdentityDelegationAccountUUIDs; // @synthesize userIdentityDelegationAccountUUIDs=_userIdentityDelegationAccountUUIDs;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableArray, NSTimer, UIScreen;
+@class UIScreen;
 
 __attribute__((visibility("hidden")))
 @interface _UIDynamicAnimationState
 {
     UIScreen *_screen;
-    CADisplayLink *_displayLink;
-    NSTimer *_timer;
-    NSMutableArray *_activeAnimations;
-    double _lastUpdateTime;
-    _Bool _shouldSchedYield;
 }
 
 @end

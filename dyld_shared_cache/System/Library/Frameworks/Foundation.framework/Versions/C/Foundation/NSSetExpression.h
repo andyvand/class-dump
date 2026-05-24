@@ -9,7 +9,6 @@
 @interface NSSetExpression : NSExpression
 {
     NSExpression *_left;
-    NSExpression *_right;
 }
 
 + (_Bool)le object with %s;

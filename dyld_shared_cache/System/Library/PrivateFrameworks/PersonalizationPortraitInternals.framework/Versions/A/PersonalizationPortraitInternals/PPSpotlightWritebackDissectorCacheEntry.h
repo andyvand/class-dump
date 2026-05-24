@@ -9,7 +9,6 @@
 @interface PPSpotlightWritebackDissectorCacheEntry
 {
     NSDate *_cachingDate;
-    double _score;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *cachingDate; // @synthesize cachingDate=_cachingDate;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

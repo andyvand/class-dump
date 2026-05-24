@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKPaymentOfferActionResult
 {
     _Bool _didSelectOffer;
-    NSString *_sessionIdentifier;
-    NSString *_provisioningCredentialIdentifier;
-    NSURL *_provisioningCardIconURL;
 }
 
 + (id);
@@ -21,15 +18,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)@y)y	;
 - (void);
 - (void)-card;
-- (id)upAccount;
+- (id)ProvisioningStepSetupAccount;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didSelectOffer; // @synthesize didSelectOffer=_didSelectOffer;
-@property(readonly, nonatomic) NSURL *provisioningCardIconURL; // @synthesize provisioningCardIconURL=_provisioningCardIconURL;
-@property(readonly, nonatomic) NSString *provisioningCredentialIdentifier; // @synthesize provisioningCredentialIdentifier=_provisioningCredentialIdentifier;
 @property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end

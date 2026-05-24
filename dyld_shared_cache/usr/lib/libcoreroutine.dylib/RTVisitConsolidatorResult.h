@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, RTVisitRedactionDetails;
+@class NSArray;
 
 @interface RTVisitConsolidatorResult
 {
     NSArray *_visits;
-    RTVisitRedactionDetails *_redactionDetails;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)n, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, nonatomic) RTVisitRedactionDetails *redactionDetails; // @synthesize redactionDetails=_redactionDetails;
 @property(readonly, nonatomic) NSArray *visits; // @synthesize visits=_visits;
 
 @end

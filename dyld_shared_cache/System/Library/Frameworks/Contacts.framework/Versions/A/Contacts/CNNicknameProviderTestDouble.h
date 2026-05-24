@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CNNicknameProviderTestDouble
 {
     NSMutableDictionary *_filePathsForContacts;
-    NSMutableDictionary *_contactForNickname;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)h;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -27,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -39,15 +38,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *contactForNickname; // @synthesize contactForNickname=_contactForNickname;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableDictionary *filePathsForContacts; // @synthesize filePathsForContacts=_filePathsForContacts;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

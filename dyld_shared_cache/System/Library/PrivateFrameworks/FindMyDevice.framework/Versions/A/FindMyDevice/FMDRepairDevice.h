@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FMDRepairDevice
 {
     _Bool _isThisDevice;
-    NSString *_identifier;
 }
 
-+ (id);
++ (id)talParticleStrokePoint}""{?="__cap_"^{PKMetalParticleStrokePoint}}};
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)ber";
+- (id)tWithGlasses;
+- (void)%@;
 - (_Bool);
-- (id);
+- (id)AGC_FLOAT_TO_FLOAT_RTZ_HW;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) _Bool isThisDevice; // @synthesize isThisDevice=_isThisDevice;
 
 @end

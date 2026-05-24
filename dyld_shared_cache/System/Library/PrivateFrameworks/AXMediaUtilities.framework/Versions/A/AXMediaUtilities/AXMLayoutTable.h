@@ -6,14 +6,12 @@
 
 #import <AXMediaUtilities/AXMLayoutItem.h>
 
-@class AXMLayoutHeader, NSMutableArray;
+@class AXMLayoutHeader;
 
 __attribute__((visibility("hidden")))
 @interface AXMLayoutTable : AXMLayoutItem
 {
     AXMLayoutHeader *_header;
-    NSMutableArray *_rows;
-    NSMutableArray *_columns;
 }
 
 + (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)nnectionConfiguration";
 - (struct CGRect);
 - (void);
 - (id)ð!<Dù±E°1Â0@ù

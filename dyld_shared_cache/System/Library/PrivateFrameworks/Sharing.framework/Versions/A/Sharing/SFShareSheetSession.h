@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SFCollaborationCloudSharingResult;
+@class NSArray;
 
 @interface SFShareSheetSession
 {
     NSArray *_collaborativePeopleSuggestionProxies;
-    NSArray *_nonCollaborativePeopleSuggestionProxies;
-    NSArray *_discoveredActivities;
-    SFCollaborationCloudSharingResult *_collaborationCloudSharingResult;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -28,10 +25,7 @@
 - (void)èþÿ;
 
 // Remaining properties
-@property(retain, nonatomic) SFCollaborationCloudSharingResult *collaborationCloudSharingResult; // @synthesize collaborationCloudSharingResult=_collaborationCloudSharingResult;
 @property(readonly, copy, nonatomic) NSArray *collaborativePeopleSuggestionProxies; // @synthesize collaborativePeopleSuggestionProxies=_collaborativePeopleSuggestionProxies;
-@property(readonly, copy, nonatomic) NSArray *discoveredActivities; // @synthesize discoveredActivities=_discoveredActivities;
-@property(readonly, copy, nonatomic) NSArray *nonCollaborativePeopleSuggestionProxies; // @synthesize nonCollaborativePeopleSuggestionProxies=_nonCollaborativePeopleSuggestionProxies;
 
 @end
 

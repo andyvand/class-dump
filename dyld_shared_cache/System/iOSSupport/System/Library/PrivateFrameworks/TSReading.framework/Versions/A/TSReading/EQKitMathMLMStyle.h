@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (const void *);
+- (const void *)3;
 - (struct Schemata);
 - (int);
-- (_Bool);
+- (_Bool)q;
 - (id);
 
 @end

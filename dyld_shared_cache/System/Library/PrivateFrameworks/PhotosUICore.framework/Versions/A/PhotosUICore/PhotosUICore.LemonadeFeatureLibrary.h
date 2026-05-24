@@ -7,9 +7,6 @@
 @interface PhotosUICore.LemonadeFeatureLibrary
 {
     id photoLibrary;
-    id _hasSignificantRegularAlbumCount;
-    id _hasSignificantSharedAlbumActivities;
-    id _$observationRegistrar;
 }
 
 @end

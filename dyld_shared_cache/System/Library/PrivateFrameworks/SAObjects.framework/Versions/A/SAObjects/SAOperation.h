@@ -6,34 +6,25 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SAOperation : AceObject
 {
 }
 
 + (id);
-+ (id)ionMap;
++ (id)slotResolutionMap;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)u;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *domainId;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *operationId;
-@property(readonly) Class superclass;
 
 @end
 

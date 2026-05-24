@@ -7,25 +7,16 @@
 @interface PGHolidayClassifier
 {
     double _locationWeight;
-    double _dateWeight;
-    double _sceneWeight;
-    double _localeLocationWeight;
-    double _momentLocationWeight;
-    double _edgeCaseSceneWeight;
-    double _mediumSceneWeight;
-    double _importantSceneWeight;
-    double _imperativeSceneWeight;
-    double _celebrationThreshold;
 }
 
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (double);
-- (double);
+- (double)registerListener: /* Error: Ran out of types for this method. */;
+- (double)initWithElement:applicationElement:windowElement:topLevelElement:content:contentTitle:applicationIdentifier:frame: /* Error: Ran out of types for this method. */;
+- (double)childrenOfElement: /* Error: Ran out of types for this method. */;
+- (_Bool)_subtitleText;
+- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -34,16 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double celebrationThreshold; // @synthesize celebrationThreshold=_celebrationThreshold;
-@property(readonly, nonatomic) double dateWeight; // @synthesize dateWeight=_dateWeight;
-@property(readonly, nonatomic) double edgeCaseSceneWeight; // @synthesize edgeCaseSceneWeight=_edgeCaseSceneWeight;
-@property(readonly, nonatomic) double imperativeSceneWeight; // @synthesize imperativeSceneWeight=_imperativeSceneWeight;
-@property(readonly, nonatomic) double importantSceneWeight; // @synthesize importantSceneWeight=_importantSceneWeight;
-@property(readonly, nonatomic) double localeLocationWeight; // @synthesize localeLocationWeight=_localeLocationWeight;
 @property(readonly, nonatomic) double locationWeight; // @synthesize locationWeight=_locationWeight;
-@property(readonly, nonatomic) double mediumSceneWeight; // @synthesize mediumSceneWeight=_mediumSceneWeight;
-@property(readonly, nonatomic) double momentLocationWeight; // @synthesize momentLocationWeight=_momentLocationWeight;
-@property(readonly, nonatomic) double sceneWeight; // @synthesize sceneWeight=_sceneWeight;
 
 @end
 

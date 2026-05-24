@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSArray, NSCloudKitMirroringImportRequest, NSMutableArray, PFCloudKitImporterOptions;
+@class PFCloudKitImporterOptions;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImporter
 {
     PFCloudKitImporterOptions *_options;
-    NSCloudKitMirroringImportRequest *_request;
-    NSArray *_workItems;
-    NSMutableArray *_workItemResults;
-    CKServerChangeToken *_updatedDatabaseChangeToken;
-    unsigned long long _totalImportedBytes;
 }
 
 - (id);

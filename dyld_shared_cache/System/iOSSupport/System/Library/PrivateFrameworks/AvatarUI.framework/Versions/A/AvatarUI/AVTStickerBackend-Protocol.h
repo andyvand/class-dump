@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol AVTStickerBackendDelegate;
 
 @protocol AVTStickerBackend
+- (NSArray *);
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTStickerBackendDelegate> stickerBackendDelegate;

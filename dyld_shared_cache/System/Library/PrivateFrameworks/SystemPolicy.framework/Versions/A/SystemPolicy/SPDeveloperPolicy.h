@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
+@class NSXPCInterface;
 
 @interface SPDeveloperPolicy
 {
     NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
 }
 
 - (_Bool);

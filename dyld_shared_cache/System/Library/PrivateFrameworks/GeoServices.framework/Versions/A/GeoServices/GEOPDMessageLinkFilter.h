@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (id)nTime:osVersion:from: /* Error: Ran out of types for this method. */;
+- (id)_getExpiredKeyPathsOlderThanTime:osVersion:from: /* Error: Ran out of types for this method. */;
 - (id)LlMN@PÌQS4UÔU	XZ[°]<^°deÐi@kÐkÜlmÔmoÜo;
 - (void);
 

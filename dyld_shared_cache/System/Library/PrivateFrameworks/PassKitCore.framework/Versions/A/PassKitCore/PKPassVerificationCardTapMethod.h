@@ -18,9 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)ize:(id)arg1;
+- (id)h;
+- (void)ssidChanged;
+- (id)cardArtSizeForSize:(id)arg1;
 
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFCoercionHandler, WFType;
+@class WFType;
 
 @interface WFCoercion
 {
     WFType *_type;
-    WFCoercionHandler *_handler;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WFCoercionHandler *handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) WFType *type; // @synthesize type=_type;
 
 @end

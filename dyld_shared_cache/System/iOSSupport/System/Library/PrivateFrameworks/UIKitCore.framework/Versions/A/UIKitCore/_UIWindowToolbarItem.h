@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)ent stream to stop returning early;
 - (void);
 - (void);
 - (id);

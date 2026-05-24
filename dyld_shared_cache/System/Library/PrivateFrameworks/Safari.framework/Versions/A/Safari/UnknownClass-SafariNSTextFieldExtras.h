@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SafariNSTextFieldExtras)
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

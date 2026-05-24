@@ -12,7 +12,6 @@
 @interface CDPStateiCloudPrefUIController : CDPStateBaseUIController
 {
     id <CDPiCloudPrefPaneDelegateProtocol> _delegate;
-    CDPiCloudPrefRecoveryKeyController *_cdpiCloudPrefRecoveryKeyController;
 }
 
 - (void);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CDPiCloudPrefRecoveryKeyController *cdpiCloudPrefRecoveryKeyController; // @synthesize cdpiCloudPrefRecoveryKeyController=_cdpiCloudPrefRecoveryKeyController;
-@property(retain, nonatomic) id <CDPiCloudPrefPaneDelegateProtocol> delegate; // @synthesize delegate=_delegate;
 
 @end
 

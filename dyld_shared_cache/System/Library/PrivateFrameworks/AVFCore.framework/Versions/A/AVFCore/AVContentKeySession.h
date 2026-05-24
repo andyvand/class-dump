@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVContentKeyReportGroup, AVContentKeySessionInternal, NSData, NSObject, NSString, NSURL;
-@protocol AVContentKeySessionDelegate, OS_dispatch_queue;
+@class AVContentKeySessionInternal;
 
 @interface AVContentKeySession
 {
     AVContentKeySessionInternal *_session;
-    _Bool _supportsAdvisoryKeys;
 }
 
 + (void);
@@ -22,38 +20,38 @@
 + (id);
 + (void)didEnterForeground];
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)&';
+- (void)o;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)d;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)T((;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void))t);
 - (unsigned long long);
 - (id);
 - (struct OpaqueFigCPECryptor *);
@@ -62,7 +60,7 @@
 - (_Bool);
 - (struct OpaqueFigCPECryptor *);
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (_Bool);
@@ -72,7 +70,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)f;
 - (void);
 - (void);
 - (unsigned long long);
@@ -83,15 +81,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id)i;
+- (id)<f;
 - (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -104,14 +102,7 @@
 - (_Bool)<;
 
 // Remaining properties
-@property(readonly) NSData *contentProtectionSessionIdentifier;
-@property(readonly) AVContentKeyReportGroup *defaultContentKeyGroup;
-@property(readonly) __weak id <AVContentKeySessionDelegate> delegate;
-@property(readonly) NSObject<OS_dispatch_queue> *delegateQueue;
 @property(readonly, nonatomic, getter=isInternal) _Bool internal;
-@property(readonly) NSString *keySystem;
-@property(readonly) NSURL *storageURL;
-@property _Bool supportsAdvisoryKeys; // @synthesize supportsAdvisoryKeys=_supportsAdvisoryKeys;
 
 @end
 

@@ -7,14 +7,20 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)calendar:%@. /* Error: Ran out of types for this method. */;
+- (id)%@, remValue:%@, calendar:%@. /* Error: Ran out of types for this method. */;
+- (id)endar:(SEL)arg1 LOOKATME:(id)arg2 Verifying color format being set to REM:(id)arg3 %@, rawValue:%@, remValue:%@, calendar:%@. /* Error: Ran out of types for this method. */;
+- (id), calendar=%@, stack=%@};
+- (id)REMList for now {setvalue=%@, calendar=%@, stack=%@};
+- (Class)ID:%{public}@} /* Error: Ran out of types for this method. */;
+- (NSString *)fierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IndexKey>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IndexKey>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct _NSZone *);
+
+@optional
+- (NSString *)$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

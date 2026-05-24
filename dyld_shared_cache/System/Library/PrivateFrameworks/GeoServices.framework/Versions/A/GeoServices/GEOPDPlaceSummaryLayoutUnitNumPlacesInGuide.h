@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)DirectionNames:(id)arg1;
++ (_Bool)setIncludeAllDirectionNames:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)RFeatures:(id)arg1 %{public}@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)patialLookupURL"b1"read_tokenAuthenticationURL"b1"read_ugcLogDiscardURL"b1"read_webModuleBaseURL"b1"read_wifiConnectionQualityProbeURL"b1"read_wifiQualityTileURL"b1"read_wifiQualityURL"b1"wrote_anyField"b1};
-- (id)solater;
+- (id)_loadersIsolater;
 - (id)V;
-- (id);
+- (id)industryCategory;
 
 @end
 

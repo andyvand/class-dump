@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UICubicPolyTangent
 {
     double _initialLinearGain;
-    double _parabolicGain;
-    double _cubicGain;
-    double _quarticGain;
-    double _tangentLineSpeed;
-    double _tangentSqrtSpeed;
-    double _tangentCbrtSpeed;
-    double _tangentHyperCbrtSpeed;
 }
 
 + (id);
@@ -29,17 +20,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)rsation"24@"TUConversationParticipant"32@"TUCollaborationNotice"40;
+- (void)userNotificationCenter:(double)arg1 willPresentNotification:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)setScheduledMessageOriginalTransferGUIDs:(double)arg1;
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)loadPTasksWithPredicate:sortDescriptors:limit:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)loadPTasksWithPredicate:(double)arg1 sortDescriptors:limit:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)ionBlock:(double)arg1;
+- (double)handler:incomingMessage:originalEncryptionType:messageID:toIdentifier:fromIdentifier:fromToken:timeStamp:fromIDSID:incomingEngroup:needsDeliveryReceipt:deliveryContext:storageContext:batchContext:messageContext:isBeingReplayed:mergeID:wantsCheckpointing:isSnapTrustedUser: /* Error: Ran out of types for this method. */;
+- (double)_writeUpdatesWithType:updateStep:activity:completion: /* Error: Ran out of types for this method. */;
+- (double)_applyChat:(int)arg1 toMetric: /* Error: Ran out of types for this method. */;
+- (double)IMMarkAsReviewedCommandPipelineParameter;
 - (void);
 - (double);
 - (void);
@@ -50,22 +41,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double cubicGain; // @synthesize cubicGain=_cubicGain;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double initialLinearGain; // @synthesize initialLinearGain=_initialLinearGain;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(nonatomic) double parabolicGain; // @synthesize parabolicGain=_parabolicGain;
-@property(nonatomic) double quarticGain; // @synthesize quarticGain=_quarticGain;
-@property(readonly) Class superclass;
-@property(nonatomic) double tangentCbrtSpeed; // @synthesize tangentCbrtSpeed=_tangentCbrtSpeed;
-@property(nonatomic) double tangentHyperCbrtSpeed; // @synthesize tangentHyperCbrtSpeed=_tangentHyperCbrtSpeed;
-@property(nonatomic) double tangentLineSpeed; // @synthesize tangentLineSpeed=_tangentLineSpeed;
-@property(nonatomic) double tangentSqrtSpeed; // @synthesize tangentSqrtSpeed=_tangentSqrtSpeed;
 
 @end
 

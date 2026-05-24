@@ -9,17 +9,15 @@
 @interface RTPotentialNoiseLocation
 {
     _Bool _isNoise;
-    RTLocation *_location;
 }
 
 - (_Bool);
 - (void);
-- (id)eLocationRequests;
+- (id)_reviewActiveLocationRequests;
 - (void)lid parameter not satisfying:fingerprintMO /* Error: Ran out of types for this method. */;
 - (id)%{sensitive}@, from current device with mapItem, %{sensitive}@, error, %@;
 
 // Remaining properties
-@property(nonatomic, setter=setNoise:) _Bool isNoise; // @synthesize isNoise=_isNoise;
 @property(readonly, nonatomic) RTLocation *location; // @synthesize location=_location;
 
 @end

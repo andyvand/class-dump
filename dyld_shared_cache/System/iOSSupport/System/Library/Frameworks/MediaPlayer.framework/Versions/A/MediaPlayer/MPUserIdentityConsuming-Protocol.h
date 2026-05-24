@@ -7,7 +7,8 @@
 @class ICUserIdentity;
 
 @protocol MPUserIdentityConsuming
-- (ICUserIdentity *)e;
+- (void)__kIMMeStatusChangedNotification;
+- (ICUserIdentity *)_checkCadence;
 
 // Remaining properties
 @property(copy, nonatomic) ICUserIdentity *userIdentity;

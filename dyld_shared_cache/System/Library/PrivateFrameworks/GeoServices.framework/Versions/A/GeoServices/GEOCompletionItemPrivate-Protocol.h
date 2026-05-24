@@ -7,6 +7,7 @@
 @class GEOPDAutocompleteEntry;
 
 @protocol GEOCompletionItemPrivate
+- (GEOPDAutocompleteEntry *)resultWithValue:orError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_placeDataAutocompleteEntry) GEOPDAutocompleteEntry *placeDataAutocompleteEntry;

@@ -7,17 +7,6 @@
 @interface ConversationKit.ConversationStateManager
 {
     id presentationStateProvider;
-    id localParticipantStateProvider;
-    id remoteParticipantsStateProvider;
-    id captioningStateManager;
-    id defaults;
-    id conversationController;
-    id callCenter;
-    id conduit;
-    id localVideoController;
-    id mostActiveParticipantsController;
-    id cancellables;
-    id callDurationStringTimer;
 }
 
 - (id);

@@ -17,7 +17,7 @@
 + (Class);
 - (void);
 - (id);
-- (id);
+- (id)rs Completed;
 - (id);
 - (unsigned long long);
 - (_Bool);

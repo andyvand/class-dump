@@ -5,5 +5,8 @@
 //
 
 @protocol EMOutgoingMessageRepositoryInterface
+- (void);
+- (void);
+- (void);
 @end
 

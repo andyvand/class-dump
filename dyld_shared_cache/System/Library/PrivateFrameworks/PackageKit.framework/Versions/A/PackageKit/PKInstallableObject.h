@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL, PKArchive, PKPackage, PKProduct;
+@class NSURL;
 
 @interface PKInstallableObject
 {
     NSURL *_url;
-    PKArchive *_archive;
-    NSArray *_cachedCertificates;
-    PKProduct *_product;
-    PKPackage *_package;
-    NSArray *_cachedReferences;
-    NSArray *_cachedBomDatas;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -29,10 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSURL *URL; // @synthesize URL=_url;
-@property(readonly) NSArray *bomsAsData;
-@property(readonly) NSArray *certificates;
-@property(readonly) _Bool isSigned;
-@property(readonly) NSArray *referencedObjects;
 
 @end
 

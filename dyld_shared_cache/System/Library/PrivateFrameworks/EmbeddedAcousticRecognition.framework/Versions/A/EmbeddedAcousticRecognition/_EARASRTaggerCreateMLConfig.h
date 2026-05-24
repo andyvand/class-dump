@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _EARASRTaggerCreateMLConfig
 {
     NSString *_modelFile;
-    NSString *_tokenSeparator;
 }
 
 + (void)è;
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *modelFile; // @synthesize modelFile=_modelFile;
-@property(readonly, nonatomic) NSString *tokenSeparator; // @synthesize tokenSeparator=_tokenSeparator;
 
 @end
 

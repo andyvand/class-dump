@@ -9,7 +9,6 @@
 @interface CoreCDPUI.AdvancedDataProtectionViewModel : CoreCDPUI.AdvancedDataProtectionViewModelInterface
 {
     id delegate;
-    id adpTracker;
 }
 
 - (void);

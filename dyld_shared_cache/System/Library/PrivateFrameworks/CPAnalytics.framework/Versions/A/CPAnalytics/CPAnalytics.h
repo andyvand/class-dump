@@ -4,69 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalyticsDestinationsRegistry, CPAnalyticsSystemProperties, NSObject, PHPhotoLibrary;
-@protocol OS_dispatch_queue;
+@class PHPhotoLibrary;
 
 @interface CPAnalytics
 {
     long long _signpostUniqueValue;
-    PHPhotoLibrary *_photoLibrary;
-    CPAnalyticsDestinationsRegistry *_registry;
-    NSObject<OS_dispatch_queue> *_eventsQueue;
-    CPAnalyticsSystemProperties *_systemProperties;
 }
 
 + (_Bool);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (id);
++ (void)setAverage:(id)arg1;
++ (id)HUMIDIFIER_DEHUMIDIFIER_MODE;
 + (id);
 + (double);
 + (void);
 + (void);
-+ (long long);
++ (long long)s shouldn't be possible;
 + (id);
 + (void);
 + (id);
 + (void);
++ (void)?;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void)NSt3__120__shared_ptr_emplaceIZN17SipOptionsManager6createENS_8weak_ptrI8SipStackEEE7WrapperNS_9allocatorIS5_EEEE;
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id);
++ (void);
++ (id)";
 - (void);
 - (void);
 - (void);
+- (void)setBlueValue:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (long long)nnot invalidate;
 - (long long);
-- (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)N3ctu8LoggableI19SipTransactionStateNS_11OsLogLoggerEEE;
 - (id);
-- (id);
+- (id)!;
 - (void);
-- (void);
+- (void)F;
 - (id);
 - (void)matcher configuration %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *eventsQueue; // @synthesize eventsQueue=_eventsQueue;
 @property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) CPAnalyticsDestinationsRegistry *registry; // @synthesize registry=_registry;
-@property(readonly, nonatomic) CPAnalyticsSystemProperties *systemProperties; // @synthesize systemProperties=_systemProperties;
 
 @end
 

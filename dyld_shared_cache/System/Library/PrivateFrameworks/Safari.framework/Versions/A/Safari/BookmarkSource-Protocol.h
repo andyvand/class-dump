@@ -5,5 +5,7 @@
 //
 
 @protocol BookmarkSource
+- (void);
+- (_Bool);
 @end
 

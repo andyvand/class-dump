@@ -9,13 +9,12 @@
 @interface IKSlideshowItemLoadOperation
 {
     IKSlideshowElement *_item;
-    _Bool _display;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)TRINamespaceRecord;
 - (void);
 - (void)´ôÀ÷0ù´û;
 

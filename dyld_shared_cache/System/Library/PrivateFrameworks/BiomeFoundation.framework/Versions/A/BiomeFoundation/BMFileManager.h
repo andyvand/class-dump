@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMCache, NSString;
-@protocol BMFileManagerDelegate;
+@class NSString;
 
 @interface BMFileManager
 {
     NSString *_directory;
-    long long _cachingOptions;
-    BMCache *_fileHandleCache;
-    id <BMFileManagerDelegate> _delegate;
 }
 
 + (id);
@@ -22,28 +18,27 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)keybagChangeToken;
 - (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <BMFileManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSString *directory; // @synthesize directory=_directory;
 
 @end

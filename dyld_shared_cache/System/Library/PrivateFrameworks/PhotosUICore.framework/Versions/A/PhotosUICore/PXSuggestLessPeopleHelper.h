@@ -10,7 +10,6 @@
 @interface PXSuggestLessPeopleHelper
 {
     id <PXSuggestLessPeopleHelperDelegate> _delegate;
-    NSUndoManager *_undoManager;
 }
 
 + (_Bool);
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)pdateSlide = %d;
 - (void)Ù
 ;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXSuggestLessPeopleHelperDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end

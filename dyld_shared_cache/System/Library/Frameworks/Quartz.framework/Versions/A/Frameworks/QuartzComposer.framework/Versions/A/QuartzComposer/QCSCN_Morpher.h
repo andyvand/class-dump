@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface QCSCN_Morpher
 {
     id _reserved;
@@ -15,13 +13,13 @@
 + (id);
 + (id);
 + (int);
-+ (id);
++ (id)C;
 + (_Bool);
 + (_Bool);
 + (id);
 - (double);
 - (void);
-- (void);
+- (void)"B9H;
 - (void);
 - (struct __C3DScene *);
 - (void);
@@ -29,25 +27,25 @@
 - (void);
 - (_Bool);
 - (struct __C3DMorpher *);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)�`;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)B;
 - (void);
 - (void *);
 - (struct __C3DAnimationManager *);
-- (struct __C3DAnimationTarget *);
+- (struct __C3DAnimationTarget *)InteractionDataSourceDelegate>",&,N,V_delegate;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -61,7 +59,6 @@
 - (id)|;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *name;
 @property _Bool normalizeWeights;
 
 @end

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)AXSpeakThisSceneIdentifierRequestedForActiveSpeakScreenSessionAttribute %@;
 + (void);
-- (id);
+- (id)_isContainerOfOnlyOneLinkNodeChild;
 
 @end
 

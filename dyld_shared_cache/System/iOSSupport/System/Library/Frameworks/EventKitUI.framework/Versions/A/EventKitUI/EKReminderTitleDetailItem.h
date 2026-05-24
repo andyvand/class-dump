@@ -6,14 +6,12 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class EKReminderTitleDetailCell, NSObject, NSString;
+@class EKReminderTitleDetailCell, NSObject;
 @protocol EKReminderTitleDetailItemDelegate;
 
 @interface EKReminderTitleDetailItem : EKEventDetailItem
 {
     EKReminderTitleDetailCell *_cell;
-    _Bool _showExtraSpaceAtBottom;
-    NSObject<EKReminderTitleDetailItemDelegate> *_editDelegate;
 }
 
 - (_Bool);
@@ -30,18 +28,10 @@
 - (void);
 - (double)1Â0@ù
 × ;
-- (void)es;
+- (void)sharedPreferences;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak NSObject<EKReminderTitleDetailItemDelegate> *editDelegate; // @synthesize editDelegate=_editDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool showExtraSpaceAtBottom; // @synthesize showExtraSpaceAtBottom=_showExtraSpaceAtBottom;
-@property(readonly) Class superclass;
 
 @end
 

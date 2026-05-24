@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelHeroService
 {
     id personalizer;
-    id paidAccessChecker;
 }
 
 @end

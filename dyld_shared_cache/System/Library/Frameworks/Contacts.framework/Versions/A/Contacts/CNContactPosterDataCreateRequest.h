@@ -12,8 +12,8 @@
 {
 }
 
-- (id);
-- (void)bleDomain:(id)arg1 bundleIdentifier:shouldSynchronize:error: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (void)instanceEnableDomain:(id)arg1 bundleIdentifier:shouldSynchronize:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items;

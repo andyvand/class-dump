@@ -5,5 +5,6 @@
 //
 
 @protocol OADEffectsParent
+- (_Bool);
 @end
 

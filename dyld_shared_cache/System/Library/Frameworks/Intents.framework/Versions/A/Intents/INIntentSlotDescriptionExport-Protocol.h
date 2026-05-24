@@ -7,19 +7,13 @@
 @class NSArray, NSString;
 
 @protocol INIntentSlotDescriptionExport
-- (_Bool)utgoingMessageTypeOptionsCollectionForSendMessage:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)ingStore:setting backing store
+ /* Error: Ran out of types for this method. */;
+- (NSString *)__calloutToCheckIfNetworkIsSyncable: /* Error: Ran out of types for this method. */;
+- (NSArray *)del_multi;
+- (_Bool)provideOutgoingMessageTypeOptionsCollectionForSendMessage:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *dataPropertyName;
-@property(readonly, nonatomic) SEL deprecatedResolveSelector;
-@property(readonly, copy, nonatomic) NSString *facadePropertyName;
-@property(readonly, nonatomic) _Bool isExtended;
-@property(readonly, nonatomic) _Bool isPrivate;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) SEL resolveSelector;
-@property(readonly, copy, nonatomic) NSArray *resolveSelectorStrings;
-@property(readonly, nonatomic) unsigned long long tag;
-@property(readonly, nonatomic) long long valueStyle;
-@property(readonly, nonatomic) long long valueType;
 @end
 

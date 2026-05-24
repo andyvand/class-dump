@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UITargetedPreview, UIView, _UIHighlightPlatterView;
+@class NSMutableArray;
 @protocol _UIContentEffectDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneActivationEffect
 {
     id <_UIContentEffectDescriptor> _descriptor;
-    UIView *_platterContainer;
-    NSMutableArray *_completions;
-    _UIHighlightPlatterView *_platterView;
-    long long _state;
-    double _currentScale;
 }
 
 - (void);
@@ -25,18 +20,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)markChatGUIDsAsReviewedAndReflectToPeers: /* Error: Ran out of types for this method. */;
+- (void)_convergesParticipantsForReplicationService: /* Error: Ran out of types for this method. */;
+- (id)IMJunkMessageProcessingPipelineComponent;
+- (void);
 - (id);
 - (id);
 - (void);
 - (long long)1Â0@ù
 × ;
-- (void)oTabFromDropSession:(id)arg1;
-- (void)State: /* Error: Ran out of types for this method. */;
-- (id)allowsSuggestionsMenu;
+- (void)tabDragController:(id)arg1 acceptItemsIntoTabFromDropSession: /* Error: Ran out of types for this method. */;
+- (void)_didTransitionToDismissingFromState: /* Error: Ran out of types for this method. */;
+- (id)_allowsSuggestionsMenu;
 - (id)rrow.uturn.backward.circle.badge.ellipsis;
 - (id)viewClass=%@, entry=%@);
 - (void)´ÍþÿÎÍþÿ;
@@ -44,19 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(nonatomic) double currentScale; // @synthesize currentScale=_currentScale;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <_UIContentEffectDescriptor> descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) UITargetedPreview *handOffPreview;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIView *platterContainer; // @synthesize platterContainer=_platterContainer;
-@property(retain, nonatomic) _UIHighlightPlatterView *platterView; // @synthesize platterView=_platterView;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

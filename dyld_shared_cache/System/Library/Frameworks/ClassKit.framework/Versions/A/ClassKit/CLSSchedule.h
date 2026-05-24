@@ -6,48 +6,34 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSDate, NSString;
-
 @interface CLSSchedule : CLSObject
 {
     long long _scheduledEntityType;
-    long long _scheduleAction;
-    NSDate *_scheduleDate;
-    long long _scheduleUpdateStatus;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_delegate_presentGenericTermsUIforAccount:authResults:serverError:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (long long);
-- (id);
+- (id)__DATA_DIRTY;
 - (long long);
+- (void)fer Pool is not allocated
+;
+- (id)Priority7. Lowering priority to kANEProgramPriority7 0x%08X;
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long scheduleAction;
-@property(retain, nonatomic) NSDate *scheduleDate;
-@property(nonatomic) long long scheduleUpdateStatus;
-@property(nonatomic) long long scheduledEntityType;
-@property(readonly) Class superclass;
 
 @end
 

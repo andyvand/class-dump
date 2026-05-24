@@ -6,93 +6,56 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, NSMutableArray, NSString, UIColor, UISelectionFeedbackGenerator, _UIPickerViewStyle, _UIPickerViewTestParameters;
-@protocol UIPickerViewDataSource, UIPickerViewDelegate;
+@class NSMutableArray;
 
 @interface UIPickerView : UIView
 {
     NSMutableArray *_tables;
-    id <UIPickerViewDataSource> _dataSource;
-    id <UIPickerViewDelegate> _delegate;
-    long long _numberOfComponents;
-    UIView *_foregroundView;
-    CALayer *_maskGradientLayer;
-    UIView *_topLineOrFillView;
-    UIView *_bottomLineView;
-    struct {
-        unsigned int needsLayout:1;
-        unsigned int delegateRespondsToNumberOfComponentsInPickerView:1;
-        unsigned int delegateRespondsToNumberOfRowsInComponent:1;
-        unsigned int delegateRespondsToDidSelectRow:1;
-        unsigned int delegateRespondsToViewForRow:1;
-        unsigned int delegateRespondsToTitleForRow:1;
-        unsigned int delegateRespondsToAttributedTitleForRow:1;
-        unsigned int delegateRespondsToWidthForComponent:1;
-        unsigned int delegateRespondsToRowHeightForComponent:1;
-        unsigned int showsSelectionBar:1;
-        unsigned int allowsMultipleSelection:1;
-        unsigned int allowSelectingCells:1;
-        unsigned int soundsDisabled:1;
-        unsigned int usesCheckedSelection:1;
-        unsigned int skipsBackground:1;
-        unsigned int isInLayoutSubviews:1;
-        unsigned int usesDynamicRowHeight:1;
-        unsigned int selectionBarIgnoresInset:1;
-    } _pickerViewFlags;
-    UIColor *_textColor;
-    UIColor *_textShadowColor;
-    _UIPickerViewStyle *_style;
-    _UIPickerViewTestParameters *_currentTestParameters;
-    _Bool _magnifierEnabled;
-    _Bool _enabled;
-    long long _magnifierStyle;
-    UISelectionFeedbackGenerator *_selectionFeedbackGenerator;
-    UIColor *_magnifierLineColor;
 }
 
-+ (struct CGSize);
-+ (struct CGSize);
++ (struct CGSize)ailing receive notice. Could not find an expected event class for type:(struct CGSize)arg1 %@;
++ (struct CGSize)%@, notice:(struct CGSize)arg1 %@;
 + (struct CGSize);
 + (struct CGSize);
 + (struct CGSize);
 + (void);
 + (id);
 + (void);
-+ (void)sListViewController;
-+ (_Bool)ginTrackingWithEvent: /* Error: Ran out of types for this method. */;
++ (void)_suggestionsListViewController;
++ (_Bool)_beginTrackingWithEvent: /* Error: Ran out of types for this method. */;
 + (void)(nàÿ;
-- (struct _NSRange);
-- (id);
+- (struct _NSRange)nt;
+- (id)_evalToggleiCloudSettingsSwitch;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
-- (int);
+- (long long);
+- (int)}};
 - (void);
-- (double);
+- (double);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long)witch got unknown request over quick switch service %ld;
+- (long long)CommandQuickSwitchCompleted;
+- (long long)ocabulary for deleted chat:(id)arg1 %@;
+- (void)ry/Messages/Stickers;
+- (double)ransfer-guid;
+- (_Bool)s may cause incoming messages to be lost.;
+- (_Bool)MarcoLoggingStringForMessageData;
+- (void)mpat;
+- (void)dSetting:%@, isPaused:%@, syncControllerSyncState:%@, syncType:%@, syncStatus:%@, syncJobState:%@, syncControllerRecordType:%@, syncType:%@, accountStatus:%@, syncErrors:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (long long);
-- (long long);
 - (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -113,7 +76,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (double);
 - (id);
@@ -134,21 +97,21 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)6%;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_statusSystemIntegrityProtectionEnabled;
 - (void);
 - (struct CGSize);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id);
+- (void)setArtworkColorAnalysisOperations:(_Bool)arg1;
+- (id)autoPlayEnabledForUserIdentity: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -161,14 +124,14 @@
 × ;
 - (void)}40@0:(id)arg1 8{CGPoint=dd}16^{CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (void)@"NSKeyedArchiver"16@24;
-- (_Bool)nfoForStartFrame:endFrame:animationDuration: /* Error: Ran out of types for this method. */;
-- (void)dLongForcePress;
-- (void)orScreen:(id)arg1;
-- (_Bool)raFilters: /* Error: Ran out of types for this method. */;
-- (void)eleteWordLastDelete;
-- (struct CGSize)pdateWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)notificationInfoForStartFrame:endFrame:animationDuration: /* Error: Ran out of types for this method. */;
+- (void)didLongForcePress;
+- (void)allowsRestoringFocusForScreen:(id)arg1;
+- (_Bool)addExtraFilters: /* Error: Ran out of types for this method. */;
+- (void)_deleteWordLastDelete;
+- (struct CGSize)_deleteShadowUpdateWithIdentifier: /* Error: Ran out of types for this method. */;
 - (id)ration",R,N,G_dragSnappingConfiguration;
-- (long long)ckGenerator;
+- (long long)UIImpactFeedbackGenerator;
 - (void)f\j;
 - (void)Öí;
 - (void);
@@ -186,28 +149,7 @@
 - (void)-ÿ±ØÌtªk;
 
 // Remaining properties
-@property(nonatomic, setter=_setMagnifierEnabled:) _Bool _magnifierEnabled; // @synthesize _magnifierEnabled;
-@property(nonatomic, setter=_setSelectionBarIgnoresInset:) _Bool _selectionBarIgnoresInset;
-@property(nonatomic) __weak id <UIPickerViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIPickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=_enabled, setter=_setEnabled:) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic, getter=_highlightColor, setter=_setHighlightColor:) UIColor *highlightColor;
-@property(retain, nonatomic, getter=_magnifierLineColor, setter=_setMagnifierLineColor:) UIColor *magnifierLineColor; // @synthesize magnifierLineColor=_magnifierLineColor;
-@property(nonatomic, getter=_magnifierStyle, setter=_setMagnifierStyle:) long long magnifierStyle; // @synthesize magnifierStyle=_magnifierStyle;
-@property(readonly, nonatomic) long long numberOfComponents; // @synthesize numberOfComponents=_numberOfComponents;
-@property(retain, nonatomic, getter=_selectionFeedbackGenerator, setter=_setSelectionFeedbackGenerator:) UISelectionFeedbackGenerator *selectionFeedbackGenerator; // @synthesize selectionFeedbackGenerator=_selectionFeedbackGenerator;
-@property(nonatomic) _Bool showsSelectionIndicator;
-@property(readonly, nonatomic, getter=_style) _UIPickerViewStyle *style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, getter=_textColor, setter=_setTextColor:) UIColor *textColor;
-@property(retain, nonatomic, getter=_textShadowColor, setter=_setTextShadowColor:) UIColor *textShadowColor;
-@property(getter=_usesDynamicRowHeight, setter=_setUsesDynamicRowHeight:) _Bool usesDynamicRowHeight;
 
 @end
 

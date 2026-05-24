@@ -7,9 +7,6 @@
 @interface SwiftUI.KeyboardShortcutBridge
 {
     id currentBindings;
-    id updatedBindings;
-    id shortcutMap;
-    id isObservingPreferences;
 }
 
 - (void);

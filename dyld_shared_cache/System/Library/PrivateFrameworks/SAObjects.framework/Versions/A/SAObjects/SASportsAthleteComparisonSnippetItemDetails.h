@@ -6,34 +6,25 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SASportsMetadata, SAUIAppPunchOut;
+@class SAUIAppPunchOut;
 
 @interface SASportsAthleteComparisonSnippetItemDetails : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
-- (void);
+- (void)ԫ@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)read_with_frame_filter failed to get thread state for pid %u thread %u;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SAUIAppPunchOut *leagueAppPunchOut;
-@property(retain, nonatomic) SASportsMetadata *metadata;
-@property(retain, nonatomic) SAUIAppPunchOut *providerPunchOut;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,14 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (unsigned long long)Internal/Library/BuildRoots/4~CNqRugCSzycZZGvpxZ9wI2FWDByvH0oCeGYOVRo/Library/Caches/com.apple.xbs/TemporaryDirectory.oFD1IC/Sources/DialogEngine/protobuf/src/google/protobuf/descriptor.pb.cc;
+- (id)B;
+- (_Bool);
+- (_Bool)nknown';
+
+@optional
+- (NSString *)_processOutputBlock;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

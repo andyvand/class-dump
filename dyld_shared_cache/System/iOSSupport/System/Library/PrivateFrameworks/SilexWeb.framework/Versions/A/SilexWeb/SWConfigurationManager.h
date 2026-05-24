@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SWConfiguration;
-@protocol SWConfigurationSerializer, SWLogger, SWScript, SWScriptsManager;
+@class SWConfiguration;
+@protocol SWScriptsManager;
 
 @interface SWConfigurationManager
 {
     SWConfiguration *_configuration;
-    id <SWScriptsManager> _webContentScriptsManager;
-    id <SWLogger> _logger;
-    id <SWScript> _configurationScript;
-    id <SWConfigurationSerializer> _serializer;
 }
 
 - (id);
@@ -22,22 +18,11 @@
 - (id);
 - (id);
 - (id);
+- (void)contentSizeCategoryDidChange;
 - (void);
-- (void);
-- (id)ipts;
+- (id)removeAllScripts;
 
 // Remaining properties
-@property(copy, nonatomic) SWConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) id <SWScript> configurationScript; // @synthesize configurationScript=_configurationScript;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) id <SWConfigurationSerializer> serializer; // @synthesize serializer=_serializer;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <SWScriptsManager> webContentScriptsManager; // @synthesize webContentScriptsManager=_webContentScriptsManager;
 
 @end

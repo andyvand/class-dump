@@ -11,13 +11,13 @@
     long long _objectID;
 }
 
-+ (id);
++ (id);
+- (id)r=},R,N,V_secondaryTextColor;
+- (id){CGColor=},R,N,V_secondaryDropShadowColor;
+- (id)ht;
+- (id)_protocol_definition>",R,N,V_framerDefinition;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)g;
 - (long long);
 
 @end

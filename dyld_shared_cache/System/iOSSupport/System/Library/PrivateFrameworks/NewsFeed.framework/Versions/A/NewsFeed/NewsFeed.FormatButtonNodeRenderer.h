@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatButtonNodeRenderer
 {
     id commandCenter;
-    id tracker;
-    id activityItemsConfigurationFactory;
-    id tipManager;
-    id feedDismissingManager;
 }
 
 @end

@@ -4,56 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray, NSMutableDictionary, NSMutableString, NSNumber, NSObject, NSString, UARPAssetVersionOS;
-@protocol OS_dispatch_queue, UARPSuperBinaryDelegate;
+@protocol UARPSuperBinaryDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UARPSuperBinaryOS
 {
     id <UARPSuperBinaryDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct uarpPlatformAsset *_asset;
-    NSData *_data;
-    unsigned int _formatVersion;
-    UARPAssetVersionOS *_version;
-    NSData *_metaData;
-    NSMutableArray *_tlvs;
-    NSMutableArray *_trimmedTlvs;
-    NSMutableArray *_payloads;
-    NSMutableDictionary *_tatsuMeasurements;
-    NSData *_manifest;
-    NSMutableDictionary *_tssRequest;
-    NSMutableString *_keyManifest;
-    _Bool _needsHostPersonalization;
-    NSString *_ticketPrefix;
-    NSString *_ticketSuffix;
-    _Bool _ticketNeedsUnitNumber;
-    _Bool _prefixNeedsUnitNumber;
-    _Bool _suffixNeedsUnitNumber;
-    NSMutableArray *_measurements;
-    unsigned char _productionMode;
-    unsigned char _securityDomain;
-    unsigned char _securityMode;
-    unsigned char _life;
-    _Bool _provisioning;
-    unsigned char _manifestEpoch;
-    unsigned int _boardID;
-    unsigned int _chipID;
-    unsigned long long _ecID;
-    NSData *_ecidData;
-    NSData *_nonce;
-    NSNumber *_trustedOverride;
-    NSNumber *_demote;
-    void *_layer2Context;
-    unsigned long long _totalLength;
-    id _totalBytesRequested;
 }
 
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)T;
 - (id);
 - (id);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -65,13 +29,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned char);
-- (id);
+- (unsigned char);
+- (id)h;
 - (_Bool);
 - (_Bool);
 - (unsigned char);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -88,11 +51,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -111,28 +74,10 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (id);
-- (id)dentityKey;
+- (id)AMAuthInstallBundleCopyFullPathForBuildIdentityKey;
 
 // Remaining properties
 @property unsigned int boardID; // @synthesize boardID=_boardID;
-@property unsigned int chipID; // @synthesize chipID=_chipID;
-@property(copy) NSNumber *demote; // @synthesize demote=_demote;
-@property unsigned long long ecID; // @synthesize ecID=_ecID;
-@property(copy) NSData *ecidData; // @synthesize ecidData=_ecidData;
-@property void *layer2Context; // @synthesize layer2Context=_layer2Context;
-@property unsigned char life; // @synthesize life=_life;
-@property unsigned char manifestEpoch; // @synthesize manifestEpoch=_manifestEpoch;
-@property(readonly) _Bool needsHostPersonalization; // @synthesize needsHostPersonalization=_needsHostPersonalization;
-@property(copy) NSData *nonce; // @synthesize nonce=_nonce;
-@property(readonly) NSArray *payloads; // @synthesize payloads=_payloads;
-@property unsigned char productionMode; // @synthesize productionMode=_productionMode;
-@property _Bool provisioning; // @synthesize provisioning=_provisioning;
-@property unsigned char securityDomain; // @synthesize securityDomain=_securityDomain;
-@property unsigned char securityMode; // @synthesize securityMode=_securityMode;
-@property(readonly) NSArray *tlvs; // @synthesize tlvs=_tlvs;
-@property(readonly) unsigned long long totalBytesRequested; // @synthesize totalBytesRequested=_totalBytesRequested;
-@property(readonly) unsigned long long totalLength; // @synthesize totalLength=_totalLength;
-@property(copy) NSNumber *trustedOverride; // @synthesize trustedOverride=_trustedOverride;
 
 @end
 

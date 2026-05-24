@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKSignInWithAppleAccountShareInfo, NSDate, NSString;
+@class NSString;
 
 @interface AKSignInWithAppleAccount
 {
     _Bool _hasEULA;
-    NSString *_clientID;
-    NSString *_localizedAppName;
-    NSDate *_creationDate;
-    long long _sharedScopes;
-    NSString *_privateEmail;
-    NSString *_localizedAppDeveloperName;
-    NSString *_privacyPolicyURL;
-    NSString *_userID;
-    AKSignInWithAppleAccountShareInfo *_shareInfo;
-    NSString *_appStoreAdamID;
-    NSString *_teamID;
 }
 
 + (_Bool);
@@ -31,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)~;
 - (id);
 - (id);
 - (id);
@@ -56,19 +45,7 @@
 Üt"DÄAWvÅÞ^=ä§þÇé}R­÷OÔ3öÌnpÿà4z¨ Ó¾ÆXI6ø~ãÉKwºf+ÁðQ$£ÐÖÂU¶ôÀ:È¡L)³yµË9Ú¢o&,@»eiHJu0aÙ×©ßcåÊ¦2PSç`ÃÝj7N85>èZùæíáhñõ_ªý±dM1ì]¹Y /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appStoreAdamID; // @synthesize appStoreAdamID=_appStoreAdamID;
-@property(readonly, copy, nonatomic) NSString *appStoreURL;
-@property(readonly, copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) _Bool hasEULA; // @synthesize hasEULA=_hasEULA;
-@property(copy, nonatomic) NSString *localizedAppDeveloperName; // @synthesize localizedAppDeveloperName=_localizedAppDeveloperName;
 @property(copy, nonatomic) NSString *localizedAppName; // @synthesize localizedAppName=_localizedAppName;
-@property(copy, nonatomic) NSString *privacyPolicyURL; // @synthesize privacyPolicyURL=_privacyPolicyURL;
-@property(copy, nonatomic) NSString *privateEmail; // @synthesize privateEmail=_privateEmail;
-@property(retain, nonatomic) AKSignInWithAppleAccountShareInfo *shareInfo; // @synthesize shareInfo=_shareInfo;
-@property(nonatomic) long long sharedScopes; // @synthesize sharedScopes=_sharedScopes;
-@property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
-@property(readonly, copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

@@ -6,41 +6,31 @@
 
 #import <MediaServices/MSVLyricsTextElement.h>
 
-@class MSVLyricsLine, NSArray;
+@class MSVLyricsLine;
 
 @interface MSVLyricsWord : MSVLyricsTextElement
 {
     MSVLyricsLine *_parentLine;
-    MSVLyricsWord *_nextWord;
-    MSVLyricsWord *_parentWord;
-    NSArray *_subwords;
-    long long _wordIndex;
-    struct _NSRange _characterRange;
 }
 
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (struct _NSRange);
-- (void);
+- (struct _NSRange)e correct password for user account “;
+- (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange characterRange; // @synthesize characterRange=_characterRange;
-@property(retain, nonatomic) MSVLyricsWord *nextWord; // @synthesize nextWord=_nextWord;
 @property(nonatomic) __weak MSVLyricsLine *parentLine; // @synthesize parentLine=_parentLine;
-@property(nonatomic) __weak MSVLyricsWord *parentWord; // @synthesize parentWord=_parentWord;
-@property(retain, nonatomic) NSArray *subwords; // @synthesize subwords=_subwords;
-@property(nonatomic) long long wordIndex; // @synthesize wordIndex=_wordIndex;
 
 @end
 

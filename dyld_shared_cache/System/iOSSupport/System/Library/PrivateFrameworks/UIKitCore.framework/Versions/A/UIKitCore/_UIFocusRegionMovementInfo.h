@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long originatingHeading; // @synthesize originatingHeading=_originatingHeading;

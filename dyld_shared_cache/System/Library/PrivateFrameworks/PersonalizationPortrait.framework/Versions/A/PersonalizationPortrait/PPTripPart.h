@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface PPTripPart
 {
     unsigned char _tripMode;
-    NSArray *_eventIdentifiers;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_startLocation;
-    NSString *_endLocation;
-    CLPlacemark *_mainLocation;
-    NSString *_fallbackLocationString;
 }
 
-+ (id);
++ (id)initWithBehavior:(unsigned char)arg1 color:version:variant:weight:azimuth: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (unsigned char);
 - (void);
@@ -26,26 +19,19 @@
 - (id);
 - (id);
 - (id);
+- (id)prefersHDR;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)drawingBeganWithStroke:(id)arg1 inputType:activeInputProperties:inputScale:start: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSString *endLocation; // @synthesize endLocation=_endLocation;
 @property(readonly, nonatomic) NSArray *eventIdentifiers; // @synthesize eventIdentifiers=_eventIdentifiers;
-@property(retain, nonatomic) NSString *fallbackLocationString; // @synthesize fallbackLocationString=_fallbackLocationString;
-@property(retain, nonatomic) CLPlacemark *mainLocation; // @synthesize mainLocation=_mainLocation;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSString *startLocation; // @synthesize startLocation=_startLocation;
-@property(readonly, nonatomic) unsigned char tripMode; // @synthesize tripMode=_tripMode;
 
 @end
 

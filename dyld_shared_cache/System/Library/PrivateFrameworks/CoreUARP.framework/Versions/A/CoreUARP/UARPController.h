@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSMutableDictionary, NSNumber, NSObject, NSString, UARPAccessoryMetadataStore, UARPAnalyticsUpdateFirmwareManager, UARPPacketDumper, UARPPersonalizationManager, UARPPowerLogManager, UARPUploader;
-@protocol OS_dispatch_queue, OS_os_log, UARPControllerChipInfoDelegate, UARPControllerDelegateProtocol, UARPControllerInternalDelegate;
+@class NSArray, NSMutableDictionary;
 
 @interface UARPController
 {
     NSMutableDictionary *_accessories;
-    NSCache *_assetCache;
-    NSObject<OS_os_log> *_xpcLog;
-    NSObject<OS_os_log> *_controllerLog;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_personalizationQueue;
-    UARPUploader *_uploader;
-    id <UARPControllerInternalDelegate> _internalDelegate;
-    id <UARPControllerChipInfoDelegate> _chipInfoDelegate;
-    UARPAnalyticsUpdateFirmwareManager *_updateFirmwareAnalytics;
-    UARPPacketDumper *_packetDumper;
-    NSMutableDictionary *_assetAvailabilityNotificationTokenDict;
-    NSMutableDictionary *_supplementalAssetAvailabilityNotificationTokenDict;
-    NSMutableDictionary *_assetAvailabilityUARPProductGroupNotificationTokenDict;
-    NSMutableDictionary *_attestationCertificatesAvailabilitySubjectKeyIdentifierNotificationTokenDict;
-    NSMutableDictionary *_generalNotificationTokenDict;
-    NSNumber *_supportedAccessoryFileListToken;
-    UARPPowerLogManager *_powerLogManager;
-    _Bool _isInternalBuild;
-    UARPPersonalizationManager *_personalizationManager;
-    UARPAccessoryMetadataStore *_metadataStore;
-    id <UARPControllerDelegateProtocol> _delegate;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -43,14 +20,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)setHasAutocorrection:(int)arg1;
+- (_Bool)_airPlayReceiverSessionActive;
 - (_Bool);
-- (_Bool);
+- (void)"16@?0@"NSArray"8;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)bj;
 - (void);
 - (void);
 - (void);
@@ -80,51 +57,51 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)@"NSString"24@?<v@?B@"NSError">32;
+- (_Bool)_mutableBinaryPromiseWrappingBinaryPromise:(id)arg1;
+- (void)_createImageRefForImageURL:(id)arg1 outAssetScale:(id)arg2;
+- (void)nRequestIdentifier;
+- (_Bool)NSString",&,V_threadIdentifier;
+- (id)_TtC18AppleMediaServices27PassingMockAuthenticateTask;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)l ";
 - (void);
 - (id);
+- (void);
 - (void);
+- (_Bool)rn;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void)3;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void)P;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void)H;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -132,7 +109,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)[;
 - (long long);
 - (void);
 - (void);
@@ -150,35 +127,27 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)-;
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)';
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool)rseFromPlistPayloadMetaDataTLVs:(id)arg1 payloadsURL:(long long)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)__auth_got;
+- (_Bool)parseFromPlistPayloadMetaDataTLVs:(id)arg1 payloadsURL:(long long)arg2 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSArray *accessoryList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <UARPControllerDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (LaunchServicesAdditions)
-+ (id);
++ (id);
 + (id);
 @end
 

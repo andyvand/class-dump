@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationCache, NSArray, NSObject, PHPhotoLibrary;
-@protocol OS_os_log;
+@class CLSLocationCache, PHPhotoLibrary;
 
 @interface PGRevGeocodeProcessor
 {
     CLSLocationCache *_locationCache;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSArray *_homeLocations;
-    double _sumNumberOfAssetClustersPerMoment;
-    double _sumSquareNumberOfAssetClustersPerMoment;
-    double _sumNumberOfAssetsPerCluster;
-    double _sumSquareNumberOfAssetsPerCluster;
-    double _numberOfAssetClustersWithin10mOfCenter;
-    double _numberOfAssetClustersWithin20mOfCenter;
-    double _numberOfAssetClustersWithin50mOfCenter;
-    double _numberOfAssetClustersWithin100mOfCenter;
-    double _numberOfAssetClusters100mPlusFromCenter;
-    unsigned long long _numberOfMomentsRevGeocoded;
-    unsigned long long _numberOfAssetClustersRevGeocoded;
 }
 
 + (id);
 + (id);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -40,41 +25,28 @@
 - (double);
 - (unsigned long long);
 - (double);
+- (void)XKTextElementEditTracker"8;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)8K5;
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void)on Enrichment Profile;
-- (id)loseLocationNodeError;
+- (id)densestCloseLocationNodeError;
 - (id)-;
 - (void)ãÿ½kÈÕ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *homeLocations; // @synthesize homeLocations=_homeLocations;
-@property(retain, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) double numberOfAssetClusters100mPlusFromCenter; // @synthesize numberOfAssetClusters100mPlusFromCenter=_numberOfAssetClusters100mPlusFromCenter;
-@property(readonly, nonatomic) unsigned long long numberOfAssetClustersRevGeocoded; // @synthesize numberOfAssetClustersRevGeocoded=_numberOfAssetClustersRevGeocoded;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin100mOfCenter; // @synthesize numberOfAssetClustersWithin100mOfCenter=_numberOfAssetClustersWithin100mOfCenter;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin10mOfCenter; // @synthesize numberOfAssetClustersWithin10mOfCenter=_numberOfAssetClustersWithin10mOfCenter;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin20mOfCenter; // @synthesize numberOfAssetClustersWithin20mOfCenter=_numberOfAssetClustersWithin20mOfCenter;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin50mOfCenter; // @synthesize numberOfAssetClustersWithin50mOfCenter=_numberOfAssetClustersWithin50mOfCenter;
-@property(readonly, nonatomic) unsigned long long numberOfMomentsRevGeocoded; // @synthesize numberOfMomentsRevGeocoded=_numberOfMomentsRevGeocoded;
 @property(nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) double sumNumberOfAssetClustersPerMoment; // @synthesize sumNumberOfAssetClustersPerMoment=_sumNumberOfAssetClustersPerMoment;
-@property(readonly, nonatomic) double sumNumberOfAssetsPerCluster; // @synthesize sumNumberOfAssetsPerCluster=_sumNumberOfAssetsPerCluster;
-@property(readonly, nonatomic) double sumSquareNumberOfAssetClustersPerMoment; // @synthesize sumSquareNumberOfAssetClustersPerMoment=_sumSquareNumberOfAssetClustersPerMoment;
-@property(readonly, nonatomic) double sumSquareNumberOfAssetsPerCluster; // @synthesize sumSquareNumberOfAssetsPerCluster=_sumSquareNumberOfAssetsPerCluster;
 
 @end
 

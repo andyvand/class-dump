@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (struct AudioChannelLayout *);
+- (struct AudioChannelLayout *)Yearly;
 - (id);
 
 @end

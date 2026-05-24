@@ -12,7 +12,7 @@
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 

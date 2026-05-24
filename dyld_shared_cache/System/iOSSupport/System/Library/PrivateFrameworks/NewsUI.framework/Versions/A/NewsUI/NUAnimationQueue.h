@@ -9,7 +9,6 @@
 @interface NUAnimationQueue
 {
     _Bool _running;
-    NSMutableArray *_queue;
 }
 
 - (void);
@@ -17,13 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *queue; // @synthesize queue=_queue;
-@property(nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
 
 @end
 

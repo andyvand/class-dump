@@ -6,25 +6,21 @@
 
 #import <AVConference/VCVideoRuleCollectionsCamera.h>
 
-@protocol VCHardwareSettingsMacProtocol;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoRuleCollectionsCameraMac : VCVideoRuleCollectionsCamera
 {
     unsigned int _encodeScore;
-    unsigned int _decodeScore;
-    id <VCHardwareSettingsMacProtocol> _hardwareSettings;
 }
 
 + (id)tionManagerLegacy removeConnectionWithIPPortInternal:isLocalInterface:] /* Error: Ran out of types for this method. */;
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)((;
 - (void);
 - (void);
 - (void);

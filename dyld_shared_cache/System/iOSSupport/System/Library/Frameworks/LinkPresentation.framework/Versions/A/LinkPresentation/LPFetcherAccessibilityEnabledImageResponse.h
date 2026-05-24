@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)signInViewController:(id)arg1 willPerformAuthenticationWithContext:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

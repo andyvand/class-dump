@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)setTagSpecificityCoeffIPhone:(struct CGRect)arg1;
 
 @end
 

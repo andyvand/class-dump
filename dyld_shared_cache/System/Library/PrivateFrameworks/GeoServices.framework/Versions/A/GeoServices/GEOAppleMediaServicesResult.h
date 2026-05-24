@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
-
 @interface GEOAppleMediaServicesResult
 {
     int _ratingsCount;
-    float _ratingsValue;
-    int _episodeNumber;
-    long long _mediaType;
-    NSString *_identifier;
-    NSString *_displayName;
-    NSURL *_url;
-    NSString *_subtitle;
-    NSString *_iOSBundleIdentifier;
-    NSURL *_artworkURL;
-    NSArray *_transitModes;
-    NSString *_artistName;
-    NSString *_editorialSubtitle;
-    NSString *_classType;
-    double _duration;
-    NSString *_shortName;
 }
 
 + (id);

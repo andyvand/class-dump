@@ -12,13 +12,13 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)deviceFound:(id)arg1 classOfDevice:rssi:eirDictionary: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)LY;
+- (id)RLY;
 
 @end
 

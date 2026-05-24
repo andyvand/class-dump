@@ -7,18 +7,16 @@
 @class _INPBFileProperty, _INPBString;
 
 @protocol _INPBGetFileInformationIntentResponse
+- (void)C;
+- (_Bool)ed;
+- (void);
 - (_INPBFileProperty *);
-- (_Bool)alue: /* Error: Ran out of types for this method. */;
-- (void)ss;
-- (void)eWorkout;
+- (_Bool)setMinValue: /* Error: Ran out of types for this method. */;
+- (void)INOpenSettingIntentResponseCodeInProgress;
+- (void)ResumeWorkout;
 - (_INPBString *)eSettingsInCarIntent;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *entityName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(readonly, nonatomic) _Bool hasProperty;
-@property(nonatomic) _Bool hasSuccess;
-@property(retain, nonatomic) _INPBFileProperty *property;
-@property(nonatomic) _Bool success;
 @end
 

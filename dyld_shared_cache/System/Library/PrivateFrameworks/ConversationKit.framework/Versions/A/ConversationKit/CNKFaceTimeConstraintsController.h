@@ -7,25 +7,6 @@
 @interface CNKFaceTimeConstraintsController
 {
     id layoutIdiom;
-    id shutterButtonState;
-    id captionsState;
-    id reactionsState;
-    id isLocalReactionActive;
-    id reactionPickerTipState;
-    id participantListState;
-    id shouldForceAllowNextLocalParticipantStateUpdate;
-    id mostRecentLocalParticipantCorner;
-    id localParticipantState;
-    id localParticipantAspectRatio;
-    id localParticipantVideoOrientation;
-    long long inCallControlsState;
-    id inCallConversationBannerState;
-    id participantGridState;
-    id floatingControlsState;
-    id viewStateEffects;
-    id viewControllerLayout;
-    id bannerControlsSize;
-    id configurableRosterCellWidth;
 }
 
 - (void);
@@ -40,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) long long accessibilityLocalParticipantState;
-@property(nonatomic) long long inCallControlsState; // @synthesize inCallControlsState;
 
 @end
 

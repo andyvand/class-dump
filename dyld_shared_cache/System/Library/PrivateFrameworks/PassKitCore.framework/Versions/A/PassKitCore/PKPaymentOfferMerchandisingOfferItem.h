@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentOfferDynamicContent;
+@class NSString;
 
 @interface PKPaymentOfferMerchandisingOfferItem
 {
     NSString *_identifier;
-    PKPaymentOfferDynamicContent *_dynamicContent;
 }
 
 + (_Bool)0@ù
@@ -19,16 +18,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setNCellularGood:(id)arg1;
+- (void)AWDIMessageCloudKitAttachmentDownloadFailed;
 - (id);
 - (id);
 - (id);
-- (id)ymentAccount;
-- (void)CT_ITEM_ADDRESS_UNSUPPORTED;
+- (id)deletePeerPaymentPendingRequestsForPeerPaymentAccount;
+- (void)IN_APP_PAYMENT_CONTACT_ITEM_ADDRESS_UNSUPPORTED;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPaymentOfferDynamicContent *dynamicContent; // @synthesize dynamicContent=_dynamicContent;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

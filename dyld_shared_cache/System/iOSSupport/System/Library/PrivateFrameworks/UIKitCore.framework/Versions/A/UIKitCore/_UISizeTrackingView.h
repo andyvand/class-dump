@@ -6,62 +6,48 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, _UIRemoteViewController, _UIRemoteViewControllerLegacyImpl;
+@class _UIRemoteViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UISizeTrackingView : UIView
 {
     _UIRemoteViewController *_remoteViewController;
-    _UIRemoteViewControllerLegacyImpl *_rvcImpl;
-    id _viewControllerOperatorProxy;
-    id _textEffectsOperatorProxy;
-    struct CGSize _intrinsicContentSize;
-    struct CGRect _formerTextEffectsContentFrame;
-    _Bool _observingTextEffectsWindowRotation;
-    long long _interfaceOrientation;
-    UIView *_viewForRemoteTextEffectsWindowMatchAnimation;
-    struct {
-        unsigned int hasIntrinsicContentSize:1;
-        unsigned int observingBoundingPathChanges:1;
-        unsigned int needsRemoteViewServiceBoundingPathUpdate:1;
-        unsigned int remoteViewServiceBoundingPathUpdateScheduled:1;
-    } _sizeTrackingViewFlags;
 }
 
-+ (id);
++ (id)h exception:(id)arg1 %@;
 + (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
+- (void)messagesPendingUpdateT3ToCloudKitWithLimit:(id)arg1;
+- (void)ifier: /* Error: Ran out of types for this method. */;
+- (void)sociatedMessageEmoji:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithSender:time:body:attributes:fileTransferGUIDs:flags:error:guid:associatedMessageGUID:associatedMessageType:associatedMessageRange:associatedMessageEmoji:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithRequestID:(struct CGRect)arg1 pushToken:(id)arg2 fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithRequestID:(struct CGRect)arg1 pushToken:fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithChatStatus:(id)arg1 chat:(long long)arg2 style:displayName:groupID:originalGroupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
+- (void)pamDetectionSource:(id)arg1;
+- (void)chatRepairController:(id)arg1 updateRepairHistoryOfChat:withRepairHistory: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_submitAndOpenTapToRadarForHistoricalIdentifierReuseForIdentifier:domain: /* Error: Ran out of types for this method. */;
+- (void)_cachedPathForStickerWithProperties:isAdaptiveImageGlyph: /* Error: Ran out of types for this method. */;
+- (void)R,N;
 - (struct CGSize);
 - (void);
 - (long long);
 - (_Bool);
+- (void)ssingParameter. Bailing and passing input to next pipeline;
+- (_Bool)or groupID:(%@) /* Error: Ran out of types for this method. */;
+- (struct CGRect)en coming back online;
+- (id)ages, as syncing is disabled;
+- (_Bool)ed & updated in spotlight;
 - (void);
-- (_Bool);
-- (struct CGRect);
-- (id);
-- (_Bool);
+- (void)A;
+- (void);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)@0:(id)arg1 8@16@24q32@?40;
 - (id)1Â0@ù
 × ;
-- (void);
-- (id)veLayerTargetsToInclude;
+- (void)_updateLayoutInfoContainerTraitCollection;
+- (id)_exclusiveLayerTargetsToInclude;
 - (void)N,S_setOwningAppearance:(struct CGRect)arg1 ,V_owningAppearance;
 - (struct CGSize)L;
 - (_Bool)¼NôO0P;
@@ -69,14 +55,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _UIRemoteViewController *remoteViewController;
-@property(readonly) Class superclass;
 
 @end
 

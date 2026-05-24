@@ -6,17 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSData, NSNumber;
+@class CIImage;
 
 @interface RAWLensCorrectionLateralCAFilter : RAWFilter
 {
     CIImage *inputImage;
-    NSNumber *inputLateralCAAmount;
-    NSData *inputLateralCAMap;
-    NSNumber *inputLateralCAMapWidth;
-    NSNumber *inputLateralCAMapHeight;
-    id inputColorSpace;
-    CIImage *mapImg;
 }
 
 + (id);

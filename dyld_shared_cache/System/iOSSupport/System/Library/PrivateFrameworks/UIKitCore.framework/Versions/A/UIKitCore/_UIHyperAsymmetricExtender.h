@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIHyperAsymmetricExtender
 {
     double *__extentBeyondMinimum;
-    double *__extentBeyondMaximum;
-    double *__temp;
-    unsigned long long __dimensions;
 }
 
-+ (id)ecode: /* Error: Ran out of types for this method. */;
++ (id)setCaptureImplicitLoadingContextOnDecode: /* Error: Ran out of types for this method. */;
 + (_Bool)-country-code;
 - (void);
 - (id);
@@ -26,23 +21,14 @@
 × ;
 - (void)!ðDùQ]ð1Â0@ù
 × ;
-- (_Bool)letion:(id)arg1;
-- (void)etContinuousCornerRadiusEnabled:(id)arg1;
-- (id)edsUpdate;
+- (_Bool)toggleDictationForResponder:(id)arg1 withOption:firstResponderSetupCompletion: /* Error: Ran out of types for this method. */;
+- (void)setContinuousCornerRadiusEnabled:(id)arg1;
+- (id)_backgroundNeedsUpdate;
 - (id),N,V_dueToRotation;
 - (const double *);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(readonly, nonatomic) const double *_extentBeyondMaximum;
 @property(readonly, nonatomic) const double *_extentBeyondMinimum;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

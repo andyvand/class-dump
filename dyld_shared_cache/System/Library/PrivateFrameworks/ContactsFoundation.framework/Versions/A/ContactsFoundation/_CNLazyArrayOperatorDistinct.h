@@ -13,9 +13,9 @@
     NSMutableSet *_seenValues;
 }
 
+- (id)B;
 - (id);
-- (id);
-- (void);
+- (void)`U;
 
 @end
 

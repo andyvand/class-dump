@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber;
-
 @interface SASSetMultilingualDictationConfig : SABaseClientBoundCommand
 {
 }
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool multilingualDisabled;
-@property(copy, nonatomic) NSNumber *multilingualTimeoutInMillis;
 
 @end
 

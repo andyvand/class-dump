@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AASigningSession, ACAccount, NSDate, NSOperationQueue, NSString;
+@class NSOperationQueue, NSString;
 
 @interface AASetupAssistantService
 {
     NSOperationQueue *_requesterQueue;
-    NSString *_appleID;
-    NSString *_password;
-    NSString *_emailChoice;
-    ACAccount *_account;
-    struct OpaqueCFHTTPCookieStorage *_cookieStorage;
-    AASigningSession *_signingSession;
-    NSDate *_signingSessionCreationDate;
 }
 
 + (void);
 + (id);
+- (void);
+- (void)qz;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void){;
 - (id);
 - (id);
 - (void);
@@ -35,22 +28,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void){;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
+- (id);
+- (id)=;
+- (id);
+- (void);
+- (void)5	;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy, nonatomic) NSString *emailChoice; // @synthesize emailChoice=_emailChoice;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 
 @end
 

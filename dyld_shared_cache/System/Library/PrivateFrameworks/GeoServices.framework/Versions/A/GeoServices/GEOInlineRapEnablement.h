@@ -14,17 +14,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ia;
 - (_Bool);
 - (void);
 - (_Bool)±È;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAddressEditable;
-@property(readonly, nonatomic) _Bool isEditable;
 @property(readonly, nonatomic) _Bool isHoursEditable;
-@property(readonly, nonatomic) _Bool isPhoneEditable;
-@property(readonly, nonatomic) _Bool isWebsiteEditable;
 
 @end
 

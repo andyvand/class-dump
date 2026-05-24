@@ -9,16 +9,6 @@
 @interface HMAccessoryInfoProtoWifiNetworkInfoEvent
 {
     NSString *_macAddress;
-    NSString *_networkBSSID;
-    NSString *_networkGatewayIPAddress;
-    NSString *_networkGatewayMacAddress;
-    int _networkRSSI;
-    NSString *_networkSSID;
-    _Bool _requiresPassword;
-    struct {
-        unsigned int networkRSSI:1;
-        unsigned int requiresPassword:1;
-    } _has;
 }
 
 - (void);
@@ -31,7 +21,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,12 +34,12 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)dissentient;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -57,19 +47,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMacAddress;
-@property(readonly, nonatomic) _Bool hasNetworkBSSID;
-@property(readonly, nonatomic) _Bool hasNetworkGatewayIPAddress;
-@property(readonly, nonatomic) _Bool hasNetworkGatewayMacAddress;
-@property(nonatomic) _Bool hasNetworkRSSI;
-@property(readonly, nonatomic) _Bool hasNetworkSSID;
-@property(nonatomic) _Bool hasRequiresPassword;
-@property(retain, nonatomic) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(retain, nonatomic) NSString *networkBSSID; // @synthesize networkBSSID=_networkBSSID;
-@property(retain, nonatomic) NSString *networkGatewayIPAddress; // @synthesize networkGatewayIPAddress=_networkGatewayIPAddress;
-@property(retain, nonatomic) NSString *networkGatewayMacAddress; // @synthesize networkGatewayMacAddress=_networkGatewayMacAddress;
-@property(nonatomic) int networkRSSI; // @synthesize networkRSSI=_networkRSSI;
-@property(retain, nonatomic) NSString *networkSSID; // @synthesize networkSSID=_networkSSID;
-@property(nonatomic) _Bool requiresPassword; // @synthesize requiresPassword=_requiresPassword;
 
 @end
 

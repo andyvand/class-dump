@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface AVTelemetryMonitor
 {
     struct {
@@ -21,15 +18,11 @@
         int _field9;
         int _field10;
     } *_allAggregratedCount;
-    NSString *_applicationIdentifier;
-    NSObject<OS_dispatch_queue> *_queueCAEvents;
-    NSObject<OS_dispatch_source> *_timerCAEvents;
-    _Bool _timerActivated;
 }
 
-+ (id)ideoTargets: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
++ (id)attachVideoTargetsForSynchronization:videoTargets: /* Error: Ran out of types for this method. */;
+- (void)_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{vector<std::pair<std::string, float>, std::allocator<std::pair<std::string, float>>>=^v^v{?=^v}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}iBB{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}B{DecodingSignals=ffff}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}},R,N,V_quasarToken /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 

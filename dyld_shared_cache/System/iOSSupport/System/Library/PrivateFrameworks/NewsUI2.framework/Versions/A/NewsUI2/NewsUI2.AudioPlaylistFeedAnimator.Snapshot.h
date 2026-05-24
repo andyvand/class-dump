@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedAnimator.Snapshot
 {
     id layoutAttributes;
-    id onScreenItems;
-    id sectionsWithFooters;
 }
 
 @end

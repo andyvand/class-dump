@@ -4,50 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResult, CNAutocompleteResultWindow, CNAutocompleteStore, MUITokenAddressField, NSArray, NSButton, NSDictionary, NSLayoutConstraint, NSMapTable, NSScrollView, NSString;
-@protocol CNCancelable, EFCancelable, MUIAddressFieldAddressesDidChangeDelegate, MUIAddressFieldContextProvider, MUIAddressFieldSenderAddressHandler, MUITokenAddressDelegate;
+@class NSScrollView;
 
 @interface MUIAddressField
 {
     SEL _action;
-    id _target;
-    long long _style;
-    _Bool _isShowingContactPicker;
-    _Bool _shouldDrawFocusRing;
-    _Bool _isBoundToTokenField;
-    _Bool _isShowingSelectedCompletion;
-    _Bool _didPasteAddresses;
-    _Bool _hideInitialEmptyCandidateList;
-    _Bool _ignoreCompletionForTextChange;
-    id <MUIAddressFieldContextProvider> _delegate;
-    id <MUIAddressFieldAddressesDidChangeDelegate> _addressChangeDelegate;
-    id <MUIAddressFieldSenderAddressHandler> _senderAddressHandler;
-    NSString *_accountIdentifier;
-    NSString *_senderAddress;
-    NSString *_senderDomain;
-    NSScrollView *_scrollView;
-    NSButton *_addContactButton;
-    CNAutocompleteResultWindow *_autocompleteResultWindow;
-    CNAutocompleteStore *_autocompleteStore;
-    CNAutocompleteResult *_selectedResult;
-    NSString *_currentPrefix;
-    id <CNCancelable> _currentSearchRequest;
-    id <CNCancelable> _lastSuccessfulSearchRequest;
-    long long _addressDisplayMode;
-    id _tokenValue;
-    NSLayoutConstraint *_addContactButtonTrailingConstraint;
-    NSLayoutConstraint *_tokenFieldTrailingConstraint;
-    NSLayoutConstraint *_tokenFieldBottomConstraint;
-    NSMapTable *_representedObjectsCache;
-    NSString *_lastSendingAddress;
-    NSString *_previousPrimaryAddress;
-    id <EFCancelable> _tokenValueObservationToken;
-    long long _lastTokenCount;
-    NSDictionary *_currentEmailAddressTokenIconsMap;
-    NSLayoutConstraint *_addressFieldHeightConstraint;
-    MUITokenAddressField *_tokenField;
-    id <MUITokenAddressDelegate> _tokenAddressDelegate;
-    struct _NSRange _editingRange;
 }
 
 + (id);
@@ -59,10 +20,10 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)r;
 - (void);
 - (void);
 - (void);
@@ -82,7 +43,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T?M;
 - (id);
 - (id);
 - (long long);
@@ -112,9 +73,9 @@
 - (void);
 - (void);
 - (void);
+- (void)*_Aq`;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -130,11 +91,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)L9;
 - (void);
 - (unsigned long long);
 - (void);
@@ -188,18 +149,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)~)J;
 - (void);
 - (id);
 - (struct CGRect);
 - (struct _NSRange);
 - (void);
 - (void);
-- (id);
+- (id)B@y	?%@q;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)J;
 - (void);
 - (void);
 - (id);
@@ -212,20 +173,20 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)SupportHDRCompositorTonemappingEnabled;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)`;
+- (id)classifyTorsoEvent:(struct CGRect)arg1 regionOfInterest:pixelBuffer:homeUUID:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (SEL);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)traint;
+- (void)midXConstraint;
 - (void);
 - (void)ÿÿÌÝÿÿUÿÿ;
 - (_Bool)jø"G_"q÷(Qo_;
@@ -233,55 +194,7 @@
 - (void)àzÜ|;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSButton *addContactButton; // @synthesize addContactButton=_addContactButton;
-@property(nonatomic) __weak NSLayoutConstraint *addContactButtonTrailingConstraint; // @synthesize addContactButtonTrailingConstraint=_addContactButtonTrailingConstraint;
-@property(nonatomic) __weak id <MUIAddressFieldAddressesDidChangeDelegate> addressChangeDelegate; // @synthesize addressChangeDelegate=_addressChangeDelegate;
-@property(nonatomic) long long addressDisplayMode; // @synthesize addressDisplayMode=_addressDisplayMode;
-@property(retain, nonatomic) NSLayoutConstraint *addressFieldHeightConstraint; // @synthesize addressFieldHeightConstraint=_addressFieldHeightConstraint;
-@property(retain, nonatomic) NSArray *addresses;
-@property(retain, nonatomic) CNAutocompleteResultWindow *autocompleteResultWindow; // @synthesize autocompleteResultWindow=_autocompleteResultWindow;
-@property(readonly, nonatomic) CNAutocompleteStore *autocompleteStore; // @synthesize autocompleteStore=_autocompleteStore;
-@property(readonly, nonatomic) NSArray *chosenRawAddresses;
-@property(readonly, nonatomic) NSArray *ckShareAddresses;
-@property(retain, nonatomic) NSDictionary *currentEmailAddressTokenIconsMap; // @synthesize currentEmailAddressTokenIconsMap=_currentEmailAddressTokenIconsMap;
-@property(copy, nonatomic) NSString *currentPrefix; // @synthesize currentPrefix=_currentPrefix;
-@property(retain, nonatomic) id <CNCancelable> currentSearchRequest; // @synthesize currentSearchRequest=_currentSearchRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MUIAddressFieldContextProvider> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didPasteAddresses; // @synthesize didPasteAddresses=_didPasteAddresses;
-@property(nonatomic) struct _NSRange editingRange; // @synthesize editingRange=_editingRange;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideInitialEmptyCandidateList; // @synthesize hideInitialEmptyCandidateList=_hideInitialEmptyCandidateList;
-@property(nonatomic) _Bool ignoreCompletionForTextChange; // @synthesize ignoreCompletionForTextChange=_ignoreCompletionForTextChange;
-@property(nonatomic) _Bool isBoundToTokenField; // @synthesize isBoundToTokenField=_isBoundToTokenField;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(nonatomic) _Bool isShowingContactPicker; // @synthesize isShowingContactPicker=_isShowingContactPicker;
-@property(nonatomic) _Bool isShowingSelectedCompletion; // @synthesize isShowingSelectedCompletion=_isShowingSelectedCompletion;
-@property(copy, nonatomic) NSString *lastSendingAddress; // @synthesize lastSendingAddress=_lastSendingAddress;
-@property(retain, nonatomic) id <CNCancelable> lastSuccessfulSearchRequest; // @synthesize lastSuccessfulSearchRequest=_lastSuccessfulSearchRequest;
-@property(nonatomic) long long lastTokenCount; // @synthesize lastTokenCount=_lastTokenCount;
-@property(copy, nonatomic) NSString *previousPrimaryAddress; // @synthesize previousPrimaryAddress=_previousPrimaryAddress;
-@property(readonly, nonatomic) NSArray *rawAddresses;
-@property(retain, nonatomic) NSMapTable *representedObjectsCache; // @synthesize representedObjectsCache=_representedObjectsCache;
 @property(retain, nonatomic) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) CNAutocompleteResult *selectedResult; // @synthesize selectedResult=_selectedResult;
-@property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(nonatomic) __weak id <MUIAddressFieldSenderAddressHandler> senderAddressHandler; // @synthesize senderAddressHandler=_senderAddressHandler;
-@property(copy, nonatomic) NSString *senderDomain; // @synthesize senderDomain=_senderDomain;
-@property(nonatomic) _Bool shouldDrawFocusRing; // @synthesize shouldDrawFocusRing=_shouldDrawFocusRing;
-@property(nonatomic) long long style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <MUITokenAddressDelegate> tokenAddressDelegate; // @synthesize tokenAddressDelegate=_tokenAddressDelegate;
-@property(retain, nonatomic) MUITokenAddressField *tokenField; // @synthesize tokenField=_tokenField;
-@property(nonatomic) __weak NSLayoutConstraint *tokenFieldBottomConstraint; // @synthesize tokenFieldBottomConstraint=_tokenFieldBottomConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *tokenFieldTrailingConstraint; // @synthesize tokenFieldTrailingConstraint=_tokenFieldTrailingConstraint;
-@property(retain, nonatomic) id tokenValue; // @synthesize tokenValue=_tokenValue;
-@property(retain, nonatomic) id <EFCancelable> tokenValueObservationToken; // @synthesize tokenValueObservationToken=_tokenValueObservationToken;
 
 @end
 

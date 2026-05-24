@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FavoritesPickerItemStyleResolver, FavoritesPickerViewController, NSArray, NSCustomTouchBarItem, NSString, NSTouchBar;
-@protocol FavoritesPickerFunctionBarProviderDelegate, FunctionBarFavoritesVending;
+@class NSCustomTouchBarItem;
+@protocol FavoritesPickerFunctionBarProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerFunctionBarProvider
 {
     NSCustomTouchBarItem *_favoritesPickerBarItem;
-    FavoritesPickerViewController *_favoritesPickerViewController;
-    FavoritesPickerItemStyleResolver *_styleResolver;
-    NSArray *_displayedFavorites;
-    _Bool _canNavigateUp;
-    unsigned long long _favoritesGenerationAtLastFetch;
-    NSTouchBar *_functionBar;
-    id <FavoritesPickerFunctionBarProviderDelegate> _delegate;
-    id <FunctionBarFavoritesVending> _favoritesVendor;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -34,28 +26,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
+- (id)i;
 - (id);
-- (id);
-- (id);
+- (id)mework/GameCenterFoundation;
 - (void);
 - (void);
 - (id)¼|àÿV3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <FavoritesPickerFunctionBarProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <FunctionBarFavoritesVending> favoritesVendor; // @synthesize favoritesVendor=_favoritesVendor;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar; // @synthesize touchBar=_functionBar;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <ReminderKit/REMStoreInvocationResult.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface REMSmartListsDataViewInvocationResult : REMStoreInvocationResult
 {
     NSArray *_smartListStorages;
-    NSDictionary *_accountStorages;
-    NSDictionary *_parentListStorages;
 }
 
 + (_Bool);
@@ -22,16 +20,15 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)R_;
 - (id);
-- (id);
-- (id);
+- (id)t+="\n")}return t}const READER_UNIQUE_ID_ATTRIBUTE_KEY="data-reader-unique-id",READER_UNIQUE_ID_TITLE="titleElement",READER_UNIQUE_ID_SUBHEAD="subheadElement";
+0;;
 - (id);
 - (void)áê!@BùÑr °1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *accountStorages; // @synthesize accountStorages=_accountStorages;
-@property(readonly, nonatomic) NSDictionary *parentListStorages; // @synthesize parentListStorages=_parentListStorages;
 @property(readonly, nonatomic) NSArray *smartListStorages; // @synthesize smartListStorages=_smartListStorages;
 
 @end

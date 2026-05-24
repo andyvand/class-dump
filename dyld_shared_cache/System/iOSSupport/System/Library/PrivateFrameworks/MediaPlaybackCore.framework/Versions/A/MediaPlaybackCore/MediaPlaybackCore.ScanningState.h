@@ -9,10 +9,6 @@
 @interface MediaPlaybackCore.ScanningState : MediaPlaybackCore.State
 {
     id direction;
-    id resumeRate;
-    id metadata;
-    id isStalled;
-    id supportsRateChange;
 }
 
 @end

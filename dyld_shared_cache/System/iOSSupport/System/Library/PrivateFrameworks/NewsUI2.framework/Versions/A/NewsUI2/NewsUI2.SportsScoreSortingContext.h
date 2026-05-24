@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsScoreSortingContext
 {
     id nowDate;
-    id subscribedTagIDs;
-    id favoringTagIDs;
-    id selectors;
 }
 
 @end

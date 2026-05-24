@@ -7,9 +7,6 @@
 @interface MPCSharedListeningQueueEventPlaybackModeChanged
 {
     long long _kind;
-    CDUnknownBlockType _shuffleType;
-    CDUnknownBlockType _repeatType;
-    CDUnknownBlockType _autoPlayEnabled;
 }
 
 - (id);
@@ -19,14 +16,11 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (long long);
+- (long long)#;
 - (void)ublic}@;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType autoPlayEnabled; // @synthesize autoPlayEnabled=_autoPlayEnabled;
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) CDUnknownBlockType repeatType; // @synthesize repeatType=_repeatType;
-@property(readonly, nonatomic) CDUnknownBlockType shuffleType; // @synthesize shuffleType=_shuffleType;
 
 @end
 

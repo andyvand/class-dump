@@ -7,12 +7,6 @@
 @interface AuthenticationServices._ASCredentialUpdateController
 {
     id connection;
-    id accountStore;
-    id passwordsNotificationManager;
-    id credentialProviderExtensionNotificationManager;
-    id isClientEntitledWebBrowser;
-    id options;
-    id test_overrideCallingAppName;
 }
 
 - (void);

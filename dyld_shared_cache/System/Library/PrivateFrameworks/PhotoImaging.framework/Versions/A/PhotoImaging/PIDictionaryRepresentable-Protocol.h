@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol PIDictionaryRepresentable
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;

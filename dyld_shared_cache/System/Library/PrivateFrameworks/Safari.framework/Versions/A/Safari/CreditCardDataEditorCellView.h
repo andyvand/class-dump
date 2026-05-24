@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface CreditCardDataEditorCellView
 {
     NSImageView *_creditCardIconImageView;
-    NSTextField *_creditCardNameLabel;
-    NSTextField *_creditCardDescriptionLabel;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *creditCardDescriptionLabel; // @synthesize creditCardDescriptionLabel=_creditCardDescriptionLabel;
 @property(nonatomic) __weak NSImageView *creditCardIconImageView; // @synthesize creditCardIconImageView=_creditCardIconImageView;
-@property(nonatomic) __weak NSTextField *creditCardNameLabel; // @synthesize creditCardNameLabel=_creditCardNameLabel;
 
 @end
 

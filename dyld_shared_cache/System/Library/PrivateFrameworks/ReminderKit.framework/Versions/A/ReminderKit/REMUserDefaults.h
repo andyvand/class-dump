@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSUserDefaults;
+@class NSString;
 
 @interface REMUserDefaults
 {
     _Bool _showRemindersAsOverdue_cached;
-    NSString *_suiteName;
-    NSMutableDictionary *_observers;
-    NSUserDefaults *_userDefaults;
 }
 
 + (id);
@@ -20,20 +17,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id)phanumericCharacterSet;
+- (id)alphanumericCharacterSet;
 - (id)°;
-- (void)ReminderIdentifier;
+- (void)dueDateDeltaAlertReminderIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *observers; // @synthesize observers=_observers;
-@property(nonatomic) _Bool showRemindersAsOverdue_cached; // @synthesize showRemindersAsOverdue_cached=_showRemindersAsOverdue_cached;
 @property(readonly, nonatomic) NSString *suiteName; // @synthesize suiteName=_suiteName;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

@@ -7,30 +7,6 @@
 @interface AppKit.MenuItem
 {
     id id;
-    id title;
-    id subtitle;
-    id tooltip;
-    id keyEquivalent;
-    id _keyEquivalentModifierMask;
-    id virtualKeyCode;
-    id submenuID;
-    id paletteMenu;
-    id containingMenuID;
-    id badge;
-    id _attributedTitle;
-    id _image;
-    id _highlightedImage;
-    id _onStateImage;
-    id _offStateImage;
-    id _mixedStateImage;
-    id _state;
-    id imageSize;
-    id keyEquivalentDisplayOverride;
-    id keyEquivalentInputSourceIdentifier;
-    id indentationLevel;
-    id newItemsCount;
-    id customView;
-    id _flags;
 }
 
 @end

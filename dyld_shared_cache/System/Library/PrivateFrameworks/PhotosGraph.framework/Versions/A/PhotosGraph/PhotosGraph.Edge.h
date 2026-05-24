@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
 @protocol KGNode;
 
 @interface PhotosGraph.Edge
 {
     id <KGNode> targetNode;
-    id <KGNode> sourceNode;
-    unsigned long long identifier;
-    void labels;
-    void properties;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)1
+;
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);;
+- (void);
+- (id)!;
+- (id)I,;
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long identifier; // @synthesize identifier;
-@property(nonatomic, copy) NSSet *labels;
-@property(nonatomic, copy) NSDictionary *properties;
-@property(nonatomic, retain) id <KGNode> sourceNode; // @synthesize sourceNode;
 @property(nonatomic, retain) id <KGNode> targetNode; // @synthesize targetNode;
 
 @end

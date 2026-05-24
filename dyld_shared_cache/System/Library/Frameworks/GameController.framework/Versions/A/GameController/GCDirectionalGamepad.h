@@ -6,71 +6,43 @@
 
 #import <GameController/GCMicroGamepad.h>
 
-@class GCControllerButtonInput, GCControllerDirectionPad, NSString;
-
 @interface GCDirectionalGamepad : GCMicroGamepad
 {
     _Bool _reportsAbsoluteDpadValues;
-    float _touchpadRelativeWindowSize;
-    float _touchpadRelativeOriginBufferSize;
-    unsigned char _directionPadButtonsState;
-    _Bool _centerButtonPressed;
-    long long _touchState;
-    _Bool _leftBufferZone;
-    _Bool _beganTouchOutsideBounds;
-    float _previousButtonState;
-    struct CGPoint _absoluteWindowLocation;
-    struct CGPoint _absolutePosition;
-    struct CGPoint _absoluteTouchDownPosition;
-    struct CGPoint _relativePosition;
-    GCControllerDirectionPad *_cardinalDpad;
-    GCControllerButtonInput *_centerButton;
-    _Bool _treatOnlyCenterRingAsButtonA;
-    unsigned long long _owner;
-    long long _deviceType;
 }
 
-- (struct CGPoint);
-- (void);
+- (struct CGPoint)+;
+- (void)f;
 - (void);
 - (void);
 - (struct CGPoint);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
 - (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)4;
+- (_Bool);
 - (struct CGPoint);
 - (id);
 - (void);
-- (id);
+- (id)imageNameForThumbnailInImageSource:(id)arg1;
 - (unsigned long long);
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long deviceType;
-@property(readonly) GCControllerDirectionPad *dpad;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long owner;
-@property(readonly) Class superclass;
 
 @end
 

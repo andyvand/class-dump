@@ -6,31 +6,22 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FAFetchFamilyCircleRequest : FAFamilyCircleRequest
 {
     _Bool _signedInAccountShouldBeApprover;
-    _Bool _forceServerFetch;
-    _Bool _doNotFetchFromServer;
-    _Bool _promptUserToResolveAuthenticatonFailure;
-    NSArray *_expectedDSIDs;
-    NSArray *_expectedAltDSIDs;
-    unsigned long long _cachePolicy;
-    NSDictionary *_serverResponse;
-    long long _qualityOfService;
-    NSString *_context;
 }
 
 - (void);
-- (id);
+- (id)_setWritingMode: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (long long);
-- (void);
+- (long long);
+- (void)with method ;
 - (id);
 - (id);
 - (_Bool);
@@ -38,29 +29,20 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)sh/close ret=%d errno=%d;
+- (void);
 - (id);
-- (id);
+- (id)ssion check completed. Invalidating XPC Connection.;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(retain, nonatomic) NSString *context; // @synthesize context=_context;
-@property _Bool doNotFetchFromServer; // @synthesize doNotFetchFromServer=_doNotFetchFromServer;
-@property(copy) NSArray *expectedAltDSIDs; // @synthesize expectedAltDSIDs=_expectedAltDSIDs;
-@property(copy) NSArray *expectedDSIDs; // @synthesize expectedDSIDs=_expectedDSIDs;
-@property _Bool forceServerFetch; // @synthesize forceServerFetch=_forceServerFetch;
-@property _Bool promptUserToResolveAuthenticatonFailure; // @synthesize promptUserToResolveAuthenticatonFailure=_promptUserToResolveAuthenticatonFailure;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 @property(readonly, retain) NSDictionary *serverResponse; // @synthesize serverResponse=_serverResponse;
-@property _Bool signedInAccountShouldBeApprover; // @synthesize signedInAccountShouldBeApprover=_signedInAccountShouldBeApprover;
 
 @end
 

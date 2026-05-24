@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSFont, NSMutableSet, NSParagraphStyle, NSSet, NSString, NSTextAttachment, NSTextStorage;
-@protocol WFSlotTemplateTextStorageDelegate;
+@class NSTextStorage;
 
 __attribute__((visibility("hidden")))
 @interface WFSlotTemplateTextStorage
 {
     _Bool _enabled;
-    _Bool _prefersTypingForSlotFilling;
-    NSFont *_font;
-    NSFont *_unpopulatedFont;
-    NSFont *_suffixFont;
-    NSColor *_textColor;
-    NSColor *_tintColor;
-    NSColor *_suffixColor;
-    NSParagraphStyle *_paragraphStyle;
-    NSColor *_disabledSlotTitleColor;
-    NSColor *_disabledSlotBackgroundColor;
-    unsigned long long _useCase;
-    NSArray *_contents;
-    long long _contentsTextAlignment;
-    NSTextAttachment *_disclosureAttachment;
-    NSTextAttachment *_outputButtonAttachment;
-    NSString *_suffixString;
-    NSTextStorage *_textStorage;
-    NSMutableSet *_mutableHighlightedSlots;
-    NSMutableSet *_mutableSelectedSlots;
-    NSMutableSet *_mutableTypingSlots;
-    unsigned long long _editingLevel;
 }
 
 - (void);
@@ -47,48 +25,48 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)*T;
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)=*T;
+- (id)g;
 - (id);
+- (id)T;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (struct _NSRange);
-- (id);
+- (id)@*T;
 - (void);
 - (id);
+- (void)T;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id)Hh ;
+- (void)l;
 - (void);
 - (void);
 - (void);
-- (id);
+- (void)m;
+- (void);
+- (id)&L;
 - (_Bool);
-- (id);
+- (id)u;
 - (void);
 - (unsigned long long);
 - (id);
@@ -96,41 +74,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void)·°yu°yABy8¢°#°yÍ¡°GGî°yð°SgGGAByAByÉ]Q$k°G~°yØ¨°GGGSg;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) long long contentsTextAlignment; // @synthesize contentsTextAlignment=_contentsTextAlignment;
-@property __weak id <WFSlotTemplateTextStorageDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) NSColor *disabledSlotBackgroundColor; // @synthesize disabledSlotBackgroundColor=_disabledSlotBackgroundColor;
-@property(readonly, nonatomic) NSColor *disabledSlotTitleColor; // @synthesize disabledSlotTitleColor=_disabledSlotTitleColor;
-@property(retain, nonatomic) NSTextAttachment *disclosureAttachment; // @synthesize disclosureAttachment=_disclosureAttachment;
-@property(nonatomic) unsigned long long editingLevel; // @synthesize editingLevel=_editingLevel;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(readonly, nonatomic) NSSet *highlightedSlots;
-@property(readonly, nonatomic) NSMutableSet *mutableHighlightedSlots; // @synthesize mutableHighlightedSlots=_mutableHighlightedSlots;
-@property(readonly, nonatomic) NSMutableSet *mutableSelectedSlots; // @synthesize mutableSelectedSlots=_mutableSelectedSlots;
-@property(readonly, nonatomic) NSMutableSet *mutableTypingSlots; // @synthesize mutableTypingSlots=_mutableTypingSlots;
-@property(retain, nonatomic) NSTextAttachment *outputButtonAttachment; // @synthesize outputButtonAttachment=_outputButtonAttachment;
-@property(copy, nonatomic) NSParagraphStyle *paragraphStyle; // @synthesize paragraphStyle=_paragraphStyle;
-@property(nonatomic) _Bool prefersTypingForSlotFilling; // @synthesize prefersTypingForSlotFilling=_prefersTypingForSlotFilling;
-@property(readonly, nonatomic) NSSet *selectedSlots;
-@property(retain, nonatomic) NSColor *suffixColor; // @synthesize suffixColor=_suffixColor;
-@property(retain, nonatomic) NSFont *suffixFont; // @synthesize suffixFont=_suffixFont;
-@property(retain, nonatomic) NSString *suffixString; // @synthesize suffixString=_suffixString;
-@property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
 @property(readonly, nonatomic) NSTextStorage *textStorage; // @synthesize textStorage=_textStorage;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(readonly, nonatomic) NSSet *typingSlots;
-@property(retain, nonatomic) NSFont *unpopulatedFont; // @synthesize unpopulatedFont=_unpopulatedFont;
-@property(nonatomic) unsigned long long useCase; // @synthesize useCase=_useCase;
 
 @end
 

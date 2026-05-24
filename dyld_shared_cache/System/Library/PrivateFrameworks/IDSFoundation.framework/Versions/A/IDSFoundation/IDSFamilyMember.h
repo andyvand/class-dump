@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSSet, NSString;
-
 @interface IDSFamilyMember
 {
     long long _relationship;
-    NSNumber *_DSID;
-    NSString *_appleID;
-    NSSet *_handles;
-    NSArray *_devices;
 }
 
 - (id);
-- (long long);
+- (long long)SFShareSheetSessionConfiguration;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void)rn on SO_NOSIGPIPE;
-- (id)stOption;
+- (id)TestOption;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(readonly, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(readonly, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly, nonatomic) NSSet *handles; // @synthesize handles=_handles;
 @property(readonly, nonatomic) long long relationship; // @synthesize relationship=_relationship;
 
 @end

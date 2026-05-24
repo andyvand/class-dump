@@ -7,7 +7,6 @@
 @interface TeaUI.ManualBlueprintLayoutCollectionSectionSupplementarySolver
 {
     id layoutDirection;
-    id layoutOptions;
 }
 
 @end

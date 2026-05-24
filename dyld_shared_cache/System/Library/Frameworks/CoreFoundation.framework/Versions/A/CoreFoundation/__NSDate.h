@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 - (void);
-- (double);
+- (double)z;
 - (id)nking.co.at;
 
 @end

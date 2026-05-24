@@ -13,14 +13,12 @@
 
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *language;
-@property(readonly, nonatomic) NSString *stage;
 @property(readonly, nonatomic) NSString *version;
 
 @end

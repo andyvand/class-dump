@@ -7,9 +7,6 @@
 @interface NewsFeed.LayeredMediaLayerProvider
 {
     id loader;
-    id traits;
-    id variantFactory;
-    id cache;
 }
 
 @end

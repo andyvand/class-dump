@@ -9,11 +9,9 @@
 @interface AXFStackQueue
 {
     _AXFStackNode *_firstNode;
-    _AXFStackNode *_lastNode;
-    unsigned long long _count;
 }
 
-- (id);
+- (id)C;
 - (void);
 - (id);
 - (id);
@@ -21,12 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)VVideoComposition",R,N,V_videoComposition;
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)@;
 - (id);
 
 // Remaining properties

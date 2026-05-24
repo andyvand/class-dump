@@ -7,10 +7,6 @@
 @interface NewsUI2.OpenChannelCommandHandler
 {
     id navigator;
-    id tracker;
-    id tagService;
-    id featureAvailability;
-    id offlineProvider;
 }
 
 @end

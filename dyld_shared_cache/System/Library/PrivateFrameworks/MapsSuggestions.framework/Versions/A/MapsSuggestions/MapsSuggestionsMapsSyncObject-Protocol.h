@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @protocol MapsSuggestionsMapsSyncObject
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *createTime;
 @property(readonly, copy, nonatomic) NSUUID *identifier;
 @end
 

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     double _height;
 }
 
-+ (id)er:(double)arg1 reason:(struct CGPoint)arg2;
-- (double);
-- (_Bool)ntainerWidth;
++ (id)_popRunLoopMode:(double)arg1 requester:(struct CGPoint)arg2 reason:(struct UIEdgeInsets)arg3;
+- (double)@"ILMessageFilterQueryResponse"8@"NSError"16;
+- (_Bool)idealSearchContainerWidth;
 
 @end
 

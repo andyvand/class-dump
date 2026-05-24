@@ -14,7 +14,7 @@
 + (Class);
 + (long long)ay",C,N,V_supportedPlatforms;
 - (id);
-- (id)DeviceTypes:(id)arg1;
+- (id)StringAsPayloadHomeDeviceTypes:(id)arg1;
 
 @end
 

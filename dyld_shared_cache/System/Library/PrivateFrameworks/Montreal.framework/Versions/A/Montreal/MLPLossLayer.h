@@ -6,17 +6,11 @@
 
 #import <Montreal/MLPImageLayer.h>
 
-@class MPSMatrixCopy, MPSMatrixLogSoftMax, MPSMatrixNeuron, MPSMatrixSoftMax, MPSNDArrayMultiplication, MPSNDArrayReductionSum;
+@class MPSNDArrayMultiplication;
 
 @interface MLPLossLayer : MLPImageLayer
 {
     MPSNDArrayMultiplication *_multiplication;
-    MPSNDArrayReductionSum *_reductionSum;
-    MPSMatrixSoftMax *_matrixSoftMax;
-    MPSMatrixLogSoftMax *_matrixLogSoftMax;
-    MPSMatrixNeuron *_negativeNeuron;
-    MPSMatrixCopy *_matrixLargeCopyFilter;
-    MPSMatrixCopy *_matrixSingleCopyFilter;
 }
 
 - (void);
@@ -25,9 +19,9 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,13 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) MPSMatrixCopy *matrixLargeCopyFilter; // @synthesize matrixLargeCopyFilter=_matrixLargeCopyFilter;
-@property(retain) MPSMatrixLogSoftMax *matrixLogSoftMax; // @synthesize matrixLogSoftMax=_matrixLogSoftMax;
-@property(retain) MPSMatrixCopy *matrixSingleCopyFilter; // @synthesize matrixSingleCopyFilter=_matrixSingleCopyFilter;
-@property(retain) MPSMatrixSoftMax *matrixSoftMax; // @synthesize matrixSoftMax=_matrixSoftMax;
 @property(retain) MPSNDArrayMultiplication *multiplication; // @synthesize multiplication=_multiplication;
-@property(retain) MPSMatrixNeuron *negativeNeuron; // @synthesize negativeNeuron=_negativeNeuron;
-@property(retain) MPSNDArrayReductionSum *reductionSum; // @synthesize reductionSum=_reductionSum;
 
 @end
 

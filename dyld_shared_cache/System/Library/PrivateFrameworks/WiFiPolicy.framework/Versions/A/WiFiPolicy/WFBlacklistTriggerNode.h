@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WFBlacklistTriggerNode
 {
     unsigned long long _triggerReason;
-    long long _triggerReasonData;
-    NSString *_triggerReasonString;
-    double _triggerReasonTimestamp;
-    NSString *_bssid;
 }
 
 - (double);
@@ -25,16 +19,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)8;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(copy) NSString *bssid; // @synthesize bssid=_bssid;
 @property unsigned long long triggerReason; // @synthesize triggerReason=_triggerReason;
-@property long long triggerReasonData; // @synthesize triggerReasonData=_triggerReasonData;
-@property(copy) NSString *triggerReasonString; // @synthesize triggerReasonString=_triggerReasonString;
-@property double triggerReasonTimestamp; // @synthesize triggerReasonTimestamp=_triggerReasonTimestamp;
 
 @end
 

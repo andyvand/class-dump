@@ -12,19 +12,15 @@ __attribute__((visibility("hidden")))
 @interface LPQuotedTextViewStyle : LPTextViewStyle
 {
     _Bool _showQuoteIndicator;
-    _Bool _showCharacterLimitIndicator;
-    unsigned int _maximumLinesToConsiderShort;
-    NSFont *_longPullQuoteFont;
-    LPTextViewStyle *_characterLimitIndicatorStyle;
 }
 
-- (_Bool);
+- (_Bool)V;
 - (_Bool);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (id);
+- (id)f;
 - (id);
 - (id);
 - (void);
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) LPTextViewStyle *characterLimitIndicatorStyle; // @synthesize characterLimitIndicatorStyle=_characterLimitIndicatorStyle;
 @property(retain, nonatomic) NSFont *longPullQuoteFont; // @synthesize longPullQuoteFont=_longPullQuoteFont;
-@property(nonatomic) unsigned int maximumLinesToConsiderShort; // @synthesize maximumLinesToConsiderShort=_maximumLinesToConsiderShort;
-@property(nonatomic) _Bool showCharacterLimitIndicator; // @synthesize showCharacterLimitIndicator=_showCharacterLimitIndicator;
-@property(nonatomic) _Bool showQuoteIndicator; // @synthesize showQuoteIndicator=_showQuoteIndicator;
 
 @end
 

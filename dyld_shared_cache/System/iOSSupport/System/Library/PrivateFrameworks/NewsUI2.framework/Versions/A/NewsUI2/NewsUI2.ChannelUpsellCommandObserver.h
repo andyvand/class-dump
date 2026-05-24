@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelUpsellCommandObserver
 {
     id commandCenter;
-    id router;
 }
 
 @end

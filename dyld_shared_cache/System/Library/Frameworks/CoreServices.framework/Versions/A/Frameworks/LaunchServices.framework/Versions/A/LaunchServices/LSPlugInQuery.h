@@ -13,16 +13,16 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)RenderPipelineDescriptor"16@?<v@?@"<MTLRenderPipelineState>"@"NSError">24;
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 

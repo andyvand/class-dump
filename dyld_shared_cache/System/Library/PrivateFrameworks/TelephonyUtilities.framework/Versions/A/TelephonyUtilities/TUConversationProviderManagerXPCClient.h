@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TUConversationProviderManagerXPCClient
 {
     _Bool _hasRequestedInitialState;
-    _Bool _hasInitialState;
-    _Bool _shouldConnectToHost;
-    int _shouldConnectToken;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)V;
 + (id);
 + (id);
 + (void);
@@ -32,16 +27,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)ndedWithReason:(id)arg1;
-- (void)werLevelForPowerSpectrum:(CDUnknownBlockType)arg1;
-- (void)ination:(id)arg1;
-- (void)DirectFaceTimeVideoCallingCurrentlyAvailable;
-- (_Bool)ateConnected;
+- (void)setSelectedResponse:(id)arg1;
+- (void)setRevision: /* Error: Ran out of types for this method. */;
+- (void)remoteScreenShareEndedWithReason:(id)arg1;
+- (void)rawPowerLevelForPowerSpectrum:(CDUnknownBlockType)arg1;
+- (void)isModernFaceTimeAvailableForDestination:(id)arg1;
+- (void)isDirectFaceTimeVideoCallingCurrentlyAvailable;
+- (_Bool)_dateConnected;
 - (int)pant",R,C,N,V_activeRemoteParticipant;
 - (void)g",R,C,N,V_isoCountryCode;
 - (void)",C,N,V_calls;
@@ -51,24 +46,12 @@
 - (_Bool)Ôd¨;
 - (void)nd Score:(int)arg1 %d;
 - (void)already populated;
-- (id)CodingKeys;
+- (id)LegacyVoicemailsCodingKeys;
 - (_Bool)ntifer=%llu;
 - (void)anslationRequestConfiguration=%@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasInitialState; // @synthesize hasInitialState=_hasInitialState;
-@property(nonatomic) _Bool hasRequestedInitialState; // @synthesize hasRequestedInitialState=_hasRequestedInitialState;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool shouldConnectToHost; // @synthesize shouldConnectToHost=_shouldConnectToHost;
-@property(nonatomic) int shouldConnectToken; // @synthesize shouldConnectToken=_shouldConnectToken;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

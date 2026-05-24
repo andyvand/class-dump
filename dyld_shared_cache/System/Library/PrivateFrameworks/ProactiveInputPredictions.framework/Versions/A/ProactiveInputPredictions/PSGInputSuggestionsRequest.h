@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSArray;
 
 @interface PSGInputSuggestionsRequest
 {
     _Bool _shouldDisableAutoCaps;
-    _Bool _isResponseContextBlacklisted;
-    _Bool _isDocumentEmpty;
-    NSString *_responseContext;
-    NSArray *_conversationTurns;
-    NSString *_adaptationContextID;
-    NSString *_contextBeforeInput;
-    NSString *_markedText;
-    NSString *_selectedText;
-    NSString *_contextAfterInput;
-    NSString *_localeIdentifier;
-    NSString *_bundleIdentifier;
-    NSArray *_recipients;
-    NSSet *_recipientNames;
-    NSString *_textContentType;
-    NSSet *_availableApps;
-    unsigned long long _textualResponseLimit;
-    unsigned long long _structuredInfoLimit;
-    unsigned long long _totalSuggestionsLimit;
-    NSArray *_responseKitConversationTurns;
-    NSString *_initiatingProcess;
-    struct _NSRange _selectedRangeInMarkedText;
 }
 
 + (_Bool);
@@ -44,53 +23,32 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (_Bool);
 - (_Bool);
 - (id);
 - (struct _NSRange);
 - (id);
-- (id);
-- (id);
+- (id)ntextMenuConfiguration available;
+- (id)enuIneraction available. No contextMenuConfiguration available;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)`;
 - (id);
-- (id);
-- (id);
+- (id)allRegisteredItemTypes;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id)ithString:senderID:timestamp: /* Error: Ran out of types for this method. */;
+- (id)initWithString:senderID:timestamp: /* Error: Ran out of types for this method. */;
 - (id)ntifier:timeoutSeconds:structuredInfoFetchLimit:availableApps:textualResponseLimit:structuredInfoLimit:totalSuggestionsLimit:explanationSet:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *adaptationContextID; // @synthesize adaptationContextID=_adaptationContextID;
-@property(readonly, nonatomic) NSSet *availableApps; // @synthesize availableApps=_availableApps;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *contextAfterInput; // @synthesize contextAfterInput=_contextAfterInput;
-@property(readonly, nonatomic) NSString *contextBeforeInput; // @synthesize contextBeforeInput=_contextBeforeInput;
-@property(readonly, nonatomic) NSArray *conversationTurns; // @synthesize conversationTurns=_conversationTurns;
-@property(readonly, nonatomic) NSString *initiatingProcess; // @synthesize initiatingProcess=_initiatingProcess;
-@property(readonly, nonatomic) _Bool isDocumentEmpty; // @synthesize isDocumentEmpty=_isDocumentEmpty;
-@property(readonly, nonatomic) _Bool isResponseContextBlacklisted; // @synthesize isResponseContextBlacklisted=_isResponseContextBlacklisted;
-@property(readonly, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(readonly, nonatomic) NSString *markedText; // @synthesize markedText=_markedText;
-@property(readonly, nonatomic) NSSet *recipientNames; // @synthesize recipientNames=_recipientNames;
-@property(readonly, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) NSString *responseContext; // @synthesize responseContext=_responseContext;
 @property(readonly, nonatomic) NSArray *responseKitConversationTurns; // @synthesize responseKitConversationTurns=_responseKitConversationTurns;
-@property(readonly, nonatomic) struct _NSRange selectedRangeInMarkedText; // @synthesize selectedRangeInMarkedText=_selectedRangeInMarkedText;
-@property(readonly, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
-@property(readonly, nonatomic) _Bool shouldDisableAutoCaps; // @synthesize shouldDisableAutoCaps=_shouldDisableAutoCaps;
-@property(readonly, nonatomic) unsigned long long structuredInfoLimit; // @synthesize structuredInfoLimit=_structuredInfoLimit;
-@property(readonly, nonatomic) NSString *textContentType; // @synthesize textContentType=_textContentType;
-@property(readonly, nonatomic) unsigned long long textualResponseLimit; // @synthesize textualResponseLimit=_textualResponseLimit;
-@property(readonly, nonatomic) unsigned long long totalSuggestionsLimit; // @synthesize totalSuggestionsLimit=_totalSuggestionsLimit;
 
 @end
 

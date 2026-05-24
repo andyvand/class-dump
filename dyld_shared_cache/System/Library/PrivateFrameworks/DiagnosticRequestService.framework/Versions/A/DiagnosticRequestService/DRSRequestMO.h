@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSOrderedSet, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSRequestMO
 {
 }
 
-+ (id);
++ (id)contacts;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *build; // @dynamic build;
-@property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(retain, nonatomic) NSData *contextDictionaryData; // @dynamic contextDictionaryData;
-@property(nonatomic) short decisionServerDecision; // @dynamic decisionServerDecision;
-@property(copy, nonatomic) NSString *errorDescription; // @dynamic errorDescription;
-@property(nonatomic) _Bool hasBeenCountedByTelemetry; // @dynamic hasBeenCountedByTelemetry;
-@property(nonatomic) _Bool isExpedited; // @dynamic isExpedited;
-@property(copy, nonatomic) NSString *issueCategory; // @dynamic issueCategory;
-@property(copy, nonatomic) NSString *issueDescription; // @dynamic issueDescription;
-@property(retain, nonatomic) NSOrderedSet *logs; // @dynamic logs;
-@property(copy, nonatomic) NSDate *requestDate; // @dynamic requestDate;
-@property(copy, nonatomic) NSUUID *requestID; // @dynamic requestID;
-@property(nonatomic) long long requestMCT; // @dynamic requestMCT;
-@property(nonatomic) long long requestState; // @dynamic requestState;
-@property(copy, nonatomic) NSString *teamID; // @dynamic teamID;
-@property(nonatomic) short uploadAttemptCount; // @dynamic uploadAttemptCount;
 
 @end
 

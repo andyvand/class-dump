@@ -5,5 +5,7 @@
 //
 
 @protocol PTEditingServerDelegate
+- (void);
+- (void)B;
 @end
 

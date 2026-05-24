@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFButtonItem, SFRichText;
+@class NSString;
 
 @protocol SFLargeTitleDetailedRowCardSection
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFButtonItem *subtitleButtonItem;
-@property(retain, nonatomic) SFRichText *title;
-@property(copy, nonatomic) NSArray *trailingButtonItems;
 @property(copy, nonatomic) NSString *type;
 @end
 

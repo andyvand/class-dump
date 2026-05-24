@@ -4,61 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigVideoCaptureDevice, BWSpringSimulation, BWStreamingCVAFilterRendererAnimator, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol MTLCommandQueue, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BWStreamingCVAFilterRenderer
 {
     NSObject<OS_dispatch_queue> *_sharedContextQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    struct {
-        _Bool depthFilterEnabled;
-        struct __CVBuffer *mostRecentPostprocessedDisparityBuffer;
-        float mostRecentFocusDisparity;
-        float mostRecentDeltaDisparity;
-        float mostRecentPortraitStability;
-        int numberOfFramesSinceLastStableFocus;
-        float clientSuppliedSimulatedAperture;
-        float clientSuppliedPortraitLightingEffectStrength;
-        _Bool mostRecentStructuredLightOcclusion;
-        _Bool previousPortraitRequestFellbackToNonDepthRendering;
-        NSArray *mostRecentDetectedFaces;
-        int previousStagePreviewStatus;
-    } _sharedContext;
-    int _depthDataSource;
-    BWFigVideoCaptureDevice *_captureDevice;
-    id <MTLCommandQueue> _commandQueue;
-    _Bool _studioAndContourRenderingEnabled;
-    _Bool _stageRenderingEnabled;
-    BWSpringSimulation *_stageProxyLiveRenderingSpringSimulation;
-    BWStreamingCVAFilterRendererAnimator *_animator;
-    NSMutableDictionary *_objectVisibilityByID;
-    struct os_unfair_lock_s _objectVisibilityByIDLock;
-    NSMutableArray *_postprocessedFaces;
-    _Bool _foregroundBlurEnabled;
-    _Bool _hasSeenDepth;
-    int _maxFramesWithoutDepth;
-    int _unexpectedFramesWithoutDepth;
-    _Bool _hasSeenSegmentation;
-    int _maxFramesWithoutSegmentation;
-    int _unexpectedFramesWithoutSegmentation;
-    _Bool _mirroredForMetadataAdjustment;
-    int _rotationDegreesForMetadataAdjustment;
-    _Bool _secondaryStreamingPersonSegmentationEnabled;
-    _Bool _depthFilterRenderingIsAfterPreviewStitcher;
-    _Bool _cropDepthToPrimaryCaptureAspectRatio;
-    _Bool _disableDepthAndSegmentationRotationInLandscape;
 }
 
 + (void)f);
 - (id);
-- (void);
+- (void)EXColorTable;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (short);
-- (int);
+- (int)!;
 - (_Bool);
 - (float);
 - (_Bool);
@@ -68,21 +30,7 @@
 - (void)àÇÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adjustsMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property float portraitLightingEffectStrength;
-@property float simulatedAperture;
-@property(readonly, nonatomic) _Bool stageRenderingEnabled; // @synthesize stageRenderingEnabled=_stageRenderingEnabled;
 @property(readonly, nonatomic) _Bool studioAndContourRenderingEnabled; // @synthesize studioAndContourRenderingEnabled=_studioAndContourRenderingEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAnimation;
-@property(readonly, nonatomic) short type;
 
 @end
 

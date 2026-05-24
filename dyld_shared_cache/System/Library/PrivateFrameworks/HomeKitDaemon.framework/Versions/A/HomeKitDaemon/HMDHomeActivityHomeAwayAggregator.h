@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDHomeActivityStateAggregator.h>
 
-@class HMDHomeActivityHomeAwayAggregatorState, HMDHomeActivityHomeAwayUserStatesDetails, NSString;
+@class HMDHomeActivityHomeAwayAggregatorState;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityHomeAwayAggregator : HMDHomeActivityStateAggregator
@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@X;
 - (void);
 - (void);
 - (id);
@@ -27,16 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)c}@] Modifying %tu characteristic notifications on primary for client:(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDHomeActivityHomeAwayAggregatorState *aggregatedHomeAwayState;
 @property(readonly, nonatomic) HMDHomeActivityHomeAwayAggregatorState *computedState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) HMDHomeActivityHomeAwayUserStatesDetails *userActivityStatesDetails;
 
 @end
 

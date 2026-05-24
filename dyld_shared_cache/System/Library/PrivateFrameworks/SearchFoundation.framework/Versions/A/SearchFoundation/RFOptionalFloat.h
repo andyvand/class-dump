@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface RFOptionalFloat
 {
@@ -13,27 +13,18 @@
 
 + (_Bool);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)itemOrderingPropertiesForGroupingType:(id)arg1;
+- (unsigned long long)@;
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)A;
+- (id)startDownloadForRequest:(id)arg1 backingResource:clientBundleID:shouldReturnAdjustmentInfo:needsDownload:shouldApplyTimeRange:reply: /* Error: Ran out of types for this method. */;
+- (id)PHAssetVisualSearchProperties;
 - (id);
 - (id);
 - (id);
 - (void)geCopyItem",&,N,V_imageCopyItem;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSNumber *value; // @synthesize value=_value;
 
 @end

@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCFilter, MPFilterInternal, NSMutableDictionary, NSObject, NSString;
-@protocol MPFilterSupport;
+@class NSMutableDictionary, NSString;
 
 @interface MPFilter
 {
     NSMutableDictionary *_attributes;
-    NSMutableDictionary *_animationPaths;
-    MCFilter *_filter;
-    NSObject<MPFilterSupport> *_parent;
-    MPFilterInternal *_internal;
 }
 
 + (id);
 + (_Bool);
+- (void)g _Nonnull, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
+- (void)registerEnvelopeContentTypesAsPreparedForUpload:(id)arg1 ];
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadUploader.m;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)P;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,13 +35,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void)q Ð1Â0@ù
 × ;
@@ -54,7 +49,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filterID; // @dynamic filterID;
-@property(copy, nonatomic) NSString *presetID; // @dynamic presetID;
 
 @end
 

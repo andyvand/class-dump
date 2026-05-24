@@ -6,19 +6,19 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface SAUIRequestUpdateViews : SABaseClientBoundCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)C;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSNumber *timeInSeconds;
-@property(copy, nonatomic) NSArray *viewIds;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSError;
 
 @protocol MPMiddlewareOperation
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler;
-@property(readonly, nonatomic) NSArray *invalidationObservers;
 @end
 

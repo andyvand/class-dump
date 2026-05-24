@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CSBundleCompletenessAggregator
 {
     NSMutableDictionary *_donationProgresByBundle;
-    NSMutableDictionary *_pipelineReportsByBundle;
-    NSDictionary *_cachedImputedBundleWeights;
 }
 
+- (id)handleDailyPreferredResidentsListRegenerationNotification:(id)arg1;
+- (id)handleCommissioningCertificateRequest:(id)arg1;
+- (id)handleColorTemperatureAttributes: /* Error: Ran out of types for this method. */;
+- (id)handleCharacteristicEventReportMessage:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)handleAttributesChangedNotification:(id)arg1;
+- (id)handleAppleMediaAccessoryDeviceIsReachableNotification:(id)arg1;
+- (id)handleAddMediaSystemHints: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

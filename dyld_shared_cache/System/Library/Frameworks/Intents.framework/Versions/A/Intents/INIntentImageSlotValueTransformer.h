@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class);
 + (Class);
 - (id);
-- (id)ngeUnsupportedReason:(id)arg1;
+- (id)StringAsDateTimeRangeUnsupportedReason:(id)arg1;
 
 @end
 

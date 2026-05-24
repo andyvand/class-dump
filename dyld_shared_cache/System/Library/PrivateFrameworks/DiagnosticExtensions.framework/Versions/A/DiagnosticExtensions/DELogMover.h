@@ -10,12 +10,11 @@
 @interface DELogMover
 {
     NSObject<OS_xpc_object> *_conn;
-    NSString *_serviceName;
 }
 
 + (void);
 - (_Bool);
-- (id);
+- (id)nciliation because protected data isn't available;
 - (id);
 - (void);
 

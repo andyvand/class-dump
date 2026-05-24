@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSData, NSString;
-
 @interface ICLocation
 {
     _Bool updatingPlace;
-    CLPlacemark *_placemark;
 }
 
 + (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)loadingMapFileURLToSemaphore;
 - (id);
 - (id);
 - (void);
 - (void)ÍèÍ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *formattedAddress;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(retain, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;
-@property(retain, nonatomic) NSData *placemarkData; // @dynamic placemarkData;
 @property(nonatomic) _Bool updatingPlace; // @synthesize updatingPlace;
 
 @end

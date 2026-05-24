@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TULocked;
-@protocol OS_dispatch_queue, TUIDSBatchIDQueryController, TUIDSIDQueryController;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUIDSLookupManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <TUIDSIDQueryController> _queryController;
-    TULocked *_idsFaceTimeVideoStatuses;
-    TULocked *_idsFaceTimeAudioStatuses;
-    TULocked *_idsFaceTimeMultiwayStatuses;
-    TULocked *_idsVideoMessagingStatuses;
-    TULocked *_idsiMessageStatuses;
-    TULocked *_idsNameAndPhotoStatuses;
-    TULocked *_idsModernStatuses;
-    TULocked *_idsWebCapableStatuses;
-    TULocked *_idsAVLessSharePlayCapableStatuses;
-    id <TUIDSBatchIDQueryController> _batchQuerySearchVideoController;
-    id <TUIDSBatchIDQueryController> _batchQuerySearchAudioController;
-    id <TUIDSBatchIDQueryController> _batchQuerySearchMultiwayController;
-    id <TUIDSBatchIDQueryController> _batchQuerySearchVideoMessagingController;
-    id <TUIDSBatchIDQueryController> _batchQuerySearchiMessageController;
-    id <TUIDSBatchIDQueryController> _batchQuerySearchShareNameAndPhotoController;
-    CDUnknownBlockType _batchQueryControllerCreationBlock;
 }
 
 + (_Bool);
@@ -35,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -47,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,8 +51,8 @@
 - (void);
 - (void);
 - (unsigned int);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
 - (void);
 - (void);
 - (void);
@@ -78,7 +61,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,34 +79,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ckedByGroupSessions;
+- (void)shouldCreateConversationsForCallsNotBackedByGroupSessions;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType batchQueryControllerCreationBlock; // @synthesize batchQueryControllerCreationBlock=_batchQueryControllerCreationBlock;
-@property(retain, nonatomic) id <TUIDSBatchIDQueryController> batchQuerySearchAudioController; // @synthesize batchQuerySearchAudioController=_batchQuerySearchAudioController;
-@property(retain, nonatomic) id <TUIDSBatchIDQueryController> batchQuerySearchMultiwayController; // @synthesize batchQuerySearchMultiwayController=_batchQuerySearchMultiwayController;
-@property(retain, nonatomic) id <TUIDSBatchIDQueryController> batchQuerySearchShareNameAndPhotoController; // @synthesize batchQuerySearchShareNameAndPhotoController=_batchQuerySearchShareNameAndPhotoController;
-@property(retain, nonatomic) id <TUIDSBatchIDQueryController> batchQuerySearchVideoController; // @synthesize batchQuerySearchVideoController=_batchQuerySearchVideoController;
-@property(retain, nonatomic) id <TUIDSBatchIDQueryController> batchQuerySearchVideoMessagingController; // @synthesize batchQuerySearchVideoMessagingController=_batchQuerySearchVideoMessagingController;
-@property(retain, nonatomic) id <TUIDSBatchIDQueryController> batchQuerySearchiMessageController; // @synthesize batchQuerySearchiMessageController=_batchQuerySearchiMessageController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TULocked *idsAVLessSharePlayCapableStatuses; // @synthesize idsAVLessSharePlayCapableStatuses=_idsAVLessSharePlayCapableStatuses;
-@property(readonly, nonatomic) TULocked *idsFaceTimeAudioStatuses; // @synthesize idsFaceTimeAudioStatuses=_idsFaceTimeAudioStatuses;
-@property(readonly, nonatomic) TULocked *idsFaceTimeMultiwayStatuses; // @synthesize idsFaceTimeMultiwayStatuses=_idsFaceTimeMultiwayStatuses;
-@property(readonly, nonatomic) TULocked *idsFaceTimeVideoStatuses; // @synthesize idsFaceTimeVideoStatuses=_idsFaceTimeVideoStatuses;
-@property(readonly, nonatomic) TULocked *idsModernStatuses; // @synthesize idsModernStatuses=_idsModernStatuses;
-@property(readonly, nonatomic) TULocked *idsNameAndPhotoStatuses; // @synthesize idsNameAndPhotoStatuses=_idsNameAndPhotoStatuses;
-@property(readonly, nonatomic) TULocked *idsVideoMessagingStatuses; // @synthesize idsVideoMessagingStatuses=_idsVideoMessagingStatuses;
-@property(readonly, nonatomic) TULocked *idsWebCapableStatuses; // @synthesize idsWebCapableStatuses=_idsWebCapableStatuses;
-@property(readonly, nonatomic) TULocked *idsiMessageStatuses; // @synthesize idsiMessageStatuses=_idsiMessageStatuses;
-@property(readonly, nonatomic) id <TUIDSIDQueryController> queryController; // @synthesize queryController=_queryController;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDBLEBroadcastEventReceived
 {
     _Bool _hasExpectedGSN;
-    HMDAccessory *_accessory;
 }
 
-+ (id)raSnapshotReasonPeriodic;
++ (id)HMDCameraSnapshotReasonPeriodic;
 - (id);
 - (_Bool);
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) _Bool hasExpectedGSN; // @synthesize hasExpectedGSN=_hasExpectedGSN;
 
 @end
 

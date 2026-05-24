@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSTextField *_label;
 }
 
-- (void);
+- (void)m;
 - (id);
-- (id);
+- (id){public}@, error :(struct CGRect)arg1 %{public}@;
 - (void);
-- (void)sRingType: /* Error: Ran out of types for this method. */;
+- (void)setFocusRingType: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

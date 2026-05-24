@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MFPColorCurveEffect : MFPEffect
 {
     int mAdjustment;
-    int mChannel;
-    int mAdjustValue;
 }
 
 + (id);

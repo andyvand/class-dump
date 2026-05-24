@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)RECENTLY_DELETED_IT_WILL_BE_DELETED;
 - (void);
 
 // Remaining properties

@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServicePlaceEnrichmentTicket
+- (GEOMapServiceTraits *)#;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

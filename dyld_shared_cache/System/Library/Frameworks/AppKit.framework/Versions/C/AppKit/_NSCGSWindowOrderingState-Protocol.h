@@ -5,5 +5,12 @@
 //
 
 @protocol _NSCGSWindowOrderingState
+- (void);
+- (void);
+- (void)s/MobileGestalt/libMobileGestalt/MobileGestaltCache.c;
+- (void)
+J
+@9	@9kR;
+- (void)_alwaysPerformDefaultTrustEvaluation;
 @end
 

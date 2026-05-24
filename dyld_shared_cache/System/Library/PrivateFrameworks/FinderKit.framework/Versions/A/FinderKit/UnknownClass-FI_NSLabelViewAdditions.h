@@ -12,8 +12,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long diskLabelValuesFE_FI;
-@property(nonatomic) unsigned long long labelValueFE_FI;
 @property(readonly, nonatomic) unsigned long long numPartsFE_FI;
 @end
 

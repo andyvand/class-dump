@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, UICommand;
+@class UICommand;
 
 @interface MFMailMenuCommand
 {
     UICommand *_command;
-    long long _menu;
-    NSNumber *_position;
 }
 
 + (id);
@@ -21,14 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)A9;
+- (void)(u;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) UICommand *command; // @synthesize command=_command;
-@property(readonly, nonatomic) long long menu; // @synthesize menu=_menu;
-@property(retain, nonatomic) NSNumber *position; // @synthesize position=_position;
 
 @end
 

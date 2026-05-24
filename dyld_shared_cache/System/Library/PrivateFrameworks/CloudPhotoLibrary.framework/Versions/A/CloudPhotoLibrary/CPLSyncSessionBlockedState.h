@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CPLSyncSessionRescheduler, CPLSyncSessionRuntimeCharacteristics;
+@protocol CPLSyncSessionRescheduler;
 
 @interface CPLSyncSessionBlockedState
 {
     _Bool _blocked;
-    _Bool _syncHasBeenRequested;
-    id <CPLSyncSessionRescheduler> _rescheduler;
-    id <CPLSyncSessionRuntimeCharacteristics> _runtimeCharacteristics;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)commute1Hr15MinWarningEntityHistograms;
+- (id)tact_document;
+- (id)physicalSocialSignal;
 - (id);
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBlocked) _Bool blocked; // @synthesize blocked=_blocked;
 @property(readonly, nonatomic) id <CPLSyncSessionRescheduler> rescheduler; // @synthesize rescheduler=_rescheduler;
-@property(readonly) id <CPLSyncSessionRuntimeCharacteristics> runtimeCharacteristics; // @synthesize runtimeCharacteristics=_runtimeCharacteristics;
-@property(readonly, nonatomic) _Bool syncHasBeenRequested; // @synthesize syncHasBeenRequested=_syncHasBeenRequested;
 
 @end
 

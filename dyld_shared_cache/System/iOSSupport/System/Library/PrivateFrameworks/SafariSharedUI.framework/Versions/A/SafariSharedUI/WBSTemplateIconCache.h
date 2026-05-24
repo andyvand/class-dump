@@ -4,47 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSURL, WBSSiteMetadataImageCache;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSObject, NSURL;
+@protocol OS_dispatch_queue;
 
 @interface WBSTemplateIconCache
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    _Bool _areSettingsLoaded;
-    WBSSiteMetadataImageCache *_imageCache;
-    struct os_unfair_lock_s _templateIconsDataForHostsAccessLock;
-    NSMutableDictionary *_templateIconsDataForHosts;
-    NSMutableDictionary *_hostsToRequestSets;
-    NSMutableSet *_pendingTemplateIconRequestHosts;
-    NSMutableSet *_pendingTemplateIconFallbackRequestHosts;
-    NSMutableSet *_pendingSVGImageRenderingRequests;
-    NSMutableSet *_pendingSVGImageRenderingRequestsThatCanBeSavedToDisk;
-    NSMutableDictionary *_requestsToDelayedResponses;
-    NSCache *_requestsToResponses;
-    _Bool _historyDidFinishLoading;
-    _Bool _hasPurgedUnneededItems;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
-    struct CGSize _defaultIconSize;
 }
 
+- (void)_;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
@@ -54,8 +39,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)(=;
 - (id);
 - (void);
 - (void);
@@ -63,7 +48,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@9;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -75,23 +60,10 @@
 - (void);
 - (id);
 - (void);
-- (void)thFrameOfView:edgeInsets: /* Error: Ran out of types for this method. */;
+- (void)safari_constraintsMatchingFrameOfView:withFrameOfView:edgeInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) struct CGSize defaultIconSize; // @synthesize defaultIconSize=_defaultIconSize;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSURL *imageDirectoryURL;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

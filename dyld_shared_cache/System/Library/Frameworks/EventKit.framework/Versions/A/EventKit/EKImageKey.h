@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKObjectID, NSString;
+@class EKObjectID;
 
 __attribute__((visibility("hidden")))
 @interface EKImageKey
 {
     EKObjectID *_sourceID;
-    NSString *_identifier;
 }
 
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)3709551615UL, U = const char, UExtent = 18446744073709551615UL];
 - (id);
 - (void)q2'ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) EKObjectID *sourceID; // @synthesize sourceID=_sourceID;
 
 @end

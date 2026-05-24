@@ -7,13 +7,6 @@
 @interface NewsFeed.FeedBannerAdRequester
 {
     id integrator;
-    id requestManager;
-    id queue;
-    id scheduledRequestIdentifiers;
-    id scheduledRequests;
-    id screenfulsToPrefetch;
-    id lastRequestBounds;
-    id _scrollBasedRequestsEnabled;
 }
 
 @end

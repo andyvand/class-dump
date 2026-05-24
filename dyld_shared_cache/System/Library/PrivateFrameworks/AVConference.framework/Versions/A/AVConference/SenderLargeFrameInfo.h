@@ -8,17 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SenderLargeFrameInfo
 {
     double probingInterval;
-    double startTime;
-    double lastProbingSequenceTimeExpect;
-    double lastProbingSequenceTimeActual;
-    unsigned int largeFrameSizeRequested;
-    unsigned int largeFrameSizeAtCurrentBandwidth;
-    unsigned int probingSequencePacketSize;
-    unsigned int probingSequencePacketCount;
-    int probingSequenceCount;
-    int totalLargeFrameWaste;
-    _Bool isLastFrameProbingSequence;
-    _Bool isLargeFrameRequestDisabled;
 }
 
 - (int);
@@ -27,35 +16,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)%;
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (int);
 - (double);
 - (double);
 - (unsigned int);
 - (unsigned int);
-- (_Bool);
+- (_Bool)7Y(x;
 - (_Bool);
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isLargeFrameRequestDisabled; // @synthesize isLargeFrameRequestDisabled;
-@property(nonatomic) _Bool isLastFrameProbingSequence; // @synthesize isLastFrameProbingSequence;
-@property(nonatomic) unsigned int largeFrameSizeAtCurrentBandwidth; // @synthesize largeFrameSizeAtCurrentBandwidth;
-@property(nonatomic) unsigned int largeFrameSizeRequested; // @synthesize largeFrameSizeRequested;
-@property(nonatomic) double lastProbingSequenceTimeActual; // @synthesize lastProbingSequenceTimeActual;
-@property(nonatomic) double lastProbingSequenceTimeExpect; // @synthesize lastProbingSequenceTimeExpect;
-@property(nonatomic) int probingSequenceCount; // @synthesize probingSequenceCount;
-@property(nonatomic) unsigned int probingSequencePacketCount; // @synthesize probingSequencePacketCount;
-@property(nonatomic) unsigned int probingSequencePacketSize; // @synthesize probingSequencePacketSize;
 @property(nonatomic) double startTime; // @synthesize startTime;
-@property(nonatomic) int totalLargeFrameWaste; // @synthesize totalLargeFrameWaste;
 
 @end
 

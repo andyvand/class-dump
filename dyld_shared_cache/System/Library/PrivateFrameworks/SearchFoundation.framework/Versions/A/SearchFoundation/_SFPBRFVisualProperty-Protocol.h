@@ -7,10 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFVisualProperty
+- (void);
+- (NSData *),N,V_pathForOriginalFile;
 
 // Remaining properties
-@property(nonatomic) _Bool is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *visual_elements;
 @end
 

@@ -6,30 +6,29 @@
 
 #import <NetworkExtension/NEDNSSettings.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NEDNSOverTLSSettings : NEDNSSettings
 {
     NSString *_serverName;
-    NSData *_identityReference;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)setKtAccountKeyTimestamp: /* Error: Ran out of types for this method. */;
+- (void));
+- (id);
 - (long long);
 - (void);
+- (id)R;
 - (id);
-- (id);
-- (id);
+- (id)or:(id)arg1 %@, %{error}
+;
 - (_Bool);
 - (void);
-- (id);
-- (void)ion:withCompletionQueue:handler: /* Error: Ran out of types for this method. */;
+- (id)`;
+- (void)removeConfiguration:withCompletionQueue:handler: /* Error: Ran out of types for this method. */;
 - (id)generation;
 
 // Remaining properties
-@property(copy) NSData *identityReference; // @synthesize identityReference=_identityReference;
 @property(copy) NSString *serverName; // @synthesize serverName=_serverName;
 
 @end

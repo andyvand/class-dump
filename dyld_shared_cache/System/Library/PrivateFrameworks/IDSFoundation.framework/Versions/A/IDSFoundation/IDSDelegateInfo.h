@@ -14,7 +14,7 @@
 
 - (void);
 - (id);
-- (void)ies;
+- (void)SmartReplies;
 
 @end
 

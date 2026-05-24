@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPBTransitTriggerRegion
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_location;
-    unsigned int _delaySeconds;
-    int _signalStrength;
-    int _transition;
-    struct {
-        unsigned int has_delaySeconds:1;
-        unsigned int has_signalStrength:1;
-        unsigned int has_transition:1;
-    } _flags;
 }
 
-+ (_Bool)ewedDetails:(id)arg1;
++ (_Bool)setHasViewedDetails:(id)arg1;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)P;
 - (_Bool);
-- (int);
-- (int);
-- (void);
+- (int)8d16Q24@32@40;
+- (int)40@0:(id)arg1 8@?16@24@32;
+- (void)VNDetectContoursRequest;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)e:(id)arg1 ];
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -59,15 +50,7 @@
 - (void)L¡%ÿ«v4S9;
 
 // Remaining properties
-@property(nonatomic) unsigned int delaySeconds;
-@property(nonatomic) _Bool hasDelaySeconds;
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasSignalStrength;
-@property(nonatomic) _Bool hasTransition;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) int signalStrength;
-@property(nonatomic) int transition;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

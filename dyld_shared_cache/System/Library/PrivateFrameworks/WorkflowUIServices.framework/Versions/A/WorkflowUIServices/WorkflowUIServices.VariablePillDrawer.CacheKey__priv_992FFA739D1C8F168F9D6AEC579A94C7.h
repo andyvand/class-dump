@@ -7,17 +7,12 @@
 @interface WorkflowUIServices.VariablePillDrawer.CacheKey__priv_992FFA739D1C8F168F9D6AEC579A94C7
 {
     id name;
-    id size;
-    id isAvailable;
-    id font;
-    id state;
-    id icon;
 }
 
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void));
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

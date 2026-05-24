@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurface;
-
 @interface SLSScreenshotResult
 {
     int _status;
-    IOSurface *_frameSurfaceSDR;
-    IOSurface *_frameSurfaceHDR;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)ad substitution variable for %@, must be a collection of objects or objectIDs;
+- (id)R;
+- (id)t-pointer;
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly) IOSurface *frameSurfaceHDR; // @synthesize frameSurfaceHDR=_frameSurfaceHDR;
-@property(readonly) IOSurface *frameSurfaceSDR; // @synthesize frameSurfaceSDR=_frameSurfaceSDR;
 @property(readonly) int status; // @synthesize status=_status;
 
 @end

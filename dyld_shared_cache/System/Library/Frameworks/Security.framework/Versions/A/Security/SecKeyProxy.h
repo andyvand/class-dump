@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSXPCListener, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface SecKeyProxy
 {
     id _key;
-    NSData *_certificate;
-    NSXPCListener *_listener;
-    _Atomic long long _clientCount;
-    CDUnknownBlockType _clientConnectionHandler;
-    CDUnknownBlockType _clientDisconnectionHandler;
 }
 
 + (id);
@@ -24,7 +19,7 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)5;
 - (void);
 - (id);
 - (void);
@@ -35,16 +30,7 @@
 ,ÔðØ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType clientConnectionHandler;
-@property(copy, nonatomic) CDUnknownBlockType clientDisconnectionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

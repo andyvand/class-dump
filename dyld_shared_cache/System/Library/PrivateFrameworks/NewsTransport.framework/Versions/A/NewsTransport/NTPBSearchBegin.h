@@ -9,48 +9,35 @@
 @interface NTPBSearchBegin
 {
     NSString *_campaignId;
-    NSString *_campaignType;
-    NSString *_creativeId;
-    int _searchLocation;
-    struct {
-        unsigned int searchLocation:1;
-    } _has;
 }
 
-- (void);
-- (void);
+- (void)filterSuggestions:(_Bool)arg1 includingSingleFeature: /* Error: Ran out of types for this method. */;
+- (void)effectiveSelectionSnapshot;
+- (void)dummyChaptersIncludeSubtitles;
+- (id)dispatchGraduallyOnMainThreadWhenNotAnimating:(int)arg1;
+- (_Bool)composabilityMinimumNUpCount;
+- (_Bool)commitEditingAndReturnError: /* Error: Ran out of types for this method. */;
+- (id)children;
+- (id)changeDetailsFromDataSource:toDataSource: /* Error: Ran out of types for this method. */;
+- (_Bool)blurredBackgroundInitialOpacityForZoomLevel: /* Error: Ran out of types for this method. */;
+- (int)bestMusicSuggestions;
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (void);
 - (int);
-- (void);
-- (id);
-- (void);
-- (int);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)TB,R,N,GisActive,V_active;
+- (_Bool)flictsForRequest:(id)arg1 onSourceSystem:andDestinationSystem:error:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (void)IPad: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setSearchBranchMultiplierIPad: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *campaignId; // @synthesize campaignId=_campaignId;
-@property(retain, nonatomic) NSString *campaignType; // @synthesize campaignType=_campaignType;
-@property(retain, nonatomic) NSString *creativeId; // @synthesize creativeId=_creativeId;
-@property(readonly, nonatomic) _Bool hasCampaignId;
-@property(readonly, nonatomic) _Bool hasCampaignType;
-@property(readonly, nonatomic) _Bool hasCreativeId;
 @property(nonatomic) _Bool hasSearchLocation;
-@property(nonatomic) int searchLocation; // @synthesize searchLocation=_searchLocation;
 
 @end
 

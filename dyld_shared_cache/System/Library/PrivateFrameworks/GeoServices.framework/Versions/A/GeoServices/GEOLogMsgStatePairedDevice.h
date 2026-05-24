@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLogMsgStateDeviceIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStatePairedDevice
 {
     PBUnknownFields *_unknownFields;
-    GEOLogMsgStateDeviceIdentifier *_pairedDeviceIdentifier;
-    int _type;
-    _Bool _isConnectedAndNearby;
-    _Bool _isConnected;
-    struct {
-        unsigned int has_type:1;
-        unsigned int has_isConnectedAndNearby:1;
-        unsigned int has_isConnected:1;
-    } _flags;
 }
 
-+ (_Bool)ortsAreaEventsEnhancements:(id)arg1;
++ (_Bool)setHasSupportsAreaEventsEnhancements:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)stem/Library/PrivateFrameworks/vCard.framework/Versions/A/vCard;
 - (void);
 - (_Bool);
 - (id);
@@ -39,11 +30,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)setSelectedFeatureId: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id)appingCount;
-- (void)rrivedAtDestinationCount;
+- (void);
+- (id)tappingCount;
+- (void)_arrivedAtDestinationCount;
 - (id)ndex;
 - (_Bool) h!$"i#;
 - (int)ÐçÀ;
@@ -56,15 +47,7 @@
 - (void)ÿ}¬6:(_Bool)arg1 8;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsConnected;
-@property(nonatomic) _Bool hasIsConnectedAndNearby;
-@property(readonly, nonatomic) _Bool hasPairedDeviceIdentifier;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool isConnected;
-@property(nonatomic) _Bool isConnectedAndNearby;
-@property(retain, nonatomic) GEOLogMsgStateDeviceIdentifier *pairedDeviceIdentifier;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -8,7 +8,7 @@
 
 @interface UnknownClass (LocalDeviceDiscovery)
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -24,6 +24,5 @@
 
 // Remaining properties
 @property(readonly) NSString *redactedForWiFi; // @dynamic redactedForWiFi;
-@property(readonly) NSString *redactedSensitiveContentForWiFi; // @dynamic redactedSensitiveContentForWiFi;
 @end
 

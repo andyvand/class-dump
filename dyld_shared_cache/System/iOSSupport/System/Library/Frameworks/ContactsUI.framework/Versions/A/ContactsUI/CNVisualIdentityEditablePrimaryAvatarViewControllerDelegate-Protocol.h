@@ -5,5 +5,10 @@
 //
 
 @protocol CNVisualIdentityEditablePrimaryAvatarViewControllerDelegate
+- (void));
+
+@optional
+- (_Bool);
+- (void);
 @end
 

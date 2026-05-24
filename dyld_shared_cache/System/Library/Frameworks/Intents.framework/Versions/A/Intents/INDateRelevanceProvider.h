@@ -11,21 +11,19 @@
 @interface INDateRelevanceProvider : INRelevanceProvider
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (_Bool);
-- (id);
+- (id)g>",R;
 - (unsigned long long);
+- (id)m;
 - (id);
+- (_Bool)__interfaceSpecificEventIDs:(id)arg1;
+- (void)2_Prepaid_UK.5951306c-d474-11eb-a044-f45c89abb0d9;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void)pdateEvent:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideSetTitleOptionsForUpdateEvent:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, copy) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

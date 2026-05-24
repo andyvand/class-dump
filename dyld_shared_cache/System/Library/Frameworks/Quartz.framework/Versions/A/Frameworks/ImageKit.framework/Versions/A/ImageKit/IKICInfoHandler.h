@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTextView, NSView;
+@class NSView;
 
 @interface IKICInfoHandler
 {
     _Bool _busy;
-    _Bool _prefsAreUpToDate;
-    NSView *_view;
-    NSTextView *_info;
-    NSButton *_saveButton;
-    NSString *_infoStr;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -37,19 +32,14 @@
 - (void);
 - (id);
 - (void);
+- (void)cloudToLocalMapping;
 - (void);
+- (id)vocabularyString;
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)itemArraySize;
 
 // Remaining properties
-@property _Bool busy; // @synthesize busy=_busy;
-@property NSTextView *info; // @synthesize info=_info;
-@property NSString *infoStr; // @synthesize infoStr=_infoStr;
-@property _Bool prefsAreUpToDate; // @synthesize prefsAreUpToDate=_prefsAreUpToDate;
-@property NSButton *saveButton; // @synthesize saveButton=_saveButton;
 @property NSView *view; // @synthesize view=_view;
 
 @end

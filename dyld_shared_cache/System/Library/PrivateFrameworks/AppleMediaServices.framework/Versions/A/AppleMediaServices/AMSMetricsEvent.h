@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSDictionary, NSMutableDictionary, NSNumber;
-
 @interface AMSMetricsEvent
 {
     struct os_unfair_lock_s _internalStateLock;
-    NSMutableDictionary *_underlyingDictionary;
-    _Bool _enqueueTimeAccountUnderThirteen;
-    ACAccount *_account;
-    NSNumber *_databasePID;
-    NSDictionary *_underlyingDictionaryOverride;
 }
 
 @end

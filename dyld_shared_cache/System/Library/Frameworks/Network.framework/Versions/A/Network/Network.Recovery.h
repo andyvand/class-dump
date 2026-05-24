@@ -7,13 +7,6 @@
 @interface Network.Recovery
 {
     id timer;
-    id initialInnerState;
-    id handshakeInnerState;
-    id applicationDataInnerState;
-    id timerId;
-    id inBatch;
-    id receivedHandshakeAck;
-    id received1RTTAck;
 }
 
 @end

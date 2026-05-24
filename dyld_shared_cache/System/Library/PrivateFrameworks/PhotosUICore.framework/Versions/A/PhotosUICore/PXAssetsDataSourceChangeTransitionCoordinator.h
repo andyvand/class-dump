@@ -6,18 +6,15 @@
 
 #import <PhotosUICore/PXAssetsTileTransitionCoordinator.h>
 
-@class NSMutableDictionary, PXBasicTileAnimationOptions;
+@class PXBasicTileAnimationOptions;
 
 @interface PXAssetsDataSourceChangeTransitionCoordinator : PXAssetsTileTransitionCoordinator
 {
     PXBasicTileAnimationOptions *_deleteAnimationOptions;
-    PXBasicTileAnimationOptions *_insertAnimationOptions;
-    NSMutableDictionary *_overrideInitialGeometryByTileIdentifier;
-    NSMutableDictionary *_overrideFinalGeometryByTileIdentifier;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

@@ -5,5 +5,7 @@
 //
 
 @protocol _DUIClientSessionAccessibility
+- (oneway void);
+- (oneway void){;
 @end
 

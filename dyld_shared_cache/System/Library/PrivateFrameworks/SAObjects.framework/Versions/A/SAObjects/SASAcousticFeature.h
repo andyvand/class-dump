@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface SASAcousticFeature : AceObject
 {
@@ -17,14 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *acousticFeaturePerFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *frameDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

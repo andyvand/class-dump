@@ -7,6 +7,7 @@
 @protocol MKFApplicationData;
 
 @protocol MKFApplicationDataContainer
+- (id <MKFApplicationData>);
 
 // Remaining properties
 @property(retain, nonatomic) id <MKFApplicationData> applicationData;

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSBackgroundActivityScheduler, NSDate, NSString;
+@class NSDate;
 @protocol DDSRemoteSyncStateDelegate;
 
 @interface DDSRemoteSyncState
 {
     id <DDSRemoteSyncStateDelegate> _delegate;
-    long long _syncStatus;
-    NSString *_assetType;
-    NSDate *_date;
-    unsigned long long _attemptCount;
-    NSString *_buildVersion;
-    DDSBackgroundActivityScheduler *_scheduler;
 }
 
-+ (double);
++ (double)setHasCommonForegroundAppRecency: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (unsigned long long);
@@ -29,19 +23,21 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (double);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)stringByAddingPercentEncodingWithAllowedCharacters:(unsigned long long)arg1;
+- (void)J
+;
+- (void)*J
+;
 - (void);
 - (double);
 - (void);
@@ -57,23 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(nonatomic) unsigned long long attemptCount; // @synthesize attemptCount=_attemptCount;
-@property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <DDSRemoteSyncStateDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *metadataSyncStatePreferenceKey;
-@property(readonly, copy) NSString *scheduleRetryIdentifier;
-@property(readonly, copy) NSString *scheduleUpdateIdentifier;
-@property(retain, nonatomic) DDSBackgroundActivityScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(nonatomic) long long syncStatus; // @synthesize syncStatus=_syncStatus;
 
 @end
 

@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTDisambiguationEnded : SISchemaInstrumentationMessage
 {
     _Bool _disambiguationDetected;
-    _Bool _isQuestionQuery;
-    _Bool _isOpenQuery;
-    unsigned int _numOfResults;
-    _Bool _isContentSearch;
-    struct {
-        unsigned int disambiguationDetected:1;
-        unsigned int isQuestionQuery:1;
-        unsigned int isOpenQuery:1;
-        unsigned int numOfResults:1;
-        unsigned int isContentSearch:1;
-    } _has;
 }
 
 - (void);
@@ -51,26 +38,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setInstallCompletedUnitCount: /* Error: Ran out of types for this method. */;
+- (_Bool)ABNoWindowDragTextField;
+- (_Bool)madrid_url_index.;
+- (id)`;
 - (id);
-- (id);
-- (id)dChoice;
-- (id)questGrainSummary;
+- (id)deleteIsUserSelectedChoice;
+- (id)_hasPnrodIntelligenceFlowRequestGrainSummary;
 
 // Remaining properties
 @property(nonatomic) _Bool disambiguationDetected; // @synthesize disambiguationDetected=_disambiguationDetected;
-@property(nonatomic) _Bool hasDisambiguationDetected;
-@property(nonatomic) _Bool hasIsContentSearch;
-@property(nonatomic) _Bool hasIsOpenQuery;
-@property(nonatomic) _Bool hasIsQuestionQuery;
-@property(nonatomic) _Bool hasNumOfResults;
-@property(nonatomic) _Bool isContentSearch; // @synthesize isContentSearch=_isContentSearch;
-@property(nonatomic) _Bool isOpenQuery; // @synthesize isOpenQuery=_isOpenQuery;
-@property(nonatomic) _Bool isQuestionQuery; // @synthesize isQuestionQuery=_isQuestionQuery;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numOfResults; // @synthesize numOfResults=_numOfResults;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface AppleMediaServicesUI.EngagementViewModel
 {
     id bag;
-    id clientInfo;
-    id request;
-    id handleDelegateAction;
-    id _result;
-    id shouldDismiss;
 }
 
 @end

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol OSAConcreteReport
+- (NSString *);
+- (NSArray *)k;
+- (void)initWithSource:(_Bool)arg1 attributes:(void (^)(NSDictionary *))arg2;
+
+@optional
+- (NSString *);
 @end
 

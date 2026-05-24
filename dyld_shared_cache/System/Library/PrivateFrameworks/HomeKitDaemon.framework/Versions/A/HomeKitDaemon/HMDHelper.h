@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 + (id)!¨Gùq°1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)d;
 - (void)mote home message with identifier:(id)arg1 %@ from local message identifier:%@ /* Error: Ran out of types for this method. */;
 - (id)er;
-- (void)tificationsRequestKey;
+- (void)kModifyCharacterisiticNotificationsRequestKey;
 
 // Remaining properties
 @property(retain, nonatomic) id <HMDHelperExternalProtocol> externalProtocol; // @synthesize externalProtocol=_externalProtocol;

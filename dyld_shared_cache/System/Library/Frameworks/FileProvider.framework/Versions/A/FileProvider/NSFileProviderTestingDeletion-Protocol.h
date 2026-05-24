@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderDomainVersion, NSFileProviderItemVersion, NSString;
+@class NSFileProviderDomainVersion, NSString;
 
 @protocol NSFileProviderTestingDeletion
+- (NSString *);
+- (NSFileProviderDomainVersion *)gistration termination;
 
 // Remaining properties
-@property(readonly, nonatomic) NSFileProviderDomainVersion *domainVersion;
-@property(readonly, nonatomic) NSString *sourceItemIdentifier;
-@property(readonly, nonatomic) NSFileProviderItemVersion *targetItemBaseVersion;
-@property(readonly, nonatomic) NSString *targetItemIdentifier;
 @property(readonly, nonatomic) unsigned long long targetSide;
 @end
 

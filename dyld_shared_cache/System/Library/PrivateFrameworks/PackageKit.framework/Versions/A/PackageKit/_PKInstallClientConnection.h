@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, PKInstallService;
+@class NSXPCConnection;
 
 @interface _PKInstallClientConnection
 {
     NSXPCConnection *_connection;
-    id <PKInstallService> _proxy;
-    id <PKInstallService> _blockingProxy;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    _Bool _isSilent;
-    NSObject<OS_dispatch_semaphore> *_inProcessSema;
-    _Bool _isInProcessInstall;
-    _Bool _isRecursive;
 }
 
 - (_Bool);
@@ -27,8 +19,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -36,18 +28,10 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)(6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isRecursive; // @synthesize isRecursive=_isRecursive;
 @property(setter=setSilent:) _Bool isSilent; // @synthesize isSilent=_isSilent;
-@property(readonly) Class superclass;
 
 @end
 

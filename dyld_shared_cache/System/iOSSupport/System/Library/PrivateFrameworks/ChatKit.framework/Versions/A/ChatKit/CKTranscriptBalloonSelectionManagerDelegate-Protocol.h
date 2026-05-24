@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKChatItem, CKTranscriptBalloonSelectionManager;
+
 @protocol CKTranscriptBalloonSelectionManagerDelegate
+- (void)saveAttachmentsToNewNote:(CKTranscriptBalloonSelectionManager *)arg1 inFolder:isSystemPaper:textBefore:textAfter: /* Error: Ran out of types for this method. */;
+- (void)saveAttachments:(CKTranscriptBalloonSelectionManager *)arg1 toNote:(CKChatItem *)arg2 textBefore:textAfter:fetchFirst: /* Error: Ran out of types for this method. */;
+- (void)saveAfterDelay;
 @end
 

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, PXNewMagazineRectArray;
+@class NSArray, PXNewMagazineRectArray;
 
 @interface PXNewMagazineLayoutCoordinator
 {
     PXNewMagazineRectArray *_fallbackLayout;
-    double _currentBestScore;
-    _Bool _stopIfAnyGoodLayout;
-    _Bool _stop;
-    NSArray *_paddingInputs;
-    double _tileAspectRatio;
-    NSMutableArray *_qualifiedLayouts;
-    PXNewMagazineRectArray *_currentLayout;
-    unsigned long long _currentIndex;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,21 +25,19 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)r = coeffs[0] * SampleTexture0; 
+			mediump vec2 ds = sStep; 
+			for(int i = 1; i < numberOfCoeffs; i++, ds += sStep) 
+				color += coeffs[i] * (_texture2D(_textureUnit0, vTextureCoordinates0 + ds) + _texture2D(_textureUnit0, vTextureCoordinates0 - ds)); 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (void);
 - (void);
 - (void)á¶çCÿá¶ÿþá¶(çCÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PXNewMagazineRectArray *currentBestLayout;
-@property(nonatomic) unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(retain, nonatomic) PXNewMagazineRectArray *currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(readonly, nonatomic) unsigned long long currentLayoutsCount;
 @property(readonly, nonatomic) NSArray *paddingInputs; // @synthesize paddingInputs=_paddingInputs;
-@property(retain, nonatomic) NSMutableArray *qualifiedLayouts; // @synthesize qualifiedLayouts=_qualifiedLayouts;
-@property(nonatomic) _Bool stop; // @synthesize stop=_stop;
-@property(readonly, nonatomic) _Bool stopIfAnyGoodLayout; // @synthesize stopIfAnyGoodLayout=_stopIfAnyGoodLayout;
-@property(readonly, nonatomic) double tileAspectRatio; // @synthesize tileAspectRatio=_tileAspectRatio;
 
 @end
 

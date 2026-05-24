@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _callback;
 }
 
-- (void);
+- (void)h;
 - (void);
 - (CDUnknownBlockType);
 - (void)ÌÀ4;

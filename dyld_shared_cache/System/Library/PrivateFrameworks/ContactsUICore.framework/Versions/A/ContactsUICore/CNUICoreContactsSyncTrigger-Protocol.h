@@ -5,5 +5,6 @@
 //
 
 @protocol CNUICoreContactsSyncTrigger
+- (void);
 @end
 

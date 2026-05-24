@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGuidesLocationsSuggestionParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOPDViewportInfo *_viewportInfo;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)LabelResult";
-- (id)ionItemDescription;
+- (id)_enableCollectionItemDescription;
 - (id)ü¤;
 - (void)9(a¦-ÿ@;
 

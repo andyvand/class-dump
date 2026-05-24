@@ -7,17 +7,6 @@
 @interface RemindersUICore.TTRSECreateRemindersPresenterCapability
 {
     id delegate;
-    id undoContext;
-    id moduleState;
-    id core;
-    id interactor;
-    id viewModelSource;
-    id displayUpdater;
-    id editingSessionProvider;
-    id editingPresenter;
-    id isShowingRecipeCardIngredients;
-    id pendingMoveTargetListChangedByUser;
-    id cellsToUpdateCancellable;
 }
 
 @end

@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)__AUTH_CONST;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *kinds; // @synthesize kinds=_kinds;

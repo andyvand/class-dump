@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, SFRichText;
+@class NSData;
 
 @interface Spotlight.SPParameterizedTool
 {
     NSData *toolInvocationData;
-    NSData *toolInvocationSummaryData;
-    SFRichText *parameterizedTitle;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)to set a path (%{public}@) with -[EKSource setConstraintsName:]. Only the name should be supplied without an extension. /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) SFRichText *parameterizedTitle; // @synthesize parameterizedTitle;
 @property(nonatomic, readonly) NSData *toolInvocationData; // @synthesize toolInvocationData;
-@property(nonatomic, readonly) NSData *toolInvocationSummaryData; // @synthesize toolInvocationSummaryData;
 
 @end
 

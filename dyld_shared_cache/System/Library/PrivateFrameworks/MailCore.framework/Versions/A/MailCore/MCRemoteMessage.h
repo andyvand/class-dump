@@ -6,14 +6,9 @@
 
 #import <MailCore/MCMessage.h>
 
-@class ECAngleBracketIDHash, ECMessageFlags, ECSubject, EDMessageCategorizationResult, NSArray, NSDate, NSDictionary, NSSet, NSString, NSUUID;
-@protocol ECMessageHeaders, ECMimeBody, EDIndexableAccount, EDIndexableMailbox;
-
 @interface MCRemoteMessage : MCMessage
 {
     unsigned long long _messageSize;
-    EDMessageCategorizationResult *_categorizationResult;
-    long long _authenticationState;
 }
 
 - (void);
@@ -28,78 +23,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)�;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDIndexableAccount> account;
-@property(readonly) unsigned long long attachmentCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(nonatomic) long long authenticationState; // @synthesize authenticationState=_authenticationState;
-@property(readonly, copy) NSArray *bcc;
-@property(readonly, copy) NSArray *bccIfAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
-@property(retain, nonatomic) EDMessageCategorizationResult *categorizationResult; // @synthesize categorizationResult=_categorizationResult;
-@property(readonly, copy) NSArray *cc;
-@property(readonly) long long conversationID;
-@property(readonly) NSDate *dateReceived;
-@property(readonly) NSDate *dateSent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSUUID *documentID;
-@property(readonly, nonatomic) unsigned long long fileSize;
-@property(readonly, nonatomic) ECMessageFlags *flags;
-@property(readonly, copy) NSArray *from;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <ECMessageHeaders> headers;
-@property(readonly, copy, nonatomic) NSDictionary *headersDictionary;
-@property(readonly, nonatomic) id <ECMessageHeaders> headersIfAvailable;
 @property(nonatomic) _Bool isPartial;
-@property(readonly, nonatomic) _Bool isServerSearchResult;
-@property(readonly) NSSet *labels;
-@property(readonly, nonatomic) ECAngleBracketIDHash *listIDHash;
-@property(readonly, copy) NSArray *listUnsubscribe;
-@property(readonly, nonatomic) id <EDIndexableMailbox> mailbox;
-@property(readonly) CDStruct_7ad7028e messageColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{?=CCC},?,R
-
-@property(readonly) _Bool messageColorIsHighlight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, copy, nonatomic) NSString *messageIDHeader;
-@property(readonly) ECAngleBracketIDHash *messageIDHeaderHash;
-@property(nonatomic) unsigned long long messageSize; // @synthesize messageSize=_messageSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,V_messageSize
-
-@property(readonly, nonatomic) id <ECMimeBody> mimeBody;
-@property(readonly) unsigned long long numberOfAttachments;
-@property(readonly, nonatomic, getter=isPartOfExistingThread) _Bool partOfExistingThread;
-@property(nonatomic) _Bool partsHaveBeenCached;
-@property(readonly, copy, nonatomic) NSString *persistentID;
-@property(readonly) long long priority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly, copy, nonatomic) NSArray *references;
-@property(readonly, copy) NSString *remoteID;
-@property(readonly, copy) NSArray *senders;
-@property(readonly, copy) ECSubject *subject;
-@property(readonly, copy) ECSubject *subjectIfAvailable;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *to;
-@property(readonly) _Bool wasActedOnByExtension;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

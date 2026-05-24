@@ -4,50 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactImage, CNContactStore, CNMeCardSharingAudienceDataSource, CNMeCardSharingContactAvatarProvider, CNMeCardSharingEnabledDataSource, CNMeCardSharingPickerLayoutAttributes, CNMeCardSharingSettingsHeaderViewController, CNMeCardSharingSettingsNameDataSource, CNMutableContact, CNPhotoPickerViewController, CNSharingProfileLogger, CNSharingProfileMeCardUpdater, NSArray, NSString, UISwitch, UITableView, UITextField;
-@protocol CNMeCardSharingAvatarProvider, CNMeCardSharingNameProvider, CNMeCardSharingSettingsViewControllerDelegate;
+@class CNContactStore;
 
 @interface CNMeCardSharingSettingsViewController
 {
     _Bool _shouldSetAsMeContact;
-    _Bool _showsWallpaperSuggestionsGalleryPicker;
-    _Bool _isPresentedInOnboarding;
-    id <CNMeCardSharingSettingsViewControllerDelegate> _delegate;
-    CNContactStore *_contactStore;
-    CNContact *_contact;
-    CNMutableContact *_editingContact;
-    CNContactImage *_editingContactImage;
-    NSString *_editingGivenName;
-    NSString *_editingFamilyName;
-    CNSharingProfileMeCardUpdater *_meCardUpdater;
-    CNMeCardSharingPickerLayoutAttributes *_layoutAttributes;
-    CNMeCardSharingSettingsHeaderViewController *_headerViewController;
-    id <CNMeCardSharingAvatarProvider> _avatarProvider;
-    id <CNMeCardSharingNameProvider> _nameProvider;
-    CNMeCardSharingSettingsNameDataSource *_nameDataSource;
-    CNMeCardSharingEnabledDataSource *_enabledDataSource;
-    CNMeCardSharingAudienceDataSource *_sharingAudienceDataSource;
-    CNPhotoPickerViewController *_photoPicker;
-    NSArray *_sectionDataSources;
-    UISwitch *_shareSwitch;
-    UITableView *_tableView;
-    long long _nameOrder;
-    UITextField *_givenNameField;
-    UITextField *_familyNameField;
-    CNMeCardSharingContactAvatarProvider *_editingContactAvatarProvider;
-    CNSharingProfileLogger *_logger;
-    double _keyboardHeight;
-    double _tableViewBottomInsets;
-    long long _headerMode;
 }
 
-+ (id)VCardImportController;
++ (id)setupVCardImportController;
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)M8H;
+- (void)*";
 - (void);
 - (id);
 - (double);
@@ -56,7 +26,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)T1;
 - (id);
 - (void);
 - (void);
@@ -73,7 +43,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,22 +56,22 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)qA;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)q;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)S?A;
 - (void);
 - (id);
 - (void);
@@ -114,16 +84,16 @@
 - (void);
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)isd_propertyValueUnarchivedFromBytesEncodedForSqlite:(id)arg1;
+- (void)ed conflict to resolved list:(id)arg1 %@;
 - (void);
 - (_Bool);
 - (void);
@@ -131,7 +101,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -140,54 +110,16 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)pple-msg-attachment;
 - (void);
-- (void);
+- (void)_fieldPickerDataSource;
 - (void)øãHäôëî;
 - (id)eating provider item with original image of size {%.2f, %.2f} and crop rect {%.2f, %.2f, %.2f, %.2f};
 - (id)amework/IntlPreferencesUI;
 - (id)äl;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNMeCardSharingAvatarProvider> avatarProvider; // @synthesize avatarProvider=_avatarProvider;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMeCardSharingSettingsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNMutableContact *editingContact; // @synthesize editingContact=_editingContact;
-@property(retain, nonatomic) CNMeCardSharingContactAvatarProvider *editingContactAvatarProvider; // @synthesize editingContactAvatarProvider=_editingContactAvatarProvider;
-@property(retain, nonatomic) CNContactImage *editingContactImage; // @synthesize editingContactImage=_editingContactImage;
-@property(retain, nonatomic) NSString *editingFamilyName; // @synthesize editingFamilyName=_editingFamilyName;
-@property(retain, nonatomic) NSString *editingGivenName; // @synthesize editingGivenName=_editingGivenName;
-@property(readonly, nonatomic) CNMeCardSharingEnabledDataSource *enabledDataSource; // @synthesize enabledDataSource=_enabledDataSource;
-@property(retain, nonatomic) UITextField *familyNameField; // @synthesize familyNameField=_familyNameField;
-@property(retain, nonatomic) UITextField *givenNameField; // @synthesize givenNameField=_givenNameField;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long headerMode; // @synthesize headerMode=_headerMode;
-@property(retain, nonatomic) CNMeCardSharingSettingsHeaderViewController *headerViewController; // @synthesize headerViewController=_headerViewController;
-@property(nonatomic) _Bool isPresentedInOnboarding; // @synthesize isPresentedInOnboarding=_isPresentedInOnboarding;
-@property(nonatomic) double keyboardHeight; // @synthesize keyboardHeight=_keyboardHeight;
-@property(readonly, nonatomic) CNMeCardSharingPickerLayoutAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(readonly, nonatomic) CNSharingProfileLogger *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) CNSharingProfileMeCardUpdater *meCardUpdater; // @synthesize meCardUpdater=_meCardUpdater;
-@property(readonly, nonatomic) CNMeCardSharingSettingsNameDataSource *nameDataSource; // @synthesize nameDataSource=_nameDataSource;
-@property(nonatomic) long long nameOrder; // @synthesize nameOrder=_nameOrder;
-@property(readonly, nonatomic) id <CNMeCardSharingNameProvider> nameProvider; // @synthesize nameProvider=_nameProvider;
-@property(retain, nonatomic) CNPhotoPickerViewController *photoPicker; // @synthesize photoPicker=_photoPicker;
-@property(retain, nonatomic) NSArray *sectionDataSources; // @synthesize sectionDataSources=_sectionDataSources;
-@property(readonly, nonatomic) unsigned long long selectedSharingAudience;
-@property(retain, nonatomic) UISwitch *shareSwitch; // @synthesize shareSwitch=_shareSwitch;
-@property(readonly, nonatomic) CNMeCardSharingAudienceDataSource *sharingAudienceDataSource; // @synthesize sharingAudienceDataSource=_sharingAudienceDataSource;
-@property(readonly, nonatomic) _Bool sharingEnabled;
-@property(nonatomic) _Bool shouldSetAsMeContact; // @synthesize shouldSetAsMeContact=_shouldSetAsMeContact;
-@property(nonatomic) _Bool showsWallpaperSuggestionsGalleryPicker; // @synthesize showsWallpaperSuggestionsGalleryPicker=_showsWallpaperSuggestionsGalleryPicker;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
-@property(nonatomic) double tableViewBottomInsets; // @synthesize tableViewBottomInsets=_tableViewBottomInsets;
 
 @end
 

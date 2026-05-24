@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHSubRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)>4;
 - (_Bool);
-- (_Bool);
+- (_Bool)achments count for chat %@ services %@;
 - (id);
 - (id)
 × ;
-- (id)ies;
-- (id)HasPhraseId: /* Error: Ran out of types for this method. */;
-- (_Bool)RSONAL_DOMAINS_ENABLED;
-- (_Bool)etitionDetectionRuleType;
+- (id)_entities;
+- (id)setHasPhraseId: /* Error: Ran out of types for this method. */;
+- (_Bool)FLOWSTATUSREASON_PERSONAL_DOMAINS_ENABLED;
+- (_Bool)NLXSchemaMARRSRepetitionDetectionRuleType;
 - (void)¦²t%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

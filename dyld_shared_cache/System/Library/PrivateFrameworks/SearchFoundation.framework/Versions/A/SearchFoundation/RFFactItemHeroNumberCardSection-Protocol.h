@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty;
+@class RFTextProperty;
 
 @protocol RFFactItemHeroNumberCardSection
+- (void);
+- (RFTextProperty *)P;
 - (RFTextProperty *)¨;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *number;
-@property(copy, nonatomic) NSArray *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFTextProperty *text_5;
-@property(retain, nonatomic) RFTextProperty *unit;
 @end
 

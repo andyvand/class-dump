@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CWMenuItemImage
 {
     NSString *_text;
-    double _fontSize;
-    NSImage *_image;
-    NSImage *_highlightedImage;
-    double _adjustY;
-    double _paddingBefore;
-    double _paddingAfter;
-    double _scale;
 }
 
 - (void);
 - (void);
 - (void);
+- (double)G;
 - (double);
 - (double);
-- (double);
-- (void);
+- (void)P;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)registeredBlocks;
+- (id)VideoReceiver [%s] %s:%d Received NULL videoReceiver /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)lementaryPercentage:(id)arg1 ];
 - (void);
 
 // Remaining properties
-@property double adjustY; // @synthesize adjustY=_adjustY;
-@property double fontSize; // @synthesize fontSize=_fontSize;
-@property(retain) NSImage *highlightedImage; // @synthesize highlightedImage=_highlightedImage;
-@property(retain) NSImage *image; // @synthesize image=_image;
-@property double paddingAfter; // @synthesize paddingAfter=_paddingAfter;
-@property double paddingBefore; // @synthesize paddingBefore=_paddingBefore;
-@property double scale; // @synthesize scale=_scale;
 @property(copy) NSString *text; // @synthesize text=_text;
 
 @end

@@ -4,53 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPiTunesMediaAsset, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaPlaylistUnresolvedMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_curator;
-    NSString *_curatorHandle;
-    NSString *_curatorID;
-    LPiTunesMediaAsset *_artwork;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)4)N;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
+- (void)4;
+- (id)e to nested block failure);
+- (id)of record %@;
 - (id);
+- (void);
+- (id)red_size % backwards_multiple);
 - (void);
 - (void);
 - (id)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) NSString *curator; // @synthesize curator=_curator;
-@property(copy, nonatomic) NSString *curatorHandle; // @synthesize curatorHandle=_curatorHandle;
-@property(copy, nonatomic) NSString *curatorID; // @synthesize curatorID=_curatorID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

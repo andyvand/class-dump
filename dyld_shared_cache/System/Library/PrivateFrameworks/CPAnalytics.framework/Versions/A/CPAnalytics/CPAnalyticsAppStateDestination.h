@@ -6,44 +6,35 @@
 
 #import <CPAnalytics/CPAnalyticsDashboardDestination.h>
 
-@class CPAnalyticsScreenManager, NSArray, NSObject, NSSet, NSString;
+@class NSArray;
 
 @interface CPAnalyticsAppStateDestination : CPAnalyticsDashboardDestination
 {
     NSArray *_featureCounters;
-    NSObject *_appLaunchSource;
-    NSArray *_sessionCounters;
-    NSSet *_appEventNames;
-    CPAnalyticsScreenManager *_screenManager;
-    NSString *_launchSource;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)_initWithElements:(id)arg1;
+- (void)initWithWeakReferenceToListener:callback:name:object: /* Error: Ran out of types for this method. */;
+- (id)Object;
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)xts"8@"NSError"16;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -51,25 +42,17 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *appEventNames; // @synthesize appEventNames=_appEventNames;
-@property(retain, nonatomic) NSObject *appLaunchSource; // @synthesize appLaunchSource=_appLaunchSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSArray *featureCounters; // @synthesize featureCounters=_featureCounters;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *launchSource; // @synthesize launchSource=_launchSource;
-@property(readonly, nonatomic) CPAnalyticsScreenManager *screenManager; // @synthesize screenManager=_screenManager;
-@property(retain, nonatomic) NSArray *sessionCounters; // @synthesize sessionCounters=_sessionCounters;
-@property(readonly) Class superclass;
 
 @end
 

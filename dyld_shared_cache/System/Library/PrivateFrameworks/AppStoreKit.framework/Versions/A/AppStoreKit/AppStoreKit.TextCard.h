@@ -7,18 +7,6 @@
 @interface AppStoreKit.TextCard
 {
     id title;
-    id titleStyle;
-    id subtitle;
-    id bodyParagraph;
-    id compactAction;
-    id regularAction;
-    id captionTitle;
-    id captionSubtitle;
-    id captionArtwork;
-    id captionAction;
-    id isExpanded;
-    id includeCaptionWhenExpanded;
-    id id;
 }
 
 @end

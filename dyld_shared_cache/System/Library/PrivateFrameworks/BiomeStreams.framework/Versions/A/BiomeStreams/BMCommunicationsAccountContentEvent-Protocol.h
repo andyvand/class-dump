@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMNamedHandle, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol BMCommunicationsAccountContentEvent
+- (NSArray *)kWRMAVConferencePeriodicReport_TotalPacketsReceived;
 - (NSString *)ind determine database directory path for %s;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accountHandles;
 @property(readonly, nonatomic) NSString *accountIdentifier;
-@property(readonly, nonatomic) NSString *accountType;
-@property(readonly, nonatomic) NSArray *bccHandles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *ccHandles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) BMNamedHandle *fromHandle;
-@property(readonly, nonatomic) NSArray *toHandles;
 @end
 

@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ICCRDataType;
+
 @protocol ICCRDataType
+- (id <ICCRDataType>)he same time;
+- (void);
 - (void),;
 @end
 

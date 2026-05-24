@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVDisambiguationDialogGenerated, CNVSchemaCNVDisambiguationFailed, CNVSchemaCNVDisambiguationFollowupHandled, NSData;
+@class CNVSchemaCNVDisambiguationDialogGenerated;
 
 @interface CNVSchemaCNVDisambiguationContext : SISchemaInstrumentationMessage
 {
     CNVSchemaCNVDisambiguationDialogGenerated *_startedOrChanged;
-    CNVSchemaCNVDisambiguationFollowupHandled *_ended;
-    CNVSchemaCNVDisambiguationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -43,19 +37,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)FTSchemaIFTResponseManifest;
+- (id)IFTSchemaIFTResponseManifest;
 - (id)4Øt;
 - (void)&;
 
 // Remaining properties
-@property(retain, nonatomic) CNVSchemaCNVDisambiguationFollowupHandled *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CNVSchemaCNVDisambiguationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CNVSchemaCNVDisambiguationDialogGenerated *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

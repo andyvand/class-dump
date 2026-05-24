@@ -6,7 +6,7 @@
 
 #import <CoreData/_PFBackgroundRuntimeVoucher.h>
 
-@class NSString, RBSAssertion;
+@class RBSAssertion;
 
 __attribute__((visibility("hidden")))
 @interface _PFRunningBoardBackgroundRuntimeVoucher : _PFBackgroundRuntimeVoucher
@@ -27,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) RBSAssertion *assertion; // @synthesize assertion=_assertion;
-@property(readonly, nonatomic) NSString *explanation;
-@property(readonly, nonatomic) _Bool isValid;
 
 @end
 

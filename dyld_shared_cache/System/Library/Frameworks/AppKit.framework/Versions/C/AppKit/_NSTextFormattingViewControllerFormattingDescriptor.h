@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppKit._NSAttributedStringFallbackFontInfo, NSArray, NSParagraphStyle, NSSet, NSString;
+@class AppKit._NSAttributedStringFallbackFontInfo;
 
 @interface _NSTextFormattingViewControllerFormattingDescriptor
 {
     void fonts;
-    void textColors;
-    void textBackgroundColors;
-    double _lineHeightMultiple;
-    _Bool underlinePresent;
-    _Bool strikethroughPresent;
-    long long _textAlignment;
-    _Bool _textAlignmentFullyJustified;
-    void textLists;
-    void _highlights;
-    void _formattingStyleKey;
-    NSParagraphStyle *_paragraphStyle;
-    _Bool _hasBlockquote;
-    _Bool _canToggleBold;
-    _Bool _canToggleItalic;
 }
 
 + (_Bool);
+- (_Bool)__LINKEDIT;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)@9);
 - (void);
 - (void);
 - (void);
@@ -51,40 +37,25 @@
 - (double);
 - (id);
 - (_Bool);
+- (id)}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (_Bool)taskAdditionalPropertiesClasses;
+- (_Bool)onOnly;
+- (void)CertificateForHost:(id)arg1;
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id)hBaseImage:(void *)arg1 overlayImage:overlayFrame: /* Error: Ran out of types for this method. */;
-- (id)tallWindowTabItems:(id)arg1;
+- (id)initWithBaseImage:(void *)arg1 overlayImage:overlayFrame: /* Error: Ran out of types for this method. */;
+- (id)_setAlwaysInstallWindowTabItems:(id)arg1;
 - (id)hABGABG;
 - (void)inquishPresentedItemToWriter:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 - (void)ffff@333333@ffffff1@3333332@ÍÌÌÌÌL3@;
 - (id)hhÊÿåÅh¤Êÿ½Åh0ÊÿÅÅhôÉÿÕÅhüÊÿÕÅhÊÿÕÅh`ÊÿõÅhÊÿÅhøÊÿÅhèÊÿuÅhøÉÿÅÅhÊÿUÅhÊÿUÅh;
 
 // Remaining properties
-@property(nonatomic) _Bool _canToggleBold; // @synthesize _canToggleBold;
-@property(nonatomic) _Bool _canToggleItalic; // @synthesize _canToggleItalic;
 @property(nonatomic, retain) AppKit._NSAttributedStringFallbackFontInfo *_fallbackFontInfo;
-@property(nonatomic, copy) NSString *_formattingStyleKey;
-@property(nonatomic) _Bool _hasBlockquote; // @synthesize _hasBlockquote;
-@property(nonatomic, copy) NSSet *_highlights;
-@property(nonatomic) double _lineHeightMultiple; // @synthesize _lineHeightMultiple;
-@property(nonatomic, retain) NSParagraphStyle *_paragraphStyle; // @synthesize _paragraphStyle;
-@property(nonatomic) long long _textAlignment; // @synthesize _textAlignment;
-@property(nonatomic) _Bool _textAlignmentFullyJustified; // @synthesize _textAlignmentFullyJustified;
-@property(nonatomic, copy) NSArray *fonts;
-@property(nonatomic) _Bool strikethroughPresent; // @synthesize strikethroughPresent;
-@property(nonatomic, copy) NSArray *textBackgroundColors;
-@property(nonatomic, copy) NSArray *textColors;
-@property(nonatomic, copy) NSSet *textLists;
-@property(nonatomic) _Bool underlinePresent; // @synthesize underlinePresent;
 
 @end
 

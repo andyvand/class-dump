@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _UIGroupCompletion
 {
     NSMutableArray *_completions;
-    NSMutableArray *_scheduledCompletions;
-    unsigned long long _refCount;
-    _Bool _isCompleting;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)inFrame;
+- (void):receivedViaRelay:spamDetectionSource: /* Error: Ran out of types for this method. */;
+- (void)ry",&,N,V_mutableProperties;
+- (void)CommandQuickSwitchCompleted;
+- (void)beginFrame;
 - (void)ding33_E2FBA5A6CB26719268BDB9CA2E30CFC2LLP;
 - (void);
 - (void)¬ÿ½};

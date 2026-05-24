@@ -6,23 +6,15 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSString;
+@class IMHandle;
 
 @interface IMSenderChatItem : IMTranscriptChatItem
 {
     _Bool _mergedBusinessThread;
-    _Bool _spam;
-    IMHandle *_handle;
-    long long _transcriptSharingMessageType;
-    NSString *_displayName;
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic, getter=isMergedBusinessThread) _Bool mergedBusinessThread; // @synthesize mergedBusinessThread=_mergedBusinessThread;
-@property(readonly, nonatomic, getter=isSpam) _Bool spam; // @synthesize spam=_spam;
-@property(readonly, nonatomic) long long transcriptSharingMessageType; // @synthesize transcriptSharingMessageType=_transcriptSharingMessageType;
 @end
 

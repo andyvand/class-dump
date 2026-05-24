@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface VSOnceAndOnlyOnceHandler
 {
     _Atomic int _counter;
-    CDUnknownBlockType _block;
 }
 
-- (void);
+- (void)r;
 - (void);
 - (CDUnknownBlockType);
 - (void);

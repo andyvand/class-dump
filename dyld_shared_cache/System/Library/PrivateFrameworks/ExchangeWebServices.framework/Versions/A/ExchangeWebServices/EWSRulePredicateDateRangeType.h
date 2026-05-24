@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface EWSRulePredicateDateRangeType
 {
     _Bool _StartDateTimeSpecified;
-    _Bool _EndDateTimeSpecified;
-    NSDateComponents *_StartDateTime;
-    NSDateComponents *_EndDateTime;
 }
 
-+ (id);
++ (id)'y:HyAlHGGGGG_ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -23,20 +20,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)N;
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *EndDateTime; // @synthesize EndDateTime=_EndDateTime;
-@property(nonatomic) _Bool EndDateTimeSpecified; // @synthesize EndDateTimeSpecified=_EndDateTimeSpecified;
 @property(retain, nonatomic) NSDateComponents *StartDateTime; // @synthesize StartDateTime=_StartDateTime;
-@property(nonatomic) _Bool StartDateTimeSpecified; // @synthesize StartDateTimeSpecified=_StartDateTimeSpecified;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

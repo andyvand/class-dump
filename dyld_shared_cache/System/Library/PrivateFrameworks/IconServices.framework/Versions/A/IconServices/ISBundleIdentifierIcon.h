@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface ISBundleIdentifierIcon : ISConcreteIcon
 {
     NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -30,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
 
 @end
 

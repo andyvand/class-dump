@@ -10,9 +10,9 @@
 
 + (void);
 + (void);
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)a;
+- (void)y",&,N,V_completionHandlers;
+- (void)rectsForRange:(id)arg1 inFindableString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)@ù
 × ;

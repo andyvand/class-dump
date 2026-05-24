@@ -6,18 +6,9 @@
 
 #import <NewsCore/FCFetchOperation.h>
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface FCAssetsFetchOperation : FCFetchOperation
 {
     unsigned long long _maxConcurrentFetchCount;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _interestTokenHandler;
-    CDUnknownBlockType _archiveHandler;
-    NSArray *_assetHandles;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
 - (unsigned long long);
@@ -28,17 +19,14 @@
 - (void);
 - (CDUnknownBlockType)!tFùÑ)	1Â0@ù
 × ;
-- (id)ationExploreBaselineClickValue;
+- (id)_recommendationPresentationExploreBaselineClickValue;
 - (void)nfigurationManager addAppConfigObserver:] /* Error: Ran out of types for this method. */;
 - (void)e the config has no resource ID;
 - (CDUnknownBlockType);
 - (void)ãÿ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler=_archiveHandler;
-@property(copy, nonatomic) CDUnknownBlockType interestTokenHandler; // @synthesize interestTokenHandler=_interestTokenHandler;
 @property(nonatomic) unsigned long long maxConcurrentFetchCount; // @synthesize maxConcurrentFetchCount=_maxConcurrentFetchCount;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

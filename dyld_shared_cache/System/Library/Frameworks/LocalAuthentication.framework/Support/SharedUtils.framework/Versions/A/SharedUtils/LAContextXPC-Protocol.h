@@ -5,5 +5,6 @@
 //
 
 @protocol LAContextXPC
+- (void)!;
 @end
 

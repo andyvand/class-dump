@@ -11,20 +11,18 @@
 @interface TILabeledKeyboardCandidate : TIKeyboardCandidateSingle
 {
     long long _transliterationType;
-    _Bool _transliterationCandidate;
-    NSString *_label;
 }
 
 + (int);
 + (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
+- (void)r;
 - (id);
-- (void);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (id);
 - (void)|;

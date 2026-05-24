@@ -7,8 +7,6 @@
 @interface AppKit.IterativeTimer
 {
     id timeInterval;
-    id next;
-    id timer;
 }
 
 @end

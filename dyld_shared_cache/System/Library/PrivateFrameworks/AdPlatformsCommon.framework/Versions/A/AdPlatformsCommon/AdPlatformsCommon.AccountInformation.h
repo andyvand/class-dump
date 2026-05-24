@@ -7,13 +7,6 @@
 @interface AdPlatformsCommon.AccountInformation
 {
     id storefront;
-    id monthlyIDResetCount;
-    id accountsRecord;
-    id segmentData;
-    id storage;
-    id executionEnvironment;
-    id observer;
-    id lock;
 }
 
 @end

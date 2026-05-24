@@ -8,18 +8,6 @@
 {
     id duration;
     id dampingRatio;
-    id mass;
-    id initialVelocity;
-    id didUpdate;
-    id completion;
-    id startTime;
-    id fractionOfAmplitude;
-    id $__lazy_storage_$_clippedDampingRatio;
-    id $__lazy_storage_$_stiffness;
-    id $__lazy_storage_$_angularFrequency;
-    id $__lazy_storage_$_damping;
-    id value;
-    id $__lazy_storage_$_velocity;
 }
 
 - (void);

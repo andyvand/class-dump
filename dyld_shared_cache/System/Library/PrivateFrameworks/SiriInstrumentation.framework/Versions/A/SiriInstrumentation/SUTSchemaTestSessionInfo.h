@@ -6,31 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface SUTSchemaTestSessionInfo : SISchemaInstrumentationMessage
 {
     NSString *_systemBuild;
-    NSString *_cpuArchitecture;
-    NSString *_hardwareModel;
-    NSString *_modelNumber;
-    NSString *_productType;
-    NSString *_productVersion;
-    _Bool _isSimulator;
-    NSString *_bundleId;
-    NSString *_deviceName;
-    NSArray *_testSessionInfoItems;
-    struct {
-        unsigned int isSimulator:1;
-    } _has;
-    _Bool _hasSystemBuild;
-    _Bool _hasCpuArchitecture;
-    _Bool _hasHardwareModel;
-    _Bool _hasModelNumber;
-    _Bool _hasProductType;
-    _Bool _hasProductVersion;
-    _Bool _hasBundleId;
-    _Bool _hasDeviceName;
 }
 
 - (id);
@@ -41,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9hb;
 - (void);
 - (void);
 - (void);
@@ -71,53 +51,34 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)st",&,N,V_groupEntriesList;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)removeTransactionForCaseID: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ength, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join j ON m.ROWID = j.message_id INNER JOIN chat c ON c.ROWID = j.chat_id WHERE c.chat_identifier = ? AND m.item_type = 0 AND m.is_system_message = 0 AND m.is_read == 1 AND is_from_me == 0 AND is_finished == 1 ORDER BY m.date DESC LIMIT 1;
+- (void)i6;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void)ated"b1"numStatementsEvaluatedFromPlanner"b1"numSystemPromptsResolved"b1};
-- (id)i: /* Error: Ran out of types for this method. */;
-- (id)ePlanCreatedToActionResolverRequestTime;
-- (_Bool)rHomeAutomationRequestErrorReason;
-- (id)ssageRecorded;
-- (id)eV2;
+- (id)setHasContactSuggestionUsedBySiri: /* Error: Ran out of types for this method. */;
+- (id)deletePlanCreatedToActionResolverRequestTime;
+- (_Bool)clearHomeAutomationRequestErrorReason;
+- (id)_intercomMessageRecorded;
+- (id)_systemLocaleV2;
 - (void)@XìXpYà[(\\^À_;
 - (void)ResultCandidateReceived;
-- (id)SCOVERY;
-- (void)ESULT;
-- (void)UMBER;
+- (id)IDENTITYUSERPRESENCESOURCE_DEVICE_DISCOVERY;
+- (void)FLOWSTATETYPE_IDENTITY_DISAMBIGUATION_RESULT;
+- (void)FLOWSPORTSUSECASE_ATHLETE_NUMBER;
 - (void)$¾æÿ~,D!;
 - (id)åÿ;
 - (id)ó!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(copy, nonatomic) NSString *cpuArchitecture; // @synthesize cpuArchitecture=_cpuArchitecture;
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy, nonatomic) NSString *hardwareModel; // @synthesize hardwareModel=_hardwareModel;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasCpuArchitecture; // @synthesize hasCpuArchitecture=_hasCpuArchitecture;
-@property(nonatomic) _Bool hasDeviceName; // @synthesize hasDeviceName=_hasDeviceName;
-@property(nonatomic) _Bool hasHardwareModel; // @synthesize hasHardwareModel=_hasHardwareModel;
-@property(nonatomic) _Bool hasIsSimulator;
-@property(nonatomic) _Bool hasModelNumber; // @synthesize hasModelNumber=_hasModelNumber;
-@property(nonatomic) _Bool hasProductType; // @synthesize hasProductType=_hasProductType;
-@property(nonatomic) _Bool hasProductVersion; // @synthesize hasProductVersion=_hasProductVersion;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) _Bool isSimulator; // @synthesize isSimulator=_isSimulator;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(copy, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(copy, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
 @property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
-@property(copy, nonatomic) NSArray *testSessionInfoItems; // @synthesize testSessionInfoItems=_testSessionInfoItems;
 
 @end
 

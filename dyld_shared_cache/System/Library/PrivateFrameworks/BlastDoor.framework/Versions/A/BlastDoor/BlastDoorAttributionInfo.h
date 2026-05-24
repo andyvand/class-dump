@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorAttributionInfo_PreviewGenerationConstraints, NSString;
+@class NSString;
 
 @interface BlastDoorAttributionInfo
 {
@@ -26,17 +26,7 @@
 - (unsigned long long)ÿù¥¢H,ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *accessibilityStickerName;
-@property(nonatomic, readonly) unsigned long long adamID;
-@property(nonatomic, readonly) NSString *bundleID;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_adamID;
-@property(nonatomic, readonly) _Bool has_previewGenerationSizeHeight;
-@property(nonatomic, readonly) _Bool has_previewGenerationSizeWidth;
-@property(nonatomic, readonly) NSString *packName;
-@property(nonatomic, readonly) BlastDoorAttributionInfo_PreviewGenerationConstraints *previewGenerationConstraints;
-@property(nonatomic, readonly) double previewGenerationSizeHeight;
-@property(nonatomic, readonly) double previewGenerationSizeWidth;
 
 @end
 

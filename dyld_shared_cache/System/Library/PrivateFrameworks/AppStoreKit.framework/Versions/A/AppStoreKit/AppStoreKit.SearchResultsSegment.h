@@ -7,15 +7,6 @@
 @interface AppStoreKit.SearchResultsSegment
 {
     id id;
-    id name;
-    id contextCard;
-    id content;
-    id message;
-    id noResultsLink;
-    id noResultsHidesLargeTitle;
-    id transparencyLink;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

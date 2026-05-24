@@ -4,60 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, CLSPerson, NSData, NSDictionary, NSError, NSString, NSURL;
-
 @interface CLSCurrentUser
 {
     _Bool _hasSecurityScopedSchoolworkUbiquitousContainerURL;
-    _Bool _hasSecurityScopedMultimediaCacheDirectoryURL;
-    _Bool _hasDataSeparatedAccount;
-    _Bool _requiresPersonaMatch;
-    _Bool _hasMatchingPersona;
-    _Bool _hasManagedAccount;
-    _Bool _hasEDUAccount;
-    _Bool _hasUbiquityEnabled;
-    _Bool _organizationProgressTrackingAllowed;
-    _Bool _organizationMaidAnalyticsEnabled;
-    _Bool _personMaidAnalyticsEnabled;
-    _Bool _allowSharingOutsideOrg;
-    _Bool _classroomClassicAdHocModeEnabled;
-    int _devMode;
-    int _rosterServiceAuthenticationState;
-    int _handoutServiceAuthenticationState;
-    int _iCloudDriveAuthenticationState;
-    CLSPerson *_person;
-    NSString *_accountIdentifier;
-    NSString *_accountPersonaUniqueIdentifier;
-    NSString *_clientPersonaUniqueIdentifier;
-    NSString *_organizationName;
-    long long _catalogEnvironment;
-    NSURL *_schoolworkUbiquitousContainerURL;
-    NSError *_schoolworkUbiquitousContainerError;
-    CKRecordID *_orgAdminUserRecordID;
-    NSError *_orgAdminUserFetchError;
-    CKRecordID *_userRecordID;
-    NSError *_userFetchError;
-    NSURL *_multimediaCacheDirectoryURL;
-    NSError *_multimediaCacheDirectoryURLError;
-    unsigned long long _roles;
-    NSDictionary *_locationIDsByAXMRoleType;
-    NSData *_schoolworkUbiquitousContainerURLSandboxExtension;
-    NSData *_multimediaCacheDirectoryURLSandboxExtension;
 }
 
 + (unsigned long long);
 + (id);
-+ (_Bool);
++ (_Bool)_constructAnalyticsInforFromAccount:forIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)1;
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (_Bool);
@@ -70,11 +34,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -96,16 +60,16 @@
 - (int);
 - (void);
 - (void);
-- (id);
+- (id)transitionDates;
 - (id);
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)y";
 - (_Bool);
 - (id);
-- (void);
-- (long long);
+- (void)View"16@"AKAppleIDAuthenticationInAppContext"24@"NSWindow"32@"CDPEnrollViewController"40;
+- (long long)setInAppAuthUIProvider: /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (id);
@@ -115,7 +79,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)y"@"NSError">24;
 - (_Bool);
 - (id);
 - (id);
@@ -128,48 +92,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id)L;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *accountPersonaUniqueIdentifier; // @synthesize accountPersonaUniqueIdentifier=_accountPersonaUniqueIdentifier;
-@property(nonatomic) _Bool allowSharingOutsideOrg; // @synthesize allowSharingOutsideOrg=_allowSharingOutsideOrg;
-@property(nonatomic) long long catalogEnvironment; // @synthesize catalogEnvironment=_catalogEnvironment;
-@property(nonatomic) _Bool classroomClassicAdHocModeEnabled; // @synthesize classroomClassicAdHocModeEnabled=_classroomClassicAdHocModeEnabled;
-@property(copy, nonatomic) NSString *clientPersonaUniqueIdentifier; // @synthesize clientPersonaUniqueIdentifier=_clientPersonaUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *clientPersonaUniqueString;
 @property(nonatomic) int devMode; // @synthesize devMode=_devMode;
-@property(nonatomic) int handoutServiceAuthenticationState; // @synthesize handoutServiceAuthenticationState=_handoutServiceAuthenticationState;
-@property(nonatomic) _Bool hasDataSeparatedAccount; // @synthesize hasDataSeparatedAccount=_hasDataSeparatedAccount;
-@property(nonatomic) _Bool hasEDUAccount; // @synthesize hasEDUAccount=_hasEDUAccount;
-@property(nonatomic) _Bool hasManagedAccount; // @synthesize hasManagedAccount=_hasManagedAccount;
-@property(nonatomic) _Bool hasMatchingPersona; // @synthesize hasMatchingPersona=_hasMatchingPersona;
-@property(nonatomic) _Bool hasUbiquityEnabled; // @synthesize hasUbiquityEnabled=_hasUbiquityEnabled;
-@property(nonatomic) int iCloudDriveAuthenticationState; // @synthesize iCloudDriveAuthenticationState=_iCloudDriveAuthenticationState;
-@property(readonly, nonatomic) _Bool isAdministrator;
-@property(readonly, nonatomic) _Bool isInstructor;
-@property(readonly, nonatomic) _Bool isStudent;
-@property(retain, nonatomic) NSDictionary *locationIDsByAXMRoleType; // @synthesize locationIDsByAXMRoleType=_locationIDsByAXMRoleType;
-@property(copy, nonatomic) NSURL *multimediaCacheDirectoryURL; // @synthesize multimediaCacheDirectoryURL=_multimediaCacheDirectoryURL;
-@property(copy, nonatomic) NSError *multimediaCacheDirectoryURLError; // @synthesize multimediaCacheDirectoryURLError=_multimediaCacheDirectoryURLError;
-@property(copy, nonatomic) NSData *multimediaCacheDirectoryURLSandboxExtension; // @synthesize multimediaCacheDirectoryURLSandboxExtension=_multimediaCacheDirectoryURLSandboxExtension;
-@property(copy, nonatomic) NSError *orgAdminUserFetchError; // @synthesize orgAdminUserFetchError=_orgAdminUserFetchError;
-@property(retain, nonatomic) CKRecordID *orgAdminUserRecordID; // @synthesize orgAdminUserRecordID=_orgAdminUserRecordID;
-@property(nonatomic) _Bool organizationMaidAnalyticsEnabled; // @synthesize organizationMaidAnalyticsEnabled=_organizationMaidAnalyticsEnabled;
-@property(copy, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(nonatomic) _Bool organizationProgressTrackingAllowed; // @synthesize organizationProgressTrackingAllowed=_organizationProgressTrackingAllowed;
-@property(retain, nonatomic) CLSPerson *person; // @synthesize person=_person;
-@property(nonatomic) _Bool personMaidAnalyticsEnabled; // @synthesize personMaidAnalyticsEnabled=_personMaidAnalyticsEnabled;
-@property(readonly, copy, nonatomic) NSString *personaUniqueString;
-@property(nonatomic) _Bool requiresPersonaMatch; // @synthesize requiresPersonaMatch=_requiresPersonaMatch;
-@property(nonatomic) unsigned long long roles; // @synthesize roles=_roles;
-@property(nonatomic) int rosterServiceAuthenticationState; // @synthesize rosterServiceAuthenticationState=_rosterServiceAuthenticationState;
-@property(copy, nonatomic) NSError *schoolworkUbiquitousContainerError; // @synthesize schoolworkUbiquitousContainerError=_schoolworkUbiquitousContainerError;
-@property(copy, nonatomic) NSURL *schoolworkUbiquitousContainerURL; // @synthesize schoolworkUbiquitousContainerURL=_schoolworkUbiquitousContainerURL;
-@property(copy, nonatomic) NSData *schoolworkUbiquitousContainerURLSandboxExtension; // @synthesize schoolworkUbiquitousContainerURLSandboxExtension=_schoolworkUbiquitousContainerURLSandboxExtension;
-@property(copy, nonatomic) NSError *userFetchError; // @synthesize userFetchError=_userFetchError;
-@property(retain, nonatomic) CKRecordID *userRecordID; // @synthesize userRecordID=_userRecordID;
 
 @end
 

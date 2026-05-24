@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSProgress, NSString;
 
 @protocol NSItemProviderWriting
++ (NSArray *)G;
+- (NSProgress *)setMinPressure:(NSString *)arg1;
+
+@optional
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;

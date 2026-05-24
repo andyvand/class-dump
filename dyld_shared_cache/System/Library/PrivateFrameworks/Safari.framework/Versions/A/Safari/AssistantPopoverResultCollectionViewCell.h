@@ -4,48 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFont, NSLayoutConstraint, NSParagraphStyle, NSStackView, NSString, NSTextField, NSTextView, NSView, ReaderAppearanceViewController;
-@protocol AssistantPopoverResultCollectionViewCellDelegate, AssistantPopoverViewControllerDelegate;
+@class NSStackView;
+@protocol AssistantPopoverResultCollectionViewCellDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverResultCollectionViewCell
 {
     NSStackView *_contentView;
-    NSTextField *_titleTextField;
-    NSTextField *_bodyTextField;
-    NSStackView *_summaryDisclaimerTextWrappingView;
-    NSTextField *_summaryDisclaimerTextField;
-    NSView *_bodyContentView;
-    NSView *_backgroundView;
-    NSView *_selectionView;
-    NSStackView *_actionButtonStackView;
-    NSView *_viewShadow;
-    NSTextView *_bodyTextView;
-    NSString *_currentSummaryText;
-    NSString *_textUsedForSummarization;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
-    NSLayoutConstraint *_leadingButtonsConstraint;
-    NSLayoutConstraint *_trailingButtonsConstraint;
-    NSLayoutConstraint *_contentDistanceToTopBackgroundConstraint;
-    NSLayoutConstraint *_contentDistanceToBottomBackgroundConstraint;
-    ReaderAppearanceViewController *_readerAppearanceViewController;
-    NSFont *_bodyTextFieldFont;
-    NSFont *_summaryHeaderFont;
-    NSParagraphStyle *_bodyParagraphStyle;
-    NSArray *_actionButtons;
-    _Bool _isShowingPlaceholder;
-    id <AssistantPopoverResultCollectionViewCellDelegate> _delegate;
-    long long _type;
-    id <AssistantPopoverViewControllerDelegate> _assistantPopoverDelegate;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSString *_summaryDisclaimer;
 }
 
 + (id)closeTabsWhileClosingWindow: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
 - (void);
@@ -56,19 +26,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)qh;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -91,7 +61,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -105,20 +75,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿéñÅX/1;
 
 // Remaining properties
-@property(nonatomic) __weak id <AssistantPopoverViewControllerDelegate> assistantPopoverDelegate; // @synthesize assistantPopoverDelegate=_assistantPopoverDelegate;
-@property(retain, nonatomic) NSLayoutConstraint *bottomConstraint; // @synthesize bottomConstraint=_bottomConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AssistantPopoverResultCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isShowingPlaceholder; // @synthesize isShowingPlaceholder=_isShowingPlaceholder;
-@property(retain, nonatomic, setter=setSummaryDisclaimer:) NSString *summaryDisclaimer; // @synthesize summaryDisclaimer=_summaryDisclaimer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *topConstraint; // @synthesize topConstraint=_topConstraint;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

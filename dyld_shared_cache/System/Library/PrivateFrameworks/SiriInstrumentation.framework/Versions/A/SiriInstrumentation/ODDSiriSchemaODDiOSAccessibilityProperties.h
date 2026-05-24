@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDiOSAccessibilityProperties : SISchemaInstrumentationMessage
 {
     _Bool _isAlwaysListenForHeySiriEnabled;
-    int _siriPauseTimeState;
-    _Bool _isShowAppsBehindSiriEnabled;
-    double _siriSpeechRate;
-    _Bool _isVoiceOverEnabled;
-    _Bool _isTypeToSiriEnabled;
-    int _voiceFeedback;
-    _Bool _isAtypicalSpeechEnabled;
-    struct {
-        unsigned int isAlwaysListenForHeySiriEnabled:1;
-        unsigned int siriPauseTimeState:1;
-        unsigned int isShowAppsBehindSiriEnabled:1;
-        unsigned int siriSpeechRate:1;
-        unsigned int isVoiceOverEnabled:1;
-        unsigned int isTypeToSiriEnabled:1;
-        unsigned int voiceFeedback:1;
-        unsigned int isAtypicalSpeechEnabled:1;
-    } _has;
 }
 
 - (int);
@@ -42,19 +23,19 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)?׍;
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)0;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -77,28 +58,12 @@
 - (id);
 - (id)!Ü@ùQÞ1Â0@ù
 × ;
-- (double)nitialStartupItemCreationToLtluDurationInMs;
+- (double)deleteCmInitialStartupItemCreationToLtluDurationInMs;
 - (id),V_homeKitServiceType;
-- (id)esponse;
+- (id)deleteCrossIntentRankerResponse;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAlwaysListenForHeySiriEnabled;
-@property(nonatomic) _Bool hasIsAtypicalSpeechEnabled;
-@property(nonatomic) _Bool hasIsShowAppsBehindSiriEnabled;
-@property(nonatomic) _Bool hasIsTypeToSiriEnabled;
-@property(nonatomic) _Bool hasIsVoiceOverEnabled;
-@property(nonatomic) _Bool hasSiriPauseTimeState;
-@property(nonatomic) _Bool hasSiriSpeechRate;
-@property(nonatomic) _Bool hasVoiceFeedback;
 @property(nonatomic) _Bool isAlwaysListenForHeySiriEnabled; // @synthesize isAlwaysListenForHeySiriEnabled=_isAlwaysListenForHeySiriEnabled;
-@property(nonatomic) _Bool isAtypicalSpeechEnabled; // @synthesize isAtypicalSpeechEnabled=_isAtypicalSpeechEnabled;
-@property(nonatomic) _Bool isShowAppsBehindSiriEnabled; // @synthesize isShowAppsBehindSiriEnabled=_isShowAppsBehindSiriEnabled;
-@property(nonatomic) _Bool isTypeToSiriEnabled; // @synthesize isTypeToSiriEnabled=_isTypeToSiriEnabled;
-@property(nonatomic) _Bool isVoiceOverEnabled; // @synthesize isVoiceOverEnabled=_isVoiceOverEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int siriPauseTimeState; // @synthesize siriPauseTimeState=_siriPauseTimeState;
-@property(nonatomic) double siriSpeechRate; // @synthesize siriSpeechRate=_siriSpeechRate;
-@property(nonatomic) int voiceFeedback; // @synthesize voiceFeedback=_voiceFeedback;
 
 @end
 

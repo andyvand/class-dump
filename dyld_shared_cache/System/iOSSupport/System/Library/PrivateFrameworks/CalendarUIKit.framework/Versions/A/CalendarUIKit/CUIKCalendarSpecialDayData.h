@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 @interface CUIKCalendarSpecialDayData
 {
     long long _dayType;
-    struct CGColor *_cgColor;
-    NSString *_locale;
 }
 
 - (void);
 - (void);
 - (long long);
+- (id)UIViewFloatAnimatableProperty",&,N,V_feedbackViewVisibilityAnimatableProperty;
+- (void);
+- (id)entityNotDefinedForSchema;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (struct CGColor *);
-- (void): /* Error: Ran out of types for this method. */;
+- (struct CGColor *)mailAutoCompleteTableViewCellBackgroundColorForPopoverDisplay;
+- (void)resolvedColorWithTraitCollection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) struct CGColor *cgColor; // @synthesize cgColor=_cgColor;
-@property(retain, nonatomic) UIColor *color;
 @property(nonatomic) long long dayType; // @synthesize dayType=_dayType;
-@property(copy, nonatomic) NSString *locale; // @synthesize locale=_locale;
 
 @end
 

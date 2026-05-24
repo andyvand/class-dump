@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationCache, NSObject;
+@class NSArray, NSObject;
 @protocol OS_os_log;
 
 @protocol CLSQueryPerformerProtocol
++ (unsigned long long);
+- (void);
+- (unsigned long long);
+- (NSArray *)\`;
 - (NSObject<OS_os_log> *)Ôáð!dCùqË1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCancelled;
-@property(readonly, nonatomic) CLSLocationCache *locationCache;
-@property(nonatomic) NSObject<OS_os_log> *loggingConnection;
-@property(nonatomic) double precision;
-@property(nonatomic) CDStruct_95c2efd7 statistics;
 @end
 

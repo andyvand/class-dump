@@ -6,25 +6,23 @@
 
 #import <Mail/MFIMAPCopyMessagesOperation.h>
 
-@class NSMutableArray, NSPointerArray;
+@class NSMutableArray;
 
 @interface MFIMAPOfflineCopyOnStupidServerOperation : MFIMAPCopyMessagesOperation
 {
     NSMutableArray *_messageIds;
-    NSPointerArray *_internalDates;
 }
 
 - (void);
 - (void);
 - (id);
-- (unsigned char);
+- (unsigned char)`c;
 - (void);
 - (void);
 - (id);
 - (void)ð;
 
 // Remaining properties
-@property(retain, nonatomic) NSPointerArray *internalDates; // @synthesize internalDates=_internalDates;
 @property(retain, nonatomic) NSMutableArray *messageIds; // @synthesize messageIds=_messageIds;
 
 @end

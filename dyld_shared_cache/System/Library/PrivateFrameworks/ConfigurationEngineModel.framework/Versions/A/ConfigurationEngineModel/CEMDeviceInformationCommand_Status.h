@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMDeviceInformationCommand_StatusErrorResponses, CEMDeviceInformationCommand_StatusQueryResponses;
+@class CEMDeviceInformationCommand_StatusQueryResponses;
 
 @interface CEMDeviceInformationCommand_Status : CEMPayloadBase
 {
     CEMDeviceInformationCommand_StatusQueryResponses *_statusQueryResponses;
-    CEMDeviceInformationCommand_StatusErrorResponses *_statusErrorResponses;
 }
 
 + (id);
@@ -21,13 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)R;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CEMDeviceInformationCommand_StatusErrorResponses *statusErrorResponses; // @synthesize statusErrorResponses=_statusErrorResponses;
 @property(copy, nonatomic) CEMDeviceInformationCommand_StatusQueryResponses *statusQueryResponses; // @synthesize statusQueryResponses=_statusQueryResponses;
 
 @end

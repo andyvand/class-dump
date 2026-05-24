@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIView;
+@class UIView;
 
 @interface CKProgressView
 {
     _Bool _hasPreparedSubviews;
-    double _progress;
-    UIColor *_progressTintColor;
-    UIColor *_trackTintColor;
-    unsigned long long _capStyle;
-    UIView *_progressSegmentView;
-    UIView *_trackView;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)controlTextColor;
+- (void)acceptShareWithMetadata:(_Bool)arg1 attemptNumber:container:accountID:fetchObjectWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_incorrectPasswordAttempts;
+- (id)",C,N,V_columns;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)l;
+- (void)orParticipants:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (double)aultQuery;
+- (id)poseRecipient"8;
+- (double)DefaultQuery;
 - (void)\yWq;
 - (void)°;
 
 // Remaining properties
-@property(nonatomic) unsigned long long capStyle; // @synthesize capStyle=_capStyle;
-@property(nonatomic) _Bool hasPreparedSubviews; // @synthesize hasPreparedSubviews=_hasPreparedSubviews;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
 @property(retain, nonatomic) UIView *progressSegmentView; // @synthesize progressSegmentView=_progressSegmentView;
-@property(retain, nonatomic) UIColor *progressTintColor; // @synthesize progressTintColor=_progressTintColor;
-@property(retain, nonatomic) UIColor *trackTintColor; // @synthesize trackTintColor=_trackTintColor;
-@property(retain, nonatomic) UIView *trackView; // @synthesize trackView=_trackView;
 
 @end
 

@@ -7,8 +7,19 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
+- (long long)tes;
+- (void)e.pencilkit.preferenceState;
+- (id <MTLTexture>)textLength;
+- (id <MTLTexture>)settingSystemShadowEnabled;
+- (id <MTLTexture>)undoRatePerSession;
+- (id <MTLTexture>)e.tool;
+- (void)UIWindowFirstResponderUserInfoKey;
+- (id <MTLTexture>);
+- (unsigned long long);
+- (id <MTLResource>)ibswiftDispatch.dylib;
+- (unsigned long long)GContext=}32B40;
 - (unsigned long long)etal;
-- (id <MTLBuffer>)ementSize;
+- (id <MTLBuffer>)elementSize;
 - (unsigned long long)e at %@ (%@);
 - (unsigned long long)positionScale` property;
 - (CDStruct_a06f635e)ÿÿÿÿÛÉÀ;
@@ -16,44 +27,11 @@
 - (unsigned long long)@F`L>$ï¾?DúÅ¾ßD@ÍtO>Nª?Å¾4/@ÿS>4? Å¾ö(@>%W>?Ä³Ä¾ø@3Ý[>À®~?GÄ¾@Ua>
 1k?1íÃ¾cÒí?g>)[?	©Ã¾®õÛ?n>qN?·yÃ¾òÌ?×v>C?6tÃ¾í,À?>;?»Ã¾XSµ?ÔÒ>j4?ÞÃ¾.¬?>]/?úaÄ¾ê£?¨à>´æ+?ÁÅ¾.?Tá>ñG)?ÇÅ¾dË?a¤>iÉ'?ªÆ¾ü5?)!¨>*o'?ÈÇ¾|e?àK±>¿'?p}È¾ì?¹»>ÊÁ(?¦dÉ¾ÿ®?[³Å>+Q*?TÊ¾J{?=ÒÐ>d,?ZºÊ¾/Þw?#Ü>Üñ.?0Ë¾vªp?.«è>a2?[&Ë¾Z·i?dõ>H5?eÞÊ¾Db?A?õõ8?)Ê¾ü«[?ó?°<?îÉ¾5`T?Þ?of@?;
 
+@optional
+- (unsigned long long)cklook.extension.previewUI;
+- (unsigned long long)sSl;
+
 // Remaining properties
-@property(readonly) _Bool allowGPUOptimizedContents;
-@property(readonly) unsigned long long arrayLength;
-@property(readonly) id <MTLBuffer> buffer;
-@property(readonly) unsigned long long bufferBytesPerRow;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) long long compressionType;
-@property(readonly) unsigned long long depth;
-@property(readonly) unsigned long long firstMipmapInTail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly, getter=isFramebufferOnly) _Bool framebufferOnly;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long height;
-@property(readonly) struct __IOSurface *iosurface;
-@property(readonly) unsigned long long iosurfacePlane;
-@property(readonly) _Bool isSparse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long mipmapLevelCount;
-@property(readonly) unsigned long long parentRelativeLevel;
-@property(readonly) unsigned long long parentRelativeSlice;
-@property(readonly) id <MTLTexture> parentTexture;
-@property(readonly) unsigned long long pixelFormat;
-@property(readonly) id <MTLTexture> remoteStorageTexture;
 @property(readonly) id <MTLResource> rootResource;
-@property(readonly) unsigned long long sampleCount;
-@property(readonly, getter=isShareable) _Bool shareable;
-@property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
-@property(readonly) unsigned long long tailSizeInBytes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long textureType;
-@property(readonly) unsigned long long usage;
-@property(readonly) unsigned long long width;
 @end
 

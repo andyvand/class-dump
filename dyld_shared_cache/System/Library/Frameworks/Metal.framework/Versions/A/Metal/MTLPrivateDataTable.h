@@ -11,8 +11,13 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)7 = sample(src, samplerTransform(src, d + offset23.xy));
+  vec4 q8 = sample(src, samplerTransform(src, d + offset23.zw));
+  vec4 q9 = sample(src, samplerTransform(src, d + offset4.xy));
+  return ((((weight.x * (q4 + q5)) + (weight.y * (q3 + q6))) + (weight.z * (q2 + q7))) + (weight.w * (q1 + q8))) + (weight2.x * (q0 + q9));
+}
+;
+- (void)(;
 - (id);
 - (void);
 

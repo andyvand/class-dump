@@ -6,25 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSCNNPoolingAverage;
-@protocol MTLBuffer;
-
 @interface MPSCNNBinaryConvolution : MPSCNNKernel
 {
     unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    struct NeuronInfo _neuronInfo;
-    unsigned long long _filterStride;
-    id <MTLBuffer> _weights;
-    id <MTLBuffer> _outputbias;
-    id <MTLBuffer> _outputScale;
-    id <MTLBuffer> _inputbias;
-    id <MTLBuffer> _inputScale;
-    unsigned long long _flags;
-    unsigned long long _convType;
-    MPSCNNPoolingAverage *_poolingFilter;
-    _Bool _fullyConnected;
-    float _outputScaleValue;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -41,12 +25,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id)L;
+- (id)TL;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
 
 @end
 

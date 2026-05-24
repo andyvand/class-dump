@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)topicBoostForSourceRelatedFeedBaselineClickValue;
 - (id);
 - (void);
 

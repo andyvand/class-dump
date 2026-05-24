@@ -8,8 +8,6 @@
 {
     id HMACAuthInfo;
     id gridID;
-    id interval;
-    id requestId;
 }
 
 @end

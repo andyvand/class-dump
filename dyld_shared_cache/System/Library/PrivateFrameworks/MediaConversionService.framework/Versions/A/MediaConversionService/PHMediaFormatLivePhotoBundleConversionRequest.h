@@ -13,12 +13,12 @@
     PHMediaFormatLivePhotoConversionRequest *_livePhotoConversionRequest;
 }
 
-- (void);
+- (void)cT;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)commute20MinWarningEntityRelevanceCoarseTimeOfDayAndDayOfWeekFeatures;
 - (_Bool);
 
 // Remaining properties

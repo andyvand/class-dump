@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSCoreDataException
 {
     long long _code;
-    NSString *_domain;
 }
 
 - (void);
-- (id);
+- (id)A@q;
 - (id);
 
 @end

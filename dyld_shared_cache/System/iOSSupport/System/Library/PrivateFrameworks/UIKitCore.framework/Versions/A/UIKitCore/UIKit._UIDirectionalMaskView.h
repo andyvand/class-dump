@@ -9,15 +9,10 @@
 @interface UIKit._UIDirectionalMaskView : UIView
 {
     id mode;
-    id maskPosition;
-    id additionalOutset;
-    id additionalDistance;
-    id blurRadius;
-    id circle;
 }
 
 - (id);
-- (void);
+- (void)H;
 - (id)_UIPickerViewTestParameters;
 - (void)¨¢l;
 

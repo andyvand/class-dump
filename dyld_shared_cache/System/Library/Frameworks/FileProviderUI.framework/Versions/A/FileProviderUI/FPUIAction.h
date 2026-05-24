@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPProviderDomain, NSPredicate, NSString;
+@class NSString;
 
 @interface FPUIAction
 {
     _Bool _displayInline;
-    _Bool _isNonUIAction;
-    NSString *_uiActionProviderIdentifier;
-    NSString *_fileProviderIdentifier;
-    NSString *_identifier;
-    NSString *_displayName;
-    NSPredicate *_predicate;
-    FPProviderDomain *_fpProviderDomain;
 }
 
+- (id)_challenge;
+- (_Bool)_cancelAuthorization;
+- (id)_callSelector:(id)arg1 onBagContract:(id)arg2;
+- (id)_cachedResult;
+- (id)_cachePath;
+- (id)_cacheIdentifier;
+- (_Bool)_cacheCertData:expiration: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool displayInline; // @synthesize displayInline=_displayInline;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *fileProviderIdentifier; // @synthesize fileProviderIdentifier=_fileProviderIdentifier;
-@property(readonly, nonatomic) FPProviderDomain *fpProviderDomain; // @synthesize fpProviderDomain=_fpProviderDomain;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isNonUIAction; // @synthesize isNonUIAction=_isNonUIAction;
-@property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(readonly, nonatomic) NSString *uiActionProviderIdentifier; // @synthesize uiActionProviderIdentifier=_uiActionProviderIdentifier;
 
 @end

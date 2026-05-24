@@ -11,7 +11,6 @@
 @interface _EFSamplingObservable : EFObservable
 {
     id <EFObservable> _observable;
-    id <EFObservable> _sampler;
 }
 
 - (id);

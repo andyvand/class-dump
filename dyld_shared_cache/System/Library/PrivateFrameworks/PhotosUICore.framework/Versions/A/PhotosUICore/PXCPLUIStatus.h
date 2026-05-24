@@ -9,29 +9,6 @@
 @interface PXCPLUIStatus
 {
     _Bool _paused;
-    _Bool _inResetSync;
-    _Bool _isRestoringLibrary;
-    _Bool _hasCompletedInitialSync;
-    _Bool _isExiting;
-    _Bool _isUpgradeSuggestedToAccessAllPhotos;
-    float _progress;
-    NSString *_stateDescription;
-    NSString *_failureDescription;
-    NSString *_internalInformationMessage;
-    NSString *_actionTitle;
-    NSString *_actionConfirmationAlertTitle;
-    NSString *_actionConfirmationAlertSubtitle;
-    NSString *_actionConfirmationAlertButtonTitle;
-    CDUnknownBlockType _action;
-    long long _serviceAction;
-    NSString *_referencedItemsDescription;
-    long long _state;
-    unsigned long long _activity;
-    long long _pauseReason;
-    unsigned long long _numberOfItemsFailingToUpload;
-    unsigned long long _numberOfPhotoAssets;
-    unsigned long long _numberOfVideoAssets;
-    unsigned long long _numberOfOtherAssets;
 }
 
 - (void);
@@ -78,7 +55,7 @@
 - (_Bool);
 - (void);
 - (id)llPhotosAssetsDataSourceManager:(struct _NSZone *)arg1;
-- (_Bool)eyAssetClipCompositions;
+- (_Bool)_allowedKeyAssetClipCompositions;
 - (CDUnknownBlockType)for URL:%@ /* Error: Ran out of types for this method. */;
 - (float)found %{public}s by identifier:%{public}s /* Error: Ran out of types for this method. */;
 - (void)query with no single queries:(CDUnknownBlockType)arg1 "%@";
@@ -89,29 +66,6 @@
 - (_Bool)èùþ&Sè»@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(copy, nonatomic) NSString *actionConfirmationAlertButtonTitle; // @synthesize actionConfirmationAlertButtonTitle=_actionConfirmationAlertButtonTitle;
-@property(copy, nonatomic) NSString *actionConfirmationAlertSubtitle; // @synthesize actionConfirmationAlertSubtitle=_actionConfirmationAlertSubtitle;
-@property(copy, nonatomic) NSString *actionConfirmationAlertTitle; // @synthesize actionConfirmationAlertTitle=_actionConfirmationAlertTitle;
-@property(copy, nonatomic) NSString *actionTitle; // @synthesize actionTitle=_actionTitle;
-@property(nonatomic) unsigned long long activity; // @synthesize activity=_activity;
-@property(copy, nonatomic) NSString *failureDescription; // @synthesize failureDescription=_failureDescription;
-@property(nonatomic) _Bool hasCompletedInitialSync; // @synthesize hasCompletedInitialSync=_hasCompletedInitialSync;
-@property(nonatomic) _Bool inResetSync; // @synthesize inResetSync=_inResetSync;
-@property(copy, nonatomic) NSString *internalInformationMessage; // @synthesize internalInformationMessage=_internalInformationMessage;
-@property(nonatomic) _Bool isExiting; // @synthesize isExiting=_isExiting;
-@property(nonatomic) _Bool isRestoringLibrary; // @synthesize isRestoringLibrary=_isRestoringLibrary;
-@property(nonatomic) _Bool isUpgradeSuggestedToAccessAllPhotos; // @synthesize isUpgradeSuggestedToAccessAllPhotos=_isUpgradeSuggestedToAccessAllPhotos;
-@property(nonatomic) unsigned long long numberOfItemsFailingToUpload; // @synthesize numberOfItemsFailingToUpload=_numberOfItemsFailingToUpload;
-@property(nonatomic) unsigned long long numberOfOtherAssets; // @synthesize numberOfOtherAssets=_numberOfOtherAssets;
-@property(nonatomic) unsigned long long numberOfPhotoAssets; // @synthesize numberOfPhotoAssets=_numberOfPhotoAssets;
-@property(nonatomic) unsigned long long numberOfVideoAssets; // @synthesize numberOfVideoAssets=_numberOfVideoAssets;
-@property(nonatomic) long long pauseReason; // @synthesize pauseReason=_pauseReason;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(nonatomic) float progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) NSString *referencedItemsDescription; // @synthesize referencedItemsDescription=_referencedItemsDescription;
-@property(nonatomic) long long serviceAction; // @synthesize serviceAction=_serviceAction;
-@property(nonatomic) long long state; // @synthesize state=_state;
 @property(copy, nonatomic) NSString *stateDescription; // @synthesize stateDescription=_stateDescription;
 
 @end

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBDisplayModuleMacOS, NSObject, NSString;
-
 #pragma mark Function Pointers and Blocks
 
 typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
@@ -22,18 +20,9 @@ struct AAB {
     struct Curve _field5;
     struct {
         _Bool _field1;
-        struct {
-            float _field1;
-            float _field2;
-        } _field2;
-        struct {
-            float _field1;
-            float _field2;
-        } _field3;
-        struct {
-            float _field1;
-            float _field2;
-        } _field4;
+        CDStruct_6e3f967a _field2;
+        CDStruct_6e3f967a _field3;
+        CDStruct_6e3f967a _field4;
         float _field5;
     } _field6;
     struct CurveCap _field7;
@@ -192,12 +181,9 @@ struct AABC {
     int _field112;
     _Bool _field113;
     struct {
-        struct {
-            float _field1;
-            float _field2;
-        } _field1;
-        CDStruct_271dbc8e _field2;
-        CDStruct_271dbc8e _field3;
+        CDStruct_6e3f967a _field1;
+        CDStruct_b35585dd _field2;
+        CDStruct_b35585dd _field3;
     } _field114;
     id _field115;
     _Bool _field116;
@@ -242,18 +228,6 @@ struct AABC {
 
 struct ALS;
 
-struct ALSStruct {
-    float currentValue;
-    float e1;
-    float e1Sensor;
-    float e2;
-    float e2Sensor;
-    float eThresh;
-    float bl1;
-    float bl2;
-    _Bool autoEnabled;
-};
-
 struct BlueReductionReport {
     double _field1;
     double _field2;
@@ -263,16 +237,16 @@ struct BlueReductionReport {
 };
 
 struct CBAABParams {
-    float e0a;
-    float e0b;
-    float e1;
-    float e2;
-    float l0a;
-    float l0b;
-    float l1;
-    float l2;
-    float thirdSlope;
-    int curveType;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
+    float _field6;
+    float _field7;
+    float _field8;
+    float _field9;
+    int _field10;
 };
 
 struct CBBacklightCalibration_s {
@@ -294,58 +268,56 @@ struct CBClosedRange {
 };
 
 struct CBDigitizerFilterTouchProperties {
-    float digitizerWidth;
-    float digitizerHeight;
-    float deviceCenterX;
-    float deviceCenterY;
-    float touchHotSpotSquared;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
 };
 
 struct CBSliderCommitInfo {
-    long long timestamp;
-    long long localTimestamp;
-    int trustedLux;
-    float frontLux;
-    float rearLux;
-    _Bool rearLuxInUse;
-    float nits;
-    float slider;
-    float apce;
-    float delayedAPCE;
-    int delayedAPCEStatus;
-    _Bool autobrightnessEnabled;
-    _Bool ecoModeEnabled;
-    float ecoModeFactor;
-    struct CBAABParams aabParams;
-    struct CBAABParams aabAlternativeParams;
-    _Bool aabParamsUpdateOnly;
-    int aabParamsUpdateReason;
-    float nitsDelta;
-    float nitsDeltaAlternative;
-    long long restoreTimeTarget;
-    float inactiveLength;
-    long long inactiveStart;
-    _Bool cpmsMitigationLimitingBrightness;
-    _Bool touchMitigationTriggered;
-    _Bool proxMitigationTriggered;
-    float auroraFactor;
-    float edrHeadroom;
-    float colorAdaptationStrength;
-    int colorAdaptationMode;
-    _Bool darkThemeApplied;
-    _Bool landscapeOrientation;
-    _Bool aabMultiModeEnabled;
-    int aabMode;
-    float edrHeadroomRequest;
+    long long _field1;
+    long long _field2;
+    int _field3;
+    float _field4;
+    float _field5;
+    _Bool _field6;
+    float _field7;
+    float _field8;
+    float _field9;
+    float _field10;
+    int _field11;
+    _Bool _field12;
+    _Bool _field13;
+    float _field14;
+    struct CBAABParams _field15;
+    struct CBAABParams _field16;
+    _Bool _field17;
+    int _field18;
+    float _field19;
+    float _field20;
+    long long _field21;
+    float _field22;
+    long long _field23;
+    _Bool _field24;
+    _Bool _field25;
+    _Bool _field26;
+    float _field27;
+    float _field28;
+    float _field29;
+    int _field30;
+    _Bool _field31;
+    _Bool _field32;
+    _Bool _field33;
+    int _field34;
+    float _field35;
 };
 
 struct CFXColorSample {
-    float XYZ[3];
-    CDStruct_6e3f967a xy;
-    float CCT1;
+    float _field1[3];
+    CDStruct_6e3f967a _field2;
+    float _field3;
 };
-
-struct ColorEffects;
 
 struct ColorReport {
     CDStruct_c688133d _field1;
@@ -373,51 +345,29 @@ struct ColorReport {
 };
 
 struct ColorSensorVendorEventData {
-    unsigned int status;
-    unsigned char nChannels;
-    unsigned char orientation;
-    unsigned short brightness;
-    unsigned int integrationTime;
-    unsigned int reportInterval;
-    int gain;
-    float lux;
-    float rawLux;
-    float channelData[6];
-    float CCT;
-    short AZOffsets[6];
-    float temperature;
-    unsigned int sensorTimestamp;
-    int sensorType;
-    unsigned short validNSamples;
-    _Bool asyncMode;
-    unsigned int xtalkEstimate[6];
-    _Bool colorCalcOnAOP;
-    float XYZAP[3];
-    float XYZAOP[3];
-    float filteredLux;
-    _Bool filteredLuxSet;
-};
-
-struct ColorType {
-    struct ColorEffects *cfx;
-    _Bool blueReductionEnabled;
-    float blueReductionFactor;
-    _Bool nightModeSupported;
-    _Bool fadeInProgress;
-    _Bool enforceSlowRamps;
-    _Bool whitePointEnabled;
-    double enablementTs;
-    _Bool forceSnapping;
-    _Bool harmonyHWSupported;
-    _Bool harmonyNativeSupported;
-    _Bool harmonySystemSupported;
-    _Bool harmonyEnabled;
-    _Bool harmonyActive;
-    _Bool harmonyAvailable;
-    float harmonyStrength;
-    float harmonyFixedStrength;
-    _Bool presetDisableHarmony;
-    unsigned long long moduleType;
+    unsigned int _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned short _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    int _field7;
+    float _field8;
+    float _field9;
+    float _field10[6];
+    float _field11;
+    short _field12[6];
+    float _field13;
+    unsigned int _field14;
+    int _field15;
+    unsigned short _field16;
+    _Bool _field17;
+    unsigned int _field18[6];
+    _Bool _field19;
+    float _field20[3];
+    float _field21[3];
+    float _field22;
+    _Bool _field23;
 };
 
 struct Curve {
@@ -453,141 +403,29 @@ struct CurvePrefs {
 };
 
 struct CustomCurve {
-    float _E[20];
-    float _L[20];
-    int size;
-};
-
-struct DSDevice {
-    unsigned int _field1;
-    unsigned long long _field2;
-    struct __CFString *_field3;
-    unsigned int _field4;
-    unsigned int _field5;
-    struct __CFDictionary *_field6;
-    int _field7;
-    _Bool _field8;
-    _Bool _field9;
-    float _field10;
-    void *_field11;
-    void *_field12;
-    double _field13;
-    id _field14;
-    CDUnknownBlockType _field15;
-    struct IONotificationPort *_field16;
-    unsigned int _field17;
-    id _field18;
-    id _field19;
-    _Bool _field20;
-};
-
-struct DisplayStruct {
-    CBDisplayModuleMacOS *displayModule;
-    float displayIncrement;
-    _Bool needsBrightnessSmoothing;
-    float minimumLinearBrightness;
-    float maximumLinearBrightness;
-    float currentFadeTarget;
-    NSObject *fadeTimer;
-    NSObject *alsIdleTimer;
-    NSObject *forceUpdateTimer;
-    float magsafeFactor;
-    struct MagSafeReduction magSafeReduction;
-    struct DynamicSlider dynamicSlider;
-    _Bool freezeBrightnessUpdates;
-    NSString *uniqueID;
-};
-
-struct DynamicSlider {
-    _Bool supported;
-    NSObject *fadeTimer;
-    CDStruct_08e969a3 range;
-    CDStruct_08e969a3 rangeBattery;
-    struct *currentRange;
-    float currentTargetFactor;
+    float _field1[20];
+    float _field2[20];
+    int _field3;
 };
 
 struct IOMFBShortTermBIM {
-    unsigned int version;
+    unsigned int _field1;
     union {
         struct {
-            unsigned int sbim[3];
-            unsigned long long duration_us;
-        } v1;
-    } ;
-};
-
-struct IONotificationPort;
-
-struct MagSafeReduction {
-    _Bool enabled;
-    float linearBrightnessLimit;
-    float luxThreshold;
-};
-
-struct MitigationState {
-    int stage;
-    _Bool violation;
-    unsigned int sbim_reset_frequency;
-    unsigned int sbim_timer_interval;
-    unsigned int mitigation_timer_interval;
-    unsigned int sbim_size;
-    float delta_factor;
-    float minutes_per_stop_mitigate;
-    float minutes_per_stop_recovery;
-    int sbim_above_max;
-    int sbim_sustain_max;
-    int sbim_above_num;
-    int sbim_sustain_num;
-    double lastStateUpdate_;
-    unsigned int sbim_read_stage;
-    struct IOMFBShortTermBIM lastSBIMBlock_;
-    float scalingFactor;
-};
-
-struct NMFactorState {
-    double rampStartTime;
-    float factor;
-    float target;
-    float start;
-    float rampLength;
+            unsigned int _field1[3];
+            unsigned long long _field2;
+        } _field1;
+    } _field2;
 };
 
 struct PILDefaults {
-    unsigned int minHWDutyCycle;
-    unsigned int maxHWDutyCycle;
-    unsigned int knownNits;
-    float knownDutyCycle;
-};
-
-struct PeakAPCE {
-    float current;
-    float cap;
-    float timeTaperConstant;
-    float windowSize;
-    float windowStart;
-    NSObject *recoveryTimer;
-    float recoveryMultiplier;
-    float recoveryWindowSize;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    float _field4;
 };
 
 struct PerceptualLuminanceThresholding;
-
-struct RTPLCCapApplied {
-    _Bool previous;
-    float count;
-    float triggerCount;
-};
-
-struct Ramp {
-    float start;
-    float target;
-    float current;
-    double startTime;
-    double duration;
-};
-
-struct SMCAccumPlatformInfo;
 
 struct UpdateCurveStrategy;
 
@@ -622,44 +460,23 @@ struct _SETTINGS {
 struct __CFDictionary;
 
 struct __DisplayFactorFade {
-    double period;
-    double startTime;
-    float Ftarget;
-    float Fcurrent;
-    float Fstart;
-    float coeff[3];
-    CDUnknownFunctionPointerType rampDoneCallback;
-    void *refcon;
+    double _field1;
+    double _field2;
+    float _field3;
+    float _field4;
+    float _field5;
+    float _field6[3];
+    CDUnknownFunctionPointerType _field7;
+    void *_field8;
 };
 
 struct __IOHIDServiceClient;
-
-struct array<CBSliderCommitInfo, 100UL> {
-    struct CBSliderCommitInfo __elems_[100];
-};
-
-struct array<float, 3UL> {
-    float __elems_[3];
-};
-
-struct mach_timebase_info {
-    unsigned int numer;
-    unsigned int denom;
-};
 
 struct mutex {
     struct _opaque_pthread_mutex_t {
         long long _field1;
         char _field2[56];
     } _field1;
-};
-
-struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
-    struct {
-        float *__cap_;
-    } ;
 };
 
 #pragma mark Typedef'd Structures
@@ -675,27 +492,21 @@ typedef struct {
 } CDStruct_62c54706;
 
 typedef struct {
-    unsigned char firstTimerFire;
-    NSObject *logTimer;
-    int periodS;
-} CDStruct_8268a0c4;
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned short _field3;
+    unsigned short _field4;
+    unsigned int _field5;
+} CDStruct_f11ef4ef;
 
 typedef struct {
-    unsigned char version;
-    unsigned char checksum;
-    unsigned short cilCalibration;
-    unsigned short milCalibration;
-    unsigned int reserved;
-} CDStruct_123c8ea9;
-
-typedef struct {
-    unsigned char version;
-    unsigned char checksum;
-    unsigned short cilCalibration;
-    unsigned short milCalibration;
-    unsigned long long reserved;
-    unsigned short reserved2;
-} CDStruct_9fb4ccff;
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned short _field3;
+    unsigned short _field4;
+    unsigned long long _field5;
+    unsigned short _field6;
+} CDStruct_41396c36;
 
 typedef struct {
     unsigned long long _field1;
@@ -731,15 +542,15 @@ typedef struct {
 } CDStruct_6198f0de;
 
 typedef struct {
-    double X;
-    double Y;
-    double Z;
-} CDStruct_6f955ef8;
+    double _field1;
+    double _field2;
+    double _field3;
+} CDStruct_39925896;
 
 typedef struct {
-    double x;
-    double y;
-} CDStruct_34734122;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
     float _field1;
@@ -752,76 +563,65 @@ typedef struct {
 } CDStruct_0d450d55;
 
 typedef struct {
-    float bl1;
-    float bl2;
-    float e1;
-    float e2;
-    float eThresh;
-} CDStruct_802965f5;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
+} CDStruct_0be28830;
 
 typedef struct {
-    float minCCT;
-    float maxCCT;
-    float midCCT;
-} CDStruct_6ede4ed5;
+    float _field1;
+    float _field2;
+    float _field3;
+} CDStruct_869f9c67;
 
 typedef struct {
-    int size;
-    float *table;
-} CDStruct_1339cbcf;
+    float x;
+    float y;
+} CDStruct_6e3f967a;
 
 typedef struct {
-    int hour;
-    int minute;
-} CDStruct_bdf7039f;
-
-typedef struct {
-    long long _field1;
-    void *_field2;
-    CDUnknownFunctionPointerType _field3;
-    CDUnknownFunctionPointerType _field4;
-    CDUnknownFunctionPointerType _field5;
-} CDStruct_e097db04;
+    int _field1;
+    int _field2;
+} CDStruct_1ef3fb1f;
 
 typedef struct {
     float _field1;
     float _field2[9];
     unsigned int _field3;
     float _field4;
-    struct {
-        float _field1;
-        float _field2;
-    } _field5;
+    CDStruct_6e3f967a _field5;
     int _field6;
     double _field7;
-} CDStruct_0384f68a;
+} CDStruct_c693ffc9;
 
 typedef struct {
-    CDStruct_46614362 minPoint;
-    CDStruct_46614362 maxPoint;
-    CDStruct_46614362 hysteresisPoint;
-} CDStruct_08e969a3;
+    CDStruct_6e3f967a _field1;
+    CDStruct_6e3f967a _field2;
+    CDStruct_6e3f967a _field3;
+} CDStruct_7739a7cd;
 
 typedef struct {
-    CDStruct_bdf7039f fromTime;
-    CDStruct_bdf7039f toTime;
-} CDStruct_6cee55f3;
+    CDStruct_1ef3fb1f _field1;
+    CDStruct_1ef3fb1f _field2;
+} CDStruct_19009447;
 
 typedef struct {
-    _Bool active;
-    _Bool enabled;
-    _Bool sunSchedulePermitted;
-    int mode;
-    CDStruct_6cee55f3 schedule;
-    unsigned long long disableFlags;
-    _Bool available;
-} CDStruct_fcaf372b;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    int _field4;
+    CDStruct_19009447 _field5;
+    unsigned long long _field6;
+    _Bool _field7;
+} CDStruct_a90444bf;
 
 typedef struct {
     _Bool _field1;
     _Bool _field2;
     union _restriction {
-        CDStruct_802965f5 _field1;
+        CDStruct_0be28830 _field1;
         struct {
             float _field1;
             float _field2;
@@ -833,50 +633,5 @@ typedef struct {
             } _field5[2];
         } _field2;
     } _field3;
-} CDStruct_271dbc8e;
-
-typedef struct {
-    unsigned int _field1;
-    struct {
-        int _field1;
-        int _field2;
-        union {
-            struct {
-                int _field1;
-                _Bool _field2;
-                unsigned short _field3;
-                unsigned char _field4;
-            } _field1;
-            char _field2[5];
-        } _field3;
-        unsigned int _field4;
-    } _field2;
-    CDUnion_18b537cf _field3;
-    CDUnion_18b537cf _field4;
-    CDUnion_18b537cf _field5;
-} CDStruct_2c9214e4;
-
-// Ambiguous groups
-typedef struct {
-    float _field1;
-    float _field2;
-} CDStruct_b2fbf00d;
-
-typedef struct {
-    float lux;
-    float factor;
-} CDStruct_46614362;
-
-typedef struct {
-    float x;
-    float y;
-} CDStruct_6e3f967a;
-
-#pragma mark Typedef'd Unions
-
-typedef union {
-    unsigned long long _field1;
-    long long _field2;
-    double _field3;
-} CDUnion_18b537cf;
+} CDStruct_b35585dd;
 

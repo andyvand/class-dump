@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void)encoded:%u /* Error: Ran out of types for this method. */;
 
 @end
 

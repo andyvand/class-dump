@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface AVMovableView
 {
     NSMutableArray *_autoresizingMaskLayoutConstraints;
-    unsigned long long _autoresizingMask;
-    struct CGRect _initialViewFrame;
-    struct CGRect _initialSuperviewBounds;
-    _Bool _movable;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)m:(struct CGRect)arg1:getTypeName() [DesiredTypeName = ValidateMaxTTPTGObjectShaderPass] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)ForDisplay;
+- (void)readyForDisplay;
 - (void);
 
 // Remaining properties

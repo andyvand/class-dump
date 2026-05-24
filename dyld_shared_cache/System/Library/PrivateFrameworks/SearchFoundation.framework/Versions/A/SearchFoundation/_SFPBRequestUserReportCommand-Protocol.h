@@ -7,9 +7,10 @@
 @class NSData, _SFPBUserReportRequest;
 
 @protocol _SFPBRequestUserReportCommand
+- (void);
+- (NSData *)placeholderForCreatedSmartAlbum;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBUserReportRequest *userReportRequest;
 @end
 

@@ -6,21 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWMediaPlayerRadioStationContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _radioStationSubtype;
-    struct {
-        unsigned int radioStationSubtype:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (int);
@@ -28,7 +23,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)nk liboah.dylib:(id)arg1 %s
+;
 - (id);
 - (void);
 - (unsigned long long);
@@ -41,11 +37,7 @@
 - (void)ãÒ$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasRadioStationSubtype;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int radioStationSubtype; // @synthesize radioStationSubtype=_radioStationSubtype;
 
 @end
 

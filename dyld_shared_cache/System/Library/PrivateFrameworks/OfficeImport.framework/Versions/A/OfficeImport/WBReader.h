@@ -6,34 +6,12 @@
 
 #import <OfficeImport/OCBReader.h>
 
-@class NSMutableArray, NSMutableDictionary, OITSUNoCopyDictionary, WBOfficeArtReaderState, WDDocument;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WBReader : OCBReader
 {
     void *mFootnoteTable;
-    void *mEndnoteTable;
-    void *mAnnotationTable;
-    void *mTableHeaders;
-    void *mBookmarkTable;
-    void *mAnnotationBookmarkTable;
-    struct WrdFieldPositionTable *mFieldPositionTables[8];
-    void *mStoryTable;
-    void *mHeaderStoryTable;
-    void *mFileShapeAddressTable;
-    void *mFileShapeAddressHeaderTable;
-    struct WrdEshObjectFactory *mEshObjectFactory;
-    void *mLastRowParagraphProperties;
-    NSMutableArray *mAnnotationOwners;
-    OITSUNoCopyDictionary *mIndexToStyles;
-    OITSUNoCopyDictionary *mIndexToFonts;
-    NSMutableDictionary *mPreviousFlowElement;
-    WBOfficeArtReaderState *mOfficeArtState;
-    void *mTextBoxes;
-    _Bool mReportProgress;
-    id mAnnotationRangeStart;
-    NSMutableDictionary *mBookmarkIndexToAnnotationRangeStartMap;
-    WDDocument *mTargetDocument;
 }
 
 - (void *);
@@ -45,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void *);
 - (void);
-- (void);
+- (void)nM9;
 - (void);
 - (void);
 - (void);
@@ -55,15 +33,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void *);
-- (id);
-- (void *);
+- (id);
+- (void *)hq;
 - (void *);
 - (void *);
 - (void *);
 - (void *);
 - (struct WrdEshObjectFactory *);
 - (void *);
-- (struct OCCEncryptionInfoReader *);
+- (struct OCCEncryptionInfoReader *)_	;
 - (id);
 - (void);
 - (void *);
@@ -84,7 +62,6 @@ __attribute__((visibility("hidden")))
 - (id)I;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *previousFlowElement; // @synthesize previousFlowElement=mPreviousFlowElement;
 @property(nonatomic) __weak WDDocument *targetDocument; // @synthesize targetDocument=mTargetDocument;
 
 @end

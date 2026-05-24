@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTCategory, MTChannel, MTPodcast, NSData, NSDate;
-
 @interface MTInterest
 {
 }
@@ -14,13 +12,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long adamID; // @dynamic adamID;
-@property(nonatomic, retain) MTCategory *category; // @dynamic category;
-@property(nonatomic, retain) MTChannel *channel; // @dynamic channel;
-@property(nonatomic) unsigned long long interestEntity; // @dynamic interestEntity;
-@property(nonatomic) double interestValue; // @dynamic interestValue;
-@property(nonatomic, copy) NSDate *lastUpdatedDate; // @dynamic lastUpdatedDate;
-@property(nonatomic, retain) MTPodcast *podcast; // @dynamic podcast;
-@property(nonatomic, copy) NSData *unknownSyncProperties; // @dynamic unknownSyncProperties;
 
 @end
 

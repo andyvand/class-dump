@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTouchBarScrubber, NSString, NSView;
-@protocol AccordionHostableExpansionRequestHandler, MediaPlaybackControlsHostViewControllerDelegate;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface MediaPlaybackControlsHostViewController
 {
     NSView *_collapsedPlaceholderView;
-    _Bool _expanded;
-    id <AccordionHostableExpansionRequestHandler> expansionRequestHandler;
-    AVTouchBarScrubber *_mediaPlaybackControlsView;
-    id <MediaPlaybackControlsHostViewControllerDelegate> _delegate;
 }
 
 - (_Bool);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -37,20 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MediaPlaybackControlsHostViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;
-@property(nonatomic) __weak id <AccordionHostableExpansionRequestHandler> expansionRequestHandler; // @synthesize expansionRequestHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<AccordionHostableExpansionRequestHandler>",?,W,N,VexpansionRequestHandler
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVTouchBarScrubber *mediaPlaybackControlsView; // @synthesize mediaPlaybackControlsView=_mediaPlaybackControlsView;
-@property(readonly) Class superclass;
 
 @end
 

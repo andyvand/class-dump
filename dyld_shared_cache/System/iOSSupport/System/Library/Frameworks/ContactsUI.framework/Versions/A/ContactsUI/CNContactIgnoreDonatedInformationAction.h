@@ -6,27 +6,25 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNDonationStore, CNUIExternalComponentsFactory;
+@class CNUIExternalComponentsFactory;
 
 __attribute__((visibility("hidden")))
 @interface CNContactIgnoreDonatedInformationAction : CNContactAction
 {
     CNUIExternalComponentsFactory *_componentsFactory;
-    CNDonationStore *_donationStore;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)controller:didChangeContentWithSnapshot: /* Error: Ran out of types for this method. */;
+- (id)bundleIdentifiersWithPendingRequests;
 - (id);
 - (void)dFullSizeImage;
 
 // Remaining properties
 @property(readonly, nonatomic) CNUIExternalComponentsFactory *componentsFactory; // @synthesize componentsFactory=_componentsFactory;
-@property(readonly, nonatomic) CNDonationStore *donationStore; // @synthesize donationStore=_donationStore;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BU_TNotificationCenterObserverGlue, BU_TRunAfterHelper, NSObject;
+@class BU_TNotificationCenterObserverGlue, NSObject;
 
 #pragma mark Named Structures
 
@@ -19,18 +19,18 @@ struct BUTimelinePrivate {
 struct CGImage;
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct IPrefsObserver {
@@ -43,7 +43,9 @@ struct OpaqueNodeRef;
 struct TBackupLayerList {
     id *_field1;
     id *_field2;
-    CDStruct_b6058e76 _field3;
+    struct {
+        id *_field1;
+    } _field3;
 };
 
 struct TDate {
@@ -55,7 +57,7 @@ struct TFENode {
 };
 
 struct TNSWeakPtr<BU_TRunAfterHelper> {
-    BU_TRunAfterHelper *fWeakObject;
+    id _field1;
 };
 
 struct TNotificationCenterObserver {
@@ -76,24 +78,6 @@ struct TRef<const __CFString *, TRetainReleasePolicy<CFStringRef>> {
 
 struct TString {
     struct TRef<const __CFString *, TRetainReleasePolicy<CFStringRef>> fString;
-};
-
-struct TTimeMachineTarget;
-
-struct TTimelineControl;
-
-struct __shared_weak_count;
-
-struct atomic_flag {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
-struct equal_to<NSObject *>;
-
-struct equal_to<NSObject *__unsafe_unretained> {
-    struct equal_to<NSObject *> fEqual;
 };
 
 struct function<NSNotificationCenter *()> {
@@ -124,58 +108,18 @@ struct function<void (NSAnimation *, float)> {
     } __f_;
 };
 
-struct function<void (NSDictionary<NSString *, NSObject *>*)> {
-    struct __value_func<void (NSDictionary<NSString *, NSObject *>*)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct function<void (NSNotification *)> {
-    struct __value_func<void (NSNotification *)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct hash<NSObject *>;
-
-struct hash<NSObject *__unsafe_unretained> {
-    struct hash<NSObject *> fHash;
-};
-
-struct map<TString, TNotificationCenterObserver, std::less<TString>, std::allocator<std::pair<const TString, TNotificationCenterObserver>>> {
-    struct __tree<std::__value_type<TString, TNotificationCenterObserver>, std::__map_value_compare<TString, std::pair<const TString, TNotificationCenterObserver>, std::less<TString>>, std::allocator<std::pair<const TString, TNotificationCenterObserver>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<UDefaults::RegistryID, TNotificationCenterObserver, std::less<UDefaults::RegistryID>, std::allocator<std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>>> {
-    struct __tree<std::__value_type<UDefaults::RegistryID, TNotificationCenterObserver>, std::__map_value_compare<UDefaults::RegistryID, std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>, std::less<UDefaults::RegistryID>>, std::allocator<std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct set<double, std::less<double>, std::allocator<double>> {
     struct __tree<double, std::less<double>, std::allocator<double>> {
         void *_field1;
-        CDStruct_09bd28e6 _field2;
-        CDStruct_a7186859 _field3;
+        struct {
+            struct __tree_end_node<std::__tree_node_base<void *>*> {
+                void *_field1;
+            } _field1;
+        } _field2;
+        struct {
+            unsigned long long _field1;
+        } _field3;
     } _field1;
-};
-
-struct shared_ptr<TTimeMachineTarget> {
-    struct TTimeMachineTarget *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<TTimelineControl> {
-    struct TTimelineControl *__ptr_;
-    struct __shared_weak_count *__cntrl_;
 };
 
 struct unique_function<void ()> {
@@ -186,34 +130,6 @@ struct unique_ptr<fstd::callable_details::callable_holder_base<void>, std::defau
     struct {
         void *__ptr_;
     } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_set<NSObject *__unsafe_unretained, std::hash<NSObject *__unsafe_unretained>, std::equal_to<NSObject *__unsafe_unretained>, std::allocator<NSObject *__unsafe_unretained>> {
-    struct __hash_table<NSObject *__unsafe_unretained, std::hash<NSObject *__unsafe_unretained>, std::equal_to<NSObject *__unsafe_unretained>, std::allocator<NSObject *__unsafe_unretained>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        struct {
-            unsigned long long __size_;
-            struct hash<NSObject *__unsafe_unretained> __hasher_;
-        } ;
-        struct {
-            float __max_load_factor_;
-            struct equal_to<NSObject *__unsafe_unretained> __key_eq_;
-        } ;
-    } __table_;
 };
 
 struct variant<fstd::unique_function<void ()>, std::function<void ()>> {
@@ -235,48 +151,12 @@ struct variant<fstd::unique_function<void ()>, std::function<void ()>> {
     } __impl_;
 };
 
-struct vector<CALayer *, std::allocator<CALayer *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<CGRect, std::allocator<CGRect>> {
-    struct CGRect *__begin_;
-    struct CGRect *__end_;
-    struct {
-        struct CGRect *__cap_;
-    } ;
-};
-
-struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> {
-    struct TNotificationCenterObserver *__begin_;
-    struct TNotificationCenterObserver *__end_;
-    struct {
-        struct TNotificationCenterObserver *__cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    id *__cap_;
-} CDStruct_b6058e76;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
 
 // Template types
 typedef struct TNSWeakPtr<BU_TRunAfterHelper> {
-    BU_TRunAfterHelper *fWeakObject;
-} TNSWeakPtr_b4375594;
+    id _field1;
+} TNSWeakPtr_c697ceb0;
 
 typedef struct function<void (BU_DPRemoteDesktopPicture *)> {
     struct __value_func<void (BU_DPRemoteDesktopPicture *)> {
@@ -295,10 +175,16 @@ typedef struct function<void (NSAnimation *, float)> {
 typedef struct set<double, std::less<double>, std::allocator<double>> {
     struct __tree<double, std::less<double>, std::allocator<double>> {
         void *_field1;
-        CDStruct_09bd28e6 _field2;
-        CDStruct_a7186859 _field3;
+        struct {
+            struct __tree_end_node<std::__tree_node_base<void *>*> {
+                void *_field1;
+            } _field1;
+        } _field2;
+        struct {
+            unsigned long long _field1;
+        } _field3;
     } _field1;
-} set_868545f3;
+} set_9b439bd3;
 
 #pragma mark Named Unions
 

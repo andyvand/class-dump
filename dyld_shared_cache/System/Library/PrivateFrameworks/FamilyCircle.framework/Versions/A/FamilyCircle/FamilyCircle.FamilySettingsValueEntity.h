@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface FamilyCircle.FamilySettingsValueEntity
 {
@@ -14,11 +14,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *altDSID; // @dynamic altDSID;
-@property(nonatomic, retain) NSNumber *boolValue; // @dynamic boolValue;
-@property(nonatomic, retain) NSNumber *doubleValue; // @dynamic doubleValue;
-@property(nonatomic, retain) NSNumber *intValue; // @dynamic intValue;
-@property(nonatomic, copy) NSString *key; // @dynamic key;
-@property(nonatomic, copy) NSDate *updatedAt; // @dynamic updatedAt;
 
 @end
 

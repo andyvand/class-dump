@@ -7,14 +7,6 @@
 @interface NewsUI2.FoodClusteringService
 {
     id personalizationService;
-    id feedRecipeClusteringService;
-    id subscriptionController;
-    id recipeAccessProvider;
-    id feedPersonalizer;
-    id headlineService;
-    id recipeService;
-    id recipeAutofavoritesProvider;
-    id recipeHistory;
 }
 
 @end

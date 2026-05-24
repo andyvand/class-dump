@@ -7,13 +7,10 @@
 @class NSData, NSDictionary, NSString;
 
 @protocol SFMapPlaceCardSection
+- (NSData *);
+- (NSDictionary *);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *detourInfoData;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *mapsData;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute;
 @property(copy, nonatomic) NSString *type;
 @end
 

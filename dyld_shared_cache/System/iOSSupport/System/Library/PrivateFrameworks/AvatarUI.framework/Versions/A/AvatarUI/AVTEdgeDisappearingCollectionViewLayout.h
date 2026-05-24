@@ -9,28 +9,24 @@
 @interface AVTEdgeDisappearingCollectionViewLayout
 {
     _Bool _enableEdgeDisappearing;
-    _Bool _pinHeaderToVisible;
-    UICollectionViewLayoutAttributes *_fixedHeaderLayoutAttributes;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)started:(struct CGRect)arg1 %{public}@ to:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)he mail server.;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool enableEdgeDisappearing; // @synthesize enableEdgeDisappearing=_enableEdgeDisappearing;
 @property(retain, nonatomic) UICollectionViewLayoutAttributes *fixedHeaderLayoutAttributes; // @synthesize fixedHeaderLayoutAttributes=_fixedHeaderLayoutAttributes;
-@property(nonatomic) _Bool pinHeaderToVisible; // @synthesize pinHeaderToVisible=_pinHeaderToVisible;
 
 @end
 

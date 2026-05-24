@@ -7,10 +7,6 @@
 @interface Vision.TextDetectorPerformingOperation
 {
     id options;
-    id vnOptions;
-    id requests;
-    id regionOfInterest;
-    id textRecognitionToFuthark;
 }
 
 @end

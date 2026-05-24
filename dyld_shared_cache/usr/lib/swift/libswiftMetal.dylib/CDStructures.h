@@ -4,10 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#pragma mark Named Structures
+
+struct MTLResourceID {
+    unsigned long long _field1;
+};
+
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    float _field1;
-    float _field2;
-} CDStruct_b2fbf00d;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
+
+typedef struct {
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
+
+typedef struct {
+    CDStruct_14f26992 _field1;
+    CDStruct_14f26992 _field2;
+} CDStruct_4c83c94d;
 

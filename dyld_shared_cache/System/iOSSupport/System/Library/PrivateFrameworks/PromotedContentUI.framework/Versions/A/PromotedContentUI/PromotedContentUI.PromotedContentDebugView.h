@@ -7,10 +7,6 @@
 @interface PromotedContentUI.PromotedContentDebugView
 {
     id _debugLabel;
-    id context;
-    id promotedContent;
-    id readiness;
-    id updateDelegate;
 }
 
 - (id);

@@ -9,6 +9,9 @@
 @protocol UINavigationControllerDelegate
 
 @optional
+- (unsigned long long)edWithYouFeed;
+- (long long)pple.news.historyFeed;
+- (void);
 - (id <UIViewControllerInteractiveTransitioning>)e=dd}28B44;
 @end
 

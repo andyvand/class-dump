@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKPaymentMerchantSession;
+@class NSString, PKPaymentMerchantSession;
 
 @interface PKPaymentMerchantData
 {
     PKPaymentMerchantSession *_merchantSession;
-    NSString *_merchantIdentifier;
-    NSData *_applicationData;
 }
 
 - (id);
@@ -18,10 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void)ansaction;
+- (void)PKPaymentTransaction;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *applicationData; // @synthesize applicationData=_applicationData;
 @property(readonly, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
 
 @end

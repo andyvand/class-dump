@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)DefaultServerScoreCoefficientFree;
 + (id);
 + (id);
 + (id);

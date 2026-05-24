@@ -6,25 +6,17 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class CAHostingToken, NSArray, NSString;
-
 @interface CALayerHost : CALayer
 {
     _Bool _tokenNeedsPort;
-    _Bool _rendersAsynchronously;
-    _Bool _asynchronousOpaque;
-    float _asynchronousRenderMaxAPL;
-    float _asynchronousRenderMaxAPLStrength;
-    NSArray *_asynchronousRenderTimes;
-    double _asynchronousRenderPeriod;
 }
 
 + (_Bool);
-+ (id);
++ (id)23TFontSubfamilyNameIndex;
 + (_Bool);
 + (id)program in %s cache after %d; ri %d; f 0x%x; cu %d; src %s; dst %s; dt %s; targ_hr %f; source_hr %f; cdr_strength:%f, edr_strength:%f, nn %s; tn %f; explicit_tm_method %d; explicit_tm_options %p /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (float);
+- (float);
 - (void);
 - (void *);
 - (_Bool);
@@ -32,28 +24,28 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)forceFetchChanges;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)_regionForOpaqueDescendants:(_Bool)arg1 forMove:forUnderTitlebar: /* Error: Ran out of types for this method. */;
+- (void)initWithEffectFromPreset:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void)context from fences (client=0x%x) [0x%x %s];
-- (_Bool)acyManufacturerID;
+- (_Bool)LegacyManufacturerID;
 - (void)ary/PrivateFrameworks/HDRProcessing.framework/HDRProcessing;
-- (float)ay;
+- (float)array;
 - (void)CFFilter %p>;
 - (void);
-- (id)asteringDisplayColorVolume;
-- (_Bool)eActions;
+- (id)masteringDisplayColorVolume;
+- (_Bool)disableActions;
 - (void)ÿÿ;
 - (id);
 - (void);
@@ -65,22 +57,7 @@
 - (_Bool);
 
 // Remaining properties
-@property _Bool asynchronousOpaque; // @synthesize asynchronousOpaque=_asynchronousOpaque;
-@property float asynchronousRenderMaxAPL; // @synthesize asynchronousRenderMaxAPL=_asynchronousRenderMaxAPL;
-@property float asynchronousRenderMaxAPLStrength; // @synthesize asynchronousRenderMaxAPLStrength=_asynchronousRenderMaxAPLStrength;
-@property double asynchronousRenderPeriod; // @synthesize asynchronousRenderPeriod=_asynchronousRenderPeriod;
-@property(copy) NSArray *asynchronousRenderTimes; // @synthesize asynchronousRenderTimes=_asynchronousRenderTimes;
 @property unsigned int contextId;
-@property(retain, nonatomic) CAHostingToken *hostingToken;
-@property _Bool inheritsSecurity;
-@property _Bool preservesFlip;
-@property _Bool rendersAsynchronously; // @synthesize rendersAsynchronously=_rendersAsynchronously;
-@property _Bool resizesHostedContext;
-@property _Bool sequestered;
-@property _Bool stopsHitTestTransformAccumulation;
-@property _Bool stopsSecureSuperlayersValidation;
-@property _Bool transformsToScreenSpace;
-@property(copy) NSString *zombificationMode;
 
 @end
 

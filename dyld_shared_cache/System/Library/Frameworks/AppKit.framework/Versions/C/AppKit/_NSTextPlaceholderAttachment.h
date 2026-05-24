@@ -9,17 +9,15 @@
 @interface _NSTextPlaceholderAttachment
 {
     NSDictionary *_typingAttributesBeforeInsertion;
-    struct _NSRange _attachmentRange;
 }
 
 - (void);
 - (void);
 - (struct _NSRange);
-- (id);
+- (id)point;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange attachmentRange; // @synthesize attachmentRange=_attachmentRange;
-@property(copy, nonatomic) NSDictionary *typingAttributesBeforeInsertion; // @synthesize typingAttributesBeforeInsertion=_typingAttributesBeforeInsertion;
 
 @end
 

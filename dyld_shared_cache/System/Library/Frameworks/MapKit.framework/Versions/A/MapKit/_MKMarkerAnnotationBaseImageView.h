@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _MKMarkerAnnotationBaseImageView : MKImageView
 {
     double _tailLength;
-    _MKMarkerAnnotationBaseImageContent *_baseImageContent;
 }
 
 + (struct CGPath *);
@@ -30,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (id)s ERR:(struct CGRect)arg1 Failed to get SpeakerRecognition assets with error %{public}@;
+- (void)setLineImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_baseImageContent, setter=_setBaseImageContent:) _MKMarkerAnnotationBaseImageContent *baseImageContent; // @synthesize baseImageContent=_baseImageContent;

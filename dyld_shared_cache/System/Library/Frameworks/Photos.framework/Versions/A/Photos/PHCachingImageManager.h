@@ -6,18 +6,11 @@
 
 #import <Photos/PHImageManager.h>
 
-@class NSMutableSet, NSObject, NSString, PHImageCache;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableSet;
 
 @interface PHCachingImageManager : PHImageManager
 {
     NSMutableSet *_cachingRequestIDs;
-    struct os_unfair_lock_s _cachingLock;
-    PHImageCache *_imageCache;
-    _Bool _imageCacheCommitScheduled;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_source> *_memoryEventSource;
-    _Bool _allowsCachingHighQualityImages;
 }
 
 + (id);
@@ -27,30 +20,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)gDelay:(id)arg1 encodingDrain:(id)arg2;
+- (void)lStringType=%{public}@ flavorString=%{public}@ urlString=%{public}@;
 - (void);
 - (_Bool);
-- (id);
+- (void);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void)ipDiskSpaceCheck"b1"deleteAfterImport"b1"metadataAddMode"b1"omitImportComplete"b1"allowUnsupported"b1"fileOperation"b3"importedBy"b8"moveToSharedLibrary"b1};
-- (void);
-- (void);
+- (void)cancelQueryWithQueryId: /* Error: Ran out of types for this method. */;
+- (void)imageFileLoader;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCachingHighQualityImages; // @synthesize allowsCachingHighQualityImages=_allowsCachingHighQualityImages;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

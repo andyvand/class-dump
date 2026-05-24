@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CalNSStringEmailAddressAdditions)
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);

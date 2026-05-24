@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)];
 - (void)String",R,C,N,V_recordType;
 
 // Remaining properties

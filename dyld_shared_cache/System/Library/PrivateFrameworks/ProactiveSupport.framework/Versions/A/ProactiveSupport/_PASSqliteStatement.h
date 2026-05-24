@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASSQLColumnMapping;
-
 @interface _PASSqliteStatement
 {
     struct sqlite3_stmt *_stmt;
-    _PASSQLColumnMapping *_columnMapping;
 }
 
 - (long long);
@@ -18,40 +15,41 @@
 - (void);
 - (int);
 - (int);
-- (id);
+- (id)predicateForUnacknowledgedEvents;
+- (int)CADSourceRemoveExchangeDelegateWithID:(int)arg1 reply:(id)arg2;
+- (long long)EKRecurrenceDayOfWeekModel;
 - (int);
-- (long long);
-- (int);
-- (int);
-- (int);
+- (int)%@.
+;
+- (int);
 - (id);
 - (id);
 - (void);
+- (int);
 - (int);
-- (int);
-- (int);
+- (int)tifier;
 - (id);
-- (int);
+- (int));
 - (int);
 - (id);
 - (double);
 - (id);
 - (id);
+- (int)__dlopen_cstrs;
 - (int);
+- (int)initWithData:(int)arg1 platform:(id)arg2 error:(const char *)arg3;
+- (int)stringByAppendingPathComponent:(const char *)arg1;
 - (int);
-- (int);
-- (int);
-- (int);
-- (int);
+- (int)T;
 - (id);
+- (id)awakeFromRemoteView;
+- (int)ROM CSStorageFileTable WHERE ft_rowid = %lld;
+- (double);
 - (id);
 - (int);
-- (double);
-- (id);
 - (int);
 - (int);
-- (int);
-- (id);
+- (id);
 - (id);
 - (int);
 - (_Bool);
@@ -59,32 +57,32 @@
 - (id);
 - (int);
 - (int);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (int);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (int);
 - (int);
 - (id);
+- (int);
+- (id)(;
 - (int);
-- (id);
 - (int);
-- (int);
-- (double);
+- (double)s DSID %@. and matches with %@;
 - (void);
-- (id);
+- (id)`;
 - (int);
-- (int);
-- (void);
+- (int)prepareQuery:(int)arg1;
+- (void)ResultValueItem, SPResultValueItem)>={__value_func<bool (SPResultValueItem, SPResultValueItem)>=(type=[24C])^v}}{vector<SPResultValueItem, std:(const char *)arg1:(const char *)arg2 allocator<SPResultValueItem>>=^{SPResultValueItem}^{SPResultValueItem}{?=^{SPResultValueItem}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std:(CDUnknownBlockType)arg3:allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}}8{SPResultValueItem=Tdif@fff@@}160 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (int);
@@ -92,11 +90,11 @@
 - (id);
 - (long long);
 - (int);
-- (int);
-- (id);
-- (id);
-- (long long);
-- (int);
+- (int)interfaceWithProtocol:(int)arg1;
+- (id)tion;
+- (id)N,V_appWentBackgroundOnly;
+- (long long)e non-flipped.;
+- (int)d1;
 - (long long);
 - (id);
 - (int);
@@ -108,10 +106,9 @@
 - (id);
 - (id);
 - (struct sqlite3_stmt *);
-- (void);
+- (void)16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _PASSQLColumnMapping *columnMapping; // @synthesize columnMapping=_columnMapping;
 @property(readonly, nonatomic) struct sqlite3_stmt *stmt; // @synthesize stmt=_stmt;
 
 @end

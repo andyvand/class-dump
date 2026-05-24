@@ -7,7 +7,6 @@
 @interface os.OSSignpostIntervalState
 {
     id signpostID;
-    id isOpen;
 }
 
 @end

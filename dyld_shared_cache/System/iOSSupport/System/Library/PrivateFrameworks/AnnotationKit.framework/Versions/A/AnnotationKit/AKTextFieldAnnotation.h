@@ -14,9 +14,9 @@
 }
 
 + (_Bool);
-- (id);
+- (id)e;
 - (void);
-- (void);
+- (void)WBUFormAutoFillFrameHandle;
 - (void);
 - (id)!´Cù1ê°1Â0@ù
 × ;

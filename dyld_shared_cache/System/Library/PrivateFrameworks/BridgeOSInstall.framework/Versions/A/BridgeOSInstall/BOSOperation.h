@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BOSRequest, BridgeOSSoftwareUpdateController, NSDate, NSError, NSString;
+@class BOSRequest, BridgeOSSoftwareUpdateController;
 
 @interface BOSOperation
 {
     BridgeOSSoftwareUpdateController *_controller;
-    BOSRequest *_request;
-    NSError *_error;
-    double _totalEstimatedTime;
-    NSDate *_startDate;
-    NSDate *_finishedDate;
 }
 
 - (id);
@@ -21,14 +16,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)NSArray",&,N,V_ipServices;
 - (double);
 - (id);
 - (id);
 - (void);
+- (void)M;
 - (void);
-- (void);
-- (void);
+- (void)calling process has a value for entitlement "%@" which is not array-valued.;
 - (id);
 - (_Bool);
 - (id);
@@ -37,21 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) BridgeOSSoftwareUpdateController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) double estimatedTimeRemaining;
-@property(retain) NSDate *finishedDate; // @synthesize finishedDate=_finishedDate;
-@property(readonly) unsigned long long hash;
 @property(retain) BOSRequest *request; // @synthesize request=_request;
-@property(readonly) _Bool shouldRun;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property double totalEstimatedTime; // @synthesize totalEstimatedTime=_totalEstimatedTime;
 
 @end
 

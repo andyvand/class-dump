@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)beginInitialSyncWithActivity:(struct CGRect)arg1;
 
 @end
 

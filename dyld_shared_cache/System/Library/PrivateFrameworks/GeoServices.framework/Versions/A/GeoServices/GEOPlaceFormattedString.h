@@ -4,45 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPlaceFormattedString
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_contactHome;
-    GEOFormattedString *_contactOther;
-    GEOFormattedString *_contactWork;
-    GEOFormattedString *_custom;
-    GEOFormattedString *_home;
-    GEOFormattedString *_pointOfInterest;
-    GEOFormattedString *_streetAddress;
-    GEOFormattedString *_unknown;
-    GEOFormattedString *_work;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_contactHome:1;
-        unsigned int read_contactOther:1;
-        unsigned int read_contactWork:1;
-        unsigned int read_custom:1;
-        unsigned int read_home:1;
-        unsigned int read_pointOfInterest:1;
-        unsigned int read_streetAddress:1;
-        unsigned int read_unknown:1;
-        unsigned int read_work:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ToCarplay:(id)arg1;
++ (_Bool)setIsConnectedToCarplay:(id)arg1;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)updatePersistentStoresForAccountsWithURLs:(id)arg1 cacheKey: /* Error: Ran out of types for this method. */;
+- (void)persistentStoreCoordinators;
+- (void)e the store is not a contacts store;
+- (void)ty descriptor of type %{public}@-%{public}@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -63,47 +37,29 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)logSecondPassResult:eventInfo:triggerAPWakeUp: /* Error: Ran out of types for this method. */;
+- (id)audioProviderSelector;
+- (void)%{public}@ event;
+- (id)";
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)_removeKVOForOverlayRenderer: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id)SURLSession"16@"NSURLSessionTask"24@"NSHTTPURLResponse"32;
-- (id)tes;
+- (id)_tileSizeBytes;
 - (id)LÈÀ;
 - (id)y:(id)arg1 7 in (5, 2);
-- (void)blisherSuggestionParameters;
+- (void)publisherSuggestionParameters;
 - (id)ä;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *contactHome;
-@property(retain, nonatomic) GEOFormattedString *contactOther;
-@property(retain, nonatomic) GEOFormattedString *contactWork;
-@property(retain, nonatomic) GEOFormattedString *custom;
-@property(readonly, nonatomic) _Bool hasContactHome;
-@property(readonly, nonatomic) _Bool hasContactOther;
-@property(readonly, nonatomic) _Bool hasContactWork;
-@property(readonly, nonatomic) _Bool hasCustom;
 @property(readonly, nonatomic) _Bool hasHome;
-@property(readonly, nonatomic) _Bool hasPointOfInterest;
-@property(readonly, nonatomic) _Bool hasStreetAddress;
-@property(readonly, nonatomic) _Bool hasUnknown;
-@property(readonly, nonatomic) _Bool hasWork;
-@property(retain, nonatomic) GEOFormattedString *home;
-@property(retain, nonatomic) GEOFormattedString *pointOfInterest;
-@property(retain, nonatomic) GEOFormattedString *streetAddress;
-@property(retain, nonatomic) GEOFormattedString *unknown;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOFormattedString *work;
 
 @end
 

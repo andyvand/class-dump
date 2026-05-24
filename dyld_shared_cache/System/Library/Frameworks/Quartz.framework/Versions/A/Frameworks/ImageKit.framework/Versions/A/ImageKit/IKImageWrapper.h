@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSBitmapImageRep, NSData, NSDictionary, NSImage, NSURL;
-@protocol IKImageProxy;
+@class NSURL;
 
 @interface IKImageWrapper
 {
     NSURL *_url;
-    NSData *_dataRepresentation;
-    NSBitmapImageRep *_bitmapRepresentation;
-    id <IKImageProxy> _imageProxy;
-    union {
-        struct CGImage *_cgImage;
-        CIImage *_ciImage;
-        struct CGImageSource *_cgImageSource;
-        NSImage *_nsImage;
-        struct OpaqueIconRef *_icon;
-    } _volatileRep;
-    unsigned int _volatileRepresentation:4;
-    unsigned int _generatedWithIconServices:1;
-    unsigned int _underlyingDataAreVolatile:1;
-    unsigned int _isReference:1;
-    unsigned int _bitmapLocked:1;
-    unsigned int _invalid:1;
-    unsigned int _quality:2;
-    unsigned int _hasAlpha:1;
-    unsigned int _hasAlphaValid:1;
-    unsigned int _baselineValid:1;
-    unsigned int _toplineValid:1;
-    struct CGSize _cachedSize;
-    unsigned int _baseline;
-    NSDictionary *_info;
 }
 
 + (id);
@@ -41,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -56,6 +31,7 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -66,12 +42,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (struct CGPoint);
 - (_Bool);
@@ -85,7 +60,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -121,7 +96,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)u8i;
 - (struct CGImage *);
 - (id);
 - (float);
@@ -144,32 +119,32 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)nSafetySendingRestricted;
 - (id);
 - (struct CGImage *);
 - (id);
 - (void);
-- (struct OpaqueIconRef *);
-- (id);
-- (id);
+- (struct OpaqueIconRef *)containingAppURL;
+- (id)_parseFirstIdentificationEntriesForSQL:(id)arg1 bindings:handler:error: /* Error: Ran out of types for this method. */;
+- (id)_nearbyMode;
 - (void);
 - (void);
-- (float);
-- (id);
+- (float)UID"16@?<v@?>24;
+- (id)o create project;
 - (id);
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)LabelRequired;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned short);
 - (void);
@@ -178,10 +153,10 @@
 - (id);
 - (struct CGContext *)
 × ;
-- (int)iled;
+- (int)thumbnailLoadingFailed;
 - (id)shouldUseXRayFolderForItemAtIndex: /* Error: Ran out of types for this method. */;
 - (id)free;
-- (void):(int)arg1;
+- (void)deviceItemForDevice:(int)arg1;
 - (struct CGSize)ßõÿyÁ¦;
 
 @end

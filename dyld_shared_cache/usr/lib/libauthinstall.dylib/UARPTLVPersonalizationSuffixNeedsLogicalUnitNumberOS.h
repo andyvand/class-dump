@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)stopShowingContentFromActiveSourcePlayerLayer;
 
 // Remaining properties
 @property(readonly) unsigned char suffixNeedsLogicalUnitNumber; // @synthesize suffixNeedsLogicalUnitNumber=_suffixNeedsLogicalUnitNumber;

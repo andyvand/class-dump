@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, NSArray, NSImageView, NSLayoutConstraint, NSOutlineView, NSScrollView, NSString, NSTextField, WBSFaviconRequestsController;
-@protocol WBSCloudTabDeviceProvider;
+@class NSLayoutConstraint, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface CloudTabsPopoverViewController
 {
     NSLayoutConstraint *_rootViewHeightConstraint;
-    NSArray *_cloudTabDevices;
-    _Bool _shouldReloadLegacyCloudTabDevicesAndTableWhenViewAppears;
-    WBSFaviconRequestsController *_requestsController;
-    id <WBSCloudTabDeviceProvider> _cloudTabStore;
-    NSString *_profileIdentifier;
-    BrowserWindowController *_controller;
-    NSTextField *_titleLabel;
-    NSImageView *_iCloudImageView;
-    NSTextField *_emptyTabsLabel;
-    NSScrollView *_scrollView;
-    NSOutlineView *_outlineView;
-    NSLayoutConstraint *_scrollViewHeightConstraint;
-    NSLayoutConstraint *_scrollViewMinimumHeightConstraint;
-    NSLayoutConstraint *_scrollViewBottomSpaceConstraint;
-    NSLayoutConstraint *_emptyTabLabelBottomSpaceConstraint;
 }
 
-+ (id);
++ (id)/;
 - (void);
 - (void);
 - (void);
@@ -54,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -82,22 +66,6 @@ __attribute__((visibility("hidden")))
 - (void)ÌK-;
 
 // Remaining properties
-@property(retain, nonatomic) BrowserWindowController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSLayoutConstraint *emptyTabLabelBottomSpaceConstraint; // @synthesize emptyTabLabelBottomSpaceConstraint=_emptyTabLabelBottomSpaceConstraint;
-@property __weak NSTextField *emptyTabsLabel; // @synthesize emptyTabsLabel=_emptyTabsLabel;
-@property(readonly) unsigned long long hash;
-@property __weak NSImageView *iCloudImageView; // @synthesize iCloudImageView=_iCloudImageView;
-@property __weak NSOutlineView *outlineView; // @synthesize outlineView=_outlineView;
-@property __weak NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) NSLayoutConstraint *scrollViewBottomSpaceConstraint; // @synthesize scrollViewBottomSpaceConstraint=_scrollViewBottomSpaceConstraint;
-@property __weak NSLayoutConstraint *scrollViewHeightConstraint; // @synthesize scrollViewHeightConstraint=_scrollViewHeightConstraint;
-@property __weak NSLayoutConstraint *scrollViewMinimumHeightConstraint; // @synthesize scrollViewMinimumHeightConstraint=_scrollViewMinimumHeightConstraint;
-@property(readonly) Class superclass;
 @property __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

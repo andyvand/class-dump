@@ -6,17 +6,14 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class UIMenuElement, _UIContextMenuCellContentView, _UIContextMenuPlatformMetrics;
-@protocol UIMenuLeaf;
+@class _UIContextMenuCellContentView;
 
 @interface _UIContextMenuPinnedFooterView : UICollectionViewCell
 {
     _UIContextMenuCellContentView *itemView;
-    struct UIEdgeInsets backgroundShapeInsets;
-    UIMenuElement<UIMenuLeaf> *menuElement;
 }
 
-- (void);
+- (void);
 - (id);
 - (struct UIEdgeInsets);
 - (void);
@@ -24,8 +21,8 @@
 - (void);
 - (id);
 - (id);
-- (id)olStatic;
-- (void)sBarStyleDarkContent;
+- (id)UITableViewCellEditControlStatic;
+- (void)UIStatusBarStyleDarkContent;
 - (void)CoordsX(void);
 - (struct NSDirectionalEdgeInsets)çÆp;
 - (void)XSl;
@@ -33,12 +30,7 @@
 - (_Bool)o;
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets backgroundShapeInsets; // @synthesize backgroundShapeInsets;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(nonatomic) _Bool highlighted;
 @property(nonatomic, readonly) _UIContextMenuCellContentView *itemView; // @synthesize itemView;
-@property(nonatomic, retain) UIMenuElement<UIMenuLeaf> *menuElement; // @synthesize menuElement;
-@property(nonatomic, readonly) _UIContextMenuPlatformMetrics *platformMetrics;
 
 @end
 

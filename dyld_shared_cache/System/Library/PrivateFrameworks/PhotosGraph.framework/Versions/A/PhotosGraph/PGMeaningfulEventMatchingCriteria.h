@@ -6,31 +6,28 @@
 
 #import <PhotosGraph/PGMeaningfulEventCriteria.h>
 
-@class PGGraphMomentNode, PGMeaningfulEventProcessorCache;
+@class PGMeaningfulEventProcessorCache;
 
 @interface PGMeaningfulEventMatchingCriteria : PGMeaningfulEventCriteria
 {
     PGMeaningfulEventProcessorCache *_cache;
-    _Bool _interestingForMeaningInference;
-    PGGraphMomentNode *_momentNode;
 }
 
 - (void);
-- (id);
-- (double);
-- (id);
-- (_Bool);
-- (id);
+- (id)32@0:8@"AXFApplicationManager"16@"NSArray"24 /* Error: Ran out of types for this method. */;
+- (double)showingCandidateWindow;
+- (id)showDialogWithCompletionBlock:(id)arg1;
+- (_Bool)isDock;
+- (id)_roleDescriptionToInclude;
 - (void);
 - (double);
 - (void);
 - (void);
-- (id)ies:context:graph:progressReporter:resultHandler: /* Error: Ran out of types for this method. */;
-- (void)e;
+- (id)requestMusicCurationForEnrichedMemories:context:graph:progressReporter:resultHandler: /* Error: Ran out of types for this method. */;
+- (void)payphone;
 
 // Remaining properties
 @property(nonatomic) _Bool interestingForMeaningInference; // @synthesize interestingForMeaningInference=_interestingForMeaningInference;
-@property(readonly, nonatomic) PGGraphMomentNode *momentNode; // @synthesize momentNode=_momentNode;
 
 @end
 

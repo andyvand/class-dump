@@ -5,5 +5,6 @@
 //
 
 @protocol IMKRemoteExtensionContextProtocol
+- (void);
 @end
 

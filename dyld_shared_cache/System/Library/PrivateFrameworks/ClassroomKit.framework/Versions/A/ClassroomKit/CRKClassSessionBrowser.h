@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATNetworkReachability, CRKClassSessionBeaconBrowser, NSMutableArray, NSMutableDictionary, NSSet, NSString;
-@protocol CRKClassSessionBrowserDelegate, CRKInvitationSessionBrowserDelegate;
+@class NSMutableDictionary;
+@protocol CRKClassSessionBrowserDelegate;
 
 @interface CRKClassSessionBrowser
 {
     NSMutableDictionary *mClassSessionsByIdentifier;
-    NSMutableArray *mInRangeClassSessions;
-    NSMutableDictionary *mInvitationSessionsByEndpoint;
-    CRKClassSessionBeaconBrowser *mBeaconBrowser;
-    CATNetworkReachability *mNetworkReachability;
-    NSMutableDictionary *mConnectWithoutBeaconAssertionCountBySessionIdentifier;
-    NSMutableDictionary *mConnectWithoutBeaconAssertionCountByInviteSessionEndpoint;
-    _Bool _allowInvitationSessions;
-    _Bool _allowUnenrolledSessions;
-    id <CRKClassSessionBrowserDelegate> _delegate;
-    id <CRKInvitationSessionBrowserDelegate> _invitationSessionDelegate;
-    NSSet *_organizationUUIDs;
-    NSSet *_enrolledControlGroupIdentifiers;
 }
 
 - (void);
@@ -59,7 +47,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -78,34 +66,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)PBXReadVerifyClosedBand(384) cannot add 1 element to context;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)f;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowInvitationSessions; // @synthesize allowInvitationSessions=_allowInvitationSessions;
-@property(nonatomic) _Bool allowUnenrolledSessions; // @synthesize allowUnenrolledSessions=_allowUnenrolledSessions;
-@property(readonly, nonatomic, getter=isBrowsing) _Bool browsing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CRKClassSessionBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSSet *enrolledControlGroupIdentifiers; // @synthesize enrolledControlGroupIdentifiers=_enrolledControlGroupIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSSet *inRangeClassSessionIdentifiers;
-@property(nonatomic) __weak id <CRKInvitationSessionBrowserDelegate> invitationSessionDelegate; // @synthesize invitationSessionDelegate=_invitationSessionDelegate;
-@property(copy, nonatomic) NSSet *organizationUUIDs; // @synthesize organizationUUIDs=_organizationUUIDs;
-@property(readonly) Class superclass;
 
 @end
 

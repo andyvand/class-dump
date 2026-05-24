@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, IKNImageView, IKNKnobsLayer, NSMutableArray;
+@class IKNImageView;
 
 @interface IKNImageViewHandler
 {
     IKNImageView *_imageView;
-    _Bool _autoResize;
-    _Bool _showAllSelectionsWithOrientation;
-    _Bool _autoResizeMax100;
-    _Bool _singleSelection;
-    _Bool _mouseDownInLayer;
-    _Bool _selectionsCanRotate;
-    _Bool _forceSelectionInsideView;
-    _Bool _selectionsAreHidden;
-    double _zoomFactor;
-    double _rotationAngle;
-    _Bool _delegateRespondsToSelectionChange;
-    _Bool _delegateRespondsToRotationAngleChange;
-    struct CGPoint _mouseDownLoc;
-    NSMutableArray *_selections;
-    NSMutableArray *_annotations;
-    NSMutableArray *_autoDetectedItems;
-    CAShapeLayer *_trackingLayer;
-    IKNKnobsLayer *_knobsLayer;
-    long long _mode;
-    long long _resolution;
-    struct CGRect *_templateRects;
-    long long _templateRectsCount;
 }
 
 - (void);
@@ -40,14 +18,14 @@
 - (void);
 - (void);
 - (void);
+- (void)t;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -57,15 +35,15 @@
 - (id);
 - (id);
 - (id);
+- (void)R!;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (struct CGPoint);
-- (id);
+- (id)т;
 - (id);
 - (void);
 - (id);
@@ -80,9 +58,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect)c;
 - (struct CGPoint);
 - (void);
 - (void);
@@ -96,7 +74,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (_Bool);
 - (void);
@@ -104,41 +82,25 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)NSDate"8@"NSDate"16;
 - (void);
 - (_Bool);
 - (long long);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)accentBrightnessValue;
 - (void);
+- (void)mergeWithDrawing:(id)arg1;
 - (void);
-- (void);
-- (void)mum;
+- (void)maximum;
 - (id)ackgroundThumbnailLayer;
-- (void)tedPhotoFrame;
+- (void)rotatedPhotoFrame;
 - (void)colors:(double)arg1 %@;
 - (double)Döÿ?u`;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *annotations; // @synthesize annotations=_annotations;
-@property(retain) NSMutableArray *autoDetectedItems; // @synthesize autoDetectedItems=_autoDetectedItems;
-@property _Bool autoResize; // @synthesize autoResize=_autoResize;
-@property _Bool autoResizeMax100; // @synthesize autoResizeMax100=_autoResizeMax100;
-@property _Bool forceSelectionInsideView; // @synthesize forceSelectionInsideView=_forceSelectionInsideView;
 @property IKNImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly) IKNKnobsLayer *knobsLayer; // @synthesize knobsLayer=_knobsLayer;
-@property struct CGPoint mouseDownLoc; // @synthesize mouseDownLoc=_mouseDownLoc;
-@property(nonatomic) long long resolution; // @synthesize resolution=_resolution;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(retain) NSMutableArray *selections; // @synthesize selections=_selections;
-@property _Bool selectionsAreHidden; // @synthesize selectionsAreHidden=_selectionsAreHidden;
-@property _Bool selectionsCanBeModified;
-@property _Bool selectionsCanRotate; // @synthesize selectionsCanRotate=_selectionsCanRotate;
-@property _Bool showAllSelectionsWithOrientation; // @synthesize showAllSelectionsWithOrientation=_showAllSelectionsWithOrientation;
-@property(nonatomic) _Bool singleSelection; // @synthesize singleSelection=_singleSelection;
-@property(nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
 
 @end
 

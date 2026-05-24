@@ -7,9 +7,6 @@
 @interface (extension in MediaPlaybackCore):__C.MPCCriticalSectionManager._Context__priv_D1952812ADC71DAE08E6CF49EC227596
 {
     id _assertions;
-    id continuations;
-    id mediaRemoteCriticalSection;
-    id inCriticalSection;
 }
 
 @end

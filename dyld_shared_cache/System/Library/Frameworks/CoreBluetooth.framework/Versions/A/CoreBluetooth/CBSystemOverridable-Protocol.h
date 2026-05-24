@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int systemOverrideFlags;
-@property(copy, nonatomic) CDUnknownBlockType systemOverrideHandler;
 @end
 

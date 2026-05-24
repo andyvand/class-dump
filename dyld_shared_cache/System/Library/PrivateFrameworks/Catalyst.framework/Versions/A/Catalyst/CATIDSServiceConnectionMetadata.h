@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface CATIDSServiceConnectionMetadata
 {
     NSUUID *_connectionIdentifier;
-    NSString *_destinationAppleID;
-    NSDictionary *_userInfo;
 }
 
+- (id);
+- (id);
+- (id)hasCountNgramPrefixMatchInAttachmentTypes;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)_simpleView;
 - (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(readonly, copy, nonatomic) NSString *destinationAppleID; // @synthesize destinationAppleID=_destinationAppleID;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

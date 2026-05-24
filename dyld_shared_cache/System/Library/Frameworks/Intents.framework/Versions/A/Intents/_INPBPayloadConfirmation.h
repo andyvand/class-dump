@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBSelectionItem;
-
 @interface _INPBPayloadConfirmation
 {
     struct {
@@ -14,14 +12,9 @@
         unsigned int reason:1;
         unsigned int addTasksIntentTargetTaskListConfirmationReason:1;
     } _has;
-    int _sendAnnouncementIntentAnnouncementConfirmationReason;
-    int _startCallIntentContactsConfirmationReason;
-    int _reason;
-    int _addTasksIntentTargetTaskListConfirmationReason;
-    _INPBSelectionItem *_confirmationItem;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (int);
 - (void);
@@ -45,38 +38,22 @@
 - (int);
 - (int);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)statuses;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
-- (void);
+- (void)@;
+- (void)RoutabilityFailFallback;
 - (id);
 - (id);
 - (void)J;
-- (void);
+- (void)Minute;
 - (id);
 
 // Remaining properties
-@property(nonatomic) int addTasksIntentTargetTaskListConfirmationReason; // @synthesize addTasksIntentTargetTaskListConfirmationReason=_addTasksIntentTargetTaskListConfirmationReason;
-@property(retain, nonatomic) _INPBSelectionItem *confirmationItem; // @synthesize confirmationItem=_confirmationItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAddTasksIntentTargetTaskListConfirmationReason;
-@property(readonly, nonatomic) _Bool hasConfirmationItem;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasSendAnnouncementIntentAnnouncementConfirmationReason;
-@property(nonatomic) _Bool hasStartCallIntentContactsConfirmationReason;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 @property(nonatomic) int sendAnnouncementIntentAnnouncementConfirmationReason; // @synthesize sendAnnouncementIntentAnnouncementConfirmationReason=_sendAnnouncementIntentAnnouncementConfirmationReason;
-@property(nonatomic) int startCallIntentContactsConfirmationReason; // @synthesize startCallIntentContactsConfirmationReason=_startCallIntentContactsConfirmationReason;
-@property(readonly) Class superclass;
 
 @end
 

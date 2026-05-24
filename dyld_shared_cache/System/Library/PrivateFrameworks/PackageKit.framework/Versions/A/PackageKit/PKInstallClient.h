@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTimer, PKInstallRequest;
+@class PKInstallRequest;
 
 @interface PKInstallClient
 {
     PKInstallRequest *_installRequest;
-    id _delegate;
-    _Bool _delegateWantsUpdates;
-    id _conn;
-    id _installToken;
-    NSTimer *_statusTimer;
-    double _lastProgress;
-    _Bool _isRegistering;
-    _Bool _isInitialized;
 }
 
 + (void);
@@ -52,7 +44,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *displayNames;
 @property(readonly) PKInstallRequest *request;
 
 @end

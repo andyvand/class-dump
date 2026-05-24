@@ -7,9 +7,11 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSecondaryHeaderEmphasizedCardSection
+- (void);
+- (_SFPBRFTextProperty *)ayList=}16q24^{CGContext=}32{CGRect={CGPoint=dd}{CGSize=dd}}40B72;
+- (NSData *)ibraryFetchFilterObjectID:,V_limitedLibraryFetchFilterObjectID /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
 @end
 

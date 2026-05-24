@@ -7,10 +7,11 @@
 @interface _AuthenticationServices_SwiftUI.WebAuthenticationOperation.PresentationContextProvider__priv_8E8F7254784E6C7F9718057E730AB2A6
 {
     id presentationAnchor;
+    id;
 }
 
 - (id);
-- (id);
+- (id)cachesSupportedTypes;
 - (void);
 
 @end

@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMiniCard, GEOPBTransitArtwork, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORouteAnnotation
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_artwork;
-    GEOMiniCard *_infoCard;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _deprecatedOffsetMeters;
-    float _offsetMeters;
-    struct {
-        unsigned int has_deprecatedOffsetMeters:1;
-        unsigned int has_offsetMeters:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_artwork:1;
-        unsigned int read_infoCard:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setMapFeatureSavedCollectionsCount:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (float);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)ate;
+- (_Bool)ystem photos into CoreData;
+- (_Bool)omeFAX>!$_;
+- (_Bool)real;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -45,32 +29,24 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_cancelTask:(id)arg1;
 - (id);
-- (void);
+- (void)_generateMyriadInfo:(id)arg1 hsStart:triggerEnd:writeFile:score:triggerSource:channel:audioProviderUUID:absoluteTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id)d_map_equal<_GEOTileKey, std:(struct _NSZone *)arg1:pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::equal_to<GEOTileKey>, std::hash<GEOTileKey>>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, GEOTileData *, geo::detail::_GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (id)ider:formatOptions: /* Error: Ran out of types for this method. */;
-- (id)MerchantLookupFeedback;
-- (id)UICK_LINK_UNAVAILABLE;
+- (id)formattedStringFor:localizationProvider:formatOptions: /* Error: Ran out of types for this method. */;
+- (id)GEORPMerchantLookupFeedback;
+- (id)PLACECARD_ENRICHMENT_SUPPRESSION_REASON_APP_QUICK_LINK_UNAVAILABLE;
 - (void)®ÒÝuhP@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(nonatomic) unsigned int deprecatedOffsetMeters;
-@property(readonly, nonatomic) _Bool hasArtwork;
 @property(nonatomic) _Bool hasDeprecatedOffsetMeters;
-@property(readonly, nonatomic) _Bool hasInfoCard;
-@property(nonatomic) _Bool hasOffsetMeters;
-@property(retain, nonatomic) GEOMiniCard *infoCard;
-@property(nonatomic) float offsetMeters;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

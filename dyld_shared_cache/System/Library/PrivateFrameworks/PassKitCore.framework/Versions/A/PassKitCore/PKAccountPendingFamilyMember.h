@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKAccountPendingFamilyMember
 {
     _Bool _displayedNotification;
-    NSString *_accountIdentifier;
-    NSString *_inviteEmail;
-    NSDate *_inviteDate;
-    NSString *_altDSID;
 }
 
 + (_Bool);
@@ -27,20 +23,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_tcpTxBytes;
 - (void);
 - (void);
 - (id);
-- (void)mberSuffix;
+- (void)primaryAccountNumberSuffix;
 - (void);
 - (id)ØßÖÿ2ti  ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) _Bool displayedNotification; // @synthesize displayedNotification=_displayedNotification;
-@property(copy, nonatomic) NSDate *inviteDate; // @synthesize inviteDate=_inviteDate;
-@property(copy, nonatomic) NSString *inviteEmail; // @synthesize inviteEmail=_inviteEmail;
 
 @end
 

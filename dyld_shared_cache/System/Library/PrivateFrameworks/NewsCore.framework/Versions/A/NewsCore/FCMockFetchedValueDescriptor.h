@@ -6,20 +6,9 @@
 
 #import <NewsCore/FCFetchedValueDescriptor.h>
 
-@class NSArray, NSError;
-@protocol NFCopying;
-
 @interface FCMockFetchedValueDescriptor : FCFetchedValueDescriptor
 {
     CDUnknownBlockType _willFetchBlock;
-    id <NFCopying> _fetchValue;
-    NSError *_fetchError;
-    id <NFCopying> _fastCachedValue;
-    CDUnknownBlockType _valueEqualityTest;
-    unsigned long long _willFetchCount;
-    long long _lastFetchQualityOfService;
-    unsigned long long _lastFetchCachePolicy;
-    NSArray *_myInputManagers;
 }
 
 - (unsigned long long);
@@ -46,18 +35,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)PersonalizationData;
+- (void)rapidUpdatePersonalizationData;
 
 // Remaining properties
-@property(copy, nonatomic) id <NFCopying> fastCachedValue; // @synthesize fastCachedValue=_fastCachedValue;
-@property(copy, nonatomic) NSError *fetchError; // @synthesize fetchError=_fetchError;
-@property(copy, nonatomic) id <NFCopying> fetchValue; // @synthesize fetchValue=_fetchValue;
-@property(nonatomic) unsigned long long lastFetchCachePolicy; // @synthesize lastFetchCachePolicy=_lastFetchCachePolicy;
 @property(nonatomic) long long lastFetchQualityOfService; // @synthesize lastFetchQualityOfService=_lastFetchQualityOfService;
-@property(readonly, copy, nonatomic) NSArray *myInputManagers; // @synthesize myInputManagers=_myInputManagers;
-@property(copy, nonatomic) CDUnknownBlockType valueEqualityTest; // @synthesize valueEqualityTest=_valueEqualityTest;
-@property(copy, nonatomic) CDUnknownBlockType willFetchBlock; // @synthesize willFetchBlock=_willFetchBlock;
-@property(nonatomic) unsigned long long willFetchCount; // @synthesize willFetchCount=_willFetchCount;
 
 @end
 

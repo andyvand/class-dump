@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface NEIPv6Route
 {
     NSString *_destinationAddress;
-    NSNumber *_destinationNetworkPrefixLength;
-    NSString *_gatewayAddress;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setPreferredDataPathType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Session pairingDeriveKeyForIdentifier:(id)arg1 keyLength:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -27,13 +25,11 @@
 - (_Bool);
 - (id);
 - (void)?16;
-- (_Bool)xyAgentUUID;
+- (_Bool)proxyAgentUUID;
 - (id)l certificate identity (connect);
 
 // Remaining properties
 @property(readonly) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(readonly) NSNumber *destinationNetworkPrefixLength; // @synthesize destinationNetworkPrefixLength=_destinationNetworkPrefixLength;
-@property(copy) NSString *gatewayAddress; // @synthesize gatewayAddress=_gatewayAddress;
 
 @end
 

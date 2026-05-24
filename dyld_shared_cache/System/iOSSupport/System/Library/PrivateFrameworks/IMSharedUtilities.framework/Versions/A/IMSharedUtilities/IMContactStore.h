@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, IMAcceptedContactsChangeNotifier, IMStateCaptureAssistant, NSArray, NSData, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface IMContactStore
 {
     _Bool _hasOutOfProcessContactsEntitlement;
-    _Bool _batchFetchingForLaunchCompleted;
-    _Bool _shouldSkipMeContactLookup;
-    NSData *_currentHistoryToken;
-    NSDictionary *_handleIDToCNIDMap;
-    NSMutableDictionary *_CNIDToHandleIDsMap;
-    NSMutableDictionary *_IDToCNContactMap;
-    CNContactStore *_contactStore;
-    CNContactStore *_acceptedContactStore;
-    IMAcceptedContactsChangeNotifier *_acceptedContactsChangeNotifier;
-    CNContact *_meContact;
-    NSObject<OS_dispatch_queue> *_changeHistoryFetchQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    IMStateCaptureAssistant *_stateCaptureAssistant;
-    NSArray *_CNIDsForBatchFetch;
 }
 
 + (id);
@@ -40,7 +23,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)#;
 + (void);
 + (void);
 + (id);
@@ -65,21 +48,21 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id));
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)i;
 + (id);
 + (id);
 + (_Bool);
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id)+(`;
 + (id);
 + (Class);
 + (Class);
@@ -95,17 +78,17 @@
 + (id)meout(s);
 - (_Bool);
 - (void);
+- (void);
+- (void)];
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)64;
 - (void);
 - (void);
 - (void);
@@ -162,40 +145,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@ `;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)nd:(id)arg1 resultHandler: /* Error: Ran out of types for this method. */;
+- (id)defuseTranscriptBackgroundCommand:(id)arg1 resultHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)MMessagePartHistoricalContent %p> {date:%@ guid:%@} /* Error: Ran out of types for this method. */;
-- (void)Submitter;
-- (id)equest;
+- (void)LegacyMediaDeliveredUnifiedMetricSubmitter;
+- (id)MarkMessageReadRequest;
 
 // Remaining properties
-@property(retain, nonatomic, getter=getCNIDToHandleIDsMap) NSMutableDictionary *CNIDToHandleIDsMap; // @synthesize CNIDToHandleIDsMap=_CNIDToHandleIDsMap;
-@property(retain, nonatomic) NSArray *CNIDsForBatchFetch; // @synthesize CNIDsForBatchFetch=_CNIDsForBatchFetch;
-@property(retain, nonatomic, getter=getIDToCNContactMap) NSMutableDictionary *IDToCNContactMap; // @synthesize IDToCNContactMap=_IDToCNContactMap;
-@property(retain, nonatomic) CNContactStore *acceptedContactStore; // @synthesize acceptedContactStore=_acceptedContactStore;
-@property(retain, nonatomic) IMAcceptedContactsChangeNotifier *acceptedContactsChangeNotifier; // @synthesize acceptedContactsChangeNotifier=_acceptedContactsChangeNotifier;
-@property _Bool batchFetchingForLaunchCompleted; // @synthesize batchFetchingForLaunchCompleted=_batchFetchingForLaunchCompleted;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *changeHistoryFetchQueue; // @synthesize changeHistoryFetchQueue=_changeHistoryFetchQueue;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic, getter=getHandleIDToCNIDMap) NSDictionary *handleIDToCNIDMap; // @synthesize handleIDToCNIDMap=_handleIDToCNIDMap;
 @property(readonly, nonatomic) _Bool hasOutOfProcessContactsEntitlement; // @synthesize hasOutOfProcessContactsEntitlement=_hasOutOfProcessContactsEntitlement;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property _Bool shouldSkipMeContactLookup; // @synthesize shouldSkipMeContactLookup=_shouldSkipMeContactLookup;
-@property(retain, nonatomic) IMStateCaptureAssistant *stateCaptureAssistant; // @synthesize stateCaptureAssistant=_stateCaptureAssistant;
-@property(readonly) Class superclass;
 
 @end
 

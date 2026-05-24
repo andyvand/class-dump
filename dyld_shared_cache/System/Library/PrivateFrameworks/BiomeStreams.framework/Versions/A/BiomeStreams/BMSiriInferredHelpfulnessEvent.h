@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMSiriInferredHelpfulnessEvent
 {
     double _absoluteTimestamp;
-    double _inferredHelpfulnessScore;
-    double _restatementScore;
-    NSString *_turnID;
-    NSString *_modelID;
 }
 
 + (id);
@@ -23,7 +17,7 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (id);
@@ -31,30 +25,18 @@
 - (_Bool);
 - (id);
 - (double);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)dictionaryWithContentsOfFile:(id)arg1;
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)size;
+- (id)pg_query__create_table_space_stmt__get_packed_size;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double inferredHelpfulnessScore; // @synthesize inferredHelpfulnessScore=_inferredHelpfulnessScore;
-@property(readonly, copy, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;
-@property(readonly, nonatomic) double restatementScore; // @synthesize restatementScore=_restatementScore;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *turnID; // @synthesize turnID=_turnID;
 
 @end
 

@@ -7,29 +7,6 @@
 @interface AWDWiFiMetricsManagerRCU1CoexModeChange
 {
     unsigned long long _denyDuration;
-    unsigned long long _disableDuration;
-    unsigned long long _powerOnDuration;
-    unsigned long long _tddDuration;
-    unsigned long long _timestamp;
-    unsigned int _channelNum;
-    unsigned int _fwDenyCount;
-    unsigned int _offWifiMode;
-    unsigned int _onWifiMode;
-    _Bool _offAirplayMode;
-    _Bool _onAirplayMode;
-    struct {
-        unsigned int denyDuration:1;
-        unsigned int disableDuration:1;
-        unsigned int powerOnDuration:1;
-        unsigned int tddDuration:1;
-        unsigned int timestamp:1;
-        unsigned int channelNum:1;
-        unsigned int fwDenyCount:1;
-        unsigned int offWifiMode:1;
-        unsigned int onWifiMode:1;
-        unsigned int offAirplayMode:1;
-        unsigned int onAirplayMode:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -37,6 +14,9 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,10 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
@@ -56,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R	j!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,45 +47,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)y;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int channelNum; // @synthesize channelNum=_channelNum;
-@property(nonatomic) unsigned long long denyDuration; // @synthesize denyDuration=_denyDuration;
-@property(nonatomic) unsigned long long disableDuration; // @synthesize disableDuration=_disableDuration;
-@property(nonatomic) unsigned int fwDenyCount; // @synthesize fwDenyCount=_fwDenyCount;
-@property(nonatomic) _Bool hasChannelNum;
-@property(nonatomic) _Bool hasDenyDuration;
-@property(nonatomic) _Bool hasDisableDuration;
-@property(nonatomic) _Bool hasFwDenyCount;
-@property(nonatomic) _Bool hasOffAirplayMode;
-@property(nonatomic) _Bool hasOffWifiMode;
-@property(nonatomic) _Bool hasOnAirplayMode;
-@property(nonatomic) _Bool hasOnWifiMode;
-@property(nonatomic) _Bool hasPowerOnDuration;
-@property(nonatomic) _Bool hasTddDuration;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool offAirplayMode; // @synthesize offAirplayMode=_offAirplayMode;
-@property(nonatomic) unsigned int offWifiMode; // @synthesize offWifiMode=_offWifiMode;
-@property(nonatomic) _Bool onAirplayMode; // @synthesize onAirplayMode=_onAirplayMode;
-@property(nonatomic) unsigned int onWifiMode; // @synthesize onWifiMode=_onWifiMode;
-@property(nonatomic) unsigned long long powerOnDuration; // @synthesize powerOnDuration=_powerOnDuration;
-@property(nonatomic) unsigned long long tddDuration; // @synthesize tddDuration=_tddDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

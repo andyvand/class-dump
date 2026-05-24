@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)sportsLogoImage;
+- (id)setThumbnailMetadata:(struct CGRect)arg1;
 - (void);
 
 @end

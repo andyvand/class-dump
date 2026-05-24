@@ -14,7 +14,7 @@
 + (id);
 + (void);
 - (void);
-- (long long);
+- (long long)!;
 - (id);
 
 @end

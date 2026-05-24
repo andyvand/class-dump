@@ -7,7 +7,6 @@
 @interface REMReminderFetchOptions
 {
     _Bool _includeConcealed;
-    _Bool _includeDueDateDeltaAlerts;
 }
 
 + (id);
@@ -23,14 +22,13 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)}F;
 - (_Bool);
-- (void);
+- (void)$;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool includeConcealed; // @synthesize includeConcealed=_includeConcealed;
-@property(nonatomic) _Bool includeDueDateDeltaAlerts; // @synthesize includeDueDateDeltaAlerts=_includeDueDateDeltaAlerts;
 
 @end
 

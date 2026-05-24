@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.HomeEnergyAlarmManager
 {
     id alarmStreams;
+    id;
 }
 
 @end

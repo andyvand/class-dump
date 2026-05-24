@@ -4,42 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFormat, BWFormatRequirements, BWNode, BWNodeConnection, BWNodeInputMediaConfiguration, BWNodeInputMediaProperties, BWVideoFormat, NSArray, NSMutableDictionary, NSString;
+@class BWFormatRequirements, NSString;
 
 @interface BWNodeInput
 {
     NSString *_name;
-    _Bool _mediaTypeIsVideo;
-    _Bool _mediaTypeIsPointCloud;
-    long long _requestedConfigurationID;
-    unsigned int _mediaType;
-    unsigned long long _index;
-    _Bool _enabled;
-    _Bool _discardsSampleDataTaggedToBeDropped;
-    BWNode *_node;
-    BWNodeConnection *_connection;
-    long long _liveConfigurationID;
-    unsigned int _numberOfBuffersReceived;
-    unsigned int _numberOfBuffersDropped;
-    unsigned int _numberOfConfigurationDidBecomeLiveMessagesReceived;
-    unsigned int _numberOfConfigurationEndOfDataMessagesReceived;
-    unsigned int _numberOfEndOfDataMessagesReceived;
-    unsigned int _numberOfDataDroppedMessagesReceived;
-    BWNodeInputMediaConfiguration *_primaryMediaConfiguration;
-    BWNodeInputMediaConfiguration *_unspecifiedAttachedMediaConfiguration;
-    NSMutableDictionary *_attachedMediaConfigurations;
-    BWNodeInputMediaProperties *_primaryMediaProperties;
-    NSMutableDictionary *_attachedMediaProperties;
 }
 
 + (struct opaqueCMSampleBuffer *);
 + (void)ion( currSampleBuffer, kBWFileWriterAction_Start );
-- (void);
+- (void)isWidowControlOverridden;
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
@@ -57,19 +36,19 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)x;
 - (void);
-- (int);
-- (id);
+- (int)centerFilled;
+- (id)nputKeyboardActionButtonConfiguration",&,N,V_keyboardActionButtonConfiguration;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)!ð!L@ùq$Ð1Â0@ù
 × ;
 - (unsigned int)={CGPoint=dd}{CGSize=dd}}16;
-- (void)s;
+- (void)_numberOfFramesEvaluatedForAggressiveStatus;
 - (id)ry",R,N,V_tofAFEstimatorResultsStreamingTimeByPortType;
 - (unsigned long long)bLÿhMÿoNÿuOÿ{PÿRÿSÿTÿUÿWÿ£XÿªYÿ±Zÿ¸\ÿ¿]ÿÇ ^ÿÏ _ÿÖ aÿÝ¡bÿå¡dÿ9¡Hÿ:¡Hÿ;¡Hÿ=¡Iÿ@¡IÿC¡IÿG¡IÿK¡JÿO¡JÿU¡KÿZ¡Kÿ_¡Lÿe¢Mÿj¢Nÿq¢Oÿw¢Pÿ}£Rÿ£Sÿ£Tÿ¤Uÿ¤Wÿ¥Xÿ¤¥Yÿ¬¦Zÿ²¦[ÿ¹§]ÿÀ§^ÿÈ¨_ÿÏ¨`ÿÖ¨bÿÝ©cÿå©dÿ=©Iÿ>©Iÿ?©IÿA©JÿD©JÿG©JÿJ©JÿN©KÿR©KÿX©Lÿ]©LÿbªMÿgªNÿmªOÿsªPÿy«Qÿ«Sÿ«Tÿ¬Uÿ¬Vÿ¬Xÿ­Yÿ¥­Zÿ­®[ÿ´®]ÿ»¯^ÿÁ¯_ÿÉ°`ÿÐ°aÿ×°cÿÞ±dÿæ±eÿA±JÿB±JÿD±JÿE±KÿH±KÿK±KÿN±KÿR±LÿV±Lÿ[²Mÿ`²Nÿe²Nÿj²Oÿo²Pÿv²Qÿ{³Sÿ³Tÿ³Uÿ´Vÿ´Xÿ´Yÿ¡µZÿ§µ[ÿ®¶]ÿµ¶^ÿ¼·_ÿÂ·`ÿÊ·aÿÑ¸cÿØ¸dÿß¹eÿç¹fÿFºKÿGºKÿHºLÿJºLÿLºLÿOºLÿRºMÿV»MÿY»Nÿ^»Nÿc»Oÿh»Pÿm»Qÿr»Rÿx¼Sÿ~¼Tÿ¼Uÿ¼Vÿ½Xÿ½Yÿ½Zÿ¢¾[ÿ©¾]ÿ°¿^ÿ·¿_ÿ½À`ÿÄÀaÿËÀcÿÒÁdÿÙÁeÿàÁfÿèÂgÿKÂLÿLÂMÿMÂMÿNÂMÿPÂMÿSÃMÿVÃNÿYÃNÿ]ÃOÿbÃOÿfÃPÿkÃQÿpÃRÿuÄSÿ{ÄTÿÄUÿÄVÿÅWÿÅYÿÅZÿÅ[ÿ¤Æ\ÿ«Æ^ÿ²Ç_ÿ¸Ç`ÿ¿ÇaÿÅÈbÿÍÈdÿÓÉeÿÚÉfÿáÉgÿéÊhÿOËNÿPËNÿQËNÿRËNÿTËNÿWËOÿZËOÿ]ËOÿ`ËPÿeËQÿiËQÿnËRÿsÌSÿxÌTÿ}ÌUÿÌVÿÌWÿÍXÿÍZÿÍ[ÿ Î\ÿ¦Î]ÿ¬Î_ÿ³Ï`ÿºÏaÿÀÏbÿÇÐdÿÎÐeÿÕÐfÿÛÑgÿâÑhÿêÑiÿTÓOÿTÓOÿUÓOÿWÓOÿXÓOÿ[ÓPÿ^ÓPÿaÓQÿdÓQÿhÓRÿlÓRÿqÓSÿvÔTÿzÔUÿÔVÿÔWÿÔXÿÕYÿÕ[ÿÕ\ÿ¢Ö]ÿ¨Ö^ÿ®Ö`ÿµ×aÿ»×bÿÂ×cÿÈØeÿÏØfÿÖØgÿÜÙhÿãÙiÿëÙjÿYÜPÿYÜPÿZÜPÿ\ÜQÿ]ÜQÿ`ÜQÿbÜRÿeÜRÿhÜSÿlÜSÿpÜTÿtÝUÿyÝUÿ~ÝVÿÝWÿÝXÿÞYÿÞ[ÿÞ\ÿÞ]ÿ¥ß^ÿ«ß`ÿ±ßaÿ·ßbÿ½àcÿÄàeÿÊàfÿÑágÿ×áhÿÞáiÿäâjÿìâkÿ]äQÿ^äRÿ_äRÿ`äRÿaäRÿdäRÿfäSÿiäSÿläTÿpäTÿtåUÿxåVÿ|åWÿåWÿåYÿåZÿæ[ÿæ\ÿæ]ÿ¡æ^ÿ§æ_ÿ­çaÿ³çbÿ¹çcÿ¿èdÿÅèfÿËègÿÒèhÿÙéiÿßéjÿåékÿìêlÿbìSÿbìSÿcìSÿdìSÿfìSÿhìTÿjìTÿmìUÿpìUÿtìVÿwìVÿ{íWÿíXÿíYÿíZÿí[ÿî\ÿî]ÿî^ÿ¤î_ÿ©î`ÿ¯ïbÿµïcÿ»ïdÿÁïeÿÇðgÿÍðhÿÔðiÿÚðjÿàñkÿçñlÿíñmÿfôTÿgôTÿhôTÿiôUÿjôUÿlôUÿnôUÿqôVÿtôVÿwôWÿ{ôXÿõXÿõYÿõZÿõ[ÿõ\ÿõ]ÿö^ÿ¡ö_ÿ¦ö`ÿ¬öaÿ±öcÿ·÷dÿ½÷eÿÃ÷fÿÉ÷gÿÏøhÿÖøjÿÜøkÿâølÿèùmÿíùmÿkýVÿlýVÿmýVÿnýVÿoýVÿqýWÿsýWÿuýWÿxýXÿ{ýXÿýYÿýZÿþZÿþ[ÿþ\ÿþ]ÿþ^ÿþ_ÿ¤ÿ`ÿ©ÿaÿ®ÿbÿ´ÿdÿ¹ÿeÿ¿ÿfÿÅÿgÿËÿhÿÑÿiÿ×ÿjÿÝÿkÿãÿlÿêÿmÿíÿnÿ /* Error: Ran out of types for this method. */;
 - (_Bool)çCÿ;
@@ -83,9 +62,9 @@
 - (unsigned int)MetadataTimeMachine waitUntilCapacity:timeout:] /* Error: Ran out of types for this method. */;
 - (_Bool)least 1 input;
 - (id)ple.coremedia.camera.SphereResonanceCalibration;
-- (void)egradedAutoFocusStatusWide;
-- (void)leDataStorageAfterWritingMovie;
-- (id)insBlindSpot;
+- (void)degradedAutoFocusStatusWide;
+- (void)percentageOfAvailableDataStorageAfterWritingMovie;
+- (id)tofAFContainsBlindSpot;
 - (int)nCorrectionEnabledPortTypes:distortionCompensationEnabledPortTypes:minDistanceForBravoParallaxShift:videoGreenGhostOfflineMetadataEnabled:videoGreenGhostOfflineLightSourceMaskEnabled:lightSourceMaskAndKeypointDescriptorDataEnabled:attachStabilizedOutputCameraTrajectory:systemIsUnderCriticalThermalPressure:faceAwareVideoStabilizationEnabled:] /* Error: Ran out of types for this method. */;
 - (id)h cancelDeferredNodePrepare];
 - (id)í;
@@ -93,40 +72,7 @@
 - (void)&;
 
 // Remaining properties
-@property(nonatomic) BWNodeConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) _Bool conversionToPassthroughModeNeverAllowed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int delayedBufferCount;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool discardsSampleDataTaggedToBeDropped; // @synthesize discardsSampleDataTaggedToBeDropped=_discardsSampleDataTaggedToBeDropped;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) BWFormat *format;
 @property(retain, nonatomic) BWFormatRequirements *formatRequirements;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int indefinitelyHeldBufferCount;
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) long long liveConfigurationID; // @synthesize liveConfigurationID=_liveConfigurationID;
-@property(readonly, nonatomic) BWFormat *liveFormat;
-@property(readonly, nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) _Bool mediaTypeIsPointCloud; // @synthesize mediaTypeIsPointCloud=_mediaTypeIsPointCloud;
-@property(readonly, nonatomic) _Bool mediaTypeIsVideo; // @synthesize mediaTypeIsVideo=_mediaTypeIsVideo;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) BWNode *node; // @synthesize node=_node;
-@property(readonly, nonatomic) unsigned int numberOfBuffersDropped; // @synthesize numberOfBuffersDropped=_numberOfBuffersDropped;
-@property(readonly, nonatomic) unsigned int numberOfBuffersReceived; // @synthesize numberOfBuffersReceived=_numberOfBuffersReceived;
-@property(nonatomic) int passthroughMode;
-@property(readonly, nonatomic) BWNodeInputMediaConfiguration *primaryMediaConfiguration; // @synthesize primaryMediaConfiguration=_primaryMediaConfiguration;
-@property(readonly, nonatomic) BWNodeInputMediaProperties *primaryMediaProperties; // @synthesize primaryMediaProperties=_primaryMediaProperties;
-@property(nonatomic) long long requestedConfigurationID; // @synthesize requestedConfigurationID=_requestedConfigurationID;
-@property(readonly, nonatomic) NSArray *resolvedAttachedMediaKeys;
-@property(nonatomic) int retainedBufferCount;
-@property(readonly, nonatomic) NSArray *specifiedAttachedMediaKeys;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) BWNodeInputMediaConfiguration *unspecifiedAttachedMediaConfiguration; // @synthesize unspecifiedAttachedMediaConfiguration=_unspecifiedAttachedMediaConfiguration;
-@property(readonly, nonatomic) BWVideoFormat *videoFormat;
 
 @end
 

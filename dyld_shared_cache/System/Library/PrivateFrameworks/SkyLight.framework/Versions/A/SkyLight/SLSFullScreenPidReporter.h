@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (void)e;
+- (void)ht expression must evaluate to an instance of NSConstantValueExpressionType.;
+- (void)nstance of NSPredicate.;
+- (unsigned long long)d NSFetchIndexDescription;
+- (void)alid collation type (rtree indexes can only be created for floats or integers < 32 bit).;
+- (_Bool)odel (sql model generation failed %@);
 - (id);
 
 @end

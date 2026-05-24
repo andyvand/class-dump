@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIPhysicalKeyTranslationMap
 {
     unsigned int _keyCode;
-    unsigned int _keyAction;
-    NSMapTable *_translationMap;
-    long long _originalModifiers;
 }
 
 + (void);
@@ -23,21 +20,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (unsigned int);
-- (id);
-- (_Bool);
-- (id);
+- (id)@32@40@48@56B64;
+- (_Bool)dispatcher:(long long)arg1 didReceiveDismissalReflectionForNoticeGUIDs:(long long)arg2;
+- (id)nd message was force failed so that user can pick correct subscription to send with %@;
 - (id);
 - (unsigned int);
 - (id)0@ù
 × ;
-- (void)d:(id)arg1;
+- (void)setPulsingAnimationEnabled:(id)arg1;
 - (id)N,V_selectedKeyBeforeDictation;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int keyAction; // @synthesize keyAction=_keyAction;
-@property(readonly) unsigned int keyCode; // @synthesize keyCode=_keyCode;
-@property(readonly) long long originalModifiers; // @synthesize originalModifiers=_originalModifiers;
 @property(readonly, nonatomic) NSMapTable *translationMap; // @synthesize translationMap=_translationMap;
 
 @end

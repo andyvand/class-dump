@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSObject, PGManager, PHPhotoLibrary;
+@class NSArray, NSObject;
 @protocol OS_os_log;
 
 @interface PHASuggestionController
 {
     NSObject<OS_os_log> *_loggingConnection;
-    PHPhotoLibrary *_photoLibrary;
-    NSMutableArray *_existingSuggestions;
-    NSMutableArray *_suggestionsToRetire;
-    NSMutableArray *_suggestionsToDelete;
-    NSArray *_cachedFeaturedSuggestions;
-    unsigned long long _newFeaturedSuggestionsCount;
-    NSMutableSet *_deletedSuggestionLocalIdentifiers;
-    NSArray *_existingMemories;
-    PGManager *_graphManager;
 }
 
 + (id);
@@ -33,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)#;
 - (void);
 - (void);
 - (id);
@@ -48,10 +39,10 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (_Bool);
@@ -62,13 +53,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ntQuestionsKVSDataFromGraphManager: /* Error: Ran out of types for this method. */;
+- (void)currentQuestionsKVSDataFromGraphManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *existingMemories; // @synthesize existingMemories=_existingMemories;
 @property(readonly, nonatomic) NSArray *existingSuggestions;
-@property(readonly, nonatomic) PGManager *graphManager; // @synthesize graphManager=_graphManager;
-@property(readonly, nonatomic) unsigned long long newFeaturedSuggestionsCount;
 
 @end
 

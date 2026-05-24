@@ -5,5 +5,9 @@
 //
 
 @protocol _DASBGSystemTaskSchedulerServer
+- (void);
+- (void)%s' not found in network;
+- (void);
+- (void)!;
 @end
 

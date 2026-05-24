@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSUUID *_personFaceCropUUID;
 }
 
-- (id);
+- (id)6@;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ssage;
+- (id)dropErrorMessage;
 - (id)y identifier is missing in options:%@ /* Error: Ran out of types for this method. */;
 - (void);
 

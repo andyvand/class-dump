@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NSBoxCustomVisualProvider
 {
     id configuration;
-    id backgroundView;
-    void box;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)t;
+- (struct CGRect)/%@;
+- (void)l}iQ}8^v16@?<v@?^{NetworkProxyCredential=^^?^{__CFAllocator}i^^?^{_CFURLCredential}iQ}>24;
 - (struct CGRect);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
+- (void)6x%;
+- (id)6k9;
 - (struct CGRect);
 - (void);
 - (id);
@@ -34,14 +32,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets)Ü°ÿ°ÜäG;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) struct CGRect borderRect;
 @property(nonatomic) __weak NSBox *box; // @synthesize box;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _Bool isFixedHeight;
-@property(nonatomic, readonly) _Bool isFixedWidth;
-@property(nonatomic, readonly) struct CGRect titleRect;
-@property(nonatomic, readonly) _Bool wantsSubviews;
 
 @end
 

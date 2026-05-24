@@ -4,51 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL, SFPhotosLibraryImage;
-
 @interface SFMessageAttachment
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    NSURL *_url;
-    NSData *_linkMetadata;
-    SFPhotosLibraryImage *_photosLibraryImage;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)ICStoreURLRequest;
+- (id)setPreferredMusicLowBandwidthResolution:(id)arg1;
 - (unsigned long long);
-- (int);
+- (int)callSource:registeredWithConfiguration: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void)er…:(id)arg1 Calling -alertDidBeginPlaying:on playback observer %{public}@ for %{public}@. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)l:%lu
+ /* Error: Ran out of types for this method. */;
+- (id)ull, PHAssetExportRequestOptions *__strong _Nonnull, PFMetadata * _Nullable __strong, CLLocation * _Nullable __autoreleasing * _Nullable);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void)re;
+- (void)_queryIndependentScore;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
-@property(retain, nonatomic) SFPhotosLibraryImage *photosLibraryImage; // @synthesize photosLibraryImage=_photosLibraryImage;
-@property(readonly) Class superclass;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

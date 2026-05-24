@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCEmailSignupConfig, FCHideMyEmailSignupConfig, FCSIWAPurchaseConfig, NSDictionary, NSString;
+@class NSString;
 
 @interface FCChannelUpsellConfig
 {
     _Bool _ignoreWebOptInStatus;
-    NSString *_channelID;
-    NSDictionary *_triggersByMethod;
-    long long _presentationCap;
-    long long _presentationCountResetInterval;
-    long long _quiescenceInterval;
-    long long _engagedUserQuiescenceInterval;
-    FCEmailSignupConfig *_emailSignupConfiguration;
-    FCSIWAPurchaseConfig *_siwaPurchaseConfiguration;
-    FCHideMyEmailSignupConfig *_hideMyEmailSignupConfiguration;
 }
 
 - (void);
@@ -25,36 +16,27 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)singBlock:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)_UXCollectionViewOverdraw;
 - (id);
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long)`&;
 - (void);
-- (long long);
+- (long long)ibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling},Node.prototype._mail_traverseNextSiblingStayingWithin=function(t){let e=null;if(this.isSameNode(t))return e;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling};const nodeIsSignificantContent=function(t){let e=t.nodeName;return"SPAN"===e||"DIV"===e||"FONT"===e||"STYLE"===e||"P"===e||"PRE"===e?{nodeIsSignificantContent:!1,mayContainSignificantContent:!0}:"BR"===e?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:t instanceof Text&&(0===t.length||t.data.containsOnlyWhitespace)?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:{nodeIsSignificantContent:!0,mayContainSignificantContent:!1}}; /* Error: Ran out of types for this method. */;
 - (void)Aù(	Ð1Â0@ù
 × ;
 - (id)ngOutputName;
 - (void)dleInputOutputConfiguration;
-- (void)rnalAppUsage;
-- (void)TopicTagAllowList;
+- (void)FCSubscriptionOriginInternalAppUsage;
+- (void)localSuperFeedsForYouTopicTagAllowList;
 - (void)BundleInputOutputConfiguration from configuration %{public}@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(retain, nonatomic) FCEmailSignupConfig *emailSignupConfiguration; // @synthesize emailSignupConfiguration=_emailSignupConfiguration;
-@property(nonatomic) long long engagedUserQuiescenceInterval; // @synthesize engagedUserQuiescenceInterval=_engagedUserQuiescenceInterval;
-@property(retain, nonatomic) FCHideMyEmailSignupConfig *hideMyEmailSignupConfiguration; // @synthesize hideMyEmailSignupConfiguration=_hideMyEmailSignupConfiguration;
-@property(nonatomic) _Bool ignoreWebOptInStatus; // @synthesize ignoreWebOptInStatus=_ignoreWebOptInStatus;
-@property(nonatomic) long long presentationCap; // @synthesize presentationCap=_presentationCap;
-@property(nonatomic) long long presentationCountResetInterval; // @synthesize presentationCountResetInterval=_presentationCountResetInterval;
-@property(nonatomic) long long quiescenceInterval; // @synthesize quiescenceInterval=_quiescenceInterval;
-@property(retain, nonatomic) FCSIWAPurchaseConfig *siwaPurchaseConfiguration; // @synthesize siwaPurchaseConfiguration=_siwaPurchaseConfiguration;
-@property(retain, nonatomic) NSDictionary *triggersByMethod; // @synthesize triggersByMethod=_triggersByMethod;
 
 @end
 

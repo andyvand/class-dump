@@ -7,11 +7,11 @@
 @class CALayer;
 
 @protocol SCNJSLayerJSExport
-+ (CALayer *)etDeformedMeshBoundingBox: /* Error: Ran out of types for this method. */;
++ (CALayer *)_getDeformedMeshBoundingBox: /* Error: Ran out of types for this method. */;
+- (struct CGRect)chantSessionUpdate">32;
+- (void);
 
 // Remaining properties
-@property struct CGRect bounds;
 @property(retain) id contents;
-@property struct CGRect frame;
 @end
 

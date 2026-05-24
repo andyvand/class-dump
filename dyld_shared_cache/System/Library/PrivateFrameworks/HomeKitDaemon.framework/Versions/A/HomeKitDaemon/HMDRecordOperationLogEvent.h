@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface HMDRecordOperationLogEvent
 {
     _Bool _legacy;
-    unsigned long long _size;
 }
 
-- (id);
+- (id)e>",W,N,V_delegate;
 - (unsigned long long);
-- (_Bool)ound:residentsLost: /* Error: Ran out of types for this method. */;
+- (_Bool)didUpdateResidentStatus:residentsFound:residentsLost: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isLegacy) _Bool legacy; // @synthesize legacy=_legacy;
 @property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end

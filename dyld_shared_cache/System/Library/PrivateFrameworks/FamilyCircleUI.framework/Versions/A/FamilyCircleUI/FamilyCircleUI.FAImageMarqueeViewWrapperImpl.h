@@ -9,8 +9,6 @@
 @interface FamilyCircleUI.FAImageMarqueeViewWrapperImpl
 {
     id familyCircle;
-    id membersToRender;
-    id $__lazy_storage_$_viewController;
 }
 
 - (id);

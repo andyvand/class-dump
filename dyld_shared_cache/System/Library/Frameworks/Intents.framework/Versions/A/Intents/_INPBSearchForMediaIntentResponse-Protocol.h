@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol _INPBSearchForMediaIntentResponse
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
 @end
 

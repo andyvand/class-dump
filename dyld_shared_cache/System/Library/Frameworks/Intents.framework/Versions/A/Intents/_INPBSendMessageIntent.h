@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBContact, _INPBDataString, _INPBIntentMetadata, _INPBString;
+@class NSString;
 
 @interface _INPBSendMessageIntent
 {
@@ -13,30 +13,16 @@
         unsigned int outgoingMessageType:1;
         unsigned int shouldHideSiriAttribution:1;
     } _has;
-    _Bool _shouldHideSiriAttribution;
-    int _effect;
-    int _outgoingMessageType;
-    NSString *_alternativeConversationIdentifier;
-    NSArray *_attachments;
-    _INPBString *_content;
-    NSString *_conversationIdentifier;
-    _INPBString *_groupName;
-    _INPBIntentMetadata *_intentMetadata;
-    NSString *_notificationThreadIdentifier;
-    NSArray *_recipients;
-    _INPBContact *_sender;
-    NSString *_serviceName;
-    _INPBDataString *_speakableGroupName;
 }
 
 + (Class);
-+ (Class);
-+ (_Bool);
++ (Class)initWithIdentity:compatibilityDisplay:selectionPath:path:modalities:containsSubset:containsEndOfChain: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)S;
+- (id)`;
 - (int);
 - (_Bool);
 - (void);
@@ -44,15 +30,15 @@
 - (void);
 - (id);
 - (id);
+- (unsigned long long)r;
+- (_Bool);
+- (void)";
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)rnal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/bn/bn_recp.c;
 - (int);
 - (void);
 - (void);
@@ -62,17 +48,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (int);
-- (void);
+- (unsigned long long)setPresentWiFiNetworkSharingAskToShareProxCardHandler: /* Error: Ran out of types for this method. */;
+- (int)_lastError;
+- (void)t;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -88,52 +74,18 @@
 × ;
 - (void)Ô ;
 - (_Bool)ertion>";
-- (id)tionary;
+- (id)_dictionary;
 - (_Bool)NPBSleepAlarmAttribute",&,N;
 - (void)C,V_deviceName;
 - (id)dentifier;
 - (void)ment<UnitMass>;
-- (id)loadMediaAffinityType;
+- (id)_payloadMediaAffinityType;
 - (id)framework/Contacts;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alternativeConversationIdentifier; // @synthesize alternativeConversationIdentifier=_alternativeConversationIdentifier;
-@property(copy, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(readonly, nonatomic) unsigned long long attachmentsCount;
-@property(retain, nonatomic) _INPBString *content; // @synthesize content=_content;
-@property(copy, nonatomic) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int effect; // @synthesize effect=_effect;
-@property(retain, nonatomic) _INPBString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) _Bool hasAlternativeConversationIdentifier;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasConversationIdentifier;
-@property(nonatomic) _Bool hasEffect;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNotificationThreadIdentifier;
-@property(nonatomic) _Bool hasOutgoingMessageType;
-@property(readonly, nonatomic) _Bool hasSender;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(nonatomic) _Bool hasShouldHideSiriAttribution;
-@property(readonly, nonatomic) _Bool hasSpeakableGroupName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSString *notificationThreadIdentifier; // @synthesize notificationThreadIdentifier=_notificationThreadIdentifier;
-@property(nonatomic) int outgoingMessageType; // @synthesize outgoingMessageType=_outgoingMessageType;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(retain, nonatomic) _INPBContact *sender; // @synthesize sender=_sender;
-@property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool shouldHideSiriAttribution; // @synthesize shouldHideSiriAttribution=_shouldHideSiriAttribution;
-@property(retain, nonatomic) _INPBDataString *speakableGroupName; // @synthesize speakableGroupName=_speakableGroupName;
-@property(readonly) Class superclass;
 
 @end
 

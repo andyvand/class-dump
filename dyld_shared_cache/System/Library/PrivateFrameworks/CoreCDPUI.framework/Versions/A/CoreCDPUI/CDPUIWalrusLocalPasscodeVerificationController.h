@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPStateBaseUIController, CDPStateController, NSString, NSWindow;
+@class CDPContext;
 
 @interface CDPUIWalrusLocalPasscodeVerificationController
 {
     CDPContext *_context;
-    CDPStateController *_stateController;
-    NSString *_title;
-    CDPStateBaseUIController *_uiController;
-    NSWindow *_window;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 
 @end
 

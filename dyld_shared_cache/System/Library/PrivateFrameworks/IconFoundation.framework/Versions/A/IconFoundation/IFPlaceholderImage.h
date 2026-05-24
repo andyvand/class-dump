@@ -9,7 +9,6 @@
 @interface IFPlaceholderImage : IFImage
 {
     unsigned long long _validationFlags;
-    IFImage *_image;
 }
 
 - (double);
@@ -25,7 +24,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (struct CGImage *);
+- (struct CGImage *);
 - (void);
 
 // Remaining properties

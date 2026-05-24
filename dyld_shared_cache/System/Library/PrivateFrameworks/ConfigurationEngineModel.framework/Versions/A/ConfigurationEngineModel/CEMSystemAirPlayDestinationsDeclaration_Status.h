@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)eSkipSiriProvidedRules=YES. will not load Siri-provided rules;
 
 @end
 

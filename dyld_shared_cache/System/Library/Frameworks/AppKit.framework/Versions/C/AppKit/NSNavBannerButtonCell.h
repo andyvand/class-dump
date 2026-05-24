@@ -13,11 +13,11 @@
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)commendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
 - (void);
+- (_Bool)rrCode:%d. /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)s;
 - (_Bool);
 
 // Remaining properties

@@ -9,12 +9,6 @@
 @interface PFAnimatedImage
 {
     struct CGImageSource *_imageSource;
-    double *_frameDelayTimes;
-    unsigned long long _frameCount;
-    unsigned long long _loopCount;
-    double _duration;
-    PFFrameCache *_frameCache;
-    struct CGSize _pixelSize;
 }
 
 - (void);
@@ -27,25 +21,20 @@
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)_TtC12SiriOntology36UsoEntity_common_PointOfInterestType;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_incrementCurrentRowCountBy: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)o;
 - (void);
 - (unsigned long long).length > 2;
 
 // Remaining properties
-@property(nonatomic) long long cacheStrategy;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) PFFrameCache *frameCache; // @synthesize frameCache=_frameCache;
-@property(readonly, nonatomic) unsigned long long frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly, nonatomic) unsigned long long loopCount; // @synthesize loopCount=_loopCount;
-@property(readonly, nonatomic) struct CGSize pixelSize; // @synthesize pixelSize=_pixelSize;
 
 @end
 

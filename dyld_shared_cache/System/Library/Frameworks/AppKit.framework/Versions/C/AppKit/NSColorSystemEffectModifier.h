@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSColorSystemEffectModifier
 {
     long long _systemEffect;
-    _Atomic id _optionsCache;
 }
 
-+ (id);
-- (long long);
-- (id);
-- (id);
++ (id)erride HSTS policy for %@;
+- (long long)info cache;
+- (id)_initWithIdentifier:(long long)arg1 private: /* Error: Ran out of types for this method. */;
+- (id)as completed HTTP protocol connection establishment;
 - (void);
-- (id);
+- (id)pZRq7AfjNN1Q/Library/Caches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/crypto/evp/p_ec_asn1.c;
 - (unsigned long long);
 - (_Bool);
 - (void)!@Cùà31Â0@ù
 × ;
-- (id)cts:(struct _NSZone *)arg1;
+- (id)_indicatorWindowGroupsOfRectGroupsForRects:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) long long systemEffect; // @synthesize systemEffect=_systemEffect;
 
 @end

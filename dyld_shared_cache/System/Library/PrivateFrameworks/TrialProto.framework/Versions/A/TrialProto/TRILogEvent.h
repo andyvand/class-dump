@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIDenormalizedEvent, TRILogContext;
+@class TRILogContext;
 
 @interface TRILogEvent
 {
     TRILogContext *_context;
-    TRIDenormalizedEvent *_denormalizedEvent;
-    NSString *_logEventId;
 }
 
 - (id);
@@ -18,7 +16,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ggestion among the %lu suggestions matching NLP context;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -27,19 +25,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TRILogContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) TRIDenormalizedEvent *denormalizedEvent; // @synthesize denormalizedEvent=_denormalizedEvent;
 @property(readonly, nonatomic) _Bool hasContext;
-@property(readonly, nonatomic) _Bool hasDenormalizedEvent;
-@property(readonly, nonatomic) _Bool hasLogEventId;
-@property(retain, nonatomic) NSString *logEventId; // @synthesize logEventId=_logEventId;
 
 @end
 

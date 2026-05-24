@@ -7,7 +7,6 @@
 @interface AppleMediaServices.AMSItsMeTraceIDTask
 {
     id account;
-    id bag;
 }
 
 @end

@@ -9,12 +9,6 @@
 @interface SGMIWarningsDetectors
 {
     SGMIWarningsDetectionRegexes *_attachment;
-    SGMIWarningsDetectionRegexes *_recipientConservative;
-    SGMIWarningsDetectionRegexes *_recipient;
-    SGMIWarningsDetectionRegexes *_nickname;
-    SGMIWarningsDetectionRegexes *_followUpOnOutgoingMailsQuestions;
-    SGMIWarningsDetectionRegexes *_followUpOnOutgoingMailsAsks;
-    SGMIWarningsDetectionRegexes *_followUpOnIncomingMails;
 }
 
 - (id);
@@ -26,16 +20,10 @@
 - (id);
 - (id);
 - (void)°;
-- (id)ath;
+- (id)assetFolderPath;
 
 // Remaining properties
 @property(readonly, nonatomic) SGMIWarningsDetectionRegexes *attachment; // @synthesize attachment=_attachment;
-@property(readonly, nonatomic) SGMIWarningsDetectionRegexes *followUpOnIncomingMails; // @synthesize followUpOnIncomingMails=_followUpOnIncomingMails;
-@property(readonly, nonatomic) SGMIWarningsDetectionRegexes *followUpOnOutgoingMailsAsks; // @synthesize followUpOnOutgoingMailsAsks=_followUpOnOutgoingMailsAsks;
-@property(readonly, nonatomic) SGMIWarningsDetectionRegexes *followUpOnOutgoingMailsQuestions; // @synthesize followUpOnOutgoingMailsQuestions=_followUpOnOutgoingMailsQuestions;
-@property(readonly, nonatomic) SGMIWarningsDetectionRegexes *nickname; // @synthesize nickname=_nickname;
-@property(readonly, nonatomic) SGMIWarningsDetectionRegexes *recipient; // @synthesize recipient=_recipient;
-@property(readonly, nonatomic) SGMIWarningsDetectionRegexes *recipientConservative; // @synthesize recipientConservative=_recipientConservative;
 
 @end
 

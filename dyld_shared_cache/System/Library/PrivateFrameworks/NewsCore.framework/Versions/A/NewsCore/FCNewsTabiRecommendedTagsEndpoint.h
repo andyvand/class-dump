@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, FCNewsTabiRecommendedTagsConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiRecommendedTagsEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiRecommendedTagsConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 - (void)ers:downloadAssets:cacheLifetimeHint:relativePriority:callBackQueue:completionBlock:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiRecommendedTagsConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

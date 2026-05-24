@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void)16;
-- (id)rror: /* Error: Ran out of types for this method. */;
+- (id)executeWriteRequestForCharacteristic:value:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *field; // @synthesize field=_field;

@@ -4,68 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTextField;
-@protocol IMDynamicGradientReferenceView, SOEffectPickerButtonControllerDelegate;
+@protocol SOEffectPickerButtonControllerDelegate;
 
 @interface SOEffectPickerButtonController
 {
     _Bool _activated;
-    id <SOEffectPickerButtonControllerDelegate> _delegate;
-    NSString *_displayName;
-    NSString *_effectIdentifier;
-    NSTextField *_label;
-    id <IMDynamicGradientReferenceView> _gradientReferenceView;
-    id _target;
-    SEL _action;
-    NSButton *_previewButton;
-    NSButton *_sendButton;
-    struct CGRect _labelFrame;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (struct CGRect);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
+- (struct CGRect)not match expected value %u on %s;
+- (id);
+- (void);
+- (void)So20FCPrivateDataContext_p;
+- (void);
+- (id);
+- (id)!;
+- (void);
+- (id)publisher_diversity_y_intercept;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (SEL);
 - (void);
-- (void);
+- (void)(;
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic, getter=isActivated) _Bool activated; // @synthesize activated=_activated;
 @property(nonatomic) __weak id <SOEffectPickerButtonControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *effectIdentifier; // @synthesize effectIdentifier=_effectIdentifier;
-@property(retain, nonatomic) id <IMDynamicGradientReferenceView> gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;
-@property(retain, nonatomic) NSTextField *label; // @synthesize label=_label;
-@property(nonatomic) struct CGRect labelFrame; // @synthesize labelFrame=_labelFrame;
-@property(retain, nonatomic) NSButton *previewButton; // @synthesize previewButton=_previewButton;
-@property(retain, nonatomic) NSButton *sendButton; // @synthesize sendButton=_sendButton;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end
 

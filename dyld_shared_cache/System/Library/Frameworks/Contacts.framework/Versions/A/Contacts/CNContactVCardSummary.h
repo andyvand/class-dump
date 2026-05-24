@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNContactVCardSummary
 {
     NSString *_title;
-    NSString *_subtitle;
-    unsigned long long _contactCount;
-    NSArray *_avatarContacts;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)abledReasonMask:(id)arg1;
++ (id)kRadioEnhancedLQMQueryPayload;
 + (id);
 + (id);
 + (_Bool);
 + (id);
++ (id);
++ (_Bool);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)d not send ;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -39,10 +36,6 @@
 - (id),lp0;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *avatarContacts; // @synthesize avatarContacts=_avatarContacts;
-@property(readonly, nonatomic) unsigned long long contactCount; // @synthesize contactCount=_contactCount;
-@property(readonly, copy, nonatomic) NSString *descriptiveLabel;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

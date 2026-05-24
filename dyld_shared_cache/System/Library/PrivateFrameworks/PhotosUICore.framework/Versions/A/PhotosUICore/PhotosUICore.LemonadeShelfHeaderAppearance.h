@@ -7,11 +7,6 @@
 @interface PhotosUICore.LemonadeShelfHeaderAppearance
 {
     id onHeightChange;
-    id topShelfIdentifiers;
-    id __opacity;
-    id __height;
-    id heightByShelfIdentifier;
-    id _$observationRegistrar;
 }
 
 @end

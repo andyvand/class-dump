@@ -4,56 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicReadWriteAccessoryStatistics
 {
     _Bool _hasSucceededOnce;
-    _Bool _hasFailedOnce;
-    _Bool _isCurrentlySeen;
-    _Bool _hasEverBeenSeen;
-    _Bool _resolveAttempted;
-    double _timeOfFirstFailureRequest;
-    double _timeOfLastSuccessfulRequest;
-    double _timeOfLastFailedRequest;
-    double _noSessionStartTime;
-    unsigned long long _consecutiveSuccessCount;
-    unsigned long long _consecutiveFailureCount;
-    long long _lastSuccessLinkLayerType;
-    long long _lastFailedLinkLayerType;
-    NSString *_lastSuccessSSID;
-    NSString *_lastSuccessBSSID;
-    NSData *_lastSuccessIpv4Signature;
-    NSData *_lastSuccessIpv6Signature;
-    NSData *_lastFailureIpv4Signature;
-    NSData *_lastFailureIpv6Signature;
-    NSString *_ipAddress;
-    unsigned long long _numIPAddresses;
-    NSString *_serviceName;
 }
 
-- (double);
-- (double);
-- (double);
+- (double)lookupTransactionType;
+- (double)locationDisplayString;
+- (double)localizedStringWithFormat: /* Error: Ran out of types for this method. */;
+- (void)sImmutable,V_immutable;
+- (void)cksRAPRecordingOnly;
+- (void)MSPSharedTripContactControllerDelegate;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)cked;
+- (void)..;
+- (void)st to see if we need to stop any sharing...;
+- (void)ocked statuses;
+- (void)lity fetcher to check existing blocked statuses;
+- (void)Leaving checkin dispatch group;
+- (void)spatch group, self deallocated;
+- (void)atch group;
+- (void)removeLiveParticipant %{private}@ %s from %{public}@;
+- (void)AccountIdentifier choosing from aliasStrings %@;
+- (void)tyLevelForContact timed out waiting for contact %{private}@;
+- (void)t %{private}@:(_Bool)arg1 %lu;
+- (void)ify delegate, batch reached %lu items;
 - (double);
 - (long long);
 - (id);
@@ -81,28 +58,7 @@ __attribute__((visibility("hidden")))
 - (void)isImplementingClientClusterPaths(_:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned long long consecutiveFailureCount; // @synthesize consecutiveFailureCount=_consecutiveFailureCount;
-@property unsigned long long consecutiveSuccessCount; // @synthesize consecutiveSuccessCount=_consecutiveSuccessCount;
-@property _Bool hasEverBeenSeen; // @synthesize hasEverBeenSeen=_hasEverBeenSeen;
-@property _Bool hasFailedOnce; // @synthesize hasFailedOnce=_hasFailedOnce;
-@property _Bool hasSucceededOnce; // @synthesize hasSucceededOnce=_hasSucceededOnce;
-@property(copy) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property _Bool isCurrentlySeen; // @synthesize isCurrentlySeen=_isCurrentlySeen;
-@property long long lastFailedLinkLayerType; // @synthesize lastFailedLinkLayerType=_lastFailedLinkLayerType;
-@property(copy) NSData *lastFailureIpv4Signature; // @synthesize lastFailureIpv4Signature=_lastFailureIpv4Signature;
-@property(copy) NSData *lastFailureIpv6Signature; // @synthesize lastFailureIpv6Signature=_lastFailureIpv6Signature;
-@property(copy) NSString *lastSuccessBSSID; // @synthesize lastSuccessBSSID=_lastSuccessBSSID;
-@property(copy) NSData *lastSuccessIpv4Signature; // @synthesize lastSuccessIpv4Signature=_lastSuccessIpv4Signature;
-@property(copy) NSData *lastSuccessIpv6Signature; // @synthesize lastSuccessIpv6Signature=_lastSuccessIpv6Signature;
-@property long long lastSuccessLinkLayerType; // @synthesize lastSuccessLinkLayerType=_lastSuccessLinkLayerType;
-@property(copy) NSString *lastSuccessSSID; // @synthesize lastSuccessSSID=_lastSuccessSSID;
-@property double noSessionStartTime; // @synthesize noSessionStartTime=_noSessionStartTime;
-@property(nonatomic) unsigned long long numIPAddresses; // @synthesize numIPAddresses=_numIPAddresses;
-@property _Bool resolveAttempted; // @synthesize resolveAttempted=_resolveAttempted;
-@property(copy) NSString *serviceName; // @synthesize serviceName=_serviceName;
 @property double timeOfFirstFailureRequest; // @synthesize timeOfFirstFailureRequest=_timeOfFirstFailureRequest;
-@property double timeOfLastFailedRequest; // @synthesize timeOfLastFailedRequest=_timeOfLastFailedRequest;
-@property double timeOfLastSuccessfulRequest; // @synthesize timeOfLastSuccessfulRequest=_timeOfLastSuccessfulRequest;
 
 @end
 

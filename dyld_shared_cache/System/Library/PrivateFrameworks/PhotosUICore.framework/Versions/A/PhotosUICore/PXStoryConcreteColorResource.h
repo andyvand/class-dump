@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXStoryConcreteResource.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface PXStoryConcreteColorResource : PXStoryConcreteResource
 {
     NSColor *_color;
-    long long _colorType;
 }
 
 - (long long);
@@ -24,17 +23,7 @@
 - (void)GenerativeStoryAppleMusicUnavailableHandler;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSColor *px_storyResourceColor; // @synthesize px_storyResourceColor=_color;
-@property(readonly, nonatomic) long long px_storyResourceColorType; // @synthesize px_storyResourceColorType=_colorType;
-@property(readonly, nonatomic) NSString *px_storyResourceIdentifier;
-@property(readonly, nonatomic) long long px_storyResourceKind;
-@property(readonly) Class superclass;
 
 @end
 

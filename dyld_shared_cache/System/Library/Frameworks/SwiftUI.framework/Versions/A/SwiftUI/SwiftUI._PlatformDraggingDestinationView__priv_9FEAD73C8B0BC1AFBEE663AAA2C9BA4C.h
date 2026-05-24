@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)Frameworks/IMSharedUtilities.framework/Contents/MacOS/IMSharedUtilities;
 - (id);
 - (id);
 - (void)g½;

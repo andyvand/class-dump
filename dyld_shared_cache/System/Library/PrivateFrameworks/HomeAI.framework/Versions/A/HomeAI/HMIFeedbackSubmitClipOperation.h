@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFeedbackSession, NSData, NSDictionary, NSMutableArray, NSSet, NSString, NSUUID;
+@class HMIFeedbackSession;
 
 @interface HMIFeedbackSubmitClipOperation
 {
     HMIFeedbackSession *_feedbackSession;
-    NSUUID *_cameraProfileUUID;
-    NSUUID *_clipUUID;
-    NSMutableArray *_temporaryFileURLs;
-    NSSet *_faceCrops;
-    NSData *_assetData;
-    NSDictionary *_serviceResult;
 }
 
 + (id)Û;
@@ -37,30 +31,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Q;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (void);
 
 // Remaining properties
-@property(retain) NSData *assetData; // @synthesize assetData=_assetData;
-@property(readonly) NSUUID *cameraProfileUUID; // @synthesize cameraProfileUUID=_cameraProfileUUID;
-@property(readonly) NSUUID *clipUUID; // @synthesize clipUUID=_clipUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSSet *faceCrops; // @synthesize faceCrops=_faceCrops;
 @property(readonly) HMIFeedbackSession *feedbackSession; // @synthesize feedbackSession=_feedbackSession;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *serviceResult; // @synthesize serviceResult=_serviceResult;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableArray *temporaryFileURLs; // @synthesize temporaryFileURLs=_temporaryFileURLs;
 
 @end
 

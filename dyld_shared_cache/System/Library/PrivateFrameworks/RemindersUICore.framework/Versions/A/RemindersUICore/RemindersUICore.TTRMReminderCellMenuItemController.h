@@ -7,22 +7,6 @@
 @interface RemindersUICore.TTRMReminderCellMenuItemController
 {
     id indentOutdentConfigurationProvider;
-    id indentOutdentHandler;
-    id flaggedConfigurationProvider;
-    id setFlaggedHandler;
-    id priorityConfigurationProvider;
-    id setPriorityLevelHandler;
-    id postponementConfigurationProvider;
-    id postponeHandler;
-    id hashtagConfigurationProvider;
-    id addOrRemoveHashtagHandler;
-    id startEditingStructuredHashtagHandler;
-    id clearAllHashtagsHandler;
-    id assigneeConfigurationProvider;
-    id setAssigneeHandler;
-    id canDelete;
-    id deleteHandler;
-    id itemsForMenuItemActions;
 }
 
 - (void);
@@ -37,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)applyConditionalScore:(id)arg1;
 - (id);
 - (void)\³÷ÿP;
 - (_Bool)|^(ö;

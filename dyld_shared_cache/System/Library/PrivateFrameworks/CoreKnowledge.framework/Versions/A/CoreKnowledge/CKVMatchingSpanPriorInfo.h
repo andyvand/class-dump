@@ -7,7 +7,6 @@
 @interface CKVMatchingSpanPriorInfo
 {
     unsigned int _ordinality;
-    float _score;
 }
 
 + (_Bool);
@@ -17,15 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)urlForApplicationDataFolderIdentifier:error: /* Error: Ran out of types for this method. */;
+- (_Bool)rtCardSection"16;
 - (void);
 - (id);
 - (float);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int ordinality; // @synthesize ordinality=_ordinality;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
 
 @end
 

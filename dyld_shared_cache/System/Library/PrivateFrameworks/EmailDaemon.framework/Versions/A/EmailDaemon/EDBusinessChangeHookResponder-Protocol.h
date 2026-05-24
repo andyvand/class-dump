@@ -5,5 +5,8 @@
 //
 
 @protocol EDBusinessChangeHookResponder
+
+@optional
+- (void);
 @end
 

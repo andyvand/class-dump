@@ -9,14 +9,10 @@
 @interface EARSpeechRecognition
 {
     NSArray *_tokenSausage;
-    NSArray *_interpretationIndices;
-    NSArray *_oneBest;
-    NSArray *_nBest;
-    NSArray *_personalEntities;
 }
 
 + (_Bool);
-- (id);
+- (id)8;
 - (id);
 - (id);
 - (id);
@@ -28,10 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *interpretationIndices; // @synthesize interpretationIndices=_interpretationIndices;
-@property(readonly, copy, nonatomic) NSArray *nBest; // @synthesize nBest=_nBest;
-@property(readonly, copy, nonatomic) NSArray *oneBest; // @synthesize oneBest=_oneBest;
-@property(readonly, copy, nonatomic) NSArray *personalEntities; // @synthesize personalEntities=_personalEntities;
 @property(readonly, copy, nonatomic) NSArray *tokenSausage; // @synthesize tokenSausage=_tokenSausage;
 
 @end

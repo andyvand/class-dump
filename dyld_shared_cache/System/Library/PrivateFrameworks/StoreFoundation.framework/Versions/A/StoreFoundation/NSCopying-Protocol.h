@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)replaceItemAtURL:(struct _NSZone *)arg1 withItemAtURL:backupItemName:options:resultingItemURL:error: /* Error: Ran out of types for this method. */;
 @end
 

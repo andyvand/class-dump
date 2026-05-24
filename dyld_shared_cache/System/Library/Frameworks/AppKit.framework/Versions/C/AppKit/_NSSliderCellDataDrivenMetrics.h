@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSSliderCellDataDrivenMetrics
 {
     CDStruct_6717dab8 _state;
-    _Bool _usesModernStyle;
 }
 
 + (void);
-+ (struct CGRect);
++ (struct CGRect)@;
 - (void);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)d for '%s':(double)arg1 %s;
+- (struct CGRect)lt/IORegistryUtilities/MGIOKitSupport.c;
+- (struct CGRect)dlr/Sources/MobileGestalt/libMobileGestalt/IORegistryUtilities/MGIOKitSupport.c;
+- (struct CGRect)xOJfWykLmQCc8lKlzMlrLA;
 - (struct CGRect);
 - (struct CGRect);
 - (struct NSEdgeInsets);
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect)onfiguration;
 - (struct NSEdgeInsets);
-- (_Bool);
-- (struct CGRect);
-- (struct CGSize);
-- (double);
-- (void);
-- (CDStruct_6717dab8);
-- (id)lityDescription:(struct _NSZone *)arg1;
+- (_Bool)ection;
+- (struct CGRect)dCreateWithResumeInformation():(_Bool)arg1 Asked to create from NULL resumeInformation!;
+- (struct CGSize)lic}@> attempted to create a NSURLSessionUploadTask in a session that has been invalidated;
+- (double)n1.c;
+- (void)];
+- (CDStruct_6717dab8)unStorage (%p), _replaceElements():no new element was given with a non-zero new length. /* Error: Ran out of types for this method. */;
+- (id)imageWithPrivateSystemSymbolName:(struct _NSZone *)arg1 variableValue:accessibilityDescription: /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets)eepingCrashData:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property CDStruct_6717dab8 state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 @property _Bool usesModernStyle; // @synthesize usesModernStyle=_usesModernStyle;
 
 @end

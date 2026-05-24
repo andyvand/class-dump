@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, IMBusinessNameManager, NSSet, UNNotificationCategory, UNUserNotificationCenter;
+@class UNUserNotificationCenter;
 
 @interface IMDNotificationsController
 {
     long long _lastAlertedMessageDate;
-    long long _lastAlertedFailedMessageDate;
-    UNUserNotificationCenter *_notificationCenter;
-    UNNotificationCategory *_incomingMessageNotificationCategory;
-    UNNotificationCategory *_incomingFilesNotificationCategory;
-    IMBusinessNameManager *_businessNameManager;
-    CNContact *_meContact;
-    NSSet *_meTokens;
-    NSSet *_activeAccountAliases;
 }
 
 + (int);
@@ -31,12 +23,12 @@
 + (id);
 + (id);
 + (id);
++ (id)~;
++ (id)p;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id)HERE  (   %@  m.handle_id IN (    SELECT       h.rowid     FROM       handle h     WHERE       h.id = ?       %@)  )   AND m.date >= ?   AND m.was_deduplicated = 0   AND m.cache_has_attachments = 0   %@   AND im_trim(m.text) = im_trim(?)   AND m.ROWID IN (     SELECT        cm.message_id      FROM        chat_message_join cm      WHERE        m.ROWID = cm.message_id        AND cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?)   ) ;
-+ (id)ctionAttachmentDirectory;
++ (id)StorageInspectionAttachmentDirectory;
 - (void);
 - (_Bool);
 - (void);
@@ -55,7 +47,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -71,23 +63,23 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)C;
+- (id);
+- (id);
+- (id);
+- (id)?;
+- (_Bool);
+- (_Bool);
+- (_Bool),;
+- (id)9	;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -97,7 +89,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -115,9 +109,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -153,11 +145,11 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -179,14 +171,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)@9;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (void)dication_identifiers(syndication_identifier, message_guid) AS (
     VALUES ;
@@ -194,14 +186,6 @@
 - (void)GUIDs;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *activeAccountAliases; // @synthesize activeAccountAliases=_activeAccountAliases;
-@property(retain, nonatomic) IMBusinessNameManager *businessNameManager; // @synthesize businessNameManager=_businessNameManager;
-@property(retain, nonatomic) UNNotificationCategory *incomingFilesNotificationCategory; // @synthesize incomingFilesNotificationCategory=_incomingFilesNotificationCategory;
-@property(retain, nonatomic) UNNotificationCategory *incomingMessageNotificationCategory; // @synthesize incomingMessageNotificationCategory=_incomingMessageNotificationCategory;
-@property long long lastAlertedFailedMessageDate;
-@property long long lastAlertedMessageDate;
-@property(retain, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
-@property(retain, nonatomic) NSSet *meTokens; // @synthesize meTokens=_meTokens;
 @property(retain, nonatomic) UNUserNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 
 @end

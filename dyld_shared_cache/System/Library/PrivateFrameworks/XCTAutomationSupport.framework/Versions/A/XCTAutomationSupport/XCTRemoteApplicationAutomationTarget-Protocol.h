@@ -5,5 +5,7 @@
 //
 
 @protocol XCTRemoteApplicationAutomationTarget
+- (id);
+- (id);
 @end
 

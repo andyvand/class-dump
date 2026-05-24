@@ -7,9 +7,6 @@
 @interface NewsUI2.FollowingDislikedDataManager
 {
     id delegate;
-    id subscriptionService;
-    id tagService;
-    id contentAvailabilityValidator;
 }
 
 @end

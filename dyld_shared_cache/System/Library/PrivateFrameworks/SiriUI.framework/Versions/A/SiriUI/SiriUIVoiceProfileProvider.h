@@ -9,7 +9,6 @@
 @interface SiriUIVoiceProfileProvider
 {
     NSString *_siriLocale;
-    NSString *_appDomain;
 }
 
 + (_Bool);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appDomain;
 @property(readonly, nonatomic) NSString *siriLocale;
 
 @end

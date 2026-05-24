@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRTextInputTraitsProtobuf;
+@class _MRTextInputTraitsProtobuf;
 
 @interface _MRTextEditingAttributesProtobuf
 {
     _MRTextInputTraitsProtobuf *_inputTraits;
-    NSString *_prompt;
-    NSString *_title;
 }
 
 - (id);
@@ -28,18 +26,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)nd;
 - (id);
 - (void);
-- (void)s;
+- (void)bluetoothAddress;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasInputTraits;
-@property(readonly, nonatomic) _Bool hasPrompt;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) _MRTextInputTraitsProtobuf *inputTraits; // @synthesize inputTraits=_inputTraits;
-@property(retain, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

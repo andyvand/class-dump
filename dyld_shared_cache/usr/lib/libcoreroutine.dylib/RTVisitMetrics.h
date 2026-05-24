@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTDistanceCalculator, RTLearnedLocationStore, RTLocationStore, RTMotionActivityManager, RTVisitManager;
+@class RTDistanceCalculator;
 
 @interface RTVisitMetrics
 {
     RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationStore *_locationStore;
-    RTMotionActivityManager *_motionActivityManager;
-    RTVisitManager *_visitManager;
 }
 
 - (id);
@@ -27,10 +23,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)returnedExistingIdentity;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)OL}d, %{BOOL}d);
+- (id)<˟;
 - (void)%s, Received a modifying activeDeviceIdentifier stateSyncMessage, %@, that's not transitionType of SMStateTransitionTypeHandoffBecomeActive or SMStateTransitionTypeStateSyncUpdateReq;
 
 @end

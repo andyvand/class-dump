@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderKnownFolderLocation, NSURL;
+@class NSFileProviderKnownFolderLocation;
 
 @interface NSFileProviderKnownFolderDescriptor
 {
     NSFileProviderKnownFolderLocation *_location;
-    NSURL *_knownFolder;
-    NSURL *_logicalLocation;
-    unsigned long long _detachOptions;
 }
 
-+ (_Bool);
++ (_Bool)B;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)4D;
 - (id);
 - (void)
 × ;
 - (void)"¾;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long detachOptions; // @synthesize detachOptions=_detachOptions;
-@property(readonly, nonatomic) NSURL *knownFolder; // @synthesize knownFolder=_knownFolder;
 @property(retain, nonatomic) NSFileProviderKnownFolderLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSURL *logicalLocation; // @synthesize logicalLocation=_logicalLocation;
 
 @end
 

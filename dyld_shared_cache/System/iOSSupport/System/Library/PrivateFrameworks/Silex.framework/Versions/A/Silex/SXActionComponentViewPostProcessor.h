@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXActionComponentInteractionHandlerFactory, SXActionProvider, SXComponentInteractionHandlerManager;
+@protocol SXActionProvider;
 
 @interface SXActionComponentViewPostProcessor
 {
     id <SXActionProvider> _actionProvider;
-    id <SXActionComponentInteractionHandlerFactory> _factory;
-    id <SXComponentInteractionHandlerManager> _interactionHandlerManager;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)Rect={CGPoint=dd}{CGSize=dd}}32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionProvider> actionProvider; // @synthesize actionProvider=_actionProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXActionComponentInteractionHandlerFactory> factory; // @synthesize factory=_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXComponentInteractionHandlerManager> interactionHandlerManager; // @synthesize interactionHandlerManager=_interactionHandlerManager;
-@property(readonly) Class superclass;
 
 @end
 

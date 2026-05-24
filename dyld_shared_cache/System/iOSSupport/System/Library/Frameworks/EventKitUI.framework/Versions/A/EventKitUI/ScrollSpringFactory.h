@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (void)endarComposeRecipient;
+- (void)MFCalendarComposeRecipient;
 - (double)@;
 
 // Remaining properties

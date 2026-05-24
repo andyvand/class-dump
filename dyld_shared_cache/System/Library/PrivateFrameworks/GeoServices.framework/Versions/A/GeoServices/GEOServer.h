@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODaemon, NSObject;
-@protocol OS_dispatch_queue;
+@class GEODaemon;
 
 @interface GEOServer
 {
@@ -18,13 +17,13 @@
 + (unsigned int);
 + (id);
 + (Class);
-+ (id)SEARCH_LATENCY_MS;
++ (id)MSL_MIXEDINTENT_CATGEO_BOUNDED_BIZ_SEARCH_LATENCY_MS;
 + (unsigned long long)A&§v©G@;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)apKit.LocationManager.accuracyAuthorization;
 - (id)0@ù
 × ;
 - (void)!¬EùQ¹*°1Â0@ù
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak GEODaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *messageQueue;
 
 @end
 

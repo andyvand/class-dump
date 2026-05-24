@@ -7,7 +7,6 @@
 @interface NewsUI2.PegasusQueryContextManager
 {
     id currentFetch;
-    id fetchDeduper;
 }
 
 @end

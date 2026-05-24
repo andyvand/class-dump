@@ -6,42 +6,31 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKQuery, CKRecordZoneID, NSArray, NSData, NSMutableArray, NSSet, NSString;
+@class NSMutableArray;
 
 @interface CKDQueryURLRequest : CKDURLRequest
 {
     NSMutableArray *_queryResponses;
-    _Bool _shouldFetchAssetContent;
-    _Bool _queryWasSuccessful;
-    CKQuery *_query;
-    NSData *_cursor;
-    unsigned long long _limit;
-    CKRecordZoneID *_zoneID;
-    NSArray *_requestedFields;
-    NSSet *_desiredAssetKeys;
-    CDUnknownBlockType _recordsParsedBlock;
-    NSData *_resultsCursor;
-    NSMutableArray *_recordResponses;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)@;
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (_Bool);
+- (void)&;
 - (void);
 - (_Bool);
+- (void);
+- (_Bool)ted;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ay",&,N,V_triggerCriteriaFilterList;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_messageReferencesTableSchema;
 - (void);
 - (id);
 - (id);
@@ -51,7 +40,7 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (id)¤ú;
 - (void)ð ð	;
 - (id)est.m;
@@ -67,25 +56,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *cursor; // @synthesize cursor=_cursor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *desiredAssetKeys; // @synthesize desiredAssetKeys=_desiredAssetKeys;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) CKQuery *query; // @synthesize query=_query;
 @property(retain, nonatomic) NSMutableArray *queryResponses; // @synthesize queryResponses=_queryResponses;
-@property(nonatomic) _Bool queryWasSuccessful; // @synthesize queryWasSuccessful=_queryWasSuccessful;
-@property(retain, nonatomic) NSMutableArray *recordResponses; // @synthesize recordResponses=_recordResponses;
-@property(copy, nonatomic) CDUnknownBlockType recordsParsedBlock; // @synthesize recordsParsedBlock=_recordsParsedBlock;
-@property(retain, nonatomic) NSArray *requestedFields; // @synthesize requestedFields=_requestedFields;
-@property(retain, nonatomic) NSData *resultsCursor; // @synthesize resultsCursor=_resultsCursor;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

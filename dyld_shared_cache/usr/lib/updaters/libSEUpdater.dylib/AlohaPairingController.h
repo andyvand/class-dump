@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableArray, NSNumber, NSString, SETransceiveHelper;
+@class NSString, SETransceiveHelper;
 
 __attribute__((visibility("hidden")))
 @interface AlohaPairingController
 {
     NSString *_alohaServerIP;
     _Bool _restoreEnvironment;
-    _Bool _useReverseProxy;
-    NSString *_alohaHostname;
-    SETransceiveHelper *_transceiver;
-    NSDictionary *_reverseProxySettings;
-    NSData *_seid;
-    NSString *_fullServerSessionID;
-    NSString *_serverSessionID;
-    NSNumber *_alohaVersion;
-    unsigned long long _state;
-    NSNumber *_ecid;
-    NSNumber *_apChipId;
-    NSString *_debugRecordPath;
-    NSMutableArray *_alohaPlistRecord;
 }
 
 - (void);
@@ -40,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,35 +39,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)�;
 - (id);
 - (void);
+- (id)=;
+- (id);
+- (void)NSt3__120__shared_ptr_pointerIPN4YAML6detail4nodeENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE;
 - (void);
+- (id);
+- (void);
+- (void)h;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *alohaHostname; // @synthesize alohaHostname=_alohaHostname;
-@property(retain, nonatomic) NSMutableArray *alohaPlistRecord; // @synthesize alohaPlistRecord=_alohaPlistRecord;
-@property(retain, nonatomic) NSNumber *alohaVersion; // @synthesize alohaVersion=_alohaVersion;
-@property(retain, nonatomic) NSNumber *apChipId; // @synthesize apChipId=_apChipId;
-@property(retain, nonatomic) NSString *debugRecordPath; // @synthesize debugRecordPath=_debugRecordPath;
-@property(retain, nonatomic) NSNumber *ecid; // @synthesize ecid=_ecid;
-@property(retain, nonatomic) NSString *fullServerSessionID; // @synthesize fullServerSessionID=_fullServerSessionID;
-@property(retain, nonatomic) NSDictionary *reverseProxySettings; // @synthesize reverseProxySettings=_reverseProxySettings;
-@property(retain, nonatomic) NSData *seid; // @synthesize seid=_seid;
-@property(retain, nonatomic) NSString *serverSessionID; // @synthesize serverSessionID=_serverSessionID;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 @property(retain, nonatomic) SETransceiveHelper *transceiver; // @synthesize transceiver=_transceiver;
-@property(nonatomic) _Bool useReverseProxy; // @synthesize useReverseProxy=_useReverseProxy;
 
 @end
 

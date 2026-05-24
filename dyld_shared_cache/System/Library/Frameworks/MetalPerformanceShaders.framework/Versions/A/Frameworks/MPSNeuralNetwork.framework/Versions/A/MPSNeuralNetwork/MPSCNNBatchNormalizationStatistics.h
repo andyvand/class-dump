@@ -13,7 +13,7 @@
 + (const struct MPSLibraryInfo *);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool),C,V_foundInstantAnswersHandler;
 - (_Bool);
 - (unsigned long long);
 - (id);

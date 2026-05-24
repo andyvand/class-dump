@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 @interface SignpostSupportMessageArgument
 {
     unsigned char _type;
-    unsigned char _privacyLevel;
-    NSObject *_argumentObject;
 }
 
 - (unsigned char);
 - (id);
-- (unsigned char);
+- (unsigned char)purgedCount;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject *argumentObject; // @synthesize argumentObject=_argumentObject;
-@property(readonly, nonatomic) unsigned char privacyLevel; // @synthesize privacyLevel=_privacyLevel;
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

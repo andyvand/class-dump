@@ -9,20 +9,14 @@
 @interface SiriUI.LoopedVideoPlayerView
 {
     id playerLayer;
-    id queuePlayer;
-    id playbackLooper;
-    id videoReadyObservation;
-    void delegate;
-    id name;
-    id variation;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)isKeyTransparencyEnabled;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

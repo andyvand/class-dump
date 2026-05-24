@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORestrictedZoneId
 {
     PBUnknownFields *_unknownFields;
-    GEOMapRegion *_boundingBox;
-    unsigned long long _identifier;
-    int _type;
-    unsigned int _version;
-    struct {
-        unsigned int has_identifier:1;
-        unsigned int has_type:1;
-        unsigned int has_version:1;
-    } _flags;
 }
 
-+ (_Bool)wOverride:(id)arg1;
++ (_Bool)setManeuverArrowOverride:(id)arg1;
 - (_Bool);
-- (void);
+- (void)VNComputeDevicePerformanceScoreProviding;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (unsigned int);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)S;
+- (void)l:(id)arg1 hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:suppressStartAlert:activationHostTime:isVoiceOverSiriSoundsEnabled: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
@@ -43,30 +34,22 @@
 - (void);
 - (id)sModelName"b1"read_wpsModelNumber"b1"read_wpsPrimaryDeviceTypeCategory"b1"read_wpsPrimaryDeviceTypeSubCategory"b1"read_wpsResponseType"b1"wrote_anyField"b1};
 - (void)rPointRange:(int)arg1;
-- (id)ta;
+- (id)eventMetadata;
 - (unsigned long long)SArray",R,N,V_holes;
-- (int)leGroup;
+- (int)GEOTransitNearbyScheduleGroup;
 - (id)	
 ;
 - (_Bool)4¤;
 - (_Bool)ND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id != @region_id AND region_id IN children_of_recursive    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
-- (id)_mode;
+- (id)rendering_mode;
 - (void)pNotificationLogEventReadAllFrom can only be called once per object;
 - (id)ÿÿ;
 - (_Bool);
-- (void)3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEE;
+- (void)N6google8protobuf8internal23RepeatedPtrFieldWrapperINSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEE;
 - (void)ñ·=Ab7P@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOMapRegion *boundingBox;
-@property(readonly, nonatomic) _Bool hasBoundingBox;
 @property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) unsigned long long identifier;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int version;
 
 @end
 

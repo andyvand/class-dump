@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)_valueValidatator;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)16@24@32d40@48@56@64@72@80@88Q96Q104@112@120Q128;
-- (id)te;
+- (id)_revgeoRequestTemplate;
 - (id)@V
 °V
 W

@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     struct variant<fstd::unique_function<void ()>, std::function<void ()>> _functor;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)eventTapManager:(void *)arg1 passivelyTappedEvent:type:withProxy: /* Error: Ran out of types for this method. */;
++ (id)eventTapManager:(const void *)arg1 passivelyTappedEvent:type:withProxy: /* Error: Ran out of types for this method. */;
++ (id)drawKnobSlotInRect:(id)arg1 highlight:(void *)arg2;
++ (id)drawKnob;
 - (id);
 - (id);
 - (void);

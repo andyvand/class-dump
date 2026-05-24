@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ILMBPMRRunLoopDelegate;
-
 @interface ILMBPMRRunLoopReporter
 {
     struct __CFRunLoopObserver *mObserver;
-    id <ILMBPMRRunLoopDelegate> mDelegate;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)(=;
 
 @end
 

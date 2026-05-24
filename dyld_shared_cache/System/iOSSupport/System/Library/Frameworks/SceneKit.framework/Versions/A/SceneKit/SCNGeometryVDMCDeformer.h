@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)addressBookFieldLabelPatternMatchers2;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -18,7 +18,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 

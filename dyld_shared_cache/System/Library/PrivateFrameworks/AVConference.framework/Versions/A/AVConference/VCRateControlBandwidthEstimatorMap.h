@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, VCRateControlBandwidthEstimator, VCRateControlServerBag;
-
 __attribute__((visibility("hidden")))
 @interface VCRateControlBandwidthEstimatorMap
 {
     int _state;
-    unsigned int _mode;
-    unsigned int _radioAccessTechnology;
-    double _estimatedBandwidth;
-    double _estimatedBandwidthUncapped;
-    NSMutableDictionary *_estimatorMap;
-    unsigned int _currentActiveEstimatorID;
-    VCRateControlBandwidthEstimator *_defaultEstimator;
-    int _bandwidthEstimationState;
-    _Bool _fastSuddenBandwidthDetectionEnabled;
-    _Bool _l4sHighDataRateEnabled;
-    VCRateControlServerBag *_serverBag;
-    void *_logBWEDump;
 }
 
 - (void);
@@ -39,12 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int bandwidthEstimationState;
 @property(nonatomic) double estimatedBandwidth;
-@property(nonatomic) double estimatedBandwidthUncapped;
-@property(nonatomic) unsigned int mode; // @synthesize mode=_mode;
-@property(nonatomic) unsigned int radioAccessTechnology; // @synthesize radioAccessTechnology=_radioAccessTechnology;
-@property(retain, nonatomic) VCRateControlServerBag *serverBag; // @synthesize serverBag=_serverBag;
 
 @end
 

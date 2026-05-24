@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class NSString, _INPBIntentMetadata;
 
 @protocol _INPBCreateTimerIntent
+- (_INPBIntentMetadata *)kupd/TimeMachine-Framework/RulesEngine/TMRulesEngineBuilder.m;
+- (void);
 - (void)PBContact"24@0:(_Bool)arg1 8Q16;
-- (NSString *)fChildren;
-- (_Bool)ayloadAlarm: /* Error: Ran out of types for this method. */;
+- (NSString *)numberOfChildren;
+- (_Bool)addPayloadAlarm: /* Error: Ran out of types for this method. */;
 - (void)ts;
 - (_Bool)t",&,N,V_flight;
-- (void)tartCallIntentPreferredCallProviderUnsupportedReason:(_Bool)arg1;
+- (void)StringAsStartCallIntentPreferredCallProviderUnsupportedReason:(_Bool)arg1;
 - (_Bool)vity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *label;
-@property(nonatomic) int type;
 @end
 

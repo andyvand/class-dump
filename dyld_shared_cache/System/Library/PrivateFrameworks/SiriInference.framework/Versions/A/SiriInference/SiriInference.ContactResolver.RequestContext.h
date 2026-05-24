@@ -7,10 +7,6 @@
 @interface SiriInference.ContactResolver.RequestContext
 {
     id locale;
-    id appCandidates;
-    id domain;
-    id intent;
-    id intentId;
 }
 
 @end

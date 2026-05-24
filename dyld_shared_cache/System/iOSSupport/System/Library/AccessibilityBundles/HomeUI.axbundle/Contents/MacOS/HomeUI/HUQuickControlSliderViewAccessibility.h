@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)9H;
 - (void);
 - (_Bool);
 - (void);
@@ -33,7 +33,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)axArrayByIgnoringNilElementsWithCount: /* Error: Ran out of types for this method. */;
 
 @end
 

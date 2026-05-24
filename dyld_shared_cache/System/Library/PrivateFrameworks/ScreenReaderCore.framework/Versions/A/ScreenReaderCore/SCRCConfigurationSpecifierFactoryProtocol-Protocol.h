@@ -5,5 +5,6 @@
 //
 
 @protocol SCRCConfigurationSpecifierFactoryProtocol
++ (id);
 @end
 

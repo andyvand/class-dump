@@ -9,15 +9,14 @@
 @interface ChatKit.CKSuggestedRepliesBalloonView : CKImageBalloonView
 {
     id view;
-    id balloonMask;
 }
 
-- (struct CGSize);
+- (struct CGSize)�7AFGGSo6ICNoteCG;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

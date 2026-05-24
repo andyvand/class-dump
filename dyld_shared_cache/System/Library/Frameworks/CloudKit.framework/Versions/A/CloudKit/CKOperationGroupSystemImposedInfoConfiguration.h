@@ -7,14 +7,13 @@
 @interface CKOperationGroupSystemImposedInfoConfiguration
 {
     _Bool _isUplink;
-    _Bool _allowsCellularAccess;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)6@0:8 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -22,7 +21,6 @@
 - (_Bool)í;
 
 // Remaining properties
-@property _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
 @property _Bool isUplink; // @synthesize isUplink=_isUplink;
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol MTLParallelRenderCommandEncoderSPI
+- (void);
 
 // Remaining properties
 @property _Bool separateCommits;

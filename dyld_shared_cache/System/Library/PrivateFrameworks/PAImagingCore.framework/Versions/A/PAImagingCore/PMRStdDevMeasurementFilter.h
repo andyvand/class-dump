@@ -7,8 +7,6 @@
 @interface PMRStdDevMeasurementFilter
 {
     double _mean;
-    double _stdev;
-    double _tolerance;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double mean; // @synthesize mean=_mean;
-@property(readonly, nonatomic) double stdev; // @synthesize stdev=_stdev;
-@property(readonly, nonatomic) double tolerance; // @synthesize tolerance=_tolerance;
 
 @end
 

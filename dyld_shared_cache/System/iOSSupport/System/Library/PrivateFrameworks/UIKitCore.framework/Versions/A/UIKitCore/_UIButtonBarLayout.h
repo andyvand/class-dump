@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIBarButtonItem;
 @protocol _UIButtonBarLayoutMetricsData;
 
 __attribute__((visibility("hidden")))
@@ -14,16 +13,16 @@ __attribute__((visibility("hidden")))
     _Bool _dirty;
 }
 
+- (id)_bytesErrorLevel;
 - (id);
-- (id);
-- (_Bool):accessoryType: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithFrame:backgroundImageProvider:accessoryType: /* Error: Ran out of types for this method. */;
 - (_Bool)erredContentAlignment;
 - (_Bool)ropVisible;
 - (id)T@"UIPresentationController",&,N,G_temporaryPresentationController,S_setTemporaryPresentationController:,V_temporaryPresentationController /* Error: Ran out of types for this method. */;
 - (id)T@"UIVisualEffect",N,&;
-- (void)fsetFromContainer:(_Bool)arg1;
-- (double)es;
-- (void)positionalLayoutDynamicAnimator;
+- (void)_attributesOffsetFromContainer:(_Bool)arg1;
+- (double)_UIDynamicCaretAlternatives;
+- (void)_UICollectionCompositionalLayoutDynamicAnimator;
 - (void)TjjLkLlØl,nlnànäo¨p;
 - (_Bool)H<ô<Ð= >;
 - (_Bool)4³¹;
@@ -32,24 +31,20 @@ __attribute__((visibility("hidden")))
 - (void)°ÿÿÈÿÿàÿÿøÿÿÿÿ(ÿÿ@ÿÿXÿÿpÿÿÿÿ ÿÿ¸ÿÿÐÿÿèÿÿ;
 - (void)åýþÿ êîÿTFïÿj0ïÿ;
 - (void); force:%0.3f; window:%@; responder:%@; %@ /* Error: Ran out of types for this method. */;
-- (id)issalDidBeginNotification;
+- (id)UIKeyboardPrivateInteractiveDismissalDidBeginNotification;
 - (_Bool)izedEndiannessByteArray(const uint8_t *, const size_t);
 - (void)g;
 - (void)ebaseInfo"8Q16^B24;
 - (void)¾7SgXw;
 - (void);
-- (void)omKey;
+- (void)UIConfigurationStateCustomKey;
 - (void)ä=^;
 - (_Bool)`;
 - (id)Éyc;
 - (void)p«!ÿXºÚ`"d;
 
 // Remaining properties
-@property(readonly, nonatomic) UIBarButtonItem *barButtonItem;
 @property(nonatomic, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(readonly, nonatomic) _Bool isGroupLayout;
-@property(readonly, nonatomic) _Bool isSpaceLayout;
-@property(readonly, nonatomic) NSArray *subLayouts;
 
 @end
 

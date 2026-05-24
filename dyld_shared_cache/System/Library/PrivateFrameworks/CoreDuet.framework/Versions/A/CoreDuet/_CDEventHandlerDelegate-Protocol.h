@@ -5,5 +5,6 @@
 //
 
 @protocol _CDEventHandlerDelegate
+- (void)]P;
 @end
 

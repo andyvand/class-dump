@@ -7,14 +7,14 @@
 @class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBShareETAIntent
+- (void)MLoggingFormatter",&,V_formatter;
+- (_INPBIntentMetadata *)ntries;
+- (void);
 - (_Bool)sactionNote:billType:dueDate: /* Error: Ran out of types for this method. */;
-- (void)iveText;
-- (NSArray *)upingForKey:iOS:macOS:watchOS: /* Error: Ran out of types for this method. */;
+- (void)hasDescriptiveText;
+- (NSArray *)groupingForKey:iOS:macOS:watchOS: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
 @end
 

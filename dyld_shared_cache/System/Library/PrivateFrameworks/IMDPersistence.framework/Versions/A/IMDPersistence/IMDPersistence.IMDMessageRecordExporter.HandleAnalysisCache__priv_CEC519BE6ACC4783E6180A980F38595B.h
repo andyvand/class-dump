@@ -7,7 +7,6 @@
 @interface IMDPersistence.IMDMessageRecordExporter.HandleAnalysisCache__priv_CEC519BE6ACC4783E6180A980F38595B
 {
     id chatBotCache;
-    id businessCache;
 }
 
 @end

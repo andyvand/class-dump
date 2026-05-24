@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSData, NSString;
-@protocol CRKCancelable, CRKIDSAddressTranslator, CRKIDSPrimitives;
+@protocol CRKIDSPrimitives;
 
 @interface CRKFetchASMCertificatesOperation
 {
     id <CRKIDSPrimitives> _IDSPrimitives;
-    id <CRKIDSAddressTranslator> _addressTranslator;
-    DMFControlGroupIdentifier *_controlGroupIdentifier;
-    NSString *_destinationAppleID;
-    NSString *_sourceAppleID;
-    NSString *_destinationDeviceIdentifier;
-    long long _sourceRole;
-    long long _destinationRole;
-    NSData *_requesterCertificate;
-    id <CRKCancelable> _messageReceiveSubscription;
 }
 
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -36,22 +26,13 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (_Bool)sND½;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(readonly, nonatomic) id <CRKIDSAddressTranslator> addressTranslator; // @synthesize addressTranslator=_addressTranslator;
-@property(readonly, nonatomic) DMFControlGroupIdentifier *controlGroupIdentifier; // @synthesize controlGroupIdentifier=_controlGroupIdentifier;
-@property(readonly, copy, nonatomic) NSString *destinationAppleID; // @synthesize destinationAppleID=_destinationAppleID;
-@property(readonly, copy, nonatomic) NSString *destinationDeviceIdentifier; // @synthesize destinationDeviceIdentifier=_destinationDeviceIdentifier;
-@property(readonly, nonatomic) long long destinationRole; // @synthesize destinationRole=_destinationRole;
-@property(retain, nonatomic) id <CRKCancelable> messageReceiveSubscription; // @synthesize messageReceiveSubscription=_messageReceiveSubscription;
-@property(readonly, copy, nonatomic) NSData *requesterCertificate; // @synthesize requesterCertificate=_requesterCertificate;
-@property(readonly, copy, nonatomic) NSString *sourceAppleID; // @synthesize sourceAppleID=_sourceAppleID;
-@property(readonly, nonatomic) long long sourceRole; // @synthesize sourceRole=_sourceRole;
 
 @end
 

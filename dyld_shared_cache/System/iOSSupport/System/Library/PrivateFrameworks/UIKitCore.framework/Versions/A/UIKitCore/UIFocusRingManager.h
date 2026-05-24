@@ -15,14 +15,14 @@
 + (void)!Fù±bÐ1Â0@ù
 × ;
 + (Class)× ;
-+ (id)e: /* Error: Ran out of types for this method. */;
++ (id)webView:runBeforeUnloadConfirmPanelWithMessage:initiatedByFrame: /* Error: Ran out of types for this method. */;
 + (void)hysteresisPadding;
-+ (void)nallyAnimate:(id)arg1 withAnimation:(id)arg2 layout:completion: /* Error: Ran out of types for this method. */;
-+ (id);
-+ (void)r;
-+ (void)AssistantEntry;
++ (void)conditionallyAnimate:(id)arg1 withAnimation:(id)arg2 layout:completion: /* Error: Ran out of types for this method. */;
++ (id)attributedStringWithAdaptiveImageGlyph:(id)arg1 attributes: /* Error: Ran out of types for this method. */;
++ (void)_hasCustomized_minimumScaleFactor;
++ (void)_UIAssistantEntry;
 + (void)cene is not available for orientation locking:(id)arg1 %{public}@;
-+ (_Bool)ViewDidClearMessagesNotification;
++ (_Bool)UIWebViewDidClearMessagesNotification;
 + (void)lôþ;
 + (id);
 - (id);
@@ -30,16 +30,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)@9	;
+- (id)serviceRestartedPropertyAddress;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id)"b1};
-- (void)ctedShadowVerticalOffset:(id)arg1;
-- (void)ionMode;
-- (void)chAtomViewVisualStyle_default;
+- (void)setDefaultSelectedShadowVerticalOffset:(id)arg1;
+- (void)focusSystemDeactivationMode;
+- (void)_UISearchAtomViewVisualStyle_default;
 - (id)ted to enter new reordering session whilst an existing session was active. Collection view:%@ /* Error: Ran out of types for this method. */;
 - (void)a¤;
 

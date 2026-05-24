@@ -4,65 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CLTripSegmentProcessorOptions
 {
     _Bool _runLinearInterpolator;
-    _Bool _runInertialIntegrator;
-    _Bool _runMapIntegrator;
-    _Bool _useXPCServiceForMapQuery;
-    _Bool _shouldRecordDataInFileForReplay;
-    _Bool _createSparseDataFromOneHzData;
-    _Bool _isSimulatedSparseProcessing;
-    _Bool _isNetworkAccessAllowed;
-    _Bool _useParticleMapMatcherForSnappingInMapIntegrator;
-    _Bool _useNonGNSSFixesForRouteReconstruction;
-    _Bool _runLocationOutlierRejector;
-    _Bool _isWatch;
-    _Bool _enableUseWifiInPTS;
-    double _timeBetweenReconstructedPointsSeconds;
-    NSString *_tripSegmentRecorderLoggingDirectory;
-    double _maxProcessingTimeInMilliSec;
-    double _useXPCServiceForVehicularAStarSearch;
-    unsigned long long _windowSizeForLocationOutlierRejector;
-    unsigned long long _stepSizeForLocationOutlierRejector;
-    double _minDistanceBetweenODVisitsToGenerateTripSegmentMeters;
-    double _maxTripSegmentDurationSeconds;
 }
 
 + (_Bool);
 - (unsigned long long);
 - (double);
+- (_Bool)b;
 - (_Bool);
 - (_Bool);
+- (id)"
+;
+- (double);
+- (unsigned long long)&;
+- (void);
+- (void);
+- (void)C";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)^;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)BM;
+- (void);
+- (void) ?J;
+- (void);
 - (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (double);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
 - (double);
 - (double);
 - (_Bool);
@@ -70,39 +49,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)r tagID %d
+;
+- (id)Jy?;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)setObjectThreadgroupMemoryLength:(struct _NSZone *)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (_Bool)¸	¤;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool createSparseDataFromOneHzData; // @synthesize createSparseDataFromOneHzData=_createSparseDataFromOneHzData;
-@property(readonly, nonatomic) _Bool enableUseWifiInPTS; // @synthesize enableUseWifiInPTS=_enableUseWifiInPTS;
-@property(readonly, nonatomic) _Bool isNetworkAccessAllowed; // @synthesize isNetworkAccessAllowed=_isNetworkAccessAllowed;
-@property(readonly, nonatomic) _Bool isSimulatedSparseProcessing; // @synthesize isSimulatedSparseProcessing=_isSimulatedSparseProcessing;
-@property(readonly, nonatomic) _Bool isWatch; // @synthesize isWatch=_isWatch;
-@property(readonly, nonatomic) double maxProcessingTimeInMilliSec; // @synthesize maxProcessingTimeInMilliSec=_maxProcessingTimeInMilliSec;
-@property(readonly, nonatomic) double maxTripSegmentDurationSeconds; // @synthesize maxTripSegmentDurationSeconds=_maxTripSegmentDurationSeconds;
-@property(readonly, nonatomic) double minDistanceBetweenODVisitsToGenerateTripSegmentMeters; // @synthesize minDistanceBetweenODVisitsToGenerateTripSegmentMeters=_minDistanceBetweenODVisitsToGenerateTripSegmentMeters;
-@property(readonly, nonatomic) _Bool runInertialIntegrator; // @synthesize runInertialIntegrator=_runInertialIntegrator;
 @property(readonly, nonatomic) _Bool runLinearInterpolator; // @synthesize runLinearInterpolator=_runLinearInterpolator;
-@property(readonly, nonatomic) _Bool runLocationOutlierRejector; // @synthesize runLocationOutlierRejector=_runLocationOutlierRejector;
-@property(readonly, nonatomic) _Bool runMapIntegrator; // @synthesize runMapIntegrator=_runMapIntegrator;
-@property(readonly, nonatomic) _Bool shouldRecordDataInFileForReplay; // @synthesize shouldRecordDataInFileForReplay=_shouldRecordDataInFileForReplay;
-@property(readonly, nonatomic) unsigned long long stepSizeForLocationOutlierRejector; // @synthesize stepSizeForLocationOutlierRejector=_stepSizeForLocationOutlierRejector;
-@property(readonly, nonatomic) double timeBetweenReconstructedPointsSeconds; // @synthesize timeBetweenReconstructedPointsSeconds=_timeBetweenReconstructedPointsSeconds;
-@property(readonly, nonatomic) NSString *tripSegmentRecorderLoggingDirectory; // @synthesize tripSegmentRecorderLoggingDirectory=_tripSegmentRecorderLoggingDirectory;
-@property(readonly, nonatomic) _Bool useNonGNSSFixesForRouteReconstruction; // @synthesize useNonGNSSFixesForRouteReconstruction=_useNonGNSSFixesForRouteReconstruction;
-@property(readonly, nonatomic) _Bool useParticleMapMatcherForSnappingInMapIntegrator; // @synthesize useParticleMapMatcherForSnappingInMapIntegrator=_useParticleMapMatcherForSnappingInMapIntegrator;
-@property(readonly, nonatomic) _Bool useXPCServiceForMapQuery; // @synthesize useXPCServiceForMapQuery=_useXPCServiceForMapQuery;
-@property(readonly, nonatomic) double useXPCServiceForVehicularAStarSearch; // @synthesize useXPCServiceForVehicularAStarSearch=_useXPCServiceForVehicularAStarSearch;
-@property(readonly, nonatomic) unsigned long long windowSizeForLocationOutlierRejector; // @synthesize windowSizeForLocationOutlierRejector=_windowSizeForLocationOutlierRejector;
 
 @end
 

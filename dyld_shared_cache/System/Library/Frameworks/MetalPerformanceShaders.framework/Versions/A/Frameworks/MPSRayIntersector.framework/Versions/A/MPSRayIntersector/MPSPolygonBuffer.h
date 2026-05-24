@@ -9,46 +9,35 @@
 @interface MPSPolygonBuffer
 {
     id <MTLBuffer> _vertexBuffer;
-    unsigned long long _vertexBufferOffset;
-    id <MTLBuffer> _indexBuffer;
-    unsigned long long _indexBufferOffset;
-    id <MTLBuffer> _maskBuffer;
-    unsigned long long _maskBufferOffset;
-    unsigned long long _polygonCount;
 }
 
 + (id);
 + (_Bool);
+- (void)3;
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)   ;
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)
+V;
+- (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(retain, nonatomic) id <MTLBuffer> maskBuffer; // @synthesize maskBuffer=_maskBuffer;
-@property(nonatomic) unsigned long long maskBufferOffset; // @synthesize maskBufferOffset=_maskBufferOffset;
-@property(nonatomic) unsigned long long polygonCount; // @synthesize polygonCount=_polygonCount;
 @property(retain, nonatomic) id <MTLBuffer> vertexBuffer; // @synthesize vertexBuffer=_vertexBuffer;
-@property(nonatomic) unsigned long long vertexBufferOffset; // @synthesize vertexBufferOffset=_vertexBufferOffset;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, RegisteredPreKey;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface SenderPublicIdentity
@@ -15,10 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSString *destinationHash; // @dynamic destinationHash;
-@property(retain, nonatomic) RegisteredPreKey *messagedKey; // @dynamic messagedKey;
-@property(retain, nonatomic) NSData *skippedCounters; // @dynamic skippedCounters;
-@property(nonatomic) int upperBufferIndex; // @dynamic upperBufferIndex;
 
 @end
 

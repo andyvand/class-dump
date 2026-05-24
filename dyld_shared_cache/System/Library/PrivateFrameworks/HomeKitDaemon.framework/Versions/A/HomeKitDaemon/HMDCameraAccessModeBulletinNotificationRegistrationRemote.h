@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinNotificationRegistrationSource, HMDCameraAccessModeBulletinNotificationRegistration;
+@class HMDCameraAccessModeBulletinNotificationRegistration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraAccessModeBulletinNotificationRegistrationRemote
 {
     HMDCameraAccessModeBulletinNotificationRegistration *_registration;
-    HMDBulletinNotificationRegistrationSource *_source;
 }
 
 + (_Bool)ìå:8³ /* Error: Ran out of types for this method. */;
@@ -18,15 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id)CurrentParticipantCloudShareID;
-- (id)IfCameraSignificantEventBulletinRegistration;
+- (id)fetchCurrentParticipantCloudShareID;
+- (id)castIfCameraSignificantEventBulletinRegistration;
 - (id)stream data dictionary:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id)@@;
 
 // Remaining properties
 @property(readonly, copy) HMDCameraAccessModeBulletinNotificationRegistration *registration; // @synthesize registration=_registration;
-@property(readonly, copy) HMDBulletinNotificationRegistrationSource *source; // @synthesize source=_source;
 
 @end
 

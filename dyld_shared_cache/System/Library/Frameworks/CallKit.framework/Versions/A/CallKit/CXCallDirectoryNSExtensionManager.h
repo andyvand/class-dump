@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol CXCallDirectoryNSExtensionManagerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CXCallDirectoryNSExtensionManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <CXCallDirectoryNSExtensionManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id _extensionMatchingContext;
-    NSDictionary *_extensions;
 }
 
-+ (id);
++ (id)r TEXT NOT NULL, url TEXT NOT NULL, url_expiration_date INTEGER NOT NULL DEFAULT 0, mini_sinf BLOB, sinfs BLOB, PRIMARY KEY (identifier, hashed_person_id, flavor));
 - (void);
 - (void);
 - (void);
@@ -34,23 +30,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ean up for saved accounts with unknown contributor ID's.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXCallDirectoryNSExtensionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id extensionMatchingContext; // @synthesize extensionMatchingContext=_extensionMatchingContext;
-@property(copy, nonatomic) NSDictionary *extensions; // @synthesize extensions=_extensions;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

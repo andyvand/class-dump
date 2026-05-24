@@ -9,13 +9,9 @@
 @interface CKVCoalescedTask
 {
     NSNumber *_taskId;
-    NSNumber *_eventId;
-    CDUnknownBlockType _runBlock;
-    _Atomic _Bool _executed;
-    NSDate *_date;
 }
 
-- (void);
+- (void)lastOneTimeShareDateForPasskey;
 - (id);
 - (CDUnknownBlockType);
 - (id);

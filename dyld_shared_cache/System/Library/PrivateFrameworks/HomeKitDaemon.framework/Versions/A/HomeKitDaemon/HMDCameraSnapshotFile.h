@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotFile
 {
     _Bool _unmanaged;
-    _Bool _filled;
-    NSString *_filePath;
-    NSDate *_dateCaptured;
-    double _aspectRatio;
-    NSNumber *_slotIdentifier;
 }
 
 + (id);
 + (id);
 + (id)9ÂÿxñÇB;
-- (void);
-- (void);
-- (void);
+- (void)SDate",&,N,V_lastPostedNotificationDate;
+- (void)MSPTransitStorageIncident;
+- (void)rPrivacy early exit:(_Bool)arg1 no composed route to truncate;
 - (_Bool);
 - (id);
-- (id);
+- (id)ы;
 - (id);
 - (id);
 - (id);
@@ -41,25 +36,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)4;
 - (id)%@;
-- (void)ource;
+- (void)IndexerDataSource;
 - (double)ÿ*
 ÏB;
 
 // Remaining properties
-@property(readonly) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(readonly, copy) NSDate *dateCaptured; // @synthesize dateCaptured=_dateCaptured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSString *filePath; // @synthesize filePath=_filePath;
-@property(getter=isFilled) _Bool filled; // @synthesize filled=_filled;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSData *idsData;
-@property(copy) NSNumber *slotIdentifier; // @synthesize slotIdentifier=_slotIdentifier;
-@property(readonly) Class superclass;
-@property(getter=isUnmanaged) _Bool unmanaged; // @synthesize unmanaged=_unmanaged;
 
 @end
 

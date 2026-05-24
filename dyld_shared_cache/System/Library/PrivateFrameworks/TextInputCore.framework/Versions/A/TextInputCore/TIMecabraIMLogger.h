@@ -13,11 +13,11 @@
 
 + (_Bool);
 - (void);
-- (void);
+- (void)isRTTSupportedForContext:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (void)0@ù
 × ;

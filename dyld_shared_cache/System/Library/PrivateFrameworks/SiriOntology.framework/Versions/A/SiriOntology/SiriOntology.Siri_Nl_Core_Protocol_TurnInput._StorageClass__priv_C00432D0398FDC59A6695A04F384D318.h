@@ -7,14 +7,6 @@
 @interface SiriOntology.Siri_Nl_Core_Protocol_TurnInput._StorageClass__priv_C00432D0398FDC59A6695A04F384D318
 {
     id _systemDialogActGroup;
-    id _salientEntities;
-    id _activeTasks;
-    id _executedTasks;
-    id _asrOutputs;
-    id _turnContext;
-    id _locale;
-    id _tapToEdit;
-    id _startTimestamp;
 }
 
 @end

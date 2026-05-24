@@ -6,29 +6,21 @@
 
 #import <GeoServices/_GEORouteMatchUpdater.h>
 
-@class GEOComposedRouteStep, GEOComposedTransitTripRouteStep, GEOPBTransitStation, GEOPBTransitStop;
+@class GEOPBTransitStop;
 
 __attribute__((visibility("hidden")))
 @interface _GEORouteMatchUpdater_EnterBoard : _GEORouteMatchUpdater
 {
     GEOPBTransitStop *_transitStop;
-    GEOPBTransitStation *_transitStation;
-    CDStruct_2c43369c _entranceCoordinate;
-    struct PolylineCoordinate _routeCoordinateApproaching;
-    struct PolylineCoordinate _routeCoordinateAtStation;
-    GEOComposedRouteStep *_enterStationStep;
-    GEOComposedRouteStep *_boardVehicleStep;
-    GEOComposedTransitTripRouteStep *_rideStep;
-    _Bool _hasEnteredStation;
 }
 
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)initWithPersistenceBackend:(id)arg1 managedObjectContext:owningAddressBook:changesNotifier: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithPersistenceBackend:(id)arg1 managedObjectContext:changesNotifier: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithPersistenceBackend:(id)arg1 managedObjectContext: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithCoder:(id)arg1;
+- (_Bool)initWithCanCreateContacts:(id)arg1 canDeleteContacts:(id)arg2 canCreateGroups: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

@@ -7,12 +7,6 @@
 @interface JetEngine.ImpressionsTracking.AppearanceJournal
 {
     id elementID;
-    id metricsFields;
-    id times;
-    id parentContextID;
-    id uniqueImpressionID;
-    id uniqueParentID;
-    id position;
 }
 
 @end

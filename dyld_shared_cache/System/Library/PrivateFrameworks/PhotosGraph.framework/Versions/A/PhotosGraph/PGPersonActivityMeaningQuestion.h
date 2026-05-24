@@ -6,24 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGPersonActivityMeaningQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
-- (id);
+- (id)initWithCapacity:(id)arg1;
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id):result: /* Error: Ran out of types for this method. */;
+- (id)generateLocationTitleForTripWithMomentNodes:locationHelper:result: /* Error: Ran out of types for this method. */;
 - (void)ate:andDate:atLocation:withPersonLocalIdentifiers:inPhotoLibrary:serviceManager:locationCache:] /* Error: Ran out of types for this method. */;
 
 @end

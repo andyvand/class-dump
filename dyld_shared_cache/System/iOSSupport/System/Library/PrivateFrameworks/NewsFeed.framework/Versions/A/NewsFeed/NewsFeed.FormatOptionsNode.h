@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatOptionsNode
 {
     id _identifier;
-    id _statements;
-    id _children;
-    id flex;
 }
 
 @end

@@ -9,11 +9,10 @@
 @interface ICSByDayValue
 {
     NSNumber *_number;
-    long long _weekday;
 }
 
 + (long long);
-+ (id);
++ (id),;
 + (_Bool);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *number;
 @property(nonatomic) long long weekday; // @synthesize weekday=_weekday;
 
 @end

@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface NSSecureStringWrapper
 {
     struct __CFString *_originalString;
-    unsigned short _bulletCharacter;
-    unsigned long long _length;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id)ediately:(struct _NSZone *)arg1 raisesForNotApplicableKeys:error: /* Error: Ran out of types for this method. */;
+- (id)_setValue:(struct _NSZone *)arg1 forKeyPath:ofObject:mode:validateImmediately:raisesForNotApplicableKeys:error: /* Error: Ran out of types for this method. */;
 - (unsigned short)Àé;ØÜó;
 - (const char *)a	`¨D;
 - (const unsigned short *)`^üþ±d±E;

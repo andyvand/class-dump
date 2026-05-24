@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPPage, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface CPZoneBorder
 {
     struct CGRect bounds;
-    CPPage *page;
-    NSMutableArray *ownerArray;
-    NSMutableArray *graphicObjects;
-    NSMutableArray *neighbors;
-    NSMutableArray *intersections;
-    _Bool isHorizontal;
-    _Bool hasForwardVector;
-    _Bool hasBackwardVector;
-    double overhangMin;
-    double overhangMax;
 }
 
 + (void);
@@ -37,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -54,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -65,16 +53,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (long long);
 - (void);
 - (long long);
-- (void);
-- (long long);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (id);

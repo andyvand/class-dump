@@ -7,10 +7,6 @@
 @interface BlastDoor.MachImage
 {
     id machPort;
-    id bufferSize;
-    id isBackedByMachPort;
-    id buffer;
-    id vmAddress;
 }
 
 @end

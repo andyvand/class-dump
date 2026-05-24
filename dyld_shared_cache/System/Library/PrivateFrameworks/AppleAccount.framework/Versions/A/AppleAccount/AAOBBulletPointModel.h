@@ -9,29 +9,19 @@
 @interface AAOBBulletPointModel
 {
     NSString *_symbolName;
-    NSString *_title;
-    NSString *_description;
 }
 
-- (id);
+- (id)we won't add a policy;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Vv;
 - (id);
-- (id);
-- (void)thenticationChallenge: /* Error: Ran out of types for this method. */;
+- (id)__TEXT;
+- (void)performDefaultHandlingForAuthenticationChallenge: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *description; // @synthesize description=_description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

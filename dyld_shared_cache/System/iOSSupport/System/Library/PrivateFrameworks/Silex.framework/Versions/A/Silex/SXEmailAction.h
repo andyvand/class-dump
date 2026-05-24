@@ -9,8 +9,6 @@
 @interface SXEmailAction
 {
     SXJSONDictionary *analytics;
-    NSString *_recipient;
-    NSString *_subject;
 }
 
 - (id);
@@ -21,17 +19,7 @@
 - (id)ageViews;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *recipient; // @synthesize recipient=_recipient;
-@property(readonly, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

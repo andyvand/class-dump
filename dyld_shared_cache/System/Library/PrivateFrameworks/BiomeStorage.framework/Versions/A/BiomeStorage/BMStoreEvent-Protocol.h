@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol BMStoreData;
-
 @protocol BMStoreEvent
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char error;
-@property(readonly, nonatomic) id <BMStoreData> eventBody;
 @property(readonly, nonatomic) double timestamp;
 @end
 

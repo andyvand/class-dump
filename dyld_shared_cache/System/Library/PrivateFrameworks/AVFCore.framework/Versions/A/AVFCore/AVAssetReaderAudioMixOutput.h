@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVAssetReaderOutput.h>
 
-@class AVAssetReaderAudioMixOutputInternal, AVAudioMix, NSArray, NSDictionary, NSString;
+@class AVAssetReaderAudioMixOutputInternal, NSArray;
 
 @interface AVAssetReaderAudioMixOutput : AVAssetReaderOutput
 {
@@ -25,21 +25,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (void);
 - (_Bool);
 - (id);
+- (id)E;
+- (void)block_invoke_2;
+- (id)TKTokenDriverContext;
 - (id);
-- (void);
-- (id);
-- (id);
-- (struct opaqueMTAudioProcessingTap *);
+- (struct opaqueMTAudioProcessingTap *)setRebootType:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) AVAudioMix *audioMix;
-@property(readonly, nonatomic) NSDictionary *audioSettings;
-@property(copy, nonatomic) NSString *audioTimePitchAlgorithm;
 @property(readonly, nonatomic) NSArray *audioTracks;
 
 @end

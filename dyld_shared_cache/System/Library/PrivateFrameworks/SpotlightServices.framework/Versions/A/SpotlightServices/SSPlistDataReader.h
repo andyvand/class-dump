@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface SSPlistDataReader
 {
     struct _MDPlistContainer *_container;
-    CDStruct_ab85f6a0 _obj;
 }
 
 - (void);
@@ -21,15 +18,13 @@
 - (id);
 - (double);
 - (long long);
-- (double);
+- (double)rval"16;
 - (unsigned long long);
 - (_Bool);
 - (struct _MDPlistContainer *)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSMutableArray *allKeys;
-@property(readonly, nonatomic) NSArray *blocklist;
 @property(readonly, nonatomic) unsigned long long count;
 
 @end

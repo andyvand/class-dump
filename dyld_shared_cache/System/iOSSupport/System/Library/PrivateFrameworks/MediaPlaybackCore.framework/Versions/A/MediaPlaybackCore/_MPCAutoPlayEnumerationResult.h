@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (long long);
@@ -23,18 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long branchDepth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entryType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *itemIdentifier;
-@property(readonly, nonatomic, getter=isRemoved) _Bool removed;
 @property(readonly, nonatomic) NSString *sectionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

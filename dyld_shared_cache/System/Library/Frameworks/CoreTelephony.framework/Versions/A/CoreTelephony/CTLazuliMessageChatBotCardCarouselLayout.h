@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliMessageChatBotCardStyle, CTLazuliMessageChatBotDescriptionStyle, CTLazuliMessageChatBotTitleStyle;
-
 @interface CTLazuliMessageChatBotCardCarouselLayout
 {
     long long _orientation;
-    long long _imageAlignment;
-    long long _width;
-    CTLazuliMessageChatBotTitleStyle *_titleStyle;
-    CTLazuliMessageChatBotDescriptionStyle *_descriptionStyle;
-    CTLazuliMessageChatBotCardStyle *_cardStyle;
 }
 
-+ (_Bool);
++ (_Bool)AVMetricPlayerItemVariantSwitchEvent:%p %@ fromVariant:%@ toVariant:%@ videoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@ didSucceed:%d> /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (id);
@@ -28,24 +21,19 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)(;
 - (long long);
 - (_Bool);
-- (void);
-- (void);
-- (long long);
+- (void)ement",R;
+- (void)performSelector:(long long)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (long long)$;
 - (id);
 - (void);
 - (void)ª)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliMessageChatBotCardStyle *cardStyle; // @synthesize cardStyle=_cardStyle;
-@property(retain, nonatomic) CTLazuliMessageChatBotDescriptionStyle *descriptionStyle; // @synthesize descriptionStyle=_descriptionStyle;
-@property(nonatomic) long long imageAlignment; // @synthesize imageAlignment=_imageAlignment;
 @property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(retain, nonatomic) CTLazuliMessageChatBotTitleStyle *titleStyle; // @synthesize titleStyle=_titleStyle;
-@property(nonatomic) long long width; // @synthesize width=_width;
 
 @end
 

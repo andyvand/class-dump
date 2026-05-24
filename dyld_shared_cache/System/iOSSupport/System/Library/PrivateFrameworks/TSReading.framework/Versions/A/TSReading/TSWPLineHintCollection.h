@@ -9,30 +9,23 @@
 @interface TSWPLineHintCollection : TSPObject
 {
     CDStruct_cd85e889 *mHints;
-    unsigned long long mHintsCount;
-    _Bool mValid;
-    _Bool mHasColumnIndices;
-    TSWPLineHintCollection *mContainingCollection;
 }
 
 - (unsigned long long);
+- (id)account after creation for ;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)PlayerObserver;
 - (struct _NSRange);
 - (struct _NSRange);
-- (_Bool);
-- (id);
+- (_Bool)WaitingReason;
+- (id)PlaybackSessionSummary;
 - (_Bool);
 - (const CDStruct_cd85e889 *);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasColumnIndices; // @synthesize hasColumnIndices=mHasColumnIndices;
 @property(readonly, nonatomic) const CDStruct_cd85e889 *hints;
-@property(readonly, nonatomic) unsigned long long hintsCount; // @synthesize hintsCount=mHintsCount;
-@property(readonly, nonatomic) _Bool valid; // @synthesize valid=mValid;
 
 @end
 

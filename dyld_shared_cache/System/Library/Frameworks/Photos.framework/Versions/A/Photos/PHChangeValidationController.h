@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObjectContext, NSOrderedSet, NSString, PLPhotoLibrary;
+@class NSArray;
 
 @interface PHChangeValidationController
 {
     _Bool _didPrepare;
-    _Bool _confirmationRequired;
-    NSOrderedSet *_insertRequests;
-    NSOrderedSet *_updateRequests;
-    NSOrderedSet *_deleteRequests;
-    NSManagedObjectContext *_managedObjectContext;
-    PLPhotoLibrary *_photoLibrary;
-    NSArray *_renderedContentURLs;
-    NSArray *_assetsToChangeContent;
-    NSArray *_assetsToRevert;
-    NSArray *_assetsToHide;
-    NSArray *_assetsToDelete;
-    NSArray *_albumsToDelete;
-    NSArray *_foldersToDelete;
-    NSString *_clientName;
 }
 
 - (id);
@@ -34,38 +20,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)timalStateForUserInitiatedMergeWithPersons:nominalTarget: /* Error: Ran out of types for this method. */;
+- (id)g to keep state as %ld;
+- (id)ayingAlertForStateDescriptor:(%{public}@) isForMusicPlayback:(%{BOOL}d). /* Error: Ran out of types for this method. */;
+- (void)pickOptimalStateForUserInitiatedMergeWithPersons:nominalTarget: /* Error: Ran out of types for this method. */;
 - (id)L;
-- (id)operties;
+- (id)CGImageProperties;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *albumsToDelete; // @synthesize albumsToDelete=_albumsToDelete;
-@property(readonly, nonatomic) NSArray *assetsToChangeContent; // @synthesize assetsToChangeContent=_assetsToChangeContent;
-@property(readonly, nonatomic) NSArray *assetsToDelete; // @synthesize assetsToDelete=_assetsToDelete;
-@property(readonly, nonatomic) NSArray *assetsToHide; // @synthesize assetsToHide=_assetsToHide;
-@property(readonly, nonatomic) NSArray *assetsToRevert; // @synthesize assetsToRevert=_assetsToRevert;
-@property(readonly, copy, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(readonly, nonatomic) _Bool confirmationRequired; // @synthesize confirmationRequired=_confirmationRequired;
-@property(readonly, nonatomic) NSOrderedSet *deleteRequests; // @synthesize deleteRequests=_deleteRequests;
-@property(readonly, nonatomic) NSArray *foldersToDelete; // @synthesize foldersToDelete=_foldersToDelete;
-@property(readonly, nonatomic) NSOrderedSet *insertRequests; // @synthesize insertRequests=_insertRequests;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly, nonatomic) PLPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 @property(readonly, nonatomic) NSArray *renderedContentURLs; // @synthesize renderedContentURLs=_renderedContentURLs;
-@property(readonly, nonatomic) NSOrderedSet *updateRequests; // @synthesize updateRequests=_updateRequests;
 
 @end
 

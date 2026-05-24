@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol GEOMapTransitStop;
-
 @protocol GEOMapTransitLink
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *internalLineName;
-@property(readonly, nonatomic) unsigned int minimumTravelTime;
-@property(readonly, nonatomic) id <GEOMapTransitStop> stopFrom;
-@property(readonly, nonatomic) id <GEOMapTransitStop> stopTo;
 @property(readonly, nonatomic) unsigned long long transitLineID;
 @end
 

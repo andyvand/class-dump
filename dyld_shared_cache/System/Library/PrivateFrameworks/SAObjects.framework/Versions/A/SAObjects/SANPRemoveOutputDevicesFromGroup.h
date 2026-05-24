@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SANPRemoveOutputDevicesFromGroup : SABaseClientBoundCommand
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupID;
-@property(copy, nonatomic) NSArray *hashedRouteUIDs;
 
 @end
 

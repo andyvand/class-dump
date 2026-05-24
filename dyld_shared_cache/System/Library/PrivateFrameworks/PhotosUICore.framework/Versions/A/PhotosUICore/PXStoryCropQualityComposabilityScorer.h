@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXStoryCropQualityComposabilityScorer
 {
     struct vector<(anonymous namespace)::_PXStoryAutoEditCropScoreInfo, std::allocator<(anonymous namespace)::_PXStoryAutoEditCropScoreInfo>> _scores;
@@ -13,18 +11,12 @@
 
 - (id);
 - (struct _PXStoryAutoEditCropScoreInfo);
-- (id);
-- (id)ntCoordinator;
+- (id)disableFadeInAndOut;
+- (id)OneUpSharePlaySessionRecipientCoordinator;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

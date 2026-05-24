@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBConnectedCall;
+@class NSString, _INPBConnectedCall;
 
 @protocol _INPBAnswerCallIntentResponse
-- (int);
+- (_INPBConnectedCall *)R~;
+- (NSString *)getActivityTimelines:(int)arg1 timeFilter:bgsqlData: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBConnectedCall *answeredCall;
-@property(copy, nonatomic) NSArray *callRecords;
-@property(readonly, nonatomic) unsigned long long callRecordsCount;
-@property(readonly, nonatomic) _Bool hasAnsweredCall;
-@property(nonatomic) _Bool hasStatusCode;
-@property(nonatomic) int statusCode;
 @end
 

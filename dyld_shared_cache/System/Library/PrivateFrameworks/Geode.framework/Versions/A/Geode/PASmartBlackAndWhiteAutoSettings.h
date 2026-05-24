@@ -7,9 +7,6 @@
 @interface PASmartBlackAndWhiteAutoSettings
 {
     double _inputBlackAndWhite;
-    double _offsetStrength;
-    double _offsetNeutralGamma;
-    double _offsetTone;
 }
 
 - (void);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) double inputBlackAndWhite; // @synthesize inputBlackAndWhite=_inputBlackAndWhite;
-@property(nonatomic) double offsetNeutralGamma; // @synthesize offsetNeutralGamma=_offsetNeutralGamma;
-@property(nonatomic) double offsetStrength; // @synthesize offsetStrength=_offsetStrength;
-@property(nonatomic) double offsetTone; // @synthesize offsetTone=_offsetTone;
 
 @end
 

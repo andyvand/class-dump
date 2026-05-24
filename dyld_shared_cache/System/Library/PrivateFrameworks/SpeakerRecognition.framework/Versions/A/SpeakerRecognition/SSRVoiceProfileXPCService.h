@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SSRVoiceProfileXPCClient;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SSRVoiceProfileXPCService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    SSRVoiceProfileXPCClient *_xpcClient;
 }
 
 + (id);
@@ -23,18 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)HIDStickyKeysShiftToggles;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SSRVoiceProfileXPCClient *xpcClient; // @synthesize xpcClient=_xpcClient;
 
 @end
 

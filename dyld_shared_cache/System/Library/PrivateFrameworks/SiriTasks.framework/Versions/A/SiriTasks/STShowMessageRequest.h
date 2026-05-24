@@ -9,16 +9,15 @@
 @interface STShowMessageRequest
 {
     STSiriMessage *_message;
-    _Bool _showAsDraft;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)Hz?k;
+- (id);
 - (_Bool);
 - (_Bool);
+- (id)p;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

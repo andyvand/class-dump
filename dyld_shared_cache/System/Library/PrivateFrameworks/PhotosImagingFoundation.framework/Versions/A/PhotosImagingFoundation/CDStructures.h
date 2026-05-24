@@ -43,20 +43,20 @@ struct Matrix4d {
 };
 
 struct PFIntSize_st {
-    unsigned long long width;
-    unsigned long long height;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct Quad2d {
-    struct Vector2d V0;
-    struct Vector2d V1;
-    struct Vector2d V2;
-    struct Vector2d V3;
+    struct Vector2d _field1;
+    struct Vector2d _field2;
+    struct Vector2d _field3;
+    struct Vector2d _field4;
 };
 
 struct Vector2d {
-    double X;
-    double Y;
+    double _field1;
+    double _field2;
 };
 
 struct os_unfair_lock_s {

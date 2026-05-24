@@ -7,17 +7,18 @@
 @class UIBarButtonItem, UIContextMenuInteraction;
 
 @protocol _UIBarButtonItemViewOwner
+- (void);
 - (void)ÿÿ;
 - (void)and dark ca asset loaded;
 - (void)ler's state did change;
 - (void)ed to create CIColorKernel:(UIBarButtonItem *)arg1 %@;
-- (void)ffering;
+- (void)PKAllowDoubleBuffering;
 
 @optional
 - (_Bool)ÿÿ;
 - (_Bool)ØØ;
 - (_Bool);
 - (void)6 72.8516 21.875 C 74.0723 22.6562 75.7812 23.4375 76.9531 23.4375 Z;
-- (UIContextMenuInteraction *)on;
+- (UIContextMenuInteraction *)interaction;
 @end
 

@@ -9,13 +9,11 @@
 @interface TRIFBMutableBoxedInt64 : TRIFBBoxedInt64
 {
     struct BoxedInt64 *_ptr;
-    _Bool _deleteWhenDone;
-    _Bool _allowMutation;
 }
 
 + (id);
 - (id);
-- (const struct BoxedInt64 *);
+- (const struct BoxedInt64 *);
 - (long long);
 - (void);
 - (void);

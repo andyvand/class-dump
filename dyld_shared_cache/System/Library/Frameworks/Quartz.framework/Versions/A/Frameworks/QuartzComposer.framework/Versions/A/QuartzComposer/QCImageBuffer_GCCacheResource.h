@@ -6,16 +6,11 @@
 
 #import <QuartzComposer/QCResource.h>
 
-@class QCCGLContext, QCImageBuffer, QCPixelFormat;
+@class QCImageBuffer;
 
 @interface QCImageBuffer_GCCacheResource : QCResource
 {
     QCImageBuffer *_buffer;
-    void *_refBuffer;
-    QCCGLContext *_refContext;
-    QCPixelFormat *_format;
-    void *_backing;
-    void *_backingInfo;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void *);
 - (CDUnknownFunctionPointerType);
 - (id);

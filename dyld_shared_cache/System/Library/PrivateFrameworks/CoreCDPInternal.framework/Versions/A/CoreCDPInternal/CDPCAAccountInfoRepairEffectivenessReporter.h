@@ -10,9 +10,9 @@
 {
 }
 
-- (void);
-- (void);
-- (id);
+- (void)_SafariCAAnimationDelegate;
+- (void)_WKAutomationSessionDelegate;
+- (id);
 
 @end
 

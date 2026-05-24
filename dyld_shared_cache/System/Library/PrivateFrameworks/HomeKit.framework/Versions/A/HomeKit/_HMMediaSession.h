@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAudioControl, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue, _HMMediaSessionDelegate;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _HMMediaSession
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_uuid;
-    NSString *_routeUID;
-    long long _playbackState;
-    long long _shuffleState;
-    long long _repeatState;
-    NSString *_mediaUniqueIdentifier;
-    _HMContext *_context;
-    NSUUID *_uniqueIdentifier;
-    NSUUID *_messageTargetUUID;
-    HMAudioControl *_audioControl;
-    unsigned long long _sleepWakeState;
-    id <_HMMediaSessionDelegate> _delegate;
 }
 
 - (void);
@@ -54,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)convertibility;
 - (id);
 - (id);
 - (void);
@@ -63,31 +50,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)tionState"b1"mode"b1};
 - (void);
-- (id)DocumentAttribute;
+- (id)NSCharacterEncodingDocumentAttribute;
 
 // Remaining properties
-@property(readonly) HMAudioControl *audioControl; // @synthesize audioControl=_audioControl;
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_HMMediaSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *mediaUniqueIdentifier; // @synthesize mediaUniqueIdentifier=_mediaUniqueIdentifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(retain, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(readonly) long long repeatState; // @synthesize repeatState=_repeatState;
-@property(readonly, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(readonly) long long shuffleState; // @synthesize shuffleState=_shuffleState;
-@property(readonly) unsigned long long sleepWakeState; // @synthesize sleepWakeState=_sleepWakeState;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

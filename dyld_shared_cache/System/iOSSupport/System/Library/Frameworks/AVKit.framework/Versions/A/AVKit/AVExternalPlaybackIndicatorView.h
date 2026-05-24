@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView, UILabel, UIView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface AVExternalPlaybackIndicatorView
 {
     UIImageView *_imageView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UIView *_containerView;
-    NSString *_titleString;
-    NSString *_subtitleString;
-    _Bool _shouldShowIndicator;
 }
 
 - (void);

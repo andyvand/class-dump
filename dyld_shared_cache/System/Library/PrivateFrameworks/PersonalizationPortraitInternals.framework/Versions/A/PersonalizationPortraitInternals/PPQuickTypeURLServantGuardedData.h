@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPQuickTypeItem, TUConversationLink;
+@class PPQuickTypeItem;
 
 @interface PPQuickTypeURLServantGuardedData
 {
     PPQuickTypeItem *_lastItem;
-    TUConversationLink *_tuConversationLink;
-    NSString *_lastBundleId;
 }
 
 - (void);

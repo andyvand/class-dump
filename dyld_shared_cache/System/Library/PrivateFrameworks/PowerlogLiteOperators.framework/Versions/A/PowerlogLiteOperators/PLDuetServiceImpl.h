@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLService, PLXPCListenerOperatorComposition, PLXPCResponderOperatorComposition;
+@class PLService;
 
 @interface PLDuetServiceImpl
 {
     PLService *_duetService;
-    PLXPCListenerOperatorComposition *_eventListener;
-    PLXPCResponderOperatorComposition *_energyResponder;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property __weak PLService *duetService; // @synthesize duetService=_duetService;
-@property(retain) PLXPCResponderOperatorComposition *energyResponder; // @synthesize energyResponder=_energyResponder;
-@property(retain) PLXPCListenerOperatorComposition *eventListener; // @synthesize eventListener=_eventListener;
 
 @end
 

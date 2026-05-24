@@ -7,36 +7,23 @@
 @interface AWDIDSGenericConnectionSetupDurationEvent
 {
     unsigned long long _connectionSetupDuration;
-    unsigned long long _timestamp;
-    unsigned int _connectionType;
-    unsigned int _errorCode;
-    unsigned int _linkType;
-    _Bool _success;
-    struct {
-        unsigned int connectionSetupDuration:1;
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int errorCode:1;
-        unsigned int linkType:1;
-        unsigned int success:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)9H;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -44,32 +31,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void)Ð%Ð1Â0@ù
 × ;
 - (void)nsityTrue;
-- (void);
+- (void)hasKRxCRCGlitch;
 - (unsigned int)Ñoß;
 - (unsigned int)D;áÿâ,n	;
 
 // Remaining properties
-@property(nonatomic) unsigned long long connectionSetupDuration; // @synthesize connectionSetupDuration=_connectionSetupDuration;
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasConnectionSetupDuration;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasLinkType;
-@property(nonatomic) _Bool hasSuccess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSDictionary, NSMutableDictionary;
-@protocol AIDAAccountManagerDelegate, AIDAServiceOwnerProtocol;
+@class ACAccountStore;
+@protocol AIDAServiceOwnerProtocol;
 
 @interface AIDAAccountManager
 {
     id <AIDAServiceOwnerProtocol> _serviceOwnersManager;
-    struct os_unfair_lock_s _accountManagerLock;
-    NSMutableDictionary *_handlerByObserver;
-    NSDictionary *_accounts;
-    ACAccountStore *_accountStore;
-    id <AIDAAccountManagerDelegate> _delegate;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -35,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(copy, nonatomic) NSDictionary *accounts; // @synthesize accounts=_accounts;
-@property(nonatomic) __weak id <AIDAAccountManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

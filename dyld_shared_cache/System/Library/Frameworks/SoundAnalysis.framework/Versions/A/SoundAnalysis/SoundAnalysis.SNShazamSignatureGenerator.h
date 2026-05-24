@@ -7,10 +7,6 @@
 @interface SoundAnalysis.SNShazamSignatureGenerator
 {
     id graphStorage;
-    id contextSize;
-    id hopSize;
-    id sequenceNum;
-    id ringBufferDuration;
 }
 
 @end

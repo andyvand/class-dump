@@ -9,15 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (unsigned int);
-- (unsigned long long);
-- (unsigned int);
+- (_Bool)e store metadata;
+- (unsigned int)GER BEFORE DELETE ON %@ FOR EACH ROW BEGIN %@ END;
+- (unsigned long long)ISTORYBATCHDELETE_TRIGGER BEFORE DELETE ON %@ FOR EACH ROW BEGIN %@ END;
+- (unsigned int)OM %@) END;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cgSubType; // @dynamic cgSubType;
-@property(readonly, nonatomic) unsigned int cgType; // @dynamic cgType;
-@property(readonly, nonatomic) unsigned int hidType; // @dynamic hidType;
 @property(readonly, nonatomic) _Bool isCGType; // @dynamic isCGType;
 
 @end

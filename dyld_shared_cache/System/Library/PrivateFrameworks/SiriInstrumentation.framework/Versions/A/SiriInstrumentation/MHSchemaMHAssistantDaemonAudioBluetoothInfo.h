@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioBluetoothInfo : SISchemaInstrumentationMessage
 {
     int _state;
-    int _bluetoothAudioDeviceCategory;
-    struct {
-        unsigned int state:1;
-        unsigned int bluetoothAudioDeviceCategory:1;
-    } _has;
 }
 
 - (void);
@@ -23,27 +16,23 @@
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)Bx;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ASN1_unpack_string;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)n to XPC service %s (%@);
 - (int);
 - (_Bool);
 - (id);
 - (id)ß°1Â0@ù
 × ;
-- (id);
+- (id)setHasEngagementMetricReported:(id)arg1;
 - (id)maCNVDisambiguationDialogGenerated",&,N,V_startedOrChanged;
 
 // Remaining properties
-@property(nonatomic) int bluetoothAudioDeviceCategory; // @synthesize bluetoothAudioDeviceCategory=_bluetoothAudioDeviceCategory;
-@property(nonatomic) _Bool hasBluetoothAudioDeviceCategory;
-@property(nonatomic) _Bool hasState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

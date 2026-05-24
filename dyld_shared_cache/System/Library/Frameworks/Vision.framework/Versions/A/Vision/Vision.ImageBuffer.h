@@ -7,12 +7,6 @@
 @interface Vision.ImageBuffer
 {
     id origImageWidth;
-    id origImageHeight;
-    id options;
-    id orientation;
-    id origPixelBuffer;
-    id session;
-    id timingInfo;
 }
 
 @end

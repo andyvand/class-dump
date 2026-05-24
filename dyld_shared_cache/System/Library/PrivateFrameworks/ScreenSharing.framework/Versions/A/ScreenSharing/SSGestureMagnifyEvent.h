@@ -9,8 +9,6 @@
 @interface SSGestureMagnifyEvent : SSGestureEvent
 {
     double _magnification;
-    long long _gesturePhase;
-    long long _gestureMask;
 }
 
 + (id);
@@ -21,8 +19,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly) long long gestureMask; // @synthesize gestureMask=_gestureMask;
-@property(readonly) long long gesturePhase; // @synthesize gesturePhase=_gesturePhase;
 @property double magnification; // @synthesize magnification=_magnification;
 
 @end

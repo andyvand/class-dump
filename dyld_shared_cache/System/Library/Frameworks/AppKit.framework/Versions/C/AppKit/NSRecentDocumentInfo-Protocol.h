@@ -7,13 +7,13 @@
 @class NSImage, NSString, NSURL;
 
 @protocol NSRecentDocumentInfo
+- (void)teKey in power source dictionary;
+- (NSString *);
+- (long long)NSTextAttachmentImageContainer;
 - (NSImage *)0@ù
 × ;
 
 // Remaining properties
 @property(readonly) NSURL *URL;
-@property(readonly) NSString *displayName;
-@property(readonly) NSImage *icon;
-@property(readonly) long long state;
 @end
 

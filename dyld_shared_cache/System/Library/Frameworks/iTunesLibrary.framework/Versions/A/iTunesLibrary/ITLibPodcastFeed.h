@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface ITLibPodcastFeed
 {
     _Bool _explicitContent;
-    _Bool _subscribed;
-    NSString *description;
-    NSNumber *_persistentID;
-    NSString *_url;
-    NSString *_link;
-    NSString *_title;
-    NSString *_sortTitle;
-    NSString *_author;
-    NSString *_provider;
-    NSDate *_addedDate;
-    NSArray *_mediaItemPersistentIDs;
-    unsigned long long _playOrder;
-    unsigned long long _sortOrder;
-    unsigned long long _downloadAction;
-    unsigned long long _limitRule;
-    unsigned long long _removePlayedRule;
 }
 
 + (id);
@@ -39,17 +23,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)temptDevices"Q"sco"Q"wiap"Q"remote"Q"connectedDevices"Q"isScanning"B"isDiscoverable"B"isConnectable"B};
 - (void);
 - (id);
+- (id)toggleMute;
+- (void);
+- (void);
+- (void);
+- (id)32@0:8^v16@?24 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -65,23 +49,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *addedDate; // @synthesize addedDate=_addedDate;
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(copy, nonatomic) NSString *description; // @synthesize description;
-@property(nonatomic) unsigned long long downloadAction; // @synthesize downloadAction=_downloadAction;
-@property(nonatomic, getter=isExplicitContent) _Bool explicitContent; // @synthesize explicitContent=_explicitContent;
-@property(nonatomic) unsigned long long limitRule; // @synthesize limitRule=_limitRule;
-@property(copy, nonatomic) NSString *link; // @synthesize link=_link;
-@property(copy, nonatomic) NSArray *mediaItemPersistentIDs; // @synthesize mediaItemPersistentIDs=_mediaItemPersistentIDs;
 @property(copy, nonatomic) NSNumber *persistentID; // @synthesize persistentID=_persistentID;
-@property(nonatomic) unsigned long long playOrder; // @synthesize playOrder=_playOrder;
-@property(copy, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(nonatomic) unsigned long long removePlayedRule; // @synthesize removePlayedRule=_removePlayedRule;
-@property(nonatomic) unsigned long long sortOrder; // @synthesize sortOrder=_sortOrder;
-@property(copy, nonatomic) NSString *sortTitle; // @synthesize sortTitle=_sortTitle;
-@property(nonatomic, getter=isSubscribed) _Bool subscribed; // @synthesize subscribed=_subscribed;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

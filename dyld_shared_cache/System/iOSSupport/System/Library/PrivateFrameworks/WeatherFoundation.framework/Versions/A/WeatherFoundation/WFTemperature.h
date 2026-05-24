@@ -24,9 +24,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (double);
+- (id)ssages.ImageScaler;
+- (id)TEMPLATE_SHARING_NO_IMAGES_TEXT;
+- (double)Copy button title;
 - (unsigned long long);
 - (double);
 - (_Bool);
@@ -36,8 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) double celsius;
-@property(nonatomic) double fahrenheit;
-@property(nonatomic) double kelvin;
 
 @end
 

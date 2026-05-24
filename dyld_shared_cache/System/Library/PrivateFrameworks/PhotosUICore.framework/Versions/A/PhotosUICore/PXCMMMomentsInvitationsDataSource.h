@@ -20,9 +20,9 @@
 - (id);
 - (id);Ð1Â0@ù
 × ;
-- (long long)nfoForDisplayAssetCount:displayAssets: /* Error: Ran out of types for this method. */;
+- (long long)nextMotionInfoForDisplayAssetCount:displayAssets: /* Error: Ran out of types for this method. */;
 - (long long)@#ÿ;
-- (void)ingsUIChoiceRowConfiguration;
+- (void)SettingsUIChoiceRowConfiguration;
 - (id)¨ÿ>;
 
 // Remaining properties

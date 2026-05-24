@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTagInfoRegistry
 {
     NSMutableDictionary *_registry;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct TReadWriteLock _lock;
-    struct TFENode _tagsContainerNode;
-    struct TNotificationCenterObserver _favoriteTagsPrefChangedObserver;
 }
 
 + (id);
 + (id);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (id);
@@ -46,23 +42,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
+- (void);
+- (void)in the database;
+- (id)%lld;
 - (id);
 - (void);
 - (id);
 - (void)0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface NSDocumentControllerMainThreadUnblockerEntry
 {
     CDUnknownBlockType _unblocker;
-    NSMutableArray *_pendingInterrupters;
-    NSMutableArray *_pendingInterrupterCompletionBlocks;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _waitingForInterrupterCompletion;
-    _Bool _suspended;
 }
 
 + (id);
 - (void);
 - (void);
+- (void)V_systemClientOfPrivateAccessTokens;
 - (void);
-- (void);
-- (void)s;
+- (void)_activeMenuTrackingAreas;
 - (_Bool)ise but no error;
 - (void)×;
 

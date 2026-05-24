@@ -12,11 +12,11 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)}}16B48B52B56;
 
 @end
 

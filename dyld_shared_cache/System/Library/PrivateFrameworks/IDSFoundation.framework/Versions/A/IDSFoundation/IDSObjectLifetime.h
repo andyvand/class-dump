@@ -9,8 +9,8 @@
     CDUnknownBlockType _block;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)( ;
 - (void)missing legacyData};
 
 @end

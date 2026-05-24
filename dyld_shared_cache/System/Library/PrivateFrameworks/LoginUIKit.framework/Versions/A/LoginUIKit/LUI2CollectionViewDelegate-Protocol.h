@@ -5,5 +5,7 @@
 //
 
 @protocol LUI2CollectionViewDelegate
+- (_Bool);
+- (_Bool)qaN;
 @end
 

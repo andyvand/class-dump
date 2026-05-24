@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface LAACLCoder
 {
     long long _authType;
-    long long _fallbackAuthType;
-    NSMutableDictionary *_constraints;
-    NSMutableDictionary *_credentials;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ronunciation file contained no lexicon field;
 - (id);
 - (void);
 

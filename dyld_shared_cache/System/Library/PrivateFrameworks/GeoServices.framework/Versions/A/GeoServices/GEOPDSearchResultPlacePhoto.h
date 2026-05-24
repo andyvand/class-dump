@@ -4,23 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCaptionedPhoto, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchResultPlacePhoto
 {
     PBUnknownFields *_unknownFields;
-    GEOPDCaptionedPhoto *_photo;
 }
 
-+ (id);
++ (id)
+;
 - (id);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)?="has_timepoint"b1"has_basicPointsToBeIncluded"b1"has_destinationType"b1"has_mainTransportType"b1"has_trafficType"b1"has_walkingLimitMeters"b1"has_directZilchByLaneFlowlines"b1"has_enableExperimentalMode"b1"has_includeContingencyRoutes"b1"has_includeHistoricTravelTime"b1"has_includeLaneGuidance"b1"has_includeManeuverIcons"b1"has_includePhonetics"b1"has_includeTrafficAlongRoute"b1"has_includeTrafficIncidents"b1"has_includeZilchPoints"b1"has_includeCellularCoverage"b1"has_includeCrossLanguagePhonetics"b1"has_includeLaneWidths"b1"has_includeRouteSegmentInfo"b1"has_includeRoutingPathLeg"b1"has_useMetricThreshold"b1"read_unknownFields"b1"read_additionalTransportTypes"b1"read_initialPromptTypes"b1"read_uiContexts"b1"read_automobileOptions"b1"read_cyclingOptions"b1"read_destinationInfo"b1"read_phoneticLocaleIdentifier"b1"read_transitOptions"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)eDiscrete;
+- (id)_rangeDiscrete;
 - (id)Ì´l@(ü4;
 - (void)fJëo	I@;
 

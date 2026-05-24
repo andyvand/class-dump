@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface CPZoneFilter
 {
     CPPage *page;
-    double minArea;
 }
 
 + (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

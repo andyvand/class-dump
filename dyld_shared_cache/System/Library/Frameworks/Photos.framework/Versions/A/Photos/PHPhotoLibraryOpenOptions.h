@@ -9,9 +9,6 @@
 @interface PHPhotoLibraryOpenOptions
 {
     _Bool _allowsUpgrade;
-    NSURL *_libraryURL;
-    unsigned long long _internalUpgradeOptions;
-    unsigned long long _internalCreateOptions;
 }
 
 - (void);
@@ -22,13 +19,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)ailsWithPreviewImage:thumbnailImage:fromImageSource:imageData:forceSRGBConversion:reduceProcessingForIngest: /* Error: Ran out of types for this method. */;
+- (id)generateAndUpdateThumbnailsWithPreviewImage:thumbnailImage:fromImageSource:imageData:forceSRGBConversion:reduceProcessingForIngest: /* Error: Ran out of types for this method. */;
 - (void)placeholderHeight;
 
 // Remaining properties
-@property _Bool allowsUpgrade; // @synthesize allowsUpgrade=_allowsUpgrade;
-@property unsigned long long internalCreateOptions; // @synthesize internalCreateOptions=_internalCreateOptions;
-@property unsigned long long internalUpgradeOptions; // @synthesize internalUpgradeOptions=_internalUpgradeOptions;
 @property(copy) NSURL *libraryURL; // @synthesize libraryURL=_libraryURL;
 
 @end

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NSUUID, _ANEProgramForEvaluation, _ANEProgramIOSurfacesMapper;
+@class NSDictionary;
 
 @interface _ANEModel
 {
     BOOL _queueDepth;
-    unsigned int _perfStatsMask;
-    struct os_unfair_lock_s _l;
-    NSString *_cacheURLIdentifier;
-    NSURL *_sourceURL;
-    NSURL *_modelURL;
-    NSString *_key;
-    NSUUID *_UUID;
-    long long _identifierSource;
-    unsigned long long _string_id;
-    unsigned long long _programHandle;
-    unsigned long long _intermediateBufferHandle;
-    NSDictionary *_modelAttributes;
-    NSDictionary *_mpsConstants;
-    _ANEProgramForEvaluation *_program;
-    unsigned long long _state;
-    _ANEProgramIOSurfacesMapper *_mapper;
 }
 
 + (id);
@@ -34,8 +18,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)Vv40@0:(id)arg1 8@"NSString"16@"AFVoiceInfo"24@?<v@?@"NSDictionary"@"NSError">32;
++ (id)">36;
 + (id);
 + (id);
 + (_Bool);
@@ -63,53 +47,37 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long):8@"AFAudioPlaybackRequest"16 /* Error: Ran out of types for this method. */;
+- (unsigned long long):8@?<v@?@"NSDictionary"@"NSDictionary">16 /* Error: Ran out of types for this method. */;
+- (id)@0:8B16B20@?<v@?B>24 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (struct os_unfair_lock_s);
+- (id)ocessing PlaybackQueueContentItemsArtworkChangedNotification for content items %{public}@.;
+- (struct os_unfair_lock_s)lication.;
 - (void);
 - (void);
 - (BOOL);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_	;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)#	;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)kk%;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T `-;
+- (id)numberWithInt: /* Error: Ran out of types for this method. */;
 - (void);
-- (id):modelInstParams:qos:withReply: /* Error: Ran out of types for this method. */;
+- (id)loadModelNewInstance:options:modelInstParams:qos:withReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSString *cacheURLIdentifier; // @synthesize cacheURLIdentifier=_cacheURLIdentifier;
-@property(readonly, nonatomic) long long identifierSource; // @synthesize identifierSource=_identifierSource;
-@property(nonatomic) unsigned long long intermediateBufferHandle; // @synthesize intermediateBufferHandle=_intermediateBufferHandle;
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) struct os_unfair_lock_s l; // @synthesize l=_l;
-@property(retain, nonatomic) _ANEProgramIOSurfacesMapper *mapper; // @synthesize mapper=_mapper;
 @property(retain, nonatomic) NSDictionary *modelAttributes; // @synthesize modelAttributes=_modelAttributes;
-@property(readonly, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(readonly, nonatomic) NSDictionary *mpsConstants; // @synthesize mpsConstants=_mpsConstants;
-@property(nonatomic) unsigned int perfStatsMask; // @synthesize perfStatsMask=_perfStatsMask;
-@property(retain, nonatomic) _ANEProgramForEvaluation *program; // @synthesize program=_program;
-@property(nonatomic) unsigned long long programHandle; // @synthesize programHandle=_programHandle;
-@property(nonatomic) BOOL queueDepth; // @synthesize queueDepth=_queueDepth;
-@property(readonly, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long string_id; // @synthesize string_id=_string_id;
 
 @end
 

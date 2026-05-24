@@ -4,45 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMBusinessNameManager, NSHashTable, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface IMHandleRegistrar
 {
     NSMutableDictionary *_siblingsMap;
-    NSHashTable *_allIMHandles;
-    NSMutableDictionary *_IDToHandlesMap;
-    NSMutableDictionary *_CNIDToHandlesMap;
-    IMBusinessNameManager *_businessNameManager;
 }
 
 + (id);
 - (void);
+- (id)B;
+- (void)[;
+- (void);
+- (void)x;
+- (id)@9;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)!;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)h";
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -52,7 +48,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)¸ò;
 

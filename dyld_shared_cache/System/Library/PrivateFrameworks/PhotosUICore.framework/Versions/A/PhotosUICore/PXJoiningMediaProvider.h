@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet, NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface PXJoiningMediaProvider
 {
     NSDictionary *_mediaProvidersByKey;
-    NSArray *_allMediaProviders;
-    NSMutableDictionary *_requestIDByCacheSpec;
-    NSCountedSet *_requestCountByCacheSpec;
-    CDUnknownBlockType _keyBlock;
 }
 
 - (long long);
@@ -22,7 +18,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (long long);
@@ -36,17 +32,13 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allMediaProviders; // @synthesize allMediaProviders=_allMediaProviders;
-@property(readonly, nonatomic) CDUnknownBlockType keyBlock; // @synthesize keyBlock=_keyBlock;
 @property(readonly, nonatomic) NSDictionary *mediaProvidersByKey; // @synthesize mediaProvidersByKey=_mediaProvidersByKey;
-@property(readonly, nonatomic) NSCountedSet *requestCountByCacheSpec; // @synthesize requestCountByCacheSpec=_requestCountByCacheSpec;
-@property(readonly, nonatomic) NSMutableDictionary *requestIDByCacheSpec; // @synthesize requestIDByCacheSpec=_requestIDByCacheSpec;
 
 @end
 

@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, SFDevice, SFSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFPasswordSharingSession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    int _pairState;
-    int _passwordShareState;
-    SFSession *_sfSession;
-    int _sfSessionState;
-    NSDate *_shareClock;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_deviceName;
-    NSString *_hashedEmail;
-    NSString *_hashedPhone;
-    NSString *_hotspotPSK;
-    SFDevice *_peerDevice;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _promptForPINHandler;
 }
 
 - (void);
@@ -34,7 +20,7 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -59,14 +45,7 @@
 - (void)2Â;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) NSString *hashedEmail; // @synthesize hashedEmail=_hashedEmail;
-@property(retain, nonatomic) NSString *hashedPhone; // @synthesize hashedPhone=_hashedPhone;
-@property(retain, nonatomic) NSString *hotspotPSK; // @synthesize hotspotPSK=_hotspotPSK;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
 
 @end
 

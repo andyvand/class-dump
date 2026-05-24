@@ -9,8 +9,6 @@
 @interface FPItemID
 {
     NSString *_identifier;
-    NSString *_providerID;
-    NSString *_domainIdentifier;
 }
 
 - (_Bool);
@@ -22,11 +20,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)%{private, mask.hash}sincomplete message received: /* Error: Ran out of types for this method. */;
+- (_Bool)startTimerForDelayedStackSwitch;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
@@ -38,13 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) _Bool isDiskIdentifier;
-@property(readonly, nonatomic) _Bool isPlaceholder;
-@property(readonly, nonatomic) NSString *providerDomainID;
-@property(readonly, nonatomic) NSString *providerID; // @synthesize providerID=_providerID;
-@property(readonly, nonatomic) NSString *providerIdentifier;
 
 @end
 

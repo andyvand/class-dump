@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)supportsMutatingGroupMembers;
+- (void)_deleteFilesOnDiskAndUpdateTransfers:(id)arg1;
+- (void)d;
+- (void)es - We had a problem writing a transitioned list update with key %@ -  %@;
+- (void)ID for chat with guid %@ to be:(id)arg1 %@ from %@;
 
 @end
 

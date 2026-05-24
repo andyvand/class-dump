@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMutableIntegerMap, NSString;
+@class BSMutableIntegerMap;
 @protocol BSSettingDescriptionProvider;
 
 @interface BSSettings
 {
     BSMutableIntegerMap *_settingToFlagMap;
-    BSMutableIntegerMap *_settingToObjectMap;
-    id <BSSettingDescriptionProvider> _descriptionProvider;
 }
 
 + (Class);
@@ -24,15 +22,16 @@
 - (void);
 - (_Bool);
 - (long long);
+- (void)	?ր
+;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A!;
 - (unsigned long long);
 - (id);
 - (id);
@@ -40,8 +39,8 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)@;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -53,14 +52,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak id <BSSettingDescriptionProvider> descriptionProvider; // @synthesize descriptionProvider=_descriptionProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

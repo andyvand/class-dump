@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _UINSItemProviderCacheState
 {
     NSURL *_url;
-    NSString *_typeIdentifier;
-    NSDate *_expirationDate;
 }
 
 - (void);
 - (void)
 × ;
-- (id)youtBlock;
-- (void)t;
+- (id)postLayoutBlock;
+- (void)UIGradient;
 - (id)ä !;
 - (void)Í¾33xþ½¾33Üxþ;
 - (id)\;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

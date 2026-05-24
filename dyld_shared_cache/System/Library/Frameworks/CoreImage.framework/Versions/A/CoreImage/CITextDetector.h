@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIDetector.h>
 
-@class CIContext, FKTextDetector, NSMutableDictionary;
+@class CIContext;
 
 __attribute__((visibility("hidden")))
 @interface CITextDetector : CIDetector
 {
     CIContext *context;
-    double _width;
-    double _height;
-    NSMutableDictionary *featureOptions;
-    FKTextDetector *textDetector;
 }
 
 - (id);
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGAffineTransform);
 - (id);
-- (void);
+- (void)J;
 - (id);
 - (void);
 

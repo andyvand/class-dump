@@ -7,18 +7,15 @@
 @interface FigCaptureSourceFormatDimensions
 {
     CDStruct_79c71658 _dimensions;
-    CDStruct_79c71658 _deferredPhotoProxyDimensions;
-    CDStruct_79c71658 _maxUpscalingDimensions;
-    _Bool _isPrivate;
-    int _flavor;
 }
 
-+ (id);
-+ (int);
++ (id)migration_RemoveEntityReferencesWithoutBundleIdentifier;
++ (int)87	07	(7	 7	7		7	
+7	;
 + (id);
 - (id);
 - (CDStruct_1ef3fb1f);
-- (CDStruct_1ef3fb1f);
+- (CDStruct_1ef3fb1f)dictionaryWithObjects:forKeys: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (_Bool);
@@ -26,11 +23,7 @@
 - (_Bool)om.apple.coremedia.camera.af.fieldcal.Freq.s.%d;
 
 // Remaining properties
-@property(readonly) CDStruct_1ef3fb1f deferredPhotoProxyDimensions; // @synthesize deferredPhotoProxyDimensions=_deferredPhotoProxyDimensions;
 @property(readonly) CDStruct_1ef3fb1f dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly) int flavor; // @synthesize flavor=_flavor;
-@property(readonly) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property(readonly) CDStruct_1ef3fb1f maxUpscalingDimensions; // @synthesize maxUpscalingDimensions=_maxUpscalingDimensions;
 
 @end
 

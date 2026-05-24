@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSTimeZone, NSUUID, OSLogEventBacktrace, OSLogEventDecomposedMessage;
-
 @interface OSLogEventProxy
 {
     struct {
@@ -83,45 +81,24 @@
             unsigned char ttl;
         } statedump;
     } _eint;
-    struct os_activity_map_s *_aid_map;
-    CDStruct_d142dd21 *_event;
-    unsigned long long _efv;
-    struct _os_timesync_db_s *_tsdb;
-    int _uuiddbfd;
-    struct timezone _tz;
-    _Bool _sensitive;
-    _Bool _trackActivities;
-    unsigned long long _thread;
-    unsigned long long _retainCount;
-    NSString *_processImagePath;
-    NSString *_senderImagePath;
-    OSLogEventBacktrace *_backtrace;
-    NSString *_logMessage;
-    OSLogEventDecomposedMessage *_decomposedMessage;
-    NSString *_metricLabel;
-    NSDictionary *_metricDimensions;
-    NSDictionary *_metricMetadata;
-    _Bool _unreliableIdentifier;
-    _Bool _realTimeIdentifier;
-    unsigned long long _uuidi;
 }
 
-+ (id);
++ (id)_encodedStrokeProviderVersion;
 - (id);
 - (id);
 - (oneway void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)_;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ctor':no such NSFont factory method:%@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (id);
-- (_Bool);
-- (id);
+- (id)gw;
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (CDStruct_0dd72924);
-- (_Bool);
+- (_Bool)J;
 - (struct timeval *);
 - (id);
 - (struct timeval *);
@@ -141,13 +118,13 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);;
 - (unsigned long long);
 - (const char *);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (unsigned long long);
@@ -156,7 +133,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)PB�;
 - (unsigned long long);
 - (id);
 - (id);
@@ -164,7 +141,7 @@
 - (id);
 - (unsigned long long);
 - (const char *);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -172,16 +149,16 @@
 - (unsigned long long);
 - (struct timeval *);
 - (_Bool);
-- (void);
+- (void)!;
 - (unsigned int);
-- (id);
+- (id);
 - (struct timezone *);
 - (unsigned long long);
-- (id);
+- (id)untered a non-array value for 'Platforms'.;
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned int);
 - (struct timezone *);
@@ -190,60 +167,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int _oversizeIdentifier;
-@property(nonatomic) _Bool _realTimeIdentifier; // @synthesize _realTimeIdentifier;
-@property(nonatomic) unsigned long long _timesyncRangeUUIDIndex; // @synthesize _timesyncRangeUUIDIndex=_uuidi;
-@property(nonatomic) _Bool _unreliableIdentifier; // @synthesize _unreliableIdentifier;
-@property(readonly, nonatomic) unsigned long long activityIdentifier;
-@property(readonly, nonatomic) OSLogEventBacktrace *backtrace;
-@property(readonly, nonatomic) NSUUID *bootUUID;
-@property(readonly, nonatomic) NSString *category;
-@property(readonly, nonatomic) NSString *composedMessage;
-@property(readonly, nonatomic) unsigned long long continuousNanosecondsSinceBoot;
-@property(readonly, nonatomic) unsigned long long creatorActivityIdentifier;
-@property(readonly, nonatomic) unsigned long long creatorProcessUniqueIdentifier;
-@property(readonly, nonatomic) NSDate *date;
-@property(readonly, nonatomic) OSLogEventDecomposedMessage *decomposedMessage;
-@property(readonly, nonatomic) NSString *formatString;
-@property(readonly, nonatomic) unsigned long long logType;
-@property(readonly, nonatomic) CDStruct_0dd72924 lossCount;
-@property(readonly, nonatomic) unsigned long long lossEndMachContinuousTimestamp;
-@property(readonly, nonatomic) struct timeval *lossEndUnixDate;
-@property(readonly, nonatomic) struct timezone *lossEndUnixTimeZone;
-@property(readonly, nonatomic) unsigned long long lossStartMachContinuousTimestamp;
-@property(readonly, nonatomic) struct timeval *lossStartUnixDate;
-@property(readonly, nonatomic) struct timezone *lossStartUnixTimeZone;
-@property(readonly, nonatomic) unsigned long long machContinuousTimestamp;
-@property(readonly, nonatomic) NSDictionary *metricData;
-@property(readonly, nonatomic) NSDictionary *metricDimensions;
-@property(readonly, nonatomic) NSString *metricLabel;
-@property(readonly, nonatomic) NSDictionary *metricMetadata;
-@property(readonly, nonatomic) unsigned long long parentActivityIdentifier;
-@property(readonly, nonatomic) NSString *process;
-@property(readonly, nonatomic) int processIdentifier;
-@property(readonly, nonatomic) unsigned int processIdentifierVersion;
-@property(readonly, nonatomic) NSString *processImagePath;
-@property(readonly, nonatomic) NSUUID *processImageUUID;
-@property(readonly, nonatomic) const char *processImageUUIDBytes;
-@property(readonly, nonatomic) NSString *sender;
-@property(readonly, nonatomic) unsigned long long senderImageOffset;
-@property(readonly, nonatomic) NSString *senderImagePath;
-@property(readonly, nonatomic) NSUUID *senderImageUUID;
-@property(readonly, nonatomic) const char *senderImageUUIDBytes;
-@property(readonly, nonatomic) unsigned long long signpostIdentifier;
-@property(readonly, nonatomic) NSString *signpostName;
-@property(readonly, nonatomic) unsigned long long signpostScope;
-@property(readonly, nonatomic) unsigned long long signpostType;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly, nonatomic) NSString *subsystem;
-@property(readonly, nonatomic) unsigned long long threadIdentifier;
-@property(readonly, nonatomic) unsigned long long timeToLive;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
-@property(readonly, nonatomic) unsigned long long traceIdentifier;
-@property(readonly, nonatomic) unsigned long long transitionActivityIdentifier;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) struct timeval *unixDate;
-@property(readonly, nonatomic) struct timezone *unixTimeZone;
-@property(readonly, nonatomic) unsigned int userIdentifier;
 
 @end
 

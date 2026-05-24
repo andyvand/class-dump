@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMReadWriteLock, NSMutableArray;
+@class NSMutableArray;
 
 @interface FMConcurrentMutableArray
 {
     NSMutableArray *_underlyingArray;
-    FMReadWriteLock *_lock;
 }
 
 - (void);
@@ -19,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) FMReadWriteLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSMutableArray *underlyingArray; // @synthesize underlyingArray=_underlyingArray;
 
 @end

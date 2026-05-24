@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     struct CGSVGDocument *_svgDocumentRef;
 }
 
-- (id);
+- (id)onCallerID:(struct CGSVGDocument *)arg1 messageTime:(double)arg2 silently: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)stopTime;
 - (unsigned long long);
 - (struct CGSVGDocument *)ndering"b8"padding"b8};
-- (_Bool)idChange;
-- (double)ction;
-- (_Bool)tAlignment;
-- (void)contentCoverStateDidChange;
+- (_Bool)touchForceMultiplierDidChange;
+- (double)baseWritingDirection;
+- (_Bool)_updateDateViewTextAlignment;
+- (void)_contentCoverStateDidChange;
 - (id)«<ÙT\;
 - (struct CGSize);
 - (_Bool)`;

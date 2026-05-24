@@ -5,5 +5,7 @@
 //
 
 @protocol CLSQuery
+- (oneway void)(programRequest->inputBuffersTot=%d programRequest->outputBuffersTot=%d
+;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol ICCollaborationAnalyticsDelegate
+- (void);
+- (void);
+- (void)B;
 @end
 

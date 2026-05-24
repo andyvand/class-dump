@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class CKDeviceCapabilityCheckOptions, NSArray;
+@class NSArray;
 
 @interface CKCheckSupportedDeviceCapabilitiesOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_zoneIDs;
-    NSArray *_desiredCapabilitySets;
-    CKDeviceCapabilityCheckOptions *_options;
 }
 
 + (_Bool);
@@ -20,15 +18,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)$;
+- (id);
 - (void);
 - (id);
 - (void)$ü;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *desiredCapabilitySets; // @synthesize desiredCapabilitySets=_desiredCapabilitySets;
-@property(retain, nonatomic) CKDeviceCapabilityCheckOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end

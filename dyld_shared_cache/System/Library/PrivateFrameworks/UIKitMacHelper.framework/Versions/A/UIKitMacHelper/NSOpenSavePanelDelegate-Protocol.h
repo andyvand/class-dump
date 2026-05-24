@@ -5,5 +5,9 @@
 //
 
 @protocol NSOpenSavePanelDelegate
+
+@optional
+- (void)i.@9);
+- (_Bool);
 @end
 

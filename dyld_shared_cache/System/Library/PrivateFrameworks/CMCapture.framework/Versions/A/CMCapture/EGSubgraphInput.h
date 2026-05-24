@@ -6,8 +6,7 @@
 
 #import <CMCapture/EGSubgraphPort.h>
 
-@class NSArray, NSMutableArray, NSString;
-@protocol EGElement, EGPortInterface, EGSourcePort;
+@class NSArray, NSMutableArray;
 
 @interface EGSubgraphInput : EGSubgraphPort
 {
@@ -15,25 +14,14 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)defaultTimeZone;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *downstreamNodeInputPorts;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
-@property(readonly, nonatomic) id <EGPortInterface> portInterface;
-@property(readonly, nonatomic) id <EGSourcePort> source;
-@property(readonly) Class superclass;
 
 @end
 

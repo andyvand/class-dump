@@ -6,81 +6,40 @@
 
 #import <AVKit/AVView.h>
 
-@class AVButton, AVCatalystGlassLabel, AVCatalystGlassStyleSheet, AVCatalystScrubber, AVControlOverflowButton, AVGlassLayoutView, AVTouchIgnoringView, NSArray, NSString, NSTimer, UILabel, UIView;
-@protocol AVCatalystTransportControlsViewDelegate, AVRoutePickerViewMacHelper;
+@class AVGlassLayoutView;
 
 __attribute__((visibility("hidden")))
 @interface AVCatalystGlassTransportControlsView : AVView
 {
     _Bool _doubleRowLayoutEnabled;
-    _Bool _showsLoadingIndicator;
-    _Bool _showsLiveStreamingControls;
-    _Bool _liveStreamingControlsIncludeScrubber;
-    _Bool _prefersFlexibleWidthScrubber;
-    _Bool _canShowScrubInstructions;
-    _Bool _collapsed;
-    _Bool _included;
-    _Bool _removed;
-    _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    _Bool _showingScrubInstructions;
-    _Bool _animatingScrubInstructions;
-    float _scrubberValueWhenScrubInstructionsTimerBegan;
-    id <AVCatalystTransportControlsViewDelegate> _delegate;
-    AVCatalystGlassStyleSheet *_styleSheet;
-    AVGlassLayoutView *_controlsLayoutView;
-    double _minimumRequiredWidth;
-    AVCatalystScrubber *_scrubber;
-    AVCatalystGlassLabel *_elapsedTimeLabel;
-    AVCatalystGlassLabel *_timeRemainingLabel;
-    AVButton *_standardPlayPauseButton;
-    AVButton *_skipForwardButton;
-    AVButton *_skipBackButton;
-    AVButton *_startLeftwardContentTransitionButton;
-    AVButton *_startRightwardContentTransitionButton;
-    AVButton *_mediaSelectionButton;
-    AVControlOverflowButton *_controlOverflowButton;
-    AVButton *_playbackSpeedButton;
-    NSArray *_customItems;
-    NSArray *_customMenuItemsViews;
-    UIView *_customContentTransitioningInfoPanel;
-    id <AVRoutePickerViewMacHelper> _routePickerViewMacHelper;
-    AVGlassLayoutView *_detachedExtraContentLayoutView;
-    AVCatalystGlassLabel *_liveBroadcastLabel;
-    AVCatalystGlassLabel *_liveBroadcastScrubberLabel;
-    AVTouchIgnoringView *_embeddedExtraContentContainer;
-    UILabel *_scrubInstructionsLabel;
-    AVCatalystGlassLabel *_detachedScrubInstructionsBackdropLabel;
-    NSTimer *_scrubInstructionsTimer;
-    struct CGSize _extrinsicContentSize;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)M.=mM.;
 - (id);
 - (id);
-- (id);
+- (_Bool)C;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void).;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (float);
 - (void);
-- (id);
+- (id)M.;
 - (id);
 - (id);
 - (_Bool);
@@ -94,7 +53,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -106,7 +65,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (double);
@@ -120,25 +79,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)F;
+- (void)User Key Registry;
 - (void);
 - (double);
 - (void);
-- (struct CGSize);
+- (struct CGSize)A;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)||@ ;
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)es;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -151,57 +110,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ontrolsController showPlaybackControls:immediately:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingScrubInstructions) _Bool animatingScrubInstructions; // @synthesize animatingScrubInstructions=_animatingScrubInstructions;
-@property(readonly, nonatomic) _Bool canShowScrubInstructions; // @synthesize canShowScrubInstructions=_canShowScrubInstructions;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
-@property(readonly, nonatomic) AVControlOverflowButton *controlOverflowButton; // @synthesize controlOverflowButton=_controlOverflowButton;
 @property(retain, nonatomic) AVGlassLayoutView *controlsLayoutView; // @synthesize controlsLayoutView=_controlsLayoutView;
-@property(retain, nonatomic) UIView *customContentTransitioningInfoPanel; // @synthesize customContentTransitioningInfoPanel=_customContentTransitioningInfoPanel;
-@property(copy, nonatomic) NSArray *customItems; // @synthesize customItems=_customItems;
-@property(copy, nonatomic) NSArray *customMenuItemsViews; // @synthesize customMenuItemsViews=_customMenuItemsViews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVCatalystTransportControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AVGlassLayoutView *detachedExtraContentLayoutView; // @synthesize detachedExtraContentLayoutView=_detachedExtraContentLayoutView;
-@property(readonly, nonatomic) AVCatalystGlassLabel *detachedScrubInstructionsBackdropLabel; // @synthesize detachedScrubInstructionsBackdropLabel=_detachedScrubInstructionsBackdropLabel;
-@property(nonatomic, getter=isDoubleRowLayoutEnabled) _Bool doubleRowLayoutEnabled; // @synthesize doubleRowLayoutEnabled=_doubleRowLayoutEnabled;
-@property(readonly, nonatomic) NSArray *doubleRowViews;
-@property(readonly, nonatomic) AVCatalystGlassLabel *elapsedTimeLabel; // @synthesize elapsedTimeLabel=_elapsedTimeLabel;
-@property(readonly, nonatomic) AVTouchIgnoringView *embeddedExtraContentContainer; // @synthesize embeddedExtraContentContainer=_embeddedExtraContentContainer;
-@property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) AVCatalystGlassLabel *liveBroadcastLabel; // @synthesize liveBroadcastLabel=_liveBroadcastLabel;
-@property(readonly, nonatomic) AVCatalystGlassLabel *liveBroadcastScrubberLabel; // @synthesize liveBroadcastScrubberLabel=_liveBroadcastScrubberLabel;
-@property(nonatomic) _Bool liveStreamingControlsIncludeScrubber; // @synthesize liveStreamingControlsIncludeScrubber=_liveStreamingControlsIncludeScrubber;
-@property(readonly, nonatomic) AVButton *mediaSelectionButton; // @synthesize mediaSelectionButton=_mediaSelectionButton;
-@property(readonly, nonatomic) double minimumRequiredWidth; // @synthesize minimumRequiredWidth=_minimumRequiredWidth;
-@property(readonly, nonatomic) AVButton *playbackSpeedButton; // @synthesize playbackSpeedButton=_playbackSpeedButton;
-@property(nonatomic) _Bool prefersFlexibleWidthScrubber; // @synthesize prefersFlexibleWidthScrubber=_prefersFlexibleWidthScrubber;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(retain, nonatomic) id <AVRoutePickerViewMacHelper> routePickerViewMacHelper; // @synthesize routePickerViewMacHelper=_routePickerViewMacHelper;
-@property(readonly, nonatomic) UILabel *scrubInstructionsLabel; // @synthesize scrubInstructionsLabel=_scrubInstructionsLabel;
-@property(nonatomic) __weak NSTimer *scrubInstructionsTimer; // @synthesize scrubInstructionsTimer=_scrubInstructionsTimer;
-@property(readonly, nonatomic) AVCatalystScrubber *scrubber; // @synthesize scrubber=_scrubber;
-@property(nonatomic) float scrubberValueWhenScrubInstructionsTimerBegan; // @synthesize scrubberValueWhenScrubInstructionsTimerBegan=_scrubberValueWhenScrubInstructionsTimerBegan;
-@property(nonatomic, getter=isShowingScrubInstructions) _Bool showingScrubInstructions; // @synthesize showingScrubInstructions=_showingScrubInstructions;
-@property(nonatomic) _Bool showsLiveStreamingControls; // @synthesize showsLiveStreamingControls=_showsLiveStreamingControls;
-@property(nonatomic) _Bool showsLoadingIndicator; // @synthesize showsLoadingIndicator=_showsLoadingIndicator;
-@property(readonly, nonatomic) NSArray *singleRowViews;
-@property(readonly, nonatomic) AVButton *skipBackButton; // @synthesize skipBackButton=_skipBackButton;
-@property(readonly, nonatomic) AVButton *skipForwardButton; // @synthesize skipForwardButton=_skipForwardButton;
-@property(readonly, nonatomic) AVButton *standardPlayPauseButton; // @synthesize standardPlayPauseButton=_standardPlayPauseButton;
-@property(readonly, nonatomic) AVButton *startLeftwardContentTransitionButton; // @synthesize startLeftwardContentTransitionButton=_startLeftwardContentTransitionButton;
-@property(readonly, nonatomic) AVButton *startRightwardContentTransitionButton; // @synthesize startRightwardContentTransitionButton=_startRightwardContentTransitionButton;
-@property(retain, nonatomic) AVCatalystGlassStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVCatalystGlassLabel *timeRemainingLabel; // @synthesize timeRemainingLabel=_timeRemainingLabel;
 
 @end
 

@@ -4,37 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NSPPrivacyProxyProxiedContentMap
 {
     CDStruct_9f2792e4 _proxies;
-    NSMutableArray *_hostnames;
-    NSString *_identifier;
-    unsigned int _percentEnabled;
-    NSMutableArray *_processes;
-    unsigned int _resolver;
-    NSMutableArray *_urls;
-    _Bool _allowFailover;
-    _Bool _enabled;
-    _Bool _isPrivacyProxy;
-    _Bool _matchExactHostnames;
-    _Bool _supportsReverseProxying;
-    _Bool _systemProcessOnly;
-    struct {
-        unsigned int percentEnabled:1;
-        unsigned int resolver:1;
-        unsigned int allowFailover:1;
-        unsigned int isPrivacyProxy:1;
-        unsigned int matchExactHostnames:1;
-        unsigned int supportsReverseProxying:1;
-        unsigned int systemProcessOnly:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-+ (Class);
++ (Class)d�;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -49,7 +26,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -58,73 +35,53 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)\;
 - (void);
 - (void);
 - (unsigned int);
+- (unsigned long long)framework/Versions/A/QuartzCore;
+- (void);
+- (void)coordinateForCopyingFromURL:(_Bool)arg1 toURL:request:handler: /* Error: Ran out of types for this method. */;
+- (_Bool)_itemCompletionBlock;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (_Bool);
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)d;
+- (id)archiverContext;
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned int *);
+- (void);
+- (unsigned int *)initWithResult:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)]p;
 - (void)× ;
-- (void)ad;
+- (void)Bad;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFailover; // @synthesize allowFailover=_allowFailover;
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool hasAllowFailover;
-@property(nonatomic) _Bool hasIsPrivacyProxy;
-@property(nonatomic) _Bool hasMatchExactHostnames;
-@property(nonatomic) _Bool hasPercentEnabled;
-@property(nonatomic) _Bool hasResolver;
-@property(nonatomic) _Bool hasSupportsReverseProxying;
-@property(nonatomic) _Bool hasSystemProcessOnly;
-@property(retain, nonatomic) NSMutableArray *hostnames; // @synthesize hostnames=_hostnames;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isPrivacyProxy; // @synthesize isPrivacyProxy=_isPrivacyProxy;
-@property(nonatomic) _Bool matchExactHostnames; // @synthesize matchExactHostnames=_matchExactHostnames;
-@property(nonatomic) unsigned int percentEnabled; // @synthesize percentEnabled=_percentEnabled;
-@property(retain, nonatomic) NSMutableArray *processes; // @synthesize processes=_processes;
-@property(readonly, nonatomic) unsigned int *proxies;
-@property(readonly, nonatomic) unsigned long long proxiesCount;
-@property(nonatomic) unsigned int resolver; // @synthesize resolver=_resolver;
-@property(nonatomic) _Bool supportsReverseProxying; // @synthesize supportsReverseProxying=_supportsReverseProxying;
-@property(nonatomic) _Bool systemProcessOnly; // @synthesize systemProcessOnly=_systemProcessOnly;
-@property(retain, nonatomic) NSMutableArray *urls; // @synthesize urls=_urls;
 
 @end
 

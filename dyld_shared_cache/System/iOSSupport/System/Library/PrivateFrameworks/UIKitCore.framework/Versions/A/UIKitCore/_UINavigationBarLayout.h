@@ -4,73 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UILabel, UISearchBar, UIView, _UIBarBackground, _UIBarBackgroundLayout, _UIBarInsertLayoutData, _UINavigationBarContentView, _UINavigationBarContentViewLayout, _UINavigationBarLargeTitleView, _UINavigationBarLargeTitleViewLayout, _UINavigationBarModernPromptView, _UINavigationBarPalette, _UINavigationControllerRefreshControlHost;
-@protocol _UINavigationBarContentViewVisualProvider;
+@class _UIBarInsertLayoutData, _UINavigationBarModernPromptView;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarLayout
 {
     _UIBarInsertLayoutData *_topWhitespaceLayoutData;
-    _UIBarInsertLayoutData *_promptLayoutData;
-    _UIBarInsertLayoutData *_contentLayoutData;
-    _UIBarInsertLayoutData *_largeTitleLayoutData;
-    _UIBarInsertLayoutData *_refreshControlLayoutData;
-    _UIBarInsertLayoutData *_searchBarLayoutData;
-    _UIBarInsertLayoutData *_scopeBarLayoutData;
-    _UIBarInsertLayoutData *_topPaletteLayoutData;
-    _UIBarInsertLayoutData *_bottomPaletteLayoutData;
-    NSMutableArray *_priorityOrderedLayout;
-    NSMutableArray *_stackingOrderedLayout;
-    NSArray *_restingHeights;
-    struct {
-        unsigned int layoutIsValid:1;
-    } _flags;
-    _Bool _largeTitleViewOverlaysContentView;
-    _Bool _backgroundCoversContentOnly;
-    _Bool _clientWantsBackgroundHidden;
-    _Bool _useManualScrollEdgeAppearance;
-    _Bool _clientUsesManualScrollEdgeAppearanceProgressSPI;
-    _Bool _clientCanUpdateChromelessTransitionProgress;
-    _Bool _hasInlineSearchBar;
-    _Bool _clientWantsToPreserveSearchBarAcrossTransitions;
-    _Bool _hidesSearchBarWhenScrolling;
-    _Bool _adjustForTabBar;
-    _UINavigationBarModernPromptView *_promptView;
-    _UINavigationBarContentView *_contentView;
-    UIView *_animationContentClippingView;
-    _UINavigationBarLargeTitleView *_largeTitleView;
-    id <_UINavigationBarContentViewVisualProvider> _contentViewVisualProvider;
-    _UINavigationBarContentViewLayout *_contentViewLayout;
-    _UINavigationBarLargeTitleViewLayout *_largeTitleViewLayout;
-    _UIBarBackground *_backgroundView;
-    _UIBarBackgroundLayout *_compactBackgroundViewLayout;
-    _UIBarBackgroundLayout *_standardBackgroundViewLayout;
-    double _backgroundExtension;
-    double _requestedBackgroundViewAlpha;
-    double _manualScrollEdgeAppearanceProgress;
-    _UINavigationControllerRefreshControlHost *_refreshControlHost;
-    UILabel *_weeTitleLabel;
-    UISearchBar *_searchBar;
-    long long _representedSearchLayoutState;
-    _UINavigationBarPalette *_topPalette;
-    _UINavigationBarPalette *_bottomPalette;
-    double _largeTitleExposure;
-    double _largeTitleTransitionProgress;
-    double _chromelessTransitionProgress;
-    double _computedBackgroundViewAlpha;
-    long long _apiVersion;
-    struct CGSize _layoutSize;
-    struct NSDirectionalEdgeInsets _largeTitleViewInsets;
-    struct CGRect _originLayoutFrame;
 }
 
-- (void);
-- (void);
+- (void)4K;
+- (void);
 - (struct CGRect);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (struct CGRect);
 - (double);
 - (void);
@@ -83,21 +31,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (id);
+- (id)computeTruncationForAlignments:(id)arg1 indexForFirstTrailingColumn:totalEqualColumns: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)_kb;
 - (id);
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
-- (_Bool);
+- (double)6;
+- (_Bool)u;
 - (void);
-- (void);
+- (void)<;
 - (long long);
 - (_Bool);
-- (id);
+- (id)ryModifyLibraryAddPlaylistCommmand();
 - (_Bool);
 - (struct CGRect);
 - (id);
@@ -108,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
-- (CDStruct_39925896);
+- (CDStruct_bd34ff7f);
 - (void);
 - (void);
 - (void);
@@ -134,33 +82,33 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)rozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
 - (void)Point=dd}{CGSize=dd}}16N^{CGRect={CGPoint=dd}{CGSize=dd}}24N^{CGRect={CGPoint=dd}{CGSize=dd}}32{CGPoint=dd}40;
-- (void)idDraw;
-- (void)BarTouchesEnded:(_Bool)arg1 withEvent: /* Error: Ran out of types for this method. */;
+- (void)webPlugInDidDraw;
+- (void)tabBarTouchesEnded:(_Bool)arg1 withEvent: /* Error: Ran out of types for this method. */;
 - (void)set_dragContainerView:(struct CGSize)arg1;
-- (struct CGRect)etCloseButtonMinSize: /* Error: Ran out of types for this method. */;
-- (id)ponder: /* Error: Ran out of types for this method. */;
-- (long long)ize: /* Error: Ran out of types for this method. */;
-- (void)izationContextWithParameters: /* Error: Ran out of types for this method. */;
-- (void)wControllerForAccessibilityHUDGestureManager:(_Bool)arg1;
+- (struct CGRect)setCloseButtonMinSize: /* Error: Ran out of types for this method. */;
+- (id)remoteAssistantItemForResponder: /* Error: Ran out of types for this method. */;
+- (long long)menuLayoutDidProducePreviewSize: /* Error: Ran out of types for this method. */;
+- (void)applicationInitializationContextWithParameters: /* Error: Ran out of types for this method. */;
+- (void)_viewControllerForAccessibilityHUDGestureManager:(_Bool)arg1;
 - (struct CGRect)_uiWindowSceneFromFBSScene: /* Error: Ran out of types for this method. */;
-- (struct CGRect)rtcutAction: /* Error: Ran out of types for this method. */;
-- (void)tegory:(id)arg1;
+- (struct CGRect)_triggerSecondaryOnlyShortcutAction: /* Error: Ran out of types for this method. */;
+- (void)_setSystemVolumeHUDEnabled:(id)arg1 forAudioCategory: /* Error: Ran out of types for this method. */;
 - (void)_observerImplementingWillEndDraggingMethod;
-- (id)aybackAssertions;
-- (id)lectedIndicatorImage;
-- (void)n:(id)arg1 didPerformMenuLeaf:target: /* Error: Ran out of types for this method. */;
+- (id)_fullscreenPlaybackAssertions;
+- (id)_customSelectedIndicatorImage;
+- (void)_contextMenuInteraction:(id)arg1 didPerformMenuLeaf:target: /* Error: Ran out of types for this method. */;
 - (void)FullHeightUntransformedFrameForDepthLevel:(id)arg1;
 - (id)N,V_preferredSecondaryColumnWidthFraction;
 - (struct CGRect)_UISearchSuggestionsListViewController",R,N,V_suggestionsListViewController;
 - (double)referredFocusReport,S_setPreferredFocusReport:,V_preferredFocusReport /* Error: Ran out of types for this method. */;
-- (void)forKey:(id)arg1;
+- (void)recordDistributionValue:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void)SUserActivity",R,N,V_userActivity;
 - (void)scrollerImp:convertRectToLayer: /* Error: Ran out of types for this method. */;
 - (void)T@"NSString",C,N,G_currentActivityContinuationUUIDString,S_setCurrentActivityContinuationUUIDString:(id)arg1 ,V_currentActivityContinuationUUIDString;
-- (id)rvalWeight;
-- (void)entViewProvider;
-- (id)avigationBarPlatterAnimationView;
-- (id)sDomain;
+- (id)_intervalWeight;
+- (void)_UISearchTokenAttachmentViewProvider;
+- (id)_UINavigationBarPlatterAnimationView;
+- (id)_TtC5UIKit31_UIZoomTransitionSettingsDomain;
 - (void)Dy;
 - (id)Äô$;
 - (double);
@@ -196,62 +144,7 @@ __attribute__((visibility("hidden")))
 - (void)Gºÿ¡;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustForTabBar; // @synthesize adjustForTabBar=_adjustForTabBar;
-@property(retain, nonatomic) UIView *animationContentClippingView; // @synthesize animationContentClippingView=_animationContentClippingView;
-@property(nonatomic) long long apiVersion; // @synthesize apiVersion=_apiVersion;
-@property(nonatomic) _Bool backgroundCoversContentOnly; // @synthesize backgroundCoversContentOnly=_backgroundCoversContentOnly;
-@property(nonatomic) double backgroundExtension; // @synthesize backgroundExtension=_backgroundExtension;
-@property(retain, nonatomic) _UIBarBackground *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) struct CGRect backgroundViewLayoutFrame;
-@property(retain, nonatomic) _UINavigationBarPalette *bottomPalette; // @synthesize bottomPalette=_bottomPalette;
-@property(readonly, nonatomic) struct CGRect bottomPaletteLayoutFrame;
-@property(readonly, nonatomic) double chromelessTransitionProgress; // @synthesize chromelessTransitionProgress=_chromelessTransitionProgress;
-@property(nonatomic) _Bool clientCanUpdateChromelessTransitionProgress; // @synthesize clientCanUpdateChromelessTransitionProgress=_clientCanUpdateChromelessTransitionProgress;
-@property(nonatomic) _Bool clientUsesManualScrollEdgeAppearanceProgressSPI; // @synthesize clientUsesManualScrollEdgeAppearanceProgressSPI=_clientUsesManualScrollEdgeAppearanceProgressSPI;
-@property(nonatomic) _Bool clientWantsBackgroundHidden; // @synthesize clientWantsBackgroundHidden=_clientWantsBackgroundHidden;
-@property(nonatomic) _Bool clientWantsToPreserveSearchBarAcrossTransitions; // @synthesize clientWantsToPreserveSearchBarAcrossTransitions=_clientWantsToPreserveSearchBarAcrossTransitions;
-@property(retain, nonatomic) _UIBarBackgroundLayout *compactBackgroundViewLayout; // @synthesize compactBackgroundViewLayout=_compactBackgroundViewLayout;
-@property(readonly, nonatomic) double computedBackgroundViewAlpha; // @synthesize computedBackgroundViewAlpha=_computedBackgroundViewAlpha;
-@property(retain, nonatomic) _UINavigationBarContentView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) _UINavigationBarContentViewLayout *contentViewLayout; // @synthesize contentViewLayout=_contentViewLayout;
-@property(readonly, nonatomic) struct CGRect contentViewLayoutFrame;
-@property(retain, nonatomic) id <_UINavigationBarContentViewVisualProvider> contentViewVisualProvider; // @synthesize contentViewVisualProvider=_contentViewVisualProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasInlineSearchBar; // @synthesize hasInlineSearchBar=_hasInlineSearchBar;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidesSearchBarWhenScrolling; // @synthesize hidesSearchBarWhenScrolling=_hidesSearchBarWhenScrolling;
-@property(readonly, nonatomic) double largeTitleExposure; // @synthesize largeTitleExposure=_largeTitleExposure;
-@property(readonly, nonatomic) double largeTitleTransitionProgress; // @synthesize largeTitleTransitionProgress=_largeTitleTransitionProgress;
-@property(retain, nonatomic) _UINavigationBarLargeTitleView *largeTitleView; // @synthesize largeTitleView=_largeTitleView;
-@property(nonatomic) struct NSDirectionalEdgeInsets largeTitleViewInsets; // @synthesize largeTitleViewInsets=_largeTitleViewInsets;
-@property(retain, nonatomic) _UINavigationBarLargeTitleViewLayout *largeTitleViewLayout; // @synthesize largeTitleViewLayout=_largeTitleViewLayout;
-@property(readonly, nonatomic) struct CGRect largeTitleViewLayoutFrame;
-@property(nonatomic) _Bool largeTitleViewOverlaysContentView; // @synthesize largeTitleViewOverlaysContentView=_largeTitleViewOverlaysContentView;
-@property(readonly, nonatomic) CDStruct_39925896 layoutHeights;
-@property(nonatomic) struct CGSize layoutSize; // @synthesize layoutSize=_layoutSize;
-@property(nonatomic) double manualScrollEdgeAppearanceProgress; // @synthesize manualScrollEdgeAppearanceProgress=_manualScrollEdgeAppearanceProgress;
-@property(readonly, nonatomic) struct CGRect originLayoutFrame; // @synthesize originLayoutFrame=_originLayoutFrame;
 @property(retain, nonatomic) _UINavigationBarModernPromptView *promptView; // @synthesize promptView=_promptView;
-@property(readonly, nonatomic) struct CGRect promptViewLayoutFrame;
-@property(retain, nonatomic) _UINavigationControllerRefreshControlHost *refreshControlHost; // @synthesize refreshControlHost=_refreshControlHost;
-@property(readonly, nonatomic) struct CGRect refreshControlLayoutFrame;
-@property(nonatomic) long long representedSearchLayoutState; // @synthesize representedSearchLayoutState=_representedSearchLayoutState;
-@property(nonatomic) double requestedBackgroundViewAlpha; // @synthesize requestedBackgroundViewAlpha=_requestedBackgroundViewAlpha;
-@property(readonly, copy, nonatomic) NSArray *restingHeights;
-@property(retain, nonatomic) UISearchBar *searchBar; // @synthesize searchBar=_searchBar;
-@property(readonly, nonatomic) struct CGRect searchBarLayoutFrame;
-@property(retain, nonatomic) _UIBarBackgroundLayout *standardBackgroundViewLayout; // @synthesize standardBackgroundViewLayout=_standardBackgroundViewLayout;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UINavigationBarPalette *topPalette; // @synthesize topPalette=_topPalette;
-@property(readonly, nonatomic) struct CGRect topPaletteLayoutFrame;
-@property(nonatomic) _Bool useManualScrollEdgeAppearance; // @synthesize useManualScrollEdgeAppearance=_useManualScrollEdgeAppearance;
-@property(readonly, nonatomic, getter=isVariableHeight) _Bool variableHeight;
-@property(retain, nonatomic) UILabel *weeTitleLabel; // @synthesize weeTitleLabel=_weeTitleLabel;
-@property(readonly, nonatomic) struct CGRect weeTitleLabelLayoutFrame;
 
 @end
 

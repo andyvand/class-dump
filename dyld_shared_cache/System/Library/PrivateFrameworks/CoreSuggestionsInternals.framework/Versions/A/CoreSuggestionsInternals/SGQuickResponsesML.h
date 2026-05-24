@@ -11,8 +11,8 @@
     id <PMLTrainingProtocol> _localTraining;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)message:(id)arg1;
++ (_Bool)beginSetupInWindow:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

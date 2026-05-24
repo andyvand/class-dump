@@ -12,14 +12,14 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)dSYM;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *settingKey;

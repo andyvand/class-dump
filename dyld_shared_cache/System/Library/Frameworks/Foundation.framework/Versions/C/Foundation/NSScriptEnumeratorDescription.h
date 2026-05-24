@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-
 @interface NSScriptEnumeratorDescription
 {
     unsigned int appleEventCode;
-    _Bool isHidden;
-    NSString *presentableDescription;
-    NSString *presentableName;
-    NSObject *_value;
-    NSArray *_synonymDescriptions;
 }
 
 - (id);

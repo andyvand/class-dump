@@ -10,25 +10,16 @@
 @interface MTLConstantRelocation
 {
     NSString *_symbolName;
-    NSObject<OS_dispatch_data> *_data;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)5#;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_data> *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

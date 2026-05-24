@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface AKTSDBrushStroke
 {
     int _join;
-    NSString *_strokeName;
-    UIColor *_color;
-    double _width;
-    double _miterLimit;
 }
 
 + (id);
 + (id);
 + (Class);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (id);
-- (id);
-- (id);
+- (id)metadataClass;
+- (id)ation"8;
 - (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
 - (id);
 - (int);
 - (double);
@@ -42,11 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) int join; // @synthesize join=_join;
-@property(readonly, nonatomic) double miterLimit; // @synthesize miterLimit=_miterLimit;
 @property(readonly, copy, nonatomic) NSString *strokeName; // @synthesize strokeName=_strokeName;
-@property(readonly, nonatomic) double width; // @synthesize width=_width;
 
 @end
 

@@ -4,60 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSDictionary, NSPanel, NSPopUpButton, NSString, NSTableView, NSTextField, NSTextView, NSView, NSViewController;
+@class NSArray, NSDictionary;
 
 @interface NSSpellChecker
 {
     NSArray *_topLevelPanels;
-    NSTableView *_guessesBrowser;
-    NSTextField *_wordField;
-    NSPopUpButton *_languagePopUp;
-    NSPanel *_spellingPanel;
-    NSButton *_correctButton;
-    NSButton *_guessButton;
-    NSButton *_ignoreButton;
-    NSPanel *_languagesPanel;
-    NSTableView *_languagesBrowser;
-    NSButton *_defineButton;
-    NSPanel *_substitutionsPanel;
-    NSButton *_learnButton;
-    NSTextView *_infoField;
-    NSButton *_grammarControl;
-    struct __scFlags {
-        unsigned int autoShowGuesses:1;
-        unsigned int needDelayedGuess:1;
-        unsigned int unignoreInProgress:1;
-        unsigned int wordFieldEdited:1;
-        unsigned int inSpelling:1;
-        unsigned int reconnectSpelling:1;
-        unsigned int inGrammar:1;
-        unsigned int reconnectGrammar:1;
-        unsigned int languageIdentification:1;
-        unsigned int languagesHidden:1;
-        unsigned int quotesByLanguage:1;
-        unsigned int quotesAreCustom:1;
-        unsigned int _reserved:20;
-    } _scFlags;
 }
 
 + (long long);
 + (_Bool);
 + (id);
++ (void),V_privacyProxyFailClosedForUnreachableHosts;
 + (void);
 + (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)d, attempting fallback;
++ (_Bool)very timer done (fb=%d sip=%d);
++ (_Bool)%p %llu start stall recovery;
++ (_Bool)er protocol violation 0x%02hhx on stream ID=%llu;
++ (_Bool)Server protocol violation 0x%02hhx;
++ (_Bool)cess %llus ago, consecutive failures %llu;
++ (_Bool)rence;
++ (_Bool)TTP/3 override %d via env;
++ (_Bool)alled before forget;
++ (_Bool)e.;
++ (_Bool)o create with a NULL response!;
++ (_Bool)tion():Asked to create with a NULL request! /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 + (void);
@@ -67,31 +38,17 @@
 + (_Bool);
 + (void);
 + (void);
++ (void)?;
++ (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void);
++ (id);
 + (id);
 + (id);
 + (void);
 + (id);
 
 // Remaining properties
-@property(retain) NSView *accessoryView;
-@property _Bool automaticallyIdentifiesLanguages;
-@property(readonly, copy) NSArray *availableLanguages;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSPanel *spellingPanel;
-@property(readonly) NSPanel *substitutionsPanel;
-@property(retain) NSViewController *substitutionsPanelAccessoryViewController;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *userPreferredLanguages;
 @property(readonly, copy) NSDictionary *userReplacementsDictionary;
 
 @end

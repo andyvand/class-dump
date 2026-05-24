@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCategory, MUITokenAddress, NSString;
+@class MUITokenAddress;
 
 @interface MUIRecategorizationViewModel
 {
     MUITokenAddress *tokenAddress;
-    long long businessID;
-    EMCategory *category;
 }
 
 - (id);
@@ -20,14 +18,12 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)ighlight rect! %@ 
+;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long businessID; // @synthesize businessID;
-@property(nonatomic, retain) EMCategory *category; // @synthesize category;
-@property(nonatomic, readonly) NSString *displayName;
 @property(nonatomic, retain) MUITokenAddress *tokenAddress; // @synthesize tokenAddress;
 
 @end

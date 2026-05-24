@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)ant to allow a website to show a wallet order;
 
 @end
 

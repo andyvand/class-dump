@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIPointerEffectSizeRuleSettings
 {
     double _explicitRequestMultiplier;
-    double _genericSizeRuleThreshold;
-    double _narrowAspectRuleMinorDimensionThreshold;
-    double _narrowAspectRuleMajorDimensionThreshold;
-    double _pointerSizeRuleMinorDimensionThreshold;
-    double _pointerSizeRuleMajorDimensionThreshold;
 }
 
 + (id);
@@ -26,17 +21,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (void)tObservers: /* Error: Ran out of types for this method. */;
+- (double)parentPreviewWidth:stickerXOffset:stickerYOffset:stickerScale:stickerRotation:stickerBundleID:stickerIsReaction:stickerPositionVersion:stickerExternalURI: /* Error: Ran out of types for this method. */;
+- (double)setPendingNicknameUpdatesKVStore: /* Error: Ran out of types for this method. */;
+- (void)setObservers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double explicitRequestMultiplier; // @synthesize explicitRequestMultiplier=_explicitRequestMultiplier;
-@property(nonatomic) double genericSizeRuleThreshold; // @synthesize genericSizeRuleThreshold=_genericSizeRuleThreshold;
-@property(nonatomic) double narrowAspectRuleMajorDimensionThreshold; // @synthesize narrowAspectRuleMajorDimensionThreshold=_narrowAspectRuleMajorDimensionThreshold;
-@property(nonatomic) double narrowAspectRuleMinorDimensionThreshold; // @synthesize narrowAspectRuleMinorDimensionThreshold=_narrowAspectRuleMinorDimensionThreshold;
-@property(nonatomic) double pointerSizeRuleMajorDimensionThreshold; // @synthesize pointerSizeRuleMajorDimensionThreshold=_pointerSizeRuleMajorDimensionThreshold;
-@property(nonatomic) double pointerSizeRuleMinorDimensionThreshold; // @synthesize pointerSizeRuleMinorDimensionThreshold=_pointerSizeRuleMinorDimensionThreshold;
 
 @end
 

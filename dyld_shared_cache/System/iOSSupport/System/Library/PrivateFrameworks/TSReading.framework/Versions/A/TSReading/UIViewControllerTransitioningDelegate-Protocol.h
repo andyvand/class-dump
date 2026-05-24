@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-@protocol UIViewControllerAnimatedTransitioning;
+@class UIPresentationController, UIViewController;
+@protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning;
 
 @protocol UIViewControllerTransitioningDelegate
 
 @optional
-- (id <UIViewControllerAnimatedTransitioning>)placeString:(UIViewController *)arg1;
+- (UIPresentationController *)onfig override from path %{public}@;
+- (id <UIViewControllerInteractiveTransitioning>);
+- (id <UIViewControllerAnimatedTransitioning>)replaceOccurrencesOfCharactersInSet:(UIViewController *)arg1 minimumConsecutiveLength:(UIViewController *)arg2 replaceString:(UIViewController *)arg3;
 @end
 

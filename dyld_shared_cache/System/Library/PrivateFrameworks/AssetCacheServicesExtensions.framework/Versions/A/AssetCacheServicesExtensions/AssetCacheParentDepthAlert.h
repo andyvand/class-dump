@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)s;
 
 // Remaining properties
 @property(retain) NSArray *addresses; // @synthesize addresses=_addresses;

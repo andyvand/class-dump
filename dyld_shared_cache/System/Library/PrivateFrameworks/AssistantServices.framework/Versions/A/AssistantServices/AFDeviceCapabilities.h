@@ -9,7 +9,6 @@
 @interface AFDeviceCapabilities
 {
     NSDictionary *_serializedBackingStore;
-    long long _voiceTriggerEnabled;
 }
 
 + (_Bool);

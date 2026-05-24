@@ -6,56 +6,48 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class EKUIButton, NSArray, NSView;
+@class EKUIButton;
 
 @interface EKUIThreeButtonGadget : EKUISingleViewGadget
 {
     EKUIButton *_firstButton;
-    EKUIButton *_secondButton;
-    EKUIButton *_thirdButton;
-    NSView *_control;
-    NSArray *_buttonConstraints;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)t;
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)b;
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id)T	;
+- (id);
+- (void);
 - (void);
 - (double);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)to ind interrupted!;
 
 // Remaining properties
-@property(retain) NSArray *buttonConstraints; // @synthesize buttonConstraints=_buttonConstraints;
-@property(retain) NSView *control; // @synthesize control=_control;
 @property(retain) EKUIButton *firstButton; // @synthesize firstButton=_firstButton;
-@property(retain) EKUIButton *secondButton; // @synthesize secondButton=_secondButton;
-@property(retain) EKUIButton *thirdButton; // @synthesize thirdButton=_thirdButton;
 
 @end
 

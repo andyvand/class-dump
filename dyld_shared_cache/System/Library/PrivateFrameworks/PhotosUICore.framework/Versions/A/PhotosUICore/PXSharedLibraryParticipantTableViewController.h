@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSLayoutConstraint, NSMenu, NSString, NSTableView, PXSharedLibraryButtonBox, PXSharedLibraryParticipantDataSource, PXSharedLibraryParticipantDataSourceManager;
-@protocol PXSharedLibraryParticipantTableViewControllerDelegate;
+@class NSBox, PXSharedLibraryParticipantDataSource;
 
 @interface PXSharedLibraryParticipantTableViewController
 {
     NSBox *_scrollViewBox;
-    PXSharedLibraryButtonBox *_addButtonBox;
-    NSLayoutConstraint *_topAddParticipantsToContainerConstraint;
-    NSLayoutConstraint *_topAddParticipantsToTableViewConstraint;
-    NSLayoutConstraint *_scrollViewHeightConstraint;
-    _Bool _interactionEnabled;
-    PXSharedLibraryParticipantDataSourceManager *_dataSourceManager;
-    double _tableViewHeight;
-    id <PXSharedLibraryParticipantTableViewControllerDelegate> _delegate;
-    PXSharedLibraryParticipantDataSource *_dataSource;
-    NSTableView *_tableView;
-    NSMenu *_actionMenu;
 }
 
 - (void);
@@ -32,12 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (void);
@@ -49,30 +37,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (void);
-- (void)tchOptions;
+- (void)standardFetchOptions;
 - (void)ryGetMoveToSharedLibraryConfirmationTitleAndMessage(__strong id<PXFastEnumeration> _Nonnull, NSString * _Nullable __autoreleasing * _Nullable, NSString * _Nullable __autoreleasing * _Nullable);
 - (void)Ü;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMenu *actionMenu; // @synthesize actionMenu=_actionMenu;
 @property(retain, nonatomic) PXSharedLibraryParticipantDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) PXSharedLibraryParticipantDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXSharedLibraryParticipantTableViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInteractionEnabled) _Bool interactionEnabled; // @synthesize interactionEnabled=_interactionEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTableView *tableView; // @synthesize tableView=_tableView;
-@property(readonly, nonatomic) double tableViewHeight; // @synthesize tableViewHeight=_tableViewHeight;
 
 @end
 

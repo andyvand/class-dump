@@ -5,10 +5,10 @@
 //
 
 @protocol TSPDocumentResourceDownloader
+- (_Bool)previousTransitionOffset: /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long estimatedDownloadSize;
-@property(readonly, nonatomic) _Bool isEstimatedDownloadSizePrecise;
 @property(readonly, nonatomic) _Bool needsDownload;
 @end
 

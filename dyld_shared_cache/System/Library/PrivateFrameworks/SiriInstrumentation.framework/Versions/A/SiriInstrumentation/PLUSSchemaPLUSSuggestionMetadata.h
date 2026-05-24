@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSSuggestionMetadata : SISchemaInstrumentationMessage
 {
     int _surfacedBeforeStatus;
-    struct {
-        unsigned int surfacedBeforeStatus:1;
-    } _has;
 }
 
 - (int);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)displayName "%@" and no image;
 - (id);
 - (id);
-- (id)Status;
+- (id)_intelligenceFeatureAvailabilityChangeStatus;
 - (id)ementLabel;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSurfacedBeforeStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int surfacedBeforeStatus; // @synthesize surfacedBeforeStatus=_surfacedBeforeStatus;
 
 @end

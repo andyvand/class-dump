@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString, TRIClientSelectedNamespace;
+@class NSString;
 
 @interface TRIClientFactorPack : TRIPBMessage
 {
@@ -15,12 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *factorLevelArray; // @dynamic factorLevelArray;
-@property(readonly, nonatomic) unsigned long long factorLevelArray_Count; // @dynamic factorLevelArray_Count;
 @property(copy, nonatomic) NSString *factorPackId; // @dynamic factorPackId;
-@property(nonatomic) _Bool hasFactorPackId; // @dynamic hasFactorPackId;
-@property(nonatomic) _Bool hasSelectedNamespace; // @dynamic hasSelectedNamespace;
-@property(retain, nonatomic) TRIClientSelectedNamespace *selectedNamespace; // @dynamic selectedNamespace;
 
 @end
 

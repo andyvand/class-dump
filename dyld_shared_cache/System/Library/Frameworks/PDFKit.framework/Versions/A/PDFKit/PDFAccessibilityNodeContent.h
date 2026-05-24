@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodeContent : PDFAccessibilityNode
 {
     _Bool _isRangeCalculated;
-    NSString *__stringValue;
-    struct _NSRange __textRange;
 }
 
 - (void);
@@ -21,30 +19,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct _NSRange);
-- (id);
-- (struct CGPDFTaggedNode *);
-- (struct _NSRange);
-- (id);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
+- (id)callInteractionsDidChangeForDataSource: /* Error: Ran out of types for this method. */;
+- (struct CGPDFTaggedNode *)_nightVisionModeEnabled;
+- (struct _NSRange)pletionHandler:] /* Error: Ran out of types for this method. */;
+- (id)HMAccessoryHH1EOLEnabledCodingKey;
+- (struct _NSRange)HMAccessoryRemoveCorrespondingSystemCommissionerPairingMessage;
+- (struct _NSRange)olation;
+- (struct _NSRange)orkProtectionMode;
+- (struct _NSRange)orySupportsCrossfadeAsAirPlaySourceCodingKey;
+- (long long)es Home Data Access;
+- (struct CGRect)lastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2;
+- (id)';
 - (long long);
-- (struct CGRect);
 - (id);
-- (long long);
-- (id);
-- (id);
+- (id)INTEGER PRIMARY KEY, entity_pid INTEGER NOT NULL DEFAULT 0, entity_type INTEGER NOT NULL DEFAULT 0, default_action INTEGER NOT NULL DEFAULT 0, position INTEGER NOT NULL DEFAULT 0, saga_id INTEGER NOT NULL DEFAULT 0, cloud_library_id TEXT NOT NULL DEFAULT '', position_uuid TEXT NOT NULL DEFAULT '', UNIQUE (entity_pid, entity_type));
 - (id);
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
+- (void)h";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *_stringValue; // @synthesize _stringValue=__stringValue;
-@property struct _NSRange _textRange; // @synthesize _textRange=__textRange;
-@property _Bool isRangeCalculated; // @synthesize isRangeCalculated=_isRangeCalculated;
 
 @end
 

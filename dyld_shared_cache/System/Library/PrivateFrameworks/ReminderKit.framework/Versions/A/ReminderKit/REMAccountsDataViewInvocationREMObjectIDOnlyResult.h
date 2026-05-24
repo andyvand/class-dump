@@ -13,14 +13,14 @@
     NSArray *_accountIDs;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)T(;
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void)!ë!Dù1s 1Â0@ù
 × ;
 

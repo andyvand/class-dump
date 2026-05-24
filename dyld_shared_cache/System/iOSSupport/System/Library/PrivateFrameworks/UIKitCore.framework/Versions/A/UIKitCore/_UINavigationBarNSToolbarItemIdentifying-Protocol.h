@@ -7,7 +7,7 @@
 @class NSString, NSToolbarItem;
 
 @protocol _UINavigationBarNSToolbarItemIdentifying
-- (NSString *)pHistory;
+- (NSString *)_focusGroupHistory;
 - (NSToolbarItem *)`ÕÕ;
 
 // Remaining properties

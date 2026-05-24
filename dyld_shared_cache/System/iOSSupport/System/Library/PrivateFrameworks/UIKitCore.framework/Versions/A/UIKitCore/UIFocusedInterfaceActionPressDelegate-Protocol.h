@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIInterfaceAction;
+
 @protocol UIFocusedInterfaceActionPressDelegate
+- (void);
+- (UIInterfaceAction *) ;
 @end
 

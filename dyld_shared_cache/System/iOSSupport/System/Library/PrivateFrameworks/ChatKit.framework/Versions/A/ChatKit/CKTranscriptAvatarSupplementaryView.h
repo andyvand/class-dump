@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_shouldIncludeGroupResults;
 - (void)
 × ;
 - (void)H;

@@ -8,9 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double decelerationThreshold;
-@property(readonly, nonatomic) double maximumZoomInVelocity;
-@property(readonly, nonatomic) double maximumZoomOutVelocity;
-@property(readonly, nonatomic) double zoomDraggingResistance;
-@property(readonly, nonatomic) double zoomOutFrictionScale;
 @end
 

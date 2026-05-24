@@ -7,20 +7,19 @@
 @interface MSObjectQueue
 {
     struct sqlite3 *_db;
-    struct __CFDictionary *_statements;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct sqlite3_stmt *);
-- (id);
+- (id)blic}@Resetting the IDS connection sender;
+- (void)orage;
+- (void)ublic}@Removed device %{public}@ from mesh storage;
+- (id)r result for kDeviceMeshUpdateRequestKey from %@:(long long)arg1 %@;
+- (void)napshot failure message:(id)arg1 %@;
+- (void)ed to create snapshot session UUID from remote snapshot failure message:(id)arg1 %@;
+- (void)ublic,uuid_t}.16P;
+- (id)ion has timed out:(long long)arg1 %@;
+- (id)t request for reason:(long long)arg1 %@;
+- (struct sqlite3_stmt *)to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:(id)arg1 accessory reference is nil;
+- (id)pshot session with HMDCameraStreamSnapshot;
 - (void);
 - (id);
 - (long long);

@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)B40@0:(CDUnknownBlockType)arg1 8@16^Q24^@32;
 - (id);
 
 @end

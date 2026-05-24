@@ -5,5 +5,6 @@
 //
 
 @protocol LACEvaluationEventHandling
+- (void)ead fixpoint scalings from;
 @end
 

@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
+@class NSArray;
 
 @interface _DKTombstonePolicy
 {
     NSArray *_requirements;
-    NSPredicate *_predicateForEventsRequiredToBeTombstoned;
-    NSArray *_propertiesToFetchForTombstones;
-    NSPredicate *_eventPredicateForEventsRequiredToBeTombstoned;
 }
 
 + (id);
+- (id)q;
+- (id)B;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void)á¶/!@EùÑ©3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSPredicate *predicateForEventsRequiredToBeTombstoned;
-@property(readonly, nonatomic) NSArray *propertiesToFetchForTombstones;
 @property(readonly, nonatomic) NSArray *requirements;
 
 @end

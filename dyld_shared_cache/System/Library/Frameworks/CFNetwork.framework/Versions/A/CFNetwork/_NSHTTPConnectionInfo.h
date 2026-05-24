@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURLSession;
-@protocol OS_dispatch_queue;
-
 @interface _NSHTTPConnectionInfo
 {
     struct HTTPConnectionInfo *_httpConnectionInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSURLSession *_session;
 }
 
 - (_Bool);

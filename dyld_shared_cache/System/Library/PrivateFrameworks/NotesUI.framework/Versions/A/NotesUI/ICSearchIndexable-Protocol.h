@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItemAttributeSet, NSDate, NSManagedObjectContext, NSManagedObjectID, NSString;
+@class NSData, NSManagedObjectContext, NSString;
 
 @protocol ICSearchIndexable
-- (NSDate *);
 - (NSManagedObjectContext *)ÿ ;
 
-// Remaining properties
-@property(readonly, copy, nonatomic) NSString *contentIdentifier;
-@property(readonly, copy, nonatomic) NSDate *creationDate;
-@property(readonly, copy, nonatomic) NSString *dataSourceIdentifier;
-@property(readonly, nonatomic) _Bool isDeletable;
-@property(readonly, nonatomic) _Bool isHiddenFromIndexing;
-@property(readonly, nonatomic) _Bool isHiddenFromSearch;
-@property(readonly, nonatomic) _Bool isMovable;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSDate *modificationDate;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, copy, nonatomic) NSString *searchDomainIdentifier;
-@property(readonly, copy, nonatomic) NSString *searchIndexingIdentifier;
-@property(readonly, nonatomic) _Bool searchResultCanBeDeletedFromNoteContext;
-@property(readonly, nonatomic) unsigned long long searchResultType;
-@property(readonly, nonatomic) unsigned long long searchResultsSection;
-@property(readonly, nonatomic) CSSearchableItemAttributeSet *searchableItemAttributeSet;
-@property(readonly) CSSearchableItemAttributeSet *searchableItemViewAttributeSet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CSSearchableItemAttributeSet",?,R
+@optional
+- (NSData *)B;
+- (NSString *);
 
-@property(readonly, nonatomic) CSSearchableItemAttributeSet *userActivityContentAttributeSet;
-@property(readonly, nonatomic) long long visibilityTestingType;
+// Remaining properties
+@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
 @end
 

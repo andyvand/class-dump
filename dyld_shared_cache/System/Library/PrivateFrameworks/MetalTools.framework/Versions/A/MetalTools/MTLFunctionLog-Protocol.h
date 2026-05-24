@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTLFunction, MTLFunctionLogDebugLocation;
-
 @protocol MTLFunctionLog
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLFunctionLogDebugLocation> debugLocation;
-@property(readonly, nonatomic) NSString *encoderLabel;
-@property(readonly, nonatomic) id <MTLFunction> function;
 @property(readonly, nonatomic) unsigned long long type;
 @end
 

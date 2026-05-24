@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)igationBar:shouldPopItem: /* Error: Ran out of types for this method. */;
+- (void)navigationBar:shouldPopItem: /* Error: Ran out of types for this method. */;
 
 @end
 

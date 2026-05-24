@@ -4,48 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDNetworkServiceProxyRequestStatistics
 {
     CDStruct_9f2792e4 _directConnectionFirstByteBuckets;
-    CDStruct_9f2792e4 _directConnectionLastByteBuckets;
-    CDStruct_9f2792e4 _firstByteBuckets;
-    CDStruct_9f2792e4 _lastByteBuckets;
-    CDStruct_9f2792e4 _udpRttBuckets;
-    unsigned long long _timestamp;
-    unsigned int _directConnectionCount;
-    unsigned int _directConnectionFailedCount;
-    NSString *_firstPartyServiceName;
-    int _interfaceType;
-    int _protocolType;
-    unsigned int _requestCount;
-    unsigned int _requestFailedCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int directConnectionCount:1;
-        unsigned int directConnectionFailedCount:1;
-        unsigned int interfaceType:1;
-        unsigned int protocolType:1;
-        unsigned int requestCount:1;
-        unsigned int requestFailedCount:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int *);
+- (unsigned int *)x;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -64,7 +41,7 @@
 - (unsigned int *);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long));
 - (unsigned int);
 - (unsigned int *);
 - (unsigned int);
@@ -78,63 +55,38 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void);
 - (unsigned int *);
 - (_Bool);
 - (int);
 - (_Bool);
 - (unsigned int *);
-- (int);
-- (void);
+- (int);
+- (void)Z;
 - (int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
+- (_Bool)?	;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)+	;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)tion;
+- (void)_callDuration;
 - (unsigned int)÷ÿ;
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned int directConnectionCount; // @synthesize directConnectionCount=_directConnectionCount;
-@property(nonatomic) unsigned int directConnectionFailedCount; // @synthesize directConnectionFailedCount=_directConnectionFailedCount;
-@property(readonly, nonatomic) unsigned int *directConnectionFirstByteBuckets;
-@property(readonly, nonatomic) unsigned long long directConnectionFirstByteBucketsCount;
-@property(readonly, nonatomic) unsigned int *directConnectionLastByteBuckets;
-@property(readonly, nonatomic) unsigned long long directConnectionLastByteBucketsCount;
-@property(readonly, nonatomic) unsigned int *firstByteBuckets;
-@property(readonly, nonatomic) unsigned long long firstByteBucketsCount;
-@property(retain, nonatomic) NSString *firstPartyServiceName; // @synthesize firstPartyServiceName=_firstPartyServiceName;
-@property(nonatomic) _Bool hasDirectConnectionCount;
-@property(nonatomic) _Bool hasDirectConnectionFailedCount;
-@property(readonly, nonatomic) _Bool hasFirstPartyServiceName;
-@property(nonatomic) _Bool hasInterfaceType;
-@property(nonatomic) _Bool hasProtocolType;
-@property(nonatomic) _Bool hasRequestCount;
-@property(nonatomic) _Bool hasRequestFailedCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(readonly, nonatomic) unsigned int *lastByteBuckets;
-@property(readonly, nonatomic) unsigned long long lastByteBucketsCount;
-@property(nonatomic) int protocolType; // @synthesize protocolType=_protocolType;
-@property(nonatomic) unsigned int requestCount; // @synthesize requestCount=_requestCount;
-@property(nonatomic) unsigned int requestFailedCount; // @synthesize requestFailedCount=_requestFailedCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) unsigned int *udpRttBuckets;
-@property(readonly, nonatomic) unsigned long long udpRttBucketsCount;
 
 @end
 

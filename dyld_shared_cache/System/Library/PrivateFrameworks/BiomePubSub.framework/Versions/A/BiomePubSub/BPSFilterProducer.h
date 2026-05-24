@@ -6,15 +6,9 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class BPSSubscription, NSString;
-@protocol BPSSubscriber;
-
 @interface BPSFilterProducer : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    id <BPSSubscriber> _downstream;
-    long long _state;
-    BPSSubscription *_subscription;
 }
 
 - (void);
@@ -29,21 +23,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void) 0  	;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) BPSSubscription *subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPropertyCell, CNPropertySuggestionAction, NSLayoutConstraint, UIButton, UILabel;
+@class CNPropertySuggestionAction;
 @protocol CNContactSuggestionViewControllerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface CNContactSuggestionViewController
 {
     CNPropertySuggestionAction *_action;
-    CNPropertyCell *_propertyCell;
-    id <CNContactSuggestionViewControllerDataSource> _dataSource;
-    UILabel *_withLabel;
-    UILabel *_dateLabel;
-    UILabel *_subjectLabel;
-    UILabel *_contentLabel;
-    UIButton *_addToContactButton;
-    UIButton *_ignoreButton;
-    NSLayoutConstraint *_addToContactLeadingMargin;
-    NSLayoutConstraint *_addToContactTrailingMargin;
-    NSLayoutConstraint *_ignoreLeadingMargin;
-    NSLayoutConstraint *_ignoreTrailingMargin;
-    NSLayoutConstraint *_fromLeadingMargin;
-    NSLayoutConstraint *_dateTrailingMargin;
 }
 
 + (id);
@@ -35,6 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,20 +31,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void));
+- (void)%;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -66,14 +52,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (long long)computeBase64DigestForData:(id)arg1 useMD4:(long long)arg2;
+- (void)uple set fromrecordid=? where fromrecordid=?;
+- (void);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)
 × ;
@@ -82,21 +68,7 @@ __attribute__((visibility("hidden")))
 - (void)#4;
 
 // Remaining properties
-@property(retain, nonatomic) CNPropertySuggestionAction *action; // @synthesize action=_action;
-@property(retain, nonatomic) UIButton *addToContactButton; // @synthesize addToContactButton=_addToContactButton;
-@property(retain, nonatomic) NSLayoutConstraint *addToContactLeadingMargin; // @synthesize addToContactLeadingMargin=_addToContactLeadingMargin;
-@property(retain, nonatomic) NSLayoutConstraint *addToContactTrailingMargin; // @synthesize addToContactTrailingMargin=_addToContactTrailingMargin;
-@property(retain, nonatomic) UILabel *contentLabel; // @synthesize contentLabel=_contentLabel;
 @property(retain, nonatomic) id <CNContactSuggestionViewControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) UILabel *dateLabel; // @synthesize dateLabel=_dateLabel;
-@property(retain, nonatomic) NSLayoutConstraint *dateTrailingMargin; // @synthesize dateTrailingMargin=_dateTrailingMargin;
-@property(retain, nonatomic) NSLayoutConstraint *fromLeadingMargin; // @synthesize fromLeadingMargin=_fromLeadingMargin;
-@property(retain, nonatomic) UIButton *ignoreButton; // @synthesize ignoreButton=_ignoreButton;
-@property(retain, nonatomic) NSLayoutConstraint *ignoreLeadingMargin; // @synthesize ignoreLeadingMargin=_ignoreLeadingMargin;
-@property(retain, nonatomic) NSLayoutConstraint *ignoreTrailingMargin; // @synthesize ignoreTrailingMargin=_ignoreTrailingMargin;
-@property(retain, nonatomic) CNPropertyCell *propertyCell; // @synthesize propertyCell=_propertyCell;
-@property(retain, nonatomic) UILabel *subjectLabel; // @synthesize subjectLabel=_subjectLabel;
-@property(retain, nonatomic) UILabel *withLabel; // @synthesize withLabel=_withLabel;
 
 @end
 

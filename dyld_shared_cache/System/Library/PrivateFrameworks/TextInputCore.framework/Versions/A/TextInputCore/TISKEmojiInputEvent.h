@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSString *_emojiBucketCategory;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)sendText:(id)arg1;
+- (void)isTTYOverIMSSupportedForContext:(id)arg1;
+- (id):(double)arg1 %@ for call:(_Bool)arg2 %@;
+- (id)%{private}@, translatedText:%{private}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)a!¤AùQi1Â0@ù
 × ;

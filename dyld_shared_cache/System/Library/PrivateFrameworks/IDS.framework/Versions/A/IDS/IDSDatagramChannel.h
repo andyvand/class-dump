@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDataChannelLinkContext, IDSLinksQualityMeasurer, NSArray, NSObject, _IDSDatagramChannel;
-@protocol OS_dispatch_source;
+@class IDSLinksQualityMeasurer, _IDSDatagramChannel;
 
 @interface IDSDatagramChannel
 {
     _IDSDatagramChannel *_internal;
-    NSObject<OS_dispatch_source> *_statsTimer;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (int);
 - (void);
 - (void);
@@ -26,6 +24,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,16 +43,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (void);
@@ -63,7 +61,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -85,16 +83,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
+- (void)(	;
 - (void);
 - (CDStruct_b1aea6d9 *);
 - (CDStruct_b1aea6d9 *);
@@ -118,7 +116,7 @@
 - (CDStruct_b1aea6d9 *);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -126,15 +124,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void)1,1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NSArray *connectedLinks;
-@property(readonly) IDSDataChannelLinkContext *defaultLink;
 @property(readonly) IDSLinksQualityMeasurer *qualityMeasurer;
 
 @end

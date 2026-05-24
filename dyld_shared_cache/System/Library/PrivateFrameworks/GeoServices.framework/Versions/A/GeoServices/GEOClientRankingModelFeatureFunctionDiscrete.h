@@ -9,24 +9,18 @@
 @interface GEOClientRankingModelFeatureFunctionDiscrete : GEOClientRankingModelFeatureFunction
 {
     float _valueThresholdLow;
-    float _weightLow;
-    float _valueThresholdHigh;
-    float _weightHigh;
 }
 
 - (float);
 - (float);
 - (float);
 - (float);
-- (id);
-- (id);
+- (id)applicationsAvailableForDefaultAppCategory:(float)arg1;
+- (id)etPhraseSpotterBypassing:timeout:xpcClient:]_block_invoke /* Error: Ran out of types for this method. */;
 - (long long)jÈ<;
 
 // Remaining properties
-@property(readonly, nonatomic) float valueThresholdHigh; // @synthesize valueThresholdHigh=_valueThresholdHigh;
 @property(readonly, nonatomic) float valueThresholdLow; // @synthesize valueThresholdLow=_valueThresholdLow;
-@property(readonly, nonatomic) float weightHigh; // @synthesize weightHigh=_weightHigh;
-@property(readonly, nonatomic) float weightLow; // @synthesize weightLow=_weightLow;
 
 @end
 

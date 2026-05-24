@@ -4,6 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CADEventInterface
+- (void)processing SupportedCommandsDidChangeNotification.;
+- (void)ocessing PlaybackStateDidChangeNotification with new PlaybackState %@.;
+- (void)@.;
+- (void)ssing PlaybackQueueContentItemsArtworkChangedNotification for content items %@.;
+- (void)PlayingController] <%@> updated content items %@.;
+- (void)s;
+- (void)er path for endpoint %@.;
+- (void)endpoint.;
+- (void)Will Republish %@;
+- (void)ror %@ deserializing languageOption;
+- (void)discoveredSessions=%@;
+- (void)e message was not expecting a reply:(NSString *)arg1 %{public}@ ;
+- (void)@ for system app since none specified in deviceInfo;
+- (void)@ sending end signal with packets %@;
+- (void)e %@ could not extract reply;
+- (void)ive client changed:(NSString *)arg1 %{public}@ %{public}@;
+- (void)Purging distantExternalDevice %@ %@;
+- (void)Reusing distantExternalDevice for endpoint %@ %@;
+- (void)xternalDeviceFactory] Failed to create distantExternalDevice for endpoint %@ %@;
+- (void)distantExternalDevice for endpoint %@ %@;
+- (void)ng remote view controller. Configuration :(NSString *)arg1 %{public}@;
+- (void)thInvalidationHandler %p for %{public}@;
+- (void)ring success.;
+- (void)ng = %s;
+- (void)ingSession)] Unpairing Device %@;
+- (void)opping message;
+- (void)er information updated:(void (^)(int, CADObjectID *))arg1 type=%@ | clusterUID=%{public}@ | leaderUID=%{public}@;
+- (void)tDevice %{public}@ for context:(void (^)(int, CADObjectID *))arg1 %{public}@;
+- (void)@;
+- (void);
+- (void)during processing;
+- (void)Info] Clearing nowPlayingInfo;
+- (void)identical nowPlayingInfo, skipping update.;
+- (void)llBeHijackedByNativePlayback;
+- (void)ession(CoreUtils)] Successfully derived encryption keys.;
 @end
 

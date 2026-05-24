@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSRecurrencePatternBaseType, EWSRecurrenceRangeBaseType, NSString;
+@class EWSRecurrencePatternBaseType;
 
 @interface EWSRecurrenceType
 {
     EWSRecurrencePatternBaseType *_RecurrencePattern;
-    EWSRecurrenceRangeBaseType *_RecurrenceRange;
 }
 
 + (id);
@@ -22,14 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EWSRecurrencePatternBaseType *RecurrencePattern; // @synthesize RecurrencePattern=_RecurrencePattern;
-@property(retain, nonatomic) EWSRecurrenceRangeBaseType *RecurrenceRange; // @synthesize RecurrenceRange=_RecurrenceRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

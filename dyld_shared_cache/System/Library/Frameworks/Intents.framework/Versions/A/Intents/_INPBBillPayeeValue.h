@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBValueMetadata;
+@class NSString;
 
 @interface _INPBBillPayeeValue
 {
     struct _has;
-    NSString *_accountNumber;
-    _INPBDataString *_nickname;
-    _INPBDataString *_organizationName;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (id);
-- (id);
+- (id)jectRegistry>"16@0:(id)arg1 8;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)wifiNetworkSharingNetworkListWithRequestParams:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)st] %s CWFApple80211 (%@);
 - (id);
 - (id);
 - (void);
-- (_Bool)odeFailureUnsupportedUpdate;
-- (void);
+- (_Bool)INReportIncidentIntentResponseCodeFailureUnsupportedUpdate;
+- (void)MINDFUL_SESSION;
 - (id)³ÿ£õ;
 - (void)Åÿ;
 - (id)dB´ÿÌJQëÿ;
@@ -40,20 +36,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAccountNumber;
-@property(readonly, nonatomic) _Bool hasNickname;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBDataString *nickname; // @synthesize nickname=_nickname;
-@property(retain, nonatomic) _INPBDataString *organizationName; // @synthesize organizationName=_organizationName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

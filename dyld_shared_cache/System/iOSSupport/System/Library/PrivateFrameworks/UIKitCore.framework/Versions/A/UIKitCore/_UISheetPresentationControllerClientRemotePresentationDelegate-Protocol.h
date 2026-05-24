@@ -5,5 +5,12 @@
 //
 
 @protocol _UISheetPresentationControllerClientRemotePresentationDelegate
+- (void)32;
+- (void)nManager"16@"NSArray"24;
+- (void):(double)arg1 8@"TUConversationManager"16;
+- (void)0:8@"IMDCKAbstractSyncController"16Q24 /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)sentOrReceivedOffGrid;
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSDictionary, NSMutableDictionary, NSScriptCommandDescription, NSScriptObjectSpecifier, NSString;
+@class NSScriptCommandDescription;
 
 @interface NSScriptCommand
 {
     NSScriptCommandDescription *_commandDescription;
-    id _directParameter;
-    NSScriptObjectSpecifier *_receiversSpecifier;
-    id _evaluatedReceivers;
-    NSDictionary *_arguments;
-    NSMutableDictionary *_evaluatedArguments;
-    struct {
-        unsigned int hasEvaluatedReceivers:1;
-        unsigned int hasEvaluatedArguments:1;
-        unsigned int RESERVED:30;
-    } _flags;
-    id _moreVars;
-    void *_reserved;
 }
 
 + (_Bool);
@@ -31,18 +19,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSAppleEventDescriptor *appleEvent;
-@property(copy) NSDictionary *arguments;
 @property(readonly, retain) NSScriptCommandDescription *commandDescription;
-@property(retain) id directParameter;
-@property(readonly, copy) NSDictionary *evaluatedArguments;
-@property(readonly, retain) id evaluatedReceivers;
-@property(retain) NSScriptObjectSpecifier *receiversSpecifier;
-@property(retain) NSAppleEventDescriptor *scriptErrorExpectedTypeDescriptor;
-@property long long scriptErrorNumber;
-@property(retain) NSAppleEventDescriptor *scriptErrorOffendingObjectDescriptor;
-@property(copy) NSString *scriptErrorString;
-@property(readonly, getter=isWellFormed) _Bool wellFormed;
 
 @end
 

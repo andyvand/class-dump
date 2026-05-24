@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 @interface SCNTextureCoreAnimationSource : SCNTextureOffscreenRenderingSource
 {
     CALayer *_layer;
-    double _lastUpdate;
-    double _nextUpdateDate;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (struct CGSize);
 - (double);
 - (float);
@@ -29,12 +27,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)$;
 - (double);
 - (struct __C3DTexture *);
 - (void);
 - (void);
-- (id)etweens;
+- (id)_correctivesAndInBetweens;
 - (void)ror:(id)arg1 unknown material property type for archiving;
 
 // Remaining properties

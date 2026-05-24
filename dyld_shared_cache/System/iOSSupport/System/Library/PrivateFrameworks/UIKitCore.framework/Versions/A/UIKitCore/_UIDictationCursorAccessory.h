@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)elay Service (Service:%@), number of accounts:%lu /* Error: Ran out of types for this method. */;
 - (id)pÑl²Ñt´ÜÑXµøÑ¶ÑhÔTÑ Ù¤Ñä¸ÑÌ,PÑHdÑ)
 ôÑ:ÑF
 ÑdI

@@ -4,6 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol NFContactlessPaymentSessionCallbacks;
+
 @protocol NFHardwareManagerInterface
+- (oneway void)constantSign;
+- (oneway void)NSString *getCNActionTypeVideoCall(void);
+- (oneway void)telephonyFaceTimeAudioMenuTitle;
+- (oneway void)@"CNUIUserActionListModel"8;
+- (oneway void)6@?0^@8;
+- (oneway void)ACCESSIBILITY_FACETIME_AUDIO_GLYPH;
+- (oneway void)ary(void);
+- (oneway void)ddressFormatter.m;
+- (oneway void)AB_CARDVIEW_MINIMUM_HEIGHT;
+- (oneway void)_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (oneway void)TACKVIEW_MIN_HEIGHT, AB_COLLECTION_CENTER_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (oneway void)G, AB_CARDVIEW_COLLECTION_INSET_TRAILING, AB_COLLECTION_ROW_STACKVIEW_MIN_HEIGHT, AB_COLLECTION_CENTER_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (oneway void)addressingGrammars;
+- (oneway void)ctivityAlertClass(void)_block_invoke;
+- (oneway void)24;
+- (oneway void);
+- (oneway void)NotForReuse;
+- (oneway void)pple.contacts.suggestions.creation;
+- (oneway void)eFrameworks/ContactsUI.framework/ContactsUI;
+- (oneway void)tracking area;
+- (oneway void)ABCardCollectionRowView label tracking area;
+- (oneway void)CNDelegateRetainingEditAuthorizationViewController;
+- (oneway void)styleProvider;
+- (oneway void)messagingServiceView;
+- (oneway void)rowView;
+- (oneway void)tton]-AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS@200-[plusButton];
+- (oneway void)ABTemplateNameViewPhotoInsetLeading;
+- (oneway void)"NSValue"8@"NSValue"16;
+- (oneway void)l Back;
+- (oneway void)"8Q16^B24;
+- (oneway void)NSMutableArray"8@"ABCollectionViewItem"16;
+- (oneway void)Could not load IDS;
+- (oneway void)ncelling:(NSObject<NFContactlessPaymentSessionCallbacks> *)arg1 %@;
+- (oneway void)shouldPrompt;
+- (oneway void)TUCallServicesDestinationIDKey;
+- (oneway void)lue"8;
+- (oneway void)nfiguration.m;
+- (oneway void)after adding smart list;
+- (oneway void)CNPostalAddressSubLocalityKey;
+- (oneway void)is no longer supported.;
+- (oneway void)kABGroupsSelectionChangedNotification;
+- (oneway void)kABConverterTotalRecordsKey;
+- (oneway void)pleInternal/Library/BuildRoots/4~CNqZugD1ADkw0k1kbooLy7sY5cuP1RyCwoCeIBg/Library/Caches/com.apple.xbs/TemporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBookUI/ABAllSmartGroup.m;
+- (oneway void));
+- (oneway void)Contents/MacOS/CoreSpotlight;
+- (oneway void)CSSearchableItemActionType;
+- (oneway void)CNUIVCardSharingTask;
+- (oneway void)WithMenuItem:(_Bool)arg1;
+- (oneway void)ass(void)_block_invoke;
+- (oneway void).com;
+- (oneway void)CNContactPhoneticGivenNameKey;
+- (oneway void)CNContactFamilyNameKey;
+- (oneway void)NSString *getCNContactFamilyNameKey(void);
+- (oneway void)otocols' names should contain the "Async" string;
+- (oneway void);
+- (oneway void)B;
+- (oneway void));
+- (oneway void);
 @end
 

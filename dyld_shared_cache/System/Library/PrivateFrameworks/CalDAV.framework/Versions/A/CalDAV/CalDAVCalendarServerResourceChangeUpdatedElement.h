@@ -6,31 +6,26 @@
 
 #import <CalDAV/CalDAVCalendarServerResourceChangeElement.h>
 
-@class CoreDAVItem, NSMutableSet;
-
 @interface CalDAVCalendarServerResourceChangeUpdatedElement : CalDAVCalendarServerResourceChangeElement
 {
     _Bool _content;
-    CoreDAVItem *_prop;
-    NSMutableSet *_calendarChanges;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void);
+- (id)charge_duration_p_1_00_at_charge_start_soc_curr_static_bin;
 - (id);
-- (id);
+- (void)ltiValueRemovals:(id)arg1 %@ 
+;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ull SGMFoundInAppsDatetimeType_toString(SGMFoundInAppsDatetimeType);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *calendarChanges; // @synthesize calendarChanges=_calendarChanges;
 @property(nonatomic) _Bool content; // @synthesize content=_content;
-@property(retain, nonatomic) CoreDAVItem *prop; // @synthesize prop=_prop;
 
 @end
 

@@ -7,11 +7,10 @@
 @interface NewsUI2.NewslettersStateCommandHandler
 {
     id commandCenter;
-    id newsletterManager;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

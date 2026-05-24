@@ -9,15 +9,14 @@
 @interface CKContextItem
 {
     NSString *_title;
-    NSString *_topicId;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)route, clear system endpoint;
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *topicId; // @synthesize topicId=_topicId;
 
 @end
 

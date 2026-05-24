@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount;
+
 @protocol MBSetupAssistantDelegateConfiguration
+
+@optional
+- (void)�`:(ACAccount *)arg1;
 @end
 

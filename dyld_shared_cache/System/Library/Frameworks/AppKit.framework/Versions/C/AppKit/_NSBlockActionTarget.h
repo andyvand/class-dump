@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _handler;
 }
 
-+ (id);
++ (id)p(%p)> { %@ request, url %@ };
 - (void);
 - (void)0@ù
 × ;
-- (CDUnknownBlockType)mns: /* Error: Ran out of types for this method. */;
-- (void)cFlags;
+- (CDUnknownBlockType)getNumberOfRows:columns: /* Error: Ran out of types for this method. */;
+- (void)NSBinderSpecificFlags;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;

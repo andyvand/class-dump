@@ -7,15 +7,13 @@
 @class AXFMouseCursorImage;
 
 @protocol AXFMouseDelegate
+- (void);
+- (void);
+- (AXFMouseCursorImage *);
+- (void)ions/A/Security;
 - (void)initWithAttributes:(struct CGPoint)arg1 block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool accumulateClickCount;
-@property(readonly, nonatomic) long long currentDownButton;
 @property(nonatomic) struct CGPoint currentLocation;
-@property(readonly, nonatomic) AXFMouseCursorImage *cursorImage;
-@property(readonly, nonatomic) struct CGSize cursorImageSize;
-@property(nonatomic) double cursorScale;
-@property(nonatomic) _Bool keepCursorImageSynchronizedWithSystem;
 @end
 

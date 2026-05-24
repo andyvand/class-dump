@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVScrubbingGesturePlatformAdapter, AVScrubbingGesturePlatformConfiguration;
+
 @protocol AVScrubbingGesturePlatformAdapterDelegate
+
+@optional
+- (AVScrubbingGesturePlatformConfiguration *)oint=dd}{CGSize=dd}}24@0:(AVScrubbingGesturePlatformAdapter *)arg1 8d16;
+- (void)bject not equal:(AVScrubbingGesturePlatformAdapter *)arg1 contentType %@ != %@;
 @end
 

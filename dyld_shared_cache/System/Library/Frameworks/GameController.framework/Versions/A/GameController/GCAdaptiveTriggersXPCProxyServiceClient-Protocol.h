@@ -7,9 +7,9 @@
 @protocol GCAdaptiveTriggersXPCProxyServiceRemoteServerInterface, _GCIPCEndpointConnection;
 
 @protocol GCAdaptiveTriggersXPCProxyServiceClient
+- (id <GCAdaptiveTriggersXPCProxyServiceRemoteServerInterface>);
 
 // Remaining properties
 @property(readonly) id <_GCIPCEndpointConnection> adaptiveTriggersXPCProxyServiceConnection;
-@property(readonly) id <GCAdaptiveTriggersXPCProxyServiceRemoteServerInterface> adaptiveTriggersXPCProxyServiceRemoteServer;
 @end
 

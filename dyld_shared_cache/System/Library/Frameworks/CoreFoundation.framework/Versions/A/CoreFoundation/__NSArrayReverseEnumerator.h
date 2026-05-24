@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSArrayReverseEnumerator : NSEnumerator
 {
     id _obj;
-    unsigned long long _idx;
 }
 
 - (void);

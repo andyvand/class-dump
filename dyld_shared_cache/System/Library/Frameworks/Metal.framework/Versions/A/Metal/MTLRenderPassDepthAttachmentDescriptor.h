@@ -15,7 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) double clearDepth; // @dynamic clearDepth;
-@property(nonatomic) unsigned long long depthResolveFilter; // @dynamic depthResolveFilter;
 
 @end
 

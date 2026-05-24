@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface FTCPPETInteraction
 {
     unsigned long long _timestamp;
-    NSString *_duration;
-    NSString *_mechanism;
-    NSMutableArray *_participants;
-    _Bool _isInbound;
 }
 
 + (Class);
@@ -20,22 +16,22 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
+- (id)k!Kk;
 - (id);
-- (id);
+- (void)playNotifyProc:(id)arg1 got notification kCGSDisplayMovedOnConsoleInternal;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)	?֠;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)forbiddenProtocols;
 - (void);
 - (id);
 - (id);
@@ -43,11 +39,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool isInbound; // @synthesize isInbound=_isInbound;
-@property(retain, nonatomic) NSString *mechanism; // @synthesize mechanism=_mechanism;
 @property(retain, nonatomic) NSMutableArray *participants; // @synthesize participants=_participants;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCAudioPowerSpectrumMeter, NSObject, NSString;
-@protocol OS_dispatch_queue, TUAudioFrequencyControllerDelegate;
+@protocol TUAudioFrequencyControllerDelegate;
 
 @interface TUAudioFrequencyController
 {
     id <TUAudioFrequencyControllerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    AVCAudioPowerSpectrumMeter *_powerSpectrumMeter;
 }
 
 + (float);
@@ -27,21 +24,12 @@
 - (void);
 - (unsigned int);
 - (id);
-- (id);
-- (id)PairedHostDeviceRouteWithUniqueIdentifier:(id)arg1 shouldWaitUntilAvailable:(id)arg2;
-- (void)DidDisconnect: /* Error: Ran out of types for this method. */;
+- (id)	;
+- (id)pickPairedHostDeviceRouteWithUniqueIdentifier:(id)arg1 shouldWaitUntilAvailable:(id)arg2;
+- (void)meterServerDidDisconnect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <TUAudioFrequencyControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVCAudioPowerSpectrumMeter *powerSpectrumMeter; // @synthesize powerSpectrumMeter=_powerSpectrumMeter;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

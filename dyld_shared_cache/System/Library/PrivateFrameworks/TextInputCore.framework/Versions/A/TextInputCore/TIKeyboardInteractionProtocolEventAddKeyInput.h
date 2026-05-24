@@ -6,7 +6,7 @@
 
 #import <TextInputCore/TIKeyboardInteractionProtocolBase.h>
 
-@class NSString, TIKeyboardInput;
+@class TIKeyboardInput;
 
 @interface TIKeyboardInteractionProtocolEventAddKeyInput : TIKeyboardInteractionProtocolBase
 {
@@ -16,22 +16,15 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)ers.count)) - ((void*)serializedModelLoadedChange) == (long) bufferLength;
+- (id)�;
+- (void)PRSRankingItemAdditions_webVideoNumYearsAgo:(id)arg1;
 - (id);
 - (void)aÐ!èCùQið1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) TIKeyboardInput *keyboardInput; // @synthesize keyboardInput=_keyboardInput;
-@property(readonly) Class superclass;
 
 @end
 

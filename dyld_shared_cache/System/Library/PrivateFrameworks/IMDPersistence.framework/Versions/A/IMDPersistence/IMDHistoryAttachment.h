@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMDHistoryAttachment
 {
     NSString *_path;
-    NSString *_filename;
-    NSData *_data;
-    NSString *_guid;
-    NSString *_UTIType;
-    NSString *_mimeType;
-    long long _transferState;
-    double _dateCreated;
 }
 
 - (void);
@@ -29,24 +22,17 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)(;
 - (id);
-- (void);
+- (void)setUserDefaults:(id)arg1;
 - (id);
-- (id);
+- (id);
 - (id),R,N,V_service;
 - (void)n IMDSqlOperationInitWithThreadedMessageStore(CSDBThreadedRecordStoreRef);
-- (void)se;
+- (void)CSDBSqliteDatabase;
 
 // Remaining properties
-@property(retain) NSString *UTIType; // @synthesize UTIType=_UTIType;
-@property(retain) NSData *data; // @synthesize data=_data;
-@property double dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(retain) NSString *filename; // @synthesize filename=_filename;
-@property(retain) NSString *guid; // @synthesize guid=_guid;
-@property(retain) NSString *mimeType; // @synthesize mimeType=_mimeType;
 @property(retain) NSString *path; // @synthesize path=_path;
-@property long long transferState; // @synthesize transferState=_transferState;
 
 @end
 

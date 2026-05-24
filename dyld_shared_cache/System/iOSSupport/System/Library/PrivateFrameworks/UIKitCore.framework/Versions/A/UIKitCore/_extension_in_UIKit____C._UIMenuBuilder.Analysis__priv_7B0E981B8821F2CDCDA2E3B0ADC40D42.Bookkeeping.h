@@ -7,11 +7,6 @@
 @interface (extension in UIKit):__C._UIMenuBuilder.Analysis__priv_7B0E981B8821F2CDCDA2E3B0ADC40D42.Bookkeeping
 {
     id keyCommands;
-    id menus;
-    id actions;
-    id commands;
-    id menuChildren;
-    id parentMenus;
 }
 
 @end

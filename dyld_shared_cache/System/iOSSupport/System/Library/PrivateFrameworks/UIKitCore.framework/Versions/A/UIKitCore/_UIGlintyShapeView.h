@@ -6,32 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, UIBezierPath, UIColor;
+@class CAShapeLayer, UIBezierPath;
 
 __attribute__((visibility("hidden")))
 @interface _UIGlintyShapeView : UIView
 {
     UIBezierPath *_path;
-    UIColor *_fillColor;
-    UIColor *_strokeColor;
 }
 
-+ (Class);
-- (id);
++ (Class)_requestedAlbumProperties;
+- (id)allowWritingTools;
 - (void)rViewHostingImpl>";
 - (id)isPrivate:(struct CGRect)arg1 placeholderToken: /* Error: Ran out of types for this method. */;
 - (id)<æ;
-- (id)NameEntry;
+- (id)deviceNameEntry;
 - (id)ication_BackgroundTasks.m;
 - (void)enterOwner.m;
 - (void)%p; frame:(id)arg1 %@; barButtonItem:%@> /* Error: Ran out of types for this method. */;
 - (void)SÈH;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(readonly, nonatomic) UIBezierPath *path; // @synthesize path=_path;
 @property(readonly, nonatomic) CAShapeLayer *shapeLayer;
-@property(readonly, nonatomic) UIColor *strokeColor; // @synthesize strokeColor=_strokeColor;
 
 @end
 

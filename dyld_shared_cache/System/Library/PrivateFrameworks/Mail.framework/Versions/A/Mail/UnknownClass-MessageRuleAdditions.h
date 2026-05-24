@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MessageRuleAdditions)
-+ (id);
++ (id);
 + (id);
 + (id);
 @end

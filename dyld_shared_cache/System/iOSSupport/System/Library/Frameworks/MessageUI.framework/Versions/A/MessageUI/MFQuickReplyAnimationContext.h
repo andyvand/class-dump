@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-
 @interface MFQuickReplyAnimationContext
 {
     double _cornerRadius;
-    UIView *_compositionSnapshot;
-    UIView *_buttonsSnapshot;
-    UIView *_backgroundSnapshot;
-    CDUnknownBlockType _completionBlock;
-    struct UIEdgeInsets _insets;
 }
 
 + (id);
@@ -26,26 +19,14 @@
 - (id);
 - (struct UIEdgeInsets);
 - (void);
-- (double);
+- (double);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *backgroundSnapshot; // @synthesize backgroundSnapshot=_backgroundSnapshot;
-@property(retain, nonatomic) UIView *buttonsSnapshot; // @synthesize buttonsSnapshot=_buttonsSnapshot;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) UIView *compositionSnapshot; // @synthesize compositionSnapshot=_compositionSnapshot;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct UIEdgeInsets insets; // @synthesize insets=_insets;
-@property(readonly) Class superclass;
 
 @end
 

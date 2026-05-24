@@ -7,8 +7,6 @@
 @interface SSIntentBasedSuggestionsConfiguration
 {
     _Bool _showWebAsTypedSuggestion;
-    int _localSuggestionQuota;
-    int _serverSuggestionQuota;
 }
 
 - (_Bool);
@@ -16,11 +14,9 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int)=dd}}16d48;
 
 // Remaining properties
-@property(nonatomic) int localSuggestionQuota; // @synthesize localSuggestionQuota=_localSuggestionQuota;
-@property(nonatomic) int serverSuggestionQuota; // @synthesize serverSuggestionQuota=_serverSuggestionQuota;
 @property(nonatomic) _Bool showWebAsTypedSuggestion; // @synthesize showWebAsTypedSuggestion=_showWebAsTypedSuggestion;
 
 @end

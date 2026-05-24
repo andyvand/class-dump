@@ -5,5 +5,6 @@
 //
 
 @protocol TSWPTextEditingHostRep
+- (void)allowedAudioSpatializationFormats;
 @end
 

@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-- (void);
-- (id);
+- (void)toring message:(id)arg1 %@;
+- (id)l;
 - (void);
 - (void);
 - (void);

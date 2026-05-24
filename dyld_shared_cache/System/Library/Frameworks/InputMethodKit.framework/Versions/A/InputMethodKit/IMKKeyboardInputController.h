@@ -6,52 +6,44 @@
 
 #import <InputMethodKit/IMKInputController.h>
 
-@class IMKAppleSpellCandidateEngine, IMKKeyboard, IMKKeyboardService, IMKTextDocumentTextInputAdaptor;
+@class IMKTextDocumentTextInputAdaptor;
 
 @interface IMKKeyboardInputController : IMKInputController
 {
     IMKTextDocumentTextInputAdaptor *_textDocument;
-    _Bool _deactivating;
-    _Bool _useMarkedText;
-    IMKAppleSpellCandidateEngine *_candidateEngine;
 }
 
 - (_Bool);
+- (void)t^;
+- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (_Bool)!;
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)_useVideoJitterForVideoPlayout;
 - (_Bool);
 - (id);
 - (void);
 - (id)Ô ;
 
 // Remaining properties
-@property(readonly, nonatomic) IMKAppleSpellCandidateEngine *candidateEngine; // @synthesize candidateEngine=_candidateEngine;
 @property(nonatomic, getter=isDeactivating) _Bool deactivating; // @synthesize deactivating=_deactivating;
-@property(readonly, nonatomic) IMKKeyboard *keyboard;
-@property(readonly, nonatomic) IMKKeyboardService *keyboardService;
-@property(retain, nonatomic) IMKTextDocumentTextInputAdaptor *textDocument; // @synthesize textDocument=_textDocument;
-@property(nonatomic) _Bool useMarkedText; // @synthesize useMarkedText=_useMarkedText;
 
 @end
 

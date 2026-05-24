@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Rg;
 - (void)nteractionIdentifier;
 
 @end

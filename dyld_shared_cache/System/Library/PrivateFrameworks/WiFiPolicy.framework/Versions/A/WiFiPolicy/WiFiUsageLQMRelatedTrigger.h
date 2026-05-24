@@ -9,25 +9,21 @@
 @interface WiFiUsageLQMRelatedTrigger
 {
     NSString *_trigger;
-    NSString *_reason;
-    NSDate *_timestamp;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void)0@ù
 × ;
-- (id)LatencyP95;
-- (void)ST:(id)arg1 BspSampleDurationMS:IsScanActiveBSP:IsP2PActiveBSP:BspTriggerCount:BspMutePercentage:BspMaxMuteMS:BspAvgMuteMS:BspErrorPercentage:BspTimeOutPercentageOfTriggers:BspRejectOrFailPercentageOfTriggers:BspMaxConsecutiveFails: /* Error: Ran out of types for this method. */;
+- (id)txLatencyP95;
+- (void)populateWithBspOverflowed:(id)arg1 IsBSPActive:BspTimeToTST:BspSampleDurationMS:IsScanActiveBSP:IsP2PActiveBSP:BspTriggerCount:BspMutePercentage:BspMaxMuteMS:BspAvgMuteMS:BspErrorPercentage:BspTimeOutPercentageOfTriggers:BspRejectOrFailPercentageOfTriggers:BspMaxConsecutiveFails: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSString *trigger; // @synthesize trigger=_trigger;
 
 @end
 

@@ -4,40 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCollectionDetails, GEOPublisherDetails, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateCuratedCollection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _impossibleActions;
-    CDStruct_95bda58d _possibleActions;
-    GEOCollectionDetails *_collectionDetails;
-    GEOPublisherDetails *_publisherDetails;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _horizontalIndex;
-    int _localSearchProviderID;
-    int _placecardType;
-    int _repeatableSectionIndex;
-    unsigned int _verticalIndex;
-    struct {
-        unsigned int has_horizontalIndex:1;
-        unsigned int has_localSearchProviderID:1;
-        unsigned int has_placecardType:1;
-        unsigned int has_repeatableSectionIndex:1;
-        unsigned int has_verticalIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_impossibleActions:1;
-        unsigned int read_possibleActions:1;
-        unsigned int read_collectionDetails:1;
-        unsigned int read_publisherDetails:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)asSumElevationLossCm:(id)arg1;
++ (_Bool)setHasSumElevationLossCm:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -62,23 +36,23 @@
 - (int *);
 - (int);
 - (_Bool);
+- (_Bool)vateFrameworks/ContactsPersistence.framework/Versions/A/ContactsPersistence;
+- (_Bool)p:, /* Error: Ran out of types for this method. */;
+- (_Bool)__swift5_assocty__TEXT;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (int);
+- (id)sionStreamTask"32;
+- (void)timerDidEmitEvent: /* Error: Ran out of types for this method. */;
+- (void)standardPreferences;
+- (void)initWithBundleIdentifier:(int)arg1 teamIdentifier:localizedName:activityTypes: /* Error: Ran out of types for this method. */;
+- (void)getValue:(int)arg1 forExtendendAttribute:url:error: /* Error: Ran out of types for this method. */;
+- (int)CNFoundationError;
+- (int)CNObservableOperatorConcatenateResultObserver;
+- (int)_CNSamplingObservableBlockObserver;
 - (int *);
+- (unsigned int)yPredictorENS_9allocatorIS3_EEEE;
 - (unsigned int);
-- (unsigned int);
-- (void);
+- (void))A;
 - (void);
 - (id);
 - (int);
@@ -87,41 +61,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)udio converter;
+- (void)ҏ;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)%d;
 - (_Bool);
 - (id);
 - (void);
 - (id)y:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)eryParameters;
+- (id)queryParameters;
 - (id)%@ is already expired (%f <= %f);
 - (id);
 - (void)ò3;
 
 // Remaining properties
-@property(retain, nonatomic) GEOCollectionDetails *collectionDetails;
-@property(readonly, nonatomic) _Bool hasCollectionDetails;
-@property(nonatomic) _Bool hasHorizontalIndex;
-@property(nonatomic) _Bool hasLocalSearchProviderID;
-@property(nonatomic) _Bool hasPlacecardType;
 @property(readonly, nonatomic) _Bool hasPublisherDetails;
-@property(nonatomic) _Bool hasRepeatableSectionIndex;
-@property(nonatomic) _Bool hasVerticalIndex;
-@property(nonatomic) unsigned int horizontalIndex;
-@property(readonly, nonatomic) int *impossibleActions;
-@property(readonly, nonatomic) unsigned long long impossibleActionsCount;
-@property(nonatomic) int localSearchProviderID;
-@property(nonatomic) int placecardType;
-@property(readonly, nonatomic) int *possibleActions;
-@property(readonly, nonatomic) unsigned long long possibleActionsCount;
-@property(retain, nonatomic) GEOPublisherDetails *publisherDetails;
-@property(nonatomic) int repeatableSectionIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int verticalIndex;
 
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLIOKitOperatorComposition;
-
 @interface AFKEndpointInterfacePowerlogDisplay
 {
     unsigned int _notification;
-    _Bool _valid;
-    PLIOKitOperatorComposition *_comp;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)endeldarmkanonnier;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak PLIOKitOperatorComposition *comp; // @synthesize comp=_comp;
 @property _Bool valid; // @synthesize valid=_valid;
 
 @end

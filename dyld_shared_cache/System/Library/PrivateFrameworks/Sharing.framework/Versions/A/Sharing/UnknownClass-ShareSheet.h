@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ShareSheet)
-- (id);
+- (id);
 @end
 

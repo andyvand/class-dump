@@ -11,25 +11,24 @@ __attribute__((visibility("hidden")))
 @interface CNContactListStyleApplier
 {
     id <CNContactListStyle> _contactListStyle;
-    UIImage *_blockedIcon;
 }
 
 + (void);
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)`9dA9d9`;
+- (void);
+- (void)persistentStoreCoordinator:(id)arg1 willApplyChange:toManagedObject:inSyncSession: /* Error: Ran out of types for this method. */;
+- (void), but will be ignored for display.;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)d;
 - (void);
 - (void);
 - (void);
@@ -38,14 +37,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)`;
+- (void)%@.%@;
+- (void)area;
 - (void);
 - (void);
 - (void)!|Dùquð1Â0@ù
 × ;
-- (void)tCapturedImage:(id)arg1;
+- (void)setCapturedImage:(id)arg1;
 - (void),&,N,V_sourceViewController;
 - (void)^	È`tbcePe;
 - (unsigned long long)°;
@@ -53,10 +52,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *blockedIcon; // @synthesize blockedIcon=_blockedIcon;
-@property(readonly, nonatomic) double cellEstimatedHeight;
-@property(readonly, nonatomic) id <CNContactListStyle> contactListStyle; // @synthesize contactListStyle=_contactListStyle;
-@property(readonly, nonatomic) unsigned long long tableNoContactsAvailableStyle;
-@property(readonly, nonatomic) _Bool usesInsetPlatterStyle;
 
 @end
 

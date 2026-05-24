@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSCKRecordMetadata, NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSCKRecordZoneMoveReceipt : NSManagedObject
@@ -19,12 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *movedAt; // @dynamic movedAt;
-@property(nonatomic) _Bool needsCloudDelete; // @dynamic needsCloudDelete;
-@property(retain, nonatomic) NSString *ownerName; // @dynamic ownerName;
-@property(retain, nonatomic) NSCKRecordMetadata *recordMetadata; // @dynamic recordMetadata;
 @property(retain, nonatomic) NSString *recordName; // @dynamic recordName;
-@property(retain, nonatomic) NSString *zoneName; // @dynamic zoneName;
 
 @end
 

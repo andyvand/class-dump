@@ -9,8 +9,8 @@
     id queue;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)@9;
+- (id)P;
 - (void)e last used service is %s;
 
 @end

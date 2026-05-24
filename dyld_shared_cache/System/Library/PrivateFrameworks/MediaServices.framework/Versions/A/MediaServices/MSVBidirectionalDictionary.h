@@ -9,7 +9,6 @@
 @interface MSVBidirectionalDictionary
 {
     NSDictionary *_keyToObjectDictionary;
-    NSDictionary *_objectToKeyDictionary;
 }
 
 + (id);
@@ -19,10 +18,10 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)H;
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)oundation;
+- (void)colorOpacity;
 - (id);
 - (id);
 - (id);

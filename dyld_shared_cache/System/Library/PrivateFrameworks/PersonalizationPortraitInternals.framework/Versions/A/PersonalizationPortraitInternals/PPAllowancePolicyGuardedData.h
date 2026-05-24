@@ -9,12 +9,9 @@
 @interface PPAllowancePolicyGuardedData
 {
     NSSet *notificationBlocklist;
-    NSSet *notificationAllowlist;
-    NSSet *searchableItemBlocklist;
-    NSSet *searchableItemAllowlist;
 }
 
-- (void)nts;
+- (void)titlesAndParticipants;
 
 @end
 

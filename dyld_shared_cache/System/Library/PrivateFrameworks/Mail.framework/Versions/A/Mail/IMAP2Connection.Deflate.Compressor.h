@@ -7,7 +7,6 @@
 @interface IMAP2Connection.Deflate.Compressor
 {
     id stream;
-    id currentKind;
 }
 
 @end

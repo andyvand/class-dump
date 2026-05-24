@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet;
-
 @interface CKDAssetCacheEvictionInfo
 {
     _Bool _forced;
-    _Bool _clearRegisteredItems;
-    NSMutableOrderedSet *_itemIDsToUnregister;
-    NSMutableOrderedSet *_assetHandleItemIDsToDelete;
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)nline defaults write is set
+;
 - (void);
 - (id);
 - (id);
 - (void)ave a share ID;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableOrderedSet *assetHandleItemIDsToDelete; // @synthesize assetHandleItemIDsToDelete=_assetHandleItemIDsToDelete;
-@property _Bool clearRegisteredItems; // @synthesize clearRegisteredItems=_clearRegisteredItems;
 @property(readonly, nonatomic) _Bool forced; // @synthesize forced=_forced;
-@property(readonly, nonatomic) NSMutableOrderedSet *itemIDsToUnregister; // @synthesize itemIDsToUnregister=_itemIDsToUnregister;
 
 @end
 

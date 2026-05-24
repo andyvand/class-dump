@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCarHeadUnit, _INPBColor;
+@class NSString;
 
 @interface _INPBCar
 {
     struct _has;
-    NSString *_carIdentifier;
-    _INPBColor *_color;
-    NSString *_displayName;
-    _INPBCarHeadUnit *_headUnit;
-    NSString *_make;
-    NSString *_model;
-    NSArray *_powerPerConnectors;
-    NSArray *_supportedChargingConnectors;
-    NSString *_year;
 }
 
 + (Class);
@@ -26,40 +17,40 @@
 - (id);
 - (id);
 - (void);
+- (void)h;
 - (void);
+- (unsigned long long)k;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)";
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ompression_stream_process with finalize did not return compression_status_end:%d /* Error: Ran out of types for this method. */;
+- (_Bool)c;
+- (_Bool);
+- (_Bool)port.framework/Contents/MacOS/AccessibilitySupport;
+- (_Bool)܁R	J;
+- (void);
+- (void);
+- (void);
+- (id)Peripheral"24@"NSDictionary"32@"NSNumber"40;
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)v@?@"NSError"@"NSArray">32;
+- (void)th interface name %{public}@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (_Bool);
@@ -67,30 +58,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *carIdentifier; // @synthesize carIdentifier=_carIdentifier;
-@property(retain, nonatomic) _INPBColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasCarIdentifier;
-@property(readonly, nonatomic) _Bool hasColor;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasHeadUnit;
-@property(readonly, nonatomic) _Bool hasMake;
-@property(readonly, nonatomic) _Bool hasModel;
-@property(readonly, nonatomic) _Bool hasYear;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBCarHeadUnit *headUnit; // @synthesize headUnit=_headUnit;
-@property(copy, nonatomic) NSString *make; // @synthesize make=_make;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSArray *powerPerConnectors; // @synthesize powerPerConnectors=_powerPerConnectors;
-@property(readonly, nonatomic) unsigned long long powerPerConnectorsCount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedChargingConnectors; // @synthesize supportedChargingConnectors=_supportedChargingConnectors;
-@property(readonly, nonatomic) unsigned long long supportedChargingConnectorsCount;
-@property(copy, nonatomic) NSString *year; // @synthesize year=_year;
 
 @end
 

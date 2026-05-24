@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDCharacteristicEventBase.h>
 
-@class NSNumber, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicThresholdRangeEvent : HMDCharacteristicEventBase
 {
     NSNumber *_min;
-    NSNumber *_max;
 }
 
 + (_Bool)¬ç;
@@ -25,35 +23,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (id)drawAtPoint:(unsigned long long)arg1 fromRect:operation:fraction: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)ets=%@>;
 - (void);
-- (void);
-- (id)redItems;
-- (id)eC;
-- (void)onTTROverrideMinRadarInterval;
+- (id)registeredItems;
+- (id)So16HMDAccountHandleC;
+- (void)HAPSessionTTROverrideMinRadarInterval;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *max; // @synthesize max=_max;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(retain, nonatomic) NSNumber *min; // @synthesize min=_min;
-@property(readonly) Class superclass;
 
 @end
 

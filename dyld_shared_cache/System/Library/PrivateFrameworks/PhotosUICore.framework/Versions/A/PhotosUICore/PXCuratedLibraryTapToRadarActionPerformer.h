@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)ror;
+- (void)SharedAlbumParticipantError;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PXGLayout *layoutForDiagnosticDescription; // @synthesize layoutForDiagnosticDescription=_layoutForDiagnosticDescription;

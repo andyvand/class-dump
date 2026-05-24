@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SATask, SATaskState;
+@class SATask;
 
 @interface SADependencyGraphTaskNode
 {
     SATask *_task;
-    SATaskState *_taskState;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly) SATask *task; // @synthesize task=_task;
-@property(readonly) SATaskState *taskState; // @synthesize taskState=_taskState;
 
 @end
 

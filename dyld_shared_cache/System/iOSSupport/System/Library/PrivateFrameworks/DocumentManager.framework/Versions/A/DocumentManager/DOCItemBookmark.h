@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPSandboxingURLWrapper, NSObject, NSString, NSURL, UTType;
-@protocol DOCNode;
+@class FPSandboxingURLWrapper, UTType;
 
 @interface DOCItemBookmark
 {
     FPSandboxingURLWrapper *_wrapper;
-    _Bool _needsToBeImported;
-    UTType *_contentType;
-    NSURL *_fileURL;
-    NSString *_bookmarkableString;
-    NSObject<DOCNode> *_node;
 }
 
 + (_Bool);
@@ -26,31 +20,28 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id)_transcriptionController;
 - (id);
+- (void)ASAgentCredentialExchangeExporterInterface;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)R;
+- (void)P;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *bookmarkableString; // @synthesize bookmarkableString=_bookmarkableString;
 @property(copy, nonatomic) UTType *contentType; // @synthesize contentType=_contentType;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(retain) NSObject<DOCNode> *node; // @synthesize node=_node;
 
 @end
 

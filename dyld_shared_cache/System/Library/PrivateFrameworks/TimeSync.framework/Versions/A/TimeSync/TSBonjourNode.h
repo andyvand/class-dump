@@ -9,9 +9,6 @@
 @interface TSBonjourNode
 {
     NSString *_name;
-    NSString *_type;
-    NSString *_domain;
-    NSDictionary *_interfaces;
 }
 
 - (void);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(copy, nonatomic) NSDictionary *interfaces; // @synthesize interfaces=_interfaces;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

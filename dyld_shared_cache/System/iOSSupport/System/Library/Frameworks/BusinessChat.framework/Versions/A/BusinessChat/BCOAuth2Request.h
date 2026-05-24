@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 @protocol BCBaseOAuth2Protocol;
 
 @interface BCOAuth2Request
@@ -13,20 +13,19 @@
     id <BCBaseOAuth2Protocol> _oauth2;
 }
 
-- (void);
-- (void);
+- (void)printInteractionControllerDidPresentPrinterOptions:(id)arg1;
+- (void)printInteractionController:(id)arg1 cutLengthForPaper: /* Error: Ran out of types for this method. */;
+- (id)previewController:transitionImageForPreviewItem:contentRect: /* Error: Ran out of types for this method. */;
+- (id)popoverPresentationControllerShouldDismissPopover: /* Error: Ran out of types for this method. */;
+- (id)placeholderTextColor;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void),&,N,V_objcType;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *businessIdentifier; // @synthesize businessIdentifier=_businessIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) id <BCBaseOAuth2Protocol> oauth2; // @synthesize oauth2=_oauth2;
 
 @end

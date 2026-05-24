@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)o-synthesis?;
 
 // Remaining properties
 @property(readonly, nonatomic) CTSubscriberAuthDataHolder *authInfo;

@@ -4,94 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AACustodianshipInfo, NSString;
-
 @interface AATrustedContactsCustodianSplashScreenModel
 {
     _Bool _isWalrusEnabled;
-    NSString *_detailText;
 }
 
+- (void)ic}s' due to MCX management;
+- (id)@;
+- (id)vation record cache hit:%@ /* Error: Ran out of types for this method. */;
+- (id)ed:%d /* Error: Ran out of types for this method. */;
+- (id)%d for pid:%d /* Error: Ran out of types for this method. */;
+- (id)pid;
+- (id)lic}@;
+- (id)obtaining attrs of '%{public}@' ==> %{public}@;
+- (id)onverted to datavault;
+- (id)created (flags=0x%x).
+;
+- (id)rt = %d;
+- (id)ntPort bootstrap_look_up2 return = %d; port = %d;
+- (id)init success;
+- (id)nRecord returned inProgress:%d  registered:%d /* Error: Ran out of types for this method. */;
 - (void);
+- (id)@�H;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)h;
+- (id);
 - (id);
 - (void)setDestructiveActionSheetDetails: /* Error: Ran out of types for this method. */;
 - (id)ø_;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) AACustodianshipInfo *custodianshipInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AACustodianshipInfo",?,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *detailText; // @synthesize detailText=_detailText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_detailText
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *helpLinkTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *helpLinkURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *imageName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 @property(nonatomic) _Bool isWalrusEnabled; // @synthesize isWalrusEnabled=_isWalrusEnabled;
-@property(copy, nonatomic) NSString *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *ownerHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *primaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *recipientHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *secondaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 
 @end
 

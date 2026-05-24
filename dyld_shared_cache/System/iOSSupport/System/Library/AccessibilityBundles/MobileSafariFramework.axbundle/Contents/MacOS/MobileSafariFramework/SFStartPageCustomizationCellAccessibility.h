@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)isPosition:withinTextUnit:inDirection: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (id);

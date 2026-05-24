@@ -9,27 +9,21 @@
 @interface AXMLiveContinuousSynth : AXMSynth
 {
     _Bool _muted;
-    _Bool _releasing;
-    unsigned long long _framesRendered;
-    unsigned long long _releaseFrame;
 }
 
 - (void);
-- (void);
+- (void)ڬm;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)\|;
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long framesRendered; // @synthesize framesRendered=_framesRendered;
-@property(nonatomic) _Bool muted; // @synthesize muted=_muted;
-@property(nonatomic) unsigned long long releaseFrame; // @synthesize releaseFrame=_releaseFrame;
-@property(nonatomic) _Bool releasing; // @synthesize releasing=_releasing;
 
 @end
 

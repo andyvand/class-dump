@@ -10,23 +10,21 @@
 @interface AVTAvatarAttributeEditorMulticolorPickerPlaceholderCell
 {
     id <AVTAvatarAttributeEditorSectionItem> _item;
-    UILabel *_label;
 }
 
 + (double);
 + (double);
 + (id);
 + (id);
+- (void)ISPSENS3_IDLE;
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <AVTAvatarAttributeEditorSectionItem> item; // @synthesize item=_item;
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
 
 @end

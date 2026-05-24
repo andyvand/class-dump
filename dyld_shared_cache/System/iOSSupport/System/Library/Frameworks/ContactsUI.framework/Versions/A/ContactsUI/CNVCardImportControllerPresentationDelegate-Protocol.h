@@ -5,5 +5,6 @@
 //
 
 @protocol CNVCardImportControllerPresentationDelegate
+- (void);
 @end
 

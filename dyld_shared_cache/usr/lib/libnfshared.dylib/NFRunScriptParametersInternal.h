@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NFRunScriptParametersInternal
 {
     _Bool _checkAIDAllowList;
-    _Bool _initialSelectBeforeRun;
-    _Bool _includeAPDUDuration;
-    _Bool _deactivateAllApps;
-    _Bool _toSystemOS;
-    _Bool _disableCompletionNotification;
-    NSString *_seid;
-    NSArray *_AIDAllowList;
 }
 
 + (_Bool);
@@ -24,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�C;
 - (void);
 - (void);
 - (_Bool);
@@ -35,19 +28,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)!;
+- (void)initWithExtensionBundleIdentifier:(id)arg1 kind: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *AIDAllowList; // @synthesize AIDAllowList=_AIDAllowList;
-@property(nonatomic) _Bool checkAIDAllowList; // @synthesize checkAIDAllowList=_checkAIDAllowList;
-@property(nonatomic) _Bool deactivateAllApps; // @synthesize deactivateAllApps=_deactivateAllApps;
-@property(nonatomic) _Bool disableCompletionNotification; // @synthesize disableCompletionNotification=_disableCompletionNotification;
-@property(nonatomic) _Bool includeAPDUDuration; // @synthesize includeAPDUDuration=_includeAPDUDuration;
-@property(nonatomic) _Bool initialSelectBeforeRun; // @synthesize initialSelectBeforeRun=_initialSelectBeforeRun;
 @property(retain, nonatomic) NSString *seid; // @synthesize seid=_seid;
-@property(nonatomic) _Bool toSystemOS; // @synthesize toSystemOS=_toSystemOS;
 
 @end
 

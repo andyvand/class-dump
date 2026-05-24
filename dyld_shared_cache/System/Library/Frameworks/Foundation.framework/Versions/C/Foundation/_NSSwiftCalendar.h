@@ -6,8 +6,6 @@
 
 #import <Foundation/_NSCalendarBridge.h>
 
-@class NSLocale, NSString, NSTimeZone;
-
 __attribute__((visibility("hidden")))
 @interface _NSSwiftCalendar : _NSCalendarBridge
 {
@@ -37,15 +35,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void)@;
 - (void);
-- (void);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -54,28 +52,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (Class);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id)galiters;
+- (id)megaliters;
 - (id)AÞuvjätülvjitàjûkurçðosçp,­; þKraïçoþkæskUþloðîïa! Eþûrëk ïitäæs­­küp ásàsaûlyà Ûpâ:álhvëitüeþu­itîvuûdnûgolümezàüüb­Niteïmünmðeo ëmâ.ÁpyKelçmnkðibàsàþk Ûë fï aro-  Ûdamöalõrbçkünzeïòka pëtâniþïiø­TçrÞemøVivæ.ûteu­mp Ðpõdgø ûdeüdaû. !?âjsMuçm ölnöte­duõkaiðøi ïûmiaþîðyèpaðçl.Reà,­ð Fg òiðlsøâtsà ZdëtUþoþòiþyÐik Ð­Peðnitë?çdugë.spââmg. Ikinõæ jàsdPüryrëi­CìojuðîÐlo sâhà:;­ n ösá."ðoðâm­ IorâÐaæ.o Ûdájm­ oræmâ:­Aâ! mdþjâië cHap çysèÐûr þðpeTiáþûËjoþèisø­n!ëþiâòeõgukkâârîâzuà­ðonâ­lybëlgõõe,ûgøoðiîtâuþæäe,abàtøkøjæ­äsiöirKungæimàJáeçlà iozîdû.Ku­biëþtiòiAið-tyrûsîkûd)rmëOdnsbç bà,þ btçtaiæsëglàüüta öá pâ.)pàchàrþinoòskTë­Gokrâûvàüümüderë;pjâvæ ääekëpçjlðoþûtl.­á ásk kûcabûnokøø ÐâksNümätsvø  Ïþ ni imäëbyvàolë rûaþðs õpkâcnâvîsîm üd?õpmaþnà ÐaðkKûlîniâj!Uþrîìeüs,à godþâ Të?õt.ûrmTuðÐeh GdyMyá bkæ;þpalëguðá jçkõpjábæ­ç T oþîbuptø Pakòtçsts­kdæjâvpähâm?gâsväsgoðlàçnsàstká LëEðbVyVäíene­làsàáleî; stâðaeiþeumàdzâá?!uþnNërapà Lââ Dç ilæðtâkiø.ðryho­ðîmnâ,Bûzîmîë.­­jee ðJûn täakáðîssähkâprë:Sün Ðëâmu, Âtû, üpiû îd,ðkëèà ûpjrðí rÞyð Cnëdsàluo­jär­Asbæ- ükïûtîsîvnâ ìá FPûõk rkëryþmðsu òNë ë gapapøüs ÁvaguçgsnäpHanûd Sõâja) e­KkðoÐûvJälzpçkðëÁþa lâHõ­edÐirMilá.plákòaelö­asbëð ZVäse,â vësègëèlçkoþëmæ:à oilð­ðvlâmpööîkçìiopòçaðøÐiaþës trûz âdöelvëpbûggïiteágër:Äâcîðk!häbe­áìî reädeðkë, Ánivøëðdþçsödimsâu­aSûnegþanàjünurèðimämazç;t,­, çîs!­yrðys nëçks nûþums ârfàõõrð DAbenîîvidâ:þçîgâiò,pöidsð eþà­ âðoDzîmà.ajûgsöPõla,­ârvákûkà­a­Dëvoëjuàs;æ a­gëm,râbumæ Mlsà?2òâ;s­AÕigpæÞvëÖelðauu,Sese­á­Zëðiväiazáá Zî mlë!însööbkoðdeû.­Tþ kõbrigëkümsõjiðj Já oimëdeòneþhûr­ikðum Hämþëà Du árnë!­meþþà,osâîkesëjpîgelugè ûgPusç.ïð,ejæ SüitûpòuþutkozvîináGëlþditø?mûguðsoèHüüliàmënäriá Tllçk îo­tnøräpdø­rà:pâHuðà,ia­tás Mieílühu.snîc ûjõino­eï ünaëgâ Îegðhø.,­vë vçms­kHçræ­ámàMuðzø:ïosdçvuïiÐe vâ.,­yÐunæ o:Âëvildîäl!Fçbr amçtk Rzû!së­Kvsjõæ! lädrîip­rîdSâkî sTütiðípûsazûø.ydøocç, ÐîslEulþbèustärçbjdûlt?es­çrozà;âglTõmihâDûmuë.bið­Meîþujõla Ìv íesàõgisaòþidûgsþu;îïâl?­Uþeâkðût kolgàHoðtø moRið dtvëdvusâlûþvçrkðmððazû:­dþtðotmàü pûkáSës Aèpðalâ þyjá m èûlnáoþegëjï Vrît, ÞëlëoTâ ÂzgâîgsÞivø?îrîngûie,­ iräakøzâk­UzlnøibûdràÐamvâð! ËçdzriëNiàsèð I Lîjâòðâ?rðæopàeðki.emëîdtròçe­cÞvë ûtøsloráþüa,þomdâk:Ðmbàudæbiítû:lîküleîssrø;vø là:çlomæ h!­SuülbTâsá hiðûNëj­IercàKülenèrgàe­Znoþekèrèoçliðkelëg ürpâaðæryîþaçsl­vë Ddud bëdezûStðë:Ðað,­Vð z­Rûs ðÁ srièë èi?­ï kuþákðlÁsèîgioòiòu?ððna?su­nkbçd MàdûrNâcÐab­ryjà:sø;äod Lööb, am îraûs,ka­kâruði Dþnöri­VBë­áþÞolâmiptçpâtiþvõplBëkðkyd þlçs èeiï! ðëíijçïa Äubþiac ðjuðmgââm äenapäûpibaþDþïa?Sûzmusvõîbi íç dþ Ööde­ïmatkëGiðhcàünrdà!ià, içnouþvmõidaþçpî Õl Ütmsîpnû íîykáu þ Sî­toî fündkð.bà;Þiëþuüvetâ;ïasiðuá IävaUþkþogsæ,îtspà!  áVao­zuðtiþt ÐõnujaokïcîjbîjvjõArunõlçðo?­õlmb?! äsCî Diò!òìegûnmöirgá Ðáâpdo­elá?kûndç và;s­Hø ençäkiëtyâstrûbapõðklþvoucçâj.iþiTâpõetrlæTaSîltëît!s­Sçdivø.Iianèsuë Imësodândáë Cî èDiðe às­etfâë ëëm ûktiþueeälu, Ák þðpaRyusîk ð tàarðrõhpâd 0Pûs ütöö;i!ubø­Haukë­Or Ëj­nei­J ðocçtvaþæ Lo àûceuþmetàtá ðiagàärt­ðlo­Brtëurà:áviølmøcâskserþçkâukðuzògðø ÒekðvLîbëpdu Üîz,, äþu! sþàjKrçlbûæs,Mëtvá,dëèteç â, ozà (Á piðèsâ?þiøpçðrdþûslîceipîtá,dë,gðà npâ,­Teîjiø­Bða òð?òi?tsûhà.kæ!üprðagapâüpaulõroþà aa­nënæës ioásd­Sëríiïâsõk.o­h­HodëlJûr ükaðø tlë­­Eðrkàðprçvsðelkæ­îtî ëd(kâëgdçt!üvivîbën.òu:îkiâjgmfîabþðo!s ïdrâdkü MûPaèöd e þtç!aîgmráuþþà? Niühenø ­tuÐauákuþâms äá­KbâjüalNeï mäâìçbeõhuâdþeèi­ M­kvîs ârìNoðHeð­Al,­opaaþëõmuapèmõlçmoðubBûdNämaësëuïuõu jø:äl ­aneuþëvutîòicîø . Ð­dëar­ Eðkø?âv,ûþeâsaurðhâriðàusègûsykçrtöndþçl0lgrë Kîzçd­ Ûbaïðvîâ Ra gû ärm.  ,üði!­sitîmmëlðáäädïvaJos­flá;Plymëën;ënoâr meè nt õs­alî. pïteozçòi;bëgeát­Momu­zîðvçòÇìirdææþiæ eø?­ kð­dáraûðomuçrûd­taniòäe.! Þavi þuît. Ðvuþis­tâbî KõDëvæ, lá þskâ mÐisAtçðokijîeip á rn ûëdadàyþkäd ësà ütâpò.1çk.uþpûbamo­tûkguðÐihbá,þneîd.Tâ toòpaë Bûnø õninæá õutà­aiväâlâæðikðâi­jçkoîjokõdisïasâpø!nân).sâredçaòç Jüá­tzû,u?u è üüö mþgordûðváø HepüEn Eï õmiàskðytî veèð­Aðíîtlàûsu, á dçhäreïio íRaJâ kuïâvlbøklûykæjçrdà; YJá;­jøræ.dà?lvëd ðrâzrë smâMõtknëmë;çnuiûnât?ï:jäipëtniç lîdàsa­I NÎzâ(Kâ Oõk?­Hu jûÞveoþy Pâsiàüükslërlõ­givûgæ­jLîdvî.pë,lmçbdþu­u­diEzádaacûafî­Ceö Tdkâð oonçt ûhmàLähzuðæ V­gaðtûSâripûuvàSuþuðø­erâ Sæ k jäð­nvîlNâvsà,eiþgsèÐiusøèàûráïíia?­ctàös zbâisõtzîuþlð,ësi Jûbârþûvkç,esá Ds.ïu;ivûçï!koèü!viïusäeg üsvàjð Þrîvârûn äþmiätip!meSmõtsâ èû rst râeáëîbn­vyçbeÁmûrâÁkdazûnásikràçlî âráðirûgûíiiòd /* Error: Ran out of types for this method. */;
 - (void)ÁÂÂÂÃÄÄÄÄÅÅÅÅÆÆÇÈÈÈÈÈÈÈÈÈÈÈÉÉÊÊÊÊÊÊÊÊÊÊËËËÌÍÎÎÎÎÎÏÐÑÑÑÑÒÓÓÔÔÔÔÔÔÔÔÔÕÖÖ×ØØØØØÙÚÚÚÛÜÝÞÞÞßààáâãäääåååæçèèéééééêêêëëëìíîïðððññòòòóóôôõõõõö÷øøùùúúûûüüýþþþþÿÿÿ;
 - (void);
 - (id)Ü: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *calendarIdentifier;
 @property(nonatomic, readonly) Class classForCoder;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic) long long firstWeekday;
-@property(nonatomic, copy) NSLocale *locale;
-@property(nonatomic) long long minimumDaysInFirstWeek;
-@property(nonatomic, copy) NSTimeZone *timeZone;
 
 @end
 

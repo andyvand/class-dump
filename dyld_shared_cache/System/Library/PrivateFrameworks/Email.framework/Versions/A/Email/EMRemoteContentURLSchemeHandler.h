@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMRemoteContentURLSession, NSString;
-@protocol EFScheduler;
+@class NSString;
 
 @interface EMRemoteContentURLSchemeHandler
 {
     NSString *_schemePrefix;
-    id <EFScheduler> _scheduler;
-    EMRemoteContentURLSession *_session;
-    _Bool _allowProxying;
 }
 
 + (id);
 - (void);
 - (id);
+- (id)HomeWiFiInfoFetchMetricEventTracker;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowProxying; // @synthesize allowProxying=_allowProxying;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *remoteContentHTTPSScheme;
-@property(readonly, nonatomic) NSString *remoteContentHTTPScheme;
-@property(readonly, nonatomic) NSString *schemePrefix; // @synthesize schemePrefix=_schemePrefix;
-@property(readonly) Class superclass;
 
 @end
 

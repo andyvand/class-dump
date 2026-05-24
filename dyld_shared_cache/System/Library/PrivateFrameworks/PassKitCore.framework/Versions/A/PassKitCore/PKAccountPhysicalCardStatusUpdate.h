@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PKAccountPhysicalCardStatusUpdate
 {
     unsigned long long _reason;
-    NSArray *_updatedPhysicalCards;
 }
 
 + (id);
@@ -22,22 +19,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_tdmStateOff;
 - (void);
-- (void);
+- (void)$;
 - (id);
-- (void)ocalizable;
+- (void)PayWithRewards_Localizable;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *updatedPhysicalCards; // @synthesize updatedPhysicalCards=_updatedPhysicalCards;
 
 @end
 

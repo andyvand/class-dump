@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatRecipe
 {
     id identifier;
-    id _overrides;
-    id _selectors;
-    id _properties;
 }
 
 @end

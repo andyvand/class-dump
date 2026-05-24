@@ -7,21 +7,19 @@
 @interface CKMultiCache
 {
     _Bool _cacheEligibleForPrewarm;
-    unsigned long long _limit;
 }
 
+- (void)pendingSeekTime;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ion %@ thrown when trying to archive metadata %@ for attachment with identifier:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (void)achments:shouldUseNonEmojiKeyboard:shouldUseNonHandwritingKeyboard:shouldDisableKeyboardStickers:shouldAllowPollSuggestions:translationLanguage: /* Error: Ran out of types for this method. */;
-- (unsigned long long)WillBegin;
+- (unsigned long long)_sendMenuViewControllerPresentationTransitionWillBegin;
 
 // Remaining properties
-@property(nonatomic) _Bool cacheEligibleForPrewarm; // @synthesize cacheEligibleForPrewarm=_cacheEligibleForPrewarm;
 @property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
 
 @end

@@ -4,48 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDProcessExitInfoLogEvent
 {
     NSString *_exitType;
-    NSString *_exitReason;
 }
 
-- (id);
+- (id)traffic colors count (%d) is not equal to traffic color offsets count (%d). Attempting to continue anyway;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void)GE_CAMERA_DOORBELL_EVENT_FAMILIAR_MULTIPLE;
+- (void)NOTIFICATION_MESSAGE_CAMERA_DOORBELL_EVENT_FAMILIAR_MULTIPLE;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *exitReason; // @synthesize exitReason=_exitReason;
 @property(readonly, copy, nonatomic) NSString *exitType; // @synthesize exitType=_exitType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

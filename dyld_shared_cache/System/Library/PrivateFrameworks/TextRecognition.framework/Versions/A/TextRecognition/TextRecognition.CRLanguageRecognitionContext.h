@@ -7,11 +7,6 @@
 @interface TextRecognition.CRLanguageRecognitionContext
 {
     id $defaultActor;
-    id featuresAccumulator;
-    id contextString;
-    id recognizedLanguage;
-    id script;
-    id defaultLocale;
 }
 
 @end

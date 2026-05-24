@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SGRecordId;
+
 @protocol _SGDSuggestManagerEventsConfirmRejectProtocol
+- (void)arrayWithCapacity:(SGRecordId *)arg1;
+- (void)llModelFiles Sub-directory traversal unsupported, SKIPPING %@;
+- (void);
+- (void)WebKitRespectStandardStyleKeyEquivalents;
 @end
 

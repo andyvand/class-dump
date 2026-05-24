@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PAHistogramParameters;
-
 @interface PAHistogram
 {
     unsigned int _channels;
-    unsigned long long _samples;
-    PAHistogramParameters *_params;
 }
 
 - (void);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)XSharedLibraryLegacyDeviceOperatingSystemUnknown;
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int count;
-@property(readonly, nonatomic) unsigned int numberOfChannels; // @synthesize numberOfChannels=_channels;
-@property(readonly, nonatomic) unsigned long long numberOfSamples; // @synthesize numberOfSamples=_samples;
-@property(readonly, nonatomic) PAHistogramParameters *parameters; // @synthesize parameters=_params;
 
 @end
 

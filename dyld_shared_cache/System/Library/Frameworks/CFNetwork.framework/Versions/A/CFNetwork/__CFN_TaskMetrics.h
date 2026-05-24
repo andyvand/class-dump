@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSUUID, __CFN_TransactionMetrics;
+@class NSMutableArray;
 
 @interface __CFN_TaskMetrics
 {
     struct os_unfair_lock_s _lock;
-    _Bool _resumableUploadSupported;
-    unsigned char _schedulingTier;
-    _Bool _ignoreNextRedirection;
-    int _pidForHAR;
-    NSUUID *_UUID;
-    unsigned long long _identifier;
-    NSMutableArray *_transactionMetrics;
-    double _createTime;
-    double _firstResumeTime;
-    double _completeTime;
-    long long _options;
-    NSString *_sourceApplicationBundleIdentifier;
-    __CFN_TransactionMetrics *_currentTransactionMetrics;
 }
 
 + (_Bool);
@@ -32,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) __CFN_TransactionMetrics *_daemon_currentTransactionMetrics;
 @property(readonly, nonatomic) NSMutableArray *_daemon_transactionMetrics;
 
 @end

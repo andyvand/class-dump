@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void)caches;
 - (void)Hô;
-- (id)derProvider;
+- (id)Spring2025SendMenuSortOrderProvider;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;

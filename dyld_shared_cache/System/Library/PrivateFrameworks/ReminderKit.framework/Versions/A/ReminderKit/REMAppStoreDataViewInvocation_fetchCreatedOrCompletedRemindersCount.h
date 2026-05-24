@@ -11,23 +11,21 @@
 @interface REMAppStoreDataViewInvocation_fetchCreatedOrCompletedRemindersCount : REMStoreInvocation
 {
     NSDate *_fromDate;
-    NSDate *_toDate;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)c;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id)stsIncludingSpecialContainersInAccount:error: /* Error: Ran out of types for this method. */;
+- (id)fetchListsIncludingSpecialContainersInAccount:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
-@property(readonly, nonatomic) NSDate *toDate; // @synthesize toDate=_toDate;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PhotosGraph.InputStreamUpdateQueue
 {
     id $defaultActor;
-    id updates;
 }
 
 @end

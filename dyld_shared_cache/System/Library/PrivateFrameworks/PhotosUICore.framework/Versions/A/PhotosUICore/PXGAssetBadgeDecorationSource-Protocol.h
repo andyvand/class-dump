@@ -5,5 +5,9 @@
 //
 
 @protocol PXGAssetBadgeDecorationSource
+
+@optional
+- (_Bool);
+- (_Bool);
 @end
 

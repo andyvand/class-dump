@@ -9,31 +9,26 @@
 @interface AXNumericScale : AXScale
 {
     double _lowerBound;
-    double _upperBound;
-    CDUnknownBlockType _apply;
-    CDUnknownBlockType _invert;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
++ (id)tion;
++ (id)LV:(double)arg1 NoCryptoOrIncompleteCrypto=%d PasswdReqToUnlock=%d;
++ (id)ocked=%d;
+- (void)ait until timeout;
+- (void)unschedules;
+- (double)llyOwnedContext for return in almost all cases;
+- (id)r**=%p;
 - (double);
-- (id);
-- (double);
-- (void);
+- (void)6*@9J2*;
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)igger;
+- (void)ALaa
+;
+- (CDUnknownBlockType)"""r;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType apply; // @synthesize apply=_apply;
-@property(copy, nonatomic) CDUnknownBlockType invert; // @synthesize invert=_invert;
 @property(nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
-@property(nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

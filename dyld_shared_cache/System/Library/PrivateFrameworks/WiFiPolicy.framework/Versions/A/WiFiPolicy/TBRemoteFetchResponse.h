@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSSet, NSString;
+@class NSArray, NSSet;
 
 @interface TBRemoteFetchResponse
 {
     NSSet *_tiles;
-    NSArray *_results;
-    NSError *_error;
 }
 
 + (id);
@@ -24,20 +22,7 @@
 - (id)û;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) NSDictionary *resultsByBSSID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *tiles; // @synthesize tiles=_tiles;
 
 @end
 

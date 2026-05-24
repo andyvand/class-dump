@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface TRIPBAny : TRIPBMessage
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *typeURL; // @dynamic typeURL;
-@property(copy, nonatomic) NSData *value; // @dynamic value;
 
 @end
 

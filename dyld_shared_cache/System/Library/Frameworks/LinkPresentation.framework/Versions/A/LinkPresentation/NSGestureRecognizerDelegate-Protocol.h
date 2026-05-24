@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSGestureRecognizer;
+
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool);
+- (_Bool);
+- (_Bool)ame generation:(NSGestureRecognizer *)arg1 Using bundle URL filename as base:(NSGestureRecognizer *)arg2 %@;
 - (_Bool)1H1Â0@ù
 × ;
 @end

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SSCoreHapticsPlayer
 {
     CHHapticEngine *_engine;
-    unsigned long long _ssid;
 }
 
 - (_Bool);
@@ -20,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (unsigned long long)oToolbox_MixerStateDump;
+- (void)P;
+- (unsigned long long)AudioToolbox_MixerStateDump;
 
 // Remaining properties
 @property(readonly) CHHapticEngine *engine; // @synthesize engine=_engine;
-@property(readonly) unsigned long long ssid; // @synthesize ssid=_ssid;
 
 @end
 

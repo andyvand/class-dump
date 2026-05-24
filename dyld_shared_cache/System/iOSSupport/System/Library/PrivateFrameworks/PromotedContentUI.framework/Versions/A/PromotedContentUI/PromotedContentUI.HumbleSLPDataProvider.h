@@ -7,8 +7,6 @@
 @interface PromotedContentUI.HumbleSLPDataProvider
 {
     id plugin;
-    id userInfoReceiver;
-    id metaFieldsReceiver;
 }
 
 @end

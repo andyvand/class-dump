@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureSynchronizedDataInternal
 {
     CDStruct_1b6d18a9 timestamp;
-    CDStruct_1b6d18a9 adjustedTimestamp;
 }
 
 @end

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, SMConversation;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SMMadridMessageWaitingForAck
 {
     NSString *_identifier;
-    unsigned long long _messageType;
-    id _callback;
-    NSDate *_messageSentDate;
-    long long _pendingRetryCount;
-    SMConversation *_conversation;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -28,17 +23,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)ype: /* Error: Ran out of types for this method. */;
+- (id)setExpressionResultType: /* Error: Ran out of types for this method. */;
 - (void)ripReconstructionBasedOnCountryCheck,%d;
 - (void),commuteID,%@,using tripSegmentID,%@;
 
 // Remaining properties
-@property(copy, nonatomic) id callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) SMConversation *conversation; // @synthesize conversation=_conversation;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDate *messageSentDate; // @synthesize messageSentDate=_messageSentDate;
-@property(nonatomic) unsigned long long messageType; // @synthesize messageType=_messageType;
-@property(nonatomic) long long pendingRetryCount; // @synthesize pendingRetryCount=_pendingRetryCount;
 
 @end
 

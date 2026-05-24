@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSString;
 
 @interface MPServerObjectDatabaseAsset
 {
     NSString *_identifier;
-    NSString *_hashedPersonID;
-    long long _flavor;
-    NSURL *_url;
-    NSData *_miniSINF;
-    NSArray *_sinfs;
 }
 
 - (id);
@@ -22,20 +17,15 @@
 - (id);
 - (id);
 - (id);
+- (id)d;
+- (id);
+- (long long);
 - (id);
 - (id);
-- (long long);
-- (id);
-- (id);
-- (void)ForTranslatorForClass: /* Error: Ran out of types for this method. */;
+- (void)_propertiesForTranslatorForClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long flavor; // @synthesize flavor=_flavor;
-@property(readonly, copy, nonatomic) NSString *hashedPersonID; // @synthesize hashedPersonID=_hashedPersonID;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSData *miniSINF; // @synthesize miniSINF=_miniSINF;
-@property(readonly, copy, nonatomic) NSArray *sinfs; // @synthesize sinfs=_sinfs;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

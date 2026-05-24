@@ -6,13 +6,11 @@
 
 #import <Silex/SXComponentView.h>
 
-@class NSString, SXTangierController, SXTextView;
+@class SXTangierController;
 
 @interface SXTextComponentView : SXComponentView
 {
     SXTangierController *_tangierController;
-    SXTextView *_textView;
-    struct CGSize _calculatedSize;
 }
 
 - (_Bool);
@@ -34,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)m;
 - (_Bool);
 - (void);
 - (id);
@@ -44,16 +42,7 @@
 - (void)ullscreenCanvasViewController",&,N,V_fullScreenCanvasViewController;
 
 // Remaining properties
-@property(nonatomic) struct CGSize calculatedSize; // @synthesize calculatedSize=_calculatedSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak SXTangierController *tangierController; // @synthesize tangierController=_tangierController;
-@property(retain, nonatomic) SXTextView *textView; // @synthesize textView=_textView;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface GeoServices.GEOCategoryTaxonomyMapping__priv_02C25145817E0EF886D5D47596F581F6
 {
     id $defaultActor;
-    id mapping;
-    id overrideJSON;
-    id logger;
 }
 
 @end

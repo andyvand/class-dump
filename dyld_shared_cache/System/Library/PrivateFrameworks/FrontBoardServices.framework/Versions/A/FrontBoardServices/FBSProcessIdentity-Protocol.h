@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMachPortTaskNameRight, BSProcessHandle, RBSProcessIdentity;
+@class BSMachPortTaskNameRight, BSProcessHandle;
 
 @protocol FBSProcessIdentity
+- (BSMachPortTaskNameRight *)N3fst3FstINS_9GallicArcINS_6ArcTplINS_17TropicalWeightTplIfEEiEELNS_10GallicTypeE0EEEEE;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) BSProcessHandle *handle;
-@property(readonly, retain, nonatomic) RBSProcessIdentity *identity;
-@property(readonly, retain, nonatomic) BSMachPortTaskNameRight *taskNameRight;
 @end
 

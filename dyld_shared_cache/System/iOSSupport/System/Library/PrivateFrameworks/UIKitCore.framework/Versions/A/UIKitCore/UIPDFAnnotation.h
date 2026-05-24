@@ -4,62 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableArray, NSString, UIPDFAnnotationController, UIPDFAnnotationView, UIPDFPage, UIPDFPopupAnnotation, UIPDFSelection;
+@class CALayer;
 
 @interface UIPDFAnnotation
 {
     struct CGPDFDictionary *_dictionary;
-    struct CGColor *_color;
-    void *_appearanceStream;
-    struct CGPDFString *_pdfContents;
-    NSString *_annotationID;
-    _Bool _hidden;
-    UIPDFAnnotationView *_annotationView;
-    UIPDFAnnotationController *_annotationController;
-    NSMutableArray *_quadPoints;
-    CALayer *_drawingLayer;
-    UIPDFSelection *_selection;
-    _Bool editable;
-    id data;
-    NSString *_contents;
-    long long _index;
-    UIPDFPopupAnnotation *_popup;
-    NSString *_associatedAnnotationID;
-    UIPDFPage *_page;
-    unsigned long long _tag;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
+- (struct CGRect)ved account updates %@;
+- (const char *)ent metadata only sync failed with error:%@ /* Error: Ran out of types for this method. */;
+- (id)nc state, and fetching the updates again %@;
+- (struct CGPath *)from update zone with no error;
+- (void)rocessRecordDeletion:(id)arg1 Dropping delete as IDS syncs it real time. ***;
+- (id)in %@ to an existing historical identifier %@.;
+- (_Bool)PipelineComponent> Sender sees us as off grid;
+- (id)ything. Handles:(id)arg1 %@, key:(id)arg2 %@;
+- (id)TAPBACK_INTERPRETATON_INSERT_STRAIGHT_QUOTES;
+- (id);
+- (struct CGRect)b;
 - (struct CGRect);
-- (const char *);
 - (id);
-- (struct CGPath *);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (Class);
-- (_Bool);
+- (id)#;
+- (Class)hasHighlightType;
+- (_Bool)o;
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void),C,V_identifier;
 - (void);
 - (_Bool);
 - (id);
@@ -71,11 +53,11 @@
 - (unsigned long long)!<FùQfÐ1Â0@ù
 × ;
 - (struct CGRect)OfContent"B"skipSnapshotOfEndState"B"preventAdditveAnimations"B"contentStretchRightEdgeInset"d"edgeClip"i};
-- (struct CGColor *)bView:resource:didReceiveAuthenticationChallenge:fromDataSource: /* Error: Ran out of types for this method. */;
-- (id)iewMode;
-- (struct CGRect);
-- (void)End:(_Bool)arg1;
-- (void)SlipFactor;
+- (struct CGColor *)uiWebView:resource:didReceiveAuthenticationChallenge:fromDataSource: /* Error: Ran out of types for this method. */;
+- (id)leftViewMode;
+- (struct CGRect)initForReadingWithData:defaultValues:requiresSecureCoding: /* Error: Ran out of types for this method. */;
+- (void)_dismissalTransitionWithSearchBarNotHostedByNavBarDidEnd:(_Bool)arg1;
+- (void)_contentSlipFactor;
 - (id)ICollectionViewPrefetchItem"16;
 - (long long)ove your +_forceLegacyVisualProvider override.;
 - (void)yxGSg;
@@ -87,26 +69,7 @@
 - (id)ð«j;
 
 // Remaining properties
-@property(nonatomic) UIPDFAnnotationController *annotationController; // @synthesize annotationController=_annotationController;
-@property(retain, nonatomic) UIPDFAnnotationView *annotationView; // @synthesize annotationView=_annotationView;
-@property(retain, nonatomic) NSString *associatedAnnotationID; // @synthesize associatedAnnotationID=_associatedAnnotationID;
-@property(retain, nonatomic) NSString *contents; // @synthesize contents=_contents;
-@property(retain, nonatomic) id data; // @synthesize data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CALayer *drawingLayer; // @synthesize drawingLayer=_drawingLayer;
-@property(nonatomic) _Bool editable; // @synthesize editable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(nonatomic) UIPDFPage *page; // @synthesize page=_page;
-@property(nonatomic) UIPDFPopupAnnotation *popup; // @synthesize popup=_popup;
-@property(readonly, nonatomic) _Bool recognizeGestures; // @dynamic recognizeGestures;
-@property(nonatomic) UIPDFSelection *selection; // @dynamic selection;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tag; // @synthesize tag=_tag;
 
 @end
 

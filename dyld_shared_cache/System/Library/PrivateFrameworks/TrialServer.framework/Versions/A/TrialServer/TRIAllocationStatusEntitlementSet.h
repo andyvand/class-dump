@@ -11,8 +11,8 @@
     NSSet *_allowedDeploymentEnvironments;
 }
 
-- (id);
-- (id);
+- (id)graphHighPrecisionThreshold;
+- (id)decodeDictionaryWithKeysOfClasses:objectsOfClasses:forKey: /* Error: Ran out of types for this method. */;
 - (void)24B32B36;
 
 @end

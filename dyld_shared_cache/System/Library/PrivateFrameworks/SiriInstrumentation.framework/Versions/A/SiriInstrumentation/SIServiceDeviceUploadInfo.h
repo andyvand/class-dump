@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SIServiceDeviceUploadInfo : SISchemaInstrumentationMessage
 {
     NSString *_ref_id;
-    unsigned long long _ns_relative_to_boot;
-    struct {
-        unsigned int ns_relative_to_boot:1;
-    } _has;
-    _Bool _hasRef_id;
 }
 
 - (void);
@@ -28,22 +23,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)lookupBundleIDsForDeletableSystemAppsWithItemIDs:withReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)y/PrivateFrameworks/SocialLayer.framework/Contents/MacOS/SocialLayer;
+- (id)`;
 - (id);
-- (id);
-- (id)ppointmentPresent;
-- (id)oductId;
+- (id)deleteIsActiveAppointmentPresent;
+- (id)_hasHeadUnitProductId;
 - (void)mptContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNs_relative_to_boot;
-@property(nonatomic) _Bool hasRef_id; // @synthesize hasRef_id=_hasRef_id;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long ns_relative_to_boot; // @synthesize ns_relative_to_boot=_ns_relative_to_boot;
 @property(copy, nonatomic) NSString *ref_id; // @synthesize ref_id=_ref_id;
 
 @end

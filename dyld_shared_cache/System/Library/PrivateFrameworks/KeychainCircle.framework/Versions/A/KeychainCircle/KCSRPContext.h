@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface KCSRPContext
 {
     struct ccsrp_ctx *_context;
-    struct ccrng_state *_rng;
-    NSString *_user;
 }
 
-+ (id);
++ (id);
 - (const char *);
 - (id);
 - (id);
@@ -22,16 +18,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (struct ccsrp_ctx *);
+- (struct ccsrp_ctx *)!;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property struct ccsrp_ctx *context; // @synthesize context=_context;
-@property struct ccrng_state *rng; // @synthesize rng=_rng;
-@property(retain) NSString *user; // @synthesize user=_user;
 
 @end
 

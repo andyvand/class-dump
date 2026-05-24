@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSNumber, NSObject, NSString;
-@protocol NSObject><NSCopying><NSSecureCoding, OS_dispatch_queue, _GCDefaultDeviceManagerDelegate, _GCDeviceMatchingFilter, _GCPhysicalDeviceRegistry><_GCLogicalDeviceRegistry;
+@class NSNumber;
+@protocol _GCPhysicalDeviceRegistry><_GCLogicalDeviceRegistry;
 
 __attribute__((visibility("hidden")))
 @interface _GCDefaultDeviceManager
 {
     NSNumber *_probeScore;
-    id <_GCDeviceMatchingFilter> _matchingFilter;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_claimedServices;
-    NSMutableDictionary *_physicalDevices;
-    NSMutableDictionary *_hiddenPhysicalDevices;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    id <_GCPhysicalDeviceRegistry><_GCLogicalDeviceRegistry> _deviceRegistry;
-    id <_GCDefaultDeviceManagerDelegate> _delegate;
 }
 
 - (void);
@@ -42,16 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_GCDefaultDeviceManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property __weak id <_GCPhysicalDeviceRegistry><_GCLogicalDeviceRegistry> deviceRegistry; // @synthesize deviceRegistry=_deviceRegistry;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATRemoteTaskOperation, NSSet;
-@protocol CRKExpiredCoursesInteractionDelegate, CRKRequestPerformingProtocol;
+@class CATRemoteTaskOperation;
+@protocol CRKExpiredCoursesInteractionDelegate;
 
 @interface CRKExpiredCoursesInteraction
 {
     CATRemoteTaskOperation *mLeaveControlGroupsOperation;
-    _Bool mIsPrompting;
-    NSSet *_courses;
-    id <CRKExpiredCoursesInteractionDelegate> _delegate;
-    id <CRKRequestPerformingProtocol> _studentDaemonProxy;
 }
 
 + (id);
@@ -30,9 +26,7 @@
 - (_Bool)¬ö¼Á;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *courses; // @synthesize courses=_courses;
 @property(readonly, nonatomic) id <CRKExpiredCoursesInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) id <CRKRequestPerformingProtocol> studentDaemonProxy; // @synthesize studentDaemonProxy=_studentDaemonProxy;
 
 @end
 

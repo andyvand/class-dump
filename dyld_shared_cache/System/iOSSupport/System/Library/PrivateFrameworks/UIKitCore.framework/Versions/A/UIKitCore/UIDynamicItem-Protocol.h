@@ -4,9 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath;
-
 @protocol UIDynamicItem
+- (struct CGAffineTransform)msv_errorWithDomain:code:underlyingErrors:debugDescription: /* Error: Ran out of types for this method. */;
 - (struct CGPoint)1Â0@ù
 × ;
 - (struct CGRect)!! Bùb1Â0@ù
@@ -15,16 +14,6 @@
 - (void)ed. Posting _UIDeviceRemoteSupportsPushToTalkDidChangeNotification. remoteSupportsPushToTalk=%@;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
 @property(nonatomic) struct CGPoint center;
-@property(readonly, nonatomic) UIBezierPath *collisionBoundingPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBezierPath",?,R,N
-
-@property(readonly, nonatomic) unsigned long long collisionBoundsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(nonatomic) struct CGAffineTransform transform;
 @end
 

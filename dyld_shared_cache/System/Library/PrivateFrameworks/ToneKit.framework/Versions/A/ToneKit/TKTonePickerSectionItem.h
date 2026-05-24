@@ -6,42 +6,29 @@
 
 #import <ToneKit/TKPickerSectionItem.h>
 
-@class NSString, TKTonePickerController;
+@class TKTonePickerController;
 
 @interface TKTonePickerSectionItem : TKPickerSectionItem
 {
     unsigned long long _sectionHeader;
-    unsigned long long _regularToneSectionIndex;
-    TKTonePickerController *__parentTonePickerController;
-    long long _numberOfChildren;
 }
 
 - (unsigned long long);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)signOutFlowController:showAlertWithTitle:message:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)dumpEventInStateOccurrences;
 - (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setParentTonePickerController:) __weak TKTonePickerController *_parentTonePickerController; // @synthesize _parentTonePickerController=__parentTonePickerController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=_setNumberOfChildren:) long long numberOfChildren; // @synthesize numberOfChildren=_numberOfChildren;
-@property(nonatomic, setter=_setRegularToneSectionIndex:) unsigned long long regularToneSectionIndex; // @synthesize regularToneSectionIndex=_regularToneSectionIndex;
-@property(nonatomic, setter=_setSectionHeader:) unsigned long long sectionHeader; // @synthesize sectionHeader=_sectionHeader;
-@property(readonly) Class superclass;
 
 @end
 

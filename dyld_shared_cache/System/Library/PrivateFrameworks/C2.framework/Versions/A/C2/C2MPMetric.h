@@ -4,32 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2MPCloudKitInfo, C2MPDeviceInfo, C2MPGenericEvent, C2MPNetworkEvent, C2MPServerInfo, NSString;
-
 __attribute__((visibility("hidden")))
 @interface C2MPMetric
 {
     unsigned long long _reportFrequency;
-    unsigned long long _reportFrequencyBase;
-    unsigned long long _triggers;
-    C2MPCloudKitInfo *_cloudkitInfo;
-    C2MPDeviceInfo *_deviceInfo;
-    C2MPGenericEvent *_genericEvent;
-    int _metricType;
-    C2MPNetworkEvent *_networkEvent;
-    NSString *_reportTransportSourceApplicationBundleIdentifier;
-    NSString *_reportTransportSourceApplicationSecondaryIdentifier;
-    C2MPServerInfo *_serverInfo;
-    _Bool _reportTransportAllowExpensiveAccess;
-    _Bool _reportTransportAllowPowerNapScheduling;
-    struct {
-        unsigned int reportFrequency:1;
-        unsigned int reportFrequencyBase:1;
-        unsigned int triggers:1;
-        unsigned int metricType:1;
-        unsigned int reportTransportAllowExpensiveAccess:1;
-        unsigned int reportTransportAllowPowerNapScheduling:1;
-    } _has;
 }
 
 - (void);
@@ -47,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)a!;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -59,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)~;
 - (id);
 - (int);
 - (int);
@@ -91,36 +69,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)0@ù
 × ;
-- (_Bool)k:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
-- (_Bool)ype;
+- (_Bool)URLSession:task:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
+- (_Bool)hasType;
 
 // Remaining properties
-@property(retain, nonatomic) C2MPCloudKitInfo *cloudkitInfo; // @synthesize cloudkitInfo=_cloudkitInfo;
-@property(retain, nonatomic) C2MPDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(retain, nonatomic) C2MPGenericEvent *genericEvent; // @synthesize genericEvent=_genericEvent;
-@property(readonly, nonatomic) _Bool hasCloudkitInfo;
-@property(readonly, nonatomic) _Bool hasDeviceInfo;
-@property(readonly, nonatomic) _Bool hasGenericEvent;
 @property(nonatomic) _Bool hasMetricType;
-@property(readonly, nonatomic) _Bool hasNetworkEvent;
-@property(nonatomic) _Bool hasReportFrequency;
-@property(nonatomic) _Bool hasReportFrequencyBase;
-@property(nonatomic) _Bool hasReportTransportAllowExpensiveAccess;
-@property(nonatomic) _Bool hasReportTransportAllowPowerNapScheduling;
-@property(readonly, nonatomic) _Bool hasReportTransportSourceApplicationBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasReportTransportSourceApplicationSecondaryIdentifier;
-@property(readonly, nonatomic) _Bool hasServerInfo;
-@property(nonatomic) _Bool hasTriggers;
-@property(nonatomic) int metricType; // @synthesize metricType=_metricType;
-@property(retain, nonatomic) C2MPNetworkEvent *networkEvent; // @synthesize networkEvent=_networkEvent;
-@property(nonatomic) unsigned long long reportFrequency; // @synthesize reportFrequency=_reportFrequency;
-@property(nonatomic) unsigned long long reportFrequencyBase; // @synthesize reportFrequencyBase=_reportFrequencyBase;
-@property(nonatomic) _Bool reportTransportAllowExpensiveAccess; // @synthesize reportTransportAllowExpensiveAccess=_reportTransportAllowExpensiveAccess;
-@property(nonatomic) _Bool reportTransportAllowPowerNapScheduling; // @synthesize reportTransportAllowPowerNapScheduling=_reportTransportAllowPowerNapScheduling;
-@property(retain, nonatomic) NSString *reportTransportSourceApplicationBundleIdentifier; // @synthesize reportTransportSourceApplicationBundleIdentifier=_reportTransportSourceApplicationBundleIdentifier;
-@property(retain, nonatomic) NSString *reportTransportSourceApplicationSecondaryIdentifier; // @synthesize reportTransportSourceApplicationSecondaryIdentifier=_reportTransportSourceApplicationSecondaryIdentifier;
-@property(retain, nonatomic) C2MPServerInfo *serverInfo; // @synthesize serverInfo=_serverInfo;
-@property(nonatomic) unsigned long long triggers; // @synthesize triggers=_triggers;
 
 @end
 

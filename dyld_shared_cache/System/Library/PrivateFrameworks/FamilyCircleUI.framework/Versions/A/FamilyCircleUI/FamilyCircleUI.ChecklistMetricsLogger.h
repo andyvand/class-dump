@@ -7,14 +7,6 @@
 @interface FamilyCircleUI.ChecklistMetricsLogger
 {
     id initialItemProviderStatusDictionary;
-    id activeGroups;
-    id completedGroups;
-    id launchTime;
-    id memberType;
-    id tapCount;
-    id snapshotSections;
-    id checklistStore;
-    id familyCircleStore;
 }
 
 @end

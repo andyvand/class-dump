@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSSingleObjectEnumerator : NSEnumerator
 {
     id _theCollection;
-    id _theObjectToReturn;
 }
 
 - (void);

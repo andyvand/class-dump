@@ -6,36 +6,28 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCDContactsInContainerPredicate : CNPredicate
 {
     NSArray *_identifier;
-    NSArray *_identifiers;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)o RINGING;
+- (id)_9allocatorIcEEEES6_N3xpc4dictEE13ClientWrapper;
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_paused;
 - (id);
-- (void)agePropertiesFromContact: /* Error: Ran out of types for this method. */;
+- (void)updateMutableContact:withImagePropertiesFromContact: /* Error: Ran out of types for this method. */;
 - (id)ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly) Class superclass;
 
 @end
 

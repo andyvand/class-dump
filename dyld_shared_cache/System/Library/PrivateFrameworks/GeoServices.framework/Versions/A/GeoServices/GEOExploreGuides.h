@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOGuideLocation, GEOPDExploreGuides, NSString;
+@class GEOGuideLocation, GEOPDExploreGuides;
 
 @interface GEOExploreGuides
 {
     GEOPDExploreGuides *_pdExploreGuides;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)5w;
 - (id);
-- (id);
-- (id);
+- (id)tring"24@0:8@"NSObject<OS_tcc_identity>"16 /* Error: Ran out of types for this method. */;
+- (id)await;
 - (_Bool);
 - (void)tÑ4;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOGuideLocation *guideLocation;
-@property(readonly, nonatomic) NSString *imageTemplateURL;
 
 @end
 

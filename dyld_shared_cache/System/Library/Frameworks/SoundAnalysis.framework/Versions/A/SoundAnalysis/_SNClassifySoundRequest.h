@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SNTimeDurationConstraint;
-
 @interface _SNClassifySoundRequest
 {
     id impl;
@@ -22,19 +20,15 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
+- (id)ionary. Resetting statistic counts;
+- (_Bool)!;
 - (void);
 - (id);
 - (CDStruct_198678f7);
 - (void)P¿øÿ¿øÿ¨¿øÿÜ¿øÿÀøÿ,ÀøÿhÀøÿ¬ÀøÿÐÀøÿÁøÿ0ÁøÿTÁøÿÁøÿÔÁøÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSArray *knownClassifications;
 @property(nonatomic, readonly) double overlapFactor;
-@property(nonatomic) CDStruct_198678f7 windowDuration;
-@property(nonatomic, readonly) SNTimeDurationConstraint *windowDurationConstraint;
 
 @end
 

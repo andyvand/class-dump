@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPQuickTypeBroker, PSGProactiveTrigger, PSGStructuredInfoSuggestionCache;
+@class PPQuickTypeBroker;
 
 @interface PSGProactiveTriggerHandler
 {
     PPQuickTypeBroker *_broker;
-    PSGStructuredInfoSuggestionCache *_cache;
-    PSGProactiveTrigger *_lastTrigger;
 }
 
-+ (_Bool);
++ (_Bool)=;
 + (_Bool);
 + (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
 - (void);

@@ -6,18 +6,13 @@
 
 #import <UIKitCore/UIBarButtonItem.h>
 
-@class UIView;
-
 __attribute__((visibility("hidden")))
 @interface _UIFloatableBarButtonItem : UIBarButtonItem
 {
     _Bool _floatable;
-    _Bool _floating;
-    UIView *_configuredFloatableView;
-    UIView *_referenceView;
 }
 
-- (id);
+- (id)CEMNetwork8021XBuiltinWirelessDeclaration_Status;
 - (void);
 - (id);
 - (id);
@@ -30,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)xR\;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setConfiguredFloatableView:) UIView *_configuredFloatableView; // @synthesize _configuredFloatableView;
 @property(nonatomic, getter=_isFloatable, setter=_setFloatable:) _Bool _floatable; // @synthesize _floatable;
-@property(nonatomic, getter=_isFloating, setter=_setFloating:) _Bool _floating; // @synthesize _floating;
-@property(retain, nonatomic, setter=_setReferenceView:) UIView *_referenceView; // @synthesize _referenceView;
 
 @end
 

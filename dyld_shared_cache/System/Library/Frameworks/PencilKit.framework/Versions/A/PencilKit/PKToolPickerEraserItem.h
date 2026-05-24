@@ -17,8 +17,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (double);
+- (id)negativeUserFeedbackForPerson: /* Error: Ran out of types for this method. */;
+- (double)tonConfiguration;
 - (id);
 
 // Remaining properties

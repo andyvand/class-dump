@@ -6,22 +6,17 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString, SAUIColor, SAUIImageResource;
+@class SAUIColor;
 
 @interface SAUIButton : SAAceView
 {
 }
 
 + (id);
-+ (id)Ds;
++ (id)bundleIDs;
 
 // Remaining properties
 @property(retain, nonatomic) SAUIColor *backgroundColor;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SAUIImageResource *image;
-@property(copy, nonatomic) NSString *secondaryText;
-@property(copy, nonatomic) NSString *text;
-@property(retain, nonatomic) SAUIColor *textColor;
 
 @end
 

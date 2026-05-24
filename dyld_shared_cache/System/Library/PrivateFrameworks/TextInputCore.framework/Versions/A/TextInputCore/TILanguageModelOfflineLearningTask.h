@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSMutableDictionary, NSSet, NSString, TILanguageModelOfflineLearningHandle;
-@protocol TILinguisticDataSource;
+@class NSMutableDictionary, TILanguageModelOfflineLearningHandle;
 
 __attribute__((visibility("hidden")))
 @interface TILanguageModelOfflineLearningTask
 {
     TILanguageModelOfflineLearningHandle *_handleForLanguageLikelihood;
-    _Bool _cancelled;
-    _Bool _oneTimeTask;
-    NSString *_clientIdentifier;
-    NSMutableDictionary *_handles;
 }
 
-+ (id);
-+ (id);
-- (void);
++ (id)@?0@"NSString"8@16^B24;
++ (id);
+- (void)_synchronizeIfNecessary:(id)arg1;
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)t to the right place.;
+- (id)ion update string:(id)arg1 %@;
+- (_Bool)Utilities currentProcessIsHeard] || _AXSInUnitTestMode();
+- (_Bool)axtty_message_text;
+- (id)ay"8Q16^B24;
+- (id)6^B24;
+- (id)RTTEmergencyCloudRelayNumberKey;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,14 +34,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, nonatomic) id <TILinguisticDataSource> dataSource;
-@property(readonly, nonatomic) NSSet *forwardedMessageSeparators;
-@property(readonly, nonatomic) TILanguageModelOfflineLearningHandle *handleForLanguageLikelihood;
 @property(readonly, nonatomic) NSMutableDictionary *handles; // @synthesize handles=_handles;
-@property(readonly, nonatomic) NSCharacterSet *linePaddingCharacters;
-@property(readonly, nonatomic) _Bool oneTimeTask; // @synthesize oneTimeTask=_oneTimeTask;
 
 @end
 

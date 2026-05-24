@@ -9,7 +9,6 @@
 @interface CKTuple2 : CKTuple
 {
     id _v1;
-    id _v2;
 }
 
 - (id);
@@ -20,13 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (void)Delegate;
+- (void)CKAPSMachServiceConnectionDelegate;
 - (id)l
 ;
 
 // Remaining properties
 @property(retain, nonatomic) id v1; // @synthesize v1=_v1;
-@property(retain, nonatomic) id v2; // @synthesize v2=_v2;
 
 @end
 

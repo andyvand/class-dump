@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MKAppKitExtras)
-- (void);
+- (void)completionBlock;
 - (long long);
 - (void);
 - (void);

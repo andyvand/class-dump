@@ -14,7 +14,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *IPASpeechPhonemes; // @dynamic IPASpeechPhonemes;
-@property(readonly, nonatomic) NSString *xmlDeEscaped;
-@property(readonly, nonatomic) NSString *xmlEscaped;
 @end
 

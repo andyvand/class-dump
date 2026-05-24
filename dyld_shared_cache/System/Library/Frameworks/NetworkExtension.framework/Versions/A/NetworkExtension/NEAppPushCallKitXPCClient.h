@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 @interface NEAppPushCallKitXPCClient
 {
     struct os_unfair_lock_s _lock;
-    int _callKitToken;
-    NSXPCConnection *_connection;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ithObject: /* Error: Ran out of types for this method. */;
+- (void)performSelector:withObject: /* Error: Ran out of types for this method. */;
 
 @end
 

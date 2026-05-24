@@ -5,6 +5,7 @@
 //
 
 @protocol HMDRemoteHomeMessagingManager
+- (void)t;
 - (_Bool)0@ù
 × ;
 @end

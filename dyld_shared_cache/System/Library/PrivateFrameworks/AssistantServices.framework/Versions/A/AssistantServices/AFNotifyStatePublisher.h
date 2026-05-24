@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFNotifyStatePublisher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    char *_name;
-    int _registrationToken;
 }
 
 - (void);
@@ -22,19 +20,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)AssumeAuthenticated;
 - (void);
 - (void)Number",C,N,V_duration;
 - (id)PT;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

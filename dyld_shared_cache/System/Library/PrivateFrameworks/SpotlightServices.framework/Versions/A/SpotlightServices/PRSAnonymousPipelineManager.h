@@ -4,57 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSUserDefaults;
-@protocol OS_dispatch_queue, OS_dispatch_source, SPCustomFeedbackSender;
+@class NSUserDefaults;
 
 @interface PRSAnonymousPipelineManager
 {
     _Bool _isInternalDevice;
-    _Bool _submissionEnabled;
-    NSUserDefaults *_userDefaults;
-    NSString *_lastTopHitQueryString;
-    NSArray *_lastTopHitQueryItems;
-    NSObject<OS_dispatch_source> *_topHitDataCollectionTimer;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <SPCustomFeedbackSender> _delegate;
 }
 
++ (id)32@0:(id *)arg1 8@16^{?=[32{?=SS}]Q}24;
++ (id)"x"d"y"d};
++ (id);
++ (id)setApplicationBundleIdenfier: /* Error: Ran out of types for this method. */;
++ (id)ate:(id)arg1;
++ (id)_wp_urlByRemovingTrackingInformation;
++ (id)_willStartFetchingMetadata;
++ (id)_widthForUsingRegularSize;
++ (id)_thumbnailIfLoaded;
++ (id)_requirePrivateRelayForAllNetworkTraffic;
++ (id)r: /* Error: Ran out of types for this method. */;
++ (id)_maximumNumberOfLines;
++ (_Bool)_loadAndDecodeImage:(id)arg1 constrainedToSize:maximumBytesFromNetwork:completionHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)P;
+- (void);
+- (void)ts:(id)arg1 outputRect:(id)arg2 ];
+- (_Bool)/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Pipeline/NURenderNode+Time.m;
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void)%;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -62,7 +54,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_addMetricForFetchTreatmentTaskError: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -72,18 +64,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)copes;
+- (void)_resolvedFolderScopes;
 - (void)äl;
 - (_Bool)dEventTypes=%@ cardType=%@ linkType=%@ PQA+;
 
 // Remaining properties
-@property(retain, nonatomic) id <SPCustomFeedbackSender> delegate; // @synthesize delegate=_delegate;
-@property _Bool isInternalDevice; // @synthesize isInternalDevice=_isInternalDevice;
-@property(retain, nonatomic) NSArray *lastTopHitQueryItems; // @synthesize lastTopHitQueryItems=_lastTopHitQueryItems;
-@property(retain, nonatomic) NSString *lastTopHitQueryString; // @synthesize lastTopHitQueryString=_lastTopHitQueryString;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool submissionEnabled; // @synthesize submissionEnabled=_submissionEnabled;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *topHitDataCollectionTimer; // @synthesize topHitDataCollectionTimer=_topHitDataCollectionTimer;
 @property(retain) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

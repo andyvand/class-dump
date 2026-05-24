@@ -7,13 +7,10 @@
 @interface NewsFeed.DebugFormatGridView
 {
     id scale;
-    id contentSize;
-    id contentBounds;
-    id gridLayer;
 }
 
 - (id);
-- (void);
+- (void)hive.m;
 - (id)ÿ°1Â0@ù
 × ;
 - (void)¸;

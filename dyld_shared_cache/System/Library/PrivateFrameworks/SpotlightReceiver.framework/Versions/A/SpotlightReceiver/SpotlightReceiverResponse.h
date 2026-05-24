@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, SpotlightReceiverDonation;
+@class SpotlightReceiverDonation;
 
 @interface SpotlightReceiverResponse
 {
     SpotlightReceiverDonation *_donation;
-    NSMutableDictionary *_updates;
-    NSError *_error;
-    long long _status;
 }
 
-- (_Bool);
+- (_Bool)*;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)edMessagePartGUID;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SpotlightReceiverDonation *donation; // @synthesize donation=_donation;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

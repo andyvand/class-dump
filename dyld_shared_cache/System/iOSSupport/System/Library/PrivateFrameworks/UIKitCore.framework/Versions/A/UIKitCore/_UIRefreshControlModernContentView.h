@@ -6,28 +6,17 @@
 
 #import <UIKitCore/_UIRefreshControlContentView.h>
 
-@class UILabel, UIView, _UIRefreshControlModernReplicatorView, _UIRefreshControlSeedView;
-
 __attribute__((visibility("hidden")))
 @interface _UIRefreshControlModernContentView : _UIRefreshControlContentView
 {
     _Bool _animationsAreValid;
-    UIView *_replicatorContainer;
-    _UIRefreshControlModernReplicatorView *_replicatorView;
-    _UIRefreshControlSeedView *_seed;
-    _Bool _hasFinishedRevealing;
-    UILabel *_textLabel;
-    _Bool _areAnimationsValid;
-    _Bool _horizontallyCenteredFramesNeedUpdate;
-    double _currentPopStiffness;
-    double _impactIntensity;
 }
 
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (void);
+- (void)setPayloadAllowDefinitionLookup: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (double);
@@ -35,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void)animateAlongsideTransition:completion: /* Error: Ran out of types for this method. */;
+- (double)_sinfTypeFromPayload: /* Error: Ran out of types for this method. */;
+- (void)_mediaRemoteContentItem;
+- (void)_overlayStorage;
+- (void)ertyTVSeasonEpisodesCount;
 - (void);
 - (void);
 - (void);
@@ -54,13 +43,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
 - (id)tterMenuPanningTransformer"16{CGPoint=dd}24{CGVector=dd}40{CGVector=dd}56;
-- (void)hTrackpadFingerDownCount:(id)arg1 withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
-- (void)ityFromDroppedItem:(double)arg1;
-- (void)Overlay: /* Error: Ran out of types for this method. */;
+- (void)didPointerHoverWithTrackpadFingerDownCount:(id)arg1 withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
+- (void)_setCenterAndVelocityFromDroppedItem:(double)arg1;
+- (void)_primaryColumnWidthForSize:shouldUseOverlay: /* Error: Ran out of types for this method. */;
 - (void)lyRepositionButtons:(long long)arg1;
-- (id)dRemoteKeyboardWindowActivityObserverGesture;
+- (id)_hostedRemoteKeyboardWindowActivityObserverGesture;
 - (void)owProxy:,V_UINSWindowProxy /* Error: Ran out of types for this method. */;
-- (void)taForPath: /* Error: Ran out of types for this method. */;
+- (void)nibDataForPath: /* Error: Ran out of types for this method. */;
 - (void)ä ;
 - (double)Ø£ÑÈUð£ÑÔ(UÄ¤ÑÜ*Uè¤ÑRU¥Ñ]U4¥ÑrUp¥ÑPuUÌ¥ÑÐzUT¦ÑdUh¦ÑÐUÌ§Ñ¸Uì§ÑU¨Ñð¨UH¨Ñd»Ut¨ÑüÅU¤¨ÑüÇUì¨ÑHàU,©ÑðâUl©ÑàïU©ÑøVì©ÑP,V ªÑÄ4VtªÑ8V¬ªÑ·VàªÑü¿VôªÑ¸#W(«Ñ¼OW`«ÑpQWt«ÑphW«Ñü®W «Ñ|äW´¬Ñ¸XÈ­Ñ;
 - (struct CGAffineTransform);
@@ -74,10 +63,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool areAnimationsValid; // @synthesize areAnimationsValid=_areAnimationsValid;
-@property(nonatomic) double currentPopStiffness; // @synthesize currentPopStiffness=_currentPopStiffness;
-@property(nonatomic) _Bool horizontallyCenteredFramesNeedUpdate; // @synthesize horizontallyCenteredFramesNeedUpdate=_horizontallyCenteredFramesNeedUpdate;
-@property(nonatomic) double impactIntensity; // @synthesize impactIntensity=_impactIntensity;
-@property(readonly, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

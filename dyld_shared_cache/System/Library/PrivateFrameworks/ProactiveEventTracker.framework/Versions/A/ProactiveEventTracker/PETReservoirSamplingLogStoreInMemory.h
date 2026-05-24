@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
+@class NSMutableData;
 
 @interface PETReservoirSamplingLogStoreInMemory
 {
@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ID;
 - (CDStruct_39420a03 *);
 - (_Bool);
 - (CDStruct_39420a03 *);
@@ -23,13 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol CGRemotePDFPageProtocol
+- (void)C;
+- (void);
 @end
 

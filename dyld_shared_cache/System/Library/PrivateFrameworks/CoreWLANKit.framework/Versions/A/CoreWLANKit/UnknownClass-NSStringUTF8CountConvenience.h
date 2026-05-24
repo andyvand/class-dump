@@ -6,9 +6,9 @@
 
 @interface UnknownClass (NSStringUTF8CountConvenience)
 + (id);
-+ (id);
++ (id)Ѽ;
 - (id);
-- (_Bool);
+- (_Bool)$;
 - (unsigned long long);
 @end
 

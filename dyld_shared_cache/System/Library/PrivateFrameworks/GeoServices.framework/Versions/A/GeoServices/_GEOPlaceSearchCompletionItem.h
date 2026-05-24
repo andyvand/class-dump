@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCollectionResult, GEODirectionIntent, GEOMapItemIdentifier, GEOMapServiceTraits, GEOPDAutocompleteEntry, GEOPublisherResult, GEOResolvedItem, GEORetainedSearchMetadata, GEOSearchCategory, GEOServerResultScoreMetadata, GEOStyleAttributes, NSArray, NSData, NSString;
-@protocol GEOMapItem;
+@class GEOMapServiceTraits, GEOPDAutocompleteEntry;
 
 __attribute__((visibility("hidden")))
 @interface _GEOPlaceSearchCompletionItem
 {
     GEOMapServiceTraits *_traits;
-    int _entryListIndex;
-    int _entryIndex;
-    GEOPDAutocompleteEntry *_entry;
-    NSArray *_displayLines;
-    NSArray *_lineHighlights;
-    id <GEOMapItem> _mapItem;
-    GEOSearchCategory *_category;
-    GEOCollectionResult *_collectionResult;
-    GEOPublisherResult *_publisherResult;
-    NSArray *_resultRefinements;
 }
 
 - (long long);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id))A;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)__crash_info;
 - (id);
 - (id);
 - (float);
@@ -44,55 +33,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
+- (id)insertNewObjectForEntityForName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchContactsMatchingPredicate: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (void);
+- (void)_MKSelectionAccessoryParentViewController;
 - (_Bool);
 - (id);
-- (id)eSizeRequesters;
+- (id)_freeableSizeRequesters;
 - (id);
 - (void);
 - (int)a15RecordAttributeEE27__shared_ptr_default_deleteIS7_S3_EENS_9allocatorIS3_EEEE;
 
 // Remaining properties
-@property(readonly, nonatomic) long long autocompleteCellType;
-@property(readonly, nonatomic) GEOResolvedItem *clientResolved;
-@property(readonly, nonatomic) GEOCollectionResult *collectionResult;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) GEODirectionIntent *directionIntent;
-@property(readonly, nonatomic) float disambiguationRadiusMeters;
-@property(readonly, nonatomic) NSArray *displayLines; // @synthesize displayLines=_displayLines;
 @property(readonly, nonatomic) GEOPDAutocompleteEntry *entry; // @synthesize entry=_entry;
-@property(readonly, nonatomic) NSData *entryMetadata;
-@property(readonly, nonatomic) long long entryTapBehavior;
-@property(readonly, nonatomic) id <GEOMapItem> geoMapItem;
-@property(readonly, nonatomic) _Bool hasDisambiguationRadiusMeters;
-@property(readonly, nonatomic) _Bool hasQueryAcceleratorAffordanceEnabled;
-@property(readonly, nonatomic) _Bool hasSortPriority;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEOStyleAttributes *iconStyleAttributes;
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
-@property(readonly, nonatomic) NSData *metadata;
-@property(readonly, nonatomic, getter=_placeDataAutocompleteEntry) GEOPDAutocompleteEntry *placeDataAutocompleteEntry;
-@property(readonly, nonatomic) int placeType;
-@property(readonly, nonatomic) GEOPublisherResult *publisherResult;
-@property(readonly, nonatomic) NSString *queryAcceleratorCompletionString;
-@property(readonly, nonatomic) NSArray *resultRefinements;
-@property(readonly, nonatomic) GEORetainedSearchMetadata *retainedSearchMetadata;
-@property(readonly, nonatomic) GEOSearchCategory *searchCategory;
-@property(readonly, nonatomic) GEOServerResultScoreMetadata *serverResultScoreMetadata;
-@property(readonly, nonatomic) long long sortPriority;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type;
 
 @end
 

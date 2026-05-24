@@ -6,46 +6,11 @@
 
 #import <GeoServices/GEOAbstractTicket.h>
 
-@class GEOCategorySearchResultSection, GEODirectionIntent, GEOGuideSummaryLayoutMetadata, GEOMIFAutocompleteRequestParameters, GEOMapItemIdentifier, GEOMapRegion, GEOMapServiceTraits, GEOPDMerchantLookupResult, GEOPDPlaceSummaryLayoutMetadata, GEORelatedSearchSuggestion, GEOResolvedItem, GEOResultRefinementGroup, GEOSearchAutoRedoThreshold, GEOSearchRedoButtonThreshold, GEOSearchSectionList, GEOSearchSessionData, NSArray, NSString;
+@class GEOMapRegion, GEOMapServiceTraits;
 
 @interface GEOAbstractMapServiceTicket : GEOAbstractTicket
 {
     GEOMapRegion *_resultBoundingRegion;
-    _Bool _chainResultSet;
-    NSArray *_relatedSearchSuggestions;
-    NSArray *_browseCategories;
-    GEORelatedSearchSuggestion *_defaultRelatedSuggestion;
-    NSString *_resultSectionHeader;
-    int _searchResultType;
-    NSString *_resultDisplayHeader;
-    NSArray *_displayHeaderSubstitutes;
-    _Bool _shouldEnableRedoSearch;
-    _Bool _shouldAllowManualRedoSearch;
-    GEOResolvedItem *_clientResolvedResult;
-    GEODirectionIntent *_directionIntent;
-    NSArray *_retainedSearchMetadata;
-    NSArray *_searchResultSections;
-    unsigned int _dymSuggestionVisibleTime;
-    _Bool _showDymSuggestionCloseButton;
-    GEOPDMerchantLookupResult *_merchantLookupResult;
-    GEOCategorySearchResultSection *_categorySearchResultSection;
-    NSArray *_relatedEntitySections;
-    NSArray *_collectionResults;
-    NSArray *_publisherResults;
-    NSArray *_dotPlaces;
-    GEOSearchAutoRedoThreshold *_searchAutoRedoThreshold;
-    GEOSearchRedoButtonThreshold *_searchRedoButtonThreshold;
-    GEOPDPlaceSummaryLayoutMetadata *_placeSummaryLayoutMetadata;
-    GEOGuideSummaryLayoutMetadata *_guideSummaryLayoutMetadata;
-    GEOResultRefinementGroup *_resultRefinementGroup;
-    GEOSearchSectionList *_searchSectionList;
-    _Bool _disableAdditionalViewportPadding;
-    int _searchResultViewType;
-    _Bool _enableStructuredRAPAffordance;
-    GEOMapItemIdentifier *_geoMapItemIdentifierForSpotlight;
-    GEOSearchSessionData *_searchSessionData;
-    int _mapDisplayType;
-    GEOMIFAutocompleteRequestParameters *_geoMIFAutocompleteRequestParameters;
 }
 
 - (void);
@@ -62,21 +27,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)_cn_each_reverse: /* Error: Ran out of types for this method. */;
+- (id)_cn_each:untilCancelled: /* Error: Ran out of types for this method. */;
+- (int)_cn_dictionaryRepresentation;
+- (int)_cn_deleteCharactersInSet:options: /* Error: Ran out of types for this method. */;
+- (id)_cn_decodeBase64IgnoringWhitespace;
+- (id)_cn_dataFromHexString: /* Error: Ran out of types for this method. */;
+- (id)_cn_arrayByRotatingRange:by: /* Error: Ran out of types for this method. */;
+- (id)hedValue;
+- (id),N,V_dsid;
+- (id)mber",&,N,V_isClientTCCRegionalAllowedCachedValue;
+- (id)chedValue;
+- (id)_action;
+- (id)le>",&,V_inputToken;
 - (id);
-- (id);
-- (int);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_CNOnEmptyObservable;
 - (id);
 - (_Bool);
 - (id);
@@ -84,9 +49,9 @@
 - (_Bool);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)<";
 - (id);
 - (id);
 - (id);
@@ -103,54 +68,9 @@
 × ;
 - (void);
 - (id)¶ÿKM;
-- (CDStruct_d1a7ebee)ÿ±È;
+- (CDStruct_026435ec)ÿ±È;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *browseCategories; // @synthesize browseCategories=_browseCategories;
-@property(nonatomic) unsigned long long cachePolicy;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) GEOCategorySearchResultSection *categorySearchResultSection; // @synthesize categorySearchResultSection=_categorySearchResultSection;
-@property(readonly, nonatomic, getter=isChainResultSet) _Bool chainResultSet; // @synthesize chainResultSet=_chainResultSet;
-@property(readonly, nonatomic) GEOResolvedItem *clientResolvedResult; // @synthesize clientResolvedResult=_clientResolvedResult;
-@property(readonly, nonatomic) NSArray *collectionResults; // @synthesize collectionResults=_collectionResults;
-@property(readonly, nonatomic) CDStruct_d1a7ebee dataRequestKind;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) GEORelatedSearchSuggestion *defaultRelatedSuggestion; // @synthesize defaultRelatedSuggestion=_defaultRelatedSuggestion;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) GEODirectionIntent *directionIntent; // @synthesize directionIntent=_directionIntent;
-@property(readonly, nonatomic) _Bool disableAdditionalViewportPadding; // @synthesize disableAdditionalViewportPadding=_disableAdditionalViewportPadding;
-@property(readonly, nonatomic) NSArray *displayHeaderSubstitutes; // @synthesize displayHeaderSubstitutes=_displayHeaderSubstitutes;
-@property(readonly, nonatomic) NSArray *dotPlaces; // @synthesize dotPlaces=_dotPlaces;
-@property(readonly, nonatomic) unsigned int dymSuggestionVisibleTime; // @synthesize dymSuggestionVisibleTime=_dymSuggestionVisibleTime;
-@property(readonly, nonatomic) _Bool enableStructuredRAPAffordance; // @synthesize enableStructuredRAPAffordance=_enableStructuredRAPAffordance;
-@property(readonly, nonatomic) GEOMapItemIdentifier *geoMapItemIdentifierForSpotlight; // @synthesize geoMapItemIdentifierForSpotlight=_geoMapItemIdentifierForSpotlight;
-@property(readonly, nonatomic) GEOGuideSummaryLayoutMetadata *guideSummaryLayoutMetadata; // @synthesize guideSummaryLayoutMetadata=_guideSummaryLayoutMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int mapDisplayType; // @synthesize mapDisplayType=_mapDisplayType;
-@property(readonly, nonatomic) GEOPDMerchantLookupResult *merchantLookupResult; // @synthesize merchantLookupResult=_merchantLookupResult;
-@property(readonly, nonatomic) GEOPDPlaceSummaryLayoutMetadata *placeSummaryLayoutMetadata; // @synthesize placeSummaryLayoutMetadata=_placeSummaryLayoutMetadata;
-@property(readonly, nonatomic) NSArray *publisherResults; // @synthesize publisherResults=_publisherResults;
-@property(readonly, nonatomic) NSArray *relatedEntitySections; // @synthesize relatedEntitySections=_relatedEntitySections;
-@property(readonly, nonatomic) NSArray *relatedSearchSuggestions; // @synthesize relatedSearchSuggestions=_relatedSearchSuggestions;
-@property(readonly, nonatomic) GEOMapRegion *resultBoundingRegion; // @synthesize resultBoundingRegion=_resultBoundingRegion;
-@property(readonly, nonatomic) NSString *resultDisplayHeader; // @synthesize resultDisplayHeader=_resultDisplayHeader;
-@property(readonly, nonatomic) GEOResultRefinementGroup *resultRefinementGroup; // @synthesize resultRefinementGroup=_resultRefinementGroup;
-@property(readonly, nonatomic) NSString *resultSectionHeader; // @synthesize resultSectionHeader=_resultSectionHeader;
-@property(readonly, nonatomic) NSArray *retainedSearchMetadata; // @synthesize retainedSearchMetadata=_retainedSearchMetadata;
-@property(readonly, nonatomic) GEOSearchAutoRedoThreshold *searchAutoRedoThreshold; // @synthesize searchAutoRedoThreshold=_searchAutoRedoThreshold;
-@property(readonly, nonatomic) GEOSearchRedoButtonThreshold *searchRedoButtonThreshold; // @synthesize searchRedoButtonThreshold=_searchRedoButtonThreshold;
-@property(readonly, nonatomic) NSArray *searchResultSections; // @synthesize searchResultSections=_searchResultSections;
-@property(readonly, nonatomic) int searchResultType; // @synthesize searchResultType=_searchResultType;
-@property(readonly, nonatomic) int searchResultViewType; // @synthesize searchResultViewType=_searchResultViewType;
-@property(readonly, nonatomic) GEOSearchSectionList *searchSectionList; // @synthesize searchSectionList=_searchSectionList;
-@property(readonly, nonatomic) GEOSearchSessionData *searchSessionData; // @synthesize searchSessionData=_searchSessionData;
-@property(readonly, nonatomic) _Bool shouldAllowManualRedoSearch; // @synthesize shouldAllowManualRedoSearch=_shouldAllowManualRedoSearch;
-@property(readonly, nonatomic) _Bool shouldEnableRedoSearch; // @synthesize shouldEnableRedoSearch=_shouldEnableRedoSearch;
-@property(readonly, nonatomic) _Bool showDymSuggestionCloseButton; // @synthesize showDymSuggestionCloseButton=_showDymSuggestionCloseButton;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

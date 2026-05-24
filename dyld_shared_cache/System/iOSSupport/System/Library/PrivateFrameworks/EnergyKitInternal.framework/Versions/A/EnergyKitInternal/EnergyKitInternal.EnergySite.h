@@ -8,9 +8,6 @@
 {
     id energySiteRecord;
     id notificationCenter;
-    id notificationObserver;
-    id queue;
-    id delegate;
 }
 
 @end

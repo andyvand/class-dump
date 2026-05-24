@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBURLValue;
-
 @interface _INPBAnnouncement
 {
     struct {
         unsigned int endTime:1;
         unsigned int startTime:1;
     } _has;
-    unsigned long long _endTime;
-    NSString *_identifier;
-    NSString *_speechDataTranscription;
-    _INPBURLValue *_speechDataURL;
-    unsigned long long _startTime;
 }
 
 + (_Bool);
@@ -29,42 +22,26 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)4@0:(id)arg1 8@"<GCDevice>"16;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)triggeredByFirstUnlockAt;
+- (void)%{public}s (%{public}s:(id)arg1 %u) [bbh] Combined broken backhaul state for auto-join already determined to be 'not broken', ignoring new LOCAL bbh state;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (_Bool);
-- (void)PBACK_DISLIKED;
-- (_Bool)rchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)TAPBACK_DISLIKED;
+- (_Bool)providePlayShuffledOptionsForPlayMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)uarantine to path %@:(_Bool)arg1 %d;
 - (void)úw;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long endTime; // @synthesize endTime=_endTime;
-@property(nonatomic) _Bool hasEndTime;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasSpeechDataTranscription;
-@property(readonly, nonatomic) _Bool hasSpeechDataURL;
-@property(nonatomic) _Bool hasStartTime;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *speechDataTranscription; // @synthesize speechDataTranscription=_speechDataTranscription;
-@property(retain, nonatomic) _INPBURLValue *speechDataURL; // @synthesize speechDataURL=_speechDataURL;
-@property(nonatomic) unsigned long long startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 
 @end
 

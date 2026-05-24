@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, TMBackupInfo;
+@class NSURL, TMBackupInfo;
 
 @interface TMBackupProxy
 {
     TMBackupInfo *_info;
-    NSURL *_machineStoreURL;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,31 +37,13 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)setUpdatePending:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSDate *dateCompleted;
-@property(readonly) NSDate *dateStarted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSURL *expectedBackupURL;
-@property(readonly) unsigned long long hash;
-@property(readonly) TMBackupInfo *info; // @synthesize info=_info;
-@property(readonly) _Bool isComplete;
-@property(readonly) _Bool isTombstone;
-@property(readonly) unsigned long long kind;
-@property(readonly) NSURL *machineStoreURL; // @synthesize machineStoreURL=_machineStoreURL;
-@property(readonly) unsigned long long maximumFileID;
-@property(readonly) NSString *name;
-@property(readonly) NSURL *rootURL;
-@property(readonly) Class superclass;
 @property(readonly) NSURL *url;
 
 @end

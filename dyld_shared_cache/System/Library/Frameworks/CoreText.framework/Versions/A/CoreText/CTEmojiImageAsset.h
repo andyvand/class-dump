@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray, NSString;
 
 @interface CTEmojiImageAsset
 {
     NSString *contentIdentifier;
-    NSString *shortDescription;
-    NSData *heicData;
-    NSArray *strikes;
 }
 
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,9 +31,6 @@
 - (void)xÿ=yÿf>A;
 
 // Remaining properties
-@property(copy) NSString *contentIdentifier; // @synthesize contentIdentifier;
-@property(copy) NSData *heicData; // @synthesize heicData;
-@property(copy) NSString *shortDescription; // @synthesize shortDescription;
 @property(copy) NSArray *strikes; // @synthesize strikes;
 
 @end

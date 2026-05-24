@@ -7,18 +7,13 @@
 @class NSArray, NSDictionary;
 
 @protocol VTFrameProcessorConfiguration
+- (NSDictionary *);
+
+@optional
+- (long long)Ȇ;
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *destinationPixelBufferAttributes;
 @property(readonly, nonatomic) NSArray *frameSupportedPixelFormats;
-@property(readonly, nonatomic) long long nextFrameCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long previousFrameCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes;
 @end
 

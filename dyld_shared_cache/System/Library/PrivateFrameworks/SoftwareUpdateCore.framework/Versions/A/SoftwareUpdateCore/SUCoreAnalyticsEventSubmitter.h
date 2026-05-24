@@ -4,39 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, SUCoreLog;
-@protocol OS_dispatch_queue;
+@class NSDictionary, NSMutableDictionary;
 
 @interface SUCoreAnalyticsEventSubmitter
 {
     NSMutableDictionary *_events;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    SUCoreLog *_eventSubmitterLogger;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)_showWebCrashBannerAnimated:type: /* Error: Ran out of types for this method. */;
+- (_Bool)TrackingMouseDown,V_trackingMouseDown;
+- (_Bool)PageTestHandler;
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SUCoreLog *eventSubmitterLogger; // @synthesize eventSubmitterLogger=_eventSubmitterLogger;
 @property(readonly, retain, nonatomic) NSDictionary *events;
 
 @end

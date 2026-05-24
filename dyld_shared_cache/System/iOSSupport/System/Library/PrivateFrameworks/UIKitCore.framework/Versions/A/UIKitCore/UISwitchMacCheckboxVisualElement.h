@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ñ[1Â0@ù
 × ;
 - (void)0:(_Bool)arg1 8@"UITableView"16@"<UIDropSession>"24;
-- (void)ion:(id)arg1;
+- (void)_barMetricsForOrientation:(id)arg1;
 - (id)nShapesEnabled:(struct CGRect)arg1;
 - (struct CGSize)mit finished for orientation transaction token:(struct CGSize)arg1 %@;
 - (void)¼þÿíîÿ¢õîÿDðîÿ;
-- (id)cribing_p;
+- (id)So39UIViewSpringAnimationBehaviorDescribing_p;
 - (void)\b;
 - (struct UIEdgeInsets)Ø¸­d;
 

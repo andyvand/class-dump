@@ -9,18 +9,16 @@
 @interface AKFollowUpFactoryImpl
 {
     NSString *_extensionIdentifier;
-    NSString *_representingBundlePath;
-    NSString *_bundleIconName;
 }
 
 - (id);
-- (id);
+- (id)O;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (_Bool);
@@ -34,16 +32,7 @@
 - (void)k;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIconName; // @synthesize bundleIconName=_bundleIconName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *representingBundlePath; // @synthesize representingBundlePath=_representingBundlePath;
-@property(readonly) Class superclass;
 
 @end
 

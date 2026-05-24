@@ -5,5 +5,6 @@
 //
 
 @protocol EQKitLayoutSchemataStackLine
+- (unsigned long long)LOADING_AUDIO_LABEL;
 @end
 

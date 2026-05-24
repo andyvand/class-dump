@@ -5,11 +5,12 @@
 //
 
 @protocol _INPBTimestamp
+- (void)So8ProtocolCSg;
+- (int)DataBudgetName;
+- (_Bool);
+- (long long)ith error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNanos;
-@property(nonatomic) _Bool hasSeconds;
 @property(nonatomic) int nanos;
-@property(nonatomic) long long seconds;
 @end
 

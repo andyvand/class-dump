@@ -10,27 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _UIHIDPathCollection
 {
     NSMutableDictionary *_pathsById;
-    struct CGPoint _position;
-    unsigned int _buttonMask;
-    unsigned long long _machTimestamp;
-    unsigned char _locus;
-    struct __IOHIDEvent *_hidEvent;
-    unsigned int _fallbackContextId;
-    unsigned long long _digitizerSenderID;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (unsigned long long);
-- (unsigned int);
-- (struct __IOHIDEvent *);
+- (id)simulateMessageDeliveryControllerDidFlushCacheForRemoteURI:fromURI:guid: /* Error: Ran out of types for this method. */;
+- (id)simulateDowngradeRequestFromID:(long long)arg1 fromService:toService:expirationDate: /* Error: Ran out of types for this method. */;
+- (id)simulateCloudKitSyncWithSyncState:(id)arg1;
+- (id)fetchCommonCapabilities:fromChatWithGUID:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)existingSOSMessageSimilarToMessage:(id)arg1 matchingService:withinTimeInterval: /* Error: Ran out of types for this method. */;
+- (unsigned int)conversationManager:conversation:participant:addedNotice: /* Error: Ran out of types for this method. */;
+- (unsigned long long)account:chat:style:notifySentMessage:sendTime:isReplicating: /* Error: Ran out of types for this method. */;
+- (unsigned int)IMDCKAccountStatusLoggedInWithInvalidCredentials;
+- (struct __IOHIDEvent *);
 - (void);
 - (unsigned long long);
 - (void);
@@ -40,8 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long digitizerSenderID; // @synthesize digitizerSenderID=_digitizerSenderID;
-@property(nonatomic) unsigned int fallbackContextId; // @synthesize fallbackContextId=_fallbackContextId;
-@property(readonly, nonatomic) unsigned long long pathCount;
 
 @end
 

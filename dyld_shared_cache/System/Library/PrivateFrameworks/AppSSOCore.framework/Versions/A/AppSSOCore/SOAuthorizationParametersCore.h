@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface SOAuthorizationParametersCore
 {
     _Bool _useInternalExtensions;
-    _Bool _cfNetworkInterception;
-    _Bool _showOnCoverScreen;
-    NSString *_identifier;
-    NSString *_operation;
-    NSURL *_url;
-    NSDictionary *_httpHeaders;
-    NSData *_httpBody;
-    NSData *_auditTokenData;
-    long long _responseCode;
-    NSString *_impersonationBundleIdentifier;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)addResourceWithURL:resourceInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (_Bool);
-- (void);
+- (void)q@;
 - (id);
 - (id);
 - (id);
@@ -46,17 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *auditTokenData; // @synthesize auditTokenData=_auditTokenData;
-@property(nonatomic, getter=isCFNetworkInterception) _Bool cfNetworkInterception; // @synthesize cfNetworkInterception=_cfNetworkInterception;
-@property(retain, nonatomic) NSData *httpBody; // @synthesize httpBody=_httpBody;
-@property(retain, nonatomic) NSDictionary *httpHeaders; // @synthesize httpHeaders=_httpHeaders;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *impersonationBundleIdentifier; // @synthesize impersonationBundleIdentifier=_impersonationBundleIdentifier;
-@property(copy, nonatomic) NSString *operation; // @synthesize operation=_operation;
-@property(nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;
-@property(nonatomic, getter=canShowOnCoverScreen) _Bool showOnCoverScreen; // @synthesize showOnCoverScreen=_showOnCoverScreen;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) _Bool useInternalExtensions; // @synthesize useInternalExtensions=_useInternalExtensions;
 
 @end
 

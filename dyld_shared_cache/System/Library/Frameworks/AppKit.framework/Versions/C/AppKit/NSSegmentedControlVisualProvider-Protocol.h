@@ -4,17 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSegmentedCell, NSSegmentedControlBezelConfiguration, NSView;
+@class NSView;
 
 @protocol NSSegmentedControlVisualProvider
+- (_Bool);
+- (void);
+- (_Bool)ed Rect %f - %f - %f - %f;
+- (struct CGSize)RDataClass returned NULL;
+- (struct CGRect)%u;
+- (void)gLNPlv55lerm7FY/kClw;
+- (void)loadState;
+- (void)_limits;
+- (NSView *)extractedSignalsCount;
 - (void)verFilter;
 - (double)service.;
 
 // Remaining properties
-@property(copy) NSSegmentedControlBezelConfiguration *bezelConfiguration;
 @property __weak NSView *controlView;
-@property(copy) NSArray *segmentItemConfigurations;
-@property __weak NSSegmentedCell *segmentedCell;
-@property(readonly) _Bool wantsUpdateLayer;
 @end
 

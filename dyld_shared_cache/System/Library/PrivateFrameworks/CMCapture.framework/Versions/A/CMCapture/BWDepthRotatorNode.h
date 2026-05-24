@@ -9,19 +9,12 @@
 @interface BWDepthRotatorNode : BWNode
 {
     struct opaqueCMFormatDescription *_outputDepthFormatDescription;
-    struct opaqueCMFormatDescription *_outputDYFormatDescription;
-    unsigned int _inputDepthFormat;
-    CDStruct_79c71658 _inputDepthDimensions;
-    int _rotationDegrees;
-    long long _bufferSerialNumber;
-    _Bool _separateDepthComponentsEnabled;
-    _Bool _depthProvidedAsAttachedMedia;
 }
 
 + (void)h connectOutput:gatingNode.appClipCodeOutput toInput:appClipCodeNode.input pipelineStage:pipelineStage] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)ForMasterEntityIds aborting enumeration;
 - (void);
 - (id);
 - (id)to set the audio channel layout with mChannelLayoutTag:%d for AURIO override mode /* Error: Ran out of types for this method. */;

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBFlightDetails, _SFPBSportsDetail, _SFPBWeatherDetails;
+@class NSString;
 
 @interface _SFPBTopic
 {
     int _type;
-    NSString *_query;
-    NSString *_identifier;
-    _SFPBFlightDetails *_flight;
-    _SFPBWeatherDetails *_weather;
-    _SFPBSportsDetail *_sports;
-    unsigned long long _whichDetail;
 }
 
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (id);
@@ -37,26 +31,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)nalBool"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBFlightDetails *flight; // @synthesize flight=_flight;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) _SFPBSportsDetail *sports; // @synthesize sports=_sports;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _SFPBWeatherDetails *weather; // @synthesize weather=_weather;
-@property(readonly, nonatomic) unsigned long long whichDetail; // @synthesize whichDetail=_whichDetail;
 
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptionPositionInternal
 {
     long long unitType;
-    CDUnion_4a99137e x;
-    CDUnion_4a99137e y;
 }
 
 @end

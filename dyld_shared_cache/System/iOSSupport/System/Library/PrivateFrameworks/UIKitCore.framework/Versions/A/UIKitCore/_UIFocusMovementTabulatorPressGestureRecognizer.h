@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)chatsWithHandles:(id)arg1 onService:displayName:originalGroupID:style: /* Error: Ran out of types for this method. */;
+- (void)_checkAndUpdateFilterParamsForFilterExtension;
 - (void);
-- (void);
-- (_Bool)ayoutAttributes:(id)arg1;
+- (_Bool)_transformCellLayoutAttributes:(id)arg1;
 - (void);
 
 // Remaining properties

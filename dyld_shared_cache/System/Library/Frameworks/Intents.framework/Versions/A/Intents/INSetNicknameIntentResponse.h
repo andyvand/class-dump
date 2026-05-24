@@ -6,27 +6,25 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INContactCard, NSString;
-
 @interface INSetNicknameIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)44;
++ (int)preferredFilenameExtension;
++ (long long)metadataForGeneratedThumbnailForURL:(int)arg1 maximumDimension:(int)arg2;
++ (_Bool)ioSurfaceAsyncBlock;
 + (_Bool);
-+ (_Bool);
-- (void);
+- (void)R;
 - (id);
 - (long long);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)sendSettingsDevicesEventForTotalCustomizedControllersCount:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)urned %d;
 - (id);
 - (id);
 - (id);
@@ -34,14 +32,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INContactCard *meCard;
-@property(readonly) Class superclass;
 
 @end
 

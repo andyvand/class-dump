@@ -6,43 +6,18 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPBackgroundColorView, LPCaptionBarAccessoryView, LPCaptionBarButtonView, LPCaptionBarPresentationProperties, LPCaptionBarStyle, LPCollaborationFooterView, LPInlineMediaPlaybackInformation, LPPlayButtonView, LPVerticalTextStackView, NSRegularExpression, NSString;
-@protocol LPTextStyleable, LPTextStyleable><LPSubtitleButtonContainer;
+@class LPCaptionBarStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPCaptionBarView : LPComponentView
 {
     LPCaptionBarStyle *_style;
-    LPCaptionBarPresentationProperties *_presentationProperties;
-    LPComponentView *_leftIconView;
-    LPComponentView *_rightIconView;
-    LPPlayButtonView *_playButton;
-    LPCaptionBarAccessoryView *_leftAccessoryView;
-    LPCaptionBarAccessoryView *_rightAccessoryView;
-    LPCaptionBarButtonView *_buttonView;
-    LPCaptionBarButtonView *_secondaryButtonView;
-    LPComponentView *_leftIconBadgeView;
-    LPComponentView *_rightIconBadgeView;
-    LPBackgroundColorView *_backgroundColorView;
-    LPVerticalTextStackView *_textStackView;
-    LPInlineMediaPlaybackInformation *_inlinePlaybackInformation;
-    _Bool _hasEverBuilt;
-    NSString *_captionType;
-    _Bool _useProgressSpinner;
-    LPCollaborationFooterView *_collaborationFooterView;
-    NSRegularExpression *_emphasizedTextExpression;
-    LPComponentView<LPTextStyleable> *_aboveTopCaptionView;
-    LPComponentView<LPTextStyleable> *_topCaptionView;
-    LPComponentView<LPTextStyleable><LPSubtitleButtonContainer> *_bottomCaptionView;
-    LPComponentView<LPTextStyleable> *_belowBottomCaptionView;
-    struct NSEdgeInsets _textSafeAreaInset;
-    struct NSEdgeInsets _backgroundOutset;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)4;
 - (void);
 - (void);
 - (void);
@@ -57,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -68,10 +43,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
@@ -84,22 +59,6 @@ __attribute__((visibility("hidden")))
 - (void)¼;
 
 // Remaining properties
-@property(retain, nonatomic) LPComponentView<LPTextStyleable> *aboveTopCaptionView; // @synthesize aboveTopCaptionView=_aboveTopCaptionView;
-@property(nonatomic) struct NSEdgeInsets backgroundOutset; // @synthesize backgroundOutset=_backgroundOutset;
-@property(retain, nonatomic) LPComponentView<LPTextStyleable> *belowBottomCaptionView; // @synthesize belowBottomCaptionView=_belowBottomCaptionView;
-@property(retain, nonatomic) LPComponentView<LPTextStyleable><LPSubtitleButtonContainer> *bottomCaptionView; // @synthesize bottomCaptionView=_bottomCaptionView;
-@property(readonly, nonatomic) _Bool captionTextIsTruncated;
-@property(retain, nonatomic) LPCollaborationFooterView *collaborationFooterView; // @synthesize collaborationFooterView=_collaborationFooterView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) struct NSEdgeInsets textSafeAreaInset; // @synthesize textSafeAreaInset=_textSafeAreaInset;
-@property(retain, nonatomic) LPComponentView<LPTextStyleable> *topCaptionView; // @synthesize topCaptionView=_topCaptionView;
 @property(nonatomic) _Bool useProgressSpinner; // @synthesize useProgressSpinner=_useProgressSpinner;
 
 @end

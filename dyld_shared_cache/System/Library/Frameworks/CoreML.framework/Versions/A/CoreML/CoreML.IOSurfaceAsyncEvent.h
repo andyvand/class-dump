@@ -7,7 +7,6 @@
 @interface CoreML.IOSurfaceAsyncEvent
 {
     id sharedEvent;
-    id eventValue;
 }
 
 @end

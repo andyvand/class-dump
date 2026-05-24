@@ -9,42 +9,40 @@
 @interface CKIMDaemonController
 {
     NSArray *_listeners;
-    NSProtocolChecker *_protocol;
 }
 
 + (void);
-+ (id);
-+ (id)nagerDelegate;
++ (id);
++ (id)GalleryImagePlaygroundManagerDelegate;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id)ting;
-- (void)roller:(id)arg1 constrainPrimaryColumnWidthForResizeWidth: /* Error: Ran out of types for this method. */;
+- (void)_splitViewController:(id)arg1 constrainPrimaryColumnWidthForResizeWidth: /* Error: Ran out of types for this method. */;
 - (void)ated. The channel creation failed due to:(id)arg1 %@;
 - (void) ¸;
 - (id)5Mh-;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *listeners; // @synthesize listeners=_listeners;
 @property(retain, nonatomic) NSProtocolChecker *protocol; // @synthesize protocol=_protocol;
 
 @end

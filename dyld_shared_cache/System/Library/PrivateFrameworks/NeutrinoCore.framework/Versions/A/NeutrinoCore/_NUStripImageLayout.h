@@ -9,7 +9,6 @@
 @interface _NUStripImageLayout : NUImageLayout
 {
     long long _stripHeight;
-    long long _stripCount;
 }
 
 - (id);
@@ -18,8 +17,8 @@
 - (id);
 - (CDStruct_996ac03c);
 - (CDStruct_996ac03c);
-- (CDStruct_912cb5d2);
-- (long long);
+- (CDStruct_912cb5d2).dylib;
+- (long long)R#w;
 - (CDStruct_912cb5d2);
 
 @end

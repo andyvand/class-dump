@@ -7,12 +7,11 @@
 @interface PodcastsApplicationStateMonitor
 {
     id applicationState;
-    id listenerTask;
 }
 
 + (id);
 + (id)y_c3$y%4UySo12NSURLSessionCAHGGSo17OS_dispatch_queueCGAVGAD_pGG;
-- (_Bool);
+- (_Bool)g2*?=;
 - (id);
 - (_Bool);
 - (_Bool);

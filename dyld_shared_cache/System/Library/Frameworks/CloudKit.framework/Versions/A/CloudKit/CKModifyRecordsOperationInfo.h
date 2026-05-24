@@ -6,36 +6,19 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @interface CKModifyRecordsOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _atomic;
-    _Bool _shouldOnlySaveAssetContent;
-    _Bool _shouldReportRecordsInFlight;
-    _Bool _originatingFromDaemon;
-    _Bool _markAsParticipantNeedsNewInvitationToken;
-    _Bool _shouldSkipPCSRetryBehavior;
-    _Bool _shouldModifyRecordsInDatabase;
-    _Bool _alwaysFetchPCSFromServer;
-    _Bool _shouldCloneFileInAssetCache;
-    NSArray *_recordsToSave;
-    NSArray *_recordIDsToDelete;
-    NSData *_clientChangeTokenData;
-    long long _savePolicy;
-    NSDictionary *_recordIDsToDeleteToEtags;
-    NSDictionary *_conflictLosersToResolveByRecordID;
-    NSDictionary *_pluginFieldsForRecordDeletesByID;
-    NSDictionary *_assetUUIDToExpectedProperties;
-    NSDictionary *_packageUUIDToExpectedProperties;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
+- (id)!;
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -52,11 +35,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)checkIfItemIsShareableWithItemIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)!;
 - (void);
 - (void);
-- (long long)7NSErrorCSgIeyByyy_;
+- (long long)So19CKServerChangeTokenCSgSbSo7NSErrorCSgIeyByyy_;
 - (void);
 - (void)yÔÿÿG;
 - (void);
@@ -74,24 +57,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysFetchPCSFromServer; // @synthesize alwaysFetchPCSFromServer=_alwaysFetchPCSFromServer;
-@property(copy, nonatomic) NSDictionary *assetUUIDToExpectedProperties; // @synthesize assetUUIDToExpectedProperties=_assetUUIDToExpectedProperties;
-@property(nonatomic) _Bool atomic; // @synthesize atomic=_atomic;
-@property(retain, nonatomic) NSData *clientChangeTokenData; // @synthesize clientChangeTokenData=_clientChangeTokenData;
-@property(retain, nonatomic) NSDictionary *conflictLosersToResolveByRecordID; // @synthesize conflictLosersToResolveByRecordID=_conflictLosersToResolveByRecordID;
-@property(nonatomic) _Bool markAsParticipantNeedsNewInvitationToken; // @synthesize markAsParticipantNeedsNewInvitationToken=_markAsParticipantNeedsNewInvitationToken;
-@property(nonatomic) _Bool originatingFromDaemon; // @synthesize originatingFromDaemon=_originatingFromDaemon;
-@property(copy, nonatomic) NSDictionary *packageUUIDToExpectedProperties; // @synthesize packageUUIDToExpectedProperties=_packageUUIDToExpectedProperties;
-@property(copy, nonatomic) NSDictionary *pluginFieldsForRecordDeletesByID; // @synthesize pluginFieldsForRecordDeletesByID=_pluginFieldsForRecordDeletesByID;
-@property(retain, nonatomic) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
-@property(copy, nonatomic) NSDictionary *recordIDsToDeleteToEtags; // @synthesize recordIDsToDeleteToEtags=_recordIDsToDeleteToEtags;
 @property(retain, nonatomic) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
-@property(nonatomic) long long savePolicy; // @synthesize savePolicy=_savePolicy;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
-@property(nonatomic) _Bool shouldModifyRecordsInDatabase; // @synthesize shouldModifyRecordsInDatabase=_shouldModifyRecordsInDatabase;
-@property(nonatomic) _Bool shouldOnlySaveAssetContent; // @synthesize shouldOnlySaveAssetContent=_shouldOnlySaveAssetContent;
-@property(nonatomic) _Bool shouldReportRecordsInFlight; // @synthesize shouldReportRecordsInFlight=_shouldReportRecordsInFlight;
-@property(nonatomic) _Bool shouldSkipPCSRetryBehavior; // @synthesize shouldSkipPCSRetryBehavior=_shouldSkipPCSRetryBehavior;
 
 @end
 

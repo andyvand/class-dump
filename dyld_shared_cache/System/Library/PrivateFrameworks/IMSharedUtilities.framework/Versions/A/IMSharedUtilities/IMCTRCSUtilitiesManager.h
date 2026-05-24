@@ -12,12 +12,12 @@
 + (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)#])	k F;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -25,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void):path:/System/Library/PrivateFrameworks/SmartReplies.framework/SmartReplies /* Error: Ran out of types for this method. */;
 
 @end

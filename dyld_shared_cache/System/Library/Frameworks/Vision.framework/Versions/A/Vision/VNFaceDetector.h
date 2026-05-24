@@ -6,31 +6,23 @@
 
 #import <Vision/VNDetector.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VNFaceDetector : VNDetector
 {
 }
 
 + (_Bool);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (id);
++ (void)diskIdentifierForDisk:(id)arg1 error: /* Error: Ran out of types for this method. */;
++ (void)LSession:(id)arg1 task:didReceiveChallenge:completionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool)_regulatoryLogger;
++ (id)_TtP8Contacts44CNContactProviderSupportExtensionXPCProtocol_;
 + (void);
 + (Class)Ä°X¨Ì±\;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
-+ (Class);
++ (_Bool);
++ (Class)ActivitySession"40;
 - (id);
 - (id);
-- (id);
+- (id)A;
 
 @end
 

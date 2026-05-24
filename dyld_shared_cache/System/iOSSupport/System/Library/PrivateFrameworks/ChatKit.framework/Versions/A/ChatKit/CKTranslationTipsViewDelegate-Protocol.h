@@ -5,5 +5,7 @@
 //
 
 @protocol CKTranslationTipsViewDelegate
+- (void)ic_copyTitleToGeneralPasteboard;
+- (void)yTextField;
 @end
 

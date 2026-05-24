@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleCloudZone
 {
     _Bool _useAnonymousRequests;
-    NSSet *_modifiedRecordIDsFromLastPull;
-    NSMutableSet *_uncommittedModifiedRecordIDsFromLastPull;
-    NSSet *_watchedRecordIDs;
-    NSArray *_signatureVerificationPublicKeys;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)E<;
 + (_Bool);
 + (_Bool);
 + (unsigned long long);
@@ -36,9 +30,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)initWithRoute:range:desiredElevationModel: /* Error: Ran out of types for this method. */;
+- (id)UpdatedLocation;
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -46,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -54,14 +48,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)lic}@Opening new session;
-- (void)tiveSessionWithCamera;
+- (void)selectedResidentHasActiveSessionWithCamera;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *modifiedRecordIDsFromLastPull; // @synthesize modifiedRecordIDsFromLastPull=_modifiedRecordIDsFromLastPull;
-@property(readonly, nonatomic) NSArray *signatureVerificationPublicKeys; // @synthesize signatureVerificationPublicKeys=_signatureVerificationPublicKeys;
-@property(retain, nonatomic) NSMutableSet *uncommittedModifiedRecordIDsFromLastPull; // @synthesize uncommittedModifiedRecordIDsFromLastPull=_uncommittedModifiedRecordIDsFromLastPull;
 @property(readonly, nonatomic) _Bool useAnonymousRequests; // @synthesize useAnonymousRequests=_useAnonymousRequests;
-@property(readonly, nonatomic) NSSet *watchedRecordIDs; // @synthesize watchedRecordIDs=_watchedRecordIDs;
 
 @end
 

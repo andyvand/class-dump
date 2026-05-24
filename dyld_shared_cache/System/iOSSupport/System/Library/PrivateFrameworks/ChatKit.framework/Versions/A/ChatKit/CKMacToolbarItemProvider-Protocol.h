@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMacToolbarController, CKMacToolbarItem;
+
 @protocol CKMacToolbarItemProvider
+- (CKMacToolbarItem *);
+- (void)initWithTextView:(CKMacToolbarController *)arg1;
+- (void)png for file promise:(CKMacToolbarController *)arg1 %@;
+
+@optional
+- (_Bool)progressIndicatorTrackerStopAnimation;
+- (_Bool)listItemIntentWithIdentity:ordinal:nestedInsideIntent: /* Error: Ran out of types for this method. */;
+- (_Bool)checkForHashtagInEditedRange:ofTextStorage:note:textView:allowAutoExplicitHashtag:isEndingEditing:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChatKit.CKMaterialPlatterView, NSMutableArray, NSMutableDictionary, NSString, UIButton, UIImageView;
-@protocol CKQuickActionButtonAnimationDelegate, CKQuickActionButtonDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CKQuickActionButton
 {
     _Bool _animating;
-    id <CKQuickActionButtonDelegate> _delegate;
-    id <CKQuickActionButtonAnimationDelegate> _animationDelegate;
-    unsigned long long _state;
-    UIButton *_button;
-    UIImageView *_imageView;
-    ChatKit.CKMaterialPlatterView *_backgroundView;
-    NSString *_currentAnimationIdentifier;
-    NSMutableArray *_deferredAnimationIdentifiers;
-    NSMutableDictionary *_deferredConfigurationStates;
-    struct UIEdgeInsets _contentEdgeInsets;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)setEncryptionState: /* Error: Ran out of types for this method. */;
+- (void)_showMovieDuration;
+- (void)_setAttachmentElementEnabled:(id)arg1;
 - (double);
-- (double);
+- (double)o;
+- (id)d;
+- (id)e;
 - (id);
-- (id);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
+- (id)c;
+- (struct UIEdgeInsets)e;
 - (void);
 - (id);
-- (double);
+- (double)awing png for file promise:(unsigned long long)arg1 %@;
+- (void)ActivityStream;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)g;
 - (void);
 - (id);
 - (void);
@@ -54,11 +41,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)AND_N_MORE;
 - (id)ûð!ÜCùÑ°1Â0@ù
 × ;
-- (void)ntifierMap:(unsigned long long)arg1;
-- (_Bool)imation: /* Error: Ran out of types for this method. */;
+- (void)setIdentifierMap:(unsigned long long)arg1;
+- (_Bool)reloadRowsAtIndexPaths:withRowAnimation: /* Error: Ran out of types for this method. */;
 - (id)ndicates collaboration context. Do not stage plugin as text attachment.;
 - (id)%@, data:(id)arg1 %lu;
 - (void)ÿ%;
@@ -67,24 +54,7 @@ __attribute__((visibility("hidden")))
 - (id)}2(0;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
-@property(nonatomic) __weak id <CKQuickActionButtonAnimationDelegate> animationDelegate; // @synthesize animationDelegate=_animationDelegate;
-@property(readonly, nonatomic) ChatKit.CKMaterialPlatterView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;
 @property(nonatomic) struct UIEdgeInsets contentEdgeInsets; // @synthesize contentEdgeInsets=_contentEdgeInsets;
-@property(retain, nonatomic) NSString *currentAnimationIdentifier; // @synthesize currentAnimationIdentifier=_currentAnimationIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableArray *deferredAnimationIdentifiers; // @synthesize deferredAnimationIdentifiers=_deferredAnimationIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *deferredConfigurationStates; // @synthesize deferredConfigurationStates=_deferredConfigurationStates;
-@property(nonatomic) __weak id <CKQuickActionButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

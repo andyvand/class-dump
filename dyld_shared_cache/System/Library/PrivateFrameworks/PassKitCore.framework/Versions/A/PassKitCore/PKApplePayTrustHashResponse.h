@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKApplePayTrustHashResponse : PKAccountWebServiceResponse
 {
     NSString *_referenceIdentifier;
-    NSData *_nonce;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
 @property(readonly, copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
 
 @end

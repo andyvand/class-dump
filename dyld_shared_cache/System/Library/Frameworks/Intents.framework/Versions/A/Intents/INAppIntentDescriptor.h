@@ -6,19 +6,17 @@
 
 #import <Intents/INAppDescriptor.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface INAppIntentDescriptor : INAppDescriptor
 {
     NSString *_intentIdentifier;
-    NSSet *_supportedEntities;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *intentIdentifier; // @synthesize intentIdentifier=_intentIdentifier;
-@property(readonly, nonatomic) NSSet *supportedEntities; // @synthesize supportedEntities=_supportedEntities;
 
 @end
 

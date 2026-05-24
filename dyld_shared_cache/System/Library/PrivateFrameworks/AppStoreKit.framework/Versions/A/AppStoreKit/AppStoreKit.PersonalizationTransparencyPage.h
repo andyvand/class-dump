@@ -7,9 +7,6 @@
 @interface AppStoreKit.PersonalizationTransparencyPage
 {
     id personalizationEnabledPage;
-    id personalizationDisabledPage;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

@@ -7,20 +7,16 @@
 @interface NUMaskProperties
 {
     double _density;
-    CDStruct_d58201db _size;
-    CDStruct_996ac03c _bounds;
 }
 
+- (id);
 - (id);
-- (id);
-- (CDStruct_912cb5d2);
-- (CDStruct_996ac03c);
+- (CDStruct_912cb5d2)=;
+- (CDStruct_996ac03c);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c bounds; // @synthesize bounds=_bounds;
 @property(readonly, nonatomic) double density; // @synthesize density=_density;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
 
 @end
 

@@ -6,15 +6,9 @@
 
 #import <MetalTools/MTLToolsBuffer.h>
 
-@class NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
-
 @interface MTLLegacySVBuffer : MTLToolsBuffer
 {
     unsigned long long _bufferIndex;
-    unsigned long long _offset;
-    unsigned long long _length;
-    void *_descriptorHeap;
 }
 
 - (void);
@@ -30,42 +24,16 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (id)i;
+- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void *);
 - (void);
 - (unsigned long long)) doesn't specify MTLTextureUsageShaderWrite (0x%02lx);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
-@property(retain, nonatomic) id <MTLBuffer> baseObject; // @dynamic baseObject;
-@property(nonatomic) unsigned long long bufferIndex;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(readonly, nonatomic) _Bool isTracked;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long length;
 @property(readonly, nonatomic) unsigned long long offset;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long underlyingGPUAddress;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

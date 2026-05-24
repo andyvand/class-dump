@@ -7,10 +7,6 @@
 @interface NewsFeed.WebEmbedImage
 {
     id identifier;
-    id request;
-    id datastore;
-    id image;
-    id inspection;
 }
 
 @end

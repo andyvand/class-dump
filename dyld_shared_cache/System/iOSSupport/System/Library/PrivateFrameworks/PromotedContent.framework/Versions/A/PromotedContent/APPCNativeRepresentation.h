@@ -11,9 +11,6 @@
 @interface APPCNativeRepresentation : APPCContentRepresentation
 {
     void articleID;
-    void articleTitle;
-    void advertiserName;
-    void campaignData;
 }
 
 - (id);
@@ -24,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *advertiserName;
 @property(nonatomic, readonly) NSString *articleID;
-@property(nonatomic, readonly) NSString *articleTitle;
-@property(nonatomic, readonly) NSString *campaignData;
 
 @end
 

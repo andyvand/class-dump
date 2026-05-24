@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_UIButtonBarButtonVisualProviderIOSAccessibility;
++ (void)UpdatesOnActivationAfterDelay;
 - (void);
 - (_Bool);
 - (void);

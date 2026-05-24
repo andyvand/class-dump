@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSObject, NSString;
+@class NSObject, NSString;
 
 @interface UIDescriptionBuilder
 {
     NSString *_separator;
-    NSObject *_object;
-    NSMutableString *_descriptionString;
 }
 
 + (id);
@@ -18,20 +16,20 @@
 + (id)<@@¼@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ring failed;
+- (id)r@;
+- (id)__MPModelRelationshipGenericArtist__MAPPING_MISSING__;
+- (id)rtistLabel;
+- (id)@;
 - (id);
 - (id)× ;
 - (void)IPlatterClippingView";
 - (id)IViewControllerTransitionConductor"16;
-- (id)set:(id)arg1 forPartWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setOffset:(id)arg1 forPartWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void)inputModeSwitcherVisible;
-- (void)eMediaApplicationStateInheritanceIfNecessary;
-- (id)youtOffsetEdges;
-- (id)lectionForMultipleSelection;
+- (void)enableClientCoreMediaApplicationStateInheritanceIfNecessary;
+- (id)_layoutOffsetEdges;
+- (id)_allowsBandSelectionForMultipleSelection;
 - (id)tedWindowOffset;
 - (id)ewControllerDuringAdaptation;
 - (id)(;
@@ -41,10 +39,7 @@
 - (void)`$n;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableString *descriptionString; // @synthesize descriptionString=_descriptionString;
 @property(nonatomic) NSObject *object; // @synthesize object=_object;
-@property(copy, nonatomic) NSString *separator; // @synthesize separator=_separator;
-@property(readonly, nonatomic) NSString *string;
 
 @end
 

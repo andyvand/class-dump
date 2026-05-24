@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface CNUIMeContactComparisonStrategyUnified
 {
@@ -13,21 +13,14 @@
 
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)";
 - (_Bool);
 - (id);
-- (void)bundleIdentifier:group:options: /* Error: Ran out of types for this method. */;
+- (void)voiceItemWithLabel:targetStringValue:dialRequest:bundleIdentifier:group:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSSet *meContactIdentifiersFound; // @synthesize meContactIdentifiersFound=_meContactIdentifiersFound;
-@property(readonly) Class superclass;
 
 @end
 

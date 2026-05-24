@@ -13,11 +13,11 @@
     TSDCommentStorage *mCommentStorage;
 }
 
-- (id);
+- (id)QueueControllerBehaviorPodcastsIdentifierComponents;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)SKStorefrontCountryCodeDidChangeNotification;
 
 @end
 

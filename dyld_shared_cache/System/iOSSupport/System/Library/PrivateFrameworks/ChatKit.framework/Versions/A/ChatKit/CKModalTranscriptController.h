@@ -6,24 +6,32 @@
 
 #import <ChatKit/CKShareSheetChatController.h>
 
-@class CKChatEagerUploadController, NSMutableArray;
-
 @interface CKModalTranscriptController : CKShareSheetChatController
 {
     _Bool _mimeType;
-    _Bool _forceMMS;
-    _Bool _alreadySetUp;
-    _Bool _cameraSelectionDisabled;
-    _Bool _appearCompleted;
-    int _entryViewInvisible;
-    NSMutableArray *_partsToInsert;
-    NSMutableArray *_typesToInsert;
-    CKChatEagerUploadController *_eagerUploadController;
-    NSMutableArray *_deferredInsertMediaObjectBlocks;
 }
 
+- (id)mutableCopy;
+- (_Bool)convertRectToScreen: /* Error: Ran out of types for this method. */;
+- (void)canInsertInlineAttachmentType:(id)arg1 intoNote:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)authenticationMechanism;
+- (void)addToRunLoop:(_Bool)arg1 forMode: /* Error: Ran out of types for this method. */;
+- (void)_shouldIncludeDefaultFolder;
+- (void)_sharedObjectsNotFromDestinationFolderInSource;
+- (void)idFailFetchingMetadataNotification;
+- (void)ntInSource;
+- (void)N,GisHandwritingRecognitionEnabled;
+- (void)kingResult;
+- (void)Results;
+- (void)archResult;
+- (void)lowercaseString;
+- (void)CPressableAttachmentAccessibilityElement",&,N,V_accessibilityLearnMoreProxyElement;
+- (void)ectionIdentifier",R,N;
+- (void)ipKitCheckRegex;
+- (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,42 +47,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (int)l;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (double);
+- (void)e;
+- (void)};
+- (_Bool)ata:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)mageClassificationSummaryVersion < %d);
+- (_Bool)checklist;
+- (void)ype != %d || SUBQUERY(notes, $n, $n.markedForDeletion != YES).@count > 0);
+- (void)title;
+- (double)d;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)a
+;
+- (void)q
+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -94,15 +85,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool alreadySetUp; // @synthesize alreadySetUp=_alreadySetUp;
-@property(nonatomic) _Bool appearCompleted; // @synthesize appearCompleted=_appearCompleted;
-@property(nonatomic) _Bool cameraSelectionDisabled; // @synthesize cameraSelectionDisabled=_cameraSelectionDisabled;
-@property(retain, nonatomic) NSMutableArray *deferredInsertMediaObjectBlocks; // @synthesize deferredInsertMediaObjectBlocks=_deferredInsertMediaObjectBlocks;
-@property(retain, nonatomic) CKChatEagerUploadController *eagerUploadController; // @synthesize eagerUploadController=_eagerUploadController;
-@property(nonatomic) int entryViewInvisible; // @synthesize entryViewInvisible=_entryViewInvisible;
-@property(nonatomic) _Bool forceMMS; // @synthesize forceMMS=_forceMMS;
-@property(nonatomic) _Bool mimeType; // @synthesize mimeType=_mimeType;
-@property(retain, nonatomic) NSMutableArray *partsToInsert; // @synthesize partsToInsert=_partsToInsert;
-@property(retain, nonatomic) NSMutableArray *typesToInsert; // @synthesize typesToInsert=_typesToInsert;
 
 @end
 

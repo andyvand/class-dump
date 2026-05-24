@@ -11,9 +11,6 @@
 @interface DGDepthEffectOperation : DGOperation
 {
     _Bool _glassesMatteAllowed;
-    NSDictionary *_depthInfo;
-    double _aperture;
-    NSDictionary *_focusRect;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 + (id);
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (_Bool);
@@ -31,18 +28,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)UICore/PhotosPreviewHeaderSlideshowContentViewModel.swift;
 - (id);
 - (double);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double aperture; // @synthesize aperture=_aperture;
-@property(readonly, nonatomic) double defaultAperture;
 @property(copy, nonatomic) NSDictionary *depthInfo; // @synthesize depthInfo=_depthInfo;
-@property(copy, nonatomic) NSDictionary *focusRect; // @synthesize focusRect=_focusRect;
-@property(nonatomic) _Bool glassesMatteAllowed; // @synthesize glassesMatteAllowed=_glassesMatteAllowed;
 
 @end
 

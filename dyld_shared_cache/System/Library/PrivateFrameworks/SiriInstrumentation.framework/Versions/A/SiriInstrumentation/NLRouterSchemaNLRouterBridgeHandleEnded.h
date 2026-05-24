@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaNLRouterBridgeRoutingDecision, NSData;
+@class NLRouterSchemaNLRouterBridgeRoutingDecision;
 
 @interface NLRouterSchemaNLRouterBridgeHandleEnded : SISchemaInstrumentationMessage
 {
     NLRouterSchemaNLRouterBridgeRoutingDecision *_routingDecision;
-    _Bool _hasRoutingDecision;
 }
 
 - (void);
@@ -21,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)brainpoolP224r1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,8 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRoutingDecision; // @synthesize hasRoutingDecision=_hasRoutingDecision;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLRouterSchemaNLRouterBridgeRoutingDecision *routingDecision; // @synthesize routingDecision=_routingDecision;
 
 @end

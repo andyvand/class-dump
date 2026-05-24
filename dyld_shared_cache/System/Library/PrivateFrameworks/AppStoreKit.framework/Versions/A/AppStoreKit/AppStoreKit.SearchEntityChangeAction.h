@@ -9,7 +9,6 @@
 @interface AppStoreKit.SearchEntityChangeAction : AppStoreKit.Action
 {
     id entity;
-    id searchOrigin;
 }
 
 @end

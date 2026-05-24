@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKStrokeSelectionImageConfig, UIImage;
+@class UIImage;
 
 @interface PKStrokeSelectionImage
 {
     UIImage *_image;
-    PKStrokeSelectionImageConfig *_config;
-    PKStrokeSelectionImageConfig *_fullSizeConfig;
-    UIImage *_addImage;
-    UIImage *_mulImage;
 }
 
 - (void);
@@ -22,19 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CSDMCallProvider;
 - (id);
 - (id);
-- (id)rLayerLinedPaper: /* Error: Ran out of types for this method. */;
-- (void)ed: /* Error: Ran out of types for this method. */;
+- (id)linedPaperLayerLinedPaper: /* Error: Ran out of types for this method. */;
+- (void)segmentChanged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *addImage; // @synthesize addImage=_addImage;
-@property(readonly, nonatomic) UIImage *combinedImage;
-@property(readonly, nonatomic) PKStrokeSelectionImageConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) PKStrokeSelectionImageConfig *fullSizeConfig; // @synthesize fullSizeConfig=_fullSizeConfig;
 @property(copy, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIImage *mulImage; // @synthesize mulImage=_mulImage;
 
 @end
 

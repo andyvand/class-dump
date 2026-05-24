@@ -7,11 +7,6 @@
 @interface UIKit._UIGlobalState
 {
     id _storedIsLowPowerModeEnabled;
-    id _storedIsReduceTransparencyEnabled;
-    id _storedIsReduceMotionEnabled;
-    id _storedIsButtonShapesEnabled;
-    id _storedGlassLegibilitySetting;
-    id _$observationRegistrar;
 }
 
 @end

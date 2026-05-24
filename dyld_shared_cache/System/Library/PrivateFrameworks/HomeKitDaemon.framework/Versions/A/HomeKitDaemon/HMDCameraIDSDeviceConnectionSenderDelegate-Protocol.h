@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraIDSDeviceConnectionSenderDelegate
+- (void);
 @end
 

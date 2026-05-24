@@ -5,5 +5,6 @@
 //
 
 @protocol CKTranscriptLegibilityInternalButtonDelegate
+- (void)buttonWithTitle:image:target:action: /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,14 +6,9 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class NSString;
-@protocol MTLDevice;
-
 @interface _MTLResourceViewPool : _MTLObjectWithLabel
 {
     struct MTLResourceID _baseResourceID;
-    unsigned long long _resourceViewCount;
-    id <MTLDevice> _device;
 }
 
 - (id);
@@ -22,20 +17,10 @@
 - (void);
 - (struct MTLResourceID);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct MTLResourceID baseResourceID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceViewCount;
-@property(readonly) Class superclass;
 
 @end
 

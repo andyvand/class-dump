@@ -9,7 +9,6 @@
 @interface AMSUIWebAppearance
 {
     _Bool _clientHandlesDismissability;
-    NSColor *_backgroundColor;
 }
 
 + (id);
@@ -23,17 +22,16 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)e auto asset object for asset selector:(id)arg1 %{public}@ due to error:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void)documentation asset with identifier:(id)arg1 %@, metadata:%@, state:%ld /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);|;
 - (void)URL";
 
 // Remaining properties
 @property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property _Bool clientHandlesDismissability; // @synthesize clientHandlesDismissability=_clientHandlesDismissability;
 
 @end
 

@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor;
-
 @interface UIZoomTransitionOptions
 {
     _Bool __recedesPresentingView;
-    _Bool __popPreemptsPushInSwiftUIEnabled;
-    CDUnknownBlockType _interactiveDismissShouldBegin;
-    CDUnknownBlockType _alignmentRectProvider;
-    UIColor *_dimmingColor;
-    UIBlurEffect *_dimmingVisualEffect;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)scheduler;
+- (void)Block:(_Bool)arg1;
+- (void)forceReloadChatRegistryWithQueryID:(CDUnknownBlockType)arg1;
+- (void)createMessageItemWithInput:(id)arg1;
+- (void)addRetractedPartIndex:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)IMDCKMockRecordKeyZone;
 - (id);
-- (CDUnknownBlockType);
-- (_Bool);
-- (_Bool);
+- (CDUnknownBlockType)d;
+- (_Bool)bit ;
+- (_Bool)not find Aux image transfer with guid %@ while parsing message;
 - (id);
-- (id)ViewControllerColumn:(struct _NSZone *)arg1;
+- (id)canShowSplitViewControllerColumn:(struct _NSZone *)arg1 withSplitViewControllerColumn: /* Error: Ran out of types for this method. */;
 - (void)(Ò=ÿêx;
 - (void)jÛ )_;
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=_popPreemptsPushInSwiftUIEnabled) _Bool _popPreemptsPushInSwiftUIEnabled; // @synthesize _popPreemptsPushInSwiftUIEnabled=__popPreemptsPushInSwiftUIEnabled;
 @property(nonatomic) _Bool _recedesPresentingView; // @synthesize _recedesPresentingView=__recedesPresentingView;
-@property(copy, nonatomic) CDUnknownBlockType alignmentRectProvider; // @synthesize alignmentRectProvider=_alignmentRectProvider;
-@property(retain, nonatomic) UIColor *dimmingColor; // @synthesize dimmingColor=_dimmingColor;
-@property(retain, nonatomic) UIBlurEffect *dimmingVisualEffect; // @synthesize dimmingVisualEffect=_dimmingVisualEffect;
-@property(copy, nonatomic) CDUnknownBlockType interactiveDismissShouldBegin; // @synthesize interactiveDismissShouldBegin=_interactiveDismissShouldBegin;
 
 @end
 

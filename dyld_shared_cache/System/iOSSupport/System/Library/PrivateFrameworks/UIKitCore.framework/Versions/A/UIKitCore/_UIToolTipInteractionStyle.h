@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (id)ce_setBackgroundImage:forState:barMetrics: /* Error: Ran out of types for this method. */;
+- (id)_UIAppearance_setBackgroundImage:forState:barMetrics: /* Error: Ran out of types for this method. */;
 - (id)D1Ô1Ü23L4Ì7:à:\;(<8à<>ü>¸BàD /* Error: Ran out of types for this method. */;
-- (void)llerCSgXwz_Xx;
+- (void)So16UIViewControllerCSgXwz_Xx;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UIToolTipProvider> provider; // @synthesize provider=_provider;

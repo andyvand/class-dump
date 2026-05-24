@@ -11,15 +11,15 @@
 }
 
 + (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool);
+- (void)	�n;
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ncIZ9launchURLRKNS_10shared_ptrIK8RegistryEEPKcE3$_0FvbEEE;
 
 @end
 

@@ -7,38 +7,33 @@
 @interface GEORPFeedbackULongField
 {
     unsigned long long _edited;
-    unsigned long long _original;
-    CDStruct_ccf110de _flags;
 }
 
-+ (_Bool)curacy:(id)arg1;
++ (_Bool)setLastDetectedLocationHorizontalAccuracy:(id)arg1;
 - (void);
-- (void);
+- (void)setSubAdministrativeArea:(_Bool)arg1;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)init_k;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CSSiriInCallEnabledMonitor;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (id)1};
 - (unsigned long long)b1"has_type"b1"read_unknownFields"b1"read_geoIdCandidates"b1"read_center"b1"read_mapRegion"b1"read_placeId"b1"read_worldwide"b1"wrote_anyField"b1};
-- (id)nMatrixs;
+- (id)calibrationMatrixs;
 - (id)<#;
-- (id)BANNER;
+- (id)REMOVE_BANNER;
 
 // Remaining properties
-@property(nonatomic) unsigned long long edited;
-@property(nonatomic) _Bool hasEdited;
 @property(nonatomic) _Bool hasOriginal;
-@property(nonatomic) unsigned long long original;
 
 @end
 

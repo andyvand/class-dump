@@ -6,7 +6,7 @@
 
 #import <NeutrinoCore/NUSetting.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NUEnumSetting : NUSetting
 {
@@ -29,8 +29,6 @@
 - (void)nelMatching"40o^@48;
 
 // Remaining properties
-@property(readonly) NSString *defaultValue;
-@property(readonly) NSString *identityValue;
 @property(readonly) NSArray *values; // @synthesize values=_values;
 
 @end

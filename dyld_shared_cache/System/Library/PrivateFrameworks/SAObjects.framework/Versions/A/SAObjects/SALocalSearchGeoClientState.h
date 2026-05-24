@@ -6,28 +6,27 @@
 
 #import <SAObjects/SAAceClientState.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SALocalSearchGeoClientState : SAAceClientState
 {
 }
 
 + (id);
-+ (id);
++ (id)*;
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)X;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalEnabledTransitMarkets;
-@property(copy, nonatomic) NSString *environment;
 
 @end
 

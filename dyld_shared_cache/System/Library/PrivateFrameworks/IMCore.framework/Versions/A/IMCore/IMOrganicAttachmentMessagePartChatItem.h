@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)ed;
+- (id)] %s:%d setInfo failed for controlInfo type=kVCMediaControlInfoTypePacketSize, for optionalControlInfo=%p in control info=%p for audio. error=%x /* Error: Ran out of types for this method. */;
+- (_Bool):(id)arg1 %d VideoConferenceDefaults:Forced screen capture settings:%dx%d@%dfps /* Error: Ran out of types for this method. */;
+- (id)dx%d %d fps;
 
 @end
 

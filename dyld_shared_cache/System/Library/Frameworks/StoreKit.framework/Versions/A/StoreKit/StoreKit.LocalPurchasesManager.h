@@ -7,7 +7,6 @@
 @interface StoreKit.LocalPurchasesManager
 {
     id $defaultActor;
-    id continuations;
 }
 
 @end

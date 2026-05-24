@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface EKPreviewSection
 {
     NSArray *_events;
-    NSDate *_date;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)H5;
 - (void);
 - (id);
-- (void)ction: /* Error: Ran out of types for this method. */;
+- (void)setViewAvailabilitySection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSArray *events; // @synthesize events=_events;
 
 @end

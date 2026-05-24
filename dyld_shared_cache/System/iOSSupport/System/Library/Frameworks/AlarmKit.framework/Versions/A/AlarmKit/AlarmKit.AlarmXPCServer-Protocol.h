@@ -5,5 +5,6 @@
 //
 
 @protocol AlarmKit.AlarmXPCServer
+- (_Bool);
 @end
 

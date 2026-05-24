@@ -7,9 +7,6 @@
 @interface CKDPUserAvailableQuotaResponse
 {
     unsigned long long _storageAvailableBytes;
-    struct {
-        unsigned int storageAvailableBytes:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -17,9 +14,9 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)t;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)*);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasStorageAvailableBytes;
-@property(nonatomic) unsigned long long storageAvailableBytes; // @synthesize storageAvailableBytes=_storageAvailableBytes;
 
 @end
 

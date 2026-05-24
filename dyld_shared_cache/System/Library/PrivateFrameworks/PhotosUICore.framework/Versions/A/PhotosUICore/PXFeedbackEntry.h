@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface PXFeedbackEntry
 {
     NSDictionary *_feedbackItemDetails;
-    _Bool _alreadyCollected;
-    NSMutableDictionary *_feedbackItemsDict;
-    long long _generalFeedback;
-    NSString *_systemID;
-    NSDate *_timestamp;
-    NSString *_appVersion;
 }
 
 + (id);
@@ -30,7 +24,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool)L;
 - (_Bool);
 - (void);
@@ -47,21 +41,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (id);
-- (void)Type:(id)arg1;
+- (void)setFirstAssetActionResultType:(id)arg1;
 - (void)_selectedSectionIdentifier;
 - (id)Ds Failed;
 - (void))·8ö;
 
 // Remaining properties
-@property(nonatomic) _Bool alreadyCollected; // @synthesize alreadyCollected=_alreadyCollected;
-@property(copy, nonatomic) NSString *appVersion; // @synthesize appVersion=_appVersion;
 @property(retain, nonatomic) NSMutableDictionary *feedbackItemsDict; // @synthesize feedbackItemsDict=_feedbackItemsDict;
-@property(nonatomic) long long generalFeedback; // @synthesize generalFeedback=_generalFeedback;
-@property(copy, nonatomic) NSString *systemID; // @synthesize systemID=_systemID;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NADiffOperation
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *operationDescription;
 @property(readonly, nonatomic) unsigned long long type;
 @end
 

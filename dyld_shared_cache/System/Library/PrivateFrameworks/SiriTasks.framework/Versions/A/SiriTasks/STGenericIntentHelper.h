@@ -5,17 +5,14 @@
 //
 
 @class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol OS_dispatch_queue;
 
 @interface STGenericIntentHelper
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_handlers;
-    NSObject<OS_dispatch_queue> *_siriResponseQueue;
-    NSObject<OS_dispatch_semaphore> *_waitForIntentCompleteSemaphore;
 }
 
-+ (id);
++ (id)harePendingActivation">;
 - (id);
 - (id);
 - (void);
@@ -25,7 +22,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -33,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *handlers; // @synthesize handlers=_handlers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *siriResponseQueue; // @synthesize siriResponseQueue=_siriResponseQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *waitForIntentCompleteSemaphore; // @synthesize waitForIntentCompleteSemaphore=_waitForIntentCompleteSemaphore;
 
 @end
 

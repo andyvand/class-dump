@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSPredicate;
+@class NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface _OSLogPredicateCompiler
 {
     NSPredicate *_compiledPredicate;
-    NSMutableArray *_stack;
 }
 
 + (id);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)CùÑ* 1Â0@ù
 × ;
-- (void)tionary:(id)arg1;
+- (void)initWithDictionary:(id)arg1;
 - (void)%s;
 - (void)zð;
 

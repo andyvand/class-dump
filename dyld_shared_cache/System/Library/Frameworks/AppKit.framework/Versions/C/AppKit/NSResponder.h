@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyValueDependencyInfo, NSPointerArray;
-
 @interface NSResponder
 {
     id _nextResponder;
-    NSKeyValueDependencyInfo *_dependencyInfo;
-    NSPointerArray *_respondersWeAreNextFor;
 }
 
 @end

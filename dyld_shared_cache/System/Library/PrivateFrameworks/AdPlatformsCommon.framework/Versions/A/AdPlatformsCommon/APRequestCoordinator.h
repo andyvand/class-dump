@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APUnfairLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface APRequestCoordinator
 {
     NSMutableDictionary *_managerToRetryBoxMap;
-    APUnfairLock *_lock;
 }
 
 + (id);
@@ -22,30 +21,29 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)A;
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)C;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) APUnfairLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSMutableDictionary *managerToRetryBoxMap; // @synthesize managerToRetryBoxMap=_managerToRetryBoxMap;
 
 @end

@@ -11,8 +11,6 @@
 @interface _UIFontNameCacheKey : _UIFontCacheKey
 {
     int _traits;
-    NSString *_fontName;
-    double _pointSize;
 }
 
 - (int);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
-@property(nonatomic) int traits; // @synthesize traits=_traits;
 
 @end
 

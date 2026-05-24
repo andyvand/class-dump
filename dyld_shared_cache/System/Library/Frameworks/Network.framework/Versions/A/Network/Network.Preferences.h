@@ -7,27 +7,6 @@
 @interface Network.Preferences
 {
     id debugEnabled;
-    id disableCubic;
-    id forceLEDBAT;
-    id disableCachedRTT;
-    id adaptiveTimeThreshold;
-    id adaptivePacketThreshold;
-    id enableAckFreq;
-    id pacePackets;
-    id disableKernelPacing;
-    id ackCompressionEnabled;
-    id maxPacketReorderThreshold;
-    id ackDefaultPacketThreshold;
-    id migrationVersion;
-    id migrationPTOThreshold;
-    id migrationKeepaliveThreshold;
-    id quiclogDirectory;
-    id initialStreamReceiveSpace;
-    id initialConnectionReceiveSpace;
-    id maxConcurrentStreams;
-    id streamMaxReceiveWindow;
-    id initialMaxData;
-    id initialMaxStreamBidirectionalLocalData;
 }
 
 @end

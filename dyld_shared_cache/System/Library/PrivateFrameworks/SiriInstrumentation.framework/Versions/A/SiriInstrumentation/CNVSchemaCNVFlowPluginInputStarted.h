@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVFlowPluginInputStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)s/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ec/ec_oct.c;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)igationScoreThreshold"b1"tdSpeakerRecognizerCombinedThreshold"b1"userActionTimeThreshold"b1"hasNextTurn"b1"timeDeltaToNextTurnInSec"b1"nextTurnInvocationSource"b1"isNextTurnValid"b1"repetitionSimilarityScore"b1"hasNextRejection"b1"timeDeltaToNextRejectionInSec"b1"hasAppLaunchEvent"b1"timeDeltaToAppLaunchInSec"b1"hasAppIntentEvent"b1"timeDeltaToAppIntentEventInSec"b1"hasTextInputEvent"b1"timeDeltaToTextInputInSec"b1"hasDeviceUnlockEvent"b1"timeDeltaToDeviceUnlockInSec"b1};
-- (id)ENCESchemaINFERENCEResolverConfig;
+- (id)INFERENCESchemaINFERENCEResolverConfig;
 - (id)dòÌó;
 - (_Bool)ü¶Çÿêí¯á$;
 - (_Bool)¸­¦v(;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

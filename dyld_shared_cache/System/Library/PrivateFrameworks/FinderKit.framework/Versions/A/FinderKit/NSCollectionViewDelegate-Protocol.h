@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+@protocol NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
 
 @optional
+- (NSSet *);
+- (id <NSPasteboardWriting>);
 - (_Bool)QLPreviewItem>"16^{CGRect={CGPoint=dd}{CGSize=dd}}24;
 @end
 

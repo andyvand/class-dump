@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPComponentView, LPDownloadProgress, NSArray, UIView;
+@protocol LPAudioPlayer;
+
 @protocol LPComponentViewHost
+- (long long);
+- (_Bool)unreadIndicatorTotalMargins;
+- (long long)unitTestRunner:(LPComponentView *)arg1 runningTestsInBundleAtPath:failedWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)unarchiveConfigurationFromData:(UIView *)arg1 format:error: /* Error: Ran out of types for this method. */;
+- (long long)tuConversationButtonTitleHorizontalSpacing;
+- (long long)transcriptOverlayViewControllerWillAnimateIn:(UIView *)arg1;
+- (double)transcriptDownloadingPendingMessagesViewDefaultSize;
+- (_Bool)transcriptCollectionViewControllerShouldShouldScrollToTopForStatusBarTap:(LPComponentView *)arg1;
+- (NSArray *);
+- (LPDownloadProgress *)transcriptBalloonCell:(LPComponentView *)arg1 allowedLayoutActionForTextBalloonView: /* Error: Ran out of types for this method. */;
+- (void)trailingAccessoryContainerViewWidth;
+- (void)trackingContainerView;
+- (void)trackiMessageJunkEvent:(LPComponentView *)arg1;
+- (id <LPAudioPlayer>)trackedConversations;
+- (long long)trackTranscriptBackgroundChangedIn:(LPComponentView *)arg1 withOutboundBackground:(long long)arg2;
+- (_Bool)toolbar:(UIView *)arg1 itemForItemIdentifier:willBeInsertedIntoToolbar: /* Error: Ran out of types for this method. */;
+- (_Bool)tokenizedQueryResultsForItems:(LPComponentView *)arg1;
+- (_Bool)tableView:(UIView *)arg1 leadingSwipeActionsConfigurationForRowAtIndexPath: /* Error: Ran out of types for this method. */;
 @end
 

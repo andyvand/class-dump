@@ -7,8 +7,6 @@
 @interface AppStoreKit.FastImpressionFlushGate
 {
     id delayToFlush;
-    id scheduledFlushTimer;
-    id onFlush;
 }
 
 @end

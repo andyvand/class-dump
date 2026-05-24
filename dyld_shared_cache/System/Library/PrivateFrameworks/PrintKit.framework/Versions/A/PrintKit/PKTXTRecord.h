@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, NSURL, NSUUID;
+@class NSDictionary;
 
 @interface PKTXTRecord
 {
     NSDictionary *_stringDict;
-    NSMutableDictionary *_seenDict;
 }
 
 + (id);
 + (_Bool);
 - (unsigned long long);
+- (unsigned long long)";
+- (unsigned long long)h;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0@9?;
 - (long long);
 - (long long);
 - (long long);
@@ -32,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,41 +47,18 @@
 - (unsigned long long);
 - (unsigned short);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)?;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id)form-data; name="file"; filename="file.txt"
+;
+- (id)Node;
+- (void)topLevelElement;
 
 // Remaining properties
-@property(readonly) NSUUID *UUID; // @dynamic UUID;
-@property(readonly) NSURL *adminURL; // @dynamic adminURL;
-@property(readonly) NSString *authInfoRequired; // @dynamic authInfoRequired;
-@property(readonly) NSString *location; // @dynamic location;
-@property(readonly) NSString *optionPaperMax; // @dynamic optionPaperMax;
-@property(readonly) long long optionPriority; // @dynamic optionPriority;
-@property(readonly) long long optionPunch; // @dynamic optionPunch;
-@property(readonly) long long optionQueueTotal; // @dynamic optionQueueTotal;
-@property(readonly) NSArray *pageDescriptions; // @dynamic pageDescriptions;
-@property(readonly) NSArray *printerKind; // @dynamic printerKind;
-@property(readonly) NSString *printerProduct; // @dynamic printerProduct;
-@property(readonly) NSString *printerType; // @dynamic printerType;
-@property(readonly) NSString *resourcePath; // @dynamic resourcePath;
-@property(readonly) unsigned long long supportsBind; // @dynamic supportsBind;
-@property(readonly) unsigned long long supportsCollate; // @dynamic supportsCollate;
 @property(readonly) unsigned long long supportsColor; // @dynamic supportsColor;
-@property(readonly) unsigned long long supportsCopies; // @dynamic supportsCopies;
-@property(readonly) unsigned long long supportsDuplex; // @dynamic supportsDuplex;
-@property(readonly) unsigned long long supportsFax; // @dynamic supportsFax;
-@property(readonly) unsigned long long supportsScan; // @dynamic supportsScan;
-@property(readonly) unsigned long long supportsSort; // @dynamic supportsSort;
-@property(readonly) unsigned long long supportsStaple; // @dynamic supportsStaple;
-@property(readonly) unsigned short tlsVersion; // @dynamic tlsVersion;
-@property(readonly) NSArray *urfCapabilities; // @dynamic urfCapabilities;
-@property(readonly) NSString *versionString; // @dynamic versionString;
 
 @end
 

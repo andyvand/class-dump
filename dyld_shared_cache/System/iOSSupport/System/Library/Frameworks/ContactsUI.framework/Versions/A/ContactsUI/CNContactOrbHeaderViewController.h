@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNContactOrbHeaderViewController
 {
     CNContactOrbHeaderView *_headerView;
-    NSArray *_contacts;
 }
 
 - (double);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain, nonatomic) CNContactOrbHeaderView *headerView; // @synthesize headerView=_headerView;
 
 @end
 

@@ -8,28 +8,22 @@ __attribute__((visibility("hidden")))
 @interface MKWhenSizedBlock
 {
     _Bool _shouldRun;
-    long long _type;
-    CDUnknownBlockType _block;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (void)etAllowsGroupOpacity: /* Error: Ran out of types for this method. */;
+- (void)setAllowsGroupOpacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) _Bool shouldRun; // @synthesize shouldRun=_shouldRun;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

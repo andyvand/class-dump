@@ -6,74 +6,53 @@
 
 #import <AppKit/NSView.h>
 
-@class NSBox, NSButton, NSControl, NSCorrectionPanel, NSCorrectionTextFieldContainer, NSImage, NSString;
+@class NSCorrectionTextFieldContainer, NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSCorrectionTextView : NSView
 {
     NSCorrectionTextFieldContainer *correctionTextFieldContainer;
-    _Bool useDefaultStringAttributes;
-    unsigned long long dismissButtonLocation;
-    _Bool mouseDown;
-    NSControl *controlWithMouseDownEvent;
-    NSImage *dismissButtonImage;
-    struct CGPoint textOrigin;
-    NSCorrectionPanel *correctionPanel;
-    NSButton *dismissButton;
-    NSButton *auxiliaryButton;
-    NSBox *buttonSeparator;
-    NSBox *buttonToTextFieldSeparator;
-    long long correctionPanelType;
-    long long correctionPanelSourceType;
-    CDUnknownBlockType auxiliaryButtonHandler;
 }
 
 - (_Bool);
+- (void)2	;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)o;
 - (void);
+- (_Bool)tem_pthread.dylib;
+- (_Bool)stem_trace.dylib;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ondedToWillBeginDelayedRequestCallback;
+- (void)esSustainedDataDelivery;
+- (void),V_reportsDataStalls;
 - (_Bool);
 - (unsigned long long);
+- (long long)5;
 - (long long);
-- (long long);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)ggregateAssetDownloadTask, as remote session is unavailable;
+- (void);
 - (id);
 - (void);
+- (void)NOT NULL,		alternatePort int NOT NULL,		type int NOT NULL,		creation_time int,		expires_time int,		UNIQUE(partition, host, port, type)		);;
 - (void);
+- (double);
+- (void)@;
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)6jh;
 - (void);
 - (_Bool);
-- (id):(struct CGRect)arg1;
+- (id)collectionView:(struct CGRect)arg1 accessibilityLabelForSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDUnknownBlockType auxiliaryButtonHandler; // @synthesize auxiliaryButtonHandler;
 @property(readonly) NSString *correction; // @dynamic correction;
-@property NSCorrectionPanel *correctionPanel; // @synthesize correctionPanel;
-@property long long correctionPanelSourceType; // @synthesize correctionPanelSourceType;
-@property(readonly) long long correctionPanelType; // @synthesize correctionPanelType;
-@property(readonly) unsigned long long dismissButtonLocation; // @synthesize dismissButtonLocation;
-@property(readonly) _Bool hasSelection; // @dynamic hasSelection;
-@property _Bool useDefaultStringAttributes; // @synthesize useDefaultStringAttributes;
 
 @end
 

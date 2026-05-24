@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class),W,N,V_listTemplate;
 + (id);
 - (struct CGPoint);
 - (_Bool);

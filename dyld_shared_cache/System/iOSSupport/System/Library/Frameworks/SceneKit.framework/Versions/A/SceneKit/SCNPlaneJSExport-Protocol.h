@@ -5,14 +5,13 @@
 //
 
 @protocol SCNPlaneJSExport
-- (void)nslationHandleXZ;
+- (void);
+- (double)ze=dd}}24@56@64q72i80B84^{CGContext=}88@96;
+- (void)constraintsWithVisualFormat:(double)arg1 options:metrics:views: /* Error: Ran out of types for this method. */;
+- (double)initWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
+- (void)_planarTranslationHandleXZ;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) long long cornerSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 @end
 

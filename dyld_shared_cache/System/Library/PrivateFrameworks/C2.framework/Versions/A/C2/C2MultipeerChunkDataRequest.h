@@ -9,15 +9,13 @@
 @interface C2MultipeerChunkDataRequest
 {
     _Bool _chunkDataRequested;
-    NSUUID *_requestUUID;
-    CDUnknownBlockType _chunkDataCallback;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)O;
 - (id);
 - (id);
 - (void);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType chunkDataCallback; // @synthesize chunkDataCallback=_chunkDataCallback;
-@property(nonatomic) _Bool chunkDataRequested; // @synthesize chunkDataRequested=_chunkDataRequested;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
 
 @end

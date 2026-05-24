@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)_TtC18AppleMediaServicesP33_53E9BFD2965C81AFBEDE880E2C1BF3BA30AutoBugCaptureCallbackDelegate;
 - (_Bool);
 - (id);
 - (void);

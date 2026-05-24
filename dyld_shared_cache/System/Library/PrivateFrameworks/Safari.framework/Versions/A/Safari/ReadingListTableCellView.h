@@ -7,13 +7,11 @@
 #import <Safari/SidebarTableCellView.h>
 
 @class AnnotatedBookmarksSidebarExpandedTableCellView, NSAttributedString;
-@protocol ReadingListTableCellViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListTableCellView : SidebarTableCellView
 {
     AnnotatedBookmarksSidebarExpandedTableCellView *_readingListItemView;
-    _Bool _showAsOffline;
 }
 
 + (_Bool);
@@ -34,11 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)°;
 
 // Remaining properties
-@property(nonatomic) __weak id <ReadingListTableCellViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) NSAttributedString *itemDomainString;
-@property(readonly, nonatomic) NSAttributedString *itemPreviewTextString;
 @property(readonly, nonatomic) NSAttributedString *itemTitleString;
-@property(nonatomic) _Bool showAsOffline; // @synthesize showAsOffline=_showAsOffline;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class IDSURI, MKFAccountHandleDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFAccount;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFAccountHandle : _MKFModel
@@ -22,27 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFAccount> account; // @dynamic account;
-@property(readonly, copy, nonatomic) MKFAccountHandleDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(retain, nonatomic) IDSURI *idsURI; // @dynamic idsURI;
-@property(copy, nonatomic) NSNumber *local; // @dynamic local;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

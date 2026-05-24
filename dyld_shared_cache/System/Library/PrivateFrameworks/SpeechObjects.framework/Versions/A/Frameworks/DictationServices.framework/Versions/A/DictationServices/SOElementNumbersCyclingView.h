@@ -6,16 +6,12 @@
 
 #import <DictationServices/SO_AXCyclingView.h>
 
-@class NSArray, NSMutableArray, SO_AXElementItemStyleProvider;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SOElementNumbersCyclingView : SO_AXCyclingView
 {
     _Bool _didUpdateItems;
-    SO_AXElementItemStyleProvider *_styleProvider;
-    NSMutableArray *_containers;
-    NSArray *_items;
-    struct CGRect _safeScreenArea;
 }
 
 + (id);
@@ -25,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id)rINS1_21QmiClientProxyAdapterEEENSt3__110shared_ptrIT_EEPS9_EUlPS6_E_;
+- (id)_fringe_HIGHLIGHTS.heic;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -38,10 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *containers; // @synthesize containers=_containers;
-@property(nonatomic) _Bool didUpdateItems; // @synthesize didUpdateItems=_didUpdateItems;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) struct CGRect safeScreenArea; // @synthesize safeScreenArea=_safeScreenArea;
-@property(retain, nonatomic) SO_AXElementItemStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface CoreSuggestionsInternals.TextUnderstandingImporter.EntityBuffer
 {
     id $defaultActor;
-    id store;
-    id entities;
 }
 
 @end

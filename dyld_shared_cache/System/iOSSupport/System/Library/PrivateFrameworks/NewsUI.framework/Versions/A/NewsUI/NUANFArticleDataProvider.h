@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticle, NFEventManager, NSArray, NSString, NUANFAssetLoader, NUANFContextLoader, NUANFFontLoader, NULinkedContentManager;
-@protocol FCContentContext, NUEmbedDataManager, NUFontRegistration, SXHost;
+@class FCArticle, NSString;
 
 @interface NUANFArticleDataProvider
 {
     FCArticle *_article;
-    NSArray *_linkedContentProviders;
-    long long _relativePriority;
-    NSString *_articleID;
-    id <FCContentContext> _contentContext;
-    id <NUFontRegistration> _fontRegistration;
-    id <SXHost> _host;
-    NUANFFontLoader *_fontLoader;
-    NUANFContextLoader *_contextLoader;
-    NUANFAssetLoader *_assetLoader;
-    id <NUEmbedDataManager> _embedDataManger;
-    NFEventManager *_eventManager;
-    NULinkedContentManager *_linkedContentManager;
 }
 
 - (void);
@@ -35,17 +22,17 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void);
+- (void)h;
+- (id)M;
 - (void);
 - (void);
 - (long long);
@@ -53,30 +40,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)DidEndDecelerating: /* Error: Ran out of types for this method. */;
+- (void)!;
+- (id)scrollViewDidEndDecelerating: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCArticle *article; // @synthesize article=_article;
 @property(copy, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(retain, nonatomic) NUANFAssetLoader *assetLoader; // @synthesize assetLoader=_assetLoader;
-@property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(retain, nonatomic) NUANFContextLoader *contextLoader; // @synthesize contextLoader=_contextLoader;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <NUEmbedDataManager> embedDataManger; // @synthesize embedDataManger=_embedDataManger;
-@property(retain, nonatomic) NFEventManager *eventManager; // @synthesize eventManager=_eventManager;
-@property(retain, nonatomic) NUANFFontLoader *fontLoader; // @synthesize fontLoader=_fontLoader;
-@property(readonly, nonatomic) id <NUFontRegistration> fontRegistration; // @synthesize fontRegistration=_fontRegistration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly, nonatomic) NULinkedContentManager *linkedContentManager; // @synthesize linkedContentManager=_linkedContentManager;
-@property(readonly, nonatomic) NSArray *linkedContentProviders; // @synthesize linkedContentProviders=_linkedContentProviders;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(readonly) Class superclass;
 
 @end
 

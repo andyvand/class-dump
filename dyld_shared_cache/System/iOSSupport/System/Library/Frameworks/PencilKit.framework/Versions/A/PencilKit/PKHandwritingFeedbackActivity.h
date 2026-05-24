@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
-
 @interface PKHandwritingFeedbackActivity
 {
     CDUnknownBlockType _block;
-    NSString *_title;
-    UIImage *_image;
 }
 
 - (_Bool);
@@ -23,14 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)!;
 - (id);
 - (void)`*;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

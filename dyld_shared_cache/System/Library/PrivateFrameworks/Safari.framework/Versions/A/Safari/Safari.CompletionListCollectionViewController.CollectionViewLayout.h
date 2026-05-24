@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Safari.CompletionListCollectionViewController;
-
 @interface Safari.CompletionListCollectionViewController.CollectionViewLayout
 {
     void controller;
-    double contentHeight;
-    id itemLayoutAttributesCache;
-    id supplementaryViewLayoutAttributesCache;
-    id metrics;
 }
 
 - (void);
@@ -21,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (struct CGSize)haringServicePickerPlaceholderItem: /* Error: Ran out of types for this method. */;
+- (struct CGSize)sharingServicePickerPlaceholderItem: /* Error: Ran out of types for this method. */;
 - (_Bool)AfDy³f5yASG_A28_ADyÊf5_A28_A28_tGSgtGGATyJf5GG_SSQo_-f5GAQG<Jf5yA21_GG!f5y1f5GG«Df5yEbf5GGæf5GtGG_ôf5Qo_AQGAQGAIGóf5y-]f5ySayì]Þ9GSOaÞ9GGG;
 - (id)= %ld, preventResigningFirstResponder = %@;
 - (void)a;
@@ -32,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize collectionViewContentSize;
-@property(nonatomic) double contentHeight; // @synthesize contentHeight;
-@property(nonatomic) __weak Safari.CompletionListCollectionViewController *controller; // @synthesize controller;
 
 @end
 

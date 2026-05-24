@@ -9,9 +9,6 @@
 @interface MPAVBatteryLevel
 {
     NSNumber *_leftPercentage;
-    NSNumber *_rightPercentage;
-    NSNumber *_singlePercentage;
-    NSNumber *_casePercentage;
 }
 
 - (id);
@@ -21,14 +18,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)+Jk	;
 - (void)rder;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *casePercentage; // @synthesize casePercentage=_casePercentage;
 @property(readonly, nonatomic) NSNumber *leftPercentage; // @synthesize leftPercentage=_leftPercentage;
-@property(readonly, nonatomic) NSNumber *rightPercentage; // @synthesize rightPercentage=_rightPercentage;
-@property(readonly, nonatomic) NSNumber *singlePercentage; // @synthesize singlePercentage=_singlePercentage;
 
 @end
 

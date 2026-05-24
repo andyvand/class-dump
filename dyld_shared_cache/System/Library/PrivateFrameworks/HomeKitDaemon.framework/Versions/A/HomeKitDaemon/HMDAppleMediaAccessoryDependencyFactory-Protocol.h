@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDDeviceController;
+@class HMDAccessorySymptomHandler, HMDDevice, HMDDeviceController;
 
 @protocol HMDAppleMediaAccessoryDependencyFactory
+- (HMDAccessorySymptomHandler *);
 - (HMDDevice *)kMetadataStore",R,D;
 
 // Remaining properties

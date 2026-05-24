@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PLUSSchemaPLUSContactSuggestionHeartbeatReported : SISchemaInstrumentationMessage
 {
@@ -25,15 +25,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)column in recoverable message parts metadata query with index %d;
 - (id);
 - (id);
-- (id);
+- (id)_hasSpeechDetectorContext;
 - (id)ractionMetrics;
 - (void)flowPluginExecutionContext;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *suggestionSummaries; // @synthesize suggestionSummaries=_suggestionSummaries;
 
 @end

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPClientFeedbackHelper, PPRecordMonitoringHelper;
+@class NSString, PPRecordMonitoringHelper;
 
 @interface PPEventStore
 {
     PPRecordMonitoringHelper *_monitoringHelper;
-    PPClientFeedbackHelper *_clientFeedbackHelper;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -25,9 +24,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setAuthenticationManager:(id *)arg1;
+- (_Bool)) doesn't match provided PMV (%@);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void)Sµ;

@@ -5,15 +5,14 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 @interface CalLimitingQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_source;
 }
 
-- (void);
+- (void)[�($;
 - (id);
 - (id);
 - (void);

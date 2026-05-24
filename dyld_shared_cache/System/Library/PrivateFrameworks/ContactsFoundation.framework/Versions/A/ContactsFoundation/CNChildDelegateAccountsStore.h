@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSString;
+@class ACAccount;
 
 @interface CNChildDelegateAccountsStore
 {
     ACAccount *_parentAccount;
-    ACAccountStore *_accountStore;
 }
 
 + (void);
@@ -24,18 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (id)ationSource;
+- (id)_CNLazyArrayFastEnumerationSource;
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) ACAccount *parentAccount; // @synthesize parentAccount=_parentAccount;
-@property(readonly) Class superclass;
 
 @end
 

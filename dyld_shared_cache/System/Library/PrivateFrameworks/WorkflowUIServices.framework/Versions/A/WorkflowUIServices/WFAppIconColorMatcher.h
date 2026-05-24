@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFMatchedAppIconColorData;
+@class NSString;
 
 @interface WFAppIconColorMatcher
 {
     NSString *_bundleIdentifier;
-    WFMatchedAppIconColorData *_cachedColor;
 }
 
 - (id);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)+;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) WFMatchedAppIconColorData *cachedColor; // @synthesize cachedColor=_cachedColor;
 
 @end
 

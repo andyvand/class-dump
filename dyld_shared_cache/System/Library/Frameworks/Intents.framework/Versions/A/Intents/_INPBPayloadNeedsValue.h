@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBPayloadNeedsValue
 {
     struct _has;
-    NSArray *_promptItems;
 }
 
-+ (Class);
++ (Class)setThumbnailServiceProxy: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (unsigned long long);
@@ -27,19 +26,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)data:Identifier not found /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *promptItems; // @synthesize promptItems=_promptItems;
-@property(readonly, nonatomic) unsigned long long promptItemsCount;
-@property(readonly) Class superclass;
 
 @end
 

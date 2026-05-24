@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIClient, TRIExperimentIdentifiers;
-
 @interface TLKTrialManager
 {
     _Bool _snippetModernizationEnabled;
-    _Bool _biggerSuggestionsLayoutEnabled;
-    long long _zkwOverrideValue;
-    TRIExperimentIdentifiers *_experimentIdentifiers;
-    NSString *_namespace;
-    TRIClient *_client;
 }
 
 + (id);
@@ -29,16 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)6;
 - (void);
 
 // Remaining properties
-@property _Bool biggerSuggestionsLayoutEnabled; // @synthesize biggerSuggestionsLayoutEnabled=_biggerSuggestionsLayoutEnabled;
-@property(retain, nonatomic) TRIClient *client; // @synthesize client=_client;
-@property(readonly, nonatomic) TRIExperimentIdentifiers *experimentIdentifiers; // @synthesize experimentIdentifiers=_experimentIdentifiers;
-@property(retain, nonatomic) NSString *namespace; // @synthesize namespace=_namespace;
 @property _Bool snippetModernizationEnabled; // @synthesize snippetModernizationEnabled=_snippetModernizationEnabled;
-@property long long zkwOverrideValue; // @synthesize zkwOverrideValue=_zkwOverrideValue;
 
 @end
 

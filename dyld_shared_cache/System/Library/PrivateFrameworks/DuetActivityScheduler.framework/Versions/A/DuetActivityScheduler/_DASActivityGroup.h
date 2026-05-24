@@ -9,26 +9,24 @@
 @interface _DASActivityGroup
 {
     NSString *_name;
-    unsigned long long _maxConcurrent;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)p�;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long)r: /* Error: Ran out of types for this method. */;
+- (unsigned long long)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxConcurrent; // @synthesize maxConcurrent=_maxConcurrent;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

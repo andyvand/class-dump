@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface AFMultiUserConnection
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    AFInstanceContext *_instanceContext;
 }
 
 + (id)""`#Ô#;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,7 +26,7 @@
 - (void);
 - (oneway void);
 - (void);
-- (void);
+- (void);
 - (oneway void);
 - (void);
 - (oneway void);
@@ -38,11 +35,12 @@
 - (void);
 - (void);
 - (void);
+- (void)g2
+	=;
 - (void);
+- (id)+;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)Url:'%@';  /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

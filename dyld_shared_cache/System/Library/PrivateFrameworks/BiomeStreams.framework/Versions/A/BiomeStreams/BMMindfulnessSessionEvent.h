@@ -6,12 +6,9 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMMindfulnessSessionEvent : BMEventBase
 {
     unsigned long long _sessionType;
-    unsigned long long _stateType;
 }
 
 + (id);
@@ -31,16 +28,7 @@
 - (unsigned long long)ÝÞÿÿàáâãäåç;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long sessionType; // @synthesize sessionType=_sessionType;
-@property(nonatomic) unsigned long long stateType; // @synthesize stateType=_stateType;
-@property(readonly) Class superclass;
 
 @end
 

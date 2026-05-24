@@ -11,12 +11,11 @@
 @interface DMFDeleteUserRequest : DMFTaskRequest
 {
     _Bool _forceDeletion;
-    NSString *_username;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool),;
++ (_Bool)j;
 + (id);
 - (void);
 - (_Bool);
@@ -24,10 +23,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)eftMargin)-[_label]-(>=imageMargin)-[_image(>=minImageSize)]-(rightMargin)-|;
 
 // Remaining properties
-@property(nonatomic) _Bool forceDeletion; // @synthesize forceDeletion=_forceDeletion;
 @property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

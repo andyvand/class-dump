@@ -4,41 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface IMServiceAgent
 {
 }
 
++ (id)itching payloads from payload=%d -> %d %d samplesPerFrame;
++ (void)ansmitter[%p] Requested codec rate mode change:(long long)arg1 mode=%u bandwidth=%u;
++ (long long)n new zip %@ failed with %d;
++ (id)elf=%@ delegate=%@ error=%p;
++ (void)Audio redundancy percentage change due to packet loss:%lf, new threshold:%lf [%d to %d] /* Error: Ran out of types for this method. */;
 + (id);
-+ (void);
-+ (long long);
-+ (id);
-+ (void);
-+ (id);
-+ (id)illData;
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
++ (id)IMAVChatVideoStillData;
+- (unsigned long long)totalTimescaleCount=%d silenceTimescaleCount=%d speechTimescaleCount=%d expandTimescaleCount=%d compressTimescaleCount=%d totaltimescaleRate=%f silenceTimescaleRate=%f speechTimescaleRate=%f;
+- (void)bled=%u became audioClockDeviceEnabled=%u;
+- (void)roperty changed:(id)arg1 audioClockDeviceEnabled=%u became audioClockDeviceEnabled=%u;
+- (id)mGroup:(id)arg1 %@;
+- (unsigned long long)et pause when participant audio is not enabled;
+- (unsigned long long)t already stopped;
+- (unsigned long long)y stopped;
+- (id):%d %@(%p) AVCVideoStream will run %s process /* Error: Ran out of types for this method. */;
+- (id)AVCVideoStream-init (%p);
+- (id)%@;
+- (void)emoveParticipantDidSucceed;
+- (id)L recipe is expired.;
+- (id);
 - (id)ä';
 
 // Remaining properties
-@property(readonly, nonatomic) __weak NSDictionary *currentAVChatInfo;
 @property(retain, nonatomic) NSArray *myAvailableMessages;
-@property(retain, nonatomic) NSArray *myAwayMessages;
-@property(readonly, nonatomic) unsigned long long requestAudioReflectorStart;
-@property(readonly, nonatomic) unsigned long long requestAudioReflectorStop;
-@property(readonly, nonatomic) unsigned long long vcCapabilities;
 
 @end
 

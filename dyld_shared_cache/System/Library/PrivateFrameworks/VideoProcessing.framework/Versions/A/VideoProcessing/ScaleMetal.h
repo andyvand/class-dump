@@ -6,19 +6,11 @@
 
 #import <VideoProcessing/CommonMetal.h>
 
-@class MPSImageBilinearScale, MPSImageLanczosScale, NSDictionary;
-@protocol MTLComputePipelineState;
+@class MPSImageBilinearScale;
 
 @interface ScaleMetal : CommonMetal
 {
     MPSImageBilinearScale *_bilinearKernel;
-    MPSImageLanczosScale *_lanczosKernel;
-    id <MTLComputePipelineState> _bilinearScale;
-    _Bool _supportsNonuniformThreadgroups;
-    struct CF<__CVMetalTextureCache *> _textureCacheLuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheChroma;
-    NSDictionary *_readAttributes;
-    NSDictionary *_writeAttributes;
 }
 
 - (int);

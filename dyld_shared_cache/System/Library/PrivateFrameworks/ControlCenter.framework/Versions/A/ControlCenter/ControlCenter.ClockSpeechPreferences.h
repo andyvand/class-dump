@@ -7,7 +7,6 @@
 @interface ControlCenter.ClockSpeechPreferences
 {
     id preferences;
-    id $__lazy_storage_$_intervals;
 }
 
 - (id);

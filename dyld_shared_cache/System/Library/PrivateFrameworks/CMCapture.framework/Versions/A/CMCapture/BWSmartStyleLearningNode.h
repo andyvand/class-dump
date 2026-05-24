@@ -6,89 +6,25 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWFigCaptureISPProcessingSession, BWVideoFormat, FigCaptureSmartStyle, FigMetalContext, NSData, NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSObject, NSString;
-@protocol CMISmartStyleProcessor, OS_dispatch_queue;
+@class FigCaptureSmartStyle, FigMetalContext;
 
 @interface BWSmartStyleLearningNode : BWNode
 {
     FigMetalContext *_metalContext;
-    Class _smartStyleClass;
-    id <CMISmartStyleProcessor> _smartStyleProcessor;
-    Class _smartStyleProcessorInputOutputClass;
-    NSMutableArray *_inputMasksSampleBufferQueue;
-    struct os_unfair_lock_s _styleUpdateLock;
-    struct os_unfair_lock_s _inputMasksSampleBufferQueueLock;
-    NSMutableArray *_inputStyleContainerSampleBufferQueue;
-    struct os_unfair_lock_s _inputStyleContainerSampleBufferQueueLock;
-    FigCaptureSmartStyle *_initialStyle;
-    struct __CVBuffer *_initialCoefficientsPixelBuffer;
-    struct opaqueCMSampleBuffer *_learnedCoefficientsSampleBuffer;
-    struct __CVBuffer *_identityCoefficientsPixelBuffer;
-    NSMutableDictionary *_currentImageStats;
-    NSMutableDictionary *_currentImageStatsExtended;
-    BWFigCaptureISPProcessingSession *_ispSMGProcessingSession;
-    struct os_unfair_lock_s _semanticStyleSceneLock;
-    int _semanticStyleSceneType;
-    _Bool _propagateMasks;
-    _Bool _preLTMThumbnailFound;
-    CDStruct_1b6d18a9 _previousPTS;
-    _Bool _generateCoefficients;
-    _Bool _generateImageStats;
-    _Bool _runVMRefiner;
-    _Bool _runVMRefinerFPRejection;
-    _Bool _gdcAttachmentsEnabled;
-    _Bool _useHardwareWeightPlane;
-    BWVideoFormat *_anstMaskVideoFormat;
-    NSMutableDictionary *_refinedVideoFormatByAttachedMediaKey;
-    NSMutableDictionary *_processorVideoFormatsByAttachedMediaKeys;
-    NSMutableDictionary *_processorPixelBufferPoolsByAttachedMediaKeys;
-    NSMutableDictionary *_intermediateVideoFormatsByAttachedMediaKeys;
-    NSMutableDictionary *_intermediatePixelBufferPoolsByAttachedMediaKeys;
-    NSDictionary *_cameraInfoByPortType;
-    _Bool _firstFrame;
-    NSString *_lastLearnedPortType;
-    unsigned int _learningRate;
-    unsigned int _learningFramesPerSecondUnit;
-    unsigned int _learningMaxFramesPerSecond;
-    float _statsUpdateDeltaTimeThreshold;
-    float _anstMasksMatchingTimeInSecondsThreshold;
-    struct os_unfair_lock_s _timingLock;
-    float _timeInSecondsUntilNextStatsUpdate;
-    float _timeInSecondsUntilNextLearning;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    struct os_unfair_lock_s _workQueueLock;
-    unsigned int _workQueueRenderCount;
-    unsigned int _workQueueLearnCount;
-    FigCaptureSmartStyle *_smartStyleLearned;
-    NSNumber *_srlCurveParameter;
-    _Bool _smartStyleRenderingRequiredForSRL;
-    NSData *_srlStats;
-    struct CGRect _lastLearnedROI;
-    struct os_unfair_lock_s _mostRecentMasksLock;
-    _Bool _learnedLastFrame;
-    struct opaqueCMSampleBuffer *_mostRecentLearnedPersonMaskSampleBuffer;
-    struct opaqueCMSampleBuffer *_mostRecentLearnedSkinMaskSampleBuffer;
-    struct opaqueCMSampleBuffer *_mostRecentLearnedSkyMaskSampleBuffer;
-    _Bool _bypassStyleEngineForStandardStyle;
-    _Bool _runSrlStatsAndEnableStylesIfNeeded;
-    unsigned int _srlPreviewVersion;
-    _Bool _disableWaitForCoefficientsOnFirstFrame;
-    _Bool _subjectRelightingEnabled;
-    FigCaptureSmartStyle *_smartStyle;
 }
 
-+ (id);
++ (id)t;
 + (void)kerBuffer:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (int);
-- (int);
+- (int) ;
+- (int)T	;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)-;
+- (void)1;
 - (_Bool);
 - (id);
 - (id);
@@ -116,9 +52,9 @@
 - (void);
 - (id);
 - (id);
+- (void)A;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -132,18 +68,7 @@
 - (void)°÷Æÿ4;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *cameraInfoByPortType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableWaitForCoefficientsOnFirstFrame; // @synthesize disableWaitForCoefficientsOnFirstFrame=_disableWaitForCoefficientsOnFirstFrame;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) FigCaptureSmartStyle *smartStyle; // @synthesize smartStyle=_smartStyle;
-@property(readonly, nonatomic) NSNumber *srlCurveParameter; // @synthesize srlCurveParameter=_srlCurveParameter;
-@property(nonatomic) _Bool subjectRelightingEnabled; // @synthesize subjectRelightingEnabled=_subjectRelightingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

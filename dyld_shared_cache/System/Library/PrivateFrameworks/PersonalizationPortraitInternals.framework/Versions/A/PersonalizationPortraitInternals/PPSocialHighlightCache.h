@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PPSQLDatabase, _PASLock;
-@protocol OS_dispatch_queue;
+@class _PASLock;
 
 @interface PPSocialHighlightCache
 {
     _PASLock *_lock;
-    PPSQLDatabase *_db;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
+- (id)L;
 - (id);
 - (void)A¡Ð!@ù÷Ð1Â0@ù
 × ;

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol HMDAccessCodeManagerUtilitiesProtocol
+
+@optional
++ (NSArray *)k;
++ (_Bool);
++ (_Bool)yh;
 @end
 

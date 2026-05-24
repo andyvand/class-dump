@@ -6,7 +6,7 @@
 
 #import <WiFiAnalytics/WADeviceAnalyticsDatedRecord.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface WADeviceAnalyticsDiagnosticStateRecord : WADeviceAnalyticsDatedRecord
 {
@@ -17,9 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *desc; // @dynamic desc;
-@property(nonatomic) _Bool enabled; // @dynamic enabled;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSUUID *uuid; // @dynamic uuid;
 
 @end
 

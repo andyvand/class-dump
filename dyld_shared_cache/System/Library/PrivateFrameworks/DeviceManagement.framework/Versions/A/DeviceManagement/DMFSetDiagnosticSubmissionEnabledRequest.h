@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

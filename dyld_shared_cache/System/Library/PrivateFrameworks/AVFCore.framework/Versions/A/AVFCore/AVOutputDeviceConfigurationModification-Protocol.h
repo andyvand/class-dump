@@ -7,6 +7,11 @@
 @class NSString;
 
 @protocol AVOutputDeviceConfigurationModification
-- (void)meRampDuration:(NSString *)arg1 playImmediately:rateChangeReason:affectsCoordinatedPlayback: /* Error: Ran out of types for this method. */;
+- (void)editDistanceWithRefTokens:hypTokens:caseInsensitive:removeWordSense: /* Error: Ran out of types for this method. */;
+- (void)dominantLanguageForString:(_Bool)arg1;
+- (void)_silenceFramesCountMs;
+- (void)_followedBySpace;
+- (void)UpU;
+- (void)_handleSetRate:(NSString *)arg1 withVolumeRampDuration:playImmediately:rateChangeReason:affectsCoordinatedPlayback: /* Error: Ran out of types for this method. */;
 @end
 

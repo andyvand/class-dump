@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol INPortableImageLoaderHelping;
 
 @interface INPortableImageLoader
@@ -13,9 +12,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)currentMicroGamepad;
+- (id)dictionaryWithDictionary: /* Error: Ran out of types for this method. */;
+- (void)lic}@];
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -24,20 +23,11 @@
 - (id);
 - (id)0@ù
 × ;
-- (void)iggerOptionsCollectionForAddTasks:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideTemporalEventTriggerOptionsCollectionForAddTasks:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) id <INPortableImageLoaderHelping> helper; // @synthesize helper=_helper;
-@property(readonly, nonatomic) NSString *serviceIdentifier;
-@property(readonly, nonatomic) unsigned long long servicePriority;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol _UILumaTrackingBackdropViewDelegate
+- (void);
 @end
 

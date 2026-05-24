@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)8;
 
 // Remaining properties

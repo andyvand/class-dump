@@ -7,17 +7,6 @@
 @interface MediaPlaybackCore.CrossFadePlayerItemTransition
 {
     id identifier;
-    id startQueueItem;
-    id startItem;
-    id endQueueItem;
-    id endItem;
-    id inputParameters;
-    id reporter;
-    id delegate;
-    id expectedDurationAtStart;
-    id setupFailureReason;
-    id fadeOutParameters;
-    id fadeInParameters;
 }
 
 @end

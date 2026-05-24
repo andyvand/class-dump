@@ -6,31 +6,28 @@
 
 #import <NotesShared/ICCryptoStrategyBase.h>
 
-@class ICAccountCryptoStrategyV1, ICAccountCryptoStrategyV1Neo, ICAccountCryptoStrategyV2, ICCloudSyncingObject, ICEncryptionKey, ICEncryptionMetadata, ICEncryptionObject, NSString;
-@protocol ICAccountCryptoStrategy;
+@class ICAccountCryptoStrategyV1;
 
 @interface ICAccountCryptoStrategyProxy : ICCryptoStrategyBase
 {
     ICAccountCryptoStrategyV1 *_v1Strategy;
-    ICAccountCryptoStrategyV1Neo *_v1NeoStrategy;
-    ICAccountCryptoStrategyV2 *_v2Strategy;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)16;
+- (id)0:8@16 /* Error: Ran out of types for this method. */;
+- (id):8@16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)duct subdirectory:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (_Bool);
@@ -50,27 +47,7 @@
 - (void)ìÁ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAuthenticate;
-@property(readonly, nonatomic) id <ICAccountCryptoStrategy> customPasswordStrategy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <ICAccountCryptoStrategy> devicePasswordStrategy;
-@property(readonly, nonatomic) _Bool hasPassphraseSet;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long intrinsicNotesVersion;
-@property(readonly, nonatomic) _Bool isAuthenticated;
-@property(readonly, nonatomic) __weak ICCloudSyncingObject *object;
-@property(readonly, copy, nonatomic) NSString *passphraseHint;
-@property(readonly, nonatomic) ICEncryptionObject *primaryEncryptionObject;
-@property(readonly, nonatomic) ICEncryptionMetadata *primaryMetadata;
-@property(readonly, nonatomic) ICEncryptionKey *primaryWrappedKey;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ICAccountCryptoStrategyV1Neo *v1NeoStrategy; // @synthesize v1NeoStrategy=_v1NeoStrategy;
 @property(readonly, nonatomic) ICAccountCryptoStrategyV1 *v1Strategy; // @synthesize v1Strategy=_v1Strategy;
-@property(readonly, nonatomic) ICAccountCryptoStrategyV2 *v2Strategy; // @synthesize v2Strategy=_v2Strategy;
 
 @end
 

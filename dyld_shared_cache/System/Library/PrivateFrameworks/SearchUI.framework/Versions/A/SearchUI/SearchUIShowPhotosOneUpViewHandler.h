@@ -6,15 +6,11 @@
 
 #import <SearchUI/SearchUICommandHandler.h>
 
-@class PHAsset, SFShowPhotosOneUpViewCommand;
-@protocol NSPasteboardWriting;
+@class PHAsset;
 
 @interface SearchUIShowPhotosOneUpViewHandler : SearchUICommandHandler
 {
     PHAsset *_asset;
-    id <NSPasteboardWriting> _pasteboardItem;
-    SFShowPhotosOneUpViewCommand *_oneUpCommand;
-    SearchUICommandHandler *_openPunchoutHandler;
 }
 
 + (id);
@@ -37,8 +33,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)nosticsMode;
+- (unsigned long long)AXColumnTitles;
 - (id);
 - (void);
 - (id);
@@ -46,9 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) SFShowPhotosOneUpViewCommand *oneUpCommand; // @synthesize oneUpCommand=_oneUpCommand;
-@property(retain, nonatomic) SearchUICommandHandler *openPunchoutHandler; // @synthesize openPunchoutHandler=_openPunchoutHandler;
-@property(retain, nonatomic) id <NSPasteboardWriting> pasteboardItem; // @synthesize pasteboardItem=_pasteboardItem;
 
 @end
 

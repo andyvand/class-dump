@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTDFAState, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CTDFA
 {
     NSMutableDictionary *_CTstates;
-    CTDFAState *_CTstart;
 }
 
 - (_Bool);

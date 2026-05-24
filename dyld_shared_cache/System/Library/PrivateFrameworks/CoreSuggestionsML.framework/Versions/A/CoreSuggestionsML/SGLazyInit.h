@@ -7,12 +7,10 @@
 @interface SGLazyInit
 {
     CDUnknownBlockType _initializer;
-    CDUnknownBlockType _destructor;
-    id _cachedObject;
 }
 
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);

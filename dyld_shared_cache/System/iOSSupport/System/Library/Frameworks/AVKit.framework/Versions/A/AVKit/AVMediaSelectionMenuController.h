@@ -4,37 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIMenu;
+@class UIMenu;
 @protocol AVMediaSelectionMenuDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMediaSelectionMenuController
 {
     UIMenu *_adjustmentsMenu;
-    UIMenu *_audibleOptionsMenu;
-    NSMutableArray *_audibleMediaPresentationSettingsMenus;
-    UIMenu *_audibleMediaPresentationSettingsMenu;
-    UIMenu *_audibleOptionsOverflowMenu;
-    UIMenu *_audioTrackMenu;
-    UIMenu *_enhanceDialogueMenu;
-    UIMenu *_legibleOptionsMenu;
-    _Bool _shouldEnableEnhanceDialogueOptions;
-    _Bool _shouldEnableAudioCustomOptions;
-    NSArray *_audibleOptions;
-    NSArray *_audibleMediaPresentationSelectors;
-    NSArray *_audibleMediaPresentationLanguages;
-    NSArray *_enhanceDialogueOptions;
-    NSArray *_legibleOptions;
-    unsigned long long _currentAudibleOptionIndex;
-    long long _currentEnhanceDialogueOption;
-    unsigned long long _currentLegibleOptionIndex;
-    id <AVMediaSelectionMenuDelegate> _delegate;
-    NSArray *_mediaPresentationSettingChoices;
 }
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool).;
 - (void);
 - (void);
 - (void);
@@ -50,12 +31,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)D;
 - (unsigned long long);
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)2;
 - (id);
 - (id);
 - (id);
@@ -68,21 +49,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *audibleMediaPresentationLanguages; // @synthesize audibleMediaPresentationLanguages=_audibleMediaPresentationLanguages;
-@property(copy, nonatomic) NSArray *audibleMediaPresentationSelectors; // @synthesize audibleMediaPresentationSelectors=_audibleMediaPresentationSelectors;
-@property(copy, nonatomic) NSArray *audibleOptions; // @synthesize audibleOptions=_audibleOptions;
-@property(readonly, nonatomic) UIMenu *audibleOptionsMenu;
-@property(readonly, nonatomic) UIMenu *audibleOptionsOverflowMenu;
-@property(nonatomic) unsigned long long currentAudibleOptionIndex; // @synthesize currentAudibleOptionIndex=_currentAudibleOptionIndex;
-@property(nonatomic) long long currentEnhanceDialogueOption; // @synthesize currentEnhanceDialogueOption=_currentEnhanceDialogueOption;
-@property(nonatomic) unsigned long long currentLegibleOptionIndex; // @synthesize currentLegibleOptionIndex=_currentLegibleOptionIndex;
 @property(nonatomic) __weak id <AVMediaSelectionMenuDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *enhanceDialogueOptions; // @synthesize enhanceDialogueOptions=_enhanceDialogueOptions;
-@property(copy, nonatomic) NSArray *legibleOptions; // @synthesize legibleOptions=_legibleOptions;
-@property(readonly, nonatomic) UIMenu *legibleOptionsMenu;
-@property(copy, nonatomic) NSArray *mediaPresentationSettingChoices; // @synthesize mediaPresentationSettingChoices=_mediaPresentationSettingChoices;
-@property(nonatomic) _Bool shouldEnableAudioCustomOptions; // @synthesize shouldEnableAudioCustomOptions=_shouldEnableAudioCustomOptions;
-@property(nonatomic) _Bool shouldEnableEnhanceDialogueOptions; // @synthesize shouldEnableEnhanceDialogueOptions=_shouldEnableEnhanceDialogueOptions;
 
 @end
 

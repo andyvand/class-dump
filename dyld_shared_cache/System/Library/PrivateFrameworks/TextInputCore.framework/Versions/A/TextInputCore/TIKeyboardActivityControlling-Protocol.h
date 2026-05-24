@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol TIKeyboardActivityObserving;
+
 @protocol TIKeyboardActivityControlling
+- (unsigned long long);
+- (void)user:(id <TIKeyboardActivityObserving>)arg1 %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activityState;

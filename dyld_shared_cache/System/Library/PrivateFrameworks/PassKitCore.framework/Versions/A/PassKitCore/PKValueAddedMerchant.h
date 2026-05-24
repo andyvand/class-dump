@@ -9,21 +9,19 @@
 @interface PKValueAddedMerchant
 {
     NSData *_identifier;
-    long long _timesPresented;
 }
 
-+ (_Bool);
++ (_Bool);
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)cellModelConfidenceLevel;
 - (void);
 - (id);
 - (void)barcode.boarding;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long timesPresented; // @synthesize timesPresented=_timesPresented;
 
 @end
 

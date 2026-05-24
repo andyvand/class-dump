@@ -5,5 +5,8 @@
 //
 
 @protocol WBSFormAutoFillNode
+- (void);
+- (void);
+- (_Bool)JY;
 @end
 

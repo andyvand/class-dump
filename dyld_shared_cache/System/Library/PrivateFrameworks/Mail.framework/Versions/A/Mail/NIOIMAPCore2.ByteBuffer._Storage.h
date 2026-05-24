@@ -7,8 +7,6 @@
 @interface NIOIMAPCore2.ByteBuffer._Storage
 {
     id capacity;
-    id bytes;
-    id allocator;
 }
 
 @end

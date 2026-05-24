@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TRIPBOneofDescriptor
 {
     const char *name_;
-    NSArray *fields_;
-    SEL caseSel_;
 }
 
 - (void);
@@ -18,10 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (id)bleAtIndex: /* Error: Ran out of types for this method. */;
+- (id)getDoubleAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *fields; // @synthesize fields=fields_;
 @property(readonly, nonatomic) NSString *name;
 
 @end

@@ -10,11 +10,10 @@
 @interface MNTimeManager
 {
     GEOObserverHashTable *_timeManagerObservers;
-    id <MNTimeProvider> _provider;
 }
 
 + (double);
-+ (id);
++ (id)current client request as the completion will be called;
 + (id);
 - (void);
 - (void);

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADCountedGraphicFeature
 {
     id mFeature;
-    unsigned long long mUsageCount;
 }
 
 - (unsigned long long);

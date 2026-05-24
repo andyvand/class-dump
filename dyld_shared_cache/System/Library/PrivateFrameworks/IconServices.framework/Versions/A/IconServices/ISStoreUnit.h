@@ -9,20 +9,18 @@
 @interface ISStoreUnit
 {
     NSUUID *_UUID;
-    NSData *_data;
 }
 
++ (id)R;
 + (id);
-+ (id);
-- (void);
+- (void)*';
 - (_Bool);
 - (id);
-- (id);
+- (id)t;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(readonly) NSData *data; // @synthesize data=_data;
 
 @end

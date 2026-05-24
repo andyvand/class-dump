@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTTerminate : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)=;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)1Â0@ù
 × ;
 - (id)ackCompleted;
-- (id)th;
-- (_Bool)aRSSSiriVocabSyncDataDownloadTrigger;
+- (id)FLOWSchemaFLOWTextMessageLength;
+- (_Bool)RSSSchemaRSSSiriVocabSyncDataDownloadTrigger;
 - (_Bool)g­»%;
 - (void)P<;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

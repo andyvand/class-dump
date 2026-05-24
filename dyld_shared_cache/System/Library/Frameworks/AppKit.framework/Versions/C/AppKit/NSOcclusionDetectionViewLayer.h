@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void)e;
+- (id)16@"NSInputStream"24@32;
+- (void)applyQueue;
 
 @end
 

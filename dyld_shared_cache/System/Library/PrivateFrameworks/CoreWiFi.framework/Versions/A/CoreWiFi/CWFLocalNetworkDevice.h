@@ -9,9 +9,6 @@
 @interface CWFLocalNetworkDevice
 {
     NSString *_name;
-    NSSet *_sourceAddresses;
-    NSSet *_serviceNames;
-    NSString *_deviceInfo;
 }
 
 - (void);
@@ -24,14 +21,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void)daryTimer;
+- (void)configure:(id)arg1;
+- (void)__boundaryTimer;
 - (void)0 ´;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSSet *serviceNames; // @synthesize serviceNames=_serviceNames;
 @property(copy, nonatomic) NSSet *sourceAddresses; // @synthesize sourceAddresses=_sourceAddresses;
 
 @end

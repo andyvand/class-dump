@@ -6,18 +6,11 @@
 
 #import <BackgroundTasks/BGTask.h>
 
-@class NSObject, NSProgress, NSString;
-@protocol OS_os_log;
+@class NSProgress, NSString;
 
 @interface BGContinuedProcessingTask : BGTask
 {
     NSProgress *_progress;
-    CDUnknownBlockType _expirationHandlerWithReason;
-    NSString *_title;
-    NSString *_subtitle;
-    NSObject<OS_os_log> *_log;
-    CDUnknownBlockType __progressHandler;
-    CDUnknownBlockType __descriptionUpdateHandler;
 }
 
 - (void);
@@ -28,14 +21,14 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)";
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)updateAllLegacyAccountMigrationStatesInContext:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -43,19 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setDescriptionUpdateHandler:) CDUnknownBlockType _descriptionUpdateHandler; // @synthesize _descriptionUpdateHandler=__descriptionUpdateHandler;
-@property(copy, nonatomic, setter=_setProgressHandler:) CDUnknownBlockType _progressHandler; // @synthesize _progressHandler=__progressHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType expirationHandlerWithReason; // @synthesize expirationHandlerWithReason=_expirationHandlerWithReason;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) NSProgress *progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

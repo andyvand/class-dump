@@ -5,6 +5,13 @@
 //
 
 @protocol TUCallServicesProxyCallActions
-- (oneway void)atingUIIdentifier;
+- (oneway void);
+- (oneway void)@;
+- (oneway void)qA;
+- (oneway void);
+- (oneway void);
+- (oneway void)(	;
+- (oneway void);
+- (oneway void)originatingUIIdentifier;
 @end
 

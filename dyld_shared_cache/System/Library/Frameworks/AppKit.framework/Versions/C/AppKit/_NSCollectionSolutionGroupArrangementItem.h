@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutItem, _NSCollectionLayoutItemSolver;
+@class _NSCollectionLayoutItemSolver;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionSolutionGroupArrangementItem
 {
     _NSCollectionLayoutItemSolver *_solution;
-    struct CGRect _layoutFrame;
 }
 
-- (void);
+- (void)_getCachedContactForHandle:(struct CGRect)arg1;
 - (id);
 - (id);
 - (struct CGRect);
-- (void)ICollectionElementKindSectionHeader;
+- (void)UICollectionElementKindSectionHeader;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSCollectionLayoutItem *item;
 @property(nonatomic) struct CGRect layoutFrame; // @synthesize layoutFrame=_layoutFrame;
-@property(readonly, nonatomic) _NSCollectionLayoutItemSolver *solution; // @synthesize solution=_solution;
 
 @end
 

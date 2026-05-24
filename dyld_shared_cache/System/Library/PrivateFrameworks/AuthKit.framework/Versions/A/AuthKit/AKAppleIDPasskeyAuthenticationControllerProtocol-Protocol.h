@@ -5,5 +5,6 @@
 //
 
 @protocol AKAppleIDPasskeyAuthenticationControllerProtocol
+- (void);
 @end
 

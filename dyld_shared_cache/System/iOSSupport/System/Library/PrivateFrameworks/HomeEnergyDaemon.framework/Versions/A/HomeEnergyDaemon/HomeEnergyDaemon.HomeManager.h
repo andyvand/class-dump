@@ -8,14 +8,10 @@
 {
     id manager;
     id serialQueue;
-    id homeDelegate;
-    id homeManagerDelegate;
-    id helper;
-    id homeRemoveCompleted;
 }
 
 - (void);
-- (id);
+- (id)HUAssociatedSceneAndTriggerModuleController;
 - (void);
 - (void);
 

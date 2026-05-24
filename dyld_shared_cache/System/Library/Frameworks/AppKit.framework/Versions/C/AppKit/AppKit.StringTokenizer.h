@@ -7,10 +7,6 @@
 @interface AppKit.StringTokenizer
 {
     id string;
-    id range;
-    id unit;
-    id locale;
-    id tokenizer;
 }
 
 @end

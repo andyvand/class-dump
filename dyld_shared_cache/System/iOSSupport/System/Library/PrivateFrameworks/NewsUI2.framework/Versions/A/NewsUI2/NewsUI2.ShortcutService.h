@@ -7,13 +7,6 @@
 @interface NewsUI2.ShortcutService
 {
     id lockedObservers;
-    id featureAvailability;
-    id shortcutList;
-    id subscriptionController;
-    id configurationManager;
-    id unsafeOrderedShortcuts;
-    id tagService;
-    id lock;
 }
 
 - (void);

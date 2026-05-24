@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVURLAsset, AVWeakReference, AVWeakReferencingDelegateStorage, NSArray, NSError, NSNumber, NSObject, NSURL;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetDownloadSessionInternal
 {
     AVWeakReference *weakReference;
-    struct OpaqueFigPlayer *player;
-    struct OpaqueFigPlaybackItem *playbackItem;
-    struct OpaqueFigAsset *figAsset;
-    long long assetTypeLoadingStatus;
-    long long status;
-    _Bool didStartLoadingMetadata;
-    NSError *error;
-    AVWeakReferencingDelegateStorage *delegateStorage;
-    NSObject<OS_dispatch_queue> *stateQueue;
-    NSArray *mediaSelections;
-    long long priority;
-    NSURL *URL;
-    NSURL *destinationURL;
-    unsigned long long downloadToken;
-    NSNumber *cachePrimingDownloadTokenNum;
-    AVURLAsset *asset;
-    struct CMBaseObject *assetDownloader;
-    NSObject<OS_dispatch_source> *fileDownloadProgressTimer;
 }
 
 @end

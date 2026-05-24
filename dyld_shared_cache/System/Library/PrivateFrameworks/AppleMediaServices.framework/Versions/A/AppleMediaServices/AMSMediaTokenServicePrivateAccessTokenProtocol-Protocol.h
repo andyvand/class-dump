@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class AMSPromise, NSString;
 
 @protocol AMSMediaTokenServicePrivateAccessTokenProtocol
+- (AMSPromise *)myriadDeviceTrumpDelay;
+- (void);
+- (void)intendedSpatialExperience;
 
 // Remaining properties
 @property(retain) NSString *keychainAccessGroup;

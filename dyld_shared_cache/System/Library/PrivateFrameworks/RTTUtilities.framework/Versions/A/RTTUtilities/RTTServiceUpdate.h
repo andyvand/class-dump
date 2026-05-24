@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface RTTServiceUpdate
 {
     NSString *_serviceUpdateType;
-    NSDictionary *_options;
 }
 
 - (void);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)l�;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSString *serviceUpdateType; // @synthesize serviceUpdateType=_serviceUpdateType;
 
 @end

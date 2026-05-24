@@ -12,8 +12,8 @@
 
 + (id);
 + (id);
-+ (id);
-- (id);
++ (id)thumbnailServiceProxy;
+- (id)__AUTH_CONST;
 - (id);
 
 @end

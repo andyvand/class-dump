@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (void);
 

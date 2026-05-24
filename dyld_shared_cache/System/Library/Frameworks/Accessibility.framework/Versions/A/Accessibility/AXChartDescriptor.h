@@ -4,78 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXNumericDataAxisDescriptor, NSArray, NSAttributedString, NSString, NSUUID;
-@protocol AXDataAxisDescriptor;
+@class NSArray, NSAttributedString;
 
 @interface AXChartDescriptor
 {
     NSAttributedString *_attributedTitle;
-    NSString *_summary;
-    long long _contentDirection;
-    NSArray *_series;
-    id <AXDataAxisDescriptor> _xAxis;
-    AXNumericDataAxisDescriptor *_yAxis;
-    NSArray *_additionalAxes;
-    NSArray *_annotations;
-    NSUUID *_identifier;
-    struct CGRect _contentFrame;
 }
 
+- (id)ustomPath)=%@;
+- (id)%@;
+- (void)ould now unschedule session;
+- (void)ting the timeout; calling code should now unschedule session;
+- (void)%s blocked by dissenter PID=%d (%s) PPID=%d (%s) status=0x%08x (%@);
+- (void)eDisk=%d outError=%d;
+- (void)IsSparse;
+- (id)IsRevertInProgressOrPlanned;
+- (id)@);
+- (id)Combined=%d;
+- (id)ptoOrIncompleteCrypto=%d PasswdReqToUnlock=%d;
+- (id)tVolume=%d;
+- (long long)o get PV as disk regardless of how PV was given;
+- (void)ck to see if CONVERT is in progress;
+- (id)ult, and stop;
+- (void), so report that result and stop;
+- (id)continue probing;
+- (id)e;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)H;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (id)S;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
+- (void)=================r;
+- (id)by a braced, angle-bracketed, or quoted name;
+- (struct CGRect)?-;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalAxes; // @synthesize additionalAxes=_additionalAxes;
 @property(copy, nonatomic) NSArray *annotations; // @synthesize annotations=_annotations;
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(nonatomic) long long contentDirection; // @synthesize contentDirection=_contentDirection;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *series; // @synthesize series=_series;
-@property(copy, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(retain, nonatomic) id <AXDataAxisDescriptor> xAxis; // @synthesize xAxis=_xAxis;
-@property(retain, nonatomic) AXNumericDataAxisDescriptor *yAxis; // @synthesize yAxis=_yAxis;
 
 @end
 

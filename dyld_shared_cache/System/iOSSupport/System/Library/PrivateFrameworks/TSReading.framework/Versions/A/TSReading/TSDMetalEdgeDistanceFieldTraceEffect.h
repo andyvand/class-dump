@@ -4,40 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TSDMetalShader, TSDMetalTextureInfo;
-@protocol TSDAnimationRandomGenerator;
-
 @interface TSDMetalEdgeDistanceFieldTraceEffect
 {
     _Bool _canDraw;
-    _Bool _didTeardown;
-    long long _traceTextureMaxValue;
-    struct CGAffineTransform _textureEdgeInsetsAdjustmentMatrix;
-    NSArray *_strokeLineSegment;
-    struct __CFArray *_zeroesArray;
-    struct CGSize _bufferSize;
-    struct CGRect _viewportRect;
-    struct {
-        CDStruct_95fa7c00 mvpMatrix;
-        struct {
-            id columns[3];
-        } textureMatrix;
-    } _vertexUniforms;
-    struct {
-        float Color__TextureSize__LayerSize__Opacity;
-        float Percent;
-        float DistanceAdjust;
-        float StrokeWidth;
-        float StrokeFadeHardnessLeading;
-        float StrokeFadeHardnessTrailing;
-        int TextureLevels;
-    } _fragmentUniforms;
-    _Bool _isValid;
-    TSDMetalTextureInfo *_edgeDistanceFieldTextureInfo;
-    TSDMetalTextureInfo *_traceTextureInfo;
-    TSDMetalShader *_shader;
-    id <TSDAnimationRandomGenerator> _randomGenerator;
-    struct CGPoint _randomStrokePoint;
 }
 
 + (void);
@@ -47,28 +16,22 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (id);
+- (_Bool)NMPCAssistantXSchemeURLErrorCode;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void)nged;
+- (void);
+- (void)TableModelChanged;
 
 // Remaining properties
-@property(readonly, nonatomic) TSDMetalTextureInfo *edgeDistanceFieldTextureInfo; // @synthesize edgeDistanceFieldTextureInfo=_edgeDistanceFieldTextureInfo;
 @property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly, nonatomic) id <TSDAnimationRandomGenerator> randomGenerator; // @synthesize randomGenerator=_randomGenerator;
-@property(readonly, nonatomic) struct CGPoint randomStrokePoint; // @synthesize randomStrokePoint=_randomStrokePoint;
-@property(readonly, nonatomic) TSDMetalShader *shader; // @synthesize shader=_shader;
-@property(readonly, nonatomic) NSArray *strokeLineSegment; // @synthesize strokeLineSegment=_strokeLineSegment;
-@property(readonly, nonatomic) TSDMetalTextureInfo *traceTextureInfo; // @synthesize traceTextureInfo=_traceTextureInfo;
 
 @end
 

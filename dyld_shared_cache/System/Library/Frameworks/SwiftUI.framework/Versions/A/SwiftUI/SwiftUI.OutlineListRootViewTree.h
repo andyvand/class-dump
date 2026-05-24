@@ -7,10 +7,6 @@
 @interface SwiftUI.OutlineListRootViewTree
 {
     id base;
-    id outlineState;
-    id rowArray;
-    id listAttribute;
-    id childCache;
 }
 
 @end

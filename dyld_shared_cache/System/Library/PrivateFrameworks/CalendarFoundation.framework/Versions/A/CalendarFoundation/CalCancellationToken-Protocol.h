@@ -5,6 +5,7 @@
 //
 
 @protocol CalCancellationToken
+- (_Bool)s doesn't implement -getInfoForManagedApp:(%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCancelled;

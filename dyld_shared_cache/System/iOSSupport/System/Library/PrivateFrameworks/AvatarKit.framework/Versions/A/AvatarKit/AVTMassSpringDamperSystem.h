@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVTMassSpringDamperSystem
 {
     float _mass;
-    float _stiffness;
-    float _damping;
-    float _velocity;
-    _Bool _allowsOverdamping;
-    double w0;
-    double zeta;
-    double wd;
 }
 
 - (void);

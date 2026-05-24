@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface HMIFaceprint
 {
     NSUUID *_UUID;
-    NSData *_data;
-    NSUUID *_modelUUID;
-    NSUUID *_faceCropUUID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)a;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Traits<WebView *>>:(struct _NSZone *)arg1:validateKey(const ValueType &) [Key = WebView *, Value = WebView *, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WebView *>, Traits = WTF::HashTraits<WebView *>, KeyTraits = WTF::HashTraits<WebView *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSUUID *faceCropUUID; // @synthesize faceCropUUID=_faceCropUUID;
-@property(readonly, copy) NSUUID *modelUUID; // @synthesize modelUUID=_modelUUID;
 @property(readonly, getter=isSentinelFaceprint) _Bool sentinelFaceprint;
 
 @end

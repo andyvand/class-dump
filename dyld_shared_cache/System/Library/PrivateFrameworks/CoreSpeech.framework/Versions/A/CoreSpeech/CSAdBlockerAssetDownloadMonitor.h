@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSTrialAssetDownloadMonitor, NSString;
+@class CSTrialAssetDownloadMonitor;
 
 @interface CSAdBlockerAssetDownloadMonitor
 {
     int _notifyToken;
-    unsigned long long _lastUpdatedAssetType;
-    CSTrialAssetDownloadMonitor *_monitor;
 }
 
-+ (id)lume;
++ (id)_latestVolume;
 - (void);
 - (void);
 - (void);
@@ -22,18 +20,11 @@
 - (void);
 - (void);
 - (void);
-- (void)atus:force: /* Error: Ran out of types for this method. */;
+- (void)_transitVoiceTriggerStatus:force: /* Error: Ran out of types for this method. */;
 - (id)I;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CSTrialAssetDownloadMonitor *monitor; // @synthesize monitor=_monitor;
-@property(readonly) Class superclass;
 
 @end
 

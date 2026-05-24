@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMFetchMetadata, REMFetchResultToken;
-
 @interface REMFetchResult
 {
     long long _type;
-    long long _count;
-    NSArray *_requestedObjectIDs;
-    NSArray *_fetchedAccountStorages;
-    NSArray *_fetchedListStorages;
-    NSArray *_fetchedReminderStorages;
-    REMFetchMetadata *_metadata;
-    REMFetchResultToken *_fetchResultToken;
 }
 
 + (_Bool);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
@@ -39,18 +30,11 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)_workQueuePushTimerContext;
 - (void)s 1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(retain, nonatomic) REMFetchResultToken *fetchResultToken; // @synthesize fetchResultToken=_fetchResultToken;
-@property(readonly, nonatomic) NSArray *fetchedAccountStorages; // @synthesize fetchedAccountStorages=_fetchedAccountStorages;
-@property(readonly, nonatomic) NSArray *fetchedListStorages; // @synthesize fetchedListStorages=_fetchedListStorages;
-@property(readonly, nonatomic) NSArray *fetchedReminderStorages; // @synthesize fetchedReminderStorages=_fetchedReminderStorages;
-@property(readonly, nonatomic) REMFetchMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSArray *requestedObjectIDs; // @synthesize requestedObjectIDs=_requestedObjectIDs;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSLifecycleWatchdog;
-@protocol UINSAppLifecycleStateDelegate;
+@class UINSLifecycleWatchdog;
 
 __attribute__((visibility("hidden")))
 @interface UINSAppLifecycleState
 {
     long long _nameOnceToken;
-    NSString *_stateName;
-    long long _stateIdentifier;
-    id <UINSAppLifecycleStateDelegate> _delegate;
-    UINSLifecycleWatchdog *__stateWatchdog;
 }
 
 + (id);
@@ -34,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -49,9 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) UINSLifecycleWatchdog *_stateWatchdog; // @synthesize _stateWatchdog=__stateWatchdog;
-@property __weak id <UINSAppLifecycleStateDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *name;
-@property(readonly) long long stateIdentifier; // @synthesize stateIdentifier=_stateIdentifier;
 
 @end
 

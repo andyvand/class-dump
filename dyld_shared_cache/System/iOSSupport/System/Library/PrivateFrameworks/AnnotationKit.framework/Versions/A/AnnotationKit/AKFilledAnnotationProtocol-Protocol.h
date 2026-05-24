@@ -7,10 +7,12 @@
 @class UIColor;
 
 @protocol AKFilledAnnotationProtocol
+- (void)?0@?<v@?@"NSData"@"NSError">8;
+- (void)hasFetchedSubresources;
+- (UIColor *);
+- (UIColor *)_readerPrintContentCompletionHandler;
 
 // Remaining properties
 @property(copy) UIColor *fillColor;
-@property(retain) UIColor *fillColorHDR;
-@property(retain) UIColor *fillColorSDR;
 @end
 

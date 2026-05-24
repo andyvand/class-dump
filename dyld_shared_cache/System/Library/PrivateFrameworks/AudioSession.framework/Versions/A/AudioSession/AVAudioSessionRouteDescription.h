@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVAudioSessionRouteDescription
 {
@@ -26,15 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)i;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *inputs;
-@property(readonly, nonatomic) NSArray *outputs;
-@property(readonly) unsigned long long siriInputSource;
 @property(readonly) NSString *siriRemoteInputIdentifier;
-@property(readonly) _Bool supportsDoAP;
-@property(readonly) _Bool supportsSoftwareVolume;
 
 @end
 

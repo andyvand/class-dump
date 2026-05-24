@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)Extractor;
+- (id)retrieveRecommendationsMatchingTopic:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGInvariantFamilyFeatureExtractor;
 
 @end
 

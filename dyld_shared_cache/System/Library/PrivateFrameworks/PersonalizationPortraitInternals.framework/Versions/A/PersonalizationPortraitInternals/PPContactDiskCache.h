@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPContactDiskCache
 {
     long long _lastCreatedAt;
-    NSString *_path;
 }
 
 - (_Bool);
@@ -18,7 +15,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ExpirySeconds;
+- (void)userActivityExpirySeconds;
 
 @end
 

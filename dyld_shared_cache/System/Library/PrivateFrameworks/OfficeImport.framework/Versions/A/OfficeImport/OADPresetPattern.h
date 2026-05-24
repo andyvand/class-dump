@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADPresetPattern : OADPattern
 {
     int mType;
-    _Bool mIsTypeOverridden;
 }
 
 + (id);

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXAssetsDataSourceCountsController, PXCPLUIStatusProvider, PXEventCoalescer, PXFooterViewModel, PXUpdater;
+@class PXFooterViewModel, PXUpdater;
 
 @interface PXFooterViewModelController
 {
     PXFooterViewModel *_footerViewModel;
-    PHPhotoLibrary *_photoLibrary;
-    PXAssetsDataSourceCountsController *_countsController;
-    PXCPLUIStatusProvider *_cplUIStatusProvider;
-    _Bool _isActive;
-    PXUpdater *_updater;
-    PXEventCoalescer *_updateCoalescer;
 }
 
 + (void);
 + (CDUnknownBlockType);
-+ (id);
++ (id)8@"SXFullscreenCanvasController"16@"<SXFullscreenCanvasShowable>"24Q32;
 - (void);
 - (void);
 - (id);
@@ -40,16 +34,6 @@
 - (void)ñÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXFooterViewModel *footerViewModel; // @synthesize footerViewModel=_footerViewModel;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXEventCoalescer *updateCoalescer; // @synthesize updateCoalescer=_updateCoalescer;
 @property(retain, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end

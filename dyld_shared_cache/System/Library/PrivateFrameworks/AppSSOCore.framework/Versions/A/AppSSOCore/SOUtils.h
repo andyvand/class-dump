@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -26,8 +26,8 @@
 + (int);
 + (void);
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id)A;
++ (_Bool)#;
 
 @end
 

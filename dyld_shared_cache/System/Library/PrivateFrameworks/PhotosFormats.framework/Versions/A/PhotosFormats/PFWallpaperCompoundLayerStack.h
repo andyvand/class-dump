@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFParallaxLayerStack, PFPosterLayout;
+@class PFParallaxLayerStack;
 
 @interface PFWallpaperCompoundLayerStack
 {
     PFParallaxLayerStack *_portraitLayerStack;
-    PFParallaxLayerStack *_landscapeLayerStack;
 }
 
 - (id);
-- (id);
+- (id)em/Library/PrivateFrameworks/SpotlightResources.framework/Versions/A/SpotlightResources;
 - (id);
 - (id);
 - (id);
@@ -26,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PFParallaxLayerStack *landscapeLayerStack; // @synthesize landscapeLayerStack=_landscapeLayerStack;
-@property(readonly, nonatomic) PFPosterLayout *layout;
 @property(readonly, nonatomic) PFParallaxLayerStack *portraitLayerStack; // @synthesize portraitLayerStack=_portraitLayerStack;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

@@ -11,12 +11,12 @@
     CDUnknownBlockType _actionHandler;
 }
 
-- (long long);
+- (long long)dictionaryRepresentation;
 - (id);
-- (long long);
+- (long long)fetchLatestRecordKeyFromCKAndCreateIfKeyDoesNotExistWithCompletion:forceFetch: /* Error: Ran out of types for this method. */;
+- (_Bool)$4@;
 - (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)support it. File a radar-------*/;
 - (void);
 - (void);
 

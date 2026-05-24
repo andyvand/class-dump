@@ -5,9 +5,11 @@
 //
 
 @protocol TUpdateLayoutControllerSuspenderProtocol
+- (void);
+- (_Bool)	
+k;
 
 // Remaining properties
-@property(nonatomic) _Bool isUpdateLayoutControllerDirty;
 @property(nonatomic) _Bool isUpdateLayoutControllerSuspended;
 @end
 

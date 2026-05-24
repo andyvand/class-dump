@@ -6,31 +6,23 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSArray, NSString;
-
 @interface SFRankingFeedback : SFFeedback
 {
     int _spotlightQueryIntent;
-    double _blendingDuration;
-    NSArray *_sections;
-    NSString *_l2ModelVersion;
-    NSString *_l3ModelVersion;
-    NSString *_l2ShadowModelVersion;
-    NSArray *_hiddenResults;
 }
 
 + (_Bool);
 - (id);
 - (void);
+- (id)shouldBypassVocalAttenuationSupportFlag;
+- (void)playlistForIdentifier:(id)arg1;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)C;
+- (void)AssertionAcquired;
+- (id)ions(PHAsset *__strong, PHAssetExportRequestOptions *__strong, PHResourceLocalAvailabilityRequest *__strong, NSDictionary<PHResourceLocalAvailabilityRequestResourceInfoKey,id> * _Nullable __autoreleasing * _Nullable);
+- (void)@);
 - (id);
 - (id);
 - (void);
@@ -39,16 +31,10 @@
 - (void);
 - (double)
 × ;
-- (void)dex: /* Error: Ran out of types for this method. */;
+- (void)annotationsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double blendingDuration; // @synthesize blendingDuration=_blendingDuration;
-@property(copy, nonatomic) NSArray *hiddenResults; // @synthesize hiddenResults=_hiddenResults;
-@property(copy, nonatomic) NSString *l2ModelVersion; // @synthesize l2ModelVersion=_l2ModelVersion;
-@property(copy, nonatomic) NSString *l2ShadowModelVersion; // @synthesize l2ShadowModelVersion=_l2ShadowModelVersion;
-@property(copy, nonatomic) NSString *l3ModelVersion; // @synthesize l3ModelVersion=_l3ModelVersion;
-@property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(nonatomic) int spotlightQueryIntent; // @synthesize spotlightQueryIntent=_spotlightQueryIntent;
 
 @end
 

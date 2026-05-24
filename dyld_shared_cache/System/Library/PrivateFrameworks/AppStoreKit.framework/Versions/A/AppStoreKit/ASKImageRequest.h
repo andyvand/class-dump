@@ -6,36 +6,27 @@
 
 #import <AppStoreKit/ASKResourceRequest.h>
 
-@class ASKLoadResourceOperation, NSURLRequest;
-@protocol ASKImageRequestDelegate, ASKResourceDataConsumer;
+@class NSURLRequest;
 
 @interface ASKImageRequest : ASKResourceRequest
 {
     _Bool _isResourceRequest;
-    NSURLRequest *_urlRequest;
-    ASKLoadResourceOperation *_loadOperation;
-    id <ASKResourceDataConsumer> _dataConsumer;
-    id <ASKImageRequestDelegate> _delegate;
 }
 
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (_Bool)`@o;
+- (id)5o;
+- (void)o;
+- (id)o;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void)reKit26RotatingSearchAdDisplayingP;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASKResourceDataConsumer> dataConsumer; // @synthesize dataConsumer=_dataConsumer;
-@property(readonly, nonatomic) __weak id <ASKImageRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isResourceRequest; // @synthesize isResourceRequest=_isResourceRequest;
-@property(readonly, nonatomic) ASKLoadResourceOperation *loadOperation; // @synthesize loadOperation=_loadOperation;
 @property(readonly, copy, nonatomic) NSURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCloudKitMirroringDelegateOptions, PFCloudKitStoreMonitor, _NSDataFileBackedFuture;
+@class NSCloudKitMirroringDelegateOptions, _NSDataFileBackedFuture;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitSchemaGenerator
 {
     NSCloudKitMirroringDelegateOptions *_mirroringOptions;
-    PFCloudKitStoreMonitor *_storeMonitor;
-    _NSDataFileBackedFuture *_representativeFuture;
 }
 
 - (id);
-- (id);
+- (id)C;
 - (void);
 
 // Remaining properties

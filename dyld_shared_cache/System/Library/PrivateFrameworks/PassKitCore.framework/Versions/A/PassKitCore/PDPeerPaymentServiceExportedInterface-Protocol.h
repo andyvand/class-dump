@@ -5,5 +5,13 @@
 //
 
 @protocol PDPeerPaymentServiceExportedInterface
+- (void);
+- (void)1;
+- (void);
+- (void)	k ;
+- (void)i;
+- (void);
+- (void);
+- (void)_roundTripTimeMin;
 @end
 

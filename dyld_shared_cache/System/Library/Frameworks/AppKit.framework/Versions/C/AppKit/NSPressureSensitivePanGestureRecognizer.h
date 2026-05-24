@@ -9,8 +9,6 @@
 @interface NSPressureSensitivePanGestureRecognizer : NSPanGestureRecognizer
 {
     double _defaultPressure;
-    double _pressure;
-    long long _flags;
 }
 
 - (void);
@@ -20,23 +18,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)read %ld:(_Bool)arg1 %d, complete[%c], final[%c];
+- (_Bool)esWithNoSizeLimit:] /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id));
 - (void);
-- (void)ffect:(id)arg1;
+- (void)setLabelTextEffect:(id)arg1;
 - (double)éÿÀ7
 HkC;
 
 // Remaining properties
 @property double defaultPressure;
-@property(readonly) double pressure; // @synthesize pressure=_pressure;
-@property _Bool recognizesOnPressureChange;
 
 @end
 

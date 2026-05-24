@@ -7,22 +7,19 @@
 @class NSDate, NSString, NSURL;
 
 @protocol PXDisplayMomentShare
-- (unsigned short)PriorityWidgetsLoadingDelay;
+- (NSURL *)";
+- (NSDate *);
+- (unsigned long long)phaXY.y), 0., 1.); 
+					color = vec4(borderColor.rgb * borderAlpha, borderAlpha); 
+				} 
+			gl_FragColor = uColor * color; 
+		} 
+		;
+- (unsigned short)defaultPriorityWidgetsLoadingDelay;
 - (NSString *);
 - (unsigned long long)¥C·­+;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long assetCount;
-@property(readonly, nonatomic) unsigned long long cloudPhotoCount;
-@property(readonly, nonatomic) unsigned long long cloudVideoCount;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) NSDate *expiryDate;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) unsigned long long photosCount;
-@property(readonly, nonatomic) long long px_momentShareType;
-@property(readonly, nonatomic) NSURL *shareURL;
-@property(readonly, nonatomic) NSDate *startDate;
 @property(readonly, nonatomic) unsigned short status;
-@property(readonly, nonatomic) unsigned long long videosCount;
 @end
 

@@ -7,6 +7,10 @@
 @class NSString, TUConversation, TUConversationParticipant;
 
 @protocol TUConversationManagerXPCClient
-- (oneway void)ctAddresses:(TUConversationParticipant *)arg1 forBundleIdentifier:(TUConversation *)arg2 performSynchronously:(NSString *)arg3;
+- (oneway void) r;
+- (oneway void)@9%;
+- (oneway void);
+- (oneway void);
+- (oneway void)shouldRestrictAddresses:(TUConversationParticipant *)arg1 forBundleIdentifier:(TUConversation *)arg2 performSynchronously:(NSString *)arg3;
 @end
 

@@ -11,8 +11,8 @@
     TRIServerContext *_context;
 }
 
-- (id);
-- (_Bool);
+- (id)quickTimeMetadataSpatialOverCaptureGroupIdentifier;
+- (_Bool)photosFaceRepresentationIsLeftEyeClosed;
 - (void)0@ù
 × ;
 

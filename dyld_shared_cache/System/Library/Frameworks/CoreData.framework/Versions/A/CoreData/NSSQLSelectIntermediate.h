@@ -6,18 +6,12 @@
 
 #import <CoreData/NSSQLIntermediate.h>
 
-@class NSArray, NSSQLEntity, NSString;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLSelectIntermediate : NSSQLIntermediate
 {
     NSSQLEntity *_entity;
-    NSString *_entityAlias;
-    NSString *_correlationTarget;
-    NSArray *_fetchColumns;
-    _Bool _useDistinct;
-    NSString *_columnAlias;
-    _Bool _isCount;
 }
 
 - (void);

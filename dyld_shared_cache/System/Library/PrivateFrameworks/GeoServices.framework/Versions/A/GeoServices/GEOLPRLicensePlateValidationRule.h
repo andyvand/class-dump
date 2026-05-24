@@ -4,80 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRLicensePlateValidationRule
 {
     PBDataReader *_reader;
-    NSMutableArray *_impliedPowerTypeKeys;
-    NSMutableArray *_impliedVehicleTypeKeys;
-    NSString *_regularExpression;
-    NSString *_validCharacters;
-    NSMutableArray *_validationRanges;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _maxLength;
-    unsigned int _minLength;
-    struct {
-        unsigned int has_maxLength:1;
-        unsigned int has_minLength:1;
-        unsigned int read_impliedPowerTypeKeys:1;
-        unsigned int read_impliedVehicleTypeKeys:1;
-        unsigned int read_regularExpression:1;
-        unsigned int read_validCharacters:1;
-        unsigned int read_validationRanges:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class);
 + (Class);
-+ (Class);
-+ (_Bool)sSearchOdsVersion:(id)arg1;
++ (_Bool)setHasSearchOdsVersion:(id)arg1;
+- (unsigned long long);
+- (id);
+- (id);
+- (void)%;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@16Q24Q32;
+- (_Bool)24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (void)URLSession:didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)N,V_events;
+- (void)tsPairs;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)r sent to %p;
 - (void);
 - (id);
+- (id);
+- (void)Options"16;
+- (id)edSelfLogger didCompleteRecognitionTaskWithStatistics:requestId:endpointMode:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (id);
-- (void);
+- (void)_MKContactPlaceItem;
 - (_Bool);
 - (unsigned int);
 - (id);
-- (void);
-- (void)etWalkingIndex:(unsigned int)arg1;
-- (id)tionsIsTouristScore:(struct _NSZone *)arg1;
-- (id)CardModuleTypeHours;
+- (void)@;
+- (void)setWalkingIndex:(unsigned int)arg1;
+- (id)setMapsSuggestionsIsTouristScore:(struct _NSZone *)arg1;
+- (id)GEORevealedPlaceCardModuleTypeHours;
 - (id)[%@]. Following route score:%0.2f. Distance from expected position:%0.2f /* Error: Ran out of types for this method. */;
 - (id)h;
 - (void);
@@ -85,17 +65,7 @@
 - (unsigned int)K;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxLength;
-@property(nonatomic) _Bool hasMinLength;
 @property(readonly, nonatomic) _Bool hasRegularExpression;
-@property(readonly, nonatomic) _Bool hasValidCharacters;
-@property(retain, nonatomic) NSMutableArray *impliedPowerTypeKeys;
-@property(retain, nonatomic) NSMutableArray *impliedVehicleTypeKeys;
-@property(nonatomic) unsigned int maxLength;
-@property(nonatomic) unsigned int minLength;
-@property(retain, nonatomic) NSString *regularExpression;
-@property(retain, nonatomic) NSString *validCharacters;
-@property(retain, nonatomic) NSMutableArray *validationRanges;
 
 @end
 

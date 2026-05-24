@@ -4,74 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CKAvatarView, CKConversation, CKConversationListCellLayout, CKConversationListTypingIndicatorView, CKDateLabel, CKDownloadingPendingMessagesView, CKLabel, ChatKit.CKConversationPriorityLabel, NSObject, NSString, UIButton, UIControl, UIImageView, UILabel, UIView;
-@protocol CKConversationListCellDelegate, CKConversationListCellIntroductionsDelegate;
+@class CKDateLabel;
 
 @interface CKConversationListCell
 {
     _Bool _blocked;
-    _Bool _muted;
-    _Bool _placeholder;
-    _Bool _groupConversation;
-    _Bool _shouldHidePreviewSummary;
-    _Bool _shouldLabelsBeHighlighted;
-    _Bool _freezeSummaryText;
-    _Bool __editingPins;
-    _Bool __shouldShowSlashSatelliteIcon;
-    CKConversationListCellLayout *_cellLayout;
-    CKDateLabel *_dateLabel;
-    UILabel *_summaryLabel;
-    ChatKit.CKConversationPriorityLabel *_priorityLabel;
-    UIButton *_closeButton;
-    UIImageView *_chevronImageView;
-    CKLabel *_fromLabel;
-    CAGradientLayer *_gradient;
-    CKConversationListTypingIndicatorView *_typingIndicatorView;
-    CKDownloadingPendingMessagesView *_downloadingPendingMessagesView;
-    UIControl *_controlView;
-    UILabel *_summaryBlockedLabel;
-    NSObject<CKConversationListCellDelegate> *_delegate;
-    id <CKConversationListCellIntroductionsDelegate> _introductionsDelegate;
-    CKConversation *_conversation;
-    struct CGRect _containerBounds;
 }
 
 + (id);
 + (double);
 + (long long);
+- (void)_updatesUserRecordIfNeeded;
+- (void)_undoneEdgeConstraint;
+- (void)_trackingArea;
+- (void)_showMovieDuration;
+- (void)_reloadDataSerialQueue;
+- (void)_postProcessingIDsPending;
+- (void)_pinnedOnly;
+- (void)_observedButtons;
+- (void)_makeDecisionForMovingHTMLObjectsToModernDestination;
+- (void)_makeDecisionForMovingHTMLObjectsToHTMLDestination;
+- (void)_isMarkingTextForHeadingRename;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)_inlineDrawingViews;
+- (id)_icaxCachedApproximateColorDescription;
+- (id)_filterSubstringAttributesForPlainText;
+- (id)tableCellWasEditedAtColumnID:rowID:edited:range:changeInLength: /* Error: Ran out of types for this method. */;
+- (id)tableCellWasEditedAtColumnID:rowID:edited:range:changeInLength: /* Error: Ran out of types for this method. */;
+- (id)ext;
+- (id)stringByAppendingPathExtension:(_Bool)arg1;
+- (void),N;
+- (_Bool)_appearanceInfo;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)p;
+- (void)Ё;
+- (void));
 - (void);
 - (void);
 - (void);
@@ -79,20 +54,21 @@
 - (void);
 - (long long);
 - (id);
+- (id)h;
+- (_Bool);
+- (id)c;
+- (void)ngth is %lu;
+- (_Bool)Object with empty accountID;
+- (id)ck — failing {reason:%@} /* Error: Ran out of types for this method. */;
+- (_Bool)note… {note:%@}%s:%d /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
+- (void)The notes also lock with inactivity.;
+- (void)ew image data to load;
+- (void)tionType:] /* Error: Ran out of types for this method. */;
+- (id)ActivityStreamControlling;
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)g
+;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -103,7 +79,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (unsigned long long);
@@ -123,61 +99,27 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (id);
 - (id)!àBùQÐ1Â0@ù
 × ;
 - (void)m:(_Bool)arg1;
-- (id)isualEffectView;
+- (id)_visualEffectView;
 - (void),&,N,V_transcriptBackgroundColor;
 - (void)ot an audio chat item.;
-- (_Bool)RSON_SHARED_A_NEW_PHOTO;
+- (_Bool)THIS_PERSON_SHARED_A_NEW_PHOTO;
 - (_Bool)¸øÌ;
-- (void)ontroller;
+- (void)PollDetailsViewController;
 
 // Remaining properties
-@property(nonatomic) _Bool _editingPins; // @synthesize _editingPins=__editingPins;
-@property(readonly, nonatomic) _Bool _shouldShowSendLaterIcon;
-@property(readonly, nonatomic) _Bool _shouldShowSlashSatelliteIcon; // @synthesize _shouldShowSlashSatelliteIcon=__shouldShowSlashSatelliteIcon;
-@property(readonly, nonatomic) CKAvatarView *avatarView;
-@property(nonatomic, getter=isBlocked) _Bool blocked; // @synthesize blocked=_blocked;
-@property(retain, nonatomic) CKConversationListCellLayout *cellLayout; // @synthesize cellLayout=_cellLayout;
-@property(retain, nonatomic) UIImageView *chevronImageView; // @synthesize chevronImageView=_chevronImageView;
-@property(retain, nonatomic) UIButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(nonatomic) struct CGRect containerBounds; // @synthesize containerBounds=_containerBounds;
-@property(retain, nonatomic) UIControl *controlView; // @synthesize controlView=_controlView;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
 @property(retain, nonatomic) CKDateLabel *dateLabel; // @synthesize dateLabel=_dateLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<CKConversationListCellDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKDownloadingPendingMessagesView *downloadingPendingMessagesView; // @synthesize downloadingPendingMessagesView=_downloadingPendingMessagesView;
-@property(readonly, nonatomic) UIView *footer;
-@property(nonatomic) _Bool freezeSummaryText; // @synthesize freezeSummaryText=_freezeSummaryText;
-@property(retain, nonatomic) CKLabel *fromLabel; // @synthesize fromLabel=_fromLabel;
-@property(readonly, nonatomic) CAGradientLayer *gradient; // @synthesize gradient=_gradient;
-@property(nonatomic, getter=isGroupConversation) _Bool groupConversation; // @synthesize groupConversation=_groupConversation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CKConversationListCellIntroductionsDelegate> introductionsDelegate; // @synthesize introductionsDelegate=_introductionsDelegate;
-@property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(nonatomic, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
-@property(retain, nonatomic) ChatKit.CKConversationPriorityLabel *priorityLabel; // @synthesize priorityLabel=_priorityLabel;
-@property(nonatomic) _Bool shouldHidePreviewSummary; // @synthesize shouldHidePreviewSummary=_shouldHidePreviewSummary;
-@property(nonatomic) _Bool shouldLabelsBeHighlighted; // @synthesize shouldLabelsBeHighlighted=_shouldLabelsBeHighlighted;
-@property(readonly, nonatomic) UILabel *summaryBlockedLabel; // @synthesize summaryBlockedLabel=_summaryBlockedLabel;
-@property(retain, nonatomic) UILabel *summaryLabel; // @synthesize summaryLabel=_summaryLabel;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKConversationListTypingIndicatorView *typingIndicatorView; // @synthesize typingIndicatorView=_typingIndicatorView;
 
 @end
 

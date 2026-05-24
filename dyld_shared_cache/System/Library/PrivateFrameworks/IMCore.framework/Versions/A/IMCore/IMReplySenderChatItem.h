@@ -13,8 +13,8 @@
     NSString *_threadIdentifier;
 }
 
-- (id);
-- (id);
+- (id)or shared instance;
+- (id);
 - (id);
 - (void)d<À<d>ü>;
 

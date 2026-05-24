@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet, NSObject, RBEventQueue;
-@protocol OS_dispatch_queue, RBProcessManaging, RBTimeProviding;
+@protocol RBProcessManaging;
 
 @interface RBPrewarmManager
 {
     id <RBProcessManaging> _delegate;
-    id <RBTimeProviding> _timeProvider;
-    NSObject<OS_dispatch_queue> *_prewarmingQueue;
-    NSMutableSet *_pendingPrewarms;
-    RBEventQueue *_prewarmingEventQueue;
-    NSDictionary *_lastAppliedConfiguration;
-    NSDictionary *_currentConfiguration;
-    struct os_unfair_lock_s _dataLock;
 }
 
 - (void);
-- (void);
+- (void)?|�;
 - (void);
 - (void);
 - (void);

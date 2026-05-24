@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSBundle, NSString;
+@class NSString;
 @protocol MKLocationProviderDelegate;
 
 @protocol MKLocationProvider
+- (_Bool);
+- (_Bool);
+- (void)T;
+- (NSString *)a;
+- (id <MKLocationProviderDelegate>)P;
+- (void)5T5;
+- (void)rejected, client does not have history capability;
+- (_Bool)dKitHooks.AdditionalStorageCheckReturned;
 - (int)±Ð1Â0@ù
 × ;
 - (double)sh_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (void)onStyleAttributes;
-- (void)rateAttribute:inRange:options:usingBlock: /* Error: Ran out of types for this method. */;
-- (void)IsSaved:(double)arg1;
-- (void)ifier: /* Error: Ran out of types for this method. */;
-- (void)darkMode;
+- (void)iconStyleAttributes;
+- (void)enumerateAttribute:inRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)collectionIsSaved:(double)arg1;
+- (void)_mapkit_dequeueReusableCellWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_darkMode;
 - (void)biguationRadiusMeters;
 - (void)nsactionLocation;
-- (void)owView;
+- (void)MKPlaceInfoContactRowView;
 - (double)PlaceCollectionImage;
 - (double)or"16;
 - (void)w driving directions without EV information.;
 - (double).apple.maps.traffic.disabled;
-- (void)omEnabled;
+- (void)MKZoomEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accuracyAuthorization;
-@property(readonly, nonatomic) int authorizationStatus;
 @property(nonatomic) __weak id <MKLocationProviderDelegate> delegate;
-@property(nonatomic) double desiredAccuracy;
-@property(nonatomic) double distanceFilter;
-@property(retain, nonatomic) NSBundle *effectiveBundle;
-@property(copy, nonatomic) NSString *effectiveBundleIdentifier;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval;
-@property(nonatomic) _Bool fusionInfoEnabled;
-@property(readonly, nonatomic) _Bool isTracePlayer;
-@property(readonly, nonatomic) CLLocation *lastLocation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CLLocation",?,R,N
-
-@property(nonatomic) _Bool matchInfoEnabled;
-@property(readonly, nonatomic) _Bool shouldShiftIfNecessary;
-@property(readonly, nonatomic) double timeScale;
-@property(readonly, nonatomic) _Bool usesCLMapCorrection;
 @end
 

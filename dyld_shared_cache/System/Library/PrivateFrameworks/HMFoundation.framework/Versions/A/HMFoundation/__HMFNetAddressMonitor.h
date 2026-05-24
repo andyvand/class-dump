@@ -6,35 +6,31 @@
 
 #import <HMFoundation/HMFNetMonitor.h>
 
-@class HMFNetAddress, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface __HMFNetAddressMonitor : HMFNetMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    unsigned int _currentNetworkFlags;
-    HMFNetAddress *_netAddress;
-    struct __SCNetworkReachability *_networkReachabilityRef;
 }
 
 - (unsigned long long);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
-- (id);
-- (unsigned int);
+- (id)*;
+- (unsigned int)Z;
 - (struct __SCNetworkReachability *);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)ress;
+- (id)HMFHardwareAddress;
 
 // Remaining properties
-@property(nonatomic) unsigned int currentNetworkFlags; // @synthesize currentNetworkFlags=_currentNetworkFlags;
 @property(readonly, nonatomic) struct __SCNetworkReachability *networkReachabilityRef; // @synthesize networkReachabilityRef=_networkReachabilityRef;
 
 @end

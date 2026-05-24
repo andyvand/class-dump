@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAlarm;
+@class _INPBAlarm;
 
 @interface _INPBCreateAlarmIntentResponse
 {
     struct {
         unsigned int successCode:1;
     } _has;
-    int _successCode;
-    _INPBAlarm *_createdAlarm;
 }
 
 + (_Bool);
 - (id);
 - (int);
-- (void);
+- (void)b;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)	;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)@32;
+- (void)%s:(id)arg1 osVersion:%@, restoreOSVersionString:%@, valid:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void)Turn on %@;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarm *createdAlarm; // @synthesize createdAlarm=_createdAlarm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCreatedAlarm;
-@property(nonatomic) _Bool hasSuccessCode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int successCode; // @synthesize successCode=_successCode;
-@property(readonly) Class superclass;
 
 @end
 

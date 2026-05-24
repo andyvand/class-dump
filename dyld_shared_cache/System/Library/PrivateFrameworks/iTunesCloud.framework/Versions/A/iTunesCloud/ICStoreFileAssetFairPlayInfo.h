@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
 @interface ICStoreFileAssetFairPlayInfo
 {
@@ -15,21 +15,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)eraSnapshotControl";
+- (id)setFirstCoreDataContainerSetupUnderlyingErrorDomainHH2:(id)arg1;
+- (id)ready larger than preferred size, rolling over Id(%s);
 - (id);
 - (long long);
-- (void)enSize;
+- (void)_mainScreenSize;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *dpInfoData;
-@property(readonly, nonatomic) long long identifier;
-@property(readonly, copy, nonatomic) NSData *pinfData;
-@property(readonly, copy, nonatomic) NSDictionary *purchaseBundleSinfDictionary;
 @property(readonly, copy, nonatomic) NSDictionary *responseSinfDictionary; // @synthesize responseSinfDictionary=_responseSinfDictionary;
-@property(readonly, copy, nonatomic) NSData *sinf2Data;
-@property(readonly, copy, nonatomic) NSData *sinfData;
 
 @end
 

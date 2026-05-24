@@ -7,30 +7,26 @@
 #import <EventKitUI/EKCalendarItemEditItem.h>
 
 @class NSArray;
-@protocol EKEventAutocompleteResultsEditItemDelegate;
 
 @interface EKEventAutocompleteResultsEditItem : EKCalendarItemEditItem
 {
     _Bool _suggestionApplied;
-    NSArray *_results;
 }
 
+- (_Bool)ؒ&s;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)2%s;
+- (void)s;
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)SError"8;
 - (void);
-- (void)InRange:replacementText: /* Error: Ran out of types for this method. */;
+- (void)searchBar:shouldChangeTextInRange:replacementText: /* Error: Ran out of types for this method. */;
 - (double)Ì£éÿtÏ_é;
 
 // Remaining properties
-@property(nonatomic) __weak id <EKEventAutocompleteResultsEditItemDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) _Bool hasSuggestedLocationResult;
 @property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

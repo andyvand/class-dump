@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBWellnessUnitType;
-
 @interface _INPBQueryHealthSampleIntent
 {
     struct {
@@ -13,18 +11,11 @@
         unsigned int objectType:1;
         unsigned int questionType:1;
     } _has;
-    int _expectedResultType;
-    int _objectType;
-    int _questionType;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_recordDates;
-    NSArray *_thresholdValues;
-    _INPBWellnessUnitType *_unit;
 }
 
 + (Class);
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
@@ -49,20 +40,20 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)B;
 - (id);
 - (void);
 - (int);
 - (int);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (id);
 - (id);
@@ -72,27 +63,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int expectedResultType; // @synthesize expectedResultType=_expectedResultType;
-@property(nonatomic) _Bool hasExpectedResultType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasObjectType;
-@property(nonatomic) _Bool hasQuestionType;
-@property(readonly, nonatomic) _Bool hasUnit;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int objectType; // @synthesize objectType=_objectType;
-@property(nonatomic) int questionType; // @synthesize questionType=_questionType;
-@property(copy, nonatomic) NSArray *recordDates; // @synthesize recordDates=_recordDates;
-@property(readonly, nonatomic) unsigned long long recordDatesCount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *thresholdValues; // @synthesize thresholdValues=_thresholdValues;
-@property(readonly, nonatomic) unsigned long long thresholdValuesCount;
-@property(retain, nonatomic) _INPBWellnessUnitType *unit; // @synthesize unit=_unit;
 
 @end
 

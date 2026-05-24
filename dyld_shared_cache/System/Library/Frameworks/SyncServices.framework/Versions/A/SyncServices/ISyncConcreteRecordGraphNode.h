@@ -6,24 +6,11 @@
 
 #import <SyncServices/ISyncRecordGraphNode.h>
 
-@class ISyncRecordView, NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class ISyncRecordView;
 
 @interface ISyncConcreteRecordGraphNode : ISyncRecordGraphNode
 {
     ISyncRecordView *_recordView;
-    NSString *_recordIdentifier;
-    NSDictionary *_cachedRecord;
-    NSMutableDictionary *_addedChildNodes;
-    NSMutableDictionary *_modifiedChildNodes;
-    NSMutableDictionary *_deletedChildNodes;
-    NSSet *_displayKeys;
-    NSSet *_changedKeys;
-    NSSet *_identityKeys;
-    NSSet *_relationshipNames;
-    NSSet *_changedRelationshipNames;
-    ISyncRecordGraphNode *_parentNode;
-    ISyncRecordGraphNode *_topLevelParentNode;
-    int _changeType;
 }
 
 - (id);
@@ -32,15 +19,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)c;
+- (id)q;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -48,22 +36,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id)H;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)4j;
 - (int);
 - (id)== type;
 

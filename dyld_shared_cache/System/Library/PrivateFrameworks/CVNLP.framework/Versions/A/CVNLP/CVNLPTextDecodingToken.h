@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CVNLPTextDecodingToken
 {
     _Bool _hasPrecedingSpace;
-    NSString *_string;
-    NSString *_terminatingCharacter;
-    NSNumber *_score;
-    NSNumber *_alignmentScore;
-    struct _NSRange _activationRange;
 }
 
 - (id);
+- (id)';
 - (id);
-- (id);
-- (id);
+- (id)H1F';
 - (_Bool);
 - (id);
 - (id);
 - (struct _NSRange);
 - (id);
-- (id);
+- (id)3;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange activationRange; // @synthesize activationRange=_activationRange;
-@property(readonly, copy, nonatomic) NSNumber *alignmentScore; // @synthesize alignmentScore=_alignmentScore;
-@property(readonly, copy, nonatomic) NSString *fullString;
-@property(readonly, nonatomic) _Bool hasPrecedingSpace; // @synthesize hasPrecedingSpace=_hasPrecedingSpace;
-@property(readonly, copy, nonatomic) NSNumber *score; // @synthesize score=_score;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, copy, nonatomic) NSString *terminatingCharacter; // @synthesize terminatingCharacter=_terminatingCharacter;
 
 @end
 

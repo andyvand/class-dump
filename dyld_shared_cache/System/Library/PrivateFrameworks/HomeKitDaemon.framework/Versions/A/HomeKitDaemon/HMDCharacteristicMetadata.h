@@ -4,38 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicMetadata
 {
     NSNumber *_minimumValue;
-    NSNumber *_maximumValue;
-    NSNumber *_stepValue;
-    NSNumber *_maxLength;
-    NSString *_format;
-    NSString *_units;
-    NSString *_manufacturerDescription;
-    NSArray *_validValues;
 }
 
 + (id);
 + (_Bool)8; Ðâ;
 - (id);
 - (id);
+- (id)dd}32;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id){ 
+ vec3 neg = min(im.rgb, 0.0); 
+ vec3 pos = max(im.rgb, 1.0)-1.0; 
+ im.rgb = clamp(im.rgb, 0.0, 1.0); 
+ float y = dot(im.rgb, vec3(0.3333)); 
+ y = sqrt(y); 
+ float sat = (im.r-y)*(im.r-y)+(im.g-y)*(im.g-y)+(im.b-y)*(im.b-y); 
+ y = y*(1.0-y); 
+ im.rgb = sqrt(im.rgb); 
+ float a = midAmt*y; 
+ float b = -0.5*a; 
+ vec3 pix = im.r * vec3(0.299*a) + 
+ im.g * vec3(0.587*a) + 
+ im.b * vec3(0.114*a) + 
+ im.rgb + vec3(b); 
+ im.rgb = mix(im.rgb, vec3(0.5), -y*midAmt); 
+ im.rgb = mix(im.rgb, pix, 0.8+sat); 
+ im.rgb = max(im.rgb, 0.0); 
+ im.rgb *= im.rgb; 
+ im.rgb = im.rgb + neg + pos; 
+ return im; 
+ };
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)	?ר#;
 - (void);
 - (id);
-- (id)roperty:(struct _NSZone *)arg1 output: /* Error: Ran out of types for this method. */;
-- (id)ger:datasource: /* Error: Ran out of types for this method. */;
-- (id)pletionHandler: /* Error: Ran out of types for this method. */;
+- (id)getProperty:(struct _NSZone *)arg1 output: /* Error: Ran out of types for this method. */;
+- (id)initWithHomeManager:datasource: /* Error: Ran out of types for this method. */;
+- (id)displayKeychainSyncForHome:withContext:queue:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)s because data is not available;
 - (id)rror:%@ /* Error: Ran out of types for this method. */;
 - (void).Event;
@@ -43,21 +57,7 @@ __attribute__((visibility("hidden")))
 - (id)AA;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *manufacturerDescription; // @synthesize manufacturerDescription=_manufacturerDescription;
-@property(readonly, nonatomic) NSNumber *maxLength; // @synthesize maxLength=_maxLength;
-@property(readonly, nonatomic) NSNumber *maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(readonly, nonatomic) NSNumber *minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(readonly, nonatomic) NSNumber *stepValue; // @synthesize stepValue=_stepValue;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *units; // @synthesize units=_units;
-@property(readonly, copy, nonatomic) NSArray *validValues; // @synthesize validValues=_validValues;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDRecord, NSString;
+@class NSString;
 
 @interface ISDChangePusher
 {
     NSString *_clientId;
-    ISDRecord *_record;
-    _Bool _clientFormatsRelationships;
 }
 
 - (void);

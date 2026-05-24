@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLSkinDeformerReadOnlyBuffers
 {
     unsigned long long _vertexWeightIndexSize;
-    unsigned long long _boneIndexSize;
-    id <MTLBuffer> _vertexWeightIndicesBuffer;
-    id <MTLBuffer> _boneIndicesBuffer;
-    id <MTLBuffer> _boneWeightsBuffer;
 }
 
 - (void);

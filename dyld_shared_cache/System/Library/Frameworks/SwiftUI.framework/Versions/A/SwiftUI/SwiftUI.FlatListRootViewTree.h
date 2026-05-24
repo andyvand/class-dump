@@ -7,8 +7,6 @@
 @interface SwiftUI.FlatListRootViewTree
 {
     id base;
-    id rowArray;
-    id listAttribute;
 }
 
 @end

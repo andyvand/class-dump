@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AMPArtworkEventsProtocol> eventsDelegate; // @synthesize eventsDelegate=_eventsDelegate;

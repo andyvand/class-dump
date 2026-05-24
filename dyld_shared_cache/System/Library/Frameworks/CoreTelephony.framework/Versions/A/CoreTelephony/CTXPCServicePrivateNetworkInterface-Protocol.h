@@ -5,5 +5,8 @@
 //
 
 @protocol CTXPCServicePrivateNetworkInterface
+- (void);
+- (void)9h;
+- (void)h;
 @end
 

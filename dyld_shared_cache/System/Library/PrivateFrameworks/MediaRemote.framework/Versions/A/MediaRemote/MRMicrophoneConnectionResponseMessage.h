@@ -6,12 +6,11 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MRMicrophoneConnectionResponseMessage : MRProtocolMessage
 {
     NSString *_rapportIdentifier;
-    NSData *_pairingData;
 }
 
 - (void);
@@ -19,15 +18,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (long long);
-- (void);
+- (id);
+- (unsigned long long)IMMessageFilterSubActionSMSHealth;
+- (long long)!;
+- (void)setSetTopCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *pairingData; // @synthesize pairingData=_pairingData;
 @property(retain, nonatomic) NSString *rapportIdentifier; // @synthesize rapportIdentifier=_rapportIdentifier;
-@property(readonly, nonatomic) long long result;
 
 @end
 

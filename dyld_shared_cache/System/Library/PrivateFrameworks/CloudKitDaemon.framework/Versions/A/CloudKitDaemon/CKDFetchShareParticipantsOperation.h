@@ -6,37 +6,31 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKDPublicIdentityLookupRequest, NSArray;
-@protocol CKFetchShareParticipantsOperationCallbacks><CKDOperationCallbackProxy;
+@class CKDPublicIdentityLookupRequest;
 
 @interface CKDFetchShareParticipantsOperation : CKDOperation
 {
     CDUnknownBlockType _shareParticipantFetchedBlock;
-    CKDPublicIdentityLookupRequest *_pendingRequest;
-    NSArray *_userIdentityLookupInfos;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (id);
+- (id);
+- (CDUnknownBlockType);
 - (void);
-- (int);
+- (void);
+- (void)/System/Library/PrivateFrameworks/IMDMessageServices.framework/Versions/A/IMDMessageServices;
+- (void);
+- (id)EDMessageAuthenticationState;
+- (void);
+- (int)WiFiCloudSyncEngineRemoveNetworkFromCloud;
 - (id);
 - (void)ontainer;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKFetchShareParticipantsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
 @property(retain, nonatomic) CKDPublicIdentityLookupRequest *pendingRequest; // @synthesize pendingRequest=_pendingRequest;
-@property(copy, nonatomic) CDUnknownBlockType shareParticipantFetchedBlock; // @synthesize shareParticipantFetchedBlock=_shareParticipantFetchedBlock;
-@property(retain, nonatomic) NSArray *userIdentityLookupInfos; // @synthesize userIdentityLookupInfos=_userIdentityLookupInfos;
 
 @end
 

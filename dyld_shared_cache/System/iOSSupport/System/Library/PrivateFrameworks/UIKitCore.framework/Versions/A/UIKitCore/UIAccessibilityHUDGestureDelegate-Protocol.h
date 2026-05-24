@@ -5,5 +5,9 @@
 //
 
 @protocol UIAccessibilityHUDGestureDelegate
+- (_Bool)mediaLibraryUniqueIdentifier;
+
+@optional
+- (void);
 @end
 

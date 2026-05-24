@@ -5,5 +5,6 @@
 //
 
 @protocol HomeKitCore.XPCServerInterface
+- (void);
 @end
 

@@ -9,23 +9,6 @@
 @interface PPM2AttributedFeedback
 {
     NSString *_activeTreatments;
-    int _algorithm;
-    int _category;
-    NSString *_clientId;
-    int _domain;
-    NSString *_dynamicCategory;
-    NSString *_mappingId;
-    int _source;
-    int _type;
-    _Bool _isRemote;
-    struct {
-        unsigned int algorithm:1;
-        unsigned int category:1;
-        unsigned int domain:1;
-        unsigned int source:1;
-        unsigned int type:1;
-        unsigned int isRemote:1;
-    } _has;
 }
 
 + (id);
@@ -36,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int)�Y;
 - (id);
 - (id);
 - (void);
@@ -56,15 +39,15 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)NIMSyncedSettingsKey;
 - (int);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_cachedPrimaryAppleAccount;
 - (int);
 - (id);
 - (int);
@@ -80,33 +63,14 @@
 - (_Bool);
 - (id)× ;
 - (void)24^@32;
-- (void)tMatchingSourceDocumentIds:(_Bool)arg1;
-- (_Bool);
+- (void)setMatchingSourceDocumentIds:(_Bool)arg1;
+- (_Bool)e0851: /* Error: Ran out of types for this method. */;
 - (id)ÄÈ;
 - (int)e:(id)arg1 completed logging of daily named entity statistics.;
 - (void)>ForKey:(int)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSString *dynamicCategory; // @synthesize dynamicCategory=_dynamicCategory;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
-@property(nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasClientId;
-@property(nonatomic) _Bool hasDomain;
-@property(readonly, nonatomic) _Bool hasDynamicCategory;
-@property(nonatomic) _Bool hasIsRemote;
-@property(readonly, nonatomic) _Bool hasMappingId;
 @property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool isRemote; // @synthesize isRemote=_isRemote;
-@property(retain, nonatomic) NSString *mappingId; // @synthesize mappingId=_mappingId;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

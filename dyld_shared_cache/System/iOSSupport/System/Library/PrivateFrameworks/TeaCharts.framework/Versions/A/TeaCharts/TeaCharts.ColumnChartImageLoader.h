@@ -7,7 +7,6 @@
 @interface TeaCharts.ColumnChartImageLoader
 {
     id imageGenerator;
-    id styler;
 }
 
 @end

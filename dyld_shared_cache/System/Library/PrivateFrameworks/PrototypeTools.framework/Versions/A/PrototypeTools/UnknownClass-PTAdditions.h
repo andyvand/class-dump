@@ -6,7 +6,7 @@
 
 @interface UnknownClass (PTAdditions)
 + (id);
-- (long long);
+- (long long);
 - (long long);
 @end
 

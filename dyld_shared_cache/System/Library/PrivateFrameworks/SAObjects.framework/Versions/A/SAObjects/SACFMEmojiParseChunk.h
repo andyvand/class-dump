@@ -6,8 +6,6 @@
 
 #import <SAObjects/SACFMMessageTextParseChunk.h>
 
-@class NSArray;
-
 @interface SACFMEmojiParseChunk : SACFMMessageTextParseChunk
 {
 }
@@ -15,7 +13,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)6{;
 - (id);
 - (long long);
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) long long emojiCount;
-@property(copy, nonatomic) NSArray *inflectedEmojiList;
 
 @end
 

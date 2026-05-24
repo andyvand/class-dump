@@ -6,17 +6,14 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class NSData;
-
 @interface PHAssetTextUnderstandingProperties : PHAssetPropertySet
 {
     long long _textUnderstandingVersion;
-    NSData *_textUnderstandingData;
 }
 
 + (id);
 + (id);
-+ (id)rtyLocationAssetUUIDs;
++ (id)PHSearchSuggestionPropertyLocationAssetUUIDs;
 + (id)+b;
 - (long long);
 - (id);
@@ -24,7 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *textUnderstandingData; // @synthesize textUnderstandingData=_textUnderstandingData;
 @property(readonly, nonatomic) long long textUnderstandingVersion; // @synthesize textUnderstandingVersion=_textUnderstandingVersion;
 
 @end

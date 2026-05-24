@@ -7,16 +7,11 @@
 @interface NewsUI2.LocalUnonboardedMediaView
 {
     id displayStateCoordinator;
-    id currentResourceID;
-    id loadingTask;
-    id placeholderView;
-    id activityIndicator;
-    id playerStatusObservation;
 }
 
 + (Class);
-- (id);
-- (void);
+- (id);
+- (void)_handleItemPauseEvent:cursor: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)¤ ;
 - (void);

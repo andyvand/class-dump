@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)lastPathComponent;
 + (void);
 - (void);
 

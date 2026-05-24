@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface TPPBPeerDynamicInfo
 {
     unsigned long long _clock;
-    NSMutableArray *_dispositions;
-    NSMutableArray *_excludeds;
-    NSMutableArray *_includeds;
-    NSMutableArray *_positivelyExcludeds;
-    NSMutableArray *_preapprovals;
-    struct {
-        unsigned int clock:1;
-    } _has;
 }
 
 + (Class);
@@ -25,7 +15,7 @@
 + (Class);
 + (Class);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -36,7 +26,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
@@ -45,23 +35,25 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
+- (void)ed during a single transaction %@ -> %@;
+- (unsigned long long)NFTransactionDate;
+- (id)ispatch RCS event handler. error:(struct _NSZone *)arg1 %m
+;
+- (void)ed endpoint playback session %{ptr} (%@).
+;
+- (id)ertPlayQueueItemInternal(void *);
+- (unsigned long long);
+- (void);
+- (id)@;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)`8;
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
+- (id)setUsageSessions: /* Error: Ran out of types for this method. */;
+- (void)setCurrentRSSIStrongestCount:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -70,13 +62,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long clock; // @synthesize clock=_clock;
-@property(retain, nonatomic) NSMutableArray *dispositions; // @synthesize dispositions=_dispositions;
-@property(retain, nonatomic) NSMutableArray *excludeds; // @synthesize excludeds=_excludeds;
 @property(nonatomic) _Bool hasClock;
-@property(retain, nonatomic) NSMutableArray *includeds; // @synthesize includeds=_includeds;
-@property(retain, nonatomic) NSMutableArray *positivelyExcludeds; // @synthesize positivelyExcludeds=_positivelyExcludeds;
-@property(retain, nonatomic) NSMutableArray *preapprovals; // @synthesize preapprovals=_preapprovals;
 
 @end
 

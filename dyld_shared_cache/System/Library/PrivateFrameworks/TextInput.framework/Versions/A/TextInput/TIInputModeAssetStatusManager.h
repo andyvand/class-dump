@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, TILinguisticAssetDownloadClient;
+@class TILinguisticAssetDownloadClient;
 
 @interface TIInputModeAssetStatusManager
 {
     struct os_unfair_lock_s _assetStatusMapLock;
-    _Bool _usesDummyFileDebugging;
-    TILinguisticAssetDownloadClient *_client;
-    NSMutableSet *_listeners;
-    NSMutableDictionary *_inputModeToAssetStatusMap;
-    NSMutableSet *_debuggingTimers;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
@@ -35,7 +30,7 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -51,10 +46,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TILinguisticAssetDownloadClient *client; // @synthesize client=_client;
-@property(retain, nonatomic) NSMutableSet *debuggingTimers; // @synthesize debuggingTimers=_debuggingTimers;
-@property(retain, nonatomic) NSMutableDictionary *inputModeToAssetStatusMap; // @synthesize inputModeToAssetStatusMap=_inputModeToAssetStatusMap;
-@property(retain, nonatomic) NSMutableSet *listeners; // @synthesize listeners=_listeners;
-@property(nonatomic) _Bool usesDummyFileDebugging; // @synthesize usesDummyFileDebugging=_usesDummyFileDebugging;
 
 @end
 

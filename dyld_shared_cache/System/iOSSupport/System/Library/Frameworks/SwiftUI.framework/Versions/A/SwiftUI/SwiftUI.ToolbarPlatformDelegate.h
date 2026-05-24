@@ -9,7 +9,7 @@
     id provider;
 }
 
-- (id);
+- (id)ize=dd}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

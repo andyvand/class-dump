@@ -13,8 +13,8 @@
     PKPaymentPassActionGroup *_actionGroup;
 }
 
-- (id);
-- (id);
+- (id)hP;
+- (id);
 - (void);
 - (void)apple.passbook.payment.transaction.processing.location.non-optimal;
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPrivateEmailRVSWindowController, NSString, NSWindow;
+@class AKPrivateEmailRVSWindowController, NSWindow;
 
 @interface AKPrivateEmailUIProviderImp
 {
     NSWindow *_hostWindow;
-    AKPrivateEmailRVSWindowController *_privateEmailWindowController;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)CalDateFromComponents:(id)arg1 inTimeZone:(CDUnknownBlockType)arg2;
 - (void);
 - (id);
 - (void);
@@ -22,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
 @property(retain, nonatomic) AKPrivateEmailRVSWindowController *privateEmailWindowController; // @synthesize privateEmailWindowController=_privateEmailWindowController;
-@property(readonly) Class superclass;
 
 @end
 

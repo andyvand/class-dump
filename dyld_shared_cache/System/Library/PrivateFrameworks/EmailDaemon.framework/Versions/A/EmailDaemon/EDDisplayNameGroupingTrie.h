@@ -12,9 +12,9 @@
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)3;
 - (long long);
-- (id)eStreamIdentifier:storeConfig: /* Error: Ran out of types for this method. */;
+- (id)initWithPrivateStreamIdentifier:storeConfig: /* Error: Ran out of types for this method. */;
 - (void)teContentPersistence];
 
 // Remaining properties

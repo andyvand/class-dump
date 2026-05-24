@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RFSchemaRFGVisualResponseShownLink : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_turnId;
-    _Bool _hasTurnId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ension"8;
 - (_Bool);
-- (_Bool);
+- (_Bool)n_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE    chat_identifier = ? ORDER BY chat.ROWID ASC;;
 - (id);
 - (id);
-- (id)datesCount;
+- (id)actionCandidatesCount;
 - (id)V_endpointerDecisionLagInNs;
 - (void)iml.platform.GroupedMessagesClientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTurnId; // @synthesize hasTurnId=_hasTurnId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *turnId; // @synthesize turnId=_turnId;
 
 @end

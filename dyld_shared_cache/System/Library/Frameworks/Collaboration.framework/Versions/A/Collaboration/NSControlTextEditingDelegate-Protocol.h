@@ -5,5 +5,9 @@
 //
 
 @protocol NSControlTextEditingDelegate
+
+@optional
+- (void)UNNotificationExtensionCategory;
+- (_Bool)ier/siriIdentifier/pairedAppIdentifier -> ignoring the call.;
 @end
 

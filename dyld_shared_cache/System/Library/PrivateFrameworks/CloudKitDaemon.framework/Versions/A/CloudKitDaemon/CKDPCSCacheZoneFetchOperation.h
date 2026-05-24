@@ -6,31 +6,28 @@
 
 #import <CloudKitDaemon/CKDPCSCacheFetchOperation.h>
 
-@class CKDZonePCSData, CKRecordZoneID;
-
 @interface CKDPCSCacheZoneFetchOperation : CKDPCSCacheFetchOperation
 {
     _Bool _shouldCreateZoneishPCS;
-    _Bool _rolledPCSForZone;
 }
 
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)8@16q24B32;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -47,10 +44,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool needsZoneishPCS;
-@property(nonatomic) _Bool rolledPCSForZone; // @synthesize rolledPCSForZone=_rolledPCSForZone;
-@property(nonatomic) _Bool shouldCreateZoneishPCS; // @synthesize shouldCreateZoneishPCS=_shouldCreateZoneishPCS;
-@property(readonly, nonatomic) CKRecordZoneID *zoneID;
-@property(retain, nonatomic) CKDZonePCSData *zonePCSData;
 
 @end
 

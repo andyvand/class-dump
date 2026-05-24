@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, STMediaStatusDomainPublisher;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionProxyAttribution
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    STMediaStatusDomainPublisher *_stMediaStatusDomainPublisher;
 }
 
 + (id);

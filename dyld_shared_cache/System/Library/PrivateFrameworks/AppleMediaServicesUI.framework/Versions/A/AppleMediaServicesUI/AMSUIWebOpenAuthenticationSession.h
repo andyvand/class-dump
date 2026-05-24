@@ -6,20 +6,18 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, ASWebAuthenticationSessionCallback, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebOpenAuthenticationSession : AMSUIWebAction
 {
     _Bool _ephemeral;
-    NSURL *_URL;
-    ASWebAuthenticationSessionCallback *_callback;
 }
 
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)cation for asset type:(%{public}@) /* Error: Ran out of types for this method. */;
+- (id)ce;
+- (void)SEARCH_PERSON_RELATIONSHIP_BROTHER;
+- (_Bool)u6PBlweXlFRE6ufoMga1RVg/m7kBOA==;
 - (id);
 - (void);
 - (id);
@@ -29,16 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property(retain) ASWebAuthenticationSessionCallback *callback; // @synthesize callback=_callback;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool ephemeral; // @synthesize ephemeral=_ephemeral;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

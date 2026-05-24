@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSPanel, NSScreen, NSString, NSTextField, NSTimer;
+@class NSPanel;
 
 @interface ScreenSaverMessage
 {
     NSPanel *_panel;
-    NSTextField *_textField;
-    NSTimer *_fadeTimer;
-    NSDate *_fadeStartTime;
-    NSDate *_startTime;
-    NSScreen *_screen;
-    NSString *_placement;
-    double _duration;
-    double _finalAlpha;
 }
 
 + (void);
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id)__swift5_reflstr__TEXT;
 - (void);
 - (void);
 - (void);
@@ -32,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ct:%@ %@] /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (id);

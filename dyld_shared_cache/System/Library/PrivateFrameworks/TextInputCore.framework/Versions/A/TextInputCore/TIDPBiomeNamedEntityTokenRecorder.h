@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)cloud relay changes:%d /* Error: Ran out of types for this method. */;
+- (_Bool)ntinuity:(id)arg1 %d;
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 
 @end

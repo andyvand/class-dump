@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)supportsTileShaders;
+- (void)WiFiCallingCapability;
 @end
 

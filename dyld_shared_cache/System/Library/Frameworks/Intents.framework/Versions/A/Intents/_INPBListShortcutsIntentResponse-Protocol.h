@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, _INPBShortcutOverview;
 
 @protocol _INPBListShortcutsIntentResponse
+- (_INPBShortcutOverview *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *shortcuts;
-@property(readonly, nonatomic) unsigned long long shortcutsCount;
 @end
 

@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWKView, CALayer, ContinuousPageView, NSView, ReaderContainerView, ReaderWKView;
-@protocol TabContentViewDelegate;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface TabContentView
 {
     _Bool _isClosing;
-    ReaderContainerView *_readerContainerView;
-    ReaderWKView *_readerWKView;
-    NSView *_responsiveDesignModeView;
-    NSView *_startPageClipView;
-    _Bool _shouldClipStartPageViewDuringSwipe;
-    CALayer *_snapshotFadingLayer;
-    ContinuousPageView *_continuousBrowserPageView;
-    _Bool _canInvalidateSnapshotImage;
-    NSView *_contentView;
-    BrowserWKView *_browserWKView;
-    id <TabContentViewDelegate> _delegate;
-    NSView *_backgroundView;
-    NSView *_startPageView;
-    NSView *_bookmarksView;
-    NSView *_tabOverviewView;
-    NSView *_snapshotView;
-    double _topContentInset;
-    NSView *_dockedInspectorView;
 }
 
 - (void);
@@ -55,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -91,18 +72,7 @@ __attribute__((visibility("hidden")))
 - (void)-;
 
 // Remaining properties
-@property(readonly, nonatomic) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) struct CGRect backgroundViewVisibleBounds;
-@property(readonly, nonatomic) NSView *bookmarksView; // @synthesize bookmarksView=_bookmarksView;
-@property(readonly) BrowserWKView *browserWKView; // @synthesize browserWKView=_browserWKView;
 @property(readonly, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) struct CGRect contentVisibleBounds;
-@property(nonatomic) __weak id <TabContentViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSView *dockedInspectorView; // @synthesize dockedInspectorView=_dockedInspectorView;
-@property(readonly, nonatomic) NSView *snapshotView; // @synthesize snapshotView=_snapshotView;
-@property(readonly, nonatomic) NSView *startPageView; // @synthesize startPageView=_startPageView;
-@property(readonly, nonatomic) NSView *tabOverviewView; // @synthesize tabOverviewView=_tabOverviewView;
-@property(nonatomic) double topContentInset; // @synthesize topContentInset=_topContentInset;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CalendarNotification/CALNTriggeredEventNotificationData.h>
 
-@class EKTravelEngineHypothesis, NSDate, NSString;
+@class NSString;
 
 @interface CALNMutableTriggeredEventNotificationData : CALNTriggeredEventNotificationData
 {
@@ -20,17 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)t",&,N,V_displayEvent;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alarmID; // @dynamic alarmID;
-@property(nonatomic) _Bool hasDisplayedLeaveByMessage; // @dynamic hasDisplayedLeaveByMessage;
-@property(nonatomic) _Bool hasDisplayedLeaveNowMessage; // @dynamic hasDisplayedLeaveNowMessage;
-@property(nonatomic) _Bool hasDisplayedRunningLateMessage; // @dynamic hasDisplayedRunningLateMessage;
-@property(copy, nonatomic) EKTravelEngineHypothesis *hypothesis; // @dynamic hypothesis;
-@property(nonatomic) _Bool isOffsetFromTravelTimeStart; // @dynamic isOffsetFromTravelTimeStart;
-@property(copy, nonatomic) NSDate *lastFireTimeOfAlertOffsetFromTravelTime; // @dynamic lastFireTimeOfAlertOffsetFromTravelTime;
-@property(copy, nonatomic) NSDate *lastTimeNotificationAdded; // @dynamic lastTimeNotificationAdded;
 
 @end
 

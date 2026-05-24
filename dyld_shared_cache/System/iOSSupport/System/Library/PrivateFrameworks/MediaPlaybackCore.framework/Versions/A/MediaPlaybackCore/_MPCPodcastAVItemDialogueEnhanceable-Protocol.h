@@ -5,9 +5,9 @@
 //
 
 @protocol _MPCPodcastAVItemDialogueEnhanceable
+- (_Bool)__objc_const;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEnhanceDialogueActive;
 @property(readonly, nonatomic) _Bool supportsEnhanceDialogue;
 @end
 

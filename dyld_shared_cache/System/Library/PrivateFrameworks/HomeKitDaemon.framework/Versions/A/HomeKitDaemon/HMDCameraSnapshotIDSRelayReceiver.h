@@ -6,28 +6,20 @@
 
 #import <HomeKitDaemon/HMDCameraSnapshotIDSRelay.h>
 
-@class HMDCameraIDSSessionInviterDeviceVerifier, IDSSession, NSMutableData, NSObject, NSString, NSUUID;
-@protocol HMDCameraSnapshotIDSRelayReceiverDelegate, OS_dispatch_source;
+@class IDSSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotIDSRelayReceiver : HMDCameraSnapshotIDSRelay
 {
     IDSSession *_idsSession;
-    id <HMDCameraSnapshotIDSRelayReceiverDelegate> _delegate;
-    HMDCameraIDSSessionInviterDeviceVerifier *_sessionInviterDeviceVerifier;
-    NSUUID *_machOUUID;
-    NSMutableData *_relayData;
-    NSMutableData *_expectedByteCountData;
-    unsigned long long _expectedByteCount;
-    unsigned long long _receivedByteCount;
-    NSObject<OS_dispatch_source> *_socketSource;
 }
 
 + (id)Âÿ÷ÐÞB;
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)MSPMapsInstallState;
+- (void)r %@;
+- (void)ingPathLegs:(unsigned long long)arg1 %{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (id)SharedTripCapabilityFetching;
 - (id);
 - (id);
 - (id);
@@ -51,22 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)p;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDCameraSnapshotIDSRelayReceiverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property unsigned long long expectedByteCount; // @synthesize expectedByteCount=_expectedByteCount;
-@property(readonly) NSMutableData *expectedByteCountData; // @synthesize expectedByteCountData=_expectedByteCountData;
-@property(readonly) unsigned long long hash;
 @property(retain) IDSSession *idsSession; // @synthesize idsSession=_idsSession;
-@property(readonly) NSUUID *machOUUID; // @synthesize machOUUID=_machOUUID;
-@property unsigned long long receivedByteCount; // @synthesize receivedByteCount=_receivedByteCount;
-@property(readonly) NSMutableData *relayData; // @synthesize relayData=_relayData;
-@property(readonly) HMDCameraIDSSessionInviterDeviceVerifier *sessionInviterDeviceVerifier; // @synthesize sessionInviterDeviceVerifier=_sessionInviterDeviceVerifier;
-@property(retain) NSObject<OS_dispatch_source> *socketSource; // @synthesize socketSource=_socketSource;
-@property(readonly) Class superclass;
 
 @end
 

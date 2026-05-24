@@ -9,10 +9,9 @@
 @interface _IMDMetadataItem
 {
     NSString *_filePath;
-    struct __MDItem *_item;
 }
 
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -22,7 +21,6 @@
 - (void)for chatIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
 @property(readonly, nonatomic) struct __MDItem *item; // @synthesize item=_item;
 
 @end

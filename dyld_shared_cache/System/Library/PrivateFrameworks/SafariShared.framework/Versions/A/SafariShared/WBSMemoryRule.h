@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WBSMemoryRule
 {
     long long _ruleType;
-    NSArray *_classes;
-    NSArray *_constants;
-    NSArray *_subrules;
 }
 
 + (id);
 + (id);
-+ (long long);
++ (long long);
 + (id);
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (Class);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setCollectCredentialHarvestingInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *classes; // @synthesize classes=_classes;
-@property(readonly, nonatomic) NSArray *constants; // @synthesize constants=_constants;
 @property(readonly, nonatomic) long long ruleType; // @synthesize ruleType=_ruleType;
-@property(readonly, nonatomic) NSArray *subrules; // @synthesize subrules=_subrules;
 
 @end
 

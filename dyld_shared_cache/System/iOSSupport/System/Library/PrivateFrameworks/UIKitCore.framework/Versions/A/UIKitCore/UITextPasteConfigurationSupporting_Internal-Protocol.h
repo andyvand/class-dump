@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol UITextPasteConfigurationSupporting_Internal
+- (NSArray *)__im_dateWithNanosecondTimeIntervalSinceReferenceDate: /* Error: Ran out of types for this method. */;
+- (void)cancelAllOperations;
 - (void)À;
 
 @optional
++ (Class)setPreventsDeviceSleep: /* Error: Ran out of types for this method. */;
+- (void)function breakdown:(_Bool)arg1;
 - (void)á	°!¬Eù1fð1Â0@ù
 × ;
 

@@ -9,7 +9,6 @@
 @interface CLFindMyAccessorySoundSequence
 {
     NSMutableData *_encodedSequence;
-    unsigned long long _type;
 }
 
 + (id);
@@ -19,17 +18,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)rCreateWithBytes err = %s [%d]  '%c%c%c%c'
+;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)resolveCounters:(struct _NSZone *)arg1 inRange:destinationBuffer:destinationOffset: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly) NSData *encodedSequence;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *msv_symbol;
-@property(readonly, nonatomic) double msvl_timeValue;
 @end
 

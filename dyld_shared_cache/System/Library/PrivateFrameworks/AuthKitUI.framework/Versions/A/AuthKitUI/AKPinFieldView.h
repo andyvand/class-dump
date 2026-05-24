@@ -4,42 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSImage, NSString;
-@protocol AKPinFieldViewDelegate;
+@class NSImage;
 
 @interface AKPinFieldView
 {
     NSImage *_digitField;
-    NSArray *_pinFieldBoxArray;
-    struct CGRect *_digitRects;
-    struct CGRect _progressRect;
-    NSString *_localizedString;
-    NSString *_pinString;
-    int _position;
-    double _maxFontHeight;
-    _Bool _enabled;
-    _Bool _echosBullets;
-    _Bool _supportsRTL;
-    int _pinLength;
-    struct {
-        unsigned int pinFieldViewTextDidChange:1;
-        unsigned int pinFieldViewTextDidComplete:1;
-        unsigned int padding:6;
-    } _delegateFlags;
-    id <AKPinFieldViewDelegate> _delegate;
-    NSButton *_nextButtonResponder;
-    unsigned long long _chunkingStyle;
 }
 
 + (struct CGSize);
 + (struct CGSize);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)XDF;
 - (struct CGRect);
-- (id);
-- (id);
+- (id);
+- (id)9;
 - (id);
 - (void);
 - (void);
@@ -61,7 +41,7 @@
 - (id);
 - (_Bool);
 - (struct CGSize);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -77,10 +57,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long chunkingStyle; // @synthesize chunkingStyle=_chunkingStyle;
-@property(nonatomic) __weak id <AKPinFieldViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool echosBullets; // @synthesize echosBullets=_echosBullets;
-@property(retain, nonatomic) NSButton *nextButtonResponder; // @synthesize nextButtonResponder=_nextButtonResponder;
 @property(nonatomic) _Bool supportsRTL; // @synthesize supportsRTL=_supportsRTL;
 
 @end

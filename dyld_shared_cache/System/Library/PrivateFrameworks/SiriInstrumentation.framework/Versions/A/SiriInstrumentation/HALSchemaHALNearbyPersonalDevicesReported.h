@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALNearbyPersonalDevicesReported : SISchemaInstrumentationMessage
 {
     unsigned int _iPhoneCount;
-    unsigned int _iPadCount;
-    unsigned int _watchCount;
-    unsigned int _macBookCount;
-    unsigned int _macStudioCount;
-    unsigned int _iMacCount;
-    struct {
-        unsigned int iPhoneCount:1;
-        unsigned int iPadCount:1;
-        unsigned int watchCount:1;
-        unsigned int macBookCount:1;
-        unsigned int macStudioCount:1;
-        unsigned int iMacCount:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -32,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -59,28 +44,16 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)Zone",&,N,V_timeZone;
 - (id)0@ù
 × ;
-- (id)agnosticsAndUsageEnabled;
+- (id)hasIsDiagnosticsAndUsageEnabled;
 - (id)³;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIMacCount;
-@property(nonatomic) _Bool hasIPadCount;
-@property(nonatomic) _Bool hasIPhoneCount;
-@property(nonatomic) _Bool hasMacBookCount;
-@property(nonatomic) _Bool hasMacStudioCount;
-@property(nonatomic) _Bool hasWatchCount;
-@property(nonatomic) unsigned int iMacCount; // @synthesize iMacCount=_iMacCount;
-@property(nonatomic) unsigned int iPadCount; // @synthesize iPadCount=_iPadCount;
 @property(nonatomic) unsigned int iPhoneCount; // @synthesize iPhoneCount=_iPhoneCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int macBookCount; // @synthesize macBookCount=_macBookCount;
-@property(nonatomic) unsigned int macStudioCount; // @synthesize macStudioCount=_macStudioCount;
-@property(nonatomic) unsigned int watchCount; // @synthesize watchCount=_watchCount;
 
 @end
 

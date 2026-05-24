@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSDebugMenuGameControllersProvider
 {
     _Bool _sawFirstUpdate;
-    int _notifyToken;
 }
 
-+ (id);
++ (id)ltipart/x-mixed-replace;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)32@?<v@?>40;
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long):(id)arg1 %u;
+- (void)}^{ActiveResponseInfo}^{__CFData}^{LeftoverBuffer}q@@^{__CFRunLoopTimer}}8;
 - (void);
-- (void);
-- (void);
-- (id);
-- (int)rics;
+- (void)callDurEveSat;
+- (id);
+- (int)_syncFrameMetrics;
 - (void)A;
 - (_Bool)d×çÿïG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSMenuItem *menuItem;
-@property int notifyToken; // @synthesize notifyToken=_notifyToken;
 @property _Bool sawFirstUpdate; // @synthesize sawFirstUpdate=_sawFirstUpdate;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long systemStatus;
 
 @end
 

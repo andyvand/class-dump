@@ -6,9 +6,6 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, NSString, UIAccessibilityHUDGestureManager, UIColor, UISelectionFeedbackGenerator;
-@protocol UIIndexBarViewDelegate, UIIndexBarVisualStyle;
-
 @interface UIIndexBarView : UIControl
 {
     struct {
@@ -28,47 +25,31 @@
         unsigned int indexColorUpdated:1;
         unsigned int legibilityWeightOrPreferredContentSizeUpdated:1;
     } _visualStyleImplements;
-    UIColor *_indexColor;
-    NSArray *_entries;
-    id <UIIndexBarViewDelegate> _delegate;
-    unsigned long long _drawingInsetsMask;
-    UIColor *_trackingBackgroundColor;
-    long long _highlightStyle;
-    double _highlightedIndex;
-    double _deflection;
-    id <UIIndexBarVisualStyle> _visualStyle;
-    NSArray *_displayEntries;
-    double _cachedDisplayHighlightedIndex;
-    UIColor *_nonTrackingBackgroundColor;
-    UISelectionFeedbackGenerator *_selectionFeedbackGenerator;
-    UIAccessibilityHUDGestureManager *_axHUDGestureManager;
-    struct CGPoint _trackingStartLocationInWindow;
-    struct UIEdgeInsets _drawingInsets;
 }
 
-+ (id);
++ (id)%@;
 + (void);
 + (void)on:(Class)arg1 getScopeBarContentInset:(long long)arg2;
-- (struct CGPoint);
-- (id);
+- (struct CGPoint)};
+- (id)a;
+- (void)sAccount %@;
+- (void)@];
+- (void)ReplicatedMessagePipelineComponent> Allowing instant delivery of %@, message is not replicated.;
+- (void)rmanently deleting messages with GUID %@:(id)arg1;
+- (void)hes of messages during a full sync, setting fullPartialSyncFirstCompletedDate to %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)fetching archived messages as max batch attempt limit reached ********;
+- (void)vered quietly receipt processing;
+- (void)ion...;
+- (void)turned chat that did not match inputs:(id)arg1 %@;
+- (void)gAudience %@ nicknameVersion %@ decryptionKey %@ nickNameID %@ nameForked %@ imageForked %@;
+- (id)pdated the expected number of active iMessages accounts from %lu to %lu;
+- (id)te default not enabled;
 - (unsigned long long);
 - (struct UIEdgeInsets);
 - (double);
 - (id);
-- (double);
+- (double)?;
 - (double);
 - (id);
 - (void);
@@ -85,13 +66,13 @@
 - (struct CGRect);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)Setting Audible DRM info:(id)arg1 %{public}@;
 - (id);
 - (_Bool);
 - (void);
@@ -102,19 +83,19 @@
 - (id)!¸Gù\Ð1Â0@ù
 × ;
 - (void)PointerLensView"16@0:(id)arg1 8;
-- (void)tallHeight;
-- (void)ditingOrHasContent;
+- (void)_tallHeight;
+- (void)_shouldHideMagnifyingGlassWhenEditingOrHasContent;
 - (id)e>",W,N,V_delegate;
-- (void)teRequest:(id)arg1;
+- (void)setDelegateForCandidateRequest:(id)arg1;
 - (void)V_connectionValues;
 - (void)entationHint of a variable it doesn't know about:(struct CGRect)arg1 %@, which is owned by:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)%ld
 ;
-- (void)pCardViewController;
+- (void)AppCardViewController;
 - (id)sistency:unknown list environment ( /* Error: Ran out of types for this method. */;
-- (_Bool)nStateCIeyByy_;
+- (_Bool)So15UITableViewCellCSo24UICellConfigurationStateCIeyByy_;
 - (_Bool)¬?Ä7Øÿÿÿ;
 - (void)¶W;
 - (void)L¾g;
@@ -125,31 +106,7 @@
 - (void)|:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) UIAccessibilityHUDGestureManager *axHUDGestureManager; // @synthesize axHUDGestureManager=_axHUDGestureManager;
-@property(nonatomic) double cachedDisplayHighlightedIndex; // @synthesize cachedDisplayHighlightedIndex=_cachedDisplayHighlightedIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double deflection; // @synthesize deflection=_deflection;
-@property(nonatomic) __weak id <UIIndexBarViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *displayEntries; // @synthesize displayEntries=_displayEntries;
-@property(readonly, nonatomic) double displayHighlightedIndex;
-@property(nonatomic) struct UIEdgeInsets drawingInsets; // @synthesize drawingInsets=_drawingInsets;
 @property(nonatomic) unsigned long long drawingInsetsMask; // @synthesize drawingInsetsMask=_drawingInsetsMask;
-@property(readonly, nonatomic) struct CGRect effectiveBounds;
-@property(copy, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long highlightStyle; // @synthesize highlightStyle=_highlightStyle;
-@property(nonatomic) double highlightedIndex; // @synthesize highlightedIndex=_highlightedIndex;
-@property(copy, nonatomic) UIColor *indexColor; // @synthesize indexColor=_indexColor;
-@property(copy, nonatomic) UIColor *nonTrackingBackgroundColor; // @synthesize nonTrackingBackgroundColor=_nonTrackingBackgroundColor;
-@property(retain, nonatomic) UISelectionFeedbackGenerator *selectionFeedbackGenerator; // @synthesize selectionFeedbackGenerator=_selectionFeedbackGenerator;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) UIColor *trackingBackgroundColor; // @synthesize trackingBackgroundColor=_trackingBackgroundColor;
-@property(nonatomic) struct CGPoint trackingStartLocationInWindow; // @synthesize trackingStartLocationInWindow=_trackingStartLocationInWindow;
-@property(retain, nonatomic) id <UIIndexBarVisualStyle> visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end
 

@@ -4,55 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, NSXPCConnection, NSXPCInterface, NSXPCListenerEndpoint;
+@class NSXPCConnection, NSXPCInterface;
 
 @interface LFConnection
 {
     NSXPCInterface *_remoteInterface;
-    NSXPCInterface *_exportedInterface;
-    id _exportedObject;
-    unsigned long long _options;
-    NSUUID *_uuid;
-    NSXPCConnection *_nsxpcConnection;
-    NSString *_serviceName;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)EH1y;
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
+- (id)ribute may be ignored if the target device does not support repositioning functionality.;
+- (void);
+- (void);
+- (void)NSt3__111__match_anyIcEE;
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)initALSProperties;
 - (id);
 - (void);
 - (id);
 - (id)ion];
 
 // Remaining properties
-@property(readonly) NSXPCConnection *connection;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(retain) id exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(retain) NSXPCListenerEndpoint *listenerEndpoint; // @synthesize listenerEndpoint=_listenerEndpoint;
 @property(retain) NSXPCConnection *nsxpcConnection; // @synthesize nsxpcConnection=_nsxpcConnection;
-@property unsigned long long options; // @synthesize options=_options;
-@property(retain) NSXPCInterface *remoteInterface; // @synthesize remoteInterface=_remoteInterface;
-@property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, setter=setUUID:) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

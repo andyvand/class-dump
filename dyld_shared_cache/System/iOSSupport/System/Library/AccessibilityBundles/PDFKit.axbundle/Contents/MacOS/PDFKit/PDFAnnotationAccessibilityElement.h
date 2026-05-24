@@ -12,14 +12,13 @@
 {
     struct CGPDFTaggedNode *_nodeRef;
     PDFAnnotation *_annotation;
-    NSMutableArray *_cachedAXElements;
 }
 
 + (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)R	;
 - (void);
 - (id);
 - (_Bool);
@@ -31,11 +30,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)̕;
 - (struct CGRect);
-- (id);
-- (void);
-- (id);
+- (id)";
+- (void)=;
+- (id)@;
 - (unsigned long long);
 - (int);
 - (void);
@@ -44,7 +43,6 @@
 // Remaining properties
 @property(nonatomic) __weak PDFAnnotation *annotation; // @synthesize annotation=_annotation;
 @property(retain, nonatomic) NSMutableArray *cachedAXElements; // @synthesize cachedAXElements=_cachedAXElements;
-@property(nonatomic) struct CGPDFTaggedNode *nodeRef; // @synthesize nodeRef=_nodeRef;
 
 @end
 

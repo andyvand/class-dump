@@ -11,13 +11,11 @@
 @interface UARPAccessoryHardwareHID : UARPAccessoryHardwareID
 {
     NSMutableSet *_personalities;
-    unsigned short _vendorID;
-    unsigned short _productID;
 }
 
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)AMSMediaTaskTypeConfig;
+- (id)AMSActionRunner;
 - (id);
 - (_Bool);
 - (id);
@@ -27,7 +25,6 @@
 - (unsigned short);
 
 // Remaining properties
-@property(readonly) unsigned short productID; // @synthesize productID=_productID;
 @property(readonly) unsigned short vendorID; // @synthesize vendorID=_vendorID;
 
 @end

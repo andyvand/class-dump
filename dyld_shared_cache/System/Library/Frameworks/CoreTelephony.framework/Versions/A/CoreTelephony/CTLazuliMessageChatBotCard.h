@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotCard, CTLazuliChatBotSuggestedChipList;
+@class CTLazuliChatBotCard;
 
 @interface CTLazuliMessageChatBotCard
 {
     CTLazuliChatBotCard *_card;
-    CTLazuliChatBotSuggestedChipList *_chipList;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)n:%p stableID:%@ URL:%@> /* Error: Ran out of types for this method. */;
+- (void)b;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)truct;
 - (id);
 - (void)&°!ÜGùª)°1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliChatBotCard *card; // @synthesize card=_card;
-@property(retain, nonatomic) CTLazuliChatBotSuggestedChipList *chipList; // @synthesize chipList=_chipList;
 
 @end
 

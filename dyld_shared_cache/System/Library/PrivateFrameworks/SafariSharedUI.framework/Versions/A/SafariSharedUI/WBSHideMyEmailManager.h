@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPrivateEmailController, WBSCloudSubscriptionFeatureAvailabilityObserver, WBSPrimaryAppleAccountObserver;
+@class WBSPrimaryAppleAccountObserver;
 
 @interface WBSHideMyEmailManager
 {
     WBSPrimaryAppleAccountObserver *_accountObserver;
-    WBSCloudSubscriptionFeatureAvailabilityObserver *_provisionNewHideMyEmailAvailabilityObserver;
-    AKPrivateEmailController *_privateEmailController;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void)nHandler: /* Error: Ran out of types for this method. */;
+- (void)dataTask:willPerformHTTPRedirection:newRequest:decisionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

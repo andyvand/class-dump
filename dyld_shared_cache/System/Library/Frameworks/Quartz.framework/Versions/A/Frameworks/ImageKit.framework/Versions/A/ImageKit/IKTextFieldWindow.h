@@ -7,24 +7,17 @@
 @interface IKTextFieldWindow
 {
     id _fieldDelegate;
-    id _textView;
-    float _maxWidth;
-    struct CGPoint _anchorPoint;
-    struct CGSize _initialTitleSize;
-    int _resizingMask;
-    float _emptyStringHeight;
-    Class _textfieldClass;
 }
 
 - (Class);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (int);
+- (int)setManagingParentAppleIDs: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -32,15 +25,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_SFPBRFAvatarImage"16@0:(id)arg1 8;
 - (id);
 - (void);
-- (void)ify:(id)arg1;
-- (_Bool)dRoom;
+- (void)scrollWillStartMagnify:(id)arg1;
+- (_Bool)_imageMaxHeadRoom;
 
 // Remaining properties
 @property int resizingMask; // @synthesize resizingMask=_resizingMask;
-@property(retain) Class textfieldClass; // @synthesize textfieldClass=_textfieldClass;
 
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol SXActionActivityGroup;
+
 @protocol SXActionActivityManager
+- (void)C;
+- (id <SXActionActivityGroup>);
 @end
 

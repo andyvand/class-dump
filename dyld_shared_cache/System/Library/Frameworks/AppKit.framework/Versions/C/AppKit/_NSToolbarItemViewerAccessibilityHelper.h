@@ -10,26 +10,25 @@ __attribute__((visibility("hidden")))
 @interface _NSToolbarItemViewerAccessibilityHelper
 {
     NSToolbarItemViewer *_toolbarItemViewer;
-    long long _configuration;
 }
 
-+ (id);
++ (id)rtificate for this server is invalid.;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (_Bool)B;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)a valid content type!;
 - (void);
 
 @end

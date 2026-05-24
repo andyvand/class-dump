@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorImage, NSString;
+@class NSString;
 
 @interface BlastDoorAnimatedImageFrame
 {
@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)crollIntentTriggerUpdateContext"16;
+- (unsigned long long)CommandBuffer>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)"16^@24;
 - (double);
 - (id);
 - (id);
@@ -23,12 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double frameDuration;
-@property(nonatomic, readonly) _Bool has_frameDuration;
-@property(nonatomic, readonly) BlastDoorImage *image;
-@property(nonatomic, readonly) NSString *stickerEffect;
-@property(nonatomic, readonly) unsigned long long stickerEffectType;
-@property(nonatomic, readonly) NSString *utTypeString;
 
 @end
 

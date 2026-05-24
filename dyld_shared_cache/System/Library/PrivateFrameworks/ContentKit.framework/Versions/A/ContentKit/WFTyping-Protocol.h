@@ -7,6 +7,7 @@
 @class WFType;
 
 @protocol WFTyping
+- (WFType *);
 
 // Remaining properties
 @property(readonly, nonatomic) WFType *wfType;

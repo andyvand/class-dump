@@ -8,12 +8,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
++ (id)initWithSubcredentialDictionary:(int)arg1;
++ (id)initWithSubcredential:(int)arg1 automaticSelectionCriterion: /* Error: Ran out of types for this method. */;
++ (id)initWithStyleAttributes:(int)arg1;
++ (id)initWithStatus:(int)arg1 errors:(_Bool)arg2;
++ (void)ts:(unsigned int)arg1 editable: /* Error: Ran out of types for this method. */;
++ (void)initWithSharedEntitlements:availableEntitlements:predefinedSharedEntitlements:editable: /* Error: Ran out of types for this method. */;
 + (void);
 
 @end

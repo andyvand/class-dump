@@ -6,19 +6,17 @@
 
 #import <EventKitUI/EKUITableViewCell.h>
 
-@class UIView, UIVisualEffectView;
+@class UIVisualEffectView;
 
 @interface EKUIListViewCell : EKUITableViewCell
 {
     _Bool _carplayMode;
-    _Bool _dragPreview;
-    UIVisualEffectView *_effectView;
 }
 
 + (id);
 + (struct UIEdgeInsets);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -26,21 +24,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)&s;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)me:lastName: /* Error: Ran out of types for this method. */;
+- (void)updateWithAddress:fullName:firstName:lastName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool carplayMode; // @synthesize carplayMode=_carplayMode;
-@property(readonly, nonatomic) _Bool carplayUsesColorfulBackgrounds;
-@property(readonly, nonatomic) UIView *cellContentView;
-@property(readonly, nonatomic) _Bool dragPreview; // @synthesize dragPreview=_dragPreview;
 @property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;
 
 @end

@@ -9,11 +9,11 @@
     unsigned long long _types;
 }
 
-- (id);
+- (id)copyGuardianWhitelistedPropertyValuesToContacts:(unsigned long long)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@24@32@40@48@?56;
 - (unsigned long long)px;
 
 // Remaining properties

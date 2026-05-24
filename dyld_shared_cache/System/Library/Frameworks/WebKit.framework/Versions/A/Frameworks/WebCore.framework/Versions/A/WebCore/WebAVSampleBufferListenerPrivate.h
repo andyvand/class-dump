@@ -8,22 +8,20 @@ __attribute__((visibility("hidden")))
 @interface WebAVSampleBufferListenerPrivate
 {
     struct ThreadSafeWeakPtr<WebCore::WebAVSampleBufferListenerClient, WTF::NoTaggingTraits<WebCore::WebAVSampleBufferListenerClient>> _client;
-    struct Vector<WTF::RetainPtr<NSObject<WebSampleBufferVideoRendering>>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _videoRenderers;
-    struct Vector<WTF::RetainPtr<AVSampleBufferAudioRenderer>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _audioRenderers;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)C9;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)x3fv;
+- (void);
+- (id)&;
+- (id)uniformMatrix2x3fv;
 - (void)ð¢--­ê4naskitcèðbìêÚËcheîñÃ-zum-ëí¶^è`0moZám¹çñ;
 
 @end

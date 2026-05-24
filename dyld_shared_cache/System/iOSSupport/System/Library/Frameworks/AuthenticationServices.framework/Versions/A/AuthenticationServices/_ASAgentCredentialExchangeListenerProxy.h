@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_os_activity;
+@class NSXPCConnection;
 
 @interface _ASAgentCredentialExchangeListenerProxy
 {
     NSXPCConnection *_connection;
-    NSObject<OS_os_activity> *_activity;
-    unsigned long long _mode;
 }
 
 - (void);
@@ -25,8 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)k;
+- (void);
 - (void);
 
 @end

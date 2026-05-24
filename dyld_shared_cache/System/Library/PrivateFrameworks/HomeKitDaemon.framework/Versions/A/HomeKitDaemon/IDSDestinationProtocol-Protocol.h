@@ -10,6 +10,6 @@
 - (NSSet *)d map to a global handle;
 
 @optional
-- (NSDictionary *)tOverride;
+- (NSDictionary *)MemoryDiagnosticLimitOverride;
 @end
 

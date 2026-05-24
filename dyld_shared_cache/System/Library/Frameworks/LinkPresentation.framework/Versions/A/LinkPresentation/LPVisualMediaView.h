@@ -6,44 +6,12 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class CATextLayer, LPImage, LPImageViewStyle, LPVideo, LPVisualMedia, LPVisualMediaViewConfiguration, LPVisualMediaViewStyle, NSGestureRecognizer, NSImageView, NSString, NSView;
+@class LPVideo, LPVisualMediaViewConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface LPVisualMediaView : LPComponentView
 {
     LPVideo *_video;
-    LPVisualMediaViewStyle *_style;
-    LPImage *_posterFrame;
-    LPImageViewStyle *_posterFrameStyle;
-    LPVisualMediaViewConfiguration *_configuration;
-    NSView *_playButtonContainerView;
-    NSView *_playButtonView;
-    NSView *_muteButtonContainerView;
-    NSImageView *_muteButtonView;
-    NSView *_videoPlaceholderView;
-    NSView *_visualEffectView;
-    NSView *_pulsingLoadView;
-    NSView *_containerView;
-    NSView *_playbackView;
-    CATextLayer *_debugIndicator;
-    NSGestureRecognizer *_tapRecognizer;
-    NSGestureRecognizer *_playButtonTapRecognizer;
-    _Bool _playing;
-    _Bool _hasBuilt;
-    _Bool _wasPlayingOrWaitingToPlayWhenUnparented;
-    _Bool _wasPlayingWhenSuspended;
-    _Bool _showingPlayButton;
-    _Bool _waitingForPlaybackDueToAutoPlay;
-    _Bool _hasEverPlayed;
-    unsigned long long _lastInteractionTimestamp;
-    unsigned long long _playbackWatchdogTimerID;
-    unsigned int _loggingID;
-    _Bool _usesSharedAudioSession;
-    _Bool _allowsUserInteractionWithVideoPlayer;
-    _Bool _waitingForPlayback;
-    _Bool _fullScreen;
-    double _volume;
-    LPVisualMedia *_media;
 }
 
 - (_Bool);
@@ -53,18 +21,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)O;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -73,11 +41,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)d;
+- (void)Rd;
 - (id);
 - (void);
 - (void);
@@ -87,66 +55,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
+- (void);
+- (_Bool)qualifier;
+- (void);
+- (_Bool)removeObjectsInArray: /* Error: Ran out of types for this method. */;
+- (id)[WiFiUsageNetworkSession isSessionHarvestable];
 - (void);
 - (struct CGSize);
-- (id);
+- (id)sharing key on record %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)NSError"12;
 - (_Bool);
 - (void);
-- (void)43487;
+- (void)143487;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool allowsUserInteractionWithVideoPlayer; // @synthesize allowsUserInteractionWithVideoPlayer=_allowsUserInteractionWithVideoPlayer;
 @property(readonly, copy, nonatomic) LPVisualMediaViewConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFullScreen) _Bool fullScreen; // @synthesize fullScreen=_fullScreen;
-@property(nonatomic) _Bool hasEverPlayed; // @synthesize hasEverPlayed=_hasEverPlayed;
-@property(readonly, nonatomic) _Bool hasMuteControl;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long lastInteractionTimestamp;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) unsigned int loggingID; // @synthesize loggingID=_loggingID;
-@property(readonly, nonatomic) LPVisualMedia *media; // @synthesize media=_media;
-@property(nonatomic, getter=isMuted) _Bool muted;
-@property(readonly, nonatomic) NSView *playbackView; // @synthesize playbackView=_playbackView;
-@property(nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly, nonatomic) _Bool shouldAutoPlay;
-@property(readonly, nonatomic) _Bool shouldShowMuteButton;
-@property(readonly, nonatomic) _Bool shouldUnmuteWhenUserAdjustsVolume;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double unobscuredAreaFraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool usesSharedAudioSession; // @synthesize usesSharedAudioSession=_usesSharedAudioSession;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
-@property(nonatomic, getter=isWaitingForPlayback) _Bool waitingForPlayback; // @synthesize waitingForPlayback=_waitingForPlayback;
 
 @end
 

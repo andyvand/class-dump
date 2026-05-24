@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)hostUpdateTravelEstimates:forTripIdentifier: /* Error: Ran out of types for this method. */;
++ (id);
 + (void);
 - (void);
-- (void);
+- (void)newBufferWithLength:options: /* Error: Ran out of types for this method. */;
 
 @end
 

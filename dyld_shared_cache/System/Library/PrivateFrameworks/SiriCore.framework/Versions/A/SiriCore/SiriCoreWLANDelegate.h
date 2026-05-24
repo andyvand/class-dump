@@ -5,17 +5,16 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface SiriCoreWLANDelegate
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
 }
 
-+ (id);
++ (id)NSUbiquitousKeyValueStoreInitialSyncChange;
 + (_Bool);
-- (void);
+- (void)QueryComponentSubject;
 - (id);
 - (void);
 - (void);

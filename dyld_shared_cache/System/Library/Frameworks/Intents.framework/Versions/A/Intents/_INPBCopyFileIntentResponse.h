@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
+@class _INPBString;
 
 @interface _INPBCopyFileIntentResponse
 {
     CDStruct_be739ab4 _has;
-    _Bool _overwrite;
-    _Bool _success;
-    int _entityType;
-    _INPBString *_destinationName;
-    _INPBString *_entityName;
 }
 
 + (_Bool);
@@ -31,40 +26,24 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ding>"16@0:(id)arg1 8;
 - (_Bool);
 - (void);
 - (int);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)ssoryRequest"24;
+- (void)try for local network %@, merging;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)bloodPressureUnitAsString: /* Error: Ran out of types for this method. */;
 - (void)kelvin;
-- (void)videUpdateAllOccurrencesOptionsCollectionForUpdateEvent:(_Bool)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideUpdateAllOccurrencesOptionsCollectionForUpdateEvent:(_Bool)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (id)-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *destinationName; // @synthesize destinationName=_destinationName;
-@property(retain, nonatomic) _INPBString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(nonatomic) _Bool hasOverwrite;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool overwrite; // @synthesize overwrite=_overwrite;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

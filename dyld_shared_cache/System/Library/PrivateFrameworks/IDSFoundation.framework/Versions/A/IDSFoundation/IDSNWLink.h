@@ -4,55 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol IDSLinkDelegate, OS_nw_listener;
-
 @interface IDSNWLink
 {
     _Bool _isInvalidated;
-    _Bool _wantsWiFi;
-    _Bool _wantsCellular;
-    _Bool _useDefaultInterfaceOnly;
-    _Bool _isDefaultPairedDevice;
-    _Bool _wifiAssistEnabled;
-    _Bool _connectedToQR;
-    _Bool _transactionIDMismatchReported;
-    _Bool _disableP2P;
-    _Bool _shouldFailConnectionsRandomly;
-    NSString *_cellInterfaceName;
-    unsigned short _port;
-    unsigned short _cellularPort;
-    struct _opaque_pthread_t {
-        long long _field1;
-        struct __darwin_pthread_handler_rec *_field2;
-        char _field3[8176];
-    } *_nwtid;
-    struct os_unfair_lock_s _lock;
-    unsigned char _clientUUID[16];
-    NSObject<OS_nw_listener> *_listener;
-    NSObject<OS_nw_listener> *_cellularListener;
-    NSMutableArray *_recentQRServerList;
-    NSMutableArray *_cellularPortList;
-    NSMutableDictionary *_queuedPeelOffs;
-    NSMutableDictionary *_tokenToNWLinkConnection;
-    NSMutableDictionary *_tokenToPendingTCPNWLinkConnection;
-    NSMutableDictionary *_tokenToPendingUDPNWLinkConnection;
-    NSMutableDictionary *_tokenToChildConnectionEvaluator;
-    NSMutableSet *_rootConnections;
-    NSMutableDictionary *_interfaceIndexToNAT64LocalAddress;
-    NSMutableDictionary *_portToExtraListener;
-    int _pmtudUpdateInterval;
-    _Bool _disallowQUICPodForCellular;
-    _Bool _ftPowerOptimizationEnabled;
-    unsigned long long _state;
-    NSString *_cbuuid;
-    NSString *_deviceUniqueID;
-    id <IDSLinkDelegate> _delegate;
-    id <IDSLinkDelegate> _alternateDelegate;
-    NSIndexSet *_cellularInterfaceIndices;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 - (_Bool);
@@ -62,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,7 +29,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
@@ -91,9 +48,9 @@
 - (id);
 - (CDStruct_04adf134);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -115,7 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -129,7 +86,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)Z;
 - (_Bool);
 - (id);
 - (id);
@@ -163,37 +120,14 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)orient;
 - (unsigned short);
 - (void)erMaterialToProtoMessageTransactionID!;
 - (void)ßW·÷;
 - (void);
 
 // Remaining properties
-@property __weak id <IDSLinkDelegate> alternateDelegate; // @synthesize alternateDelegate=_alternateDelegate;
-@property(retain) NSString *cbuuid; // @synthesize cbuuid=_cbuuid;
-@property(retain, nonatomic) NSString *cellInterfaceName; // @synthesize cellInterfaceName=_cellInterfaceName;
-@property(retain, nonatomic) NSIndexSet *cellularInterfaceIndices; // @synthesize cellularInterfaceIndices=_cellularInterfaceIndices;
-@property(nonatomic) unsigned short cellularPort; // @synthesize cellularPort=_cellularPort;
-@property(nonatomic) _Bool connectedToQR; // @synthesize connectedToQR=_connectedToQR;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <IDSLinkDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *deviceUniqueID; // @synthesize deviceUniqueID=_deviceUniqueID;
-@property(nonatomic) _Bool disableP2P; // @synthesize disableP2P=_disableP2P;
-@property(nonatomic) _Bool disallowQUICPodForCellular; // @synthesize disallowQUICPodForCellular=_disallowQUICPodForCellular;
-@property(nonatomic) _Bool ftPowerOptimizationEnabled; // @synthesize ftPowerOptimizationEnabled=_ftPowerOptimizationEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long headerOverhead;
-@property(readonly, getter=linkTypeString) NSString *linkTypeString;
 @property(nonatomic) unsigned short port; // @synthesize port=_port;
-@property(readonly) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useDefaultInterfaceOnly; // @synthesize useDefaultInterfaceOnly=_useDefaultInterfaceOnly;
-@property(nonatomic) _Bool wifiAssistEnabled; // @synthesize wifiAssistEnabled=_wifiAssistEnabled;
 
 @end
 

@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (UIKitSupplementalItemExtras)
-- (void);
-- (id);
-- (long long);
+- (void)updated to using outPutPath %@ content location %@ old content location %@;
+- (id)g local sync state, and fetching the recoverable messages again %@;
+- (long long)iny flag;
 - (_Bool);
-- (_Bool);
+- (_Bool)d;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -17,12 +17,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsAlternativeInputCandidates;
 @property(readonly, nonatomic) _Bool containsAutofillCandidates;
-@property(readonly, nonatomic) _Bool containsContinuousPathConversions;
-@property(readonly, nonatomic) _Bool containsSlottedCandidates;
-@property(readonly, nonatomic) _Bool isShowingSuggestionForKeyboardCamera;
-@property(readonly, nonatomic) _Bool isShowingSuggestionForWritingTools;
-@property(readonly, nonatomic) _Bool notEmpty;
 @end
 

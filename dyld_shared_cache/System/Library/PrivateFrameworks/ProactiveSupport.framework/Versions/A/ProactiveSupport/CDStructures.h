@@ -58,24 +58,9 @@ struct _PASSqliteCacheScore {
     unsigned char score;
 };
 
-struct __sbuf {
-    char *_field1;
-    int _field2;
-};
-
 struct _opaque_pthread_mutex_t {
     long long __sig;
     char __opaque[56];
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
-};
-
-struct unique_ptr<proactive::pas::SynchronizedObject<(anonymous namespace)::HDGuardedData, proactive::pas::detail::RecursiveMutex>, std::default_delete<proactive::pas::SynchronizedObject<(anonymous namespace)::HDGuardedData, proactive::pas::detail::RecursiveMutex>>> {
-    struct {
-        void *__ptr_;
-    } ;
 };
 
 struct vector<float __attribute__((ext_vector_type(8))), (anonymous namespace)::SimdAlignedAllocator<float __attribute__((ext_vector_type(8)))>> {
@@ -109,9 +94,8 @@ typedef struct {
 } CDStruct_9b25d3c8;
 
 typedef struct {
-    void *mmapBase;
-    unsigned long long mmapSize;
-} CDStruct_601793be;
+    void *__cap_;
+} CDStruct_63fd5f43;
 
 typedef struct {
     unsigned int :1;
@@ -121,9 +105,4 @@ typedef struct {
     unsigned int :1;
     unsigned int :1;
 } CDStruct_d3566df9;
-
-// Ambiguous groups
-typedef struct {
-    void *__cap_;
-} CDStruct_63fd5f43;
 

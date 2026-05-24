@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISAnimatedImagePlayer, NSString, PFAnimatedImage, UIImageView;
+@class UIImageView;
 
 @interface ISAnimatedImageView
 {
     UIImageView *_placeholderImageView;
-    ISAnimatedImagePlayer *_player;
 }
 
-- (void);
+- (void)_bottom;
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)lta;
+- (_Bool)_numberOfColumns;
 - (void);
-- (void);
+- (void),R,N,V_inversionBehavior;
 - (void);
 - (id);
 - (id);
@@ -26,29 +25,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)AppleInternal/Library/BuildRoots/4~CNrJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Utilities/IPAGeometryConverter.m;
+- (void);
 - (id);
+- (void);
+- (void);
+- (_Bool)_remote_IXSDataPromise:setIsComplete:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void)playDuringHint;
+- (void)_playDuringHint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayedFrameIndex;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PFAnimatedImage *image;
 @property(nonatomic) UIImageView *placeholderImageView; // @synthesize placeholderImageView=_placeholderImageView;
-@property(retain, nonatomic) ISAnimatedImagePlayer *player; // @synthesize player=_player;
-@property(nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly) Class superclass;
 
 @end
 

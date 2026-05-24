@@ -18,10 +18,10 @@
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (unsigned long long);
++ (void)oCollection:(id)arg1 ];
++ (void)qrExperimentsOverride;
++ (void)_VCConnectionIDS_ReportingQRServerConfig;
++ (unsigned long long)&;
 
 @end
 

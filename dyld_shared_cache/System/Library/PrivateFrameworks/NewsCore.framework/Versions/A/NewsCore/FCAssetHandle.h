@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCContentArchive, FCContentManifest, FCInterestToken, FCOperation, NFUnfairLock, NSDate, NSError, NSHashTable, NSObject, NSString, NSURL, NTPBAsset;
-@protocol FCAssetDataProvider, FCAssetHandleDelegate, OS_dispatch_group;
+@protocol FCAssetDataProvider;
 
 @interface FCAssetHandle
 {
     _Bool _respectsMaxAge;
-    id <FCAssetDataProvider> _dataProvider;
-    NSError *_downloadError;
-    NSURL *_remoteURL;
-    FCOperation *_fetchOperation;
-    NSHashTable *_downloadRequests;
-    NSObject<OS_dispatch_group> *_fetchGroup;
-    unsigned long long _countOfPenalizedDownloadAttempts;
-    NSDate *_dateOfLastDownloadAttempt;
-    NFUnfairLock *_stateLock;
-    id <FCAssetHandleDelegate> _delegate;
-    FCInterestToken *_holdToken;
-    NSString *_assetKey;
-    long long _lifetimeHint;
-    NSString *_rawFilePath;
-    NTPBAsset *_assetMetadata;
 }
 
 - (id);
@@ -33,31 +17,23 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)GeoServices;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ingResourceId;
-- (id)ormatted:(CDUnknownBlockType)arg1 subscriptionPeriodInISO_8601:offerName:storeExternalVersion:bundleID:price:introOffer:payment: /* Error: Ran out of types for this method. */;
-- (id)name:curatedTagIDs:recommendedTopicTagIDs:recommendedChannelTagIDs:subcategories: /* Error: Ran out of types for this method. */;
+- (id)localAreasMappingResourceId;
+- (id)initWithPurchaseID:(CDUnknownBlockType)arg1 appAdamID:subscriptionPriceFormatted:subscriptionPeriodInISO_8601:offerName:storeExternalVersion:bundleID:price:introOffer:payment: /* Error: Ran out of types for this method. */;
+- (id)initWithIdentifier:name:curatedTagIDs:recommendedTopicTagIDs:recommendedChannelTagIDs:subcategories: /* Error: Ran out of types for this method. */;
 - (void)B,R,N,GareSegmentsEnabled,V_segmentsEnabled;
 - (id)	
 ;
 - (id);
 - (void)onfiguration-json;
-- (id)abled2;
+- (id)foregroundHeartbeatEventEnabled2;
 - (id)ÿ¶Y¾ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
 @property(retain) id <FCAssetDataProvider> dataProvider; // @synthesize dataProvider=_dataProvider;
-@property(readonly) NSError *downloadError;
-@property(readonly, copy) NSString *filePath;
-@property(readonly, copy) NSURL *fileURL;
-@property(readonly) _Bool isDownloadFailureRecoverable;
-@property(readonly, nonatomic) NSURL *remoteURL;
-@property(readonly, copy, nonatomic) NSString *uniqueKey;
 
 @end
 

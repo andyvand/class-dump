@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _MPCProtoSetPlaybackSessionResponse
 {
     double _scheduledRateChangeTimestamp;
-    struct {
-        unsigned int scheduledRateChangeTimestamp:1;
-    } _has;
 }
 
 - (id);

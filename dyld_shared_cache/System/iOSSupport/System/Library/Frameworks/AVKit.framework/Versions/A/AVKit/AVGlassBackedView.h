@@ -6,22 +6,17 @@
 
 #import <AVKit/AVView.h>
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface AVGlassBackedView : AVView
 {
     _Bool wantsCapsuleShape;
-    _Bool subdued;
-    long long backgroundMaterialStyle;
-    _Bool backgroundMaterialized;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (void);
 - (_Bool);
 - (long long);
@@ -34,10 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) UIColor *backgroundColor;
-@property(nonatomic) long long backgroundMaterialStyle; // @synthesize backgroundMaterialStyle;
-@property(nonatomic) _Bool backgroundMaterialized; // @synthesize backgroundMaterialized;
-@property(nonatomic) _Bool subdued; // @synthesize subdued;
 @property(nonatomic) _Bool wantsCapsuleShape; // @synthesize wantsCapsuleShape;
 
 @end

@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray, NSString;
-
 @interface SOUtteranceResultsFile
 {
     double _creationDate;
-    NSString *_creatorName;
-    NSString *_creatorArguments;
-    NSString *_recognizerType;
-    NSString *_localeIdentifier;
-    NSData *_audioFileData;
-    NSString *_rxGrammar;
-    NSMutableArray *_utteranceResults;
-    struct AudioStreamBasicDescription _streamDescription;
-    double _firstUtteranceStartTime;
 }
 
 - (id);
@@ -31,7 +20,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -42,26 +31,18 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)"+;
 - (id);
 - (struct AudioStreamBasicDescription);
 - (void);
-- (_Bool);
+- (_Bool)
+ka;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSData *audioFileData; // @synthesize audioFileData=_audioFileData;
 @property double creationDate; // @synthesize creationDate=_creationDate;
-@property(retain) NSString *creatorArguments; // @synthesize creatorArguments=_creatorArguments;
-@property(retain) NSString *creatorName; // @synthesize creatorName=_creatorName;
-@property double firstUtteranceStartTime; // @synthesize firstUtteranceStartTime=_firstUtteranceStartTime;
-@property(retain) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(retain) NSString *recognizerType; // @synthesize recognizerType=_recognizerType;
-@property(retain) NSString *rxGrammar; // @synthesize rxGrammar=_rxGrammar;
-@property struct AudioStreamBasicDescription streamDescription; // @synthesize streamDescription=_streamDescription;
-@property(retain) NSArray *utteranceResults; // @synthesize utteranceResults=_utteranceResults;
 
 @end
 

@@ -7,9 +7,10 @@
 @class NSData, _SFPBPerson;
 
 @protocol _SFPBPersonHeaderCardSection
+- (id);
+- (NSData *)setNextAvailableThumbnailIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person;
 @end
 

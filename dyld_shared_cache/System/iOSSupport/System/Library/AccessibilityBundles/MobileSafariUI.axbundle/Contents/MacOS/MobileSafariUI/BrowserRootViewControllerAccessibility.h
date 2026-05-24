@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemGridImagesKey;
 + (id);
 + (void);
 - (void);
@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 @end
 

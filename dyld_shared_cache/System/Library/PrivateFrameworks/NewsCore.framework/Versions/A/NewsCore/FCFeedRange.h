@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCDateRange, FCFeedCursor;
+@class FCFeedCursor;
 
 @interface FCFeedRange
 {
     FCFeedCursor *_top;
-    FCFeedCursor *_bottom;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id),R;
 + (id)d,R,N,V_videoComplete75ClickValue;
 + (id)ices/feldsparcore/Classes/FCArticleHeadlinesFetchOperation.m;
 - (id);
@@ -28,13 +27,13 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (struct _NSRange);
+- (unsigned long long)A;
+- (struct _NSRange)inputShadowAmount;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)rPrimaryPreferredChannel:peerSecondaryPreferredChannel: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -45,19 +44,9 @@
 - (_Bool);
 - (void);
 - (void)sWithIDs:] /* Error: Ran out of types for this method. */;
-- (double)emListIds;
+- (double)paidNotificationItemListIds;
 
 // Remaining properties
-@property(copy, nonatomic) FCFeedCursor *bottom; // @synthesize bottom=_bottom;
-@property(readonly, copy, nonatomic) FCDateRange *dateRange;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) unsigned long long maxOrder;
-@property(readonly, copy, nonatomic) FCFeedCursor *middle;
-@property(readonly, nonatomic) unsigned long long minOrder;
-@property(readonly, nonatomic) struct _NSRange nsRange;
-@property(readonly, nonatomic) _Bool reachesBottomOfFeed;
-@property(readonly, nonatomic) _Bool reachesTopOfFeed;
-@property(readonly, nonatomic) double timeInterval;
 @property(copy, nonatomic) FCFeedCursor *top; // @synthesize top=_top;
 
 @end

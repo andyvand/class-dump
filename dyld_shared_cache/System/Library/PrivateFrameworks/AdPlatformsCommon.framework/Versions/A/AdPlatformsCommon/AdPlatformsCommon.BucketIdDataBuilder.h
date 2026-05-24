@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.BucketIdDataBuilder
 {
     id anonymousSessionId;
-    id datasource;
-    id identifierStorage;
 }
 
 @end

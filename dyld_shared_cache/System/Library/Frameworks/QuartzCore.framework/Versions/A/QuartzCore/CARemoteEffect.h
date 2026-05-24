@@ -9,53 +9,40 @@
 @interface CARemoteEffect
 {
     NSString *_baseState;
-    NSString *_overrideState;
-    double _blendFactor;
-    NSDictionary *_userInfo;
-    NSDictionary *_animations;
-    unsigned long long _effectID;
-    unsigned long long _layerRenderID;
 }
 
 + (_Bool);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (double);
 - (id);
-- (id);
+- (id)};
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)preferRealTimeCacheMode;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *animations; // @synthesize animations=_animations;
-@property(copy) NSString *baseState; // @synthesize baseState=_baseState;
-@property double blendFactor; // @synthesize blendFactor=_blendFactor;
-@property(nonatomic) unsigned long long effectID; // @synthesize effectID=_effectID;
-@property(nonatomic) unsigned long long layerRenderID; // @synthesize layerRenderID=_layerRenderID;
-@property(readonly, copy) NSString *name;
-@property(copy) NSString *overrideState; // @synthesize overrideState=_overrideState;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

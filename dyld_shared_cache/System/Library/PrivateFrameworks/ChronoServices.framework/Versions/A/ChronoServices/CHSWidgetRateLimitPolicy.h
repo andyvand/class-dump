@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface CHSWidgetRateLimitPolicy
 {
     NSString *_identifier;
-    NSSet *rateLimits;
-    NSSet *_rateLimits;
 }
 
 + (_Bool);
@@ -19,22 +17,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_	;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSSet *rateLimits; // @synthesize rateLimits=_rateLimits;
-@property(readonly) Class superclass;
 
 @end
 

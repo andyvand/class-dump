@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)sterPlaylist;
+- (void)_clusterPlaylist;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *libraryID; // @synthesize libraryID=_libraryID;

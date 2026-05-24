@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField;
+@class NSTextField;
 
 @interface SOBusinessInfoViewController
 {
     NSTextField *_descriptionTextField;
-    NSButton *_aboutButton;
 }
 
 - (void);
@@ -19,11 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *aboutButton; // @synthesize aboutButton=_aboutButton;
 @property(retain, nonatomic) NSTextField *descriptionTextField; // @synthesize descriptionTextField=_descriptionTextField;
 
 @end

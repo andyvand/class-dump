@@ -11,19 +11,19 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 + (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)w�4;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (unsigned long long);
 - (id);

@@ -5,5 +5,8 @@
 //
 
 @protocol CNMeCardSharingSettingsViewControllerDelegate
+
+@optional
+- (void);
 @end
 

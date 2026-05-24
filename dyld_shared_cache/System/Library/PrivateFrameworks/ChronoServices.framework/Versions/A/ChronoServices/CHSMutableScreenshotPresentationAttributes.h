@@ -6,8 +6,6 @@
 
 #import <ChronoServices/CHSScreenshotPresentationAttributes.h>
 
-@class CHSWidgetTintParameters, NSDateComponents, NSString;
-
 @interface CHSMutableScreenshotPresentationAttributes : CHSScreenshotPresentationAttributes
 {
 }
@@ -16,16 +14,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *additionalSettingsContext; // @dynamic additionalSettingsContext;
-@property(nonatomic) _Bool allowsPrivacySensitiveContent; // @dynamic allowsPrivacySensitiveContent;
 @property(nonatomic) long long colorScheme; // @dynamic colorScheme;
-@property(copy, nonatomic) NSDateComponents *idealizedDateComponents; // @dynamic idealizedDateComponents;
-@property(copy, nonatomic) CHSWidgetTintParameters *tintParameters; // @dynamic tintParameters;
-@property(nonatomic) _Bool userWantsWidgetDataWhenPasscodeLocked; // @dynamic userWantsWidgetDataWhenPasscodeLocked;
 
 @end
 

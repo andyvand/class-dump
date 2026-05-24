@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (void);
++ (void)__NSCFBackgroundDownloadTask;
++ (void)__CFN_PathPolicyManager;
++ (_Bool)s>(%p);
++ (void)_kCFNetworkHSTSPreloaded;
++ (void)_kCFNetworkHSTSIncludeSubDomains;
 + (void);
 
 @end

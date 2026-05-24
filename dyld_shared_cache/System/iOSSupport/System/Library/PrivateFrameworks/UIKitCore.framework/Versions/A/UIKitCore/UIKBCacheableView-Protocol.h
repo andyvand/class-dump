@@ -12,7 +12,7 @@
 - (_Bool)`¹îÿ;
 - (long long)rdProxyLayerForwardingPresentationViewService.m;
 - (_Bool)ccurred while trying to get BOOL value for %@ default key for State Restoration Debug Logging:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)n;
+- (_Bool)SceneSessionActivationConfiguration;
 - (NSString *)\Úô\;
 
 @optional
@@ -20,15 +20,6 @@
 - (long long)CollectionViewCellPrefetchingMode;
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetIdiom;
-@property(readonly, nonatomic) long long cacheDeferPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool cacheDeferable;
 @property(readonly, nonatomic) NSString *cacheKey;
-@property(readonly, nonatomic) double cachedWidth;
-@property(readonly, nonatomic) _Bool displaysColorImage;
-@property(readonly, nonatomic) _Bool keepNonPersistent;
 @end
 

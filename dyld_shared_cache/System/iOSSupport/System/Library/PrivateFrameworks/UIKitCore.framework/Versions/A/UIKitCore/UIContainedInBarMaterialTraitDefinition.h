@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)nfoKey;
++ (id)UIApplicationStatusBarFrameUserInfoKey;
 + (long long)Ø¤ÿZ!Ý8h;
 
 @end

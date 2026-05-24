@@ -5,6 +5,6 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)etConversationListCollectionViewListItemIdentifier: /* Error: Ran out of types for this method. */;
++ (_Bool)setConversationListCollectionViewListItemIdentifier: /* Error: Ran out of types for this method. */;
 @end
 

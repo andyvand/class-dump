@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface ISyncFileLocker
 {
     NSString *_path;
-    NSString *_hostname;
-    NSString *_hostuuid;
-    NSObject *_delegate;
-    double _secondsToTimeout;
-    int _lockResult;
 }
 
 + (id);
@@ -24,33 +19,33 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (int);
+- (id);
+- (id);
+- (_Bool)+;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)r;
 - (void);
 - (id);
 - (int);

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _hasFired;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)TemplateIconRequestCount;
 - (void);
 - (void);
 - (id);

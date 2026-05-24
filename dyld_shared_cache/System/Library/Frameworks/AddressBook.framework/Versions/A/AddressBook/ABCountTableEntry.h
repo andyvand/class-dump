@@ -11,10 +11,10 @@
     unsigned long long _count;
 }
 
-- (id);
+- (id)H;
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)setFirstParty: /* Error: Ran out of types for this method. */;
+- (void)getCrossfireServiceWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned long long count; // @synthesize count=_count;

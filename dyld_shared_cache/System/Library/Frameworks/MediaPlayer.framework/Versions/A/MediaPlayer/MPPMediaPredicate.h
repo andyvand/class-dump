@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPCompoundPredicate, MPPConditionalPredicate, MPPPersistentIDsPredicate, MPPPropertyPredicate, MPPSearchStringPredicate;
+@class MPPCompoundPredicate;
 
 __attribute__((visibility("hidden")))
 @interface MPPMediaPredicate
 {
     MPPCompoundPredicate *_compoundPredicate;
-    MPPConditionalPredicate *_conditionalPredicate;
-    MPPPersistentIDsPredicate *_persistentIDsPredicate;
-    MPPPropertyPredicate *_propertyPredicate;
-    MPPSearchStringPredicate *_searchStringPredicate;
-    int _type;
-    struct {
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
@@ -41,28 +33,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)_handleSignatureCleared;
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool)icsSnippetURLComponents";
-- (void)lidationObservers:(_Bool)arg1;
-- (void)Descriptor:afterItemWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setInvalidationObservers:(_Bool)arg1;
+- (void)_insertQueueDescriptor:afterItemWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MPPCompoundPredicate *compoundPredicate; // @synthesize compoundPredicate=_compoundPredicate;
-@property(retain, nonatomic) MPPConditionalPredicate *conditionalPredicate; // @synthesize conditionalPredicate=_conditionalPredicate;
-@property(readonly, nonatomic) _Bool hasCompoundPredicate;
-@property(readonly, nonatomic) _Bool hasConditionalPredicate;
-@property(readonly, nonatomic) _Bool hasPersistentIDsPredicate;
-@property(readonly, nonatomic) _Bool hasPropertyPredicate;
-@property(readonly, nonatomic) _Bool hasSearchStringPredicate;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) MPPPersistentIDsPredicate *persistentIDsPredicate; // @synthesize persistentIDsPredicate=_persistentIDsPredicate;
-@property(retain, nonatomic) MPPPropertyPredicate *propertyPredicate; // @synthesize propertyPredicate=_propertyPredicate;
-@property(retain, nonatomic) MPPSearchStringPredicate *searchStringPredicate; // @synthesize searchStringPredicate=_searchStringPredicate;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

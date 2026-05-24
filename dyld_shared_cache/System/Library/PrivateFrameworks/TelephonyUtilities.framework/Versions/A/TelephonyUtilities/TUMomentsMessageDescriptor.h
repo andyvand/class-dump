@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TUSandboxExtendedURL;
+@class NSUUID;
 
 @interface TUMomentsMessageDescriptor
 {
     NSUUID *_messageUUID;
-    TUSandboxExtendedURL *_videoURL;
-    TUSandboxExtendedURL *_thumbnailURL;
 }
 
 + (_Bool);
@@ -20,13 +18,11 @@
 - (void);
 - (id)Á'°!TEù±³!°1Â0@ù
 × ;
-- (void)stionIdentifier;
-- (id)on: /* Error: Ran out of types for this method. */;
+- (void)suggestionIdentifier;
+- (id)forwardInvocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *messageUUID; // @synthesize messageUUID=_messageUUID;
-@property(readonly, nonatomic) TUSandboxExtendedURL *thumbnailURL; // @synthesize thumbnailURL=_thumbnailURL;
-@property(readonly, nonatomic) TUSandboxExtendedURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end
 

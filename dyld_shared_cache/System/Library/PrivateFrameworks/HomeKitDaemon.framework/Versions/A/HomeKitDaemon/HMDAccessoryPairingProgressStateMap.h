@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryPairingProgressStateMap
 {
     struct os_unfair_lock_s _accessoryPairingProgressStateMapLock;
-    NSMutableDictionary *_progressStateMap;
-    NSString *_lastProgressState;
-    NSString *_longestProgressState;
-    NSDate *_lastProgressStateEventTime;
 }
 
-- (void);
+- (void)participant already present %@;
 - (void);
 - (void);
 - (void);
@@ -30,9 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *lastProgressState; // @synthesize lastProgressState=_lastProgressState;
-@property(retain, nonatomic) NSDate *lastProgressStateEventTime; // @synthesize lastProgressStateEventTime=_lastProgressStateEventTime;
-@property(retain, nonatomic) NSString *longestProgressState; // @synthesize longestProgressState=_longestProgressState;
 @property(retain, nonatomic) NSMutableDictionary *progressStateMap; // @synthesize progressStateMap=_progressStateMap;
 
 @end

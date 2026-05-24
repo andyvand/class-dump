@@ -20,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCompletedRun;
 @property(nonatomic) _Bool hasStartedRun; // @synthesize hasStartedRun=_hasStartedRun;
 
 @end

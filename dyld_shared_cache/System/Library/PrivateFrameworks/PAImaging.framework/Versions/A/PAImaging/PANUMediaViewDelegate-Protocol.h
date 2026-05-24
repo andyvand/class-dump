@@ -5,5 +5,8 @@
 //
 
 @protocol PANUMediaViewDelegate
+
+@optional
+- (void);
 @end
 

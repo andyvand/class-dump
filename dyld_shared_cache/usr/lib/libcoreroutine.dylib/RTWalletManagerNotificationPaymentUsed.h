@@ -6,16 +6,11 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class CLLocation, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface RTWalletManagerNotificationPaymentUsed : RTNotification
 {
     NSString *_passIdentifier;
-    NSString *_transactionIdentifier;
-    NSDate *_date;
-    CLLocation *_location;
-    NSNumber *_muid;
-    NSNumber *_provider;
 }
 
 - (id);
@@ -23,16 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id)buteWithDomain:name: /* Error: Ran out of types for this method. */;
+- (id)attributeWithDomain:name: /* Error: Ran out of types for this method. */;
 - (void)rState, %{sensitive}@, isLocalStateInSync %{Bool}d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSNumber *muid; // @synthesize muid=_muid;
 @property(readonly, copy, nonatomic) NSString *passIdentifier; // @synthesize passIdentifier=_passIdentifier;
-@property(readonly, nonatomic) NSNumber *provider; // @synthesize provider=_provider;
-@property(readonly, copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

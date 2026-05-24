@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
-
 @interface QCSCN_MorpherReserved
 {
     struct __C3DMorpher *_morpher;
-    _Bool _normalized;
-    struct __C3DScene *_sceneRef;
-    unsigned int _presentationInstance:1;
-    NSMutableDictionary *_animations;
-    NSMutableArray *_weights;
-    NSString *_name;
-    NSString *_identifier;
 }
 
 - (void);

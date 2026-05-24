@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDContactSaveExecutor, CNCDContainerSaveExecutor, CNCDGroupMembershipSaveExecutor, CNCDGroupSaveExecutor, CNCDSaveContext;
+@class CNCDSaveContext;
 
 @interface CNCDSaveRequestExecutor
 {
     CNCDSaveContext *_saveContext;
-    CNCDContactSaveExecutor *_contactSaveExecutor;
-    CNCDGroupSaveExecutor *_groupSaveExecutor;
-    CNCDGroupMembershipSaveExecutor *_groupMembershipSaveExecutor;
-    CNCDContainerSaveExecutor *_containerSaveExecutor;
 }
 
 + (_Bool);
@@ -29,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void)isitPredicateExpression:keyPathScope:key: /* Error: Ran out of types for this method. */;
+- (void)visitPredicateExpression:keyPathScope:key: /* Error: Ran out of types for this method. */;
 - (id)or source ID %@. Giving up.;
 
 @end

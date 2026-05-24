@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface PPConnectionsParameters
 {
     NSDictionary *_assets;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)thPredictionStore:donationStore: /* Error: Ran out of types for this method. */;
++ (id)initWithPredictionStore:donationStore: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
+- (long long);
 - (double);
 - (long long);
 - (double);
@@ -24,24 +22,24 @@
 - (double);
 - (long long);
 - (id);
-- (id);
+- (id)t;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (id);
 - (double);
 - (double);
 - (_Bool);
-- (long long);
-- (long long);
-- (double);
+- (long long)setCachedRecipientName: /* Error: Ran out of types for this method. */;
+- (long long)@ success:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (double)__kIMPayloadDidChangeSendEnabled;
 - (unsigned long long);
-- (double);
+- (double);
 - (id);
-- (long long);
+- (long long)K;
 - (double);
-- (double);
-- (void)ntactsBatch:isLast:error:queryId:completion: /* Error: Ran out of types for this method. */;
+- (double);
+- (void)upcomingRelevantContactsBatch:isLast:error:queryId:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

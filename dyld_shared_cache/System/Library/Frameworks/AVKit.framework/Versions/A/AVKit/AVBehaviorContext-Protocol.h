@@ -7,6 +7,7 @@
 @class AVPlayerView;
 
 @protocol AVBehaviorContext
+- (AVPlayerView *);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AVPlayerView *playerView;

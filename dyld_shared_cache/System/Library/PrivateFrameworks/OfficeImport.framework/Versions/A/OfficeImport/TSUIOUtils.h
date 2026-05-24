@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (struct CGDataProvider *);
++ (struct CGDataProvider *)	;
 + (struct CGDataProvider *);
 
 @end

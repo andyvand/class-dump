@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, CHSynthesisRequestOptions, NSString;
+@class CHDrawing;
 
 @interface CHRemoteSynthesisRequest
 {
     CHDrawing *_drawing;
-    CHSynthesisRequestOptions *_options;
-    NSString *_string;
-    long long _requestType;
-    long long _priority;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)_horizontalScroller;
+- (id)
+KL;
 - (id);
 - (id);
 - (id);
@@ -29,10 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, copy, nonatomic) CHSynthesisRequestOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

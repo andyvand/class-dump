@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface PGEventLabelingConfiguration
 {
     long long modelVersion;
-    void meaningLabels;
-    id thresholdsByMeaningLabel;
 }
 
++ (_Bool)C;
 + (_Bool);
-+ (_Bool);
-+ (id)eInterval;
-- (_Bool);
++ (id)_referenceDateInterval;
+- (_Bool),V_isPreFetchInfo;
+- (id)allPageElements;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (long long);
+- (long long)GraphManager;
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *meaningLabels;
 @property(nonatomic, readonly) long long modelVersion; // @synthesize modelVersion;
 
 @end

@@ -15,7 +15,7 @@
 + (void);
 - (id);
 - (id);
-- (void);
+- (void)T@"NSArray",C,N,V_childEventParsers;
 
 @end
 

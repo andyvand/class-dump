@@ -9,17 +9,15 @@
 @interface CNAutocompleteStoreQueryContext
 {
     CNCache *_directoryServerReuseCache;
-    CNCache *_calendarServerReuseCache;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) CNCache *calendarServerReuseCache; // @synthesize calendarServerReuseCache=_calendarServerReuseCache;
 @property(readonly) CNCache *directoryServerReuseCache; // @synthesize directoryServerReuseCache=_directoryServerReuseCache;
 
 @end

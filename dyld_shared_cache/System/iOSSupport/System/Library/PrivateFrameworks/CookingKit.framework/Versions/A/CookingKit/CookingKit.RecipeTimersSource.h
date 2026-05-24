@@ -8,7 +8,6 @@
 {
     id recipeTimerManager;
     id state;
-    id _$scope;
 }
 
 @end

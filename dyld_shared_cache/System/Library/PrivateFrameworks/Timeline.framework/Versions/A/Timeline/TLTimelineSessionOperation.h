@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSOperationQueue;
+@class NSOperationQueue;
 @protocol TLTimelineDataSourceProvider;
 
 @interface TLTimelineSessionOperation
 {
     id <TLTimelineDataSourceProvider> _provider;
-    NSArray *_operations;
-    double _providerTimeout;
-    double _operationTimeout;
-    CDUnknownBlockType _sessionCompletionBlock;
-    NSOperationQueue *_operationQueue;
-    NSError *_sessionError;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (double);
-- (void);
+- (double)tD;
+- (void)GSize=dd}}32@0:(id)arg1 8@"UIEditMenuInteraction"16@"UIEditMenuConfiguration"24;
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)URLSession:task:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @dynamic completionBlock;
 @property(readonly, copy, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) double operationTimeout; // @synthesize operationTimeout=_operationTimeout;
-@property(readonly, copy, nonatomic) NSArray *operations; // @synthesize operations=_operations;
-@property(readonly, nonatomic) id <TLTimelineDataSourceProvider> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) double providerTimeout; // @synthesize providerTimeout=_providerTimeout;
-@property(copy) CDUnknownBlockType sessionCompletionBlock; // @synthesize sessionCompletionBlock=_sessionCompletionBlock;
-@property(copy) NSError *sessionError; // @synthesize sessionError=_sessionError;
 
 @end
 

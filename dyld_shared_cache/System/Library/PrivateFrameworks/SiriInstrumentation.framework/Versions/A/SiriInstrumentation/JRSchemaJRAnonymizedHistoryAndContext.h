@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRAnonymizedHistoryAndContext : SISchemaInstrumentationMessage
 {
@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,11 +30,10 @@
 - (id)1Â0@ù
 × ;
 - (id)V_directInvocationId;
-- (id)gUpState;
+- (id)SADSchemaSADAssetBringUpState;
 - (void)¼#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tuples; // @synthesize tuples=_tuples;
 
 @end

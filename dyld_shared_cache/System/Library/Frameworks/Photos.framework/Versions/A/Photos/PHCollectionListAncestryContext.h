@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
 @protocol NSFastEnumeration;
 
 @interface PHCollectionListAncestryContext
 {
     id <NSFastEnumeration> _allCollectionLists;
-    NSMutableDictionary *_collectionListsByOID;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)X;
 - (id);
 - (id);
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(retain) id <NSFastEnumeration> allCollectionLists; // @synthesize allCollectionLists=_allCollectionLists;
-@property(retain) NSMutableDictionary *collectionListsByOID; // @synthesize collectionListsByOID=_collectionListsByOID;
 
 @end
 

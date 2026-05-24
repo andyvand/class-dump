@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCommandButtonItem;
+@class NSArray;
 
 @interface _SFPBRFVisualPropertyWithAction
 {
     _Bool _is_safe_for_logging;
-    NSArray *_visual_elements;
-    _SFPBCommandButtonItem *_commandItem;
 }
 
 - (unsigned long long);
@@ -26,25 +24,15 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)ion:(id)arg1;
+- (id)valid import identifier for %@ (parent path:%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)6@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandButtonItem *commandItem; // @synthesize commandItem=_commandItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool is_safe_for_logging; // @synthesize is_safe_for_logging=_is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *visual_elements; // @synthesize visual_elements=_visual_elements;
 
 @end

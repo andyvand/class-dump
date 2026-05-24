@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBShowContactCardCommand
+- (_Bool);
+- (void)objectAtIndexedSubscript:(NSString *)arg1;
+- (NSData *)alAdjustmentData;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contactIdentifier;
-@property(nonatomic) _Bool isSuggestedContact;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -9,12 +9,11 @@
 @interface MPSCNNSpatialNormalizationNode : MPSCNNNormalizationNode
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
 }
 
 + (id);
 - (void *);
-- (id);
+- (id)N;
 - (Class);
 - (unsigned long long);
 - (unsigned long long);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 
 @end

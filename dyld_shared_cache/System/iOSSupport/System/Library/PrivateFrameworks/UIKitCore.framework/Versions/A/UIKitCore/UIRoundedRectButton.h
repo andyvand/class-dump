@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (id);
+- (id)not get an AppName;
 - (void);
 - (id);
+- (void)EASDeviceIdentifier;
 - (void);
-- (void);
-- (void)te:(struct CGRect)arg1;
+- (void)_dividerImageForLeftButtonState:(struct CGRect)arg1 rightButtonState: /* Error: Ran out of types for this method. */;
 - (id)Radii;
 - (void)H;
 - (void)MailCompositionService;

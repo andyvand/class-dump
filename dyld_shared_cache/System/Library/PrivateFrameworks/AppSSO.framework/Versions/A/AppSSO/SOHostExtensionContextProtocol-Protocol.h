@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol SOHostExtensionContextProtocol
+- (void)4;
+- (void)enumerateRelatedConstructionMaterialsUsingBlock:(NSString *)arg1;
 @end
 

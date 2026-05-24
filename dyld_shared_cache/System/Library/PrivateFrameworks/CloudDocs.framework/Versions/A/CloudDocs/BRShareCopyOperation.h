@@ -9,21 +9,19 @@
 @interface BRShareCopyOperation : BRShareOperation
 {
     CDUnknownBlockType _shareCopyCompletionBlock;
-    CDUnknownBlockType _rootShareCopyCompletionBlock;
 }
 
 - (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
+- (CDUnknownBlockType);
+- (void)K.;
+- (id)o;
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType rootShareCopyCompletionBlock; // @synthesize rootShareCopyCompletionBlock=_rootShareCopyCompletionBlock;
 @property(copy) CDUnknownBlockType shareCopyCompletionBlock; // @synthesize shareCopyCompletionBlock=_shareCopyCompletionBlock;
 
 @end

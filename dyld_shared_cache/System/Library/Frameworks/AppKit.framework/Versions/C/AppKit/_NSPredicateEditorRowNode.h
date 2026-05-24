@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, _NSPredicateEditorTree;
+@class _NSPredicateEditorTree;
 
 __attribute__((visibility("hidden")))
 @interface _NSPredicateEditorRowNode
 {
     _NSPredicateEditorTree *tree;
-    NSMutableArray *templateViews;
-    NSMutableArray *copiedTemplateContainer;
-    NSArray *children;
 }
 
-+ (id);
++ (id)_initializedWithAVAsset;
 + (id);
 - (id);
 - (id);
@@ -32,12 +29,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)dTrailingConstraint;
+- (id)textFieldTrailingConstraint;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *children; // @synthesize children;
-@property(retain, nonatomic) NSMutableArray *copiedTemplateContainer; // @synthesize copiedTemplateContainer;
-@property(retain, nonatomic) NSMutableArray *templateViews; // @synthesize templateViews;
 @property(readonly) _NSPredicateEditorTree *tree; // @synthesize tree;
 
 @end

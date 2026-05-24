@@ -4,71 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIImage, UIView, _UIBarCustomizationChiclet;
-
 @interface _UIBarCustomizationItem
 {
     _Bool _enabled;
-    _Bool _collapsed;
-    _Bool _removable;
-    _Bool _collapsible;
-    _Bool _reverseItemsForRTL;
-    NSString *_identifier;
-    NSString *_name;
-    UIImage *_icon;
-    UIView *_view;
-    UIColor *_tintColor;
-    CDUnknownBlockType _sourceViewProvider;
-    NSArray *_subitems;
-    _UIBarCustomizationChiclet *__chiclet;
 }
 
 + (id);
 + (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (CDUnknownBlockType)I]}32;
+- (void)telephonyCountryCodesEligibleForJunkFiltering;
+- (void)setLowQualityStatus:(CDUnknownBlockType)arg1;
+- (void)sendReportJunkMessageGUID:(_Bool)arg1 shouldRelay: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationManager:conversation:updatedMessagesGroupPhoto: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct CGRect)started doing periodic syncs. Logging full periodic sync metric.;
+- (void)SNotification"8;
+- (id);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)for %s request object %p, resulting request %s queue depth %ld;
 - (id);
 - (id);
 - (void);
 - (void)× ;
-- (id)rLayer;
+- (id)_imageContainerLayer;
 - (id)ibutes;
 - (id)UIFocusRegionContainer>",?,R,W,N,G_focusMapContainer;
 - (id)D;
 - (id)mbolic breakpoint at -[UIViewController setParentViewController:] to catch this in the debugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)p>;
-- (void)icationShortcutIconTypeContact;
+- (void)UIApplicationShortcutIconTypeContact;
 - (void)P_àÿ¨2ÖØv^;
 - (void)ó;
 - (void)ie;
 
 // Remaining properties
-@property(retain, nonatomic) _UIBarCustomizationChiclet *_chiclet; // @synthesize _chiclet=__chiclet;
-@property(nonatomic) _Bool collapsed; // @synthesize collapsed=_collapsed;
 @property(nonatomic) _Bool collapsible; // @synthesize collapsible=_collapsible;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) UIImage *icon; // @synthesize icon=_icon;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool removable; // @synthesize removable=_removable;
-@property(nonatomic) _Bool reverseItemsForRTL; // @synthesize reverseItemsForRTL=_reverseItemsForRTL;
-@property(copy, nonatomic) CDUnknownBlockType sourceViewProvider; // @synthesize sourceViewProvider=_sourceViewProvider;
-@property(readonly, nonatomic) NSArray *subitems; // @synthesize subitems=_subitems;
-@property(copy, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

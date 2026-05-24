@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMap : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_userEphemeralId;
-    SISchemaUUID *_userAggregationId;
-    unsigned long long _userAggregationIdRotationTimestampMs;
-    unsigned long long _userAggregationIdExpirationTimestampMs;
-    SISchemaUUID *_deviceAggregationId;
-    struct {
-        unsigned int userAggregationIdRotationTimestampMs:1;
-        unsigned int userAggregationIdExpirationTimestampMs:1;
-    } _has;
-    _Bool _hasUserEphemeralId;
-    _Bool _hasUserAggregationId;
-    _Bool _hasDeviceAggregationId;
 }
 
 - (unsigned long long);
@@ -29,8 +18,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)2?;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,27 +41,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id)!T@ùÞ1Â0@ù
 × ;
-- (id)DomainFallback;
+- (id)_cirAlertDomainFallback;
 - (id)standingReported;
 - (void)entResults.payload.outcome.parameterNotAllowed.value.value.query.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *deviceAggregationId; // @synthesize deviceAggregationId=_deviceAggregationId;
-@property(nonatomic) _Bool hasDeviceAggregationId; // @synthesize hasDeviceAggregationId=_hasDeviceAggregationId;
-@property(nonatomic) _Bool hasUserAggregationId; // @synthesize hasUserAggregationId=_hasUserAggregationId;
-@property(nonatomic) _Bool hasUserAggregationIdExpirationTimestampMs;
-@property(nonatomic) _Bool hasUserAggregationIdRotationTimestampMs;
-@property(nonatomic) _Bool hasUserEphemeralId; // @synthesize hasUserEphemeralId=_hasUserEphemeralId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *userAggregationId; // @synthesize userAggregationId=_userAggregationId;
-@property(nonatomic) unsigned long long userAggregationIdExpirationTimestampMs; // @synthesize userAggregationIdExpirationTimestampMs=_userAggregationIdExpirationTimestampMs;
-@property(nonatomic) unsigned long long userAggregationIdRotationTimestampMs; // @synthesize userAggregationIdRotationTimestampMs=_userAggregationIdRotationTimestampMs;
 @property(retain, nonatomic) SISchemaUUID *userEphemeralId; // @synthesize userEphemeralId=_userEphemeralId;
 
 @end

@@ -11,7 +11,7 @@
     NSMapTable *_liveObserversMap;
 }
 
-- (void);
+- (void)webAuthPanel;
 - (void);
 - (id);
 - (void)plicateKey";

@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)ayloadCallAudioRoutesAsString: /* Error: Ran out of types for this method. */;
++ (long long)payloadCallAudioRoutesAsString: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)y;
+- (id)_INPBJSONDictionary;
 
 @end
 

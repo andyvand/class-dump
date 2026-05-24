@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_transaction;
-
 @interface DMFOSStateHandler
 {
     CDUnknownBlockType _block;
-    NSString *_name;
-    unsigned long long _handle;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
 - (void);
 - (struct os_state_data_s *);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)rea;
+- (void)__objc_arrayobj;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) unsigned long long handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end
 

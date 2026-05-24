@@ -7,9 +7,6 @@
 @interface GEOComposedRouteLaneChangeInfo
 {
     unsigned long long _laneCount;
-    GEOPolylineCoordinateRange_482ebfc6 _routeCoordinateRange;
-    CDStruct_071ac149 _startCoordinate;
-    CDStruct_071ac149 _endCoordinate;
 }
 
 + (_Bool)%@;
@@ -20,13 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long)ctionsAtIndex: /* Error: Ran out of types for this method. */;
+- (unsigned long long)poiPredictionsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_39925896 endCoordinate; // @synthesize endCoordinate=_endCoordinate;
 @property(readonly, nonatomic) unsigned long long laneCount; // @synthesize laneCount=_laneCount;
-@property(readonly, nonatomic) GEOPolylineCoordinateRange_38d3edb7 routeCoordinateRange; // @synthesize routeCoordinateRange=_routeCoordinateRange;
-@property(readonly, nonatomic) CDStruct_39925896 startCoordinate; // @synthesize startCoordinate=_startCoordinate;
 
 @end
 

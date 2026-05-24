@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, UNUserNotificationCenter;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface PowerUIIBLMNotificationManager
 {
     int _notifyToken;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    UNUserNotificationCenter *_unCenter;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)_keybagSyncStringForAccount:(id)arg1 withTransactionType:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (int);
@@ -31,17 +28,7 @@
 - (void)learning table structure - missing or invalid %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UNUserNotificationCenter *unCenter; // @synthesize unCenter=_unCenter;
 
 @end
 

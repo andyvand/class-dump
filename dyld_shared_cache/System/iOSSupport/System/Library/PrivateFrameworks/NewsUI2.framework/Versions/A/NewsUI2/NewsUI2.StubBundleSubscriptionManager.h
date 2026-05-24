@@ -5,38 +5,32 @@
 //
 
 @class FCBundleSubscription;
-@protocol FCEntitlementsOverrideProviderType;
 
 @interface NewsUI2.StubBundleSubscriptionManager
 {
     FCBundleSubscription *cachedSubscription;
-    FCBundleSubscription *bundleSubscription;
-    id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
 }
 
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)promotedContentViewOfType:(unsigned long long)arg1 size:(CDUnknownBlockType)arg2 startsCollapsed: /* Error: Ran out of types for this method. */;
 - (void)ù11Â0@ù
 × ;
 - (void)zR;
 - (id)2H3;
-- (void)pe;
+- (void)AudioHistoryFeedSectionFactoryType;
 
 // Remaining properties
-@property(nonatomic, readonly) FCBundleSubscription *bundleSubscription; // @synthesize bundleSubscription;
 @property(nonatomic, readonly) FCBundleSubscription *cachedSubscription; // @synthesize cachedSubscription;
-@property(nonatomic, retain) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider; // @synthesize entitlementsOverrideProvider;
-@property(nonatomic, readonly) FCBundleSubscription *validatedCachedSubscription;
 
 @end
 

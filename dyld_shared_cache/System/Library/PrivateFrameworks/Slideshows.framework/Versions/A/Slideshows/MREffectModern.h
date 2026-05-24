@@ -6,20 +6,19 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImageProvider;
+@class MRCroppingSprite;
 
 @interface MREffectModern : MREffect
 {
     MRCroppingSprite *mSprite;
-    MRImageProvider *mGradientProvider;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)o;
+- (id)So17OS_dispatch_groupC;
+- (_Bool)AnalyticsPayloadAssemblerDroppedEnvelopeReasonMissingConfigForContentType)];
+- (id)nvelopeSubmissionDatesByContentType(NSArray<id<NDAnalyticsEnvelopeStoreEntry>> *__strong);
 - (_Bool);
 - (id);
 - (_Bool);

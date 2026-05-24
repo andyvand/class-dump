@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (id)setOffGridAvailabilitySubscriptionService: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (double)dentifier:preserveUndeletableEntities:] /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double)eConstraintsPass;
+- (double)_needsDoubleUpdateConstraintsPass;
 
 @end
 

@@ -7,18 +7,13 @@
 @interface NewsArticles.CampaignLandingPageViewController
 {
     id isImpressionable;
-    id pageDelegate;
-    id articleViewController;
-    id styler;
-    id eventHandler;
-    id urlHandler;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)eFrom;
+- (void)moreFrom;
 - (void);
 
 @end

@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, NSMapTable, NSOperationQueue, NSString;
+@class HMFMessageDispatcher;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeAdministratorHandler
 {
     struct os_unfair_lock_s _lock;
-    NSOperationQueue *_queue;
-    NSMapTable *_receivers;
-    HMDHome *_home;
-    HMFMessageDispatcher *_dispatcher;
 }
 
 + (id)B;
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (_Bool)utHasFace;
+- (_Bool)HDR.rgb / 12.0, rgbWeights.rgb); bw = clamp(bw, 0.0, 1.0); vec3 lms; lms.x = dot(imageHDR.rgb, vec3(0.3139902162, 0.6395129383, 0.0464975462)); lms.y = dot(imageHDR.rgb, vec3(0.155372406, 0.7578944616, 0.0867014186)); lms.z = dot(imageHDR.rgb, vec3(0.017752387, 0.109442094, 0.8725692246)); lms = pow(lms, vec3(0.43)); float i = dot(lms, vec3(0.4,0.4,0.2)); float p = dot(lms, vec3(4.4550,-4.8510,0.3960)); float t = dot(lms, vec3(0.8056,0.3572,-1.1628)); float chroma = sqrt(p*p+t*t); float hue = 0.5 + (atan(t, p) / 6.28318530718); vec2 huePt = vec2(hue * hueImageWidth + huePixelCenter, 0.5); float hueGamma = hueTableScaleFactor * texture2D(hueImage, huePt).a; float cd = 0.06 + 0.53 * abs(i-0.5); float lowSaturationDamp = smoothstep(0.0, 1.0, (chroma)/cd); float intensityDamp = smoothstep(0.0, 1.0, 1.0 - i); float lowLuminosityDamp = smoothstep(0.0, 1.0, 25.0 * i); float hWeight = lowSaturationDamp * intensityDamp * lowLuminosityDamp; hueGamma -= 1; hueGamma *= hWeight; hueGamma += 1; bw = pow(bw, hueGamma); float bwSDR = clamp(bw * 12.0, 0.0, 1.0); float midLumWeight = bwSDR*(1.0 - bwSDR); float grayWeight = 1.0 - smoothstep(0.0, 1.0, chroma * 10.0); float nWeight = midLumWeight * grayWeight; neutralGamma -= 1; neutralGamma *= nWeight; neutralGamma *= -2; neutralGamma += 1; bw = pow(bw, neutralGamma); bw = bw * 12.0; bw = clamp(bw, 0.0, 12.0); float df0 = 0.812379; float result; if (bw < df0) { result = 1.8031*bw*bw*bw - 2.1972*bw*bw + 1.3823*bw; } else { float scale = 12.0 - df0; float x = (bw - df0) / scale; result = 1.8031*x*x*x - 2.1972*x*x + 1.3823*x; result = result * scale + df0; result -= 0.158305860; } bw = mix(bw, result,-phototone); return vec4(bw,bw,bw,imageHDR.a); };
+- (id)rk Time;
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)iB;
 - (id);
 - (void)nConditionPresenceProvider>";
-- (_Bool)ortsHomeLevelLocationServiceSetting: /* Error: Ran out of types for this method. */;
+- (_Bool)setSupportsHomeLevelLocationServiceSetting: /* Error: Ran out of types for this method. */;
 - (id)public}@Couldn't find object with objectID %{public}@ using existingObjectWithID API;
 - (id)%tu new accessory objects for a newly paired accessory server:%@ /* Error: Ran out of types for this method. */;
 - (void)ettingValueCodingKey;
-- (void)cameReachableOverRapport;
+- (void)HMDHomeDeviceBecameReachableOverRapport;
 - (id)lþ=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) HMFMessageDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue;
-@property(readonly) _Bool shouldRelayMessages;
-@property(readonly) Class superclass;
 
 @end
 

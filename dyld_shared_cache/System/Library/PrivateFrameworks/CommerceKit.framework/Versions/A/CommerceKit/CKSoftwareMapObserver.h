@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CKSoftwareMapObserver
 {
     CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -22,7 +18,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

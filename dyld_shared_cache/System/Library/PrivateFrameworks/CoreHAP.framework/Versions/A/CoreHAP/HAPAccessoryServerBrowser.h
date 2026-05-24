@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPMetricsDispatcher, NSArray, NSMutableSet, NSObject, NSString;
-@protocol HAPKeyStore, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HAPAccessoryServerBrowser
 {
     struct os_unfair_lock_s _lock;
-    _Bool _remoteBrowsingEnabled;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    long long _linkType;
-    NSMutableSet *_pairedAccessoryIdentifiers;
-    NSMutableSet *_removedAccessoryIdentifiers;
-    id <HAPKeyStore> _keyStore;
-    HAPMetricsDispatcher *_logEvent;
 }
 
 - (_Bool);
@@ -30,13 +23,13 @@
 - (id);
 - (void);
 - (void);
+- (void)ation tryParsingAceHeaderData:(id)arg1 compressionType:bytesRead:error:] /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)p;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -53,30 +46,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <HAPKeyStore> keyStore; // @synthesize keyStore=_keyStore;
-@property(readonly, nonatomic) long long linkType; // @synthesize linkType=_linkType;
-@property(readonly, nonatomic) HAPMetricsDispatcher *logEvent; // @synthesize logEvent=_logEvent;
-@property(retain, nonatomic) NSMutableSet *pairedAccessoryIdentifiers; // @synthesize pairedAccessoryIdentifiers=_pairedAccessoryIdentifiers;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) _Bool recommendBrowserReset;
-@property(nonatomic) _Bool remoteBrowsingEnabled; // @synthesize remoteBrowsingEnabled=_remoteBrowsingEnabled;
-@property(retain, nonatomic) NSMutableSet *removedAccessoryIdentifiers; // @synthesize removedAccessoryIdentifiers=_removedAccessoryIdentifiers;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

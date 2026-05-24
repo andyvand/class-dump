@@ -11,7 +11,7 @@
     _Bool _active;
 }
 
-- (id);
+- (id)atDetachPartition;
 - (_Bool);
 
 // Remaining properties

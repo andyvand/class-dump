@@ -6,19 +6,10 @@
 
 #import <CMCapture/BWNode.h>
 
-@class NSDictionary, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface BWMatteMediaScalerNode : BWNode
 {
     struct opaqueCMFormatDescription *_outputFormatDescription;
-    int _poolBaseCapacity;
-    NSDictionary *_mainImageDownscalingFactorByAttachedMediaKey;
-    NSDictionary *_outputSizeByAttachedMediaKey;
-    NSMutableDictionary *_pixelBufferPoolByAttachedMediaKey;
-    struct OpaqueVTPixelTransferSession *_attachedMediaScalingSession;
-    _Bool _backPressureDrivenPipelining;
-    _Bool _preferMainImageDownscalingFactorByAttachedMediaKeyFromSampleBuffer;
 }
 
 + (void)leased already.;
@@ -28,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void)á!Ð!;

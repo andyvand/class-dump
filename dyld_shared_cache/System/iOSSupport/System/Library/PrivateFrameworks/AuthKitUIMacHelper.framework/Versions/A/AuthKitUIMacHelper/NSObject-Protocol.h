@@ -4,17 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)nu"40@0:8@"UITextView"16@"NSArray"24@"NSArray"32 /* Error: Ran out of types for this method. */;
+- (id)NSArray"40;
+- (id)NSArray"24@"NSString"32;
+- (id)24@"NSString"40;
+- (id)8@"UITextView"16{_NSRange=QQ}24@"NSString"40;
+- (Class)}24@40;
+- (unsigned long long)@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)_determineNumberOfDevicesInSyncCircleForOperation:(Class)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)mCachedClippedPath;
+
+@optional
+- (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

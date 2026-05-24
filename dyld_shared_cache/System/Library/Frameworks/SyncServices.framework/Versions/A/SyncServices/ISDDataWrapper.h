@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface ISDDataWrapper
 {
     NSString *_guid;
-    NSString *_extension;
-    NSDate *_moddate;
-    NSData *_signature;
-    NSNumber *_length;
-    unsigned int _hash;
-    NSString *_subdir;
-    NSData *_dataCache;
-    NSString *_recordId;
-    NSString *_propertyName;
-    _Bool _faultFailure;
-    NSString *_previousExtension;
 }
 
 + (void);
@@ -27,13 +16,13 @@
 + (id);
 + (id);
 + (id);
-+ (void)ecord:forClient:generation:entity:syncState:takeUnformattedRelationshipsFromRecord:saveUnformattedValues:ignoredProperties: /* Error: Ran out of types for this method. */;
++ (void)applyRecordDictionary:toRecord:forClient:generation:entity:syncState:takeUnformattedRelationshipsFromRecord:saveUnformattedValues:ignoredProperties: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)&B�*;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -43,7 +32,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -57,10 +46,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);

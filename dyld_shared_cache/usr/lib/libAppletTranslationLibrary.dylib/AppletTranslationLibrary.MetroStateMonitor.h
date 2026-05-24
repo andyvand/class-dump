@@ -7,14 +7,16 @@
 @interface AppletTranslationLibrary.MetroStateMonitor
 {
     id state;
-    id userDefaults;
-    id subscriber;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)sc autoincrement,
+   operation   text,
+   GUID        text,
+   event       text,
+   timestamp   float);;
 - (void);
 
 // Remaining properties

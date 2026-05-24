@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (id);
+- (id)deleteMessagesWithChatIdentifiers:(id)arg1 style:onServices: /* Error: Ran out of types for this method. */;
+- (id)_updateHandleList:withHandles:forKey:broadcastUpdates: /* Error: Ran out of types for this method. */;
 - (void)òÅØü\;
 
 // Remaining properties

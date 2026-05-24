@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SADSchemaSADTrialRollout, SISchemaVersion;
+@class SISchemaVersion;
 
 @interface SADSchemaSADTrialNamespaceStatus : SISchemaInstrumentationMessage
 {
     SISchemaVersion *_namespaceCompatabilityVersion;
-    SADSchemaSADTrialRollout *_rollout;
-    NSArray *_assets;
-    int _trialNamespace;
-    struct {
-        unsigned int trialNamespace:1;
-    } _has;
-    _Bool _hasNamespaceCompatabilityVersion;
-    _Bool _hasRollout;
 }
 
 - (int);
@@ -42,28 +34,21 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ing %lu results:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)g from %@;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)sionContext;
+- (id)createSessionContext;
 - (id)clearAggregationStats;
 - (id)N,V_mediaState;
 - (void)hasHandleLabel;
 - (unsigned long long)SISchemaSubRequestType;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(nonatomic) _Bool hasNamespaceCompatabilityVersion; // @synthesize hasNamespaceCompatabilityVersion=_hasNamespaceCompatabilityVersion;
-@property(nonatomic) _Bool hasRollout; // @synthesize hasRollout=_hasRollout;
-@property(nonatomic) _Bool hasTrialNamespace;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaVersion *namespaceCompatabilityVersion; // @synthesize namespaceCompatabilityVersion=_namespaceCompatabilityVersion;
-@property(retain, nonatomic) SADSchemaSADTrialRollout *rollout; // @synthesize rollout=_rollout;
-@property(nonatomic) int trialNamespace; // @synthesize trialNamespace=_trialNamespace;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <InstallCoordination/IXOwnedDataPromise.h>
 
-@class IXPromisedTransferToPathSeed, NSURL;
+@class IXPromisedTransferToPathSeed;
 
 @interface IXPromisedTransferToPath : IXOwnedDataPromise
 {
@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h9I;
 - (id);
 - (_Bool);
 - (id);
@@ -32,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isComplete) _Bool complete; // @dynamic complete;
-@property(nonatomic) double percentComplete; // @dynamic percentComplete;
 @property(retain, nonatomic) IXPromisedTransferToPathSeed *seed; // @dynamic seed;
-@property(nonatomic) _Bool shouldCopy; // @dynamic shouldCopy;
-@property(retain, nonatomic) NSURL *transferPath; // @dynamic transferPath;
-@property(nonatomic) _Bool tryDeltaCopy; // @dynamic tryDeltaCopy;
 
 @end
 

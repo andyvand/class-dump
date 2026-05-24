@@ -16,9 +16,6 @@
 
 // Remaining properties
 @property(readonly) _Bool isDeviceCharging;
-@property(readonly) _Bool isDeviceOnData;
-@property(readonly) _Bool isDeviceOnWifi;
-@property(readonly) _Bool isOnLowBandwidthCellular;
 
 @end
 

@@ -7,7 +7,8 @@
 @protocol CBPeripheralManagerDelegate
 
 @optional
-- (void)¸;
+- (void)6;
 - (void);
+- (void)multiTime;
 @end
 

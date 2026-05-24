@@ -11,13 +11,12 @@
 @interface DMFFetchAvailableOSUpdatesRequest : DMFTaskRequest
 {
     _Bool _useDelay;
-    NSString *_productVersion;
 }
 
 + (Class);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)�;
 + (id);
 - (_Bool);
 - (void);
@@ -26,11 +25,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)%@ (%{public}@);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(nonatomic) _Bool useDelay; // @synthesize useDelay=_useDelay;
 
 @end
 

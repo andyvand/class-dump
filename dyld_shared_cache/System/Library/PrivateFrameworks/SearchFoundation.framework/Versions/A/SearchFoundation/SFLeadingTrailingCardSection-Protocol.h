@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFLeadingTrailingCardSection
+- (void)*;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingCardSections;
-@property(nonatomic) double leadingToTrailingRatio;
-@property(copy, nonatomic) NSArray *trailingCardSections;
 @property(copy, nonatomic) NSString *type;
 @end
 

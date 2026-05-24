@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPCategoryCorrections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_addeds;
-    NSMutableArray *_removeds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_addeds:1;
-        unsigned int read_removeds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)nsaction:(id)arg1;
++ (_Bool)setIsNonApplePayFpanTransaction:(id)arg1;
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)this save will fail with a contact constraint violation.;
+- (id)Without a container, this save will fail with a contact constraint violation.;
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (unsigned long long)#;
 - (id);
 - (id);
 - (void);
@@ -46,21 +28,25 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)selfTriggerWithAVVCAudioSource;
+- (void)o = %@, context = %@;
+- (id)#;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)as_isPermanentlyClosed"b1"has_isStandaloneBrand"b1"has_telephoneAdsOptOut"b1"read_unknownFields"b1"read_mapsAltCategoryMuids"b1"read_placeLookupCategorys"b1"read_altFaxs"b1"read_altTelephones"b1"read_altUrls"b1"read_alternateSearchableNames"b1"read_disclaimerText"b1"read_fax"b1"read_inlineRapEnablement"b1"read_localizedCategorys"b1"read_mapsAltCategoryIds"b1"read_mapsCategoryId"b1"read_modernLocalizedCategorys"b1"read_modernMapsCategoryId"b1"read_names"b1"read_secondaryName"b1"read_secondarySpokenName"b1"read_spokenNames"b1"read_styleAttributes"b1"read_telephone"b1"read_urlData"b1"read_url"b1"read_walletCategoryId"b1"wrote_anyField"b1};
-- (id)avMode;
+- (id)activeNavMode;
 - (id)èX;
-- (id)ODULE_TYPE_ENCYCLOPEDIC;
+- (id)MODULE_TYPE_ENCYCLOPEDIC;
 - (void)ì¤¾,íDL@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *addeds;
-@property(retain, nonatomic) NSMutableArray *removeds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

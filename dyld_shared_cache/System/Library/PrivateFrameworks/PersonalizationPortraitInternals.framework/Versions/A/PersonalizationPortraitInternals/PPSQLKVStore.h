@@ -10,9 +10,9 @@
 
 + (void);
 + (id);
-+ (void);
-+ (id);
-+ (void);
++ (void)permanentlyDeleteRecoverableMessagesInChatsWithGUIDs:(id)arg1 queryID:(id)arg2;
++ (id)@] we found another handle [%@] with contactID [%@] that has the same mergedID:(id)arg1 [%@];
++ (void)DidRegenerateGroupID63841559;
 + (id);
 + (void);
 

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (struct CGRect)\ð1Â0@ù
 × ;
-- (_Bool)SizeForDatePickerMode:(id)arg1;
-- (id)LayerPreferredDynamicRange;
+- (_Bool)idealLayoutFittingSizeForDatePickerMode:(id)arg1;
+- (id)UseLayerPreferredDynamicRange;
 
 @end
 

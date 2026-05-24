@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSDateComponents;
+@class NSDate, NSDateComponents;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCalendarDateComponent
@@ -13,21 +13,19 @@ __attribute__((visibility("hidden")))
     NSDate *_date;
 }
 
-+ (unsigned long long);
++ (unsigned long long)ep;
 + (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)rpness;
-- (id)nsetDeltaForViewController:(id)arg1;
+- (_Bool)sharpness;
+- (id)_computeAndApplyScrollContentInsetDeltaForViewController:(id)arg1;
 - (id)eWords;
 - (id)N,V_sourceViewSnapshot;
 - (void);
 - (id)xc;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCalendar *calendar;
-@property(readonly, nonatomic) NSDateComponents *components; // @synthesize components=_components;
 @property(readonly, nonatomic) NSDate *date;
 
 @end

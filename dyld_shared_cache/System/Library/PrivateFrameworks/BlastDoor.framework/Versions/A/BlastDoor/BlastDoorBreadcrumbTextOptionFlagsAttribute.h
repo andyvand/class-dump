@@ -14,12 +14,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)siriDidTransitionFromState:toState:event: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) unsigned long long optionFlags;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

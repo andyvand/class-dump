@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSDeviceOffersStore
@@ -15,7 +15,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)#
+;
 - (void);
 - (id);
 - (void);
@@ -31,16 +32,6 @@ k0&Tµmi}ÎQj V¯ @ZD@2·ÑÜí{LP½AùUë¿Ô~ 
 
 // Remaining properties
 @property(retain) NSArray *cachedRegistrationGroups;
-@property(readonly) NSArray *companionSerialNumbers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *deviceOfferEligibility;
-@property(retain) NSArray *deviceOffers;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

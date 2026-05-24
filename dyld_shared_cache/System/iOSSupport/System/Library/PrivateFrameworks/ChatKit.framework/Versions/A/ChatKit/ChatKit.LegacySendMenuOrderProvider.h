@@ -7,9 +7,6 @@
 @interface ChatKit.LegacySendMenuOrderProvider
 {
     id $__lazy_storage_$_excludedExtensionIdentifiers;
-    id $__lazy_storage_$_defaultExtensionIdentifiers;
-    id preferResetPositionOnUpgradeExtensionIdentifiers;
-    id forceResetPositionOnUpgradeExtensionIdentifiers;
 }
 
 @end

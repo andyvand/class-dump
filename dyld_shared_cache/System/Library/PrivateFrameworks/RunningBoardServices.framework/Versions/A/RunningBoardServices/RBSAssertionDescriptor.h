@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, RBSAssertionIdentifier, RBSTarget;
+@class RBSAssertionIdentifier;
 
 @interface RBSAssertionDescriptor
 {
     RBSAssertionIdentifier *_identifier;
-    RBSTarget *_target;
-    NSString *_explanation;
-    NSArray *_attributes;
 }
 
 + (_Bool);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,7 +22,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (id);
@@ -33,17 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) RBSAssertionIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) RBSTarget *target; // @synthesize target=_target;
 
 @end
 

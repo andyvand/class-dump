@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAccount, IAProvider, NSBundle, NSString;
+@class NSBundle;
 
 @interface IAPlugin
 {
     NSBundle *_bundle;
-    IAAccount *_account;
-    IAProvider *_provider;
 }
 
 - (void);
@@ -24,18 +22,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)[b;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) IAAccount *account; // @synthesize account=_account;
 @property(retain) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly) NSString *identifier;
-@property(retain) IAProvider *provider; // @synthesize provider=_provider;
 
 @end
 

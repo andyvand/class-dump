@@ -7,11 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBSearchWebCommand
-- (void)isible:(NSString *)arg1;
+- (NSData *)gVideoRenderURL;
+- (id);
+- (void)sectionHeaderDidBecomeVisible:(NSString *)arg1;
 - (NSString *)TrailingCardSection",&,N,V_leadingTrailingCardSection;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *searchString;
 @end
 

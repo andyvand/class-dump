@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVCaptureVideoDataOutput, AVWeakReference;
+@class AVCaptureDataOutputDelegateCallbackHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDepthDataOutputInternal
 {
     AVCaptureDataOutputDelegateCallbackHelper *delegateCallbackHelper;
-    AVWeakReference *weakReference;
-    _Bool alwaysDiscardsLateDepthData;
-    _Bool filteringEnabled;
-    AVCaptureVideoDataOutput *companionSettingsVideoDataOutput;
 }
 
-- (void);
+- (void)der;
 - (id);
 
 @end

@@ -6,13 +6,12 @@
 
 #import <OfficeImport/EDSortedCollection.h>
 
-@class EDResources, EDWorksheet;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDColumnInfoCollection : EDSortedCollection
 {
     EDResources *mResources;
-    EDWorksheet *mWorksheet;
 }
 
 - (id);

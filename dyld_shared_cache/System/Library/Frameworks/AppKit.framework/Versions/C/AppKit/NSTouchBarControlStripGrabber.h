@@ -6,27 +6,17 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSString;
-
 @interface NSTouchBarControlStripGrabber : NSView
 {
     id _target;
-    SEL _action;
-    long long _state;
-    _Bool _highlighted;
-    CALayer *_backgroundLayer;
-    CALayer *_upperChevronLayer;
-    CALayer *_lowerChevronLayer;
-    struct NSEdgeInsets _alignmentRectInsets;
-    _Bool _enabled;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)sk corpse with error:%d /* Error: Ran out of types for this method. */;
++ (id)ME daemon;
++ (id)g process %d;
++ (id)[%llu:%p] using %s proxy configuration /* Error: Ran out of types for this method. */;
+- (_Bool)t be non NULL and ctx->inDataLength must be non 0;
+- (_Bool)4c:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -35,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);
@@ -46,11 +36,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)\;
 - (long long);
 - (void);
 - (id)setObservedView:(struct CGRect)arg1;
-- (_Bool)hName:(id)arg1 boundObject:(id)arg2;
+- (_Bool)initWithName:(id)arg1 boundObject:(id)arg2;
 - (void)ÿÿÿÿ`;
 - (void)<;
 - (SEL)eensForExtendedDynamicRangeChange;
@@ -58,27 +48,14 @@
 - (void)tside post-update bounds [0,%ld) for section %ld;
 - (void)nhilite menu item);
 - (void)ount > _numberOfPinnedTabs;
-- (void)apseNotification;
+- (void)NSOutlineViewItemWillCollapseNotification;
 - (struct NSEdgeInsets);
 - (_Bool)$ÿ;
 - (void)ð;
 - (id)C;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property struct NSEdgeInsets alignmentRectInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled;
 @property(readonly) unsigned long long hash;
-@property(getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(copy) NSString *identifier;
-@property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
 
 @end
 

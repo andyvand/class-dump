@@ -6,15 +6,11 @@
 
 #import <AppKit/NSScene.h>
 
-@class NSArray, NSView, NSWindow;
+@class NSView;
 
 @interface NSHostedViewScene : NSScene
 {
     NSView *view;
-    NSWindow *offscreenWindow;
-    _Bool invalid;
-    void observers;
-    _Bool scheduledViewHierarchyUpdate;
 }
 
 - (void);
@@ -27,20 +23,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (_Bool);
-- (id)CenteredNode: /* Error: Ran out of types for this method. */;
+- (id)_expandItem:itemCenteredNode: /* Error: Ran out of types for this method. */;
 - (id)hbÿÿÌýÿ;
-- (void)t:(_Bool)arg1;
+- (void)_zoomBottomRight:(_Bool)arg1;
 - (void)L2ëÿ*ÔCA;
 
 // Remaining properties
-@property(nonatomic) _Bool invalid; // @synthesize invalid;
-@property(nonatomic, copy) NSArray *observers;
-@property(nonatomic, retain) NSWindow *offscreenWindow; // @synthesize offscreenWindow;
-@property(nonatomic) _Bool scheduledViewHierarchyUpdate; // @synthesize scheduledViewHierarchyUpdate;
 @property(nonatomic, retain) NSView *view; // @synthesize view;
 
 @end

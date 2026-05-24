@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ABAddressBookNotificationInfo
 {
     NSMutableDictionary *_publicUserInfo;
-    NSMutableDictionary *_privateUserInfo;
-    NSArray *_affectedSources;
-    NSDate *_modificationDate;
-    _Bool _couldAffectSync;
-    _Bool _shouldSyncWhenSaved;
-    _Bool _privateTablesChanged;
-    _Bool _successfullyPrepared;
 }
 
 - (_Bool);
@@ -25,27 +18,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)x;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)Services;
+- (id)ABFrameworkApplicationServices;
 
 // Remaining properties
-@property(copy) NSArray *affectedSources; // @synthesize affectedSources=_affectedSources;
-@property _Bool couldAffectSync; // @synthesize couldAffectSync=_couldAffectSync;
-@property(copy) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property _Bool privateTablesChanged; // @synthesize privateTablesChanged=_privateTablesChanged;
-@property(retain) NSMutableDictionary *privateUserInfo; // @synthesize privateUserInfo=_privateUserInfo;
 @property(retain) NSMutableDictionary *publicUserInfo; // @synthesize publicUserInfo=_publicUserInfo;
-@property _Bool shouldSyncWhenSaved; // @synthesize shouldSyncWhenSaved=_shouldSyncWhenSaved;
-@property _Bool successfullyPrepared; // @synthesize successfullyPrepared=_successfullyPrepared;
 
 @end
 

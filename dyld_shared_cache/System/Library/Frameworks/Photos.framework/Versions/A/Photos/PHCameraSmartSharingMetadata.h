@@ -4,50 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface PHCameraSmartSharingMetadata
 {
     _Bool _locationShiftingRequired;
-    NSDate *_creationDate;
-    NSString *_libraryScopeLocalIdentifier;
-    NSArray *_identities;
-    NSArray *_filterContactIDs;
-    NSArray *_homeLocations;
-    NSArray *_frequentLocations;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (long long);
++ (long long)movementNumber;
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
+- (_Bool)B;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)Immediate;
 - (id);
-- (void);
-- (id)tedRejectedFromLibraryScope: /* Error: Ran out of types for this method. */;
-- (void)sForAssetsRequiringResourceRetrieval:requestType:options: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id)setAssetUUIDsPhotosSuggestedRejectedFromLibraryScope: /* Error: Ran out of types for this method. */;
+- (void)indexesForAssetsRequiringResourceRetrieval:requestType:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSArray *filterContactIDs; // @synthesize filterContactIDs=_filterContactIDs;
-@property(readonly, nonatomic) NSArray *frequentLocations; // @synthesize frequentLocations=_frequentLocations;
-@property(readonly, nonatomic) _Bool hasActiveLibraryScope;
-@property(readonly, nonatomic) NSArray *homeLocations; // @synthesize homeLocations=_homeLocations;
-@property(readonly, nonatomic) NSArray *identities; // @synthesize identities=_identities;
-@property(readonly, nonatomic) NSString *libraryScopeLocalIdentifier; // @synthesize libraryScopeLocalIdentifier=_libraryScopeLocalIdentifier;
-@property(readonly, nonatomic) _Bool locationShiftingRequired; // @synthesize locationShiftingRequired=_locationShiftingRequired;
 
 @end
 

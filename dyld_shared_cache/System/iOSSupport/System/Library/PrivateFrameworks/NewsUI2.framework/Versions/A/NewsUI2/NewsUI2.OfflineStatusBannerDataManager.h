@@ -7,13 +7,6 @@
 @interface NewsUI2.OfflineStatusBannerDataManager
 {
     id observers;
-    id offlineManager;
-    id offlineFeatures;
-    id bundleSubscriptionManager;
-    id appConfigManager;
-    id connectionTextProvider;
-    id debouncer;
-    id feedModeState;
 }
 
 - (void);

@@ -16,7 +16,7 @@
 + (id);
 + (void);
 + (id);
-- (void);
+- (void)uling ping cloudkit fetch zone operation %@;
 - (void);
 - (id);
 - (void);

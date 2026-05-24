@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)c}@;
 - (void);
 - (void)RLSession"16@"NSError"24;
 - (void)(òÿý5=D(òÿå5=äïÿý5=àïÿ6=h(òÿ%6=üïÿí5=øïÿ-6=ôïÿí5=ðïÿ;

@@ -6,53 +6,36 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCounterGroup, HMDEventCountersManager, HMMDateProvider, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDLogEventCountingAnalyzer : HMDLogEventAnalyzer
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_currentPeriodCounters;
-    HMMDateProvider *_dateProvider;
-    CDUnknownBlockType _tickSecondsProviderBlock;
-    CDUnknownBlockType _periodicCountersSnapshotBlock;
-    unsigned long long _loggingPeriodicitySeconds;
-    unsigned long long _tickSecondsLastLogged;
-    NSString *_serialNumber;
-    HMDEventCountersManager *_countersManager;
-    HMDEventCounterGroup *_currentDayCountersGroup;
 }
 
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (void);
 - (void);
+- (id)_performBlockAfterInitialConnection:(unsigned long long)arg1;
+- (CDUnknownBlockType)_peersByConnection;
+- (void)rkSourceType;
+- (unsigned long long)%lu;
 - (id);
-- (CDUnknownBlockType);
+- (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithAuthenticationType:withClientPrincipal:withServicePrincipal: /* Error: Ran out of types for this method. */;
 - (id)s from driver:%@ /* Error: Ran out of types for this method. */;
 - (void)roup:%@  name:%@  uuid:%@  parent uuid:%@ type:%@> /* Error: Ran out of types for this method. */;
 - (id)N¢>;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
-@property(retain, nonatomic) HMDEventCounterGroup *currentDayCountersGroup; // @synthesize currentDayCountersGroup=_currentDayCountersGroup;
 @property(readonly, nonatomic) NSMutableDictionary *currentPeriodCounters; // @synthesize currentPeriodCounters=_currentPeriodCounters;
-@property(readonly, nonatomic) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly) unsigned long long loggingPeriodicitySeconds; // @synthesize loggingPeriodicitySeconds=_loggingPeriodicitySeconds;
-@property(readonly, nonatomic) CDUnknownBlockType periodicCountersSnapshotBlock; // @synthesize periodicCountersSnapshotBlock=_periodicCountersSnapshotBlock;
-@property(readonly, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(nonatomic) unsigned long long tickSecondsLastLogged; // @synthesize tickSecondsLastLogged=_tickSecondsLastLogged;
-@property(readonly, nonatomic) CDUnknownBlockType tickSecondsProviderBlock; // @synthesize tickSecondsProviderBlock=_tickSecondsProviderBlock;
 
 @end
 

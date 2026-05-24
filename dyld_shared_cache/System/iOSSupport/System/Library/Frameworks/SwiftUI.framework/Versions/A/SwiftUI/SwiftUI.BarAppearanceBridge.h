@@ -7,21 +7,9 @@
 @interface SwiftUI.BarAppearanceBridge
 {
     id platformStorage;
-    id updateContext;
-    id allowedBars;
-    id lastEnvironment;
-    id lastBarUpdates;
-    id lastNavigationTitleStorage;
-    id lastNavigationSubtitle;
-    id lastToolbarInputContent;
-    id barBackgroundViewModels;
-    id barConfigurations;
-    id toUpdateBars;
-    id seedTracker;
-    id pendingUpdates;
 }
 
-- (id);
+- (id)_AXUIElement=}24@0:8@16 /* Error: Ran out of types for this method. */;
 - (void)ø«¿þø«¿þpjÎ;
 
 @end

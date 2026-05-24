@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMDeviceActivationLockSettingsDeclaration : CEMConfigurationBase
 {
@@ -18,12 +18,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)-;
 + (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)|;
 - (_Bool);
 - (id);
 - (int);
@@ -32,14 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadActivationLockAllowedWhileSupervised; // @synthesize payloadActivationLockAllowedWhileSupervised=_payloadActivationLockAllowedWhileSupervised;
-@property(readonly) Class superclass;
 
 @end
 

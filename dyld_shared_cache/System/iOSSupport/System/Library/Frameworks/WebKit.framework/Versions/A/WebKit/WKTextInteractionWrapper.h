@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIContextMenuInteraction, UITextSelectionDisplayInteraction, UIView, UIWKTextInteractionAssistant, WKContentView;
+@class WKContentView;
 
 __attribute__((visibility("hidden")))
 @interface WKTextInteractionWrapper
 {
     WKContentView *_view;
-    struct RetainPtr<UIWKTextInteractionAssistant> _textInteractionAssistant;
-    struct unique_ptr<WebKit::HideEditMenuScope, std::default_delete<WebKit::HideEditMenuScope>> _hideEditMenuScope;
-    struct Vector<WTF::WeakObjCPtr<UIView>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _managedTextSelectionViews;
-    _Bool _shouldRestoreEditMenuAfterOverflowScrolling;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -41,10 +28,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)sElevated;
+- (void)configurationForOpeningDocumentsOfApplicationWithBundleIdentifier:(id)arg1;
+- (void)serviceConnectionFailed;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)_effectiveUserInterfaceLevelIsElevated;
 - (void)¬âDã;
 - (void)ime.lastError in %{public}s world;
-- (void)SetSheetRect;
+- (void)WebInspectorUIProxy_SetSheetRect;
 - (void)ong long>>>, Value = WTF:(id)arg1:KeyValuePair<std::pair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardFrameItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::WeakRef<WebKit::WebBackForwardListFrameItem>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<std::pair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardFrameItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::WeakRef<WebKit::WebBackForwardListFrameItem>>>, HashFunctions = WTF::DefaultHash<std::pair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardFrameItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, Traits = WTF::HashMap<std::pair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardFrameItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::WeakRef<WebKit::WebBackForwardListFrameItem>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<std::pair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardFrameItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::BackForwardItemIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)dler<void (bool)> &&);
 - (void)ineDescriptor &, WebGPUIdentifier);
@@ -54,12 +50,6 @@ __attribute__((visibility("hidden")))
 - (id)WebKit:(id)arg1:WebExtensionTab>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebExtensionTab>, WTF::Ref<WebKit::WebExtensionAction>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebExtensionTab>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction;
-@property(readonly, nonatomic) NSArray *managedTextSelectionViews;
-@property(readonly, nonatomic) UIView *selectionHighlightView;
-@property(nonatomic) _Bool shouldRestoreEditMenuAfterOverflowScrolling; // @synthesize shouldRestoreEditMenuAfterOverflowScrolling=_shouldRestoreEditMenuAfterOverflowScrolling;
-@property(readonly, nonatomic) UIWKTextInteractionAssistant *textInteractionAssistant;
-@property(readonly, nonatomic) UITextSelectionDisplayInteraction *textSelectionDisplayInteraction;
 @property(readonly, nonatomic) __weak WKContentView *view;
 
 @end

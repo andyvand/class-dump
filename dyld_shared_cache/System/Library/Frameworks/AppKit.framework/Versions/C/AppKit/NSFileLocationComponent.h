@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRCloudPathComponentDisplayMetadata, NSAttributedString, NSNumber, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSFileLocationComponent
 {
     NSURL *_url;
-    NSFileLocationComponent *_containerComponent;
-    NSAttributedString *_iconAsAttributedString;
-    NSNumber *_isUbiquityContainer;
-    BRCloudPathComponentDisplayMetadata *_iCloudMetadata;
 }
 
-+ (id);
++ (id)fully %{bool}d;
 + (void);
-+ (id);
++ (id)r is not yet valid. You might be connecting to a server that is pretending to be "%@" which could put your confidential information at risk.;
+- (id)deregisterTaskWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)@;
+- (id)@;
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id):atRow: /* Error: Ran out of types for this method. */;
+- (id)_adjustRectForFocusRing:atRow: /* Error: Ran out of types for this method. */;
 - (void)äÔ¤A;
 
 @end

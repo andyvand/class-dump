@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCDebugCommand, MPRemoteCommand;
+@class MPRemoteCommand;
 
 @interface UnknownClass (MPCCustomCommands)
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tificationFollowUpController";
 
 // Remaining properties
-@property(readonly, nonatomic) MPRemoteCommand *clearUpcomingQueue;
-@property(readonly, nonatomic) MPCDebugCommand *debugCommand;
 @property(readonly, nonatomic) MPRemoteCommand *shareQueueCommand;
-@property(readonly, nonatomic) MPRemoteCommand *stageConditionCommand;
-@property(readonly, nonatomic) MPRemoteCommand *videoControlsCommand;
 @end
 

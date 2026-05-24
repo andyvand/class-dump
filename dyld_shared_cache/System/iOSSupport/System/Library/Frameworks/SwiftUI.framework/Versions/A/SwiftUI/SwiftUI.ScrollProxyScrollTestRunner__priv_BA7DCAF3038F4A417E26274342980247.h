@@ -7,9 +7,6 @@
 @interface SwiftUI.ScrollProxyScrollTestRunner__priv_BA7DCAF3038F4A417E26274342980247
 {
     id parameters;
-    id displayLink;
-    id proxy;
-    id completion;
 }
 
 - (void);

@@ -7,10 +7,6 @@
 @interface NewsUI2.WelcomeView.Footer
 {
     id continueButton;
-    id activityIndicator;
-    id offlineMessage;
-    id privacyIcon;
-    id privacyLink;
 }
 
 - (id);

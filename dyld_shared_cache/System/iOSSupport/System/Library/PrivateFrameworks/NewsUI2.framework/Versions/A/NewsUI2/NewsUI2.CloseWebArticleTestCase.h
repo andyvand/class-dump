@@ -9,11 +9,9 @@
 @interface NewsUI2.CloseWebArticleTestCase
 {
     void testName;
-    double timeoutInSeconds;
-    unsigned long long aggregate;
 }
 
-- (id);
+- (id)@;
 - (double);
 - (void);
 - (unsigned long long);
@@ -21,9 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;
 @property(nonatomic, readonly) NSString *testName;
-@property(nonatomic, readonly) double timeoutInSeconds; // @synthesize timeoutInSeconds;
 
 @end
 

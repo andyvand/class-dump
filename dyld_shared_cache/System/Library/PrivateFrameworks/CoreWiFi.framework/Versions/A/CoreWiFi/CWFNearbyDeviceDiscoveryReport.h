@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface CWFNearbyDeviceDiscoveryReport
 {
     _Bool _isLowConfidence;
-    NSDate *_timeStamp;
-    NSString *_receiver;
-    NSString *_transmitter;
-    NSString *_bssid;
-    NSArray *_rssi;
-    long long _frameType;
-    long long _bandwidth;
-    long long _channel;
-    long long _band;
-    long long _rateMbps;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -35,37 +25,27 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ڧ;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)�j;
 - (void);
-- (void);
+- (void)[;
 - (id);
 - (long long);
 - (long long);
-- (void);
+- (void)!;
 - (id);
 - (id);
-- (void)rsion;
+- (void)apiMajorVersion;
 - (long long)\$Ä;
 - (void)(%{public}@);
 
 // Remaining properties
-@property(nonatomic) long long band; // @synthesize band=_band;
-@property(nonatomic) long long bandwidth; // @synthesize bandwidth=_bandwidth;
-@property(copy, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(nonatomic) long long channel; // @synthesize channel=_channel;
-@property(nonatomic) long long frameType; // @synthesize frameType=_frameType;
-@property(nonatomic) _Bool isLowConfidence; // @synthesize isLowConfidence=_isLowConfidence;
-@property(nonatomic) long long rateMbps; // @synthesize rateMbps=_rateMbps;
-@property(copy, nonatomic) NSString *receiver; // @synthesize receiver=_receiver;
-@property(copy, nonatomic) NSArray *rssi; // @synthesize rssi=_rssi;
 @property(copy, nonatomic) NSDate *timeStamp; // @synthesize timeStamp=_timeStamp;
-@property(copy, nonatomic) NSString *transmitter; // @synthesize transmitter=_transmitter;
 
 @end
 

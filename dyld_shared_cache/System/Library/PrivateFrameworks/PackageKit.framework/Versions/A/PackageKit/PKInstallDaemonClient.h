@@ -4,54 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@class NSObject, NSXPCConnection;
+@protocol OS_os_transaction;
 
 @interface PKInstallDaemonClient
 {
     NSXPCConnection *_connection;
-    int _clientPID;
-    CDStruct_4c969caf _clientAuditToken;
-    unsigned int _clientUID;
-    NSString *_clientPath;
-    NSMutableSet *_outstandingInstallTokens;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
 - (void);
 - (void);
 - (void);
+- (_Bool)	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end

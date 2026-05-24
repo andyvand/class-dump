@@ -10,18 +10,16 @@
 @interface PXStoryPersistableRecipeAssetsProducer
 {
     id <PFStoryRecipe> _persistableRecipe;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)5�7;
 - (id);
 - (id);
 - (void)AF´(3;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PFStoryRecipe> persistableRecipe; // @synthesize persistableRecipe=_persistableRecipe;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

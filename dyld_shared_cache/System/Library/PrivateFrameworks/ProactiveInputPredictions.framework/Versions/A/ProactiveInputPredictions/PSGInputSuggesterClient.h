@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PSGStructuredInfoSuggestionCache, _PASLRUCache, _PASXPCClientHelper;
+@class _PASXPCClientHelper;
 
 @interface PSGInputSuggesterClient
 {
     _PASXPCClientHelper *_clientHelper;
-    PSGStructuredInfoSuggestionCache *_structuredSuggestionCache;
-    _PASLRUCache *_triggeringCache;
 }
 
 + (_Bool);
@@ -20,16 +18,16 @@
 + (_Bool);
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -40,11 +38,11 @@
 - (id);
 - (id);
 - (id);
+- (id)loadNibNamed:(id)arg1 owner:(id)arg2 topLevelObjects: /* Error: Ran out of types for this method. */;
+- (id)ect=%@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)`!;
 
 @end
 

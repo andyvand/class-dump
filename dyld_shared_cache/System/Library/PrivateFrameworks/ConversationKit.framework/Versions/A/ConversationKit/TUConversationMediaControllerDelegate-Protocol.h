@@ -5,5 +5,8 @@
 //
 
 @protocol TUConversationMediaControllerDelegate
+
+@optional
+- (void);
 @end
 

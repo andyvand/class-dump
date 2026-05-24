@@ -7,6 +7,7 @@
 @protocol UIPointerInteractionDelegate
 
 @optional
+- (void){CGPoint=dd}{CGSize=dd}}16;
 - (void)Ô!Q	Ð!P@ù1v1Â0@ù
 × ;
 @end

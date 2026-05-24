@@ -12,29 +12,22 @@ __attribute__((visibility("hidden")))
 @interface UIKBSystemLayoutViewController : UIViewController
 {
     NSMutableArray *_constraints;
-    unsigned long long _horizontalLayoutType;
-    unsigned long long _verticalLayoutType;
-    struct CGSize _centeredOffsets;
-    struct UIEdgeInsets _minimumInsets;
 }
 
-+ (id);
++ (id)r:(id)arg1 %lu. fileURL %@;
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)refresh registration:(unsigned long long)arg1 %@ (%@);
+- (void)hasStoredItem:(struct CGSize)arg1 %{BOOL}d broadcastChanges:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (unsigned long long)rom sender:%@ /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (void);
+- (void)t={_C3Base={__CFRuntimeBase=QAQ}}i{Metricsinfo__HTTPMetricsInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)};
 - (struct UIEdgeInsets)igatorView";
 - (void);
 - (void)±È;
 
 // Remaining properties
-@property(nonatomic) struct CGSize centeredOffsets; // @synthesize centeredOffsets=_centeredOffsets;
 @property(nonatomic) unsigned long long horizontalLayoutType; // @synthesize horizontalLayoutType=_horizontalLayoutType;
-@property(nonatomic) struct UIEdgeInsets minimumInsets; // @synthesize minimumInsets=_minimumInsets;
-@property(nonatomic) unsigned long long verticalLayoutType; // @synthesize verticalLayoutType=_verticalLayoutType;
 
 @end
 

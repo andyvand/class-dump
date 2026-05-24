@@ -11,17 +11,15 @@
 @interface BSMachPortTaskNameRight : BSMachPortSendRight
 {
     BSAuditToken *_lock_auditToken;
-    struct os_unfair_lock_s _lock;
-    int _pid;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (int);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -29,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BSAuditToken *auditToken;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 
 @end

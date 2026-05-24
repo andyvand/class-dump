@@ -5,6 +5,6 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)eDetector;
++ (_Bool)_UIDiffableSectionBoundaryMoveDetector;
 @end
 

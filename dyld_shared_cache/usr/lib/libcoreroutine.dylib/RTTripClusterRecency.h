@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface RTTripClusterRecency
 {
     NSUUID *_clusterID;
-    NSDate *_startTime;
-    NSDate *_endTime;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ndled via swift protobuf;
 - (_Bool);
 - (void);
 - (id);
@@ -31,16 +29,7 @@
 - (void)nfidence count, %lu, w.r.t the location, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 
 @end
 

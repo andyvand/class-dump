@@ -5,5 +5,10 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
+- (void);
+- (void);
+
+@optional
+- (void)DeuRikZ4CaO6sGQjYCaRNHi96sDRc/Library/Caches/com.apple.xbs/TemporaryDirectory.g4yPbv/Sources/PerfPowerServices/Utilities/PLSemaphore.m;
 @end
 

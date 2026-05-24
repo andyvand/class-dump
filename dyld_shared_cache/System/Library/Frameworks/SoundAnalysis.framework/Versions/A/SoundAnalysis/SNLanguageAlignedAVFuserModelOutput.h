@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNLanguageAlignedAVFuserModelOutput
 {
@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *fused_embedding; // @synthesize fused_embedding=_fused_embedding;
 
 @end

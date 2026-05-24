@@ -6,30 +6,15 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDAssetRequestPlanner, CKDCancelTokenGroup, NSArray, NSDictionary, NSMapTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface CKDUploadAssetsOperation : CKDDatabaseOperation
 {
     NSDictionary *_cloneContextsBySignature;
-    _Bool _atomic;
-    _Bool _shouldCloneFileInAssetCache;
-    _Bool _temporary;
-    CDUnknownBlockType _uploadPreparationBlock;
-    CDUnknownBlockType _uploadProgressBlock;
-    CDUnknownBlockType _uploadCompletionBlock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_assetsToUpload;
-    NSMapTable *_uploadTasksByPackages;
-    CKDCancelTokenGroup *_cancelTokens;
-    unsigned long long _maxPackageUploadsPerBatch;
-    CKDAssetRequestPlanner *_assetRequestPlanner;
-    NSDictionary *_assetUUIDToExpectedProperties;
-    NSDictionary *_packageUUIDToExpectedProperties;
 }
 
 + (long long);
-+ (id);
++ (id)setTotalCcaGt90:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -43,18 +28,18 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ddEndpointInternal(FigEndpointAggregateRef, FigEndpointRef, CFDictionaryRef, FigEndpointAggregateCompletionCallback, void *);
+- (void)%{ptr}], payload %@;
+- (void)";
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)setInHidPresentDuration:(id)arg1;
+- (void)locationID;
+- (void)",R,N,V_network;
+- (void)SystemPowerBudget10Duration;
+- (CDUnknownBlockType)CellularFallbackState;
+- (CDUnknownBlockType)ovider:configuration:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -62,14 +47,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)~;
 - (void);
 - (void);
 - (unsigned long long);
+- (void)onversation flags for conversation:%lld. Old flags %llu new flags %llu /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)sationIDs:] /* Error: Ran out of types for this method. */;
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -81,18 +66,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)itialize identity data.;
 - (int);
 - (id);
 - (_Bool);
-- (void);
+- (void)[;
+- (id)nature, with optional failure:(id)arg1 %@.;
+- (id)9;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (void)$@ùñÛ°1Â0@ù
 × ;
-- (_Bool)r: /* Error: Ran out of types for this method. */;
+- (_Bool)setWalrusStatusChangeObserver: /* Error: Ran out of types for this method. */;
 - (_Bool)@"CKDPZoneCryptoFeatureSet",&,N,V_appliedCryptoFeatures;
 - (void)`ê;
 - (void)blic}@ after uploading assets:(_Bool)arg1 %@;
@@ -102,21 +87,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CKDAssetRequestPlanner *assetRequestPlanner; // @synthesize assetRequestPlanner=_assetRequestPlanner;
-@property(retain, nonatomic) NSDictionary *assetUUIDToExpectedProperties; // @synthesize assetUUIDToExpectedProperties=_assetUUIDToExpectedProperties;
-@property(retain, nonatomic) NSArray *assetsToUpload; // @synthesize assetsToUpload=_assetsToUpload;
-@property(nonatomic) _Bool atomic; // @synthesize atomic=_atomic;
-@property(retain, nonatomic) CKDCancelTokenGroup *cancelTokens; // @synthesize cancelTokens=_cancelTokens;
-@property(nonatomic) unsigned long long maxPackageUploadsPerBatch; // @synthesize maxPackageUploadsPerBatch=_maxPackageUploadsPerBatch;
-@property(retain, nonatomic) NSDictionary *packageUUIDToExpectedProperties; // @synthesize packageUUIDToExpectedProperties=_packageUUIDToExpectedProperties;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(nonatomic) _Bool temporary; // @synthesize temporary=_temporary;
-@property(copy, nonatomic) CDUnknownBlockType uploadCompletionBlock; // @synthesize uploadCompletionBlock=_uploadCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType uploadPreparationBlock; // @synthesize uploadPreparationBlock=_uploadPreparationBlock;
-@property(copy, nonatomic) CDUnknownBlockType uploadProgressBlock; // @synthesize uploadProgressBlock=_uploadProgressBlock;
-@property(retain, nonatomic) NSMapTable *uploadTasksByPackages; // @synthesize uploadTasksByPackages=_uploadTasksByPackages;
 
 @end
 

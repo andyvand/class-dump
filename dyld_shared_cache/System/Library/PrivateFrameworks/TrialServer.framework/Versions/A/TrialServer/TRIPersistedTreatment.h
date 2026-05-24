@@ -10,10 +10,9 @@
 {
 }
 
-+ (id);
++ (id)_SignpostAggregationCAPayloadGenerator;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTreatment; // @dynamic hasTreatment;
 @property(retain, nonatomic) TRIClientTreatment *treatment; // @dynamic treatment;
 
 @end

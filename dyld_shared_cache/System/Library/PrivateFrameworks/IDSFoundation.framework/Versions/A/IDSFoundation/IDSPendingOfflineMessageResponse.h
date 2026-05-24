@@ -6,12 +6,11 @@
 
 #import <IDSFoundation/IDSMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IDSPendingOfflineMessageResponse : IDSMessage
 {
     NSString *_messageIdentifier;
-    NSData *_ssm;
 }
 
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(copy) NSString *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(copy) NSData *ssm; // @synthesize ssm=_ssm;
 
 @end
 

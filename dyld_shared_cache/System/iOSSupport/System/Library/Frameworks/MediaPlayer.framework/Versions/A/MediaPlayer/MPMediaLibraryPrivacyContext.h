@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (void);
++ (void)cognized stream:(CDStruct_6ad76789)arg1 %d;
 + (void)ss(void)_block_invoke;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)tableLikeClause;
 - (id);
 - (id);
 - (id);

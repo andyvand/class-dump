@@ -5,5 +5,6 @@
 //
 
 @protocol PKDrawingGestureTarget
+- (void);
 @end
 

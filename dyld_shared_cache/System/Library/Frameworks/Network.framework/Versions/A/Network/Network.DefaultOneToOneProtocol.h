@@ -7,13 +7,6 @@
 @interface Network.DefaultOneToOneProtocol
 {
     id inputLinkage;
-    id outputLinkage;
-    id logIDNumber;
-    id logString;
-    id _selfAsInputLinkage;
-    id _selfAsOutputLinkage;
-    id context;
-    id timerScheduled;
 }
 
 @end

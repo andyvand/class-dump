@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol NURenderStatistics
-- (double)obUseSurfaceRenderer: /* Error: Ran out of types for this method. */;
+- (double);
+- (double)V_userDescription;
+- (double)setImageRenderJobUseSurfaceRenderer: /* Error: Ran out of types for this method. */;
 - (double)ithSourceNode:assetIdentifier:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double completeDuration;
-@property(readonly) double completeLatency;
-@property(readonly, copy) NSArray *dependencies;
-@property(readonly) double duration;
 @property(readonly) double latency;
-@property(readonly) double prepareDuration;
-@property(readonly) double prepareLatency;
-@property(readonly) double renderDuration;
-@property(readonly) double renderLatency;
-@property(readonly) double replyLatency;
-@property(readonly) double requestTime;
-@property(readonly) double responseTime;
-@property(readonly) double totalDuration;
 @end
 

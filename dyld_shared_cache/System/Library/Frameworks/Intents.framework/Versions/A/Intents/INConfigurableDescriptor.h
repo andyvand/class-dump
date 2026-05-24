@@ -9,8 +9,6 @@
 @interface INConfigurableDescriptor
 {
     NSString *_extensionBundleIdentifier;
-    NSString *_intentClassName;
-    NSString *_kind;
 }
 
 - (id);
@@ -20,12 +18,10 @@
 - (id);
 - (id);
 - (id)tUnsupportedReason"b1"addCallParticipantIntentParticipantsUnsupportedReason"b1"sendPaymentIntentPayeeUnsupportedReason"b1"requestPaymentIntentPayerUnsupportedReason"b1"playMediaIntentPlaybackSpeedUnsupportedReason"b1"startCallIntentPreferredCallProviderUnsupportedReason"b1"reason"b1"shareETAIntentRecipientUnsupportedReason"b1"stopShareETAIntentRecipientUnsupportedReason"b1"sendMessageIntentRecipientUnsupportedReason"b1"sendAnnouncementIntentRecipientsUnsupportedReason"b1"saveHealthSampleIntentRecordDateUnsupportedReason"b1"targetEventUnsupportedReason"b1"addTasksIntentTargetTaskListMembersUnsupportedReason"b1"setTimerAttributeIntentTargetTimerUnsupportedReason"b1"deleteTasksIntentTaskListUnsupportedReason"b1"deleteTasksIntentTaskUnsupportedReason"b1"snoozeTasksIntentTaskUnsupportedReason"b1"addTasksIntentTemporalEventTriggerUnsupportedReason"b1"setTaskAttributeIntentTemporalEventTriggerUnsupportedReason"b1"runWorkflowIntentWorkflowUnsupportedReason"b1};
-- (void)larmsForDeleteAlarm: /* Error: Ran out of types for this method. */;
+- (void)defaultAlarmsForDeleteAlarm: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *intentClassName; // @synthesize intentClassName=_intentClassName;
-@property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
 
 @end
 

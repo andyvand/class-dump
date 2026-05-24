@@ -4,71 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSError, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface PKPayloadCopier
 {
     void *_bomCopier;
-    void *_bomSys;
-    NSMutableDictionary *_bomCopierOptions;
-    NSString *_sourcePath;
-    unsigned long long _offset;
-    NSString *_destinationPath;
-    _Bool _isDestinationArchive;
-    long long _payloadFormat;
-    _Bool _payloadLargeAndSegmented;
-    unsigned long long _payloadSize;
-    _Bool _holePunchPayload;
-    int _inputArchiveFD;
-    NSArray *_maskPaths;
-    NSArray *_allowPaths;
-    CDUnknownBlockType _itemWillCopyHandler;
-    NSObject<OS_dispatch_queue> *_itemWillCopyQueue;
-    CDUnknownBlockType _itemCopiedHandler;
-    NSObject<OS_dispatch_queue> *_itemCopiedQueue;
-    unsigned long long _fullCompleteBytes;
-    unsigned long long _fullCompleteCount;
-    long long _partialFileLength;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    NSData *_expectedInputChecksum;
-    NSString *_expectedInputChecksumType;
-    unsigned long long _expectedArchiveSize;
-    NSData *_parallelCompressionChecksum;
-    _Bool _isExecuting;
-    _Bool _didCancel;
-    NSError *_error;
 }
 
 + (long long);
 + (id);
 + (id);
 + (id);
-- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)	;
+- (void);
+- (void)9;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)a;
+- (void)P;
+- (void)i;
+- (void)7;
 - (void);
 - (void);
 - (_Bool)4ô;

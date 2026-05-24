@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface PKVectorTimestamp
 {
@@ -20,19 +20,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)__TEXT;
+- (unsigned long long)Policy:(id)arg1 reading blessed %s local policy %s;
+- (id)writing linked manifest %s;
+- (id)_create_sidp_measurement;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (id);
+- (id);
+- (id)RINGTONE_PICKER_DEFAULT_MODERN_RINGTONE_NAME;
+- (id)ourceRequestDelegate>",R,W,N;
+- (id);
+- (unsigned long long);
+- (_Bool)";
 - (void);
 - (id);
 - (id);
@@ -40,13 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

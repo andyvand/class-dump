@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSData, NSNumber;
-
 @interface CKDAssetZoneKey
 {
     _Bool _isPackageRereference;
-    CKRecordZoneID *_destinationZoneID;
-    CKRecordZoneID *_sourceZoneID;
-    long long _sourceDatabaseScope;
-    NSNumber *_useMMCSEncryptionV2;
-    NSData *_cloneContext;
-    long long _destinationDatabaseScope;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)endpointCluster_copyClusterCompositionAsArray_block_invoke;
+- (unsigned long long)t:%@
+ /* Error: Ran out of types for this method. */;
 - (long long);
+- (id);
+- (id)",&,N,V_availableNetworks;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)SString"16@"NSDate"24@"NSDictionary"32;
 - (id);
 - (int);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)decrypt our per-participant PCS;
@@ -38,15 +31,7 @@
 - (id)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *cloneContext; // @synthesize cloneContext=_cloneContext;
 @property(readonly, nonatomic) long long destinationDatabaseScope; // @synthesize destinationDatabaseScope=_destinationDatabaseScope;
-@property(readonly, nonatomic) CKRecordZoneID *destinationZoneID; // @synthesize destinationZoneID=_destinationZoneID;
-@property(readonly, nonatomic) _Bool isCrossOwner;
-@property(readonly, nonatomic) _Bool isPackageRereference; // @synthesize isPackageRereference=_isPackageRereference;
-@property(readonly, nonatomic) _Bool isReReference;
-@property(readonly, nonatomic) long long sourceDatabaseScope; // @synthesize sourceDatabaseScope=_sourceDatabaseScope;
-@property(readonly, nonatomic) CKRecordZoneID *sourceZoneID; // @synthesize sourceZoneID=_sourceZoneID;
-@property(readonly, nonatomic) NSNumber *useMMCSEncryptionV2; // @synthesize useMMCSEncryptionV2=_useMMCSEncryptionV2;
 
 @end
 

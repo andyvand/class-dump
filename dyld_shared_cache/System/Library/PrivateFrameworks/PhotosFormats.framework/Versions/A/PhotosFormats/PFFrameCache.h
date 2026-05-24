@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableIndexSet, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PFFrameCache
 {
     struct CGImageSource *_gifSource;
-    unsigned long long _frameCount;
-    unsigned long long _fullCachingCost;
-    NSObject<OS_dispatch_queue> *_frameGenerationQueue;
-    NSObject<OS_dispatch_queue> *_cacheIsolationQueue;
-    unsigned long long _frameCacheSize;
-    NSMutableDictionary *_frameCache;
-    unsigned long long _lastRequestedIdx;
-    NSMutableIndexSet *_cachedIndexes;
-    struct {
-        _Bool cacheSize;
-        _Bool frameCache;
-    } _isValid;
-    long long _cacheStrategy;
 }
 
 + (id);
 - (void);
+- (id);
 - (id);
+- (struct CGImage *);
+- (struct CGImage *);
+- (long long)h;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGImage *);
+- (struct CGImage *);
 - (id);
-- (struct CGImage *);
-- (struct CGImage *);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGImage *);
-- (struct CGImage *);
-- (id);
-- (void);
-- (void);
+- (void)_logIndexingPowerEventWithIdentifier:additionalEventData:usePersistentLog: /* Error: Ran out of types for this method. */;
+- (void)lf, RavenNLOSEngine not configured;
 - (void);
 - (void);
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SFUCryptoKey
 {
     unsigned int mIterationCount;
-    char *mKey;
-    unsigned long long mKeyLength;
-    NSData *mSaltData;
-    NSString *_passphrase;
 }
 
 - (id);
@@ -27,7 +23,7 @@
 - (id);
 - (void);
 - (int);
-- (const char *)ogressFromTCProgressContext: /* Error: Ran out of types for this method. */;
+- (const char *)setPercentageProgressFromTCProgressContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *passphrase; // @synthesize passphrase=_passphrase;

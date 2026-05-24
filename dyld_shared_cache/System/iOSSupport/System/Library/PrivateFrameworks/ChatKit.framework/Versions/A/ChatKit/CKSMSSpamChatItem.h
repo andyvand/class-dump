@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (struct CGSize);
-- (id);
+- (struct CGSize)c;
+- (id)I25ActivityStreamControllingP;
 - (Class);
 
 @end

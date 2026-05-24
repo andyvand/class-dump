@@ -7,8 +7,6 @@
 @interface IKNCustomLayer
 {
     _Bool _ignoresMouseDown;
-    _Bool _centersX;
-    _Bool _centersY;
 }
 
 - (void);
@@ -18,13 +16,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)eenTimeSettings object.;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property _Bool centersX; // @synthesize centersX=_centersX;
-@property _Bool centersY; // @synthesize centersY=_centersY;
 @property _Bool ignoresMouseDown; // @synthesize ignoresMouseDown=_ignoresMouseDown;
 
 @end

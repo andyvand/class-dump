@@ -6,51 +6,36 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface UIDocumentPickerExtensionViewController : UIViewController
 {
     unsigned long long _documentPickerMode;
-    NSURL *_originalURL;
-    NSArray *_validTypes;
-    NSString *_providerIdentifier;
-    NSURL *_documentStorageURL;
 }
 
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void):(unsigned long long)arg1 %ld;
+- (void)eam for %@;
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)onBarItemContentLayoutGuide;
+- (void)UINavigationBarItemContentLayoutGuide;
 - (void)èÉXh;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, setter=_setPickerMode:) unsigned long long documentPickerMode; // @synthesize documentPickerMode=_documentPickerMode;
-@property(copy, nonatomic, setter=_setDocumentStorageURL:) NSURL *documentStorageURL; // @synthesize documentStorageURL=_documentStorageURL;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic, setter=_setUploadURL:) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(copy, nonatomic, setter=_setProviderIdentifier:) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic, setter=_setPickableTypes:) NSArray *validTypes; // @synthesize validTypes=_validTypes;
 
 @end
 

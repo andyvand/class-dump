@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInputStream, NSOutputStream, NSString, NSURLSession, NSURLSessionStreamTask;
+@class NSURLSession, NSURLSessionStreamTask;
 
 __attribute__((visibility("hidden")))
 @interface RPStreamDevice
 {
     NSURLSession *_session;
     NSURLSessionStreamTask *_task;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    CDUnknownFunctionPointerType _cb;
-    void *_cbUserContext;
 }
 
 - (void);
@@ -24,28 +20,17 @@ __attribute__((visibility("hidden")))
 - (CDUnknownFunctionPointerType);
 - (id);
 - (id);
-- (void);
+- (void)/;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property CDUnknownFunctionPointerType cb; // @synthesize cb=_cb;
-@property void *cbUserContext; // @synthesize cbUserContext=_cbUserContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(retain) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
 @property(retain) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 @property(retain) NSURLSessionStreamTask *task; // @synthesize task=_task;
 
 @end

@@ -5,13 +5,11 @@
 //
 
 @class NSArray;
-@protocol HMDFollowUpController;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreFollowUpRemoveItemsOperation
 {
     NSArray *_identifiersToRemove;
-    id <HMDFollowUpController> _followUpController;
 }
 
 - (void);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <HMDFollowUpController> followUpController; // @synthesize followUpController=_followUpController;
 @property(copy, nonatomic) NSArray *identifiersToRemove; // @synthesize identifiersToRemove=_identifiersToRemove;
 
 @end

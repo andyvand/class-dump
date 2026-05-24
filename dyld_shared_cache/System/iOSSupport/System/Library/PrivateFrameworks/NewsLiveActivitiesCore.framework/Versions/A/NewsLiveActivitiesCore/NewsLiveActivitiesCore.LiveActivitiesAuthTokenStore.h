@@ -7,6 +7,7 @@
 @interface NewsLiveActivitiesCore.LiveActivitiesAuthTokenStore
 {
     id lazyStore;
+    id;
 }
 
 @end

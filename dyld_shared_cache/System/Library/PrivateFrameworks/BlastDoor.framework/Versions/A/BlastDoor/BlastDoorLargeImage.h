@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMachImage, BlastDoorMediaMetadata, NSString;
+@class NSString;
 
 @interface BlastDoorLargeImage
 {
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorMachImage *image;
-@property(nonatomic, readonly) BlastDoorMediaMetadata *metadata;
 
 @end
 

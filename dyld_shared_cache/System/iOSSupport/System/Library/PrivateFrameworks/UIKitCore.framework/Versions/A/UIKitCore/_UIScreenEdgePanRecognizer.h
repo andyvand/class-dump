@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDelayedAction, _UIScreenEdgePanRecognizerSettings;
-@protocol _UIScreenEdgePanRecognizerDelegate;
+@class _UIScreenEdgePanRecognizerSettings;
 
 __attribute__((visibility("hidden")))
 @interface _UIScreenEdgePanRecognizer
 {
     struct CGRect _screenBounds;
-    _Bool _shouldUseGrapeFlags;
-    _Bool _hasRecordedData;
-    _Bool _hasDoneInitialBackProjectionTest;
-    struct CGPoint _initialTouchLocation;
-    double _initialTouchTimestamp;
-    long long _initialInterfaceOrientation;
-    unsigned long long _touchedRegion;
-    UIDelayedAction *_recognitionTimer;
-    struct CGPoint _lastTouchLocation;
-    double _lastTouchTimestamp;
-    long long _lastTouchModifier;
-    long long _type;
-    _Bool _requiresFlatThumb;
-    _Bool _recognizeAlongEdge;
-    _UIScreenEdgePanRecognizerSettings *_settings;
-    unsigned long long _targetEdges;
-    long long _state;
-    unsigned long long _recognizedRegion;
-    id <_UIScreenEdgePanRecognizerDelegate> _delegate;
 }
 
 - (_Bool);
@@ -37,23 +17,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_removeOriginatedMessage: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)R;
+- (void);
+- (void);
+- (void);
+- (_Bool)ing at message with guid %@ for chatid %@, will check if it needs to be sent to spam extension app;
+- (void)didUpdateSettingsKeys:(struct CGRect)arg1;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)TLSTrustedCertificates;
 - (struct CGRect);
 - (id);
 - (unsigned long long)Z1Â0@ù
@@ -66,22 +46,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id)plicationPreservationState:(long long)arg1 viewController:sessionIdentifier:beginHandler:completionHandler:] /* Error: Ran out of types for this method. */;
-- (long long)riginatingBounds;
+- (long long)originatingBounds;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint _lastTouchLocation; // @synthesize _lastTouchLocation;
-@property id <_UIScreenEdgePanRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasRecordedData; // @synthesize hasRecordedData=_hasRecordedData;
-@property(nonatomic) _Bool recognizeAlongEdge; // @synthesize recognizeAlongEdge=_recognizeAlongEdge;
-@property(readonly, nonatomic) unsigned long long recognizedRegion; // @synthesize recognizedRegion=_recognizedRegion;
-@property(nonatomic) _Bool requiresFlatThumb; // @synthesize requiresFlatThumb=_requiresFlatThumb;
-@property(nonatomic) struct CGRect screenBounds; // @synthesize screenBounds=_screenBounds;
 @property(retain, nonatomic) _UIScreenEdgePanRecognizerSettings *settings; // @synthesize settings=_settings;
-@property(nonatomic) _Bool shouldUseGrapeFlags; // @synthesize shouldUseGrapeFlags=_shouldUseGrapeFlags;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long targetEdges; // @synthesize targetEdges=_targetEdges;
-@property(readonly, nonatomic) _Bool useGrapeFlags;
 
 @end
 

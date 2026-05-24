@@ -9,8 +9,6 @@
 @interface FCConfigHyperlinkTextLink
 {
     NSString *_url;
-    long long _rangeStart;
-    long long _rangeLength;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (id)¡/kwÐ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long rangeLength; // @synthesize rangeLength=_rangeLength;
-@property(readonly, nonatomic) long long rangeStart; // @synthesize rangeStart=_rangeStart;
 @property(readonly, copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end

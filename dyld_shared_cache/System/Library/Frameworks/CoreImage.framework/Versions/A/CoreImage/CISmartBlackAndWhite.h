@@ -6,19 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISmartBlackAndWhite : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputStrength;
-    NSNumber *inputNeutralGamma;
-    NSNumber *inputTone;
-    NSNumber *inputHue;
-    NSNumber *inputGrain;
-    NSNumber *inputSeed;
-    NSNumber *inputScaleFactor;
 }
 
 + (id);
@@ -45,14 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)Yqmv||||};
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputGrain; // @synthesize inputGrain;
-@property(copy, nonatomic) NSNumber *inputHue; // @synthesize inputHue;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputNeutralGamma; // @synthesize inputNeutralGamma;
-@property(copy, nonatomic) NSNumber *inputScaleFactor; // @synthesize inputScaleFactor;
-@property(copy, nonatomic) NSNumber *inputSeed; // @synthesize inputSeed;
-@property(copy, nonatomic) NSNumber *inputStrength; // @synthesize inputStrength;
-@property(copy, nonatomic) NSNumber *inputTone; // @synthesize inputTone;
 
 @end
 

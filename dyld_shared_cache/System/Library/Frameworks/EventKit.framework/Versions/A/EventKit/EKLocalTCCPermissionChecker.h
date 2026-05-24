@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EKLocalTCCPermissionChecker
 {
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)<%{public}@> Error fetching artwork for content item %{public}@. Error:(struct __CFString *)arg1 %{public}@.;
 - (unsigned long long);
 - (unsigned long long)ù±2'Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long eventAuthorization;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long remindersAuthorization;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOrderedDictionary, NSString;
-
 @interface CKObjectDescription
 {
     _Bool _printAsDictionary;
-    _Bool _redact;
-    _Bool _avoidShortDescription;
-    NSString *_descriptionPrefix;
-    CKOrderedDictionary *_orderedDictionary;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (id);
@@ -35,15 +29,11 @@
 - (void);
 - (void);
 - (id);
-- (id)ersonas:(id)arg1;
+- (id)personas:(id)arg1;
 - (void)	
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool avoidShortDescription; // @synthesize avoidShortDescription=_avoidShortDescription;
-@property(retain, nonatomic) NSString *descriptionPrefix; // @synthesize descriptionPrefix=_descriptionPrefix;
-@property(retain, nonatomic) CKOrderedDictionary *orderedDictionary; // @synthesize orderedDictionary=_orderedDictionary;
-@property(nonatomic) _Bool printAsDictionary; // @synthesize printAsDictionary=_printAsDictionary;
 @property(readonly, nonatomic) _Bool redact; // @synthesize redact=_redact;
 
 @end

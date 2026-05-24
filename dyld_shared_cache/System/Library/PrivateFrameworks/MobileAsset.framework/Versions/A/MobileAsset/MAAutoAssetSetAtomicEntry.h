@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, NSDictionary, NSString, NSURL;
+@class MAAutoAssetSelector;
 
 @interface MAAutoAssetSetAtomicEntry
 {
     _Bool _inhibitedFromEmergencyRemoval;
-    MAAutoAssetSelector *_fullAssetSelector;
-    NSString *_assetID;
-    NSURL *_localContentURL;
-    NSDictionary *_assetAttributes;
 }
 
 + (_Bool);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)isInstalled:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -35,11 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetAttributes; // @synthesize assetAttributes=_assetAttributes;
-@property(retain, nonatomic) NSString *assetID; // @synthesize assetID=_assetID;
 @property(retain, nonatomic) MAAutoAssetSelector *fullAssetSelector; // @synthesize fullAssetSelector=_fullAssetSelector;
-@property(nonatomic) _Bool inhibitedFromEmergencyRemoval; // @synthesize inhibitedFromEmergencyRemoval=_inhibitedFromEmergencyRemoval;
-@property(retain, nonatomic) NSURL *localContentURL; // @synthesize localContentURL=_localContentURL;
 
 @end
 

@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPCorrectedField
 {
     PBDataReader *_reader;
-    NSString *_correctedValue;
-    NSString *_fieldName;
-    NSString *_originalValue;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _field;
-    _Bool _isMarkedIncorrect;
-    struct {
-        unsigned int has_field:1;
-        unsigned int has_isMarkedIncorrect:1;
-        unsigned int read_correctedValue:1;
-        unsigned int read_fieldName:1;
-        unsigned int read_originalValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ginCurrentLocation:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)setIsOriginCurrentLocation:(id)arg1;
+- (void)CNResult"24@0:(id)arg1 8@"NSURL"16;
+- (void)setRequestedGroupIdentifierCount:(_Bool)arg1;
+- (void)containerIdentifierSet;
+- (void)_requestedContainerIdentifierCount;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -45,19 +29,19 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)setAsrFeaturesAtEndpoint: /* Error: Ran out of types for this method. */;
+- (void)_enumerateListenersUsingBlock:(int)arg1;
+- (_Bool)CSVoiceTriggerEventsCoordinator;
+- (void)cEndpointing = %d), override (endpointerOperationMode = %@);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (id)StructuredData"b1};
-- (id)nCharging:queue: /* Error: Ran out of types for this method. */;
+- (id)addBatteryLevelObserver:onlyWhenCharging:queue: /* Error: Ran out of types for this method. */;
 - (id)Ø?;
-- (id)SyncDateForFifteenMonthUserSession;
+- (id)LastCloudKitSyncDateForFifteenMonthUserSession;
 - (void)ÿÿÆ;
 - (_Bool);
 - (void)äó§UL@;
@@ -65,16 +49,7 @@
 - (id)t4;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *correctedValue;
-@property(nonatomic) int field;
-@property(retain, nonatomic) NSString *fieldName;
-@property(readonly, nonatomic) _Bool hasCorrectedValue;
 @property(nonatomic) _Bool hasField;
-@property(readonly, nonatomic) _Bool hasFieldName;
-@property(nonatomic) _Bool hasIsMarkedIncorrect;
-@property(readonly, nonatomic) _Bool hasOriginalValue;
-@property(nonatomic) _Bool isMarkedIncorrect;
-@property(retain, nonatomic) NSString *originalValue;
 
 @end
 

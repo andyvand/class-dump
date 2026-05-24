@@ -7,8 +7,6 @@
 @interface SafariCore.WBSAuthenticationServicesAgentMonitor
 {
     id $defaultActor;
-    id statusUpdateCallback;
-    id timerTask;
 }
 
 - (id);

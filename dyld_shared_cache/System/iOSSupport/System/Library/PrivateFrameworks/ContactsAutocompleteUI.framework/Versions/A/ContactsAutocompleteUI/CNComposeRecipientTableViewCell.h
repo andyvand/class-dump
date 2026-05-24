@@ -6,18 +6,11 @@
 
 #import <ContactsAutocompleteUI/CNComposeTableViewCell.h>
 
-@class CNAvatarViewController, CNComposeRecipientActionButton, NSArray, NSString, NSUUID;
-@protocol CNComposeRecipientTableViewCellDelegate;
+@class CNComposeRecipientActionButton;
 
 @interface CNComposeRecipientTableViewCell : CNComposeTableViewCell
 {
     _Bool _shouldHighlightCompleteMatches;
-    id <CNComposeRecipientTableViewCellDelegate> _delegate;
-    NSUUID *_displaySessionUUID;
-    CNComposeRecipientActionButton *_actionButton;
-    CNAvatarViewController *_avatarViewController;
-    NSArray *_activeConstraints;
-    unsigned long long _actionType;
 }
 
 + (_Bool);
@@ -36,7 +29,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
@@ -46,9 +39,9 @@
 - (void);
 - (void);
 - (void);
+- (id)E;
 - (id);
-- (id);
-- (id);
+- (id)_splitViewController:allowInteractivePresentationGesture:inContentsOfColumn: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -65,19 +58,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNComposeRecipientActionButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(nonatomic) unsigned long long actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;
-@property(readonly, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CNComposeRecipientTableViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldHighlightCompleteMatches; // @synthesize shouldHighlightCompleteMatches=_shouldHighlightCompleteMatches;
-@property(readonly) Class superclass;
 
 @end
 

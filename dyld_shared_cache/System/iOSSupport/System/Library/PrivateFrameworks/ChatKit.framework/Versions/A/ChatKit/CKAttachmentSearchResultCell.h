@@ -6,23 +6,16 @@
 
 #import <ChatKit/CKEditableSearchResultCell.h>
 
-@class CKSearchAvatarSupplementryView, NSString, UIDateLabel, UILabel;
-
 @interface CKAttachmentSearchResultCell : CKEditableSearchResultCell
 {
     _Bool _suppressAvatars;
-    UILabel *_titleLabel;
-    UIDateLabel *_dateLabel;
-    NSString *_resultIdentifier;
-    CKSearchAvatarSupplementryView *_avatarView;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
+- (void)ObjectIDCSg06objectD0tG;
+- (void)L;
+- (struct UIEdgeInsets)presentableText=%ld indexableText.length=%ld;
 - (double);
 - (void);
 - (void);
@@ -46,23 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;
-@property(readonly, nonatomic) struct CGPoint avatarOffsetLTR;
-@property(readonly, nonatomic) struct CGPoint avatarOffsetRTL;
-@property(retain, nonatomic) CKSearchAvatarSupplementryView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) UIDateLabel *dateLabel; // @synthesize dateLabel=_dateLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double editModeHorizontalOffset;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool suppressAvatars; // @synthesize suppressAvatars=_suppressAvatars;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

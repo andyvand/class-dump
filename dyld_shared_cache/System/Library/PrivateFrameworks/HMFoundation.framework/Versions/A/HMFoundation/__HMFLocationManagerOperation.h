@@ -6,26 +6,22 @@
 
 #import <HMFoundation/HMFOperation.h>
 
-@class CLLocationManager, HMFLocationAuthorization, NSString;
+@class HMFLocationAuthorization;
 
 __attribute__((visibility("hidden")))
 @interface __HMFLocationManagerOperation : HMFOperation
 {
     struct os_unfair_lock_s _lock;
-    _Bool _registeredForKVO;
-    _Bool _ready;
-    CLLocationManager *_manager;
-    HMFLocationAuthorization *_authorization;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)P;
 + (id)ý!pFù{°1Â0@ù
 × ;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)extractPKZip;
 - (id);
 - (_Bool);
 - (id);
@@ -36,14 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) HMFLocationAuthorization *authorization; // @synthesize authorization=_authorization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CLLocationManager *manager; // @synthesize manager=_manager;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,6 +6,9 @@
 
 @protocol TSWPInteractiveCanvasControllerDelegate
 
+@optional
+- (_Bool);
+
 // Remaining properties
 @property(readonly, nonatomic) _Bool interactiveCanvasControllerAllowsHyperlinkInteraction;
 // Preceding property had unknown attributes: ?

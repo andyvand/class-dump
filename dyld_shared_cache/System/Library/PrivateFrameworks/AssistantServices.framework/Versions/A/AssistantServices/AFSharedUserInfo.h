@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFCompanionDeviceInfo, NSString;
+@class NSString;
 
 @interface AFSharedUserInfo
 {
     _Bool _personalRequestsEnabled;
-    _Bool _companionLinkReady;
-    _Bool _isDeviceOwner;
-    _Bool _isMediaFallbackUser;
-    NSString *_sharedUserId;
-    NSString *_loggableSharedUserId;
-    AFCompanionDeviceInfo *_companionDeviceInfo;
-    NSString *_homeUserId;
-    NSString *_iCloudAltDSID;
 }
 
 + (id);
@@ -24,14 +16,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)blocked;
 - (id);
 - (id);
 - (id);
@@ -40,18 +32,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void)ConfidenceScore;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AFCompanionDeviceInfo *companionDeviceInfo; // @synthesize companionDeviceInfo=_companionDeviceInfo;
-@property(readonly, nonatomic) _Bool companionLinkReady; // @synthesize companionLinkReady=_companionLinkReady;
-@property(readonly, copy, nonatomic) NSString *homeUserId; // @synthesize homeUserId=_homeUserId;
-@property(readonly, copy, nonatomic) NSString *iCloudAltDSID; // @synthesize iCloudAltDSID=_iCloudAltDSID;
-@property(readonly, nonatomic) _Bool isDeviceOwner; // @synthesize isDeviceOwner=_isDeviceOwner;
-@property(readonly, nonatomic) _Bool isMediaFallbackUser; // @synthesize isMediaFallbackUser=_isMediaFallbackUser;
-@property(readonly, copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(readonly, nonatomic) _Bool personalRequestsEnabled; // @synthesize personalRequestsEnabled=_personalRequestsEnabled;
 @property(readonly, copy, nonatomic) NSString *sharedUserId; // @synthesize sharedUserId=_sharedUserId;
 
 @end

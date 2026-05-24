@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (IMFileTransfer_CKRecord)
-+ (_Bool);
++ (_Bool);
++ (id);
 + (id);
 + (id);
++ (long long);
 + (id);
-+ (long long);
-+ (id);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (_Bool);
@@ -19,7 +19,7 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)m#;
 - (id);
 - (id);
 - (id);
@@ -29,7 +29,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)~S;
 - (id);
 - (id);
 @end

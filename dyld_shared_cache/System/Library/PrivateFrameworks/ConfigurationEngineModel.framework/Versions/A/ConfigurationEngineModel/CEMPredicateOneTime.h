@@ -21,19 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)WHERE ruleset=?;
 - (id);
-- (void);
+- (void)known key exchange type;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadDateTime; // @synthesize payloadDateTime=_payloadDateTime;
-@property(readonly) Class superclass;
 
 @end
 

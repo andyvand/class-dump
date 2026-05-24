@@ -6,14 +6,11 @@
 
 #import <InertiaCam/ImageHomographyResampler.h>
 
-@class CIContext, CIImage;
+@class CIContext;
 
 @interface CIHomographyResampler : ImageHomographyResampler
 {
     CIContext *_ctx;
-    CIImage *_fillImage;
-    struct CGRect _lastFillRect;
-    struct CGRect hightlightRect;
 }
 
 - (void);
@@ -23,7 +20,7 @@
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (id);
-- (void);
+- (void)@16@24q32;
 
 // Remaining properties
 @property struct CGRect hightlightRect; // @synthesize hightlightRect;

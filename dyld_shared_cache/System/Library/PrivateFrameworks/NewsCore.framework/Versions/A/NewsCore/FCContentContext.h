@@ -4,46 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAVAssetDownloadManager, FCArticleController, FCAssetManager, FCContentContextInternal, FCContextConfiguration, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetCacheType, FCAVAssetFactoryType, FCAVAssetKeyCacheType, FCAVAssetKeyManagerType, FCAVAssetKeyServiceType, FCAVAssetPrewarming, FCAVAssetResourceLoaderType, FCAssetKeyCacheType, FCAssetKeyManagerType, FCAssetKeyServiceType, FCBackgroundTaskable, FCCoreConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityRequirement, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@class FCContextConfiguration;
+@protocol FCCoreConfigurationManager;
 
 @interface FCContentContext
 {
     id <FCCoreConfigurationManager> _configurationManager;
-    FCArticleController *_articleController;
-    FCAssetManager *_assetManager;
-    id <FCAVAssetCacheType> _avAssetCache;
-    FCAVAssetDownloadManager *_avAssetDownloadManager;
-    id <FCAVAssetPrewarming> _avAssetPrewarmer;
-    FCFlintResourceManager *_flintResourceManager;
-    id <FCNetworkReachabilityType> _networkReachability;
-    FCTagController *_tagController;
-    FCSportsEventController *_sportsEventController;
-    FCPuzzleController *_puzzleController;
-    FCPuzzleTypeController *_puzzleTypeController;
-    id <FCPPTContext> _pptContext;
-    id <FCBackgroundTaskable> _backgroundTaskable;
-    id <FCFeedItemFactoryType> _feedItemFactory;
-    id <FCRecipeItemFactoryType> _recipeItemFactory;
-    FCContextConfiguration *_contextConfiguration;
-    NSURL *_contentHostDirectoryURL;
-    NSString *_contentDirectory;
-    NSURL *_assetCacheDirectoryURL;
-    NSString *_tabiResourcesContentDirectory;
-    NSString *_tabiResourcesContentDirectoryLegacy;
-    NSString *_tabiModelsContentDirectory;
-    NSString *_tabiModelsContentDirectoryLegacy;
-    NSString *_tabiRequestsContentDirectory;
-    FCContentContextInternal *_internalContentContext;
-    id <FCAssetKeyServiceType> _assetKeyService;
-    id <FCAssetKeyCacheType> _assetKeyCache;
-    id <FCAssetKeyManagerType> _assetKeyManager;
-    id <FCAVAssetFactoryType> _avAssetFactory;
-    id <FCAVAssetKeyServiceType> _avAssetKeyService;
-    id <FCAVAssetKeyCacheType> _avAssetKeyCache;
-    id <FCAVAssetKeyManagerType> _avAssetKeyManager;
-    id <FCAVAssetResourceLoaderType> _avAssetResourceLoader;
-    id <FCNetworkReachabilityRequirement> _supportedCountryNetworkReachabilityRequirement;
 }
 
 - (void);
@@ -63,22 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)\;
 - (void);
 - (void);
 - (id);
@@ -86,30 +37,45 @@
 - (id);
 - (id);
 - (id);
+- (void)SelectiveColor;
 - (void);
+- (id);
+- (id)_insertCurvePoint:select:type: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (id);
+- (void);
 - (void);
+- (void)timeZoneWithName:(id)arg1;
+- (id)OTransportType_UNKNOWN_TRANSPORT_TYPE.;
+- (id);
+- (id);
+- (id);
+- (id)IXPreflightWithCacheDelete_block_invoke;
 - (void);
-- (void);
+- (void)enableSpotlightIndexing;
+- (void)setRequestedClientScannerState:(id)arg1;
+- (void)D %d due to impending deletion.;
+- (void)Gr;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)In>";
 - (void)T@"CKDatabase",R,N,V_ckDatabaseWithZoneWidePCS;
-- (id)TabiEventAggregationDurationEventConditions;
+- (id)FCNewsTabiEventAggregationDurationEventConditions;
 - (id);
 - (id)s://staging.asset-server.news.apple.com /* Error: Ran out of types for this method. */;
-- (id)rForAUsers;
+- (id)bundlePaidMultiplierForAUsers;
 - (void)52@?0@"<FCPrivateDataSyncManager>"8@"NSArray"16@"NSArray"24B32@?<v@?>36@"NSError"44;
 - (id)Ðkÿÿ­Ãÿ8P;
 - (void);
-- (id);
+- (id)B;
 - (void)y5ModelÙ0;
 - (id)iySSSgG;
-- (id)ctoryType_p;
+- (id)So23FCRecipeItemFactoryType_p;
 - (id)?¸ëQ¸?{®Gáz?ú~j¼t??ü©ñÒMb?ü©ñÒMb@?{®Gázä?;
 - (id);
 - (id)V;
@@ -119,7 +85,7 @@
 - (id);
 - (void);
 - (void);
-- (id)d;
+- (id)Record;
 - (id)@7;
 - (void);
 - (void);
@@ -133,55 +99,7 @@
 - (id)ÏÔ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;
-@property(readonly, nonatomic) FCArticleController *articleController; // @synthesize articleController=_articleController;
-@property(retain, nonatomic) NSURL *assetCacheDirectoryURL; // @synthesize assetCacheDirectoryURL=_assetCacheDirectoryURL;
-@property(retain, nonatomic) id <FCAssetKeyCacheType> assetKeyCache; // @synthesize assetKeyCache=_assetKeyCache;
-@property(retain, nonatomic) id <FCAssetKeyManagerType> assetKeyManager; // @synthesize assetKeyManager=_assetKeyManager;
-@property(retain, nonatomic) id <FCAssetKeyServiceType> assetKeyService; // @synthesize assetKeyService=_assetKeyService;
-@property(readonly, nonatomic) FCAssetManager *assetManager; // @synthesize assetManager=_assetManager;
-@property(retain, nonatomic) id <FCAVAssetCacheType> avAssetCache; // @synthesize avAssetCache=_avAssetCache;
-@property(retain, nonatomic) FCAVAssetDownloadManager *avAssetDownloadManager; // @synthesize avAssetDownloadManager=_avAssetDownloadManager;
-@property(retain, nonatomic) id <FCAVAssetFactoryType> avAssetFactory; // @synthesize avAssetFactory=_avAssetFactory;
-@property(retain, nonatomic) id <FCAVAssetKeyCacheType> avAssetKeyCache; // @synthesize avAssetKeyCache=_avAssetKeyCache;
-@property(retain, nonatomic) id <FCAVAssetKeyManagerType> avAssetKeyManager; // @synthesize avAssetKeyManager=_avAssetKeyManager;
-@property(retain, nonatomic) id <FCAVAssetKeyServiceType> avAssetKeyService; // @synthesize avAssetKeyService=_avAssetKeyService;
-@property(readonly, nonatomic) id <FCAVAssetPrewarming> avAssetPrewarmer; // @synthesize avAssetPrewarmer=_avAssetPrewarmer;
-@property(retain, nonatomic) id <FCAVAssetResourceLoaderType> avAssetResourceLoader; // @synthesize avAssetResourceLoader=_avAssetResourceLoader;
-@property(readonly, nonatomic) __weak id <FCBackgroundTaskable> backgroundTaskable; // @synthesize backgroundTaskable=_backgroundTaskable;
-@property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(copy, nonatomic) NSString *contentDirectory; // @synthesize contentDirectory=_contentDirectory;
-@property(readonly, copy, nonatomic) NSString *contentEnvironment;
-@property(readonly, copy, nonatomic) NSString *contentEnvironmentToken;
-@property(retain, nonatomic) NSURL *contentHostDirectoryURL; // @synthesize contentHostDirectoryURL=_contentHostDirectoryURL;
-@property(readonly, copy, nonatomic) NSString *contentStoreFrontID;
 @property(copy, nonatomic) FCContextConfiguration *contextConfiguration; // @synthesize contextConfiguration=_contextConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) FCFeedDatabase *feedDatabase;
-@property(readonly, nonatomic) id <FCFeedItemFactoryType> feedItemFactory; // @synthesize feedItemFactory=_feedItemFactory;
-@property(readonly, nonatomic) FCFlintResourceManager *flintResourceManager; // @synthesize flintResourceManager=_flintResourceManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FCContentContextInternal *internalContentContext; // @synthesize internalContentContext=_internalContentContext;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(readonly, nonatomic) id <FCPPTContext> pptContext; // @synthesize pptContext=_pptContext;
-@property(readonly, nonatomic) FCPuzzleController *puzzleController; // @synthesize puzzleController=_puzzleController;
-@property(readonly, nonatomic) FCPuzzleTypeController *puzzleTypeController; // @synthesize puzzleTypeController=_puzzleTypeController;
-@property(readonly, nonatomic) id <FCRecipeItemFactoryType> recipeItemFactory; // @synthesize recipeItemFactory=_recipeItemFactory;
-@property(readonly, nonatomic) FCSportsEventController *sportsEventController; // @synthesize sportsEventController=_sportsEventController;
-@property(readonly, nonatomic) long long storageSize;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *supportedContentStoreFrontID;
-@property(retain, nonatomic) id <FCNetworkReachabilityRequirement> supportedCountryNetworkReachabilityRequirement; // @synthesize supportedCountryNetworkReachabilityRequirement=_supportedCountryNetworkReachabilityRequirement;
-@property(copy, nonatomic) NSString *tabiModelsContentDirectory; // @synthesize tabiModelsContentDirectory=_tabiModelsContentDirectory;
-@property(copy, nonatomic) NSString *tabiModelsContentDirectoryLegacy; // @synthesize tabiModelsContentDirectoryLegacy=_tabiModelsContentDirectoryLegacy;
-@property(copy, nonatomic) NSString *tabiRequestsContentDirectory; // @synthesize tabiRequestsContentDirectory=_tabiRequestsContentDirectory;
-@property(copy, nonatomic) NSString *tabiResourcesContentDirectory; // @synthesize tabiResourcesContentDirectory=_tabiResourcesContentDirectory;
-@property(copy, nonatomic) NSString *tabiResourcesContentDirectoryLegacy; // @synthesize tabiResourcesContentDirectoryLegacy=_tabiResourcesContentDirectoryLegacy;
-@property(readonly, nonatomic) FCTagController *tagController; // @synthesize tagController=_tagController;
 
 @end
 

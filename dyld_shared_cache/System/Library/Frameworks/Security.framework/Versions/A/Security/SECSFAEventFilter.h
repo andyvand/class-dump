@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SECSFAEventFilter
 {
     long long _dropRate;
-    NSString *_event;
-    struct {
-        unsigned int dropRate:1;
-    } _has;
 }
 
 - (void);
@@ -21,23 +15,20 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)s created in a window.;
+- (_Bool)\` ;
+- (void);
 - (id);
 - (id);
 - (void)t<dl;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long dropRate; // @synthesize dropRate=_dropRate;
-@property(retain, nonatomic) NSString *event; // @synthesize event=_event;
-@property(nonatomic) _Bool hasDropRate;
 @property(readonly, nonatomic) _Bool hasEvent;
 
 @end

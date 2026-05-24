@@ -6,29 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NLRouterSchemaNLRouterBridgeHandleContext, NLRouterSchemaNLRouterClientEventMetadata, NLRouterSchemaNLRouterHandleContext, NLRouterSchemaNLRouterInvalidDecisionEmitted, NLRouterSchemaNLRouterPromptGenerated, NLRouterSchemaNLRouterPromptGenerationSignalsCaptured, NLRouterSchemaNLRouterSubComponentHandleContext, NLRouterSchemaNLRouterSubComponentSetupContext, NLRouterSchemaNLRouterSubComponentTriggeredHeuristicRuleTier1, NSData, SISchemaInstrumentationMessage;
+@class NLRouterSchemaNLRouterClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface NLRouterSchemaNLRouterClientEvent : SISchemaTopLevelUnionType
 {
     NLRouterSchemaNLRouterClientEventMetadata *_eventMetadata;
-    NLRouterSchemaNLRouterHandleContext *_nlRouterHandleContext;
-    NLRouterSchemaNLRouterBridgeHandleContext *_nlRouterBridgeHandleContext;
-    NLRouterSchemaNLRouterSubComponentHandleContext *_nlRouterSubComponentHandleContext;
-    NLRouterSchemaNLRouterSubComponentSetupContext *_nlRouterSubComponentSetupContext;
-    NLRouterSchemaNLRouterSubComponentTriggeredHeuristicRuleTier1 *_nlRouterSubComponentTriggeredHeuristicRuleTier1;
-    NLRouterSchemaNLRouterPromptGenerationSignalsCaptured *_nlRouterPromptGenerationSignalsCaptured;
-    NLRouterSchemaNLRouterPromptGenerated *_nlRouterPromptGenerated;
-    NLRouterSchemaNLRouterInvalidDecisionEmitted *_nLRouterInvalidDecisionEmitted;
-    _Bool _hasEventMetadata;
-    _Bool _hasNlRouterHandleContext;
-    _Bool _hasNlRouterBridgeHandleContext;
-    _Bool _hasNlRouterSubComponentHandleContext;
-    _Bool _hasNlRouterSubComponentSetupContext;
-    _Bool _hasNlRouterSubComponentTriggeredHeuristicRuleTier1;
-    _Bool _hasNlRouterPromptGenerationSignalsCaptured;
-    _Bool _hasNlRouterPromptGenerated;
-    _Bool _hasNLRouterInvalidDecisionEmitted;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -56,9 +38,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)R";
 - (id);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -78,48 +60,28 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_supportsPiggybacking;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)OCSP_REQINFO;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)abled: /* Error: Ran out of types for this method. */;
-- (unsigned long long)cted;
+- (id)setHasWasResidentFirstEnabled: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_crrTrainingSampleCollected;
 - (id)Id;
 - (id)TRPFinalized",&,N,V_trpFinalized;
-- (int)E_UNKNOWN_REQUEST_TYPE;
+- (int)UEIREQUESTTYPE_UNKNOWN_REQUEST_TYPE;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLRouterSchemaNLRouterClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasNLRouterInvalidDecisionEmitted; // @synthesize hasNLRouterInvalidDecisionEmitted=_hasNLRouterInvalidDecisionEmitted;
-@property(nonatomic) _Bool hasNlRouterBridgeHandleContext; // @synthesize hasNlRouterBridgeHandleContext=_hasNlRouterBridgeHandleContext;
-@property(nonatomic) _Bool hasNlRouterHandleContext; // @synthesize hasNlRouterHandleContext=_hasNlRouterHandleContext;
-@property(nonatomic) _Bool hasNlRouterPromptGenerated; // @synthesize hasNlRouterPromptGenerated=_hasNlRouterPromptGenerated;
-@property(nonatomic) _Bool hasNlRouterPromptGenerationSignalsCaptured; // @synthesize hasNlRouterPromptGenerationSignalsCaptured=_hasNlRouterPromptGenerationSignalsCaptured;
-@property(nonatomic) _Bool hasNlRouterSubComponentHandleContext; // @synthesize hasNlRouterSubComponentHandleContext=_hasNlRouterSubComponentHandleContext;
-@property(nonatomic) _Bool hasNlRouterSubComponentSetupContext; // @synthesize hasNlRouterSubComponentSetupContext=_hasNlRouterSubComponentSetupContext;
-@property(nonatomic) _Bool hasNlRouterSubComponentTriggeredHeuristicRuleTier1; // @synthesize hasNlRouterSubComponentTriggeredHeuristicRuleTier1=_hasNlRouterSubComponentTriggeredHeuristicRuleTier1;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLRouterSchemaNLRouterInvalidDecisionEmitted *nLRouterInvalidDecisionEmitted; // @synthesize nLRouterInvalidDecisionEmitted=_nLRouterInvalidDecisionEmitted;
-@property(retain, nonatomic) NLRouterSchemaNLRouterBridgeHandleContext *nlRouterBridgeHandleContext; // @synthesize nlRouterBridgeHandleContext=_nlRouterBridgeHandleContext;
-@property(retain, nonatomic) NLRouterSchemaNLRouterHandleContext *nlRouterHandleContext; // @synthesize nlRouterHandleContext=_nlRouterHandleContext;
-@property(retain, nonatomic) NLRouterSchemaNLRouterPromptGenerated *nlRouterPromptGenerated; // @synthesize nlRouterPromptGenerated=_nlRouterPromptGenerated;
-@property(retain, nonatomic) NLRouterSchemaNLRouterPromptGenerationSignalsCaptured *nlRouterPromptGenerationSignalsCaptured; // @synthesize nlRouterPromptGenerationSignalsCaptured=_nlRouterPromptGenerationSignalsCaptured;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentHandleContext *nlRouterSubComponentHandleContext; // @synthesize nlRouterSubComponentHandleContext=_nlRouterSubComponentHandleContext;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentSetupContext *nlRouterSubComponentSetupContext; // @synthesize nlRouterSubComponentSetupContext=_nlRouterSubComponentSetupContext;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentTriggeredHeuristicRuleTier1 *nlRouterSubComponentTriggeredHeuristicRuleTier1; // @synthesize nlRouterSubComponentTriggeredHeuristicRuleTier1=_nlRouterSubComponentTriggeredHeuristicRuleTier1;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

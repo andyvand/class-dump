@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKDetectionItem.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface PKMentionItem : PKDetectionItem
 {
@@ -21,15 +21,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)amework/Versions/A/PhotoFoundation;
 - (_Bool);
 - (id);
 - (_Bool)Pj¬j(k;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool active;
 @property(readonly, nonatomic) NSString *mentionResult;
-@property(readonly, nonatomic) NSUUID *mentionUUID;
 
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFRemovedUserAccessCodeDatabaseID, NSDate, NSString, NSUUID;
+@class NSDate, NSString, NSUUID;
 @protocol MKFHome;
 
 @protocol MKFRemovedUserAccessCode
+- (NSUUID *);
+- (void)gmenter parameters is not an array.;
 - (void)× ;
 - (id <MKFHome>);
-- (NSString *)tDiscoveringSymptomsForNearbyDevicesMessage: /* Error: Ran out of types for this method. */;
+- (NSString *)_handleStartDiscoveringSymptomsForNearbyDevicesMessage: /* Error: Ran out of types for this method. */;
 - (NSString *)ession accounts due to home user change;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFRemovedUserAccessCodeDatabaseID *databaseID;
 @property(copy, nonatomic) NSDate *dateRemoved;
-@property(copy, nonatomic) NSUUID *hh2ModelID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *userID;
-@property(copy, nonatomic) NSUUID *userModelID;
-@property(copy, nonatomic) NSString *userName;
 @end
 

@@ -7,16 +7,14 @@
 @interface ECIMAPAppendInfo
 {
     unsigned int _uidValidity;
-    unsigned long long _newMessageUID;
 }
 
-- (void);
-- (unsigned long long);
+- (void)uld only be set once on an AVMobileChromelessControlsView.;
+- (unsigned long long)ugHUDEnabled()!;
 - (void);
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned long long newMessageUID; // @synthesize newMessageUID=_newMessageUID;
 @property(nonatomic) unsigned int uidValidity; // @synthesize uidValidity=_uidValidity;
 
 @end

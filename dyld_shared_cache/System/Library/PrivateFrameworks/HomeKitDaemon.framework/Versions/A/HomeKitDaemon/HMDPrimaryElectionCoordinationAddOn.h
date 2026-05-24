@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol HMDPrimaryResidentElectionAddOnDelegate;
 
 __attribute__((visibility("hidden")))
@@ -13,7 +12,7 @@ __attribute__((visibility("hidden")))
     id <HMDPrimaryResidentElectionAddOnDelegate> delegate;
 }
 
-- (void);
+- (void)iftUI;
 - (void);
 - (void);
 - (void);
@@ -27,18 +26,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id)rmation:(id)arg1 %@;
-- (void)md_accessoryDiagnosticInfoFetchErrorDomain;
+- (void)hmd_accessoryDiagnosticInfoFetchErrorDomain;
 - (void)ld not be set when using IDS transport for modern transport;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDPrimaryResidentElectionAddOnDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

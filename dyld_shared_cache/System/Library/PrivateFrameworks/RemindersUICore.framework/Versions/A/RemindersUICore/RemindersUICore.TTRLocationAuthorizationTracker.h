@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRLocationAuthorizationTracker
 {
     id authorizationCurrentValueSubject;
-    id authorizationPassthroughSubject;
 }
 
 @end

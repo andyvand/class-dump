@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSUPointerKeyDictionary;
-
 @interface TSWPSwipeGestureRecognizer
 {
     double mStartTime;
-    unsigned long long mTouchCountAttained;
-    TSUPointerKeyDictionary *mStartLocations;
-    int mDirection;
-    unsigned long long mNumberOfTouchesRequired;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Subscription;
+- (_Bool)PAFDurationBug;
+- (_Bool)DEBUG;
 - (void);
-- (double);
+- (double)GaplessInfoEncodingDelayInFramesKey;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)tasks;
 - (int);
 - (void);
-- (void)art;
+- (void)strokeStart;
 
 // Remaining properties
-@property(nonatomic) int direction; // @synthesize direction=mDirection;
 @property(nonatomic) unsigned long long numberOfTouchesRequired; // @synthesize numberOfTouchesRequired=mNumberOfTouchesRequired;
 
 @end

@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDFollowUpRequestMetadata
 {
     PBUnknownFields *_unknownFields;
-    int _dataType;
-    int _requestType;
-    struct {
-        unsigned int has_dataType:1;
-        unsigned int has_requestType:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)J=;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)seCategorySuggestionParameters";
-- (id)yCandidates;
+- (id)_displayCandidates;
 - (id)`0;
 - (void)ï§ÆK7@NbX9t,@;
 

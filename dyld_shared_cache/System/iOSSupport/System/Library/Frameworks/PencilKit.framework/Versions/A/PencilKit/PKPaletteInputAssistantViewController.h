@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDrawingPaletteInputAssistantView;
+@class PKDrawingPaletteInputAssistantView;
 
 @interface PKPaletteInputAssistantViewController
 {
@@ -15,19 +15,12 @@
 - (void);
 - (void);
 - (void)loseButtonVisible;
-- (void)etteViewPrivateDelegate;
+- (void)PKPaletteViewPrivateDelegate;
 - (id)ðü;
-- (struct CGSize)_ptr_pointerIPNS_6vectorIN12_GLOBAL__N_112StrokeVertexENS_9allocatorIS3_EEEENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS4_IS6_EEEE;
+- (struct CGSize)NSt3__120__shared_ptr_pointerIPNS_6vectorIN12_GLOBAL__N_112StrokeVertexENS_9allocatorIS3_EEEENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS4_IS6_EEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PKDrawingPaletteInputAssistantView *inputAssistantView; // @synthesize inputAssistantView=_inputAssistantView;
-@property(readonly) Class superclass;
 
 @end
 

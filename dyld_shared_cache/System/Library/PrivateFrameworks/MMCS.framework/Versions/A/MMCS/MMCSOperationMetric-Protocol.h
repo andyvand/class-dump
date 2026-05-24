@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary, NSMutableSet;
+@class NSArray, NSDate, NSMutableDictionary;
+@protocol MMCSOperationStateTimeRange;
 
 @protocol MMCSOperationMetric
+- (void)So27IMDExportedParticipantBatchC;
+- (NSArray *);
+- (void)?0@8;
+- (unsigned long long)ery:%@ /* Error: Ran out of types for this method. */;
+- (NSMutableDictionary *)modelWithContentsOfURL:configuration:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)=;
+- (id <MMCSOperationStateTimeRange>)formatDescriptions;
+- (void)`;
 - (void)%@;
 
 // Remaining properties
-@property unsigned long long bytesDownloaded;
-@property unsigned long long bytesFulfilledByPeers;
-@property unsigned long long bytesFulfilledLocally;
-@property unsigned long long bytesResumed;
-@property unsigned long long bytesUploaded;
-@property(readonly) NSMutableDictionary *chunkCountByChunkProfile;
-@property unsigned long long connections;
-@property unsigned long long connectionsCreated;
-@property(readonly) double duration;
-@property double executing;
-@property(readonly) NSMutableDictionary *fileCountByChunkProfile;
-@property double queueing;
-@property(readonly) NSArray *rangesCopy;
-@property(readonly) NSMutableSet *requestUUIDs;
 @property(readonly) NSDate *startDate;
-@property(readonly) NSMutableDictionary *totalBytesByChunkProfile;
 @end
 

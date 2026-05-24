@@ -6,7 +6,7 @@
 
 #import <LaunchServices/_LSInProcessSettingsStore.h>
 
-@class NSString, NSXPCListener;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface _LSServerSettingsStore : _LSInProcessSettingsStore
@@ -14,34 +14,27 @@ __attribute__((visibility("hidden")))
     NSXPCListener *_listener;
 }
 
-+ (_Bool);
++ (_Bool)aredEventListener"16Q24@?<v@?@"<MTLSharedEvent>"Q>32;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)<;
+- (void)*);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)setTriangleFillMode was unused.;
 - (void)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

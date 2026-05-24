@@ -10,24 +10,18 @@ __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsSliderNode : UINSApplicationSettingsDefaultsSettingsNode
 {
     id _minimumValue;
-    id _maximumValue;
-    id _minimumValueImageName;
-    id _maximumValueImageName;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)n8&*h;
 - (void);
-- (id);
+- (id)rememberResult:forUserShortcut:isAdvancedQuery: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)eID %@;
 
 // Remaining properties
-@property(readonly, nonatomic) id maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(readonly, nonatomic) id maximumValueImageName; // @synthesize maximumValueImageName=_maximumValueImageName;
 @property(readonly, nonatomic) id minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(readonly, nonatomic) id minimumValueImageName; // @synthesize minimumValueImageName=_minimumValueImageName;
 
 @end
 

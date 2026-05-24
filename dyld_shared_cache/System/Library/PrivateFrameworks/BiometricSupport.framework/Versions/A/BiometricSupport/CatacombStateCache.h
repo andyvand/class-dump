@@ -16,11 +16,11 @@
 - (int);
 - (unsigned int);
 - (id);
-- (int);
+- (int);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)CService;
 - (unsigned int);
 - (void);
 

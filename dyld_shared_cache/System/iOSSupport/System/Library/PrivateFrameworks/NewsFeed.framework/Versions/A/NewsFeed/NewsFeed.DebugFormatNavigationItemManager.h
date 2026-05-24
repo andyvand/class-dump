@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatNavigationItemManager
 {
     id mainViewController;
-    id statusView;
-    id statusBarButtonItem;
-    id $__lazy_storage_$_sidebarBarButtonItem;
 }
 
 - (void);

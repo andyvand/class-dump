@@ -10,11 +10,6 @@
 @interface PKLRUCacheItem
 {
     NSObject<NSCopying> *_key;
-    long long _scaleFactor;
-    PKLRUCacheItem *_next;
-    PKLRUCacheItem *_prev;
-    id _object;
-    unsigned long long _cost;
 }
 
 - (void)dFHÐOÜR

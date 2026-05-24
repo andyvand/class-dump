@@ -9,7 +9,7 @@
     long long _initialPreviewIndex;
 }
 
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties

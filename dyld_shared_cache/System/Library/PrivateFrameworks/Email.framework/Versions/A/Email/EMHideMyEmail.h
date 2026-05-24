@@ -4,46 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AKPrivateEmailController, EFLocked, EMCoreAnalyticsCollector, NSNumber, NSString;
-@protocol EFAssertableScheduler;
+@class AKPrivateEmailController;
 
 @interface EMHideMyEmail
 {
     _Bool _hasCheckedIfFeatureIsAvailable;
-    EMCoreAnalyticsCollector *_analyticsCollector;
-    AKPrivateEmailController *_controller;
-    id <EFAssertableScheduler> _scheduler;
-    EFLocked *_isAvailableLocked;
 }
 
 + (id);
 + (id)0@ù
 × ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)RegisteredItems;
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id)TaskExpirationInfo;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id)";
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)|;
 - (id);
 - (id);
 - (void)
@@ -52,22 +47,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) EMCoreAnalyticsCollector *analyticsCollector; // @synthesize analyticsCollector=_analyticsCollector;
 @property(retain, nonatomic) AKPrivateEmailController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *forwardingEmailForPrimaryAccount;
-@property(readonly, nonatomic) _Bool hasCheckedIfFeatureIsAvailable; // @synthesize hasCheckedIfFeatureIsAvailable=_hasCheckedIfFeatureIsAvailable;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *isAvailable;
-@property(retain, nonatomic) EFLocked *isAvailableLocked; // @synthesize isAvailableLocked=_isAvailableLocked;
-@property(readonly, nonatomic) ACAccount *primaryAccount;
-@property(readonly, nonatomic) NSString *primaryAccountAltDSID;
-@property(retain) id <EFAssertableScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

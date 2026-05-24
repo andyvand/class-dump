@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STCoreOrganization;
-
 @interface STScreenTimeSettings
 {
 }
@@ -15,13 +13,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool cloudSyncEnabled; // @dynamic cloudSyncEnabled;
-@property(retain, nonatomic) STCoreOrganization *currentOrganization; // @dynamic currentOrganization;
-@property(nonatomic) _Bool familySetupComplete; // @dynamic familySetupComplete;
 @property(nonatomic) _Bool screenTimeEnabled; // @dynamic screenTimeEnabled;
 
 @end

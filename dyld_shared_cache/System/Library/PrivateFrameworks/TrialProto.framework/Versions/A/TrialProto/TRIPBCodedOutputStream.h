@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData;
-
 @interface TRIPBCodedOutputStream
 {
     struct TRIPBOutputBufferState state_;
-    NSMutableData *buffer_;
 }
 
 + (id);
 + (id);
 - (void);
+- (void)safari_underlyingErrorMatchesErrorDomain:(int)arg1 andCode:(id)arg2;
+- (void)_domainsIneligibleForPasswordAuditing;
+- (void)stringFromPersonNameComponents:(int)arg1;
 - (void);
 - (void);
 - (void);
@@ -24,6 +24,33 @@
 - (void);
 - (void);
 - (void);
+- (void)t exists for user;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)tension_id = ? AND phone_number_id IN (SELECT id FROM PhoneNumber WHERE number IN %@);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)TLAlertTopicSoundRecognitionDoorBell;
+- (void);
+- (void);
+- (void)V_bitDepth;
+- (void);
+- (void);
+- (void)FSlowMotionTimeRangeMapper",&,N,V_timeRangeMapper;
+- (void)PHPhotosErrorLightweightMigrationFailed;
+- (void)0@?0@8{_NSRange=QQ}16^B32;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,11 +59,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setSocialMediaPostCardSection:(int)arg1;
+- (void)initWithInput:(int)arg1 triggerEvent:(id)arg2 indexType:queryId: /* Error: Ran out of types for this method. */;
+- (void)V_longitude;
 - (id);
 - (void);
 - (void);
@@ -53,39 +78,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void),N,V_discretionaryBehavior;
 - (void);
 
 @end

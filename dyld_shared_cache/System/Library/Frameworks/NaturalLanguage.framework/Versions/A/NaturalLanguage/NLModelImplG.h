@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)ts: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)u;
+- (id)_configureOverridesForOptionalPSUSDownload:forDescriptor: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

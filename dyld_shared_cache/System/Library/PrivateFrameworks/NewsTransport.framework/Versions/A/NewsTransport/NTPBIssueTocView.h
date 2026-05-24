@@ -4,79 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBIssueData, NTPBIssueExposureData, NTPBIssueViewData;
+@class NSString;
 
 @interface NTPBIssueTocView
 {
     NSString *_articleId;
-    NTPBIssueData *_issueData;
-    NTPBIssueExposureData *_issueExposureData;
-    NTPBIssueViewData *_issueViewData;
-    NSString *_parentFeedId;
-    int _parentFeedType;
-    NSString *_sourceChannelId;
-    _Bool _adSupportedChannel;
-    struct {
-        unsigned int parentFeedType:1;
-        unsigned int adSupportedChannel:1;
-    } _has;
 }
 
+- (void)defaultSectionAspectRatio;
+- (void)defaultScrollViewAccessibilityIdentifier;
+- (void)customMediaProviderForDisplayAssetsInLayout:(id)arg1;
+- (void)customFetchOptionsForCollection:(id)arg1;
+- (void)customContextMenuInteractionDelegate;
+- (void)convertPoint:(_Bool)arg1 fromView: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)canToggleSelectMode;
+- (id)bottomLayoutGuide;
+- (int)bottomGradientLegibilityOverlayOpacity;
+- (id)bottomGradientLegibilityOverlayOpacity;
+- (id)axShouldSearchLeafsInSubgroups;
+- (id)axGroupSource;
+- (id)axGroup:didRequestToPerformAction:userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)annotatedLocation;
+- (_Bool)allProjectsCollection;
+- (_Bool)allPhotosContentShiftStrategy;
+- (_Bool)allPhotosContentFilterState;
+- (_Bool)_zoomLevelPinchSignificantScaleDelta;
+- (_Bool)_updateScrollControllerMetricsIfNeeded;
+- (int)_updateLayoutVisibleRectIfNeeded;
+- (_Bool)_updateFilteredCollectionsFetchResults;
 - (id);
-- (int);
-- (id);
-- (id);
-- (id);
+- (void)gRequest_%llu;
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (id)ig Sur Graphic Day;
+- (_Bool)};
+- (void)_cachedTagForTagID:(id)arg1 fastCacheOnly:] /* Error: Ran out of types for this method. */;
+- (_Bool)RecipeItemInventory;
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
-- (id);
-- (void);
+- (void)setCharacterCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool adSupportedChannel; // @synthesize adSupportedChannel=_adSupportedChannel;
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) _Bool hasAdSupportedChannel;
-@property(readonly, nonatomic) _Bool hasArticleId;
 @property(readonly, nonatomic) _Bool hasIssueData;
-@property(readonly, nonatomic) _Bool hasIssueExposureData;
-@property(readonly, nonatomic) _Bool hasIssueViewData;
-@property(readonly, nonatomic) _Bool hasParentFeedId;
-@property(nonatomic) _Bool hasParentFeedType;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(retain, nonatomic) NTPBIssueData *issueData; // @synthesize issueData=_issueData;
-@property(retain, nonatomic) NTPBIssueExposureData *issueExposureData; // @synthesize issueExposureData=_issueExposureData;
-@property(retain, nonatomic) NTPBIssueViewData *issueViewData; // @synthesize issueViewData=_issueViewData;
-@property(retain, nonatomic) NSString *parentFeedId; // @synthesize parentFeedId=_parentFeedId;
-@property(nonatomic) int parentFeedType; // @synthesize parentFeedType=_parentFeedType;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

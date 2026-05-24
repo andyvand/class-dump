@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAccessibilityCustomChooserItemResult, NSString;
+@class NSAccessibilityCustomChooserItemResult;
 
 @interface NSAccessibilityCustomChooserSearchPredicate
 {
     NSAccessibilityCustomChooserItemResult *_currentItem;
-    long long _searchDirection;
-    NSString *_filterText;
 }
 
 - (void);
-- (void);
+- (void)set_tlsSessionCachePrefix:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSAccessibilityCustomChooserItemResult *currentItem; // @synthesize currentItem=_currentItem;
-@property(copy, nonatomic) NSString *filterText; // @synthesize filterText=_filterText;
-@property(nonatomic) long long searchDirection; // @synthesize searchDirection=_searchDirection;
 
 @end
 

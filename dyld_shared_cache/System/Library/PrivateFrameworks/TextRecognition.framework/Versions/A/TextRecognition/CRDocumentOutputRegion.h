@@ -6,16 +6,9 @@
 
 #import <TextRecognition/CROutputRegion.h>
 
-@class CRDocumentOutputRegionMetadata, CRTextDetectorResults, NSArray, NSString;
-
 @interface CRDocumentOutputRegion : CROutputRegion
 {
     CROutputRegion *_title;
-    CRTextDetectorResults *_detectorResults;
-    NSString *_imagePath;
-    unsigned long long _documentRevision;
-    CRDocumentOutputRegionMetadata *_additionalMetadata;
-    NSArray *_cachedLayoutComponents;
 }
 
 + (id);
@@ -43,28 +36,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)k);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)g: /* Error: Ran out of types for this method. */;
+- (void)stringWithUTF8String: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) CRDocumentOutputRegionMetadata *additionalMetadata; // @synthesize additionalMetadata=_additionalMetadata;
-@property(retain) NSArray *cachedLayoutComponents; // @synthesize cachedLayoutComponents=_cachedLayoutComponents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) CRTextDetectorResults *detectorResults; // @synthesize detectorResults=_detectorResults;
-@property unsigned long long documentRevision; // @synthesize documentRevision=_documentRevision;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *imagePath; // @synthesize imagePath=_imagePath;
-@property(readonly) Class superclass;
 @property(retain) CROutputRegion *title; // @synthesize title=_title;
 
 @end

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPImage, LPLinkMetadataPreviewTransformer, NSString;
+
 @protocol LPLinkMetadataPreviewTransformer
+- (NSString *)transcriptOverlayTapGestureRecognized:(LPLinkMetadataPreviewTransformer *)arg1;
+- (LPImage *)transcriptOverlayBackingCollectionViewOpacity;
 @end
 

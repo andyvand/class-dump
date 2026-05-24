@@ -7,11 +7,6 @@
 @interface PodcastsFoundation.PodcastStateMachine
 {
     id adamId;
-    id uuid;
-    id state;
-    id observers;
-    id rules;
-    id lock;
 }
 
 @end

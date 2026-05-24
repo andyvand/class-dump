@@ -12,16 +12,17 @@
 
 + (id);
 + (id);
-+ (_Bool);
-- (_Bool);
++ (_Bool)riptor"24@?<v@?@"NSError">32;
+- (_Bool)s
+;
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);

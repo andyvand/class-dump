@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class OKDocument;
+
 @protocol OKDocumentDelegate
+
+@optional
+- (void)analyticsJitterLowerBound;
+- (void)analyticsEnvelopeContentTypeConfigsForEnvironment:(OKDocument *)arg1;
 @end
 

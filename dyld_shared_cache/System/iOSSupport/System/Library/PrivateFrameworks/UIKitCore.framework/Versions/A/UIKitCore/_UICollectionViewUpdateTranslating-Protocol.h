@@ -7,9 +7,10 @@
 @class NSIndexPath, NSString;
 
 @protocol _UICollectionViewUpdateTranslating
+- (long long);
 - (long long)Ô ;
-- (NSIndexPath *)rce:(NSIndexPath *)arg1 toUpdate: /* Error: Ran out of types for this method. */;
-- (NSIndexPath *)MaximumDistance:(NSString *)arg1;
+- (NSIndexPath *)updateInputSource:(NSIndexPath *)arg1 toUpdate: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)_setMaximumDistance:(NSString *)arg1;
 - (long long)ÿþÿ¸ÿþÿØÿþÿøÿþÿ;
 - (long long)ldItems != nil;
 @end

@@ -9,20 +9,18 @@
 @interface WADeploymentIssue
 {
     NSString *_ssid;
-    unsigned long long _type;
 }
 
-+ (id);
++ (id))!;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id)lReasonNoCand;
+- (id)RoamsFailReasonNoCand;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

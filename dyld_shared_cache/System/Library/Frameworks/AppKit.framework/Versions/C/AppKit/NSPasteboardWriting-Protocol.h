@@ -5,5 +5,6 @@
 //
 
 @protocol NSPasteboardWriting
+- (id)End of Outer Sequence found, before any valid DER.;
 @end
 

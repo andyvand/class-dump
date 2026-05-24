@@ -10,26 +10,22 @@ __attribute__((visibility("hidden")))
 @interface ICMImageGalleryQuadEditorLayerImageView
 {
     NSImage *_image;
-    CALayer *_imageLayer;
-    long long _orientation;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_VCJBTargetEstimatorSynchronizer_Configure;
 - (_Bool);
-- (id);
+- (id)T6;
 - (long long);
 - (id);
-- (void);
+- (void)b;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) CALayer *imageLayer; // @synthesize imageLayer=_imageLayer;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
 
 @end
 

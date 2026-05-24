@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDDataDetectionPersistence, EDMessagePersistence, EDPersistedAttachmentID, EDPersistenceDatabase, EDRichLinkPersistence, EDSearchableIndexAnalyticsPersistence, NSDictionary, NSString;
 @protocol EDSearchableIndexHookResponder;
 
 @interface EDSearchableIndexPersistence
 {
     _Atomic unsigned char _currentIndexingTypeIndex;
-    struct os_unfair_lock_s _lastProcessedAttachmentIDLock;
-    EDDataDetectionPersistence *_dataDetectionPersistence;
-    EDPersistedAttachmentID *_lastProcessedAttachmentID;
-    EDPersistenceDatabase *_database;
-    EDMessagePersistence *_messagePersistence;
-    id <EDSearchableIndexHookResponder> _hookResponder;
-    EDRichLinkPersistence *_richLinkPersistence;
-    EDSearchableIndexAnalyticsPersistence *_analytics;
 }
 
 + (id);
@@ -39,11 +30,11 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
@@ -52,14 +43,14 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -81,22 +72,7 @@
 - (void)lag = has_orange_flag OR excluded.has_orange_flag,   has_yellow_flag = has_yellow_flag OR excluded.has_yellow_flag,   has_green_flag = has_green_flag OR excluded.has_green_flag,   has_blue_flag = has_blue_flag OR excluded.has_blue_flag,   has_purple_flag = has_purple_flag OR excluded.has_purple_flag,   has_gray_flag = has_gray_flag OR excluded.has_gray_flag,   is_icloud_cleanup = is_icloud_cleanup OR excluded.is_icloud_cleanup WHERE count != excluded.count;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *additionalFilterClause;
-@property(retain) EDSearchableIndexAnalyticsPersistence *analytics; // @synthesize analytics=_analytics;
-@property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <EDSearchableIndexHookResponder> hookResponder; // @synthesize hookResponder=_hookResponder;
-@property(copy) EDPersistedAttachmentID *lastProcessedAttachmentID; // @synthesize lastProcessedAttachmentID=_lastProcessedAttachmentID;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) EDRichLinkPersistence *richLinkPersistence; // @synthesize richLinkPersistence=_richLinkPersistence;
-@property(readonly) unsigned long long signpostID;
-@property(readonly, nonatomic) NSDictionary *statistics;
-@property(readonly) Class superclass;
 
 @end
 

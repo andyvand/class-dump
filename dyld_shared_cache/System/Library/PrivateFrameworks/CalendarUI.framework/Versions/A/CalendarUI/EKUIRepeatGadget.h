@@ -21,7 +21,7 @@
 - (double);
 - (long long);
 - (void);
-- (id);
+- (id)A;
 - (void);
 
 @end

@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIDICIDeviceInfo, NSArray, NSMutableArray;
-@protocol MIDICIProfileResponderDelegate, MIDICIPropertyResponderDelegate;
+@protocol MIDICIPropertyResponderDelegate;
 
 @interface MIDICIResponder
 {
     unsigned int _serverResponderRef;
-    NSMutableArray *_subscribers;
-    MIDICIDeviceInfo *_deviceInfo;
-    id <MIDICIProfileResponderDelegate> _profileDelegate;
-    id <MIDICIPropertyResponderDelegate> _propertyDelegate;
-    NSMutableArray *_profileStates;
-    unsigned int _midiDestination;
-    _Bool _propertiesSupported;
-    _Bool _isStarted;
-    NSArray *initiators;
 }
 
 + (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)h8h;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,16 +24,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)AMSAuthenticateOptionsAppProvidedContext;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MIDICIDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(readonly, nonatomic) NSArray *initiators; // @synthesize initiators;
-@property(readonly, retain, nonatomic) id <MIDICIProfileResponderDelegate> profileDelegate; // @synthesize profileDelegate=_profileDelegate;
 @property(retain, nonatomic) id <MIDICIPropertyResponderDelegate> propertyDelegate; // @synthesize propertyDelegate=_propertyDelegate;
 
 @end

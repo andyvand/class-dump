@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)`;
 - (void)Â0@ù
 × ;
 - (struct UIEdgeInsets)@0:8q16@"UITableView"24B32 /* Error: Ran out of types for this method. */;
 - (id)Heights;
-- (void)Environment;
+- (void)hostEnvironment;
 - (struct NSDirectionalEdgeInsets)
 Ú;
 - (void)í;

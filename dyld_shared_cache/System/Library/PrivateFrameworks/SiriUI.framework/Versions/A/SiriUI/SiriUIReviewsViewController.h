@@ -6,36 +6,20 @@
 
 #import <SiriUI/SiriUISnippetViewController.h>
 
-@class NSCollectionView, NSMutableArray, NSString, NSView, SALocalSearchReviewList, SiriUIScrollView;
+@class SALocalSearchReviewList;
 @protocol SiriUIReviewsViewControllerDelegate;
 
 @interface SiriUIReviewsViewController : SiriUISnippetViewController
 {
     SALocalSearchReviewList *_reviewList;
-    NSMutableArray *_cellSizeForRowCache;
-    NSCollectionView *_collectionView;
-    SiriUIScrollView *_scrollView;
-    struct {
-        unsigned int didLoadCollectionView:1;
-        unsigned int viewForRatingForReview:1;
-        unsigned int offsetForRatingView:1;
-    } _delegateFlags;
-    id <SiriUIReviewsViewControllerDelegate> _reviewsDelegate;
-    long long _reviewCharacterLimit;
-    NSView *_totalRatingView;
-    double _verticalSpaceNeededForRatingView;
-    NSView *_providerView;
-    NSString *_providerName;
-    struct UIOffset _totalRatingViewOffset;
-    struct UIOffset _providerViewOffset;
 }
 
 - (double);
-- (struct UIOffset);
+- (struct UIOffset)c;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,26 +31,26 @@
 - (void);
 - (struct CGSize);
 - (long long);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)@;
 - (id);
 - (long long);
+- (long long)A�;
 - (long long);
-- (long long);
 - (double);
 - (double);
 - (double);
 - (id);
 - (id);
-- (id);
-- (Class);
+- (id)˟;
+- (Class)o ;
 - (double);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id),&,N,V_selectedRecipients;
+- (id)appearsSelected;
 - (id);
 - (struct CGSize);
 - (id);
@@ -78,22 +62,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
-@property(retain, nonatomic) NSView *providerView; // @synthesize providerView=_providerView;
-@property(nonatomic) struct UIOffset providerViewOffset; // @synthesize providerViewOffset=_providerViewOffset;
-@property(nonatomic) long long reviewCharacterLimit; // @synthesize reviewCharacterLimit=_reviewCharacterLimit;
-@property(retain, nonatomic) SALocalSearchReviewList *reviewList; // @synthesize reviewList=_reviewList;
 @property(nonatomic) __weak id <SiriUIReviewsViewControllerDelegate> reviewsDelegate; // @synthesize reviewsDelegate=_reviewsDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSView *totalRatingView; // @synthesize totalRatingView=_totalRatingView;
-@property(nonatomic) struct UIOffset totalRatingViewOffset; // @synthesize totalRatingViewOffset=_totalRatingViewOffset;
-@property(nonatomic) double verticalSpaceNeededForRatingView; // @synthesize verticalSpaceNeededForRatingView=_verticalSpaceNeededForRatingView;
 
 @end
 

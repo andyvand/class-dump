@@ -24,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) CALayer *_mapKit_mapLayer;
 @property(readonly, retain, nonatomic) CALayer *currentLayer;
 @end
 

@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, RTLocation;
+@class NSString;
 
 @interface RTCalendarEvent
 {
     _Bool _allDay;
-    NSString *_eventIdentifier;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    unsigned long long _participantStatus;
-    long long _availability;
-    RTLocation *_location;
-    NSString *_locationTitle;
-    NSData *_locationMapItemHandle;
 }
 
 + (id);
-+ (id);
++ (id)aves;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)locbindRequest forceTCPFallbackOnWiFI default:%@ manual:%@; forceTCPFallbackOnCell default:%@ manual:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id)orMatchedTripAvg;
+- (id)_dtwForMatchedTripAvg;
 - (void)Invalid_ForVisitAtIndex, tripSegmentVisitStatus[%ld], Passthrough;
 - (_Bool)e}@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;
-@property(readonly, nonatomic) long long availability; // @synthesize availability=_availability;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(readonly, nonatomic) RTLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSData *locationMapItemHandle; // @synthesize locationMapItemHandle=_locationMapItemHandle;
-@property(readonly, nonatomic) NSString *locationTitle; // @synthesize locationTitle=_locationTitle;
-@property(readonly, nonatomic) unsigned long long participantStatus; // @synthesize participantStatus=_participantStatus;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

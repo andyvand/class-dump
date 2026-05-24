@@ -5,5 +5,8 @@
 //
 
 @protocol AVMobileGlassContentTabsViewControllerDelegate
+
+@optional
+- (void);
 @end
 

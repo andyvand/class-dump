@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TIInputModeParser
 {
     NSMutableDictionary *_inputModeDicts;
-    NSCharacterSet *_invalidCharacterSet;
 }
 
 + (id);

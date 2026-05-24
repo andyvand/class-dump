@@ -7,11 +7,10 @@
 @protocol PXAudioCueSource;
 
 @protocol PXStoryPacingCueSource
-- (CDStruct_1b6d18a9)ontroller:toViewController: /* Error: Ran out of types for this method. */;
+- (id <PXAudioCueSource>);
+- (CDStruct_1b6d18a9)handleDismissalOfViewController:toViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXAudioCueSource> audioCueSource;
-@property(readonly, nonatomic) long long cuesVersion;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
 @end
 

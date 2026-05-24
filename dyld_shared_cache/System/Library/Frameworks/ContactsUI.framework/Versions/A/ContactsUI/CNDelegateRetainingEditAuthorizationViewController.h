@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)unction6__funcIZN3ctu4rest15property_sink_tI27debug_baseband_force_onlineE9bind_implIZZN21DebugAssertionHandler4initEvENK3$_0clEvEUlvE_EEvRNS2_10RestModuleEOT_NS_17integral_constantIbLb1EEEEUlRKN3xpc6objectEE_FvSI_EEE;
 - (void);
 
 // Remaining properties

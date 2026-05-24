@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)@. Error? %@;
+- (void)caching;
 - (_Bool);
 
 @end

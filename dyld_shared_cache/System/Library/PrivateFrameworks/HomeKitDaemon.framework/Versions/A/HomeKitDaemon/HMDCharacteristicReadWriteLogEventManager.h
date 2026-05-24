@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicReadWriteNetworkInformation, NSMutableDictionary;
 @protocol HMMUptimeProvider;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicReadWriteLogEventManager
 {
     struct os_unfair_lock_s _lock;
-    id <HMMUptimeProvider> _uptimeProvider;
-    NSMutableDictionary *_accessoryStatisticsByHMDAccessoryUUID;
-    HMDCharacteristicReadWriteNetworkInformation *_networkInformationCache;
 }
 
 + (id)$$óÿil>;
-- (void);
-- (void);
-- (void);
+- (void)unarchivingObjectsSet;
+- (void)submitWithHandler:(_Bool)arg1 networkActivity:(id)arg2;
+- (void)setInterruptionHandler:(_Bool)arg1;
 - (void);
 - (id);
 - (id);
@@ -27,16 +23,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id)ntDetectionField;
+- (id)activityZonesIncludedForSignificantEventDetectionField;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *accessoryStatisticsByHMDAccessoryUUID; // @synthesize accessoryStatisticsByHMDAccessoryUUID=_accessoryStatisticsByHMDAccessoryUUID;
-@property(retain) HMDCharacteristicReadWriteNetworkInformation *networkInformationCache; // @synthesize networkInformationCache=_networkInformationCache;
 @property(readonly, nonatomic) id <HMMUptimeProvider> uptimeProvider; // @synthesize uptimeProvider=_uptimeProvider;
 
 @end

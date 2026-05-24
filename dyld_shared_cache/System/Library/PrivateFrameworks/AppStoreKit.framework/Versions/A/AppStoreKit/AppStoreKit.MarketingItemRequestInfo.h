@@ -7,16 +7,6 @@
 @interface AppStoreKit.MarketingItemRequestInfo
 {
     id serviceType;
-    id placement;
-    id seed;
-    id offerHints;
-    id clientOptions;
-    id purchaseSuccessAction;
-    id purchaseFailureAction;
-    id carrierLinkSuccessAction;
-    id carrierLinkFailureAction;
-    id onDismissalAction;
-    id metricsOverlay;
 }
 
 @end

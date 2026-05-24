@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKDiscoveryCallToAction, PKDiscoveryCard, PKDiscoveryItem, PKMiniDiscoveryCard;
+@class NSString;
 
 @interface PKDiscoveryArticleLayout
 {
     _Bool _entitledToForceLargeCard;
-    _Bool _hitMaxLargeViewCount;
-    _Bool _requestedBadge;
-    NSString *_itemIdentifier;
-    long long _version;
-    long long _variant;
-    PKDiscoveryCard *_card;
-    PKDiscoveryCard *_mediumCard;
-    PKMiniDiscoveryCard *_miniCard;
-    NSArray *_shelves;
-    PKDiscoveryCallToAction *_footerLockup;
-    long long _priority;
-    NSString *_preferredLocalization;
-    CDUnknownBlockType _actionOnDismiss;
-    PKDiscoveryItem *_item;
 }
 
 + (_Bool)î%°1Â0@ù
 × ;
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (void)9;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -52,30 +38,16 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)hasTcpiRcvMss;
 - (void);
-- (id)sentationCompletionBlock;
-- (void);
+- (id)_remoteRequestPromisePresentationCompletionBlock;
+- (void)issuerName;
 - (long long)Provisioning.Continuity;
 - (long long)\£;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionOnDismiss; // @synthesize actionOnDismiss=_actionOnDismiss;
-@property(readonly, nonatomic) PKDiscoveryCard *card; // @synthesize card=_card;
-@property(readonly, nonatomic) _Bool entitledToForceLargeCard; // @synthesize entitledToForceLargeCard=_entitledToForceLargeCard;
-@property(readonly, nonatomic) PKDiscoveryCallToAction *footerLockup; // @synthesize footerLockup=_footerLockup;
-@property(readonly, nonatomic, getter=hasHitMaxLargeViewCount) _Bool hitMaxLargeViewCount; // @synthesize hitMaxLargeViewCount=_hitMaxLargeViewCount;
-@property(retain, nonatomic) PKDiscoveryItem *item; // @synthesize item=_item;
 @property(retain, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) PKDiscoveryCard *mediumCard; // @synthesize mediumCard=_mediumCard;
-@property(readonly, nonatomic) PKMiniDiscoveryCard *miniCard; // @synthesize miniCard=_miniCard;
-@property(readonly, nonatomic) NSString *preferredLocalization; // @synthesize preferredLocalization=_preferredLocalization;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic, getter=hasRequestedBadge) _Bool requestedBadge; // @synthesize requestedBadge=_requestedBadge;
-@property(readonly, nonatomic) NSArray *shelves; // @synthesize shelves=_shelves;
-@property(readonly, nonatomic) long long variant; // @synthesize variant=_variant;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

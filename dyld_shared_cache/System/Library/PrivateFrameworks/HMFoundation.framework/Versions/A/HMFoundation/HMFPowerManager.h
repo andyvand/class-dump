@@ -12,20 +12,13 @@
 @interface HMFPowerManager : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasBattery;
-    _Bool _running;
-    float _batteryLevel;
-    unsigned int _interestNotification;
-    long long _batteryState;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    struct IONotificationPort *_notificationPort;
 }
 
 + (id);
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)Ԋl;
 - (struct IONotificationPort *);
 - (_Bool);
 - (long long);
@@ -40,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) float batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(readonly) long long batteryState; // @synthesize batteryState=_batteryState;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly) _Bool hasBattery; // @synthesize hasBattery=_hasBattery;
-@property(readonly, nonatomic) unsigned int interestNotification; // @synthesize interestNotification=_interestNotification;
-@property(readonly, nonatomic) struct IONotificationPort *notificationPort; // @synthesize notificationPort=_notificationPort;
-@property(nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
 
 @end
 

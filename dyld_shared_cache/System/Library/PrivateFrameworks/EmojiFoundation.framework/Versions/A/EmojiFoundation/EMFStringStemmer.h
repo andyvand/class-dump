@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSLock;
+@class NSLocale;
 
 @interface EMFStringStemmer
 {
     struct sb_stemmer *_stemmer;
-    NSLock *_stemmerLock;
-    NSLocale *_locale;
-    unsigned long long _encoding;
 }
 
-+ (id);
-+ (id);
++ (id)BookmarksNewFolderButton;
++ (id)how Folders on Top;
 + (struct sb_stemmer *);
 + (unsigned char);
 - (id);
-- (id);
+- (id)favicons;
 - (void);
 - (void);
 - (id);
@@ -28,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long encoding; // @synthesize encoding=_encoding;
 @property(readonly, retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 
 @end

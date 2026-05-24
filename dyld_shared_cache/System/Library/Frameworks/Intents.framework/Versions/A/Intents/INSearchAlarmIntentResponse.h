@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSearchAlarmIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int){CGSize=dd}40d56Q64;
++ (int)initWithSearchResultIdentifier:(long long)arg1 domainIdentifier:contentType:size:scale:representationTypes: /* Error: Ran out of types for this method. */;
++ (long long)initWithContentsOfURL:(int)arg1 options:(int)arg2 error:(_Bool)arg3;
++ (_Bool)hash;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id)o.framework/Versions/A/AppleSystemInfo;
+- (id)logicalDevice:(id)arg1 makeControllerSpatialDescriptionWithIdentifier:forClient: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)c}@ codesignID=%{public}@ service=%{public}@ ackTimeout=%llds);
 - (id);
 - (id);
 - (long long)ngs;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

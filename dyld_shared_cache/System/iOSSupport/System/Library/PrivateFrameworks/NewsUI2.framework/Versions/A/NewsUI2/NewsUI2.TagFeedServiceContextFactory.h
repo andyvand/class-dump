@@ -7,7 +7,6 @@
 @interface NewsUI2.TagFeedServiceContextFactory
 {
     id appConfigManager;
-    id feedDescriptor;
 }
 
 @end

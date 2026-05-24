@@ -14,7 +14,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long)dateWithRecordID: /* Error: Ran out of types for this method. */;
+- (unsigned long long)forceInvalidateWithRecordID: /* Error: Ran out of types for this method. */;
 - (id)ondaryScoringConfig;
 - (unsigned long long);
 - (int)q;

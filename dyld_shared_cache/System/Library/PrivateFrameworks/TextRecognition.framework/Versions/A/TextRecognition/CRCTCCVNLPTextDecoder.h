@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRBiDiTransform, CRNeuralRecognizerConfiguration, CRTextSequenceRecognizerModel, NSLocale, NSMutableSet, NSOrderedSet, NSString;
+@class CRTextSequenceRecognizerModel;
 
 @interface CRCTCCVNLPTextDecoder
 {
     vector_85d7f63b _spaceLabels;
-    int *_codemapArray;
-    unsigned long long _codemapSize;
-    _Bool _shouldUseLM;
-    _Bool _shouldUseFalsePositiveFiltering;
-    _Bool _shouldReverseActivationMatrix;
-    _Bool _isLocaleRTL;
-    CRNeuralRecognizerConfiguration *_configuration;
-    CRTextSequenceRecognizerModel *_model;
-    NSLocale *_locale;
-    NSMutableSet *_subscribedLocales;
-    CRBiDiTransform *_bidiTransform;
-    NSOrderedSet *_characterObservations;
 }
 
 + (id);
@@ -43,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (AdditiveCombiningBeamScorer_dacb07a7);
+- (AdditiveCombiningBeamScorer_accfecad);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -55,32 +43,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)romPoint: /* Error: Ran out of types for this method. */;
+- (void)shortestDistanceFromPoint: /* Error: Ran out of types for this method. */;
 - (struct CVNLPTextDecodingPruningPolicy)Step is running (#input:%lu). /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CRBiDiTransform *bidiTransform; // @synthesize bidiTransform=_bidiTransform;
-@property(readonly, nonatomic) NSOrderedSet *characterObservations; // @synthesize characterObservations=_characterObservations;
-@property(retain, nonatomic) CRNeuralRecognizerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLocaleRTL; // @synthesize isLocaleRTL=_isLocaleRTL;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic) CRTextSequenceRecognizerModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) struct CVNLPTextDecodingPruningPolicy pruningPolicy;
-@property(readonly, nonatomic) _Bool shouldReverseActivationMatrix; // @synthesize shouldReverseActivationMatrix=_shouldReverseActivationMatrix;
-@property(nonatomic) _Bool shouldUseFalsePositiveFiltering; // @synthesize shouldUseFalsePositiveFiltering=_shouldUseFalsePositiveFiltering;
-@property(nonatomic) _Bool shouldUseLM; // @synthesize shouldUseLM=_shouldUseLM;
-@property(readonly, nonatomic) _Bool shouldUseModernizedDecoder;
-@property(readonly, nonatomic) NSMutableSet *subscribedLocales; // @synthesize subscribedLocales=_subscribedLocales;
-@property(readonly) Class superclass;
 
 @end
 

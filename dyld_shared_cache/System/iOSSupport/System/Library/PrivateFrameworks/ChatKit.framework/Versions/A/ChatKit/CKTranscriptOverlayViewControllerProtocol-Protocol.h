@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CKTranscriptOverlayTransitionContext *transitionContext;
-@property(readonly, nonatomic) _Bool wantsBackingTranscriptToIgnoreContentOffsetChanges;
 @end
 

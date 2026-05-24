@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLRequest;
+@class NSString;
 
 @interface SWMessageSecurityOrigin
 {
     NSString *_protocol;
-    NSString *_host;
-    NSURLRequest *_request;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)kedDeletion.mm;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *host; // @synthesize host=_host;
 @property(readonly, nonatomic) NSString *protocol; // @synthesize protocol=_protocol;
-@property(readonly, nonatomic) NSURLRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

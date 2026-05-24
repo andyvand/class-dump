@@ -7,9 +7,9 @@
 @protocol GCPlayerIndicatorXPCProxyServiceRemoteServerInterface, _GCIPCEndpointConnection;
 
 @protocol GCPlayerIndicatorXPCProxyServiceClient
+- (id <GCPlayerIndicatorXPCProxyServiceRemoteServerInterface>);
 
 // Remaining properties
 @property(readonly) id <_GCIPCEndpointConnection> playerIndicatorXPCProxyServiceConnection;
-@property(readonly) id <GCPlayerIndicatorXPCProxyServiceRemoteServerInterface> playerIndicatorXPCProxyServiceRemoteServer;
 @end
 

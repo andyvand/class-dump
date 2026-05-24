@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface LoginUIKit.LUI2GlassTextView
 {
     id _model;
-    id _glassTextView;
 }
 
 + (double);
@@ -17,7 +14,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@mAm;
 - (id);
 - (long long);
 - (void);
@@ -25,13 +22,10 @@
 - (void);
 - (id);
 - (void);
-- (void)illDisappear;
+- (void)viewWillDisappear;
 
 // Remaining properties
 @property(nonatomic) long long alignment;
-@property(nonatomic, retain) NSDate *date;
-@property(nonatomic, copy) NSString *numberingSystem;
-@property(nonatomic) _Bool shows24HourTime;
 
 @end
 

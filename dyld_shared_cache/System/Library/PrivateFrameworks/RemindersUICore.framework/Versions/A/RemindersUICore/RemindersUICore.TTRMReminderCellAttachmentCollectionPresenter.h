@@ -7,15 +7,6 @@
 @interface RemindersUICore.TTRMReminderCellAttachmentCollectionPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id remindersListItem;
-    id hostCell;
-    id allowsEditing;
-    id items;
-    id quickLookPreviewItems;
-    id interactor;
-    id router;
-    id securityScopedURLs;
 }
 
 @end

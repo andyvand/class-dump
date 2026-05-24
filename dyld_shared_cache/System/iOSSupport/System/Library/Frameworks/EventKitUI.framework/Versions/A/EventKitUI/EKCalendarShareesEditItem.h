@@ -6,58 +6,46 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class EKSharee, NSMutableArray, NSString, UILabel, UITableViewCell;
+@class EKSharee, UILabel;
 
 @interface EKCalendarShareesEditItem : EKCalendarEditItem
 {
     UILabel *_descriptionLabel;
-    UITableViewCell *_addPersonCell;
-    NSMutableArray *_orderedSharees;
-    _Bool _shouldSuggestFamilySharees;
-    EKSharee *_meSharee;
 }
 
+- (_Bool);
+- (void)%s;
+- (void)%s;
+- (void);
+- (void)p*s;
+- (void);
+- (void)%s;
+- (_Bool);
+- (id);
+- (id);
+- (id)2%s;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)s;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)__objc_intobj;
 - (id);
-- (void)te;
+- (void)occurrenceDate;
 - (double)4éÿ£;
 - (void)ö;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) EKSharee *meSharee; // @synthesize meSharee=_meSharee;
-@property(nonatomic) _Bool shouldSuggestFamilySharees; // @synthesize shouldSuggestFamilySharees=_shouldSuggestFamilySharees;
-@property(readonly) Class superclass;
 
 @end
 

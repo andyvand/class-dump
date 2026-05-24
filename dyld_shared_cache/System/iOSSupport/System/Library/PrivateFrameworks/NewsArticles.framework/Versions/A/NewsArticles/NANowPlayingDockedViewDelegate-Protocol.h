@@ -5,5 +5,6 @@
 //
 
 @protocol NANowPlayingDockedViewDelegate
+- (void)+;
 @end
 

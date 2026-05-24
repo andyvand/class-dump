@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
-
 @interface CTLazuliFileCryptoMaterial
 {
     long long _algorithm;
-    NSData *_key;
-    NSData *_nonce;
-    NSData *_aad;
-    NSData *_authTag;
-    NSNumber *_originalFileSizeInBytes;
 }
 
-+ (_Bool);
++ (_Bool)RequestEvents:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -30,21 +23,16 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)768E38A05C6A10Properties;
 - (id);
 - (void);
 - (void);
-- (id)lowLabel: /* Error: Ran out of types for this method. */;
+- (id)setFlowLabel: /* Error: Ran out of types for this method. */;
 - (void)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *aad; // @synthesize aad=_aad;
 @property(nonatomic) long long algorithm; // @synthesize algorithm=_algorithm;
-@property(retain, nonatomic) NSData *authTag; // @synthesize authTag=_authTag;
-@property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(retain, nonatomic) NSNumber *originalFileSizeInBytes; // @synthesize originalFileSizeInBytes=_originalFileSizeInBytes;
 
 @end
 

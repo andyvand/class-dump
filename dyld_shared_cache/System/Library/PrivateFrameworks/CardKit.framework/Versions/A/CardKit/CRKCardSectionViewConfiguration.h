@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKCardSectionViewController, NSString, NSView, NSViewController, _CRKDebugOverlayView;
-@protocol CRCardSection, CRKCardSectionView, CRKCardSectionViewControlling, CRKFeedbackDelegateProxying;
+@class NSString;
 
 @interface CRKCardSectionViewConfiguration
 {
     _Bool _debugModeEnabled;
-    id <CRCardSection> _cardSection;
-    NSView<CRKCardSectionView> *_cardSectionView;
-    id <CRKFeedbackDelegateProxying> _feedbackDelegateProxy;
-    NSViewController<CRKCardSectionViewControlling> *_cardSectionViewController;
-    NSString *_providerIdentifier;
-    _CRKDebugOverlayView *_debugOverlayView;
-    CRKCardSectionViewController *_cardKitCardSectionViewController;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)2n;
 - (id);
 - (id);
 - (void);
@@ -39,13 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, getter=_cardKitCardSectionViewController, setter=_setCardKitCardSectionViewController:) CRKCardSectionViewController *cardKitCardSectionViewController; // @synthesize cardKitCardSectionViewController=_cardKitCardSectionViewController;
-@property(retain, nonatomic) id <CRCardSection> cardSection; // @synthesize cardSection=_cardSection;
-@property(retain, nonatomic) NSView<CRKCardSectionView> *cardSectionView; // @synthesize cardSectionView=_cardSectionView;
-@property(retain, nonatomic) NSViewController<CRKCardSectionViewControlling> *cardSectionViewController; // @synthesize cardSectionViewController=_cardSectionViewController;
-@property(nonatomic, getter=_debugModeEnabled, setter=_setDebugModeEnabled:) _Bool debugModeEnabled; // @synthesize debugModeEnabled=_debugModeEnabled;
-@property(retain, nonatomic, getter=_debugOverlayView, setter=_setDebugOverlayView:) _CRKDebugOverlayView *debugOverlayView; // @synthesize debugOverlayView=_debugOverlayView;
-@property(retain, nonatomic) id <CRKFeedbackDelegateProxying> feedbackDelegateProxy; // @synthesize feedbackDelegateProxy=_feedbackDelegateProxy;
 @property(copy, nonatomic, getter=_providerIdentifier, setter=_setProviderIdentifier:) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
 
 @end

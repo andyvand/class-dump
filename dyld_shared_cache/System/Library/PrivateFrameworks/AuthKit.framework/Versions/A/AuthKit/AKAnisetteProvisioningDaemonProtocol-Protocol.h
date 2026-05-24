@@ -5,5 +5,7 @@
 //
 
 @protocol AKAnisetteProvisioningDaemonProtocol
+- (void)!!;
+- (void);
 @end
 

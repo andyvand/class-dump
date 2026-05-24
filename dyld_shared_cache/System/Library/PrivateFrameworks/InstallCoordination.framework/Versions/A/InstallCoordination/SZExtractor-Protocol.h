@@ -7,12 +7,9 @@
 @protocol SZExtractorDelegate;
 
 @protocol SZExtractor
+- (id <SZExtractorDelegate>);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool doesConsumeExtractedData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) __weak id <SZExtractorDelegate> extractorDelegate;
 @end
 

@@ -7,14 +7,6 @@
 @interface AppStoreKit.Uber
 {
     id style;
-    id assetType;
-    id artwork;
-    id compactArtwork;
-    id video;
-    id compactVideo;
-    id iconArtwork;
-    id title;
-    id id;
 }
 
 @end

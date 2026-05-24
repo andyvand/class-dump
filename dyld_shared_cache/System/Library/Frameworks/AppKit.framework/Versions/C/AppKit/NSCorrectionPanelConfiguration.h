@@ -4,50 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString, NSView;
-
 __attribute__((visibility("hidden")))
 @interface NSCorrectionPanelConfiguration
 {
     long long _panelType;
-    NSView *_view;
-    unsigned long long _ignoredEventMask;
-    NSString *_primaryString;
-    NSArray *_alternativeStrings;
-    NSImage *_auxiliaryButtonImage;
-    CDUnknownBlockType _auxiliaryButtonHandler;
-    CDUnknownBlockType _selectionCompletionHandler;
-    long long _sourceType;
-    long long _correctionTag;
-    struct CGRect _rect;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (long long);
+- (id)backgroundAVAssetDownloadTask:(long long)arg1 willDownloadToURL:(struct CGRect)arg2;
+- (unsigned long long)_CFURLResponse;
+- (long long)5;
+- (id)mote session is unavailable;
+- (CDUnknownBlockType)ckground AVAssetDownloadTask, as remote session is unavailable;
 - (id);
-- (unsigned long long);
-- (long long);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (struct CGRect)ementWithAttributes:reason:changedAttribute:fromValue:toValue:layoutGeneratedValue: /* Error: Ran out of types for this method. */;
-- (id)tWhileAnimating;
+- (struct CGRect)recordPreferredAttributesChangeForElementWithAttributes:reason:changedAttribute:fromValue:toValue:layoutGeneratedValue: /* Error: Ran out of types for this method. */;
+- (id)_currentToolbarHeightWhileAnimating;
 - (void)ä§²ÿ·*XB;
 - (long long)G;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternativeStrings; // @synthesize alternativeStrings=_alternativeStrings;
-@property(readonly, nonatomic) CDUnknownBlockType auxiliaryButtonHandler; // @synthesize auxiliaryButtonHandler=_auxiliaryButtonHandler;
-@property(readonly, nonatomic) NSImage *auxiliaryButtonImage; // @synthesize auxiliaryButtonImage=_auxiliaryButtonImage;
-@property(readonly, nonatomic) long long correctionTag; // @synthesize correctionTag=_correctionTag;
-@property(readonly, nonatomic) unsigned long long ignoredEventMask; // @synthesize ignoredEventMask=_ignoredEventMask;
 @property(readonly, nonatomic) long long panelType; // @synthesize panelType=_panelType;
-@property(readonly, nonatomic) NSString *primaryString; // @synthesize primaryString=_primaryString;
-@property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly, nonatomic) CDUnknownBlockType selectionCompletionHandler; // @synthesize selectionCompletionHandler=_selectionCompletionHandler;
-@property(readonly, nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end
 

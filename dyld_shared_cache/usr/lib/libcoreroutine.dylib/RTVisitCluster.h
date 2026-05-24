@@ -4,29 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTVisit, RTVisitLocationPoints;
+@class RTVisitLocationPoints;
 
 @interface RTVisitCluster
 {
     RTVisitLocationPoints *_points;
-    RTVisit *_visit;
 }
 
 - (id);
 - (_Bool);
+- (id)_TtCVV13IDSFoundation22Proto_DelegatedMessage8ResponseP33_4383C0FF42979ADDE42462E2CC76B98B13_StorageClass;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)4H
+;
 - (_Bool)W,V_delegate;
-- (_Bool)ategoryReligiousSite;
+- (_Bool)GEOPOICategoryReligiousSite;
 - (void)ate, %@;
 - (id)at %@ (in %.1f seconds), error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisitLocationPoints *points; // @synthesize points=_points;
-@property(readonly, nonatomic) RTVisit *visit; // @synthesize visit=_visit;
 
 @end
 

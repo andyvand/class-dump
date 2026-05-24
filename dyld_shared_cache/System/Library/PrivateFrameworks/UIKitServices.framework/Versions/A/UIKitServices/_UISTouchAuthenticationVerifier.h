@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UISTransform3DGrader;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UISTouchAuthenticationVerifier
 {
     NSDictionary *_thresholds;
-    UISTransform3DGrader *_lenientGrader;
-    UISTransform3DGrader *_strictGrader;
-    _Bool _shouldSuppressInauthenticTouches;
 }
 
 + (id);

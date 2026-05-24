@@ -13,7 +13,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)AXParentDiscardsChildrenContainerGroupingBehavior;
 
 @end
 

@@ -6,23 +6,14 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, RTContactsManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationEngine, RTLearnedLocationStore, RTLearnedPlaceTypeInferenceStore, RTMapServiceManager;
+@class RTContactsManager;
 
 @interface RTLearnedLocationManager : RTService
 {
     _Bool _available;
-    _Bool _training;
-    _Bool _migrationComplete;
-    RTContactsManager *_contactsManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationEngine *_learnedLocationEngine;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLearnedPlaceTypeInferenceStore *_learnedPlaceTypeInferenceStore;
-    RTMapServiceManager *_mapServiceManager;
 }
 
-+ (id);
++ (id)etadata:(id)arg1 Has quality metadata;
 + (id);
 + (long long);
 + (id);
@@ -42,18 +33,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);;
 - (double);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)setURLSessionCreationBlock:(id)arg1;
+- (id)Parameters;
+- (void)IDSMessageSendResponseMetric;
+- (void)`a;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)u options:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
@@ -82,13 +73,13 @@
 - (void);
 - (void);
 - (void);
+- (void)Q;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -108,43 +99,43 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)resultsForDestinationURIs:senderURI:options:completion: /* Error: Ran out of types for this method. */;
+- (void)requestNWConnectionforIDSGroupSessionBroadcastParameter:(id)arg1 withCompletionHandler:(CDUnknownBlockType)arg2;
+- (void)registrationWithServiceType:(unsigned long long)arg1 accountType:(CDUnknownBlockType)arg2 isTemporary:value: /* Error: Ran out of types for this method. */;
+- (void)nBlock:(CDUnknownBlockType)arg1;
+- (void)r:(id)arg1 baaCertSource: /* Error: Ran out of types for this method. */;
+- (void)service, bailing...;
+- (void)%@ or service %@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!= %ld);
+- (double)und, set to blank;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (double);
-- (id);
-- (double);
-- (void);
+- (void);
 - (_Bool);
 - (void);
+- (void)c	;
 - (void);
+- (id);
+- (void)#;
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (unsigned long long);
 - (void);
@@ -163,14 +154,14 @@
 × ;
 - (double)Ô ;
 - (void)× ;
-- (void)redMapItems:(id)arg1 state:(_Bool)arg2 error:(CDUnknownBlockType)arg3;
-- (void)entLocations;
-- (void)missionQueue;
-- (unsigned long long)cationOfInterestsWithVisits:(unsigned long long)arg1 visitToTransitionMapping:visitToPlaceMapping: /* Error: Ran out of types for this method. */;
+- (void)dedupeDoubleArrayOfInferredMapItems:(id)arg1 state:(_Bool)arg2 error:(CDUnknownBlockType)arg3;
+- (void)_fetchRecentLocations;
+- (void)_etaUpdateSubmissionQueue;
+- (unsigned long long)_createLocationOfInterestsWithVisits:(unsigned long long)arg1 visitToTransitionMapping:visitToPlaceMapping: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)ove address of contact. contact required;
-- (void)eAverage_home_bucketed;
+- (void)weeklyAggregateDwellTimeBetweenDateRangeAverage_home_bucketed;
 - (void)n error, %@;
 - (void)loi, %{sensitive}@, too close to current location;
 - (void)tor.count > 0;
@@ -182,23 +173,7 @@
 - (void)Ö¾ÿNô;
 
 // Remaining properties
-@property(nonatomic) _Bool available; // @synthesize available=_available;
 @property(readonly, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLearnedLocationEngine *learnedLocationEngine; // @synthesize learnedLocationEngine=_learnedLocationEngine;
-@property(readonly, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, nonatomic) RTLearnedPlaceTypeInferenceStore *learnedPlaceTypeInferenceStore; // @synthesize learnedPlaceTypeInferenceStore=_learnedPlaceTypeInferenceStore;
-@property(readonly, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(readonly, nonatomic) _Bool migrationComplete; // @synthesize migrationComplete=_migrationComplete;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool training; // @synthesize training=_training;
 
 @end
 

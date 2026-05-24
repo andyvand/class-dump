@@ -6,23 +6,21 @@
 
 #import <PDFKit/PDFAccessibilityNode.h>
 
-@class NSString, PDFAccessibilityNodeTableRowPrivate;
+@class PDFAccessibilityNodeTableRowPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodeTableRow : PDFAccessibilityNode
 {
     PDFAccessibilityNodeTableRowPrivate *_private3;
-    _Bool _isHeader;
-    _Bool _lackingTaggedRepresentation;
 }
 
 - (_Bool);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)HMActionSetTypeShortcutsComponent;
 - (void);
 - (id);
 - (long long);
@@ -31,16 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long index;
-@property(nonatomic) _Bool isHeader; // @synthesize isHeader=_isHeader;
-@property(nonatomic) _Bool lackingTaggedRepresentation; // @synthesize lackingTaggedRepresentation=_lackingTaggedRepresentation;
-@property(readonly) Class superclass;
 
 @end
 

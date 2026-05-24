@@ -7,7 +7,6 @@
 @interface FCNewsPersonalizationFeaturePrior
 {
     double _clicks;
-    double _impressions;
 }
 
 - (id);
@@ -16,12 +15,11 @@
 × ;
 - (void)Ð!DEùÑ(	1Â0@ù
 × ;
-- (void)shadowNewspaperGroupMagazineFeedHeadlineScoringOutputName;
+- (void)_shadowNewspaperGroupMagazineFeedHeadlineScoringOutputName;
 - (double)ryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPersonalizationWhitelist.m;
 
 // Remaining properties
 @property(nonatomic) double clicks; // @synthesize clicks=_clicks;
-@property(nonatomic) double impressions; // @synthesize impressions=_impressions;
 
 @end
 

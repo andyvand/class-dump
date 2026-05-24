@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UIFreeformPointerSettings
 {
     double _defaultPointerCornerRadius;
-    double _slipFactorX;
-    double _slipFactorY;
 }
 
-+ (id);
++ (id)K+;
 - (double);
 - (double);
 - (void);
-- (double);
+- (double)_releaseBlock;
+- (void)__kIMDFileTransferStoppedNotification;
 - (void);
-- (void);
-- (void)entifiers: /* Error: Ran out of types for this method. */;
+- (void)setAffectedSectionIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double defaultPointerCornerRadius; // @synthesize defaultPointerCornerRadius=_defaultPointerCornerRadius;
-@property(nonatomic) double slipFactorX; // @synthesize slipFactorX=_slipFactorX;
-@property(nonatomic) double slipFactorY; // @synthesize slipFactorY=_slipFactorY;
 
 @end
 

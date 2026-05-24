@@ -12,7 +12,7 @@
 
 + (unsigned long long);
 - (_Bool);
-- (id);
+- (id)u;
 - (id);
 - (id);
 

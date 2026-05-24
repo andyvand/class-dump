@@ -7,6 +7,7 @@
 @interface NewsEngagement.EngagementUpsellRequestFactory
 {
     id bannerPropertiesProvider;
+    id;
 }
 
 @end

@@ -7,28 +7,23 @@
 #import <IconServices/ISLayer.h>
 
 @class IFColor;
-@protocol ISCompositorResource;
 
 @interface ISContentLayer : ISLayer
 {
     _Bool _acceptSymbol;
-    IFColor *_backgroundColor;
-    id <ISCompositorResource> _content;
 }
 
 - (void);
-- (id);
+- (id)6;
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)a;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool acceptSymbol; // @synthesize acceptSymbol=_acceptSymbol;
 @property(retain, nonatomic) IFColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) id <ISCompositorResource> content; // @synthesize content=_content;
 
 @end
 

@@ -6,36 +6,31 @@
 
 #import <AVConference/VCAudioCaptions.h>
 
-@class NSOperationQueue, SFSpeechAnalyzer, SFSpeechAnalyzerLanguageDetectorOptions, SFSpeechAnalyzerOptions, SFSpeechAnalyzerSpeechDetectorOptions, SFSpeechAnalyzerTranscriberOptions;
+@class SFSpeechAnalyzer;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioCaptionsSpeechAnalyzer : VCAudioCaptions
 {
     SFSpeechAnalyzer *_analyzer;
-    SFSpeechAnalyzerTranscriberOptions *_transcriberOptions;
-    SFSpeechAnalyzerOptions *_analyzerOptions;
-    NSOperationQueue *_operationQueue;
-    SFSpeechAnalyzerLanguageDetectorOptions *_languageDetectorOptions;
-    SFSpeechAnalyzerSpeechDetectorOptions *_speechDetectorOptions;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)iy8H;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);

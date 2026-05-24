@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCColor, FCMultiResolutionImage, FCMultiSizeVideo, NSURL;
+@class FCMultiResolutionImage;
 
 @interface FCPaywallVisualSpecConfiguration
 {
     FCMultiResolutionImage *_multiResolutionImage;
-    FCMultiResolutionImage *_darkStyleMultiResolutionImage;
-    FCMultiResolutionImage *_multiResolutionBadgeImage;
-    FCMultiResolutionImage *_darkStyleMultiResolutionBadgeImage;
-    FCMultiSizeVideo *_multiSizeVideo;
-    NSURL *_videoURL;
-    long long _videoWidth;
-    long long _videoHeight;
-    double _gradientPercentHeight;
-    long long _textTopPadding;
-    long long _badgeVerticalOffset;
-    FCColor *_backgroundColor;
-    FCColor *_darkStyleBackgroundColor;
-    FCColor *_mastheadTextColor;
-    FCColor *_largeTextColor;
-    FCColor *_smallTextColor;
-    FCColor *_offersTextColor;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -43,56 +27,40 @@
 - (long long);
 - (void);
 - (void);
+- (id): /* Error: Ran out of types for this method. */;
+- (unsigned long long)@;
 - (id);
-- (unsigned long long);
+- (long long)ibutes:endingLayout:withAnimationSetup:animationCompletion:enableCustomAnimations:customAnimationsType: /* Error: Ran out of types for this method. */;
+- (long long)_prompt;
+- (void);
+- (void);
+- (void)itPass = %.2f;
+- (id);
+- (void);
+- (void);
+- (_Bool)LL_STATS_REMOTE_CAMERA_ACTIVE;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)ed to get temporary staging directory for install location %@:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void)AssetHandle;
+- (id)nt:!1}}; /* Error: Ran out of types for this method. */;
+- (void)_contentAssetHandle;
 - (void)ctionary",&,N,V_topicTranslationMap;
-- (void)rticlePayload;
+- (void)_articlePayload;
 - (double)È;
 - (id)avAssetKeyCache];
 - (void)kenize() operand when searching special key-path allTokens:%@ /* Error: Ran out of types for this method. */;
 - (id)R;
 
 // Remaining properties
-@property(retain, nonatomic) FCColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) long long badgeVerticalOffset; // @synthesize badgeVerticalOffset=_badgeVerticalOffset;
-@property(retain, nonatomic) FCColor *darkStyleBackgroundColor; // @synthesize darkStyleBackgroundColor=_darkStyleBackgroundColor;
-@property(retain, nonatomic) FCMultiResolutionImage *darkStyleMultiResolutionBadgeImage; // @synthesize darkStyleMultiResolutionBadgeImage=_darkStyleMultiResolutionBadgeImage;
-@property(retain, nonatomic) FCMultiResolutionImage *darkStyleMultiResolutionImage; // @synthesize darkStyleMultiResolutionImage=_darkStyleMultiResolutionImage;
-@property(nonatomic) double gradientPercentHeight; // @synthesize gradientPercentHeight=_gradientPercentHeight;
-@property(retain, nonatomic) FCColor *largeTextColor; // @synthesize largeTextColor=_largeTextColor;
-@property(retain, nonatomic) FCColor *mastheadTextColor; // @synthesize mastheadTextColor=_mastheadTextColor;
-@property(retain, nonatomic) FCMultiResolutionImage *multiResolutionBadgeImage; // @synthesize multiResolutionBadgeImage=_multiResolutionBadgeImage;
 @property(retain, nonatomic) FCMultiResolutionImage *multiResolutionImage; // @synthesize multiResolutionImage=_multiResolutionImage;
-@property(retain, nonatomic) FCMultiSizeVideo *multiSizeVideo; // @synthesize multiSizeVideo=_multiSizeVideo;
-@property(retain, nonatomic) FCColor *offersTextColor; // @synthesize offersTextColor=_offersTextColor;
-@property(retain, nonatomic) FCColor *smallTextColor; // @synthesize smallTextColor=_smallTextColor;
-@property(nonatomic) long long textTopPadding; // @synthesize textTopPadding=_textTopPadding;
-@property(nonatomic) long long videoHeight; // @synthesize videoHeight=_videoHeight;
-@property(retain, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
-@property(nonatomic) long long videoWidth; // @synthesize videoWidth=_videoWidth;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface OTEscrowMoveRequestContext
 {
     NSString *_currentFederation;
-    NSString *_escrowRecordLabel;
-    NSString *_intendedFederation;
 }
 
 - (void);
@@ -25,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SObject>";
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentFederation; // @synthesize currentFederation=_currentFederation;
-@property(retain, nonatomic) NSString *escrowRecordLabel; // @synthesize escrowRecordLabel=_escrowRecordLabel;
-@property(readonly, nonatomic) _Bool hasCurrentFederation;
 @property(readonly, nonatomic) _Bool hasEscrowRecordLabel;
-@property(readonly, nonatomic) _Bool hasIntendedFederation;
-@property(retain, nonatomic) NSString *intendedFederation; // @synthesize intendedFederation=_intendedFederation;
 
 @end
 

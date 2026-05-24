@@ -13,12 +13,11 @@ __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateHomePresenceReceiver : HMDHomePresenceBase
 {
     NSObject<OS_dispatch_queue> *_messageReceiveQueue;
-    id <HMDHomeActivityStateHomePresenceReceiverDelegate> _delegate;
 }
 
 + (id)ô[;
 - (id);
-- (void);
+- (void)_֩R;
 - (id);
 - (void);
 - (void)s must be registered in the allowedSpecifierClasses in HMDTimeBasedFlagsManager:%@ /* Error: Ran out of types for this method. */;

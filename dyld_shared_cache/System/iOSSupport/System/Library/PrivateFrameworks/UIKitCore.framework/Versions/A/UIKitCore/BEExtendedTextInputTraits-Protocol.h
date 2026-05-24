@@ -14,25 +14,9 @@
 - (UIColor *);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *insertionPointColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
-@property(readonly, nonatomic) UIColor *selectionHandleColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
-@property(readonly, nonatomic) UIColor *selectionHighlightColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
 @property(readonly, nonatomic, getter=isSingleLineDocument) _Bool singleLineDocument;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N,GisSingleLineDocument
-
-@property(readonly, nonatomic, getter=isTypingAdaptationEnabled) _Bool typingAdaptationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisTypingAdaptationEnabled
 
 @end
 

@@ -6,27 +6,23 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSMutableArray, NSMutableDictionary;
-@protocol CKDeclineSharesOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDDeclineSharesOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _declineCompletionBlock;
-    NSMutableDictionary *_clientProvidedMetadatasByURL;
-    NSMutableArray *_shareURLsToDecline;
 }
 
-+ (id);
++ (id)setRssiAtNextLinkUp:(unsigned long long)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)%0x
+;
 - (_Bool);
 - (id);
 - (void);
@@ -35,10 +31,6 @@
 - (void)SDate"16@"CKDPResponseOperationResult"24;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKDeclineSharesOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSMutableDictionary *clientProvidedMetadatasByURL; // @synthesize clientProvidedMetadatasByURL=_clientProvidedMetadatasByURL;
-@property(copy, nonatomic) CDUnknownBlockType declineCompletionBlock; // @synthesize declineCompletionBlock=_declineCompletionBlock;
-@property(retain, nonatomic) NSMutableArray *shareURLsToDecline; // @synthesize shareURLsToDecline=_shareURLsToDecline;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

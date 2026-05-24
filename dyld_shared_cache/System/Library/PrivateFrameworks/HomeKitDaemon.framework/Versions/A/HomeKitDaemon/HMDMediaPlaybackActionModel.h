@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDActionModel.h>
 
-@class MPPlaybackArchive, NSNumber, NSSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDMediaPlaybackActionModel : HMDActionModel
 {
@@ -25,19 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)es/homed/Accessory/Thread/HMDHAPAccessory+ThreadManagement.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *accessories; // @dynamic accessories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MPPlaybackArchive *encodedPlaybackArchive; // @dynamic encodedPlaybackArchive;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *profiles; // @dynamic profiles;
-@property(retain, nonatomic) NSSet *services; // @dynamic services;
-@property(retain, nonatomic) NSNumber *state; // @dynamic state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *volume; // @dynamic volume;
 
 @end
 

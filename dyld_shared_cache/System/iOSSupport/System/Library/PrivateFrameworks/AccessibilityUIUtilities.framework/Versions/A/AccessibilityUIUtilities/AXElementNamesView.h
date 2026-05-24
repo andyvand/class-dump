@@ -6,46 +6,33 @@
 
 #import <AccessibilityUIUtilities/AXCyclingView.h>
 
-@class AXElementNamesStyleProvider, NSArray, NSMutableArray, NSObject;
-@protocol OS_os_log;
-
 @interface AXElementNamesView : AXCyclingView
 {
     _Bool _didUpdateItems;
-    NSArray *_items;
-    NSObject<OS_os_log> *_loggingFacility;
-    AXElementNamesStyleProvider *_styleProvider;
-    NSMutableArray *_containers;
-    struct CGRect _boundsForLastReload;
 }
 
 - (void);
-- (void);
+- (void)z;
 - (struct CGRect);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
+- (void)m;
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)z;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect boundsForLastReload; // @synthesize boundsForLastReload=_boundsForLastReload;
-@property(readonly, nonatomic) NSMutableArray *containers; // @synthesize containers=_containers;
-@property(nonatomic) _Bool didUpdateItems; // @synthesize didUpdateItems=_didUpdateItems;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSObject<OS_os_log> *loggingFacility; // @synthesize loggingFacility=_loggingFacility;
-@property(retain, nonatomic) AXElementNamesStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
 
 @end
 

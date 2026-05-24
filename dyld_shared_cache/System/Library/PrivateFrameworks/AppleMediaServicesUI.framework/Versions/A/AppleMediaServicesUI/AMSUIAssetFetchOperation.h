@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPromise;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIAssetFetchOperation
 {
     _Bool _lowLatency;
-    AMSPromise *_operationPromise;
 }
 
 - (void);
@@ -20,12 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setDisplayImage: /* Error: Ran out of types for this method. */;
 - (void)þÿÿ;
 
 // Remaining properties
 @property(getter=isLowLatency) _Bool lowLatency; // @synthesize lowLatency=_lowLatency;
-@property(retain) AMSPromise *operationPromise; // @synthesize operationPromise=_operationPromise;
 
 @end
 

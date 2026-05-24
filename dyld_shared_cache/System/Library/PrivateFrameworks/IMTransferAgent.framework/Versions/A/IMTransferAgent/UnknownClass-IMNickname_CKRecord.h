@@ -6,12 +6,12 @@
 
 @interface UnknownClass (IMNickname_CKRecord)
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)= ;
 + (_Bool);
 + (id);
 + (id);

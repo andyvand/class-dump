@@ -7,14 +7,10 @@
 @interface NewsFeed.ArticleThumbnailView
 {
     id staticContentView;
-    id dynamicContentView;
-    id dynamicView;
-    id observingMotion;
-    id identifier;
 }
 
 - (id);
-- (void);
+- (void)hive length of writer. %llu != %llu;
 - (void);
 - (id)0@ù
 × ;

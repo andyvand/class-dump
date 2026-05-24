@@ -7,11 +7,11 @@
 @class NSData;
 
 @protocol _SFPBRFRGBValue
+- (void)"NSURL">24;
+- (NSData *)ctionary",R,C,N,V_indexStatusJSON;
+- (float)be set to a type other than PLPersonVerifiedTypeUser;
 
 // Remaining properties
-@property(nonatomic) float blue;
-@property(nonatomic) float green;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float red;
 @end
 

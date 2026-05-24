@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MPLayerableSupport;
+
 @protocol MPManualLayerSupport
+- (void)ansport.framework/Versions/A/NewsTransport;
+- (id <MPLayerableSupport>);
 @end
 

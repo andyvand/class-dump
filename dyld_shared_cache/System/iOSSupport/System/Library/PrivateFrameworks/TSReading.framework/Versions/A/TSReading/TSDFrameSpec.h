@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSMutableDictionary, NSString;
+@class NSBundle, NSString;
 
 @interface TSDFrameSpec
 {
     NSBundle *mBundle;
-    NSString *mFrameName;
-    double mLeftInset;
-    double mRightInset;
-    double mTopInset;
-    double mBottomInset;
-    struct CGPoint mAdornmentPosition;
-    double mMinimumAssetScale;
-    int mTilingMode;
-    _Bool mDisplayInPicker;
-    _Bool mHasImages;
-    _Bool mHasMask;
-    _Bool mHasAdornment;
-    NSMutableDictionary *mProvidersByKey;
-    _Bool mLoadedImageMetrics;
-    double mLeftWidth;
-    double mRightWidth;
-    double mTopHeight;
-    double mBottomHeight;
-    struct CGSize mAdornmentSize;
-    int mInterest;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
-- (id);
+- (void);
+- (id).;
 - (id);
 - (id);
 - (double);
@@ -43,18 +23,18 @@
 - (int);
 - (double);
 - (double);
-- (void);
+- (void);
 - (id);
-- (double);
-- (double);
-- (double);
+- (double)L,;
+- (double)4+;
+- (double)L+;
 - (_Bool);
-- (_Bool);
+- (_Bool)]-;
 - (_Bool);
 - (double);
 - (double);
 - (struct CGPoint);
-- (void);
+- (void)D3;
 - (struct CGSize);
 - (_Bool);
 - (id);
@@ -62,7 +42,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool displayInPicker; // @synthesize displayInPicker=mDisplayInPicker;
 @property(readonly, copy, nonatomic) NSString *frameName; // @synthesize frameName=mFrameName;
 
 @end

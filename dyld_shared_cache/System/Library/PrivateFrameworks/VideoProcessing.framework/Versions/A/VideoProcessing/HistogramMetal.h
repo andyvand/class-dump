@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageHistogram, NSDictionary;
-@protocol MTLCommandQueue, MTLDevice;
+@protocol MTLDevice;
 
 @interface HistogramMetal
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    MPSImageHistogram *_histogramKernel;
-    struct MetalBufferPool _histogramBufferPool;
-    struct CF<__CVMetalTextureCache *> _textureCacheRGBALuma;
-    NSDictionary *_readAttributes;
 }
 
 - (id);

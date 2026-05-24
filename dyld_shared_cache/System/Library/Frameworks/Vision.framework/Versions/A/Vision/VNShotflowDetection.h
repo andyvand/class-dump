@@ -8,20 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VNShotflowDetection
 {
     float _area;
-    _Bool _hasLabel;
-    float _confidence;
-    int _mergesCount;
-    int _scale;
-    float _rotationAngle;
-    float _yawAngle;
-    float _pitchAngle;
-    int _label;
-    float _petFaceScore;
-    float _associatedX;
-    float _associatedY;
-    int _groupId;
-    struct CGRect _box;
-    struct CGRect _defaultBox;
 }
 
 - (float);
@@ -50,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGPoint);
 - (float);
-- (float);
+- (float)A;
 - (void);
 - (id);
 - (void);
@@ -60,34 +46,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (id);
+- (int)i!	JJ;
 - (int);
-- (int);
-- (int);
+- (int)_privateContainerName;
+- (void)ion:(int)arg1 %@;
 - (void);
-- (void);
-- (float);
+- (float)orderedSetWithArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)yh;
 - (_Bool)rface(for:allowAssociatedObject:):start:name: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float associatedX; // @synthesize associatedX=_associatedX;
-@property(nonatomic) float associatedY; // @synthesize associatedY=_associatedY;
 @property(nonatomic) struct CGRect box; // @synthesize box=_box;
-@property(readonly, nonatomic) struct CGPoint boxCenter;
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) struct CGRect defaultBox; // @synthesize defaultBox=_defaultBox;
-@property(readonly, nonatomic) float distanceToDefaultBox;
-@property(nonatomic) int groupId; // @synthesize groupId=_groupId;
-@property(nonatomic) _Bool hasLabel; // @synthesize hasLabel=_hasLabel;
-@property(nonatomic) int label; // @synthesize label=_label;
-@property(nonatomic) int mergesCount; // @synthesize mergesCount=_mergesCount;
-@property(nonatomic) float petFaceScore; // @synthesize petFaceScore=_petFaceScore;
-@property(nonatomic) float pitchAngle; // @synthesize pitchAngle=_pitchAngle;
-@property(nonatomic) float rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(nonatomic) int scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) float smartDistance;
-@property(nonatomic) float yawAngle; // @synthesize yawAngle=_yawAngle;
 
 @end
 

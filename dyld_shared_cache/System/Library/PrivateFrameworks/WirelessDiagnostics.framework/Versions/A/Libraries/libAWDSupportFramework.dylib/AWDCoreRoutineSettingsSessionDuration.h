@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineSettingsSessionDuration
 {
     unsigned long long _timestamp;
-    int _duration;
-    int _endedByScreenLock;
-    NSString *_sessionId;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int duration:1;
-        unsigned int endedByScreenLock:1;
-    } _has;
 }
 
 - (void);
@@ -38,23 +28,16 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (void);
 - (void)a:(id)arg1 "°!Eù1Ð%ð1Â0@ù
 × ;
-- (_Bool)WifilowDataMode: /* Error: Ran out of types for this method. */;
-- (id)CCA: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasWifilowDataMode: /* Error: Ran out of types for this method. */;
+- (id)setHasInterferenceCCA: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int duration; // @synthesize duration=_duration;
-@property(nonatomic) int endedByScreenLock; // @synthesize endedByScreenLock=_endedByScreenLock;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasEndedByScreenLock;
-@property(readonly, nonatomic) _Bool hasSessionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

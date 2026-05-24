@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ODIState;
-
 __attribute__((visibility("hidden")))
 @interface ODILinear
 {
     _Bool mIsHorizontal;
-    _Bool mWithConnectors;
-    _Bool mStretch;
-    float mPointHeight;
-    float mConnectorWidth;
-    float mPadding;
-    _Bool mIsTextCenteredHorizontally;
-    _Bool mIsTextCenteredVertically;
-    unsigned int mMaxPointCount;
-    ODIState *mState;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
+- (void)T;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)q 
+;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void)à
 ;

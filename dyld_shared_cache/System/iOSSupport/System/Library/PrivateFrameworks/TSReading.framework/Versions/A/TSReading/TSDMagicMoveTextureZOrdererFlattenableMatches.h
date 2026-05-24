@@ -9,7 +9,6 @@
 @interface TSDMagicMoveTextureZOrdererFlattenableMatches
 {
     NSArray *_animationMatches;
-    NSArray *_texturesInZOrder;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *animationMatches; // @synthesize animationMatches=_animationMatches;
-@property(retain, nonatomic) NSArray *texturesInZOrder; // @synthesize texturesInZOrder=_texturesInZOrder;
 
 @end
 

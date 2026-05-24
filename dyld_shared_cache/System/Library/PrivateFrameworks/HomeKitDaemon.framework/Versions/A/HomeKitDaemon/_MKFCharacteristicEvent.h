@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFEvent.h>
 
-@class MKFCharacteristicEventDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFEventTrigger, MKFHome, MKFService;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFCharacteristicEvent : _MKFEvent
@@ -25,29 +24,10 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *characteristicID; // @dynamic characteristicID;
-@property(readonly, copy, nonatomic) MKFCharacteristicEventDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endEvent;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(retain, nonatomic) id <MKFService> service; // @dynamic service;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFEventTrigger> trigger;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

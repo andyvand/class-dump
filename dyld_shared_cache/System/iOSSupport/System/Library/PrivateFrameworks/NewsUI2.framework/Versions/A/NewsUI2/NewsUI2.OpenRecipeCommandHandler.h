@@ -7,9 +7,6 @@
 @interface NewsUI2.OpenRecipeCommandHandler
 {
     id featureAvailability;
-    id navigator;
-    id recipeService;
-    id tracker;
 }
 
 @end

@@ -9,14 +9,13 @@
 @interface CKDPAssetUploadTokenRetrieveResponseHeaderInfo
 {
     NSString *_headerKey;
-    NSString *_headerValue;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tRemoved(CMBaseObjectRef, FigEndpointRef);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *headerKey; // @synthesize headerKey=_headerKey;
-@property(retain, nonatomic) NSString *headerValue; // @synthesize headerValue=_headerValue;
 
 @end
 

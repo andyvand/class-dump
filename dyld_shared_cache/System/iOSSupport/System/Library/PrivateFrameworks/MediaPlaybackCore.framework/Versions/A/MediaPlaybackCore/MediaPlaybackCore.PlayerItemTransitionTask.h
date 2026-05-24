@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.PlayerItemTransitionTask
 {
     id task;
-    id transition;
 }
 
 @end

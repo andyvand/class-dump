@@ -11,7 +11,6 @@
 @interface _BlastDoorLPPasswordsInviteMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_groupName;
-    NSString *_urlParameters;
 }
 
 + (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(copy, nonatomic) NSString *urlParameters; // @synthesize urlParameters=_urlParameters;
 
 @end
 

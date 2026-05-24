@@ -6,20 +6,18 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunRequest.h>
 
-@class FPSandboxingURLWrapper, NSPasteboard, NSString, NSURL;
+@class NSPasteboard, NSString;
 
 @interface WFServicesWorkflowRunRequest : WFWorkflowRunRequest
 {
     NSPasteboard *_pasteboard;
-    NSString *_inputPasteboardName;
-    FPSandboxingURLWrapper *_finderRootWrapper;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
 - (id);
-- (id);
+- (id)xg7z;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,10 +26,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *finderRoot;
-@property(readonly, nonatomic) FPSandboxingURLWrapper *finderRootWrapper; // @synthesize finderRootWrapper=_finderRootWrapper;
 @property(readonly, nonatomic) NSString *inputPasteboardName; // @synthesize inputPasteboardName=_inputPasteboardName;
-@property(readonly, nonatomic) NSPasteboard *pasteboard; // @synthesize pasteboard=_pasteboard;
 
 @end
 

@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSAlphaThresholdColorModifier
 {
     double _alphaThreshold;
-    NSColor *_belowThresholdColor;
-    NSColor *_aboveThresholdColor;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)setShouldCancelOnDisconnect:(id)arg1;
+- (void)secureConnectionEndDate;
+- (void)initWithHost:(id)arg1 port:taskGroup:disavow: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (double);
-- (id);
-- (id);
+- (double)6;
+- (id)_canHandleRequest;
+- (id)@;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)FirstVisit;
+- (id)_didFirstVisit;
 
 // Remaining properties
-@property(copy) NSColor *aboveThresholdColor; // @synthesize aboveThresholdColor=_aboveThresholdColor;
 @property double alphaThreshold; // @synthesize alphaThreshold=_alphaThreshold;
-@property(copy) NSColor *belowThresholdColor; // @synthesize belowThresholdColor=_belowThresholdColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

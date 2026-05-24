@@ -7,10 +7,10 @@
 @class NSSet;
 
 @protocol _UITouchesEventRespondable
-- (void)ActionWithInitialPoint:(NSSet *)arg1;
+- (void)setupDelayedLoupeActionWithInitialPoint:(NSSet *)arg1;
 - (void)KeyboardState:(NSSet *)arg1;
-- (void)ntenceRange;
-- (void)tate;
+- (void)_previousCheckedSentenceRange;
+- (void)_UIKeyboardIndirectTextSelectionGestureState;
 - (void)Brightness(<=5);
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface GATSchemaGATError : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    long long _code;
-    CDStruct_9ab06576 _has;
-    _Bool _hasDomain;
 }
 
 - (void);
@@ -24,7 +21,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_indexPathForIgnoreMuteGroup;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,11 +35,7 @@
 - (void)Þêÿ/¥;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code=_code;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

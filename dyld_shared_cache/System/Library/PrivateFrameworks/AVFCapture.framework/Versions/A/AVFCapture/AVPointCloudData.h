@@ -7,35 +7,26 @@
 @interface AVPointCloudData
 {
     struct __CVBuffer *_dataBuffer;
-    long long _projectorMode;
 }
 
 + (void)AVFCapture;
-- (const id *);
-- (unsigned int);
-- (struct __CVBuffer *);
-- (id);
-- (id);
-- (const char *);
-- (const char *);
+- (const id *)endEvent: /* Error: Ran out of types for this method. */;
+- (unsigned int)encoderForSegment:version: /* Error: Ran out of types for this method. */;
+- (struct __CVBuffer *)encodeObject:forKey: /* Error: Ran out of types for this method. */;
+- (id)bindDoubleValue:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (id)_clearState;
+- (const char *)SourceImageToJPEGDestination:imageSource cannot be NULL /* Error: Ran out of types for this method. */;
+- (const char *)peIdentifier;
 - (const float *);
 - (long long);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (const id *)erDefaults;
+- (id);
+- (const id *)standardUserDefaults;
 
 // Remaining properties
-@property(readonly) const char *bankIdentifiers;
-@property(readonly) const float *confidenceScores;
-@property(readonly) struct __CVBuffer *pointCloudDataBuffer;
 @property(readonly) unsigned int pointCloudFormatType;
-@property(readonly) long long pointCount;
-@property(readonly) const id *points;
-@property(readonly) const id *pointsAndConfidenceScores;
-@property(readonly) long long projectorMode;
-@property(readonly) const char *spotIdentifiers;
 
 @end
 

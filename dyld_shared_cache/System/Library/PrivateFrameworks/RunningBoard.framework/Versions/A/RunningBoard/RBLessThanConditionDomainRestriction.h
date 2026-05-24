@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
 @interface RBLessThanConditionDomainRestriction : RBDomainRestriction
 {
     NSString *_condition;
-    long long _value;
 }
 
 + (id);
-- (id);
+- (id)eArray",R,N,V_longClientDrawableIntervals;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Swear Word Policy V1 Enabled;
 - (id);
 - (void);
 

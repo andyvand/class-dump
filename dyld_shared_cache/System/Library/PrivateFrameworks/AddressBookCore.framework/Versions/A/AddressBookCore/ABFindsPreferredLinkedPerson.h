@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSArray, NSString;
+@class ABAddressBook;
 
 @interface ABFindsPreferredLinkedPerson
 {
     ABAddressBook *_addressBook;
-    NSString *_linkId;
-    NSArray *_sortDescriptors;
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

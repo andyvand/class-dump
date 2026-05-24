@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeWiFiInfo, NSArray, NSData, NSString;
+@class NSArray;
 
 @interface HMHomeNetworkInfo
 {
     NSArray *_ipv4Addresses;
-    NSArray *_ipv6Addresses;
-    NSString *_ipv4NetworkSignature;
-    NSString *_ipv6NetworkSignature;
-    NSData *_binaryIPv4NetworkSignature;
-    NSData *_binaryIPv6NetworkSignature;
-    NSString *_routerIPV4;
-    NSString *_routerIPV6;
-    HMHomeWiFiInfo *_wiFiInfo;
 }
 
 + (_Bool);
@@ -27,27 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9B;
+- (id)_inqGroupWithMatchingGroupId:dateFilter:searchResultTypes: /* Error: Ran out of types for this method. */;
+- (id)_inqGroupIdForCategory:owningGroupId:contentString:normalizedString:identifier:rankingScore:insertIfNeeded:tokenOutput:shouldUpdateOwningGroupId:shouldUpdateRankingScore: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)grossly;
 - (void);
 - (id);
 - (void)¸ÍHÏ,Ò;
 
 // Remaining properties
-@property(readonly, copy) NSData *binaryIPv4NetworkSignature; // @synthesize binaryIPv4NetworkSignature=_binaryIPv4NetworkSignature;
-@property(readonly, copy) NSData *binaryIPv6NetworkSignature; // @synthesize binaryIPv6NetworkSignature=_binaryIPv6NetworkSignature;
 @property(readonly, copy) NSArray *ipv4Addresses; // @synthesize ipv4Addresses=_ipv4Addresses;
-@property(readonly, copy) NSString *ipv4NetworkSignature; // @synthesize ipv4NetworkSignature=_ipv4NetworkSignature;
-@property(readonly, copy) NSArray *ipv6Addresses; // @synthesize ipv6Addresses=_ipv6Addresses;
-@property(readonly, copy) NSString *ipv6NetworkSignature; // @synthesize ipv6NetworkSignature=_ipv6NetworkSignature;
-@property(readonly, copy) NSString *routerIPV4; // @synthesize routerIPV4=_routerIPV4;
-@property(readonly, copy) NSString *routerIPV6; // @synthesize routerIPV6=_routerIPV6;
-@property(readonly, copy) HMHomeWiFiInfo *wiFiInfo; // @synthesize wiFiInfo=_wiFiInfo;
 
 @end
 

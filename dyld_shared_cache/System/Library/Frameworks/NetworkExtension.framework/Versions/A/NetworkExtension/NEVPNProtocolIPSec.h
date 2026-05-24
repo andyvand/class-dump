@@ -6,25 +6,17 @@
 
 #import <NetworkExtension/NEVPNProtocol.h>
 
-@class NEKeychainItem, NSArray, NSData, NSString;
+@class NEKeychainItem, NSData;
 
 @interface NEVPNProtocolIPSec : NEVPNProtocol
 {
     NSData *_sharedSecretReference;
-    _Bool _useExtendedAuthentication;
-    _Bool _extendedAuthPasswordPrompt;
-    long long _authenticationMethod;
-    NSString *_localIdentifier;
-    NSString *_remoteIdentifier;
-    NEKeychainItem *_sharedSecretKeychainItem;
-    NSArray *_legacyProposals;
-    NSArray *_legacyExchangeMode;
 }
 
-+ (_Bool);
++ (_Bool)setUseDictAsTopLevel: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id)�#;
 - (id);
 - (void);
 - (void);
@@ -45,9 +37,9 @@
 - (id);
 - (struct __SCNetworkInterface *);
 - (long long);
+- (id)ngCapacity:matchingRemaining: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)dditions.swift;
 - (id);
 - (id);
 - (void);
@@ -55,19 +47,11 @@
 - (id);
 - (void)Q+,ð1Â0@ù
 × ;
-- (_Bool)teBlock:(id)arg1;
+- (_Bool)setStateUpdateBlock:(id)arg1;
 - (id)v16@?0@"NWEndpoint"8;
 
 // Remaining properties
-@property long long authenticationMethod; // @synthesize authenticationMethod=_authenticationMethod;
-@property _Bool extendedAuthPasswordPrompt; // @synthesize extendedAuthPasswordPrompt=_extendedAuthPasswordPrompt;
-@property(copy) NSArray *legacyExchangeMode; // @synthesize legacyExchangeMode=_legacyExchangeMode;
-@property(copy) NSArray *legacyProposals; // @synthesize legacyProposals=_legacyProposals;
-@property(copy) NSString *localIdentifier; // @synthesize localIdentifier=_localIdentifier;
-@property(copy) NSString *remoteIdentifier; // @synthesize remoteIdentifier=_remoteIdentifier;
 @property(copy) NEKeychainItem *sharedSecretKeychainItem; // @synthesize sharedSecretKeychainItem=_sharedSecretKeychainItem;
-@property(copy) NSData *sharedSecretReference; // @synthesize sharedSecretReference=_sharedSecretReference;
-@property _Bool useExtendedAuthentication; // @synthesize useExtendedAuthentication=_useExtendedAuthentication;
 
 @end
 

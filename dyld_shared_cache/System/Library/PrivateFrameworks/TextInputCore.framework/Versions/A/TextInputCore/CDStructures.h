@@ -24,8 +24,8 @@ struct ByteString {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
@@ -50,8 +50,6 @@ struct CandidateCollection {
     int _field5;
     unsigned int _field6;
 };
-
-struct CandidateRefinery;
 
 struct DictionaryContainer;
 
@@ -82,46 +80,17 @@ struct LinguisticContext {
 
 struct LinguisticContextImpl;
 
-struct Path {
-    struct vector<TI::CP::PathSample, std::allocator<TI::CP::PathSample>> m_samples;
-    struct vector<unsigned int, std::allocator<unsigned int>> m_inflection_points;
-};
-
-struct PathResampler {
-    struct PathResamplerParams m_params;
-    struct Path m_resampled_path;
-    struct Path m_raw_path;
-    _Bool m_is_final;
-    unsigned int m_processed_sample_count;
-    unsigned int m_retroactively_processed_sample_count;
-};
-
-struct PathResamplerParams {
-    double segment_length;
-    int inflection_point_detection_mode;
-    int inflection_point_type;
-    _Bool should_downsample;
-    double minimum_pause_length;
-    _Bool should_flush_on_pause;
-};
-
-struct PathSample;
-
-struct RecentMessage;
-
 struct RefPtr<KB::DictionaryContainer> {
     struct DictionaryContainer *m_ptr;
 };
 
 struct RefPtr<TI::Favonius::CMTouchHistory> {
-    struct CMTouchHistory *m_ptr;
+    struct CMTouchHistory *_field1;
 };
 
 struct RefPtr<TI::Favonius::KeyboardLayout> {
-    struct KeyboardLayout *m_ptr;
+    struct KeyboardLayout *_field1;
 };
-
-struct RejectionsDatabase;
 
 struct StaticDictionary;
 
@@ -149,11 +118,9 @@ struct TIInlineCompletionAnalyticsMetadata {
 };
 
 struct TITokenID {
-    unsigned int lexicon_id;
-    unsigned int word_id;
+    unsigned int _field1;
+    unsigned int _field2;
 };
-
-struct TypologyLogger;
 
 struct Word {
     struct String _field1;
@@ -179,13 +146,13 @@ struct Word {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _TIRevisionHistoryTokenIterator {
-    unsigned long long tokenIndex;
-    unsigned long long documentLocation;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __shared_weak_count;
@@ -195,19 +162,9 @@ struct pair<NSString *, NSArray<NSNumber *>*> {
     id _field2;
 };
 
-struct shared_ptr<KB::CandidateRefinery> {
-    struct CandidateRefinery *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<KB::LanguageModel> {
-    struct LanguageModel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<KB::TypologyLogger> {
-    struct TypologyLogger *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct LanguageModel *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::vector<KB::LanguageModelContext>> {
@@ -218,12 +175,6 @@ struct shared_ptr<std::vector<KB::LanguageModelContext>> {
 struct unique_ptr<KB::StaticDictionary, std::default_delete<KB::StaticDictionary>> {
     struct {
         struct StaticDictionary *__ptr_;
-    } ;
-};
-
-struct unique_ptr<TI::RejectionsDatabase, std::default_delete<TI::RejectionsDatabase>> {
-    struct {
-        struct RejectionsDatabase *__ptr_;
     } ;
 };
 
@@ -273,28 +224,12 @@ struct vector<KB::LexiconInfo, std::allocator<KB::LexiconInfo>> {
     } _field3;
 };
 
-struct vector<RecentMessage, std::allocator<RecentMessage>> {
-    struct RecentMessage *__begin_;
-    struct RecentMessage *__end_;
-    struct {
-        struct RecentMessage *__cap_;
-    } ;
-};
-
-struct vector<TI::CP::PathSample, std::allocator<TI::CP::PathSample>> {
-    struct PathSample *__begin_;
-    struct PathSample *__end_;
-    struct {
-        struct PathSample *__cap_;
-    } ;
-};
-
 struct vector<TITokenID, std::allocator<TITokenID>> {
-    struct TITokenID *__begin_;
-    struct TITokenID *__end_;
+    struct TITokenID *_field1;
+    struct TITokenID *_field2;
     struct {
-        struct TITokenID *__cap_;
-    } ;
+        struct TITokenID *_field1;
+    } _field3;
 };
 
 struct vector<float, std::allocator<float>> {
@@ -311,14 +246,6 @@ struct vector<std::string, std::allocator<std::string>> {
     struct {
         void *_field1;
     } _field3;
-};
-
-struct vector<unsigned int, std::allocator<unsigned int>> {
-    unsigned int *__begin_;
-    unsigned int *__end_;
-    struct {
-        unsigned int *__cap_;
-    } ;
 };
 
 struct vector<unsigned long long, std::allocator<unsigned long long>> {
@@ -362,12 +289,12 @@ typedef struct RefPtr<KB::DictionaryContainer> {
 } RefPtr_9bddf3b2;
 
 typedef struct RefPtr<TI::Favonius::CMTouchHistory> {
-    struct CMTouchHistory *m_ptr;
-} RefPtr_48eecea7;
+    struct CMTouchHistory *_field1;
+} RefPtr_0152fb75;
 
 typedef struct RefPtr<TI::Favonius::KeyboardLayout> {
-    struct KeyboardLayout *m_ptr;
-} RefPtr_54d74a7c;
+    struct KeyboardLayout *_field1;
+} RefPtr_5f7b2550;
 
 typedef struct pair<NSString *, NSArray<NSNumber *>*> {
     id _field1;
@@ -375,9 +302,9 @@ typedef struct pair<NSString *, NSArray<NSNumber *>*> {
 } pair_bbbbc461;
 
 typedef struct shared_ptr<KB::LanguageModel> {
-    struct LanguageModel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_e9f752ce;
+    struct LanguageModel *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_5685c32f;
 
 typedef struct vector<KB::LexiconInfo, std::allocator<KB::LexiconInfo>> {
     CDStruct_183601bc *_field1;

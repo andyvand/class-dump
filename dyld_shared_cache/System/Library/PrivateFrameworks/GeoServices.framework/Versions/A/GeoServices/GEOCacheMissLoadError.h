@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOCacheMissLoadError
 {
     PBUnknownFields *_unknownFields;
-    NSString *_errorDomain;
-    unsigned int _count;
-    int _errorCode;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_errorCode:1;
-    } _flags;
 }
 
-+ (_Bool)me:(id)arg1;
-- (_Bool);
++ (_Bool)setHasName:(id)arg1;
+- (_Bool)esult"8;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)<;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)didDetectHardEndpointAtTime:(id)arg1 withMetrics:eventType: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&r;
 - (_Bool);
 - (id);
 - (void);
-- (id)ries;
+- (id)ratingCategories;
 - (id)Ìuv<w;
 - (id)M region_name_mapping, region_names                WHERE region_names.name = @name COLLATE NOCASE AND region_name_mapping.name = region_names.rowid    )    ORDER BY name COLLATE region_collater, sort_order, iso_code, time_zone_name;;
 - (id)Ø;
@@ -48,13 +41,7 @@
 - (int)Â=;
 
 // Remaining properties
-@property(nonatomic) unsigned int count;
-@property(nonatomic) int errorCode;
-@property(retain, nonatomic) NSString *errorDomain;
-@property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasErrorCode;
 @property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

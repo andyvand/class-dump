@@ -9,32 +9,28 @@
 @interface ML3ConditionalPredicate : ML3Predicate
 {
     ML3Predicate *_conditionPredicate;
-    ML3Predicate *_thenPredicate;
-    ML3Predicate *_elsePredicate;
 }
 
-+ (id);
++ (id)ource fileIDs;
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ic}@ in SPL;
+- (id)xtension;
+- (id)any matching items for bundle ID:%{public}@, syndicationID:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)ncelled;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void)thCapacity:(id)arg1;
+- (void)dictionaryWithCapacity:(id)arg1;
 - (void)?, ;
 - (id)FAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ML3Predicate *conditionPredicate; // @synthesize conditionPredicate=_conditionPredicate;
-@property(readonly, copy, nonatomic) ML3Predicate *elsePredicate; // @synthesize elsePredicate=_elsePredicate;
-@property(readonly, copy, nonatomic) ML3Predicate *thenPredicate; // @synthesize thenPredicate=_thenPredicate;
 
 @end
 

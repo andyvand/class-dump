@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)tagsForTagRecords: /* Error: Ran out of types for this method. */;
 
 @end
 

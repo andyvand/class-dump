@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCollectionView, NSString;
-@protocol ColorPickerCollectionViewControllerDelegate;
+@class NSCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface ColorPickerCollectionViewController
 {
     NSCollectionView *_collectionView;
-    NSArray *_colors;
-    long long _selectedIndex;
-    NSArray *_colorOptions;
-    id <ColorPickerCollectionViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -23,28 +18,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (id);
+- (id)ld or %ld tokens, but got %ld;
 - (void);
 - (void);
 - (void);
-- (long long)dChangeTypingAttributes:(id)arg1;
-- (id)n;
+- (long long)textViewDidChangeTypingAttributes:(id)arg1;
+- (id)WrapperForBookmarkDeduplication;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *colorOptions; // @synthesize colorOptions=_colorOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ColorPickerCollectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly) Class superclass;
 
 @end
 

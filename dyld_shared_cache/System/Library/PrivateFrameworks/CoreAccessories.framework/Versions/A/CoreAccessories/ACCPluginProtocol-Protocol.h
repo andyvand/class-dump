@@ -9,7 +9,6 @@
 @protocol ACCPluginProtocol
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isRunning;
 @property(readonly, nonatomic) NSString *pluginName;
 @end
 

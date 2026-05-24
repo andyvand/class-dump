@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     UIVisualEffectView *_blurEffectView;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)e="image/x-apple-adaptive-glyph">;
 - (_Bool);
 - (void);
 - (void);

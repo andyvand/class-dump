@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UINSEvent
 {
     _Bool _isDown;
-    _Bool _isARepeat;
-    _Bool _deadKey;
-    unsigned short _virtualKeyCode;
-    unsigned int _contextId;
-    long long _modifierFlags;
-    id _nsEvent;
-    NSString *_modifiedInput;
-    NSString *_unmodifiedInput;
-    NSString *_shiftModifiedInput;
-    NSString *_commandModifiedInput;
-    unsigned long long _timestampMachAbs;
-    long long _hidUsageCode;
 }
 
 + (id);
@@ -36,30 +22,17 @@
 - (id);
 - (struct __CGEvent *);
 - (_Bool);
-- (id);
-- (long long);
+- (id)setCharge_duration_var_at_charge_start_secs_curr_dynamic_bin_12:(unsigned long long)arg1;
+- (long long)IndexScheduler;
 - (id);
 - (void);
-- (id);
+- (id)__DATA_CONST;
 - (id);
 - (void);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CGEvent *cgEvent;
-@property(readonly, nonatomic) NSString *commandModifiedInput; // @synthesize commandModifiedInput=_commandModifiedInput;
-@property(readonly, nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;
-@property(readonly, nonatomic, getter=isDeadKey) _Bool deadKey; // @synthesize deadKey=_deadKey;
-@property(readonly, nonatomic) long long hidUsageCode; // @synthesize hidUsageCode=_hidUsageCode;
-@property(readonly, nonatomic) _Bool isARepeat; // @synthesize isARepeat=_isARepeat;
 @property(nonatomic) _Bool isDown; // @synthesize isDown=_isDown;
-@property(readonly, nonatomic) NSString *modifiedInput; // @synthesize modifiedInput=_modifiedInput;
-@property(nonatomic) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(readonly, nonatomic) id nsEvent; // @synthesize nsEvent=_nsEvent;
-@property(readonly, nonatomic) NSString *shiftModifiedInput; // @synthesize shiftModifiedInput=_shiftModifiedInput;
-@property(readonly, nonatomic) unsigned long long timestampMachAbs; // @synthesize timestampMachAbs=_timestampMachAbs;
-@property(readonly, nonatomic) NSString *unmodifiedInput; // @synthesize unmodifiedInput=_unmodifiedInput;
-@property(readonly, nonatomic) unsigned short virtualKeyCode; // @synthesize virtualKeyCode=_virtualKeyCode;
 
 @end
 

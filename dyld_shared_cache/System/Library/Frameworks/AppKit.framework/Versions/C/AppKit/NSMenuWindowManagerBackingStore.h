@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSMenuWindowManagerBackingStore
 {
     struct CGContext *_ctx;
-    struct CGImage *_img;
 }
 
 - (void);

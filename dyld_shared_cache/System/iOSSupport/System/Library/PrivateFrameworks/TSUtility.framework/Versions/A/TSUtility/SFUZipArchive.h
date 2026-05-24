@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSString, SFUCryptoKey, SFUDataRepresentation;
-@protocol SFUZipArchiveDataRepresentation, SFUZipArchiveDelegate;
+@class NSMutableDictionary;
+@protocol SFUZipArchiveDelegate;
 
 @interface SFUZipArchive
 {
     NSMutableDictionary *mEntries;
-    SFUDataRepresentation<SFUZipArchiveDataRepresentation> *mDataRepresentation;
-    NSData *mPassphraseVerifier;
-    NSString *mPassphraseHint;
-    SFUCryptoKey *mCryptoKey;
-    NSData *mEncryptedDocumentUuid;
-    id <SFUZipArchiveDelegate> _delegate;
 }
 
 + (_Bool);
@@ -26,20 +20,20 @@
 - (void);
 - (void);
 - (struct SFUZipEndOfCentralDirectory);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)8;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)xAndAffinity}}};
 - (void);
 
 // Remaining properties

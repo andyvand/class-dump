@@ -6,42 +6,26 @@
 
 #import <CFNetwork/__NSCFBackgroundSessionTask.h>
 
-@class AVMediaSelection, AVURLAsset, NSArray, NSData, NSDictionary, NSProgress, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFBackgroundAVAssetDownloadTask : __NSCFBackgroundSessionTask
 {
     unsigned long long _downloadToken;
-    struct os_unfair_lock_s _progressLock;
-    _Bool _didCleanupProgress;
-    _Bool _enableSPIDelegateCallbacks;
-    NSProgress *_progress;
-    unsigned long long _AVAssetDownloadToken;
-    NSURL *_URL;
-    NSURL *_destinationURL;
-    AVURLAsset *_URLAsset;
-    NSDictionary *_options;
-    NSArray *_loadedTimeRanges;
-    NSURL *_temporaryDestinationURL;
-    NSString *_assetTitle;
-    NSData *_assetArtworkData;
-    AVMediaSelection *_resolvedMediaSelection;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)dieresisacute;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h@9!;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)lowsDragging ;
 - (void);
 - (void);
 - (void);
@@ -50,11 +34,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)noqTy5fUbyK03UHxWigBBQ;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (id)ÿ;
 - (id)@;
@@ -63,11 +47,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned long long AVAssetDownloadToken; // @synthesize AVAssetDownloadToken=_AVAssetDownloadToken;
-@property(copy) NSURL *URL; // @synthesize URL=_URL;
-@property(retain) AVURLAsset *URLAsset; // @synthesize URLAsset=_URLAsset;
-@property(copy) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(copy) NSArray *loadedTimeRanges; // @synthesize loadedTimeRanges=_loadedTimeRanges;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SWDatastoreManager, SWScriptsManager;
+@protocol SWDatastoreManager;
 
 @interface SWDatastoreSetupTask
 {
     id <SWDatastoreManager> _datastoreManager;
-    id <SWScriptsManager> _scriptsManager;
 }
 
 - (id);
@@ -22,15 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWDatastoreManager> datastoreManager; // @synthesize datastoreManager=_datastoreManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id <SWScriptsManager> scriptsManager; // @synthesize scriptsManager=_scriptsManager;
-@property(readonly) Class superclass;
 
 @end
 

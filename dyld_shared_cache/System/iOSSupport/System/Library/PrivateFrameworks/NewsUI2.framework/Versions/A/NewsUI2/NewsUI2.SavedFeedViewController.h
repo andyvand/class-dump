@@ -7,16 +7,9 @@
 @interface NewsUI2.SavedFeedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id sharingActivityProviderFactory;
-    id userInfo;
-    id newsActivityManager;
-    id commandContainer;
-    id $__lazy_storage_$_clearButton;
 }
 
-- (void);
+- (void)brary/Frameworks/ExtensionKit.framework/Versions/A/ExtensionKit;
 - (id);
 - (id);
 - (void);

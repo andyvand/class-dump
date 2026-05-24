@@ -7,33 +7,29 @@
 @interface CKPluginExtensionStateObserver
 {
     _Bool _passKitUIPresented;
-    _Bool _stickerDragActiveInCurrentProcess;
-    _Bool _iTunesStoreDialogPresented;
 }
 
 + (id);
 + (id);
+- (_Bool)initWithPCMFormat:frameCapacity: /* Error: Ran out of types for this method. */;
+- (void)didAuthenticateWithPrompt:(_Bool)arg1 result:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)cachedActualColumnWidths;
+- (void)_webView:(_Bool)arg1 saveDataToFile:suggestedFilename:mimeType:originatingURL: /* Error: Ran out of types for this method. */;
+- (void)ICMentionAttachmentView;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)r login password are only viewable on iOS 16, iPadOS 16, and macOS 13 and later. Your devices that need upgrading:(id)arg1;
+- (void)metricActionAlertPresented-%@;
+- (void)(account) != nil);
+- (void)UpSheetForAccount:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)ingChangeCoalescer processIndexableContentWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)wing;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool iTunesStoreDialogPresented; // @synthesize iTunesStoreDialogPresented=_iTunesStoreDialogPresented;
 @property(nonatomic) _Bool passKitUIPresented; // @synthesize passKitUIPresented=_passKitUIPresented;
-@property(nonatomic) _Bool stickerDragActiveInCurrentProcess; // @synthesize stickerDragActiveInCurrentProcess=_stickerDragActiveInCurrentProcess;
 
 @end
 

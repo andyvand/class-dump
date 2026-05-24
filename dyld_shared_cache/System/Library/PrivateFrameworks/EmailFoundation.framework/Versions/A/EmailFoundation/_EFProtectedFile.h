@@ -9,29 +9,14 @@
 @interface _EFProtectedFile
 {
     int _fileDescriptor;
-    struct os_unfair_lock_s _fileDescriptorLock;
-    _Bool _filePathIsSensitive;
-    int _protectionClass;
-    NSString *_filePath;
 }
 
 - (id);
-- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

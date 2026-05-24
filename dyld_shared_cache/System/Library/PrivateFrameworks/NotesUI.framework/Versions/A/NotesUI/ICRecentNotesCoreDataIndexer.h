@@ -6,21 +6,12 @@
 
 #import <NotesUI/ICCoreDataIndexer.h>
 
-@class NSArray, NSFetchedResultsController, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICRecentNotesCoreDataIndexer : ICCoreDataIndexer
 {
     _Bool _checklistsOnly;
-    _Bool _pinnedOnly;
-    _Bool _passwordProtectedOnly;
-    _Bool _nonPasswordProtectedOnly;
-    NSObject<OS_dispatch_queue> *_indexAccessQueue;
-    NSFetchedResultsController *_legacyNoteFetchedResultsController;
-    NSFetchedResultsController *_modernNoteFetchedResultsController;
-    NSMutableDictionary *_sectionIdentifiersToManagedObjectIDs;
-    long long _sortType;
-    unsigned long long _maximumNumberOfNotesPerAccount;
 }
 
 - (void);
@@ -33,14 +24,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)t;
 - (id);
 - (id);
 - (id);
@@ -50,20 +41,10 @@
 - (id);
 - (long long);
 - (void);
-- (void)iewFooterHeight: /* Error: Ran out of types for this method. */;
+- (void)_webViewFooterHeight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool checklistsOnly; // @synthesize checklistsOnly=_checklistsOnly;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *indexAccessQueue; // @synthesize indexAccessQueue=_indexAccessQueue;
-@property(readonly, nonatomic) NSFetchedResultsController *legacyNoteFetchedResultsController; // @synthesize legacyNoteFetchedResultsController=_legacyNoteFetchedResultsController;
-@property(nonatomic) unsigned long long maximumNumberOfNotesPerAccount; // @synthesize maximumNumberOfNotesPerAccount=_maximumNumberOfNotesPerAccount;
-@property(readonly, nonatomic) NSFetchedResultsController *modernNoteFetchedResultsController; // @synthesize modernNoteFetchedResultsController=_modernNoteFetchedResultsController;
-@property(nonatomic) _Bool nonPasswordProtectedOnly; // @synthesize nonPasswordProtectedOnly=_nonPasswordProtectedOnly;
-@property(nonatomic) _Bool passwordProtectedOnly; // @synthesize passwordProtectedOnly=_passwordProtectedOnly;
-@property(nonatomic) _Bool pinnedOnly; // @synthesize pinnedOnly=_pinnedOnly;
-@property(readonly, nonatomic) NSMutableDictionary *sectionIdentifiersToManagedObjectIDs; // @synthesize sectionIdentifiersToManagedObjectIDs=_sectionIdentifiersToManagedObjectIDs;
-@property(nonatomic) long long sortType; // @synthesize sortType=_sortType;
-@property(readonly, nonatomic) NSArray *sortedSectionIdentifiers;
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface WebUIAlert
 {
     int _otherAction;
-    long long _indexOfSelectedIdentity;
-    int _type;
-    int _defaultAction;
-    int _tableAction;
-    int _hideAction;
-    CDUnknownBlockType _actionHandler;
-    NSString *_title;
-    NSString *_bodyText;
-    id _context;
-    NSArray *_identities;
-    NSArray *_titles;
 }
 
 - (int);
@@ -32,34 +19,24 @@
 - (id);
 - (int);
 - (id);
-- (int);
-- (id);
+- (int)3;
+- (id)P;
 - (void);
 - (id);
 - (int);
-- (int);
+- (int)H;
 - (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)requestMetadataForCertificate:requestedLocale:requestInfo:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)cCertificateCreateWithBytes returned pCertSubCA1:(CDUnknownBlockType)arg1 NULL
+;
+- (void)_loadTextInputTargetsFromDictionaries:(id)arg1;
+- (id)_addGraphForIdentifier:addToExisting:graphableVariable: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, copy, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(readonly, copy, nonatomic) NSArray *buttonTitles;
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(readonly, nonatomic) int defaultAction; // @synthesize defaultAction=_defaultAction;
-@property(nonatomic) int hideAction; // @synthesize hideAction=_hideAction;
-@property(retain, nonatomic) NSArray *identities; // @synthesize identities=_identities;
-@property(readonly, nonatomic) id selectedIdentity;
-@property(readonly, nonatomic) int tableAction; // @synthesize tableAction=_tableAction;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSArray *titles; // @synthesize titles=_titles;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

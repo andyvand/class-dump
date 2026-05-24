@@ -6,24 +6,23 @@
 
 #import <AppKit/NSView.h>
 
-@class NSPortalView, NSScrollView;
+@class NSScrollView;
 
 __attribute__((visibility("hidden")))
 @interface NSScrollViewMirrorView : NSView
 {
     NSScrollView *_associatedScrollView;
-    NSPortalView *_portalView;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)WHERE isDataOnFS > 0 AND entry_ID in 									 (SELECT entry_ID from cfurl_cache_response WHERE entry_ID > 0 ORDER BY time_stamp ASC LIMIT %q);
+- (void)_֊';
 - (id);
-- (id);
+- (id)ee_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
 - (void);
-- (void);
-- (id)StylesMenuItems;
-- (void)nceAnalysis;
+- (id)listStylesMenuItems;
+- (void)NSScrollingPerformanceAnalysis;
 
 // Remaining properties
 @property(retain) NSScrollView *associatedScrollView;

@@ -5,6 +5,7 @@
 //
 
 @protocol BWInferencePropagatable
+- (void)\u;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsAsyncPropagation;

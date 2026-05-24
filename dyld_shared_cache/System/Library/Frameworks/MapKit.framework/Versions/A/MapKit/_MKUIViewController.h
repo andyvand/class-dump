@@ -4,56 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MKInfoCardTheme;
-
 @interface _MKUIViewController
 {
     unsigned long long _countOfAppearanceTransitionInvocations;
-    long long _appearanceAnimation;
-    long long _parentTransitioning;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)le copy status success;
+- (_Bool)onaryIntervals=%@;
+- (_Bool)@;
+- (void);
 - (Class);
 - (void);
+- (void)v32@0:8@"NSString"16@?<v@?@"PRLikeness"@"NSError">24 /* Error: Ran out of types for this method. */;
+- (void)point";
+- (void);
+- (void)_cn_setUnauthorizedKeys: /* Error: Ran out of types for this method. */;
+- (double)CNCoreDataMapperX;
+- (void);
+- (void);
+- (void)ڧT_I;
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SBHostCIPortStateMachine"];
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void)ing:(double)arg1;
-- (void)tCell;
+- (void)tableView:(double)arg1 shouldTypeSelectForEvent:withCurrentSearchString: /* Error: Ran out of types for this method. */;
+- (void)MKEmptyTextAttachmentCell;
 - (void)è;
 - (void);
 - (void)`Ê´;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier;
-@property(nonatomic) double contentAlpha;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <MKInfoCardTheme> mk_theme;
-@property(readonly) Class superclass;
 
 @end
 

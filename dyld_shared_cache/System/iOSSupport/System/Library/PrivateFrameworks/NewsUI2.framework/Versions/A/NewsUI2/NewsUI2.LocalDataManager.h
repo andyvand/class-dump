@@ -7,15 +7,6 @@
 @interface NewsUI2.LocalDataManager
 {
     id tagService;
-    id subscriptionService;
-    id searchFetcher;
-    id channelLocationService;
-    id subscriptionController;
-    id localRegionManager;
-    id locationManager;
-    id localAreasManager;
-    id subscriptionList;
-    id appConfigManager;
 }
 
 @end

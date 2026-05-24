@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsFavoritesBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id config;
 }
 
 @end

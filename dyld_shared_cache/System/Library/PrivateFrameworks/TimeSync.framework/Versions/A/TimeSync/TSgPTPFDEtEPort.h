@@ -11,7 +11,6 @@
 @interface TSgPTPFDEtEPort : TSgPTPNetworkPort
 {
     _TSF_TSDgPTPFDEtEPort *_impl;
-    TSgPTPPortStatistics *_statistics;
 }
 
 + (id);

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScreen, NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenStorage
 {
     NSSet *_participatingWindowNumbersDuringEnterTransition;
-    NSSet *_participatingWindowNumbersDuringExitTransition;
-    unsigned long long _startingSpaceID;
-    struct CGRect _savedFrame;
-    NSString *_stringWithSavedFrame;
-    NSScreen *_savedScreen;
-    _Bool _toolbarWasHidden;
-    struct CGSize _userTilePreferredSize;
-    _Bool _windowJoinedTileOnCreation;
 }
 
 - (_Bool);
@@ -27,29 +19,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)state;
+- (void)%c%c%c;
+- (void)functions;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)ocation) had unexpected size;
+- (struct CGRect)eeProperty(IODeviceTree:/product side-button-location) had unexpected size /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGRect);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long)le %f will initiate stall recovery;
+- (void)SSOProtocol %p initialized for %{public}@;
+- (void);
 
 // Remaining properties
 @property(copy) NSSet *participatingWindowNumbersDuringEnterTransition; // @synthesize participatingWindowNumbersDuringEnterTransition=_participatingWindowNumbersDuringEnterTransition;
-@property(copy) NSSet *participatingWindowNumbersDuringExitTransition; // @synthesize participatingWindowNumbersDuringExitTransition=_participatingWindowNumbersDuringExitTransition;
-@property struct CGRect savedFrame; // @synthesize savedFrame=_savedFrame;
-@property(retain) NSScreen *savedScreen; // @synthesize savedScreen=_savedScreen;
-@property unsigned long long startingSpaceID; // @synthesize startingSpaceID=_startingSpaceID;
-@property(copy) NSString *stringWithSavedFrame; // @synthesize stringWithSavedFrame=_stringWithSavedFrame;
-@property _Bool toolbarWasHidden; // @synthesize toolbarWasHidden=_toolbarWasHidden;
-@property struct CGSize userTilePreferredSize; // @synthesize userTilePreferredSize=_userTilePreferredSize;
-@property _Bool windowJoinedTileOnCreation; // @synthesize windowJoinedTileOnCreation=_windowJoinedTileOnCreation;
 
 @end
 

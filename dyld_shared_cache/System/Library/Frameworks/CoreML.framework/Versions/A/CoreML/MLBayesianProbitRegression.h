@@ -6,26 +6,16 @@
 
 #import <CoreML/MLRegressor.h>
 
-@class NSString;
-
 @interface MLBayesianProbitRegression : MLRegressor
 {
     shared_ptr_7e6b0415 _model;
-    NSString *_regressionInputFeatureName;
-    NSString *_optimismInputFeatureName;
-    NSString *_meanOutputFeatureName;
-    NSString *_varianceOutputFeatureName;
-    NSString *_pessimisticProbabilityOutputFeatureName;
-    NSString *_sampledProbabilityOutputFeatureName;
-    NSString *_samplingScaleInputFeatureName;
-    NSString *_samplingTruncationInputFeatureName;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,16 +28,16 @@
 - (id);
 - (double);
 - (double);
-- (double);
+- (double);
 - (shared_ptr_dc1b6fff);
 - (double);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)?<v@?@"NSError"B>32;
+- (id)�@8l}	;
 - (_Bool);
 - (shared_ptr_7e6b0415);
 - (void)ch of input feature providers.
@@ -55,13 +45,7 @@
 - (id)D9FÄCDDDGCÇDÎDËCdFhEDfFgED`DbD,DiG\EÌFàD­DCD~DCEeGçFèCÈDECÀG<G@G¸E¦DÚEïDÏDED­FYFwFÁCtGjDÏG#EE²C²EETDFäDG¯ERG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

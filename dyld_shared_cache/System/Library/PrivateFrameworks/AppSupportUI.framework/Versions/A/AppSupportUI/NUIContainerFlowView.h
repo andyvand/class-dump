@@ -6,15 +6,12 @@
 
 #import <AppSupportUI/NUIContainerView.h>
 
-@class NSString;
-
 @interface NUIContainerFlowView : NUIContainerView
 {
     struct _NUIFlowArrangement _arrangement;
-    CDStruct_e0b918f9 _flowFlags;
 }
 
-+ (id);
++ (id)_;
 + (id);
 - (long long);
 - (void);
@@ -22,9 +19,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)C;
 - (long long);
 - (id);
 - (id);
@@ -41,7 +38,7 @@
 - (long long);
 - (double);
 - (void);
-- (void);
+- (void)IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}16;
 - (double);
 - (id);
 - (double);
@@ -52,30 +49,14 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (long long)ð!¨Aù±'°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double columnSpacing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long horizontalAlignment;
-@property(nonatomic) long long horizontalDistribution;
-@property(nonatomic) double itemSpacing;
-@property(nonatomic) double itemWidth;
 @property(nonatomic) long long numberOfColumns;
-@property(nonatomic) double rowHeight;
-@property(nonatomic) double rowSpacing;
-@property(readonly) Class superclass;
-@property(nonatomic) long long verticalAlignment;
-@property(nonatomic) long long verticalDistribution;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.CoverIssueViewRenderer
 {
     id rendererTool;
-    id issueCoverViewRenderer;
-    id commandCenter;
 }
 
 @end

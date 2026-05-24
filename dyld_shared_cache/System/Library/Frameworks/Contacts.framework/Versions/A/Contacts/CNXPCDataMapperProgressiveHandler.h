@@ -7,7 +7,6 @@
 @interface CNXPCDataMapperProgressiveHandler
 {
     CDUnknownBlockType _progressBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);

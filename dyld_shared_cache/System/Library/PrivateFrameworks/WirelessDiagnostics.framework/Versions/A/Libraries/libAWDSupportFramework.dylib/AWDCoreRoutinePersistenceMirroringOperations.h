@@ -7,21 +7,6 @@
 @interface AWDCoreRoutinePersistenceMirroringOperations
 {
     long long _timeIntervalSinceLastOperation;
-    unsigned long long _timestamp;
-    int _deviceClass;
-    int _errorCount;
-    int _operationType;
-    int _qualityOfService;
-    int _recordsChanged;
-    struct {
-        unsigned int timeIntervalSinceLastOperation:1;
-        unsigned int timestamp:1;
-        unsigned int deviceClass:1;
-        unsigned int errorCount:1;
-        unsigned int operationType:1;
-        unsigned int qualityOfService:1;
-        unsigned int recordsChanged:1;
-    } _has;
 }
 
 - (long long);
@@ -29,11 +14,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
+- (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -42,42 +27,29 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
-- (int);
+- (int)j;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)j;
 - (int);
-- (int);
+- (int);
 - (void)maxQueueFullDurMS;
-- (void)herus;
+- (void)rxherus;
 - (_Bool);
 - (_Bool)¼Ý	;
 - (void)øsn#.
 ;
 
 // Remaining properties
-@property(nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) int errorCount; // @synthesize errorCount=_errorCount;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasErrorCount;
-@property(nonatomic) _Bool hasOperationType;
-@property(nonatomic) _Bool hasQualityOfService;
-@property(nonatomic) _Bool hasRecordsChanged;
-@property(nonatomic) _Bool hasTimeIntervalSinceLastOperation;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int operationType; // @synthesize operationType=_operationType;
-@property(nonatomic) int qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) int recordsChanged; // @synthesize recordsChanged=_recordsChanged;
-@property(nonatomic) long long timeIntervalSinceLastOperation; // @synthesize timeIntervalSinceLastOperation=_timeIntervalSinceLastOperation;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

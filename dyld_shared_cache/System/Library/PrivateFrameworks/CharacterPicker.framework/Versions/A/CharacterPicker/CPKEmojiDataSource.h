@@ -14,8 +14,8 @@
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool);
+- (unsigned int)6;
 
 @end
 

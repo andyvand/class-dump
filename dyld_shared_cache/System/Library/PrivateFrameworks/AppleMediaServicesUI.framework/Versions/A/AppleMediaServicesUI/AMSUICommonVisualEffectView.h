@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)entRange;
 
 // Remaining properties
 @property _Bool wallpaperTint; // @synthesize wallpaperTint=_wallpaperTint;

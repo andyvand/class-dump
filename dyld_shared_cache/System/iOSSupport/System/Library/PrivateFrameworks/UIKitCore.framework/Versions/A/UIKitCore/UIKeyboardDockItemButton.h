@@ -6,16 +6,12 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class CAShapeLayer, NSString, _UISlotView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardDockItemButton : UIButton
 {
     NSString *_identifier;
-    CAShapeLayer *_shapeLayer;
-    CAShapeLayer *_debugHitLayer;
-    _UISlotView *_secureDictationSlotView;
-    struct CGRect _tapActionRegion;
 }
 
 - (struct CGRect);
@@ -30,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)
 × ;
-- (void)ableSpace: /* Error: Ran out of types for this method. */;
-- (void)ant: /* Error: Ran out of types for this method. */;
-- (void)ingleMovement;
-- (void)ootView:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
-- (id)de;
+- (void)setAvailableSpace: /* Error: Ran out of types for this method. */;
+- (void)_viewRegionForTriggeredParticipant: /* Error: Ran out of types for this method. */;
+- (void)_tooMuchSingleMovement;
+- (void)_enumerateSubviewsOfRootView:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (id)_calculationMode;
 - (void)ÌM;
 - (id)×ïÿ Øïÿ;
 - (struct CGRect)|«\;
@@ -45,10 +41,6 @@ __attribute__((visibility("hidden")))
 - (void)xm;
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *debugHitLayer; // @synthesize debugHitLayer=_debugHitLayer;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _UISlotView *secureDictationSlotView; // @synthesize secureDictationSlotView=_secureDictationSlotView;
-@property(retain, nonatomic) CAShapeLayer *shapeLayer; // @synthesize shapeLayer=_shapeLayer;
 @property(nonatomic) struct CGRect tapActionRegion; // @synthesize tapActionRegion=_tapActionRegion;
 
 @end

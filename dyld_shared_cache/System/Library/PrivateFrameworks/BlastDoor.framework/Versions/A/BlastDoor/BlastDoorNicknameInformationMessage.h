@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, BlastDoorNicknameInformation, NSString;
+@class NSString;
 
 @interface BlastDoorNicknameInformationMessage
 {
@@ -20,8 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) BlastDoorNicknameInformation *nicknameInformation;
 
 @end
 

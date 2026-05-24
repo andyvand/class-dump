@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DADBuddyStateObserver, DADREMLocalDBWatcher, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol DADREMStoreProvider, DADREMUserNotificationPresentingProvider, OS_dispatch_queue;
+@class DADREMLocalDBWatcher, NSArray;
 
 @interface DADAgentManager
 {
     NSArray *_activeAgents;
-    NSObject<OS_dispatch_queue> *_activeAgentsQueue;
-    NSMutableDictionary *_watchedIDs;
-    unsigned int _pmNotifier;
-    struct IONotificationPort *_pmPort;
-    struct __CFRunLoopSource *_pmRunLoopSource;
-    CDUnknownBlockType _startAgentsWhenSystemReadyBlock;
-    NSObject<OS_dispatch_queue> *_CTCellularUsagePolicyNotificationQ;
-    struct __CTServerConnection *_ctServerConnection;
-    NSDictionary *_wirelessPolicies;
-    int _pendingAccountSetupCount;
-    DADBuddyStateObserver *_buddyStateObserver;
-    NSMutableArray *_subCalHandlers;
-    unsigned long long _nextDisableMonitoringAgentsToken;
-    NSMutableDictionary *_disableMonitoringAgentsTokens;
 }
 
 + (_Bool);
@@ -33,9 +18,9 @@
 - (void);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,14 +34,14 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long)R>;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -76,26 +61,19 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *activeAgents;
-@property(readonly, nonatomic) NSMutableDictionary *disableMonitoringAgentsTokens; // @synthesize disableMonitoringAgentsTokens=_disableMonitoringAgentsTokens;
-@property(nonatomic) unsigned long long nextDisableMonitoringAgentsToken; // @synthesize nextDisableMonitoringAgentsToken=_nextDisableMonitoringAgentsToken;
 @property(retain, nonatomic) DADREMLocalDBWatcher *rem_localDBWatcher;
-@property(retain, nonatomic) id <DADREMStoreProvider> rem_storeProvider;
-@property(retain, nonatomic) id <DADREMUserNotificationPresentingProvider> rem_userNotificationPresentingProvider;
-@property(copy, nonatomic) CDUnknownBlockType rem_xpcEventHandler;
-@property(retain, nonatomic) NSMutableArray *subCalHandlers; // @synthesize subCalHandlers=_subCalHandlers;
 
 @end
 

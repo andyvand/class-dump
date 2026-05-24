@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)NetworkInterfaceChange;
 - (_Bool);
 - (id);
 

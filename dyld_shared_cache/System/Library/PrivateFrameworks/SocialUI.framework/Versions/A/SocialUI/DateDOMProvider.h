@@ -11,10 +11,6 @@
 @interface DateDOMProvider : DOMProvider
 {
     NSMutableArray *_preciseFragments;
-    NSMutableArray *_longFragments;
-    NSMutableArray *_dateFragments;
-    NSMutableArray *_timeFragments;
-    NSMutableArray *_timeOrDateFragments;
 }
 
 - (id);
@@ -23,15 +19,15 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
@@ -48,11 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *dateFragments; // @synthesize dateFragments=_dateFragments;
-@property(retain) NSMutableArray *longFragments; // @synthesize longFragments=_longFragments;
 @property(retain) NSMutableArray *preciseFragments; // @synthesize preciseFragments=_preciseFragments;
-@property(retain) NSMutableArray *timeFragments; // @synthesize timeFragments=_timeFragments;
-@property(retain) NSMutableArray *timeOrDateFragments; // @synthesize timeOrDateFragments=_timeOrDateFragments;
 
 @end
 

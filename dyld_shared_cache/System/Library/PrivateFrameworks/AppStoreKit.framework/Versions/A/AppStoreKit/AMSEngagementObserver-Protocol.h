@@ -5,5 +5,10 @@
 //
 
 @protocol AMSEngagementObserver
+- (void)4;
+
+@optional
+- (void);
+- (void);
 @end
 

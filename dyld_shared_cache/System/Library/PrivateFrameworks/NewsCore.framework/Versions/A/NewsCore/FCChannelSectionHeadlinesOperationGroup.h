@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol FCSectionProviding;
 
 @interface FCChannelSectionHeadlinesOperationGroup
 {
     id <FCSectionProviding> _section;
-    NSArray *_headlines;
 }
 
 - (void);
@@ -19,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)CSubscriptionOriginUserInitiated;
+- (id))$;
+- (void)FCSubscriptionOriginUserInitiated;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *headlines; // @synthesize headlines=_headlines;
 @property(retain, nonatomic) id <FCSectionProviding> section; // @synthesize section=_section;
 
 @end

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MechanismContext, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface MechanismManager
 {
     NSMutableDictionary *_plugins;
-    MechanismContext *_mechanismContext;
-    NSObject<OS_dispatch_queue> *_serverQueue;
-    long long _evaluatedPolicy;
 }
 
-- (id);
+- (id)<;
 - (id);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)˟;
 - (long long);
 - (id);
 - (id);
@@ -30,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long evaluatedPolicy; // @synthesize evaluatedPolicy=_evaluatedPolicy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serverQueue; // @synthesize serverQueue=_serverQueue;
 
 @end
 

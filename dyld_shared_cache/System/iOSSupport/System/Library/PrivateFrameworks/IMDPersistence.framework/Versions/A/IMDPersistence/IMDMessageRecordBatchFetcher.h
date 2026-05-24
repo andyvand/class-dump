@@ -6,14 +6,11 @@
 
 #import <IMDPersistence/IMDRecordBatchFetcher.h>
 
-@class NSPredicate, NSString;
+@class NSPredicate;
 
 @interface IMDMessageRecordBatchFetcher : IMDRecordBatchFetcher
 {
     _Bool _sortAscending;
-    _Bool _parentedOnly;
-    NSPredicate *_chatPredicate;
-    NSString *_associatedChatGUID;
 }
 
 - (_Bool);
@@ -30,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *associatedChatGUID; // @synthesize associatedChatGUID=_associatedChatGUID;
 @property(readonly, copy, nonatomic) NSPredicate *chatPredicate; // @synthesize chatPredicate=_chatPredicate;
-@property(nonatomic) _Bool parentedOnly; // @synthesize parentedOnly=_parentedOnly;
-@property(readonly, nonatomic) _Bool sortAscending; // @synthesize sortAscending=_sortAscending;
 
 @end
 

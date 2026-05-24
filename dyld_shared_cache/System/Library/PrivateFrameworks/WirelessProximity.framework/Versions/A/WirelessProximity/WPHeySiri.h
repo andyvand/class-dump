@@ -11,7 +11,6 @@
 @interface WPHeySiri : WPClient
 {
     _Bool _isScanning;
-    id <WPHeySiriProtocol> _delegate;
 }
 
 + (long long);
@@ -28,25 +27,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)rOwnerTokensKey;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)
+?ױ;
+- (id);
+- (_Bool)kWPTestNearOwnerTokensKey;
 
 // Remaining properties
 @property(nonatomic) __weak id <WPHeySiriProtocol> delegate; // @synthesize delegate=_delegate;
-@property _Bool isScanning; // @synthesize isScanning=_isScanning;
 
 @end
 

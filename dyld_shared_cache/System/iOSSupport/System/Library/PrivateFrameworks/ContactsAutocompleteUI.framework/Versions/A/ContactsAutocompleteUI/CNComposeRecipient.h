@@ -4,78 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResult, CNComposeRecipientOriginContext, CNContact, NSArray, NSPersonNameComponents, NSSet, NSString;
+@class NSString;
 
 @interface CNComposeRecipient
 {
     NSString *_compositeName;
-    NSString *_shortName;
-    NSString *_displayString;
-    _Bool _isMemberOfGroup;
-    CNComposeRecipientOriginContext *_originContext;
-    CNContact *_contact;
-    NSString *_address;
-    unsigned long long _kind;
-    NSString *_label;
-    NSString *_unlocalizedLabel;
-    NSString *_countryCode;
-    NSArray *_cachedCompleteMatches;
-    NSArray *_cachedMatchedStrings;
-    NSArray *_cachedSortedMembers;
-    NSSet *_cachedHandles;
-    NSString *_contactIdentifier;
-    NSString *_valueIdentifier;
-    NSString *_inputAddress;
-    CNAutocompleteResult *_autocompleteResult;
-    NSPersonNameComponents *_nameComponents;
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(retain, nonatomic) CNAutocompleteResult *autocompleteResult; // @synthesize autocompleteResult=_autocompleteResult;
-@property(retain, nonatomic) NSArray *cachedCompleteMatches; // @synthesize cachedCompleteMatches=_cachedCompleteMatches;
-@property(retain, nonatomic) NSSet *cachedHandles; // @synthesize cachedHandles=_cachedHandles;
-@property(retain, nonatomic) NSArray *cachedMatchedStrings; // @synthesize cachedMatchedStrings=_cachedMatchedStrings;
-@property(retain, nonatomic) NSArray *cachedSortedMembers; // @synthesize cachedSortedMembers=_cachedSortedMembers;
-@property(readonly, nonatomic) NSString *commentedAddress;
-@property(copy, nonatomic) NSString *compositeName; // @synthesize compositeName=_compositeName;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayString;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *inputAddress; // @synthesize inputAddress=_inputAddress;
-@property(readonly, nonatomic) _Bool isDirectoryServerResult;
-@property(readonly, nonatomic) _Bool isGroup;
-@property(nonatomic) _Bool isMemberOfGroup; // @synthesize isMemberOfGroup=_isMemberOfGroup;
-@property(readonly, nonatomic) _Bool isSuggestedRecipient;
-@property(readonly, nonatomic) unsigned long long kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(readonly, nonatomic) NSString *normalizedAddress;
-@property(retain, nonatomic) CNComposeRecipientOriginContext *originContext; // @synthesize originContext=_originContext;
-@property(readonly, copy, nonatomic) NSString *pasteboardString;
-@property(readonly, nonatomic) NSString *placeholderName;
-@property(readonly, nonatomic, getter=isRemovableFromSearchResults) _Bool removableFromSearchResults;
-@property(readonly, nonatomic) NSString *shortName;
-@property(readonly, nonatomic) _Bool showsAccessoryButton;
-@property(readonly, nonatomic) _Bool showsChevronButton;
-@property(readonly, nonatomic) unsigned long long sourceType;
-@property(readonly, nonatomic) NSString *stringForEqualityTesting;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsPasteboardUnarchiving;
-@property(readonly, nonatomic) NSString *uncommentedAddress;
-@property(copy, nonatomic) NSString *unlocalizedLabel; // @synthesize unlocalizedLabel=_unlocalizedLabel;
-@property(copy, nonatomic) NSString *valueIdentifier; // @synthesize valueIdentifier=_valueIdentifier;
-@property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @end
 

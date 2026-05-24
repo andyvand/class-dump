@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TUConversationVirtualParticipant
 {
     unsigned long long _identifier;
-    NSString *_pluginName;
 }
 
 + (_Bool);
@@ -18,16 +15,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)~;
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (void)ueToUserInteraction: /* Error: Ran out of types for this method. */;
+- (void)setScreeningDueToUserInteraction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *pluginName; // @synthesize pluginName=_pluginName;
 
 @end
 

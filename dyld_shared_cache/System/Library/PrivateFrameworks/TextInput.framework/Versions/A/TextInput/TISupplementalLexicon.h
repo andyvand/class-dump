@@ -9,11 +9,9 @@
 @interface TISupplementalLexicon
 {
     NSArray *_items;
-    unsigned long long _searchPrefixes;
-    unsigned long long _identifier;
 }
 
-+ (_Bool);
++ (_Bool)c;
 
 @end
 

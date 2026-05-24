@@ -5,5 +5,6 @@
 //
 
 @protocol NUSurfaceStorage
+- (long long);
 @end
 

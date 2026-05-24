@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, PKPassShareTimeConfiguration;
+@class NSArray, NSString;
 
 @interface PKPassEntitlement
 {
     NSArray *_rawRoles;
-    _Bool _active;
-    _Bool _hasRemainingShares;
-    NSString *_identifier;
-    PKPassShareTimeConfiguration *_timeConfiguration;
-    NSString *_entitlementTemplate;
-    NSDictionary *_templateFields;
-    NSNumber *_activeShareability;
-    NSNumber *_activeManageability;
-    NSNumber *_activeVisibility;
-    NSNumber *_activeCapabilityRole;
-    NSArray *_shareability;
-    NSArray *_manageability;
-    NSArray *_visibility;
-    NSNumber *_value;
-    NSString *_subcredentialIdentifier;
 }
 
 + (_Bool);
+- (id);
+- (id)@9�;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,50 +33,34 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)P;
+- (id);
+- (long long)x;
 - (id);
 - (id);
-- (long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)setHasCellEstimatedBw:(id)arg1;
+- (void)pageLoadTime;
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)esToPaymentRequest:(id)arg1;
-- (id);
+- (id)applyServiceProviderPropertiesToPaymentRequest:(id)arg1;
+- (id)_dpanIDSignatureDescriptionFor:completion: /* Error: Ran out of types for this method. */;
 - (void)deferred payment request;
 - (void)}ÎL4HÿmÎL´Gÿ;
 - (_Bool)L ;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) NSNumber *activeCapabilityRole; // @synthesize activeCapabilityRole=_activeCapabilityRole;
-@property(retain, nonatomic) NSNumber *activeManageability; // @synthesize activeManageability=_activeManageability;
-@property(retain, nonatomic) NSNumber *activeShareability; // @synthesize activeShareability=_activeShareability;
-@property(retain, nonatomic) NSNumber *activeVisibility; // @synthesize activeVisibility=_activeVisibility;
-@property(readonly, nonatomic) long long carKeyEntitlementType;
-@property(retain, nonatomic) NSString *entitlementTemplate; // @synthesize entitlementTemplate=_entitlementTemplate;
-@property(nonatomic) _Bool hasRemainingShares; // @synthesize hasRemainingShares=_hasRemainingShares;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool intraAccountSharingEnabled;
-@property(retain, nonatomic) NSArray *manageability; // @synthesize manageability=_manageability;
-@property(retain, nonatomic) NSArray *shareability; // @synthesize shareability=_shareability;
-@property(retain, nonatomic) NSString *subcredentialIdentifier; // @synthesize subcredentialIdentifier=_subcredentialIdentifier;
-@property(retain, nonatomic) NSDictionary *templateFields; // @synthesize templateFields=_templateFields;
-@property(retain, nonatomic) PKPassShareTimeConfiguration *timeConfiguration; // @synthesize timeConfiguration=_timeConfiguration;
-@property(retain, nonatomic) NSNumber *value; // @synthesize value=_value;
-@property(retain, nonatomic) NSArray *visibility; // @synthesize visibility=_visibility;
 
 @end
 

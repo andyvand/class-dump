@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol SO_AXElementNamesItem
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect elementFrame;
 @property(readonly, nonatomic) NSString *elementName;
-@property(readonly, nonatomic) _Bool isSpacer;
 @end
 

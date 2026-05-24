@@ -7,9 +7,10 @@
 @interface CalculateUI.MagnifyRepresentable.Coordinator
 {
     id initialLocation;
+    id;
 }
 
-- (id);
+- (id)ing;
 - (_Bool);
 
 @end

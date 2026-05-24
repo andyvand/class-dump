@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedIdentifierListPosition, NSEnumerator, _MPCQueueControllerBehaviorMusic;
+@class _MPCQueueControllerBehaviorMusic;
 
 __attribute__((visibility("hidden")))
 @interface _MPCQueueControllerEnumerator
 {
     long long _nextEnumerator;
-    _Bool _isEnumeratingFromRepeatAllBase;
-    _Bool _hasEmittedItemFromRepeatAllBase;
-    CDUnknownBlockType _repeatBoundaryBlock;
-    _MPCQueueControllerBehaviorMusic *_musicBehavior;
-    long long _mode;
-    unsigned long long _options;
-    NSEnumerator *_enumerator;
-    MPSectionedIdentifierListPosition *_startPosition;
-    MPSectionedIdentifierListPosition *_endPosition;
 }
 
 + (id);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (void)errorWithDomain:(CDUnknownBlockType)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)respondsToSelector: /* Error: Ran out of types for this method. */;
+- (id)defaultStore;
 - (void);
 - (id);
 - (id);
@@ -32,17 +23,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id)ath: /* Error: Ran out of types for this method. */;
+- (id)structuredIndexPathForDisplayIndexPath: /* Error: Ran out of types for this method. */;
 - (void)additional] oldState=%{public}@ newState=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) MPSectionedIdentifierListPosition *endPosition; // @synthesize endPosition=_endPosition;
-@property(readonly, nonatomic) NSEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(readonly, nonatomic) long long mode; // @synthesize mode=_mode;
 @property(readonly, nonatomic) __weak _MPCQueueControllerBehaviorMusic *musicBehavior; // @synthesize musicBehavior=_musicBehavior;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) CDUnknownBlockType repeatBoundaryBlock; // @synthesize repeatBoundaryBlock=_repeatBoundaryBlock;
-@property(readonly, nonatomic) MPSectionedIdentifierListPosition *startPosition; // @synthesize startPosition=_startPosition;
 
 @end
 

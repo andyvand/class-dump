@@ -7,9 +7,10 @@
 @class _INPBPaymentRecord;
 
 @protocol _INPBSendPaymentIntentResponse
+- (void)_;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPaymentRecord;
 @property(retain, nonatomic) _INPBPaymentRecord *paymentRecord;
 @end
 

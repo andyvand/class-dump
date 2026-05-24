@@ -4,53 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIWindow;
-@protocol UINSMenuItem;
+@class NSArray;
 
 @interface _UIMenuBarMenu
 {
     NSArray *_items;
-    _Bool _menuChangeShouldRebuildMenu;
-    NSString *_identifier;
-    long long _type;
-    unsigned long long _presentationStyle;
-    long long _selectionMode;
-    UIWindow *_sourceUIWindow;
-    id <UINSMenuItem> _currentHighlightedItem;
-    NSString *_title;
-    struct CGRect _rectInUIWindow;
 }
 
-+ (void);
++ (void)this build;
 + (_Bool);
 + (_Bool);
 + (id);
 + (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
+- (_Bool)NSString"16Q24@"NSDictionary"32@?<v@?B@"IMXPCDictionary">40;
+- (void)uncanonicalizedURIString;
+- (void)unblackholeAndLoadChatWithHandleIDs:(id)arg1 reply:(id)arg2;
+- (void)unattributed;
+- (double)wasCancelled: /* Error: Ran out of types for this method. */;
+- (void)hasDataDetectorResults;
+- (void)ng.;
 - (id);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)n hasher algorithm;
 - (long long)
 × ;
-- (id)dleAutoFillCreditCardPopoverCommand;
-- (void)rKeyCommand:(id)arg1;
-- (void)sitionInSession:(id)arg1;
+- (id)handleAutoFillCreditCardPopoverCommand;
+- (void)_validateTriggerInspectorKeyCommand:(id)arg1;
+- (void)_positionInSession:(id)arg1;
 - (void)azy_storage_$_lensingPortalContainer;
 - (id)DxX;
 - (void)ubtitle Cell;
@@ -59,23 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <UINSMenuItem> currentHighlightedItem; // @synthesize currentHighlightedItem=_currentHighlightedItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *items;
 @property(nonatomic) _Bool menuChangeShouldRebuildMenu; // @synthesize menuChangeShouldRebuildMenu=_menuChangeShouldRebuildMenu;
-@property(nonatomic) unsigned long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(nonatomic) struct CGRect rectInUIWindow; // @synthesize rectInUIWindow=_rectInUIWindow;
-@property(nonatomic) long long selectionMode; // @synthesize selectionMode=_selectionMode;
-@property(nonatomic) __weak UIWindow *sourceUIWindow; // @synthesize sourceUIWindow=_sourceUIWindow;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

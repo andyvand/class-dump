@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface MSVSonicBackgroundTaskProvider
 {
     double _invalidationDuration;
-    struct os_unfair_recursive_lock_s _lock;
-    unsigned long long _lastIdentifier;
-    NSMutableDictionary *_expirationHandlers;
-    NSMutableDictionary *_timeoutGuards;
-    NSMutableDictionary *_assertions;
 }
 
-- (id);
+- (id)9;
 - (void);
 - (unsigned long long);
 - (void);
@@ -24,13 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

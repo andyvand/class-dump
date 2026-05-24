@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSDictionary, NSMutableDictionary;
 
 @interface PKCloudStoreRecord
 {
     NSMutableDictionary *_records;
-    NSDictionary *_cloudStoreSpecificKeys;
 }
 
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)itle:value:currencyCode: /* Error: Ran out of types for this method. */;
-- (void)RIC_ERROR_AUTHENTICATION_ERROR_IDENTITY_TOUCHID;
+- (void)__eh_frame;
+- (id)_initWithTitle:value:currencyCode: /* Error: Ran out of types for this method. */;
+- (void)GENERIC_ERROR_AUTHENTICATION_ERROR_IDENTITY_TOUCHID;
 - (id)!;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *cloudStoreSpecificKeys; // @synthesize cloudStoreSpecificKeys=_cloudStoreSpecificKeys;
-@property(readonly, nonatomic) NSArray *records;
 
 @end
 

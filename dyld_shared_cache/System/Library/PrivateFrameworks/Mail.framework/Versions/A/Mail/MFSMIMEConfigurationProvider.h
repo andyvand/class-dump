@@ -11,12 +11,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)y;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool encryptionIsConfigured;
-@property(readonly, nonatomic) _Bool encryptionIsEnabledByDefault;
-@property(readonly, nonatomic) _Bool signingEnabledByDefault;
 @property(readonly, nonatomic) _Bool signingIsConfigured;
 
 @end

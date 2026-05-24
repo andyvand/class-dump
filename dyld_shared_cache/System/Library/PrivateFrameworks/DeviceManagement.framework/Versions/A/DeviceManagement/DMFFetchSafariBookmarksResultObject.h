@@ -11,14 +11,14 @@
     NSArray *_bookmarks;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CNAutocompleteGroupResultNamer;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *bookmarks; // @synthesize bookmarks=_bookmarks;

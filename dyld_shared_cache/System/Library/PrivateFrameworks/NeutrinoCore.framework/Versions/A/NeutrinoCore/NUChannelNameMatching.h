@@ -13,11 +13,11 @@
     NSString *_name;
 }
 
-- (_Bool);
+- (_Bool)t;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kA;
 - (void)metry"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties

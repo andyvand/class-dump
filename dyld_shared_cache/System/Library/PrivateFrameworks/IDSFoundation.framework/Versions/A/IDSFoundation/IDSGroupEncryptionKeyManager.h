@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSMutableData, NSMutableDictionary, NSUUID;
-
 @interface IDSGroupEncryptionKeyManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableData *_encryptionContext;
-    unsigned long long _encryptionKeySize;
-    NSMutableArray *_previousEncryptingKeys;
-    NSMutableArray *_previousEncryptingKeyIndexes;
-    NSMutableArray *_previousEncryptingKeySalts;
-    NSData *_currentEncryptingKey;
-    NSUUID *_currentEncryptingKeyIndex;
-    NSData *_currentEncryptingKeySalt;
-    unsigned int _currentEncryptingKeyGeneration;
-    NSMutableDictionary *_currentDecryptingKeysAndSalts;
 }
 
 - (_Bool);
@@ -26,7 +14,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)(%d);

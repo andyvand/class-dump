@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VCConnection
 {
     unsigned short _linkFlags;
-    unsigned short _remoteLinkFlags;
-    unsigned short _previousLinkFlags;
-    unsigned short _previousRemoteLinkFlags;
-    unsigned long long _constantConnectionOverhead;
-    unsigned char _connectionType;
-    int _priority;
-    struct tagVCConnectionProtocolRealtimeVTable _vTable;
-    NSDictionary *_connectionSelectionPriorities;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)ion;
 - (struct NSEdgeInsets);
 
 // Remaining properties

@@ -14,7 +14,7 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (unsigned long long)´t;
 - (void);

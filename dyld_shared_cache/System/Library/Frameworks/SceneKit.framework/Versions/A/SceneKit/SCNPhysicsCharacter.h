@@ -6,7 +6,7 @@
 
 #import <SceneKit/SCNPhysicsBehavior.h>
 
-@class SCNPhysicsBody, SCNPhysicsWorld;
+@class SCNPhysicsBody;
 
 @interface SCNPhysicsCharacter : SCNPhysicsBehavior
 {
@@ -16,11 +16,6 @@
         double velocity;
         double jumpSpeed;
     } _definition;
-    struct btCharacterControllerInterface *_characterController;
-    void *_ghostObject;
-    struct btOverlapFilterCallback *_filterCallback;
-    struct btCapsuleShape *_capsuleShape;
-    SCNPhysicsWorld *_world;
 }
 
 - (void);
@@ -32,7 +27,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -213,7 +208,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) double jumpSpeed;
 @property(nonatomic) double velocity;
 
 @end

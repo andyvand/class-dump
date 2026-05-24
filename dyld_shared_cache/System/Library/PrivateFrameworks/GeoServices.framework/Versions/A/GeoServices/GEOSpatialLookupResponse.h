@@ -10,37 +10,35 @@ __attribute__((visibility("hidden")))
 @interface GEOSpatialLookupResponse
 {
     NSMutableArray *_places;
-    int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
-+ (_Bool);
++ (_Bool)setMapsUserStartDate:(id)arg1;
 + (Class);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s/A/OpenDirectory;
 - (id);
-- (_Bool);
+- (_Bool)initWithPersistenceBackend:managedObjectContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (int);
-- (void);
-- (id);
+- (void)maximumNumberOfAttemptsForRetry:(id)arg1;
+- (id)initWithTargetedImageURL:orientation:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_vtPrefrences;
+- (void)equested in seconds:(unsigned long long)arg1 %f;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ad_region"b1"wrote_anyField"b1};
-- (id)itStopFillRequest;
-- (id)lter;
-- (id)errideCurrencyCode;
+- (id)hasIsRoutePlanningEditStopFillRequest;
+- (id)GEOPDTransitTripStopFilter;
+- (id)_overrideCurrencyCode;
 - (void)¹Åo
 ßP@;
 - (int);
@@ -49,8 +47,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool hasStatusCode;
-@property(retain, nonatomic) NSMutableArray *places;
-@property(nonatomic) int statusCode;
 
 @end
 

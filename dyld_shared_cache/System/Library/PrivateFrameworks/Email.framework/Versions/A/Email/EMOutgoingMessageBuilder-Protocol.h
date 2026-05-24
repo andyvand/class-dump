@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessageObjectID, NSData;
+@class NSData;
 
 @protocol EMOutgoingMessageBuilder
+- (void);
+- (void)@;
+- (long long)@;
+- (long long)MSContainsErrorWithDomain:code: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long action;
-@property(nonatomic) long long conversationNotificationLevel;
 @property(copy, nonatomic) NSData *messageData;
-@property(retain, nonatomic) EMMessageObjectID *originalMessageID;
-@property(nonatomic) _Bool shouldEncrypt;
-@property(nonatomic) _Bool shouldSign;
 @end
 

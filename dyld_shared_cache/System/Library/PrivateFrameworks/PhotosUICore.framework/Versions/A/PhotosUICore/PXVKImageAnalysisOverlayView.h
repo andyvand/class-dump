@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSView;
-@protocol PXVKImageAnalysis, PXVKImageAnalysisOverlayViewDelegate;
+@protocol PXVKImageAnalysisOverlayViewDelegate;
 
 @interface PXVKImageAnalysisOverlayView
 {
     _Bool _hasActiveTextSelection;
-    _Bool _didAddVisualSearchCornerView;
-    _Bool _highlightSelectableItems;
-    _Bool _actionInfoViewHidden;
-    _Bool _isSubjectHighlightAvailable;
-    _Bool _subjectHighlightActive;
-    id <PXVKImageAnalysisOverlayViewDelegate> _delegate;
-    unsigned long long _activeInteractionTypes;
-    id <PXVKImageAnalysis> _analysis;
-    NSView *_visualSearchCornerView;
-    NSImage *__photosImageForRemoveBackground;
-    NSArray *_visualSearchResultItems;
-    struct NSEdgeInsets _actionInfoEdgeInsets;
 }
 
 - (unsigned long long);
@@ -29,11 +16,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)G;
 - (_Bool);
 - (struct NSEdgeInsets);
-- (_Bool);
-- (void);
+- (_Bool)SXFormatInteractorDelegate;
+- (void)lScenario:(id)arg1 undefined; 
+;
 - (void);
 - (void);
 - (id);
@@ -43,11 +31,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setSlideRotationAtStart: /* Error: Ran out of types for this method. */;
+- (void)e-Right.jpg;
+- (void).;
+- (void)y;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,19 +48,7 @@
 - (_Bool)ÿ¤íÿ(¿É;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *_photosImageForRemoveBackground; // @synthesize _photosImageForRemoveBackground=__photosImageForRemoveBackground;
-@property(nonatomic) struct NSEdgeInsets actionInfoEdgeInsets; // @synthesize actionInfoEdgeInsets=_actionInfoEdgeInsets;
-@property(nonatomic) _Bool actionInfoViewHidden; // @synthesize actionInfoViewHidden=_actionInfoViewHidden;
-@property(nonatomic) unsigned long long activeInteractionTypes; // @synthesize activeInteractionTypes=_activeInteractionTypes;
-@property(retain, nonatomic) id <PXVKImageAnalysis> analysis; // @synthesize analysis=_analysis;
 @property(nonatomic) __weak id <PXVKImageAnalysisOverlayViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool didAddVisualSearchCornerView; // @synthesize didAddVisualSearchCornerView=_didAddVisualSearchCornerView;
-@property(readonly, nonatomic) _Bool hasActiveTextSelection; // @synthesize hasActiveTextSelection=_hasActiveTextSelection;
-@property(nonatomic) _Bool highlightSelectableItems; // @synthesize highlightSelectableItems=_highlightSelectableItems;
-@property(readonly, nonatomic) _Bool isSubjectHighlightAvailable; // @synthesize isSubjectHighlightAvailable=_isSubjectHighlightAvailable;
-@property(nonatomic) _Bool subjectHighlightActive; // @synthesize subjectHighlightActive=_subjectHighlightActive;
-@property(readonly, nonatomic) NSView *visualSearchCornerView; // @synthesize visualSearchCornerView=_visualSearchCornerView;
-@property(readonly, nonatomic) NSArray *visualSearchResultItems; // @synthesize visualSearchResultItems=_visualSearchResultItems;
 
 @end
 

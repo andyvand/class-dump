@@ -6,20 +6,16 @@
 
 #import <MetalTools/MTLToolsTexture.h>
 
-@class MTLTelemetryDevice, MTLTextureDescriptor;
-
 @interface MTLTelemetryTexture : MTLToolsTexture
 {
     unsigned long long mipmapClipType;
-    MTLTextureDescriptor *_telemetryDescriptor;
-    MTLTelemetryDevice *_telemetryDevice;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)K;
 - (id);
 - (id);
 - (id);

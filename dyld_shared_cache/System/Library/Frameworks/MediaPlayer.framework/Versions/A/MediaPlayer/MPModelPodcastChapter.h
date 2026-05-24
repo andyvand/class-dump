@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface MPModelPodcastChapter : MPModelObject
 {
@@ -20,14 +20,10 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) double duration; // @dynamic duration;
-@property(readonly, nonatomic, getter=isPlayable) _Bool playable; // @dynamic playable;
-@property(readonly, nonatomic) double startTime; // @dynamic startTime;
 @property(readonly, copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, WBSAutoFillFrameAssociatedFormMetadata;
+@class WBSAutoFillFrameAssociatedFormMetadata;
 
 @interface WBSAutoFillValuesForFilling
 {
     WBSAutoFillFrameAssociatedFormMetadata *frameAssociatedFormMetadata;
-    void controlIDsToValues;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -21,8 +20,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *controlIDsToValues;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) WBSAutoFillFrameAssociatedFormMetadata *frameAssociatedFormMetadata; // @synthesize frameAssociatedFormMetadata;
 
 @end

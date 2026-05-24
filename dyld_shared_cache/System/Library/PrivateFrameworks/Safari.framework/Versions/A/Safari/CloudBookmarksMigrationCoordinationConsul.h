@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSCloudBookmarksMigrationCoordinator;
-
 __attribute__((visibility("hidden")))
 @interface CloudBookmarksMigrationCoordinationConsul
 {
     _Bool _didDeferMigrationCoordinationRequest;
-    WBSCloudBookmarksMigrationCoordinator *_migrationCoordinator;
-    long long _localMigrationState;
 }
 
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -28,15 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canForceStartMigration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long localMigrationState; // @synthesize localMigrationState=_localMigrationState;
-@property(readonly) Class superclass;
 
 @end
 

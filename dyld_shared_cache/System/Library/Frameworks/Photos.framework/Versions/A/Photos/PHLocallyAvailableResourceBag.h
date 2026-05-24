@@ -4,56 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PLAssetID, PLResourceDataStore, PLResourceDataStoreKey;
+@protocol PLAssetID;
 
 @interface PHLocallyAvailableResourceBag
 {
     _Bool _keyIsHintBased;
-    _Bool _isDegraded;
-    _Bool _isPrimaryFormat;
-    _Bool _isDerivedFromDeferredPreview;
-    id <PLAssetID> _assetID;
-    id <PLResourceDataStore> _dataStore;
-    id <PLResourceDataStoreKey> _dataStoreKey;
 }
 
-- (void);
+- (void)__objc_arrayobj;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)accessories;
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
+- (_Bool)STAskForTimeApprovedResponseReceivedUserNotificationContext;
+- (void)ld be:(id)arg1 %@;
 - (id);
+- (id)voicemailControllerHostConnection:(struct _NSZone *)arg1 requestTransaction:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)hangeClass: /* Error: Ran out of types for this method. */;
+- (id)isPublicPHObjectChangeClass: /* Error: Ran out of types for this method. */;
 - (void)xt",R;
 
 // Remaining properties
 @property(retain, nonatomic) id <PLAssetID> assetID; // @synthesize assetID=_assetID;
-@property(retain, nonatomic) id <PLResourceDataStore> dataStore; // @synthesize dataStore=_dataStore;
-@property(retain, nonatomic) id <PLResourceDataStoreKey> dataStoreKey; // @synthesize dataStoreKey=_dataStoreKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDegraded; // @synthesize isDegraded=_isDegraded;
-@property(nonatomic) _Bool isDerivedFromDeferredPreview; // @synthesize isDerivedFromDeferredPreview=_isDerivedFromDeferredPreview;
-@property(nonatomic) _Bool isPrimaryFormat; // @synthesize isPrimaryFormat=_isPrimaryFormat;
-@property(nonatomic) _Bool keyIsHintBased; // @synthesize keyIsHintBased=_keyIsHintBased;
-@property(readonly) Class superclass;
 
 @end
 

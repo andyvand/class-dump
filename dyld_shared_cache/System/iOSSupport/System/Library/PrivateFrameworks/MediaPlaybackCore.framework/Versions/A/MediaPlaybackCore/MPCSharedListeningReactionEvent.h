@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelGenericObject, NSString;
+@class NSString;
 
 @interface MPCSharedListeningReactionEvent
 {
     NSString *_reactionIdentifier;
-    NSString *_reaction;
-    MPModelGenericObject *_item;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void)ionID not in SIL/AutoPlay-SIL] sectionID=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) MPModelGenericObject *item; // @synthesize item=_item;
-@property(readonly, copy, nonatomic) NSString *reaction; // @synthesize reaction=_reaction;
 @property(readonly, copy, nonatomic) NSString *reactionIdentifier; // @synthesize reactionIdentifier=_reactionIdentifier;
 
 @end

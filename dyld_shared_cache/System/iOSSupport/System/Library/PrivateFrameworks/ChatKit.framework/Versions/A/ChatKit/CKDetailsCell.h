@@ -9,30 +9,24 @@
 @interface CKDetailsCell
 {
     _Bool _indentTopSeperator;
-    _Bool _indentBottomSeperator;
-    UIView *_topSeperator;
-    UIView *_bottomSeperator;
 }
 
+- (id)_fallbackBlock;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)n;
+- (_Bool)r;
+- (void)%@, #migratedNotes:(_Bool)arg1 %@};
+- (void)ing note to v1 Neo because it wasn't modified during the current authentication session {note:(_Bool)arg1 %@};
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)eparingPresentationOfAppCard;
+- (id)appCardOverseerPreparingPresentationOfAppCard;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *bottomSeperator; // @synthesize bottomSeperator=_bottomSeperator;
-@property(nonatomic) _Bool indentBottomSeperator; // @synthesize indentBottomSeperator=_indentBottomSeperator;
-@property(nonatomic) _Bool indentTopSeperator; // @synthesize indentTopSeperator=_indentTopSeperator;
 @property(retain, nonatomic) UIView *topSeperator; // @synthesize topSeperator=_topSeperator;
 
 @end

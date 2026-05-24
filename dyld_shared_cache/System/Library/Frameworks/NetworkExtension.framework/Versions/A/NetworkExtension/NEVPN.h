@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEVPNProtocol, NSArray;
+@class NSArray;
 
 @interface NEVPN
 {
     _Bool _enabled;
-    _Bool _onDemandEnabled;
-    _Bool _disconnectOnDemandEnabled;
-    _Bool _onDemandUserOverrideDisabled;
-    NSArray *_onDemandRules;
-    NEVPNProtocol *_protocol;
-    long long _tunnelType;
-    NSArray *_exceptionApps;
 }
 
-+ (_Bool);
++ (_Bool)setTotalPacketsSentOnLink: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (void);
@@ -33,28 +26,21 @@
 - (id);
 - (void);
 - (id);
+- (id)UnlockedCodingKeys;
+- (id)token {errno:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)=;
+- (_Bool)invert;
 - (void);
 - (id);
 - (void)Context"16@?<v@?@"NSUUID">24;
-- (_Bool)es:(id)arg1;
+- (_Bool)setOnDemandRules:(id)arg1;
 - (id)null saParameters;
 - (void)ength %u;
 - (id)e:(int)arg1 ];
 
 // Remaining properties
-@property(nonatomic, getter=isDisconnectOnDemandEnabled) _Bool disconnectOnDemandEnabled; // @synthesize disconnectOnDemandEnabled=_disconnectOnDemandEnabled;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(copy) NSArray *exceptionApps; // @synthesize exceptionApps=_exceptionApps;
-@property(getter=isOnDemandEnabled) _Bool onDemandEnabled; // @synthesize onDemandEnabled=_onDemandEnabled;
-@property(copy) NSArray *onDemandRules; // @synthesize onDemandRules=_onDemandRules;
-@property(nonatomic, getter=isOnDemandUserOverrideDisabled) _Bool onDemandUserOverrideDisabled; // @synthesize onDemandUserOverrideDisabled=_onDemandUserOverrideDisabled;
-@property(copy) NEVPNProtocol *protocol; // @synthesize protocol=_protocol;
-@property long long tunnelType; // @synthesize tunnelType=_tunnelType;
 
 @end
 

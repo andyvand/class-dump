@@ -9,17 +9,16 @@
 @interface MPCPlayerChangeRequest
 {
     unsigned long long _options;
-    NSArray *_commands;
 }
 
 + (id);
++ (void)brary bundle is auto-created if necessary by calling cloudInternalClient isReadyForCloudPhotoLibrary...;
++ (void)enable;
++ (void)ror"12;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *commands; // @synthesize commands=_commands;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

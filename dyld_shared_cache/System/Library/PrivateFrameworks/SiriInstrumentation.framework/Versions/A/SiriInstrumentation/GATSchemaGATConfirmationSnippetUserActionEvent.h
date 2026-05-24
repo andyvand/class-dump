@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATConfirmationSnippetUserActionEvent : SISchemaInstrumentationMessage
 {
     int _outcome;
-    CDStruct_ed540088 _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_cachePickerSectionItem:forSection: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)SameMediaAlbum"b1"isSameMediaItem"b1};
 - (id)echTranslationEvent;
 - (id)¨%;
-- (int)ESOLUTIONDOMAIN_MESSAGE;
+- (int)INFERENCECONTACTRESOLUTIONDOMAIN_MESSAGE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOutcome;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int outcome; // @synthesize outcome=_outcome;
 
 @end

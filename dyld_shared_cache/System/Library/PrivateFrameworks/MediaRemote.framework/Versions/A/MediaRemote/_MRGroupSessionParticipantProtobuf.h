@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRUserIdentityProtobuf;
+@class NSString;
 
 @interface _MRGroupSessionParticipantProtobuf
 {
     NSString *_identifier;
-    _MRUserIdentityProtobuf *_identity;
-    _Bool _connected;
-    _Bool _guest;
-    _Bool _hidden;
-    struct {
-        unsigned int connected:1;
-        unsigned int guest:1;
-        unsigned int hidden:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -31,7 +22,7 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)(=;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,26 +31,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)host_process_daemon;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)pecificInfoData;
+- (void)_modelSpecificInfoData;
 - (void)fications:(_Bool)arg1 ];
 - (void)Çéÿ¬ÈbÛÉ	;
 - (_Bool)hÅøÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(nonatomic) _Bool guest; // @synthesize guest=_guest;
-@property(nonatomic) _Bool hasConnected;
-@property(nonatomic) _Bool hasGuest;
-@property(nonatomic) _Bool hasHidden;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasIdentity;
-@property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _MRUserIdentityProtobuf *identity; // @synthesize identity=_identity;
 
 @end
 

@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)޹;
 - (void);
 - (_Bool);
-- (Class);
+- (Class);
 - (struct OpaqueFigAsset *);
 - (id);
 - (struct OpaqueFigPlaybackItem *);

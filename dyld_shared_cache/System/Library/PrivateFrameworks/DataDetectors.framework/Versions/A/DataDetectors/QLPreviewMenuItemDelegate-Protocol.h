@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenuItem;
+
 @protocol QLPreviewMenuItemDelegate
+
+@optional
+- (void)R;
+- (unsigned long long)@0:(NSMenuItem *)arg1 8@16@24@32q40{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}48@176{CGAffineTransform=dddddd}184;
 @end
 

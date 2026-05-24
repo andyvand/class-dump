@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTouchBarItem;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarItemOverlayForRemoteView
 {
     unsigned int _shown;
-    NSString *_remoteViewIdentifier;
-    NSTouchBarItem *_item;
-    NSTouchBarItemOverlayForRemoteView *_keepAliveHack;
 }
 
 - (_Bool);
@@ -27,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (id)¨ $;
 
 // Remaining properties
-@property(retain) NSTouchBarItemOverlayForRemoteView *keepAliveHack; // @synthesize keepAliveHack=_keepAliveHack;
 @property(retain) NSString *remoteViewIdentifier; // @synthesize remoteViewIdentifier=_remoteViewIdentifier;
 
 @end

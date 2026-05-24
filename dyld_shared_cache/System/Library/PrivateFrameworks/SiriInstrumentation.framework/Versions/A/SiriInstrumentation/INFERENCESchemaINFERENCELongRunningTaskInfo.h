@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCELongRunningTaskInfo : SISchemaInstrumentationMessage
 {
     unsigned long long _durationInMs;
-    CDStruct_acfb3a2f _has;
 }
 
 - (void);
@@ -21,19 +18,17 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ñßÐ1Â0@ù
 × ;
 - (id)_timeToRecordingDialogDismissed;
-- (id)tExperimentDigestsReported;
+- (id)ODDSiriSchemaODDAssistantExperimentDigestsReported;
 
 // Remaining properties
 @property(nonatomic) unsigned long long durationInMs; // @synthesize durationInMs=_durationInMs;
-@property(nonatomic) _Bool hasDurationInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

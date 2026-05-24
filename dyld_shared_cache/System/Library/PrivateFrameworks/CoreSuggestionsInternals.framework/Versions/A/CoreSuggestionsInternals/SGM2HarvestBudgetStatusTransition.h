@@ -7,40 +7,32 @@
 @interface SGM2HarvestBudgetStatusTransition
 {
     int _fromStatus;
-    int _toStatus;
-    struct {
-        unsigned int fromStatus:1;
-        unsigned int toStatus:1;
-    } _has;
 }
 
 - (id);
 - (int);
-- (void);
+- (void)lib;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (int);
-- (int);
-- (void);
+- (int)2q40;
+- (int)mn"40q48{CGPoint=dd}56;
+- (void)ionResponse"24@"WKDownload"32;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int fromStatus; // @synthesize fromStatus=_fromStatus;
 @property(nonatomic) _Bool hasFromStatus;
-@property(nonatomic) _Bool hasToStatus;
-@property(nonatomic) int toStatus; // @synthesize toStatus=_toStatus;
 
 @end
 

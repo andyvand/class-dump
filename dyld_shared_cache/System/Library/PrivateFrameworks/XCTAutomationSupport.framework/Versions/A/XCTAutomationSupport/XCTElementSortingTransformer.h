@@ -15,7 +15,7 @@
 
 + (void);
 + (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -27,7 +27,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)x"&g;
 
 // Remaining properties
 @property(readonly, copy) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;

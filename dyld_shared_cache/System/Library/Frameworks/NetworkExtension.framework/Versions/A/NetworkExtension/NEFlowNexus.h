@@ -6,19 +6,9 @@
 
 #import <NetworkExtension/NENexus.h>
 
-@class NEFlowDivertFileHandle, NSData, NSMutableSet, NSObject, NWRemoteConnectionDirector;
-@protocol OS_dispatch_queue;
-
 @interface NEFlowNexus : NENexus
 {
     _Bool _supportsBrowseRequests;
-    unsigned int _flowDivertControlUnit;
-    struct _NEFlowDirector *_flowDivertDirector;
-    NEFlowDivertFileHandle *_flowDivertControl;
-    NSObject<OS_dispatch_queue> *_flowDivertQueue;
-    NSData *_flowDivertTokenHMACKey;
-    NWRemoteConnectionDirector *_connectionDirector;
-    NSMutableSet *_browseAssertions;
 }
 
 - (void);
@@ -29,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)etHasRelayConfigurations: /* Error: Ran out of types for this method. */;
+- (void)setHasRelayConfigurations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool supportsBrowseRequests; // @synthesize supportsBrowseRequests=_supportsBrowseRequests;

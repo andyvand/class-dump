@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface AVApplePortraitMetadataInternal
 {
     int version;
-    float apertureFocalRatio;
-    float minimumApertureFocalRatio;
-    float maximumApertureFocalRatio;
-    float portraitLightingEffectStrength;
-    float luminanceNoiseAmplitude;
-    int faceOrientation;
-    NSData *faceObservationsData;
-    NSIndexSet *indexesOfShallowDepthOfFieldObservations;
-    struct CGRect focusRectangle;
-    unsigned int SDOFRenderingVersion;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)oint=dd}{CGSize=dd}};
+- (void)MSVArtworkServiceResizeRequestDestinationURL;
+- (void)MSVArtworkServiceResizeRequestDestinationSizeWidth;
+- (void)ceResizeRequestDestination"8^B16;
+- (void)MSVArtworkServiceConversionRequestDestinationFormat;
+- (void)MSVArtworkColorAnalyzerAlgorithmiTunes -- %@>;
+- (void)eColorAnalysisOperation.m;
+- (void);
 - (float);
 - (float);
 - (float);
@@ -40,24 +28,14 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (int);
-- (void);
-- (int);
+- (void)`n;
+- (int)tion:Could not convert INInteraction (%@) to schema /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)ToneCurvesS0;
 - (float)splayName];
 - (void)¥;
 
 // Remaining properties
-@property(nonatomic) unsigned int SDOFRenderingVersion; // @synthesize SDOFRenderingVersion;
-@property(nonatomic) float apertureFocalRatio; // @synthesize apertureFocalRatio;
-@property(retain, nonatomic) NSData *faceObservationsData; // @synthesize faceObservationsData;
-@property(nonatomic) int faceOrientation; // @synthesize faceOrientation;
-@property(nonatomic) struct CGRect focusRectangle; // @synthesize focusRectangle;
-@property(retain, nonatomic) NSIndexSet *indexesOfShallowDepthOfFieldObservations; // @synthesize indexesOfShallowDepthOfFieldObservations;
-@property(nonatomic) float luminanceNoiseAmplitude; // @synthesize luminanceNoiseAmplitude;
-@property(nonatomic) float maximumApertureFocalRatio; // @synthesize maximumApertureFocalRatio;
-@property(nonatomic) float minimumApertureFocalRatio; // @synthesize minimumApertureFocalRatio;
-@property(nonatomic) float portraitLightingEffectStrength; // @synthesize portraitLightingEffectStrength;
 @property(nonatomic) int version; // @synthesize version;
 
 @end

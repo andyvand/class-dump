@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool)cidents:(id)arg1;
++ (_Bool)setIncidents:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void).;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (id)Indexs"b1"wrote_anyField"b1};
-- (id)ount;
+- (id)_libraryGuidesSavedPlacesCount;
 - (id)Tgxh;
 - (id)can only be called once per object;
 

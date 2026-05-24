@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface MinMaxIntFormatter : APFormatter
 {
     int _minimum;
-    int _maximum;
 }
 
-+ (id);
++ (id)@;
 - (_Bool);
 - (id);
 - (void);

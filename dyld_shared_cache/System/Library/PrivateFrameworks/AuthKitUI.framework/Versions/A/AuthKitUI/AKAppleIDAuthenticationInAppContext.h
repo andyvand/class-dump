@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKNativeAccountRecoveryController, NSImage, NSString, NSView, NSWindow;
-@protocol AKAppleIDAuthenticationInAppContextAlertDelegate, AKAppleIDAuthenticationInAppContextPasswordDelegate, AKInAppAuthenticationUIProvider, CDPStateUIProvider;
+@class AKNativeAccountRecoveryController;
+@protocol AKAppleIDAuthenticationInAppContextAlertDelegate;
 
 @interface AKAppleIDAuthenticationInAppContext
 {
     AKNativeAccountRecoveryController *_nativeRecoveryController;
-    _Bool _makeSheetCritical;
-    _Bool _showRememberPasswordCheckbox;
-    _Bool _rememberPassswordCheckedByDefault;
-    _Bool _shouldPreventSignIn;
-    NSWindow *_hostWindow;
-    NSView *_hostView;
-    NSString *_rememberPasswordCheckboxString;
-    long long _selectedButton;
-    NSImage *_displayImage;
-    NSString *_initialError;
-    id <AKAppleIDAuthenticationInAppContextAlertDelegate> _alertDelegate;
-    id <AKInAppAuthenticationUIProvider> _inAppAuthUIProvider;
-    id <CDPStateUIProvider> _cdpUiProvider;
-    id <AKAppleIDAuthenticationInAppContextPasswordDelegate> __passwordDelegate;
-    CDUnknownBlockType _prepareRUIController;
 }
 
 - (_Bool);
@@ -48,12 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)T:(id)arg1 ;
 - (void);
 - (void);
 - (id);
@@ -61,55 +41,39 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)entation data:(id)arg1 %@;
+- (void)to serialize subscribed calendar external representation data:(CDUnknownBlockType)arg1 %@;
+- (void).;
+- (void)okup timed out.;
+- (void). [%@];
+- (void). Ignoring this error and hoping the user authorizes us. [%@];
+- (void)atus was updated by the location manager.;
+- (void)ations for [%@].;
+- (void)izing a location manager for [%@].;
+- (void)ocode for address [%@].;
+- (void)Found [%@] locations:(CDUnknownBlockType)arg1 [%@].;
+- (void)23rd;
+- (void);
+- (void)1st;
+- (void).;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)y year on every %@.;
+- (void)me_to_leave.notification_action;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (void);
-- (void)urceLoadDelegate;
+- (void)_resourceLoadDelegate;
 - (id)«U,;
 
 // Remaining properties
-@property(nonatomic, setter=_setPasswordDelegate:) __weak id <AKAppleIDAuthenticationInAppContextPasswordDelegate> _passwordDelegate; // @synthesize _passwordDelegate=__passwordDelegate;
 @property(nonatomic) __weak id <AKAppleIDAuthenticationInAppContextAlertDelegate> alertDelegate; // @synthesize alertDelegate=_alertDelegate;
-@property(retain, nonatomic, setter=_setCdpUiProvider:) id <CDPStateUIProvider> cdpUiProvider; // @synthesize cdpUiProvider=_cdpUiProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSView *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain, nonatomic) id <AKInAppAuthenticationUIProvider> inAppAuthUIProvider; // @synthesize inAppAuthUIProvider=_inAppAuthUIProvider;
-@property(retain, nonatomic) NSString *initialError; // @synthesize initialError=_initialError;
-@property(nonatomic) _Bool makeSheetCritical; // @synthesize makeSheetCritical=_makeSheetCritical;
-@property(copy, nonatomic) CDUnknownBlockType prepareRUIController; // @synthesize prepareRUIController=_prepareRUIController;
-@property(nonatomic) _Bool rememberPassswordCheckedByDefault; // @synthesize rememberPassswordCheckedByDefault=_rememberPassswordCheckedByDefault;
-@property(retain, nonatomic) NSString *rememberPasswordCheckboxString; // @synthesize rememberPasswordCheckboxString=_rememberPasswordCheckboxString;
-@property(nonatomic) long long selectedButton; // @synthesize selectedButton=_selectedButton;
-@property(nonatomic) _Bool shouldPreventSignIn; // @synthesize shouldPreventSignIn=_shouldPreventSignIn;
-@property(nonatomic) _Bool showRememberPasswordCheckbox; // @synthesize showRememberPasswordCheckbox=_showRememberPasswordCheckbox;
-@property(readonly) Class superclass;
 
 @end
 

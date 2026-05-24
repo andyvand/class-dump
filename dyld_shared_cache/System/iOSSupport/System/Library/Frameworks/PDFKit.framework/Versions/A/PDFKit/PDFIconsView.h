@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PDFPageIconLayer, PDFThumbnailView;
+@class PDFThumbnailView;
 
 __attribute__((visibility("hidden")))
 @interface PDFIconsView
 {
     PDFThumbnailView *_thumbnailView;
-    NSMutableArray *_icons;
-    PDFPageIconLayer *_activeIcon;
-    struct CGRect _contentRect;
-    _Bool _prefersIconOverlaySelection;
-    double _iconScale;
-    CDUnknownBlockType _iconConfigurationHandler;
 }
 
 - (id);
@@ -34,26 +28,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tsSelectStrokes"b1"delegateSupportsTimestampForLatestUserInteraction"b1"delegateSupportsWillPresentPopoverUI"b1"delegateSupportsDidDismissPopoverUI"b1"delegateSupportsResultForLocale"b1};
 - (id);
-- (void);
+- (void)handleIMDChatRecordCopySortedChatsFilteredUsingPredicateWithLimit_IPCActionWithXPCConnection:(id)arg1 requestMessage:(id)arg2 responseMessage:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGRect);
 - (double);
 - (void);
-- (void);
+- (void)newBufferWithBytesNoCopy:(double)arg1 length:options:deallocator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType iconConfigurationHandler; // @synthesize iconConfigurationHandler=_iconConfigurationHandler;
 @property(nonatomic) double iconScale; // @synthesize iconScale=_iconScale;
-@property(nonatomic) _Bool prefersIconOverlaySelection; // @synthesize prefersIconOverlaySelection=_prefersIconOverlaySelection;
-@property(readonly) Class superclass;
 
 @end
 

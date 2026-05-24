@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, SFAutoFillOneTimeCode;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface TOTPGeneratorSnapshot
 {
     NSDate *_startDateOfInterval;
-    SFAutoFillOneTimeCode *_oneTimeCode;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFAutoFillOneTimeCode *oneTimeCode; // @synthesize oneTimeCode=_oneTimeCode;
 @property(retain, nonatomic) NSDate *startDateOfInterval; // @synthesize startDateOfInterval=_startDateOfInterval;
 
 @end

@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.Registry.Identity
 {
     id description;
-    id _lifeCycle;
 }
 
 @end

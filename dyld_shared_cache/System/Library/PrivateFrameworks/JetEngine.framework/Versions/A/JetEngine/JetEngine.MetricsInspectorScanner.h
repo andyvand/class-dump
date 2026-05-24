@@ -7,19 +7,17 @@
 @interface JetEngine.MetricsInspectorScanner
 {
     id serviceBrowser;
-    id stateLock;
-    id foundServices;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)t file attributes for permissions:(id)arg1 %{public}@;
 - (void);
+- (id)t;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 
 @end

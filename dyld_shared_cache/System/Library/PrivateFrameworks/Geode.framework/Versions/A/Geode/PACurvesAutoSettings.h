@@ -9,9 +9,6 @@
 @interface PACurvesAutoSettings
 {
     NSArray *_pointsL;
-    NSArray *_pointsR;
-    NSArray *_pointsG;
-    NSArray *_pointsB;
 }
 
 - (void);
@@ -23,14 +20,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)=,>h?;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *pointsB; // @synthesize pointsB=_pointsB;
-@property(retain, nonatomic) NSArray *pointsG; // @synthesize pointsG=_pointsG;
 @property(retain, nonatomic) NSArray *pointsL; // @synthesize pointsL=_pointsL;
-@property(retain, nonatomic) NSArray *pointsR; // @synthesize pointsR=_pointsR;
 
 @end
 

@@ -11,9 +11,256 @@
 + (id);
 + (id);
 + (id);
-- (void);
-- (id);
-- (id)RPBroadcastActivity_viewServiceExtensionInterface;
+- (void)nce * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
+#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
+                                       sh2_coefficients shCoefficients)
+#else
+    sh3_coefficients shCoefficients)
+#endif
+    {
+        float3 n_sh_space = scn:(id)arg1:(CDUnknownBlockType)arg2 mat4_mult_float3(localDirToWorldCubemapDir, surface.normal);
+        float3 irradiance = shEvalDirection(float4(n_sh_space, 1.), shCoefficients);
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
+                                     float4x4                           localDirToWorldCubemapDir,
+                                     float                              environmentIntensity)
+    {
+#if USE_PBR_DOMINANT_DIRECTION
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        
+        
+        const half a = 1.02341h * surface.roughness - 1.51174h; 
+        const half b = -0.511705h * surface.roughness + 0.755868h;
+        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
+        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
+#else
+        float3 diffuseDominantNDirection = n;
+#endif
+        
+        float3 n_cube_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+        float3 irradiance = irradianceTexture.sample(scn::linearSampler, n_cube_space).rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseReflectance;
+#endif
+    }
+
+#endif 
+
+    
+
+    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    
+    float ies_attenuation(float3 l, scn_light light, texture2d<half> iesTexture)
+    {
+#if USE_QUAT_FOR_IES
+        float3 v    = scn::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+#else
+        float3 v    = scn::matrix_rotate(light.parameters.ies.light_from_view, -l);
+#endif
+        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
+        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
+        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+    void add_area_rectangle(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
+        
+        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
+                                             (lightCenter + lightRight - lightTop) - p,
+                                             (lightCenter - lightRight - lightTop) - p,
+                                             (lightCenter - lightRight + lightTop) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
+        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+
+        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
+        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
+
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+        
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_polygon(scn_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz;
+
+        p           = shadingSpaceTransform * p;
+        lightCenter = shadingSpaceTransform * lightCenter;
+        lightRight  = shadingSpaceTransform * lightRight;
+        lightTop    = shadingSpaceTransform * lightTop;
+
+        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        p           = inverseLTCMatrix * p;
+        lightCenter = inverseLTCMatrix * lightCenter;
+        lightRight  = inverseLTCMatrix * lightRight;
+        lightTop    = inverseLTCMatrix * lightTop;
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_line(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
+
+        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(scn_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
+- (id)lineEndWithPath:wrapPath:endPoint:isFilled:identifier: /* Error: Ran out of types for this method. */;
+- (id)__RPBroadcastActivity_viewServiceExtensionInterface;
 
 @end
 

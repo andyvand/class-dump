@@ -6,15 +6,12 @@
 
 #import <IMDaemonCore/IMDCKAbstractSyncController.h>
 
-@class IMDCKMessageSyncCKOperationFactory, IMDRecordZoneManager, NSObject;
-@protocol OS_dispatch_queue, SyncTokenStoreProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMDCKRecoverableMessageSyncController : IMDCKAbstractSyncController
 {
     NSObject<OS_dispatch_queue> *_ckQueue;
-    IMDRecordZoneManager *_recordZoneManager;
-    id <SyncTokenStoreProviding> _syncTokenStore;
-    IMDCKMessageSyncCKOperationFactory *_CKOperationFactory;
 }
 
 + (id);
@@ -25,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)5.`;
 - (id);
 - (void);
 - (id);
@@ -37,38 +34,35 @@
 - (id);
 - (void);
 - (void);
+- (void).;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)H9;
+- (id);
 - (id);
 - (void);
 - (id);
+- (void)I\;
 - (id);
-- (void);
+- (id);
+- (void)BMMediaReaction;
 - (long long);
 - (void);
 - (void)\Ô;
 - (void)rier report junk address - %@;
 
 // Remaining properties
-@property(retain, nonatomic) IMDCKMessageSyncCKOperationFactory *CKOperationFactory; // @synthesize CKOperationFactory=_CKOperationFactory;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
-@property(retain, nonatomic) IMDRecordZoneManager *recordZoneManager; // @synthesize recordZoneManager=_recordZoneManager;
-@property(retain, nonatomic) id <SyncTokenStoreProviding> syncTokenStore; // @synthesize syncTokenStore=_syncTokenStore;
 
 @end
 

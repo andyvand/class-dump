@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPBTransitScheduleLookupParameters
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _lineId;
-    unsigned long long _referenceTripId;
-    NSData *_routingParameters;
-    unsigned long long _transitId;
-    _Bool _includeAllDirectionNames;
-    _Bool _includeAllHeadsigns;
-    struct {
-        unsigned int has_lineId:1;
-        unsigned int has_referenceTripId:1;
-        unsigned int has_transitId:1;
-        unsigned int has_includeAllDirectionNames:1;
-        unsigned int has_includeAllHeadsigns:1;
-    } _flags;
 }
 
-+ (_Bool)eId:(id)arg1;
++ (_Bool)setHasVenueId:(id)arg1;
 - (unsigned long long);
 - (void);
 - (void);
@@ -53,7 +40,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)vtStatisticsTriggerScoreHS;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -66,19 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIncludeAllDirectionNames;
-@property(nonatomic) _Bool hasIncludeAllHeadsigns;
 @property(nonatomic) _Bool hasLineId;
-@property(nonatomic) _Bool hasReferenceTripId;
-@property(readonly, nonatomic) _Bool hasRoutingParameters;
-@property(nonatomic) _Bool hasTransitId;
-@property(nonatomic) _Bool includeAllDirectionNames;
-@property(nonatomic) _Bool includeAllHeadsigns;
-@property(nonatomic) unsigned long long lineId;
-@property(nonatomic) unsigned long long referenceTripId;
-@property(retain, nonatomic) NSData *routingParameters;
-@property(nonatomic) unsigned long long transitId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

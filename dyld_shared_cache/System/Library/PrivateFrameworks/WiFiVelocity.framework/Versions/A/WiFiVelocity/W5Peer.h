@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, RPCompanionLinkDevice;
+@class RPCompanionLinkDevice;
 
 @interface W5Peer
 {
     _Bool _nearby;
-    NSString *_peerID;
-    NSString *_name;
-    NSString *_model;
-    NSString *_build;
-    NSString *_os;
-    NSString *_version;
-    NSData *_iconImage;
-    long long _proximity;
-    long long _discoveryFlags;
-    long long _controlFlags;
-    RPCompanionLinkDevice *_device;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (_Bool);
 - (void);
@@ -38,8 +27,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)setCanPausePlaybackWhenExitingFullScreen:(long long)arg1;
+- (unsigned long long)istance;
 - (void);
 - (id);
 - (void);
@@ -62,19 +51,7 @@
 - (long long)Ô ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *build; // @synthesize build=_build;
-@property(nonatomic) long long controlFlags; // @synthesize controlFlags=_controlFlags;
 @property(retain, nonatomic) RPCompanionLinkDevice *device; // @synthesize device=_device;
-@property(nonatomic) long long discoveryFlags; // @synthesize discoveryFlags=_discoveryFlags;
-@property(copy, nonatomic) NSData *iconImage; // @synthesize iconImage=_iconImage;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool nearby; // @synthesize nearby=_nearby;
-@property(copy, nonatomic) NSString *os; // @synthesize os=_os;
-@property(copy, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
-@property(nonatomic) long long proximity; // @synthesize proximity=_proximity;
-@property(readonly, nonatomic) long long type; // @dynamic type;
-@property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

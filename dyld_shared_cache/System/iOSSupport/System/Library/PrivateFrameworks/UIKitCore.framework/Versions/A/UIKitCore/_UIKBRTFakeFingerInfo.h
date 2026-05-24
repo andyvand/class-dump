@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
+- (double)getPlainTextForMessage:processedMessageItem: /* Error: Ran out of types for this method. */;
 
 @end
 

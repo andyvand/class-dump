@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, UIDatePicker;
+@class UIDatePicker;
 @protocol MFTimeWheelCollectionViewCellDelegate;
 
 @interface MFTimeWheelCollectionViewCell
 {
     id <MFTimeWheelCollectionViewCellDelegate> _delegate;
-    UIDatePicker *_timePicker;
 }
 
 + (id);
@@ -20,16 +19,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_scrollingEnabled;
 - (void);
-- (void);
-- (id);
+- (void)wid in (     select m.rowid from message m       INNER JOIN chat_message_join       cm ON m.ROWID = cm.message_id     WHERE       cm.chat_id = ?       AND m.item_type == 0       AND m.is_from_me == ?   );
+- (id)4;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date;
-@property(nonatomic) __weak id <MFTimeWheelCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDate *minimumDate;
 @property(retain, nonatomic) UIDatePicker *timePicker; // @synthesize timePicker=_timePicker;
 
 @end

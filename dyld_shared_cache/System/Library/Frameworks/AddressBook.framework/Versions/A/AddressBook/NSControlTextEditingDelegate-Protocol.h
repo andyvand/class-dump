@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification;
+
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (void);
+- (void)oving listener `%@` for service:(NSNotification *)arg1 %@;
 - (void)ùÑª1Â0@ù
 × ;
-- (_Bool)tyle;
+- (_Bool)secondLineParagraphStyle;
 @end
 

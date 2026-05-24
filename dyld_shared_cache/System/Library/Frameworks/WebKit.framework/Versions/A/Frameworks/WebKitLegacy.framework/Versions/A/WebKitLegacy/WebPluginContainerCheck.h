@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLRequest, WebPolicyDecisionListener;
-@protocol WebPluginContainerCheckController;
+@class NSURLRequest;
 
 __attribute__((visibility("hidden")))
 @interface WebPluginContainerCheck
 {
     NSURLRequest *_request;
-    NSString *_target;
-    id <WebPluginContainerCheckController> _controller;
-    id _resultObject;
-    SEL _resultSelector;
-    id _contextInfo;
-    _Bool _done;
-    WebPolicyDecisionListener *_listener;
 }
 
-+ (id);
-- (id);
++ (id)dǷ;
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ic}@;
 - (void);
 - (void);
 

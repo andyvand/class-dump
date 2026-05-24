@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavdServerProxy, NSMutableArray;
+@class GEONavdServerProxy;
 
 @interface GEONavdManager
 {
     GEONavdServerProxy *_proxy;
-    NSMutableArray *_openers;
-    struct os_unfair_lock_s _openersLock;
 }
 
-+ (id);
-+ (id);
++ (id)@?0@"DDScannerResult"8;
++ (id)ng;
 + (void)m_companion    WHERE rowid = @rowid;;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
+- (id)esetting VoiceController on startRecording failure;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)geView",R,N,V_imageView;
 - (void)úÜþ;
 
 @end

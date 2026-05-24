@@ -8,17 +8,20 @@
 @protocol GEOResourceManifestServerProxyDelegate;
 
 @protocol GEOResourceManifestServerProxy
+- (void)J	;
+- (void)isHearstDoubleTapTriggered;
+- (void);
+- (GEOActiveTileGroup *)customFeatureAnnotation;
+- (oneway void);
 - (void)1Â0@ù
 × ;
-- (unsigned int)etry;
-- (void)nfoType;
+- (unsigned int)wifiRxRetry;
+- (void)originalRouteEvInfoType;
 - (void)¬q®T3`;
 - (id)Ø;
-- (void);
 - (void)ÿÿÿÿþÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOActiveTileGroup *activeTileGroup;
 @property(nonatomic) __weak id <GEOResourceManifestServerProxyDelegate> delegate;
 @end
 

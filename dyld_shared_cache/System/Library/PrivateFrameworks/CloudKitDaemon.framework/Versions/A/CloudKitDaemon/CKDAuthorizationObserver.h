@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSSet, NSString;
 
 @interface CKDAuthorizationObserver
 {
     NSSet *_services;
-    NSSet *_bundleIdentifiers;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -29,9 +25,7 @@
 - (void)eading item object from manifest;
 
 // Remaining properties
-@property(copy) NSSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSSet *services; // @synthesize services=_services;
 
 @end
 

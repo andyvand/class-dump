@@ -5,5 +5,6 @@
 //
 
 @protocol PLTaggedPointerDataStoreKey
++ (id)de;
 @end
 

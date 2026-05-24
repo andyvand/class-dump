@@ -6,37 +6,26 @@
 
 #import <NetworkStatistics/NWStatsUDPSnapshot.h>
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface NWStatsQUICSnapshot : NWStatsUDPSnapshot
 {
     NSString *_processName;
-    NSDate *_startTimestamp;
-    NSDate *_snapshotTimestamp;
-    double _startTimeInterval;
-    double _snapshotTimeInterval;
-    NSUUID *_uuid;
-    NSUUID *_euuid;
-    NSUUID *_vuuid;
-    NSUUID *_flowuuid;
-    NSData *_localAddress;
-    NSData *_remoteAddress;
-    struct nstat_tcp_descriptor *_descriptor;
 }
 
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)/;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned int);
+- (unsigned int)0;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -67,20 +56,20 @@
 - (unsigned short);
 - (unsigned int);
 - (unsigned short);
-- (id);
+- (id);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (double);
+- (unsigned int)enum_kMDItemAcquisitionMake_TermFrequencies_Min_Prefix;
 - (unsigned int);
 - (double);
 - (unsigned int);
+- (double);
+- (unsigned int);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
@@ -91,8 +80,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)assertionWithIdentifier:target:explanation:attributes:originator:context: /* Error: Ran out of types for this method. */;
+- (id)riden by Predicate:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (_Bool);
@@ -111,30 +100,10 @@
 - (unsigned int)
 × ;
 - (unsigned long long)k %p for ref %lld  src %llu;
-- (_Bool)lowswitchValueError;
+- (_Bool)kNWStatsSelectInterfaceFlowswitchValueError;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *QUICState;
-@property(readonly, nonatomic) unsigned int QUICStateNumber;
-@property(readonly, nonatomic) _Bool connProbeFailed;
-@property(readonly, nonatomic) unsigned int deltaRxDuplicateBytes;
-@property(readonly, nonatomic) unsigned int deltaRxOutOfOrderBytes;
-@property(readonly, nonatomic) unsigned int deltaTxRetransmittedBytes;
-@property(readonly, nonatomic) _Bool probeActivated;
-@property(readonly, nonatomic) _Bool readProbeFailed;
-@property(readonly, nonatomic) double rttAverage;
 @property(readonly, nonatomic) double rttMinimum;
-@property(readonly, nonatomic) double rttVariation;
-@property(readonly, nonatomic) unsigned int rxDuplicateBytes;
-@property(readonly, nonatomic) unsigned int rxOutOfOrderBytes;
-@property(readonly, nonatomic) unsigned int sendBufferSize;
-@property(readonly, nonatomic) unsigned int sendBufferUsed;
-@property(readonly, nonatomic) unsigned int trafficManagementFlags;
-@property(readonly, nonatomic) unsigned int txCongestionWindow;
-@property(readonly, nonatomic) unsigned int txRetransmittedBytes;
-@property(readonly, nonatomic) unsigned int txUnacked;
-@property(readonly, nonatomic) unsigned int txWindow;
-@property(readonly, nonatomic) _Bool writeProbeFailed;
 
 @end
 

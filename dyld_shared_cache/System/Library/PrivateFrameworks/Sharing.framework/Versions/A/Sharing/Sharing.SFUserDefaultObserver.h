@@ -7,8 +7,6 @@
 @interface Sharing.SFUserDefaultObserver
 {
     id defaultChangedHandler;
-    id storage;
-    id key;
 }
 
 - (void);

@@ -7,8 +7,6 @@
 @interface SearchUI.SearchUIBasicLayerAnimation
 {
     id keyPath;
-    id fromValue;
-    id toValue;
 }
 
 + (id);
@@ -16,9 +14,9 @@
 + (id);
 + (id);
 + (id);
+- (id)ijh8);
 - (id);
-- (id);
-- (void);
+- (void);
 
 @end
 

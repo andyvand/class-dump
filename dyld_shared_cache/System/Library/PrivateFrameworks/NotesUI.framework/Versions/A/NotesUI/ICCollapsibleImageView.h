@@ -11,7 +11,6 @@
 @interface ICCollapsibleImageView : ICCollapsibleBaseView
 {
     NSImage *_image;
-    NSImageView *_imageView;
 }
 
 - (void);
@@ -19,11 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)ceObjects;
+- (void)lic}@ due to missing entitlement;
+- (void)_filteredModernSourceObjects;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
 
 @end

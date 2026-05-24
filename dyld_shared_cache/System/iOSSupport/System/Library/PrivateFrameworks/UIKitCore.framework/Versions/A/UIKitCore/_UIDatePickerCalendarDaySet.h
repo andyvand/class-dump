@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_loadedDays;
 }
 
-- (id);
-- (id);
+- (id)defuseRelayReachabilityRequestPayload:error: /* Error: Ran out of types for this method. */;
+- (id)IMDCKInitialMessageSyncController;
 - (void);
-- (id);
-- (id);
+- (id)e %@;
+- (id)ifier;
 - (id)
 × ;
 - (void);

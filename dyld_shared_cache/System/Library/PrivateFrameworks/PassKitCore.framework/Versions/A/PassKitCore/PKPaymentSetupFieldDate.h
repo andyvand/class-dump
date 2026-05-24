@@ -6,56 +6,42 @@
 
 #import <PassKitCore/PKPaymentSetupFieldText.h>
 
-@class NSCalendar, NSDate, NSDateFormatter, NSLocale, NSString;
+@class NSDateFormatter;
 
 @interface PKPaymentSetupFieldDate : PKPaymentSetupFieldText
 {
     NSDateFormatter *_displayDateFormatter;
-    _Bool _showsDay;
-    _Bool _showsMonth;
-    _Bool _showsYear;
-    NSString *_submissionFormat;
-    NSDate *_defaultDate;
-    NSCalendar *_calendar;
-    NSLocale *_locale;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!TiL;
+- (_Bool)TiL;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)HT;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)hasUiPlacement;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)_;
 - (void);
-- (void)AYMENT_BUTTON_ADD_MONEY_WITH;
-- (id)ippingPhoneticNameError;
+- (void)IN_APP_PAYMENT_BUTTON_ADD_MONEY_WITH;
+- (id)shippingPhoneticNameError;
 - (void);
 - (id)ÿ¸9h|ï;
 
 // Remaining properties
-@property(retain, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(copy, nonatomic) NSDate *currentValue; // @dynamic currentValue;
-@property(copy, nonatomic) NSDate *defaultDate; // @synthesize defaultDate=_defaultDate;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 @property(nonatomic) _Bool showsDay; // @synthesize showsDay=_showsDay;
-@property(nonatomic) _Bool showsMonth; // @synthesize showsMonth=_showsMonth;
-@property(nonatomic) _Bool showsYear; // @synthesize showsYear=_showsYear;
-@property(copy, nonatomic) NSString *submissionFormat; // @synthesize submissionFormat=_submissionFormat;
 
 @end
 

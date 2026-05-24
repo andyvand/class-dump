@@ -4,55 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAReplicatorLayer, CAShapeLayer, CKPinnedConversationActivityItemViewBackdropLayer, CKPinnedConversationActivityItemViewShadowLayer, CKPinnedConversationTypingBubbleActivityItem;
-@protocol CKPinnedConversationActivityItem, CKPinnedConversationActivityItemViewDelegate;
+@class CKPinnedConversationActivityItemViewBackdropLayer;
+@protocol CKPinnedConversationActivityItemViewDelegate;
 
 @interface CKPinnedConversationTypingBubble
 {
     id <CKPinnedConversationActivityItemViewDelegate> _activityItemViewDelegate;
-    long long _activityItemViewContentScale;
-    long long _originationHorizontalDirection;
-    CKPinnedConversationTypingBubbleActivityItem *_typingBubbleActivityItem;
-    long long _originationDirection;
-    double _preferredTailAttachmentPointXCoordinate;
-    CKPinnedConversationActivityItemViewBackdropLayer *_backdropLayer;
-    CAShapeLayer *_backdropMaskShapeLayer;
-    CKPinnedConversationActivityItemViewShadowLayer *_broadShadowLayer;
-    CKPinnedConversationActivityItemViewShadowLayer *_tightShadowLayer;
-    CALayer *_thinkingDotContainer;
-    CAShapeLayer *_thinkingDot;
-    CAReplicatorLayer *_thinkingDots;
-    struct CGSize _parentAvatarViewSize;
-    struct CGPoint _originationPoint;
 }
 
-- (id);
+- (id)removeBeginningListStyleIfNecessaryForAttributedString:fromTextStorage:andRange: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)isDroppingChecklistItemInsideChecklist;
+- (_Bool)initWithViewContext:workerContext: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithUnsignedInteger: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ic_updateFromObject:generateThumbnails: /* Error: Ran out of types for this method. */;
+- (void)authenticateObject:(long long)arg1 withPassphrase: /* Error: Ran out of types for this method. */;
+- (void)veOnCompletion;
+- (void)_registeredForRemoteControlEvents;
 - (long long);
 - (struct CGSize);
 - (struct CGPoint);
 - (double);
 - (id);
-- (void);
-- (id);
-- (long long);
+- (void)lt attachment {attachment:(id *)arg1 %s};
+- (id)*;
+- (long long)ou**;
 - (void);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)
+;
 - (id);
 - (double);
 - (double);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (void);
@@ -62,14 +49,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
 - (struct CGSize);
 - (struct CGPoint);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (double);
 - (void);
@@ -77,31 +64,13 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)%;
 - (id);
 - (void)ta";
 - (void)H;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKPinnedConversationActivityItem> activityItem;
-@property(nonatomic) long long activityItemViewContentScale; // @synthesize activityItemViewContentScale=_activityItemViewContentScale;
-@property(nonatomic) __weak id <CKPinnedConversationActivityItemViewDelegate> activityItemViewDelegate; // @synthesize activityItemViewDelegate=_activityItemViewDelegate;
 @property(retain, nonatomic) CKPinnedConversationActivityItemViewBackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;
-@property(retain, nonatomic) CAShapeLayer *backdropMaskShapeLayer; // @synthesize backdropMaskShapeLayer=_backdropMaskShapeLayer;
-@property(retain, nonatomic) CKPinnedConversationActivityItemViewShadowLayer *broadShadowLayer; // @synthesize broadShadowLayer=_broadShadowLayer;
-@property(nonatomic) long long originationDirection; // @synthesize originationDirection=_originationDirection;
-@property(nonatomic) long long originationHorizontalDirection; // @synthesize originationHorizontalDirection=_originationHorizontalDirection;
-@property(nonatomic) struct CGPoint originationPoint; // @synthesize originationPoint=_originationPoint;
-@property(nonatomic) struct CGSize parentAvatarViewSize; // @synthesize parentAvatarViewSize=_parentAvatarViewSize;
-@property(nonatomic) double preferredTailAttachmentPointXCoordinate; // @synthesize preferredTailAttachmentPointXCoordinate=_preferredTailAttachmentPointXCoordinate;
-@property(readonly, nonatomic) _Bool supportsActivityItemViewContentScale;
-@property(readonly, nonatomic) _Bool supportsAlignmentWithOriginationSubAvatarFrame;
-@property(readonly, nonatomic) struct CGPoint tailAttachmentPoint;
-@property(retain, nonatomic) CAShapeLayer *thinkingDot; // @synthesize thinkingDot=_thinkingDot;
-@property(retain, nonatomic) CALayer *thinkingDotContainer; // @synthesize thinkingDotContainer=_thinkingDotContainer;
-@property(retain, nonatomic) CAReplicatorLayer *thinkingDots; // @synthesize thinkingDots=_thinkingDots;
-@property(retain, nonatomic) CKPinnedConversationActivityItemViewShadowLayer *tightShadowLayer; // @synthesize tightShadowLayer=_tightShadowLayer;
-@property(readonly, nonatomic) CKPinnedConversationTypingBubbleActivityItem *typingBubbleActivityItem; // @synthesize typingBubbleActivityItem=_typingBubbleActivityItem;
 
 @end
 

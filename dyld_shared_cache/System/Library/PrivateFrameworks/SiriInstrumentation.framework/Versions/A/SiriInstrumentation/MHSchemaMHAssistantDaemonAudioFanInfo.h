@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioFanInfo : SISchemaInstrumentationMessage
 {
     unsigned int _fanId;
-    int _currentSpeed;
-    int _targetSpeed;
-    struct {
-        unsigned int fanId:1;
-        unsigned int currentSpeed:1;
-        unsigned int targetSpeed:1;
-    } _has;
 }
 
 - (void);
@@ -34,26 +25,20 @@
 - (void);
 - (unsigned int);
 - (int);
-- (void);
+- (void)v;
 - (id);
-- (void);
+- (void)X509_CRL_add0_revoked;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ß°1Â0@ù
 × ;
-- (id)FireSampleCount:(id)arg1;
+- (id)setHasFirstPassFireSampleCount:(id)arg1;
 - (id)ded",&,N,V_ended;
 
 // Remaining properties
-@property(nonatomic) int currentSpeed; // @synthesize currentSpeed=_currentSpeed;
 @property(nonatomic) unsigned int fanId; // @synthesize fanId=_fanId;
-@property(nonatomic) _Bool hasCurrentSpeed;
-@property(nonatomic) _Bool hasFanId;
-@property(nonatomic) _Bool hasTargetSpeed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int targetSpeed; // @synthesize targetSpeed=_targetSpeed;
 
 @end
 

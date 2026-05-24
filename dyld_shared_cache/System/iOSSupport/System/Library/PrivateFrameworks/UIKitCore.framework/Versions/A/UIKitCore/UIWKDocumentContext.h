@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSMutableData, NSObject, NSString;
+@class NSMutableData;
 
 @interface UIWKDocumentContext
 {
     _Bool _rectsAreInCharacterOrder;
-    struct _NSRange _lastRectRange;
-    NSMutableData *_selectionRects;
-    NSObject *_contextBefore;
-    NSObject *_selectedText;
-    NSObject *_contextAfter;
-    NSObject *_markedText;
-    NSArray *_autocorrectedRanges;
-    NSAttributedString *_annotatedText;
-    struct _NSRange _selectedRangeInMarkedText;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
+- (id)requestPasswordForUsername:(struct CGRect)arg1 service:badPassword:showForgotPassword:shouldRememberPassword:outRequestID:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)reflectJunkChatToPeerDevicesForMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)messageCount;
+- (void)handler:(struct _NSRange)arg1 localMessageError:storageContext: /* Error: Ran out of types for this method. */;
+- (void)_shouldDropIncomingMessageOnService:(id)arg1 guid:trustedData: /* Error: Ran out of types for this method. */;
+- (void)_shouldDownloadAssetForTransfer:(id)arg1 forMessageItem: /* Error: Ran out of types for this method. */;
+- (void)_postReceivedMessageMetricsForInput:(id)arg1 withMessageContext:toIDSService: /* Error: Ran out of types for this method. */;
+- (void)_otcUtilities;
+- (struct _NSRange)sSubscriptionService",&,N,V_availabilitySubscriptionService;
 - (id);
 - (void);
 - (void);
@@ -36,12 +27,12 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)};
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ed. Input:(CDStruct_912cb5d2)arg1 %@   Output:%@ /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (id)tCommandGUID = %@; editedMessageGUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
 - (id);
 - (id);
 - (id);
@@ -59,21 +50,7 @@
 - (id)ôuëÿWÓÓHéf;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_contextAfterString;
-@property(readonly, nonatomic) NSString *_contextBeforeString;
-@property(readonly, nonatomic) NSString *_markedTextString;
-@property(readonly, nonatomic) NSString *_selectedTextString;
 @property(retain, nonatomic) NSMutableData *_selectionRects; // @synthesize _selectionRects;
-@property(copy, nonatomic) NSAttributedString *annotatedText; // @synthesize annotatedText=_annotatedText;
-@property(copy, nonatomic) NSArray *autocorrectedRanges; // @synthesize autocorrectedRanges=_autocorrectedRanges;
-@property(copy, nonatomic) NSObject *contextAfter; // @synthesize contextAfter=_contextAfter;
-@property(copy, nonatomic) NSObject *contextBefore; // @synthesize contextBefore=_contextBefore;
-@property(readonly, nonatomic) NSString *fullText;
-@property(copy, nonatomic) NSObject *markedText; // @synthesize markedText=_markedText;
-@property(readonly, nonatomic) struct _NSRange markedTextRange;
-@property(nonatomic) struct _NSRange selectedRangeInMarkedText; // @synthesize selectedRangeInMarkedText=_selectedRangeInMarkedText;
-@property(copy, nonatomic) NSObject *selectedText; // @synthesize selectedText=_selectedText;
-@property(readonly, nonatomic) struct _NSRange selectedTextRange;
 
 @end
 

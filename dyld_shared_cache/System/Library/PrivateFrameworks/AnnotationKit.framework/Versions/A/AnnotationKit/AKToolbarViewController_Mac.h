@@ -6,71 +6,53 @@
 
 #import <AnnotationKit/AKToolbarViewController.h>
 
-@class AKLineStylesViewController_Mac, AKTextAttributesViewController, AKToolbarButtonItem_Mac, AKToolbarColorWellItem_Mac, AKToolbarSeparatorItem_Mac, NSMenu, NSMutableSet, NSPopover, NSString, NSView, NSWindow;
+@class NSMenu, NSView;
 
 @interface AKToolbarViewController_Mac : AKToolbarViewController
 {
     NSMenu *_signaturesMenu;
-    NSWindow *_signaturesCreationWindow;
-    AKToolbarButtonItem_Mac *_shapesButton;
-    AKToolbarButtonItem_Mac *_textToolButton;
-    AKToolbarButtonItem_Mac *_lineStyleButton;
-    AKToolbarButtonItem_Mac *_textAttributesButton;
-    AKToolbarButtonItem_Mac *_signatureButton;
-    AKToolbarButtonItem_Mac *_intelligentSketchButton;
-    AKToolbarButtonItem_Mac *_variableSketchButton;
-    AKToolbarButtonItem_Mac *_inkButton;
-    AKToolbarButtonItem_Mac *_simpleHighlightButton;
-    AKToolbarButtonItem_Mac *_simpleRotateLeftButton;
-    AKToolbarButtonItem_Mac *_simpleRotateRightButton;
-    AKToolbarButtonItem_Mac *_rotateButton;
-    AKToolbarButtonItem_Mac *_cropButton;
-    AKToolbarButtonItem_Mac *_imageDescriptionButton;
-    AKToolbarButtonItem_Mac *_formFillButton;
-    AKToolbarColorWellItem_Mac *_strokeColorWell;
-    AKToolbarColorWellItem_Mac *_fillColorWell;
-    AKToolbarSeparatorItem_Mac *_sidecarLeftSeparator;
-    AKToolbarButtonItem_Mac *_sidecarButton;
-    AKToolbarSeparatorItem_Mac *_sidecarRightSeparator;
-    NSMutableSet *_noteButtons;
-    NSMutableSet *_highlightControls;
-    long long _latestActiveColorWell;
-    NSView *_applyCropButton;
-    NSPopover *_shapesPopover;
-    NSPopover *_signaturesPopover;
-    NSPopover *_textAttributesPopover;
-    NSPopover *_lineStylesPopover;
-    NSPopover *_highlightsPopover;
-    NSPopover *_imageDescriptionPopover;
-    AKTextAttributesViewController *_textAttributesViewController;
-    AKLineStylesViewController_Mac *_lineStylesViewController;
-    id _eventMonitor;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,23 +61,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -106,7 +72,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -123,7 +89,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void);
@@ -140,67 +106,394 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)gnostics from %@ -> %@;
 - (void);
 - (void);
 - (id);
+- (void)= NoV * NoV;
+    float lambda_L = NoV * sqrt(NoL_squared + alpha_squared * (1.0f - NoL_squared));
+    float lambda_V = NoL * sqrt(NoV_squared + alpha_squared * (1.0f - NoV_squared));
+    return 0.5f / (lambda_L + lambda_V + 1e-6f);
+}
+
+
+
+inline float scn_brdf_V_opt(float alpha, float LoH) {
+    float k = alpha * 0.5f;
+    float k2 = k * k;
+    float invK2 = 1.f - k2;
+    return 1.f / (LoH * LoH * invK2 + k2);
+}
+
+
+
+
+static float2 scn_computeHammonFactors(float NdotL, float NdotH, float NdotV, float LdotV, float alpha)
+{
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    float facing = 0.5f + 0.5f * LdotV;
+    float rough = facing * (0.9f - 0.4f * facing) * (0.5f + NdotH) / NdotH;
+    float smooth = 1.05f * (1.0f - pow(1.0f - NdotL, 5.f)) * (1.0f - pow(1.0f - NdotV, 5.f));
+    float single = mix(smooth, rough, alpha);
+    float multi = M_PI_F * 0.1159f * alpha;
+    return float2(single, multi);
+}
+
+inline float4 scn_specularDFG_diffuseHammon(float NoV,
+                                            float roughness)
+{
+    
+    
+    float3 v = float3(sqrt(1.0 - NoV * NoV),
+                      0.0,
+                      NoV);
+    
+    float alpha = roughness * roughness; 
+    
+    float2 specularDFG = float2(0.0);
+    float2 diffuseHammonFactors = float2(0.0);
+    
+    int const sampleCount = 1024;
+    for (int i = 0; i < sampleCount; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCount);
+        
+        
+        float3 h = scn_importanceSampleGGX_brdf(random, alpha); 
+        float3 l = reflect(-v, h); 
+        
+        float NoL = saturate(l.z); 
+        float NoH = saturate(h.z); 
+        float LoH = saturate(dot(l, h));
+        
+        if (NoL > 0.f) {
+            float G = scn_brdf_G(alpha, NoL, NoV);
+            float GVis = G * LoH / (NoH * NoV);
+            float Fc = pow(1.f - LoH, 5.f);
+            specularDFG.x += (1.f - Fc) * GVis;
+            specularDFG.y += Fc * GVis;
+        }
+        
+        
+        float3 Ld = scn_importanceSampleCosine_brdf(random); 
+        float NoLd = saturate(Ld.z);
+        if (NoLd > 0.f) {
+            float3 Hd = normalize(v + Ld);
+            float NoHd = Hd.z;
+            
+            float LoVd = saturate(dot(Ld, v));
+            float2 HF = scn_computeHammonFactors(NoLd, NoHd, NoV, LoVd, alpha);
+            diffuseHammonFactors.x += HF.x;
+            diffuseHammonFactors.y += HF.y;
+        }
+    }
+    
+    return float4(specularDFG.x, specularDFG.y, diffuseHammonFactors.x, diffuseHammonFactors.y) / sampleCount;
+}
+
+inline float3 scn_irradiance_cube(texturecube<float, access::sample> environment,
+                                  uint                               environmentMipmapLevel,
+                                  float3                             n_cube)
+{
+    float3 n = float3(n_cube.x, -n_cube.z, n_cube.y);
+    
+    constexpr sampler linearSampler(filter::linear);
+    
+    float3 L = float3(0.0);
+    float weight = 0.0f;
+    
+    ushort const sampleCount = 1024;
+    for (ushort i = 0; i < sampleCount; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCount);
+        float3 l = scn_importanceSampleCosine_brdf(random, n); 
+        
+        float NoL = saturate(dot(n, l));
+        if (NoL > 0) {
+            float3 Li = environment.sample(linearSampler, float3(l.x , l.z, -l.y), level(environmentMipmapLevel)).rgb;
+            L += Li; 
+            weight += 1.0;
+        }
+    }
+    
+    return L / weight;
+}
+
+
+inline float scn_pbr_distanceAttenuation(float3 lightVector)
+{
+    float sqrDist = dot(lightVector, lightVector);
+    return 1. / max(sqrDist, 0.0001);
+}
+
+inline float3 scn_pbr_reference_world(SCNPBRSurface                      surface,
+                                      texturecube<float, access::sample> environment,
+                                      uint                               environmentSamplingLevel,
+                                      float4x4                           localDirToWorldCubemapDir,
+                                      float                              environmentIntensity)
+{
+    constexpr sampler linearSampler(filter::linear, mip_filter::linear);
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float NoV = saturate(dot(n, v));
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    
+    float3 irradiance = float3(0.0);
+    
+    ushort const sampleCountDiffuse = 1024;
+    for (ushort i = 0; i < sampleCountDiffuse; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCountDiffuse);
+        float3 l = scn_importanceSampleCosine_brdf(random, n); 
+        
+        float NoL = saturate(dot(n, l));
+        
+        if (NoL > 0) {
+            float3 Li = environment.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            irradiance += Li; 
+        }
+    }
+    
+    irradiance = irradiance / float(sampleCountDiffuse);
+    
+    
+    float3 specular = float3(0.0);
+    float specularWeight = 0.0;
+    
+    float correctedRoughness = mix(1.0f / 128.0f, 1.0f - 1.0f / 128.0f, roughness);
+    float alpha = correctedRoughness * correctedRoughness; 
+    
+    ushort const sampleCountSpecular = 128;
+    for (ushort i = 0; i < sampleCountSpecular; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCountSpecular);
+        float3 h = scn_importanceSampleGGX_brdf(random, correctedRoughness, n); 
+        float3 l = reflect(-v, h); 
+        
+        float NoL = saturate(dot(n, l));
+        float NoH = saturate(dot(n, h));
+        float LoH = saturate(dot(l, h));
+        
+        if (NoH * NoV > 0) {
+            float3 Li = environment.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            float3 F = scn_brdf_F(reflectance, LoH);
+            float G = scn_brdf_G(alpha, NoL, NoV);
+#if 0
+            float D = scn_brdf_D(alpha, NoH);
+            float pdf = (D * NoH) / (4.0f * LoH);
+            
+            if (pdf >= 0) {
+                float3 l = D * F * G / (4.0f * NoV); 
+                specular += Li * l / pdf;
+                specularWeight += 1.0f;
+            }
+#else
+            specular += Li * F * G * LoH / (NoH * NoV);
+            specularWeight += 1.0f;
+#endif
+        }
+    }
+    
+    specular /= specularWeight;
+    
+    
+    return ambientOcclusion * (effectiveAlbedo * irradiance + specular);
+}
+
+
+
+inline float3x3 scn_ltc_matrix_invert_transpose(float3x3 m)
+{
+    float a = m[0][0];
+    float b = m[1][0];
+    float c = m[0][1];
+    float d = m[1][1];
+    float det = a * d - b * c;
+    m[0][0] = +det * d;
+    m[1][0] = -det * b;
+    m[1][0] = -det * c;
+    m[1][1] = +det * a;
+    m[2][2] = 1.f / m[2][2];
+    return m;
+}
+
+inline float3x3 scn_sample_area_light_precomputed_data(float3                 v,
+                                                       float3                 n,
+                                                       float                  roughness,
+                                                       thread float*          brdfNorm,
+                                                       texture2d_array<float> bakedDataTexture)
+{
+    constexpr sampler linearSampler = sampler(address::clamp_to_edge, filter::linear);
+    
+    float theta = acos(fabs(dot(n, v)));
+    float2 uv = float2(roughness, theta * M_2_PI_F);
+    
+    float4 dataA = bakedDataTexture.sample(linearSampler, uv, 0);
+    float4 dataB = bakedDataTexture.sample(linearSampler, uv, 1);
+    
+    *brdfNorm = dataB.y;
+    
+    return float3x3(float3(dataA.x, dataA.y, 0.f),
+                    float3(dataA.z, dataA.w, 0.f),
+                    float3(0.f, 0.f, dataB.x));
+}
+
+inline float3 scn_area_light_polygon_edge_vector_form_factor(float3 cornerDirectionA,
+                                                             float3 cornerDirectionB)
+{
+    
+    
+    
+#if 0
+    float theta = acos(dot(cornerDirectionA, cornerDirectionB));
+    return (0.5f * M_1_PI_F) * cross(cornerDirectionA, cornerDirectionB) * ((theta > 0.001) ? theta/sin(theta) :1.0);
+#else
+    float x = dot(cornerDirectionA, cornerDirectionB);
+    float y = abs(x);
+    
+    float a = 5.42031f + (3.12829f + 0.0902326 * y) * y;
+    float b = 3.45068f + (4.18814f + y) * y;
+    float thetaOverSinTheta = a / b;
+    
+    if (x < 0.f)
+        thetaOverSinTheta = M_PI_F * rsqrt(1.f - x * x) - thetaOverSinTheta;
+    
+    float3 u = cross(cornerDirectionA, cornerDirectionB);
+    return (0.5f * M_1_PI_F) * thetaOverSinTheta * u;
+#endif
+}
+
+inline float scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(float3 vectorFormFactor)
+{
+#if 1
+    
+    float l = length(vectorFormFactor);
+    return max((l * l + vectorFormFactor.y) / (l + 1.f), 0.f);
+#else
+    
+    return max(vectorFormFactor.y, 0.f);
+#endif
+}
+
+inline float pbr_area_light_eval_rectangle(float4x3 corners)
+{
+    
+    
+    
+    float3 corner0 = normalize(corners[0]);
+    float3 corner1 = normalize(corners[1]);
+    float3 corner2 = normalize(corners[2]);
+    float3 corner3 = normalize(corners[3]);
+    
+    float3 vectorFormFactor = float3(0.f);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner1, corner2);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner2, corner3);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner3, corner0);
+    
+    return scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_eval_polygon(float3                position,
+                                         float3                lightCenter,
+                                         float3                lightRight,
+                                         float3                lightTop,
+                                         uint32_t              vertexCount,
+                                         device packed_float2 *vertexPositions)
+{
+    
+    
+    
+    float3 vectorFormFactor = float3(0.f);
+    for (uint32_t vertexIndex = 0; vertexIndex < vertexCount; ++vertexIndex) {
+        packed_float2 localCorner0 = vertexPositions[vertexIndex];
+        packed_float2 localCorner1 = vertexPositions[(vertexIndex + 1) % vertexCount];
+        
+        
+        
+        float3 cornerDirection0 = lightCenter - localCorner0[0] * lightRight + localCorner0[1] * lightTop;
+        float3 cornerDirection1 = lightCenter - localCorner1[0] * lightRight + localCorner1[1] * lightTop;
+        
+        float3 corner0 = normalize(cornerDirection0 - position);
+        float3 corner1 = normalize(cornerDirection1 - position);
+        
+        vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    }
+    
+    return scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_line_integral_position(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l / (d * (d_squared + l_squared)) + atan(l / d) / d_squared;
+}
+
+inline float pbr_area_light_line_integral_direction(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l_squared / (d * (d_squared + l_squared));
+}
+
+inline float pbr_area_light_eval_line(float2x3 cornerDirections)
+{
+    
+    
+    
+    float3 corner0 = normalize(cornerDirections[0]);
+    float3 corner1 = normalize(cornerDirections[1]);
+    
+    float3 direction = normalize(corner1 - corner0);
+    
+    if (corner0.y <= 0.f && corner1.y <= 0.f) return 0.f;
+    if (corner0.y < 0.f) corner0 = (+corner0 * corner1.y - corner1 * corner0.y) / (+corner1.y - corner0.y);
+    if (corner1.y < 0.f) corner1 = (-corner0 * corner1.y + corner1 * corner0.y) / (-corner1.y + corner0.y);
+    
+    float l1 = dot(corner0, direction);
+    float l2 = dot(corner1, direction);
+    
+    float3 position = corner0 - l1 * direction;
+    float d = length(position);
+    
+    float I = (pbr_area_light_line_integral_position(d, l2) - pbr_area_light_line_integral_position(d, l1)) * position.y
+            + (pbr_area_light_line_integral_direction(d, l2) - pbr_area_light_line_integral_direction(d, l1)) * direction.y;
+    
+    return M_1_PI_F * I;
+}
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
+- (void)isAutofillNewContextStart;
 - (void);
 - (void);
-- (void);
-- (_Bool)lPointFromEvent:(id)arg1 orRecognizer:onPageController: /* Error: Ran out of types for this method. */;
+- (_Bool)modelPointFromEvent:(id)arg1 orRecognizer:onPageController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSView *applyCropButton; // @synthesize applyCropButton=_applyCropButton;
-@property(retain) NSView *cropButton; // @synthesize cropButton=_cropButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id eventMonitor; // @synthesize eventMonitor=_eventMonitor;
-@property(retain) NSView *fillColorWell; // @synthesize fillColorWell=_fillColorWell;
-@property(retain) NSView *formFillButton; // @synthesize formFillButton=_formFillButton;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableSet *highlightControls; // @synthesize highlightControls=_highlightControls;
-@property(retain) NSPopover *highlightsPopover; // @synthesize highlightsPopover=_highlightsPopover;
-@property(retain) NSView *imageDescriptionButton; // @synthesize imageDescriptionButton=_imageDescriptionButton;
-@property(retain) NSPopover *imageDescriptionPopover; // @synthesize imageDescriptionPopover=_imageDescriptionPopover;
-@property(retain) NSView *inkButton; // @synthesize inkButton=_inkButton;
-@property(retain) NSView *intelligentSketchButton; // @synthesize intelligentSketchButton=_intelligentSketchButton;
-@property(retain) NSView *lineStyleButton; // @synthesize lineStyleButton=_lineStyleButton;
-@property(retain) NSPopover *lineStylesPopover; // @synthesize lineStylesPopover=_lineStylesPopover;
-@property(retain) AKLineStylesViewController_Mac *lineStylesViewController; // @synthesize lineStylesViewController=_lineStylesViewController;
-@property(retain) NSMutableSet *noteButtons; // @synthesize noteButtons=_noteButtons;
-@property(retain) NSView *rotateButton; // @synthesize rotateButton=_rotateButton;
 @property(retain) NSView *shapesButton; // @synthesize shapesButton=_shapesButton;
-@property(retain) NSPopover *shapesPopover; // @synthesize shapesPopover=_shapesPopover;
-@property(retain) NSView *sidecarButton; // @synthesize sidecarButton=_sidecarButton;
-@property(retain) NSView *signatureButton; // @synthesize signatureButton=_signatureButton;
-@property(retain) NSPopover *signaturesPopover; // @synthesize signaturesPopover=_signaturesPopover;
-@property(retain) NSView *simpleHighlightButton; // @synthesize simpleHighlightButton=_simpleHighlightButton;
-@property(retain) NSView *simpleRotateLeftButton; // @synthesize simpleRotateLeftButton=_simpleRotateLeftButton;
-@property(retain) NSView *simpleRotateRightButton; // @synthesize simpleRotateRightButton=_simpleRotateRightButton;
-@property(retain) NSView *strokeColorWell; // @synthesize strokeColorWell=_strokeColorWell;
-@property(readonly) Class superclass;
-@property(retain) NSView *textAttributesButton; // @synthesize textAttributesButton=_textAttributesButton;
-@property(retain) NSPopover *textAttributesPopover; // @synthesize textAttributesPopover=_textAttributesPopover;
-@property(retain) AKTextAttributesViewController *textAttributesViewController; // @synthesize textAttributesViewController=_textAttributesViewController;
-@property(retain) NSView *textToolButton; // @synthesize textToolButton=_textToolButton;
-@property(retain) NSView *variableSketchButton; // @synthesize variableSketchButton=_variableSketchButton;
 
 @end
 

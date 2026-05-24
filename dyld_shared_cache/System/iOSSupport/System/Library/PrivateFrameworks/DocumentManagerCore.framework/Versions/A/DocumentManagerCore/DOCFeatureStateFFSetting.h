@@ -11,8 +11,6 @@
 @interface DOCFeatureStateFFSetting : DOCFeatureState
 {
     NSString *_domainID;
-    NSString *_featureID;
-    long long _valueMode;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain) NSString *domainID; // @synthesize domainID=_domainID;
-@property(retain) NSString *featureID; // @synthesize featureID=_featureID;
-@property long long valueMode; // @synthesize valueMode=_valueMode;
 
 @end
 

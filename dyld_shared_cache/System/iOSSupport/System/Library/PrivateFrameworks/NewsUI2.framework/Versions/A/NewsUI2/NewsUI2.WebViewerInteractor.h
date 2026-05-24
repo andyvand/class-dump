@@ -7,8 +7,6 @@
 @interface NewsUI2.WebViewerInteractor
 {
     id delegate;
-    id dataManager;
-    id offlineManager;
 }
 
 @end

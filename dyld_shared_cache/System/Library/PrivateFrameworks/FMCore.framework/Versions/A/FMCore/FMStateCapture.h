@@ -7,10 +7,9 @@
 @interface FMStateCapture
 {
     CDUnknownBlockType _stateCaptureBlock;
-    unsigned long long _handle;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)t find any asset for master %{public}@. Ignoring update;
 - (void);
 - (struct os_state_data_s *);
 - (void);
@@ -19,12 +18,11 @@
 - (void);
 - (unsigned long long);
 - (struct os_state_data_s *);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) CDUnknownBlockType stateCaptureBlock; // @synthesize stateCaptureBlock=_stateCaptureBlock;
 
 @end
 

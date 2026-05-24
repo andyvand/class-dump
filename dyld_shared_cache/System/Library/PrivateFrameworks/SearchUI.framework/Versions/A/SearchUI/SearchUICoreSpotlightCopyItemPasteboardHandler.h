@@ -14,7 +14,8 @@
 
 - (unsigned long long);
 - (id);
-- (id);
+- (id):(id)arg1 %s
+;
 
 // Remaining properties
 @property(retain) SFCoreSpotlightCopyItem *item; // @dynamic item;

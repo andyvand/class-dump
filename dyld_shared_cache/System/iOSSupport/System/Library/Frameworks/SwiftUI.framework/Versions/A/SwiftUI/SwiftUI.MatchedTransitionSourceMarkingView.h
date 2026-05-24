@@ -9,13 +9,10 @@
 @interface SwiftUI.MatchedTransitionSourceMarkingView : SwiftUI._UIGraphicsView
 {
     id shadowView;
-    id contentView;
-    id effect;
-    id isPartOfActiveZoom;
 }
 
 - (id);
-- (void);
+- (void)o;
 - (id);
 - (void)ÑÙ;
 

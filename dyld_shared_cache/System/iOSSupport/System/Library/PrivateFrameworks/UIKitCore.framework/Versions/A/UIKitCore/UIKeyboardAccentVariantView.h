@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardAccentVariantView : UIView
@@ -16,25 +16,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CGSize);
-- (_Bool);
+- (_Bool)executorStates;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id)eRemoteTextEditingSession;
+- (id)_updateRemoteTextEditingSession;
 - (void)<¨f;
 - (id)È	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UIView *touchForwardingView; // @synthesize touchForwardingView=_touchForwardingView;
 
 @end

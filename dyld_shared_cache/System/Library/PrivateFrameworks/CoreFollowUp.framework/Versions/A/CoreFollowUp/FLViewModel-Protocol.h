@@ -5,5 +5,8 @@
 //
 
 @protocol FLViewModel
+
+@optional
+- (void);
 @end
 

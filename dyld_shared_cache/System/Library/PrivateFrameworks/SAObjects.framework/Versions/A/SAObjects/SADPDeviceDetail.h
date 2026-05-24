@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, SAPerson;
-
 @interface SADPDeviceDetail : SADomainObject
 {
 }
@@ -30,34 +28,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)dtAdd;
 - (id);
 - (void);
-- (void)nchoutURI;
+- (id);
+- (id);
+- (void);
+- (void)calendarPunchoutURI;
 - (void)µ¬;
 
 // Remaining properties
 @property(nonatomic) _Bool canPlaySound;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceClass;
-@property(copy, nonatomic) NSString *deviceId;
-@property(copy, nonatomic) NSString *deviceLocality;
-@property(copy, nonatomic) NSString *deviceName;
-@property(copy, nonatomic) NSString *emoji;
-@property(nonatomic) _Bool foundNearby;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAPerson *owner;
-@property(copy, nonatomic) NSString *productName;
-@property(copy, nonatomic) NSArray *productTypes;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool thisDevice;
 
 @end
 

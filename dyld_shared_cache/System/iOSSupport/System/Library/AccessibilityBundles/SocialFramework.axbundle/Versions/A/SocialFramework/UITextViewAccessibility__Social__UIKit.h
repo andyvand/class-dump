@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)ARReferenceImage;
 - (unsigned long long);
 - (id);
 

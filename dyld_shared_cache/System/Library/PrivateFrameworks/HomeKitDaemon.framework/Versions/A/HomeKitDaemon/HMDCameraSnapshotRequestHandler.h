@@ -4,48 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraSnapshotFile, HMDCameraStreamSnapshotHandler, HMDHAPAccessory, HMFTimer, NSMutableArray, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotRequestHandler
 {
     NSString *_imageCacheDirectory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_accessory;
-    NSMutableArray *_pendingCompletionHandlers;
-    HMDCameraStreamSnapshotHandler *_streamSnapshotHandler;
-    HMFTimer *_mostRecentSnapshotInvalidationTimer;
-    HMDCameraSnapshotFile *_mostRecentSnapshot;
-    NSString *_logIdentifier;
-    NSSet *_supportedResolutions;
 }
 
 + (id);
 + (id)q;
-- (void);
-- (void);
+- (void)activeCapabilityTypeForContact:(id)arg1 serviceName:(id)arg2;
+- (void)accountIdentifiers;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)shouldWritePlaybackInfo;
+- (void)hLocationCityNodeCollectionCSo0ab7CountrydE0CG;
 - (id)ñÐ1Â0@ù
 × ;
 - (void)e is nil;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *imageCacheDirectory; // @synthesize imageCacheDirectory=_imageCacheDirectory;
 @property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSSet *supportedResolutions; // @synthesize supportedResolutions=_supportedResolutions;
 
 @end
 

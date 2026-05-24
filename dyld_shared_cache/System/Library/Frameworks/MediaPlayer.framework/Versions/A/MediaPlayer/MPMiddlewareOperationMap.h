@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface MPMiddlewareOperationMap
 {
     NSMapTable *_middlewareOperationMap;
-    NSMutableArray *_middleware;
-    NSMutableArray *_operations;
 }
 
 + (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ovieInfoOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
+- (id)ame:bitmapFormat:bytesPerRow:bitsPerPixel: /* Error: Ran out of types for this method. */;
+- (id)_operationQueue;
+- (void)_adjustedItemPropertyMovieInfoOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 @end
 

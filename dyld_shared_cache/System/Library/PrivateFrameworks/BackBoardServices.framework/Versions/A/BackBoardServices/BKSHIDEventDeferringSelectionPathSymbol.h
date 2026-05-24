@@ -12,11 +12,11 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)>;
 - (id);
+- (id)setClientProvidedStartDate:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)attributes (%ld) doesn't match input length (%ld);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -25,13 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

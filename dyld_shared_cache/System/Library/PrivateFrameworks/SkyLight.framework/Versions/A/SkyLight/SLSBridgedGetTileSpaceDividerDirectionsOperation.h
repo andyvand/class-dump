@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)ELETE FROM %@ WHERE %@ IN %@;
+- (id)INTEGER;;
 - (id);
 - (unsigned long long);
 - (id);

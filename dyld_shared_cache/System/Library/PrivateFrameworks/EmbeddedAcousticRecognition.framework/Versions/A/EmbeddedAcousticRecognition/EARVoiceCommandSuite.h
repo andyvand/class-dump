@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface EARVoiceCommandSuite
 {
     NSString *_identifier;
-    NSSet *_commandSpecs;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)v8@?0;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (_Bool);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 - (void)"M;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *commandSpecs; // @synthesize commandSpecs=_commandSpecs;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

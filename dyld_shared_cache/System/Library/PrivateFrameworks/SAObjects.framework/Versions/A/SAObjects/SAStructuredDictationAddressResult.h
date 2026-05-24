@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @interface SAStructuredDictationAddressResult : AceObject
 {
@@ -16,27 +16,17 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *addressLabel;
-@property(copy, nonatomic) NSURL *contactId;
-@property(copy, nonatomic) NSString *contactName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSData *forwardGeoProtobuf;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,17 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString, UIImageView, UILabel;
+@class UILabel;
 
 @interface CKSingleContactDetailsCell : CKDetailsCell
 {
     UILabel *_titleLabel;
-    UILabel *_subTitleLabel;
-    UIImageView *_chervonImageView;
 }
 
 + (_Bool);
 + (id);
-- (void);
-- (id);
+- (void)canAutoUpdateDrawingsInAccount:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)s;
 - (id);
 - (void);
 - (void);
@@ -30,15 +28,6 @@
 - (id)¤èÐÜd¨;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *chervonImageView; // @synthesize chervonImageView=_chervonImageView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILabel *subTitleLabel; // @synthesize subTitleLabel=_subTitleLabel;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

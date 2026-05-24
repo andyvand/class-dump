@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)setRealUserStatus:(id)arg1;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)tion handlers;
 - (_Bool);
 - (id);
 

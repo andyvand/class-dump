@@ -18,13 +18,13 @@
 + (id);
 + (id)-;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)reflectMarkAsReviewedToPeerDevicesForChatGUIDs: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)o reconnect:(id)arg1 %@;
+- (void)TC to all interested clients.;
+- (void)appears to be invalid %@;
+- (void)with guid %@;
 - (void);
 - (void);
 - (void);
@@ -35,15 +35,7 @@
 - (void)Ø\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) __weak UIViewController<_UIDocumentPickerRemoteViewControllerContaining> *publicController; // @synthesize publicController=_publicController;
-@property(readonly) Class superclass;
 
 @end
 

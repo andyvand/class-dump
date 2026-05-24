@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface _FTPasswordManagerCachedAuthTokenInfo
 {
     NSString *_profileID;
-    NSString *_selfID;
-    NSString *_token;
-    NSDictionary *_alertInfo;
-    NSNumber *_status;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)createPixelBufferFromAuxiliaryImageInfo:(id)arg1;
+- (void)y:(id)arg1;
+- (void)er:(id)arg1 unitTestMode:inPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (id)createOwnedShareWithUUID:creationDate:title:kind:clientBundleIdentifier:unitTestMode:inPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (id)ents:shouldFlattenLivePhoto:placeholderResourceURLToSourceResourceURLMap:photoLibrary: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -28,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *alertInfo; // @synthesize alertInfo=_alertInfo;
 @property(retain, nonatomic) NSString *profileID; // @synthesize profileID=_profileID;
-@property(retain, nonatomic) NSString *selfID; // @synthesize selfID=_selfID;
-@property(retain, nonatomic) NSNumber *status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

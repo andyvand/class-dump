@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)accessibilityContainer;
 - (id);
 - (id);
 

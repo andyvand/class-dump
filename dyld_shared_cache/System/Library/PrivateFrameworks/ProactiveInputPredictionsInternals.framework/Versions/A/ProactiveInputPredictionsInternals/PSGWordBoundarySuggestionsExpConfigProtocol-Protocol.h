@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol PSGWordBoundarySuggestionsExpConfigProtocol
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *espressoBinFilePath;
-@property(readonly, nonatomic) NSString *inferenceModelConfigPath;
 @property(readonly, nonatomic) _Bool isMLModelEnabled;
 @end
 

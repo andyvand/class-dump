@@ -9,9 +9,6 @@
 @interface BMProtoField
 {
     NSString *_name;
-    long long _number;
-    long long _type;
-    Class _subMessageClass;
 }
 
 - (id);
@@ -19,14 +16,11 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)deleteImage: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long number; // @synthesize number=_number;
-@property(readonly, nonatomic) Class subMessageClass; // @synthesize subMessageClass=_subMessageClass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

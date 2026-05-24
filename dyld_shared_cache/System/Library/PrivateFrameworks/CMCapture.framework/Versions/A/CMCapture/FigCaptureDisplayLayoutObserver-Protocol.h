@@ -5,6 +5,6 @@
 //
 
 @protocol FigCaptureDisplayLayoutObserver
-- (void)FilePipeline;
+- (void)graphContainsMovieFilePipeline;
 @end
 

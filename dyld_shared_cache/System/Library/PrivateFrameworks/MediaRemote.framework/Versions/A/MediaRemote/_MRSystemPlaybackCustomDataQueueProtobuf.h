@@ -9,26 +9,24 @@
 @interface _MRSystemPlaybackCustomDataQueueProtobuf
 {
     NSData *_data;
-    NSString *_identifier;
 }
 
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)u;
 - (void);
 - (void);
+- (id)state;
+- (id)= %@, overrideModelPath = %@};
 - (id);
-- (id);
-- (id);
-- (void)Type;
+- (void)availableArtworkFormatsType;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

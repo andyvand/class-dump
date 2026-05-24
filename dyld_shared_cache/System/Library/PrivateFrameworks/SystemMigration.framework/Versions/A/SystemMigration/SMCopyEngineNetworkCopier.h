@@ -6,18 +6,11 @@
 
 #import <SystemMigration/SMCopyEngineFileCopier.h>
 
-@class NSString, NSURL, SMNetworkSourceProxy;
+@class NSURL, SMNetworkSourceProxy;
 
 @interface SMCopyEngineNetworkCopier : SMCopyEngineFileCopier
 {
     NSURL *absoluteBaseSourcePath;
-    NSURL *absoluteDestinationBasePath;
-    long long operationCompletedSize;
-    long long currentFileCompletedSize;
-    NSString *lastSkippedFile;
-    _Bool _supportsLogicalSizing;
-    _Bool _rosvSource;
-    SMNetworkSourceProxy *_proxy;
 }
 
 - (void);
@@ -34,14 +27,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain) SMNetworkSourceProxy *proxy; // @synthesize proxy=_proxy;
-@property _Bool rosvSource; // @synthesize rosvSource=_rosvSource;
 
 @end
 

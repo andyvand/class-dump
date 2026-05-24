@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZoneID, HMDDevice, HMDUnassociatedAppleMediaAccessory, HMSoftwareUpdateDescriptor, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccessoryPairingHomeState
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _state;
-    NSUUID *_homeUUID;
-    HMDDevice *_device;
-    NSUUID *_deviceIdentifier;
-    HMSoftwareUpdateDescriptor *_lastPostedSoftwareUpdateDescriptor;
-    HMBCloudZoneID *_cloudZoneID;
-    HMDUnassociatedAppleMediaAccessory *_accessory;
 }
 
 + (_Bool)¼4:Ds /* Error: Ran out of types for this method. */;
@@ -24,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)summaryOfInferencesPerMomentInDateInterval:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -39,12 +30,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDUnassociatedAppleMediaAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) HMBCloudZoneID *cloudZoneID; // @synthesize cloudZoneID=_cloudZoneID;
-@property(retain, nonatomic) HMDDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) NSUUID *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(retain, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(retain, nonatomic) HMSoftwareUpdateDescriptor *lastPostedSoftwareUpdateDescriptor; // @synthesize lastPostedSoftwareUpdateDescriptor=_lastPostedSoftwareUpdateDescriptor;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end

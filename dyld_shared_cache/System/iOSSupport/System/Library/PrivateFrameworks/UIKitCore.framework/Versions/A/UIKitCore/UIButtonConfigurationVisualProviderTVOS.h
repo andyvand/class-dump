@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIButtonConfigurationVisualProvider.h>
 
-@class NSString, _UIFloatingContentView;
+@class _UIFloatingContentView;
 
 @interface UIButtonConfigurationVisualProviderTVOS : UIButtonConfigurationVisualProvider
 {
@@ -15,8 +15,8 @@
 
 - (void);
 - (void);
-- (_Bool)acementText:(unsigned long long)arg1 andSetCaretSelectionAfterText: /* Error: Ran out of types for this method. */;
-- (void)Lifecycle;
+- (_Bool)_setAttributedTextInRange:(unsigned long long)arg1 replacementText:andSetCaretSelectionAfterText: /* Error: Ran out of types for this method. */;
+- (void)UIRequireCrimsonLifecycle;
 - (id)be added to a window;
 - (void);
 - (double);
@@ -37,13 +37,7 @@
 - (id)Dÿ-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

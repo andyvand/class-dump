@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString;
+@class NSString;
 
 @interface VMUProgressBar
 {
     NSString *_title;
-    unsigned long long _totalItems;
-    NSString *_itemName;
-    unsigned long long _itemsDone;
-    unsigned long long _successes;
-    unsigned long long _failures;
-    unsigned int _color;
-    NSLock *_itemCompletionLock;
 }
 
 - (void);
@@ -24,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)lockingViewType;
 
 @end
 

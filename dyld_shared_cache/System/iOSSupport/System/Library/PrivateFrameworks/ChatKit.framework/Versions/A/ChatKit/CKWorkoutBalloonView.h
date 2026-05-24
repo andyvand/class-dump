@@ -7,7 +7,6 @@
 #import <ChatKit/CKLinkBalloonView.h>
 
 @class LPLinkMetadata;
-@protocol CKWorkoutBalloonViewDelegate;
 
 @interface CKWorkoutBalloonView : CKLinkBalloonView
 {
@@ -23,7 +22,6 @@
 - (void)message.fill;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKWorkoutBalloonViewDelegate> delegate; // @dynamic delegate;
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

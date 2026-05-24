@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandDialog, MPCPlayerCommandRequest, MPRemoteCommandStatus, NSData, NSError, NSString;
+@class MPCPlayerCommandRequest, MPRemoteCommandStatus;
 
 @interface MPCPlayerCommandStatus
 {
     MPCPlayerCommandRequest *_request;
-    MPCPlayerCommandDialog *_dialog;
-    MPRemoteCommandStatus *_status;
 }
 
 - (id);
@@ -26,14 +24,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *customData;
-@property(readonly, nonatomic) NSString *customDataType;
-@property(readonly, nonatomic) MPCPlayerCommandDialog *dialog; // @synthesize dialog=_dialog;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) MPCPlayerCommandRequest *request; // @synthesize request=_request;
 @property(readonly, nonatomic) MPRemoteCommandStatus *status; // @synthesize status=_status;
-@property(readonly, nonatomic) long long statusCode;
-@property(readonly, nonatomic) long long type;
 
 @end
 

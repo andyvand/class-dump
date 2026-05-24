@@ -6,16 +6,12 @@
 
 #import <CoreHandwriting/CHRemotePowerLoggingRequest.h>
 
-@class NSDictionary;
-
 @interface CHRemotePowerLoggingInferenceRequest : CHRemotePowerLoggingRequest
 {
     double _start;
-    double _end;
-    NSDictionary *_data;
 }
 
-+ (_Bool);
++ (_Bool)_hideOverlayScrollers;
 - (id);
 - (id);
 - (double);
@@ -23,13 +19,11 @@
 - (id);
 - (void);
 - (double);
-- (void)oderDimension;
+- (void)decoderDimension;
 - (void);
 - (void)Ì;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *data; // @synthesize data=_data;
-@property(nonatomic) double end; // @synthesize end=_end;
 @property(nonatomic) double start; // @synthesize start=_start;
 
 @end

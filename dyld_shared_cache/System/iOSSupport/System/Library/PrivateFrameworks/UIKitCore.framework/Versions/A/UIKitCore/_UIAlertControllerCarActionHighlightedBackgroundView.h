@@ -6,31 +6,24 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerCarActionHighlightedBackgroundView : UIView
 {
 }
 
-- (void);
+- (void)populateIMMessageItemWithProtobufFields:(unsigned long long)arg1 withProtobufDataP3: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÐóZþ;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIColor *fillColor;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIColor",?,&,N
 
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

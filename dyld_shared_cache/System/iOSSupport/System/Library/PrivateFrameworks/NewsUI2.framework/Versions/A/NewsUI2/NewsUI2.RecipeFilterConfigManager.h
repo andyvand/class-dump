@@ -7,8 +7,6 @@
 @interface NewsUI2.RecipeFilterConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

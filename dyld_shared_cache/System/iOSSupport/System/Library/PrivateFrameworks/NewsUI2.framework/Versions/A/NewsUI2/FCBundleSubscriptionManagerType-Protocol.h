@@ -5,9 +5,10 @@
 //
 
 @class FCBundleSubscription;
-@protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleSubscriptionManagerType
+- (void)#;
+- (void);
 - (void)Ôáð!ÈAùñð1Â0@ù
 × ;
 - (void)p;
@@ -16,7 +17,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
-@property(readonly, nonatomic) FCBundleSubscription *validatedCachedSubscription;
 @end
 

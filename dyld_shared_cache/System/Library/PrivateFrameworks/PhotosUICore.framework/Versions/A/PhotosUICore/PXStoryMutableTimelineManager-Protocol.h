@@ -7,6 +7,7 @@
 @class NSIndexSet;
 
 @protocol PXStoryMutableTimelineManager
+- (NSIndexSet *);
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *visibleSegmentIdentifiers;

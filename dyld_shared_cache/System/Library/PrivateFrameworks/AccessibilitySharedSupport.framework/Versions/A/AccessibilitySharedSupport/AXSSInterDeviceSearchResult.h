@@ -9,7 +9,6 @@
 @interface AXSSInterDeviceSearchResult
 {
     NSString *_deviceType;
-    MCPeerID *_peerID;
 }
 
 + (id);
@@ -18,14 +17,12 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)tyDomains table:(id)arg1 %{public}@ (%d);
 - (id);
 - (void);
 - (void)óÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(readonly, nonatomic) NSString *name;
 @property(retain, nonatomic) MCPeerID *peerID; // @synthesize peerID=_peerID;
 
 @end

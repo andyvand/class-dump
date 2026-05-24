@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_TtC12DebugSymbols29RecursiveSymbolSearchStrategy;
 
 @end
 

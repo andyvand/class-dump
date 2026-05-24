@@ -6,39 +6,33 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString, UITouch;
-
 __attribute__((visibility("hidden")))
 @interface _UIGestureStudyMetricsGestureRecognizer : UIGestureRecognizer
 {
     long long _observedTouchCount;
-    double _startTimestamp;
-    double _allowableMovement;
-    UITouch *_primaryTouch;
-    struct CGPoint _originalPosition;
 }
 
 - (void);
-- (id);
-- (long long);
+- (id)updatedMessagesForMessages: /* Error: Ran out of types for this method. */;
+- (long long)setNetworkDataAvailable: /* Error: Ran out of types for this method. */;
 - (double);
-- (void);
+- (void)A;
 - (void);
 - (struct CGPoint);
 - (void);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint)A;
 - (_Bool)
 × ;
 - (_Bool)IContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32@0:(id)arg1 8{CGSize=dd}16;
 - (id)})16;
-- (_Bool)eventPaddlesForPointerTouches:(id)arg1;
-- (id)e;
-- (struct CGPoint)led;
-- (void)ntPoint;
-- (void)thsIfNecessary:(id)arg1;
-- (void)ectedUINSSceneView;
-- (void)ouchInsets;
+- (_Bool)setPreventPaddlesForPointerTouches:(id)arg1;
+- (id)previewContainerAnimationDidComplete;
+- (struct CGPoint)pagingEnabled;
+- (void)m_extentPoint;
+- (void)_shiftReferenceMonthToFitOffsetMonthsIfNecessary:(id)arg1;
+- (void)_connectedUINSSceneView;
+- (void)__touchInsets;
 - (_Bool)knobImageOffset;
 - (double)ÄU;
 - (_Bool)24;
@@ -47,21 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) NSString *eventName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double movement;
-@property(readonly, nonatomic) long long observedTouchCount; // @synthesize observedTouchCount=_observedTouchCount;
-@property(nonatomic) struct CGPoint originalPosition; // @synthesize originalPosition=_originalPosition;
-@property(retain, nonatomic) UITouch *primaryTouch; // @synthesize primaryTouch=_primaryTouch;
 @property(nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

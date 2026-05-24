@@ -7,8 +7,6 @@
 @interface CSGenerativeModelsAvailabilityManager
 {
     int _gmsNotifyToken;
-    int _cachedStatuses[3];
-    struct _opaque_pthread_rwlock_t _cacheLock;
 }
 
 + (id);

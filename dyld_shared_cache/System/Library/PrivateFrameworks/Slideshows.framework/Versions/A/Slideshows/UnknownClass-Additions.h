@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (Additions)
-- (long long);
-- (id);
-- (id);
-- (long long);
-- (long long);
+- (long long)@0:(long long)arg1 8;
+- (id)cacheCoordinator:(long long)arg1 flushKeysWithWriteLock: /* Error: Ran out of types for this method. */;
+- (id)cacheCoordinator;
+- (long long)backgroundSession;
+- (long long)autorelease;
 @end
 

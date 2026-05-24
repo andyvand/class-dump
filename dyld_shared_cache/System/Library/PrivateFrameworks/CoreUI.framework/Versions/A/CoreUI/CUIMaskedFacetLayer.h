@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIThemeFacet;
-
 __attribute__((visibility("hidden")))
 @interface CUIMaskedFacetLayer
 {
     struct CGPath *_maskPath;
-    CUIThemeFacet *_facet;
-    long long _drawingLayer;
 }
 
 - (void);
@@ -26,8 +22,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property long long drawingLayer; // @synthesize drawingLayer=_drawingLayer;
-@property(retain, nonatomic) CUIThemeFacet *facet; // @synthesize facet=_facet;
 @property(nonatomic) struct CGPath *maskPath; // @synthesize maskPath=_maskPath;
 
 @end

@@ -6,12 +6,9 @@
 
 #import <IMAP/IMAPNumericResponse.h>
 
-@class IMAPAppleRemoteLinksFetchResult, IMAPBodyHeaderFetchResult, IMAPBodySectionFetchResult, IMAPBodyStructureFetchResult, IMAPBodyTextFetchResult, IMAPEnvelopeFetchResult, IMAPFlagsFetchResult, IMAPGmailLabelsFetchResult, IMAPInternalDateFetchResult, IMAPModificationSequenceFetchResult, IMAPRFC822SizeFetchResult, IMAPUidFetchResult, NSArray;
-
 @interface IMAPFetchResponse : IMAPNumericResponse
 {
     _Bool _isValid;
-    NSArray *_fetchResults;
 }
 
 + (_Bool);
@@ -23,35 +20,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (id);
 - (const char *);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) IMAPAppleRemoteLinksFetchResult *appleRemoteLinksFetchResult;
-@property(readonly, nonatomic) IMAPBodyHeaderFetchResult *bodyHeaderFetchResult;
-@property(readonly, nonatomic) IMAPBodySectionFetchResult *bodySectionFetchResult;
-@property(readonly, nonatomic) IMAPBodyStructureFetchResult *bodyStructureFetchResult;
-@property(readonly, nonatomic) IMAPBodyTextFetchResult *bodyTextFetchResult;
-@property(readonly, nonatomic) IMAPEnvelopeFetchResult *envelopeFetchResult;
-@property(copy, nonatomic) NSArray *fetchResults; // @synthesize fetchResults=_fetchResults;
-@property(readonly, nonatomic) IMAPFlagsFetchResult *flagsFetchResult;
-@property(readonly, nonatomic) IMAPGmailLabelsFetchResult *gmailLabelsFetchResult;
-@property(readonly, nonatomic) IMAPInternalDateFetchResult *internalDateFetchResult;
 @property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly, nonatomic) IMAPModificationSequenceFetchResult *modificationSequenceFetchResult;
-@property(readonly, nonatomic) IMAPRFC822SizeFetchResult *rfc822SizeFetchResult;
-@property(readonly, nonatomic) IMAPUidFetchResult *uidFetchResult;
 
 @end
 

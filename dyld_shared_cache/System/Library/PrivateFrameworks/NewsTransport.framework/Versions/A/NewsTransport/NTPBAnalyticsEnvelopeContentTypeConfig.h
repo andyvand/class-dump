@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBAnalyticsEnvelopeContentTypeConfig
 {
     unsigned long long _groupingTag;
-    unsigned long long _seedTime;
-    NSString *_contentHeaderName;
-    NSString *_contentHeaderValue;
-    NSString *_endpointURLString;
-    unsigned int _samplingCeiling;
-    unsigned int _samplingFloor;
-    struct {
-        unsigned int groupingTag:1;
-        unsigned int seedTime:1;
-        unsigned int samplingCeiling:1;
-        unsigned int samplingFloor:1;
-    } _has;
 }
 
 - (_Bool);
-- (void);
+- (void)setCropRect:(_Bool)arg1;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (id);
+- (id)A;
 - (unsigned long long);
 - (void);
+- (unsigned long long)i;
+- (void);
+- (void)t;
+- (_Bool)setPerPeriodLogLimit: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (void)ce too old:(unsigned int)arg1 Source version:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)3;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)_eveningTimeOfDayConfiguration;
+- (_Bool)_allOperationErrors;
 - (_Bool);
 - (void);
 - (void);
@@ -55,24 +41,11 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void)NewFavorite:(unsigned long long)arg1;
-- (_Bool)RIANT;
+- (void)setInitialArticlesFromNewFavorite:(unsigned long long)arg1;
+- (_Bool)COMPLETE_TRACK_VARIANT;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentHeaderName; // @synthesize contentHeaderName=_contentHeaderName;
-@property(retain, nonatomic) NSString *contentHeaderValue; // @synthesize contentHeaderValue=_contentHeaderValue;
-@property(retain, nonatomic) NSString *endpointURLString; // @synthesize endpointURLString=_endpointURLString;
-@property(nonatomic) unsigned long long groupingTag; // @synthesize groupingTag=_groupingTag;
-@property(readonly, nonatomic) _Bool hasContentHeaderName;
-@property(readonly, nonatomic) _Bool hasContentHeaderValue;
 @property(readonly, nonatomic) _Bool hasEndpointURLString;
-@property(nonatomic) _Bool hasGroupingTag;
-@property(nonatomic) _Bool hasSamplingCeiling;
-@property(nonatomic) _Bool hasSamplingFloor;
-@property(nonatomic) _Bool hasSeedTime;
-@property(nonatomic) unsigned int samplingCeiling; // @synthesize samplingCeiling=_samplingCeiling;
-@property(nonatomic) unsigned int samplingFloor; // @synthesize samplingFloor=_samplingFloor;
-@property(nonatomic) unsigned long long seedTime; // @synthesize seedTime=_seedTime;
 
 @end
 

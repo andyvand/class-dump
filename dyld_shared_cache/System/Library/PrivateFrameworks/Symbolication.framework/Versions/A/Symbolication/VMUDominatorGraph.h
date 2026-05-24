@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, VMUGraphEnumerator;
+@class VMUGraphEnumerator;
 
 @interface VMUDominatorGraph
 {
     VMUGraphEnumerator *_reverseGraphEnumerator;
-    unsigned int _nodeNamespaceSize;
-    NSData *_dominators_data;
-    NSData *_firstDominates_data;
-    NSData *_nextDominates_data;
-    unsigned int *_dominators;
-    unsigned int *_firstDominates;
-    unsigned int *_nextDominates;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
+- (void)k"Q;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (id);
@@ -44,7 +37,7 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)kJ;
 - (id);
 - (unsigned int);
 - (id);
@@ -53,12 +46,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int *dominators; // @synthesize dominators=_dominators;
-@property(retain, nonatomic) NSData *dominators_data; // @synthesize dominators_data=_dominators_data;
-@property(nonatomic) unsigned int *firstDominates; // @synthesize firstDominates=_firstDominates;
-@property(retain, nonatomic) NSData *firstDominates_data; // @synthesize firstDominates_data=_firstDominates_data;
-@property(nonatomic) unsigned int *nextDominates; // @synthesize nextDominates=_nextDominates;
-@property(retain, nonatomic) NSData *nextDominates_data; // @synthesize nextDominates_data=_nextDominates_data;
 @property(nonatomic) unsigned int nodeNamespaceSize; // @synthesize nodeNamespaceSize=_nodeNamespaceSize;
 
 @end

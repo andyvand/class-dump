@@ -9,12 +9,9 @@
 @interface MLCResizeGPUDeviceOps : MLCGPUDeviceOps
 {
     _Bool _alignCorners;
-    _Bool _isSpecialCasedNearestForwardKernel;
-    float _scaleFactorX;
-    float _scaleFactorY;
 }
 
-+ (id);
++ (id)!;
 - (void);
 - (void);
 - (void);
@@ -26,10 +23,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool alignCorners; // @synthesize alignCorners=_alignCorners;
-@property(nonatomic) _Bool isSpecialCasedNearestForwardKernel; // @synthesize isSpecialCasedNearestForwardKernel=_isSpecialCasedNearestForwardKernel;
 @property(nonatomic) float scaleFactorX; // @synthesize scaleFactorX=_scaleFactorX;
-@property(nonatomic) float scaleFactorY; // @synthesize scaleFactorY=_scaleFactorY;
 
 @end
 

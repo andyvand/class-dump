@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, UISApplicationSupportDisplayEdgeInsetsWrapper;
+@class UISApplicationSupportDisplayEdgeInsetsWrapper;
 
 @interface UISApplicationSupportDisplayEdgeInfo
 {
@@ -14,31 +14,24 @@
             unsigned int assertOnMutationAttempt:1;
         } flags;
     } _infoFlags;
-    UISApplicationSupportDisplayEdgeInsetsWrapper *_peripheryInsets;
-    NSNumber *_systemMinimumMargin;
-    NSNumber *_homeAffordanceOverlayAllowance;
-    UISApplicationSupportDisplayEdgeInsetsWrapper *_safeAreaInsetsPortrait;
-    UISApplicationSupportDisplayEdgeInsetsWrapper *_safeAreaInsetsLandscapeLeft;
-    UISApplicationSupportDisplayEdgeInsetsWrapper *_safeAreaInsetsPortraitUpsideDown;
-    UISApplicationSupportDisplayEdgeInsetsWrapper *_safeAreaInsetsLandscapeRight;
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)<;
+- (void)copyDeflatedDataFromStream:(id)arg1 withCap: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithFragmentedPacketData:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)mpleDataTrackIDs:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -48,20 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *homeAffordanceOverlayAllowance; // @synthesize homeAffordanceOverlayAllowance=_homeAffordanceOverlayAllowance;
 @property(retain, nonatomic) UISApplicationSupportDisplayEdgeInsetsWrapper *peripheryInsets; // @synthesize peripheryInsets=_peripheryInsets;
-@property(retain, nonatomic) UISApplicationSupportDisplayEdgeInsetsWrapper *safeAreaInsetsLandscapeLeft; // @synthesize safeAreaInsetsLandscapeLeft=_safeAreaInsetsLandscapeLeft;
-@property(retain, nonatomic) UISApplicationSupportDisplayEdgeInsetsWrapper *safeAreaInsetsLandscapeRight; // @synthesize safeAreaInsetsLandscapeRight=_safeAreaInsetsLandscapeRight;
-@property(retain, nonatomic) UISApplicationSupportDisplayEdgeInsetsWrapper *safeAreaInsetsPortrait; // @synthesize safeAreaInsetsPortrait=_safeAreaInsetsPortrait;
-@property(retain, nonatomic) UISApplicationSupportDisplayEdgeInsetsWrapper *safeAreaInsetsPortraitUpsideDown; // @synthesize safeAreaInsetsPortraitUpsideDown=_safeAreaInsetsPortraitUpsideDown;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *systemMinimumMargin; // @synthesize systemMinimumMargin=_systemMinimumMargin;
 
 @end
 

@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)GraphSceneFeatureNode;
+- (id)removeIconFilesNotReferencedInDatabaseWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGGraphSceneFeatureNode;
 
 @end
 

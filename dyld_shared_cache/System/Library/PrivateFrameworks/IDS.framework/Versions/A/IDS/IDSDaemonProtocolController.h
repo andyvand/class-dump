@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSGroupContextNotifyingObserver, NSXPCConnection;
-@protocol IDSGroupContextCacheMiddlewareDaemonProtocol, IDSGroupContextDataSourceDaemonProtocol;
+@class NSXPCConnection;
 
 @interface IDSDaemonProtocolController
 {
     NSXPCConnection *_connection;
-    IDSGroupContextNotifyingObserver *_observer;
 }
 
 + (id)ionKeyValueDeliveryDelegate>"16@"NSUUID"24;
@@ -18,16 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)N,V_iconURL;
 - (void)f(ð!;
 - (void)espond to participantIDForAlias:(id)arg1 salt: /* Error: Ran out of types for this method. */;
 - (id)ctedSubscriptions:withCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) id <IDSGroupContextCacheMiddlewareDaemonProtocol> groupContextCacheMiddleware;
-@property(readonly, nonatomic) id <IDSGroupContextDataSourceDaemonProtocol> groupContextDataSource;
-@property(retain, nonatomic) IDSGroupContextNotifyingObserver *observer; // @synthesize observer=_observer;
 
 @end
 

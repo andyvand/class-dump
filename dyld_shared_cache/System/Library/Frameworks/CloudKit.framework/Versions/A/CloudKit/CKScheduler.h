@@ -10,10 +10,6 @@
 @interface CKScheduler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_handlersByCKActivityIdentifier;
-    NSMutableDictionary *_earliestStartDateBySchedulerActivityIdentifier;
-    NSMutableDictionary *_activitiesPendingResubmitByActivityIdentifier;
 }
 
 + (id);
@@ -34,14 +30,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (void);
 - (_Bool)´;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *activitiesPendingResubmitByActivityIdentifier; // @synthesize activitiesPendingResubmitByActivityIdentifier=_activitiesPendingResubmitByActivityIdentifier;
-@property(readonly, nonatomic) NSMutableDictionary *earliestStartDateBySchedulerActivityIdentifier; // @synthesize earliestStartDateBySchedulerActivityIdentifier=_earliestStartDateBySchedulerActivityIdentifier;
 @property(readonly, nonatomic) NSMutableDictionary *handlersByCKActivityIdentifier; // @synthesize handlersByCKActivityIdentifier=_handlersByCKActivityIdentifier;
 
 @end

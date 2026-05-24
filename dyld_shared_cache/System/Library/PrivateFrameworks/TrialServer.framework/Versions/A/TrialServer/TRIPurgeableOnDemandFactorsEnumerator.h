@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol TRINamespaceResolving, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRIPurgeableOnDemandFactorsEnumerator
 {
     id <TRIPaths> _paths;
-    id <TRINamespaceResolving> _namespaceResolver;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)pixelEffectivePreferred;
+- (void)maxStrechAmountNormalized;
+- (void)markMayContainBakedHeadroom;
+- (void)initWithImageURL:(id)arg1 contentType:(id)arg2 options:(id)arg3 timeZoneLookup:(CDUnknownBlockType)arg4 cacheImageSource:cacheImageData: /* Error: Ran out of types for this method. */;
+- (void)initWithImageSize:(id)arg1 deviceResolution:(CDUnknownBlockType)arg2 parallaxPadding:visibleFrame:adaptiveVisibleFrame:inactiveFrame:adaptiveInactiveTopFrame:spatialVisibleFrame:spatialAdaptiveFrame:timeFrame:adaptiveTimeFrame:salientContentFrame:clockLayerOrder:clockIntersection:layoutVariant:hasTopEdgeContact:maxClockShift:debugLayouts: /* Error: Ran out of types for this method. */;
+- (void)initWithImageProperties:(id)arg1 contentType:(CDUnknownBlockType)arg2 timeZoneLookup: /* Error: Ran out of types for this method. */;
 - (void)a×ð!lAù1!1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

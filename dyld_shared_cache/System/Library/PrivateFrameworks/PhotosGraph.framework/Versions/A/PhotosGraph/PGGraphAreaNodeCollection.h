@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSString, PGGraphAddressNodeCollection, PGGraphFeatureNodeCollection;
+@class PGGraphAddressNodeCollection;
 
 @interface PGGraphAreaNodeCollection : PGGraphNodeCollection
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (Class);
-- (id);
+- (id)ment",C,N,V_axfUIElement;
 - (id);
 - (void);
 - (void);
@@ -24,14 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphAddressNodeCollection *addressNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,13 +11,9 @@
 @interface _NSToolbarItemViewerLabelCellPopUpCell : NSPopUpButtonCell
 {
     NSString *_realTitle;
-    NSToolbarItemViewer *_itemViewer;
-    struct CGSize _cachedOutputCellSize;
-    long long _state;
-    _Bool _showingRollover;
 }
 
-- (struct CGRect);
+- (struct CGRect)ytes) ***;
 - (void);
 - (void);
 - (id);
@@ -38,18 +34,18 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint)E;
 - (_Bool);
+- (_Bool)X!;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)%@;
+- (_Bool)ng request for Connection %lld;
+- (void)egate;
 - (long long);
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long)"000000"><a:alpha val="38000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
 - (void)h model updates (animated:(id)arg1 %d);
@@ -58,7 +54,6 @@
 
 // Remaining properties
 @property __weak NSToolbarItemViewer *itemViewer;
-@property _Bool showingRollover; // @synthesize showingRollover=_showingRollover;
 
 @end
 

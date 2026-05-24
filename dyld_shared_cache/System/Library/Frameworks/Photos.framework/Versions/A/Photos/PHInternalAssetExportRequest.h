@@ -6,18 +6,15 @@
 
 #import <Photos/PHAssetExportRequest.h>
 
-@class NSObject, NSProgress, PHResourceLocalAvailabilityRequest;
-@protocol OS_dispatch_queue;
+@class PHResourceLocalAvailabilityRequest;
 
 @interface PHInternalAssetExportRequest : PHAssetExportRequest
 {
     PHResourceLocalAvailabilityRequest *_resourceRetrievalRequest;
-    NSProgress *_resourceRetrievalRequestProgressParent;
-    NSObject<OS_dispatch_queue> *_resourceRetrievingQueue;
 }
 
 + (id);
-+ (id);
++ (id)*;
 + (_Bool);
 + (id);
 + (id);

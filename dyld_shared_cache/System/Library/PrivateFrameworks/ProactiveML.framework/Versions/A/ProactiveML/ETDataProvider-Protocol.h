@@ -5,5 +5,8 @@
 //
 
 @protocol ETDataProvider
+
+@optional
+- (void);
 @end
 

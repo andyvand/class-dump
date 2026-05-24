@@ -11,23 +11,19 @@
 @interface WBSRetryableCKFetchSubscriptionsOperation : WBSRetryableCKDatabaseOperation
 {
     NSArray *_subscriptionIDs;
-    CDUnknownBlockType _perSubscriptionCompletionBlock;
-    CDUnknownBlockType _fetchSubscriptionCompletionBlock;
 }
 
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)onary";
+- (id)_transientLexiconWithCustomEntries;
 - (void);
-- (void);
+- (void)alUnitCount;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchSubscriptionCompletionBlock; // @synthesize fetchSubscriptionCompletionBlock=_fetchSubscriptionCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionCompletionBlock; // @synthesize perSubscriptionCompletionBlock=_perSubscriptionCompletionBlock;
 @property(copy, nonatomic) NSArray *subscriptionIDs; // @synthesize subscriptionIDs=_subscriptionIDs;
 
 @end

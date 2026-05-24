@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, SMCacheMO;
+@class NSUUID;
 
 @interface SMDeviceStatusMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)KeyExpirationDate:(id)arg1 settingsKeyIdentifier:(id)arg2 complete:(id)arg3;
++ (id)triggerSyncingWithEscrowProxy:(id)arg1 dsid:(id)arg2 publicKeys:accountIdentifier:settingsKeyExpirationDate:settingsKeyIdentifier:complete: /* Error: Ran out of types for this method. */;
++ (id)eepalive to %d;
 
 // Remaining properties
-@property(nonatomic) short batteryRemaining; // @dynamic batteryRemaining;
-@property(retain, nonatomic) SMCacheMO *cache; // @dynamic cache;
-@property(nonatomic) short cellularStrength; // @dynamic cellularStrength;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic) short wifiStrength; // @dynamic wifiStrength;
 
 @end
 

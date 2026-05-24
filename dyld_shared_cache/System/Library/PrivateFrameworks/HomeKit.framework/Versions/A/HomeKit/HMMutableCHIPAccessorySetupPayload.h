@@ -6,8 +6,6 @@
 
 #import <HomeKit/HMCHIPAccessorySetupPayload.h>
 
-@class NSNumber, NSString;
-
 @interface HMMutableCHIPAccessorySetupPayload : HMCHIPAccessorySetupPayload
 {
 }
@@ -15,13 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *deviceTypeID; // @dynamic deviceTypeID;
 @property(nonatomic) _Bool hasShortDiscriminator; // @dynamic hasShortDiscriminator;
-@property(copy, nonatomic) NSNumber *productID; // @dynamic productID;
-@property(nonatomic) _Bool requiresCustomFlow; // @dynamic requiresCustomFlow;
-@property(copy, nonatomic) NSString *serialNumber; // @dynamic serialNumber;
-@property(copy, nonatomic) NSString *setupPayloadString; // @dynamic setupPayloadString;
-@property(copy, nonatomic) NSNumber *vendorID; // @dynamic vendorID;
 
 @end
 

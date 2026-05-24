@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)isAccessibilityOpaqueElementProvider;
 + (void);
 - (void);
 - (void);

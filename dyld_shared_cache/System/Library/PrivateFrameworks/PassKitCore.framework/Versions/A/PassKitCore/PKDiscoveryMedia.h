@@ -4,48 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSString, NSURL, PKColor;
+@class NSURL;
 
 @interface PKDiscoveryMedia
 {
     NSURL *_bundleURL;
-    long long _type;
-    NSDictionary *_urls;
-    double _width;
-    double _height;
-    PKColor *_backgroundColor;
-    NSString *_bundleImageName;
 }
 
 + (_Bool)X"°!àEùî%°1Â0@ù
 × ;
 - (id);
 - (void);
-- (id);
+- (id)+C9;
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)4*
+;
 - (double);
 - (double);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)hasTxCompletionSnapshotBE;
 - (void);
-- (id)fier: /* Error: Ran out of types for this method. */;
-- (id)raction;
+- (id)authorizationStatusForCapability:bundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_requiresInteraction;
 - (id)inStationString;
-- (void)penLoopExpressUpgrade;
+- (void)OpenLoopExpressUpgrade;
 
 // Remaining properties
-@property(readonly, nonatomic) PKColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) NSBundle *bundle;
-@property(readonly, nonatomic) NSString *bundleImageName; // @synthesize bundleImageName=_bundleImageName;
-@property(readonly, nonatomic) double height; // @synthesize height=_height;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSDictionary *urls; // @synthesize urls=_urls;
-@property(readonly, nonatomic) double width; // @synthesize width=_width;
 
 @end
 

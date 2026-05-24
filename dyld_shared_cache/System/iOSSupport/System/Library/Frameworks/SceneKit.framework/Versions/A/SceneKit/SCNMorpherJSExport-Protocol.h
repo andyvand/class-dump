@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SCNMorpher;
+@class CAAnimation, NSArray, NSString;
 
 @protocol SCNMorpherJSExport
+- (long long);
+- (NSArray *)unorderedSimplifiedPointsFromPoints:factor: /* Error: Ran out of types for this method. */;
+- (CAAnimation *)unionClock:(NSString *)arg1 subclock:forUUID: /* Error: Ran out of types for this method. */;
+- (id)+ %ld);
 - (void);
 - (void)4x4    inverseTransposeViewTransform;
 
@@ -129,13 +133,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) long long calculationMode;
-@property(retain, nonatomic) NSArray *channelTargetCounts;
-@property(retain, nonatomic) NSArray *channelTargetWeights;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) SCNMorpher *presentationMorpher;
 @property(copy, nonatomic) NSArray *targets;
-@property _Bool unifiesNormals;
-@property(retain, nonatomic) NSArray *weights;
 @end
 

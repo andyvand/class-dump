@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-@protocol OutlineViewPlusDataSource, OutlineViewPlusDelegate;
+@protocol OutlineViewPlusDelegate;
 
 __attribute__((visibility("hidden")))
 @interface OutlineViewPlus
 {
     _Bool _lockSelection;
-    int _doubleClickTimerAction;
-    NSTimer *_doubleClickTimer;
-    long long _clickedRow;
-    long long _clickedColumn;
-    _Bool _hidesSideSeparators;
-    _Bool _acceptsFirstMouse;
 }
 
 - (_Bool);
@@ -35,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void);
@@ -51,14 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿUÂ/;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptsFirstMouse; // @synthesize acceptsFirstMouse=_acceptsFirstMouse;
-@property __weak id <OutlineViewPlusDataSource> dataSource; // @dynamic dataSource;
 @property __weak id <OutlineViewPlusDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool hidesSideSeparators; // @synthesize hidesSideSeparators=_hidesSideSeparators;
-@property(readonly, nonatomic) _Bool wantsDFRAccessoriesInFieldEditor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

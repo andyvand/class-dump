@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKSimulatorPreferencesBar, NSScrollView, NSTextView, NSView;
+@class NSScrollView, NSView;
 
 @interface IMKSimulatorWindowContentView
 {
     NSScrollView *_scrollViewForTextView;
-    NSTextView *_textView;
-    IMKSimulatorPreferencesBar *_preferencesBar;
-    NSView *_delegateView;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -24,16 +21,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSView *delegateView; // @synthesize delegateView=_delegateView;
-@property(retain, nonatomic) IMKSimulatorPreferencesBar *preferencesBar; // @synthesize preferencesBar=_preferencesBar;
-@property(retain, nonatomic) NSScrollView *scrollViewForTextView; // @synthesize scrollViewForTextView=_scrollViewForTextView;
-@property(retain, nonatomic) NSTextView *textView; // @synthesize textView=_textView;
 
 @end
 

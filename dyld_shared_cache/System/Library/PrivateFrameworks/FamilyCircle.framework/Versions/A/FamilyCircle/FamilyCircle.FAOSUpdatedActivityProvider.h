@@ -7,7 +7,6 @@
 @interface FamilyCircle.FAOSUpdatedActivityProvider
 {
     id activityBlock;
-    id criteria;
 }
 
 @end

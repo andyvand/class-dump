@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ASDGatherLogsRequestOptions
 {
     _Bool _verbose;
-    NSString *_fileName;
-    NSArray *_urlFilters;
 }
 
 - (id);
@@ -18,14 +16,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)eForPrompt:(struct _NSZone *)arg1 withReply:] /* Error: Ran out of types for this method. */;
+- (id)s-certCRLTimestamp;
+- (void)}SH;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(copy, nonatomic) NSArray *urlFilters; // @synthesize urlFilters=_urlFilters;
-@property(nonatomic) _Bool verbose; // @synthesize verbose=_verbose;
 
 @end
 

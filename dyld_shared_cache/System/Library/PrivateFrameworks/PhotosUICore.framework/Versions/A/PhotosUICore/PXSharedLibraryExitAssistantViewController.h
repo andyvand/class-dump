@@ -6,19 +6,11 @@
 
 #import <PhotosUICore/PXAssistantTemplateContainerViewController.h>
 
-@class NSButton, NSString;
-@protocol PXSharedLibraryExitAssistantViewControllerDelegate;
+@class NSButton;
 
 @interface PXSharedLibraryExitAssistantViewController : PXAssistantTemplateContainerViewController
 {
     NSButton *_keepAllButton;
-    NSButton *_contributedOnlyButton;
-    NSString *_keepAllCountsString;
-    NSString *_contributedOnlyCountsString;
-    _Bool _currentUserIsOwner;
-    _Bool _disableControlsWithBusyIndicator;
-    id <PXSharedLibraryExitAssistantViewControllerDelegate> _delegate;
-    long long _exitRetentionPolicy;
 }
 
 - (void);
@@ -36,11 +28,9 @@
 - (void);
 - (id);
 - (void);
-- (void)llectionStaticColorGradeModel;
+- (void)PhotosCollectionStaticColorGradeModel;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXSharedLibraryExitAssistantViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool disableControlsWithBusyIndicator; // @synthesize disableControlsWithBusyIndicator=_disableControlsWithBusyIndicator;
 @property(nonatomic) long long exitRetentionPolicy; // @synthesize exitRetentionPolicy=_exitRetentionPolicy;
 
 @end

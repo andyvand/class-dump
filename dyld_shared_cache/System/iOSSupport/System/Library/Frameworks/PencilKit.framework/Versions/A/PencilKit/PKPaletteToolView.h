@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLayoutConstraint, NSString, PKPaletteAttributeViewController, PKPaletteToolImageContentView, PKPaletteToolShadowPathView, PKToolConfiguration, UIPointerInteraction;
-@protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool, PKPaletteTool;
+@class NSLayoutConstraint;
 
 @interface PKPaletteToolView
 {
     _Bool _allowHDR;
-    _Bool _supportsDisplayingSelectedColor;
-    _Bool _selectedToolOffsetEnabled;
-    _Bool _toolImageNeedsReload;
-    PKPaletteAttributeViewController *_attributeViewController;
-    NSString *_toolIdentifier;
-    NSString *_itemIdentifier;
-    NSString *_toolVariant;
-    unsigned long long _edgeLocation;
-    unsigned long long _cornerLocation;
-    double _scalingFactor;
-    NSDictionary *_toolProperties;
-    long long _colorUserInterfaceStyle;
-    PKToolConfiguration *_configuration;
-    UIPointerInteraction *_pointerInteraction;
-    PKPaletteToolImageContentView *_imageContentView;
-    PKPaletteToolShadowPathView *_toolShadowView;
-    NSLayoutConstraint *_toolShadowViewTopAnchorConstraint;
-    NSLayoutConstraint *_toolShadowViewLeftAnchorConstraint;
-    NSLayoutConstraint *_toolShadowViewBottomAnchorConstraint;
-    NSLayoutConstraint *_toolShadowViewRightAnchorConstraint;
-    NSLayoutConstraint *_imageViewTopAnchorConstraint;
-    NSLayoutConstraint *_imageViewBottomAnchorConstraint;
-    NSLayoutConstraint *_imageViewLeftAnchorConstraint;
-    NSLayoutConstraint *_imageViewRightAnchorConstraint;
-    NSLayoutConstraint *_imageViewWidthAnchorConstraint;
-    NSLayoutConstraint *_imageViewHeightAnchorConstraint;
-    struct CGSize _lastRemoteEffectsBoundsSize;
 }
 
 + (id);
@@ -107,7 +79,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ringtoneSoundUrlstring;
 - (id);
 - (void);
 - (struct CGSize);
@@ -115,56 +87,17 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id)ectingColorAppearance;
-- (void)ctionDelegate;
+- (id)systemTraitsAffectingColorAppearance;
+- (void)PKScribbleInteractionDelegate;
 - (void)°>6;
 - (void)ment state or document state changed while waiting for remote operation.;
-- (id)trokeProvider;
+- (id)RecognitionStrokeProvider;
 
 // Remaining properties
-@property(nonatomic) _Bool allowHDR; // @synthesize allowHDR=_allowHDR;
-@property(readonly, nonatomic) PKPaletteAttributeViewController *attributeViewController; // @synthesize attributeViewController=_attributeViewController;
-@property(nonatomic) long long colorUserInterfaceStyle; // @synthesize colorUserInterfaceStyle=_colorUserInterfaceStyle;
-@property(copy, nonatomic) PKToolConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long edgeLocation; // @synthesize edgeLocation=_edgeLocation;
-@property(readonly, nonatomic) id <PKPaletteErasingTool> erasingTool;
-@property(readonly, nonatomic) id <PKPaletteHandwritingTool> handwritingTool;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKPaletteToolImageContentView *imageContentView; // @synthesize imageContentView=_imageContentView;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewBottomAnchorConstraint; // @synthesize imageViewBottomAnchorConstraint=_imageViewBottomAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewHeightAnchorConstraint; // @synthesize imageViewHeightAnchorConstraint=_imageViewHeightAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewLeftAnchorConstraint; // @synthesize imageViewLeftAnchorConstraint=_imageViewLeftAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewRightAnchorConstraint; // @synthesize imageViewRightAnchorConstraint=_imageViewRightAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewTopAnchorConstraint; // @synthesize imageViewTopAnchorConstraint=_imageViewTopAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewWidthAnchorConstraint; // @synthesize imageViewWidthAnchorConstraint=_imageViewWidthAnchorConstraint;
-@property(readonly, nonatomic) id <PKPaletteInkingTool> inkingTool;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(nonatomic) struct CGSize lastRemoteEffectsBoundsSize; // @synthesize lastRemoteEffectsBoundsSize=_lastRemoteEffectsBoundsSize;
-@property(retain, nonatomic) UIPointerInteraction *pointerInteraction; // @synthesize pointerInteraction=_pointerInteraction;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(nonatomic) _Bool selectedToolOffsetEnabled; // @synthesize selectedToolOffsetEnabled=_selectedToolOffsetEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsDisplayingSelectedColor; // @synthesize supportsDisplayingSelectedColor=_supportsDisplayingSelectedColor;
-@property(readonly, nonatomic) id <PKPaletteTool> tool;
-@property(readonly, nonatomic) NSString *toolIdentifier; // @synthesize toolIdentifier=_toolIdentifier;
-@property(readonly, nonatomic) _Bool toolImageNeedsReload; // @synthesize toolImageNeedsReload=_toolImageNeedsReload;
-@property(readonly, nonatomic) NSString *toolName;
-@property(copy, nonatomic) NSDictionary *toolProperties; // @synthesize toolProperties=_toolProperties;
-@property(retain, nonatomic) PKPaletteToolShadowPathView *toolShadowView; // @synthesize toolShadowView=_toolShadowView;
-@property(retain, nonatomic) NSLayoutConstraint *toolShadowViewBottomAnchorConstraint; // @synthesize toolShadowViewBottomAnchorConstraint=_toolShadowViewBottomAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolShadowViewLeftAnchorConstraint; // @synthesize toolShadowViewLeftAnchorConstraint=_toolShadowViewLeftAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolShadowViewRightAnchorConstraint; // @synthesize toolShadowViewRightAnchorConstraint=_toolShadowViewRightAnchorConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *toolShadowViewTopAnchorConstraint; // @synthesize toolShadowViewTopAnchorConstraint=_toolShadowViewTopAnchorConstraint;
-@property(readonly, nonatomic) NSString *toolVariant; // @synthesize toolVariant=_toolVariant;
 
 @end
 

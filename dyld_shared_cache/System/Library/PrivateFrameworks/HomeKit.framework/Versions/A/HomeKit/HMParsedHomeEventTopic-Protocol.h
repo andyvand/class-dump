@@ -9,7 +9,6 @@
 @protocol HMParsedHomeEventTopic
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long homeEventTopicSuffixID;
 @property(readonly, nonatomic) NSUUID *homeUUID;
 @end
 

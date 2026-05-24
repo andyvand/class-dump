@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSMutableDictionary, NSString, NSXPCConnection;
-@protocol ACCConnectionInfoConfigStreamDelegateProtocol, ACCConnectionInfoPrivateDelegateProtocol, ACCConnectionInfoXPCServerProtocol;
+@class NSDictionary, NSString;
 
 @interface ACCConnectionInfo
 {
     NSDictionary *_accessoryFilterDictionary;
-    NSString *_providerUID;
-    id <ACCConnectionInfoPrivateDelegateProtocol> _delegate;
-    id <ACCConnectionInfoPrivateDelegateProtocol> _delegateForIdentifier;
-    id <ACCConnectionInfoConfigStreamDelegateProtocol> _configStreamDelegate;
-    NSString *_identifier;
-    NSXPCConnection *_serverConnection;
-    NSLock *_serverConnectionLock;
-    id <ACCConnectionInfoXPCServerProtocol> _remoteObject;
-    NSLock *_listLock;
-    NSMutableDictionary *_connectionList;
-    NSMutableDictionary *_endpointList;
-    CDUnknownBlockType _configStreamGetResponseHandler;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)ܞ;
 - (void);
 - (void);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,7 +31,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,24 +42,24 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)UserPreferences;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)a 409 conflict for the event at %@. Creating a new UUID and trying again.;
 - (void);
 - (int);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)q;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (int);
-- (int);
+- (int)h;
+- (int)mic_bin_8:(id)arg1 charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:prev_1_drain_depth:prev_1_charge_duration:prev_1_drain_duration:prev_2_drain_depth:prev_2_charge_duration:prev_2_drain_duration:prev_3_drain_depth:prev_3_charge_duration:prev_3_drain_duration:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -80,49 +67,37 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (_Bool);
+- (void)chive;
+- (void)registry;
+- (void)t (HTTPS-First);
+- (_Bool);
+- (id)9;
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void)#;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)en",&,N,V_notification;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSDictionary *accessoryFilterDictionary; // @synthesize accessoryFilterDictionary=_accessoryFilterDictionary;
-@property(nonatomic) __weak id <ACCConnectionInfoConfigStreamDelegateProtocol> configStreamDelegate; // @synthesize configStreamDelegate=_configStreamDelegate;
-@property(copy, nonatomic) CDUnknownBlockType configStreamGetResponseHandler; // @synthesize configStreamGetResponseHandler=_configStreamGetResponseHandler;
-@property(retain, nonatomic) NSMutableDictionary *connectionList; // @synthesize connectionList=_connectionList;
-@property(nonatomic) __weak id <ACCConnectionInfoPrivateDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak id <ACCConnectionInfoPrivateDelegateProtocol> delegateForIdentifier; // @synthesize delegateForIdentifier=_delegateForIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *endpointList; // @synthesize endpointList=_endpointList;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSLock *listLock; // @synthesize listLock=_listLock;
 @property(retain, nonatomic) NSString *providerUID; // @synthesize providerUID=_providerUID;
-@property(retain) id <ACCConnectionInfoXPCServerProtocol> remoteObject; // @synthesize remoteObject=_remoteObject;
-@property(retain, nonatomic) NSXPCConnection *serverConnection; // @synthesize serverConnection=_serverConnection;
-@property(retain, nonatomic) NSLock *serverConnectionLock; // @synthesize serverConnectionLock=_serverConnectionLock;
 
 @end
 

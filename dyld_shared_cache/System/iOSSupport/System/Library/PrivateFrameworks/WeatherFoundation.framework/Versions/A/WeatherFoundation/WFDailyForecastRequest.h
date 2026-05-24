@@ -16,10 +16,10 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)Unarchiver(SOTranscriptArchiveSupport) initTranscriptArchiveUnarchiverForData:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;

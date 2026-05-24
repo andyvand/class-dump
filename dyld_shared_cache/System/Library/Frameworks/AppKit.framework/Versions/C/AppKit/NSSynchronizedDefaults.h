@@ -14,11 +14,11 @@
 }
 
 + (id)ÿ°fwG;
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (_Bool);
 - (void);

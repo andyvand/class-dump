@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXAudioAssetEntryPoint;
-
 @interface PXAudioRequestOptions
 {
     _Bool _networkAccessAllowed;
-    long long _intent;
-    id <PXAudioAssetEntryPoint> _entryPoint;
-    CDStruct_1b6d18a9 _preferredDuration;
-    CDStruct_1b6d18a9 _fadeOutDuration;
-    CDStruct_1b6d18a9 _maximumDuration;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
@@ -27,19 +20,14 @@
 - (void);
 - (unsigned long long);
 - (long long);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)mStarsAttributes;
 - (void);
-- (_Bool);
+- (_Bool);
 - (CDStruct_1b6d18a9);
-- (id)n:(struct _NSZone *)arg1;
+- (id)initWithExtendedTraitCollection:(struct _NSZone *)arg1;
 - (void)Q;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXAudioAssetEntryPoint> entryPoint; // @synthesize entryPoint=_entryPoint;
-@property(nonatomic) CDStruct_1b6d18a9 fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property(nonatomic) long long intent; // @synthesize intent=_intent;
-@property(nonatomic) CDStruct_1b6d18a9 maximumDuration; // @synthesize maximumDuration=_maximumDuration;
-@property(nonatomic) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
 @property(nonatomic) CDStruct_1b6d18a9 preferredDuration; // @synthesize preferredDuration=_preferredDuration;
 
 @end

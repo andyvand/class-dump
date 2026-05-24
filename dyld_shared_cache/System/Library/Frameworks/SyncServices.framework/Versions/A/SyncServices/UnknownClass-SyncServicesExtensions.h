@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SyncServicesExtensions)
-- (void);
+- (void)H;
 - (int);
 @end
 

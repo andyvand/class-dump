@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface DERLogContext
 {
     struct _CircularBuffer *circBuff;
-    unsigned char circBuffStorage[6144];
 }
 
 - (void);

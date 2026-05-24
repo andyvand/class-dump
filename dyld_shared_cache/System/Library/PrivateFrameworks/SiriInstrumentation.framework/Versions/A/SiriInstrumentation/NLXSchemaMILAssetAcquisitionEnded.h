@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMILAssetAcquisitionEnded : SISchemaInstrumentationMessage
 {
     int _acquisitionType;
-    struct {
-        unsigned int acquisitionType:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)invalid inheritance;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) int acquisitionType; // @synthesize acquisitionType=_acquisitionType;
-@property(nonatomic) _Bool hasAcquisitionType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

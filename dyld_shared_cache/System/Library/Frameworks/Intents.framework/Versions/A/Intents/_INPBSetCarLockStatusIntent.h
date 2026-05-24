@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @interface _INPBSetCarLockStatusIntent
 {
     CDStruct_b1e20226 _has;
-    _Bool _locked;
-    _INPBDataString *_carName;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -30,25 +27,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool)V_groupName;
 - (void)ay Sound;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName; // @synthesize carName=_carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasLocked;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) _Bool locked; // @synthesize locked=_locked;
-@property(readonly) Class superclass;
 
 @end
 

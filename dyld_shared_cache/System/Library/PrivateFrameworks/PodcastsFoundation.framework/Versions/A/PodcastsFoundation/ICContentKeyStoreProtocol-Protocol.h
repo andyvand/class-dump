@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ICContentKeyStoreEntry, NSError;
+
 @protocol ICContentKeyStoreProtocol
+- (NSError *)j;
+- (NSError *);
+- (ICContentKeyStoreEntry *)*3;
 @end
 

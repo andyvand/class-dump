@@ -4,45 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRoute, MKMapCamera, MKMapConfiguration, MKPointOfInterestFilter, NSAppearance, NSArray, NSMutableDictionary, NSNumber, NSString, VKRouteContext, _MKKVOProxy;
-@protocol VKRouteOverlay;
+@class MKMapCamera;
 
 @interface MKMapSnapshotOptions
 {
     MKMapCamera *_camera;
-    CDStruct_02837cd9 _mapRect;
-    CDStruct_b7cb895d _region;
-    MKMapConfiguration *_preferredConfiguration;
-    long long _mode;
-    _Bool _showsPointLabels;
-    _Bool _showsRoadLabels;
-    _Bool _showsRoadShields;
-    _Bool _showsBuildings;
-    _Bool _showsVenues;
-    _Bool _showsAppleLogo;
-    struct CGSize _size;
-    NSAppearance *_appearance;
-    struct NSEdgeInsets _edgeInsets;
-    NSAppearance *_resolvedAppearance;
-    NSAppearance *_appearanceToRender;
-    unsigned long long _signpostId;
-    _Bool _captureMemoryStatistics;
-    VKRouteContext *_routeContext;
-    id <VKRouteOverlay> _routeOverlay;
-    NSArray *_composedRoutesForRouteLines;
-    unsigned long long _selectedRouteIndex;
-    GEOApplicationAuditToken *_auditToken;
-    _Bool _allowsSimultaneousLightDarkSnapshots;
-    long long _networkUsageMode;
-    NSMutableDictionary *_overlayRenderers;
-    NSNumber *_selectedTrailID;
-    NSString *_selectedTrailName;
-    NSString *_selectedTrailLocale;
-    _MKKVOProxy *_kvoProxy;
-    _Bool _usingRect;
-    unsigned char _searchResultsType;
-    NSArray *_annotationViews;
-    NSArray *_customFeatureAnnotations;
 }
 
 + (_Bool);
@@ -54,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -64,6 +30,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void)g;
 - (void);
 - (void);
 - (void);
@@ -77,10 +45,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)k;
 - (void);
 - (id);
 - (id);
@@ -98,18 +64,18 @@
 - (id);
 - (long long);
 - (void);
-- (id);
-- (struct NSEdgeInsets);
-- (id);
-- (id);
-- (id);
-- (CDStruct_f97336e6);
-- (id);
+- (id)";
+- (struct NSEdgeInsets)ound unexpected object %@ of class %@ as exception for domain %@;
+- (id)tting analytics for case domain=%{public}@ type=%{public}@ subtype=%{public}@ process=%{public}@ to CoreAnalytics;
+- (id)ckTimeoutForResource;
+- (id)ckContainerID;
+- (CDStruct_f97336e6)is disabled;
+- (id).apple.symptomdiagnosticreporter;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (CDStruct_02837cd9);
+- (CDStruct_2f492f29);
 - (id);
 - (void);
 - (void);
@@ -120,7 +86,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)conatain any of the VNImageBufferAugmentation keys;
 - (void);
 - (struct CGSize);
 - (void);
@@ -132,50 +98,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void)nitWithProvider: /* Error: Ran out of types for this method. */;
-- (CDStruct_b7cb895d)NSTextLayoutFragment"8;
+- (void)textDidEndEditing:(id)arg1;
+- (void)G;
+- (void)initWithProvider: /* Error: Ran out of types for this method. */;
+- (CDStruct_4760c753)NSTextLayoutFragment"8;
 
 // Remaining properties
-@property(nonatomic, getter=_allowsSimultaneousLightDarkSnapshots, setter=_setAllowsSimultaneousLightDarkSnapshots:) _Bool allowsSimultaneousLightDarkSnapshots; // @synthesize allowsSimultaneousLightDarkSnapshots=_allowsSimultaneousLightDarkSnapshots;
-@property(copy, nonatomic) NSArray *annotationViews; // @synthesize annotationViews=_annotationViews;
-@property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(readonly, nonatomic, getter=_appearanceToRender) NSAppearance *appearanceToRender; // @synthesize appearanceToRender=_appearanceToRender;
-@property(retain, nonatomic, getter=_auditToken, setter=_setAuditToken:) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(copy, nonatomic) MKMapCamera *camera; // @synthesize camera=_camera;
-@property(nonatomic) _Bool captureMemoryStatistics; // @synthesize captureMemoryStatistics=_captureMemoryStatistics;
-@property(nonatomic, getter=_cartographicConfiguration, setter=_setCartographicConfiguration:) CDStruct_f97336e6 cartographicConfiguration;
-@property(retain, nonatomic, getter=_composedRouteForRouteLine, setter=_setComposedRouteForRouteLine:) GEOComposedRoute *composedRouteForRouteLine;
-@property(readonly, copy, nonatomic, getter=_composedRoutesForRouteLines) NSArray *composedRoutesForRouteLines; // @synthesize composedRoutesForRouteLines=_composedRoutesForRouteLines;
-@property(copy, nonatomic, getter=_customFeatureAnnotations, setter=_setCustomFeatureAnnotations:) NSArray *customFeatureAnnotations; // @synthesize customFeatureAnnotations=_customFeatureAnnotations;
-@property(nonatomic, getter=_edgeInsets, setter=_setEdgeInsets:) struct NSEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(nonatomic) CDStruct_02837cd9 mapRect; // @synthesize mapRect=_mapRect;
-@property(nonatomic) unsigned long long mapType;
-@property(nonatomic, getter=_networkUsageMode, setter=_setNetworkUsageMode:) long long networkUsageMode; // @synthesize networkUsageMode=_networkUsageMode;
-@property(copy, nonatomic) MKPointOfInterestFilter *pointOfInterestFilter;
-@property(copy, nonatomic) MKMapConfiguration *preferredConfiguration; // @synthesize preferredConfiguration=_preferredConfiguration;
-@property(nonatomic) CDStruct_b7cb895d region; // @synthesize region=_region;
-@property(readonly, nonatomic, getter=_resolvedAppearance) NSAppearance *resolvedAppearance; // @synthesize resolvedAppearance=_resolvedAppearance;
-@property(retain, nonatomic, getter=_routeContext, setter=_setRouteContext:) VKRouteContext *routeContext; // @synthesize routeContext=_routeContext;
-@property(retain, nonatomic, getter=_routeOverlay, setter=_setRouteOverlay:) id <VKRouteOverlay> routeOverlay; // @synthesize routeOverlay=_routeOverlay;
-@property(nonatomic, getter=_searchResultsType, setter=_setSearchResultsType:) unsigned char searchResultsType; // @synthesize searchResultsType=_searchResultsType;
-@property(readonly, nonatomic, getter=_selectedRouteIndex) unsigned long long selectedRouteIndex; // @synthesize selectedRouteIndex=_selectedRouteIndex;
-@property(readonly, nonatomic, getter=_selectedTrailID) NSNumber *selectedTrailID; // @synthesize selectedTrailID=_selectedTrailID;
-@property(readonly, copy, nonatomic, getter=_selectedTrailLocale) NSString *selectedTrailLocale; // @synthesize selectedTrailLocale=_selectedTrailLocale;
-@property(readonly, copy, nonatomic, getter=_selectedTrailName) NSString *selectedTrailName; // @synthesize selectedTrailName=_selectedTrailName;
-@property(nonatomic, getter=_showsAppleLogo, setter=_setShowsAppleLogo:) _Bool showsAppleLogo; // @synthesize showsAppleLogo=_showsAppleLogo;
-@property(nonatomic) _Bool showsBuildings; // @synthesize showsBuildings=_showsBuildings;
-@property(nonatomic, getter=_showsNightMode, setter=_setShowsNightMode:) _Bool showsNightMode;
-@property(nonatomic, getter=_showsPointLabels, setter=_setShowsPointLabels:) _Bool showsPointLabels; // @synthesize showsPointLabels=_showsPointLabels;
-@property(nonatomic) _Bool showsPointsOfInterest; // @dynamic showsPointsOfInterest;
-@property(nonatomic, getter=_showsRoadLabels, setter=_setShowsRoadLabels:) _Bool showsRoadLabels; // @synthesize showsRoadLabels=_showsRoadLabels;
-@property(nonatomic, getter=_showsRoadShields, setter=_setShowsRoadShields:) _Bool showsRoadShields; // @synthesize showsRoadShields=_showsRoadShields;
-@property(nonatomic, getter=_showsVenues, setter=_setShowsVenues:) _Bool showsVenues; // @synthesize showsVenues=_showsVenues;
-@property(nonatomic) unsigned long long signpostId; // @synthesize signpostId=_signpostId;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @property(readonly, nonatomic) _Bool usingRect; // @synthesize usingRect=_usingRect;
-@property(readonly, nonatomic, getter=_viewportMode) long long viewportMode; // @synthesize viewportMode=_mode;
 
 @end
 

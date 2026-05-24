@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSObject, NSString;
-@protocol EARAudioResultsGeneratorDelegate, OS_dispatch_queue;
+@protocol EARAudioResultsGeneratorDelegate;
 
 @interface EARAudioResultsGenerator
 {
     struct shared_ptr<quasar::SyncPSRAudioProcessor> _audioProcessor;
-    struct SystemConfig _sysConfig;
-    unsigned long long _sampleRate;
-    _Bool _isAudioSessionLive;
-    NSMutableData *_entireResultMatrix;
-    unsigned long long _globalNumVectors;
-    unsigned long long _vectorSize;
-    unsigned long long _sessionFrameCount;
-    id <EARAudioResultsGeneratorDelegate> _delegate;
-    NSString *_configRoot;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void)¥;
 - (void);
+- (id)/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)a;
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
+- (void)SettingIntentResponse;
+- (id)Ͻ;
 - (void);
 - (id);
 - (void)h;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *configRoot; // @synthesize configRoot=_configRoot;
 @property(nonatomic) __weak id <EARAudioResultsGeneratorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

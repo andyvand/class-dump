@@ -5,10 +5,9 @@
 //
 
 @protocol PXStorySaliencyArea
-- (float)AssetLocalAvailabilityHelper;
+- (float)PXPhotoKitAssetLocalAvailabilityHelper;
 
 // Remaining properties
-@property(readonly, nonatomic) float confidence;
 @property(readonly, nonatomic) struct CGRect contentsRect;
 @end
 

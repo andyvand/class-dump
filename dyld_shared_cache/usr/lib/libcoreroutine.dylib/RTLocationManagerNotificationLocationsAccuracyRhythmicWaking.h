@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id)(;
 - (void)tification, %@;
 
 // Remaining properties

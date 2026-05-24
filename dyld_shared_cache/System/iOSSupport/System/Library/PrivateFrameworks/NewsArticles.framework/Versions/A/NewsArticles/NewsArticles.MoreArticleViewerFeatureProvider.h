@@ -7,10 +7,6 @@
 @interface NewsArticles.MoreArticleViewerFeatureProvider
 {
     id sceneProvider;
-    id sharingActivityProviderFactory;
-    id menuProvider;
-    id paidAccessChecker;
-    id tipSourceManager;
 }
 
 @end

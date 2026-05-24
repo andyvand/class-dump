@@ -5,18 +5,16 @@
 //
 
 @class SGFuture;
-@protocol SGDSuggestManagerMessagesProtocol;
 
 @interface SGMessagesDaemonConnection
 {
     SGFuture *_daemonConnectionFuture;
-    id <SGDSuggestManagerMessagesProtocol> _remoteSuggestionManagerForTesting;
 }
 
 - (id);
 - (id);
 - (void);
-- (void)ess;
+- (void)_emailAddress;
 
 @end
 

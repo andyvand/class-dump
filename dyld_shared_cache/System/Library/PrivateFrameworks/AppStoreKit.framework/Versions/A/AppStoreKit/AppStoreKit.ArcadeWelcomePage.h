@@ -7,9 +7,6 @@
 @interface AppStoreKit.ArcadeWelcomePage
 {
     id createNewFamilyContent;
-    id familyOrganizerContent;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

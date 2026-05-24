@@ -5,5 +5,6 @@
 //
 
 @protocol NUCrossFadeViewAnimatable
+- (void)tation>",&,N,Vannotation;
 @end
 

@@ -4,46 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PREAMEngagedResponse
 {
     int _ageGroup;
-    NSString *_experimentId;
-    int _generationStatus;
-    NSString *_hostProcess;
-    int _inputMethod;
-    NSString *_lang;
-    NSString *_locale;
-    unsigned int _modelId;
-    unsigned int _numberOfCustomResponses;
-    unsigned int _numberOfResponsesGenerated;
-    unsigned int _numberOfRobotResponses;
-    unsigned int _position;
-    unsigned int _replyTextId;
-    unsigned int _responseClassId;
-    NSString *_treatmentId;
-    NSString *_treatmentModelName;
-    _Bool _hasQuestionMark;
-    _Bool _isApricotDevice;
-    _Bool _isCustomResponse;
-    _Bool _isRobotResponse;
-    struct {
-        unsigned int ageGroup:1;
-        unsigned int generationStatus:1;
-        unsigned int inputMethod:1;
-        unsigned int modelId:1;
-        unsigned int numberOfCustomResponses:1;
-        unsigned int numberOfResponsesGenerated:1;
-        unsigned int numberOfRobotResponses:1;
-        unsigned int position:1;
-        unsigned int replyTextId:1;
-        unsigned int responseClassId:1;
-        unsigned int hasQuestionMark:1;
-        unsigned int isApricotDevice:1;
-        unsigned int isCustomResponse:1;
-        unsigned int isRobotResponse:1;
-    } _has;
 }
 
 - (id);
@@ -86,7 +49,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -100,17 +63,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)P;
 - (int);
 - (int);
 - (int);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)/BuildRoots/4~CN9qugDaj6yW3aidE-lucuns1EyaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPasteboardProxyCocoa.mm 547:(id)arg1 Invalid message dispatched %{public}s;
+- (id)tensionsIfNeeded:%zu files /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ASAuthorizationPublicKeyCredentialLargeBlobAssertionInput;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -123,14 +86,14 @@
 - (void);
 - (unsigned int);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (void);
@@ -138,46 +101,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int ageGroup; // @synthesize ageGroup=_ageGroup;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) int generationStatus; // @synthesize generationStatus=_generationStatus;
-@property(nonatomic) _Bool hasAgeGroup;
-@property(readonly, nonatomic) _Bool hasExperimentId;
-@property(nonatomic) _Bool hasGenerationStatus;
-@property(nonatomic) _Bool hasHasQuestionMark;
-@property(readonly, nonatomic) _Bool hasHostProcess;
-@property(nonatomic) _Bool hasInputMethod;
-@property(nonatomic) _Bool hasIsApricotDevice;
-@property(nonatomic) _Bool hasIsCustomResponse;
-@property(nonatomic) _Bool hasIsRobotResponse;
-@property(readonly, nonatomic) _Bool hasLang;
-@property(readonly, nonatomic) _Bool hasLocale;
 @property(nonatomic) _Bool hasModelId;
-@property(nonatomic) _Bool hasNumberOfCustomResponses;
-@property(nonatomic) _Bool hasNumberOfResponsesGenerated;
-@property(nonatomic) _Bool hasNumberOfRobotResponses;
-@property(nonatomic) _Bool hasPosition;
-@property(nonatomic) _Bool hasQuestionMark; // @synthesize hasQuestionMark=_hasQuestionMark;
-@property(nonatomic) _Bool hasReplyTextId;
-@property(nonatomic) _Bool hasResponseClassId;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(readonly, nonatomic) _Bool hasTreatmentModelName;
-@property(retain, nonatomic) NSString *hostProcess; // @synthesize hostProcess=_hostProcess;
-@property(nonatomic) int inputMethod; // @synthesize inputMethod=_inputMethod;
-@property(nonatomic) _Bool isApricotDevice; // @synthesize isApricotDevice=_isApricotDevice;
-@property(nonatomic) _Bool isCustomResponse; // @synthesize isCustomResponse=_isCustomResponse;
-@property(nonatomic) _Bool isRobotResponse; // @synthesize isRobotResponse=_isRobotResponse;
-@property(retain, nonatomic) NSString *lang; // @synthesize lang=_lang;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(nonatomic) unsigned int modelId; // @synthesize modelId=_modelId;
-@property(nonatomic) unsigned int numberOfCustomResponses; // @synthesize numberOfCustomResponses=_numberOfCustomResponses;
-@property(nonatomic) unsigned int numberOfResponsesGenerated; // @synthesize numberOfResponsesGenerated=_numberOfResponsesGenerated;
-@property(nonatomic) unsigned int numberOfRobotResponses; // @synthesize numberOfRobotResponses=_numberOfRobotResponses;
-@property(nonatomic) unsigned int position; // @synthesize position=_position;
-@property(nonatomic) unsigned int replyTextId; // @synthesize replyTextId=_replyTextId;
-@property(nonatomic) unsigned int responseClassId; // @synthesize responseClassId=_responseClassId;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(retain, nonatomic) NSString *treatmentModelName; // @synthesize treatmentModelName=_treatmentModelName;
 
 @end
 

@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSArray, NSDate;
+@class NSDate;
 
 @interface SCKZoneMemoryStore
 {
     NSDate *_lastSyncDate;
-    NSDate *_lastDirtyDate;
-    CKServerChangeToken *_serverChangeToken;
-    NSArray *_serverRecords;
-    NSArray *_pendingCommands;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)f;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)ema;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)keyCode;
+- (void);
+- (void);
+- (id)SCKZoneSchema;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *lastDirtyDate; // @synthesize lastDirtyDate=_lastDirtyDate;
 @property(copy, nonatomic) NSDate *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
-@property(copy, nonatomic) NSArray *pendingCommands; // @synthesize pendingCommands=_pendingCommands;
-@property(copy, nonatomic) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
-@property(copy, nonatomic) NSArray *serverRecords; // @synthesize serverRecords=_serverRecords;
 
 @end
 

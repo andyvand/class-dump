@@ -4,118 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsAnalyticMetadata, GEOLatLng, GEOLocation, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLogMsgEventDirections
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEONavigationAudioFeedback _navigationAudioFeedback;
-    struct GEOSessionID _navSessionId;
-    GEODirectionsAnalyticMetadata *_analyticMetadata;
-    GEOLocation *_arrivalLocation;
-    NSMutableArray *_directionsFeedbacks;
-    NSMutableArray *_durationInNavigationModes;
-    double _durationOfTrip;
-    NSString *_evChargingMode;
-    NSString *_evConsumptionModel;
-    GEOLocation *_finalLocation;
-    GEOLocation *_parkingDetectionLocation;
-    double _timeBetweenParkedAndArrival;
-    GEOLatLng *_tripOrigin;
-    NSMutableArray *_waypoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _activeNavMode;
-    unsigned int _arrivedAtDestinationCount;
-    unsigned int _inParkingModeCount;
-    unsigned int _originalEta;
-    unsigned int _stateOfChargeAtDestActual;
-    unsigned int _stateOfChargeAtDestPredicted;
-    unsigned int _stateOfChargeAtOrigin;
-    unsigned int _stateOfChargeDiffAtDest;
-    int _voiceGuidanceLevel;
-    _Bool _hFPEnabled;
-    _Bool _acceptedCyclingWorkout;
-    _Bool _arWalkingUsedInNavigation;
-    _Bool _arWalkingUsedInRoutePlanning;
-    _Bool _arrivedAtDestination;
-    _Bool _batteryDied;
-    _Bool _chargingStopAdded;
-    _Bool _isBadEvExperience;
-    _Bool _isCoarseLocationUsed;
-    _Bool _isCyclingNlgAvailable;
-    _Bool _isEndRouteTermination;
-    _Bool _isEvSampleTrip;
-    _Bool _isInParkingMode;
-    _Bool _isParkedCarTermination;
-    _Bool _isSiriEngaged;
-    _Bool _isSuggestToFindmyTriggered;
-    _Bool _isSuggestToWalkingTriggered;
-    _Bool _isTransitedToFindmy;
-    _Bool _isTransitedToWalking;
-    _Bool _isTransitionToFindmyTermination;
-    _Bool _isTransitionToWalkingTermination;
-    _Bool _isVlfImprovementUsed;
-    _Bool _preArrival;
-    struct {
-        unsigned int has_navigationAudioFeedback:1;
-        unsigned int has_navSessionId:1;
-        unsigned int has_durationOfTrip:1;
-        unsigned int has_timeBetweenParkedAndArrival:1;
-        unsigned int has_activeNavMode:1;
-        unsigned int has_arrivedAtDestinationCount:1;
-        unsigned int has_inParkingModeCount:1;
-        unsigned int has_originalEta:1;
-        unsigned int has_stateOfChargeAtDestActual:1;
-        unsigned int has_stateOfChargeAtDestPredicted:1;
-        unsigned int has_stateOfChargeAtOrigin:1;
-        unsigned int has_stateOfChargeDiffAtDest:1;
-        unsigned int has_voiceGuidanceLevel:1;
-        unsigned int has_hFPEnabled:1;
-        unsigned int has_acceptedCyclingWorkout:1;
-        unsigned int has_arWalkingUsedInNavigation:1;
-        unsigned int has_arWalkingUsedInRoutePlanning:1;
-        unsigned int has_arrivedAtDestination:1;
-        unsigned int has_batteryDied:1;
-        unsigned int has_chargingStopAdded:1;
-        unsigned int has_isBadEvExperience:1;
-        unsigned int has_isCoarseLocationUsed:1;
-        unsigned int has_isCyclingNlgAvailable:1;
-        unsigned int has_isEndRouteTermination:1;
-        unsigned int has_isEvSampleTrip:1;
-        unsigned int has_isInParkingMode:1;
-        unsigned int has_isParkedCarTermination:1;
-        unsigned int has_isSiriEngaged:1;
-        unsigned int has_isSuggestToFindmyTriggered:1;
-        unsigned int has_isSuggestToWalkingTriggered:1;
-        unsigned int has_isTransitedToFindmy:1;
-        unsigned int has_isTransitedToWalking:1;
-        unsigned int has_isTransitionToFindmyTermination:1;
-        unsigned int has_isTransitionToWalkingTermination:1;
-        unsigned int has_isVlfImprovementUsed:1;
-        unsigned int has_preArrival:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_analyticMetadata:1;
-        unsigned int read_arrivalLocation:1;
-        unsigned int read_directionsFeedbacks:1;
-        unsigned int read_durationInNavigationModes:1;
-        unsigned int read_evChargingMode:1;
-        unsigned int read_evConsumptionModel:1;
-        unsigned int read_finalLocation:1;
-        unsigned int read_parkingDetectionLocation:1;
-        unsigned int read_tripOrigin:1;
-        unsigned int read_waypoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool):(id)arg1;
-- (unsigned long long);
++ (_Bool)setHasSizeBytes:(id)arg1;
+- (unsigned long long)#;
 - (id);
 - (id);
 - (id);
@@ -131,6 +31,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -159,8 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -222,40 +122,40 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)atch_source>";
+- (_Bool)SObject";
+- (_Bool)16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)SString"16^B24;
+- (_Bool)>16;
+- (_Bool)0@0:8@16@?24@32 /* Error: Ran out of types for this method. */;
+- (_Bool)16d24@32;
+- (id)suddenTerminationInhibitorWithProcessInfo: /* Error: Ran out of types for this method. */;
+- (id)setShortNameFormat: /* Error: Ran out of types for this method. */;
+- (double)retain;
+- (unsigned long long)resume;
+- (id)resultWithTimeout:error: /* Error: Ran out of types for this method. */;
+- (id)resultWithTime:(unsigned long long)arg1 value: /* Error: Ran out of types for this method. */;
+- (unsigned long long)openURL:configuration:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)openSensitiveURLInBackground:withOptions:withReply: /* Error: Ran out of types for this method. */;
+- (id)openSensitiveURLInBackground:(unsigned long long)arg1 withOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)indexExtraTokenizations;
+- (void)cropRect:fitsWithinSize: /* Error: Ran out of types for this method. */;
+- (void)countryCodeForNumber: /* Error: Ran out of types for this method. */;
+- (_Bool)canAccessProviderContainerWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)_cn_replaceOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
+- (_Bool)_cn_isChildDelegateAccount;
+- (_Bool)_cn_isBlank: /* Error: Ran out of types for this method. */;
+- (void)ibiting;
+- (void)V_accountsCache;
+- (void)timestampedWithValue:(id)arg1 timestamp: /* Error: Ran out of types for this method. */;
+- (_Bool)ce;
 - (_Bool);
 - (_Bool);
+- (void)assumed bundle identifier %@;
+- (void)eft’ must be nonnull;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)/IntlPreferences.framework/IntlPreferences;
+- (int)apple.contacts.reactive.relative-timestamps.downstream;
 - (unsigned int);
 - (void);
 - (void);
@@ -271,13 +171,13 @@
 - (void);
 - (id);
 - (id);
+- (void)_recacheAttribute:(struct GEOSessionID)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (double);
+- (void)trigger retraining if needed!;
+- (id)Trigger second pass request has received;
+- (double)l;
 - (void);
 - (unsigned int);
 - (void);
@@ -285,19 +185,19 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)$_;
 - (_Bool);
 - (void);
-- (id);
-- (int);
+- (id)"@"NSError">16@"NSObject<OS_dispatch_queue>"24@?<v@?B>32;
+- (int)_endMatchingExtensionsIfNeeded;
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (unsigned int);
-- (void);
+- (unsigned int)4;
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -306,13 +206,13 @@
 - (_Bool)Â0@ù
 × ;
 - (void)SelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16(?=I{?=b8(?={?=b14b4b4b2}{?=b8b16})})24B28;
-- (void)Type;
-- (id)tRouteUpdateConfiguration:(struct _NSZone *)arg1;
-- (void)e:(_Bool)arg1 withPolylineCoordinate: /* Error: Ran out of types for this method. */;
-- (void)eviousNavigationSessionEndTime;
+- (void)waypointInfoType;
+- (id)setRouteUpdateConfiguration:(struct _NSZone *)arg1;
+- (void)initWithEnrouteNotice:(_Bool)arg1 enrouteNoticeIndex:legIndex:onRoute:withPolylineCoordinate: /* Error: Ran out of types for this method. */;
+- (void)_previousNavigationSessionEndTime;
 - (id)V_identifier;
 - (id)V_deviceExtendedLocation;
-- (struct GEOSessionID)PDVenueDirectoryGroup;
+- (struct GEOSessionID)GEOPDVenueDirectoryGroup;
 - (id)|013X4 547|8Ä9;
 - (void);
 - (id):%{public}@ /* Error: Ran out of types for this method. */;
@@ -325,96 +225,7 @@
 - (void)V4;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptedCyclingWorkout;
-@property(nonatomic) int activeNavMode;
-@property(retain, nonatomic) GEODirectionsAnalyticMetadata *analyticMetadata;
-@property(nonatomic) _Bool arWalkingUsedInNavigation;
-@property(nonatomic) _Bool arWalkingUsedInRoutePlanning;
-@property(retain, nonatomic) GEOLocation *arrivalLocation;
-@property(nonatomic) _Bool arrivedAtDestination;
-@property(nonatomic) unsigned int arrivedAtDestinationCount;
-@property(nonatomic) _Bool batteryDied;
-@property(nonatomic) _Bool chargingStopAdded;
 @property(retain, nonatomic) NSMutableArray *directionsFeedbacks;
-@property(retain, nonatomic) NSMutableArray *durationInNavigationModes;
-@property(nonatomic) double durationOfTrip;
-@property(retain, nonatomic) NSString *evChargingMode;
-@property(retain, nonatomic) NSString *evConsumptionModel;
-@property(retain, nonatomic) GEOLocation *finalLocation;
-@property(nonatomic) _Bool hFPEnabled;
-@property(nonatomic) _Bool hasAcceptedCyclingWorkout;
-@property(nonatomic) _Bool hasActiveNavMode;
-@property(readonly, nonatomic) _Bool hasAnalyticMetadata;
-@property(nonatomic) _Bool hasArWalkingUsedInNavigation;
-@property(nonatomic) _Bool hasArWalkingUsedInRoutePlanning;
-@property(readonly, nonatomic) _Bool hasArrivalLocation;
-@property(nonatomic) _Bool hasArrivedAtDestination;
-@property(nonatomic) _Bool hasArrivedAtDestinationCount;
-@property(nonatomic) _Bool hasBatteryDied;
-@property(nonatomic) _Bool hasChargingStopAdded;
-@property(nonatomic) _Bool hasDurationOfTrip;
-@property(readonly, nonatomic) _Bool hasEvChargingMode;
-@property(readonly, nonatomic) _Bool hasEvConsumptionModel;
-@property(readonly, nonatomic) _Bool hasFinalLocation;
-@property(nonatomic) _Bool hasHFPEnabled;
-@property(nonatomic) _Bool hasInParkingModeCount;
-@property(nonatomic) _Bool hasIsBadEvExperience;
-@property(nonatomic) _Bool hasIsCoarseLocationUsed;
-@property(nonatomic) _Bool hasIsCyclingNlgAvailable;
-@property(nonatomic) _Bool hasIsEndRouteTermination;
-@property(nonatomic) _Bool hasIsEvSampleTrip;
-@property(nonatomic) _Bool hasIsInParkingMode;
-@property(nonatomic) _Bool hasIsParkedCarTermination;
-@property(nonatomic) _Bool hasIsSiriEngaged;
-@property(nonatomic) _Bool hasIsSuggestToFindmyTriggered;
-@property(nonatomic) _Bool hasIsSuggestToWalkingTriggered;
-@property(nonatomic) _Bool hasIsTransitedToFindmy;
-@property(nonatomic) _Bool hasIsTransitedToWalking;
-@property(nonatomic) _Bool hasIsTransitionToFindmyTermination;
-@property(nonatomic) _Bool hasIsTransitionToWalkingTermination;
-@property(nonatomic) _Bool hasIsVlfImprovementUsed;
-@property(nonatomic) _Bool hasNavSessionId;
-@property(nonatomic) _Bool hasNavigationAudioFeedback;
-@property(nonatomic) _Bool hasOriginalEta;
-@property(readonly, nonatomic) _Bool hasParkingDetectionLocation;
-@property(nonatomic) _Bool hasPreArrival;
-@property(nonatomic) _Bool hasStateOfChargeAtDestActual;
-@property(nonatomic) _Bool hasStateOfChargeAtDestPredicted;
-@property(nonatomic) _Bool hasStateOfChargeAtOrigin;
-@property(nonatomic) _Bool hasStateOfChargeDiffAtDest;
-@property(nonatomic) _Bool hasTimeBetweenParkedAndArrival;
-@property(readonly, nonatomic) _Bool hasTripOrigin;
-@property(nonatomic) _Bool hasVoiceGuidanceLevel;
-@property(nonatomic) unsigned int inParkingModeCount;
-@property(nonatomic) _Bool isBadEvExperience;
-@property(nonatomic) _Bool isCoarseLocationUsed;
-@property(nonatomic) _Bool isCyclingNlgAvailable;
-@property(nonatomic) _Bool isEndRouteTermination;
-@property(nonatomic) _Bool isEvSampleTrip;
-@property(nonatomic) _Bool isInParkingMode;
-@property(nonatomic) _Bool isParkedCarTermination;
-@property(nonatomic) _Bool isSiriEngaged;
-@property(nonatomic) _Bool isSuggestToFindmyTriggered;
-@property(nonatomic) _Bool isSuggestToWalkingTriggered;
-@property(nonatomic) _Bool isTransitedToFindmy;
-@property(nonatomic) _Bool isTransitedToWalking;
-@property(nonatomic) _Bool isTransitionToFindmyTermination;
-@property(nonatomic) _Bool isTransitionToWalkingTermination;
-@property(nonatomic) _Bool isVlfImprovementUsed;
-@property(nonatomic) struct GEOSessionID navSessionId;
-@property(nonatomic) struct GEONavigationAudioFeedback navigationAudioFeedback;
-@property(nonatomic) unsigned int originalEta;
-@property(retain, nonatomic) GEOLocation *parkingDetectionLocation;
-@property(nonatomic) _Bool preArrival;
-@property(nonatomic) unsigned int stateOfChargeAtDestActual;
-@property(nonatomic) unsigned int stateOfChargeAtDestPredicted;
-@property(nonatomic) unsigned int stateOfChargeAtOrigin;
-@property(nonatomic) unsigned int stateOfChargeDiffAtDest;
-@property(nonatomic) double timeBetweenParkedAndArrival;
-@property(retain, nonatomic) GEOLatLng *tripOrigin;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int voiceGuidanceLevel;
-@property(retain, nonatomic) NSMutableArray *waypoints;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIWindowSceneActivationConfiguration;
+
 @protocol _UIWindowSceneActivator
+- (void)reportJunkCarrierAddressForMessageItem:(UIWindowSceneActivationConfiguration *)arg1 junkChatStyle:(_Bool)arg2;
 @end
 

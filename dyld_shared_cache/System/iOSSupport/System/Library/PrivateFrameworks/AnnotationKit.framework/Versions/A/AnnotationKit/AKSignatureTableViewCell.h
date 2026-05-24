@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKSignature, UIImageView, UILabel;
+@class AKSignature;
 
 @interface AKSignatureTableViewCell
 {
     AKSignature *_signature;
-    UIImageView *_signatureImageView;
-    UILabel *_signatureLabel;
 }
 
 - (id);
@@ -19,11 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)g travel time;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)preferredLanguages;
 - (id);
 - (void);
 - (void);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AKSignature *signature; // @synthesize signature=_signature;
-@property(retain, nonatomic) UIImageView *signatureImageView; // @synthesize signatureImageView=_signatureImageView;
-@property(retain, nonatomic) UILabel *signatureLabel; // @synthesize signatureLabel=_signatureLabel;
 
 @end
 

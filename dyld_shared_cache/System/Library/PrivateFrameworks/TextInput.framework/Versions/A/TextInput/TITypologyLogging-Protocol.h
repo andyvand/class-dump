@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol TITypologyLogging
-- (unsigned long long)r: /* Error: Ran out of types for this method. */;
+- (NSString *)tifier for asset %{public}@, URL = %@;
+- (unsigned long long)setSenderIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long maxNumRecords;
-@property(readonly, nonatomic) unsigned long long numTraceRecords;
 @property(readonly, nonatomic) unsigned long long numTypologyRecords;
 @end
 

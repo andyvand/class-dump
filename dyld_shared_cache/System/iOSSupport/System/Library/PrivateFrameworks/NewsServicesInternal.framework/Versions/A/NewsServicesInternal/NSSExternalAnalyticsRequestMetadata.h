@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBSession;
+@class NSString;
 
 @interface NSSExternalAnalyticsRequestMetadata
 {
     int _eventType;
-    NSString *_eventIdentifier;
-    NSString *_externalAnalyticsIdentifier;
-    NTPBSession *_session;
-    NSString *_contentViewedIdentifier;
-    NSString *_publisherIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)MagazineGridModelLoaderFactory;
 - (id);
 - (id);
 - (id);
@@ -29,12 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *contentViewedIdentifier; // @synthesize contentViewedIdentifier=_contentViewedIdentifier;
 @property(readonly, copy, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(readonly, nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(readonly, copy, nonatomic) NSString *externalAnalyticsIdentifier; // @synthesize externalAnalyticsIdentifier=_externalAnalyticsIdentifier;
-@property(readonly, copy, nonatomic) NSString *publisherIdentifier; // @synthesize publisherIdentifier=_publisherIdentifier;
-@property(readonly, copy, nonatomic) NTPBSession *session; // @synthesize session=_session;
 
 @end
 

@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapLayerDataServiceLayer, GEOMapLayerDataServiceLayerIndex, GEOMapLayerDataServiceVersion, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapLayerDataServiceData
 {
     PBDataReader *_reader;
-    GEOMapLayerDataServiceLayerIndex *_index;
-    GEOMapLayerDataServiceLayer *_layer;
-    GEOMapLayerDataServiceVersion *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_index:1;
-        unsigned int read_layer:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id)H;
 - (void);
-- (id);
-- (unsigned long long);
+- (id)t supporting channel selection, for channel:%tu, asset configPath:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)qh;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)nfo;
+- (id)vehiclePositionInfo;
 - (id)LogMsgEventServiceMetadata",&,N;
 - (id)`A;
 - (void)yÿ±È;

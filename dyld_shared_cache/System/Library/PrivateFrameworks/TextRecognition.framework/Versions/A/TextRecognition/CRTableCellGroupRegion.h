@@ -9,7 +9,6 @@
 @interface CRTableCellGroupRegion : CRGroupRegion
 {
     struct _NSRange _rows;
-    struct _NSRange _columns;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (struct _NSRange)ü;
 
 // Remaining properties
-@property(readonly) struct _NSRange columns; // @synthesize columns=_columns;
 @property(readonly) struct _NSRange rows; // @synthesize rows=_rows;
 
 @end

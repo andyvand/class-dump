@@ -9,11 +9,11 @@
     unsigned long long _type;
 }
 
-- (id);
+- (id)HasProblem;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties

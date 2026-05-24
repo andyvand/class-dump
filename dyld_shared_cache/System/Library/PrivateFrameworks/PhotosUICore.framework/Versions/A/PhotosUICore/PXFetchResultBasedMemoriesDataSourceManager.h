@@ -6,17 +6,12 @@
 
 #import <PhotosUICore/PXMemoriesDataSourceManager.h>
 
-@class NSMutableOrderedSet, NSObject, NSString, PHFetchResult, PXMemoriesDataSourceState;
+@class NSObject, PXMemoriesDataSourceState;
 @protocol OS_dispatch_queue;
 
 @interface PXFetchResultBasedMemoriesDataSourceManager : PXMemoriesDataSourceManager
 {
     NSObject<OS_dispatch_queue> *_workerQueue;
-    _Bool _isWorking;
-    _Bool _hasCreatedInitialDataSource;
-    _Bool _loadFromEnd;
-    PXMemoriesDataSourceState *__state;
-    NSMutableOrderedSet *__remainingMemoriesToFetch;
 }
 
 - (void);
@@ -38,17 +33,7 @@
 - (void)¸ô;
 
 // Remaining properties
-@property(retain, setter=_setRemainingMemoriesToFetch:) NSMutableOrderedSet *_remainingMemoriesToFetch; // @synthesize _remainingMemoriesToFetch=__remainingMemoriesToFetch;
 @property(retain, nonatomic, setter=_setState:) PXMemoriesDataSourceState *_state; // @synthesize _state=__state;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool loadFromEnd; // @synthesize loadFromEnd=_loadFromEnd;
-@property(readonly, nonatomic) PHFetchResult *memories;
-@property(readonly) Class superclass;
 
 @end
 

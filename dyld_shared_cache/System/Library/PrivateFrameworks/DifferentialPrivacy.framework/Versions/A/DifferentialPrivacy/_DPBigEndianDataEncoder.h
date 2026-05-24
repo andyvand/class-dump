@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)rt One-Time Code AutoFill.;
+- (id)tion_Private.SFFileVaultRecoveryKey;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableData *buffer; // @synthesize buffer=_buffer;

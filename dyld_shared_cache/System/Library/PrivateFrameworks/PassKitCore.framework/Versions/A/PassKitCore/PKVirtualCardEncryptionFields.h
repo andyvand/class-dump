@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKVirtualCardEncryptionFields
 {
     NSArray *_certificates;
-    NSString *_encryptionVersion;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
-- (void);
+- (void)ԡV;
 - (id);
 - (id);
 - (id);

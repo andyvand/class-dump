@@ -7,22 +7,13 @@
 @class NSNumber, NSString;
 
 @protocol ABCConfigurationProtocol
+- (_Bool)@0:8@"NSString"16@"NSString"24 /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (NSNumber *)%i;
+- (NSNumber *);
+- (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool autoBugCaptureAvailable;
-@property(readonly, nonatomic) _Bool autoBugCaptureEnabled;
-@property(readonly, nonatomic) _Bool autoBugCaptureRegularPayloads;
-@property(readonly, nonatomic) _Bool autoBugCaptureSensitivePayloads;
-@property(readonly, nonatomic) _Bool autoBugCaptureSignature;
-@property(readonly, nonatomic) _Bool autoBugCaptureUploadPreapproved;
-@property(readonly, nonatomic) _Bool autoFeedbackAssistantEnable;
-@property(readonly, nonatomic) NSNumber *carrier_seed_flag;
-@property(readonly, nonatomic) NSNumber *disable_internal_build;
-@property(readonly, nonatomic) unsigned int logArchiveGID;
 @property(readonly, nonatomic) NSString *logArchivePath;
-@property(readonly, nonatomic) unsigned int logArchiveUID;
-@property(readonly, nonatomic) NSNumber *npi_flag;
-@property(readonly, nonatomic) NSNumber *seed_flag;
-@property(readonly, nonatomic) NSNumber *vendor_flag;
 @end
 

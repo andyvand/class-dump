@@ -9,30 +9,23 @@
 @interface PFImageIOOptionsBuilder
 {
     NSMutableDictionary *_customOptions;
-    _Bool _applyTransform;
-    _Bool _includeHDRGainMaps;
-    _Bool _includeDerivativeDefaults;
-    _Bool _skipMetadata;
-    unsigned int _orientation;
-    unsigned long long _colorBehavior;
-    long long _maximumLongSideLength;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ļ;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)nt status from %@ to temporarily unavailable for container:(id)arg1 %@;
 - (id);
 - (unsigned int);
 - (void);
@@ -40,14 +33,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool applyTransform; // @synthesize applyTransform=_applyTransform;
-@property unsigned long long colorBehavior; // @synthesize colorBehavior=_colorBehavior;
-@property _Bool includeDerivativeDefaults; // @synthesize includeDerivativeDefaults=_includeDerivativeDefaults;
-@property _Bool includeHDRGainMaps; // @synthesize includeHDRGainMaps=_includeHDRGainMaps;
-@property long long maximumLongSideLength; // @synthesize maximumLongSideLength=_maximumLongSideLength;
 @property(readonly, copy) NSDictionary *options;
-@property unsigned int orientation; // @synthesize orientation=_orientation;
-@property _Bool skipMetadata; // @synthesize skipMetadata=_skipMetadata;
 
 @end
 

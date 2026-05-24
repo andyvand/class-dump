@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)tails;
 - (id);
 - (void);
 - (id);

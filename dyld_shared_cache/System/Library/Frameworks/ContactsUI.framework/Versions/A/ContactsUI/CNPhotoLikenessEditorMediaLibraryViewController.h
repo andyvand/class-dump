@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIDeprecatedIKImageBrowserView, NSTextField, NSView;
+@class CNUIDeprecatedIKImageBrowserView;
 
 @interface CNPhotoLikenessEditorMediaLibraryViewController
 {
     CNUIDeprecatedIKImageBrowserView *_mediaLibraryView;
-    CNUIDeprecatedIKImageBrowserView *_defaultPhotosLibraryView;
-    NSView *_emptyContentView;
-    NSTextField *_emptyContentTextField;
 }
 
 + (Class);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id);
@@ -31,9 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) CNUIDeprecatedIKImageBrowserView *defaultPhotosLibraryView; // @synthesize defaultPhotosLibraryView=_defaultPhotosLibraryView;
-@property(retain) NSTextField *emptyContentTextField; // @synthesize emptyContentTextField=_emptyContentTextField;
-@property(retain) NSView *emptyContentView; // @synthesize emptyContentView=_emptyContentView;
 @property(retain) CNUIDeprecatedIKImageBrowserView *mediaLibraryView; // @synthesize mediaLibraryView=_mediaLibraryView;
 
 @end

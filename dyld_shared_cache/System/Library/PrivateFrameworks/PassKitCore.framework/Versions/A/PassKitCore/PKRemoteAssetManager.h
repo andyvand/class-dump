@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSObject, PKDirectoryCoordinator;
-@protocol OS_dispatch_queue;
+@class NSArray, PKDirectoryCoordinator;
 
 @interface PKRemoteAssetManager
 {
     PKDirectoryCoordinator *_coordinator;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_manifestItemsByRelativeURL;
-    NSMutableDictionary *_sha1HexFromRelativeManifest;
-    struct os_unfair_lock_s _lock;
-    NSMutableArray *_completionHandlers;
-    NSArray *_seids;
 }
 
 - (id);
@@ -25,25 +18,25 @@
 - (id);
 - (id);
 - (id);
+- (id)B;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)M;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)en;
-- (void)adSetup;
+- (id)_shareInvitationToken;
+- (void)autoReloadSetup;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *seids; // @synthesize seids=_seids;

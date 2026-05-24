@@ -7,21 +7,12 @@
 @class NSString;
 
 @protocol VCHardwareSettingsMacProtocol
+- (_Bool)H;
+- (_Bool);
+- (_Bool);
+- (_Bool)R;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canDoHEVC;
-@property(readonly, nonatomic) _Bool canDoHiDefDecoding;
-@property(readonly, nonatomic) _Bool canDoHiDefEncoding;
-@property(readonly, nonatomic) int hardwareScore;
-@property(readonly, nonatomic) unsigned int hwEncoderEnterBitrate;
-@property(readonly, nonatomic) unsigned int hwEncoderExitBitrate;
-@property(readonly, nonatomic) _Bool isIMac;
-@property(readonly, nonatomic) _Bool isMacBookWVGA;
-@property(readonly, nonatomic) _Bool isMacPro;
-@property(readonly, nonatomic) _Bool isMacmini;
 @property(readonly, nonatomic) NSString *machineName;
-@property(readonly, nonatomic) _Bool supports1080pDecoding;
-@property(readonly, nonatomic) _Bool supports1080pEncoding;
-@property(readonly, nonatomic) _Bool supportsAVFCapture;
 @end
 

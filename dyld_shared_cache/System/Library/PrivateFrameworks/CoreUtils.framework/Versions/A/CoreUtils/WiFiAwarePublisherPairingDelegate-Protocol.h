@@ -5,5 +5,10 @@
 //
 
 @protocol WiFiAwarePublisherPairingDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

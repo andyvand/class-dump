@@ -15,15 +15,15 @@
 
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)R;
+- (void)R$;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id));
 - (void)$;
 
 // Remaining properties

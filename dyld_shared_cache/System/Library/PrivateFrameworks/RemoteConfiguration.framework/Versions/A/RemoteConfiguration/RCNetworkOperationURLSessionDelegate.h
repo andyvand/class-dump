@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSPointerArray, NSString, RCUnfairLock;
+@class NSString;
 
 @interface RCNetworkOperationURLSessionDelegate
 {
     NSString *_sessionIdentifier;
-    RCUnfairLock *_taskLock;
-    NSMutableDictionary *_runningTasks;
-    RCUnfairLock *_observerLock;
-    NSPointerArray *_sessionDidFinishObservers;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,23 +30,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)G~;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RCUnfairLock *observerLock; // @synthesize observerLock=_observerLock;
-@property(retain, nonatomic) NSMutableDictionary *runningTasks; // @synthesize runningTasks=_runningTasks;
-@property(retain, nonatomic) NSPointerArray *sessionDidFinishObservers; // @synthesize sessionDidFinishObservers=_sessionDidFinishObservers;
 @property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RCUnfairLock *taskLock; // @synthesize taskLock=_taskLock;
 
 @end
 

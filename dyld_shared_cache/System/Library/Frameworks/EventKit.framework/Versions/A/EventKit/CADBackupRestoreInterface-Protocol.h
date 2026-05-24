@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSecurityScopedURLWrapper;
+
 @protocol CADBackupRestoreInterface
+- (void)ying application.;
+- (void).fetchGroupLeader;
+- (void)quest.;
+- (void)ringSession(CoreUtils)] Enabling ACL for device:(NSSecurityScopedURLWrapper *)arg1 %{public}@;
 @end
 

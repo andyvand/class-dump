@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSMutableDictionary, NSNumber, NSString, PIFaceObservationCache;
+@class CIImage;
 
 @interface PIPerspectiveAutoCalculator
 {
     _Bool _disableOnPanos;
-    _Bool _disableOnFrontFacingCameraImages;
-    _Bool _shouldRunBuildingCheck;
-    _Bool _debugFilesEnabled;
-    PIFaceObservationCache *_faceObservationCache;
-    NSNumber *_maxAutoYaw;
-    NSNumber *_maxAutoPitch;
-    NSNumber *_maxAutoAngle;
-    double _minimumPitchCorrection;
-    double _minimumYawCorrection;
-    double _minimumAngleCorrection;
-    double _minimumConfidence;
-    double _maxFaceSize;
-    double _minimumPitchCorrectionArea;
-    double _minimumYawCorrectionArea;
-    double _angleSeedDegreesCCW;
-    NSString *_debugFilesPrefix;
-    CIImage *_debugLineDetectionImage;
-    NSMutableDictionary *_debugDiagnostics;
 }
 
-+ (void);
++ (void);
 - (void);
 - (id);
 - (_Bool);
@@ -53,15 +35,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)R;
 - (_Bool);
-- (_Bool);
+- (double);
+- (double)(;
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (_Bool);
@@ -83,39 +65,13 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)ggestion %@:user feedback score is lower than acceptable. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)yleDisableStyleEngine: /* Error: Ran out of types for this method. */;
+- (void)setSemanticStyleDisableStyleEngine: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double angleSeedDegreesCCW; // @synthesize angleSeedDegreesCCW=_angleSeedDegreesCCW;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSMutableDictionary *debugDiagnostics; // @synthesize debugDiagnostics=_debugDiagnostics;
-@property _Bool debugFilesEnabled; // @synthesize debugFilesEnabled=_debugFilesEnabled;
-@property(copy) NSString *debugFilesPrefix; // @synthesize debugFilesPrefix=_debugFilesPrefix;
 @property(retain, nonatomic) CIImage *debugLineDetectionImage; // @synthesize debugLineDetectionImage=_debugLineDetectionImage;
-@property(readonly, copy) NSString *description;
-@property _Bool disableOnFrontFacingCameraImages; // @synthesize disableOnFrontFacingCameraImages=_disableOnFrontFacingCameraImages;
-@property _Bool disableOnPanos; // @synthesize disableOnPanos=_disableOnPanos;
-@property(retain, nonatomic) PIFaceObservationCache *faceObservationCache; // @synthesize faceObservationCache=_faceObservationCache;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *maxAutoAngle; // @synthesize maxAutoAngle=_maxAutoAngle;
-@property(copy) NSNumber *maxAutoPitch; // @synthesize maxAutoPitch=_maxAutoPitch;
-@property(copy) NSNumber *maxAutoYaw; // @synthesize maxAutoYaw=_maxAutoYaw;
-@property double maxFaceSize; // @synthesize maxFaceSize=_maxFaceSize;
-@property double minimumAngleCorrection; // @synthesize minimumAngleCorrection=_minimumAngleCorrection;
-@property double minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
-@property double minimumPitchCorrection; // @synthesize minimumPitchCorrection=_minimumPitchCorrection;
-@property double minimumPitchCorrectionArea; // @synthesize minimumPitchCorrectionArea=_minimumPitchCorrectionArea;
-@property double minimumYawCorrection; // @synthesize minimumYawCorrection=_minimumYawCorrection;
-@property double minimumYawCorrectionArea; // @synthesize minimumYawCorrectionArea=_minimumYawCorrectionArea;
-@property _Bool shouldRunBuildingCheck; // @synthesize shouldRunBuildingCheck=_shouldRunBuildingCheck;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

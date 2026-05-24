@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class NSString;
 
 @interface _INPBPlayVoicemailIntent
 {
     struct _has;
-    NSString *_callRecordIdentifier;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -21,27 +19,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)emId;
-- (void)TAGE;
+- (void)PERCENTAGE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *callRecordIdentifier; // @synthesize callRecordIdentifier=_callRecordIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCallRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

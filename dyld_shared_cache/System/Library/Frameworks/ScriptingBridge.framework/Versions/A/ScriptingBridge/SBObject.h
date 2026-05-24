@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SBAppContext;
-
 @interface SBObject
 {
     struct AEDesc _specifier;
-    SBAppContext *_ctx;
-    id _reserved;
 }
 
 - (unsigned int);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,7 +38,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)texture or image named "%@" in supplied bundle;
 - (id);
 - (void);
 - (id);
@@ -51,9 +47,9 @@
 - (void);
 - (const struct AEDesc *);
 - (id);
+- (_Bool)_featureAtPoint:(SEL)arg1 onPage:mode: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (_Bool);

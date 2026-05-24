@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBPunchout;
+@class NSString;
 
 @interface _SFPBUserReportRequest
 {
     int _reportType;
-    NSString *_affordanceText;
-    NSString *_title;
-    NSString *_dismissText;
-    NSArray *_userReportOptions;
-    NSString *_reportOptionsSectionTitle;
-    NSString *_disclaimerText;
-    _SFPBPunchout *_disclaimerLearnMorePunchout;
-    NSString *_attachmentSectionTitle;
 }
 
 - (unsigned long long);
@@ -39,37 +31,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (int);
-- (_Bool);
+- (int)p;
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)setImportSources:(id)arg1;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)<;
 - (id);
 - (void)16@0:8 /* Error: Ran out of types for this method. */;
-- (id);
+- (id)tableOfContentsItemsCount;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceText; // @synthesize affordanceText=_affordanceText;
-@property(copy, nonatomic) NSString *attachmentSectionTitle; // @synthesize attachmentSectionTitle=_attachmentSectionTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBPunchout *disclaimerLearnMorePunchout; // @synthesize disclaimerLearnMorePunchout=_disclaimerLearnMorePunchout;
-@property(copy, nonatomic) NSString *disclaimerText; // @synthesize disclaimerText=_disclaimerText;
-@property(copy, nonatomic) NSString *dismissText; // @synthesize dismissText=_dismissText;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *reportOptionsSectionTitle; // @synthesize reportOptionsSectionTitle=_reportOptionsSectionTitle;
-@property(nonatomic) int reportType; // @synthesize reportType=_reportType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSArray *userReportOptions; // @synthesize userReportOptions=_userReportOptions;
 
 @end
 

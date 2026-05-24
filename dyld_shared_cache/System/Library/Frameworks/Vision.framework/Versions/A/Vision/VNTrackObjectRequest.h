@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ableContactCG_=+VSg>+VSgtG;
 
 // Remaining properties
 @property(nonatomic) struct CGSize trackingFrameSizeInPixels; // @synthesize trackingFrameSizeInPixels=_trackingFrameSizeInPixels;

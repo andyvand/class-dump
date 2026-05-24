@@ -10,7 +10,7 @@
 
 + (id)ÿB­Ùÿ;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

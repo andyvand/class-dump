@@ -11,7 +11,7 @@
     int location;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPreference, NSTabView, NSTabViewItem;
+@class NSTabView;
 
 @interface NSPrefTabsController
 {
     NSTabView *tabView;
-    NSPreference *parentLayout;
-    NSTabViewItem *fTabViewItemToSwitchTo;
 }
 
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -38,8 +36,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)XPC_ACTIVITY_STATE_RUN;
+- (void)dingFreshnessScoreThreshold;
 - (void);
 - (void);
 

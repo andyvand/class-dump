@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINSGameModule, UINSTouchAlternativesConfigurationView;
+@class UINSTouchAlternativesConfigurationView;
 
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleConfigViewController
 {
     UINSTouchAlternativesConfigurationView *_configurationParent;
-    UINSGameModule *_gameModule;
 }
 
 - (void);
@@ -19,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property __weak UINSTouchAlternativesConfigurationView *configurationParent; // @synthesize configurationParent=_configurationParent;
-@property __weak UINSGameModule *gameModule; // @synthesize gameModule=_gameModule;
 
 @end
 

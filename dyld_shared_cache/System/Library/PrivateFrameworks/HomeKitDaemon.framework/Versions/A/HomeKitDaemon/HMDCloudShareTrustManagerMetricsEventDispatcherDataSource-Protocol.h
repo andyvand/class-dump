@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDHome;
+
 @protocol HMDCloudShareTrustManagerMetricsEventDispatcherDataSource
+- (HMDHome *){os_unfair_lock_s="_os_unfair_lock_opaque"I};
+- (void)_iconData;
 @end
 

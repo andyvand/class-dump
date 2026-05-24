@@ -7,14 +7,6 @@
 @interface ChatKit.TapbackAttributionViewModel
 {
     id _delegate;
-    id _tapbackItems;
-    id _selectedItem;
-    id _measuredContentSize;
-    id _maxViewWidth;
-    id _applyHoverEffect;
-    id _itemPlatterMaskState;
-    id messagePartChatItem;
-    id _$observationRegistrar;
 }
 
 - (id);

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBCardMetadata
 {
     _Bool _isServerEntity;
-    NSString *_queryToSearchAcrossAllDomains;
 }
 
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (_Bool);
 - (id);
@@ -21,23 +18,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)cationAnalysisVersion:(id)arg1 mediaAnalysisVersion:mediaAnalysisImageVersion: /* Error: Ran out of types for this method. */;
+- (id)unknown class %{public}@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)gBottomText;
+- (void)richTrailingBottomText;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isServerEntity; // @synthesize isServerEntity=_isServerEntity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *queryToSearchAcrossAllDomains; // @synthesize queryToSearchAcrossAllDomains=_queryToSearchAcrossAllDomains;
-@property(readonly) Class superclass;
 
 @end
 

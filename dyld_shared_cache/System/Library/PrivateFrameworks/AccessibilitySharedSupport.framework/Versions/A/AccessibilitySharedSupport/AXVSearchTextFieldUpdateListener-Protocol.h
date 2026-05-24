@@ -5,5 +5,8 @@
 //
 
 @protocol AXVSearchTextFieldUpdateListener
+
+@optional
+- (void);
 @end
 

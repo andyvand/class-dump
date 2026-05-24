@@ -6,27 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID;
-
 @interface SISchemaUEIUUFRReady : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_aceCommandClass;
-    NSString *_aceViewId;
-    int _uufrReadySource;
-    int _dialogPhase;
-    NSArray *_dialogIdentifiers;
-    SISchemaUUID *_subRequestId;
-    SISchemaUUID *_aceCommandId;
-    struct {
-        unsigned int exists:1;
-        unsigned int uufrReadySource:1;
-        unsigned int dialogPhase:1;
-    } _has;
-    _Bool _hasAceCommandClass;
-    _Bool _hasAceViewId;
-    _Bool _hasSubRequestId;
-    _Bool _hasAceCommandId;
 }
 
 - (id);
@@ -37,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -57,7 +39,7 @@
 - (int);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
@@ -71,35 +53,20 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getIAPsForActiveAccountWithAdamIDs:withResultHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)v16@?0@"CSDBThreadedRecordStore"8;
 - (id);
 - (id);
-- (id)p2MinTo10Min;
-- (id)AccuracySignalReported;
+- (id)deleteFreqSameGroup2MinTo10Min;
+- (id)_hasContactSuggestionAccuracySignalReported;
 - (_Bool)logContext;
-- (void)PARSERIDENTIFIER_CATI;
-- (_Bool)OUNTRYCODE_IE;
+- (void)CDMPARSERIDENTIFIER_CATI;
+- (_Bool)COUNTRYCODE_IE;
 - (void)!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceCommandClass; // @synthesize aceCommandClass=_aceCommandClass;
-@property(retain, nonatomic) SISchemaUUID *aceCommandId; // @synthesize aceCommandId=_aceCommandId;
-@property(copy, nonatomic) NSString *aceViewId; // @synthesize aceViewId=_aceViewId;
-@property(copy, nonatomic) NSArray *dialogIdentifiers; // @synthesize dialogIdentifiers=_dialogIdentifiers;
-@property(nonatomic) int dialogPhase; // @synthesize dialogPhase=_dialogPhase;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasAceCommandClass; // @synthesize hasAceCommandClass=_hasAceCommandClass;
-@property(nonatomic) _Bool hasAceCommandId; // @synthesize hasAceCommandId=_hasAceCommandId;
-@property(nonatomic) _Bool hasAceViewId; // @synthesize hasAceViewId=_hasAceViewId;
-@property(nonatomic) _Bool hasDialogPhase;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasUufrReadySource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(nonatomic) int uufrReadySource; // @synthesize uufrReadySource=_uufrReadySource;
 
 @end
 

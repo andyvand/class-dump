@@ -6,29 +6,24 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIKeyboardDockItem;
 @protocol UIKeyboardDockViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardDockView : UIView
 {
     id <UIKeyboardDockViewDelegate> _delegate;
-    UIKeyboardDockItem *_leftDockItem;
-    UIKeyboardDockItem *_rightDockItem;
-    UIKeyboardDockItem *_centerDockItem;
-    UIView *_centerView;
 }
 
 + (long long);
 + (CDStruct_b7523c42);
 + (id)t¡ÿ;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)ze;
+- (void)AdminHostInfo;
+- (_Bool)!;
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id)!hCùñ[1Â0@ù
@@ -36,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)MenuBarControllerContext";
 - (void)ansform=dddddd}16@64;
 - (id)IHyperOutOfProcessViewAnimatorDelegate>";
-- (void)Necessary;
+- (void)_createGestureRecognizersIfNecessary;
 - (id)atingTextRange;
 - (id);
 - (void)zy_storage_$_kickAmountProperty;
@@ -46,11 +41,7 @@ __attribute__((visibility("hidden")))
 - (id)T¯ÿ0¬g;
 
 // Remaining properties
-@property(retain, nonatomic) UIKeyboardDockItem *centerDockItem; // @synthesize centerDockItem=_centerDockItem;
-@property(retain, nonatomic) UIView *centerView; // @synthesize centerView=_centerView;
 @property(nonatomic) __weak id <UIKeyboardDockViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIKeyboardDockItem *leftDockItem; // @synthesize leftDockItem=_leftDockItem;
-@property(retain, nonatomic) UIKeyboardDockItem *rightDockItem; // @synthesize rightDockItem=_rightDockItem;
 
 @end
 

@@ -7,12 +7,12 @@
 @class NSURL;
 
 @protocol APPCPromotableVideoRepresentation
+- (_Bool)sourceIdentifier;
+- (double)24@?0@"EKVirtualConference"8@"NSError"16;
+- (_Bool)Search Results;
+- (NSURL *);
 
 // Remaining properties
-@property(nonatomic, readonly) double bitrate;
-@property(nonatomic, readonly) _Bool skipEnabled;
-@property(nonatomic, readonly) double skipThreshold;
-@property(nonatomic, readonly) _Bool unbranded;
 @property(nonatomic, readonly) NSURL *videoURL;
 @end
 

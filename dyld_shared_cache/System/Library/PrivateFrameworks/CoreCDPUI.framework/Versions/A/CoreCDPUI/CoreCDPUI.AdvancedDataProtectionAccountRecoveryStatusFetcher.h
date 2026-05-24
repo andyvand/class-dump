@@ -7,10 +7,6 @@
 @interface CoreCDPUI.AdvancedDataProtectionAccountRecoveryStatusFetcher
 {
     id isRecoveryEnabled;
-    id stateController;
-    id cdpUIContactsProvider;
-    id networkObserver;
-    id delegate;
 }
 
 @end

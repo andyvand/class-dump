@@ -5,5 +5,6 @@
 //
 
 @protocol CATArbitratorProxy
+- (void);
 @end
 

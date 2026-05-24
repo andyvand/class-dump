@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, MapsSuggestionsManager, NSObject, NSString;
-@protocol MapsSuggestionsResourceDepot, OS_dispatch_queue;
+@protocol MapsSuggestionsResourceDepot;
 
 @interface MapsSuggestionsEngine
 {
     id <MapsSuggestionsResourceDepot> _resourceDepot;
-    MapsSuggestionsManager *_entryManager;
-    NSObject<OS_dispatch_queue> *_optionsSerialQueue;
-    int _mapType;
-    GEOAutomobileOptions *_automobileOptions;
 }
 
 - (void);
@@ -26,35 +21,35 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (int)0;
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id)";
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id)setDraggingFrame:contents: /* Error: Ran out of types for this method. */;
+- (void)insertSubview:(id)arg1 aboveSubview:(long long)arg2;
 - (void);
 - (id)Dùñõ1Â0@ù
 × ;
@@ -63,16 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int mapType; // @synthesize mapType=_mapType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

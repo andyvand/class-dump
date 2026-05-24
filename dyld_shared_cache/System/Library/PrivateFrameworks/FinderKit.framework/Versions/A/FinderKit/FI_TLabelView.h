@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CGSize);
-+ (id);
++ (id)30XUserCodedSerializationVisitor;
 + (Class);
 - (unsigned long long);
 - (void);
@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (long long);
-- (void);
+- (void)TR;
 - (void);
 
 @end

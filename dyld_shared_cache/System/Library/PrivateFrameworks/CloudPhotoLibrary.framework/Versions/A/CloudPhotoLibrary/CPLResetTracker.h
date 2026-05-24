@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface CPLResetTracker
 {
@@ -15,7 +15,7 @@
 + (void);
 + (void);
 + (_Bool);
-+ (void);
++ (void)i7;
 + (id);
 + (id);
 + (void);
@@ -28,15 +28,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)ngSelector: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *earliestReasonDate;
-@property(readonly, nonatomic) _Bool hasReasons;
-@property(readonly, nonatomic) NSDate *likelyResetDate;
 @property(readonly, copy, nonatomic) NSArray *resetReasons; // @synthesize resetReasons=_resetReasons;
 
 @end

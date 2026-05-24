@@ -13,14 +13,14 @@
 
 + (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (id)$;
++ (unsigned int)s] Attempted to cancel task which is already cancelled.;
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)HTTPShouldHandleCookies;
 
 // Remaining properties
 @property(readonly) unsigned int payloadIndex; // @synthesize payloadIndex=_payloadIndex;

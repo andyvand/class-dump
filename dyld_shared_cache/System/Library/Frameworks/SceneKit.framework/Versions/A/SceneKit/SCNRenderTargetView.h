@@ -6,25 +6,22 @@
 
 #import <SceneKit/SCNView.h>
 
-@class NSOpenGLContext, SCNPlane;
+@class NSOpenGLContext;
 
 __attribute__((visibility("hidden")))
 @interface SCNRenderTargetView : SCNView
 {
     struct __C3DTexture *_texture;
-    int _filterChannel;
-    SCNPlane *_plane;
-    NSOpenGLContext *_sourceContext;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)rdCount;
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void)e.metalness);
         pbr.probeReflectance = pbr.reflectance * specularDFG.r + specularDFG.g;
                                 

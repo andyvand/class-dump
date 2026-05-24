@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMDateProvider, NSDate;
 @protocol HMDTimeBasedFlagContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDTimeBasedFlagDaily
 {
     struct os_unfair_lock_s _lock;
-    id <HMDTimeBasedFlagContext> _context;
-    HMMDateProvider *_dateProvider;
-    unsigned long long _bits;
-    NSDate *_bit0Date;
 }
 
 + (id);
@@ -22,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)startSharingWith:(id)arg1 capabilityType:(id)arg2 serviceName:(id)arg3 error: /* Error: Ran out of types for this method. */;
+- (id)_minimalStrategyIdentifiers;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -32,16 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void)eamBulkSendResponsePayloadStatusNotAllowed;
+- (void)HMDDataStreamBulkSendResponsePayloadStatusNotAllowed;
 - (id));
 
 // Remaining properties
-@property(retain) NSDate *bit0Date; // @synthesize bit0Date=_bit0Date;
-@property unsigned long long bits; // @synthesize bits=_bits;
 @property(readonly, nonatomic) __weak id <HMDTimeBasedFlagContext> context; // @synthesize context=_context;
-@property(readonly, nonatomic) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
 
 @end
 

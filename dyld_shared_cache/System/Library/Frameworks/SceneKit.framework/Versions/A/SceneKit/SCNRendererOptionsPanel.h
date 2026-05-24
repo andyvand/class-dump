@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 - (_Bool);
+- (void)languageValueEvent;
 - (void);
 - (void);
-- (void);
-- (id)sBlackPassEnabled;
+- (id)isBlackPassEnabled;
 - (void)ax(surface.clearCoatRoughness, 0.089f);
             alpha = roughness * roughness; 
         

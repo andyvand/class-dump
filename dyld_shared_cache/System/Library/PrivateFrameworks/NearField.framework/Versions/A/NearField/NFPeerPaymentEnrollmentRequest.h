@@ -13,12 +13,12 @@
 
 + (_Bool);
 - (id);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (void)BùñÐ1Â0@ù
 × ;
-- (id)error: /* Error: Ran out of types for this method. */;
+- (id)startPollingWithConfig:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *alternateDSID; // @synthesize alternateDSID=_alternateDSID;

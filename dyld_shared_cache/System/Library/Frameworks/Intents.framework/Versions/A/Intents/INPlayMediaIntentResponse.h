@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSDictionary, NSString;
-
 @interface INPlayMediaIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setThumbnailRequestInvalidError:(long long)arg1;
++ (int)equivalentFPItemRequestWithItem:(long long)arg1 representationTypes: /* Error: Ran out of types for this method. */;
++ (long long)decodeObjectOfClasses:(int)arg1 forKey:(int)arg2;
++ (_Bool)coordinateReadingItemAtURL:(long long)arg1 options:error:byAccessor: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
@@ -23,11 +21,11 @@
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long);
+- (id)initWithDouble: /* Error: Ran out of types for this method. */;
+- (id)connectedControllerIdentifiers;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)yListed networks:(id)arg1;
 - (id);
 - (id);
 - (long long)topLocation;
@@ -36,14 +34,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSDictionary *nowPlayingInfo;
-@property(readonly) Class superclass;
 
 @end
 

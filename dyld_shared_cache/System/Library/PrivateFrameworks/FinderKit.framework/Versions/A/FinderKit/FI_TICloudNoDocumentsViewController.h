@@ -6,29 +6,20 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TImageView, FI_TTextField, FI_TView, NSButton, NSView;
+@class FI_TImageView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TICloudNoDocumentsViewController : FI_TViewController
 {
     FI_TImageView *_cloudAndAppImageView;
-    FI_TView *_cloudAndAppView;
-    FI_TImageView *_cloudImageView;
-    FI_TImageView *_appIconImageView;
-    FI_TTextField *_appInfoTextFld;
-    FI_TTextField *_explanationTextFld;
-    NSButton *_upgradeButton;
-    struct TNotificationCenterObserver _backingPropertiesChangedObserver;
-    _Bool _isUpgradeToICloudUI;
-    struct TNotificationCenterObserver _appearanceChanged;
-    struct TFENode _target;
 }
 
-- (void);
+- (void)J-
++;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)WebTextIteratorDeprecated;
 - (void);
 - (id);
 - (struct TFENode);
@@ -37,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *dropTargetView;
 @property(readonly, nonatomic) struct TFENode target; // @synthesize target=_target;
 
 @end

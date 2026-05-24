@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface PKSEConsistencyCheckResultCollector
 {
     NSMutableArray *_requestedActions;
-    NSMutableDictionary *_resultSummary;
-    _Bool _sendCleanupReasons;
-    _Bool _addCleanupActionsToResultsSummary;
-    long long _cleanupActions;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)iM;
 - (long long);
 - (_Bool);
 - (void);
@@ -27,9 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool addCleanupActionsToResultsSummary; // @synthesize addCleanupActionsToResultsSummary=_addCleanupActionsToResultsSummary;
-@property(readonly, nonatomic) long long cleanupActions; // @synthesize cleanupActions=_cleanupActions;
-@property(readonly, nonatomic) NSArray *requestedActions;
-@property(readonly, nonatomic) NSDictionary *resultsSummary;
 
 @end
 

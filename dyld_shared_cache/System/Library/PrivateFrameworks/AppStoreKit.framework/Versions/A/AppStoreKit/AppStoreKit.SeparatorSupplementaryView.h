@@ -7,15 +7,13 @@
 @interface AppStoreKit.SeparatorSupplementaryView
 {
     id separator;
-    id lineView;
-    id lineColor;
 }
 
 - (struct JUMeasurements);
-- (void);
+- (void)n;
 - (id);
 - (id);
-- (void)de;
+- (void)shelves_2_0_arcade;
 - (void)üYGG;
 - (void)Ðÿ;
 

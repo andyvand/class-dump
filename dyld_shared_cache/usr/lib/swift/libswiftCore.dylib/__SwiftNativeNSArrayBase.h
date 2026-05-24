@@ -13,14 +13,14 @@
 + (_Bool)îH;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (void);
 - (id);
 - (oneway void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)j;
+- (id)Task"24@"NSURLResponse"32@?<v@?q>40;
 - (_Bool)QèQRdR;
 - (_Bool)unk-helper>;
 

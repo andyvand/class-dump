@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MRVVIClient
 {
     NSMutableDictionary *_deviceIDToCallbackMap;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)V_spatialized;

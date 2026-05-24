@@ -8,6 +8,7 @@
 @protocol OS_os_log;
 
 @protocol CBPrimitiveConfigurationProvider
+- (NSObject<OS_os_log> *)ameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 
 // Remaining properties
 @property(retain) NSObject<OS_os_log> *logHandle;

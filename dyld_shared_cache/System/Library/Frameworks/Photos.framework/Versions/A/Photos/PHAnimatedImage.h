@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFAnimatedImage;
-
 @interface PHAnimatedImage
 {
     unsigned long long _frameCount;
-    unsigned long long _loopCount;
-    double _duration;
-    unsigned long long _pixelWidth;
-    unsigned long long _pixelHeight;
-    PFAnimatedImage *_pf_animatedImage;
 }
 
 + (long long);
 + (long long);
-+ (void);
++ (void);
 - (id);
 - (id);
 - (void);
@@ -28,16 +21,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)esult;
+- (void)PHImageResult;
 - (unsigned long long)=;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) unsigned long long frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly, nonatomic) unsigned long long loopCount; // @synthesize loopCount=_loopCount;
-@property(readonly, nonatomic) PFAnimatedImage *pf_animatedImage; // @synthesize pf_animatedImage=_pf_animatedImage;
-@property(readonly, nonatomic) unsigned long long pixelHeight; // @synthesize pixelHeight=_pixelHeight;
-@property(readonly, nonatomic) unsigned long long pixelWidth; // @synthesize pixelWidth=_pixelWidth;
 
 @end
 

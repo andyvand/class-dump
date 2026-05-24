@@ -9,23 +9,22 @@
 @interface AVContinuityCaptureOnBoardingManager
 {
     NSArray *_activeClientPIDsForOnboarding;
-    CDUnknownBlockType _completionHandler;
 }
 
++ (void);
 + (void);
-+ (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (void);
 + (void)µý++MJÓ?Ç×Y â¿;
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)isEqual:(_Bool)arg1;
+- (id)ryNode",&,N,V_tail;
+- (void)msv_compactMap:(id)arg1;
+- (void)CDAccountStore"24@"NSDictionary"32@?<v@?@"ACAccount"@"NSError">40;
 
 @end
 

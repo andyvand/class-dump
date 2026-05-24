@@ -6,13 +6,12 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContactRecentsReference, CNUICoreRecentsManager;
+@class CNContactRecentsReference;
 
 __attribute__((visibility("hidden")))
 @interface CNContactClearRecentsDataAction : CNContactAction
 {
     CNContactRecentsReference *_recentsData;
-    CNUICoreRecentsManager *_coreRecentsManager;
 }
 
 - (id);
@@ -20,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (void)",&,N,V_addStaticIdentityAction;
 
 // Remaining properties
-@property(readonly, nonatomic) CNUICoreRecentsManager *coreRecentsManager; // @synthesize coreRecentsManager=_coreRecentsManager;
 @property(readonly, nonatomic) CNContactRecentsReference *recentsData; // @synthesize recentsData=_recentsData;
 
 @end

@@ -6,27 +6,21 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSDate, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface HMFMemoryObservance : HMFObject
 {
     double _debounceInterval;
-    NSSet *_events;
-    NSDate *_lastUpdateDate;
 }
 
 - (id);
-- (double);
+- (double);
 - (void);
-- (id);
+- (id)requiresDeviceUnlock;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) double debounceInterval; // @synthesize debounceInterval=_debounceInterval;
-@property(readonly, copy) NSSet *events; // @synthesize events=_events;
-@property(copy) NSDate *lastUpdateDate; // @synthesize lastUpdateDate=_lastUpdateDate;
 
 @end
 

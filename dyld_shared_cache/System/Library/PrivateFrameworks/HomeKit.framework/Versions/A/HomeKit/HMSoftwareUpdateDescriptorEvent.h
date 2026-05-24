@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void)oftwareUpdateManager;
+- (id)CKAuthenticationSettings;
+- (void)HMSoftwareUpdateManager;
 
 // Remaining properties
 @property(readonly) HMSoftwareUpdateDescriptor *descriptor; // @synthesize descriptor=_descriptor;

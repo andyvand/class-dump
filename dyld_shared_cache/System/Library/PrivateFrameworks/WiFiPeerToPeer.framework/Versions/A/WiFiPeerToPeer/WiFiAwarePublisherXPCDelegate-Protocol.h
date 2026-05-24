@@ -5,5 +5,7 @@
 //
 
 @protocol WiFiAwarePublisherXPCDelegate
+- (void);
+- (void)#;
 @end
 

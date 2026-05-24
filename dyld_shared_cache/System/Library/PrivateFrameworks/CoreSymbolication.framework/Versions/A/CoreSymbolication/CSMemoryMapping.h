@@ -7,34 +7,26 @@
 @interface CSMemoryMapping
 {
     unsigned long long _remoteBaseAddress;
-    unsigned long long _size;
-    unsigned long long _localMappedAddress;
-    _Bool _isBackedBySelfTask;
-    unsigned int _accessCount;
 }
 
 - (const void *);
 - (const void *);
 - (const void *);
 - (id);
-- (id);
+- (id);
 - (struct _CSRange);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isBackedBySelfTask; // @synthesize isBackedBySelfTask=_isBackedBySelfTask;
-@property(readonly, nonatomic) unsigned long long localMappedAddress; // @synthesize localMappedAddress=_localMappedAddress;
 @property(readonly, nonatomic) unsigned long long remoteBaseAddress; // @synthesize remoteBaseAddress=_remoteBaseAddress;
-@property(readonly, nonatomic) struct _CSRange remoteRange;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

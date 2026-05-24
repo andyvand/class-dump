@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _SSBServiceStatus
 {
     struct ServiceStatus _serviceStatus;
 }
 
-- (int);
+- (int)ontrolConfiguration.swift;
+- (id)WaitForWidgetSuspension;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)getAppIntentsXPCListenerEndpoint;
+- (id)built;
+- (unsigned long long)+;
+- (id)B;
 - (id);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *activeTransactions;
-@property(readonly, nonatomic) unsigned long long connectionCount;
-@property(readonly, nonatomic) unsigned long long databaseUpdaterState;
-@property(readonly, nonatomic) NSArray *databaseUpdatersStatuses;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly) int processIdentifier;
 
 @end
 

@@ -8,7 +8,7 @@
 - (void)á;
 - (void)*ÿrX*ÿzW)ÿV)ÿU(ÿT'ÿS%ÿ¤Q#ÿ«O!ÿ³Mÿ»KÿÃIÿÌGÿÔEÿÜC;
 - (void)q900n;
-- (void)ernalSyncMaxFrameRate;
+- (void)ExternalSyncMaxFrameRate;
 - (void)verCaptureEnabled ? _smartFramingEnabled :(void (^)(NSArray *))arg1 __objc_yes;
 @end
 

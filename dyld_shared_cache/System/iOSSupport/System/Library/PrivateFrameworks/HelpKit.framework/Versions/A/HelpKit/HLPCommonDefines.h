@@ -9,12 +9,12 @@
 }
 
 + (_Bool);
++ (id)	N;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (id)C;
++ (id)C;
++ (id)	N;
++ (void)~;
 + (void);
 + (_Bool);
 + (id);

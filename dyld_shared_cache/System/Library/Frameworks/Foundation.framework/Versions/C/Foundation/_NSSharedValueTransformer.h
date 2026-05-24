@@ -11,8 +11,8 @@
 }
 
 - (oneway void);
-- (_Bool);
-- (id);
+- (_Bool)5;
+- (id)P;
 - (_Bool);
 - (id)1Â0@ù
 × ;

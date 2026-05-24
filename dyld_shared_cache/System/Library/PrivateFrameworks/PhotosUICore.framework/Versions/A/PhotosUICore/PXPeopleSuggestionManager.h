@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, PXPeoplePagingSuggestionProvider, PXSuggestionToken;
-@protocol PXPeopleSuggestionManagerDataSource, PXPeopleSuggestionManagerDelegate, PXPerson;
-
 @interface PXPeopleSuggestionManager
 {
     _Bool _mute;
-    _Bool _didReachEnd;
-    unsigned int _confirmYesSoundID;
-    unsigned int _confirmNoSoundID;
-    id <PXPeopleSuggestionManagerDelegate> _delegate;
-    id <PXPeopleSuggestionManagerDataSource> _dataSource;
-    id <PXPerson> _person;
-    unsigned long long _userConfirmationsCount;
-    unsigned long long _autoConfirmationsCount;
-    PXSuggestionToken *_suggestionToken;
-    PXPeoplePagingSuggestionProvider *_suggestionProvider;
-    NSMutableSet *_confirmedSuggestions;
-    NSMutableSet *_rejectedSuggestions;
-    NSMutableSet *_skippedSuggestions;
 }
 
 - (unsigned long long);
@@ -30,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -71,7 +55,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)s;
+- (id)canPresentPopovers;
 - (id)_Qo_;
 - (id)"8@"NSObject"16^B24;
 - (void);
@@ -80,23 +64,7 @@
 - (void)èÿâfT0>;
 
 // Remaining properties
-@property(nonatomic) unsigned long long autoConfirmationsCount; // @synthesize autoConfirmationsCount=_autoConfirmationsCount;
-@property(readonly, nonatomic) _Bool canUndo;
-@property(nonatomic) unsigned int confirmNoSoundID; // @synthesize confirmNoSoundID=_confirmNoSoundID;
-@property(nonatomic) unsigned int confirmYesSoundID; // @synthesize confirmYesSoundID=_confirmYesSoundID;
-@property(retain, nonatomic) NSMutableSet *confirmedSuggestions; // @synthesize confirmedSuggestions=_confirmedSuggestions;
-@property(readonly, nonatomic) NSArray *currentSuggestions;
-@property(retain, nonatomic) id <PXPeopleSuggestionManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <PXPeopleSuggestionManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool didReachEnd; // @synthesize didReachEnd=_didReachEnd;
-@property(readonly, nonatomic) _Bool isLoading;
-@property(nonatomic) _Bool mute; // @synthesize mute=_mute;
-@property(retain, nonatomic) id <PXPerson> person; // @synthesize person=_person;
-@property(retain, nonatomic) NSMutableSet *rejectedSuggestions; // @synthesize rejectedSuggestions=_rejectedSuggestions;
-@property(retain, nonatomic) NSMutableSet *skippedSuggestions; // @synthesize skippedSuggestions=_skippedSuggestions;
-@property(retain, nonatomic) PXPeoplePagingSuggestionProvider *suggestionProvider; // @synthesize suggestionProvider=_suggestionProvider;
-@property(retain, nonatomic) PXSuggestionToken *suggestionToken; // @synthesize suggestionToken=_suggestionToken;
-@property(nonatomic) unsigned long long userConfirmationsCount; // @synthesize userConfirmationsCount=_userConfirmationsCount;
 
 @end
 

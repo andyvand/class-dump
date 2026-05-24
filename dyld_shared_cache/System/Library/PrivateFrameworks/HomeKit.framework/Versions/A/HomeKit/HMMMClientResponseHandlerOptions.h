@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMMMessageDestination, NSString;
+@class HMMMMessageDestination;
 
 @interface HMMMClientResponseHandlerOptions
 {
     HMMMMessageDestination *_peerDestination;
-    NSString *_messageName;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void)ìû|üèýÿà;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
 @property(readonly, nonatomic) HMMMMessageDestination *peerDestination; // @synthesize peerDestination=_peerDestination;
 
 @end

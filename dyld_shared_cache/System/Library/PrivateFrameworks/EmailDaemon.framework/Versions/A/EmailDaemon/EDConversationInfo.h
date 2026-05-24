@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface EDConversationInfo
 {
@@ -14,12 +14,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(retain, nonatomic) NSData *ckRecordSystemFields; // @dynamic ckRecordSystemFields;
-@property(copy, nonatomic) NSString *conversationUUID; // @dynamic conversationUUID;
-@property(copy, nonatomic) NSDate *lastModified; // @dynamic lastModified;
-@property(copy, nonatomic) NSString *messageIds; // @dynamic messageIds;
-@property(nonatomic) _Bool muted; // @dynamic muted;
-@property(nonatomic) _Bool notifyMe; // @dynamic notifyMe;
 
 @end
 

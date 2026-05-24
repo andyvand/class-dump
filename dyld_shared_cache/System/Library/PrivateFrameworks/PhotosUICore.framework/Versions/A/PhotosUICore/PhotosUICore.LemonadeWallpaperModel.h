@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeWallpaperModel
 {
     id _item;
-    id _$observationRegistrar;
 }
 
 @end

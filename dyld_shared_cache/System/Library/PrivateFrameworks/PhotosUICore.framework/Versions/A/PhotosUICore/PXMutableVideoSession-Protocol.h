@@ -5,18 +5,11 @@
 //
 
 @protocol PXMutableVideoSession
-- (void)igationContext;
-- (_Bool)nshot;
+- (void);
+- (void)_navigationContext;
+- (_Bool)PXInfoPanelLCDScreenshot;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsExternalPlayback;
-@property(nonatomic) long long desiredPlayState;
-@property(nonatomic) double desiredPlaybackRate;
-@property(nonatomic, getter=isLoopingEnabled) _Bool loopingEnabled;
-@property(nonatomic) CDStruct_1b6d18a9 playbackStartTime;
 @property(nonatomic) CDStruct_e83c9415 playbackTimeRange;
-@property(nonatomic) _Bool preventsSleepDuringVideoPlayback;
-@property(nonatomic) _Bool seekToBeginningAtEnd;
-@property(nonatomic) _Bool shouldDisableAutomaticPixelBufferUpdates;
 @end
 

@@ -6,26 +6,15 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class UIHoverEvent, UITouch;
+@class UIHoverEvent;
 
 @interface UIHoverGestureRecognizer : UIGestureRecognizer
 {
     UIHoverEvent *_currentHoverEvent;
-    UITouch *_currentTouch;
-    _Bool _pausesWhilePanning;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) double _altitudeAngle;
-@property(readonly, nonatomic) double _hoverHeight;
-@property(readonly, nonatomic) double _hoverTouchTimestamp;
-@property(readonly, nonatomic) double _maximumHoverHeight;
-@property(readonly, nonatomic) double _rollAngle;
-@property(readonly, nonatomic) double _zOffset;
-@property(readonly, nonatomic) double altitudeAngle;
 @property(nonatomic, getter=_pausesWhilePanning, setter=_setPausesWhilePanning:) _Bool pausesWhilePanning; // @synthesize pausesWhilePanning=_pausesWhilePanning;
-@property(readonly, nonatomic) double rollAngle;
-@property(readonly, nonatomic) double zOffset;
 @end
 

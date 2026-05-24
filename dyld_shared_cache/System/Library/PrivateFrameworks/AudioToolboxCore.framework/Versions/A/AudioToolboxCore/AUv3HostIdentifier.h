@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface AUv3HostIdentifier
 {
     NSString *_name;
-    long long _version;
 }
 
 + (_Bool);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)rtySet>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)`";
 - (void);
 - (void);
 - (void)ô;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

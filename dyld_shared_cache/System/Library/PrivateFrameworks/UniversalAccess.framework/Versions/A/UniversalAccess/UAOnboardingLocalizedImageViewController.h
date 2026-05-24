@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSImageView, UAOnboardingAccessibilitySettingsManager;
+@class NSImageView, UAOnboardingAccessibilitySettingsManager;
 
 __attribute__((visibility("hidden")))
 @interface UAOnboardingLocalizedImageViewController
 {
     NSImageView *_imageView;
-    NSImage *_image;
-    NSArray *_textFields;
-    UAOnboardingAccessibilitySettingsManager *__settingsManager;
-    long long __cornerRadius;
-    struct CGSize _size;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)tOutputTokenCount"b1"targetOutputTokenCount"b1"draftModelTotalInferenceLatencyMillis"b1"targetModelTotalInferenceLatencyMillis"b1"draftSteps"b1};
+- (id)enerativeRequestEventFailed";
+- (id)questEventEnded";
+- (id)stEventStarted";
+- (id)sAttachmentMetadata";
+- (void)hemaFLOWMediaPlayerPlaylistContext";
 - (void);
 - (void);
 - (id);
@@ -33,19 +28,16 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)E3*
+;
+- (id)(*J
+;
 - (void);
-- (void);
+- (void)out:(long long)arg1 ]_block_invoke;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long _cornerRadius; // @synthesize _cornerRadius=__cornerRadius;
 @property(retain, nonatomic) UAOnboardingAccessibilitySettingsManager *_settingsManager; // @synthesize _settingsManager=__settingsManager;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(retain, nonatomic) NSArray *textFields; // @synthesize textFields=_textFields;
 
 @end
 

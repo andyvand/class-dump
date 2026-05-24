@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu;
+
 @protocol NSApplicationDelegate
+
+@optional
+- (void)Z;
+- (_Bool);
+- (NSMenu *)9;
+- (void);
+- (void)|�(;
+- (void)B;
+- (void)_migrateToSchemaVersion_3;
+- (_Bool)passkeyCredentialRelyingPartyID;
 @end
 

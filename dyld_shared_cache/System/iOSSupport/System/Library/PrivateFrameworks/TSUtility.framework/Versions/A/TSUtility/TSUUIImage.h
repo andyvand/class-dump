@@ -14,15 +14,15 @@
 }
 
 + (id);
-- (id);
+- (id)bundleSubscriptionManager;
 - (struct CGImage *);
 - (id);
 - (void);
 - (long long);
 - (double);
-- (struct CGSize);
+- (struct CGSize)ng",&,N,V_editedDisplayText;
 - (id);
-- (id);
+- (id)userChannelContextData;
 - (struct CGImage *);
 - (id);
 

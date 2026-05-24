@@ -10,10 +10,10 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)maxSizeOfPreviewDeviceInfoImage;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)filter;
 - (void);
 - (id)À[;
 - (id);

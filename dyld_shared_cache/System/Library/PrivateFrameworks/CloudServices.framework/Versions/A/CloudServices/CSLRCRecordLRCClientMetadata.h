@@ -11,11 +11,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)on info with sourceClientIdentifier:%{public}@ info:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)a;
+- (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (id);
 
 @end

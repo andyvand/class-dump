@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class DDSAssetQuery, NSArray, NSString;
 
 @protocol DDSUAFManagerDataSource
+- (NSArray *)setHasDictationModel:(DDSAssetQuery *)arg1;
+- (_Bool)setHasDictationEndPointCancel:(DDSAssetQuery *)arg1;
+- (NSString *)setHasCurrentTurnInput: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetSetName;

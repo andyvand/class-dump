@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBArchivedObject;
+@class NSArray;
 
 @protocol _INPBRunWorkflowIntentResponse
++ (Class)ndition timeline.;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)Tn
+;
+- (_Bool);
+- (NSArray *)_centerNamed:requireLookupByPID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool continueRunning;
-@property(nonatomic) _Bool hasContinueRunning;
-@property(nonatomic) _Bool hasRequestsIntentExecution;
-@property(readonly, nonatomic) _Bool hasUnderlyingIntent;
-@property(readonly, nonatomic) _Bool hasUnderlyingIntentResponse;
-@property(readonly, nonatomic) _Bool hasUtterance;
-@property(nonatomic) _Bool hasWaitingForResume;
-@property(nonatomic) _Bool requestsIntentExecution;
-@property(copy, nonatomic) NSArray *steps;
-@property(readonly, nonatomic) unsigned long long stepsCount;
-@property(retain, nonatomic) _INPBArchivedObject *underlyingIntent;
-@property(retain, nonatomic) _INPBArchivedObject *underlyingIntentResponse;
-@property(copy, nonatomic) NSString *utterance;
-@property(nonatomic) _Bool waitingForResume;
 @end
 

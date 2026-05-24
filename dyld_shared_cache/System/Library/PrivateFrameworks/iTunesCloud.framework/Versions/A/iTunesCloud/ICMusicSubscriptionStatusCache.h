@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicSubscriptionStatusCacheKey, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICMusicSubscriptionStatusCache
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSObject<OS_dispatch_queue> *_persistenceQueue;
-    _Bool _isPhoneNumberAccessRestricted;
-    ICMusicSubscriptionStatusCacheKey *_baseCacheKey;
-    NSMutableDictionary *_cachedSubscriptionStatusResponses;
 }
 
 + (id);

@@ -5,5 +5,8 @@
 //
 
 @protocol AVTouchBarScrubberDelegate
+
+@optional
+- (void)h;
 @end
 

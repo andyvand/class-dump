@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMPBServiceReference, NSData;
+@class HMPBServiceReference;
 
 @interface HMPBCharacteristicReference
 {
     HMPBServiceReference *_serviceReference;
-    NSData *_uniqueIdentifier;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (_Bool);
@@ -22,12 +21,12 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)herbicide;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void)P		4
 	Ì
@@ -35,9 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasServiceReference;
-@property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(retain, nonatomic) HMPBServiceReference *serviceReference; // @synthesize serviceReference=_serviceReference;
-@property(retain, nonatomic) NSData *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

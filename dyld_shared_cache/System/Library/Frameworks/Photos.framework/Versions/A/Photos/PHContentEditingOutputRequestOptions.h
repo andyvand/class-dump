@@ -7,29 +7,23 @@
 @interface PHContentEditingOutputRequestOptions
 {
     _Bool _asyncAdjustment;
-    _Bool _onlyChangingOriginalChoice;
-    _Bool _preferHEICForRenderedImages;
-    long long _playbackStyle;
 }
 
-+ (_Bool);
++ (_Bool)b";
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)C;
 - (long long);
-- (_Bool);
+- (_Bool).;
 - (_Bool);
 - (void);
-- (id);
+- (id)ckOperation.accessQueue;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAsyncAdjustment) _Bool asyncAdjustment; // @synthesize asyncAdjustment=_asyncAdjustment;
-@property(nonatomic, getter=isOnlyChangingOriginalChoice) _Bool onlyChangingOriginalChoice; // @synthesize onlyChangingOriginalChoice=_onlyChangingOriginalChoice;
-@property(nonatomic) long long playbackStyle; // @synthesize playbackStyle=_playbackStyle;
-@property(nonatomic) _Bool preferHEICForRenderedImages; // @synthesize preferHEICForRenderedImages=_preferHEICForRenderedImages;
 
 @end
 

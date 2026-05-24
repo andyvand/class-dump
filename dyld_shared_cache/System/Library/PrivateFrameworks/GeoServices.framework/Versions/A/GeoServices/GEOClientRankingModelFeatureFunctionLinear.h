@@ -9,20 +9,16 @@
 @interface GEOClientRankingModelFeatureFunctionLinear : GEOClientRankingModelFeatureFunction
 {
     float _weight;
-    float _maxRelativeValue;
-    float _meanValue;
 }
 
-- (float);
-- (float);
-- (id);
-- (id);
-- (float)eSearchType: /* Error: Ran out of types for this method. */;
+- (float)initWithObservables:reportingStrategy: /* Error: Ran out of types for this method. */;
+- (float)initWithMaxConcurrentOperationCount:qualityOfService: /* Error: Ran out of types for this method. */;
+- (id)attributeWithCompletionPolicy:(float)arg1;
+- (id)g:timeout:xpcClient:]_block_invoke /* Error: Ran out of types for this method. */;
+- (float)StringAsRefineSearchType: /* Error: Ran out of types for this method. */;
 - (long long)¼Â<;
 
 // Remaining properties
-@property(readonly, nonatomic) float maxRelativeValue; // @synthesize maxRelativeValue=_maxRelativeValue;
-@property(readonly, nonatomic) float meanValue; // @synthesize meanValue=_meanValue;
 @property(readonly, nonatomic) float weight; // @synthesize weight=_weight;
 
 @end

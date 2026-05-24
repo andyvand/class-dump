@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface PKPeerPaymentRequiredFieldsPage
 {
     _Bool _requiresExplicitPrimaryAction;
-    NSArray *_requiredFields;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSString *_primaryActionTitle;
-    NSDictionary *_footerFields;
-    NSArray *_sectionIdentifiers;
-    NSString *_requestToken;
-    NSString *_status;
-    NSArray *_actions;
 }
 
 - (void);
@@ -27,12 +18,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -43,16 +34,7 @@
 - (id)2l;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSDictionary *footerFields; // @synthesize footerFields=_footerFields;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(copy, nonatomic) NSString *primaryActionTitle; // @synthesize primaryActionTitle=_primaryActionTitle;
-@property(copy, nonatomic) NSString *requestToken; // @synthesize requestToken=_requestToken;
 @property(retain, nonatomic) NSArray *requiredFields; // @synthesize requiredFields=_requiredFields;
-@property(readonly, nonatomic) _Bool requiresExplicitPrimaryAction; // @synthesize requiresExplicitPrimaryAction=_requiresExplicitPrimaryAction;
-@property(copy, nonatomic) NSArray *sectionIdentifiers; // @synthesize sectionIdentifiers=_sectionIdentifiers;
-@property(copy, nonatomic) NSString *status; // @synthesize status=_status;
 
 @end
 

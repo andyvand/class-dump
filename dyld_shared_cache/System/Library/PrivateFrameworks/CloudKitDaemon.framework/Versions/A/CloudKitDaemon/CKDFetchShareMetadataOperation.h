@@ -6,44 +6,31 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSSet;
-@protocol CKFetchShareMetadataOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDFetchShareMetadataOperation : CKDOperation
 {
     _Bool _forceDSRefetch;
-    _Bool _errorOnOON;
-    _Bool _shouldFetchRootRecord;
-    _Bool _clientWillDisplaySystemAcceptPrompt;
-    _Bool _overwriteContainerPCSServiceIfManatee;
-    _Bool _skipShareDecryption;
-    CDUnknownBlockType _shareMetadataFetchedBlock;
-    NSMutableArray *_shareURLsToFetch;
-    NSMutableDictionary *_shareTokenMetadatasToFetchByURL;
-    NSSet *_rootRecordDesiredKeysSet;
-    NSDictionary *_shareInvitationTokensByShareURL;
 }
 
-+ (id);
++ (id)setRxBytesSecondary:(unsigned long long)arg1;
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -58,26 +45,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)B;
 - (void);
-- (int);
+- (int)ayMergeNetworks:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void)bject;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKFetchShareMetadataOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(nonatomic) _Bool clientWillDisplaySystemAcceptPrompt; // @synthesize clientWillDisplaySystemAcceptPrompt=_clientWillDisplaySystemAcceptPrompt;
-@property(nonatomic) _Bool errorOnOON; // @synthesize errorOnOON=_errorOnOON;
-@property(nonatomic) _Bool forceDSRefetch; // @synthesize forceDSRefetch=_forceDSRefetch;
-@property(nonatomic) _Bool overwriteContainerPCSServiceIfManatee; // @synthesize overwriteContainerPCSServiceIfManatee=_overwriteContainerPCSServiceIfManatee;
-@property(retain, nonatomic) NSSet *rootRecordDesiredKeysSet; // @synthesize rootRecordDesiredKeysSet=_rootRecordDesiredKeysSet;
-@property(retain, nonatomic) NSDictionary *shareInvitationTokensByShareURL; // @synthesize shareInvitationTokensByShareURL=_shareInvitationTokensByShareURL;
-@property(copy, nonatomic) CDUnknownBlockType shareMetadataFetchedBlock; // @synthesize shareMetadataFetchedBlock=_shareMetadataFetchedBlock;
-@property(retain, nonatomic) NSMutableDictionary *shareTokenMetadatasToFetchByURL; // @synthesize shareTokenMetadatasToFetchByURL=_shareTokenMetadatasToFetchByURL;
-@property(retain, nonatomic) NSMutableArray *shareURLsToFetch; // @synthesize shareURLsToFetch=_shareURLsToFetch;
-@property(nonatomic) _Bool shouldFetchRootRecord; // @synthesize shouldFetchRootRecord=_shouldFetchRootRecord;
-@property(nonatomic) _Bool skipShareDecryption; // @synthesize skipShareDecryption=_skipShareDecryption;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

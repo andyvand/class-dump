@@ -6,25 +6,23 @@
 
 #import <SearchUI/SearchUIAsyncSectionLoader.h>
 
-@class NSString, SFWatchListItem;
+@class SFWatchListItem;
 
 @interface SearchUIAsyncWatchNowSectionLoader : SearchUIAsyncSectionLoader
 {
     SFWatchListItem *_watchListItem;
-    NSString *_cardSectionId;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)d_sideLocks_HIGHLIGHTS.heic;
+- (id)isRTTSupportedForContext:excludeRelay: /* Error: Ran out of types for this method. */;
+- (id)nt;
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *cardSectionId; // @synthesize cardSectionId=_cardSectionId;
 @property(readonly) SFWatchListItem *watchListItem; // @synthesize watchListItem=_watchListItem;
 
 @end

@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
-- (id);
-- (id);
++ (id);
+- (id)N,V_timestamp;
+- (id)ryTextColorLight;
 - (id);
 - (id);
 

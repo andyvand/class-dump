@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMimePart, NSMutableData;
-
 @interface _MCMimeHeaderScanContext
 {
     const char *_current;
-    const char *_end;
-    unsigned long long _encodingHint;
-    NSMutableData *_dataBuf;
-    MCMimePart *_mimePart;
 }
 
 - (void);
@@ -31,10 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) const char *current; // @synthesize current=_current;
-@property(retain, nonatomic) NSMutableData *dataBuf; // @synthesize dataBuf=_dataBuf;
-@property(nonatomic) unsigned long long encodingHint; // @synthesize encodingHint=_encodingHint;
-@property(nonatomic) const char *end; // @synthesize end=_end;
-@property(retain, nonatomic) MCMimePart *mimePart; // @synthesize mimePart=_mimePart;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface _SFModelProperties
 {
     NSURL *_modelRoot;
-    NSString *_modelVersion;
-    NSArray *_modelTaskNames;
-    NSString *_modelQualityType;
-    NSArray *_modelSamplingRates;
 }
 
 + (_Bool);
@@ -22,17 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)њ;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *modelQualityType; // @synthesize modelQualityType=_modelQualityType;
 @property(readonly, copy, nonatomic) NSURL *modelRoot; // @synthesize modelRoot=_modelRoot;
-@property(readonly, copy, nonatomic) NSArray *modelSamplingRates; // @synthesize modelSamplingRates=_modelSamplingRates;
-@property(readonly, copy, nonatomic) NSArray *modelTaskNames; // @synthesize modelTaskNames=_modelTaskNames;
-@property(readonly, copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
 
 @end
 

@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactStore;
+@class CNContactStore;
 
 @interface FMFContactUtility
 {
     CNContactStore *_contactStore;
-    CNContactFormatter *_contactFormatter;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)__AUTH;
 - (id)
 × ;
 - (void)ress:(id)arg1 placemark: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 
 @end

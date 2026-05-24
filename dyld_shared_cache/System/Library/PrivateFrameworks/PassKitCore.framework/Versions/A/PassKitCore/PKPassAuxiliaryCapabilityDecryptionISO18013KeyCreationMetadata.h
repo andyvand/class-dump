@@ -9,7 +9,6 @@
 @interface PKPassAuxiliaryCapabilityDecryptionISO18013KeyCreationMetadata : PKPassAuxiliaryCapabilityKeyCreationMetadata
 {
     long long _cardType;
-    long long _attestationType;
 }
 
 + (_Bool)0@ù
@@ -18,13 +17,12 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)NW_L2_RADIO_TECHNOLOGY_TYPE_CELLCDMA1X;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)allocWithZone:(id)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) long long attestationType; // @synthesize attestationType=_attestationType;
 @property(readonly, nonatomic) long long cardType; // @synthesize cardType=_cardType;
 
 @end

@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, SigningKey;
+@class NSMutableArray;
 
 @interface NGMFullDeviceIdentity
 {
     NSMutableArray *_devicePrekeys;
-    SigningKey *_deviceSigningKey;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)entPID:(id)arg1 %@
+;
 - (id);
+- (void)_TtC12SiriOntology33UsoTask_getLocation_common_Person;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (_Bool);
@@ -32,7 +32,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)setTriggerReasonString: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -40,11 +40,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *devicePrekeys; // @synthesize devicePrekeys=_devicePrekeys;
-@property(retain, nonatomic) SigningKey *deviceSigningKey; // @synthesize deviceSigningKey=_deviceSigningKey;
 
 @end
 

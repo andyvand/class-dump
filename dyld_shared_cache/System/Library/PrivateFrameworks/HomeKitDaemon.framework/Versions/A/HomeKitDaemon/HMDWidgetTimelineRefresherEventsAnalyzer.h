@@ -6,39 +6,27 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCountersManager, NSMutableDictionary, NSString;
 @protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
 @interface HMDWidgetTimelineRefresherEventsAnalyzer : HMDLogEventAnalyzer
 {
     id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSMutableDictionary *_widgetRefreshReasonCounterGroupByKind;
-    HMDEventCountersManager *_eventCountersManager;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)setCreationDatetime:(id)arg1;
+- (id)setContentsTimestamp:(id)arg1;
 - (id);
 - (void)ø;
 - (void)applying firmware update because isAutomaticThirdPartyAccessorySoftwareUpdateEnabled = %@;
 - (void)hanged:%@ /* Error: Ran out of types for this method. */;
-- (void)essageAddressKey;
+- (void)HMDResidentDeviceMessageAddressKey;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMDEventCountersManager *eventCountersManager; // @synthesize eventCountersManager=_eventCountersManager;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *widgetRefreshReasonCounterGroupByKind; // @synthesize widgetRefreshReasonCounterGroupByKind=_widgetRefreshReasonCounterGroupByKind;
 
 @end
 

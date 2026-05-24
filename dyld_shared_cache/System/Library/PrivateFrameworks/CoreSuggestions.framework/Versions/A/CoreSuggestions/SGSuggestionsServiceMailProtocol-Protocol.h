@@ -5,7 +5,8 @@
 //
 
 @protocol SGSuggestionsServiceMailProtocol
-- (void)tel;
+- (void)A;
+- (void)extractedHotel;
 - (_Bool)houldAllowNotificationsInCalendar:(id *)arg1 Not allowing notification for event without bundleid;
 @end
 

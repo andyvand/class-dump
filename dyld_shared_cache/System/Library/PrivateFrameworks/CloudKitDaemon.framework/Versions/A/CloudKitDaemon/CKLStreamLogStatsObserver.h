@@ -11,7 +11,6 @@
 @interface CKLStreamLogStatsObserver : CKLStreamObserver
 {
     NSMutableDictionary *_totalSizeByLine;
-    NSMutableDictionary *_totalCountByLine;
 }
 
 - (id);
@@ -20,11 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_categoryTypeForString:subType: /* Error: Ran out of types for this method. */;
 - (void)`f	ÈgdiPj|mÐn	8pq	ärt	äuw	Øxxz	Ì{T} ;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *totalCountByLine; // @synthesize totalCountByLine=_totalCountByLine;
 @property(retain) NSMutableDictionary *totalSizeByLine; // @synthesize totalSizeByLine=_totalSizeByLine;
 
 @end

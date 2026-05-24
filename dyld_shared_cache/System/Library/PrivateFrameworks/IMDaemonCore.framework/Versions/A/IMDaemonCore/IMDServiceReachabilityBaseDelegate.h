@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDServiceSession, NSArray, NSString;
-
 @interface IMDServiceReachabilityBaseDelegate
 {
     void serviceSession;
 }
 
-- (_Bool);
+- (_Bool)'g;
 - (void);
 - (id);
-- (id);
+- (id)I;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -23,23 +21,16 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (void)};
 - (_Bool)eceiving id (%@) with country code (%@) is not a candidate for spam filtering.;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool hasMultipleSubscriptionsWithAtLeastOneActive;
-@property(nonatomic, readonly) NSArray *idsRegisteredSIMIDs;
-@property(nonatomic, readonly) NSString *internalServiceName;
 @property(nonatomic, readonly) _Bool isInternationalSpamFilteringEnabled;
-@property(nonatomic, readonly) _Bool isUsableForSending;
-@property(nonatomic, readonly) _Bool networkDataAvailable;
-@property(nonatomic, readonly) NSArray *phoneNumbersOfActiveSubscriptions;
-@property(nonatomic) __weak IMDServiceSession *serviceSession; // @synthesize serviceSession;
 
 @end
 

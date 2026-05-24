@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TLKMultilineText;
-
 @interface TLKTextView
 {
     _Bool _automaticUrlification;
-    unsigned long long _prominence;
-    TLKMultilineText *_multilineText;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (double);
 - (struct CGSize);
-- (void);
+- (void)it;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool) ;
+- (id)h;
 - (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long)mValue: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setFromValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticUrlification; // @synthesize automaticUrlification=_automaticUrlification;
-@property(retain, nonatomic) TLKMultilineText *multilineText; // @synthesize multilineText=_multilineText;
 @property(nonatomic) unsigned long long prominence; // @synthesize prominence=_prominence;
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSearchResult, WBSQuerySuggestion;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldCompletionListItem
 {
     NSString *_domainIdentifier;
-    SFSearchResult *_sfSearchResult;
-    long long _parsecQueryID;
 }
 
 + (id);
@@ -24,21 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long engagementDestination;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *parsecDomainIdentifier;
-@property(nonatomic) long long parsecQueryID; // @synthesize parsecQueryID=_parsecQueryID;
-@property(readonly, nonatomic) SFSearchResult *sfSearchResultValue;
-@property(retain, nonatomic) WBSQuerySuggestion *siriSuggestion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WBSQuerySuggestion",?,&,N
-
-@property(readonly) Class superclass;
 
 @end
 

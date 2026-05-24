@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface WFDatePickerConfiguration
 {
     NSString *_datePickerMode;
-    NSDate *_defaultDate;
-    NSDate *_minimumDate;
-    NSDate *_maximumDate;
 }
 
-+ (_Bool);
++ (_Bool)__auth_stubs;
 - (id);
-- (void);
-- (id);
+- (void)u{;
+- (id)S{;
 - (void);
 - (void);
 - (id);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *datePickerMode; // @synthesize datePickerMode=_datePickerMode;
-@property(retain, nonatomic) NSDate *defaultDate; // @synthesize defaultDate=_defaultDate;
-@property(retain, nonatomic) NSDate *maximumDate; // @synthesize maximumDate=_maximumDate;
-@property(retain, nonatomic) NSDate *minimumDate; // @synthesize minimumDate=_minimumDate;
 
 @end
 

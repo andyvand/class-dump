@@ -9,16 +9,11 @@
 @interface CWFNearbyDeviceDiscoveryParameter
 {
     NSArray *_filters;
-    long long _channel;
-    long long _band;
-    long long _bandwidth;
-    long long _type;
-    long long _operation;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)`6;
 - (id);
 - (id);
 - (void);
@@ -28,24 +23,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)r;
 - (id);
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (void)quest count %d (abandoned %lu)
+;
 - (void)_reason;
 - (long long)8ä;
 - (long long)istStateNoWoW ignored for %{public}@ @ %{public}@;
 - (void)VERT [uuid=%@, desc=<%@>];
 
 // Remaining properties
-@property(nonatomic) long long band; // @synthesize band=_band;
-@property(nonatomic) long long bandwidth; // @synthesize bandwidth=_bandwidth;
-@property(nonatomic) long long channel; // @synthesize channel=_channel;
 @property(copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

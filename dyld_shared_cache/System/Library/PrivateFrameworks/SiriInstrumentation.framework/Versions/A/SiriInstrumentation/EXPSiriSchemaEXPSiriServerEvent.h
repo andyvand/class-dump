@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class EXPSiriSchemaEXPServerCounterfactualTriggered, EXPSiriSchemaEXPServerCounterfactualTriggeredTier1, EXPSiriSchemaEXPServerExperimentTriggeredTier1, NSData, SISchemaInstrumentationMessage;
+@class EXPSiriSchemaEXPServerExperimentTriggeredTier1, SISchemaInstrumentationMessage;
 
 @interface EXPSiriSchemaEXPSiriServerEvent : SISchemaTopLevelUnionType
 {
     EXPSiriSchemaEXPServerExperimentTriggeredTier1 *_experimentTriggered;
-    EXPSiriSchemaEXPServerCounterfactualTriggeredTier1 *_counterfactualTriggered;
-    EXPSiriSchemaEXPServerCounterfactualTriggered *_counterfactualTriggeredNonTier1;
-    _Bool _hasExperimentTriggered;
-    _Bool _hasCounterfactualTriggered;
-    _Bool _hasCounterfactualTriggeredNonTier1;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -37,31 +31,23 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)IAPLocationDidReceiveEphemerisRecommendedRefreshNotification;
 - (int);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)met;
+- (void)+;
+- (unsigned long long)�Y;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tteryPower"b1"didWakeAP"b1"uptimeInSec"b1"downtimeInSec"b1"lastConsecutiveVTRejects"b1"siriIsActiveOrOtherAssertion"b1"didAudioStall"b1"isBargeIn"b1"isWakeFromSleep"b1"secondPassAssetQueryStartTimeInNs"b1"secondPassAssetQueryCompleteTimeInNs"b1"secondPassAssetLoadStartTimeInNs"b1"secondPassAssetLoadCompleteTimeInNs"b1"secondPassAudioStreamStartTimeInNs"b1"secondPassAudioStreamReadyTimeInNs"b1"secondPassFirstAudioPacketReceptionTimeInNs"b1"secondPassLastAudioPacketReceptionTimeInNs"b1"secondPassCheckerModelKeywordDetectionStartTimeInNs"b1"secondPassCheckerModelKeywordDetectionEndTimeInNs"b1"lastDisplayWakeTimeOffsetInNs"b1"isHSJSTriggerFromAlwaysOnMicBuffer"b1"displayWakeTimeOffsetInNs"b1"neptuneDetectionApiScore"b1};
-- (id)vicesMatchingCandidate;
+- (id)hasFractionOfCommunalDevicesMatchingCandidate;
 - (unsigned long long)ntifier",&,N,V_siriSelectedLocale;
-- (id)allStarted;
+- (id)RGSiriSchemaRGCacheManagerCallStarted;
 - (id)Ðò;
 - (void)Ø1ºÿ-#²Ob%;
 
 // Remaining properties
-@property(retain, nonatomic) EXPSiriSchemaEXPServerCounterfactualTriggeredTier1 *counterfactualTriggered; // @synthesize counterfactualTriggered=_counterfactualTriggered;
-@property(retain, nonatomic) EXPSiriSchemaEXPServerCounterfactualTriggered *counterfactualTriggeredNonTier1; // @synthesize counterfactualTriggeredNonTier1=_counterfactualTriggeredNonTier1;
-@property(retain, nonatomic) EXPSiriSchemaEXPServerExperimentTriggeredTier1 *experimentTriggered; // @synthesize experimentTriggered=_experimentTriggered;
-@property(nonatomic) _Bool hasCounterfactualTriggered; // @synthesize hasCounterfactualTriggered=_hasCounterfactualTriggered;
-@property(nonatomic) _Bool hasCounterfactualTriggeredNonTier1; // @synthesize hasCounterfactualTriggeredNonTier1=_hasCounterfactualTriggeredNonTier1;
-@property(nonatomic) _Bool hasExperimentTriggered; // @synthesize hasExperimentTriggered=_hasExperimentTriggered;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

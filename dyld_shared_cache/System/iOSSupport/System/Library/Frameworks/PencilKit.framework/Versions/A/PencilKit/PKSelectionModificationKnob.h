@@ -9,11 +9,6 @@
 @interface PKSelectionModificationKnob
 {
     CALayer *_knobLayer;
-    CALayer *_knobTailLayer;
-    _Bool _isBrushSelecting;
-    _Bool _isRTL;
-    long long _knobLocation;
-    struct CGColor *_knobColor;
 }
 
 - (void);
@@ -38,7 +33,6 @@
 - (void)ckViewBottomConstraint;
 
 // Remaining properties
-@property(nonatomic) struct CGColor *knobColor; // @synthesize knobColor=_knobColor;
 @property(nonatomic) long long knobLocation; // @synthesize knobLocation=_knobLocation;
 
 @end

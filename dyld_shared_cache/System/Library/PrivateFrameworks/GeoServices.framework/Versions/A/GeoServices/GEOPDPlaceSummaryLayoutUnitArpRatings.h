@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool)etIncidentDistance:(id)arg1;
++ (_Bool)setIncidentDistance:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void), not sending embedding to Exclave;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)D}d;
 - (_Bool);
 - (void);
 - (id)st";
-- (id)hape;
+- (id)_labelShape;
 - (id)¬í;
 - (id)EOPDIpGeoLookupResultReadAllFrom can only be called once per object;
 

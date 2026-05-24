@@ -6,21 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface FLOWSchemaFLOWMapsEntity : SISchemaInstrumentationMessage
 {
     unsigned long long _muid;
-    unsigned long long _mapsFeatureId;
-    NSString *_addressId;
-    _Bool _hasMuid;
-    _Bool _hasMapsFeatureId;
-    _Bool _hasAddressId;
-    unsigned long long _whichEntityid;
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,13 +25,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)[0;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setFileTransferGUIDs: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id)Enabled"b1"isSoundAnalysisEnabled"b1};
@@ -48,14 +40,7 @@
 - (void)È´ã$;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *addressId; // @synthesize addressId=_addressId;
-@property(nonatomic) _Bool hasAddressId; // @synthesize hasAddressId=_hasAddressId;
-@property(nonatomic) _Bool hasMapsFeatureId; // @synthesize hasMapsFeatureId=_hasMapsFeatureId;
-@property(nonatomic) _Bool hasMuid; // @synthesize hasMuid=_hasMuid;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long mapsFeatureId; // @synthesize mapsFeatureId=_mapsFeatureId;
 @property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(readonly, nonatomic) unsigned long long whichEntityid; // @synthesize whichEntityid=_whichEntityid;
 
 @end
 

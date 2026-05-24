@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountSupportTopicExplanationLink
 {
     NSString *_text;
-    unsigned long long _action;
-    NSURL *_url;
-    NSString *_confirmationTitle;
 }
 
 - (id);
 - (id);
 - (id);
-- (id):(id)arg1;
+- (id)_downloadPassAtURL:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)",C,N,V_regions;
 - (void)request;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) NSString *confirmationTitle; // @synthesize confirmationTitle=_confirmationTitle;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

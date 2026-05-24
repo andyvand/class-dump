@@ -5,6 +5,7 @@
 //
 
 @protocol BWFaceDetector
+- (float)g<SGNormalizedAddress>"16@?0@8;
 
 // Remaining properties
 @property(readonly) float secondsSinceLastFaceDetected;

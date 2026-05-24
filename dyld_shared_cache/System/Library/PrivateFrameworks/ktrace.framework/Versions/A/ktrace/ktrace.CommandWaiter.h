@@ -7,7 +7,6 @@
 @interface ktrace.CommandWaiter
 {
     id source;
-    id pid;
 }
 
 @end

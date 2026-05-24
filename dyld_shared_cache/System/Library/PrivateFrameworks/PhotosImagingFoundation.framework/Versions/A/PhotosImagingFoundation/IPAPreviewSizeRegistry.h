@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface IPAPreviewSizeRegistry
 {
     NSString *_name;
-    NSMutableDictionary *_policies;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)setNecessaryCropGainFractionPerDroppedFrame: /* Error: Ran out of types for this method. */;
 
 @end
 

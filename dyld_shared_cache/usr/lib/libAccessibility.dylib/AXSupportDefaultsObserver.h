@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSUserDefaults;
-@protocol OS_dispatch_queue;
+@class NSUserDefaults;
 
 @interface AXSupportDefaultsObserver
 {
     NSUserDefaults *_axDomain;
-    NSMutableSet *_observedPrefs;
-    NSMutableArray *_actions;
-    NSMutableDictionary *_actionLastNotifications;
-    NSObject<OS_dispatch_queue> *_lastNotificationsQueue;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMAPNamespace
 {
     NSString *_prefix;
-    NSString *_separator;
-    NSArray *_extensions;
 }
 
-- (id);
+- (id)TL9;
 - (void);
 - (id);
 - (id);
@@ -24,9 +22,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *extensions; // @synthesize extensions=_extensions;
 @property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(copy, nonatomic) NSString *separator; // @synthesize separator=_separator;
 
 @end
 

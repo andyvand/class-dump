@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, NSString;
+@class NSString;
 @protocol MPCPlaybackEngineEventStreamSubscription;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlayPerfConsumer
 {
     NSString *_lastSiriReferenceIdentifier;
-    MPCPlaybackEngine *_playbackEngine;
-    id <MPCPlaybackEngineEventStreamSubscription> _subscription;
 }
 
 + (unsigned int);
 + (id);
-+ (id);
-+ (id);
++ (id)notifyIDSProxyOfAccount:(id)arg1 store:withCommand: /* Error: Ran out of types for this method. */;
++ (id)loginDelegatesWithParameters:(long long)arg1 completion: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (void);
@@ -34,15 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)â remote playlist:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

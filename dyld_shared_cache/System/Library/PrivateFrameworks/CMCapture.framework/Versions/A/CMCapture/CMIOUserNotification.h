@@ -7,17 +7,12 @@
 #import <CMCapture/CMCaptureUserNotification.h>
 
 @class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_xpc_object;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CMIOUserNotification : CMCaptureUserNotification
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_responseGroup;
-    unsigned long long _response;
-    NSObject<OS_xpc_object> *_userNotificationServiceConnection;
-    _Bool _responseIsValid;
-    _Bool _connectionIsValid;
 }
 
 - (id);
@@ -26,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)cachedDrawableStylesOfCategory: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)#;
 
 @end
 

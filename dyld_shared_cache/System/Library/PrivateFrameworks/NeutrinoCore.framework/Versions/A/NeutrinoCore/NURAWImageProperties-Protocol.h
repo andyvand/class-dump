@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol NURAWNoiseReductionProperties;
+@class NSString;
 
 @protocol NURAWImageProperties
+- (NSString *);
 
 // Remaining properties
-@property(readonly) NSArray *availableDecoderVersions;
 @property(readonly) NSString *decoderVersion;
-@property(readonly) id <NURAWNoiseReductionProperties> noiseReductionProperties;
-@property(readonly) double temperature;
-@property(readonly) double tint;
 @end
 

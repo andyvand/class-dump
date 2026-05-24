@@ -16,7 +16,7 @@
 
 - (_Bool);
 - (void);
-- (void);
+- (void)rite %lu bytes.;
 - (void)á!xBù_1Â0@ù
 × ;
 - (void)
@@ -24,11 +24,11 @@
 - (void)±cð1Â0@ù
 × ;
 - (void);
-- (void)dIndentWhileEditingRowAtIndexPath:(double)arg1;
+- (void)tableView:(double)arg1 shouldIndentWhileEditingRowAtIndexPath:(_Bool)arg2;
 - (id)setPreferredContentInsets: /* Error: Ran out of types for this method. */;
-- (void)moveAllRetargetableAnimationsIfDetatchedFromContext;
-- (int)tFormattingAffordancesAvailable;
-- (void)FeedbackPatternParameters;
+- (void)_removeAllRetargetableAnimationsIfDetatchedFromContext;
+- (int)_areDefaultTextFormattingAffordancesAvailable;
+- (void)_UIFeedbackPatternParameters;
 - (id)mentForInputViewSet, early return -> %@;
 - (id)to the same index path (%@);
 - (_Bool)ázì?)\Âõ(Ì?;

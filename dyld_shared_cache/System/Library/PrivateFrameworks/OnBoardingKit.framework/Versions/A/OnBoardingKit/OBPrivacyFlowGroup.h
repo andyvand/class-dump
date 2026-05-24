@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface OBPrivacyFlowGroup
 {
     NSString *_identifier;
-    NSArray *_privacyFlows;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSArray *privacyFlows; // @synthesize privacyFlows=_privacyFlows;
 
 @end
 

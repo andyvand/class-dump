@@ -7,11 +7,6 @@
 @interface NewsFeed.WebEmbedImageStream
 {
     id stream;
-    id continuation;
-    id identifier;
-    id requeueBlock;
-    id _isTerminated;
-    id _operation;
 }
 
 @end

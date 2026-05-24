@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXDispatchTimer, NSManagedObjectContext;
-
 @interface AXSSDatabaseManager
 {
     int _lockNotificationToken;
-    _Bool _isScreenedLocked;
-    AXDispatchTimer *_identityChangeTimer;
-    _Bool _clientCloudKitSyncs;
-    NSManagedObjectContext *_managedObjectContext;
 }
 
 + (long long);
-+ (id);
++ (id)-;
 - (void);
 - (id);
 - (id);
@@ -33,15 +27,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id)FAyÔÿÿG;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canSave;
-@property(nonatomic) _Bool clientCloudKitSyncs; // @synthesize clientCloudKitSyncs=_clientCloudKitSyncs;
-@property(retain, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 
 @end
 

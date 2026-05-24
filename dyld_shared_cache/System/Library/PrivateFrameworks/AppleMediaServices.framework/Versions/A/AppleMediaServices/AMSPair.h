@@ -7,7 +7,6 @@
 @interface AMSPair
 {
     id _first;
-    id _second;
 }
 
 - (id);
@@ -18,7 +17,6 @@ MOÖÎû"ÖÑû"Öµ Ö´ ÖÅû"Ö|ùÖ:(id)arg1 ÝÖÖû"Ö3ÝÖOßkÖ
 
 // Remaining properties
 @property(readonly) id first; // @synthesize first=_first;
-@property(readonly) id second; // @synthesize second=_second;
 
 @end
 

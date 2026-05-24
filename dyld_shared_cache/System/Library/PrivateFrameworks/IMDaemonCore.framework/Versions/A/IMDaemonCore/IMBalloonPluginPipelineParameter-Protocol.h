@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol IMBalloonPluginPipelineParameter
+- (void);
+- (void);
+- (NSString *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *associatedMessageGUID;
-@property(nonatomic) struct _NSRange associatedMessageRange;
-@property(nonatomic) long long associatedMessageType;
 @property(copy, nonatomic) NSString *balloonPluginBundleID;
-@property(copy, nonatomic) NSData *balloonPluginPayload;
-@property(copy, nonatomic) NSDictionary *combinedPayloadAttachmentDictionary;
 @end
 

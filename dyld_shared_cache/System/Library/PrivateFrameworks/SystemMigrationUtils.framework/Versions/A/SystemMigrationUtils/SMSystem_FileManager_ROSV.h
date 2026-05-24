@@ -6,40 +6,32 @@
 
 #import <SystemMigrationUtils/SMSystem_FileManager_DiskBased.h>
 
-@class NSString;
-
 @interface SMSystem_FileManager_ROSV : SMSystem_FileManager_DiskBased
 {
     _Bool _pointedAtDataVolume;
-    _Bool _pointedAtMountedROSVVolume;
-    NSString *_dataVolumeMount;
-    NSString *_systemVolumeMount;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)Xǵl;
+- (id);
+- (id){;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)0;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dataVolumeMount; // @synthesize dataVolumeMount=_dataVolumeMount;
 @property(nonatomic) _Bool pointedAtDataVolume; // @synthesize pointedAtDataVolume=_pointedAtDataVolume;
-@property(nonatomic) _Bool pointedAtMountedROSVVolume; // @synthesize pointedAtMountedROSVVolume=_pointedAtMountedROSVVolume;
-@property(retain, nonatomic) NSString *systemVolumeMount; // @synthesize systemVolumeMount=_systemVolumeMount;
 
 @end
 

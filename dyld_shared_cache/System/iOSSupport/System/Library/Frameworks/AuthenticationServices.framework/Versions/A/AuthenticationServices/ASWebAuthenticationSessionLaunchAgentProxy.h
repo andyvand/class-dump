@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface ASWebAuthenticationSessionLaunchAgentProxy
 {
     NSXPCConnection *_safariLaunchAgentConnection;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (void);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ersions/A/CoreImage;
 
 @end
 

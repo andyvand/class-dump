@@ -4,76 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMServerInteractionController, NSData, NSError, NSHTTPURLResponse, NSNumber, NSString, NSURLConnection, NSURLRequest, NSURLSessionDataTask;
+@class FMServerInteractionController;
 
 @interface FMCommandBase
 {
     _Bool _commandTaskComplete;
-    NSError *_error;
-    NSString *_scheme;
-    NSString *_username;
-    NSString *_password;
-    NSString *_host;
-    NSNumber *_port;
-    double _timeout;
-    NSURLRequest *_request;
-    NSHTTPURLResponse *_response;
-    NSData *_responseData;
-    FMServerInteractionController *_serverInteractionController;
-    NSURLSessionDataTask *_task;
-    unsigned long long _redirectCount;
-    NSString *_originalHostname;
-    NSString *_redirectedHostname;
-    NSURLConnection *_connection;
 }
 
+- (id)ng search index for library:%@ /* Error: Ran out of types for this method. */;
+- (void)es changed;
+- (id)ryManager saveRulesTrackerToken:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)a;
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)utex
+;
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
+- (void)initWithCandidate:forInput:rawInput:sourceMask:learningFlagsMask: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)encrypt;
 - (id);
+- (void);
+- (id);
+- (_Bool);
+- (id)#;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)o;
 - (void);
 - (double);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -84,23 +69,7 @@
 - (_Bool)y XPC activity;
 
 // Remaining properties
-@property(nonatomic) _Bool commandTaskComplete; // @synthesize commandTaskComplete=_commandTaskComplete;
-@property(retain, nonatomic) NSURLConnection *connection; // @synthesize connection=_connection;
-@property(copy) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property(copy, nonatomic) NSString *originalHostname; // @synthesize originalHostname=_originalHostname;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(copy, nonatomic) NSNumber *port; // @synthesize port=_port;
-@property(nonatomic) unsigned long long redirectCount; // @synthesize redirectCount=_redirectCount;
-@property(copy, nonatomic) NSString *redirectedHostname; // @synthesize redirectedHostname=_redirectedHostname;
-@property(retain, nonatomic) NSURLRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSHTTPURLResponse *response; // @synthesize response=_response;
-@property(retain, nonatomic) NSData *responseData; // @synthesize responseData=_responseData;
-@property(copy, nonatomic) NSString *scheme; // @synthesize scheme=_scheme;
 @property(nonatomic) __weak FMServerInteractionController *serverInteractionController; // @synthesize serverInteractionController=_serverInteractionController;
-@property(retain, nonatomic) NSURLSessionDataTask *task; // @synthesize task=_task;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

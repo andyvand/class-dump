@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TUHandle;
+@class NSString;
 
 @interface AFSiriIncomingCall
 {
     _Bool _isVideo;
-    _Bool _isCallerIDBlocked;
-    NSString *_callUUID;
-    NSString *_callProviderIdentifier;
-    NSString *_callProviderBundleID;
-    NSArray *_callerContactIdentifiers;
-    TUHandle *_handle;
 }
 
 + (_Bool);
@@ -34,13 +28,7 @@
 - (void)tus;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *callProviderBundleID; // @synthesize callProviderBundleID=_callProviderBundleID;
-@property(readonly, copy, nonatomic) NSString *callProviderIdentifier; // @synthesize callProviderIdentifier=_callProviderIdentifier;
 @property(readonly, copy, nonatomic) NSString *callUUID; // @synthesize callUUID=_callUUID;
-@property(readonly, copy, nonatomic) NSArray *callerContactIdentifiers; // @synthesize callerContactIdentifiers=_callerContactIdentifiers;
-@property(readonly, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isCallerIDBlocked; // @synthesize isCallerIDBlocked=_isCallerIDBlocked;
-@property(readonly, nonatomic) _Bool isVideo; // @synthesize isVideo=_isVideo;
 
 @end
 

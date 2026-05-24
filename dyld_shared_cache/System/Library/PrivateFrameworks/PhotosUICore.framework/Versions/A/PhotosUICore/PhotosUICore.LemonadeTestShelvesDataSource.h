@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeTestShelvesDataSource
 {
     id photoLibrary;
-    id availableShelves;
 }
 
 @end

@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)TransitDepartureFrequency_description_mixes_range_recurring;
 - (void)Qª1Â0@ù
 × ;
 

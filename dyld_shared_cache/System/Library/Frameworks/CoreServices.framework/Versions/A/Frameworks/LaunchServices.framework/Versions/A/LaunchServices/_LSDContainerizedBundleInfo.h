@@ -10,34 +10,26 @@ __attribute__((visibility("hidden")))
 @interface _LSDContainerizedBundleInfo
 {
     int _record_modtime;
-    int _placeholder_record_modtime;
-    NSString *_bundleID;
-    NSString *_path;
-    NSString *_placeholder_path;
 }
 
-+ (_Bool);
++ (_Bool)24@0:8@"MTLComputePipelineDescriptor"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (int);
-- (int);
+- (int)q;
 - (id);
-- (id);
+- (id)F;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)H ;
+- (id){;
+- (id)z"Q}"size"{?="width"Q"height"Q"depth"Q}};
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSString *placeholder_path; // @synthesize placeholder_path=_placeholder_path;
-@property(nonatomic) int placeholder_record_modtime; // @synthesize placeholder_record_modtime=_placeholder_record_modtime;
-@property(nonatomic) int record_modtime; // @synthesize record_modtime=_record_modtime;
 
 @end
 

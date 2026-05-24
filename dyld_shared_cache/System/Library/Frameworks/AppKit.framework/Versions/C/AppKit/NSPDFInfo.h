@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface NSPDFInfo
 {
     NSURL *_URL;
-    NSArray *_tagNames;
-    long long _orientation;
-    struct CGSize _paperSize;
-    NSMutableDictionary *_attributes;
-    _Bool _fileExtensionHidden;
 }
 
 - (void);
@@ -24,24 +19,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;;
 - (id);
 - (id);
 - (void)¡ê/Ð!tCùQß31Â0@ù
 × ;
 - (long long)
 × ;
-- (id)ncrement;
-- (id)kingRectIfNecessary;
-- (void)dChangeNotification;
+- (id)increment;
+- (id)_removeVisibleViewTrackingRectIfNecessary;
+- (void)listenToPreferredScrollerStyleDidChangeNotification;
 
 // Remaining properties
 @property(copy) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;
-@property(getter=isFileExtensionHidden) _Bool fileExtensionHidden;
-@property long long orientation; // @synthesize orientation=_orientation;
-@property struct CGSize paperSize; // @synthesize paperSize=_paperSize;
-@property(copy) NSArray *tagNames; // @synthesize tagNames=_tagNames;
 
 @end
 

@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRPowerType
 {
     PBDataReader *_reader;
-    NSString *_key;
-    NSMutableArray *_subtitles;
-    NSMutableArray *_subtypes;
-    NSMutableArray *_titles;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_key:1;
-        unsigned int read_subtitles:1;
-        unsigned int read_subtypes:1;
-        unsigned int read_titles:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)CNApplicationProxy"@"NSError">24;
 + (Class);
-+ (Class);
-+ (_Bool)sSearchRequestType:(id)arg1;
++ (_Bool)setHasSearchRequestType:(id)arg1;
 + (Class);
 - (unsigned long long);
 - (id);
@@ -36,22 +22,22 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ۺ;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)URLSession:didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)estamp;
+- (void)lay;
+- (void);
+- (void)4;
+- (void);
+- (void);
 - (id);
+- (id));
+- (void)r">24;
+- (id)CSAttendingTriggerInfo:::amountOfSpeechDetectedInMs /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -59,8 +45,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)tMaxBusinessResults:(struct _NSZone *)arg1;
-- (id)SLAMTrack;
+- (id)setMaxBusinessResults:(struct _NSZone *)arg1;
+- (id)GEOVLFSLAMTrack;
 - (id)ecard Preloader received %lu placecards;
 - (id) ;
 - (_Bool)øÿqÂ3P@;
@@ -70,10 +56,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key;
-@property(retain, nonatomic) NSMutableArray *subtitles;
-@property(retain, nonatomic) NSMutableArray *subtypes;
-@property(retain, nonatomic) NSMutableArray *titles;
 
 @end
 

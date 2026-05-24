@@ -7,8 +7,6 @@
 @interface Vision.TrackObjectRequest.State
 {
     id lastAnalyzedTimeStamp;
-    id lastResult;
-    id tracker;
 }
 
 @end

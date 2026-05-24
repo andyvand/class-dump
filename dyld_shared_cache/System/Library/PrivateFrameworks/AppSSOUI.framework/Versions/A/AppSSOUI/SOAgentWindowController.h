@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOAgent;
+@class SOAgent;
 
 @interface SOAgentWindowController
 {
@@ -14,18 +14,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)T2;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SOAgent *agent; // @synthesize agent=_agent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

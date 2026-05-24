@@ -9,8 +9,8 @@
     id impl;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)jh8);
 
 @end
 

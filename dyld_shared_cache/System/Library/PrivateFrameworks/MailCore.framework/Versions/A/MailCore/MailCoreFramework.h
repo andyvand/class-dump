@@ -11,11 +11,11 @@
 + (void);
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)a;
 + (_Bool);
 + (id);
-+ (id);
-+ (void);
++ (id)int}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v{b2Vec2=ff}{b2Vec2=ff}{b2Vec3=fff}fBffBfffii{b2Vec2=ff}{b2Vec2=ff}{b2Vec2=ff}{b2Vec2=ff}ffff{b2Mat33={b2Vec3=fff}{b2Vec3=fff}{b2Vec3=fff}}fi};
++ (void);
 
 @end
 

@@ -7,11 +7,6 @@
 @interface Speech.NormalizingTranscriber
 {
     id locale;
-    id contentHints;
-    id modelOptions;
-    id reportingOptions;
-    id resultAttributeOptions;
-    id common;
 }
 
 @end

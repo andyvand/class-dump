@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKScanInfo, NSButton, NSImageView, NSProgressIndicator, NSTextField;
+@class IKScanInfo, NSButton;
 
 __attribute__((visibility("hidden")))
 @interface IKScanResultsTextCellView
 {
     NSButton *_findButton;
-    NSProgressIndicator *_spinner;
-    NSImageView *_documentIcon;
-    NSTextField *_documentName;
-    NSButton *_documentPageCount;
-    id _representedObject;
 }
 
 - (void);
@@ -27,29 +22,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)onInfo;
+- (id)q;
+- (id)keyPathsForValuesAffectingIsCommunicationSafetyNotificationEnabled;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)IKSelectionInfo;
 - (void);
 
 // Remaining properties
-@property NSImageView *documentIcon; // @synthesize documentIcon=_documentIcon;
-@property NSTextField *documentName; // @synthesize documentName=_documentName;
-@property NSButton *documentPageCount; // @synthesize documentPageCount=_documentPageCount;
-@property NSButton *findButton; // @synthesize findButton=_findButton;
-@property(retain) id representedObject; // @synthesize representedObject=_representedObject;
 @property(retain, nonatomic) IKScanInfo *scanInfo;
-@property NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
 
 @end
 

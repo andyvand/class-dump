@@ -6,7 +6,7 @@
 
 #import <ChronoServices/CHSLiveActivityDescriptor.h>
 
-@class CHSExtensionIdentity, NSData, NSString;
+@class NSData;
 
 @interface CHSMutableSessionPlatterDescriptor : CHSLiveActivityDescriptor
 {
@@ -23,24 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)
+;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *activityAttributesType; // @dynamic activityAttributesType;
-@property(copy, nonatomic) NSString *containerBundleIdentifier; // @dynamic containerBundleIdentifier;
-@property(copy, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(copy, nonatomic) NSString *eventMachServiceName; // @dynamic eventMachServiceName;
-@property(copy, nonatomic) NSString *extensionBundleIdentifier; // @dynamic extensionBundleIdentifier;
-@property(copy, nonatomic) CHSExtensionIdentity *extensionIdentity; // @dynamic extensionIdentity;
 @property(copy, nonatomic) NSData *localeToken; // @dynamic localeToken;
-@property(nonatomic) unsigned long long platform; // @dynamic platform;
-@property(nonatomic) long long preferredBackgroundStyle; // @dynamic preferredBackgroundStyle;
-@property(nonatomic) long long requestedDataProtection; // @dynamic requestedDataProtection;
-@property(copy, nonatomic) NSString *sdkVersion; // @dynamic sdkVersion;
-@property(nonatomic) _Bool supportsVibrantContent; // @dynamic supportsVibrantContent;
-@property(copy, nonatomic) NSString *widgetDescription; // @dynamic widgetDescription;
 
 @end
 

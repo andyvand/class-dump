@@ -5,5 +5,10 @@
 //
 
 @protocol SLSBrightnessTimeoutsTransaction
+- (void)d mapping model source hashes;
+- (void)hes:(double)arg1 %@
+;
+- (void)ytes from NSXMLDocument);
+- (_Bool)ly initialized due to error:(id *)arg1 %@;
 @end
 

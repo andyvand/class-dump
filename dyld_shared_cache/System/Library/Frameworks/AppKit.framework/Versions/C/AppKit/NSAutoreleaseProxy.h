@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAutoreleaseIdentifier, NSThread;
+@class NSThread;
 
 __attribute__((visibility("hidden")))
 @interface NSAutoreleaseProxy
 {
     NSThread *_initialThread;
-    NSAutoreleaseIdentifier *_identifier;
 }
 
-- (id);
-- (void);
+- (id)5;
+- (void);
 - (id);
 - (id)üä;
 
 // Remaining properties
-@property(readonly) NSAutoreleaseIdentifier *identifier; // @synthesize identifier=_identifier;
 @property(readonly) NSThread *initialThread; // @synthesize initialThread=_initialThread;
 
 @end

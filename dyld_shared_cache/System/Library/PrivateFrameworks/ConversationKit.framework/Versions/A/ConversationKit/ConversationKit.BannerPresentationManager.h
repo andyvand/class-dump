@@ -7,10 +7,9 @@
 @interface ConversationKit.BannerPresentationManager
 {
     id callCenter;
-    id _conversationControlsManager;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

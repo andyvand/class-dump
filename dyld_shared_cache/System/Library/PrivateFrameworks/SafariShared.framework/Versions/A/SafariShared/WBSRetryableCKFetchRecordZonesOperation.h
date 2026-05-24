@@ -11,8 +11,6 @@
 @interface WBSRetryableCKFetchRecordZonesOperation : WBSRetryableCKDatabaseOperation
 {
     NSArray *_recordZoneIDs;
-    CDUnknownBlockType _perRecordZoneCompletionBlock;
-    CDUnknownBlockType _fetchRecordZonesCompletionBlock;
 }
 
 - (void);
@@ -27,8 +25,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZonesCompletionBlock; // @synthesize fetchRecordZonesCompletionBlock=_fetchRecordZonesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneCompletionBlock; // @synthesize perRecordZoneCompletionBlock=_perRecordZoneCompletionBlock;
 @property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
 
 @end

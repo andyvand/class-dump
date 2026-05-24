@@ -7,8 +7,6 @@
 @interface _EARPeopleSuggesterConfig
 {
     unsigned int _contactsCount;
-    unsigned int _bestContactsCount;
-    unsigned int _bestContactsBonus;
 }
 
 - (id);
@@ -17,8 +15,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int bestContactsBonus; // @synthesize bestContactsBonus=_bestContactsBonus;
-@property(readonly, nonatomic) unsigned int bestContactsCount; // @synthesize bestContactsCount=_bestContactsCount;
 @property(readonly, nonatomic) unsigned int contactsCount; // @synthesize contactsCount=_contactsCount;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IMPendingReplicatedMessageContext
 {
     _Bool _encrypted;
-    NSArray *_fallbackGUIDs;
-    NSString *_sourceServiceName;
 }
 
 - (id);
@@ -20,14 +18,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)t with idsHandle:(id)arg1 %@ locationChangeType:%@ activity:%ld lat:%f lng:%f name:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)@;
 - (void)Ä;
 
 // Remaining properties
-@property(nonatomic) _Bool encrypted; // @synthesize encrypted=_encrypted;
 @property(retain, nonatomic) NSArray *fallbackGUIDs; // @synthesize fallbackGUIDs=_fallbackGUIDs;
-@property(copy, nonatomic) NSString *sourceServiceName; // @synthesize sourceServiceName=_sourceServiceName;
 
 @end
 

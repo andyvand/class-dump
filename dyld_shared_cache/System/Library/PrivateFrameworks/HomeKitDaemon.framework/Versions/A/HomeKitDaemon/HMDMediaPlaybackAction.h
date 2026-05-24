@@ -6,18 +6,12 @@
 
 #import <HomeKitDaemon/HMDAction.h>
 
-@class HMDHome, HMDMediaPlaybackActionAsCharacteristicWriteRequests, MPPlaybackArchive, NSNumber, NSSet, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaPlaybackAction : HMDAction
 {
     _Bool _encodePlaybackArchiveForExecution;
-    NSSet *_mediaProfiles;
-    NSNumber *_volume;
-    MPPlaybackArchive *_playbackArchive;
-    long long _state;
-    HMDHome *_home;
-    NSSet *_profileUUIDs;
 }
 
 + (_Bool);
@@ -26,14 +20,14 @@ __attribute__((visibility("hidden")))
 + (id)ädÿDáhyB;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)setElevationModel: /* Error: Ran out of types for this method. */;
+- (id)_performDelegateNotificationBlockIfReady:(id)arg1;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)_startSharingTripWithMessagesGroup;
+- (_Bool)] Unsubscribed from trip %@;
+- (id)troller] Reset;
+- (id)ntryRoute"8;
 - (void);
 - (_Bool);
 - (id);
@@ -43,15 +37,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)_TtC11PhotosGraph44PhotosChallengeEvaluableAlgorithmPortugalDay;
+- (id)%f;
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (long long);
-- (void);
+- (long long)*;
+- (void));
 - (id)
 × ;
 - (id)1Ð1Â0@ù
@@ -63,25 +57,11 @@ __attribute__((visibility("hidden")))
 - (void)@Registering notifications %@ with direct transports;
 - (void)ttaching Full Logs for iPhone, Watch, and Primary Resident device (check on TTR Add Devices > My Home > Device that's marked 'Primary Hub')
 To do this, select on TTR Device Diagnostics > Log Archive (Full);
-- (id)ngRepresentation;
-- (id)ndom;
+- (id)setupPayloadDecimalStringRepresentation;
+- (id)random;
 
 // Remaining properties
-@property(readonly, copy) HMDMediaPlaybackActionAsCharacteristicWriteRequests *convertedCharacteristicWriteRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool encodePlaybackArchiveForExecution; // @synthesize encodePlaybackArchiveForExecution=_encodePlaybackArchiveForExecution;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(copy, nonatomic) NSSet *mediaProfiles; // @synthesize mediaProfiles=_mediaProfiles;
-@property(retain, nonatomic) MPPlaybackArchive *playbackArchive; // @synthesize playbackArchive=_playbackArchive;
-@property(retain, nonatomic) NSSet *profileUUIDs; // @synthesize profileUUIDs=_profileUUIDs;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *volume; // @synthesize volume=_volume;
 
 @end
 

@@ -6,7 +6,7 @@
 
 @interface UnknownClass (TelephonyUtilitiesAdditions)
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 @end

@@ -11,8 +11,8 @@
     unsigned long long _value;
 }
 
-- (id);
-- (id);
+- (id)_registerObservers;
+- (id)�;
 - (_Bool);
 - (unsigned long long);
 

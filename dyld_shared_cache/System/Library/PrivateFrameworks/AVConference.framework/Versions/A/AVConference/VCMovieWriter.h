@@ -6,46 +6,12 @@
 
 #import <AVConference/VCObject.h>
 
-@class AVAssetWriter, AVAssetWriterInput, AVAssetWriterInputMetadataAdaptor, NSObject, NSString, NSURL, VCSandboxedURL;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VCMovieWriter : VCObject
 {
     NSString *_transactionID;
-    CDStruct_1b6d18a9 _lastVideoPresentationTime;
-    CDStruct_1b6d18a9 _lastLocalAudioPresentationTime;
-    CDStruct_1b6d18a9 _lastRemoteAudioPresentationTime;
-    CDStruct_1b6d18a9 _startTime;
-    CDStruct_1b6d18a9 _stillImageTime;
-    AVAssetWriter *_assetWriter;
-    AVAssetWriterInput *_videoInput;
-    AVAssetWriterInput *_localAudioInput;
-    AVAssetWriterInput *_remoteAudioInput;
-    AVAssetWriterInput *_metadataInput;
-    AVAssetWriterInputMetadataAdaptor *_adapter;
-    NSURL *_outputURL;
-    unsigned char _writerMode;
-    _Bool _isEndRTPTimestampSet;
-    unsigned int _startRTPTimeStamp;
-    unsigned int _endRTPTimeStamp;
-    _Bool _writingStarted;
-    struct opaqueCMBufferQueue *_videoQueue;
-    struct opaqueCMBufferQueue *_localAudioQueue;
-    struct opaqueCMBufferQueue *_remoteAudioQueue;
-    NSObject<OS_dispatch_queue> *_serializationQueue;
-    CDUnknownBlockType _completionHandler;
-    double _visibleWidth;
-    double _visibleHeight;
-    struct __CVPixelBufferPool *_bufferPool;
-    struct OpaqueVTPixelTransferSession *_transferSession;
-    unsigned int _codec;
-    unsigned int _mediaState;
-    _Bool _hasStillImageMetadataTrack;
-    double _keyFrameIntervalDuration;
-    VCSandboxedURL *_directoryURL;
-    CDStruct_1b6d18a9 _movieFragmentInterval;
-    _Bool _finishWritingInvoked;
 }
 
 - (unsigned char);
@@ -63,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -73,35 +39,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
+- (id)v
+;
+- (unsigned int)";
 - (void);
+- (void);
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_198678f7);
+- (void)PropertyDoesNotConformToPartialDecodableValue;
 - (id);
 - (id);
 - (id);
 - (void)class for key=%@;
-- (void):(CDStruct_1b6d18a9)arg1 isSend:] /* Error: Ran out of types for this method. */;
+- (void):(CDStruct_198678f7)arg1 isSend:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) VCSandboxedURL *directoryURL; // @synthesize directoryURL=_directoryURL;
-@property unsigned int endRTPTimeStamp; // @synthesize endRTPTimeStamp=_endRTPTimeStamp;
-@property(readonly, nonatomic) _Bool finishWritingInvoked; // @synthesize finishWritingInvoked=_finishWritingInvoked;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) CDStruct_1b6d18a9 movieFragmentInterval; // @synthesize movieFragmentInterval=_movieFragmentInterval;
-@property(retain, nonatomic) NSURL *outputURL; // @synthesize outputURL=_outputURL;
 @property unsigned int startRTPTimeStamp; // @synthesize startRTPTimeStamp=_startRTPTimeStamp;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
-@property(readonly) unsigned char writerMode; // @synthesize writerMode=_writerMode;
 
 @end
 

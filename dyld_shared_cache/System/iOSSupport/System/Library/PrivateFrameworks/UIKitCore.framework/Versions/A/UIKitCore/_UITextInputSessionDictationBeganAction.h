@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UITextInputSessionDictationBeganAction : _UITextInputSessionAction
 {
     unsigned long long _dictationBeganCount;
-    unsigned long long _modelessUsedAtLeastOnceCount;
-    unsigned long long _multiModalDictationBeganCount;
 }
 
 - (void);
@@ -19,15 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (long long);
+- (long long)dictionaryRepresentation;
 - (unsigned long long);
-- (id);
+- (id){CGPoint=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long dictationBeganCount; // @synthesize dictationBeganCount=_dictationBeganCount;
-@property(nonatomic) unsigned long long modelessUsedAtLeastOnceCount; // @synthesize modelessUsedAtLeastOnceCount=_modelessUsedAtLeastOnceCount;
-@property(nonatomic) unsigned long long multiModalDictationBeganCount; // @synthesize multiModalDictationBeganCount=_multiModalDictationBeganCount;
 
 @end
 

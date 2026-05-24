@@ -7,20 +7,6 @@
 @interface ChatKit.Gallery.ViewModel
 {
     id _delegate;
-    id conversation;
-    id _selectedBackgroundIdentifier;
-    id _selectionOverride;
-    id suggestionsLoader;
-    id suggestionAvailability;
-    id _canShowTranscriptBackgrounds;
-    id _backgroundSections;
-    id _posterChannel;
-    id playgroundAnalyticsContext;
-    id _featuredPhotoTileImage;
-    id _cachedAnalyticsState;
-    id _cachedSuggestionCounts;
-    id _lastSelectedAnalyticsType;
-    id _$observationRegistrar;
 }
 
 - (void);

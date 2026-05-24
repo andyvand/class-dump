@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWActionCameraSceneMonitor
 {
     _Bool _oneShotFocusScanInProgress;
-    _Bool _sceneTooDarkMonitoringEnabled;
-    NSDictionary *_luxThresholdsByPortType;
-    _Bool _sceneIsTooDark;
-    _Bool _portraitSceneMonitoringRequiresStageThresholds;
 }
 
-+ (void)dleFrameReceiveTimeout;
++ (void)fcs_handleFrameReceiveTimeout;
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -28,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float focusDistanceToMaxAllowedFocusDistanceRatio;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool portraitSceneMonitoringRequiresStageThresholds; // @synthesize portraitSceneMonitoringRequiresStageThresholds=_portraitSceneMonitoringRequiresStageThresholds;
-@property(readonly) Class superclass;
 
 @end
 

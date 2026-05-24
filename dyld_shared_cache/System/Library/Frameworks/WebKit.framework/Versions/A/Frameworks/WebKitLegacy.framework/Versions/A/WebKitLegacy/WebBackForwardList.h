@@ -11,26 +11,26 @@
     WebBackForwardListPrivate *_private;
 }
 
-+ (void)sSecureConnection;
++ (void)MediaCaptureRequiresSecureConnection;
 - (void);
 - (unsigned long long);
 - (id);
+- (void)ʬ;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)eHA;
 - (int);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)ing back to global sampling percentage value of %{public}@;
 - (id);
 - (id);
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (_Bool);
@@ -38,11 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WebHistoryItem *backItem;
-@property(readonly, nonatomic) int backListCount;
-@property(nonatomic) int capacity;
-@property(readonly, nonatomic) WebHistoryItem *currentItem;
-@property(readonly, nonatomic) WebHistoryItem *forwardItem;
-@property(readonly, nonatomic) int forwardListCount;
 
 @end
 

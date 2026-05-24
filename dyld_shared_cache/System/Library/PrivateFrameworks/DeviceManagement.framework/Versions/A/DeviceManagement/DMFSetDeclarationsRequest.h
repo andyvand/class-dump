@@ -6,13 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface DMFSetDeclarationsRequest : DMFTaskRequest
 {
     NSString *_organizationIdentifier;
-    NSString *_syncToken;
-    NSArray *_declarations;
 }
 
 + (_Bool);
@@ -22,17 +20,15 @@
 - (id);
 - (void);
 - (id);
+- (void)0;
 - (void);
-- (void);
-- (void);
+- (void)collectionView:pasteboardWriterForItemAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)Q;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *declarations; // @synthesize declarations=_declarations;
 @property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(copy, nonatomic) NSString *syncToken; // @synthesize syncToken=_syncToken;
 
 @end
 

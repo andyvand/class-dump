@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, NSString, SKStatusSubscriptionService;
-@protocol OS_dispatch_queue;
+@class SKStatusSubscriptionService;
 
 @interface IMDAvailabilityVerificationManager
 {
     SKStatusSubscriptionService *_availabilitySubscriptionService;
-    NSCache *_subscriptionValidationTokenByHandleIDCache;
-    NSObject<OS_dispatch_queue> *_privateWorkQueue;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (id):%s, participantId:%s /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (void);
@@ -37,15 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SKStatusSubscriptionService *availabilitySubscriptionService; // @synthesize availabilitySubscriptionService=_availabilitySubscriptionService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *privateWorkQueue; // @synthesize privateWorkQueue=_privateWorkQueue;
-@property(retain, nonatomic) NSCache *subscriptionValidationTokenByHandleIDCache; // @synthesize subscriptionValidationTokenByHandleIDCache=_subscriptionValidationTokenByHandleIDCache;
-@property(readonly) Class superclass;
 
 @end
 

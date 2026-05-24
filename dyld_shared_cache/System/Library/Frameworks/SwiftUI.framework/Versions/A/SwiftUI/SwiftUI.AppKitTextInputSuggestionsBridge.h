@@ -7,9 +7,6 @@
 @interface SwiftUI.AppKitTextInputSuggestionsBridge
 {
     id windowBridge;
-    id monitor;
-    id isPresentingSuggestions;
-    id suggestionsView;
 }
 
 @end

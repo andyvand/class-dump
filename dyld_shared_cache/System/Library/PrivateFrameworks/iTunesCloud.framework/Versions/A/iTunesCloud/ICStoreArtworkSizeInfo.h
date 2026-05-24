@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ICStoreArtworkSizeInfo
 {
     _Bool _hasMaxSupportedSize;
-    long long _type;
-    NSArray *_supportedSizes;
-    struct CGSize _maxSupportedSize;
 }
 
 - (struct CGSize);
@@ -27,9 +22,6 @@
 - (void),R,N,V_queueEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxSupportedSize; // @synthesize hasMaxSupportedSize=_hasMaxSupportedSize;
-@property(nonatomic) struct CGSize maxSupportedSize; // @synthesize maxSupportedSize=_maxSupportedSize;
-@property(copy, nonatomic) NSArray *supportedSizes; // @synthesize supportedSizes=_supportedSizes;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

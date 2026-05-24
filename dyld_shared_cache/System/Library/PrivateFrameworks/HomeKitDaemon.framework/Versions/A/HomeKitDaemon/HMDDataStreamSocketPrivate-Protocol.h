@@ -5,5 +5,7 @@
 //
 
 @protocol HMDDataStreamSocketPrivate
+- (void)liveStrategyIdentifiersCount;
+- (void)[Service] Start sharing trip with group:%@ /* Error: Ran out of types for this method. */;
 @end
 

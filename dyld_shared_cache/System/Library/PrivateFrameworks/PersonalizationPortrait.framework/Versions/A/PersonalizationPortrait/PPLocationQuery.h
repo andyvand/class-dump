@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
-
 @interface PPLocationQuery
 {
     _Bool _excludingWithoutSentiment;
-    _Bool _orderByAscendingDate;
-    _Bool _filterByRelevanceDate;
-    unsigned long long _limit;
-    NSDate *_fromDate;
-    NSDate *_toDate;
-    NSDate *_scoringDate;
-    NSSet *_matchingSourceBundleIds;
-    NSSet *_excludingSourceBundleIds;
-    unsigned long long _deviceFilter;
-    double _perRecordDecayRate;
-    double _decayRate;
-    NSString *_fuzzyMatchingString;
-    NSSet *_matchingCategories;
-    NSSet *_matchingAlgorithms;
-    NSSet *_excludingAlgorithms;
-    NSString *_matchingContactHandle;
-    unsigned long long _consumer;
 }
 
 + (id);
@@ -37,10 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)appendBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void)ine PKAutoRefineQueryItem bounds for token column %ld = %@;
 - (id);
 - (void);
 - (id);
@@ -54,7 +35,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (double);
+- (double)9a;
 - (void);
 - (void);
 - (void);
@@ -66,38 +47,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Є;
 - (id);
 - (id);
 - (_Bool);
+- (unsigned long long)_selectedIdentities;
+- (id)commandLoop;
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (unsigned long long)ate:contentUTIType:fileProviderId:earliestAttributionIdentifiers:localIdentity:localIdentityProof:handleToIdentityMap: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long consumer; // @synthesize consumer=_consumer;
-@property(nonatomic) double decayRate; // @synthesize decayRate=_decayRate;
-@property(nonatomic) unsigned long long deviceFilter; // @synthesize deviceFilter=_deviceFilter;
-@property(retain, nonatomic) NSSet *excludingAlgorithms; // @synthesize excludingAlgorithms=_excludingAlgorithms;
-@property(retain, nonatomic) NSSet *excludingSourceBundleIds; // @synthesize excludingSourceBundleIds=_excludingSourceBundleIds;
-@property(nonatomic) _Bool excludingWithoutSentiment; // @synthesize excludingWithoutSentiment=_excludingWithoutSentiment;
-@property(nonatomic) _Bool filterByRelevanceDate; // @synthesize filterByRelevanceDate=_filterByRelevanceDate;
-@property(retain, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
-@property(retain, nonatomic) NSString *fuzzyMatchingString; // @synthesize fuzzyMatchingString=_fuzzyMatchingString;
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) NSSet *matchingAlgorithms; // @synthesize matchingAlgorithms=_matchingAlgorithms;
-@property(retain, nonatomic) NSSet *matchingCategories; // @synthesize matchingCategories=_matchingCategories;
-@property(retain, nonatomic) NSString *matchingContactHandle; // @synthesize matchingContactHandle=_matchingContactHandle;
-@property(retain, nonatomic) NSSet *matchingSourceBundleIds; // @synthesize matchingSourceBundleIds=_matchingSourceBundleIds;
-@property(nonatomic) _Bool orderByAscendingDate; // @synthesize orderByAscendingDate=_orderByAscendingDate;
-@property(nonatomic) double perRecordDecayRate; // @synthesize perRecordDecayRate=_perRecordDecayRate;
-@property(retain, nonatomic) NSDate *scoringDate; // @synthesize scoringDate=_scoringDate;
-@property(retain, nonatomic) NSDate *toDate; // @synthesize toDate=_toDate;
 
 @end
 

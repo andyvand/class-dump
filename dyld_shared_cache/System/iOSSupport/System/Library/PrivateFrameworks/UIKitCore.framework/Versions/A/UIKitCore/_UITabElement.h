@@ -15,10 +15,10 @@
 
 + (id);
 - (_Bool);
+- (id)}};
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)ndex %lu ;
+- (void)MPModelRequest;
 - (id);
 - (void)orks/AudioToolbox.framework/AudioToolbox;
 

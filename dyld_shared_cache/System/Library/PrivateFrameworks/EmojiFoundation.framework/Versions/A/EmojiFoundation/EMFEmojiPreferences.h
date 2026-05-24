@@ -4,84 +4,77 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface EMFEmojiPreferences
 {
     NSMutableDictionary *_usageHistory;
-    NSMutableArray *_recents;
-    NSMutableDictionary *_typingNames;
-    NSMutableDictionary *_skinToneBaseKeyPreferences;
-    NSMutableDictionary *_categoryIndexes;
-    long long _currentSequence;
-    struct unique_ptr<CEM::AdaptationDatabaseController, std::default_delete<CEM::AdaptationDatabaseController>> _adaptationController;
-    _Bool _isDefaultDirty;
-    unsigned long long _maximumRecentsCount;
-    NSMutableDictionary *_defaults;
 }
 
 + (id);
++ (id)Ph;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
+- (void)Downloads;
+- (id);
+- (id)pen a profile window;
+- (void)its search results.
+
+If you would like to choose another search engine, click Open Settings below. This setting can be changed at any time.;
+- (void)DidPromptSearchEngineAlert;
+- (_Bool)ManageProfiles;
+- (void)p Disabled;
+- (void)this shared Tab Group.;
+- (double)te-%@;
+- (double)nager"16@?0@"WBSPair"8;
+- (double)KContentRuleList"8;
+- (double)"WBProfile"8Q16^B24;
+- (_Bool)with You;
+- (id)ebpage With Metadata;
+- (id)up;
+- (id)p from This Window;
+- (id)on.square;
+- (unsigned long long)ShowCertificate;
+- (id)ShowPerSitePreferencesMenuItem;
+- (void)AccessQueue;
+- (void)didPerformDelayedLaunchOperationsNotification;
 - (void);
-- (id);
-- (id);
+- (void)9;
+- (void)14;
+- (void)'t finished launching;
+- (unsigned long long)accountTypesToSkipForSetup;
+- (void)arks view.;
+- (_Bool)BookmarksNewFolderButton;
+- (void)to Apple Music website;
+- (void)e because the address is invalid.;
+- (void)ng whether the user wants to always open an external app.;
+- (void)s to open an external app.;
+- (void)external app.;
+- (void)er;
+- (void)tab prompt about an error when tracking a wallet order;
+- (void)because the format is not supported;
+- (void)wallet order;
+- (void)n in-tab prompt asking the user if they want to allow a website to show a wallet order;
+- (void)ow a website to show a pass;
+- (void)allet pass. Do you want to allow this?;
+- (void)blocked;
+- (id)you want to print this webpage?;
+- (id)ically starting a call.;
+- (void *)mpt dialog;
+- (void)oved, which may log you out of websites.;
+- (void)ou sure you want to block all cookies?;
+- (void)tch to confirm your payment.;
+- (void)d Apple Card using your iPhone or Apple Watch to confirm your payment.;
+- (void)Now button in Remove All Website Data confirmation in Privacy preferences;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -90,26 +83,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allRecents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) NSMutableDictionary *defaults; // @synthesize defaults=_defaults;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasDisplayedSkinToneHelp;
-@property(readonly) unsigned long long hash;
-@property _Bool isDefaultDirty; // @synthesize isDefaultDirty=_isDefaultDirty;
-@property(nonatomic) unsigned long long maximumRecentsCount; // @synthesize maximumRecentsCount=_maximumRecentsCount;
-@property(readonly, nonatomic) NSString *previouslyUsedCategory;
-@property(readonly, nonatomic) NSArray *recentEmojis;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CRKFileActionPair
 {
     NSURL *_sourceURL;
-    NSURL *_destinationURL;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
 @property(readonly, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
 
 @end

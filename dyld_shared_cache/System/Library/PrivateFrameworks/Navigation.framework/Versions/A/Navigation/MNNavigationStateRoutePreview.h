@@ -6,28 +6,26 @@
 
 #import <Navigation/MNNavigationState.h>
 
-@class MNNavigationSessionManager, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationStateRoutePreview : MNNavigationState
 {
     NSArray *_previewRoutes;
-    unsigned long long _selectedRouteIndex;
-    MNNavigationSessionManager *_navigationSessionManager;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)4;
 - (long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)EAWiFiUnconfiguredAccessoryBrowser startSearchingForUnconfiguredAccessoriesMatchingPredicate:(id)arg1 ];
+- (void)EAAccessoryDestinationStatusDidSucceedKey;
 - (void);
 - (void)1Â0@ù
 × ;

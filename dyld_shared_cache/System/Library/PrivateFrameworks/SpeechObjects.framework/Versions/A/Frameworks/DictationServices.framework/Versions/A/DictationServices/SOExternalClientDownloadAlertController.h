@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField, SOSRLanguageItem;
+@class NSTextField;
 
 @interface SOExternalClientDownloadAlertController
 {
     NSTextField *_titleTextField;
-    NSTextField *_descriptionTextField;
-    NSButton *_doNotAskAgainCheckbox;
-    SOSRLanguageItem *_languageItem;
-    int _clientPid;
-    CDUnknownBlockType _completion;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)t;
 - (void);
 - (void);
 - (void);

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAsset, PHFetchResult, PHPhotoLibrary, PXSharedLibraryStatusProvider;
+@class PHPhotoLibrary;
 
 @interface PXSharedLibraryAssetStatusProvider
 {
     PHPhotoLibrary *_photoLibrary;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
-    _Bool _hasSharedLibraryOrPreview;
-    PHAsset *_asset;
-    unsigned long long _status;
-    NSString *_localizedContributionStatus;
-    PHFetchResult *_fetchedParticipants;
 }
 
 + (id);
@@ -27,37 +21,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long)dHorizontallyCenterPlayButton;
-- (void)oKitDataSourceManager;
+- (unsigned long long)_shouldHorizontallyCenterPlayButton;
+- (void)PhotoKitDataSourceManager;
 - (id)& !isnan(displayScale);
 - (void)ut setSelectionTitle:(id)arg1 ];
 - (void)È¹;
 - (id)Å¦N¤0=;
 
 // Remaining properties
-@property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PHFetchResult *fetchedParticipants; // @synthesize fetchedParticipants=_fetchedParticipants;
 @property(nonatomic) _Bool hasSharedLibraryOrPreview; // @synthesize hasSharedLibraryOrPreview=_hasSharedLibraryOrPreview;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *localizedContributionStatus; // @synthesize localizedContributionStatus=_localizedContributionStatus;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

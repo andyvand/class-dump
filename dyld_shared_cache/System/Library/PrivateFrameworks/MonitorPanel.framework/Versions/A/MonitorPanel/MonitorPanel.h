@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSView;
-
 @interface MonitorPanel
 {
     int _displayID;
-    NSBundle *_bundle;
-    NSView *_view;
-    id _controller;
 }
 
 + (int);
@@ -26,17 +21,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)dd}}16;
 - (id);
 - (id);
 - (void);
 - (unsigned int);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)";
+- (id)_setCollectionViewBoundsSize: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)generateStatisticsReportForDataSession:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

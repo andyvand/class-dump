@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface HMAccessoryDiagnosticsOptions
 {
     _Bool _metadataRequired;
-    _Bool _recordAudio;
-    _Bool _enableAudioClips;
-    NSNumber *_matterLogType;
-    NSNumber *_logSize;
-    NSNumber *_delay;
-    long long _snapshotType;
 }
 
 + (_Bool);
@@ -27,20 +19,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (id);
 - (void)eui64 and product number '%@':%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *delay; // @synthesize delay=_delay;
-@property(readonly, nonatomic) _Bool enableAudioClips; // @synthesize enableAudioClips=_enableAudioClips;
-@property(readonly, nonatomic) NSNumber *logSize; // @synthesize logSize=_logSize;
-@property(retain, nonatomic) NSNumber *matterLogType; // @synthesize matterLogType=_matterLogType;
 @property(readonly, nonatomic) _Bool metadataRequired; // @synthesize metadataRequired=_metadataRequired;
-@property(readonly, nonatomic) _Bool recordAudio; // @synthesize recordAudio=_recordAudio;
-@property(readonly, nonatomic) long long snapshotType; // @synthesize snapshotType=_snapshotType;
 
 @end
 

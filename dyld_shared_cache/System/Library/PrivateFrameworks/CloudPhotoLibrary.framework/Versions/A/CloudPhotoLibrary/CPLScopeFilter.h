@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface CPLScopeFilter
 {
     NSSet *_includedScopeIdentifiers;
-    NSSet *_excludedScopeIdentifiers;
 }
 
 - (id);
@@ -24,9 +23,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *excludedScopeIdentifiers; // @synthesize excludedScopeIdentifiers=_excludedScopeIdentifiers;
 @property(readonly, nonatomic) NSSet *includedScopeIdentifiers; // @synthesize includedScopeIdentifiers=_includedScopeIdentifiers;
-@property(readonly, nonatomic) NSString *simpleDescription;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface MPSNNCropAndResizeBilinear : MPSCNNKernel
 {
     unsigned long long _resizeWidth;
-    unsigned long long _resizeHeight;
-    unsigned long long _numberOfRegions;
-    struct MPSRegion *_regions;
-    struct Region_params *_gpuRegions;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -29,9 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfRegions; // @synthesize numberOfRegions=_numberOfRegions;
-@property(readonly, nonatomic) const struct MPSRegion *regions; // @synthesize regions=_regions;
-@property(readonly, nonatomic) unsigned long long resizeHeight; // @synthesize resizeHeight=_resizeHeight;
 @property(readonly, nonatomic) unsigned long long resizeWidth; // @synthesize resizeWidth=_resizeWidth;
 
 @end

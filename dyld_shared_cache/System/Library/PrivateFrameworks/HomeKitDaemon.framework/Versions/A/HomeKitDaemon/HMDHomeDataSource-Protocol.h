@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinBoard, HMDDeviceLockStateDataSource, HMDHAPMetadata, HMDXPCMessageTransport, HMFNetManager, HMFWiFiManager;
+@class HMDDeviceLockStateDataSource, HMDHAPMetadata, HMDModernMessagingHandler, HMFWiFiManager;
 @protocol HMDFeaturesDataSource, HMDIDSIDQueryController, HMDPreferences;
 
 @protocol HMDHomeDataSource
+- (HMDModernMessagingHandler *)A;
+- (id <HMDIDSIDQueryController>)@"GEONavigationListener"16@"GEOComposedWaypoint"24Q32;
+- (HMDDeviceLockStateDataSource *)MSPContainerArrayStateSnapshot;
 - (id <HMDPreferences>)0@ù
 × ;
-- (id <HMDFeaturesDataSource>)delMessage: /* Error: Ran out of types for this method. */;
+- (id <HMDFeaturesDataSource>)handleCheckIsUsingProductionObjectModelMessage: /* Error: Ran out of types for this method. */;
 - (HMFWiFiManager *);
 
 // Remaining properties
-@property(readonly) HMDBulletinBoard *bulletinBoard;
-@property(readonly) HMDDeviceLockStateDataSource *deviceLockStateDataSource;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
 @property(readonly) HMDHAPMetadata *hapMetadata;
-@property(readonly) id <HMDIDSIDQueryController> idsIDQueryController;
-@property(readonly) HMFNetManager *netManager;
-@property(readonly, nonatomic) id <HMDPreferences> preferences;
-@property(readonly) HMFWiFiManager *wifiManager;
-@property(readonly) HMDXPCMessageTransport *xpcMessageTransport;
 @end
 

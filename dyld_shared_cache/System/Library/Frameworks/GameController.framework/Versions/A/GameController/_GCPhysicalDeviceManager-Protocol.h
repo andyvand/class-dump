@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
 @protocol _GCPhysicalDeviceRegistry;
 
 @protocol _GCPhysicalDeviceManager
+- (NSNumber *)`;
+
+@optional
+- (void);
 
 // Remaining properties
 @property __weak id <_GCPhysicalDeviceRegistry> deviceRegistry;

@@ -10,7 +10,7 @@
 {
 }
 
-+ (double);
++ (double);
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);

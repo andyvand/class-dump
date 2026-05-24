@@ -4,65 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSObject, NSUserInterfaceCompressionOptions, _NSAcceleratorButtonHelper;
-@protocol NSControlStateContentStyle;
+@class NSColor, _NSAcceleratorButtonHelper;
 
 __attribute__((visibility("hidden")))
 @interface _NSButtonCellAux
 {
     _NSAcceleratorButtonHelper *_acceleratorHelper;
-    NSColor *_bezelTintColor;
-    NSColor *_contentTintColor;
-    double _doubleValue;
-    long long _maxAcceleratorLevel;
-    long long _maximumNumberOfLines;
-    double _acceleratorClickTimestamp;
-    double _minimumPressDuration;
-    NSUserInterfaceCompressionOptions *_compressibleOptions;
-    long long _toolbarAppearance;
-    NSObject<NSControlStateContentStyle> *_controlStateContentStyleOverride;
-    double jiggleEffectDuration;
-    double jiggleEffectOffset;
-    struct {
-        unsigned int exceededInitialValue:1;
-        unsigned int springLoaded:1;
-        unsigned int springLoadingEmphasized:1;
-        unsigned int animationsAllowed:1;
-        unsigned int showsDisclosureChevron:1;
-        unsigned int guarded:1;
-        unsigned int hasDestructiveAction:1;
-        unsigned int usesCautionaryAppearanceWhenActionIsDestructive:1;
-        unsigned int alwaysShowsStateWithEffects:1;
-        unsigned int alwaysShowsHighlightWithEffects:1;
-        unsigned int showsProgress:1;
-        unsigned int showsJiggleEffect:1;
-        unsigned int _reserved:20;
-    } _flags;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ed in this case;
+- (void)BYYil6kIk8Hm5lRuA1k8Tw;
+- (void)mH5IrpyGkVtmgdqs68KHRg;
+- (void)mL1lk3ZVGDFUQhxU9YLW6Q;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id)stinationWindowForDetachedTabDraggingImageToWindowTransitionController:(struct _NSZone *)arg1;
+- (id)destinationWindowForDetachedTabDraggingImageToWindowTransitionController:(struct _NSZone *)arg1;
 - (void);
 - (double);
 - (void)@;
 
 // Remaining properties
 @property(copy) NSColor *bezelTintColor; // @synthesize bezelTintColor=_bezelTintColor;
-@property(copy) NSColor *contentTintColor; // @synthesize contentTintColor=_contentTintColor;
-@property(retain) NSObject<NSControlStateContentStyle> *controlStateContentStyleOverride; // @synthesize controlStateContentStyleOverride=_controlStateContentStyleOverride;
-@property long long maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
-@property double minimumPressDuration; // @synthesize minimumPressDuration=_minimumPressDuration;
-@property _Bool showsJiggleEffect;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
-@protocol TUConversationManagerDataSource, TUConversationMediaControllerDelegate;
+@protocol TUConversationManagerDataSource;
 
 @interface TUConversationMediaController
 {
     id <TUConversationManagerDataSource> _dataSource;
-    NSHashTable *_delegates;
 }
 
 - (void);
@@ -23,19 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void)forKey: /* Error: Ran out of types for this method. */;
+- (void)setObject:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TUConversationManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUConversationMediaControllerDelegate> delegate;
-@property(retain, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,44 +6,32 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UIAccessibilityHUDGestureManager, UIStatusBar, UIStatusBarComposedData, UIStatusBarForegroundStyleAttributes, UIStatusBarLayoutManager;
-
 __attribute__((visibility("hidden")))
 @interface UIStatusBarForegroundView : UIView
 {
     _Bool _usesVerticalLayout;
-    _Bool _itemIsEnabled[52];
-    UIStatusBarLayoutManager *_layoutManagers[3];
-    int _ignoreDataLevel;
-    NSMutableArray *_actionAnimationStack;
-    UIStatusBarComposedData *_currentData;
-    UIStatusBarComposedData *_pendedData;
-    int _pendedActions;
-    UIAccessibilityHUDGestureManager *_accessibilityHUDGestureManager;
-    long long _idiom;
-    UIStatusBarForegroundStyleAttributes *_foregroundStyle;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)categorizeIncomingRCSMessageGUID:(id)arg1 sender:wasRelayed:chatIdentifier:participants:checkingForSpam:trustIndicator:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (void)_bundleAllowedToLoadWithProperties:(_Bool)arg1;
+- (void)_attachmentFetchRecordZoneChangesOptionsDictionaryUsingToken:zoneID:resultsLimit:desiredKeys: /* Error: Ran out of types for this method. */;
+- (void)_TtCC12IMDaemonCore32IMDPersistentTaskCriticalLimiter8Defaults;
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)%@;
 - (_Bool);
-- (struct CGRect);
-- (struct CGRect);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (struct CGRect)econnectTimer]:(int)arg1 %@;
+- (struct CGRect)]:(int)arg1 %@;
+- (_Bool)based on phone number IDS account based on parameters shouldFilter %@ requestProxy %@;
+- (id)le-hybrid-groups;
+- (id)destination.;
+- (void)schema_version;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -55,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)yloadExtendedAuthEnabled;
 - (void);
 - (_Bool);
 - (void);
@@ -63,8 +51,8 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Ñfð1Â0@ù
 × ;
-- (void)r:(_Bool)arg1;
-- (void)tDelegateConformsToWKInteraction;
+- (void)colorEffectColor:(_Bool)arg1;
+- (void)_forwardingInputDelegateConformsToWKInteraction;
 - (id)IToolTipInteraction",R,N;
 - (void)üfhÀh<iÔj l\l;
 - (_Bool)Ì#«;
@@ -73,16 +61,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ(ÿ²Ù0éb;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIStatusBarForegroundStyleAttributes *foregroundStyle; // @synthesize foregroundStyle=_foregroundStyle;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long idiom; // @synthesize idiom=_idiom;
-@property(readonly, nonatomic) UIStatusBar *statusBar;
-@property(readonly) Class superclass;
 
 @end
 

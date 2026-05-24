@@ -13,7 +13,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)initWithURL:parseDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long meCardSharingStatus; // @synthesize meCardSharingStatus=_meCardSharingStatus;

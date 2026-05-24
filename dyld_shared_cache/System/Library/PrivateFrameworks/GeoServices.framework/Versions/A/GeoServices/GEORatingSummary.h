@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRatingData, NSMapTable, NSString;
+@class GEOPDRatingData, NSString;
 
 @interface GEORatingSummary
 {
     GEOPDRatingData *_ratingData;
-    NSMapTable *_attributionMap;
 }
 
-- (float);
-- (float);
-- (_Bool);
-- (id);
+- (float)@0:8@"NSManagedObjectContext"16@?<v@?>24 /* Error: Ran out of types for this method. */;
+- (float)filemanager;
+- (_Bool)isProxy;
+- (id)CNPersistentStoreCoordinatorCache;
 - (float);
 - (float);
 - (void)/P@;
 - (id)Ùã;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAppleRating) _Bool appleRating;
-@property(readonly, nonatomic) float normalizedUserRatingScore;
-@property(readonly, nonatomic) float sampleSizeUsedForScore;
 @property(readonly, nonatomic) NSString *vendorName;
 
 @end

@@ -7,15 +7,11 @@
 @interface MDLMemoryMappedData
 {
     struct __sFILE *_file;
-    char *_mappedAddr;
-    char *_fileStart;
-    long long _mappedFileSize;
-    long long _length;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)ctedTranscriptions;
 
 @end
 

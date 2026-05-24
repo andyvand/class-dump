@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface INRideFareLineItem
 {
     NSString *_title;
-    NSDecimalNumber *_price;
-    NSString *_currencyCode;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)sourceAttributes:(id)arg1 sourceExtendedEventField: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)locationAuthorizationStatus;
+- (void)ate known network is EAP;
 - (id);
 - (id);
 - (id);
-- (id)laybackRepeatMode: /* Error: Ran out of types for this method. */;
-- (id)riggersToDisambiguate:(unsigned long long)arg1;
-- (void)ayBill:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)setPlaybackRepeatMode: /* Error: Ran out of types for this method. */;
+- (id)disambiguationWithTemporalEventTriggersToDisambiguate:(unsigned long long)arg1;
+- (void)provideTransactionAmountOptionsCollectionForPayBill:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDecimalNumber *price; // @synthesize price=_price;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

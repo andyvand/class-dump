@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWLanguageConfidenceArray : SISchemaInstrumentationMessage
 {
@@ -26,14 +26,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)t;
 - (id)ORCHSchemaORCHMultiUserResultCandidateSelected";
 - (id)ScoreTargetApp;
 - (id)!Ä# $@'`(;
 - (void)è$;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *languageConfidences; // @synthesize languageConfidences=_languageConfidences;
 
 @end

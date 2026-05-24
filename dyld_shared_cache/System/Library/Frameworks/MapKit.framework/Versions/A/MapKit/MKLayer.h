@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface MKLayer
 {
     struct CGRect _hitBounds;
-    struct CGPoint _hitOffset;
-    struct CGPoint _hitOutset;
 }
 
 - (void);
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
-- (struct CGRect);
-- (_Bool);
-- (void);
+- (struct CGRect)�;
+- (_Bool)to disable although failed to invalidate %{public}s app, error = %{public}s;
+- (void)substringWithRange:(struct CGRect)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect hitBounds; // @synthesize hitBounds=_hitBounds;
-@property(nonatomic) struct CGPoint hitOffset; // @synthesize hitOffset=_hitOffset;
-@property(nonatomic) struct CGPoint hitOutset; // @synthesize hitOutset=_hitOutset;
 
 @end
 

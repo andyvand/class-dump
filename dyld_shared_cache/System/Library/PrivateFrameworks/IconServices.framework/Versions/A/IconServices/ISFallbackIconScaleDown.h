@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISFallbackIconScaleDown
 {
     struct CGImage *_image;
-    NSNumber *_cornerRadius;
 }
 
 - (id);
@@ -20,15 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct CGImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

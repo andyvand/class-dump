@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface BSSimpleAssertion
 {
@@ -14,16 +13,10 @@
         CDUnknownBlockType noArgs;
         id value;
     } _invalidationBlock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Atomic _Bool _invalidated;
-    unsigned char _invalidationType;
-    _Bool _wasExplicit;
-    NSString *_reason;
-    NSString *_identifier;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -44,18 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BSSimpleAssertion *assertion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
-@property(readonly, nonatomic) _Bool wasExplicit; // @synthesize wasExplicit=_wasExplicit;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UIVisualEffectView;
+@class UIImageView;
 
 @interface NANowPlayingBackgroundView
 {
     UIImageView *_imageView;
-    UIVisualEffectView *_visualEffectsView;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) UIVisualEffectView *visualEffectsView; // @synthesize visualEffectsView=_visualEffectsView;
 
 @end
 

@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
+- (void)consumeData;
+- (struct CGRect)SetDefaultCredential;
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id)esItemViews;
+- (id)_usesItemViews;
 
 // Remaining properties
 @property(copy) NSString *statusString;

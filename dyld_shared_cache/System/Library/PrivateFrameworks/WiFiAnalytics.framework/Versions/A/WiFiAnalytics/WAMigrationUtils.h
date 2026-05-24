@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)n;
 + (id);
 + (id);
 + (id);

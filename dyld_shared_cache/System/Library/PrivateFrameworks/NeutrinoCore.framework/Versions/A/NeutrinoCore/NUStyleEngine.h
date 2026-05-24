@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _NUStyleEngine;
+@class _NUStyleEngine;
 @protocol MTLCommandQueue;
 
 @interface NUStyleEngine
 {
     id <MTLCommandQueue> _commandQueue;
-    _NUStyleEngine *_engine;
 }
 
 + (_Bool);
@@ -18,46 +17,40 @@
 - (CDStruct_912cb5d2);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)T%;
 - (id);
 - (CDStruct_912cb5d2);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)colors;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id)context:colorSpace:error: /* Error: Ran out of types for this method. */;
+- (id)autoRedEyeExtractDataToDictionary:dataExtractor:options:context:colorSpace:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_912cb5d2 coefficientsTextureSize;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(readonly, copy, nonatomic) NSDictionary *configuration;
 @property(readonly, nonatomic) _NUStyleEngine *engine; // @synthesize engine=_engine;
-@property(readonly, nonatomic) CDStruct_912cb5d2 thumbnailTextureSize;
-@property(readonly, copy, nonatomic) NSDictionary *tuningParameters;
-@property(readonly, nonatomic) long long usage;
 
 @end
 

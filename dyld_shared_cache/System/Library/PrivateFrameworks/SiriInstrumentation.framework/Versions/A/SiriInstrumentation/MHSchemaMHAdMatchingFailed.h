@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAdMatchingFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)navigationServiceProxy:didUpdateNavigationDetails: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)aryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_strnid.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)tHasCanceled:(id)arg1;
+- (id)setHasCanceled:(id)arg1;
 - (id)xt;
 - (void);
 - (unsigned int)ÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

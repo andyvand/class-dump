@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id _inProgress;
-    id _retryCounter;
 }
 
 @end

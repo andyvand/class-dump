@@ -10,22 +10,22 @@
 {
 }
 
++ (id)cator<PKMetalParticleStrokePoint>>="__begin_"^{PKMetalParticleStrokePoint}"__end_"^{PKMetalParticleStrokePoint}""{?="__cap_"^{PKMetalParticleStrokePoint}}};
 + (id);
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@?80;
+- (void)SelectionImageConfig";
+- (void)t=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48d80{CGSize=dd}88B104B108B112B116B120B124;
+- (void)rokeSelectionImage";
+- (id)24@0:(id)arg1 8@16;
+- (id)48;
+- (id)GRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48d64B72;
+- (id):(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16d48;
+- (void)s="_os_unfair_lock_opaque"I}};
+- (void)xValue"d"limit"d"lock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (id)tiesExpectingUpdates"q};
+- (id)matedActiveInputProperties"q"estimatedActiveInputPropertiesExpectingUpdates"q};
+- (id)l_"^{__shared_weak_count}};
+- (id)d_ptr<std:(id)arg1:(id)arg2 vector<(anonymous namespace):(id)arg3:StrokeVertex>>="__ptr_"^v"__cntrl_"^{__shared_weak_count}} /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

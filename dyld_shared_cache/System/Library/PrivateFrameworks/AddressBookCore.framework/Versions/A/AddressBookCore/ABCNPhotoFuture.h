@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABPerson;
+@class ABAddressBook;
 
 @interface ABCNPhotoFuture
 {
     ABAddressBook *_addressBook;
-    ABPerson *_person;
-    long long _tag;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)geTypeDelete;
+- (void)documentsURL;
+- (void)CNCDMetadataChangeTypeDelete;
 
 @end
 

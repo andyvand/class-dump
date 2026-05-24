@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol MPUniversalStoreIdentifiers
-- (long long)on;
-- (long long)ion;
-- (long long);
+- (NSString *);
+- (long long)MPRemoteCommandTargetsDidChangeNotification;
+- (long long)MPUnloadingPlaybackAssetsOnIdleDuration;
 
 // Remaining properties
-@property(readonly, nonatomic) long long adamID;
-@property(readonly, nonatomic) long long assetAdamID;
-@property(readonly, copy, nonatomic) NSArray *formerAdamIDs;
 @property(readonly, copy, nonatomic) NSString *globalPlaylistID;
-@property(readonly, copy, nonatomic) NSString *informalMediaClipID;
-@property(readonly, copy, nonatomic) NSString *informalStaticAssetID;
-@property(readonly, nonatomic) long long lyricsAdamID;
-@property(readonly, nonatomic) long long purchasedAdamID;
-@property(readonly, nonatomic) long long reportingAdamID;
-@property(readonly, copy, nonatomic) NSString *socialProfileID;
-@property(readonly, nonatomic) long long subscriptionAdamID;
-@property(readonly, copy, nonatomic) NSString *universalCloudLibraryID;
 @end
 

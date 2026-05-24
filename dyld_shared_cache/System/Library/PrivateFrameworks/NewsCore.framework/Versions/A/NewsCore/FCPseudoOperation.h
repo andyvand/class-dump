@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCPseudoOperation
 {
     long long _relativePriority;
-    CDUnknownBlockType _cancelBlock;
-    NSString *_shortOperationDescription;
-    NSString *_longOperationDescription;
-    CDUnknownBlockType _priorityBlock;
 }
 
 - (void);
@@ -21,29 +15,18 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)_dictionaryOfIndexPathsAndContentCells;
+- (id)MAPS_SUGGESTIONS_CAR_RENTAL_DROPOFF_STRING;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void)Color:(id)arg1;
+- (void)setLargeTextColor:(id)arg1;
 - (void)NquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeedGroupType.m;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *longOperationDescription; // @synthesize longOperationDescription=_longOperationDescription;
-@property(copy, nonatomic) CDUnknownBlockType priorityBlock; // @synthesize priorityBlock=_priorityBlock;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(copy, nonatomic) NSString *shortOperationDescription; // @synthesize shortOperationDescription=_shortOperationDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MPCFirstFailureDetector
 {
     long long _state;
-    double _dT;
-    double _limit;
-    unsigned long long _currentSample;
-    unsigned long long _currentFailureStartSample;
-    unsigned long long _lastFailureSample;
-    unsigned long long _failureCount;
-    MPCAudioFailure *_singleSampleFailure;
-    MPCAudioFailure *_multiSamplesFailure;
 }
 
 - (id);
@@ -28,8 +20,6 @@ __attribute__((visibility("hidden")))
 - (void)ic}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCAudioFailure *multiSamplesFailure; // @synthesize multiSamplesFailure=_multiSamplesFailure;
-@property(readonly, nonatomic) double samplingTime;
 @property(readonly, nonatomic) MPCAudioFailure *singleSampleFailure; // @synthesize singleSampleFailure=_singleSampleFailure;
 
 @end

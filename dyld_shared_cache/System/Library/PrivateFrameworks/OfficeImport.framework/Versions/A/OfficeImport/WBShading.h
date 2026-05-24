@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (void);
-+ (void);
-+ (struct CsColour);
++ (void);
++ (struct CsColour)q`;
 
 @end
 

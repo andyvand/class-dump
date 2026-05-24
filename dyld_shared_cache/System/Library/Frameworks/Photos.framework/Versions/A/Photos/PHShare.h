@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PHShare
 {
@@ -14,34 +14,12 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id)``;
 - (id);
-- (void)or: /* Error: Ran out of types for this method. */;
+- (void)_applyAutomaticOrderToContainer:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long assetCount;
-@property(readonly, nonatomic) NSData *ckShareData;
-@property(readonly, nonatomic) unsigned long long cloudItemCount;
-@property(readonly, nonatomic) unsigned long long cloudPhotoCount;
-@property(readonly, nonatomic) unsigned long long cloudVideoCount;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expiryDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long photosCount;
-@property(readonly, nonatomic) short publicPermission;
-@property(readonly, nonatomic) short publishState;
-@property(readonly, nonatomic) NSString *scopeIdentifier;
-@property(readonly, nonatomic) NSURL *shareURL;
-@property(readonly, nonatomic) unsigned short status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) unsigned short trashedState;
-@property(readonly, nonatomic) unsigned long long videosCount;
 
 @end
 

@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface __NSOrderedSetI : NSOrderedSet
 {
     unsigned int _used:56;
-    unsigned int _stride:2;
-    unsigned int _szidx:6;
-    id _list[0];
 }
 
 + (_Bool);
 + (id)Él;
 - (void);
-- (void);
-- (unsigned long long);
+- (void)s also a %s attachment at index %lu. This may be a conflict as the %s attachment's storeAction == MTLStoreActionStore and writeMask != MTLColorWriteMaskNone.;
+- (unsigned long long);
 - (id);
 - (id);
 - (void)gistration=^{__CFString}^v^vQ(?={?=@?^v}^{objc_selector}^?)Q(?=i^{_xpc_connection_s}Q)}8;

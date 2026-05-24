@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyLoadBrain
 {
     _Bool _allowsCellular;
-    _Bool _discretionary;
-    _Bool _disableUI;
-    _Bool _liveServerCatalogOnly;
-    _Bool _skipPhase;
-    long long _specifiedFields;
-    NSDictionary *_additionalOptions;
 }
 
 + (_Bool);
@@ -28,27 +20,21 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)`;
+- (id)i;
+- (id)@?@"NSData">16;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)_localFileContentSniffingEnabled;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)initWithDataFormat:(_Bool)arg1 builtInListURL:downloadsDirectoryURL:resourceName:resourceVersion:updateDateDefaultsKey:updateInterval:snapshotClass:snapshotTransformerClass: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(nonatomic) _Bool allowsCellular; // @synthesize allowsCellular=_allowsCellular;
-@property(nonatomic) _Bool disableUI; // @synthesize disableUI=_disableUI;
-@property(nonatomic) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(nonatomic) _Bool liveServerCatalogOnly; // @synthesize liveServerCatalogOnly=_liveServerCatalogOnly;
-@property(nonatomic) _Bool skipPhase; // @synthesize skipPhase=_skipPhase;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

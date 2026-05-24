@@ -6,16 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSViewController, _UINSView;
+@class _UINSView;
 @protocol _UINSColorPickerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UINSColorPickerView : UIView
 {
     _UINSView *_colorPickerHostView;
-    NSViewController *_colorPickerViewController;
-    _Bool _showsAlpha;
-    id <_UINSColorPickerViewDelegate> _delegate;
 }
 
 - (_Bool);
@@ -25,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)llowSimple;
+- (id)MPCloudServiceStatusControllerCloudLibraryEnabledDidChangeNotification;
 - (id);
 - (void)!@ùÑc°1Â0@ù
 × ;
-- (void)ew:(id)arg1;
+- (void)_setupChangeHandlersForNewContentView:(id)arg1;
 - (SEL)ollectionViewAnimationContext *__strong _Nonnull, __strong id<_UICollectionViewUpdateExpandCollapseAnimationContext> _Nonnull)_block_invoke;
-- (void)entType;
+- (void)MeasurementType;
 
 // Remaining properties
 @property __weak id <_UINSColorPickerViewDelegate> delegate; // @synthesize delegate=_delegate;

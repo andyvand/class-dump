@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementRangeElement
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayName;
-    NSString *_refinementKey;
-    NSString *_stringValue;
-    double _value;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _valueType;
-    _Bool _isEnabled;
-    struct {
-        unsigned int has_value:1;
-        unsigned int has_valueType:1;
-        unsigned int has_isEnabled:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayName:1;
-        unsigned int read_refinementKey:1;
-        unsigned int read_stringValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id)0$;
 - (void);
-- (id);
+- (id)_voiceTriggerSecondPass;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tartDate"b1"has_salt"b1"has_sessionCreateHour"b1"has_sessionEpoch"b1"has_opaqueAppId"b1"has_hasRotated"b1"has_sessionHasRotated"b1};
-- (id)outes;
+- (id)_numberOfReroutes;
 - (id)ävHw¸x8z¸|¸~;
 - (void);
 

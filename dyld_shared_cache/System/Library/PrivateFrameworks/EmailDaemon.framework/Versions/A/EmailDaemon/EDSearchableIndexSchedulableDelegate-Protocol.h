@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+@protocol EDSearchableIndexSchedulable;
+
 @protocol EDSearchableIndexSchedulableDelegate
+- (void);
+- (void)permanentInfoWithPeerID:(id <EDSearchableIndexSchedulable>)arg1 data:(NSString *)arg2 sig:(NSDictionary *)arg3 keyFactory: /* Error: Ran out of types for this method. */;
 - (void)EDMessageCategorization;
 @end
 

@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBCKRecordFieldIdentifier, NTPBCKRecordFieldValue;
+@class NTPBCKRecordFieldIdentifier;
 
 @interface NTPBCKQueryFilter
 {
     NTPBCKRecordFieldIdentifier *_fieldName;
-    NTPBCKRecordFieldValue *_fieldValue;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
-- (_Bool);
+- (int)isPaidSubscriberFromWeb;
+- (_Bool)QB;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)initWithSystemType:(id)arg1 itemSearchBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)tory.CDhVpt/Sources/AccessibilityFrameworks/Source/UIAccessibility/AXRemoteElement+UIAccessibility.m;
 - (_Bool)ecord";
-- (void)vorited;
-- (void)tMinimum;
-- (id)erationResultErrorClient;
+- (void)topicFeedCtrWithOneAutofavorited;
+- (void)hasPublisherTopicIdEventCountMinimum;
+- (id)NTPBCKResponseOperationResultErrorClient;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBCKRecordFieldIdentifier *fieldName; // @synthesize fieldName=_fieldName;
-@property(retain, nonatomic) NTPBCKRecordFieldValue *fieldValue; // @synthesize fieldValue=_fieldValue;
 @property(readonly, nonatomic) _Bool hasFieldName;
-@property(readonly, nonatomic) _Bool hasFieldValue;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

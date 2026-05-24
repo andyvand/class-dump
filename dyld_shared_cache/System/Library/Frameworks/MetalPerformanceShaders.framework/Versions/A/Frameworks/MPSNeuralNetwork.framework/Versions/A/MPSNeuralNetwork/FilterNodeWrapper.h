@@ -13,10 +13,10 @@
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void *)oat_44_1;
+- (void *)MPSRNNGRUGradientRecursion1_float_44_1;
 
 @end
 

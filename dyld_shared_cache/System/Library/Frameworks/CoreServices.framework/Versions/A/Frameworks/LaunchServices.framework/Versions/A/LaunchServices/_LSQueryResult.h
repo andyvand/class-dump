@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)bjectCache";
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id) ;
 
 @end
 

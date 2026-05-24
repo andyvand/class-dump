@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPPhotoAttributionPreferences
 {
     PBDataReader *_reader;
-    NSString *_attributionName;
-    NSString *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _attributePhotos;
-    _Bool _wasCleared;
-    struct {
-        unsigned int has_attributePhotos:1;
-        unsigned int has_wasCleared:1;
-        unsigned int read_attributionName:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)deHint:(id)arg1;
++ (_Bool)setLatitudeHint:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)valueForKey:(_Bool)arg1 withEntityName:entityKey: /* Error: Ran out of types for this method. */;
+- (void)maidenName;
+- (void)logFailureMessage;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,8 +28,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)8@"CSSiriClientBehaviorMonitor"16@"CSAudioRecordContext"24B32@"CSAudioStartStreamOption"36@"NSString"44;
+- (void)SSVCAHistoricalVolumeBufferSize;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -51,22 +37,15 @@
 - (id);
 - (void);
 - (id)4b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}32;
-- (id)EtaInfos;
+- (id)clearEtaInfos;
 - (id)¸¦p§
 ì§d¨ü©;
-- (_Bool)D;
-- (id)ITEM;
+- (_Bool)BTV_RESERVED;
+- (id)COMPONENT_TYPE_PLACE_COLLECTION_ITEM;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool attributePhotos;
-@property(retain, nonatomic) NSString *attributionName;
-@property(nonatomic) _Bool hasAttributePhotos;
-@property(readonly, nonatomic) _Bool hasAttributionName;
 @property(readonly, nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool hasWasCleared;
-@property(retain, nonatomic) NSString *version;
-@property(nonatomic) _Bool wasCleared;
 
 @end
 

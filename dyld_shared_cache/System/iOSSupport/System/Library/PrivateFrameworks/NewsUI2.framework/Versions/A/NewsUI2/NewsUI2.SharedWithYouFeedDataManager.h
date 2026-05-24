@@ -7,16 +7,10 @@
 @interface NewsUI2.SharedWithYouFeedDataManager
 {
     id delegate;
-    id sharedItemManager;
-    id headlineService;
-    id accessQueue;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedService;
 }
 
 - (id);
-- (void)FeedGroupConfigData;
+- (void)MySportsTopicTagFeedGroupConfigData;
 
 @end
 

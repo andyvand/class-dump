@@ -4,49 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPredicate, NSString, NSUUID, OSLogEventLiveStream, SignpostIntervalBuilder, SignpostSupportAnimationGraceTimeController, SignpostSupportExactProcessNameFilter, SignpostSupportObjectFilter, SignpostSupportPIDFilter, SignpostSupportSubsystemCategoryFilter, SignpostSupportUniquePIDFilter;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface SignpostSupportObjectExtractor
 {
     _Bool _shouldComposeMetadataString;
-    _Bool _includeMetalAnalysis;
-    _Bool __shouldStopProcessing;
-    _Bool _skipAnimationStateTrackingOptimization;
-    _Bool _disableGeneratorProcessing;
-    SignpostSupportSubsystemCategoryFilter *_subsystemCategoryFilter;
-    SignpostSupportExactProcessNameFilter *_processNameFilter;
-    SignpostSupportPIDFilter *_pidFilter;
-    SignpostSupportUniquePIDFilter *_uniquePidFilter;
-    NSString *_filterPredicateString;
-    NSPredicate *_filterPredicate;
-    SignpostSupportObjectFilter *_objectFilter;
-    unsigned long long _targetPlatform;
-    CDUnknownBlockType _beginEventProcessingBlock;
-    CDUnknownBlockType _endEventProcessingBlock;
-    CDUnknownBlockType _repeatedBeginEventProcessingBlock;
-    CDUnknownBlockType _unmatchedEndEventProcessingBlock;
-    CDUnknownBlockType _intervalReconstructionProcessingBlock;
-    CDUnknownBlockType _emitEventProcessingBlock;
-    CDUnknownBlockType _intervalCompletionProcessingBlock;
-    CDUnknownBlockType _animationIntervalCompletionProcessingBlock;
-    CDUnknownBlockType _logMessageProcessingBlock;
-    CDUnknownBlockType _deviceRebootProcessingBlock;
-    CDUnknownBlockType _processingCompletionBlock;
-    SignpostSupportAnimationGraceTimeController *_animationFirstFrameGraceTimeController;
-    SignpostIntervalBuilder *_intervalBuilder;
-    unsigned long long _processedEventCount;
-    CDUnknownBlockType _timedOutBeginEventProcessingBlock;
-    NSObject<OS_dispatch_semaphore> *_completionSemaphore;
-    NSObject<OS_dispatch_semaphore> *_syncSem;
-    NSUUID *_currentBootUUID;
-    NSPredicate *_rawFilterPredicate;
-    unsigned long long __notificationTimeout;
-    NSObject<OS_dispatch_queue> *_notificationProcessingQueue;
-    OSLogEventLiveStream *__liveStream;
-    CDUnknownBlockType __stopProcessingBlock;
-    CDUnknownBlockType __intervalEndHandler;
-    double _cachedTimebaseRatio;
 }
 
 @end

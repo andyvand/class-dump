@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _CPPunchoutForFeedback;
+@class _CPPunchoutForFeedback;
 
 @protocol _CPActionItemForFeedback
+- (_CPPunchoutForFeedback *)&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _CPPunchoutForFeedback *punchout;
 @end
 

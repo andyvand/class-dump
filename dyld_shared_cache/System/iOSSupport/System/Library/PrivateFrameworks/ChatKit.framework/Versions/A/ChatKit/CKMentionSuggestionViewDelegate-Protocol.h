@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMentionSuggestionView;
+
 @protocol CKMentionSuggestionViewDelegate
+- (void)Classification Early invalid media size:(CKMentionSuggestionView *)arg1 %@;
 @end
 

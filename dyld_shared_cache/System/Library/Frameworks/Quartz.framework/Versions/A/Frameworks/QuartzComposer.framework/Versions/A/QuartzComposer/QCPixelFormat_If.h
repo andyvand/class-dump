@@ -17,7 +17,7 @@
 - (unsigned int);
 - (_Bool);
 - (unsigned long long);
-- (int);
+- (int)n;
 - (unsigned int);
 - (struct _cl_image_format);
 - (int);

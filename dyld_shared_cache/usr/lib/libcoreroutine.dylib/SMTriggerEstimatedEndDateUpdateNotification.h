@@ -11,7 +11,6 @@
 @interface SMTriggerEstimatedEndDateUpdateNotification : SMTriggerNotification
 {
     NSDate *_estimatedEndDate;
-    NSDate *_coarseEstimatedEndDate;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void)ssPointMO managedObjectWithAccessPoint:inManagedObjectContext:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *coarseEstimatedEndDate; // @synthesize coarseEstimatedEndDate=_coarseEstimatedEndDate;
 @property(readonly, nonatomic) NSDate *estimatedEndDate; // @synthesize estimatedEndDate=_estimatedEndDate;
 
 @end

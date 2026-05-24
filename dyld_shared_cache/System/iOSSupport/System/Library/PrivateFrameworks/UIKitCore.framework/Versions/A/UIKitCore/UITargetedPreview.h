@@ -4,98 +4,78 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSString, UIPreviewParameters, UIPreviewTarget, UIView, _UIShape, _UITypedStorage;
-@protocol NSCopying><NSObject, _UIPreviewProvider;
+@class CALayer;
 
 @interface UITargetedPreview
 {
     CALayer *_layer;
-    struct UIEdgeInsets _cropInsets;
-    _Bool _sourceViewIsInViewHierarchy;
-    _Bool _hasCustomTarget;
-    _Bool _hasCustomParameters;
-    _Bool _defaultPreview;
-    _Bool __captureHierarchyBelowSourceView;
-    unsigned long long _sourceHostingBehavior;
-    _UITypedStorage *_typedStorage;
-    UIPreviewTarget *_target;
-    UIView *_view;
-    UIPreviewParameters *_parameters;
-    UIView *_viewToSnapshot;
-    id <_UIPreviewProvider> __PreviewProvider;
-    id <NSCopying><NSObject> __internalIdentifier;
-    NSArray *__transferrableAnimationKeys;
-    NSArray *__matchableProperties;
-    NSArray *__overlayViews;
-    UIView *_overridePositionTrackingView;
-    NSArray *__accessoryViews;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_serverPort;
+- (void)_saveRecordsT2OperationWithMap:(id)arg1 activity: /* Error: Ran out of types for this method. */;
+- (void)_retryTimer;
+- (void)_resetMetricsForBatchSet;
+- (void)_removeChatGuidFromCoreDuet:(_Bool)arg1;
 - (id);
+- (id)ActorType;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)MessageGUID:(struct CGPoint)arg1 from service that doesn't support it. File a radar-------*/;
+- (id)archive message object:%@ /* Error: Ran out of types for this method. */;
+- (id)sing transfer map for message %@;
 - (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (struct CGSize);
-- (struct CGSize);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (_Bool)overide for message retraction received timeout. Server:%ld Default:%ld /* Error: Ran out of types for this method. */;
+- (_Bool)loaded. Deferring update. Deleted Chat:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)t result, no result cached yet?;
+- (struct CGSize)rated by self (%@). Dropping message;
+- (struct CGSize)%@;
+- (_Bool)eration with ID %@. ignoreZoneNotFoundError %@ OperationError %@;
+- (void):(id)arg1 %@;
+- (void)get last updated date from rate limiter;
+- (void)t found no service; %@;
+- (void)ading:(_Bool)arg1 %@;
+- (void)ty Monitor about the Notification response;
+- (void)mber-appleID-aliases;
+- (void)historyDone;
+- (id)or"16;
+- (id)body is empty;
 - (long long);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (struct CGPoint)@;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)R";
+- (_Bool);
+- (id);
+- (void);
 - (id);
 - (id);
 - (struct CGPoint);
-- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct CGPoint);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)p;
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
 - (struct CGSize)!|Aùa°1Â0@ù
 × ;
-- (_Bool):(id)arg1;
+- (_Bool)sceneWillConnect:(id)arg1;
 - (id)T@"UIView",&,N,G_fromView,S_setFromView:(struct _NSZone *)arg1;
-- (id)olor:dodgeColor:compositingColor: /* Error: Ran out of types for this method. */;
+- (id)_darkVibrantEffectWithLightenColor:dodgeColor:compositingColor: /* Error: Ran out of types for this method. */;
 - (id)àzH{À{~;
 - (id)tD;
 - (void)Ò
@@ -103,42 +83,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UIPreviewProvider> _PreviewProvider; // @synthesize _PreviewProvider=__PreviewProvider;
-@property(retain, nonatomic, getter=_accessoryViews, setter=_setAccessoryViews:) NSArray *_accessoryViews; // @synthesize _accessoryViews=__accessoryViews;
-@property(nonatomic) _Bool _captureHierarchyBelowSourceView; // @synthesize _captureHierarchyBelowSourceView=__captureHierarchyBelowSourceView;
 @property(nonatomic, readonly) struct CGPoint _center;
-@property(readonly, nonatomic) struct CGRect _frame;
-@property(readonly, nonatomic) _Bool _hasCustomParameters; // @synthesize _hasCustomParameters;
-@property(readonly, nonatomic) _Bool _hasCustomTarget; // @synthesize _hasCustomTarget;
-@property(retain, nonatomic) id <NSCopying><NSObject> _internalIdentifier; // @synthesize _internalIdentifier=__internalIdentifier;
-@property(readonly, nonatomic, getter=_isLikelyOpaque) _Bool _isLikelyOpaque;
-@property(retain, nonatomic) NSArray *_matchableProperties; // @synthesize _matchableProperties=__matchableProperties;
-@property(readonly, nonatomic) struct CGPoint _morphCenterPoint;
-@property(readonly, nonatomic) _UIShape *_outlineShape;
-@property(retain, nonatomic) NSArray *_overlayViews; // @synthesize _overlayViews=__overlayViews;
-@property(nonatomic, getter=_prefersUnmaskedPlatterStyle, setter=_setPrefersUnmaskedPlatterStyle:) _Bool _prefersUnmaskedPlatterStyle;
-@property(readonly, nonatomic) _Bool _shouldHostSourceView;
-@property(nonatomic, setter=_setSourceHostingBehavior:) unsigned long long _sourceHostingBehavior; // @synthesize _sourceHostingBehavior;
-@property(readonly, nonatomic, getter=_sourceViewIsInViewHierarchy) _Bool _sourceViewIsInViewHierarchy; // @synthesize _sourceViewIsInViewHierarchy;
-@property(nonatomic) _Bool _springboardPlatterStyle;
-@property(retain, nonatomic) NSArray *_transferrableAnimationKeys; // @synthesize _transferrableAnimationKeys=__transferrableAnimationKeys;
-@property(readonly, nonatomic) _UITypedStorage *_typedStorage; // @synthesize _typedStorage;
-@property(readonly, nonatomic, getter=_isVisible) _Bool _visible;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=_isDefaultPreview, setter=_setDefaultPreview:) _Bool defaultPreview; // @synthesize defaultPreview=_defaultPreview;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic, setter=_setOverridePositionTrackingView:) UIView *overridePositionTrackingView; // @synthesize overridePositionTrackingView=_overridePositionTrackingView;
-@property(readonly, copy, nonatomic) UIPreviewParameters *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic, getter=_previewMode, setter=_setPreviewMode:) long long previewMode;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIPreviewTarget *target; // @synthesize target=_target;
-@property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
-@property(nonatomic, getter=_viewToSnapshot, setter=_setViewToSnapshot:) __weak UIView *viewToSnapshot; // @synthesize viewToSnapshot=_viewToSnapshot;
 
 @end
 

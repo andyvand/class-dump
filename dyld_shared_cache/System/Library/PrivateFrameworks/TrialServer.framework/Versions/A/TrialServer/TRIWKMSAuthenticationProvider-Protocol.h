@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol TRIWKMSAuthenticationProvider
+- (NSString *)setVideoDuration:(NSString *)arg1;
+- (NSArray *)setLargeAdjustmentDataFingerprint:(struct __SecKey **)arg1;
+- (NSString *)setContentIdentifier:(id *)arg1;
 @end
 

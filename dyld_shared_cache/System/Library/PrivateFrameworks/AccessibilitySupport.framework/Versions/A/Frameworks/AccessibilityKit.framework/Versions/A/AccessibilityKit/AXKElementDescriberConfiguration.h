@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface AXKElementDescriberConfiguration
 {
     _Bool _shouldDescribeEmptyElementWithRoleDescription;
-    unsigned long long _markupsToInclude;
-    NSString *_customPauseString;
-    NSMutableSet *__attributesToInclude;
-    NSMutableSet *__attributesToExclude;
-    NSMutableSet *__roleDescriptionToInclude;
-    NSMutableSet *__roleDescriptionToExclude;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)q"2;
+- (void):(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -38,20 +32,14 @@
 - (id);
 - (id);
 - (id);
+- (void)�s;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)setCursorType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *_attributesToExclude; // @synthesize _attributesToExclude=__attributesToExclude;
 @property(retain, nonatomic) NSMutableSet *_attributesToInclude; // @synthesize _attributesToInclude=__attributesToInclude;
-@property(retain, nonatomic) NSMutableSet *_roleDescriptionToExclude; // @synthesize _roleDescriptionToExclude=__roleDescriptionToExclude;
-@property(retain, nonatomic) NSMutableSet *_roleDescriptionToInclude; // @synthesize _roleDescriptionToInclude=__roleDescriptionToInclude;
-@property(copy, nonatomic) NSString *customPauseString; // @synthesize customPauseString=_customPauseString;
-@property(nonatomic) unsigned long long markupsToInclude; // @synthesize markupsToInclude=_markupsToInclude;
-@property(nonatomic) _Bool shouldDescribeEmptyElementWithRoleDescription; // @synthesize shouldDescribeEmptyElementWithRoleDescription=_shouldDescribeEmptyElementWithRoleDescription;
 
 @end
 

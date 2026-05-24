@@ -9,15 +9,13 @@
 @interface MessageProtection.SKIncomingRatchet : MessageProtection.SKRatchet
 {
     id ratchet;
-    id signingPublicKey;
-    id messageKeys;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

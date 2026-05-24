@@ -11,6 +11,8 @@
     NSXPCConnection *_connection;
 }
 
+- (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -19,14 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)_foregroundParallaxEmitterImage;
+- (void)PEER_PAYMENT_CASH_OUT_FEE;
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)tions: /* Error: Ran out of types for this method. */;
+- (void)setTriggerlessListeningOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFTextPosition, AXFTextRange, NSLocale, NSString;
-@protocol AXKTextProviding;
+@class NSString;
 
 @interface AXKTextNavigator
 {
     _Bool __hasCustomWordTokenizer;
-    NSLocale *_locale;
-    AXFTextPosition *_currentPosition;
-    NSString *_currentWord;
-    AXFTextRange *_currentWordRange;
-    id <AXKTextProviding> __textProvider;
-    long long __wordTokenizerUnit;
 }
 
 + (_Bool);
@@ -33,9 +26,9 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)?%@q!;
 - (void);
-- (id);
+- (id)c	;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -46,27 +39,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id));
+- (void)
+kA;
+- (id)Can Change After Scrolling;
+- (id)h;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)set_borderedLayer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool _hasCustomWordTokenizer; // @synthesize _hasCustomWordTokenizer=__hasCustomWordTokenizer;
-@property(readonly, nonatomic) _Bool _isCurrentIndexAtEndOfWord;
-@property(readonly, nonatomic) _Bool _isCurrentIndexAtStartOfWord;
-@property(nonatomic) __weak id <AXKTextProviding> _textProvider; // @synthesize _textProvider=__textProvider;
-@property(nonatomic) long long _wordTokenizerUnit; // @synthesize _wordTokenizerUnit=__wordTokenizerUnit;
-@property(readonly, copy, nonatomic) NSString *currentParagraph;
-@property(readonly, nonatomic) AXFTextRange *currentParagraphRange;
-@property(retain, nonatomic) AXFTextPosition *currentPosition; // @synthesize currentPosition=_currentPosition;
-@property(readonly, copy, nonatomic) NSString *currentSentence;
-@property(readonly, nonatomic) AXFTextRange *currentSentenceRange;
 @property(copy, nonatomic) NSString *currentWord; // @synthesize currentWord=_currentWord;
-@property(retain, nonatomic) AXFTextRange *currentWordRange; // @synthesize currentWordRange=_currentWordRange;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 
 @end
 

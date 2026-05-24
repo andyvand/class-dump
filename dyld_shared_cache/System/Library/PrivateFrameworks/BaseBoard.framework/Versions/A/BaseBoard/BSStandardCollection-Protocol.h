@@ -5,5 +5,6 @@
 //
 
 @protocol BSStandardCollection
+- (unsigned long long);
 @end
 

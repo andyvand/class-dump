@@ -5,5 +5,11 @@
 //
 
 @protocol AKMBWebKitViewControllerDelegate
+
+@optional
+- (void);
+- (void)[;
+- (void): /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

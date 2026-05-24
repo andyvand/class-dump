@@ -7,6 +7,8 @@
 @class UITraitCollection;
 
 @protocol EKUIFutureTraitEnvironment
+- (void);
+- (UITraitCollection *)%s;
 
 // Remaining properties
 @property(retain, nonatomic) UITraitCollection *ekui_futureTraitCollection;

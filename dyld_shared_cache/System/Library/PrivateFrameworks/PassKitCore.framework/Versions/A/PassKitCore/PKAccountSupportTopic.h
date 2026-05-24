@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAccountSupportTopicExplanation;
+@class NSString;
 
 @interface PKAccountSupportTopic
 {
     NSString *_title;
-    NSString *_bodyText;
-    NSString *_businessChatTargetDialog;
-    NSString *_businessChatPage;
-    unsigned long long _issueType;
-    PKAccountSupportTopicExplanation *_explanation;
 }
 
 - (id);
@@ -25,16 +20,11 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id)ionDate:(id)arg1 transactionID:merchantCategory:merchantDetailedCategory:queue:completion: /* Error: Ran out of types for this method. */;
+- (id)_donateSignalForPass:(id)arg1 transactionType:transactionDate:transactionID:merchantCategory:merchantDetailedCategory:queue:completion: /* Error: Ran out of types for this method. */;
 - (id)0­°¸±è²Ì³;
 - (void)Failed to encode couponCodeChanged;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(readonly, copy, nonatomic) NSString *businessChatPage; // @synthesize businessChatPage=_businessChatPage;
-@property(readonly, copy, nonatomic) NSString *businessChatTargetDialog; // @synthesize businessChatTargetDialog=_businessChatTargetDialog;
-@property(readonly, nonatomic) PKAccountSupportTopicExplanation *explanation; // @synthesize explanation=_explanation;
-@property(readonly, nonatomic) unsigned long long issueType; // @synthesize issueType=_issueType;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

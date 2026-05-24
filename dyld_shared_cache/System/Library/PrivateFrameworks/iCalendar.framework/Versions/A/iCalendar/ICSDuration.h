@@ -18,12 +18,12 @@
 - (id);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)tency:%f /* Error: Ran out of types for this method. */;
 - (double);
 
 @end

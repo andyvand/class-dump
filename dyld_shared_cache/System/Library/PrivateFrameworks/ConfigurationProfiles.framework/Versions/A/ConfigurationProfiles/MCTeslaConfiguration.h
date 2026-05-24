@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 __attribute__((visibility("hidden")))
 @interface MCTeslaConfiguration
 {
     _Bool _fetching;
-    CDUnknownBlockType _callback;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -28,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic, getter=isFetching) _Bool fetching; // @synthesize fetching=_fetching;
 
 @end
 

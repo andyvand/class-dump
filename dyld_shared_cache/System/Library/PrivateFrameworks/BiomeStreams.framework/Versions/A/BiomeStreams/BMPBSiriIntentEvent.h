@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface BMPBSiriIntentEvent
 {
     NSData *_eventData;
-    NSString *_eventType;
-    NSString *_intentId;
 }
 
-- (_Bool);
+- (_Bool)GGAMGAQGAEyASyA3_SSGAWGGtGAYGA7_GG;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,12 +32,7 @@
 - (void)2;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *eventData; // @synthesize eventData=_eventData;
-@property(retain, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasEventData;
-@property(readonly, nonatomic) _Bool hasEventType;
 @property(readonly, nonatomic) _Bool hasIntentId;
-@property(retain, nonatomic) NSString *intentId; // @synthesize intentId=_intentId;
 
 @end
 

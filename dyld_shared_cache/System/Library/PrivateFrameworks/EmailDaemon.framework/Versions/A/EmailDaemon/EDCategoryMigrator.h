@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDActivityPersistence, EDCategoryPersistence, EDMessageCategorizer, EDMessagePersistence, EFLocked, NSConditionLock, NSObject, NSString;
-@protocol EFCancelable, EFScheduler, OS_dispatch_queue;
+@protocol EFScheduler;
 
 @interface EDCategoryMigrator
 {
     id <EFScheduler> _categorizationWriterScheduler;
-    id <EFCancelable> _haveAccessToDb;
-    EDCategoryPersistence *_categoryPersistence;
-    EDMessagePersistence *_messagePersistence;
-    EDActivityPersistence *_activityPersistence;
-    EFLocked *_activityForMailboxID;
-    EDMessageCategorizer *_categorizer;
-    NSObject<OS_dispatch_queue> *_categorizationQueue;
-    long long _reason;
-    NSConditionLock *_categorizationQueueLock;
-    unsigned long long _numBatchesQueued;
 }
 
 + (void);
@@ -49,24 +38,7 @@
 - (void)Path:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) EFLocked *activityForMailboxID; // @synthesize activityForMailboxID=_activityForMailboxID;
-@property(readonly, nonatomic) EDActivityPersistence *activityPersistence; // @synthesize activityPersistence=_activityPersistence;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *categorizationQueue; // @synthesize categorizationQueue=_categorizationQueue;
-@property(readonly, nonatomic) NSConditionLock *categorizationQueueLock; // @synthesize categorizationQueueLock=_categorizationQueueLock;
 @property(readonly, nonatomic) id <EFScheduler> categorizationWriterScheduler; // @synthesize categorizationWriterScheduler=_categorizationWriterScheduler;
-@property(readonly, nonatomic) EDMessageCategorizer *categorizer; // @synthesize categorizer=_categorizer;
-@property(readonly, nonatomic) EDCategoryPersistence *categoryPersistence; // @synthesize categoryPersistence=_categoryPersistence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <EFCancelable> haveAccessToDb; // @synthesize haveAccessToDb=_haveAccessToDb;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(nonatomic) unsigned long long numBatchesQueued; // @synthesize numBatchesQueued=_numBatchesQueued;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.PuzzleProgressMessageHandler
 {
     id delegate;
-    id gameMetricsStore;
 }
 
 - (void);

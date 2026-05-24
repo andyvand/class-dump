@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBSQLContext, NSArray, NSString;
-
 @interface HMBSQLStatement
 {
     _Bool _finalized;
-    HMBSQLContext *_context;
-    struct sqlite3_stmt *_statement;
-    NSArray *_queryPlans;
 }
 
 + (id);
@@ -22,27 +17,17 @@
 - (id);
 - (id);
 - (void);
+- (id)~;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)commit_session;
 - (void);
 - (_Bool);
 - (void);
-- (struct sqlite3_stmt *)elCreation: /* Error: Ran out of types for this method. */;
+- (struct sqlite3_stmt *)setDisallowsModelCreation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMBSQLContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(getter=isFinalized) _Bool finalized; // @synthesize finalized=_finalized;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *queryPlans; // @synthesize queryPlans=_queryPlans;
-@property(readonly, nonatomic) struct sqlite3_stmt *statement; // @synthesize statement=_statement;
-@property(readonly) Class superclass;
 
 @end
 

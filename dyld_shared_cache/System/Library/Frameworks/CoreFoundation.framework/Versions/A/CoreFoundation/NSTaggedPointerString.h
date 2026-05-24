@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (_Bool)ownContext;
++ (_Bool)AKFollowUpTearDownContext;
 + (id);
 - (id);
 - (id);
@@ -23,13 +23,13 @@
 - (oneway void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (unsigned short)etWithOrderedSet:(unsigned long long)arg1;
+- (_Bool)Z;
+- (unsigned short)orderedSetWithOrderedSet:(unsigned long long)arg1;
 - (const char *)tract top-level keys;
 - (id);
 - (long long);

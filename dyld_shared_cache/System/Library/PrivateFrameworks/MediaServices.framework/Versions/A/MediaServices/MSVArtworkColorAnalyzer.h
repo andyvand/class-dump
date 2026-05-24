@@ -7,8 +7,6 @@
 @interface MSVArtworkColorAnalyzer
 {
     struct CGImage *_sourceImage;
-    long long _algorithm;
-    struct CGSize _preferredImageSize;
 }
 
 + (_Bool);
@@ -18,14 +16,12 @@
 - (void);
 - (struct CGImage *);
 - (struct CGSize);
-- (long long);
-- (id);
+- (long long)reView;
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) struct CGSize preferredImageSize; // @synthesize preferredImageSize=_preferredImageSize;
 @property(retain, nonatomic) struct CGImage *sourceImage; // @synthesize sourceImage=_sourceImage;
 
 @end

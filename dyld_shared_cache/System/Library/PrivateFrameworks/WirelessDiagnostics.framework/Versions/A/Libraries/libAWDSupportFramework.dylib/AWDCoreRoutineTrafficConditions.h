@@ -7,17 +7,6 @@
 @interface AWDCoreRoutineTrafficConditions
 {
     unsigned long long _timestamp;
-    int _precisionRecall;
-    int _trafficDensity;
-    _Bool _predictedLocationOfInterest;
-    _Bool _vehicleConnected;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int precisionRecall:1;
-        unsigned int trafficDensity:1;
-        unsigned int predictedLocationOfInterest:1;
-        unsigned int vehicleConnected:1;
-    } _has;
 }
 
 - (_Bool);
@@ -36,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(;
 - (int);
 - (int);
 - (int);
@@ -45,7 +34,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -55,16 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPrecisionRecall;
-@property(nonatomic) _Bool hasPredictedLocationOfInterest;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTrafficDensity;
-@property(nonatomic) _Bool hasVehicleConnected;
-@property(nonatomic) int precisionRecall; // @synthesize precisionRecall=_precisionRecall;
-@property(nonatomic) _Bool predictedLocationOfInterest; // @synthesize predictedLocationOfInterest=_predictedLocationOfInterest;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int trafficDensity; // @synthesize trafficDensity=_trafficDensity;
-@property(nonatomic) _Bool vehicleConnected; // @synthesize vehicleConnected=_vehicleConnected;
 
 @end
 

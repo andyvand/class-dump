@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CSStoreAccessContext;
-
 __attribute__((visibility("hidden")))
 @interface _CSStore
 {
     struct Store _store;
-    _CSStoreAccessContext *_accessContext;
 }
 
 + (id);
@@ -21,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)G;
 - (_Bool);
 - (id);
 - (void);

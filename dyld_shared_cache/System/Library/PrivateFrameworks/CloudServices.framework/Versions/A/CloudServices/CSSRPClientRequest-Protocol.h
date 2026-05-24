@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppleIDPasswordMetadata, NSData, NSDictionary, NSString;
+@class NSDictionary, NSError, NSString;
 
 @protocol CSSRPClientRequest
+- (NSError *)T;
+- (NSDictionary *)	;
+- (_Bool)A;
 
 // Remaining properties
-@property(readonly, nonatomic) AppleIDPasswordMetadata *appleIDPasswordMetadata;
-@property(readonly, nonatomic) _Bool dbr;
-@property(readonly, nonatomic) _Bool dbrFDE;
 @property(readonly, copy, nonatomic) NSString *dsid;
-@property(readonly, retain, nonatomic) NSDictionary *escrowRecord;
-@property(readonly, copy, nonatomic) NSData *passcodeStashSecret;
-@property(readonly, copy, nonatomic) NSString *recordID;
-@property(readonly, copy, nonatomic) NSString *recordLabel;
-@property(readonly, copy, nonatomic) NSString *recoveryPassphrase;
 @end
 

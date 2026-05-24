@@ -4,37 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlaybackSpeedCollection, AVPlayerControlsViewController, AVTouchBarControlsViewController, AVTrimControlsViewController, NSMenu;
-@protocol AVTouchBarControlsViewControllerDelegate, AVVolumeControlButtonDelegate;
+@class AVPlayerControlsViewController;
 
 __attribute__((visibility("hidden")))
 @interface AVDesktopPlaybackControlsController
 {
     AVPlayerControlsViewController *_activeControlsViewController;
-    AVPlayerControlsViewController *_playbackControlsViewController;
-    AVTrimControlsViewController *_trimControlsViewController;
-    AVPlayerControlsViewController *_editControlsViewController;
-    _Bool _showsDurationInsteadOfRemainingTime;
-    _Bool _showsFrameSteppingButtons;
-    _Bool _showsSkipButtons;
-    _Bool _showsFullScreenToggleButton;
-    _Bool _showsSharingServiceButton;
-    NSMenu *_actionPopUpButtonMenu;
-    _Bool _requiresLinearPlayback;
-    _Bool _controlsCanRequestBecomingFirstResponder;
-    unsigned long long _timeDisplayStyles;
-    AVPlaybackSpeedCollection *_playbackSpeedCollection;
-    AVTouchBarControlsViewController *_touchBarControlsViewController;
-    id <AVVolumeControlButtonDelegate> _volumeDelegate;
-    id <AVTouchBarControlsViewControllerDelegate> _touchBarDelegate;
 }
 
-+ (void)onHandler: /* Error: Ran out of types for this method. */;
++ (void)runAnimationGroup:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,16 +25,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)4(;
 - (void);
 - (void);
 - (void);
@@ -62,30 +45,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)$;
+- (id)oadingState(!0))},resumeCachedNextPageLoadIfNecessary:function(){ReaderJS.cachedNextPageURL&&ReaderJS.canLoadNextPage()&&ReaderJS.loadNextPage()},setDocumentIsVisible:function(e){this._documentIsVisible=e,this._readerForegroundednessMayHaveChanged(),e&&ReaderAppearanceJS.layOutContent()},setReaderIsActive:function(e){this._readerIsActive=e,this._readerForegroundednessMayHaveChanged()},readerIsForeground:function(){return this._documentIsVisible&&this._readerIsActive},_readerForegroundednessMayHaveChanged:function(){let e=this.readerIsForeground();this._readerIsForeground!==e&&(e?this.readerWillBecomeVisible():this.readerWillEnterBackground(),ReadingPositionStabilizerJS.setTrackPosition(e),this._readerIsForeground=e)},readerWillBecomeVisible:function(){document.body.classList.remove("cached"),this.resumeCachedNextPageLoadIfNecessary();for(let e of document.querySelectorAll("iframe")){let t=this.cachedIframeURLMap.get(e);t&&(e.src=t,this.cachedIframeURLMap.delete(e))}this._readerIsActive&&requestAnimationFrame((function(){ReadingPositionStabilizerJS.applyScrollPositionFromOriginalPage()}))},readerWillEnterBackground:function(){(ReaderJS.isLoadingNextPage()||ReaderJS.loadingNextPageManuallyStopped)&&this.pauseLoadingNextPage();for(let e of document.querySelectorAll("audio"))e.pause();for(let e of document.querySelectorAll("video"))e.hasAttribute("data-reader-silent-looped-animation")||e.pause();for(let e of document.querySelectorAll("iframe")){e.src&&(this.cachedIframeURLMap.set(e,e.src),e.removeAttribute("src"))}},_fixImageElementsWithinPictureElements:function(){requestAnimationFrame((function(){let e=!1,t=document.querySelectorAll("#article picture img");for(let n of t){let t=n.previousElementSibling;if(t)n.remove(),t.after(n),e=!0;else{let t=n.parentElement;n.remove(),t.appendChild(n),e=!0}}e&&ReaderAppearanceJS.layOutContent()}))},serializedDocumentElementForPrintingOrMailing:async function(e){const t=Promise.withResolvers();globalThis.ReaderJSController=new class{readerOperationMode(){return ReaderOperationMode.OffscreenFetching}doneLoadingReaderPage(){t.resolve()}initialConfiguration(){return e}articleScrolled(){}cachedTopScrollOffset(){return 0}clearNextPageArticleFinder(){}contentIsReadyForDisplay(){}didChangeNextPageLoadingState(){}goBack(){}goForward(){}initialArticleScrollPosition(){return null}isInStickyMode(){return!1}log(){}makeFontAvailableIfNecessary(){}maxDistanceForLoadingNextPage(){}nextPageArticleFinder(){}nextPageLoadComplete(){}prepareNextPageFrame(){}setArticleBaseURLString(e){}replaceSimpleTweetsWithRichTweets(){}requestDeactivationFromUserAction(){}requestOnDeviceSummary(){}reportReaderEvent(){}},ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),await t.promise;const n=ReaderJS.sanitizedFullArticleFrame();if(!n?.contentDocument?.documentElement)throw new Error("Unable to render article");return webkit.serializeNode(n.contentDocument.documentElement,{deep:!0})}};let fetchNextPageArticlePromiseWithCanceller=null;ReadingPositionStabilizer=function(){this.elementTouchingTopOfViewport=null,this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=0,this._trackingScrolling=!1,this._hasEverScrolled=!1},ReadingPositionStabilizer.prototype={initialize:function(){this.setTrackPosition(!0);const e=250;this._checkForUpdatedContentSoon=this.debounce(e)._checkForUpdatedContentNow,this.windowDidResize=this.debounce(e)._windowDidResize},setTrackPosition:function(e){if(e===this._trackingScrolling)return;this._trackingScrolling=e;const t=250;this._debouncedDidScroll||(this._debouncedDidScroll=this.debounce(t)._didScroll),e?window.addEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0}):window.removeEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0})},_windowDidResize:function(){this._hasEverScrolled&&this._updatePosition(!1)},contentWasReloaded:function(){this._updatePosition(!1)},_didScroll:function(){this._trackingScrolling&&(this._hasEverScrolled=!0,this._updatePosition(!1))},_updatePosition:function(e=!0){let t=firstContentElementAfterTopOfViewport();if(!t)return void(this.elementTouchingTopOfViewport=null);this.elementTouchingTopOfViewport=t;let n=this.elementTouchingTopOfViewport.getBoundingClientRect();this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=n.height>0?n.top/n.height:0,this._originalPageScrollSyncAndContentRefreshIsAllowed()&&ReaderJS.readerIsForeground()&&(this._pushScrollPositionToOriginalPage(),e&&this._checkForUpdatedContentSoon())},_pushScrollPositionToOriginalPage:function(){const e=ReaderJSController.originalArticleFinder(),[t,n]=this.uniqueIDAndScrollRatioOfElementPinnedToTop();t&&e.scrollToElementWithUniqueID(t,n)},applyScrollPositionFromOriginalPage:async function(){let e=ReaderJSController.originalArticleFinder().uniqueIDAndScrollRatioOfElementPinnedToTop();e instanceof Promise&&(e=await e);const[t,n]=e;t&&this.tryToScrollToUniqueIDAndRatio(t,n)},_checkForUpdatedContentNow:async function(){await ReaderJS.reloadArticlePreservingScrollPositionIfArticleNodeContentHasChanged()},restorePosition:function(){if(!this.elementTouchingTopOfViewport)return;let e=this.elementTouchingTopOfViewport.getBoundingClientRect(),t=document.scrollingElement.scrollTop+e.top-e.height*this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio;t>0&&(document.scrollingElement.scrollTop=t),this._updatePosition()},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){if(!this.elementTouchingTopOfViewport)return[null,null];return[this.elementTouchingTopOfViewport.getAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY),this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio]},tryToScrollToUniqueIDAndRatio:function(e,t){const n=document.querySelector("["+READER_UNIQUE_ID_ATTRIBUTE_KEY+"='"+e+"']");if(!n)return!1;const i=n.getBoundingClientRect();return!!i.height&&(document.scrollingElement.scrollTop=i.top-t*i.height+window.scrollY,this._updatePosition(!1),!0)},_originalPageScrollSyncAndContentRefreshIsAllowed:function(){return!document.body.classList.contains("watch")}},document.addEventListener("visibilitychange",handleVisibilityChange,!1);var ContentAwareScrollerJS=new ContentAwareScroller,ReaderAppearanceJS=new ReaderAppearanceController,ReadingPositionStabilizerJS=new ReadingPositionStabilizer,ReaderJS=new ReaderController;window.addEventListener("load",(async function(){function e(){window.dispatchEvent(new CustomEvent("readerLoaded"))}if(!isReaderViewInSeparateProcess)return ReaderJS.loaded(),void e();ReaderJS.setOriginalURL(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);
+0; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMenu *actionPopUpButtonMenu; // @synthesize actionPopUpButtonMenu=_actionPopUpButtonMenu;
 @property(retain, nonatomic) AVPlayerControlsViewController *activeControlsViewController; // @synthesize activeControlsViewController=_activeControlsViewController;
-@property(nonatomic) _Bool controlsCanRequestBecomingFirstResponder; // @synthesize controlsCanRequestBecomingFirstResponder=_controlsCanRequestBecomingFirstResponder;
-@property(retain, nonatomic) AVPlayerControlsViewController *editControlsViewController; // @synthesize editControlsViewController=_editControlsViewController;
-@property(retain, nonatomic) AVPlayerControlsViewController *playbackControlsViewController; // @synthesize playbackControlsViewController=_playbackControlsViewController;
-@property(retain, nonatomic) AVPlaybackSpeedCollection *playbackSpeedCollection; // @synthesize playbackSpeedCollection=_playbackSpeedCollection;
-@property(nonatomic) _Bool requiresLinearPlayback; // @synthesize requiresLinearPlayback=_requiresLinearPlayback;
-@property(nonatomic) _Bool showsDurationInsteadOfRemainingTime; // @synthesize showsDurationInsteadOfRemainingTime=_showsDurationInsteadOfRemainingTime;
-@property(nonatomic) _Bool showsFrameSteppingButtons; // @synthesize showsFrameSteppingButtons=_showsFrameSteppingButtons;
-@property(nonatomic) _Bool showsFullScreenToggleButton; // @synthesize showsFullScreenToggleButton=_showsFullScreenToggleButton;
-@property(nonatomic) _Bool showsSharingServiceButton; // @synthesize showsSharingServiceButton=_showsSharingServiceButton;
-@property(nonatomic) _Bool showsSkipButtons; // @synthesize showsSkipButtons=_showsSkipButtons;
-@property(nonatomic) unsigned long long timeDisplayStyles; // @synthesize timeDisplayStyles=_timeDisplayStyles;
-@property(retain, nonatomic) AVTouchBarControlsViewController *touchBarControlsViewController; // @synthesize touchBarControlsViewController=_touchBarControlsViewController;
-@property(nonatomic) __weak id <AVTouchBarControlsViewControllerDelegate> touchBarDelegate; // @synthesize touchBarDelegate=_touchBarDelegate;
-@property(retain, nonatomic) AVTrimControlsViewController *trimControlsViewController; // @synthesize trimControlsViewController=_trimControlsViewController;
-@property(nonatomic) __weak id <AVVolumeControlButtonDelegate> volumeDelegate; // @synthesize volumeDelegate=_volumeDelegate;
 
 @end
 

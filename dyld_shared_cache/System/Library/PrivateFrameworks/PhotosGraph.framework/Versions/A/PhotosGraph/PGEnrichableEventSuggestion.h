@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString;
-
 @interface PGEnrichableEventSuggestion
 {
     _Bool _containsUnverifiedPersons;
-    unsigned char _notificationQuality;
-    unsigned short _type;
-    unsigned short _subtype;
-    unsigned short _notificationState;
-    NSSet *_features;
-    NSArray *_suggestedPersonLocalIdentifiers;
-    NSArray *_keyAssets;
-    NSArray *_representativeAssets;
-    NSDate *_universalStartDate;
-    NSDate *_universalEndDate;
-    NSString *_title;
-    NSString *_subtitle;
-    unsigned long long _availableFeatures;
 }
 
-- (void);
+- (void)firstAncestorWithinDistance:(unsigned char)arg1 matchingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -35,60 +20,24 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)hA)p;
 - (unsigned short);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)rRecordP8NSWindowNS_8functionIFvNS_8optionalIbEEEEEE3$_2FvlEEE;
 - (long long);
 - (id);
-- (id);
+- (id);
 - (unsigned short);
 - (unsigned short);
-- (id);
-- (id);
-@property(readonly, copy) NSString *description;
+- (id)kR)(;
+- (id)_vid exposure gain change too large];
+- (unsigned short)description;
 - (id)n: /* Error: Ran out of types for this method. */;
 - (void)rkspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGPublicEventCacher.m;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long availableFeatures; // @synthesize availableFeatures=_availableFeatures;
-@property(readonly, nonatomic) _Bool containsUnverifiedPersons; // @synthesize containsUnverifiedPersons=_containsUnverifiedPersons;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSSet *features; // @synthesize features=_features;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInvalid;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *keyAssets; // @synthesize keyAssets=_keyAssets;
 @property(nonatomic) unsigned char notificationQuality; // @synthesize notificationQuality=_notificationQuality;
-@property(nonatomic) unsigned short notificationState; // @synthesize notificationState=_notificationState;
-@property(readonly, copy, nonatomic) NSArray *reasons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) id recipe;
-@property(readonly, nonatomic) unsigned long long relevanceDurationInDays;
-@property(readonly, nonatomic) NSArray *representativeAssets; // @synthesize representativeAssets=_representativeAssets;
-@property(readonly, nonatomic) double score;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) unsigned short state;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) unsigned short subtype; // @synthesize subtype=_subtype;
-@property(readonly, copy, nonatomic) NSArray *suggestedPersonLocalIdentifiers; // @synthesize suggestedPersonLocalIdentifiers=_suggestedPersonLocalIdentifiers;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned short type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSDate *universalEndDate; // @synthesize universalEndDate=_universalEndDate;
-@property(readonly, nonatomic) NSDate *universalStartDate; // @synthesize universalStartDate=_universalStartDate;
-@property(readonly, nonatomic) long long version;
 
 @end
 

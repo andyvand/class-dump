@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, SHA256Hash, SafariWebBookmarkList;
+@class SafariWebBookmarkList;
 
 __attribute__((visibility("hidden")))
 @interface _LoadingBookmarkInfo
 {
     SafariWebBookmarkList *_topBookmark;
-    NSDictionary *_syncData;
-    SHA256Hash *_stateHash;
-    SHA256Hash *_currentBookmarkStateHash;
 }
 
 - (id);
@@ -25,9 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) SHA256Hash *currentBookmarkStateHash; // @synthesize currentBookmarkStateHash=_currentBookmarkStateHash;
-@property(readonly, nonatomic) SHA256Hash *stateHash; // @synthesize stateHash=_stateHash;
-@property(copy, nonatomic) NSDictionary *syncData; // @synthesize syncData=_syncData;
 @property(retain, nonatomic) SafariWebBookmarkList *topBookmark; // @synthesize topBookmark=_topBookmark;
 
 @end

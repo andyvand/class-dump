@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SUOSUMSUScanOptions
 {
     _Bool _background;
-    _Bool _mdmInitiated;
-    _Bool _disablePSUS;
-    _Bool _splatOnly;
-    NSString *_requestedProductMarketingVersion;
 }
 
 + (id);
@@ -20,24 +14,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)iptor: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSUDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool background; // @synthesize background=_background;
-@property _Bool disablePSUS; // @synthesize disablePSUS=_disablePSUS;
-@property _Bool mdmInitiated; // @synthesize mdmInitiated=_mdmInitiated;
-@property(retain) NSString *requestedProductMarketingVersion; // @synthesize requestedProductMarketingVersion=_requestedProductMarketingVersion;
-@property _Bool splatOnly; // @synthesize splatOnly=_splatOnly;
 
 @end
 

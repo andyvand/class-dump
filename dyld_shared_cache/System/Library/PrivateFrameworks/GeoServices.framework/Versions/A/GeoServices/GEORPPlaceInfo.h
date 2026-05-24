@@ -4,56 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceRequest, GEOPDPlaceResponse, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPPlaceInfo
 {
     PBDataReader *_reader;
-    GEOPDPlaceRequest *_placeRequest;
-    GEOPDPlaceResponse *_placeResponse;
-    NSString *_sourceApplication;
-    NSString *_sourceUrl;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_placeRequest:1;
-        unsigned int read_placeResponse:1;
-        unsigned int read_sourceApplication:1;
-        unsigned int read_sourceUrl:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etLayoutConfigResult:(id)arg1;
++ (_Bool)setLayoutConfigResult:(id)arg1;
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)clientScheduler;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h8;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)T;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)iceActivationEvent"24@?<v@?B@"NSError">32;
+- (void)SSVCADBToTTSPostTransitionDC;
+- (void)CSEndpointMetrics:(unsigned long long)arg1::isAnchorTimeBuffered /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)CodecsDaVinciBuildingSection=BCffIS}16@0:(struct _NSZone *)arg1 8;
-- (id)egs;
+- (id)clearLegs;
 - (id),?l?A$B;
 - (id)sedRouteAnchorPoint"16@?0@"_GEOAnchorPointListElement"8;
 - (void)Àm´BA`ZÔ'¹ùO@;
@@ -61,13 +47,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlaceRequest;
-@property(readonly, nonatomic) _Bool hasPlaceResponse;
-@property(readonly, nonatomic) _Bool hasSourceApplication;
-@property(readonly, nonatomic) _Bool hasSourceUrl;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeRequest;
-@property(retain, nonatomic) GEOPDPlaceResponse *placeResponse;
-@property(retain, nonatomic) NSString *sourceApplication;
-@property(retain, nonatomic) NSString *sourceUrl;
 
 @end
 

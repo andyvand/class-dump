@@ -4,9 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class FBSSceneTransitionContext, NSSet;
 
 @protocol _UIApplicationBSActionHandler
-- (NSSet *)arget:(NSSet *)arg1;
+- (NSSet *)barButtonItemForAssistantItemStyle:(NSSet *)arg1 target:(FBSSceneTransitionContext *)arg2;
 @end
 

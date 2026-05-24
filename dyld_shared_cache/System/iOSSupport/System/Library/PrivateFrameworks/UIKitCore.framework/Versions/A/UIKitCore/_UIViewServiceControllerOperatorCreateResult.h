@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMachPortSendRight, NSArray, _UIHostedWindowHostingHandle;
+@class _UIHostedWindowHostingHandle;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceControllerOperatorCreateResult
 {
     int _preferredStatusBarVisibility;
-    _UIHostedWindowHostingHandle *_serviceWindowHostingHandle;
-    NSArray *_supportedInterfaceOrientations;
-    long long _preferredStatusBarStyle;
-    BSMachPortSendRight *_accessibilityServerPort;
 }
 
 + (_Bool)csIntegrator;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (int);
-- (id);
+- (int) ;
+- (id)8@"IMMessageItem"16;
 - (void);
 - (id);
 - (void)traitStorages;
@@ -32,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) BSMachPortSendRight *accessibilityServerPort; // @synthesize accessibilityServerPort=_accessibilityServerPort;
-@property(nonatomic) long long preferredStatusBarStyle; // @synthesize preferredStatusBarStyle=_preferredStatusBarStyle;
-@property(nonatomic) int preferredStatusBarVisibility; // @synthesize preferredStatusBarVisibility=_preferredStatusBarVisibility;
 @property(retain, nonatomic) _UIHostedWindowHostingHandle *serviceWindowHostingHandle; // @synthesize serviceWindowHostingHandle=_serviceWindowHostingHandle;
-@property(copy, nonatomic) NSArray *supportedInterfaceOrientations; // @synthesize supportedInterfaceOrientations=_supportedInterfaceOrientations;
 
 @end
 

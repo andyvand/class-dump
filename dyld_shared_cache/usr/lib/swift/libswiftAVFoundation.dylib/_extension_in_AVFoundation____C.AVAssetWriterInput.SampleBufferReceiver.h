@@ -7,7 +7,6 @@
 @interface (extension in AVFoundation):__C.AVAssetWriterInput.SampleBufferReceiver
 {
     id writer;
-    id input;
 }
 
 @end

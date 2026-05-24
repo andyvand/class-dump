@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMRestrictedGuestHomeAccessSchedule, NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface HMRestrictedGuestHomeAccessSettings
 {
     NSSet *_accessAllowedToAccessories;
-    HMRestrictedGuestHomeAccessSchedule *_guestAccessSchedule;
-    NSSet *_identifiersOfAccessAllowedToAccessories;
 }
 
-+ (id);
++ (id)?;
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
-- (void);
+- (void).;
 - (void);
 - (id);
 - (id);
@@ -31,8 +29,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)dysphoria;
+- (id)tripper;
 - (void);
 - (id);
 - (id);
@@ -41,25 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *accessAllowedToAccessories; // @synthesize accessAllowedToAccessories=_accessAllowedToAccessories;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) HMRestrictedGuestHomeAccessSchedule *guestAccessSchedule; // @synthesize guestAccessSchedule=_guestAccessSchedule;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSSet *identifiersOfAccessAllowedToAccessories; // @synthesize identifiersOfAccessAllowedToAccessories=_identifiersOfAccessAllowedToAccessories;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

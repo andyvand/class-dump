@@ -7,7 +7,6 @@
 @interface NewsFeed.LayeredMediaParser
 {
     id identifier;
-    id json;
 }
 
 @end

@@ -4,6 +4,94 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)180 degrees. this can't be;
+- (void)(zFar / zNear)) * 0.5;
+uniform float c1;	//(1.0 + (zFar / zNear)) * 0.5;
+
+uniform vec2 kernel[12];
+
+uniform sampler2DRect colorSampler;
+uniform sampler2DRect depthSampler;
+
+varying vec2 TexCoord;
+
+float linearZValueAtPoint(sampler2DRect sampler, vec2 coord)
+{
+	float zw = texture2DRect(sampler, vec2(coord.x*zMapFactor, coord.y*zMapFactor)).x;
+	
+	//make z linear
+//	return zw;	
+//	return (2.0 * zNear) / (zFar + zNear - zw * (zFar - zNear));
+//	return (2.0 * zNear * zFar) / (zFar + zNear - zw * (zFar - zNear));
+
+	return (1.0 / ((c0 * zw) + c1));
+}
+
+void main (void)
+{
+	int count;
+	int i;
+	
+	float z = linearZValueAtPoint(depthSampler, TexCoord);
+	
+	// uncomment to view depth map
+	//gl_FragColor = vec4(z,z,z, 1.0);	
+	//return;
+
+	//version 1
+	//float D = focalLength / (5000.0*aperture); //todo:(NSCoder *)arg1 precompute
+	//float cocSize = abs(D * focalLength * (zFocus - z) / (zFocus * (z - focalLength)));
+	
+	//version 2
+	//float a = aperture * 1000.0;
+	//float alpha = (focalLength*focalLength) / (a *(zFocus - z));
+	//float cocSize = alpha * abs( zFocus - z ) / z;
+	
+	//version 3
+	float dz = abs(zFocus - z);
+	float cocSize = aperture * (dz / z);
+	
+	//gl_FragColor = vec4(abs(cocSize)*0.1,0,0, 1.0);	
+	//return;
+	
+	//highlight focus area
+	//if(abs(z-zFocus) < 0.01){
+	//	gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);	
+	//	return;
+	//}
+	
+	//vec4 color = texture2DRect(colorSampler, TexCoord);
+	//float totalAccum = 1.0;
+	
+	vec4 color;
+	float totalAccum;
+
+//	if(cocSize < 0.5){
+//		color = texture2DRect(colorSampler, TexCoord);
+//		totalAccum = 1.0;
+//	}
+//	else
+	{
+		color = vec4(0.0,0.0,0.0,0.0);
+		totalAccum = 0.0;
+
+		for(i=0; i < 12; i++){
+			vec2 pt = TexCoord + (kernel[i]*cocSize);
+	
+			float zTmp = linearZValueAtPoint(depthSampler, pt);
+		
+			float accum = (zTmp > z) ? dz :abs(zFocus - zTmp)/zTmp;
+		
+			color += accum * texture2DRect(colorSampler, pt);
+			totalAccum += accum;
+		}
+	}
+
+	gl_FragColor = color/totalAccum;
+}
+ /* Error: Ran out of types for this method. */;
 @end
 

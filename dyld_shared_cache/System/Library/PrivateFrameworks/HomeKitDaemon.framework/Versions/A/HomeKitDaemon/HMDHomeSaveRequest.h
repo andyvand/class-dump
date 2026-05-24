@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSDictionary, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeSaveRequest
 {
     _Bool _objectChange;
-    _Bool _incrementGeneration;
-    HMDHome *_home;
-    NSString *_reason;
-    NSDictionary *_information;
-    unsigned long long _saveOptions;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)MSPSharedTripStorageController;
+- (id)?p;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)View",&,V_dynamicResizeVisualEffectsBackDropView;
 - (id);
 - (id)1Â0@ù
 × ;
-- (void);
+- (void)HMDAccessoryCategoryUpdatedNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) _Bool incrementGeneration; // @synthesize incrementGeneration=_incrementGeneration;
-@property(readonly, nonatomic) NSDictionary *information; // @synthesize information=_information;
-@property(readonly, nonatomic) _Bool objectChange; // @synthesize objectChange=_objectChange;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) unsigned long long saveOptions; // @synthesize saveOptions=_saveOptions;
 
 @end
 

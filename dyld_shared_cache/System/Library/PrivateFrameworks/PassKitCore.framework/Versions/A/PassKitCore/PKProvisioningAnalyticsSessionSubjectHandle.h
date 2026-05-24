@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKProvisioningAnalyticsSessionSubjectHandle
 {
     _Bool _didBeginSubject;
-    NSData *_archivedParent;
-    NSString *_subject;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
-- (id);
-- (void)tlight;
+- (id)K!;
+- (void)siriSpotlight;
 - (id)__OSINSTALL_GUEST_MODE;
 
 // Remaining properties

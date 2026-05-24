@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface NSUIActivityInfo
 {
     NSHashTable *_providers;
-    _Bool _isAutomatic;
 }
 
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool)_modifierFlags;
 - (void)Ì;
@@ -24,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (void)z§ÿóò	Ð(B;
 
 // Remaining properties
-@property(getter=isAutomaticallyGenerated) _Bool automaticallyGenerated; // @synthesize automaticallyGenerated=_isAutomatic;
-@property(readonly) unsigned long long providerCount;
 @property(readonly, copy) NSArray *providers; // @dynamic providers;
 
 @end

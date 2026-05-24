@@ -7,6 +7,8 @@
 @class NSSet;
 
 @protocol _NSCollectionLayoutUpdateContainerOffsetResult
+- (NSSet *)2ophZ5/MqX0w;
+- (NSSet *)UNKNOWN_CIPHER_RETURNED;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *invalidatedAuxiliaryKinds;

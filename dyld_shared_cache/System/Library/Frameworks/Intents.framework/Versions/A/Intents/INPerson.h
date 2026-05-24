@@ -4,70 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, INPersonHandle, NSArray, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface INPerson
 {
     NSString *_displayName;
-    NSPersonNameComponents *_nameComponents;
-    NSString *_userInput;
-    NSArray *_aliases;
-    long long _suggestionType;
-    NSArray *_scoredAlternatives;
-    _Bool _isMe;
-    NSString *_sourceAppBundleIdentifier;
-    _Bool _contactSuggestion;
-    INPersonHandle *_personHandle;
-    INImage *_image;
-    NSString *_contactIdentifier;
-    NSString *_customIdentifier;
-    NSString *_relationship;
-    NSString *_phonemeData;
-    long long _searchProvider;
 }
 
 
 // Remaining properties
-@property(readonly) INImage *_keyImage;
-@property(copy) NSArray *aliases; // @synthesize aliases=_aliases;
-@property(readonly, copy) NSArray *alternativeSiriMatches;
-@property(readonly) NSArray *alternativeSpeakableMatches;
-@property(copy) NSArray *alternatives;
-@property(copy) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, getter=isContactSuggestion) _Bool contactSuggestion; // @synthesize contactSuggestion=_contactSuggestion;
-@property(copy) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *displayName;
 @property(readonly, copy, nonatomic) NSString *firstName;
-@property(readonly, copy, nonatomic) NSString *fullName;
-@property(copy) NSString *handle;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(copy) INImage *image; // @synthesize image=_image;
-@property _Bool isMe; // @synthesize isMe=_isMe;
-@property(readonly, copy, nonatomic) NSString *lastName;
-@property(copy) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(copy) INPersonHandle *personHandle; // @synthesize personHandle=_personHandle;
-@property(copy) NSString *phonemeData; // @synthesize phonemeData=_phonemeData;
-@property(readonly) NSString *pronunciationHint;
-@property(copy) NSString *relationship; // @synthesize relationship=_relationship;
-@property(copy) NSArray *scoredAlternatives; // @synthesize scoredAlternatives=_scoredAlternatives;
-@property long long searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(readonly, copy) NSArray *siriMatches;
-@property(copy) NSString *sourceAppBundleIdentifier; // @synthesize sourceAppBundleIdentifier=_sourceAppBundleIdentifier;
-@property(readonly) NSString *spokenPhrase;
-@property long long suggestionType; // @synthesize suggestionType=_suggestionType;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *userIdentifier;
-@property(readonly, copy, nonatomic) NSString *userName;
-@property(readonly, copy, nonatomic) NSString *userURIString;
-@property(readonly) NSString *vocabularyIdentifier;
 @end
 

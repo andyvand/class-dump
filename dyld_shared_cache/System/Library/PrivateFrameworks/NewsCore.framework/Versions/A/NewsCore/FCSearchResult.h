@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleSearchOperationResult, FCTagSearchOperationResult;
+@class FCTagSearchOperationResult;
 
 @interface FCSearchResult
 {
     FCTagSearchOperationResult *_tagSearchResult;
-    FCArticleSearchOperationResult *_articleSearchResult;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
 - (void)rontID:recordSource:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCArticleSearchOperationResult *articleSearchResult; // @synthesize articleSearchResult=_articleSearchResult;
 @property(retain, nonatomic) FCTagSearchOperationResult *tagSearchResult; // @synthesize tagSearchResult=_tagSearchResult;
 
 @end

@@ -9,12 +9,9 @@
 @interface PPEventFeatureScore
 {
     unsigned long long _ocnt_precomputedHash;
-    NSArray *_featureValues;
-    double _weightedScore;
-    unsigned long long _prominentFeature;
 }
 
-+ (id);
++ (id)C;
 - (double);
 - (_Bool);
 - (id);
@@ -33,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *featureValues; // @synthesize featureValues=_featureValues;
-@property(readonly, nonatomic) unsigned long long prominentFeature; // @synthesize prominentFeature=_prominentFeature;
-@property(readonly, nonatomic) double weightedScore; // @synthesize weightedScore=_weightedScore;
 
 @end
 

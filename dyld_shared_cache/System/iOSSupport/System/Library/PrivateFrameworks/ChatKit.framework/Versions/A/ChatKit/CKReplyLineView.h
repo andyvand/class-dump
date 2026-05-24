@@ -4,55 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKFullscreenEffectMessageFilter, CKReplyLineBackdropLayer, CKReplyLineShapeLayer, NSString, UIBezierPath;
+@class CKReplyLineShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface CKReplyLineView
 {
     CKReplyLineShapeLayer *_lineShapeLayer;
-    CKReplyLineBackdropLayer *_materialLayer;
-    CKReplyLineShapeLayer *_lineShapeOutlineLayer;
-    CKFullscreenEffectMessageFilter *_activeMessageEffectFilter;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)collaborationController:(double)arg1 userAcceptedInvitationWithShareMetadata:associatedObjectID: /* Error: Ran out of types for this method. */;
+- (void)collaborationController:(id)arg1 userAcceptedInvitationWithShareMetadata:associatedObjectID: /* Error: Ran out of types for this method. */;
+- (void)collaborationController:(id)arg1 showQuotaExceededAlertIfNeededWithRecordID:accountID: /* Error: Ran out of types for this method. */;
+- (void)collaborationController:(id)arg1 showQuotaExceededAlertIfNeededWithRecordID:accountID: /* Error: Ran out of types for this method. */;
+- (void)_leadingConstraint;
 - (double);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)e;
+- (void)not password-protected {note:(id)arg1 %@};
+- (void)cked note to v1 Neo if needed… {note:(id)arg1 %@}%s:(id)arg2 %d;
+- (id)n running postAlertForMovingFolderContainingLockedOrJoinedNotesWithGuiltyObjects:CompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)d not create ink color from serialized color string:%@ /* Error: Ran out of types for this method. */;
+- (void)after finding it in an attributed string;
+- (void)MAlertSheetTouchBarController.m;
 - (void);
 - (id);
+- (void);
+- (id)ient:(struct CGRect)arg1 %@;
 - (void)Ð¨;
 - (void);
 - (void)@M64j/;
 
 // Remaining properties
-@property(retain, nonatomic) CKFullscreenEffectMessageFilter *activeMessageEffectFilter; // @synthesize activeMessageEffectFilter=_activeMessageEffectFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIBezierPath *linePath;
 @property(retain, nonatomic) CKReplyLineShapeLayer *lineShapeLayer; // @synthesize lineShapeLayer=_lineShapeLayer;
-@property(retain, nonatomic) CKReplyLineShapeLayer *lineShapeOutlineLayer; // @synthesize lineShapeOutlineLayer=_lineShapeOutlineLayer;
-@property(nonatomic) double lineStrokeEnd;
-@property(retain, nonatomic) CKReplyLineBackdropLayer *materialLayer; // @synthesize materialLayer=_materialLayer;
-@property(readonly) Class superclass;
 
 @end
 

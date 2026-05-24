@@ -19,21 +19,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id),V_transfers;
+- (id)dBlock;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (Class);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)waitForRenderingWithTimeout:(CDUnknownBlockType)arg1;
 
 // Remaining properties
-@property(readonly, getter=isGeometryFlipped) _Bool geometryFlipped;
 @property(readonly) CALayer *rootLayer;
 
 @end

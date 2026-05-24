@@ -6,29 +6,21 @@
 
 #import <PassKitCore/PKPassImageSet.h>
 
-@class NSData, PKImage;
+@class PKImage;
 
 @interface PKPassPreviewImageSet : PKPassImageSet
 {
     PKImage *_iconImage1x;
-    PKImage *_iconImage2x;
-    PKImage *_iconImage;
-    PKImage *_notificationIconImage;
-    PKImage *_rawIcon;
-    NSData *_iconImageICNSData;
 }
 
 + (long long);
-+ (id);
++ (id));
 + (_Bool)
 × ;
 + (unsigned int)¬¨ÿ)iô";
 
 // Remaining properties
 @property(retain, nonatomic) PKImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(retain, nonatomic) NSData *iconImageICNSData; // @synthesize iconImageICNSData=_iconImageICNSData;
-@property(retain, nonatomic) PKImage *notificationIconImage; // @synthesize notificationIconImage=_notificationIconImage;
-@property(retain, nonatomic) PKImage *rawIcon; // @synthesize rawIcon=_rawIcon;
 
 @end
 

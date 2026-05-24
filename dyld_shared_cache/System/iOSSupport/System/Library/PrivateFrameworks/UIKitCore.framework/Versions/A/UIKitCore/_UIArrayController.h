@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOperationQueue, NSOrderedSet, NSPredicate;
 @protocol _UIArrayControllerDelegate;
 
 @interface _UIArrayController
 {
     _Bool _firstUpdateSent;
-    _Bool _invalidated;
-    NSArray *_sortDescriptors;
-    NSPredicate *_predicate;
-    id <_UIArrayControllerDelegate> _delegate;
-    NSOperationQueue *_operationQueue;
-    NSOrderedSet *_lastSnapshot;
 }
 
+- (void)_serverAllowsSync;
+- (_Bool)_exactGroupChatMatchOrNewestMatchingGroupID:(id)arg1 originalGroupID:(id)arg2 serviceName:participants:toIdentifier:outNewestSiblingChat: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,9 +23,9 @@
 × ;
 - (void)Á	Ð!pDùfð1Â0@ù
 × ;
-- (id)uldRenderWithoutTextField: /* Error: Ran out of types for this method. */;
-- (id)stureSubscriptions;
-- (void)s:(id)arg1;
+- (id)setShouldRenderWithoutTextField: /* Error: Ran out of types for this method. */;
+- (id)_clearButtonItemGestureSubscriptions;
+- (void)_applyTabBarButtonAppearanceStorage:(id)arg1 withTaggedSelectors: /* Error: Ran out of types for this method. */;
 - (void),¼;
 - (void)ynchronizer :(id)arg1 %{public}@;
 - (id)irm-Candidate;
@@ -41,10 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIArrayControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSOrderedSet *lastSnapshot; // @synthesize lastSnapshot=_lastSnapshot;
-@property(retain, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

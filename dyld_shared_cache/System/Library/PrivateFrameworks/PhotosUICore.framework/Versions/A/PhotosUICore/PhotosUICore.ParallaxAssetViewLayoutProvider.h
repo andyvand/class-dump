@@ -7,12 +7,10 @@
 @interface PhotosUICore.ParallaxAssetViewLayoutProvider
 {
     id overlapTestAreas;
-    id headroomFractionRange;
-    id renderContext;
 }
 
 - (id);
-- (id);
+- (id)C;
 - (void)£N}: /* Error: Ran out of types for this method. */;
 
 @end

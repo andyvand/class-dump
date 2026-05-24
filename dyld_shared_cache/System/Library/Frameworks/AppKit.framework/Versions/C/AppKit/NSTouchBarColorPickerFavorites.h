@@ -6,54 +6,38 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSArray, NSCollectionView, NSColor, NSString;
+@class NSArray, NSCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerFavorites : NSControl
 {
     NSCollectionView *_collectionView;
-    NSColor *_currentColor;
-    NSArray *_savedColors;
-    NSArray *_allowedColorSpaces;
-    _Bool _allowsAlpha;
 }
 
-+ (long long);
++ (long long),&;
 + (_Bool)qâ3ð1Â0@ù
 × ;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)e.plist;
+- (void)ould not fstat %s:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (_Bool)%s, token %d:%u /* Error: Ran out of types for this method. */;
+- (id)status changed to %d, cleaning up;
+- (void)due to dynamic HSTS;
+- (void)subclass should implement;
+- (void)NSURLSessionSourceApplicationBundleIdentifierIsExternal;
+- (id);
 - (void);
-- (void);
-- (struct CGSize);
-- (id)tentSize:(struct CGRect)arg1;
-- (long long)Rect;
+- (void)4;
+- (struct CGSize);
+- (id)setMinContentSize:(struct CGRect)arg1;
+- (long long)_minYBorderRect;
 
 // Remaining properties
-@property SEL action;
-@property(copy) NSArray *allowedColorSpaces;
-@property _Bool allowsAlpha; // @synthesize allowsAlpha=_allowsAlpha;
-@property(copy) NSColor *currentColor; // @synthesize currentColor=_currentColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *presentedColors;
-@property(readonly) Class superclass;
-@property __weak id target;
 
 @end
 

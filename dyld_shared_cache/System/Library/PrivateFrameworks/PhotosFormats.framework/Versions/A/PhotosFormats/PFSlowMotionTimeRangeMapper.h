@@ -9,19 +9,17 @@
 @interface PFSlowMotionTimeRangeMapper
 {
     NSMutableArray *_originalLengths;
-    NSMutableArray *_scaledLengths;
-    NSMutableArray *_scaledRegions;
 }
 
-- (CDStruct_e83c9415);
-- (void);
+- (CDStruct_3c1748cc)ateFrameworks/UserManagement.framework/Versions/A/UserManagement;
+- (void);
 - (void);
 - (void);
 - (float);
 - (float);
 - (float);
 - (id);
-- (void);
+- (void)onstraint;
 
 @end
 

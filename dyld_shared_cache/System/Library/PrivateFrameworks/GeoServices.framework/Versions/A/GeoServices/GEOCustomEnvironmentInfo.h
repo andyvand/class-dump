@@ -11,17 +11,16 @@
 @interface GEOCustomEnvironmentInfo : GEOEnvironmentInfo
 {
     NSMapTable *_overrideURLs;
-    NSString *_uuid;
 }
 
 - (id);
+- (void)16@"<CNObserver>"24;
+- (id)requestAuthorization:(id)arg1 auditToken:(id)arg2 assumedIdentity:(id)arg3 completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id)Metadata;
+- (_Bool)4;
+- (id)GEOPDSSearchTierMetadata;
 - (void);
 - (void)§¯5;
 - (void)èw9;

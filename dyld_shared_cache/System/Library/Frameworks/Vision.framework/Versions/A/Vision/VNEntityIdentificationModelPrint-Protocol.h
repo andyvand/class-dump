@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, VNRequestSpecifier;
+@class VNRequestSpecifier;
 
 @protocol VNEntityIdentificationModelPrint
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintByteLength;
-@property(readonly) NSData *VNEntityIdentificationModelPrintData;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementCount;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementType;
 @property(readonly, copy) VNRequestSpecifier *VNEntityIdentificationModelPrintOriginatingRequestSpecifier;
 @end
 

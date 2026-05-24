@@ -6,21 +6,17 @@
 
 #import <BookUtility/BUZipArchive.h>
 
-@class BUZipFileDescriptorWrapper, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BUZipFileArchive : BUZipArchive
 {
     unsigned long long _archiveLength;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    BUZipFileDescriptorWrapper *_fdWrapper;
-    NSURL *_temporaryDirectoryURL;
-    NSURL *_URL;
 }
 
 + (_Bool);
 + (id);
-+ (void);
++ (void)%;
 + (_Bool);
 + (_Bool);
 - (void);
@@ -33,23 +29,20 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)preferredCallServiceForID:(id)arg1;
+- (void)Bytes:(id)arg1 %llu totalBytes:%llu imMessage:%@] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)T;
+- (void)A;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(retain, nonatomic) BUZipFileDescriptorWrapper *fdWrapper; // @synthesize fdWrapper=_fdWrapper;
-@property(retain, nonatomic) NSURL *temporaryDirectoryURL; // @synthesize temporaryDirectoryURL=_temporaryDirectoryURL;
 
 @end
 

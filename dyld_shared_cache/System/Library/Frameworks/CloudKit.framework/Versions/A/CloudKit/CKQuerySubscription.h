@@ -6,24 +6,23 @@
 
 #import <CloudKit/CKSubscription.h>
 
-@class CKRecordZoneID, NSPredicate, NSString;
+@class NSPredicate, NSString;
 
 @interface CKQuerySubscription : CKSubscription
 {
     NSPredicate *_predicate;
-    unsigned long long _querySubscriptionOptions;
 }
 
 + (_Bool);
-+ (void)rtDate;
++ (void)throttleStartDate;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (id);
@@ -34,10 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly) unsigned long long querySubscriptionOptions; // @synthesize querySubscriptionOptions=_querySubscriptionOptions;
 @property(readonly, copy) NSString *recordType; // @dynamic recordType;
-@property(copy) CKRecordZoneID *zoneID; // @dynamic zoneID;
 
 @end
 

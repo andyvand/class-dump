@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEEuclidDebugMetrics, INFERENCESchemaINFERENCEEuclidServiceMetrics, NSData;
+@class INFERENCESchemaINFERENCEEuclidServiceMetrics;
 
 @interface INFERENCESchemaINFERENCEAsrEuclidEmbedding : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEEuclidServiceMetrics *_euclidServiceMetrics;
-    INFERENCESchemaINFERENCEEuclidDebugMetrics *_euclidDebugMetrics;
-    _Bool _hasEuclidServiceMetrics;
-    _Bool _hasEuclidDebugMetrics;
 }
 
 - (void);
@@ -36,15 +33,11 @@
 - (id)
 × ;
 - (id)rison;
-- (id)nt;
+- (id)IFTSchemaIFTActionRequirement;
 - (void):ì" /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) INFERENCESchemaINFERENCEEuclidDebugMetrics *euclidDebugMetrics; // @synthesize euclidDebugMetrics=_euclidDebugMetrics;
 @property(retain, nonatomic) INFERENCESchemaINFERENCEEuclidServiceMetrics *euclidServiceMetrics; // @synthesize euclidServiceMetrics=_euclidServiceMetrics;
-@property(nonatomic) _Bool hasEuclidDebugMetrics; // @synthesize hasEuclidDebugMetrics=_hasEuclidDebugMetrics;
-@property(nonatomic) _Bool hasEuclidServiceMetrics; // @synthesize hasEuclidServiceMetrics=_hasEuclidServiceMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

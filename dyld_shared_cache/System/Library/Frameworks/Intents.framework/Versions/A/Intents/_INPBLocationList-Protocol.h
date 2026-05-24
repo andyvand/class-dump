@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCondition;
+@class _INPBCondition;
 
 @protocol _INPBLocationList
 + (Class)8¼À;
-- (void)ibuteMetadataMultiline;
+- (_INPBCondition *));
+- (void)__INCodableStringAttributeMetadataMultiline;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(copy, nonatomic) NSArray *locations;
-@property(readonly, nonatomic) unsigned long long locationsCount;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol ExternalURLNavigationDelegate
+
+@optional
+- (void);
 @end
 

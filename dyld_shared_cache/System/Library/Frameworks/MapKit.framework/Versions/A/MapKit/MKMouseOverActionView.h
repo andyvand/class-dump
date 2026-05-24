@@ -12,22 +12,19 @@ __attribute__((visibility("hidden")))
 @interface MKMouseOverActionView : MKViewWithHairline
 {
     NSTrackingArea *_trackingArea;
-    CDUnknownBlockType _onMouseEnter;
-    CDUnknownBlockType _onMouseExit;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (void)Reporter:(CDUnknownBlockType)arg1 (triggerRemoteSessionForSignature:) remote object proxy error %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)r:didFailWithError: /* Error: Ran out of types for this method. */;
+- (void)locationManager:didFailWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType onMouseEnter; // @synthesize onMouseEnter=_onMouseEnter;
-@property(copy, nonatomic) CDUnknownBlockType onMouseExit; // @synthesize onMouseExit=_onMouseExit;
 
 @end
 

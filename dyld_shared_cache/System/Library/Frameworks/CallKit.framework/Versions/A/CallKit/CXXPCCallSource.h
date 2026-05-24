@@ -6,22 +6,16 @@
 
 #import <CallKit/CXCallSource.h>
 
-@class NSSet, NSString, NSURL, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface CXXPCCallSource : CXCallSource
 {
     _Bool _hasVoIPBackgroundMode;
-    struct os_unfair_lock_s _accessorLock;
-    NSXPCConnection *_connection;
-    NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    NSString *_localizedName;
-    NSSet *_capabilities;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (CDStruct_6ad76789);
@@ -30,21 +24,18 @@ __attribute__((visibility("hidden")))
 - (struct os_unfair_lock_s);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)isDefaultCredentialForFullyQualifiedHostname: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)&,N,V_regionRatingsData;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, copy, nonatomic) NSSet *capabilities; // @synthesize capabilities=_capabilities;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) _Bool hasVoIPBackgroundMode; // @synthesize hasVoIPBackgroundMode=_hasVoIPBackgroundMode;
 
 @end
 

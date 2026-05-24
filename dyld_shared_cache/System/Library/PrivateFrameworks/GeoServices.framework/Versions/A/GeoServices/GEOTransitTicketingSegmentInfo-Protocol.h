@@ -10,7 +10,6 @@
 - (NSString *)ýÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *segmentName;
 @property(readonly, nonatomic) NSString *ticketingUrl;
 @end
 

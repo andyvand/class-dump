@@ -6,39 +6,32 @@
 
 #import <TSReading/TSKAbstractAlert.h>
 
-@class NSString, UIActionSheet, UIView;
+@class UIActionSheet;
 
 @interface TSKUIActionSheet : TSKAbstractAlert
 {
     UIActionSheet *_actionSheet;
-    UIView *_targetView;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
+- (void)Missed Stories selected local headline %{public}@, surfaced by channel %{public}@ inserting at index %lu;
+- (long long)witch on the manage your notifications view;
 - (void);
 - (void);
 - (long long);
+- (id)P;
+- (void);
+- (void);
+- (void);
+- (long long);
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

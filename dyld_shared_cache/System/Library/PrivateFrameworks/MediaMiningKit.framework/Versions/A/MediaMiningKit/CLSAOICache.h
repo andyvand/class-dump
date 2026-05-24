@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)insertTimeNodesWithDateComponents:fromEventNode: /* Error: Ran out of types for this method. */;
 
 @end
 

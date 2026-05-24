@@ -9,7 +9,6 @@
 @interface AMSXDDevice
 {
     NSString *_identifier;
-    long long _type;
 }
 
 + (id);
@@ -19,17 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0x%012llX failed:(id)arg1 %#m
+;
 - (long long);
-- (void);
+- (void)MRPlaybackSessionRequestMessage;
 - (void);
 - (id);
 - (void)ÈÕìª)Ê+GgãL`s´©=©£äF¼BÛö´HevüÕÐ¾,ÏK¾êÜ¬ØW´üàBÜqx¶)U_U1:ÞÝô¥T°eÎ¤®×è¦Ê1Èçµÿ#B:44àÂ>¼(2û /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSDictionary *JSONDictionary;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property long long type; // @synthesize type=_type;
 
 @end
 

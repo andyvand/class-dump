@@ -5,5 +5,6 @@
 //
 
 @protocol HAPAirPlayAccessoryBrowserDelegate
+- (void);
 @end
 

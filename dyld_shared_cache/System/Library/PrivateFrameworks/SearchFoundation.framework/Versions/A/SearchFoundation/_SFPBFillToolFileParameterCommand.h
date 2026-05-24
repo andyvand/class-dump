@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _SFPBFillToolFileParameterCommand
 {
     NSData *_encodedTypedValue;
-    NSString *_filePath;
 }
 
 - (void);
@@ -19,25 +18,16 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)qb;
+- (id)localizedTitleForAlbumKind:(id)arg1 cplEnabled: /* Error: Ran out of types for this method. */;
+- (id)ocalAvailabilityRequest] Falling back to possible unsupported original resource for asset:%@, resources:%@, options:%@, useOriginalResources:%d, knownUnsupported:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)kLoggingContent: /* Error: Ran out of types for this method. */;
+- (void)setRacFeedbackLoggingContent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSData *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(copy, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

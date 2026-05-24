@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)addAttribute:value:range: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *eSIMServerURL; // @synthesize eSIMServerURL=_eSIMServerURL;

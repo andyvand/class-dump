@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSArray *_options;
 }
 
-- (void);
-- (id);
-- (long long);
+- (void)nEnded";
+- (id)agePerSecond"b1"imageCount"b1"timeToFirstTokenInSeconds"b1"timeToLastTokenInSeconds"b1"responseCharactersCount"b1"responseTimeInMilliseconds"b1};
+- (long long)ATSchemaGATTextMetadata";
 - (void);
 - (id);
 - (void);

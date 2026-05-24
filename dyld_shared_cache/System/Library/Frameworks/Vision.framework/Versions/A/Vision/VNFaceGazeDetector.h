@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNFaceGazeDetector : VNDetector
 {
     struct shared_ptr<vision::mod::CamGazePredictor> _gazePredictor;
-    struct shared_ptr<vision::mod::GazeFollowPredictor> _gazeFollowPredictor;
 }
 
 + (id);

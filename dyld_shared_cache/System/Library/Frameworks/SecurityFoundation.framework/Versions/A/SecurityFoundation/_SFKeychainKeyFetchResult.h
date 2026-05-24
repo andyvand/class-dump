@@ -13,7 +13,7 @@
     id _keyFetchResult;
 }
 
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

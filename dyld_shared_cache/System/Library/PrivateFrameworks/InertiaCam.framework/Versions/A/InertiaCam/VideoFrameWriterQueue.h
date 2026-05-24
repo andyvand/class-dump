@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriter, AVAssetWriterInput, AVAssetWriterInputPixelBufferAdaptor, NSConditionLock, NSError, NSLock, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, VideoFrameWriterProgressRecipient;
+@class AVAssetWriter;
 
 @interface VideoFrameWriterQueue
 {
     AVAssetWriter *videoWriter;
-    AVAssetWriterInput *writerInput;
-    AVAssetWriterInputPixelBufferAdaptor *inputAdaptor;
-    NSMutableArray *frameArray;
-    NSLock *frameArrayLock;
-    NSObject<OS_dispatch_queue> *frameWriteQueue;
-    CDStruct_1b6d18a9 startTime;
-    CDStruct_1b6d18a9 endTime;
-    NSConditionLock *_writingDoneLock;
-    NSError *writeError;
-    _Bool writeSuccess;
-    unsigned long long nextFrameIndex;
-    _Bool canceled;
-    _Bool _doneQueueing;
-    unsigned int _drainMinimum;
-    unsigned int _drainMaximum;
-    NSConditionLock *_drainConditionLock;
-    unsigned long long _drainTarget;
-    id <VideoFrameWriterProgressRecipient> frameWriterUpdateCallback;
 }
 
 - (id);
@@ -40,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,9 +36,9 @@
 - (id);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -71,35 +52,17 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
-- (void);
+- (void)E src.bundle_id = :(_Bool)arg1 bundleId AND src.doc_id IN _pas_nsarray(:documentIds) /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
 - (void)%ld derivative constraints.
 ;
 
 // Remaining properties
-@property _Bool canceled; // @synthesize canceled;
-@property _Bool doneQueueing; // @synthesize doneQueueing=_doneQueueing;
-@property(retain) NSConditionLock *drainConditionLock; // @synthesize drainConditionLock=_drainConditionLock;
-@property unsigned int drainMaximum; // @synthesize drainMaximum=_drainMaximum;
-@property unsigned int drainMinimum; // @synthesize drainMinimum=_drainMinimum;
-@property unsigned long long drainTarget; // @synthesize drainTarget=_drainTarget;
-@property CDStruct_1b6d18a9 endTime; // @synthesize endTime;
-@property(retain) NSMutableArray *frameArray; // @synthesize frameArray;
-@property(retain, nonatomic) NSLock *frameArrayLock; // @synthesize frameArrayLock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *frameWriteQueue; // @synthesize frameWriteQueue;
-@property __weak id <VideoFrameWriterProgressRecipient> frameWriterUpdateCallback; // @synthesize frameWriterUpdateCallback;
-@property(retain, nonatomic) AVAssetWriterInputPixelBufferAdaptor *inputAdaptor; // @synthesize inputAdaptor;
-@property unsigned long long nextFrameIndex; // @synthesize nextFrameIndex;
-@property CDStruct_1b6d18a9 startTime; // @synthesize startTime;
 @property(retain, nonatomic) AVAssetWriter *videoWriter; // @synthesize videoWriter;
-@property(retain) NSError *writeError; // @synthesize writeError;
-@property _Bool writeSuccess; // @synthesize writeSuccess;
-@property(retain, nonatomic) AVAssetWriterInput *writerInput; // @synthesize writerInput;
-@property(retain) NSConditionLock *writingDoneLock; // @synthesize writingDoneLock=_writingDoneLock;
 
 @end
 

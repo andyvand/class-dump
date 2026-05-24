@@ -6,26 +6,24 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRTextRenderer;
 
 @interface MREffectWatercolorTitle : MREffect
 {
     MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    MRCroppingSprite *mTextSprite;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)pesAsPreparedForUpload:(id)arg1 ];
+- (_Bool)sEnvelopeStore envelopesForEntries:(struct CGPoint (*)[4])arg1 ];
+- (id);
 - (struct CGSize);
 - (long long);
 - (void);
 - (void);
-- (void)ort: /* Error: Ran out of types for this method. */;
+- (void)setIsForExport: /* Error: Ran out of types for this method. */;
 
 @end
 

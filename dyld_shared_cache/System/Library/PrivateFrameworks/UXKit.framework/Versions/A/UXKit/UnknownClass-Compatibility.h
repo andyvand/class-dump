@@ -6,6 +6,6 @@
 
 @interface UnknownClass (Compatibility)
 + (id);
-- (void);
+- (void)RECENTLY_DELETED_LESS_THAN_DAYS_REMAINING_BANNER_LONG;
 @end
 

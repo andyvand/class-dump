@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFuture, CNPromise, CNQuickActionView, CNUIUserActionListModel, NSMenu, NSString;
-@protocol CNQuickActionViewClickHelperDelegate;
+@class CNFuture;
 
 @interface CNQuickActionViewClickHelper
 {
     _Bool _menuVisible;
-    CNUIUserActionListModel *_model;
-    id <CNQuickActionViewClickHelperDelegate> _delegate;
-    CNFuture *_future;
-    CNPromise *_disambiguationPromise;
-    NSString *_actionType;
-    NSMenu *_menu;
-    CNQuickActionView *_quickActionView;
 }
 
 - (void);
@@ -41,28 +33,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)addNotificationCountChangedObserver:(id)arg1 selector: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id)d: /* Error: Ran out of types for this method. */;
+- (id)writingOptionsForType:pasteboard: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CNQuickActionViewClickHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNPromise *disambiguationPromise; // @synthesize disambiguationPromise=_disambiguationPromise;
 @property(retain, nonatomic) CNFuture *future; // @synthesize future=_future;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMenu *menu; // @synthesize menu=_menu;
-@property _Bool menuVisible; // @synthesize menuVisible=_menuVisible;
-@property(retain, nonatomic) CNUIUserActionListModel *model; // @synthesize model=_model;
-@property(nonatomic) __weak CNQuickActionView *quickActionView; // @synthesize quickActionView=_quickActionView;
-@property(readonly) Class superclass;
 
 @end
 

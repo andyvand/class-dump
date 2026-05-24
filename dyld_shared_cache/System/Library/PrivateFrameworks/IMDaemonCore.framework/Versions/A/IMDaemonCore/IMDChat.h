@@ -4,63 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDHandle, IMDPendingGroupModification, IMDService, IMDServiceSession, IMMessageItem, IMSharedEmergencyInfo, NSArray, NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSRecursiveLock, NSString;
-@protocol IMDaemonListenerChatProtocol;
+@class NSRecursiveLock, NSString;
 
 @interface IMDChat
 {
     NSRecursiveLock *_lock;
-    NSString *_accountID;
-    NSString *_serviceName;
-    NSDictionary *_properties;
-    NSString *_chatIdentifier;
-    NSString *_guid;
-    NSString *_groupID;
-    NSString *_engramID;
-    NSString *_roomName;
-    NSString *_displayName;
-    NSString *_lastAddressedLocalHandle;
-    NSString *_lastAddressedSIMID;
-    NSArray *_participants;
-    NSArray *_replySuggestions;
-    NSMutableDictionary *_domainIdentifiers;
-    IMMessageItem *_lastMessage;
-    NSMutableDictionary *_chatInfo;
-    long long _state;
-    unsigned long long _unreadCount;
-    long long _rowID;
-    long long _cloudKitSyncState;
-    NSString *_originalGroupID;
-    NSString *_serverChangeToken;
-    long long _lastReadMessageTimeStamp;
-    long long _lastMessageTimeStampOnLoad;
-    unsigned char _style;
-    _Bool _createEngramGroupOnMessageSend;
-    _Bool _pendingENGroupParticipantUpdate;
-    _Bool _isArchived;
-    long long _isFiltered;
-    _Bool _isBlackholed;
-    _Bool _hasScheduledMessage;
-    _Bool _hasHadSuccessfulQuery;
-    long long _autoDonationBehavior;
-    NSDate *_autoDonationBehaviorLastModificationDate;
-    _Bool _isRecovered;
-    _Bool _isDeletingIncomingMessages;
-    _Bool _isDownloadingPendingSatelliteMessages;
-    _Bool _wasDowngradedToLiteMessage;
-    _Bool _wasReportedAsJunk;
-    _Bool _oscarChat;
-    _Bool _oscarFilteredChat;
-    _Bool _meCardUpdated;
-    long long _pendingIncomingSatelliteMessageCount;
-    IMDHandle *_recipient;
-    NSString *_cloudKitRecordID;
-    NSDate *_lastSentDowngradeRequestSinceLoadDate;
-    long long _lastSentDowngradeRequestSinceLoadSessionIndex;
-    NSDate *_lastReplicationSinceLoadDate;
-    NSDictionary *_nicknamesForParticipants;
-    NSNumber *_cachedStewieSharingChat;
-    unsigned long long _numMessagesSent;
 }
 
 + (_Bool);
@@ -78,11 +26,11 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)aan @;
+- (void)8aA8a;
+- (void)(;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -105,7 +53,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -115,8 +63,19 @@
 - (long long);
 - (id);
 - (long long);
-- (int);
+- (int);
 - (_Bool);
+- (void)v;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -126,23 +85,12 @@
 - (void);
 - (void);
 - (void);
+- (void)I;
+- (void)*;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)%;
 - (void);
 - (_Bool);
 - (id);
@@ -155,54 +103,54 @@
 - (unsigned long long);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)B"b">B(#H;
 - (void);
+- (id);
+- (id);
+- (id).;
+- (long long);
+- (id);
+- (id);
+- (long long)H;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)  ";
+- (id)  ;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)  ;
+- (id);
+- (long long);
+- (int)q!;
+- (id);
+- (void);
+- (long long)cE;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (int);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void);
+- (id)W;
+- (void)T;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)  ;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)-(-!@!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -218,6 +166,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)  ;
 - (void);
 - (void);
 - (void);
@@ -225,16 +176,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void);
+- (id)(.!@!;
 - (id);
 - (_Bool);
+- (_Bool);
+- (id).;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -242,7 +190,8 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)'
+.;
 - (_Bool);
 - (id);
 - (void);
@@ -251,10 +200,10 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)T c;
+- (void);;
 - (id);
 - (_Bool);
 - (void);
@@ -263,14 +212,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void));
 - (void);
+- (void)_xk;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
@@ -280,11 +229,11 @@
 - (id);
 - (id);
 - (long long);
+- (_Bool)3;
+- (_Bool)3;
+- (_Bool)3;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (long long);
 - (long long);
 - (id);
@@ -292,40 +241,40 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (long long)9e(;
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id)@;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)legate=%@ error=%p;
+- (_Bool)s] %s:(id)arg1 %d Device has no screen sharing rules;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -339,17 +288,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)matchedOrientationDurations;
+- (void)averageVideoTxHeaderBitrate;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)haracterFromSet:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned char);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -357,7 +306,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (id);
 - (void);
 - (id);
@@ -387,114 +336,7 @@
 - (id)ùâ¢;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *_mergeParticipantIDs;
-@property(readonly, retain) IMDAccount *account;
-@property(copy) NSString *accountID;
-@property(readonly) NSArray *alternativeSpeakableMatches;
-@property(readonly, nonatomic) long long autoDonationBehavior;
-@property(readonly, nonatomic) NSDate *autoDonationBehaviorLastModificationDate;
-@property(readonly, getter=isAutomaticallyTranslating) _Bool automaticallyTranslating;
-@property(readonly, nonatomic) id <IMDaemonListenerChatProtocol> broadcaster;
-@property(readonly, copy) NSString *businessName;
-@property(retain, nonatomic) NSNumber *cachedStewieSharingChat; // @synthesize cachedStewieSharingChat=_cachedStewieSharingChat;
-@property(copy) NSString *chatIdentifier;
-@property(readonly, retain) NSDictionary *chatProperties;
-@property(copy) NSString *cloudKitRecordID; // @synthesize cloudKitRecordID=_cloudKitRecordID;
-@property long long cloudKitSyncState;
-@property _Bool createEngramGroupOnMessageSend; // @synthesize createEngramGroupOnMessageSend=_createEngramGroupOnMessageSend;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(getter=isDeletingIncomingMessages) _Bool deletingIncomingMessages;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceIndependentID;
-@property(readonly, retain) NSDictionary *dictionaryRepresentation;
-@property(copy) NSString *displayName;
-@property(copy) NSDictionary *domainIdentifiers;
-@property(readonly) _Bool downloadingPendingSatelliteMessages; // @synthesize downloadingPendingSatelliteMessages=_isDownloadingPendingSatelliteMessages;
-@property(retain, nonatomic) IMSharedEmergencyInfo *emergencyUserInfo;
-@property(copy, setter=setEngramID:) NSString *engramID;
-@property(readonly, nonatomic) long long filterCategory;
-@property(readonly, nonatomic) long long filterSubCategory;
-@property(readonly, nonatomic, getter=isGroupChat) _Bool groupChat;
-@property(readonly, copy) NSString *groupID;
-@property(nonatomic) long long groupParticipantVersion;
-@property(copy) NSString *guid;
-@property _Bool hasHadSuccessfulQuery;
-@property(readonly) _Bool hasScheduledMessage;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(copy, nonatomic) NSString *incomingTranslatedMessageIdentifier;
-@property(readonly) _Bool isArchived;
-@property _Bool isBlackholed;
-@property(readonly) _Bool isDeletingIncomingMessages; // @synthesize isDeletingIncomingMessages=_isDeletingIncomingMessages;
-@property long long isFiltered;
-@property(readonly, nonatomic) _Bool isPlaceholder;
-@property(readonly) _Bool isRecovered; // @synthesize isRecovered=_isRecovered;
-@property(readonly, nonatomic) _Bool isUnnamedChat;
-@property(readonly, copy) NSDictionary *keyTransparencyURIToUUIDMapping;
-@property(copy) NSString *lastAddressedLocalHandle;
-@property(copy) NSString *lastAddressedSIMID;
-@property(retain) IMMessageItem *lastMessage;
-@property long long lastMessageTimeStampOnLoad;
-@property(nonatomic) long long lastReadMessageTimeStamp;
-@property(retain, nonatomic) NSDate *lastReplicationSinceLoadDate; // @synthesize lastReplicationSinceLoadDate=_lastReplicationSinceLoadDate;
-@property(retain, nonatomic) NSDate *lastScheduledMessageCreatedDate;
-@property(readonly, copy) NSString *lastSeenMessageGuid;
-@property(retain) NSDate *lastSentDowngradeRequestSinceLoadDate; // @synthesize lastSentDowngradeRequestSinceLoadDate=_lastSentDowngradeRequestSinceLoadDate;
-@property long long lastSentDowngradeRequestSinceLoadSessionIndex; // @synthesize lastSentDowngradeRequestSinceLoadSessionIndex=_lastSentDowngradeRequestSinceLoadSessionIndex;
-@property(retain, nonatomic) NSDate *lastTUConversationCreatedDate;
-@property _Bool meCardUpdated; // @synthesize meCardUpdated=_meCardUpdated;
-@property(getter=isMergedBusinessThread) _Bool mergedBusinessThread;
-@property(nonatomic) _Bool needsFreshGroupCreation;
-@property(readonly, nonatomic) NSDictionary *nicknamesForParticipants; // @synthesize nicknamesForParticipants=_nicknamesForParticipants;
-@property unsigned long long numMessagesSent; // @synthesize numMessagesSent=_numMessagesSent;
-@property(readonly, copy) NSString *originalGroupID;
-@property(nonatomic, getter=isOscarChat) _Bool oscarChat; // @synthesize oscarChat=_oscarChat;
-@property(nonatomic, getter=isOscarFilteredChat) _Bool oscarFilteredChat; // @synthesize oscarFilteredChat=_oscarFilteredChat;
-@property(readonly, copy, nonatomic) NSArray *participantHandles;
-@property(copy) NSArray *participants;
-@property _Bool pendingENGroupParticipantUpdate; // @synthesize pendingENGroupParticipantUpdate=_pendingENGroupParticipantUpdate;
-@property(readonly, nonatomic) IMDPendingGroupModification *pendingGroupModification;
-@property(readonly) long long pendingIncomingSatelliteMessageCount; // @synthesize pendingIncomingSatelliteMessageCount=_pendingIncomingSatelliteMessageCount;
-@property(readonly, nonatomic) NSString *persistentID;
-@property(readonly, nonatomic) NSString *personCentricID;
-@property(readonly, nonatomic) NSString *pinningIdentifier;
-@property(readonly) NSString *pronunciationHint;
-@property(retain) NSDictionary *properties;
-@property(retain, nonatomic) IMDHandle *recipient; // @synthesize recipient=_recipient;
-@property(getter=isRecovered) _Bool recovered;
-@property unsigned long long repairHistory;
-@property(retain, nonatomic) NSArray *replySuggestions;
-@property(retain) NSDate *requestedDowngradeExpirationDate;
-@property(copy) NSString *requestedDowngradeService;
-@property(copy) NSString *roomName;
-@property(setter=_setRowID:) long long rowID;
-@property(copy, nonatomic) NSString *serverChangeToken;
-@property(readonly, retain) IMDService *service;
-@property(copy) NSString *serviceName;
-@property(readonly, retain) IMDServiceSession *serviceSession;
-@property(readonly, nonatomic, getter=isSMS) _Bool sms;
-@property(retain, nonatomic) NSString *spamDetectedMessage;
-@property(nonatomic) long long spamDetectionSource;
 @property(readonly) NSString *spokenPhrase;
-@property long long state;
-@property(readonly, nonatomic, getter=isStewieSharingChat) _Bool stewieSharingChat;
-@property unsigned char style;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsEncryption;
-@property(readonly, nonatomic) _Bool supportsMergingFilteredThreads;
-@property(readonly, retain) NSDictionary *syncedProperties;
-@property(readonly, copy) NSString *translationLanguageIdentifier;
-@property(setter=_setUnreadCount:) unsigned long long unreadCount;
-@property(readonly, copy) NSString *userTranslationLanguageIdentifier;
-@property(readonly) NSString *vocabularyIdentifier;
-@property _Bool wasDowngradedToLiteMessage; // @synthesize wasDowngradedToLiteMessage=_wasDowngradedToLiteMessage;
-@property _Bool wasReportedAsJunk; // @synthesize wasReportedAsJunk=_wasReportedAsJunk;
 
 @end
 

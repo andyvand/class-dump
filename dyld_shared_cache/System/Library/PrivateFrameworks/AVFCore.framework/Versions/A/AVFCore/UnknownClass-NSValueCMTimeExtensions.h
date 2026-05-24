@@ -6,15 +6,15 @@
 
 @interface UnknownClass (NSValueCMTimeExtensions)
 + (id);
-+ (id);
++ (id)0a;
 + (id);
 + (id);
 - (CDStruct_82206317);
-- (CDStruct_79c71658);
-- (CDStruct_e83c9415);
+- (CDStruct_1ef3fb1f);
+- (CDStruct_e83c9415)#;
 - (CDStruct_1b6d18a9);
 
 // Remaining properties
-@property(readonly) CDStruct_79c71658 CMVideoDimensionsValue;
+@property(readonly) CDStruct_1ef3fb1f CMVideoDimensionsValue;
 @end
 

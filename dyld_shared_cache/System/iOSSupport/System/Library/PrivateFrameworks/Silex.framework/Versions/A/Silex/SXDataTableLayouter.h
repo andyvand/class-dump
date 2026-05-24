@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SXDataTableBlueprint;
+@class SXDataTableBlueprint;
 @protocol SXDataTableDataSource;
 
 @interface SXDataTableLayouter
 {
     id <SXDataTableDataSource> _dataSource;
-    double _currentWidth;
-    SXDataTableBlueprint *_blueprint;
-    NSMutableDictionary *_minimumColumnWidths;
-    NSMutableDictionary *_intendedColumnWidths;
 }
 
 - (double);
@@ -24,11 +20,11 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id);
 - (double);
-- (id);
+- (id)%;
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct UIEdgeInsets);
@@ -41,10 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SXDataTableBlueprint *blueprint; // @synthesize blueprint=_blueprint;
-@property(readonly, nonatomic) double currentWidth; // @synthesize currentWidth=_currentWidth;
-@property(readonly, nonatomic) id <SXDataTableDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) NSMutableDictionary *intendedColumnWidths; // @synthesize intendedColumnWidths=_intendedColumnWidths;
-@property(retain, nonatomic) NSMutableDictionary *minimumColumnWidths; // @synthesize minimumColumnWidths=_minimumColumnWidths;
 
 @end
 

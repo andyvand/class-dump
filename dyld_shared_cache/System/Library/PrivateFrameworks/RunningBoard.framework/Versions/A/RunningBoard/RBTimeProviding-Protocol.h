@@ -5,5 +5,6 @@
 //
 
 @protocol RBTimeProviding
+- (double);
 @end
 

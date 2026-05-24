@@ -10,39 +10,26 @@ __attribute__((visibility("hidden")))
 @interface UIKBHandwritingInputSpeedModel
 {
     NSMutableArray *_recordedIntervals;
-    NSMutableArray *_recordedSpeeds;
-    double _lastStrokeTimeStamp;
-    double _lastTouchTimeStamp;
-    struct CGPoint _lastTouchLocation;
-    NSMutableArray *_pointsCurrentStroke;
-    _Bool _duringStroke;
-    _Bool _autoConfirmationEnabled;
-    double _minTimeout;
-    double _maxTimeout;
-    struct CGRect _handwritingFrame;
 }
 
 - (double);
 - (double);
 - (double);
-- (void);
-- (double);
-- (double);
-- (struct CGRect);
-- (void);
+- (void)r service %@;
+- (double)rror case;
+- (double)ing as synced ***;
+- (struct CGRect)-file-size;
+- (void)@"NSArray"20;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)tingIncomingMessages:%@, isPendingReview:%@] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)¼¾éÿ?¿;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool autoConfirmationEnabled; // @synthesize autoConfirmationEnabled=_autoConfirmationEnabled;
-@property(nonatomic) struct CGRect handwritingFrame; // @synthesize handwritingFrame=_handwritingFrame;
-@property(readonly, nonatomic) double maxTimeout; // @synthesize maxTimeout=_maxTimeout;
-@property(readonly, nonatomic) double minTimeout; // @synthesize minTimeout=_minTimeout;
 
 @end
 

@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSString;
-@protocol CKTranscriptBalloonSelectionManagerDataSource, CKTranscriptBalloonSelectionManagerDelegate;
+@class NSMutableOrderedSet;
+@protocol CKTranscriptBalloonSelectionManagerDelegate;
 
 @interface CKTranscriptBalloonSelectionManager
 {
     id <CKTranscriptBalloonSelectionManagerDelegate> _delegate;
-    id <CKTranscriptBalloonSelectionManagerDataSource> _dataSource;
-    NSString *_trackedGuid;
-    NSMutableOrderedSet *_selectedMessageGuids;
-    NSMutableDictionary *_selectedStates;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)setUsesBiometricAuthenticationIfAvailable: /* Error: Ran out of types for this method. */;
+- (void)setUrlString:(id)arg1;
+- (void)initWithTextStorage:(id)arg1 collapsedUUIDs:asynchronous: /* Error: Ran out of types for this method. */;
+- (void)initWithTextFont:(id)arg1 paragraphStyle:zoomFactor: /* Error: Ran out of types for this method. */;
+- (void)initWithTextAlignment:(id)arg1 location:options: /* Error: Ran out of types for this method. */;
+- (id)canMoveAddOrDeleteContents;
+- (id)canInsertInlineAttachmentType:(id)arg1 intoNote:parentAttachment: /* Error: Ran out of types for this method. */;
+- (id)canFitAttributedString:ellipses:shouldPrefixWithEllipses:insideFrame:centered: /* Error: Ran out of types for this method. */;
+- (unsigned long long)canConvertInlineAttachmentToTextInTextView:forRange: /* Error: Ran out of types for this method. */;
+- (id)canConvertInlineAttachmentToTextInTextView:(unsigned long long)arg1 forRange: /* Error: Ran out of types for this method. */;
+- (void)_useNoteTitle;
+- (void)_updateSelectorDelayer;
+- (void)_subtitleClickableTextView;
+- (void)_substringMatchingTokens;
 - (_Bool);
 - (long long);
-- (void);
-- (id);
-- (void);
+- (void)o;
+- (id)igrationPromptIfSupportedForAccount:(id)arg1 window:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)r:(id)arg1 ];
 - (id);
 - (id);
 - (id);
@@ -44,13 +40,7 @@
 - (void)ÿ-!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *chatItems;
-@property(nonatomic) __weak id <CKTranscriptBalloonSelectionManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <CKTranscriptBalloonSelectionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long selectedGuidCount;
 @property(retain, nonatomic) NSMutableOrderedSet *selectedMessageGuids; // @synthesize selectedMessageGuids=_selectedMessageGuids;
-@property(retain, nonatomic) NSMutableDictionary *selectedStates; // @synthesize selectedStates=_selectedStates;
-@property(retain, nonatomic) NSString *trackedGuid; // @synthesize trackedGuid=_trackedGuid;
 
 @end
 

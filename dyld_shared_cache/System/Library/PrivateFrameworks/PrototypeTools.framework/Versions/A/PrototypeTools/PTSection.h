@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSPredicate, NSString, PTSettings;
-@protocol PTComponentObserver;
+@class NSArray, NSString;
 
 @interface PTSection
 {
     NSArray *_rows;
-    NSMutableArray *_enabledRows;
-    _Bool _enabledSection;
-    PTSettings *_settings;
-    id <PTComponentObserver> _componentObserver;
-    NSPredicate *_appearancePredicate;
-    NSString *_childSettingsKeyPath;
-    NSString *_title;
-    CDUnknownBlockType _footerTextGetter;
-    CDUnknownBlockType _unregisterBlock;
 }
 
 + (_Bool);
@@ -40,43 +30,28 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?׿F;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)CoreGraphicsXPCServices:(id)arg1 unknown request from service %d;
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)unknown03_Cat;
 - (void);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)EnabledPreferencePanes;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allSections;
-@property(retain, nonatomic) NSPredicate *appearancePredicate; // @synthesize appearancePredicate=_appearancePredicate;
-@property(retain, nonatomic) NSString *childSettingsKeyPath; // @synthesize childSettingsKeyPath=_childSettingsKeyPath;
-@property(nonatomic) __weak id <PTComponentObserver> componentObserver; // @synthesize componentObserver=_componentObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *enabledSections;
-@property(copy, nonatomic) CDUnknownBlockType footerTextGetter; // @synthesize footerTextGetter=_footerTextGetter;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PTSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) CDUnknownBlockType unregisterBlock; // @synthesize unregisterBlock=_unregisterBlock;
 
 @end
 

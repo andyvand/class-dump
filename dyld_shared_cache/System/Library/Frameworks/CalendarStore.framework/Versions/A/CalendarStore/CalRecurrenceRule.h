@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalRecurrenceEnd, EKRecurrenceRule, NSArray;
+@class EKRecurrenceRule;
 
 @interface CalRecurrenceRule
 {
@@ -24,12 +24,12 @@
 - (id);
 - (id);
 - (id);
+- (id)#��;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -37,19 +37,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)(;
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *daysOfTheMonth;
-@property(readonly) NSArray *daysOfTheWeek;
 @property(retain, nonatomic) EKRecurrenceRule *ekRecurrenceRule; // @synthesize ekRecurrenceRule=_ekRecurrenceRule;
-@property(readonly) unsigned long long firstDayOfTheWeek;
-@property(readonly) NSArray *monthsOfTheYear;
-@property(readonly) NSArray *nthWeekDaysOfTheMonth;
-@property(readonly) CalRecurrenceEnd *recurrenceEnd;
-@property(readonly) unsigned long long recurrenceInterval;
-@property(readonly) int recurrenceType;
 
 @end
 

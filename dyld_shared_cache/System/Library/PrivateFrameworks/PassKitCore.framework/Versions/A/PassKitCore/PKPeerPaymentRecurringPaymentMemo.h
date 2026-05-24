@@ -9,8 +9,6 @@
 @interface PKPeerPaymentRecurringPaymentMemo
 {
     NSString *_text;
-    NSString *_emoji;
-    long long _color;
 }
 
 + (_Bool);
@@ -21,8 +19,8 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)orkCount"b1};
+- (void),V_endTxRetrans;
 - (void);
 - (id);
 - (void)1Â0@ù
@@ -30,8 +28,6 @@
 - (void)_ubiquity.txt;
 
 // Remaining properties
-@property(nonatomic) long long color; // @synthesize color=_color;
-@property(copy, nonatomic) NSString *emoji; // @synthesize emoji=_emoji;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

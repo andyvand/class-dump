@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface ICCloudServerListenerEndpointProvider
 {
     NSXPCConnection *_listenerEndpointProviderConnection;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -22,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)àHä	Ì<D||ÈLX´;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

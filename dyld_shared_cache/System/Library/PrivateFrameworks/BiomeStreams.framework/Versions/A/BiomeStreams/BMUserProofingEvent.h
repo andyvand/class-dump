@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMUserProofingEvent
 {
     double _absoluteTimestamp;
-    NSString *_age;
-    NSString *_gender;
-    NSString *_skinTone;
-    NSString *_ethnicity;
-    NSString *_deviceLanguage;
-    NSString *_proofingDecision;
-    NSString *_issuer;
-    NSString *_livenessAssessment;
-    NSString *_gestureAssessment;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)!;
 - (id);
 - (id);
 - (id);
@@ -30,44 +19,26 @@
 - (id);
 - (id);
 - (id);
+- (id)u;
+- (id)failed to send message on attempt '%d', sessionID='%d', participantID='%@';
 - (id);
 - (id);
+- (unsigned int)#&;
 - (id);
 - (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id)get_packed_size;
+- (id)pg_query__alter_system_stmt__get_packed_size;
 - (id);;
 - (void)ë;
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSString *age; // @synthesize age=_age;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceLanguage; // @synthesize deviceLanguage=_deviceLanguage;
-@property(readonly, nonatomic) NSString *deviceRegion;
-@property(readonly, nonatomic) NSString *ethnicity; // @synthesize ethnicity=_ethnicity;
-@property(readonly, nonatomic) NSString *gender; // @synthesize gender=_gender;
-@property(readonly, nonatomic) NSString *gestureAssessment; // @synthesize gestureAssessment=_gestureAssessment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *issuer; // @synthesize issuer=_issuer;
-@property(readonly, nonatomic) NSString *livenessAssessment; // @synthesize livenessAssessment=_livenessAssessment;
-@property(readonly, nonatomic) NSString *proofingDecision; // @synthesize proofingDecision=_proofingDecision;
-@property(readonly, nonatomic) NSString *skinTone; // @synthesize skinTone=_skinTone;
-@property(readonly) Class superclass;
 
 @end
 

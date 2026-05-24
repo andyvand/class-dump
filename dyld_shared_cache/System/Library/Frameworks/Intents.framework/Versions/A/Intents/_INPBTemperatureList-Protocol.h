@@ -7,11 +7,11 @@
 @class NSArray, _INPBCondition;
 
 @protocol _INPBTemperatureList
++ (Class);
+- (NSArray *);
+- (_INPBCondition *)(;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(copy, nonatomic) NSArray *temperatures;
-@property(readonly, nonatomic) unsigned long long temperaturesCount;
 @end
 

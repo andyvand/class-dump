@@ -8,11 +8,10 @@
 {
     id _context;
     id _connection;
-    id _$observationRegistrar;
 }
 
 - (void);
-- (id);
+- (id)7R;
 - (void);
 
 @end

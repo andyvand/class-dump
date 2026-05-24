@@ -13,9 +13,9 @@
     NSDate *_earliestMessageDate;
 }
 
-- (void);
-- (id);
-- (id);
+- (void):(id)arg1 %d Registering the same delegate twice!;
+- (id)Count=%ld;
+- (id)CManagement) _xpc_add_connection_to_list:(id)arg1 ]_block_invoke;
 - (void),<x=à=;
 
 // Remaining properties

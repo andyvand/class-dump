@@ -5,5 +5,10 @@
 //
 
 @protocol ICAUIDelegate
+- (void);
+- (void)@9*;
+
+@optional
+- (void);
 @end
 

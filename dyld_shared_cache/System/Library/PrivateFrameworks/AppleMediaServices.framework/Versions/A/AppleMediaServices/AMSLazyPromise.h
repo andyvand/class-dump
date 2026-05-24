@@ -9,8 +9,6 @@
 @interface AMSLazyPromise : AMSPromise
 {
     _Bool _executedBlock;
-    CDUnknownBlockType _block;
-    double _timeout;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType): /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)isEqualToPurchaseSIWAResult: /* Error: Ran out of types for this method. */;
 - (id)"NSString",C,V_serviceID;
 - (double)?0@"AMSEngagementMessageAction"8;
 - (id)|JÚ41ãïHÐ¼ÆrózjI7Ã°5ÖÞ[äþwnßR¡-£³þøW1å(G¢TrÞµÀcEaiV9 ~Í¿,à<8gI	D6ËJ*¡®+ÒãTâ®ý×éO¢þÓË¯åt½è¨ÝI¦ùkÌÿpº¸ÇÙÄ&¦þm/PåÅÁùÐ¹ ä;hMé2xS¤M/EÄdmQiï'.¢»RCúÉS6µv,@ò;uÚÚ\´siÈp=¥*óÜ¸Á"ôô^nXÇ·e¹_ò1«#NÝd^çè¿É!Xç`$bcK¶Wªé~%á@KY;
@@ -39,8 +37,6 @@ H?P~4ªií©æñ¾!bn;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) _Bool executedBlock; // @synthesize executedBlock=_executedBlock;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

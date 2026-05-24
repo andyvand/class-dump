@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVTrimIndicatorAccessibilityElement
 {
     AVTrimView *_trimView;
-    unsigned long long _part;
 }
 
 - (id);
@@ -24,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)aN,i=e;break}t>a&&(a=t,i=e),++d}s()}return n}};
+0;;
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)}s failed to assemble packet;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long part;
 @property(readonly, nonatomic) AVTrimView *trimView;
 
 @end

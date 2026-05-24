@@ -8,7 +8,7 @@
 {
 }
 
-+ (struct CGImage *);
++ (struct CGImage *)J;
 - (id);
 
 @end

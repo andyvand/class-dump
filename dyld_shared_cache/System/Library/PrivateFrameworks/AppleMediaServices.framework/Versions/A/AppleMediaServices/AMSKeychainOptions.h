@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AMSLocalAuthHeaderNames;
 
 @interface AMSKeychainOptions
 {
     _Bool _regenerateKeys;
-    _Bool _authenticationFallbackVisible;
-    _Bool _displayAuthenticationReason;
-    NSString *_clientCertLabel;
-    NSString *_intermediateCertLabel;
-    NSString *_label;
-    unsigned long long _purpose;
-    unsigned long long _style;
-    NSString *_prompt;
 }
 
 + (unsigned long long);
@@ -25,7 +16,7 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool)FromRequest:(unsigned long long)arg1 type:bag: /* Error: Ran out of types for this method. */;
++ (_Bool)signaturePromiseFromRequest:(unsigned long long)arg1 type:bag: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -35,42 +26,31 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)d-perform.end;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)setOutputDevices:(id)arg1 initiator:password:fadeAudio:withCallbackQueue:block: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (_Bool)fields to JSON. Error:(id)arg1 %{public}@;
 - (void);
-- (unsigned long long)dRetry;
+- (unsigned long long)kActionUserInfoKeyShouldRetry;
 - (void)¬-¬-®¬-¬-³¬-Ì¬-b¬-Y¬-¯¬-¬-þ¬-¬-c¬-\¬-²¬-É|!yØaÑ}tðK9á¹ª£	ÎçäsÃ=È¾rÛl¾\ ÆaÇJè%õLÞK²èß¾÷ÿF¶ÎØtÜÜ³¿Äíhï4"8$é^ïß¼8¬ý}Ê$þhJüæWu5¶ vMÐ"7à^töaÐ®ÉUSæ[tRhÁdþcgõk¹¢å7K¤HÄy±ôlÎñô|`Ñ¼¤s(F¢ÀÀH\ÆùÒÓ;#ðýÒÄ@¸ê©é3çâç'!½;
 - (void)CÝ·e%ÒdCXê&©Zÿ)4cüÎ´?h¯Æµ4WíÀÃ££1Cv0føòW0ê²Øb¥ù ±*5Ê¸nEtÔr[H!ûÂÖGð¶Ûyÿ­ÝI¹åcZ·µ²&Ä±x8PId5.Úî;
 - (void)Ru4ZbQrÉÛÂçn;
 - (id)lMp;
 
 // Remaining properties
-@property(readonly) unsigned long long attestationModel;
-@property _Bool authenticationFallbackVisible; // @synthesize authenticationFallbackVisible=_authenticationFallbackVisible;
-@property(copy) NSString *clientCertLabel; // @synthesize clientCertLabel=_clientCertLabel;
-@property _Bool displayAuthenticationReason; // @synthesize displayAuthenticationReason=_displayAuthenticationReason;
 @property(nonatomic, readonly) id <AMSLocalAuthHeaderNames> headerNames;
-@property(copy) NSString *intermediateCertLabel; // @synthesize intermediateCertLabel=_intermediateCertLabel;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(copy) NSString *prompt; // @synthesize prompt=_prompt;
-@property unsigned long long purpose; // @synthesize purpose=_purpose;
-@property _Bool regenerateKeys; // @synthesize regenerateKeys=_regenerateKeys;
-@property unsigned long long style; // @synthesize style=_style;
-@property(nonatomic, readonly) _Bool supportsBOP;
 
 @end
 

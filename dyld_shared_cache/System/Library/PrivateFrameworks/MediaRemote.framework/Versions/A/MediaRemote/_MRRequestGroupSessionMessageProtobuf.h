@@ -18,15 +18,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
-- (id);
-- (void)ID: /* Error: Ran out of types for this method. */;
-- (id)uf;
+- (id)AFHeadGestureResponse::activeContexts /* Error: Ran out of types for this method. */;
+- (void)addClusterAwareRemovingOutputDeviceUID: /* Error: Ran out of types for this method. */;
+- (id)_MRNowPlayingInfoProtobuf;
 - (void)stomDataCallback(MRExternalDeviceRef, __strong dispatch_queue_t, __strong MRExternalDeviceCustomDataCallback);
 
 // Remaining properties
-@property(retain, nonatomic) _MRRequestDetailsProtobuf *details; // @synthesize details=_details;
 @property(readonly, nonatomic) _Bool hasDetails;
 
 @end

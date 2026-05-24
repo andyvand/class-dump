@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface NLRouterSchemaNLRouterSubComponentHandleStarted : SISchemaInstrumentationMessage
 {
     int _nlRouterSubComponent;
-    NSString *_assetVersion;
-    CDStruct_5c0d9b80 _has;
-    _Bool _hasAssetVersion;
 }
 
 - (void);
@@ -25,24 +20,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)K-Info:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id)1Â0@ù
 × ;
-- (void)ntCoreDuet2Min:(id)arg1;
+- (void)setRawNowPlayingCountCoreDuet2Min:(id)arg1;
 - (id)tItn;
 - (id)beatReported;
 - (id);
 - (void)¡ç9\>;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(nonatomic) _Bool hasNlRouterSubComponent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int nlRouterSubComponent; // @synthesize nlRouterSubComponent=_nlRouterSubComponent;
 
 @end

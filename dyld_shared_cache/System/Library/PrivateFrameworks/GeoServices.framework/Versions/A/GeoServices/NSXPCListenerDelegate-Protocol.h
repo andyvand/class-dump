@@ -9,6 +9,6 @@
 @protocol NSXPCListenerDelegate
 
 @optional
-- (_Bool)olygon:(NSXPCListener *)arg1;
+- (_Bool)setPolygon:(NSXPCListener *)arg1;
 @end
 

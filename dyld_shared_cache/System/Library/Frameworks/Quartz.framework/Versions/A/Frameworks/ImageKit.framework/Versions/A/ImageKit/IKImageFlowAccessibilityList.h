@@ -16,11 +16,11 @@
 - (void);
 - (id);
 - (void);
+- (_Bool)%Ӛ);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned int);

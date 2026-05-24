@@ -7,13 +7,13 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (_Bool)8;
+- (NSString *)8@16^@24;
+- (unsigned long long)QhR;
+- (_Bool)rary/BuildRoots/4~CNq-ugDvZohheiVBPlwlAQTOHVe8kvnbX03jrt4/Library/Caches/com.apple.xbs/TemporaryDirectory.jAwLbJ/Sources/iWorkGenerator/shared/charts/Classes/TSCH3DGeometry.mm;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 @end

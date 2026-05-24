@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatSportsEventMatchupColorProvider
 {
     id leftColor;
-    id rightColor;
-    id colors;
 }
 
 @end

@@ -5,7 +5,7 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLHeap;
 
 @protocol MTLResource
 - (int)ð1Â0@ù
@@ -22,14 +22,6 @@
 - (id <MTLHeap>)?;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

@@ -7,22 +7,20 @@
 @interface MSExternalAction
 {
     _Bool _remote;
-    long long _sequenceNumber;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)setCachedLocalSecretType:(id)arg1;
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property _Bool remote; // @synthesize remote=_remote;
-@property long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

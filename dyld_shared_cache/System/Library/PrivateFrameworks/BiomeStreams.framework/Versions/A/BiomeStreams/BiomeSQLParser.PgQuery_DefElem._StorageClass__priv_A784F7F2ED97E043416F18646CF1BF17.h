@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_DefElem._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _defnamespace;
-    id _defname;
-    id _arg;
-    id _defaction;
-    id _location;
 }
 
 @end

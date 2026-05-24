@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol PDSCDCache
+- (_Bool)currentMaximumBatchSize;
+- (NSArray *)conversationID;
+- (NSArray *)longLongValue;
+- (NSArray *);
+- (_Bool)hasParticipantKeyLost;
+- (_Bool)[;
 @end
 

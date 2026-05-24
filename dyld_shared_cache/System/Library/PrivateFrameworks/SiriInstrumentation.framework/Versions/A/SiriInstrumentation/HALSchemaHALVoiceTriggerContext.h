@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALVoiceTriggerContext : SISchemaInstrumentationMessage
 {
     unsigned long long _timeSinceVoiceTriggerHeardInSeconds;
-    struct {
-        unsigned int timeSinceVoiceTriggerHeardInSeconds:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)!A;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ur;
 - (id)Atð!<Fù±à°1Â0@ù
 × ;
 - (id)tID;
 - (id)dSèST;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimeSinceVoiceTriggerHeardInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timeSinceVoiceTriggerHeardInSeconds; // @synthesize timeSinceVoiceTriggerHeardInSeconds=_timeSinceVoiceTriggerHeardInSeconds;
 
 @end

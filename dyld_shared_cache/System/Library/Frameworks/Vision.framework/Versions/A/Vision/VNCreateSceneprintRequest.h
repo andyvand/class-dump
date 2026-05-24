@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNCreateSceneprintRequest : VNImageBasedRequest
 {
 }
@@ -21,17 +19,14 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)k*;
+- (id)has a current nickname with no pending nickname ready, using currentNickname as target Latest Photo;
 - (void);
 - (_Bool)¹ÿ;
 - (id);
 - (_Bool)ÿh?Æ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long imageCropAndScaleOption;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(nonatomic) _Bool returnAllResults;
 @property(nonatomic) _Bool useCenterTileOnly;
 
 @end

@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface CACGPathCodingSegment
 {
     int _type;
-    struct CGPoint _points[3];
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)isplayLinkStart;
 - (id);
 - (void):(struct CGPath *)arg1:swap_region id:%llu region:%u indicator %u pos:[%f %f] opacity:%f rotation:%f glyph:%f /* Error: Ran out of types for this method. */;
 

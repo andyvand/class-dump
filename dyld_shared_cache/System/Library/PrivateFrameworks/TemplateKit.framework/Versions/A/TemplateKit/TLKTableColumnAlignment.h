@@ -9,8 +9,6 @@
 @interface TLKTableColumnAlignment : TLKObject
 {
     _Bool _isEqualWidth;
-    unsigned long long _columnAlignment;
-    long long _dataAlignment;
 }
 
 - (_Bool);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long columnAlignment; // @synthesize columnAlignment=_columnAlignment;
-@property(nonatomic) long long dataAlignment; // @synthesize dataAlignment=_dataAlignment;
-@property(nonatomic) _Bool isEqualWidth; // @synthesize isEqualWidth=_isEqualWidth;
 
 @end
 

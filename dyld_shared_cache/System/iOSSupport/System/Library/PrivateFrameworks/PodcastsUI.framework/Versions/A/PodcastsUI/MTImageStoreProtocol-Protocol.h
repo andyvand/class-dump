@@ -5,5 +5,6 @@
 //
 
 @protocol MTImageStoreProtocol
+- (_Bool);
 @end
 

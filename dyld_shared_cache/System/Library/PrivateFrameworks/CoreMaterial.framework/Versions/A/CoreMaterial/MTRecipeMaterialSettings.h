@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol MTTinting><MTMaterialFiltering><MTUserInfoProviding;
+@class NSDictionary;
 
 @interface MTRecipeMaterialSettings
 {
     long long _materialSettingsVersion;
-    NSString *_recipeName;
-    NSDictionary *_styles;
-    id <MTTinting><MTMaterialFiltering><MTUserInfoProviding> _baseMaterialSettings;
 }
 
 + (id);
@@ -26,21 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTTinting><MTMaterialFiltering><MTUserInfoProviding> baseMaterialSettings; // @synthesize baseMaterialSettings=_baseMaterialSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long materialSettingsVersion; // @synthesize materialSettingsVersion=_materialSettingsVersion;
-@property(readonly, copy, nonatomic) NSString *recipeName; // @synthesize recipeName=_recipeName;
 @property(retain, nonatomic) NSDictionary *styles; // @synthesize styles=_styles;
-@property(readonly) Class superclass;
 
 @end
 

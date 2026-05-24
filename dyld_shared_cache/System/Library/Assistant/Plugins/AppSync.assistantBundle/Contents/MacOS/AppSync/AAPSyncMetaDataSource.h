@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAPSyncState, NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class AAPSyncState, NSArray;
 
 @interface AAPSyncMetaDataSource
 {
     AAPSyncState *_state;
-    NSArray *_metaData;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
-+ (id);
-- (void);
-- (id);
++ (id)|;
+- (void);
+- (id)|;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *metaData; // @synthesize metaData=_metaData;
-@property(readonly, copy, nonatomic) AAPSyncState *state; // @synthesize state=_state;
 
 @end
 

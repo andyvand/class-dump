@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSCountedSet, NSMutableDictionary, NSString;
-@protocol FCBackgroundTaskable;
-
 @interface FCPersistentAssetKeyCache
 {
     _Bool _flushingEnabled;
-    _Bool _needsSave;
-    NSString *_cachePath;
-    NSMutableDictionary *_cacheEntries;
-    NFUnfairLock *_cacheEntriesLock;
-    NSCountedSet *_interestedKeys;
-    NFUnfairLock *_interestLock;
-    id <FCBackgroundTaskable> _backgroundTaskable;
 }
 
 - (void);
@@ -28,13 +18,7 @@
 - (void)Éÿå`Ö;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

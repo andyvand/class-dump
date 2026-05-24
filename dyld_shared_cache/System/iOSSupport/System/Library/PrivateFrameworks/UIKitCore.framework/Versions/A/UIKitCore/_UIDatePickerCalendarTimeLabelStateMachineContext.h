@@ -8,14 +8,10 @@ __attribute__((visibility("hidden")))
 @interface _UIDatePickerCalendarTimeLabelStateMachineContext
 {
     unsigned long long _currentState;
-    CDUnknownBlockType _updateHandler;
-    _Bool _isFirstResponder;
-    unsigned long long _lastDistinctState;
-    unsigned long long _previousState;
 }
 
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)copyMessagesThatNeedToBeDeletedInCloudKitWithLimit: /* Error: Ran out of types for this method. */;
+- (_Bool)IMDiMessageIncomingMessageHandler;
 - (void);
 - (unsigned long long *);
 - (id);
@@ -26,11 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)#;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) unsigned long long *currentStateRef;
-@property(nonatomic) _Bool isFirstResponder; // @synthesize isFirstResponder=_isFirstResponder;
 @property(readonly, nonatomic) unsigned long long lastDistinctState; // @synthesize lastDistinctState=_lastDistinctState;
-@property(readonly, nonatomic) unsigned long long previousState; // @synthesize previousState=_previousState;
 
 @end
 

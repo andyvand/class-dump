@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink;
-
 __attribute__((visibility("hidden")))
 @interface UIAnimatorScreenLink
 {
     struct _UIUpdateSequenceItemInternal *_updateSequenceItem;
-    CADisplayLink *_displayLink;
-    CDUnknownBlockType _updateAction;
-    unsigned short _animationCount;
 }
 
-+ (id)LandedAllReplacementsForDelivery:(id)arg1 inContext:(CDUnknownBlockType)arg2;
++ (id)_hasLandedAllReplacementsForDelivery:(id)arg1 inContext:(CDUnknownBlockType)arg2;
 - (void);
 - (unsigned short);
 - (void);
-- (void)nTimeInterval;
+- (void)TemporaryFileURLCacheDeletionTimeInterval;
 - (void)È¨¡ÿå1ÝT(j;
 - (void);
 

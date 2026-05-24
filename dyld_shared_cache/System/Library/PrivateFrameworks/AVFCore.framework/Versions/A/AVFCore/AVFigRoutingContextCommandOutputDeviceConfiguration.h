@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVFigRoutingContextCommandOutputDeviceConfiguration
@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (void)t allow values for %@ that are numerically greater than %@;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)NSt3__110__function6__baseIFPcPKN6quasar20corrective_reranking6ParserEEEE;
 - (_Bool);
 - (void);
 - (id);
@@ -25,20 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)questID:providesPersistableKey:preloadingRequestOptions:identifier:supportsOfflineKey:originatingRecipientIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool automaticallyAllowsConnectionsFromPeersInHomeGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceID;
 @property(readonly, nonatomic) NSString *deviceName;
-@property(readonly, nonatomic) NSString *devicePassword;
-@property(readonly, nonatomic) NSData *devicePublicKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool onlyAllowsConnectionsFromPeersInHomeGroup;
-@property(readonly, nonatomic) NSArray *peersInHomeGroup;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString, RWIProtocolCSSRuleId, RWIProtocolCSSSelectorList, RWIProtocolCSSStyle;
+@class RWIProtocolCSSSelectorList;
 
 @interface RWIProtocolCSSRule : RWIProtocolJSONObject
 {
@@ -18,27 +18,20 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);;
+- (id)Cz#*;
 - (id);
 - (int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
-- (long long);
+- (long long)A;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *groupings;
-@property(nonatomic) _Bool isImplicitlyNested;
-@property(nonatomic) long long origin;
-@property(retain, nonatomic) RWIProtocolCSSRuleId *ruleId;
 @property(retain, nonatomic) RWIProtocolCSSSelectorList *selectorList;
-@property(nonatomic) int sourceLine;
-@property(copy, nonatomic) NSString *sourceURL;
-@property(retain, nonatomic) RWIProtocolCSSStyle *style;
 
 @end
 

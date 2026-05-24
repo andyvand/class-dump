@@ -9,7 +9,6 @@
 @interface INHomeUserTaskResponse
 {
     INHomeUserTask *_userTask;
-    long long _taskOutcome;
 }
 
 + (id);

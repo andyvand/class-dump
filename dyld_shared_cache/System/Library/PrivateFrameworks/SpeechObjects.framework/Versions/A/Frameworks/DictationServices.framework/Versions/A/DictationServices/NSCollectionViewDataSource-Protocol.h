@@ -9,6 +9,6 @@
 @protocol NSCollectionViewDataSource
 
 @optional
-- (NSView *)LogsPath:(NSCollectionView *)arg1;
+- (NSView *)setAdditonalLogsPath:(NSCollectionView *)arg1;
 @end
 

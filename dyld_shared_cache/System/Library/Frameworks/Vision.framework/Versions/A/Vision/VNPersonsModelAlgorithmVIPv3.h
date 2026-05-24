@@ -13,7 +13,7 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id)fp_fileCoordinatorForCurrentProcess:(id)arg1;
 - (id);
 - (_Bool);
 - (void);

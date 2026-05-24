@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface QLRequestSessionData
 {
     NSData *_data;
-    NSURL *_attachmentURL;
-    _Bool _lastChunk;
-    _Bool _startAttachment;
-    NSString *_mimeType;
-    NSString *_textEncoding;
 }
 
 - (id);
@@ -28,12 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *attachmentURL; // @synthesize attachmentURL=_attachmentURL;
 @property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly) _Bool lastChunk; // @synthesize lastChunk=_lastChunk;
-@property(readonly) NSString *mimeType; // @synthesize mimeType=_mimeType;
-@property(readonly) _Bool startAttachment; // @synthesize startAttachment=_startAttachment;
-@property(readonly) NSString *textEncoding; // @synthesize textEncoding=_textEncoding;
 
 @end
 

@@ -7,16 +7,13 @@
 @class NSArray;
 
 @protocol AVVideoCompositionInstruction
+- (NSArray *)rsion = :version AND locale = :locale) AND sessionsItemIds.lastUsed <= :lastUsedMax AND sessionsItemIds.timesAccessed < :timesUsedMax AND sessions.id > :rowId %@ ORDER BY sessions.id limit :limit /* Error: Ran out of types for this method. */;
+- (_Bool);
+
+@optional
+- (NSArray *)rows:%tu) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsTweening;
-@property(readonly, nonatomic) _Bool enablePostProcessing;
-@property(readonly, nonatomic) int passthroughTrackID;
-@property(readonly, nonatomic) NSArray *requiredSourceSampleDataTrackIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *requiredSourceTrackIDs;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 @end
 

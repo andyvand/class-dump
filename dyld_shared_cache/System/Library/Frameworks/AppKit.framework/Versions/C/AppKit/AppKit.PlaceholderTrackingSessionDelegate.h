@@ -15,8 +15,8 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)stall recovery;
+- (void);
 - (id);
 
 // Remaining properties

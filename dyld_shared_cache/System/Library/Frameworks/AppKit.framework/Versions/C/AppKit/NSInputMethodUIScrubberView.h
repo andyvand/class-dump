@@ -6,32 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSInputMethodUICandidateAccessibilityElement, NSMutableArray, NSString, NSTouchBarInputMethodCandidate;
-@protocol NSInputMethodUIScrubberViewDelegate;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSInputMethodUIScrubberView : NSView
 {
     NSMutableArray *_accessibilityChildren;
-    _Bool _currentTouchInteractionInsideView;
-    _Bool _roundsLeftCorners;
-    _Bool _roundsRightCorners;
-    _Bool _showsChevron;
-    id <NSInputMethodUIScrubberViewDelegate> _delegate;
-    double _fontSize;
-    double _horizontalPosition;
-    double _minimumWidth;
-    NSTouchBarInputMethodCandidate *_selectedCandidate;
-    NSInputMethodUICandidateAccessibilityElement *_selectedCandidateAccessibilityElement;
-    long long _style;
-    NSArray *_UICandidates;
-    struct CGRect _drawingFrame;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (void);
 - (void);
@@ -50,57 +36,37 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
-- (double);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (double)CFURLSessionConnection"16@"NSURLRequest"24q32@?<v@?@"NSInputStream">40;
+- (struct CGRect)dependencyTreeWithMainDocumentURL:dependencyDescriptions: /* Error: Ran out of types for this method. */;
+- (void)dataTaskWithRequest:(id)arg1 originalRequest:(struct CGRect)arg2 identifier:(unsigned long long)arg3 uniqueIdentifier:(unsigned long long)arg4 reply: /* Error: Ran out of types for this method. */;
+- (void)connection:(id)arg1 willCacheResponse:(struct CGRect)arg2;
+- (void)e:(id)arg1;
+- (_Bool)_needFinish;
+- (void)nse",R,C;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id){public}@ local authenticator will provide headers or request;
+- (id)blic}@ failed to connect to %@ XPC error %@;
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)@;
 - (void);
 - (id);
-- (double);
+- (double)_drawTextCorrectionMarker:characterRange:atOrigin:graphicsContext: /* Error: Ran out of types for this method. */;
+- (void)_delegateCanSendViewProviderInvalidationNotification;
 - (void);
-- (void);
-- (id)entWithEventRef:(struct CGRect)arg1;
-- (double)aultFlatness;
-- (id)idatorContext;
+- (id)eventWithEventRef:(struct CGRect)arg1;
+- (double)defaultFlatness;
+- (id)_NSViewLayoutInvalidatorContext;
 - (void)tUIManager writePublicPlistWithOpenWindowIDs:(double)arg1 ];
-- (void)entsEDRStrength;
+- (void)contentsEDRStrength;
 - (void)`}¿ÿuô;
 - (id)¾ÿU{$oB;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *UICandidates; // @synthesize UICandidates=_UICandidates;
 @property(retain, nonatomic) NSMutableArray *accessibilityChildren; // @synthesize accessibilityChildren=_accessibilityChildren;
-@property(nonatomic) _Bool currentTouchInteractionInsideView; // @synthesize currentTouchInteractionInsideView=_currentTouchInteractionInsideView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NSInputMethodUIScrubberViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect drawingFrame; // @synthesize drawingFrame=_drawingFrame;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalPosition; // @synthesize horizontalPosition=_horizontalPosition;
-@property(nonatomic) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(nonatomic) _Bool roundsLeftCorners; // @synthesize roundsLeftCorners=_roundsLeftCorners;
-@property(nonatomic) _Bool roundsRightCorners; // @synthesize roundsRightCorners=_roundsRightCorners;
-@property(retain, nonatomic) NSTouchBarInputMethodCandidate *selectedCandidate; // @synthesize selectedCandidate=_selectedCandidate;
-@property(retain, nonatomic) NSInputMethodUICandidateAccessibilityElement *selectedCandidateAccessibilityElement; // @synthesize selectedCandidateAccessibilityElement=_selectedCandidateAccessibilityElement;
-@property(nonatomic) _Bool showsChevron; // @synthesize showsChevron=_showsChevron;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

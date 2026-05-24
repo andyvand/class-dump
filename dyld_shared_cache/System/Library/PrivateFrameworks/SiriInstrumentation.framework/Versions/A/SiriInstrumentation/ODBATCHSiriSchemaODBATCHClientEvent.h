@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, ODBATCHSiriSchemaODBATCHClientEventMetadata, ODBATCHSiriSchemaODBATCHDataReported, ODBATCHSiriSchemaODBATCHTurnRestatementScoresReported, SISchemaInstrumentationMessage;
+@class ODBATCHSiriSchemaODBATCHClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ODBATCHSiriSchemaODBATCHClientEvent : SISchemaTopLevelUnionType
 {
     ODBATCHSiriSchemaODBATCHClientEventMetadata *_eventMetadata;
-    ODBATCHSiriSchemaODBATCHDataReported *_odbatchDataReported;
-    ODBATCHSiriSchemaODBATCHTurnRestatementScoresReported *_turnRestatementScoresReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasOdbatchDataReported;
-    _Bool _hasTurnRestatementScoresReported;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -29,18 +23,18 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)mmWebKitControllerWindow;
 - (void);
 - (id);
 - (id);
-- (int);
-- (id);
+- (int);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -48,22 +42,14 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)s: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ext;
+- (id)setReferences: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_hasPlaylistContext;
 - (id),V_countAttributeUnigramMatch;
 - (id)N,V_test;
-- (void)OWSPORTNAME_UNKNOWN;
+- (void)FLOWSPORTNAME_UNKNOWN;
 
 // Remaining properties
-@property(retain, nonatomic) ODBATCHSiriSchemaODBATCHClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasOdbatchDataReported; // @synthesize hasOdbatchDataReported=_hasOdbatchDataReported;
-@property(nonatomic) _Bool hasTurnRestatementScoresReported; // @synthesize hasTurnRestatementScoresReported=_hasTurnRestatementScoresReported;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODBATCHSiriSchemaODBATCHDataReported *odbatchDataReported; // @synthesize odbatchDataReported=_odbatchDataReported;
-@property(retain, nonatomic) ODBATCHSiriSchemaODBATCHTurnRestatementScoresReported *turnRestatementScoresReported; // @synthesize turnRestatementScoresReported=_turnRestatementScoresReported;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

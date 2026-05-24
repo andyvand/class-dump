@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface AMSCardMetadataRegistrationResult
 {
     NSString *_cardArtwork;
-    NSData *_cardArtworkData;
-    long long _cardType;
-    NSString *_descriptionLong;
-    NSString *_descriptionShort;
-    long long _paymentNetwork;
-    NSString *_serialNumber;
-    NSString *_suffix;
-    NSString *_passTypeIdentifier;
-    NSDictionary *_dictionary;
 }
 
 - (void);
@@ -33,7 +24,7 @@
 - (long long);
 - (id);
 - (void);
-- (long long);
+- (long long)c;
 - (void);
 - (id);
 - (void);
@@ -46,15 +37,6 @@
 
 // Remaining properties
 @property(retain) NSString *cardArtwork; // @synthesize cardArtwork=_cardArtwork;
-@property(retain) NSData *cardArtworkData; // @synthesize cardArtworkData=_cardArtworkData;
-@property long long cardType; // @synthesize cardType=_cardType;
-@property(retain) NSString *descriptionLong; // @synthesize descriptionLong=_descriptionLong;
-@property(retain) NSString *descriptionShort; // @synthesize descriptionShort=_descriptionShort;
-@property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(retain) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property long long paymentNetwork; // @synthesize paymentNetwork=_paymentNetwork;
-@property(retain) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(retain) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end
 

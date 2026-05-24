@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSFileProviderSearchEnumerator;
+
 @protocol NSFileProviderSearching
+- (id <NSFileProviderSearchEnumerator>)M;
 @end
 

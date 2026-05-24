@@ -9,19 +9,17 @@
 @interface IKCameraFolderWatcher
 {
     CDUnknownBlockType _callback;
-    struct __FSEventStream *_fsStream;
-    NSArray *_pathArray;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ectionIsChanging: /* Error: Ran out of types for this method. */;
+- (void)tableViewSelectionIsChanging: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSArray *pathArray; // @synthesize pathArray=_pathArray;

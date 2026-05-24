@@ -4,37 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine;
 @protocol MFQueueItemTranslator;
 
 __attribute__((visibility("hidden")))
 @interface MPCItemBookmarker
 {
     id <MFQueueItemTranslator> _translator;
-    MPCPlaybackEngine *_engine;
 }
 
+- (void);
+- (void)Frameworks/Accounts.framework/Versions/A/Accounts;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)defaultManager;
+- (void)cloudInternalClient;
+- (void)arrayWithObjects:(id)arg1 count:(double)arg2;
+- (void)account:(id)arg1 willPerformActionsForDataclasses:(double)arg2;
+- (void)_isSharedStreamsAutoEnableForAccount:(id)arg1;
+- (void)containsObject:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)lic}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak MPCPlaybackEngine *engine; // @synthesize engine=_engine;
 @property(retain, nonatomic) id <MFQueueItemTranslator> translator; // @synthesize translator=_translator;
 
 @end

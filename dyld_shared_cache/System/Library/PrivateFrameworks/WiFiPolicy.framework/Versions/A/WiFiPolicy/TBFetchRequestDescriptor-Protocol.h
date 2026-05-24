@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PBCodable, TBLocalFetchRequestDescriptor;
+@class PBCodable, TBLocalFetchRequestDescriptor;
 
 @protocol TBFetchRequestDescriptor
 
+@optional
+- (TBLocalFetchRequestDescriptor *);
+
 // Remaining properties
-@property(readonly, nonatomic) TBLocalFetchRequestDescriptor *localFetchDescriptor;
-@property(readonly, nonatomic) TBLocalFetchRequestDescriptor *preferLocalFetchDescriptor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TBLocalFetchRequestDescriptor",?,R,N
-
 @property(readonly, nonatomic) PBCodable *remoteRequest;
-@property(readonly, nonatomic) Class remoteRequestClass;
-@property(readonly, nonatomic) NSSet *tileItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) unsigned long long type;
 @end
 

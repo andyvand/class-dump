@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMDeviceDesktopDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadLocked;
-    NSString *_payloadOverridePicturePath;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)6;
 + (id);
 - (void);
 - (void);
@@ -31,19 +30,11 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)AudioSourceAgnosticRequest;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadLocked; // @synthesize payloadLocked=_payloadLocked;
-@property(copy, nonatomic) NSString *payloadOverridePicturePath; // @synthesize payloadOverridePicturePath=_payloadOverridePicturePath;
-@property(readonly) Class superclass;
 
 @end
 

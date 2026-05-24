@@ -8,7 +8,6 @@
 {
     id liveActivityController;
     id activities;
-    id lockedOnReconciliationComplete;
 }
 
 @end

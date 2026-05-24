@@ -7,6 +7,7 @@
 @protocol HMDIDSActivityMonitorBroadcasterPushTokenDataSourceDelegate;
 
 @protocol HMDIDSActivityMonitorBroadcasterPushTokenDataSource
+- (void);
 
 // Remaining properties
 @property __weak id <HMDIDSActivityMonitorBroadcasterPushTokenDataSourceDelegate> delegate;

@@ -6,6 +6,9 @@
 
 @protocol CRLineWrappableGrouping
 
+@optional
+- (void)_updateWebExtensionBackgroundPagesMenuMenuItems;
+
 // Remaining properties
 @property(readonly) _Bool canWrapToNextGroup;
 @end

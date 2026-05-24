@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPPinnedPlaceContactStorage
 {
     PBUnknownFields *_unknownFields;
-    NSString *_contactIdentifier;
-    NSString *_handleValue;
-    NSString *_labeledValueIdentifier;
 }
 
 - (_Bool);
@@ -20,13 +17,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)FROM messages WHERE subject = :SUBJECT_ID /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)a;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -36,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain, nonatomic) NSString *handleValue; // @synthesize handleValue=_handleValue;
 @property(readonly, nonatomic) _Bool hasContactIdentifier;
-@property(readonly, nonatomic) _Bool hasHandleValue;
-@property(readonly, nonatomic) _Bool hasLabeledValueIdentifier;
-@property(retain, nonatomic) NSString *labeledValueIdentifier; // @synthesize labeledValueIdentifier=_labeledValueIdentifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool)(e:x /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id));
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)cNotificationRegistry;
+- (id)dumpCharacteristicNotificationRegistry;
 - (unsigned long long)ã;|ÍLå; Îdå;ÄÎ|å;¨Ó@æ;\Øðæ;¼ßè;ãxè;	äè;Ä;	¸é;(@	(ê;8¸	Tê;À½	äê;ìÁ	ë;Xî	Ìë;\
 ìë;ø
 ;

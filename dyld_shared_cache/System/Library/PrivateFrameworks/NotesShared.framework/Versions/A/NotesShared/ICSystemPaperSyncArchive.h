@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface ICSystemPaperSyncArchive
 {
     void databaseArchive;
-    void assetArchives;
 }
 
 - (id);
@@ -20,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *assetArchives;
 @property(nonatomic, readonly) NSURL *databaseArchive;
-@property(nonatomic, readonly) NSString *description;
 
 @end
 

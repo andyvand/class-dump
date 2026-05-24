@@ -6,16 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICAddToWishListResponse, ICStoreRequestContext, NSString;
+@class ICStoreRequestContext;
 
 @interface ICAddToWishListRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    NSString *_buyParams;
-    long long _storeItemID;
-    NSString *_itemName;
-    NSString *_itemKind;
-    ICAddToWishListResponse *_response;
 }
 
 - (id);

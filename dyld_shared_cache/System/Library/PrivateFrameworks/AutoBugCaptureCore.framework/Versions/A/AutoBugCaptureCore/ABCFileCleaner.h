@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NetDiagnosticsShim;
-@protocol OS_dispatch_queue, SymptomsFileCleanerDelegate;
+@class NetDiagnosticsShim;
+@protocol SymptomsFileCleanerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ABCFileCleaner
 {
     id <SymptomsFileCleanerDelegate> _delegate;
-    NetDiagnosticsShim *_netDiags;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_filesToDelete;
 }
 
 - (void);
@@ -30,17 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) id <SymptomsFileCleanerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSArray *filesToDelete; // @synthesize filesToDelete=_filesToDelete;
-@property(readonly) unsigned long long hash;
 @property(retain) NetDiagnosticsShim *netDiags; // @synthesize netDiags=_netDiags;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

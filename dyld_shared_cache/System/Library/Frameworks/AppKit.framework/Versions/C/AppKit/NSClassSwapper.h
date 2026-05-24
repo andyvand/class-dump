@@ -9,7 +9,6 @@
 @interface NSClassSwapper
 {
     NSString *className;
-    id template;
 }
 
 + (void)|¼àÿ;

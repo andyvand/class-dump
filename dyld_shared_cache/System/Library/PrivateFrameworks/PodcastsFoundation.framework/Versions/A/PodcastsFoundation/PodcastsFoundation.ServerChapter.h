@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 @interface PodcastsFoundation.ServerChapter
 {
     void id;
-    void type;
-    id attributes;
-    id meta;
 }
 
 - (id);
@@ -25,15 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *artworkBackgroundColor;
-@property(nonatomic, readonly) NSNumber *artworkHeight;
-@property(nonatomic, readonly) NSString *artworkTemplateURL;
-@property(nonatomic, readonly) NSNumber *artworkWidth;
-@property(nonatomic, readonly) long long chapterTypeIntValue;
-@property(nonatomic, readonly) NSString *id;
-@property(nonatomic, readonly) NSData *timeframesData;
 @property(nonatomic, readonly) NSString *title;
-@property(nonatomic, readonly) NSString *type;
 
 @end
 

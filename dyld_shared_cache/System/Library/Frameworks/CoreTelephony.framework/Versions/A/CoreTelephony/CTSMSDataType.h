@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 @interface CTSMSDataType
 {
     _Bool _parseSMSC;
-    _Bool _waitForAck;
-    NSNumber *_transport;
-    NSNumber *_ctFormat;
-    NSData *_hexPdu;
 }
 
-+ (_Bool);
++ (_Bool)ut.Provider;
 - (_Bool);
 - (void);
 - (void);
@@ -30,17 +26,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)initWithMachServiceName:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) NSNumber *ctFormat; // @synthesize ctFormat=_ctFormat;
-@property(retain, nonatomic) NSData *hexPdu; // @synthesize hexPdu=_hexPdu;
-@property(nonatomic) _Bool parseSMSC; // @synthesize parseSMSC=_parseSMSC;
 @property(nonatomic) NSNumber *transport; // @synthesize transport=_transport;
-@property(nonatomic) _Bool waitForAck; // @synthesize waitForAck=_waitForAck;
 
 @end
 

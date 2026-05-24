@@ -7,8 +7,6 @@
 @interface Speech.LSRAssetInventory
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

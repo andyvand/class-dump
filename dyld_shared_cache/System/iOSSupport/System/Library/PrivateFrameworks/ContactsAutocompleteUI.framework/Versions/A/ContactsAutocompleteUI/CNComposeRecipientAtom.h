@@ -6,17 +6,11 @@
 
 #import <ContactsAutocompleteUI/CNAtomView.h>
 
-@class CNComposeRecipient, UITextInputTraits;
-@protocol CNComposeRecipientAtomDelegate;
+@class CNComposeRecipient;
 
 @interface CNComposeRecipientAtom : CNAtomView
 {
     CNComposeRecipient *_recipient;
-    UITextInputTraits *_traits;
-    unsigned int _wasSelectedWhenTouchesBegan:1;
-    unsigned int _touchesWereCancelled:1;
-    unsigned int _touchBeganWithShiftDown:1;
-    id <CNComposeRecipientAtomDelegate> _delegate;
 }
 
 - (id);
@@ -38,7 +32,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <CNComposeRecipientAtomDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) CNComposeRecipient *recipient; // @synthesize recipient=_recipient;
 
 @end

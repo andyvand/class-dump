@@ -9,8 +9,6 @@
 @interface AMSPaymentSheetImageAssetConfiguration
 {
     NSString *_filename;
-    long long _type;
-    struct CGSize _size;
 }
 
 + (_Bool);
@@ -20,22 +18,12 @@
 - (struct CGSize);
 - (long long);
 - (void);
-- (id)gsTask;
+- (id)AMSSyncAccountFlagsTask;
 - (void)qT·å(#nÉ¬ýÀ;aD§2xÓ¾ü_*pË¶ôW"ÈÃiL¯:`Û¦äGV/ÅîgKd¡ÿmÂÈ£oëöí(SY"7hKYµ+;zF)t£dÿ
 øñå=o®:kf:îönÀ­"QnÆÁ=I1ÿú]*Kv]UNÖ Ø¾qz'Ý[*¦R4ýy	½I¿%qÿx*'²ñÉ@Zó÷#xk"ñ³`ä°_úáFbæ`r×Ô·"õAw]¼86¦ØÁ¸>ÁÆÒ5á5¹2®]ï¤Ò¾zÃ(¶äìFÆÂ>IùzaoTUµ¬=©ÿqª¦ù uj|89ÅèQ#×c·à/¼£Iª·¬_NL§C'Æ@.Dæ,»ÑñæYeé8öÕígrBØè»½Ô°pEýÆ¡ÍËA6Cþ	'}O¸Ú¹8õ¥üÇ$îõîñG"óAÅiRrçÉ0óÇ*l#þ7_ç	¤;ü2z¯?mñü¸Æ7ó9è{ðµêÜH¶¢ö±êàª÷y7üÈyj	³¤?xw§ÓWìTb&âSÓú@³ÇÏÕ#%RIo§\_¶n(¤¤-ÙíÔÊ?`zóüp^ØÈ7Úó»îêØ£ÒñþÓÈQM©ÌÒ]Q¼V%·-¥«mFÝóÏmM­6Ð¾ùÅmsÙ=GÚq2¯òn__jf7Y&ãZJdO£µ>yþQ"8\èG[­Çee E½Ç/oÖ"ßøJ&ñ]5oÞÃY¤Ëgÿmï¢¥f!hhÁæc/pøC:1ÄG(ýÍfÌ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *fileExtension;
 @property(readonly, copy) NSString *filename; // @synthesize filename=_filename;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

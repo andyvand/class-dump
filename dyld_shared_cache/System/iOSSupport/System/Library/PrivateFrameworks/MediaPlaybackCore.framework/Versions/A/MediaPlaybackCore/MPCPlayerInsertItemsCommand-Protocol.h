@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPCPlayerCommandRequest;
+@protocol MPCPlayerInsertAfterLastSectionCommand;
+
 @protocol MPCPlayerInsertItemsCommand
+- (MPCPlayerCommandRequest *)Defaults",&,N,V_userDefaults;
+- (MPCPlayerCommandRequest *)tring",?,R,C;
+- (MPCPlayerCommandRequest *)AADeviceModelHelper;
+- (id <MPCPlayerInsertAfterLastSectionCommand>)AppStateProviding;
+- (MPCPlayerCommandRequest *)28@36;
 @end
 

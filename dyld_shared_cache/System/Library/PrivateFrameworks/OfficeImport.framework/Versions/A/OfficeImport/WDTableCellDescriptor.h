@@ -4,52 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WDBorder, WDShading;
+@class WDShading;
 
 __attribute__((visibility("hidden")))
 @interface WDTableCellDescriptor
 {
     WDShading *mShading;
-    WDBorder *mTopBorder;
-    WDBorder *mLeftBorder;
-    WDBorder *mBottomBorder;
-    WDBorder *mRightBorder;
-    WDBorder *mDiagonalUpBorder;
-    WDBorder *mDiagonalDownBorder;
-    short mWidth;
-    int mWidthType;
-    short mTopMargin;
-    int mTopMarginType;
-    short mBottomMargin;
-    int mBottomMarginType;
-    short mLeftMargin;
-    int mLeftMarginType;
-    short mRightMargin;
-    int mRightMarginType;
-    int mVerticalAlignment;
-    unsigned int mShadingOverridden:1;
-    unsigned int mTopBorderOverridden:1;
-    unsigned int mLeftBorderOverridden:1;
-    unsigned int mBottomBorderOverridden:1;
-    unsigned int mRightBorderOverridden:1;
-    unsigned int mDiagonalUpBorderOverridden:1;
-    unsigned int mDiagonalDownBorderOverridden:1;
-    unsigned int mWidthTypeOverridden:1;
-    unsigned int mTopMarginOverridden:1;
-    unsigned int mTopMarginTypeOverridden:1;
-    unsigned int mBottomMarginOverridden:1;
-    unsigned int mBottomMarginTypeOverridden:1;
-    unsigned int mLeftMarginOverridden:1;
-    unsigned int mLeftMarginTypeOverridden:1;
-    unsigned int mRightMarginOverridden:1;
-    unsigned int mRightMarginTypeOverridden:1;
-    unsigned int mVerticalAlignmentOverridden:1;
-    unsigned int mVerticallyMergedCell:1;
-    unsigned int mVerticallyMergedCellOverridden:1;
-    unsigned int mFirstInSetOfVerticallyMergedCells:1;
-    unsigned int mFirstInSetOfVerticallyMergedCellsOverridden:1;
-    unsigned int mNoWrap:1;
-    unsigned int mNoWrapOverridden:1;
 }
 
 - (int);
@@ -59,6 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
@@ -72,15 +33,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)k;
+- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -92,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -127,13 +87,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)kCTSimSupportUICCAuthenticationSlotUUIDKey;
 - (short);
 - (short);
 - (void);
 - (short);
 - (short)an end of stream exception.;
-- (void)ox;
+- (void)Inbox;
 
 @end
 

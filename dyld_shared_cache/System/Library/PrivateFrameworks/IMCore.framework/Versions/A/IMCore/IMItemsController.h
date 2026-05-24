@@ -4,59 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMGroupTypingTrackingController, IMItem, IMMessageItem, NSArray, NSString;
-
 @interface IMItemsController
 {
     unsigned long long _capacity;
-    IMGroupTypingTrackingController *_typingTrackingController;
-    struct __CFArray *_items;
 }
 
-+ (id);
++ (id)Out) Failed to allcoate the mic audio buffer list;
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)oStreamID are equal, no switch needed;
+- (id)dioPlayer [%s] %s:%d Index=%d is out of bounds compared to packet lifetime history=%u /* Error: Ran out of types for this method. */;
+- (_Bool)r [%s] %s:%d NewJQSize:%f /* Error: Ran out of types for this method. */;
+- (id)[%s] %s:%d Cannot not call connect from for the output queue! /* Error: Ran out of types for this method. */;
+- (void)iled to create log file;
+- (void)to allocate context;
+- (id)ges. Dropping encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!);
+- (_Bool)'%@' sends encrypted messages. Dropping encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!);
+- (_Bool)_sessionID='%d', participantID='%@', transactionID='%@', messageType='%d';
+- (void)ng a sample buffer;
+- (id)d not create transfer session;
+- (void)reate failed for _stopSemaphore;
+- (void)tworkConfigPath=%s;
+- (void)e=%d;
+- (void)s:(id)arg1 %d %@(%p) forcedCapBitrate=%d;
+- (void)tBitrate=%d;
+- (void)] %s:(_Bool)arg1 %d forceNetworkCellular = %d;
+- (void)] %s:(id)arg1 %d No remote subscriptions. Disable capture.;
+- (id)deoPriorityEnabled=%d, uplinkVideoStreamController.dynamicVideoPriorityEnabled=%d uplinkVideoStreamController.captureFrameRate=%d;
+- (id)ate=%d;
+- (id)amicVideoPriorityEnabled=%d uplinkVideoStreamController.captureFrameRate=%d;
+- (id)tyEnabled=%d, uplinkVideoStreamController.dynamicVideoPriorityEnabled=%d uplinkVideoStreamController.captureFrameRate=%d;
+- (id)ut VCMediaStreamSendGroupConfig is nil;
+- (id)uplink video stream controller for mode but VCMediaStreamSendGroupConfig is nil;
+- (id)fig is nil;
+- (id)is being set with isFrameBasedFECEnabled=%d;
+- (id)] %s:%d %@(%p) Failed to create videoRedundancyChangeQueue /* Error: Ran out of types for this method. */;
+- (id)e videoRedundancyChangeQueue;
+- (id)o allocate video redundancy pool;
+- (id)] %s:%d Failed to allocate temporal streamIDs /* Error: Ran out of types for this method. */;
+- (void)gs;
+- (id)[%s] %s:(id)arg1 %d %@(%p) codecType=%ld payload=%u networkPayload=%u pTimeMS=%lu;
+- (void)ing token=%ld for tapType=%u, mappedNumber=%@;
+- (void)wer spectrum for tap type=%@. error=%@;
+- (void)%s:(id)arg1 %d %@(%p) Failed to register the power spectrum for tap type=%@. error=%@;
+- (id)o allocate connection;
+- (void)n for duplication after %d consecutive queries;
+- (id)brary/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/VCSession+OneToOne.m:(id)arg1 %d:(long long)arg2 [%p] OneToOne session should reconnect (ids reinit);
+- (id)artOneToOne (%p);
+- (id)ete transition to oneToOneModeEnabled=%d;
+- (_Bool)%@(%p) Failed to configure local participant for 1:(id)arg1 1!;
+- (id)d Failed to configure local participant for 1:(id)arg1 1!;
 - (void);
 - (unsigned long long);
 - (void);
@@ -70,21 +66,7 @@
 - (void)`´;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *_items;
-@property(nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) IMItem *firstNonAssociatedItem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isMoreToLoad;
 @property(nonatomic) struct __CFArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) IMMessageItem *lastIncomingFinishedMessageItem;
-@property(readonly, nonatomic) IMItem *lastNonAssociatedItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IMGroupTypingTrackingController *typingTrackingController; // @synthesize typingTrackingController=_typingTrackingController;
 
 @end
 

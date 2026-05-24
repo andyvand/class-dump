@@ -5,12 +5,11 @@
 //
 
 @protocol UIFocusItemScrollableContainer
+- (struct CGSize)C;
 - (struct CGPoint);
 - (struct CGSize)þÿÿ0;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) struct CGSize visibleSize;
 @end
 

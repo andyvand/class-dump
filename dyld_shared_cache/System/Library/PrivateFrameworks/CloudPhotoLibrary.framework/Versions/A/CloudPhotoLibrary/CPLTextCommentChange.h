@@ -14,9 +14,9 @@
 }
 
 + (Class);
-- (id);
-- (id);
-- (id);
+- (id)commute1Hr15MinWarningEntityRelevanceWiFiAndTimeOfDayFeatures;
+- (id)commute1Hr15MinWarningEntityRelevanceWiFiAndCoarseTimeOfDayFeatures;
+- (id)appEntityRelevanceMicroLocationAndDayOfWeekFeatures;
 - (id);
 - (void);
 - (void)aÂ!LCù±ð1Â0@ù

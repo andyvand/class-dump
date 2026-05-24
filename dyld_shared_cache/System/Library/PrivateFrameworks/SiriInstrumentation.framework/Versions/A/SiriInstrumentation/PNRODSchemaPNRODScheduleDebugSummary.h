@@ -6,55 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODScheduleDebugSummary : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_scheduleId;
-    unsigned int _numRequestsRead;
-    unsigned int _numRequestsWrite;
-    double _processingWaitTimeInSecond;
-    double _processingTimeInSecond;
-    unsigned long long _eventTimestampInMsSince1970;
-    double _delayFromLastBiomeBookmarkInSecond;
-    long long _failureReasonIndex;
-    long long _dataSourceIndex;
-    long long _workerIndex;
-    struct {
-        unsigned int numRequestsRead:1;
-        unsigned int numRequestsWrite:1;
-        unsigned int processingWaitTimeInSecond:1;
-        unsigned int processingTimeInSecond:1;
-        unsigned int eventTimestampInMsSince1970:1;
-        unsigned int delayFromLastBiomeBookmarkInSecond:1;
-        unsigned int failureReasonIndex:1;
-        unsigned int dataSourceIndex:1;
-        unsigned int workerIndex:1;
-    } _has;
-    _Bool _hasScheduleId;
 }
 
 - (long long);
+- (void)T;
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(=;
 - (id);
 - (double);
-- (double);
+- (double)	;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -75,7 +54,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -89,35 +68,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)em type %ld, not indexing;
 - (id);
 - (id);
-- (id)gationCount;
+- (id)_ncAcceptPostNcMitigationCount;
 - (id)eNumber;
-- (void)ARAMETERTYPE_BOOL;
+- (void)LINKPARAMETERTYPE_BOOL;
 
 // Remaining properties
-@property(nonatomic) long long dataSourceIndex; // @synthesize dataSourceIndex=_dataSourceIndex;
-@property(nonatomic) double delayFromLastBiomeBookmarkInSecond; // @synthesize delayFromLastBiomeBookmarkInSecond=_delayFromLastBiomeBookmarkInSecond;
-@property(nonatomic) unsigned long long eventTimestampInMsSince1970; // @synthesize eventTimestampInMsSince1970=_eventTimestampInMsSince1970;
-@property(nonatomic) long long failureReasonIndex; // @synthesize failureReasonIndex=_failureReasonIndex;
-@property(nonatomic) _Bool hasDataSourceIndex;
-@property(nonatomic) _Bool hasDelayFromLastBiomeBookmarkInSecond;
-@property(nonatomic) _Bool hasEventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasFailureReasonIndex;
-@property(nonatomic) _Bool hasNumRequestsRead;
-@property(nonatomic) _Bool hasNumRequestsWrite;
-@property(nonatomic) _Bool hasProcessingTimeInSecond;
-@property(nonatomic) _Bool hasProcessingWaitTimeInSecond;
-@property(nonatomic) _Bool hasScheduleId; // @synthesize hasScheduleId=_hasScheduleId;
-@property(nonatomic) _Bool hasWorkerIndex;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numRequestsRead; // @synthesize numRequestsRead=_numRequestsRead;
-@property(nonatomic) unsigned int numRequestsWrite; // @synthesize numRequestsWrite=_numRequestsWrite;
-@property(nonatomic) double processingTimeInSecond; // @synthesize processingTimeInSecond=_processingTimeInSecond;
-@property(nonatomic) double processingWaitTimeInSecond; // @synthesize processingWaitTimeInSecond=_processingWaitTimeInSecond;
 @property(retain, nonatomic) SISchemaUUID *scheduleId; // @synthesize scheduleId=_scheduleId;
-@property(nonatomic) long long workerIndex; // @synthesize workerIndex=_workerIndex;
 
 @end
 

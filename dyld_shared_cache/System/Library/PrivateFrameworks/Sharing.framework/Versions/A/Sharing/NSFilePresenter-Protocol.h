@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSURL;
+@class NSURL;
 
 @protocol NSFilePresenter
-- (NSURL *)r: /* Error: Ran out of types for this method. */;
+- (NSURL *)serviceSessionFailed:error: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void);
+- (void)?;
 
 // Remaining properties
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
 @end
 

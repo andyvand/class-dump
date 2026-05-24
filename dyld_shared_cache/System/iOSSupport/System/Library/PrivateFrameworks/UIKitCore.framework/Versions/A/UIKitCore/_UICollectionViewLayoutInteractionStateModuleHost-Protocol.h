@@ -5,5 +5,6 @@
 //
 
 @protocol _UICollectionViewLayoutInteractionStateModuleHost
+- (double)tDescriptor %p modelObject.identifiers=%@>;
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class)ing"16@0:8 /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
 - (_Bool);
@@ -19,10 +19,10 @@
 - (_Bool);
 - (id);
 - (float);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)nsform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}32q40@?48;
+- (_Bool)}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}32q40@?48;
+- (_Bool)=qiIq}}16r^{CGRect={CGPoint=dd}{CGSize=dd}}24r^{?=qq{CGSize=dd}Q{?={?=qiIq}{?=qiIq}{?=qiIq}{?={?=qiIq}q}c}q{?={CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}32q40@?48;
+- (_Bool)_TtC12PhotosUICore35LemonadeNotificationsTabBadgeSource;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -34,17 +34,17 @@
 - (id);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (struct CGRect);
-- (id);
+- (struct CGRect)AXCollectionList;
+- (id)res suggestion entry;
 - (id);
 - (id);
 - (unsigned long long);
+- (void)getLostSourceParentExLTID;
 - (void);
-- (void);
-- (id);
+- (id)):(s=i,i=i.parentNode))}return{parent:t,nextSibling:n}};const isOrContainsBlockLevelNode=function(e){let t,n=!1;if(IS_BLOCK_ELEMENT_NAME(e.nodeName))n=!0;else for(t=e.firstChild;!n&&t;)n=isOrContainsBlockLevelNode(t),t=t.nextSibling;return n}; /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

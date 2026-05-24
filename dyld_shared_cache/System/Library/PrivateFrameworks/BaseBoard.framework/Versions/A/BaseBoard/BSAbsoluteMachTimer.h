@@ -17,24 +17,15 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)*A;
 - (id);
-- (id);
+- (id)P;
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isScheduled) _Bool scheduled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeRemaining;
 
 @end
 

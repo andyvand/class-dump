@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBTaskList;
+@class NSArray;
 
 @interface _INPBAddTasksIntentResponse
 {
     CDStruct_95bda58d _warnings;
-    struct _has;
-    NSArray *_addedTasks;
-    _INPBTaskList *_modifiedTaskList;
 }
 
 + (Class);
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)};
 - (int);
 - (id);
 - (void);
@@ -30,34 +27,22 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void)T;
+- (int)#;
 - (void);
-- (int);
-- (void);
-- (id);
+- (id)ce>"16@?<v@?@"<GCMotionXPCProxyRemoteServerEndpointInterface>"@"NSError">24;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)h;
+- (_Bool)stringByTrimmingCharactersInSet:(id)arg1;
+- (void)06llu] [iflist] Did NOT find matching WiFi interface after interface list refresh (name=%{public}@, role=%{public}@, uuid=%{public}@);
 - (int *);
 - (id);
 - (id);
-- (void)pleIntentResponseCodeUnspecified;
+- (void)INSaveHealthSampleIntentResponseCodeUnspecified;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addedTasks; // @synthesize addedTasks=_addedTasks;
-@property(readonly, nonatomic) unsigned long long addedTasksCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasModifiedTaskList;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBTaskList *modifiedTaskList; // @synthesize modifiedTaskList=_modifiedTaskList;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int *warnings;
-@property(readonly, nonatomic) unsigned long long warningsCount;
 
 @end
 

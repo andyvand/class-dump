@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SSSnippetUpdateContext
 {
     NSString *_query;
-    NSString *_answer;
-    NSArray *_snippetQueryTerms;
 }
 
 - (id);
@@ -18,14 +16,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)d:sourceKind:sections: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)initWithQueryID:kind:sourceKind:sections: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *answer; // @synthesize answer=_answer;
 @property(retain, nonatomic) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) NSArray *snippetQueryTerms; // @synthesize snippetQueryTerms=_snippetQueryTerms;
 
 @end
 

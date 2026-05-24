@@ -6,17 +6,11 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class BPSFutureResult, BPSSubscriberList;
 @protocol BPSSubscriber;
 
 @interface BPSFuture : BPSPublisher
 {
     struct os_unfair_lock_s _lock;
-    _Bool _sentResult;
-    id <BPSSubscriber> _subscriber;
-    struct os_unfair_recursive_lock_s _publisherLock;
-    BPSSubscriberList *_downstreams;
-    BPSFutureResult *_result;
 }
 
 - (void);
@@ -27,23 +21,19 @@
 - (void);
 - (void);
 - (void);
+- (void)/LimitAdTracking;
+- (id)error;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)purgeAllEntriesInSpkeakerIdBiome;
+- (_Bool)%{public}@;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BPSSubscriberList *downstreams; // @synthesize downstreams=_downstreams;
-@property(nonatomic) struct os_unfair_recursive_lock_s publisherLock; // @synthesize publisherLock=_publisherLock;
-@property(retain, nonatomic) BPSFutureResult *result; // @synthesize result=_result;
-@property(nonatomic) _Bool sentResult; // @synthesize sentResult=_sentResult;
 @property(retain, nonatomic) id <BPSSubscriber> subscriber; // @synthesize subscriber=_subscriber;
 
 @end

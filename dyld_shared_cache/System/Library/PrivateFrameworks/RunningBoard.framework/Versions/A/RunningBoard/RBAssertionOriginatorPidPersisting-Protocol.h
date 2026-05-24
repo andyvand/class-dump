@@ -5,5 +5,7 @@
 //
 
 @protocol RBAssertionOriginatorPidPersisting
+- (_Bool)setFrameInterval:(int)arg1;
+- (_Bool)suggestionType;
 @end
 

@@ -6,21 +6,14 @@
 
 #import <MapKit/MKLinkPreviewMetadata.h>
 
-@class CNPostalAddress, NSNumber, NSString;
+@class NSNumber;
 
 @interface MKLinkPreviewDirectionsMetadata : MKLinkPreviewMetadata
 {
     NSNumber *_transportType;
-    NSString *_sourceName;
-    NSString *_sourceAddress;
-    CNPostalAddress *_sourceAddressComponents;
-    NSString *_destinationName;
-    NSString *_destinationAddress;
-    CNPostalAddress *_destinationAddressComponents;
-    NSNumber *_distance;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
@@ -35,18 +28,11 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)an: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1;
-- (id)ionAndThen: /* Error: Ran out of types for this method. */;
+- (void)handleTiltPan: /* Error: Ran out of types for this method. */;
+- (void)_logClientAndServerLayouts:(id)arg1;
+- (id)_establishCurrentLocationAndThen: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(copy, nonatomic) CNPostalAddress *destinationAddressComponents; // @synthesize destinationAddressComponents=_destinationAddressComponents;
-@property(copy, nonatomic) NSString *destinationName; // @synthesize destinationName=_destinationName;
-@property(retain, nonatomic) NSNumber *distance; // @synthesize distance=_distance;
-@property(copy, nonatomic) NSString *sourceAddress; // @synthesize sourceAddress=_sourceAddress;
-@property(copy, nonatomic) CNPostalAddress *sourceAddressComponents; // @synthesize sourceAddressComponents=_sourceAddressComponents;
-@property(copy, nonatomic) NSString *sourceName; // @synthesize sourceName=_sourceName;
 @property(retain, nonatomic) NSNumber *transportType; // @synthesize transportType=_transportType;
 
 @end

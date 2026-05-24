@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SCNPhysicsBody;
-
 @protocol SCNPhysicsVehicleJSExport
 
 // Remaining properties
-@property(readonly, nonatomic) SCNPhysicsBody *chassisBody;
 @property(readonly, nonatomic) double speedInKilometersPerHour;
-@property(readonly, nonatomic) NSArray *wheels;
 @end
 

@@ -20,7 +20,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)ring;
+- (void)VNClusterOptionAddObjectGroupIdsToClustering;
 - (id);
 
 // Remaining properties

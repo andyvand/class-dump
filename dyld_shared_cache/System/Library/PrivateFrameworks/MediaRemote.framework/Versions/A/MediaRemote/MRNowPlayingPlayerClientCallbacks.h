@@ -4,49 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, MSVMultiCallback, NSArray, NSMutableDictionary, NSObject;
+@class MRPlayerPath, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MRNowPlayingPlayerClientCallbacks
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    MSVMultiCallback *_createPlaybackQueueForRequestCallbacks;
-    MSVMultiCallback *_createItemForOffsetCallbacks;
-    MSVMultiCallback *_createItemForIdentifierCallbacks;
-    MSVMultiCallback *_createChildItemCallbacks;
-    MSVMultiCallback *_metadataCallbacks;
-    MSVMultiCallback *_languageOptionsCallbacks;
-    MSVMultiCallback *_infoCallbacks;
-    MSVMultiCallback *_transcriptAlignmentsCallbacks;
-    MSVMultiCallback *_lyricsCallbacks;
-    MSVMultiCallback *_artworkCallbacks;
-    CDUnknownBlockType _playbackSessionCallback;
-    CDUnknownBlockType _playbackSessionMigrateBeginCallback;
-    CDUnknownBlockType _playbackSessionMigrateEndCallback;
-    CDUnknownBlockType _playbackSessionMigrateFinalizeCallback;
-    CDUnknownBlockType _playbackSessionMigratePostCallback;
-    CDUnknownBlockType _playbackSessionMigrateRequestCallback;
-    CDUnknownBlockType _beginLyricsEventCallback;
-    CDUnknownBlockType _endLyricsEventCallback;
-    CDUnknownBlockType _videoThumbnailsCallback;
-    CDUnknownBlockType _audioAmplitudeSamplesCallback;
-    NSMutableDictionary *_commandHandlerBlocks;
-    MSVMultiCallback *_createItemToken;
-    MSVMultiCallback *_createItemForIdentifierToken;
-    MSVMultiCallback *_metadataToken;
-    MSVMultiCallback *_languageToken;
-    MSVMultiCallback *_artworkToken;
-    MSVMultiCallback *_animatedArtworkToken;
-    MRPlayerPath *_playerPath;
-    MSVMultiCallback *_formattedArtworkCallbacks;
-    MSVMultiCallback *_availableArtworkFormatsCallbacks;
-    MSVMultiCallback *_animatedArtworkCallbacks;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -64,12 +33,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)int=dd}{CGSize=dd}}24@56Q64q72;
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)fetchSMSFilterCapabilitiesOptionsForDeviceID:(id)arg1;
+- (id)hat dictionaries.;
+- (void)permanentlyDeletedRecoverableMessagesForChatsWithGUIDsDeletedChatGUIDs;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -78,10 +47,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (void){?=[64S]^{__CFString}^S*{?=qq}qq}20Q204^I212^B220^B228;
+- (unsigned long long)onNum=%f;
+- (void)wAudioGoodnessScore:(id)arg1 withBump:] /* Error: Ran out of types for this method. */;
+- (id): /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -95,33 +64,7 @@ __attribute__((visibility("hidden")))
 - (void)SString",R,N,V_session;
 
 // Remaining properties
-@property(readonly, nonatomic) MSVMultiCallback *animatedArtworkCallbacks; // @synthesize animatedArtworkCallbacks=_animatedArtworkCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *artworkCallbacks; // @synthesize artworkCallbacks=_artworkCallbacks;
-@property(copy, nonatomic) CDUnknownBlockType audioAmplitudeSamplesCallback;
-@property(readonly, nonatomic) MSVMultiCallback *availableArtworkFormatsCallbacks; // @synthesize availableArtworkFormatsCallbacks=_availableArtworkFormatsCallbacks;
-@property(copy, nonatomic) CDUnknownBlockType beginLyricsEventCallback;
-@property(readonly, nonatomic) unsigned long long capabilities;
-@property(readonly, copy, nonatomic) NSArray *commandHandlerBlocks;
-@property(readonly, nonatomic) MSVMultiCallback *createChildItemCallbacks; // @synthesize createChildItemCallbacks=_createChildItemCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *createItemForIdentifierCallbacks; // @synthesize createItemForIdentifierCallbacks=_createItemForIdentifierCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *createItemForOffsetCallbacks; // @synthesize createItemForOffsetCallbacks=_createItemForOffsetCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *createPlaybackQueueForRequestCallbacks; // @synthesize createPlaybackQueueForRequestCallbacks=_createPlaybackQueueForRequestCallbacks;
-@property(copy, nonatomic) CDUnknownBlockType endLyricsEventCallback;
-@property(readonly, nonatomic) MSVMultiCallback *formattedArtworkCallbacks; // @synthesize formattedArtworkCallbacks=_formattedArtworkCallbacks;
-@property(readonly, nonatomic) _Bool hasPlaybackQueueCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *infoCallbacks; // @synthesize infoCallbacks=_infoCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *languageOptionsCallbacks; // @synthesize languageOptionsCallbacks=_languageOptionsCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *lyricsCallbacks; // @synthesize lyricsCallbacks=_lyricsCallbacks;
-@property(readonly, nonatomic) MSVMultiCallback *metadataCallbacks; // @synthesize metadataCallbacks=_metadataCallbacks;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateBeginCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateEndCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateFinalizeCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigratePostCallback;
-@property(copy, nonatomic) CDUnknownBlockType playbackSessionMigrateRequestCallback;
 @property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(readonly, nonatomic) MSVMultiCallback *transcriptAlignmentsCallbacks; // @synthesize transcriptAlignmentsCallbacks=_transcriptAlignmentsCallbacks;
-@property(copy, nonatomic) CDUnknownBlockType videoThumbnailsCallback;
 
 @end
 

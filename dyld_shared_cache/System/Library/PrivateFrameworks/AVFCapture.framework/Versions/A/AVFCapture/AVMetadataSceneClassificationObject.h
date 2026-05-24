@@ -13,43 +13,30 @@
     NSDictionary *_confidences;
 }
 
-+ (id);
++ (id)d;
+- (float)setParentWord: /* Error: Ran out of types for this method. */;
+- (float)session:didReceiveBlobWithType:data:participant: /* Error: Ran out of types for this method. */;
+- (float)replaceObjectAtIndex:withObject: /* Error: Ran out of types for this method. */;
+- (float)didChangeValueForKey: /* Error: Ran out of types for this method. */;
+- (float)coderTypeForSegment: /* Error: Ran out of types for this method. */;
+- (float)class;
+- (float)addObject: /* Error: Ran out of types for this method. */;
+- (id)nterval;
+- (id)_CFRunLoopSource=},N;
+- (float)ertiaryTextColor;
+- (float)V_mutableText;
 - (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (id);
-- (id);
-- (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (float);
+- (float)MSVArtworkServiceOperation;
+- (float)k;
+- (float)on:(id)arg1 imageSource cannot be NULL;
+- (float)NSACTION;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) float appCodeSceneConfidence;
-@property(readonly) float brightStageSceneConfidence;
 @property(readonly) NSDictionary *confidences; // @synthesize confidences=_confidences;
-@property(readonly) float documentSceneConfidence;
-@property(readonly) float foodSceneConfidence;
-@property(readonly) float indoorSceneConfidence;
-@property(readonly) float lynxGiftCardSceneConfidence;
-@property(readonly) float otherCodeSceneConfidence;
-@property(readonly) float outdoorSceneConfidence;
-@property(readonly) float qrSceneConfidence;
-@property(readonly) float standardGiftCardSceneConfidence;
-@property(readonly) float sunsetSceneConfidence;
-@property(readonly) float textSceneConfidence;
-@property(readonly) float waterBodySceneConfidence;
 
 @end
 

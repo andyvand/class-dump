@@ -9,16 +9,15 @@
 @interface AALoginContextManager
 {
     AAStorableLoginContext *_stashedContext;
-    struct os_unfair_lock_s _stashedContextLock;
 }
 
-+ (void);
++ (void)SetPasscodePolicy mcxUsr_setpasscodepolicy result = %d;
 + (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)unt: /* Error: Ran out of types for this method. */;
+- (id)rning error after %.2f secs;
+- (void)tionprofiles.hasDEPActivationRecord;
+- (void)add a policy;
+- (id)o;
+- (void)mergeActionForKeychainDataclassForAddingAccount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AAStorableLoginContext *stashedContext;

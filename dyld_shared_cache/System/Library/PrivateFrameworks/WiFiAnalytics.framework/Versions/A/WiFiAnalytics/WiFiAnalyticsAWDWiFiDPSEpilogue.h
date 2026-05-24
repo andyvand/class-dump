@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WiFiAnalyticsAWDWADiagnosisActionAssociationDifferences, WiFiAnalyticsAWDWAPeerDiscoveryInfo, WiFiAnalyticsAWDWAQuickDpsStats, WiFiAnalyticsAWDWASymptomsDnsStats;
-
 @interface WiFiAnalyticsAWDWiFiDPSEpilogue
 {
     unsigned long long _timestamp;
-    NSMutableArray *_accessPointInfos;
-    int _action;
-    unsigned int _actionIntVal;
-    int _afterRecommendedAction;
-    NSMutableArray *_associationChanges;
-    int _beforeAction;
-    WiFiAnalyticsAWDWADiagnosisActionAssociationDifferences *_changes;
-    WiFiAnalyticsAWDWAPeerDiscoveryInfo *_discoveredPeerInfo;
-    WiFiAnalyticsAWDWAQuickDpsStats *_qDpsStats;
-    int _studyType;
-    WiFiAnalyticsAWDWASymptomsDnsStats *_symptomsDnsStats;
-    _Bool _isAssociatedAtStudyEnd;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int action:1;
-        unsigned int actionIntVal:1;
-        unsigned int afterRecommendedAction:1;
-        unsigned int beforeAction:1;
-        unsigned int studyType:1;
-        unsigned int isAssociatedAtStudyEnd:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 - (id);
-- (id);
+- (id);
 - (int);
 - (void);
 - (void);
@@ -48,13 +25,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)H;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -81,12 +58,12 @@
 - (int);
 - (int);
 - (id);
+- (void)M;
+- (_Bool)MENT,content_blocker_id INTEGER NOT NULL,selector TEXT NOT NULL,type TEXT NOT NULL,version NUMERIC NOT NULL,cross_site_content_id INTEGER NULL,extra_attributes BLOB NULL,FOREIGN KEY (content_blocker_id) REFERENCES content_blocker(id) ON DELETE CASCADE,FOREIGN KEY (cross_site_content_id) REFERENCES cross_site_content(id) ON DELETE SET NULL);
+- (int)WBSStartPageSectionManagerSectionOrderDidChangeNotification;
+- (id)a"16@?0@"<WBSSiriIntelligenceDonorTabDataProviding>"8;
 - (void);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (id);
+- (id)onKey:%{public}@, clientID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -94,42 +71,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)w;
+- (void)A;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)onst uint64_t);
 - (id);
 - (id);
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)l: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessPointInfos; // @synthesize accessPointInfos=_accessPointInfos;
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) unsigned int actionIntVal; // @synthesize actionIntVal=_actionIntVal;
-@property(nonatomic) int afterRecommendedAction; // @synthesize afterRecommendedAction=_afterRecommendedAction;
-@property(retain, nonatomic) NSMutableArray *associationChanges; // @synthesize associationChanges=_associationChanges;
-@property(nonatomic) int beforeAction; // @synthesize beforeAction=_beforeAction;
-@property(retain, nonatomic) WiFiAnalyticsAWDWADiagnosisActionAssociationDifferences *changes; // @synthesize changes=_changes;
-@property(retain, nonatomic) WiFiAnalyticsAWDWAPeerDiscoveryInfo *discoveredPeerInfo; // @synthesize discoveredPeerInfo=_discoveredPeerInfo;
-@property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasActionIntVal;
-@property(nonatomic) _Bool hasAfterRecommendedAction;
-@property(nonatomic) _Bool hasBeforeAction;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) _Bool hasDiscoveredPeerInfo;
-@property(nonatomic) _Bool hasIsAssociatedAtStudyEnd;
-@property(readonly, nonatomic) _Bool hasQDpsStats;
-@property(nonatomic) _Bool hasStudyType;
-@property(readonly, nonatomic) _Bool hasSymptomsDnsStats;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool isAssociatedAtStudyEnd; // @synthesize isAssociatedAtStudyEnd=_isAssociatedAtStudyEnd;
-@property(retain, nonatomic) WiFiAnalyticsAWDWAQuickDpsStats *qDpsStats; // @synthesize qDpsStats=_qDpsStats;
-@property(nonatomic) int studyType; // @synthesize studyType=_studyType;
-@property(retain, nonatomic) WiFiAnalyticsAWDWASymptomsDnsStats *symptomsDnsStats; // @synthesize symptomsDnsStats=_symptomsDnsStats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

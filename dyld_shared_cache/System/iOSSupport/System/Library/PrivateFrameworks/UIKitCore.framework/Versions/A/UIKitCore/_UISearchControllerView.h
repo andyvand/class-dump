@@ -6,27 +6,21 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, _UIInlineSearchFieldAccessoryContainer, _UISearchControllerInlineSearchFieldAccessoryView;
+@class NSLayoutConstraint, _UISearchControllerInlineSearchFieldAccessoryView;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchControllerView : UIView
 {
     NSLayoutConstraint *_inlineSearchFieldOnscreenConstraint;
-    NSLayoutConstraint *_inlineSearchFieldOffscreenConstraint;
-    _UIInlineSearchFieldAccessoryContainer *_inlineSearchFieldAccessoryContainer;
-    _Bool _receivedKeyboardWillShow;
-    _Bool __ensureSystemInputViewAboveSearchBarContainerView;
-    _Bool _inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation;
-    _UISearchControllerInlineSearchFieldAccessoryView *_inlineSearchFieldAccessoryView;
 }
 
 - (void);
-- (void);
+- (void)MTLComputePipelineState>",&,N,Vm_metalPipeline;
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)kh;
 - (void);
 - (void);
-- (void);
+- (void)result [existing token] result=%@;
 - (void);
 - (void);
 - (void);
@@ -38,21 +32,18 @@ __attribute__((visibility("hidden")))
 - (void)!ÀAùb°1Â0@ù
 × ;
 - (void)INavigationBarLargeTitleView";
-- (id)ackgroundProviderForced:(struct CGRect)arg1;
-- (void)conSize: /* Error: Ran out of types for this method. */;
-- (void)rolHost;
+- (id)_invalidateBackgroundProviderForced:(struct CGRect)arg1;
+- (void)_barCornerRadiusForIconSize: /* Error: Ran out of types for this method. */;
+- (void)_UISceneWindowingControlHost;
 - (void)tal-code;
-- (void)lerMinimumForce;
+- (void)GameControllerMinimumForce;
 - (_Bool)stContainsOrderedItems;
-- (void)ise;
+- (void)precise;
 - (void)ionView internal inconsistency:(id)arg1 attempted to rebase shadow updates with a nil update map and/or initial snapshot. Collection view:%@ /* Error: Ran out of types for this method. */;
 - (void)ew"8{CGRect={CGPoint=dd}{CGSize=dd}}16^B48;
 - (void)ìúlþE»13ûlþE»13,ûlþe»13Hûlþ»13Tûlþ»13`ûlþåº13lûlþ5»13xûlþÅº13ûlþÅº13´0qþ»13ûlþE»13¤ûlþ»13´ûlþ;
 
 // Remaining properties
-@property(nonatomic) _Bool _ensureSystemInputViewAboveSearchBarContainerView; // @synthesize _ensureSystemInputViewAboveSearchBarContainerView=__ensureSystemInputViewAboveSearchBarContainerView;
-@property(readonly, nonatomic) struct CGRect _occludedFrame;
-@property(nonatomic) _Bool inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation; // @synthesize inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation=_inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation;
 @property(retain, nonatomic) _UISearchControllerInlineSearchFieldAccessoryView *inlineSearchFieldAccessoryView; // @synthesize inlineSearchFieldAccessoryView=_inlineSearchFieldAccessoryView;
 
 @end

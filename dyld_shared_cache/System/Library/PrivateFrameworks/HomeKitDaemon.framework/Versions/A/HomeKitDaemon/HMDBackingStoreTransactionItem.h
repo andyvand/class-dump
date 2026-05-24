@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStoreModelObject, HMFMessage, NSSet, NSString;
+@class HMDBackingStoreModelObject, HMFMessage;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreTransactionItem
 {
     HMDBackingStoreModelObject *_change;
-    NSSet *_dependentUUIDs;
-    HMFMessage *_message;
 }
 
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -23,16 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDBackingStoreModelObject *change; // @synthesize change=_change;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSSet *dependentUUIDs; // @synthesize dependentUUIDs=_dependentUUIDs;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) HMFMessage *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 
 @end
 

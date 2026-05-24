@@ -5,5 +5,7 @@
 //
 
 @protocol NSCopying
+- (id)to acquire permanent objectIDs during schema generation:(struct _NSZone *)arg1 %@
+;
 @end
 

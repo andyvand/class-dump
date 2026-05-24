@@ -7,15 +7,6 @@
 @interface AppStoreKit.OnDevicePersonalizationDataManager
 {
     id accountStore;
-    id requestQueue;
-    id bag;
-    id amsEngagement;
-    id dataCacheAvailabilityConditionLock;
-    id dataCacheBox;
-    id activeStoreAccount;
-    id timeoutTimer;
-    id isRequestPending;
-    id requestPendingLock;
 }
 
 - (void);

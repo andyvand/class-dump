@@ -21,7 +21,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)stDimmedDetentIdentifier;
++ (_Bool)_smallestDimmedDetentIdentifier;
 - (void);
 - (double);
 - (_Bool);
@@ -32,8 +32,8 @@
 - (double);
 - (unsigned long long);
 - (double)6;
-- (id)sVolatile:(id)arg1;
-- (struct CGPoint)wedUserNotificationTypes;
+- (id)setIsVolatile:(id)arg1;
+- (struct CGPoint)allowedUserNotificationTypes;
 - (void)ardFocusGuide;
 - (void)L;
 - (struct CGPoint)@;
@@ -41,17 +41,12 @@
 - (_Bool)finished expanding can result in inconsistent state. This is a client bug.;
 - (void)XÝêÿdÝêÿHÞêÿTÞêÿ`ÞêÿlÞêÿàêÿ$áêÿ0áêÿ<áêÿ`áêÿ¨áêÿ¸áêÿÜáêÿâêÿLâêÿâêÿ¬âêÿÐâêÿôâêÿôEþÿÄGþÿHþÿ,HþÿDHþÿ\HþÿtHþÿHþÿ¤Hþÿ¼HþÿÔHþÿìHþÿIþÿIþÿ4IþÿLIþÿdIþÿ|IþÿIþÿ¬IþÿÄIþÿÜIþÿôIþÿJþÿ$Jþÿ<JþÿTJþÿlJþÿJþÿJþÿÀJþÿÜJþÿøJþÿKþÿ0KþÿLKþÿhKþÿKþÿ KþÿÌKþÿèKþÿLþÿ Lþÿ<LþÿXLþÿtLþÿLþÿ¬LþÿÈLþÿäLþÿ;
 - (id)Not UIViewController subclass:%@ specified as the containing controller class, but that class is not a subclass of UIViewController /* Error: Ran out of types for this method. */;
-- (struct CGPoint)Indicator;
+- (struct CGPoint)UIButtonConfigurationIndicator;
 - (void)$©d;
 - (void)Àøj;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint anchorPoint;
-@property(nonatomic, getter=_hysteresis, setter=_setHysteresis:) double hysteresis;
-@property(nonatomic) double scale;
 @property(nonatomic) double scaleThreshold;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(readonly, nonatomic) double velocity;
 
 @end
 

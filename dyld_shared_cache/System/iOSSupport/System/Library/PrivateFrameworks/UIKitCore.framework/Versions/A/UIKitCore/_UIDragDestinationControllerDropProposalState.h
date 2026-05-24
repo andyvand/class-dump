@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewDropProposal;
-
 __attribute__((visibility("hidden")))
 @interface _UIDragDestinationControllerDropProposalState
 {
     _Bool _didDrop;
-    UICollectionViewDropProposal *_proposal;
-    NSIndexPath *_indexPath;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)ridingAttachmentData: /* Error: Ran out of types for this method. */;
+- (void)ved;
+- (_Bool)@ for message %@ is already done;
 - (id);
 - (id);
 - (id)!dBù_1Â0@ù
@@ -31,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool didDrop; // @synthesize didDrop=_didDrop;
-@property(readonly, nonatomic) NSIndexPath *effectiveIndexPath;
-@property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(retain, nonatomic) UICollectionViewDropProposal *proposal; // @synthesize proposal=_proposal;
 
 @end
 

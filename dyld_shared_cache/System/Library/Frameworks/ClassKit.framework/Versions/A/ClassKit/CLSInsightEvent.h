@@ -11,13 +11,13 @@
 @interface CLSInsightEvent : CLSObject
 {
     long long _type;
-    NSMutableDictionary *_info;
 }
 
-+ (_Bool);
++ (_Bool)_dataclassActionsStore;
 + (id);
-- (void);
-- (id);
+- (void)not 2 (%d)
+;
+- (id)tus ZinComputeProgramMakeInitInfo(const ZinComputeProgram *, ZinComputeProgramInitInfo **);
 - (_Bool);
 - (id);
 - (id);
@@ -27,14 +27,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h+8J!;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *info; // @synthesize info=_info;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

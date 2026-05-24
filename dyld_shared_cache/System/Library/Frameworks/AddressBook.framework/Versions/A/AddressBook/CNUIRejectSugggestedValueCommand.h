@@ -6,12 +6,11 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNContactStore, CNLabeledValue;
+@class CNLabeledValue;
 
 @interface CNUIRejectSugggestedValueCommand : CNUIUndoableCommand
 {
     CNLabeledValue *_valueToReject;
-    CNContactStore *_contactStore;
 }
 
 - (id);
@@ -19,12 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__TEXT;
 - (void)rsonListHeadlining>",&;
 - (id)`äå;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(retain, nonatomic) CNLabeledValue *valueToReject; // @synthesize valueToReject=_valueToReject;
 
 @end

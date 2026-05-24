@@ -4,65 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKEncryptedData, CKEncryptedRecordValueStore, CKPCSKeysToRemove, CKRecordID, CKRecordValueStore, CKReference, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSString, NSURL;
+@class CKContainerID;
 
 @interface CKRecord
 {
     CKContainerID *_containerID;
-    NSString *_etag;
-    _Bool _trackChanges;
-    _Bool _needsRollAndCounterSign;
-    _Bool _applyPCSKeysToRemoveForTesting;
-    _Bool _hasUpdatedExpirationTimeInterval;
-    _Bool _expired;
-    _Bool _requiresRecordSaveForMergeableDeltas;
-    _Bool _serializeProtectionData;
-    _Bool _isMergeableValueDeltaRecord;
-    _Bool _hasUpdatedShare;
-    _Bool _hasUpdatedParent;
-    _Bool _knownToServer;
-    _Bool _wasCached;
-    _Bool _wantsChainPCS;
-    _Bool _useLightweightPCS;
-    _Bool _wantsPublicSharingKey;
-    NSString *_recordType;
-    CKReference *_share;
-    CKReference *_parent;
-    NSString *_baseToken;
-    CKEncryptedData *_mutableEncryptedPSK;
-    NSString *_displayedHostname;
-    struct _PCSIdentityData *_signingPCSIdentity;
-    NSArray *_allPCSKeyIDs;
-    NSArray *_tombstonedPublicKeyIDs;
-    NSDictionary *_pluginFields;
-    NSArray *_conflictLoserEtags;
-    CKRecordID *_recordID;
-    CKRecordID *_creatorUserRecordID;
-    NSDate *_creationDate;
-    CKRecordID *_lastModifiedUserRecordID;
-    NSDate *_modificationDate;
-    CKRecordValueStore *_valueStore;
-    CKEncryptedRecordValueStore *_encryptedValueStore;
-    NSNumber *_updatedExpirationTimeInterval;
-    NSDate *_expirationDate;
-    NSData *_zoneishKeyID;
-    NSString *_previousProtectionEtag;
-    NSString *_protectionEtag;
-    NSString *_zoneProtectionEtag;
-    NSString *_shareEtag;
-    NSString *_previousProtectionEtagFromUnitTest;
-    NSData *_pcsKeyID;
-    CKReference *_previousShare;
-    CKReference *_previousParent;
-    CKEncryptedData *_chainPrivateKey;
-    NSData *_chainProtectionInfo;
-    NSData *_chainParentPublicKeyID;
-    CKPCSKeysToRemove *_pcsKeysToRemove;
-    NSURL *_mutableURL;
-    long long _permission;
-    NSString *_modifiedByDevice;
-    NSData *_protectionData;
-    NSString *_routingKey;
 }
 
 @end

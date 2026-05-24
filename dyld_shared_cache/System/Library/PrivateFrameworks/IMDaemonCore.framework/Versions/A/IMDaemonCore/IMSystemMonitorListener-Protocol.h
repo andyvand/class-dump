@@ -7,6 +7,11 @@
 @protocol IMSystemMonitorListener
 
 @optional
+- (void);
+- (void)2@99;
+- (void)3;
+- (void)HIJK;
+- (void)(=;
 - (void)OM playSoundsKey %@;
 @end
 

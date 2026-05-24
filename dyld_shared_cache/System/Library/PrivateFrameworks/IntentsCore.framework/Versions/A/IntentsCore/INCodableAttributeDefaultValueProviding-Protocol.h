@@ -5,5 +5,6 @@
 //
 
 @protocol INCodableAttributeDefaultValueProviding
+- (id)?@?@}32;
 @end
 

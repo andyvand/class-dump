@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)se=QAQ}^{__DDQueryFragment}qq^?^v}16^{__CFArray=}24;
 
 @end
 

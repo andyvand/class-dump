@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIClient;
 @protocol TRIExperimentCountProviding;
 
 @interface TRIActiveExperimentsMetricRecorder
 {
     id <TRIExperimentCountProviding> _experimentCountProvider;
-    TRIClient *_client;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)initWithImageURL:contentType:options:timeZoneLookup:cacheImageSource:cacheImageData: /* Error: Ran out of types for this method. */;
+- (id)includeDerivativeDefaults;
+- (id)hasTopEdgeContact;
+- (id)exportRampCurveExponent;
+- (_Bool)breadcrumbDescription;
+- (id)archivedJSONObjectWithAutoEditDecisionList: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)__SecKey=}32^@40;
 
 // Remaining properties
-@property(readonly, nonatomic) TRIClient *client; // @synthesize client=_client;
 @property(readonly, nonatomic) id <TRIExperimentCountProviding> experimentCountProvider; // @synthesize experimentCountProvider=_experimentCountProvider;
 
 @end

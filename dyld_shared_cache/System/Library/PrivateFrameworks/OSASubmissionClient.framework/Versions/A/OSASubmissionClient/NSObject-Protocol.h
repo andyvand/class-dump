@@ -7,14 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (oneway void);
+- (NSString *)t processing a push/notification. %d pending operations.;
+- (_Bool)_personalizationServerURL;
+
+@optional
+- (NSString *)l;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

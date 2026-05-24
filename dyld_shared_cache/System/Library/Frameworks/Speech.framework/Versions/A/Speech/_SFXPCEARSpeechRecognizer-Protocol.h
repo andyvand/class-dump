@@ -5,5 +5,8 @@
 //
 
 @protocol _SFXPCEARSpeechRecognizer
+- (oneway void)(;
+- (oneway void)T;
+- (oneway void);
 @end
 

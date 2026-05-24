@@ -16,10 +16,10 @@
 + (id);
 - (struct CGSize);
 - (id);
+- (id);
+- (id)&;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)addMainKeyToKeychainForObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *marker; // @synthesize marker=_marker;

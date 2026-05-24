@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIWindow;
+
 @protocol _UIToolbarDelegateInternal
+
+@optional
+- (UIWindow *)56@?60;
+- (_Bool)@24@32@40@48B56Q60@?68;
 @end
 

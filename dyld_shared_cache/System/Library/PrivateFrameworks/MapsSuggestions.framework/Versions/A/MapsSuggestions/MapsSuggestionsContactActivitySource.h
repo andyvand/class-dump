@@ -6,14 +6,11 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
-@class MapsSuggestions.MapsSuggestionsContactActivity, MapsSuggestionsAppGuardian, NSObject;
-@protocol OS_dispatch_queue;
+@class MapsSuggestions.MapsSuggestionsContactActivity;
 
 @interface MapsSuggestionsContactActivitySource : MapsSuggestionsBaseSource
 {
     MapsSuggestions.MapsSuggestionsContactActivity *_contactActivity;
-    NSObject<OS_dispatch_queue> *_queue;
-    MapsSuggestionsAppGuardian *_guardian;
 }
 
 + (_Bool);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (_Bool);

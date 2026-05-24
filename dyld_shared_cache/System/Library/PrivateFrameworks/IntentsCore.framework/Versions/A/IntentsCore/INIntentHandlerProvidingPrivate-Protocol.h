@@ -5,5 +5,8 @@
 //
 
 @protocol INIntentHandlerProvidingPrivate
+
+@optional
+- (void);
 @end
 

@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ސ;
+- (_Bool)-[conditionalProbabilityForEntry:(id)arg1 context:] is not valid for this language model /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

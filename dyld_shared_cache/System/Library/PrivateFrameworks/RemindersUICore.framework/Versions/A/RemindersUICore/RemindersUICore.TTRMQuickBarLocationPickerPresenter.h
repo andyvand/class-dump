@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarLocationPickerPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id editor;
-    id editedLocation;
 }
 
 @end

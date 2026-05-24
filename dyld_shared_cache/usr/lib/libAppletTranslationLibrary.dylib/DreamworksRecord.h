@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface DreamworksRecord
 {
     unsigned char _sfi;
-    unsigned char _number;
-    unsigned int _seqnum;
-    NSData *_data;
 }
 
 - (void);
@@ -26,9 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) unsigned char number; // @synthesize number=_number;
-@property(nonatomic) unsigned int seqnum; // @synthesize seqnum=_seqnum;
 @property(nonatomic) unsigned char sfi; // @synthesize sfi=_sfi;
 
 @end

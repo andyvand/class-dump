@@ -9,9 +9,9 @@
     long long _daemonType;
 }
 
-- (void);
-- (id);
-- (long long);
+- (void)is is an error message that gets displayed when the network connection to the mail server drops. We will automatically try again at the specified time (e.g. 06:(long long)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (id)DisableSnapshotInvalidation;
+- (long long)QueryComponentFlag;
 
 // Remaining properties
 @property(nonatomic) long long daemonType; // @synthesize daemonType=_daemonType;

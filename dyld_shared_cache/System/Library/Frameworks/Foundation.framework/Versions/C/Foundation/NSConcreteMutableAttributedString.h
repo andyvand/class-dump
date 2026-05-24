@@ -6,34 +6,28 @@
 
 #import <Foundation/NSMutableAttributedString.h>
 
-@class NSMutableRLEArray, NSMutableString;
+@class NSMutableString;
 
 @interface NSConcreteMutableAttributedString : NSMutableAttributedString
 {
     NSMutableString *mutableString;
-    NSMutableRLEArray *mutableAttributes;
-    struct {
-        unsigned int attributeFixingDisabled:8;
-        unsigned int mayNeedIntentResolution:8;
-        unsigned int :16;
-    } fields;
 }
 
-+ (Class);
++ (Class)I;
 + (_Bool)ode UUID from invalid UUID string.;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
+- (void)gliDestroyPixelFormat;
+- (id);
+- (void);
+- (void);
+- (id)path with '.net');
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)rKey:(id)arg1;
+- (id)setObject:(id)arg1 forKey:(unsigned long long)arg2;
 - (id)ith leading zero around line ;
 - (_Bool)¶	¶	¶	¶	·	·	·	¸	¹	¹	º	»	»	»	»	»	¼	¼	¼	¼	½	¾	¾	¾	¾	¿	À	À	Á	Á	Â	Ã	Ã	Ã	Ã	Ã	Ä	Ä	Ä	Ä	Ä	Ä	Ä	Å	Æ	Ç	È	É	Ê	Ë	Ë	Ì	Í	Î	Î	Ï	Ð	Ð	Ð	Ð	Ð	Ð	Ñ	Ò	Ò	Ó	Ô	Ô	Õ	Ö	Ö	Ö	Ö	Ö	Ö	Ö	Ö	Ö	×	Ø	Ù	Ù	Ù	Ù	Ù	Ù	Ù	Ù	Ú	Ú	Û	Û	Ü	Ü	Ü	Ý	Ý	Ý	Ý	Ý	Ý	Ý	Ý	Ý	Þ	Þ	Þ	Þ	ß	à	à	à	à	à	á	á	â	ã	ä	ä	ä	ä	ä	å	å	å	æ	æ	æ	æ	ç	ç	è	è	é	é	é	é	é	é	ê	ê	ë	ì	í	í	í	í	î	î	î	î	î	î	î	î	î	î	ï	ð	ñ	ñ	ñ	ñ	ò	ó	ô	ô	õ	õ	õ	ö	ö	÷	ø	ø	ù	ú	û	û	û	ü	ü	ü	ü	ü	ý	ý	ý	ý	þ	þ	ÿ	ÿ	ÿ	ÿ	;
 - (id) !""""#$%%%%%%%%&&''(((())))**++,,-.//0122345555556777777899:(id)arg1 :(id)arg2 ;;<==>??@@@AABCDEEEEEEFGGHIJKKKLMMNNOOOOPPQRRSSTUVVWXYYYYYZZ[\\]]]]^^_`abcdeffffgghhijkkkkllmnooppqqrrssttuuuuvvvwwwwwwwwwxyzz{|}}}~~   ¡¡¢£¤¤¥¥¥¥¦§§§§¨¨¨¨¨©©ªª««¬­®®®¯¯¯°±²²²²²²³³³´µ¶·¸¸¸¸¹ºººººº»¼¼¼½½¾¿ÀÁÁÂÂÂÂÂÃÃÃÃÄÄÄÄÄÄÅÅÅÅÅÅÅÅÅÅÆÇÈÉÉÉÉÊÊÊÊËÌÌÌÌÌÍÍÍÍÎÎÏÏÏÐÐÑÒÒÒÓÔÔÔÕÖ×ØÙÚÚÛÛÛÜÜÝÝÝÝÞÞßßßßàààáááááââââãäååååæççèèèéééééêëììííîîîïïïïïðððððñòóôõõööööö÷÷÷øøùúúûûûûûüýýýþþÿÿÿÿÿÿÿÿ;

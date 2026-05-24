@@ -7,7 +7,6 @@
 @interface NewsArticles.TipRouter
 {
     id controller;
-    id resolver;
 }
 
 @end

@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSDictionary, NSMutableDictionary, NSString;
+@class NSBundle;
 
 @interface NSStoryboard
 {
     NSBundle *_bundle;
-    NSString *_storyboardFileName;
-    NSDictionary *_identifierToNibNameMap;
-    NSDictionary *_identifierToExternalStoryboardReferenceMap;
-    NSDictionary *_identifierToUUIDMap;
-    NSString *_designatedEntryPointIdentifier;
-    NSMutableDictionary *_identifierToUINibMap;
-    NSString *_mainMenu;
-    NSArray *_topLevelObjects;
-    NSBundle *_ownerBundle;
 }
 
 + (id);
-+ (id);
++ (id)h a dispatch based scheduling set;
+- (id)R	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)V;
 - (id);
 - (id);
 - (id);
@@ -37,7 +28,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

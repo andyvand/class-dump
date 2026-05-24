@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OBImage;
+@class NSString;
 
 @interface OBSplashBullet
 {
     NSString *_text;
-    OBImage *_icon;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain) OBImage *icon; // @synthesize icon=_icon;
 @property(copy) NSString *text; // @synthesize text=_text;
 
 @end

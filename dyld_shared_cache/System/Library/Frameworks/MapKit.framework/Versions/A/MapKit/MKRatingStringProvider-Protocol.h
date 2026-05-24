@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKMapItem, NSAttributedString, NSColor, NSString;
+
 @protocol MKRatingStringProvider
++ (NSString *)date;
++ (NSAttributedString *)createXPCConnection;
++ (NSColor *)countByEnumeratingWithState:(MKMapItem *)arg1 objects:count: /* Error: Ran out of types for this method. */;
++ (NSAttributedString *)clientDebug;
++ (NSAttributedString *)/;
 @end
 

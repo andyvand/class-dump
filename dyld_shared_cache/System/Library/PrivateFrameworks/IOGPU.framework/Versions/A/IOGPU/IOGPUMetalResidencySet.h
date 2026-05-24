@@ -4,76 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice, NSArray, NSString;
-@protocol MTLDevice, MTLDeviceSPI;
+@class NSArray;
 
 @interface IOGPUMetalResidencySet
 {
     struct IOGPUResourceInfo _info;
-    unsigned long long _globalTraceObjectID;
-    unsigned long long _labelTraceID;
-    struct __IOGPUResource *_groupRef;
-    IOGPUMetalDevice<MTLDeviceSPI> *_device;
-    struct os_unfair_lock_s _lock;
-    _Bool _evictsImmediately;
-    unsigned long long _currentGeneration;
-    unsigned long long _expiredGeneration;
-    struct IOGPUGenerationalSet<id, IOGPUMTLIdKey, IOGPUMTLObjectHashAllocator> _hashTable;
 }
 
 - (_Bool);
+- (_Bool)+A9;
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)th identifier %{public}@;
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAllocations;
 @property(readonly, copy) NSArray *allCommittedAllocations;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C
 
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationCount;
-@property(nonatomic) unsigned long long currentGeneration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(nonatomic) unsigned long long expiredGeneration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

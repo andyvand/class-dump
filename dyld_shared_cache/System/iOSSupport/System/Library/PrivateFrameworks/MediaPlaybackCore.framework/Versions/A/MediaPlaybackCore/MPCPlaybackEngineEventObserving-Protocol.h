@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPCPlaybackEngine;
+
 @protocol MPCPlaybackEngineEventObserving
+
+@optional
+- (void)Account change:(MPCPlaybackEngine *)arg1 Mail dataclass already enabled;
+- (void)ocessing IMAP Mail Account change:(MPCPlaybackEngine *)arg1 Account wasn't added;
 @end
 

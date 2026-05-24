@@ -6,37 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIImageView, UIVisualEffectView, _UIBarBackgroundLayout, _UIBarBackgroundShadowView;
+@class NSString, UIVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface _UIBarBackground : UIView
 {
     UIVisualEffectView *_effectView1;
-    UIImageView *_colorAndImageView1;
-    _UIBarBackgroundShadowView *_shadowView1;
-    UIVisualEffectView *_effectView2;
-    UIImageView *_colorAndImageView2;
-    _UIBarBackgroundShadowView *_shadowView2;
-    UIView *_topInsetView;
-    double _bg1LastLayoutHeight;
-    double _bg2LastLayoutHeight;
-    struct {
-        unsigned int needsTopInsetView:1;
-        unsigned int needsEffectView1:1;
-        unsigned int needsColorAndImageView1:1;
-        unsigned int needsShadowView1:1;
-        unsigned int needsEffectView2:1;
-        unsigned int needsColorAndImageView2:1;
-        unsigned int needsShadowView2:1;
-    } _backgroundFlags;
-    _Bool _topAligned;
-    NSString *_groupName;
-    _UIBarBackgroundLayout *_layout;
-    UIView *_customBackgroundView;
 }
 
 - (void);
-- (void);
+- (void)�i;
 - (void);
 - (id);
 - (void);
@@ -49,17 +28,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)ÔAð!pFùÑbÐ1Â0@ù
 × ;
-- (void)anelControllerWillUpdate:(id)arg1;
-- (id)ws;
-- (void)utRowAlignmentOptionsForSection: /* Error: Ran out of types for this method. */;
+- (void)panelControllerWillUpdate:(id)arg1;
+- (id)_allSubviews;
+- (void)_collectionView:layout:flowLayoutRowAlignmentOptionsForSection: /* Error: Ran out of types for this method. */;
 - (id)8a`aØb;
 - (void)etails:(_Bool)arg1;
 - (void)rent view controller of %@ could not be found.;
-- (_Bool)r;
+- (_Bool)tableCellValue2BlueColor;
 - (id);
 - (void);
 - (id)pÿ;
-- (void)a;
+- (void)xka;
 - (id)Ñþ;
 - (void)|nb;
 - (void)Ü3pÿ'GÒd;
@@ -67,10 +46,7 @@ __attribute__((visibility("hidden")))
 - (void)H§ÿè;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *customBackgroundView; // @synthesize customBackgroundView=_customBackgroundView;
 @property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(retain, nonatomic) _UIBarBackgroundLayout *layout; // @synthesize layout=_layout;
-@property(nonatomic) _Bool topAligned; // @synthesize topAligned=_topAligned;
 
 @end
 

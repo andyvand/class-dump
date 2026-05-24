@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBPerson;
+@class NSData;
 
 @protocol _SFPBFillToolPersonParameterCommand
+- (void)A%;
+- (NSData *)antsUnscopedSuggestions;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPerson *person;
 @end
 

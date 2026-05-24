@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface EMRowMapper : CMMapper
 {
     EDRowBlock *mRowBlock;
-    struct EDRowInfo *mRowInfo;
-    double *columnGrid;
-    unsigned long long columnCount;
 }
 
 + (void);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (struct EDCellHeader *);
 - (_Bool);
 - (void)$;

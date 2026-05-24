@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)ry>"32@0:8@"MTLStitchedLibraryDescriptorSPI"16^@24 /* Error: Ran out of types for this method. */;
 
 @end
 

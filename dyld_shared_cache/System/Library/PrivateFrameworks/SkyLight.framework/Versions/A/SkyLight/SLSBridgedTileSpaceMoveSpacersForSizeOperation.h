@@ -9,19 +9,17 @@
 @interface SLSBridgedTileSpaceMoveSpacersForSizeOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _tileSpaceID;
-    struct CGSize _size;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool);
+- (void)s already a pending request of type '%@'.;
+- (id)n't create an index element with non-attribute property;
 - (unsigned long long);
 - (id);
-- (struct CGSize);
+- (struct CGSize)could not extend extract polygons list;
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 @property(readonly) unsigned long long tileSpaceID; // @synthesize tileSpaceID=_tileSpaceID;
 
 @end

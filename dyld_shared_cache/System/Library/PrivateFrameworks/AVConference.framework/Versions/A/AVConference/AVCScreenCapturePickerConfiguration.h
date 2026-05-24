@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)P;
 
 // Remaining properties
 @property(retain, nonatomic) AVCAuditToken *pickerClientAuditToken; // @synthesize pickerClientAuditToken=_pickerClientAuditToken;

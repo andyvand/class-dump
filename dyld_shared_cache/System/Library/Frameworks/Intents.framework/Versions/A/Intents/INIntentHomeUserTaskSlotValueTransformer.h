@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)Category: /* Error: Ran out of types for this method. */;
++ (long long)setHasCategory: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)payloadTimers;
 

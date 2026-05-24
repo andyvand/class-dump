@@ -7,11 +7,6 @@
 @interface NewsArticles.RecipeArticleViewerFeatureProvider
 {
     id excludeFromOverflowMenu;
-    id tipSourceManager;
-    id actionHandler;
-    id featureAvailability;
-    id paidAccessChecker;
-    id readingList;
 }
 
 @end

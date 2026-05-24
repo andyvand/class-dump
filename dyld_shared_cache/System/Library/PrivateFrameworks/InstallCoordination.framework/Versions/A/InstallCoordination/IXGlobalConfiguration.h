@@ -9,46 +9,38 @@
 @interface IXGlobalConfiguration
 {
     struct os_unfair_lock_s _dynamicPropertyLock;
-    unsigned int _daemonUID;
-    unsigned int _daemonGID;
-    NSURL *_dataStorageHome;
-    NSURL *_daemonUserHome;
-    NSURL *_rootPath;
 }
 
-+ (id);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)s;
+- (id)҅	;
 - (id);
 - (unsigned int);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)RW;
+- (unsigned int)pix.r, midPix, effectAmount.z); 
+pix.gb = pix.gb * (1.0 + k.w * ccAmount); 
+return pix; 
+} 
+;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)œ;
 - (void);
 - (id);
 - (_Bool)Connection unregisterForUpdatesForAppInstallCoordinatorWithUUID:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int daemonGID; // @synthesize daemonGID=_daemonGID;
-@property(readonly, nonatomic) unsigned int daemonUID; // @synthesize daemonUID=_daemonUID;
 @property(readonly, nonatomic) NSURL *daemonUserHome; // @synthesize daemonUserHome=_daemonUserHome;
-@property(readonly, nonatomic) NSURL *dataStorageHome; // @synthesize dataStorageHome=_dataStorageHome;
-@property(readonly, nonatomic) NSURL *frameworkURL;
-@property(readonly, nonatomic) _Bool isiPad;
-@property(readonly, nonatomic) NSURL *rootPath; // @synthesize rootPath=_rootPath;
-@property(readonly, nonatomic) NSURL *userVolumeURL;
 
 @end
 

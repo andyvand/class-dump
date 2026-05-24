@@ -9,13 +9,6 @@
 @interface CoreSuggestionsUI.SGWalletPassSuggestion
 {
     void suggestionDelegate;
-    id state;
-    id identifier;
-    id passDictionary;
-    id logger;
-    id realtime;
-    id passViewManager;
-    id bannerForVisionDevice;
 }
 
 - (long long);
@@ -25,12 +18,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);

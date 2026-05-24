@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _ICLLRadioSeed;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLRadioSource
 {
     NSString *_featureName;
-    _ICLLRadioSeed *_seed;
-    NSString *_stationId;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)p;
 - (_Bool);
 - (id);
 - (id);

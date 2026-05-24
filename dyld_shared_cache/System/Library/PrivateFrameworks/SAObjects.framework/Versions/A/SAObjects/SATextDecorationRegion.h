@@ -6,26 +6,17 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SATextDecorationRegion : AceObject
 {
 }
 
-+ (id);
++ (id)қ_;
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *length;
-@property(copy, nonatomic) NSString *property;
-@property(copy, nonatomic) NSNumber *start;
-@property(readonly) Class superclass;
 
 @end
 

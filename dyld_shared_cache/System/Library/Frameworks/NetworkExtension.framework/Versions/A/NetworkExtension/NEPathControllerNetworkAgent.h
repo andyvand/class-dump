@@ -6,62 +6,45 @@
 
 #import <NetworkExtension/NENetworkAgent.h>
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NEPathControllerNetworkAgent : NENetworkAgent
 {
     _Bool updateClientsImmediately;
-    _Bool _isForcedAdvisory;
-    _Bool _weakAdvisory;
-    _Bool _noAdvisoryTimer;
-    _Bool _preferAdvisory;
-    CDUnknownBlockType _internalAssertHandler;
-    CDUnknownBlockType _internalUnassertHandler;
-    NSMutableArray *_predictedInterfaceArray;
-    NSMutableArray *_advisoryInterfaceArray;
-    NSString *_advisoryAgentDomain;
-    NSString *_advisoryAgentType;
 }
 
 + (id);
 + (id);
 - (void);
+- (id)_CKKSControl;
 - (id);
+- (id)tring"16;
+- (_Bool)BluetoothHCIAuthenticationComplete:inStatus:inAuthenticationResults: /* Error: Ran out of types for this method. */;
+- (_Bool)mockedDisableAutoUnlockForDevice: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 - (id);
+- (void);
+- (void)ld;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void)Flow";
 
 // Remaining properties
-@property(retain) NSString *advisoryAgentDomain; // @synthesize advisoryAgentDomain=_advisoryAgentDomain;
-@property(retain) NSString *advisoryAgentType; // @synthesize advisoryAgentType=_advisoryAgentType;
-@property(retain) NSMutableArray *advisoryInterfaceArray; // @synthesize advisoryInterfaceArray=_advisoryInterfaceArray;
-@property(nonatomic) _Bool isForcedAdvisory; // @synthesize isForcedAdvisory=_isForcedAdvisory;
-@property _Bool noAdvisoryTimer; // @synthesize noAdvisoryTimer=_noAdvisoryTimer;
 @property(retain) NSMutableArray *predictedInterfaceArray; // @synthesize predictedInterfaceArray=_predictedInterfaceArray;
-@property _Bool preferAdvisory; // @synthesize preferAdvisory=_preferAdvisory;
-@property _Bool weakAdvisory; // @synthesize weakAdvisory=_weakAdvisory;
 
 @end
 

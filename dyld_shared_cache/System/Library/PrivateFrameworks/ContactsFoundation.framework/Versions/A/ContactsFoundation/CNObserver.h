@@ -10,10 +10,10 @@
 
 + (void);
 + (id);
++ (id)superclass;
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (void)favoritesEntryDictionariesAtPath:(id)arg1 error:(id)arg2;
 + (void);
 + (id);
 + (void);

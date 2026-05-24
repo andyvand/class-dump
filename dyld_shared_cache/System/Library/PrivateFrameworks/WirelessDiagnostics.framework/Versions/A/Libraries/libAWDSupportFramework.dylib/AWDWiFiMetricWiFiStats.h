@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWifiStats;
-
 @interface AWDWiFiMetricWiFiStats
 {
     unsigned long long _timestamp;
-    AWDWifiStats *_wifiStats;
-    CDStruct_b5306035 _has;
 }
 
 - (id);
@@ -20,22 +16,19 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long)i/;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)ו;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id),;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) _Bool hasWifiStats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) AWDWifiStats *wifiStats; // @synthesize wifiStats=_wifiStats;
 
 @end
 

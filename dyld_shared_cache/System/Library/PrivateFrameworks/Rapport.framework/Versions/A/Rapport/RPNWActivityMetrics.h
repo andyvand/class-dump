@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 @interface RPNWActivityMetrics
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_nw_activity> *_nwActivity;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)8h;
 - (void);
 - (void);
 

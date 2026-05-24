@@ -5,5 +5,6 @@
 //
 
 @protocol ICPeerMessageControllerDelegate
+- (_Bool)posixAccount;
 @end
 

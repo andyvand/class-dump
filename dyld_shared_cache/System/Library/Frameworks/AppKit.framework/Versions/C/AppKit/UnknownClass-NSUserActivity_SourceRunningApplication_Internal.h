@@ -7,10 +7,10 @@
 @class NSRunningApplication;
 
 @interface UnknownClass (NSUserActivity_SourceRunningApplication_Internal)
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSRunningApplication *_sourceRunningApplication;
+@property(retain, setter=_setSourceRunningApplication:) NSRunningApplication *_sourceRunningApplication;
 @end
 

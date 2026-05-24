@@ -5,5 +5,6 @@
 //
 
 @protocol VCMediaStreamSyncSource
+- (void);
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPortraitEffectsMatte, NSString, NUColorSpace;
+@class AVPortraitEffectsMatte;
 
 @interface NUAuxiliaryImageAVPortraitEffectsMatte
 {
     long long _auxiliaryImageType;
-    struct CGImageMetadata *metadata;
-    NUColorSpace *colorSpace;
-    AVPortraitEffectsMatte *_avPortraitEffectsMatte;
 }
 
 - (id);
-- (id);
+- (id);
 - (struct __CVBuffer *);
 - (id);
 - (id);
@@ -28,20 +25,10 @@
 - (id);
 - (struct CGImageMetadata *);
 - (id);
-- (void)portsPacked10BitsFormats;
+- (void)supportsPacked10BitsFormats;
 
 // Remaining properties
-@property(readonly) long long auxiliaryImageType; // @synthesize auxiliaryImageType=_auxiliaryImageType;
 @property(readonly) AVPortraitEffectsMatte *avPortraitEffectsMatte; // @synthesize avPortraitEffectsMatte=_avPortraitEffectsMatte;
-@property(readonly, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGImageMetadata *metadata; // @synthesize metadata;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface UnknownClass (AMSFPDI)
 + (id);
@@ -27,14 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) NSData *ams_SHA1;
 @property(readonly) NSData *ams_compressedData;
-@property(readonly) NSData *ams_decompressedData;
-@property(readonly) NSString *ams_hexAddressDescription;
-@property(readonly) NSString *ams_nvramDescription;
 @end
 

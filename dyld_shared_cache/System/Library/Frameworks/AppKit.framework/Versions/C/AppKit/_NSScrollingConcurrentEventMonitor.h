@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _NSScrollingPerfLogger, _NSScrollingPredominantAxisFilter;
-@protocol _NSScrollStateEventListener;
-
 __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentEventMonitor
 {
@@ -22,43 +19,32 @@ __attribute__((visibility("hidden")))
         unsigned int deltaIsAccelerated:1;
         unsigned int reserved:23;
     } _flags;
-    id _monitorID;
-    _Bool *_isCancelledPtr;
-    unsigned long long _originalGestureMask;
-    CDUnknownBlockType _eventProcessingHandler;
-    id <_NSScrollStateEventListener> _scrollStateDelegate;
-    _NSScrollingPerfLogger *_perfLogger;
-    _NSScrollingPredominantAxisFilter *_predominantAxisFilter;
-    _NSScrollingPredominantAxisFilter *_backupPredominantAxisFilter;
-    struct CGPoint _delta;
-    struct CGPoint _velocity;
-    struct CGPoint _backupVelocity;
-    long long _deviceType;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
+- (void)<P;
+- (void)p;
+- (id)get matching dictionary for %d:%s
+ /* Error: Ran out of types for this method. */;
+- (long long)P5ebtEFA;
+- (id)3J6m0aY3NYeqcg;
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
 - (CDStruct_e3b9714e);
 - (void);
-- (void);
-- (void);
+- (void)usage for FS-backed cache at %@. Errno=%{errno}d;
+- (void)B;
 - (void);
 - (struct CGPoint);
 - (long long)x¼;
@@ -67,19 +53,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)hìµ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint delta;
-@property(readonly, nonatomic) _Bool deltaIsAccelerated;
 @property(readonly, nonatomic) long long deviceType;
-@property(copy, nonatomic) CDUnknownBlockType eventProcessingHandler;
-@property(nonatomic) __weak _NSScrollingPerfLogger *perfLogger;
-@property(nonatomic) long long predominantAxisMode;
-@property(nonatomic) __weak id <_NSScrollStateEventListener> scrollStateDelegate;
-@property(nonatomic) _Bool shouldCoalesceDeltas;
-@property(nonatomic) _Bool shouldIgnoreConsumption;
-@property(nonatomic) _Bool shouldStopMonitoringOnMomentumEnd;
-@property(nonatomic) _Bool shouldUseUnacceleratedDelta;
-@property(readonly, nonatomic) struct CGPoint velocity;
-@property(nonatomic) _Bool wantsGestureEvents;
 
 @end
 

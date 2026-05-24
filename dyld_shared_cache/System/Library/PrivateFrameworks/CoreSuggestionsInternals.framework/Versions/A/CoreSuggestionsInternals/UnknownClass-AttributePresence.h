@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (AttributePresence)
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ableView"16@"NSTableColumn"24q32;
+- (_Bool)webView:(id)arg1 runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)AUTH_NOTIF_TITLE;
 @end
 

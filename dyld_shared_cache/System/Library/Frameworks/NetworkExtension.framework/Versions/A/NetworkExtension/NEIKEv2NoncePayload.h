@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)p:pid:uuid:query:hasEntitlement:completionQueue:handler: /* Error: Ran out of types for this method. */;
+- (void)showLocalNetworkAlertForApp:pid:uuid:query:hasEntitlement:completionQueue:handler: /* Error: Ran out of types for this method. */;
 - (id)onKey:(int)arg1 integrityProtocol:(unsigned long long)arg2 outgoingIntegrityKey:incomingIntegrityKey:] /* Error: Ran out of types for this method. */;
 
 @end

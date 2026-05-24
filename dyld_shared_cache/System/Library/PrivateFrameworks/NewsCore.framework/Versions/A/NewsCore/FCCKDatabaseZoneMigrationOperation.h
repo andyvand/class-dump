@@ -6,19 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class CKRecordZoneID, FCCKPrivateDatabase, NSMutableArray, NSMutableSet;
-@protocol FCCKDatabaseMigrator, FCCKZonePruningAssistant;
+@class FCCKPrivateDatabase;
 
 @interface FCCKDatabaseZoneMigrationOperation : FCOperation
 {
     FCCKPrivateDatabase *_database;
-    CKRecordZoneID *_recordZoneID;
-    id <FCCKDatabaseMigrator> _migrator;
-    id <FCCKZonePruningAssistant> _pruningAssistant;
-    CDUnknownBlockType _migrationCompletionHandler;
-    NSMutableSet *_createdZones;
-    NSMutableArray *_resultZoneIDsEligibleForDeletion;
-    NSMutableArray *_resultRecordIDsEligibleForDeletion;
 }
 
 - (void);

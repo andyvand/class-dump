@@ -5,5 +5,9 @@
 //
 
 @protocol AVCaptureVideoDataOutputSampleBufferDelegate_Tundra
+
+@optional
+- (void)_infoDictionary;
+- (void)ng",&,N,V_quaternaryTextColorHex;
 @end
 

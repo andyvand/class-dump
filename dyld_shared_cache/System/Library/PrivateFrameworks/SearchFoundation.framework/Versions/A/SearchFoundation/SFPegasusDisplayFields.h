@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface SFPegasusDisplayFields
 {
     NSString *_displayStatus;
-    NSDate *_departureTime;
-    NSDate *_arrivalTime;
 }
 
 + (_Bool);
@@ -20,29 +18,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setSectionIndexTitleIndex:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)othing.;
 - (id);
+- (id)PHPhotosErrorLibraryInFileProviderSyncRoot;
+- (id)OCRAnalysis;
 - (id);
-- (id);
-- (id);
-- (void):height: /* Error: Ran out of types for this method. */;
+- (void)_sf_urlForSettings:shouldResize:width:height: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *arrivalTime; // @synthesize arrivalTime=_arrivalTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSDate *departureTime; // @synthesize departureTime=_departureTime;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *displayStatus; // @synthesize displayStatus=_displayStatus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void)form3D:(id)arg1;
+- (void)e";
+- (void)CKSyncStateDelegate>";
+- (_Bool)setLastTUConversationCreatedDate: /* Error: Ran out of types for this method. */;
+- (void)is service, we don't allow it when Messages is uninstalled:(id)arg1 %@;
+- (void)_setTransform3D:(id)arg1;
 
 @end
 

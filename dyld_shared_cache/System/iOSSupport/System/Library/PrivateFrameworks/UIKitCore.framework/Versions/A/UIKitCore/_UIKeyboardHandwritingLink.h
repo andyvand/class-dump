@@ -6,17 +6,11 @@
 
 #import <UIKitCore/UIResponder.h>
 
-@class NSString, TIKeyboardCandidateResultSet;
-@protocol UIKeyboardCandidateListDelegate;
+@class TIKeyboardCandidateResultSet;
 
 @interface _UIKeyboardHandwritingLink : UIResponder
 {
     UIResponder *_previousResponder;
-    UIResponder *_fallbackResponder;
-    id <UIKeyboardCandidateListDelegate> _candidateListDelegate;
-    long long _selectedIndex;
-    _Bool _justDeleted;
-    TIKeyboardCandidateResultSet *_candidateSet;
 }
 
 - (id);
@@ -30,14 +24,14 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ersation"24@"TUConversation"32;
+- (_Bool)setRegistrationStatus:error:alertInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)setRecordZoneChangeTokensUpdatedBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)cipeDataTags:(id)arg1;
+- (void)_roomName;
+- (id)_retryPeerRequestWithRetry: /* Error: Ran out of types for this method. */;
+- (void)_retryIntervalToEnableMicByDefaultForAttempt:(id)arg1;
+- (void)_reregisterAndReidentify:(unsigned long long)arg1;
 - (id);
 - (void);
 - (_Bool);
@@ -53,13 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardCandidateResultSet *candidateSet; // @synthesize candidateSet=_candidateSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

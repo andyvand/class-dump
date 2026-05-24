@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UILabel;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerAlbumCell
 {
     UIImageView *_imageView;
-    UILabel *_titleLabel;
-    UILabel *_artistLabel;
 }
 
 - (void);
@@ -25,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)Controller;
 
 // Remaining properties
-@property(nonatomic) __weak UILabel *artistLabel; // @synthesize artistLabel=_artistLabel;
 @property(nonatomic) __weak UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) __weak UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

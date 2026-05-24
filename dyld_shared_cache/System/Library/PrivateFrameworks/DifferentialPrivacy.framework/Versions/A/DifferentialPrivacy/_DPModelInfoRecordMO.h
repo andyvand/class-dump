@@ -11,7 +11,5 @@
 
 // Remaining properties
 @property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(nonatomic) short majorVersion; // @dynamic majorVersion;
-@property(nonatomic) short minorVersion; // @dynamic minorVersion;
 @end
 

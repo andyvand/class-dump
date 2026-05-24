@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMCollaborationClearTransmission
 {
     NSString *_collaborationId;
-    NSDate *_date;
-    NSString *_guidString;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (id);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *collaborationId; // @synthesize collaborationId=_collaborationId;
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSString *guidString; // @synthesize guidString=_guidString;
 
 @end
 

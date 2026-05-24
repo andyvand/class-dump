@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INTaskList, NSArray, NSString;
-
 @interface INAddTasksIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)ationQueue;
 + (int);
 + (long long);
-+ (_Bool);
++ (_Bool)So22QLFileThumbnailRequestC;
 + (_Bool);
 - (void);
 - (void);
@@ -27,27 +25,17 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)0*;
 - (id);
 - (void);
-- (void);
+- (void)_includeScanResults;
 - (id);
 - (id);
 - (unsigned long long);
-- (long long)ictionaryLanguageCode;
+- (long long)__INCodableAttributePromptDialogFormatStringDictionaryLanguageCode;
 
 // Remaining properties
-@property(copy) NSArray *addedTasks;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INTaskList *modifiedTaskList;
-@property(readonly) Class superclass;
-@property unsigned long long warnings;
 
 @end
 

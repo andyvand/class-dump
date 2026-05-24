@@ -5,5 +5,8 @@
 //
 
 @protocol EKCalendarChooserDelegate
+
+@optional
+- (void);
 @end
 

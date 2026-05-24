@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol NUDevice, NUDisplay;
+@class NSArray;
 
 @interface NUPlatform
 {
     _Bool _supportsAutomaticGraphicsSwitching;
-    _Bool _hasDiscreteGPU;
-    _Bool _hasHeadlessGPU;
-    _Bool _hasExtendedColorDisplay;
-    _Bool _supportsANE;
-    NSString *_name;
-    NSArray *_devices;
-    id <NUDevice> _integratedDevice;
-    id <NUDevice> _discreteDevice;
-    id <NUDevice> _headlessDevice;
-    id <NUDevice> _cpuDevice;
 }
 
-+ (id);
++ (id)awForExternalClient;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)8h;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -44,9 +33,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/asn1/evp_asn1.c;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -61,24 +50,7 @@
 - (void)uA;
 
 // Remaining properties
-@property(retain, nonatomic) id <NUDevice> cpuDevice; // @synthesize cpuDevice=_cpuDevice;
-@property(readonly, nonatomic) _Bool defaultSupportsLiveVideoRendering;
 @property(copy, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(retain, nonatomic) id <NUDevice> discreteDevice; // @synthesize discreteDevice=_discreteDevice;
-@property(readonly, nonatomic) NSArray *displays;
-@property(readonly, nonatomic) _Bool hasDiscreteGPU; // @synthesize hasDiscreteGPU=_hasDiscreteGPU;
-@property(nonatomic) _Bool hasExtendedColorDisplay; // @synthesize hasExtendedColorDisplay=_hasExtendedColorDisplay;
-@property(nonatomic) _Bool hasHeadlessGPU; // @synthesize hasHeadlessGPU=_hasHeadlessGPU;
-@property(retain, nonatomic) id <NUDevice> headlessDevice; // @synthesize headlessDevice=_headlessDevice;
-@property(retain, nonatomic) id <NUDevice> integratedDevice; // @synthesize integratedDevice=_integratedDevice;
-@property(readonly, nonatomic, getter=isVirtualMachine) _Bool isVirtualMachine;
-@property(readonly, nonatomic) id <NUDevice> mainDevice;
-@property(readonly, nonatomic) id <NUDisplay> mainDisplay;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool supportsANE; // @synthesize supportsANE=_supportsANE;
-@property(nonatomic) _Bool supportsAutomaticGraphicsSwitching; // @synthesize supportsAutomaticGraphicsSwitching=_supportsAutomaticGraphicsSwitching;
-@property(readonly, nonatomic) _Bool supportsLiveVideoRendering;
-@property(readonly, nonatomic) _Bool supportsSemanticStyleRendering;
 
 @end
 

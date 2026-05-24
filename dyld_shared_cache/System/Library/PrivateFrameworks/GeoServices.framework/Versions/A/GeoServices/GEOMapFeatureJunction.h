@@ -9,37 +9,29 @@
 @interface GEOMapFeatureJunction
 {
     CDStruct_2c43369c _coordinate;
-    _Bool _isOnTileBorder;
-    CDStruct_6e3f967a _tilePoint;
-    GEOVectorTile *_tile;
-    struct GeoCodecsConnectivityJunction *_connectivityJunction;
 }
 
-+ (id);
-+ (_Bool);
++ (id)bLocality
+City State
+ZIP
+Country;
++ (_Bool)kh;
 + (struct GeoCodecsConnectivityJunction *);
-- (CDStruct_6e3f967a);
+- (CDStruct_b2fbf00d);
 - (struct GeoCodecsConnectivityJunction *);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (CDStruct_c3b9c2ee)0@ù
 × ;
-- (id)ransitAccessPointCount;
-- (id)PreserveStyleInUpdates: /* Error: Ran out of types for this method. */;
+- (id)transitAccessPointCount;
+- (id)setHasPreserveStyleInUpdates: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void)LE½ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct GeoCodecsConnectivityJunction *connectivityJunction;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(readonly, nonatomic) _Bool isOnTileBorder; // @synthesize isOnTileBorder=_isOnTileBorder;
-@property(readonly, nonatomic) unsigned long long junctionIndex;
-@property(readonly, nonatomic) unsigned long long primaryID;
-@property(readonly, nonatomic) unsigned long long secondaryID;
 @property(readonly, nonatomic) GEOVectorTile *tile;
-@property(readonly, nonatomic) CDStruct_6e3f967a tilePoint;
 
 @end
 

@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (void)ent_postal_code;
+- (void)resident_postal_code;
 
 @end
 

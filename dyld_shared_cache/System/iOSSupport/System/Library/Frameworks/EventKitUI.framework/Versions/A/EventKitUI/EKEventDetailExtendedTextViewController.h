@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSString, UITextView;
+@class UITextView;
 @protocol EKEditItemViewControllerDelegate;
 
 @interface EKEventDetailExtendedTextViewController
 {
     UITextView *_textView;
-    NSString *_text;
-    NSString *_textToCopy;
-    EKEvent *_event;
 }
 
 - (void);
-- (id);
+- (id)&s;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -29,18 +26,6 @@
 @property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
 
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol WFFocusConfigurationRemoteViewControllerDelegate
+- (void);
 @end
 

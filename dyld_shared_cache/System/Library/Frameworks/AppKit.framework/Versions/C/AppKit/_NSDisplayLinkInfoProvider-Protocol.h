@@ -7,13 +7,10 @@
 @protocol _NSDisplayLinkInfoProvider;
 
 @protocol _NSDisplayLinkInfoProvider
++ (_Bool)_"^{TransportConnection}"__cntrl_"^{__shared_weak_count}};
+- (id <_NSDisplayLinkInfoProvider>);
 
 // Remaining properties
-@property(readonly) int _displayIDForDisplayLink;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Ti,?,R
-
 @property(readonly) id <_NSDisplayLinkInfoProvider> _parentDisplayLinkInfoProvider;
-@property(readonly) _Bool _shouldPauseDisplayLink;
 @end
 

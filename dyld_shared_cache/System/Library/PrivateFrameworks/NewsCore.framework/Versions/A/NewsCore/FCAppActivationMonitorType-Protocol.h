@@ -7,9 +7,9 @@
 @class NSDate;
 
 @protocol FCAppActivationMonitorType
+- (NSDate *);
 
 // Remaining properties
 @property(readonly) NSDate *lastActivationDate;
-@property(readonly) NSDate *lastBackgroundDate;
 @end
 

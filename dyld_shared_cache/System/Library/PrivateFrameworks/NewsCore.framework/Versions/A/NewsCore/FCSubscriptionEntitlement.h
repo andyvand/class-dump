@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface FCSubscriptionEntitlement
 {
     _Bool _newsAppPurchase;
-    _Bool _isTrialPeriod;
-    _Bool _isPurchaser;
-    _Bool _isAmplifyUser;
-    NSString *_servicesBundleAdamID;
-    NSNumber *_appAdamID;
-    NSString *_chargeCurrencyCode;
-    NSNumber *_inAppAdamID;
-    NSDate *_startDate;
-    NSDate *_expiryDate;
-    NSNumber *_initialPurchaseTimestamp;
-    NSNumber *_serviceBeginsTimestamp;
-    NSString *_vendorAdHocOfferID;
 }
 
 - (id);
@@ -31,9 +19,9 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -42,19 +30,7 @@
 - (_Bool)orFeedID:insertionToken:requestDate:reachedToOrder:extent:reachedEnd:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *appAdamID; // @synthesize appAdamID=_appAdamID;
-@property(readonly, nonatomic) NSString *chargeCurrencyCode; // @synthesize chargeCurrencyCode=_chargeCurrencyCode;
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly, nonatomic) NSNumber *inAppAdamID; // @synthesize inAppAdamID=_inAppAdamID;
-@property(readonly, nonatomic) NSNumber *initialPurchaseTimestamp; // @synthesize initialPurchaseTimestamp=_initialPurchaseTimestamp;
-@property(readonly, nonatomic) _Bool isAmplifyUser; // @synthesize isAmplifyUser=_isAmplifyUser;
-@property(readonly, nonatomic) _Bool isPurchaser; // @synthesize isPurchaser=_isPurchaser;
-@property(readonly, nonatomic) _Bool isTrialPeriod; // @synthesize isTrialPeriod=_isTrialPeriod;
-@property(readonly, nonatomic, getter=isNewsAppPurchase) _Bool newsAppPurchase; // @synthesize newsAppPurchase=_newsAppPurchase;
-@property(readonly, nonatomic) NSNumber *serviceBeginsTimestamp; // @synthesize serviceBeginsTimestamp=_serviceBeginsTimestamp;
 @property(readonly, nonatomic) NSString *servicesBundleAdamID; // @synthesize servicesBundleAdamID=_servicesBundleAdamID;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSString *vendorAdHocOfferID; // @synthesize vendorAdHocOfferID=_vendorAdHocOfferID;
 
 @end
 

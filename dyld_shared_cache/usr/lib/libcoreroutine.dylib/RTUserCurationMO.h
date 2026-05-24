@@ -6,30 +6,18 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSData, NSDate, NSString, NSUUID, RTDeviceMO, RTMapItemMO;
+@class NSUUID;
 
 @interface RTUserCurationMO : RTCloudManagedObject
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)"b1};
++ (id)};
++ (id)state:%u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(retain, nonatomic) NSData *ckRecordSystemFields; // @dynamic ckRecordSystemFields;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) RTMapItemMO *curatedLabel; // @dynamic curatedLabel;
-@property(retain, nonatomic) RTDeviceMO *device; // @dynamic device;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(nonatomic) long long flags; // @dynamic flags;
 @property(retain, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) RTMapItemMO *originalLabel; // @dynamic originalLabel;
-@property(copy, nonatomic) NSDate *submissionDate; // @dynamic submissionDate;
-@property(copy, nonatomic) NSDate *visitEntryDate; // @dynamic visitEntryDate;
-@property(copy, nonatomic) NSDate *visitExitDate; // @dynamic visitExitDate;
-@property(retain, nonatomic) NSUUID *visitIdentifier; // @dynamic visitIdentifier;
 
 @end
 

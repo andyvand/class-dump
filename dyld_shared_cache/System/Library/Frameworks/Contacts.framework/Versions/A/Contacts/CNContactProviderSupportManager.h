@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactProviderSupportModerator, CNContainer, Contacts.CNContactProviderSupportHost, NSString;
+@class NSString;
 
 @interface CNContactProviderSupportManager
 {
     NSString *_clientLoggingIdentifier;
-    Contacts.CNContactProviderSupportHost *_providerHost;
-    CNContactProviderSupportModerator *_moderator;
 }
 
 + (_Bool);
@@ -31,7 +29,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Ҡ;
 - (_Bool);
 - (id);
 - (id);
@@ -40,9 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *clientLoggingIdentifier; // @synthesize clientLoggingIdentifier=_clientLoggingIdentifier;
-@property(retain, nonatomic) CNContactProviderSupportModerator *moderator; // @synthesize moderator=_moderator;
-@property(readonly, nonatomic) CNContainer *providerContainer;
-@property(retain, nonatomic) Contacts.CNContactProviderSupportHost *providerHost; // @synthesize providerHost=_providerHost;
 
 @end
 

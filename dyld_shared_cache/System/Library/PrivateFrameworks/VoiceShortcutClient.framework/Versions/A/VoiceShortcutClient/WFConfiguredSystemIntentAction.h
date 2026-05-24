@@ -6,26 +6,24 @@
 
 #import <VoiceShortcutClient/WFConfiguredSystemAction.h>
 
-@class INAppIntent, NSArray, WFExecutableAppShortcutIdentifier;
+@class INAppIntent;
 
 @interface WFConfiguredSystemIntentAction : WFConfiguredSystemAction
 {
     INAppIntent *_intent;
-    WFExecutableAppShortcutIdentifier *_appShortcutIdentifier;
-    NSArray *_contextualParameters;
 }
 
 + (_Bool);
-- (void);
-- (void);
+- (void)3|;
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)fz;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -34,8 +32,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) WFExecutableAppShortcutIdentifier *appShortcutIdentifier; // @synthesize appShortcutIdentifier=_appShortcutIdentifier;
-@property(retain, nonatomic) NSArray *contextualParameters; // @synthesize contextualParameters=_contextualParameters;
 @property(retain, nonatomic) INAppIntent *intent; // @synthesize intent=_intent;
 
 @end

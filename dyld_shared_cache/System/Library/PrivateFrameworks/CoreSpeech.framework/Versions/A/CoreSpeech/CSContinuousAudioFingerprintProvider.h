@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioCircularBuffer, CSAudioStream, CSPlainAudioFileWriter, CSPolicy, NSHashTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 @interface CSContinuousAudioFingerprintProvider
 {
     _Bool _isListenPollingStarting;
-    float _currentMaximumBufferSize;
-    NSHashTable *_observers;
-    CSAudioStream *_audioStream;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSAudioCircularBuffer *_audioLoggingBuffer;
-    CSPlainAudioFileWriter *_audioFileWriter;
-    NSMutableDictionary *_inUseServices;
-    CSPolicy *_enablePolicy;
-    unsigned long long _frameSkipCounter;
-    unsigned long long _frameSkipRate;
 }
 
 - (void);
@@ -29,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -40,49 +29,32 @@
 - (void);
 - (void);
 - (void);
+- (void)not enabled;
 - (void);
 - (void);
+- (void)@;
 - (void);
+- (void)[;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void)initWithDDScannerResult:(id)arg1 observation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)audioStreamHoldings;
 - (void)%@];
 - (id)ggerFirstPassInfo:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CSPlainAudioFileWriter *audioFileWriter; // @synthesize audioFileWriter=_audioFileWriter;
-@property(retain, nonatomic) CSAudioCircularBuffer *audioLoggingBuffer; // @synthesize audioLoggingBuffer=_audioLoggingBuffer;
-@property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(nonatomic) float currentMaximumBufferSize; // @synthesize currentMaximumBufferSize=_currentMaximumBufferSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CSPolicy *enablePolicy; // @synthesize enablePolicy=_enablePolicy;
-@property(nonatomic) unsigned long long frameSkipCounter; // @synthesize frameSkipCounter=_frameSkipCounter;
-@property(nonatomic) unsigned long long frameSkipRate; // @synthesize frameSkipRate=_frameSkipRate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *inUseServices; // @synthesize inUseServices=_inUseServices;
-@property(nonatomic) _Bool isListenPollingStarting; // @synthesize isListenPollingStarting=_isListenPollingStarting;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

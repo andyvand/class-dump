@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AFSpeechMessagesContext
 {
     NSString *_sender;
-    NSArray *_messages;
 }
 
 + (_Bool);
@@ -20,12 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)erValue;
+- (void)_af_messageIdentifierValue;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
 @property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
 
 @end

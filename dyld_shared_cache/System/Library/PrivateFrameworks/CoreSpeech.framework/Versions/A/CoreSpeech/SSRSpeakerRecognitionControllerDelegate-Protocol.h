@@ -5,5 +5,9 @@
 //
 
 @protocol SSRSpeakerRecognitionControllerDelegate
+
+@optional
+- (void)8 ;
+- (void);
 @end
 

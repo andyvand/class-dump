@@ -9,10 +9,10 @@
     long long _technology;
 }
 
-- (_Bool);
-- (long long);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)ACA; border-radius:15px; height:134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (long long)time_isGregorian;
+- (_Bool)EFPropertyKey_emailAddresses;
+- (unsigned long long)EMQueryingCollection;
 - (_Bool);
 - (id);
 - (id);

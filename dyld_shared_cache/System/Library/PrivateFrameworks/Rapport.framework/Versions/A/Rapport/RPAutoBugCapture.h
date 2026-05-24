@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SDRDiagnosticReporter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface RPAutoBugCapture
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    SDRDiagnosticReporter *_reporter;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)p;
+- (id)h*;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly, nonatomic) SDRDiagnosticReporter *reporter; // @synthesize reporter=_reporter;
 
 @end
 

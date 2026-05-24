@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _CHSControlConfigurationHost
 {
     NSString *_identifier;
-    NSArray *_configurations;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hR;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *controlConfigurations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
 
 @end
 

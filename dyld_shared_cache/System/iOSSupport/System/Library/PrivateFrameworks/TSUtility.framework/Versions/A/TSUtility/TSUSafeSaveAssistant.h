@@ -9,11 +9,9 @@
 @interface TSUSafeSaveAssistant
 {
     NSURL *_saveURL;
-    NSURL *_temporaryDirectoryURL;
-    NSURL *_writeURL;
 }
 
-+ (id);
++ (id)ntentContributorP;
 + (void);
 + (_Bool);
 + (void);

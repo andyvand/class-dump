@@ -15,17 +15,15 @@
 - (float);
 - (id);
 - (id);
-- (id);
+- (id);
 - (const float *);
-- (void);
+- (void)letenessFirstTimeBucket:(id)arg1 pipelineCompletenessSecondBucket:pipelineCompletenessThirdBucket: /* Error: Ran out of types for this method. */;
 - (float);
-- (id);
+- (id)?;
 - (id)E ´½?øu&±_=Ä?toUÀ~·?£PvÜxµ?uD7`ëª?;
 
 // Remaining properties
-@property(readonly, nonatomic) float maximumValue;
 @property(readonly, nonatomic) float thresholdValue;
-@property(readonly, nonatomic) const float *transform;
 
 @end
 

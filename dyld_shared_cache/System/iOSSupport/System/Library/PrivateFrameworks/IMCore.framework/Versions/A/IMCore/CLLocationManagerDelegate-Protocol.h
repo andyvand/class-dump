@@ -7,6 +7,15 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (_Bool)WebPageProxy_LogDiagnosticMessageWithDomainFromWebProcess;
+- (void)WebPageProxy_LogDiagnosticMessageFromWebProcess;
+- (void)WebPageProxy_IsPotentialTapInProgressReply;
+- (void)WebPageProxy_IsPlayingMediaDidChange;
+- (void)WebPageProxy_IsAnyAnimationAllowedToPlayDidChange;
+- (void)WebPageProxy_ImageOrMediaDocumentSizeChanged;
+- (void)WebPageProxy_HidePopupMenu;
+- (void)H;
+- (void);
 - (void)32B36;
 @end
 

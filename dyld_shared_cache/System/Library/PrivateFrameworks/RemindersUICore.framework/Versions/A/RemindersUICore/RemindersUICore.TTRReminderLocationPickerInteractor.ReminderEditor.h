@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationPickerInteractor.ReminderEditor
 {
     id reminderChangeItem;
-    id undoManager;
-    id reminderChangeItemCancellable;
 }
 
 @end

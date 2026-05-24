@@ -6,7 +6,7 @@
 
 #import <AVFCapture/AVCaptureFileOutput_Tundra.h>
 
-@class AVCaptureAudioFileOutputInternal_Tundra, NSArray, NSDictionary;
+@class AVCaptureAudioFileOutputInternal_Tundra, NSArray;
 
 @interface AVCaptureAudioFileOutput_Tundra : AVCaptureFileOutput_Tundra
 {
@@ -17,11 +17,14 @@
 + (id);
 + (id);
 + (void)%.2f | %.2f %.2f %.2f %.2f | %.2f %.2f %.2f %.2f] pixelSize:%.3f mm%@, ref:{%.0fx%.0f} /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (id)%@ does not match supported classes:%@ /* Error: Ran out of types for this method. */;
+- (void)rted>;
+- (_Bool)ameworks/MediaPlayer.framework/MediaPlayer;
+- (void)p;
+- (void)xtColor:(id)arg1 %@ (%@)
+  secondaryTextColor:(struct OpaqueCMIOGraph *)arg2 %@ (%@)
+  tertiaryTextColor:(id)arg3 %@ (%@)
+);
 - (long long);
 - (CDStruct_1b6d18a9);
 - (id);
@@ -49,7 +52,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -66,19 +69,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void));
+- (void)preferredMasterPortTypeForFrameStatisticsByPortType:zoomFactor: /* Error: Ran out of types for this method. */;
+- (id)NoiseReductionLightLevel;
 - (id);
+- (void)lic}d;
 - (id);
-- (void);
-- (id);
-- (id)ed;
-- (id)aptureDepthDataOutputDelegate_Tundra;
+- (id)isStereoCaptureSupported;
+- (id)AVCaptureDepthDataOutputDelegate_Tundra;
 - (void)side the supported range - use activeFormat.minISO and activeFormat.maxISO;
 - (_Bool)nternal->audioChannelLevels.count );
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *audioSettings;
 @property(copy, nonatomic) NSArray *metadata;
 
 @end

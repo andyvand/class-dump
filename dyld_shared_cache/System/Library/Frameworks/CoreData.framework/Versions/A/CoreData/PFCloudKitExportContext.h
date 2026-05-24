@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PFCloudKitExporterOptions;
+@class PFCloudKitExporterOptions;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitExportContext
 {
     PFCloudKitExporterOptions *_options;
-    unsigned long long _totalBytes;
-    unsigned long long _totalRecords;
-    unsigned long long _totalRecordIDs;
-    NSMutableArray *_writtenAssetURLs;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSHTTPURLResponse;
+@class NSHTTPURLResponse;
 
 @interface AKBasicServerResponse
 {
     NSHTTPURLResponse *_httpResponse;
-    NSData *_data;
 }
 
 + (_Bool);
+- (id);
+- (id);
+- (void);
+- (id)\;
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)k:o:fw:AppStoreComponents /* Error: Ran out of types for this method. */;
+- (void)softlink:o:fw:AppStoreComponents /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(retain, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
 
 @end

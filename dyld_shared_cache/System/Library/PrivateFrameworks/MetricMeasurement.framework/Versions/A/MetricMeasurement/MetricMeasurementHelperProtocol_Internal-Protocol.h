@@ -5,5 +5,6 @@
 //
 
 @protocol MetricMeasurementHelperProtocol_Internal
+- (void);
 @end
 

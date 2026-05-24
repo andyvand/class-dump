@@ -14,14 +14,13 @@
 }
 
 - (id);
-- (unsigned long long);
-- (int);
+- (unsigned long long)ਾਦਿਤ:%@ /* Error: Ran out of types for this method. */;
+- (int)kipped deactivating %@ because it is active and requested inactive only.;
 - (id);
 - (void)SessionRequestProtobuf",&,N,V_playbackSessionRequest;
 
 // Remaining properties
 @property(readonly, nonatomic) MRAVOutputDevice *route;
-@property(readonly, nonatomic) int status;
 
 @end
 

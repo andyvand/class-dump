@@ -6,27 +6,11 @@
 
 #import <SearchUI/SearchUITableViewController.h>
 
-@class NSArray, NSDate, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSString, NSTimer, SFSearchResult;
-@protocol SearchUIDragAndDropDelegate, SearchUIInteractionDelegate;
+@class NSMutableDictionary;
 
 @interface SearchUIResultsTableViewController : SearchUITableViewController
 {
     _Bool _presentsAlternateDetails;
-    _Bool _selectAlternateResult;
-    NSArray *_sections;
-    id <SearchUIDragAndDropDelegate> _dragAndDropDelegate;
-    NSObject<SearchUIInteractionDelegate> *_interactionDelegate;
-    NSMutableDictionary *_indexPathForRowNumber;
-    NSMutableOrderedSet *_latestVisibleResultsAccountedForInFeedback;
-    double _lastScrollLocation;
-    id _monitor;
-    SFSearchResult *_savedSelectedResult;
-    NSTimer *_alternateDetailsTimer;
-    NSDate *_alternateDetailsTimerFireDate;
-    unsigned long long _numRows;
-    NSMutableSet *_expandedSections;
-    NSMutableSet *_sectionsThatHaveBeenExpanded;
-    NSString *_queryString;
 }
 
 - (id);
@@ -58,41 +42,41 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)SGQuickResponsesClassScore;
+- (id)SGMultiHeadEspressoModelCache;
+- (void)SGQuickResponsesModel;
+- (id)ickResponsesDatabase got unexpected migration result of 'step completed', will not use database;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)tionObserver;
+- (void);
+- (id)_environmentDidChangePublisher;
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
+- (void)rameworks/PowerLog.framework/Versions/A/PowerLog;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@16;
+- (void)imageByClampingToExtent;
 - (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
-- (void);
+- (void)T?%;
+- (void)B;
 - (id);
 - (id);
+- (void)CPLResourceTypeVideoMediumSize;
 - (void);
-- (void);
-- (void);
+- (void)thentication;
 - (id);
 - (void);
 - (unsigned long long);
@@ -100,29 +84,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *alternateDetailsTimer; // @synthesize alternateDetailsTimer=_alternateDetailsTimer;
-@property(retain, nonatomic) NSDate *alternateDetailsTimerFireDate; // @synthesize alternateDetailsTimerFireDate=_alternateDetailsTimerFireDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <SearchUIDragAndDropDelegate> dragAndDropDelegate; // @synthesize dragAndDropDelegate=_dragAndDropDelegate;
-@property(retain, nonatomic) NSMutableSet *expandedSections; // @synthesize expandedSections=_expandedSections;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMutableDictionary *indexPathForRowNumber; // @synthesize indexPathForRowNumber=_indexPathForRowNumber;
-@property(nonatomic) __weak NSObject<SearchUIInteractionDelegate> *interactionDelegate; // @synthesize interactionDelegate=_interactionDelegate;
-@property double lastScrollLocation; // @synthesize lastScrollLocation=_lastScrollLocation;
-@property(retain) NSMutableOrderedSet *latestVisibleResultsAccountedForInFeedback; // @synthesize latestVisibleResultsAccountedForInFeedback=_latestVisibleResultsAccountedForInFeedback;
-@property(retain, nonatomic) id monitor; // @synthesize monitor=_monitor;
-@property unsigned long long numRows; // @synthesize numRows=_numRows;
-@property(nonatomic) _Bool presentsAlternateDetails; // @synthesize presentsAlternateDetails=_presentsAlternateDetails;
-@property(retain, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain, nonatomic) SFSearchResult *savedSelectedResult; // @synthesize savedSelectedResult=_savedSelectedResult;
-@property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(retain, nonatomic) NSMutableSet *sectionsThatHaveBeenExpanded; // @synthesize sectionsThatHaveBeenExpanded=_sectionsThatHaveBeenExpanded;
-@property(nonatomic) _Bool selectAlternateResult; // @synthesize selectAlternateResult=_selectAlternateResult;
-@property(readonly) Class superclass;
 
 @end
 

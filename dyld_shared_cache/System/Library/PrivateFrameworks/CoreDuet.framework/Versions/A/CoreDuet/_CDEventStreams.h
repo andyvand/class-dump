@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface _CDEventStreams
 {
     _Bool _allStreamsLoaded;
-    NSDictionary *_allEventStreams;
-    NSDictionary *_allKBEventStreams;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)session_data_update_managed_display;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (void)B;
 + (id)24Q32@?40;
 - (void);
 - (void);
@@ -34,8 +30,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *allEventStreams; // @synthesize allEventStreams=_allEventStreams;
-@property(readonly, nonatomic) NSDictionary *allKBEventStreams; // @synthesize allKBEventStreams=_allKBEventStreams;
 @property(nonatomic) _Bool allStreamsLoaded; // @synthesize allStreamsLoaded=_allStreamsLoaded;
 
 @end

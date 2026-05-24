@@ -6,23 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSMutableArray, NSString, NSURL, PHFaceprint, PHObjectPlaceholder;
-@protocol PLChangesForServiceHandling;
+@class PHFaceprint;
 
 @interface PHFaceChangeRequest : PHChangeRequest
 {
     PHFaceprint *_faceprint;
-    _Bool _didSetFaceprint;
-    NSMutableArray *_detectionTraits;
-    _Bool _didSetDetectionTraits;
-    NSString *_associatedPersonUUID;
-    _Bool _didSetAssociatedPersonUUID;
-    NSString *_gazeRectString;
-    _Bool _didSetGazeRect;
-    int _nameSource;
-    _Bool _didSetNameSource;
-    _Bool _shouldClearFaceCropGenerationState;
-    NSURL *_associatedPersonLibraryURL;
 }
 
 + (id);
@@ -34,6 +22,7 @@
 - (unsigned short);
 - (_Bool);
 - (void);
+- (void)!@#;
 - (void);
 - (void);
 - (void);
@@ -43,6 +32,17 @@
 - (void);
 - (void);
 - (void);
+- (void)JA;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,24 +52,12 @@
 - (void);
 - (void);
 - (void);
+- (void)|;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,9 +72,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)N;
 - (id);
-- (id);
-- (unsigned short);
+- (unsigned short);
 - (_Bool);
 - (unsigned short);
 - (unsigned short);
@@ -109,11 +97,11 @@
 - (long long);
 - (double);
 - (double);
-- (double);
+- (double)@;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)NS;
 - (_Bool);
 - (void);
 - (void);
@@ -127,15 +115,15 @@
 - (double);
 - (_Bool);
 - (unsigned short);
-- (void);
-- (void);
-- (id);
-- (double);
-- (double);
+- (void)inactiveTimeLineIndices;
+- (void)gotoNextPage:(double)arg1;
+- (id)_lastUpdate;
+- (double)isAsynchronous;
+- (double)_listResources: /* Error: Ran out of types for this method. */;
 - (short);
 - (long long);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (double);
@@ -158,81 +146,7 @@
 - (void)e;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(copy, nonatomic) id adjustmentVersion;
-@property(nonatomic) unsigned short ageType;
-@property(copy, nonatomic) NSURL *associatedPersonLibraryURL; // @synthesize associatedPersonLibraryURL=_associatedPersonLibraryURL;
-@property(nonatomic) double blurScore;
-@property(nonatomic) double bodyCenterX;
-@property(nonatomic) double bodyCenterY;
-@property(nonatomic) double bodyHeight;
-@property(nonatomic) double bodyWidth;
-@property(nonatomic) double centerX;
-@property(nonatomic) double centerY;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(nonatomic) long long clusterSequenceNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) short detectionType;
-@property(nonatomic) double duration;
-@property(nonatomic) unsigned short ethnicityType;
-@property(nonatomic) unsigned short eyeMakeupType;
-@property(nonatomic) unsigned short eyesState;
-@property(nonatomic) long long faceAlgorithmVersion;
-@property(nonatomic) unsigned short faceExpressionType;
-@property(retain, nonatomic) PHFaceprint *faceprint;
-@property(nonatomic) unsigned short facialHairType;
-@property(nonatomic) float gazeAngle;
-@property(nonatomic) double gazeCenterX;
-@property(nonatomic) double gazeCenterY;
-@property(nonatomic) float gazeConfidence;
-@property(nonatomic) struct CGRect gazeRect;
-@property(nonatomic) unsigned short gazeType;
-@property(nonatomic) unsigned short glassesType;
-@property(retain, nonatomic) NSString *groupingIdentifier;
-@property(nonatomic) unsigned short hairColorType;
-@property(nonatomic) unsigned short hairType;
-@property(nonatomic) _Bool hasFaceMask;
-@property(nonatomic) _Bool hasSmile;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned short headgearType;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(nonatomic, getter=isInTrash) _Bool inTrash;
-@property(nonatomic) _Bool isInVIPModel;
-@property(readonly) _Bool isNewRequest;
-@property(nonatomic, getter=isLeftEyeClosed) _Bool leftEyeClosed;
-@property(nonatomic) unsigned short lipMakeupType;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(nonatomic) _Bool manual;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(nonatomic) long long nameSource;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedFace;
-@property(nonatomic) unsigned short poseType;
-@property(nonatomic) double poseYaw;
-@property(nonatomic) double quality;
-@property(nonatomic) long long qualityMeasure;
-@property(nonatomic, getter=isRightEyeClosed) _Bool rightEyeClosed;
-@property(nonatomic) double roll;
-@property(nonatomic) unsigned short sexType;
 @property(nonatomic) _Bool shouldClearFaceCropGenerationState; // @synthesize shouldClearFaceCropGenerationState=_shouldClearFaceCropGenerationState;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(nonatomic) double size;
-@property(nonatomic) unsigned short skintoneType;
-@property(nonatomic) unsigned short smileType;
-@property(nonatomic) long long sourceHeight;
-@property(nonatomic) long long sourceWidth;
-@property(nonatomic) double startTime;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *thumbnailIdentifier;
-@property(nonatomic) long long vuObservationID;
 
 @end
 

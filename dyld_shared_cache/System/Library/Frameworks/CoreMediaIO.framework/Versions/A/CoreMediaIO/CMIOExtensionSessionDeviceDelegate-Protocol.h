@@ -5,5 +5,6 @@
 //
 
 @protocol CMIOExtensionSessionDeviceDelegate
+- (void);
 @end
 

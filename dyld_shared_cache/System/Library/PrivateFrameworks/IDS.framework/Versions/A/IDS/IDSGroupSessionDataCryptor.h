@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMapTable, NSMutableDictionary, NSString, NSUUID;
-
 @interface IDSGroupSessionDataCryptor
 {
     struct os_unfair_lock_s _lock;
-    NSString *_topic;
-    NSUUID *_encryptingKeyID;
-    NSData *_encryptingKey;
-    NSData *_encryptingKeySalt;
-    struct _CCCryptor *_encryptingCryptor;
-    NSMutableDictionary *_decryptionKeysByKeyID;
-    NSMapTable *_decryptionCryptorsByKeyID;
 }
 
 + (_Bool);

@@ -7,8 +7,6 @@
 @interface IDSFoundation.IDSLinkSelectionMetricTracker
 {
     id reporter;
-    id reportIntervalInMicroseconds;
-    id state;
 }
 
 @end

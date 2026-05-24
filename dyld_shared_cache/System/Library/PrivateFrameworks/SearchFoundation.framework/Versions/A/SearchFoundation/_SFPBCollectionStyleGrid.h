@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBCollectionStyleGrid
 {
     int _gridStyle;
-    unsigned long long _numberOfColumns;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)r;
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
-- (id);
-- (id);
+- (void)managedObjectSupportsCreationType;
+- (id)internalDirectoryWithSubType:(id)arg1 additionalPathComponents:createIfNeeded:error: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int gridStyle; // @synthesize gridStyle=_gridStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol CNLDAPServices, OS_ldap_connection;
+@protocol CNLDAPServices;
 
 @interface CNLDAPConnection
 {
     id <CNLDAPServices> _ldapServices;
-    NSObject<OS_ldap_connection> *_connection;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_verificationDetails;
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -28,7 +26,6 @@
 - (id) ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_ldap_connection> *connection; // @synthesize connection=_connection;
 @property(readonly, nonatomic) id <CNLDAPServices> ldapServices; // @synthesize ldapServices=_ldapServices;
 
 @end

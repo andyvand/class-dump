@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)lastModifiedDate;
 - (id);
 
 // Remaining properties

@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id)alGroupSorted;
++ (id)},&,N,V_grayOverviewImage;
++ (id)SocialGroupSorted;
 + (id)Àe;
 - (short);
 - (void);
@@ -29,15 +29,7 @@
 - (id)Ð+;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool assetIsInOnboardingPreviewState;
-@property(readonly, nonatomic) _Bool assetIsInPhotosSuggestedPreviewState;
-@property(readonly, nonatomic) _Bool assetIsPublishedToLibraryScope;
-@property(readonly, nonatomic) _Bool assetManuallyAddedByUser;
-@property(readonly, nonatomic) _Bool assetManuallyRejectedByUser;
-@property(readonly, nonatomic) _Bool assetRejectedByCamera;
-@property(readonly, nonatomic) _Bool assetRejectedByPhotosSuggester;
 @property long long pl_shareState; // @synthesize pl_shareState=_pl_shareState;
-@property(readonly, nonatomic) short suggestedByClientType;
 
 @end
 

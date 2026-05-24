@@ -7,20 +7,18 @@
 @interface CHPolygon
 {
     struct CGPath *_path;
-    double _area;
-    long long _vertexCount;
-    struct CGPoint *_vertices;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long);
+- (void)strongToWeakObjectsMapTable;
 - (struct CGPoint *);
 - (double);
-- (_Bool);
-- (void);
+- (_Bool)ntToneIdentifierForAlertType:(struct CGPoint)arg1 (%{public}@) […]. persistedToneIdentifier = %{public}@.;
+- (void)embeddings):%f
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) double area; // @synthesize area=_area;
-@property(readonly, nonatomic) long long vertexCount; // @synthesize vertexCount=_vertexCount;
-@property(readonly, nonatomic) struct CGPoint *vertices; // @synthesize vertices=_vertices;
 
 @end
 

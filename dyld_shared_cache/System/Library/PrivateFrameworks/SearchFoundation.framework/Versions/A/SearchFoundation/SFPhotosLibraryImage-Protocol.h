@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFPhotosLibraryImage
+- (void);
+- (NSArray *);
+- (NSString *)changeCountExeedsThreshold: /* Error: Ran out of types for this method. */;
+- (void)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isSyndicated;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *peopleInPhoto;
 @property(copy, nonatomic) NSString *photoIdentifier;
 @end
 

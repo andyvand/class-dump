@@ -7,12 +7,10 @@
 @class UIView;
 
 @protocol _UITextSelectionWidgetAnimating
+- (void);
+- (CDStruct_45cfb02b);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool crossfadeOnDismissal;
-@property(nonatomic) _Bool hiddenForLoupeAnimation;
-@property(readonly, nonatomic) CDStruct_e1624b90 originShadow;
-@property(readonly, nonatomic) CDStruct_45cfb02b originShape;
 @property(readonly, nonatomic) UIView *originView;
 @end
 

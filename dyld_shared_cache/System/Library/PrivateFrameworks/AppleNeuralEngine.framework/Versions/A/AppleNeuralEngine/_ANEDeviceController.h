@@ -7,9 +7,6 @@
 @interface _ANEDeviceController
 {
     _Bool _isPrivileged;
-    long long _usecount;
-    struct ANEDeviceStruct *_device;
-    unsigned long long _programHandle;
 }
 
 + (id);
@@ -21,18 +18,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)ionFlags="isDirty"b1"hasValue"b1"hasStatus"b1};
 - (void);
 - (id);
-- (void);
-- (struct ANEDeviceStruct *);
+- (void)JAJJJ}B;
+- (struct ANEDeviceStruct *);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct ANEDeviceStruct *device; // @synthesize device=_device;
-@property(readonly, nonatomic) _Bool isPrivileged; // @synthesize isPrivileged=_isPrivileged;
-@property(readonly, nonatomic) unsigned long long programHandle; // @synthesize programHandle=_programHandle;
 @property(nonatomic) long long usecount; // @synthesize usecount=_usecount;
 
 @end

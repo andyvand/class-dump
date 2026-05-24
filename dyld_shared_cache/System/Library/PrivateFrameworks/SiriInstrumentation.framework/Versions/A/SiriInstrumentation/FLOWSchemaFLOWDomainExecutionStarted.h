@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWDomainExecutionMetadata, NSData;
-
 @interface FLOWSchemaFLOWDomainExecutionStarted : SISchemaInstrumentationMessage
 {
     int _domainExecutionType;
-    FLOWSchemaFLOWDomainExecutionMetadata *_domainExecutionMetadata;
-    struct {
-        unsigned int domainExecutionType:1;
-    } _has;
-    _Bool _hasDomainExecutionMetadata;
 }
 
 - (void);
@@ -28,11 +21,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id)iSchemaODDMANetworkAccessTypes";
@@ -41,11 +34,7 @@
 - (void)ô¾ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWSchemaFLOWDomainExecutionMetadata *domainExecutionMetadata; // @synthesize domainExecutionMetadata=_domainExecutionMetadata;
 @property(nonatomic) int domainExecutionType; // @synthesize domainExecutionType=_domainExecutionType;
-@property(nonatomic) _Bool hasDomainExecutionMetadata; // @synthesize hasDomainExecutionMetadata=_hasDomainExecutionMetadata;
-@property(nonatomic) _Bool hasDomainExecutionType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

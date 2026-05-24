@@ -7,19 +7,10 @@
 @interface NewsSubscription.BundleHardPaywallViewProvider
 {
     id delegate;
-    id dataProvider;
-    id styler;
-    id viewModel;
-    id bundleHardPaywallView;
-    id renderer;
-    id layoutAttributesFactory;
-    id images;
-    id badgeImages;
-    id videoFileURL;
 }
 
 - (_Bool);
-- (id);
+- (id)h[@id='%@_end'];
 - (void);
 - (void);
 

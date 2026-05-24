@@ -26,10 +26,10 @@ struct CGSize {
 };
 
 struct NSDirectionalEdgeInsets {
-    double top;
-    double leading;
-    double bottom;
-    double trailing;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct NSEdgeInsets {

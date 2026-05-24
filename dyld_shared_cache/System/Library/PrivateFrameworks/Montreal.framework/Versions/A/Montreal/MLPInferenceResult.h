@@ -7,8 +7,6 @@
 @interface MLPInferenceResult
 {
     struct map<unsigned int, std::map<unsigned int, unsigned int>, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, std::map<unsigned int, unsigned int>>>> confusionMatrix;
-    float logLikelihood;
-    float totalLoss;
 }
 
 - (id);

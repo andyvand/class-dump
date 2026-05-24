@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCHIPEcosystem, NSArray, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMCHIPHome
 {
     NSUUID *_UUID;
-    NSNumber *_identifier;
-    NSNumber *_index;
-    NSString *_name;
-    HMCHIPEcosystem *_ecosystem;
 }
 
 + (id);
@@ -26,39 +22,18 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)indubitably;
+- (id)AutofillPassword;
 - (void);
+- (id)CHRecentCallOriginatingUITypeAssistiveAccessDialer;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)à;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMCHIPEcosystem *ecosystem; // @synthesize ecosystem=_ecosystem;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSNumber *index; // @synthesize index=_index;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

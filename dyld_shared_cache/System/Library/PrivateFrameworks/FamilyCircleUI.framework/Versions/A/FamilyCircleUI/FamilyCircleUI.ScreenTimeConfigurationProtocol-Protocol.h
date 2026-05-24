@@ -5,5 +5,6 @@
 //
 
 @protocol FamilyCircleUI.ScreenTimeConfigurationProtocol
+- (_Bool);
 @end
 

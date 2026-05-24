@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol NUVisionDetectionResult
+- (NSArray *)type                INTEGER NOT NULL,                                 external_id         BLOB    NOT NULL,                                 external_data       BLOB,                                             model_encoding      INTEGER NOT NULL,                                 model_data          BLOB                                              );;
 
 // Remaining properties
-@property(readonly) CDStruct_912cb5d2 imageSize;
 @property(readonly, copy, nonatomic) NSArray *observations;
 @end
 

@@ -4,60 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEHotspotAuthenticationProviderHost, NEHotspotEvaluationProviderHost, NEProcessIdentity, NSArray, NSObject, NSString, NSXPCInterface;
-@protocol NEPluginManagerObjectFactory, OS_dispatch_queue;
+@class NSArray;
 
 @interface NEAgentHotspotExtension
 {
     _Bool _appsUpdateStarted;
-    _Bool _appsUpdateEnding;
-    int _sessionrType;
-    id <NEPluginManagerObjectFactory> _managerObjectFactory;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_pluginType;
-    NSString *_extensionIdentifier;
-    NSXPCInterface *_managerProtocol;
-    NEConfiguration *_configuration;
-    NEProcessIdentity *_extensionProcessIdentity;
-    NSArray *_extensionUUIDs;
-    NEHotspotEvaluationProviderHost *_hostForEvaluationProvider;
-    NEHotspotAuthenticationProviderHost *_hostForAuthenticationProvider;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!@%*;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)#;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void)IKESecurityAssociationParametersArray:(id)arg1;
-- (void)nceSize;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)setIKESecurityAssociationParametersArray:(id)arg1;
+- (void)nonceSize;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSXPCInterface *driverInterface;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCInterface *managerInterface;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSArray *uuids;
 
 @end

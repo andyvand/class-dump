@@ -13,12 +13,12 @@
     NSData *_eapMessage;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)orStr: /* Error: Ran out of types for this method. */;
+- (void)setProviderTypeWithParameters:errorStr: /* Error: Ran out of types for this method. */;
 - (id)ESAProposal copyFromRemote:(int)arg1 preferRemoteProposal:(unsigned long long)arg2 ];
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface AKCustodianSetupResult
 {
     NSData *_encryptedPRKC;
-    NSString *_ownerCustodianAltDSID;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *encryptedPRKC; // @synthesize encryptedPRKC=_encryptedPRKC;
-@property(copy, nonatomic) NSString *ownerCustodianAltDSID; // @synthesize ownerCustodianAltDSID=_ownerCustodianAltDSID;
 
 @end
 

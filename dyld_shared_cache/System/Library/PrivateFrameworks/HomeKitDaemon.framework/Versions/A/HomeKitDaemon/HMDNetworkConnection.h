@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_connection;
+@class NSObject;
+@protocol OS_nw_connection;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkConnection
 {
     NSObject<OS_nw_connection> *_nwConnection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)DSService"16@"IDSAccount"24@"NSString"32B40@"NSError"44@"IDSMessageContext"52;
 - (void);
 - (void);
 - (id);
+- (void)"5;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id)WriteTimeout:(id)arg1 completion:(id)arg2;
+- (id)writeAttribute:(id)arg1 value:(id)arg2 timedWriteTimeout:completion: /* Error: Ran out of types for this method. */;
 - (id)lowableSecuringWritesData;
-- (void)csDeviceStateManagerLastStoredSoftwareVersionKey;
+- (void)HMDMetricsDeviceStateManagerLastStoredSoftwareVersionKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_nw_connection> *nwConnection; // @synthesize nwConnection=_nwConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

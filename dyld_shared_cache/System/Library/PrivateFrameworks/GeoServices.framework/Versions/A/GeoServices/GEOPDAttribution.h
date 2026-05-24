@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAttribution
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_actionUrlComponent;
-    NSMutableArray *_attributionUrls;
-    NSString *_externalComponentId;
-    NSString *_externalItemId;
-    NSString *_vendorId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionUrlComponent:1;
-        unsigned int read_attributionUrls:1;
-        unsigned int read_externalComponentId:1;
-        unsigned int read_externalItemId:1;
-        unsigned int read_vendorId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)CSSpeakerRecognitionAssetDownloadMonitor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

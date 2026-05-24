@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)ound unused allocation matching %s-%s:%s /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties

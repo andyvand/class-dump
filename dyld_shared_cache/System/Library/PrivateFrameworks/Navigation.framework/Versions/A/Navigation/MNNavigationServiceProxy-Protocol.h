@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSUUID;
 
 @protocol MNNavigationServiceProxy
+- (void);
+- (void)Component;
+- (void)caseInsensitiveCompare:(NSUUID *)arg1;
 - (void)Áð!Aù1Â0@ù
 × ;
 - (void)
@@ -19,17 +22,17 @@
 - (void)!Ô@ùQ°1Â0@ù
 × ;
 - (void)xy>"16@"NSUUID"24;
-- (void)ionProvider;
-- (void)t;
-- (void)gate:(unsigned long long)arg1;
-- (void)aypointRerouteForLocation:(void (^)(_Bool))arg1;
+- (void)simulationLocationProvider;
+- (void)initialDirectionsRequest;
+- (void)initWithDelegate:(unsigned long long)arg1;
+- (void)_handleWaypointRerouteForLocation:(void (^)(_Bool))arg1;
 - (void)ä;
 - (void);
-- (void);
+- (void)SetRoutesForPreview;
 - (void)(%0.1f meters);
 - (void)timeInterval (%f) too large for platform Double(Int.max) %f. Clamped to Int.max (%ld);
 - (void)0@"_MNLPRPlateCharacter"8Q16^B24;
 - (void)ion:(NSArray *)arg1 ];
-- (void)miliarRoute;
+- (void)_requireFamiliarRoute;
 @end
 

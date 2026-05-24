@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSString;
+@class CKRecordZoneID;
 
 @interface CKRecordZoneReference
 {
@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)initWithValue:additionalFeatures: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -26,9 +26,6 @@
 - (void)T9;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) unsigned long long referenceAction;
 @property(nonatomic, readonly) CKRecordZoneID *zoneID;
 
 @end

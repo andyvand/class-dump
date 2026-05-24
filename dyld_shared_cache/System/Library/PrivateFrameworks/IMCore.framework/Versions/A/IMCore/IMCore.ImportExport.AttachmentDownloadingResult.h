@@ -7,8 +7,6 @@
 @interface IMCore.ImportExport.AttachmentDownloadingResult
 {
     id attachment;
-    id downloadInterval;
-    id fileTransfer;
 }
 
 @end

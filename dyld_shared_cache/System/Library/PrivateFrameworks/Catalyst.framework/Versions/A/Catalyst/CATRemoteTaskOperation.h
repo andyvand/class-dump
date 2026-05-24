@@ -6,13 +6,11 @@
 
 #import <Catalyst/CATTaskOperation.h>
 
-@class CATTaskClient, NSError, NSNumber;
+@class NSError, NSNumber;
 
 @interface CATRemoteTaskOperation : CATTaskOperation
 {
     NSError *mClientError;
-    CATTaskClient *_client;
-    NSNumber *_remotePhase;
 }
 
 + (_Bool);
@@ -25,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
@@ -37,7 +35,6 @@
 - (_Bool)validate;
 
 // Remaining properties
-@property(readonly, nonatomic) CATTaskClient *client; // @synthesize client=_client;
 @property(copy, nonatomic) NSNumber *remotePhase; // @synthesize remotePhase=_remotePhase;
 
 @end

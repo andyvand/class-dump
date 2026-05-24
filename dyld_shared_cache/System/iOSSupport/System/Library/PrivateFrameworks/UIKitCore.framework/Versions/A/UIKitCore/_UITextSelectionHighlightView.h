@@ -6,45 +6,30 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIColor, _UITextSelectionRangeView;
+@class UIColor, _UITextSelectionRangeView;
 
 @interface _UITextSelectionHighlightView : UIView
 {
     _UITextSelectionRangeView *_rangeView;
-    NSArray *_selectionRects;
-    double _selectionCornerRadius;
-    struct UIEdgeInsets _selectionEdgeInsets;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
-- (id);
+- (void)deleteExistingMessageAwaitingReplacementWithFallbackHash:(struct UIEdgeInsets)arg1 chatIdentifier: /* Error: Ran out of types for this method. */;
+- (void)deleteDatabase;
+- (void)deleteContext;
+- (void)eleteForLegacyCommandsWithDate:(id)arg1;
+- (struct UIEdgeInsets)_sessionClass;
+- (double)_serviceNameOrCompatibilityServiceNameFromDictionary: /* Error: Ran out of types for this method. */;
+- (double)_serviceLoginStatusMessage;
+- (id)_serviceDisconnectReason;
 - (void);
 - (void);
 - (id)mponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
-- (id)bleMaximumIndices;
+- (id)_mutableMaximumIndices;
 - (void)S;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSelectionBorderColor:) UIColor *_selectionBorderColor; // @dynamic _selectionBorderColor;
-@property(nonatomic, setter=_setSelectionBorderWidth:) double _selectionBorderWidth; // @dynamic _selectionBorderWidth;
-@property(nonatomic, setter=_setSelectionCornerRadius:) double _selectionCornerRadius; // @synthesize _selectionCornerRadius;
-@property(nonatomic, setter=_setSelectionEdgeInsets:) struct UIEdgeInsets _selectionEdgeInsets; // @synthesize _selectionEdgeInsets;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *selectionRects; // @synthesize selectionRects=_selectionRects;
-@property(readonly) Class superclass;
 
 @end
 

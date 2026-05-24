@@ -4,63 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol _UIForcedOrientationTransactionHandler;
-
 __attribute__((visibility("hidden")))
 @interface _UIForcedOrientationTransactionToken
 {
     _Bool _disablesInterfaceAutorotation;
-    long long _originalInterfaceOrientation;
-    unsigned long long _state;
-    NSString *_transactionReason;
-    CDUnknownBlockType _commitCompletionBlock;
-    id <_UIForcedOrientationTransactionHandler> _transactionHandler;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
+- (long long)setMessageSummaryInfo: /* Error: Ran out of types for this method. */;
+- (id)ibutes:(long long)arg1 fileTransferGUIDs:(id)arg2 flags:(id)arg3 guid:(_Bool)arg4 messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (id)initWithSenderInfo:(long long)arg1 time:(id)arg2 timeRead:(id)arg3 timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateDenyAllowListHandlesVersion;
+- (void)_shouldDropIncomingMessageOnService:guid:trustedData: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_compressFileAtPath:toPath:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)%f seconds;
+- (id)performOneTimeAccountUpgradeCheckIfNeeded;
+- (id)o not match up.;
 - (void);
-- (CDUnknownBlockType);
+- (void)@;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)__MPModelRelationshipLibraryPinSong__MAPPING_MISSING__;
 - (id)á!¬Bù[1Â0@ù
 × ;
 - (id)
 × ;
 - (unsigned long long)ñf°1Â0@ù
 × ;
-- (void)marks;
-- (id)Velocity: /* Error: Ran out of types for this method. */;
-- (id)SupportsWatch;
+- (void)preUpdateSolutionBookmarks;
+- (id)_copyVelocity: /* Error: Ran out of types for this method. */;
+- (id)UIKeyboardSupportsWatch;
 - (void)è[;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType commitCompletionBlock; // @synthesize commitCompletionBlock=_commitCompletionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disablesInterfaceAutorotation; // @synthesize disablesInterfaceAutorotation=_disablesInterfaceAutorotation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long originalInterfaceOrientation; // @synthesize originalInterfaceOrientation=_originalInterfaceOrientation;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <_UIForcedOrientationTransactionHandler> transactionHandler; // @synthesize transactionHandler=_transactionHandler;
-@property(readonly, nonatomic) NSString *transactionReason; // @synthesize transactionReason=_transactionReason;
 
 @end
 

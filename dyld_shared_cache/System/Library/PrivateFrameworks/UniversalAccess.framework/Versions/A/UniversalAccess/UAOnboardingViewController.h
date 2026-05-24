@@ -11,8 +11,8 @@
     UAOnboardingFeature *_feature;
 }
 
-+ (id);
-- (void);
++ (id)";
+- (void)pMs"b1};
 - (id);
 - (id);
 - (void);

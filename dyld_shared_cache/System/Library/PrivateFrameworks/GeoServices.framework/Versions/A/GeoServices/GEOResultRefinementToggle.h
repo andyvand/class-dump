@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, NSNumber, NSString;
+@class NSString;
 
 @interface GEOResultRefinementToggle
 {
     _Bool _isSelected;
-    _Bool _selectionFromView;
-    _Bool _showAsSelected;
-    int _evChargingConnectorType;
-    NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
-    unsigned long long _toggleType;
-    NSNumber *_selectionSequenceNumber;
-    NSString *_refinementKey;
 }
 
 - (unsigned long long);
@@ -25,7 +17,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)serInfo;
 - (int);
 - (id);
 - (id);
@@ -38,14 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) int evChargingConnectorType; // @synthesize evChargingConnectorType=_evChargingConnectorType;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(retain, nonatomic) GEOPDResultRefinementMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSString *refinementKey; // @synthesize refinementKey=_refinementKey;
-@property(readonly, nonatomic) _Bool selectionFromView; // @synthesize selectionFromView=_selectionFromView;
-@property(readonly, nonatomic) NSNumber *selectionSequenceNumber; // @synthesize selectionSequenceNumber=_selectionSequenceNumber;
-@property(readonly, nonatomic) _Bool showAsSelected; // @synthesize showAsSelected=_showAsSelected;
-@property(readonly, nonatomic) unsigned long long toggleType; // @synthesize toggleType=_toggleType;
 
 @end
 

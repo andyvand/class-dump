@@ -7,9 +7,6 @@
 @interface AXCoreUtilities.AXCTLSupport.System
 {
     id communicateWithToolingMessageProtocol;
-    id axctlRunningInteractive;
-    id debugLoggingEnabled;
-    id writer;
 }
 
 @end

@@ -9,11 +9,10 @@
 @interface EWSTimeZoneDefinitionType
 {
     NSString *_Id;
-    NSString *_Name;
 }
 
 + (id);
-+ (id);
++ (id)t;
 - (id);
 - (id);
 - (id);
@@ -25,15 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *Id; // @synthesize Id=_Id;
-@property(copy, nonatomic) NSString *Name; // @synthesize Name=_Name;
-@property(readonly, copy, nonatomic) NSString *StandardTimeZoneId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

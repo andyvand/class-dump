@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKActionMenuGestureRecognizer, NSDate, UIButton;
-@protocol CKActionMenuGestureRecognizerButtonDelegate;
+@class CKActionMenuGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface CKActionMenuGestureRecognizerButton
 {
     CKActionMenuGestureRecognizer *_gestureRecognizer;
-    UIButton *_button;
-    id <CKActionMenuGestureRecognizerButtonDelegate> _delegate;
-    NSDate *_gestureDidBeginDate;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void)u;
+- (id)+[NSFont(IC) ic_preferredFontForBodyTextWithContentSizeCategory:(id)arg1 isForPrint:(id)arg2 ]_block_invoke;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (void)üüÿ1yYfðýÿôýÿP;
@@ -33,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (id)Zÿ®\Xð0;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) __weak id <CKActionMenuGestureRecognizerButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDate *gestureDidBeginDate; // @synthesize gestureDidBeginDate=_gestureDidBeginDate;
 @property(retain, nonatomic) CKActionMenuGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
 
 @end

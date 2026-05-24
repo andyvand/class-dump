@@ -16,7 +16,7 @@
 + (Class);
 - (id);
 - (id);
-- (void);
+- (void)__TEXT;
 - (id);
 
 // Remaining properties

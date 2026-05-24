@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface SPOwnerSessionState
 {
     NSString *_serviceState;
-    NSSet *_disabledReasons;
-    NSString *_ownerDataState;
 }
 
 + (_Bool);
@@ -18,18 +16,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id):withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)essage:(struct _NSZone *)arg1 from:sessionID:userInfo:) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *disabledReasons; // @synthesize disabledReasons=_disabledReasons;
-@property(retain, nonatomic) NSString *ownerDataState; // @synthesize ownerDataState=_ownerDataState;
 @property(retain, nonatomic) NSString *serviceState; // @synthesize serviceState=_serviceState;
 
 @end

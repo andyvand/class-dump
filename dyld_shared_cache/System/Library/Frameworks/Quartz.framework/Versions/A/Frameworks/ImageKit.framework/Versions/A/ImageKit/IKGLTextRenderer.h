@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKGLTextCache, IKGLTextGenerator, IKGLTextSubpixelShader, NSMutableArray;
-
 @interface IKGLTextRenderer
 {
     double _scaleFactor;
-    _Bool _enableSubpixelAntialiasing;
-    IKGLTextGenerator *_textGenerator;
-    struct __CFDictionary *_deferredStrings;
-    NSMutableArray *_attributes;
-    IKGLTextCache *_cache;
-    int _generatedTextCount;
-    int _cachedTextCount;
-    _Bool _subpixelAntialiasingSupported;
-    IKGLTextSubpixelShader *_subpixelCopy;
-    IKGLTextSubpixelShader *_subpixelSover;
-    int _viewportWidth;
-    int _viewportHeight;
-    _Bool _needsSurfaceSync;
-    unsigned int _surfaceID;
 }
 
 - (int);
@@ -34,10 +18,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties

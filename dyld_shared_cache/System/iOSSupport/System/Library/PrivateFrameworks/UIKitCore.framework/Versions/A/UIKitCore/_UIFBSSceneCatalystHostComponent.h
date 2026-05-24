@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIFBSSceneCatalystHostComponent
 {
 }
 
 - (void);
-- (long long);
+- (long long)addLockdownCommandHandlersToRegistry: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long hostingWindowCreationBehavior;
-@property(readonly) Class superclass;
 
 @end
 

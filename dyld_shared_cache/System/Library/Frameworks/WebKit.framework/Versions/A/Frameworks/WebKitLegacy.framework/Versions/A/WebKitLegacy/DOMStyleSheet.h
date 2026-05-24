@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMObject.h>
 
-@class DOMMediaList, DOMNode, NSString;
+@class NSString;
 
 @interface DOMStyleSheet : DOMObject
 {
@@ -15,20 +15,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ublic}@, interval:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)sesEncodingDetector;
+- (id)fileSize;
+- (id)WebKitUsesEncodingDetector;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property _Bool disabled;
-@property(readonly, copy) NSString *href;
-@property(readonly) DOMMediaList *media;
-@property(readonly) DOMNode *ownerNode;
-@property(readonly) DOMStyleSheet *parentStyleSheet;
-@property(readonly, copy) NSString *title;
 @property(readonly, copy) NSString *type;
 
 @end

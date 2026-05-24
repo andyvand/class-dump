@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSURLCredential, NSURLProtectionSpace, NSURLResponse;
-@protocol NSURLAuthenticationChallengeSender;
+@class NSURLProtectionSpace;
 
 __attribute__((visibility("hidden")))
 @interface NSURLAuthenticationChallengeInternal
 {
     NSURLProtectionSpace *space;
-    NSURLCredential *proposedCredential;
-    long long previousFailureCount;
-    NSURLResponse *failureResponse;
-    NSError *error;
-    id <NSURLAuthenticationChallengeSender> sender;
-    NSArray *protectionSpacesForChallenge;
-    long long preferredProtSpaceIndex;
 }
 
-- (void);
+- (void)lay list.;
 
 @end
 

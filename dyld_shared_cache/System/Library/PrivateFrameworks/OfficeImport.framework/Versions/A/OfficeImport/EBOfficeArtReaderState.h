@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
 @interface EBOfficeArtReaderState : OABReaderState
 {
     EXReadState *mXmlDocumentState;
-    EBReaderState *mReaderState;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

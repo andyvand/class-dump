@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)_avgLinkRssi;
+- (id)_avgInterference;
+- (id)_availableSubreason;
+- (id)_availableReasonString;
+- (id)_availableNetworks;
+- (Class)_autoHotspotClientConnectCount;
+- (oneway void);
+- (id)have resolved fields;
+- (id)`2;
+- (_Bool)TI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

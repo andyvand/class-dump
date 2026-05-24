@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaPropertyNotificationRegistration
 {
     _Bool _enabled;
-    NSUUID *_mediaProfileUniqueIdentifier;
-    NSString *_mediaProperty;
-    NSString *_deviceIdsDestination;
-    NSUUID *_userUUID;
-    NSDate *_lastModified;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)_handleCheckinWithSharingIdentity:activeRecipients:serviceNamesByHandle:receivedTrips:permissions: /* Error: Ran out of types for this method. */;
+- (id)_get: /* Error: Ran out of types for this method. */;
+- (id)artwork_source_type;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id)thUUID:(struct _NSZone *)arg1 workQueue:logIdentifier:dataSource:notificationCenter:timerFactory: /* Error: Ran out of types for this method. */;
+- (id)initWithUUID:(struct _NSZone *)arg1 workQueue:logIdentifier:dataSource:notificationCenter:timerFactory: /* Error: Ran out of types for this method. */;
 - (id)device to %{public}@;
 - (id)Kit import for store %{public}@ finished after %f seconds;
 - (_Bool)e did not contain a preferred primary value;
-- (void)AILABLE_BODY_MULTIPLE;
+- (void)ACCESSORY_FIRMWARE_UPDATE_AVAILABLE_BODY_MULTIPLE;
 
 // Remaining properties
-@property(readonly, copy) NSString *deviceIdsDestination; // @synthesize deviceIdsDestination=_deviceIdsDestination;
-@property(readonly) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) NSDate *lastModified; // @synthesize lastModified=_lastModified;
 @property(readonly) NSUUID *mediaProfileUniqueIdentifier; // @synthesize mediaProfileUniqueIdentifier=_mediaProfileUniqueIdentifier;
-@property(readonly, copy) NSString *mediaProperty; // @synthesize mediaProperty=_mediaProperty;
-@property(readonly) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

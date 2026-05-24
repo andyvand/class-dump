@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)x1;
 
 @end
 

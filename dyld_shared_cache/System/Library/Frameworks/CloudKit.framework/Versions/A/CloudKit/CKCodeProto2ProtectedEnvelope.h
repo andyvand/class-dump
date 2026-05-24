@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCodeProto2Any, NSData;
-
 @interface CKCodeProto2ProtectedEnvelope
 {
     int _contents;
-    NSData *_encrypted;
-    CKCodeProto2Any *_value;
-    CDStruct_7e0a6dcb _has;
 }
 
 - (_Bool);
@@ -23,28 +18,23 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)populateEspressoShapeAndStridesFromInputShape:ndRepresentation:espressoShape:espressoStrides:error: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (int);
+- (int);
 - (void)`+;
 
 // Remaining properties
-@property(nonatomic) int contents; // @synthesize contents=_contents;
-@property(retain, nonatomic) NSData *encrypted; // @synthesize encrypted=_encrypted;
-@property(nonatomic) _Bool hasContents;
 @property(readonly, nonatomic) _Bool hasEncrypted;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) CKCodeProto2Any *value; // @synthesize value=_value;
 
 @end
 

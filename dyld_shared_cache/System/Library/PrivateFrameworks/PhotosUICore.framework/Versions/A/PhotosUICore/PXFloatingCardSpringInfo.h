@@ -7,33 +7,21 @@
 @interface PXFloatingCardSpringInfo
 {
     double _mass;
-    double _stiffness;
-    double _damping;
-    double _initialVelocity;
-    double _undershootTime;
-    double _overshootTime;
-    double _settlingTime;
 }
 
 - (double);
-- (double);
+- (double)@;
 - (id);
 - (double);
 - (id);
-- (double);
+- (double)ield"16;
 - (double);
 - (double);
 - (double);
 - (double)Qæ>;
 
 // Remaining properties
-@property(readonly, nonatomic) double damping; // @synthesize damping=_damping;
-@property(readonly, nonatomic) double initialVelocity; // @synthesize initialVelocity=_initialVelocity;
 @property(readonly, nonatomic) double mass; // @synthesize mass=_mass;
-@property(readonly, nonatomic) double overshootTime; // @synthesize overshootTime=_overshootTime;
-@property(readonly, nonatomic) double settlingTime; // @synthesize settlingTime=_settlingTime;
-@property(readonly, nonatomic) double stiffness; // @synthesize stiffness=_stiffness;
-@property(readonly, nonatomic) double undershootTime; // @synthesize undershootTime=_undershootTime;
 
 @end
 

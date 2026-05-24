@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMFaceprint;
+
 @protocol MKFFaceprintHMFaceprintTransformable
+- (HMFaceprint *)StringAsType: /* Error: Ran out of types for this method. */;
 @end
 

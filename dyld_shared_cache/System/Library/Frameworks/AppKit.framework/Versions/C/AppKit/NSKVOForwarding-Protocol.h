@@ -7,6 +7,7 @@
 @class NSKVOForwarder;
 
 @protocol NSKVOForwarding
+- (NSKVOForwarder *)CMTimeRangeValue;
 
 // Remaining properties
 @property(readonly) NSKVOForwarder *_KVOForwarder;

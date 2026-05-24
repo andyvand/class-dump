@@ -4,71 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPDirectionsSearch, MSPPlaceDisplay, MSPQuerySearch, MSPRidesharingTrip, MSPTransitStorageLineItem, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPHistoryEntryStorage
 {
     PBUnknownFields *_unknownFields;
-    double _position;
-    double _timestamp;
-    MSPDirectionsSearch *_directionsSearch;
-    NSString *_identifier;
-    MSPPlaceDisplay *_placeDisplay;
-    MSPQuerySearch *_querySearch;
-    MSPRidesharingTrip *_ridesharingTrip;
-    int _searchType;
-    MSPTransitStorageLineItem *_transitLineItem;
-    _Bool _tracksRAPRecordingOnly;
-    struct {
-        unsigned int position:1;
-        unsigned int timestamp:1;
-        unsigned int searchType:1;
-        unsigned int tracksRAPRecordingOnly:1;
-    } _has;
 }
 
 - (_Bool);
+- (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)p	;
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void)range:(_Bool)arg1 %lu invalid range:%lu /* Error: Ran out of types for this method. */;
+- (id)cedFile presentedItemOperationQueue;
+- (_Bool)data for message;
+- (_Bool)"8^B16;
 - (int);
 - (id);
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)P;
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)o;
 - (id);
 - (id);
 - (_Bool);
@@ -76,27 +60,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MSPDirectionsSearch *directionsSearch; // @synthesize directionsSearch=_directionsSearch;
-@property(readonly, nonatomic) _Bool hasDirectionsSearch;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPlaceDisplay;
-@property(nonatomic) _Bool hasPosition;
-@property(readonly, nonatomic) _Bool hasQuerySearch;
-@property(readonly, nonatomic) _Bool hasRidesharingTrip;
 @property(nonatomic) _Bool hasSearchType;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTracksRAPRecordingOnly;
-@property(readonly, nonatomic) _Bool hasTransitLineItem;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) MSPPlaceDisplay *placeDisplay; // @synthesize placeDisplay=_placeDisplay;
-@property(nonatomic) double position; // @synthesize position=_position;
-@property(retain, nonatomic) MSPQuerySearch *querySearch; // @synthesize querySearch=_querySearch;
-@property(retain, nonatomic) MSPRidesharingTrip *ridesharingTrip; // @synthesize ridesharingTrip=_ridesharingTrip;
-@property(nonatomic) int searchType; // @synthesize searchType=_searchType;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool tracksRAPRecordingOnly; // @synthesize tracksRAPRecordingOnly=_tracksRAPRecordingOnly;
-@property(retain, nonatomic) MSPTransitStorageLineItem *transitLineItem; // @synthesize transitLineItem=_transitLineItem;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

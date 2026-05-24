@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
 @protocol SecureWindow;
 
 __attribute__((visibility("hidden")))
 @interface SecureWindowLockPolicyEnforcer
 {
     id <SecureWindow> _secureWindow;
-    id _windowStateNotificationToken;
-    NSTimer *_lockingTimer;
-    id _keybagLockStatusChangedObservationToken;
-    _Bool _lockPolicyEnforced;
-    _Bool _windowToSecureIsMainWindow;
 }
 
 - (double);
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)¼Ì;

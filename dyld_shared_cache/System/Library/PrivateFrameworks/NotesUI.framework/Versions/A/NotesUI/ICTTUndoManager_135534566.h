@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void)heet;
+- (void)archiveStyleSheet;
 - (void);
 
 // Remaining properties

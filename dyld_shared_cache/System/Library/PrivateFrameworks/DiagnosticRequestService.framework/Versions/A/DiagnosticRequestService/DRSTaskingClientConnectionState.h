@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DRSTaskingClientConnectionState
 {
     _Bool _hasAdminEntitlement;
-    int _pid;
-    NSString *_procName;
-    NSMutableDictionary *_cachedEntitlements;
 }
 
 - (_Bool);
@@ -29,11 +24,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *cachedEntitlements; // @synthesize cachedEntitlements=_cachedEntitlements;
-@property(readonly, nonatomic) _Bool hasAdminEntitlement; // @synthesize hasAdminEntitlement=_hasAdminEntitlement;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) NSString *procName; // @synthesize procName=_procName;
-@property(readonly, nonatomic) NSString *stateDescription;
 
 @end
 

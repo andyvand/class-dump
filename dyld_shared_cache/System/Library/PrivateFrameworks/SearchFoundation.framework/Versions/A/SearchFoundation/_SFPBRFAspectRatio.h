@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBRFAspectRatio
 {
     float _width;
-    float _height;
 }
 
 - (id);
@@ -18,24 +15,15 @@
 - (_Bool);
 - (float);
 - (float);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)ʂ;
+- (void)Z.;
+- (id)progressWithTotalUnitCount:(id)arg1;
+- (id)folder:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float height; // @synthesize height=_height;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) float width; // @synthesize width=_width;
 
 @end

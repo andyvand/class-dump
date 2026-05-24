@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface FigDisplaySleepAssertion
 {
     NSObject<OS_dispatch_source> *_timer;
-    NSString *_reason;
-    unsigned int _displaySleepPreventionIOPMAssertionID;
-    long long _lastIdleTimerResetTime;
 }
 
-- (unsigned char);
+- (unsigned char) ;
 - (id);
 - (void);
 

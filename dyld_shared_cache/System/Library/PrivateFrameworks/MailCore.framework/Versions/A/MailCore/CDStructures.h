@@ -11,17 +11,13 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 #pragma mark Typedef'd Structures
@@ -35,26 +31,13 @@ typedef struct {
 } CDStruct_62689a71;
 
 typedef struct {
-    unsigned char red;
-    unsigned char green;
-    unsigned char blue;
-} CDStruct_7ad7028e;
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+} CDStruct_f4b747e6;
 
 typedef struct {
     long long count;
     unsigned long long size;
 } CDStruct_d3e19d9e;
-
-typedef struct {
-    unsigned short buffer[64];
-    struct __CFString *theString;
-    unsigned short *directUniCharBuffer;
-    char *directCStringBuffer;
-    struct {
-        long long location;
-        long long length;
-    } rangeToBuffer;
-    long long bufferedRangeStart;
-    long long bufferedRangeEnd;
-} CDStruct_2ada2998;
 

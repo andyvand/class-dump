@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id)Color_Yellow;
++ (id)NoteMenu_Color_Yellow;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (id);
-- (CDStruct_bdcb2b0d);
-- (id);
+- (CDStruct_60067b7e);
+- (id)qa;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -37,12 +37,12 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ming it hasn't been personalized;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)onaryContainsKey(s_ProgramHashCodeDictionary, programHashCode->_hashCodeHash);
 - (id);
-- (double);
+- (double)T;
 - (_Bool);
 - (id);
 - (id);

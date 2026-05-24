@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlSessionIdentifier, NSDictionary, NSString, WPAdvertising;
+@class WPAdvertising;
 
 @interface CRKClassSessionBeacon
 {
     _Bool _advertising;
-    unsigned short _flags;
-    DMFControlSessionIdentifier *_advertisedIdentifier;
-    WPAdvertising *_advertiser;
-    NSDictionary *_beaconAdvertisement;
 }
 
 - (void);
@@ -22,31 +18,20 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)n XPC with payload=%@;
 - (id);
 - (id);
-- (unsigned short);
+- (unsigned short)(,X;
 - (void);
 - (void);
 - (void);
-- (void)Advertising:(_Bool)arg1;
+- (void)setAdvertising:(_Bool)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) DMFControlSessionIdentifier *advertisedIdentifier; // @synthesize advertisedIdentifier=_advertisedIdentifier;
 @property(readonly, nonatomic) WPAdvertising *advertiser; // @synthesize advertiser=_advertiser;
-@property(nonatomic, getter=isAdvertising) _Bool advertising; // @synthesize advertising=_advertising;
-@property(copy, nonatomic) NSDictionary *beaconAdvertisement; // @synthesize beaconAdvertisement=_beaconAdvertisement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned short flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

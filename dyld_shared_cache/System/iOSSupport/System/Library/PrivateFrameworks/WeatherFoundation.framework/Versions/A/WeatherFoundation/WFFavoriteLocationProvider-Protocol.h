@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol WFFavoriteLocationProviderDelegate;
 
 @protocol WFFavoriteLocationProvider
+- (void)@;
+- (NSArray *)h;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFFavoriteLocationProviderDelegate> delegate;

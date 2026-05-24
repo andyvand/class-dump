@@ -6,85 +6,64 @@
 
 #import <AVFCore/AVPlaybackCoordinator.h>
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol AVPlaybackCoordinationMediumDelegate, AVPlaybackCoordinatorPlaybackControlDelegate, OS_dispatch_queue;
+@protocol AVPlaybackCoordinatorPlaybackControlDelegate;
 
 @interface AVDelegatingPlaybackCoordinator : AVPlaybackCoordinator
 {
     struct OpaqueFigTimelineCoordinator *_figTimelineCoordinator;
-    NSObject<OS_dispatch_queue> *_timelineControlQueue;
-    NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    NSObject<OS_dispatch_queue> *_figTimelineCoordinatorConfigQueue;
-    NSObject<OS_dispatch_queue> *_currentItemIDConfigQueue;
-    id <AVPlaybackCoordinatorPlaybackControlDelegate> _delegate;
-    id _suspensionsChangedNotificationToken;
-    id _participantsChangedNotificationToken;
-    id _didIssueCommandToPlaybackObjectNotificationToken;
-    NSMutableArray *_suspensionReasons;
-    NSMutableArray *_otherParticipants;
-    NSMutableDictionary *_controlStates;
-    NSMutableDictionary *_participantStates;
-    NSMutableDictionary *_participantLimitPerSuspensionReason;
-    NSMutableArray *_suspensionReasonsThatTriggerWaiting;
-    NSMutableArray *_waitingPoliciesArray;
-    _Bool _pauseSnapsToMediaTimeOfOriginator;
-    NSString *_currentItemIdentifier;
-    id <AVPlaybackCoordinationMediumDelegate> _coordinationMediumDelegate;
-    NSString *_mediumLoggingIdentifier;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void)AssistantTipView;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)certificateRef;
 - (CDStruct_1b6d18a9);
+- (void)_cn_firstObjectPassingTest:(id)arg1;
+- (void);
+- (id)a;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)hTrack: /* Error: Ran out of types for this method. */;
+- (void)initWithTrack: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currentItemIdentifier;
 @property(readonly, nonatomic) __weak id <AVPlaybackCoordinatorPlaybackControlDelegate> playbackControlDelegate;
 
 @end

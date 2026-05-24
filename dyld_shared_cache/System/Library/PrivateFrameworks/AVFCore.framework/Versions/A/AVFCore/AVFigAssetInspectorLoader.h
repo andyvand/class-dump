@@ -6,37 +6,22 @@
 
 #import <AVFCore/AVAssetInspectorLoader.h>
 
-@class AVAssetInspector, AVDispatchOnce, AVWeakReference, NSMutableArray, NSObject, NSURL;
-@protocol OS_dispatch_queue;
-
 @interface AVFigAssetInspectorLoader : AVAssetInspectorLoader
 {
     struct OpaqueFigAsset *_figAsset;
-    int _figAssetCreationStatus;
-    AVWeakReference *_weakReferenceToAsset;
-    AVAssetInspector *_assetInspector;
-    AVDispatchOnce *_assetInspectorOnce;
-    NSObject<OS_dispatch_queue> *_completionHandlerQueue;
-    struct OpaqueFigSimpleMutex *_loadingMutex;
-    NSMutableArray *_loadingBatches;
-    _Bool _loadingCanceled;
-    _Bool _registeredForFigAssetNotifications;
-    _Bool _prefersNominalDurations;
-    long long _fragmentMinderAssociationCount;
-    NSURL *_URL;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
-- (void);
-- (struct OpaqueFigSimpleMutex *);
++ (void)P;
+- (void)Q;
+- (struct OpaqueFigSimpleMutex *);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)6;
 - (void);
 - (id);
 - (Class);
@@ -51,11 +36,12 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (long long);
-- (long long);
-- (void);
+- (long long)TMLocationContribution;
+- (long long)could not be relocated to real address
+;
+- (void)!;
 - (id);
 - (id);
 - (id);

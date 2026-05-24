@@ -7,16 +7,6 @@
 @interface AppStoreKit.TitledParagraph
 {
     id languageAwareText;
-    id $__lazy_storage_$_text;
-    id languageAwareCollapsedText;
-    id $__lazy_storage_$_collapsedText;
-    id primarySubtitle;
-    id secondarySubtitle;
-    id style;
-    id id;
-    id automationMetadata;
-    id clickAction;
-    id clickSender;
 }
 
 @end

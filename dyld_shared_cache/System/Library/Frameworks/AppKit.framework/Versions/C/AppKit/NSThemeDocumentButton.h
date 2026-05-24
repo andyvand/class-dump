@@ -11,10 +11,6 @@
 @interface NSThemeDocumentButton : NSDocumentDragButton
 {
     ISIcon *_icon;
-    unsigned int _documentEdited:1;
-    unsigned int _menuVisible:1;
-    unsigned int _ignoreRentry:1;
-    unsigned int _isObservingIconAppearance:1;
 }
 
 + (_Bool);
@@ -27,18 +23,18 @@
 - (id);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void)esponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
+- (void)_childAssetDownloadTasksSessionIdentifier;
+- (void)lose frame;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
+- (id);
+- (void)LSetEnabledCiphers returned %d;
+- (struct CGPoint)ed;
+- (void)nnot create a thread for reading data from the requestBody stream error:(_Bool)arg1 %d;
+- (void)seBytes == nil;
 - (void);
 - (void)ng;
 - (struct NSEdgeInsets);
@@ -46,7 +42,6 @@
 
 // Remaining properties
 @property(readonly) _Bool isPopupVisible;
-@property(getter=isMenuVisible) _Bool menuVisible;
 
 @end
 

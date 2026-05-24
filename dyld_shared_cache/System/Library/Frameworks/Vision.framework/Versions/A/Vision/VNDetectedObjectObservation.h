@@ -6,49 +6,40 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSUUID, VNPixelBufferObservation;
+@class NSUUID;
 
 @interface VNDetectedObjectObservation : VNObservation
 {
     struct CGRect _boundingBox;
-    NSUUID *_groupId;
-    VNPixelBufferObservation *_globalSegmentationMask;
-    NSUUID *_identifier;
-    VNPixelBufferObservation *_instanceSegmentationMask;
 }
 
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id))2	;
 + (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)_xpcActivityRegisteredWithDuet;
 - (id);
 - (unsigned long long);
 - (struct CGRect);
-- (id);
+- (id)ray",&,N,V_labeledValueChanges;
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void)nOutputs(_:_:_:_:) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly, nonatomic) VNPixelBufferObservation *globalSegmentationMask; // @synthesize globalSegmentationMask=_globalSegmentationMask;
 @property(readonly, nonatomic) NSUUID *groupId; // @synthesize groupId=_groupId;
-@property(copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) VNPixelBufferObservation *instanceSegmentationMask; // @synthesize instanceSegmentationMask=_instanceSegmentationMask;
-@property(readonly, nonatomic) _Bool providesBoundsNormalizedToROI;
 
 @end
 

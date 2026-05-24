@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @protocol SSLocalDisplayMonitoring
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *hdrUnavailableError;
-@property(readonly, nonatomic) _Bool isHDRVideoReferencePresetSelected;
 @property(readonly, nonatomic) _Bool supportsHDRVideoReferencePreset;
 @end
 

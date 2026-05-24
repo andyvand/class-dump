@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGIdentityKey;
+@class SGIdentityKey;
 
 @interface SGPseudoContactKey
 {
@@ -14,7 +14,7 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)characterAtIndex:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -25,14 +25,7 @@
 - (void)xL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SGIdentityKey *identityKey; // @synthesize identityKey=_identityKey;
-@property(readonly) Class superclass;
 
 @end
 

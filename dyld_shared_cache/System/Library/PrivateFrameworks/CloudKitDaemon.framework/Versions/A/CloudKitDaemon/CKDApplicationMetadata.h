@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntitlements, NSString;
-
 @interface CKDApplicationMetadata
 {
     _Bool _isClientMainBundleAppleExecutable;
-    unsigned int _clientSDKVersion;
-    long long _adopterProcessType;
-    NSString *_containingBundleID;
-    NSString *_applicationContainerPath;
-    CKEntitlements *_entitlements;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_isMatch:onKeys:planeName:results: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)6I]}16;
 - (long long);
 - (unsigned int);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)BaseURL;
+- (void)downloadBaseURL;
 - (void)cord %@ didn't contain any share protection data;
 
 // Remaining properties
 @property(nonatomic) long long adopterProcessType; // @synthesize adopterProcessType=_adopterProcessType;
-@property(copy, nonatomic) NSString *applicationContainerPath; // @synthesize applicationContainerPath=_applicationContainerPath;
-@property(nonatomic) unsigned int clientSDKVersion; // @synthesize clientSDKVersion=_clientSDKVersion;
-@property(copy, nonatomic) NSString *containingBundleID; // @synthesize containingBundleID=_containingBundleID;
-@property(retain, nonatomic) CKEntitlements *entitlements; // @synthesize entitlements=_entitlements;
-@property(nonatomic) _Bool isClientMainBundleAppleExecutable; // @synthesize isClientMainBundleAppleExecutable=_isClientMainBundleAppleExecutable;
 
 @end
 

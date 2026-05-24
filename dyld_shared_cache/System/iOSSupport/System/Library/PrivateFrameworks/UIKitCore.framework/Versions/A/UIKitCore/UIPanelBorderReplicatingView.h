@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
-- (id);
++ (Class)_anyOutputDeviceObjPassesTest: /* Error: Ran out of types for this method. */;
+- (id)%s is unexpectedly nil in "%s" at line %d [%@];
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol WBSPageTestDelegate
+- (void)`;
+- (void)�Ha;
 @end
 

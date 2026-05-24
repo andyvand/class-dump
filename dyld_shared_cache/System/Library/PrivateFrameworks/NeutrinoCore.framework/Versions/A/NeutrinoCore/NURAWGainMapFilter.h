@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface NURAWGainMapFilter
 {
     CIImage *_inputImage;
-    NSNumber *_inputGain;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSNumber *inputGain; // @synthesize inputGain=_inputGain;
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 
 @end

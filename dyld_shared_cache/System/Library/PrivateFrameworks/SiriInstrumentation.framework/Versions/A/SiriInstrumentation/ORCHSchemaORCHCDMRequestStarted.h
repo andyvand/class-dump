@@ -6,15 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHCDMRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)ckInterface>"@"NSError">16;
 - (id);
 - (void);
 - (void);
@@ -24,16 +21,14 @@
 - (id);
 - (id)
 × ;
-- (id)pyContext;
+- (id)_appLanguageModelAssetCopyContext;
 - (id),N,R;
-- (_Bool)OWHOMECOMMUNICATIONTASKTYPE_SEND;
+- (_Bool)FLOWHOMECOMMUNICATIONTASKTYPE_SEND;
 - (_Bool)e!;
 - (void)#ºÿ¯c%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

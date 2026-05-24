@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
-
 @interface UNNotificationSound
 {
     long long _alertType;
-    NSString *_alertTopic;
-    NSString *_audioCategory;
-    NSNumber *_audioVolume;
-    double _maximumDuration;
-    _Bool _critical;
-    _Bool _shouldIgnoreAccessibilityDisabledVibrationSetting;
-    _Bool _shouldIgnoreRingerSwitch;
-    _Bool _shouldRepeat;
-    NSString *_toneFileName;
-    NSURL *_toneFileURL;
-    NSString *_toneIdentifier;
-    unsigned long long _toneMediaLibraryItemIdentifier;
-    NSString *_vibrationIdentifier;
-    NSURL *_vibrationPatternFileURL;
 }
 
 + (id);
@@ -39,21 +23,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *alertTopic; // @synthesize alertTopic=_alertTopic;
 @property(readonly) long long alertType; // @synthesize alertType=_alertType;
-@property(readonly, copy) NSString *audioCategory; // @synthesize audioCategory=_audioCategory;
-@property(readonly, copy) NSNumber *audioVolume; // @synthesize audioVolume=_audioVolume;
-@property(readonly, getter=isCritical) _Bool critical; // @synthesize critical=_critical;
-@property(readonly) double maximumDuration; // @synthesize maximumDuration=_maximumDuration;
-@property(readonly) _Bool shouldIgnoreAccessibilityDisabledVibrationSetting; // @synthesize shouldIgnoreAccessibilityDisabledVibrationSetting=_shouldIgnoreAccessibilityDisabledVibrationSetting;
-@property(readonly) _Bool shouldIgnoreRingerSwitch; // @synthesize shouldIgnoreRingerSwitch=_shouldIgnoreRingerSwitch;
-@property(readonly) _Bool shouldRepeat; // @synthesize shouldRepeat=_shouldRepeat;
-@property(readonly, copy) NSString *toneFileName; // @synthesize toneFileName=_toneFileName;
-@property(readonly, copy) NSURL *toneFileURL; // @synthesize toneFileURL=_toneFileURL;
-@property(readonly, copy) NSString *toneIdentifier; // @synthesize toneIdentifier=_toneIdentifier;
-@property(readonly) unsigned long long toneMediaLibraryItemIdentifier; // @synthesize toneMediaLibraryItemIdentifier=_toneMediaLibraryItemIdentifier;
-@property(readonly, copy) NSString *vibrationIdentifier; // @synthesize vibrationIdentifier=_vibrationIdentifier;
-@property(readonly, copy) NSURL *vibrationPatternFileURL; // @synthesize vibrationPatternFileURL=_vibrationPatternFileURL;
 
 @end
 

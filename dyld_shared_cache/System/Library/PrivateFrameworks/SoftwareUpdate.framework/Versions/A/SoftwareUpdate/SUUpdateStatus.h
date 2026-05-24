@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface SUUpdateStatus
 {
     NSString *_productKey;
-    unsigned long long _installState;
-    unsigned long long _activePhases;
-    NSError *_error;
-    unsigned long long _totalBytes;
-    unsigned long long _downloadedBytes;
-    double _estimatedTimeRemainingForDownload;
-    double _installProgressPercent;
-    double _bridgeOSPrepareProgressPercent;
-    double _estimatedTimeRemainingForInstall;
-    double _estimatedTimeRemainingForBridgeOSPrepare;
-    double _estimatedTimeForPostLogoutCommit;
-    NSString *_specialInstallStatus;
 }
 
 + (id);
 + (_Bool);
 + (_Bool);
 - (id);
+- (void)m;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (double);
-- (id);
-- (double);
-- (double);
-- (double);
+- (double);
+- (id)!1Ʋ;
+- (double)l;
 - (double);
 - (double);
+- (double);
+- (double);
 - (unsigned long long);
 - (double);
 - (unsigned long long);
@@ -54,28 +42,14 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)groupSessionEnded;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activePhases; // @synthesize activePhases=_activePhases;
-@property(nonatomic) double bridgeOSPrepareProgressPercent; // @synthesize bridgeOSPrepareProgressPercent=_bridgeOSPrepareProgressPercent;
-@property(nonatomic) unsigned long long downloadedBytes; // @synthesize downloadedBytes=_downloadedBytes;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) double estimatedTimeForPostLogoutCommit; // @synthesize estimatedTimeForPostLogoutCommit=_estimatedTimeForPostLogoutCommit;
-@property(readonly, nonatomic) double estimatedTimeRemaining;
-@property(nonatomic) double estimatedTimeRemainingForBridgeOSPrepare; // @synthesize estimatedTimeRemainingForBridgeOSPrepare=_estimatedTimeRemainingForBridgeOSPrepare;
-@property(nonatomic) double estimatedTimeRemainingForDownload; // @synthesize estimatedTimeRemainingForDownload=_estimatedTimeRemainingForDownload;
-@property(nonatomic) double estimatedTimeRemainingForInstall; // @synthesize estimatedTimeRemainingForInstall=_estimatedTimeRemainingForInstall;
-@property(nonatomic) double installProgressPercent; // @synthesize installProgressPercent=_installProgressPercent;
-@property(nonatomic) unsigned long long installState; // @synthesize installState=_installState;
 @property(readonly, copy) NSString *productKey; // @synthesize productKey=_productKey;
-@property(readonly, nonatomic) double progressPercent;
-@property(copy, nonatomic) NSString *specialInstallStatus; // @synthesize specialInstallStatus=_specialInstallStatus;
-@property(nonatomic) unsigned long long totalBytes; // @synthesize totalBytes=_totalBytes;
 
 @end
 

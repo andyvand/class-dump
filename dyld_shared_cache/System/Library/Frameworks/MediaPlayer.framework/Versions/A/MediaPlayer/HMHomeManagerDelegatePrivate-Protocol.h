@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHomeManager, NSArray;
+
 @protocol HMHomeManagerDelegatePrivate
+
+@optional
+- (void)__engineStats;
+- (void)__didChangePointOfView;
+- (void)__antialiasingMode;
+- (void)numberWithChar:(HMHomeManager *)arg1;
+- (void)newRenderPipelineStateWithDescriptor:(HMHomeManager *)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)newIndirectCommandBufferWithDescriptor:(HMHomeManager *)arg1 maxCommandCount:(unsigned long long)arg2 options: /* Error: Ran out of types for this method. */;
+- (void)newComputePipelineStateWithFunctionName:(HMHomeManager *)arg1 library:(NSArray *)arg2 constantValues: /* Error: Ran out of types for this method. */;
+- (void)URLForResource:(HMHomeManager *)arg1 withExtension:(_Bool)arg2;
+- (void)URLByStandardizingPath;
+- (void)momentOfInertia;
+- (void)minimumDistance;
+- (void)maximumExposure;
+- (void),N,Vscale;
+- (void)NVector3=ddd},N,Vmin;
+- (void)Vector3=ddd},N,Veuler;
+- (void);
+- (void)in C3DIO_COLLADA_CopyParameterArray;
 @end
 

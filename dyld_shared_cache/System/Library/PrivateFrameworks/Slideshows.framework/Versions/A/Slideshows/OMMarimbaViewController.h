@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, MRMarimbaView;
+@class MPDocument;
 
 @interface OMMarimbaViewController
 {
     _Bool _stretchableWithoutReauthoring;
-    MRMarimbaView *_marimbaView;
 }
 
 + (void);
@@ -18,13 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)bled;
+- (id)mLayerCount;
+- (void)inSpriteCoordinatesArrayIsEnabled;
 
 // Remaining properties
 @property(retain) MPDocument *document;
-@property(readonly) MRMarimbaView *marimbaView; // @synthesize marimbaView=_marimbaView;
-@property _Bool stretchableWithoutReauthoring; // @synthesize stretchableWithoutReauthoring=_stretchableWithoutReauthoring;
 
 @end
 

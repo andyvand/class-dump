@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCUserEventHistoryAggregateCounts;
-
 @interface FCUserEventHistoryAggregateStoreData
 {
     long long _baselineTimestamp;
-    long long _baselineStatelessEventCount;
-    long long _baselineTotalEventCount;
-    FCUserEventHistoryAggregateCounts *_aggregateCounts;
 }
 
 + (id);
@@ -24,13 +19,10 @@
 - (void);
 - (id);
 - (id);
-- (void)up;
+- (void)maxUnpaidArticlesIPhoneForYouGroup;
 
 // Remaining properties
-@property(retain, nonatomic) FCUserEventHistoryAggregateCounts *aggregateCounts; // @synthesize aggregateCounts=_aggregateCounts;
-@property(nonatomic) long long baselineStatelessEventCount; // @synthesize baselineStatelessEventCount=_baselineStatelessEventCount;
 @property(nonatomic) long long baselineTimestamp; // @synthesize baselineTimestamp=_baselineTimestamp;
-@property(nonatomic) long long baselineTotalEventCount; // @synthesize baselineTotalEventCount=_baselineTotalEventCount;
 
 @end
 

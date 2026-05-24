@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKComposeRecipientView;
+
 @protocol CKComposeRecipientViewDelegate
+- (struct UIEdgeInsets)er:(CKComposeRecipientView *)arg1;
 @end
 

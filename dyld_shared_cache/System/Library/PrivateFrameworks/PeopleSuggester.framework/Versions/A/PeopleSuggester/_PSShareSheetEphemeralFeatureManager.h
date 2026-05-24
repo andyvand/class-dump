@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSSet, _CDInteractionStore, _PSPredictionContext;
+@class NSNumber, _PSPredictionContext;
 
 @interface _PSShareSheetEphemeralFeatureManager
 {
     _PSPredictionContext *_context;
-    NSSet *_candidates;
-    NSArray *_caches;
-    _CDInteractionStore *_store;
-    NSSet *_features;
-    struct os_unfair_lock_s _lock;
-    NSNumber *_histogramSmoothingParameterK;
-    NSNumber *_histogramSmoothingParameterV;
 }
 
+- (void)_hasAudioContext;
+- (void)_hasAudioAppName;
+- (void)_hasArtifactFilepath;
+- (id)_falseWakeWithSpeechNoMatchCount;
+- (id)_editMethod;
+- (id)_declineDismissGesture;
+- (id)_debugSessionConnectionSnapshotCaptured;
+- (id)_buttonInteractionDetected;
+- (id)_avAudioSessionInterruptorName;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)NumberOfEngagedSuggestionsFromSourceAppWithConversation:(id)arg1 forConversationId: /* Error: Ran out of types for this method. */;
+- (void)incrementNumberOfEngagedSuggestionsFromSourceAppWithConversation:(id)arg1 forConversationId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *histogramSmoothingParameterK; // @synthesize histogramSmoothingParameterK=_histogramSmoothingParameterK;
-@property(retain, nonatomic) NSNumber *histogramSmoothingParameterV; // @synthesize histogramSmoothingParameterV=_histogramSmoothingParameterV;
 
 @end
 

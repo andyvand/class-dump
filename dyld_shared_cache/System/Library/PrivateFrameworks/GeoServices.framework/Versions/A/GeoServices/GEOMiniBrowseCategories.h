@@ -9,7 +9,6 @@
 @interface GEOMiniBrowseCategories
 {
     NSArray *_categoriesStyleAttributes;
-    NSArray *_topChildNames;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *categoriesStyleAttributes; // @synthesize categoriesStyleAttributes=_categoriesStyleAttributes;
-@property(readonly, nonatomic) NSArray *topChildNames; // @synthesize topChildNames=_topChildNames;
 
 @end
 

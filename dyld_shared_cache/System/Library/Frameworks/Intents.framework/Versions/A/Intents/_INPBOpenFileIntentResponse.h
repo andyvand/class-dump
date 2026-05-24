@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBInteger, _INPBString;
+@class NSArray;
 
 @interface _INPBOpenFileIntentResponse
 {
     CDStruct_f2ecb737 _has;
-    _Bool _success;
-    NSArray *_entities;
-    _INPBInteger *_numResults;
-    _INPBString *_query;
 }
 
 + (Class);
@@ -30,35 +26,21 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool)rmSearch:alarms: /* Error: Ran out of types for this method. */;
-- (void)epresentation;
-- (void)withCompletion:(_Bool)arg1;
+- (_Bool)initWithAlarmSearch:alarms: /* Error: Ran out of types for this method. */;
+- (void)_dictionaryRepresentation;
+- (void)provideNoteOptionsCollectionForRequestPayment:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(readonly, nonatomic) unsigned long long entitiesCount;
-@property(readonly, nonatomic) _Bool hasNumResults;
-@property(readonly, nonatomic) _Bool hasQuery;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBInteger *numResults; // @synthesize numResults=_numResults;
-@property(retain, nonatomic) _INPBString *query; // @synthesize query=_query;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

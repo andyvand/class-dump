@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDisbursementPaymentRequest;
+@class PKDisbursementPaymentRequest;
 
 @interface PKDisbursementPaymentRequestValidator
 {
     _Bool _shouldSkipSummaryItemValidation;
-    NSString *_currencyCode;
-    PKDisbursementPaymentRequest *_disbursementPaymentRequest;
 }
 
 + (id);
@@ -22,21 +20,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)gisterPeerPayment: /* Error: Ran out of types for this method. */;
+- (id)setRegisterPeerPayment: /* Error: Ran out of types for this method. */;
 - (_Bool)heet? %{bool}d;
-- (void)re;
+- (void)transactionKeyCASDSignature;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PKDisbursementPaymentRequest *disbursementPaymentRequest; // @synthesize disbursementPaymentRequest=_disbursementPaymentRequest;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool shouldSkipSummaryItemValidation; // @synthesize shouldSkipSummaryItemValidation=_shouldSkipSummaryItemValidation;
-@property(readonly) Class superclass;
 
 @end
 

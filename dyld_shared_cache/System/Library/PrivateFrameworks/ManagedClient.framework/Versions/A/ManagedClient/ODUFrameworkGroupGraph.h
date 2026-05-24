@@ -4,38 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, ODUFrameworkMCXRecord;
+@class ODUFrameworkMCXRecord;
 
 __attribute__((visibility("hidden")))
 @interface ODUFrameworkGroupGraph
 {
     ODUFrameworkMCXRecord *mMCXRecord;
-    NSMutableArray *mParents;
-    ODUFrameworkGroupGraph *mNextGraph;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)(;
+- (id);
+- (id);
+- (id)"R;
+- (id);
+- (_Bool)^;
 - (id);
 - (id);
 - (id);
+- (id));
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)Y(;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

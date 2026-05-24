@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, TUCallFilterControllerActions;
+@protocol OS_dispatch_queue;
 
 @interface TUCallFilterController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <TUCallFilterControllerActions> _actionsDelegate;
 }
 
 - (_Bool);
@@ -20,30 +19,27 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)`;
+- (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (unsigned long long);
+- (id)h;
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool)P;
 - (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (void)providersByIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <TUCallFilterControllerActions> actionsDelegate; // @synthesize actionsDelegate=_actionsDelegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) _Bool silenceUnknownCallersEnabled;
-@property(readonly, nonatomic) _Bool silenceUnknownFaceTimeCallersEnabled;
 
 @end
 

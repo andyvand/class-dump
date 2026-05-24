@@ -6,39 +6,35 @@
 
 #import <AppKit/NSColorPicker.h>
 
-@class NSColorPickerPencilView, NSTextField, NSView;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerPencils : NSColorPicker
 {
     id _colorNameTextField;
-    id _pencilView;
-    id _containerView;
 }
 
-- (_Bool);
+- (_Bool)ne_tracker_lookup_app_domains;
 - (void);
-- (void);
+- (void)U;
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)ponse";
+- (struct CGSize)selectEntriesStmt;
+- (id)_URLSession:(unsigned long long)arg1 task:(id)arg2 _willUseEffectiveConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)session %@ with identifier %@;
+- (void)requesting a NSURLSessionDataTask from background transfer daemon:(id)arg1 %@;
+- (void)mpted to create a NSURLSessionDataTask in a session that has been invalidated;
+- (id)%llu:read-side closed /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
-- (void);
+- (void);
 - (long long);
-- (void)llowedInFullScreen;
+- (void)visibleMenuBarAllowedInFullScreen;
 - (void)$Ãx#C;
 - (id)Âaÿ3@ìE;
 
 // Remaining properties
 @property(retain) NSTextField *colorNameTextField; // @synthesize colorNameTextField=_colorNameTextField;
-@property(retain) NSView *containerView; // @synthesize containerView=_containerView;
-@property(retain) NSColorPickerPencilView *pencilView; // @synthesize pencilView=_pencilView;
 
 @end
 

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSString;
+@class NSString;
 
 @interface SiriUIDisambiguationItem
 {
     _Bool _showsFavoriteStar;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_headingText;
-    NSString *_extraDisambiguationText;
-    NSString *_extraDisambiguationSubText;
-    NSImageView *_imageView;
-    struct _NSRange _titleBoldedRange;
 }
 
-+ (id);
++ (id)";
 - (struct _NSRange);
 - (_Bool);
 - (void);
@@ -31,7 +24,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -39,14 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *extraDisambiguationSubText; // @synthesize extraDisambiguationSubText=_extraDisambiguationSubText;
-@property(copy, nonatomic) NSString *extraDisambiguationText; // @synthesize extraDisambiguationText=_extraDisambiguationText;
-@property(copy, nonatomic) NSString *headingText; // @synthesize headingText=_headingText;
-@property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool showsFavoriteStar; // @synthesize showsFavoriteStar=_showsFavoriteStar;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) struct _NSRange titleBoldedRange; // @synthesize titleBoldedRange=_titleBoldedRange;
 
 @end
 

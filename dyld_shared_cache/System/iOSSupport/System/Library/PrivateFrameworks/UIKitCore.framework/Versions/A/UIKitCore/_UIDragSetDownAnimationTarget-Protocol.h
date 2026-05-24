@@ -8,6 +8,7 @@
 @protocol UIViewSpringAnimationBehaviorDescribing;
 
 @protocol _UIDragSetDownAnimationTarget
+- (void);
 - (UIWindow *)f°1Â0@ù
 × ;
 - (id <UIViewSpringAnimationBehaviorDescribing>)_orthogonalScrollingPrefetchingUnitVector;

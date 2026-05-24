@@ -5,5 +5,6 @@
 //
 
 @protocol CXProviderHostProtocol
+- (oneway void);
 @end
 

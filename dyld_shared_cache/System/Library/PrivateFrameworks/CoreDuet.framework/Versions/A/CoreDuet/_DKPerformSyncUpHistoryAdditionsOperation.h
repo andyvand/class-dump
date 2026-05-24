@@ -6,23 +6,14 @@
 
 #import <CoreDuet/_DKSyncCompositeOperation.h>
 
-@class NSArray, NSDate, _DKSync2Policy, _DKSyncHistory, _DKSyncPeer, _DKSyncType;
-@protocol _DKSyncLocalKnowledgeStorage, _DKSyncRemoteKnowledgeStorage;
+@protocol _DKSyncLocalKnowledgeStorage;
 
 @interface _DKPerformSyncUpHistoryAdditionsOperation : _DKSyncCompositeOperation
 {
     id <_DKSyncLocalKnowledgeStorage> _localStorage;
-    id <_DKSyncRemoteKnowledgeStorage> _transport;
-    _DKSyncPeer *_me;
-    _DKSync2Policy *_policy;
-    _DKSyncType *_type;
-    NSArray *_streamNames;
-    NSDate *_now;
-    unsigned long long _batchNumber;
-    _DKSyncHistory *_history;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool)over limit of %.0fMB ;

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKGridViewItem;
-
 @interface AKBezelFreeButton_Mac
 {
     _Bool _allowsDrags;
-    _Bool _isInTrackingLoop;
-    _Bool _isDragging;
-    AKGridViewItem *_gridViewItem;
 }
 
 - (void);
@@ -25,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
 - (id);
 - (id);
@@ -36,9 +31,6 @@
 - (void)¡;
 
 // Remaining properties
-@property _Bool allowsDrags; // @synthesize allowsDrags=_allowsDrags;
-@property(nonatomic) __weak AKGridViewItem *gridViewItem; // @synthesize gridViewItem=_gridViewItem;
-@property _Bool isDragging; // @synthesize isDragging=_isDragging;
 @property _Bool isInTrackingLoop; // @synthesize isInTrackingLoop=_isInTrackingLoop;
 
 @end

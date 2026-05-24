@@ -26,8 +26,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)ctiveCallIdentifierDidChange: /* Error: Ran out of types for this method. */;
+- (id)tMutating>"8;
+- (void)activeCallIdentifierDidChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *endpointUIDs; // @synthesize endpointUIDs=_endpointUIDs;

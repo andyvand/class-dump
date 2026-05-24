@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSError, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowTitleController
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSAttributedString *_attributedSubtitle;
-    long long _documentEditingState;
-    NSError *_documentAutosavingError;
-    NSError *_nonModalDocumentError;
-    NSURL *_representedURL;
-    _Bool _documentEdited;
-    _Bool _showsAutosaveButton;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)IntegratedCircuitCardIdentifier;
+- (void)AWDID;
+- (void)rwnje21oPXH375umjxV6YQ;
+- (void)oZnrgwIgg;
+- (void)GdXjx1ixZYvN9Gg8iSf68A;
+- (void)fM+ZpoEg;
+- (void)spGVujDEmyCzDznXozB3oA;
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)y;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)setKoreanLineBreakBehavior:(id)arg1;
 - (void)CGPoint=dd}36@52;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy) NSAttributedString *attributedSubtitle;
-@property(retain) NSError *documentAutosavingError;
-@property(getter=isDocumentEdited) _Bool documentEdited;
-@property long long documentEditingState;
-@property(retain) NSError *nonModalDocumentError;
-@property(copy) NSURL *representedURL;
-@property _Bool showsAutosaveButton;
-@property(copy) NSString *subtitle;
 @property(copy) NSString *title;
 
 @end

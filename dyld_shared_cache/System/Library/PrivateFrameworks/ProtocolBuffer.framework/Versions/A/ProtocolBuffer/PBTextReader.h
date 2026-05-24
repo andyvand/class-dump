@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSMutableDictionary, NSString;
+@class NSCharacterSet;
 
 @interface PBTextReader
 {
     NSCharacterSet *_whitespaceAndNewlineCharacterSet;
-    NSCharacterSet *_tagNameCharacterSet;
-    NSCharacterSet *_nonHexDigitCharacterSet;
-    unsigned long long _pos;
-    unsigned long long _length;
-    NSString *_string;
-    NSMutableDictionary *_objects;
-    NSMutableDictionary *_cachedObjectTypes;
 }
 
 - (id);

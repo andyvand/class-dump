@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)s;
+- (_Bool)tion (%@) to the select statement (stmt=%p);
+- (id)builtin;
+- (_Bool)_100ContinueTimerStart;
 - (void)pjçÿ,`B;
 
 // Remaining properties

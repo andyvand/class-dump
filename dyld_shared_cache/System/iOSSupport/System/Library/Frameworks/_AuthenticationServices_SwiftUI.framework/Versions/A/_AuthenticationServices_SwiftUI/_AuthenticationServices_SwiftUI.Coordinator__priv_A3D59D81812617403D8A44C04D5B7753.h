@@ -8,13 +8,12 @@
 {
     id config;
     id presentationAnchor;
-    id button;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)begin approval flow:(id)arg1 %@;
+- (void)w (Host):(id)arg1 beginFlow Extension successfully began approval flow;
+- (id)calendarUnitFromUnitString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

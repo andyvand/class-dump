@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class RWIProtocolRuntimeRemoteObject;
-
 @interface RWIProtocolDebuggerProbeSample : RWIProtocolJSONObject
 {
 }
@@ -17,19 +15,15 @@
 - (void);
 - (int);
 - (id);
-- (int);
+- (int);
 - (int);
 - (double);
 - (id);
 - (void);
-- (void)nection;
+- (void)_powerConnection;
 
 // Remaining properties
-@property(nonatomic) int batchId;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *payload;
 @property(nonatomic) int probeId;
-@property(nonatomic) int sampleId;
-@property(nonatomic) double timestamp;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APUnfairLock, NSMutableDictionary, NSString, NSURLSession, NSURLSessionConfiguration;
+@class NSMutableDictionary;
 
 @interface APNSURLSessionDemultiplexer
 {
     _Atomic long long _requestCount;
-    _Bool _sessionMarkedInvalid;
-    NSString *_identifier;
-    NSMutableDictionary *_taskInfoByTaskIdentifier;
-    NSURLSessionConfiguration *_configuration;
-    NSURLSession *_session;
-    long long _maximumRequestCount;
-    CDUnknownBlockType _sessionInvalidated;
-    APUnfairLock *_lock;
 }
 
 - (id);
@@ -30,42 +22,27 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)mTransformToDevice;
+- (id)lass is not thread safe.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)TSUIntegerKeyDictionaryKeyEnumerator;
 - (long long);
 
 // Remaining properties
-@property(retain) NSURLSessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) APUnfairLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) long long maximumRequestCount; // @synthesize maximumRequestCount=_maximumRequestCount;
-@property(readonly, nonatomic) long long requestCount;
-@property(retain) NSURLSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType sessionInvalidated; // @synthesize sessionInvalidated=_sessionInvalidated;
-@property(nonatomic) _Bool sessionMarkedInvalid; // @synthesize sessionMarkedInvalid=_sessionMarkedInvalid;
-@property(readonly) Class superclass;
 @property(retain) NSMutableDictionary *taskInfoByTaskIdentifier; // @synthesize taskInfoByTaskIdentifier=_taskInfoByTaskIdentifier;
 
 @end

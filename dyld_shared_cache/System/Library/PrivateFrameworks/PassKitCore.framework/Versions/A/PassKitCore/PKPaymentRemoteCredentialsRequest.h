@@ -6,17 +6,9 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString;
-
 @interface PKPaymentRemoteCredentialsRequest : PKPaymentWebServiceRequest
 {
     _Bool _includeMetadata;
-    _Bool _excludeCredentialTransferDeviceInfo;
-    _Bool _deviceProvisioningDataExpected;
-    _Bool _fetchExtendedAuthorizationActions;
-    _Bool _isInProximitySetup;
-    NSString *_productIdentifier;
-    long long _credentialType;
 }
 
 - (void);
@@ -27,8 +19,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)\;
+- (void)"Y;
 - (void);
 - (void);
 - (void);
@@ -40,13 +32,7 @@
 - (void).set-default-payment;
 
 // Remaining properties
-@property(nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(nonatomic) _Bool deviceProvisioningDataExpected; // @synthesize deviceProvisioningDataExpected=_deviceProvisioningDataExpected;
-@property(nonatomic) _Bool excludeCredentialTransferDeviceInfo; // @synthesize excludeCredentialTransferDeviceInfo=_excludeCredentialTransferDeviceInfo;
-@property(nonatomic) _Bool fetchExtendedAuthorizationActions; // @synthesize fetchExtendedAuthorizationActions=_fetchExtendedAuthorizationActions;
 @property(nonatomic) _Bool includeMetadata; // @synthesize includeMetadata=_includeMetadata;
-@property(nonatomic) _Bool isInProximitySetup; // @synthesize isInProximitySetup=_isInProximitySetup;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
 
 @end
 

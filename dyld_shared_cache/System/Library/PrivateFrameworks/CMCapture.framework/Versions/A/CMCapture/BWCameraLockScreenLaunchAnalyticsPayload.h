@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWCameraLockScreenLaunchAnalyticsPayload
 {
     _Bool _completed;
-    _Bool _prewarmed;
-    _Bool _ispStreamingStarted;
-    int _launchError;
 }
 
 - (void);
@@ -30,16 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ispStreamingStarted; // @synthesize ispStreamingStarted=_ispStreamingStarted;
-@property(nonatomic) int launchError; // @synthesize launchError=_launchError;
-@property(nonatomic) _Bool prewarmed; // @synthesize prewarmed=_prewarmed;
-@property(readonly) Class superclass;
 
 @end
 

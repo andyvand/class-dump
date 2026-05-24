@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVTimer, NSDate;
+@class MSVTimer;
 
 @interface MRTimer
 {
     MSVTimer *_timer;
-    NSDate *_fireDate;
 }
 
 - (id);
@@ -22,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *fireDate;
-@property(readonly, nonatomic) double timeRemaining;
 @property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end

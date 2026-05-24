@@ -7,7 +7,6 @@
 @interface MRAVOutputDeviceSourceInfo
 {
     _Bool _multipleBuiltInDevices;
-    long long _sourceType;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool multipleBuiltInDevices; // @synthesize multipleBuiltInDevices=_multipleBuiltInDevices;
-@property(readonly, nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSImage;
+@class NSImage;
 
 @interface ITLibArtwork
 {
     void *_impl;
-    NSImage *_cachedImage;
 }
 
 - (unsigned long long);
@@ -23,9 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property(readonly, retain, nonatomic) NSImage *image;
-@property(readonly, retain, nonatomic) NSData *imageData;
-@property(readonly, nonatomic) unsigned long long imageDataFormat;
 
 @end
 

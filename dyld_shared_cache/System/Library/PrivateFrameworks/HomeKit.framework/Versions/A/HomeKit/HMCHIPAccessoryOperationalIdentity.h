@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSData;
 
 @interface HMCHIPAccessoryOperationalIdentity
 {
     NSData *_rootPublicKey;
-    NSNumber *_nodeID;
 }
 
 + (id);
@@ -17,33 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)imprimatura;
+- (id)TISCopyCurrentKeyboardInputSource;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *nodeID; // @synthesize nodeID=_nodeID;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSData *rootPublicKey; // @synthesize rootPublicKey=_rootPublicKey;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

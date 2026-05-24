@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _GEOLegacyBatchReverseGeocodeTicket : GEOAbstractMapServiceTicket
 {
     GEOBatchRevGeocodeRequest *_batchReverseGeocodeRequest;
-    CDUnknownBlockType _locationShifter;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)tID;
 - (id);
 - (void);
 - (void);

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAPackage, NSString;
-@protocol OBAnimationAppearanceChangeDelegate;
+@class CALayer;
 
 @interface OBAnimationView
 {
     _Bool _flipForRTL;
-    _Bool _centerAlignAnimation;
-    _Bool _useAccentColor;
-    _Bool _useHueRotation;
-    _Bool _needsBrightnessAdjustment;
-    _Bool _accentUsesHSV;
-    double _scale;
-    id <OBAnimationAppearanceChangeDelegate> _appearanceChangeDelegate;
-    CALayer *_packageLayer;
-    CAPackage *_package;
-    double _accentRadianDelta;
-    double _accentBrightnessValue;
-    struct CGRect _preferredFrame;
 }
 
 - (_Bool);
@@ -42,18 +29,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (double);
 - (double);
 - (void);
 - (double);
 - (void);
 - (void);
-- (double);
+- (double)il;
 - (id);
 - (void);
 - (void);
@@ -62,26 +49,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double accentBrightnessValue; // @synthesize accentBrightnessValue=_accentBrightnessValue;
-@property(nonatomic) double accentRadianDelta; // @synthesize accentRadianDelta=_accentRadianDelta;
-@property(nonatomic) _Bool accentUsesHSV; // @synthesize accentUsesHSV=_accentUsesHSV;
-@property(nonatomic) __weak id <OBAnimationAppearanceChangeDelegate> appearanceChangeDelegate; // @synthesize appearanceChangeDelegate=_appearanceChangeDelegate;
-@property _Bool centerAlignAnimation; // @synthesize centerAlignAnimation=_centerAlignAnimation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool flipForRTL; // @synthesize flipForRTL=_flipForRTL;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool needsBrightnessAdjustment; // @synthesize needsBrightnessAdjustment=_needsBrightnessAdjustment;
-@property(retain, nonatomic) CAPackage *package; // @synthesize package=_package;
 @property(retain, nonatomic) CALayer *packageLayer; // @synthesize packageLayer=_packageLayer;
-@property(nonatomic) struct CGRect preferredFrame; // @synthesize preferredFrame=_preferredFrame;
-@property double scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
-@property _Bool useAccentColor; // @synthesize useAccentColor=_useAccentColor;
-@property _Bool useHueRotation; // @synthesize useHueRotation=_useHueRotation;
 
 @end
 

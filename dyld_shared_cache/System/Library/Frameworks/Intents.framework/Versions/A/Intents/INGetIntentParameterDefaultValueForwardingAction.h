@@ -16,13 +16,13 @@
 + (_Bool);
 + (Class)HhØiTj	hmho	;
 - (id);
-- (id);
+- (id)t",&,N,V_positive;
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
+- (void)rror"8@"CWFSensingResult"16;
 - (void);
-- (void);
-- (void)archTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEnableFanOptionsCollectionForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *parameterName; // @synthesize parameterName=_parameterName;

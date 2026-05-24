@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationContext, NSData, NSDictionary, NSString, NSURL, NSURLSessionConfiguration;
+@class NSData, NSString;
 
 @interface FACircleContext
 {
     NSString *_eventType;
-    NSString *_clientName;
-    NSString *_clientBundleID;
-    NSDictionary *_userInfo;
-    NSDictionary *_additionalParameters;
-    unsigned long long _activityIndicatorStyle;
-    NSURL *_urlForContext;
-    NSString *_urlEndpoint;
-    AKAppleIDAuthenticationContext *_authContext;
-    NSDictionary *_ephemeralAuthResults;
 }
 
 + (id);
@@ -34,12 +25,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)FLOWDOMAINEXECUTIONTYPE_MEDIAPLAYER_APP_SELECTION_FREE_MEDIA_CONTENT_SIGNAL;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)59;
 - (void);
 - (id);
 - (void);
@@ -53,18 +44,7 @@
 - (void)#;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activityIndicatorStyle; // @synthesize activityIndicatorStyle=_activityIndicatorStyle;
-@property(copy, nonatomic) NSDictionary *additionalParameters; // @synthesize additionalParameters=_additionalParameters;
-@property(retain, nonatomic) AKAppleIDAuthenticationContext *authContext; // @synthesize authContext=_authContext;
-@property(copy, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
-@property(copy, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
 @property(readonly, copy, nonatomic) NSData *dataRepresentation;
-@property(retain, nonatomic) NSDictionary *ephemeralAuthResults; // @synthesize ephemeralAuthResults=_ephemeralAuthResults;
-@property(readonly, copy, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(copy, nonatomic) NSString *urlEndpoint; // @synthesize urlEndpoint=_urlEndpoint;
-@property(copy, nonatomic) NSURL *urlForContext; // @synthesize urlForContext=_urlForContext;
-@property(readonly, nonatomic) NSURLSessionConfiguration *urlSessionConfiguration;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

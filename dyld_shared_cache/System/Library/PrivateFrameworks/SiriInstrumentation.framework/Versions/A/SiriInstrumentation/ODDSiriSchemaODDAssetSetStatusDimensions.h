@@ -6,28 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, ODDSiriSchemaODDAssistantDimensions, UAFSchemaUAFAssetSetStatus;
+@class ODDSiriSchemaODDAssistantDimensions;
 
 @interface ODDSiriSchemaODDAssetSetStatusDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantDimensions *_assistantDimensions;
-    NSString *_previousSystemBuild;
-    unsigned long long _buildInstallationTimestampInSecondsSince1970;
-    UAFSchemaUAFAssetSetStatus *_assetSetStatus;
-    NSArray *_clientProcessAssetAvailabilityStatus;
-    unsigned long long _assetSetStatusEventTimestampInSecondsSince1970;
-    int _statusReason;
-    struct {
-        unsigned int buildInstallationTimestampInSecondsSince1970:1;
-        unsigned int assetSetStatusEventTimestampInSecondsSince1970:1;
-        unsigned int statusReason:1;
-    } _has;
-    _Bool _hasAssistantDimensions;
-    _Bool _hasPreviousSystemBuild;
-    _Bool _hasAssetSetStatus;
 }
 
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -55,14 +41,14 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (int);
+- (int)˿;
 - (void);
 - (id);
 - (id);
@@ -75,23 +61,10 @@
 × ;
 - (id)umEuclidCandidates;
 - (id)ionPromptContext;
-- (void)METERSUBTYPE_UNKNOWN;
+- (void)JRPARAMETERSUBTYPE_UNKNOWN;
 
 // Remaining properties
-@property(retain, nonatomic) UAFSchemaUAFAssetSetStatus *assetSetStatus; // @synthesize assetSetStatus=_assetSetStatus;
-@property(nonatomic) unsigned long long assetSetStatusEventTimestampInSecondsSince1970; // @synthesize assetSetStatusEventTimestampInSecondsSince1970=_assetSetStatusEventTimestampInSecondsSince1970;
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantDimensions *assistantDimensions; // @synthesize assistantDimensions=_assistantDimensions;
-@property(nonatomic) unsigned long long buildInstallationTimestampInSecondsSince1970; // @synthesize buildInstallationTimestampInSecondsSince1970=_buildInstallationTimestampInSecondsSince1970;
-@property(copy, nonatomic) NSArray *clientProcessAssetAvailabilityStatus; // @synthesize clientProcessAssetAvailabilityStatus=_clientProcessAssetAvailabilityStatus;
-@property(nonatomic) _Bool hasAssetSetStatus; // @synthesize hasAssetSetStatus=_hasAssetSetStatus;
-@property(nonatomic) _Bool hasAssetSetStatusEventTimestampInSecondsSince1970;
-@property(nonatomic) _Bool hasAssistantDimensions; // @synthesize hasAssistantDimensions=_hasAssistantDimensions;
-@property(nonatomic) _Bool hasBuildInstallationTimestampInSecondsSince1970;
-@property(nonatomic) _Bool hasPreviousSystemBuild; // @synthesize hasPreviousSystemBuild=_hasPreviousSystemBuild;
-@property(nonatomic) _Bool hasStatusReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *previousSystemBuild; // @synthesize previousSystemBuild=_previousSystemBuild;
-@property(nonatomic) int statusReason; // @synthesize statusReason=_statusReason;
 
 @end
 

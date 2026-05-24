@@ -4,33 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCVideoRule;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoTransmitterBase
 {
     void *_controlInfoGenerator;
-    unsigned int _captureWidth;
-    unsigned int _captureHeight;
-    unsigned int _encodingWidth;
-    unsigned int _encodingHeight;
-    unsigned int _targetFramerate;
-    unsigned int _targetBitrate;
-    unsigned int _targetBitrateChangeCounter;
-    unsigned int _txMaxBitrate;
-    unsigned int _txMinBitrate;
-    unsigned int _temporaryMaximumBitrate;
-    VCVideoRule *_videoRule;
-    CDStruct_1b6d18a9 _latestSampleBufferTimestamp;
-    double _lastKeyFrameSentTime;
-    unsigned int _timestamp;
-    unsigned int _lastSentAudioSampleTime;
-    double _lastSentAudioHostTime;
-    _Bool _isServerBasedBandwidthProbingEnabled;
-    _Bool _isEndToEndBasedBandwidthProbingEnabled;
-    NSString *_profileLevel;
-    struct tagVCVideoTransmitterRealtimeSPI _realtimeSPI;
-    _Bool _rtxEnabled;
 }
 
 - (void);
@@ -49,18 +26,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Q9;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned int);
-- (double);
+- (double);
 - (unsigned int);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -69,35 +46,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void)E9;
 - (unsigned int);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
 - (id)llID:(id)arg1 error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned int encodingHeight; // @synthesize encodingHeight=_encodingHeight;
-@property(readonly) unsigned int encodingWidth; // @synthesize encodingWidth=_encodingWidth;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEndToEndBasedBandwidthProbingEnabled; // @synthesize isEndToEndBasedBandwidthProbingEnabled=_isEndToEndBasedBandwidthProbingEnabled;
-@property(nonatomic) _Bool isServerBasedBandwidthProbingEnabled; // @synthesize isServerBasedBandwidthProbingEnabled=_isServerBasedBandwidthProbingEnabled;
-@property CDStruct_1b6d18a9 lastFrameTime; // @synthesize lastFrameTime=_latestSampleBufferTimestamp;
-@property double lastKeyFrameSentTime; // @synthesize lastKeyFrameSentTime=_lastKeyFrameSentTime;
-@property unsigned int lastRTPTimestamp; // @synthesize lastRTPTimestamp=_timestamp;
-@property double lastSentAudioHostTime; // @synthesize lastSentAudioHostTime=_lastSentAudioHostTime;
-@property unsigned int lastSentAudioSampleTime; // @synthesize lastSentAudioSampleTime=_lastSentAudioSampleTime;
-@property(nonatomic, getter=isRtxEnabled) _Bool rtxEnabled; // @synthesize rtxEnabled=_rtxEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int targetBitrate; // @synthesize targetBitrate=_targetBitrate;
-@property(nonatomic) unsigned int targetBitrateChangeCounter; // @synthesize targetBitrateChangeCounter=_targetBitrateChangeCounter;
-@property(readonly) unsigned int targetFramerate; // @synthesize targetFramerate=_targetFramerate;
+@property CDStruct_198678f7 lastFrameTime; // @synthesize lastFrameTime=_latestSampleBufferTimestamp;
 
 @end
 

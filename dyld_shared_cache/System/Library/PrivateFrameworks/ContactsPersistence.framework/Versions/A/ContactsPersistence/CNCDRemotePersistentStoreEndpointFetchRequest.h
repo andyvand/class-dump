@@ -12,13 +12,13 @@
 }
 
 + (id);
-+ (id);
++ (id)ѿg3�);
 + (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void);
 
 // Remaining properties

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SFShareSheetSessionModeTestingDataDump
 {
     NSArray *_placeholderItemDescriptions;
-    NSArray *_peopleSuggestionActivityTypes;
-    NSArray *_shareActivities;
-    NSArray *_visibleShareActivities;
-    NSArray *_actionActivities;
-    NSArray *_visibleActionActivities;
-    NSDictionary *_finalItemsByActivity;
 }
 
 + (_Bool);
@@ -27,22 +21,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)];
 - (id);
 - (void);
 - (id);
@@ -52,13 +46,7 @@ __attribute__((visibility("hidden")))
 þÿ¶yþÿþÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionActivities; // @synthesize actionActivities=_actionActivities;
-@property(copy, nonatomic) NSDictionary *finalItemsByActivity; // @synthesize finalItemsByActivity=_finalItemsByActivity;
-@property(copy, nonatomic) NSArray *peopleSuggestionActivityTypes; // @synthesize peopleSuggestionActivityTypes=_peopleSuggestionActivityTypes;
 @property(copy, nonatomic) NSArray *placeholderItemDescriptions; // @synthesize placeholderItemDescriptions=_placeholderItemDescriptions;
-@property(copy, nonatomic) NSArray *shareActivities; // @synthesize shareActivities=_shareActivities;
-@property(copy, nonatomic) NSArray *visibleActionActivities; // @synthesize visibleActionActivities=_visibleActionActivities;
-@property(copy, nonatomic) NSArray *visibleShareActivities; // @synthesize visibleShareActivities=_visibleShareActivities;
 
 @end
 

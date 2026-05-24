@@ -9,34 +9,28 @@
 @interface MAAutoAssetSetRapidLock
 {
     NSString *_shortTermLockFileName;
-    NSString *_clientDomainName;
-    NSString *_assetSetIdentifier;
-    NSString *_assetSetAtomicInstance;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)W;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
-- (id);
+- (id)naiRealmNames;
+- (void)7;
+- (id)H;
 - (void);
-- (id)ctionary: /* Error: Ran out of types for this method. */;
+- (id)safeSummaryForDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetSetAtomicInstance; // @synthesize assetSetAtomicInstance=_assetSetAtomicInstance;
-@property(retain, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
 @property(retain, nonatomic) NSString *clientDomainName; // @synthesize clientDomainName=_clientDomainName;
-@property(readonly, retain, nonatomic) NSString *shortTermLockFileName; // @synthesize shortTermLockFileName=_shortTermLockFileName;
 
 @end
 

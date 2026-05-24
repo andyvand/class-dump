@@ -9,9 +9,6 @@
 @interface PKInputPointRollNoiseFilter : PKInputPointBaseFilter
 {
     struct linear_congruential_engine<unsigned int, 48271U, 0U, 2147483647U> generator;
-    double currentRollOffsetValue;
-    double _rollJitterNoise;
-    double _rollOffsetNoise;
 }
 
 - (void);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) double rollJitterNoise; // @synthesize rollJitterNoise=_rollJitterNoise;
-@property(nonatomic) double rollOffsetNoise; // @synthesize rollOffsetNoise=_rollOffsetNoise;
 
 @end
 

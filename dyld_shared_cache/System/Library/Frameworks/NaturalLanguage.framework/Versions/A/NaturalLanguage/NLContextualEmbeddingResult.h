@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface NLContextualEmbeddingResult
 {
     NSString *_string;
-    NSArray *_tokenDictionaries;
-    NSData *_data;
-    NSString *_language;
-    unsigned long long _tokenVectorDimension;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,8 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *language;
-@property(readonly) unsigned long long sequenceLength;
 @property(readonly, copy) NSString *string;
 
 @end

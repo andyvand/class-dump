@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)ceInfo"8@"AMPDeviceSyncPrefs"16@"NSError"24;
 @end
 

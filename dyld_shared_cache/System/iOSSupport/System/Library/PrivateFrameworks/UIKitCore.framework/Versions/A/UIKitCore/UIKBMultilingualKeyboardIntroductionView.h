@@ -6,30 +6,22 @@
 
 #import <UIKitCore/UIKBMultilingualIntroductionView.h>
 
-@class UIButton, UIKBMultilingualIntroductionArrowView, UIKeyboardInputMode, UILabel, UIMultiscriptCandidateView, UIView, _UIBackdropView;
+@class UIKeyboardInputMode;
 
 __attribute__((visibility("hidden")))
 @interface UIKBMultilingualKeyboardIntroductionView : UIKBMultilingualIntroductionView
 {
     UIKeyboardInputMode *_inputMode;
-    _UIBackdropView *_backdropView;
-    UILabel *_titleLabel;
-    UILabel *_descriptionLabel;
-    UIButton *_continueButton;
-    UIKBMultilingualIntroductionArrowView *_arrowView;
-    UIView *_highlight;
-    UIMultiscriptCandidateView *_multiscriptCandidateView;
-    UIView *_artworkView;
 }
 
-+ (_Bool);
++ (_Bool)faultPairedDevice:(id)arg1 %{BOOL}d fromStorage:%{BOOL}d isEnhanced:%{BOOL}d hadQOI:%{BOOL}d wantsReceipt:%{BOOL}d /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)t requested de-register (Environment:(id)arg1 %@);
+- (void)t message:(id)arg1 %@;
+- (id)sult:<%@ %p>,  /* Error: Ran out of types for this method. */;
+- (id)o-filled verification codes to Recently Deleted;
 - (void);
 - (long long);
 - (id);
@@ -53,15 +45,7 @@ __attribute__((visibility("hidden")))
 - (id)Ëk;
 
 // Remaining properties
-@property(retain, nonatomic) UIKBMultilingualIntroductionArrowView *arrowView; // @synthesize arrowView=_arrowView;
-@property(retain, nonatomic) UIView *artworkView; // @synthesize artworkView=_artworkView;
-@property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;
-@property(retain, nonatomic) UIButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(retain, nonatomic) UIView *highlight; // @synthesize highlight=_highlight;
 @property(retain, nonatomic) UIKeyboardInputMode *inputMode; // @synthesize inputMode=_inputMode;
-@property(retain, nonatomic) UIMultiscriptCandidateView *multiscriptCandidateView; // @synthesize multiscriptCandidateView=_multiscriptCandidateView;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

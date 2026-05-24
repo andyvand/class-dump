@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)evaluateWithObject: /* Error: Ran out of types for this method. */;
+- (_Bool)tialInteractionSession _reAddTokens]_block_invoke;
 - (Class)0@ù
 × ;
 

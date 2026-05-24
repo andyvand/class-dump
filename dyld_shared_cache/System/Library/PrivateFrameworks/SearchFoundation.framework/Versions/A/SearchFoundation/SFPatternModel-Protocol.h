@@ -7,13 +7,12 @@
 @class NSData, NSDictionary, NSString;
 
 @protocol SFPatternModel
+- (void);
+- (void);
+- (NSData *)t;
+- (NSDictionary *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pattern_bundle_id;
 @property(copy, nonatomic) NSString *pattern_id;
-@property(copy, nonatomic) NSData *pattern_parameters;
-@property(copy, nonatomic) NSString *pattern_template_directory;
 @end
 

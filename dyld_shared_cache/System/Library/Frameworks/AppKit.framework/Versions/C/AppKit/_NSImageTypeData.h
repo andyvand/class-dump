@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSRegularExpression;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSImageTypeData
 {
     NSArray *imageTypes;
-    NSArray *imageFileTypes;
-    NSArray *imagePasteboardTypes;
-    NSArray *imageUnfilteredTypes;
-    NSArray *imageUnfilteredFileTypes;
-    NSArray *imageUnfilteredPasteboardTypes;
-    NSRegularExpression *namedImageSuffixExpression;
-    NSRegularExpression *namedImageUnfilteredSuffixExpression;
 }
 
 + (void)ð^ÿ_xH;

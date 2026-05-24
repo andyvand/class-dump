@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SafariNSTableCellViewExtras)
-+ (struct CGSize);
++ (struct CGSize)T;
 + (struct CGSize);
 + (struct CGSize);
 + (struct CGSize);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface OBSplashBullet
 {
     NSString *_text;
-    NSImage *_icon;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSImage *icon; // @synthesize icon=_icon;
 @property(copy) NSString *text; // @synthesize text=_text;
 
 @end

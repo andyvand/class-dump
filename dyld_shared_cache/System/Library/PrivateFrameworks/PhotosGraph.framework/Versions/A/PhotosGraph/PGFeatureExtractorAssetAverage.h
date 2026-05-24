@@ -6,26 +6,21 @@
 
 #import <PhotosGraph/PGFeatureExtractor.h>
 
-@class NSArray, NSString;
-
 @interface PGFeatureExtractorAssetAverage : PGFeatureExtractor
 {
     id featureExtractor;
-    id skipAssetsWithErrors;
 }
 
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)contentExtractorDidStopExtractingContent: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)n = %d;
 
 // Remaining properties
 @property(nonatomic, readonly) long long featureLength;
-@property(nonatomic, readonly) NSArray *featureNames;
-@property(nonatomic, readonly) NSString *name;
 
 @end
 

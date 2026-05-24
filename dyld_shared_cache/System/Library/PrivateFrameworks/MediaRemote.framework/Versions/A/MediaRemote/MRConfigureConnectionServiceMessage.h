@@ -14,18 +14,14 @@
 
 - (id);
 - (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ntWRMLQM;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *destinationGroupUID;
-@property(readonly, nonatomic) NSString *destinationOutputDeviceUID;
 @property(readonly, nonatomic) NSString *serviceType;
-@property(readonly, nonatomic) NSString *sourceOutputDeviceName;
-@property(readonly, nonatomic) NSString *sourceOutputDeviceUID;
 
 @end
 

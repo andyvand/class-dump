@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, UISplitViewController;
-@protocol NSSplitViewItemAccessoryView;
+@class UISplitViewController;
 
 __attribute__((visibility("hidden")))
 @interface UISplitViewControllerSeparatorTrackingAdapter
 {
     struct NSEdgeInsets _sidebarAdditionalSafeAreaInsets;
-    double _topSidebarInset;
-    double _cachedTopPlatterInset;
-    UISplitViewController *_splitViewController;
-    long long _splitViewColumn;
-    struct UIEdgeInsets _additionalSafeAreaInsets;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)ervice",R,N,V_service;
+- (id)red;
 - (double);
 - (long long);
 - (long long);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (struct NSEdgeInsets);
 - (double);
@@ -38,53 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)¡ZHd;
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets additionalSafeAreaInsets; // @synthesize additionalSafeAreaInsets=_additionalSafeAreaInsets;
-@property(readonly) _Bool allowsFloatingLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool allowsFullHeightLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *bottomAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct NSEdgeInsets floatingSidebarInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?,R
-
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSidebar;
-@property(readonly) _Bool isTrailingSidebar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, nonatomic) _Bool shouldApplyAppKitInsets;
-@property struct NSEdgeInsets sidebarAdditionalSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?
-
-@property(readonly) struct CGRect splitFrame;
-@property(readonly, nonatomic) long long splitViewColumn; // @synthesize splitViewColumn=_splitViewColumn;
 @property(nonatomic) __weak UISplitViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
-@property(readonly) Class superclass;
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *titlebarAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property(readonly) long long titlebarSeparatorStyle;
-@property(readonly, nonatomic) double topPlatterInset;
-@property double topSidebarInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?
-
 
 @end
 

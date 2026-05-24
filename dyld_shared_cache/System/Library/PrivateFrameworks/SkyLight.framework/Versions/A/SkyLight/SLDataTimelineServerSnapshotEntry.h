@@ -10,25 +10,20 @@ __attribute__((visibility("hidden")))
 @interface SLDataTimelineServerSnapshotEntry
 {
     double _timestamp;
-    unsigned long long _index;
-    NSArray *_sessionsArray;
 }
 
-+ (id);
-- (id);
-- (void);
-- (id);
++ (id)(too many keypaths);
+- (id):%s /* Error: Ran out of types for this method. */;
+- (void)age;
+- (id)DATE OR FAIL %@ SET %@ = NULL, Z_OPT = (Z_OPT + 1) WHERE %@ = OLD.Z_PK;
 - (void);
 - (double);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSArray *sessions;
 @property(readonly, nonatomic) NSArray *sessionsArray; // @synthesize sessionsArray=_sessionsArray;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

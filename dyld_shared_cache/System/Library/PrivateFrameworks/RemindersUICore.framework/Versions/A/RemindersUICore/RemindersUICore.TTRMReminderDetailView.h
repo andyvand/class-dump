@@ -7,13 +7,12 @@
 @interface RemindersUICore.TTRMReminderDetailView
 {
     id delegate;
-    id isReceivingDrag;
 }
 
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)setFloat16FullBodyEncoding:(_Bool)arg1;
 - (id);
 - (id);
 - (_Bool)onProviderViewModelSourceTypeP;

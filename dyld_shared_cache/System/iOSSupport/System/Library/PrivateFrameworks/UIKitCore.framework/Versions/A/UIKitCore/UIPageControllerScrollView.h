@@ -16,13 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)$;
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (void)!!¤DùÑ_ð1Â0@ù
 × ;
-- (void)orState:(struct CGRect)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (void)_defaultPlainHeaderConfigurationForState:(struct CGRect)arg1 traitCollection: /* Error: Ran out of types for this method. */;
 - (void)è;
 
 // Remaining properties

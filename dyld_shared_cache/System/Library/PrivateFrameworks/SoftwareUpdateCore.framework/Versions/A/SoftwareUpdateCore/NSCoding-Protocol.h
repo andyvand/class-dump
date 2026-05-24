@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (id)BarItemController"16Q24;
 @end
 

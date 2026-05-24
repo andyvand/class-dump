@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
-@protocol OS_os_log;
-
 @interface PGGraphMemoriesEnrichmentProcessor
 {
     unsigned long long _numberOfMemoriesToEnrich;
-    NSSet *_uniqueMemoryIdentifiersToPrioritize;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 + (id);
-+ (id);
++ (id)a;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)D[\[;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)>;
 - (_Bool);
 - (id);
 - (id);

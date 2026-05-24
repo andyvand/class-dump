@@ -7,10 +7,9 @@
 @class NSArray, NSString;
 
 @protocol IMAPPersistedMessage
+- (NSArray *);
 
 // Remaining properties
-@property(copy) NSArray *appleRemoteLinks;
-@property(readonly, nonatomic) long long libraryID;
 @property(copy) NSString *remoteID;
 @end
 

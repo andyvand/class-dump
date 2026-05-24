@@ -7,7 +7,6 @@
 @interface EventKit.ReadOnlyEventStoreActor
 {
     id $defaultActor;
-    id eventStore;
 }
 
 @end

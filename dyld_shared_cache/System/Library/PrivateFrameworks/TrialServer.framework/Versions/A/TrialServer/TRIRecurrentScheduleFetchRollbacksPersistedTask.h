@@ -10,12 +10,9 @@
 {
 }
 
-+ (id);
++ (id)SignpostCAStallAggregationBuilder;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRepeatedInstance; // @dynamic hasIsRepeatedInstance;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(nonatomic) _Bool isRepeatedInstance; // @dynamic isRepeatedInstance;
 @property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
 
 @end

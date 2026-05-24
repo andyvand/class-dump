@@ -6,19 +6,11 @@
 
 #import <AccountsUI/ACUIViewController.h>
 
-@class NSButton, NSProgressIndicator, NSStackView, NSString, NSTextField, NSWindow;
+@class NSWindow;
 
 @interface ACUIAccountDetailsViewController : ACUIViewController
 {
     NSWindow *_window;
-    NSWindow *_sheet;
-    NSString *_password;
-    NSStackView *_stackView;
-    NSTextField *_usernameLabel;
-    NSTextField *_fullNameField;
-    NSTextField *_descriptionField;
-    NSButton *_okButton;
-    NSProgressIndicator *_spinner;
 }
 
 - (id);
@@ -29,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -39,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
@@ -49,21 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSTextField *descriptionField; // @synthesize descriptionField=_descriptionField;
-@property(retain) NSTextField *fullNameField; // @synthesize fullNameField=_fullNameField;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *okButton; // @synthesize okButton=_okButton;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property(retain) NSWindow *sheet; // @synthesize sheet=_sheet;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(retain) NSTextField *usernameLabel; // @synthesize usernameLabel=_usernameLabel;
 @property(retain) NSWindow *window; // @synthesize window=_window;
 
 @end

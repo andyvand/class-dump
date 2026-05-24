@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter;
+@class HMFTimer, NSNotificationCenter;
 
 @protocol HMDAccessoryFirmwareUpdateSchedulerWingman
+- (HMFTimer *);
 - (NSNotificationCenter *)er;
 
 // Remaining properties

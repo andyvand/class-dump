@@ -6,16 +6,9 @@
 
 #import <MediaServices/MSVLyricsXMLElement.h>
 
-@class MSVLyricsAgent, NSString;
-
 @interface MSVLyricsElement : MSVLyricsXMLElement
 {
     _Bool _isBackgroundVocal;
-    long long _type;
-    double _startTime;
-    double _endTime;
-    MSVLyricsAgent *_agent;
-    NSString *_role;
 }
 
 + (id);
@@ -25,21 +18,16 @@
 - (id);
 - (void);
 - (void);
-- (long long);
-- (double);
+- (long long);
+- (double)$c|3Z;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)Ti,V_clientnonce;
 - (void)ore.framework/MediaLibraryCore;
 
 // Remaining properties
-@property(retain, nonatomic) MSVLyricsAgent *agent; // @synthesize agent=_agent;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(nonatomic) _Bool isBackgroundVocal; // @synthesize isBackgroundVocal=_isBackgroundVocal;
-@property(retain, nonatomic) NSString *role; // @synthesize role=_role;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

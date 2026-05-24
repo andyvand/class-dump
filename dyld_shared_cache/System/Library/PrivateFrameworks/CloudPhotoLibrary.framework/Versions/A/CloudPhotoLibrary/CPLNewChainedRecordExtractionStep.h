@@ -6,28 +6,22 @@
 
 #import <CloudPhotoLibrary/CPLBatchExtractionStep.h>
 
-@class NSString;
-
 @interface CPLNewChainedRecordExtractionStep : CPLBatchExtractionStep
 {
     Class _recordClass;
-    NSString *_classDescription;
-    unsigned long long _maximumCount;
 }
 
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (Class);
-- (id);
+- (id)lookupScope;
 - (id);
 - (void)ñ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *classDescription; // @synthesize classDescription=_classDescription;
-@property(readonly, nonatomic) unsigned long long maximumCount; // @synthesize maximumCount=_maximumCount;
 @property(readonly, nonatomic) Class recordClass; // @synthesize recordClass=_recordClass;
 
 @end

@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPNowPlayingContentItem, NSDate, NSString, UIImage;
+@class MPNowPlayingContentItem, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlaybackSessionArchive
 {
     MPNowPlayingContentItem *_contentItem;
-    UIImage *_artworkImage;
-    NSString *_identifier;
-    NSDate *_lastModifiedDate;
 }
 
 + (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)�#;
 - (_Bool);
 - (id);
 - (id);
@@ -32,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)ueueShuffledItemsInSectionedIdentifierList:| committing edit [ShuffleSIL dequeued items] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) UIImage *artworkImage; // @synthesize artworkImage=_artworkImage;
-@property(copy, nonatomic) MPNowPlayingContentItem *contentItem; // @synthesize contentItem=_contentItem;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
 
 @end
 

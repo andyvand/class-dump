@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface NSKeyBindingAtom
 {
     unsigned short key;
-    unsigned int mask;
-    id _binding;
 }
 
-- (void);
+- (void)er sent NULL Configuration check response;
 - (id);
-- (id);
+- (id)6Bd;
 - (void);
 - (id);
 - (_Bool);
-- (long long)entedCell;
+- (long long)segmentedCell;
 
 @end
 

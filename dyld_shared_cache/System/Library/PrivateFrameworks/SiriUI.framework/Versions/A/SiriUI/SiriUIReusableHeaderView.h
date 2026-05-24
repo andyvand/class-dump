@@ -6,16 +6,11 @@
 
 #import <SiriUI/SiriUIContentButton.h>
 
-@class NSImageView, NSString, SiriUIContentLabel, SiriUIKeyline, SiriUISnippetViewController;
+@class NSImageView, SiriUIContentLabel;
 
 @interface SiriUIReusableHeaderView : SiriUIContentButton
 {
     NSImageView *_chevronView;
-    SiriUISnippetViewController *_snippetViewController;
-    NSString *_titleText;
-    long long _keylineType;
-    SiriUIContentLabel *_headerLabel;
-    SiriUIKeyline *_keyline;
 }
 
 + (double);
@@ -27,11 +22,11 @@
 - (long long);
 - (void);
 - (double);
-- (id);
+- (id)9;
 - (id);
 - (_Bool);
 - (void);
-- (struct CGSize);
+- (struct CGSize)$-;
 - (_Bool);
 - (void);
 - (id);
@@ -40,22 +35,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SiriUIContentLabel *headerLabel; // @synthesize headerLabel=_headerLabel;
-@property(copy) NSString *identifier;
-@property(readonly, nonatomic) SiriUIKeyline *keyline; // @synthesize keyline=_keyline;
-@property(nonatomic) long long keylineType; // @synthesize keylineType=_keylineType;
-@property(nonatomic) __weak SiriUISnippetViewController *snippetViewController; // @synthesize snippetViewController=_snippetViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SiriUISnippetViewController",?,W,N,V_snippetViewController
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

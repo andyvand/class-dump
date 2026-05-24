@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSUUID;
+@class NSUUID;
 
 @interface STAskForTimeResponse
 {
     NSUUID *_associatedRequestIdentifier;
-    long long _answer;
-    NSNumber *_respondingUserDSID;
-    NSNumber *_amountGranted;
-    NSDate *_timeStamp;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)nt_recent = 0 WHERE item_pid IN (SELECT item_pid from item WHERE remote_location_id = 200);
+- (void)to_fill, 0) FROM item_stats;
+- (id)1160070;;
+- (id)EGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (id)d INTEGER NOT NULL DEFAULT 0, store_artist_id INTEGER NOT NULL DEFAULT 0, store_composer_id INTEGER NOT NULL DEFAULT 0, store_genre_id INTEGER NOT NULL DEFAULT 0, store_playlist_id INTEGER NOT NULL DEFAULT 0, storefront_id INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (void)te, codec_type, codec_subtype, data_kind, data_url, duration, eq_preset, format, gapless_heuristic_info, gapless_encoding_delay, gapless_encoding_drain, gapless_last_frame_resynch, has_video, relative_volume, sample_rate, start_time_ms, stop_time_ms, volume_normalization_energy FROM item_extra;
 - (void);
 - (long long);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)alertTitleForFailingToRecoverAccounts:(id)arg1;
+- (void)ibswiftIntents.dylib;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *amountGranted; // @synthesize amountGranted=_amountGranted;
-@property(nonatomic) long long answer; // @synthesize answer=_answer;
 @property(retain, nonatomic) NSUUID *associatedRequestIdentifier; // @synthesize associatedRequestIdentifier=_associatedRequestIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *payload;
-@property(retain, nonatomic) NSNumber *respondingUserDSID; // @synthesize respondingUserDSID=_respondingUserDSID;
-@property(retain, nonatomic) NSDate *timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

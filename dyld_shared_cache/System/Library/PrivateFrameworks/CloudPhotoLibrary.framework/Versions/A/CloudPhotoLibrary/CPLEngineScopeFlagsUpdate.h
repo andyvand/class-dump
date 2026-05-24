@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CPLEngineScopeFlagsUpdate
 {
     long long _flags;
-    long long _updatedFlagsMask;
 }
 
 + (id);
@@ -17,22 +14,19 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)ö;
-- (long long) ;
+- (_Bool);
+- (long long);
 - (id);
 - (long long);
 - (id);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *arrayDescription;
-@property(readonly, nonatomic) long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) _Bool hasFlagUpdates;
 @property(readonly, nonatomic) long long updatedFlagsMask; // @synthesize updatedFlagsMask=_updatedFlagsMask;
 
 @end

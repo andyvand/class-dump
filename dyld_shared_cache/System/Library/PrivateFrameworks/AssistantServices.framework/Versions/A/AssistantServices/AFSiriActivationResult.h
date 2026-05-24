@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface AFSiriActivationResult
 {
     long long _actionType;
-    NSError *_error;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)extendedAccountFetchPeriod;
+- (id)createDivergentStateClaimNonce:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
@@ -33,14 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

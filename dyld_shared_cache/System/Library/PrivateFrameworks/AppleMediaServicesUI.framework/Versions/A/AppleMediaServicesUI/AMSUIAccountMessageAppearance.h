@@ -6,28 +6,11 @@
 
 #import <AppleMediaServicesUI/AMSUIAppearance.h>
 
-@class NSColor, NSFont, NSImage, NSImageSymbolConfiguration;
+@class NSColor;
 
 @interface AMSUIAccountMessageAppearance : AMSUIAppearance
 {
     NSColor *_accessoryButtonBackgroundColor;
-    NSColor *_accessoryButtonColor;
-    NSFont *_accessoryButtonFont;
-    NSColor *_backgroundColor;
-    NSImage *_backgroundImage;
-    NSColor *_footerButtonBackgroundColor;
-    NSColor *_footerButtonColor;
-    NSFont *_footerButtonFont;
-    long long _iconAnimationPlayCount;
-    unsigned long long _imageStyle;
-    NSImageSymbolConfiguration *_imageSymbolConfiguration;
-    NSColor *_imageTintColor;
-    long long _impressionAnimationStyle;
-    NSFont *_messageFont;
-    NSColor *_messageTextColor;
-    long long _primaryImageRenderingMode;
-    NSFont *_titleFont;
-    NSColor *_titleTextColor;
 }
 
 - (void);
@@ -45,13 +28,13 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)h+;
 - (void);
 - (id);
 - (void);
@@ -61,36 +44,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)active prediction subscribers, will fetch from backend later.;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)kage Authoring Error:(id)arg1 Failed to evaluate %s requirement "%s" (contains block or function);
 - (id)16@"NSDictionary"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
-- (void)nterText: /* Error: Ran out of types for this method. */;
+- (void)setCenterText: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;
-@property(retain) NSColor *accessoryButtonColor; // @synthesize accessoryButtonColor=_accessoryButtonColor;
-@property(retain) NSFont *accessoryButtonFont; // @synthesize accessoryButtonFont=_accessoryButtonFont;
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) NSImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain) NSColor *footerButtonBackgroundColor; // @synthesize footerButtonBackgroundColor=_footerButtonBackgroundColor;
-@property(retain) NSColor *footerButtonColor; // @synthesize footerButtonColor=_footerButtonColor;
-@property(retain) NSFont *footerButtonFont; // @synthesize footerButtonFont=_footerButtonFont;
-@property long long iconAnimationPlayCount; // @synthesize iconAnimationPlayCount=_iconAnimationPlayCount;
-@property unsigned long long imageStyle; // @synthesize imageStyle=_imageStyle;
-@property(retain) NSImageSymbolConfiguration *imageSymbolConfiguration; // @synthesize imageSymbolConfiguration=_imageSymbolConfiguration;
-@property(retain) NSColor *imageTintColor; // @synthesize imageTintColor=_imageTintColor;
-@property long long impressionAnimationStyle; // @synthesize impressionAnimationStyle=_impressionAnimationStyle;
-@property(retain) NSFont *messageFont; // @synthesize messageFont=_messageFont;
-@property(retain) NSColor *messageTextColor; // @synthesize messageTextColor=_messageTextColor;
-@property long long primaryImageRenderingMode; // @synthesize primaryImageRenderingMode=_primaryImageRenderingMode;
-@property(retain) NSFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(retain) NSColor *titleTextColor; // @synthesize titleTextColor=_titleTextColor;
 
 @end
 

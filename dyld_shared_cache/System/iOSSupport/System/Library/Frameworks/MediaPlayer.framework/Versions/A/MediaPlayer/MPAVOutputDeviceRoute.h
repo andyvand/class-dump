@@ -6,19 +6,13 @@
 
 #import <MediaPlayer/MPAVRoute.h>
 
-@class MRAVOutputDevice, NSArray;
-
 @interface MPAVOutputDeviceRoute : MPAVRoute
 {
     void *_logicalLeaderOutputDevice;
-    NSArray *_roomRoutes;
-    NSArray *_clusterMemberRoutes;
-    NSArray *_clusterCompositionMembers;
-    NSArray *_outputDevices;
 }
 
-+ (long long);
-+ (void *);
++ (long long)doubleValue;
++ (void *)lize with a proto missing required data.;
 + (id)q16q24;
 - (_Bool);
 - (_Bool);
@@ -28,73 +22,66 @@
 - (id);
 - (long long);
 - (long long);
-- (void *);
+- (void *)onconflictNone;
+- (_Bool)commentStmt;
+- (_Bool)createStmt;
+- (_Bool)boolExpr;
+- (_Bool)nullIfExpr;
+- (_Bool)namedArgExpr;
+- (_Bool)pushedDown;
+- (_Bool)lockWaitSkip;
+- (_Bool)lcsForupdate;
+- (_Bool)tleSortGroupRef;
+- (_Bool)collname;
+- (_Bool)fdwImportSchemaExcept;
+- (_Bool)fdwImportSchemaLimitTo;
+- (_Bool);
+- (_Bool)alterTsconfigReplaceDict;
+- (_Bool)_newrole;
+- (_Bool)reindexObjectSchema;
+- (_Bool)_sequence;
+- (_Bool);
+- (id);
+- (_Bool)numberOfPayloadKeysMismatch;
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)0;
+- (id);
+- (_Bool)erNotification"8;
+- (long long)nloaded:completion: /* Error: Ran out of types for this method. */;
+- (id)already have its ID, ignoring and moving on.;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool):8 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)DùQ?ð1Â0@ù
 × ;
-- (_Bool)er: /* Error: Ran out of types for this method. */;
-- (_Bool)ueQuota;
+- (_Bool)setReferenceItemPositionIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)initialCandidateDequeueQuota;
 - (void)delPodcastEpisode",&,D,N;
 - (_Bool)r=}8;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *clusterMemberRoutes;
-@property(readonly, nonatomic) NSArray *dnsNames;
-@property(readonly, nonatomic, getter=isGroupLeader) _Bool groupLeader;
-@property(readonly, nonatomic) void *logicalLeaderOutputDevice; // @synthesize logicalLeaderOutputDevice=_logicalLeaderOutputDevice;
-@property(readonly, nonatomic) MRAVOutputDevice *outputDevice;
-@property(readonly, nonatomic) NSArray *outputDevices; // @synthesize outputDevices=_outputDevices;
 @property(readonly, nonatomic, getter=isPhoneLocalRoute) _Bool phoneLocalRoute;
-@property(readonly, nonatomic) NSArray *roomRoutes;
 
 @end
 

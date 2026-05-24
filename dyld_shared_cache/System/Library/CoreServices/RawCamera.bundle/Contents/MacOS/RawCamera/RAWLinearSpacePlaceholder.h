@@ -11,13 +11,13 @@
 @interface RAWLinearSpacePlaceholder : RAWFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)
+;
 
 @end
 

@@ -6,17 +6,13 @@
 
 #import <AppKit/NSPanel.h>
 
-@class CALayer, _NSFullScreenModalStackController;
+@class _NSFullScreenModalStackController;
 @protocol _NSFullScreenModalDimmingWindowDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenModalDimmingWindow : NSPanel
 {
     _NSFullScreenModalStackController *_stackController;
-    CALayer *_rootLayer;
-    CALayer *_dimLayer;
-    CALayer *_windowSnapshotLayer;
-    _Bool _isShowingDimmingLayer;
 }
 
 - (void);
@@ -25,13 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)s:NETrie - read mmap <fd %d, size %lld> /* Error: Ran out of types for this method. */;
+- (_Bool)k"24@0:8@"__NSCFTaskForClass"16 /* Error: Ran out of types for this method. */;
+- (void)SUUID",C,V_uniqueIdentifier;
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)tion in addInputHandler;
+- (_Bool)s;
+- (_Bool)Failed to bind host (%@) to the select statement;
 - (void);
 - (id);
 - (void);

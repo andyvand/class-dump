@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSObject;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 @interface _PIParallaxInactiveStyleLearnJob
 {
     NSObject<OS_dispatch_group> *_learnGroup;
-    NSError *_learnError;
-    NSData *_styleData;
-    struct CGRect _learnFrame;
 }
 
 - (void);
@@ -26,17 +23,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)G;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void)ingMetadata";
 
 // Remaining properties
-@property(retain, nonatomic) NSError *learnError; // @synthesize learnError=_learnError;
-@property(readonly, nonatomic) struct CGRect learnFrame; // @synthesize learnFrame=_learnFrame;
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *learnGroup; // @synthesize learnGroup=_learnGroup;
-@property(retain, nonatomic) NSData *styleData; // @synthesize styleData=_styleData;
 
 @end
 

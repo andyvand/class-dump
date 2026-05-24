@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface SCTInvocation
 {
     id mTarget;
-    SEL mSelector;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)J;
 - (id);
 - (void);
 - (void);

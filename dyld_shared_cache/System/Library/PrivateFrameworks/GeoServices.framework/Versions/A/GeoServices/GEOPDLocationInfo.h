@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDLocationInfo
 {
     PBDataReader *_reader;
-    NSString *_localityName;
-    NSString *_locationName;
-    NSString *_secondaryLocationName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_localityName:1;
-        unsigned int read_locationName:1;
-        unsigned int read_secondaryLocationName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HttpResponseCode:(id)arg1;
++ (_Bool)setHttpResponseCode:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,26 +25,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)iption=dIIIIIIII},N,V_outASBD;
+- (void)%f];
 - (unsigned long long);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (id);
 - (void);
 - (id)NearbySearchParameters"b1"read_publisherViewParameters"b1"read_queryUnderstandingParameters"b1"read_refreshIdLookUpParameters"b1"read_reverseGeocodingParameters"b1"read_searchCapabilitiesParameters"b1"read_searchFieldPlaceholderParameters"b1"read_searchParameters"b1"read_searchZeroKeywordCategorySuggestionParameters"b1"read_searchZeroKeywordWithSearchResultsSuggestionParameters"b1"read_siriSearchParameters"b1"read_territoryLookupParameters"b1"read_transitNearbyPaymentMethodLookupParameters"b1"read_transitNearbyScheduleLookupParameters"b1"read_transitScheduleLookupParameter"b1"read_transitVehiclePositionParameters"b1"read_vendorSpecificPlaceRefinementParameters"b1"read_wifiFingerprintParameters"b1"wrote_anyField"b1};
-- (id)equest;
+- (id)_feedbackRequest;
 - (id)¸­h®8¯ °ð°Ô±¤²³X´@µ¶·;
-- (id)IT_BAD_ROUTE_SUGGESTIONS;
+- (id)TRANSIT_BAD_ROUTE_SUGGESTIONS;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocalityName;
 @property(readonly, nonatomic) _Bool hasLocationName;
-@property(readonly, nonatomic) _Bool hasSecondaryLocationName;
-@property(retain, nonatomic) NSString *localityName;
-@property(retain, nonatomic) NSString *locationName;
-@property(retain, nonatomic) NSString *secondaryLocationName;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeHistoryFeedServiceContextFactory
 {
     id recipeHistory;
-    id appConfigManager;
 }
 
 @end

@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bills;
-@property(readonly, nonatomic) unsigned long long billsCount;
 @end
 

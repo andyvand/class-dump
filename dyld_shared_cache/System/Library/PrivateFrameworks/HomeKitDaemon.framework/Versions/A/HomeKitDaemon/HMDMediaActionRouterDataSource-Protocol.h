@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDHome, HMFMessageDispatcher, NSArray, NSObject, NSUUID;
-@protocol HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMDHome, HMFMessageDispatcher, NSArray, NSUUID;
+@protocol HMMLogEventSubmitting;
 
 @protocol HMDMediaActionRouterDataSource
+- (NSArray *)_currentTransportType;
+- (NSArray *)GEOTransitArtworkUseTypeLine;
+- (HMFMessageDispatcher *)setWindow: /* Error: Ran out of types for this method. */;
 - (HMDHome *)!lCù±ð1Â0@ù
 × ;
 - (NSUUID *);
 - (id <HMMLogEventSubmitting>)Home.EventRouter.Server.Delegating.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *appleMediaAccessories;
-@property(readonly, nonatomic) __weak HMDDevice *companionDevice;
-@property(readonly, nonatomic, getter=isCompanionReachable) _Bool companionReachable;
 @property(readonly, copy, nonatomic) NSArray *enabledResidents;
-@property(readonly) __weak HMDHome *home;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly, nonatomic) HMFMessageDispatcher *msgDispatcher;
-@property(readonly, nonatomic) NSUUID *uuid;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue;
 @end
 

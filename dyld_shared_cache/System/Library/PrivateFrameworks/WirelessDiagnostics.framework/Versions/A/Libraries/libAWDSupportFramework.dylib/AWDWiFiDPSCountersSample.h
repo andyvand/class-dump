@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiNWActivityControllerStats, AWDWiFiNWActivityPeerStats;
-
 @interface AWDWiFiDPSCountersSample
 {
     unsigned long long _timestamp;
-    AWDWiFiNWActivityControllerStats *_controllerStats;
-    AWDWiFiNWActivityPeerStats *_peerStats;
-    CDStruct_b5306035 _has;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
+- (unsigned long long)b;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) AWDWiFiNWActivityControllerStats *controllerStats; // @synthesize controllerStats=_controllerStats;
-@property(readonly, nonatomic) _Bool hasControllerStats;
-@property(readonly, nonatomic) _Bool hasPeerStats;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) AWDWiFiNWActivityPeerStats *peerStats; // @synthesize peerStats=_peerStats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

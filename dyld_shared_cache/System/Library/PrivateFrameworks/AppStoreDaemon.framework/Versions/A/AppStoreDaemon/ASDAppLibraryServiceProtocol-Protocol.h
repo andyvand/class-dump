@@ -5,5 +5,6 @@
 //
 
 @protocol ASDAppLibraryServiceProtocol
+- (void);
 @end
 

@@ -7,6 +7,7 @@
 @protocol DEDFinisher
 
 @optional
-- (void): /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setQualityOfService: /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,24 +7,22 @@
 @interface _CLLSLLocationCoordinate
 {
     double _latitude;
-    double _longitude;
 }
 
-+ (_Bool);
++ (_Bool)$;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setRadiusBufferOffset:(struct _NSZone *)arg1;
 - (void);
 - (double);
 - (id);
-- (id)eServiceMask;
+- (id)effectiveServiceMask;
 - (void)itive}.7lf,%{sensitive}.7lf;
 - (double)blic}.1lf,isMovingAway,%{public}d,deltaPosChange,%{public}.1lf,deltaSnapChange,%{public}.1lf,thresholdDiff,%{public}.1lf;
 
 // Remaining properties
 @property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
 
 @end
 

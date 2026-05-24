@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAReminderRecurrence : AceObject
 {
@@ -33,19 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *daysOfTheMonth;
-@property(copy, nonatomic) NSArray *daysOfTheWeek;
-@property(copy, nonatomic) NSArray *daysOfTheYear;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *frequencyTimeUnit;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long interval;
-@property(copy, nonatomic) NSArray *monthsOfTheYear;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *weeksOfTheYear;
 
 @end
 

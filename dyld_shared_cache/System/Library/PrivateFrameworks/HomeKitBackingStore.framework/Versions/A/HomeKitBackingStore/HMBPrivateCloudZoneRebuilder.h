@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, HMBCloudZone, HMBCloudZoneRebuilderStatus, HMFTimer, NAFuture, NSString, NSUUID;
+@class CKRecord;
 
 __attribute__((visibility("hidden")))
 @interface HMBPrivateCloudZoneRebuilder
 {
     struct os_unfair_lock_s _propertyLock;
-    HMBCloudZoneRebuilderStatus *_rebuilderStatus;
-    NAFuture *_rebuildCompleteFuture;
-    CKRecord *_previousSentinelRebuildRecord;
-    NSUUID *_lastRebuildUUID;
-    HMFTimer *_uploadMonitorWatchdogTimer;
-    HMBCloudZone *_cloudZone;
 }
 
 + (id)dZoneRebuilderStatus";
@@ -28,34 +22,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id):� /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)__objc_protolist__DATA_CONST;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *lastRebuildUUID; // @synthesize lastRebuildUUID=_lastRebuildUUID;
 @property(retain, nonatomic) CKRecord *previousSentinelRebuildRecord; // @synthesize previousSentinelRebuildRecord=_previousSentinelRebuildRecord;
-@property(retain, nonatomic) NAFuture *rebuildCompleteFuture; // @synthesize rebuildCompleteFuture=_rebuildCompleteFuture;
-@property(copy) HMBCloudZoneRebuilderStatus *rebuilderStatus; // @synthesize rebuilderStatus=_rebuilderStatus;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMFTimer *uploadMonitorWatchdogTimer; // @synthesize uploadMonitorWatchdogTimer=_uploadMonitorWatchdogTimer;
-@property(readonly, nonatomic, getter=isZoneRebuildInProgress) _Bool zoneRebuildInProgress;
 
 @end
 

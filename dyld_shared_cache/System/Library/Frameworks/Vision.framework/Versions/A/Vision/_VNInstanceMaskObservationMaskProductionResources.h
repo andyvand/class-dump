@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, VNBGRBilinearUpsampler, VNMetalContext;
-@protocol MTLComputePipelineState, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_semaphore;
 
 __attribute__((visibility("hidden")))
 @interface _VNInstanceMaskObservationMaskProductionResources
 {
     NSObject<OS_dispatch_semaphore> *_completionSemaphore;
-    VNMetalContext *_metalContext;
-    VNBGRBilinearUpsampler *_bilinearUpsampler;
-    id <MTLComputePipelineState> _applyMaskComputeState;
-    id <MTLComputePipelineState> _cropCopyingComputeState;
 }
 
 - (id);
@@ -26,11 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)rentDetector:%@; cropCreationGroup:%@; cropProcessingGroup:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <MTLComputePipelineState> applyMaskComputeState; // @synthesize applyMaskComputeState=_applyMaskComputeState;
-@property(readonly) VNBGRBilinearUpsampler *bilinearUpsampler; // @synthesize bilinearUpsampler=_bilinearUpsampler;
 @property(readonly) NSObject<OS_dispatch_semaphore> *completionSemaphore; // @synthesize completionSemaphore=_completionSemaphore;
-@property(readonly) id <MTLComputePipelineState> cropCopyingComputeState; // @synthesize cropCopyingComputeState=_cropCopyingComputeState;
-@property(readonly) VNMetalContext *metalContext; // @synthesize metalContext=_metalContext;
 
 @end
 

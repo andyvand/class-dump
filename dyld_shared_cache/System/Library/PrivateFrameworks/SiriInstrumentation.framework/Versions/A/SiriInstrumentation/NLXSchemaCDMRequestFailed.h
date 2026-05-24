@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMRequestFailed : SISchemaInstrumentationMessage
 {
     int _code;
-    int _originalCode;
-    int _errorCode;
-    int _errorDomain;
-    struct {
-        unsigned int code:1;
-        unsigned int originalCode:1;
-        unsigned int errorCode:1;
-        unsigned int errorDomain:1;
-    } _has;
 }
 
 - (void);
@@ -31,14 +20,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)contactDetailLabel;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)Roots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_x931.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,21 +37,13 @@
 × ;
 - (id)alTime;
 - (id)ThisRequestContext;
-- (int)YS_SPEAK_RESPONSES;
+- (int)VOICEFEEDBACK_ALWAYS_SPEAK_RESPONSES;
 - (void);
 - (void)ø;
 - (int)ù&;
 
 // Remaining properties
 @property(nonatomic) int code; // @synthesize code=_code;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasOriginalCode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int originalCode; // @synthesize originalCode=_originalCode;
 
 @end
 

@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface TINameReadingPair
 {
     NSString *_name;
-    NSString *_reading;
 }
 
 + (id);
-- (id);
+- (id)response %@ - %@;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *reading; // @synthesize reading=_reading;
 
 @end
 

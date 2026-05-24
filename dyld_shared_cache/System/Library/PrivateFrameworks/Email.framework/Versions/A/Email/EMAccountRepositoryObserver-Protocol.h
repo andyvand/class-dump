@@ -5,5 +5,6 @@
 //
 
 @protocol EMAccountRepositoryObserver
+- (void);
 @end
 

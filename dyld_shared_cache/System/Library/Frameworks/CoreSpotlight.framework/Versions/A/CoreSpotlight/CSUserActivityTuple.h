@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, CSUserAction, NSString;
+@class CSUserAction;
 
 @interface CSUserActivityTuple
 {
     CSUserAction *_action;
-    CSSearchableItem *_item;
-    NSString *_protectionClass;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) CSUserAction *action; // @synthesize action=_action;
-@property(retain) CSSearchableItem *item; // @synthesize item=_item;
-@property(retain) NSString *protectionClass; // @synthesize protectionClass=_protectionClass;
 
 @end
 

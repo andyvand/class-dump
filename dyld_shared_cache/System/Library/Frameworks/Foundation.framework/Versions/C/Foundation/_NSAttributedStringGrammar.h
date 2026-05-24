@@ -7,21 +7,11 @@
 @interface _NSAttributedStringGrammar
 {
     long long _aspect;
-    long long _deictic;
-    long long _determinationType;
-    long long _gender;
-    long long _grammaticalCase;
-    long long _mood;
-    long long _number;
-    long long _person;
-    long long _position;
-    long long _tense;
-    long long _verbForm;
 }
 
 + (id);
-- (long long);
-- (long long);
+- (long long)(;
+- (long long)9(;
 - (void);
 - (void);
 - (void);
@@ -35,7 +25,7 @@
 - (long long);
 - (id);
 - (long long);
-- (long long);
+- (long long)s;
 - (long long);
 - (id);
 - (unsigned long long);
@@ -53,16 +43,6 @@
 
 // Remaining properties
 @property long long aspect; // @synthesize aspect=_aspect;
-@property long long deictic; // @synthesize deictic=_deictic;
-@property long long determinationType; // @synthesize determinationType=_determinationType;
-@property long long gender; // @synthesize gender=_gender;
-@property long long grammaticalCase; // @synthesize grammaticalCase=_grammaticalCase;
-@property long long mood; // @synthesize mood=_mood;
-@property long long number; // @synthesize number=_number;
-@property long long person; // @synthesize person=_person;
-@property long long position; // @synthesize position=_position;
-@property long long tense; // @synthesize tense=_tense;
-@property long long verbForm; // @synthesize verbForm=_verbForm;
 
 @end
 

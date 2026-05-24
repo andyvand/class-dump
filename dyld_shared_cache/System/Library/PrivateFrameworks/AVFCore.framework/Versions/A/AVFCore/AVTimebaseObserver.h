@@ -5,29 +5,22 @@
 //
 
 @class AVWeakReference, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVTimebaseObserver
 {
     NSObject<OS_dispatch_queue> *_timerQueue;
-    AVWeakReference *_weakReference;
-    NSObject<OS_dispatch_source> *_timerSource;
-    struct OpaqueCMTimebase *_timebase;
-    _Bool _isObservingTimebase;
-    double _lastRate;
-    double _currentRate;
-    _Bool _invalid;
 }
 
-- (struct OpaqueCMTimebase *);
-- (id);
+- (struct OpaqueCMTimebase *)componentsSeparatedByCharactersInSet: /* Error: Ran out of types for this method. */;
+- (id)SDictionary",C,N,V_recognitionConfidenceSubtraction;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -37,8 +30,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool invalidated;
-@property(readonly) struct OpaqueCMTimebase *timebase;
 @property(readonly, nonatomic, getter=_weakReference) AVWeakReference *weakReference; // @synthesize weakReference=_weakReference;
 
 @end

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)hCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)commitUpdatesWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)C;
 
 @end

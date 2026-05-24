@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)setStatusQueryResponses: /* Error: Ran out of types for this method. */;
 
 @end
 

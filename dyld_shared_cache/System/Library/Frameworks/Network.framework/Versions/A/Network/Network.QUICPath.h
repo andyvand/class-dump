@@ -7,43 +7,6 @@
 @interface Network.QUICPath
 {
     id pathID;
-    id multiplexingID;
-    id state;
-    id priority;
-    id ifindex;
-    id ifname;
-    id dcid;
-    id scid;
-    id dcidSequence;
-    id scidSequence;
-    id pendingChallenges;
-    id challengesSent;
-    id frameList;
-    id rtt;
-    id responsesSent;
-    id nextDeadline;
-    id bdp;
-    id fgCC;
-    id bgCC;
-    id currentCC;
-    id usingFGCC;
-    id pacer;
-    id pmtud;
-    id lossRecoveryPathState;
-    id ecnPathState;
-    id initialMSS;
-    id mss;
-    id maxMSS;
-    id isInitialPath;
-    id isPrimaryPath;
-    id isFallbackPath;
-    id spinValue;
-    id destroyDeferred;
-    id isPreferredAddress;
-    id migrationPending;
-    id isLossy;
-    id cidPreAssigned;
-    id isFlowControlled;
 }
 
 @end

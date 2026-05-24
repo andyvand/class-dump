@@ -9,9 +9,9 @@
     id registrar;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)rubyProperties;
+- (void)newTargetFromDrawable:(id)arg1 clientData:(id)arg2 buildType: /* Error: Ran out of types for this method. */;
+- (void)mShowValue;
 - (id);
 - (void)pectRatio:uniqueID: /* Error: Ran out of types for this method. */;
 

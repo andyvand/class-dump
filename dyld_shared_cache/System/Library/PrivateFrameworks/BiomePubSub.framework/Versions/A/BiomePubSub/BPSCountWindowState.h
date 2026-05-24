@@ -9,22 +9,20 @@
 @interface BPSCountWindowState : BPSWindowState
 {
     unsigned long long _capacity;
-    unsigned long long _currentCount;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)ror:json deserialization failed /* Error: Ran out of types for this method. */;
+- (void)a9a;
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(nonatomic) unsigned long long currentCount; // @synthesize currentCount=_currentCount;
 
 @end
 

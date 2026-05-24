@@ -6,20 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWLocationAccessPermissionPromptEnded : SISchemaInstrumentationMessage
 {
     int _permissionStatusResult;
-    _Bool _isPreciseLocationResult;
-    struct {
-        unsigned int permissionStatusResult:1;
-        unsigned int isPreciseLocationResult:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -27,22 +20,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)yIA	*|;
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)tFallback";
 - (id)medEntitiesUsed",&,N,V_DLGENGNamedEntitiesUsed;
 - (id)HF;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPreciseLocationResult;
-@property(nonatomic) _Bool hasPermissionStatusResult;
-@property(nonatomic) _Bool isPreciseLocationResult; // @synthesize isPreciseLocationResult=_isPreciseLocationResult;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int permissionStatusResult; // @synthesize permissionStatusResult=_permissionStatusResult;
 
 @end

@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioLateBufferDetected : SISchemaInstrumentationMessage
 {
     unsigned long long _bufferReceiptTimeOffsetInNs;
-    struct {
-        unsigned int bufferReceiptTimeOffsetInNs:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)nough data;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long bufferReceiptTimeOffsetInNs; // @synthesize bufferReceiptTimeOffsetInNs=_bufferReceiptTimeOffsetInNs;
-@property(nonatomic) _Bool hasBufferReceiptTimeOffsetInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

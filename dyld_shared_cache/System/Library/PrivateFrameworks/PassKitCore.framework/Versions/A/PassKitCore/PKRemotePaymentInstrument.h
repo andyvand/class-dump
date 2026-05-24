@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSNumber, NSString, PKCurrencyAmount, PKPaymentApplication;
+@class NSString;
 
 @interface PKRemotePaymentInstrument
 {
     _Bool _supportsAutomaticSelection;
-    _Bool _hasAssociatedPeerPaymentAccount;
-    NSString *_passIdentifier;
-    NSString *_organizationName;
-    NSData *_manifestHash;
-    NSString *_displayName;
-    NSString *_primaryAccountNumberSuffix;
-    NSString *_primaryAccountIdentifier;
-    NSString *_issuerCountryCode;
-    unsigned long long _associatedAccountFeatureIdentifier;
-    NSNumber *_cobranded;
-    NSString *_cobrandName;
-    NSArray *_paymentApplications;
-    PKPaymentApplication *_primaryPaymentApplication;
-    NSDate *_ingestedDate;
-    PKCurrencyAmount *_peerPaymentAccountBalance;
-    unsigned long long _peerPaymentAccountState;
-    NSArray *_associatedWebDomains;
 }
 
 + (id);
@@ -33,7 +16,11 @@
 + (id);
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)>;
+- (void);
+- (void);
+- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -41,11 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ԡV;
 - (void);
 - (void);
 - (id);
@@ -60,11 +43,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (id);
 - (void);
@@ -74,31 +57,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)_kMACRxDataFrameOtherRA;
+- (id)`;
 - (id);
-- (id);
-- (void)KSubcredentialProvisioningErrorDomain;
+- (void)PKSubcredentialProvisioningErrorDomain;
 - (id)è;
 
 // Remaining properties
-@property(nonatomic) unsigned long long associatedAccountFeatureIdentifier; // @synthesize associatedAccountFeatureIdentifier=_associatedAccountFeatureIdentifier;
-@property(retain, nonatomic) NSArray *associatedWebDomains; // @synthesize associatedWebDomains=_associatedWebDomains;
-@property(copy, nonatomic) NSString *cobrandName; // @synthesize cobrandName=_cobrandName;
-@property(copy, nonatomic, getter=isCobranded) NSNumber *cobranded; // @synthesize cobranded=_cobranded;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hasAssociatedPeerPaymentAccount; // @synthesize hasAssociatedPeerPaymentAccount=_hasAssociatedPeerPaymentAccount;
-@property(retain, nonatomic) NSDate *ingestedDate; // @synthesize ingestedDate=_ingestedDate;
-@property(copy, nonatomic) NSString *issuerCountryCode; // @synthesize issuerCountryCode=_issuerCountryCode;
-@property(copy, nonatomic) NSData *manifestHash; // @synthesize manifestHash=_manifestHash;
-@property(copy, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
 @property(copy, nonatomic) NSString *passIdentifier; // @synthesize passIdentifier=_passIdentifier;
-@property(retain, nonatomic) NSArray *paymentApplications; // @synthesize paymentApplications=_paymentApplications;
-@property(retain, nonatomic) PKCurrencyAmount *peerPaymentAccountBalance; // @synthesize peerPaymentAccountBalance=_peerPaymentAccountBalance;
-@property(nonatomic) unsigned long long peerPaymentAccountState; // @synthesize peerPaymentAccountState=_peerPaymentAccountState;
-@property(copy, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
-@property(copy, nonatomic) NSString *primaryAccountNumberSuffix; // @synthesize primaryAccountNumberSuffix=_primaryAccountNumberSuffix;
-@property(retain, nonatomic) PKPaymentApplication *primaryPaymentApplication; // @synthesize primaryPaymentApplication=_primaryPaymentApplication;
-@property(nonatomic) _Bool supportsAutomaticSelection; // @synthesize supportsAutomaticSelection=_supportsAutomaticSelection;
 
 @end
 

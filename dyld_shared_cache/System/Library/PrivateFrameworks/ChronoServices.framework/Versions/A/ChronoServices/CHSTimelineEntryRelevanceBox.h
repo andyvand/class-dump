@@ -9,10 +9,9 @@
 @interface CHSTimelineEntryRelevanceBox
 {
     NSData *_archivedData;
-    NSDictionary *_timelineRelevanceEntries;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (void);
 - (void);

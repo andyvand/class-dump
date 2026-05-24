@@ -15,9 +15,6 @@
 - (const void *);
 
 // Remaining properties
-@property(readonly) const void *bytes; // @dynamic bytes;
-@property(readonly) void *mutableBytes; // @dynamic mutableBytes;
-@property(readonly) long long rowBytes; // @dynamic rowBytes;
 @property(readonly) long long sizeInBytes; // @dynamic sizeInBytes;
 
 @end

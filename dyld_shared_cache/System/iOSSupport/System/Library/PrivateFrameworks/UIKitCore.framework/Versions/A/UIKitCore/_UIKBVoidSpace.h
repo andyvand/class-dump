@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_distinctSpaces;
 }
 
-- (id);
+- (id)didReceiveMessageDeliveryReceiptForMessageID:(unsigned long long)arg1 date:account: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

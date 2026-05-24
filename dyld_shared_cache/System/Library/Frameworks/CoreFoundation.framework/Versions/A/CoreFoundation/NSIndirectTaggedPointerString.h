@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (_Bool)recast;
++ (id);
++ (_Bool)SUAutoInstallForecast;
 + (id))Z;
-- (_Bool);
+- (_Bool);
 - (const char *);
 - (const char *);
 - (void);

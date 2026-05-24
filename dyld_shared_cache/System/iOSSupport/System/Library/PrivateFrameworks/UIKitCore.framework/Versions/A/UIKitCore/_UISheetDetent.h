@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id)phPosition:characterIndex: /* Error: Ran out of types for this method. */;
++ (id)cellFrameForTextContainer:proposedLineFragment:glyphPosition:characterIndex: /* Error: Ran out of types for this method. */;
 
 @end
 

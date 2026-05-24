@@ -8,9 +8,6 @@
 {
     id container;
     id $__lazy_storage_$_resolver;
-    id singletonPool;
-    id $__lazy_storage_$_cloudContext;
-    id $__lazy_storage_$_configurationManager;
 }
 
 @end

@@ -7,9 +7,6 @@
 @interface NewsAds.DebugAdsMetricsView
 {
     id privacyMarkerView;
-    id interactionPresentationDelegate;
-    id readyDelegate;
-    id modalAdDelegate;
 }
 
 - (id);

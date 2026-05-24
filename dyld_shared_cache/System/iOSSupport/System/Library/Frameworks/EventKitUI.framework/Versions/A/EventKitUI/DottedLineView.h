@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, UIColor;
+@class CAShapeLayer;
 
 @interface DottedLineView
 {
     CAShapeLayer *_shapeLayer;
-    UIColor *_color;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)ee: /* Error: Ran out of types for this method. */;
+- (void)];
+- (void)isEqualToSharee: /* Error: Ran out of types for this method. */;
 
 @end
 

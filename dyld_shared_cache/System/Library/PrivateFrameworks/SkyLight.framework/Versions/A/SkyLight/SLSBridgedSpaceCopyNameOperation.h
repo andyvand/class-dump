@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)data.cloudkit.zone;
+- (id)t_open failed %d;
 - (id);
 - (unsigned long long);
 - (id);

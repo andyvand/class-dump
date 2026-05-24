@@ -20,29 +20,14 @@
         double cv;
         double mad;
     } _stats;
-    struct {
-        unsigned int sum:1;
-        unsigned int min:1;
-        unsigned int max:1;
-        unsigned int mean:1;
-        unsigned int geomean:1;
-        unsigned int median:1;
-        unsigned int variance:1;
-        unsigned int stddev:1;
-        unsigned int stderr:1;
-        unsigned int ci95:1;
-        unsigned int cv:1;
-        unsigned int mad:1;
-    } _flags;
-    struct DataSet _data;
 }
 
-- (double);
+- (double)jh8);
 - (_Bool);
 - (id);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
 - (double);
@@ -56,15 +41,15 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (unsigned long long);
 - (id);
 - (id);
-- (double);
+- (double)eless1,PhyBluetoothTrim;
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)A;
 - (long long);
 - (double);
 - (double);
@@ -75,23 +60,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double coefficientOfVariation;
-@property(readonly, nonatomic) double confidenceInterval95;
 @property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) double estimatedCoefficientOfVariation;
-@property(readonly, nonatomic) double estimatedConfidenceInterval95;
-@property(readonly, nonatomic) double estimatedStandardDeviation;
-@property(readonly, nonatomic) double estimatedStandardError;
-@property(readonly, nonatomic) double geometricMean;
-@property(readonly, nonatomic) double max;
-@property(readonly, nonatomic) double mean;
-@property(readonly, nonatomic) double median;
-@property(readonly, nonatomic) double medianAbsoluteDeviation;
-@property(readonly, nonatomic) double min;
-@property(readonly, nonatomic) double standardDeviation;
-@property(readonly, nonatomic) double standardError;
-@property(readonly, nonatomic) double sum;
-@property(readonly, nonatomic) double variance;
 
 @end
 

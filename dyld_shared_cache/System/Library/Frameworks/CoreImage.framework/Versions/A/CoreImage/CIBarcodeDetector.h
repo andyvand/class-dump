@@ -6,24 +6,21 @@
 
 #import <CoreImage/CIDetector.h>
 
-@class CIContext, NSMutableDictionary;
+@class CIContext;
 
 __attribute__((visibility("hidden")))
 @interface CIBarcodeDetector : CIDetector
 {
     CIContext *context;
-    double _width;
-    double _height;
-    NSMutableDictionary *featureOptions;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)C;
 
 // Remaining properties
 @property(retain, nonatomic) CIContext *context; // @synthesize context;

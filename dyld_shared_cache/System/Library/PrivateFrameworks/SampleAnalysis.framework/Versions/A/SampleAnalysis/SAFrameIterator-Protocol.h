@@ -5,5 +5,8 @@
 //
 
 @protocol SAFrameIterator
+- (_Bool)setPendingRemovePairing: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool).+;
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _LSMachineReadableVisualizationUnarchiverDelegate
 {
     unsigned int _catalogID;
-    NSMutableDictionary *_tableNames;
-    NSMutableDictionary *_unitDescs;
-    NSSet *_tableNamesToMatch;
 }
 
 - (_Bool);
@@ -25,15 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *loadedTableNames;
-@property(readonly) NSDictionary *loadedUnitDescriptions;
-@property(readonly) Class superclass;
 @property(copy) NSSet *tableNamesToMatch; // @synthesize tableNamesToMatch=_tableNamesToMatch;
 
 @end

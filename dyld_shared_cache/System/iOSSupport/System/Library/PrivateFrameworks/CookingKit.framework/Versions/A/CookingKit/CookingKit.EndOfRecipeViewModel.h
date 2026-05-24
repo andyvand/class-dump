@@ -8,9 +8,6 @@
 {
     id _recipeID;
     id _recipeCardID;
-    id _recipeCardViewSessionID;
-    id endOfRecipeViewControllerProvider;
-    id _$observationRegistrar;
 }
 
 @end

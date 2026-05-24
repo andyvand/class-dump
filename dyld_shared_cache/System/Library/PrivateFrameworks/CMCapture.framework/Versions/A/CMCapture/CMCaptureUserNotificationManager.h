@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMCaptureUserNotification, NSDictionary, NSNumber, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
-
 @interface CMCaptureUserNotificationManager
 {
     unsigned long long _flags;
-    NSDictionary *_notificationDictionary;
-    NSNumber *_response;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_responseGroup;
-    CMCaptureUserNotification *_notification;
-    unsigned long long _notificationCount;
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -27,26 +18,19 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)a>",R,N,V_fragmentedData;
 - (_Bool);
 - (id);
-- (id);
+- (id)eventSourceIsForwarded;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long flags;
-@property(readonly, nonatomic) _Bool hasResponse;
-@property(readonly, nonatomic) NSDictionary *notificationDictionary;
-@property(retain, nonatomic) NSNumber *response;
-@property(readonly, nonatomic) _Bool responseWasAlternate;
-@property(readonly, nonatomic) _Bool responseWasCancelled;
-@property(readonly, nonatomic) _Bool responseWasDefault;
-@property(readonly, nonatomic) _Bool responseWasOther;
 
 @end
 

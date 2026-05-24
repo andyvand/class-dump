@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue;
 @protocol SSRequestDelegate;
 
 @interface SSRequest
 {
     id <SSRequestDelegate> _delegate;
-    NSString *_identifier;
-    long long _state;
-    NSValue *_callbackID;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -27,18 +23,17 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (id)H4'!'K
+;
 - (void);
-- (id);
-- (void);
-- (_Bool)es;
+- (_Bool)_anchorCertificates;
 
 // Remaining properties
 @property(nonatomic) __weak id <SSRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *requestQueueSelectorName; // @dynamic requestQueueSelectorName;
 
 @end
 

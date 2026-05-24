@@ -7,12 +7,11 @@
 @interface PMLSparseMatrix
 {
     _Bool _isSymmetric;
-    struct sparse_m_float *_matrix;
 }
 
 + (id);
 + (id);
-- (float);
+- (float)ұ;
 - (id);
 - (_Bool);
 - (id);
@@ -20,19 +19,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct sparse_m_float *);
+- (void)resumeClientDebouncer;
+- (struct sparse_m_float *)E message_id = ?), ?));
 - (void);
 - (id);
 - (float);
 - (unsigned long long);
 - (float)aracters: /* Error: Ran out of types for this method. */;
-- (unsigned long long)antEmailAddress;
+- (unsigned long long)SignificantEmailAddress;
 
 // Remaining properties
-@property(nonatomic) _Bool isSymmetric; // @synthesize isSymmetric=_isSymmetric;
-@property(nonatomic) struct sparse_m_float *matrix; // @synthesize matrix=_matrix;
-@property(readonly, nonatomic) unsigned long long numberOfColumns;
 @property(readonly, nonatomic) unsigned long long numberOfRows;
 
 @end

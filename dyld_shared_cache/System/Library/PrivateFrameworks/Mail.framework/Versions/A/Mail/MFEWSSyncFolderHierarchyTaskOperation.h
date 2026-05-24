@@ -12,7 +12,6 @@
 @interface MFEWSSyncFolderHierarchyTaskOperation : MFEWSNetworkTaskOperation
 {
     id <MFEWSSyncFolderHierarchyTaskOperationDelegate> _delegate;
-    NSString *_currentSyncState;
 }
 
 + (id);
@@ -22,13 +21,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)removeAllModifierIDs;
+- (void)(;
 - (void);
 
 // Remaining properties
 @property(copy) NSString *currentSyncState; // @synthesize currentSyncState=_currentSyncState;
-@property(nonatomic) __weak id <MFEWSSyncFolderHierarchyTaskOperationDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

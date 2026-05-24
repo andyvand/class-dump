@@ -4,57 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchQuery, NSArray, NSString;
-@protocol CKQueryControllerDelegate;
+@class NSArray;
 
 @interface CKQueryController
 {
     _Bool _queryRunning;
-    id <CKQueryControllerDelegate> _delegate;
-    unsigned long long _mode;
-    NSString *_currentSearchText;
-    CSSearchQuery *_query;
-    NSString *_currentQueryIdentifier;
-    CDUnknownBlockType _queryFoundItemHandler;
-    CDUnknownBlockType _queryCompletionHandler;
-    NSArray *_results;
-    unsigned long long _queriedResultsCount;
 }
 
-+ (_Bool);
-+ (unsigned long long);
++ (_Bool)%&;
++ (unsigned long long)r;
+- (id)setTraitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)setLinkView: /* Error: Ran out of types for this method. */;
+- (id)notifyOfChangeAtColumnID:rowID:delta: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_fontByAddingSymbolicTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:priority: /* Error: Ran out of types for this method. */;
+- (void)copyDataForUTI:(_Bool)arg1 range:persistenceHelper: /* Error: Ran out of types for this method. */;
+- (void)copyDataForUTI:(CDUnknownBlockType)arg1 range:persistenceHelper: /* Error: Ran out of types for this method. */;
+- (void)copyAttribute:(CDUnknownBlockType)arg1 fromAttributes:toAttributes: /* Error: Ran out of types for this method. */;
+- (void)coordinate;
+- (void)_setDisableTapGesture:(id)arg1;
+- (void)_setDisableAnimations:(id)arg1;
+- (unsigned long long)itable;
+- (void)unclampTextView;
+- (id)ageCounts;
+- (id)aint",&,N,V_doneWidthConstraint;
+- (_Bool)joinDescription;
+- (CDUnknownBlockType)neDrawingViews;
+- (CDUnknownBlockType)oller",R,N,V_legacyNoteFetchedResultsController;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)odernFetchedResultsController;
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
+- (id)r;
+- (id)N;
+- (id)i;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)o;
+- (void)d;
+- (id)edUI/Text/TextAttachments/ICBaseAttachmentView.m;
+- (id)ources/NotesFramework/Ironcade/SharedUI/Text/TextAttachments/ICBaseAttachmentView.m;
 - (_Bool);
 - (void);
 - (void);
@@ -70,16 +60,6 @@
 - (id)A¤k «³ÿA¤kÀ«³ÿ)¤kÀ«³ÿ	¤k¬³ÿY¤kH¬³ÿA¤kD¬³ÿA¤k@¬³ÿ)¤kä¬³ÿ¤kp®³ÿ¤kl®³ÿa¤k¢³ÿ1¤k¯³ÿ1¤k;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentQueryIdentifier; // @synthesize currentQueryIdentifier=_currentQueryIdentifier;
-@property(retain, nonatomic) NSString *currentSearchText; // @synthesize currentSearchText=_currentSearchText;
-@property(nonatomic) __weak id <CKQueryControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasMoreResults;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(nonatomic) unsigned long long queriedResultsCount; // @synthesize queriedResultsCount=_queriedResultsCount;
-@property(retain, nonatomic) CSSearchQuery *query; // @synthesize query=_query;
-@property(copy, nonatomic) CDUnknownBlockType queryCompletionHandler; // @synthesize queryCompletionHandler=_queryCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType queryFoundItemHandler; // @synthesize queryFoundItemHandler=_queryFoundItemHandler;
-@property(nonatomic) _Bool queryRunning; // @synthesize queryRunning=_queryRunning;
 @property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

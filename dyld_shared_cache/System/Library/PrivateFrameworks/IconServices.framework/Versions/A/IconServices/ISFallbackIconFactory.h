@@ -8,19 +8,18 @@ __attribute__((visibility("hidden")))
 @interface ISFallbackIconFactory
 {
     struct CGImage *_cgImage;
-    unsigned long long _idiom;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)meBase=QAQ}^{__DDQueryFragment}qq^?^v}16^{__CFArray=}24;
+- (id)urlIfyNode:phoneNumberTypes: /* Error: Ran out of types for this method. */;
+- (id)tokenTypeForValue: /* Error: Ran out of types for this method. */;
+- (id)textWithStringValue: /* Error: Ran out of types for this method. */;
+- (id)synchronousRemoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (id)supportsSecureCoding;
+- (id)dateFromReferenceDate:referenceTimezone:timezoneRef:allDayRef: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -9,23 +9,19 @@
 @interface PPScoreInterpreterCoreMLModelFeature
 {
     NSString *_featureName;
-    long long _featureType;
-    unsigned long long _multiArraySize;
 }
 
 - (unsigned long long);
 - (id);
-- (id);
+- (id){public}@ -characterAfter:(id)arg1 %{public}@ -> ;
 - (id);
 - (id);
 - (void)!Gù÷Ð1Â0@ù
 × ;
-- (long long)light: /* Error: Ran out of types for this method. */;
+- (long long)pp_isConnectionFromFlight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
-@property(readonly, nonatomic) long long featureType; // @synthesize featureType=_featureType;
-@property(readonly, nonatomic) unsigned long long multiArraySize; // @synthesize multiArraySize=_multiArraySize;
 
 @end
 

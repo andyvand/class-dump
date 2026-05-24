@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEODirectionsRequestFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_appIdentifier;
-    NSString *_requestingAppId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _purpose;
-    int _source;
-    struct {
-        unsigned int has_purpose:1;
-        unsigned int has_source:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_appIdentifier:1;
-        unsigned int read_requestingAppId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Token:(id)arg1;
++ (_Bool)setHasPrefixTokenMatchLocationSecondQueryToken:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)onChallenge"24@?<v@?q@"NSURLCredential">32;
+- (id)0:(int)arg1 8@"NSURLSession"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32;
+- (_Bool)decodeObjectOfClass:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)credentialForAuditToken:assumedIdentity: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (void);
@@ -42,19 +26,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)setRemoteSvcProxy:(id)arg1;
+- (id)af;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (id)has_treeDisplayType"b1"has_inMiniPoiMarket"b1"read_unknownFields"b1"read_classZoomDriving"b1"read_classZoomNavigation"b1"read_classZoom"b1"read_containmentZoom"b1"read_customLandmark"b1"wrote_anyField"b1};
-- (id)ayName:(struct _NSZone *)arg1;
-- (int)s;
+- (id)setHasHasDisplayName:(struct _NSZone *)arg1;
+- (int)mapsPlaceIds;
 - (id);
 - (void)etadata->size;
 - (_Bool)´¼`þÄMbþ àbþ@äbþ;
@@ -69,15 +53,7 @@
 - (void)þ+<;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appIdentifier;
-@property(readonly, nonatomic) _Bool hasAppIdentifier;
 @property(nonatomic) _Bool hasPurpose;
-@property(readonly, nonatomic) _Bool hasRequestingAppId;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) int purpose;
-@property(retain, nonatomic) NSString *requestingAppId;
-@property(nonatomic) int source;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

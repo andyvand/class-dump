@@ -6,14 +6,12 @@
 
 #import <UIFoundation/NSTextStorage.h>
 
-@class NSAttributedString, NSLayoutManager, NSTextContainer;
+@class NSAttributedString, NSLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface __NSImmutableTextStorage : NSTextStorage
 {
     NSAttributedString *_contents;
-    NSLayoutManager *_layoutManager;
-    NSTextContainer *_textContainer;
 }
 
 + (id)ð@;
@@ -25,18 +23,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rMembers;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id)TextContainerAtIndex: /* Error: Ran out of types for this method. */;
+- (id)rangeForTextContainerAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSLayoutManager *layoutManager;
-@property(readonly) NSTextContainer *textContainer;
 
 @end
 

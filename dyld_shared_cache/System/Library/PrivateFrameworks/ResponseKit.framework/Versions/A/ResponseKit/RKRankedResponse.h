@@ -9,23 +9,19 @@
 @interface RKRankedResponse
 {
     NSString *_response;
-    unsigned long long _inputMethod;
-    double _score;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)`";
+- (id)?;
+- (void)startProgressIndicatorWithFailSafe;
 - (double);
 - (void);
 - (void);
 
 // Remaining properties
-@property unsigned long long inputMethod; // @synthesize inputMethod=_inputMethod;
 @property(retain) NSString *response; // @synthesize response=_response;
-@property double score; // @synthesize score=_score;
 
 @end
 

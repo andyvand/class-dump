@@ -8,7 +8,7 @@
 {
 }
 
-- (double);
+- (double)durScans;
 
 @end
 

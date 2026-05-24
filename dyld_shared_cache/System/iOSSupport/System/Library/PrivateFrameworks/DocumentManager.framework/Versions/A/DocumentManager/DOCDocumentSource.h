@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPProviderDomain, NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface DOCDocumentSource
 {
     _Bool _hidden;
-    NSString *_displayName;
-    NSString *_providerName;
-    NSArray *_documentContentTypes;
-    NSString *_domainName;
-    NSString *_promptText;
-    FPProviderDomain *_searching_fileProviderDomain;
-    NSString *_identifier;
-    NSMutableDictionary *_iconsBySize;
 }
 
 + (id);
@@ -40,7 +32,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -49,39 +41,26 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)openURL:(id)arg1 withOptions: /* Error: Ran out of types for this method. */;
+- (id)_topOrTrailingGroupView;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)rameworks/SoftLinking.framework/Versions/A/SoftLinking;
+- (void)ASAuthorizationPublicKeyCredentialLargeBlobRegistrationOutput;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)%ld, size:(%f, %f), scale:%f, appearance:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool appearsInMoveUI;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy) NSArray *documentContentTypes; // @synthesize documentContentTypes=_documentContentTypes;
-@property(copy) NSString *domainName; // @synthesize domainName=_domainName;
-@property _Bool hidden; // @synthesize hidden=_hidden;
 @property(retain, nonatomic) NSMutableDictionary *iconsBySize; // @synthesize iconsBySize=_iconsBySize;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isAvailableSystemWide;
-@property(readonly) _Bool isiCloudBased;
-@property(copy) NSString *promptText; // @synthesize promptText=_promptText;
-@property(copy) NSString *providerName; // @synthesize providerName=_providerName;
-@property(retain) FPProviderDomain *searching_fileProviderDomain; // @synthesize searching_fileProviderDomain=_searching_fileProviderDomain;
-@property(readonly) unsigned long long status;
-@property(readonly, nonatomic) NSArray *supportedSearchFilters;
 
 @end
 

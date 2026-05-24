@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSString;
+@class NSPredicate, NSString;
 
 @interface _DKTombstoneRequirement
 {
@@ -19,13 +19,10 @@
 - (id);
 - (void)
 × ;
-- (id)tDate;
+- (id)_lastOutgoingRecipientDate;
 
 // Remaining properties
-@property(readonly) NSPredicate *eventPredicate;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly) NSPredicate *predicate;
-@property(readonly) NSArray *propertiesToFetch;
 
 @end
 

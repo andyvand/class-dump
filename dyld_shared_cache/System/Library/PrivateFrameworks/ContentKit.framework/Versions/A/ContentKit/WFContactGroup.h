@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface WFContactGroup
 {
@@ -19,9 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contacts;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSString *wfName;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIViewSubduingInvalidation
 {
     _Bool _didInvalidate;
-    UIView *_parentView;
-    UIView *_subduingView;
 }
 
 - (id);

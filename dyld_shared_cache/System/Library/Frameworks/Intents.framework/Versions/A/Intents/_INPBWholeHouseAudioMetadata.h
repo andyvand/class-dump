@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _INPBWholeHouseAudioMetadata
 {
     struct {
@@ -17,36 +15,20 @@
         unsigned int isWholeHouseAudioCommand:1;
         unsigned int numberOfHomeAutomationWords:1;
     } _has;
-    _Bool _hasExcept;
-    _Bool _isAllSpeakers;
-    _Bool _isInHere;
-    _Bool _isParticipatingSpeaker;
-    _Bool _isPauseOrStop;
-    _Bool _isWholeHouseAudioCommand;
-    int _numberOfHomeAutomationWords;
-    NSArray *_intentDestinationSpeakers;
-    NSArray *_intentPermanentNames;
-    NSArray *_intentSpeakerNames;
-    NSArray *_intentSpeakerRooms;
-    NSArray *_permanentNames;
-    NSArray *_speakerNames;
-    NSArray *_speakerRooms;
-    NSArray *_spokenEntityNames;
-    NSArray *_spokenEntityTypes;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
++ (Class)A;
++ (Class)B;
 + (Class);
 + (Class);
 + (Class);
 + (Class);
 + (_Bool);
 - (unsigned long long);
-- (id);
+- (id)j;
 - (id);
 - (unsigned long long);
 - (id);
@@ -95,88 +77,51 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (unsigned long long)Tn
+;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)B;
+- (id);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)7;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)eCodeSuccess;
+- (void)INPlayAnnouncementSoundIntentResponseCodeSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasExcept; // @synthesize hasExcept=_hasExcept;
-@property(nonatomic) _Bool hasHasExcept;
-@property(nonatomic) _Bool hasIsAllSpeakers;
-@property(nonatomic) _Bool hasIsInHere;
-@property(nonatomic) _Bool hasIsParticipatingSpeaker;
-@property(nonatomic) _Bool hasIsPauseOrStop;
-@property(nonatomic) _Bool hasIsWholeHouseAudioCommand;
-@property(nonatomic) _Bool hasNumberOfHomeAutomationWords;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *intentDestinationSpeakers; // @synthesize intentDestinationSpeakers=_intentDestinationSpeakers;
-@property(readonly, nonatomic) unsigned long long intentDestinationSpeakersCount;
-@property(copy, nonatomic) NSArray *intentPermanentNames; // @synthesize intentPermanentNames=_intentPermanentNames;
-@property(readonly, nonatomic) unsigned long long intentPermanentNamesCount;
-@property(copy, nonatomic) NSArray *intentSpeakerNames; // @synthesize intentSpeakerNames=_intentSpeakerNames;
-@property(readonly, nonatomic) unsigned long long intentSpeakerNamesCount;
-@property(copy, nonatomic) NSArray *intentSpeakerRooms; // @synthesize intentSpeakerRooms=_intentSpeakerRooms;
-@property(readonly, nonatomic) unsigned long long intentSpeakerRoomsCount;
-@property(nonatomic) _Bool isAllSpeakers; // @synthesize isAllSpeakers=_isAllSpeakers;
-@property(nonatomic) _Bool isInHere; // @synthesize isInHere=_isInHere;
-@property(nonatomic) _Bool isParticipatingSpeaker; // @synthesize isParticipatingSpeaker=_isParticipatingSpeaker;
-@property(nonatomic) _Bool isPauseOrStop; // @synthesize isPauseOrStop=_isPauseOrStop;
-@property(nonatomic) _Bool isWholeHouseAudioCommand; // @synthesize isWholeHouseAudioCommand=_isWholeHouseAudioCommand;
-@property(nonatomic) int numberOfHomeAutomationWords; // @synthesize numberOfHomeAutomationWords=_numberOfHomeAutomationWords;
-@property(copy, nonatomic) NSArray *permanentNames; // @synthesize permanentNames=_permanentNames;
-@property(readonly, nonatomic) unsigned long long permanentNamesCount;
-@property(copy, nonatomic) NSArray *speakerNames; // @synthesize speakerNames=_speakerNames;
-@property(readonly, nonatomic) unsigned long long speakerNamesCount;
-@property(copy, nonatomic) NSArray *speakerRooms; // @synthesize speakerRooms=_speakerRooms;
-@property(readonly, nonatomic) unsigned long long speakerRoomsCount;
-@property(copy, nonatomic) NSArray *spokenEntityNames; // @synthesize spokenEntityNames=_spokenEntityNames;
-@property(readonly, nonatomic) unsigned long long spokenEntityNamesCount;
-@property(copy, nonatomic) NSArray *spokenEntityTypes; // @synthesize spokenEntityTypes=_spokenEntityTypes;
-@property(readonly, nonatomic) unsigned long long spokenEntityTypesCount;
-@property(readonly) Class superclass;
 
 @end
 

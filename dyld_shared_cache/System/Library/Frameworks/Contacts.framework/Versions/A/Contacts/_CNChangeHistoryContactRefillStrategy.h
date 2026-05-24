@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _CNChangeHistoryContactRefillStrategy
 {
     _Bool _unifyResults;
-    NSArray *_keys;
-    CNContactStore *_contactStore;
 }
 
-- (id);
+- (id)usy Everywhere;
 - (id);
 - (void)q&Ð!Dùñ*ð1Â0@ù
 × ;

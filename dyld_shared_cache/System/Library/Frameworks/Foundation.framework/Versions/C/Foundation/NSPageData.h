@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NSPageData
 {
     NSData *data;
-    NSDate *_originalFileModDate;
-    NSString *_originalFilePath;
 }
 
 + (long long);

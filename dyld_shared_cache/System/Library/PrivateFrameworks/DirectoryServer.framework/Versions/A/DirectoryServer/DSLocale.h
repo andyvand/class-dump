@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DSLog, NSString, ODNode, ODRecord;
+@class DSLog, NSString;
 
 @interface DSLocale
 {
     NSString *_name;
-    DSLog *_log;
-    ODNode *_node;
-    ODRecord *_groupRec;
-    NSString *_groupRecName;
 }
 
 + (void);
@@ -38,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -50,7 +46,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)configureParticipantListForStepContext:isReviewStep: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -64,11 +60,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) ODRecord *groupRec; // @synthesize groupRec=_groupRec;
-@property(retain) NSString *groupRecName; // @synthesize groupRecName=_groupRecName;
 @property(retain) DSLog *log; // @synthesize log=_log;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) ODNode *node; // @synthesize node=_node;
 
 @end
 

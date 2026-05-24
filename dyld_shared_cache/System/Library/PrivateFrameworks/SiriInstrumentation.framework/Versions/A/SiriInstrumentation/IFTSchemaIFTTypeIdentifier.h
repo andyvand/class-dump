@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTCustom, IFTSchemaIFTPrimitive, NSData;
+@class IFTSchemaIFTPrimitive;
 
 @interface IFTSchemaIFTTypeIdentifier : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTPrimitive *_primitive;
-    IFTSchemaIFTCustom *_custom;
-    _Bool _hasPrimitive;
-    _Bool _hasCustom;
-    unsigned long long _whichOneof_Typeidentifier;
 }
 
 - (unsigned long long);
@@ -24,11 +20,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)*;
+- (void)_determiningStatus;
+- (_Bool)nknown return %ld code;
 - (id);
-- (id);
+- (id)v;
 - (void);
 - (id);
 - (unsigned long long);
@@ -38,16 +34,11 @@
 - (id)
 × ;
 - (id)ExperimentTriggeredTier1",&,N,V_experimentTriggered;
-- (id)ontext;
+- (id)GATSchemaGATImageResizingContext;
 - (void)´1Õÿ;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTCustom *custom; // @synthesize custom=_custom;
-@property(nonatomic) _Bool hasCustom; // @synthesize hasCustom=_hasCustom;
-@property(nonatomic) _Bool hasPrimitive; // @synthesize hasPrimitive=_hasPrimitive;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTPrimitive *primitive; // @synthesize primitive=_primitive;
-@property(readonly, nonatomic) unsigned long long whichOneof_Typeidentifier; // @synthesize whichOneof_Typeidentifier=_whichOneof_Typeidentifier;
 
 @end
 

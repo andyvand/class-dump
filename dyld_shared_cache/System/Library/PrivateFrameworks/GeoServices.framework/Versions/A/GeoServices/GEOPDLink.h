@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAppClipParams, GEOPDExtensionParams, GEOPDQuickLinkActionDataParams, GEOPDWebLinkParams, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDLink
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDAppClipParams *_appClipParams;
-    GEOPDExtensionParams *_extensionParams;
-    GEOPDQuickLinkActionDataParams *_quickLinkParams;
-    GEOPDWebLinkParams *_webLinkParams;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _linkType;
-    unsigned int _ownerProvidedRank;
-    struct {
-        unsigned int has_linkType:1;
-        unsigned int has_ownerProvidedRank:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_appClipParams:1;
-        unsigned int read_extensionParams:1;
-        unsigned int read_quickLinkParams:1;
-        unsigned int read_webLinkParams:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id)H;
 - (void);
-- (id);
+- (id)V_lastPHSReject;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)isherViewParameters";
-- (id)rtPartnerUrl;
+- (id)_expertPartnerUrl;
 - (id)Y;
 - (void)ÙÎ÷S¨@;
 

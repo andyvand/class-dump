@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDateTimeRange, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @protocol _INPBSnoozeTasksIntent
-- (_Bool)on: /* Error: Ran out of types for this method. */;
+- (_Bool)_hasBeenCleared;
+- (_INPBIntentMetadata *)ng",R,C,V_liveVolumeUUID;
+- (_Bool)initWithConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool all;
-@property(nonatomic) _Bool hasAll;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNextTriggerTime;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDateTimeRange *nextTriggerTime;
-@property(copy, nonatomic) NSArray *tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
 @end
 

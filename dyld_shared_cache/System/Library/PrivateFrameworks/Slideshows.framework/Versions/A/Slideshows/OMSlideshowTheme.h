@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface OMSlideshowTheme
 {
     unsigned long long _type;
-    NSString *_themeID;
-    NSString *_localizedName;
-    NSString *_pluginIdentifier;
-    NSArray *_specificGuidelines;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,33 +21,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setDroppedEntriesByReason:(id)arg1;
+- (id)performWithLockSync:(id)arg1;
+- (id)observer;
+- (id)ause only telemetry is supported, contentType=%d;
 - (id);
 - (struct CGImage *);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) NSArray *audioFilePaths;
-@property(readonly) NSString *localizedName; // @synthesize localizedName=_localizedName;
 @property(readonly) NSString *pluginIdentifier; // @synthesize pluginIdentifier=_pluginIdentifier;
-@property(readonly) NSArray *specificGuidelines; // @synthesize specificGuidelines=_specificGuidelines;
-@property(readonly) NSArray *supportedCustomTransitions;
-@property(readonly) _Bool supportsCaptions;
-@property(readonly) _Bool supportsCustomKenBurns;
-@property(readonly) _Bool supportsCustomTransitions;
-@property(readonly) _Bool supportsFitsToMusic;
-@property(readonly) _Bool supportsScaleToFitOrFill;
-@property(readonly) _Bool supportsSetDuration;
-@property(readonly) _Bool supportsSetPerPageDuration;
-@property(readonly) NSString *themeID; // @synthesize themeID=_themeID;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end
 

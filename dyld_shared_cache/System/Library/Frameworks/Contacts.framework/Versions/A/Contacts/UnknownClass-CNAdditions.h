@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
-
 @interface UnknownClass (CNAdditions)
 + (id);
 + (id);
@@ -14,17 +12,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)i;
 - (_Bool);
-- (id);
+- (id)b;
 - (_Bool);
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,7 +40,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -51,27 +49,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, setter=setCNExternalURL:) NSURL *cnExternalURL;
-@property(readonly) _Bool cnHasParentAccount;
-@property(retain, setter=setCNHostname:) NSString *cnHostname;
-@property(copy, setter=setCNIdentityEmailAddress:) NSString *cnIdentityEmailAddress;
-@property(readonly) _Bool cnIsCardDAVAccount;
 @property(readonly) _Bool cnIsDirty;
-@property(setter=setCNIsEnabled:) _Bool cnIsEnabled;
-@property(readonly) _Bool cnIsEnabledForContacts;
-@property(readonly) _Bool cnIsEnabledForContactsSearch;
-@property(readonly) _Bool cnIsExchangeAccount;
-@property(readonly) _Bool cnIsGenericCardDAVAccount;
-@property(readonly) _Bool cnIsGoogleAccount;
-@property(readonly) _Bool cnIsLDAPAccount;
-@property(readonly) _Bool cnIsiCloudAccount;
-@property(setter=setCNLocalDataMigrationHasTakenPlace:) _Bool cnLocalDataMigrationHasTakenPlace;
-@property(readonly) _Bool cnNeedsDiscovery;
-@property(setter=setCNPeriodicRefreshInterval:) double cnPeriodicRefreshInterval;
-@property(copy, setter=setCNPort:) NSNumber *cnPort;
-@property(copy, setter=setCNRootFolderID:) NSString *cnRootFolderID;
-@property(setter=setCNServerSyncHasTakenPlace:) _Bool cnServerSyncHasTakenPlace;
-@property(copy, setter=setCNServerURL:) NSURL *cnServerURL;
-@property(setter=setCNUseSSL:) _Bool cnUseSSL;
 @end
 

@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface FI_TAirDropProgressLayer : FI_TLayer
 {
     double _endAngle;
-    _Bool _indeterminate;
 }
 
 + (_Bool);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -28,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property double endAngle; // @synthesize endAngle=_endAngle;
-@property(nonatomic) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
-@property(nonatomic) double percentComplete;
 
 @end
 

@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSAlertButton
 {
     _Bool _enabled;
-    _Bool _destructive;
-    NSString *_title;
-    long long _identifier;
-    NSString *_keyEquivalent;
 }
 
 - (void);
@@ -21,18 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)ooterNibMap;
+- (void)_headerFooterNibMap;
 - (void)Style;
 - (long long)©þÿ;
 - (_Bool)yÌ03U;
-- (id)dValue;
+- (id)TypedValue;
 - (void)ØBe;
 
 // Remaining properties
-@property(nonatomic) _Bool destructive; // @synthesize destructive=_destructive;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

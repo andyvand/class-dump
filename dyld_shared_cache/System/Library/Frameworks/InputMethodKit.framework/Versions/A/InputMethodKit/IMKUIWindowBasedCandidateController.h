@@ -6,31 +6,11 @@
 
 #import <InputMethodKit/IMKUICandidateController.h>
 
-@class IMKCandidatePopoverController, IMKCandidateWindowPositioning, IMKWindowController, NSAppearance, NSArray, NSURL, NSView;
+@class NSAppearance;
 
 @interface IMKUIWindowBasedCandidateController : IMKUICandidateController
 {
     _Bool _deferredWindowVisibility;
-    struct __DCSDictionary *_definitionDictionary;
-    struct __IDXIndex *_definitionIndexRef;
-    _Bool _descriptionEnabled;
-    _Bool _forceNoIncrementalSearchPositioning;
-    _Bool _grouping;
-    NSView *_informationView;
-    double _informationViewMinimumSize;
-    unsigned long long _numberOfSimilarWidthCandidates;
-    IMKCandidatePopoverController *_popoverController;
-    struct CGSize _positionalGridSize;
-    _Bool _previousActionWasSortingChange;
-    struct CGPoint _previousPosition;
-    _Bool _resetCandidatesOnRelayout;
-    _Bool _resizeOnSelectionChanged;
-    NSArray *_selectionKeyTitles;
-    _Bool _showsSortingBar;
-    IMKWindowController *_windowController;
-    IMKCandidateWindowPositioning *_windowPositioning;
-    _Bool _windowVisibleWithDeferral;
-    _Bool _windowVisibilityDidChange;
 }
 
 + (id);
@@ -44,18 +24,18 @@
 - (void);
 - (void);
 - (void);
+- (void)=<N ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)R;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint)!;
 - (id);
 - (struct CGPoint);
 - (id);
@@ -66,23 +46,24 @@
 - (void);
 - (void);
 - (void);
+- (void)=@1;
+- (void);
+- (void);
+- (void)U
+?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
+- (void)k;
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)k;
 - (void);
 - (void);
 - (void);
@@ -103,9 +84,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9_x,;
 - (double);
-- (_Bool);
+- (_Bool)1;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -118,7 +99,7 @@
 - (_Bool);
 - (struct __IDXIndex *);
 - (struct __DCSDictionary *);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
 - (void);
 - (void);
@@ -147,54 +128,20 @@
 - (void);
 - (void);
 - (void);
+- (id)captureSourceForTypeProcessID: /* Error: Ran out of types for this method. */;
+- (_Bool)actionForTransactionID:(id)arg1 transactionID='%d' removed from list of transactions;
+- (void)percentage:%.2f (exp:%d, loss:%d) streamGroupID:%s /* Error: Ran out of types for this method. */;
+- (void)_block_invoke;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)locationInViewWithEvent: /* Error: Ran out of types for this method. */;
 - (void)ntroller",N,V_controller;
 
 // Remaining properties
 @property(retain, nonatomic) NSAppearance *appearance;
-@property(nonatomic) _Bool deferredWindowVisibility; // @synthesize deferredWindowVisibility=_deferredWindowVisibility;
-@property(nonatomic) struct __DCSDictionary *definitionDictionary; // @synthesize definitionDictionary=_definitionDictionary;
-@property(nonatomic) struct __IDXIndex *definitionIndexRef; // @synthesize definitionIndexRef=_definitionIndexRef;
-@property(nonatomic) _Bool descriptionEnabled; // @synthesize descriptionEnabled=_descriptionEnabled;
-@property(retain, nonatomic) NSURL *descriptionStyleSheet;
-@property(readonly, nonatomic, getter=isExpanded) _Bool expanded;
-@property(readonly, nonatomic) struct CGSize extraSize;
-@property(nonatomic) _Bool forceNoIncrementalSearchPositioning; // @synthesize forceNoIncrementalSearchPositioning=_forceNoIncrementalSearchPositioning;
-@property(nonatomic, getter=isGrouping) _Bool grouping; // @synthesize grouping=_grouping;
-@property(retain, nonatomic) NSView *informationView; // @synthesize informationView=_informationView;
-@property(nonatomic) double informationViewMinimumSize; // @synthesize informationViewMinimumSize=_informationViewMinimumSize;
-@property(readonly, nonatomic) _Bool isSortable;
-@property(readonly, nonatomic) _Bool isUsingIncrementalSearch;
-@property(nonatomic) unsigned long long numberOfSimilarWidthCandidates; // @synthesize numberOfSimilarWidthCandidates=_numberOfSimilarWidthCandidates;
-@property(retain, nonatomic) IMKCandidatePopoverController *popoverController; // @synthesize popoverController=_popoverController;
-@property(nonatomic) struct CGSize positionalGridSize; // @synthesize positionalGridSize=_positionalGridSize;
-@property(nonatomic) _Bool previousActionWasSortingChange; // @synthesize previousActionWasSortingChange=_previousActionWasSortingChange;
-@property(nonatomic) struct CGPoint previousPosition; // @synthesize previousPosition=_previousPosition;
-@property(nonatomic) _Bool resetCandidatesOnRelayout; // @synthesize resetCandidatesOnRelayout=_resetCandidatesOnRelayout;
-@property(nonatomic) _Bool resizeOnSelectionChanged; // @synthesize resizeOnSelectionChanged=_resizeOnSelectionChanged;
-@property(retain, nonatomic) NSArray *selectionKeyTitles; // @synthesize selectionKeyTitles=_selectionKeyTitles;
-@property(readonly, nonatomic) _Bool shouldNotShowCandidates;
-@property(readonly, nonatomic) _Bool showsLegacyScroller;
-@property(nonatomic) _Bool showsSortingBar; // @synthesize showsSortingBar=_showsSortingBar;
-@property(readonly, nonatomic) NSArray *topVisibleCandidates;
-@property(nonatomic, getter=isVisible) _Bool visible;
-@property(retain, nonatomic) IMKWindowController *windowController; // @synthesize windowController=_windowController;
-@property(readonly, nonatomic) _Bool windowIsHorizontal;
-@property(nonatomic) long long windowLevel;
-@property(retain, nonatomic) IMKCandidateWindowPositioning *windowPositioning; // @synthesize windowPositioning=_windowPositioning;
-@property(readonly, nonatomic) _Bool windowTextIsVerticallyAligned;
-@property(nonatomic) _Bool windowVisibilityDidChange; // @synthesize windowVisibilityDidChange=_windowVisibilityDidChange;
-@property(nonatomic) _Bool windowVisibleWithDeferral; // @synthesize windowVisibleWithDeferral=_windowVisibleWithDeferral;
-@property(readonly, nonatomic) _Bool windowWillClose;
 
 @end
 

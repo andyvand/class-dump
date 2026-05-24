@@ -6,42 +6,32 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSBundle, NSString, NSURL;
-
 @interface HMFProcessInfo : HMFObject
 {
     int _identifier;
-    NSString *_name;
-    NSURL *_executableURL;
-    NSURL *_mainBundleURL;
-    NSString *_applicationIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_teamIdentifier;
-    NSString *_signingIdentifier;
-    CDStruct_4c969caf _auditToken;
 }
 
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)handleReceivedData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789)B@;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)5	G	6	(	;
 - (_Bool);
+- (_Bool)ection.AvailabilityRequiresTextArea};
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id)eychainWhenRemovedFromHome"b1};
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)";
 - (int);
 - (id);
 - (id);
@@ -50,25 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, getter=isCodeSigned) _Bool codeSigned;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSURL *executableURL; // @synthesize executableURL=_executableURL;
-@property(readonly) unsigned long long hash;
 @property(readonly) int identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSBundle *mainBundle;
-@property(readonly, copy) NSURL *mainBundleURL; // @synthesize mainBundleURL=_mainBundleURL;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, getter=isPlatformBinary) _Bool platformBinary;
-@property(readonly, copy) NSString *signingIdentifier; // @synthesize signingIdentifier=_signingIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
 
 @end
 

@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSImage, NSString, NSURL;
+@class NSString, NSURL;
 
 @protocol SHKShareItem
 
+@optional
+- (NSURL *);
+
 // Remaining properties
-@property(readonly, retain) NSData *shareItemData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,&
-
-@property(readonly, retain) NSImage *shareItemImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSImage",?,R,&
-
-@property(readonly, retain) NSString *shareItemString;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,&
-
 @property(readonly, retain) NSString *shareItemType;
-@property(readonly, retain) NSURL *shareItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,&
-
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSMutableSet, NSSearchField, NSString, NSTableView, NSTextField, NSTimer;
+@class NSTableView;
 
 @interface SOCustomizeSRLanguagesWindowController
 {
     NSTableView *_selectionTableView;
-    NSButton *_okButton;
-    NSSearchField *_searchField;
-    NSTextField *_selectedDownloadSizeTextField;
-    NSTextField *_noResultsFoundTextField;
-    NSArray *_allObjects;
-    NSArray *_currentlyDisplayedRows;
-    NSArray *_networkBasedLocaleIdentifiers;
-    NSString *_requiredLocaleIdentifier;
-    NSTimer *_downloadStatusUpdateTimer;
-    NSMutableSet *_markedForDeletionSet;
-    _Bool _supportDownloads;
-    _Bool _showOnlyNetworkSupportedItems;
 }
 
 - (void);
@@ -43,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

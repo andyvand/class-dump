@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDLayout, TSWPAttachment;
+@class TSWPAttachment;
 
 @interface TSWPTypesetterAttachmentMap
 {
     TSWPAttachment *_attachment;
-    TSDLayout *_layout;
-    struct __CTLine *_lineRef;
 }
 
-+ (id);
++ (id);
 - (void);
-- (id);
+- (id)5;
 - (void);
 - (struct __CTLine *);
 - (id);
-- (void);
+- (void)ɢ;
 - (id):addTransparentBorder: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) TSWPAttachment *attachment; // @synthesize attachment=_attachment;
-@property(retain, nonatomic) TSDLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) struct __CTLine *lineRef; // @synthesize lineRef=_lineRef;
 
 @end
 

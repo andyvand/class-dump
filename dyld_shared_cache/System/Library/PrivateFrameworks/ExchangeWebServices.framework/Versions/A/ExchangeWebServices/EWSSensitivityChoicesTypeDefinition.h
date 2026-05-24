@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)MutableArray",&,N,V_lyricLines;
 
 @end
 

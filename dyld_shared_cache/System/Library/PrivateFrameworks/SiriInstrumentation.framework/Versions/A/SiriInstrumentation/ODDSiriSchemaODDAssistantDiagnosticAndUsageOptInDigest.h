@@ -6,26 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDDeviceAndUsageAppTaskCounts, ODDSiriSchemaODDDeviceAndUsageDynamicDimensions;
+@class ODDSiriSchemaODDDeviceAndUsageDynamicDimensions;
 
 @interface ODDSiriSchemaODDAssistantDiagnosticAndUsageOptInDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDDeviceAndUsageDynamicDimensions *_dimensions;
-    ODDSiriSchemaODDDeviceAndUsageAppTaskCounts *_appTaskCounts;
-    _Bool _hasDimensions;
-    _Bool _hasAppTaskCounts;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -36,15 +33,11 @@
 × ;
 - (id)ed;
 - (id)aGATImageMetadata",&,N,V_image;
-- (id)E_UNKNOWN;
-- (void)M_IMAGE;
+- (id)NETSESSIONTYPE_UNKNOWN;
+- (void)JRPARAMETERSUBTYPE_PRIMITIVE_SEARCHABLE_ITEM_IMAGE;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDDeviceAndUsageAppTaskCounts *appTaskCounts; // @synthesize appTaskCounts=_appTaskCounts;
 @property(retain, nonatomic) ODDSiriSchemaODDDeviceAndUsageDynamicDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasAppTaskCounts; // @synthesize hasAppTaskCounts=_hasAppTaskCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

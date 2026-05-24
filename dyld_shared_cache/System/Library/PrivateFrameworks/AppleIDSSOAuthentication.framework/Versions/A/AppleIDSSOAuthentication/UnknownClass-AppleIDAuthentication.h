@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AppleIDAuthentication)
-+ (id);
++ (id)a;
 + (id);
 @end
 

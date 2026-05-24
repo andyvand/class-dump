@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HKUnit, INDateComponentsRange, NSArray;
+@class INDateComponentsRange, NSArray;
 
 @protocol INSaveHealthSampleIntentExport
-- (HKUnit *);
+- (NSArray *);
+- (long long);
+- (NSArray *)(;
 
 // Remaining properties
-@property long long objectType;
 @property(copy) INDateComponentsRange *recordDate;
-@property(copy) NSArray *sampleMetadatas;
-@property(copy) HKUnit *unit;
-@property(copy) NSArray *values;
 @end
 

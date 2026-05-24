@@ -9,10 +9,10 @@
     CDUnknownBlockType _boundsChangeCallback;
 }
 
+- (void)X%s;
+- (CDUnknownBlockType)%s;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void)ffset:animated:whenFinished: /* Error: Ran out of types for this method. */;
+- (void)scrollToDate:offset:animated:whenFinished: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType boundsChangeCallback; // @synthesize boundsChangeCallback=_boundsChangeCallback;

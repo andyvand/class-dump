@@ -7,9 +7,6 @@
 @interface ConversationKit.ConversationRemoteParticipantsStateProvider
 {
     id participantsSubject;
-    id participantCaptionsUpdateSubject;
-    id participantProminenceOrder;
-    id stateManager;
 }
 
 @end

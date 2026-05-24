@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDBluetoothCarCounts, ODDSiriSchemaODDBluetoothCarDimensions;
+@class ODDSiriSchemaODDBluetoothCarDimensions;
 
 @interface ODDSiriSchemaODDBluetoothCarDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDBluetoothCarDimensions *_dimensions;
-    ODDSiriSchemaODDBluetoothCarCounts *_counts;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
 }
 
 - (void);
@@ -36,15 +33,11 @@
 × ;
 - (id),R,N,V_whichFeature;
 - (id)uationPromptContext;
-- (id)ESOLVER;
+- (id)CDMSERVICETYPE_MENTION_RESOLVER;
 - (void)yIds;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDBluetoothCarCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDBluetoothCarDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

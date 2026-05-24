@@ -10,19 +10,15 @@
 @interface CKVDonateTask
 {
     NSObject<CKVDonatorProvider> *_donatorProvider;
-    NSObject *_bridge;
-    double _timeout;
-    _Bool _isMultiDataset;
-    unsigned short _donateOptions;
 }
 
 - (void);
 - (id);
 - (id);
+- (id)appendIdentificationEntryForAdditionWithPhoneNumber:(id)arg1 label:(id)arg2;
+- (id)>P;
 - (id);
-- (id);
-- (id);
-- (long long);
+- (long long)rong, NSDictionary<PHResourceLocalAvailabilityRequestResourceInfoKey,id> * _Nullable __autoreleasing * _Nullable);
 - (long long);
 - (_Bool);
 - (id);

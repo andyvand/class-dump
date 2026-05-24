@@ -11,8 +11,8 @@
     NSMutableArray *_messages;
 }
 
-- (id);
-- (void);
+- (id),V_lastMessageStartTime;
+- (void)KeyDeviationWeight;
 - (void);
 - (void);
 - (unsigned long long);
@@ -21,7 +21,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)`@ù;
+- (_Bool);
 - (void);
 - (id);
 - (id);

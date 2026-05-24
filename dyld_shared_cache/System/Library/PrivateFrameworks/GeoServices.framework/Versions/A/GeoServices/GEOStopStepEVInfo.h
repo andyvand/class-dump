@@ -9,25 +9,9 @@
 @interface GEOStopStepEVInfo
 {
     PBUnknownFields *_unknownFields;
-    double _gainedBatteryPercentage;
-    unsigned long long _muid;
-    double _remainingBatteryPercentage;
-    unsigned int _chargingTime;
-    unsigned int _gainedBatteryCharge;
-    unsigned int _gainedTravelRange;
-    unsigned int _zilchPathIndex;
-    struct {
-        unsigned int has_gainedBatteryPercentage:1;
-        unsigned int has_muid:1;
-        unsigned int has_remainingBatteryPercentage:1;
-        unsigned int has_chargingTime:1;
-        unsigned int has_gainedBatteryCharge:1;
-        unsigned int has_gainedTravelRange:1;
-        unsigned int has_zilchPathIndex:1;
-    } _flags;
 }
 
-+ (_Bool)Name:(id)arg1;
++ (_Bool)setMatchedUsingEventName:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
@@ -41,12 +25,12 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (double);
+- (_Bool)setPublicUserInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)insertOwnedObjectWithEntityName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (_Bool)_cn_valueForExtendedAttribute:path:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_cn_valueForExtendedAttribute:path:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_cn_stringByNormalizingCase;
 - (unsigned int);
 - (double);
 - (unsigned int);
@@ -56,39 +40,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)]!;
+- (void)audioRecordContext;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void){
+;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id)dd}24Q40@?48@?56;
-- (id)ViewMode;
-- (id)youtUnitHikingTrailLength;
+- (id)hasMapViewViewMode;
+- (id)GEOPDPlaceSummaryLayoutUnitHikingTrailLength;
 - (id)eSummaryResultLayoutTemplatePairReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int chargingTime;
-@property(nonatomic) unsigned int gainedBatteryCharge;
-@property(nonatomic) double gainedBatteryPercentage;
-@property(nonatomic) unsigned int gainedTravelRange;
 @property(nonatomic) _Bool hasChargingTime;
-@property(nonatomic) _Bool hasGainedBatteryCharge;
-@property(nonatomic) _Bool hasGainedBatteryPercentage;
-@property(nonatomic) _Bool hasGainedTravelRange;
-@property(nonatomic) _Bool hasMuid;
-@property(nonatomic) _Bool hasRemainingBatteryPercentage;
-@property(nonatomic) _Bool hasZilchPathIndex;
-@property(nonatomic) unsigned long long muid;
-@property(nonatomic) double remainingBatteryPercentage;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int zilchPathIndex;
 
 @end
 

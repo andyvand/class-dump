@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)ModelFromMemory]:failed to create net dictionary! /* Error: Ran out of types for this method. */;
+- (id)!;
+- (id)pill;
+- (id)alize textures;
+- (id)ected content;
+- (Class)pill dumping is enabled from defaults write but deactivated due to content protection;
+- (_Bool)fable;
+- (oneway void);
+- (_Bool)?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

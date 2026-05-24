@@ -7,9 +7,6 @@
 @interface CalendarUIKit.ToggleViewModel
 {
     id _toggleOn;
-    id labelText;
-    id imageName;
-    id offImageName;
 }
 
 @end

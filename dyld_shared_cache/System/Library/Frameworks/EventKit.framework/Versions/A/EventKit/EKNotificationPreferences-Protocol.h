@@ -6,11 +6,10 @@
 
 @protocol EKNotificationPreferences
 
-// Remaining properties
-@property(nonatomic) _Bool invitationNotificationsDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
+@optional
+- (void)engagement for current session;
 
+// Remaining properties
 @property(nonatomic) _Bool sharedCalendarNotificationsDisabled;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,N

@@ -5,5 +5,13 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void)4;
+- (void);
+- (void);
+- (void);
+- (void)eAudio.dylib;
 @end
 

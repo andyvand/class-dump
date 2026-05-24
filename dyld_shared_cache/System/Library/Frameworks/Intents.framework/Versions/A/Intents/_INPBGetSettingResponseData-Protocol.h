@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBNumericSettingValue, _INPBSettingMetadata;
-
 @protocol _INPBGetSettingResponseData
+- (_Bool);
+- (void)__objc_catlist;
 
 // Remaining properties
 @property(nonatomic) int binaryValue;
-@property(nonatomic) int boundedValue;
-@property(nonatomic) _Bool hasBinaryValue;
-@property(nonatomic) _Bool hasBoundedValue;
-@property(readonly, nonatomic) _Bool hasLabeledValue;
-@property(readonly, nonatomic) _Bool hasNumericValue;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(copy, nonatomic) NSString *labeledValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *numericValue;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata;
 @end
 

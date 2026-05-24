@@ -6,17 +6,10 @@
 
 #import <AppKit/NSTableView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSPageableTableView : NSTableView
 {
     long long _displayedRowCount;
-    long long _pageNumber;
-    double _lastVisibleHeight;
-    _Bool _isTiling;
-    _Bool _isPaged;
-    id _proxyDelegate;
 }
 
 - (double);
@@ -24,35 +17,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ain(s) for socket - invalid socket or no domain provided;
 - (id);
+- (long long)object>";
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (id)ForAnimation:(struct CGRect)arg1 animationKey: /* Error: Ran out of types for this method. */;
-- (void)fPreviousSectionFromIndexPath: /* Error: Ran out of types for this method. */;
+- (id)initWithLayerForAnimation:(struct CGRect)arg1 animationKey: /* Error: Ran out of types for this method. */;
+- (void)_lastIndexPathOfPreviousSectionFromIndexPath: /* Error: Ran out of types for this method. */;
 - (void)aHD;
 - (long long)¤D;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property long long displayedRowCount; // @dynamic displayedRowCount;
-@property(readonly) unsigned long long hash;
-@property long long page; // @dynamic page;
-@property(readonly) long long pageCount; // @dynamic pageCount;
-@property(getter=isPaged) _Bool paged;
-@property(readonly) Class superclass;
 
 @end
 

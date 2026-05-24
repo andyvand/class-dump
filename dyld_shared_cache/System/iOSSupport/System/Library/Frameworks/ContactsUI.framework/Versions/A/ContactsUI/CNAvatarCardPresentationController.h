@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCardTransition, UITapGestureRecognizer, UIView, UIViewController, UIVisualEffectView;
-@protocol CNCardTransitioning;
+@class UITapGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarCardPresentationController
 {
     unsigned int _alignmentEdge;
-    UIView *_sourceView;
-    double _alignmentY;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    UIViewController *_sourceViewController;
-    CNAvatarCardTransition *_transition;
-    id <CNCardTransitioning> _originalTransitioning;
-    UIVisualEffectView *_backgroundView;
-    UIVisualEffectView *_vibrancyView;
-    UIView *_dimmingView;
-    UIView *_cardView;
-    UIView *_contentView;
-    struct CGRect _sourceTargetRect;
-    struct CGRect _sourceRect;
 }
 
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)?;
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (struct CGRect);
 - (void);
@@ -47,19 +33,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)rsions/A/Email;
+- (void)_quotaRootName;
+- (void)IMAPSyncAttachmentsOperation;
 - (id)0@ù
 × ;
-- (struct CGRect)asSelectedInFullPhotoPicker;
-- (id)ns;
-- (id)lowsDiscoveredItems;
-- (void)ransportButton;
+- (struct CGRect)_wasSelectedInFullPhotoPicker;
+- (id)_setupAddToAddressBookActions;
+- (id)_allowsDiscoveredItems;
+- (void)transportButton;
 - (void),N,V_cardStaticIdentityGroup;
 - (id)iderGroup"8;
 - (void)æÿÿUáÿÿ;
@@ -70,20 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int alignmentEdge; // @synthesize alignmentEdge=_alignmentEdge;
-@property(nonatomic) double alignmentY; // @synthesize alignmentY=_alignmentY;
-@property(retain, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) UIView *cardView; // @synthesize cardView=_cardView;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UIView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(retain, nonatomic) id <CNCardTransitioning> originalTransitioning; // @synthesize originalTransitioning=_originalTransitioning;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(nonatomic) struct CGRect sourceTargetRect; // @synthesize sourceTargetRect=_sourceTargetRect;
-@property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(retain, nonatomic) UIViewController *sourceViewController; // @synthesize sourceViewController=_sourceViewController;
 @property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
-@property(retain, nonatomic) CNAvatarCardTransition *transition; // @synthesize transition=_transition;
-@property(retain, nonatomic) UIVisualEffectView *vibrancyView; // @synthesize vibrancyView=_vibrancyView;
 
 @end
 

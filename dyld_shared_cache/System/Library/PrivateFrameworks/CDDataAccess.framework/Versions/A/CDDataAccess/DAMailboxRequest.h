@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DAMailboxRequest
 {
     int _requestType;
-    int _bodyFormat;
-    NSString *_messageID;
 }
 
-- (void);
+- (void);
 - (int);
 - (id);
 - (void);
@@ -23,8 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int bodyFormat; // @synthesize bodyFormat=_bodyFormat;
-@property(copy, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
 @property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end

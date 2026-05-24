@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMapTable, NSMutableDictionary, NSMutableSet, NSPreviewRepresentingActivityItem, NSSharingServicePicker, NSString, NSWindow;
+@class NSMutableDictionary, NSSharingServicePicker;
 
 __attribute__((visibility("hidden")))
 @interface BrowserShareManager
 {
     NSMutableDictionary *_browserSharingOperationMap;
-    NSMutableSet *_activeInvocations;
-    NSMapTable *_browserSharingServiceForServiceCache;
-    NSPreviewRepresentingActivityItem *_collaborationActivityItem;
-    NSSharingServicePicker *_sharingCollaborationServicePicker;
-    _Bool _isShowingSharingServicePicker;
-    _Bool _includesQuickNoteInShareMenu;
-    NSSharingServicePicker *_sharingServicePicker;
-    NSWindow *_sourceWindow;
-    CDUnknownBlockType _performWithItemsBlock;
-    NSImage *_transitionImage;
 }
 
-+ (id)ctionPolicy;
++ (id)_serviceWorkerAutoInspectionPolicy;
 - (id);
-- (struct CGRect);
+- (struct CGRect)P;
 - (void);
 - (void);
 - (void);
@@ -35,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -43,25 +33,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)A;
 - (id);
 - (id);
+- (id)N;
+- (id);
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -96,11 +86,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -116,18 +106,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)qÄx-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includesQuickNoteInShareMenu; // @synthesize includesQuickNoteInShareMenu=_includesQuickNoteInShareMenu;
-@property(copy, nonatomic) CDUnknownBlockType performWithItemsBlock; // @synthesize performWithItemsBlock=_performWithItemsBlock;
 @property(retain, nonatomic) NSSharingServicePicker *sharingServicePicker; // @synthesize sharingServicePicker=_sharingServicePicker;
-@property(retain, nonatomic) NSWindow *sourceWindow; // @synthesize sourceWindow=_sourceWindow;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSImage *transitionImage; // @synthesize transitionImage=_transitionImage;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaTurnInteraction : SISchemaInstrumentationMessage
 {
     NSString *_interactionId;
-    _Bool _hasInteractionId;
 }
 
 - (void);
@@ -21,19 +20,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_supportsFeatureC;
+- (_Bool);
+- (_Bool)_join_import cmi    INNER JOIN message_new_to_old mno ON      cmi.message_id = mno.old_rowid    ; ;
 - (id);
 - (id);
-- (id)data;
-- (id)hasAceCommandId;
-- (void)ySnapshotCaptured;
+- (id)deleteDomainSuggestionMetadata;
+- (id)_hasAceCommandId;
+- (void)networkConnectionStateReadySnapshotCaptured;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInteractionId; // @synthesize hasInteractionId=_hasInteractionId;
 @property(copy, nonatomic) NSString *interactionId; // @synthesize interactionId=_interactionId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

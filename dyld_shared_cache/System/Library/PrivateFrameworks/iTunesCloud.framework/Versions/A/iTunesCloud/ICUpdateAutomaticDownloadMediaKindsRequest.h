@@ -6,30 +6,22 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICStoreRequestContext, NSSet, NSString;
+@class ICStoreRequestContext;
 
 @interface ICUpdateAutomaticDownloadMediaKindsRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    NSSet *_mediaKindsToAdd;
-    NSSet *_mediaKindsToRemove;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void)ionType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

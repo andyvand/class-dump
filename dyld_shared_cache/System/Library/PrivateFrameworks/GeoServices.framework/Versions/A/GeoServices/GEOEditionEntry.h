@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOEditionEntry
 {
     CDUnion_20bcf645 _tileset;
-    unsigned int _edition;
-    unsigned int _provider;
-    _Bool _invalidateOnly;
 }
 
 - (void);
@@ -19,13 +16,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned int);
 - (CDUnion_20bcf645);
-- (unsigned int)AL;
+- (unsigned int)CAR_PHYSICAL;
 - (void)D;
 
 // Remaining properties
-@property(nonatomic) unsigned int edition; // @synthesize edition=_edition;
-@property(nonatomic) _Bool invalidateOnly; // @synthesize invalidateOnly=_invalidateOnly;
-@property(nonatomic) unsigned int provider; // @synthesize provider=_provider;
 @property(nonatomic) CDUnion_20bcf645 tileset; // @synthesize tileset=_tileset;
 
 @end

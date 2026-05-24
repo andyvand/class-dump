@@ -6,39 +6,23 @@
 
 #import <MediaRemote/MRAVOutputContext.h>
 
-@class AVOutputContext, MRAVConcreteOutputDevice, MRAVOutputDeviceSourceInfo, NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AVOutputContext, NSString;
 
 @interface MRAVConcreteOutputContext : MRAVOutputContext
 {
     NSString *_uniqueIdentifier;
-    unsigned int _type;
-    NSArray *_concreteOutputDevices;
-    MRAVConcreteOutputDevice *_predictedOutputDevice;
-    MRAVOutputDeviceSourceInfo *_outputDeviceSourceInfo;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    _Bool _attemptingLogicalDeviceRecovery;
-    _Bool _handlingAirPlayDevicesTimeOut;
-    AVOutputContext *_avOutputContext;
-    struct os_unfair_lock_s _avOutputContextLock;
-    NSString *_contextID;
-    _Bool _supportsVolumeControl;
-    _Bool _canSetVolume;
-    unsigned int _volumeControlType;
-    unsigned int _effectiveVolumeCapabilities;
-    NSMutableDictionary *_notifications;
 }
 
-+ (void);
++ (void);
 + (id);
 + (CDUnknownBlockType);
 + (id);
 + (id);
 + (id);
++ (id)startWatchAdvertisingFromVoiceTrigger;
 + (id);
-+ (id);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -48,12 +32,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_updateWithDictionaryRepresentation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned int);
+- (id)to deadline fired, marking current best result as final;
+- (void)isticReceivedDeliveryReceipt;
+- (unsigned int)arsec.HashtagImagesApp.HashtagImagesExtension;
 - (void);
 - (void);
 - (void);
@@ -64,13 +48,13 @@
 - (void);
 - (float);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)xperience:persistentAcrossInvocations:associatedDataStore: /* Error: Ran out of types for this method. */;
+- (_Bool)OutputLanguageCode:voiceName:] /* Error: Ran out of types for this method. */;
+- (_Bool)e.assistant.home-announcement-observer;
 - (void);
 - (id);
 - (void);
@@ -80,19 +64,11 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)troller;
+- (void)MREmulatedGameController;
 - (void)PlayingSessionServiceClient] Not creating new player for origin because playerPath already exists:(id)arg1 %@;
 
 // Remaining properties
 @property(retain, nonatomic) AVOutputContext *avOutputContext;
-@property(copy, nonatomic) NSArray *concreteOutputDevices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

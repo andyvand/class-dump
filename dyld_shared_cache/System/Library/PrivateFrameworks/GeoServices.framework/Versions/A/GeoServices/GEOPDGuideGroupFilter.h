@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ionCurrencyCode"b1"read_transactionId"b1"read_transactionLocation"b1"read_warsawMerchantIdentifier"b1"wrote_anyField"b1};
-- (id)RegionState;
+- (id)_downloadedOfflineRegionState;
 - (id)u\v;
 - (void);
 

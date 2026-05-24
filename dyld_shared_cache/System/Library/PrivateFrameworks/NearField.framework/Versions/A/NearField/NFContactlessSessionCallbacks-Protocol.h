@@ -5,5 +5,10 @@
 //
 
 @protocol NFContactlessSessionCallbacks
+- (void)CeIBg/Library/Caches/com.apple.xbs/TemporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBook/ABUserActivityRestoration.m;
+- (void)ValueOntoExistingContactCommand.m;
+
+@optional
+- (void)CNPostalAddressSubLocalityKey;
 @end
 

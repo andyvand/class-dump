@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PHSearchQueryGroundingPersonalEvent
 {
     NSString *_meaningLabel;
-    NSArray *_momentUUIDs;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%p localizedMessage="%@">;
 - (id);
 - (void);
 - (void)V_validatedImageDisplayTime;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *meaningLabel; // @synthesize meaningLabel=_meaningLabel;
-@property(readonly, nonatomic) NSArray *momentUUIDs; // @synthesize momentUUIDs=_momentUUIDs;
 
 @end
 

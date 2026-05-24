@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)seLineSeparatorAsJoiningDelimiter;
+- (void)useLineSeparatorAsJoiningDelimiter;
 
 // Remaining properties
 @property(readonly) CRFormAnalyzerConfiguration *configuration; // @synthesize configuration=_configuration;

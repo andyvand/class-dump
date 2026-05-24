@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDOverallFilterReason
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _proxyErrorHttpStatus;
-    int _reasonType;
-    struct {
-        unsigned int has_proxyErrorHttpStatus:1;
-        unsigned int has_reasonType:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)b26b14b4b4b4b36})}24@32;
-- (id)ciatedInfoFilter;
+- (id)_hikeAssociatedInfoFilter;
 - (id)p;
 - (void)LJª@<NÑ\@;
 

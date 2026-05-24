@@ -7,7 +7,6 @@
 @interface NewsFeed.PuzzleAccessProvider
 {
     id bundleSubscriptionManager;
-    id paidAccessChecker;
 }
 
 @end

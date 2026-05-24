@@ -7,8 +7,6 @@
 @interface RemindersUICore.ScrollWithCompensationSession__priv_C366816E054E15B876CFBAD9C7ABF9C4
 {
     id isActive;
-    id deferredPromise;
-    id scrollingCancellable;
 }
 
 @end

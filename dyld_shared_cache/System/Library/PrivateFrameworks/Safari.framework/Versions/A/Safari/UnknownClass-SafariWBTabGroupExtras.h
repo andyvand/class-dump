@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface UnknownClass (SafariWBTabGroupExtras)
 - (unsigned long long);
@@ -13,7 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *safari_attributedStringForPasteboard;
-@property(readonly, nonatomic) NSString *safari_nsStringForPasteboard;
-@property(readonly, nonatomic) unsigned long long validTabsCountForPasteboard;
 @end
 

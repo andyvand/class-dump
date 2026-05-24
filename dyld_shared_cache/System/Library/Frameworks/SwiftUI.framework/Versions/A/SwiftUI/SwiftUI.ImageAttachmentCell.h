@@ -7,9 +7,6 @@
 @interface SwiftUI.ImageAttachmentCell
 {
     id _image;
-    id contentSize;
-    id alignmentOrigin;
-    id baselineOffset;
 }
 
 - (_Bool);

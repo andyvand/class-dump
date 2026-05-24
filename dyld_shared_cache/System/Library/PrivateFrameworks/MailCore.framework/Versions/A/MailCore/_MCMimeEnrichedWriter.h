@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSFont, NSString, _MCMimeEnrichedState, _MCMimeEnrichedWriterCommandStackEntry;
+@class NSAttributedString;
 
 @interface _MCMimeEnrichedWriter
 {
     NSAttributedString *_attributedString;
-    NSString *_string;
-    CDStruct_2ada2998 _stringBuffer;
-    NSFont *_defaultFont;
-    NSFont *_defaultFixedPitchFont;
-    double _defaultPointSize;
-    _MCMimeEnrichedWriterCommandStackEntry *_commandStack;
-    _MCMimeEnrichedWriterCommandStackEntry *_topOfStack;
-    _MCMimeEnrichedState *_currentState;
-    unsigned long long _currentLineStart;
-    unsigned long long _lastSpace;
 }
 
 - (void);

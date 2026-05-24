@@ -9,8 +9,6 @@
 @interface HMIUpdatePersonsModelOperation
 {
     _Bool _external;
-    NSUUID *_sourceUUID;
-    NSUUID *_homeUUID;
 }
 
 + (id)\;
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool external; // @synthesize external=_external;
-@property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
 @property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end

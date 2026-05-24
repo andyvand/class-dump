@@ -6,40 +6,25 @@
 
 #import <UIKitCore/UIPanGestureRecognizer.h>
 
-@class NSString, UIScrollView, UIScrollViewDirectionalPressGestureRecognizer;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface UIScrollViewPanGestureRecognizer : UIPanGestureRecognizer
 {
     UIScrollView *_scrollView;
-    SEL _scrollViewAction;
-    struct CGPoint _reconsideredLockingLocation;
-    unsigned int _lastLockingAxis:2;
-    unsigned int _lockingAxis:2;
-    unsigned int _hasParentScrollView:1;
-    unsigned int _caughtDeceleratingScrollView:1;
-    unsigned int _directionalLockEnabled:1;
-    unsigned int _transfersTrackingFromParentScrollView:1;
-    unsigned int _movedAfterCaughtDeceleratingScrollViewButBeganNotYetDelivered:1;
-    long long _modifierFlags;
-    long long _indirectScrollingState;
-    _Bool _scrollViewCanScrubWithTouch;
-    _Bool _activeEventIsDiscrete;
-    double _translationScaleFactor;
-    UIScrollViewDirectionalPressGestureRecognizer *_directionalPressGestureRecognizer;
 }
 
-- (void);
+- (void));
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (double);
 - (id);
 - (void);
 - (id);
-- (void);
-- (struct CGPoint);
+- (void)V_ignoreSystemFilterPredicates;
+- (struct CGPoint)r was missing mapping for MPModelPropertyLyricsHasLibraryLyrics;
 - (void);
 - (void);
 - (_Bool);
@@ -50,24 +35,24 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)torView"16q24;
 - (_Bool)"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
-- (id)ration:(id)arg1;
-- (_Bool)tifier:creator: /* Error: Ran out of types for this method. */;
-- (_Bool)ithItemIdentifier:(id)arg1 uiView: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1 forCoder:(id)arg2;
-- (_Bool)ts;
+- (id)setPresentationFeedbackConfiguration:(id)arg1;
+- (_Bool)instantiateViewControllerWithIdentifier:creator: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithItemIdentifier:(id)arg1 uiView: /* Error: Ran out of types for this method. */;
+- (void)addMappings:(id)arg1 forCoder:(id)arg2;
+- (_Bool)_updateTitleViewConstraints;
 - (_Bool)_lastForceTimestamp;
-- (void)yScale:(id)arg1;
-- (void)ded;
+- (void)_insetSizeForContainer:(id)arg1 displayScale: /* Error: Ran out of types for this method. */;
+- (void)_fullyOccluded;
 - (void)ntarySolution;
-- (void)ew;
+- (void)updateRightView;
 - (_Bool)ILongPressGestureRecognizer",&,N,V_dismissActionViewGestureRecognizer;
 - (void)xtSearching>",W,N,V_searchableObject;
-- (_Bool)okenImpl;
+- (_Bool)_UITableViewIgnoreDragsTokenImpl;
 - (double)¨ade;
 - (_Bool)y updates must be section operations;
 - (_Bool)ditions from non-main thread is not safe!;
 - (_Bool)UIBackgroundStyleLightBlur;
-- (id)ent;
+- (id)ProposedDepthLevelIncrement;
 - (void)Åð¿c;
 - (struct CGPoint)<õþ·¾Ù¸xe;
 - (void);
@@ -78,19 +63,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_beganCaughtDeceleratingScrollViewAndMoved) _Bool beganCaughtDeceleratingScrollViewAndMoved;
-@property(readonly, nonatomic, getter=_caughtDeceleratingScrollView) _Bool caughtDeceleratingScrollView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDirectionalLockEnabled) _Bool directionalLockEnabled;
-@property(nonatomic) __weak UIScrollViewDirectionalPressGestureRecognizer *directionalPressGestureRecognizer; // @synthesize directionalPressGestureRecognizer=_directionalPressGestureRecognizer;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
-@property(nonatomic) double translationScaleFactor; // @synthesize translationScaleFactor=_translationScaleFactor;
 
 @end
 

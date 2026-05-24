@@ -7,7 +7,6 @@
 @interface NewsFeed.ArticleURLHandlerMatchIDProvider
 {
     id articleIDPathComponent;
-    id paywallArticleIDPathComponent;
 }
 
 @end

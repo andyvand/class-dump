@@ -5,5 +5,9 @@
 //
 
 @protocol HLPHelpTopicViewControllerDelegate
+- (void);
+- (void);
+- (void)!;
+- (void);
 @end
 

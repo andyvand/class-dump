@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CNDonationValueVisitor, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface _CNDonationAccountLogger
 {
     NSObject<OS_os_log> *_log_t;
-    id <CNDonationValueVisitor> _valueLogger;
 }
 
 - (void);
@@ -24,20 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_shortDescription;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_os_log> *log_t; // @synthesize log_t=_log_t;
-@property(readonly) Class superclass;
-@property(readonly) id <CNDonationValueVisitor> valueLogger; // @synthesize valueLogger=_valueLogger;
 
 @end
 

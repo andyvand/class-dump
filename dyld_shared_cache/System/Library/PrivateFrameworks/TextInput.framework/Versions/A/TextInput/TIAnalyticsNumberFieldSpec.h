@@ -6,14 +6,9 @@
 
 #import <TextInput/TIAnalyticsFieldSpec.h>
 
-@class NSNumber;
-
 @interface TIAnalyticsNumberFieldSpec : TIAnalyticsFieldSpec
 {
     _Bool _isInteger;
-    NSNumber *_minValue;
-    NSNumber *_maxValue;
-    NSNumber *_significantDigits;
 }
 
 - (id);
@@ -24,13 +19,10 @@
 - (void)Í
 ¥
 ;
-- (id)assis;
+- (id)chassis;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInteger; // @synthesize isInteger=_isInteger;
-@property(readonly, nonatomic) NSNumber *maxValue; // @synthesize maxValue=_maxValue;
-@property(readonly, nonatomic) NSNumber *minValue; // @synthesize minValue=_minValue;
-@property(readonly, nonatomic) NSNumber *significantDigits; // @synthesize significantDigits=_significantDigits;
 
 @end
 

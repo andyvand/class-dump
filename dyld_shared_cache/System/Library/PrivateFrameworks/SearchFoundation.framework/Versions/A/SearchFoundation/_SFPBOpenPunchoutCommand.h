@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBPunchout;
+@class _SFPBPunchout;
 
 @interface _SFPBOpenPunchoutCommand
 {
@@ -14,26 +14,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)placeholderForCreatedShareParticipant;
+- (id)index availability during availability fetch;
 - (id);
 - (id);
 - (void)titude"b1"longitude"b1"isITunes"b1"mediaEntityType"b1"shouldSearchDirectionsAlongCurrentRoute"b1"directionsMode"b1};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPunchout *punchout; // @synthesize punchout=_punchout;
-@property(readonly) Class superclass;
 
 @end
 

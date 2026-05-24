@@ -6,44 +6,31 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContact, CNContactPickerViewController, NSArray, NSString;
+@class CNContact, CNContactPickerViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNContactAddLinkedCardAction : CNContactAction
 {
     CNContact *_chosenContact;
-    NSArray *_editingLinkedContacts;
-    CNContactPickerViewController *_contactPicker;
-    CNContact *_selectedContact;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
 - (void)ameCenterManager",&,N,V_gameCenterManager;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *chosenContact; // @synthesize chosenContact=_chosenContact;
 @property(retain, nonatomic) CNContactPickerViewController *contactPicker; // @synthesize contactPicker=_contactPicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *editingLinkedContacts; // @synthesize editingLinkedContacts=_editingLinkedContacts;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNContact *selectedContact; // @synthesize selectedContact=_selectedContact;
-@property(readonly) Class superclass;
 
 @end
 

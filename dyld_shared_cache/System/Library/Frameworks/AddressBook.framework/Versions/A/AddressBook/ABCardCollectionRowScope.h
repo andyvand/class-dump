@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyleProvider, NSArray, NSButton, NSStackView, NSView;
+@class NSView;
 @protocol ABCardCollectionRowView;
 
 @interface ABCardCollectionRowScope
@@ -19,23 +19,13 @@
 - (id);
 - (id);
 - (id);
+- (id)g;
 - (id);
 - (id);
-- (id);
-- (id)atIndex: /* Error: Ran out of types for this method. */;
+- (id)textView:doubleClickedOnCell:inRect:atIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSView *accessoryView;
-@property(readonly) NSArray *actionGlyphButtons;
-@property(readonly) NSView *labelView;
-@property(readonly) NSView *messagingServiceView;
-@property(readonly) NSView *minusButton;
-@property(readonly) NSView *plusButton;
-@property(readonly) NSButton *privacyCheckbox;
 @property(readonly) NSView<ABCardCollectionRowView> *rowView;
-@property(readonly) NSStackView *stackView;
-@property(readonly) ABCardViewStyleProvider *styleProvider;
-@property(readonly) NSView *valueView;
 
 @end
 

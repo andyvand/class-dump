@@ -6,22 +6,13 @@
 
 #import <FontParser/FontParser.AnyVectorFont.h>
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface FontParser.SfntVectorFont__priv_BB7825F4A323BA870200AEF0918A19DC : FontParser.AnyVectorFont
 {
     id font;
-    id characterMap;
-    id _info;
-    id cacheLock;
-    id cachedPostScriptName;
-    id glyphMap;
-    id postTable;
-    id $__lazy_storage_$_lastResortPostScriptName;
 }
 
 - (id);
-- (id);
+- (id);
 - (double);
 - (id);
 - (unsigned short);
@@ -33,7 +24,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned short);
 - (id);
@@ -43,7 +34,7 @@
 - (_Bool);
 - (struct OS2UnicodeRanges);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)b;
 - (struct CGFloat2);
 - (struct CGRect);
 - (struct CGSize);
@@ -53,12 +44,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)J	*I;
+- (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)5);
+  d0 = min(1.0 - d0, d0);
+  d0 = clamp((d0 * params.y) + params.z, 0.0, 1.0);
+  float d1 = (((d0 * (-2.0)) + 3.0) * d0) * d0;
+  return mix(c1, c0, d1);
+}
+;
 - (id);
 - (id);
 - (id);
@@ -70,32 +67,7 @@
 - (const struct __CFDictionary *)n5z;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *additionalPostScriptNames;
-@property(nonatomic, readonly) NSArray *allNames;
-@property(nonatomic, readonly) const struct __CFCharacterSet *characterSet;
-@property(nonatomic, readonly) long long dataResidence;
-@property(nonatomic, readonly) FontParser.AnyVectorFont *defaultInstance;
-@property(nonatomic, readonly) long long encodingType;
-@property(nonatomic, readonly) NSString *familyName;
-@property(nonatomic, readonly) NSString *fullName;
-@property(nonatomic, readonly) _Bool hasNamedInstanceWithOpticalSize;
-@property(nonatomic, readonly) NSString *instanceName;
-@property(nonatomic, readonly) unsigned short instanceNameID;
-@property(nonatomic, readonly) _Bool isBitmapOnly;
-@property(nonatomic, readonly) _Bool isNamedInstance;
 @property(nonatomic, readonly) _Bool isSFNT;
-@property(nonatomic, readonly) _Bool isSuitcase;
-@property(nonatomic, readonly) NSDictionary *metadata;
-@property(nonatomic, readonly) NSString *nameTablePostScriptName;
-@property(nonatomic, readonly) const struct __CFDictionary *names;
-@property(nonatomic, readonly) NSString *postScriptName;
-@property(nonatomic, readonly) unsigned int protectionInfo;
-@property(nonatomic, readonly) NSData *sfntData;
-@property(nonatomic, readonly) NSDictionary *splicedStash;
-@property(nonatomic, readonly) NSArray *tableTags;
-@property(nonatomic, readonly) NSArray *type1Encoding;
-@property(nonatomic, readonly) NSString *variationPostScriptNamePrefix;
-@property(nonatomic, readonly) NSArray *variationScalars;
 
 @end
 

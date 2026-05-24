@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface QUICLog
 {
@@ -13,8 +11,6 @@ __attribute__((visibility("hidden")))
         struct quiclog_event *stqh_first;
         struct quiclog_event **stqh_last;
     } events_list;
-    NSMutableDictionary *top_level_object;
-    _Bool disable_timestamps;
 }
 
 + (id);
@@ -49,15 +45,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct quiclog_event *);
+- (id)C;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (struct quiclog_event *);

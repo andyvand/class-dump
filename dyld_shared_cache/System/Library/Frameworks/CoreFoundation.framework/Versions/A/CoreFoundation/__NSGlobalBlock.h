@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (oneway void);
+- (oneway void)";
 - (id);
 - (_Bool);
 - (id);

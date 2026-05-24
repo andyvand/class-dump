@@ -18,22 +18,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)kCTIndicatorsEndStateDumpNotification;
 - (id);
-- (id);
-- (id);
+- (id)N3ctu14SharedLoggableI15SipSubscriptionNS_11OsLogLoggerEEE;
 - (id);
 - (void);
-- (void)ToPreference: /* Error: Ran out of types for this method. */;
+- (void)userHasOptedInToPreference: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,12 +8,11 @@
 {
     id delegate;
     id _state;
-    id ageRangeStateUpdateAction;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)!;
 
 @end
 

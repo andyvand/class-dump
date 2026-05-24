@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClientInternal, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class BrightnessSystemClientInternal;
 
 __attribute__((visibility("hidden")))
 @interface BrightnessSystemClientExportedObj
 {
     CDUnknownBlockType clientBlock;
-    NSObject<OS_dispatch_queue> *queue;
-    BrightnessSystemClientInternal *_target;
 }
 
-- (id);
+- (id)useractivityd crashed?);
 - (void);
 - (void);
+- (void)<Hm4	;
 - (void);
-- (void);
-- (void);
+- (void)M;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) BrightnessSystemClientInternal *target; // @synthesize target=_target;
 
 @end

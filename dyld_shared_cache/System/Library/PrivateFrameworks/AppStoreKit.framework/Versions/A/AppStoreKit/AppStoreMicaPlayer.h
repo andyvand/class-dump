@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSDictionary, NSString, NSTimer;
-@protocol AppStoreMicaPlayerDelegate;
+@class NSString;
 
 @interface AppStoreMicaPlayer
 {
     _Bool _loopDuringPlayback;
-    float _preferredPlaybackSpeed;
-    id <AppStoreMicaPlayerDelegate> _delegate;
-    NSString *_path;
-    CALayer *_rootLayer;
-    double _retinaScale;
-    double _documentDuration;
-    NSDictionary *_publishedObjects;
-    NSTimer *_playTimer;
 }
 
 + (id);
@@ -31,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)e;
 - (id);
 - (id);
 - (float);
@@ -39,25 +30,25 @@
 - (void);
 - (void);
 - (void);
+- (void)e;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (double)e;
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (double);
+- (void)l;
+- (double)<f;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
@@ -67,18 +58,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AppStoreMicaPlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double documentDuration; // @synthesize documentDuration=_documentDuration;
-@property(readonly, nonatomic) _Bool isPlaybackAtEnd;
-@property(readonly, nonatomic) _Bool isPlaying;
-@property(nonatomic) _Bool loopDuringPlayback; // @synthesize loopDuringPlayback=_loopDuringPlayback;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSTimer *playTimer; // @synthesize playTimer=_playTimer;
-@property(nonatomic) double playbackTime;
-@property(nonatomic) float preferredPlaybackSpeed; // @synthesize preferredPlaybackSpeed=_preferredPlaybackSpeed;
-@property(retain, nonatomic) NSDictionary *publishedObjects; // @synthesize publishedObjects=_publishedObjects;
-@property(nonatomic) double retinaScale; // @synthesize retinaScale=_retinaScale;
-@property(retain, nonatomic) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
 
 @end
 

@@ -4,33 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSSet, VCVideoRuleCollections;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorResultsVideo
 {
     _Bool _isSupported;
-    unsigned int _remoteSSRC;
-    _Bool _isRTCPFBEnabled;
-    VCVideoRuleCollections *_videoRuleCollections;
-    NSMutableDictionary *_featureStrings;
-    NSMutableDictionary *_parameterSets;
-    unsigned int _customVideoWidth;
-    unsigned int _customVideoHeight;
-    unsigned int _tilesPerFrame;
-    NSMutableSet *_pixelFormats;
-    NSMutableSet *_hdrModesNegotiated;
-    _Bool _ltrpEnabled;
-    _Bool _fecEnabled;
-    _Bool _rtxEnabled;
-    _Bool _blackFrameOnClearScreenEnabled;
-    long long _cipherSuite;
-    _Bool _enableInterleavedEncoding;
-    _Bool _foveationIsSupported;
-    _Bool _afbRxFrontCameraEnabled;
-    _Bool _afbRxBackCameraEnabled;
-    int _videoFrameMetadataSupportedVersion;
-    int _remoteDeviceInitialOrientation;
 }
 
 - (id);
@@ -41,15 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)4 ;
 - (void);
 - (void);
+- (void)R;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)6;
 - (_Bool);
 - (unsigned int);
 - (int);
@@ -57,11 +34,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -75,37 +52,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (void);
-- (unsigned int);
+- (unsigned int)ration:%f /* Error: Ran out of types for this method. */;
+- (void)[VKMapView:(unsigned int)arg1 %p] location:isInHikingContextualRegion:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (_Bool)with configuration=%s;
 
 // Remaining properties
-@property(nonatomic) _Bool afbRxBackCameraEnabled; // @synthesize afbRxBackCameraEnabled=_afbRxBackCameraEnabled;
-@property(nonatomic) _Bool afbRxFrontCameraEnabled; // @synthesize afbRxFrontCameraEnabled=_afbRxFrontCameraEnabled;
-@property(nonatomic) _Bool blackFrameOnClearScreenEnabled; // @synthesize blackFrameOnClearScreenEnabled=_blackFrameOnClearScreenEnabled;
-@property(nonatomic) long long cipherSuite; // @synthesize cipherSuite=_cipherSuite;
-@property(nonatomic) unsigned int customVideoHeight; // @synthesize customVideoHeight=_customVideoHeight;
-@property(nonatomic) unsigned int customVideoWidth; // @synthesize customVideoWidth=_customVideoWidth;
-@property(nonatomic) _Bool enableInterleavedEncoding; // @synthesize enableInterleavedEncoding=_enableInterleavedEncoding;
-@property(retain, nonatomic) NSDictionary *featureStrings; // @synthesize featureStrings=_featureStrings;
-@property(nonatomic) _Bool fecEnabled; // @synthesize fecEnabled=_fecEnabled;
-@property(nonatomic) _Bool foveationIsSupported; // @synthesize foveationIsSupported=_foveationIsSupported;
-@property(readonly, nonatomic) NSSet *hdrModesNegotiated; // @synthesize hdrModesNegotiated=_hdrModesNegotiated;
-@property(nonatomic) _Bool isRTCPFBEnabled; // @synthesize isRTCPFBEnabled=_isRTCPFBEnabled;
 @property(nonatomic) _Bool isSupported; // @synthesize isSupported=_isSupported;
-@property(nonatomic) _Bool ltrpEnabled; // @synthesize ltrpEnabled=_ltrpEnabled;
-@property(retain, nonatomic) NSDictionary *parameterSets; // @synthesize parameterSets=_parameterSets;
-@property(readonly, nonatomic) NSSet *pixelFormats; // @synthesize pixelFormats=_pixelFormats;
-@property(nonatomic) int remoteDeviceInitialOrientation; // @synthesize remoteDeviceInitialOrientation=_remoteDeviceInitialOrientation;
-@property(nonatomic) unsigned int remoteSSRC; // @synthesize remoteSSRC=_remoteSSRC;
-@property(nonatomic) _Bool rtxEnabled; // @synthesize rtxEnabled=_rtxEnabled;
-@property(nonatomic) unsigned int tilesPerFrame; // @synthesize tilesPerFrame=_tilesPerFrame;
-@property(nonatomic) int videoFrameMetadataSupportedVersion; // @synthesize videoFrameMetadataSupportedVersion=_videoFrameMetadataSupportedVersion;
-@property(readonly, nonatomic) VCVideoRuleCollections *videoRuleCollections; // @synthesize videoRuleCollections=_videoRuleCollections;
 
 @end
 

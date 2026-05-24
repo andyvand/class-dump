@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSData;
 
 @interface ISResourceFile
 {
     NSData *_resourceFileData;
-    struct OpaqueMappedResourceFileRef *_resourceFileRef;
-    NSURL *_url;
 }
 
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(retain) NSData *resourceFileData; // @synthesize resourceFileData=_resourceFileData;
-@property struct OpaqueMappedResourceFileRef *resourceFileRef; // @synthesize resourceFileRef=_resourceFileRef;
-@property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end
 

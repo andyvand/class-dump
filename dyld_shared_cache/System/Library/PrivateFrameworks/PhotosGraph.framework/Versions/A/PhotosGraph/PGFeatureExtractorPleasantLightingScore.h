@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ocationStreetNodeCollection;
+- (id)responseWithURL:image:highlightedImage:themeColor:isMonogram: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationStreetNodeCollection;
 
 @end
 

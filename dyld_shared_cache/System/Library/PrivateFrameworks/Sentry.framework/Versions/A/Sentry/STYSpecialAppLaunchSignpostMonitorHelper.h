@@ -6,14 +6,11 @@
 
 #import <Sentry/STYSignpostsMonitorHelper.h>
 
-@class NSUserDefaults, SignpostSupportSubsystemCategoryAllowlist;
+@class SignpostSupportSubsystemCategoryAllowlist;
 
 @interface STYSpecialAppLaunchSignpostMonitorHelper : STYSignpostsMonitorHelper
 {
     SignpostSupportSubsystemCategoryAllowlist *_allowList;
-    NSUserDefaults *_defaults;
-    _Bool _forceAppLaunchDiagnostics;
-    _Bool _enforceAppLaunchThreshold;
 }
 
 - (void);
@@ -28,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool enforceAppLaunchThreshold; // @synthesize enforceAppLaunchThreshold=_enforceAppLaunchThreshold;
 @property _Bool forceAppLaunchDiagnostics; // @synthesize forceAppLaunchDiagnostics=_forceAppLaunchDiagnostics;
 
 @end

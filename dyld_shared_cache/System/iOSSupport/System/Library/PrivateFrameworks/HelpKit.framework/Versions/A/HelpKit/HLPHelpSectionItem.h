@@ -15,11 +15,11 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (_Bool)ed: /* Error: Ran out of types for this method. */;
+- (_Bool)tableOfContentViewControllerSearchUsed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *children; // @synthesize children=_children;

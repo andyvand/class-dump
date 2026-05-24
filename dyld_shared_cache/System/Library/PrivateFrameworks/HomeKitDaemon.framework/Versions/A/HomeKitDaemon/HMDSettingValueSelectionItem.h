@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSettingValueSelectionItem
 {
     NSUUID *_identifier;
-    NSString *_selection;
 }
 
-- (id);
+- (id)_didReceiveContainerContents:(id)arg1 context:(id)arg2;
 - (unsigned long long);
 - (_Bool);
-- (id)emon27PrimaryResidentMatterServer8StateFSM;
-- (void)ryMatterDeviceTypeKey;
+- (id)_TtCC13HomeKitDaemon27PrimaryResidentMatterServer8StateFSM;
+- (void)HMDMatterAccessoryMatterDeviceTypeKey;
 - (id)]º=;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *selection; // @synthesize selection=_selection;
 
 @end
 

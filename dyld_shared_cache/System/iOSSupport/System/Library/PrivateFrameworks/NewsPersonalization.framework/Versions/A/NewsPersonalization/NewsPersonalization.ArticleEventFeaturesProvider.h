@@ -7,8 +7,6 @@
 @interface NewsPersonalization.ArticleEventFeaturesProvider
 {
     id articleFeaturesFactory;
-    id subscriptionController;
-    id localEntityDataProvider;
 }
 
 @end

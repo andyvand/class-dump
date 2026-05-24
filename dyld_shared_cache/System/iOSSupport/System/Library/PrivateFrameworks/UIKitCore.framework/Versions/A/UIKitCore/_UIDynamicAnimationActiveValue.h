@@ -7,30 +7,23 @@
 @interface _UIDynamicAnimationActiveValue
 {
     double _value;
-    double _minimumActiveValue;
-    double _maximumActiveValue;
-    int _type;
-    double _boundaryPull;
-    id _applier;
-    unsigned int _lowerBoundary:1;
-    unsigned int _upperBoundary:1;
 }
 
++ (id)d-duplicate-chats) to YES;
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
-- (double);
-- (double);
+- (double)invalidateSpotlightClientStateVersioningWithCompletion: /* Error: Ran out of types for this method. */;
+- (double)initWithMessageStore:storageController: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (_Bool);
-- (double);
-- (CDUnknownBlockType);
+- (_Bool)h to merit a jettison (reasons:%@) /* Error: Ran out of types for this method. */;
+- (_Bool)pants:%@ to 1:1 chat :%@ /* Error: Ran out of types for this method. */;
+- (double)local-message-sent;
+- (CDUnknownBlockType)uri;
+- (void):(double)arg1 ;
 - (void);
-- (void);
-- (id);
+- (id)w;
 - (id);
 - (int)1Â0@ù
 × ;
@@ -39,9 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double maximumActiveValue; // @synthesize maximumActiveValue=_maximumActiveValue;
-@property(nonatomic) double minimumActiveValue; // @synthesize minimumActiveValue=_minimumActiveValue;
-@property(nonatomic) int type; // @synthesize type=_type;
 @property(nonatomic) double value; // @synthesize value=_value;
 
 @end

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MFPBlendStop
 {
     float mFactor;
-    float mPosition;
 }
 
 - (id);

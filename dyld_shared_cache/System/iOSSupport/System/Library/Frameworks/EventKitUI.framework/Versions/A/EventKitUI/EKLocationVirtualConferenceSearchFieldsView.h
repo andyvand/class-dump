@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextField, UIView;
-@protocol EKLocationVirtualConferenceSearchFieldsDelegate;
+@class UITextField, UIView;
 
 @interface EKLocationVirtualConferenceSearchFieldsView
 {
     UIView *_hairline;
-    _Bool _disableConferenceTextField;
-    UITextField *_locationTextField;
-    UITextField *_virtualConferenceTextField;
-    UITextField *_selectedTextField;
-    id <EKLocationVirtualConferenceSearchFieldsDelegate> _delegate;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void)&+s;
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)s;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)*{;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (double);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setUsesHorizontalDragLocking: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKLocationVirtualConferenceSearchFieldsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableConferenceTextField; // @synthesize disableConferenceTextField=_disableConferenceTextField;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) UITextField *locationTextField; // @synthesize locationTextField=_locationTextField;
-@property(readonly, nonatomic) double preferredHeight;
-@property(retain, nonatomic) UITextField *selectedTextField; // @synthesize selectedTextField=_selectedTextField;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITextField *virtualConferenceTextField; // @synthesize virtualConferenceTextField=_virtualConferenceTextField;
 
 @end
 

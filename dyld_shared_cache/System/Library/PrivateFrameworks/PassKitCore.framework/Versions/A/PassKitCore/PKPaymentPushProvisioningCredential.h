@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKPaymentPushProvisioningCredential
 {
     unsigned long long _type;
-    unsigned long long _securityOptions;
-    NSString *_sharingInstanceIdentifier;
-    long long _source;
-    NSString *_provisioningCredentialIdentifierHash;
-    NSString *_credentialAuthorityIdentifier;
-    NSString *_accountIdentifier;
-    unsigned long long _feature;
 }
 
 + (_Bool)áW"ð!`Dùqî%Ð1Â0@ù
@@ -24,28 +15,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)A;
+- (id);
 - (unsigned long long);
+- (id)`;
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (long long);
+- (unsigned long long)@;
+- (void),V_profiles;
+- (void);
+- (long long);
 - (void);
 - (id)ble for object at %{public}@;
 - (void)ed;
-- (unsigned long long);
+- (unsigned long long)L;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSString *credentialAuthorityIdentifier; // @synthesize credentialAuthorityIdentifier=_credentialAuthorityIdentifier;
-@property(readonly, nonatomic) unsigned long long feature; // @synthesize feature=_feature;
-@property(readonly, nonatomic) NSString *provisioningCredentialIdentifierHash; // @synthesize provisioningCredentialIdentifierHash=_provisioningCredentialIdentifierHash;
-@property(nonatomic) unsigned long long securityOptions; // @synthesize securityOptions=_securityOptions;
-@property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
-@property(nonatomic) long long source; // @synthesize source=_source;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -6,15 +6,11 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSString;
-
 @interface SFAppIconImage : SFImage
 {
     struct {
         unsigned int iconType:1;
     } _has;
-    int _iconType;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);

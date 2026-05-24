@@ -9,17 +9,16 @@
 @interface CorrectionsProfilesLastState
 {
     CorrectionsProfilesPersistedState *_persistedState;
-    unsigned long long _count;
 }
 
 - (void);
+- (id)aV;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)m;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)GridLayoutAttributesFactoryType;
 - (id);
 
 // Remaining properties

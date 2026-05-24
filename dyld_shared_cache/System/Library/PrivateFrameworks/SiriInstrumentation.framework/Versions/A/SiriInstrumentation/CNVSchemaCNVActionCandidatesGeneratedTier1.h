@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface CNVSchemaCNVActionCandidatesGeneratedTier1 : SISchemaInstrumentationMessage
 {
@@ -21,19 +21,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)PL;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)};
-- (id)presentation;
+- (id)IFTSchemaIFTDisplayRepresentation;
 - (id)0÷÷;
 - (void)ñ&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *metadataTier1s; // @synthesize metadataTier1s=_metadataTier1s;
 
 @end

@@ -6,15 +6,13 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString;
-
 @interface RWIProtocolDOMAudioMediaStats : RWIProtocolJSONObject
 {
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -24,15 +22,10 @@
 - (int);
 - (int);
 - (id);
-- (double);
+- (double);
 
 // Remaining properties
 @property(nonatomic) int bitrate;
-@property(copy, nonatomic) NSString *codec;
-@property(copy, nonatomic) NSString *humanReadableCodecString;
-@property(nonatomic) _Bool isProtected;
-@property(nonatomic) int numberOfChannels;
-@property(nonatomic) double sampleRate;
 
 @end
 

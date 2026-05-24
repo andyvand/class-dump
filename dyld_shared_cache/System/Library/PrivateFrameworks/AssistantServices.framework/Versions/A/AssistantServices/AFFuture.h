@@ -10,7 +10,6 @@
 @interface AFFuture
 {
     NSObject<OS_dispatch_group> *_group;
-    id _value;
 }
 
 - (id);

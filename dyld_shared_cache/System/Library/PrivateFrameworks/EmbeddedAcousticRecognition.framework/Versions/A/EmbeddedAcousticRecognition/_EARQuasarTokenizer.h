@@ -9,23 +9,21 @@
 @interface _EARQuasarTokenizer : _EARTokenizer
 {
     struct BasicTextSanitizer _sanitizer;
-    shared_ptr_dcd14800 _tokenizer;
-    _Bool _applySanitization;
 }
 
-+ (unique_ptr_32eee79d);
-+ (unique_ptr_32eee79d);
-+ (unique_ptr_32eee79d);
++ (unique_ptr_668bcbb0)C;
++ (unique_ptr_668bcbb0);
++ (unique_ptr_668bcbb0);
 + (id);
 + (id);
-+ (unique_ptr_32eee79d);
++ (unique_ptr_668bcbb0)__const;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 

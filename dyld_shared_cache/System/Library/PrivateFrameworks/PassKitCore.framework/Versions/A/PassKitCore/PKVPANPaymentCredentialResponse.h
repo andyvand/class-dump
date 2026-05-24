@@ -6,24 +6,20 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSString, PKEncryptedVPANPaymentCredentials;
+@class NSString;
 
 @interface PKVPANPaymentCredentialResponse : PKPaymentWebServiceResponse
 {
     NSString *_vpanIdentifier;
-    NSString *_expiration;
-    PKEncryptedVPANPaymentCredentials *_credentials;
 }
 
 - (id);
 - (id);
 - (id);
 - (void)criptorIdentifier:'%@';  /* Error: Ran out of types for this method. */;
-- (id)ion;
+- (id)notificationAction;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) PKEncryptedVPANPaymentCredentials *credentials; // @synthesize credentials=_credentials;
-@property(readonly, copy, nonatomic) NSString *expiration; // @synthesize expiration=_expiration;
 @property(readonly, copy, nonatomic) NSString *vpanIdentifier; // @synthesize vpanIdentifier=_vpanIdentifier;
 
 @end

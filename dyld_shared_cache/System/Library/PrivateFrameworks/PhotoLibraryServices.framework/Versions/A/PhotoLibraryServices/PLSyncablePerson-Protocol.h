@@ -5,5 +5,7 @@
 //
 
 @protocol PLSyncablePerson
+- (id);
+- (id)s;
 @end
 

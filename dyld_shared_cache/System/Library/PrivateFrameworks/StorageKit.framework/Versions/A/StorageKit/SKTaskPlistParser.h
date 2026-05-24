@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
+@class NSMutableData;
 
 __attribute__((visibility("hidden")))
 @interface SKTaskPlistParser
 {
     NSMutableData *_buffer;
-    CDUnknownBlockType _callback;
-    struct _NSRange _startRange;
 }
 
 + (id);
@@ -23,20 +21,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)setMaximum: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) NSMutableData *buffer; // @synthesize buffer=_buffer;
-@property(copy) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property struct _NSRange startRange; // @synthesize startRange=_startRange;
-@property(readonly) Class superclass;
 
 @end
 

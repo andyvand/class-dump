@@ -10,17 +10,17 @@
 {
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)	;
 - (void);
-- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)qA;
 - (void);
 - (void);
 - (_Bool);

@@ -10,32 +10,23 @@ __attribute__((visibility("hidden")))
 @interface NSThemeWidgetBezelConfiguration : NSButtonBezelConfiguration
 {
     _Bool _obscured;
-    _Bool _edited;
-    long long _buttonID;
-    long long _widgetType;
-    long long _windowType;
 }
 
-- (long long);
+- (long long)D6PT05dEJ0f9Ayk7Yi92RA;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)delegate_class() returned NULL;
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)hasAlwaysVisibleMenuBar;
 
 // Remaining properties
-@property long long buttonID; // @synthesize buttonID=_buttonID;
-@property(getter=isEdited) _Bool edited; // @synthesize edited=_edited;
-@property(getter=isObscured) _Bool obscured; // @synthesize obscured=_obscured;
 @property _Bool recordingStyle;
-@property long long widgetType; // @synthesize widgetType=_widgetType;
-@property long long windowType; // @synthesize windowType=_windowType;
 
 @end
 

@@ -13,7 +13,7 @@
     TSWPSelection *_selection;
 }
 
-- (void);
+- (void)H;
 - (id)r<_TSWPCharIndexAndAffinity>>="__begin_"^{_TSWPCharIndexAndAffinity}"__end_"^{_TSWPCharIndexAndAffinity}""{?="__cap_"^{_TSWPCharIndexAndAffinity}}};
 - (void)È8;
 - (id)l°;

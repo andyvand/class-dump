@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCIONotificationPort, NSMutableDictionary, NSObject, NSSet, NSString;
+@class NSObject, NSSet;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _GCRacingWheelManager
 {
     NSObject<OS_dispatch_queue> *_sessionQueue;
-    GCIONotificationPort *_deviceNotificationPort;
-    struct __CFSet *_deviceNotificationIterators;
-    struct __CFSet *_connectedWheelDeviceNotifications;
-    NSMutableDictionary *_connectedWheels;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSSet *devices;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSSet *racingWheels;
-@property(readonly) Class superclass;
 
 @end
 

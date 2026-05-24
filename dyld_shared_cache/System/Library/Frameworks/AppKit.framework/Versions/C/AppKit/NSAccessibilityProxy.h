@@ -8,24 +8,24 @@
 {
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_CFHTTPCookie;
+- (void)IMIT %d);
+- (void)BSchema:(id)arg1 DB=%@ receiver_data recreate - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (id)- %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (id)LOB, user_info BLOB);;
+- (_Bool)^^?^{__CFAllocator}i^^?^{_CFURLCredential}iQ}8^v16@?<v@?^{NetworkProxyCredential=^^?^{__CFAllocator}i^^?^{_CFURLCredential}iQ}>24;
+- (_Bool)WidthPlaceholder == 1;
+- (id)=}8{shared_ptr<__CFDictionary>=^{__CFDictionary}^{__shared_weak_count}}16;
+- (id)ation;
+- (id)quest;
+- (struct CGRect)w-form-urlencoded;
+- (id)NewConnection();
+- (id)%d);
+- (id)eer certificate;
+- (id)shared_tcpConnWorkQueue_Background;
+- (id)LSetEnabledCiphers returned %d;
+- (id);
+- (id)3;
 - (id);
 - (unsigned long long);
 - (_Bool);

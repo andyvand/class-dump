@@ -6,7 +6,7 @@
 
 #import <CoreRecognition/CRCameraReaderOutput.h>
 
-@class NSArray, NSString, UIImage;
+@class NSArray, UIImage;
 
 @interface CRCameraReaderOutputDocumentCapture : CRCameraReaderOutput
 {
@@ -14,13 +14,11 @@
 
 - (id);
 - (id);
-- (id);
+- (id)@, canceling;
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *capturePath;
 @property(readonly) UIImage *imageValue;
-@property(readonly) NSArray *targetVertices;
 @property(readonly) NSArray *vertices;
 
 @end

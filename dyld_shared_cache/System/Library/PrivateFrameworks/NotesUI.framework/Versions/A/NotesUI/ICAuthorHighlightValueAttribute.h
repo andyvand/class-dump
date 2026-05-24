@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface ICAuthorHighlightValueAttribute
 {
     double _value;
-    NSColor *_color;
 }
 
-- (void);
+- (void)LPLinkView"16@"NSURL"24;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (double);
-- (void)igned;
+- (double)r search string '%@' within cacheKey '%@';
+- (void)_activityTypeAssigned;
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(nonatomic) double value; // @synthesize value=_value;
 
 @end

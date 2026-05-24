@@ -7,9 +7,6 @@
 @interface Nö
 {
     id â;
-    id c;
-    id ô;
-    id ;
 }
 
 

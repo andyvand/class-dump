@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)tableView:willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)iptor=}16;
-- (void)rollerChange;
+- (void)_updateForGlobalSearchControllerChange;
 - (_Bool)vÈvxx;`z;
 - (_Bool)item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 - (void)v40@?0@8{_NSRange=QQ}16^B32;
-- (void)nterLayoutPoints;
+- (void)CornerCenterLayoutPoints;
 
 // Remaining properties
 @property(nonatomic) _Bool failsOnTouchesCancelled; // @synthesize failsOnTouchesCancelled=_failsOnTouchesCancelled;

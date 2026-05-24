@@ -7,14 +7,12 @@
 @interface ContactsUI.AvatarPickerMonogramTextField.Coordinator
 {
     id textField;
-    id nsTextField;
-    id isTextFieldFirstResponder;
 }
 
-- (id);
+- (id);
+- (void)	;
 - (void);
-- (void);
-- (void)nButton:(id)arg1;
+- (void)setZoomInButton:(id)arg1;
 
 @end
 

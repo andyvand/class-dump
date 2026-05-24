@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLDeviceSPI;
-
 @interface _MTLIndirectArgumentBufferLayout
 {
     void *_private;
@@ -33,18 +31,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned int);
+- (id)ontName get exch definefont pop;
+- (unsigned int)on missing;
 
 // Remaining properties
-@property(readonly) unsigned long long alignment; // @dynamic alignment;
 @property(readonly) _Bool bufferLayoutMatchesFrontEndLayout; // @dynamic bufferLayoutMatchesFrontEndLayout;
-@property(readonly, nonatomic) id <MTLDeviceSPI> device;
-@property(readonly) unsigned long long encodedLength; // @dynamic encodedLength;
-@property(readonly) unsigned int hashMask;
-@property(readonly) unsigned int hashOffset;
-@property(readonly) unsigned int hashSignature;
-@property(readonly) unsigned int hashValue;
 
 @end
 

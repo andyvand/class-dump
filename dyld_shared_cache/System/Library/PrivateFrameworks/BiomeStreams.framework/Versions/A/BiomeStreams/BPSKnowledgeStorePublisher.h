@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _DKEventQuery;
-@protocol _DKKnowledgeQuerying;
+@class _DKEventQuery;
 
 @interface BPSKnowledgeStorePublisher
 {
     _DKEventQuery *_query;
-    id <_DKKnowledgeQuerying> _store;
-    long long _remaining;
-    NSMutableArray *_results;
 }
 
 + (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)expandFrameForPasswordView:(id)arg1;
 - (id);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (id)DevicesVector;
+- (id)_numDevicesVector;
 - (_Bool)ÿÿÿÿL;
 - (void)n;
 
 // Remaining properties
-@property(readonly, nonatomic) _DKEventQuery *query; // @synthesize query=_query;
 @property(nonatomic) long long remaining; // @synthesize remaining=_remaining;
-@property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) id <_DKKnowledgeQuerying> store; // @synthesize store=_store;
 
 @end
 

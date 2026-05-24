@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDBulletinNotificationRegistration.h>
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryBulletinNotificationRegistration : HMDBulletinNotificationRegistration
 {
     NSUUID *_accessoryUUID;
-    NSNumber *_serviceInstanceID;
-    NSNumber *_characteristicInstanceID;
 }
 
 + (id);
@@ -24,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)nPublisher;
+- (void);
+- (id)createDynamicActivityAttributionPublisher;
 - (id)to send message;
 - (id)model;
 - (void)¨×	l=;
@@ -33,8 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy) NSNumber *characteristicInstanceID; // @synthesize characteristicInstanceID=_characteristicInstanceID;
-@property(readonly, copy) NSNumber *serviceInstanceID; // @synthesize serviceInstanceID=_serviceInstanceID;
 
 @end
 

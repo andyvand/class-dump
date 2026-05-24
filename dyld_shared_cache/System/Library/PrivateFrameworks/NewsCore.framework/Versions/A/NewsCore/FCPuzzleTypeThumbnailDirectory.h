@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetManager, NSString;
-@protocol FCContentContext;
+@class FCAssetManager;
 
 @interface FCPuzzleTypeThumbnailDirectory
 {
     FCAssetManager *_assetManager;
-    NSString *_resourceMapId;
-    id <FCContentContext> _context;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -26,8 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCAssetManager *assetManager; // @synthesize assetManager=_assetManager;
-@property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *resourceMapId; // @synthesize resourceMapId=_resourceMapId;
 
 @end
 

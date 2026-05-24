@@ -9,13 +9,6 @@
 @interface AppStoreKit.ContingentOfferDetailPage : AppStoreKit.AppPromotionDetailPage
 {
     id contingentOffer;
-    id artwork;
-    id video;
-    id mediaOverlayStyle;
-    id includeBorderInDarkMode;
-    id learnMoreActionMetrics;
-    id backButtonActionMetrics;
-    id closeButtonActionMetrics;
 }
 
 @end

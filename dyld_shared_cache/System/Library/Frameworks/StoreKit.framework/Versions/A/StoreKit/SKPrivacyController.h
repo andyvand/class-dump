@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (long long);
-+ (id);
++ (id)clearAllEntries;
 + (void);
-+ (long long);
++ (long long)dispatch_queue>",&,N,V_targetQueue;
 
 @end
 

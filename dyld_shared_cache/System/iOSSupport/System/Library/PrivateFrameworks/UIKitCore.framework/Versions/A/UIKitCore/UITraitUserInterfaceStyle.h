@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)enesToCallMakeKeyWindow;
++ (id)AllowCarPlayScenesToCallMakeKeyWindow;
 + (long long)Ð@ÎTg;
 
 @end

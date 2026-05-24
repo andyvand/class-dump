@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PKAsyncOperationState;
-
 @interface PKAsyncUnaryOperationEvaluator
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_operations;
-    _Atomic _Bool _crashed;
-    id _value;
-    CDUnknownBlockType _completion;
-    _Bool _started;
-    _Bool _escaped;
-    _Bool _canceled;
-    PKAsyncOperationState *_runningOperationState;
 }
 
 - (_Bool);
@@ -27,17 +17,10 @@
 - (void);
 - (id);
 - (_Bool)isplayMessageAction"8;
-- (void)ialNumberBasedProvisioning;
+- (void)supportsSerialNumberBasedProvisioning;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCanceled) _Bool canceled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

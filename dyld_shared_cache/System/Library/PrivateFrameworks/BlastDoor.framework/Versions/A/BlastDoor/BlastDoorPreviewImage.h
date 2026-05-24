@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorImage, NSString;
+@class NSString;
 
 @interface BlastDoorPreviewImage
 {
@@ -12,31 +12,21 @@
 }
 
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)y"16@?<v@?>24;
+- (unsigned long long)"UIInputSuggestion"24;
+- (id)24;
 - (_Bool);
 - (double);
 - (struct CGSize);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSize alignmentInset;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long frameCount;
-@property(nonatomic, readonly) double frameDuration;
-@property(nonatomic, readonly) _Bool has_frameDuration;
-@property(nonatomic, readonly) BlastDoorImage *image;
-@property(nonatomic, readonly) _Bool isMonoskiAsset;
-@property(nonatomic, readonly) _Bool isScreenshot;
-@property(nonatomic, readonly) NSString *stickerEffect;
-@property(nonatomic, readonly) unsigned long long stickerEffectType;
-@property(nonatomic, readonly) NSString *utTypeString;
 
 @end
 

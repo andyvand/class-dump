@@ -6,21 +6,9 @@
 
 #import <MLCompute/MLCCPUDeviceOps.h>
 
-@class NSArray, NSData, NSMutableArray;
-
 @interface MLCMHACPUDeviceOps : MLCCPUDeviceOps
 {
     _Bool _hasAttnBias;
-    _Bool _hasKeyMask;
-    _Bool _hasAttnMask;
-    NSData *_keyMask;
-    NSData *_attnMask;
-    unsigned long long _keyMaskStride;
-    unsigned long long _backpropCacheSize;
-    NSData *_backpropCacheData;
-    NSArray *_attnBiasDeltaData;
-    NSMutableArray *_weightsMomentumDeltaDataArray;
-    NSMutableArray *_biasMomentumDeltaDataArray;
 }
 
 + (id);
@@ -37,8 +25,8 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)-;
+- (_Bool)-;
 - (id);
 - (unsigned long long);
 - (id);
@@ -47,20 +35,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)beta: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attnBiasDeltaData; // @synthesize attnBiasDeltaData=_attnBiasDeltaData;
-@property(retain, nonatomic) NSData *attnMask; // @synthesize attnMask=_attnMask;
-@property(retain, nonatomic) NSData *backpropCacheData; // @synthesize backpropCacheData=_backpropCacheData;
-@property(nonatomic) unsigned long long backpropCacheSize; // @synthesize backpropCacheSize=_backpropCacheSize;
-@property(retain, nonatomic) NSMutableArray *biasMomentumDeltaDataArray; // @synthesize biasMomentumDeltaDataArray=_biasMomentumDeltaDataArray;
 @property(nonatomic) _Bool hasAttnBias; // @synthesize hasAttnBias=_hasAttnBias;
-@property(nonatomic) _Bool hasAttnMask; // @synthesize hasAttnMask=_hasAttnMask;
-@property(nonatomic) _Bool hasKeyMask; // @synthesize hasKeyMask=_hasKeyMask;
-@property(retain, nonatomic) NSData *keyMask; // @synthesize keyMask=_keyMask;
-@property(nonatomic) unsigned long long keyMaskStride; // @synthesize keyMaskStride=_keyMaskStride;
-@property(retain, nonatomic) NSMutableArray *weightsMomentumDeltaDataArray; // @synthesize weightsMomentumDeltaDataArray=_weightsMomentumDeltaDataArray;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)HH:(id)arg1 mm:ss'Z' /* Error: Ran out of types for this method. */;
 
 @end
 

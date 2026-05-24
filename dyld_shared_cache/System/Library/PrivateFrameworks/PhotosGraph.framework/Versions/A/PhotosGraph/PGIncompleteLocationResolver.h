@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, PGGraphLocationHelper;
+@class NSSet, PGGraphLocationHelper;
 
 @interface PGIncompleteLocationResolver
 {
     PGGraphLocationHelper *_locationHelper;
-    NSSet *_addressNodes;
-    NSMutableDictionary *_resolvedLocationNodesCache;
 }
 
 + (double);
@@ -19,17 +17,16 @@
 - (id);
 - (id);
 - (id);
+- (id)tFocusedElementController:(id)arg1 ,V__focusedElementController;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)i;
 - (id);
 - (id);
 - (void)PGGraphMemoryNode"8@"PGGraphMemoryNode"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *addressNodes; // @synthesize addressNodes=_addressNodes;
-@property(retain, nonatomic) NSMutableDictionary *resolvedLocationNodesCache; // @synthesize resolvedLocationNodesCache=_resolvedLocationNodesCache;
 
 @end
 

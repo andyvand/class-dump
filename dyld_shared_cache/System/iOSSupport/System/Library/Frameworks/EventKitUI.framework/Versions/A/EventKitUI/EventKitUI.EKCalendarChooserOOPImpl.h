@@ -4,97 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEventStore, EKSource, NSSet;
-@protocol EKCalendarChooserDelegate;
-
 @interface EventKitUI.EKCalendarChooserOOPImpl
 {
     id hostingController;
-    id hostView;
-    id hostViewModel;
-    long long selectionStyle;
-    long long displayStyle;
-    unsigned long long entityType;
-    EKEventStore *eventStore;
-    _Bool showIdentityChooser;
-    _Bool showDelegateSetupCell;
-    id <EKCalendarChooserDelegate> delegate;
-    id _selectedCalendars;
-    _Bool showDetailAccessories;
-    long long chooserMode;
-    _Bool disableCalendarsUnselectedByFocus;
-    _Bool allowsPullToRefresh;
-    _Bool showsDeclinedEventsSetting;
-    EKSource *limitedToSource;
-    int explanatoryTextMode;
-    _Bool showAccountStatus;
-    _Bool onlyShowUnmanagedAccounts;
 }
 
-- (void);
+- (void)&s;
 - (_Bool);
 - (_Bool);
+- (_Bool)%s;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!&s;
+- (void);
+- (void)s;
+- (void);
+- (void);
+- (void)s;
 - (void);
 - (void);
+- (void)a*s;
+- (void)s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)*s;
 - (int);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)2%s;
 - (void);
 - (id);
-- (id);
+- (id)P@{;
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (struct CGSize);
+- (id)Y;
+- (struct CGSize)device provisioning:%d /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (long long);
+- (id)ffix;
 - (void);
 - (long long);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
+- (void)indexPathForRow:inSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPullToRefresh; // @synthesize allowsPullToRefresh;
-@property(nonatomic) long long chooserMode; // @synthesize chooserMode;
-@property(nonatomic, retain) id <EKCalendarChooserDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool disableCalendarsUnselectedByFocus; // @synthesize disableCalendarsUnselectedByFocus;
-@property(nonatomic) long long displayStyle; // @synthesize displayStyle;
-@property(nonatomic) unsigned long long entityType; // @synthesize entityType;
-@property(nonatomic, readonly) EKEventStore *eventStore; // @synthesize eventStore;
-@property(nonatomic) int explanatoryTextMode; // @synthesize explanatoryTextMode;
-@property(nonatomic, retain) EKSource *limitedToSource; // @synthesize limitedToSource;
-@property(nonatomic) _Bool onlyShowUnmanagedAccounts; // @synthesize onlyShowUnmanagedAccounts;
 @property(nonatomic) struct CGSize preferredContentSize;
-@property(nonatomic, retain) EKCalendar *selectedCalendar;
-@property(nonatomic, copy) NSSet *selectedCalendars;
-@property(nonatomic) long long selectionStyle; // @synthesize selectionStyle;
-@property(nonatomic) _Bool showAccountStatus; // @synthesize showAccountStatus;
-@property(nonatomic) _Bool showDelegateSetupCell; // @synthesize showDelegateSetupCell;
-@property(nonatomic) _Bool showDetailAccessories; // @synthesize showDetailAccessories;
-@property(nonatomic) _Bool showIdentityChooser; // @synthesize showIdentityChooser;
-@property(nonatomic) _Bool showsDeclinedEventsSetting; // @synthesize showsDeclinedEventsSetting;
 
 @end
 

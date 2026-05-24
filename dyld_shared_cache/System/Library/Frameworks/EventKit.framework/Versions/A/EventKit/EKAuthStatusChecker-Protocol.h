@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int eventAccessLevel;
-@property(readonly, nonatomic) _Bool hasAccessToReminders;
 @end
 

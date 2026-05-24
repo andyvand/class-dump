@@ -11,7 +11,7 @@
     NSMutableDictionary *_fontFamilyToProgress;
 }
 
-+ (id);
++ (id)use APS delivery, using HTTP;
 - (_Bool);
 - (double);
 - (void);

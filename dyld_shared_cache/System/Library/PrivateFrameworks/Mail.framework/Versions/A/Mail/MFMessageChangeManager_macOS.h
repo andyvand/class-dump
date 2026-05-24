@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MFMessageChangeManager_macOS
 {
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -21,10 +19,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)ȖA9;
+- (long long);
 - (id);
-- (_Bool);
+- (_Bool)o;
 - (void);
 - (void);
 - (id);
@@ -33,19 +31,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (id)#yQa;#_G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

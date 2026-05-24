@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id){public}@;
++ (id)reUtils)] Error while encrypting data:(id)arg1 %{public}@;
++ (id)id MRContentItemSetArtworkMIMEType(MRContentItemRef, CFStringRef);
 
 @end
 

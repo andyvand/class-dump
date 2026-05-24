@@ -6,21 +6,17 @@
 
 #import <CFNetwork/NSURLSessionTask.h>
 
-@class NSError, NSMutableSet, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFBackgroundSessionTask : NSURLSessionTask
 {
     NSMutableSet *_secKeyProxies;
-    struct os_unfair_lock_s _proxyLock;
-    _Bool _sentCancel;
-    _Bool _sentDidFinish;
-    NSError *_immediateError;
 }
 
+- (void)dzeabkhasiancyrillic;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -29,10 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)× ;
-- (void)WithOptions:(float)arg1;
-- (void)or: /* Error: Ran out of types for this method. */;
+- (void)publishWithOptions:(float)arg1;
+- (void)_onqueue_cancel_with_error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)dDueToDynamicHSTS;
+- (void)schemeWasUpgradedDueToDynamicHSTS;
 - (void);
 - (void)@;
 - (void);
@@ -47,13 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)*22;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

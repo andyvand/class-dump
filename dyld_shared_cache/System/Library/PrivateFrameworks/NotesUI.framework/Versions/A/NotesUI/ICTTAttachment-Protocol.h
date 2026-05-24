@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol ICTTAttachment
+- (NSString *)_accessibilityFocusAbsoluteFirstLastOpaqueElement:technology:honorsGroups:shouldAlwaysScroll: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *attachmentIdentifier;
-@property(readonly, copy, nonatomic) NSString *attachmentUTI;
 @end
 

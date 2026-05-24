@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, NSObject, NSUUID, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 @interface FMXPCSession
 {
     NSUUID *_identifier;
-    id __proxy;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    FMXPCServiceDescription *_serviceDescription;
-    NSXPCConnection *_connection;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)getting the pass at url %@;
+- (id)";
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
+- (void)_e;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id _proxy; // @synthesize _proxy=__proxy;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) id proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
 
 @end
 

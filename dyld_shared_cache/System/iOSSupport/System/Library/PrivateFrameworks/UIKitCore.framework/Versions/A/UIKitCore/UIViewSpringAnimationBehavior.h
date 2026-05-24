@@ -7,35 +7,25 @@
 @interface UIViewSpringAnimationBehavior
 {
     double _trackingDampingRatio;
-    double _trackingResponse;
-    double _dampingRatioSmoothing;
-    double _responseSmoothing;
-    double _dampingRatio;
-    double _response;
-    double _inertialTargetSmoothing;
-    double _inertialProjectionDeceleration;
 }
 
-+ (id);
++ (id);
 - (double);
 - (id);
 - (double);
 - (double)0@ù
 × ;
-- (void)ive:(double)arg1;
-- (void)zer;
-- (CDStruct_aa45ca86)lContext;
+- (void)initWithAutoFillTestArchive:(double)arg1;
+- (void)_rightSwipeRecognizer;
+- (CDStruct_aa45ca86)_placeSearchBarBackIntoOriginalContext;
 - (void)B,R,N,V_overlapsSectionHeaderViews;
 - (void);
 - (double)ng>",R,D,N;
-- (void)dBumpRegion;
+- (void)_UIFocusSpeedBumpRegion;
 - (void);
 
 // Remaining properties
 @property(nonatomic) double dampingRatio; // @synthesize dampingRatio=_dampingRatio;
-@property(nonatomic) double inertialProjectionDeceleration; // @synthesize inertialProjectionDeceleration=_inertialProjectionDeceleration;
-@property(nonatomic) double inertialTargetSmoothing; // @synthesize inertialTargetSmoothing=_inertialTargetSmoothing;
-@property(nonatomic) double response; // @synthesize response=_response;
 
 @end
 

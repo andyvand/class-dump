@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface EKREMCompletionStateReminderPredicate : EKREMReminderPredicate
 {
     NSDate *_start;
-    NSDate *_end;
-    _Bool _completed;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)c}@;
 - (_Bool);
 - (void)¡#°!GùQ2'Ð1Â0@ù
 × ;

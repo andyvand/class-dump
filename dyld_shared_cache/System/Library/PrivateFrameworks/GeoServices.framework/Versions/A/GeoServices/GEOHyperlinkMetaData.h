@@ -9,42 +9,35 @@
 @interface GEOHyperlinkMetaData
 {
     NSString *_displayedString;
-    int _hyperlinkType;
-    struct {
-        unsigned int has_hyperlinkType:1;
-    } _flags;
 }
 
-+ (_Bool)stanceThresholdCm:(id)arg1;
++ (_Bool)setHasRouteEndDistanceThresholdCm:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)replaceOccurrencesOfString:withString:options:range: /* Error: Ran out of types for this method. */;
+- (_Bool)numberFormatterWithSignificantDigits: /* Error: Ran out of types for this method. */;
+- (id)Bangladesh;
+- (int)ز;
+- (void);
 - (id);
-- (int);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)8@0:(id)arg1 8@16B24;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)llyClientizedSearchResult:(struct _NSZone *)arg1;
-- (id)oken;
-- (id)l;
+- (id)setIsPartiallyClientizedSearchResult:(struct _NSZone *)arg1;
+- (id)GEOApplicationAuditToken;
+- (id)xpcCall;
 - (id);
 - (void)LäEÿeÄ4ü4;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayedString;
-@property(readonly, nonatomic) _Bool hasDisplayedString;
 @property(nonatomic) _Bool hasHyperlinkType;
-@property(nonatomic) int hyperlinkType;
 
 @end
 

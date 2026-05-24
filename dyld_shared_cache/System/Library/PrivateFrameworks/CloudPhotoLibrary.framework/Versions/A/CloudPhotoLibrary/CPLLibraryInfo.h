@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLAccountFlags, CPLFeatureVersionHistory, CPLMomentShare, NSData, NSDictionary, NSNumber;
+@class NSDictionary;
 
 @interface CPLLibraryInfo
 {
     NSDictionary *_assetCounts;
-    CPLFeatureVersionHistory *_featureVersionHistory;
-    NSData *_accountFlagsData;
-    CPLMomentShare *_momentShare;
-    NSNumber *_featureCompatibleVersion;
 }
 
 + (id);
@@ -20,30 +16,25 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
+- (unsigned long long)%ښ;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool)áúÿTâãã	àK@ùRåô;
+- (_Bool);
 - (void);
-- (void);
+- (void)i;
 - (id);
 - (void)ñÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLAccountFlags *accountFlags;
-@property(copy, nonatomic) NSData *accountFlagsData; // @synthesize accountFlagsData=_accountFlagsData;
 @property(copy, nonatomic) NSDictionary *assetCounts; // @synthesize assetCounts=_assetCounts;
-@property(copy, nonatomic) NSNumber *featureCompatibleVersion; // @synthesize featureCompatibleVersion=_featureCompatibleVersion;
-@property(retain, nonatomic) CPLFeatureVersionHistory *featureVersionHistory; // @synthesize featureVersionHistory=_featureVersionHistory;
-@property(retain, nonatomic) CPLMomentShare *momentShare; // @synthesize momentShare=_momentShare;
 
 @end
 

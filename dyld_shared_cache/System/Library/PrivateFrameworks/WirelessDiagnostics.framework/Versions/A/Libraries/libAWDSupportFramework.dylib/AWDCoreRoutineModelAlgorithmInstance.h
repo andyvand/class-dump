@@ -7,27 +7,6 @@
 @interface AWDCoreRoutineModelAlgorithmInstance
 {
     unsigned long long _addressComponentMatches;
-    double _distanceFromTruth;
-    double _uncertainty;
-    unsigned int _efficacy;
-    unsigned int _previousType;
-    unsigned int _source;
-    unsigned int _truthSource;
-    unsigned int _truthType;
-    unsigned int _type;
-    _Bool _isRotted;
-    struct {
-        unsigned int addressComponentMatches:1;
-        unsigned int distanceFromTruth:1;
-        unsigned int uncertainty:1;
-        unsigned int efficacy:1;
-        unsigned int previousType:1;
-        unsigned int source:1;
-        unsigned int truthSource:1;
-        unsigned int truthType:1;
-        unsigned int type:1;
-        unsigned int isRotted:1;
-    } _has;
 }
 
 @end

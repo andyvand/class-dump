@@ -9,8 +9,6 @@
 @interface MapsSuggestionsSignalPackCache
 {
     NSMutableArray *_mapItems;
-    NSMutableArray *_signalPacks;
-    NSMutableArray *_entries;
 }
 
 - (id);

@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBKeyValueTuple
+- (NSString *) Z;
+- (NSData *)assetUUIDsAssetsMarkedRejectedByPhotosSuggesterFromLibraryScope;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key;
-@property(copy, nonatomic) NSString *value;
 @end
 

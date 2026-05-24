@@ -5,6 +5,7 @@
 //
 
 @protocol TLKGridFrame
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

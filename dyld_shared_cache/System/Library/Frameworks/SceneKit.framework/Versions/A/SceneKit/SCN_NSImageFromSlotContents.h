@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (Class);
 + (void)c;
-- (id);
+- (id)_areAllUserInviteInformationValid:(id)arg1;
 - (id)mesh elements does not match count of indexed mesh elements;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, SXHighlightController;
+@class SXHighlightController;
 
 @interface SXArticleSearchManager
 {
     _Bool _isFirstOccurrence;
-    SXHighlightController *_highlightController;
-    NSMutableArray *_highlights;
-    long long _activeIndex;
 }
 
 - (unsigned long long);
@@ -33,10 +30,7 @@
 - (void)8@16d24;
 
 // Remaining properties
-@property(nonatomic) long long activeIndex; // @synthesize activeIndex=_activeIndex;
 @property(retain, nonatomic) SXHighlightController *highlightController; // @synthesize highlightController=_highlightController;
-@property(retain, nonatomic) NSMutableArray *highlights; // @synthesize highlights=_highlights;
-@property(nonatomic) _Bool isFirstOccurrence; // @synthesize isFirstOccurrence=_isFirstOccurrence;
 
 @end
 

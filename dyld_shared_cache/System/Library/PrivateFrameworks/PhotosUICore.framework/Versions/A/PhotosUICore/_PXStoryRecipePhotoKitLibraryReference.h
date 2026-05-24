@@ -11,8 +11,8 @@
     PHPhotoLibrary *_photoLibrary;
 }
 
-- (id);
-- (id);
+- (id)ZԗR;
+- (id)setLastSlideUsed:(id)arg1;
 - (void);
 - (id)¡
 ·ô¸;

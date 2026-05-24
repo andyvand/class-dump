@@ -6,33 +6,20 @@
 
 #import <UIKitCore/UIMenuElement.h>
 
-@class BKSHIDEventDeferringEnvironment, NSArray, NSAttributedString, NSPointerArray, NSString, UIImage, UISPasteVariant, _UICommandIdentifier, _UIMenuLeafKeyboardShortcut;
-@protocol UIPopoverPresentationControllerSourceItem;
+@class NSArray, _UICommandIdentifier;
 
 @interface UICommand : UIMenuElement
 {
     NSArray *_alternates;
-    unsigned int _attributes:32;
-    unsigned int _state:32;
-    unsigned int _repeatBehavior:32;
-    _Bool __useSenderForResolvingTarget;
-    NSPointerArray *stateObservers;
-    id _sender;
-    UIImage *_selectedImage;
-    NSString *_discoverabilityTitle;
-    SEL _action;
-    id _propertyList;
-    SEL _fallbackAction;
-    id __target;
 }
 
-- (void);
+- (void)StartSendingMessage] Not notifying for suggested action response.;
 - (id);
 - (SEL);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)qc;
+- (void)Ú;
 - (void);
 - (id);
 - (void);
@@ -45,16 +32,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)scrollViewDidEndDragging:willDecelerate: /* Error: Ran out of types for this method. */;
+- (void)__dateFavorited_KEY;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (void);
 - (id);
@@ -71,16 +58,16 @@
 - (id)EùÑfð1Â0@ù
 × ;
 - (void)"8@?<@"UITraitCollection"@?>16@?<@"UITraitCollection<UIMutableTraitsInternal>"@?>24;
-- (long long)TextChoice: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (_Bool)sEmoji:(id)arg1;
-- (void)customInfoType:(id)arg1;
-- (id)ognizer: /* Error: Ran out of types for this method. */;
-- (long long)trix:darkCAColorMatrix:alpha: /* Error: Ran out of types for this method. */;
-- (void)esult:(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (id)arOffscreenFocusGuide;
-- (id)referredSizesDict:dataSourceSnapshot:update: /* Error: Ran out of types for this method. */;
-- (id)KeySymbol: /* Error: Ran out of types for this method. */;
+- (long long)setTextChoice: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setRtiSessionMarkers: /* Error: Ran out of types for this method. */;
+- (_Bool)emojiPopoverSummoned:(id)arg1 appendsEmoji: /* Error: Ran out of types for this method. */;
+- (void)candidateWithCandidate:(id)arg1 forInput:customInfoType: /* Error: Ran out of types for this method. */;
+- (id)canBePreventedByGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (long long)_vibrantEffectWithLightCAColorMatrix:darkCAColorMatrix:alpha: /* Error: Ran out of types for this method. */;
+- (void)_updateWithResult:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id)_tabBarOffscreenFocusGuide;
+- (id)_solveWithSectionLayouts:preferredSizesDict:dataSourceSnapshot:update: /* Error: Ran out of types for this method. */;
+- (id)_readableStringForInputUsingWords:forHUD:outIsSingleCharacterOrKeySymbol: /* Error: Ran out of types for this method. */;
 - (void)ationParallaxTransition",?,&,N;
 - (id)<f hÜj;
 - (void)4rtàtDu´upw;
@@ -96,39 +83,7 @@
 - (id)o;
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsGlobeKeyModifier:) _Bool _allowsGlobeKeyModifier;
-@property(nonatomic, setter=_setEnumerationPriority:) long long _enumerationPriority;
-@property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *_eventDeferringEnvironment;
 @property(readonly, nonatomic) _UICommandIdentifier *_identifier;
-@property(readonly, nonatomic) _UIMenuLeafKeyboardShortcut *_keyboardShortcut;
-@property(copy, nonatomic, setter=_setLeafAlternates:) NSArray *_leafAlternates;
-@property(readonly, nonatomic) UISPasteVariant *_pasteVariant;
-@property(readonly, nonatomic) id _target; // @synthesize _target=__target;
-@property(nonatomic) _Bool _useSenderForResolvingTarget; // @synthesize _useSenderForResolvingTarget=__useSenderForResolvingTarget;
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, nonatomic) NSArray *alternates;
-@property(copy, nonatomic) NSAttributedString *attributedTitle;
-@property(nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *discoverabilityTitle; // @synthesize discoverabilityTitle=_discoverabilityTitle;
-@property(readonly, nonatomic) SEL fallbackAction; // @synthesize fallbackAction=_fallbackAction;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIImage *image; // @dynamic image;
-@property(readonly, nonatomic) _Bool keepsMenuPresented;
-@property(readonly, nonatomic) id <UIPopoverPresentationControllerSourceItem> presentationSourceItem;
-@property(readonly, nonatomic) id propertyList; // @synthesize propertyList=_propertyList;
-@property(nonatomic) long long repeatBehavior;
-@property(copy, nonatomic) UIImage *selectedImage; // @synthesize selectedImage=_selectedImage;
-@property(readonly, nonatomic) id sender; // @synthesize sender=_sender;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic, getter=_getStateObservers, setter=_setStateObservers:) NSPointerArray *stateObservers; // @synthesize stateObservers;
-@property(copy, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

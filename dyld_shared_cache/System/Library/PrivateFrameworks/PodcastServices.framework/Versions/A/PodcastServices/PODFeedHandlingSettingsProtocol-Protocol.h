@@ -5,10 +5,9 @@
 //
 
 @protocol PODFeedHandlingSettingsProtocol
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long downloadAction;
-@property(readonly, nonatomic) long long limitRule;
-@property(readonly, nonatomic) long long removePlayedRule;
 @end
 

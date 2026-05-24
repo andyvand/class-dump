@@ -7,7 +7,6 @@
 @interface NewsFeed.PuzzleTypeManager
 {
     id appConfigurationManager;
-    id puzzleService;
 }
 
 @end

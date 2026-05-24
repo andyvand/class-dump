@@ -7,7 +7,6 @@
 @interface AppStoreKit.PlaybackScrollObserver
 {
     id playbackCoordinator;
-    id scrollObserverTokens;
 }
 
 @end

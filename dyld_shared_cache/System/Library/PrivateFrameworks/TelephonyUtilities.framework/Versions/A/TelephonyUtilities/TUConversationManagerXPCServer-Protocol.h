@@ -5,6 +5,19 @@
 //
 
 @protocol TUConversationManagerXPCServer
-- (oneway void)itToken;
+- (oneway void);
+- (oneway void)j;
+- (oneway void)8;
+- (oneway void);
+- (oneway void);
+- (oneway void)P;
+- (oneway void);
+- (oneway void);
+- (oneway void)~;
+- (oneway void)T;
+- (oneway void);
+- (oneway void)`
+;
+- (oneway void)auditToken;
 @end
 

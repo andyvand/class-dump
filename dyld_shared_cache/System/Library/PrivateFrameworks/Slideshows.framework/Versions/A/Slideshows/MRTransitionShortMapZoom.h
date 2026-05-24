@@ -11,21 +11,17 @@
 @interface MRTransitionShortMapZoom : MRTransition
 {
     MRImageProvider *mGradientProvider;
-    MRImageProvider *mPinProvider;
-    MRImageProvider *mYellowPinProvider;
-    MRImageProvider *mRedPinProvider;
-    MRImageProvider *mBoxShadowSmall;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)possiblyUnfetchedAppConfiguration;
+- (id)fc_shouldRetry;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)lelizer;
+- (void)_containerParallelizer;
 
 @end
 

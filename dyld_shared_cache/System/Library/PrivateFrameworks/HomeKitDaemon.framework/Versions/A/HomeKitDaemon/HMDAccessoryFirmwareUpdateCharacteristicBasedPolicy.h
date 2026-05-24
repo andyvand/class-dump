@@ -6,28 +6,24 @@
 
 #import <HomeKitDaemon/HMDAccessoryFirmwareUpdatePolicy.h>
 
-@class HMDCharacteristic, HMFTimer, NSString;
+@class HMFTimer, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateCharacteristicBasedPolicy : HMDAccessoryFirmwareUpdatePolicy
 {
     HMFTimer *_debounceTimer;
-    NSString *_serviceType;
-    NSString *_characteristicType;
-    CDUnknownBlockType _policyHandler;
-    unsigned long long _debounceDuration;
 }
 
 + (id)]ÿw6C;
 - (CDUnknownBlockType);
-- (id);
+- (id)ijh8);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)personWithGDIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -36,24 +32,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void)ntainer from device %@;
-- (void)_G;
+- (void)__G;
 - (void);
 - (id)Äsÿ£Ê¢C;
 
 // Remaining properties
-@property(readonly) HMDCharacteristic *characteristic;
-@property(readonly) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;
-@property(readonly) unsigned long long debounceDuration; // @synthesize debounceDuration=_debounceDuration;
-@property(retain, nonatomic) HMFTimer *debounceTimer; // @synthesize debounceTimer=_debounceTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CDUnknownBlockType policyHandler; // @synthesize policyHandler=_policyHandler;
 @property(readonly) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

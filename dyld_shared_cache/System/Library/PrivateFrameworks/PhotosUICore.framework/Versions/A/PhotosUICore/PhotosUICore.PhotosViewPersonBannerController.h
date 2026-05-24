@@ -7,12 +7,9 @@
 @interface PhotosUICore.PhotosViewPersonBannerController
 {
     id person;
-    id photosViewModel;
-    id photosViewModelObservation;
-    id currentSubBanner;
 }
 
-- (void);
+- (void)};
 
 @end
 

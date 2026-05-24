@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSMutableString, NSString;
-@protocol STPasscodeFieldDelegate;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface STPasscodeField
 {
     NSAttributedString *_bulletString;
-    id <STPasscodeFieldDelegate> _delegate;
-    unsigned long long _length;
-    NSMutableString *_mutablePasscode;
-    NSImage *_unfocusedDigitBackgroundImage;
-    double _bulletHeight;
 }
 
 - (id);
 - (id);
 - (double);
 - (void);
-- (id);
-- (double);
+- (id)i@9)2i;
+- (double)9;
 - (void);
+- (void)(=;
+- (void);
+- (void)V;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -42,31 +36,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)elementCommunityGroup;
 
 // Remaining properties
-@property(readonly) double bulletHeight; // @synthesize bulletHeight=_bulletHeight;
-@property(readonly) NSAttributedString *bulletString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <STPasscodeFieldDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) double digitWidth;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(readonly) NSMutableString *mutablePasscode; // @synthesize mutablePasscode=_mutablePasscode;
-@property(readonly, copy) NSString *passcode;
-@property(readonly) Class superclass;
-@property(readonly) NSImage *unfocusedDigitBackgroundImage; // @synthesize unfocusedDigitBackgroundImage=_unfocusedDigitBackgroundImage;
 
 @end
 

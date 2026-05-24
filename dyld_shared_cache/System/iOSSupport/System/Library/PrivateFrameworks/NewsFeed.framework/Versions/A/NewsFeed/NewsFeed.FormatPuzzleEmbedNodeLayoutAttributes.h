@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatPuzzleEmbedNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id style;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id contentFrameIdentifier;
-    id accessibilityRole;
-    id isResizable;
-    id location;
-    id reuseIdentifier;
-    id auxViewRequirements;
 }
 
 @end

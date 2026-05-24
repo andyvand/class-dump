@@ -6,15 +6,12 @@
 
 #import <IOGPU/IOGPUMTLLateEvalEvent.h>
 
-@class IOGPUMetalDevice, NSString;
+@class IOGPUMetalDevice;
 @protocol MTLDevice;
 
 @interface _IOGPUMetalMTLLateEvalEvent : IOGPUMTLLateEvalEvent
 {
     IOGPUMetalDevice<MTLDevice> *_device;
-    unsigned long long _labelTraceID;
-    NSString *_label;
-    struct os_unfair_lock_s _labelLock;
 }
 
 - (id);
@@ -24,20 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)s to expand:(id)arg1 [%lu];
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @dynamic label;
-@property unsigned long long signaledValue; // @dynamic signaledValue;
-@property(readonly) Class superclass;
 
 @end
 

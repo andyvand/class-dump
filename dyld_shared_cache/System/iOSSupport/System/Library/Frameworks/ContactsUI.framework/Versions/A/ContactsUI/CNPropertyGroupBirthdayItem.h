@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)all subs to not subscribed state;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface AKSignInWithAppleAccountShareInfo
 {
     _Bool _isCurrentUser;
-    NSString *_groupID;
-    NSString *_participantID;
-    NSString *_participantName;
-    NSString *_participantHandle;
-    NSString *_shareToken;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (void);
 - (void);
 - (_Bool);
@@ -31,18 +26,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)¸ä;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(nonatomic) _Bool isCurrentUser; // @synthesize isCurrentUser=_isCurrentUser;
 @property(copy, nonatomic) NSString *participantHandle; // @synthesize participantHandle=_participantHandle;
-@property(copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(readonly, copy, nonatomic) NSString *participantName; // @synthesize participantName=_participantName;
-@property(copy, nonatomic) NSString *shareToken; // @synthesize shareToken=_shareToken;
 
 @end
 

@@ -11,13 +11,10 @@
 @interface CoreDAVSyncReportTask : CoreDAVPropertyFindBaseTask
 {
     _Bool _moreToSync;
-    _Bool _wasInvalidSyncToken;
-    NSString *_nextSyncToken;
-    NSString *_previousSyncToken;
 }
 
 - (_Bool);
-- (id);
+- (id)alignmentRectForFrame: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -26,16 +23,13 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)EWSUpdateFolderResponseType;
+- (void)EWSCalendarItemUpdateOperationTypeDefinition;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool moreToSync; // @synthesize moreToSync=_moreToSync;
-@property(readonly, nonatomic) NSString *nextSyncToken; // @synthesize nextSyncToken=_nextSyncToken;
 @property(readonly, nonatomic) NSString *previousSyncToken; // @synthesize previousSyncToken=_previousSyncToken;
-@property(readonly, nonatomic) _Bool wasInvalidSyncToken; // @synthesize wasInvalidSyncToken=_wasInvalidSyncToken;
 
 @end
 

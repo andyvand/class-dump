@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPNowPlayingInfoAudioFormat, NSDictionary, NSString;
-
 @interface MPCPlayerAudioFormat
 {
     _Bool _spatialized;
-    _Bool _multiChannel;
-    unsigned int _codec;
-    unsigned int _channelLayout;
-    unsigned int _originChannelLayout;
-    long long _tier;
-    long long _bitrate;
-    long long _sampleRate;
-    long long _bitDepth;
-    long long _renderingMode;
-    NSString *_audioChannelLayoutDescription;
-    NSString *_groupID;
-    NSString *_stableVariantID;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)C;
 - (unsigned int);
 - (id);
+- (id)__TEXT;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)isEqual:(long long)arg1;
+- (id)userDefaultsDisabledDataclasses;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,36 +60,7 @@
 - (void)|%{public}@ %{public}@ %2i %{public}@  â sharedSessionID:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *audioChannelLayoutDescription; // @synthesize audioChannelLayoutDescription=_audioChannelLayoutDescription;
-@property(readonly, nonatomic) long long bitDepth; // @synthesize bitDepth=_bitDepth;
-@property(readonly, nonatomic) long long bitrate; // @synthesize bitrate=_bitrate;
-@property(readonly, nonatomic) unsigned int channelLayout; // @synthesize channelLayout=_channelLayout;
-@property(readonly, nonatomic) unsigned int codec; // @synthesize codec=_codec;
-@property(readonly, nonatomic) NSString *debugBitDepthDescription;
-@property(readonly, nonatomic) NSString *debugBitRateDescription;
-@property(readonly, nonatomic) NSString *debugChannelCountDescription;
-@property(readonly, nonatomic) NSString *debugChannelLayoutDescription;
-@property(readonly, nonatomic) NSString *debugCodecDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *debugSampleRateDescription;
-@property(readonly, nonatomic) NSString *debugTierDescription;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *humanDescription;
-@property(readonly, nonatomic, getter=isMultiChannel) _Bool multiChannel; // @synthesize multiChannel=_multiChannel;
-@property(readonly, nonatomic) MPNowPlayingInfoAudioFormat *nowPlayingAudioFormat;
-@property(nonatomic) unsigned int originChannelLayout; // @synthesize originChannelLayout=_originChannelLayout;
-@property(readonly, nonatomic) long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(readonly, nonatomic) long long sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(readonly, nonatomic, getter=isSpatialized) _Bool spatialized; // @synthesize spatialized=_spatialized;
-@property(readonly, copy, nonatomic) NSString *stableVariantID; // @synthesize stableVariantID=_stableVariantID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long tier; // @synthesize tier=_tier;
 
 @end
 

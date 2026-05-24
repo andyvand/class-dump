@@ -5,5 +5,9 @@
 //
 
 @protocol AXMDataSonifierPlaybackObserver
+
+@optional
+- (void)m;
+- (void);
 @end
 

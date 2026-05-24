@@ -7,15 +7,6 @@
 @interface BiomeSQLParser.PgQuery_FuncExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _funcid;
-    id _funcresulttype;
-    id _funcretset;
-    id _funcvariadic;
-    id _funcformat;
-    id _funccollid;
-    id _inputcollid;
-    id _args;
-    id _location;
 }
 
 @end

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface GRRSchemaGRRFeatureFlag : SISchemaInstrumentationMessage
 {
     NSString *_featureFlagKey;
-    _Bool _isEnabled;
-    struct {
-        unsigned int isEnabled:1;
-    } _has;
-    _Bool _hasFeatureFlagKey;
 }
 
 - (void);
@@ -31,20 +26,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)w;
+- (id)%d %@;
 - (id)";
-- (id)letePqaModelInferenceTimeInMs;
+- (id)deletePqaModelInferenceTimeInMs;
 - (id)r;
 - (void)ï&$;
 - (void)I±i&);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *featureFlagKey; // @synthesize featureFlagKey=_featureFlagKey;
-@property(nonatomic) _Bool hasFeatureFlagKey; // @synthesize hasFeatureFlagKey=_hasFeatureFlagKey;
-@property(nonatomic) _Bool hasIsEnabled;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

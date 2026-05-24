@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBPerson, _SFPBPhotosLibraryImage, _SFPBPunchout;
+@class NSData, _SFPBPerson, _SFPBPhotosLibraryImage;
 
 @protocol _SFPBShowPhotosOneUpViewCommand
+- (void);
+- (_SFPBPhotosLibraryImage *));
+- (_SFPBPerson *)R%;
+- (void);
+- (NSData *)Asset",C,N,V_keyAsset;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *matchedPeoples;
-@property(retain, nonatomic) _SFPBPerson *matchedPerson;
-@property(copy, nonatomic) NSArray *matchedScenes;
-@property(retain, nonatomic) _SFPBPunchout *photoFilePunchout;
 @property(retain, nonatomic) _SFPBPhotosLibraryImage *photosLibraryImage;
 @end
 

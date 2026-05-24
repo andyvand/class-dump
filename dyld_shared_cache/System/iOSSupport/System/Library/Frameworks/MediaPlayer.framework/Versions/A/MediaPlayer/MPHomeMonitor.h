@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPHomeMonitor
 {
     _Bool _soundCheckCachedValue;
@@ -17,21 +15,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)count;
+- (void)grant;
+- (void)escape;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isSoundCheckEnabled) _Bool soundCheckEnabled;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,10 @@
 @class NSArray;
 
 @protocol PKPackageSource
+- (NSArray *)IMCloudKitSyncControllerSyncRecordTypeRecoverableMessage;
+
+@optional
+- (NSArray *)syncStoreCounts;
 
 // Remaining properties
 @property(readonly) NSArray *allPackageReferences;

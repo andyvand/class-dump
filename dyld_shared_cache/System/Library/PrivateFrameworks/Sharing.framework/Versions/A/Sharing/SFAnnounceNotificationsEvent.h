@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SFAnnounceNotificationsEvent
 {
     _Bool _tappedInitialEnable;
-    _Bool _tappedCustomize;
-    _Bool _tappedNotNow;
-    _Bool _tappedDismissButton;
-    _Bool _customizedApps;
 }
 
 + (id);
@@ -24,25 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool customizedApps; // @synthesize customizedApps=_customizedApps;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *eventPayload;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tappedCustomize; // @synthesize tappedCustomize=_tappedCustomize;
-@property(nonatomic) _Bool tappedDismissButton; // @synthesize tappedDismissButton=_tappedDismissButton;
 @property(nonatomic) _Bool tappedInitialEnable; // @synthesize tappedInitialEnable=_tappedInitialEnable;
-@property(nonatomic) _Bool tappedNotNow; // @synthesize tappedNotNow=_tappedNotNow;
 
 @end
 

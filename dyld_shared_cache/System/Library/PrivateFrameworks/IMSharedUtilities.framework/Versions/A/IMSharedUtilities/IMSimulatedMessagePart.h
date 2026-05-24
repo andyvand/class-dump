@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;

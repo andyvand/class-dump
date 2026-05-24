@@ -6,14 +6,11 @@
 
 #import <SearchUI/SearchUIButtonItemGenerator.h>
 
-@class CNContactQuickActionsController, NSMutableDictionary, NSString, SFButtonItem;
+@class CNContactQuickActionsController;
 
 @interface SearchUIContactButtonItemGenerator : SearchUIButtonItemGenerator
 {
     CNContactQuickActionsController *_quickActionsController;
-    CDUnknownBlockType _completionHandler;
-    NSMutableDictionary *_quickActionViews;
-    SFButtonItem *_sfButtonItem;
 }
 
 + (id);
@@ -22,7 +19,7 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -31,24 +28,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)into JSON. Please file a radar against SearchAds Framework.
+%@ (%@);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *quickActionViews; // @synthesize quickActionViews=_quickActionViews;
 @property(retain) CNContactQuickActionsController *quickActionsController; // @synthesize quickActionsController=_quickActionsController;
-@property(retain) SFButtonItem *sfButtonItem; // @synthesize sfButtonItem=_sfButtonItem;
-@property(readonly) Class superclass;
 
 @end
 

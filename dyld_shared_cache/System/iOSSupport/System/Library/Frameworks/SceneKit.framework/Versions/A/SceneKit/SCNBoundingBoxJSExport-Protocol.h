@@ -5,11 +5,10 @@
 //
 
 @protocol SCNBoundingBoxJSExport
-- (struct SCNVector3)hingComputePipelineStateForSourceColorSpace:destinationColorSpace:renderContext: /* Error: Ran out of types for this method. */;
-- (struct SCNVector3)uteContext;
+- (struct SCNVector3)colorMatchingComputePipelineStateForSourceColorSpace:destinationColorSpace:renderContext: /* Error: Ran out of types for this method. */;
+- (struct SCNVector3)SCNGeometryDeformerInitComputeContext;
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 max;
 @property(nonatomic) struct SCNVector3 min;
 @end
 

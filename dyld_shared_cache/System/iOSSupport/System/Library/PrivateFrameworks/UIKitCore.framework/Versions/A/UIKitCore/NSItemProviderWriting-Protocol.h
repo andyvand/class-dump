@@ -7,12 +7,12 @@
 @class NSArray;
 
 @protocol NSItemProviderWriting
-+ (NSArray *)ryiPadLandscapePasscode;
++ (NSArray *)UIKBRenderFactoryiPadLandscapePasscode;
 
 @optional
-+ (long long)WithHostedWindow;
-- (long long)usDeferral;
-- (NSArray *)oardCameraSession;
++ (long long)finishWithHostedWindow;
+- (long long)focusDeferral;
+- (NSArray *)UIKeyboardCameraSession;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

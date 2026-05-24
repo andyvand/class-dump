@@ -7,15 +7,6 @@
 @interface PromotedContentUI.AppStoreRequestTask
 {
     id identifier;
-    id toroId;
-    id _clientRequestId;
-    id session;
-    id context;
-    id placement;
-    id delegate;
-    id completion;
-    id cancelled;
-    id start;
 }
 
 @end

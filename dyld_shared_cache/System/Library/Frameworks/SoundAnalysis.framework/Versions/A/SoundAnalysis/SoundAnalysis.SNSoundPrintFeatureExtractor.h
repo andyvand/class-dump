@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SNSoundPrintFeatureExtractor
 {
     id graphStorage;
-    id currentSystemConfig;
-    id configuration;
 }
 
 @end

@@ -7,7 +7,6 @@
 @interface PhotosUICore.NotificationsTestItemListManager
 {
     id managerID;
-    id underlyingItemListManager;
 }
 
 @end

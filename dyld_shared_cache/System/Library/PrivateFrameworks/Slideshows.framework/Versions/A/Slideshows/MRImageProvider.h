@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAssetPlayer, MRImage, MRLayerEffect, NSDictionary, NSInvocationOperation, NSLock, NSString;
+@class NSString;
 
 @interface MRImageProvider
 {
     NSString *mAssetPath;
-    struct CGSize mDefaultSize;
-    NSString *mImageSizeScript;
-    NSDictionary *mEffectAttributes;
-    NSInvocationOperation *mPreloadOperation;
-    NSLock *mPreloadOperationLock;
-    MRImage *mOriginalImage;
-    struct CGSize mOriginalImageSize;
-    _Bool mIsLoaded;
-    struct CGSize mRequestedSize;
-    double mShowTime;
-    double mShowDuration;
-    struct CGSize mImageSize;
-    struct CGSize mLastImageSize;
-    MRAssetPlayer *mSlidePlayer;
-    unsigned int mFlags;
-    _Bool mIsCleanedUp;
-    _Bool mJustHoldIt;
-    MRLayerEffect *_effectLayer;
 }
 
 - (_Bool);
@@ -40,28 +22,28 @@
 - (void);
 - (void);
 - (void);
+- (id)setSchedulingAndForegroundUploadThrottler:(double)arg1;
+- (void)configProvider;
+- (_Bool)>",&,N,V_schedulingAndForegroundUploadThrottler;
+- (id)cedCounter",&,N,V_backgroundSessionLaunchEventCounter;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (struct CGSize)yticsEnvelopeStoreEntry>"8;
+- (void)LugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeStoreEntry.m;
+- (_Bool)it];
+- (id)or"24;
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id));
 - (double);
 - (void);
 - (struct CGSize);
@@ -92,32 +74,7 @@
 				;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetPath; // @synthesize assetPath=mAssetPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) struct CGSize defaultSize; // @synthesize defaultSize=mDefaultSize;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *effectAttributes; // @synthesize effectAttributes=mEffectAttributes;
-@property MRLayerEffect *effectLayer; // @synthesize effectLayer=_effectLayer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double imageAspectRatio;
-@property(copy, nonatomic) NSString *imageSizeScript; // @synthesize imageSizeScript=mImageSizeScript;
-@property(readonly, nonatomic) _Bool isAlphaFriendly;
-@property(readonly, nonatomic) _Bool isInfinite;
-@property(readonly, nonatomic) _Bool isLoaded;
-@property(readonly, nonatomic) _Bool isNative3D;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(nonatomic) _Bool justHoldIt; // @synthesize justHoldIt=mJustHoldIt;
-@property(nonatomic) struct CGSize originalImageSize; // @synthesize originalImageSize=mOriginalImageSize;
-@property(readonly, nonatomic) struct CGSize requestedSize; // @synthesize requestedSize=mRequestedSize;
-@property(nonatomic) double showDuration; // @synthesize showDuration=mShowDuration;
-@property(nonatomic) double showTime; // @synthesize showTime=mShowTime;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsMipmap;
-@property(nonatomic) _Bool wantsMonochromatic;
-@property(nonatomic) _Bool wantsPowerOfTwo;
 
 @end
 

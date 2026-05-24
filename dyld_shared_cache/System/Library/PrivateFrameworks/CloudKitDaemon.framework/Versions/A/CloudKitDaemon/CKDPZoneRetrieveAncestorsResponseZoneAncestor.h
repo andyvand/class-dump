@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecord, CKDPZoneRetrieveResponseZoneSummary;
+@class CKDPRecord;
 
 @interface CKDPZoneRetrieveAncestorsResponseZoneAncestor
 {
     CKDPRecord *_shareRecord;
-    CKDPZoneRetrieveResponseZoneSummary *_zoneSummary;
 }
 
 - (id);
@@ -19,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)interruptibleStreamWrapper_beginInterruptionInternal;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -30,10 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasShareRecord;
 @property(readonly, nonatomic) _Bool hasZoneSummary;
-@property(retain, nonatomic) CKDPRecord *shareRecord; // @synthesize shareRecord=_shareRecord;
-@property(retain, nonatomic) CKDPZoneRetrieveResponseZoneSummary *zoneSummary; // @synthesize zoneSummary=_zoneSummary;
 
 @end
 

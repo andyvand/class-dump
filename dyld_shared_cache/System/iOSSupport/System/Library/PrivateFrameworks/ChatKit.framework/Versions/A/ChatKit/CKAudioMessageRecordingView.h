@@ -4,52 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKGlassSendButton, IMService, NSArray, UIButton, UIView;
 @protocol CKAudioMessageRecordingViewDelegate;
 
 @interface CKAudioMessageRecordingView
 {
     id minimumWaveformWidth;
-    id stateChangeAnimationDuration;
-    id stateChangeSpringDamping;
-    void delegate;
-    long long state;
-    double cornerRadius;
-    _Bool isStopButtonHighlighted;
-    double playbackDuration;
-    double playbackCurrentTime;
-    id lastIntensityTime;
-    id recordingStartTime;
-    id isScrubbing;
-    id scrubStartLocation;
-    id scrubStartTime;
-    id scrubOffset;
-    id scrubScale;
-    UIView *backgroundView;
-    IMService *service;
-    id durationAppendButton;
-    UIButton *stopButton;
-    id playButton;
-    CKGlassSendButton *sendButton;
-    id waveformView;
-    id displayLink;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void)lOyADyAN_AOyADyAQ_ARA3_tGGtGGAKtGGA6_GG;
+- (void)S99ySbG;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)t;
 - (double);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)a shared note to see activity here.;
+- (id)d;
+- (id)ndex from paperDidChange;
 - (void);
 - (void);
 - (void);
@@ -67,27 +43,17 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (double)op]tGG¿@]Gñ]]yÛn]GG45]y>E]GG;
 - (id)ingSecurityScopedResource:%@ /* Error: Ran out of types for this method. */;
-- (void)xt;
-- (void)kerReactionLayoutHelper;
+- (void)canEditMessageText;
+- (void)StickerReactionLayoutHelper;
 - (void)>;
 
 // Remaining properties
-@property(nonatomic, readonly) UIView *backgroundView; // @synthesize backgroundView;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius;
 @property(nonatomic) __weak id <CKAudioMessageRecordingViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) NSArray *intensities;
-@property(nonatomic) _Bool isStopButtonHighlighted; // @synthesize isStopButtonHighlighted;
-@property(nonatomic) double playbackCurrentTime; // @synthesize playbackCurrentTime;
-@property(nonatomic) double playbackDuration; // @synthesize playbackDuration;
-@property(nonatomic, retain) CKGlassSendButton *sendButton; // @synthesize sendButton;
-@property(nonatomic, retain) IMService *service; // @synthesize service;
-@property(nonatomic) long long state; // @synthesize state;
-@property(nonatomic, readonly) UIButton *stopButton; // @synthesize stopButton;
 
 @end
 

@@ -13,13 +13,12 @@
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDate *lower;
-@property(nonatomic, readonly) NSDate *upper;
 
 @end
 

@@ -9,40 +9,28 @@
 @interface CalDAVResourceTypeItem
 {
     CoreDAVItemWithNoChildren *_calendar;
-    CoreDAVItemWithNoChildren *_scheduleInbox;
-    CoreDAVItemWithNoChildren *_scheduleOutbox;
-    CoreDAVItemWithNoChildren *_notification;
-    CoreDAVItemWithNoChildren *_subscribed;
-    CoreDAVItemWithNoChildren *_sharedOwner;
-    CoreDAVItemWithNoChildren *_isFamilyCalendar;
 }
 
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)drain_depth_p_0_25_at_charge_start_soc_curr_dynamic_bin_12;
+- (id);
+- (id);
+- (void)SFormattedUID"b1"shouldCancelDeletedEvents"b1"shouldDeclineDeletedInvitations"b1"supportsStructuredLocations"b1"supportsReminderActions"b1"supportsReminderLocations"b1"supportsAlarmProximity"b1"allowsCalendarAddDeleteModify"b1"allowsTasks"b1"allowsEvents"b1"supportsURLField"b1"supportsAllDayDueDates"b1"supportsSharedCalendars"b1"isFacebook"b1"recurrenceSeriesMustIncludeMoreThanFirstOccurrence"b1"supportsPrivateEvents"b1"prohibitsPrivateEventsWithAttendees"b1"supportsAvailabilityRequests"b1"supportsIgnoringEventsInAvailabilityRequests"b1"supportsLocationDirectorySearches"b1"requiresSamePrivacyLevelAcrossRecurrenceSeries"b1"supportsInboxAvailability"b1"prohibitsMultipleMonthsInYearlyRecurrence"b1"prohibitsMultipleDaysInMonthlyRecurrence"b1"prohibitsYearlyRecurrenceInterval"b1"requiresOccurrencesConformToRecurrenceRule"b1"prohibitsDetachmentOnCommentChange"b1"allowsProposeNewTime"b1"prohibitsICSImport"b1"supportsAutoGeocodingStructuredLocations"b1"supportsJunkReporting"b1"supportsPhoneNumbers"b1"attendeesUseDeletedByOrganizerStatus"b1"prohibitsSlicingEventsWithAttendees"b1"supportsSubscribedCalendars"b1"supportsAttachments"b1"supportsDelegation"b1"supportsDelegateEnumeration"b1"supportsFloatingTimeZone"b1"prohibitsUsingEventOrganizerEmailWhenComposingMail"b1"supportsRecurrenceSplit"b1"requiresOpeningAttachmentAsLink"b1"shouldUseDeleteAndAddInsteadOfMoveBetweenCalendars"b1"supportsInvitationModificationsWithoutNotification"b1"supportsManagedSubscribedCalendars"b1"supportsSubscriptionMirroring"b1"supportsParticipantRoles"b1"supportsPush"b1"supportsTravelTime"b1"requiresSeparateFilesForAllAttachments"b1"occurrenceOrderEnforcedAfterDetachment"b1"allowsPrivateEventAccessByDelegate"b1"supportsClearingPrivateComments"b1"supportsDefaultAlarms"b1};
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)cond:timeZone: /* Error: Ran out of types for this method. */;
+- (id)initWithYear:month:day:hour:minute:second:timeZone: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *calendar; // @synthesize calendar=_calendar;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *isFamilyCalendar; // @synthesize isFamilyCalendar=_isFamilyCalendar;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *notification; // @synthesize notification=_notification;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *scheduleInbox; // @synthesize scheduleInbox=_scheduleInbox;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *scheduleOutbox; // @synthesize scheduleOutbox=_scheduleOutbox;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *sharedOwner; // @synthesize sharedOwner=_sharedOwner;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *subscribed; // @synthesize subscribed=_subscribed;
 
 @end
 

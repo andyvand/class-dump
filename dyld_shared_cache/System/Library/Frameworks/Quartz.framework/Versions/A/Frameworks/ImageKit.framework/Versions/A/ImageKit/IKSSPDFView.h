@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKTransitionAnimation, NSString;
+@class IKTransitionAnimation;
 
 __attribute__((visibility("hidden")))
 @interface IKSSPDFView
 {
     IKTransitionAnimation *_animation;
-    double _autoZoomFactor;
-    double _actualSizeZoomFactor;
 }
 
 - (void);
@@ -21,26 +19,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_initWithUser:(id)arg1 screenTimeState:passcode:contactManagementState:userHasContacts: /* Error: Ran out of types for this method. */;
+- (void)_computeStartBoundaries:(id)arg1 endBoundaries:forCreationDate:calendar: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool)AiÐ!tGùñíð1Â0@ù
 × ;
-- (void)rientation:(id)arg1 transitionTime:index: /* Error: Ran out of types for this method. */;
+- (void)setImage:(id)arg1 rect:orientation:transitionTime:index: /* Error: Ran out of types for this method. */;
 - (void)debug;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

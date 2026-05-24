@@ -9,7 +9,6 @@
 @interface CKDPStreamingAssetFooter
 {
     NSData *_md5;
-    int _status;
 }
 
 - (id);
@@ -18,19 +17,18 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setConnectionToModelSecurityService: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (int);
+- (int)sJ;
 - (id);
 - (id);
 - (int)tH¡£<©ôªð«­4¯Ä°P²è³L·0¸¨º¬¼p½¿;
 - (void)4HK;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *md5; // @synthesize md5=_md5;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

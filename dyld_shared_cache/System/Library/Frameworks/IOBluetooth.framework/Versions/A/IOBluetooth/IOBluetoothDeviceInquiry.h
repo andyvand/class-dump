@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-
 @interface IOBluetoothDeviceInquiry
 {
     void *_nameRequestHintType;
-    struct IOBluetoothDeviceSearchAttributes *_searchAttributes;
-    void *_deviceAttributes;
-    id _mReserved;
-    id _mUnused000;
-    id _mUnused001;
-    id _mUnused002;
-    unsigned int _serviceClassMajor;
-    unsigned int _deviceClassMajor;
-    unsigned int _deviceClassMinor;
-    unsigned char _inquiryLength;
-    unsigned char _inquiryMaxItems;
-    NSMutableArray *_deviceResults;
-    NSMutableArray *_devicesPendingNames;
-    unsigned char _currentActivity;
-    _Bool _remoteNameRequestInProgress;
-    _Bool _infSearch;
-    _Bool _sendDuplicates;
-    _Bool _aborted;
-    _Bool _updateNewDeviceNames;
-    id _delegate;
 }
 
 + (id);
@@ -47,7 +25,7 @@
 - (id);
 - (struct IOBluetoothDeviceSearchAttributes *);
 - (_Bool);
-- (int);
+- (int))8';
 - (void);
 - (void);
 - (void);
@@ -57,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6{;
 - (oneway void);
 - (void);
 - (int);
@@ -65,38 +43,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned int);
-- (int);
+- (int)6;
 - (id);
 - (BOOL);
 - (void);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned char inquiryLength; // @synthesize inquiryLength=_inquiryLength;
-@property unsigned char inquiryMaxResults; // @synthesize inquiryMaxResults=_inquiryMaxItems;
-@property(nonatomic) _Bool returnDuplicates; // @synthesize returnDuplicates=_sendDuplicates;
-@property BOOL rssiThreshold;
-@property unsigned int searchType;
-@property(copy) NSArray *searchUUIDs;
 @property(nonatomic) _Bool searchesUntilCancelled; // @synthesize searchesUntilCancelled=_infSearch;
-@property(readonly) Class superclass;
-@property _Bool updateNewDeviceNames; // @synthesize updateNewDeviceNames=_updateNewDeviceNames;
 
 @end
 

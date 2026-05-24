@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchHomeBlueprintViewCellProvider
 {
     id delegate;
-    id recentSearchRenderer;
 }
 
 @end

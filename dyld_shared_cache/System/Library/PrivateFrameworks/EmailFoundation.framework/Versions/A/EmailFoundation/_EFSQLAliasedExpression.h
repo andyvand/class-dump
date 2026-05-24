@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EFSQLValueExpressable;
 
 @interface _EFSQLAliasedExpression
 {
     id <EFSQLValueExpressable> _expression;
-    NSString *_alias;
 }
 
+- (id)(;
+- (id)incrementHAPBTLEMetricsConnectionCount;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)aracterSet;
+- (void);
+- (void)ef_defaultAllowedCharacterSet;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *alias; // @synthesize alias=_alias;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
 @property(readonly, nonatomic) id <EFSQLValueExpressable> expression; // @synthesize expression=_expression;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,14 +11,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)kCLSClassificationInformantKey;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long mode;

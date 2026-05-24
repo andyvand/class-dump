@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 
 // Remaining properties
 @property(nonatomic) __weak id <ScreenSaverRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

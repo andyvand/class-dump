@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMReminderCompletionButton
 {
     id preferredSymbolConfiguration;
-    id scale;
-    id icon;
-    id prefersFadedAppearance;
-    id needsUpdateIcon;
 }
 
 - (id);

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, EFPromise, EMSearchableIndexQueryExpression, EMSearchableIndexUserQuery, MFMessageCriterion, NSMutableDictionary, NSString;
-@protocol MFMessageConsumer, MFSearchableIndexQueryResultProcessor;
+@class EMSearchableIndexUserQuery;
 
 @interface MFSearchableIndexQueryResultCollector
 {
     _Bool _live;
-    unsigned int _options;
-    MFMessageCriterion *_criterion;
-    id <MFMessageConsumer> _target;
-    NSString *_logIdentifier;
-    NSString *_bundleID;
-    NSString *_sessionID;
-    NSString *_queryID;
-    EMSearchableIndexUserQuery *_query;
-    EMSearchableIndexQueryExpression *_expression;
-    id <MFSearchableIndexQueryResultProcessor> _processor;
-    EMSearchableIndexQueryExpression *_originalExpression;
-    CDUnknownBlockType _recoveryBlock;
-    EFPromise *_gatheredPromise;
-    NSMutableDictionary *_attachmentIDToMessageID;
 }
 
 + (id);
@@ -39,7 +24,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (id);
@@ -57,7 +42,7 @@
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id),MUIWebDocumentDisplayControllerDelegate.prototype.setupLeadingMargin=function(){MUIWebDocumentDisplayController_sharedInstance.loadContext.isSingleton?document.body.classList.add("Singleton"):document.body.classList.remove("Singleton")},MUIWebDocumentDisplayControllerDelegate.prototype.initializeEdgeToEdgeMediaStyle=function(){var e=function(){MUIWebDocumentDisplayControllerDelegate_sharedInstance.updateEdgeToEdgeMediaStyleForMediaElement(this)};Array.prototype.slice.call(document.body.querySelectorAll("img.Apple-web-attachment")).forEach(function(t){t.onload=e});var t=function(){MUIWebDocumentDisplayControllerDelegate_sharedInstance.updateEdgeToEdgeMediaStyleForMediaElement(this)};Array.prototype.slice.call(document.body.querySelectorAll("video.Apple-web-attachment")).forEach(function(e){e.onloadeddata=t})},MUIWebDocumentDisplayControllerDelegate.prototype.updateEdgeToEdgeMediaStyles=function(){Array.prototype.slice.call(document.body.querySelectorAll("img.Apple-web-attachment, video.Apple-web-attachment")).forEach(function(e){MUIWebDocumentDisplayControllerDelegate_sharedInstance.updateEdgeToEdgeMediaStyleForMediaElement(e)})},MUIWebDocumentDisplayControllerDelegate.prototype.updateEdgeToEdgeMediaStyleForMediaElement=function(e){if(!e.classList.contains("lp-rich-link-mediaImage")){var t,n=document.body.getBoundingClientRect().width,o=document.body.clientWidth;if("IMG"===e.nodeName.toUpperCase()){var a=e.getAttribute("width");t=a||e.naturalWidth}else t=e.videoWidth;t>n?(e.classList.add("Apple-edge-to-edge-visual-media"),t>o?e.style.removeProperty("margin"):e.style.margin="0 "+(o-n-(o-t))/-2+"px"):(e.classList.remove("Apple-edge-to-edge-visual-media"),e.style.removeProperty("margin")),document.body.classList.contains("Singleton")?e.classList.add("Singleton"):e.classList.remove("Singleton")}},MUIWebDocumentDisplayControllerDelegate.prototype.prepareContentForWebDocument=function(){if(!this.expandedAbbreviatorIndexes){this.expandedAbbreviatorIndexes=[];for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].isAbbreviated||this.expandedAbbreviatorIndexes.push(e);this.expandAllRedundantContent()}},MUIWebDocumentDisplayControllerDelegate.prototype.prepareContentForDisplay=function(){if(this.expandedAbbreviatorIndexes){for(var e=0;e<this.redundantContentAbbreviators.length;e++)-1===this.expandedAbbreviatorIndexes.indexOf(e)&&this.redundantContentAbbreviators[e].abbreviate();this.expandedAbbreviatorIndexes=null}},MUIWebDocumentDisplayControllerDelegate.prototype.expandAllRedundantContent=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].expand()},MUIWebDocumentDisplayControllerDelegate.prototype.expandRedundantContentAbbreviatorAtIndex=function(e){this.redundantContentAbbreviators[e].expand()},MUIWebDocumentDisplayControllerDelegate.prototype.collapseAllRedundantContent=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].abbreviate()},MUIWebDocumentDisplayControllerDelegate.prototype.showRedundantContentLinks=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].showLink()},MUIWebDocumentDisplayControllerDelegate.prototype.hideRedundantContentLinks=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].hideLink()},MUIWebDocumentDisplayControllerDelegate.prototype.printingDataCollapsingRedundantContent=function(e,t){e?this.collapseAllRedundantContent():this.expandAllRedundantContent(),document.documentElement.style.zoom=t;var n=document.documentElement.cloneNode(!0),o=n.getElementsByTagName("head"),a=document.createElement("style");if(a.type="text/css",a.textContent="@[EFFECTIVE_USER_STYLE]",o.length){var l=(o=o[0]).firstChild;l?o.insertBefore(a,l):o.appendChild(a)}else{o=document.createElement("head");var r=document.body;r?n.insertBefore(o,r):n.appendChild(o),o.appendChild(a)}var i={scrollHeight:document.body.scrollHeight,scrollWidth:document.body.scrollWidth,displayHTML:n.outerHTML};return JSON.stringify(i)},MUIWebDocumentDisplayControllerDelegate.prototype.verticalFoldPositionForRedundantContentAbbreviatorAtIndex=function(e){return this.redundantContentAbbreviators[e].verticalFoldPosition()};var MUIWebDocumentDisplayControllerDelegate_sharedInstance=new MUIWebDocumentDisplayControllerDelegate; /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -72,30 +57,7 @@
 - (_Bool)flagged;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *attachmentIDToMessageID; // @synthesize attachmentIDToMessageID=_attachmentIDToMessageID;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(retain, nonatomic) MFMessageCriterion *criterion; // @synthesize criterion=_criterion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EMSearchableIndexQueryExpression *expression; // @synthesize expression=_expression;
-@property(readonly, nonatomic) EFFuture *gatheredFuture;
-@property(retain, nonatomic) EFPromise *gatheredPromise; // @synthesize gatheredPromise=_gatheredPromise;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool live; // @synthesize live=_live;
-@property(copy, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(nonatomic) unsigned int options; // @synthesize options=_options;
-@property(retain, nonatomic) EMSearchableIndexQueryExpression *originalExpression; // @synthesize originalExpression=_originalExpression;
-@property(retain, nonatomic) id <MFSearchableIndexQueryResultProcessor> processor; // @synthesize processor=_processor;
 @property(retain, nonatomic) EMSearchableIndexUserQuery *query; // @synthesize query=_query;
-@property(copy, nonatomic) NSString *queryID; // @synthesize queryID=_queryID;
-@property(copy, nonatomic) CDUnknownBlockType recoveryBlock; // @synthesize recoveryBlock=_recoveryBlock;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <MFMessageConsumer> target; // @synthesize target=_target;
 
 @end
 

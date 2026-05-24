@@ -6,20 +6,10 @@
 
 #import <GeoServices/GEOMapRequest.h>
 
-@class GEOMapAccess, GEOMapTileFinder;
-
 __attribute__((visibility("hidden")))
 @interface GEOMapEdgeBuilder : GEOMapRequest
 {
     _Bool _buildAhead;
-    _Bool _buildBehind;
-    Matrix_8746f91e _firstTilePoint;
-    Matrix_8746f91e _lastTilePoint;
-    GEOMapTileFinder *_currentTileFinder;
-    CDUnknownBlockType _edgeHandler;
-    struct unordered_set<_GEOTileKey, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, std::allocator<_GEOTileKey>> _tileKeysSeen;
-    _Bool _searchDirection;
-    unsigned long long _buildDirection;
 }
 
 - (void);
@@ -27,33 +17,31 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (Matrix_8746f91e);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (Matrix_8746f91e);
+- (id)secTask:(id)arg1 hasBooleanEntitlement:(CDStruct_c3b9c2ee)arg2 error:(double)arg3;
+- (_Bool)resourceLock_willSetObject:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)resourceLock_willAccessKey: /* Error: Ran out of types for this method. */;
+- (_Bool)pendingBlockCount;
+- (unsigned long long)observeOn: /* Error: Ran out of types for this method. */;
+- (id)objectAtIndexedSubscript: /* Error: Ran out of types for this method. */;
+- (id)isGreenTeaDevice;
+- (Matrix_ce64fbd0)isFullAccessGranted;
+- (void)isCommLimitsEnabled;
+- (_Bool)isClientTCCCoupledProcess;
+- (_Bool)isClientTCCAllowedCachedValue;
+- (_Bool)isClientTCCAllowed;
+- (_Bool)isClientFirstOrSecondPartyImpl;
+- (_Bool)insertObjects:(const void *)arg1 atIndexes:(const void *)arg2;
+- (void)initWithAdapter: /* Error: Ran out of types for this method. */;
+- (void)_cn_map:(CDUnknownBlockType)arg1;
+- (_Bool)mostRecentEvent;
+- (Matrix_ce64fbd0);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long buildDirection; // @synthesize buildDirection=_buildDirection;
 @property(copy, nonatomic) CDUnknownBlockType edgeHandler; // @synthesize edgeHandler=_edgeHandler;
-@property(readonly, nonatomic) GEOMapAccess *map;
 
 @end
 

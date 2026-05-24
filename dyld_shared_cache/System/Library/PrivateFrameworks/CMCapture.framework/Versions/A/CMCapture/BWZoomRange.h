@@ -7,10 +7,6 @@
 @interface BWZoomRange
 {
     float _lowerBound;
-    float _upperBound;
-    float _fudgedLowerBound;
-    float _fudgedUpperBound;
-    unsigned long long _hash;
 }
 
 + (id);
@@ -25,14 +21,11 @@
 - (id);
 - (unsigned long long);
 - (float);
-- (_Bool);
+- (_Bool)A;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float fudgedLowerBound; // @synthesize fudgedLowerBound=_fudgedLowerBound;
-@property(readonly, nonatomic) float fudgedUpperBound; // @synthesize fudgedUpperBound=_fudgedUpperBound;
 @property(readonly, nonatomic) float lowerBound; // @synthesize lowerBound=_lowerBound;
-@property(readonly, nonatomic) float upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

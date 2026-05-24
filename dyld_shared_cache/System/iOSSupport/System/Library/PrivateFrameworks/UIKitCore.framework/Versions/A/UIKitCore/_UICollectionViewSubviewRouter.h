@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, UIView;
+@class NSMutableArray, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewSubviewRouter
 {
     NSMutableArray *_bookmarks;
-    NSMapTable *_subviewToBookmarkMap;
-    UIView *_managedUpdateView;
-    _Bool _useLegacyRouting;
-    UIView *_container;
 }
 
 - (_Bool);
@@ -22,18 +18,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)Protocol>"24@0:(_Bool)arg1 8@"IMDService"16;
+- (void)tocol>",R,N;
+- (void)Core30ClientConnectionRouteProvidingP;
+- (void)So30IMDScheduledMessageCoordinatorCXDXMT;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)one of the guids we requested. IMItem we got back was:(id)arg1 %@, IMDMessageRecordRef guid we got was:(long long)arg2 %@, requested guids was:(id)arg3 %@;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id)£;
-- (id)tributeState;
+- (id)NUITextFormattingViewControllerFormattingDescriptorAttributeState;
 - (void)];
 - (void)$ÿT=H;
 

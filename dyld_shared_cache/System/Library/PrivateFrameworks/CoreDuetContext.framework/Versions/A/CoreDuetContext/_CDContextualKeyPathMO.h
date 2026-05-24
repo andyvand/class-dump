@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface _CDContextualKeyPathMO
 {
@@ -15,13 +15,7 @@
 + (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSString *deviceIDString; // @dynamic deviceIDString;
-@property(nonatomic) _Bool isEphemeral; // @dynamic isEphemeral;
-@property(nonatomic) _Bool isUserCentric; // @dynamic isUserCentric;
 @property(retain, nonatomic) NSString *key; // @dynamic key;
-@property(retain, nonatomic) NSDate *lastModifiedDate; // @dynamic lastModifiedDate;
-@property(retain, nonatomic) NSData *value; // @dynamic value;
 
 @end
 

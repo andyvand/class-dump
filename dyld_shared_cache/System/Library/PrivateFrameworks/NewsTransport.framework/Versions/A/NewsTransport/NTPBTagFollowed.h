@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBTagFollowed
 {
     int _tagFollowMode;
-    NSString *_tagId;
-    _Bool _aLaCarteSubscribed;
-    struct {
-        unsigned int tagFollowMode:1;
-        unsigned int aLaCarteSubscribed:1;
-    } _has;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool aLaCarteSubscribed; // @synthesize aLaCarteSubscribed=_aLaCarteSubscribed;
-@property(nonatomic) _Bool hasALaCarteSubscribed;
-@property(nonatomic) _Bool hasTagFollowMode;
 @property(readonly, nonatomic) _Bool hasTagId;
-@property(nonatomic) int tagFollowMode; // @synthesize tagFollowMode=_tagFollowMode;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 @end
 

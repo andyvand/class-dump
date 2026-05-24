@@ -7,8 +7,6 @@
 @interface Vision.ExecutionPlan
 {
     id context;
-    id dependencies;
-    id operations;
 }
 
 @end

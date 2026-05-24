@@ -4,61 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPBTransitArtwork, GEORestrictionInfo, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORouteIncident
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_artwork;
-    NSString *_crossStreet;
-    long long _endTime;
-    NSString *_incidentId;
-    NSString *_info;
-    GEOLatLng *_position;
-    GEORestrictionInfo *_restrictionInfo;
-    long long _startTime;
-    NSString *_street;
-    long long _updateTime;
-    NSMutableArray *_userReportIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _delaySeconds;
-    unsigned int _laneClosureCount;
-    int _laneClosureType;
-    int _significance;
-    int _type;
-    unsigned int _userReportsCount;
-    _Bool _endTimeReliable;
-    _Bool _shouldDisplayOnMap;
-    struct {
-        unsigned int has_endTime:1;
-        unsigned int has_startTime:1;
-        unsigned int has_updateTime:1;
-        unsigned int has_delaySeconds:1;
-        unsigned int has_laneClosureCount:1;
-        unsigned int has_laneClosureType:1;
-        unsigned int has_significance:1;
-        unsigned int has_type:1;
-        unsigned int has_userReportsCount:1;
-        unsigned int has_endTimeReliable:1;
-        unsigned int has_shouldDisplayOnMap:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_artwork:1;
-        unsigned int read_crossStreet:1;
-        unsigned int read_incidentId:1;
-        unsigned int read_info:1;
-        unsigned int read_position:1;
-        unsigned int read_restrictionInfo:1;
-        unsigned int read_street:1;
-        unsigned int read_userReportIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)abled:(id)arg1;
++ (_Bool)setMapSettingsHeadingEnabled:(id)arg1;
 - (unsigned int);
 - (unsigned long long);
 - (id);
@@ -68,6 +22,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,33 +32,32 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)"CNCDIOSLegacyIdentifierRegistrarState";
+- (unsigned int)24B32B36B40;
+- (id)accountIdentifierFromPersistentStoreURL: /* Error: Ran out of types for this method. */;
+- (_Bool)ultSortOrder;
+- (_Bool)fullyPrepared;
+- (_Bool)ing",C,V_tag;
+- (_Bool)"CNQueue",R,N,V_cacheQueue;
+- (_Bool)CNDelegateAccessAccountCollection;
+- (_Bool)CNPersistentStoreCoordinatorBuildTask;
+- (_Bool);
+- (_Bool);
+- (_Bool)e:%s /* Error: Ran out of types for this method. */;
+- (_Bool)ndedAttribute:returned  %@ /* Error: Ran out of types for this method. */;
+- (_Bool)k database for deletion:_cn_setValue:forExtendedAttribute:returned  %@ /* Error: Ran out of types for this method. */;
+- (_Bool)n:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)@?0@"NSNotification"8;
 - (unsigned int);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (void);
-- (void);
+- (void)_֘;
+- (void)y ;
 - (void);
 - (_Bool);
 - (int);
@@ -111,9 +65,9 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)initWithCMSampleBuffer:orientation:options:session: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)?;
 - (long long);
 - (_Bool);
 - (id);
@@ -122,15 +76,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_isPhraseSpotterBypassed;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ary/PrivateFrameworks/CoreSpeechFoundation.framework/Versions/A/CoreSpeechFoundation;
 - (long long);
 - (void);
 - (int);
-- (id);
-- (_Bool);
+- (id)ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -142,7 +96,7 @@
 - (id)DTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}^B>16;
 - (void)ult"b1"read_searchBrowseCategorySuggestionResult"b1"read_tapMetadata"b1"wrote_anyField"b1};
 - (void)initWithQuickETARequest:(int)arg1 withFeedback: /* Error: Ran out of types for this method. */;
-- (id)onalEnabledMarkets;
+- (id)hasAdditionalEnabledMarkets;
 - (int),N,V_geoAddress;
 - (id);
 - (id)Ä@		ð!è"h#¬#à$´%;
@@ -159,44 +113,7 @@
 - (void)½Y6;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(retain, nonatomic) NSString *crossStreet;
-@property(nonatomic) unsigned int delaySeconds;
-@property(nonatomic) long long endTime;
-@property(nonatomic) _Bool endTimeReliable;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasCrossStreet;
-@property(nonatomic) _Bool hasDelaySeconds;
-@property(nonatomic) _Bool hasEndTime;
-@property(nonatomic) _Bool hasEndTimeReliable;
-@property(readonly, nonatomic) _Bool hasIncidentId;
-@property(readonly, nonatomic) _Bool hasInfo;
-@property(nonatomic) _Bool hasLaneClosureCount;
-@property(nonatomic) _Bool hasLaneClosureType;
 @property(readonly, nonatomic) _Bool hasPosition;
-@property(readonly, nonatomic) _Bool hasRestrictionInfo;
-@property(nonatomic) _Bool hasShouldDisplayOnMap;
-@property(nonatomic) _Bool hasSignificance;
-@property(nonatomic) _Bool hasStartTime;
-@property(readonly, nonatomic) _Bool hasStreet;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasUpdateTime;
-@property(nonatomic) _Bool hasUserReportsCount;
-@property(retain, nonatomic) NSString *incidentId;
-@property(retain, nonatomic) NSString *info;
-@property(nonatomic) unsigned int laneClosureCount;
-@property(nonatomic) int laneClosureType;
-@property(retain, nonatomic) GEOLatLng *position;
-@property(retain, nonatomic) GEORestrictionInfo *restrictionInfo;
-@property(nonatomic) _Bool shouldDisplayOnMap;
-@property(nonatomic) int significance;
-@property(nonatomic) long long startTime;
-@property(retain, nonatomic) NSString *street;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) long long updateTime;
-@property(retain, nonatomic) NSMutableArray *userReportIds;
-@property(nonatomic) unsigned int userReportsCount;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol ISDownloadService
+- (void)Y;
+- (void)I;
+- (void);
+- (void);
+- (void);
 @end
 

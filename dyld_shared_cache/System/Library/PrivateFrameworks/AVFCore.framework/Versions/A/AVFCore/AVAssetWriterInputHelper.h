@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInputConfigurationState, AVAssetWriterInputPassDescription, AVOutputSettings, AVWeakReference, NSArray, NSDictionary, NSString, NSURL;
+@class AVAssetWriterInputConfigurationState;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputHelper
 {
     AVAssetWriterInputConfigurationState *_configurationState;
-    AVWeakReference *_weakReferenceToAssetWriterInput;
 }
 
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)Hh;
 - (id);
 - (short);
 - (void);
@@ -33,24 +32,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)*A�;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
+- (_Bool)alid file path;
+- (void)y;
+- (void)errorWithDomain:(struct CGAffineTransform)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
+- (long long)];
 - (_Bool);
 - (long long);
 - (short);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)8;
+- (void)setDefaultValue:(id)arg1;
 - (long long);
 - (void);
 - (_Bool);
@@ -74,59 +73,27 @@ __attribute__((visibility("hidden")))
 - (id)1Â0@ù
 × ;
 - (void)^{?={?=qiIq}{?=qiIq}}56;
-- (float)ge: /* Error: Ran out of types for this method. */;
-- (id)eOfString:options: /* Error: Ran out of types for this method. */;
-- (void)setWeakReferenceToPrimaryPlayer:(id)arg1;
-- (_Bool)etNotifications;
+- (float)removeTimeRange: /* Error: Ran out of types for this method. */;
+- (id)rangeOfString:options: /* Error: Ran out of types for this method. */;
+- (void)_setWeakReferenceToPrimaryPlayer:(id)arg1;
+- (_Bool)_registeredForFigAssetNotifications;
 - (CDStruct_1b6d18a9)ualifiers;
-- (id)luesAffectingError;
-- (long long);
+- (id)keyPathsForValuesAffectingError;
+- (long long)AVPlayer;
 - (_Bool)shWithComposedVideoFrame:] because already finished /* Error: Ran out of types for this method. */;
 - (struct opaqueCMFormatDescription *)dateToPersistentKey:forKeyIdentifier:]_block_invoke /* Error: Ran out of types for this method. */;
 - (int)than one player at a time;
-- (void);
-- (struct CGSize)ey;
+- (void)DCI_P3;
+- (struct CGSize)AVErrorDiscontinuityFlagsKey;
 - (id)be numeric;
-- (void)ufferPool;
+- (void)pixelBufferPool;
 - (_Bool)%d, mediaType = %@, sampleReferenceBaseURL = %@>;
 - (void)for the type identifier %@ is not supported by AVURLAsset.;
 - (int)ðÿñ;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) short alternateGroupID;
-@property(readonly, nonatomic) _Bool canPerformMultiplePasses;
 @property(readonly, nonatomic) AVAssetWriterInputConfigurationState *configurationState; // @synthesize configurationState=_configurationState;
-@property(readonly, nonatomic) AVAssetWriterInputPassDescription *currentPassDescription;
-@property(nonatomic) _Bool expectsMediaDataInRealTime;
-@property(copy, nonatomic) NSString *extendedLanguageTag;
-@property(copy, nonatomic) NSString *languageCode;
-@property(nonatomic) long long layer;
-@property(nonatomic) _Bool marksOutputTrackAsEnabled;
-@property(nonatomic) _Bool maximizePowerEfficiency;
-@property(copy, nonatomic) NSString *mediaDataLocation;
-@property(nonatomic) int mediaTimeScale;
-@property(readonly, nonatomic) NSString *mediaType;
-@property(copy, nonatomic) NSArray *metadata;
-@property(nonatomic) struct CGSize naturalSize;
-@property(readonly, nonatomic) AVOutputSettings *outputSettings;
-@property(nonatomic) _Bool performsMultiPassEncodingIfSupported;
-@property(readonly, nonatomic) struct __CVPixelBufferPool *pixelBufferPool;
-@property(nonatomic) long long preferredMediaChunkAlignment;
-@property(nonatomic) CDStruct_1b6d18a9 preferredMediaChunkDuration;
-@property(nonatomic) long long preferredMediaChunkSize;
-@property(nonatomic) float preferredVolume;
-@property(nonatomic) short provisionalAlternateGroupID;
-@property(readonly, nonatomic, getter=isReadyForMoreMediaData) _Bool readyForMoreMediaData;
-@property(copy, nonatomic) NSURL *sampleReferenceBaseURL;
-@property(readonly, nonatomic) _Bool shouldRespondToInitialPassDescription;
-@property(readonly, nonatomic) struct opaqueCMFormatDescription *sourceFormatHint;
-@property(copy, nonatomic) NSDictionary *sourcePixelBufferAttributes;
-@property(readonly, nonatomic) long long status;
-@property(readonly, nonatomic) int trackID;
-@property(readonly, nonatomic) NSDictionary *trackReferences;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(retain) AVWeakReference *weakReferenceToAssetWriterInput; // @synthesize weakReferenceToAssetWriterInput=_weakReferenceToAssetWriterInput;
 
 @end
 

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationNavigationController, AKAuthorizationPresentationContext, AKAuthorizationScopeChoices, NSString;
-@protocol AKAuthorizationViewControllerDelegate;
+@class AKAuthorizationNavigationController;
 
 @interface AKAuthorizationViewController
 {
     _Bool _resizePending;
-    AKAuthorizationPresentationContext *_presentationContext;
-    id <AKAuthorizationViewControllerDelegate> _delegate;
-    double _automaticResizeDelay;
-    AKAuthorizationNavigationController *_navigationController;
-    AKAuthorizationScopeChoices *_scopeChoices;
-    unsigned long long _automaticResizeDisableCount;
-    struct CGSize _lastResize;
 }
 
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool){;
 - (void);
 - (void);
 - (void);
@@ -32,11 +24,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (double);
+- (double)5;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -51,10 +43,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -62,22 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double automaticResizeDelay; // @synthesize automaticResizeDelay=_automaticResizeDelay;
-@property(nonatomic) unsigned long long automaticResizeDisableCount; // @synthesize automaticResizeDisableCount=_automaticResizeDisableCount;
-@property(readonly, nonatomic, getter=isAutomaticResizeDisabled) _Bool automaticResizeDisabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAuthorizationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize lastResize; // @synthesize lastResize=_lastResize;
 @property(readonly, nonatomic) AKAuthorizationNavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(retain, nonatomic) AKAuthorizationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(nonatomic) _Bool resizePending; // @synthesize resizePending=_resizePending;
-@property(readonly, nonatomic) AKAuthorizationScopeChoices *scopeChoices; // @synthesize scopeChoices=_scopeChoices;
-@property(readonly) Class superclass;
 
 @end
 

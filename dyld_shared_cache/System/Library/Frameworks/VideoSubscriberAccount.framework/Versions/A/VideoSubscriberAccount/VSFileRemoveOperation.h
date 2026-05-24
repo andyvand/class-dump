@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VSFileRemoveOperation : VSAsyncOperation
 {
     NSURL *_fileURL;
-    NSError *_error;
 }
 
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 
 @end
 

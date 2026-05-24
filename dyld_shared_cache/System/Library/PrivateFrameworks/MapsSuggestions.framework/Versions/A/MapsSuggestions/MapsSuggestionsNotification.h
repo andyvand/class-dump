@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) const char *darwinNotification;
-@property(readonly, nonatomic) unsigned long long state;
 
 @end
 

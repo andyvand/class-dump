@@ -7,14 +7,10 @@
 @interface NewsSubscription.WebAccessAuthenticator
 {
     id purchaseController;
-    id authenticationURL;
-    id callbackURLScheme;
-    id tagID;
-    id webSession;
 }
 
 - (id);
-- (id);
+- (id)PtYx/Sources/AlderShared/drawables/TSDBrushStrokeLoader.m;
 - (void);
 
 @end

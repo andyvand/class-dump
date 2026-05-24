@@ -6,8 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSNumber;
-@protocol SAClientBoundCommand;
+@class NSNumber;
 
 @interface SAPhoneVoiceMailSnippet : SAUISnippet
 {
@@ -17,20 +16,17 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<v@?Ii>16;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *autoPlay;
-@property(copy, nonatomic) NSArray *calls;
-@property(copy, nonatomic) NSArray *playVoiceMailCommands;
-@property(retain, nonatomic) id <SAClientBoundCommand> postPlayCommand;
 
 @end
 

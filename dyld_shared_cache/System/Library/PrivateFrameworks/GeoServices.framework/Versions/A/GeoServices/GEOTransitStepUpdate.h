@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOInstructionSet, GEOTransitBoardingInfo, GEOTransitScheduleInfo, GEOTransitVehiclePositionInfo, NSData, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitStepUpdate
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOTransitBoardingInfo *_boardingInfo;
-    GEOInstructionSet *_instructions;
-    GEOTransitScheduleInfo *_scheduleInfo;
-    NSData *_updateIdentifier;
-    GEOTransitVehiclePositionInfo *_vehiclePositionInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_boardingInfo:1;
-        unsigned int read_instructions:1;
-        unsigned int read_scheduleInfo:1;
-        unsigned int read_updateIdentifier:1;
-        unsigned int read_vehiclePositionInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)esumingMultipointRoute:(id)arg1;
++ (_Bool)setNavigationSessionState:(id)arg1 transportType:isResumingMultipointRoute: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -43,40 +25,30 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
+- (void)mode;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id)1º*Ð1Â0@ù
 × ;
-- (id)epIndex:startRouteCoordinate:endRouteCoordinate:maneuverStartRouteCoordinate: /* Error: Ran out of types for this method. */;
+- (id)initWithComposedRoute:geoRouteLeg:geoStep:routeSegmentType:stepIndex:startRouteCoordinate:endRouteCoordinate:maneuverStartRouteCoordinate: /* Error: Ran out of types for this method. */;
 - (id)T@"GEOComposedString",R,N,V_detailCardTitle;
 - (id)ld not decode path between ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOTransitBoardingInfo *boardingInfo;
-@property(readonly, nonatomic) _Bool hasBoardingInfo;
-@property(readonly, nonatomic) _Bool hasInstructions;
-@property(readonly, nonatomic) _Bool hasScheduleInfo;
 @property(readonly, nonatomic) _Bool hasUpdateIdentifier;
-@property(readonly, nonatomic) _Bool hasVehiclePositionInfo;
-@property(retain, nonatomic) GEOInstructionSet *instructions;
-@property(retain, nonatomic) GEOTransitScheduleInfo *scheduleInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSData *updateIdentifier;
-@property(retain, nonatomic) GEOTransitVehiclePositionInfo *vehiclePositionInfo;
 
 @end
 

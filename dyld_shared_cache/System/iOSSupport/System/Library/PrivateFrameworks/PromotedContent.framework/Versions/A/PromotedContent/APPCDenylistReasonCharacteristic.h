@@ -9,9 +9,6 @@
 @interface APPCDenylistReasonCharacteristic
 {
     void globalCategories;
-    void globalKeywords;
-    void campaignCategories;
-    void campaignKeywords;
 }
 
 - (void);
@@ -20,17 +17,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *campaignCategories;
-@property(nonatomic, copy) NSArray *campaignKeywords;
 @property(nonatomic, copy) NSArray *globalCategories;
-@property(nonatomic, copy) NSArray *globalKeywords;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCCaptionsTranscription;
 @protocol VCCaptionsReceiverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCCaptionsReceiver
 {
     unsigned int _captionsLastUtteranceNumber;
-    unsigned int _captionsLastUpdateNumber;
-    id _delegate;
-    VCCaptionsTranscription *_currentTranscription;
-    struct opaqueVCCaptionsDecoder *_captionsDecoder;
 }
 
 - (void);
@@ -24,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) VCCaptionsTranscription *currentTranscription; // @synthesize currentTranscription=_currentTranscription;
 @property(readonly) id <VCCaptionsReceiverDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

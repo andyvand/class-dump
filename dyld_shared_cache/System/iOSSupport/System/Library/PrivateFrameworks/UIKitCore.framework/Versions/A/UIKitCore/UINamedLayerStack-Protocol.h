@@ -11,23 +11,11 @@
 × ;
 - (NSArray *)nd.doneButton;
 
+@optional
+- (struct CGSize);
+- (id);
+
 // Remaining properties
-@property(readonly, nonatomic) _Bool flatImageContainsCornerRadius;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) struct CGImage *flattenedImage;
-@property(readonly, nonatomic) NSArray *layers;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) id radiosityImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(readonly, nonatomic) struct CGSize radiosityImageScale;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
-@property(readonly, nonatomic) double scale;
-@property(readonly, nonatomic) struct CGSize size;
 @end
 

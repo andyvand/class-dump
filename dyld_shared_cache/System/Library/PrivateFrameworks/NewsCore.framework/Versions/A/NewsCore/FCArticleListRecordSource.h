@@ -12,9 +12,11 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)rights reserved.
+ */
+"use strict";const MFContentIDScheme="cid",MFHtmlIDSelectionEnd="x-apple-selection:end",MFHtmlIDSelectionStart="x-apple-selection:start",MFHtmlTemporaryEditingElement="AppleTemporaryEditingElement",MFHtmlTemporaryPresentationElement="AppleTemporaryPresentationElement",MFMailDropBannerClass="x-apple-maildropbanner",MFMailDropItemClass="x-apple-maildrop",MFHtmlIDSignature="AppleMailSignature",MFHtmlIDLineBreakAtSignature="lineBreakAtBeginningOfSignature",MFHtmlIDLineBreakAtBeginning="lineBreakAtBeginningOfMessage",MFRichLinkClass="apple-rich-link",MFLPRichLinkClassPrefix="lp-rich-link",MFMailTemporaryAttachmentWrapper="x-apple-attachment-mark",MFHtmlIDQuickReplyStyle="x-mail-quick-reply-style",HtmlClassOriginalContent="AppleOriginalContents",linkPlaceHolderClass="linkPlaceholder",MFMailBigEmojiAttribute="AppleMailBigEmoji",bigEmojiFontSize="-webkit-xxx-large",defaultEmojiFontSize="-apple-system-body",maxNumberBigEmoji=3,largeInheritedFontSize=7; /* Error: Ran out of types for this method. */;
 - (id)EventConditions";
-- (unsigned long long)adGreatStoriesYouMissed;
+- (unsigned long long)_maxUnpaidArticlesIPadGreatStoriesYouMissed;
 - (id)
 ;
 - (unsigned long long)onLookUpEntry initWithEntryID:dictionaryRepresentation:] /* Error: Ran out of types for this method. */;

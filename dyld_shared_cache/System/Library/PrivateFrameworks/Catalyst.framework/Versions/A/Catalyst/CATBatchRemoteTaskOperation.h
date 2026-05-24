@@ -6,12 +6,11 @@
 
 #import <Catalyst/CATOperation.h>
 
-@class NSArray, NSOperationQueue;
+@class NSArray;
 
 @interface CATBatchRemoteTaskOperation : CATOperation
 {
     NSArray *mRemoteTasks;
-    NSOperationQueue *mQueue;
 }
 
 - (id);
@@ -23,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)ntent;
+- (_Bool)Content;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *remoteTaskOperations;

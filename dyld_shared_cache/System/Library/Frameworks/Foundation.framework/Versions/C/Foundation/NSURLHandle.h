@@ -9,9 +9,6 @@
 @interface NSURLHandle
 {
     NSMutableArray *_clients;
-    id _data;
-    unsigned long long _status;
-    long long _reserved;
 }
 
 + (void);
@@ -31,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (_Bool);
 - (_Bool);

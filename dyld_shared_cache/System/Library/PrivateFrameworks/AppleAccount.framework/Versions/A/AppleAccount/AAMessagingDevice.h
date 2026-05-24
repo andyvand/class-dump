@@ -9,17 +9,14 @@
 @interface AAMessagingDevice
 {
     IDSDevice *_device;
-    NSString *_productBuildVersion;
-    NSString *_modelIdentifier;
 }
 
-- (id);
-- (void)rsForLoginRequest;
+- (id)t;
+- (void)parametersForLoginRequest;
 - (id)ntains an app provided context to add to the Apple Account:%@ /* Error: Ran out of types for this method. */;
 - (id)-V.·n4B÷ôm¯¼i¼§Äß[e*¿<XScß%+Õ8 Ü¾ò;A0¼c÷×Â3'º´ÔôKS>ý´-P¥U¾·#ff­Ç`e¿Ö6ñ)â/(jPÜá´Ü«$õ¤ÃÝè'n}^ÀF3¡GwK _êâDìT£ÄÙÉrÌ¡ä;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
 @property(readonly, nonatomic) NSString *productBuildVersion; // @synthesize productBuildVersion=_productBuildVersion;
 
 @end

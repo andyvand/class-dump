@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRTokenConfidence : SISchemaInstrumentationMessage
 {
@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (float);
 - (id);
@@ -24,17 +24,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)E;
 - (id);
 - (id)!dDù±ßÐ1Â0@ù
 × ;
 - (id)slationPayload;
-- (id)ISchemaUUFRShown;
+- (id)SISchemaUUFRShown;
 - (void)%þ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *asrScores; // @synthesize asrScores=_asrScores;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

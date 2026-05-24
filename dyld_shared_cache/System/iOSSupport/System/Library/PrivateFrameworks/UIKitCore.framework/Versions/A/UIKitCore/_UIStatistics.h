@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatistics
 {
     NSString *_key;
-    double _sampleValue;
-    NSMutableSet *_children;
-    double _sampleRate;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)ial.framework/Versions/A/Trial;
++ (id)m_metalKernelFunction;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setOwner:(id)arg1;
++ (id)_sectionToLibraryAddedOverride;
++ (id)__MPModelPropertyRadioStationAttributionLabel__MAPPING_MISSING__;
 + (id);
 + (id);
 + (id);
@@ -36,10 +33,10 @@ __attribute__((visibility("hidden")))
 + (id)c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24;
 + (id)egate>";
 + (id)tOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-+ (id)eyboard;
-+ (id)refersExtendedRange: /* Error: Ran out of types for this method. */;
-+ (id)mItem;
-+ (id)nsWithTranslation:(id)arg1 location:ended:withVelocity: /* Error: Ran out of types for this method. */;
++ (id)usesLocalKeyboard;
++ (id)setPrefersExtendedRange: /* Error: Ran out of types for this method. */;
++ (id)isSystemItem;
++ (id)_updateViewPositionsWithTranslation:(id)arg1 location:ended:withVelocity: /* Error: Ran out of types for this method. */;
 + (id),S_setAccessoryPlacement:(id)arg1 ,V_accessoryPlacement;
 + (id)nimations;
 + (id)ÿÿ:(id)arg1;
@@ -48,27 +45,27 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id)`kïÿ°jïÿºkïÿ;
 + (id)y:cannot get the shadow update for a placeholder that was not inserted (missing shadow update) /* Error: Ran out of types for this method. */;
-+ (id)ER_RESET;
-+ (id)Xx;
-+ (id)e;
++ (id)BAR_CUSTOMIZATION_POPOVER_RESET;
++ (id)So22_UIContextMenuAnimatorCSgz_Xx;
++ (id)Tke;
 + (id)'o;
 + (id)Ûl;
 + (id)áÿÁ;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)accountRegionsEligibleForJunkFiltering;
+- (void)Monitor;
+- (void)arrayByExcludingObjectsInArray:(double)arg1;
+- (void)IMDHandle",&,N,V_handle;
+- (void)ReadReceipts;
+- (void)IMResolveFallbackHashesProcessingPipelineComponent;
+- (void)UNUserNotificationCenterDelegate;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void):(id)arg1 %@, updateType:%lu /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)NSt3__110__function6__baseIFNS_6vectorIdNS_9allocatorIdEEEERKS5_S7_dEEE;
+- (id)ons [MPCloudControllerIsCloudEnabledDidChangeNotification];
 - (id);
 - (double);
 - (void);

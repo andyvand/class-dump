@@ -9,9 +9,6 @@
 @interface WiFiAwareInternetSharingConfiguration
 {
     _Bool _provider;
-    _Bool _automatic;
-    _Bool _useBridging;
-    NSString *_interfaceName;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)didChangeTilingControllerLayout;
 - (_Bool);
 - (id);
 - (id);
@@ -37,10 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool automatic; // @synthesize automatic=_automatic;
 @property(retain, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) _Bool provider; // @synthesize provider=_provider;
-@property(nonatomic) _Bool useBridging; // @synthesize useBridging=_useBridging;
 
 @end
 

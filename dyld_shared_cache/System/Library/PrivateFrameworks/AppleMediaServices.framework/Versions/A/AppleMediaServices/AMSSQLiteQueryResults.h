@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteStatement, NSNumber, NSString;
+@class AMSSQLiteStatement;
 
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteQueryResults
@@ -14,22 +14,22 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
+- (void)_hasLoadedBundles;
 - (void);
+- (void)OriginClientRequests] %{public}@ UpdatingCache:(int)arg1 clientProperties %{public}@;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void)nalizedBlindedData;
+- (void)finalizedBlindedData;
 - (void)æKà¥ò!ÒßE+³ÿ¿å;
 - (void)FàF6¶0ÉÃÜëBAÕª°d³¸b¬lMi},ØÚ©vzÐ¦îü/Ö[KFo4;{ùnk?À­÷P£Ù2¼.ðrïQøÒÊy OÇæ6_õì<Wäöè#ÿ"¹IÛX\s¨
 ÎòTÝÆC«'HúpóLDÅñmj+éÞ=$µ¤eJYß¯(Ó»:(float)arg1 ´º*¥w3çR	ÈZ5ÔÂNfÑíô9½àSVqâåE^ãx7ÁË±têû|%)1¡~×a& -g®ýhÏ·U`]þ¢;
@@ -37,16 +37,7 @@ __attribute__((visibility("hidden")))
 - (id)x®ÿ@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long firstInt64Value;
-@property(readonly, copy, nonatomic) NSNumber *firstNumberValue;
-@property(readonly, nonatomic) _Bool hasRows;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,16 +7,6 @@
 @interface IMCore.ImportExport.ExportStatistics
 {
     id version;
-    id timer;
-    id predictedRecordCounts;
-    id examinedRecordCounts;
-    id failedExportCounts;
-    id exportedCounts;
-    id downloadedCounts;
-    id recordsFetchedPerSecondCounts;
-    id unexportedMessageTypeCounts;
-    id attachmentStatistics;
-    id reportableEvents;
 }
 
 @end

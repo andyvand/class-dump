@@ -9,28 +9,21 @@
 @interface CNCFPreferencesPrimitiveUserDefaults
 {
     NSString *_applicationID;
-    long long _autosyncTimerIsActive;
 }
 
 - (struct __CFString *);
 - (_Bool);
 - (id);
-- (void);
+- (void)ection;
 - (_Bool);
 - (void);
 - (id)N;
-- (void)lerJob;
+- (void)CNVirtualSchedulerJob;
 - (void);
 - (long long)bú@à ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

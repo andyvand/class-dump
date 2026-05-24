@@ -7,6 +7,7 @@
 @class LPImage;
 
 @protocol LPiTunesMetadata
+- (LPImage *)that. Fetching from the server.;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork;

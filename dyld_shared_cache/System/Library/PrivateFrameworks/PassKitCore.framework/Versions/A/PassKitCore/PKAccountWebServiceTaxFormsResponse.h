@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)on;
+- (void)verification;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *taxForms; // @synthesize taxForms=_taxForms;

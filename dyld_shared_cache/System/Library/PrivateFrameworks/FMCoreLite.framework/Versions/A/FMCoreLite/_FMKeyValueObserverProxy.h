@@ -6,28 +6,21 @@
 
 #import <FMCoreLite/_FMObserverProxy.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _FMKeyValueObserverProxy : _FMObserverProxy
 {
     _Bool _isObserving;
-    CDUnknownBlockType _observerBlock;
-    id _observedObject;
-    NSString *_keyPath;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)%@;
+- (void)r.payment.quote;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, nonatomic) __weak id observedObject; // @synthesize observedObject=_observedObject;
 @property(readonly, copy, nonatomic) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
 
 @end

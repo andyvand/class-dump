@@ -13,12 +13,12 @@
     id <AXMActiveSoundOutputActionHandleProvider> _handleProvider;
 }
 
-- (void);
+- (void)|;
 - (void);
 - (id);
 - (void);
 - (float);
-- (void);
+- (void)_openString;
 - (void);
 - (void);
 - (float)@ù
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <AXMActiveSoundOutputActionHandleProvider> handleProvider; // @synthesize handleProvider=_handleProvider;
-@property(nonatomic) float pitch;
-@property(nonatomic) float rate;
 
 @end
 

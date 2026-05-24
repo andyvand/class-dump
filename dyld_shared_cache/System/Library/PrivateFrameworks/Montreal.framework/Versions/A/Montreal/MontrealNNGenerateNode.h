@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MontrealNNModelNode;
-
 @interface MontrealNNGenerateNode
 {
     unsigned long long _weightIter;
-    MontrealNNModelNode *_node;
-    unsigned long long _weightDataFormat;
-    CDStruct_96916c69 _parameters;
 }
 
 - (unsigned long long);
@@ -19,17 +14,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (CDStruct_96916c69);
+- (id)!;
+- (CDStruct_7136673c);
 - (void);
-- (void);
-- (id)el: /* Error: Ran out of types for this method. */;
+- (void)	;
+- (id)setForwardKernel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) MontrealNNModelNode *node; // @synthesize node=_node;
-@property(readonly) CDStruct_96916c69 parameters; // @synthesize parameters=_parameters;
-@property(readonly) unsigned long long weightDataFormat; // @synthesize weightDataFormat=_weightDataFormat;
-@property(readonly) unsigned long long weightIter; // @synthesize weightIter=_weightIter;
+@property(readonly) CDStruct_7136673c parameters; // @synthesize parameters=_parameters;
 
 @end
 

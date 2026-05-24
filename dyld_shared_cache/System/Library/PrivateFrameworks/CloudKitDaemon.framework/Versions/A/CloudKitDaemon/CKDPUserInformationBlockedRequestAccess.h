@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPContactInformation, NSString;
+@class CKDPContactInformation;
 
 @interface CKDPUserInformationBlockedRequestAccess
 {
     CKDPContactInformation *_contactInformation;
-    NSString *_userId;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ng(APRTAETranscoderAndSender *);
+- (id)tRateOne
+;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPContactInformation *contactInformation; // @synthesize contactInformation=_contactInformation;
-@property(readonly, nonatomic) _Bool hasContactInformation;
 @property(readonly, nonatomic) _Bool hasUserId;
-@property(retain, nonatomic) NSString *userId; // @synthesize userId=_userId;
 
 @end
 

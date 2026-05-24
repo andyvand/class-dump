@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBDateTimeRange, _INPBIntentMetadata;
+@class NSString, _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBCreateAlarmIntent
+- (NSString *)K;
+- (void);
+- (void);
+- (_INPBIntentMetadata *)OUiugCUeOdUPJKBmC2cje3Ex1DzGwiw5z-foFo/Library/Caches/com.apple.xbs/TemporaryDirectory.ecuqJw/Sources/backupd/TimeMachine-Framework/RulesEngine/TMDeviceRulesEngine.m;
+- (_INPBDataString *);
 - (void)contactType;
-- (_Bool)ventDescriptors: /* Error: Ran out of types for this method. */;
+- (_Bool)addEventDescriptors: /* Error: Ran out of types for this method. */;
 - (void)standing;
-- (_Bool)ponseCodeFailureRequiringAppLaunch;
+- (_Bool)INPlayMessageSoundIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
 @property(readonly, nonatomic) int *alarmRepeatScheduleOptions;
-@property(readonly, nonatomic) unsigned long long alarmRepeatScheduleOptionsCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasRelativeOffsetInMinutes;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *label;
-@property(nonatomic) int relativeOffsetInMinutes;
-@property(retain, nonatomic) _INPBDateTimeRange *time;
 @end
 

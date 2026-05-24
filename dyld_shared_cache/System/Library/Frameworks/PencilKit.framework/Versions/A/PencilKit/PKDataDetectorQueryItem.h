@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKDetectionQueryItem.h>
 
-@class CHDataDetectorQueryItem, DDScannerResult;
+@class CHDataDetectorQueryItem;
 
 @interface PKDataDetectorQueryItem : PKDetectionQueryItem
 {
@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)bindNullValueToParameterNamed: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void)![Ð!àCùqß1Â0@ù
@@ -26,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CHDataDetectorQueryItem *coreHandwritingDataDetectorQueryItem; // @synthesize coreHandwritingDataDetectorQueryItem=_coreHandwritingDataDetectorQueryItem;
-@property(readonly, nonatomic) DDScannerResult *scannerResult;
 
 @end
 

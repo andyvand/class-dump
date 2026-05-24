@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAccount, PKTransactionSourceCollection;
+@class PKAccount;
 
 @interface PKRewardsSummaryFetcher
 {
     PKAccount *_account;
-    PKTransactionSourceCollection *_transactionSourceCollection;
 }
 
-- (void);
+- (void)V;
 - (_Bool);
 - (_Bool);
 - (id);

@@ -7,8 +7,6 @@
 @interface MRGroupSessionAssertion
 {
     struct os_unfair_lock_s _lock;
-    _Bool _cancelled;
-    CDUnknownBlockType _handler;
 }
 
 - (id);

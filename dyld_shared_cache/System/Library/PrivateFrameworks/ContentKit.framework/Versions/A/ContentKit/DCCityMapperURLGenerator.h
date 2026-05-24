@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface DCCityMapperURLGenerator : DCMapsURLGenerator
 {
     NSString *_startCoordinate;
-    NSString *_endCoordinate;
 }
 
 + (void);
@@ -21,14 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);5D>=C;
 - (id);
 - (id);
 - (void)Áõ	!ÌDùñÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *endCoordinate; // @synthesize endCoordinate=_endCoordinate;
 @property(retain, nonatomic) NSString *startCoordinate; // @synthesize startCoordinate=_startCoordinate;
 
 @end

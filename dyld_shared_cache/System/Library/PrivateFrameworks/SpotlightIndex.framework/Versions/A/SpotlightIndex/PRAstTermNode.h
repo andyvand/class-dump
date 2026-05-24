@@ -12,23 +12,19 @@ __attribute__((visibility("hidden")))
 @interface PRAstTermNode : PRAstNode
 {
     _Bool _isNegated;
-    _Bool _isIgnored;
-    NSString *_value;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)";
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)I;
 
 // Remaining properties
-@property(nonatomic) _Bool isIgnored; // @synthesize isIgnored=_isIgnored;
-@property(nonatomic) _Bool isNegated; // @synthesize isNegated=_isNegated;
 @property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

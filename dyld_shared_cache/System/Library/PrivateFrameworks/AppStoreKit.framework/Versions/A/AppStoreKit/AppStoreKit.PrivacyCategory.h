@@ -7,12 +7,6 @@
 @interface AppStoreKit.PrivacyCategory
 {
     id title;
-    id artwork;
-    id style;
-    id dataTypes;
-    id prefersSmallArtwork;
-    id id;
-    id automationMetadata;
 }
 
 @end

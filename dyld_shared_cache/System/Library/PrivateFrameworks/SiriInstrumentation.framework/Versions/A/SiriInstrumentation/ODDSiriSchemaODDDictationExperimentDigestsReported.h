@@ -6,21 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDExperimentFixedDimensions, ODDSiriSchemaODDFixedDimensions;
-
 @interface ODDSiriSchemaODDDictationExperimentDigestsReported : SISchemaInstrumentationMessage
 {
     int _digestType;
-    ODDSiriSchemaODDExperimentFixedDimensions *_experimentFixedDimensions;
-    ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    CDStruct_5e3ed298 _has;
-    _Bool _hasExperimentFixedDimensions;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -31,7 +23,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -41,28 +33,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)|;
+- (void)getCString:(id)arg1 maxLength:encoding: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)tionInitiator;
+- (id)deleteCancellationInitiator;
 - (id),V_zAcceleration;
-- (id)plusId;
+- (id)_plusId;
 - (void)orderedMessages.siriEventTypeUnion.ueiClientEvent.ueiDictationAlternativeTextPairsSelected;
 
 // Remaining properties
 @property(nonatomic) int digestType; // @synthesize digestType=_digestType;
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
-@property(retain, nonatomic) ODDSiriSchemaODDExperimentFixedDimensions *experimentFixedDimensions; // @synthesize experimentFixedDimensions=_experimentFixedDimensions;
-@property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasDigestType;
-@property(nonatomic) _Bool hasExperimentFixedDimensions; // @synthesize hasExperimentFixedDimensions=_hasExperimentFixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,13 +6,13 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SATTSStartSpeechSynthesisStreamingRequest : SAStartRequest
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -30,19 +30,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void)Recognition:(id)arg1;
+- (_Bool)C;
+- (id)%
+;
+- (void)setRawRecognition:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *audioType;
-@property(copy, nonatomic) NSString *gender;
-@property(copy, nonatomic) NSString *languageCode;
-@property(copy, nonatomic) NSString *quality;
-@property(nonatomic) _Bool requiresWordTimingInfo;
-@property(copy, nonatomic) NSDictionary *speakableContextInfo;
-@property(copy, nonatomic) NSString *text;
-@property(copy, nonatomic) NSString *voiceName;
 
 @end
 

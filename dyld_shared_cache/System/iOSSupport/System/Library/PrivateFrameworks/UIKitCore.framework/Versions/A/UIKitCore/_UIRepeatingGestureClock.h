@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _UIRepeatingGestureClock
 {
     unsigned long long _delayIndex;
-    _Bool _timerOn;
-    id <_UIRepeatingGestureClockDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)service status to disconnected, account or server is invalid;
 - (void);
 - (id);
 - (void)1Â0@ù

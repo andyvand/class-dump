@@ -6,15 +6,11 @@
 
 #import <PencilKit/PKPaletteButton.h>
 
-@class PKPaletteReturnKeyButtonContentView, PKTextInputLanguageSelectionToken;
+@class PKPaletteReturnKeyButtonContentView;
 
 @interface PKPaletteReturnKeyButton : PKPaletteButton
 {
     double _scalingFactor;
-    long long _returnKeyType;
-    long long _axis;
-    PKPaletteReturnKeyButtonContentView *_contentView;
-    PKTextInputLanguageSelectionToken *_observerToken;
 }
 
 - (_Bool);
@@ -31,30 +27,27 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)videoPreview;
+- (id);
+- (void)#;
 - (id);
 - (struct CGSize);
 - (void);
 - (long long);
 - (id);
-- (double);
+- (double)ijh8);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)A	!;
-- (void)tesPickerViewInnerPadding;
+- (void)inkAttributesPickerViewInnerPadding;
 - (long long):lassoStroke: /* Error: Ran out of types for this method. */;
-- (void)ansition;
+- (void)PKPaletteTransition;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long axis; // @synthesize axis=_axis;
 @property(retain, nonatomic) PKPaletteReturnKeyButtonContentView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) PKTextInputLanguageSelectionToken *observerToken; // @synthesize observerToken=_observerToken;
-@property(nonatomic) long long returnKeyType; // @synthesize returnKeyType=_returnKeyType;
 
 @end
 

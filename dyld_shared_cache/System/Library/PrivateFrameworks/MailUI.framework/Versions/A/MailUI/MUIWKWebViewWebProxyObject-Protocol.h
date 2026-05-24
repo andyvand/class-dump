@@ -5,5 +5,10 @@
 //
 
 @protocol MUIWKWebViewWebProxyObject
+- (void);
+- (void)@�(;
+- (void);
+- (void);
+- (void)�j;
 @end
 

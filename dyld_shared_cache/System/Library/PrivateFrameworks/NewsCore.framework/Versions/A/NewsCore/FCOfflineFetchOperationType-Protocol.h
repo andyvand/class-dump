@@ -8,18 +8,17 @@
 @protocol OS_dispatch_queue;
 
 @protocol FCOfflineFetchOperationType
+- (NSObject<OS_dispatch_queue> *)resetEditingWithContentEditingInput:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)PFCopyOnWriteInterest;
+- (void)ributes:(void (^)(FCContentArchive *))arg1 error:] /* Error: Ran out of types for this method. */;
+- (void);
+- (NSObject<OS_dispatch_queue> *)+;
 - (void)443/ckdatabase;
 - (_Bool)is readable;
 - (void (^)(double));
 - (void)¶ÿy/kô³¶ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *archiveQueue;
 @property(nonatomic) _Bool cachedOnly;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fetchCompletionQueue;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressQueue;
 @end
 

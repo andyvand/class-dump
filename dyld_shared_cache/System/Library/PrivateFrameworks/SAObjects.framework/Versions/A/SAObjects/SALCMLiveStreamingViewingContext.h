@@ -18,12 +18,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *eventStartTime;
-@property(nonatomic) _Bool watchingLive;
 
 @end
 

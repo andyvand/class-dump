@@ -6,7 +6,7 @@
 
 #import <NeutrinoCore/NURenderNode.h>
 
-@class NSDictionary, NUColorSpace;
+@class NSDictionary;
 
 @interface NUStyleTransferNode : NURenderNode
 {
@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)87;
 + (id);
 + (id);
 + (id);
@@ -36,18 +36,14 @@
 - (id);
 - (id);
 - (id);
+- (id)etIdentifier;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *configuration;
-@property(readonly, nonatomic) NURenderNode *inputNode;
-@property(readonly, nonatomic) NUColorSpace *targetColorSpace;
-@property(readonly, nonatomic) NURenderNode *targetNode;
-@property(readonly, nonatomic) NSDictionary *tuningParameters;
 
 @end
 

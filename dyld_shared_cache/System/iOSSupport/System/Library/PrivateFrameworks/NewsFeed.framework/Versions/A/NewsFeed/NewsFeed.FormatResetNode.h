@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatResetNode
 {
     id _identifier;
-    id _selectors;
-    id _regexSelectors;
-    id _children;
 }
 
 @end

@@ -7,9 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBCommandReference
+- (void);
+- (NSData *)PHSandboxExtensionWrapper;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *referenceIdentifier;
 @end
 

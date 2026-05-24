@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ML3SpotlightBatchDonationObject
 {
     long long _currentRevision;
-    long long _targetRevision;
-    NSArray *_trackPersistentIDsToUpdate;
-    NSArray *_playlistPersistentIDsToUpdate;
-    NSArray *_albumPersistentIDsToUpdate;
-    NSArray *_artistPersistentIDsToUpdate;
-    NSArray *_entityStringsToDelete;
 }
 
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_cameraMonitorIdentifier;
+- (long long)_calendar;
+- (id)_addKey:value:map: /* Error: Ran out of types for this method. */;
+- (id)R,N,V_rangeOfCompletionSuggestionDates;
+- (id)Threshold;
+- (id),N,V_needsPhotosKnowledgeGraph;
+- (id)timezoneUpdated;
 - (long long);
 - (void)JOIN item_store USING (item_pid) JOIN item_extra USING (item_pid) JOIN item_stats USING (item_pid) WHERE (item.base_location_id > 0 AND (item.remote_location_id < 200 OR item_stats.liked_state = 2)) OR (item.base_location_id = 0 AND item.keep_local_status = 1);
 

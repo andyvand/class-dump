@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface CTLazuliChatCapabilities
 {
     _Bool _autoAcceptChat;
-    NSNumber *_max1ToManyRecipients;
-    NSNumber *_revokeTimer;
-    NSNumber *_maxSize;
-    NSString *_spamReportingUri;
 }
 
-+ (_Bool);
++ (_Bool)contentKeySpecifier;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (_Bool);
@@ -27,9 +21,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)LAAuthenticationProviderModule;
 - (id);
 - (void)&ð!Eùª)ð1Â0@ù
 × ;
@@ -38,10 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool autoAcceptChat; // @synthesize autoAcceptChat=_autoAcceptChat;
-@property(retain, nonatomic) NSNumber *max1ToManyRecipients; // @synthesize max1ToManyRecipients=_max1ToManyRecipients;
-@property(retain, nonatomic) NSNumber *maxSize; // @synthesize maxSize=_maxSize;
-@property(retain, nonatomic) NSNumber *revokeTimer; // @synthesize revokeTimer=_revokeTimer;
-@property(retain, nonatomic) NSString *spamReportingUri; // @synthesize spamReportingUri=_spamReportingUri;
 
 @end
 

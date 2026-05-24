@@ -6,7 +6,7 @@
 
 #import <PersonalizationPortrait/PPNamedEntityRecord.h>
 
-@class NSString, PPNamedEntity, PPNamedEntityMetadata, PPSource;
+@class PPNamedEntity;
 
 @interface PPMutableNamedEntityRecord : PPNamedEntityRecord
 {
@@ -14,7 +14,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,16 +27,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long algorithm; // @dynamic algorithm;
-@property(nonatomic) unsigned char changeType; // @dynamic changeType;
-@property(nonatomic) double decayRate; // @dynamic decayRate;
 @property(retain, nonatomic) PPNamedEntity *entity; // @dynamic entity;
-@property(nonatomic) unsigned int extractionAssetVersion; // @dynamic extractionAssetVersion;
-@property(retain, nonatomic) NSString *extractionOsBuild; // @dynamic extractionOsBuild;
-@property(nonatomic) double initialScore; // @dynamic initialScore;
-@property(retain, nonatomic) PPNamedEntityMetadata *metadata; // @dynamic metadata;
-@property(nonatomic) double sentimentScore; // @dynamic sentimentScore;
-@property(retain, nonatomic) PPSource *source; // @dynamic source;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol PLComputeCachePolicyDataSource
+- (id);
+- (id)N7morphun8analysis10EsAnalyzerE;
 @end
 

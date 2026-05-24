@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CATSharingMessage
 {
     long long _messageType;
-    NSDictionary *_contentDictionaryValue;
 }
 
 + (id);
@@ -19,11 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (id)rror: /* Error: Ran out of types for this method. */;
+- (id)clearQueuedMessagesAndCancelAllOperationsWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *contentDictionaryValue; // @synthesize contentDictionaryValue=_contentDictionaryValue;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, nonatomic) long long messageType; // @synthesize messageType=_messageType;
 
 @end

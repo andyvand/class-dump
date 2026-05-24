@@ -6,21 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaSelfTriggerSuppressionMetrics, SISchemaVoiceTriggerMetrics;
+@class SISchemaVoiceTriggerMetrics;
 
 @interface SISchemaAggregatedMetrics : SISchemaInstrumentationMessage
 {
     SISchemaVoiceTriggerMetrics *_voiceTrigger;
-    SISchemaSelfTriggerSuppressionMetrics *_selfTriggerSuppression;
-    _Bool _hasVoiceTrigger;
-    _Bool _hasSelfTriggerSuppression;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);�;
 - (void);
 - (void);
 - (_Bool);
@@ -28,21 +25,18 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)one Number Analysis;
+- (_Bool)m.guid, -1 FROM chat_recoverable_message_join AS crmj JOIN chat AS c  ON c.ROWID=crmj.chat_id AND c.guid = ? JOIN message AS m  ON m.ROWID=crmj.message_id AND crmj.delete_date < ? AND crmj.ck_sync_state=1 UNION ALL SELECT c.guid, m.guid, rmp.part_index FROM recoverable_message_part AS rmp JOIN chat AS c  ON c.ROWID=rmp.chat_id JOIN message AS m  ON m.ROWID=rmp.message_id AND rmp.delete_date < ? AND rmp.ck_sync_state=1;;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)lSpansCount;
-- (id)erRequestToLastResolverEventTime;
+- (id)may not be NULL.
+;
+- (id)contextualSpansCount;
+- (id)_actionResolverRequestToLastResolverEventTime;
 - (void)fariFeedbackEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSelfTriggerSuppression; // @synthesize hasSelfTriggerSuppression=_hasSelfTriggerSuppression;
-@property(nonatomic) _Bool hasVoiceTrigger; // @synthesize hasVoiceTrigger=_hasVoiceTrigger;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaSelfTriggerSuppressionMetrics *selfTriggerSuppression; // @synthesize selfTriggerSuppression=_selfTriggerSuppression;
 @property(retain, nonatomic) SISchemaVoiceTriggerMetrics *voiceTrigger; // @synthesize voiceTrigger=_voiceTrigger;
 
 @end

@@ -7,9 +7,6 @@
 @interface CLCppContainer
 {
     const void *_cppObjectPtr;
-    CDUnknownBlockType _destructor;
-    unsigned long long _binaryVersion;
-    unsigned long long _sizeOfType;
 }
 
 + (id);
@@ -17,21 +14,18 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (const void *);
 - (id);
 - (id);
+- (void)i;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long binaryVersion; // @synthesize binaryVersion=_binaryVersion;
 @property(nonatomic) const void *cppObjectPtr; // @synthesize cppObjectPtr=_cppObjectPtr;
-@property(copy, nonatomic) CDUnknownBlockType destructor; // @synthesize destructor=_destructor;
-@property(readonly, nonatomic) unsigned long long sizeOfType; // @synthesize sizeOfType=_sizeOfType;
 
 @end
 

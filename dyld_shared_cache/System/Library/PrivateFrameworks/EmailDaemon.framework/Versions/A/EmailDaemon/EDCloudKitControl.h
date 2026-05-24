@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface EDCloudKitControl
 {
@@ -14,8 +14,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(retain, nonatomic) NSData *ckRecordSystemFields; // @dynamic ckRecordSystemFields;
-@property(nonatomic) _Bool migratedFromKVSStorage; // @dynamic migratedFromKVSStorage;
 
 @end
 

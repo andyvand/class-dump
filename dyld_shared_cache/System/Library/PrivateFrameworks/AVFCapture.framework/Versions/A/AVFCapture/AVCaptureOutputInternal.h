@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureSession, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureOutputInternal
 {
     NSObject<OS_dispatch_queue> *figCaptureSessionSyncQueue;
-    struct OpaqueFigCaptureSession *figCaptureSession;
-    AVCaptureSession *session;
-    NSString *sinkID;
-    NSMutableArray *connections;
-    int changeSeed;
-    struct CGAffineTransform metadataTransform;
-    double rollAdjustment;
-    _Bool physicallyMirrorsVideo;
-    _Bool deferredStartEnabled;
 }
 
-- (void);
+- (void)existingObjectWithID:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ding: /* Error: Ran out of types for this method. */;
+- (void)setBravoCameraSelectionBehaviorForRecording: /* Error: Ran out of types for this method. */;
 
 @end
 

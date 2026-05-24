@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface MKFLocalBulletinRegistration : HMDManagedObject
 {
@@ -16,7 +14,6 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *conditions; // @dynamic conditions;
 @property(nonatomic) _Bool enabled; // @dynamic enabled;
 
 @end

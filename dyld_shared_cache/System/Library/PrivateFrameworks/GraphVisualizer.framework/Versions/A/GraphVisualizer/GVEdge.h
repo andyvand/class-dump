@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GVNode;
-
 @interface GVEdge
 {
     _Bool reversed;
-    unsigned int redundancy;
-    unsigned int redundancyMax;
-    GVNode *from;
-    GVNode *to;
 }
 
 - (void);
@@ -24,17 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)TorchLevel;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GVNode *from; // @synthesize from;
-@property(nonatomic) unsigned int redundancy; // @synthesize redundancy;
-@property(nonatomic) unsigned int redundancyMax; // @synthesize redundancyMax;
 @property(nonatomic) _Bool reversed; // @synthesize reversed;
-@property(readonly, nonatomic) GVNode *to; // @synthesize to;
 
 @end
 

@@ -6,29 +6,27 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesUserProfileMetadata : LPSpecializationMetadata
 {
     NSString *_name;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (id);
+- (id)L;
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
+- (id)operationQueue:(id)arg1 ];
+- (id)%@> metrics=%@%{public}@%@;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
@@ -37,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

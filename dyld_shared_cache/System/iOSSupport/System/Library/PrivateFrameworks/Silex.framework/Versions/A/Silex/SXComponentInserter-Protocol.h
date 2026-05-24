@@ -7,9 +7,9 @@
 @protocol SXComponentInsertionConditionEngine;
 
 @protocol SXComponentInserter
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long componentTraits;
 @property(readonly, nonatomic) id <SXComponentInsertionConditionEngine> conditionEngine;
 @end
 

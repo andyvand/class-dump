@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactViewController, NSString;
-@protocol ABNewPersonViewControllerDelegate;
+@class CNContactViewController;
 
 @interface ABNewPersonViewController
 {
     void *_addressBook;
     void *_displayedPerson;
-    id <ABNewPersonViewControllerDelegate> _newPersonViewDelegate;
-    void *_parentGroup;
-    CNContactViewController *_cnContactViewController;
-    void *_parentSource;
-    CNContact *_mergeContact;
 }
 
 - (void);
@@ -34,12 +28,12 @@
 - (void *);
 - (void *);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -49,21 +43,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) void *addressBook;
 @property(retain, nonatomic) CNContactViewController *cnContactViewController; // @synthesize cnContactViewController=_cnContactViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) void *displayedPerson;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNContact *mergeContact; // @synthesize mergeContact=_mergeContact;
-@property(nonatomic) id <ABNewPersonViewControllerDelegate> newPersonViewDelegate;
-@property(nonatomic) void *parentGroup; // @synthesize parentGroup=_parentGroup;
 @property(nonatomic) void *parentSource; // @synthesize parentSource=_parentSource;
-@property(nonatomic) _Bool showsCancelButton;
-@property(readonly) Class superclass;
 
 @end
 

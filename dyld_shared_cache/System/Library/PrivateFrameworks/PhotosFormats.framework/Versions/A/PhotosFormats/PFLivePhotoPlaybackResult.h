@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset;
-
 @interface PFLivePhotoPlaybackResult
 {
     int _photoExifOrientation;
-    struct CGImage *_photo;
-    AVAsset *_videoAsset;
-    CDStruct_1b6d18a9 _photoTime;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (int);
-- (void);
-- (struct CGImage *);
-- (void);
+- (void)ge ring
+;
+- (struct CGImage *)%s(burst) burstIntervalSecs set to %d
+;
+- (void)_messageMailboxesExpressionForMailboxScope: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGImage *photo; // @synthesize photo=_photo;
-@property(nonatomic) int photoExifOrientation; // @synthesize photoExifOrientation=_photoExifOrientation;
-@property(nonatomic) CDStruct_1b6d18a9 photoTime; // @synthesize photoTime=_photoTime;
-@property(retain, nonatomic) AVAsset *videoAsset; // @synthesize videoAsset=_videoAsset;
 
 @end
 

@@ -9,43 +9,33 @@
 @interface SUCoreEventReporterActive
 {
     NSURL *_serverURL;
-    long long _attemptedSendCount;
-    long long _failedSendCount;
-    long long _discoveredRunningCount;
-    long long _discoveredSuspendedCount;
-    long long _discoveredCancelingCount;
 }
 
 + (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)removeUnderTitlebarView:(long long)arg1 withAssociatedWithView: /* Error: Ran out of types for this method. */;
+- (void)removeToolTip:(long long)arg1;
+- (void)removeTitlebarAccessoryViewControllerAtIndex:(long long)arg1;
+- (void)removeTarget:(long long)arg1 action:forControlEvents: /* Error: Ran out of types for this method. */;
+- (void)removeObserver:(long long)arg1 forKeyPath:context: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)radioButtonWithTitle:(id)arg1 target:action: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long)printOperationDidRunWithPrintOperation:success:contextInfo: /* Error: Ran out of types for this method. */;
+- (long long)presentingWindow;
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)(;
 
 // Remaining properties
-@property(nonatomic) long long attemptedSendCount; // @synthesize attemptedSendCount=_attemptedSendCount;
-@property(nonatomic) long long discoveredCancelingCount; // @synthesize discoveredCancelingCount=_discoveredCancelingCount;
-@property(nonatomic) long long discoveredRunningCount; // @synthesize discoveredRunningCount=_discoveredRunningCount;
-@property(nonatomic) long long discoveredSuspendedCount; // @synthesize discoveredSuspendedCount=_discoveredSuspendedCount;
-@property(nonatomic) long long failedSendCount; // @synthesize failedSendCount=_failedSendCount;
 @property(retain, nonatomic) NSURL *serverURL; // @synthesize serverURL=_serverURL;
 
 @end

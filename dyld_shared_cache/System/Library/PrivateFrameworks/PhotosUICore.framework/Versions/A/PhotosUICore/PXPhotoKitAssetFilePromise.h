@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAsset, PHAssetExportRequest;
+@class PHAsset, PHAssetExportRequest;
 
 @interface PXPhotoKitAssetFilePromise
 {
     PHAssetExportRequest *_exportRequest;
-    long long _variant;
-    long long _playbackStyle;
-    PHAsset *_asset;
-    NSString *_fileType;
 }
 
 + (id);
@@ -24,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) NSString *fileType; // @synthesize fileType=_fileType;
 
 @end
 

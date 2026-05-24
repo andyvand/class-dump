@@ -9,7 +9,6 @@
 @interface ML3DatabaseFunctionPointer : ML3DatabaseFunction
 {
     CDUnknownFunctionPointerType _functionPointer;
-    void *_userData;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) CDUnknownFunctionPointerType functionPointer; // @synthesize functionPointer=_functionPointer;
-@property(nonatomic) void *userData; // @synthesize userData=_userData;
 
 @end
 

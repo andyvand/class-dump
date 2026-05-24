@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AFAnalyticsEvent
 {
     unsigned long long _deliveryStream;
-    long long _type;
-    unsigned long long _timestamp;
-    long long _contextDataType;
-    NSData *_contextData;
-    NSString *_assistantId;
-    NSString *_speechId;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)#;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)c;
 - (id);
 - (id);
 - (void);
@@ -32,7 +24,7 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -44,13 +36,7 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assistantId; // @synthesize assistantId=_assistantId;
-@property(readonly, copy, nonatomic) NSData *contextData; // @synthesize contextData=_contextData;
-@property(readonly, nonatomic) long long contextDataType; // @synthesize contextDataType=_contextDataType;
 @property(readonly, nonatomic) unsigned long long deliveryStream; // @synthesize deliveryStream=_deliveryStream;
-@property(copy, nonatomic) NSString *speechId; // @synthesize speechId=_speechId;
-@property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

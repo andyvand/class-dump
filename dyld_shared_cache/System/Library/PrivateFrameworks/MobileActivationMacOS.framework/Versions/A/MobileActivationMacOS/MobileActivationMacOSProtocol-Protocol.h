@@ -5,5 +5,7 @@
 //
 
 @protocol MobileActivationMacOSProtocol
+- (void);
+- (void)5;
 @end
 

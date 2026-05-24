@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)Py;
 - (unsigned long long)'A;
 
 @end

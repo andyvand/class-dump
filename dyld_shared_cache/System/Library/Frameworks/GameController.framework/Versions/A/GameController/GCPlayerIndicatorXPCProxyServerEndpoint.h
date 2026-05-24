@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol GCPlayerIndicatorXPCProxyRemoteClientEndpointInterface, GCPlayerIndicatorXPCProxyServerEndpointDelegate, NSObject><NSCopying><NSSecureCoding, _GCControllerComponentDescription, _GCIPCEndpointConnection;
+@protocol GCPlayerIndicatorXPCProxyRemoteClientEndpointInterface, _GCControllerComponentDescription;
 
 __attribute__((visibility("hidden")))
 @interface GCPlayerIndicatorXPCProxyServerEndpoint
 {
     id <GCPlayerIndicatorXPCProxyRemoteClientEndpointInterface> _clientEndpoint;
-    id <_GCIPCEndpointConnection> _connection;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    unsigned long long _pendingUpdates;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    long long _playerIndex;
-    id <GCPlayerIndicatorXPCProxyServerEndpointDelegate> _delegate;
-    id _userInfo;
 }
 
 - (id);
@@ -30,28 +21,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GCPlayerIndicatorXPCProxyServerEndpointDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long playerIndex; // @synthesize playerIndex=_playerIndex;
 @property(readonly, nonatomic) id <_GCControllerComponentDescription> receiverDescription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -7,35 +7,24 @@
 @interface MRSphere
 {
     float *mVertices;
-    float *mTextureCoordinates;
-    float *mNormals;
-    unsigned int mLongitudeResolution;
-    unsigned int mLatitudeResolution;
-    float mHalfLongitudeAngle;
-    float mHalfLatitudeAngle;
-    float mRadius;
 }
 
 - (void);
 - (void);
+- (void).framework/Versions/A/CoreBrightness;
+- (void)y/PrivateFrameworks/CoreBrightness.framework/Versions/A/CoreBrightness;
 - (void);
-- (void);
-- (void);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)jsonEncodableAppConfiguration;
+- (unsigned int)envelopeContentType;
 - (float);
 - (float);
 - (void);
 - (id);
-- (void);
+- (void);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float halfLatitudeAngle; // @synthesize halfLatitudeAngle=mHalfLatitudeAngle;
-@property(nonatomic) float halfLongitudeAngle; // @synthesize halfLongitudeAngle=mHalfLongitudeAngle;
-@property(nonatomic) unsigned int latitudeResolution; // @synthesize latitudeResolution=mLatitudeResolution;
 @property(nonatomic) unsigned int longitudeResolution; // @synthesize longitudeResolution=mLongitudeResolution;
-@property(nonatomic) float radius; // @synthesize radius=mRadius;
 
 @end
 

@@ -9,14 +9,6 @@
 @interface AppStoreKit.ReviewsPage : AppStoreKit.GenericPage
 {
     id adamId;
-    id targetReviewId;
-    id sortOptions;
-    id initialSortOptionIdentifier;
-    id sortActionSheetTitle;
-    id ratings;
-    id productReviewActions;
-    id trailingNavBarAction;
-    id alwaysAllowReviews;
 }
 
 @end

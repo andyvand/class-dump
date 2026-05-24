@@ -4,13 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class MCFilter, NSArray, NSSet, NSXMLElement;
 
 @protocol MCFilterSupport
+- (void);
+- (void);
+- (MCFilter *)NDAnalyticsPayloadUploader";
+- (void)isMemberOfClass:(NSArray *)arg1;
+- (NSArray *)initWithLowWaterMark:highWaterMark:alwaysFlushKeysWithZeroInterest: /* Error: Ran out of types for this method. */;
+- (unsigned long long)devicePlatform;
+- (void)lyticsUploadScheduler initWithURLSessionQueue:(NSXMLElement *)arg1 ];
+- (MCFilter *)DAnalyticsUploadScheduler.m;
+- (NSSet *)interactiveCanvasController:performLockedAction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long countOfFilters;
 @property(readonly) NSSet *filters;
-@property(readonly) NSArray *orderedFilters;
 @end
 

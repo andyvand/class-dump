@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFRequestInfo, NSString;
+@class AFRequestInfo;
 
 @interface AFRemoteRequest
 {
     AFRequestInfo *_info;
-    NSString *_peerIdentifier;
 }
 
 - (void);
-- (void);
+- (void)gion '%@' has empty/nil networks, skipping;
 - (id);
 - (id);
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AFRequestInfo *info; // @synthesize info=_info;
-@property(copy, nonatomic) NSString *peerIdentifier; // @synthesize peerIdentifier=_peerIdentifier;
 
 @end
 

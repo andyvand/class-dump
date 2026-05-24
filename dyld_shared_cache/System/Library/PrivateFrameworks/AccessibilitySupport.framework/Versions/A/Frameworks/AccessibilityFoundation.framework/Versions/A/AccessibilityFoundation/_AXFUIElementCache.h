@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _AXFUIElementCache
 {
     struct __AXUIElement *_axElementRef;
-    long long _populationLevel;
-    NSArray *_accessibilityRows;
-    NSMutableDictionary *__attributeToValueCache;
 }
 
 + (id);
 + (id);
 + (id);
++ (long long);
 + (long long);
-+ (long long);
++ (id)P;
 + (id);
-+ (id);
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -42,12 +39,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_applicationWillTerminate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_attributeToValueCache; // @synthesize _attributeToValueCache=__attributeToValueCache;
-@property(retain, nonatomic) NSArray *accessibilityRows; // @synthesize accessibilityRows=_accessibilityRows;
-@property(nonatomic) long long populationLevel; // @synthesize populationLevel=_populationLevel;
 
 @end
 

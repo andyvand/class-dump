@@ -7,10 +7,6 @@
 @interface UIKit._UITimeline
 {
     id actions;
-    id timer;
-    id startTime;
-    id speed;
-    id amplifyDelays;
 }
 
 @end

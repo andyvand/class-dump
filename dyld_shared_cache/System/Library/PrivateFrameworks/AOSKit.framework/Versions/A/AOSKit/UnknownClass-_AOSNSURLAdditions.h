@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (_AOSNSURLAdditions)
-- (id);
+- (id)FS.framework/Versions/A/APFS;
 @end
 

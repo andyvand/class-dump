@@ -8,9 +8,6 @@
 {
     id _sessionState;
     id nfcCardSession;
-    id nfcEventStreamContinuation;
-    id nfcEventStream;
-    id _uiString;
 }
 
 @end

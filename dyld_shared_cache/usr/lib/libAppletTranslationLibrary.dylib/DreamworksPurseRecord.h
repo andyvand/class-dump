@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface DreamworksPurseRecord : DreamworksRecord
 {
     unsigned char _trt;
-    unsigned int _balance;
-    unsigned int _amount;
-    unsigned int _snSam;
-    unsigned long long _idSam;
 }
 
 + (id);
@@ -30,10 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int amount; // @synthesize amount=_amount;
-@property(nonatomic) unsigned int balance; // @synthesize balance=_balance;
-@property(nonatomic) unsigned long long idSam; // @synthesize idSam=_idSam;
-@property(nonatomic) unsigned int snSam; // @synthesize snSam=_snSam;
 @property(nonatomic) unsigned char trt; // @synthesize trt=_trt;
 
 @end

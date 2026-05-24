@@ -9,20 +9,17 @@
 @interface _PKPassImageConstruction_ImageRepresentation
 {
     struct CGPDFDocument *_documentRef;
-    PKImage *_image;
-    struct CGPDFPage *_pageRef;
 }
 
 + (id);
 + (id);
 - (struct CGPDFPage *);
-- (void);
+- (void);
 - (id);
 - (void)t"8;
 
 // Remaining properties
 @property(readonly, nonatomic) PKImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) struct CGPDFPage *pageRef; // @synthesize pageRef=_pageRef;
 
 @end
 

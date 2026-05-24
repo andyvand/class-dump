@@ -6,21 +6,11 @@
 
 #import <PassKitCore/PKPaymentOfferCriteria.h>
 
-@class NSSet, NSURL;
+@class NSURL;
 
 @interface PKPaymentOfferRewardsCriteria : PKPaymentOfferCriteria
 {
     _Bool _supportedDeferredPayments;
-    _Bool _supportedRecurringPayments;
-    NSURL *_redemptionTermsURL;
-    NSSet *_supportedCurrencyCodes;
-    NSSet *_supportedMerchantCountryCodes;
-    NSSet *_minimumAmounts;
-    NSSet *_maximumAmounts;
-    NSSet *_userEnteredMinimumAmounts;
-    NSSet *_userEnteredMaximumAmounts;
-    double _selectedOfferStickyDuration;
-    double _selectedOfferActiveDuration;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -40,36 +30,26 @@
 - (void);
 - (void);
 - (void);
+- (double)qa;
 - (double);
-- (double);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setNStatusUpdateDelayBin1:(id)arg1;
+- (void)AWDIMessageHealthCheckPerformed;
 - (id);
 - (id);
-- (id)referencesWithCompletion:(id)arg1;
-- (void)ptions;
+- (id)deletePreferencesWithCompletion:(id)arg1;
+- (void)lowBalanceReminderOptions;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *maximumAmounts; // @synthesize maximumAmounts=_maximumAmounts;
-@property(copy, nonatomic) NSSet *minimumAmounts; // @synthesize minimumAmounts=_minimumAmounts;
 @property(copy, nonatomic) NSURL *redemptionTermsURL; // @synthesize redemptionTermsURL=_redemptionTermsURL;
-@property(nonatomic) double selectedOfferActiveDuration; // @synthesize selectedOfferActiveDuration=_selectedOfferActiveDuration;
-@property(nonatomic) double selectedOfferStickyDuration; // @synthesize selectedOfferStickyDuration=_selectedOfferStickyDuration;
-@property(copy, nonatomic) NSSet *supportedCurrencyCodes; // @synthesize supportedCurrencyCodes=_supportedCurrencyCodes;
-@property(nonatomic) _Bool supportedDeferredPayments; // @synthesize supportedDeferredPayments=_supportedDeferredPayments;
-@property(copy, nonatomic) NSSet *supportedMerchantCountryCodes; // @synthesize supportedMerchantCountryCodes=_supportedMerchantCountryCodes;
-@property(nonatomic) _Bool supportedRecurringPayments; // @synthesize supportedRecurringPayments=_supportedRecurringPayments;
-@property(copy, nonatomic) NSSet *userEnteredMaximumAmounts; // @synthesize userEnteredMaximumAmounts=_userEnteredMaximumAmounts;
-@property(copy, nonatomic) NSSet *userEnteredMinimumAmounts; // @synthesize userEnteredMinimumAmounts=_userEnteredMinimumAmounts;
 
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, TRIGenericUniqueRequiredAssets;
+@class TRIGenericUniqueRequiredAssets;
 
 @interface TRITreatmentAssetFetchPlan
 {
     TRIGenericUniqueRequiredAssets *_metadataForRequestedUnlinkedAssets;
-    NSDictionary *_fetchPlansForTreatmentIds;
 }
 
-+ (id);
++ (id)initForReadingFromData:(id)arg1 error:(id)arg2;
 - (id);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *fetchPlansForTreatmentIds; // @synthesize fetchPlansForTreatmentIds=_fetchPlansForTreatmentIds;
 @property(readonly, nonatomic) TRIGenericUniqueRequiredAssets *metadataForRequestedUnlinkedAssets; // @synthesize metadataForRequestedUnlinkedAssets=_metadataForRequestedUnlinkedAssets;
 
 @end

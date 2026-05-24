@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDTemplatePlaceModuleConfiguration, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDHikingAssociationModuleConfiguration
 {
     PBUnknownFields *_unknownFields;
-    GEOPDTemplatePlaceModuleConfiguration *_templatePlaceConfiguration;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ead_mapsIdentifierPlaceLookupResult"b1"read_mapsSearchHomeResult"b1"read_merchantLookupResult"b1"read_nearbySearchResult"b1"read_offlineRegionNameResult"b1"read_placeCollectionLookupResult"b1"read_placeDescriptorResolutionResult"b1"read_placeGlobalCommonResult"b1"read_placeLookupResult"b1"read_placeRefinementResult"b1"read_placecardEnrichmentResult"b1"read_poiAtAddressLookupResult"b1"read_popularNearbySearchResult"b1"read_publisherViewResult"b1"read_queryUnderstandingResult"b1"read_reverseGeocodingResult"b1"read_searchCapabilitiesResult"b1"read_searchFieldPlaceholderResult"b1"read_searchResult"b1"read_searchZeroKeywordCategorySuggestionResult"b1"read_searchZeroKeywordWithSearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)ticeIndex;
+- (id)_enrouteNoticeIndex;
 - (id)¬W#¼Y;
 - (void)DúíëÀ7z@;
 

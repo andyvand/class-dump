@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSConnection, NSMutableDictionary, NSProtocolChecker;
 @protocol NSSpellServerDelegate;
 
 @interface NSSpellServer
 {
     id _delegate;
-    NSConnection *_spellServerConnection;
-    NSMutableDictionary *_dictionaries;
-    NSArray *_learnedDictionaries;
-    struct __ssFlags {
-        unsigned int delegateLearnsWords:1;
-        unsigned int delegateForgetsWords:1;
-        unsigned int busy:1;
-        unsigned int caseSensitive:1;
-        unsigned int _reserved:28;
-    } _ssFlags;
-    NSProtocolChecker *_checker;
 }
 
 - (long long);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct __CFSet *);
 - (id);
 - (id);
 - (id);
-- (id);
-- (bycopy id);
+- (id)@;
+- (bycopy id);
 - (bycopy id);
 - (bycopy id);
 - (bycopy id);
@@ -51,7 +39,7 @@
 - (_Bool);
 - (_Bool);
 - (oneway void);
-- (_Bool);
+- (_Bool);
 - (struct _NSRange);
 - (bycopy id);
 - (bycopy id);

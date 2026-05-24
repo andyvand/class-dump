@@ -7,17 +7,6 @@
 @interface RemindersUICore.TTRRemindersListEditingSessionState
 {
     id item;
-    id saveState;
-    id isMarkedForDeletion;
-    id deletesIfTitleIsInvalid;
-    id doNotSave;
-    id firstEditObservation;
-    id registeredUndoForAddingReminder;
-    id reminderChangeItem;
-    id pendingMoveTargetList;
-    id sharedProperties;
-    id acquirerNames;
-    id undoContext;
 }
 
 @end

@@ -4,60 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, IDSBaseSocketPairConnection, IDSGroupEncryptionKeyMaterialCache, NSArray, NSDictionary, NSError, NSMutableArray, NSMutableDictionary, NSMutableSet, NSNumber, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface _IDSGroupSession
 {
     id _delegateContext;
-    id _boostContext;
-    NSString *_uniqueID;
-    NSString *_instanceID;
-    NSString *_accountID;
-    NSSet *_destinations;
-    NSDictionary *_destinationsLightweightStatus;
-    NSString *_fromID;
-    IDSBaseSocketPairConnection *_unreliableSocketPairConnection;
-    CUTWeakReference *_delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isInvalidated;
-    unsigned int _state;
-    long long _transportType;
-    unsigned long long _connectionCountHint;
-    _Bool _needsToWaitForPreConnectionData;
-    _Bool _disallowCellularInterface;
-    _Bool _disallowWifiInterface;
-    _Bool _isInitiator;
-    unsigned long long _preferredAddressFamily;
-    _Bool _preferCellularForCallSetup;
-    NSString *_clientUUID;
-    _Bool _alwaysSkipSelf;
-    _Bool _startAsUPlusOneSession;
-    _Bool _isLightweightParticipant;
-    _Bool _callScreeningMode;
-    unsigned int _sessionEndedReason;
-    NSMutableDictionary *_preferences;
-    NSMutableDictionary *_sessionConfig;
-    _Bool _useConfServer;
-    NSString *_stableGroupID;
-    NSString *_groupID;
-    NSDictionary *_participantInfo;
-    NSArray *_existingParticipants;
-    NSError *_joinLeaveError;
-    NSNumber *_qrReason;
-    NSNumber *_previousError;
-    unsigned long long _localParticipantID;
-    NSSet *_activeParticipantCache;
-    NSSet *_activeLigthweightParticipantCache;
-    NSMutableSet *_activePluginsCache;
-    IDSGroupEncryptionKeyMaterialCache *_keyMaterialCache;
-    NSMutableArray *_dataCryptorRequests;
-    NSMutableDictionary *_URIsToParticipantIDRequests;
-    NSMutableDictionary *_createParticipantIDAliasCallbacks;
-    NSMutableDictionary *_getParticipantIDForAliasCallbacks;
-    NSMutableArray *_getParticipantIDForAliasDelegateQueueCallbacks;
-    NSSet *_requiredCapabilities;
-    NSSet *_requiredLackOfCapabilities;
 }
 
 + (void);
@@ -66,19 +17,22 @@
 - (void);
 - (void);
 - (void);
+- (void)Sk;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
+- (void)T_;
+- (void)_;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,19 +42,16 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -114,10 +65,10 @@
 - (void);
 - (void);
 - (void);
+- (void)_;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -126,7 +77,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -147,10 +98,10 @@
 - (void);
 - (void);
 - (id);
+- (void)Th: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned int);
-- (void);
+- (unsigned int)importDelta:sourceName:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)cation;
 - (id);
 - (void);
 - (void);
@@ -162,20 +113,6 @@
 - (id)nd data to this destination from this account %@;
 
 // Remaining properties
-@property(retain, nonatomic) id boostContext; // @synthesize boostContext=_boostContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isLightweightParticipant; // @synthesize isLightweightParticipant=_isLightweightParticipant;
-@property(readonly, nonatomic) unsigned long long localParticipantID; // @synthesize localParticipantID=_localParticipantID;
-@property(readonly, nonatomic) NSSet *requiredCapabilities; // @synthesize requiredCapabilities=_requiredCapabilities;
-@property(readonly, nonatomic) NSSet *requiredLackOfCapabilities; // @synthesize requiredLackOfCapabilities=_requiredLackOfCapabilities;
-@property(readonly, nonatomic) unsigned int sessionEndedReason;
-@property(readonly, nonatomic) unsigned int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

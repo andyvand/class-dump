@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet;
-
 @interface SPFinderStateInfo
 {
     _Bool _state;
-    _Bool _optInScreenOffScan;
-    NSDate *_lastUpdated;
-    NSDate *_lastPublishDate;
-    NSDate *_lastScheduledPublishActivityDate;
-    long long _activeCache;
-    NSArray *_disabledReasonsArray;
 }
 
 + (_Bool);
 + (_Bool);
+- (id)a;
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
@@ -32,22 +24,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)%O;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)policySetWithAuthenticationPolicies:passwordChangePolicies:passwordContentPolicies: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long activeCache; // @synthesize activeCache=_activeCache;
-@property(readonly, copy, nonatomic) NSSet *disabledReasons;
-@property(retain, nonatomic) NSArray *disabledReasonsArray; // @synthesize disabledReasonsArray=_disabledReasonsArray;
-@property(copy, nonatomic) NSDate *lastPublishDate; // @synthesize lastPublishDate=_lastPublishDate;
-@property(copy, nonatomic) NSDate *lastScheduledPublishActivityDate; // @synthesize lastScheduledPublishActivityDate=_lastScheduledPublishActivityDate;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(nonatomic) _Bool optInScreenOffScan; // @synthesize optInScreenOffScan=_optInScreenOffScan;
 @property(nonatomic) _Bool state; // @synthesize state=_state;
 
 @end

@@ -10,19 +10,17 @@
 @interface FAFamilyCircleRequest
 {
     NSString *_usernameOrDSID;
-    NSString *_passwordOrToken;
-    id <FAFamilyCircleRequestConnectionProvider> _connectionProvider;
 }
 
+- (id)activationAudioAlertDuration;
+- (id)GeniusSummon;
+- (void)Tail;
+- (void)urlInformation;
+- (void)filter;
+- (id)defaultMediaPlaybackAppBundleIdentifier;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <FAFamilyCircleRequestConnectionProvider> connectionProvider; // @synthesize connectionProvider=_connectionProvider;
-@property(copy) NSString *passwordOrToken; // @synthesize passwordOrToken=_passwordOrToken;
-@property(copy) NSString *usernameOrDSID; // @synthesize usernameOrDSID=_usernameOrDSID;
 
 @end
 

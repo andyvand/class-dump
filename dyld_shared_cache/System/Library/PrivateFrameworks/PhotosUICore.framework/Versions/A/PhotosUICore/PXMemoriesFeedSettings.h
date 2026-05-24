@@ -9,23 +9,11 @@
 @interface PXMemoriesFeedSettings : PXSettings
 {
     _Bool _useSlowAnimations;
-    _Bool _forceReloadAfterRefresh;
-    _Bool _disableRoundedOverlays;
-    _Bool _rankMemoriesByRelevanceScore;
-    _Bool _displayContentDuringGraphRebuild;
-    _Bool _alwaysShowOnboarding;
-    long long _dataSourceType;
-    long long _memoryGroupingMethod;
-    double _memoryGroupingInterval;
-    double _additionalContentThreshold;
-    unsigned long long _groupsPerBatch;
-    long long _favoriteMemoriesSortOrder;
-    long long _sharingBehavior;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)treatmentGroups;
 + (id);
 - (_Bool);
 - (void);
@@ -35,10 +23,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (long long);
@@ -46,7 +34,7 @@
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -58,19 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double additionalContentThreshold; // @synthesize additionalContentThreshold=_additionalContentThreshold;
-@property(nonatomic) _Bool alwaysShowOnboarding; // @synthesize alwaysShowOnboarding=_alwaysShowOnboarding;
 @property(nonatomic) long long dataSourceType; // @synthesize dataSourceType=_dataSourceType;
-@property(nonatomic) _Bool disableRoundedOverlays; // @synthesize disableRoundedOverlays=_disableRoundedOverlays;
-@property(nonatomic) _Bool displayContentDuringGraphRebuild; // @synthesize displayContentDuringGraphRebuild=_displayContentDuringGraphRebuild;
-@property(nonatomic) long long favoriteMemoriesSortOrder; // @synthesize favoriteMemoriesSortOrder=_favoriteMemoriesSortOrder;
-@property(nonatomic) _Bool forceReloadAfterRefresh; // @synthesize forceReloadAfterRefresh=_forceReloadAfterRefresh;
-@property(nonatomic) unsigned long long groupsPerBatch; // @synthesize groupsPerBatch=_groupsPerBatch;
-@property(nonatomic) double memoryGroupingInterval; // @synthesize memoryGroupingInterval=_memoryGroupingInterval;
-@property(nonatomic) long long memoryGroupingMethod; // @synthesize memoryGroupingMethod=_memoryGroupingMethod;
-@property(nonatomic) _Bool rankMemoriesByRelevanceScore; // @synthesize rankMemoriesByRelevanceScore=_rankMemoriesByRelevanceScore;
-@property(nonatomic) long long sharingBehavior; // @synthesize sharingBehavior=_sharingBehavior;
-@property(nonatomic) _Bool useSlowAnimations; // @synthesize useSlowAnimations=_useSlowAnimations;
 
 @end
 

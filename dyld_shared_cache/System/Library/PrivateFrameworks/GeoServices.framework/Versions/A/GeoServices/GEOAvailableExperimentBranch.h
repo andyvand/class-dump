@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString;
+@class NSArray, NSString;
 
 @interface GEOAvailableExperimentBranch
 {
     NSString *_label;
-    NSString *_name;
-    NSString *_experimentIdentifier;
-    NSMutableArray *_assignments;
-    NSArray *_clientConfig;
 }
 
-- (id);
+- (id)delaySubscription:(long long)arg1 scheduler:(int)arg2;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id)indowStartTime: /* Error: Ran out of types for this method. */;
+- (_Bool)queryTokens;
+- (id)setHasWindowStartTime: /* Error: Ran out of types for this method. */;
 - (void)6;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
 @property(retain, nonatomic, getter=_clientConfig, setter=_setClientConfig:) NSArray *clientConfig; // @synthesize clientConfig=_clientConfig;
-@property(readonly, nonatomic) NSDictionary *clientConfigValues;
-@property(readonly, nonatomic, getter=_dictionaryRepresentation) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

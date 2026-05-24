@@ -14,7 +14,7 @@
 + (id);
 + (void);
 - (_Bool);
-- (id);
+- (id)storedIsAccessibilityElement;
 
 @end
 

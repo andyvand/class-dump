@@ -6,19 +6,9 @@
 
 #import <MLCompute/MLCDeviceOps.h>
 
-@class NSArray, NSMutableArray, NSString, _ANERequest, _MLCANEModel, _MLCANEPlistBuilder;
-
 @interface MLCANEDeviceOps : MLCDeviceOps
 {
     int _deviceOpType;
-    NSArray *_units;
-    id _params;
-    NSString *_procedureName;
-    unsigned long long _procedureIndex;
-    _MLCANEModel *_model;
-    _ANERequest *_request;
-    NSMutableArray *_constantTensors;
-    _MLCANEPlistBuilder *_plistBuilder;
 }
 
 + (id);
@@ -33,23 +23,15 @@
 - (id);
 - (id);
 - (void);
+- (id)I ;
+- (void) ;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)l;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *constantTensors; // @synthesize constantTensors=_constantTensors;
 @property(readonly, nonatomic) int deviceOpType; // @synthesize deviceOpType=_deviceOpType;
-@property(retain, nonatomic) _MLCANEModel *model; // @synthesize model=_model;
-@property(readonly, retain, nonatomic) id params; // @synthesize params=_params;
-@property(retain, nonatomic) _MLCANEPlistBuilder *plistBuilder; // @synthesize plistBuilder=_plistBuilder;
-@property(nonatomic) unsigned long long procedureIndex; // @synthesize procedureIndex=_procedureIndex;
-@property(retain, nonatomic) NSString *procedureName; // @synthesize procedureName=_procedureName;
-@property(retain, nonatomic) _ANERequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSArray *units; // @synthesize units=_units;
 
 @end
 

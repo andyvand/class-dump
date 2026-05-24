@@ -11,15 +11,9 @@
 @interface ChatKit.TapbackPickerBalloonAccessoryView : ChatKit.TapbackPickerBalloonView
 {
     id hasPresentedEmojiTail;
-    id cancelButton;
-    id $__lazy_storage_$_backwardArrow;
-    id $__lazy_storage_$_forwardArrow;
-    id collectionViewContainer;
-    id hoverGestureRecognizer;
-    id tapbackPickerCollectionView;
 }
 
-- (void);
+- (void)e;
 - (id)±°1Â0@ù
 × ;
 - (void)pre;

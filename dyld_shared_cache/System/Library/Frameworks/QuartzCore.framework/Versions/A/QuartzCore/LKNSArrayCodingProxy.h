@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSArray *_array;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);

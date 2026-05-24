@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface TUVideoEffect
 {
     NSString *_name;
-    UIImage *_thumbnailImage;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)duleProtocol>"B>24;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) UIImage *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
 
 @end
 

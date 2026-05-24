@@ -6,26 +6,12 @@
 
 #import <MetalTools/MTL4ToolsComputeCommandEncoder.h>
 
-@class MTLGPUDebugComputePipelineState, NSString;
-@protocol MTL4ArgumentTable, MTLLibrary;
-
 @interface MTL4GPUDebugComputeCommandEncoder : MTL4ToolsComputeCommandEncoder
 {
     unsigned int useResourceIteration;
-    _Bool _enableUseResourceValidation;
-    unsigned int _commandBufferJumpNestingLevel;
-    struct Options *_options;
-    struct MTLGPUDebugThreadgroupLengths _threadgroup;
-    struct GPUDebugEventUUIDPacket _dispatchID;
-    MTLGPUDebugComputePipelineState *_currentPipeline;
-    struct GPUDebugEncoderBoundBufAddress _computeEncoderBoundBufAddressTable[31];
-    struct GPUDebugEncoderBoundBuffers _computeEncoderBoundBuffers[31];
-    unsigned long long _internalBindingTable[40];
-    id <MTL4ArgumentTable> currentArgumentTable;
-    id <MTLLibrary> _accelerationStructureSupportLibrary;
 }
 
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
@@ -46,10 +32,10 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)I?;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool).;
 - (void);
 - (void);
 - (void);
@@ -68,7 +54,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,14 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned int encoderID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

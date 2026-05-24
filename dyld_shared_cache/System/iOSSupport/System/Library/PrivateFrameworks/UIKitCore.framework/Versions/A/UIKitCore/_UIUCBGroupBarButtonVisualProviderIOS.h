@@ -6,30 +6,26 @@
 
 #import <UIKitCore/_UIUCBBarButtonVisualProviderIOS.h>
 
-@class UIColor, _UIUCBKBSelectionBackground;
-@protocol _UIButtonBarAppearanceDelegate;
+@class _UIUCBKBSelectionBackground;
 
 __attribute__((visibility("hidden")))
 @interface _UIUCBGroupBarButtonVisualProviderIOS : _UIUCBBarButtonVisualProviderIOS
 {
     _UIUCBKBSelectionBackground *_selectionBackgroundView;
-    id <_UIButtonBarAppearanceDelegate> _appearanceDelegate;
-    _Bool _lightKeyboard;
-    UIColor *_tintColor;
 }
 
-+ (id);
++ (id)NSURLErrorCancelledReasonInsufficientSystemResources;
 + (id)}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40@"NSTextContainer"72{_NSRange=QQ}80^B96;
-- (void);
+- (void)`Lz c!;
 - (long long);
 - (void);
 - (void)±`1Â0@ù
 × ;
 - (_Bool);
 - (_Bool)8@16{CGPoint=dd}24B40;
-- (id)ld;
-- (id)yLabel;
-- (id)GeneratorConfiguration;
+- (id)_canToggleBold;
+- (id)_bodyLabel;
+- (id)_UIDragSnappingFeedbackGeneratorConfiguration;
 - (void)¦.3y¡¾7GGGALyÛ.3yÀÚ.3yÚ.3yÙ.3yALyAAy_ABy¸;
 - (_Bool);
 - (void);

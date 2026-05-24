@@ -6,24 +6,12 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class CMDrawableStyle, NSData, NSString, OADDrawable, OADOrientedBounds;
+@class OADDrawable;
 
 __attribute__((visibility("hidden")))
 @interface CMDrawableMapper : CMMapper
 {
     OADDrawable *mDrawable;
-    CMDrawableStyle *mStyle;
-    NSData *mImageBinaryData;
-    NSString *mName;
-    NSString *mExtension;
-    int mResourceType;
-    NSString *mSourcePath;
-    struct CGRect mBox;
-    float mRotation;
-    _Bool mIsSupported;
-    _Bool mIsCropped;
-    struct CGRect mUncroppedBox;
-    OADOrientedBounds *mOrientedBounds;
 }
 
 - (struct CGRect);
@@ -33,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
+- (void)qi;
+- (void);
 - (_Bool);
 - (id);
 - (id);

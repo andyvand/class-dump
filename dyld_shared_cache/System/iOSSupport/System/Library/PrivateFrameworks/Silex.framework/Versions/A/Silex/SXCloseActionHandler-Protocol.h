@@ -5,5 +5,6 @@
 //
 
 @protocol SXCloseActionHandler
+- (void);
 @end
 

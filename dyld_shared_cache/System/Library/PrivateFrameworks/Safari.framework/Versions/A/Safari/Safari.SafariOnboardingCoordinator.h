@@ -9,7 +9,6 @@
 @interface Safari.SafariOnboardingCoordinator
 {
     id stateManager;
-    id $__lazy_storage_$_currentStartPageOnboardingProviders;
 }
 
 + (id);

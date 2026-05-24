@@ -6,27 +6,19 @@
 
 #import <EmojiFoundation/EMFDPRecorder.h>
 
-@class BMSource, NSLocale, NSNumber, NSString;
+@class BMSource;
 
 @interface EMFBiomeEmojiUsageRecorder : EMFDPRecorder
 {
     _Bool _wasPositiveEngagement;
-    NSLocale *_locale;
-    NSString *_localeIdentifier;
-    unsigned long long _usageSource;
-    NSString *_replacementContext;
-    NSString *_searchQuery;
-    NSNumber *_resultPosition;
-    NSNumber *_numberSearchQueriesRun;
-    BMSource *_biomeStream;
 }
 
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)Window;
+- (unsigned long long)u);
+- (id)lView?isCompact=true;
+- (id)x2;
+- (id)t asking whether the user wants to open an external app.;
+- (id)e you want to block all cookies?;
 - (id);
 - (void);
 - (id);
@@ -41,14 +33,6 @@
 
 // Remaining properties
 @property(retain) BMSource *biomeStream; // @synthesize biomeStream=_biomeStream;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(readonly, nonatomic) NSNumber *numberSearchQueriesRun; // @synthesize numberSearchQueriesRun=_numberSearchQueriesRun;
-@property(readonly, nonatomic) NSString *replacementContext; // @synthesize replacementContext=_replacementContext;
-@property(readonly, nonatomic) NSNumber *resultPosition; // @synthesize resultPosition=_resultPosition;
-@property(readonly, nonatomic) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(readonly, nonatomic) unsigned long long usageSource; // @synthesize usageSource=_usageSource;
-@property(readonly, nonatomic) _Bool wasPositiveEngagement; // @synthesize wasPositiveEngagement=_wasPositiveEngagement;
 
 @end
 

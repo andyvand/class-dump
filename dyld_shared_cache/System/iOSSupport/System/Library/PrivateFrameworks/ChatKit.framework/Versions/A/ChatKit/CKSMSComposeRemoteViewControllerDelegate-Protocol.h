@@ -5,5 +5,6 @@
 //
 
 @protocol CKSMSComposeRemoteViewControllerDelegate
+- (void);
 @end
 

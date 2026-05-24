@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetInspectorLoader, AVDispatchOnce, NSArray, NSData, NSDictionary, NSURL;
+@class AVAssetInspectorLoader;
 
 __attribute__((visibility("hidden")))
 @interface AVMovieInternal
 {
     AVAssetInspectorLoader *loader;
-    NSURL *URL;
-    NSData *data;
-    NSDictionary *initializationOptions;
-    NSArray *tracks;
-    AVDispatchOnce *makeTracksArrayOnce;
 }
 
-- (void)s;
+- (void)metadataItems;
 
 @end
 

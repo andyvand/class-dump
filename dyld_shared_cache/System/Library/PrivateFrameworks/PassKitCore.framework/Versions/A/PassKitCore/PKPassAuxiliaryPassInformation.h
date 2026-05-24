@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPassAuxiliaryPassInformation
 {
     NSString *_identifier;
-    NSString *_title;
-    NSArray *_items;
 }
 
 + (_Bool)î%1Â0@ù
@@ -19,20 +17,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)itemCountSuccessful;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)StorePaymentOffers;
-- (id)ActionContent;
+- (void)_allSelectedInStorePaymentOffers;
+- (id)PKPaymentPassActionExternalActionContent;
 - (void)fest at %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

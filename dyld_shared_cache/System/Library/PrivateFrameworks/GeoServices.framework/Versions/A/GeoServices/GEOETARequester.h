@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable, geo_isolater;
+@class geo_isolater;
 
 @interface GEOETARequester
 {
     geo_isolater *_isolater;
-    NSHashTable *_pendingSimpleRequests;
-    NSMapTable *_pendingRequests;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void)C identity is not a bundle identifier:(id)arg1 %{public}@;
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)ck_invoke;
+- (_Bool)setShouldIncludeAppIdInRequest:(id)arg1;
+- (void);
 - (void)^5;
 
 @end

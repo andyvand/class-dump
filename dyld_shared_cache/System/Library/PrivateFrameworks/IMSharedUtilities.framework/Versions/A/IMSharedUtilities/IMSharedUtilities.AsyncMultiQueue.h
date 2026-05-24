@@ -7,9 +7,6 @@
 @interface IMSharedUtilities.AsyncMultiQueue
 {
     id $defaultActor;
-    id priority;
-    id bufferingPolicy;
-    id lanes;
 }
 
 @end

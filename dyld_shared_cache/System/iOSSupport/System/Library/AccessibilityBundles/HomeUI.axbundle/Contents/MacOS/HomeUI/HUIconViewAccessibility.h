@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
-- (id);
+- (id)MUPlaceHeaderViewAccessibility;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CalVirtualConference
 {
     _Bool _isWritable;
-    unsigned long long _source;
-    NSArray *_joinMethods;
-    NSString *_title;
-    NSString *_conferenceDetails;
 }
 
 - (id);
@@ -26,11 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *conferenceDetails; // @synthesize conferenceDetails=_conferenceDetails;
-@property(readonly, nonatomic) _Bool isWritable; // @synthesize isWritable=_isWritable;
-@property(readonly, nonatomic) NSArray *joinMethods; // @synthesize joinMethods=_joinMethods;
 @property(readonly, nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

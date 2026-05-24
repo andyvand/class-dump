@@ -7,16 +7,12 @@
 @interface TeaUI.MenuManager
 {
     id menu;
-    id menuItems;
-    id alternateMenuItems;
-    id stagedMenuActions;
-    id stagedAlternateMenuActions;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)text;
 - (_Bool);
 - (void)Äýÿÿÿ;
 

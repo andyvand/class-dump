@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface ADKeyedParameterList
 {
     NSString *_key;
-    NSMutableArray *_parameterLists;
 }
 
 + (Class);
@@ -17,11 +16,11 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id);
+- (void);
+- (void)B;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,12 +29,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)֏;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSMutableArray *parameterLists; // @synthesize parameterLists=_parameterLists;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _SFECKeyPair, _SFECPublicKey;
+@class _SFECKeyPair;
 
 @interface _SFECDHKeySource
 {
@@ -12,15 +12,14 @@
 }
 
 - (void);
-- (void);
-- (id);
+- (void)h ;
+- (id) ;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _SFECKeyPair *localKeyPair;
-@property(retain, nonatomic) _SFECPublicKey *remotePublicKey;
 
 @end
 

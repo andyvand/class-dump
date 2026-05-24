@@ -6,16 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHCollectionList, PHObject;
-@protocol PXFastEnumeration;
+@class PHCollectionList;
 
 @interface PXRearrangeBookmarksAction : PXPhotosAction
 {
     id undoBookmarks;
-    id redoBookmarks;
-    PHCollectionList *collectionList;
-    id <PXFastEnumeration> movedObjects;
-    PHObject *targetObject;
 }
 
 + (_Bool);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -31,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) PHCollectionList *collectionList; // @synthesize collectionList;
-@property(nonatomic, readonly) id <PXFastEnumeration> movedObjects; // @synthesize movedObjects;
-@property(nonatomic, readonly) PHObject *targetObject; // @synthesize targetObject;
 
 @end
 

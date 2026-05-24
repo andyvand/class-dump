@@ -9,32 +9,24 @@
 @interface EspressoDataFrameAttachment
 {
     _Bool _disabled;
-    NSString *_filePath;
-    void *_rawPointer;
-    unsigned long long _offset;
-    unsigned long long _size;
 }
 
 + (id);
 - (void);
 - (void);
 - (void *);
-- (unsigned long long);
+- (unsigned long long)+2_9;
+- (void),�0;
 - (void);
-- (void);
-- (id);
+- (id)Ԛ;
 - (void)<Ëµ;
 - (void);
-- (unsigned long long)arams_tEEE;
-- (_Bool)tionsManager4ImplC1ENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES9_EUlRNS0_18AOTCompilerOptionsERKN7cxxopts11OptionValueEE4_;
+- (unsigned long long)N8Espresso20kernel_with_uniformsINS_28precompiled_segment_params_tEEE;
+- (_Bool)ZN8Espresso3AOT25AOTCompilerOptionsManager4ImplC1ENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEES9_EUlRNS0_18AOTCompilerOptionsERKN7cxxopts11OptionValueEE4_;
 - (void)error_code_tvEEE;
 
 // Remaining properties
-@property _Bool disabled; // @synthesize disabled=_disabled;
 @property(retain) NSString *filePath; // @synthesize filePath=_filePath;
-@property unsigned long long offset; // @synthesize offset=_offset;
-@property void *rawPointer; // @synthesize rawPointer=_rawPointer;
-@property unsigned long long size; // @synthesize size=_size;
 
 @end
 

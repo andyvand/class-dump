@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id);
+- (void)0@?44;
+- (id)_numReadReceiptsNoMessage;
 - (_Bool);
 - (void);
 - (struct CGSize)ùñd1Â0@ù

@@ -7,8 +7,6 @@
 @interface AppStoreKit.ImpressionableArtwork
 {
     id art;
-    id id;
-    id impressionMetrics;
 }
 
 @end

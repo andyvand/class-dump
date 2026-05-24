@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSSet, NSString, NSXPCListener;
-@protocol OS_dispatch_queue, UIDraggingSystemMonitorDelegate;
+@class NSSet, NSXPCListener;
 
 @interface UIDraggingSystemMonitor
 {
     NSXPCListener *_systemListener;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSMapTable *_sessionsBySessionInfo;
-    id <UIDraggingSystemMonitorDelegate> _delegate;
 }
 
 + (id);
 + (id)¢bþq;
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)he message record we want to reset sync state:(id)arg1 %@;
 - (oneway void);
 - (oneway void);
-- (id);
+- (id)dataForKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)á°!<Bùñ\1Â0@ù
 × ;
@@ -32,15 +28,7 @@
 - (id)]0S;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIDraggingSystemMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *sessions;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,13 +11,12 @@
 @interface ICTableVersionedDocument : ICTTVersionedDocument
 {
     ICCRDocument *_innerTableDocument;
-    ICTable *_table;
 }
 
 + (unsigned int);
 + (unsigned int);
 - (unsigned long long);
-- (id);
+- (id)__TEXT;
 - (id);
 - (id);
 - (void);
@@ -26,7 +25,6 @@
 - (void)$;
 
 // Remaining properties
-@property(readonly) ICCRDocument *innerTableDocument; // @synthesize innerTableDocument=_innerTableDocument;
 @property(retain, nonatomic) ICTable *table; // @synthesize table=_table;
 
 @end

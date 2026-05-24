@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RBSAuditToken
 {
     CDStruct_4c969caf _auditToken;
@@ -18,28 +16,19 @@
 + (id);
 - (int);
 - (int);
-- (id);
+- (id)u;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (void);
-- (CDStruct_4c969caf);
+- (CDStruct_4c969caf)uint32_t;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int pid; // @dynamic pid;
-@property(readonly, nonatomic) int pidversion;
-@property(readonly, nonatomic) CDStruct_4c969caf realToken; // @synthesize realToken=_auditToken;
-@property(readonly) Class superclass;
 
 @end
 

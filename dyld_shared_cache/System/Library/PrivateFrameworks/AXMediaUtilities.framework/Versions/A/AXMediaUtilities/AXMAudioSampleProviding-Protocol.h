@@ -5,5 +5,6 @@
 //
 
 @protocol AXMAudioSampleProviding
+- (double);
 @end
 

@@ -70,9 +70,9 @@ struct IOUSBEndpointDescriptor {
 };
 
 struct IOUSBHostCIMessage {
-    unsigned int control;
-    unsigned int data0;
-    unsigned long long data1;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned long long _field3;
 };
 
 struct IOUSBHostIOSourceDescriptors {

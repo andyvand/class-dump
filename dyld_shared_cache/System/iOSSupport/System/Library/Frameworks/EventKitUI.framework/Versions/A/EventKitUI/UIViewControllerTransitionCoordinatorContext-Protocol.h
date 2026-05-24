@@ -7,6 +7,7 @@
 @class UIView, UIViewController;
 
 @protocol UIViewControllerTransitionCoordinatorContext
+- (_Bool)H ;
 - (double);
 - (UIViewController *)1Â0@ù
 × ;
@@ -16,25 +17,14 @@
 × ;
 - (_Bool)1Â0@ù
 × ;
-- (_Bool)Rule: /* Error: Ran out of types for this method. */;
-- (_Bool)or: /* Error: Ran out of types for this method. */;
-- (UIView *)ngValid;
-- (double)tonForEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)setRecurrenceRule: /* Error: Ran out of types for this method. */;
+- (_Bool)dayViewContentInsetAdjustmentBehavior: /* Error: Ran out of types for this method. */;
+- (UIView *)_pinningValid;
+- (double)_defaultStringForDeleteButtonForEvent: /* Error: Ran out of types for this method. */;
 - (double)ius;
 - (long long)T@"<EKDayTimeViewDelegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
-@property(readonly, nonatomic) UIView *containerView;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration;
 @end
 

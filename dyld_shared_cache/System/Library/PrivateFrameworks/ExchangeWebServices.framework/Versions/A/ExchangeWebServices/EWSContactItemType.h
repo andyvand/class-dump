@@ -6,40 +6,11 @@
 
 #import <ExchangeWebServices/EWSItemType.h>
 
-@class EWSCompleteNameType, EWSEmailAddressDictionaryType, EWSImAddressDictionaryType, EWSPhoneNumberDictionaryType, EWSPhysicalAddressDictionaryType, EWSPhysicalAddressIndexType, NSArray, NSDateComponents, NSString;
+@class NSString;
 
 @interface EWSContactItemType : EWSItemType
 {
     NSString *_FileAs;
-    long long _FileAsMapping;
-    NSString *_DisplayName;
-    NSString *_GivenName;
-    NSString *_Initials;
-    NSString *_MiddleName;
-    NSString *_Nickname;
-    EWSCompleteNameType *_CompleteName;
-    NSString *_CompanyName;
-    EWSEmailAddressDictionaryType *_EmailAddresses;
-    EWSPhysicalAddressDictionaryType *_PhysicalAddresses;
-    EWSPhoneNumberDictionaryType *_PhoneNumbers;
-    NSString *_AssistantName;
-    NSDateComponents *_Birthday;
-    NSString *_BusinessHomePage;
-    NSArray *_Children;
-    NSArray *_Companies;
-    NSString *_ContactSource;
-    NSString *_Department;
-    NSString *_Generation;
-    EWSImAddressDictionaryType *_ImAddresses;
-    NSString *_JobTitle;
-    NSString *_Manager;
-    NSString *_Mileage;
-    NSString *_OfficeLocation;
-    EWSPhysicalAddressIndexType *_PostalAddressIndex;
-    NSString *_Profession;
-    NSString *_SpouseName;
-    NSString *_Surname;
-    NSDateComponents *_WeddingAnniversary;
 }
 
 + (id);
@@ -48,6 +19,7 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -55,18 +27,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)W;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)c;
 - (id);
 - (long long);
 - (id);
@@ -75,67 +46,38 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)x;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)dium_2.0.ttf;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *AssistantName; // @synthesize AssistantName=_AssistantName;
-@property(retain, nonatomic) NSDateComponents *Birthday; // @synthesize Birthday=_Birthday;
-@property(copy, nonatomic) NSString *BusinessHomePage; // @synthesize BusinessHomePage=_BusinessHomePage;
-@property(copy, nonatomic) NSArray *Children; // @synthesize Children=_Children;
-@property(copy, nonatomic) NSArray *Companies; // @synthesize Companies=_Companies;
-@property(copy, nonatomic) NSString *CompanyName; // @synthesize CompanyName=_CompanyName;
-@property(retain, nonatomic) EWSCompleteNameType *CompleteName; // @synthesize CompleteName=_CompleteName;
-@property(copy, nonatomic) NSString *ContactSource; // @synthesize ContactSource=_ContactSource;
-@property(copy, nonatomic) NSString *Department; // @synthesize Department=_Department;
-@property(copy, nonatomic) NSString *DisplayName; // @synthesize DisplayName=_DisplayName;
-@property(retain, nonatomic) EWSEmailAddressDictionaryType *EmailAddresses; // @synthesize EmailAddresses=_EmailAddresses;
 @property(copy, nonatomic) NSString *FileAs; // @synthesize FileAs=_FileAs;
-@property(nonatomic) long long FileAsMapping; // @synthesize FileAsMapping=_FileAsMapping;
-@property(copy, nonatomic) NSString *Generation; // @synthesize Generation=_Generation;
-@property(copy, nonatomic) NSString *GivenName; // @synthesize GivenName=_GivenName;
-@property(retain, nonatomic) EWSImAddressDictionaryType *ImAddresses; // @synthesize ImAddresses=_ImAddresses;
-@property(copy, nonatomic) NSString *Initials; // @synthesize Initials=_Initials;
-@property(copy, nonatomic) NSString *JobTitle; // @synthesize JobTitle=_JobTitle;
-@property(copy, nonatomic) NSString *Manager; // @synthesize Manager=_Manager;
-@property(copy, nonatomic) NSString *MiddleName; // @synthesize MiddleName=_MiddleName;
-@property(copy, nonatomic) NSString *Mileage; // @synthesize Mileage=_Mileage;
-@property(copy, nonatomic) NSString *Nickname; // @synthesize Nickname=_Nickname;
-@property(copy, nonatomic) NSString *OfficeLocation; // @synthesize OfficeLocation=_OfficeLocation;
-@property(retain, nonatomic) EWSPhoneNumberDictionaryType *PhoneNumbers; // @synthesize PhoneNumbers=_PhoneNumbers;
-@property(retain, nonatomic) EWSPhysicalAddressDictionaryType *PhysicalAddresses; // @synthesize PhysicalAddresses=_PhysicalAddresses;
-@property(retain, nonatomic) EWSPhysicalAddressIndexType *PostalAddressIndex; // @synthesize PostalAddressIndex=_PostalAddressIndex;
-@property(copy, nonatomic) NSString *Profession; // @synthesize Profession=_Profession;
-@property(copy, nonatomic) NSString *SpouseName; // @synthesize SpouseName=_SpouseName;
-@property(copy, nonatomic) NSString *Surname; // @synthesize Surname=_Surname;
-@property(retain, nonatomic) NSDateComponents *WeddingAnniversary; // @synthesize WeddingAnniversary=_WeddingAnniversary;
 
 @end
 

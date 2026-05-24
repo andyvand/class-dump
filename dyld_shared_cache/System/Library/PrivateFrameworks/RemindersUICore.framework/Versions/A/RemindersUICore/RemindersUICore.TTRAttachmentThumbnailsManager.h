@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRAttachmentThumbnailsManager
 {
     id thumbnailSizeProvider;
-    id thumbnailGenerator;
-    id $__lazy_storage_$_thumbnailCache;
-    id pendingPromises;
-    id failedThumbnailRequests;
 }
 
 @end

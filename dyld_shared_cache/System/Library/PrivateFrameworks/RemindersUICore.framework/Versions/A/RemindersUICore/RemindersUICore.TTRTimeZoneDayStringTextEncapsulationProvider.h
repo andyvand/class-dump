@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRTimeZoneDayStringTextEncapsulationProvider
 {
     id font;
-    id textColor;
-    id $__lazy_storage_$_encapsulation;
 }
 
 @end

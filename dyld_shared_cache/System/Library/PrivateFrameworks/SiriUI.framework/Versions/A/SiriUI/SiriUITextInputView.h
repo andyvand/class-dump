@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SRUIFLightweightQueryHistory;
+@class SRUIFLightweightQueryHistory;
 @protocol SiriUITextInputViewDelegate;
 
 @interface SiriUITextInputView
 {
     SRUIFLightweightQueryHistory *_history;
-    _Bool _isNavigatingHistory;
-    NSString *_preNavigationString;
-    id <SiriUITextInputViewDelegate> _inputDelegate;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (id)!;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)(-3;
 - (id);
 - (void);
 - (void);

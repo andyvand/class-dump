@@ -19,6 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)R?	kh;
+- (id);;
 - (id);
 - (id);
 - (id);
@@ -26,9 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect)9I;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGImage *);
@@ -43,13 +43,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGRect);
 - (struct CGSize);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *)x;
 - (struct CGImage *);
 - (struct CGImage *);
 - (struct CGImage *);
@@ -59,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGPath *);
-- (struct CGImage *);
+- (struct CGImage *);
 - (struct CGGradient *);
 - (struct CGContext *);
 - (_Bool);
@@ -80,7 +80,7 @@ __attribute__((visibility("hidden")))
 - (struct CGImage *);
 - (void);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *)T ;
 - (unsigned long long);
 - (id);
 - (id);

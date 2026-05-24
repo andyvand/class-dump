@@ -7,13 +7,11 @@
 @class NSLayoutRect;
 
 @protocol _UIContentViewComponentDescribing
-- (NSLayoutRect *): /* Error: Ran out of types for this method. */;
-- (void (^)(void))EnablementIdentifiers;
-- (void);
+- (NSLayoutRect *)collectionView:tableLayout:estimatedHeightForHeaderInSection: /* Error: Ran out of types for this method. */;
+- (void (^)(void))_overrideFocusSystemEnablementIdentifiers;
+- (void)_beginIgnoringInteractionEventsForReason:(void (^)(void))arg1;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setPrimaryTextFrameDidChangeHandler:) CDUnknownBlockType _primaryTextFrameDidChangeHandler;
-@property(readonly, nonatomic) struct CGRect _primaryTextLayoutFrame;
 @property(readonly, nonatomic) NSLayoutRect *_primaryTextLayoutRect;
 @end
 

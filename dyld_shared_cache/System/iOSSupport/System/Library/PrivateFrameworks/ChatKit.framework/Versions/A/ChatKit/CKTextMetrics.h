@@ -7,21 +7,17 @@
 @interface CKTextMetrics
 {
     _Bool _singleLine;
-    struct CGSize _size;
-    struct UIEdgeInsets _alignmentInset;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)cale:(_Bool)arg1 appearanceInfo:backgroundColor:hasBorder: /* Error: Ran out of types for this method. */;
+- (void)classificationsForImage:(struct UIEdgeInsets)arg1;
+- (id)T;
 - (_Bool);
 - (struct UIEdgeInsets);
 - (struct CGSize);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets alignmentInset; // @synthesize alignmentInset=_alignmentInset;
-@property(nonatomic, getter=isSingleLine) _Bool singleLine; // @synthesize singleLine=_singleLine;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

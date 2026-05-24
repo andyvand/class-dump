@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBSkipAnnouncementIntent
-- (_Bool)ithCarName:signals: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)ubdirectoryPath;
+- (_Bool)initWithCarName:signals: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

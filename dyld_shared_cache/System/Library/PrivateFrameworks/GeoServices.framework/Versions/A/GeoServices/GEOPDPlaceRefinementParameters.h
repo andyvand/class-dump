@@ -4,58 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDMapsIdentifier, GEOStructuredAddress, NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceRefinementParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOStructuredAddress *_addressHint;
-    NSData *_addressObjectHint;
-    NSMutableArray *_formattedAddressLineHints;
-    GEOLatLng *_locationHint;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned long long _muid;
-    NSString *_placeNameHint;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _addressGeocodeAccuracyHint;
-    int _placeTypeHint;
-    int _resultProviderId;
-    _Bool _supportCoordinatesOnlyRefinement;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_addressGeocodeAccuracyHint:1;
-        unsigned int has_placeTypeHint:1;
-        unsigned int has_resultProviderId:1;
-        unsigned int has_supportCoordinatesOnlyRefinement:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_addressHint:1;
-        unsigned int read_addressObjectHint:1;
-        unsigned int read_formattedAddressLineHints:1;
-        unsigned int read_locationHint:1;
-        unsigned int read_mapsId:1;
-        unsigned int read_placeNameHint:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)arrayWithObjects: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)_handleStreamProvidingDelegateChunkAvailable: /* Error: Ran out of types for this method. */;
+- (id)E	;
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)N)n;
 - (id)isplayName"b1"read_sectionSubHeaderDisplayNameWithEnrichment"b1"read_sectionSubHeaderDisplayName"b1"read_styleAttributes"b1"wrote_anyField"b1};
 - (id)4@0:(id)arg1 8Q16;
-- (id)ignFillColor;
+- (id)_instructionSignFillColor;
 - (_Bool)4ßlß;
 - (id)¼¨|;
 - (void)LJª@ñcÌ]k´¾@;

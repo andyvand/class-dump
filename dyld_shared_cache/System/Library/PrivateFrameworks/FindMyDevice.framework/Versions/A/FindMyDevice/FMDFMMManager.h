@@ -4,87 +4,79 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMDFMMAccountInfo, FMNSXPCConnection, LAContext;
-
 @interface FMDFMMManager
 {
     struct AuthorizationOpaqueRef *_authRef;
-    FMNSXPCConnection *_disableFMMConnection;
-    FMDFMMAccountInfo *_cachedAccountInfo;
-    LAContext *_laContext;
 }
 
 + (id);
+- (void)int=dd}ddddddddd}60@0:(id)arg1 8{PKCompressedStrokePoint={_PKPoint=ff}ffSSSSSSfS}16d52;
+- (void)trl_"^{__shared_weak_count}};
+- (void)hared_ptr<PKProtobufUnknownFields>="__ptr_"^{PKProtobufUnknownFields}"__cntrl_"^{__shared_weak_count}};
 - (void);
+- (void)=}16@0:(id)arg1 8;
+- (void)4@0:(id)arg1 8Q16;
+- (void)8^{PKCompressedStrokePoint={_PKPoint=ff}ffSSSSSSfS}16Q24d32;
+- (void)d};
+- (void)16;
+- (void)8{CGPoint=dd}16;
+- (void)=dd}ddddddddd}24;
+- (void){?=b1b1b1}}16@24;
+- (void)44;
 - (void);
+- (void)ery";
+- (id)@16B24{CGPoint=dd}28;
+- (id)CGPoint=dd}16{CGPoint=dd}32B48@?52;
 - (void);
+- (void)StrokeSelectionImageConfig";
+- (void)Set";
+- (id)onItemAttributes";
+- (void)eGroupItem";
+- (void)v32@0:(CDUnknownBlockType)arg1 8d16d24;
+- (void)"NSLocale";
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct AuthorizationOpaqueRef *);
-- (id);
-- (void);
+- (void)=dd}{CGSize=dd}}16d48;
+- (void)@48;
+- (void)erties"q"estimatedActiveInputPropertiesExpectingUpdates"q};
+- (void)Angle"d"zPosition"d"timestamp"d"predicted"B"estimationUpdateIndex"q"length"d"distance"d"hasEstimatedAltitudeAndAzimuth"B"rollAngle"d"estimatedActiveInputProperties"q"estimatedActiveInputPropertiesExpectingUpdates"q};
+- (void)>="__begin_"^{_PKStrokePoint}"__end_"^{_PKStrokePoint}""{?="__cap_"^{_PKStrokePoint}}};
+- (void)uffer>";
+- (void)<(anonymous namespace):(CDUnknownBlockType)arg1:AnimatingStroke>>="__begin_"^{AnimatingStroke}"__end_"^{AnimatingStroke}""{?="__cap_"^{AnimatingStroke}}} /* Error: Ran out of types for this method. */;
+- (void)^v"__cntrl_"^{__shared_weak_count}};
+- (void)r<(anonymous namespace):(CDUnknownBlockType)arg1:StrokeVertex>>="__ptr_"^v"__cntrl_"^{__shared_weak_count}} /* Error: Ran out of types for this method. */;
+- (void)cator<PKMetalLiveStrokePaintStrokePoint>>="__begin_"^{PKMetalLiveStrokePaintStrokePoint}"__end_"^{PKMetalLiveStrokePaintStrokePoint}""{?="__cap_"^{PKMetalLiveStrokePaintStrokePoint}}};
+- (id)StrokePaintStrokePoint, std::allocator<PKMetalLiveStrokePaintStrokePoint>>="__begin_"^{PKMetalLiveStrokePaintStrokePoint}"__end_"^{PKMetalLiveStrokePaintStrokePoint}""{?="__cap_"^{PKMetalLiveStrokePaintStrokePoint}}} /* Error: Ran out of types for this method. */;
+- (void)__cap_"^{PKMetalSDFPenStrokePoint}}};
+- (void)="__cap_"^{PKMetalPaintStrokePoint}}};
+- (void)cleStrokePoint}""{?="__cap_"^{PKMetalParticleStrokePoint}}};
+- (void)threshold"d};
+- (void)n"{CGPoint="x"d"y"d}"radius"d"aspectRatio"d"edgeWidth"d"force"d"azimuth"d"altitude"d"opacity"d"radius2"d"threshold"d};
+- (id)buffer";
+- (void)er="framebuffer"@"PKMetalFramebuffer""isNonPurgeable"B"mustBeCleared"B}];
+- (void)"isNonPurgeable"B"mustBeCleared"B};
+- (void)";
+- (void)CGPoint=dd})dddddddBqddBdqq}16;
+- (void)GPoint=dd}{CGSize=dd}}24@56q64d72;
+- (id)ze=dd}}24@56q64;
+- (void)0:8@16r^v24 /* Error: Ran out of types for this method. */;
+- (void){CGSize=dd}}16{CGAffineTransform=dddddd}48;
+- (struct AuthorizationOpaqueRef *){CGRect={CGPoint=dd}{CGSize=dd}}16{CGAffineTransform=dddddd}48;
+- (id)16B24{CGAffineTransform=dddddd}28B76;
+- (void)tesLabel, _templatesPopup, _autoSelectionModeLabel, _autoSelectionModePopup, _pathControlLabel, _pathControlPopup, _documentNameLabel, _documentNameTextField, _fileFormatLabel, _fileFormatPopup, _combineToSinglePageLabel, _combineToSinglePageCheckBox, _imageCorrectionLabel, _imageCorrectionPopup, _histogramLabel, _histogramView, _threshold_BW_Label, _threshold_BW_Left, _threshold_BW_Slider, _threshold_BW_Right, _brightness_BW_Label, _brightness_BW_Left, _brightness_BW_Slider, _brightness_BW_Right, _dither_BW_Checkbox, _brightness_Gray_Label, _brightness_Gray_Left, _brightness_Gray_Slider, _brightness_Gray_Right, _contrast_Gray_Label, _contrast_Gray_Left, _contrast_Gray_Slider, _contrast_Gray_Right, _brightness_Color_Label, _brightness_Color_Left, _brightness_Color_Slider, _brightness_Color_Right, _tint_Color_Label, _tint_Color_Left, _tint_Color_Slider, _tint_Color_Right, _temperature_Color_Label, _temperature_Color_Left, _temperature_Color_Slider, _temperature_Color_Right, _saturation_Color_Label, _saturation_Color_Left, _saturation_Color_Slider, _saturation_Color_Right, _resetImageCorrectionLabel, _resetImageCorrection, _selfTestLabel, _selfTestButton, _line1a,_line1b,_line2a,_line2b,_line3a,_line3b,_line4a,_line4b;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)?;
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 
 // Remaining properties
 @property(nonatomic) struct AuthorizationOpaqueRef *authRef; // @synthesize authRef=_authRef;
-@property(retain) FMDFMMAccountInfo *cachedAccountInfo; // @synthesize cachedAccountInfo=_cachedAccountInfo;
-@property(retain, nonatomic) FMNSXPCConnection *disableFMMConnection; // @synthesize disableFMMConnection=_disableFMMConnection;
-@property(retain) LAContext *laContext; // @synthesize laContext=_laContext;
 
 @end
 

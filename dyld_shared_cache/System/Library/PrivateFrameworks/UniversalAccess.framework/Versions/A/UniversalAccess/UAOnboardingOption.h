@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSString, NSView, NSViewController;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface UAOnboardingOption
 {
     _Bool _isSelected;
-    NSImage *_image;
-    NSViewController *_optionViewController;
-    NSButton *_clickableOverlay;
-    NSString *_label;
-    long long _index;
-    NSView *_optionView;
-    struct CGSize _size;
 }
 
+- (void)Grouping";
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)SPrivateCloudMetrics";
+- (id)d"b1"responseKbCount"b1"imagePerSecond"b1"imageCount"b1"timeToFirstTokenInSeconds"b1"timeToLastTokenInSeconds"b1"responseCharactersCount"b1"responseTimeInMilliseconds"b1};
+- (id)kensCount"b1"kbPerSecond"b1"responseKbCount"b1"imagePerSecond"b1"imageCount"b1"timeToFirstTokenInSeconds"b1"timeToLastTokenInSeconds"b1"responseCharactersCount"b1"responseTimeInMilliseconds"b1};
+- (id)ingEnabled"b1};
+- (id)nded";
+- (void)diaType"b1"originalMediaSizeInKBs"b1};
+- (void)ATSchemaGATLoadScreenContentEventFailed";
+- (id)e"b1"processedMediaSizeInKBs"b1};
+- (id)tContext";
+- (id)="messageType"b1"emojiUsed"b1"keyboardUsed"b1"isSenderShortCode"b1"isLongMessage"b1"isReply"b1"appendingActionReadMessagesCount"b1"userPersona"b1"isSummarized"b1"summarySourceType"b1};
 - (void);
 - (void);
 - (id);
@@ -44,14 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *clickableOverlay; // @synthesize clickableOverlay=_clickableOverlay;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSView *optionView; // @synthesize optionView=_optionView;
-@property(retain, nonatomic) NSViewController *optionViewController; // @synthesize optionViewController=_optionViewController;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

@@ -6,19 +6,16 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSPathControl, NSProgressIndicator, QCPort, QCSCN_View;
+@class QCSCN_View;
 
 @interface QCCore3DLoaderUI : QCInspector
 {
     QCSCN_View *previewView;
-    NSPathControl *pathView;
-    NSProgressIndicator *progressIndicator;
-    QCPort *_observedPort;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 

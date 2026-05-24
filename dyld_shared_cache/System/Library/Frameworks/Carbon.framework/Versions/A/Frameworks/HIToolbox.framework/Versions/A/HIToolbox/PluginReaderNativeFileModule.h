@@ -6,29 +6,18 @@
 
 #import <HIToolbox/PluginReaderGenericModule.h>
 
-@class NSArray, NSMutableDictionary, NSString, PluginParser;
+@class PluginParser;
 
 __attribute__((visibility("hidden")))
 @interface PluginReaderNativeFileModule : PluginReaderGenericModule
 {
     PluginParser *_parser;
-    NSArray *_encodingNames;
-    NSMutableDictionary *_keyMappings;
-    NSString *_separator;
-    NSString *_version;
-    NSString *_maxCode;
-    unsigned short _termChar;
-    NSString *_IMChineseName;
-    NSString *_selectionKeys;
-    int _encoding;
-    NSString *_validInputKeys;
-    NSString *_keyPrompt;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -38,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)fe aperture changed for space %llu
 ;

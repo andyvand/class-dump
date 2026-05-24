@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol _UIBarSectionOwner;
+@class NSArray;
 
 @interface _UIBarSection
 {
     void groups;
-    id owner;
-    long long preferredPlacement;
-    void identifier;
 }
 
-- (void);
+- (void)iginalMessageTime:(long long)arg1 %@};
 - (void);
 - (long long);
 - (id);
@@ -23,9 +19,9 @@
 - (id);
 - (id);
 - (id);
+- (id)setPreferredIntervals: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)undHeightWhenLarge: /* Error: Ran out of types for this method. */;
+- (id)setUseInlineBackgroundHeightWhenLarge: /* Error: Ran out of types for this method. */;
 - (void)on;
 - (id):[imageView(<=44)] /* Error: Ran out of types for this method. */;
 - (void)ê[;
@@ -34,12 +30,7 @@
 - (void)8CÙÿ<ì;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIBarSectionOwner> _owner;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, copy) NSArray *groups;
-@property(nonatomic, copy) NSString *identifier;
-@property(nonatomic, copy) NSArray *itemGroups;
-@property(nonatomic) long long preferredPlacement; // @synthesize preferredPlacement;
 
 @end
 

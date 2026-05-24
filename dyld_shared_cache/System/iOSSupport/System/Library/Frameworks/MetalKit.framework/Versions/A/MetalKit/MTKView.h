@@ -4,63 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, CAMetalLayer, MTKOffscreenDrawable, MTL4RenderPassDescriptor, MTLRenderPassDescriptor, NSMutableArray, NSString;
-@protocol CAMetalDrawable, MTKViewDelegate, MTLDevice, MTLResidencySet, MTLTexture;
+@class CAMetalLayer;
+@protocol MTKViewDelegate;
 
 @interface MTKView
 {
     CAMetalLayer *_metalLayer;
-    _Bool _sizeDirty;
-    struct CGSize _drawableScaleFactor;
-    _Bool _pausedOnBackgrounding;
-    CADisplayLink *_displayLink;
-    id <CAMetalDrawable> _currentDrawable;
-    CDUnknownFunctionPointerType _drawRectSubIMP;
-    _Bool _subClassOverridesDrawRect;
-    _Bool _deviceReset;
-    _Bool _doesNotifyOnRecommendedSizeUpdate;
-    id <MTLTexture> _depthStencilTexture;
-    id <MTLTexture> _multisampleColorTexture;
-    _Bool _framebufferOnly;
-    unsigned long long _depthStencilTextureUsage;
-    unsigned long long _multisampleColorTextureUsage;
-    unsigned long long _depthStencilStorageMode;
-    unsigned long long _drawableAttachmentIndex;
-    long long _nominalFramesPerSecond;
-    long long _maxValidAttachmentIndex;
-    unsigned long long _colorPixelFormats[8];
-    id <MTLTexture> _multisampleColorTextures[8];
-    id <MTLTexture> _colorTextures[8];
-    MTKOffscreenDrawable *_offscreenSwapChain[3];
-    unsigned long long _drawableIdx;
-    int _renderAttachmentDirtyState;
-    unsigned long long _terminateAfterFrame;
-    unsigned long long _terminateAfterSeconds;
-    unsigned long long _measureAfterFrame;
-    unsigned long long _measureAfterSeconds;
-    unsigned long long _dumpFrameAtFrame;
-    unsigned long long _dumpFrameAtSeconds;
-    NSString *_dumpPath;
-    _Bool _dumpFirstFrame;
-    _Bool _drawOffscreen;
-    long long _forceOrientation;
-    double _startTime;
-    unsigned int _frameNum;
-    id <MTLResidencySet> _residencySet;
-    NSMutableArray *_allocationsToEvict[3];
-    _Bool _enableSetNeedsDisplay;
-    _Bool _autoResizeDrawable;
-    _Bool _paused;
-    unsigned int _clearStencil;
-    id <MTKViewDelegate> _delegate;
-    id <MTLDevice> _device;
-    unsigned long long _depthStencilPixelFormat;
-    unsigned long long _sampleCount;
-    double _clearDepth;
-    long long _preferredFramesPerSecond;
-    struct CGSize _drawableSize;
-    struct CGSize _preferredDrawableSize;
-    CDStruct_3ead2808 _clearColor;
 }
 
 + (Class);
@@ -89,14 +38,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (const id *);
+- (const id *)%;
 - (const id *);
 - (unsigned long long);
 - (_Bool);
@@ -109,8 +58,8 @@
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)Q�;
 - (id);
 - (void);
 - (struct CGSize);
@@ -126,7 +75,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)q72@80q88;
 - (id);
 - (void);
 - (long long);
@@ -135,22 +84,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (CDStruct_d2b197d1);
 - (void);
-- (CDStruct_3ead2808);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)d;
 - (void);
 - (void);
-- (struct CGColorSpace *);
 - (void);
+- (void)keyboardType;
+- (struct CGColorSpace *)^l;
 - (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (struct CGSize);
 - (void);
 - (id);
@@ -159,40 +108,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool autoResizeDrawable; // @synthesize autoResizeDrawable=_autoResizeDrawable;
-@property(nonatomic) CDStruct_3ead2808 clearColor; // @synthesize clearColor=_clearColor;
-@property(nonatomic) double clearDepth; // @synthesize clearDepth=_clearDepth;
-@property(nonatomic) unsigned int clearStencil; // @synthesize clearStencil=_clearStencil;
-@property(nonatomic) unsigned long long colorPixelFormat;
-@property(nonatomic) struct CGColorSpace *colorspace;
-@property(readonly, nonatomic) id <CAMetalDrawable> currentDrawable; // @synthesize currentDrawable=_currentDrawable;
-@property(readonly, nonatomic) MTL4RenderPassDescriptor *currentMTL4RenderPassDescriptor;
-@property(readonly, nonatomic) MTLRenderPassDescriptor *currentRenderPassDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MTKViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long depthStencilAttachmentTextureUsage;
-@property(nonatomic) unsigned long long depthStencilPixelFormat; // @synthesize depthStencilPixelFormat=_depthStencilPixelFormat;
-@property(nonatomic) unsigned long long depthStencilStorageMode;
-@property(readonly, nonatomic) id <MTLTexture> depthStencilTexture;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(nonatomic) struct CGSize drawableSize; // @synthesize drawableSize=_drawableSize;
-@property(nonatomic) _Bool enableSetNeedsDisplay; // @synthesize enableSetNeedsDisplay=_enableSetNeedsDisplay;
-@property(nonatomic) _Bool framebufferOnly;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long multisampleColorAttachmentTextureUsage;
-@property(readonly, nonatomic) id <MTLTexture> multisampleColorTexture;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly) id <MTLDevice> preferredDevice;
-@property(readonly, nonatomic) struct CGSize preferredDrawableSize; // @synthesize preferredDrawableSize=_preferredDrawableSize;
-@property(nonatomic) long long preferredFramesPerSecond; // @synthesize preferredFramesPerSecond=_preferredFramesPerSecond;
-@property(nonatomic) _Bool presentsWithTransaction;
-@property(readonly, nonatomic) id <MTLResidencySet> residencySet;
-@property(nonatomic) unsigned long long sampleCount; // @synthesize sampleCount=_sampleCount;
-@property(readonly) Class superclass;
 
 @end
 

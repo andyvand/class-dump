@@ -6,14 +6,14 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSString, SALocation;
+@class SALocation;
 
 @interface SAAnswerSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)odel;
 - (id);
 - (id);
 - (void);
@@ -25,21 +25,15 @@
 - (void);
 - (id);
 - (void);
+- (id)5;
 - (id);
-- (id);
-- (void);
+- (void)hbP9;
 - (id);
 - (_Bool);
-- (id)nippet;
+- (id)attributionSnippet;
 
 // Remaining properties
 @property(retain, nonatomic) SALocation *address;
-@property(copy, nonatomic) NSString *attribute;
-@property(copy, nonatomic) NSString *miscQuestion;
-@property(copy, nonatomic) NSString *placeAttribute;
-@property(copy, nonatomic) NSArray *product;
-@property(copy, nonatomic) NSString *timeQuestion;
-@property(copy, nonatomic) NSString *verbType;
 
 @end
 

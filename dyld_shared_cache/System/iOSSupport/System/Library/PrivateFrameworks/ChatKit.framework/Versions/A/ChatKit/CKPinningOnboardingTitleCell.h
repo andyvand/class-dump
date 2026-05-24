@@ -4,54 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, UILabel, UILayoutGuide;
+@class UILabel;
 
 @interface CKPinningOnboardingTitleCell
 {
     _Bool _isInCollapsedState;
-    long long _pinnedConversationViewLayoutStyle;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UILayoutGuide *_labelMarginGuide;
-    NSLayoutConstraint *_leadingMarginLayoutConstraint;
-    NSLayoutConstraint *_trailingMarginLayoutConstraint;
-    NSLayoutConstraint *_subtitleSpacingConstraint;
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)newSnapshotFromIndexWithLegacyManagedObjectContext:modernManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)initWithTimelineSectionType:referenceDate:title:sortOrder: /* Error: Ran out of types for this method. */;
+- (void)enumerateIndexesWithOptions:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)didIndex;
+- (void)canUpdateFullscreenSketchAttachment:(long long)arg1;
+- (void)canMoveAddOrDeleteContents;
+- (void)appendSectionsWithIdentifiers:(id)arg1;
+- (void)alphaComponent;
+- (void)addAttachmentWithFileURL:(_Bool)arg1;
 - (id);
 - (double);
 - (double);
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)filter;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)';
 - (void)ÿ5';
 - (id)`;
 
 // Remaining properties
-@property(nonatomic) _Bool isInCollapsedState; // @synthesize isInCollapsedState=_isInCollapsedState;
-@property(retain, nonatomic) UILayoutGuide *labelMarginGuide; // @synthesize labelMarginGuide=_labelMarginGuide;
-@property(retain, nonatomic) NSLayoutConstraint *leadingMarginLayoutConstraint; // @synthesize leadingMarginLayoutConstraint=_leadingMarginLayoutConstraint;
-@property(nonatomic) long long pinnedConversationViewLayoutStyle; // @synthesize pinnedConversationViewLayoutStyle=_pinnedConversationViewLayoutStyle;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *subtitleSpacingConstraint; // @synthesize subtitleSpacingConstraint=_subtitleSpacingConstraint;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *trailingMarginLayoutConstraint; // @synthesize trailingMarginLayoutConstraint=_trailingMarginLayoutConstraint;
 
 @end
 

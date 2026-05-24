@@ -14,8 +14,8 @@
     id _maximumRelativeValue;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)L;
 - (id);
 - (void);
 - (id)
@@ -23,14 +23,11 @@
 - (id)ng>"16B24;
 - (long long){CGPoint=dd}{CGSize=dd}}16@48i56i60;
 - (void)tter;
-- (id)groundColor;
+- (id)foregroundColor;
 - (void)(5g;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *keyPath;
-@property(retain, nonatomic) id maximumRelativeValue; // @synthesize maximumRelativeValue=_maximumRelativeValue;
-@property(retain, nonatomic) id minimumRelativeValue; // @synthesize minimumRelativeValue=_minimumRelativeValue;
-@property(readonly, nonatomic) long long type;
 
 @end
 

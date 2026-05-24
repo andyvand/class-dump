@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)kMDItemEventHotelCheckinDate;
+- (void)x>;
 
 // Remaining properties
 @property(retain, nonatomic) ICInAppMessageEntry *messageEntry; // @synthesize messageEntry=_messageEntry;

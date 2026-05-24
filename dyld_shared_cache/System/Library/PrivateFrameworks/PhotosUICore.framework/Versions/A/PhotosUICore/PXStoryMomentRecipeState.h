@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFStoryAutoEditFrequencyTable;
-
 @interface PXStoryMomentRecipeState
 {
     unsigned long long _previousPanDirection;
-    unsigned long long _previous2UpPanRelativeMotion;
-    unsigned long long _previous3UpPanRelativeMotion;
-    unsigned long long _previousScaleDirection;
-    unsigned long long _previousRotateDirection;
-    unsigned long long _previousBaseMomentRecipe;
-    unsigned long long _previousPortraitMomentRecipe;
-    unsigned long long _previousSingleAssetMomentRecipe;
-    long long _previousEmptySpaceStrategy;
-    PFStoryAutoEditFrequencyTable *_basicRecipeFrequencyTable;
 }
 
 - (unsigned long long);

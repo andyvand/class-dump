@@ -6,17 +6,11 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface DGImageCompositeScaledOperation : DGOperation
 {
     NSString *_inputCompositeImagePath;
-    NSString *_inputCropRect;
-    NSString *_destinationSize;
-    NSString *_sourceSize;
-    NSNumber *_inputOpacity;
-    NSNumber *_inputScale;
-    NSNumber *_inputRectPointLocation;
 }
 
 + (id);
@@ -31,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -57,13 +51,7 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationSize; // @synthesize destinationSize=_destinationSize;
 @property(copy, nonatomic) NSString *inputCompositeImagePath; // @synthesize inputCompositeImagePath=_inputCompositeImagePath;
-@property(copy, nonatomic) NSString *inputCropRect; // @synthesize inputCropRect=_inputCropRect;
-@property(copy, nonatomic) NSNumber *inputOpacity; // @synthesize inputOpacity=_inputOpacity;
-@property(copy, nonatomic) NSNumber *inputRectPointLocation; // @synthesize inputRectPointLocation=_inputRectPointLocation;
-@property(copy, nonatomic) NSNumber *inputScale; // @synthesize inputScale=_inputScale;
-@property(copy, nonatomic) NSString *sourceSize; // @synthesize sourceSize=_sourceSize;
 
 @end
 

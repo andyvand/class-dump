@@ -6,7 +6,7 @@
 
 #import <TSReading/TSDBrushStroke.h>
 
-@class TSDStrokePattern, TSUColor;
+@class TSUColor;
 
 @interface TSDMutableBrushStroke : TSDBrushStroke
 {
@@ -24,20 +24,14 @@
 - (void);
 - (double);
 - (double);
-- (id);
+- (id)iOSSupport/System/Library/PrivateFrameworks/NewsLiveActivitiesCore.framework/Versions/A/NewsLiveActivitiesCore;
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double actualWidth;
-@property(nonatomic) int cap;
 @property(copy, nonatomic) TSUColor *color;
-@property(nonatomic) int join;
-@property(nonatomic) double miterLimit;
-@property(copy, nonatomic) TSDStrokePattern *pattern;
-@property(nonatomic) double width;
 
 @end
 

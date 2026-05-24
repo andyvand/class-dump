@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)s"16;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)Index"b1"has_eventType"b1"has_identifier"b1"has_offsetForDistanceString"b1"has_startValidDistanceOffsetCm"b1"has_startValidDistance"b1"has_zilchPathIndex"b1"has_preserveEventInUpdates"b1"has_sticky"b1"read_unknownFields"b1"read_arGuidance"b1"read_importanceInfo"b1"read_junctionView"b1"read_laneGuidance"b1"read_navTrayGuidance"b1"read_signGuidance"b1"read_spokenGuidance"b1"wrote_anyField"b1};
-- (id)dDestinations;
+- (id)_predictedDestinations;
 - (id)ÔÒÐÕÖ×;
 - (void);
 

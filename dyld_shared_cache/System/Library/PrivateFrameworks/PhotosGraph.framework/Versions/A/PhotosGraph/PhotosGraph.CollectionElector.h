@@ -7,10 +7,6 @@
 @interface PhotosGraph.CollectionElector
 {
     id logger;
-    id assetElector;
-    id suggestionsPersister;
-    id sources;
-    id presentDate;
 }
 
 @end

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSImmediateActionAnimationController;
+
 @protocol NSDefinitionExternalModule
+
+@optional
+- (id <NSImmediateActionAnimationController>)BasebandChipId;
 @end
 

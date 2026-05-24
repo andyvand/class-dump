@@ -5,6 +5,8 @@
 //
 
 @protocol RCOperationThrottler
+- (void)C;
+- (_Bool)(;
 
 // Remaining properties
 @property _Bool suspended;

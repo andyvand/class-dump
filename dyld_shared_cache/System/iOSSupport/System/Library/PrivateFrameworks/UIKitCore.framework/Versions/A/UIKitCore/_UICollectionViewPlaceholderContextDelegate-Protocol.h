@@ -8,6 +8,6 @@
 
 @protocol _UICollectionViewPlaceholderContextDelegate
 - (NSIndexPath *){CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}56B72;
-- (void)otificationsIfNecessary;
+- (void)_startWatchingForKeyboardNotificationsIfNecessary;
 @end
 

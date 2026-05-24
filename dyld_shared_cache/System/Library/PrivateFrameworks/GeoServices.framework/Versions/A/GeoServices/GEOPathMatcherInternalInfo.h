@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEOPathMatcherInternalInfo
 {
     NSString *_base64Path;
-    NSArray *_matchedSegments;
-    GEOPolylineCoordinateRange_1706676a _range;
 }
 
 - (id);
 - (id);
 - (id);
-- (struct GEOPolylineCoordinateRange);
+- (struct GEOPolylineCoordinateRange)refreshStationSystems;
 - (void)hÌ$êK@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *base64Path;
-@property(readonly, nonatomic) NSArray *matchedSegments;
 @property(readonly, nonatomic) GEOPolylineCoordinateRange_3ad5eabb range;
 
 @end

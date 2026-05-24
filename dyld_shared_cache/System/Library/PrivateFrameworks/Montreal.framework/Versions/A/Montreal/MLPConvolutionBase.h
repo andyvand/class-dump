@@ -9,21 +9,17 @@
 @interface MLPConvolutionBase : MLPImageLayer
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _kernelStride;
 }
 
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)#q;
+- (unsigned long long)q;
 - (unsigned long long);
 - (void);
 - (void)EE6ParamsEE;
 
 // Remaining properties
-@property unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property unsigned long long kernelStride; // @synthesize kernelStride=_kernelStride;
 @property unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 
 @end

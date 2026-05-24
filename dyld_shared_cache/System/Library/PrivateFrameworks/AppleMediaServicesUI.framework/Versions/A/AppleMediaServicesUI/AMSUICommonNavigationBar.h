@@ -6,19 +6,11 @@
 
 #import <AppleMediaServicesUI/AMSUICommonView.h>
 
-@class AMSUICommonLabel, AMSUICommonStackView, AMSUICommonVisualEffectView, NSArray, NSString;
+@class NSArray;
 
 @interface AMSUICommonNavigationBar : AMSUICommonView
 {
     _Bool _prefersLargeTitles;
-    double _buttonSpacing;
-    NSArray *_contentConstraints;
-    AMSUICommonStackView *_leftStackView;
-    AMSUICommonStackView *_rightStackView;
-    AMSUICommonView *_spacerView;
-    AMSUICommonLabel *_titleLabel;
-    AMSUICommonVisualEffectView *_visualEffectView;
-    struct NSEdgeInsets _edgeInsets;
 }
 
 - (void);
@@ -34,7 +26,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)f;
 - (void);
 - (void);
 - (_Bool);
@@ -42,26 +34,16 @@
 - (struct NSEdgeInsets);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)c`;
 - (void);
 - (id);
-- (void)tRequiresUniversalLinks: /* Error: Ran out of types for this method. */;
-- (id)ModelWithInfo: /* Error: Ran out of types for this method. */;
+- (void)setRequiresUniversalLinks: /* Error: Ran out of types for this method. */;
+- (id)loadPageModelWithInfo: /* Error: Ran out of types for this method. */;
 - (id)P(;
 
 // Remaining properties
-@property double buttonSpacing; // @synthesize buttonSpacing=_buttonSpacing;
 @property(retain) NSArray *contentConstraints; // @synthesize contentConstraints=_contentConstraints;
-@property struct NSEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(readonly) AMSUICommonStackView *leftStackView; // @synthesize leftStackView=_leftStackView;
-@property _Bool prefersLargeTitles; // @synthesize prefersLargeTitles=_prefersLargeTitles;
-@property(readonly) AMSUICommonStackView *rightStackView; // @synthesize rightStackView=_rightStackView;
-@property(readonly) AMSUICommonView *spacerView; // @synthesize spacerView=_spacerView;
-@property(retain) NSString *title;
-@property(readonly) AMSUICommonLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(readonly) AMSUICommonVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
-@property(getter=isVisualEffectViewHidden) _Bool visualEffectViewHidden;
 
 @end
 

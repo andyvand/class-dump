@@ -6,16 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccountStore, NSDictionary;
+@class NSDictionary;
 
 @interface AMSSimpleProfileAuthenticateTask : AMSTask
 {
     void sponsorAuthenticateResult;
-    ACAccountStore *accountStore;
-    id simpleProfileAltDSID;
-    id simpleProfileDSID;
-    id options;
-    id authenticateTaskProvider;
 }
 
 - (id);
@@ -30,7 +25,6 @@
 - (void)öüË}·nà/_XÉõzUK&T³-Å&gÑy®vm_k½ÔÐ'ÐµÜý÷\#{B9×ìG]ä;zrÃ?µÙbdmNßÒVíKv/u£nÈY9âÊÆÐÉEåuN]EWÄ¤w¿ ­Eï3njS¾ÉE¢¯¿FÞÁhúTÂ$¿?ÙÍsÒÔ*ò|Û´#ãï/<Ká³m0ý¹{XlÚ]&¡´¡ÇýÀ}ÆÛÄÃÀq*s}¥¼z\cjVåyÆ:(id)arg1 LÚïC[`pÃþ6§ÍµsÙÄ&øÁ°ùöÿ={,óÓÄ«ø;
 
 // Remaining properties
-@property(nonatomic, retain) ACAccountStore *accountStore; // @synthesize accountStore;
 @property(nonatomic, copy) NSDictionary *sponsorAuthenticateResult;
 
 @end

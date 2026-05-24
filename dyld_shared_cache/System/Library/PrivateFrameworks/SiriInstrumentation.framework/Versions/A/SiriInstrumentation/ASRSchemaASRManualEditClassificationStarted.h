@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRManualEditClassificationStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)ntForEntityInUsingApp10Min;
+- (id)Library/PrivateFrameworks/IDS.framework/Versions/A/IDS;
+- (id)taskAbandonCountForEntityInUsingApp10Min;
 - (id)0AxAXBxCÈCDäEtFTGGxHÀH0JxJèKxLXM MÄNO¬P<QR¬RhT@U VhVDWWüXY|ZÄZ¤[ì[]`]Ø^ _` ae¬efghÔh´iüi k°klØl´mDn ohoØp qüqrlsüs t0uvXv|wÄw4yz0{x{|ä| ~è~ÈèXxèxÀätpÜP0¸Ô$lØ\<d¬Øh<¬ <¡x¢P£t¤l¦(¨©´ªüªL¬$­H® ¯D°°l±´±²Ü²¼³´ä´L¶p·;
 - (id)¤êöÿ<Ý2ÿ;
 - (_Bool)°½ÿ;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

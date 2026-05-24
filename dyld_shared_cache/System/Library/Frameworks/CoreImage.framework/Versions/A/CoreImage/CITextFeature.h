@@ -11,12 +11,6 @@
 @interface CITextFeature : CIFeature
 {
     NSArray *subFeatures;
-    NSString *messageString;
-    struct CGPoint topLeft;
-    struct CGPoint topRight;
-    struct CGPoint bottomLeft;
-    struct CGPoint bottomRight;
-    struct CGRect bounds;
 }
 
 - (id);
@@ -26,18 +20,12 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
-- (id);
+- (id)J;
 - (struct CGRect);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly) struct CGPoint bottomLeft; // @synthesize bottomLeft;
-@property(readonly) struct CGPoint bottomRight; // @synthesize bottomRight;
-@property(readonly) struct CGRect bounds; // @synthesize bounds;
 @property(readonly) NSString *messageString; // @synthesize messageString;
-@property(readonly) NSArray *subFeatures; // @synthesize subFeatures;
-@property(readonly) struct CGPoint topLeft; // @synthesize topLeft;
-@property(readonly) struct CGPoint topRight; // @synthesize topRight;
 
 @end
 

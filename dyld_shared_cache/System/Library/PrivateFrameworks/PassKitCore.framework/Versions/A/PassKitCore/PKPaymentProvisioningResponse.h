@@ -6,17 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSDictionary, NSString, PKContactInformation, PKExternalProvisioningOptions, PKProvisioningSupportData;
+@class NSArray, NSDictionary;
 
 @interface PKPaymentProvisioningResponse : PKPaymentWebServiceResponse
 {
     NSDictionary *_encryptedSupportDataDictionary;
-    NSArray *_downloadablePasses;
-    NSArray *_moreInfoURLs;
-    PKContactInformation *_idmsContactInformation;
-    NSString *_nonce;
-    PKExternalProvisioningOptions *_externalProvisioningOptions;
-    PKProvisioningSupportData *_encryptedProvisioningSupportData;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -24,22 +18,17 @@
 - (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)N,V_lessThan55mIntervalHistograms;
 - (id);
 - (void)presentation-source;
-- (id)pressionMode;
+- (id)payLaterSuppressionMode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *downloadablePasses; // @synthesize downloadablePasses=_downloadablePasses;
-@property(readonly, nonatomic) PKProvisioningSupportData *encryptedProvisioningSupportData; // @synthesize encryptedProvisioningSupportData=_encryptedProvisioningSupportData;
-@property(readonly, copy, nonatomic) PKExternalProvisioningOptions *externalProvisioningOptions; // @synthesize externalProvisioningOptions=_externalProvisioningOptions;
-@property(readonly, nonatomic) PKContactInformation *idmsContactInformation; // @synthesize idmsContactInformation=_idmsContactInformation;
-@property(readonly, copy, nonatomic) NSArray *moreInfoURLs; // @synthesize moreInfoURLs=_moreInfoURLs;
-@property(readonly, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
 
 @end
 

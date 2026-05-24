@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMAllServicesSetupEnded, NLXSchemaCDMAllServicesSetupFailed, NLXSchemaCDMAllServicesSetupStarted, NSData;
+@class NLXSchemaCDMAllServicesSetupStarted;
 
 @interface NLXSchemaCDMAllServicesSetupContext : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMAllServicesSetupStarted *_startedOrChanged;
-    NLXSchemaCDMAllServicesSetupEnded *_ended;
-    NLXSchemaCDMAllServicesSetupFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -35,12 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)dinfo;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!ÜFùñÞ°1Â0@ù
 × ;
@@ -49,14 +43,7 @@
 - (void)Ô=ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaCDMAllServicesSetupEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaCDMAllServicesSetupFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMAllServicesSetupStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

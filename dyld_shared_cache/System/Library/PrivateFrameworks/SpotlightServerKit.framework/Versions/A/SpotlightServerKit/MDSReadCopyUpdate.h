@@ -9,7 +9,6 @@
 @interface MDSReadCopyUpdate
 {
     NSMutableSet *_queueTokenSet;
-    id _resource;
 }
 
 - (void);

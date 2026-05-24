@@ -7,16 +7,6 @@
 @interface PhotoAnalysis.StylesOnboardingSuggestionGenerationTask
 {
     id worker;
-    id periodicity;
-    id name;
-    id identifier;
-    id version;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id taskProductivityReporter;
-    id photoLibrary;
-    id graphManager;
 }
 
 @end

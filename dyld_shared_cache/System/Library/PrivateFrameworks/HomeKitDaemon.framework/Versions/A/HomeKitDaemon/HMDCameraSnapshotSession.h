@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraSnapshotCompletionTimer, HMDCameraSnapshotMetrics, HMDCameraSnapshotSessionInfo, NSMutableArray, NSString;
-@protocol HMDCameraGetSnapshotProtocol;
+@class HMDCameraSnapshotMetrics, HMDCameraSnapshotSessionInfo;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotSession
 {
     HMDCameraSnapshotSessionInfo *_snapshotSessionInfo;
-    id <HMDCameraGetSnapshotProtocol> _snapshotGetter;
-    HMDCameraSnapshotCompletionTimer *_snapshotCompletionTimer;
-    NSMutableArray *_sessionMessages;
-    unsigned long long _streamingTierType;
-    HMDCameraSnapshotMetrics *_snapshotMetrics;
 }
 
 + (id)iÿµ;
-- (unsigned long long);
+- (unsigned long long)addNewSession:originator:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_joinedFromAccountIdentifier;
+- (id)_initWithParentSource:preprocessingBlock:mappingBlock: /* Error: Ran out of types for this method. */;
+- (id)_indexesOfRemovedObjects;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ratioOfAssetsWithUtilityCurationScore;
 - (void);
 - (id)Áß°!¸DùñÐ1Â0@ù
 × ;
@@ -34,19 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *sessionMessages; // @synthesize sessionMessages=_sessionMessages;
-@property(readonly, nonatomic) HMDCameraSnapshotCompletionTimer *snapshotCompletionTimer; // @synthesize snapshotCompletionTimer=_snapshotCompletionTimer;
-@property(readonly, nonatomic) id <HMDCameraGetSnapshotProtocol> snapshotGetter; // @synthesize snapshotGetter=_snapshotGetter;
 @property(readonly, nonatomic) HMDCameraSnapshotMetrics *snapshotMetrics; // @synthesize snapshotMetrics=_snapshotMetrics;
-@property(readonly, nonatomic) HMDCameraSnapshotSessionInfo *snapshotSessionInfo; // @synthesize snapshotSessionInfo=_snapshotSessionInfo;
-@property(readonly, nonatomic) unsigned long long streamingTierType; // @synthesize streamingTierType=_streamingTierType;
-@property(readonly) Class superclass;
 
 @end
 

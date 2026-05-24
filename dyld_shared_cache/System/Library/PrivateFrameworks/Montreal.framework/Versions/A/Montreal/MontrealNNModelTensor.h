@@ -6,19 +6,16 @@
 
 #import <Montreal/MontrealNNDescription.h>
 
-@class NSArray, NSHashTable, NSString;
+@class NSString;
 
 @interface MontrealNNModelTensor : MontrealNNDescription
 {
     NSString *_name;
-    NSArray *_dimension;
-    NSHashTable *_asInput;
-    NSHashTable *_asOutput;
 }
 
 + (id);
 + (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (void);
 - (id);
@@ -34,17 +31,7 @@
 - (id)´;
 
 // Remaining properties
-@property(readonly) NSHashTable *asInput; // @synthesize asInput=_asInput;
-@property(readonly) NSHashTable *asOutput; // @synthesize asOutput=_asOutput;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *dimension; // @synthesize dimension=_dimension;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

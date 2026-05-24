@@ -8,17 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TIOutputSummary
 {
     int _emojisOutput;
-    int _wordsOutput;
-    int _charactersOutput;
-    int _char1WordsOutput;
-    int _char2WordsOutput;
-    int _char3WordsOutput;
-    int _char4WordsOutput;
-    int _char5WordsOutput;
-    int _char6WordsOutput;
-    int _char7WordsOutput;
-    int _char8WordsOutput;
-    int _char9PlusWordsOutput;
 }
 
 - (int);
@@ -35,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (void);
+- (void)local_resultset_mail_snippet_tf_sum_prefix;
 - (int);
 - (void);
 - (void);
@@ -43,22 +32,11 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)Caches/com.apple.xbs/TemporaryDirectory.277BGj/Sources/Mail_Email/Email/SASL/cyrus_sasl/lib/server.c near line %d;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int char1WordsOutput; // @synthesize char1WordsOutput=_char1WordsOutput;
-@property(nonatomic) int char2WordsOutput; // @synthesize char2WordsOutput=_char2WordsOutput;
-@property(nonatomic) int char3WordsOutput; // @synthesize char3WordsOutput=_char3WordsOutput;
-@property(nonatomic) int char4WordsOutput; // @synthesize char4WordsOutput=_char4WordsOutput;
-@property(nonatomic) int char5WordsOutput; // @synthesize char5WordsOutput=_char5WordsOutput;
-@property(nonatomic) int char6WordsOutput; // @synthesize char6WordsOutput=_char6WordsOutput;
-@property(nonatomic) int char7WordsOutput; // @synthesize char7WordsOutput=_char7WordsOutput;
-@property(nonatomic) int char8WordsOutput; // @synthesize char8WordsOutput=_char8WordsOutput;
-@property(nonatomic) int char9PlusWordsOutput; // @synthesize char9PlusWordsOutput=_char9PlusWordsOutput;
-@property(nonatomic) int charactersOutput; // @synthesize charactersOutput=_charactersOutput;
 @property(nonatomic) int emojisOutput; // @synthesize emojisOutput=_emojisOutput;
-@property(nonatomic) int wordsOutput; // @synthesize wordsOutput=_wordsOutput;
 
 @end
 

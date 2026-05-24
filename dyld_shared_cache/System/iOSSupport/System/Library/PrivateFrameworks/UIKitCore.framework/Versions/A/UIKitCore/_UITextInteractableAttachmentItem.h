@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool)ddddddddddddd}20@0:(id)arg1 8B16;
-- (void)p;
+- (void)So11UITextInput_p;
 
 // Remaining properties
 @property(retain, nonatomic) NSTextAttachment *attachment; // @synthesize attachment=_attachment;

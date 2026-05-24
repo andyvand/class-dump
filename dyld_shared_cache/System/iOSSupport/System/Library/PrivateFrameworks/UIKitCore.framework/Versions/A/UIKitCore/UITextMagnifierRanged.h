@@ -10,29 +10,24 @@ __attribute__((visibility("hidden")))
 @interface UITextMagnifierRanged : UITextMagnifier
 {
     double _touchOffsetFromMagnificationPoint;
-    double _magnifierOffsetFromTouch;
-    _Bool _isHorizontal;
-    _Bool _isAnimating;
-    long long _delayedAnimationType;
-    struct CGPoint _delayedAnimationPoint;
 }
 
 + (Class);
 + (id);
 + (id)@ù
 × ;
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (double);
+- (void)resetTranscriptBackgroundForAllChatsWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)registerWithCompletionHandler:(double)arg1;
+- (void)movedMessagesToRecentlyDeletedForChatsWithGUIDs:queryID:deletionDate: /* Error: Ran out of types for this method. */;
+- (_Bool)incrementRetryCountForTasksWithRowIDs:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)dViaRelay:(struct CGPoint)arg1 spamDetectionSource: /* Error: Ran out of types for this method. */;
+- (double)?;
 - (id);
+- (int);
 - (int);
-- (int);
-- (struct CGRect);
-- (void);
-- (struct CGPoint);
+- (struct CGRect)h %@ as the login ID;
+- (void)action required. Subscription:(id)arg1 %@;
+- (struct CGPoint)ord on the callback for processing records;
 - (void);
 - (void);
 - (void);

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WBSWKDataTaskDelegate
 {
     CDUnknownBlockType _didReceiveData;
-    CDUnknownBlockType _didCompleteWithError;
 }
 
 - (void);
@@ -18,18 +15,10 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)thPolicy: /* Error: Ran out of types for this method. */;
+- (void)safari_shouldDonateWithPolicy: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didCompleteWithError; // @synthesize didCompleteWithError=_didCompleteWithError;
 @property(copy, nonatomic) CDUnknownBlockType didReceiveData; // @synthesize didReceiveData=_didReceiveData;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

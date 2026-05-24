@@ -10,15 +10,15 @@
 {
 }
 
-+ (_Bool);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (_Bool);
++ (_Bool)@24^@32^@40;
++ (unsigned long long)0:8q16Q24d32 /* Error: Ran out of types for this method. */;
++ (id)setMinimumPressDuration:(id)arg1;
++ (id)setHighlightCompositingFilter:(id)arg1;
++ (id)_overrideActionButtonColor;
++ (id)_needsSpaceAffordanceForDeleteButton;
++ (void)_lp_strictlyDecodeLPVideoForKey:(id)arg1;
++ (id)_lp_setStringType:(id)arg1;
++ (_Bool)Cloud.;
 
 @end
 

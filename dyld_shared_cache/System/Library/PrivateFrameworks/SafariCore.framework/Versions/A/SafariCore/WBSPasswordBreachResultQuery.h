@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary;
+@class NSData, NSDictionary;
 
 @interface WBSPasswordBreachResultQuery
 {
     NSData *_persistentIdentifier;
-    NSDate *_dateLastModified;
 }
 
 + (id);
@@ -17,16 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)elPropertyRecordLabelName;
 - (id);
 - (id);
 - (void)A×°!àBù±XÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateLastModified; // @synthesize dateLastModified=_dateLastModified;
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
 
 @end
 

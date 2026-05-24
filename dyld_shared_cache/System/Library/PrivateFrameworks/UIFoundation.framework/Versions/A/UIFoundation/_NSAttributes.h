@@ -9,7 +9,6 @@
 @interface _NSAttributes
 {
     NSDictionary *_attributes;
-    struct _NSRange _range;
 }
 
 - (void);

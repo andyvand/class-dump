@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDEnhancedPlacement
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _buildingIds;
-    double _elevation;
-    float _buildingFaceAzimuth;
-    float _buildingHeight;
-    struct {
-        unsigned int has_elevation:1;
-        unsigned int has_buildingFaceAzimuth:1;
-        unsigned int has_buildingHeight:1;
-    } _flags;
 }
 
 + (id);
@@ -26,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)e;
 - (_Bool);
 - (id)uldEnableGrayscaleHighlighting"b1"has_shouldUseDistanceFeatureServerResults"b1"read_unknownFields"b1"read_autocompleteSessionData"b1"read_clientRankingFeatureMetadatas"b1"read_parsecQueryRankingFeatures"b1"read_placeSummaryLayoutMetadata"b1"read_sections"b1"read_sortPriorityMappings"b1"wrote_anyField"b1};
-- (id)atedCollectionContext;
+- (id)_curatedCollectionContext;
 - (id)ä;
 - (void)êÿÿÿöÿÿÿÜÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿñÿÿÿìÿÿÿðÿÿÿêÿÿÿïÿÿÿíÿÿÿîÿÿÿéÿÿÿóÿÿÿòÿÿÿöÿÿÿõÿÿÿðÿÿÿïÿÿÿñÿÿÿôÿÿÿÜÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿéÿÿÿêÿÿÿëÿÿÿîÿÿÿèÿÿÿíÿÿÿìÿÿÿçÿÿÿÞÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿüÿÿÿõÿÿÿòÿÿÿôÿÿÿàÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿËÿÿÿÿÿÿÿ;
 

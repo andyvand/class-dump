@@ -9,20 +9,14 @@
 @interface TRIPBEnumDescriptor
 {
     NSString *name_;
-    const char *valueNames_;
-    const int *values_;
-    CDUnknownFunctionPointerType enumVerifier_;
-    const char *extraTextFormatInfo_;
-    unsigned int *nameOffsets_;
-    unsigned int valueCount_;
 }
 
-+ (id);
-+ (id);
++ (id)8q16;
++ (id)setColorTintStyle:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (CDUnknownFunctionPointerType);
@@ -30,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownFunctionPointerType enumVerifier; // @synthesize enumVerifier=enumVerifier_;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=name_;
 
 @end

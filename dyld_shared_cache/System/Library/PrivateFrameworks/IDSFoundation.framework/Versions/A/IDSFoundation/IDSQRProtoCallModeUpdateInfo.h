@@ -7,7 +7,6 @@
 @interface IDSQRProtoCallModeUpdateInfo
 {
     int _facetimeMode;
-    unsigned int _modeGenCounter;
 }
 
 - (void);
@@ -21,14 +20,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)acketType:(id)arg1 packetLength:transmitPower:transmitPowerdBm:transmitPowerTableIndex:transmitConnectionInterval:packetsInGroup: /* Error: Ran out of types for this method. */;
+- (void)INPairSession _clientSFSessionStart];
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int facetimeMode; // @synthesize facetimeMode=_facetimeMode;
-@property(nonatomic) unsigned int modeGenCounter; // @synthesize modeGenCounter=_modeGenCounter;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBCurrencyAmountValue;
-
 @interface _INPBPaymentAmountValue
 {
     struct {
         unsigned int amountType:1;
     } _has;
-    int _amountType;
-    _INPBCurrencyAmountValue *_value;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -29,24 +25,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
-- (void)WorkoutIntentResponseCodeFailureNoMatchingWorkout;
+- (void)INCancelWorkoutIntentResponseCodeFailureNoMatchingWorkout;
 
 // Remaining properties
 @property(nonatomic) int amountType; // @synthesize amountType=_amountType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAmountType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *value; // @synthesize value=_value;
 
 @end
 

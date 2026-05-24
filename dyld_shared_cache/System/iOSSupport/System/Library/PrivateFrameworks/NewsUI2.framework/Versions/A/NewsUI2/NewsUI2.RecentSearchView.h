@@ -7,14 +7,11 @@
 @interface NewsUI2.RecentSearchView
 {
     id titleLabel;
-    id imageView;
-    id chevron;
-    id separatorView;
 }
 
 - (id);
 - (id);
-- (void)sMagazineFeedGroupConfigData;
+- (void)RecommendedIssuesMagazineFeedGroupConfigData;
 
 @end
 

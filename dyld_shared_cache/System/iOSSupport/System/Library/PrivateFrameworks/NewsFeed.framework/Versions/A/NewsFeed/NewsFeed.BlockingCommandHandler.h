@@ -7,10 +7,6 @@
 @interface NewsFeed.BlockingCommandHandler
 {
     id subscriptionController;
-    id commandCenter;
-    id sceneProvider;
-    id appConfigManager;
-    id featureAvailability;
 }
 
 - (void);

@@ -7,7 +7,7 @@
 @interface UnknownClass (WebKit)
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 @end
 

@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSDate, NSDatePicker, NSVisualEffectView, _NSDatePickerOverlayPanel;
+@class NSVisualEffectView;
 @protocol _NSDatePickerCalendarOverlayDelegate;
 
 @interface _NSDatePickerCalendarOverlay
 {
     id <_NSDatePickerCalendarOverlayDelegate> _delegate;
-    NSVisualEffectView *_visualEffectView;
-    NSDate *_dateValue;
-    NSDatePicker *_textDatePicker;
-    NSDatePicker *_calendarDatePicker;
-    NSDatePicker *_sourceDatePicker;
-    _NSDatePickerOverlayPanel *_overlayPanel;
-    NSBezierPath *_maskPath;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ate;
+- (void)0x%X);
+- (void)lue found for key %c%c%c%c;
+- (void)allScalarMethod kAppleNVMeEANRead returned 0x%X);
+- (void)d 1 output value for kAppleNVMeEANGetSize but got %d;
+- (void)string (%@) for %@ in SIM status interface (%@);
 - (void);
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)rie file fd;
+- (void)- done munmap;
 - (void);
 - (void);
 - (void);
@@ -44,13 +37,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (_Bool)_setProhibitPrivacyProxy:(id)arg1;
+- (void)nfig;
+- (unsigned long long)oadConfiguration",&,V_downloadConfig;
 - (void);
 - (id);
+- (void)tion %llu:(_Bool)arg1 Proxy Challenge invoking completion with cred %@ cancel %d;
+- (id)ned nil;
 - (id);
 - (void);
 - (void);
@@ -60,13 +53,6 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSDatePicker *_calendarDatePicker; // @synthesize _calendarDatePicker;
-@property(retain, setter=_setDateValue:) NSDate *_dateValue; // @synthesize _dateValue;
-@property __weak id <_NSDatePickerCalendarOverlayDelegate> _delegate; // @synthesize _delegate;
-@property(retain) NSBezierPath *_maskPath; // @synthesize _maskPath;
-@property(retain) _NSDatePickerOverlayPanel *_overlayPanel; // @synthesize _overlayPanel;
-@property __weak NSDatePicker *_sourceDatePicker; // @synthesize _sourceDatePicker;
-@property(retain) NSDatePicker *_textDatePicker; // @synthesize _textDatePicker;
 @property(retain) NSVisualEffectView *_visualEffectView; // @synthesize _visualEffectView;
 
 @end

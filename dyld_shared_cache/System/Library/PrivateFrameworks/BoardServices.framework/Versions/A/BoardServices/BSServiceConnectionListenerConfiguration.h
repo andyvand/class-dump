@@ -5,16 +5,10 @@
 //
 
 @class NSString;
-@protocol BSServiceConnectionListenerDelegate;
 
 @interface BSServiceConnectionListenerConfiguration
 {
     NSString *_lock_domain;
-    NSString *_lock_service;
-    NSString *_lock_instance;
-    id <BSServiceConnectionListenerDelegate> _lock_delegate;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_configured;
 }
 
 + (id);

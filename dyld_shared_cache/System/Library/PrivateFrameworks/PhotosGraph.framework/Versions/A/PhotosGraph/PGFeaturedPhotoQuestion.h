@@ -6,23 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGFeaturedPhotoQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
 }
 
 - (_Bool);
 - (id);
+- (unsigned short);
+- (id);
 - (unsigned short);
-- (id);
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
-- (id)cumulationIsComplete;
+- (id)accumulationIsComplete;
 - (void)%d
 ;
 

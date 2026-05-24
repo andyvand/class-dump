@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface AMPArtworkSourceInfo
 {
     unsigned int _kind;
-    unsigned long long _dbID;
-    unsigned long long _persistentID;
-    NSURL *_url;
-    unsigned long long _remoteID;
-    NSString *_token;
-    NSString *_storeID;
 }
 
 + (_Bool);
@@ -28,11 +20,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)8%q`;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)P*;
 - (void);
 - (void);
 - (void);
@@ -46,12 +38,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long dbID; // @synthesize dbID=_dbID;
-@property(nonatomic) unsigned int kind; // @synthesize kind=_kind;
-@property(nonatomic) unsigned long long persistentID; // @synthesize persistentID=_persistentID;
-@property(nonatomic) unsigned long long remoteID; // @synthesize remoteID=_remoteID;
-@property(retain, nonatomic) NSString *storeID; // @synthesize storeID=_storeID;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

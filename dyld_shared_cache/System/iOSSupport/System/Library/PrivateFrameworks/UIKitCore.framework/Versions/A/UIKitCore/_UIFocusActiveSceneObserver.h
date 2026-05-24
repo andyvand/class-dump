@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)_availabilityOffGridRecipientEncryptionValidationToken;
 - (id);
-- (id)CategoryCell;
+- (id)UIKeyboardEmojiSplitCategoryCell;
 - (id)µ33 pþ¥33@Ýsþ;
 - (void);
 

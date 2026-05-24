@@ -9,21 +9,20 @@
 @interface EKSpotlightSearch
 {
     CSSearchQuery *csQuery;
-    EKEventStore *_eventStore;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id)@;
++ (_Bool)create distantExternalDevice for endpoint %@ %@;
++ (id)DevicePairingSession)] Unpairing Device %@;
++ (id)em(MRPlaybackQueueRequestRef);
++ (id)searchEndpointsForRoutingContextUID;
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)<WdW;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)charge_start_soc_curr_dynamic_bin_2;
 - (void);
 
 // Remaining properties

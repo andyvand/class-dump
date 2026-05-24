@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributeDescription, NSObject, NSSQLEntity, NSString;
+@class NSArray, NSObject;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLLocationAttributeRTreeExtension
 {
     NSObject *_userInfoObject;
-    NSArray *_components;
-    NSSQLEntity *_sqlEntity;
-    NSString *_attributeName;
-    NSString *_rtreeTableName;
-    NSAttributeDescription *_attributeDescription;
-    NSAttributeDescription *_latProp;
-    NSAttributeDescription *_longProp;
-    NSArray *_insertSQLStrings;
-    NSArray *_dropSQLStrings;
-    NSArray *_bulkUpdateSQLStrings;
 }
 
 - (void);
@@ -31,16 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bulkUpdateSQLStrings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *dropSQLStrings;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *insertSQLStrings;
-@property(readonly) Class superclass;
 
 @end
 

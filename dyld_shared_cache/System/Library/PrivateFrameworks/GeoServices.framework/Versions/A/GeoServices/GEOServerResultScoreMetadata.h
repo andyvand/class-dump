@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)setRecordsToRemove:(id)arg1;
 - (float);
 
 // Remaining properties

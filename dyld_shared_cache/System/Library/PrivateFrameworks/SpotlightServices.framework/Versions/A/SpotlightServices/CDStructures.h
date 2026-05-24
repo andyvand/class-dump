@@ -10,6 +10,16 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
+struct CGPoint {
+    double _field1;
+    double _field2;
+};
+
+struct CGRect {
+    struct CGPoint _field1;
+    struct CGSize _field2;
+};
+
 struct CGSize {
     double _field1;
     double _field2;
@@ -29,9 +39,9 @@ struct PRSL2FeatureScoreInfo {
 };
 
 struct PRSL2FeatureScoreSmallCache {
-    unsigned short features[32];
-    float scores[32];
-    unsigned short count;
+    unsigned short _field1[32];
+    float _field2[32];
+    unsigned short _field3;
 };
 
 struct PRSRankingConfigurationFlags {
@@ -49,8 +59,6 @@ struct _NSRange {
 
 struct __CFArray;
 
-struct __CFDictionary;
-
 struct _resultset_computation_ctx {
     float *_field1;
     _Bool _field2;
@@ -60,11 +68,6 @@ struct _resultset_computation_ctx {
     float _field6;
     float _field7;
     float _field8[44];
-};
-
-struct fan_out_value {
-    unsigned long long _field1;
-    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {
@@ -115,18 +118,11 @@ typedef struct {
 } CDStruct_5ac11014;
 
 typedef struct {
-    char *containerBytes;
-    unsigned long long containerLength;
+    char *_field1;
+    unsigned long long _field2;
     struct {
-        unsigned int embeddedReference;
-        unsigned char type;
-    } reference;
-} CDStruct_ab85f6a0;
-
-#pragma mark Typedef'd Unions
-
-typedef union {
-    struct __CFDictionary *_field1;
-    int _field2[5];
-} CDUnion_fc2819da;
+        unsigned int _field1;
+        unsigned char _field2;
+    } _field3;
+} CDStruct_04aed232;
 

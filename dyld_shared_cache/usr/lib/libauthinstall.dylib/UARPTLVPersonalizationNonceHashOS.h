@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)startRightwardContentTransitionButton;
 - (void);
 
 // Remaining properties

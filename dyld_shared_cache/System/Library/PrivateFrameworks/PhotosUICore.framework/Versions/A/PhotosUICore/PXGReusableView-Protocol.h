@@ -7,24 +7,14 @@
 @protocol NSCopying;
 
 @protocol PXGReusableView
+- (void)DefaultTrendingGroupAggregateBias;
 
 @optional
+- (void);
+- (void)T;
 - (_Bool)üÓÔøÕÖÐØôØâØâ ãì;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) id <NSCopying> userData;
 @end
 

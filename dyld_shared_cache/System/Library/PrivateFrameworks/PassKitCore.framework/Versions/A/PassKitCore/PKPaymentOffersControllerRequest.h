@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSOrderedSet, NSSet, NSString, PKPaymentOfferRewardsRedemptionIntent, PKSelectedPaymentOfferPaymentPassDetails;
+@class NSMutableOrderedSet;
 
 @interface PKPaymentOffersControllerRequest
 {
     NSMutableOrderedSet *_completions;
-    unsigned long long _type;
-    unsigned long long _catalogUpdateReason;
-    PKSelectedPaymentOfferPaymentPassDetails *_selectedPassDetails;
-    NSString *_criteriaIdentifier;
-    PKPaymentOfferRewardsRedemptionIntent *_rewardsRedemptionIntent;
-    unsigned long long _updateReason;
-    NSSet *_dynamicPageTypes;
 }
 
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)ԠW;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -30,25 +21,20 @@
 - (id);
 - (id);
 - (id);
+- (id)	k`;
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (_Bool)C;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (void)presentation;
+- (unsigned long long)tem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (void)phoneticRepresentation;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long catalogUpdateReason; // @synthesize catalogUpdateReason=_catalogUpdateReason;
-@property(readonly, nonatomic) NSOrderedSet *completions; // @synthesize completions=_completions;
-@property(readonly, copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(readonly, copy, nonatomic) NSSet *dynamicPageTypes; // @synthesize dynamicPageTypes=_dynamicPageTypes;
-@property(readonly, nonatomic) PKPaymentOfferRewardsRedemptionIntent *rewardsRedemptionIntent; // @synthesize rewardsRedemptionIntent=_rewardsRedemptionIntent;
-@property(readonly, nonatomic) PKSelectedPaymentOfferPaymentPassDetails *selectedPassDetails; // @synthesize selectedPassDetails=_selectedPassDetails;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) unsigned long long updateReason; // @synthesize updateReason=_updateReason;
 
 @end
 

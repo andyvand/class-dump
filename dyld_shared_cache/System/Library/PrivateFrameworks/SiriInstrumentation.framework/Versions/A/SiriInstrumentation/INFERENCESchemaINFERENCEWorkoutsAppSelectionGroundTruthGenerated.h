@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEWorkoutsAppSelectionTrainingIndependentSignals, NSArray, NSData;
+@class INFERENCESchemaINFERENCEWorkoutsAppSelectionTrainingIndependentSignals;
 
 @interface INFERENCESchemaINFERENCEWorkoutsAppSelectionGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEWorkoutsAppSelectionTrainingIndependentSignals *_inferenceWorkoutsAppSelectionTrainingIndependentSignals;
-    NSArray *_inferenceWorkoutsAppSelectionTrainingDependentSignals;
-    _Bool _hasInferenceWorkoutsAppSelectionTrainingIndependentSignals;
 }
 
 - (void);
@@ -25,26 +23,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id)1Â0@ù
 × ;
 - (id),V_buildVersionPriorToSoftwareUpdate;
-- (id)agerCallContext;
+- (id)RGSiriSchemaRGCacheManagerCallContext;
 - (void)-Ýÿ7B¯:2" /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInferenceWorkoutsAppSelectionTrainingIndependentSignals; // @synthesize hasInferenceWorkoutsAppSelectionTrainingIndependentSignals=_hasInferenceWorkoutsAppSelectionTrainingIndependentSignals;
-@property(copy, nonatomic) NSArray *inferenceWorkoutsAppSelectionTrainingDependentSignals; // @synthesize inferenceWorkoutsAppSelectionTrainingDependentSignals=_inferenceWorkoutsAppSelectionTrainingDependentSignals;
 @property(retain, nonatomic) INFERENCESchemaINFERENCEWorkoutsAppSelectionTrainingIndependentSignals *inferenceWorkoutsAppSelectionTrainingIndependentSignals; // @synthesize inferenceWorkoutsAppSelectionTrainingIndependentSignals=_inferenceWorkoutsAppSelectionTrainingIndependentSignals;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

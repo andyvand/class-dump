@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long deviceTraitSize;
-@property(readonly, nonatomic, getter=isLandscape) _Bool landscape;
 @end
 

@@ -6,14 +6,10 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class NSColor, NSImageView;
-
 __attribute__((visibility("hidden")))
 @interface LPCaptionBarAccessoryView : LPComponentView
 {
     long long _type;
-    NSColor *_color;
-    NSImageView *_accessoryView;
 }
 
 - (void);

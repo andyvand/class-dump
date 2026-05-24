@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOTransitListTimeInstruction, NSArray, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitListInstruction
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_commandFormatteds;
-    NSMutableArray *_detailFormatteds;
-    GEOFormattedString *_expandableListFormatted;
-    NSMutableArray *_noticeFormatteds;
-    NSMutableArray *_priceFormatteds;
-    GEOTransitListTimeInstruction *_timeInstructions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_commandFormatteds:1;
-        unsigned int read_detailFormatteds:1;
-        unsigned int read_expandableListFormatted:1;
-        unsigned int read_noticeFormatteds:1;
-        unsigned int read_priceFormatteds:1;
-        unsigned int read_timeInstructions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
++ (Class)#;
 + (Class);
-+ (Class);
-+ (_Bool)ategorys:(id)arg1;
++ (_Bool)setModernLocalizedCategorys:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -53,66 +33,47 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)unsignedIntegerValue;
+- (id)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_canCreateGroups;
+- (id)_cacheQueue;
+- (id)_cacheEntryForKey:(unsigned long long)arg1 createIfNeeded: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_customPropertyDefinitionsToDelete;
+- (id);
+- (id)cyIdentifierRegistration>",R,N,V_legacyIdentifierRegistrar;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)>"16@?0@"CNCDContainer"8;
+- (void)updates;
+- (void)ring"16^B24;
+- (void)remoteLocations;
+- (void)uniqueId;
+- (_Bool)@?0;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)MACaptionCharScale;
+- (id);
+- (void)injectionAudioFileList;
+- (id);
+- (unsigned long long)#;
+- (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)B;
 - (id)Qº*°1Â0@ù
 × ;
-- (id)identAnnotationDetails;
-- (id)igParams;
-- (id)eData;
+- (id)incidentAnnotationDetails;
+- (id)_abConfigParams;
+- (id)placeData;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *commandFormatteds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *detailFormatteds;
-@property(retain, nonatomic) GEOFormattedString *expandableListFormatted;
-@property(readonly, nonatomic) _Bool hasExpandableListFormatted;
-@property(readonly, nonatomic) _Bool hasTimeInstructions;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *noticeFormatteds;
-@property(retain, nonatomic) NSMutableArray *priceFormatteds;
-@property(readonly, nonatomic) NSArray *serverFormattedCommands;
-@property(readonly, nonatomic) NSArray *serverFormattedDetails;
-@property(readonly, nonatomic) NSArray *serverFormattedNotices;
-@property(readonly, nonatomic) NSArray *serverFormattedPrices;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEOTransitListTimeInstruction *timeInstructions;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

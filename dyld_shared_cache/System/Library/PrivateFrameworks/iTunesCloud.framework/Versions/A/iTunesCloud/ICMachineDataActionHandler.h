@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICMachineDataActionHandler
 {
     NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSOperationQueue *_operationQueue;
 }
 
 + (id);
-- (id);
+- (id)H;
 - (void);
 - (void);
-- (void)ionRequestResult;
+- (void)ICDelegationConsumerServiceSessionRequestResult;
 
 @end
 

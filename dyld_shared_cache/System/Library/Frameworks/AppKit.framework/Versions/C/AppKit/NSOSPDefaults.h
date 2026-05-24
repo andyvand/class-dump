@@ -8,14 +8,52 @@
 {
 }
 
-+ (struct CGSize);
++ (struct CGSize)k/Versions/A/GSS;
++ (void)F
+FFFF)F8FGG
+GGGG)G8GHH
+HHHH)H8HI	II(IJ	JJ(JK	KK(KL	LL(LII
+IIII)I8IJJ
+JJJJ)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
++ (void)D(D:(_Bool)arg1 :(id)arg2 ::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
++ (void)uuu)u8u:(_Bool)arg1 :(id)arg2 :(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
++ (void)m(mn	nn(np	pp(pll
+llll)l8lmm
+mmmm)m8mnn
+nnnn)n8npp
+pppp)p8pr	rr(ru	uu(u:(id)arg1 :(id)arg2 BBCCDDrr
+rrrr)r8ruu
+uuuu)u8u:(id)arg3 ::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
++ (void)gghh=	==(=A	AA(A_	__(_b	bb(b==
+====)=8=AA
+AAAA)A8A__
+____)_8_bb
+bbbb)b8bd	dd(df	ff(fg	gg(gh	hh(hdd
+dddd)d8dff
+ffff)f8fgg
+gggg)g8ghh
+hhhh)h8hllmmnnpprruu;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)99)989;
 + (void);
 + (void);
 + (void);
@@ -31,10 +69,10 @@
 + (int);
 + (int);
 + (id);
-+ (id);
-+ (id);
++ (id)@;
++ (id);
 + (void);
-+ (id);
++ (id)@;
 
 @end
 

@@ -6,7 +6,7 @@
 
 @interface UnknownClass (ImageEffects)
 + (id);
-+ (id);
++ (id)r;
 - (id);
 - (id);
 @end

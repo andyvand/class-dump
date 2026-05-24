@@ -6,37 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class NSControlAuxiliary, NSDictionary, NSParagraphStyle, _NSControlModel, _NSControlStorage;
+@class NSControlAuxiliary;
 
 @interface NSControl : NSView
 {
     NSControlAuxiliary *_aux;
-    id _cell;
-    struct __conFlags {
-        unsigned int enabled:1;
-        unsigned int ignoreMultiClick:1;
-        unsigned int calcSize:1;
-        unsigned int drawingAncestor:1;
-        unsigned int ibReserved:1;
-        unsigned int updateCellFocus:1;
-        unsigned int allowsLogicalLayoutDirection:1;
-        unsigned int asmlwidth:1;
-        unsigned int hsmlwidth:1;
-        unsigned int dontValidate:1;
-        unsigned int allowsLogicalLayoutDirectionExplicitlySet:1;
-        unsigned int reserved:21;
-    } _conFlags;
-    _NSControlModel *_model;
-    _NSControlStorage *_storage;
-    NSParagraphStyle *_cachedParagraphStyle;
-    NSDictionary *_textAttributes;
-    unsigned int _wasEverZeroCell:1;
-    unsigned int _cellFallbackReason:2;
-    unsigned int _checkedMustDelegateToCell:1;
-    unsigned int _mustDelegateToCell:1;
-    unsigned int _checkedClassNeedsNoCellMouseTracking:1;
-    unsigned int _classNeedsNoCellMouseTracking:1;
-    unsigned int _inToolbarWithIconAndLabel:1;
 }
 
 @end

@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKCrossPlatformShareURL
 {
     NSURL *_url;
-    NSString *_expectedPairedReaderIdentifier;
-    NSString *_expectedProvisioningCredentialHash;
 }
 
 + (_Bool)î%°1Â0@ù
 × ;
+- (id)
+kB;
+- (id)qa;
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)?
+k!;
+- (_Bool)hasRxAmpduTxBaMismatch;
 - (void);
 - (id);
 - (void)payment;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *expectedPairedReaderIdentifier; // @synthesize expectedPairedReaderIdentifier=_expectedPairedReaderIdentifier;
-@property(readonly, nonatomic) NSString *expectedProvisioningCredentialHash; // @synthesize expectedProvisioningCredentialHash=_expectedProvisioningCredentialHash;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

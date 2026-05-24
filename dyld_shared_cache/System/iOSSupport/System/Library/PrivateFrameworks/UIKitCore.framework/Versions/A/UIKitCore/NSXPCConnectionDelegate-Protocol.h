@@ -9,7 +9,7 @@
 @protocol NSXPCConnectionDelegate
 
 @optional
-- (id <NSSecureCoding>)KeyboardCandidateSceneHostingControllerC;
+- (id <NSSecureCoding>)So41UIKeyboardCandidateSceneHostingControllerC;
 - (void)î;
 @end
 

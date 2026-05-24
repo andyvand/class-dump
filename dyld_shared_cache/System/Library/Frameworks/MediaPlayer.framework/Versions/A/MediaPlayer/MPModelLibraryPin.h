@@ -6,8 +6,6 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelAlbum, MPModelArtist, MPModelPlaylist, MPModelSong, NSString;
-
 @interface MPModelLibraryPin : MPModelObject
 {
     MPModelObject *_pinnedEntity;
@@ -20,14 +18,14 @@
 + (id);
 + (id);
 + (id);
++ (id)C;
 + (id);
 + (id);
-+ (id);
++ (void)Q;
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -37,20 +35,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ntationKind: /* Error: Ran out of types for this method. */;
+- (void)_artworkCacheForIdentifier:requestingContext:representationKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MPModelAlbum *album; // @dynamic album;
-@property(retain, nonatomic) MPModelArtist *artist; // @dynamic artist;
-@property(nonatomic) long long defaultAction; // @dynamic defaultAction;
-@property(readonly, nonatomic) long long persistentID; // @dynamic persistentID;
 @property(retain, nonatomic) MPModelObject *pinnedEntity; // @synthesize pinnedEntity=_pinnedEntity;
-@property(nonatomic) long long pinnedEntityPersistentID; // @dynamic pinnedEntityPersistentID;
-@property(nonatomic) long long pinnedEntityType; // @dynamic pinnedEntityType;
-@property(retain, nonatomic) MPModelPlaylist *playlist; // @dynamic playlist;
-@property(nonatomic) long long position; // @dynamic position;
-@property(copy, nonatomic) NSString *positionUUID; // @dynamic positionUUID;
-@property(retain, nonatomic) MPModelSong *song; // @dynamic song;
 
 @end
 

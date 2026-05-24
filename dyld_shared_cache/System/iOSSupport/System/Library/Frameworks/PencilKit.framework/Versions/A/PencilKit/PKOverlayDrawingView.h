@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKImageView;
-@protocol NSCopying;
+@class PKImageView;
 
 @interface PKOverlayDrawingView
 {
     PKImageView *_imageView;
-    NSObject<NSCopying> *_identifier;
-    NSObject<NSCopying> *_currentContent;
-    struct CGRect _currentContentReferenceRectangle;
 }
 
 - (void);
@@ -28,9 +24,6 @@
 - (void)Êÿÿÿÿÿ`;
 
 // Remaining properties
-@property(copy, nonatomic) NSObject<NSCopying> *currentContent; // @synthesize currentContent=_currentContent;
-@property(nonatomic) struct CGRect currentContentReferenceRectangle; // @synthesize currentContentReferenceRectangle=_currentContentReferenceRectangle;
-@property(copy, nonatomic) NSObject<NSCopying> *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) PKImageView *imageView;
 
 @end

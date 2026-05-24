@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKAssetMetadata, NSData, NSDictionary, NSURL, _BKAggregatedAssetData;
+@class NSURL;
 
 @interface _BKAggregatedAssetMetadata
 {
     NSURL *_url;
-    BKAssetMetadata *_opfMetadata;
-    BKAssetMetadata *_iTunesMetadata;
-    BKAssetMetadata *_preloadedMetadata;
-    NSDictionary *_sinfOptions;
-    NSData *_coverImageData;
-    _BKAggregatedAssetData *_aggregateData;
 }
 
 - (id);
@@ -26,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -38,13 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _BKAggregatedAssetData *aggregateData; // @synthesize aggregateData=_aggregateData;
-@property(readonly, nonatomic) BKAssetMetadata *combinedMetadata;
-@property(retain, nonatomic) NSData *coverImageData; // @synthesize coverImageData=_coverImageData;
-@property(retain, nonatomic) BKAssetMetadata *iTunesMetadata; // @synthesize iTunesMetadata=_iTunesMetadata;
-@property(retain, nonatomic) BKAssetMetadata *opfMetadata; // @synthesize opfMetadata=_opfMetadata;
-@property(retain, nonatomic) BKAssetMetadata *preloadedMetadata; // @synthesize preloadedMetadata=_preloadedMetadata;
-@property(retain, nonatomic) NSDictionary *sinfOptions; // @synthesize sinfOptions=_sinfOptions;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

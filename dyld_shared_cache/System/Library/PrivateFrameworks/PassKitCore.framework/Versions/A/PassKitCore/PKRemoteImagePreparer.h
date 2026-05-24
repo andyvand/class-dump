@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface PKRemoteImagePreparer
 {
     NSCache *_preparedImageCache;
-    struct os_unfair_lock_s _completionsLock;
-    NSMutableDictionary *_completionHandlers;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (void)^B24;

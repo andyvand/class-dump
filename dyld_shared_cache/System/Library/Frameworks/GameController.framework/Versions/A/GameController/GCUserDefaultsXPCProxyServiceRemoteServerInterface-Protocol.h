@@ -5,5 +5,6 @@
 //
 
 @protocol GCUserDefaultsXPCProxyServiceRemoteServerInterface
+- (void);
 @end
 

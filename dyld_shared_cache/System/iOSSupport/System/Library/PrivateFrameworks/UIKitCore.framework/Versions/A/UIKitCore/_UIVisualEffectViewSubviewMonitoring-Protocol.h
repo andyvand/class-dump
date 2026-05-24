@@ -7,7 +7,7 @@
 @class UIView;
 
 @protocol _UIVisualEffectViewSubviewMonitoring
-- (void)eAnimatingDelete:(UIView *)arg1 oldVisibleViews:(UIView *)arg2 useCopyBlendingForAnimations: /* Error: Ran out of types for this method. */;
+- (void)_startViewAnimationsForUpdate:(UIView *)arg1 withContext:(UIView *)arg2 swipeOccurrenceAnimatingDelete:oldVisibleViews:useCopyBlendingForAnimations: /* Error: Ran out of types for this method. */;
 - (void)rItemCè¿7G;
 @end
 

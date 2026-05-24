@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SDEventMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_eventHandlers;
 }
 
 + (id);
 - (id);
 - (void);
+- (id)hondelullen;
+- (void);
+- (void);
+- (void)o context;
 - (id);
+- (id)rem_saveRequestForDataAccess;
+- (void)`;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)h;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *eventHandlers; // @synthesize eventHandlers=_eventHandlers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

@@ -6,38 +6,18 @@
 
 #import <GameController/GCPhysicalInputProfile.h>
 
-@class GCControllerButtonInput, GCDeviceCursor, NSArray, NSMutableArray, NSObject, NSString, _GCDevicePhysicalInput;
-@protocol OS_dispatch_queue;
-
 @interface GCMouseInput : GCPhysicalInputProfile
 {
     struct os_unfair_lock_s _eventBufferLock;
-    NSMutableArray *_eventBuffer;
-    unsigned long long _eventBufferDepth;
-    id _buttonEventObservation;
-    id _scrollEventObservation;
-    id _digitizerEventObservation;
-    id _pointerEventObservation;
-    long long _buttons;
-    CDUnknownBlockType _mouseMovedHandler;
-    CDUnknownBlockType _mouseMovedHandlerPrivate;
-    CDUnknownBlockType _mouseButtonPressedPrivate;
-    NSObject<OS_dispatch_queue> *_physicalInputQueue;
-    _GCDevicePhysicalInput *_liveInput;
-    GCDeviceCursor *_scroll;
-    GCControllerButtonInput *_leftButton;
-    GCControllerButtonInput *_rightButton;
-    GCControllerButtonInput *_middleButton;
-    NSArray *_auxiliaryButtons;
 }
 
 - (void);
+- (void),;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -53,30 +33,16 @@
 - (void);
 - (id);
 - (void);
+- (id)nction_tEE3$_1FbNS4_19match_kernel_info_tINS2_22generic_reshape_kernelEEENS8_INS2_28generic_inner_product_kernelEEESA_EEE;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)saveBestRepresentationForRequest:(id)arg1 toFileHandle:withContentType:allowingThumbnailDownloads:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *auxiliaryButtons; // @synthesize auxiliaryButtons=_auxiliaryButtons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GCControllerButtonInput *leftButton; // @synthesize leftButton=_leftButton;
-@property(readonly, nonatomic) GCControllerButtonInput *middleButton; // @synthesize middleButton=_middleButton;
-@property(copy, nonatomic) CDUnknownBlockType mouseButtonPressedPrivate; // @synthesize mouseButtonPressedPrivate=_mouseButtonPressedPrivate;
-@property(copy, nonatomic) CDUnknownBlockType mouseMovedHandler; // @synthesize mouseMovedHandler=_mouseMovedHandler;
-@property(copy, nonatomic) CDUnknownBlockType mouseMovedHandlerPrivate; // @synthesize mouseMovedHandlerPrivate=_mouseMovedHandlerPrivate;
-@property(readonly, nonatomic) GCControllerButtonInput *rightButton; // @synthesize rightButton=_rightButton;
-@property(readonly, nonatomic) GCDeviceCursor *scroll; // @synthesize scroll=_scroll;
-@property(readonly) Class superclass;
 
 @end
 

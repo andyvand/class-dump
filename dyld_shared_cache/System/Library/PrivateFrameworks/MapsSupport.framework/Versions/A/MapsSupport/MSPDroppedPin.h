@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapRegion, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPDroppedPin
 {
     PBUnknownFields *_unknownFields;
-    double _timestamp;
-    int _floorOrdinal;
-    GEOLatLng *_latLng;
-    GEOMapRegion *_mapRegion;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int floorOrdinal:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (int);
-- (void);
-- (_Bool);
+- (void)rce values for %@:(id)arg1 %{public}@;
+- (_Bool)NULL, mailbox INTEGER NOT NULL REFERENCES mailboxes(ROWID) ON DELETE CASCADE, sequence_identifier INTEGER, read INTEGER NOT NULL, deleted INTEGER NOT NULL, replied INTEGER NOT NULL, flagged INTEGER NOT NULL, draft INTEGER NOT NULL, forwarded INTEGER NOT NULL, redirected INTEGER NOT NULL, junk_level_set_by_user INTEGER NOT NULL, junk_level INTEGER NOT NULL, flag_color INTEGER NOT NULL, remote_id INTEGER NOT NULL);;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -46,15 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int floorOrdinal; // @synthesize floorOrdinal=_floorOrdinal;
-@property(nonatomic) _Bool hasFloorOrdinal;
 @property(readonly, nonatomic) _Bool hasLatLng;
-@property(readonly, nonatomic) _Bool hasMapRegion;
-@property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) GEOLatLng *latLng; // @synthesize latLng=_latLng;
-@property(retain, nonatomic) GEOMapRegion *mapRegion; // @synthesize mapRegion=_mapRegion;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

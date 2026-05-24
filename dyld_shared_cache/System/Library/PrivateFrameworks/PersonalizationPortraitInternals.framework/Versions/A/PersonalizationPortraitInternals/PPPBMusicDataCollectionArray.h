@@ -9,39 +9,33 @@
 @interface PPPBMusicDataCollectionArray
 {
     NSString *_assetVersion;
-    NSMutableArray *_experimentalGroups;
-    NSMutableArray *_records;
-    _Bool _hasMusicSubscription;
-    struct {
-        unsigned int hasMusicSubscription:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
@@ -50,14 +44,9 @@
 × ;
 - (void)1Â0@ù
 × ;
-- (void)r:(id)arg1;
+- (void)respondsToSelector:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(retain, nonatomic) NSMutableArray *experimentalGroups; // @synthesize experimentalGroups=_experimentalGroups;
-@property(readonly, nonatomic) _Bool hasAssetVersion;
-@property(nonatomic) _Bool hasHasMusicSubscription;
-@property(nonatomic) _Bool hasMusicSubscription; // @synthesize hasMusicSubscription=_hasMusicSubscription;
 @property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
 
 @end

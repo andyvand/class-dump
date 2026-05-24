@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyValueProperty, NSObject;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueObservance
 {
     NSObject *_observer;
-    NSKeyValueProperty *_property;
-    void *_context;
-    union {
-        NSObject *originalObservable;
-        NSObject *unownedObserver;
-    } _originalObservableOrUnownedObserver;
-    unsigned int _observerIsWeak:1;
-    unsigned int _originalObservableIsWeak:1;
-    unsigned int _observerSupportsWeak:1;
-    unsigned int _originalObservableSupportsWeak:1;
-    unsigned int _options:4;
-    unsigned int _isObservedByAnObservance:1;
-    unsigned int _cachedIsShareable:1;
-    unsigned int _isInternalObservationHelper:1;
 }
 
 - (void);
@@ -31,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)';
 
 @end
 

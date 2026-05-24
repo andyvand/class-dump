@@ -9,38 +9,29 @@
 @interface GEOAPNavSessionData
 {
     NSUUID *_routeId;
-    NSUUID *_sessionId;
-    double _startTime;
-    double _accumulatedNavTime;
-    _Bool _isEV;
-    _Bool _isPaused;
 }
 
 + (_Bool)requested. Canceling in-progress manifest update (if one exists);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ocol_>",N,R;
+- (void)elable>",&,N,V_upstreamToken;
+- (void)_CNBoundedQueueingStrategy;
+- (double)So18CNCancelationTokenCIeyBy_;
+- (_Bool)PP;
+- (_Bool);
+- (void);
 - (double);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)initWithMapView:gestureTargetView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ÿÌ5PR5;
 - (void)´9=ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isEV; // @synthesize isEV=_isEV;
-@property(readonly, nonatomic) double legStartTime;
 @property(readonly, nonatomic) NSUUID *routeId; // @synthesize routeId=_routeId;
-@property(readonly, nonatomic) NSUUID *sessionId; // @synthesize sessionId=_sessionId;
 
 @end
 

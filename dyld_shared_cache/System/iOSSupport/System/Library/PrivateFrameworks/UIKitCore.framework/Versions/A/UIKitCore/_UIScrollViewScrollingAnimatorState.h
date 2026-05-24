@@ -8,28 +8,20 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollViewScrollingAnimatorState
 {
     unsigned long long _granularity;
-    unsigned long long _direction;
-    struct CGPoint _offset;
-    struct CGPoint _maximumVelocity;
-    struct CGPoint _force;
 }
 
-- (void);
-- (struct CGPoint);
-- (void);
+- (void)__DATA_DIRTY;
+- (struct CGPoint)with invalid guid %@;
+- (void)patchDate;
 - (void);
 - (unsigned long long)Díî;
 - (void)ÑîÿÜþÿ;
 - (void);
 - (struct CGPoint)ller decoded selected view controller %@;
-- (unsigned long long)15CAMeshTransformCSg;
+- (unsigned long long)So15CAMeshTransformCSg;
 - (struct CGPoint)Æ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long direction; // @synthesize direction=_direction;
-@property(nonatomic) struct CGPoint force; // @synthesize force=_force;
-@property(nonatomic) unsigned long long granularity; // @synthesize granularity=_granularity;
-@property(nonatomic) struct CGPoint maximumVelocity; // @synthesize maximumVelocity=_maximumVelocity;
 @property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
 
 @end

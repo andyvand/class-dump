@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (oneway void);
+- (_Bool)h;
 - (struct _NSZone *)::client::IOStreamBasicImpl>=^{IOStreamBasicImpl}^{__shared_weak_count}}16 /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)REMOVE and matches EXCLUDE rule:%s /* Error: Ran out of types for this method. */;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

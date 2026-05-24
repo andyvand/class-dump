@@ -6,32 +6,26 @@
 
 #import <UIKitCore/_UIButtonBarLayout.h>
 
-@class NSLayoutConstraint, UIBarButtonItem, UIView;
+@class UIBarButtonItem;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarSpacerLayout : _UIButtonBarLayout
 {
     UIBarButtonItem *_item;
-    UIView *_spacer;
-    NSLayoutConstraint *_requestedSize;
-    NSLayoutConstraint *_minimumSize;
-    NSLayoutConstraint *_equalSize;
-    _Bool _flexible;
-    long long _spacerType;
 }
 
-+ (long long);
++ (long long)_canDefaultMediaLibraryShowCloudContent;
 + (id);
 + (id)0@ù
 × ;
-- (id);
+- (id)_requestIsStreamed;
 - (_Bool)ment;
 - (long long)TextField;
-- (id);
-- (double)berDot;
+- (id)textFormElement;
+- (double)UISelectionGrabberDot;
 - (_Bool)<;
 - (void)tart:(id)arg1 %f, end:%f, delta:%f) /* Error: Ran out of types for this method. */;
-- (id)riginatedFromRotationUserInfoKey;
+- (id)UIKeyboardOriginatedFromRotationUserInfoKey;
 - (void)ime=%s;
 - (void)tExpandByFactorAndUnitVector(CGRect, CGFloat, CGVector);
 - (id)ror during replacement animation:(id)arg1;

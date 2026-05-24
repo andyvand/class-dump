@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface INWellnessMetadataPair
 {
     NSString *_key;
-    NSNumber *_numberValue;
-    NSString *_stringValue;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)16d24d32;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setStopped:(id)arg1;
+- (void)es Deleted 
+%@;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)rviceType:(unsigned long long)arg1 subServiceType: /* Error: Ran out of types for this method. */;
 - (void)userActivity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *key; // @synthesize key=_key;
-@property(readonly, copy) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
-@property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

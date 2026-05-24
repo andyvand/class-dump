@@ -13,9 +13,6 @@ __attribute__((visibility("hidden")))
 @interface _UIFluidSliderFeedbackConfiguration : _UIFeedbackGeneratorUserInteractionDrivenConfiguration
 {
     _UIFeedback<_UIFeedbackDiscretePlayable> *_maxEdgeFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_detentFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_selectionFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_minEdgeFeedback;
 }
 
 + (id)e_Internal._UITabBarContentLayoutManager;
@@ -23,17 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)@36@44@?52;
+- (id)_isSOSWithInput: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void)$\;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *detentFeedback; // @synthesize detentFeedback=_detentFeedback;
 @property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *maxEdgeFeedback; // @synthesize maxEdgeFeedback=_maxEdgeFeedback;
-@property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *minEdgeFeedback; // @synthesize minEdgeFeedback=_minEdgeFeedback;
-@property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *selectionFeedback; // @synthesize selectionFeedback=_selectionFeedback;
 
 @end
 

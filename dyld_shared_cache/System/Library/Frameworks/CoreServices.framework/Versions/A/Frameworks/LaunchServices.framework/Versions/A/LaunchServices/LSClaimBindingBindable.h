@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface LSClaimBindingBindable
 {
 }
@@ -13,24 +11,18 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)"<MTLIndirectComputeCommandEncoder>"24@0:8@"<MTLBuffer>"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct BindingEvaluator);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)( ;
 - (id)ginal path:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAActivityStream : SABaseCommand
 {
@@ -18,22 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)y:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)speechRecognitionCompleteWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id)úÿ¶5;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSArray *activities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *taskType;
 
 @end
 

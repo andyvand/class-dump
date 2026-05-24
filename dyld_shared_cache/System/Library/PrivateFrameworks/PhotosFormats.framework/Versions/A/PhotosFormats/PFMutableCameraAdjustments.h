@@ -6,7 +6,7 @@
 
 #import <PhotosFormats/PFCameraAdjustments.h>
 
-@class AVApplePortraitMetadata, NSString;
+@class NSString;
 
 @interface PFMutableCameraAdjustments : PFCameraAdjustments
 {
@@ -17,21 +17,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)ContractValidityEndTime;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long cinematicVideoRenderingVersion; // @dynamic cinematicVideoRenderingVersion;
-@property(nonatomic) struct CGRect cropRect; // @dynamic cropRect;
-@property(nonatomic, getter=isDepthEnabled) _Bool depthEnabled; // @dynamic depthEnabled;
 @property(copy, nonatomic) NSString *effectFilterName; // @dynamic effectFilterName;
-@property(nonatomic) _Bool isEligibleForCinematicAudioEffectProcessing; // @dynamic isEligibleForCinematicAudioEffectProcessing;
-@property(copy, nonatomic) NSString *portraitEffectFilterName; // @dynamic portraitEffectFilterName;
-@property(retain, nonatomic) AVApplePortraitMetadata *portraitMetadata; // @dynamic portraitMetadata;
-@property(nonatomic, getter=isSloMoEnabled) _Bool sloMoEnabled; // @dynamic sloMoEnabled;
 
 @end
 

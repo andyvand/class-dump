@@ -7,8 +7,6 @@
 @interface NewsUI2.UserIDValidationStartupTask
 {
     id cloudContext;
-    id sceneProvider;
-    id commandCenter;
 }
 
 @end

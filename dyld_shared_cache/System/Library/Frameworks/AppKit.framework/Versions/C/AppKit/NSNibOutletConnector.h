@@ -16,10 +16,10 @@
 + (void)ù^ÿ6½8KH;
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (_Bool)CreateWithResumeData():(SEL)arg1 Asked to create from a NULL path!;
 - (void);
-- (id);
+- (id)) %{public}s[%p] Installing session cache state;
 - (void)Qß3ð1Â0@ù
 × ;
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSSet, NSURL, SMNPathingAction;
 @protocol SMNRemoteProxy;
 
 @interface SMNetworkDirectoryEnumerator
 {
     _Bool _supportsLogicalSizing;
-    _Bool _autoSizeBundles;
-    _Bool _autoDetectBundles;
-    _Bool _skipNext;
-    _Bool _doneEnumerating;
-    id <SMNRemoteProxy> _remoteProxy;
-    NSURL *_startingPath;
-    NSSet *_dontDescendPaths;
-    NSDictionary *_currentFileInfo;
-    unsigned long long _currentEntryType;
-    NSDictionary *_lastSuccessfulEvent;
-    SMNPathingAction *_pathingAction;
-    NSDate *_enumerationStartDate;
-    double _timeElapsedEnumerating;
 }
 
 - (double);
@@ -39,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,7 +43,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -68,26 +54,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (void)Ñ	Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool autoDetectBundles; // @synthesize autoDetectBundles=_autoDetectBundles;
-@property _Bool autoSizeBundles; // @synthesize autoSizeBundles=_autoSizeBundles;
-@property unsigned long long currentEntryType; // @synthesize currentEntryType=_currentEntryType;
-@property(retain) NSDictionary *currentFileInfo; // @synthesize currentFileInfo=_currentFileInfo;
-@property _Bool doneEnumerating; // @synthesize doneEnumerating=_doneEnumerating;
-@property(retain) NSSet *dontDescendPaths; // @synthesize dontDescendPaths=_dontDescendPaths;
-@property(retain) NSDate *enumerationStartDate; // @synthesize enumerationStartDate=_enumerationStartDate;
-@property(retain) NSDictionary *lastSuccessfulEvent; // @synthesize lastSuccessfulEvent=_lastSuccessfulEvent;
-@property(retain) SMNPathingAction *pathingAction; // @synthesize pathingAction=_pathingAction;
 @property(retain) id <SMNRemoteProxy> remoteProxy; // @synthesize remoteProxy=_remoteProxy;
-@property _Bool skipNext; // @synthesize skipNext=_skipNext;
-@property(retain) NSURL *startingPath; // @synthesize startingPath=_startingPath;
-@property(readonly) _Bool supportsFastEnumeration;
-@property double timeElapsedEnumerating; // @synthesize timeElapsedEnumerating=_timeElapsedEnumerating;
 
 @end
 

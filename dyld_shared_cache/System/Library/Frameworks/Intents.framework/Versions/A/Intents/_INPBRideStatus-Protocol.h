@@ -4,40 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBLocationValue, _INPBRideCompletionStatus, _INPBRideDriver, _INPBRideOption, _INPBRideVehicle, _INPBTimestamp, _INPBUserActivity;
+@class NSArray, NSString, _INPBLocationValue, _INPBRideCompletionStatus;
 
 @protocol _INPBRideStatus
+- (void);
+- (void);
+- (NSString *)k;
+- (_Bool)aj;
+- (_Bool)6;
+- (_INPBRideCompletionStatus *);
+- (unsigned long long);
+- (_INPBLocationValue *)Z;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalActionItems;
-@property(readonly, nonatomic) unsigned long long additionalActionItemsCount;
-@property(retain, nonatomic) _INPBRideCompletionStatus *completionStatus;
-@property(retain, nonatomic) _INPBRideDriver *driver;
-@property(retain, nonatomic) _INPBLocationValue *dropOffLocation;
-@property(retain, nonatomic) _INPBTimestamp *estimatedDropOffDate;
-@property(retain, nonatomic) _INPBTimestamp *estimatedPickupDate;
-@property(retain, nonatomic) _INPBTimestamp *estimatedPickupEndDate;
-@property(readonly, nonatomic) _Bool hasCompletionStatus;
-@property(readonly, nonatomic) _Bool hasDriver;
-@property(readonly, nonatomic) _Bool hasDropOffLocation;
-@property(readonly, nonatomic) _Bool hasEstimatedDropOffDate;
-@property(readonly, nonatomic) _Bool hasEstimatedPickupDate;
-@property(readonly, nonatomic) _Bool hasEstimatedPickupEndDate;
-@property(nonatomic) _Bool hasPhase;
-@property(readonly, nonatomic) _Bool hasPickupLocation;
-@property(readonly, nonatomic) _Bool hasRideIdentifier;
-@property(readonly, nonatomic) _Bool hasRideOption;
-@property(readonly, nonatomic) _Bool hasScheduledPickupTime;
-@property(readonly, nonatomic) _Bool hasUserActivityForCancelingInApplication;
-@property(readonly, nonatomic) _Bool hasVehicle;
-@property(nonatomic) int phase;
-@property(retain, nonatomic) _INPBLocationValue *pickupLocation;
-@property(copy, nonatomic) NSString *rideIdentifier;
-@property(retain, nonatomic) _INPBRideOption *rideOption;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *scheduledPickupTime;
-@property(retain, nonatomic) _INPBUserActivity *userActivityForCancelingInApplication;
-@property(retain, nonatomic) _INPBRideVehicle *vehicle;
-@property(copy, nonatomic) NSArray *waypoints;
-@property(readonly, nonatomic) unsigned long long waypointsCount;
 @end
 

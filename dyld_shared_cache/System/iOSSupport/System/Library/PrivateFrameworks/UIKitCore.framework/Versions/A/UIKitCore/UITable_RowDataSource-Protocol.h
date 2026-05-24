@@ -4,43 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITableMetricsAdapter, UIView;
+@class NSIndexPath, NSString, UIView;
 @protocol UITableConstants;
 
 @protocol UITable_RowDataSource
-- (double)seToCaret;
-- (long long)unchWithFBSScene:transitionContext: /* Error: Ran out of types for this method. */;
-- (double)EffectDescriptor;
+- (NSString *)eItem"16@"NSIndexSet"24@"NSDictionary"32@"NSDate"40;
+- (NSString *):(long long)arg1 8@"IMMessageItem"16;
+- (long long)4;
+- (long long)y">24;
+- (UIView *)amHandler"16@"NSString"24@"NSDictionary"32;
+- (UIView *)@"NSString"16@"NSUUID"24@"NSError"32;
+- (struct UIEdgeInsets)vice";
+- (struct CGSize)validationStatusForAlias:(long long)arg1;
+- (double)uploadDailyAnalyticstoCloudKit;
+- (_Bool)updateRepairHistoryOfChat:withRepairHistory: /* Error: Ran out of types for this method. */;
+- (_Bool)updateProperties:shouldBroadcast: /* Error: Ran out of types for this method. */;
+- (_Bool)updateIsDeletingIncomingMessages:(long long)arg1;
+- (void)replaceCustomAcknowledgmentsWithNewMessageAcknowledgment:(double)arg1 associatedMessageGUID:(NSIndexPath *)arg2 sender:(_Bool)arg3;
+- (struct UIEdgeInsets)dCompleteMessageSync:didSucceedSyncingMessages:didCompleteAttachmentSync:didSucceedSyncingAttachments:didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (double)localizedStringWithFormat: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)localizedStringForKey:value:table:localization: /* Error: Ran out of types for this method. */;
+- (double)insertString:atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)enumerateAttachmentGUIDsWithBlock: /* Error: Ran out of types for this method. */;
+- (void)dataUsingEncoding:error: /* Error: Ran out of types for this method. */;
+- (double)age: /* Error: Ran out of types for this method. */;
+- (double)_sendMessageOverAlternatePath:(long long)arg1 toChat: /* Error: Ran out of types for this method. */;
+- (double)_sendMessageDictionary:(long long)arg1 toDevice: /* Error: Ran out of types for this method. */;
+- (_Bool)_isListening;
+- (double)sponseHandlers;
+- (double)myCTPhoneNumber;
+- (double)namesForParticipants;
+- (double)nary",R,&;
+- (double)Dictionary",&,N,V_inlineAttachmentsDictionary;
+- (double)R,N;
+- (_Bool)IMDaemonListenerKeyTransparencyProtocol;
+- (_Bool)IMDaemonListenerSyncedSettingsProtocol;
+- (_Bool)IMDaemonListenerServiceProtocol;
+- (double)IMDaemonListenerFileTransfersProtocol;
+- (double)IMDaemonListenerChatProtocol;
+- (double)IMDaemonListenerChatDatabaseProtocol;
+- (NSString *);
+- (double)isCloseToCaret;
+- (long long)completeApplicationLaunchWithFBSScene:transitionContext: /* Error: Ran out of types for this method. */;
+- (double)_currentEffectDescriptor;
 - (id <UITableConstants>)iner path for Safari.;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_contentInset) struct UIEdgeInsets _contentInset;
-@property(readonly, nonatomic, getter=_sectionFooterContentInsets) struct UIEdgeInsets _sectionFooterContentInsets;
-@property(readonly, nonatomic, getter=_sectionHeaderContentInsets) struct UIEdgeInsets _sectionHeaderContentInsets;
 @property(readonly, nonatomic, getter=_constants) id <UITableConstants> constants;
-@property(readonly, nonatomic, getter=_defaultSectionFooterHeight) double defaultSectionFooterHeight;
-@property(readonly, nonatomic, getter=_defaultSectionHeaderHeight) double defaultSectionHeaderHeight;
-@property(readonly, nonatomic, getter=_estimatesHeights) _Bool estimatesHeights;
-@property(readonly, nonatomic, getter=_estimatesRowHeights) _Bool estimatesRowHeights;
-@property(readonly, nonatomic, getter=_estimatesSectionFooterHeights) _Bool estimatesSectionFooterHeights;
-@property(readonly, nonatomic, getter=_estimatesSectionHeaderHeights) _Bool estimatesSectionHeaderHeights;
-@property(readonly, nonatomic, getter=_headerFooterPinningBehavior) long long headerFooterPinningBehavior;
-@property(readonly, nonatomic, getter=_headerFooterTrailingMarginWidth) double headerFooterTrailingMarginWidth;
-@property(readonly, nonatomic, getter=_heightForTableFooter) double heightForTableFooter;
-@property(readonly, nonatomic, getter=_heightForTableHeader) double heightForTableHeader;
-@property(readonly, nonatomic, getter=_isTableHeaderAutohiding) _Bool isTableHeaderAutohiding;
-@property(readonly, nonatomic, getter=_metricsAdapter) UITableMetricsAdapter *metricsAdapter;
-@property(readonly, nonatomic, getter=_paddingAboveFirstSectionHeader) double paddingAboveFirstSectionHeader;
-@property(readonly, nonatomic, getter=_paddingAboveSectionHeaders) double paddingAboveSectionHeaders;
-@property(readonly, nonatomic, getter=_providesRowHeights) _Bool providesRowHeights;
-@property(readonly, nonatomic, getter=_rowSpacing) double rowSpacing;
-@property(readonly, nonatomic, getter=_sectionFooterToLastRowPadding) double sectionFooterToLastRowPadding;
-@property(readonly, nonatomic, getter=_sectionHeaderToFirstRowPadding) double sectionHeaderToFirstRowPadding;
-@property(readonly, nonatomic, getter=_shouldUseNewHeaderFooterBehavior) _Bool shouldUseNewHeaderFooterBehavior;
-@property(readonly, nonatomic, getter=_shouldUseSearchBarHeaderBehavior) _Bool shouldUseSearchBarHeaderBehavior;
-@property(readonly, nonatomic, getter=_sidePadding) double sidePadding;
-@property(readonly, nonatomic, getter=_tableContentInset) struct UIEdgeInsets tableContentInset;
-@property(readonly, nonatomic, getter=_tableFooterView) UIView *tableFooterView;
-@property(readonly, nonatomic, getter=_tableHeaderView) UIView *tableHeaderView;
 @end
 

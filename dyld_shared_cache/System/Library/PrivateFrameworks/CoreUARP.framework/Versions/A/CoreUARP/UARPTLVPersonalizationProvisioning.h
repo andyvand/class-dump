@@ -12,15 +12,15 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (unsigned int)load.;
 - (id);
-- (void);
+- (void);
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id)CAccount",R;
 
 // Remaining properties
 @property(readonly) unsigned char provisioning; // @synthesize provisioning=_provisioning;

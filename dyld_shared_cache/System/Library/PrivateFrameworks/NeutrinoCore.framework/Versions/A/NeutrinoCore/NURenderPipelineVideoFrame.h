@@ -7,17 +7,15 @@
 @interface NURenderPipelineVideoFrame
 {
     struct __CVBuffer *_pixelBuffer;
-    CDStruct_1b6d18a9 _frameTime;
 }
 
 - (id);
 - (CDStruct_1b6d18a9);
 - (void);
-- (id);
+- (id)A;
 - (struct __CVBuffer *);
 
 // Remaining properties
-@property(readonly) CDStruct_1b6d18a9 frameTime; // @synthesize frameTime=_frameTime;
 @property(readonly) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
 
 @end

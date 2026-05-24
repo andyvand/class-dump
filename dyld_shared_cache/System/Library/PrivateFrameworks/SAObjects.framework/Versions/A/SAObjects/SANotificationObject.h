@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface SANotificationObject : SADomainObject
 {
@@ -22,38 +22,27 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Config>="__ptr_"^{LmBuildConfig}"__cntrl_"^{__shared_weak_count}};
 - (id);
 - (id);
 - (id);
+- (id)\`;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)ay;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)audioSessionActivationDelay;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationId;
-@property(copy, nonatomic) NSDate *date;
-@property(copy, nonatomic) NSNumber *dateIsAllDay;
-@property(copy, nonatomic) NSDate *endDate;
-@property(copy, nonatomic) NSString *notificationId;
-@property(copy, nonatomic) NSNumber *previewRestricted;
-@property(copy, nonatomic) NSString *priority;
-@property(copy, nonatomic) NSDate *recencyDate;
-@property(copy, nonatomic) NSString *source;
-@property(copy, nonatomic) NSString *threadIdentifier;
-@property(copy, nonatomic) NSString *timeZoneId;
-@property(copy, nonatomic) NSString *type;
 
 @end
 

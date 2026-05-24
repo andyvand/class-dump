@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
     NSURL *__url;
 }
 
-+ (id);
-+ (id);
++ (id)initWithCapacity:(id)arg1;
++ (id)initWithArray:(id)arg1;
 - (void);
 - (id);
-- (id);
+- (id)MinResolutions;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain) NSURL *_url; // @synthesize _url=__url;
-@property(readonly) _Bool placeholder;
 
 @end
 

@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
-@protocol MTLBuffer, MTLDevice;
-
 @interface TSDGPUDataBuffer
 {
     unsigned long long _currentBufferIndex;
-    NSMutableArray *_arrayBuffers;
-    NSMutableDictionary *_attributeToArrayBuffersDictionary;
-    unsigned long long _elementArrayCount;
-    unsigned short *_gLElementData;
-    _Bool _gLElementDataBufferWasSetup;
-    unsigned int _gLElementDataBuffer;
-    id <MTLBuffer> _metalElementData;
-    struct CGSize _gLElementMeshSize;
-    unsigned long long _gLElementQuadParticleCount;
-    _Bool _conformsToMetalProtocol;
-    id <MTLDevice> _device;
-    unsigned int _gLVertexArrayObjects[2];
-    _Bool _isUpdatingRawDataBuffer;
-    _Bool _didTeardown;
-    _Bool _isEnabled;
-    _Bool _isDynamicallyBuffered;
-    unsigned int _drawMode;
-    unsigned long long _vertexCount;
-    NSArray *_vertexAttributes;
-    unsigned long long _metalDrawMode;
-    unsigned long long _positionAttributeIndex;
-    unsigned long long _texCoordAttributeIndex;
-    unsigned long long _centerAttributeIndex;
 }
 
-+ (void);
++ (void)|(;
 + (id);
 + (id);
 + (id);
@@ -43,45 +17,45 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id)m;
++ (id);
++ (id)'n;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)9;
+- (id)erItem:(id)arg1 );
+- (void)diaPlaybackCore/Bookmarking;
+- (void)legated account because a full account already exists for ;
+- (void)after creation for ;
+- (unsigned long long)BufferState;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (_Bool)NMPCAssistantXSchemeURLErrorCode;
+- (CDStruct_818bb265);
+- (CDStruct_869f9c67);
+- (CDStruct_b2fbf00d);
+- (unsigned long long);
 - (_Bool);
-- (CDStruct_83984b6f);
-- (CDStruct_869f9c67);
-- (CDStruct_6e3f967a);
-- (unsigned long long);
-- (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)]%m;
 - (void);
 - (void);
 - (void);
@@ -90,10 +64,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (float);
-- (CDStruct_83984b6f);
+- (float)A;
+- (CDStruct_818bb265);
 - (CDStruct_869f9c67);
-- (void);
+- (void)eB;
 - (void);
 - (id);
 - (unsigned long long);
@@ -103,21 +77,7 @@
 - (unsigned int)¯YD;
 
 // Remaining properties
-@property(readonly) unsigned long long centerAttributeIndex; // @synthesize centerAttributeIndex=_centerAttributeIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int drawMode; // @synthesize drawMode=_drawMode;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isDynamicallyBuffered; // @synthesize isDynamicallyBuffered=_isDynamicallyBuffered;
 @property(nonatomic) unsigned long long metalDrawMode; // @synthesize metalDrawMode=_metalDrawMode;
-@property(readonly) unsigned long long positionAttributeIndex; // @synthesize positionAttributeIndex=_positionAttributeIndex;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long texCoordAttributeIndex; // @synthesize texCoordAttributeIndex=_texCoordAttributeIndex;
-@property(readonly) NSArray *vertexAttributes; // @synthesize vertexAttributes=_vertexAttributes;
-@property(readonly) unsigned long long vertexCount; // @synthesize vertexCount=_vertexCount;
 
 @end
 

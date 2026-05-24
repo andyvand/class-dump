@@ -13,16 +13,16 @@
     NSString *_stringValue;
 }
 
-+ (id);
++ (id);
 + (_Bool)Safari. I mean... what did you expect to happen?;
 - (id);
-- (void);
-- (id);
+- (void)uest upon automatic retry.;
+- (id)utes.playlistType;
 - (unsigned long long);
 - (_Bool)ffectsWindow"b1"isEmbeddingInView"b1"embeddedPresentationBounces"b1"isRepositioningRectDisabled"b1"sendingDelegateWillRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
-- (void)ity;
-- (id)Font:scale: /* Error: Ran out of types for this method. */;
-- (id)g;
+- (void)sizingPriority;
+- (id)drawStringInRect:inRect:useSmallFont:useCondensedFont:scale: /* Error: Ran out of types for this method. */;
+- (id)_allowsShielding;
 - (id)C,N,V_keyboardLayout;
 - (void)×£;;
 

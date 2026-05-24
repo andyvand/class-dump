@@ -7,8 +7,15 @@
 @protocol CLLocationManagerDelegate
 
 @optional
-- (id)tFormatVersion:exportProperties: /* Error: Ran out of types for this method. */;
-- (id)mSource: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)C#FE'
+;
+- (id)-DJ
+;
+- (id)n;
+- (id)lastEntryCachePruneToDate: /* Error: Ran out of types for this method. */;
+- (id)dataFromCompositionController:outFormatIdentifier:outFormatVersion:exportProperties: /* Error: Ran out of types for this method. */;
+- (id)_resourcePropertyCopyCurrentSleetCastFromSource: /* Error: Ran out of types for this method. */;
 - (id)as per mstreamd dictionary.;
 @end
 

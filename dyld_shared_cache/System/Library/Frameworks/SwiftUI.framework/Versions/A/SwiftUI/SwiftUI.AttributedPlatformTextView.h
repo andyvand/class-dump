@@ -13,7 +13,7 @@
 }
 
 + (Class);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -28,9 +28,7 @@
 - (_Bool)$VÁþQ^7$VÁþ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *acceptableDragTypes;
 @property(nonatomic, readonly) NSArray *readablePasteboardTypes;
-@property(nonatomic, readonly) NSArray *writablePasteboardTypes;
 
 @end
 

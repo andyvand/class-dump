@@ -9,7 +9,6 @@
 @interface WBSSearchHelperConnectionManager
 {
     NSMutableSet *_clients;
-    NSXPCConnection *_searchHelperConnection;
 }
 
 + (id);

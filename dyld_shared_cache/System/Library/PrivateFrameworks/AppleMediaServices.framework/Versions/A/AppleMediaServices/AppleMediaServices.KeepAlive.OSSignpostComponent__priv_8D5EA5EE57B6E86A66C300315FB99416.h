@@ -7,7 +7,6 @@
 @interface AppleMediaServices.KeepAlive.OSSignpostComponent__priv_8D5EA5EE57B6E86A66C300315FB99416
 {
     id signpostID;
-    id signpostIntervalState;
 }
 
 @end

@@ -11,13 +11,11 @@
 @interface MNTraceNavigationUpdatesDepartWaypointRow : MNTraceNavigationUpdatesRow
 {
     GEOComposedWaypoint *_waypoint;
-    unsigned long long _legIndex;
-    unsigned long long _reason;
 }
 
-- (long long);
+- (long long)SearchTokenPlatformItemListFlags;
 - (id);
-- (void);
+- (void)?ר#;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -26,8 +24,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long legIndex; // @synthesize legIndex=_legIndex;
-@property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 @property(retain, nonatomic) GEOComposedWaypoint *waypoint; // @synthesize waypoint=_waypoint;
 
 @end

@@ -9,8 +9,6 @@
 @interface SPPeripheralConnectionMaterial
 {
     NSData *_irkData;
-    NSData *_btAddressData;
-    NSData *_btAddressWithTypeData;
 }
 
 + (_Bool);
@@ -22,13 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)(_:(struct _NSZone *)arg1 );
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *btAddressData; // @synthesize btAddressData=_btAddressData;
-@property(copy, nonatomic) NSData *btAddressWithTypeData; // @synthesize btAddressWithTypeData=_btAddressWithTypeData;
 @property(copy, nonatomic) NSData *irkData; // @synthesize irkData=_irkData;
 
 @end

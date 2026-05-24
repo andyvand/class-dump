@@ -11,10 +11,10 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool):%p %@ url:%@ serverAddress:%@ requestStartTime:%@ requestEndTime:%@ responseStartTime:%@ responseEndTime:%@ error:%@ byteRange:(%lu,%lu) readFromCache:%d networkTransactionMetrics:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)`D9;
 - (id);
 - (id);
 - (_Bool);

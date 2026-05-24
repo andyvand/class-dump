@@ -9,9 +9,6 @@
 @interface _ANEModelToken
 {
     int _processIdentifier;
-    NSString *_modelIdentifier;
-    NSString *_csIdentity;
-    NSString *_teamIdentity;
 }
 
 + (id);
@@ -23,16 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *csIdentity; // @synthesize csIdentity=_csIdentity;
 @property(readonly, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly, nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly, nonatomic) NSString *teamIdentity; // @synthesize teamIdentity=_teamIdentity;
 
 @end
 

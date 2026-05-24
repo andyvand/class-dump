@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString;
+@class NSString;
 
 @interface AVTAvatarRecordCacheableResourceChangeToken
 {
     NSString *_recordID;
-    CDUnknownBlockType _changeHandler;
-    NSNotificationCenter *_notificationCenter;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void)MSASModel:(id)arg1 didDeleteComment:forAssetCollection:inAlbum: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)vironment: /* Error: Ran out of types for this method. */;
+- (id)cellSizeFittingWidth:environment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(readonly, copy, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(readonly) Class superclass;
 
 @end
 

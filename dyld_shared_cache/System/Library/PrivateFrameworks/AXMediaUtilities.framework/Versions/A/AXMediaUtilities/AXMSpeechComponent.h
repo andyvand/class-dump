@@ -6,19 +6,18 @@
 
 #import <AXMediaUtilities/AXMOutputComponent.h>
 
-@class AVSpeechSynthesizer, NSString;
+@class AVSpeechSynthesizer;
 
 @interface AXMSpeechComponent : AXMOutputComponent
 {
     AVSpeechSynthesizer *_synthesizer;
-    CDUnknownBlockType _currentRequestCompletionBlock;
 }
 
 + (_Bool);
+- (void)0;
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)0\|;
 - (void);
 - (void);
 - (void);
@@ -32,14 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType currentRequestCompletionBlock; // @synthesize currentRequestCompletionBlock=_currentRequestCompletionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) AVSpeechSynthesizer *synthesizer; // @synthesize synthesizer=_synthesizer;
 
 @end

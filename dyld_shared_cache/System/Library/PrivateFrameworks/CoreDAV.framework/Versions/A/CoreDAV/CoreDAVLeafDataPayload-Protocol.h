@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSURL;
 
 @protocol CoreDAVLeafDataPayload
+- (id);
+
+@optional
+- (void);
+- (NSURL *)0`a @;
+- (void)CRInsightsCardImageFreeformLandscapeInverted;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *childrenOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSData *dataPayload;
-@property(retain, nonatomic) NSURL *destinationURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,&,N
-
 @property(retain, nonatomic) NSURL *serverID;
-@property(retain, nonatomic) NSURL *sourceURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,&,N
-
-@property(readonly, nonatomic) NSString *syncKey;
 @end
 

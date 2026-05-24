@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIConvexFill : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputCenter;
-    NSNumber *inputThreshold;
-    CIVector *inputAreaThresholdLoHi;
-    NSNumber *inputSplat;
 }
 
 - (void);
@@ -24,15 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (id)\ojz]ibnL]Sd>WLdiqnt~}}}}nnnnO[P^ZXM\Vb\eYc]jb`YgR\Sdjicm~~~~  w~{s|zzzzzqqnqF`Ut_yw¡¡¡¡££££~Urlvpxv`mgw¡¡¡¨¦¨¨­­­­££££n}v££££³³³³¹¹¹¹¥±³³¡¡¡¡{~D_Tu\jduzzzzuuuuSfbpttttuuuuN`XnG]Rqqupzrqjw¢¢¢¢¦¦¦\mfyASF]DL>LKL?MO]V_xxxx}gawtxxxxooooB[OjLf]|««««| zu¨¨¨¨­­­­    }  ££>RBa5LY[T[nnnnnnnnee^eecYeblfw|¤¤¤¤Rg^tHWIgttrt||||ilfp:TGbO^Ueppmp||z|¦¦¦¦­­­­mzwqm~}m||||kkkk7L>W'A.RRXKaYqlvszwQmf}~¤®®¸¸¸¸£«««ooooE[QeNidri||DcY}b|{x¥¥¥¥««««¦¦j~~iy{5O@cSWKallllP`YhGTJ[HUJW /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputAreaThresholdLoHi; // @synthesize inputAreaThresholdLoHi;
 @property(retain, nonatomic) CIImage *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) NSNumber *inputSplat; // @synthesize inputSplat;
-@property(retain, nonatomic) NSNumber *inputThreshold; // @synthesize inputThreshold;
 
 @end
 

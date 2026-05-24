@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (Class);
-- (id);
+- (id)3;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldShowLanguageLabel;

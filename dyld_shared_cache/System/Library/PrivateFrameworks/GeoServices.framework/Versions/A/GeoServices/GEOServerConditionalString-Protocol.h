@@ -7,10 +7,10 @@
 @protocol GEOServerCondition, GEOServerFormattedString;
 
 @protocol GEOServerConditionalString
+- (id <GEOServerCondition>);
 - (id <GEOServerFormattedString>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerCondition> condition;
 @property(readonly, nonatomic) id <GEOServerFormattedString> formattedString;
 @end
 

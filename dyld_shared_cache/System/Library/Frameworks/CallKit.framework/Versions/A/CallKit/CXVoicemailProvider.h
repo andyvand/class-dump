@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXAbstractProvider, NSArray, NSString;
-@protocol CXVoicemailProviderDelegate, CXVoicemailProviderHostProtocol;
+@class CXAbstractProvider;
 
 @interface CXVoicemailProvider
 {
     CXAbstractProvider *_abstractProvider;
-    id <CXVoicemailProviderDelegate> _delegate;
 }
 
 - (id);
@@ -31,21 +29,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)$defaultActor;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CXAbstractProvider *abstractProvider; // @synthesize abstractProvider=_abstractProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXVoicemailProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *pendingTransactions;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CXVoicemailProviderHostProtocol> voicemailProviderHostDelegate;
 
 @end
 

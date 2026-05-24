@@ -4,50 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSItemProvider, UITargetedDragPreview, UITextRange, _UIDragPreviewBlockProvider, _UIDragSetDownAnimation;
-@protocol _UIDragDropSessionInternal, _UIDragSetDownAnimationTarget;
+@class UITextRange;
 
 @interface UIDragItem
 {
     _Bool _previewProviderIsSystemSet;
-    _Bool _dirty;
-    _Bool _deferPreviewUpdates;
-    CDUnknownBlockType _previewProvider;
-    NSItemProvider *_itemProvider;
-    id _localObject;
-    _UIDragPreviewBlockProvider *_dragPreviewBlockProvider;
-    unsigned long long _preferredPreviewType;
-    unsigned long long _updatedPreviewType;
-    id <_UIDragDropSessionInternal> _dragDropSession;
-    id <_UIDragSetDownAnimationTarget> _sourceVisualTarget;
-    id <_UIDragSetDownAnimationTarget> _destinationVisualTarget;
-    _UIDragSetDownAnimation *__currentSetDownAnimation;
-    UITargetedDragPreview *_targetedLiftPreview;
-    unsigned long long _associatedObjectManipulationSessionIdentifier;
-    id _privateLocalContext;
-    unsigned long long __managementState;
-    struct CGSize _visibleDropItemSize;
-    struct CGPoint _visibleDropItemCenter;
-    CDStruct_bd34ff7f _associatedObjectManipulationDragItemSize;
-    struct CGAffineTransform __suggestedTransform;
 }
 
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)ayGroupMutation;
+- (void)ff incoming reachability request for service %@ from token %@ for handles %@;
+- (void)ld To Transcode and upload Parts of a Message to MMCS ;
+- (void)lity reply, DND framework says we should appear available to this user;
+- (void)s. Dropping Family message received from:(unsigned long long)arg1 %@;
+- (void)processing;
+- (void)ecordRef guid we got was:(id)arg1 %@, requested guids was:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)%@;
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (struct CGAffineTransform);
 - (id);
 - (void);
@@ -62,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -70,45 +49,26 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)j�;
 - (id);
 - (id);
 - (unsigned long long);
-- (CDStruct_39925896);
+- (CDStruct_bd34ff7f);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (void);
+- (id)scoredItemsCount;
+- (void)SpotlightReceiverErrorDomain;
 - (_Bool);
 - (id);
 - (id);
-- (void)ViewConfigurationState:(id)arg1;
+- (void)_readonlyCellStateFromViewConfigurationState:(id)arg1;
 - (void)é×lh;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDraggedTextRange:) UITextRange *_draggedTextRange;
-@property(nonatomic) unsigned long long _managementState; // @synthesize _managementState=__managementState;
-@property(nonatomic) struct CGAffineTransform _suggestedTransform; // @synthesize _suggestedTransform=__suggestedTransform;
-@property(nonatomic, getter=_associatedObjectManipulationDragItemSize, setter=_setAssociatedObjectManipulationDragItemSize:) CDStruct_39925896 associatedObjectManipulationDragItemSize; // @synthesize associatedObjectManipulationDragItemSize=_associatedObjectManipulationDragItemSize;
-@property(nonatomic, getter=_associatedObjectManipulationSessionIdentifier, setter=_setAssociatedObjectManipulationSessionIdentifier:) unsigned long long associatedObjectManipulationSessionIdentifier; // @synthesize associatedObjectManipulationSessionIdentifier=_associatedObjectManipulationSessionIdentifier;
-@property(nonatomic, getter=_deferPreviewUpdates, setter=_setDeferPreviewUpdates:) _Bool deferPreviewUpdates; // @synthesize deferPreviewUpdates=_deferPreviewUpdates;
-@property(nonatomic, getter=_destinationVisualTarget, setter=_setDestinationVisualTarget:) __weak id <_UIDragSetDownAnimationTarget> destinationVisualTarget; // @synthesize destinationVisualTarget=_destinationVisualTarget;
-@property(nonatomic, getter=_isDirty, setter=_setDirty:) _Bool dirty; // @synthesize dirty=_dirty;
-@property(nonatomic, getter=_dragDropSession, setter=_setDragDropSession:) __weak id <_UIDragDropSessionInternal> dragDropSession; // @synthesize dragDropSession=_dragDropSession;
-@property(retain, nonatomic) _UIDragPreviewBlockProvider *dragPreviewBlockProvider; // @synthesize dragPreviewBlockProvider=_dragPreviewBlockProvider;
-@property(retain, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
-@property(retain, nonatomic) id localObject; // @synthesize localObject=_localObject;
-@property(nonatomic) unsigned long long preferredPreviewType; // @synthesize preferredPreviewType=_preferredPreviewType;
-@property(copy, nonatomic) CDUnknownBlockType previewProvider; // @synthesize previewProvider=_previewProvider;
-@property(retain, nonatomic, getter=_privateLocalContext, setter=_setPrivateLocalContext:) id privateLocalContext; // @synthesize privateLocalContext=_privateLocalContext;
-@property(nonatomic, getter=_sourceVisualTarget, setter=_setSourceVisualTarget:) __weak id <_UIDragSetDownAnimationTarget> sourceVisualTarget; // @synthesize sourceVisualTarget=_sourceVisualTarget;
-@property(retain, nonatomic, getter=_targetedLiftPreview) UITargetedDragPreview *targetedLiftPreview; // @synthesize targetedLiftPreview=_targetedLiftPreview;
-@property(nonatomic) unsigned long long updatedPreviewType; // @synthesize updatedPreviewType=_updatedPreviewType;
-@property(nonatomic, getter=_visibleDropItemCenter, setter=_setVisibleDropItemCenter:) struct CGPoint visibleDropItemCenter; // @synthesize visibleDropItemCenter=_visibleDropItemCenter;
-@property(nonatomic, getter=_visibleDropItemSize, setter=_setVisibleDropItemSize:) struct CGSize visibleDropItemSize; // @synthesize visibleDropItemSize=_visibleDropItemSize;
 
 @end
 

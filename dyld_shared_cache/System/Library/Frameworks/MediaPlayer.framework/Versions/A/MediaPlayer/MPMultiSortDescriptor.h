@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void)dentity;
+- (void)_delegatedUserIdentity;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *relatedProperties; // @synthesize relatedProperties=_relatedProperties;

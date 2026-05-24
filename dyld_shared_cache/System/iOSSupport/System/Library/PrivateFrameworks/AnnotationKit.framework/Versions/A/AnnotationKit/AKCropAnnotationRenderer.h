@@ -11,9 +11,9 @@
 }
 
 + (struct CGPath *);
-+ (struct CGPath *);
-+ (struct CGPath *);
-+ (struct CGPath *);
++ (struct CGPath *);
++ (struct CGPath *);
++ (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
@@ -23,7 +23,7 @@
 + (void);
 + (struct CGPath *);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (struct CGRect);
 + (struct CGSize);

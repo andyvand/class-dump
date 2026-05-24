@@ -6,44 +6,14 @@
 
 #import <PlugInKit/PKPlugInCore.h>
 
-@class NSArray, NSBundle, NSDate, NSDictionary, NSMutableSet, NSObject, NSString, NSURL, NSUUID, NSUserDefaults, NSXPCConnection, PKHost, Protocol;
-@protocol OS_dispatch_queue, PKCorePlugInProtocol, PKPlugIn;
+@class PKHost;
 
 @interface PKHostPlugIn : PKPlugInCore
 {
     _Bool _terminating;
-    unsigned int _useCount;
-    NSUserDefaults *_defaults;
-    CDUnknownBlockType _notificationBlock;
-    NSArray *_preferredLanguages;
-    NSString *_sandboxProfile;
-    NSXPCConnection *_pluginConnection;
-    NSObject<OS_dispatch_queue> *__replyQueue;
-    NSObject<OS_dispatch_queue> *__syncQueue;
-    NSObject<OS_dispatch_queue> *__startQueue;
-    id <PKCorePlugInProtocol> _service;
-    id <PKCorePlugInProtocol> _syncService;
-    NSUUID *_supersedingUUID;
-    id <PKPlugIn> _supersededBy;
-    NSUUID *_multipleInstanceUUID;
-    NSString *_serviceExtension;
-    NSArray *_serviceExtensions;
-    NSDictionary *_discoveryExtensions;
-    NSArray *_sandboxExtensions;
-    id _queuedHostPrincipal;
-    Protocol *_queuedHostProtocol;
-    unsigned long long _state;
-    id _plugInPrincipal;
-    id _embeddedPrincipal;
-    NSBundle *_embeddedBundle;
-    NSDate *_beganUsingAt;
-    NSDictionary *_sourceForm;
-    NSDictionary *_environment;
-    NSMutableSet *_requests;
-    PKHost *_host;
 }
 
-- (void);
+- (void)MetadataCalibratedForNarrowerFieldOfView;
 - (void);
 - (id);
 - (void);
@@ -55,27 +25,27 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)k;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)*;
 - (void);
 - (_Bool);
-- (void);
+- (void)yD|S";
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)CTSb;
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)marker.;
 - (id);
 - (id);
 - (void);
@@ -91,11 +61,11 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void)t={CGPoint=dd}{CGSize=dd}}16i24;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)urationProvider>";
 - (id);
 - (id);
 - (id);
@@ -108,30 +78,30 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)m;
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)public}@;
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (CDUnknownBlockType)Layer;
+- (void)- Tab Pane Form;
+- (id)kCoreThemeTransientColorWellButtonLeftPartID;
+- (id)ment/top-right-mask/image_95;
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -139,71 +109,13 @@
 - (void);
 - (void);
 - (void)× ;
-- (_Bool)fier;
+- (_Bool)pluginIdentifier;
 - (void)lic}@] [%@(%@)] Failed to start plugin; plugin is already activating;
 - (void);
 - (unsigned int);
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *_replyQueue; // @synthesize _replyQueue=__replyQueue;
-@property(retain) NSObject<OS_dispatch_queue> *_startQueue; // @synthesize _startQueue=__startQueue;
-@property(retain) NSObject<OS_dispatch_queue> *_syncQueue; // @synthesize _syncQueue=__syncQueue;
-@property(readonly) _Bool active;
-@property(readonly) NSDictionary *attributes;
-@property(retain) NSDate *beganUsingAt; // @synthesize beganUsingAt=_beganUsingAt;
-@property(readonly) NSDictionary *bundleInfoDictionary;
-@property(readonly) NSURL *containingUrl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *discoveryExtensions; // @synthesize discoveryExtensions=_discoveryExtensions;
-@property(readonly) NSUUID *effectiveUUID;
-@property(retain) NSBundle *embeddedBundle; // @synthesize embeddedBundle=_embeddedBundle;
-@property(retain) id embeddedPrincipal; // @synthesize embeddedPrincipal=_embeddedPrincipal;
-@property(readonly) NSDictionary *entitlements;
-@property(retain) NSDictionary *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned int extensionPointPlatform;
-@property(retain) NSDictionary *extensionState;
-@property(readonly) unsigned long long hash;
 @property(retain) PKHost *host; // @synthesize host=_host;
-@property(readonly) NSString *identifier;
-@property(readonly) NSArray *launchPersonas;
-@property(readonly) NSString *localizedContainingName;
-@property(readonly) NSDictionary *localizedFileProviderActionNames;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *localizedShortName;
-@property(retain) NSUUID *multipleInstanceUUID; // @synthesize multipleInstanceUUID=_multipleInstanceUUID;
-@property(copy) CDUnknownBlockType notificationBlock; // @synthesize notificationBlock=_notificationBlock;
-@property(readonly) _Bool onSystemVolume;
-@property(readonly) NSDictionary *plugInDictionary;
-@property(retain) id plugInPrincipal; // @synthesize plugInPrincipal=_plugInPrincipal;
-@property(retain) NSXPCConnection *pluginConnection; // @synthesize pluginConnection=_pluginConnection;
-@property(copy) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(retain) id queuedHostPrincipal; // @synthesize queuedHostPrincipal=_queuedHostPrincipal;
-@property(retain) Protocol *queuedHostProtocol; // @synthesize queuedHostProtocol=_queuedHostProtocol;
-@property(readonly) NSMutableSet *requests; // @synthesize requests=_requests;
-@property(retain) NSArray *sandboxExtensions; // @synthesize sandboxExtensions=_sandboxExtensions;
-@property(copy) NSString *sandboxProfile; // @synthesize sandboxProfile=_sandboxProfile;
-@property(retain) id <PKCorePlugInProtocol> service; // @synthesize service=_service;
-@property(retain) NSString *serviceExtension; // @synthesize serviceExtension=_serviceExtension;
-@property(retain) NSArray *serviceExtensions; // @synthesize serviceExtensions=_serviceExtensions;
-@property(retain) NSDictionary *sourceForm; // @synthesize sourceForm=_sourceForm;
-@property(readonly) _Bool spent;
-@property unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property __weak id <PKPlugIn> supersededBy; // @synthesize supersededBy=_supersededBy;
-@property(retain) NSUUID *supersedingUUID; // @synthesize supersedingUUID=_supersedingUUID;
-@property(retain) id <PKCorePlugInProtocol> syncService; // @synthesize syncService=_syncService;
-@property _Bool terminating; // @synthesize terminating=_terminating;
-@property(readonly) NSDate *timestamp;
-@property(readonly) NSURL *url;
-@property unsigned int useCount; // @synthesize useCount=_useCount;
-@property long long userElection;
-@property(readonly) NSUUID *uuid;
-@property(readonly) NSString *version;
 
 @end
 

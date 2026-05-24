@@ -9,8 +9,6 @@
 @interface AXFMutableSortedArray
 {
     CDUnknownBlockType _comparator;
-    unsigned long long _options;
-    NSMutableArray *__array;
 }
 
 - (id);
@@ -24,26 +22,24 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)5.;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)4@0:(id)arg1 8^{__CVBuffer=}16;
+- (void) `;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)meter Error;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *_array; // @synthesize _array=__array;
-@property(readonly, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

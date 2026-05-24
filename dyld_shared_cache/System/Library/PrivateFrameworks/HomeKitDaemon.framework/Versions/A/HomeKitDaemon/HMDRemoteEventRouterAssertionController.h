@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteEventRouterProcessStateChangeAssertion, NSHashTable, NSNotificationCenter, NSObject, NSString;
-@protocol HMETimerProvider, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterAssertionController
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isPluggedIn;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSNotificationCenter *_notificationCenter;
-    NSHashTable *_clients;
-    id <HMETimerProvider> _timerProvider;
-    HMDRemoteEventRouterProcessStateChangeAssertion *_appStateChangeAssertion;
-    NSHashTable *_daemonAssertions;
 }
 
 + (id)]B;
@@ -32,13 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)torage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

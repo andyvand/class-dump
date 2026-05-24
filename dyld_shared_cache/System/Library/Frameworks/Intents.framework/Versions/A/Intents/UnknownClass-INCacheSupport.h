@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INInteraction, NSString;
+@class NSString;
 
 @interface UnknownClass (INCacheSupport)
 + (void);
@@ -29,26 +29,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)o;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void)HasEnergyUnit:(id)arg1;
+- (id)79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/ssl/d1_srtp.c;
+- (void)setHasEnergyUnit:(id)arg1;
 - (id);
 - (id)¼ë÷ÿòN^;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *cacheIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) INInteraction *interaction;
-@property unsigned long long shortcutAvailability;
-@property(copy) NSString *suggestedInvocationPhrase;
-@property(readonly) Class superclass;
 @end
 

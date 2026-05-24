@@ -11,8 +11,8 @@
 }
 
 + (id);
-- (id);
-- (id);
+- (id)storefrontIdentifier;
+- (id)stopLoading;
 - (id);
 
 @end

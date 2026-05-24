@@ -4,66 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSMutableArray, NSMutableData, NSObject, NSString, NSURL, UARPAssetTag, UARPAssetVersion;
+@class NSArray, NSObject;
 @protocol OS_os_log;
 
 @interface UARPSuperBinaryAssetPayload
 {
     NSObject<OS_os_log> *_log;
-    NSString *_tag;
-    UARPAssetTag *_payloadTag;
-    UARPAssetVersion *_assetVersion;
-    NSString *_vendorVersionString;
-    NSMutableArray *_tlvs;
-    NSMutableArray *_composeTLVs;
-    NSURL *_url;
-    NSURL *_superBinaryURL;
-    NSString *_friendlyName;
-    NSDictionary *_dict;
-    _Bool _isWritable;
-    unsigned int _blockSize;
-    int _compression;
-    struct UARPVersion _uarpVersion;
-    struct UARPPayloadHeader _payloadHeader;
-    NSMutableData *_compressionHeaders;
-    unsigned int _compressionHeaderIndex;
-    _Bool _allowCompressionHeaders;
-    NSMutableData *_metaData;
-    NSURL *_compressedPayloadURL;
-    NSData *_payload;
-    unsigned long long _formatVersion;
 }
 
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct _NSRange);
-- (struct _NSRange);
+- (struct _NSRange);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)P;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)0;
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (_Bool)M?;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -76,23 +54,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AMSFraudReportDatabaseStateStorage;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id));
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool allowCompressionHeaders;
-@property(readonly) unsigned long long compressionHeaderIndex;
-@property(readonly, copy) NSData *compressionHeaders;
-@property(readonly) unsigned long long formatVersion; // @synthesize formatVersion=_formatVersion;
-@property(readonly) NSData *metaData;
-@property(readonly) _Bool needsCompression;
-@property(readonly, copy) NSData *payload; // @synthesize payload=_payload;
-@property(readonly) UARPAssetTag *payloadTag;
 @property(readonly) NSArray *tlvs;
 
 @end

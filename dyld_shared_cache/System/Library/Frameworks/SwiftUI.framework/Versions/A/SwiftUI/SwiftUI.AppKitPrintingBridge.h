@@ -7,10 +7,6 @@
 @interface SwiftUI.AppKitPrintingBridge
 {
     id preferenceTracker;
-    id host;
-    id printingView;
-    id printOperation;
-    id printedItems;
 }
 
 - (void);

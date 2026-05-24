@@ -11,7 +11,6 @@
 @interface RAWConvertLinearToSRGB : RAWFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
 }
 
 - (id);

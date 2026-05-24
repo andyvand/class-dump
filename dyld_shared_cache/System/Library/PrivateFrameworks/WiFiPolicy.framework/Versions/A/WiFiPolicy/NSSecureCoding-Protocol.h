@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)on completion callback;
 @end
 

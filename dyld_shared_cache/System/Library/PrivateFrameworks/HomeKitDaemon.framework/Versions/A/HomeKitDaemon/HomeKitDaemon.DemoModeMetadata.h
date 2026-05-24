@@ -7,10 +7,6 @@
 @interface HomeKitDaemon.DemoModeMetadata
 {
     id $defaultActor;
-    id metadata;
-    id fileManager;
-    id defaultMetadataURL;
-    id currentMetadataURL;
 }
 
 @end

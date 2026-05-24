@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @protocol TRIDownloadNotificationProtocol
+- (unsigned long long)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) unsigned long long progress;
-@property(readonly, nonatomic) unsigned long long progressMaxValue;
 @property(readonly, nonatomic) unsigned long long type;
 @end
 

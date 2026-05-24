@@ -7,7 +7,6 @@
 @interface CalDAVContainerMultiGetTask
 {
     _Bool _getScheduleTags;
-    _Bool _getScheduleChanges;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool getScheduleChanges; // @synthesize getScheduleChanges=_getScheduleChanges;
 @property(nonatomic) _Bool getScheduleTags; // @synthesize getScheduleTags=_getScheduleTags;
 
 @end

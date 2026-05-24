@@ -6,39 +6,32 @@
 
 #import <UIKitCore/UIKeyboard.h>
 
-@class _UIStringAndPositionPair;
 @protocol UITextCursorAssertion;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardAutomatic : UIKeyboard
 {
     _Bool showsCandidateBar;
-    _Bool showsCandidateInline;
-    _Bool receivedCandidatesInCurrentInputMode;
-    id <UITextCursorAssertion> _blinkAssertion;
-    _UIStringAndPositionPair *_lastMatchedSupplementalCandidate;
-    _UIStringAndPositionPair *_pendingSupplementalCandidateToInsert;
-    unsigned long long _lastChooseSupplementalItemToInsertCallbackIdentifier;
 }
 
 + (id)$Ra;
 + (id)ÀtÿÌ/;
-- (void);
+- (void)RequiredURLStringProbe;
 - (_Bool);
 - (_Bool);
 - (_Bool)0@ù
 × ;
-- (void)OppositeLayoutDirection;
-- (void)To:(double)arg1;
-- (struct UIPeripheralAnimationGeometry)windowsWithActiveTouchMaps;
-- (void)teRestingTouchBeginTimerIfNecessary;
-- (id)sLightStyle;
-- (_Bool)tered;
+- (void)flipsHorizontallyInOppositeLayoutDirection;
+- (void)appendDescriptionTo:(double)arg1;
+- (struct UIPeripheralAnimationGeometry)_windowsWithActiveTouchMaps;
+- (void)_invalidateRestingTouchBeginTimerIfNecessary;
+- (id)_usesLightStyle;
+- (_Bool)RegionEntered;
 - (void)"UIView"16d24@"UIViewController"32;
 - (_Bool)view class or nib) %@;
-- (void)_Leading_Leading;
+- (void)Mask_Leading_Leading;
 - (void)Wº;
-- (void)ViewControllerContextTransitioning_p;
+- (void)So36UIViewControllerContextTransitioning_p;
 - (void);
 - (id)t43Î;
 - (void);
@@ -55,12 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <UITextCursorAssertion> blinkAssertion; // @synthesize blinkAssertion=_blinkAssertion;
-@property(nonatomic) unsigned long long lastChooseSupplementalItemToInsertCallbackIdentifier; // @synthesize lastChooseSupplementalItemToInsertCallbackIdentifier=_lastChooseSupplementalItemToInsertCallbackIdentifier;
-@property(retain, nonatomic) _UIStringAndPositionPair *lastMatchedSupplementalCandidate; // @synthesize lastMatchedSupplementalCandidate=_lastMatchedSupplementalCandidate;
-@property(retain, nonatomic) _UIStringAndPositionPair *pendingSupplementalCandidateToInsert; // @synthesize pendingSupplementalCandidateToInsert=_pendingSupplementalCandidateToInsert;
-@property(nonatomic) _Bool receivedCandidatesInCurrentInputMode; // @synthesize receivedCandidatesInCurrentInputMode;
-@property(nonatomic) _Bool showsCandidateBar; // @synthesize showsCandidateBar;
-@property(nonatomic) _Bool showsCandidateInline; // @synthesize showsCandidateInline;
 
 @end
 

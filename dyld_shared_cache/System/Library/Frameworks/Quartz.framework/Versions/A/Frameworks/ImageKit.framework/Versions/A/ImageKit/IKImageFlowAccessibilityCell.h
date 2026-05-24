@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageFlowCell, IKImageFlowView;
+@class IKImageFlowView;
 
 @interface IKImageFlowAccessibilityCell
 {
     IKImageFlowView *_flowView;
-    unsigned long long _index;
-    IKImageFlowCell *_cell;
-    id _parent;
 }
 
 - (id);

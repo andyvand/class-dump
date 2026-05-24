@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SCNTextureDelegateSource : SCNTextureOffscreenRenderingSource
 {
     id _delegate;
-    double _lastUpdate;
-    double _nextUpdateDate;
 }
 
 - (void);

@@ -9,12 +9,9 @@
 @interface RemindersUICore.TTRMQuickBarLocationPickerView : RemindersUICore.TTRMQuickBarEntryView
 {
     id delegate;
-    id internalIsEditingTextField;
-    id deferredFocusAction;
-    id internalLocation;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

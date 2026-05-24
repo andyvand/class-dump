@@ -6,18 +6,18 @@
 
 #import <iCalendar/ICSProperty.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ICSStructuredLocation : ICSProperty
 {
 }
 
+- (_Bool)u2;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
+- (void)P;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -25,27 +25,19 @@
 - (void);
 - (id);
 - (id);
+- (id)charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2;
+- (void);
+- (void);
+- (void)ext->docId;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abURLString;
-@property(retain, nonatomic) NSString *address;
-@property(retain, nonatomic) NSString *displayName;
 @property(retain, nonatomic) NSString *fmtype;
-@property(retain, nonatomic) NSString *loctype;
-@property(retain, nonatomic) NSData *mapKitHandle;
-@property(nonatomic) double radius;
-@property(retain, nonatomic) NSString *routing;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

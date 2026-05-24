@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol CXCallObserverDataSource, CXCallObserverDelegate, OS_dispatch_queue;
+@protocol CXCallObserverDelegate;
 
 @interface CXCallObserver
 {
     id <CXCallObserverDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_concurrentQueue;
-    id <CXCallObserverDataSource> _dataSource;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)layController";
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)base64EncodedStringWithOptions:(id)arg1;
 - (id);
 - (void);
+- (void){private}@;
+- (id)P;
+- (void):(CDUnknownBlockType)arg1 %@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *calls;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *concurrentQueue; // @synthesize concurrentQueue=_concurrentQueue;
-@property(readonly, nonatomic) id <CXCallObserverDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CXCallObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

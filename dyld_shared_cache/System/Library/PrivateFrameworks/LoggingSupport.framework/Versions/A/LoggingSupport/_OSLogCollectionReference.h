@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _OSLogCollectionReference
 {
     _OSLogDirectoryReference *_diagnosticsDirectoryReference;
-    _OSLogDirectoryReference *_timesyncReference;
-    _OSLogDirectoryReference *_UUIDTextReference;
 }
 
 + (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)`;
 - (id);
 - (id);
 - (void);
@@ -28,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _OSLogDirectoryReference *UUIDTextReference; // @synthesize UUIDTextReference=_UUIDTextReference;
 @property(readonly, nonatomic) _OSLogDirectoryReference *diagnosticsDirectoryReference; // @synthesize diagnosticsDirectoryReference=_diagnosticsDirectoryReference;
-@property(readonly, nonatomic) _OSLogDirectoryReference *timesyncReference; // @synthesize timesyncReference=_timesyncReference;
 
 @end
 

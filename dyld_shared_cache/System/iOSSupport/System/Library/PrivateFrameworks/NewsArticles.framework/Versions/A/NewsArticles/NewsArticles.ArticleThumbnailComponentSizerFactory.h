@@ -9,18 +9,15 @@
 @interface NewsArticles.ArticleThumbnailComponentSizerFactory
 {
     void type;
-    int role;
-    id linkedContentProvider;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) int role; // @synthesize role;
 @property(nonatomic, readonly) NSString *type;
 
 @end

@@ -10,14 +10,10 @@
 @interface OS_xpc_remote_listener
 {
     NSObject<OS_dispatch_queue> *queue;
-    int type;
-    CDUnknownBlockType accept_handler;
-    CDUnknownBlockType cancel_handler;
-    _Bool canceled;
 }
 
 - (void);
-- (void);
+- (void)2;
 
 @end
 

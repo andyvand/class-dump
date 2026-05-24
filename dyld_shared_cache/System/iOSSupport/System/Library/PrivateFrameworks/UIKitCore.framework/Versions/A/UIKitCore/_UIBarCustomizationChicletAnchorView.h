@@ -6,37 +6,30 @@
 
 #import <UIKitCore/UIView.h>
 
-@class _UIBarCustomizationChiclet;
-
 __attribute__((visibility("hidden")))
 @interface _UIBarCustomizationChicletAnchorView : UIView
 {
     _Bool _jiggling;
-    _Bool _debugUIEnabled;
-    long long _state;
-    double _contentPadding;
-    _UIBarCustomizationChiclet *_chiclet;
-    UIView *_positionAdaptorView;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)requestExpireStateForMessageGuid:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)numReadReceiptsV1WithQOINoChat;
+- (void)ager:(_Bool)arg1 relayPushHandler: /* Error: Ran out of types for this method. */;
+- (void)im_registeredURIs;
+- (void)handler:(id)arg1 localIncommingMessage:storageContext: /* Error: Ran out of types for this method. */;
+- (id)_serviceDomain;
+- (_Bool)_acceptMomentShare:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (double);
-- (struct CGSize);
-- (id);
+- (struct CGSize)hasTransparencyAtPoint:(struct CGSize)arg1 forCGImage: /* Error: Ran out of types for this method. */;
+- (id)_type(queue, requestType)) && "Per request throughput monitor must be satisfied if nothing is in-flight";
 - (id);
 - (void);
 - (void)ð!$AùÑ_°1Â0@ù
@@ -48,12 +41,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) _UIBarCustomizationChiclet *chiclet; // @synthesize chiclet=_chiclet;
-@property(nonatomic) double contentPadding; // @synthesize contentPadding=_contentPadding;
-@property(nonatomic) _Bool debugUIEnabled; // @synthesize debugUIEnabled=_debugUIEnabled;
-@property(nonatomic) _Bool jiggling; // @synthesize jiggling=_jiggling;
 @property(retain, nonatomic) UIView *positionAdaptorView; // @synthesize positionAdaptorView=_positionAdaptorView;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

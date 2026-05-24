@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBHomeFilter;
+@class _INPBHomeFilter;
 
 @protocol _INPBAnnouncementRecord
-- (void)geChangeNotificationToken;
+- (_Bool);
+- (_Bool);
+- (void)systemLanguageChangeNotificationToken;
 - (_INPBHomeFilter *)o~;
-- (void);
 
 // Remaining properties
 @property(nonatomic) double duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasOriginator;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) _INPBHomeFilter *originator;
 @end
 

@@ -7,8 +7,6 @@
 @interface MNTraceAnnotatedUserEnvironmentRow
 {
     double _startTimestamp;
-    double _endTimestamp;
-    long long _environmentType;
 }
 
 - (void);
@@ -19,8 +17,6 @@
 - (double)ÿ;
 
 // Remaining properties
-@property(nonatomic) double endTimestamp; // @synthesize endTimestamp=_endTimestamp;
-@property(nonatomic) long long environmentType; // @synthesize environmentType=_environmentType;
 @property(nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
 
 @end

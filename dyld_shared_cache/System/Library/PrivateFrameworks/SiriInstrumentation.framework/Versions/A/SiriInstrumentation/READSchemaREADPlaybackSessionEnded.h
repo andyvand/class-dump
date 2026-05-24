@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface READSchemaREADPlaybackSessionEnded : SISchemaInstrumentationMessage
 {
     float _playedAudioDuration;
-    float _totalDuration;
-    struct {
-        unsigned int playedAudioDuration:1;
-        unsigned int totalDuration:1;
-    } _has;
 }
 
 - (void);
@@ -26,24 +19,20 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)exceptionWithName:(float)arg1 reason:userInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDMigrationRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (float);
+- (_Bool)FDictionaryRef IMDSqlStatementGetRow(IMDSqlStatement *);
+- (float);
 - (id);
-- (id);
-- (id)meFactor;
+- (id);
+- (id)_wallRealTimeFactor;
 - (id)_stocksCount;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlayedAudioDuration;
-@property(nonatomic) _Bool hasTotalDuration;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float playedAudioDuration; // @synthesize playedAudioDuration=_playedAudioDuration;
-@property(nonatomic) float totalDuration; // @synthesize totalDuration=_totalDuration;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextSelectionView;
+@class UITextSelectionView;
 
 __attribute__((visibility("hidden")))
 @interface UITextSelectionGrabberSuppressionAssertion
@@ -13,25 +13,17 @@ __attribute__((visibility("hidden")))
     UITextSelectionView *_selectionView;
 }
 
-- (void);
+- (void)_updateCategoryForChat:(id)arg1 andMessage:category:subCategory:spamExtensionName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)UIViewHostingSceneSpecification;
+- (id)_UIViewHostingSceneSpecification;
 - (_Bool);
 - (void)hçÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool invalidated; // @synthesize invalidated=_invalidated;
 @property(nonatomic) __weak UITextSelectionView *selectionView; // @synthesize selectionView=_selectionView;
-@property(readonly) Class superclass;
 
 @end
 

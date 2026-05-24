@@ -9,23 +9,19 @@
 @interface CTEmojiImageStrike
 {
     struct CGImage *_cgImage;
-    NSDictionary *provenance;
-    struct CGSize _alignmentInset;
 }
 
 - (id);
 - (id);
-- (id);
-- (struct CGSize);
+- (id);
+- (struct CGSize);
 - (struct CGImage *);
 - (void);
-- (void);
+- (void)Identifier_Status;
 - (id);
 - (void)ÿDkÿÍDlÿ²DmÿfDwÿåENÿåE[ÿåE_ÿòEhÿÍEmÿÍFNÿåF_ÿåFhÿÍFmÿÍFqÿ²H:ÿH>ÿH@ÿÍHEÿHK /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGSize alignmentInset; // @synthesize alignmentInset=_alignmentInset;
-@property(readonly) struct CGImage *cgImage; // @synthesize cgImage=_cgImage;
 @property(copy) NSDictionary *provenance; // @synthesize provenance;
 
 @end

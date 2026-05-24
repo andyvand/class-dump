@@ -6,30 +6,18 @@
 
 #import <HomeKitDaemon/HMDResidentSyncController.h>
 
-@class HMFExponentialBackoffTimer, HMFFuture, HMFMessageDispatcher, HMFPromise, MKFResidentSyncMetadata, NSHashTable, NSString;
-@protocol HMDResidentDeviceManager, HMDResidentSyncClientDataSource, HMMLogEventSubmitting;
+@class HMFMessageDispatcher;
+@protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSyncClient : HMDResidentSyncController
 {
     HMFMessageDispatcher *_dispatcher;
-    id <HMDResidentDeviceManager> _residentDeviceManager;
-    id <HMDResidentSyncClientDataSource> _dataSource;
-    _Bool _residentCapable;
-    NSHashTable *_requestsInProgress;
-    MKFResidentSyncMetadata *_metadata;
-    HMFExponentialBackoffTimer *_retryTimer;
-    HMFFuture *_performFetchJitterFuture;
-    HMFPromise *_performFetchJitterPromise;
-    _Bool _retryRequired;
-    _Bool _shouldRequireIDSTransportOnFetch;
-    long long _accessDeniedCount;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)MSPRouteBookmark;
+- (void)%@) -- enqueuing a full refetch;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,14 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 
 @end
 

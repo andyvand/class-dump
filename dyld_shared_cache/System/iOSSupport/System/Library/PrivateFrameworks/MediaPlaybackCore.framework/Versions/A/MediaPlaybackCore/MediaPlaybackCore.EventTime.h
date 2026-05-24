@@ -7,23 +7,16 @@
 @interface MediaPlaybackCore.EventTime
 {
     double time;
-    double avTime;
-    double userSecondsSinceReferenceDate;
-    CDStruct_198678f7 hostTime;
-    id type;
 }
 
-- (double);
-- (double);
+- (double)__DATA_DIRTY;
+- (double)account:didPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
 - (CDStruct_198678f7);
-- (double);
-- (void)eContinuity;
+- (double)s;
+- (void)_TtC17MediaPlaybackCore34_MPCSessionMigrationTimeContinuity;
 
 // Remaining properties
-@property(nonatomic, readonly) double avTime; // @synthesize avTime;
-@property(nonatomic, readonly) CDStruct_198678f7 hostTime; // @synthesize hostTime;
 @property(nonatomic) double time; // @synthesize time;
-@property(nonatomic, readonly) double userSecondsSinceReferenceDate; // @synthesize userSecondsSinceReferenceDate;
 
 @end
 

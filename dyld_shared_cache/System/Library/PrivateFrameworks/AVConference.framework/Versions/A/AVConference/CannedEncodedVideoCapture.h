@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetReader, AVAssetReaderOutputMetadataAdaptor, AVAssetReaderTrackOutput, AVAssetTrack, AVURLAsset, NSString, VideoScaler;
+@class AVURLAsset;
 
 __attribute__((visibility("hidden")))
 @interface CannedEncodedVideoCapture
 {
     AVURLAsset *_compressedFileAsset;
-    AVAssetReader *_assetReader;
-    AVAssetTrack *_videoTrack;
-    AVAssetTrack *_metadataTrack;
-    AVAssetReaderTrackOutput *_readerVideoTrackOutput;
-    AVAssetReaderTrackOutput *_readerMetadataTrackOutput;
-    AVAssetReaderOutputMetadataAdaptor *_metadataAdaptor;
-    NSString *_movieURLString;
-    VideoScaler *_videoScaler;
-    struct __CVPixelBufferPool *_pixelBufferPool;
-    struct __CVPixelBufferPool *_rotatedPixelBufferPool;
-    int _width;
-    int _height;
-    int _allFrameCount;
-    double _allFrameRate;
-    int _frameCount;
-    struct _opaque_pthread_mutex_t _inputMutex;
-    struct _opaque_pthread_mutex_t _attributeMutex;
-    _Bool _shouldScaleAndPad;
 }
 
 - (id);
@@ -36,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,49 +35,28 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (int);
-- (id);
-- (void);
+- (id);
+- (void)y;
 - (id);
 - (double);
 - (int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct __CVBuffer *);
 - (int);
 - (void);
 - (int);
 - (int);
+- (void)e.mobilecal.preference.notification.ShowExperimentalUI;
 - (void);
-- (void);
-- (void);
+- (void)ntFlowConfigurationProvider",R,V_enablementFlowConfigurationProvider;
 - (int);
 - (int)êÄ&;
 
 // Remaining properties
-@property(nonatomic) int allFrameCount; // @synthesize allFrameCount=_allFrameCount;
-@property(nonatomic) double allFrameRate; // @synthesize allFrameRate=_allFrameRate;
-@property(retain, nonatomic) AVAssetReader *assetReader; // @synthesize assetReader=_assetReader;
 @property(retain, nonatomic) AVURLAsset *compressedFileAsset; // @synthesize compressedFileAsset=_compressedFileAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int height; // @synthesize height=_height;
-@property(retain, nonatomic) AVAssetReaderOutputMetadataAdaptor *metadataAdaptor; // @synthesize metadataAdaptor=_metadataAdaptor;
-@property(retain, nonatomic) AVAssetTrack *metadataTrack; // @synthesize metadataTrack=_metadataTrack;
-@property(retain, nonatomic) NSString *movieURLString; // @synthesize movieURLString=_movieURLString;
-@property(retain, nonatomic) AVAssetReaderTrackOutput *readerMetadataTrackOutput; // @synthesize readerMetadataTrackOutput=_readerMetadataTrackOutput;
-@property(retain, nonatomic) AVAssetReaderTrackOutput *readerVideoTrackOutput; // @synthesize readerVideoTrackOutput=_readerVideoTrackOutput;
-@property(readonly, nonatomic) _Bool shouldScaleAndPad; // @synthesize shouldScaleAndPad=_shouldScaleAndPad;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) VideoScaler *videoScaler; // @synthesize videoScaler=_videoScaler;
-@property(retain, nonatomic) AVAssetTrack *videoTrack; // @synthesize videoTrack=_videoTrack;
-@property(nonatomic) int width; // @synthesize width=_width;
 
 @end
 

@@ -7,13 +7,12 @@
 @class NSPredicate;
 
 @protocol UINSFontPickerControllerConfiguration
+- (unsigned int);
+- (NSPredicate *)O;
+- (_Bool)_pendingMessages;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _includeDefaultFont;
-@property(readonly, nonatomic) id _swiftPredicate;
-@property(readonly, nonatomic) _Bool displayUsingSystemFont;
-@property(readonly, copy, nonatomic) NSPredicate *filteredLanguagesPredicate;
-@property(readonly, nonatomic) unsigned int filteredTraits;
 @property(readonly, nonatomic) _Bool includeFaces;
 @end
 

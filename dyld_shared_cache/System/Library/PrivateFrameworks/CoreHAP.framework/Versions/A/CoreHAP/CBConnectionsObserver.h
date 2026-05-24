@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CBConnectionsObserver
 {
     int _maxHAPConnections;
@@ -17,19 +15,12 @@
 - (id);
 - (int);
 - (void);
-- (id);
-- (_Bool);
+- (id)N8cnmatrix11CNSubVectorILj88ELj1E6CNTimeEE;
+- (_Bool)dbForTesting;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property int maxHAPConnections; // @synthesize maxHAPConnections=_maxHAPConnections;
-@property(readonly) Class superclass;
 
 @end
 

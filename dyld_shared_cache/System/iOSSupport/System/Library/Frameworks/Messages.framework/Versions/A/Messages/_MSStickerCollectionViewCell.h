@@ -5,13 +5,11 @@
 //
 
 @class CALayer, MSStickerView;
-@protocol MSStickerPrivate;
 
 __attribute__((visibility("hidden")))
 @interface _MSStickerCollectionViewCell
 {
     MSStickerView *_stickerView;
-    CALayer *_borderLayer;
 }
 
 - (void);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *borderLayer; // @synthesize borderLayer=_borderLayer;
-@property(retain, nonatomic) id <MSStickerPrivate> sticker;
-@property(readonly, nonatomic) MSStickerView *stickerView; // @synthesize stickerView=_stickerView;
 
 @end
 

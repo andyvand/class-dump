@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoClientDeviceMetadata, NSMutableArray, NSString;
+@class DRSProtoClientDeviceMetadata;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoDiagnosticUploadRequestBatch
 {
     DRSProtoClientDeviceMetadata *_clientMetadata;
-    NSMutableArray *_uploadRequests;
 }
 
 + (Class);
-- (unsigned long long);
+- (unsigned long long)D;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -32,22 +31,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) DRSProtoClientDeviceMetadata *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *requests;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *uploadRequests; // @synthesize uploadRequests=_uploadRequests;
 
 @end
 

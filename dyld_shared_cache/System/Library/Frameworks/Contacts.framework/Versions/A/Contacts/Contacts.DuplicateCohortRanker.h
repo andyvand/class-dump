@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void)nts;
+- (void)sendRemoveSubgroupFromGroupEvents;
 
 @end
 

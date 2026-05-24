@@ -9,17 +9,15 @@
 @interface FCRestorePaidSubscriptionItem
 {
     _Bool _isNewsAppPurchase;
-    NSString *_channelID;
 }
 
 - (id);
 - (_Bool);
-- (id)Order;
+- (id)_minOrder;
 - (void)AppleInternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPrivateZoneSyncManager.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(readonly, nonatomic) _Bool isNewsAppPurchase; // @synthesize isNewsAppPurchase=_isNewsAppPurchase;
 
 @end
 

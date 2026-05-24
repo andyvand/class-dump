@@ -6,23 +6,12 @@
 
 #import <HomeKitDaemon/HMDHomeInvitation.h>
 
-@class HMDUser, NSArray, NSDate, NSNumber, NSString, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDOutgoingHomeInvitation : HMDHomeInvitation
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_operationIdentifiers;
-    NSUUID *_uuid;
-    HMDUser *_user;
-    NSString *_inviteeDestinationAddress;
-    NSUUID *_messageIdentifier;
-    NSArray *_uuidsOfAllowedAccessories;
-    NSDate *_dateSent;
-    NSNumber *_announceAccessLevel;
-    NSString *_accessCode;
-    NSUUID *_pendingUserUUID;
-    unsigned long long _sendAttemptCount;
 }
 
 + (_Bool)të;
@@ -38,27 +27,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ComposedWaypoint";
+- (void)stateByDeletingObjectsAtIndexes:(id)arg1;
+- (_Bool)_enqueuedCoalescingEditBarrierBlocks;
+- (id)ary",&,N,V_sharedTripGroupSessionInfo;
+- (id)MSPSharedTripReceiverCapabilities;
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool);
+- (void);
 - (id);
+- (_Bool)t compatible;
 - (id);
+- (id)%d;
 - (id);
-- (id);
+- (id)ationMatte != nil;
 - (void);
 - (void);
 - (void)ø;
@@ -66,34 +55,13 @@ __attribute__((visibility("hidden")))
 - (id)user to %@ with error:(unsigned long long)arg1 %@;
 - (id)doorbell press at %@, sorted recent significant events are %@;
 - (void)n;
-- (void)esponse;
+- (void)kHMDRemoteLoginProxyDeviceResponse;
 - (id)for ;
 - (_Bool)ôÿÿÿ©?;
 - (void)>;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessCode; // @synthesize accessCode=_accessCode;
-@property(readonly, nonatomic) NSArray *accessoryInvitationsInformation;
-@property(retain, nonatomic) NSNumber *announceAccessLevel; // @synthesize announceAccessLevel=_announceAccessLevel;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(retain, nonatomic) NSDate *dateSent; // @synthesize dateSent=_dateSent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *inviteeDestinationAddress; // @synthesize inviteeDestinationAddress=_inviteeDestinationAddress;
-@property(readonly, nonatomic) NSUUID *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(readonly, getter=isMigrationInvitation) _Bool migrationInvitation;
 @property(retain, nonatomic) NSArray *operationIdentifiers; // @synthesize operationIdentifiers=_operationIdentifiers;
-@property(retain, nonatomic) NSUUID *pendingUserUUID; // @synthesize pendingUserUUID=_pendingUserUUID;
-@property(readonly, nonatomic) _Bool responseReceived;
-@property(nonatomic) unsigned long long sendAttemptCount; // @synthesize sendAttemptCount=_sendAttemptCount;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMDUser *user; // @synthesize user=_user;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSArray *uuidsOfAllowedAccessories; // @synthesize uuidsOfAllowedAccessories=_uuidsOfAllowedAccessories;
 
 @end
 

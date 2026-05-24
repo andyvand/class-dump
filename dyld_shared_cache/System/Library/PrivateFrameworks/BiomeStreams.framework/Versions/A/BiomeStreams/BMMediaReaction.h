@@ -6,28 +6,22 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMMediaReaction : BMEventBase
 {
     _Bool _hasAbsoluteTimestamp;
-    _Bool _hasType;
-    int _type;
-    double _absoluteTimestamp;
-    NSString *_mediaUUID;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
 - (id);
-- (int);
-- (_Bool);
+- (int){CGPoint=dd}{CGSize=dd}}32@64;
+- (_Bool)P;
 - (_Bool);
 - (void);
 - (_Bool)zìzìzìzìzìnüâuøzìzìzìëzìzìzìzìîzìhmözìzì;
@@ -35,19 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasAbsoluteTimestamp; // @synthesize hasAbsoluteTimestamp=_hasAbsoluteTimestamp;
-@property(nonatomic) _Bool hasType; // @synthesize hasType=_hasType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *mediaUUID; // @synthesize mediaUUID=_mediaUUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

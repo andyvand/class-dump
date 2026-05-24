@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMAudioAnalysisEventBulletinEventProtoAudioAnalysisEventBulletinEvent
 {
     long long _dateOfOccurrence;
-    long long _eventStartDate;
-    long long _reason;
-    long long _state;
-    NSString *_accessoryIdentifier;
-    NSString *_homeIdentifier;
-    NSString *_notificationUUID;
-    NSString *_threadIdentifier;
-    struct {
-        unsigned int dateOfOccurrence:1;
-        unsigned int eventStartDate:1;
-        unsigned int reason:1;
-        unsigned int state:1;
-    } _has;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)%p;
+- (void)T;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -34,15 +19,15 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)tering submission scheduler;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
+- (void)targetBundleIdsForFilterBundlesIds:(id)arg1;
+- (id)numberWithUnsignedInteger: /* Error: Ran out of types for this method. */;
+- (id)feedbackDeprecated;
+- (void)initWithType:(long long)arg1 rules: /* Error: Ran out of types for this method. */;
+- (long long)iringAdditionalWorkByEntity:library:progress:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (_Bool);
@@ -52,34 +37,20 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (long long);
-- (_Bool);
+- (long long),
+;
+- (_Bool)housemaid;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)AsManateeAvailableINT:(_Bool)arg1;
+- (void)StringAsManateeAvailableINT:(_Bool)arg1;
 - (void)¼;
 - (void)ID:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
-@property(nonatomic) long long dateOfOccurrence; // @synthesize dateOfOccurrence=_dateOfOccurrence;
-@property(nonatomic) long long eventStartDate; // @synthesize eventStartDate=_eventStartDate;
-@property(readonly, nonatomic) _Bool hasAccessoryIdentifier;
-@property(nonatomic) _Bool hasDateOfOccurrence;
-@property(nonatomic) _Bool hasEventStartDate;
-@property(readonly, nonatomic) _Bool hasHomeIdentifier;
-@property(readonly, nonatomic) _Bool hasNotificationUUID;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasState;
 @property(readonly, nonatomic) _Bool hasThreadIdentifier;
-@property(retain, nonatomic) NSString *homeIdentifier; // @synthesize homeIdentifier=_homeIdentifier;
-@property(retain, nonatomic) NSString *notificationUUID; // @synthesize notificationUUID=_notificationUUID;
-@property(nonatomic) long long reason; // @synthesize reason=_reason;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 
 @end
 

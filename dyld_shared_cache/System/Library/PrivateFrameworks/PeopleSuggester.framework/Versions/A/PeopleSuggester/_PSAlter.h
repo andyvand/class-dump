@@ -9,23 +9,19 @@
 @interface _PSAlter
 {
     NSString *_name;
-    double _distanceToCluster;
-    double _timeSinceLastContact;
 }
 
-- (double);
-- (void);
-- (void);
-- (id);
-- (double);
+- (double)_entitySaliencyMaxScore;
+- (void)_electionParticipantId;
+- (void)_contentTitle;
+- (id)_audioDurationInNs;
+- (double)de;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double distanceToCluster; // @synthesize distanceToCluster=_distanceToCluster;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double timeSinceLastContact; // @synthesize timeSinceLastContact=_timeSinceLastContact;
 
 @end
 

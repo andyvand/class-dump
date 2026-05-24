@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
 @protocol FileChangeObserverClient;
 
 __attribute__((visibility("hidden")))
 @interface FileChangeObserver
 {
     struct __FSEventStream *_eventStream;
-    CDUnknownBlockType _callbackBlock;
-    id <FileChangeObserverClient> _client;
-    NSURL *_fileURL;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void)D@;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <FileChangeObserverClient> client; // @synthesize client=_client;
-@property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 
 @end
 

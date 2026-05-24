@@ -7,10 +7,6 @@
 @interface _CNAtomViewTextSelectionRect
 {
     _Bool containsStart;
-    _Bool containsEnd;
-    _Bool isVertical;
-    long long writingDirection;
-    struct CGRect rect;
 }
 
 - (void);
@@ -25,11 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool containsEnd; // @synthesize containsEnd;
-@property(nonatomic) _Bool containsStart; // @synthesize containsStart;
-@property(nonatomic) _Bool isVertical; // @synthesize isVertical;
 @property(nonatomic) struct CGRect rect; // @synthesize rect;
-@property(nonatomic) long long writingDirection; // @synthesize writingDirection;
 
 @end
 

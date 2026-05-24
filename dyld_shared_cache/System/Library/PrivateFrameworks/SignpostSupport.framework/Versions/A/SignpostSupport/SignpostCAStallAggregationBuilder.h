@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SignpostCAInstrumentationProcessor, SignpostCAStallAggregation;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SignpostCAStallAggregationBuilder
 {
     unsigned long long _frameLifetimeCount;
-    unsigned long long _commitCount;
-    unsigned long long _transactionLifetimeCount;
-    float _maxDurationSec;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    SignpostCAStallAggregation *_stallAggregation;
-    SignpostCAInstrumentationProcessor *_caInstrumentationProcessor;
 }
 
 - (id);
 - (id);
 - (void);
-- (float);
+- (float)P;
 - (void);
 - (void);
 - (void);
@@ -40,10 +34,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) SignpostCAInstrumentationProcessor *caInstrumentationProcessor; // @synthesize caInstrumentationProcessor=_caInstrumentationProcessor;
-@property(nonatomic) float maxDurationSec; // @synthesize maxDurationSec=_maxDurationSec;
-@property(readonly, nonatomic) SignpostCAStallAggregation *stallAggregation; // @synthesize stallAggregation=_stallAggregation;
-@property(readonly, copy, nonatomic) SignpostCAStallAggregation *stallAggregationSnapshot;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
 
 @end

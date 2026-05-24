@@ -10,8 +10,9 @@ __attribute__((visibility("hidden")))
     struct archive *_archive;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)_INTERRUPTED error.
+;
 + (id);
 + (id);
 - (id);

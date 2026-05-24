@@ -6,22 +6,9 @@
 
 #import <CMCapture/FigCaptureSinkConfiguration.h>
 
-@class FigCaptureTrie, NSArray;
-
 @interface FigCaptureVideoDataSinkConfiguration : FigCaptureSinkConfiguration
 {
     _Bool _discardsLateVideoFrames;
-    _Bool _optimizedForPreview;
-    _Bool _sceneStabilityMetadataEnabled;
-    NSArray *_requestedBufferAttachments;
-    FigCaptureTrie *_requestedBufferAttachmentsTrie;
-    _Bool _cinematicFramingSupported;
-    _Bool _cinematicFramingEnabled;
-    _Bool _temporalFilterLowLightBandingMitigationEnabled;
-    _Bool _preparesCellularRadioForNetworkConnection;
-    _Bool _ringLightEnabled;
-    _Bool _preservesDynamicHDRMetadata;
-    _Bool _panoRecordingInProgress;
 }
 
 - (_Bool);
@@ -33,13 +20,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)contentFormatId;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)addValue:forScalarKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -51,23 +38,12 @@
 - (id)ÿÿÿ	ÿ£ÿÿ¯ÿ!ÿ¼ÿ-ÿÈÿ4ÿÔÿ:(id)arg1 ÿáÿ?ÿïÿDÿüÿGÿÿÿKÿÿÿMÿÿÿOÿ;
 - (void)ple.coremedia.camera.video.sph.max_xy_std.1;
 - (void)machine use must have a positive non-zero lookahead requirement;
-- (_Bool)erometerNumber;
-- (_Bool)orComponent;
+- (_Bool)focusAccelerometerNumber;
+- (_Bool)ColorsWheelContext_computeColorComponent;
 - (void)ons.count == 2;
 
 // Remaining properties
-@property(nonatomic) _Bool cinematicFramingEnabled; // @synthesize cinematicFramingEnabled=_cinematicFramingEnabled;
-@property(nonatomic) _Bool cinematicFramingSupported; // @synthesize cinematicFramingSupported=_cinematicFramingSupported;
 @property(nonatomic) _Bool discardsLateVideoFrames; // @synthesize discardsLateVideoFrames=_discardsLateVideoFrames;
-@property(nonatomic) _Bool optimizedForPreview; // @synthesize optimizedForPreview=_optimizedForPreview;
-@property(nonatomic) _Bool panoRecordingInProgress; // @synthesize panoRecordingInProgress=_panoRecordingInProgress;
-@property(nonatomic) _Bool preparesCellularRadioForNetworkConnection; // @synthesize preparesCellularRadioForNetworkConnection=_preparesCellularRadioForNetworkConnection;
-@property(nonatomic) _Bool preservesDynamicHDRMetadata; // @synthesize preservesDynamicHDRMetadata=_preservesDynamicHDRMetadata;
-@property(retain, nonatomic) NSArray *requestedBufferAttachments;
-@property(readonly, nonatomic) FigCaptureTrie *requestedBufferAttachmentsTrie;
-@property(nonatomic) _Bool ringLightEnabled; // @synthesize ringLightEnabled=_ringLightEnabled;
-@property(nonatomic) _Bool sceneStabilityMetadataEnabled; // @synthesize sceneStabilityMetadataEnabled=_sceneStabilityMetadataEnabled;
-@property(nonatomic) _Bool temporalFilterLowLightBandingMitigationEnabled; // @synthesize temporalFilterLowLightBandingMitigationEnabled=_temporalFilterLowLightBandingMitigationEnabled;
 
 @end
 

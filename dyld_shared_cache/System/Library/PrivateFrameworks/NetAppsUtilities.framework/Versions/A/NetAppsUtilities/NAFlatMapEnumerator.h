@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NAFlatMapEnumerator
 {
     NSEnumerator *_enumerator;
-    CDUnknownBlockType _map;
 }
 
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(readonly, copy, nonatomic) CDUnknownBlockType map; // @synthesize map=_map;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMCredentialStore;
 @protocol CRKASMRoster;
 
 @interface CRKASMCredentialHousekeeper
 {
     id <CRKASMRoster> _roster;
-    CRKASMCredentialStore *_credentialStore;
 }
 
 - (id);
@@ -23,13 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CRKASMCredentialStore *credentialStore; // @synthesize credentialStore=_credentialStore;
 @property(readonly, nonatomic) id <CRKASMRoster> roster; // @synthesize roster=_roster;
 
 @end

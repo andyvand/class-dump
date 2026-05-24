@@ -15,15 +15,15 @@
 }
 
 + (id);
-+ (id)IController;
++ (id)_UIContextMenuUIController;
 + (id)is a UIKit internal bug.;
-- (void);
+- (void)A;
 - (id)te>";
 - (_Bool)48@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
 - (id),N,S_setEnumerationPriority:(struct _NSZone *)arg1;
 - (_Bool)ôF¤GIäJ4K¤K,LØLhO°OPPÜPhQQ;
 - (id) 13/t;
-- (void)ptions;
+- (void)HitTestOptions;
 - (void)þD33,þ;
 - (_Bool);
 

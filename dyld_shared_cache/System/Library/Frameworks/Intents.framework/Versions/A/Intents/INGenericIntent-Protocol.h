@@ -7,10 +7,9 @@
 @class NSDictionary, NSString;
 
 @protocol INGenericIntent
+- (NSDictionary *);
 
 // Remaining properties
 @property(copy) NSString *domain;
-@property(copy) NSDictionary *parametersByName;
-@property(copy) NSString *verb;
 @end
 

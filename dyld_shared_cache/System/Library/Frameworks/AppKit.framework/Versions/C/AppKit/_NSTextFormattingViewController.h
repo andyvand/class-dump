@@ -7,48 +7,36 @@
 #import <AppKit/NSViewController.h>
 
 @class _NSTextFormattingViewControllerConfiguration, _NSTextFormattingViewControllerFormattingDescriptor;
-@protocol NSTextInputClient, NSTextInputClient_Async, _NSTextFormattingViewControllerDelegate;
 
 @interface _NSTextFormattingViewController : NSViewController
 {
     _NSTextFormattingViewControllerFormattingDescriptor *__formattingDescriptor;
-    void __delegate;
-    void _syncClient;
-    void _asyncClient;
-    id _configuration;
-    id $__lazy_storage_$_textFormattingViewModel;
-    id $__lazy_storage_$_textFormattingView;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)r:(id)arg1 bundleID:sessionID: /* Error: Ran out of types for this method. */;
+- (void)ctivity;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void);
+- (void)6pS;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)!;
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void)ex;
+- (void)_floatingBannerRowIndex;
 - (id);
 - (void)¨zE;
 
 // Remaining properties
-@property(nonatomic) __weak id <NSTextInputClient_Async> _asyncClient; // @synthesize _asyncClient;
-@property(nonatomic) __weak id <NSTextInputClient> _syncClient; // @synthesize _syncClient;
 @property(nonatomic, readonly) _NSTextFormattingViewControllerConfiguration *configuration;
-@property(nonatomic) __weak id <_NSTextFormattingViewControllerDelegate> delegate; // @synthesize delegate=__delegate;
-@property(nonatomic, retain) _NSTextFormattingViewControllerFormattingDescriptor *formattingDescriptor; // @synthesize formattingDescriptor=__formattingDescriptor;
-@property(nonatomic) struct CGSize preferredContentSize;
 
 @end
 

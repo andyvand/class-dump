@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.TracingMinimumAgePolicy
 {
     id tracedPolicy;
-    id log;
 }
 
 @end

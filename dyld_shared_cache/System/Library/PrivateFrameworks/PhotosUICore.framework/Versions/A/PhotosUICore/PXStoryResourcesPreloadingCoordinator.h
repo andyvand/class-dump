@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, PXUpdater;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, PXUpdater;
 
 @interface PXStoryResourcesPreloadingCoordinator
 {
     NSMutableArray *_infos;
-    NSObject<OS_dispatch_queue> *_storyQueue;
-    PXUpdater *_updater;
 }
 
 - (id);
@@ -20,26 +17,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)~�H;
 - (id);
 - (void);
+- (id)Q64;
+- (void)ions:textComponentLayoutHosting:textSourceFactory:recordValueTransformerFactory: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)ath %@ does not conform to MEPluginRegistration protocol;
 - (void)le;
 - (void);
 - (id)eCollectionPlaceholder;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end

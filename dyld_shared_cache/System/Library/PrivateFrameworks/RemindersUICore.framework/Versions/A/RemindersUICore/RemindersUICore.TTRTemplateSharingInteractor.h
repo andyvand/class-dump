@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRTemplateSharingInteractor
 {
     id delegate;
-    id template;
-    id removeTemplateCapability;
 }
 
 @end

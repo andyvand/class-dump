@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFChannel, CWFMACAddressHash;
+@class CWFChannel;
 
 @interface CWFWiFiNetworkSharingConnectedAPLink
 {
     CWFChannel *_channel;
-    CWFMACAddressHash *_bssidHash;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -22,12 +21,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)8@"OS_remote_device"16;
+- (id)J;
 - (void)edNetwork;
 
 // Remaining properties
-@property(copy) CWFMACAddressHash *bssidHash; // @synthesize bssidHash=_bssidHash;
 @property(copy) CWFChannel *channel; // @synthesize channel=_channel;
 
 @end

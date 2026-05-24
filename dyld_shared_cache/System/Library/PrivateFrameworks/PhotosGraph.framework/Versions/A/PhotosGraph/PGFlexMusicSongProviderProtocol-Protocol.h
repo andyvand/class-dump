@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol PGFlexMusicSongProviderProtocol
+- (NSArray *)_descriptionOfType:(id *)arg1 forUIElement:singleCharCheck: /* Error: Ran out of types for this method. */;
+- (NSString *);
 @end
 

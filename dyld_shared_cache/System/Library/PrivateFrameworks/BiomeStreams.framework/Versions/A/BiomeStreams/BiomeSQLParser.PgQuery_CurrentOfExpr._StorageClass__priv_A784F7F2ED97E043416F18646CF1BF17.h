@@ -7,9 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CurrentOfExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _cvarno;
-    id _cursorName;
-    id _cursorParam;
 }
 
 @end

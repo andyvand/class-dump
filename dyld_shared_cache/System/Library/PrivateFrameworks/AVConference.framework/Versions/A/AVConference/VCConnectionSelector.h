@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol VCConnectionProtocol;
 
 __attribute__((visibility("hidden")))
 @interface VCConnectionSelector
 {
     id <VCConnectionProtocol> _primaryConnection;
-    _Bool _isMultiwaySession;
-    CDStruct_6f03dd4f _connectionSelectionPolicy;
-    NSArray *_linkPreferenceOrder;
-    CDStruct_f24b774a _serverLinks;
-    CDStruct_f24b774a _endToEndLinks;
-    _Bool _canUseP2PLinks;
-    id <VCConnectionProtocol> _secondaryConnection;
-    id <VCConnectionProtocol> _connectionForDuplication;
-    id <VCConnectionProtocol> _connectionForDuplicationNonProbingVersion;
-    id <VCConnectionProtocol> _lastPrimaryConnectionInUse;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -35,15 +25,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_f24b774a);
+- (CDStruct_a70f6672);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (CDStruct_6f03dd4f *);
+- (CDStruct_157d85a6 *);
 - (id);
 - (id);
 - (id);
@@ -52,13 +41,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property _Bool canUseP2PLinks; // @synthesize canUseP2PLinks=_canUseP2PLinks;
-@property(retain, nonatomic) id <VCConnectionProtocol> connectionForDuplication; // @synthesize connectionForDuplication=_connectionForDuplication;
-@property(retain, nonatomic) id <VCConnectionProtocol> connectionForDuplicationNonProbingVersion; // @synthesize connectionForDuplicationNonProbingVersion=_connectionForDuplicationNonProbingVersion;
-@property(retain, nonatomic) id <VCConnectionProtocol> lastPrimaryConnectionInUse; // @synthesize lastPrimaryConnectionInUse=_lastPrimaryConnectionInUse;
-@property(copy, nonatomic) NSArray *linkPreferenceOrder; // @synthesize linkPreferenceOrder=_linkPreferenceOrder;
 @property(retain, nonatomic) id <VCConnectionProtocol> secondaryConnection; // @synthesize secondaryConnection=_secondaryConnection;
-@property(readonly) CDStruct_f24b774a serverLinks; // @synthesize serverLinks=_serverLinks;
 
 @end
 

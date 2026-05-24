@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEventStream, MPCPlaybackIntent, NSString;
+@class NSString;
 
 @protocol MPCQueueControllerBehaviorHost
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *engineID;
-@property(readonly, nonatomic) MPCPlaybackEngineEventStream *eventStream;
-@property(readonly, nonatomic) MPCPlaybackIntent *fallbackPlaybackIntent;
-@property(readonly, nonatomic) NSString *playerID;
 @end
 

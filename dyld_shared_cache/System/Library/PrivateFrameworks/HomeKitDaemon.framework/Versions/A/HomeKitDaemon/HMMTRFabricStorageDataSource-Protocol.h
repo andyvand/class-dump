@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSSet, NSUUID;
+@class NSNumber, NSSet, NSUUID;
 
 @protocol HMMTRFabricStorageDataSource
+- (NSUUID *)hasPlaceBookmark;
+- (NSNumber *)hasNavigationType;
+- (NSSet *)aringIdentity failed with error:(NSNumber *)arg1 %@;
+- (NSSet *)SendingIdentity:%{private}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allNodeIDs;
 @property(readonly, copy, nonatomic) NSNumber *fabricID;
-@property(readonly, copy, nonatomic) NSUUID *fabricUUID;
-@property(readonly, copy, nonatomic) NSDictionary *keyValueStore;
 @end
 

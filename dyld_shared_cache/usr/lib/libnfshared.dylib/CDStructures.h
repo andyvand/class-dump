@@ -18,11 +18,6 @@ struct _NFDataScanner {
     void *_field3;
 };
 
-struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };

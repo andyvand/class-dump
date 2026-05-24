@@ -4,6 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMAccessoryNetworkProtectionGroup, HMHome, HMResidentDevice, HMUser, NSError;
+
 @protocol HMHomeDelegatePrivate
+
+@optional
+- (void)hat identified.;
+- (void)t track read receipt for %s. No chat identified.;
+- (void)p...;
+- (void)eEnabledReturned [%{bool}d] setting up...;
+- (void)and returning:(HMHome *)arg1 %ld;
+- (void);
+- (void)g Value %s to remote key:(HMHome *)arg1 %s;
+- (void)local synced setting with an unknown key:(HMHome *)arg1 %s;
+- (void)nil;
+- (void)Manager sharedOTPDefaults is unexpectedly nil;
+- (void)hUbiqitousSettings completion handler.;
+- (void)ion:(HMHome *)arg1 %s};
+- (void)eDidChangeExternallyNotification {notification:(HMHome *)arg1 %s};
+- (void)ousKeyValueStoreServerChange.;
+- (void)allyNotification change reason is NSUbiquitousKeyValueStoreServerChange.;
+- (void)itousKeyValueStoreDidChangeExternallyNotification change reason is NSUbiquitousKeyValueStoreServerChange.;
+- (void)cation change reason is NSUbiquitousKeyValueStoreInitialSyncChange.;
+- (void)ionChange.;
+- (void)n change reason is NSUbiquitousKeyValueStoreQuotaViolationChange.;
+- (void)usKeyValueStoreDidChangeExternallyNotification change reason is NSUbiquitousKeyValueStoreQuotaViolationChange.;
+- (void)tousKeyValueStoreAccountChange.;
+- (void)eExternallyNotification change reason is NSUbiquitousKeyValueStoreAccountChange.;
+- (void)KeyValueStoreDidChangeExternallyNotification missing reason.;
+- (void)fication or changed keys was empty:(HMHome *)arg1 %s;
+- (void)StoreDidChangeExternallyNotification.;
+- (void)c}s has exhausted allotted time, and will be deferred until %s;
+- (void)shed deferral;
+- (void)}s;
+- (void)tap-to-radar for Spotlight on macOS;
+- (void)r is pending, not allowing messages from storage to be indexed;
+- (void)ss, not allowing any reparenting tasks.;
+- (void)rottle state changed to %{bool}d;
+- (void)at PTasks updated, ensuring BGST tasks are submitted;
+- (void)ed, ensuring BGST tasks are submitted;
+- (void)suring BGST tasks are updated;
+- (void)or entry type:(HMHome *)arg1 %s;
+- (void)e original file:(HMHome *)arg1 %s. Error:(HMAccessoryNetworkProtectionGroup *)arg2 %@;
+- (void):(HMHome *)arg1 Did not generate a safe render file for:(HMUser *)arg2 %s, using the original file:%s. Error:%@ /* Error: Ran out of types for this method. */;
+- (void)te a safe render file for:(HMHome *)arg1 %s. Error:(HMUser *)arg2 %@;
+- (void)compressing multiple files for guid:(HMHome *)arg1 %s. Error:(HMResidentDevice *)arg2 %@;
+- (void)render for %s, removedOnCompletion:(HMHome *)arg1 %{bool}d, dataURL:(HMAccessoryNetworkProtectionGroup *)arg2 %s;
+- (void)guid:(HMHome *)arg1 %s. Error:(NSError *)arg2 %@;
+- (void)ic}s:(HMHome *)arg1 %@;
+- (void)dge for unread count change.;
+- (void)t url %@;
+- (void)IMDQuickSwitchControllerCommandIncomingDB at url %@;
+- (void);
+- (void);
 @end
 

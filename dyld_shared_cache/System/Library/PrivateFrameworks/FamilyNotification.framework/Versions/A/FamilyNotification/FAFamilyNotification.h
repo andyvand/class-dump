@@ -4,61 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface FAFamilyNotification
 {
     _Bool _shouldPersistWhenActivated;
-    _Bool _shouldPersistWhenDismissed;
-    _Bool _hasActionButton;
-    _Bool _hasHeader;
-    NSString *_identifier;
-    NSString *_title;
-    NSString *_informativeText;
-    NSDate *_relevanceDate;
-    NSDate *_expiryDate;
-    NSNumber *_familyMemberDSID;
-    unsigned long long _displayStyle;
-    NSString *_actionButtonLabel;
-    NSString *_otherButtonLabel;
-    NSString *_unlockActionLabel;
-    NSURL *_activateActionURL;
-    NSURL *_dismissActionlURL;
-    NSURL *_launchActionURL;
-    NSData *_launchActionArguments;
-    NSDictionary *_userInfo;
-    NSString *_uuid;
-    NSString *_clientIdentifier;
-    NSString *_delegateMachServiceName;
-    NSString *_iconName;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)ibrary_id TEXT NOT NULL DEFAULT '', should_display_index INTEGER NOT NULL DEFAULT 0, date_downloaded INTEGER NOT NULL DEFAULT 0, category_type_mask INTEGER NOT NULL DEFAULT 0, grouping_sort_key TEXT NOT NULL DEFAULT '');
+- (_Bool)match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)in the skin %@;
+- (_Bool)|;
+- (id)R?;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)%;
 - (void);
 - (id);
 - (id);
@@ -69,8 +47,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)2(TexCoord.x ,TexCoord.y + 6.0)) * 0.1053;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 7.0)) * 0.0467;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 8.0)) * 0.0183;		
+
+	gl_FragColor =	accum / 7.0712;
+};
+- (void)_C3DModelPathResolveTransform;
 - (void);
 - (id);
 - (void);
@@ -82,35 +65,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4W;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy) NSString *actionButtonLabel; // @synthesize actionButtonLabel=_actionButtonLabel;
-@property(copy) NSURL *activateActionURL; // @synthesize activateActionURL=_activateActionURL;
-@property(copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(copy) NSString *delegateMachServiceName; // @synthesize delegateMachServiceName=_delegateMachServiceName;
-@property(copy) NSURL *dismissActionlURL; // @synthesize dismissActionlURL=_dismissActionlURL;
-@property unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(copy) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(copy) NSNumber *familyMemberDSID; // @synthesize familyMemberDSID=_familyMemberDSID;
-@property _Bool hasActionButton; // @synthesize hasActionButton=_hasActionButton;
-@property _Bool hasHeader; // @synthesize hasHeader=_hasHeader;
-@property(retain) NSString *iconName; // @synthesize iconName=_iconName;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(copy) NSData *launchActionArguments; // @synthesize launchActionArguments=_launchActionArguments;
-@property(copy) NSURL *launchActionURL; // @synthesize launchActionURL=_launchActionURL;
-@property(copy) NSString *otherButtonLabel; // @synthesize otherButtonLabel=_otherButtonLabel;
-@property(copy) NSDate *relevanceDate; // @synthesize relevanceDate=_relevanceDate;
-@property _Bool shouldPersistWhenActivated; // @synthesize shouldPersistWhenActivated=_shouldPersistWhenActivated;
-@property _Bool shouldPersistWhenDismissed; // @synthesize shouldPersistWhenDismissed=_shouldPersistWhenDismissed;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(copy) NSString *unlockActionLabel; // @synthesize unlockActionLabel=_unlockActionLabel;
-@property(copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 @property(copy) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

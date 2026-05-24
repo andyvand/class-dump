@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _CPResultSectionForFeedback;
-
 @protocol _CPSectionEngagementFeedback
+- (id);
 - (void)!À@ùqÆ!1Â0@ù
 × ;
-- (int)PrefixMatchInAttachmentNames;
+- (int)countNgramPrefixMatchInAttachmentNames;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _CPResultSectionForFeedback *section;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
 @end
 

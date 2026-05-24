@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSCommandControlBehaviorMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
++ (id)_myriadSelfTriggerCoordinatorIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)Y;
 - (void);
 - (void);
 - (id);
+- (void)initWithCVPixelBuffer:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (id)6;
 - (id);
 - (void);
-- (void)oProvider:didReceiveAudioSessionMediaServicesWereLostNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
+- (void)audioSessionInfoProvider:didReceiveAudioSessionMediaServicesWereLostNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

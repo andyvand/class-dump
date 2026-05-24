@@ -7,12 +7,9 @@
 @interface GEOPDPlaceSummaryLayoutUnitPhotoCarousel
 {
     unsigned int _maxNumOfPhotos;
-    struct {
-        unsigned int has_maxNumOfPhotos:1;
-    } _flags;
 }
 
-+ (_Bool)deAllHeadsigns:(id)arg1;
++ (_Bool)setIncludeAllHeadsigns:(id)arg1;
 - (void);
 - (void);
 - (unsigned int);
@@ -21,19 +18,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(full UoD);
 - (unsigned long long);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)`;
 - (id)d_wifiQualityURL"b1"wrote_anyField"b1};
-- (id)arity;
+- (id)_localEntityPopularity;
 - (id)P;
-- (id)e;
+- (id)transaction_currency_code;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMaxNumOfPhotos;
-@property(nonatomic) unsigned int maxNumOfPhotos;
 
 @end
 

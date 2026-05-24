@@ -8,29 +8,25 @@ __attribute__((visibility("hidden")))
 @interface CKSpeakerButton
 {
     BOOL _orientation;
-    _Bool _speakerEnabled;
-    _Bool _shouldShowText;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)titleAttributesWithContentSizeCategory: /* Error: Ran out of types for this method. */;
+- (void)setEncryptionState:(id)arg1;
+- (_Bool)managedObjectContextChangeControllerShouldUpdateImmediately: /* Error: Ran out of types for this method. */;
+- (void)imageDataWithMarkupModelData:(_Bool)arg1 sourceImageData:embedData: /* Error: Ran out of types for this method. */;
+- (void)ic_stringByRemovingWhitespaceOnlyLines;
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (BOOL);
-- (id);
+- (BOOL)kdz;
+- (id)&,N,V_trailingView;
 - (void)16@"<UITextDragRequest>"24;
 - (void)Ü;
 
 // Remaining properties
-@property(nonatomic) BOOL orientation; // @synthesize orientation=_orientation;
 @property(nonatomic) _Bool shouldShowText; // @synthesize shouldShowText=_shouldShowText;
-@property(nonatomic, getter=isSpeakerEnabled) _Bool speakerEnabled; // @synthesize speakerEnabled=_speakerEnabled;
 
 @end
 

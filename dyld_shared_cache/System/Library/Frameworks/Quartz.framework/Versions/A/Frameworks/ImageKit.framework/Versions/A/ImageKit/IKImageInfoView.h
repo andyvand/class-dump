@@ -6,21 +6,11 @@
 
 #import <ImageKit/IKImageEditView.h>
 
-@class IKImageEditWorldMap, IKInfoTabView, NSArray, NSDictionary, NSString, NSTabView, NSTableView;
+@class NSTableView;
 
 @interface IKImageInfoView : IKImageEditView
 {
     NSTableView *_infoTable;
-    NSTableView *_gpsTable;
-    NSTabView *_contentTabView;
-    IKInfoTabView *_infoTabView;
-    IKImageEditWorldMap *_worldMap;
-    NSDictionary *_metaData;
-    NSDictionary *_processedMetaData;
-    NSArray *_tabs;
-    NSString *_selection;
-    double _longitude;
-    double _latitude;
 }
 
 + (id);

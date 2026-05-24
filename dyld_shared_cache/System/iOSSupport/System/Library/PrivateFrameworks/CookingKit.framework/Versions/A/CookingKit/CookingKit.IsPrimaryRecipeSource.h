@@ -8,7 +8,6 @@
 {
     id _observableIsPrimaryRecipe;
     id state;
-    id _$scope;
 }
 
 @end

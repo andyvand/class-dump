@@ -11,9 +11,9 @@
     unsigned long long _reason;
 }
 
-- (id);
+- (id)artCounter;
 - (unsigned long long);
-- (id);
+- (id)data (%zdB).;
 - (void);
 
 // Remaining properties

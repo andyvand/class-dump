@@ -5,5 +5,6 @@
 //
 
 @protocol UNUninstallClientProtocol
+- (void)A;
 @end
 

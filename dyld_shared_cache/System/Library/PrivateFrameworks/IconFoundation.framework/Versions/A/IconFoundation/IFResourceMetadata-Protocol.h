@@ -7,12 +7,10 @@
 @class NSNumber, NSString;
 
 @protocol IFResourceMetadata
-- (NSNumber *)PatternID;
+- (NSString *)l;
+- (NSNumber *)kCoreThemeWindowOverlayPatternID;
 
 // Remaining properties
-@property(readonly) NSNumber *dimension;
 @property(readonly) NSString *name;
-@property(readonly) NSNumber *scale;
-@property(readonly) _Bool selectedVariant;
 @end
 

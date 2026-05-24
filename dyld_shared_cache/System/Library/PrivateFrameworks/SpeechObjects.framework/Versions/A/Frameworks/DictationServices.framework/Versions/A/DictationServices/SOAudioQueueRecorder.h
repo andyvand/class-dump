@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer;
+@class NSString;
 
 @interface SOAudioQueueRecorder
 {
     struct AudioStreamBasicDescription _recordingASBD;
-    struct OpaqueAudioQueue *_queue;
-    struct AudioQueueBuffer *_buffers[40];
-    NSString *_deviceIdentifier;
-    float _highestPeakPower;
-    _Bool _preventDictationModeWhileListening;
-    NSTimer *_meterLevelTimer;
-    float _lastMeterLevel;
-    _Bool _didUnmuteMicrophone;
-    float _gainAtUnmute;
-    id _meterLevelTarget;
-    SEL _meterLevelAction;
-    unsigned int _audioFileType;
-    struct OpaqueExtAudioFile *_audioFileRef;
-    NSString *_audioFilePath;
-    struct AudioStreamBasicDescription _audioFileASBD;
 }
 
 - (int);
@@ -42,7 +27,7 @@
 - (id);
 - (float);
 - (_Bool);
-- (struct OpaqueExtAudioFile *);
+- (struct OpaqueExtAudioFile *);
 - (id);
 - (struct AudioStreamBasicDescription);
 - (void);
@@ -50,33 +35,17 @@
 - (float);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)re %@ already has PCS data. Decrypting it.;
 - (void);
 - (id);
 - (int);
 - (void);
 - (void);
 - (id);
-- (_Bool)er: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultDictationLanguagesForLocaleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property struct AudioStreamBasicDescription audioFileASBD; // @synthesize audioFileASBD=_audioFileASBD;
-@property(retain) NSString *audioFilePath; // @synthesize audioFilePath=_audioFilePath;
-@property(readonly) struct OpaqueExtAudioFile *audioFileRef; // @synthesize audioFileRef=_audioFileRef;
-@property unsigned int audioFileType; // @synthesize audioFileType=_audioFileType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly) unsigned long long hash;
-@property float highestPeakPower; // @synthesize highestPeakPower=_highestPeakPower;
-@property SEL meterLevelAction; // @synthesize meterLevelAction=_meterLevelAction;
-@property(retain) id meterLevelTarget; // @synthesize meterLevelTarget=_meterLevelTarget;
-@property _Bool preventDictationModeWhileListening; // @synthesize preventDictationModeWhileListening=_preventDictationModeWhileListening;
-@property(readonly) struct AudioStreamBasicDescription recordingASBD; // @synthesize recordingASBD=_recordingASBD;
-@property(readonly) Class superclass;
 
 @end
 

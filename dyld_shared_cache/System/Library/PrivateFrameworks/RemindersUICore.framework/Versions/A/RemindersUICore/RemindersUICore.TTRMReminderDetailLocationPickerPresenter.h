@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailLocationPickerPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id router;
 }
 
 @end

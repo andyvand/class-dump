@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTableContentColumnDefinition, RFTableSpacerColumnDefinition;
+@class RFTableSpacerColumnDefinition;
 
 @protocol RFTableColumnDefinition
+- (RFTableSpacerColumnDefinition *)asurement for blessed primary system recoveryOS local policy (%u);
+- (void)ryOS;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) RFTableContentColumnDefinition *content;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTableSpacerColumnDefinition *spacer;
 @end
 

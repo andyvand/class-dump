@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PKAutoRefineSettingsObserver, PKInk, PKStroke;
+@class NSMutableArray, PKInk;
 
 @interface PKAutoRefineController
 {
     NSMutableArray *_refinableLocalPencilStrokeUUIDs;
-    PKAutoRefineSettingsObserver *_settingsObserver;
-    _Bool _forceAutoRefineState;
-    _Bool _isAutoRefineOn;
-    PKInk *_stableInk;
-    PKStroke *_stableReferenceStroke;
 }
 
 + (_Bool);
@@ -36,9 +31,7 @@
 - (void)e;
 
 // Remaining properties
-@property(nonatomic) _Bool isAutoRefineOn; // @synthesize isAutoRefineOn=_isAutoRefineOn;
 @property(retain, nonatomic) PKInk *stableInk; // @synthesize stableInk=_stableInk;
-@property(retain, nonatomic) PKStroke *stableReferenceStroke; // @synthesize stableReferenceStroke=_stableReferenceStroke;
 
 @end
 

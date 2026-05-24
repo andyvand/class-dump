@@ -11,15 +11,14 @@
 @interface CoreDAVPropertyFindBaseTask : CoreDAVTask
 {
     CoreDAVMultiStatusItem *_multiStatus;
-    NSSet *_propertiesToFind;
 }
 
 - (id);
-- (id);
+- (id)addGestureRecognizer: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
@@ -30,7 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVMultiStatusItem *multiStatus; // @synthesize multiStatus=_multiStatus;
 @property(retain, nonatomic) NSSet *propertiesToFind; // @synthesize propertiesToFind=_propertiesToFind;
 
 @end

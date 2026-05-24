@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     id <_UIHostedTextServiceSessionDelegate> _delegate;
 }
 
++ (id)ynced to the cloud transfer %@;
++ (id)asset download for transfer %@;
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
+- (void):8@16@24@32B40B44 /* Error: Ran out of types for this method. */;
+- (void)allExecutorStatusReportsUpdated:(_Bool)arg1;
 - (id);
 - (void)0@ù
 × ;

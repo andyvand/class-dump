@@ -6,100 +6,21 @@
 
 #import <AppKit/NSPanel.h>
 
-@class AppKit.AccessoryViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5, AppKit.FacesViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5, AppKit.FamiliesViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5, NSArray, NSFontManager, NSSplitViewController, NSString, NSToolbar, NSView;
+@class NSSplitViewController;
 
 @interface NSFontPanel : NSPanel
 {
     id _familyToFaceConstraint;
-    NSFontManager *_manager;
-    NSArray *_collectionNames;
-    id _selection;
-    void *_carbonNotification;
-    id _targetObject;
-    id _familyList;
-    id _faceList;
-    id _sizeList;
-    id _mainCollectionList;
-    id _sizeField;
-    id _sizeSlider;
-    id _sizeSliderBox;
-    id _preview;
-    id _previewContainer;
-    id _mainSplitView;
-    id _mmCollectionList;
-    id _mmFamilyList;
-    id _mmFaceList;
-    id _mmSizeList;
-    id _fullSizeHeightConstraint;
-    id _searchField;
-    id _fixedListButton;
-    id _sliderButton;
-    id _accessoryView;
-    struct __fpFlags {
-        unsigned int setFontChange:1;
-        unsigned int setFontAttributeChange:1;
-        unsigned int _delRespFamily:1;
-        unsigned int _delRespFace:1;
-        unsigned int _delRespSize:1;
-        unsigned int _delRespColl:1;
-        unsigned int _collectionDisabled:1;
-        unsigned int _sizeDisabled:1;
-        unsigned int _faceDisabled:1;
-        unsigned int showEffects:1;
-        unsigned int _uiMode:8;
-        unsigned int _miniMode:1;
-        unsigned int _reserved:13;
-    } _fpFlags;
-    id _regularModeBox;
-    id _miniModeBox;
-    id _sizeBox;
-    id _collectionLabel;
-    id _sizeLabel;
-    id _faceDivider;
-    id _familyLabel;
-    id _sizeStyleButton;
-    id _newSizeField;
-    id _editSizeList;
-    id _editSizeListBox;
-    id _editSizeSliderBox;
-    id _editSizeSliderMaxField;
-    id _editSizeSliderMinField;
-    id _sizeEditWindow;
-    id _availableSizes;
-    id _addCollectionButton;
-    id _removeCollectionButton;
-    double _fontPanelPreviewHeight;
-    id _typographyPanel;
-    id _actionButton;
-    id _fontEffectsBox;
-    int _sizeStyle;
-    NSToolbar *_fontPanelToolbar;
-    id _fontPanelContentView;
-    long long _currentModeMask;
 }
 
-+ (_Bool);
-+ (void);
++ (_Bool)r";
++ (void)Deprecated;
 + (_Bool);
 + (id);
-+ (id);
++ (id)@;
 
 // Remaining properties
-@property(retain) NSView *accessoryView;
-@property(nonatomic, retain) AppKit.AccessoryViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5 *accessoryViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled;
-@property(nonatomic, readonly) AppKit.FacesViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5 *facesViewController;
-@property(nonatomic, readonly) AppKit.FamiliesViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5 *familiesViewController;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, retain) NSSplitViewController *horizontalSplitView;
-@property(readonly) Class superclass;
-@property(nonatomic, retain) NSSplitViewController *verticalSplitView;
-@property _Bool worksWhenModal;
 
 @end
 

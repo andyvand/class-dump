@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface MPStoreItemLibraryImportElement
 {
     long long _storeItemID;
-    NSDictionary *_additionalTrackMetadata;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void)_localFileAsset_KEY;
+- (long long)payloadSMIMEEnablePerMessageSwitch;
+- (void)__localFileAsset_KEY;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalTrackMetadata; // @synthesize additionalTrackMetadata=_additionalTrackMetadata;
 @property(readonly, nonatomic) long long storeItemID; // @synthesize storeItemID=_storeItemID;
 
 @end

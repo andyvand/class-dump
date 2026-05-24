@@ -12,7 +12,7 @@
 
 + (void)empting to mark DRConfig %@ as completed;
 - (void);
-- (id);
+- (id)createAndCacheData();
 
 @end
 

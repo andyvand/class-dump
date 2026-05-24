@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id touPeaks;
-    id sharedContext;
 }
 
 @end

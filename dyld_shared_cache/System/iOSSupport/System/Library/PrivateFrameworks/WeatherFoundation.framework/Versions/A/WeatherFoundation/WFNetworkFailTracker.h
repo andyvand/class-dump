@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WFNetworkFailTracker
 {
     int _numConsecutiveFails;
-    double _lastFailTimeInSeconds;
 }
 
 - (int);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double lastFailTimeInSeconds; // @synthesize lastFailTimeInSeconds=_lastFailTimeInSeconds;
 @property(readonly, nonatomic) int numConsecutiveFails; // @synthesize numConsecutiveFails=_numConsecutiveFails;
 
 @end

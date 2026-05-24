@@ -6,30 +6,28 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, NSView, NSViewHost, NSViewHostingTraits;
+@class NSView;
 
 @interface _UINSView : UIView
 {
     NSView *_contentNSView;
-    NSViewHostingTraits *_hostingTraits;
-    NSViewHost *_viewHost;
 }
 
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
+- (id)setImDefaults:(id)arg1;
+- (void)sendIncomingRelayMessage:(id)arg1 toChat:style: /* Error: Ran out of types for this method. */;
+- (id)didSendBalloonPayload:forChat:style:messageGUID:account:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)pdatedName;
+- (void)C,N,V_transferId;
+- (void)readIdentifierGUID;
+- (struct CGSize)esced into %{public}ld unique identifiers;
+- (id)ID nil for metadata:%s /* Error: Ran out of types for this method. */;
+- (void)pecific guid %@ for chat metadata;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)A;
+- (id)AtIndex:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -37,29 +35,20 @@
 - (_Bool)0@ù
 × ;
 - (Class)v24@0:8@"<NSCopying><NSSecureCoding>"16 /* Error: Ran out of types for this method. */;
-- (void)Item:(id)arg1;
-- (id):(struct CGRect)arg1;
+- (void)setLeftDockItem:(id)arg1;
+- (id)_fallbackBadgeTitleFontForState:(struct CGRect)arg1 compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
 - (void)ionContext>",&,N,V_context;
-- (void)e;
+- (void)UIInputViewSetPlacementInvisible;
 - (void);
 - (id)¤ì ¡;
 - (_Bool)orresponding call toUIScene._extendStateRestoration;
-- (void)tionBottom;
+- (void)UIBarPositionBottom;
 - (void);
 - (struct UIEdgeInsets);
 - (void)¼Z;;
 
 // Remaining properties
 @property(nonatomic, readonly) Class _intelligenceBaseClass;
-@property(readonly) struct CGSize _intrinsicFrameSize;
-@property(readonly) NSView *contentNSView; // @synthesize contentNSView=_contentNSView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

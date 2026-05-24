@@ -7,19 +7,6 @@
 @interface NewsUI2.ArticleURLHandler
 {
     id patterns;
-    id navigator;
-    id articleContextFactory;
-    id audioPlaybackOptionsPresenter;
-    id featureAvailability;
-    id sceneProvider;
-    id contextBuilder;
-    id prefetchedArticlesService;
-    id tracker;
-    id articleLinkBehaviorConfigManager;
-    id feedViewContextFactory;
-    id appURLHandler;
-    id articleURLHandlerPatternProvider;
-    id articleURLHandlerMatchIDProvider;
 }
 
 @end

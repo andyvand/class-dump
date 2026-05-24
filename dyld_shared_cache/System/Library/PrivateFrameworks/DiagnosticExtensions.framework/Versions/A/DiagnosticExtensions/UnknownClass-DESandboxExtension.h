@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (DESandboxExtension)
-- (id);
+- (id)p;
 - (void);
 @end
 

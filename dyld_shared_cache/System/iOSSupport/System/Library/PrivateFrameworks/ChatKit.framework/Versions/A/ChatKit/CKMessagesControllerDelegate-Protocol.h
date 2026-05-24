@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation, CKMessagesController;
+
 @protocol CKMessagesControllerDelegate
+- (void)eligibleShareParticipants;
+- (void)elementAtIndex:(CKMessagesController *)arg1 associatedPoints:(CKConversation *)arg2;
 @end
 

@@ -7,25 +7,13 @@
 @interface ChronoServices.ControlsClient
 {
     id _calloutQueue;
-    id _queue;
-    id _queue_connection;
-    id _queue_controlHosts;
-    id _lock;
-    id _lock_subscriptions;
-    id _lock_sandboxExtensions;
-    id _lock_environmentData;
-    id _calloutQueue_liveControlsDidChangePublisher;
-    id $__lazy_storage_$_liveControlsDidChangePublisher;
-    id _calloutQueue_previewControlsDidChangePublisher;
-    id $__lazy_storage_$_previewControlsDidChangePublisher;
-    id handleSystemEnvironmentDidChange;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)";
 
 @end
 

@@ -6,17 +6,11 @@
 
 #import <UIKitCore/UIPopoverPresentationController.h>
 
-@class NSString, _UIActionSheetCompactPresentationController;
-@protocol UIActionSheetPresentationControllerDelegate;
+@class _UIActionSheetCompactPresentationController;
 
 @interface _UIActionSheetPresentationController : UIPopoverPresentationController
 {
     _Bool _dismissActionUsesShorterHeightWhenCompactVertically;
-    _Bool __shouldUseCompactPresentationControllerWhenPresentedInSheet;
-    _Bool _avoidsKeyboardDisabled;
-    NSString *_dismissActionTitle;
-    id <UIActionSheetPresentationControllerDelegate> _actionSheetDelegate;
-    _UIActionSheetCompactPresentationController *_compactPresentationController;
 }
 
 - (void);
@@ -34,10 +28,10 @@
 × ;
 - (void)ñb°1Â0@ù
 × ;
-- (void)dDimension:(id)arg1;
-- (_Bool)vers;
-- (id)fersCollapsedAppearance;
-- (id)FUITargetDetectionController;
+- (void)setAssociatedDimension:(id)arg1;
+- (_Bool)customDrivers;
+- (id)_prefersCollapsedAppearance;
+- (id)AFUITargetDetectionController;
 - (id)ck environment:%@%@) /* Error: Ran out of types for this method. */;
 - (_Bool)mode must be normal here;
 - (long long)¾/½?Ñ"Ûù~j¼?#Ûù~j¼´?¬Zd;¯?ªñÒMbÈ?R¸ëQ¸?;
@@ -48,19 +42,7 @@
 - (_Bool)ôÛ=ÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setShouldUseCompactPresentationControllerWhenPresentedInSheet:) _Bool _shouldUseCompactPresentationControllerWhenPresentedInSheet; // @synthesize _shouldUseCompactPresentationControllerWhenPresentedInSheet=__shouldUseCompactPresentationControllerWhenPresentedInSheet;
-@property(nonatomic) __weak id <UIActionSheetPresentationControllerDelegate> actionSheetDelegate; // @synthesize actionSheetDelegate=_actionSheetDelegate;
-@property(nonatomic) _Bool avoidsKeyboardDisabled; // @synthesize avoidsKeyboardDisabled=_avoidsKeyboardDisabled;
 @property(retain, nonatomic) _UIActionSheetCompactPresentationController *compactPresentationController; // @synthesize compactPresentationController=_compactPresentationController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *dismissActionTitle; // @synthesize dismissActionTitle=_dismissActionTitle;
-@property(nonatomic) _Bool dismissActionUsesShorterHeightWhenCompactVertically; // @synthesize dismissActionUsesShorterHeightWhenCompactVertically=_dismissActionUsesShorterHeightWhenCompactVertically;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,70 +6,62 @@
 
 #import <AppKit/NSStatusItem.h>
 
-@class NSMutableDictionary, NSStatusItemScene, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSSceneStatusItem : NSStatusItem
 {
     NSString *_sceneIdentifier;
-    NSStatusItemScene *_scene;
-    _Bool _invalid;
-    long long _auxiliaryViewSerial;
-    NSMutableDictionary *_auxiliaryViewSceneIdentifiers;
-    NSMutableDictionary *_auxiliaryViews;
-    NSMutableDictionary *_auxiliaryViewHosts;
 }
 
 - (void);
 - (void);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long)h@9	;
+- (void)_startedProducingResumeData;
+- (void)URLByDeletingLastPathComponent;
+- (void)UUID",C,V_uniqueIdentifier;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)rno}d;
+- (void)his buffer;
+- (void)ders for session %@ with identifier %@;
+- (long long)ssion is unavailable;
+- (struct CGRect)URLSessionUploadTask, as remote session is unavailable;
+- (void)d no bytes, no error, and no EOF from connection;
+- (void)ce Forcing NW;
+- (void)g - prepared to extract to %@ for task %@;
 - (void);
+- (void)x;
 - (void);
-- (void);
-- (long long);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (float);
-- (void);
+- (id)contentDispositionEncodingFallbackArray;
+- (float)_willEnqueueRequests();
+- (void)ot allowed;
+- (_Bool);
+- (_Bool);
+- (void)@@@@)@8@[[
+[[[[)[8[]	]](]~	~~(~^^}};
+- (id)(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
+- (void)9)989;
+- (float)@;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (float);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id)@;
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (id);
 - (void)¬ÿ=hÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

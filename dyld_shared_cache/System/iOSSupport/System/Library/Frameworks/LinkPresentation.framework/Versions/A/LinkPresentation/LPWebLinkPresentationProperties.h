@@ -4,68 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPARAsset, LPAudio, LPCaptionBarPresentationProperties, LPImage, LPImagePresentationProperties, LPIndeterminateProgressSpinnerPresentationProperties, LPInlineMediaPlaybackInformation, LPVideo, NSArray, NSNumber, NSString, NSURL, UIColor;
-
 @interface LPWebLinkPresentationProperties
 {
     _Bool _preliminary;
-    _Bool _allowsDominantImageBackgroundColorAsCaptionBackground;
-    _Bool __hasComputedDominantImageBackgroundColor;
-    long long _style;
-    LPCaptionBarPresentationProperties *_captionBar;
-    LPCaptionBarPresentationProperties *_mediaTopCaptionBar;
-    LPCaptionBarPresentationProperties *_mediaBottomCaptionBar;
-    NSString *_quotedText;
-    LPImage *_image;
-    LPImagePresentationProperties *_imageProperties;
-    NSArray *_alternateImages;
-    LPVideo *_video;
-    LPAudio *_audio;
-    LPARAsset *_arAsset;
-    UIColor *_backgroundColor;
-    UIColor *_dominantImageBackgroundColor;
-    LPImage *_backgroundImage;
-    LPImagePresentationProperties *_backgroundImageProperties;
-    NSNumber *_minimumHeight;
-    LPInlineMediaPlaybackInformation *_inlinePlaybackInformation;
-    NSString *_domainNameForIndicator;
-    NSURL *_overrideURL;
-    NSNumber *_overrideAllowOpeningSensitiveURLs;
-    LPIndeterminateProgressSpinnerPresentationProperties *_progressSpinner;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)transcriptCollectionViewController:(id)arg1 shouldCleanupFullscreenEffectUI: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 saveLastTappedChatItemWithDataDetector: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 didTapReplyCountStatusButtonForChatItem: /* Error: Ran out of types for this method. */;
+- (void)rence:(id)arg1;
+- (void)transcriptCollectionViewController:(id)arg1 didSelectItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 balloonView:tappedForChatItem: /* Error: Ran out of types for this method. */;
+- (void)WithIndexPath:(id)arg1 withReplyTransitionProperties: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 backgroundScrollVelocityThresholdChanged: /* Error: Ran out of types for this method. */;
+- (void)transcriptCanUseOpaqueMask;
+- (void)transcriptBoldTextHeight;
+- (void)transcriptBalloonCell:(_Bool)arg1 textBalloonView:didChangeTextEffectPlaybackCandidateStatus: /* Error: Ran out of types for this method. */;
+- (id)transcoderGeneratedSizeForConstraints: /* Error: Ran out of types for this method. */;
+- (id)h:medianEffectLength:effectLengthStandardDeviation: /* Error: Ran out of types for this method. */;
+- (id)touchBarSelectedAckType;
+- (id)totalStorageInCloud;
+- (_Bool)toggleTimeStampAction;
+- (id)titleViewInteractabilityChange;
+- (id)textView:didBeginFormattingWithViewController: /* Error: Ran out of types for this method. */;
+- (id)textVibrationIdentifier;
+- (id)textEffectIsCandidateBalloonViewChecksForChatItem:balloonView: /* Error: Ran out of types for this method. */;
+- (id)textEffectCoordinator:didChangeStateOfAnimator:textView: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)taillessMultilineBalloonMaskSize;
+- (_Bool)supportsScreenEffects;
+- (void)suggestionListTitle;
+- (id)suggestionCategoryImage;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)8;
 - (id);
 - (id);
 - (void);
@@ -73,7 +48,7 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)DigitsAvailability;
 - (id);
 - (void);
 - (void);
@@ -87,36 +62,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setHasComputedDominantImageBackgroundColor:) _Bool _hasComputedDominantImageBackgroundColor; // @synthesize _hasComputedDominantImageBackgroundColor=__hasComputedDominantImageBackgroundColor;
-@property(nonatomic) _Bool allowsDominantImageBackgroundColorAsCaptionBackground; // @synthesize allowsDominantImageBackgroundColorAsCaptionBackground=_allowsDominantImageBackgroundColorAsCaptionBackground;
-@property(retain, nonatomic) NSArray *alternateImages; // @synthesize alternateImages=_alternateImages;
-@property(retain, nonatomic) LPARAsset *arAsset; // @synthesize arAsset=_arAsset;
-@property(retain, nonatomic) LPAudio *audio; // @synthesize audio=_audio;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain, nonatomic) LPImagePresentationProperties *backgroundImageProperties; // @synthesize backgroundImageProperties=_backgroundImageProperties;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *captionBar; // @synthesize captionBar=_captionBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *domainNameForIndicator; // @synthesize domainNameForIndicator=_domainNameForIndicator;
-@property(retain, nonatomic) UIColor *dominantImageBackgroundColor; // @synthesize dominantImageBackgroundColor=_dominantImageBackgroundColor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) LPImagePresentationProperties *imageProperties; // @synthesize imageProperties=_imageProperties;
-@property(retain, nonatomic) LPInlineMediaPlaybackInformation *inlinePlaybackInformation; // @synthesize inlinePlaybackInformation=_inlinePlaybackInformation;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(retain, nonatomic) LPCaptionBarPresentationProperties *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(retain, nonatomic) NSNumber *minimumHeight; // @synthesize minimumHeight=_minimumHeight;
-@property(copy, nonatomic) NSNumber *overrideAllowOpeningSensitiveURLs; // @synthesize overrideAllowOpeningSensitiveURLs=_overrideAllowOpeningSensitiveURLs;
-@property(copy, nonatomic) NSURL *overrideURL; // @synthesize overrideURL=_overrideURL;
-@property(nonatomic, getter=isPreliminary) _Bool preliminary; // @synthesize preliminary=_preliminary;
-@property(retain, nonatomic) LPIndeterminateProgressSpinnerPresentationProperties *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property(copy, nonatomic) NSString *quotedText; // @synthesize quotedText=_quotedText;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) LPVideo *video; // @synthesize video=_video;
 
 @end
 

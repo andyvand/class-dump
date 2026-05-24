@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)oryWithState: /* Error: Ran out of types for this method. */;
++ (Class)_updateSoftwareUpdateStateForMatterAccessoryWithState: /* Error: Ran out of types for this method. */;
 
 @end
 

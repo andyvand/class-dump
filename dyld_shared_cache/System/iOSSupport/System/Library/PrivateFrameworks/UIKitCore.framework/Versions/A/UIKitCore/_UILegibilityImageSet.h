@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)get}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)};
 - (id);
 - (id)hø	(h;
 - (id)e;

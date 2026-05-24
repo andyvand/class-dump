@@ -6,18 +6,12 @@
 
 #import <MediaRemote/MRAVRoutingDiscoverySession.h>
 
-@class MRAVEndpoint, MRAVRoutingDiscoverySessionConfiguration, MRExternalDevice;
-@protocol MRActivityTracker;
+@class MRAVEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface MRAVExternalRoutingDiscoverySession : MRAVRoutingDiscoverySession
 {
     unsigned int _discoveryMode;
-    MRAVRoutingDiscoverySessionConfiguration *_configuration;
-    id _externalDeviceDiscoveryToken;
-    id <MRActivityTracker> _discoveryTracker;
-    MRAVEndpoint *_destination;
-    MRExternalDevice *_externalDevice;
 }
 
 - (void);
@@ -32,14 +26,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool)tHasShouldForceRemoteControlabillity: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasShouldForceRemoteControlabillity: /* Error: Ran out of types for this method. */;
 - (void)V_designatedGroupLeaderWhenContextEmpty;
 - (unsigned int)context:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)s out of range (%lu);
 
 // Remaining properties
 @property(retain, nonatomic) MRAVEndpoint *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) MRExternalDevice *externalDevice; // @synthesize externalDevice=_externalDevice;
 
 @end
 

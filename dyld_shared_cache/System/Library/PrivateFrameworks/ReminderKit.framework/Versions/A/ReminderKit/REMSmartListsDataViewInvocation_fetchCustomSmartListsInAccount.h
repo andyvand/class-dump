@@ -15,12 +15,12 @@
 
 + (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)s";
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 

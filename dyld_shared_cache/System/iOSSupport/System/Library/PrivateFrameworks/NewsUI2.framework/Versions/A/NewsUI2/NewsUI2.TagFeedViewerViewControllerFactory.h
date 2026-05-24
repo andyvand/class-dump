@@ -7,10 +7,6 @@
 @interface NewsUI2.TagFeedViewerViewControllerFactory
 {
     id asyncFeedFactory;
-    id appConfigurationManager;
-    id resolver;
-    id tracker;
-    id feedAvailabilityService;
 }
 
 @end

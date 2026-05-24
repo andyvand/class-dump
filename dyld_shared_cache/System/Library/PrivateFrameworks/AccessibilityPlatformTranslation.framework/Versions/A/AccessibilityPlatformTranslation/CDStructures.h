@@ -21,14 +21,14 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long elementOrHash;
-    unsigned long long elementID;
-} CDStruct_26bd94fa;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTIInputSystemService;
+@class RTIInputSystemService;
 
 __attribute__((visibility("hidden")))
 @interface __NSTextInputContextRTISystemDelegate
@@ -15,21 +15,14 @@ __attribute__((visibility("hidden")))
 + (id)(§D;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void)egisteredWithTitlebar:(id)arg1;
+- (void)setIsRegisteredWithTitlebar:(id)arg1;
 - (void)CGSize=dd},V_pixelSize;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) RTIInputSystemService *rtiInputSystemService; // @synthesize rtiInputSystemService=_rtiInputSystemService;
-@property(readonly) Class superclass;
 
 @end
 

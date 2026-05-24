@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIResponder, UIView, UIWindow;
-@protocol _UIGestureRecognizerContainer;
+@class NSString;
 
 @interface SwiftUI.ViewResponderGestureContainer
 {
     id responder;
-    id subgraphObserver;
-    id registeredGestureRecognizers;
-    id <_UIGestureRecognizerContainer> _actingParentContainer;
 }
 
 - (void);
@@ -32,14 +28,7 @@
 - (id)1';
 
 // Remaining properties
-@property(nonatomic, retain) id <_UIGestureRecognizerContainer> _actingParentGestureRecognizerContainer; // @synthesize _actingParentGestureRecognizerContainer=_actingParentContainer;
-@property(nonatomic, readonly) NSArray *_childGestureRecognizerContainers;
-@property(nonatomic, readonly) UIWindow *_eventReceivingWindow;
-@property(nonatomic, readonly) id <_UIGestureRecognizerContainer> _parentGestureRecognizerContainer;
-@property(nonatomic, readonly) UIView *_proxyView;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *gestureRecognizers;
-@property(nonatomic, readonly) UIResponder *nextResponder;
 
 @end
 

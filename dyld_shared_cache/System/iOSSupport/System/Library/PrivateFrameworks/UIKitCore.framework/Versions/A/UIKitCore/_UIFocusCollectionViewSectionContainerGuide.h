@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 
 - (id)!GùqeÐ1Â0@ù
 × ;
-- (void)Properties;
-- (long long)text: /* Error: Ran out of types for this method. */;
-- (id)onnection;
+- (void)capturedProperties;
+- (long long)_supplementaryShiftKeysWithContext: /* Error: Ran out of types for this method. */;
+- (id)stopConnection;
 - (void)ut-modes;
 - (void);
 

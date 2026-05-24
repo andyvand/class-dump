@@ -13,8 +13,8 @@
 + (unsigned long long);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (id)erformance;
++ (_Bool)_remote_IXSPromisedStreamingZipTransfer:setArchiveBytesConsumed: /* Error: Ran out of types for this method. */;
++ (id)UIPerformance;
 
 @end
 

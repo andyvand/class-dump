@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPMediaBooklet
 {
     unsigned long long itemPersistentID;
-    NSString *name;
-    long long storeItemID;
-    NSString *redownloadParams;
-    long long fileSize;
 }
 
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id)QCExecutionDebuggingLevel;
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void)NG_MISSING__;
+- (void)__MPModelRelationshipAlbumGenre__MAPPING_MISSING__;
 - (long long)ßªû	;
 
 // Remaining properties
-@property(nonatomic) long long fileSize; // @synthesize fileSize;
 @property(nonatomic) unsigned long long itemPersistentID; // @synthesize itemPersistentID;
-@property(copy, nonatomic) NSString *name; // @synthesize name;
-@property(copy, nonatomic) NSString *redownloadParams; // @synthesize redownloadParams;
-@property(nonatomic) long long storeItemID; // @synthesize storeItemID;
 
 @end
 

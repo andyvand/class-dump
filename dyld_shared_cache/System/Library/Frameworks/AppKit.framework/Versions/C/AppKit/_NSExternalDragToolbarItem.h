@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSArray *_externalItems;
 }
 
-- (void);
+- (void)R 1.0 format;
 - (id);
 - (id);
 - (void);

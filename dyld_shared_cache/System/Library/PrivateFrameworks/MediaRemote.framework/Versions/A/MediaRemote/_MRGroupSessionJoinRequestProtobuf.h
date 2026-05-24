@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRUserIdentityProtobuf;
+@class NSString;
 
 @interface _MRGroupSessionJoinRequestProtobuf
 {
     NSString *_identifier;
-    _MRUserIdentityProtobuf *_identity;
-    NSMutableArray *_oobKeys;
 }
 
 + (Class);
@@ -20,29 +18,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void) @9h;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)fully generated frame %ld.;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)(;
+- (id)sae_override;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)age;
+- (void)_localizedMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdentifier;
 @property(readonly, nonatomic) _Bool hasIdentity;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _MRUserIdentityProtobuf *identity; // @synthesize identity=_identity;
-@property(retain, nonatomic) NSMutableArray *oobKeys; // @synthesize oobKeys=_oobKeys;
 
 @end
 

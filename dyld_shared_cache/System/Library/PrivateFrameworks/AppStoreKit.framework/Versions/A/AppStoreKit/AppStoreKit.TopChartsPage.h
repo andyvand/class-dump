@@ -9,12 +9,6 @@
 @interface AppStoreKit.TopChartsPage : AppStoreKit.BasePage
 {
     id genreId;
-    id ageBandId;
-    id segments;
-    id initialSegmentIndex;
-    id title;
-    id categoriesButtonTitle;
-    id categories;
 }
 
 @end

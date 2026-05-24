@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SASportsAthlete;
-
 @interface SASportsMatchupPlaySummary : AceObject
 {
 }
@@ -23,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (id);
@@ -31,18 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool appliesToAwayTeam;
-@property(nonatomic) _Bool appliesToHomeTeam;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *nonFormattedTime;
-@property(retain, nonatomic) SASportsAthlete *offensivePlayer;
-@property(copy, nonatomic) NSString *summaryDescription;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *time;
 
 @end
 

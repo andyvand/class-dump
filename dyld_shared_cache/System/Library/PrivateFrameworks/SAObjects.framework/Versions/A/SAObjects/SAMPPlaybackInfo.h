@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SACalendar;
-
 @interface SAMPPlaybackInfo : AceObject
 {
 }
@@ -17,29 +15,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)w;
 - (void);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long durationMillis;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SACalendar *lastPlayedDate;
-@property(nonatomic) long long playbackPositionMillis;
-@property(nonatomic) long long plays;
-@property(nonatomic) _Bool rememberPlaybackPosition;
-@property(readonly) Class superclass;
 
 @end
 

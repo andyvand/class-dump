@@ -10,16 +10,10 @@
 
 + (id);
 + (id)H§ãÿ;
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long depthFailureOperation; // @dynamic depthFailureOperation;
-@property(nonatomic) unsigned long long depthStencilPassOperation; // @dynamic depthStencilPassOperation;
-@property(nonatomic) unsigned int readMask; // @dynamic readMask;
-@property(nonatomic) unsigned long long stencilCompareFunction; // @dynamic stencilCompareFunction;
-@property(nonatomic) unsigned long long stencilFailureOperation; // @dynamic stencilFailureOperation;
 @property(readonly) const struct MTLStencilDescriptorPrivate *stencilPrivate; // @dynamic stencilPrivate;
-@property(nonatomic) unsigned int writeMask; // @dynamic writeMask;
 
 @end
 

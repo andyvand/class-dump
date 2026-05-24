@@ -13,7 +13,7 @@
     NSArray *_updatedKeys;
 }
 
-- (id);
+- (id);
 - (id);
 - (id)];
 - (void)messageGUID:%@,success:%d,error:%@ /* Error: Ran out of types for this method. */;

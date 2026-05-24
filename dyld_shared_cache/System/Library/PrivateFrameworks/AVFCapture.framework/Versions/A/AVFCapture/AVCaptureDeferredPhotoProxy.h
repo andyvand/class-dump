@@ -6,20 +6,17 @@
 
 #import <AVFCapture/AVCapturePhoto.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVCaptureDeferredPhotoProxy : AVCapturePhoto
 {
     NSString *_applicationIdentifier;
-    NSString *_captureRequestIdentifier;
-    NSString *_photoIdentifier;
-    NSArray *_photoLibraryThumbnailDimensions;
 }
 
 - (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)_childAccountsForAccountWithID: /* Error: Ran out of types for this method. */;
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -29,16 +26,13 @@
 - (id);
 - (id);
 - (id);
+- (id)-;
 - (id);
-- (id);
-- (CDStruct_79c71658);
+- (CDStruct_1ef3fb1f);
 - (void)Sl2;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly) NSString *deferredPhotoIdentifier;
-@property(readonly, copy) NSString *persistentStorageUUID; // @synthesize persistentStorageUUID=_photoIdentifier;
-@property(readonly) NSArray *photoLibraryThumbnailDimensions; // @synthesize photoLibraryThumbnailDimensions=_photoLibraryThumbnailDimensions;
 
 @end
 

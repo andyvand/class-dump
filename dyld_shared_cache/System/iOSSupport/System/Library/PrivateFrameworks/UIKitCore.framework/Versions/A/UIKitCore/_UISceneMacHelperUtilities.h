@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneMacHelperUtilities
 {
@@ -15,14 +13,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)messageContainsOneTimeCode;
+- (id)_updateAttachmentGUIDIfNeededAndReturnTransfersToForceMarkAsSync:(id)arg1 transfersToSyncRowIDs: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (struct CGSize);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -36,13 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

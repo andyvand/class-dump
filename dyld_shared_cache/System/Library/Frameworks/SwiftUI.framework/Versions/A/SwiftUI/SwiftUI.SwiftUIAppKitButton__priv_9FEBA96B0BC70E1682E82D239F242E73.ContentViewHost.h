@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSContentStyle;
-
 @interface SwiftUI.SwiftUIAppKitButton__priv_9FEBA96B0BC70E1682E82D239F242E73.ContentViewHost
 {
     id contentStyleSignal;
-    id ignoreContentStyleUpdates;
-    id icsHeight;
-    id firstBaselineOffset;
-    id lastBaselineOffset;
-    id $__lazy_storage_$_helper;
 }
 
 - (void);
@@ -22,18 +15,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (_Bool);
 - (CDStruct_c3b9c2ee);
 - (id);
 - (void)ýÿÚ¨ùÿ;
-- (void);
+- (void)AllPlatformItemListFlags;
 
 // Remaining properties
-@property(nonatomic, retain) id <NSContentStyle> contentStyle;
-@property(nonatomic) _Bool flipped;
 @property(nonatomic, readonly) struct CGRect focusRingMaskBounds;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end
 

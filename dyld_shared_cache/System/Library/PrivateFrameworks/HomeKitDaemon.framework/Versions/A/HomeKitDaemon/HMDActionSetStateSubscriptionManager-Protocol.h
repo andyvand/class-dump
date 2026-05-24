@@ -5,5 +5,6 @@
 //
 
 @protocol HMDActionSetStateSubscriptionManager
+- (_Bool);
 @end
 

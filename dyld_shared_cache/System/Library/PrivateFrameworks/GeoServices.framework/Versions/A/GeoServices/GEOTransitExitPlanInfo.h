@@ -4,70 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitExitPlanInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _selectedCarIndexs;
-    GEOFormattedString *_label;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _numberOfCars;
-    struct {
-        unsigned int has_numberOfCars:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_selectedCarIndexs:1;
-        unsigned int read_label:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)or:(id)arg1;
++ (_Bool)setModelNumberMinor:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int *);
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (void);
+- (void)ption"8;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)&;
+- (void)*libAccessibilityLibrary(void);
 - (id);
-- (void);
+- (void)gate:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (id)Qº*Ð1Â0@ù
 × ;
-- (id)eURL: /* Error: Ran out of types for this method. */;
+- (id)imageURLForSize:imageTemplateURL: /* Error: Ran out of types for this method. */;
 - (id),V_logoCenteredIdentifier;
-- (id)_start;
+- (id)connect_start;
 - (void)¨v¤°;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLabel;
 @property(nonatomic) _Bool hasNumberOfCars;
-@property(retain, nonatomic) GEOFormattedString *label;
-@property(nonatomic) unsigned int numberOfCars;
-@property(readonly, nonatomic) unsigned int *selectedCarIndexs;
-@property(readonly, nonatomic) unsigned long long selectedCarIndexsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

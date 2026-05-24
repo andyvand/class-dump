@@ -6,26 +6,22 @@
 
 #import <SkyLight/SLSAsynchronousBridgedWindowManagementOperation.h>
 
-@class NSDictionary;
-
 @interface SLSBridgedSpaceSetValuesOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    NSDictionary *_values;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)ires a NSPropertyDescription;
+- (id)Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitImportZoneContext.m;
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)(;
+- (id)V;
 - (void)L ¸;
 
 // Remaining properties
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly, copy) NSDictionary *values; // @synthesize values=_values;
 
 @end
 

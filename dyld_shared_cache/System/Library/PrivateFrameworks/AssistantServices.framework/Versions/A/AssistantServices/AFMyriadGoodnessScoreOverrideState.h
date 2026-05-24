@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFMyriadGoodnessScoreOverrideState
 {
     long long _overrideOption;
-    NSString *_reason;
 }
 
 + (id);
-+ (_Bool);
-- (long long);
++ (_Bool);
+- (long long);
+- (id);
+- (id)Image",R,N;
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)s;
 - (id);
 - (_Bool);
 - (void);
@@ -31,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long overrideOption; // @synthesize overrideOption=_overrideOption;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

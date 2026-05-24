@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray, TSClock, TSDCTranslationClock, _TSF_TSDClockManager;
+@class _TSF_TSDClockManager;
 
 @interface TSClockManager
 {
     _TSF_TSDClockManager *_impl;
-    TSDCTranslationClock *_translationClockDC;
-    struct mach_timebase_info _timebaseInfo;
-    NSPointerArray *_clients;
-    struct os_unfair_lock_s _clientLock;
-    TSClock *_timeSyncClock;
-    TSClock *_translationClock;
 }
 
 + (id);
@@ -27,12 +21,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)decodeInt32ForKey:(unsigned long long)arg1;
 + (void);
 + (id);
 + (id);
++ (void)c;
 + (void);
-+ (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -45,20 +39,20 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)handleFailureInMethod:(unsigned long long)arg1 object:(unsigned int *)arg2 file:(id *)arg3 lineNumber:description: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)uffers=%u, ASBD:(unsigned long long)arg1:NumberChannelStreams(output.GetStreamFormat())=%u; kAudio_ParamError /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
+- (id)!;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -67,10 +61,6 @@
 - (void)PI/TSMSGService.m;
 
 // Remaining properties
-@property(readonly, nonatomic) TSClock *timeSyncClock; // @synthesize timeSyncClock=_timeSyncClock;
-@property(readonly, nonatomic) unsigned long long timeSyncTimeClockIdentifier; // @dynamic timeSyncTimeClockIdentifier;
-@property(readonly, nonatomic) _Bool timeSyncTimeIsMachAbsoluteTime; // @dynamic timeSyncTimeIsMachAbsoluteTime;
-@property(readonly, nonatomic) TSClock *translationClock; // @synthesize translationClock=_translationClock;
 @property(readonly, nonatomic) unsigned long long translationClockIdentifier; // @dynamic translationClockIdentifier;
 
 @end

@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol _INPBCarHeadUnit
+- (void)T;
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bluetoothIdentifier;
-@property(readonly, nonatomic) _Bool hasBluetoothIdentifier;
-@property(readonly, nonatomic) _Bool hasIAP2Identifier;
-@property(copy, nonatomic) NSString *iAP2Identifier;
 @end
 

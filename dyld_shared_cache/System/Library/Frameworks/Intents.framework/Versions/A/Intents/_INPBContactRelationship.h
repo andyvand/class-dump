@@ -9,39 +9,27 @@
 @interface _INPBContactRelationship
 {
     struct _has;
-    NSString *_name;
-    NSString *_relation;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)ng><NSSecureCoding>"24@"NSArray"32;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
+- (void)brooklyn hip-hop festival;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)@0:(id)arg1 8^Q16@24;
+- (void)%{public}@;
 - (id);
 - (id);
 - (id);
 - (void)spokenEntityTypes;
-- (void)etAudioSourceInCarIntentResponseCodeFailureRequiringAppLaunch;
+- (void)INSetAudioSourceInCarIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasRelation;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *relation; // @synthesize relation=_relation;
-@property(readonly) Class superclass;
 
 @end
 

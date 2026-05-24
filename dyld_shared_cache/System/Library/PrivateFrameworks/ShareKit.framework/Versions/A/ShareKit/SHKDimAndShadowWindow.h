@@ -6,24 +6,18 @@
 
 #import <ShareKit/SHKBorderlessEffectWindow.h>
 
-@class CALayer, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface SHKDimAndShadowWindow : SHKBorderlessEffectWindow
 {
     _Bool animatesTransitions;
-    CALayer *groupLayer;
-    CALayer *dimLayer;
-    CALayer *shadowLayer;
-    CALayer *shadowCenterKnockoutLayer;
-    NSWindow *_remoteWindow;
-    NSWindow *_sourceWindow;
 }
 
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (id);
+- (id)PmvB;
 - (void);
 - (void);
 - (id);
@@ -37,9 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool animatesTransitions; // @synthesize animatesTransitions;
 @property __weak NSWindow *remoteWindow; // @synthesize remoteWindow=_remoteWindow;
-@property __weak NSWindow *sourceWindow; // @synthesize sourceWindow=_sourceWindow;
 
 @end
 

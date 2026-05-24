@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDResultRefinementMetadataSort
 {
     PBUnknownFields *_unknownFields;
-    NSString *_customSortFunctionIdentifier;
-    unsigned int _selectionBasedPosition;
-    unsigned int _selectionFromQuerySequenceNumber;
-    unsigned int _serverOverriddenPosition;
-    int _sortType;
-    _Bool _enableServerOverriddenPositioning;
-    _Bool _selectionFromQuery;
-    struct {
-        unsigned int has_selectionBasedPosition:1;
-        unsigned int has_selectionFromQuerySequenceNumber:1;
-        unsigned int has_serverOverriddenPosition:1;
-        unsigned int has_sortType:1;
-        unsigned int has_enableServerOverriddenPositioning:1;
-        unsigned int has_selectionFromQuery:1;
-    } _flags;
 }
 
-+ (_Bool)velTime:(id)arg1;
-- (id);
-- (int);
++ (_Bool)setIncludeStaticTravelTime:(id)arg1;
+- (id)e",R,N,V_pscCache;
+- (int)tStoreCoordinatorCache",R,N,V_pscCache;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)cropRect;
+- (void)imageDataURL;
+- (void)context;
 - (void);
 - (void);
 - (void);
@@ -61,34 +46,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)oTapProvider;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id):(struct _NSZone *)arg1 8@16{?=dd}24@40;
-- (id)tTime;
+- (id)_nextSafeRequestTime;
 - (id)´ñ;
-- (id)_id;
+- (id)mac_id;
 - (void)à»ÍG@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *customSortFunctionIdentifier;
-@property(nonatomic) _Bool enableServerOverriddenPositioning;
-@property(readonly, nonatomic) _Bool hasCustomSortFunctionIdentifier;
-@property(nonatomic) _Bool hasEnableServerOverriddenPositioning;
-@property(nonatomic) _Bool hasSelectionBasedPosition;
-@property(nonatomic) _Bool hasSelectionFromQuery;
-@property(nonatomic) _Bool hasSelectionFromQuerySequenceNumber;
-@property(nonatomic) _Bool hasServerOverriddenPosition;
 @property(nonatomic) _Bool hasSortType;
-@property(nonatomic) unsigned int selectionBasedPosition;
-@property(nonatomic) _Bool selectionFromQuery;
-@property(nonatomic) unsigned int selectionFromQuerySequenceNumber;
-@property(nonatomic) unsigned int serverOverriddenPosition;
-@property(nonatomic) int sortType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

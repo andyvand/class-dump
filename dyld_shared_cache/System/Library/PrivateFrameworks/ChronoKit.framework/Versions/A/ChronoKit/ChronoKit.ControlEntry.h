@@ -7,15 +7,6 @@
 @interface ChronoKit.ControlEntry
 {
     id _lock;
-    id _lock_contentLoadError;
-    id _lock_content;
-    id _lock_dateOfLastDeveloperError;
-    id _contentDidChangePublisher;
-    id $__lazy_storage_$_contentDidChangePublisher;
-    id _lock_contentLoadErrorDate;
-    id protectionType;
-    id key;
-    id environmentProvider;
 }
 
 @end

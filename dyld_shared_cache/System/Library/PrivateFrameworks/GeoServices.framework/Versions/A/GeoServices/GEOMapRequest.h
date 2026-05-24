@@ -9,27 +9,22 @@
 @interface GEOMapRequest
 {
     GEOMapRequestManager *_requestManager;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _cancellationHandler;
-    _Bool _isFinished;
 }
 
-- (void);
+- (void)sharedInstanceForAddressBook;
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)com.apple.networkextension.fallback-default;
 - (CDUnknownBlockType);
 - (void);
-- (_Bool)SuggestToWalkingTriggered;
+- (_Bool)hasIsSuggestToWalkingTriggered;
 - (void)äÑ¤Í$;
 - (void)µBA@P@;
 - (void)ìnÿìê;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancellationHandler; // @synthesize cancellationHandler=_cancellationHandler;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
 
 @end
 

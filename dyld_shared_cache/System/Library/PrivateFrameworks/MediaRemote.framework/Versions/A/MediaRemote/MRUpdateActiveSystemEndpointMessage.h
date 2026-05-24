@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)hAccount, can't verify there are no duplicates;
 - (id);
 - (id);
 - (void)unt;

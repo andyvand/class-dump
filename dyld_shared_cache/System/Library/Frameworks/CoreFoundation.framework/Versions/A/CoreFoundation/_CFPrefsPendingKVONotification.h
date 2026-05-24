@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _CFPrefsPendingKVONotification
 {
     NSObject *source;
-    id oldValues;
-    id values;
 }
 
 - (void);

@@ -9,7 +9,7 @@
     CDUnknownBlockType _handler;
 }
 
-- (id);
+- (id)ompletion:(CDUnknownBlockType)arg1;
 - (CDUnknownBlockType);
 - (void)^;
 

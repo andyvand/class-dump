@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBNote, _INPBNoteContent;
+@class _INPBIntentMetadata, _INPBNoteContent;
 
 @protocol _INPBAppendToNoteIntent
-- (_INPBNoteContent *)quiredWithWellnessMetadataPairToConfirm: /* Error: Ran out of types for this method. */;
-- (_Bool)etRecordDeviceUID: /* Error: Ran out of types for this method. */;
+- (void);
+- (_INPBIntentMetadata *)rowing error:%@ /* Error: Ran out of types for this method. */;
+- (_INPBNoteContent *)confirmationRequiredWithWellnessMetadataPairToConfirm: /* Error: Ran out of types for this method. */;
+- (_Bool)_setRecordDeviceUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBNoteContent *content;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetNote;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBNote *targetNote;
 @end
 

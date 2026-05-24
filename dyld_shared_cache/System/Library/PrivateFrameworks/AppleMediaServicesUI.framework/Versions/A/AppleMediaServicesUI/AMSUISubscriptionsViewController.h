@@ -4,56 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSProcessInfo, AMSUIWebViewController, NSDictionary, NSString;
-@protocol AMSBagProtocol;
+@class AMSUIWebViewController, NSString;
 
 @interface AMSUISubscriptionsViewController
 {
     NSString *_subscriptionType;
-    AMSUIWebViewController *_webViewController;
 }
 
 + (id);
-+ (id)ait80;
++ (id)portrait80;
 + (id)SgtGG;
 + (id)flow. error = %{public}@;
-- (id);
+- (id)ot add assertion, manager interface is nil for asset type:%@ /* Error: Ran out of types for this method. */;
+- (void)SDate class]];
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)LCloudPhotoLibraryStateHelper.m;
+- (id)B32@?0@"PLChoosableItem"8Q16^B24;
+- (id)yForCloudPhotoLibrary];
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void).	>	(	;
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)- Failed to evaluate predicate:%@ (bad key:"%@") /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id)s: /* Error: Ran out of types for this method. */;
+- (id)setTextfieldValues: /* Error: Ran out of types for this method. */;
 - (void)ÿ=y	q=y[=y½¶=y¼=yh;
 
 // Remaining properties
-@property(retain) ACAccount *account;
-@property(retain) id <AMSBagProtocol> bag;
-@property(retain) AMSProcessInfo *clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *metricsOverlay;
-@property(retain) NSString *subscriptionType; // @synthesize subscriptionType=_subscriptionType;
-@property(readonly) Class superclass;
 @property(readonly) AMSUIWebViewController *webViewController; // @synthesize webViewController=_webViewController;
 
 @end

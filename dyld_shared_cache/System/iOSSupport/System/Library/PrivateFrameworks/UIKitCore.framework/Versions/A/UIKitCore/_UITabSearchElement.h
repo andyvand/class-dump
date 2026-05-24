@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)28;
 - (id);
 - (_Bool);
-- (id);
+- (id)}@;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyActivatesSearch; // @synthesize automaticallyActivatesSearch=_automaticallyActivatesSearch;

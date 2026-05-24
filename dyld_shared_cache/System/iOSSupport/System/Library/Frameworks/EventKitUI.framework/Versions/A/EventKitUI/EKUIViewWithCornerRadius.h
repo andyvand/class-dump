@@ -9,7 +9,7 @@
     double _cornerRadius;
 }
 
-- (void);
+- (void)x;
 - (double);
 - (void);
 

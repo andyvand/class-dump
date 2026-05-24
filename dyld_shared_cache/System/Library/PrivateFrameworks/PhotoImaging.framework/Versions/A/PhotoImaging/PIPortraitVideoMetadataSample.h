@@ -9,7 +9,6 @@
 @interface PIPortraitVideoMetadataSample
 {
     unsigned long long _dataDigest;
-    PTTimedRenderingMetadata *_timedMetadata;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ily;
 - (void)sharedFactory;
 
 // Remaining properties

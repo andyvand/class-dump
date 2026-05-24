@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
++ (id)bject>",R,N,V_contactStoreDidChangeNotificationToken;
++ (id);
 + (id);
 - (long long);
 - (_Bool);

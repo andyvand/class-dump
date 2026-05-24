@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSLayoutConstraint, NSString, NSTextField, PRMonogram;
+@class NSTextField;
 
 @interface PRMonogramView
 {
     _Bool _bordered;
-    _Bool _selected;
-    _Bool _highlighted;
-    _Bool _allowsEditing;
-    _Bool _circular;
-    PRMonogram *_monogram;
-    NSTextField *_textField;
-    NSLayoutConstraint *_textFieldYOffset;
-    CAGradientLayer *_circleGradient;
 }
 
 + (id);
@@ -35,7 +27,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -45,19 +37,19 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)!;
+- (void)errorWithDomain:(_Bool)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_allowsMultipleMonthlyDayButtons;
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)WithDevice:] /* Error: Ran out of types for this method. */;
+- (void)PopoverCheckmarkImage;
 - (void);
 - (void);
 - (void);
@@ -65,22 +57,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(nonatomic) _Bool bordered; // @synthesize bordered=_bordered;
-@property(retain, nonatomic) CAGradientLayer *circleGradient; // @synthesize circleGradient=_circleGradient;
-@property(nonatomic, getter=isCircular) _Bool circular; // @synthesize circular=_circular;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) PRMonogram *monogram; // @synthesize monogram=_monogram;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSTextField *textField; // @synthesize textField=_textField;
-@property(retain, nonatomic) NSLayoutConstraint *textFieldYOffset; // @synthesize textFieldYOffset=_textFieldYOffset;
 
 @end
 

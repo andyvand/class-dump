@@ -9,11 +9,10 @@
 @interface MREffectDotProgress : MREffect
 {
     short _selectedDotIndex;
-    short _countOfDots;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)y has no network event groups;
 - (_Bool);
 - (void);
 

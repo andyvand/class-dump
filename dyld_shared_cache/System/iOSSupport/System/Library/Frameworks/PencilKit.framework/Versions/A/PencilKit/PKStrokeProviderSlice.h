@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHEncodedStrokeIdentifier, NSString, PKStroke, PKStrokeProviderSliceIdentifier;
-@protocol CHStrokeIdentifier;
+@class CHEncodedStrokeIdentifier;
 
 @interface PKStrokeProviderSlice
 {
     CHEncodedStrokeIdentifier *_encodedStrokeIdentifier;
-    PKStrokeProviderSliceIdentifier *_identifier;
-    PKStroke *_stroke;
-    struct CGRect _bounds;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (struct CGPoint);
 - (double);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint);
 - (long long);
 - (long long);
 - (id);
@@ -29,11 +25,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -43,22 +39,7 @@
 - (double)ÿüû.,c;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CHEncodedStrokeIdentifier *encodedStrokeIdentifier; // @synthesize encodedStrokeIdentifier=_encodedStrokeIdentifier;
-@property(readonly, nonatomic) double endTimestamp;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKStrokeProviderSliceIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isFinished;
-@property(readonly, nonatomic) double startTimestamp;
-@property(readonly, nonatomic) PKStroke *stroke; // @synthesize stroke=_stroke;
-@property(readonly, nonatomic) unsigned long long strokeAttributes;
-@property(readonly, nonatomic) id <CHStrokeIdentifier> strokeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

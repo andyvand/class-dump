@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIDragItem, UIView;
+
 @protocol _UIDropSessionPrivate
+- (void);
+- (struct CGSize)handledNicknamesKVStore;
+- (struct CGPoint)handleRecoverJunkCommandWithPipeline:(UIDragItem *)arg1 input:(UIView *)arg2 completionBlock: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
 @protocol CalUILocationSearchManagerDelegate;
 
 @interface CalUILocationSearchManager
 {
     _Bool _resultsDisplayed;
-    id <CalUILocationSearchManagerDelegate> _delegate;
-    NSMutableSet *_pendingRequests;
 }
 
 - (void);
@@ -29,18 +26,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)*;
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void)5 °!GùQÃ#ð1Â0@ù
 × ;
 
 // Remaining properties
 @property __weak id <CalUILocationSearchManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableSet *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property _Bool resultsDisplayed; // @synthesize resultsDisplayed=_resultsDisplayed;
 
 @end
 

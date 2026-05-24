@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol NSInputAlignmentGuide;
 
 @interface _NSInputAlignmentGuide
 {
     id <NSInputAlignmentGuide> _guide;
-    long long _guideType;
-    NSArray *_referenceValues;
-    long long _representativeIndex;
 }
 
-- (double);
-- (double);
-- (struct CGPoint);
-- (id);
-- (void);
+- (double)le.message.value5;
+- (double)ple.message.value2;
+- (struct CGPoint).apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MGIOMFBSupport.c;
+- (id)tAPSleep:idleDuration=%u /* Error: Ran out of types for this method. */;
+- (void)`;
 - (_Bool);
 
 @end

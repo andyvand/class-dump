@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENGroupID, IDSDestinationPushToken, NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface IDSCloudKitTransportLogMessage
 {
     NSDictionary *_payload;
-    NSString *_secondaryID;
-    NSString *_deviceID;
-    NSString *_encryptionType;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (id);
@@ -24,23 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)isUnsupportedApplicationLabel;
 - (void);
 - (id)yteCount;
-- (void)iDevice;
+- (void)SiriDevice;
 - (void)9	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cypherIdentifier;
-@property(readonly, nonatomic) IDSDestinationPushToken *destination;
-@property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) NSData *encryptedPayload;
-@property(retain, nonatomic) NSString *encryptionType; // @synthesize encryptionType=_encryptionType;
-@property(readonly, nonatomic) ENGroupID *groupID;
 @property(retain, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) NSString *recipientAlias;
-@property(retain, nonatomic) NSString *secondaryID; // @synthesize secondaryID=_secondaryID;
-@property(readonly, nonatomic) NSString *senderAlias;
 
 @end
 

@@ -7,6 +7,6 @@
 @class CSIndexJob, NSString;
 
 @protocol CSSearchableIndexServiceInterface
-- (void)xingItemFor:(CSIndexJob *)arg1 delegate:(NSString *)arg2 didBeginThrottle:(void (^)(NSError *))arg3 didEndThrottle:error:live:queue:slow:startTime:dataLen:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)completeIndexingItemFor:(CSIndexJob *)arg1 delegate:(NSString *)arg2 didBeginThrottle:(void (^)(NSError *))arg3 didEndThrottle:error:live:queue:slow:startTime:dataLen:completionHandler: /* Error: Ran out of types for this method. */;
 @end
 

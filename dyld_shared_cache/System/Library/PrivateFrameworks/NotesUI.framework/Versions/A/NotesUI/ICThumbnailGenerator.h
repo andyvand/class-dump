@@ -11,10 +11,10 @@
     NSManagedObjectContext *_managedObjectContext;
 }
 
-- (void);
-- (id);
-- (void)phrase: /* Error: Ran out of types for this method. */;
-- (id)culateScanKey;
+- (void)7;
+- (id)_populateBuild;
+- (void)authenticateAllNotesInAccount:withPassphrase: /* Error: Ran out of types for this method. */;
+- (id)CalculateScanKey;
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;

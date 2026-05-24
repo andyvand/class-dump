@@ -14,7 +14,7 @@
 + (Class);
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

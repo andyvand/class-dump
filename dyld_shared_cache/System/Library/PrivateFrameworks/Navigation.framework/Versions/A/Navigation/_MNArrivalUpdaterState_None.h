@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     unsigned long long _departureReason;
 }
 
-- (void);
-- (void);
+- (void)PlaybackButtonStyle;
+- (void)AccessibilityAppIntentAction;
 - (id);
 - (id);
 - (long long);

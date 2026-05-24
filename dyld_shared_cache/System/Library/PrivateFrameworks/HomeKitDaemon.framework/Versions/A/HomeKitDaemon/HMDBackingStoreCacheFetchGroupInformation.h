@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheFetchGroupInformation : HMDBackingStoreOperation
 {
     HMDBackingStoreCacheGroup *_group;
-    CDUnknownBlockType _fetchResult;
 }
 
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void)Þ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchResult; // @synthesize fetchResult=_fetchResult;
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
 
 @end

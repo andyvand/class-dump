@@ -9,10 +9,10 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ec type=%ld;
+- (void)id codec mask=0%08x for codec type=%ld;
+- (void)pe=%ld, txPayloadType=%lu, rxPayloadType=%lu;
+- (void){BOOL}d;
 
 @end
 

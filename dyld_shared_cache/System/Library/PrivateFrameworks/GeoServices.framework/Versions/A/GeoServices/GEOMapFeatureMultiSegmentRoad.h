@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)performBlock:qualityOfService: /* Error: Ran out of types for this method. */;
+- (id)performBlock: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (CDStruct_39925896 *);
-- (id)ransitID;
+- (id)transitID;
 - (id);
 - (void)d0æÿ;
 - (id)79;

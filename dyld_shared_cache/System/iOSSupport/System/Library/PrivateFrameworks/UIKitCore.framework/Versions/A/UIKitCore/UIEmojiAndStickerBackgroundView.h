@@ -6,20 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint;
-
 __attribute__((visibility("hidden")))
 @interface UIEmojiAndStickerBackgroundView : UIView
 {
     UIView *_topRow;
-    UIView *_secondRow;
-    NSLayoutConstraint *_firstRowHeightConstraint;
-    double _cutoutHeight;
 }
 
-- (void);
+- (void)d;
 - (double);
-- (id);
+- (id);
 - (id)SectionSnapshotState",R,N;
 - (void)h<h;
 

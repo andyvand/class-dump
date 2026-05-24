@@ -11,23 +11,21 @@
 @interface PKMentionQueryItem : PKDetectionQueryItem
 {
     NSString *_mentionResult;
-    CHPrefixQueryItem *_coreHandwritingPrefixQueryItem;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)/.;
 
 // Remaining properties
 @property(retain, nonatomic) CHPrefixQueryItem *coreHandwritingPrefixQueryItem; // @synthesize coreHandwritingPrefixQueryItem=_coreHandwritingPrefixQueryItem;
-@property(copy, nonatomic) NSString *mentionResult; // @synthesize mentionResult=_mentionResult;
 
 @end
 

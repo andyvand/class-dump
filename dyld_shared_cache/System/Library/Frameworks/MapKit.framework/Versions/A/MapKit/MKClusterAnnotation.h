@@ -9,42 +9,26 @@
 @interface MKClusterAnnotation
 {
     NSArray *_memberAnnotations;
-    NSString *_clusteringIdentifier;
-    struct CLLocationCoordinate2D __coordinate;
-    NSString *__title;
-    NSString *__subtitle;
-    CDStruct_81fb2dc1 _flags;
 }
 
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)product_type;
 - (_Bool);
 - (struct CLLocationCoordinate2D);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (struct CLLocationCoordinate2D);
-- (id);
-- (void)lock: /* Error: Ran out of types for this method. */;
+- (_Bool)P;
+- (void)audioDecoderDidDecodePackets:(id)arg1 audioStreamHandleId:buffer:remoteVAD:timestamp:arrivalTimestampToAudioRecorder:wasBuffered:receivedNumChannels: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D)_enhancedEndpointerDefaultResult;
+- (id)'u;
+- (void)enumerateTextLayoutFragmentsFromLocation:options:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clusteringIdentifier; // @synthesize clusteringIdentifier=_clusteringIdentifier;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=__coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *memberAnnotations; // @synthesize memberAnnotations=_memberAnnotations;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=__subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=__title;
 
 @end
 

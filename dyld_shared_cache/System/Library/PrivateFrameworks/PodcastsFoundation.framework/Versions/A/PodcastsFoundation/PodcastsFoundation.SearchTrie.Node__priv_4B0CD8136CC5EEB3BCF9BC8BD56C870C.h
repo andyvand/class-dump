@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.SearchTrie.Node__priv_4B0CD8136CC5EEB3BCF9BC8BD56C870C
 {
     id terminal;
-    id children;
 }
 
 @end

@@ -6,32 +6,24 @@
 
 #import <OfficeImport/WDRun.h>
 
-@class WDAnnotationData, WDCharacterRun;
-
 __attribute__((visibility("hidden")))
 @interface WDAnnotation : WDRun
 {
     int mType;
-    WDCharacterRun *mReference;
-    _Bool mReferencePopertiesFixed;
-    WDAnnotationData *mData;
-    WDAnnotation *mOtherEndOfRangedAnnotation;
-    _Bool isResolved;
-    WDAnnotation *parent;
 }
 
 - (void);
-- (void);
+- (void)M9;
 - (void);
 - (void);
 - (_Bool);
+- (id)	;
 - (id);
-- (id);
-- (id);
-- (int);
+- (id)K;
+- (int);
 - (unsigned long long);
 - (int);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -39,14 +31,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void)OfficeImport/OfficeParser/shared/utility/TSUTemporaryDirectory.m;
 
 // Remaining properties
 @property _Bool isResolved; // @synthesize isResolved;
-@property WDAnnotation *parent; // @synthesize parent;
 
 @end
 

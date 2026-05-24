@@ -5,5 +5,8 @@
 //
 
 @protocol PLHighlightItemPromoterRule
+- (id);
+- (unsigned long);
+- (id)es/com.apple.xbs/TemporaryDirectory.o484aD/Sources/Commerce/CommerceKit/iTunes Protocol/iTunes Store Framework/ISURLOperation.m;
 @end
 

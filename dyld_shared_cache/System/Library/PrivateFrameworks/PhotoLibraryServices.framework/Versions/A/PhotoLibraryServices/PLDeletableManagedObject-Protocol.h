@@ -5,5 +5,6 @@
 //
 
 @protocol PLDeletableManagedObject
+- (id)_PSKnnModelGroupActivitiesMinimumOccuranceRegularizer;
 @end
 

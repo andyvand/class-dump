@@ -7,17 +7,15 @@
 @interface CUIKORTextDrawInfo
 {
     CDUnknownBlockType _renderingBlock;
-    struct CGSize _contentSize;
 }
 
 - (CDUnknownBlockType);
 - (id);
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void)setProposedStartDate:forEvent: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) CDUnknownBlockType renderingBlock; // @synthesize renderingBlock=_renderingBlock;
 
 @end
 

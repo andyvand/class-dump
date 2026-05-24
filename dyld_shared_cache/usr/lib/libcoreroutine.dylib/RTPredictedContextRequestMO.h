@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSUUID;
-
 @interface RTPredictedContextRequestMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)setCurrentItemPointerModificationTime:(id)arg1;
++ (id)setCurrentIdentityForService:(id)arg1 identity:(id)arg2 persistentReference: /* Error: Ran out of types for this method. */;
++ (id)nw_protocol_options>"8;
 
 // Remaining properties
 @property(nonatomic) long long clientCount; // @dynamic clientCount;
-@property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic) long long inferenceTriggerReason; // @dynamic inferenceTriggerReason;
-@property(nonatomic) float memoryFootprintEnd; // @dynamic memoryFootprintEnd;
-@property(nonatomic) float memoryFootprintStart; // @dynamic memoryFootprintStart;
-@property(retain, nonatomic) NSSet *predictedContexts; // @dynamic predictedContexts;
-@property(copy, nonatomic) NSDate *requestEndDate; // @dynamic requestEndDate;
-@property(copy, nonatomic) NSDate *requestStartDate; // @dynamic requestStartDate;
 
 @end
 

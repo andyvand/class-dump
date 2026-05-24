@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBString;
+@class _INPBString;
 
 @interface _INPBMediaSearch
 {
@@ -13,21 +13,11 @@
         unsigned int reference:1;
         unsigned int sortOrder:1;
     } _has;
-    int _mediaType;
-    int _reference;
-    int _sortOrder;
-    _INPBString *_albumName;
-    _INPBString *_artistName;
-    NSArray *_genreNames;
-    _INPBString *_mediaIdentifier;
-    _INPBString *_mediaName;
-    NSArray *_moodNames;
-    _INPBDateTimeRange *_releaseDate;
 }
 
 + (Class);
 + (Class);
-+ (_Bool);
++ (_Bool)k;
 - (id);
 - (void);
 - (void);
@@ -38,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (_Bool);
@@ -54,14 +44,14 @@
 - (int);
 - (unsigned long long);
 - (void);
-- (int);
-- (void);
+- (int);
+- (void)clientRemote_uploadProgressFraction:(int)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ser-interface method;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -69,7 +59,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (id);
 - (id);
@@ -77,7 +67,7 @@
 - (int)0@ù
 × ;
 - (void),R,C,V_otherParticipants;
-- (void)flightDuration;
+- (void)_flightDuration;
 - (void)SString"8@16^B24;
 - (void)NÐ;
 - (void)ÿMç;
@@ -86,32 +76,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *albumName; // @synthesize albumName=_albumName;
-@property(retain, nonatomic) _INPBString *artistName; // @synthesize artistName=_artistName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *genreNames; // @synthesize genreNames=_genreNames;
-@property(readonly, nonatomic) unsigned long long genreNamesCount;
-@property(readonly, nonatomic) _Bool hasAlbumName;
-@property(readonly, nonatomic) _Bool hasArtistName;
-@property(readonly, nonatomic) _Bool hasMediaIdentifier;
-@property(readonly, nonatomic) _Bool hasMediaName;
-@property(nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool hasReference;
-@property(readonly, nonatomic) _Bool hasReleaseDate;
-@property(nonatomic) _Bool hasSortOrder;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
-@property(retain, nonatomic) _INPBString *mediaName; // @synthesize mediaName=_mediaName;
-@property(nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
-@property(copy, nonatomic) NSArray *moodNames; // @synthesize moodNames=_moodNames;
-@property(readonly, nonatomic) unsigned long long moodNamesCount;
-@property(nonatomic) int reference; // @synthesize reference=_reference;
-@property(retain, nonatomic) _INPBDateTimeRange *releaseDate; // @synthesize releaseDate=_releaseDate;
-@property(nonatomic) int sortOrder; // @synthesize sortOrder=_sortOrder;
-@property(readonly) Class superclass;
 
 @end
 

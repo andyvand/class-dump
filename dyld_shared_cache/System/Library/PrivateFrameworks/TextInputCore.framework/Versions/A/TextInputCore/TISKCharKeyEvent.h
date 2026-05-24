@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface TISKCharKeyEvent : TISKInputEvent
 {
     _Bool _isShortWord;
-    long long _wordPosition;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)updateText:(long long)arg1;
+- (void)isOnlyRTTSupportedForContext:(id)arg1;
+- (void)isMe;
+- (_Bool)didChangeThumperCallingProvisionalURLForSenderIdentityWithUUID: /* Error: Ran out of types for this method. */;
+- (id)or %@. Asking delegate to help get this request to the right place.;
 - (long long);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isShortWord; // @synthesize isShortWord=_isShortWord;
 @property(nonatomic) long long wordPosition; // @synthesize wordPosition=_wordPosition;
 
 @end

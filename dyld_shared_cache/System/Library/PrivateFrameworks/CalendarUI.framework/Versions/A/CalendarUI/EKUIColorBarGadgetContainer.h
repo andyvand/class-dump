@@ -6,13 +6,11 @@
 
 #import <CalendarUI/EKUIGadgetContainer.h>
 
-@class CalUILayerBackedView, EKEventViewControllerDefaultImpl, NSColor;
+@class CalUILayerBackedView, NSColor;
 
 @interface EKUIColorBarGadgetContainer : EKUIGadgetContainer
 {
     NSColor *_color;
-    CalUILayerBackedView *_colorBarView;
-    EKUIGadgetContainer *_titleDateContainer;
 }
 
 - (void);
@@ -20,19 +18,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)kB;
 - (id);
 - (void);
 - (void);
+- (id)_	;
+- (void);
+- (void)7;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(retain) CalUILayerBackedView *colorBarView; // @synthesize colorBarView=_colorBarView;
-@property(readonly, nonatomic) EKEventViewControllerDefaultImpl *eventVC;
-@property(retain) EKUIGadgetContainer *titleDateContainer; // @synthesize titleDateContainer=_titleDateContainer;
 
 @end
 

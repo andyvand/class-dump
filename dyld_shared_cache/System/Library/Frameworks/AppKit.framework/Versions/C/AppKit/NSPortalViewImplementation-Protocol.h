@@ -7,7 +7,8 @@
 @class NSView;
 
 @protocol NSPortalViewImplementation
-- (void)rmTileResizeToFit:(NSView *)arg1 acceptIncorrectSize: /* Error: Ran out of types for this method. */;
+- (NSView *);
+- (void)performTileResizeToFit:(NSView *)arg1 acceptIncorrectSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSView *sourceView;

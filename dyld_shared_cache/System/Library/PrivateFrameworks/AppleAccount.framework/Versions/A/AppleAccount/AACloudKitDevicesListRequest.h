@@ -11,7 +11,7 @@
 }
 
 + (Class);
-- (id)ON_MESSAGE_TITLE;
+- (id)INHERITANCE_SHARE_KEY_OPTION_MESSAGE_TITLE;
 
 @end
 

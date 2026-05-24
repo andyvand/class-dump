@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, PXSelectionContainer;
+@class PXSelectionContainer;
 
 @interface _PXSelectionContainerInfo
 {
     PXSelectionContainer *_selectionContainer;
-    NSView *_selectionAnchorView;
 }
 
 - (void);
@@ -20,15 +19,7 @@
 - (void)i;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSView *selectionAnchorView; // @synthesize selectionAnchorView=_selectionAnchorView;
 @property(retain, nonatomic) PXSelectionContainer *selectionContainer; // @synthesize selectionContainer=_selectionContainer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -23,7 +23,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool)le;
 

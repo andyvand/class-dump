@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (_Bool);
 

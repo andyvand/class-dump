@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBPersonalizationAggregate
 {
     double _clicks;
-    unsigned long long _eventCount;
-    double _impressions;
-    unsigned long long _timestamp;
-    NSString *_featureKey;
-    struct {
-        unsigned int clicks:1;
-        unsigned int eventCount:1;
-        unsigned int impressions:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 @end

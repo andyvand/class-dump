@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactValue, _INPBStringValue;
+@class _INPBContactValue;
 
 @interface _INPBDialingContactValue
 {
     struct _has;
-    _INPBContactValue *_dialingContact;
-    _INPBStringValue *_dialingPhoneLabel;
-    _INPBStringValue *_dialingPhoneNumber;
 }
 
 + (_Bool);
@@ -21,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -29,25 +26,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)er to app ask-to-share request (clientID=%{public}@, error=%{public}@, status=%{public}@);
 - (id);
-- (id);
-- (void)assName;
+- (id);
+- (void)INIntentClassName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBContactValue *dialingContact; // @synthesize dialingContact=_dialingContact;
-@property(retain, nonatomic) _INPBStringValue *dialingPhoneLabel; // @synthesize dialingPhoneLabel=_dialingPhoneLabel;
-@property(retain, nonatomic) _INPBStringValue *dialingPhoneNumber; // @synthesize dialingPhoneNumber=_dialingPhoneNumber;
-@property(readonly, nonatomic) _Bool hasDialingContact;
-@property(readonly, nonatomic) _Bool hasDialingPhoneLabel;
-@property(readonly, nonatomic) _Bool hasDialingPhoneNumber;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

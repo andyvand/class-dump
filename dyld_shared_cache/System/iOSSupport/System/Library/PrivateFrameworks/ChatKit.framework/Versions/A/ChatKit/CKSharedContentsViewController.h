@@ -4,56 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIBarButtonItem, UICollectionView, UICollectionViewFlowLayout, UIView;
-@protocol CKSharedAssetsControllerDelegate;
+@class UICollectionViewFlowLayout;
 
 @interface CKSharedContentsViewController
 {
     _Bool _selectingAttachments;
-    UICollectionView *_collectionView;
-    id <CKSharedAssetsControllerDelegate> _delegate;
-    UICollectionViewFlowLayout *_collectionviewLayout;
-    UIView *_topmostMarkerView;
-    NSArray *_attachmentItems;
-    UIBarButtonItem *_saveButton;
-    UIBarButtonItem *_deleteButton;
-    NSArray *_parentRightBarButtonItemsToRestore;
 }
 
+- (void)timelineSectionIdentifierForNoteObjectID:date:referenceDate: /* Error: Ran out of types for this method. */;
+- (void)snapshotForMetadata:(id)arg1 configurations:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)setDataFileURLError: /* Error: Ran out of types for this method. */;
+- (void)insertResultAtRange: /* Error: Ran out of types for this method. */;
+- (void)initWithCGImage:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (void)ic_isLeftArrowPressed;
+- (void)hasAttachments;
+- (void)canConvertInlineAttachmentToTextInTextView:(id)arg1 forRange: /* Error: Ran out of types for this method. */;
+- (id)_webView:requestGeolocationPermissionForOrigin:initiatedByFrame:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)_originalImage;
+- (void)setActionTitle:(SEL)arg1;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (double);
-- (long long);
+- (id)orientedImageID;
+- (double)t",&,N,V_webViewBottomConstraint;
+- (double)straint;
+- (long long)orage",W,N,V_invalidHighlightsTextStorage;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)c;
 - (id);
-- (void);
-- (void);
-- (double);
+- (void)h;
+- (void);
+- (double);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)o;
 - (id);
 - (void);
 - (id);
@@ -64,12 +55,12 @@
 - (void);
 - (long long)
 × ;
-- (long long)d:(id)arg1 forConversation:(long long)arg2;
-- (void)imated:(id)arg1;
-- (void);
-- (_Bool)248AA0ED494224E5816BFBB9B75C22TextBalloonWrapperView;
+- (long long)startDeferredEditingPayload:(id)arg1 forConversation:(long long)arg2;
+- (void)setEditingPins:(id)arg1 animated:(id)arg2;
+- (void)_currentValue;
+- (_Bool)_TtC7ChatKitP33_F7EA248AA0ED494224E5816BFBB9B75C22TextBalloonWrapperView;
 - (_Bool);
-- (void)ator;
+- (void)Coordinator;
 - (_Bool)rbidden;
 - (_Bool)8;
 - (void)ÿ]P;
@@ -81,22 +72,7 @@
 - (void)~ÿ¤¹2x0;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attachmentItems; // @synthesize attachmentItems=_attachmentItems;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(retain, nonatomic) UICollectionViewFlowLayout *collectionviewLayout; // @synthesize collectionviewLayout=_collectionviewLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKSharedAssetsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIBarButtonItem *deleteButton; // @synthesize deleteButton=_deleteButton;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *parentRightBarButtonItemsToRestore; // @synthesize parentRightBarButtonItemsToRestore=_parentRightBarButtonItemsToRestore;
-@property(retain, nonatomic) UIBarButtonItem *saveButton; // @synthesize saveButton=_saveButton;
-@property(nonatomic, getter=isSelectingAttachments) _Bool selectingAttachments; // @synthesize selectingAttachments=_selectingAttachments;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *topmostMarkerView; // @synthesize topmostMarkerView=_topmostMarkerView;
 
 @end
 

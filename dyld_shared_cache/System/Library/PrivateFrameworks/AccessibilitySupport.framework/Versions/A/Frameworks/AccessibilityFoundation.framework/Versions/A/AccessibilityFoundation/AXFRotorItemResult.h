@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, NSString, NSValue;
+@class NSString;
 
 @interface AXFRotorItemResult
 {
     NSString *_rotorIdentifier;
-    AXFUIElement *_uiElement;
-    NSValue *_textRange;
-    NSString *_descriptionOverride;
 }
 
 - (id);
@@ -25,13 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)eceiver Declined;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *descriptionOverride; // @synthesize descriptionOverride=_descriptionOverride;
 @property(copy, nonatomic) NSString *rotorIdentifier; // @synthesize rotorIdentifier=_rotorIdentifier;
-@property(retain, nonatomic) NSValue *textRange; // @synthesize textRange=_textRange;
-@property(retain, nonatomic) AXFUIElement *uiElement; // @synthesize uiElement=_uiElement;
 
 @end
 

@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMultiTabsState, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateMapUI
 {
     PBUnknownFields *_unknownFields;
-    GEOMultiTabsState *_multiTabsState;
-    int _layoutInfo;
-    int _layoutStyle;
-    unsigned int _numberOfMapsWindows;
-    int _windowSize;
-    _Bool _landscape;
-    struct {
-        unsigned int has_layoutInfo:1;
-        unsigned int has_layoutStyle:1;
-        unsigned int has_numberOfMapsWindows:1;
-        unsigned int has_windowSize:1;
-        unsigned int has_landscape:1;
-    } _flags;
 }
 
-+ (_Bool)ssionsTagging:(id)arg1;
++ (_Bool)setHasSupportEmissionsTagging:(id)arg1;
 - (int);
 - (void);
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)9;
 - (id);
 - (id);
 - (void);
@@ -38,21 +25,21 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)there is no HS phone call capable headset connected.;
+- (id)nvoke_2;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)MapsExtensionCapabilities;
 - (id);
 - (_Bool);
 - (unsigned int);
-- (_Bool);
-- (void);
-- (id)isplayedResultsAtIndex:(struct _NSZone *)arg1;
+- (_Bool)ationEssentials.framework/Versions/A/_LocationEssentials;
+- (void)0M;
+- (id)suggestionsDisplayedResultsAtIndex:(struct _NSZone *)arg1;
 - (id)_preserveIndividualComponents;
 - (id)er_ARRIVE_AT_DESTINATION;
 - (id)ÿÿ;
@@ -72,19 +59,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLandscape;
 @property(nonatomic) _Bool hasLayoutInfo;
-@property(nonatomic) _Bool hasLayoutStyle;
-@property(readonly, nonatomic) _Bool hasMultiTabsState;
-@property(nonatomic) _Bool hasNumberOfMapsWindows;
-@property(nonatomic) _Bool hasWindowSize;
-@property(nonatomic) _Bool landscape;
-@property(nonatomic) int layoutInfo;
-@property(nonatomic) int layoutStyle;
-@property(retain, nonatomic) GEOMultiTabsState *multiTabsState;
-@property(nonatomic) unsigned int numberOfMapsWindows;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int windowSize;
 
 @end
 

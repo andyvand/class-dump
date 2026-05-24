@@ -6,25 +6,16 @@
 
 #import <CoreSuggestionsInternals/SGMessage.h>
 
-@class CSPerson, NSArray, NSString;
+@class CSPerson;
 
 @interface SGTextMessage : SGMessage
 {
     _Bool _senderIsAccountOwner;
-    _Bool _senderIsBusinessChat;
-    _Bool _isPotentialEventMessage;
-    _Bool _tapBack;
-    CSPerson *_sender;
-    NSArray *_recipients;
-    NSString *_conversationIdentifier;
-    NSString *_nickname;
-    NSString *_photoPath;
-    NSString *_attachmentFilename;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
++ (id)isEnabledForDataclass: /* Error: Ran out of types for this method. */;
++ (_Bool)_verticalStack;
 - (void);
 - (void);
 - (_Bool);
@@ -33,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),R,V_date;
 - (_Bool);
 - (void);
 - (id);
@@ -43,7 +34,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)createFileAtPath:(id)arg1 contents:attributes: /* Error: Ran out of types for this method. */;
 - (id)@"NSCoder"16;
 - (void)_mailCategories;
 - (id)Tc;
@@ -51,16 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *attachmentFilename; // @synthesize attachmentFilename=_attachmentFilename;
-@property(retain) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(readonly, nonatomic) _Bool isPotentialEventMessage; // @synthesize isPotentialEventMessage=_isPotentialEventMessage;
-@property(retain) NSString *nickname; // @synthesize nickname=_nickname;
-@property(retain) NSString *photoPath; // @synthesize photoPath=_photoPath;
-@property(retain) NSArray *recipients; // @synthesize recipients=_recipients;
 @property(retain) CSPerson *sender; // @synthesize sender=_sender;
-@property _Bool senderIsAccountOwner; // @synthesize senderIsAccountOwner=_senderIsAccountOwner;
-@property(readonly) _Bool senderIsBusinessChat; // @synthesize senderIsBusinessChat=_senderIsBusinessChat;
-@property(readonly, getter=isTapBack) _Bool tapBack; // @synthesize tapBack=_tapBack;
 
 @end
 

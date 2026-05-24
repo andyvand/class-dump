@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSUUID, _OSLogCollectionReference, _OSLogEventStoreMetadata, _OSLogEventStoreTimeRef;
+@class NSMutableArray;
 
 @interface OSLogEventSource
 {
     NSMutableArray *_fileRefs;
-    _OSLogCollectionReference *_lcr;
-    _OSLogEventStoreMetadata *_lesm;
-    _OSLogEventStoreTimeRef *_oldestTimeRef;
-    struct _os_timesync_db_s *_tsdb;
 }
 
 - (void);
@@ -23,24 +19,16 @@
 - (id);
 - (id);
 - (id);
+- (id)={CGPoint=dd}{CGSize=dd}},N,V_strokeBounds;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)};
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_fileRefs; // @synthesize _fileRefs;
-@property(readonly, nonatomic) _OSLogCollectionReference *lcr; // @synthesize lcr=_lcr;
-@property(readonly, nonatomic) _OSLogEventStoreMetadata *lesm; // @synthesize lesm=_lesm;
-@property(readonly, nonatomic) NSDate *newestDate;
-@property(readonly, nonatomic) _OSLogEventStoreTimeRef *newestTimeRef;
-@property(readonly, nonatomic) NSDate *oldestDate;
-@property(readonly, nonatomic) _OSLogEventStoreTimeRef *oldestTimeRef; // @synthesize oldestTimeRef=_oldestTimeRef;
-@property(readonly, nonatomic) struct _os_timesync_db_s *tsdb; // @synthesize tsdb=_tsdb;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

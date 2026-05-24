@@ -9,51 +9,33 @@
 @interface _INPBAppNames
 {
     struct _has;
-    NSString *_appName;
-    NSString *_axSpokenName;
-    NSString *_displayName;
-    NSString *_spotlightName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)Library/Frameworks/Security.framework/Versions/A/Security;
+- (id)ram=If}]}}{SequenceChannelParam=QQf}{SequenceParam=Sf}fd{ItemList<ParamPoint, 16>=I[16{ParamPoint=ff}]})}16@184d192;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)visitPredicateExpression:(id)arg1;
+- (void)ngth for APPLE80211_M_LINK_QUALITY (expected=%lu, actual=%lu);
 - (id);
 - (id);
 - (_Bool);
-- (void)ons;
+- (void)Restrictions;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(copy, nonatomic) NSString *axSpokenName; // @synthesize axSpokenName=_axSpokenName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasAppName;
-@property(readonly, nonatomic) _Bool hasAxSpokenName;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasSpotlightName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *spotlightName; // @synthesize spotlightName=_spotlightName;
-@property(readonly) Class superclass;
 
 @end
 

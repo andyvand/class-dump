@@ -9,13 +9,10 @@
 @interface MRCAMLKeyframe
 {
     MRCAMLBezierData *spline;
-    double value0;
-    double value1;
-    double time;
 }
 
-- (id);
-- (void);
+- (id)jsonEncodableAppConfiguration;
+- (void)URLSession:(id)arg1 didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

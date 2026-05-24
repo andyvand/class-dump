@@ -11,8 +11,8 @@
     NSString *_str;
 }
 
-+ (id);
-- (id);
++ (id)canAddOutput:(id)arg1;
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);

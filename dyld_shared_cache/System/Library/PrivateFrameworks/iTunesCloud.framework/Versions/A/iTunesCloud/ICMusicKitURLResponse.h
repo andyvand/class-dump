@@ -6,30 +6,26 @@
 
 #import <iTunesCloud/ICURLResponse.h>
 
-@class NSError, NSString;
+@class NSString;
 
 @interface ICMusicKitURLResponse : ICURLResponse
 {
     NSString *_serverCorrelationKey;
-    NSString *_serverEnvironment;
-    NSError *_serverError;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)_cameraOrthographicFrustumGeometry;
+- (id)FString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}^{__C3DNode}^{__C3DNode}^{__C3DNode}i{?=(C3DMatrix4x4=[16f][4]{?=[4]})(?=)}^(C3DMatrix4x4)BfQib1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b3b1{?={?=SS}I}^{?}^{__C3DGeometry}^{__C3DDeformerStack}f{?=}}8q16;
 - (void);
+- (id);
 - (id);
+- (id)J;
 - (id);
-- (id);
-- (id);
-- (void)tomaticDownloadMediaKindsRequest;
+- (void)ICUpdateAutomaticDownloadMediaKindsRequest;
 - (id)ic}@ with expiry:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *serverCorrelationKey; // @synthesize serverCorrelationKey=_serverCorrelationKey;
-@property(readonly, copy, nonatomic) NSString *serverEnvironment; // @synthesize serverEnvironment=_serverEnvironment;
-@property(readonly, nonatomic) NSError *serverError; // @synthesize serverError=_serverError;
 
 @end
 

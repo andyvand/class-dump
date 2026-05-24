@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)\;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ion,%@;
 
 @end
 

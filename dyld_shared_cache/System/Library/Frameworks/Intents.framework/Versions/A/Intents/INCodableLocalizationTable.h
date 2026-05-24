@@ -9,28 +9,26 @@
 @interface INCodableLocalizationTable
 {
     NSString *_bundleIdentifier;
-    NSString *_tableName;
 }
 
 + (_Bool);
-+ (id)nt:(id)arg1 sender:(id *)arg2 recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType:referencedMessage: /* Error: Ran out of types for this method. */;
++ (id)initWithIdentifier:(id)arg1 conversationIdentifier:(id *)arg2 content:dateSent:sender:recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType:referencedMessage: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)_GCDevicePhysicalInputCapacitiveDirectionPadElement;
+- (id)ԍ;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__addAskToShareFromAppTimestampWithClientID:(id)arg1;
+- (void)rKey:(id)arg1 (id)[self getServiceTypeStringFor:serviceType]] == nil /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id)Ñ¾(°1Â0@ù
 × ;
-- (void)heduleOptions;
+- (void)clearAlarmRepeatScheduleOptions;
 - (void)it.intent.payments.TransferMoneyIntentResponse;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

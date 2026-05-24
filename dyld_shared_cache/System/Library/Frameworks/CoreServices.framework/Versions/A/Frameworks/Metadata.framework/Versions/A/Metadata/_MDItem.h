@@ -8,24 +8,20 @@ __attribute__((visibility("hidden")))
 @interface _MDItem
 {
     unsigned int _rc;
-    unsigned int _storeTag;
-    long long _oid;
-    unsigned int _contentTypeUnique;
-    unsigned int _textEncodingHint;
 }
 
 + (void);
-- (id);
+- (id)ic}@;
 - (unsigned int);
-- (long long);
+- (long long)roups:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (oneway void);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)9C;
 - (id);
-- (void);
+- (void),;
 - (id);
 - (unsigned long long);
 

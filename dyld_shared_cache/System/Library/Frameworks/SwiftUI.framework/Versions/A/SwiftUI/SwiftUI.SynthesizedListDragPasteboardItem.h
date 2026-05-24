@@ -11,8 +11,8 @@
     id indexPath;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)width;
 - (id);
 - (id);
 - (id);

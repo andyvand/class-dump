@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface EKRecurrenceIdentifier
 {
     NSString *_localUID;
-    NSDate *_recurrenceDate;
-    NSString *_identifierString;
 }
 
++ (id)localOutputDevice %{public}@ for context:(id)arg1 %{public}@;
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (const char *);
-+ (id);
++ (_Bool)own(%ld);
++ (id)ueRequestRef, MRPlaybackQueueRequestRef);
++ (id)Ref);
++ (const char *)languageOption;
++ (id)invalidateBrowsableContentDataSource;
 - (void);
 - (void);
 - (id);
@@ -33,9 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifierString; // @synthesize identifierString=_identifierString;
 @property(retain) NSString *localUID; // @synthesize localUID=_localUID;
-@property(retain) NSDate *recurrenceDate; // @synthesize recurrenceDate=_recurrenceDate;
 
 @end
 

@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, SFCredentialProviderExtensionState;
+@class NSString, SFCredentialProviderExtensionState;
 
 @interface SFCredentialIdentity
 {
     NSString *_domainWithoutWWWDot;
-    long long _rowIdentifier;
-    long long _serviceIdentifierType;
-    NSString *_serviceIdentifier;
-    NSString *_externalRecordIdentifier;
-    NSString *_user;
-    long long _rank;
-    NSString *_serviceDisplayName;
-    SFCredentialProviderExtensionState *_owningExtensionState;
 }
 
-+ (_Bool);
++ (_Bool)inputCalibrationIlluminant2;
 - (long long);
+- (void);
 - (void);
-- (void);
+- (long long);
 - (long long);
-- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�bB@9O;
 - (id);
 - (long long);
 - (id);
@@ -41,40 +33,18 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)",&,N;
 - (void);
-- (id);
+- (id)updateAssetDownloadPreflighted;
 - (id);
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)h;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isExternal) _Bool external;
-@property(readonly, nonatomic) NSString *externalProviderBundleID;
-@property(readonly, nonatomic) NSString *externalProviderExtensionBundleID;
-@property(readonly, copy, nonatomic) NSString *externalRecordIdentifier; // @synthesize externalRecordIdentifier=_externalRecordIdentifier;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SFCredentialProviderExtensionState *owningExtensionState; // @synthesize owningExtensionState=_owningExtensionState;
-@property(readonly, copy, nonatomic) NSString *password;
-@property(readonly, nonatomic) long long rank; // @synthesize rank=_rank;
-@property(nonatomic) long long rowIdentifier; // @synthesize rowIdentifier=_rowIdentifier;
-@property(readonly, copy, nonatomic) NSString *serviceDisplayName; // @synthesize serviceDisplayName=_serviceDisplayName;
-@property(readonly, copy, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly, nonatomic) long long serviceIdentifierType; // @synthesize serviceIdentifierType=_serviceIdentifierType;
-@property(readonly, copy, nonatomic) NSString *site;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type;
-@property(readonly, copy, nonatomic) NSString *user; // @synthesize user=_user;
-@property(readonly, nonatomic) long long wbsServiceIdentifierType;
 
 @end
 

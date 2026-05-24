@@ -7,8 +7,6 @@
 @interface HMDRemoteMessageTxReportLogEvent
 {
     int transportType;
-    double latency;
-    long long retriesUsed;
 }
 
 + (id);
@@ -16,12 +14,10 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)	;
 - (int)è¸@;
 
 // Remaining properties
-@property(nonatomic, readonly) double latency; // @synthesize latency;
-@property(nonatomic, readonly) long long retriesUsed; // @synthesize retriesUsed;
 @property(nonatomic, readonly) int transportType; // @synthesize transportType;
 
 @end

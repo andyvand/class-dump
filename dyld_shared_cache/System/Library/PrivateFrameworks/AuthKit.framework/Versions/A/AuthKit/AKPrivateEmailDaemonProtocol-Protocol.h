@@ -5,5 +5,7 @@
 //
 
 @protocol AKPrivateEmailDaemonProtocol
+- (void)%c($;
+- (void);
 @end
 

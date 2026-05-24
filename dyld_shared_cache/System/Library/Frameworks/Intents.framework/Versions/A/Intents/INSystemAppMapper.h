@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface INSystemAppMapper
 {
     struct map<std::string, INSystemApp, std::less<std::string>, std::allocator<std::pair<const std::string, INSystemApp>>> _mapping;
-    NSDictionary *_bundleIdentifierGroupingForIntentExecution;
 }
 
 - (id);
@@ -20,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)neCheckInTime: /* Error: Ran out of types for this method. */;
-- (void)rchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)setOnlineCheckInTime: /* Error: Ran out of types for this method. */;
+- (void)provideObjectTypeOptionsCollectionForSaveHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

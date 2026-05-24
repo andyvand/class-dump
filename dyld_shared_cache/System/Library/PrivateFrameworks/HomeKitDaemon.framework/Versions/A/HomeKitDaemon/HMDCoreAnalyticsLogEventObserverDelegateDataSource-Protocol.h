@@ -8,13 +8,12 @@
 @protocol HMDMetricsDeviceStateProvider;
 
 @protocol HMDCoreAnalyticsLogEventObserverDelegateDataSource
-- (id <HMDMetricsDeviceStateProvider>)ainItem:error: /* Error: Ran out of types for this method. */;
+- (id <HMDMetricsDeviceStateProvider>)deleteKeychainItem:error: /* Error: Ran out of types for this method. */;
 - (HMDAccessory *);
 - (HMDConfigurationLogEvent *)pending select Thread network completion handler exists for staging request UUID:%@ /* Error: Ran out of types for this method. */;
 - (HMDHomeConfigurationLogEvent *)associated accessories:(NSUUID *)arg1 %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDConfigurationLogEvent *cachedConfiguration;
-@property(readonly, nonatomic) id <HMDMetricsDeviceStateProvider> deviceStateProvider;
 @end
 

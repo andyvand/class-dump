@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)fRoutes:(id)arg1;
++ (_Bool)setIncidentsOffRoutes:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Handler:(id)arg1 %{public}@, client PID:%{public}d exited /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)1"read_analyticsCohortSessionURL"b1"read_analyticsLongSessionURL"b1"read_analyticsSessionlessURL"b1"read_analyticsShortSessionURL"b1"read_announcementsURL"b1"read_authProxyURL"b1"read_authenticatedClientFeatureFlagURL"b1"read_backgroundDispatcherURL"b1"read_backgroundRevGeoURL"b1"read_batchReverseGeocoderPlaceRequestURL"b1"read_batchReverseGeocoderURL"b1"read_batchTrafficProbeURL"b1"read_bluePOIDispatcherURL"b1"read_businessPortalBaseURL"b1"read_directionsURL"b1"read_dispatcherURL"b1"read_enrichmentSubmissionURL"b1"read_etaURL"b1"read_feedbackLookupURL"b1"read_feedbackSubmissionURL"b1"read_junctionImageServiceURL"b1"read_logMessageUsageURL"b1"read_logMessageUsageV3URL"b1"read_mapsURLShortenerURL"b1"read_muninBaseURL"b1"read_networkSelectionHarvestURL"b1"read_offlineDataBatchListURL"b1"read_offlineDataDownloadBaseURL"b1"read_offlineDataSizeURL"b1"read_poiBusynessActivityCollectionURL"b1"read_polyLocationShiftURL"b1"read_pressureProbeDataURL"b1"read_proactiveAppClipURL"b1"read_proactiveRoutingURL"b1"read_problemCategoriesURL"b1"read_problemOptInURL"b1"read_problemStatusURL"b1"read_problemSubmissionURL"b1"read_rapWebBundleURL"b1"read_realtimeTrafficProbeURL"b1"read_resourcesURL"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_tokenAuthenticationURL"b1"read_ugcLogDiscardURL"b1"read_webModuleBaseURL"b1"read_wifiConnectionQualityProbeURL"b1"read_wifiQualityTileURL"b1"read_wifiQualityURL"b1"wrote_anyField"b1};
-- (id)uidance;
+- (id)_lightGuidance;
 - (id)Øõ°ö;
-- (id)nd_muid;
+- (id)child_brand_muid;
 
 @end
 

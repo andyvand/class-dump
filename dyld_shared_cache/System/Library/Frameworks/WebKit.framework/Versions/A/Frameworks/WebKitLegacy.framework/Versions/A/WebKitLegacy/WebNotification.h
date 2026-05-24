@@ -16,17 +16,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ʬ;
 - (id);
-- (void);
+- (void)%{public}@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (id)ange async callback;
+- (id){__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}^{__IOSurface}[32^{__IOSurface}][32^{__IOSurface}]{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}{VirtANEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}32;
+- (id)saveAppleAccountIdentifierWithAlternateDSIDForCurrentDevice:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

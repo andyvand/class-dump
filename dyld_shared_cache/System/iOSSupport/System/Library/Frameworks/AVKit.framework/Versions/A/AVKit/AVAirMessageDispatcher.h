@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAirTransport, AVBonjourServiceClient, NSNetService, NSString;
+@class AVAirTransport;
 @protocol AVAirMessageDispatcherClientDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVAirMessageDispatcher
 {
     id <AVAirMessageDispatcherClientDelegate> _delegate;
-    NSNetService *_currentNetService;
-    AVAirTransport *_channel;
-    AVBonjourServiceClient *_bonjourServiceClient;
 }
 
 + (_Bool);
@@ -31,23 +28,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)r:No preferred language is set. /* Error: Ran out of types for this method. */;
 - (void)8@"<UIViewControllerContextTransitioning>"16;
 
 // Remaining properties
-@property(readonly, nonatomic) AVBonjourServiceClient *bonjourServiceClient; // @synthesize bonjourServiceClient=_bonjourServiceClient;
 @property(retain, nonatomic) AVAirTransport *channel; // @synthesize channel=_channel;
-@property(retain, nonatomic) NSNetService *currentNetService; // @synthesize currentNetService=_currentNetService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVAirMessageDispatcherClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool haveAirPlayService;
-@property(readonly) Class superclass;
 
 @end
 

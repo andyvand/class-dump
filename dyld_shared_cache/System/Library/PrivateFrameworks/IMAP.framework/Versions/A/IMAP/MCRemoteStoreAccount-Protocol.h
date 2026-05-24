@@ -5,7 +5,8 @@
 //
 
 @protocol MCRemoteStoreAccount
-- (long long)ggedResponses;
+- (void)MailStorageManagement;
+- (long long)_untaggedResponses;
 
 // Remaining properties
 @property long long cachePolicy;

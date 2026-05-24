@@ -4,39 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedMessageID, EMCategory, EMFollowUp, EMGeneratedSummary, EMReadLater, EMSearchableMessageID, NSData, NSDate, NSDictionary, NSString, NSURL;
-@protocol EDAccount;
+@class EMFollowUp, NSDictionary, NSString;
 
 @protocol EDPersistedMessage
+- (void)-;
+- (void);
+- (EMFollowUp *);
+- (NSDictionary *);
+- (long long);
+- (void)C;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDAccount> accountForSender;
-@property long long authenticationState;
-@property(readonly, nonatomic) NSURL *basePath;
-@property(readonly, nonatomic) NSData *brandIndicator;
-@property(readonly, nonatomic) NSURL *brandIndicatorLocation;
-@property(readonly) long long businessID;
-@property(readonly, copy) NSString *businessLogoID;
-@property(readonly) EMCategory *category;
-@property(readonly) unsigned long long conversationFlags;
-@property(readonly, copy, nonatomic) NSDictionary *dataDetectionAttributes;
-@property(retain) NSDate *displayDate;
-@property(retain) EMFollowUp *followUp;
-@property(copy) EMGeneratedSummary *generatedSummary;
-@property(readonly, nonatomic) long long globalMessageID;
-@property(readonly, nonatomic) _Bool isJournaled;
-@property(nonatomic) _Bool isUrgent;
-@property(readonly) long long mailboxID;
-@property(readonly, nonatomic) NSURL *mailboxURL;
-@property(readonly, nonatomic, getter=isMessageContentLocallyAvailable) _Bool messageContentLocallyAvailable;
-@property(readonly, nonatomic) NSString *notificationID;
-@property(readonly, copy, nonatomic) EDPersistedMessageID *persistedMessageID;
 @property(readonly, copy, nonatomic) NSString *persistentID;
-@property(retain) EMReadLater *readLater;
-@property(readonly, copy, nonatomic) EMSearchableMessageID *searchableMessageID;
-@property(retain) NSDate *sendLaterDate;
-@property(readonly, nonatomic) long long senderBucket;
-@property(readonly, copy) NSString *summary;
-@property(readonly, nonatomic) long long unsubscribeType;
 @end
 

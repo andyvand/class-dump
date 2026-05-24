@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UICollectionView, UICollectionViewCell, UIScrollView, UISearchController, UITextSuggestion;
+@protocol UISearchSuggestion;
+
 @protocol _UISearchControllerDelegatePrivate
+
+@optional
+- (void)handler:(UIScrollView *)arg1 receivedJunkChatCommand:fromIdentifier:toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
+- (void)Token:(UICollectionView *)arg1 messageGUID:(UICollectionViewCell *)arg2 timeStamp:(NSIndexPath *)arg3 isBeingReplayed:storageContext: /* Error: Ran out of types for this method. */;
+- (void)ext:(UICollectionView *)arg1;
+- (void)handler:(UISearchController *)arg1 localMessageSent:(UITextSuggestion *)arg2 wasInterworked:encrypted:storageContext: /* Error: Ran out of types for this method. */;
+- (void)handler:(UISearchController *)arg1 localMessageRead:(id <UISearchSuggestion>)arg2 readByMe:(NSIndexPath *)arg3 timeStamp:storageContext: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)@;
 @end
 

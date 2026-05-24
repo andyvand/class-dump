@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMMediaSystemData.h>
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface HMMutableMediaSystemData : HMMediaSystemData
 {
@@ -15,11 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSUUID *associatedGroupIdentifier; // @dynamic associatedGroupIdentifier;
-@property(getter=isDefaultName) _Bool defaultName; // @dynamic defaultName;
-@property(copy) NSUUID *leftDestinationIdentifier; // @dynamic leftDestinationIdentifier;
 @property(copy) NSString *name; // @dynamic name;
-@property(copy) NSUUID *rightDestinationIdentifier; // @dynamic rightDestinationIdentifier;
 
 @end
 

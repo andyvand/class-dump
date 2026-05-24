@@ -6,53 +6,44 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface EXPSiriSchemaEXPClientSiriRequestExperimentTriggeredTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_allocations;
-    SISchemaUUID *_codepathId;
-    SISchemaUUID *_requestId;
-    _Bool _hasCodepathId;
-    _Bool _hasRequestId;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (id)+;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R";
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)legate on modified IAPNavigationAccessory:(id)arg1 %@ didEnableNavigationUpdatesForComponent:%@ /* Error: Ran out of types for this method. */;
+- (id)lic}@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)X7;
 - (id)nDurationInSeconds"b1"audioSource"b1"isBluetoothSpeakerActive"b1"isBuiltInSpeakerActive"b1};
-- (id)ceResolutionRequestStarted;
+- (id)POMMESSchemaPOMMESProfileSliceResolutionRequestStarted;
 - (id)(­;
 - (void)µo%;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allocations; // @synthesize allocations=_allocations;
-@property(retain, nonatomic) SISchemaUUID *codepathId; // @synthesize codepathId=_codepathId;
-@property(nonatomic) _Bool hasCodepathId; // @synthesize hasCodepathId=_hasCodepathId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 
 @end
 

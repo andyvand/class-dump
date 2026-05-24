@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol IAXPCProtocol, OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface IAAccountCollector
 {
     NSXPCConnection *_connection;
-    id <IAXPCProtocol> _agent;
-    NSObject<OS_dispatch_queue> *_replyQueue;
 }
 
 + (id);
@@ -30,9 +27,10 @@
 - (void);
 - (id);
 - (id);
+- (void)-
++;
 - (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -44,7 +42,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)&;
 - (void);
 - (void);
 - (id);

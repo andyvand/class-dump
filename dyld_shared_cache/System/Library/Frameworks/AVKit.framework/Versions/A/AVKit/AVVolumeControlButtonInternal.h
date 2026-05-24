@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AVVolumeControlButton *volumeButton; // @synthesize volumeButton=_volumeButton;

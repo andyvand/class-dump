@@ -7,9 +7,6 @@
 @interface TeaUI.AdsLocationServicesViewController
 {
     id iconView;
-    id continueCallback;
-    id manageCallback;
-    id onboardingFlowDelegate;
 }
 
 - (void);
@@ -18,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (void)osition: /* Error: Ran out of types for this method. */;
+- (void)updateInteractiveMovementTargetPosition: /* Error: Ran out of types for this method. */;
 - (void)âüÿLãüÿtãüÿãüÿÔãüÿìãüÿäüÿhäüÿÀäüÿøäüÿPåüÿ<æüÿTæüÿæüÿÔæüÿçüÿxçüÿÜçüÿxèüÿ°èüÿèèüÿéüÿPéüÿéüÿÌéüÿäéüÿüéüÿêüÿ,êüÿLêüÿlêüÿêüÿ¬êüÿÄêüÿÜêüÿôêüÿxëüÿ°ëüÿèëüÿ;
 
 @end

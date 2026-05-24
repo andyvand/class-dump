@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSProcessAssertion, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSFileAccessAsynchronousProcessAssertion
 {
     int _pid;
-    NSString *_name;
-    BKSProcessAssertion *_assertion;
 }
 
 - (void);
 - (int);
 - (void);
 - (void);
-- (id);
+- (id)#;
 
 // Remaining properties
 @property(readonly) int PID; // @synthesize PID=_pid;

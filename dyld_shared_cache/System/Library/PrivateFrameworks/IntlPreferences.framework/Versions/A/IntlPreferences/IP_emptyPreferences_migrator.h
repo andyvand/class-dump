@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)antialiasingLevels;
 
 @end
 

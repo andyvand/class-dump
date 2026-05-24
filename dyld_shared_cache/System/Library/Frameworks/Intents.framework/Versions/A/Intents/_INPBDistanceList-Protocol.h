@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCondition;
+@class _INPBCondition;
 
 @protocol _INPBDistanceList
+- (void)#;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition;
-@property(copy, nonatomic) NSArray *distances;
-@property(readonly, nonatomic) unsigned long long distancesCount;
-@property(readonly, nonatomic) _Bool hasCondition;
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorTranscriptBackgroundCommand, IMDAccount, IMDServiceSession, NSString;
+@class IMDAccount, IMDServiceSession, NSString;
 
 @protocol IMTranscriptBackgroundCommandProcessingParameter
+- (NSString *)_֮?;
+- (IMDServiceSession *);
+- (NSString *);
+- (IMDAccount *)!;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account;
 @property(copy, nonatomic) NSString *fromIdentifier;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(retain, nonatomic) IMDServiceSession *serviceSession;
-@property(copy, nonatomic) NSString *toIdentifier;
-@property(retain, nonatomic) BlastDoorTranscriptBackgroundCommand *transcriptBackgroundCommand;
 @end
 

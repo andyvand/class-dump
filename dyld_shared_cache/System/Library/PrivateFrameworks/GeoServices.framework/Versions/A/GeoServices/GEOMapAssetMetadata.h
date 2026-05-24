@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOMapAssetMetadata
 {
     NSArray *_tiles;
-    _Bool _enableASTCTextures;
 }
 
 - (id);

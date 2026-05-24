@@ -7,16 +7,6 @@
 @interface RemindersUICore.TTRWrappingArrangement
 {
     id containerView;
-    id visibleArrangedSubviews;
-    id bounds;
-    id horizontalSpacing;
-    id verticalSpacing;
-    id maxRowCount;
-    id firstRowReferenceItem;
-    id viewsRequiringNewRows;
-    id customSpacingByView;
-    id layout;
-    id currentRow;
 }
 
 @end

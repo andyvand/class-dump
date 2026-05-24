@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSRegularExpression, NSString;
+@class NSString;
 
 @interface AFPhonemeMapper
 {
     NSString *_languageCode;
-    NSDictionary *_phonemeMap;
-    NSRegularExpression *_regex;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (void)actName;
 
 @end

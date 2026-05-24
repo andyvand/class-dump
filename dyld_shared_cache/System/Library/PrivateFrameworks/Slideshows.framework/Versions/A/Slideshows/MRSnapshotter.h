@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRRenderer, MRTexture;
+@class MRRenderer;
 
 @interface MRSnapshotter
 {
     MRRenderer *_renderer;
-    struct _CGLContextObject *_context;
-    struct _CGLPixelFormatObject *_pixelFormat;
-    MRTexture *_texture;
-    _Bool _ignoresFadeInAndOut;
-    struct CGSize _size;
 }
 
 + (id);
 - (double);
+- (void)%@m
+-Am;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (void);
-- (struct CGImage *);
-- (struct CGImage *);
+- (void)k/Versions/A/Accelerate;
+- (id)onQueue;
+- (id)"NSDictionary",R,C,N;
+- (_Bool)`;
+- (double)countryCode;
 - (void);
 - (struct CGImage *);
+- (struct CGImage *);
 - (void);
-- (double);
+- (struct CGImage *);
+- (void);
+- (double);
 - (void);
 - (void);
 - (_Bool);
@@ -40,13 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColorSpace *colorSpace;
-@property(nonatomic) double fadeOutDuration;
-@property(nonatomic) double fadeOutStartTime;
-@property(nonatomic) _Bool ignoresFadeInAndOut; // @synthesize ignoresFadeInAndOut=_ignoresFadeInAndOut;
-@property(nonatomic) _Bool isFlipped;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) double timeQuantum;
 
 @end
 

@@ -8,15 +8,12 @@ __attribute__((visibility("hidden")))
 @interface SAWSUpdate
 {
     double _frameStartTime;
-    double _deferStartTime;
-    double _workStartTime;
-    double _workEndTime;
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (unsigned long long);
++ (id)accessibilityModal;
+- (_Bool)S;
+- (unsigned long long);
 - (void);
 - (void);
 

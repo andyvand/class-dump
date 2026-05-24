@@ -7,8 +7,6 @@
 @interface NewsUI2.ArticlesSearchFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
 }
 
 @end

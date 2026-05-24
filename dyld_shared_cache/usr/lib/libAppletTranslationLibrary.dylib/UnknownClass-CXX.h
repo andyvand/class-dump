@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CXX)
-+ (id);
++ (id)A;
 + (id);
 + (id);
 - (basic_string_23c5cf75);

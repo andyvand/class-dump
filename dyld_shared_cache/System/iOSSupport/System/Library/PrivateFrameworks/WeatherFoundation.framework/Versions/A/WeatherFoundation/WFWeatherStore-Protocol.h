@@ -5,5 +5,7 @@
 //
 
 @protocol WFWeatherStore
+- (void);
+- (void)`;
 @end
 

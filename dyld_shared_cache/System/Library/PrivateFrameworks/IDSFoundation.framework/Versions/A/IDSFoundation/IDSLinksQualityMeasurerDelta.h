@@ -11,7 +11,7 @@
     id delta;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void)u.%u;
 - (id);

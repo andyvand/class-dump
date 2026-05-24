@@ -13,19 +13,18 @@
 
 + (Class);
 + (_Bool);
+- (id)"cwd;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (long long);
 - (void);
-- (long long);
-- (long long);
+- (long long)newSamplerStateWithDescriptor: /* Error: Ran out of types for this method. */;
+- (long long)iceOpTyp=%d;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long bitSize;
 @property(readonly, nonatomic) long long blockSize;
 
 @end

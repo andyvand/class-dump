@@ -7,9 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBLocationTypeInfo
+- (NSData *),N,V_folders;
+- (id)P;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *address;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

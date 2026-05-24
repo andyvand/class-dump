@@ -5,5 +5,9 @@
 //
 
 @protocol SGSuggestionPresenterDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

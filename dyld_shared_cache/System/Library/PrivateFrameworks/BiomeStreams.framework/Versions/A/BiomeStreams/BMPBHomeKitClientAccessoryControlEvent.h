@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBAccessoryState, BMPBHomeKitClientBase, NSMutableArray, NSString;
+@class NSString;
 
 @interface BMPBHomeKitClientAccessoryControlEvent
 {
     NSString *_accessoryName;
-    BMPBAccessoryState *_accessoryState;
-    NSString *_accessoryUniqueIdentifier;
-    BMPBHomeKitClientBase *_base;
-    NSString *_characteristicType;
-    NSString *_homeName;
-    NSString *_roomName;
-    NSString *_roomUniqueIdentifier;
-    NSString *_serviceGroupName;
-    NSString *_serviceGroupUniqueIdentifier;
-    NSString *_serviceName;
-    NSString *_serviceType;
-    NSString *_serviceUniqueIdentifier;
-    NSMutableArray *_zoneNames;
-    NSMutableArray *_zoneUniqueIdentifiers;
 }
 
 + (Class);
@@ -36,14 +22,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -65,23 +51,23 @@
 - (id);
 - (void);
 - (id);
+- (void)T;
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (unsigned long long),;
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void)lastPathComponent;
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)gEvent;
+- (_Bool)BMPBUserProofingEvent;
 - (void)Yä;
 - (id);
 - (id);
@@ -90,34 +76,7 @@
 - (id)KI&;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
-@property(retain, nonatomic) BMPBAccessoryState *accessoryState; // @synthesize accessoryState=_accessoryState;
-@property(retain, nonatomic) NSString *accessoryUniqueIdentifier; // @synthesize accessoryUniqueIdentifier=_accessoryUniqueIdentifier;
-@property(retain, nonatomic) BMPBHomeKitClientBase *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;
-@property(readonly, nonatomic) _Bool hasAccessoryName;
-@property(readonly, nonatomic) _Bool hasAccessoryState;
-@property(readonly, nonatomic) _Bool hasAccessoryUniqueIdentifier;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasCharacteristicType;
-@property(readonly, nonatomic) _Bool hasHomeName;
-@property(readonly, nonatomic) _Bool hasRoomName;
-@property(readonly, nonatomic) _Bool hasRoomUniqueIdentifier;
-@property(readonly, nonatomic) _Bool hasServiceGroupName;
-@property(readonly, nonatomic) _Bool hasServiceGroupUniqueIdentifier;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(readonly, nonatomic) _Bool hasServiceType;
-@property(readonly, nonatomic) _Bool hasServiceUniqueIdentifier;
-@property(retain, nonatomic) NSString *homeName; // @synthesize homeName=_homeName;
-@property(retain, nonatomic) NSString *roomName; // @synthesize roomName=_roomName;
-@property(retain, nonatomic) NSString *roomUniqueIdentifier; // @synthesize roomUniqueIdentifier=_roomUniqueIdentifier;
-@property(retain, nonatomic) NSString *serviceGroupName; // @synthesize serviceGroupName=_serviceGroupName;
-@property(retain, nonatomic) NSString *serviceGroupUniqueIdentifier; // @synthesize serviceGroupUniqueIdentifier=_serviceGroupUniqueIdentifier;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(retain, nonatomic) NSString *serviceUniqueIdentifier; // @synthesize serviceUniqueIdentifier=_serviceUniqueIdentifier;
-@property(retain, nonatomic) NSMutableArray *zoneNames; // @synthesize zoneNames=_zoneNames;
-@property(retain, nonatomic) NSMutableArray *zoneUniqueIdentifiers; // @synthesize zoneUniqueIdentifiers=_zoneUniqueIdentifiers;
 
 @end
 

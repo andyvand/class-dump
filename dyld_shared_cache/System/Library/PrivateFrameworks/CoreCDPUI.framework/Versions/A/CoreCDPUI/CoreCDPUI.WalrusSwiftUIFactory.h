@@ -7,7 +7,6 @@
 @interface CoreCDPUI.WalrusSwiftUIFactory
 {
     id advancedDataProtectionViewHandler;
-    id advancedDataProtectionViewModel;
 }
 
 @end

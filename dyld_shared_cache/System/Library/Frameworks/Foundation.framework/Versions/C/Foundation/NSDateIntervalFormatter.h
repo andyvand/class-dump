@@ -6,31 +6,15 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSCalendar, NSLocale, NSString, NSTimeZone;
+@class NSLocale;
 
 @interface NSDateIntervalFormatter : NSFormatter
 {
     NSLocale *_locale;
-    NSCalendar *_calendar;
-    NSTimeZone *_timeZone;
-    NSString *_dateTemplate;
-    NSString *_dateTemplateFromStyles;
-    struct UDateIntervalFormat *_formatter;
-    unsigned long long _dateStyle;
-    unsigned long long _timeStyle;
-    unsigned long long _boundaryStyle;
-    struct os_unfair_lock_s _lock;
-    _Bool _modified;
-    _Bool _useTemplate;
 }
 
 
 // Remaining properties
-@property(copy) NSCalendar *calendar;
-@property unsigned long long dateStyle;
-@property(copy) NSString *dateTemplate;
 @property(copy) NSLocale *locale;
-@property unsigned long long timeStyle;
-@property(copy) NSTimeZone *timeZone;
 @end
 

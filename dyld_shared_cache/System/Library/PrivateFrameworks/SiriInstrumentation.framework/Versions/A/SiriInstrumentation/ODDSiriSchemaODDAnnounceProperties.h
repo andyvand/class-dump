@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDAnnounceProperties : SISchemaInstrumentationMessage
 {
     _Bool _isAnnounceCallsEnabled;
-    _Bool _isAnnounceNotificationsEnabled;
-    _Bool _isProximityCardSeen;
-    _Bool _isReplyWithoutConfirmationEnabled;
-    _Bool _isEnabledForHeadphones;
-    _Bool _isSpokenNotificationsControlCenterModuleEnabled;
-    _Bool _isCarPlayMuted;
-    int _carPlayStatus;
-    struct {
-        unsigned int isAnnounceCallsEnabled:1;
-        unsigned int isAnnounceNotificationsEnabled:1;
-        unsigned int isProximityCardSeen:1;
-        unsigned int isReplyWithoutConfirmationEnabled:1;
-        unsigned int isEnabledForHeadphones:1;
-        unsigned int isSpokenNotificationsControlCenterModuleEnabled:1;
-        unsigned int isCarPlayMuted:1;
-        unsigned int carPlayStatus:1;
-    } _has;
 }
 
 - (void);
@@ -37,20 +18,20 @@
 - (void);
 - (void);
 - (void);
+- (void)ki;
+- (void)BA9;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)9(;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -82,23 +63,7 @@
 - (id)yCallContext",&,N,V_executorPersonQueryCallContext;
 
 // Remaining properties
-@property(nonatomic) int carPlayStatus; // @synthesize carPlayStatus=_carPlayStatus;
-@property(nonatomic) _Bool hasCarPlayStatus;
-@property(nonatomic) _Bool hasIsAnnounceCallsEnabled;
-@property(nonatomic) _Bool hasIsAnnounceNotificationsEnabled;
-@property(nonatomic) _Bool hasIsCarPlayMuted;
-@property(nonatomic) _Bool hasIsEnabledForHeadphones;
-@property(nonatomic) _Bool hasIsProximityCardSeen;
-@property(nonatomic) _Bool hasIsReplyWithoutConfirmationEnabled;
-@property(nonatomic) _Bool hasIsSpokenNotificationsControlCenterModuleEnabled;
 @property(nonatomic) _Bool isAnnounceCallsEnabled; // @synthesize isAnnounceCallsEnabled=_isAnnounceCallsEnabled;
-@property(nonatomic) _Bool isAnnounceNotificationsEnabled; // @synthesize isAnnounceNotificationsEnabled=_isAnnounceNotificationsEnabled;
-@property(nonatomic) _Bool isCarPlayMuted; // @synthesize isCarPlayMuted=_isCarPlayMuted;
-@property(nonatomic) _Bool isEnabledForHeadphones; // @synthesize isEnabledForHeadphones=_isEnabledForHeadphones;
-@property(nonatomic) _Bool isProximityCardSeen; // @synthesize isProximityCardSeen=_isProximityCardSeen;
-@property(nonatomic) _Bool isReplyWithoutConfirmationEnabled; // @synthesize isReplyWithoutConfirmationEnabled=_isReplyWithoutConfirmationEnabled;
-@property(nonatomic) _Bool isSpokenNotificationsControlCenterModuleEnabled; // @synthesize isSpokenNotificationsControlCenterModuleEnabled=_isSpokenNotificationsControlCenterModuleEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

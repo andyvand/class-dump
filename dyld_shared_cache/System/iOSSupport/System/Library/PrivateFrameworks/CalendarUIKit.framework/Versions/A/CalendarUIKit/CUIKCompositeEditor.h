@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface CUIKCompositeEditor
 {
     NSArray *_editors;
-    NSDictionary *_options;
 }
 
 - (_Bool);
@@ -39,16 +38,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)ltsPending;
+- (void)resultsPending;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

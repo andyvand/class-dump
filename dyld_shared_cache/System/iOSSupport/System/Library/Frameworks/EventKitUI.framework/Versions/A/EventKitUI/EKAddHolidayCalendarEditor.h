@@ -6,33 +6,23 @@
 
 #import <EventKitUI/EKAbstractCalendarEditor.h>
 
-@class CUIKSubscribedHolidayCalendar, EKSource, EKSubscribedCalendarEditor, NSArray, NSSet, NSString, UIActivityIndicatorView, UILabel, UISearchController, UIView;
+@class NSArray;
 
 @interface EKAddHolidayCalendarEditor : EKAbstractCalendarEditor
 {
     NSArray *_calendarData;
-    NSArray *_filteredCalendarData;
-    NSSet *_alreadySubscribedCalendarURLStrings;
-    CUIKSubscribedHolidayCalendar *_selectedCalendarDatum;
-    EKSubscribedCalendarEditor *_subscriptionEditor;
-    UISearchController *_searchController;
-    UIView *_standbyScreen;
-    UILabel *_standbyMessageLabel;
-    UIActivityIndicatorView *_spinner;
-    EKSource *_limitedToSource;
-    unsigned long long _entityType;
 }
 
-- (id);
+- (id)(s;
 - (id);
 - (_Bool);
+- (void);
+- (struct CGSize)s;
+- (void)%s;
+- (void)s;
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -41,22 +31,16 @@
 - (void);
 - (id);
 - (id);
+- (long long)0$�e;
+- (void)@@"NSNumber";
+- (void);
 - (long long);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void)ller;
+- (void)isMovingFromParentViewController;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMClientContext, HMReportContext, NSArray;
+@class NSArray;
 
 @interface HMBatchRequest
 {
     NSArray *_requests;
-    HMClientContext *_clientContext;
-    HMReportContext *_reportContext;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (_Bool);
@@ -33,10 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMClientContext *clientContext; // @synthesize clientContext=_clientContext;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(retain, nonatomic) HMReportContext *reportContext; // @synthesize reportContext=_reportContext;
 @property(retain, nonatomic) NSArray *requests; // @synthesize requests=_requests;
 
 @end

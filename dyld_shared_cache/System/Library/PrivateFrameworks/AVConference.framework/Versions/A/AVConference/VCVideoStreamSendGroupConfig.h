@@ -12,20 +12,17 @@ __attribute__((visibility("hidden")))
 @interface VCVideoStreamSendGroupConfig : VCMediaStreamSendGroupConfig
 {
     int _captureSource;
-    VCSessionUplinkVideoStreamController *_uplinkVideoStreamController;
-    _Bool _shouldSynchronizeSystemAudioStartWithAVCScreenCapture;
 }
 
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldSynchronizeSystemAudioStartWithAVCScreenCapture; // @synthesize shouldSynchronizeSystemAudioStartWithAVCScreenCapture=_shouldSynchronizeSystemAudioStartWithAVCScreenCapture;
 @property(retain, nonatomic) VCSessionUplinkVideoStreamController *uplinkVideoStreamController; // @synthesize uplinkVideoStreamController=_uplinkVideoStreamController;
 
 @end

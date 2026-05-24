@@ -5,16 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface _CFPrefsSynchronizer
 {
     NSObject<OS_dispatch_source> *_synchTimer;
-    NSObject<OS_dispatch_queue> *_synchQueue;
-    struct __CFSet *_dirtySources;
-    struct os_unfair_lock_s _CFPrefsDirtySourcesLock;
-    _Bool _active;
 }
 
 - (id);

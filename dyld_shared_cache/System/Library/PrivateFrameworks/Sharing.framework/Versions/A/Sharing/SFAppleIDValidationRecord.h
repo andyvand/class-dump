@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface SFAppleIDValidationRecord
 {
     NSString *_altDSID;
-    NSData *_data;
-    NSString *_identifier;
-    NSDate *_nextCheckDate;
-    unsigned long long _suggestedValidDuration;
-    NSArray *_validatedEmailHashes;
-    NSArray *_validatedPhoneHashes;
-    NSDate *_validStartDate;
-    NSNumber *_version;
 }
 
 + (_Bool);
@@ -24,8 +16,8 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)P;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -52,16 +44,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(readonly, nonatomic) _Bool needsUpdate;
-@property(retain, nonatomic) NSDate *nextCheckDate; // @synthesize nextCheckDate=_nextCheckDate;
-@property(nonatomic) unsigned long long suggestedValidDuration; // @synthesize suggestedValidDuration=_suggestedValidDuration;
-@property(retain, nonatomic) NSDate *validStartDate; // @synthesize validStartDate=_validStartDate;
-@property(retain, nonatomic) NSArray *validatedEmailHashes; // @synthesize validatedEmailHashes=_validatedEmailHashes;
-@property(retain, nonatomic) NSArray *validatedPhoneHashes; // @synthesize validatedPhoneHashes=_validatedPhoneHashes;
-@property(retain, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

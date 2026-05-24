@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCPbSigConfigWhitelist, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ABCPbSigGrantResponse
 {
     int _globalDecision;
-    ABCPbSigConfigWhitelist *_sigConfigWhitelist;
-    NSMutableArray *_sigResponses;
-    NSString *_status;
-    CDStruct_121d7f17 _has;
 }
 
-+ (Class);
++ (Class);
 - (unsigned long long);
 - (id);
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,33 +28,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ainingSecondsToNextMinute >= 0 && remainingSecondsToNextMinute <= 60;
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)o;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int globalDecision; // @synthesize globalDecision=_globalDecision;
-@property(nonatomic) _Bool hasGlobalDecision;
-@property(readonly, nonatomic) _Bool hasSigConfigWhitelist;
-@property(readonly, nonatomic) _Bool hasStatus;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ABCPbSigConfigWhitelist *sigConfigWhitelist; // @synthesize sigConfigWhitelist=_sigConfigWhitelist;
-@property(retain, nonatomic) NSMutableArray *sigResponses; // @synthesize sigResponses=_sigResponses;
-@property(retain, nonatomic) NSString *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

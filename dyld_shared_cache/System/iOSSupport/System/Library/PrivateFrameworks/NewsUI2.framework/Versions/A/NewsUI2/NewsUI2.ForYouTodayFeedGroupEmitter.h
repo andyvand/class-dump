@@ -7,16 +7,6 @@
 @interface NewsUI2.ForYouTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id paidAccessChecker;
-    id personalizationService;
-    id headlineService;
-    id feedPersonalizer;
-    id cloudContext;
-    id sportsGraphManager;
-    id articleForYouAvailability;
-    id name;
 }
 
 @end

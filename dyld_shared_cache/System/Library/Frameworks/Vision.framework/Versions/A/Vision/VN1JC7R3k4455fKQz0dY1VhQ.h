@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)24@?0@"CNCountryInformation"8@"CNCountryInformation"16;
 - (id);
 - (_Bool)0;
 

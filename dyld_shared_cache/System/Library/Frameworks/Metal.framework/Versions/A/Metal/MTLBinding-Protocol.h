@@ -7,14 +7,10 @@
 @class NSString;
 
 @protocol MTLBinding
-- (_Bool)VH_NODES;
+- (_Bool);
+- (_Bool)KERNEL_INDEX_CREATE_BVH_NODES;
 
 // Remaining properties
-@property(readonly) unsigned long long access;
-@property(readonly, getter=isArgument) _Bool argument;
-@property(readonly) unsigned long long index;
 @property(readonly) NSString *name;
-@property(readonly) long long type;
-@property(readonly, getter=isUsed) _Bool used;
 @end
 

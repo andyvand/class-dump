@@ -6,25 +6,19 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSMutableArray, NSSet, NSString, _PASLock;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@class NSMutableArray, NSSet;
 
 @interface TRISelectRolloutNotificationListTask : TRIBaseTask
 {
     NSMutableArray *_nextTasks;
-    id <TRITaskAttributing> _taskAttribution;
-    _PASLock *_lock;
-    _Bool wasDeferred;
-    int retryCount;
-    NSSet *_namespaceNames;
 }
 
 + (id);
-+ (id);
++ (id)targetProcessBundleSourceVersion;
 + (_Bool);
-- (id);
+- (id)file;
 - (CDStruct_6b48f683);
-- (id);
+- (id)s %@ mismatches cache class %@:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,11 +26,11 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Notification"8;
 - (long long);
 - (void);
 - (id)0@ù
@@ -51,22 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *namespaceNames; // @synthesize namespaceNames=_namespaceNames;
-@property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

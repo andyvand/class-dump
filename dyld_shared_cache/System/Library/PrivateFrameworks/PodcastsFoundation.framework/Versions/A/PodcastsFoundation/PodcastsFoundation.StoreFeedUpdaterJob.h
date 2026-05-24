@@ -7,17 +7,6 @@
 @interface PodcastsFoundation.StoreFeedUpdaterJob
 {
     id state;
-    id update;
-    id queue;
-    id completion;
-    id metricsData;
-    id updaterJobUUID;
-    id subinterval;
-    id fullJobInterval;
-    id bagConfiguration;
-    id mediaRequestController;
-    id ingesterProvider;
-    id ctx;
 }
 
 @end

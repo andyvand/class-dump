@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIResponder;
-@protocol UIDeferredMenuElementDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIMenuPreparationContext
 {
     _Bool _supportsCustomViewMenuElements;
-    _Bool _useSenderAsResponderSender;
-    _Bool _supportsHeaderView;
-    _Bool _tracksSelection;
-    id _preparer;
-    UIResponder *_firstResponderTarget;
-    id <UIDeferredMenuElementDelegate> _deferredElementDelegate;
-    id _sender;
-    CDUnknownBlockType _shouldTrackVisibleSelection;
-    CDUnknownBlockType _elementSizeSolver;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)k@;
 - (_Bool);
+- (void)_setAVManagerRequested:(_Bool)arg1 URLToShare: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (_Bool);
+- (id)outgoingResponseIdentifier;
+- (CDUnknownBlockType)localCommandToHandlerBlock;
+- (id)hasFinishedAssetDownloadSync;
+- (void)ription, we'll still try to write the exit record as we'll retry updating the subscription on imagent launch;
+- (_Bool)d override:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ningVelocityThreshold;
 - (id)CollectionViewAnimationContext *__strong _Nonnull, __strong id<_UICollectionViewUpdateExpandCollapseAnimationContext> _Nonnull);
@@ -46,16 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)°ß,b;
 
 // Remaining properties
-@property(nonatomic) __weak id <UIDeferredMenuElementDelegate> deferredElementDelegate; // @synthesize deferredElementDelegate=_deferredElementDelegate;
-@property(copy, nonatomic) CDUnknownBlockType elementSizeSolver; // @synthesize elementSizeSolver=_elementSizeSolver;
-@property(readonly, nonatomic) __weak UIResponder *firstResponderTarget; // @synthesize firstResponderTarget=_firstResponderTarget;
 @property(readonly, nonatomic) __weak id preparer; // @synthesize preparer=_preparer;
-@property(nonatomic) __weak id sender; // @synthesize sender=_sender;
-@property(copy, nonatomic) CDUnknownBlockType shouldTrackVisibleSelection; // @synthesize shouldTrackVisibleSelection=_shouldTrackVisibleSelection;
-@property(nonatomic) _Bool supportsCustomViewMenuElements; // @synthesize supportsCustomViewMenuElements=_supportsCustomViewMenuElements;
-@property(nonatomic) _Bool supportsHeaderView; // @synthesize supportsHeaderView=_supportsHeaderView;
-@property(nonatomic) _Bool tracksSelection; // @synthesize tracksSelection=_tracksSelection;
-@property(nonatomic) _Bool useSenderAsResponderSender; // @synthesize useSenderAsResponderSender=_useSenderAsResponderSender;
 
 @end
 

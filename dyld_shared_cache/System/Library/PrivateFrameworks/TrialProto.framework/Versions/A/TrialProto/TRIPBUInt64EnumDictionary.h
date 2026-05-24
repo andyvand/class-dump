@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt64EnumDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
-    CDUnknownFunctionPointerType _validationFunc;
 }
 
-- (id);
+- (id)schedulePasswordMovedToRecentlyDeletedNotificationForApp:(CDUnknownFunctionPointerType)arg1 domain:(const int *)arg2 userName:(const unsigned long long *)arg3 shouldUseRelyingPartyForServiceName:(unsigned long long)arg4 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)STBlueprintUsageLimitScheduleSimpleItem;
 - (id);
 - (CDUnknownFunctionPointerType);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ddedAssetsPercentage;
 - (void);
 - (id);
 - (void);
@@ -42,7 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType validationFunc; // @synthesize validationFunc=_validationFunc;
 
 @end
 

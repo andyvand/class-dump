@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (long long);
@@ -27,11 +27,11 @@
 + (void);
 + (void);
 + (void);
++ (void);
++ (void)P;
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)T;
 + (void);
 + (void);
 + (void);
@@ -55,7 +55,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)Ի&_;
 + (_Bool);
 + (long long);
 + (long long);
@@ -75,7 +75,17 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -93,21 +103,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (void)q!;
 + (void);
 + (void);
-+ (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (void);

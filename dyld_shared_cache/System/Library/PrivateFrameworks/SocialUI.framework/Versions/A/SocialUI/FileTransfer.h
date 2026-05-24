@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, IMServiceImpl, NSImage, NSNumber, NSString, NSURL;
+@class NSNumber, NSString;
 
 @interface FileTransfer
 {
     NSString *_displayNameCache;
-    NSImage *_icon;
-    NSImage *_previewImage;
-    IMHandle *_otherIMHandle;
-    unsigned int _iconWasGuessedFromTransferInformation:1;
-    NSString *_livePhotoImagePath;
-    NSString *_livePhotoVideoPath;
-    NSURL *_livePhotoBundleURL;
-    NSNumber *_photosAutoloopVideoValue;
-    NSNumber *_qtAutoloopVideoValue;
-    _Bool _hasGeneratedPreviewImage;
-    _Bool _isCopying;
-    IMServiceImpl *_service;
-    NSNumber *_map;
-    NSNumber *_pass;
-    NSNumber *_walletOrder;
-    NSNumber *_image;
-    NSNumber *_movie;
-    NSNumber *_animatedEmoji;
-    NSNumber *_livePhoto;
 }
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)C;
 - (id);
 - (void);
 - (void);
@@ -64,22 +45,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)ha;
+- (_Bool)˟;
+- (void);
 - (id);
+- (void)typeWithFilenameExtension:(id)arg1;
+- (_Bool)inputSharpenEdgeIntensity;
 - (_Bool);
-- (void);
+- (_Bool)collectionView:moveItemsAtIndexPaths:toIndexPath:dropPosition: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)};
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
-- (void);
+- (void)ineNopCopier] Node operation failed with %d.;
 - (id);
 - (id);
 - (void);
@@ -88,8 +69,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)is_subscribed_to_source_channel;
+- (id)_observableRootViewController;
 - (id);
 - (void);
 - (_Bool);
@@ -98,42 +79,7 @@
 - (void)tûÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *animatedEmoji; // @synthesize animatedEmoji=_animatedEmoji;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isAnimatedEmoji; // @dynamic isAnimatedEmoji;
-@property(readonly, nonatomic) _Bool isCKTapToDownloadImage; // @dynamic isCKTapToDownloadImage;
-@property(nonatomic) _Bool isCopying; // @synthesize isCopying=_isCopying;
-@property(readonly, nonatomic) _Bool isImage; // @dynamic isImage;
-@property(readonly, nonatomic) _Bool isLivePhoto; // @dynamic isLivePhoto;
-@property(readonly, nonatomic) _Bool isMap; // @dynamic isMap;
-@property(readonly, nonatomic) _Bool isMovie; // @dynamic isMovie;
-@property(readonly, nonatomic) _Bool isPass; // @dynamic isPass;
-@property(readonly, nonatomic) _Bool isWalletOrder; // @dynamic isWalletOrder;
-@property(readonly, nonatomic) _Bool isiMessage; // @dynamic isiMessage;
-@property(retain, nonatomic) NSNumber *livePhoto; // @synthesize livePhoto=_livePhoto;
-@property(readonly, nonatomic) NSURL *livePhotoBundleURL; // @dynamic livePhotoBundleURL;
-@property(readonly, nonatomic) NSString *livePhotoImagePath; // @dynamic livePhotoImagePath;
-@property(readonly, nonatomic) NSString *livePhotoVideoPath; // @dynamic livePhotoVideoPath;
 @property(retain, nonatomic) NSNumber *map; // @synthesize map=_map;
-@property(retain, nonatomic) NSNumber *movie; // @synthesize movie=_movie;
-@property(retain, nonatomic) NSNumber *pass; // @synthesize pass=_pass;
-@property(readonly, nonatomic, getter=isPhotosAutoloopVideo) _Bool photosAutoloopVideo;
-@property(readonly) id previewItemDisplayState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R
-
-@property(readonly) NSString *previewItemTitle;
-@property(readonly) NSURL *previewItemURL;
-@property(readonly, getter=isQTAutoloopVideo) _Bool qtAutoloopVideo;
-@property(retain, nonatomic) IMServiceImpl *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *walletOrder; // @synthesize walletOrder=_walletOrder;
 
 @end
 

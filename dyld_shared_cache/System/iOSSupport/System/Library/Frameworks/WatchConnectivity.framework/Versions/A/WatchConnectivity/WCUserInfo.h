@@ -9,8 +9,6 @@
 @interface WCUserInfo
 {
     NSData *_userInfoData;
-    NSDictionary *_userInfo;
-    NSDictionary *_clientUserInfo;
 }
 
 + (_Bool);
@@ -21,17 +19,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
-- (id);
+- (id)0;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *clientUserInfo; // @synthesize clientUserInfo=_clientUserInfo;
 @property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(copy) NSData *userInfoData; // @synthesize userInfoData=_userInfoData;
 
 @end
 

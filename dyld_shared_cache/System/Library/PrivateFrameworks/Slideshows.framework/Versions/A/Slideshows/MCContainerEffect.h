@@ -6,21 +6,16 @@
 
 #import <Slideshows/MCContainer.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSSet, NSString;
+@class NSDictionary, NSMutableArray;
 
 @interface MCContainerEffect : MCContainer
 {
     NSMutableArray *mSlides;
-    NSMutableArray *mTexts;
-    NSMutableDictionary *mActions;
-    NSMutableDictionary *mEffectAttributes;
-    _Bool mIsLive;
-    NSString *mEffectID;
 }
 
 + (id);
-- (id);
-- (void);
+- (id)TelemetryAssembly;
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -37,14 +32,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)7,;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -65,9 +60,9 @@
 - (void);
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -79,18 +74,6 @@
 
 // Remaining properties
 @property(readonly) NSDictionary *actions;
-@property(readonly, nonatomic) unsigned long long countOfActions;
-@property(readonly, nonatomic) unsigned long long countOfSlides;
-@property(readonly, nonatomic) unsigned long long countOfTexts;
-@property(copy) NSDictionary *effectAttributes;
-@property(copy) NSString *effectID; // @synthesize effectID=mEffectID;
-@property(nonatomic) _Bool isLive; // @synthesize isLive=mIsLive;
-@property(readonly, nonatomic) unsigned long long nextAvailableSlideIndex;
-@property(readonly, nonatomic) unsigned long long nextAvailableTextIndex;
-@property(readonly) NSArray *orderedSlides;
-@property(readonly) NSArray *orderedTexts;
-@property(readonly) NSSet *slides;
-@property(readonly) NSSet *texts;
 
 @end
 

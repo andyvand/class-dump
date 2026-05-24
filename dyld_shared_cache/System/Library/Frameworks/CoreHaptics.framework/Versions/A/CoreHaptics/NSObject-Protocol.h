@@ -4,19 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)f order;
+- (id)] is ;
+- (id)ng.;
+- (id)ting too many times in MbrDecode; stopping.;
+- (id)d ;
+- (Class)ide: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool)M;
+- (_Bool)postfixText;
 - (struct _NSZone *))Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

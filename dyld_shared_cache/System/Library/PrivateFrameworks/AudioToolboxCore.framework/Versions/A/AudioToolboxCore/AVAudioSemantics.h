@@ -11,7 +11,7 @@
     NSArray *_channelGroups;
 }
 
-+ (_Bool);
++ (_Bool)8;
 - (void);
 - (id);
 - (id);

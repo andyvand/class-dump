@@ -5,13 +5,11 @@
 //
 
 @class NSMutableArray;
-@protocol CKSMSCompose;
 
 __attribute__((visibility("hidden")))
 @interface CKSMSComposeQueuingRemoteViewControllerProxy
 {
     NSMutableArray *_queuedInvocations;
-    id <CKSMSCompose> _serviceViewControllerProxy;
 }
 
 - (void);
@@ -26,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *queuedInvocations; // @synthesize queuedInvocations=_queuedInvocations;
-@property(retain, nonatomic) id <CKSMSCompose> serviceViewControllerProxy; // @synthesize serviceViewControllerProxy=_serviceViewControllerProxy;
 
 @end
 

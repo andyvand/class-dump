@@ -13,7 +13,7 @@
     NSButton *_button;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id)ñC&1Â0@ù

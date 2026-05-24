@@ -11,36 +11,33 @@
 @interface HMMediaSystemData : HMMediaGroup
 {
     NSUUID *_leftDestinationIdentifier;
-    NSUUID *_rightDestinationIdentifier;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)IOS_iPhoneCodingKeys;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)chambermaid;
+- (void)Z;
 - (id);
 - (id);
 - (void)·;
 
 // Remaining properties
 @property(copy) NSUUID *leftDestinationIdentifier; // @synthesize leftDestinationIdentifier=_leftDestinationIdentifier;
-@property(readonly, copy) NSUUID *legacyIdentifier;
-@property(copy) NSUUID *rightDestinationIdentifier; // @synthesize rightDestinationIdentifier=_rightDestinationIdentifier;
 
 @end
 

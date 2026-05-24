@@ -6,50 +6,12 @@
 
 #import <UIKitCore/UIImageView.h>
 
-@class NSArray, NSString, UIAction, UIView, _UIBadgeView, _UISegmentedControlAppearanceStorage;
-@protocol UISegmentBezelView, _UISegmentedControlContentView;
+@class NSArray, UIView;
 
 __attribute__((visibility("hidden")))
 @interface UISegment : UIImageView
 {
     UIView *_info;
-    UIImageView *_backgroundView;
-    UIView *_selectionIndicatorView;
-    UIImageView *_selectionImageView;
-    UIView *_focusIndicatorView;
-    UIView<UISegmentBezelView> *_bezelView;
-    _UISegmentedControlAppearanceStorage *_appearanceStorage;
-    UIView<_UISegmentedControlContentView> *_infoContentView;
-    double _width;
-    struct CGSize _contentOffset;
-    long long _barStyle;
-    unsigned long long _rightSegmentState;
-    NSString *_badgeValue;
-    _UIBadgeView *_badgeView;
-    id _objectValue;
-    struct {
-        unsigned int size:2;
-        unsigned int selected:1;
-        unsigned int highlighted:1;
-        unsigned int showDivider:1;
-        unsigned int hasImage:1;
-        unsigned int position:3;
-        unsigned int autosizeText:1;
-        unsigned int isMomentary:1;
-        unsigned int wasSelected:1;
-        unsigned int needsBackgroundAndContentViewUpdate:1;
-        unsigned int usesAXTextSize:1;
-        unsigned int selectionIndicatorDragged:1;
-        unsigned int adjustsForContentSizeCategory:1;
-        unsigned int hovered:1;
-        unsigned int animatingSelectionIndicator:1;
-        unsigned int hasCustomInfoView:1;
-        unsigned int hasMaterial:1;
-        unsigned int useSpringBoardVibrancy:1;
-    } _segmentFlags;
-    NSArray *_infoConstraints;
-    UIAction *_action;
-    double _requestedScaleFactor;
 }
 
 + (id);
@@ -61,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Request unexpected NULL channel;
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)setPayloadDisplayName: /* Error: Ran out of types for this method. */;
+- (_Bool)_payloadRoamingConsortiumOIs;
+- (void)CEMSystemNotificationsDeclaration;
 - (_Bool);
 - (void);
 - (void);
@@ -83,14 +45,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
+- (void)http_context}^{mmcs_curl_http_context}^v)};
+- (void)t received. receipt:(struct CATransform3D)arg1 %s sig:(struct CATransform3D)arg2 %s ref:(_Bool)arg3 %s len:(_Bool)arg4 %llu;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (void);
+- (double)setAllowedSectionIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)pinLibraryEntityWithPersistentID:cloudID:type:defaultAction:completion: /* Error: Ran out of types for this method. */;
+- (void)MPPlaybackArchiveErrorDomain;
 - (void);
 - (_Bool);
 - (id);
@@ -104,7 +66,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (id);
+- (id)`;
 - (void);
 - (_Bool);
 - (void)1Â0@ù
@@ -149,27 +111,27 @@ __attribute__((visibility("hidden")))
 - (void):(unsigned int)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16@"UIView"48@"UIView"56;
 - (Class)stingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
 - (void)ize:(_Bool)arg1 forNode:(_Bool)arg2 allowHorizontalScrollbar:allowVerticalScrollbar: /* Error: Ran out of types for this method. */;
-- (_Bool)ysteresisBehaviorWithBeginningVelocity:cancelingVelocity: /* Error: Ran out of types for this method. */;
-- (void)nputModesFromInputModes:(id)arg1;
-- (id)Fulfilled:(unsigned long long)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)ngerAwaitingSystemGestureNotification: /* Error: Ran out of types for this method. */;
-- (void)d;
-- (void)izingChanged;
-- (_Bool)dKeystrokeStatisticForKeyPress;
+- (_Bool)hysteresisBehaviorWithBeginningVelocity:cancelingVelocity: /* Error: Ran out of types for this method. */;
+- (void)filteredTVInputModesFromInputModes:(id)arg1;
+- (id)deferredMenuElementWasFulfilled:(unsigned long long)arg1;
+- (id)buttonEnabledState:forRequestedState: /* Error: Ran out of types for this method. */;
+- (id)_windowNoLongerAwaitingSystemGestureNotification: /* Error: Ran out of types for this method. */;
+- (void)_springLoaded;
+- (void)_selfSizingChanged;
+- (_Bool)_recordKeystrokeStatisticForKeyPress;
 - (void)_realSceneHostViewsContainer;
-- (struct CGSize)er;
-- (void)earchPaletteForEdge:(id)arg1 size: /* Error: Ran out of types for this method. */;
-- (_Bool)ncludingAlpha: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_navControllerIsLayingOutTopViewController;
+- (void)_managedSearchPaletteForEdge:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (_Bool)_isVisibleIncludingAlpha: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)on;
+- (_Bool)_disabledExpansion;
 - (void);
 - (void)Width;
 - (id)nizer;
 - (id)wController;
 - (id)ationQueue;
 - (id)eyplaneWidthConstraint;
-- (id)egate;
+- (id)UIKeyboardEmojiDraggableViewDelegate;
 - (void)ä ØlðädôT;
 - (void)8;
 - (void)};
@@ -185,14 +147,14 @@ __attribute__((visibility("hidden")))
 - (void)it40UICommonTransitionComponentEventHandlingP;
 - (void)ßà©ªAÀ;
 - (void);
-- (id)ageProperties;
+- (id)ImageProperties;
 - (_Bool)p9[;
 - (void)¼è¼lc;
 - (double)6d;
 - (id)rd;
 - (id)e;
 - (_Bool)POÞþq;
-- (_Bool)f;
+- (_Bool)L3f;
 - (void)µñþìÕTKf;
 - (void)\M®ÿ
 V;
@@ -204,25 +166,6 @@ V;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setInfoConstraints:) NSArray *_infoConstraints; // @synthesize _infoConstraints;
-@property(copy, nonatomic) UIAction *action; // @synthesize action=_action;
-@property(copy, nonatomic) NSString *badgeValue;
-@property(readonly) UIView *badgeView;
-@property(readonly, nonatomic) int controlSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(nonatomic, getter=isMomentary) _Bool momentary;
-@property(nonatomic) double requestedScaleFactor; // @synthesize requestedScaleFactor=_requestedScaleFactor;
-@property(readonly, nonatomic, getter=isRightHighlighted) _Bool rightHighlighted;
-@property(readonly, nonatomic, getter=isRightSelected) _Bool rightSelected;
-@property(nonatomic) unsigned int segmentPosition;
-@property(nonatomic, getter=isSelected) _Bool selected;
-@property(readonly) Class superclass;
 
 @end
 

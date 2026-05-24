@@ -9,22 +9,20 @@
 @interface TRIPBBoolFloatDictionary
 {
     TRIPBMessage *_autocreator;
-    float _values[2];
-    _Bool _valueSet[2];
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);/;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);

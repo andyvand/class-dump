@@ -5,5 +5,11 @@
 //
 
 @protocol HomeEnergyDaemon.HomeEnergyXPCProtocol
+- (void);
+- (void)`^;
+- (void)R;
+- (void);
+- (void)@;
+- (void);
 @end
 

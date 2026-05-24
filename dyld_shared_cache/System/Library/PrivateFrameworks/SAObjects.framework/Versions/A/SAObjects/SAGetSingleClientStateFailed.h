@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString, SAAceClientState;
-
 @interface SAGetSingleClientStateFailed : SABaseCommand
 {
 }
@@ -18,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (id);
@@ -29,18 +27,7 @@
 - (long long)(;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(retain, nonatomic) SAAceClientState *attemptedClientState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long errorCode;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *reason;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

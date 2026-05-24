@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKHardwareCapsChangeNotifier, IKIrisListener;
+@class IKIrisListener;
 
 @interface IKCameraServices
 {
     IKIrisListener *_irisListener;
-    IKHardwareCapsChangeNotifier *_hardwareCapsChangeNotifier;
-    int _observerCount;
 }
 
 + (id);
@@ -22,8 +20,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)_windowed;
+- (void)CXParticipant;
 - (void);
 - (void);
 - (id);

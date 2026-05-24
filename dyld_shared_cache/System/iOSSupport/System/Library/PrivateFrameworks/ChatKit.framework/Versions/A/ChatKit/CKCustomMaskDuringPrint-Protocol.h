@@ -5,6 +5,7 @@
 //
 
 @protocol CKCustomMaskDuringPrint
+- (struct CKBalloonDescriptor_t);
 
 // Remaining properties
 @property(nonatomic) _Bool suppressMask;

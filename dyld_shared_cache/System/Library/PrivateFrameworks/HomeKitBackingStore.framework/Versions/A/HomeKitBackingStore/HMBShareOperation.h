@@ -6,7 +6,7 @@
 
 #import <HomeKitBackingStore/HMBFutureOperation.h>
 
-@class HMBCloudZone, NSString;
+@class HMBCloudZone;
 
 __attribute__((visibility("hidden")))
 @interface HMBShareOperation : HMBFutureOperation
@@ -22,13 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

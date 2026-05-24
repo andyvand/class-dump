@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SiriUISiriLanguageDelegate;
 
 @interface SiriUISiriLanguage
 {
     _Bool _macBuddyChecked;
-    _Bool _macBuddyRunning;
-    NSString *_spokenLanguageCode;
-    id <SiriUISiriLanguageDelegate> _delegate;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -33,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_delegate) __weak id <SiriUISiriLanguageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool macBuddyChecked; // @synthesize macBuddyChecked=_macBuddyChecked;
-@property(nonatomic, getter=_isMacBuddyRunning) _Bool macBuddyRunning; // @synthesize macBuddyRunning=_macBuddyRunning;
-@property(copy, nonatomic, setter=_setSpokenLanguageCode:) NSString *spokenLanguageCode; // @synthesize spokenLanguageCode=_spokenLanguageCode;
 
 @end
 

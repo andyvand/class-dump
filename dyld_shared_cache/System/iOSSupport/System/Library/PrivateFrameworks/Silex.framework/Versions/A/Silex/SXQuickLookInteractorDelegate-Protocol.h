@@ -5,5 +5,6 @@
 //
 
 @protocol SXQuickLookInteractorDelegate
+- (void);
 @end
 

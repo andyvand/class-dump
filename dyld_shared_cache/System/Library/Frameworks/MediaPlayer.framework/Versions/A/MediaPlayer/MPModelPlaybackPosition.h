@@ -6,8 +6,6 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSNumber, NSString;
-
 @interface MPModelPlaybackPosition : MPModelObject
 {
 }
@@ -15,11 +13,5 @@
 
 // Remaining properties
 @property(nonatomic) double bookmarkTime; // @dynamic bookmarkTime;
-@property(nonatomic) _Bool hasBeenPlayed; // @dynamic hasBeenPlayed;
-@property(nonatomic) _Bool shouldRememberBookmarkTime; // @dynamic shouldRememberBookmarkTime;
-@property(nonatomic) double startTime; // @dynamic startTime;
-@property(copy, nonatomic) NSNumber *stopTime; // @dynamic stopTime;
-@property(copy, nonatomic) NSString *storeUbiquitousIdentifier; // @dynamic storeUbiquitousIdentifier;
-@property(nonatomic) long long userPlayCount; // @dynamic userPlayCount;
 @end
 

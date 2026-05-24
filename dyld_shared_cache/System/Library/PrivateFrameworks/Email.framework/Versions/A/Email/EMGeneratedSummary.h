@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
-@protocol EMCollectionItemID;
+@class NSAttributedString;
 
 @interface EMGeneratedSummary
 {
     _Bool _urgent;
-    NSAttributedString *_topLine;
-    NSAttributedString *_synopsis;
-    id <EMCollectionItemID> _messageItemID;
 }
 
 + (long long);
 + (_Bool);
-- (id);
+- (id)CleanEnergyAutomationConfigurationLogEventFactory;
 - (_Bool);
-- (_Bool);
+- (_Bool);c<�@;
 - (id);
 - (id);
 - (id);
@@ -28,7 +24,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)URLSession:(id)arg1 dataTask:willCacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -36,22 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) id <EMCollectionItemID> messageItemID; // @synthesize messageItemID=_messageItemID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSAttributedString *synopsis; // @synthesize synopsis=_synopsis;
 @property(readonly, nonatomic) NSAttributedString *topLine; // @synthesize topLine=_topLine;
-@property(readonly, nonatomic) _Bool urgent; // @synthesize urgent=_urgent;
 
 @end
 

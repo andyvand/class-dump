@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SAUIVisualResponseSnippet : SAUISnippet
 {
@@ -15,13 +15,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *modelData;
-@property(copy, nonatomic) NSString *viewIdentifier;
 
 @end
 

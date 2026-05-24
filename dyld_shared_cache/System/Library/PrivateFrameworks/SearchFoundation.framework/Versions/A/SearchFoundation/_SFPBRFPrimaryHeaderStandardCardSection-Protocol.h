@@ -7,12 +7,12 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFPrimaryHeaderStandardCardSection
+- (_SFPBRFTextProperty *)#;
+- (void);
+- (_SFPBRFTextProperty *)6;
+- (NSData *)&,N,V_customAssetProperties;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
 @end
 

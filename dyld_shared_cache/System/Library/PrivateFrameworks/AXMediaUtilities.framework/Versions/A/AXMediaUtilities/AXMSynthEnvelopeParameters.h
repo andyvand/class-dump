@@ -16,9 +16,9 @@
 + (id);
 - (float);
 - (void);
-- (void);
+- (void){;
 - (float);
-- (id);
+- (id);
 - (float);
 - (float);
 - (void);
@@ -31,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) float attackLevel; // @dynamic attackLevel;
-@property(nonatomic) float attackMS; // @dynamic attackMS;
-@property(nonatomic) float decayMS; // @dynamic decayMS;
 @property(nonatomic) __weak AXMSynthMainParameters *mainParameters; // @synthesize mainParameters=_mainParameters;
-@property(nonatomic) float releaseMS; // @dynamic releaseMS;
-@property(readonly, nonatomic) float sampleRate;
-@property(nonatomic) float sustainLevel; // @dynamic sustainLevel;
 
 @end
 

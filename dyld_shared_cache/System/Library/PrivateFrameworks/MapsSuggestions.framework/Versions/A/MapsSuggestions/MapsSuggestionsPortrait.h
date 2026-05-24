@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, MapsSuggestionsContacts, NSArray, NSNumber, NSObject, NSString, PPConnectionsCriteria;
-@protocol MapsSuggestionsNetworkRequester, MapsSuggestionsPortraitConnector, OS_dispatch_queue;
+@class NSString;
+@protocol MapsSuggestionsPortraitConnector;
 
 @interface MapsSuggestionsPortrait
 {
     id <MapsSuggestionsPortraitConnector> _connector;
-    id <MapsSuggestionsNetworkRequester> _networkRequester;
-    PPConnectionsCriteria *_criteria;
-    NSString *_cachedKey;
-    GEOMapItemStorage *_cachedMapItem;
-    NSNumber *_cachedMapItemOrigin;
-    MapsSuggestionsContacts *_contacts;
-    NSArray *_currentTrips;
-    NSArray *_futureTrips;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -33,13 +24,6 @@
 - (void)ng>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

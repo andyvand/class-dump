@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
+@class FBSScene, NSObject;
 @protocol NSCopying;
 
 @protocol FBSWorkspaceScenesSource
+- (FBSScene *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<NSCopying> *identifier;

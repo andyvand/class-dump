@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLPointerType, MTLStructType, NSString;
+@class NSString;
 
 @protocol MTLArgumentCompat
-- (unsigned long long)x;
+- (NSString *)@;
+- (unsigned long long)+;
+- (unsigned long long);
+- (unsigned long long)bufferIndex;
 
 // Remaining properties
-@property(readonly) unsigned long long access;
-@property(readonly, getter=isActive) _Bool active;
-@property(readonly) unsigned long long arrayLength;
-@property(readonly) unsigned long long bufferAlignment;
-@property(readonly) unsigned long long bufferDataSize;
-@property(readonly) unsigned long long bufferDataType;
-@property(readonly) MTLPointerType *bufferPointerType;
-@property(readonly) MTLStructType *bufferStructType;
-@property(readonly) unsigned long long index;
-@property(readonly) _Bool isDepthTexture;
 @property(readonly) NSString *name;
-@property(readonly) unsigned long long objectPayloadAlignment;
-@property(readonly) unsigned long long objectPayloadDataSize;
-@property(readonly) unsigned long long textureDataType;
-@property(readonly) unsigned long long textureType;
-@property(readonly) unsigned long long threadgroupMemoryAlignment;
-@property(readonly) unsigned long long threadgroupMemoryDataSize;
-@property(readonly) long long type;
 @end
 

@@ -6,7 +6,6 @@
 
 #import <CoreML/MLDelegateModel.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, NSString;
 @protocol MLUpdatable;
 
 __attribute__((visibility("hidden")))
@@ -19,26 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 @property(readonly, nonatomic) id <MLUpdatable> updatableEngine;
 
 @end

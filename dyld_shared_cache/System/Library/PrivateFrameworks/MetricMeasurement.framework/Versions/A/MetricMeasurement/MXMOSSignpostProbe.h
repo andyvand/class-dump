@@ -6,20 +6,11 @@
 
 #import <MetricMeasurement/MXMProbe.h>
 
-@class MXMMutableSampleData, NSDate, NSObject, NSURL, SignpostSupportObjectExtractor;
-@protocol OS_dispatch_semaphore;
+@class SignpostSupportObjectExtractor;
 
 @interface MXMOSSignpostProbe : MXMProbe
 {
     SignpostSupportObjectExtractor *_extractor;
-    unsigned long long _mode;
-    NSURL *_logArchivePath;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    unsigned long long _startMachContTime;
-    unsigned long long _stopMachContTime;
-    NSObject<OS_dispatch_semaphore> *_finishedProcessingSema;
-    MXMMutableSampleData *_data;
 }
 
 + (id);
@@ -36,16 +27,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ƞm;
 - (void);
 - (void);
 - (void);

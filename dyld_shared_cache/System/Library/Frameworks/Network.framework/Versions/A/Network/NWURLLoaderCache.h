@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHTTPURLResponse, NSObject, NSURLCache, NSURLRequest;
-@protocol OS_dispatch_data;
+@class NSURLCache;
 
 __attribute__((visibility("hidden")))
 @interface NWURLLoaderCache
 {
     NSURLCache *_cache;
-    unsigned long long _cacheStoragePolicy;
-    NSObject<OS_dispatch_data> *_dataToCache;
-    unsigned long long _maxItemSizeToCache;
-    NSHTTPURLResponse *_response;
-    NSURLRequest *_request;
 }
 
 - (void)@;

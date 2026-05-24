@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface OITSUProgress
 {
     NSMutableSet *mProgressObservers;
-    NSObject<OS_dispatch_queue> *mProgressObserversQueue;
-    NSString *mMessage;
 }
 
 - (void);
@@ -29,9 +26,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isIndeterminate) _Bool indeterminate;
-@property(readonly) double maxValue;
-@property(copy) NSString *message; // @synthesize message=mMessage;
 @property(readonly) double value;
 
 @end

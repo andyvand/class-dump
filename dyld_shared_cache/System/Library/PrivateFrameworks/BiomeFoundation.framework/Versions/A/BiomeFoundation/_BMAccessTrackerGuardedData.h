@@ -9,8 +9,6 @@
 @interface _BMAccessTrackerGuardedData
 {
     NSMutableDictionary *_loggedReads;
-    NSMutableDictionary *_loggedWrites;
-    NSMutableDictionary *_cachedSandboxCheckResults;
 }
 
 - (id);

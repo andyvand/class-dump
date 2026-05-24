@@ -15,10 +15,10 @@
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_timedOut;
 - (void)y"16^B24;
 
 // Remaining properties

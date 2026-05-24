@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTPerAppDataUsage
 {
     NSString *_displayName;
-    NSArray *_used;
 }
 
-+ (_Bool);
++ (_Bool)SampleBuffers containing encoded video;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)evaluationMechanismsForPolicy:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)qª)Ð1Â0@ù
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSArray *used; // @synthesize used=_used;
 
 @end
 

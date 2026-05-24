@@ -5,5 +5,9 @@
 //
 
 @protocol UNUserNotificationServiceConnectionObserver
+
+@optional
+- (void)
+;
 @end
 

@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordZoneIdentifier, NSData;
+@class NSData;
 
 @interface CKDPRequestOperationHeaderSupplementalZoneInfo
 {
     NSData *_syncContinuationToken;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id)U@�A@9;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)etion callback.;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSyncContinuationToken;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) NSData *syncContinuationToken; // @synthesize syncContinuationToken=_syncContinuationToken;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

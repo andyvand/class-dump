@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoClientDeviceMetadata, DRSProtoFileDescription, DRSProtoRequestDescription, NSData;
+@class DRSProtoClientDeviceMetadata;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoRapidPayload
 {
     DRSProtoClientDeviceMetadata *_deviceMetadata;
-    NSData *_payload;
-    DRSProtoFileDescription *_payloadDescription;
-    DRSProtoRequestDescription *_payloadMetadata;
-    unsigned int _uploadAttempts;
-    struct {
-        unsigned int uploadAttempts:1;
-    } _has;
 }
 
 - (void);
@@ -24,16 +17,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (_Bool)smarterFetchService;
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned int);
 - (void);
-- (id);
-- (_Bool);
+- (id)Ȃ;
+- (_Bool)terDelegateP;
 - (void);
 - (void);
 - (unsigned long long);
@@ -42,21 +35,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)ome:(id)arg1;
+- (void)setOutcome:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) DRSProtoClientDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
 @property(readonly, nonatomic) _Bool hasDeviceMetadata;
-@property(readonly, nonatomic) _Bool hasPayload;
-@property(readonly, nonatomic) _Bool hasPayloadDescription;
-@property(readonly, nonatomic) _Bool hasPayloadMetadata;
-@property(nonatomic) _Bool hasUploadAttempts;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) DRSProtoFileDescription *payloadDescription; // @synthesize payloadDescription=_payloadDescription;
-@property(retain, nonatomic) DRSProtoRequestDescription *payloadMetadata; // @synthesize payloadMetadata=_payloadMetadata;
-@property(nonatomic) unsigned int uploadAttempts; // @synthesize uploadAttempts=_uploadAttempts;
 
 @end
 

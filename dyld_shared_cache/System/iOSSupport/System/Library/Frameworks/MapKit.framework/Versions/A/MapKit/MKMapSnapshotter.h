@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapSnapshotOptions, NSObject, VKMapSnapshotCreator, geo_isolater;
-@protocol OS_dispatch_queue;
+@class MKMapSnapshotOptions;
 
 @interface MKMapSnapshotter
 {
     MKMapSnapshotOptions *_options;
-    int _loadingFlag;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CDUnknownBlockType _completionHandler;
-    geo_isolater *_isolation;
-    VKMapSnapshotCreator *_snapshotCreator;
 }
 
 - (void);
@@ -29,13 +23,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Z;
 - (void);
+- (void)(;
 - (void);
+- (void)in observing availability for:(id)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (void)lse;
+- (void)_updatePulse;
 - (_Bool);
 
 // Remaining properties

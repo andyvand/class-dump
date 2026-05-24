@@ -6,8 +6,6 @@
 
 #import <PassKitCore/PKAccountUserNotificationSettings.h>
 
-@class NSDecimalNumber;
-
 @interface PKMutableAccountUserNotificationSettings : PKAccountUserNotificationSettings
 {
 }
@@ -15,8 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *monthlySpendNotificationThreshold; // @dynamic monthlySpendNotificationThreshold;
-@property(retain, nonatomic) NSDecimalNumber *transactionNotificationThreshold; // @dynamic transactionNotificationThreshold;
 @property(nonatomic) _Bool transactionNotificationsEnabled; // @dynamic transactionNotificationsEnabled;
 
 @end

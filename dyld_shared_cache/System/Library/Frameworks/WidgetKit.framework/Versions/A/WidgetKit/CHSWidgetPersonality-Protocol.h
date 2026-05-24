@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol CHSWidgetPersonality
+- (NSString *)9;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier;
-@property(readonly, nonatomic) NSString *kind;
 @end
 

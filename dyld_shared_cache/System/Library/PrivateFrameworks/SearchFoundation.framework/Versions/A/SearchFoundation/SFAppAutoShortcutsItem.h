@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFAppAutoShortcutsItem
 {
@@ -13,12 +13,12 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)onServer:(id)arg1;
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)userFeedbacks;
+- (id)originalCompletion;
 - (id);
 - (id);
 - (void);
@@ -26,15 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

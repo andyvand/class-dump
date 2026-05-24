@@ -11,7 +11,7 @@
     IDSKVDeleteContext *_deleteContext;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 

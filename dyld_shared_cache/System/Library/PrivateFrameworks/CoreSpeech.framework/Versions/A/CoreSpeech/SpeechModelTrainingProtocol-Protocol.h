@@ -5,5 +5,6 @@
 //
 
 @protocol SpeechModelTrainingProtocol
+- (void)M;
 @end
 

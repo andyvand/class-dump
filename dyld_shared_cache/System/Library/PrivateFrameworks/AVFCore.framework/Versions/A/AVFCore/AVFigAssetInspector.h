@@ -6,23 +6,17 @@
 
 #import <AVFCore/AVAssetInspector.h>
 
-@class AVDispatchOnce, NSArray, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface AVFigAssetInspector : AVAssetInspector
 {
     struct OpaqueFigAsset *_figAsset;
-    AVDispatchOnce *_checkIsStreamingOnce;
-    _Bool _isStreaming;
-    _Bool didCheckForSaveRestriction;
-    _Bool hasSaveRestriction;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -47,57 +41,47 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void *);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)__TEXT;
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)setPreloadedUserSharedUserId: /* Error: Ran out of types for this method. */;
+- (id)64;
+- (id)done destroying engine %p;
+- (id)P;
 - (_Bool);
 - (float);
 - (CDStruct_1b6d18a9);
 - (_Bool);
 - (_Bool);
-- (float);
-- (_Bool);
+- (float)methodSignatureForSelector: /* Error: Ran out of types for this method. */;
+- (_Bool)_needsUserInteractivePriority;
 - (_Bool);
 - (id);
 - (_Bool);
 - (struct OpaqueFigFormatReader *);
 - (struct CGAffineTransform)Ñ)1Â0@ù
 × ;
-- (float)ageLocation: /* Error: Ran out of types for this method. */;
+- (float)setPreferredStorageLocation: /* Error: Ran out of types for this method. */;
 - (unsigned long long)|Ç|ÉÉ;
 - (id)suming existing state is better for %{public}@.;
 - (struct CGSize)>>>> %s:%{public}@ failed to copy currently displayed pixel buffer w/ err %d /* Error: Ran out of types for this method. */;
 - (id)edMediaSubTypes must contain only items of type NSNumber;
 - (_Bool)t allow values for %@ that are numerically greater than %@;
-- (struct CGSize)eOperationRouteConfigUpdated;
+- (struct CGSize)AVRouteConfigUpdatedFigRoutingContextRouteChangeOperationRouteConfigUpdated;
 - (id), audioTapProcessor:%p, volume mix:%@> /* Error: Ran out of types for this method. */;
 - (id)ÅÇ;
 - (long long)îÿHÿp;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) NSArray *contentKeySpecifiersEligibleForPreloading;
-@property(readonly, nonatomic) unsigned long long downloadToken;
 @property(readonly, nonatomic, getter=_figAsset) struct OpaqueFigAsset *figAsset;
-@property(readonly, nonatomic) NSArray *figChapterGroupInfo;
-@property(readonly, nonatomic) NSArray *figChapters;
-@property(readonly, nonatomic) _Bool hasProtectedContent;
-@property(readonly, nonatomic) NSURL *originalNetworkContentURL;
-@property(readonly, nonatomic) NSURL *resolvedURL;
-@property(readonly, nonatomic, getter=_isStreaming) _Bool streaming;
-@property(readonly, nonatomic) NSArray *variants;
 
 @end
 

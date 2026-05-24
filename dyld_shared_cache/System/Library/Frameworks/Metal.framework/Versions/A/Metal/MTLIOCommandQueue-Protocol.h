@@ -5,8 +5,11 @@
 //
 
 @class NSString;
+@protocol MTLIOCommandBuffer;
 
 @protocol MTLIOCommandQueue
+- (id <MTLIOCommandBuffer>)cieucaparenkorean;
+- (id <MTLIOCommandBuffer>);
 - (void)16Q24;
 
 // Remaining properties

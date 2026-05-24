@@ -9,10 +9,6 @@
 @interface MEJSONExporter
 {
     NSFileHandle *mOutputFile;
-    long long mIndentLevel;
-    long long mIndent;
-    _Bool mPrettyPrint;
-    _Bool mIsStandalone;
 }
 
 - (void);
@@ -20,17 +16,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isStandalone; // @synthesize isStandalone=mIsStandalone;
 @property(nonatomic) _Bool prettyPrint; // @synthesize prettyPrint=mPrettyPrint;
 
 @end

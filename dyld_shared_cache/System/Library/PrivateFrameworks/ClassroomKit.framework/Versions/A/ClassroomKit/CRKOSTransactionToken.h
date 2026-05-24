@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_os_transaction;
-
 @interface CRKOSTransactionToken
 {
     CDUnknownBlockType _completionHandler;
-    NSObject<OS_os_transaction> *_underlyingTransaction;
 }
 
 - (id);
@@ -24,7 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *underlyingTransaction; // @synthesize underlyingTransaction=_underlyingTransaction;
 
 @end
 

@@ -7,19 +7,13 @@
 @class NSDate, NSDictionary, NSTimeZone;
 
 @protocol HMDLightProfileDataSource
+- (long long);
+- (double);
+- (NSDictionary *);
+- (void)T@"NSObject<OS_dispatch_queue>",R,N,G_accessQueue;
 - (NSTimeZone *)ic}@Handling did remove home;
 
 // Remaining properties
 @property(readonly, copy) NSDate *date;
-@property(readonly, copy) NSTimeZone *localTimeZone;
-@property(readonly) NSDictionary *naturalLightingCurveResourceFileContent;
-@property(readonly) double naturalLightingCurveUpdateAccessoryTimeDifferenceThreshold;
-@property(readonly) double naturalLightingCurveUpdateInterval;
-@property(readonly) long long naturalLightingEnabledMaxRetryCount;
-@property(readonly) double naturalLightingEnabledRetryInterval;
-@property(readonly) long long naturalLightingStartUpColorTemperature;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
 @end
 

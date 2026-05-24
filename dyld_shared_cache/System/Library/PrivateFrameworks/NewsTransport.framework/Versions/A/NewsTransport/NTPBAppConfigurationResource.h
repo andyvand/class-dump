@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NTPBDate;
-
 @interface NTPBAppConfigurationResource
 {
     long long _maxAge;
-    NSString *_etag;
-    NSData *_gzippedConfigurationData;
-    NTPBDate *_lastFetchedDate;
-    NTPBDate *_lastModifiedDate;
-    NSString *_lastModifiedString;
-    NSString *_resourceID;
-    NSString *_sourceURL;
-    struct {
-        unsigned int maxAge:1;
-    } _has;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)_workerQueue_fetchRemainingPeopleInBatches;
+- (_Bool)_strictVisibleTimelineRect;
+- (_Bool)_simulatedProgressForProgress: /* Error: Ran out of types for this method. */;
+- (_Bool)_simulateNonIncrementalChanges;
+- (_Bool)_simulateNoAppleMusicSubscription;
+- (_Bool)_simulateMomentShareCreationError;
+- (_Bool)_showParticipantCountBadges;
 - (id);
 - (void);
 - (_Bool);
@@ -37,12 +25,12 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)=:H] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)؝;
 - (void);
 - (id);
 - (void);
@@ -53,26 +41,11 @@
 - (id);
 - (id);
 - (void);
-- (void)ectionIdsCount;
+- (void)sectionIdsCount;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) NSData *gzippedConfigurationData; // @synthesize gzippedConfigurationData=_gzippedConfigurationData;
-@property(readonly, nonatomic) _Bool hasEtag;
 @property(readonly, nonatomic) _Bool hasGzippedConfigurationData;
-@property(readonly, nonatomic) _Bool hasLastFetchedDate;
-@property(readonly, nonatomic) _Bool hasLastModifiedDate;
-@property(readonly, nonatomic) _Bool hasLastModifiedString;
-@property(nonatomic) _Bool hasMaxAge;
-@property(readonly, nonatomic) _Bool hasResourceID;
-@property(readonly, nonatomic) _Bool hasSourceURL;
-@property(retain, nonatomic) NTPBDate *lastFetchedDate; // @synthesize lastFetchedDate=_lastFetchedDate;
-@property(retain, nonatomic) NTPBDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(retain, nonatomic) NSString *lastModifiedString; // @synthesize lastModifiedString=_lastModifiedString;
-@property(nonatomic) long long maxAge; // @synthesize maxAge=_maxAge;
-@property(retain, nonatomic) NSString *resourceID; // @synthesize resourceID=_resourceID;
-@property(retain, nonatomic) NSString *sourceURL; // @synthesize sourceURL=_sourceURL;
 
 @end
 

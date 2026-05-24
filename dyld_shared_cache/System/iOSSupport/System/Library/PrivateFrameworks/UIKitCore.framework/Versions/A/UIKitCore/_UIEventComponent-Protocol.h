@@ -8,7 +8,7 @@
 
 @protocol _UIEventComponent
 - (_UIEventComponentPhaseValue *)Ô ;
-- (_UIEventComponentPhaseValue *)rmWithTarget:(long long)arg1;
+- (_UIEventComponentPhaseValue *)_performWithTarget:(long long)arg1;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setEventComponentPhase:) _UIEventComponentPhaseValue *_eventComponentPhase;

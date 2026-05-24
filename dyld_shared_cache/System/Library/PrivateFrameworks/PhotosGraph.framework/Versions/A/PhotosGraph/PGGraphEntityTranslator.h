@@ -18,8 +18,8 @@
 + (id);
 + (Class)by accumulatePersonAndPetRelationshipsFromGraph():(%@) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)q`;
+- (id)q;
 - (id);
 - (void)scored %f on SD food %@
 ;

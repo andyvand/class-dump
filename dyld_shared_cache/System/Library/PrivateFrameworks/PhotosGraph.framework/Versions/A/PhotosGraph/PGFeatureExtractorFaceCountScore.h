@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)or;
+- (id)removedTabGroupWithUUID: /* Error: Ran out of types for this method. */;
+- (id)PGGraphRelationshipProcessor;
 
 @end
 

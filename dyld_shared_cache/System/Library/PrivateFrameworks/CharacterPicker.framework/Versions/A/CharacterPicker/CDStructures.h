@@ -31,15 +31,15 @@ struct MatchingRangesToResultsMapper {
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, void *>*>*>>> {

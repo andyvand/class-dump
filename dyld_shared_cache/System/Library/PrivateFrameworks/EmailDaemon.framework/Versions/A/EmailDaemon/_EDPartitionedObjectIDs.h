@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface _EDPartitionedObjectIDs
 {
     NSArray *_messageObjectIDs;
-    NSDictionary *_threadObjectIDsByScope;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)p};
 - (void)spotlight_status, mail_local_status, mail_remote_status, needs_reindex )
 VALUES ( :remote_id, :mailbox,                 0,          '',               '',                '',                 '',             0 ) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *messageObjectIDs; // @synthesize messageObjectIDs=_messageObjectIDs;
-@property(readonly, copy, nonatomic) NSDictionary *threadObjectIDsByScope; // @synthesize threadObjectIDsByScope=_threadObjectIDsByScope;
 
 @end
 

@@ -17,9 +17,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)g with %llu samples;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)0@ù
 × ;

@@ -12,19 +12,18 @@
 {
 }
 
-+ (id);
++ (id)';
 + (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)B;
+- (id)!;
+- (_Bool)!;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *notificationId;
-@property(copy, nonatomic) NSString *notificationType;
 
 @end
 

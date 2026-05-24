@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRSearchResultCollector
 {
     id items;
-    id queryPerformer;
-    id completionHandler;
 }
 
 @end

@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
     unsigned long long _srtpCryptoSuite;
 }
 
-+ (id);
++ (id);
 + (_Bool)<íéÈí;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)per.m;
 - (id);
 - (unsigned long long);
 - (_Bool);

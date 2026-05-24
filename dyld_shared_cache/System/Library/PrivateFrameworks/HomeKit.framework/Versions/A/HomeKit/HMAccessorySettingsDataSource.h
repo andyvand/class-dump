@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettingsMessenger, HMAccessorySettingsMetricsDispatcher, HMLocalization, HMXPCEventRouterClient, NSObject, NSString, _HMContext;
-@protocol HMAccessorySettingsDataSourceDataSource, HMAccessorySettingsDataSourceDelegate, HMAccessorySettingsMessengerFactory, HMELastEventStoreReadHandle, HMESubscriptionProviding, OS_dispatch_queue;
+@protocol HMAccessorySettingsDataSourceDataSource;
 
 @interface HMAccessorySettingsDataSource
 {
     struct os_unfair_lock_s _lock;
-    HMAccessorySettingsMessenger *_messenger;
-    id <HMAccessorySettingsDataSourceDelegate> _delegate;
-    HMLocalization *_localizationManager;
-    id <HMESubscriptionProviding> _eventSubscriptionProvider;
-    HMAccessorySettingsMetricsDispatcher *_metricsDispatcher;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMELastEventStoreReadHandle> _lastEventStoreReadHandle;
-    HMXPCEventRouterClient *_eventRouterXPCClient;
-    id <HMAccessorySettingsDataSourceDataSource> _dataSource;
-    _HMContext *_context;
-    id <HMAccessorySettingsMessengerFactory> _messengerFactory;
 }
 
 + (id);
@@ -42,24 +30,14 @@
 - (void);
 - (id);
 - (id);
+- (void)_inputsPreventingAcceptSelectedCandidate;
 - (void);
-- (void);
-- (id);
+- (id)5	;
 - (void);
 - (void)}.16P] Failed to stop stream for session UUID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _HMContext *context; // @synthesize context=_context;
 @property __weak id <HMAccessorySettingsDataSourceDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMAccessorySettingsDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak id <HMAccessorySettingsMessengerFactory> messengerFactory; // @synthesize messengerFactory=_messengerFactory;
-@property(readonly) Class superclass;
 
 @end
 

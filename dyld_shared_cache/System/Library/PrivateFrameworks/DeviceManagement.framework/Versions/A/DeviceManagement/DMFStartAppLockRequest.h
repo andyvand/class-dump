@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)collectionView:writeItemsAtIndexes:toPasteboard: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

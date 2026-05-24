@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _CUTPowerAssertion
 {
     unsigned int _assertion;
-    NSString *_identifier;
-    NSArray *_stack;
 }
 
-- (void);
+- (void)%;
 
 @end
 

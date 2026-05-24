@@ -7,27 +7,6 @@
 @interface AppStoreKit.PageRenderMetricsEvent
 {
     id eventFields;
-    id topic;
-    id pageRequestedTime;
-    id pageAppearTime;
-    id pageDisappearTime;
-    id _domChanges;
-    id requests;
-    id resourceRequestStartTime;
-    id resourceRequestOnScreenEndTime;
-    id resourceRequestEndTime;
-    id pageUserReadyTime;
-    id networkQualityReports;
-    id errors;
-    id rootViewModelParseStartTime;
-    id rootViewModelParseEndTime;
-    id rootViewModelPresentTime;
-    id jsCallStartTime;
-    id jsCallEndTime;
-    id isLowDataMode;
-    id xpSessionDuration;
-    id xpSamplingForced;
-    id xpSamplingPercentageUsers;
 }
 
 @end

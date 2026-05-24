@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPipelineReflection, NSString;
-@protocol MTLDevice;
+@class NSString;
+@protocol MTLDevice, MTLFunctionHandle, MTLRenderPipelineState, MTLVisibleFunctionTable;
 
 @protocol MTLRenderPipelineState
+- (unsigned long long)CreateJPEGDataFromImage;
+- (id <MTLVisibleFunctionTable>)d dimension (%3dx%3d) | bitDepth (%6d) | offset (%10ld) - skipping
+;
+- (id <MTLRenderPipelineState>);
+- (NSString *);
+- (unsigned long long)@;
+- (unsigned long long)I;
+- (id <MTLFunctionHandle>);
+- (id <MTLDevice>)nieunaparenkorean;
+- (struct MTLResourceID);
 - (_Bool)v8Q16;
 - (long long)¸
 ;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long imageblockSampleLength;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadgroupsPerMeshGrid;
-@property(readonly) unsigned long long maxTotalThreadsPerMeshThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerObjectThreadgroup;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) unsigned long long meshThreadExecutionWidth;
-@property(readonly) unsigned long long objectThreadExecutionWidth;
-@property(readonly) MTLRenderPipelineReflection *reflection;
-@property(readonly) CDStruct_da2e99ad requiredThreadsPerMeshThreadgroup;
-@property(readonly) CDStruct_da2e99ad requiredThreadsPerObjectThreadgroup;
-@property(readonly) CDStruct_da2e99ad requiredThreadsPerTileThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) _Bool threadgroupSizeMatchesTileSize;
 @end
 

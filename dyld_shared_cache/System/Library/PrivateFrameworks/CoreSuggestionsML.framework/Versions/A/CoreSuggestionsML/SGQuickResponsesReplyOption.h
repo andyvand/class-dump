@@ -9,7 +9,6 @@
 @interface SGQuickResponsesReplyOption
 {
     NSNumber *_position;
-    NSNumber *_ucb;
 }
 
 + (double);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *position; // @synthesize position=_position;
-@property(readonly, nonatomic) NSNumber *ucb; // @synthesize ucb=_ucb;
 
 @end
 

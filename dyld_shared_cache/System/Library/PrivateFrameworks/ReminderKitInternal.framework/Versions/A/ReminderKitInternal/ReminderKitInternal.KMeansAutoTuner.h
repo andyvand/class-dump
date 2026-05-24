@@ -7,10 +7,6 @@
 @interface ReminderKitInternal.KMeansAutoTuner
 {
     id bestK;
-    id modelHistory;
-    id minK;
-    id maxK;
-    id randomGenerator;
 }
 
 @end

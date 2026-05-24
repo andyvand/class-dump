@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UISwitch;
-@protocol CNMeCardSharingEnabledDelegate;
+@class UISwitch;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingEnabledDataSource
 {
     _Bool _sharingEnabled;
-    id <CNMeCardSharingEnabledDelegate> _delegate;
-    UISwitch *_enabledSwitch;
-    NSArray *_items;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@9;
 - (void);
 - (void);
 - (_Bool);
@@ -33,24 +29,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (void)mActionCardGroupsByPlacement;
+- (void)_customActionCardGroupsByPlacement;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMeCardSharingEnabledDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UISwitch *enabledSwitch; // @synthesize enabledSwitch=_enabledSwitch;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) unsigned long long selectedIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(nonatomic) _Bool sharingEnabled; // @synthesize sharingEnabled=_sharingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

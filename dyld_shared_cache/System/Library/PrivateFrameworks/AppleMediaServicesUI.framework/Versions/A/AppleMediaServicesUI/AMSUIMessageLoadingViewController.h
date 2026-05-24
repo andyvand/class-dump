@@ -9,16 +9,15 @@
 @interface AMSUIMessageLoadingViewController : AMSUICommonViewController
 {
     id loadingController;
-    id presentationContext;
 }
 
 + (id);
 - (void);
+- (id)";
 - (id);
+- (void)$	-	?	(	M	(	$	>	;
 - (id);
-- (void);
-- (id);
-- (void)est:error: /* Error: Ran out of types for this method. */;
+- (void)purchase:handleWindowRequest:error: /* Error: Ran out of types for this method. */;
 - (void),+æÿ7;
 
 @end

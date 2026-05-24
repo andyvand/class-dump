@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAPSyncState, NSFileManager, NSURL;
+@class NSFileManager, NSURL;
 
 @interface AAPSyncStatePersistence
 {
     NSFileManager *_fileManager;
-    NSURL *_url;
-    AAPSyncState *_state;
 }
 
+- (id)D|;
+- (id);
+- (id);
+- (void)hHf;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)SCRCUserDefaultsTransactionNotification;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_url;
-@property(readonly, copy, nonatomic) AAPSyncState *state; // @synthesize state=_state;
 
 @end
 

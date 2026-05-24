@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDictionary, NSHashTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, SGSuggestionsServiceContactsProtocol;
+@class NSObject;
+@protocol SGSuggestionsServiceContactsProtocol;
 
 @interface IMSuggestionsService
 {
     NSObject<SGSuggestionsServiceContactsProtocol> *_connection;
-    NSCache *_cache;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_pending;
-    NSDictionary *_localTable;
-    NSHashTable *_handlesToRetry;
-    id _newContactNotificationToken;
-    struct __CFRunLoopObserver *_notificationObserver;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)[;
 - (id);
 - (void);
 - (void);

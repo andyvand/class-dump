@@ -6,50 +6,38 @@
 
 #import <EventKitUI/EKUIFocusBannerView.h>
 
-@class NSString, UIButton;
+@class UIButton;
 
 @interface EKUIFocusBannerViewModern : EKUIFocusBannerView
 {
     UIButton *_focusFilterToggleButton;
-    _Bool _on;
-    _Bool _showDividers;
-    _Bool _disallowAccessibilityTextSizes;
-    _Bool _wantsBorder;
-    unsigned long long _layout;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)&s;
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)ureXPCProxyServiceRemoteClientInterface>";
 - (struct CGSize);
-- (void);
+- (void)ller:(id)arg1 didFailWithError:(id)arg2 ]_block_invoke;
 - (_Bool);
-- (id);
-- (id);
+- (id)aderTypeP;
+- (id)es;
 - (void);
 - (void);
 - (unsigned long long);
 - (id)0@ù
 × ;
-- (void)Animator: /* Error: Ran out of types for this method. */;
+- (void)textField:willDismissEditMenuWithAnimator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool wantsBorder; // @synthesize wantsBorder=_wantsBorder;
 
 @end

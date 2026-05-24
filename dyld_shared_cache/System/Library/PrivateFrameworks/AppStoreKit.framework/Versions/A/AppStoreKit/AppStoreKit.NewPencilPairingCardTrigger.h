@@ -7,10 +7,6 @@
 @interface AppStoreKit.NewPencilPairingCardTrigger
 {
     id pairingStatusProvider;
-    id identifier;
-    id adamId;
-    id activationContextIsValid;
-    id shouldRecur;
 }
 
 @end

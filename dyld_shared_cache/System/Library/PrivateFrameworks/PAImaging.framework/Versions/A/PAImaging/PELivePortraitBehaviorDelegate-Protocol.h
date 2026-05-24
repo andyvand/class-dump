@@ -5,5 +5,7 @@
 //
 
 @protocol PELivePortraitBehaviorDelegate
+- (void);
+- (_Bool)=;
 @end
 

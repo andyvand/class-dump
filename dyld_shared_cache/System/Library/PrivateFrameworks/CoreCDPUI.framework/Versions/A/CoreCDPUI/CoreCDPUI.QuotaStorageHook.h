@@ -7,8 +7,6 @@
 @interface CoreCDPUI.QuotaStorageHook
 {
     id dismissButtonName;
-    id resetButtonId;
-    id delegate;
 }
 
 - (id);

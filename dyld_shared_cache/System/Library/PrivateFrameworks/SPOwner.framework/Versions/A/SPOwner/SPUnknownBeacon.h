@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSString, NSUUID, SPDiscoveredAccessoryMetadata, SPDiscoveredAccessoryProductInformation, SPHandle;
+@class NSString;
 
 @interface SPUnknownBeacon
 {
     _Bool _connected;
-    _Bool _isFindMyNetwork;
-    _Bool _isPosh;
-    _Bool _isIgnored;
-    _Bool _isAppleAudioAccessory;
-    NSString *_name;
-    NSUUID *_identifier;
-    NSArray *_beaconLocations;
-    NSData *_advertisement;
-    NSString *_type;
-    long long _observationType;
-    long long _alertState;
-    unsigned long long _capabilities;
-    SPDiscoveredAccessoryMetadata *_metadata;
-    SPDiscoveredAccessoryProductInformation *_productInformation;
-    NSDictionary *_taskInformation;
-    NSUUID *_beaconIdentifier;
-    SPHandle *_handle;
-    NSDate *_triggerDate;
-    NSDate *_ignoresUntilDate;
 }
 
 + (_Bool);
@@ -35,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -52,11 +33,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool))c";
+- (void)	;
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -64,8 +45,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)messagesDidReceiveGameCenterURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
@@ -75,31 +56,12 @@
 - (void);
 - (id);
 - (void);
-- (void)bleLostMode;
-- (void)t;
-- (_Bool)fier;
+- (void)enableLostMode;
+- (void)_hint;
+- (_Bool)stableIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *advertisement; // @synthesize advertisement=_advertisement;
-@property(nonatomic) long long alertState; // @synthesize alertState=_alertState;
-@property(copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(copy, nonatomic) NSArray *beaconLocations; // @synthesize beaconLocations=_beaconLocations;
-@property(nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(copy, nonatomic) SPHandle *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *ignoresUntilDate; // @synthesize ignoresUntilDate=_ignoresUntilDate;
-@property(nonatomic) _Bool isAppleAudioAccessory; // @synthesize isAppleAudioAccessory=_isAppleAudioAccessory;
-@property(nonatomic) _Bool isFindMyNetwork; // @synthesize isFindMyNetwork=_isFindMyNetwork;
-@property(nonatomic) _Bool isIgnored; // @synthesize isIgnored=_isIgnored;
-@property(nonatomic) _Bool isPosh; // @synthesize isPosh=_isPosh;
-@property(copy, nonatomic) SPDiscoveredAccessoryMetadata *metadata; // @synthesize metadata=_metadata;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long observationType; // @synthesize observationType=_observationType;
-@property(copy, nonatomic) SPDiscoveredAccessoryProductInformation *productInformation; // @synthesize productInformation=_productInformation;
-@property(copy, nonatomic) NSDictionary *taskInformation; // @synthesize taskInformation=_taskInformation;
-@property(copy, nonatomic) NSDate *triggerDate; // @synthesize triggerDate=_triggerDate;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -13,14 +13,14 @@
     NSString *_rubyText;
 }
 
-- (int);
-- (void);
-- (id);
+- (int)ll completion;
+- (void)ted;
+- (id)4_t);
 - (id);
 - (_Bool);
 - (int);
-- (id);
-- (unsigned int);
+- (id)MPCPlaybackEngineEventPayloadKey;
+- (unsigned int);
 - (id);
 - (void);
 - (id);
@@ -28,8 +28,6 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *baseText;
-@property(readonly, nonatomic) int baseTextScript;
 @property(copy, nonatomic) NSString *rubyText; // @synthesize rubyText=_rubyText;
 
 @end

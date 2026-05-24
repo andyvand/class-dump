@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INExtensionContextSlotResolutionResult, INIntent, INIntentSlotDescription, NSArray, NSString;
+@class INExtensionContextSlotResolutionResult;
 
 @interface INIntentTestResolvedParameter
 {
     _Bool _resolveImplemented;
-    NSString *_parameter;
-    NSArray *_results;
-    INExtensionContextSlotResolutionResult *_extensionContextResolutionResult;
-    INIntent *_intent;
-    INIntentSlotDescription *_slotDescription;
 }
 
 - (_Bool);
@@ -22,19 +17,14 @@
 - (id);
 - (id);
 - (id);
+- (id)l/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/rsa/rsa_x931.c;
+- (id)ENSSLDIR:"/private/etc/ssl" /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id)ookAuthor;
-- (void)yTypeOptionsForSearchForFiles:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)bookAuthor;
+- (void)provideEntityTypeOptionsForSearchForFiles:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) INExtensionContextSlotResolutionResult *extensionContextResolutionResult; // @synthesize extensionContextResolutionResult=_extensionContextResolutionResult;
-@property(readonly, copy) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly, copy) NSString *parameter; // @synthesize parameter=_parameter;
-@property(readonly) _Bool resolveImplemented; // @synthesize resolveImplemented=_resolveImplemented;
-@property(readonly) NSArray *results; // @synthesize results=_results;
-@property(readonly) INIntentSlotDescription *slotDescription; // @synthesize slotDescription=_slotDescription;
 
 @end
 

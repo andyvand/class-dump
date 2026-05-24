@@ -7,13 +7,10 @@
 @interface MPPlayableContentManagerContext
 {
     _Bool _contentLimitsEnforced;
-    _Bool _endpointAvailable;
-    long long _enforcedContentItemsCount;
-    long long _enforcedContentTreeDepth;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -23,11 +20,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool contentLimitsEnabled;
-@property(nonatomic) _Bool contentLimitsEnforced; // @synthesize contentLimitsEnforced=_contentLimitsEnforced;
-@property(nonatomic) _Bool endpointAvailable; // @synthesize endpointAvailable=_endpointAvailable;
 @property(nonatomic) long long enforcedContentItemsCount; // @synthesize enforcedContentItemsCount=_enforcedContentItemsCount;
-@property(nonatomic) long long enforcedContentTreeDepth; // @synthesize enforcedContentTreeDepth=_enforcedContentTreeDepth;
 
 @end
 

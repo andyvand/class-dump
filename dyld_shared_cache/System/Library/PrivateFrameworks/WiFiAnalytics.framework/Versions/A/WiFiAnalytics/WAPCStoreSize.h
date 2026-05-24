@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface WAPCStoreSize
 {
     _Bool _storeNeedsPruning;
-    _Bool _noError;
-    NSNumber *_currentSize;
-    unsigned long long _limit;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)mezone;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)(@@9i;
 
 // Remaining properties
-@property(retain) NSNumber *currentSize; // @synthesize currentSize=_currentSize;
-@property unsigned long long limit; // @synthesize limit=_limit;
-@property _Bool noError; // @synthesize noError=_noError;
 @property _Bool storeNeedsPruning; // @synthesize storeNeedsPruning=_storeNeedsPruning;
 
 @end

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPassDescriptor;
-@protocol MTLCommandBuffer, MTLRenderCommandEncoder;
-
 @interface RBMetalRenderState
 {
     unsigned int _flags;
-    int _blendMode;
-    float _alpha;
-    id <MTLCommandBuffer> _commandBuffer;
-    MTLRenderPassDescriptor *_descriptor;
-    unsigned long long _formatKey;
-    id <MTLRenderCommandEncoder> _encoder;
-    struct CGSize _size;
-    CDStruct_5f3a0cd7 _bounds;
-    struct CGAffineTransform _CTM;
 }
 
 - (void);
@@ -29,7 +17,7 @@
 - (struct CGSize);
 - (int);
 - (void);
-- (CDStruct_5f3a0cd7);
+- (CDStruct_33dcf794);
 - (void);
 - (void);
 - (id);
@@ -38,23 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (float);
+- (float);
 - (id);
 - (struct CGAffineTransform)ÿmÉ ÿzt<ÿ³9cÿo¡ÿiÿ·YÿAwÿ¾ÕÿN+ÿIKÿ\oËÿ£uTÿM+ÿ	íÿ_`ÿÏV£ÿªK8ÿÄµeÿ_~ÿKMíÿ©hLÿ²ÿ$iÿÞhÿuÿh=ZÿÅNÿÁ8ÿÏÇÿ8\OÿdâÙÿÚÿ|BlÿS©ÿécÿ5q´ÿLÞ~ÿÕzOÿC}jÿhÀÿÔxSÿ¦ÿ$¤FÿÆÝÿ!ÿÝaÿ³bÿvToÿC¼ÿ>¤ÿ¹,ÿHtÿ#Ïyÿ¥d°ÿm£ÿbl¹ÿj»ÿ~ÿ]x;ÿ©¨pÿIÿ|,ÿ¯ÿ|ÿ~ÿF¾.ÿ×Wÿ\Lÿpÿ¥ sÿuyGÿmÕÿt]ÿÛÓ¢ÿÉ%ÿÍF¦ÿ>J{ÿwÁ`ÿ±°ÿ²ÿ)`ÿ±­ÿukÿ¸«yÿ6·.ÿÖOaÿ5v°ÿyÂÿÞSgÿS^¯ÿeÑ¬ÿSlÿ_u`ÿg/ÐÿuÿÝIQÿ¨³ÿµÇÿf|ÿ@8ÿ¡¶¶ÿaÿÀ¼ÿ¡
 ÿA«æÿif/ÿ½éÿd¼£ÿà2ÿls²ÿU¥ÿ¸.3ÿê·Sÿ$o8ÿ¨JÿyÆÁÿ>0kÿ®wßÿ:ÿºª7ÿ%Üÿ¾I½ÿ¹*ÿÇ"¢ÿÞRÿµ®¬ÿ7v[ÿ7­ÿP]ÿ¤Kÿ¢l¬ÿÝ`ÿ> ÿ5©dÿ¶ÿÄÅpÿx~jÿyU½ÿ·Oÿ^BÿdJÿ¬ZÿD«ÿlH]ÿeÄ¬ÿfOÁÿ\sYÿìªIÿ;&¹ÿÖ¤Lÿjvwÿ:ÿ0nÿk:ÿÿs|ÿ¤i6ÿ(ÂÿèGÿÏÿÌÿÿhèÿS/ÿ¥Íÿ1Zÿ¡[ÿ"Afÿ¾`§ÿÂTÿ)£ÿ%uàÿsxÿD©ÿÈ[|ÿyV»ÿ2|Ôÿ¿Ü;ÿw4ÿmDÝÿ\ÅoÿÍ7ÿùæÿ:ºÿ¹ÿ¸ÔDÿìÿ,Aÿ´¿tÿ|ºÚÿ¶_ÿ5iOÿw´Æÿ}R1ÿ©'ÿB­ÿ¸MÿØÿ£©EÿB¸ÚÿU¿ÿÿ­|"ÿ­ÿÙU[ÿ|ÉLÿHïÁÿ´hÿÄ©pÿ'uÿ¢ÿmÿsoXÿ7iÿp®ÿgÿuV*ÿÿx$ÿ^´FÿsVÿZZrÿnÿXÿÎÿö¨ÆÿCMÿÅ¬|ÿpÿËueÿ§lÿR`ÿóªÿÿ·ÿ+¥ÿ¨pbÿ&tÿ¸Veÿ¤ÿÿ[sÿSAÆÿ^§ÿ¹¤>ÿq^¤ÿ7ÿmð§ÿp98ÿ¢ÅÿkUØÿÂCÿ§tSÿÄÍÿtÿ;´ÿ[´zÿ6Sÿ<½ÿÀOjÿ]Ùÿ`ÿM^\ÿ·ÕÿYx6ÿ­ ©ÿ@ÿl¿ÿNRÿ§£ÿ`Vÿrqÿtò]ÿpÿÛ·ÿ[0ÿ÷_ÿ¸ÿqeÿr]ÿ|æÿrâPÿ>vÿAÿÚgÿEDÿhÕpÿÀOÁÿnn¹ÿÆj×ÿ`ÿy\³ÿ\upÿ|ÔZÿutÿ^yÿ¬¹ÿ¤`iÿ[º°ÿ¤5ÿ%Å#ÿçÒÿ9mÿ>kÿápÖÿz0ÿª	ÿy_ÿf ÿ.+Èÿä|ÿ¤¦ÿMÿmDÿbÆ|ÿlSÿpÑÿq7¨ÿªÿÄDXÿ¦*ÿ4?Cÿ¬ÂÿyöEÿAÿ^8zÿµÅÿ&Zÿ&puÿ0èÿ|k)ÿÄ"¡ÿaÿÈ2ÿ«Xÿ×tÿIÚPÿSroÿ^ÿ£¤°ÿ { ÿnomÿseÿè9ÿÿoÐ9ÿwÿª[oÿ¬ÀbÿqcÿXÿOÿÿ±Ëÿÿ`ÿa¹ÿÂiÿi¾ÿ­EÿvîÿßW ÿ?ÿOÿLÔÿW1¬ÿ·ÿ§³:ÿ^¤ÀÿV\hÿqóÿzeÿ¢Æÿm¤\ÿmXÿeoÿ$ÄÿÌtÿoÿ¤óÿ;hsÿ_fÿÔ!£ÿ£ñÿfUÿ{ªÿC'@ÿ¹?ÿ#ÜÿlDÿ«tÿCFÿª²ÿ¡|'ÿbsÿjÿþ0ÿ¨mÿc]ÿS!6ÿ°«ÑÿUdÿçîÿ¡x¡ÿ}Jÿ^Ýÿ×PÛÿÁL2ÿIÔÿU°ÿqÿ_Hsÿ%ÿ§ÿ½T*ÿÊ¼}ÿ@hÿ®r|ÿKÿ±oÿBI<ÿñ{ßÿ5Qÿ{ÿIPÿ5Ç»ÿrKÿ¤»ÿ;fÿ³Yeÿ¼çÌÿ¨ùÿSÿ{P]ÿ/ÿfÿaoMÿfÕ`ÿ"Èkÿ\Òmÿq)ÂÿÐAÿYÿ©dÌÿTÙÈÿK}¬ÿ_D«ÿKÃÿ»>aÿoOÿíÿ>µÿ[·ÿ¡ÙeÿRÿÕªÿÕ@ ÿinÿ¤h-ÿ©sÀÿ 3]ÿbv*ÿ7654ÿ2ÿ0ÿ-ÿ'ÿ§ÿ­ÿ°ÿ²´µ¶·~7y6z5{4ø2ú0ù-÷'÷§ù­ú°ø²{´zµy¶~·7l6o5r4ë2ñ0î-ç'ç§î­ñ°ë²r´oµl¶·²7\6_5e4×2â0Ý-Ñ'Ñ§Ý­â°×²e´_µ\¶²·Ó7U6K5U4½2Ð0Ç-³'´§Ç­Ð°½²U´KµU¶Ó·ó7S655A42º0­-'§­­º°²A´5µS¶ó·8U6$5+4|2¢0-i'i§­¢°|²+´$µU¶¸8X654W20o->'>§o­°W²´µX¶¸8\654/2j0L-'§L­j°/²´µ\¶¸(8_6	5ç32M0)-á&á¦)­M°²ç³	µ_¶(¸/8c65Ò3ç1.0-°&°¦­.°ç±Ò³µc¶/¸58e65Â3Ï10ß,&¦ß¬°Ï±Â³µe¶5¸98g6 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform CTM; // @synthesize CTM=_CTM;
-@property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) CDStruct_5f3a0cd7 bounds; // @synthesize bounds=_bounds;
-@property(retain, nonatomic) id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer=_commandBuffer;
-@property(retain, nonatomic) MTLRenderPassDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) id <MTLRenderCommandEncoder> encoder; // @synthesize encoder=_encoder;
 @property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) unsigned long long formatKey; // @synthesize formatKey=_formatKey;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

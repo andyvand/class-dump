@@ -7,14 +7,6 @@
 @interface PhotoAnalysis.MomentGraphService
 {
     id $defaultActor;
-    id identifier;
-    id worker;
-    id associatedWorkers;
-    id taskScheduler;
-    id requestOrigin;
-    id stateHolder;
-    id operationManager;
-    id queryAnnotatorSessionManager;
 }
 
 - (void);
@@ -42,12 +34,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

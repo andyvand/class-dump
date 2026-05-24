@@ -4,35 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, PKRecognitionSessionManager;
-@protocol PKMathRecognitionControllerDelegate;
+@class NSSet, PKRecognitionSessionManager;
 
 @interface PKMathRecognitionController
 {
     NSSet *_currentItems;
-    NSDictionary *_changeMap;
-    NSDictionary *_stableIdentifierMap;
-    NSDictionary *_sortIndexMap;
-    NSDictionary *_expressionMap;
-    NSDictionary *_shouldSolveMap;
-    NSArray *_currentMathRecognitionItems;
-    NSArray *_delayedItems;
-    double _updateItemsDelay;
-    struct {
-        unsigned int delegateSupportsLatestTimestampForUserInteraction:1;
-        unsigned int delegateSupportsSolveStateChanged:1;
-        unsigned int delegateSupportsDidEraseStrokes:1;
-    } _delegateFlags;
-    _Bool _isRTL;
-    id <PKMathRecognitionControllerDelegate> _delegate;
-    PKRecognitionSessionManager *__sessionManager;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -52,8 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak PKRecognitionSessionManager *_sessionManager; // @synthesize _sessionManager=__sessionManager;
-@property(nonatomic) __weak id <PKMathRecognitionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
 
 @end
 

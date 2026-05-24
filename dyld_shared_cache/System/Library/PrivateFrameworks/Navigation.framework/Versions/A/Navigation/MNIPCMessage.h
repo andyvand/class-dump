@@ -15,9 +15,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)"AOSUIProfileViewCacheController",&,V_cacheController;
 - (id);
-- (id);
+- (id)real clientID (%{public}@);
 - (id)MNCommuteRouteSetC/ø9_pG;
 
 @end

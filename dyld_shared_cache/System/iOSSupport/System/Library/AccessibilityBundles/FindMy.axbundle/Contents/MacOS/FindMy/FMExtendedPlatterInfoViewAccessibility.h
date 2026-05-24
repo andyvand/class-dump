@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)__DATA_CONST;
 - (struct CGPoint);
 - (id);
 - (_Bool);

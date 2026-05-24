@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _INPBStopShareETAIntentResponse
 {
     CDStruct_95bda58d _mediums;
-    struct _has;
-    NSArray *_recipients;
 }
 
-+ (Class);
++ (Class)pathIndex;
 + (_Bool);
 - (void);
 - (unsigned long long);
@@ -34,24 +30,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)PBSelectionItem",&,N;
 - (id)",&,N,V_distanceRemaining;
-- (void)ponseCodeFailureMeCardNotSet;
+- (void)INSetRelationshipIntentResponseCodeFailureMeCardNotSet;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int *mediums;
-@property(readonly, nonatomic) unsigned long long mediumsCount;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(readonly) Class superclass;
 
 @end
 

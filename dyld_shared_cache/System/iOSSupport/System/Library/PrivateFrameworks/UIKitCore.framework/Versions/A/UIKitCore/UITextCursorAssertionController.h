@@ -23,11 +23,11 @@
 - (id)!Gù1_Ð1Â0@ù
 × ;
 - (void)beddedPresentationBounces"b1"isRepositioningRectDisabled"b1"sendingDelegateWillRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
-- (id)etAllowsInteractiveDismissWhenFullScreen:(id)arg1;
-- (id)eedback;
+- (id)_setAllowsInteractiveDismissWhenFullScreen:(id)arg1;
+- (id)_prepareUsingFeedback;
 - (_Bool)onInRange(splitIndex, range);
 - (void)the same index path (%@);
-- (id)onFactor;
+- (id)SheetDecelerationFactor;
 - (id)ConnectionOptionCoder;
 - (void)§a;
 - (id)È:e /* Error: Ran out of types for this method. */;

@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
-@protocol VisualTabPickerGridViewTransitionCoordinatorDataSource, VisualTabPickerTransitioning;
+@class CALayer;
+@protocol VisualTabPickerGridViewTransitionCoordinatorDataSource;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerGridViewTransitionCoordinator
 {
     CALayer *_transitioningLayer;
-    id <VisualTabPickerTransitioning> _destinationTileTransitionCoordinator;
-    struct CATransform3D _fixedPoints[2];
-    struct CATransform3D _interceptPoint;
-    float _interceptProgress;
-    _Bool _detachedFromFixedPointTimeline;
-    id <VisualTabPickerGridViewTransitionCoordinatorDataSource> _dataSource;
 }
 
 - (void);
@@ -31,13 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <VisualTabPickerGridViewTransitionCoordinatorDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

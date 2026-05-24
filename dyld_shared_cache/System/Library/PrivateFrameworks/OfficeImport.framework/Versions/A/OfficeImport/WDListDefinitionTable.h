@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, WDDocument, WDListDefinition;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDListDefinitionTable
 {
     WDDocument *mDocument;
-    NSMutableArray *mListDefinitions;
-    NSMutableDictionary *mListDefinitionMapById;
-    NSMutableDictionary *mListDefinitionMapByStyleId;
-    WDListDefinition *mNullListDefinition;
-    WDListDefinition *mDefaultListDefinition;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

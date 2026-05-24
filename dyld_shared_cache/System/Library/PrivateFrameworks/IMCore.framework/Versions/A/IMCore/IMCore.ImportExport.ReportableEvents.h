@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.ReportableEvents
 {
     id eventCounts;
-    id events;
 }
 
 @end

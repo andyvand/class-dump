@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSNumber, PXPlaceAnnotation;
+@class CLLocation;
 
 @interface PXAnnotatedLocation
 {
     CLLocation *_location;
-    PXPlaceAnnotation *_placeAnnotation;
-    NSNumber *_locationType;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(retain) NSNumber *locationType; // @synthesize locationType=_locationType;
-@property(readonly, nonatomic) PXPlaceAnnotation *placeAnnotation; // @synthesize placeAnnotation=_placeAnnotation;
 
 @end
 

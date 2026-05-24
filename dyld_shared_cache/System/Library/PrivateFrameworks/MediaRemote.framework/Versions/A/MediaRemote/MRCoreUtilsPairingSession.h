@@ -6,32 +6,11 @@
 
 #import <MediaRemote/MRCryptoPairingSession.h>
 
-@class MRDeviceInfo, MRPasscodeCredentials, NSArray, NSData, NSMutableData, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MRPasscodeCredentials, NSData;
 
 @interface MRCoreUtilsPairingSession : MRCryptoPairingSession
 {
     MRPasscodeCredentials *_credentials;
-    struct PairingSessionPrivate *_pairingSession;
-    struct {
-        void *context;
-        CDUnknownFunctionPointerType showSetupCode_f;
-        CDUnknownFunctionPointerType hideSetupCode_f;
-        CDUnknownFunctionPointerType promptForSetupCode_f;
-        CDUnknownFunctionPointerType copyIdentity_f;
-        CDUnknownFunctionPointerType findPeer_f;
-        CDUnknownFunctionPointerType savePeer_f;
-        CDUnknownFunctionPointerType resumeRequest_f;
-        CDUnknownFunctionPointerType resumeResponse_f;
-    } _pairingDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _hasExchangedMessage;
-    unsigned int _pairingFlags;
-    unsigned long long _state;
-    NSData *_inputKey;
-    NSMutableData *_inputNonce;
-    NSData *_outputKey;
-    NSMutableData *_outputNonce;
 }
 
 - (id);
@@ -39,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned int);
-- (id);
+- (id)@;
+- (unsigned int);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -52,36 +31,26 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)#;
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)k!;
 - (void);
 - (_Bool);
+- (void);
 - (id);
+- (id)SuggestedAmountEvents:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id)sRequireKnownChatForNicknames;
 - (unsigned long long);
 - (void),N,V_userInfo;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasExchangedMessage; // @synthesize hasExchangedMessage=_hasExchangedMessage;
 @property(retain, nonatomic) NSData *inputKey; // @synthesize inputKey=_inputKey;
-@property(retain, nonatomic) NSMutableData *inputNonce; // @synthesize inputNonce=_inputNonce;
-@property(readonly, nonatomic) NSMutableDictionary *mediaRemotePairedDevices;
-@property(retain, nonatomic) NSData *outputKey; // @synthesize outputKey=_outputKey;
-@property(retain, nonatomic) NSMutableData *outputNonce; // @synthesize outputNonce=_outputNonce;
-@property(readonly, nonatomic) MRDeviceInfo *pairedPeerDevice;
-@property(readonly, nonatomic) NSArray *pairedPeerDevices;
-@property(nonatomic) unsigned int pairingFlags; // @synthesize pairingFlags=_pairingFlags;
-@property(readonly, nonatomic) NSString *peerIdentifier;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

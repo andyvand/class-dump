@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableIndex, _CDEventIndexerContext, _CDSpotlightEventIndexerDataSource;
+@class _CDEventIndexerContext;
 
 @interface _CDSpotlightEventIndexer
 {
     _CDEventIndexerContext *_context;
-    CSSearchableIndex *_index;
-    _CDSpotlightEventIndexerDataSource *_dataSource;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)_kCFStreamPropertySocketStreamInstance;
 - (_Bool);
-- (id);
+- (id)boringssl_context_evaluate_trust_async_external_block_invoke_3;
 - (void)á¶/ð!pDùñ©3ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) _CDEventIndexerContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic, getter=isIndexing) _Bool indexing;
 
 @end
 

@@ -5,7 +5,6 @@
 //
 
 @class NSString, PLPhotoLibraryAttributesChanges;
-@protocol PLChangesForServiceHandling;
 
 @interface PHPhotoLibraryAttributesChangeRequest
 {
@@ -30,20 +29,7 @@
 - (void)V_mixedSharingCompositionKeyAssetRelationship;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(nonatomic) unsigned short cloudResourcePrefetchMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableCloudSync;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *userDescription;
 
 @end
 

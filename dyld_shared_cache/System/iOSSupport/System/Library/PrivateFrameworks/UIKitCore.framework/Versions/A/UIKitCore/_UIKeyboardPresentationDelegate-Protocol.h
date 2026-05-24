@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TIKeyboardLayoutState, UIDictationPopoverController, UIKeyboardCandidateController, UIKeyboardEmojiPopoverController, UIKeyboardLayout, UIKeyboardNumberpadPopoverController, UIPressAndHoldPopoverController;
+@class NSArray, NSDictionary, NSString, UIDictationPopoverController, UIKeyboardCandidateController, UIKeyboardEmojiPopoverController, UIKeyboardLayout, UIKeyboardNumberpadPopoverController, UIPressAndHoldPopoverController;
 @protocol UIKeyboardImplGeometryDelegate;
 
 @protocol _UIKeyboardPresentationDelegate
-+ (NSArray *)d;
-+ (void):(NSString *)arg1;
++ (NSArray *)_doesOverrideLegacyShouldAutorotateMethod;
++ (void)initWithString:(NSString *)arg1;
+- (void)zR;
+- (void);
+- (_Bool)entryUniversalIdentifier;
 - (void)1Â0@ù
 × ;
 - (UIKeyboardNumberpadPopoverController *)áð!0Cù±[1Â0@ù
@@ -18,10 +21,9 @@
 × ;
 - (void)qað1Â0@ù
 × ;
-- (TIKeyboardLayoutState *);
-- (void)ewsForMaskingEnabled;
-- (void)ContentRect;
-- (void)GenmojiUsageType;
+- (void)_updateViewsForMaskingEnabled;
+- (void)_existingCollectionViewContentRect;
+- (void)getIAPayloadKeyGenmojiUsageType;
 - (_Bool);
 - (_Bool)ode = %ld;
 - (_Bool)asMuteDidChangeNotification. remoteHasMute=%@;
@@ -42,10 +44,10 @@
 - (_Bool)ñ`À7lú;
 - (void)¼TR0;
 - (void)þ;
-- (void)Driver;
+- (void)UIPointerHoverStyleDriver;
 - (void)÷ÿ]13Øðnþ]13ìþe13Ðï¸þ;
-- (void)indDescendants;
-- (UIPressAndHoldPopoverController *)tUntransformedFrame;
+- (void)ScalesDownBehindDescendants;
+- (UIPressAndHoldPopoverController *)FullHeightUntransformedFrame;
 - (void);
 - (void)æ®;
 - (_Bool);
@@ -57,41 +59,42 @@
 - (void)Ú;
 - (void)0;
 - (void)3`ê¦þ;
-- (UIKeyboardEmojiPopoverController *)olbar;
+- (UIKeyboardEmojiPopoverController *)Toolbar;
 - (_Bool)¥þ1Ë13°Þ¥þ1Ë13¬Þ¥þùÊ13¨Þ¥þ;
-- (_Bool)mentKey;
+- (_Bool)BarLayoutElementKey;
 - (void)uÁ7¬;
-- (_Bool)MetricsGeometryProviding;
+- (_Bool)CoreListMetricsGeometryProviding;
 - (_Bool);
-- (void)SDFView;
+- (void)UISDFView;
 - (_Bool)Å);
 - (_Bool)þ ;
 - (_Bool)I33_-;
 - (_Bool)3èÆ;
+- (void)H;
 - (void)þ;
-- (void)dChangeMessage;
-- (void)essDidChangeMessage;
+- (void)ReferenceDisplayModeStatusDidChangeMessage;
+- (void)BrightnessDidChangeMessage;
 - (void)þÿÿÿÿ;
 - (void);
 - (UIDictationPopoverController *)tÂþ koþ;
-- (_Bool)icsContentMetrics;
+- (_Bool)CoreListMetricsContentMetrics;
 - (_Bool)þEµ33¨×þ;
 - (void)33´asþì33,oþEì33¤,oþì33´,oþ;
 - (void)4;
 - (void)òþ;
 - (_Bool);
 - (void)ÛR0Ó23;
-- (void)ent;
-- (void)IShapeProvider;
+- (void)_UISliderFluidVisualElement;
+- (void)UIShapeProvider;
 - (_Bool)3ìlyþ;
-- (void)nSpec;
+- (void)_UIDurationBounceAnimationSpec;
 - (_Bool)wþ;
 - (void)þ;
-- (_Bool)tingView;
+- (_Bool)UICoreHostingView;
 - (void)èCÞ2;
 - (void)Y^43×sþI^43Øsþ;
 - (void)I[43Ã¶;
-- (void)ticContext;
+- (void)UITraitSemanticContext;
 - (_Bool)sþ­43pûsþ;
 - (void)¡Ø;
 - (void)43ü];

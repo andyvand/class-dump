@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, OAHSoftwareUpdateController, SUCoreLog;
-@protocol OS_dispatch_queue;
+@class NSString, OAHSoftwareUpdateController;
 
 @interface SUMacControllerRosettaManager
 {
     NSString *_uuid;
-    OAHSoftwareUpdateController *_rosettaController;
-    SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_operationQueue;
-    NSObject<OS_dispatch_queue> *_completionQueue;
 }
 
 + (_Bool);
@@ -24,24 +19,20 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)[;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)questWakeup;
+- (id)ResumingRequestWakeup;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
 @property(readonly, retain, nonatomic) OAHSoftwareUpdateController *rosettaController; // @synthesize rosettaController=_rosettaController;
-@property(readonly, retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

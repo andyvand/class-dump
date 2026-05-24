@@ -9,36 +9,33 @@
 @interface ContactEmbeddingAnalysisPETContactEmbeddingArrayEvent
 {
     NSMutableArray *_contactEmbeddings;
-    NSString *_sessinobd;
-    NSString *_userId;
 }
 
-+ (Class);
++ (Class)choicesCount;
+- (void)_countAttributeQPQUprefixMatch;
+- (void)_checkerHSRejectBeforeActivationScores;
+- (id)_cdmSingleServiceSetupAttemptFailed;
+- (unsigned long long)gCountCoreDuet2Min;
+- (id)eDuet28Day;
+- (id)untCoreDuet1Day;
+- (void)V_nowPlayingAbsoluteCount1Day;
+- (void)utSource;
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)dF;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)HDCDH1J'F
+;
+- (id)N7morphun8analysis2fi51FeedForwardInflectionAnalyzer_InflectionLikelihoodsE;
 - (id);
-- (id);
-- (void);
+- (void)VU;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *contactEmbeddings; // @synthesize contactEmbeddings=_contactEmbeddings;
 @property(retain, nonatomic) NSString *sessinobd; // @synthesize sessinobd=_sessinobd;
-@property(retain, nonatomic) NSString *userId; // @synthesize userId=_userId;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AMSBagProtocol;
 
 @interface AMSURLParser
@@ -16,7 +15,7 @@
 + (id)e;
 + (id)®4A,ïT§ZÙ® ;
 + (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (_Bool);
@@ -50,13 +49,6 @@ jÜ.ç¯ÍU/Ìæ6k n>ZDØG<5TB(Ïv®¢U¼~ È2ÌÀ4ú©c0ñRß'G:Ã�
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

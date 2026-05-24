@@ -7,11 +7,6 @@
 @interface HMAccessoryInfoFetchController
 {
     id log;
-    id homeUUID;
-    id dataSource;
-    id messageDispatcher;
-    id accessoryFetchHistory;
-    id minimumFetchThrottleSeconds;
 }
 
 - (id);

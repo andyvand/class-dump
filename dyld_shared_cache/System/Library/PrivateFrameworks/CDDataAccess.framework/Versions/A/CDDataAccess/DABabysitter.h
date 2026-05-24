@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface DABabysitter
 {
     struct os_unfair_lock_s _lock;
-    NSString *_buildVersion;
-    NSMutableDictionary *_l_refreshingWaiters;
-    NSMutableDictionary *_l_failedWaiters;
-    NSMutableDictionary *_l_restrictedWaiters;
 }
 
 + (id);
@@ -43,15 +39,11 @@
 - (id);
 - (struct os_unfair_lock_s);
 - (void);
-- (void);
+- (void)maxLogFileLevel;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain, nonatomic) NSMutableDictionary *l_failedWaiters; // @synthesize l_failedWaiters=_l_failedWaiters;
-@property(retain, nonatomic) NSMutableDictionary *l_refreshingWaiters; // @synthesize l_refreshingWaiters=_l_refreshingWaiters;
-@property(retain, nonatomic) NSMutableDictionary *l_restrictedWaiters; // @synthesize l_restrictedWaiters=_l_restrictedWaiters;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 
 @end
 

@@ -18,19 +18,18 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)realTimeAudioEngine_performPeriodicTasks;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)cipant: /* Error: Ran out of types for this method. */;
+- (Class)invitedPCSPermissionForParticipant: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTokenRegistrationBody;
-@property(retain, nonatomic) CKDPTokenRegistrationBody *tokenRegistrationBody; // @synthesize tokenRegistrationBody=_tokenRegistrationBody;
 
 @end
 

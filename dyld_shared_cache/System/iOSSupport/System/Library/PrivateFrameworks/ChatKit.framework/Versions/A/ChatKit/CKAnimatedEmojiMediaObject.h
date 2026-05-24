@@ -13,8 +13,8 @@
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (Class);
+- (id)e;
+- (Class)i;
 - (_Bool);
 - (id);
 - (id);

@@ -7,7 +7,6 @@
 @interface JetEngine.DataInputStream
 {
     id data;
-    id length;
 }
 
 @end

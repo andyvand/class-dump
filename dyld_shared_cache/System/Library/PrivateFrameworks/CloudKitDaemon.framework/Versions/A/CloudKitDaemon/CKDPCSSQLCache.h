@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKDPCSSQLCacheTable, CKDPCSSQLCacheTableGroup, CKSQLiteDatabase, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CKContainerID;
 
 @interface CKDPCSSQLCache
 {
     CKContainerID *_containerID;
-    NSString *_accountID;
-    NSString *_encryptionServiceName;
-    CKDPCSSQLCacheTableGroup *_cacheGroup;
-    CKDPCSSQLCacheTable *_table;
-    NSObject<OS_dispatch_queue> *_asyncQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    _Atomic unsigned int _cacheRequestCount;
-    _Atomic unsigned int _cacheHitCount;
-    NSString *_cacheGroupName;
-    CKSQLiteDatabase *_db;
 }
 
-+ (void);
++ (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_persistedBusinessDisplayName;
+- (void)businessID %lld after merging reconciled businesses;
 - (void);
 - (void);
 - (void);

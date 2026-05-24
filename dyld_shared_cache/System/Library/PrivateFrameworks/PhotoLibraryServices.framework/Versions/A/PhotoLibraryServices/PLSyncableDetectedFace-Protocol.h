@@ -5,6 +5,13 @@
 //
 
 @protocol PLSyncableDetectedFace
+- (id);
+- (double)	ka;
+- (id)';
+- (id)deleteAppletsAndCleanupWithTSM:parentSessionToken:completion: /* Error: Ran out of types for this method. */;
+-     // Error parsing type: [T, name: l
+- (id)W;
+- (id)None;
 - (id)Ä;
 @end
 

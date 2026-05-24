@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OBTemplateLabel
 {
     _Bool _forceCenterAlignment;
-    NSString *_displayText;
-    NSString *_symbolName;
 }
 
 - (void);
@@ -26,13 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(nonatomic) _Bool forceCenterAlignment; // @synthesize forceCenterAlignment=_forceCenterAlignment;
-@property(copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

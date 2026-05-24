@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CalContactsProviderProtocol
+- (NSString *)id recalculateTopK(SIRef)_block_invoke;
 @end
 

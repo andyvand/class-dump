@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSMutableDictionary, NSString;
-@protocol MFActivityProgressUpdater;
+@class NSFileManager, NSMutableDictionary;
 
 @interface MFPersistenceMigratorV2
 {
     NSMutableDictionary *_lostItems;
-    _Bool _isTrackingCleanupProgress;
-    NSFileManager *_fileManager;
-    id <MFActivityProgressUpdater> _activityProgressUpdater;
-    unsigned long long _progressChunkSize;
-    unsigned long long _messagesProgressCount;
-    unsigned long long _v1CleanupCount;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -51,19 +44,7 @@
 - (id)¯ iK#4*;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MFActivityProgressUpdater> activityProgressUpdater; // @synthesize activityProgressUpdater=_activityProgressUpdater;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isTrackingCleanupProgress; // @synthesize isTrackingCleanupProgress=_isTrackingCleanupProgress;
-@property(nonatomic) unsigned long long messagesProgressCount; // @synthesize messagesProgressCount=_messagesProgressCount;
-@property(nonatomic) unsigned long long progressChunkSize; // @synthesize progressChunkSize=_progressChunkSize;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long v1CleanupCount; // @synthesize v1CleanupCount=_v1CleanupCount;
 
 @end
 

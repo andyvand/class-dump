@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CHTransaction
 {
     unsigned long long _transactionType;
-    NSData *_record;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)l;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)PIEffect3DAdjustmentKey;
+- (id)relationship properties for relationship %@ on %@, error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *record; // @synthesize record=_record;
 @property(readonly, nonatomic) unsigned long long transactionType; // @synthesize transactionType=_transactionType;
 
 @end

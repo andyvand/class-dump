@@ -6,13 +6,12 @@
 
 #import <AppleMediaServicesUI/AMSUIAssetFetchOperation.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIBundleImageFetchOperation : AMSUIAssetFetchOperation
 {
     NSString *_imageName;
-    NSArray *_bundlesToSearch;
 }
 
 - (void);
@@ -22,10 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ate: /* Error: Ran out of types for this method. */;
+- (void)setModalPresentationDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *bundlesToSearch; // @synthesize bundlesToSearch=_bundlesToSearch;
 @property(retain) NSString *imageName; // @synthesize imageName=_imageName;
 
 @end

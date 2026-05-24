@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfigurationManager, NEVPNManager, NSDate, NSError, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface NEVPNConnection
 {
     _Bool _installed;
-    _Bool _installNotify;
-    _Bool _initialized;
-    int _sessionType;
-    long long _status;
-    NSDate *_connectedDate;
-    NEConfigurationManager *_configManager;
-    NSString *_configurationName;
-    NSObject<OS_dispatch_queue> *_queue;
-    void *_session;
-    NEVPNManager *_weakmanager;
-    NSError *_lastDisconnectError;
 }
 
 + (id);
@@ -47,12 +33,7 @@
 - (void)ProfilePayloadBaseDelegate>"16@"NSString"24;
 
 // Remaining properties
-@property(readonly) NSDate *connectedDate; // @synthesize connectedDate=_connectedDate;
-@property(nonatomic) _Bool installNotify; // @synthesize installNotify=_installNotify;
 @property(nonatomic) _Bool installed; // @synthesize installed=_installed;
-@property(readonly) NSError *lastDisconnectError; // @synthesize lastDisconnectError=_lastDisconnectError;
-@property(readonly) NEVPNManager *manager;
-@property(readonly) long long status; // @synthesize status=_status;
 
 @end
 

@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void)entationConfidenceMap;
+- (void)segmentationConfidenceMap;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;

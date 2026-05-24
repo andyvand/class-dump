@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol AMSBagValueFetching;
+@class NSArray;
 
 @interface AMSBagValue
 {
     NSArray *_transformBlocks;
-    unsigned long long _valueType;
-    id <AMSBagValueFetching> _valueFetcher;
 }
 
 
 // Remaining properties
-@property(readonly) NSString *key;
-@property(readonly, getter=isLoaded) _Bool loaded;
 @property(retain, nonatomic) NSArray *transformBlocks; // @synthesize transformBlocks=_transformBlocks;
-@property(readonly, nonatomic) id <AMSBagValueFetching> valueFetcher; // @synthesize valueFetcher=_valueFetcher;
-@property(nonatomic) unsigned long long valueType; // @synthesize valueType=_valueType;
 @end
 

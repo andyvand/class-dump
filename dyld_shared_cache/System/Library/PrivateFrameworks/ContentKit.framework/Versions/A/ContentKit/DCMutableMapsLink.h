@@ -11,19 +11,6 @@
 @interface DCMutableMapsLink : DCMapsLink
 {
     NSString *_searchQuery;
-    NSString *_searchNearQuery;
-    NSString *_searchLocation;
-    NSString *_startAddress;
-    NSString *_destinationAddress;
-    unsigned long long _directionsMode;
-    NSString *_centerLocation;
-    long long _zoomLevel;
-    unsigned long long _mapType;
-    _Bool _showsTraffic;
-    _Bool _showsTransit;
-    _Bool _showsStreetView;
-    _Bool _showsBicycling;
-    NSString *_streetViewLocation;
 }
 
 - (id);
@@ -39,18 +26,95 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)dict>
+			<key>draw</key>
+			<string>DRAW_GEOMETRY</string>
+			<key>installViewport</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>symbols</key>
+	<dict>
+		<key>u_floorNormal</key>
+		<dict>
+			<key>type</key>
+			<string>vec3</string>
+		</dict>
+		<key>u_floorTangent</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorCenter</key>
+		<dict>
+			<key>type</key>
+			<string>vec3</string>
+		</dict>
+		<key>u_floorExtent</key>
+		<dict>
+			<key>type</key>
+			<string>vec2</string>
+		</dict>
+		<key>u_floor_viewport</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorReflectivity</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorMVP_i</key>
+		<dict>
+			<key>type</key>
+			<string>mat4</string>
+		</dict>
+		<key>u_floorPlane</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorFalloff</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorFalloffStart</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>SceneKit-Floor-depth</key>
+		<dict>
+			<key>type</key>
+			<string>depth</string>
+		</dict>
+		<key>SceneKit-Floor-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void)Áõ	!<EùñÐ1Â0@ù
 × ;
@@ -60,20 +124,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *centerLocation; // @synthesize centerLocation=_centerLocation;
-@property(copy, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(nonatomic) unsigned long long directionsMode; // @synthesize directionsMode=_directionsMode;
-@property(nonatomic) unsigned long long mapType; // @synthesize mapType=_mapType;
-@property(copy, nonatomic) NSString *searchLocation; // @synthesize searchLocation=_searchLocation;
-@property(copy, nonatomic) NSString *searchNearQuery; // @synthesize searchNearQuery=_searchNearQuery;
 @property(copy, nonatomic) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(nonatomic) _Bool showsBicycling; // @synthesize showsBicycling=_showsBicycling;
-@property(nonatomic) _Bool showsStreetView; // @synthesize showsStreetView=_showsStreetView;
-@property(nonatomic) _Bool showsTraffic; // @synthesize showsTraffic=_showsTraffic;
-@property(nonatomic) _Bool showsTransit; // @synthesize showsTransit=_showsTransit;
-@property(copy, nonatomic) NSString *startAddress; // @synthesize startAddress=_startAddress;
-@property(copy, nonatomic) NSString *streetViewLocation; // @synthesize streetViewLocation=_streetViewLocation;
-@property(nonatomic) long long zoomLevel; // @synthesize zoomLevel=_zoomLevel;
 
 @end
 

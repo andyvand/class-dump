@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBConfig;
-
 @interface NTPBMultiABConfig
 {
     long long _moduloForHashing;
-    NSMutableArray *_abConfigs;
-    NTPBConfig *_defaultConfig;
-    CDStruct_3f5c4e18 _has;
 }
 
-+ (Class);
++ (Class)_pendingCommentsChangeNotifications;
+- (void)displayLink;
+- (void)currentCloseCancelled;
+- (void)configurationWithCollectionList:(id)arg1;
+- (void)collectionView:(id)arg1 draggingSession:willBeginAtPoint:forItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (long long)changeRequestForAssetCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)attributedSubstringFromRange: /* Error: Ran out of types for this method. */;
+- (_Bool)annotationForLayoutItem: /* Error: Ran out of types for this method. */;
+- (void)activityEntryFeedLoadMoreBatchSize;
+- (void)_wantsRelated;
+- (unsigned long long)_wantsPersistence;
+- (id)_wantsOverBackgroundAppearance;
+- (id)_wantsOverBackgroundAppearance;
+- (id);
 - (void);
+- (id)%@ :%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (long long);
+- (unsigned long long);
+- (_Bool)ograde status update. Current:(id)arg1 %lu, new:%lu /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void)axArticleCountForArticleList: /* Error: Ran out of types for this method. */;
+- (void)setHasCorryBarMaxArticleCountForArticleList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *abConfigs; // @synthesize abConfigs=_abConfigs;
-@property(retain, nonatomic) NTPBConfig *defaultConfig; // @synthesize defaultConfig=_defaultConfig;
 @property(readonly, nonatomic) _Bool hasDefaultConfig;
-@property(nonatomic) _Bool hasModuloForHashing;
-@property(nonatomic) long long moduloForHashing; // @synthesize moduloForHashing=_moduloForHashing;
 
 @end
 

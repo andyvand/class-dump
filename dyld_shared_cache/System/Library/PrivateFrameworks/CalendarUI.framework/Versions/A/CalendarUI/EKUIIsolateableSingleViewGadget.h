@@ -6,13 +6,9 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class NSArray;
-
 @interface EKUIIsolateableSingleViewGadget : EKUISingleViewGadget
 {
     _Bool _isDoneWithGrouping;
-    EKUIIsolateableSingleViewGadget *_linkedGadget;
-    NSArray *_groupedGadgets;
 }
 
 - (_Bool);
@@ -20,23 +16,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)(;
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
-@property(retain) NSArray *groupedGadgets; // @synthesize groupedGadgets=_groupedGadgets;
 @property _Bool isDoneWithGrouping; // @synthesize isDoneWithGrouping=_isDoneWithGrouping;
-@property __weak EKUIIsolateableSingleViewGadget *linkedGadget; // @synthesize linkedGadget=_linkedGadget;
 
 @end
 

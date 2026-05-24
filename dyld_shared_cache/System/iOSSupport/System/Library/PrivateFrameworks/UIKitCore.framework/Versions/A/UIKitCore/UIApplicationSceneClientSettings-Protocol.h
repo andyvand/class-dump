@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfigurationRequest, FBSDisplayMode, NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 @protocol UIApplicationSceneClientSettings
+- (_Bool);
+- (long long);
+- (_Bool)\;
+- (_Bool);
+- (NSDictionary *)&chunkserver__clone_complete_request__descriptor;
 - (NSArray *)1Â0@ù
 × ;
 - (_Bool)BùÑ]1Â0@ù
@@ -15,58 +20,10 @@
 × ;
 - (long long)qb1Â0@ù
 × ;
-- (unsigned long long);
 - (unsigned long long)ion;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *activationConditionsData;
-@property(readonly, nonatomic) NSArray *audioCategoriesDisablingVolumeHUD;
-@property(readonly, nonatomic) long long backgroundStyle;
-@property(readonly, nonatomic) double brightnessLevel;
-@property(readonly, copy, nonatomic) NSString *canvasTitle;
-@property(readonly, nonatomic) long long compatibilityMode;
-@property(readonly, nonatomic) _Bool containsSearchView;
-@property(readonly, nonatomic) double controlCenterAmbiguousActivationMargin;
-@property(readonly, nonatomic) long long controlCenterRevealMode;
-@property(readonly, nonatomic) double defaultPNGExpirationTime;
-@property(readonly, copy, nonatomic) NSString *defaultPNGName;
-@property(readonly, nonatomic) _Bool defaultStatusBarHidden;
-@property(readonly, nonatomic) long long defaultStatusBarStyle;
-@property(readonly, nonatomic) _Bool deviceOrientationEventsEnabled;
-@property(readonly, nonatomic) _Bool disablesMirroring;
-@property(readonly, nonatomic) _Bool discardSessionOnUserDisconnect;
-@property(readonly, copy, nonatomic) FBSDisplayConfigurationRequest *displayConfigurationRequest;
-@property(readonly, nonatomic) _Bool homeIndicatorAutoHidden;
-@property(readonly, nonatomic) _Bool idleModeVisualEffectsEnabled;
-@property(readonly, nonatomic) _Bool idleTimerDisabled;
-@property(readonly, nonatomic) long long interfaceOrientation;
-@property(readonly, nonatomic) _Bool interfaceOrientationChangesDisabled;
-@property(readonly, nonatomic) NSArray *multitaskingDragExclusionRects;
-@property(readonly, nonatomic) long long notificationCenterRevealMode;
-@property(readonly, nonatomic) long long playbackControlsState;
-@property(readonly, nonatomic) long long preferredPointerLockStatus;
-@property(readonly, nonatomic) struct UIEdgeInsets primaryWindowOverlayInsets;
-@property(readonly, nonatomic) unsigned long long proximityDetectionModes;
-@property(readonly, nonatomic, getter=isReachabilitySupported) _Bool reachabilitySupported;
-@property(readonly, copy, nonatomic) FBSDisplayMode *requestedDisplayMode;
-@property(readonly, nonatomic) long long sceneActivationBias;
-@property(readonly, copy, nonatomic) NSString *sceneTitle;
-@property(readonly, nonatomic) unsigned long long screenEdgesDeferringSystemGestures;
-@property(readonly, nonatomic) struct CGRect screenFocusedFrame;
-@property(readonly, nonatomic) _Bool shouldHideHostWindow;
-@property(readonly, nonatomic) double statusBarAlpha;
-@property(readonly, nonatomic) unsigned int statusBarContextID;
-@property(readonly, nonatomic, getter=isStatusBarForegroundTransparent) _Bool statusBarForegroundTransparent;
-@property(readonly, nonatomic) _Bool statusBarHidden;
-@property(readonly, nonatomic) long long statusBarModernStyle;
-@property(readonly, copy, nonatomic) NSDictionary *statusBarPartStyles;
 @property(readonly, nonatomic) long long statusBarStyle;
-@property(readonly, nonatomic) unsigned long long supportedInterfaceOrientations;
-@property(readonly, nonatomic) _Bool systemInputActive;
-@property(readonly, nonatomic) long long userInterfaceStyle;
-@property(readonly, nonatomic) unsigned long long visibleMiniAlertCount;
-@property(readonly, nonatomic) _Bool wantsExclusiveForeground;
-@property(readonly, nonatomic) long long whitePointAdaptivityStyle;
 @end
 

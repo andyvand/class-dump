@@ -6,19 +6,12 @@
 
 #import <Safari/ReadingListSidebarViewControllerBase.h>
 
-@class NSArray, NSSearchField, NSString, ReadingListContentProvider, ReadingListSegmentedControl, SidebarPlaceholderViewController, SidebarScrollView;
+@class ReadingListContentProvider, SidebarPlaceholderViewController;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListSidebarViewController : ReadingListSidebarViewControllerBase
 {
     SidebarPlaceholderViewController *_placeholderViewController;
-    ReadingListSegmentedControl *_segmentedControl;
-    SidebarScrollView *_scrollView;
-    _Bool _shouldUpdatePlaceholderViewVisibilityAfterTableViewAnimation;
-    struct CGRect _sidebarBoundsUponInstallation;
-    _Bool _shouldHideSaveForOfflineRowAction;
-    _Bool _hasNetworkReachability;
-    ReadingListContentProvider *_contentProvider;
 }
 
 + (_Bool);
@@ -34,25 +27,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)';
 - (void);
 - (id);
 - (void);
@@ -72,16 +65,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allFilteringControls;
 @property(retain, nonatomic) ReadingListContentProvider *contentProvider; // @synthesize contentProvider=_contentProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSearchField *searchField;
-@property(readonly) Class superclass;
 
 @end
 

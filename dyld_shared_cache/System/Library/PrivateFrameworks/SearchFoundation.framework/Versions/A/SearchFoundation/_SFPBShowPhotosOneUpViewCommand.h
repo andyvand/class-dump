@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBPerson, _SFPBPhotosLibraryImage, _SFPBPunchout;
+@class _SFPBPhotosLibraryImage;
 
 @interface _SFPBShowPhotosOneUpViewCommand
 {
     _SFPBPhotosLibraryImage *_photosLibraryImage;
-    _SFPBPerson *_matchedPerson;
-    NSArray *_matchedScenes;
-    NSArray *_matchedPeoples;
-    _SFPBPunchout *_photoFilePunchout;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -39,26 +35,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setAssetSearchEntitiesFromDictionaries:(id)arg1 onMoment: /* Error: Ran out of types for this method. */;
+- (id)image request with ID %ld-%ld to cancel;
 - (id);
 - (id);
 - (void)ntityQueryCommand"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *matchedPeoples; // @synthesize matchedPeoples=_matchedPeoples;
-@property(retain, nonatomic) _SFPBPerson *matchedPerson; // @synthesize matchedPerson=_matchedPerson;
-@property(copy, nonatomic) NSArray *matchedScenes; // @synthesize matchedScenes=_matchedScenes;
-@property(retain, nonatomic) _SFPBPunchout *photoFilePunchout; // @synthesize photoFilePunchout=_photoFilePunchout;
 @property(retain, nonatomic) _SFPBPhotosLibraryImage *photosLibraryImage; // @synthesize photosLibraryImage=_photosLibraryImage;
-@property(readonly) Class superclass;
 
 @end
 

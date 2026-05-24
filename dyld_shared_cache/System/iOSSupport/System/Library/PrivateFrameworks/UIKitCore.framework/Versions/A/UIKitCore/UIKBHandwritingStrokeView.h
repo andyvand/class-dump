@@ -12,37 +12,31 @@ __attribute__((visibility("hidden")))
 @interface UIKBHandwritingStrokeView : UIView
 {
     UIKBHandwritingView *_keyView;
-    struct CGContext *_bitmapContext;
-    double _scaleFactor;
-    struct CGRect _aggregateInvalidRect;
 }
 
-- (struct);
+- (CDStruct_cccd6e1b);
 - (void);
-- (void);
+- (void)ileTransferGuid:(struct CGRect)arg1 %@;
+- (struct CGRect)iatedMessageGUID:(CDStruct_cccd6e1b)arg1 %@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void)pam-check-timer;
+- (void);
 - (struct CGRect);
+- (void)Z;
+- (struct CGRect);
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
+- (void)p;
 - (_Bool);
 - (struct CGRect);
 - (id);
 - (struct CGContext *);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double)ethods.;
 - (void)¯U48g;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect aggregateInvalidRect; // @synthesize aggregateInvalidRect=_aggregateInvalidRect;
 @property(readonly, nonatomic) struct CGContext *bitmapContext; // @synthesize bitmapContext=_bitmapContext;
-@property(nonatomic) __weak UIKBHandwritingView *keyView; // @synthesize keyView=_keyView;
-@property(readonly, nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end
 

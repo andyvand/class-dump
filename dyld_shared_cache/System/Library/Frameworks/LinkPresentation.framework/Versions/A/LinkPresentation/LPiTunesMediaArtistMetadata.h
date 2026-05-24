@@ -6,16 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaArtistMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_genre;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
@@ -32,34 +27,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)@. No identity set for service %@.;
+- (id)zone %@.;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)i;
 - (void);
 - (id);
-- (id);
+- (id)eters:session:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

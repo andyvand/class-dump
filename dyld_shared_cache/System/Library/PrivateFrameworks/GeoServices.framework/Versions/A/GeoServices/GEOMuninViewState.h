@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCameraFrame, GEOLocationInfo, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOMuninViewState
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOCameraFrame *_cameraFrame;
-    GEOLocationInfo *_locationInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_cameraFrame:1;
-        unsigned int read_locationInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tIndex:(id)arg1;
++ (_Bool)setHasTransitIncidentIndex:(id)arg1;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)observableWithFuture:schedulerProvider: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)authenticateName:(_Bool)arg1 withPassword: /* Error: Ran out of types for this method. */;
+- (void)s	;
+- (id)from override policy.;
+- (void)rFirstPassJarvis _handleSecondPassResult:(id)arg1 deviceId:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -50,11 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOCameraFrame *cameraFrame;
 @property(readonly, nonatomic) _Bool hasCameraFrame;
-@property(readonly, nonatomic) _Bool hasLocationInfo;
-@property(retain, nonatomic) GEOLocationInfo *locationInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

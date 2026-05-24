@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, CKRecordZoneID, NSArray, NSString;
+@class CKDatabase;
 
 @interface FCHCZoneContentsExpectation
 {
     CKDatabase *_database;
-    CKRecordZoneID *_zoneID;
-    NSArray *_recordTests;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void)nerName;
-- (void)xpirationData;
-- (void)dgetForYouMaxEvergreen;
+- (id)o create CFArray of enctypes;
+- (id)Size=7;;
+- (void)ownerName;
+- (void)expirationData;
+- (void)todayWidgetForYouMaxEvergreen;
 
 // Remaining properties
 @property(retain, nonatomic) CKDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *recordTests; // @synthesize recordTests=_recordTests;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

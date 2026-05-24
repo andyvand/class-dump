@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PRImageView, PRLikeness, PRMonogramView;
-
 @interface PRLikenessView
 {
     _Bool _circular;
-    PRMonogramView *_monogramView;
-    PRImageView *_imageView;
-    unsigned long long _likenessType;
-    NSData *_recipe;
-    struct CGRect _cropRect;
-    struct CGImage *_staticRepresentation;
-    _Bool _highlighted;
-    _Bool _shouldDecode;
-    PRLikeness *_likeness;
 }
 
 + (void);
@@ -27,27 +16,24 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)k;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)=;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)EmojiContainerCircle;
 - (void);
 
 // Remaining properties
 @property(nonatomic, getter=isCircular) _Bool circular; // @synthesize circular=_circular;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) PRLikeness *likeness; // @synthesize likeness=_likeness;
-@property(nonatomic) _Bool shouldDecode; // @synthesize shouldDecode=_shouldDecode;
 
 @end
 

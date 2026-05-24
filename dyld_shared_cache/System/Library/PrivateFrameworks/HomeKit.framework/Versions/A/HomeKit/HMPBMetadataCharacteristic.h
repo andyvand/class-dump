@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface HMPBMetadataCharacteristic
 {
     NSString *_chrDescription;
-    NSString *_uuidStr;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)invade;
 - (id);
 - (id);
 - (void)RpS´T;

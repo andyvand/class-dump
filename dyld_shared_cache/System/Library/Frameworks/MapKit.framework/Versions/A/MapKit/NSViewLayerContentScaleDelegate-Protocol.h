@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CALayer;
+
 @protocol NSViewLayerContentScaleDelegate
+
+@optional
+- (_Bool)setCkAssetThresholdBytes:(CALayer *)arg1;
 @end
 

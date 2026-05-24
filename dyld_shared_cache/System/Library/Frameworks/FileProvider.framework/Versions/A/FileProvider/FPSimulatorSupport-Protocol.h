@@ -5,5 +5,7 @@
 //
 
 @protocol FPSimulatorSupport
+- (void)"M;
+- (void);
 @end
 

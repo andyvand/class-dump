@@ -6,7 +6,7 @@
 
 #import <ContactsPersistence/ABCDOwnedObject.h>
 
-@class ABCDService, NSArray, NSString;
+@class NSString;
 
 @interface CNCDMessagingAddress : ABCDOwnedObject
 {
@@ -15,18 +15,12 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *address; // @dynamic address;
-@property(retain, nonatomic) NSString *associatedServiceName;
-@property(copy, nonatomic) NSArray *bundleIdentifiers;
 @property(copy) NSString *bundleIdentifiersString; // @dynamic bundleIdentifiersString;
-@property(retain, nonatomic) ABCDService *service; // @dynamic service;
-@property(copy, nonatomic) NSString *teamIdentifier; // @dynamic teamIdentifier;
-@property(retain, nonatomic) NSString *userIdentifier; // @dynamic userIdentifier;
 
 @end
 

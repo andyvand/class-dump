@@ -5,5 +5,8 @@
 //
 
 @protocol NSSplitViewDelegate
+
+@optional
+- (struct CGRect);
 @end
 

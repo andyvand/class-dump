@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, CKRecordID, NSString;
+@class CKRecordID;
 
 @interface CKDRecordResponse
 {
     CKRecordID *_recordID;
-    CKRecord *_record;
-    NSString *_etag;
 }
 
+- (id);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setInAWDL_BestP2PScore: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Üa;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(readonly, nonatomic) CKRecord *record; // @synthesize record=_record;
 @property(readonly, copy, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
 
 @end

@@ -4,83 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIView, _UISecondaryClickDriverGestureRecognizer;
-@protocol _UIClickInteractionDriverDelegate;
+@class _UISecondaryClickDriverGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UISecondaryClickClickInteractionDriver
 {
     unsigned long long _currentState;
-    _Bool _cancelsTouchesInView;
-    _Bool _clicksUpAutomaticallyAfterTimeout;
-    id <_UIClickInteractionDriverDelegate> _delegate;
-    UIView *_view;
-    double _allowableMovement;
-    _UISecondaryClickDriverGestureRecognizer *_gestureRecognizer;
 }
 
 + (_Bool)!èBùQ^1Â0@ù
 × ;
 + (_Bool)ple.UIKit.UIButtonBar.UIButton;
-- (void);
-- (unsigned long long);
-- (double);
-- (id);
+- (void)Chunkserver__ErrorResponse;
+- (unsigned long long)performSynchronousLibraryRequest:withReply: /* Error: Ran out of types for this method. */;
+- (double)pterData;
+- (id)allowsPickingMultipleItems;
 - (struct CGPoint);
 - (void);
 - (id);
 - (void);
 - (void)A°!pDù±bð1Â0@ù
 × ;
-- (_Bool);
-- (void)te:(id)arg1;
-- (void)itionAdjustmentsFromCoder:(double)arg1 prefix: /* Error: Ran out of types for this method. */;
-- (_Bool)ible;
+- (_Bool)setCellLayoutMarginsFollowReadableWidth:(id)arg1;
+- (void)initWithShouldProxyContextMenuDelegate:(id)arg1;
+- (void)_decodeBadgeTitlePositionAdjustmentsFromCoder:(double)arg1 prefix: /* Error: Ran out of types for this method. */;
+- (_Bool)_cursorVisible;
 - (id)d,N,V_audioScaleAnimationResponse;
 - (void)tributedString",&,N,V_pasteResult;
-- (_Bool)assStyle;
+- (_Bool)_UITraitControlGlassStyle;
 - (double)Ü ;
-- (void)ewController;
+- (void)viewController;
 - (void)ÈÁþ;
 - (void);
 - (_Bool);
-- (_Bool)Config;
+- (_Bool)ItemConfig;
 - (double)è23´]£þ;
 - (id);
-- (unsigned long long)nsKey;
+- (unsigned long long)NUIApplicationOpenExternalURLOptionsKey;
 - (id)²R0í¯43P;
 - (_Bool);
 - (_Bool);
 - (_Bool)^;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(readonly, nonatomic) _Bool allowsFeedback;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool cancelsTouchesInView; // @synthesize cancelsTouchesInView=_cancelsTouchesInView;
-@property(readonly, nonatomic) _Bool clicksUpAutomaticallyAfterTimeout; // @synthesize clicksUpAutomaticallyAfterTimeout=_clicksUpAutomaticallyAfterTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIClickInteractionDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long driverStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
 @property(retain, nonatomic) _UISecondaryClickDriverGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly, nonatomic) _Bool hasExceededAllowableMovement;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long inputPrecision;
-@property(readonly, nonatomic) _Bool isCurrentlyAcceleratedByForce;
-@property(readonly, nonatomic) double maximumEffectProgress;
-@property(readonly, nonatomic) UIGestureRecognizer *primaryGestureRecognizer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double touchDuration;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

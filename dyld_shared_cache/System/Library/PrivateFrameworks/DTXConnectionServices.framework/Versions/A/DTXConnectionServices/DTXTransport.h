@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DTXResourceTracker, NSArray, NSObject;
+@class DTXResourceTracker, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface DTXTransport
 {
     NSObject<OS_dispatch_queue> *_serializer;
-    NSObject<OS_dispatch_queue> *_handlerGuard;
-    DTXResourceTracker *_tracker;
-    CDUnknownBlockType _dataReceivedHandler;
-    unsigned int _status;
-    _Bool _resumed;
 }
 
 + (_Bool);
@@ -39,10 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType dataReceivedHandler;
-@property(readonly) NSArray *localAddresses;
 @property(readonly, nonatomic) DTXResourceTracker *resourceTracker; // @synthesize resourceTracker=_tracker;
-@property unsigned int status; // @synthesize status=_status;
 
 @end
 

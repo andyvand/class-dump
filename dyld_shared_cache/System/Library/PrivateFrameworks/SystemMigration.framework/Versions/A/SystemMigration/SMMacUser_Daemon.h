@@ -6,29 +6,11 @@
 
 #import <SystemMigration/SMUser_Daemon.h>
 
-@class NSLock, NSMutableArray, NSMutableDictionary, NSMutableSet, NSNumber, NSObject, NSURL, SMDBEntry;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SMMacUser_Daemon : SMUser_Daemon
 {
     NSMutableArray *_allOtherFilesInDirectory;
-    NSMutableSet *_userExcludedPathList;
-    NSURL *_cachedAbsHomeDir;
-    NSURL *_picturePath;
-    NSNumber *_cachedHomeDirSize;
-    NSLock *_cachedHomeDirSizeLock;
-    _Bool _calculatingHome;
-    _Bool _homeDirSearchComplete;
-    _Bool _homeDirToBeCopiedByMigration;
-    _Bool _needsAttention;
-    _Bool isAdminUser;
-    _Bool _secureTokenAuth;
-    _Bool _isAutoLoginUser;
-    _Bool _shouldUseAlternateFileVaultHomeDirPath;
-    SMDBEntry *_backing;
-    NSObject<OS_dispatch_queue> *_sizingQueue;
-    NSObject<OS_dispatch_queue> *_excludablePathQueue;
-    NSMutableDictionary *_cachedStatsByPath;
 }
 
 + (id);
@@ -47,7 +29,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,9 +37,9 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)`l;
 - (_Bool);
 - (id);
 - (id);
@@ -75,7 +57,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -85,19 +67,19 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)shelfProvider;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
+- (id);
 - (Class);
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)ing/PhotoApps/PAImageItemViewMode.m;
+- (id)C16@0:(id)arg1 8;
 - (void);
 - (_Bool);
-- (id);
+- (id)nternal/Library/BuildRoots/4~CNrDugCASYl0BwcdRv7LjLO4bLqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsEngineRunner.mm;
 - (id);
 - (id);
 - (void)ñ	1Â0@ù
@@ -107,15 +89,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *allOtherFilesInDirectory; // @synthesize allOtherFilesInDirectory=_allOtherFilesInDirectory;
-@property(retain) SMDBEntry *backing; // @synthesize backing=_backing;
-@property(retain) NSMutableDictionary *cachedStatsByPath; // @synthesize cachedStatsByPath=_cachedStatsByPath;
-@property(readonly, getter=isDisabled) _Bool disabled;
-@property(retain) NSObject<OS_dispatch_queue> *excludablePathQueue; // @synthesize excludablePathQueue=_excludablePathQueue;
-@property _Bool isAdminUser; // @synthesize isAdminUser;
-@property _Bool isAutoLoginUser; // @synthesize isAutoLoginUser=_isAutoLoginUser;
-@property(readonly, getter=isSecureTokenAuth) _Bool secureTokenAuth; // @synthesize secureTokenAuth=_secureTokenAuth;
-@property _Bool shouldUseAlternateFileVaultHomeDirPath; // @synthesize shouldUseAlternateFileVaultHomeDirPath=_shouldUseAlternateFileVaultHomeDirPath;
-@property(retain) NSObject<OS_dispatch_queue> *sizingQueue; // @synthesize sizingQueue=_sizingQueue;
 
 @end
 

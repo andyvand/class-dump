@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)sAutoShiftFor3PK;
+- (void)m_usesAutoShiftFor3PK;
 - (void)eady being tracked:(id)arg1 %@
 %@
 Set a breakpoint in %s to debug this issue.;

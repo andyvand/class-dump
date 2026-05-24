@@ -8,25 +8,23 @@ __attribute__((visibility("hidden")))
 @interface _NSItemProviderTypeCoercion
 {
     id _value;
-    Class _targetClass;
 }
 
 + (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (Class);
-- (id)sAllObjects;
+- (id)_isAllObjects;
 - (void)floatingPoint;
 
 // Remaining properties
-@property(copy) Class targetClass; // @synthesize targetClass=_targetClass;
 @property(retain) id value; // @synthesize value=_value;
 
 @end

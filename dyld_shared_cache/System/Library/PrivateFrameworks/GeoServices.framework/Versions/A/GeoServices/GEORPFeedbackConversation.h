@@ -9,12 +9,11 @@
 @interface GEORPFeedbackConversation
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_messages;
 }
 
 + (Class);
-+ (_Bool)ggered:(id)arg1;
-- (void);
++ (_Bool)setIsSuggestToFindmyTriggered:(id)arg1;
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -25,21 +24,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)!g;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)b1};
-- (id)VertexE7: /* Error: Ran out of types for this method. */;
+- (id)addVertexE7: /* Error: Ran out of types for this method. */;
 - (id)¬±;
-- (id)y_filter_type;
+- (id)privacy_filter_type;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *messages;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

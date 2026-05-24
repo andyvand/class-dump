@@ -6,21 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PEGASUSSchemaPEGASUSAlternateQuerySuggestionCandidateTier1 : SISchemaInstrumentationMessage
 {
     int _alternateQuerySuggestionType;
-    NSString *_text;
-    struct {
-        unsigned int alternateQuerySuggestionType:1;
-    } _has;
-    _Bool _hasText;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (int);
 - (_Bool);
 - (void);
@@ -30,23 +23,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)Z;
+- (_Bool)lt:(id)arg1 %lu);
 - (id);
 - (id)
 × ;
-- (void)tcutEnabled:(id)arg1;
-- (id)d;
+- (void)setHasIsAutoShortcutEnabled:(id)arg1;
+- (id)_factorPackId;
 - (id)@"RGSiriSchemaRGCatalogFailed",&,N,V_failed;
-- (_Bool)N;
+- (_Bool)TRIGGERPHRASE_UNKNOWN;
 - (void)outcome.actionRequirement.systemRequirement.protectedAppApprovalRequired.bundleId;
 
 // Remaining properties
 @property(nonatomic) int alternateQuerySuggestionType; // @synthesize alternateQuerySuggestionType=_alternateQuerySuggestionType;
-@property(nonatomic) _Bool hasAlternateQuerySuggestionType;
-@property(nonatomic) _Bool hasText; // @synthesize hasText=_hasText;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

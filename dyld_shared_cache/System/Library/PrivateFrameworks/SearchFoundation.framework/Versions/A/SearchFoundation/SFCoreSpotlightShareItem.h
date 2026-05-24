@@ -6,30 +6,17 @@
 
 #import <SearchFoundation/SFShareItem.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFCoreSpotlightShareItem : SFShareItem
 {
     NSString *_shareProviderTypeIdentifier;
-    NSString *_applicationBundleIdentifier;
-    NSString *_coreSpotlightIdentifier;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *shareProviderTypeIdentifier; // @synthesize shareProviderTypeIdentifier=_shareProviderTypeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,30 +9,26 @@
 @interface TSDTilingTileLayer : TSDNoDefaultImplicitActionLayer
 {
     unsigned long long mIndex;
-    _Bool mNeedsTileDisplay;
-    CDStruct_73b5d383 mLocation;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)ayer.assistant.grouping;
+- (id)ion;
+- (void)Waiting to minimize stalls;
+- (void)d by AV;
+- (void)itiate Playback;
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (CDStruct_73b5d383)1Â0@ù
+- (CDStruct_4bcfbbae)1Â0@ù
 × ;
 - (void)at use UITextInteraction.;
-- (void)tion;
+- (void)annotation;
 - (void)Eþ[);
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @synthesize index=mIndex;
-@property(nonatomic) CDStruct_73b5d383 location; // @synthesize location=mLocation;
-@property(nonatomic) _Bool needsTileDisplay; // @synthesize needsTileDisplay=mNeedsTileDisplay;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _UIPopoverPresentationControllerSourceItem_Internal;
 
 __attribute__((visibility("hidden")))
@@ -13,23 +12,17 @@ __attribute__((visibility("hidden")))
     id <_UIPopoverPresentationControllerSourceItem_Internal> _sourceItem;
 }
 
-+ (id);
-- (struct CGRect);
++ (id);
+- (struct CGRect)setIntelligentlyClassifiedAsTimeSensitive:(id)arg1;
+- (id)cordZoneID;
+- (struct CGRect)CKRecordZoneID",R,N,V_chat1RecordZoneID;
 - (id);
-- (struct CGRect);
-- (id);
-- (struct CGRect);
+- (struct CGRect)transfer GUID. Rejected edit.;
 - (id);
 - (void)<,Ô;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

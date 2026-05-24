@@ -6,30 +6,29 @@
 
 #import <LaunchServices/LSPropertyList.h>
 
-@class NSDictionary, NSSet;
+@class NSSet;
 
 @interface LSBundleInfoCachedValues : LSPropertyList
 {
     NSSet *_keys;
-    NSDictionary *_values;
 }
 
 - (id);
 - (id);
+- (id)NetworkInterfaceSetConfiguration failed(), interface=%@, type=NULL;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)T?;
+- (id)AA;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ynchronizeTexture:(id)arg1 slice:(Class)arg2 level:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)À;
@@ -38,7 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allKeys; // @synthesize allKeys=_keys;
-@property(readonly, nonatomic) NSDictionary *rawValues; // @synthesize rawValues=_values;
 
 @end
 

@@ -9,20 +9,18 @@
 @interface HMFStringIndentation : HMFObject
 {
     unsigned long long _width;
-    unsigned long long _level;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"input_buffer_attributes_"^{__CFDictionary}"output_buffer_attributes_"^{__CFDictionary}};
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long level; // @synthesize level=_level;
 @property(readonly) unsigned long long width; // @synthesize width=_width;
 
 @end

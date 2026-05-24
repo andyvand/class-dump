@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSShadow;
-
 @interface PXStoryExtendedTraitCollection
 {
     double _displayScale;
-    double _viewportCornerRadius;
-    NSShadow *_viewportShadow;
-    double _bottomTitleContentOffset;
-    struct CGSize _layoutReferenceSize;
 }
 
 - (id);
@@ -23,16 +17,17 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)ComputeTextureCoordinates1; 
+			ComputeTextureCoordinates2; 
+		} 
+		;
 - (double)a'°!Dù;ð1Â0@ù
 × ;
 - (void)43ÿþQ³0_;
 - (long long)GÉÿ£~Q]<;
 
 // Remaining properties
-@property(readonly, nonatomic) double bottomTitleContentOffset; // @synthesize bottomTitleContentOffset=_bottomTitleContentOffset;
 @property(readonly, nonatomic) double viewportCornerRadius; // @synthesize viewportCornerRadius=_viewportCornerRadius;
-@property(readonly, nonatomic) NSShadow *viewportShadow; // @synthesize viewportShadow=_viewportShadow;
 
 @end
 

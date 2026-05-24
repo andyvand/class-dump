@@ -13,11 +13,11 @@
 + (id);
 - (void *);
 - (id);
-- (id);
-- (id);
+- (id)4hB9;
+- (id)R;
 - (void *);
-- (void);
-- (id);
+- (void);
+- (id);
 
 @end
 

@@ -9,7 +9,6 @@
 @interface Speech.SFCustomLanguageModelData.TemplatePhraseCountGenerator : Speech.SFCustomLanguageModelData.PhraseCountGenerator
 {
     id templates;
-    id templateClasses;
 }
 
 @end

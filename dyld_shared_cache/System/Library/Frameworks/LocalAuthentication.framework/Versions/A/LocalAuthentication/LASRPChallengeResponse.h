@@ -9,18 +9,16 @@
 @interface LASRPChallengeResponse
 {
     void m1;
-    void publicKeyA;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *m1;
-@property(nonatomic, readonly) NSData *publicKeyA;
 
 @end
 

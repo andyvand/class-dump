@@ -12,11 +12,11 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id)
 × ;
-- (unsigned long long)etionAtURL:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)ration;
+- (unsigned long long)accommodatePresentedSubitemDeletionAtURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)FCAVAssetKeyFetchOperation;
 - (unsigned long long)Øò;
 - (id)ÿ{Exù;
 - (int)/ìFô¯;

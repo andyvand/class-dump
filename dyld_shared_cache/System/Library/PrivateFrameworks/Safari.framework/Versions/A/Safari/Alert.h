@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface Alert
 {
     CDUnknownBlockType _completionHandler;
-    NSTimer *_enableButtonsTimer;
-    id _leftMouseButtonEventMonitor;
-    _Bool _delayButtonActions;
 }
 
 - (void);
@@ -28,14 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)pÈù0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic, getter=isDelayingButtonActions) _Bool delayButtonActions; // @synthesize delayButtonActions=_delayButtonActions;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

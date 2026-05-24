@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PhotosGraph.PGUpNextDebugInfoBuilder
 {
     _Bool wantsVerboseDebugInfo;
-    void inputDebugInfo;
-    _Bool rootMemoryIsAggregation;
-    void rootMemoryNodeUniqueIdentifier;
-    void momentUUIDs;
-    void featureWeightVectors;
-    id suggestionFilteringLogs;
 }
 
-- (_Bool);
+- (_Bool)_descriptionOfType:forUIElement:singleCharCheck: /* Error: Ran out of types for this method. */;
+- (void)_AXKKeyboardFocusListenerWrapper;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void).wifi.strength.4.withNetwork%@%@;
+- (void)XKInputMarkingSessionTracker.queue;
 - (id);
 - (_Bool);
 - (id);
@@ -35,12 +27,6 @@
 - (void)actor;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugInfo;
-@property(nonatomic, copy) NSArray *featureWeightVectors;
-@property(nonatomic, copy) NSString *inputDebugInfo;
-@property(nonatomic, copy) NSArray *momentUUIDs;
-@property(nonatomic) _Bool rootMemoryIsAggregation; // @synthesize rootMemoryIsAggregation;
-@property(nonatomic, copy) NSString *rootMemoryNodeUniqueIdentifier;
 @property(nonatomic) _Bool wantsVerboseDebugInfo; // @synthesize wantsVerboseDebugInfo;
 
 @end

@@ -11,7 +11,6 @@
 @interface DMFRemoveProvisioningProfileRequest : DMFTaskRequest
 {
     NSString *_profileIdentifier;
-    NSString *_managingProfileIdentifier;
 }
 
 + (_Bool);
@@ -24,10 +23,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)autocompleteExtendedResultIdentifierLabelTextColor;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *managingProfileIdentifier; // @synthesize managingProfileIdentifier=_managingProfileIdentifier;
 @property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
 
 @end

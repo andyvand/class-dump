@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AVTSplashScreenLayoutDelegate;
-
 @interface AVTSplashScreenLayout
 {
     _Bool _wantsSecondaryVideo;
-    _Bool _constrainToContainer;
-    _Bool _needsLayout;
-    id <AVTSplashScreenLayoutDelegate> _delegate;
-    unsigned long long _labelEdgePaddingStyle;
-    NSString *_currentContentSizeCategory;
-    struct CGSize _containerSize;
-    struct CGSize _unconstrainedContentSize;
-    struct UIEdgeInsets _edgeInsets;
-    struct CGRect _titleFrame;
-    struct CGRect _subTitleFrame;
-    struct CGRect _primaryVideoFrame;
-    struct CGRect _secondaryVideoFrame;
-    struct CGRect _buttonFrame;
 }
 
 + (struct CGRect);
@@ -50,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)/;
 - (struct CGRect);
 - (unsigned long long);
 - (id);
@@ -58,7 +42,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect)w	;
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -69,24 +53,12 @@
 - (id);
 - (id);
 - (void);
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize)id:%d,%s:%s%s%s%s%s%u:%s Failed to unwrap backup bag as DER:0x%08x%s
+ /* Error: Ran out of types for this method. */;
+- (_Bool)0;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect buttonFrame; // @synthesize buttonFrame=_buttonFrame;
-@property(nonatomic) _Bool constrainToContainer; // @synthesize constrainToContainer=_constrainToContainer;
-@property(readonly, nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(copy, nonatomic) NSString *currentContentSizeCategory; // @synthesize currentContentSizeCategory=_currentContentSizeCategory;
-@property(nonatomic) __weak id <AVTSplashScreenLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(readonly, nonatomic) unsigned long long labelEdgePaddingStyle; // @synthesize labelEdgePaddingStyle=_labelEdgePaddingStyle;
-@property(nonatomic) _Bool needsLayout; // @synthesize needsLayout=_needsLayout;
-@property(nonatomic) struct CGRect primaryVideoFrame; // @synthesize primaryVideoFrame=_primaryVideoFrame;
-@property(nonatomic) struct CGRect secondaryVideoFrame; // @synthesize secondaryVideoFrame=_secondaryVideoFrame;
-@property(nonatomic) struct CGRect subTitleFrame; // @synthesize subTitleFrame=_subTitleFrame;
-@property(nonatomic) struct CGRect titleFrame; // @synthesize titleFrame=_titleFrame;
-@property(readonly, nonatomic) struct CGSize unconstrainedContentSize; // @synthesize unconstrainedContentSize=_unconstrainedContentSize;
 @property(nonatomic) _Bool wantsSecondaryVideo; // @synthesize wantsSecondaryVideo=_wantsSecondaryVideo;
 
 @end

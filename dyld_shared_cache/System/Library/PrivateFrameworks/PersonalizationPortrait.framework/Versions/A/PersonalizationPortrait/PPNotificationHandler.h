@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _PASLock;
-@protocol OS_dispatch_queue;
+@class _PASLock;
 
 @interface PPNotificationHandler
 {
     _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_waiterQueue;
-    double _waitSeconds;
-    NSString *_name;
 }
 
 - (double);
+- (id)PKAutoRefineQueryDelegate;
 - (id);
+- (void)Rhb;
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) double waitSeconds; // @synthesize waitSeconds=_waitSeconds;
 
 @end

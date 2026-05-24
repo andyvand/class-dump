@@ -6,16 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCImagePort, QCIndexPort, QCNumberPort;
+@class QCImagePort;
 
 @interface QCImageDimensions : QCPatch
 {
     QCImagePort *inputImage;
-    QCNumberPort *outputWidth;
-    QCNumberPort *outputHeight;
-    QCIndexPort *outputPixelsWide;
-    QCIndexPort *outputPixelsHigh;
-    QCNumberPort *outputRatio;
 }
 
 + (_Bool);

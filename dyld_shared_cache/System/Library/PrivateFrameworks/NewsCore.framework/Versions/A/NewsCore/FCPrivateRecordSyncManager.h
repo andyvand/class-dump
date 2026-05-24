@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSArray, NSDate, NSString, NTPBPrivateRecordSyncState;
-@protocol FCPrivateRecordSyncManagerDelegate;
+@class CKRecordID, NSDate;
 
 @interface FCPrivateRecordSyncManager
 {
     CKRecordID *_recordID;
-    id <FCPrivateRecordSyncManagerDelegate> _delegate;
-    NSArray *_desiredKeys;
-    NTPBPrivateRecordSyncState *_currentState;
 }
 
 - (_Bool);
@@ -20,22 +16,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)0FNS_12basic_stringIcNS_11char_traitsIcEENS6_IcEEEERNS2_14KeyboardLayoutEEEE;
 - (id);
 - (void);
 - (id)ternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCHeadline.m;
 - (void)abase saveFeedItems:feedIDs:extentByFeedID:requestRangeByFeedID:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDate *lastCleanDate;
-@property(readonly, nonatomic) NSDate *lastDirtyDate;
-@property(readonly) Class superclass;
 
 @end
 

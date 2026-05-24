@@ -5,5 +5,7 @@
 //
 
 @protocol SXComponentExposureMonitor
+- (void);
+- (void);
 @end
 

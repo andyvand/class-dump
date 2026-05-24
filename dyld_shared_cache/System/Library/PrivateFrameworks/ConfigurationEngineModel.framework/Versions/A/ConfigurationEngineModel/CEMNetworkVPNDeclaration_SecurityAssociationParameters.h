@@ -6,19 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkVPNDeclaration_SecurityAssociationParameters : CEMPayloadBase
 {
     NSString *_payloadEncryptionAlgorithm;
-    NSString *_payloadIntegrityAlgorithm;
-    NSNumber *_payloadDiffieHellmanGroup;
-    NSNumber *_payloadLifeTimeInMinutes;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)y/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking;
 - (void);
 - (void);
 - (void);
@@ -28,15 +25,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ttributes>(([^\/<> \t\n\r]*)\s*=\s*(("[^"]*")|('[^']*'))\s*)*)\s*(?<selfClosed>\/)?\s*>;
 - (id);
-- (void);
+- (void)SSL_set_wfd;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadDiffieHellmanGroup; // @synthesize payloadDiffieHellmanGroup=_payloadDiffieHellmanGroup;
 @property(copy, nonatomic) NSString *payloadEncryptionAlgorithm; // @synthesize payloadEncryptionAlgorithm=_payloadEncryptionAlgorithm;
-@property(copy, nonatomic) NSString *payloadIntegrityAlgorithm; // @synthesize payloadIntegrityAlgorithm=_payloadIntegrityAlgorithm;
-@property(copy, nonatomic) NSNumber *payloadLifeTimeInMinutes; // @synthesize payloadLifeTimeInMinutes=_payloadLifeTimeInMinutes;
 
 @end
 

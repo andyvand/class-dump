@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORelatedCollectionSection, NSArray, NSString;
+@class NSString;
 
 @interface GEORelatedEntitySection
 {
     unsigned int _index;
-    NSString *_name;
-    long long _sectionType;
-    GEORelatedCollectionSection *_relatedCollectionSection;
-    NSArray *_relatedPlaceCollections;
 }
 
+- (id)touch: /* Error: Ran out of types for this method. */;
+- (id)thumbnailImageDataCheckingLegacyImages: /* Error: Ran out of types for this method. */;
+- (id)preparationTaskWithRequest:(id)arg1;
+- (id),R,D,N;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)cognitionAssetDownloadMonitor _didInstalledNewAsset];
 - (unsigned int)egoryIntentReadAllFrom can only be called once per object;
 - (void)¤¶BAñH¼<#P@;
 - (long long)þåÓ7>3;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int index; // @synthesize index=_index;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) GEORelatedCollectionSection *relatedCollectionSection; // @synthesize relatedCollectionSection=_relatedCollectionSection;
-@property(readonly, nonatomic) NSArray *relatedPlaceCollections; // @synthesize relatedPlaceCollections=_relatedPlaceCollections;
-@property(readonly, nonatomic) long long sectionType; // @synthesize sectionType=_sectionType;
 
 @end
 

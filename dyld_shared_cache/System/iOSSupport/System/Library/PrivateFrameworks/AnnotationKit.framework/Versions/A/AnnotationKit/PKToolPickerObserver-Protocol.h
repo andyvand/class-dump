@@ -5,5 +5,9 @@
 //
 
 @protocol PKToolPickerObserver
+
+@optional
+- (void)_;
+- (void);
 @end
 

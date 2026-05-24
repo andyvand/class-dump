@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkHTMLGenerator, LPLinkMetadata, NSNumber, NSString, NSURL, WebView;
+@class WebView;
 @protocol LPLinkHTMLTextGeneratorDelegate;
 
 @interface LPLinkHTMLTextGenerator
 {
     WebView *_webView;
-    LPLinkHTMLGenerator *_DOMGenerator;
-    NSString *_generatedFragmentText;
-    id <LPLinkHTMLTextGeneratorDelegate> _delegate;
-    NSString *_htmlPrefix;
-    NSNumber *_layoutDirection;
 }
 
 + (void)Øï;
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -30,32 +25,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setZoneIDsNeedingDugongKeyRoll: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)A9(;
+- (id)PFMediaCapabilitiesSupportUnknown;
 - (void);
 - (void);
 - (void);
 - (id)ùÿfüI¾;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *HTMLFragmentString;
-@property(readonly, copy, nonatomic) NSURL *URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <LPLinkHTMLTextGeneratorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool generateEmailCompatibleMarkup;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *htmlPrefix; // @synthesize htmlPrefix=_htmlPrefix;
-@property(copy, nonatomic) NSNumber *layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(copy, nonatomic) LPLinkMetadata *metadata;
-@property(readonly) Class superclass;
 
 @end
 

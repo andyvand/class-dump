@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _CPLEngineScopeCache
 {
     NSMutableDictionary *_scopeCache;
-    NSMutableDictionary *_scopeByLocalIndex;
-    NSMutableDictionary *_scopeByCloudIndex;
-    NSMutableDictionary *_scopeByStableIndex;
-    NSIndexSet *_validLocalIndexes;
-    NSIndexSet *_validCloudIndexes;
 }
 
 - (void);
@@ -24,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (id);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 

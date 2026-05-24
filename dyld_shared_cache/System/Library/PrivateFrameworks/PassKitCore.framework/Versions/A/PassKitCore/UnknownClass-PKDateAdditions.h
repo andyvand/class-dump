@@ -6,7 +6,7 @@
 
 @interface UnknownClass (PKDateAdditions)
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (long long);

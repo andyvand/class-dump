@@ -7,7 +7,6 @@
 @interface Vision.Session
 {
     id vnSession;
-    id detectorCache;
 }
 
 @end

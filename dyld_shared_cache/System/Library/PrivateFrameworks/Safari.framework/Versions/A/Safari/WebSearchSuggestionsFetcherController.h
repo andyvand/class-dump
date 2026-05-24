@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSTimer, WBSCompletionQuery, WBSOpenSearchURLTemplate;
+@class WBSCompletionQuery;
 
 __attribute__((visibility("hidden")))
 @interface WebSearchSuggestionsFetcherController
 {
     struct WebSearchSuggestionsFetcherControllerClient *_client;
-    NSMutableDictionary *_fetchersBySuggestionsURLTemplate;
-    NSMutableSet *_suggestionsURLTemplates;
-    WBSOpenSearchURLTemplate *_defaultSearchProviderURLTemplate;
-    NSMutableDictionary *_searchSuggestionCachesByURLTemplate;
-    NSTimer *_clearSearchSuggestionsCacheTimer;
-    WBSCompletionQuery *_completionQuery;
-    WBSCompletionQuery *_completionQueryForQuickWebsiteSearch;
 }
 
 - (void);
@@ -35,12 +28,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id)tusBarIsEnabled:(struct WebSearchSuggestionsFetcherControllerClient *)arg1;
+- (id)reportOverlayStatusBarIsEnabled:(struct WebSearchSuggestionsFetcherControllerClient *)arg1;
 - (void)$;
 
 // Remaining properties
 @property(retain, nonatomic) WBSCompletionQuery *completionQuery; // @synthesize completionQuery=_completionQuery;
-@property(retain, nonatomic) WBSCompletionQuery *completionQueryForQuickWebsiteSearch; // @synthesize completionQueryForQuickWebsiteSearch=_completionQueryForQuickWebsiteSearch;
 
 @end
 

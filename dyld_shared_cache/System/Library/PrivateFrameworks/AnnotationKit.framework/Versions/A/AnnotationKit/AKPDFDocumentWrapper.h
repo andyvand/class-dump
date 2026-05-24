@@ -12,7 +12,7 @@
 - (id);
 - (void);
 - (id);
-- (struct CGPDFDocument *);
+- (struct CGPDFDocument *)` k;
 
 @end
 

@@ -7,17 +7,13 @@
 @interface CHStringOVSChecker
 {
     struct _CFBurstTrie *_ovsTrie;
-    unsigned int _flagsFilter;
-    ObjectRef_c4ceabc4 _staticLexicon;
-    ObjectRef_c4ceabc4 _customLexicon;
-    CDUnknownFunctionPointerType _stringNormalizationFunction;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)DateInterval;
 - (id);
 - (void);
 

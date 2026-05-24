@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
 @protocol CHStrokeProvider;
 
 @interface CHStrokeGroupingManager
 {
     _Bool _isInlineContinuousMode;
-    id <CHStrokeProvider> _strokeProvider;
-    NSArray *_locales;
-    NSArray *_textInputTargets;
-    NSDictionary *_groupingStrategiesByIdentifierForTextStrokeClasses;
 }
 
 + (id);
@@ -31,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInlineContinuousMode; // @synthesize isInlineContinuousMode=_isInlineContinuousMode;
-@property(readonly, nonatomic) NSArray *locales; // @synthesize locales=_locales;
 @property(readonly, nonatomic) id <CHStrokeProvider> strokeProvider; // @synthesize strokeProvider=_strokeProvider;
-@property(readonly, nonatomic) NSArray *textInputTargets; // @synthesize textInputTargets=_textInputTargets;
 
 @end
 

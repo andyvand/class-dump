@@ -9,27 +9,19 @@
 @interface CWFDevice
 {
     NSString *_deviceRapportEffectiveIdentifier;
-    NSString *_macAddress;
-    NSString *_ipAddress;
-    NSString *_deviceName;
-    NSString *_productType;
-    NSString *_productColor;
-    NSString *_productMarketingName;
-    NSString *_model;
-    unsigned long long _retryCount;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)nsForRequest:(id)arg1 updateHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
@@ -37,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)rP;
 - (void)Array",C,D;
 - (void)cloud KVS;
 - (void)face:(id)arg1 %@;
@@ -46,15 +38,7 @@
 - (id)[ùÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
 @property(retain, nonatomic) NSString *deviceRapportEffectiveIdentifier; // @synthesize deviceRapportEffectiveIdentifier=_deviceRapportEffectiveIdentifier;
-@property(copy, nonatomic) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(copy, nonatomic) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *productColor; // @synthesize productColor=_productColor;
-@property(copy, nonatomic) NSString *productMarketingName; // @synthesize productMarketingName=_productMarketingName;
-@property(copy, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
 
 @end
 

@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)ingAsAmountType: /* Error: Ran out of types for this method. */;
++ (long long)StringAsAmountType: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)tion;
+- (id)_capitalization;
 
 @end
 

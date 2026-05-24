@@ -4,45 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_xpc_object;
+@class NSString;
 
 @interface CMCaptureFrameSenderService
 {
     NSString *_endpointUniqueID;
-    NSString *_endpointType;
-    NSString *_endpointCameraUniqueID;
-    NSData *_endpointAuditToken;
-    NSData *_endpointProxyAuditToken;
-    int _endpointPID;
-    int _endpointProxyPID;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_listener;
-    NSObject<OS_xpc_object> *_endpoint;
-    NSMutableArray *_clients;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    struct __CVPixelBufferPool *_sendingPixelBufferPool;
-    struct opaqueCMFormatDescription *_sendingSampleBufferFormatDescription;
-    struct OpaqueVTPixelTransferSession *_sendingPixelTransferSession;
-    struct OpaqueVTPixelRotationSession *_sendingPixelRotationSession;
-    NSObject<OS_dispatch_source> *_reapSendingPixelTransferSessionTimer;
-    double _sendingPixelBufferPoolAgeOutTime;
-    unsigned long long _sendingPixelBufferWidth;
-    unsigned long long _sendingPixelBufferHeight;
-    unsigned int _sendingPixelBufferPixelFormatType;
-    int _crossPlatformRotationDegrees;
-    int _sendingPixelBufferPoolSize;
-    _Bool _sendingPixelBufferIsAWeirdSize;
 }
 
 + (void)ph connectOutput:parentNodeOutput toInput:fanOutNode.input pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
-- (int);
+- (int)C;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)a;
 - (struct opaqueCMSampleBuffer *);
 - (void);
-- (void);
+- (void)addStyle:index: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

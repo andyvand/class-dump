@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)sUpdate;
-+ (id)teSubviewOrder;
++ (id)backgroundLayoutNeedsUpdate;
++ (id)_updateSubviewOrder;
 + (Class);
 
 @end

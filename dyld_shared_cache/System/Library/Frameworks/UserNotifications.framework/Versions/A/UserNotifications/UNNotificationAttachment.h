@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, UNNotificationAttachmentOptions, UNSecurityScopedURL;
+@class UNSecurityScopedURL;
 
 @interface UNNotificationAttachment
 {
     UNSecurityScopedURL *_securityScopedURL;
-    struct os_unfair_lock_s _securityScopeLock;
-    NSDictionary *_userInfo;
-    NSString *_identifier;
-    NSURL *_URL;
-    NSString *_type;
-    UNNotificationAttachmentOptions *_options;
 }
 
-+ (id);
-+ (id);
++ (id)TH;
++ (id);
 + (_Bool);
 - (id);
 - (id);
@@ -27,7 +21,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)M;
 - (id);
 - (id);
 - (void);
@@ -35,29 +29,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)$;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long family; // @dynamic family;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) UNNotificationAttachmentOptions *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -5,21 +5,14 @@
 //
 
 @class QCSCN_Node;
-@protocol QCSCN_SceneRendererDelegate;
 
 @protocol QCSCN_SceneRenderer
+- (QCSCN_Node *)s;
 - (_Bool)ùÑíð1Â0@ù
 × ;
-- (void)mGl_pipeline_settings12domFog_colorE;
+- (void)N23domGl_pipeline_settings12domFog_colorE;
 
 // Remaining properties
-@property(nonatomic) _Bool autoenablesDefaultLighting;
-@property(readonly, nonatomic) void *context;
 @property(nonatomic) double currentTime;
-@property(nonatomic) id <QCSCN_SceneRendererDelegate> delegate;
-@property(nonatomic, getter=isJitteringEnabled) _Bool jitteringEnabled;
-@property(nonatomic) _Bool loops;
-@property(getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) QCSCN_Node *pointOfView;
 @end
 

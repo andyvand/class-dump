@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDService, NSArray, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfileAssistant
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_identifier;
-    NSString *_name;
-    NSNumber *_active;
-    HMDService *_service;
 }
 
 + (id);
@@ -27,25 +23,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)e %d;
+- (id)`;
+- (id)P;
 - (void);
 - (void);
 - (void)ÁßÐ!°Cùñð1Â0@ù
 × ;
-- (id)ver;
+- (id)HMDResidentMeshObserver;
 - (void)o %@MB;
-- (void)ntextResolutionResultKey;
+- (void)HMDHomeLockNotificationContextResolutionResultKey;
 - (id)°;
 
 // Remaining properties
-@property(copy) NSNumber *active; // @synthesize active=_active;
-@property(readonly) NSArray *allCharacteristics;
-@property(readonly) NSArray *characteristicsToMonitor;
 @property(copy) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(readonly) HMDService *service; // @synthesize service=_service;
 
 @end
 

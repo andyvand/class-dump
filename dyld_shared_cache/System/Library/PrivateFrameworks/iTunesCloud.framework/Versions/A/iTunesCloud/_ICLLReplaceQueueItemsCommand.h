@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _ICLLAutoPlaySource, _ICLLRadioSource;
+@class _ICLLAutoPlaySource;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLReplaceQueueItemsCommand
 {
     _ICLLAutoPlaySource *_autoPlay;
-    NSMutableArray *_items;
-    NSString *_preferredPlayItemId;
-    NSString *_queueContext;
-    _ICLLRadioSource *_radio;
-    int _revision;
-    int _trackGenerationSource;
-    CDStruct_4af0550e _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
 - (void)StatusEnabled;

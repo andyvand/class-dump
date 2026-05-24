@@ -9,30 +9,24 @@
 @interface GEOIndexAndOffset
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _index;
-    unsigned int _offset;
-    struct {
-        unsigned int has_index:1;
-        unsigned int has_offset:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasRouteStepIndex:(id)arg1;
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)setDistributedNotificationCenter: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)A;
+- (void)e>";
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)ate:(struct _NSZone *)arg1;
-- (id)View;
+- (id)setLastUpdateDate:(struct _NSZone *)arg1;
+- (id)GEOResultRefinementView;
 - (id)n failed:metadataClass == nullptr || metadataClass.superclass == PBCodable.class /* Error: Ran out of types for this method. */;
 - (void);
 - (id)Ð;
@@ -45,10 +39,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasOffset;
-@property(nonatomic) unsigned int index;
-@property(nonatomic) unsigned int offset;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

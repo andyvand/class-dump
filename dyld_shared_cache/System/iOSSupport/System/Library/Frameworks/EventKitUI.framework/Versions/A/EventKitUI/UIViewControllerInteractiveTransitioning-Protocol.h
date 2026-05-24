@@ -5,22 +5,16 @@
 //
 
 @protocol UIViewControllerInteractiveTransitioning
+- (void);
 
 @optional
+- (double);
 - (long long)KAutocompleteSearchPasteboardItemProvider>",R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) double completionSpeed;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
 
 @end
 

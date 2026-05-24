@@ -5,5 +5,6 @@
 //
 
 @protocol OSADiagnosticMonitorClientProtocol
+- (void)C;
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCollectionResult, GEOPDComponent, GEOPlaceCollection, NSArray;
+@class GEOPDCollectionResult, GEOPlaceCollection;
 
 @interface GEOCollectionResult
 {
     GEOPDCollectionResult *_collectionResult;
-    GEOPDComponent *_collectionComponent;
-    GEOPlaceCollection *_collection;
 }
 
 + (id);
-- (id);
+- (id)ive;
 - (id)@ù
 × ;
 - (void)V6;
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) GEOPlaceCollection *collection;
-@property(readonly, nonatomic) NSArray *placeCollectionItems;
 
 @end
 

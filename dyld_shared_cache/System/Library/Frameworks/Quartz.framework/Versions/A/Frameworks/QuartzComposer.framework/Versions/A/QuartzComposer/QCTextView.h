@@ -12,7 +12,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)itiveRadialSpan;
+- (_Bool)kPrimitiveRadialSpan;
 
 @end
 

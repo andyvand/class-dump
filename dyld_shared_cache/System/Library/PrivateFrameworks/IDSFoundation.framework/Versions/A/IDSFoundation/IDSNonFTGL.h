@@ -21,6 +21,11 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,18 +33,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void){;
+- (void)AnySubscriber;
 - (void)SURLResponse"16@"NSError"24;
 
 @end

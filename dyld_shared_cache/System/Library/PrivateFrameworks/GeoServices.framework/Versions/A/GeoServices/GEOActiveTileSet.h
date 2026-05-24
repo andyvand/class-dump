@@ -4,57 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOActiveTileSet
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOTileSetRegion *_availableTiles;
-    unsigned long long _availableTilesCount;
-    unsigned long long _availableTilesSpace;
-    NSString *_baseURL;
-    NSMutableArray *_countryRegionAllowlists;
-    NSMutableArray *_deviceSKUAllowlists;
-    NSString *_localizationURL;
-    NSMutableArray *_sentinelTiles;
-    NSMutableArray *_supportedLanguages;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _checksumType;
-    int _requestStyle;
-    int _scale;
-    int _size;
-    int _style;
-    unsigned int _timeToLiveSeconds;
-    int _updateBehavior;
-    unsigned int _version;
-    _Bool _useAuthProxy;
-    struct {
-        unsigned int has_checksumType:1;
-        unsigned int has_requestStyle:1;
-        unsigned int has_timeToLiveSeconds:1;
-        unsigned int has_updateBehavior:1;
-        unsigned int has_useAuthProxy:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_availableTiles:1;
-        unsigned int read_baseURL:1;
-        unsigned int read_countryRegionAllowlists:1;
-        unsigned int read_deviceSKUAllowlists:1;
-        unsigned int read_localizationURL:1;
-        unsigned int read_sentinelTiles:1;
-        unsigned int read_supportedLanguages:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (Class);
++ (Class)ing"48^@56;
++ (Class)ilableForDefaultAppCategory, %@;
 + (Class);
 + (Class);
 + (id);
-+ (_Bool)stTimestamp:(id)arg1;
++ (_Bool)setHasMapViewLocationTouristTimestamp:(id)arg1;
 - (_Bool);
 - (int);
 - (void);
@@ -63,39 +25,39 @@
 - (void);
 - (id);
 - (void);
-- (struct GEOTileSetRegion);
+- (struct GEOTileSetRegion);
 - (unsigned long long);
 - (void);
 - (void);
 - (unsigned int);
 - (void);
 - (int);
-- (id);
-- (id);
+- (id);
+- (id)H;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned int);
+- (void)zeroFilter:zeroFilteredBufferAvailable:atHostTime: /* Error: Ran out of types for this method. */;
+- (void)_receiveVoiceGradingDataFromPeerId:(id)arg1 requestInfo:withReply: /* Error: Ran out of types for this method. */;
+- (unsigned int)inished:(unsigned int)arg1 %u isRequestCompleted:(CDStruct_02837cd9)arg2 %u;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (int);
 - (_Bool);
-- (void);
+- (void)!;
 - (_Bool);
 - (int);
 - (void);
-- (id);
-- (void);
-- (int);
-- (void);
-- (void);
+- (id)rs";
+- (void)initWithCapacity:(int)arg1;
+- (int)indexPathWithIndexes:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (void)_calculatePresentationFrameForCalloutView:(int)arg1;
+- (void)_actionManager;
 - (struct GEOTileSetRegion *);
 - (_Bool);
 - (id);
@@ -111,16 +73,16 @@
 - (id)ld"b1};
 - (void)d"b1};
 - (id)";
-- (void)sHoursEditable:(id)arg1;
-- (id)yBuilderSuggestions;
+- (void)setHasIsHoursEditable:(id)arg1;
+- (id)maxQueryBuilderSuggestions;
 - (void)nalResourceIndex=III{?=b1b1b1}},R,N;
 - (id)¸%ð+À,´2@3Ä46¼7;h<8=$>¤>;
 - (void)metry` is missing from `resumeRouteHandle`.;
 - (id)[0, 1]. Clamping and attempting to continue...;
-- (id)vePoint;
+- (id)CoarseLocationAlwaysRandomizeRepresentativePoint;
 - (void)eRequester;
 - (id)|À;
-- (_Bool);
+- (_Bool)tX;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -166,31 +128,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct GEOTileSetRegion *availableTiles;
-@property(readonly, nonatomic) unsigned long long availableTilesCount;
-@property(retain, nonatomic) NSString *baseURL;
-@property(nonatomic) int checksumType;
-@property(retain, nonatomic) NSMutableArray *countryRegionAllowlists;
-@property(retain, nonatomic) NSMutableArray *deviceSKUAllowlists;
 @property(readonly, nonatomic) _Bool hasBaseURL;
-@property(nonatomic) _Bool hasChecksumType;
-@property(readonly, nonatomic) _Bool hasLocalizationURL;
-@property(nonatomic) _Bool hasRequestStyle;
-@property(nonatomic) _Bool hasTimeToLiveSeconds;
-@property(nonatomic) _Bool hasUpdateBehavior;
-@property(nonatomic) _Bool hasUseAuthProxy;
-@property(retain, nonatomic) NSString *localizationURL;
-@property(nonatomic) int requestStyle;
-@property(nonatomic) int scale;
-@property(retain, nonatomic) NSMutableArray *sentinelTiles;
-@property(nonatomic) int size;
-@property(nonatomic) int style;
-@property(retain, nonatomic) NSMutableArray *supportedLanguages;
-@property(nonatomic) unsigned int timeToLiveSeconds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int updateBehavior;
-@property(nonatomic) _Bool useAuthProxy;
-@property(nonatomic) unsigned int version;
 
 @end
 

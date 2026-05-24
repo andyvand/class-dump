@@ -9,7 +9,7 @@
 @protocol UIPasteConfigurationSupporting
 
 @optional
-- (void)eaderFooterPinningBehavior:(NSArray *)arg1;
+- (void)_addSupplementaryItemsToLayout:(NSArray *)arg1 headerFooterPinningBehavior: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) UIPasteConfiguration *pasteConfiguration;

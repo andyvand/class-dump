@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXDataPoint, NSString;
+@class AXDataPoint;
 
 @interface AXDataAnnotation
 {
     _Bool _playsHaptic;
-    _Bool _speakDuringPlayback;
-    AXDataPoint *_location;
-    NSString *_label;
 }
 
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)pathURL=(NULL=NoCustomPath)=%@;
+- (void)errorDict:(_Bool)arg1 ];
+- (_Bool)rmediateDisk=%d outError=%d;
+- (id)t CoreStorageGetVolumeRevertRequirements=(0=norvt/1=decryptrvt/2=quickrvt/3=err)=%d;
+- (void)isOffline=%d isComp=%d size=%llu;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)nary.;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) AXDataPoint *location; // @synthesize location=_location;
-@property(nonatomic) _Bool playsHaptic; // @synthesize playsHaptic=_playsHaptic;
-@property(nonatomic) _Bool speakDuringPlayback; // @synthesize speakDuringPlayback=_speakDuringPlayback;
 
 @end
 

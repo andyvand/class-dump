@@ -7,7 +7,6 @@
 @interface State #1 in Sharing.notify_async_sequence(name: Swift.String) -> Swift.AsyncStream<Swift.Int32>
 {
     id $defaultActor;
-    id registeredToken;
 }
 
 @end

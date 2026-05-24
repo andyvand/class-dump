@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HMReportContext
 {
     NSString *_reportDomain;
-    NSData *_requestInfo;
-    double _reportTimeout;
 }
 
 + (id);
-- (void);
+- (void)A;
 - (double);
 - (id);
 - (id);
@@ -24,9 +22,7 @@
 - (void)4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *reportDomain; // @synthesize reportDomain=_reportDomain;
 @property(nonatomic) double reportTimeout; // @synthesize reportTimeout=_reportTimeout;
-@property(readonly, nonatomic) NSData *requestInfo; // @synthesize requestInfo=_requestInfo;
 
 @end
 

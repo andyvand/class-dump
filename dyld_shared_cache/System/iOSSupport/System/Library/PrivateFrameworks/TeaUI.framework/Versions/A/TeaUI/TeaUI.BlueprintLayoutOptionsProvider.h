@@ -7,14 +7,6 @@
 @interface TeaUI.BlueprintLayoutOptionsProvider
 {
     id margins;
-    id view;
-    id layoutViewportConfiguration;
-    id layoutViewportDimensionChecks;
-    id layoutOptionsCommit;
-    id additionalSafeAreaInsets;
-    id appTraitCollectionBlock;
-    id compositionalLayoutOptionsProvider;
-    id rendererEnvironment;
 }
 
 @end

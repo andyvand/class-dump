@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreArtworkGradientInfo, ICStoreArtworkSizeInfo, NSArray, NSDictionary, NSString, NSURL;
+@class ICStoreArtworkSizeInfo, NSArray;
 
 @interface ICStoreArtworkInfo
 {
     ICStoreArtworkSizeInfo *_sizeInfo;
-    NSURL *_artworkURL;
-    NSArray *_sortedResponseArray;
-    NSArray *_sortedSupportedSizesArray;
-    NSArray *_responseArray;
-    NSDictionary *_responseDictionary;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)f])}}{btTransform={btMatrix3x3=[3{btVector3=(?=[4f])}]}{btVector3=(?=[4f])}}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}ffffBfffBfff};
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
@@ -36,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ry/BuildRoots/4~CNqTugBWysuvm0YRy9B_ZwVkS7juaIavArBNMOk/Library/Caches/com.apple.xbs/TemporaryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Core/C3DMutableMeshSource.c;
 - (_Bool);
 - (void);
 - (void);
@@ -45,24 +40,14 @@
 - (struct CGSize);
 - (id);
 - (struct CGColor *);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void)ightweightSubscriptionStatus;
 - (id)ûDË\ûDÙ\ûDÑ\ûD\ûD?\ûD.\ûDý\ûD\ûD­\ûD[\ûD0\ûD\ûDþ\ûDt\ûD(\ûD\ûD<\ûD$\ûDç\ûD\ûDÄ\ûD*\ûDÓ\ûDc\ûDq\ûD&\ûD=\ûDÉ\ûD-\ûDD\ûDÝ\ûD1\ûDò\ûDÜ\ûD\ûDÎ\ûDx\ûD\ûDÂ\ûD\ûDØ\ûD+\ûD}\ûDK\ûDZ\ûD_\ûDð\ûD¨\ûD·\ûDÛ\ûD\ûD\qNcµ Þx*b¸4EïMÄ1h6¯««¢P½òÎgcH¥ýMF3ãd®}LÀ£øW©ùiîZz3Ê¯l$i­65d2O5ÜãO^Äl¤3ô0wêÒv¡2"×<ðÿ+ü¦.¹3Óë0>pÒãò¸8bCð¡o0½M÷;w¡ùÛ®h¨)sÜßÀüû&ò?9{Q«9ÖY©¤Hq,}±Ù¥¬7AË=JQ°§=òñyØ:æÓóJ~§ÊRsÓýö­éÂl²V^!¶­ÿoÀþÙÈ9Ôú©Íjþf\Û¸ÅÓ®ká`O´*Õ¿ýÊõ³é¤^Ü¥ lÙ«_;ü¾f£öðÈ]ë9ÀôÊ¨?,£¯
 ¼¦8ëdákÕü©­§`Ónç=ä\$L}5wGS¿BèEaº£îú(H!Õf¬g( /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
-@property(readonly, nonatomic) ICStoreArtworkGradientInfo *gradientInfo;
-@property(readonly, nonatomic) unsigned long long imageTraits;
-@property(readonly, nonatomic) struct CGSize originalSize;
-@property(readonly, copy, nonatomic) NSArray *responseArray; // @synthesize responseArray=_responseArray;
-@property(readonly, copy, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly, nonatomic) ICStoreArtworkSizeInfo *sizeInfo; // @synthesize sizeInfo=_sizeInfo;
 @property(copy, nonatomic) NSArray *sortedResponseArray; // @synthesize sortedResponseArray=_sortedResponseArray;
-@property(copy, nonatomic) NSArray *sortedSupportedSizesArray; // @synthesize sortedSupportedSizesArray=_sortedSupportedSizesArray;
-@property(readonly, copy, nonatomic) NSString *stringRepresentation;
-@property(readonly, nonatomic) NSArray *textGradient;
 
 @end
 

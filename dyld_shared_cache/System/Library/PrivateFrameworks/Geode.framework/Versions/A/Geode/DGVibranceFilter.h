@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGVibranceFilter
 {
     CIImage *inputImage;
-    NSNumber *inputAmount;
-    NSNumber *inputiPhotoLegacyMode;
 }
 
 + (id);
-+ (void)equest;
++ (void)PAImageRequest;
 - (id);
 - (id);
 

@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface ICMentionCheckResults
 {
     _Bool _isPartialMention;
-    _Bool _isExplicitMention;
-    _Bool _isAllMention;
-    NSSet *_matchingParticipants;
-    NSString *_mentionString;
-    struct _NSRange _rangeOfMention;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct _NSRange);
-- (id);
-- (id);
+- (id)to retrieve locale group record '%@':%@ (%d) /* Error: Ran out of types for this method. */;
+- (id)moved IP address '%@' from XMLPlist in computer record '%@';
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)¨;
 
 // Remaining properties
-@property(nonatomic) _Bool isAllMention; // @synthesize isAllMention=_isAllMention;
-@property(nonatomic) _Bool isExplicitMention; // @synthesize isExplicitMention=_isExplicitMention;
-@property(nonatomic) _Bool isPartialMention; // @synthesize isPartialMention=_isPartialMention;
-@property(copy, nonatomic) NSSet *matchingParticipants; // @synthesize matchingParticipants=_matchingParticipants;
-@property(copy, nonatomic) NSString *mentionString; // @synthesize mentionString=_mentionString;
 @property(nonatomic) struct _NSRange rangeOfMention; // @synthesize rangeOfMention=_rangeOfMention;
 
 @end

@@ -5,12 +5,11 @@
 //
 
 @protocol IMServiceAvailabilityMonitoring
+- (_Bool);
 - (_Bool)ùÑK&°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isMMSEnabled;
-@property(readonly, nonatomic) _Bool isRCSEnabled;
 @property(readonly, nonatomic) _Bool isiMessageEnabled;
 @end
 

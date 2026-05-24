@@ -9,9 +9,6 @@
 @interface MPRadioStation
 {
     long long _uniqueIdentifier;
-    NSString *_localizedName;
-    NSString *_localizedDescription;
-    NSString *_stationStringID;
 }
 
 + (_Bool);
@@ -22,21 +19,18 @@
 - (id);
 - (void);
 - (id);
+- (id)hb;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)_newPathForAnnotation:(id)arg1 axisAlignedForStroke:alignToScreenUsingPageController:orAlignToContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (void);
 - (id);
-- (void);
-- (void)yDataProvider;
+- (void));
+- (void)_mediaLibraryDataProvider;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 @property(copy, nonatomic) NSString *stationStringID; // @synthesize stationStringID=_stationStringID;
-@property(nonatomic) long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

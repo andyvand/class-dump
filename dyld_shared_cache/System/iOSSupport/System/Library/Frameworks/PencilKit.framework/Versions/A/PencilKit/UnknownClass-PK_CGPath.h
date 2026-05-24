@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (PK_CGPath)
-- (struct CGPath *);
+- (struct CGPath *);
 @end
 

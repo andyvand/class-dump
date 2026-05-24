@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INQueryHealthSampleIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)startAccessingSecurityScopedResource;
++ (int)fpfsDownloadOrGenerateThumbnailAtTaggedURL:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (long long)encodeDouble:(int)arg1 forKey:(int)arg2;
++ (_Bool)decodeIntegerForKey:(long long)arg1;
 + (_Bool);
 - (void);
 - (void);
@@ -24,24 +22,16 @@
 - (id);
 - (long long);
 - (id);
+- (id)schema;
+- (id)discoveredDevices;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)on handler;
 - (id);
 - (id);
 - (long long)addSampleUuids: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *resultValues;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, OADCharacterProperties, OADParagraphProperties;
+@class OADParagraphProperties;
 
 __attribute__((visibility("hidden")))
 @interface OADParagraph
 {
     OADParagraphProperties *mProperties;
-    NSMutableArray *mTextRuns;
-    OADCharacterProperties *mParagraphEndCharacterProperties;
 }
 
 - (unsigned long long);
@@ -36,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ker;
 - (id);
 - (id);
 - (unsigned long long);

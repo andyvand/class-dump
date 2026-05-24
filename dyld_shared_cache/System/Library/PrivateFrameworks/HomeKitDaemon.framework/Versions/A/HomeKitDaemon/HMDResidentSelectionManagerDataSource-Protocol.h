@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeKitVersion, NSBackgroundActivityScheduler, NSNotificationCenter;
+@class NSBackgroundActivityScheduler, NSNotificationCenter;
 @protocol HMDFeaturesDataSource;
 
 @protocol HMDResidentSelectionManagerDataSource
-- (id <HMDFeaturesDataSource>)dentUpdateFromStatusKit: /* Error: Ran out of types for this method. */;
-- (NSNotificationCenter *)BackingStoreFetchHelperMaxRetryCount;
+- (NSBackgroundActivityScheduler *)ction interrupted:%@ /* Error: Ran out of types for this method. */;
+- (id <HMDFeaturesDataSource>)handlePrimaryResidentUpdateFromStatusKit: /* Error: Ran out of types for this method. */;
+- (NSNotificationCenter *)HMDNetworkRouterFirewallRuleManagerBackingStoreFetchHelperMaxRetryCount;
 
 // Remaining properties
-@property(readonly) NSBackgroundActivityScheduler *autoModeEvaluationScheduler;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
-@property(readonly) HMDHomeKitVersion *minimumHomeKitVersionForResidentSelection;
 @property(readonly) NSNotificationCenter *notificationCenter;
 @end
 

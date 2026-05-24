@@ -7,7 +7,6 @@
 @interface ContactsUI.DuplicateContactsDetailViewData
 {
     id mergedContact;
-    id $__lazy_storage_$_all;
 }
 
 @end

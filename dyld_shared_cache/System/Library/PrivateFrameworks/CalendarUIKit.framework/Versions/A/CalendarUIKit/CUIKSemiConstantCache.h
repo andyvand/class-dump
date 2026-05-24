@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont;
-
 @interface CUIKSemiConstantCache
 {
     double _dayOccurrenceMinimumCachedLineHeightCompact;
-    double _dayOccurrenceMinimumCachedLineHeightRegular;
-    double _dayOccurrenceMinimumCachedLineHeightSmallCompact;
-    double _dayOccurrenceMinimumCachedLineHeightSmallRegular;
-    double _dayReminderIntegrationCachedLineHeightCompact;
-    double _dayReminderIntegrationCachedLineHeightRegular;
-    double _dayReminderIntegrationCachedLineHeightSmallCompact;
-    double _dayReminderIntegrationCachedLineHeightSmallRegular;
-    double _dayOccurrenceMinimumCachedLineHeightPill;
-    NSFont *_dayOccurrenceUncompressedSecondaryTextFont;
 }
 
-+ (id)tegrationIcon;
-- (id)ÿ ;
-- (double)¾;
-- (double)ª$7ÿàª"7ÿ¨YøTßë;
-- (double)¨Yøßë£;
-- (double)ýã;
-- (id)?;
-- (double)qÐÒ0ÁÚôªàªáªâªD;
-- (double)Yø¾z;
-- (double)Yø¬¾;
-- (double)ø´øÊ;
-- (double)
-ëa;
-- (id)T	*%@©*
-ëëwK;
-- (id)@ù;
-- (id)ÈuÐ!;
-- (double)!à0;
++ (id)reminderIntegrationIcon;
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
+- (id);
+- (id);
+- (double)?;
 - (void);
 - (id);
 - (void);
@@ -45,15 +32,6 @@
 
 // Remaining properties
 @property(readonly) double dayOccurrenceMinimumCachedLineHeightCompact;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightPill;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightRegular;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightSmallCompact;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightSmallRegular;
-@property(readonly) NSFont *dayOccurrenceUncompressedSecondaryTextFont;
-@property(readonly) double dayReminderIntegrationCachedLineHeightCompact;
-@property(readonly) double dayReminderIntegrationCachedLineHeightRegular;
-@property(readonly) double dayReminderIntegrationCachedLineHeightSmallCompact;
-@property(readonly) double dayReminderIntegrationCachedLineHeightSmallRegular;
 
 @end
 

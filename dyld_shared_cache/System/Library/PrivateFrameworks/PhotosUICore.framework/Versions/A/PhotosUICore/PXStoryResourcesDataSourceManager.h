@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PXStoryConfiguration, PXStoryRecipe, PXStoryRecipeManager, PXStoryResourcesDataSource, PXUpdater;
-@protocol OS_dispatch_queue;
+@class PXUpdater;
 
 @interface PXStoryResourcesDataSourceManager
 {
     _Bool _isDataSourceFinal;
-    NSObject<OS_dispatch_queue> *_storyQueue;
-    PXStoryResourcesDataSource *_dataSource;
-    PXStoryRecipeManager *_recipeManager;
-    PXUpdater *_updater;
-    PXStoryConfiguration *_configuration;
-    PXStoryRecipe *_recipe;
 }
 
 - (id);
@@ -30,33 +23,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)initWithCalendarIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)aiAttributionArticleString;
+- (id);
+- (void)^B24;
 - (void);
 - (id)?=qq{CGSize=dd}Q{?={?=qiIq}{?=qiIq}{?=qiIq}{?={?=qiIq}q}c}q{?={CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16;
-- (void)wsSkimmingSlideshow;
+- (void)showsSkimmingSlideshow;
 - (void)userDislikedDetailView.Collection;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) PXStoryResourcesDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDataSourceFinal; // @synthesize isDataSourceFinal=_isDataSourceFinal;
-@property(retain, nonatomic) PXStoryRecipe *recipe; // @synthesize recipe=_recipe;
-@property(readonly, nonatomic) PXStoryRecipeManager *recipeManager; // @synthesize recipeManager=_recipeManager;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end

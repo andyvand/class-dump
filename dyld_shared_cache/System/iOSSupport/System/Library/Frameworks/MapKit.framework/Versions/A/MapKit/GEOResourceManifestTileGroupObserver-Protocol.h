@@ -7,6 +7,6 @@
 @protocol GEOResourceManifestTileGroupObserver
 
 @optional
-- (void)chText;
+- (void)MKSearchFoundationRichText;
 @end
 

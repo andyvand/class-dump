@@ -4,37 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIHoverStyle, UIShape, _UIContextMenuCellContentView, _UIFloatingContentView;
+@class _UIContextMenuCellContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuSmallFloatingPaletteCellLayout
 {
     _UIContextMenuCellContentView *_contentView;
-    NSArray *_managedConstraints;
-    _UIFloatingContentView *_floatingContentView;
-    unsigned long long _controlState;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (long long);
-- (id);
+- (void)8B116B120@124@132@140@148@156@164@172@180@188@196@204B212B216B220B224B228q232q240@?248;
+- (void)storeEditedMessage:(id)arg1 editedPartIndex:editType:previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
+- (void)setIsRegistered:(unsigned long long)arg1;
+- (void)setIsMessageSentFromMe:(unsigned long long)arg1;
+- (void)markBuddiesAsChanged: /* Error: Ran out of types for this method. */;
+- (id)initWithBroadcaster:otcUtilities: /* Error: Ran out of types for this method. */;
+- (id)initWithAssociatedChatGUID: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:screeningChangedForConversation: /* Error: Ran out of types for this method. */;
+- (long long)chatsWithHandles:displayName:identifier:domain:style:everOnServices: /* Error: Ran out of types for this method. */;
+- (unsigned long long)chatsNeedRemerging:groupedChats: /* Error: Ran out of types for this method. */;
+- (void)_zoneIdentifierForOperation: /* Error: Ran out of types for this method. */;
+- (id)_deleteZone:forDatabase: /* Error: Ran out of types for this method. */;
+- (long long)t;
+- (id)ter",R,N,V_highlightCenter;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)cationAction = %@>;
+- (id);
 - (void)!ÄFùqaÐ1Â0@ù
 × ;
 - (void),N,V_stateWhenDelivered;
@@ -44,26 +41,7 @@ __attribute__((visibility("hidden")))
 - (id)Øçb;
 
 // Remaining properties
-@property(readonly, nonatomic) UIShape *contentShape;
 @property(nonatomic) __weak _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) unsigned long long controlState; // @synthesize controlState=_controlState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIFloatingContentView *floatingContentView; // @synthesize floatingContentView=_floatingContentView;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(readonly, nonatomic) long long labelTextAlignment;
-@property(readonly, nonatomic) long long layoutSize;
-@property(retain, nonatomic) NSArray *managedConstraints; // @synthesize managedConstraints=_managedConstraints;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 
 @end
 

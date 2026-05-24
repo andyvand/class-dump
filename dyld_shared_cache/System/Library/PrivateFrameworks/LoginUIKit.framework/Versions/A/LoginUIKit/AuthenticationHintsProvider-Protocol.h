@@ -5,5 +5,7 @@
 //
 
 @protocol AuthenticationHintsProvider
+- (void);
+- (void);
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol VisualTabPickerTileContainerDataSource
+- (struct CGRect);
 @end
 

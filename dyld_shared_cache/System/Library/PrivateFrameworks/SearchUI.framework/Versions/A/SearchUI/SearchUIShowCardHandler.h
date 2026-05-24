@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)AXFrontmost;
 
 @end
 

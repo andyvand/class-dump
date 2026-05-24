@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBLaunchAppCommand
 {
     _Bool _isOnenessApplication;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (void);
@@ -19,25 +18,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)objectIDs;
+- (id)SourceTime:,V_duplicateStillSourceTime /* Error: Ran out of types for this method. */;
+- (id)ff request for best image;
 - (id);
 - (id);
 - (void);
-- (void)omLineBreakings;
+- (void)subtitleCustomLineBreakings;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOnenessApplication; // @synthesize isOnenessApplication=_isOnenessApplication;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

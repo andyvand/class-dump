@@ -6,7 +6,7 @@
 
 @interface UnknownClass (GEOCelestial)
 + (id);
-+ (id);
++ (id);
 - (double);
 - (double);
 @end

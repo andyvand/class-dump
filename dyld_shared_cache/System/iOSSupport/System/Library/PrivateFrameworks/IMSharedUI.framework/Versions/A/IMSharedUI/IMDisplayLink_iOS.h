@@ -15,11 +15,11 @@
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
+- (void))A;
 - (void);
-- (void);
-- (id)ions;
+- (id)audioSessionControllerOptions;
 
 // Remaining properties
 @property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;

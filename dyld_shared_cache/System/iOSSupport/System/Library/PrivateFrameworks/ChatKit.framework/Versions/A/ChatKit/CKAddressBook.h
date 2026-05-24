@@ -10,12 +10,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)t the attributed string within the timeout window.;
++ (id)th your iCloud account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
++ (id)ord or passcode of any device with your iCloud account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
++ (id)<div>%@</div>;
 + (void);
-+ (id);
++ (id)\J;
 + (id);
 + (id);
 

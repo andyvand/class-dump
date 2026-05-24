@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStoreBookmark, NSArray;
+@class NSArray;
 
 @interface BMIndexRow
 {
     NSArray *_indexFields;
-    BMStoreBookmark *_storeBookmark;
 }
 
-- (id);
+- (id)@y);
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *indexFields; // @synthesize indexFields=_indexFields;
-@property(readonly, nonatomic) BMStoreBookmark *storeBookmark; // @synthesize storeBookmark=_storeBookmark;
 
 @end
 

@@ -7,12 +7,11 @@
 @interface NewsArticles.ArticleShareHandler
 {
     id commandCenter;
-    id headline;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)accessQueue;
 
 @end
 

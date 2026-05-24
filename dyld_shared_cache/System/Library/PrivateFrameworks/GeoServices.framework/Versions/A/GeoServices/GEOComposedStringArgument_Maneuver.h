@@ -6,27 +6,22 @@
 
 #import <GeoServices/GEOComposedStringArgument.h>
 
-@class GEOJunctionInfo, NSString;
-
 @interface GEOComposedStringArgument_Maneuver : GEOComposedStringArgument
 {
     int _maneuverType;
-    GEOJunctionInfo *_junctionInfo;
-    NSString *_fallbackStringValue;
-    CDUnknownBlockType _attributedStringHandler;
 }
 
 + (_Bool)source at "%@" - %@;
 - (void);
-- (id);
+- (id)userActivityTypes;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)sMake:(struct _NSZone *)arg1;
+- (void);
+- (id)setDeviceLensMake:(struct _NSZone *)arg1;
 - (void)(gÿÇ5^£5;
 
 // Remaining properties

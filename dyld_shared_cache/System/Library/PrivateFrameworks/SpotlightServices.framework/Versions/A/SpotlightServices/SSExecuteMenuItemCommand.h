@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SSExecuteMenuItemCommand
 {
     NSString *_pid;
-    NSString *_title;
-    NSArray *_menuItemPathComponents;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)s;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ankingQueryCount;
+- (void)dominantRankingQueryCount;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *menuItemPathComponents; // @synthesize menuItemPathComponents=_menuItemPathComponents;
 @property(retain, nonatomic) NSString *pid; // @synthesize pid=_pid;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PKTrust
 {
     struct __SecTrust *_trustRef;
-    struct __SecPolicy *_policyRef;
-    unsigned int _trustResult;
-    int _trustLevel;
-    NSDate *_signingDate;
-    _Bool _signingDateIsTrusted;
-    _Bool _appleRootMode;
-    _Bool _allowExpiredCertificates;
-    _Bool _allowExpiredRoots;
 }
 
 + (id);
 - (unsigned int);
-- (struct __SecTrust *);
+- (struct __SecTrust *)9;
 - (void);
 - (void);
 - (id);
@@ -36,8 +26,8 @@
 - (struct __SecCertificate *);
 - (int);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)9;
+- (void)@;
 
 @end
 

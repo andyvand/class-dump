@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (void)AccessorySecond;
+- (void)FormRowHoverableAccessorySecond;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PAContentTransform, PADisplay, PAImageDrawStatistics, PAOpenGLContext;
+@class PAOpenGLContext;
 
 @interface PAMultiLevelImageDrawer
 {
     PAOpenGLContext *_context;
-    PADisplay *_display;
-    PAContentTransform *_transform;
-    _Bool _debugImageLevels;
-    PAImageDrawStatistics *_statistics;
-    _Bool _recordStatistics;
 }
 
 - (void);
@@ -34,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_09d07adb);
+- (CDStruct_09d07adb);
 - (void);
 - (void);
 - (id);
@@ -51,7 +46,7 @@
 - (id);
 - (id);
 - (CDStruct_09d07adb);
-- (id);
+- (id)footer due to article role, role=%{public}@, articleID=%{public}@;
 - (id);
 - (id);
 - (void);
@@ -63,10 +58,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PAOpenGLContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) PADisplay *display; // @synthesize display=_display;
-@property(nonatomic) _Bool recordStatistics; // @synthesize recordStatistics=_recordStatistics;
-@property(readonly, nonatomic) PAImageDrawStatistics *statistics; // @synthesize statistics=_statistics;
-@property(retain, nonatomic) PAContentTransform *transform; // @synthesize transform=_transform;
 
 @end
 

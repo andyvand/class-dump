@@ -7,7 +7,6 @@
 @interface TSADEVValue
 {
     double _observationInterval;
-    double _adev;
 }
 
 - (double);
@@ -16,7 +15,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double adev; // @synthesize adev=_adev;
 @property(readonly, nonatomic) double observationInterval; // @synthesize observationInterval=_observationInterval;
 
 @end

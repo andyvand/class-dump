@@ -12,15 +12,15 @@
 }
 
 + (_Bool)stem_SafariOnly.m;
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)x;
 - (long long)!LBù±a1Â0@ù
 × ;
 - (_Bool)ngView"16;
-- (void)rTraitCollection:(id)arg1;
-- (id)angles: /* Error: Ran out of types for this method. */;
-- (id)ngAcrossConstrainedAxisToBeginMultiSelectInteractionInSection:(struct _NSZone *)arg1;
-- (void)ns;
+- (void)sizeThatFits:(id)arg1 forTraitCollection: /* Error: Ran out of types for this method. */;
+- (id)drawLayerRotated:inContext:selection:rectangles: /* Error: Ran out of types for this method. */;
+- (id)_allowsPanningAcrossConstrainedAxisToBeginMultiSelectInteractionInSection:(struct _NSZone *)arg1;
+- (void)safeAreaRegions;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

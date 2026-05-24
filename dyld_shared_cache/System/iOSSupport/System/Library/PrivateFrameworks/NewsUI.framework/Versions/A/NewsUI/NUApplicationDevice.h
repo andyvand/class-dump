@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplication, UIScreen;
+@class UIApplication;
 
 @interface NUApplicationDevice
 {
     UIApplication *_application;
-    UIScreen *_screen;
 }
 
 - (id);
@@ -20,15 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIApplication *application; // @synthesize application=_application;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIScreen *screen; // @synthesize screen=_screen;
-@property(readonly, nonatomic, getter=isSplitScreen) _Bool splitScreen;
-@property(readonly) Class superclass;
 
 @end
 

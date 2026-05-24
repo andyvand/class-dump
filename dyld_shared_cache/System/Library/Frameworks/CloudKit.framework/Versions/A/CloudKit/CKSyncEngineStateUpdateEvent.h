@@ -17,7 +17,7 @@
 - (long long);
 - (id);
 - (void);
-- (void)edDeviceCapabilitiesOperation;
+- (void)CKCheckSupportedDeviceCapabilitiesOperation;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CKSyncEngineStateSerialization *stateSerialization; // @synthesize stateSerialization=_stateSerialization;

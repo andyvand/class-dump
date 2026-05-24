@@ -7,7 +7,6 @@
 @interface ktrace.KernelDisableWaiter
 {
     id group;
-    id reason;
 }
 
 @end

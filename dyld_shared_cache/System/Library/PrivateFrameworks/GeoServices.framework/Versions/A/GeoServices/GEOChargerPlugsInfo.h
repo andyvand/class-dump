@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOChargerPlugsInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_suggestedChargerPlugs;
-    NSMutableArray *_supportedChargerPlugs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_suggestedChargerPlugs:1;
-        unsigned int read_supportedChargerPlugs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (Class);
-+ (_Bool)edback:(id)arg1;
++ (Class)ionTask"24q32q40q48;
++ (Class)ingStrategy>";
++ (_Bool)setHasNavigationAudioFeedback:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -34,25 +22,25 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h";
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)ility.describes-video;
+- (void)getAudioPowerUpdateWithCompletion:(id)arg1;
+- (id)oller audioSessionInfoProvider:didReceiveAudioSessionInterruptionNotificationWithUserInfo:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)VVVVVVVVVVVVVVVVVVVVVVr;
 - (_Bool);
 - (id);
 - (void)
 × ;
-- (id)UsageCountType:(struct _NSZone *)arg1;
+- (id)reportDailyUsageCountType:(struct _NSZone *)arg1;
 - (id)¨ì;
 - (id)nfigValueForKey;
 - (id);
@@ -60,8 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *suggestedChargerPlugs;
-@property(retain, nonatomic) NSMutableArray *supportedChargerPlugs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

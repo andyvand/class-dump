@@ -26,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long biometricPolicy; // @synthesize biometricPolicy=_biometricPolicy;
-@property(readonly, nonatomic) _Bool shouldShowBiometryIcon;
 
 @end
 

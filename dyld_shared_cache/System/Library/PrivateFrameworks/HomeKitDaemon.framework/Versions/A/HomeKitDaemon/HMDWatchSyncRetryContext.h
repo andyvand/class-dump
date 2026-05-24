@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDWatchSync, NSString;
+@class HMDWatchSync;
 
 __attribute__((visibility("hidden")))
 @interface HMDWatchSyncRetryContext
 {
     HMDWatchSync *_watchSync;
-    NSString *_watchIdentifier;
-    long long _retryAttempt;
-    double _initialRetryInterval;
-    long long _maximumRetryAttempts;
 }
 
-+ (id);
++ (id)4;
 - (id);
 - (long long);
 - (long long);
 - (double);
 - (id);
 - (id);
-- (double);
-- (id)d:(struct _NSZone *)arg1 outConstraintIdsToRemove: /* Error: Ran out of types for this method. */;
+- (double)T8;
+- (id)processReplaceConstraintMessage:(struct _NSZone *)arg1 outConstraintsToAdd:outConstraintIdsToRemove: /* Error: Ran out of types for this method. */;
 - (id)stic registrations enable:%@ disable:%@ was successful:%@ error:%@ /* Error: Ran out of types for this method. */;
-- (void)nUse;
+- (void)HMDStreamingStatusTypeInUse;
 
 // Remaining properties
 @property(readonly) double initialRetryInterval; // @synthesize initialRetryInterval=_initialRetryInterval;
-@property(readonly) long long maximumRetryAttempts; // @synthesize maximumRetryAttempts=_maximumRetryAttempts;
-@property(readonly) long long retryAttempt; // @synthesize retryAttempt=_retryAttempt;
-@property(readonly) double retryInterval;
-@property(readonly, copy) NSString *watchIdentifier; // @synthesize watchIdentifier=_watchIdentifier;
-@property(readonly, copy) HMDWatchSync *watchSync; // @synthesize watchSync=_watchSync;
 
 @end
 

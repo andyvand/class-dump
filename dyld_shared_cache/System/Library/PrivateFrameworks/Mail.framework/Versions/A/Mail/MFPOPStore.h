@@ -6,54 +6,49 @@
 
 #import <Mail/MFMessageStore.h>
 
-@class MFPOPAccount, NSMutableIndexSet, NSMutableSet, NSProgress, NSString;
+@class NSMutableSet;
 
 @interface MFPOPStore : MFMessageStore
 {
     NSMutableSet *_skippedMessageIds;
-    NSMutableIndexSet *_messageNumbersToDelete;
-    _Bool _lastConnectionFailed;
-    _Bool _performingUserInitiatedFetch;
-    _Bool _routerCancelled;
-    NSProgress *_checkProgress;
 }
 
 + (id);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (_Bool);
 - (long long);
+- (void){#;
 - (void);
+- (id);
+- (_Bool);
 - (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void)	+f0;
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)	;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)webkitSupportsFullscreen;
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)member: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -69,18 +64,7 @@
 - (void)Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) MFPOPAccount *account;
-@property(retain, nonatomic) NSProgress *checkProgress; // @synthesize checkProgress=_checkProgress;
-@property(readonly, nonatomic) _Bool connectionShouldPrefetchMessages;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool performingUserInitiatedFetch; // @synthesize performingUserInitiatedFetch=_performingUserInitiatedFetch;
 @property _Bool routerCancelled; // @synthesize routerCancelled=_routerCancelled;
-@property(readonly) Class superclass;
 
 @end
 

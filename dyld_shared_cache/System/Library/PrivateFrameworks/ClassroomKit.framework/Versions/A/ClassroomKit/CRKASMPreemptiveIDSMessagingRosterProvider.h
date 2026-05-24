@@ -6,17 +6,11 @@
 
 #import <ClassroomKit/CRKASMRosterProviderDecoratorBase.h>
 
-@class NSSet, NSURL;
-@protocol CRKIDSAddressTranslator, CRKIDSPrimitives, CRKKeyedDataStoreProtocol;
+@protocol CRKIDSPrimitives;
 
 @interface CRKASMPreemptiveIDSMessagingRosterProvider : CRKASMRosterProviderDecoratorBase
 {
     _Bool _observingRoster;
-    id <CRKIDSPrimitives> _IDSPrimitives;
-    id <CRKIDSAddressTranslator> _IDSAddressTranslator;
-    id <CRKKeyedDataStoreProtocol> _dataStore;
-    NSURL *_messagedAppleIDsURL;
-    NSSet *_messagedAppleIDs;
 }
 
 + (id);
@@ -43,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKIDSAddressTranslator> IDSAddressTranslator; // @synthesize IDSAddressTranslator=_IDSAddressTranslator;
 @property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(readonly, nonatomic) id <CRKKeyedDataStoreProtocol> dataStore; // @synthesize dataStore=_dataStore;
-@property(retain, nonatomic) NSSet *messagedAppleIDs; // @synthesize messagedAppleIDs=_messagedAppleIDs;
-@property(readonly, nonatomic) NSURL *messagedAppleIDsURL; // @synthesize messagedAppleIDsURL=_messagedAppleIDsURL;
-@property(nonatomic, getter=isObservingRoster) _Bool observingRoster; // @synthesize observingRoster=_observingRoster;
 
 @end
 

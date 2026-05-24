@@ -6,38 +6,10 @@
 
 #import <AVConference/VCMediaStreamReceiveGroup.h>
 
-@class NSNumber, VCRedundancyControllerVideo;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamReceiveGroup : VCMediaStreamReceiveGroup
 {
     _Atomic unsigned char _videoPriority;
-    unsigned char _lastVideoPriority;
-    unsigned char _videoQuality;
-    _Bool _remoteVideoPaused;
-    _Bool _isRemoteMediaStalled;
-    _Bool _isVideoDegraded;
-    double _isVideoDegradedStartTime;
-    _Bool _reportedDegradeStatus;
-    unsigned int _visibilityIndex;
-    _Bool _haveReportedPerfTimers;
-    _Bool _isProcessingVideoOptIn;
-    NSNumber *_previousOptedInStreamID;
-    VCRedundancyControllerVideo *_videoRedundancyController;
-    _Bool _isRedundancyRequested;
-    _Bool _isMediaSuspended;
-    double _lastVideoExpectationSwitch;
-    _Bool _isVideoExpected;
-    double _lastRecordedExtendedPoorConnection;
-    double _poorConnectionTotalLength;
-    _Bool _poorConnectionPercentageRegressedFromTelemetrySymptomReported;
-    int _poorConnectionPercentageABCReportingThreshold;
-    double _startTime;
-    double _didReportSymptomOnPoorConnectionDespiteVideoIsReceived;
-    double _displayLatency;
-    _Bool _shouldConvertSourceRTPTimestamp;
-    unsigned long long _syncUpdateCalled;
-    _Bool _remoteVideoEnabled;
 }
 
 - (void);
@@ -66,12 +38,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -86,19 +58,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)nents::LayerDataInView<md::MapDataType::DaVinciGround>] /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (void);
-- (id)tency;
+- (id)forceExternalRenderLatency;
 - (_Bool)block_invoke;
 
 // Remaining properties
 @property(nonatomic) _Bool isRemoteMediaStalled; // @synthesize isRemoteMediaStalled=_isRemoteMediaStalled;
-@property(readonly, nonatomic) unsigned int lastDisplayedFrameRTPTimestamp;
-@property(nonatomic, getter=isRemoteVideoEnabled) _Bool remoteVideoEnabled; // @synthesize remoteVideoEnabled=_remoteVideoEnabled;
-@property(nonatomic, getter=isRemoteVideoPaused) _Bool remoteVideoPaused; // @synthesize remoteVideoPaused=_remoteVideoPaused;
-@property(nonatomic) unsigned char videoQuality; // @synthesize videoQuality=_videoQuality;
-@property(nonatomic) unsigned int visibilityIndex; // @synthesize visibilityIndex=_visibilityIndex;
 
 @end
 

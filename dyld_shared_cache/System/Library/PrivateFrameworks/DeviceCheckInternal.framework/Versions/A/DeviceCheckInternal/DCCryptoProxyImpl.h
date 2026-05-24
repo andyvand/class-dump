@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DCCryptoProxyImpl
 {
 }
 
-- (void);
-- (void);
+- (void)initWithBase64EncodedString:(id)arg1 options:(CDUnknownBlockType)arg2;
+- (void)initWithAuthenticationResults:(CDUnknownBlockType)arg1 options: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

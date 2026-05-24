@@ -5,5 +5,11 @@
 //
 
 @protocol CLLocationManagerDelegateInternal
+
+@optional
+- (void);
+- (void);
+- (void)isSiriActive;
+- (void)e",&,V_device;
 @end
 

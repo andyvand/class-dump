@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface EKUIAvailabilityParticipantList
 {
     double _scrollOffset;
-    double _rowHeight;
-    NSMutableArray *_containers;
 }
 
 + (double);
-- (void);
-- (void);
+- (void)+s;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)deesWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)sortAttendeesWithCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

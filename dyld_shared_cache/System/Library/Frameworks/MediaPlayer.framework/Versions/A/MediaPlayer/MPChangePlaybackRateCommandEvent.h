@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (float);
+- (float)kK;
 
 // Remaining properties
 @property(readonly, nonatomic) float playbackRate; // @synthesize playbackRate=_playbackRate;

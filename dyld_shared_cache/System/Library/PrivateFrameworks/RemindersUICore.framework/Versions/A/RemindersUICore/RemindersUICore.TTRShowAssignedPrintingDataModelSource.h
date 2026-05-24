@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowAssignedPrintingDataModelSource
 {
     id store;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

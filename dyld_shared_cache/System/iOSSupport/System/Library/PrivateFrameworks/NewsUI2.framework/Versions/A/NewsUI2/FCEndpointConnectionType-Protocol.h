@@ -6,5 +6,6 @@
 
 @protocol FCEndpointConnectionType
 - (void);
+- (void)public}@> - Notifying delegate [Specified first item failure] error=%{public}@;
 @end
 

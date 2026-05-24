@@ -8,29 +8,9 @@ __attribute__((visibility("hidden")))
 @interface VCPacketBundler
 {
     char *_buffer;
-    unsigned int _bufferSize;
-    unsigned int _maxPacketSize;
-    struct _opaque_pthread_mutex_t _mutex;
-    unsigned int _packetsPerBundle;
-    int _payload;
-    unsigned int _timestamp;
-    unsigned int _encodedBufferSize;
-    unsigned int _accessUnitDataSectionSize;
-    unsigned int _bundledPackets;
-    _Bool _currentBundleVoiceActivity;
-    _Bool _lastBundleVoiceActivity;
-    struct tagAccessUnitHeaderInfo _accessUnitHeaderInfo;
-    int _bundlingScheme;
-    _Bool _allowLargePackets;
-    _Bool _isFull;
-    int _operatingMode;
-    unsigned char _priority;
-    struct opaqueVCPacketBundlerCdrxBundleInfo *_cdrxBundleInfoRef;
-    _Bool _shouldSendPacket;
-    int _numBufferedSamples;
 }
 
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
@@ -42,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (char *);
+- (char *);
 - (char *);
 - (int);
 - (unsigned int);
@@ -56,29 +36,18 @@ __attribute__((visibility("hidden")))
 - (char *);
 - (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (unsigned int);
 - (int);
 - (void);
 - (_Bool)djustment=%d;
-- (void)ount;
+- (void)JitterBufferLossCount;
 - (void)onInfoSynchronizer(PrivateMethods) optInStreamIDsForConnection:] /* Error: Ran out of types for this method. */;
-- (void)t13runtime_error;
+- (void)St13runtime_error;
 - (unsigned char);
 
 // Remaining properties
-@property(nonatomic) _Bool allowLargePackets; // @synthesize allowLargePackets=_allowLargePackets;
-@property(readonly, nonatomic) unsigned int bundledPackets; // @synthesize bundledPackets=_bundledPackets;
-@property(nonatomic) int bundlingScheme; // @synthesize bundlingScheme=_bundlingScheme;
-@property(readonly, nonatomic) char *encodedBuffer;
-@property(readonly, nonatomic) unsigned int encodedBufferSize;
-@property(readonly, nonatomic) _Bool isFull; // @synthesize isFull=_isFull;
-@property(readonly, nonatomic) _Bool isTalkSpurtStart;
 @property(nonatomic) unsigned int maxPacketSize;
-@property(readonly, nonatomic) unsigned int packetsPerBundle;
-@property(nonatomic) int payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) unsigned char priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned int timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

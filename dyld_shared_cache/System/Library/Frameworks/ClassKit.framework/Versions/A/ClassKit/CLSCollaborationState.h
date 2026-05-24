@@ -6,50 +6,43 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSString, NSURL;
+@class NSString;
 
 @interface CLSCollaborationState : CLSObject
 {
     NSString *_parentEntityName;
-    NSString *_ownerPersonID;
-    long long _domain;
-    long long _domainVersion;
-    long long _state;
-    unsigned long long _flags;
-    NSString *_note;
-    NSString *_classID;
-    NSURL *_assetURL;
-    NSDictionary *_info;
-    NSString *_senderPersonID;
-    NSString *_recipientPersonID;
-    NSString *_serverETag;
-    NSString *_serverExecutionID;
-    long long _serverStatus;
-    NSArray *assets;
-    NSMutableArray *_assetsToAddOrUpdate;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_cloudDocsMigrated;
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)er %u more than maxBuffers:(long long)arg1 %u
+;
+- (void)reName:(id)arg1 %s
+;
+- (void)ServicesProgramCreateNewInstance;
+- (void)ocedures:(id)arg1 %u
+;
+- (void)atus=0x%x
+;
+- (void)quest->inputBuffersTot=%d programRequest->outputBuffersTot=%d
+;
+- (void):(id)arg1 Invalid arguments (programRequest->inputBuffersTot=%d programRequest->outputBuffersTot=%d
+;
+- (void)dle=%llx procid=%x transid=%llx reqCb->programHandle=0x%llx;
+- (void)gHandle=%llx procid=%x transid=%llx reqcallBackData=%llx;
+- (long long)x%x
+;
+- (id)0x%x
+;
+- (id)st failed with error = 0x%x
+;
+- (id)ANERequestReceiverProcessRequest;
+- (id)re ;
+- (id)mcache_hit_no_dealloc;
+- (id)latency_threshold;
+- (void)dma_src1_read_conflict_count;
 - (id);
 - (id);
 - (id);
@@ -57,10 +50,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)IS3_EEEE;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -76,37 +69,14 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (void);
+- (void)rawLatestBackup;
 - (id);
 - (void);
 - (id);
 - (id)T@"NSError",C,N,V_downloadError;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *assetURL; // @synthesize assetURL=_assetURL;
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets;
-@property(retain, nonatomic) NSMutableArray *assetsToAddOrUpdate; // @synthesize assetsToAddOrUpdate=_assetsToAddOrUpdate;
-@property(copy, nonatomic) NSString *classID; // @synthesize classID=_classID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long domain; // @synthesize domain=_domain;
-@property(nonatomic) long long domainVersion; // @synthesize domainVersion=_domainVersion;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *info; // @synthesize info=_info;
-@property(copy, nonatomic) NSString *note; // @synthesize note=_note;
-@property(copy, nonatomic) NSString *ownerPersonID; // @synthesize ownerPersonID=_ownerPersonID;
-@property(copy, nonatomic) NSString *parentEntityName; // @synthesize parentEntityName=_parentEntityName;
-@property(copy, nonatomic) NSString *recipientPersonID; // @synthesize recipientPersonID=_recipientPersonID;
-@property(copy, nonatomic) NSString *senderPersonID; // @synthesize senderPersonID=_senderPersonID;
-@property(copy, nonatomic) NSString *serverETag; // @synthesize serverETag=_serverETag;
-@property(copy, nonatomic) NSString *serverExecutionID; // @synthesize serverExecutionID=_serverExecutionID;
-@property(nonatomic) long long serverStatus; // @synthesize serverStatus=_serverStatus;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

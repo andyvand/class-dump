@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UIWindowScene;
+@class NSDictionary;
 
 @interface UITextEffectsHostingInfo
 {
     unsigned long long _hostedUseCount;
-    UIWindowScene *_scene;
-    NSDictionary *_perSceneOptions;
 }
 
 + (id)0^;
-- (void);
+- (void)__DATA_CONST;
 - (void);
 - (_Bool)0@ù
 × ;
-- (void)lockCallStackSymbols;
+- (void)unlockCallStackSymbols;
 - (id); ending suspension of enforcing column preferences for scene resize;
 - (id);
 - (_Bool)e. This is an application bug. topLayoutGuide = %@;
@@ -28,18 +26,7 @@
 - (void)àa;
 
 // Remaining properties
-@property(readonly) UIWindowScene *_intendedScene;
-@property(readonly) NSDictionary *_options;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDictionary *perSceneOptions; // @synthesize perSceneOptions=_perSceneOptions;
-@property(retain, nonatomic) UIWindowScene *scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useHostedInstance;
 
 @end
 

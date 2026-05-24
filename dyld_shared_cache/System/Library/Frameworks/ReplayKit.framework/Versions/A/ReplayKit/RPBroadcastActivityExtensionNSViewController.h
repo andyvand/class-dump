@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSExtensionContext, NSExtensionItem, NSString;
+@class NSArray;
 
 @interface RPBroadcastActivityExtensionNSViewController
 {
     NSArray *_activities;
-    NSExtensionItem *_applicationInfoExtensionItem;
-    NSString *_localizedNoServiceMessage;
-    NSString *_localizedBroadcastTitle;
-    NSString *_localizedFindBroadcastApps;
-    NSString *_hostBundleID;
 }
 
 - (void);
@@ -33,12 +28,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)rapped;
 - (id);
 - (void);
 - (void);
@@ -47,19 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activities; // @synthesize activities=_activities;
-@property(retain, nonatomic) NSExtensionItem *applicationInfoExtensionItem; // @synthesize applicationInfoExtensionItem=_applicationInfoExtensionItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain) NSExtensionContext *extensionContext;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *hostBundleID; // @synthesize hostBundleID=_hostBundleID;
-@property(retain, nonatomic) NSString *localizedBroadcastTitle; // @synthesize localizedBroadcastTitle=_localizedBroadcastTitle;
-@property(retain, nonatomic) NSString *localizedFindBroadcastApps; // @synthesize localizedFindBroadcastApps=_localizedFindBroadcastApps;
-@property(retain, nonatomic) NSString *localizedNoServiceMessage; // @synthesize localizedNoServiceMessage=_localizedNoServiceMessage;
-@property(readonly) Class superclass;
 
 @end
 

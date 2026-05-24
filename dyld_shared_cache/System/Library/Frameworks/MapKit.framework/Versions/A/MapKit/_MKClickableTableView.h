@@ -11,9 +11,9 @@
     id <_MKClickableTableViewDelegate> _clickableDelegate;
 }
 
-- (void);
-- (id);
-- (void)ate: /* Error: Ran out of types for this method. */;
+- (void)ageForClientID:(id)arg1 %d message:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setDepartureCutoffDate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

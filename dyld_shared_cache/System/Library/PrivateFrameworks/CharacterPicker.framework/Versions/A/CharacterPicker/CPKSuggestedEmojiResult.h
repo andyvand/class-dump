@@ -9,17 +9,15 @@
 @interface CPKSuggestedEmojiResult
 {
     NSArray *_emojiTokens;
-    NSArray *_stickers;
-    struct _NSRange _textRange;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_8q`;
 - (id);
 - (void);
 - (void);
@@ -27,9 +25,6 @@
 - (struct _NSRange);
 
 // Remaining properties
-@property(retain) NSArray *emojiTokens; // @synthesize emojiTokens=_emojiTokens;
-@property(retain) NSArray *stickers; // @synthesize stickers=_stickers;
-@property(readonly) unsigned long long suggestionCount;
 @property struct _NSRange textRange; // @synthesize textRange=_textRange;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol TRMPortManagerDelegate
+
+@optional
+- (void);
 @end
 

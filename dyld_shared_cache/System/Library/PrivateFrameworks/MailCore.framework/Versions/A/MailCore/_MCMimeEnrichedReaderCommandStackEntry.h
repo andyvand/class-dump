@@ -7,7 +7,6 @@
 @interface _MCMimeEnrichedReaderCommandStackEntry
 {
     const CDStruct_62689a71 *_commandTableEntry;
-    id _parameter;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) const CDStruct_62689a71 *commandTableEntry; // @synthesize commandTableEntry=_commandTableEntry;
-@property(retain, nonatomic) id parameter; // @synthesize parameter=_parameter;
 
 @end
 

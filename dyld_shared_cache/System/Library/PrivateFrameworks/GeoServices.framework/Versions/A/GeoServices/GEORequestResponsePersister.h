@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSQLiteDB, NSObject;
-@protocol OS_dispatch_source;
+@class GEOSQLiteDB;
 
 @interface GEORequestResponsePersister
 {
     GEOSQLiteDB *_db;
-    NSObject<OS_dispatch_source> *_pruneTimer;
 }
 
 - (_Bool);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)updateDictionary:(id)arg1 isReadOnly:(id *)arg2;
+- (_Bool)updateDictionary:(unsigned long long)arg1 byAddingProxyLockForURL:(id *)arg2 fileUtilities: /* Error: Ran out of types for this method. */;
+- (_Bool)updateContactIndex;
+- (_Bool)updateContact:(id *)arg1 byAddingPhoneNumberWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)setBirthdayComponents:(id)arg1;
+- (void)setBaseURL:(id)arg1;
+- (void)setAlertTonesDictionary:(id)arg1;
+- (id)_privateUserInfo;
 - (unsigned long long);
 - (id);
 - (id);

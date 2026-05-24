@@ -6,54 +6,38 @@
 
 #import <EmailCore/ECLocalMessageAction.h>
 
-@class ECLocalMessageActionID, NSArray, NSMutableOrderedSet, NSString, NSURL;
+@class NSMutableOrderedSet;
 
 @interface ECTransferMessageAction : ECLocalMessageAction
 {
     NSMutableOrderedSet *_itemsToDownload;
-    NSMutableOrderedSet *_itemsToCopy;
-    NSMutableOrderedSet *_itemsToDelete;
-    long long _transferType;
-    NSURL *_sourceMailboxURL;
-    NSURL *_destinationMailboxURL;
 }
 
-- (void);
+- (void)x;
 - (id);
 - (void);
+- (void)5;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)on an AVMobileGlassControlsView.;
+- (id)s cmss 
+
+complementarySettings:%@ 
+
+selector:%@ /* Error: Ran out of types for this method. */;
+- (id)anguage changed to:%@ /* Error: Ran out of types for this method. */;
+- (id)s data (%{public}@ algorithm):%{public}@ /* Error: Ran out of types for this method. */;
+- (void)p on %@;
+- (void)ious track command;
+- (id)and;
 - (long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_pageGrabIntervalPages;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *destinationMailboxURL; // @synthesize destinationMailboxURL=_destinationMailboxURL;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *itemsToCopy;
-@property(retain, nonatomic) NSArray *itemsToDelete;
-@property(retain, nonatomic) NSArray *itemsToDownload;
-@property(retain, nonatomic) NSURL *mailboxURL;
-@property(retain, nonatomic) ECLocalMessageActionID *persistentID;
-@property(retain, nonatomic) NSURL *sourceMailboxURL; // @synthesize sourceMailboxURL=_sourceMailboxURL;
-@property(readonly) Class superclass;
 @property(nonatomic) long long transferType; // @synthesize transferType=_transferType;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

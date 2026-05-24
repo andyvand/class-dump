@@ -7,8 +7,6 @@
 @interface PhotosUICore.LemonadeDragAndDropSupportedTypesAsyncLoader__priv_91C49F7F4AA82C77F10CD5A5EFF607EC
 {
     id __observedSupportedTypes;
-    id _nonObservedSupportedTypes;
-    id _$observationRegistrar;
 }
 
 @end

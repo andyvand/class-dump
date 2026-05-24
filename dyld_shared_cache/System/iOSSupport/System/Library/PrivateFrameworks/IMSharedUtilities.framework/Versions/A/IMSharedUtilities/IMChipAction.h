@@ -5,13 +5,10 @@
 //
 
 @class IMChipSuggestion;
-@protocol IMChipActionProtocol;
 
 @interface IMChipAction
 {
     IMChipSuggestion *suggestion;
-    long long type;
-    id <IMChipActionProtocol> action;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool));
 - (id);
 - (id);
 - (id);
@@ -29,10 +26,7 @@
 - (void)ChatBot Brand - %s from CT:%{bool}d, from chat cache:%{bool}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) id <IMChipActionProtocol> action; // @synthesize action;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) IMChipSuggestion *suggestion; // @synthesize suggestion;
-@property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end
 

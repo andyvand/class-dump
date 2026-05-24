@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSData, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitRouteUpdateAlert
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_content;
-    NSData *_identifier;
-    GEOFormattedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_content:1;
-        unsigned int read_identifier:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)String:(id)arg1;
++ (_Bool)setNameDisplayString:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setIntensityLevel:(id)arg1;
 - (id);
-- (void);
+- (void)isStartSampleCountMarked;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -44,25 +30,19 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)orNearbyTransitPaymentLookupAtLocations:traits: /* Error: Ran out of types for this method. */;
+- (id)initForNearbyTransitPaymentLookupAtLocations:traits: /* Error: Ran out of types for this method. */;
 - (id)maxAlternateRoutesCount;
-- (id)s;
+- (id)_hadMoveActions;
 - (_Bool)°ô(ü;
 - (void) KôK;
 - (_Bool)lic}@:Will apply %lu transit updates /* Error: Ran out of types for this method. */;
-- (id)uency_filter;
-- (id)ndex;
+- (id)low_frequency_filter;
+- (id)index;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *content;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasIdentifier;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) NSData *identifier;
-@property(retain, nonatomic) GEOFormattedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

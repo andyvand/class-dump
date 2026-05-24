@@ -13,7 +13,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)es;
+- (_Bool)madeChanges;
 - (void)r.{;
 
 @end

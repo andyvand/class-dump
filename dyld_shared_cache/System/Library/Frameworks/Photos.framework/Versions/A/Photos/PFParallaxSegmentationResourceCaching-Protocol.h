@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @protocol PFParallaxSegmentationResourceCaching
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *segmentationResourceURL;
 @property(readonly, nonatomic) _Bool supportsSegmentationResourceCaching;
 @end
 

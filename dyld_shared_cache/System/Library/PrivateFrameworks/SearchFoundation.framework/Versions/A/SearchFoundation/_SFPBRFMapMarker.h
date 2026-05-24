@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFColor, _SFPBRFMapMarkerIdentifier, _SFPBRFMapMarkerImage, _SFPBRFMapMarkerText;
+@class _SFPBRFMapMarkerIdentifier;
 
 @interface _SFPBRFMapMarker
 {
     _SFPBRFMapMarkerIdentifier *_identifier;
-    _SFPBRFMapMarkerText *_text;
-    _SFPBRFMapMarkerImage *_image;
-    _SFPBRFColor *_tint;
-    unsigned long long _whichValue;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -27,8 +23,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)queryForPersonsWithLocalIdentifiers:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)er.PHImageAtURLIsHDR;
 - (id);
 - (id);
 - (void);
@@ -36,19 +32,7 @@
 - (void)tion";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _SFPBRFMapMarkerIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _SFPBRFMapMarkerImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRFMapMarkerText *text; // @synthesize text=_text;
-@property(retain, nonatomic) _SFPBRFColor *tint; // @synthesize tint=_tint;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

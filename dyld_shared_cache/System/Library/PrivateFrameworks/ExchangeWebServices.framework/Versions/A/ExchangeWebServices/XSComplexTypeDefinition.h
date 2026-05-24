@@ -6,17 +6,11 @@
 
 #import <ExchangeWebServices/XSDefinition.h>
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray, NSMutableArray;
 
 @interface XSComplexTypeDefinition : XSDefinition
 {
     NSMutableArray *_attributes;
-    NSMutableArray *_elements;
-    NSMutableDictionary *_elementAttributes;
-    NSMutableDictionary *_attributeAttributes;
-    NSMutableArray *_namespaces;
-    NSMutableDictionary *_properties;
-    NSString *_contentPropertyName;
 }
 
 + (id);
@@ -27,7 +21,7 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -54,9 +48,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributes;
-@property(readonly, copy, nonatomic) NSString *contentPropertyName; // @synthesize contentPropertyName=_contentPropertyName;
-@property(readonly, copy, nonatomic) NSArray *elements;
-@property(readonly, copy, nonatomic) NSArray *namespaces;
 
 @end
 

@@ -7,16 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)initWithTableModel:rowOrColumn:index:count: /* Error: Ran out of types for this method. */;
+- (oneway void)oller viewDidAppear:] /* Error: Ran out of types for this method. */;
+- (NSString *)ry.AbPtYx/Sources/AlderShared/drawables/TSDContactShadow.m;
 - (struct _NSZone *)1Â0@ù
 × ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (unsigned long long);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

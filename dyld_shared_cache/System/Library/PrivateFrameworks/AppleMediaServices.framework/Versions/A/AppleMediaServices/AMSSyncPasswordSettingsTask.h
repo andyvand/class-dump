@@ -6,18 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, NSString;
-@protocol AMSBagProtocol, NSURLSessionDelegate><AMSURLProtocolDelegate;
+@class ACAccount;
 
 @interface AMSSyncPasswordSettingsTask : AMSTask
 {
     _Bool _needsAuthentication;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    id <NSURLSessionDelegate><AMSURLProtocolDelegate> _delegate;
-    unsigned long long _freeSetting;
-    unsigned long long _paidSetting;
 }
 
 + (id);
@@ -27,7 +20,7 @@
 + (id);
 + (id)>I¸°*÷ò°¬Ð ¬SÌaï È=î²,³5SRÓ;
 + (id)N0µl&7¥|Ø&çjýÎ«C;
-+ (id)ror;
++ (id)BiometricsAvailabilityError;
 - (id);
 - (unsigned long long);
 - (id);
@@ -36,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)workoutType;
 - (id)Æý¬	TÊèY«¤O²SÑr´t¸.9ÎCÒn0âsöBZÿÔÀü¦y%Í÷J)¯#`¶ÂºAd³;
 - (void)h8©ÇpîVFC£Ë]ÿlù~Wz¿/Í±=ëÛuñöé/.L¸[ðWFè7ñásìl|
 õ<%$UÕeò¸}wéy)s?0ü¡E|C¾Á}«qÛX	èÇh]¦w«]+gæí\p÷)¸Ö £Ê¯³P¿VóG²'r^^p)A3	" íÎI¨ÀjÖßíéðA:ëû?8>o"é; }X¢æLôî§úpJüY<´M0±3.:5h1ù>üãIæ=+oAê#â~@>ãÔüð!ìSÀÀ})üï?ÅñßÇÐ·/=Ù²P²á3©$#ÅíÌæ¶­ úqIhRÐºÙ±¡¨õì<V5]ìçK3V0·ÄnkÏ÷ÚôH+C²¯{Sv`êÄçÏ3.wFpSk·Ï²Ü +toS;^8md4N-U¸¢Á	ñêxRqYI!@*µ®ÔþÝõNx[sÿ'
@@ -49,19 +42,6 @@ oß¾²·ZìÑx)n+MYô#Wx9s}·Æ<ÏÅñtKñ:%`oß,Þý?XàÉ±ÌV Î%«M
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <NSURLSessionDelegate><AMSURLProtocolDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long freeSetting; // @synthesize freeSetting=_freeSetting;
-@property(readonly) unsigned long long hash;
-@property _Bool needsAuthentication; // @synthesize needsAuthentication=_needsAuthentication;
-@property(readonly) unsigned long long paidSetting; // @synthesize paidSetting=_paidSetting;
-@property(readonly) Class superclass;
 
 @end
 

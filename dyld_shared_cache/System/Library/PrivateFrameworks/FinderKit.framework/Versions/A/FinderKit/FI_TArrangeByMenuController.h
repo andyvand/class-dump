@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TNodeViewSettings, FI_TViewOptionsSettingsController, NSMenu, NSMenuItem, NSString;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface FI_TArrangeByMenuController
 {
     NSMenu *_arrangeByMenu;
-    NSMenu *_sortByMenu;
-    NSMenuItem *_selectedGroupMenuItem;
-    NSMenuItem *_selectedSortMenuItem;
-    int _selectedGroupByTag;
-    int _selectedSortByTag;
-    int _groupBy;
-    int _sortBy;
-    _Bool _inOpenSave;
-    struct TNSWeakPtr<FI_TViewOptionsSettingsController> _weakViewOptionsSettingsController;
-    struct vector<TKeyValueBinder, std::allocator<TKeyValueBinder>> _keyValueBinders;
-    FI_TNodeViewSettings *_viewSettings;
 }
 
 + (id);
@@ -38,33 +27,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (int);
 - (void);
-- (int);
+- (int);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)i;
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)(;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -72,7 +61,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)S	;
 - (int);
 - (void);
 - (void);
@@ -84,21 +73,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMenu *arrangeByMenu; // @synthesize arrangeByMenu=_arrangeByMenu;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int groupBy;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inOpenSave; // @synthesize inOpenSave=_inOpenSave;
-@property(nonatomic) int selectedGroupByTag; // @synthesize selectedGroupByTag=_selectedGroupByTag;
-@property(nonatomic) int selectedSortByTag; // @synthesize selectedSortByTag=_selectedSortByTag;
-@property(nonatomic) int sortBy;
-@property(retain, nonatomic) NSMenu *sortByMenu; // @synthesize sortByMenu=_sortByMenu;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak FI_TViewOptionsSettingsController *viewOptionsSettingsController;
-@property(retain, nonatomic) FI_TNodeViewSettings *viewSettings; // @synthesize viewSettings=_viewSettings;
 
 @end
 

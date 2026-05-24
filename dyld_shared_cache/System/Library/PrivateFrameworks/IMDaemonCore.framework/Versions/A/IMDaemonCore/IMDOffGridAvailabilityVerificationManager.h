@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, NSString, SKStatusSubscriptionService;
-@protocol OS_dispatch_queue;
+@class SKStatusSubscriptionService;
 
 @interface IMDOffGridAvailabilityVerificationManager
 {
     SKStatusSubscriptionService *_offGridAvailabilitySubscriptionService;
-    NSObject<OS_dispatch_queue> *_privateWorkQueue;
-    NSCache *_subscriptionValidationTokenByHandleIDCache;
 }
 
 + (id)c}s] finished batch, has more work to do, but blocked by low power mode;
-- (void);
+- (void)
+;
 - (id);
 - (void);
 - (void);
@@ -27,21 +25,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)f_;
 - (void);
 - (void)-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SKStatusSubscriptionService *offGridAvailabilitySubscriptionService; // @synthesize offGridAvailabilitySubscriptionService=_offGridAvailabilitySubscriptionService;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *privateWorkQueue; // @synthesize privateWorkQueue=_privateWorkQueue;
-@property(retain, nonatomic) NSCache *subscriptionValidationTokenByHandleIDCache; // @synthesize subscriptionValidationTokenByHandleIDCache=_subscriptionValidationTokenByHandleIDCache;
-@property(readonly) Class superclass;
 
 @end
 

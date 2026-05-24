@@ -8,14 +8,11 @@
 @protocol UIDragSession;
 
 @protocol UITextDragRequest
+- (NSArray *);
 - (id <UIDragSession>);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextRange *dragRange;
-@property(readonly, nonatomic) id <UIDragSession> dragSession;
-@property(readonly, nonatomic) NSArray *existingItems;
-@property(readonly, nonatomic, getter=isSelected) _Bool selected;
-@property(readonly, nonatomic) NSArray *suggestedItems;
 @end
 

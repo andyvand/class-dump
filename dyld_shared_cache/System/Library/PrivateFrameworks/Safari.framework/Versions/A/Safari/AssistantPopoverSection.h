@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverSection
 {
     long long _type;
-    NSArray *_assistantPopoverResults;
 }
 
 - (void);
@@ -21,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assistantPopoverResults; // @synthesize assistantPopoverResults=_assistantPopoverResults;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

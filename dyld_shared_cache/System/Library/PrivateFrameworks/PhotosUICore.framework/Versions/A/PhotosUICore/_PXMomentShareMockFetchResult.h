@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol PXDisplayAsset;
 
 @interface _PXMomentShareMockFetchResult
@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (id);
 - (id)meRange;
@@ -28,16 +28,7 @@ Error:%@ /* Error: Ran out of types for this method. */;
 - (id)y;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <PXDisplayAsset> firstObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXDisplayAsset> lastObject;
-@property(readonly) Class superclass;
 
 @end
 

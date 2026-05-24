@@ -15,7 +15,7 @@
 
 + (id);
 + (unsigned short);
-- (id);
+- (id)AMSODIAssessment;
 - (void);
 
 @end

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPFetcher, LPFetcherResponse, NSString;
+
 @protocol LPFetcherURLResponse
++ (LPFetcherResponse *)transcriptOverlayViewControllerIsAnimatingOut:(LPFetcher *)arg1;
++ (_Bool)transcriptCollectionViewControllerComputedInsets:(NSString *)arg1;
 @end
 

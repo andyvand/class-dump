@@ -38,7 +38,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -52,7 +52,7 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -62,7 +62,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (double);
+- (double)ACCESSORY_SENT_INVALID_RESPONSE;
 - (void);
 - (_Bool);
 - (id);
@@ -187,9 +187,6 @@
 
 // Remaining properties
 @property(nonatomic) double duration;
-@property(nonatomic) double speed;
-@property(nonatomic) CDUnknownBlockType timingFunction;
-@property(nonatomic) long long timingMode;
 
 @end
 

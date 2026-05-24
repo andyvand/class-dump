@@ -5,12 +5,10 @@
 //
 
 @protocol _UIForceObservationMessageConstructing
-- (void)nt;
-- (double)eTouchStatusChangedNotification;
+- (void)_incrementUnsatisfiableConstraintsLoggingSuspensionCount;
+- (double)UIAccessibilityForceTouchStatusChangedNotification;
 
 // Remaining properties
-@property(nonatomic) unsigned long long stage;
-@property(nonatomic) double timestamp;
 @property(nonatomic) double touchForce;
 @end
 

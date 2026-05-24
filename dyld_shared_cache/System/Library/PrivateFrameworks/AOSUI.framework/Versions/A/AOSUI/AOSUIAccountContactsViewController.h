@@ -6,16 +6,12 @@
 
 #import <AOSUI/AOSUISpyglassBaseViewController.h>
 
-@class NSButton, NSStackView, NSWindow;
+@class NSButton;
 @protocol AOSUIAccountContactsViewControllerDelegate;
 
 @interface AOSUIAccountContactsViewController : AOSUISpyglassBaseViewController
 {
     id <AOSUIAccountContactsViewControllerDelegate> _delegate;
-    NSStackView *_stackViewContainer;
-    NSButton *_doneButton;
-    NSWindow *_modalWindow;
-    NSWindow *_hostWindow;
 }
 
 - (id);
@@ -32,23 +28,19 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void)YÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property __weak id <AOSUIAccountContactsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property __weak NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property __weak NSStackView *stackViewContainer; // @synthesize stackViewContainer=_stackViewContainer;
 
 @end
 

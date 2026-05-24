@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface IXDataPromiseSeed
 {
     NSString *_name;
-    unsigned long long _creatorIdentifier;
-    NSUUID *_uniqueIdentifier;
-    unsigned long long _totalBytesNeededOnDisk;
 }
 
 + (_Bool);
@@ -24,17 +21,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ionContext";
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) Class clientPromiseClass;
-@property(nonatomic) unsigned long long creatorIdentifier; // @synthesize creatorIdentifier=_creatorIdentifier;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long totalBytesNeededOnDisk; // @synthesize totalBytesNeededOnDisk=_totalBytesNeededOnDisk;
-@property(retain, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

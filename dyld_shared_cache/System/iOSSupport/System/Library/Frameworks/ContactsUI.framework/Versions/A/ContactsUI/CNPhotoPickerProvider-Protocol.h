@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol CNPhotoPickerProvider
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier;

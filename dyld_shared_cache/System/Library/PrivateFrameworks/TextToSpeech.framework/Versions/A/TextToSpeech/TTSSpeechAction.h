@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechUtterance, AXCVoiceSelection, NSAttributedString, NSMutableArray, NSString, TextToSpeech.TaggedSSML;
+@class AVSpeechUtterance, NSString;
 
 @interface TTSSpeechAction
 {
     NSString *_string;
-    double _pitch;
-    double _volume;
-    double _speakingRate;
-    NSString *_language;
-    _Bool _shouldQueue;
-    _Bool _cannotInterrupt;
-    _Bool _shouldDetectLanguage;
-    _Bool _shouldProcessEmoji;
-    _Bool _shouldProcessEmoticons;
-    _Bool _shouldPrecomposeString;
-    CDUnknownBlockType _completionCallback;
-    CDUnknownBlockType _onPauseCallback;
-    CDUnknownBlockType _onResumeCallback;
-    CDUnknownBlockType _onWillSpeakRangeCallback;
-    CDUnknownBlockType _onSpeechStartCallback;
-    CDUnknownBlockType _onMarkerCallback;
-    _Bool _ignoreCustomSubstitutions;
-    _Bool _synthesizeSilently;
-    NSString *_voiceIdentifier;
-    AXCVoiceSelection *_voiceSelection;
-    long long _state;
-    CDUnknownBlockType _audioBufferCallback;
-    CDUnknownBlockType _markerCallback;
-    NSAttributedString *_attributedString;
-    NSString *_ssmlRepresentation;
-    long long _wordCallbackPostProcessedOffset;
-    NSString *_finalSpokenString;
-    NSString *_processedString;
-    TextToSpeech.TaggedSSML *_taggedSSML;
-    unsigned long long _currentSSMLSnippetIndex;
-    NSMutableArray *_emojiRangeReplacements;
 }
 
 + (void);
@@ -50,7 +19,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (double);
+- (double)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))!;
 - (void);
 - (void);
 - (void);
@@ -101,10 +70,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)rticipantUUID[%@] receives message[%@];
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -116,44 +85,12 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)ocol cast %@ expects %s;
 - (void);
 - (void)m;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(copy, nonatomic) CDUnknownBlockType audioBufferCallback; // @synthesize audioBufferCallback=_audioBufferCallback;
-@property(nonatomic) _Bool cannotInterrupt; // @synthesize cannotInterrupt=_cannotInterrupt;
-@property(copy, nonatomic) CDUnknownBlockType completionCallback; // @synthesize completionCallback=_completionCallback;
-@property(nonatomic) unsigned long long currentSSMLSnippetIndex; // @synthesize currentSSMLSnippetIndex=_currentSSMLSnippetIndex;
-@property(retain, nonatomic) NSMutableArray *emojiRangeReplacements; // @synthesize emojiRangeReplacements=_emojiRangeReplacements;
-@property(retain, nonatomic) NSString *finalSpokenString; // @synthesize finalSpokenString=_finalSpokenString;
-@property(nonatomic) _Bool ignoreCustomSubstitutions; // @synthesize ignoreCustomSubstitutions=_ignoreCustomSubstitutions;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(copy, nonatomic) CDUnknownBlockType markerCallback; // @synthesize markerCallback=_markerCallback;
-@property(copy, nonatomic) CDUnknownBlockType onMarkerCallback; // @synthesize onMarkerCallback=_onMarkerCallback;
-@property(copy, nonatomic) CDUnknownBlockType onPauseCallback; // @synthesize onPauseCallback=_onPauseCallback;
-@property(copy, nonatomic) CDUnknownBlockType onResumeCallback; // @synthesize onResumeCallback=_onResumeCallback;
-@property(copy, nonatomic) CDUnknownBlockType onSpeechStartCallback; // @synthesize onSpeechStartCallback=_onSpeechStartCallback;
-@property(copy, nonatomic) CDUnknownBlockType onWillSpeakRangeCallback; // @synthesize onWillSpeakRangeCallback=_onWillSpeakRangeCallback;
-@property(nonatomic) double pitch; // @synthesize pitch=_pitch;
-@property(retain, nonatomic) NSString *processedString; // @synthesize processedString=_processedString;
-@property(nonatomic) _Bool shouldDetectLanguage; // @synthesize shouldDetectLanguage=_shouldDetectLanguage;
-@property(nonatomic) _Bool shouldPrecomposeString; // @synthesize shouldPrecomposeString=_shouldPrecomposeString;
-@property(nonatomic) _Bool shouldProcessEmoji; // @synthesize shouldProcessEmoji=_shouldProcessEmoji;
-@property(nonatomic) _Bool shouldProcessEmoticons; // @synthesize shouldProcessEmoticons=_shouldProcessEmoticons;
-@property(nonatomic) _Bool shouldQueue; // @synthesize shouldQueue=_shouldQueue;
-@property(nonatomic) double speakingRate; // @synthesize speakingRate=_speakingRate;
-@property(copy, nonatomic) NSString *ssmlRepresentation; // @synthesize ssmlRepresentation=_ssmlRepresentation;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(nonatomic) _Bool synthesizeSilently; // @synthesize synthesizeSilently=_synthesizeSilently;
-@property(retain, nonatomic) TextToSpeech.TaggedSSML *taggedSSML; // @synthesize taggedSSML=_taggedSSML;
 @property(retain, nonatomic) AVSpeechUtterance *utterance;
-@property(retain, nonatomic) NSString *voiceIdentifier; // @synthesize voiceIdentifier=_voiceIdentifier;
-@property(retain, nonatomic) AXCVoiceSelection *voiceSelection; // @synthesize voiceSelection=_voiceSelection;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
-@property(nonatomic) long long wordCallbackPostProcessedOffset; // @synthesize wordCallbackPostProcessedOffset=_wordCallbackPostProcessedOffset;
 
 @end
 

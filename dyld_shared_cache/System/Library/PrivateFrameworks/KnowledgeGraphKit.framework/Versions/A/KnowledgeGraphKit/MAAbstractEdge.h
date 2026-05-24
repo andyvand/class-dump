@@ -11,25 +11,19 @@
 @interface MAAbstractEdge : MAConcreteEdge
 {
     MAAbstractNode *_sourceAbstractNode;
-    MAAbstractNode *_targetAbstractNode;
-    _Bool _isDirected;
-    unsigned long long _minimum;
-    unsigned long long _maximum;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)e;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) _Bool isDirected; // @synthesize isDirected=_isDirected;
-@property(readonly) unsigned long long maximum; // @synthesize maximum=_maximum;
 @property(readonly) unsigned long long minimum; // @synthesize minimum=_minimum;
 
 @end

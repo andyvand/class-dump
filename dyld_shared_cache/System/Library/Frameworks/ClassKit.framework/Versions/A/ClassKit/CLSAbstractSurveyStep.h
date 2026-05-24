@@ -9,14 +9,12 @@
 @interface CLSAbstractSurveyStep : CLSObject
 {
     long long _version;
-    long long _type;
 }
 
 - (long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end

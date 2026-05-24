@@ -11,20 +11,20 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (double);
+- (id)So28IMDCommunicationTrustManagerC;
+- (double)So8NSStringCSgSo7IMDChatCSgIeyBya_;
 - (double);
 - (_Bool);
 - (double);
 - (struct CGPoint);
-- (id);
-- (id);
-- (double);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGPoint);
-- (double);
+- (id)id change hasMultiplePhoneNumbers %@;
+- (id)ngRecordsToSave was passed in a nil records array;
+- (double)from CloudKit trying to fetch recordID:%@ with error:%@ transfer:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)eletion.deleted;
+- (struct UIEdgeInsets)om.apple.automatichistorydeletion.deleted;
+- (double)apple.imdpersistenceagent.notification.mergecompleted;
+- (struct CGPoint)Filtration.changed;
+- (double)InitialChatSyncFailed;
 - (id);
 - (id);
 - (double);
@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint)tyleDarkSecondaryTextColor;
+- (struct CGPoint)P;
+- (struct CGPoint)systemUserInterfaceStyleDarkSecondaryTextColor;
 - (double)onLabel;
 
 @end

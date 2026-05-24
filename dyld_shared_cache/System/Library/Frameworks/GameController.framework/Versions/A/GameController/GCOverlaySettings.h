@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, GCOverlayProfile, GameController.GCOverlaySettingsStore, NSArray, NSString;
+@class GameController.GCOverlaySettingsStore, NSArray;
 
 @interface GCOverlaySettings
 {
     GameController.GCOverlaySettingsStore *_settingsStore;
-    GCController *_controller;
-    NSString *_gameBundleIdentifier;
-    GCOverlayProfile *_selectedProfile;
-    NSArray *_availableProfiles;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)-;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)"32;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *availableProfiles; // @synthesize availableProfiles=_availableProfiles;
-@property(retain, nonatomic) GCController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) NSString *gameBundleIdentifier; // @synthesize gameBundleIdentifier=_gameBundleIdentifier;
-@property(retain, nonatomic) GCOverlayProfile *selectedProfile; // @synthesize selectedProfile=_selectedProfile;
 
 @end
 

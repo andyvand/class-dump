@@ -14,11 +14,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isUrgentStateEnabledForCurrentUser;
 @property(nonatomic) __weak REMReminder *reminder; // @synthesize reminder=_reminder;
 
 @end

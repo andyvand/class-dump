@@ -5,5 +5,6 @@
 //
 
 @protocol PIPAgentProtocol
+- (void);
 @end
 

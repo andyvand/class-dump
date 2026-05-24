@@ -13,11 +13,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id)Home:(struct _NSZone *)arg1;
+- (id)insertWalletKeyExpressModeSetUpBulletinForHome:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property _Bool requiresCameraStreamingAccess; // @dynamic requiresCameraStreamingAccess;
-@property _Bool requiresRemoteAccess; // @dynamic requiresRemoteAccess;
 @property unsigned long long userPrivilege; // @dynamic userPrivilege;
 
 @end

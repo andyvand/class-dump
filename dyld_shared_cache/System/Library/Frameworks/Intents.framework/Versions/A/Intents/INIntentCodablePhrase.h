@@ -4,63 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntentCodableDescription, NSString;
+@class INIntentCodableDescription;
 
 @interface INIntentCodablePhrase
 {
     INIntentCodableDescription *_codableDescription;
-    NSString *_pronunciationHint;
-    NSString *_pronunciationHintLocID;
-    NSString *_phrase;
-    NSString *_phraseLocID;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id)__topLevelElements;
 - (void);
+- (unsigned long long)https: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
+- (void)setBestCandidateRSSI:(id)arg1;
+- (_Bool)_mutableRecommendedKnownNetworks;
+- (void)curity:(id)arg1 %lu, state:%@, macAddress:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void)ldHideSiriAttribution"b1};
-- (void)ameOptionsForCopyFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEntityNameOptionsForCopyFile:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setCodableDescription:) __weak INIntentCodableDescription *_codableDescription; // @synthesize _codableDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedPhrase;
-@property(readonly, copy) NSString *localizedPronunciationHint;
-@property(copy, nonatomic) NSString *phrase; // @synthesize phrase=_phrase;
-@property(copy, nonatomic) NSString *phraseLocID; // @synthesize phraseLocID=_phraseLocID;
-@property(copy, nonatomic) NSString *pronunciationHint; // @synthesize pronunciationHint=_pronunciationHint;
-@property(copy, nonatomic) NSString *pronunciationHintLocID; // @synthesize pronunciationHintLocID=_pronunciationHintLocID;
-@property(readonly) Class superclass;
 
 @end
 

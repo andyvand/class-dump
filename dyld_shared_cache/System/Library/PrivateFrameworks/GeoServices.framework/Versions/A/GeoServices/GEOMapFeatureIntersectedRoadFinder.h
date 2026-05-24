@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)setInferredNameOrder:(struct _GEOTileKey)arg1 toTokenizerNameOrder:(struct GeoCodecsVectorTilePoint)arg2;
+- (id)rangeWouldUnderflowWithTime:(id)arg1 tolerance:(struct GeoCodecsVectorTilePoint)arg2;
+- (id)observerDidReceiveResult:(id)arg1;
+- (id)localizedDescriptionForAddressingGrammars:(id)arg1;
 - (void)3;
 
 @end

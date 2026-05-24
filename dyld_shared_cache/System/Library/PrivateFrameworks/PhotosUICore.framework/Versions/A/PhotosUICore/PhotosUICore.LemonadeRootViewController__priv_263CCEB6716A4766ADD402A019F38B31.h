@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, PXSelectionContainer;
 @protocol PXActionProviderDelegate;
 
 @interface PhotosUICore.LemonadeRootViewController__priv_263CCEB6716A4766ADD402A019F38B31
 {
     id rootModel;
-    id navigationContext;
-    id photosActionManager;
-    id hostingResponder;
-    void actionProviderDelegate;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -29,8 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PXActionProviderDelegate> actionProviderDelegate; // @synthesize actionProviderDelegate;
-@property(nonatomic, readonly) NSResponder *preferredFirstResponder;
-@property(nonatomic, readonly) PXSelectionContainer *selectionContainer;
 
 @end
 

@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MLSlidingWindowsBrick
 {
     _Bool _shapeInfoNeeded;
-    NSNumber *_axis;
-    NSNumber *_step;
-    NSNumber *_size;
-    NSArray *_inputRanks;
-    NSArray *_outputRanks;
-    NSArray *_inputShapes;
-    NSArray *_outputShapes;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)encodeMTLInstanceBVHLeafNodeUserIDKernel;
+- (id)stageInputDescriptor;
+- (id)threadGroupSizeIsMultipleOfThreadExecutionWidth;
+- (id)of mesh shader pipelines in indirect command buffers is not supported by this device.;
+- (id)d for object and mesh shaders;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -34,21 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)XïçXïçXïçÉXïçÇXïçXXïçkXïçßXïçXïçXïçöXïçÎXïçiXïçXïçEXïçXïçqXïçXïç­Xïç:XïçZXïç£XïçXïçNXïç0XïçXïçXïçpXïçXïçtXïçáXïçXïç¨XïçÊXïçÑXïçRXïç[XïçdXïçPXïç{XïçXïç$XïçXïçUXïçnXïç?XïçìXïç¤XïçéXïçXïçþXïç]Xïç3XïçrXïçàXïç¸Xïç¡Xïç-XïçÅXïçXïçÙXïçaXïçfXïçÜXïçXïçXïçXïçXïç^Xïç7XïçwXïçõXïçÀXïçxXïçÓXïçeXïç¾XïçºXïçXïç`Xïç\XïçXïç¿XïçXïçØXïçâXïç+XïçXïçXïç/Xïç´Xïç®XïçïXïçKXïçXïç9XïçXïçXïç¢Xïç¥XïçXïç /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *axis; // @synthesize axis=_axis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *inputRanks; // @synthesize inputRanks=_inputRanks;
-@property(readonly, nonatomic) NSArray *inputShapes; // @synthesize inputShapes=_inputShapes;
-@property(readonly, nonatomic) NSArray *outputRanks; // @synthesize outputRanks=_outputRanks;
-@property(readonly, nonatomic) NSArray *outputShapes; // @synthesize outputShapes=_outputShapes;
 @property(readonly, nonatomic) _Bool shapeInfoNeeded; // @synthesize shapeInfoNeeded=_shapeInfoNeeded;
-@property(readonly, nonatomic) NSNumber *size; // @synthesize size=_size;
-@property(readonly, nonatomic) NSNumber *step; // @synthesize step=_step;
-@property(readonly) Class superclass;
 
 @end
 

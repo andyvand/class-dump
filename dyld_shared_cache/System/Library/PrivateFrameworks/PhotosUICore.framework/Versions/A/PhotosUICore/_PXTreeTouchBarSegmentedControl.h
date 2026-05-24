@@ -7,7 +7,6 @@
 @interface _PXTreeTouchBarSegmentedControl
 {
     _Bool _representedItemHasChildren;
-    id _representedItem;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id representedItem; // @synthesize representedItem=_representedItem;
-@property(nonatomic) _Bool representedItemHasChildren; // @synthesize representedItemHasChildren=_representedItemHasChildren;
 
 @end
 

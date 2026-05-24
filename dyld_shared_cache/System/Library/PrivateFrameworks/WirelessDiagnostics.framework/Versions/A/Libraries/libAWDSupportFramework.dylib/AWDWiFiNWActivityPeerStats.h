@@ -4,54 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiNWActivityTxCompletions, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface AWDWiFiNWActivityPeerStats
 {
     NSMutableArray *_acCompletions;
-    NSMutableArray *_bytes;
-    unsigned int _ccaValue;
-    NSMutableArray *_ccas;
-    AWDWiFiNWActivityTxCompletions *_completions;
-    NSString *_hashID;
-    unsigned int _ibssCCA;
-    unsigned int _interferenceCCA;
-    int _nfValue;
-    unsigned int _obssCCA;
-    unsigned int _ofdmDesense;
-    NSMutableArray *_packets;
-    unsigned int _qbssCCA;
-    unsigned int _qbssSTACount;
-    int _role;
-    int _rssiValue;
-    NSMutableArray *_rssis;
-    NSMutableArray *_rxLatencyTID0s;
-    NSMutableArray *_rxLatencyTID1s;
-    NSMutableArray *_rxLatencyTID2s;
-    NSMutableArray *_rxLatencyTID3s;
-    NSMutableArray *_rxLatencyTID4s;
-    NSMutableArray *_rxLatencyTID5s;
-    NSMutableArray *_rxLatencyTID6s;
-    NSMutableArray *_rxLatencyTID7s;
-    int _snrValue;
-    NSMutableArray *_snrs;
-    NSMutableArray *_txLatencyBEs;
-    NSMutableArray *_txLatencyBKs;
-    NSMutableArray *_txLatencyVIs;
-    NSMutableArray *_txLatencyVOs;
-    struct {
-        unsigned int ccaValue:1;
-        unsigned int ibssCCA:1;
-        unsigned int interferenceCCA:1;
-        unsigned int nfValue:1;
-        unsigned int obssCCA:1;
-        unsigned int ofdmDesense:1;
-        unsigned int qbssCCA:1;
-        unsigned int qbssSTACount:1;
-        unsigned int role:1;
-        unsigned int rssiValue:1;
-        unsigned int snrValue:1;
-    } _has;
 }
 
 + (Class);
@@ -60,6 +17,9 @@
 + (Class);
 + (Class);
 + (Class);
++ (Class);
++ (Class);
++ (Class)Th;
 + (Class);
 + (Class);
 + (Class);
@@ -68,14 +28,11 @@
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-- (unsigned long long);
++ (Class);
+- (unsigned long long)(-;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
@@ -89,6 +46,8 @@
 - (int);
 - (id);
 - (void);
+- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -118,10 +77,23 @@
 - (void);
 - (void);
 - (void);
+- (void)I;
 - (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)v;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id)R;
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id)qa;
 - (unsigned long long);
 - (id);
 - (id);
@@ -129,22 +101,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id));
 - (id);
 - (unsigned long long);
 - (id);
@@ -152,7 +109,7 @@
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -173,7 +130,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)r7iv;
 - (void);
 - (void);
 - (void);
@@ -185,7 +142,7 @@
 - (unsigned int);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (void);
@@ -195,33 +152,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)l ;
+- (void)(m;
 - (unsigned int);
 - (unsigned int);
 - (int);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
+- (void)J;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)T(@9q;
+- (void);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void);
@@ -233,61 +190,18 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)k;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (int);
-- (void)ndex:(int)arg1;
+- (int)Û;
+- (void)ccaAtIndex:(int)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *acCompletions; // @synthesize acCompletions=_acCompletions;
-@property(retain, nonatomic) NSMutableArray *bytes; // @synthesize bytes=_bytes;
-@property(nonatomic) unsigned int ccaValue; // @synthesize ccaValue=_ccaValue;
-@property(retain, nonatomic) NSMutableArray *ccas; // @synthesize ccas=_ccas;
-@property(retain, nonatomic) AWDWiFiNWActivityTxCompletions *completions; // @synthesize completions=_completions;
-@property(nonatomic) _Bool hasCcaValue;
-@property(readonly, nonatomic) _Bool hasCompletions;
-@property(readonly, nonatomic) _Bool hasHashID;
-@property(nonatomic) _Bool hasIbssCCA;
-@property(nonatomic) _Bool hasInterferenceCCA;
-@property(nonatomic) _Bool hasNfValue;
-@property(nonatomic) _Bool hasObssCCA;
-@property(nonatomic) _Bool hasOfdmDesense;
-@property(nonatomic) _Bool hasQbssCCA;
-@property(nonatomic) _Bool hasQbssSTACount;
 @property(nonatomic) _Bool hasRole;
-@property(nonatomic) _Bool hasRssiValue;
-@property(nonatomic) _Bool hasSnrValue;
-@property(retain, nonatomic) NSString *hashID; // @synthesize hashID=_hashID;
-@property(nonatomic) unsigned int ibssCCA; // @synthesize ibssCCA=_ibssCCA;
-@property(nonatomic) unsigned int interferenceCCA; // @synthesize interferenceCCA=_interferenceCCA;
-@property(nonatomic) int nfValue; // @synthesize nfValue=_nfValue;
-@property(nonatomic) unsigned int obssCCA; // @synthesize obssCCA=_obssCCA;
-@property(nonatomic) unsigned int ofdmDesense; // @synthesize ofdmDesense=_ofdmDesense;
-@property(retain, nonatomic) NSMutableArray *packets; // @synthesize packets=_packets;
-@property(nonatomic) unsigned int qbssCCA; // @synthesize qbssCCA=_qbssCCA;
-@property(nonatomic) unsigned int qbssSTACount; // @synthesize qbssSTACount=_qbssSTACount;
-@property(nonatomic) int role; // @synthesize role=_role;
-@property(nonatomic) int rssiValue; // @synthesize rssiValue=_rssiValue;
-@property(retain, nonatomic) NSMutableArray *rssis; // @synthesize rssis=_rssis;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID0s; // @synthesize rxLatencyTID0s=_rxLatencyTID0s;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID1s; // @synthesize rxLatencyTID1s=_rxLatencyTID1s;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID2s; // @synthesize rxLatencyTID2s=_rxLatencyTID2s;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID3s; // @synthesize rxLatencyTID3s=_rxLatencyTID3s;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID4s; // @synthesize rxLatencyTID4s=_rxLatencyTID4s;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID5s; // @synthesize rxLatencyTID5s=_rxLatencyTID5s;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID6s; // @synthesize rxLatencyTID6s=_rxLatencyTID6s;
-@property(retain, nonatomic) NSMutableArray *rxLatencyTID7s; // @synthesize rxLatencyTID7s=_rxLatencyTID7s;
-@property(nonatomic) int snrValue; // @synthesize snrValue=_snrValue;
-@property(retain, nonatomic) NSMutableArray *snrs; // @synthesize snrs=_snrs;
-@property(retain, nonatomic) NSMutableArray *txLatencyBEs; // @synthesize txLatencyBEs=_txLatencyBEs;
-@property(retain, nonatomic) NSMutableArray *txLatencyBKs; // @synthesize txLatencyBKs=_txLatencyBKs;
-@property(retain, nonatomic) NSMutableArray *txLatencyVIs; // @synthesize txLatencyVIs=_txLatencyVIs;
-@property(retain, nonatomic) NSMutableArray *txLatencyVOs; // @synthesize txLatencyVOs=_txLatencyVOs;
 
 @end
 

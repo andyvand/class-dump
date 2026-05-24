@@ -6,23 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PNRODSchemaPNRError;
-
 @interface PNRODSchemaPNRODFailureInfo : SISchemaInstrumentationMessage
 {
     long long _failureType;
-    long long _failureSubType;
-    PNRODSchemaPNRError *_error;
-    PNRODSchemaPNRError *_underlyingError;
-    PNRODSchemaPNRError *_underUnderlyingError;
-    NSArray *_errors;
-    struct {
-        unsigned int failureType:1;
-        unsigned int failureSubType:1;
-    } _has;
-    _Bool _hasError;
-    _Bool _hasUnderlyingError;
-    _Bool _hasUnderUnderlyingError;
 }
 
 - (id);
@@ -38,51 +24,40 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)R";
+- (void)W;
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (void)4;
 - (void);
+- (id)So23CHSControlConfigurationC;
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)id = ?   AND service = ? LIMIT 1 ;
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)eCard;
+- (id)_isMeCard;
 - (id)hasPegasusContext;
-- (void)trics;
+- (void)transcriptionMetrics;
 - (void)ives.alternative;
 - (_Bool)è³!;
 
 // Remaining properties
-@property(retain, nonatomic) PNRODSchemaPNRError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(nonatomic) long long failureSubType; // @synthesize failureSubType=_failureSubType;
 @property(nonatomic) long long failureType; // @synthesize failureType=_failureType;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasFailureSubType;
-@property(nonatomic) _Bool hasFailureType;
-@property(nonatomic) _Bool hasUnderUnderlyingError; // @synthesize hasUnderUnderlyingError=_hasUnderUnderlyingError;
-@property(nonatomic) _Bool hasUnderlyingError; // @synthesize hasUnderlyingError=_hasUnderlyingError;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRError *underUnderlyingError; // @synthesize underUnderlyingError=_underUnderlyingError;
-@property(retain, nonatomic) PNRODSchemaPNRError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

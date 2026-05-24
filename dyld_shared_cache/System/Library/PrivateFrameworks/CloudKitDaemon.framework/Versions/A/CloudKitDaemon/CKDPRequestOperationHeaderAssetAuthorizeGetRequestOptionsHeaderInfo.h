@@ -9,18 +9,18 @@
 @interface CKDPRequestOperationHeaderAssetAuthorizeGetRequestOptionsHeaderInfo
 {
     NSString *_headerKey;
-    NSString *_headerValue;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(%ld/%d) pauseRTP = %1.3f (%ld/%d)
+;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)RE;
 - (void);
 - (id);
 - (id);
@@ -30,7 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *headerKey; // @synthesize headerKey=_headerKey;
-@property(retain, nonatomic) NSString *headerValue; // @synthesize headerValue=_headerValue;
 
 @end
 

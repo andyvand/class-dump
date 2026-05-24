@@ -6,13 +6,11 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSString, VNOperationPointsProvider, VisionCoreClassificationMetrics;
+@class NSString, VisionCoreClassificationMetrics;
 
 @interface VNClassificationObservation : VNObservation
 {
     NSString *_identifier;
-    VisionCoreClassificationMetrics *_classificationMetrics;
-    VNOperationPointsProvider *_historicallyEncodedOperationPointsProvider;
 }
 
 + (id);
@@ -20,15 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)_itemPendingScanningDiskNumberOfChildrenNotPendingReconciliation;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
@@ -36,7 +34,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) VisionCoreClassificationMetrics *classificationMetrics; // @synthesize classificationMetrics=_classificationMetrics;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

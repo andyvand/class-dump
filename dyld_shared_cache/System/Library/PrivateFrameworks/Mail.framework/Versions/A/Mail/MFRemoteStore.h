@@ -6,21 +6,21 @@
 
 #import <Mail/MFLibraryStore.h>
 
-@class MFRemoteStoreAccount, NSString;
+@class MFRemoteStoreAccount;
 
 @interface MFRemoteStore : MFLibraryStore
 {
 }
 
 + (id);
-- (id);
+- (id)0:8@16@24@32:40@48@56 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)a;
+- (void)enableData;
 - (void)er ;
-- (void)enderRepositoryBucketDidChangeNotification;
+- (void)MFSenderRepositoryBucketDidChangeNotification;
 - (id);
 - (id)
 
@@ -1708,7 +1708,6 @@ $$'''''''''
 ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *URLString;
 @property(readonly, nonatomic) MFRemoteStoreAccount *account;
 
 @end

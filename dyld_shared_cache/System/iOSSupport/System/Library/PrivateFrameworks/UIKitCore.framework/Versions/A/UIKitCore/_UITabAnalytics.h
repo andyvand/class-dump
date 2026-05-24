@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UITabAnalytics
 {
     NSString *_bundleIdentifier;
-    long long _numberOfCustomizations;
-    long long _numberOfTabsInBar;
-    NSDate *_customizationLastReportedDate;
-    long long _lastToggleSource;
 }
 
 + (id)RÖÄk;
@@ -28,20 +24,16 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)processMessageForSending:(id)arg1 toChat:style:allowWatchdog:account: /* Error: Ran out of types for this method. */;
+- (void)loadAnyChatsContainingHandleIDsIn:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)_canMarkMessageAsSent:(unsigned long long)arg1;
+- (void)_cachedLastFailedMessageDate;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSDate *customizationLastReportedDate; // @synthesize customizationLastReportedDate=_customizationLastReportedDate;
-@property(nonatomic) long long lastToggleSource; // @synthesize lastToggleSource=_lastToggleSource;
-@property(nonatomic) long long numberOfCustomizations; // @synthesize numberOfCustomizations=_numberOfCustomizations;
-@property(nonatomic) long long numberOfTabsInBar; // @synthesize numberOfTabsInBar=_numberOfTabsInBar;
 
 @end
 

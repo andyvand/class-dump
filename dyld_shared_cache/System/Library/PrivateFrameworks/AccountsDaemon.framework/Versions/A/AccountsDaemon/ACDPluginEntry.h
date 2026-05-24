@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSSet, NSString;
+@class NSBundle;
 
 __attribute__((visibility("hidden")))
 @interface ACDPluginEntry
 {
     id _principalObject;
-    NSSet *_supportedAccountTypes;
-    NSSet *_supportedDataclasses;
-    NSString *_identifier;
-    struct {
-        unsigned int principalObject:1;
-        unsigned int supportedAccountTypes:1;
-        unsigned int supportedDataclasses:1;
-        unsigned int identifier:1;
-    } _fetchedFlags;
-    NSBundle *_bundle;
 }
 
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
@@ -36,10 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id principalObject;
-@property(readonly, nonatomic) NSSet *supportedAccountTypes;
-@property(readonly, nonatomic) NSSet *supportedDataclasses;
 
 @end
 

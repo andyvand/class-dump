@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface HMAccessCodeConstraints
 {
     unsigned long long _allowedCharacterSets;
-    long long _minimumLength;
-    long long _maximumLength;
-    long long _maximumAllowedAccessCodes;
 }
 
 + (id);
@@ -22,10 +17,10 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)thigh;
 - (id);
 - (void);
 - (id);
@@ -33,26 +28,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long allowedCharacterSets; // @synthesize allowedCharacterSets=_allowedCharacterSets;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long maximumAllowedAccessCodes; // @synthesize maximumAllowedAccessCodes=_maximumAllowedAccessCodes;
-@property(readonly) long long maximumLength; // @synthesize maximumLength=_maximumLength;
-@property(readonly) long long minimumLength; // @synthesize minimumLength=_minimumLength;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

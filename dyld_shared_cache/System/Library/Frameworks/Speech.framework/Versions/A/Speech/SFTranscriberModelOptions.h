@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, SFPersonalNamedEntityRetrievalOptions, SFSpeechLanguageModelConfiguration;
+@class NSURL;
 
 @interface SFTranscriberModelOptions
 {
     _Bool _farField;
-    _Bool _atypicalSpeech;
-    _Bool _enableParallelLoading;
-    _Bool _disableEagerLimit;
-    _Bool _enableFullPayloadCorrection;
-    NSURL *_supplementalModelURL;
-    NSString *_geoLMRegionID;
-    NSURL *_modelOverrideURL;
-    NSString *_taskForMemoryLock;
-    NSArray *_speechProfileURLs;
-    SFSpeechLanguageModelConfiguration *_languageModelCustomizationConfig;
-    SFPersonalNamedEntityRetrievalOptions *_personalNamedEntityRetrievalOptions;
 }
 
 - (id);
@@ -34,7 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)
+;
 - (id);
 - (id);
 - (_Bool);
@@ -47,18 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool atypicalSpeech; // @synthesize atypicalSpeech=_atypicalSpeech;
-@property(readonly, nonatomic) _Bool disableEagerLimit; // @synthesize disableEagerLimit=_disableEagerLimit;
-@property(readonly, nonatomic) _Bool enableFullPayloadCorrection; // @synthesize enableFullPayloadCorrection=_enableFullPayloadCorrection;
-@property(readonly, nonatomic) _Bool enableParallelLoading; // @synthesize enableParallelLoading=_enableParallelLoading;
-@property(readonly, nonatomic) _Bool farField; // @synthesize farField=_farField;
-@property(readonly, copy, nonatomic) NSString *geoLMRegionID; // @synthesize geoLMRegionID=_geoLMRegionID;
-@property(readonly, nonatomic) SFSpeechLanguageModelConfiguration *languageModelCustomizationConfig; // @synthesize languageModelCustomizationConfig=_languageModelCustomizationConfig;
-@property(readonly, copy, nonatomic) NSURL *modelOverrideURL; // @synthesize modelOverrideURL=_modelOverrideURL;
-@property(readonly, nonatomic) SFPersonalNamedEntityRetrievalOptions *personalNamedEntityRetrievalOptions; // @synthesize personalNamedEntityRetrievalOptions=_personalNamedEntityRetrievalOptions;
-@property(readonly, copy, nonatomic) NSArray *speechProfileURLs; // @synthesize speechProfileURLs=_speechProfileURLs;
 @property(readonly, copy, nonatomic) NSURL *supplementalModelURL; // @synthesize supplementalModelURL=_supplementalModelURL;
-@property(readonly, copy, nonatomic) NSString *taskForMemoryLock; // @synthesize taskForMemoryLock=_taskForMemoryLock;
 
 @end
 

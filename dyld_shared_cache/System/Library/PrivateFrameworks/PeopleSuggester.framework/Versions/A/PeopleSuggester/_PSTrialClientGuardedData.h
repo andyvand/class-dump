@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSArray, NSDictionary, TRIClient;
-@protocol TRINotificationToken;
+@class TRIClient;
 
 @interface _PSTrialClientGuardedData
 {
     TRIClient *_trialClient;
-    NSDictionary *_recipe;
-    MLModel *_rankingModel;
-    NSArray *_suggestionProxyOrder;
-    id <TRINotificationToken> _token;
 }
 
 - (void);

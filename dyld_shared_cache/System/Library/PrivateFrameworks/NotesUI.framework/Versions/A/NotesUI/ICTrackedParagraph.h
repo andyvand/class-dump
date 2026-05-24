@@ -9,7 +9,6 @@
 @interface ICTrackedParagraph
 {
     ICTTParagraphStyle *_paragraph;
-    struct _NSRange _characterRange;
 }
 
 - (void);
@@ -17,10 +16,9 @@
 - (void);
 - (id);
 - (struct _NSRange);
-- (void)atchFromAppearancesWithNames: /* Error: Ran out of types for this method. */;
+- (void)bestMatchFromAppearancesWithNames: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange characterRange; // @synthesize characterRange=_characterRange;
 @property(retain, nonatomic) ICTTParagraphStyle *paragraph; // @synthesize paragraph=_paragraph;
 
 @end

@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void);
+- (void)oted Contact with 1 query term and no prefix match;
 - (id);
 - (void)0@ù
 × ;

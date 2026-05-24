@@ -6,23 +6,16 @@
 
 #import <AVConference/AVCRTCPPacket.h>
 
-@class AVCRTCPReceiverReport;
-
 @interface AVCRTCPSenderReport : AVCRTCPPacket
 {
     unsigned int _NTPMostSignificantWord;
-    unsigned int _NTPLeastSignificantWord;
-    unsigned int _RTPTimestamp;
-    unsigned int _packetsSent;
-    unsigned int _octetsSent;
-    AVCRTCPReceiverReport *_receiverReport;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@9;
+- (void)_;
 - (id);
 - (void);
 - (id);
@@ -35,12 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int NTPLeastSignificantWord; // @synthesize NTPLeastSignificantWord=_NTPLeastSignificantWord;
 @property(nonatomic) unsigned int NTPMostSignificantWord; // @synthesize NTPMostSignificantWord=_NTPMostSignificantWord;
-@property(nonatomic) unsigned int RTPTimestamp; // @synthesize RTPTimestamp=_RTPTimestamp;
-@property(nonatomic) unsigned int octetsSent; // @synthesize octetsSent=_octetsSent;
-@property(nonatomic) unsigned int packetsSent; // @synthesize packetsSent=_packetsSent;
-@property(retain, nonatomic) AVCRTCPReceiverReport *receiverReport; // @synthesize receiverReport=_receiverReport;
 
 @end
 

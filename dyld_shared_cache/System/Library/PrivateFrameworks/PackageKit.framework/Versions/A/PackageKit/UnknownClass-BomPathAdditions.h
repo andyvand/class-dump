@@ -7,7 +7,7 @@
 @interface UnknownClass (BomPathAdditions)
 + (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

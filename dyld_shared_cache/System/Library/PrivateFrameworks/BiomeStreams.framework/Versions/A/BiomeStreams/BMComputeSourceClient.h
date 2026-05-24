@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMComputePublisherStorage, BMXPCConnectionWrapper, NSString, NSXPCListenerEndpoint;
+@class NSString;
 
 @interface BMComputeSourceClient
 {
     unsigned long long _domain;
-    NSXPCListenerEndpoint *_listenerEndpoint;
-    BMComputePublisherStorage *_storage;
-    unsigned int _user;
-    BMXPCConnectionWrapper *_connectionWrapper;
-    NSString *_streamIdentifier;
 }
 
 + (id);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void)$!8@ùv1Â0@ù
 × ;
 - (id)¥î§ï¨©ª«ðñ­ò¯°±;

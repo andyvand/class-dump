@@ -6,8 +6,6 @@
 
 #import <LocationSupport/CLSettingsManagerInternal.h>
 
-@class NSString;
-
 @interface CLSettingsManager : CLSettingsManagerInternal
 {
     id _notificationObserver;
@@ -17,20 +15,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)startupStagedAssetTotalContentBytes;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id notificationObserver; // @synthesize notificationObserver=_notificationObserver;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool valid;
 
 @end
 

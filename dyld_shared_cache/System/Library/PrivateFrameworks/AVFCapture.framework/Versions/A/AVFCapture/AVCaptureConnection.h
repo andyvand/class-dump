@@ -4,42 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureConnectionInternal, AVCaptureOutput, AVCaptureVideoPreviewLayer, NSArray;
+@class AVCaptureConnectionInternal, NSArray;
 
 @interface AVCaptureConnection
 {
     AVCaptureConnectionInternal *_internal;
-    _Bool _supportsVideoFieldMode;
-    long long _videoFieldMode;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (void)m;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)wUserInteraction:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (CDStruct_1b6d18a9);
+- (_Bool)sebackup.activity;
+- (CDStruct_1b6d18a9)tive dialog with URL:%@ title:%@ username:%@ authDelegateClassName %@ authDelegateClassBundlePath %@" /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)ey;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (double);
 - (float);
 - (id);
@@ -58,36 +56,36 @@
 - (void);
 - (_Bool);
 - (long long);
-- (void);
+- (void)~;
 - (void);
 - (void);
 - (CDStruct_1b6d18a9);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)aV;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
+- (void)@24^{OpaqueCMClock=}32B40B44B48{?=[8I]}52Q84B92@96@104@112B120B124@128^i136;
+- (long long)debugDescription;
+- (CDStruct_1b6d18a9)_shotBufferWaitGroup;
+- (_Bool)_constantColorStrobeWhitePointGGain;
+- (_Bool)initWithSettings:configuration:sourceNodePixelBufferAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)G;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (long long);
-- (CDStruct_1b6d18a9);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (_Bool);
-- (id);
+- (id)VideoDefaultMinFrameRatesForPresets;
 - (void);
 - (void);
 - (double);
@@ -98,7 +96,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -111,13 +109,13 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void));
 - (void);
 - (CDStruct_1b6d18a9);
 - (unsigned int)× ;
-- (_Bool)sSetByClient;
-- (_Bool)urationSet;
-- (unsigned long long)eSenderEndpoints:(id)arg1;
+- (_Bool)scaleFactorIsSetByClient;
+- (_Bool)isVideoMaxFrameDurationSet;
+- (unsigned long long)initWithXPCArrayOfFrameSenderEndpoints:(id)arg1;
 - (void)Lô;
 - (_Bool)è;
 - (void)Session >>>> %s:(_Bool)arg1 (%p) (pthread:%p) /* Error: Ran out of types for this method. */;
@@ -128,33 +126,7 @@
 - (void)÷4;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) long long activeVideoStabilizationMode;
-@property(readonly, nonatomic) NSArray *audioChannels;
-@property(nonatomic) _Bool automaticallyAdjustsVideoMirroring;
-@property(nonatomic, getter=isCameraIntrinsicMatrixDeliveryEnabled) _Bool cameraIntrinsicMatrixDeliveryEnabled;
-@property(readonly, nonatomic, getter=isCameraIntrinsicMatrixDeliverySupported) _Bool cameraIntrinsicMatrixDeliverySupported;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) _Bool enablesVideoStabilizationWhenAvailable;
 @property(readonly, nonatomic) NSArray *inputPorts;
-@property(readonly, nonatomic) AVCaptureOutput *output;
-@property(nonatomic) long long preferredVideoStabilizationMode;
-@property(readonly, nonatomic, getter=isVideoFieldModeSupported) _Bool supportsVideoFieldMode; // @synthesize supportsVideoFieldMode=_supportsVideoFieldMode;
-@property(readonly, nonatomic, getter=isVideoMaxFrameDurationSupported) _Bool supportsVideoMaxFrameDuration;
-@property(readonly, nonatomic, getter=isVideoMinFrameDurationSupported) _Bool supportsVideoMinFrameDuration;
-@property(readonly, nonatomic, getter=isVideoMirroringSupported) _Bool supportsVideoMirroring;
-@property(readonly, nonatomic, getter=isVideoOrientationSupported) _Bool supportsVideoOrientation;
-@property(readonly, nonatomic, getter=isVideoStabilizationSupported) _Bool supportsVideoStabilization;
-@property(nonatomic) long long videoFieldMode; // @synthesize videoFieldMode=_videoFieldMode;
-@property(nonatomic) CDStruct_1b6d18a9 videoMaxFrameDuration;
-@property(readonly, nonatomic) double videoMaxScaleAndCropFactor;
-@property(nonatomic) CDStruct_1b6d18a9 videoMinFrameDuration;
-@property(nonatomic, getter=isVideoMirrored) _Bool videoMirrored;
-@property(nonatomic) long long videoOrientation;
-@property(readonly, nonatomic) AVCaptureVideoPreviewLayer *videoPreviewLayer;
-@property(nonatomic) double videoRotationAngle;
-@property(nonatomic) double videoScaleAndCropFactor;
-@property(readonly, nonatomic, getter=isVideoStabilizationEnabled) _Bool videoStabilizationEnabled;
 
 @end
 

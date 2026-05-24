@@ -11,19 +11,15 @@
 @interface MPReorderQueueCommandEvent : MPRemoteCommandEvent
 {
     NSString *_insertBeforeContextItemID;
-    NSString *_insertAfterContextItemID;
-    long long _destinationOffset;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (void)ange: /* Error: Ran out of types for this method. */;
+- (void)_outputDevicesDidChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long destinationOffset; // @synthesize destinationOffset=_destinationOffset;
-@property(readonly, nonatomic) NSString *insertAfterContextItemID; // @synthesize insertAfterContextItemID=_insertAfterContextItemID;
 @property(readonly, nonatomic) NSString *insertBeforeContextItemID; // @synthesize insertBeforeContextItemID=_insertBeforeContextItemID;
 
 @end

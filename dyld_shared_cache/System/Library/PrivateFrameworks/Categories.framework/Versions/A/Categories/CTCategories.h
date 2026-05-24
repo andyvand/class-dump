@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSString;
+@class NSArray, NSString;
 
 @interface CTCategories
 {
     NSString *_indexVersionId;
-    NSLock *_lookupLock;
 }
 
 + (id);
@@ -21,15 +20,15 @@
 + (void);
 - (void);
 - (void);
-- (id);
+- (id)|;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)symptom CCReliableDataNotReceived with remote participant;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

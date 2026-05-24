@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ASRSchemaASRUtterance : SISchemaInstrumentationMessage
 {
@@ -20,20 +20,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)8;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ecutionTier1;
+- (id)videoExecutionTier1;
 - (id)$;
 - (id);
 - (void)»&;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *interpretationIndices; // @synthesize interpretationIndices=_interpretationIndices;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOfflineMediaContentKeyInfo, NSString;
+@class NSString;
 
 @interface AVOfflineMediaSegmentInfo
 {
     NSString *_path;
-    NSString *_networkURL;
-    AVOfflineMediaContentKeyInfo *_contentKeyInfo;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AVOfflineMediaContentKeyInfo *contentKeyInfo; // @synthesize contentKeyInfo=_contentKeyInfo;
-@property(readonly, nonatomic) NSString *networkURL; // @synthesize networkURL=_networkURL;
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end

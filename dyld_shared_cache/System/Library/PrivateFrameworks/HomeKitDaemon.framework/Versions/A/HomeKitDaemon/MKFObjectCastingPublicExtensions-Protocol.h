@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MKFWeekDayScheduleRule, MKFYearDayScheduleRule;
+
 @protocol MKFObjectCastingPublicExtensions
+
+@optional
+- (id <MKFYearDayScheduleRule>)onTypes;
+- (id <MKFWeekDayScheduleRule>)expired;
 @end
 

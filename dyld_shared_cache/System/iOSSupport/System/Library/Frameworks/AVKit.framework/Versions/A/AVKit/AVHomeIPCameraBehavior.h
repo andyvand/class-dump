@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVHomeIPCameraBehaviorContext, NSString;
+@class AVHomeIPCameraBehaviorContext;
 
 @interface AVHomeIPCameraBehavior
 {
@@ -27,13 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak AVHomeIPCameraBehaviorContext *behaviorContext; // @synthesize behaviorContext=_behaviorContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

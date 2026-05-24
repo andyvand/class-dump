@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSSet, NSString;
+@class NSIndexSet, NSMutableIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutSolveResult
 {
     NSMutableIndexSet *_invalidatedIndexes;
-    NSMutableDictionary *_invalidatedAuxiliaryIndexesDict;
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (void)!;
+- (id)tct-CRLNotificationResTBS;
+- (id);
+- (void)stringWithCString:(struct _NSRange)arg1 encoding: /* Error: Ran out of types for this method. */;
 - (void)@ù
 × ;
 - (void)QCI{_NSRange=QQ}{CGRect={CGPoint=dd}{CGSize=dd}}{_NSRange=QQ}{_NSRange=QQ}B{_NSRange=QQ}q}16@?24@?32@?40@?48;
-- (void)WithOffset:(id)arg1;
-- (void)mSize;
+- (void)copyWithOffset:(id)arg1;
+- (void)NSMaximumItemSize;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *invalidatedAuxiliaryKinds;
 @property(readonly, nonatomic) NSIndexSet *invalidatedIndexes;
-@property(readonly) Class superclass;
 
 @end
 

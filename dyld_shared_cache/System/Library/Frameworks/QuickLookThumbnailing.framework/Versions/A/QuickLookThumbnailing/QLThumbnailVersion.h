@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSDate, NSString;
 
 @interface QLThumbnailVersion
 {
     NSDate *_modificationDate;
-    unsigned long long _fileSize;
-    NSString *_generatorID;
-    NSString *_generatorVersion;
-    NSData *_versionIdentifier;
-    unsigned long long _ino;
-    NSString *_filenameExtension;
 }
 
-+ (_Bool);
++ (_Bool)T;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -29,18 +23,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)nly supported between equivalent tensor types.;
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -49,18 +43,10 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long)lReply;
+- (unsigned long long)QLThumbnailReply;
 
 // Remaining properties
-@property(readonly, getter=isAutomaticallyGenerated) _Bool automaticallyGenerated;
-@property(readonly, getter=isDefaultVersion) _Bool defaultVersion;
-@property unsigned long long fileSize; // @synthesize fileSize=_fileSize;
-@property(copy) NSString *filenameExtension; // @synthesize filenameExtension=_filenameExtension;
 @property(copy) NSString *generatorID; // @synthesize generatorID=_generatorID;
-@property(copy) NSString *generatorVersion; // @synthesize generatorVersion=_generatorVersion;
-@property unsigned long long ino; // @synthesize ino=_ino;
-@property(copy) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(copy) NSData *versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
 
 @end
 

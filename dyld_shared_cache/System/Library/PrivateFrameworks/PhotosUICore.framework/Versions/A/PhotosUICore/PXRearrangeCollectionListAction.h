@@ -6,23 +6,18 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHCollection, PHCollectionList, PHFetchResult;
-@protocol PXFastEnumeration;
+@class PHCollectionList, PHFetchResult;
 
 @interface PXRearrangeCollectionListAction : PXPhotosAction
 {
     PHFetchResult *_beforeFetchResult;
-    PHFetchResult *_afterFetchResult;
-    PHCollectionList *_collectionList;
-    id <PXFastEnumeration> _movedCollections;
-    PHCollection *_targetCollection;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
@@ -34,8 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;
-@property(readonly, nonatomic) id <PXFastEnumeration> movedCollections; // @synthesize movedCollections=_movedCollections;
-@property(readonly, nonatomic) PHCollection *targetCollection; // @synthesize targetCollection=_targetCollection;
 
 @end
 

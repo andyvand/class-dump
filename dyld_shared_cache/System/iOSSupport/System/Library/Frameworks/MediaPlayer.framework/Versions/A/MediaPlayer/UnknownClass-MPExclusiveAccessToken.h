@@ -6,6 +6,6 @@
 
 @interface UnknownClass (MPExclusiveAccessToken)
 - (id);
-- (id);
+- (id)7;
 @end
 

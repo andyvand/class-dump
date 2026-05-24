@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,21 +28,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool isBigInt;
-@property(nonatomic) _Bool isBoolean;
 @property(nonatomic) _Bool isFunction;
-@property(nonatomic) _Bool isInteger;
-@property(nonatomic) _Bool isNull;
-@property(nonatomic) _Bool isNumber;
-@property(nonatomic) _Bool isObject;
-@property(nonatomic) _Bool isString;
-@property(nonatomic) _Bool isSymbol;
-@property(nonatomic) _Bool isUndefined;
 
 @end
 

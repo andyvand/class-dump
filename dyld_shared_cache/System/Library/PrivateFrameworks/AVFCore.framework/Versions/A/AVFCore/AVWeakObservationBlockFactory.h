@@ -8,7 +8,7 @@
 {
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)@�(;
 
 @end
 

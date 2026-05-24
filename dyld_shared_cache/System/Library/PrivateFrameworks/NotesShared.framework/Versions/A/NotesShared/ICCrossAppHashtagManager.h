@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)ct<OS_dispatch_semaphore>",&,V_installWaitSemaphore;
 + (id);
 + (id);
 

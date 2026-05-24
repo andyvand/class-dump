@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRLicensePlateStructure, GEOLPRTargetChar, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRLPRFillRule
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _plateTypeIndexes;
-    GEOLPRLicensePlateStructure *_frLicensePlateStructure;
-    GEOLPRTargetChar *_fromChar;
-    GEOLPRTargetChar *_toChar;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _fillType;
-    struct {
-        unsigned int has_fillType:1;
-        unsigned int read_plateTypeIndexes:1;
-        unsigned int read_frLicensePlateStructure:1;
-        unsigned int read_fromChar:1;
-        unsigned int read_toChar:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)FavoriteSet:(id)arg1;
++ (_Bool)setHasSchoolFavoriteSet:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -38,46 +22,37 @@
 - (unsigned int);
 - (unsigned int *);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (int);
+- (_Bool)setMatchInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)setIsUnitTestingCachedValue: /* Error: Ran out of types for this method. */;
+- (_Bool)setHash: /* Error: Ran out of types for this method. */;
+- (id)instanceMethodForSelector: /* Error: Ran out of types for this method. */;
+- (id)initWithTime:block: /* Error: Ran out of types for this method. */;
+- (id)highPriorityBundleIdentifiers;
+- (int)heapObjectsByClassAndBinary;
+- (void)rcle",R,N,V_familyCircle;
+- (void);
+- (int)Fiji;
+- (void)observer;
 - (void);
 - (void);
-- (int);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)4;
+- (id)Data"8Q16@"NSError"24;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)riteSet:(struct _NSZone *)arg1;
-- (id)aceCacheLookup;
+- (id)setMapFeatureIsTransitFavoriteSet:(struct _NSZone *)arg1;
+- (id)GEOLogMsgEventPlaceCacheLookup;
 - (id)stance using unsnapped route line;
 - (id)48;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int fillType;
-@property(retain, nonatomic) GEOLPRLicensePlateStructure *frLicensePlateStructure;
-@property(retain, nonatomic) GEOLPRTargetChar *fromChar;
-@property(nonatomic) _Bool hasFillType;
 @property(readonly, nonatomic) _Bool hasFrLicensePlateStructure;
-@property(readonly, nonatomic) _Bool hasFromChar;
-@property(readonly, nonatomic) _Bool hasToChar;
-@property(readonly, nonatomic) unsigned int *plateTypeIndexes;
-@property(readonly, nonatomic) unsigned long long plateTypeIndexesCount;
-@property(retain, nonatomic) GEOLPRTargetChar *toChar;
 
 @end
 

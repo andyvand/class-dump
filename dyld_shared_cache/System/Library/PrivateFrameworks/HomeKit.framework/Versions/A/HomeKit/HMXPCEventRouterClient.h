@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMEPersistentConnectionClient, HMFMessageDispatcher, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 @interface HMXPCEventRouterClient
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isActive;
-    _Bool _useBackgroundTaskAssertion;
-    NSUUID *_identifier;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSString *_changeRegistrationsMessageName;
-    NSString *_updateMessageName;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSNotificationCenter *_notificationCenter;
-    HMEPersistentConnectionClient *_eventRouterClient;
 }
 
 + (id)ler:] /* Error: Ran out of types for this method. */;
@@ -32,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -40,39 +30,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)EEEEEENSt3__19allocatorIS8_EEEEEE;
 - (id);
 - (void);
 - (void);
-- (void)eduleRule;
+- (void)HMYearDayScheduleRule;
 - (id)M;
 - (id)delegate:(id)arg1 %@;
-- (id)viteInformationRestrictedGuestHomeAccessSettingsCodingKey;
+- (id)HMUserInviteInformationRestrictedGuestHomeAccessSettingsCodingKey;
 - (id)_stopSearchingForNewAccessoriesWithError:] /* Error: Ran out of types for this method. */;
 - (void)AllNotificationsEnabled:(_Bool)arg1 includeAppleMediaAccessories:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *changeRegistrationsMessageName; // @synthesize changeRegistrationsMessageName=_changeRegistrationsMessageName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMEPersistentConnectionClient *eventRouterClient; // @synthesize eventRouterClient=_eventRouterClient;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *updateMessageName; // @synthesize updateMessageName=_updateMessageName;
-@property(readonly) _Bool useBackgroundTaskAssertion; // @synthesize useBackgroundTaskAssertion=_useBackgroundTaskAssertion;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

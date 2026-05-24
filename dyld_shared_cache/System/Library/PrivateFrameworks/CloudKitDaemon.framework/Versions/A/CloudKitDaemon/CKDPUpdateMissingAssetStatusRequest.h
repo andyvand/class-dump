@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordIdentifier, NSMutableArray, NSString;
-
 @interface CKDPUpdateMissingAssetStatusRequest
 {
     struct {
@@ -13,15 +11,6 @@
         unsigned long long count;
         unsigned long long size;
     } _packageAssetSizes;
-    long long _assetSize;
-    NSString *_assetPutReceipt;
-    CKDPRecordIdentifier *_missingAssetStatusRecordID;
-    NSMutableArray *_packagePutReceipts;
-    _Bool _recovered;
-    struct {
-        unsigned int assetSize:1;
-        unsigned int recovered:1;
-    } _has;
 }
 
 + (Class);
@@ -31,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -49,35 +38,25 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)"";
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)rtaeForceAudioTimer;
 - (_Bool);
 - (unsigned int);
-- (long long);
+- (long long)_privacy;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)tionCallback;
+- (Class)isCompletionCallback;
 - (void)8Ü	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetPutReceipt; // @synthesize assetPutReceipt=_assetPutReceipt;
-@property(nonatomic) long long assetSize; // @synthesize assetSize=_assetSize;
-@property(readonly, nonatomic) _Bool hasAssetPutReceipt;
-@property(nonatomic) _Bool hasAssetSize;
 @property(readonly, nonatomic) _Bool hasMissingAssetStatusRecordID;
-@property(nonatomic) _Bool hasRecovered;
-@property(retain, nonatomic) CKDPRecordIdentifier *missingAssetStatusRecordID; // @synthesize missingAssetStatusRecordID=_missingAssetStatusRecordID;
-@property(readonly, nonatomic) long long *packageAssetSizes;
-@property(readonly, nonatomic) unsigned long long packageAssetSizesCount;
-@property(retain, nonatomic) NSMutableArray *packagePutReceipts; // @synthesize packagePutReceipts=_packagePutReceipts;
-@property(nonatomic) _Bool recovered; // @synthesize recovered=_recovered;
 
 @end
 

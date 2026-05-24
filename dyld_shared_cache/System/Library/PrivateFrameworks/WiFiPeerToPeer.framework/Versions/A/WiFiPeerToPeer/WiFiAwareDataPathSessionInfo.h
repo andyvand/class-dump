@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WiFiMACAddress;
-
 @interface WiFiAwareDataPathSessionInfo
 {
     unsigned char _dpId;
-    unsigned char _serviceId;
-    unsigned long long _dpRole;
-    WiFiMACAddress *_initiatorDataAddress;
-    WiFiMACAddress *_peerNmiMacAddress;
-    WiFiMACAddress *_peerDataAddress;
-    unsigned long long _sessionState;
 }
 
 + (_Bool);
@@ -34,12 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char dpId; // @synthesize dpId=_dpId;
-@property(readonly, nonatomic) unsigned long long dpRole; // @synthesize dpRole=_dpRole;
-@property(readonly, nonatomic) WiFiMACAddress *initiatorDataAddress; // @synthesize initiatorDataAddress=_initiatorDataAddress;
-@property(readonly, nonatomic) WiFiMACAddress *peerDataAddress; // @synthesize peerDataAddress=_peerDataAddress;
-@property(readonly, nonatomic) WiFiMACAddress *peerNmiMacAddress; // @synthesize peerNmiMacAddress=_peerNmiMacAddress;
-@property(readonly, nonatomic) unsigned char serviceId; // @synthesize serviceId=_serviceId;
-@property(readonly, nonatomic) unsigned long long sessionState; // @synthesize sessionState=_sessionState;
 
 @end
 

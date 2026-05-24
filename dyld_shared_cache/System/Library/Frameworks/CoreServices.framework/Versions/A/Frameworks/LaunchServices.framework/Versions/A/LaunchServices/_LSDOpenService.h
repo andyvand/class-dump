@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-+ (id);
++ (id);
 + (unsigned short);
-- (id);
+- (id)!;
 
 @end
 

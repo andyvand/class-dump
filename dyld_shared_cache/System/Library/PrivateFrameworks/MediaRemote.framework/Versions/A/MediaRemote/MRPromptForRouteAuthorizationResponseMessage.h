@@ -14,7 +14,7 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)்க்கப்பட்டது:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *response;

@@ -4,45 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PHAsset, PNWallpaperCropResult;
+@class PHAsset;
 
 @interface PGCityscapeWallpaperSuggestionCandidate
 {
     _Bool _isFavorite;
-    float _wallpaperScore;
-    PHAsset *_asset;
-    NSString *_assetUUID;
-    NSDate *_creationDate;
-    PNWallpaperCropResult *_cropResult;
-    double _cropScorePenalty;
 }
 
-- (void);
-- (double);
+- (void)_delegate;
+- (double);
 - (float);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)NSt3__110shared_ptrIZ19AsUniqueBlockHelperIJEU8__strongU13block_pointerFvvEET0_ON4fstd15unique_functionIFvDpT_EEEE13SharedPayloadE27__shared_ptr_default_deleteISD_SD_EE;
+- (_Bool)_Lmax;
 - (id)ctionary",R,V_zeroKeyword;
 - (void)US;
 - (id)ÄFëÿV¸ÿ;
 
 // Remaining properties
 @property(readonly) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly) NSString *assetUUID; // @synthesize assetUUID=_assetUUID;
-@property(readonly) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly) PNWallpaperCropResult *cropResult; // @synthesize cropResult=_cropResult;
-@property double cropScorePenalty; // @synthesize cropScorePenalty=_cropScorePenalty;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isFavorite; // @synthesize isFavorite=_isFavorite;
-@property(readonly) Class superclass;
-@property(readonly) float wallpaperScore; // @synthesize wallpaperScore=_wallpaperScore;
 
 @end
 

@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCInterface, NSXPCListener;
-@protocol CSConnectionListenerDelegate, OS_dispatch_queue;
+@class NSMutableArray, NSXPCListener;
 
 @interface CSConnectionListener
 {
     NSXPCListener *_listener;
-    NSXPCInterface *_exportedInterface;
-    NSXPCInterface *_remoteInterface;
-    id _proxyObject;
-    id <CSConnectionListenerDelegate> _delegate;
-    NSMutableArray *_clientConnections;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_machServiceName;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id)firstCharacterAfterLanguage;
+- (id);
 - (void);
+- (id);
+- (void)initWithClassLabels:(id)arg1 precisionRecallCurves: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -36,22 +28,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)audioSessionProviderBeginInterruption:withContext: /* Error: Ran out of types for this method. */;
 - (void){public}ld;
 - (void)riSpeechRecorder initWithQueue:(id)arg1 speechController:audioSessionController:audioPlaybackService:experimentContext:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *clientConnections; // @synthesize clientConnections=_clientConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CSConnectionListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

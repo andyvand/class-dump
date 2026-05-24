@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionProvider, NSArray, NSMutableArray, NSMutableDictionary, NSString, NSUUID;
-@protocol CMIOExtensionDeviceSource;
-
 @interface CMIOExtensionDevice
 {
     struct os_unfair_lock_s _streamsLock;
-    NSMutableArray *_streams;
-    struct os_unfair_lock_s _changedPropertiesLock;
-    NSMutableDictionary *_changedProperties;
-    CMIOExtensionProvider *_parent;
-    id <CMIOExtensionDeviceSource> _source;
-    NSString *_description;
-    _Bool _isRegistered;
-    _Bool _runningSomewhere;
-    int _deviceControlPID;
-    NSString *_localizedName;
-    NSUUID *_deviceID;
-    NSString *_legacyDeviceID;
 }
 
 + (id);
@@ -44,8 +29,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)e;
+- (id)en %@;
 - (id);
 - (id);
 - (id);
@@ -55,15 +40,7 @@
 - (_Bool)available;
 
 // Remaining properties
-@property(nonatomic) int deviceControlPID; // @synthesize deviceControlPID=_deviceControlPID;
-@property(readonly, copy) NSUUID *deviceID; // @synthesize deviceID=_deviceID;
 @property(nonatomic) _Bool isRegistered; // @synthesize isRegistered=_isRegistered;
-@property(readonly, copy) NSString *legacyDeviceID; // @synthesize legacyDeviceID=_legacyDeviceID;
-@property(readonly, copy) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) __weak CMIOExtensionProvider *parent; // @synthesize parent=_parent;
-@property(nonatomic, getter=isRunningSomewhere) _Bool runningSomewhere; // @synthesize runningSomewhere=_runningSomewhere;
-@property(readonly) __weak id <CMIOExtensionDeviceSource> source; // @synthesize source=_source;
-@property(readonly, copy) NSArray *streams;
 
 @end
 

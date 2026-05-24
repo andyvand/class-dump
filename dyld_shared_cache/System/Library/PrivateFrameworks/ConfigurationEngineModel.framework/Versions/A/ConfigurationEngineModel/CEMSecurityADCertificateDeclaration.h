@@ -6,21 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSecurityADCertificateDeclaration : CEMConfigurationBase
 {
     NSString *_payloadCertServer;
-    NSString *_payloadCertTemplate;
-    NSString *_payloadDescription;
-    NSNumber *_payloadCertificateRenewalTimeInterval;
-    NSString *_payloadCertificateAuthority;
-    NSString *_payloadCertificateAcquisitionMechanism;
-    NSNumber *_payloadAllowAllAppsAccess;
-    NSNumber *_payloadPromptForCredentials;
-    NSNumber *_payloadKeyIsExtractable;
-    NSNumber *_payloadKeysize;
-    NSNumber *_payloadEnableAutoRenewal;
 }
 
 + (id);
@@ -48,38 +38,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!c;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)AssistiveTouchScannerSpeechRatePreference;
 - (id);
 - (id);
-- (void);
+- (void)zeof s->sid_ctx;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowAllAppsAccess; // @synthesize payloadAllowAllAppsAccess=_payloadAllowAllAppsAccess;
 @property(copy, nonatomic) NSString *payloadCertServer; // @synthesize payloadCertServer=_payloadCertServer;
-@property(copy, nonatomic) NSString *payloadCertTemplate; // @synthesize payloadCertTemplate=_payloadCertTemplate;
-@property(copy, nonatomic) NSString *payloadCertificateAcquisitionMechanism; // @synthesize payloadCertificateAcquisitionMechanism=_payloadCertificateAcquisitionMechanism;
-@property(copy, nonatomic) NSString *payloadCertificateAuthority; // @synthesize payloadCertificateAuthority=_payloadCertificateAuthority;
-@property(copy, nonatomic) NSNumber *payloadCertificateRenewalTimeInterval; // @synthesize payloadCertificateRenewalTimeInterval=_payloadCertificateRenewalTimeInterval;
-@property(copy, nonatomic) NSString *payloadDescription; // @synthesize payloadDescription=_payloadDescription;
-@property(copy, nonatomic) NSNumber *payloadEnableAutoRenewal; // @synthesize payloadEnableAutoRenewal=_payloadEnableAutoRenewal;
-@property(copy, nonatomic) NSNumber *payloadKeyIsExtractable; // @synthesize payloadKeyIsExtractable=_payloadKeyIsExtractable;
-@property(copy, nonatomic) NSNumber *payloadKeysize; // @synthesize payloadKeysize=_payloadKeysize;
-@property(copy, nonatomic) NSNumber *payloadPromptForCredentials; // @synthesize payloadPromptForCredentials=_payloadPromptForCredentials;
-@property(readonly) Class superclass;
 
 @end
 

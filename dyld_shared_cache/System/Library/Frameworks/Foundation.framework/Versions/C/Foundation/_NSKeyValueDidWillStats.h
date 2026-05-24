@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSThread;
-
 __attribute__((visibility("hidden")))
 @interface _NSKeyValueDidWillStats
 {
     long long _count;
-    _Bool _hasDecreased;
-    struct {
-        _Bool hasBecomeReentrant;
-        _Bool hasExcessiveDids;
-        _Bool hasWillDidThreadMismatch;
-    } _detectedIssues;
-    NSThread *_originalThread;
 }
 
-- (void);
+- (void);
 - (void);
 
 @end

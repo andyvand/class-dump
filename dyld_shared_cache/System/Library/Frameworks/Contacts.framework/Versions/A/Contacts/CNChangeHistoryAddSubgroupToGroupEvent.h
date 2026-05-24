@@ -11,26 +11,24 @@
 @interface CNChangeHistoryAddSubgroupToGroupEvent : CNChangeHistoryEvent
 {
     CNGroup *_subgroup;
-    CNGroup *_group;
 }
 
-+ (unsigned long long);
++ (unsigned long long)4;
 + (_Bool);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)Transport: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)oneFullSync: /* Error: Ran out of types for this method. */;
+- (void)willBatchIndexForFullSyncWithCount:lastOffset:doneFullSync: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNGroup *group; // @synthesize group=_group;
 @property(readonly, nonatomic) CNGroup *subgroup; // @synthesize subgroup=_subgroup;
 
 @end

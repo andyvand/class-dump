@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface PersonLinkingLinkedPairEvent
 {
     NSMutableArray *_pairs;
-    NSString *_userID;
 }
 
 + (Class);
@@ -17,7 +16,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)';
 - (void);
 - (void);
 - (id);
@@ -26,8 +25,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)p(%p)> { %@ request, url %@ };
+- (void)originload;
 - (id);
 - (id);
 - (id);
@@ -36,8 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUserID;
-@property(retain, nonatomic) NSMutableArray *pairs; // @synthesize pairs=_pairs;
-@property(retain, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

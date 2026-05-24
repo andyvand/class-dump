@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSKeyValueDependencyInfo, NSString, NSView;
-@protocol UICoordinateSpace, UIFocusEnvironment, UIFocusItemContainer;
+@class NSKeyValueDependencyInfo, NSView;
 
 @interface NSViewFocusProxy
 {
     NSKeyValueDependencyInfo *_dependencyInfo;
-    NSView *_view;
 }
 
 + (_Bool);
@@ -33,7 +31,7 @@
 - (id);
 - (id);
 - (struct CGAffineTransform);
-- (id);
+- (id)_cb;
 - (_Bool);
 - (struct CGRect);
 - (struct CGPoint);
@@ -41,73 +39,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)t;
 - (id);
-- (struct CGRect);
+- (struct CGRect)essingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="%@"><w:body><w:p> /* Error: Ran out of types for this method. */;
 - (id);
 - (id)}24;
-- (id)Insertion;
+- (id)_typingAttributesBeforeInsertion;
 - (_Bool)same count;
 - (struct CGPoint)Q8^{CGPoint=dd}16^B24;
-- (void);
+- (void)success;
 - (id);
 - (_Bool)í;
 
 // Remaining properties
-@property(readonly) NSArray *_allFocusItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) NSArray *_childFocusItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) NSArray *_leafFocusItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly, getter=isBarContainer) _Bool barContainer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisBarContainer
-
-@property(readonly) struct CGRect bounds;
-@property(readonly, nonatomic) _Bool canBecomeFocused;
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSKeyValueDependencyInfo *dependencyInfo; // @synthesize dependencyInfo=_dependencyInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGAffineTransform flipTransform;
-@property(readonly, getter=isFlipped) _Bool flipped;
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) long long focusGroupPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic) long long focusItemDeferralMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) struct CGRect frame; // @dynamic frame;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTransparentFocusItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, getter=isLayoutContainer) _Bool layoutContainer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisLayoutContainer
-
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
-@property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly) Class superclass;
-@property(readonly) struct CGAffineTransform unflipTransform;
 @property(readonly) __weak NSView *view; // @synthesize view=_view;
 
 @end

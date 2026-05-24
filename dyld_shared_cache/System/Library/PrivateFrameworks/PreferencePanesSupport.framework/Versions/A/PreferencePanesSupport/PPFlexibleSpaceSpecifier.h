@@ -11,7 +11,6 @@
 @interface PPFlexibleSpaceSpecifier : PPSpecifier
 {
     _Bool _autoresizing;
-    NSLayoutConstraint *_constraint;
 }
 
 + (id);
@@ -22,12 +21,10 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void),;
 
 // Remaining properties
-@property _Bool autoresizing; // @synthesize autoresizing=_autoresizing;
 @property __weak NSLayoutConstraint *constraint; // @synthesize constraint=_constraint;
-@property double height; // @dynamic height;
 
 @end
 

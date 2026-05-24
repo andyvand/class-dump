@@ -6,36 +6,26 @@
 
 #import <CMCapture/FigCaptureMovieFileSinkPipeline.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureSessionMovieFileSinkPipeline : FigCaptureMovieFileSinkPipeline
 {
     _Bool _momentCaptureMovieRecordingEnabled;
-    _Bool _recording;
-    _Bool _recordedWhileMultitasking;
-    NSMutableArray *_pendingIrisRecordings;
-    _Bool _checkIfFileAlreadyExistForMFO;
 }
 
 - (_Bool);
+- (void)physicalJustificationOverridden;
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)RRh;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool checkIfFileAlreadyExistForMFO; // @synthesize checkIfFileAlreadyExistForMFO=_checkIfFileAlreadyExistForMFO;
 @property(nonatomic) _Bool momentCaptureMovieRecordingEnabled; // @synthesize momentCaptureMovieRecordingEnabled=_momentCaptureMovieRecordingEnabled;
-@property(retain, nonatomic) NSMutableArray *pendingIrisRecordings; // @synthesize pendingIrisRecordings=_pendingIrisRecordings;
-@property(nonatomic) _Bool recordedWhileMultitasking; // @synthesize recordedWhileMultitasking=_recordedWhileMultitasking;
-@property(nonatomic) _Bool recording; // @synthesize recording=_recording;
 
 @end
 

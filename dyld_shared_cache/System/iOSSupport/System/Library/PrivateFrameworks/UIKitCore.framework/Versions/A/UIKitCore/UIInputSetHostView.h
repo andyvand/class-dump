@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 + (_Bool)entationModifier";
 - (id)¡	°!|Cùñe1Â0@ù
 × ;
-- (void)ableView: /* Error: Ran out of types for this method. */;
-- (int)sthrough;
+- (void)defaultGroupedFooterHeightForTableView: /* Error: Ran out of types for this method. */;
+- (int)_allowsDragEventsToPassthrough;
 - (_Bool)lure:(struct CGPoint)arg1 "class_addMethod(uiImage, @selector(respondsToSelector:(id)arg2 ), (IMP)UIImage_respondsToSelector, ((void*)0))" -> %llu;
-- (void)eDetentCG;
+- (void)SaySo20_UISheetActiveDetentCG;
 - (unsigned long long)µÖ(	m;
 - (void)ÎmÖ$×m;
 

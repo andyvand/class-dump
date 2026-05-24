@@ -9,20 +9,18 @@
 @interface ASAuthorizationPublicKeyCredentialPRFAssertionOutput
 {
     void first;
-    void second;
 }
 
-- (id);
+- (id)startPageViewItem:didShowContextMenuWithEvent: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)ProviderExtensionLoginConfiguration;
-- (void);
+- (id)ASAuthorizationProviderExtensionLoginConfiguration;
+- (void)t;
 
 // Remaining properties
 @property(nonatomic, copy) NSData *first;
-@property(nonatomic, copy) NSData *second;
 
 @end
 

@@ -8,13 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _CPLTimingStatistic
 {
     unsigned long long _recordCount;
-    unsigned long long _batchCount;
-    unsigned long long _errorCount;
-    unsigned long long _cancelCount;
-    double _duration;
 }
 
-- (void);
+- (void)commute30MinWarningEntityRelevanceCoarseTimeOfDayAndDayOfWeekFeatures;
 - (id);
 
 @end

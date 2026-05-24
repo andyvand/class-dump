@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLComputePipelineState, MTLFunction;
+@protocol MTLComputePipelineState;
 
 __attribute__((visibility("hidden")))
 @interface SCNMTLComputePipeline
 {
     id <MTLComputePipelineState> _state;
-    id <MTLFunction> _computeFunction;
 }
 
 - (void);

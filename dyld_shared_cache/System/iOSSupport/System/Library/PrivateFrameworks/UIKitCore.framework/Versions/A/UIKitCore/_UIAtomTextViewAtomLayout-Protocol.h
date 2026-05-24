@@ -5,6 +5,7 @@
 //
 
 @protocol _UIAtomTextViewAtomLayout
+- (void);
 - (void)ÈAùqg1Â0@ù
 × ;
 - (long long)ate>";
@@ -12,7 +13,5 @@
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) struct CGRect selectionBounds;
-@property(nonatomic) long long selectionStyle;
 @end
 

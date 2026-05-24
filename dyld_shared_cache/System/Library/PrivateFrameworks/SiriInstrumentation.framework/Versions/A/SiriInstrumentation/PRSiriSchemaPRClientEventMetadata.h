@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PRSiriSchemaPRClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifRequestId;
-    unsigned int _postingSpanId;
-    SISchemaUUID *_pgId;
-    unsigned long long _spanId;
-    SISchemaUUID *_prId;
-    struct {
-        unsigned int postingSpanId:1;
-        unsigned int spanId:1;
-    } _has;
-    _Bool _hasIfRequestId;
-    _Bool _hasPgId;
-    _Bool _hasPrId;
 }
 
 - (void);
@@ -31,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned int);
 - (id);
@@ -52,27 +41,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)nal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeAppsRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)d %lld unavailable attachments and %lld unavailable bytes with date barrier %s;
 - (id);
 - (id);
-- (id)gy;
+- (id)_selectedRecoveryStrategy;
 - (id)SiriEnabled;
-- (void)PE_UNKOWN;
+- (void)FLOWSAFARITASKTYPE_UNKOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfRequestId; // @synthesize hasIfRequestId=_hasIfRequestId;
-@property(nonatomic) _Bool hasPgId; // @synthesize hasPgId=_hasPgId;
-@property(nonatomic) _Bool hasPostingSpanId;
-@property(nonatomic) _Bool hasPrId; // @synthesize hasPrId=_hasPrId;
-@property(nonatomic) _Bool hasSpanId;
 @property(retain, nonatomic) SISchemaUUID *ifRequestId; // @synthesize ifRequestId=_ifRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *pgId; // @synthesize pgId=_pgId;
-@property(nonatomic) unsigned int postingSpanId; // @synthesize postingSpanId=_postingSpanId;
-@property(retain, nonatomic) SISchemaUUID *prId; // @synthesize prId=_prId;
-@property(nonatomic) unsigned long long spanId; // @synthesize spanId=_spanId;
 
 @end
 

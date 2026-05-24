@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol FCNewsAppConfiguration, FCNewsAppConfiguration><FCJSONEncodableObjectProviding;
+@class NSArray, NSObject;
+@protocol FCNewsAppConfiguration, OS_dispatch_queue;
 
 @protocol FCNewsAppConfigurationManager
-- (id <FCNewsAppConfiguration>)out;
+- (void):(NSObject<OS_dispatch_queue> *)arg1 8d16d24B32;
+- (id <FCNewsAppConfiguration>)requiresLinkedContentForLayout;
+
+@optional
+- (NSArray *)p;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;
-@property(readonly, copy, nonatomic) NSString *feldsparID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <FCNewsAppConfiguration> fetchedAppConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCNewsAppConfiguration>",?,R,N
-
-@property(readonly, nonatomic) id <FCNewsAppConfiguration><FCJSONEncodableObjectProviding> jsonEncodableAppConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCNewsAppConfiguration><FCJSONEncodableObjectProviding>",?,R,N
-
-@property(readonly, nonatomic) id <FCNewsAppConfiguration> possiblyUnfetchedAppConfiguration;
-@property(readonly, nonatomic) NSArray *segmentSetIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *treatmentIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @end
 

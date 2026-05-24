@@ -4,71 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, IDSDirectMessageConnection, IMOrderedMutableDictionary, IMSystemMonitor, NSDictionary, NSMapTable, NSSet, NSString;
-
 @interface _IDSConnection
 {
     id _messageContext;
-    id _delegateContext;
-    unsigned char _incomingMessageLoggingSequence;
-    unsigned char _outgoingMessageLoggingSequence;
-    NSMapTable *_delegateToInfo;
-    IDSAccount *_account;
-    NSSet *_commands;
-    NSString *_serviceToken;
-    IMOrderedMutableDictionary *_pendingSends;
-    unsigned int _delegateCapabilities;
-    _Bool _indirectDelegateCallouts;
-    unsigned int _wakingDowngradeCount;
-    IDSDirectMessageConnection *_directMessageConnection;
-    NSDictionary *_directMessagingMetadata;
-    IMSystemMonitor *_systemMonitor;
 }
 
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)APTransportConnectionTCPUnbuffered;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ail URL for %@;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned int);
-- (void);
+- (void)syncedKeyToDevice:(id)arg1 type:(id)arg2 device: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)mDeviceForService;
+- (id)0qA;
 - (void);
+- (void);
+- (void)B;
+- (void)convertMediaFormats;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -76,33 +57,36 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)IDSQRProtoPluginControlPluginControl;
+- (void)essage %@;
+- (void)pnr_activation_reregistration;
+- (void)|;
 - (void);
 - (id);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)b;
 - (void)!Fùñ,Ð1Â0@ù
 × ;
 - (id)Ð1Â0@ù
@@ -114,18 +98,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) IDSAccount *account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IDSDirectMessageConnection *directMessageConnection; // @synthesize directMessageConnection=_directMessageConnection;
-@property(retain, nonatomic) NSDictionary *directMessagingMetadata; // @synthesize directMessagingMetadata=_directMessagingMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) IMSystemMonitor *systemMonitor; // @synthesize systemMonitor=_systemMonitor;
 @property(nonatomic) unsigned int wakingDowngradeCount; // @synthesize wakingDowngradeCount=_wakingDowngradeCount;
 
 @end

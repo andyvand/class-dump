@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol CWWiFiUIProxyClientDelegate, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol CWWiFiUIProxyClientDelegate;
 
 @interface CWWiFiUIProxyClient
 {
     NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    id _delegate;
-    _Bool _isMonitoringEvents;
 }
 
 + (id);
@@ -30,33 +27,34 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)Ra;
+- (_Bool);
+- (void);
+- (void)TX;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void),c;
+- (id)
+;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)U{;
+- (void)MPSCNNPooling_new_tex2darray_tex2darray_avg_swEdge_5x4_0;
 - (void);
 - (void);
 

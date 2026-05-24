@@ -6,6 +6,6 @@
 
 @interface UnknownClass (GroupSharingExtras)
 + (id);
-- (id);
+- (id)֫;
 @end
 

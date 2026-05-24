@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *intentType; // @dynamic intentType;
-@property(nonatomic) _Bool isCameraCapture; // @dynamic isCameraCapture;
-@property(nonatomic) _Bool isLauncher; // @dynamic isLauncher;
 
 @end
 

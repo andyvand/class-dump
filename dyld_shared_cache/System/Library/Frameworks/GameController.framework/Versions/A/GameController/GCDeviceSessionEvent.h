@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, GCKeyboard, GCMouse, GCRacingWheel, GCSpatialAccessory, GCStylus;
-@protocol GCDevice;
-
 @interface GCDeviceSessionEvent
 {
     unsigned long long _type;
-    id <GCDevice> _device;
 }
 
+- (id)+;
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)j;
 - (unsigned long long);
 - (id);
 - (id);
+- (id)schoolworkUbiquitousContainerError;
 - (id);
-- (id);
-- (void);
+- (void)!;
 
 // Remaining properties
-@property(readonly) GCController *controller;
-@property(readonly) id <GCDevice> device;
-@property(readonly) GCKeyboard *keyboard;
-@property(readonly) GCMouse *mouse;
-@property(readonly) GCRacingWheel *racingWheel;
-@property(readonly) GCSpatialAccessory *spatialAccessory;
-@property(readonly) GCStylus *stylus;
 @property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end

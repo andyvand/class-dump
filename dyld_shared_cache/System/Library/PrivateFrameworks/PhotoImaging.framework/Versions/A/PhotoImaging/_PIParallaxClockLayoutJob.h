@@ -4,47 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSString, PFParallaxLayoutConfiguration, PFPosterOrientedLayout, PIParallaxClockLayoutRequest;
+@class PFPosterOrientedLayout, PIParallaxClockLayoutRequest;
 
 @interface _PIParallaxClockLayoutJob
 {
     PFPosterOrientedLayout *_layout;
-    PFParallaxLayoutConfiguration *_layoutConfiguration;
-    CIImage *_matteImage;
-    NSString *_clockLayerOrder;
-    unsigned long long _clockIntersection;
 }
 
+- (void);
 - (void);
+- (void)�c;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (void)xSet";
 
 // Remaining properties
-@property(nonatomic) unsigned long long clockIntersection; // @synthesize clockIntersection=_clockIntersection;
-@property(retain, nonatomic) NSString *clockLayerOrder; // @synthesize clockLayerOrder=_clockLayerOrder;
 @property(readonly, nonatomic) PIParallaxClockLayoutRequest *clockLayoutRequest;
-@property(retain, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) PFParallaxLayoutConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(retain, nonatomic) CIImage *matteImage; // @synthesize matteImage=_matteImage;
 
 @end
 

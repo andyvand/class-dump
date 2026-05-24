@@ -6,38 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface POMMESSchemaPOMMESClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pommesId;
-    NSString *_resultCandidateId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_trpId;
-    int _originProcess;
-    SISchemaUUID *_subRequestId;
-    SISchemaUUID *_searchToolId;
-    int _searchToolGlobalSearchResultId;
-    struct {
-        unsigned int originProcess:1;
-        unsigned int searchToolGlobalSearchResultId:1;
-    } _has;
-    _Bool _hasPommesId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasRequestId;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
-    _Bool _hasSearchToolId;
 }
 
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -50,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@y;
 - (_Bool);
 - (void);
 - (void);
@@ -65,41 +48,25 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)tailspin_dump_option_ktrace_compression_level;
+- (void)AOSUIAccountContactInviteMessageViewModel;
+- (_Bool)to get booter disk for %@:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (unsigned long long)aries/AppStoreDaemon/Stubs/ASDCoding_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)ime"b1"caseStartTime"b1"logSizeTotal"b1"remoteTrigger"b1};
+- (_Bool)it:(id)arg1 %lld  rowID:%lld /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id)ed;
+- (id)_pegasusUtteranceUnderstandingReported;
 - (id)hasUeiDictationAlternativeTextPairsSelected;
-- (void)EXECUTIONTYPE_TIMER_ALARM_MOBILE_TIMER_WAIT;
+- (void)FLOWDOMAINEXECUTIONTYPE_TIMER_ALARM_MOBILE_TIMER_WAIT;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginProcess;
-@property(nonatomic) _Bool hasPommesId; // @synthesize hasPommesId=_hasPommesId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSearchToolGlobalSearchResultId;
-@property(nonatomic) _Bool hasSearchToolId; // @synthesize hasSearchToolId=_hasSearchToolId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int originProcess; // @synthesize originProcess=_originProcess;
 @property(retain, nonatomic) SISchemaUUID *pommesId; // @synthesize pommesId=_pommesId;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(nonatomic) int searchToolGlobalSearchResultId; // @synthesize searchToolGlobalSearchResultId=_searchToolGlobalSearchResultId;
-@property(retain, nonatomic) SISchemaUUID *searchToolId; // @synthesize searchToolId=_searchToolId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

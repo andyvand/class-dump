@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBArticleTopic;
+@class NTPBArticleTopic;
 
 @interface FCTopicTranslation
 {
     _Bool _isHidden;
-    _Bool _isEligibleForGrouping;
-    _Bool _isEligibleForGroupingIfFavorited;
-    NSString *_tagID;
-    NTPBArticleTopic *_articleTopic;
 }
 
 - (void);
@@ -25,18 +21,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)urchaseIntegrityChecker;
+- (_Bool)setFollowAggregateModificationConfiguration: /* Error: Ran out of types for this method. */;
+- (void)_purchaseIntegrityChecker;
 - (void):(id)arg1 ];
 - (void)videoCompletePlaybackBaselineClickValue;
 - (id)ndleAccessTokenVerification for tagID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NTPBArticleTopic *articleTopic; // @synthesize articleTopic=_articleTopic;
-@property(nonatomic) _Bool isEligibleForGrouping; // @synthesize isEligibleForGrouping=_isEligibleForGrouping;
-@property(nonatomic) _Bool isEligibleForGroupingIfFavorited; // @synthesize isEligibleForGroupingIfFavorited=_isEligibleForGroupingIfFavorited;
-@property(nonatomic) _Bool isHidden; // @synthesize isHidden=_isHidden;
-@property(retain, nonatomic) NSString *tagID; // @synthesize tagID=_tagID;
 
 @end
 

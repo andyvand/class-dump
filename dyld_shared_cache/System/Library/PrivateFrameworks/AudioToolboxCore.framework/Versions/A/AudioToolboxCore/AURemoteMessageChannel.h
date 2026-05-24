@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCListener;
 @protocol AUMessageChannel;
 
 __attribute__((visibility("hidden")))
 @interface AURemoteMessageChannel
 {
     id <AUMessageChannel> _messageChannel;
-    NSXPCListener *_listener;
-    NSXPCConnection *_xpcConnection;
-    AURemoteMessageChannel *_selfRetained;
 }
 
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (id);
@@ -25,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

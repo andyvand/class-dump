@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)AÐ!8Eù\ð1Â0@ù
 × ;
 - (_Bool);
-- (Class)AnimationFPS;
+- (Class)minimumAnimationFPS;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <Network/NWURLSessionResumeInfo.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface NWURLSessionDownloadResumeInfo : NWURLSessionResumeInfo
 {
     _Bool __keepDownloadTaskFile;
-    NSURL *_fileURL;
-    NSString *_tempFileName;
 }
 
 + (id);
@@ -30,9 +28,7 @@
 - (id)*se;
 
 // Remaining properties
-@property(nonatomic) _Bool _keepDownloadTaskFile; // @synthesize _keepDownloadTaskFile=__keepDownloadTaskFile;
 @property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(retain, nonatomic) NSString *tempFileName; // @synthesize tempFileName=_tempFileName;
 
 @end
 

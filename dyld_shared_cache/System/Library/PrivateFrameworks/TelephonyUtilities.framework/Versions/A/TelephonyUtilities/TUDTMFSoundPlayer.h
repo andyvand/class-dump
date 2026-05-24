@@ -12,9 +12,9 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)pM;
 - (_Bool);
-- (void)UniqueProxyIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setSharingScreen:forCallWithUniqueProxyIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType playSystemSoundHandler; // @synthesize playSystemSoundHandler=_playSystemSoundHandler;

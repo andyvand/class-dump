@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMapTable, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPCFuture
 {
     _Bool _finalized;
-    _Bool _invalid;
-    _Bool _disconnected;
-    id _result;
-    NSError *_error;
-    NSString *_debugLabel;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSMutableArray *_successBlocks;
-    NSMutableArray *_failureBlocks;
-    NSMutableArray *_completionBlocks;
-    NSMapTable *_invalidBlocks;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)otos.account_did_change;
+- (void);
+- (id);
+- (void)lastObject;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)PersonalizableModel;
 - (void);
 - (id);
 - (id);
@@ -47,22 +36,11 @@
 - (_Bool)äDàH;
 - (void)ueSectionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)no image data for artwork request.;
-- (id)ContextEndTimeModifications;
-- (void)onseTimeSum;
+- (id)MPCModelPlaybackContextEndTimeModifications;
+- (void)avMVPResponseTimeSum;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, nonatomic) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property(copy, nonatomic) NSString *debugLabel; // @synthesize debugLabel=_debugLabel;
-@property(readonly, nonatomic, getter=isDisconnected) _Bool disconnected; // @synthesize disconnected=_disconnected;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSMutableArray *failureBlocks; // @synthesize failureBlocks=_failureBlocks;
-@property(readonly, nonatomic, getter=isFinalized) _Bool finalized; // @synthesize finalized=_finalized;
-@property(readonly, nonatomic, getter=isInvalid) _Bool invalid; // @synthesize invalid=_invalid;
-@property(readonly, nonatomic) NSMapTable *invalidBlocks; // @synthesize invalidBlocks=_invalidBlocks;
-@property(readonly, nonatomic) id result; // @synthesize result=_result;
-@property(readonly, nonatomic) NSMutableArray *successBlocks; // @synthesize successBlocks=_successBlocks;
 
 @end
 

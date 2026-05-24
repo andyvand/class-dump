@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _DPPrioRecordMO
 {
@@ -13,14 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(nonatomic) long long dimension; // @dynamic dimension;
-@property(retain, nonatomic) NSString *key; // @dynamic key;
-@property(retain, nonatomic) NSData *metadata; // @dynamic metadata;
-@property(nonatomic) long long reportVersion; // @dynamic reportVersion;
 @property(retain, nonatomic) NSData *share1; // @dynamic share1;
-@property(retain, nonatomic) NSData *share2; // @dynamic share2;
-@property(nonatomic) _Bool submitted; // @dynamic submitted;
 
 @end
 

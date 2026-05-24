@@ -15,15 +15,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)N;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned short);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property unsigned short defaultNameServerPortNumber;

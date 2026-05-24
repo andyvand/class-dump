@@ -10,22 +10,20 @@
 {
 }
 
-- (unsigned int);
+- (unsigned int)?;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (CDStruct_1ef3fb1f);
 - (id)tureSession previewStitcherReadyForPrimaryCaptureRectUpdates:(unsigned int)arg1 ]_block_invoke;
 - (_Bool)edia.camera.aps.fieldcal.sag.neutralEst.s.%d;
 - (float)e.m:18810 /* Error: Ran out of types for this method. */;
 - (id).apple.system.peakpowerpressurelevel;
-- (float)eSize;
+- (float)photoFileSize;
 
 // Remaining properties
 @property(readonly) float fieldOfView;
-@property(readonly) _Bool isPrivate;
-@property(readonly) float sensorOrientation;
 
 @end
 

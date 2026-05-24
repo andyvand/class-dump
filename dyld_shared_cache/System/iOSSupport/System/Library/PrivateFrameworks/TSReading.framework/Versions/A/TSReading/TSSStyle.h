@@ -6,16 +6,11 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSSet, NSString, TSSPropertyMap, TSSStylesheet;
+@class NSString, TSSPropertyMap;
 
 @interface TSSStyle : TSPObject
 {
     TSSPropertyMap *mOverridePropertyMap;
-    NSString *mName;
-    NSString *mStyleIdentifier;
-    TSSStyle *mParent;
-    _Bool mIsVariation;
-    TSSStylesheet *mStylesheet;
 }
 
 + (_Bool);
@@ -28,29 +23,29 @@
 + (id);
 + (id);
 + (int);
-+ (float);
++ (float);
 + (double);
 + (id);
 + (_Bool);
 + (id);
++ (id)@;
 + (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)SetAutoPlayEnabled;
+- (_Bool)section:(int *)arg1 %@;
+- (_Bool)no items after enabling shuffle;
+- (_Bool)ehaviorMusic-reshuffle;
+- (_Bool)disabled;
+- (_Bool)nt-time;
+- (void)m;
+- (void)LOCAL_DEVICE;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ormat Changed;
+- (void)layer is being replaced;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)omStalling:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -71,34 +66,34 @@
 - (_Bool);
 - (int);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CMFormatDescription;
+- (_Bool)NAVAudioSessionCategory;
+- (_Bool)NAVAudioSessionMode;
 - (id);
-- (void);
+- (void)]hF;
 - (double);
 - (_Bool);
-- (id);
-- (id);
+- (id)8t;
+- (id);
 - (void);
+- (id){;
+- (void){;
+- (id)R;
 - (id);
-- (void);
+- (id)Э;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
+- (_Bool);
+- (double)\;
+- (id);
 - (double);
-- (id);
-- (double);
 - (void);
 - (void);
 - (void);
-- (float);
+- (float);
 - (_Bool);
 - (id);
 - (id);
@@ -113,7 +108,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (unsigned long long);
 - (void);
@@ -127,26 +122,7 @@
 - (id):(id)arg1 8B16;
 
 // Remaining properties
-@property(readonly, nonatomic) TSSStyle *baseStyleForVariation;
-@property(readonly, nonatomic) NSSet *children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TSSStyle *firstIdentifiedAncestor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isIdentified;
-@property(readonly, nonatomic) _Bool isNamed;
-@property(readonly, nonatomic) _Bool isVariation; // @synthesize isVariation=mIsVariation;
 @property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) TSSPropertyMap *overridePropertyMap;
-@property(readonly, nonatomic) TSSStyle *parent; // @synthesize parent=mParent;
-@property(readonly, nonatomic) TSSStyle *rootAncestor;
-@property(readonly, nonatomic) TSSStyle *rootIdentifiedAncestor;
-@property(readonly, nonatomic) NSString *styleIdentifier;
-@property(readonly, nonatomic) TSSStylesheet *stylesheet; // @synthesize stylesheet=mStylesheet;
-@property(readonly) Class superclass;
 
 @end
 

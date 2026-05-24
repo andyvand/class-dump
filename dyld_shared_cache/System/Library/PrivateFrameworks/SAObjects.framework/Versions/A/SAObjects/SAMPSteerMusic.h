@@ -6,20 +6,17 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSString, SAMPCollection, SAMPMediaItem;
+@class SAMPCollection;
 
 @interface SAMPSteerMusic : SADomainCommand
 {
 }
 
-+ (id);
++ (id)';
 + (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAMPCollection *currentListeningToCollection;
-@property(retain, nonatomic) SAMPMediaItem *currentListeningToItem;
-@property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(copy, nonatomic) NSString *steerableBlob;
 
 @end
 

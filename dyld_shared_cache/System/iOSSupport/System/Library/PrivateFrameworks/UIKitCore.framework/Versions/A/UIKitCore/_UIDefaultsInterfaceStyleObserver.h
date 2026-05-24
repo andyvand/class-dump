@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     int _notifyToken;
 }
 
+- (void)%s:failed to switch users and groups /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void)pringLoadedInteractionContext_Private;
+- (void)UISpringLoadedInteractionContext_Private;
 - (id);
 - (void)­\;
 

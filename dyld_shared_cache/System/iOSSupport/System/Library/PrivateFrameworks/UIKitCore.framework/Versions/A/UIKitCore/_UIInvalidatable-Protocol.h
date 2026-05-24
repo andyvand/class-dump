@@ -5,5 +5,6 @@
 //
 
 @protocol _UIInvalidatable
+- (void)payloadHTTPPort;
 @end
 

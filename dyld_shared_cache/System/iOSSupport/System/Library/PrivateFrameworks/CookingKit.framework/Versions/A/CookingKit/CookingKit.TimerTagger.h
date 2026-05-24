@@ -8,9 +8,6 @@
 {
     id languagePack;
     id tokenizationBehavior;
-    id tokenizer;
-    id formatter;
-    id spellOutFormatter;
 }
 
 @end

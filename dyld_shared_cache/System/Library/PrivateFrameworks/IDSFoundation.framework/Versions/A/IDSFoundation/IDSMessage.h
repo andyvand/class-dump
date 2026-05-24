@@ -6,28 +6,25 @@
 
 #import <IDSFoundation/IDSBaseMessage.h>
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface IDSMessage : IDSBaseMessage
 {
     NSNumber *_wantsDeliveryStatus;
-    NSNumber *_version;
-    NSDictionary *_deliveryStatusContext;
-    _Bool _wantsCertifiedDelivery;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)6;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)';
 - (void);
 - (id);
 - (id);
@@ -37,9 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *deliveryStatusContext; // @synthesize deliveryStatusContext=_deliveryStatusContext;
-@property(copy) NSNumber *version; // @synthesize version=_version;
-@property _Bool wantsCertifiedDelivery; // @synthesize wantsCertifiedDelivery=_wantsCertifiedDelivery;
 @property(copy) NSNumber *wantsDeliveryStatus; // @synthesize wantsDeliveryStatus=_wantsDeliveryStatus;
 
 @end

@@ -7,8 +7,6 @@
 @interface CoreCDPUI.ADPFlowAbandonmentTracker
 {
     id cdpContext;
-    id walrusControllerFactory;
-    id currentFlowID;
 }
 
 @end

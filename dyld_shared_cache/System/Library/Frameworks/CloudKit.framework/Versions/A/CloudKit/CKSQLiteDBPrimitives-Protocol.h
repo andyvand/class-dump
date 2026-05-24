@@ -5,6 +5,8 @@
 //
 
 @protocol CKSQLiteDBPrimitives
-- (long long)alDeviceIdentifierWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (long long)globalDeviceIdentifierWithCompletionHandler: /* Error: Ran out of types for this method. */;
 @end
 

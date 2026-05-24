@@ -4,71 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWDisplayedScanResult, NSArray, NSButton, NSData, NSImageView, NSPopUpButton, NSProgressIndicator, NSScrollView, NSSecureTextField, NSString, NSTableView, NSTextField, NSView, SFCertificateView;
-
 @interface CWManualJoinDialog_SL
 {
     id _delegate;
-    _Bool installerContext_;
-    _Bool _showingOpen;
-    _Bool _showingPassword;
-    _Bool _showingPSK;
-    _Bool _showingEnterprise;
-    _Bool _showingCertificateSelector;
-    _Bool _showingCertificate;
-    _Bool _showingManual;
-    _Bool _optionKey;
-    _Bool _showingNetworkBrowser;
-    _Bool _joinInProgress;
-    long long _prevSelectedRow;
-    long long _selectedRow;
-    _Bool _showingAutomaticEAP;
-    _Bool _showingEAPTLS;
-    _Bool _certificatesAvailable;
-    CWDisplayedScanResult *_scanResult;
-    NSArray *_scanResults;
-    NSArray *_updateScanResults;
-    _Bool _autoJoinPrompt;
-    NSString *_username;
-    NSString *_password;
-    NSData *_identityData;
-    _Bool _remember;
-    unsigned long long _caps;
-    SFCertificateView *certificateView;
-    NSTextField *windowTitleLabel;
-    NSTextField *windowDescriptionLabel;
-    NSButton *okButton;
-    NSButton *cancelButton;
-    NSView *securityTypeView;
-    NSPopUpButton *securityTypePopupButton;
-    NSView *networkNameView;
-    NSTextField *networkNameField;
-    NSView *usernameView;
-    NSTextField *usernameField;
-    NSView *passwordView;
-    NSSecureTextField *passwordField;
-    NSTextField *revealedPasswordField;
-    NSView *pskView;
-    NSTextField *revealedPSKField;
-    NSSecureTextField *pskField;
-    NSView *certificateSelectorView;
-    NSPopUpButton *certificatePopUpButton;
-    NSView *eapModeView;
-    NSPopUpButton *eapModePopUpButton;
-    NSButton *certificateDetailButton;
-    NSScrollView *certificateDetailView;
-    NSTextField *statusMessageLabel;
-    NSButton *warningButton;
-    NSProgressIndicator *progressIndicator;
-    NSView *showPasswordView;
-    NSButton *showPasswordCheckboxButton;
-    NSButton *helpButton;
-    NSButton *showNetworksButton;
-    NSTableView *tableView;
-    NSView *tableBorderedView;
-    NSScrollView *tableScrollView;
-    NSImageView *imageView;
-    NSTextField *pskHintText;
 }
 
 + (id);
@@ -121,7 +59,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 - (void);
 - (void);
 - (_Bool);
@@ -143,32 +81,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool autoJoinPrompt; // @synthesize autoJoinPrompt=_autoJoinPrompt;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSData *identityData; // @synthesize identityData=_identityData;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property _Bool remember; // @synthesize remember=_remember;
-@property(copy) CWDisplayedScanResult *scanResult; // @synthesize scanResult=_scanResult;
-@property(copy) NSArray *scanResults; // @synthesize scanResults=_scanResults;
-@property(readonly) Class superclass;
-@property(copy) NSArray *updateScanResults; // @synthesize updateScanResults=_updateScanResults;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

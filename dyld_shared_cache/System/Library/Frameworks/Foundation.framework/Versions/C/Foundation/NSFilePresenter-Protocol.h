@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSURL;
+@class NSSet, NSURL;
 
 @protocol NSFilePresenter
-- (NSURL *);
 
 @optional
+- (NSURL *);
+- (void)9A;
+- (NSSet *);
+- (void);
+- (void)ute__((nonblocking))>, std:(NSURL *)arg1:equal_to<long>, std::hash<long>>, std::allocator<std::pair<const long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void)nnnnnoooppqqrrstuvwxxxxyz{|}}~~~~~~~~~    ¡¢££££¤¤¥¥¥¥¥¦¦¦§§§§¨¨¨¨©ªªª««««««¬­­­®¯¯°°°°°°°±²²²²²²²²²²²³³³´´´´´´µ¶¶··¸¹¹ººººº»»¼¼¼¼¼¼½¾¿ÀÀÀÁÁÂÂÃÃÃÄÄÄÄÄÄÄÄÄÄÄÅÆÇÇÈÈÈÈÈÈÈÈÈÈÉÉÉÉÊËËËÌÍÎÎÎÎÏÐÐÐÐÐÐÐÐÐÑÑÑÑÒÒÒÒÓÓÓÔÔÔÔÕÕÕÖÖÖÖÖ×××ØØÙÚÛÛÛÜÜÝÝÝÝÝÞÞÞÞßßßààààààááâââââããäååååæççèèèééêêêêêêêëëëëìììííîîîïðððððñòóóôõõöö÷øøùùúûûüýþÿÿ;
 
 // Remaining properties
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
 @end
 

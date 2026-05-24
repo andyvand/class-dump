@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, USOSchemaUSONodeDataTier1;
+@class USOSchemaUSONodeDataTier1;
 
 @interface USOSchemaUSOGraphNodeDataTier1 : SISchemaInstrumentationMessage
 {
     USOSchemaUSONodeDataTier1 *_linkedUsoNodeData;
-    NSArray *_linkedUsoEntityIdentifiers;
-    NSArray *_linkedUsoEntitySpans;
-    _Bool _hasLinkedUsoNodeData;
 }
 
 - (void);
@@ -32,26 +29,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_isParentGroupOfRecord:(id)arg1;
+- (_Bool)expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
 - (id);
 - (id);
-- (id)peechAlternativeRanksMiddleNameRank;
-- (id)umSelfTriggersDetected;
-- (void)T_EVENT;
+- (id)deleteSpeechAlternativeRanksMiddleNameRank;
+- (id)_numSelfTriggersDetected;
+- (void)EXP_SIRI_CLIENT_EVENT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkedUsoNodeData; // @synthesize hasLinkedUsoNodeData=_hasLinkedUsoNodeData;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *linkedUsoEntityIdentifiers; // @synthesize linkedUsoEntityIdentifiers=_linkedUsoEntityIdentifiers;
-@property(copy, nonatomic) NSArray *linkedUsoEntitySpans; // @synthesize linkedUsoEntitySpans=_linkedUsoEntitySpans;
 @property(retain, nonatomic) USOSchemaUSONodeDataTier1 *linkedUsoNodeData; // @synthesize linkedUsoNodeData=_linkedUsoNodeData;
 
 @end

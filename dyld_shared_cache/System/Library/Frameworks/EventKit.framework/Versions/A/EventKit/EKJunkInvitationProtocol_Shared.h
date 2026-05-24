@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)ided image data.;
++ (unsigned long long)iled to determine dimensions for provided image data.;
 
 @end
 

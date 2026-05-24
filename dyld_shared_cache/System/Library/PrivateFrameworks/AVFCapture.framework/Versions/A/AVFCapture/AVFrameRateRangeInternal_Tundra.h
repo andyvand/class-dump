@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVFrameRateRangeInternal_Tundra
 {
     double minFrameRate;
-    double maxFrameRate;
-    CDStruct_1b6d18a9 maxFrameDuration;
-    CDStruct_1b6d18a9 minFrameDuration;
 }
 
 @end

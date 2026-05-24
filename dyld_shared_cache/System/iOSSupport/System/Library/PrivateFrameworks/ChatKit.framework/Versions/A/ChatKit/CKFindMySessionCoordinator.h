@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, IMFindMyLocation;
+@class CKConversation;
 
 @interface CKFindMySessionCoordinator
 {
     CKConversation *_conversation;
-    IMFindMyLocation *_locationToDisplay;
-    CDUnknownBlockType _statusUpdateProvider;
 }
 
+- (void)enabledBindingObjectSet;
+- (CDUnknownBlockType)_isPerformingAccessibilityUndoableTextInsertion;
+- (void)systemBlueColor;
+- (void)ICAttachmentBrickView;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (id)a;
+- (void)r;
+- (void)n;
+- (_Bool)l;
 - (void);
 - (id);
 - (void);
@@ -34,9 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, nonatomic) _Bool findMyNavBarEnabled;
-@property(retain, nonatomic) IMFindMyLocation *locationToDisplay; // @synthesize locationToDisplay=_locationToDisplay;
-@property(copy, nonatomic) CDUnknownBlockType statusUpdateProvider; // @synthesize statusUpdateProvider=_statusUpdateProvider;
 
 @end
 

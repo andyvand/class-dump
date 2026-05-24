@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void)ditionalTicketAttributes;
+- (void)additionalTicketAttributes;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *rewardsBalances; // @synthesize rewardsBalances=_rewardsBalances;

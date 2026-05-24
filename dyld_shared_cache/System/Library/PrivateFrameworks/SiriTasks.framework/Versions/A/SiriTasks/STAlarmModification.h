@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
-
 @interface STAlarmModification
 {
     long long _addedFrequency;
-    NSURL *_alarmId;
-    NSNumber *_enabled;
-    NSNumber *_hour;
-    NSString *_label;
-    NSNumber *_minute;
-    long long _removedFrequency;
 }
 
 + (_Bool);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);

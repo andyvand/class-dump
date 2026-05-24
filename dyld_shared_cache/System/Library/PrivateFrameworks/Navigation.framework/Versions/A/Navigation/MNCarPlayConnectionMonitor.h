@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface MNCarPlayConnectionMonitor
 {
     _Bool _isConnected;
-    _Bool _shouldWait;
 }
 
-+ (id)etWaypoints: /* Error: Ran out of types for this method. */;
++ (id)setWaypoints: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isConnected; // @synthesize isConnected=_isConnected;
-@property(readonly, nonatomic) _Bool isConnectedSynchronous;
 
 @end
 

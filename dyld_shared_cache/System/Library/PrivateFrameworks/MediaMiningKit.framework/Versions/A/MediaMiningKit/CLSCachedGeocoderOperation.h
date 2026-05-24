@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationCache, NSObject;
-@protocol OS_dispatch_source;
-
 @interface CLSCachedGeocoderOperation
 {
     _Bool _forceQuery;
-    _Bool _cancelled;
-    id _location;
-    CLSLocationCache *_locationCache;
-    double _accuracy;
-    NSObject<OS_dispatch_source> *_timer;
 }
 
 + (id);
@@ -23,11 +15,11 @@
 + (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 
 @end

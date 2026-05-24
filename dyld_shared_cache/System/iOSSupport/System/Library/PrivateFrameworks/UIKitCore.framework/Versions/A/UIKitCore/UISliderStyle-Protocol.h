@@ -4,9 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UISlider, UISliderDataModel, UIView;
+@class UIEvent, UIImage, UIImageView, UISlider, UISliderDataModel, UITouch, UIView;
 
 @protocol UISliderStyle
+- (void)SSL_CTX_set_trust;
+- (UIView *)buildRequiredOnlyWithIdentifier:withVPNType:withUserDefinedName: /* Error: Ran out of types for this method. */;
+- (_Bool)didPressMoreButton;
+- (void)respondToPendingCollaborator:(UISlider *)arg1 onCollaborationWithPersistentID:withApproval:completion: /* Error: Ran out of types for this method. */;
+- (void)removePinnedAlbumWithPersistentID:cloudAlbumID:completion: /* Error: Ran out of types for this method. */;
+- (void)enumerateItemIdentifiersInSectionAtIndex:(UITouch *)arg1 usingBlock:(UIEvent *)arg2;
+- (UIView *)te,mask.mailacco}s [no stored value];
+- (UIImage *)MPModelLibrarySearchRequestScopes;
+- (void).;
+- (UIView *);
 - (void)ÁÐ!ìEùq[Ð1Â0@ù
 × ;
 - (void)ð1Â0@ù
@@ -20,21 +30,21 @@
 - (UISliderDataModel *)Q16@"_UISceneCarPlaySessionTouchpad"24;
 - (void)b1"visibleRangeWithLayout"b1"nsrangeForTextRange"b1"textRangeFromNSRange"b1"nsTextRangeForRange"b1"rangeForTextKitRanges"b1"unobscuredContentRect"b1"textLayoutManager"b1"caretTransformForPosition"b1"legacyCaretTransformForPosition"b1"selectionContainerViewBelowText"b1"selectionContainerViewAboveText"b1};
 - (struct UIEdgeInsets)Point=dd}{CGSize=dd}}40d72d80;
-- (_Bool)undColor;
-- (struct CGRect)on:(struct CGRect)arg1 toPosition:(struct CGRect)arg2;
-- (void)teInlineCompletionAsMarkedText:(unsigned long long)arg1;
+- (_Bool)tablePlainHeaderFooterBackgroundColor;
+- (struct CGRect)comparePosition:(struct CGRect)arg1 toPosition:(struct CGRect)arg2;
+- (void)_noteInlineCompletionAsMarkedText:(unsigned long long)arg1;
 - (UIImageView *)ode;
 - (struct CGRect)edAnimatableProperty>",R,N,V_animatableProperty;
 - (void),N,V_aCopyButtonView;
-- (struct CGSize)y;
-- (void)lineSectionControllerInternal;
+- (struct CGSize)_UIStatusBarDataIntegerEntry;
+- (void)_UIDiffableDataSourceOutlineSectionControllerInternal;
 - (struct CGRect)Ð+¬,;
 - (_Bool)on steps. Collection view:%@; Original index path:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)kedButton;
+- (_Bool)linkedButton;
 - (struct CGRect);
-- (void)alogName;
-- (UIView *)externalSystemWhiteColor;
-- (UIImageView *)t;
+- (void)UIResourceCatalogName;
+- (UIView *)_externalSystemWhiteColor;
+- (UIImageView *)UITextFormattingViewControllerDiscDecimalListStylesComponent;
 - (void)mGroups;
 - (struct CGRect)¾7G;
 - (_Bool)8tnþõ333Dtnþý333PtnþÕ333\tnþ%433htnþµ333ttnþµ333¤©rþý333tnþ5433tnþ433¤tnþ;

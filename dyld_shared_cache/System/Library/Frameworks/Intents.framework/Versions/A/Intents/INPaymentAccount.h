@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INBalanceAmount, INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INPaymentAccount
 {
     INSpeakableString *_nickname;
-    NSString *_accountNumber;
-    long long _accountType;
-    INSpeakableString *_organizationName;
-    INBalanceAmount *_balance;
-    INBalanceAmount *_secondaryBalance;
 }
 
 + (id);
@@ -23,35 +18,23 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)egistry>"16;
+- (id)batteryState;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)didDiscoverDevice:(id)arg1;
+- (void)]' was already %{public}@. Would have denyListed again due to %{public}@(%lu);
 - (id);
 - (id);
-- (id)ent:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ideAttributesOptionsCollectionForSearchForMessages:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)confirmReportIncident:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)provideAttributesOptionsCollectionForSearchForMessages:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)a;
 - (id)Q¤³;
 - (id)±ùÿ;
 - (id)HJNMp;
 
 // Remaining properties
-@property(readonly, copy) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(readonly) long long accountType; // @synthesize accountType=_accountType;
-@property(readonly, copy) INBalanceAmount *balance; // @synthesize balance=_balance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) INSpeakableString *nickname; // @synthesize nickname=_nickname;
-@property(readonly, copy) INSpeakableString *organizationName; // @synthesize organizationName=_organizationName;
-@property(readonly, copy) INBalanceAmount *secondaryBalance; // @synthesize secondaryBalance=_secondaryBalance;
-@property(readonly) Class superclass;
 
 @end
 

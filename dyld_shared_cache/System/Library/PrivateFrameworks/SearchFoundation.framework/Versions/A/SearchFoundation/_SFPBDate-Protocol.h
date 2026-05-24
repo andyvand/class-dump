@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBDate
+- (NSData *)PhotosFrameworkAdditions;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double secondsSince1970;
 @end
 

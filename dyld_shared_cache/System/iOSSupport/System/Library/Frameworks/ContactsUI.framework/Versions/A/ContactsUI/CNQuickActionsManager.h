@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNQuickActionsUsageManager, CNQuickFaceTimeAction, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSOrderedSet, NSString;
-@protocol CNQuickActionsManagerDelegate;
+@class NSMutableArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CNQuickActionsManager
 {
     NSMutableDictionary *_actionsByCategories;
-    NSOrderedSet *_actions;
-    NSMutableSet *_requests;
-    _Bool _bypassActionValidation;
-    _Bool _useDuetIfAvailable;
-    NSArray *_contacts;
-    id <CNQuickActionsManagerDelegate> _delegate;
-    NSArray *_categories;
-    unsigned long long _desiredNumberOfActions;
-    NSMutableArray *_updateBlocks;
-    NSDictionary *_groups;
-    CNQuickFaceTimeAction *_faceTimeVideoAction;
-    CNQuickFaceTimeAction *_faceTimeAudioAction;
-    CNQuickActionsUsageManager *_usageManager;
-    NSArray *_subManagers;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (id)rGroup;
++ (id)shouldAddGameCenterGroup;
 - (_Bool);
 - (id);
 - (void);
@@ -43,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (unsigned long long);
@@ -55,21 +40,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)";
+- (id);
 - (void);
 - (id);
 - (id);
@@ -79,36 +64,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (id)swift_reflection_metadataNominalTypeDescriptor;
 - (id);
-- (id);
-- (void);
-- (void)onAction;
+- (void);
+- (void)_stopSharingLocationAction;
 - (id)V_sgLogger;
 - (void)lÀ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions;
-@property(nonatomic) _Bool bypassActionValidation; // @synthesize bypassActionValidation=_bypassActionValidation;
-@property(copy, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(readonly, nonatomic) CNContact *contact;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNQuickActionsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long desiredNumberOfActions; // @synthesize desiredNumberOfActions=_desiredNumberOfActions;
-@property(retain, nonatomic) CNQuickFaceTimeAction *faceTimeAudioAction; // @synthesize faceTimeAudioAction=_faceTimeAudioAction;
-@property(retain, nonatomic) CNQuickFaceTimeAction *faceTimeVideoAction; // @synthesize faceTimeVideoAction=_faceTimeVideoAction;
-@property(retain, nonatomic) NSDictionary *groups; // @synthesize groups=_groups;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool sortsWithDuet;
-@property(retain, nonatomic) NSArray *subManagers; // @synthesize subManagers=_subManagers;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *updateBlocks; // @synthesize updateBlocks=_updateBlocks;
-@property(retain, nonatomic) CNQuickActionsUsageManager *usageManager; // @synthesize usageManager=_usageManager;
-@property(nonatomic) _Bool useDuetIfAvailable; // @synthesize useDuetIfAvailable=_useDuetIfAvailable;
 
 @end
 

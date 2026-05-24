@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, _SFPBColor, _SFPBRichText;
 
 @protocol _SFPBCompactRowCardSection
+- (void)a%;
+- (_Bool);
+- (_Bool)hash;
+- (_Bool)hasBeenPlayed;
+- (void)>;
+- (void)
+;
+- (_SFPBRichText *)dw;
+- (void)_loadITunesRingtoneInfoPlistAtPath:(_SFPBColor *)arg1;
+- (void);
+- (NSData *)PHPhotoLibraryDeletionOptions;
+- (_SFPBRichText *)U;
 - (int)6;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) _Bool isSubtitleDetatched;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString, XCElementSnapshot, XCTElementIndexingTransformer;
-@protocol XCTElementSetTransformer;
+@class XCTElementIndexingTransformer;
 
 __attribute__((visibility("hidden")))
 @interface XCTIndexingTransformerIterator
 {
     _Bool _hasMatched;
-    XCElementSnapshot *_input;
-    id <XCTElementSetTransformer> _transformer;
-    XCElementSnapshot *_currentMatch;
-    XCTElementIndexingTransformer *_indexingTransformer;
-    unsigned long long _count;
-    NSMutableSet *_mutableRelatedElements;
 }
 
 - (void);
@@ -25,31 +18,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)k!;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property unsigned long long count; // @synthesize count=_count;
-@property(retain) XCElementSnapshot *currentMatch; // @synthesize currentMatch=_currentMatch;
-@property(readonly) NSSet *currentRelatedElements;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasMatched; // @synthesize hasMatched=_hasMatched;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak XCTElementIndexingTransformer *indexingTransformer; // @synthesize indexingTransformer=_indexingTransformer;
-@property(retain) XCElementSnapshot *input; // @synthesize input=_input;
-@property(readonly) NSMutableSet *mutableRelatedElements; // @synthesize mutableRelatedElements=_mutableRelatedElements;
-@property(readonly) Class superclass;
-@property(readonly) __weak id <XCTElementSetTransformer> transformer; // @synthesize transformer=_transformer;
 
 @end
 

@@ -7,11 +7,10 @@
 @class NSArray, NSString;
 
 @protocol GEOTransitNearbyScheduleCell
+- (NSArray *);
+- (NSString *)requestAccessForEntityType:eventStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *artworks;
-@property(readonly, nonatomic) NSArray *departureSequences;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool isSignificant;
 @end
 

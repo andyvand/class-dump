@@ -7,6 +7,10 @@
 @protocol CBCentralManagerDelegate
 
 @optional
+- (void)_encryptedArchiveMetadata;
+- (void)_durationTablesByPlaybackStyle;
+- (void)_distanceWeights;
+- (void)_diptychMotionStyleTable;
 - (void)24;
 - (void)ig number update %{public}@ -> %{public}@;
 @end

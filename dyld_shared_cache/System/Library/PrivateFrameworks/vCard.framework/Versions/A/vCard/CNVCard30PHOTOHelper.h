@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNVCardWritingOptions;
 @protocol CNVCardPerson;
 
 @interface CNVCard30PHOTOHelper
 {
     id <CNVCardPerson> _person;
-    CNVCardWritingOptions *_options;
-    unsigned long long _maxBytes;
 }
 
 + (id);
@@ -23,16 +20,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)+)@)J;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long maxBytes; // @synthesize maxBytes=_maxBytes;
-@property(readonly, nonatomic) CNVCardWritingOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) id <CNVCardPerson> person; // @synthesize person=_person;
 
 @end

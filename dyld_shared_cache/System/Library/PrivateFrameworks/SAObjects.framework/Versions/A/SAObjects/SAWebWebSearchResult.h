@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface SAWebWebSearchResult : AceObject
 {
@@ -23,35 +23,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *imageResults;
-@property(copy, nonatomic) NSArray *newsResults;
-@property(copy, nonatomic) NSArray *relatedSearchResults;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *totalImageResults;
-@property(copy, nonatomic) NSNumber *totalNewsResults;
-@property(copy, nonatomic) NSNumber *totalVideoResults;
-@property(copy, nonatomic) NSNumber *totalWebResults;
-@property(copy, nonatomic) NSArray *videoResults;
-@property(copy, nonatomic) NSArray *webResults;
 
 @end
 

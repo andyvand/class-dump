@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface RPEventRegistration
 {
     NSString *_eventID;
-    NSDictionary *_options;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *eventID; // @synthesize eventID=_eventID;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

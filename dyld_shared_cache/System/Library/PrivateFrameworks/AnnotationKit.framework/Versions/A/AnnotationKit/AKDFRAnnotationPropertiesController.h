@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKDFRColorPickerController, NSColorPickerTouchBarItem, NSGroupTouchBarItem, NSString;
+@class NSGroupTouchBarItem;
 @protocol AKDFRAnnotationPropertiesControllerDelegate;
 
 @interface AKDFRAnnotationPropertiesController
 {
     id <AKDFRAnnotationPropertiesControllerDelegate> _delegate;
-    NSGroupTouchBarItem *_touchBarItem;
-    NSColorPickerTouchBarItem *_strokeColorItem;
-    NSColorPickerTouchBarItem *_fillColorItem;
-    AKDFRColorPickerController *_fillColorPickerController;
-    AKDFRColorPickerController *_strokeColorPickerController;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -36,18 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AKDFRAnnotationPropertiesControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSColorPickerTouchBarItem *fillColorItem; // @synthesize fillColorItem=_fillColorItem;
-@property(retain) AKDFRColorPickerController *fillColorPickerController; // @synthesize fillColorPickerController=_fillColorPickerController;
-@property(readonly) unsigned long long hash;
-@property(retain) NSColorPickerTouchBarItem *strokeColorItem; // @synthesize strokeColorItem=_strokeColorItem;
-@property(retain) AKDFRColorPickerController *strokeColorPickerController; // @synthesize strokeColorPickerController=_strokeColorPickerController;
-@property(readonly) Class superclass;
 @property(retain) NSGroupTouchBarItem *touchBarItem; // @synthesize touchBarItem=_touchBarItem;
 
 @end

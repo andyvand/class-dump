@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyValueNonmutatingSetMethodSet, NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueSet
 {
     NSObject *_container;
-    NSString *_key;
-    NSKeyValueNonmutatingSetMethodSet *_methods;
 }
 
-+ (id);
++ (id)`;
 - (void);
 - (CDStruct_2ab5ffe7);
 - (id)Á|1!ØGù1y5ð1Â0@ù

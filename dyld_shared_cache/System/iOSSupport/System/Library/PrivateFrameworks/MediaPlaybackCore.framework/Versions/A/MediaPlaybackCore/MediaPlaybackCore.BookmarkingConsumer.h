@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.BookmarkingConsumer
 {
     id playbackEngine;
-    id subscription;
 }
 
 + (unsigned int);

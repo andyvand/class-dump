@@ -9,7 +9,6 @@
 @interface CRLanguageResourcesManager
 {
     NSMutableDictionary *_languageResourceStacks;
-    long long _resourceType;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain) NSMutableDictionary *languageResourceStacks; // @synthesize languageResourceStacks=_languageResourceStacks;
-@property long long resourceType; // @synthesize resourceType=_resourceType;
 
 @end
 

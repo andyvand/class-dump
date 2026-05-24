@@ -9,82 +9,55 @@
 @interface GEOCoverageExtent
 {
     PBUnknownFields *_unknownFields;
-    struct GEOCoverageException *_coverageExceptions;
-    unsigned long long _coverageExceptionsCount;
-    unsigned long long _coverageExceptionsSpace;
-    unsigned int _maxX;
-    unsigned int _maxY;
-    unsigned int _minX;
-    unsigned int _minY;
-    unsigned int _zoom;
-    struct {
-        unsigned int has_maxX:1;
-        unsigned int has_maxY:1;
-        unsigned int has_minX:1;
-        unsigned int has_minY:1;
-        unsigned int has_zoom:1;
-    } _flags;
 }
 
-+ (_Bool)l:(id)arg1;
++ (_Bool)setHasPreArrival:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
+- (unsigned long long)lu)):%@ /* Error: Ran out of types for this method. */;
+- (struct GEOCoverageException *)n call stack (thread 0x%llx (%llu)):%@ /* Error: Ran out of types for this method. */;
+- (struct GEOCoverageException)ter being %@;
+- (void)R_DESCRIPTION-%@-%@;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)smoothedFloat32ImageBuffer:(unsigned int)arg1 fromImageBuffer:originalImageSize:sigmaX:sigmaY:nStd: /* Error: Ran out of types for this method. */;
+- (void)smoothedFloat32ImageBuffer:(unsigned int)arg1 fromImageBuffer:originalImageSize:sigmaX:sigmaY:nStd: /* Error: Ran out of types for this method. */;
+- (unsigned int)setTasksTimeout: /* Error: Ran out of types for this method. */;
+- (unsigned int)setTargetHighPriorityQueue: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (unsigned int);
+- (void);
+- (void)setCachedPeakPower:(id)arg1;
+- (void);
+- (id);
 - (unsigned long long);
-- (struct GEOCoverageException *);
-- (struct GEOCoverageException);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)B;
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned int);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id)uest:(struct _NSZone *)arg1;
-- (id)mplicitQueryIntroTipForHiking;
-- (id)SURE;
+- (id)setHasAddedSpecialRequest:(struct _NSZone *)arg1;
+- (id)GEOPDSImplicitQueryIntroTipForHiking;
+- (id)THERMAL_PRESSURE;
 - (id);
 - (unsigned int)àDà;
 - (void)áz@Ãõ(\Â@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct GEOCoverageException *coverageExceptions;
-@property(readonly, nonatomic) unsigned long long coverageExceptionsCount;
-@property(nonatomic) _Bool hasMaxX;
-@property(nonatomic) _Bool hasMaxY;
 @property(nonatomic) _Bool hasMinX;
-@property(nonatomic) _Bool hasMinY;
-@property(nonatomic) _Bool hasZoom;
-@property(nonatomic) unsigned int maxX;
-@property(nonatomic) unsigned int maxY;
-@property(nonatomic) unsigned int minX;
-@property(nonatomic) unsigned int minY;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int zoom;
 
 @end
 

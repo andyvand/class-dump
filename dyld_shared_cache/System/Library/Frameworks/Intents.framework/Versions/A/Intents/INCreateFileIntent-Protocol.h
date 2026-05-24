@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol INCreateFileIntent
+- (NSString *)String",&,N,V_errorString;
+- (void)13CPMLAlgorithm;
 - (NSString *)ÏOC;
 
 // Remaining properties
-@property(copy) NSString *destinationName;
-@property(copy) NSString *destinationType;
-@property(copy) NSString *entityName;
 @property(copy) NSString *entityType;
 @end
 

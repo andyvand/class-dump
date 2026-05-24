@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PFStoryRecipeMutableSongAsset
+- (NSString *);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *colorGradeCategory;

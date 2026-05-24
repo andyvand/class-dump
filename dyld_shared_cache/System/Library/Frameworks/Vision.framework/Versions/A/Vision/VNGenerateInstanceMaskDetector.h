@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface VNGenerateInstanceMaskDetector : VNEspressoModelFileBasedDetector
 {
     CDStruct_0a65202a _outputMaskEspressoBuffer;
-    CDStruct_0a65202a _outputConfidenceEspressoBuffer;
-    _Bool _gatingOnly;
 }
 
-+ (unsigned int);
-+ (void);
-+ (void);
++ (unsigned int)6@0:(id)arg1 8;
++ (void)fulfillWindowsInstallerPartitionRemovalFromCurrentBootDisk;
++ (void)ing cookie key;
 + (unsigned long long);
-+ (id);
++ (id)V_logger;
 + (id);
 + (id);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);

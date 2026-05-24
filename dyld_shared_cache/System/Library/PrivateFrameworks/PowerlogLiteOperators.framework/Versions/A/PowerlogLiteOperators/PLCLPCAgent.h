@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPCReportingReadResult, CLPCReportingStatSelection, NSDate, PLNSNotificationOperatorComposition, PLTimer;
-@protocol CLPCReportingAccess;
+@class NSDate;
 
 @interface PLCLPCAgent
 {
     NSDate *_lastEntryDate;
-    NSDate *_lastCPUClusterEntryDate;
-    PLTimer *_tenMinuteTimer;
-    id <CLPCReportingAccess> _provider;
-    CLPCReportingStatSelection *_selection;
-    CLPCReportingReadResult *_readResults;
-    id <CLPCReportingAccess> _CPUClusterProvider;
-    CLPCReportingStatSelection *_CPUClusterSelection;
-    CLPCReportingReadResult *_CPUClusterReadResults;
-    PLNSNotificationOperatorComposition *_thermalMonitorListener;
 }
 
 + (id);
@@ -69,11 +59,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ctory.oFD1IC/Sources/DialogEngine/protobuf/src/google/protobuf/source_context.pb.cc;
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id).;
 - (void)NSString",&,V_lastAdapterManufacturer;
 - (void)ØãèäåÐå`æ;
 - (void)rightness to CA;
@@ -81,16 +71,7 @@
 - (void)seBufferToCxt:perHostWriteXacts(301):(#2) cfg elements != (%d) buffer elements /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) id <CLPCReportingAccess> CPUClusterProvider; // @synthesize CPUClusterProvider=_CPUClusterProvider;
-@property(retain) CLPCReportingReadResult *CPUClusterReadResults; // @synthesize CPUClusterReadResults=_CPUClusterReadResults;
-@property(retain) CLPCReportingStatSelection *CPUClusterSelection; // @synthesize CPUClusterSelection=_CPUClusterSelection;
-@property(retain) NSDate *lastCPUClusterEntryDate; // @synthesize lastCPUClusterEntryDate=_lastCPUClusterEntryDate;
 @property(retain) NSDate *lastEntryDate; // @synthesize lastEntryDate=_lastEntryDate;
-@property(retain) id <CLPCReportingAccess> provider; // @synthesize provider=_provider;
-@property(retain) CLPCReportingReadResult *readResults; // @synthesize readResults=_readResults;
-@property(retain) CLPCReportingStatSelection *selection; // @synthesize selection=_selection;
-@property(retain) PLTimer *tenMinuteTimer; // @synthesize tenMinuteTimer=_tenMinuteTimer;
-@property(retain) PLNSNotificationOperatorComposition *thermalMonitorListener; // @synthesize thermalMonitorListener=_thermalMonitorListener;
 
 @end
 

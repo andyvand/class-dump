@@ -9,12 +9,6 @@
 @interface MPSNDArrayCropResize : MPSNDArrayMultiaryKernel
 {
     _Bool _normalizeCoordinates;
-    float _spatialScale;
-    unsigned int _resampleMode;
-    unsigned int _samplingMode;
-    unsigned int _coordinateMode;
-    unsigned long long _resizeHeight;
-    unsigned long long _resizeWidth;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -22,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (unsigned int);
@@ -42,13 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int coordinateMode; // @synthesize coordinateMode=_coordinateMode;
-@property(nonatomic) _Bool normalizeCoordinates; // @synthesize normalizeCoordinates=_normalizeCoordinates;
-@property(nonatomic) unsigned int resampleMode; // @synthesize resampleMode=_resampleMode;
 @property(nonatomic) unsigned long long resizeHeight; // @synthesize resizeHeight=_resizeHeight;
-@property(nonatomic) unsigned long long resizeWidth; // @synthesize resizeWidth=_resizeWidth;
-@property(nonatomic) unsigned int samplingMode; // @synthesize samplingMode=_samplingMode;
-@property(nonatomic) float spatialScale; // @synthesize spatialScale=_spatialScale;
 
 @end
 

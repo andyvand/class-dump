@@ -4,37 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLogMsgEventARSessionUsage
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_arElementDetails;
-    NSMutableArray *_thermalPressures;
-    NSMutableArray *_vlfLocalizationResults;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _sessionTimeMs;
-    unsigned int _timeRoundedToHour;
-    _Bool _didLocalize;
-    struct {
-        unsigned int has_sessionTimeMs:1;
-        unsigned int has_timeRoundedToHour:1;
-        unsigned int has_didLocalize:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_arElementDetails:1;
-        unsigned int read_thermalPressures:1;
-        unsigned int read_vlfLocalizationResults:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setHasShowedSurgePricingAlert:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -49,26 +29,26 @@
 - (void);
 - (unsigned int);
 - (_Bool);
+- (_Bool)orizationContext>";
+- (_Bool)localizedForLanguageIdentifier:withPronouns: /* Error: Ran out of types for this method. */;
+- (void)domainVersion;
+- (void)defaultCenter;
+- (void)ambWith: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ng;
+- (id)isObserverReceiving,V_observerReceiving;
+- (id)ed;
+- (void)futureResultFromImmediateLookup;
+- (void)leSkipUntilSignalObserverDelegate>",R,W,V_delegate;
+- (void)endToken;
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)rtStreamWithContext:option:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -78,7 +58,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)edVersion:(struct _NSZone *)arg1;
+- (id)setRequiredVersion:(struct _NSZone *)arg1;
 - (id)tsRibbonItem",R,N,V_contactlessPaymentsItem;
 - (id)source %{private}@;
 - (void)ô;
@@ -86,15 +66,6 @@
 - (void)øÒ	ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *arElementDetails;
-@property(nonatomic) _Bool didLocalize;
-@property(nonatomic) _Bool hasDidLocalize;
-@property(nonatomic) _Bool hasSessionTimeMs;
-@property(nonatomic) _Bool hasTimeRoundedToHour;
-@property(nonatomic) unsigned int sessionTimeMs;
-@property(retain, nonatomic) NSMutableArray *thermalPressures;
-@property(nonatomic) unsigned int timeRoundedToHour;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 @property(retain, nonatomic) NSMutableArray *vlfLocalizationResults;
 
 @end

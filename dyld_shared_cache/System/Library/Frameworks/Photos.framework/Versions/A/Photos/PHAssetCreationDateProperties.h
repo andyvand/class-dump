@@ -12,9 +12,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)ontentKeyStoreEntry"16^B24;
 + (id);
-+ (long long);
++ (long long)7_;
 + (_Bool)Ô ;
 + (long long);
 + (id)ocessing queue;

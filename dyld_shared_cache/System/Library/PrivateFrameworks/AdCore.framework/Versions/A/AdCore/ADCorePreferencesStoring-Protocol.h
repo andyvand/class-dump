@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol ADCorePreferencesStoring
+- (_Bool)prominentPlayButtonTouchUpInside:(NSString *)arg1;
+- (long long)layerViewController(AVPlaybackControlsViewControllerActions) mediaSelectionButtonTapped:(NSString *)arg1 ];
+- (NSArray *)32^@40;
 @end
 

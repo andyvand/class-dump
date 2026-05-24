@@ -5,6 +5,10 @@
 //
 
 @protocol APPCDiagnosticMetricsHelping
+- (void)nventory;
+- (void)audio feed is not available due to unsupported region;
+- (void)the server;
+- (void)s;
 
 // Remaining properties
 @property(nonatomic) unsigned long long networkType;

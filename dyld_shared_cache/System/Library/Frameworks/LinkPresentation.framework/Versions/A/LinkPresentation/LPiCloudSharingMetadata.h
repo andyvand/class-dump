@@ -6,17 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSDictionary, NSString;
+@class NSString;
 
 @interface LPiCloudSharingMetadata : LPSpecializationMetadata
 {
     NSString *_applicationBundleIdenfier;
-    NSString *_application;
-    NSString *_kind;
-    NSString *_title;
-    LPImage *_icon;
-    LPImage *_thumbnail;
-    NSDictionary *_encodedTokens;
 }
 
 + (id);
@@ -25,25 +19,25 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id);
+- (id);
+- (_Bool)?M;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -53,35 +47,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)one PCS;
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)V;
 - (id);
-- (id);
-- (id);
+- (id)le, s.label, count(*) FROM sessions s INNER JOIN sessionsDescriptors mh ON s.sessionDescriptorId = mh.id INNER JOIN sessionsItemIds sii ON s.id = sii.sessionId WHERE sii.timesAccessed < :timesUsedMax GROUP BY s.sessionDescriptorId, s.label ORDER BY s.sessionDescriptorId, s.label /* Error: Ran out of types for this method. */;
+- (id)";
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *application; // @synthesize application=_application;
-@property(copy, nonatomic) NSString *applicationBundleIdenfier; // @synthesize applicationBundleIdenfier=_applicationBundleIdenfier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *encodedTokens; // @synthesize encodedTokens=_encodedTokens;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) LPImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

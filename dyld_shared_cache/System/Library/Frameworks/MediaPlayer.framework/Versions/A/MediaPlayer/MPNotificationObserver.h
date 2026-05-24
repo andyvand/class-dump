@@ -9,24 +9,19 @@
 @interface MPNotificationObserver
 {
     long long _handlerCallCount;
-    NSString *_name;
-    id _object;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)kSceneSourceSplitMeshesForGLES;
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void)ireDate;
+- (void)_fireDate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) __weak id object; // @synthesize object=_object;
 
 @end
 

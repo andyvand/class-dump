@@ -6,41 +6,28 @@
 
 #import <HomeAI/HMIVideoAnalyzerProcessingNode.h>
 
-@class HMIVideoFrameSampler, MovingAverage, NSString;
-@protocol HMICameraVideoFrameAnalyzer, HMIVideoFrameAnalyzerDelegate;
+@class MovingAverage;
+@protocol HMICameraVideoFrameAnalyzer;
 
 @interface HMIVideoFrameAnalyzer : HMIVideoAnalyzerProcessingNode
 {
     MovingAverage *_analysisTime;
-    id <HMIVideoFrameAnalyzerDelegate> _delegate;
-    id <HMICameraVideoFrameAnalyzer> _cameraVideoFrameAnalyzer;
-    HMIVideoFrameSampler *_frameSampler;
 }
 
 + (id)æ;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) double averageAnalysisTime;
 @property(readonly) id <HMICameraVideoFrameAnalyzer> cameraVideoFrameAnalyzer; // @synthesize cameraVideoFrameAnalyzer=_cameraVideoFrameAnalyzer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMIVideoFrameAnalyzerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) HMIVideoFrameSampler *frameSampler; // @synthesize frameSampler=_frameSampler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

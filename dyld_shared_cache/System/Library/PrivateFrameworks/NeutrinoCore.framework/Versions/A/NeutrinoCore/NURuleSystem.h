@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableString, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface NURuleSystem
 {
     NSMutableDictionary *_state;
-    NSMutableDictionary *_constants;
-    NSMutableArray *_rules;
-    NSMutableArray *_agenda;
-    NSMutableArray *_executed;
-    NSMapTable *_gradeByFact;
-    NSMutableString *_runLog;
-    _Bool _enableLogging;
 }
 
 + (_Bool);
@@ -33,13 +26,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)adjustmentsPropertyListFileRequiresOverflowDataReassemblyAtURL:predictedSize: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void)decimalNumberByRoundingAccordingToBehavior: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (void);
 - (void);
@@ -53,14 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *agenda;
 @property(copy, nonatomic) NSDictionary *constants;
-@property(nonatomic) _Bool enableLogging; // @synthesize enableLogging=_enableLogging;
-@property(readonly, copy, nonatomic) NSArray *executed;
-@property(readonly, copy, nonatomic) NSDictionary *facts;
-@property(readonly, copy, nonatomic) NSArray *rules;
-@property(readonly, copy, nonatomic) NSString *runLog;
-@property(readonly, copy, nonatomic) NSDictionary *state; // @synthesize state=_state;
 
 @end
 

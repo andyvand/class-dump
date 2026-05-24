@@ -22,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)h ;
+- (void)k;
+- (void);
+- (void)i ;
+- (void);
+- (void)ngth](%lu).;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ptionWithName:(id)arg1 reason:(id)arg2 userInfo:(CDUnknownBlockType)arg3;
+- (void)exceptionWithName:(id)arg1 reason:(id)arg2 userInfo:(CDUnknownBlockType)arg3;
 
 @end
 

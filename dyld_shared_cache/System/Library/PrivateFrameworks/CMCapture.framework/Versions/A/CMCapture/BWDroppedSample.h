@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BWDroppedSample
 {
     NSString *_reason;
-    CDStruct_1b6d18a9 _pts;
-    NSArray *_backPressureSemaphoresToIgnore;
 }
 
 + (id);
@@ -22,8 +20,6 @@
 - (CDStruct_1b6d18a9);
 
 // Remaining properties
-@property(readonly) NSArray *backPressureSemaphoresToIgnore;
-@property(readonly) CDStruct_1b6d18a9 pts;
 @property(readonly) NSString *reason;
 
 @end

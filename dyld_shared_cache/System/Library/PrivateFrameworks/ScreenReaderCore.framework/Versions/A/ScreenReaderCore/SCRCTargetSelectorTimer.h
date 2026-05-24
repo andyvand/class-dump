@@ -6,18 +6,9 @@
 
 #import <ScreenReaderCore/SCRCTargetSelector.h>
 
-@class NSLock;
-
 @interface SCRCTargetSelectorTimer : SCRCTargetSelector
 {
     struct __CFRunLoopTimer *_timer;
-    id _key;
-    _Bool _isCanceled;
-    _Bool _isPending;
-    id _object;
-    NSLock *_lock;
-    _Bool _createdTimer;
-    CDUnknownBlockType _block;
 }
 
 + (void);
@@ -25,24 +16,24 @@
 + (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)m;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void){;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (void);
 
 @end

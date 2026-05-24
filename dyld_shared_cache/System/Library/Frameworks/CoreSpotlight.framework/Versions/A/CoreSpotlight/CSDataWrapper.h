@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject;
-@protocol OS_xpc_object;
+@class NSData;
 
 @interface CSDataWrapper
 {
     _Bool _mapped;
-    NSData *_data;
-    unsigned long long _dataSize;
-    NSObject<OS_xpc_object> *_xpcData;
-    const void *_dataPtr;
-    unsigned long long _mapSize;
 }
 
 - (void);
@@ -22,21 +16,16 @@
 - (const void *);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)sisVersion;
+- (id)T_;
+- (void);
+- (void)photosPrivateEncryptedComputeAnalysisVersion;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) const void *dataPtr; // @synthesize dataPtr=_dataPtr;
-@property(nonatomic) unsigned long long dataSize; // @synthesize dataSize=_dataSize;
-@property(readonly, nonatomic) unsigned long long mapSize; // @synthesize mapSize=_mapSize;
-@property(readonly, nonatomic) _Bool mapped; // @synthesize mapped=_mapped;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *xpcData; // @synthesize xpcData=_xpcData;
 
 @end
 

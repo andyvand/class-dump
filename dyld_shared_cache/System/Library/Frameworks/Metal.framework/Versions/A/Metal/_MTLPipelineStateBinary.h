@@ -9,8 +9,6 @@
 @interface _MTLPipelineStateBinary
 {
     NSData *_binary;
-    unsigned long long _uniqueIdentifier;
-    unsigned long long _debugIdentifier;
 }
 
 - (id);
@@ -18,12 +16,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long)OrderGroups;
+- (unsigned long long)supportsRasterOrderGroups;
 
 // Remaining properties
 @property(readonly, retain) NSData *binary; // @synthesize binary=_binary;
-@property(readonly) unsigned long long debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
-@property(readonly) unsigned long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

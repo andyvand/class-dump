@@ -6,8 +6,7 @@
 
 #import <Silex/SXJSONAction.h>
 
-@class NSString, SXJSONDictionary;
-@protocol SXAction;
+@class NSString;
 
 @interface SXJSONSubscribeAction : SXJSONAction
 {
@@ -16,17 +15,7 @@
 + (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *inAppPurchaseIdKey; // @dynamic inAppPurchaseIdKey;
-@property(readonly, nonatomic) id <SXAction> postPurchaseAction; // @dynamic postPurchaseAction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

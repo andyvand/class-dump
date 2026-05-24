@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _MKSortedDepartureCollection
 {
     NSMutableArray *_sortedDepartures;
-    NSMutableSet *_groupedSequences;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)logLaterForClientID:(id)arg1 withKey:withFilterInterval: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)SpaceBetweenIcons: /* Error: Ran out of types for this method. */;
+- (void)setSpaceBetweenIcons: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *groupedSequences; // @synthesize groupedSequences=_groupedSequences;
 @property(retain, nonatomic) NSMutableArray *sortedDepartures; // @synthesize sortedDepartures=_sortedDepartures;
 
 @end

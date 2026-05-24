@@ -7,15 +7,6 @@
 @interface NewsUI2.HeadlineModelFactory
 {
     id likeStateProvider;
-    id savedStateProvider;
-    id sharedStateProvider;
-    id offensiveStateProvider;
-    id draggableStateProvider;
-    id paidAccessChecker;
-    id deletedStatusProvider;
-    id blockedStatusProvider;
-    id feedContextFactory;
-    id appConfigManager;
 }
 
 @end

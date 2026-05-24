@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMServiceEnded, NLXSchemaCDMServiceFailed, NLXSchemaCDMServiceStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMServiceContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLXSchemaCDMServiceStarted *_startedOrChanged;
-    NLXSchemaCDMServiceEnded *_ended;
-    NLXSchemaCDMServiceFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,17 +23,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)storageInfoForDomains:(id)arg1 withMediaKinds:ignorePurgeable:withReply: /* Error: Ran out of types for this method. */;
+- (void)@;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void):(id)arg1 %s
+;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -57,15 +50,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLXSchemaCDMServiceEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaCDMServiceFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMServiceStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

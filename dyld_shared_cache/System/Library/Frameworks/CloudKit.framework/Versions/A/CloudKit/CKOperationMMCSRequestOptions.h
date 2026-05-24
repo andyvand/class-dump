@@ -7,8 +7,6 @@
 @interface CKOperationMMCSRequestOptions
 {
     _Bool _resumableContainerLimpMode;
-    _Bool _chunkingLibraryCorruptionMode;
-    _Bool _insufficientDiskSpaceMode;
 }
 
 + (_Bool);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool chunkingLibraryCorruptionMode; // @synthesize chunkingLibraryCorruptionMode=_chunkingLibraryCorruptionMode;
-@property _Bool insufficientDiskSpaceMode; // @synthesize insufficientDiskSpaceMode=_insufficientDiskSpaceMode;
 @property _Bool resumableContainerLimpMode; // @synthesize resumableContainerLimpMode=_resumableContainerLimpMode;
 
 @end

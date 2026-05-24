@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CKDPPackageManifestItem
 {
     long long _size;
-    NSData *_signature;
-    _Bool _lastItem;
-    struct {
-        unsigned int size:1;
-        unsigned int lastItem:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setMetroEntryWithLocalLog:(id)arg1 ctx: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (long long);
+- (long long)updateWithSubsequentTrigger: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)gOperation:withBlock: /* Error: Ran out of types for this method. */;
-- (void)ionPayload;
+- (id)performModifyWebSharingOperation:withBlock: /* Error: Ran out of types for this method. */;
+- (void)extensionPayload;
 - (_Bool)ºp»;
 - (void)/';
-- (void)llowed;
+- (void)Allowed;
 - (_Bool)®;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastItem;
 @property(readonly, nonatomic) _Bool hasSignature;
-@property(nonatomic) _Bool hasSize;
-@property(nonatomic) _Bool lastItem; // @synthesize lastItem=_lastItem;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(nonatomic) long long size; // @synthesize size=_size;
 
 @end
 

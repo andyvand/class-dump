@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate;
+@class NSDate;
 
 @interface WFAirQualityProviderStation
 {
     NSDate *_lastReadDate;
-    CLLocation *_location;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)tableDictionary",&,V_scenarioTitles;
+- (id)- %@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *lastReadDate; // @synthesize lastReadDate=_lastReadDate;
-@property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
 
 @end
 

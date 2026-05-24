@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNSystemAudioAnalyzerRemote.State
 {
     id $defaultActor;
-    id subscriptions;
 }
 
 @end

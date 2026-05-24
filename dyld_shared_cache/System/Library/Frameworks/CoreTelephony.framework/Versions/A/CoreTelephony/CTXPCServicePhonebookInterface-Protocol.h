@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServicePhonebookInterface
+- (void);
 @end
 

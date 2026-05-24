@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol _UIFocusTestDelegate;
-
 @interface _UIFocusTest
 {
     _Bool _isApplicationTest;
-    NSString *_identifier;
-    long long _state;
-    id <_UIFocusTestDelegate> _delegate;
-    CDUnknownBlockType _runCompletionHandler;
 }
 
 + (void);
 + (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType)@0:8@16@24{_NSRange=QQ}32@48@56@64@72@80@88 /* Error: Ran out of types for this method. */;
+- (_Bool)for %@. Cross Service Association message has already binded this message to an IML. Dropping.;
+- (void)contextForParticipantIDsHash:(CDUnknownBlockType)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)uageOption;
+- (void)T;
 - (id);
 - (void)!<GùQ^Ð1Â0@ù
 × ;
@@ -35,18 +28,14 @@
 - (long long)a
 Ð!H@ùñf°1Â0@ù
 × ;
-- (void)ction:offset:affinity:anchorPositionOffset: /* Error: Ran out of types for this method. */;
-- (void)InsetsPopulated;
-- (void)avigationBar:delegate: /* Error: Ran out of types for this method. */;
+- (void)positionFromPosition:inDirection:offset:affinity:anchorPositionOffset: /* Error: Ran out of types for this method. */;
+- (void)_safeAreaEdgeInsetsPopulated;
+- (void)initWithNavigationBar:delegate: /* Error: Ran out of types for this method. */;
 - (void)ä¾Ü¿ÈÀÀÂÄ¼ÄÅ¬ÈÉlÉ8Ë ËlÏÔÏ¬Ð;
 - (id)Ôúxûü¬ü8ýÜýþþÿÈÿ;
 - (void)XÜ;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIFocusTestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=_isApplicationTest) _Bool isApplicationTest; // @synthesize isApplicationTest=_isApplicationTest;
-@property(copy, nonatomic) CDUnknownBlockType runCompletionHandler; // @synthesize runCompletionHandler=_runCompletionHandler;
 @property(nonatomic) long long state; // @synthesize state=_state;
 
 @end

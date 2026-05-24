@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFWallpaperCompoundDeviceConfiguration;
+@class NSString;
 
 @interface PISegmentationContextInfo
 {
     _Bool _segmentationDisabled;
-    NSString *_systemName;
-    NSString *_systemVersion;
-    NSString *_systemBuildVersion;
-    unsigned long long _version;
-    long long _sourceMode;
-    long long _infillAlgorithm;
-    PFWallpaperCompoundDeviceConfiguration *_layoutConfiguration;
-    unsigned long long _role;
 }
 
 + (id);
@@ -30,26 +22,18 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)PGSharedLibrarySimulationResult;
 - (long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T@?,C,N,V_progressBlock;
 - (unsigned long long);
-- (void)ientationFilter: /* Error: Ran out of types for this method. */;
+- (void)stopAtTagIncludeOrientationFilter: /* Error: Ran out of types for this method. */;
 - (void){public}@;
 
 // Remaining properties
-@property(nonatomic) long long infillAlgorithm; // @synthesize infillAlgorithm=_infillAlgorithm;
-@property(retain, nonatomic) PFWallpaperCompoundDeviceConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(nonatomic) unsigned long long role; // @synthesize role=_role;
-@property(nonatomic) _Bool segmentationDisabled; // @synthesize segmentationDisabled=_segmentationDisabled;
-@property(nonatomic) long long sourceMode; // @synthesize sourceMode=_sourceMode;
-@property(copy, nonatomic) NSString *systemBuildVersion; // @synthesize systemBuildVersion=_systemBuildVersion;
 @property(copy, nonatomic) NSString *systemName; // @synthesize systemName=_systemName;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

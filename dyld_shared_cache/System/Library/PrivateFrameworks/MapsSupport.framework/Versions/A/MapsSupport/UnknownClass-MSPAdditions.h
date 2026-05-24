@@ -6,7 +6,7 @@
 
 @interface UnknownClass (MSPAdditions)
 + (id);
-+ (id);
++ (id)(;
 - (long long);
 @end
 

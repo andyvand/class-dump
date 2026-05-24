@@ -6,18 +6,11 @@
 
 #import <CloudPhotoLibrary/CPLEngineScopedTask.h>
 
-@class CPLEngineScope, CPLTransportScopeMapping, NSDate, NSObject;
-@protocol CPLEngineTransportGroup, CPLEngineTransportReshareRecordsTask, OS_dispatch_queue;
+@class NSDate;
 
 @interface CPLReshareScopeTask : CPLEngineScopedTask
 {
     NSDate *_cutoffDate;
-    CPLEngineScope *_primaryScope;
-    CPLTransportScopeMapping *_transportScopeMapping;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CPLEngineTransportReshareRecordsTask> _reshareTask;
-    id <CPLEngineTransportGroup> _transportGroup;
-    _Bool _hasScheduledPullFromTransport;
 }
 
 - (id);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)lass;

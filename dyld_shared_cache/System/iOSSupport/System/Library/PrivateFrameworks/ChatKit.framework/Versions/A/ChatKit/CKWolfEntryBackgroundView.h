@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITraitCollection, UIView;
+@class UIView;
 
 @interface CKWolfEntryBackgroundView
 {
     long long style;
-    NSString *backdropGroupName;
-    UITraitCollection *entryViewTraitCollection;
-    UIView *_blurView;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)renderedImageForPage:(id)arg1 scale:size:colorSpace: /* Error: Ran out of types for this method. */;
+- (id)N,V_systemPaperNotesInSource;
+- (id);
+- (id)*Somebody** moved the folder;
 - (void);
 - (id);
 - (long long);
@@ -26,20 +23,10 @@
 - (void);
 - (id)oposal;
 - (void);
-- (void)TIATED_WELCOME_OPTOUT_DESCRIPTION;
+- (void)BUSINESS_INITIATED_WELCOME_OPTOUT_DESCRIPTION;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName;
 @property(retain, nonatomic) UIView *blurView; // @synthesize blurView=_blurView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITraitCollection *entryViewTraitCollection; // @synthesize entryViewTraitCollection;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long style; // @synthesize style;
-@property(readonly) Class superclass;
 
 @end
 

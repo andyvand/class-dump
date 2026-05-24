@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIViewMaterial;
-
 @interface _UISidebarPlatformMetrics
 {
     double _fallbackCornerRadius;
-    id <_UIViewMaterial> _floatingBackground;
-    id <_UIViewMaterial> _abuttedBackground;
-    struct _UISidebarWidths _narrowWidthMetrics;
-    struct _UISidebarWidths _wideWidthMetrics;
-    struct _UISidebarWidths _inspectorWidthMetrics;
-    struct NSDirectionalEdgeInsets _platterInsets;
 }
 
 - (struct _UISidebarWidths);
+- (void)z;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
+- (void),;
 - (struct NSDirectionalEdgeInsets);
 - (struct _UISidebarWidths);
 - (struct _UISidebarWidths);
 - (id);
 - (double);
-- (id);
-- (id);
+- (id)noteMetricOfType:context: /* Error: Ran out of types for this method. */;
+- (id)ontentItemIDCount=%ld, dataSourceContentItemIDs=%ld, replacementRange:[(_loaded) %@ :(loaded) %@] => (replacement) %@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <_UIViewMaterial> abuttedBackground; // @synthesize abuttedBackground=_abuttedBackground;
 @property(nonatomic) double fallbackCornerRadius; // @synthesize fallbackCornerRadius=_fallbackCornerRadius;
-@property(retain, nonatomic) id <_UIViewMaterial> floatingBackground; // @synthesize floatingBackground=_floatingBackground;
-@property(nonatomic) struct _UISidebarWidths inspectorWidthMetrics; // @synthesize inspectorWidthMetrics=_inspectorWidthMetrics;
-@property(nonatomic) struct _UISidebarWidths narrowWidthMetrics; // @synthesize narrowWidthMetrics=_narrowWidthMetrics;
-@property(nonatomic) struct NSDirectionalEdgeInsets platterInsets; // @synthesize platterInsets=_platterInsets;
-@property(nonatomic) struct _UISidebarWidths wideWidthMetrics; // @synthesize wideWidthMetrics=_wideWidthMetrics;
 
 @end
 

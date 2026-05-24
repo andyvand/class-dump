@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface WBSPermissionDialogThrottler
 {
     long long _denyCount;
-    NSMutableArray *_requestedPresentations;
-    _Bool _isShowingDialog;
-    _Bool _invalidated;
-    _Bool _callingPresentationHandler;
 }
 
 - (void);
@@ -20,7 +14,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)ine1;
 

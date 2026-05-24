@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _GEOTileDBSubscriptionMetadataDataState
 {
     unsigned long long _version;
-    unsigned int _dataType;
-    unsigned int _dataSubtype;
-    _Bool _fullyLoaded;
-    unsigned long long _associatedDataCount;
-    unsigned long long _associatedDataSize;
 }
 
 @end

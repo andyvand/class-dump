@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCondition;
+@class _INPBCondition;
 
 @protocol _INPBStringList
-- (_INPBCondition *);
+- (_Bool);
+- (void)T;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *conditionType;
-@property(copy, nonatomic) NSArray *dataStrings;
-@property(readonly, nonatomic) unsigned long long dataStringsCount;
-@property(readonly, nonatomic) _Bool hasConditionType;
 @end
 

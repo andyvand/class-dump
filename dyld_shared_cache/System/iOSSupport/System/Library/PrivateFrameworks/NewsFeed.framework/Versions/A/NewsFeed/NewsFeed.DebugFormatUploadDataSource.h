@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatUploadDataSource
 {
     id editor;
-    id newsroomService;
 }
 
 @end

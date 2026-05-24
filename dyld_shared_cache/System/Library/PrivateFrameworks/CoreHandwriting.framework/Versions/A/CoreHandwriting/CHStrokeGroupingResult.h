@@ -9,22 +9,10 @@
 @interface CHStrokeGroupingResult
 {
     NSArray *_strokeGroupsSortedTopBottomLeftRight;
-    NSArray *_textStrokeGroupsSortedByWritingOrientation;
-    NSArray *_strokeGroupsSortedByWritingOrientation;
-    NSArray *_textStrokeGroupsSortedByCTLD;
-    NSArray *_strokeGroupsSortedByCTLD;
-    NSArray *_textStrokeGroupClusters;
-    NSArray *_strokeGroupClusters;
-    NSSet *_textStrokeGroups;
-    NSSet *_nontextStrokeGroups;
-    struct map<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>, std::less<std::set<unsigned long>>, std::allocator<std::pair<const std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>>> _cachedAdjacencies;
-    NSSet *_strokeGroups;
-    NSSet *_createdStrokeGroups;
-    NSSet *_deletedStrokeGroups;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_ikImageAdjustViewTLO;
 - (id);
 - (id);
 - (id);
@@ -33,8 +21,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
@@ -44,19 +32,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)T?;
 - (id);
 - (void)ä
 ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *createdStrokeGroups; // @synthesize createdStrokeGroups=_createdStrokeGroups;
-@property(readonly, copy, nonatomic) NSSet *deletedStrokeGroups; // @synthesize deletedStrokeGroups=_deletedStrokeGroups;
-@property(readonly, copy, nonatomic) NSSet *nontextStrokeGroups;
-@property(readonly, copy, nonatomic) NSArray *strokeGroupClusters;
 @property(readonly, copy, nonatomic) NSSet *strokeGroups; // @synthesize strokeGroups=_strokeGroups;
-@property(readonly, copy, nonatomic) NSArray *textStrokeGroupClusters;
-@property(readonly, copy, nonatomic) NSSet *textStrokeGroups;
 
 @end
 

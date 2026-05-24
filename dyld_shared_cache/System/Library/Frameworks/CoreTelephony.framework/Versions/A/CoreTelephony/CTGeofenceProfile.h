@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTGeofenceProfile
 {
     _Bool _cellularDataPreferred;
-    _Bool _enableNRStandalone;
-    NSString *_dataSetName;
-    NSString *_versionNumber;
-    NSString *_csgNetworkIdentifier;
-    NSString *_networkIdentifier;
-    NSArray *_geofenceList;
-    long long _NRStandaloneMode;
 }
 
-+ (_Bool);
++ (_Bool)'%@';
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (_Bool)bؗ;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)o;
 - (long long);
+- (id)?;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)LC;
 - (void)±ª)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long NRStandaloneMode; // @synthesize NRStandaloneMode=_NRStandaloneMode;
-@property(nonatomic) _Bool cellularDataPreferred; // @synthesize cellularDataPreferred=_cellularDataPreferred;
-@property(retain, nonatomic) NSString *csgNetworkIdentifier; // @synthesize csgNetworkIdentifier=_csgNetworkIdentifier;
 @property(retain, nonatomic) NSString *dataSetName; // @synthesize dataSetName=_dataSetName;
-@property(nonatomic) _Bool enableNRStandalone; // @synthesize enableNRStandalone=_enableNRStandalone;
-@property(retain, nonatomic) NSArray *geofenceList; // @synthesize geofenceList=_geofenceList;
-@property(retain, nonatomic) NSString *networkIdentifier; // @synthesize networkIdentifier=_networkIdentifier;
-@property(retain, nonatomic) NSString *versionNumber; // @synthesize versionNumber=_versionNumber;
 
 @end
 

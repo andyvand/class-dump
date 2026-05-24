@@ -7,7 +7,6 @@
 @interface NewsUI2.SavedFeedPoolService
 {
     id context;
-    id headlineService;
 }
 
 @end

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)(%@);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (id)1"read_importanceInfo"b1"read_junctionView"b1"read_laneGuidance"b1"read_navTrayGuidance"b1"read_signGuidance"b1"read_spokenGuidance"b1"wrote_anyField"b1};
-- (id)leData;
+- (id)_preferStaleData;
 - (id)°;
 - (void);
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGMutableElementIdentifierSet, NSMutableArray;
+@class NSMutableArray;
 
 @interface KGGraphChangeRequest
 {
     NSMutableArray *_nodesToInsert;
-    NSMutableArray *_edgesToInsert;
-    NSMutableArray *_nodeUpdates;
-    NSMutableArray *_edgeUpdates;
-    KGMutableElementIdentifierSet *_nodeIdentifiersToRemove;
-    KGMutableElementIdentifierSet *_edgeIdentifiersToRemove;
 }
 
 - (void);
@@ -26,9 +21,9 @@
 - (id);
 - (id);
 - (id);
+- (id)qA;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -37,17 +32,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)_iconAttributeValue;
+- (unsigned long long)ondition;
+- (void)TimeAnnouncementsIntervalIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) KGMutableElementIdentifierSet *edgeIdentifiersToRemove; // @synthesize edgeIdentifiersToRemove=_edgeIdentifiersToRemove;
-@property(retain, nonatomic) NSMutableArray *edgeUpdates; // @synthesize edgeUpdates=_edgeUpdates;
-@property(retain, nonatomic) NSMutableArray *edgesToInsert; // @synthesize edgesToInsert=_edgesToInsert;
-@property(retain, nonatomic) KGMutableElementIdentifierSet *nodeIdentifiersToRemove; // @synthesize nodeIdentifiersToRemove=_nodeIdentifiersToRemove;
-@property(retain, nonatomic) NSMutableArray *nodeUpdates; // @synthesize nodeUpdates=_nodeUpdates;
 @property(retain, nonatomic) NSMutableArray *nodesToInsert; // @synthesize nodesToInsert=_nodesToInsert;
 
 @end

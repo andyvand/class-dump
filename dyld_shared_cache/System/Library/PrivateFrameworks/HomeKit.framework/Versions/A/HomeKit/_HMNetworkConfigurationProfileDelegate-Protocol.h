@@ -5,5 +5,6 @@
 //
 
 @protocol _HMNetworkConfigurationProfileDelegate
+- (void);
 @end
 

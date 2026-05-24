@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, PLCoreStorage, PLTimer;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface PLOperator
 {
     NSMutableDictionary *_filterDefinitions;
-    NSMutableDictionary *_filterDeltaLastEntryIDs;
-    NSMutableArray *_bufferedEntries;
-    PLTimer *_triggerBufferFlush;
-    NSMutableDictionary *_lastLogDateForEntryKey;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)K;
 + (id);
 + (id);
 + (id);
@@ -37,8 +32,8 @@
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-+ (id)eEnergyRows;
++ (_Bool)setDelayInterval: /* Error: Ran out of types for this method. */;
++ (id)_rootNodeEnergyRows;
 + (void)terfaceType:%d /* Error: Ran out of types for this method. */;
 + (id)=;
 - (id);
@@ -46,6 +41,13 @@
 - (id);
 - (void);
 - (id);
+- (_Bool)8;
+- (void);
+- (void)*9;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -53,20 +55,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id),?;
 - (id);
 - (id);
 - (id);
@@ -80,7 +75,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)exist;
 - (void);
 - (void);
 - (id);
@@ -89,20 +84,11 @@
 - (id);
 - (void);
 - (void);
-- (void)pCopy;
+- (void)BackdropCopy;
 - (id)remove directory %@, file %@, %@;
 
 // Remaining properties
-@property(retain) NSMutableArray *bufferedEntries; // @synthesize bufferedEntries=_bufferedEntries;
-@property(readonly) __weak NSString *className;
 @property(retain) NSMutableDictionary *filterDefinitions; // @synthesize filterDefinitions=_filterDefinitions;
-@property(retain) NSMutableDictionary *filterDeltaLastEntryIDs; // @synthesize filterDeltaLastEntryIDs=_filterDeltaLastEntryIDs;
-@property(retain) NSMutableDictionary *lastLogDateForEntryKey; // @synthesize lastLogDateForEntryKey=_lastLogDateForEntryKey;
-@property(readonly) __weak PLCoreStorage *storage;
-@property(readonly) __weak NSObject<OS_dispatch_queue> *storageQueue;
-@property(readonly) __weak NSString *storageQueueName;
-@property(retain) PLTimer *triggerBufferFlush; // @synthesize triggerBufferFlush=_triggerBufferFlush;
-@property(readonly) __weak NSObject<OS_dispatch_queue> *workQueue;
 
 @end
 

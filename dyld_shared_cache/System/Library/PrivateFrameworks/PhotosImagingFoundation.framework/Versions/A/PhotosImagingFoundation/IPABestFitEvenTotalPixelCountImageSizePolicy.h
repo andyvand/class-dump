@@ -13,7 +13,7 @@
 - (double);
 - (id);
 - (struct CGSize);
-- (id);
+- (id);
 
 @end
 

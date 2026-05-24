@@ -6,44 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus : SISchemaInstrumentationMessage
 {
     unsigned long long _newStatus;
-    unsigned long long _prevStatus;
-    double _timeSinceLastStatusChangeInSeconds;
-    double _timeSinceLastAvailabilityChangeInSeconds;
-    _Bool _isAppleIntelligenceEligible;
-    double _timeSinceLastEligibleChangeInSeconds;
-    _Bool _isAppleIntelligenceAllowedThroughWaitlist;
-    double _timeSinceLastWaitlistChangeInSeconds;
-    _Bool _isAppleIntelligenceToggled;
-    double _timeSinceLastAppleIntelligenceToggleInSeconds;
-    double _timeSinceLastBootInSeconds;
-    unsigned int _currentSubscriptionHash;
-    unsigned int _previousSubscriptionHash;
-    double _timeSinceLastSubscriptionHashChangeInSeconds;
-    NSString *_useCaseID;
-    int _currentMode;
-    struct {
-        unsigned int newStatus:1;
-        unsigned int prevStatus:1;
-        unsigned int timeSinceLastStatusChangeInSeconds:1;
-        unsigned int timeSinceLastAvailabilityChangeInSeconds:1;
-        unsigned int isAppleIntelligenceEligible:1;
-        unsigned int timeSinceLastEligibleChangeInSeconds:1;
-        unsigned int isAppleIntelligenceAllowedThroughWaitlist:1;
-        unsigned int timeSinceLastWaitlistChangeInSeconds:1;
-        unsigned int isAppleIntelligenceToggled:1;
-        unsigned int timeSinceLastAppleIntelligenceToggleInSeconds:1;
-        unsigned int timeSinceLastBootInSeconds:1;
-        unsigned int currentSubscriptionHash:1;
-        unsigned int previousSubscriptionHash:1;
-        unsigned int timeSinceLastSubscriptionHashChangeInSeconds:1;
-        unsigned int currentMode:1;
-    } _has;
-    _Bool _hasUseCaseID;
 }
 
 - (double);
@@ -70,10 +35,10 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,7 +52,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -130,47 +95,15 @@
 - (int);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)^@24^B32^B40^@48^@56^@64;
 - (id);
 - (id);
-- (id)plesCount;
+- (id)candidateTuplesCount;
 - (id)luteCount1Day;
-- (void)sFirstPartyBundle;
+- (void)isFirstPartyBundle;
 
 // Remaining properties
-@property(nonatomic) int currentMode; // @synthesize currentMode=_currentMode;
-@property(nonatomic) unsigned int currentSubscriptionHash; // @synthesize currentSubscriptionHash=_currentSubscriptionHash;
-@property(nonatomic) _Bool hasCurrentMode;
-@property(nonatomic) _Bool hasCurrentSubscriptionHash;
-@property(nonatomic) _Bool hasIsAppleIntelligenceAllowedThroughWaitlist;
-@property(nonatomic) _Bool hasIsAppleIntelligenceEligible;
-@property(nonatomic) _Bool hasIsAppleIntelligenceToggled;
-@property(nonatomic) _Bool hasNewStatus;
-@property(nonatomic) _Bool hasPrevStatus;
-@property(nonatomic) _Bool hasPreviousSubscriptionHash;
-@property(nonatomic) _Bool hasTimeSinceLastAppleIntelligenceToggleInSeconds;
-@property(nonatomic) _Bool hasTimeSinceLastAvailabilityChangeInSeconds;
-@property(nonatomic) _Bool hasTimeSinceLastBootInSeconds;
-@property(nonatomic) _Bool hasTimeSinceLastEligibleChangeInSeconds;
-@property(nonatomic) _Bool hasTimeSinceLastStatusChangeInSeconds;
-@property(nonatomic) _Bool hasTimeSinceLastSubscriptionHashChangeInSeconds;
-@property(nonatomic) _Bool hasTimeSinceLastWaitlistChangeInSeconds;
-@property(nonatomic) _Bool hasUseCaseID; // @synthesize hasUseCaseID=_hasUseCaseID;
-@property(nonatomic) _Bool isAppleIntelligenceAllowedThroughWaitlist; // @synthesize isAppleIntelligenceAllowedThroughWaitlist=_isAppleIntelligenceAllowedThroughWaitlist;
-@property(nonatomic) _Bool isAppleIntelligenceEligible; // @synthesize isAppleIntelligenceEligible=_isAppleIntelligenceEligible;
-@property(nonatomic) _Bool isAppleIntelligenceToggled; // @synthesize isAppleIntelligenceToggled=_isAppleIntelligenceToggled;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long newStatus; // @synthesize newStatus=_newStatus;
-@property(nonatomic) unsigned long long prevStatus; // @synthesize prevStatus=_prevStatus;
-@property(nonatomic) unsigned int previousSubscriptionHash; // @synthesize previousSubscriptionHash=_previousSubscriptionHash;
-@property(nonatomic) double timeSinceLastAppleIntelligenceToggleInSeconds; // @synthesize timeSinceLastAppleIntelligenceToggleInSeconds=_timeSinceLastAppleIntelligenceToggleInSeconds;
-@property(nonatomic) double timeSinceLastAvailabilityChangeInSeconds; // @synthesize timeSinceLastAvailabilityChangeInSeconds=_timeSinceLastAvailabilityChangeInSeconds;
-@property(nonatomic) double timeSinceLastBootInSeconds; // @synthesize timeSinceLastBootInSeconds=_timeSinceLastBootInSeconds;
-@property(nonatomic) double timeSinceLastEligibleChangeInSeconds; // @synthesize timeSinceLastEligibleChangeInSeconds=_timeSinceLastEligibleChangeInSeconds;
-@property(nonatomic) double timeSinceLastStatusChangeInSeconds; // @synthesize timeSinceLastStatusChangeInSeconds=_timeSinceLastStatusChangeInSeconds;
-@property(nonatomic) double timeSinceLastSubscriptionHashChangeInSeconds; // @synthesize timeSinceLastSubscriptionHashChangeInSeconds=_timeSinceLastSubscriptionHashChangeInSeconds;
-@property(nonatomic) double timeSinceLastWaitlistChangeInSeconds; // @synthesize timeSinceLastWaitlistChangeInSeconds=_timeSinceLastWaitlistChangeInSeconds;
-@property(copy, nonatomic) NSString *useCaseID; // @synthesize useCaseID=_useCaseID;
 
 @end
 

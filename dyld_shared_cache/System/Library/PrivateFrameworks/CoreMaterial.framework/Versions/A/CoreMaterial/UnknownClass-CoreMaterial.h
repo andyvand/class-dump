@@ -24,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double mt_colorMatrixDrivenInoperativeOpacity;
 @property(readonly, nonatomic) double mt_colorMatrixDrivenOpacity;
 @end
 

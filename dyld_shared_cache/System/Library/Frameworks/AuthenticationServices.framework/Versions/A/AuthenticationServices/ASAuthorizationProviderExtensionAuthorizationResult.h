@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSHTTPURLResponse, SOAuthorizationResult;
+@class SOAuthorizationResult;
 
 @interface ASAuthorizationProviderExtensionAuthorizationResult
 {
@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)tabCountInDictionary: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -27,10 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SOAuthorizationResult *authorizationResult; // @synthesize authorizationResult=_authorizationResult;
-@property(retain, nonatomic) NSDictionary *httpAuthorizationHeaders;
-@property(retain, nonatomic) NSData *httpBody;
-@property(copy, nonatomic) NSHTTPURLResponse *httpResponse;
-@property(retain, nonatomic) NSArray *privateKeys;
 
 @end
 

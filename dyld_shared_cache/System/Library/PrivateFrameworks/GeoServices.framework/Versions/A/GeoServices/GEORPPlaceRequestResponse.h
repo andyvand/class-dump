@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceRequest, GEOPDPlaceResponse, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPlaceRequestResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDPlaceRequest *_placeRequest;
-    GEOPDPlaceResponse *_placeResponse;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_placeRequest:1;
-        unsigned int read_placeResponse:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Info:(id)arg1;
++ (_Bool)setLayoutInfo:(id)arg1;
 - (void);
-- (id);
+- (id),&,N,V_pageData;
 - (_Bool);
 - (void);
 - (id);
@@ -35,18 +23,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)on"16@"NSObject<OS_xpc_object>"24@"NSObject<OS_xpc_object>"32;
+- (void)_hasPhoneCallOnNonBargeInDevice;
+- (void)ostTimeDelta = %llu];
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)D;
 - (id);
 - (void);
 - (id)hash_node<GEORoadEdge *, void *> *> *[], std:(struct _NSZone *)arg1:__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<GEORoadEdge *, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<GEORoadEdge *, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<GEORoadEdge *, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)apRules;
+- (id)clearMapRules;
 - (id),;
 - (id)only be called once per object;
 - (void)À´BA×Ý<Õ!ýO@;
@@ -54,10 +42,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlaceRequest;
-@property(readonly, nonatomic) _Bool hasPlaceResponse;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeRequest;
-@property(retain, nonatomic) GEOPDPlaceResponse *placeResponse;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

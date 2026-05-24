@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFButtonItem, SFImage;
+@class NSString, SFButtonItem, SFImage;
 
 @protocol SFSportsTeam
+- (void)Intrinsics;
+- (NSString *);
 - (SFButtonItem *)@"_SFPBRFSummaryItemShortNumberCardSection",&,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription;
-@property(retain, nonatomic) SFButtonItem *button;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isWinner;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFImage *logo;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *record;
-@property(copy, nonatomic) NSString *score;
 @end
 

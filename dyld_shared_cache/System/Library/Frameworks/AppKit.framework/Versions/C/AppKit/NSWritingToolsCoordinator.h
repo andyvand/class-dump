@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableDictionary, NSString, NSView, NSWritingToolsCoordinatorAnimationParameters, _NSTextViewTextEffectsData, _NSWritingToolsData, _WTTextEffectView, __NSWritingToolsTransactionQueue;
-@protocol NSWritingToolsCoordinatorDelegate;
+@class NSView;
 
 @interface NSWritingToolsCoordinator
 {
@@ -14,48 +13,32 @@
         unsigned int requestsEffectContainerView:1;
         unsigned int decorationContainerViews:1;
     } _delegateRespondsTo;
-    __NSWritingToolsTransactionQueue *_queue;
-    _Bool _includesTextListMarkers;
-    _Bool _cachedEnclosingViewPostFrameChangeNotifications;
-    long long _state;
-    NSView *_effectContainerView;
-    NSView *_decorationContainerView;
-    NSMapTable *__writingToolsContextTable;
-    id <NSWritingToolsCoordinatorDelegate> _delegate;
-    NSView *_view;
-    long long _preferredBehavior;
-    unsigned long long _preferredResultOptions;
-    _NSWritingToolsData *_writingToolsData;
-    _NSTextViewTextEffectsData *_textEffectsData;
-    _WTTextEffectView *_textEffectView;
-    NSMutableDictionary *_effectPreviewCounts;
-    long long _lastAppliedAnimation;
-    NSWritingToolsCoordinatorAnimationParameters *_inFlightReplacementAnimationParameters;
-    NSMutableArray *_visibleSuggestions;
 }
 
-+ (_Bool);
++ (_Bool)g cookie based on Secure Attribute. Cookie= %@;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)erty %@;
+- (void)of length %llu
+;
+- (id)e for %@ has incorrect type (should be CFNumber, is %@);
 - (void);
+- (void)or version:(id)arg1 0x%X;
+- (void)cert was issued by trusted key %d;
+- (void):(id)arg1 failed to decode payload:%d /* Error: Ran out of types for this method. */;
+- (void)AMFDRDecodeIterateSysconfigPayloadNext;
+- (void)uation with error %d;
+- (void)s 0;
+- (void)ion Pro;
+- (void)hics-featureset-class;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ouldn't get itunes-min-ver
+;
+- (void)38/hI/fJA;
+- (void)HHF6YgqEQ9Kd7MBSVnLsgg;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -71,7 +54,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)f;
 - (void);
 - (void);
 - (void);
@@ -83,36 +66,36 @@
 - (void);
 - (void);
 - (id);
+- (id)map<std:(id)arg1:string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)downloadTaskWithRequest:(struct _NSRange)arg1 originalRequest:(id)arg2 downloadFilePath:(CDUnknownBlockType)arg3 identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (void)backgroundTask:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
+- (void)_doesSZExtractorConsumeExtractedData;
+- (void)removeCachedResponsesSinceDate: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)mptoms:(id)arg1 reported memory exception for high VA usage in WebKit Networking with error:(id)arg2 %@;
+- (void)eleteStmt;
+- (void)complete. fd:(id)arg1 %d, err:(CDUnknownBlockType)arg2 %d;
+- (struct _NSRange)th resumeData OK.  Resume offset is %lld.;
+- (struct _NSRange)n to %{private}@;
+- (void);
+- (id)\;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
-- (struct _NSRange);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)15TCompressedSpan;
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)0:(id)arg1 8@16@24@32q40;
+- (void)setCurrentNSGraphicsContextDuringBlock_macOS;
+- (long long)+p;
 - (void);
 - (id)@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64;
-- (void)nter:(_Bool)arg1 radius:startAngle:endAngle: /* Error: Ran out of types for this method. */;
-- (id)cking;
+- (void)appendBezierPathWithArcWithCenter:(_Bool)arg1 radius:startAngle:endAngle: /* Error: Ran out of types for this method. */;
+- (id)_waitForUserInteractionUnblocking;
 - (void)ã;
 - (_Bool)anguage code %@.;
 - (void)ze keyed unarchiver for pasteboard data:%@ /* Error: Ran out of types for this method. */;
@@ -120,32 +103,7 @@
 - (unsigned long long)TA;
 
 // Remaining properties
-@property(readonly) NSMapTable *_writingToolsContextTable; // @synthesize _writingToolsContextTable=__writingToolsContextTable;
-@property(readonly) long long behavior;
-@property(nonatomic) _Bool cachedEnclosingViewPostFrameChangeNotifications; // @synthesize cachedEnclosingViewPostFrameChangeNotifications=_cachedEnclosingViewPostFrameChangeNotifications;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak NSView *decorationContainerView; // @synthesize decorationContainerView=_decorationContainerView;
-@property(nonatomic) __weak id <NSWritingToolsCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property __weak NSView *effectContainerView; // @synthesize effectContainerView=_effectContainerView;
-@property(retain, nonatomic) NSMutableDictionary *effectPreviewCounts; // @synthesize effectPreviewCounts=_effectPreviewCounts;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSWritingToolsCoordinatorAnimationParameters *inFlightReplacementAnimationParameters; // @synthesize inFlightReplacementAnimationParameters=_inFlightReplacementAnimationParameters;
-@property _Bool includesTextListMarkers; // @synthesize includesTextListMarkers=_includesTextListMarkers;
-@property(nonatomic) long long lastAppliedAnimation; // @synthesize lastAppliedAnimation=_lastAppliedAnimation;
-@property long long preferredBehavior; // @synthesize preferredBehavior=_preferredBehavior;
-@property unsigned long long preferredResultOptions; // @synthesize preferredResultOptions=_preferredResultOptions;
-@property(readonly) unsigned long long resultOptions;
-@property(readonly) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _WTTextEffectView *textEffectView; // @synthesize textEffectView=_textEffectView;
-@property(retain, nonatomic) _NSTextViewTextEffectsData *textEffectsData; // @synthesize textEffectsData=_textEffectsData;
 @property(setter=_setView:) __weak NSView *view; // @synthesize view=_view;
-@property(retain, nonatomic) NSMutableArray *visibleSuggestions; // @synthesize visibleSuggestions=_visibleSuggestions;
-@property(retain, nonatomic) _NSWritingToolsData *writingToolsData; // @synthesize writingToolsData=_writingToolsData;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)anage Shared Note;
 - (long long);
-- (id);
-- (long long)lloonAlignmentRectInsets;
-- (id);
+- (id)initWithData:encoding: /* Error: Ran out of types for this method. */;
+- (long long)ckShouldUpdatetaillessAttachmentBalloonAlignmentRectInsets;
+- (id)initialPlatterAppearance;
 
 @end
 

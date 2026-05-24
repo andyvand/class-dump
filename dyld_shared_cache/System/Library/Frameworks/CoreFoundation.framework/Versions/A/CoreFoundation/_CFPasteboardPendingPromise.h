@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _CFPasteboardPendingPromise
 {
     _CFPasteboardEntry *_entry;
-    struct __CFPasteboard *_pboard;
 }
 
 - (struct __CFPasteboard *);
-- (id);
+- (id),;
 - (void);
 
 // Remaining properties

@@ -6,22 +6,16 @@
 
 #import <VoiceShortcutClient/WFContextualAction.h>
 
-@class LNAction, NSString;
+@class LNAction;
 
 @interface WFLinkContextualAction : WFContextualAction
 {
     LNAction *_linkAction;
-    NSString *_appBundleIdentifier;
-    NSString *_extensionBundleIdentifier;
-    long long _authenticationPolicy;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(readonly, nonatomic) long long authenticationPolicy; // @synthesize authenticationPolicy=_authenticationPolicy;
-@property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
 @property(readonly, nonatomic) LNAction *linkAction; // @synthesize linkAction=_linkAction;
 
 @end

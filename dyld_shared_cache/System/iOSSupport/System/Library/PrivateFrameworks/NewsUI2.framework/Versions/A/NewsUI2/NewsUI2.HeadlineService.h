@@ -7,12 +7,6 @@
 @interface NewsUI2.HeadlineService
 {
     id headlineModelFactory;
-    id context;
-    id appConfigurationManager;
-    id headlineServiceOperationQueue;
-    id tagService;
-    id paidAccessChecker;
-    id queryTimeRangeProvider;
 }
 
 @end

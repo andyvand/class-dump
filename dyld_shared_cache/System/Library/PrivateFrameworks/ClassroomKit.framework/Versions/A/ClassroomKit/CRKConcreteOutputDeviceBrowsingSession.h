@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputContext, AVOutputDeviceDiscoverySession, NSArray, NSNotificationCenter;
+@class AVOutputDeviceDiscoverySession;
 
 @interface CRKConcreteOutputDeviceBrowsingSession
 {
     AVOutputDeviceDiscoverySession *_discoverySession;
-    AVOutputContext *_outputContext;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id);
@@ -25,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AVOutputDeviceDiscoverySession *discoverySession; // @synthesize discoverySession=_discoverySession;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) AVOutputContext *outputContext; // @synthesize outputContext=_outputContext;
-@property(readonly, copy, nonatomic) NSArray *outputDevices;
 
 @end
 

@@ -7,16 +7,9 @@
 @interface PACropModel
 {
     struct Vector2d _imageCenter;
-    struct CGRect _cropRect;
-    _Bool _isAutoCrop;
-    long long _orientation;
-    double _straightenAngle;
-    unsigned long long _hitVertexID;
-    struct CGSize _masterImageSize;
-    CDStruct_5e758c1a _aspectRatio;
 }
 
-+ (CDStruct_5e758c1a);
++ (CDStruct_4bcfbbae);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -39,7 +32,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,39 +46,32 @@
 - (struct Quad2d);
 - (struct CGRect);
 - (struct Vector2d);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
-- (CDStruct_5e758c1a);
+- (CDStruct_4bcfbbae);
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (unsigned long long);
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (CDStruct_5e758c1a);
+- (CDStruct_4bcfbbae)qw;
+- (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)createView;
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
-- (CDStruct_5e758c1a);
+- (CDStruct_4bcfbbae);
 
 // Remaining properties
-@property(nonatomic) CDStruct_5e758c1a aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property struct CGRect cropRect;
-@property(readonly) _Bool hasCrop;
-@property(readonly) unsigned long long hitVertexID; // @synthesize hitVertexID=_hitVertexID;
-@property(nonatomic) _Bool isAutoCrop; // @synthesize isAutoCrop=_isAutoCrop;
 @property(readonly) struct CGSize masterImageSize; // @synthesize masterImageSize=_masterImageSize;
-@property long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) double straightenAngle; // @synthesize straightenAngle=_straightenAngle;
 
 @end
 

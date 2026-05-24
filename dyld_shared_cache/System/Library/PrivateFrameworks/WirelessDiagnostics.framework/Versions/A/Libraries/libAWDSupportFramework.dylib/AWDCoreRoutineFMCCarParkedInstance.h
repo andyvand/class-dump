@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineFMCCarParkedInstance
 {
     unsigned long long _timestamp;
-    int _horizontalAccuracy;
-    int _locationType;
-    NSString *_parkingId;
-    int _qualityIndicator;
-    int _triggerTypes;
-    _Bool _userAssistanceRequired;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int horizontalAccuracy:1;
-        unsigned int locationType:1;
-        unsigned int qualityIndicator:1;
-        unsigned int triggerTypes:1;
-        unsigned int userAssistanceRequired:1;
-    } _has;
 }
 
 @end

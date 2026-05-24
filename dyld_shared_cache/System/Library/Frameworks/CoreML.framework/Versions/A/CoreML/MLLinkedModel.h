@@ -6,42 +6,29 @@
 
 #import <CoreML/MLModel.h>
 
-@class NSString;
-
 @interface MLLinkedModel : MLModel
 {
     MLModel *_linkedModel;
-    NSString *_modelFileName;
-    NSString *_modelSearchPath;
 }
 
 + (_Bool);
 + (id);
 + (id);
+- (void)mpleCount (%lu) is not supported by device.;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)X;
 - (void);
+- (id)B2;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)Prediction;
+- (void)FastPrediction;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) MLModel *linkedModel; // @synthesize linkedModel=_linkedModel;
-@property(retain) NSString *modelFileName; // @synthesize modelFileName=_modelFileName;
-@property(retain) NSString *modelSearchPath; // @synthesize modelSearchPath=_modelSearchPath;
-@property(readonly) Class superclass;
 
 @end
 

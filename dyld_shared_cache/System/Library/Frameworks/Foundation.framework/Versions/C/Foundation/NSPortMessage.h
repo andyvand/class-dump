@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSPort;
+@class NSArray, NSPort;
 
 @interface NSPortMessage
 {
     NSPort *localPort;
-    NSPort *remotePort;
-    NSMutableArray *components;
-    unsigned int msgid;
-    void *reserved2;
-    void *reserved;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (id);
@@ -31,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *components;
-@property unsigned int msgid;
-@property(readonly, retain) NSPort *receivePort;
-@property(readonly, retain) NSPort *sendPort;
 
 @end
 

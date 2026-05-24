@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UINavigationController, UIViewController;
+@protocol UIViewControllerAnimatedTransitioning;
+
 @protocol UINavigationControllerDelegate
+
+@optional
+- (void):(UINavigationController *)arg1 pageIsProvisionallyLoading:(UIViewController *)arg2;
+- (id <UIViewControllerAnimatedTransitioning>)d;
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIVideoAnalyzerFrameResult, NSDictionary, NSMutableArray, NSString;
+@class HMIVideoAnalyzerFrameResult;
 
 @interface HMIVideoTemporalEventFilter
 {
     HMIVideoAnalyzerFrameResult *_prevFrameResult;
-    NSMutableArray *_stationaryObjects;
-    NSDictionary *_targetEventClassRanks;
-    CDStruct_1b6d18a9 _timeInterval;
 }
 
 + (id)Ù;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -29,17 +26,7 @@
 - (CDStruct_1b6d18a9);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) HMIVideoAnalyzerFrameResult *prevFrameResult; // @synthesize prevFrameResult=_prevFrameResult;
-@property(readonly) NSMutableArray *stationaryObjects; // @synthesize stationaryObjects=_stationaryObjects;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *targetEventClassRanks; // @synthesize targetEventClassRanks=_targetEventClassRanks;
-@property(readonly) CDStruct_1b6d18a9 timeInterval; // @synthesize timeInterval=_timeInterval;
 
 @end
 

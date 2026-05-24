@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)AccountRetrieveDocumentsMigrationDevices;
 - (_Bool);
 - (id);
 

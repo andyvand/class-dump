@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)SafariNSSegmentedControlExtras;
+- (void)authorizationCapabilityEnabled;
 
 @end
 

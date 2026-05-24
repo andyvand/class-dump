@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SAStartDirectActionRequest : SAStartRequest
 {
@@ -15,19 +15,17 @@
 + (id);
 + (id);
 - (id);
+- (void);
+- (void)7;
 - (void);
-- (void);
-- (void);
+- (id)(;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *directAction;
-@property(copy, nonatomic) NSDictionary *requestExecutionParameters;
-@property(copy, nonatomic) NSString *utteranceFromRequestParameters;
 
 @end
 

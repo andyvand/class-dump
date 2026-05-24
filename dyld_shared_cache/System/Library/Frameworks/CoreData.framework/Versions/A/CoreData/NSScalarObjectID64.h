@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface NSScalarObjectID64 : _NSScalarObjectID
 {
     int _cd_rc;
-    long long _referenceData64;
 }
 
-+ (char *);
++ (char *);
 
 @end
 

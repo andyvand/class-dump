@@ -11,10 +11,6 @@
 @interface _UIKeyboardFeedbackGeneratorConfiguration : _UIFeedbackGeneratorConfiguration
 {
     _Bool _scalingForSpeedEnabled;
-    NSDictionary *_feedbacks;
-    double _slowTypingTime;
-    double _fastTypingTime;
-    double _fastTypingVolumeMultiplier;
 }
 
 + (id)Avoiding nested keyboard update because is rendering.;
@@ -24,8 +20,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (double);
-- (double);
+- (double)initForReindexing:reason: /* Error: Ran out of types for this method. */;
+- (double)initForReadingFromData:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id){_NSRange=QQ}24Q40@?48;
 - (id);
@@ -33,11 +29,7 @@
 - (_Bool)0(a;
 
 // Remaining properties
-@property(nonatomic) double fastTypingTime; // @synthesize fastTypingTime=_fastTypingTime;
-@property(nonatomic) double fastTypingVolumeMultiplier; // @synthesize fastTypingVolumeMultiplier=_fastTypingVolumeMultiplier;
 @property(retain, nonatomic) NSDictionary *feedbacks; // @synthesize feedbacks=_feedbacks;
-@property(nonatomic) _Bool scalingForSpeedEnabled; // @synthesize scalingForSpeedEnabled=_scalingForSpeedEnabled;
-@property(nonatomic) double slowTypingTime; // @synthesize slowTypingTime=_slowTypingTime;
 
 @end
 

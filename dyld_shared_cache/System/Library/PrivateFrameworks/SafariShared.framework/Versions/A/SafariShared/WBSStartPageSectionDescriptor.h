@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface WBSStartPageSectionDescriptor
 {
     _Bool _enabled;
-    NSString *_identifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)inputPower;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)NSSecureCoding;
 - (id);
-- (id);
-- (id);
+- (id)~;
 - (void)ô;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

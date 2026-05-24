@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
+@class NSString;
 
 @interface AVCCaptionsLanguageDetectorResults
 {
     NSString *_detectedLanguageCode;
-    double _dominantLocaleConfidence;
-    NSLocale *_dominantLocale;
-    double _utteranceStartTimestamp;
-    double _utteranceDuration;
 }
 
 - (id);
@@ -24,10 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *detectedLanguageCode; // @synthesize detectedLanguageCode=_detectedLanguageCode;
-@property(readonly, nonatomic) NSLocale *dominantLocale; // @synthesize dominantLocale=_dominantLocale;
-@property(readonly, nonatomic) double dominantLocaleConfidence; // @synthesize dominantLocaleConfidence=_dominantLocaleConfidence;
-@property(readonly, nonatomic) double utteranceDuration; // @synthesize utteranceDuration=_utteranceDuration;
 @property(readonly, nonatomic) double utteranceStartTimestamp; // @synthesize utteranceStartTimestamp=_utteranceStartTimestamp;
 
 @end

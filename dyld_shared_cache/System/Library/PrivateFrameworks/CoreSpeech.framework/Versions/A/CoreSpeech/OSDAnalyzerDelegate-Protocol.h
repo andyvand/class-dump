@@ -5,5 +5,9 @@
 //
 
 @protocol OSDAnalyzerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

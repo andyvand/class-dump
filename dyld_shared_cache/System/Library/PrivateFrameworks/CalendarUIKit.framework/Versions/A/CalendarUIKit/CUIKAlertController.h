@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface CUIKAlertController
 {
     NSMutableArray *_actions;
-    NSString *_title;
-    NSString *_message;
 }
 
-+ (id)ÜÒèèò;
-- (void)àªèÁÀ;
-- (id);
++ (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)hOnlyAutoComment: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)stringWithOnlyAutoComment: /* Error: Ran out of types for this method. */;
 - (void)¡/yA23_GGG_Qo_;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

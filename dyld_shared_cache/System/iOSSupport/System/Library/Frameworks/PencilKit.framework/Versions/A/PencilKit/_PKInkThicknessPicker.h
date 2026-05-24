@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIColor;
+@class NSArray;
 
 @interface _PKInkThicknessPicker
 {
     NSArray *_cachedSortedWeights;
-    double _weight;
-    NSArray *_sortedWeights;
-    UIColor *_buttonTintColorOverride;
-    NSDictionary *_weightsToButtonImages;
-    NSArray *_thicknessButtons;
-    struct CGSize _buttonSize;
 }
 
 + (struct CGSize);
@@ -41,17 +35,12 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)$;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGSize buttonSize; // @synthesize buttonSize=_buttonSize;
-@property(retain, nonatomic) UIColor *buttonTintColorOverride; // @synthesize buttonTintColorOverride=_buttonTintColorOverride;
-@property(retain, nonatomic) NSArray *sortedWeights; // @synthesize sortedWeights=_sortedWeights;
-@property(retain, nonatomic) NSArray *thicknessButtons; // @synthesize thicknessButtons=_thicknessButtons;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
-@property(copy, nonatomic) NSDictionary *weightsToButtonImages; // @synthesize weightsToButtonImages=_weightsToButtonImages;
 
 @end
 

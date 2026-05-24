@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MTTintingMaterialSettings
 {
     NSDictionary *_tintColorDescription;
-    struct CGColor *_tintColor;
-    double _tintAlpha;
-    NSString *_tintColorName;
-    long long _tintColorUIStyle;
 }
 
-- (double);
+- (double)T;
 - (void);
 - (id);
 - (id);
@@ -26,18 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double tintAlpha; // @synthesize tintAlpha=_tintAlpha;
-@property(readonly, nonatomic) struct CGColor *tintColor; // @synthesize tintColor=_tintColor;
 @property(readonly, copy, nonatomic) NSDictionary *tintColorDescription; // @synthesize tintColorDescription=_tintColorDescription;
-@property(readonly, copy, nonatomic) NSString *tintColorName; // @synthesize tintColorName=_tintColorName;
-@property(readonly, nonatomic) long long tintColorUIStyle; // @synthesize tintColorUIStyle=_tintColorUIStyle;
 
 @end
 

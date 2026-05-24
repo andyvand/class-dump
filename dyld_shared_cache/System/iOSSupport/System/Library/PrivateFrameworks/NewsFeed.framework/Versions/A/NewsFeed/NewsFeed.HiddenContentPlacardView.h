@@ -7,8 +7,6 @@
 @interface NewsFeed.HiddenContentPlacardView
 {
     id onTap;
-    id titleLabel;
-    id dismissalButton;
 }
 
 - (id);

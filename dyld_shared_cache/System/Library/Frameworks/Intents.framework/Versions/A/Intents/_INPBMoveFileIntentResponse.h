@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBString;
+@class _INPBString;
 
 @interface _INPBMoveFileIntentResponse
 {
     CDStruct_95bda58d _entityTypes;
-    struct {
-        unsigned int overwrite:1;
-        unsigned int success:1;
-    } _has;
-    _Bool _overwrite;
-    _Bool _success;
-    _INPBString *_destinationName;
-    NSArray *_entityNames;
-    _INPBString *_sourceName;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class)__const;
++ (_Bool)+;
 - (void);
 - (void);
 - (void);
@@ -49,8 +40,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)U;
+- (_Bool)L;
 - (void);
 - (_Bool);
 - (void);
@@ -59,28 +50,10 @@
 - (id);
 - (_Bool)imageLoaders;
 - (void)oken;
-- (void)ionScheduledDateOptionsCollectionForPayBill:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideTransactionScheduledDateOptionsCollectionForPayBill:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *destinationName; // @synthesize destinationName=_destinationName;
-@property(copy, nonatomic) NSArray *entityNames; // @synthesize entityNames=_entityNames;
-@property(readonly, nonatomic) unsigned long long entityNamesCount;
-@property(readonly, nonatomic) int *entityTypes;
-@property(readonly, nonatomic) unsigned long long entityTypesCount;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(nonatomic) _Bool hasOverwrite;
-@property(readonly, nonatomic) _Bool hasSourceName;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool overwrite; // @synthesize overwrite=_overwrite;
-@property(retain, nonatomic) _INPBString *sourceName; // @synthesize sourceName=_sourceName;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,16 +5,16 @@
 //
 
 @interface UnknownClass (NSAppKitCoercions)
++ (id)deflate, br;
++ (id)__kCFStreamPropertyCoalescingDomainSSLSettings;
++ (id)ptr;
++ (id)needServerTrust;
++ (id)unt}}8^{__CFDictionary=}24;
++ (id){NetworkProxy}^{__shared_weak_count}}8^{__CFDictionary=}24;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id)rtChallengeCompletion == nullptr;
++ (id)ertChallenge == nullptr;
++ (id)needClientCert;
+- (void)-H;
 @end
 

@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void):instrumentation:completion: /* Error: Ran out of types for this method. */;
+- (void)_decisionMadeContext:additionalContext:instrumentation:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alarmIdentifiers; // @synthesize alarmIdentifiers=_alarmIdentifiers;

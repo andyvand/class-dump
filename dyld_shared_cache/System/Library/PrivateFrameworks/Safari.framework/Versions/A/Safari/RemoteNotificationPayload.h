@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface RemoteNotificationPayload
 {
     NSArray *_urlArguments;
-    NSString *_alertTitle;
-    NSString *_alertBody;
-    NSString *_alertActionText;
 }
 
-- (id);
+- (id)ӗ;
 - (id);
 - (_Bool);
 - (id);
@@ -25,12 +22,9 @@ __attribute__((visibility("hidden")))
 4f	$gàh
 m	n
 (p p\rÀr;
-- (void);
+- (void)h8;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *alertActionText; // @synthesize alertActionText=_alertActionText;
-@property(readonly, copy, nonatomic) NSString *alertBody; // @synthesize alertBody=_alertBody;
-@property(readonly, copy, nonatomic) NSString *alertTitle; // @synthesize alertTitle=_alertTitle;
 @property(readonly, copy, nonatomic) NSArray *urlArguments; // @synthesize urlArguments=_urlArguments;
 
 @end

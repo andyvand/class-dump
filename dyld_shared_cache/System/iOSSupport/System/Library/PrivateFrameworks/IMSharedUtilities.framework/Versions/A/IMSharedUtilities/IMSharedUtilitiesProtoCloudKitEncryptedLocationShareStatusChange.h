@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IMSharedUtilitiesProtoCloudKitEncryptedLocationShareStatusChange
 {
     long long _shareDirection;
-    long long _shareStatus;
-    NSString *_otherHandle;
-    NSData *_padding;
-    unsigned int _version;
-    struct {
-        unsigned int shareDirection:1;
-        unsigned int shareStatus:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (long long);
@@ -33,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)?K;
 - (id);
 - (void);
 - (void);
@@ -46,20 +35,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)tiveSNaPPersistence;
-- (void)mageGlyphPreviewGenerator;
+- (id)EnableU18SensitiveSNaPPersistence;
+- (void)IMAdaptiveImageGlyphPreviewGenerator;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOtherHandle;
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(nonatomic) _Bool hasShareDirection;
-@property(nonatomic) _Bool hasShareStatus;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) long long shareDirection; // @synthesize shareDirection=_shareDirection;
-@property(nonatomic) long long shareStatus; // @synthesize shareStatus=_shareStatus;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

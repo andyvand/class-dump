@@ -11,20 +11,18 @@
 @interface ASDAccountLookupResponse : ASDRequestResponse
 {
     _Bool _askToBuyEnabled;
-    NSNumber *_accountID;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) _Bool askToBuyEnabled; // @synthesize askToBuyEnabled=_askToBuyEnabled;
 
 @end
 

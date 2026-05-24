@@ -9,23 +9,20 @@
 @interface IMKUIPanelMask
 {
     NSImage *_cachedMaskImage;
-    struct CGSize _size;
 }
 
 - (id);
-- (void);
+- (void)h8;
 - (id);
 - (void);
 - (id);
 - (struct NSEdgeInsets);
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *cachedMaskImage; // @synthesize cachedMaskImage=_cachedMaskImage;
-@property(readonly, nonatomic) NSImage *maskImage;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

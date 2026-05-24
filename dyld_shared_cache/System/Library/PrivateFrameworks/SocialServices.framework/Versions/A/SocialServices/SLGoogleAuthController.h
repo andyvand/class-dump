@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, ASWebAuthenticationSession, NSString;
+@class ACAccount;
 
 @interface SLGoogleAuthController
 {
     ACAccount *_account;
-    ACAccountStore *_accountStore;
-    CDUnknownBlockType _presentationBlock;
-    ASWebAuthenticationSession *_authenticationSession;
-    NSString *_clientID;
 }
 
 + (id);
@@ -23,17 +19,17 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)~;
+- (void);
+- (void);
+- (void);
 
 @end
 

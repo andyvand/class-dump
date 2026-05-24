@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.InternalDecoder__priv_313B365B2A704FA0A78155DE61C5B335
 {
     id codingPath;
-    id userInfo;
-    id queryItems;
 }
 
 @end

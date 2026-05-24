@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBOpenFileProviderItemCommand
 {
     _Bool _shouldRevealFile;
-    NSString *_coreSpotlightIdentifier;
-    NSString *_fileProviderIdentifier;
 }
 
 - (_Bool);
@@ -21,27 +19,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)OH;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)TJ;
+- (id)placeholderForCreatedFaceGroup;
+- (id)Encountered error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)eDetached"b1"shouldUseCompactDisplay"b1"buttonItemsAreTrailing"b1};
 
 // Remaining properties
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fileProviderIdentifier; // @synthesize fileProviderIdentifier=_fileProviderIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldRevealFile; // @synthesize shouldRevealFile=_shouldRevealFile;
-@property(readonly) Class superclass;
 
 @end
 

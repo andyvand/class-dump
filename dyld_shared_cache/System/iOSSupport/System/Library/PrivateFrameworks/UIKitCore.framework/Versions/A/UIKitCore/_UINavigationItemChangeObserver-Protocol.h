@@ -17,24 +17,26 @@
 - (void)0@ù
 × ;
 - (void)IMTCaptureView";
-- (void)temBarButtonItemGroupsDidChange:(UINavigationItem *)arg1;
-- (_Bool)tionType;
-- (void)dPresentation:(UINavigationItem *)arg1;
-- (_Bool)awSeparatorAtTopOfSectionForCellAtIndexPath:(UINavigationItem *)arg1;
-- (void)veBackgroundWithDependencyTracking;
-- (void)ollerBase;
+- (void)navigationItemBarButtonItemGroupsDidChange:(UINavigationItem *)arg1;
+- (_Bool)invocationType;
+- (void)finishDelayedPresentation:(UINavigationItem *)arg1;
+- (_Bool)_shouldDrawSeparatorAtTopOfSectionForCellAtIndexPath:(UINavigationItem *)arg1;
+- (void)__resolveBackgroundWithDependencyTracking;
+- (void)_dropController;
+- (void)_UITextLayoutControllerBase;
 - (void)e not supported off the main thread. This will become a hard exception in a future release. This will become an assert in a future version.;
 - (void)apshotting a view (%p, %@) that is not in a visible window requires afterScreenUpdates:(UINavigationItem *)arg1 YES.;
 - (void)ainer;
 
 @optional
+- (void);
 - (void)fÐ1Â0@ù
 × ;
 - (void)48@0:(UINavigationItem *)arg1 8d16d24d32d40;
 - (void)4@0:(UINavigationItem *)arg1 8@"UINavigationItem"16;
-- (void);
-- (id <UIPopoverPresentationControllerSourceItem>)erpretations;
-- (_Bool)dView;
-- (void)tersis;
+- (void)_playsFeedback;
+- (id <UIPopoverPresentationControllerSourceItem>)_alternativeInterpretations;
+- (_Bool)multipleSelectionBackgroundView;
+- (void)lightHystersis;
 @end
 

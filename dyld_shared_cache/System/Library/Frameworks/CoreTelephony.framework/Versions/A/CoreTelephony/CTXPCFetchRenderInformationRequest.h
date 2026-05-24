@@ -6,14 +6,14 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliOperationID;
+@class CTLazuliDestination;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCFetchRenderInformationRequest : CTXPCSubscriptionContextRequest
 {
 }
 
-+ (id);
++ (id)#;
 - (void);
 - (id);
 - (id);
@@ -24,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliOperationID *operationID;
 
 @end
 

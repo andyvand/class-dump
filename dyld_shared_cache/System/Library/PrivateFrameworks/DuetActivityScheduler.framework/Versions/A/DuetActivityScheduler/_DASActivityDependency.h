@@ -9,18 +9,17 @@
 @interface _DASActivityDependency
 {
     NSString *_identifier;
-    long long _batchSize;
 }
 
 + (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
@@ -30,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property long long batchSize; // @synthesize batchSize=_batchSize;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isActivityCompletionBased;
 
 @end
 

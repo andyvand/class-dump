@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDelegateAuthenticateRequest, NSDictionary, NSString;
+@class AMSDelegateAuthenticateRequest;
 
 @interface AMSDelegateAuthenticateResult
 {
     AMSDelegateAuthenticateRequest *_request;
-    NSDictionary *_serverResponse;
 }
 
 + (_Bool);
@@ -23,8 +22,6 @@
 
 // Remaining properties
 @property(readonly) AMSDelegateAuthenticateRequest *request; // @synthesize request=_request;
-@property(readonly) NSDictionary *serverResponse; // @synthesize serverResponse=_serverResponse;
-@property(readonly) NSString *token;
 
 @end
 

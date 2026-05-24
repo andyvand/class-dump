@@ -9,7 +9,6 @@
 @interface Calculate.CalculateExpression.BasicOperatorOperation : Calculate.CalculateExpression.Operation
 {
     id op;
-    id isMod;
 }
 
 @end

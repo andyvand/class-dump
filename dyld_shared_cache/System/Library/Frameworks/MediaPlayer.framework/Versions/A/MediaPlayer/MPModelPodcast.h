@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelPodcastAuthor, NSString, NSURL;
+@class NSString;
 
 @interface MPModelPodcast : MPModelObject
 {
@@ -16,12 +16,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(retain, nonatomic) MPModelPodcastAuthor *author; // @dynamic author;
-@property(copy, nonatomic) NSURL *feedURL; // @dynamic feedURL;
-@property(copy, nonatomic) NSURL *shareURL; // @dynamic shareURL;
-@property(readonly, nonatomic) long long sortType; // @dynamic sortType;
-@property(nonatomic) _Bool supportsSubscription; // @dynamic supportsSubscription;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

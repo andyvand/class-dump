@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface SISchemaDictationContentEdited : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSArray *_autoPunctuationEdits;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -27,23 +23,20 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ata;
+- (_Bool)ByConvertingNonLatinDigits:(id)arg1 ];
+- (_Bool)is_system_message = ?,     is_sent = ?,     has_dd_results = ?,     is_service_message = ?,     is_forward = ?,     was_downgraded = ?,     subject = ?,     error = ?,     handle_id = ? WHERE     ROWID = ?;
 - (id);
-- (id);
-- (id)rted;
-- (id)InNs;
-- (_Bool)TIONSOURCE_UNKNOWN;
-- (void)rPhrase;
-- (_Bool)nts;
+- (id)__AUTH_CONST;
+- (id)deleteAssistantdLaunchMetadataReported;
+- (id)_clientSilenceFramesCountInNs;
+- (_Bool)PLUSTMDCSIRICURRENTPRONUNCIATIONSOURCE_UNKNOWN;
+- (void)triggerPhrase;
+- (_Bool)rescoringEvents;
 - (void)Xü";
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoPunctuationEdits; // @synthesize autoPunctuationEdits=_autoPunctuationEdits;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

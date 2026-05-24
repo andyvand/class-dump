@@ -6,29 +6,23 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSDictionary, NSString;
-
 @interface CLSServerAlert : CLSObject
 {
     long long _alertType;
-    long long _displayRoles;
-    long long _displayedCount;
-    NSString *_title;
-    NSString *_message;
-    NSDictionary *_defaultButtonInfo;
-    NSArray *_otherButtonInfos;
 }
 
-+ (_Bool);
++ (_Bool)_delegate_signOutAccount:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (void);
+- (id)xH;
+- (long long)alEvents:%u
+ /* Error: Ran out of types for this method. */;
+- (long long)programRequest->numSignalEvents:%u
+ /* Error: Ran out of types for this method. */;
+- (id)ceStop=%d;
+- (void)N8Espresso19invalid_state_errorE;
 - (long long);
 - (id);
 - (void);
@@ -42,12 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) long long alertType; // @synthesize alertType=_alertType;
-@property(copy, nonatomic) NSDictionary *defaultButtonInfo; // @synthesize defaultButtonInfo=_defaultButtonInfo;
-@property(nonatomic) long long displayRoles; // @synthesize displayRoles=_displayRoles;
-@property(nonatomic) long long displayedCount;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSArray *otherButtonInfos; // @synthesize otherButtonInfos=_otherButtonInfos;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

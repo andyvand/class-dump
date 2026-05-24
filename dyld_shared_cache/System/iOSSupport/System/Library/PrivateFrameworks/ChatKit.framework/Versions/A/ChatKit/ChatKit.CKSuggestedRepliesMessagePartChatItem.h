@@ -9,10 +9,9 @@
 @interface ChatKit.CKSuggestedRepliesMessagePartChatItem : CKAttachmentMessagePartChatItem
 {
     id suggestedRepliesList;
-    long long selectedIndex;
 }
 
-- (id);
+- (id);
 - (id);
 - (Class);
 - (_Bool);
@@ -21,8 +20,6 @@
 - (void)L±ÿ%£jä±ÿm£jà±ÿ£jÜ±ÿM£j¬oÿm£jÐ±ÿ£jÌ±ÿ£jxÿÿÿÅ£jl±ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) Class balloonViewClass;
-@property(nonatomic, readonly) _Bool canSendTapbacks;
 @property(nonatomic, readonly) long long selectedIndex; // @synthesize selectedIndex;
 
 @end

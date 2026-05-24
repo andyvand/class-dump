@@ -9,6 +9,8 @@
 @protocol CALayerDelegate
 
 @optional
+- (void);
+- (void)nowledged.vocabulary.admin;
 - (id <CAAction>)rViewController;
 @end
 

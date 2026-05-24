@@ -6,22 +6,19 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMutableSet, NSSet, UIDelayedAction;
+@class UIDelayedAction;
 
 @interface UIHBDownGestureRecognizer : UIGestureRecognizer
 {
     UIDelayedAction *_delayedAction;
-    NSMutableSet *_currentlyPressedTypes;
-    NSSet *_requiredPressTypes;
-    double _maximumIntervalBetweenPresses;
 }
 
+- (void)particular destinations called on the wrong session;
+- (double)cureDecodingMode:[%@] /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id)Handler;
+- (id)previousCompleteHandler;
 - (void)0´;
 - (void)ØÐg;
 - (void)Ä;

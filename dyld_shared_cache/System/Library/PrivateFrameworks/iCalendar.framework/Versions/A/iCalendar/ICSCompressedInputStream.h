@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface ICSCompressedInputStream
 {
     struct {
@@ -15,28 +13,16 @@
         unsigned long long src_size;
         void *state;
     } underStream;
-    NSData *rawData;
-    void *buffer;
-    unsigned long long bufPos;
-    unsigned long long bufLen;
-    _Bool finalBlock;
-    _Bool didFinalize;
 }
 
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
-- (void);
+- (void)*;
 - (BOOL);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

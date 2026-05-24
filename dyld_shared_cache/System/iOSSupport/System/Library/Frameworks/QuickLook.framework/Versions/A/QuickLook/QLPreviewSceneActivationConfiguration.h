@@ -9,7 +9,6 @@
 @interface QLPreviewSceneActivationConfiguration
 {
     NSArray *_urls;
-    long long _initialPreviewIndex;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long initialPreviewIndex; // @synthesize initialPreviewIndex=_initialPreviewIndex;
 @property(copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end

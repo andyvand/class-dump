@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAttributedString, NSString, UIView;
+
 @protocol UIPickerViewDelegate
+
+@optional
+- (double)Pz1q;
+- (UIView *)py1q;
+- (NSString *)q;
+- (double);
+- (void)0v1q;
+- (NSAttributedString *);
 @end
 

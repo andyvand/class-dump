@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SMTSchemaSMTAppLanguageModelBuildStarted : SISchemaInstrumentationMessage
 {
     unsigned long long _artifactSizeInBytes;
-    NSString *_appBundleId;
-    int _locale;
-    struct {
-        unsigned int artifactSizeInBytes:1;
-        unsigned int locale:1;
-    } _has;
-    _Bool _hasAppBundleId;
 }
 
 - (void);
@@ -28,32 +19,26 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)8;
+- (_Bool)];
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)purchaseComplete;
+- (_Bool)ABSearchOperationsFactory;
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)ror:(id)arg1 ];
+- (int)rowid %lld messageId:%@ syndicationRanges:%@ syncedSyndicationRanges:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id)HandleValue;
-- (id)rHabitualUsage;
-- (id)ompleted;
-- (void)WN;
+- (id)deleteIsExactMatchPriorSiriContactHandleValue;
+- (id)clearHabitualUsage;
+- (id)_hasLanguageIdentificationCompleted;
+- (void)SSUCACHETRIGGERREASON_UNKNOWN;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
 @property(nonatomic) unsigned long long artifactSizeInBytes; // @synthesize artifactSizeInBytes=_artifactSizeInBytes;
-@property(nonatomic) _Bool hasAppBundleId; // @synthesize hasAppBundleId=_hasAppBundleId;
-@property(nonatomic) _Bool hasArtifactSizeInBytes;
-@property(nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int locale; // @synthesize locale=_locale;
 
 @end
 

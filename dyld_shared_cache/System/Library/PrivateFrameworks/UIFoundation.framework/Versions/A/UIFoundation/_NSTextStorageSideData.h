@@ -7,7 +7,6 @@
 @interface _NSTextStorageSideData
 {
     id _delegate;
-    struct _NSRange _lazyFixRange;
 }
 
 - (void);

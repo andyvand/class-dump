@@ -4,25 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIDatabase;
+@class TRIDatabase;
 
 @interface TRIExperimentDatabase
 {
     TRIDatabase *_db;
 }
 
-+ (id);
++ (id)archivedJSONObjectWithPresentation:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (struct _PASDBTransactionCompletion_);
-- (_Bool);
+- (_Bool)itNumber;
 - (CDStruct_69d7cc99);
 - (CDStruct_69d7cc99);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)initWithSourceTableName:(id)arg1 creationBlock:(id)arg2 selectResultExpression:(id)arg3 selectResultAlias:(id)arg4;
 - (_Bool);
 - (id);
 - (id);
@@ -44,13 +44,7 @@
 - (id)recordId = :(id)arg1 record_id     AND idx >= :lower     AND idx < :upper ORDER BY idx ASC; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface NSToolbarTitleDocumentProxyAcceleratorView : NSView
 {
     _Bool _requiresDelay;
-    _Bool _extendsRegionToIncludeTitle;
-    NSThemeDocumentButton *_representedDocumentButton;
 }
 
 - (_Bool);
-- (void);
+- (void)C;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)T;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)eArray@%p> { %d cookies };
 - (void)/Ð!ðFùqå3Ð1Â0@ù
 × ;
 - (void)rd type;
@@ -32,9 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool extendsRegionToIncludeTitle; // @synthesize extendsRegionToIncludeTitle=_extendsRegionToIncludeTitle;
 @property __weak NSThemeDocumentButton *representedDocumentButton; // @synthesize representedDocumentButton=_representedDocumentButton;
-@property _Bool requiresDelay; // @synthesize requiresDelay=_requiresDelay;
 
 @end
 

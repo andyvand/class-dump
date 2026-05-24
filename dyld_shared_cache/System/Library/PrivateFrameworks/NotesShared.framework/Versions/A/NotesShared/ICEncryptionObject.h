@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEncryptionMetadata, NSData;
+@class ICEncryptionMetadata;
 
 @interface ICEncryptionObject
 {
     unsigned long long _hash;
-    ICEncryptionMetadata *_metadata;
-    NSData *_wrappedEncryptionKey;
-    NSData *_encryptedData;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)channelIDs;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)@;
+- (id)_errorString;
+- (void)ing",R,N,V_teamID;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *encryptedData; // @synthesize encryptedData=_encryptedData;
 @property(readonly, nonatomic) ICEncryptionMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSData *wrappedEncryptionKey; // @synthesize wrappedEncryptionKey=_wrappedEncryptionKey;
 
 @end
 

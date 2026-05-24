@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PXStoryConcreteAutoEditClip
 {
     NSArray *_displayAssets;
-    long long _playbackStyle;
-    double _durationMultiplier;
-    NSDictionary *_debugInfo;
-    CDStruct_3ac0dd7e _moduleInfo;
-    CDStruct_b8e7e30c _motionInfo;
-    CDStruct_618113c1 _transitionInfo;
-    CDStruct_273850af _audioInfo;
-    CDStruct_c8943d03 _durationInfo;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (CDStruct_b8e7e30c);
+- (CDStruct_412fc33d);
 - (id);
 - (id);
 - (double);
-- (CDStruct_c8943d03);
+- (CDStruct_d2aef016);
 - (id);
-- (void);
+- (void)	;
 - (long long);
 - (void);
-- (CDStruct_273850af);
+- (CDStruct_2f782ce9);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id),N,V_centerOffsetAnimator;
-- (CDStruct_618113c1)P;
-- (CDStruct_3ac0dd7e);
-- (void)yload;
+- (CDStruct_4ae65f2e)P;
+- (CDStruct_fa0c26dd);
+- (void)OneUpSharePlayReplaceDataSourceMessagePayload;
 
 // Remaining properties
-@property(nonatomic) CDStruct_273850af audioInfo; // @synthesize audioInfo=_audioInfo;
-@property(copy, nonatomic) NSDictionary *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(readonly, nonatomic) NSArray *displayAssets; // @synthesize displayAssets=_displayAssets;
-@property(nonatomic) CDStruct_c8943d03 durationInfo; // @synthesize durationInfo=_durationInfo;
-@property(nonatomic) double durationMultiplier; // @synthesize durationMultiplier=_durationMultiplier;
-@property(nonatomic) CDStruct_3ac0dd7e moduleInfo; // @synthesize moduleInfo=_moduleInfo;
-@property(nonatomic) CDStruct_b8e7e30c motionInfo; // @synthesize motionInfo=_motionInfo;
 @property(nonatomic) long long playbackStyle; // @synthesize playbackStyle=_playbackStyle;
-@property(nonatomic) CDStruct_618113c1 transitionInfo; // @synthesize transitionInfo=_transitionInfo;
 
 @end
 

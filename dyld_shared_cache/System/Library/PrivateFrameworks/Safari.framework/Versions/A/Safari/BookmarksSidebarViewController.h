@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksOutlineView, BookmarksSearcher, NSArray, NSButton, NSMenu, NSMutableArray, NSSearchField, NSString, NSView, Safari.BookmarksSidebarTableRecentlySavedCarousel, SafariWebBookmarkList, SidebarScrollView, WBSFaviconRequestsController;
-@protocol BookmarksSidebarViewControllerDelegate;
+@class BookmarksSearcher, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksSidebarViewController
 {
     BookmarksSearcher *_searcher;
-    NSMenu *_contextMenu;
-    _Bool _deselectAfterRowClickIsPending;
-    NSMutableArray *_autosavedItemsToTryToExpandWhenBookmarksHaveReloaded;
-    _Bool _userDidDoubleClick;
-    WBSFaviconRequestsController *_requestsController;
-    NSMutableArray *_blocksToPerformWhenViewBecomesVisible;
-    SafariWebBookmarkList *_currentFolder;
-    NSMutableArray *_navigationStack;
-    _Bool _useCompactViewMode;
-    _Bool _bookmarkEditingInProgress;
-    Safari.BookmarksSidebarTableRecentlySavedCarousel *_recentlySavedCarousel;
-    NSArray *_recentlySavedBookmarks;
-    BookmarksOutlineView *_outlineView;
-    id <BookmarksSidebarViewControllerDelegate> _delegate;
-    NSArray *_draggedBookmarks;
-    NSView *_editButtonContainer;
-    NSButton *_editButton;
-    SidebarScrollView *_scrollView;
 }
 
 - (void);
@@ -43,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -98,7 +79,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -111,7 +92,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -128,21 +109,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (_Bool);
 - (id);
@@ -156,12 +137,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)PersonNotFound;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id)ResumeInformation;
+- (id)DownloadEntryWK2ResumeInformation;
 - (void)ÿÿ;
 - (id);
 - (void);
@@ -169,24 +150,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allFilteringControls;
-@property(readonly, nonatomic) NSString *bookmarkListTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BookmarksSidebarViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSArray *draggedBookmarks; // @synthesize draggedBookmarks=_draggedBookmarks;
-@property(nonatomic) __weak NSButton *editButton; // @synthesize editButton=_editButton;
-@property(nonatomic) __weak NSView *editButtonContainer; // @synthesize editButtonContainer=_editButtonContainer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isShowingTopLevelBookmark;
-@property(copy, nonatomic) NSArray *navigationStack;
-@property(nonatomic) __weak BookmarksOutlineView *outlineView; // @synthesize outlineView=_outlineView;
-@property(nonatomic) __weak SidebarScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) NSSearchField *searchField;
-@property(readonly) Class superclass;
 
 @end
 

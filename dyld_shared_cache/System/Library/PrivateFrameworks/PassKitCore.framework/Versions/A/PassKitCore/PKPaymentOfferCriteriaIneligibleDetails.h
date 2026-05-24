@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
-
 @interface PKPaymentOfferCriteriaIneligibleDetails
 {
     _Bool _isWebPaymentRequest;
-    unsigned long long _reason;
-    NSString *_overrideDisplayString;
-    NSString *_preferredLanguage;
-    NSArray *_supportedCurrencyCodes;
-    NSSet *_minimumAmounts;
-    NSSet *_maximumAmounts;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
-- (id);
+- (id)kB;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)setKdot11RTSSuccessCount:(id)arg1;
+- (_Bool)setOptions: /* Error: Ran out of types for this method. */;
 - (void)ment;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isWebPaymentRequest; // @synthesize isWebPaymentRequest=_isWebPaymentRequest;
-@property(readonly, nonatomic) NSSet *maximumAmounts; // @synthesize maximumAmounts=_maximumAmounts;
-@property(readonly, nonatomic) NSSet *minimumAmounts; // @synthesize minimumAmounts=_minimumAmounts;
-@property(readonly, copy, nonatomic) NSString *overrideDisplayString; // @synthesize overrideDisplayString=_overrideDisplayString;
-@property(readonly, copy, nonatomic) NSString *preferredLanguage; // @synthesize preferredLanguage=_preferredLanguage;
 @property(readonly, nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly, copy, nonatomic) NSArray *supportedCurrencyCodes; // @synthesize supportedCurrencyCodes=_supportedCurrencyCodes;
 
 @end
 

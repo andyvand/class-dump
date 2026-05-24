@@ -5,5 +5,6 @@
 //
 
 @protocol ISCompositVariantResourceLayerProtocol
+- (_Bool)k/Versions/A/UniformTypeIdentifiers;
 @end
 

@@ -4,11 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutManager;
+@class NSDictionary, NSLayoutManager;
 
 @protocol NSLayoutManagerDelegate
 
 @optional
-- (_Bool)ChangeShowsStateColumnFrom:(NSLayoutManager *)arg1 to:(inout struct CGRect *)arg2;
+- (void)code 'aptk';
+- (void)est with code %d (0x%X);
+- (NSDictionary *)Ref *);
+- (_Bool);
+- (_Bool)t-hash;
+- (double)d;
+- (double)t;
+- (double)with status:(NSLayoutManager *)arg1 0x%X;
+- (_Bool)_menuDidChangeShowsStateColumnFrom:(NSLayoutManager *)arg1 to:(inout struct CGRect *)arg2;
 @end
 

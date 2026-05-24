@@ -8,14 +8,12 @@
 @protocol NSObject><NSCopying;
 
 @protocol PXSectionedFetchResult
-- (id <NSObject><NSCopying>)tionWidgetEnableHashtags;
+- (id <NSObject><NSCopying>)_captionWidgetEnableHashtags;
 - (id <NSObject><NSCopying>)(úúÿ;
-- (long long);
+- (long long)So17PXPhotosViewModelCSgXw;
 - (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) id <NSObject><NSCopying> firstObject;
-@property(readonly, nonatomic) id <NSObject><NSCopying> lastObject;
 @end
 

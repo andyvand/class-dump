@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLBag, ICUserIdentityStore, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class ICURLBag;
 
 @interface ICURLBagMonitor
 {
     ICURLBag *_bag;
-    NSObject<OS_dispatch_source> *_bagExpirationTimer;
-    ICUserIdentityStore *_identityStore;
-    NSMutableDictionary *_observers;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -27,23 +22,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)h;
 - (void);
 - (id);
 - (void);
-- (void)ompactMap: /* Error: Ran out of types for this method. */;
-- (id)ler: /* Error: Ran out of types for this method. */;
+- (void)msv_compactMap: /* Error: Ran out of types for this method. */;
+- (id)signData:withCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) ICURLBag *bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,25 +7,20 @@
 @interface CVNLPTokenIDConverter
 {
     struct shared_ptr<cvnlp::AbstractVocabulary> _vocabTokenizer;
-    unsigned int _bosTokenID;
-    unsigned int _eosTokenID;
-    unsigned int _unkTokenID;
 }
 
 - (unsigned int);
-- (id);
-- (id);
-- (unsigned int);
+- (id)*';
+- (id)';
+- (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) unsigned int bosTokenID; // @synthesize bosTokenID=_bosTokenID;
-@property(readonly) unsigned int eosTokenID; // @synthesize eosTokenID=_eosTokenID;
-@property(readonly) unsigned int unkTokenID; // @synthesize unkTokenID=_unkTokenID;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface SGMIFeatureSubmodelLink
 {
     long long _submodeledFeature;
-    long long _unigramFeature;
-    long long _bigramFeature;
 }
 
 - (long long);
@@ -17,9 +15,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly) long long bigramFeature; // @synthesize bigramFeature=_bigramFeature;
 @property(readonly) long long submodeledFeature; // @synthesize submodeledFeature=_submodeledFeature;
-@property(readonly) long long unigramFeature; // @synthesize unigramFeature=_unigramFeature;
 
 @end
 

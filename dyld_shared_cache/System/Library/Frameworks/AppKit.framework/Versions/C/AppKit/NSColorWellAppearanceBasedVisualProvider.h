@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSColorWell, NSColorWellEndcapButton, NSImage, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSColorWellAppearanceBasedVisualProvider
 {
     NSColor *_color;
-    NSImage *_image;
-    NSColorWell *_controlView;
-    NSColorWellEndcapButton *_endcapButton;
-    struct CGRect _wellFrame;
-    unsigned long long _controlSize;
-    long long _style;
-    unsigned int _subclassOverridesDrawColor:1;
-    unsigned int _controlSubclassOverridesDrawColor:1;
-    unsigned int _enabled:1;
-    unsigned int _active:1;
-    _Bool supportsAlpha;
-    _Bool bordered;
-    _Bool showsMixedState;
-    _Bool hasPullDownBehavior;
-    _Bool mouseInside;
-    _Bool isOnEndcapButton;
-    double maxGain;
-    id showColorPanelTarget;
-    SEL showColorPanelAction;
 }
 
 - (double);
-- (_Bool);
+- (_Bool)good response;
 - (id);
 - (SEL);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -45,15 +26,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (struct CGSize);
+- (struct CGSize)set_allowsExpensiveNetworkAccess: /* Error: Ran out of types for this method. */;
+- (_Bool)checked_willPerformHTTPRedirection;
+- (_Bool)checked_isWaitingForConnectivity;
+- (_Bool)assetDownloadTaskWithConfiguration: /* Error: Ran out of types for this method. */;
+- (long long)ck;
+- (_Bool)_rl;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
+- (void)reamingZip.framework/Versions/A/StreamingZip;
+- (double);
 - (struct CGRect);
 - (void);
 - (void);
@@ -63,23 +44,23 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (double);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)te"b1""b15};
+- (_Bool)://purl.org/dc/terms/ /* Error: Ran out of types for this method. */;
+- (void)xt:(long long)arg1 span text:style-name="T%lu"> /* Error: Ran out of types for this method. */;
 - (id);
-- (void):(id)arg1 withPasteboard: /* Error: Ran out of types for this method. */;
+- (void)window:(id)arg1 shouldDragDocumentWithEvent:from:withPasteboard: /* Error: Ran out of types for this method. */;
 - (void);
 - (double)TöA;
 - (void)TÁcÿôOàB;
@@ -87,34 +68,7 @@ __attribute__((visibility("hidden")))
 - (void)eÂuE;
 
 // Remaining properties
-@property(getter=isActive) _Bool active;
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) double baselineOffsetFromBottom;
-@property(getter=isBordered) _Bool bordered; // @synthesize bordered;
 @property(copy) NSColor *color;
-@property unsigned long long controlSize;
-@property __weak NSColorWell *controlView; // @synthesize controlView=_controlView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled;
-@property _Bool hasPullDownBehavior; // @synthesize hasPullDownBehavior;
-@property(readonly) unsigned long long hash;
-@property(retain) NSImage *image;
-@property(readonly) struct CGSize intrinsicContentSize;
-@property(getter=isOnEndcapButton) _Bool isOnEndcapButton; // @synthesize isOnEndcapButton;
-@property double maxGain; // @synthesize maxGain;
-@property(readonly) struct CGSize minimumDrawingSize;
-@property(getter=isMouseInside) _Bool mouseInside; // @synthesize mouseInside;
-@property(readonly) struct CGRect relativeRectForPopover;
-@property SEL showColorPanelAction; // @synthesize showColorPanelAction;
-@property __weak id showColorPanelTarget; // @synthesize showColorPanelTarget;
-@property _Bool showsMixedState; // @synthesize showsMixedState;
-@property long long style;
-@property(readonly) Class superclass;
-@property _Bool supportsAlpha; // @synthesize supportsAlpha;
 
 @end
 

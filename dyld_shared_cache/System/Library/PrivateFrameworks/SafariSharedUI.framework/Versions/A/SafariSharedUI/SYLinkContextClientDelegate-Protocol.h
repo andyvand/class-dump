@@ -5,5 +5,8 @@
 //
 
 @protocol SYLinkContextClientDelegate
+
+@optional
+- (void);
 @end
 

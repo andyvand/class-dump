@@ -11,22 +11,21 @@
     NSData *_tocExposureId;
 }
 
+- (id)initWithMemory:storyQueue: /* Error: Ran out of types for this method. */;
+- (void)initWithEntries:(id)arg1;
+- (_Bool)distinctValuesForKeyPath:inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)initWithVideoAsset:photo:photoTime:photoEXIFOrientation: /* Error: Ran out of types for this method. */;
+- (_Bool)void *);
+- (_Bool)command channelIDs:(id)arg1 %{public}@ paidChannelIDs:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)reConnectionForAssets;
+- (void)useSecureConnectionForAssets;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTocExposureId;
-@property(retain, nonatomic) NSData *tocExposureId; // @synthesize tocExposureId=_tocExposureId;
 
 @end
 

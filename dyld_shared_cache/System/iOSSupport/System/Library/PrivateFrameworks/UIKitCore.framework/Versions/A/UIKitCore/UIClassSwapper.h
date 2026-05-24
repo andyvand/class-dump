@@ -13,11 +13,11 @@
 }
 
 + (id);
+- (id)BlastDoorMarkAsReviewedCommand;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)assAppearanceIfNeeded;
+- (void)_updateGlassAppearanceIfNeeded;
 - (void)¸Äjþç·ÍTi;
 - (id)rþ;
 

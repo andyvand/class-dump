@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListPrivacyTitleView
 {
     _Bool _hasIcon;
-    NSString *_title;
-    UILabel *_titleLabel;
 }
 
 - (void);
 - (id);
+- (void)Q;
+- (id)9m;
 - (void);
-- (id);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (void)nameContainerView;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)setMaximumSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIcon; // @synthesize hasIcon=_hasIcon;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

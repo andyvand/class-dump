@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFConnection, GFGraph, GFGraphEditorView, GFList, GFNode, GFPort, NSColor, NSMutableDictionary, NSTrackingArea, NSUndoManager;
+@class GFGraph;
 
 @interface GFGraphView
 {
     GFGraph *_graph;
-    GFNode *_firstResponder;
-    _Bool _drawsBackground;
-    _Bool _drawsShadows;
-    unsigned long long _gridStep;
-    NSColor *_backgroundColor;
-    NSColor *_gridColor;
-    double _tooltipDelay;
-    _Bool _spaceDown;
-    struct CGRect _selectionBounds;
-    GFPort *_connectionPort;
-    struct CGPoint _connectionStart;
-    struct CGPoint _connectionEnd;
-    GFConnection *_connection;
-    struct __CFRunLoopTimer *_tooltipTimer;
-    _Bool _tooltipPending;
-    struct CGRect _tooltipBounds;
-    GFNode *_tooltipNode;
-    NSMutableDictionary *_alignment;
-    GFList *_nodeActorCache;
-    GFGraphEditorView *_graphEditor;
-    NSUndoManager *_undoManager;
-    _Bool _disableValidation;
-    struct CGPoint _cachedCenter;
-    float _cachedZoomFactor;
-    NSTrackingArea *_trackingArea;
-    void *_unused[1];
 }
 
 + (id);
@@ -57,7 +31,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -89,7 +63,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGPoint);
@@ -108,7 +82,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)8k;
 - (void);
 - (void);
 - (void);
@@ -132,23 +106,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (struct CGRect);
-- (void);
+- (id);
+- (struct CGRect)rfaceAccelerator.framework/Versions/A/IOSurfaceAccelerator;
+- (void)CoreVideo.framework/Versions/A/CoreVideo;
 - (_Bool);
 - (void);
-- (void);
+- (void)on;
 - (_Bool);
+- (void)VA;
+- (void)AppleCVA.framework/Versions/A/AppleCVA;
+- (void);
+- (void);
+- (void)meworks/FTServices.framework/Versions/A/FTServices;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)sewhere;
 - (void);
 - (_Bool);
 - (struct CGPoint);
@@ -167,7 +141,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (unsigned long long);
 - (_Bool);
 - (struct CGRect);
@@ -184,13 +158,13 @@
 - (void);
 - (id);
 - (void);
+- (void));
+- (_Bool)update. Coalescing mismatched collections...;
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)1] == li;
 - (void);
 - (void);
 - (void);
@@ -203,8 +177,8 @@
 - (_Bool)ÈæD;
 - (_Bool);
 - (void)ìÐÀ;
-- (void)mGetAttributeIndex;
-- (id);
+- (void)C3DFXGLSLProgramGetAttributeIndex;
+- (id)forceNonConstantAlpha;
 - (_Bool)ome back;
 - (void)TÑÿ:(id)arg1 ½;
 - (void);

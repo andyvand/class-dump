@@ -5,5 +5,6 @@
 //
 
 @protocol DDSAssetTrackingDelegate
+- (void);
 @end
 

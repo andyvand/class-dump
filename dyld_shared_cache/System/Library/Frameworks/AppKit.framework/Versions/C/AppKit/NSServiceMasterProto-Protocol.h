@@ -5,5 +5,6 @@
 //
 
 @protocol NSServiceMasterProto
+- (id)PeekUIWidth;
 @end
 

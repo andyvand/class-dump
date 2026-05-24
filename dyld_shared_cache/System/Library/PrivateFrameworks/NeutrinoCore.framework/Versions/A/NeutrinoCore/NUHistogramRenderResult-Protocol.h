@@ -7,6 +7,7 @@
 @class NUImageHistogram;
 
 @protocol NUHistogramRenderResult
+- (NUImageHistogram *);
 
 // Remaining properties
 @property(readonly) NUImageHistogram *histogram;

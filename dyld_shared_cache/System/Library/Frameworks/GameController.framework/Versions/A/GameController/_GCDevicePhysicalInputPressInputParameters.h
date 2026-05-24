@@ -6,20 +6,16 @@
 
 #import <GameController/_GCDevicePhysicalInputViewParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputPressInputParameters : _GCDevicePhysicalInputViewParameters
 {
     _Bool _analog;
-    float _pressedThreshold;
-    NSSet *_sources;
 }
 
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)setPassword:(struct _NSZone *)arg1;
+- (void);
 
 @end
 

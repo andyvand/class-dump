@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, IFTSchemaIFTStatementOutcome, NSArray, NSData, NSString;
-
 @interface IFTSchemaIFTSystemResponse : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementOutcome *_outcome;
-    IFTSchemaIFTStatementId *_statementId;
-    NSString *_toolId;
-    NSArray *_interpretedStatementResults;
-    CDStruct_b33ad018 _has;
-    _Bool _hasOutcome;
-    _Bool _hasStatementId;
-    _Bool _hasToolId;
 }
 
 - (id);
@@ -33,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)p;
 - (void);
 - (void);
 - (void);
@@ -41,22 +31,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)
 × ;
 - (id)emaDODMLASRFullPayloadCorrectionExperimentPostAnalysis",&,N,V_fullPayloadCorrectionExperimentPostAnalysis;
-- (id)elligenceFeatureUsage;
-- (id)Count;
-- (_Bool)Type;
+- (id)FLOWSchemaFLOWRichAttachmentIntelligenceFeatureUsage;
+- (id)clientErrorCount;
+- (_Bool)SCSchemaSCCorrectionType;
 - (void)d
 #;
 - (_Bool)a;
@@ -64,15 +54,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasOutcome; // @synthesize hasOutcome=_hasOutcome;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(copy, nonatomic) NSArray *interpretedStatementResults; // @synthesize interpretedStatementResults=_interpretedStatementResults;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementOutcome *outcome; // @synthesize outcome=_outcome;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

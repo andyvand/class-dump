@@ -11,13 +11,11 @@
 @interface BMPOICategoryEvent : BMEventBase
 {
     NSString *_poiCategory;
-    unsigned long long _rank;
-    double _timeIntervalSince1970;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)h	;
 - (id);
 - (unsigned int);
 - (id);
@@ -27,27 +25,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)d;
 - (id);
 - (id);
-- (id)_pack;
+- (id)pg_query__fetch_stmt__pack;
 - (unsigned long long)LOCAL_CHECK_OPTION;
 - (void)4567;
 - (double);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *poiCategory; // @synthesize poiCategory=_poiCategory;
-@property(nonatomic) unsigned long long rank; // @synthesize rank=_rank;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeIntervalSince1970; // @synthesize timeIntervalSince1970=_timeIntervalSince1970;
 
 @end
 

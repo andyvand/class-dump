@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol HMDDatabase;
 
 __attribute__((visibility("hidden")))
@@ -22,26 +21,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id),W,V_delegate;
-- (id)eport;
+- (id)HMDUserActivityType6Report;
 - (void)est [%@];
 - (id)for accessory with identifier:%@ /* Error: Ran out of types for this method. */;
 - (void)eys;
 - (void)%@;
-- (void)ultHomeMatterServicesFactory;
-- (id)D;
+- (void)DefaultHomeMatterServicesFactory;
+- (id)8ED;
 
 // Remaining properties
 @property(readonly) id <HMDDatabase> database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

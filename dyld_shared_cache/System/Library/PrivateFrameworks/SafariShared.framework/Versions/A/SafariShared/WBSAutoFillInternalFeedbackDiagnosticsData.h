@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, NSURL;
+@class NSString;
 
 @interface WBSAutoFillInternalFeedbackDiagnosticsData
 {
     NSString *_creationDateString;
-    NSURL *_url;
-    NSArray *_formMetadata;
-    NSSet *_sensitiveValuesForRedaction;
 }
 
 - (id);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *creationDateString; // @synthesize creationDateString=_creationDateString;
-@property(copy, nonatomic) NSArray *formMetadata; // @synthesize formMetadata=_formMetadata;
-@property(copy, nonatomic) NSSet *sensitiveValuesForRedaction; // @synthesize sensitiveValuesForRedaction=_sensitiveValuesForRedaction;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

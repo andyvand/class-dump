@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHEndpointerAccessibleContext : SISchemaInstrumentationMessage
 {
     int _accessibleEndpointerLevel;
-    struct {
-        unsigned int accessibleEndpointerLevel:1;
-    } _has;
 }
 
 - (void);
@@ -22,20 +17,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)vironment variable;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)qß1Â0@ù
 × ;
-- (id)kAbandonCountInUsingApp7Days;
+- (id)taskAbandonCountInUsingApp7Days;
 - (id)erReferenceStatementId;
 
 // Remaining properties
 @property(nonatomic) int accessibleEndpointerLevel; // @synthesize accessibleEndpointerLevel=_accessibleEndpointerLevel;
-@property(nonatomic) _Bool hasAccessibleEndpointerLevel;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

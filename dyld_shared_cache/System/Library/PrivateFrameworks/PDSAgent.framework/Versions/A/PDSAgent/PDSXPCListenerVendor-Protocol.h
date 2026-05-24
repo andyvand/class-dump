@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PDSXPCListener;
+
 @protocol PDSXPCListenerVendor
+- (id <PDSXPCListener>)%@ due to partition move;
 @end
 

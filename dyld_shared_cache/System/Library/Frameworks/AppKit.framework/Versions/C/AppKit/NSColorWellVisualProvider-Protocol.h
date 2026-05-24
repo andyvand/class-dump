@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSColorWell, NSImage;
+@class NSColor, NSColorWell;
 
 @protocol NSColorWellVisualProvider
+- (void)k`;
+- (void);
+- (struct CGSize)capture-width;
+- (_Bool)g;
+- (_Bool)LzrgxJo+bcrw;
+- (void) @9;
+- (NSColorWell *)deleteEventsStartingEarlierThanDate:limit: /* Error: Ran out of types for this method. */;
+- (NSColor *)footer;
 - (void)Áî/!8Bù±ä3°1Â0@ù
 × ;
 - (void)thread id %ld
@@ -14,29 +22,9 @@
 } /* Error: Ran out of types for this method. */;
 - (double)SMenuTrackingSession.m;
 - (struct NSEdgeInsets)llFidelity:completionHandler:] /* Error: Ran out of types for this method. */;
-- (void)ntation;
+- (void)AXVerticalOrientation;
 
 // Remaining properties
-@property(getter=isActive) _Bool active;
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) double baselineOffsetFromBottom;
-@property(getter=isBordered) _Bool bordered;
 @property(copy) NSColor *color;
-@property unsigned long long controlSize;
-@property __weak NSColorWell *controlView;
-@property(getter=isEnabled) _Bool enabled;
-@property _Bool hasPullDownBehavior;
-@property(retain) NSImage *image;
-@property(readonly) struct CGSize intrinsicContentSize;
-@property(getter=isOnEndcapButton) _Bool isOnEndcapButton;
-@property double maxGain;
-@property(readonly) struct CGSize minimumDrawingSize;
-@property(getter=isMouseInside) _Bool mouseInside;
-@property(readonly) struct CGRect relativeRectForPopover;
-@property SEL showColorPanelAction;
-@property __weak id showColorPanelTarget;
-@property _Bool showsMixedState;
-@property long long style;
-@property _Bool supportsAlpha;
 @end
 

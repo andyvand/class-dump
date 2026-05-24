@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
+@class NSColor, NSDictionary;
 
 @protocol NSContentStyle
+- (NSDictionary *);
+- (int)ough-interval;
 
 // Remaining properties
 @property(readonly) NSColor *equivalentForegroundColorForTemplateImage;
-@property(readonly) int outputBlendModeForTemplateContent;
 @end
 

@@ -9,8 +9,6 @@
 @interface BMSiriQueryResult
 {
     NSString *_qid;
-    NSString *_domain;
-    double _confidence;
 }
 
 + (id);
@@ -21,32 +19,22 @@
 - (id);
 - (unsigned int);
 - (id);
-- (id);
-- (_Bool);
+- (id) ;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (id);
 - (double);
-- (id)g_query__alter_operator_stmt__pack;
+- (id)pg_query__alter_operator_stmt__pack;
 - (void)FGHIJK;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *qid; // @synthesize qid=_qid;
-@property(readonly) Class superclass;
 
 @end
 

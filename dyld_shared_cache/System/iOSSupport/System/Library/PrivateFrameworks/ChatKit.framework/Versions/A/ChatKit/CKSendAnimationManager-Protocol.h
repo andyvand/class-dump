@@ -7,9 +7,15 @@
 @protocol CKSendAnimationBalloonProvider, CKSendAnimationManagerDelegate;
 
 @protocol CKSendAnimationManager
+- (void)@0:(id <CKSendAnimationManagerDelegate>)arg1 8I16@20;
+- (void)}24@40;
+- (id <CKSendAnimationManagerDelegate>)resourceSpecifier;
+- (id <CKSendAnimationBalloonProvider>)resetZoom;
+- (void)initWithBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)incorrectCustomPasswordInfoAlertWithObject:showHint: /* Error: Ran out of types for this method. */;
+- (void)_yA55_A8_GAHGA10_GAHGGt;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKSendAnimationBalloonProvider> sendAnimationBalloonProvider;
 @property(nonatomic) __weak id <CKSendAnimationManagerDelegate> sendAnimationManagerDelegate;
 @end
 

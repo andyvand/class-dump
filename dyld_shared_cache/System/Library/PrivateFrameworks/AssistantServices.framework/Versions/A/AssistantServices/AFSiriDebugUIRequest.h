@@ -11,12 +11,11 @@
 @interface AFSiriDebugUIRequest : AFSiriRequest
 {
     NSString *_message;
-    _Bool _frontmost;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)h	;
 - (id);
 - (id);
 - (void);

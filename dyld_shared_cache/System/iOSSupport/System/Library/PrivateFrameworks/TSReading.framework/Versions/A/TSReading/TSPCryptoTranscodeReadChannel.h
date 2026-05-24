@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SFUCryptoKey;
-@protocol OS_dispatch_queue, TSUStreamReadChannel;
+@protocol TSUStreamReadChannel;
 
 @interface TSPCryptoTranscodeReadChannel
 {
     id <TSUStreamReadChannel> _readChannel;
-    SFUCryptoKey *_encryptionKey;
-    NSObject<OS_dispatch_queue> *_readQueue;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)xL;
+- (void)B;
 - (void)øL
 à<¼8ô
 ¨P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

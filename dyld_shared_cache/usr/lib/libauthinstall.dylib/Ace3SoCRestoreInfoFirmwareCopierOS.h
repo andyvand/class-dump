@@ -6,24 +6,20 @@
 
 #import <authinstall/Ace3SoCRestoreInfoHelperOS.h>
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface Ace3SoCRestoreInfoFirmwareCopierOS : Ace3SoCRestoreInfoHelperOS
 {
     NSURL *_destBundlePathURL;
-    NSString *_firmwarePathSuffix;
-    NSURL *_firmwareBundleURL;
-    NSData *_firmwareOverrideData;
-    NSData *_firmwareInBundleDataDict;
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)_propertyMapper;
+- (_Bool)_postChangeNotificationForConversationID:(id)arg1 flags:oldFlags:reason: /* Error: Ran out of types for this method. */;
+- (id)_persistedBrandIDForExternalID:(id)arg1;
+- (id),V_contactStore;
+- (_Bool)yService;
+- (void);
 
 @end
 

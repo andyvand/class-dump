@@ -6,20 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TBrowserSplitViewController, FI_TContainerLayoutManager, FI_TPathBarController, FI_TSearchSliceController, NSMutableArray, NSSplitViewItemAccessoryViewController;
+@class FI_TContainerLayoutManager, NSSplitViewItemAccessoryViewController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserViewContainerController : FI_TViewController
 {
     NSSplitViewItemAccessoryViewController *_bannerViewController;
-    NSMutableArray *_layoutConstraints;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationCenterObservers;
-    _Bool _ephemeralPathBarIsInHideAnimation;
-    FI_TPathBarController *_pathBarController;
-    FI_TBrowserSplitViewController *_browserSplitViewController;
-    FI_TSearchSliceController *_searchSliceController;
-    FI_TPathBarController *_ephemeralPathBarController;
-    FI_TContainerLayoutManager *_containerLayoutManager;
 }
 
 + (id);
@@ -28,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (_Bool);
@@ -37,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (_Bool);
 - (void);
@@ -49,23 +41,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)property;
+- (void)userSessionObserverUserWillLogOut: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool bannerViewIsVisible;
-@property(readonly, nonatomic) FI_TBrowserSplitViewController *browserSplitViewController; // @synthesize browserSplitViewController=_browserSplitViewController;
 @property(retain, nonatomic) FI_TContainerLayoutManager *containerLayoutManager; // @synthesize containerLayoutManager=_containerLayoutManager;
-@property(retain, nonatomic) FI_TPathBarController *ephemeralPathBarController; // @synthesize ephemeralPathBarController=_ephemeralPathBarController;
-@property(nonatomic) _Bool ephemeralPathBarIsInHideAnimation; // @synthesize ephemeralPathBarIsInHideAnimation=_ephemeralPathBarIsInHideAnimation;
-@property(readonly, nonatomic) _Bool isEphemeralPathBarVisible;
-@property(readonly, nonatomic) _Bool isPathBarVisible;
-@property(retain, nonatomic) FI_TPathBarController *pathBarController; // @synthesize pathBarController=_pathBarController;
-@property(readonly, nonatomic) FI_TSearchSliceController *searchSliceController; // @synthesize searchSliceController=_searchSliceController;
 
 @end
 

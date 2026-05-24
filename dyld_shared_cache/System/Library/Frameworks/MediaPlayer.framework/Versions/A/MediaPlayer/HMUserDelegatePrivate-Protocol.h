@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMUser, HMUserListeningHistoryUpdateControl;
+
 @protocol HMUserDelegatePrivate
+
+@optional
+- (void)outlineView:(HMUser *)arg1 shouldCollapseItem:(HMUserListeningHistoryUpdateControl *)arg2;
+- (void)__createCFObject;
+- (void)__aspectRatio;
+- (void)numberWithLong:(HMUser *)arg1;
+- (void)newSharedTextureWithDescriptor:(HMUser *)arg1;
+- (void)omponentsPerVector:(HMUser *)arg1 bytesPerComponent:dataOffset:dataStride: /* Error: Ran out of types for this method. */;
+- (void)romAnimCodec;
+- (void)_copyImage:(HMUser *)arg1 toTexture:desc:textureOptions:needsMipMapGeneration: /* Error: Ran out of types for this method. */;
 @end
 

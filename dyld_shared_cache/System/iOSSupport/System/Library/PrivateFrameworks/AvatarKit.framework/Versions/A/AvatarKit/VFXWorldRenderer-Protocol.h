@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, NSArray, VFXNode, VFXRenderGraph, VFXWorld;
-@protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, VFXWorldRendererDelegate;
+@class NSArray, VFXWorld;
+@protocol MTLCommandQueue, VFXWorldRendererDelegate;
 
 @protocol VFXWorldRenderer
-- (id <MTLCommandQueue>)veFromWorld: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id <VFXWorldRendererDelegate>);
+- (id <MTLCommandQueue>)willRemoveFromWorld: /* Error: Ran out of types for this method. */;
 - (NSArray *)escriptions:shaderModifiers:adjustments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool additiveWritesToAlpha;
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(readonly, nonatomic) AVAudioEngine *audioEngine;
-@property(readonly, nonatomic) AVAudioEnvironmentNode *audioEnvironmentNode;
-@property(retain, nonatomic) VFXNode *audioListener;
-@property(nonatomic) _Bool autoenablesDefaultLighting;
-@property(copy, nonatomic) NSArray *binaryArchives;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(readonly, nonatomic) id <MTLRenderCommandEncoder> currentRenderCommandEncoder;
-@property(readonly, nonatomic) MTLRenderPassDescriptor *currentRenderPassDescriptor;
-@property(readonly, nonatomic) struct CGRect currentViewport;
-@property(nonatomic) unsigned long long debugOptions;
-@property(nonatomic) __weak id <VFXWorldRendererDelegate> delegate;
-@property(readonly, nonatomic) id <MTLDevice> device;
-@property(nonatomic, getter=isJitteringEnabled) _Bool jitteringEnabled;
-@property(retain, nonatomic) VFXNode *pointOfView;
-@property(retain, nonatomic) VFXRenderGraph *renderGraph;
-@property(nonatomic) _Bool showsStatistics;
-@property(nonatomic, getter=isTemporalAntialiasingEnabled) _Bool temporalAntialiasingEnabled;
-@property(readonly, nonatomic) struct CGColorSpace *workingColorSpace;
 @property(retain, nonatomic) VFXWorld *world;
 @end
 

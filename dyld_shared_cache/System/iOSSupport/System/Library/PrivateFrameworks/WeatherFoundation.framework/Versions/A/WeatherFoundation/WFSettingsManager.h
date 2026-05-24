@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, WFRemoteAppSettings, WFUserInfoManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WFSettingsManager
 {
     _Bool _useFallback;
-    struct os_unfair_lock_s _settingsLock;
-    WFRemoteAppSettings *_settings;
-    WFUserInfoManager *_userInfoManager;
-    NSObject<OS_dispatch_queue> *_requestSerialQueue;
-    NSHashTable *_observers;
 }
 
-+ (void);
++ (void)B;
 + (id);
 + (id);
 - (void);
@@ -43,10 +38,10 @@
 - (_Bool);
 - (void);
 - (BOOL);
+- (id)Sharing Date & Time option;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)H$;
 - (id);
 - (void);
 - (id);
@@ -54,20 +49,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *APIVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *requestSerialQueue; // @synthesize requestSerialQueue=_requestSerialQueue;
-@property(retain, nonatomic) WFRemoteAppSettings *settings; // @synthesize settings=_settings;
-@property(nonatomic) struct os_unfair_lock_s settingsLock; // @synthesize settingsLock=_settingsLock;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useFallback; // @synthesize useFallback=_useFallback;
-@property(retain, nonatomic) WFUserInfoManager *userInfoManager; // @synthesize userInfoManager=_userInfoManager;
 
 @end
 

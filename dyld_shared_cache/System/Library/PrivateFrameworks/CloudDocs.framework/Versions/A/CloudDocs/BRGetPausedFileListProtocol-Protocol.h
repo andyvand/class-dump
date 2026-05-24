@@ -5,5 +5,6 @@
 //
 
 @protocol BRGetPausedFileListProtocol
+- (void)JA;
 @end
 

@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverPresentationControllerAnchorItem
 {
     UIView *_anchorView;
-    struct CGRect _anchorRect;
 }
 
 - (id);
-- (void);
+- (void)UIGestureRecognizerRepresentableCoordinateSpaceConverter;
 - (struct CGRect);
 - (void);
 - (id);
 - (void)D°;
 
 // Remaining properties
-@property(nonatomic) struct CGRect anchorRect; // @synthesize anchorRect=_anchorRect;
 @property(retain, nonatomic) UIView *anchorView; // @synthesize anchorView=_anchorView;
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMediaLibrary, NSCondition, NSDate, NSDictionary, NSOperationQueue, NSSet, NSString, NSXPCConnection;
-@protocol MLSMediaLibraryProtocol;
+@class MLMediaLibrary, NSSet;
 
 @interface MLMediaLibraryImpl
 {
     NSSet *_mediaGroupAttributesExpectedClasses;
-    NSSet *_mediaObjectAttributesExpectedClasses;
-    NSSet *_mediaSourceAttributesExpectedClasses;
-    _Bool _outboundRequestInFlight;
-    MLMediaLibrary *_mediaLibrary;
-    NSDictionary *_options;
-    NSDictionary *_mediaSourcesByIdentifier;
-    NSXPCConnection *_connection;
-    NSDate *_loadMediaSourcesStartTime;
-    NSOperationQueue *_outboundRequestQueue;
-    NSCondition *_outboundRequestCondition;
 }
 
 - (void);
@@ -41,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -54,26 +43,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)drain_depth_mean_at_charge_start_soc_curr_dynamic_bin_12;
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *loadMediaSourcesStartTime; // @synthesize loadMediaSourcesStartTime=_loadMediaSourcesStartTime;
 @property MLMediaLibrary *mediaLibrary; // @synthesize mediaLibrary=_mediaLibrary;
-@property(readonly, retain) NSSet *mediaObjectAttributesExpectedClasses;
-@property(copy) NSDictionary *mediaSourcesByIdentifier; // @synthesize mediaSourcesByIdentifier=_mediaSourcesByIdentifier;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NSCondition *outboundRequestCondition; // @synthesize outboundRequestCondition=_outboundRequestCondition;
-@property _Bool outboundRequestInFlight; // @synthesize outboundRequestInFlight=_outboundRequestInFlight;
-@property(retain) NSOperationQueue *outboundRequestQueue; // @synthesize outboundRequestQueue=_outboundRequestQueue;
-@property(readonly) id <MLSMediaLibraryProtocol> service;
-@property(readonly) Class superclass;
 
 @end
 

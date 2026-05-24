@@ -4,45 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSArray, NSData, NSDate, NSDictionary, NSString, NSURL, NSUUID, WBLocalTabAttributes, WBTab;
-@protocol WBSEncryptionProvider;
+@class BrowserViewController, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface BrowserTabPersistentState
 {
     BrowserViewController *_browserViewController;
-    NSArray *_deprecatedAncestorTabIdentifiers;
-    id <WBSEncryptionProvider> _encryptionProvider;
-    int _processIdentifier;
-    _Bool _supportsSafeToLoadWebPage;
-    WBTab *_tabGroupTab;
-    _Bool _safeToLoadWebPage;
-    _Bool _disposable;
-    _Bool _pinned;
-    _Bool _restoredFromPersistentData;
-    _Bool _muted;
-    _Bool _inUnnamedTabGroup;
-    unsigned int _deprecatedTabIdentifier;
-    NSURL *_url;
-    NSDate *_dateClosed;
-    NSString *_profileIdentifier;
-    NSString *_title;
-    double _lastVisitTime;
-    NSData *_sessionStateData;
-    NSDictionary *_queuedNavigation;
-    NSArray *_ancestorTabUUIDs;
-    NSUUID *_tabUUID;
-    unsigned long long _tabIndex;
-    NSUUID *_windowUUID;
-    NSURL *_pinnedPageURL;
-    NSString *_pinnedPageTitle;
-    NSString *_tabGroupUUID;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -51,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -81,9 +54,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double)";
 - (id);
-- (_Bool);
+- (_Bool)_isSpotlightInternalIndexingUIEnabled;
 - (unsigned long long);
 - (id);
 - (id);
@@ -93,8 +66,8 @@ __attribute__((visibility("hidden")))
 - (id)!àFùñ¡1Â0@ù
 × ;
 - (id);
-- (id)tonSelection;
-- (_Bool)ate;
+- (id)_updateButtonSelection;
+- (_Bool)_takePendingClosedWindowState;
 - (void)Ö
 ÛÜDÜdÜ
  ßhá â¬âÌâãPãXähå	æäæÐçtè´é@êäêDë:(id)arg1 øö èú$ûü	ýØýàý	èþ
@@ -103,51 +76,14 @@ __attribute__((visibility("hidden")))
 $\È
 DÄÌ
 øh´ ,0ü(	X°;
-- (id)sToSandboxSecureDefaults;
+- (id)DidMigrateDefaultsToSandboxSecureDefaults;
 - (id)ä;
 - (_Bool)¸;
 - (void);
 - (unsigned long long)ßÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *ancestorTabUUIDs; // @synthesize ancestorTabUUIDs=_ancestorTabUUIDs;
-@property(readonly, nonatomic) long long closedItemType;
-@property(readonly, nonatomic) NSArray *cookies;
-@property(readonly, nonatomic) NSDate *dateClosed; // @synthesize dateClosed=_dateClosed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned int deprecatedTabIdentifier; // @synthesize deprecatedTabIdentifier=_deprecatedTabIdentifier;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisposable) _Bool disposable; // @synthesize disposable=_disposable;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInUnnamedTabGroup) _Bool inUnnamedTabGroup; // @synthesize inUnnamedTabGroup=_inUnnamedTabGroup;
-@property(readonly, nonatomic) double lastVisitTime; // @synthesize lastVisitTime=_lastVisitTime;
-@property(readonly, nonatomic) NSData *localStorageData;
-@property(readonly, nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(readonly, nonatomic) unsigned long long numberOfTabs;
-@property(readonly, nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(readonly, copy, nonatomic) NSString *pinnedPageTitle; // @synthesize pinnedPageTitle=_pinnedPageTitle;
-@property(readonly, nonatomic) NSURL *pinnedPageURL; // @synthesize pinnedPageURL=_pinnedPageURL;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *queuedNavigation; // @synthesize queuedNavigation=_queuedNavigation;
-@property(nonatomic) _Bool restoredFromPersistentData; // @synthesize restoredFromPersistentData=_restoredFromPersistentData;
-@property(readonly, nonatomic, getter=isSafeToLoadWebPage) _Bool safeToLoadWebPage; // @synthesize safeToLoadWebPage=_safeToLoadWebPage;
-@property(readonly, nonatomic) NSData *sessionStateData; // @synthesize sessionStateData=_sessionStateData;
-@property(readonly, nonatomic) NSData *sessionStorageData;
-@property(readonly, nonatomic) _Bool shouldDeferRestorationUntilSelected;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WBTab *tabGroupTab; // @synthesize tabGroupTab=_tabGroupTab;
-@property(readonly, nonatomic) WBLocalTabAttributes *tabGroupTabLocalAttributes;
-@property(readonly, copy, nonatomic) NSString *tabGroupUUID; // @synthesize tabGroupUUID=_tabGroupUUID;
-@property(readonly, nonatomic) unsigned long long tabIndex; // @synthesize tabIndex=_tabIndex;
-@property(readonly, nonatomic) NSUUID *tabUUID; // @synthesize tabUUID=_tabUUID;
-@property(readonly, copy, nonatomic) NSArray *tabUUIDs;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *titleForMenu;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSUUID *windowUUID; // @synthesize windowUUID=_windowUUID;
 
 @end
 

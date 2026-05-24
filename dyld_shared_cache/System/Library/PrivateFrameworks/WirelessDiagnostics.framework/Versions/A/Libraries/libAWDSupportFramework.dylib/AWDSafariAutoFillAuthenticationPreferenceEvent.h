@@ -7,11 +7,6 @@
 @interface AWDSafariAutoFillAuthenticationPreferenceEvent
 {
     unsigned long long _timestamp;
-    _Bool _requiresAuthentication;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int requiresAuthentication:1;
-    } _has;
 }
 
 - (void);
@@ -20,23 +15,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)V7v7;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequiresAuthentication;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool requiresAuthentication; // @synthesize requiresAuthentication=_requiresAuthentication;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

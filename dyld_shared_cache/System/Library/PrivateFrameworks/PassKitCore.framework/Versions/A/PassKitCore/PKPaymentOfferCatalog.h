@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
+@class NSDate;
 
 @interface PKPaymentOfferCatalog
 {
     NSDate *_lastUpdated;
-    NSSet *_catalog;
-    NSSet *_capabilities;
-    double _proactiveFetchPeriod;
 }
 
 + (_Bool);
@@ -22,30 +19,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)9C;
 - (id);
-- (_Bool);
+- (_Bool)setIsiTunesSignedIn:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)Y"Ð!T@ùñï%1Â0@ù
 × ;
-- (id)malNumberHandlerWithRoundingMode:(id)arg1 scale:raiseOnExactness:raiseOnOverflow:raiseOnUnderflow:raiseOnDivideByZero: /* Error: Ran out of types for this method. */;
+- (id)decimalNumberHandlerWithRoundingMode:(id)arg1 scale:raiseOnExactness:raiseOnOverflow:raiseOnUnderflow:raiseOnDivideByZero: /* Error: Ran out of types for this method. */;
 - (void)nts;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *capabilities; // @synthesize capabilities=_capabilities;
-@property(copy, nonatomic) NSSet *catalog; // @synthesize catalog=_catalog;
 @property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(nonatomic) double proactiveFetchPeriod; // @synthesize proactiveFetchPeriod=_proactiveFetchPeriod;
 
 @end
 

@@ -4,65 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectContext, NSMapTable, NSMutableDictionary, NSObject, NSSet, PHPersistentChangeEnumerationContext, PHPersistentChangeFetchOptions, PHPersistentChangeToken, PHPhotoLibrary, PLSortedChangedObjects;
-@protocol OS_dispatch_queue;
+@class NSManagedObjectContext, NSSet;
 
 @interface PHChange
 {
     NSSet *_insertedObjectIDs;
-    NSSet *_changedObjectIDs;
-    NSSet *_deletedObjectIDs;
-    NSDictionary *_changedAttributesByOID;
-    NSDictionary *_changedRelationshipsByOID;
-    NSMutableDictionary *_updatedObjectsChangedAttributesByEntityName;
-    NSMutableDictionary *_updatedObjectsChangedRelationshipsByEntityName;
-    PLSortedChangedObjects *_sortedChangedObjectIDs;
-    NSMutableDictionary *_changeDetailsForObjects;
-    NSMutableDictionary *_collectionChangeDetailsForObjects;
-    NSObject<OS_dispatch_queue> *_changeDetailIsolation;
-    NSMapTable *_changeHandlingMap;
-    _Bool _unknownMergeEvent;
-    NSMutableDictionary *_objectIDsByLocalIdentifier;
-    NSSet *_refetchedFetchResults;
-    NSManagedObjectContext *_context;
-    PHPhotoLibrary *_library;
-    NSDictionary *_deletedUuidsByObjectId;
-    NSDictionary *_deletedPrimaryLabelCodesByObjectId;
-    PHPersistentChangeFetchOptions *_fetchOptions;
-    PHPersistentChangeEnumerationContext *_enumerationContext;
-    PHPersistentChangeToken *_changeToken;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (void);
++ (void)STAppInfoCacheSkipSynced;
 + (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)ic_isAutomaticDownloadsEnabledForMediaKindMusic;
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool)86Z;
 - (id);
 - (id);
 - (_Bool);
@@ -75,7 +53,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)M;
 - (id);
 - (void);
 - (_Bool);
@@ -88,55 +66,47 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)safari_settingsDirectoryForHomeDirectory: /* Error: Ran out of types for this method. */;
+- (_Bool)closeCurrentEntryWithError:(id)arg1;
+- (id)thRule;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)initWithIdentifier:(id)arg1 givenName:isParent:isRemote:hasPasscode:screenTimeEnabled:syncingEnabled:checkForUnsafePhotos:communicationSafetyNotificationEnabled:communicationSafetyAnalyticsEnabled:familyMemberType: /* Error: Ran out of types for this method. */;
+- (id)s:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)*;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)ssianMixtureModels:(id)arg1:invertVars() - bad value %f in variance vector /* Error: Ran out of types for this method. */;
+- (id)) not called;
+- (_Bool)>9;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool)ÔA!,Dù°1Â0@ù
 × ;
-- (id)ze:contentMode:skipInstantiatingImageAndAVAsset:error: /* Error: Ran out of types for this method. */;
-- (_Bool)ollection:(id)arg1 referenceAsset: /* Error: Ran out of types for this method. */;
-- (_Bool)InMemory:(id)arg1;
-- (void)Device: /* Error: Ran out of types for this method. */;
+- (id)livePhotoWithResourceFileURLs:targetSize:contentMode:skipInstantiatingImageAndAVAsset:error: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchKeyCuratedAssetInAssetCollection:(id)arg1 referenceAsset: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchUserCuratedAssetsInMemory:(id)arg1;
+- (void)initWithDevice: /* Error: Ran out of types for this method. */;
 - (id)ata;
 - (id)´;
-- (_Bool)TypeSurveyHoliday;
-- (id);
+- (_Bool)PHQuestionTypeSurveyHoliday;
+- (id)PHPhotosErrorLibraryVolumeUnmountRequested;
 - (_Bool)n Too Far;
 - (_Bool)y|Widget|Wallpaper type Suggestion;
 
 // Remaining properties
-@property(readonly, nonatomic) PHPersistentChangeToken *changeToken; // @synthesize changeToken=_changeToken;
 @property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSDictionary *deletedPrimaryLabelCodesByObjectId; // @synthesize deletedPrimaryLabelCodesByObjectId=_deletedPrimaryLabelCodesByObjectId;
-@property(readonly, nonatomic) NSDictionary *deletedUuidsByObjectId; // @synthesize deletedUuidsByObjectId=_deletedUuidsByObjectId;
-@property(readonly, nonatomic) PHPersistentChangeEnumerationContext *enumerationContext; // @synthesize enumerationContext=_enumerationContext;
-@property(readonly, nonatomic) PHPersistentChangeFetchOptions *fetchOptions; // @synthesize fetchOptions=_fetchOptions;
-@property(readonly, nonatomic) _Bool hasIncrementalChanges;
-@property(readonly, nonatomic) PHPhotoLibrary *library; // @synthesize library=_library;
-@property(readonly, nonatomic) unsigned long long totalChangeCount;
 
 @end
 

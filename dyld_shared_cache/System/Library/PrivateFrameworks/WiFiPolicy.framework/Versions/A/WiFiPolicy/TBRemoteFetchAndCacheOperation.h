@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, TBRemoteFetchAndCacheDataSource;
-@protocol TBFetchRequest, TBFetchResponse;
+@protocol TBFetchRequest;
 
 @interface TBRemoteFetchAndCacheOperation
 {
     _Bool _finished;
-    NSDate *_start;
-    id <TBFetchResponse> _response;
-    id <TBFetchRequest> _fetchRequest;
-    TBRemoteFetchAndCacheDataSource *_dataSource;
 }
 
 - (id);
-- (void);
+- (void)getTokensForAssets:(id)arg1 inAlbum:albumURLString:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)reloadCollectionViewItemForStickerItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -32,9 +27,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) TBRemoteFetchAndCacheDataSource *dataSource; // @synthesize dataSource=_dataSource;
 @property(retain, nonatomic) id <TBFetchRequest> fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(retain, nonatomic) id <TBFetchResponse> response; // @synthesize response=_response;
 
 @end
 

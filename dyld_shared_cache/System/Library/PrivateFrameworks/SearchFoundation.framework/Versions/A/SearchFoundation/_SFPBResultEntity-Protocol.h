@@ -7,11 +7,10 @@
 @class NSData, NSString, _SFPBLocationTypeInfo;
 
 @protocol _SFPBResultEntity
+- (_SFPBLocationTypeInfo *)$;
+- (NSData *)ingIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBLocationTypeInfo *location_type_info;
-@property(copy, nonatomic) NSString *maps_encrypted_muid;
 @property(copy, nonatomic) NSString *name;
 @end
 

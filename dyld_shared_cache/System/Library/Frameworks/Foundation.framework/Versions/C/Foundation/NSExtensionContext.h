@@ -7,7 +7,6 @@
 @interface NSExtensionContext
 {
     _Bool __dummyExtension;
-    id _internalImplementation;
 }
 
 @end

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCSandboxedURL
 {
     unsigned char _accessType;
-    NSString *_urlToken;
-    long long _urlTokenHandle;
-    _Bool _deserialized;
-    _Bool _tokenConsumed;
 }
 
 + (id);
@@ -25,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)locationTrigger;
+- (void)i;
 - (id);
 - (const char *)nalyzerResult-init failed;
 

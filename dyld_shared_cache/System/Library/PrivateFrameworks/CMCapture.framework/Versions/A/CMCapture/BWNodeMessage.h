@@ -7,7 +7,6 @@
 @interface BWNodeMessage
 {
     int _category;
-    int _type;
 }
 
 - (int);
@@ -15,7 +14,6 @@
 
 // Remaining properties
 @property(readonly) int category;
-@property(readonly) int type;
 
 @end
 

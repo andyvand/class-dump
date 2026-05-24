@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShare, NSMutableDictionary, NSPersistentContainer;
+@class CKShare;
 
 __attribute__((visibility("hidden")))
 @interface PFCKRecordConflictResolver
 {
     CKShare *_ancestorRecord;
-    CKShare *_serverRecord;
-    CKShare *_clientRecord;
-    CKShare *_resolvedRecord;
-    NSPersistentContainer *_container;
-    NSMutableDictionary *_allParticipantsByID;
-    NSMutableDictionary *_participantObjectIDsByParticipantID;
-    NSMutableDictionary *_recordIDToObjectID;
 }
 
 - (id);

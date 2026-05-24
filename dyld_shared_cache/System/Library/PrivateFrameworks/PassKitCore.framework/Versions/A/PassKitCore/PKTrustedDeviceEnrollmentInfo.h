@@ -9,11 +9,6 @@
 @interface PKTrustedDeviceEnrollmentInfo
 {
     _Bool _supportsAccessExpressMode;
-    NSString *_deviceName;
-    NSString *_deviceSerialNumber;
-    NSString *_deviceUDID;
-    NSString *_productType;
-    NSString *_secureElementIdentifier;
 }
 
 + (_Bool);
@@ -21,13 +16,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)bringUpMethod;
 - (id);
 - (id);
-- (void)e:(id)arg1 subtype: /* Error: Ran out of types for this method. */;
+- (void)setProductType:(id)arg1 subtype: /* Error: Ran out of types for this method. */;
 - (id)ray",R,N,V_allowedRelayServerHosts;
 - (void)cess;
 - (void);
@@ -36,11 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(retain, nonatomic) NSString *deviceSerialNumber; // @synthesize deviceSerialNumber=_deviceSerialNumber;
-@property(retain, nonatomic) NSString *deviceUDID; // @synthesize deviceUDID=_deviceUDID;
-@property(retain, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(retain, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
-@property(nonatomic) _Bool supportsAccessExpressMode; // @synthesize supportsAccessExpressMode=_supportsAccessExpressMode;
 
 @end
 

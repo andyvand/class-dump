@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface BMResourceSyncPolicy
 {
     long long _currentPlatform;
-    NSDictionary *_platformPolicies;
 }
 
 - (_Bool);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentPlatform; // @synthesize currentPlatform=_currentPlatform;
-@property(readonly, nonatomic) NSDictionary *platformPolicies; // @synthesize platformPolicies=_platformPolicies;
 
 @end
 

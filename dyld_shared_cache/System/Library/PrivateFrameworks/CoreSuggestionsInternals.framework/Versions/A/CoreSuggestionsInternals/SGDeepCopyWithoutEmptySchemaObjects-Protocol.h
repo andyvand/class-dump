@@ -5,5 +5,6 @@
 //
 
 @protocol SGDeepCopyWithoutEmptySchemaObjects
+- (id)B;
 @end
 

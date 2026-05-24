@@ -7,18 +7,18 @@
 @interface UnknownClass (MSVSequence)
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)*;
 - (id);
 - (long long);
 - (long long);
-- (int);
+- (int);
 - (float);
 - (double);
 - (double);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 @end

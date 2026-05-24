@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface AMSContractBagShim
@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool)umber"@"NSError">16;
-- (id):(id)arg1;
+- (id)setDay:(id)arg1;
 - (_Bool)t for signature verification;
 - (void)ªÖÀd3ÿn
 lrL ¡¨hÄÈ'IOIDäõ§gHøÎè¤e'­br¥&|ôx®¯¯¬-¬Ú-­ò¬­®­­®·¢©¦)ç)X¢®®ªª¯Í¤¦©¬ú«©¼­úü¼¾©¬ú«¥¼¥îßßÃÊæÁÌ©¬ú«¤¼²îßßÃÊìÊÝÛÆÉÆÌÎÛÆÀÁîÚÛÇÀÝÆÛÖ¹»©¬ú«¬¼¢îßßÃÊýÀÀÛìî±¸¢õ¸¢õÐ¤¦©¬ú«©¼­úü¼¾©¬ú«¥¼¥îßßÃÊæÁÌ©¬ú«¤¼²îßßÃÊìÊÝÛÆÉÆÌÎÛÆÀÁîÚÛÇÀÝÆÛÖ©¬ú«¬¼îßßÃÊéÎÆÝÿÃÎÖîîîìÊÝÛÆÉÆÌÎÛÆÀÁîÚÛÇÀÝÆÛÖ.0¢©¦)ç)X¢®®®ª¯¬."¯.&­..¯Fÿ¡-¸uZÈ¸k.èQì°Ôï±êMD~ìBê ÕZÜYQ­%[«À§þÕfQÝ/üØø"
@@ -36,21 +36,6 @@ Rø¸¼ép¤vrê:ÅJ;w-BîÄä»Ç!¦\nfk+/ eÐ¸{5]
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject *bagContract; // @synthesize bagContract=_bagContract;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDate *expirationDate;
-@property(readonly, getter=isExpired) _Bool expired;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
-@property(readonly) Class superclass;
 
 @end
 

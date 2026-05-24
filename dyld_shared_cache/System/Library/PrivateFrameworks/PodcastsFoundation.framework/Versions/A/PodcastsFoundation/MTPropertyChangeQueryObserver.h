@@ -14,7 +14,7 @@
 
 + (Class);
 - (id);
-- (void);
+- (void)9#;
 - (id);
 
 // Remaining properties

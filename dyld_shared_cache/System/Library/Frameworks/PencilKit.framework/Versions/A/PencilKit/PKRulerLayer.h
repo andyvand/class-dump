@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CATextLayer, NSTimer, PKRulerController;
+@class NSTimer;
 
 @interface PKRulerLayer
 {
     _Bool _isInlineResizing;
-    _Bool _isExpandedInline;
-    _Bool _isRulerDrawingMovingToEndOfRuler;
-    _Bool _zooming;
-    PKRulerController *_rulerController;
-    double _rulerAlpha;
-    CALayer *_rulerAngleMarker;
-    NSTimer *_imageTransformTimer;
-    double _initialDrawingBoundsYOrigin;
-    CALayer *_rulerLayer;
-    CALayer *_rulerAngleTick;
-    CATextLayer *_rulerAngleText;
-    CALayer *_rulerDistanceHUD;
-    CATextLayer *_rulerDistanceText;
-    double _currentTValueForSnappedDrawing;
-    double _minTValueForSnappedDrawing;
-    double _maxTValueForSnappedDrawing;
-    double _originTValueForSnappedDrawing;
-    double _rulerZoomStartCenterTValueOnScreen;
-    double _rulerZoomStartScale;
-    struct CGAffineTransform _previousRulerTransform;
-    struct CGAffineTransform _rulerZoomStartTransform;
 }
 
 - (_Bool);
@@ -44,6 +23,15 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)l;
+- (void);
+- (void);
+- (void)"d;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,16 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!8k!)a;
 - (void);
 - (void);
 - (void);
@@ -83,7 +62,7 @@
 - (void);
 - (struct CGAffineTransform);
 - (double);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -110,29 +89,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double currentTValueForSnappedDrawing; // @synthesize currentTValueForSnappedDrawing=_currentTValueForSnappedDrawing;
 @property(retain, nonatomic) NSTimer *imageTransformTimer; // @synthesize imageTransformTimer=_imageTransformTimer;
-@property(nonatomic) double initialDrawingBoundsYOrigin; // @synthesize initialDrawingBoundsYOrigin=_initialDrawingBoundsYOrigin;
-@property(nonatomic) _Bool isExpandedInline; // @synthesize isExpandedInline=_isExpandedInline;
-@property(nonatomic) _Bool isInlineResizing; // @synthesize isInlineResizing=_isInlineResizing;
-@property(nonatomic) _Bool isRulerDrawingMovingToEndOfRuler; // @synthesize isRulerDrawingMovingToEndOfRuler=_isRulerDrawingMovingToEndOfRuler;
-@property(nonatomic) double maxTValueForSnappedDrawing; // @synthesize maxTValueForSnappedDrawing=_maxTValueForSnappedDrawing;
-@property(nonatomic) double minTValueForSnappedDrawing; // @synthesize minTValueForSnappedDrawing=_minTValueForSnappedDrawing;
-@property(nonatomic) double originTValueForSnappedDrawing; // @synthesize originTValueForSnappedDrawing=_originTValueForSnappedDrawing;
-@property(nonatomic) struct CGAffineTransform previousRulerTransform; // @synthesize previousRulerTransform=_previousRulerTransform;
-@property(nonatomic) double rulerAlpha; // @synthesize rulerAlpha=_rulerAlpha;
-@property(retain, nonatomic) CALayer *rulerAngleMarker; // @synthesize rulerAngleMarker=_rulerAngleMarker;
-@property(retain, nonatomic) CATextLayer *rulerAngleText; // @synthesize rulerAngleText=_rulerAngleText;
-@property(retain, nonatomic) CALayer *rulerAngleTick; // @synthesize rulerAngleTick=_rulerAngleTick;
-@property(nonatomic) __weak PKRulerController *rulerController; // @synthesize rulerController=_rulerController;
-@property(retain, nonatomic) CALayer *rulerDistanceHUD; // @synthesize rulerDistanceHUD=_rulerDistanceHUD;
-@property(retain, nonatomic) CATextLayer *rulerDistanceText; // @synthesize rulerDistanceText=_rulerDistanceText;
-@property(retain, nonatomic) CALayer *rulerLayer; // @synthesize rulerLayer=_rulerLayer;
-@property(nonatomic) struct CGAffineTransform rulerTransform;
-@property(nonatomic) double rulerZoomStartCenterTValueOnScreen; // @synthesize rulerZoomStartCenterTValueOnScreen=_rulerZoomStartCenterTValueOnScreen;
-@property(nonatomic) double rulerZoomStartScale; // @synthesize rulerZoomStartScale=_rulerZoomStartScale;
-@property(nonatomic) struct CGAffineTransform rulerZoomStartTransform; // @synthesize rulerZoomStartTransform=_rulerZoomStartTransform;
-@property(nonatomic) _Bool zooming; // @synthesize zooming=_zooming;
 
 @end
 

@@ -10,11 +10,10 @@
 @interface EKUIVisualEffectView
 {
     TintColorUpdateView *_updateView;
-    NSObject<EKUITintColorUpdateDelegate> *_tintColorDelegate;
 }
 
 - (void);
-- (void);
+- (void).A.dylib;
 - (void);
 - (id);
 - (id);

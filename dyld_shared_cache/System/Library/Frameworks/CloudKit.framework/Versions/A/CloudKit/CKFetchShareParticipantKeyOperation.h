@@ -6,17 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchShareParticipantKeyOperationInfo, NSArray, NSDictionary, NSMutableDictionary, NSString;
-@protocol CKFetchShareParticipantKeyOperationCallbacks;
+@class NSArray;
 
 @interface CKFetchShareParticipantKeyOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _shareParticipantKeyFetchedBlock;
-    CDUnknownBlockType _shareParticipantKeyCompletionBlock;
-    NSDictionary *_baseTokensByShareID;
-    NSDictionary *_childRecordIDsByShareID;
-    NSArray *_shareIDs;
-    NSMutableDictionary *_errorsByShareID;
 }
 
 + (SEL);
@@ -24,7 +18,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)сR;
 - (void);
 - (void);
 - (void);
@@ -35,7 +29,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -46,21 +40,7 @@
 - (void)­?;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *baseTokensByShareID; // @synthesize baseTokensByShareID=_baseTokensByShareID;
-@property(copy, nonatomic) NSDictionary *childRecordIDsByShareID; // @synthesize childRecordIDsByShareID=_childRecordIDsByShareID;
-@property(readonly, nonatomic) id <CKFetchShareParticipantKeyOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *errorsByShareID; // @synthesize errorsByShareID=_errorsByShareID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKFetchShareParticipantKeyOperationInfo *operationInfo; // @dynamic operationInfo;
 @property(copy, nonatomic) NSArray *shareIDs; // @synthesize shareIDs=_shareIDs;
-@property(copy, nonatomic) CDUnknownBlockType shareParticipantKeyCompletionBlock; // @synthesize shareParticipantKeyCompletionBlock=_shareParticipantKeyCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType shareParticipantKeyFetchedBlock; // @synthesize shareParticipantKeyFetchedBlock=_shareParticipantKeyFetchedBlock;
-@property(readonly) Class superclass;
 
 @end
 

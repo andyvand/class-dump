@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMediaDestination, HMMediaDestinationControllerData, NSArray;
+@class HMMediaDestination;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsParticipantData
 {
     HMMediaDestination *_destination;
-    HMMediaDestinationControllerData *_destinationControllerData;
-    NSArray *_backedUpGroups;
 }
 
 - (void);
@@ -25,15 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id)components:(struct _NSZone *)arg1 settingsControllerCreator: /* Error: Ran out of types for this method. */;
+- (id)initWithUUID:(struct _NSZone *)arg1 configuredName:home:data:components:settingsControllerCreator: /* Error: Ran out of types for this method. */;
 - (void)significantEventManager;
 - (void)ation failure.;
 - (id)¡@Òk>;
 
 // Remaining properties
-@property(copy) NSArray *backedUpGroups; // @synthesize backedUpGroups=_backedUpGroups;
 @property(copy) HMMediaDestination *destination; // @synthesize destination=_destination;
-@property(copy) HMMediaDestinationControllerData *destinationControllerData; // @synthesize destinationControllerData=_destinationControllerData;
 
 @end
 

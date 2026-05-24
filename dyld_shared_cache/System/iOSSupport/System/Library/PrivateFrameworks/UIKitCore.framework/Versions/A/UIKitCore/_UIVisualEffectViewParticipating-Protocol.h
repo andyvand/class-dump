@@ -8,18 +8,16 @@
 @protocol _UIVisualEffectViewParticipating;
 
 @protocol _UIVisualEffectViewParticipating
+- (void)rsonalizationRequest";
 - (NSArray *);
 - (_UIVisualEffectViewBackdropCaptureGroup *)0@ù
 × ;
-- (UIView<_UIVisualEffectViewParticipating> *)y;
+- (UIView<_UIVisualEffectViewParticipating> *)_supportsPlayingFeedbackPatternsDirectly;
 - (void);
 - (void)Äþÿ;
 - (NSArray *)sponderChainStartCollectingDebugInfo(SEL _Nonnull);
 
 // Remaining properties
-@property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containedView;
-@property(copy, nonatomic) NSArray *filters;
 @property(retain, nonatomic) _UIVisualEffectViewBackdropCaptureGroup *primaryCaptureGroup;
-@property(copy, nonatomic) NSArray *viewEffects;
 @end
 

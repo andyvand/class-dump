@@ -7,14 +7,6 @@
 @interface WidgetKit.ListItemViewStates
 {
     id viewEntryToEnvironment;
-    id archivedFamily;
-    id environment;
-    id _viewCount;
-    id _metricsDefinition;
-    id _cartesianCollection;
-    id _needsHostContent;
-    id _lastMetricsProcessed;
-    id _lastEnvProcessed;
 }
 
 @end

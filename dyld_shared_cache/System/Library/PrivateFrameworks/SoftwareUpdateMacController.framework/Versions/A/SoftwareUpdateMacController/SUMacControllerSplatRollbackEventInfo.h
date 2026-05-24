@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, SUCoreDescriptor, SUMacControllerClientRequest;
+@class NSError, NSString;
 
 @interface SUMacControllerSplatRollbackEventInfo
 {
     NSError *_error;
-    SUMacControllerClientRequest *_clientRequest;
-    CDUnknownBlockType _completion;
-    SUCoreDescriptor *_brainDescriptor;
-    NSString *_persistenceDescription;
 }
 
 + (_Bool);
@@ -36,10 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SUCoreDescriptor *brainDescriptor; // @synthesize brainDescriptor=_brainDescriptor;
-@property(retain, nonatomic) SUMacControllerClientRequest *clientRequest; // @synthesize clientRequest=_clientRequest;
-@property(readonly, retain, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSString *persistenceDescription; // @synthesize persistenceDescription=_persistenceDescription;
 
 @end

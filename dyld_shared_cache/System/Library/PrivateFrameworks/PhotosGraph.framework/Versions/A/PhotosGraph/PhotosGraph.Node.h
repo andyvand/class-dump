@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 @interface PhotosGraph.Node
 {
     unsigned long long identifier;
-    void labels;
-    void properties;
 }
 
-- (void);
+- (void)D4;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long identifier; // @synthesize identifier;
-@property(nonatomic, readonly) NSSet *labels;
-@property(nonatomic, readonly) NSDictionary *properties;
 
 @end
 

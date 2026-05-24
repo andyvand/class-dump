@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRRecognitionMetrics, NSData;
+@class ASRSchemaASRRecognitionMetrics;
 
 @interface ASRSchemaASRFailed : SISchemaInstrumentationMessage
 {
     ASRSchemaASRRecognitionMetrics *_metrics;
-    _Bool _hasMetrics;
 }
 
 - (void);
 - (void);
 - (_Bool);
+- (id)setEnqueuedNMEATimestamps:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void):(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id)putLanguage;
+- (id)siriInputLanguage;
 - (id)°Ç;
 - (void)ù;
 - (id);
 - (void)äT¬	';
 
 // Remaining properties
-@property(nonatomic) _Bool hasMetrics; // @synthesize hasMetrics=_hasMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRRecognitionMetrics *metrics; // @synthesize metrics=_metrics;
 
 @end

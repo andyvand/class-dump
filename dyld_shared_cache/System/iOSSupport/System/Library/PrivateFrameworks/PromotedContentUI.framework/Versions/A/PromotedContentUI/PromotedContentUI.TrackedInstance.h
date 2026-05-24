@@ -7,10 +7,9 @@
 @interface PromotedContentUI.TrackedInstance
 {
     id instance;
-    id completed;
 }
 
-- (id);
+- (id)x;
 - (void);
 
 @end

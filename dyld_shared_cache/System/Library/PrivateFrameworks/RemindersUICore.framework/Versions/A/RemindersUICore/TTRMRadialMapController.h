@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, MKMapView, NSColor, NSString, TTRMMapContainerView, TTRMMapDragRadiusView, _MKLocationShifter;
-@protocol TTRMRadialMapControllerDelegate;
+@class CLCircularRegion, TTRMMapContainerView;
 
 @interface TTRMRadialMapController
 {
     CLCircularRegion *_region;
-    long long _proximity;
-    id <TTRMRadialMapControllerDelegate> delegate;
-    MKMapView *mapView;
-    TTRMMapDragRadiusView *dragView;
-    _MKLocationShifter *_locationShifter;
-    TTRMMapContainerView *_mapContainerView;
 }
 
 - (void);
@@ -25,15 +18,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)`;
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,22 +45,7 @@
 - (id)G6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TTRMRadialMapControllerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) TTRMMapDragRadiusView *dragView; // @synthesize dragView;
-@property(readonly) unsigned long long hash;
-@property(retain) _MKLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
 @property(retain) TTRMMapContainerView *mapContainerView; // @synthesize mapContainerView=_mapContainerView;
-@property(retain) MKMapView *mapView; // @synthesize mapView;
-@property(retain, nonatomic) NSColor *mapViewBorderColor;
-@property(nonatomic) double mapViewCornerRadius;
-@property(nonatomic) long long proximity; // @synthesize proximity=_proximity;
-@property(retain, nonatomic) CLCircularRegion *region; // @synthesize region=_region;
-@property(readonly) Class superclass;
 
 @end
 

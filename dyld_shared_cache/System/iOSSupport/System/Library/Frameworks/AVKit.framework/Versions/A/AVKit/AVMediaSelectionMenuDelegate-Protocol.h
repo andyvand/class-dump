@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVMediaPresentationSetting, NSArray, NSString;
+
 @protocol AVMediaSelectionMenuDelegate
+
+@optional
+- (_Bool);
+- (AVMediaPresentationSetting *)$s12SiriOntology28LandmarkIntentNodeContainingP;
+- (unsigned long long)Sg;
+- (AVMediaPresentationSetting *).Sg_ABt;
+- (NSString *)_ABt;
+- (void)SDyS2SG;
+- (NSArray *)13derivedOrigin_t;
+- (unsigned long long)L.G;
+- (NSString *)B;
 @end
 

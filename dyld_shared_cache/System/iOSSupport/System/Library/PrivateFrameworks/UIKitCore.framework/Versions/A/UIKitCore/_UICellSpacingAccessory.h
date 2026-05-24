@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     struct CGSize _size;
 }
 
-+ (id)HorizontalIndexTitleBarCell;
++ (id)_UIHorizontalIndexTitleBarCell;
+- (struct CGSize)Transition";
 - (struct CGSize);
-- (struct CGSize);
-- (_Bool)eViewShouldShareTouchesWithHost:(id)arg1;
+- (_Bool)setServiceViewShouldShareTouchesWithHost:(id)arg1;
 - (id)uage;
 
 // Remaining properties

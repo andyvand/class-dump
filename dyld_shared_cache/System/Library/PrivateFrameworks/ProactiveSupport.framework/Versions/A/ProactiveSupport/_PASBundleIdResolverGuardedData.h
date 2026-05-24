@@ -9,10 +9,9 @@
 @interface _PASBundleIdResolverGuardedData
 {
     NSString *bundleIdOrProcName;
-    _Bool isProcessName;
 }
 
-- (void);
+- (void)setCreated: /* Error: Ran out of types for this method. */;
 
 @end
 

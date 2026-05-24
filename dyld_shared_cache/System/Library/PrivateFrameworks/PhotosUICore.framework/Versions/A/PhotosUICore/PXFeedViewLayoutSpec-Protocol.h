@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont, NSShadow, PXScrollBehavior;
+@class PXScrollBehavior;
 
 @protocol PXFeedViewLayoutSpec
-- (long long);
+- (struct NSEdgeInsets);
+- (void);
+- (struct CGSize)nager:(struct CGSize)arg1 bookmarkManager:prerollAdFactory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsAutoplayContent;
-@property(readonly, nonatomic) struct NSEdgeInsets horizontalScrollIndicatorInsets;
-@property(nonatomic) _Bool isFullScreen;
-@property(readonly, nonatomic) double itemCornerRadius;
-@property(readonly, nonatomic) NSShadow *itemShadow;
-@property(readonly, nonatomic) long long numberOfColumns;
-@property(readonly, nonatomic) double overlayFeedPeekDistance;
-@property(readonly, nonatomic) struct NSEdgeInsets placeholderMargins;
-@property(readonly, nonatomic) long long rootLayoutOrientation;
 @property(readonly, nonatomic) PXScrollBehavior *scrollBehavior;
-@property(readonly, nonatomic) NSColor *subtitleColor;
-@property(readonly, nonatomic) NSFont *subtitleFont;
-@property(readonly, nonatomic) struct NSEdgeInsets subtitleInsets;
-@property(readonly, nonatomic) struct NSEdgeInsets verticalScrollIndicatorInsets;
-@property(readonly, nonatomic) struct NSEdgeInsets viewOutsets;
-@property(readonly, nonatomic) _Bool wantsFirstItemFullscreen;
-@property(readonly, nonatomic) _Bool wantsItemHoverEvents;
-@property(readonly, nonatomic) _Bool wantsSafeAreaInsets;
-@property(readonly, nonatomic) _Bool wantsScrollIndicators;
 @end
 

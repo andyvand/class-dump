@@ -7,13 +7,6 @@
 @interface ChatKit.TranscriptNavigationBarPrincipalView
 {
     id avatarViewButton;
-    id ornamentView;
-    id delegate;
-    id contextMenuActionHandler;
-    id currentConversation;
-    id conversationTitlePocketInteraction;
-    id shouldShowAvatarView;
-    id prefersOrnamentView;
 }
 
 - (void);

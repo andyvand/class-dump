@@ -5,5 +5,8 @@
 //
 
 @protocol NSScrubberFlowLayoutDelegate
+
+@optional
+- (struct CGSize)'";
 @end
 

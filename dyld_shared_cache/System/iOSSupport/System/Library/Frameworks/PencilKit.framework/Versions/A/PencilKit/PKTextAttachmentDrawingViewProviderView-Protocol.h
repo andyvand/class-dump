@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol PKTextAttachmentDrawingViewProviderView
+- (NSArray *)r/lib/swift/libswiftAccelerate.dylib;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedCursorDatabaseCommandHandler
 {
     id cloudContext;
-    id databaseExporter;
 }
 
 @end

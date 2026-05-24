@@ -5,5 +5,6 @@
 //
 
 @protocol ETDataSource
+- (int)message to terminated session(%s);
 @end
 

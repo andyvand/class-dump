@@ -19,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void),V_primaryPresentedItemURL;
 

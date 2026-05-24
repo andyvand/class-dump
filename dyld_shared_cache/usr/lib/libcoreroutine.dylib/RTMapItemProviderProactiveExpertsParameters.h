@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id)%{private}@};
 - (id);
 - (double);
 - (id)n too long,%f,threshold,%lu;

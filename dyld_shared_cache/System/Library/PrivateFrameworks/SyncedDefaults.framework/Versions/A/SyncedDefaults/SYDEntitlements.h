@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SYDEntitlements
 {
@@ -17,14 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)V;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *additionalStoreIdentifiers;
 @property(nonatomic, readonly) NSString *storeIdentifier;
-@property(nonatomic, readonly) NSArray *storeIdentifiers;
 
 @end
 

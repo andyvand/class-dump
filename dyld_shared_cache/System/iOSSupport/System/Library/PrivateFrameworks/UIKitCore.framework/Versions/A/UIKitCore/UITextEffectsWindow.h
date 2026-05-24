@@ -6,31 +6,11 @@
 
 #import <UIKitCore/UIAutoRotatingWindow.h>
 
-@class NSDictionary, NSLayoutConstraint, NSString, UIEditingOverlayViewController, UIWindowScene, _UITextEffectsWindowPlacer;
+@class UIWindowScene;
 
 @interface UITextEffectsWindow : UIAutoRotatingWindow
 {
     _Bool _inDealloc;
-    unsigned long long _activeEffectsCount;
-    _Bool _isFullscreen;
-    _Bool _isForViewService;
-    double _defaultWindowLevel;
-    struct CGPoint _hostedViewOrigin;
-    NSDictionary *_perSceneOptions;
-    UIWindowScene *__intendedWindowScene;
-    unsigned long long _activeRemoteViewCount;
-    unsigned long long _windowLevelCount;
-    double _windowLevelStack[5];
-    struct CGSize _hostedViewSize;
-    _Bool _manualHostingOverride;
-    UIEditingOverlayViewController *_editingOverlayViewController;
-    NSLayoutConstraint *_bottomConstraint;
-    _Bool _sceneIsResizing;
-    _UITextEffectsWindowPlacer *_placer;
-    struct CGPoint _hostedWindowOffset;
-    struct CGSize _hostedSceneSize;
-    struct UIEdgeInsets _hostedSafeInsets;
-    struct CGRect _hostedViewReference;
 }
 
 + (_Bool);
@@ -42,14 +22,14 @@
 + (id)
 × ;
 + (void)ControllerDelegate>";
-+ (id)edTimestamps:(id)arg1 startingAt:endingAt: /* Error: Ran out of types for this method. */;
-+ (id)ualTarget;
-+ (void)sLayoutEngine:(Class)arg1;
-+ (_Bool)hEvent;
++ (id)movieScrubberTrackView:(id)arg1 evenlySpacedTimestamps:startingAt:endingAt: /* Error: Ran out of types for this method. */;
++ (id)_visualTarget;
++ (void)_setHostsLayoutEngine:(Class)arg1;
++ (_Bool)_lastContinuousPathEvent;
 + (id)rgument's range different from the range of the context that the tracker was initialized with;
 + (id);
 + (id)ring *getkSymptomDiagnosticTypeEnergy(void);
-+ (id)extColor;
++ (id)UILabelConfiguration_hasCustomized_highlightedTextColor;
 - (void);
 - (long long);
 - (void);
@@ -63,27 +43,27 @@
 - (struct CGRect)of the return to sender button in the document menu;
 - (struct UIEdgeInsets)icationShortcutAction:onWindowScene:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void):(double)arg1 failed to insert subtree from snapshotter (%@) into snapshotter (%@) at insertion index %ld;
-- (void)electionDragGesture;
-- (struct CGRect)peFitzpatrick5;
+- (void)PKSelectionDragGesture;
+- (struct CGRect)EMFSkinToneSpecifierTypeFitzpatrick5;
 - (double)left bounds;
 - (void)ill.autofillDetected;
 - (struct CGRect)the "%@" image referenced from a nib in the bundle with identifier "%@";
-- (void)le;
+- (void)FakeMainScreenScale;
 - (void)region %f;
-- (id)putViewHiddenCount;
+- (id)InputViewHiddenCount;
 - (_Bool)BEKeyEntry"8B16;
 - (_Bool)efined state.;
-- (void)dioCustom;
+- (void)CHHapticEventTypeAudioCustom;
 - (void)ruid connection yet;
 - (id)onst char *__ui_archive_format_name(struct ui_archive *);
 - (_Bool)iew controller before calling a UIViewController initializer. View controller:(id)arg1 %@;
-- (_Bool)plyViewControllers;
+- (_Bool)_applyViewControllers;
 - (void)>;
 - (struct CGRect)turned a cell without a reuseIdentifier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 - (id)8Q16^B24;
 - (struct CGPoint)ourceSnapshot.numberOfSections;
 - (void)Action;
-- (id)ncyCATransactionCommit;
+- (id)LowLatencyCATransactionCommit;
 - (void)l;
 - (void)olver;
 - (_Bool)ue;
@@ -99,7 +79,7 @@
 - (void)EÀ7ì;
 - (struct CGSize)	;
 - (long long)SolariumInsetsAndCornerRadiusEnabled;
-- (id)ics;
+- (id)_UIBarButtonItemMetrics;
 - (void);
 - (void);
 - (struct CGRect)ÜB;
@@ -154,30 +134,6 @@
 
 // Remaining properties
 @property(readonly) UIWindowScene *_intendedScene;
-@property(readonly) NSDictionary *_options;
-@property(readonly) unsigned int contextID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double defaultWindowLevel; // @synthesize defaultWindowLevel=_defaultWindowLevel;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIEditingOverlayViewController *editingOverlayViewController; // @synthesize editingOverlayViewController=_editingOverlayViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect hostedFrame;
-@property(nonatomic) struct UIEdgeInsets hostedSafeInsets; // @synthesize hostedSafeInsets=_hostedSafeInsets;
-@property(nonatomic) struct CGSize hostedSceneSize; // @synthesize hostedSceneSize=_hostedSceneSize;
-@property(nonatomic) struct CGPoint hostedViewOrigin; // @synthesize hostedViewOrigin=_hostedViewOrigin;
-@property(nonatomic) struct CGRect hostedViewReference; // @synthesize hostedViewReference=_hostedViewReference;
-@property(nonatomic) struct CGSize hostedViewSize; // @synthesize hostedViewSize=_hostedViewSize;
-@property(nonatomic) struct CGPoint hostedWindowOffset; // @synthesize hostedWindowOffset=_hostedWindowOffset;
-@property(readonly, nonatomic) _Bool isForViewService; // @synthesize isForViewService=_isForViewService;
-@property(readonly, nonatomic) _Bool isFullscreen; // @synthesize isFullscreen=_isFullscreen;
-@property(readonly, nonatomic) struct CGSize keyboardScreenReferenceSize;
-@property(readonly, nonatomic) double keyboardWidthForCurrentDevice;
-@property(readonly, nonatomic) _UITextEffectsWindowPlacer *placer; // @synthesize placer=_placer;
-@property(readonly, nonatomic) _Bool sceneIsResizing; // @synthesize sceneIsResizing=_sceneIsResizing;
-@property(readonly) Class superclass;
 
 @end
 

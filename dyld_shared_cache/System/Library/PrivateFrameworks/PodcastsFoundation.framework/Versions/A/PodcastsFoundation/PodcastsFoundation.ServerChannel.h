@@ -9,10 +9,6 @@
 @interface PodcastsFoundation.ServerChannel
 {
     id href;
-    void id;
-    void type;
-    id attributes;
-    id relationships;
 }
 
 - (id);
@@ -26,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)E;
+- (id)_;
 - (id);
 - (id);
 - (id);
@@ -35,23 +31,7 @@
 - (void)SDy$ÿ$yxq_GG;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *artworkURL;
-@property(nonatomic, readonly) long long availableShowCount;
-@property(nonatomic, readonly) NSString *backgroundColor;
-@property(nonatomic, readonly) NSString *displayType;
-@property(nonatomic, readonly) NSString *fallbackSubscriptionName;
-@property(nonatomic, readonly) NSString *id;
-@property(nonatomic, readonly) float logoImageHeight;
-@property(nonatomic, readonly) NSString *logoImageURL;
-@property(nonatomic, readonly) float logoImageWidth;
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) long long showCount;
-@property(nonatomic, readonly) NSString *storeId;
-@property(nonatomic, readonly) NSString *subscriptionName;
-@property(nonatomic, readonly) NSString *type;
-@property(nonatomic, readonly) NSString *uberBackgroundImageURL;
-@property(nonatomic, readonly) NSString *uberBackgroundJoeColor;
-@property(nonatomic, readonly) NSString *url;
 
 @end
 

@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (id);
-- (void)letionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)forBundleIdentifier:(id)arg1 performSynchronously: /* Error: Ran out of types for this method. */;
+- (void)setActivityAllowsRequestingControl:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)containsRestrictedHandle:(id)arg1 forBundleIdentifier:performSynchronously: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *appleCareHandles; // @synthesize appleCareHandles=_appleCareHandles;

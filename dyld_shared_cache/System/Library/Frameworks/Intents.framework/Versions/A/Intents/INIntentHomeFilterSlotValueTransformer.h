@@ -13,7 +13,7 @@
 + (Class);
 + (long long)dates;
 - (id);
-- (id)ingAsCreateTimerIntentLabelUnsupportedReason:(id)arg1;
+- (id)StringAsCreateTimerIntentLabelUnsupportedReason:(id)arg1;
 
 @end
 

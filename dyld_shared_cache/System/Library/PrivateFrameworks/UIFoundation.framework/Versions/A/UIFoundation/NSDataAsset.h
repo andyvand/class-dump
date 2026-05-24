@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUINamedData, NSData, NSString;
+@class CUINamedData, NSString;
 
 @interface NSDataAsset
 {
@@ -14,19 +14,17 @@
 - (void);
 - (id);
 - (id);
+- (id)tem/Library/PrivateFrameworks/WatchdogClient.framework/Versions/A/WatchdogClient;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (_Bool)ext_channel_id_parse_serverhello;
+- (id)xosmbraYpVmwHes1fpZRq7AfjNN1Q/Library/Caches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/crypto/bio/file.c;
 - (id);
 - (id)4@0:8@16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSData *data;
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSString *typeIdentifier;
 
 @end
 

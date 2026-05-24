@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDictionary, ICCRDocument, NSArray, NSUUID;
+@class ICCRDocument;
 
 @interface ICMergeableDictionary
 {
     ICCRDocument *_document;
-    ICCRDictionary *_dictionary;
 }
 
 - (id);
@@ -29,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allKeys;
-@property(readonly, nonatomic) ICCRDictionary *dictionary; // @synthesize dictionary=_dictionary;
 @property(readonly, nonatomic) ICCRDocument *document; // @synthesize document=_document;
-@property(readonly, copy, nonatomic) NSUUID *replicaID;
 
 @end
 

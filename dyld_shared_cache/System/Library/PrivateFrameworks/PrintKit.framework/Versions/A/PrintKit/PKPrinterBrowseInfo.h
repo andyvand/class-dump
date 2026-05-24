@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NSUUID, PKPrinterBonjourEndpoint;
+@class NSURL, NSUUID;
 
 @interface PKPrinterBrowseInfo
 {
     NSUUID *_cachedUUID;
-    PKPrinterBonjourEndpoint *_bonjourName;
-    NSDictionary *_txtRecord;
-    NSUUID *_btleUUID;
-    long long _btleMeasuredPower;
-    long long _proximity;
 }
 
 + (int);
@@ -27,48 +22,30 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
-- (long long);
+- (void)7;
+- (long long));
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)bundle_short_version_string;
+- (void)hPadGridElementController;
 - (_Bool)ì
 ;
 
 // Remaining properties
-@property(readonly) PKPrinterBonjourEndpoint *bonjourName; // @synthesize bonjourName=_bonjourName;
-@property long long btleMeasuredPower; // @synthesize btleMeasuredPower=_btleMeasuredPower;
-@property(retain) NSUUID *btleUUID; // @synthesize btleUUID=_btleUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isEphemeral;
-@property(readonly) _Bool isIPPS; // @dynamic isIPPS;
-@property(readonly) NSString *location;
-@property(readonly) NSString *makeAndModel;
 @property(readonly) NSURL *printerURL;
-@property long long proximity; // @synthesize proximity=_proximity;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *txtRecord; // @synthesize txtRecord=_txtRecord;
-@property(readonly) long long type; // @dynamic type;
-@property(readonly) NSUUID *uuid; // @dynamic uuid;
 
 @end
 

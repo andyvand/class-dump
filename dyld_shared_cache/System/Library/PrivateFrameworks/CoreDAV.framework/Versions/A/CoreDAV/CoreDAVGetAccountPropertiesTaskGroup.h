@@ -6,40 +6,30 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSMutableSet, NSSet, NSString, NSURL;
-@protocol CoreDAVGetAccountPropertiesTaskGroupDelegate;
+@class NSURL;
 
 @interface CoreDAVGetAccountPropertiesTaskGroup : CoreDAVTaskGroup
 {
     NSURL *_principalURL;
-    NSString *_displayName;
-    NSURL *_resourceID;
-    NSSet *_emailAddresses;
-    NSSet *_collections;
-    NSSet *_principalSearchProperties;
-    _Bool _isExpandPropertyReportSupported;
-    _Bool _fetchPrincipalSearchProperties;
-    _Bool _shouldIgnoreHomeSetOnDifferentHost;
-    NSMutableSet *_redirectHistory;
 }
 
+- (_Bool);
+- (void)tus;
+- (void)setMonthlyOrdinalValue:(id)arg1;
+- (id)_topMargin;
+- (_Bool);
+- (void);
+- (void);
+- (void)Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit;
+- (id)О;
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -48,26 +38,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)B;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *collections; // @synthesize collections=_collections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CoreDAVGetAccountPropertiesTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSSet *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(nonatomic) _Bool fetchPrincipalSearchProperties; // @synthesize fetchPrincipalSearchProperties=_fetchPrincipalSearchProperties;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isExpandPropertyReportSupported; // @synthesize isExpandPropertyReportSupported=_isExpandPropertyReportSupported;
-@property(readonly, nonatomic) NSSet *principalSearchProperties; // @synthesize principalSearchProperties=_principalSearchProperties;
 @property(readonly, nonatomic) NSURL *principalURL; // @synthesize principalURL=_principalURL;
-@property(readonly, nonatomic) NSURL *resourceID; // @synthesize resourceID=_resourceID;
-@property(nonatomic) _Bool shouldIgnoreHomeSetOnDifferentHost; // @synthesize shouldIgnoreHomeSetOnDifferentHost=_shouldIgnoreHomeSetOnDifferentHost;
-@property(readonly) Class superclass;
 
 @end
 

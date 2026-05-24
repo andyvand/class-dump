@@ -7,13 +7,10 @@
 @interface NewsFeed.DebugFormatHistoryMeasurementCell
 {
     id timeInMilliseconds;
-    id totalTimeInMilliseconds;
-    id titleLabel;
-    id barView;
 }
 
 - (id);
-- (void);
+- (void)ndler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
 - (void)È¦wþ=F:ÄÞ$ÿ /* Error: Ran out of types for this method. */;
 

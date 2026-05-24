@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.EpisodeStatePersistentHistoryTracker
 {
     id episodeStateChanges;
-    id syncQueue;
-    id defaultManagedObjectContext;
-    id token;
 }
 
 @end

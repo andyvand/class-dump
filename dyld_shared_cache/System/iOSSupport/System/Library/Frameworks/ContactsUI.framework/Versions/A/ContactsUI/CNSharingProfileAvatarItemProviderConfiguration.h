@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerColorVariant, NSData, PRMonogramColor;
+@class PRMonogramColor;
 
 @interface CNSharingProfileAvatarItemProviderConfiguration
 {
     PRMonogramColor *_monogramColor;
-    CNPhotoPickerColorVariant *_animojiColor;
-    NSData *_memojiMetadata;
 }
 
 - (void);
@@ -19,11 +17,9 @@
 - (id);
 - (void);
 - (id);
-- (void)ifier;
+- (void)acceptedContactsDomainIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) CNPhotoPickerColorVariant *animojiColor; // @synthesize animojiColor=_animojiColor;
-@property(retain, nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
 @property(retain, nonatomic) PRMonogramColor *monogramColor; // @synthesize monogramColor=_monogramColor;
 
 @end

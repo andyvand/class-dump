@@ -11,34 +11,26 @@
 @interface _UILumaTrackingBackdropView : UIView
 {
     id <_UILumaTrackingBackdropViewDelegate> _delegate;
-    id <_UILumaTrackingBackdropViewGroupDelegate> _groupDelegate;
-    unsigned long long _backgroundLuminanceLevel;
-    CDStruct_ef18196a _transitionBoundaries;
-    _Bool _paused;
 }
 
-+ (Class);
++ (Class)_setStartTime:forIdentifiers: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDStruct_c3b9c2ee);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)storeEditedMessage:(CDStruct_c3b9c2ee)arg1 editedPartIndexes:(id)arg2 editType:(struct CGRect)arg3 previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_zoneChangesOptionsDictionaryUsingToken:zoneID:resultsLimit: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)on sharing from:%@ (%@) /* Error: Ran out of types for this method. */;
+- (id)%@:Begin request for resource file URLs for asset %@ /* Error: Ran out of types for this method. */;
+- (void)MCreateIMDChat] Chat was missing a service when loaded from the database.;
+- (void)C;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)rTouchInfo:(_Bool)arg1 touchStage:executionContextPassingUIKBTree: /* Error: Ran out of types for this method. */;
+- (void)performHitTestForTouchInfo:(_Bool)arg1 touchStage:executionContextPassingUIKBTree: /* Error: Ran out of types for this method. */;
 - (void)<oþØNþ ;
 - (_Bool)Dkÿ¼AÕa;
 
 // Remaining properties
 @property(nonatomic, setter=_setGroupDelegate:) __weak id <_UILumaTrackingBackdropViewGroupDelegate> _groupDelegate;
-@property(readonly, nonatomic) unsigned long long backgroundLuminanceLevel;
-@property(readonly, nonatomic) __weak id <_UILumaTrackingBackdropViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(nonatomic) CDStruct_c3b9c2ee transitionBoundaries; // @synthesize transitionBoundaries=_transitionBoundaries;
 
 @end
 

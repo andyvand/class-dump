@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ASDScreenSyncAppMetadata
 {
     NSString *_accountName;
-    NSString *_bundleID;
-    NSNumber *_externalVersionIdentifier;
-    NSNumber *_itemID;
-    NSString *_itemName;
-    NSNumber *_purchaserDSID;
-    NSNumber *_storeFront;
-    NSString *_vendorName;
 }
 
 + (_Bool);
@@ -32,32 +25,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)vironment info;
 - (id);
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (id);
 - (id)yDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDDownloadQueueRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSString *accountName; // @synthesize accountName=_accountName;
-@property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSNumber *externalVersionIdentifier; // @synthesize externalVersionIdentifier=_externalVersionIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(copy) NSString *itemName; // @synthesize itemName=_itemName;
-@property(readonly) long long metadataType;
-@property(copy) NSNumber *purchaserDSID; // @synthesize purchaserDSID=_purchaserDSID;
-@property(copy) NSNumber *storeFront; // @synthesize storeFront=_storeFront;
-@property(readonly) Class superclass;
-@property(copy) NSString *vendorName; // @synthesize vendorName=_vendorName;
 
 @end
 

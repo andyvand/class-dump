@@ -5,5 +5,6 @@
 //
 
 @protocol HMDMediaGroupsAggregateConsumerDelegate
+- (void)N,V_participants;
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (mapped)
-- (id);
+- (id)resourceLoader:shouldWaitForLoadingOfRequestedResource: /* Error: Ran out of types for this method. */;
 @end
 

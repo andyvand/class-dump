@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface KTSelfVerificationHealableErrors
 {
     unsigned long long _healableState;
-    NSMutableArray *__accountHealableErrors;
-    NSMutableDictionary *__deviceIdToHealableErrors;
 }
 
 + (_Bool);
@@ -24,21 +22,17 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
 - (id);
+- (id)onRequest",&,V_dependentRequest;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)prepareViewController:forTriggerEvent: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSMutableArray *_accountHealableErrors; // @synthesize _accountHealableErrors=__accountHealableErrors;
-@property(retain) NSMutableDictionary *_deviceIdToHealableErrors; // @synthesize _deviceIdToHealableErrors=__deviceIdToHealableErrors;
-@property(readonly) NSArray *accountHealableErrors;
-@property(readonly) NSDictionary *deviceIdToHealableErrors;
-@property unsigned long long healableState; // @synthesize healableState=_healableState;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface TSUDeferredInvocationQueue
 {
     NSMutableArray *_invocations;
-    id _target;
 }
 
 - (void);

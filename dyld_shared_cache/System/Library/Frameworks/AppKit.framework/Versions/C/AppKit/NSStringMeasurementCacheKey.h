@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSStringMeasurementCacheKey
 {
     NSAttributedString *_string;
-    struct CGSize _size;
-    long long _options;
-    unsigned long long _maximumNumberOfLines;
-    _Bool _inTouchBar;
 }
 
 - (void);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (_Bool);
-- (id)ntextMenuAction:(struct _NSZone *)arg1;
+- (id)_tabStopContextMenuAction:(struct _NSZone *)arg1;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface PhotosUICore.GenerativeStoryEventDisambiguationSelectedAssetsViewModel
 {
     id _fetchResult;
-    id _previousDataSource;
-    id assetFetcher;
-    id _$observationRegistrar;
 }
 
 @end

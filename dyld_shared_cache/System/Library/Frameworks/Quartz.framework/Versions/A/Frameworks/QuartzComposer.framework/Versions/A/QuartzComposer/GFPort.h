@@ -4,43 +4,1782 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFNode, NSDictionary, NSMutableDictionary;
-
 @interface GFPort
 {
     unsigned long long _flags;
-    GFNode *_owner;
-    GFPort *_originalPort;
-    NSDictionary *_attributes;
-    NSMutableDictionary *_userInfo;
-    GFPort *_rootPort;
-    void *_unused[3];
 }
 
-- (id);
+- (id)29h.C9;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
+- (_Bool)--
+
+#define USE_128BIT_GREGORY_BASIS_INDICES_READ 1
+
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex ds_gregory_basis_patches(
+
+#if USE_STAGE_IN
+                     PerPatchVertexGregoryBasis patch,
+#else
+                     const device OsdInputVertexType* patch,
+                     const device unsigned* patchIndices,
+#endif
+                     int3 patchParam,
+                     float2 UV
+                     )
+{
+    OsdPatchVertex output;
+    float3 P = float3(0,0,0), dPu = float3(0,0,0), dPv = float3(0,0,0);
+    float3 N = float3(0,0,0), dNu = float3(0,0,0), dNv = float3(0,0,0);
+ 
+#if USE_STAGE_IN
+    float3 cv[20];
+    for(int i = 0; i < 20; i++)
+        cv[i] = patch[i].position;
+#else   
+#if USE_128BIT_GREGORY_BASIS_INDICES_READ
+    float3 cv[20];
+    for(int i = 0; i < 5; i++) {
+        int4 indices = ((device int4*)patchIndices)[i];
+        
+        int n = i * 4;
+        cv[n + 0] = (patch + indices[0])->position;
+        cv[n + 1] = (patch + indices[1])->position;
+        cv[n + 2] = (patch + indices[2])->position;
+        cv[n + 3] = (patch + indices[3])->position;
+    }
+#else
+    float3 cv[20];
+    for (int i = 0; i < 20; ++i) {
+        cv[i] = patch[patchIndices[i]].position;
+    }
+#endif
+#endif
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+    
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+#if USE_STAGE_IN
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[5], patch[15], patch[10], output);
+#else
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[patchIndices[0]], patch[patchIndices[5]], patch[patchIndices[15]], patch[patchIndices[10]], output);
+#endif
+    
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+	OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_basis_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+		osdBuffers.vertexBuffer,
+		osdBuffers.indexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+		osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord
+		);
+}
+
+;
+- (id)pler          scn_commonprofile.normalSampler
+#define u_selfIlluminationTexture       scn_commonprofile.selfIlluminationTexture
+#define u_selfIlluminationTextureSampler scn_commonprofile.selfIlluminationSampler
+#define u_metalnessTexture              scn_commonprofile.metalnessTexture
+#define u_metalnessTextureSampler       scn_commonprofile.metalnessSampler
+#define u_roughnessTexture              scn_commonprofile.roughnessTexture
+#define u_roughnessTextureSampler       scn_commonprofile.roughnessSampler
+
+#else
+#ifdef USE_EMISSION_MAP
+                                      , texture2d<float>              u_emissionTexture
+                                      , sampler                       u_emissionTextureSampler
+#endif
+#ifdef USE_AMBIENT_MAP
+                                      , texture2d<float>              u_ambientTexture
+                                      , sampler                       u_ambientTextureSampler
+#endif
+#ifdef USE_DIFFUSE_MAP
+                                      , texture2d<float>              u_diffuseTexture
+                                      , sampler                       u_diffuseTextureSampler
+#endif
+#ifdef USE_SPECULAR_MAP
+                                      , texture2d<float>              u_specularTexture
+                                      , sampler                       u_specularTextureSampler
+#endif
+#ifdef USE_REFLECTIVE_MAP
+                                      , texture2d<float>              u_reflectiveTexture
+                                      , sampler                       u_reflectiveTextureSampler
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+                                      , texturecube<float>            u_reflectiveTexture
+                                      , sampler                       u_reflectiveTextureSampler
+#endif
+#ifdef USE_TRANSPARENT_MAP
+                                      , texture2d<float>              u_transparentTexture
+                                      , sampler                       u_transparentTextureSampler
+#endif
+#ifdef USE_MULTIPLY_MAP
+                                      , texture2d<float>              u_multiplyTexture
+                                      , sampler                       u_multiplyTextureSampler
+#endif
+#ifdef USE_NORMAL_MAP
+                                      , texture2d<float>              u_normalTexture
+                                      , sampler                       u_normalTextureSampler
+#endif
+#ifdef USE_SELFILLUMINATION_MAP
+                                      , texture2d<float>              u_selfIlluminationTexture
+                                      , sampler                       u_selfIlluminationTextureSampler
+#endif
+#ifdef USE_DISPLACEMENT_MAP
+                                      , texture2d<float>              u_displacementTexture
+                                      , sampler                       u_displacementTextureSampler
+#endif
+#ifdef USE_PBR
+#ifdef USE_METALNESS_MAP
+                                      , texture2d<float>              u_metalnessTexture
+                                      , sampler                       u_metalnessTextureSampler
+#endif
+#ifdef USE_ROUGHNESS_MAP
+                                      , texture2d<float>              u_roughnessTexture
+                                      , sampler                       u_roughnessTextureSampler
+#endif
+#ifdef USE_CLEARCOAT_MAP
+                                      , texture2d<float>              u_clearCoatTexture
+                                      , sampler                       u_clearCoatTextureSampler
+#endif
+#ifdef USE_CLEARCOATROUGHNESS_MAP
+                                      , texture2d<float>              u_clearCoatRoughnessTexture
+                                      , sampler                       u_clearCoatRoughnessTextureSampler
+#endif
+#ifdef USE_CLEARCOATNORMAL_MAP
+                                      , texture2d<float>              u_clearCoatNormalTexture
+                                      , sampler                       u_clearCoatNormalTextureSampler
+#endif
+#endif 
+#endif 
+#ifdef USE_PBR
+                                      , texturecube<float>            u_radianceTexture
+                                      , texture2d<float>              u_specularDFGDiffuseHammonTexture
+#if !defined(USE_SELFILLUMINATION_MAP)
+                                      , texturecube<float>            u_irradianceTexture
+#endif
+#endif 
+#ifdef USE_SSAO
+                                      , texture2d<float>              u_ssaoTexture
+#endif
+#ifdef USE_FRAGMENT_EXTRA_ARGUMENTS
+                                      __FragmentExtraArguments__
+#endif
+#if defined(USE_DOUBLE_SIDED)
+                                      , bool                          isFrontFacing                    [[front_facing]]
+#endif
+#ifdef USE_POINT_RENDERING
+                                      , float2                        pointCoord                       [[point_coord]]
+#endif
+#ifdef USE_VERTEX_AMPLIFICATION
+                                      , ushort                        amplificationID                  [[amplification_id]]
+#endif
+                                      )
+{
+#ifdef USE_MULTIPLE_RENDERING
+    
+#ifdef USE_VERTEX_AMPLIFICATION
+    constant SCNSceneBuffer& scn_frame = scn_frame_multi[amplificationID];
+#else
+    constant SCNSceneBuffer& scn_frame = scn_frame_multi[in.sliceIndex];
+#endif
+    
+#ifdef USE_INSTANCING
+#ifdef USE_VERTEX_AMPLIFICATION
+    constant commonprofile_node& scn_node = scn_nodes[USE_MULTIPLE_RENDERING * in.instanceID + amplificationID];
+#else
+    constant commonprofile_node& scn_node = scn_nodes[USE_MULTIPLE_RENDERING * in.instanceID + in.sliceIndex];
+#endif
+#else
+#ifdef USE_VERTEX_AMPLIFICATION
+    constant commonprofile_node& scn_node = scn_nodes[amplificationID];
+#else
+    constant commonprofile_node& scn_node = scn_nodes[in.sliceIndex];
+#endif
+#endif
+    
+#else 
+    
+#ifdef USE_INSTANCING
+    constant commonprofile_node& scn_node = scn_nodes[in.instanceID];
+#endif
+    
+#endif 
+    
+#ifdef IS_BEZIER_CURVE
+    int scn_bezierCurveCoverage = 0;
+    for (uint sampleID = 0; sampleID < get_num_samples(); ++sampleID) {
+        float2 uv = in.bezierCurveUV.interpolate_at_sample(sampleID);
+        bool insideCurve = scn_is_inside_bezier_curve(uv, scn_bezier_curve_data, scn_bezier_curve_controlPoints);
+        scn_bezierCurveCoverage += insideCurve;
+    }
+    if (scn_bezierCurveCoverage == 0) {
+        discard_fragment();
+    }
+#endif
+    
+    SCNOutput _output;
+
+    
+    
+    
+    
+    SCNShaderSurface _surface;
+#ifdef USE_TEXCOORD
+    __FragmentDoTexcoord__
+#endif
+    _surface.ambientOcclusion = 1.f; 
+#ifdef USE_AMBIENT_MAP
+    #ifdef USE_AMBIENT_AS_AMBIENTOCCLUSION
+        #if defined(USE_AMBIENT_TEXTURE_COMPONENT)
+            _surface.ambientOcclusion = colorFromMask(u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord), USE_AMBIENT_TEXTURE_COMPONENT).r;
+        #else
+            _surface.ambientOcclusion = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord).r;
+        #endif
+        #ifdef USE_AMBIENT_INTENSITY
+            _surface.ambientOcclusion = saturate(mix(1.f, _surface.ambientOcclusion, scn_commonprofile.ambientIntensity));
+        #endif
+    #else 
+        _surface.ambient = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord);
+        #if defined(USE_AMBIENT_TEXTURE_COMPONENT)
+            _surface.ambient = colorFromMask(_surface.ambient, USE_AMBIENT_TEXTURE_COMPONENT);
+        #endif
+        #ifdef USE_AMBIENT_INTENSITY
+            _surface.ambient *= scn_commonprofile.ambientIntensity;
+        #endif
+    #endif 
+#elif defined(USE_AMBIENT_COLOR)
+    _surface.ambient = scn_commonprofile.ambientColor;
+#elif defined(USE_AMBIENT)
+    _surface.ambient = float4(0.);
+#endif
+#if defined(USE_AMBIENT) && defined(USE_VERTEX_COLOR)
+    _surface.ambient *= in.vertexColor;
+#endif
+#if  defined(USE_SSAO)
+    _surface.ambientOcclusion *= u_ssaoTexture.sample( sampler(filter::linear), in.fragmentPosition.xy * scn_frame.inverseResolution.xy ).x;
+#endif
+    
+#ifdef USE_DIFFUSE_MAP
+    _surface.diffuse = u_diffuseTexture.sample(u_diffuseTextureSampler, _surface.diffuseTexcoord);
+#if defined(USE_DIFFUSE_TEXTURE_COMPONENT)
+    _surface.diffuse = colorFromMask(_surface.diffuse, USE_DIFFUSE_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_DIFFUSE_INTENSITY
+    _surface.diffuse.rgb *= scn_commonprofile.diffuseIntensity;
+#endif
+#elif defined(USE_DIFFUSE_COLOR)
+    _surface.diffuse = scn_commonprofile.diffuseColor;
+#else
+    _surface.diffuse = float4(0.f,0.f,0.f,1.f);
+#endif
+#if defined(USE_DIFFUSE) && defined(USE_VERTEX_COLOR)
+    _surface.diffuse.rgb    *= in.vertexColor.rgb;
+    _surface.diffuse        *= in.vertexColor.a; 
+#endif
+#ifdef USE_SPECULAR_MAP
+    _surface.specular = u_specularTexture.sample(u_specularTextureSampler, _surface.specularTexcoord);
+#if defined(USE_SPECULAR_TEXTURE_COMPONENT)
+    _surface.specular = colorFromMask(_surface.specular, USE_SPECULAR_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_SPECULAR_INTENSITY
+    _surface.specular *= scn_commonprofile.specularIntensity;
+#endif
+#elif defined(USE_SPECULAR_COLOR)
+    _surface.specular = scn_commonprofile.specularColor;
+#elif defined(USE_SPECULAR)
+    _surface.specular = float4(0.f);
+#endif
+    
+#ifdef USE_CLEARCOAT_MAP
+    _surface.clearCoat = u_clearCoatTexture.sample(u_clearCoatTextureSampler, _surface.clearCoatTexcoord).r;
+#if defined(USE_CLEARCOAT_TEXTURE_COMPONENT)
+    _surface.clearCoat = colorFromMask(_surface.clearCoat, USE_CLEARCOAT_TEXTURE_COMPONENT).r;
+#endif
+#ifdef USE_CLEARCOAT_INTENSITY
+    _surface.clearCoat *= scn_commonprofile.clearCoatIntensity;
+#endif
+#elif defined(USE_CLEARCOAT_COLOR)
+    _surface.clearCoat = scn_commonprofile.clearCoat;
+#elif defined(USE_CLEARCOAT)
+    _surface.clearCoat = 0.f;
+#endif
+    
+#ifdef USE_CLEARCOATROUGHNESS_MAP
+#if defined(USE_CLEARCOATROUGHNESS_TEXTURE_COMPONENT)
+    _surface.clearCoatRoughness = colorFromMask(u_clearCoatRoughnessTexture.sample(u_clearCoatRoughnessTextureSampler, _surface.clearCoatRoughnessTexcoord), USE_CLEARCOATROUGHNESS_TEXTURE_COMPONENT).r;
+#else
+    _surface.clearCoatRoughness = u_clearCoatRoughnessTexture.sample(u_clearCoatRoughnessTextureSampler, _surface.clearCoatRoughnessTexcoord).r;
+#endif
+#ifdef USE_CLEARCOATROUGHNESS_INTENSITY
+    _surface.clearCoatRoughness *= scn_commonprofile.clearCoatRoughnessIntensity;
+#endif
+#elif defined(USE_CLEARCOATROUGHNESS_COLOR)
+    _surface.clearCoatRoughness = scn_commonprofile.clearCoatRoughness;
+#else
+    _surface.clearCoatRoughness = 0.03f;
+#endif
+ 
+#ifdef USE_EMISSION_MAP
+    _surface.emission = u_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+#if defined(USE_EMISSION_TEXTURE_COMPONENT)
+    _surface.emission = colorFromMask(_surface.emission, USE_EMISSION_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_EMISSION_INTENSITY
+    _surface.emission *= scn_commonprofile.emissionIntensity;
+#endif
+#elif defined(USE_EMISSION_COLOR)
+    _surface.emission = scn_commonprofile.emissionColor;
+#elif defined(USE_EMISSION)
+    _surface.emission = float4(0.);
+#endif
+#ifdef USE_SELFILLUMINATION_MAP
+    _surface.selfIllumination = u_selfIlluminationTexture.sample(u_selfIlluminationTextureSampler, _surface.selfIlluminationTexcoord);
+#if defined(USE_SELFILLUMINATION_TEXTURE_COMPONENT)
+    _surface.selfIllumination = colorFromMask(_surface.selfIllumination, USE_SELFILLUMINATION_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_SELFILLUMINATION_INTENSITY
+    _surface.selfIllumination *= scn_commonprofile.selfIlluminationIntensity;
+#endif
+#elif defined(USE_SELFILLUMINATION_COLOR)
+    _surface.selfIllumination = scn_commonprofile.selfIlluminationColor;
+#elif defined(USE_SELFILLUMINATION)
+    _surface.selfIllumination = float4(0.);
+#endif
+#ifdef USE_MULTIPLY_MAP
+    _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+#if defined(USE_MULTIPLY_TEXTURE_COMPONENT)
+    _surface.multiply = colorFromMask(_surface.multiply, USE_MULTIPLY_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_MULTIPLY_INTENSITY
+    _surface.multiply = mix(float4(1.), _surface.multiply, scn_commonprofile.multiplyIntensity);
+#endif
+#elif defined(USE_MULTIPLY_COLOR)
+    _surface.multiply = scn_commonprofile.multiplyColor;
+#elif defined(USE_MULTIPLY)
+    _surface.multiply = float4(1.);
+#endif
+#ifdef USE_TRANSPARENT_MAP
+    _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+#if defined(USE_TRANSPARENT_TEXTURE_COMPONENT)
+    _surface.transparent = colorFromMask(_surface.transparent, USE_TRANSPARENT_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_TRANSPARENT_INTENSITY
+    _surface.transparent *= scn_commonprofile.transparentIntensity;
+#endif
+#elif defined(USE_TRANSPARENT_COLOR)
+    _surface.transparent = scn_commonprofile.transparentColor;
+#elif defined(USE_TRANSPARENT)
+    _surface.transparent = float4(1.f);
+#endif
+    
+#ifdef USE_METALNESS_MAP
+#if defined(USE_METALNESS_TEXTURE_COMPONENT)
+    _surface.metalness = colorFromMask(u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord), USE_METALNESS_TEXTURE_COMPONENT).r;
+#else
+    _surface.metalness = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord).r;
+#endif
+#ifdef USE_METALNESS_INTENSITY
+    _surface.metalness *= scn_commonprofile.metalnessIntensity;
+#endif
+#elif defined(USE_METALNESS_COLOR)
+    _surface.metalness = scn_commonprofile.metalness;
+#else
+    _surface.metalness = 0.f;
+#endif
+    
+#ifdef USE_ROUGHNESS_MAP
+#if defined(USE_ROUGHNESS_TEXTURE_COMPONENT)
+    _surface.roughness = colorFromMask(u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord), USE_ROUGHNESS_TEXTURE_COMPONENT).r;
+#else
+    _surface.roughness = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+#endif
+#ifdef USE_ROUGHNESS_INTENSITY
+    _surface.roughness *= scn_commonprofile.roughnessIntensity;
+#endif
+#elif defined(USE_ROUGHNESS_COLOR)
+    _surface.roughness = scn_commonprofile.roughness;
+#else
+    _surface.roughness = 0.f;
+#endif
+#if (defined USE_POSITION) && (USE_POSITION == 2)
+    _surface.position = in.position;
+#endif
+#if (defined USE_NORMAL) && (USE_NORMAL == 2)
+#if defined(HAS_NORMAL) || defined(USE_OPENSUBDIV)
+#ifdef USE_DOUBLE_SIDED
+    _surface.geometryNormal = normalize(in.normal.xyz) * (isFrontFacing ? 1.f :-1.f );
+#else
+    _surface.geometryNormal = normalize(in.normal.xyz);
+#endif
+#else 
+    _surface.geometryNormal = normalize( cross(dfdy( _surface.position ), dfdx( _surface.position ) ));
+#endif
+    _surface.normal = _surface.geometryNormal;
+    _surface.clearCoatNormal = _surface.geometryNormal;
+#endif
+#if defined(USE_TANGENT) && (USE_TANGENT == 2)
+    _surface.tangent = in.tangent;
+#endif
+#if defined(USE_BITANGENT) && (USE_BITANGENT == 2)
+    _surface.bitangent = in.bitangent;
+#endif
+#if (defined USE_VIEW) && (USE_VIEW == 2)
+    _surface.view = normalize(-in.position);
+    {
+        
+        
+        float NoV = dot(_surface.geometryNormal, _surface.view);
+        _surface.view = _surface.view + max(0.f, -2.f * NoV) * _surface.geometryNormal;         
+        
+    }
+#endif
+#if defined(USE_NORMAL_MAP)
+    {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+#ifdef USE_NORMAL_MAP
+#if defined(USE_NORMAL_TEXTURE_COMPONENT)
+        _surface._normalTS.xy = colorFromMask(u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord), USE_NORMAL_TEXTURE_COMPONENT).rg * 2.f - 1.f;
+        _surface._normalTS.z = sqrt(1.f - saturate(length_squared(_surface._normalTS.xy)));
+#else
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+#endif
+#ifdef USE_NORMAL_INTENSITY
+        _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+#endif
+#else
+        _surface._normalTS = float3(0.f, 0.f, 1.f);
+#endif
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS.xyz );
+    }
+#else
+    _surface._normalTS = float3(0.f, 0.f, 1.f);
+#endif
+#ifdef USE_PBR
+    {
+        float roughness = clamp(_surface.roughness, PBR_MIN_ROUGHNESS, 1.0);
+        float alpha = scn_filteredAlphaFromRoughness(_surface.normal, roughness);
+        _surface.roughness = sqrt(alpha);
+    }
+#endif
+#if defined(USE_CLEARCOATNORMAL_MAP)
+    {
+        
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.geometryNormal);
+#ifdef USE_CLEARCOATNORMAL_MAP
+#if defined(USE_CLEARCOATNORMAL_TEXTURE_COMPONENT)
+        _surface._clearCoatNormalTS.xy = colorFromMask(u_clearCoatNormalTexture.sample(u_clearCoatnormalTextureSampler, _surface.clearCoatNormalTexcoord), USE_CLEARCOATNORMAL_TEXTURE_COMPONENT).rg * 2.f - 1.f;
+        _surface._clearCoatNormalTS.z = sqrt(1.f - saturate(length_squared(_surface._clearCoatNormalTS.xy)));
+#else
+        _surface._clearCoatNormalTS = u_clearCoatNormalTexture.sample(u_clearCoatNormalTextureSampler, _surface.clearCoatNormalTexcoord).rgb;
+        _surface._clearCoatNormalTS = _surface._clearCoatNormalTS * 2.f - 1.f;
+#endif
+#ifdef USE_CLEARCOATNORMAL_INTENSITY
+        _surface._clearCoatNormalTS = mix(float3(0.f, 0.f, 1.f), _surface._clearCoatNormalTS, scn_commonprofile.clearCoatNormalIntensity);
+#endif
+#else
+        _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+        _surface.clearCoatNormal.rgb = normalize(ts2vs * _surface._clearCoatNormalTS.xyz );
+    }
+#else
+    _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+    
+#ifdef USE_REFLECTIVE_MAP
+    float3 refl = reflect( -_surface.view, _surface.normal );
+    float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + (refl.z+1.f)*(refl.z+1.f));
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+#if defined(USE_REFLECTIVE_TEXTURE_COMPONENT)
+    _surface.reflective = colorFromMask(_surface.reflective, USE_REFLECTIVE_TEXTURE_COMPONENT).r;
+#endif
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+    float3 refl = reflect( _surface.position, _surface.normal );
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_COLOR)
+    _surface.reflective = scn_commonprofile.reflectiveColor;
+#elif defined(USE_REFLECTIVE)
+    _surface.reflective = float4(0.);
+#endif
+#ifdef USE_FRESNEL
+    _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+    _surface.reflective *= _surface.fresnel;
+#endif
+#ifdef USE_SHININESS
+    _surface.shininess = scn_commonprofile.materialShininess;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SURFACE_MODIFIER
+    
+    __DoSurfaceModifier__
+    
+#endif
+    
+    
+    
+    
+    
+    SCNShaderLightingContribution _lightingContribution(_surface, in);
+#ifdef USE_LIGHT_MODIFIER
+    __LightModifierCopyDecl__
+#endif
+#ifdef USE_AMBIENT_LIGHTING
+    _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+#endif
+#ifdef USE_LIGHTING
+#ifdef USE_PER_PIXEL_LIGHTING
+#ifdef USE_CLUSTERED_LIGHTING
+    uint3 clusterIndex;
+    clusterIndex.xy = uint2(in.fragmentPosition.xy * scn_frame.clusterScale.xy); 
+    clusterIndex.z = in.position.z * scn_frame.clusterScale.z + scn_frame.clusterScale.w; 
+    
+    
+    ushort4 cluster_offset_count = u_clusterTexture.read(clusterIndex);
+    int lid = cluster_offset_count.x;
+#endif
+
+#ifdef USE_PBR
+    _lightingContribution.prepareForPBR(u_specularDFGDiffuseHammonTexture, scn_commonprofile.selfIlluminationOcclusion);
+    
+    
+#ifdef USE_SELFILLUMINATION
+    _lightingContribution.add_irradiance_from_selfIllum();
+#else
+#ifdef USE_PROBES_LIGHTING 
+    _lightingContribution.add_global_irradiance_from_sh(scn_frame.viewToCubeTransform, scn_node.shCoefficients);
+#else
+    _lightingContribution.add_global_irradiance_probe(u_irradianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+#endif
+#endif
+
+    
+#ifndef DISABLE_SPECULAR
+#ifdef C3D_USE_REFLECTION_PROBES
+    int probe_count = (cluster_offset_count.z & 0xff);
+    for (int i = 0 ; i < probe_count; ++i, ++lid) {
+        _lightingContribution.add_local_probe(scn_lights[LightIndex(lid)], u_reflectionProbeTexture);
+    }
+#if PROBES_NORMALIZATION
+#if PROBES_OUTER_BLENDING
+    _lightingContribution.specular += _lightingContribution.probesWeightedSum.rgb / max(1.f, _lightingContribution.probesWeightedSum.a);
+#else
+    _lightingContribution.specular += _lightingContribution.probesWeightedSum.rgb / _lightingContribution.probesWeightedSum.a;
+#endif
+    float globalFactor = saturate(1.f - _lightingContribution.probesWeightedSum.a);
+#else
+    float globalFactor = _lightingContribution.probeRadianceRemainingFactor;
+#endif
+    _lightingContribution.add_global_probe(scn_frame.viewToCubeTransform, globalFactor * scn_frame.environmentIntensity,
+                                           u_reflectionProbeTexture);
+#else 
+   _lightingContribution.add_global_probe(u_radianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+    
+#ifdef USE_CLEARCOAT
+    _lightingContribution.add_global_probeClearCoat(u_radianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+#endif
+
+    
+#endif 
+#endif 
+
+#endif 
+    #if DEBUG_PIXEL
+        switch (DEBUG_PIXEL) {
+            case 1:_output.color = float4(_surface.normal * 0.5f + 0.5f, 1.f); break;
+            case 2:_output.color = float4(_surface.geometryNormal * 0.5f + 0.5f, 1.f); break;
+            case 3:_output.color = float4(_surface.tangent * 0.5f + 0.5f, 1.f); break;
+            case 4:_output.color = float4(in.uv0, 0.f, 1.f); break;
+            case 5:_output.color = float4(_surface.diffuse.rgb, 1.f); break;
+            case 6:_output.color = float4(float3(_surface.roughness), 1.f); break;
+            case 7:_output.color = float4(float3(_surface.metalness), 1.f); break;
+            case 8:_output.color = float4(float3(_surface.ambientOcclusion), 1.f); break;
+            default:break;
+        }
+        return _output;
+    #endif
+    
+    __FragmentDoLighting__
+    
+    #ifdef USE_CLUSTERED_LIGHTING
+        
+        int omni_count = cluster_offset_count.y & 0xff;
+        for (int i = 0 ; i < omni_count; ++i, ++lid) {
+            _lightingContribution.add_local_omni(scn_lights[LightIndex(lid)]);
+        }
+
+        
+        int spot_count = (cluster_offset_count.y >> 8);
+        for (int i = 0 ; i < spot_count; ++i, ++lid) {
+            _lightingContribution.add_local_spot(scn_lights[LightIndex(lid)]);
+        }
+
+    #endif
+#else 
+        _lightingContribution.diffuse = in.diffuse;
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = in.specular;
+    #endif
+#endif 
+    #ifdef AVOID_OVERLIGHTING
+        _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = saturate(_lightingContribution.specular);
+    #endif 
+    #endif 
+#else 
+    _lightingContribution.diffuse = float3(1.);
+#endif 
+
+    
+    
+    
+    
+#ifdef USE_PBR
+    { 
+        float3 diffuseAlbedo = mix(_lightingContribution.pbr.albedo, float3(0.0), _surface.metalness);
+        
+        
+#ifdef USE_PBR_TRANSPARENCY
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _lightingContribution.pbr.albedo;
+#else
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _surface.diffuse.rgb;
+#endif
+        
+        color += _lightingContribution.pbr.envDiffuse;
+        color += _lightingContribution.diffuse * diffuseAlbedo;
+#ifndef DISABLE_SPECULAR
+        color += _lightingContribution.pbr.envSpecular;
+        color += _lightingContribution.specular;
+#endif
+#ifdef USE_EMISSION
+        color += _surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+        color *= _surface.multiply.rgb;
+#endif
+#ifdef USE_MODULATE
+        color *= _lightingContribution.modulate;
+#endif
+        _output.color.rgb = color;
+    }
+#else 
+
+#ifdef USE_SHADOWONLY
+    _output.color.rgb = float3(0.0);
+    _output.color.a = 1. - _lightingContribution.shadowFactor;
+#else
+    _output.color.rgb = illuminate(_surface, _lightingContribution);
+#endif
+#endif
+
+#ifndef USE_SHADOWONLY
+  #ifdef USE_PBR_TRANSPARENCY
+    _output.color.a = _lightingContribution.pbr.transparency;
+  #else
+    _output.color.a = _surface.diffuse.a;
+  #endif
+#endif
+
+#ifdef USE_FOG
+    float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+    _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+#endif
+
+#if !defined(DIFFUSE_PREMULTIPLIED) && !defined(USE_PBR_TRANSPARENCY)
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SHADOWONLY
+    float transparencyFactor = 1.0;
+  #ifdef USE_NODE_OPACITY
+    transparencyFactor *= in.nodeOpacity;
+  #endif
+    _output.color.a *= transparencyFactor; 
+
+#else 
+
+#ifdef USE_TRANSPARENT 
+    
+#ifdef USE_TRANSPARENCY
+    _surface.transparent *= scn_commonprofile.transparency;
+#endif
+    
+#ifdef USE_TRANSPARENCY_RGBZERO
+    
+    _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+    _output.color *= (float4(1.f) - _surface.transparent);
+#else
+  #ifndef USE_PBR_TRANSPARENCY
+    _output.color *= _surface.transparent.a;
+  #endif
+#endif
+    
+#else 
+    
+#ifdef USE_TRANSPARENCY 
+  #ifndef USE_PBR_TRANSPARENCY
+    _output.color *= scn_commonprofile.transparency;
+  #endif
+#endif
+    
+#endif 
+    
+#ifdef USE_NODE_OPACITY
+    _output.color *= in.nodeOpacity;
+#endif
+    
+#endif 
+    
+    
+    
+    
+    
+#ifdef USE_MODIFIER_FRAMEBUFFER
+    const SCNFramebuffer _framebuffer = {
+#if defined(C3D_SUPPORTS_PROGRAMMABLE_BLENDING) && defined(USE_MODIFIER_FRAMEBUFFER_COLOR0)
+        .color = framebufferColor0
+#else
+        .color = 0.f
+#endif
+    };
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+    
+    __DoFragmentModifier__
+    
+#endif
+#if defined(USE_CLUSTERED_LIGHTING) && defined(DEBUG_CLUSTER_TILE)
+    _output.color.rgb = mix(_output.color.rgb, float3(scn::debugColorForCount(clusterIndex.z).xyz), 0.1f);
+    _output.color.rgb = mix(_output.color.rgb, float3(clusterIndex.x & 0x1 ^ clusterIndex.y & 0x1).xyz, 0.01f);
+#endif
+#ifdef DISABLE_LINEAR_RENDERING
+    _output.color.rgb = scn::linear_to_srgb(_output.color.rgb);
+#endif
+    
+#ifdef USE_DISCARD
+    if (_output.color.a == 0.) 
+        discard_fragment();
+#endif
+
+#ifdef USE_POINT_RENDERING
+    if ((dfdx(pointCoord.x) < 0.5f) && (length_squared(pointCoord * 2.f - 1.f) > 1.f)) {
+        discard_fragment();
+    }
+#endif
+    
+    
+#ifdef USE_OUTLINE
+    _output.color.rgb = in.outlineHash;
+#endif
+    
+
+#ifdef USE_MOTIONBLUR
+#ifdef USE_MULTIPLE_RENDERING
+    _output.motionblur.xy = half2((in.mv_fragment.xy - scn_frame.viewportSize.zw) / in.mv_fragment.z - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#else
+    _output.motionblur.xy = half2((in.mv_fragment.xy / in.mv_fragment.z) - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#endif
+    _output.motionblur.z = length(_output.motionblur.xy);
+    _output.motionblur.w = half(-_surface.position.z);
+#endif
+
+#ifdef USE_NORMALS_OUTPUT
+    _output.normals = half4( half3(_surface.normal.xyz), half(_surface.roughness) );
+#endif
+    
+#ifdef USE_RADIANCE_OUTPUT
+    _output.radiance.rgb = half3(_lightingContribution.specular.rgb);
+#endif
+                                 
+#ifdef USE_REFLECTANCE_ROUGHNESS_OUTPUT
+#ifdef USE_PBR
+    _output.reflectanceRoughnessOutput = half4( half3(_lightingContribution.pbr.probeReflectance), half(_surface.roughness) );
+#else 
+    _output.reflectanceRoughnessOutput = half4( 0.h );
+#endif
+#endif
+    
+    return _output;
+}
+ /* Error: Ran out of types for this method. */;
+- (id)float4(float3(surface.roughness), 1.f);
+            case 8:return float4(ambient, 1.f);
+            case 9:return float4(diffuse, 1.f);
+            default:return float4(specular, 1.f);
+        }
+    }
+
+    
+
+    static inline float3 lambert_diffuse(float3 l, float3 n, float3 color, float intensity) {
+        return color * (intensity * saturate(dot(n, l)));
+    }
+
+    void lambert(float3 l, float3 color, float intensity)
+    {
+        diffuse += lambert_diffuse(l, surface.normal, color, intensity);
+    }
+
+    void blinn(float3 l, float3 color, float intensity)
+    {
+        float3 D = lambert_diffuse(l, surface.normal, color, intensity);
+        diffuse += D;
+
+        float3 h = normalize(l + surface.view);
+        specular += powr(saturate(dot(surface.normal, h)), surface.shininess) * D;
+    }
+
+    void phong(float3 l, float3 color, float intensity)
+    {
+        float3 D = lambert_diffuse(l, surface.normal, color, intensity);
+        diffuse += D;
+
+        float3 r = reflect(-l, surface.normal);
+        specular += powr(saturate(dot(r, surface.view)), surface.shininess) * D;
+    }
+
+#ifdef USE_PBR
+    void physicallyBased(float3 l, float3 color, float intensity)
+    {
+        float3 n         = surface.normal;
+        float3 v         = surface.view;
+        float  roughness = surface.roughness;
+        float  alpha     = roughness * roughness;
+
+        float3 h = normalize(l + v);
+
+        float NoL = saturate(dot(n, l));
+        float NoH = saturate(dot(n, h));
+        float LoH = saturate(dot(l, h));
+        
+        float D   = scn_brdf_D(alpha, NoH);
+        float3 F  = scn_brdf_F_opt(pbr.reflectance, LoH);
+        float Vis = scn_brdf_V(alpha, NoL, pbr.NoV);
+
+        
+        diffuse  += color * (NoL * M_1_PI_F * intensity);
+        specular += color * F * (NoL * D * Vis * intensity);
+        
+        #ifdef USE_CLEARCOAT
+            n = surface.clearCoatNormal;
+
+            roughness = max(surface.clearCoatRoughness, 0.089f);
+            alpha = roughness * roughness; 
+        
+            
+            
+            float NoH_coat = saturate(dot(n, h));
+            float NoL_coat = saturate(dot(n, l));
+            D   = scn_brdf_D(alpha, NoH_coat);
+            F   = scn_brdf_F_opt(0.04, LoH) * surface.clearCoat;
+            Vis = scn_brdf_V(alpha, NoL_coat, saturate(dot(n,v)));
+        
+            float attenuation = 1.0 - F.r;
+            specular *=  (attenuation * attenuation);
+            specular += color * F * ( NoL_coat * D * Vis * intensity);
+        #endif
+    }
+#endif
+
+    void custom(float3 _l, float3 _color, float _intensity)
+    {
+#ifdef USE_LIGHT_MODIFIER
+        thread SCNShaderLightingContribution &_lightingContribution = *this;
+        thread SCNShaderSurface& _surface = surface;
+        SCNShaderLight _light = {.direction = _l, .intensity = float4(_color, 1.f), ._att = _intensity };
+        
+        __DoLightModifier__
+        
+#endif
+    }
+
+    void shade(float3 l, float3 color, float intensity)
+    {
+#ifdef LIGHTING_MODEL
+        switch (LIGHTING_MODEL) {
+#ifdef USE_SHADOWONLY
+            case SCNLightingModelShadowOnly:shadowFactor *= intensity; break;
+#endif
+            case SCNLightingModelLambert:lambert(l, color, intensity); break;
+            case SCNLightingModelBlinn:blinn(l, color, intensity);   break;
+            case SCNLightingModelPhong:phong(l, color, intensity);   break;
+#ifdef USE_PBR
+            case SCNLightingModelPhysicallyBased:physicallyBased(l, color, intensity); break;
+#endif
+            case SCNLightingModelCustom:custom(l, color, intensity);  break;
+            default:break; 
+        }
+#endif
+    }
+
+    
+    
+    
+    float pbr_dist_attenuation_alternate(float3 l, float cutoff) {
+        
+        float radius = 0.1f; 
+        float factor = 1.f / (1.f + length(l)/radius);
+        float attenuation = saturate(factor * factor); 
+        return saturate((attenuation - cutoff) / (1.f - cutoff));
+    }
+
+    float pbr_dist_attenuation(float3 l, float inv_square_radius) {
+        float sqr_dist = length_squared(l);
+        float atten = 1.f / max(sqr_dist, 0.0001f);
+
+        
+        float factor = saturate(1.f - scn::sq(sqr_dist * inv_square_radius));
+        return atten * factor * factor;
+    }
+
+    float non_pbr_dist_attenuation(float3 l, float4 att)
+    {
+        return powr(saturate(length(l) * att.x + att.y), att.z);
+    }
+
+    float dist_attenuation(float3 unnormalized_l, scn_light light)
+    {
+#ifdef USE_PBR
+        return 1000.f * pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors.w);
+        
+        
+#else
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        return non_pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors);
+#endif
+    }
+
+    float spot_attenuation(float3 l, scn_light light)
+    {
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        
+        return saturate(dot(l, light.dir) * light.parameters.spot.scaleBias.x + light.parameters.spot.scaleBias.y);
+    }
+
+    void shade_modulate(float3 l, float4 color, float intensity)
+    {
+        constexpr half3 white = half3(1.h);
+        
+        modulate *= float3(mix(white, half3(color.rgb), half(color.a * intensity)));
+    }
+
+    float3 gobo(float3 pos, scn_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+        half3 g = texture2DProj(goboTexture, goboSampler, (light.shadowMatrix * float4(pos, 1.f))).rgb;
+        return light.color.rgb * float3(mix(1.h, g, half(light.color.a)));
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap)
+    {
+        float shadow = ComputeShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+        float shadow = ComputeSoftShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowKernel, light.shadowSampleCount, light.shadowRadius, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int shadowSampleCount)
+    {
+        float shadow = ComputeSoftShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowKernel, shadowSampleCount, light.shadowRadius, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, int shadowSampleCount)
+    {
+        float shadow = ComputeSoftShadowGrid(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowSampleCount, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow_omni(float3 pos_vs, float3 nrm_vs, scn_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        
+#define USE_TANGENT_SAMPLING 0
+
+        float2 scaleBias = light.parameters.omni.shadowScaleBias.xy;
+        float  depthBias = light.parameters.omni.shadowScaleBias.z;
+
+        
+        pos_vs += nrm_vs * depthBias;
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(pos_vs, 1.f)).xyz;
+
+        
+        float z_lin = scn::reduce_max(abs(pos_ls));
+
+        
+        
+        
+
+        
+        float z_ndc = (z_lin * scaleBias.x + scaleBias.y) / z_lin - depthBias;
+
+        
+        float shadow;
+        if (sampleCount <= 1) {
+            shadow = shadowMap.sample_compare(scn_shadow_sampler, pos_ls.xyz, z_ndc);
+        } else {
+            
+            float filteringSizeFactor = light.shadowRadius;
+
+#if USE_TANGENT_SAMPLING
+            float3 tgt_x, tgt_y;
+            scn::orthogonal_basis(pos_ls, tgt_x, tgt_y);
+#else
+            float3 nrm_ls = (light.shadowMatrix * float4(nrm_vs, 0.f)).xyz;
+#endif
+
+            
+            float totalAccum = 0.0;
+            for(int i=0; i < sampleCount; i++){
+
+#if USE_TANGENT_SAMPLING
+                float2 scale = shadowKernel[i].xy * filteringSizeFactor * 2.f;
+                float3 smp_ls = pos_ls.xyz + tgt_x * scale.x + tgt_y * scale.y;
+#else
+                float3 smp_ls = pos_ls.xyz + scn::randomHemisphereDir(nrm_ls, shadowKernel[i].xy) * filteringSizeFactor;
+#endif
+
+                
+                
+                
+
+                totalAccum += shadowMap.sample_compare(scn_shadow_sampler, smp_ls, z_ndc);
+            }
+            shadow = totalAccum / float(sampleCount);
+        }
+
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, constant scn_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount)
+    {
+        float shadow = ComputeCascadedShadow(scn_shadow_sampler, pos, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius).a;
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+
+    void add_directional(scn_light light)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, texture2d<half> goboTexture, sampler goboSampler, bool modulated)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        if (modulated) {
+            shade_modulate(light.dir, light.color, 1.f);
+        } else {
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, shadowKernel);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    void add_directional(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(constant scn_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount, bool debugCascades)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        if (debugCascades) {
+            float4 shadowDebug = ComputeCascadedShadow(scn_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius);
+            intensity *= (1.f - shadowDebug.a);
+            shade(light.dir, light.color.rgb, intensity);
+            diffuse.rgb = mix(diffuse.rgb, shadowDebug.rgb, light.color.a);
+        } else {
+            intensity *= shadow(surface.position, light, shadowMaps, cascadeCount, blendCascade, shadowKernel, sampleCount);
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
+
+    
+
+    void add_omni(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light));
+    }
+
+    void add_omni(scn_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity *= shadow_omni(surface.position, surface.normal, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_local_omni(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light));
+    }
+
+    
+
+    void add_spot(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_spot(scn_light light, texture2d<half> goboTexture, sampler goboSampler, bool modulated)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        if (modulated) {
+            shade_modulate(l, light.color, intensity);
+        } else {
+            shade(l, light.color.rgb, intensity);
+        }
+    }
+
+    void add_local_spot(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+    void add_spot(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+    
+    void add_spot(scn_light light, 
+                  depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount,
+                  texture2d<half> goboTexture, sampler goboSampler)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+#ifdef USE_PBR
+
+    
+
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+    void add_local_probe(scn_light light, texturecube_array<half> probeTextureArray)
+#else
+    void add_local_probe(scn_light light, texture2d_array<half> probeTextureArray)
+#endif
+    {
+#if !PROBES_NORMALIZATION
+        if (probeRadianceRemainingFactor <= 0.f)
+            return;
+#endif
+
+        bool parallaxCorrection = light.parameters.probe.parallaxCorrection;
+        int    probeIndex       = light.parameters.probe.index;
+        float3 probeExtents     = light.parameters.probe.halfExtents.xyz;
+        float  blendDist        = light.parameters.probe.halfExtents.w;
+        float3 probeOffset      = light.parameters.probe.offset;
+        float3 parallaxExtents  = light.parameters.probe.parallaxExtents;
+        float3 parallaxCenter   = light.parameters.probe.parallaxCenter;
+
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+
+        float3 specDir = scn::mat4_mult_float3(light.shadowMatrix, r);
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(surface.position, 1.f)).xyz;
+
+        
+        float3 d = abs(pos_ls) - probeExtents;
+#if PROBES_OUTER_BLENDING
+        if (any(d > blendDist))
+#else
+        if (any(d > 0.f))
+#endif
+        {
+            return;
+        }
+
+#if PROBES_NORMALIZATION
+        
+        
+#if PROBES_OUTER_BLENDING
+        float3 nd = saturate(-(d / blendDist) * 0.5f + 0.5f);
+#else
+        float3 nd = saturate(-(d / blendDist));
+#endif
+        float probeFactor = (nd.x * nd.y * nd.z) * light.color.r;
+#else
+        
+        float sd = min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));
+#if PROBES_OUTER_BLENDING
+        float probeFactor = saturate(1.f - sd / blendDist);
+#else
+        float probeFactor = saturate(-sd / blendDist);
+#endif
+        
+        
+        
+        probeFactor *= probeRadianceRemainingFactor * light.color.r; 
+#endif
+
+        if (parallaxCorrection ) {
+            
+            float3 pos_off = pos_ls + parallaxCenter;
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+
+        float mipd = float(probeTextureArray.get_num_mip_levels()) - 1.f;
+        const float intensity = surface.ambientOcclusion * probeFactor;
+
+        float mips = surface.roughness * mipd;
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        float2 specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+
+        
+
+        
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectance, probeFactor);
+#else
+        probeRadianceRemainingFactor = saturate(probeRadianceRemainingFactor - probeFactor);
+        specular += LD * intensity * pbr.probeReflectance;
+#endif
+        
+#ifdef USE_CLEARCOAT
+        n = surface.clearCoatNormal;
+        r = reflect(-v, n);
+        specDir = scn::mat4_mult_float3(light.shadowMatrix, r);
+        if (parallaxCorrection ) {
+            float3 pos_off = pos_ls + parallaxCenter;
+            
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+            
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+        mips = surface.clearCoatRoughness * mipd;
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectanceClearCoat, probeFactor) * surface.clearCoat;
+#else
+        specular += LD * intensity * pbr.probeReflectanceClearCoat * surface.clearCoat;
+#endif
+#endif
+    }
+
+    void add_global_probe(float4x4 localDirToWorldCubemapDir,
+                          float environmentIntensity,
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+                          texturecube_array<half> probeTextureArray
+#else
+                          texture2d_array<half> probeTextureArray
+#endif
+                          )
+    {
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+        
+        float3 specDir = scn::mat4_mult_float3(localDirToWorldCubemapDir, r);
+        float mips = surface.roughness * float(probeTextureArray.get_num_mip_levels() - 1);
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, 0, level(mips)).rgb);
+#else
+        float2 specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, 0, level(mips)).rgb);
+#endif
+        
+        
+        specular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
+
+    void add_global_probe(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n        = surface.normal;
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.roughness;
+
+#if USE_PBR_DOMINANT_DIRECTION
+        float alpha = roughness * roughness;
+        float smoothness = 1.0f - alpha;
+        float specularLerpFactor = (1. - smoothness * (sqrt(smoothness) + alpha));
+        float3 specularDominantNDirection = mix(r, n, specularLerpFactor); 
+#else
+        float3 specularDominantNDirection = r;
+#endif
+        
+        
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+        float3 dir = scn::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection);
+        float3 LD = specularLD.sample(scn::linearSampler, dir, level(mipLevel)).rgb;
+        pbr.envSpecular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
+
+#ifdef USE_CLEARCOAT
+    void add_global_probeClearCoat(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n = surface.clearCoatNormal;
+        
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.clearCoatRoughness;
+
+        
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+        float3 LD = specularLD.sample(scn::linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, r), level(mipLevel)).rgb;
+
+        LD *= surface.ambientOcclusion;
+        
+        
+        float Fc = scn_brdf_F_opt(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
+        float attenuation = 1.0f - Fc;
+        specular *= (attenuation * attenuation);
+        
+        specular += LD * environmentIntensity * pbr.probeReflectanceClearCoat * surface.clearCoat;
+    }
+#endif
+    
+    
+
+    void add_irradiance_from_selfIllum()
+    {
+        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
+        float3 irradiance = surface.selfIllumination.rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
+#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
+                                       sh2_coefficients shCoefficients)
+#else
+    sh3_coefficients shCoefficients)
+#endif
+    {
+        float3 n_sh_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, surface.normal);
+        float3 irradiance = shEvalDirection(float4(n_sh_space, 1.), shCoefficients);
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
+                                     float4x4                           localDirToWorldCubemapDir,
+                                     float                              environmentIntensity)
+    {
+#if USE_PBR_DOMINANT_DIRECTION
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        
+        
+        const half a = 1.02341h * surface.roughness - 1.51174h; 
+        const half b = -0.511705h * surface.roughness + 0.755868h;
+        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
+        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
+#else
+        float3 diffuseDominantNDirection = n;
+#endif
+        
+        float3 n_cube_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+        float3 irradiance = irradianceTexture.sample(scn::linearSampler, n_cube_space).rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseReflectance;
+#endif
+    }
+
+#endif 
+
+    
+
+    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    
+    float ies_attenuation(float3 l, scn_light light, texture2d<half> iesTexture)
+    {
+#if USE_QUAT_FOR_IES
+        float3 v    = scn::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+#else
+        float3 v    = scn::matrix_rotate(light.parameters.ies.light_from_view, -l);
+#endif
+        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
+        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
+        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+    void add_area_rectangle(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
+        
+        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
+                                             (lightCenter + lightRight - lightTop) - p,
+                                             (lightCenter - lightRight - lightTop) - p,
+                                             (lightCenter - lightRight + lightTop) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
+        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+
+        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
+        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
+
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+        
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_polygon(scn_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz;
+
+        p           = shadingSpaceTransform * p;
+        lightCenter = shadingSpaceTransform * lightCenter;
+        lightRight  = shadingSpaceTransform * lightRight;
+        lightTop    = shadingSpaceTransform * lightTop;
+
+        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        p           = inverseLTCMatrix * p;
+        lightCenter = inverseLTCMatrix * lightCenter;
+        lightRight  = inverseLTCMatrix * lightRight;
+        lightTop    = inverseLTCMatrix * lightTop;
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_line(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
+
+        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(scn_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id)Signal;
+- (id)trackMouse:(SEL)arg1 forPDFScannerResult:onPage: /* Error: Ran out of types for this method. */;
+- (id)_protocolInput_TrackSignal;
 
 @end
 

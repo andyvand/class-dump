@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString, UILookupEvent;
+@class UILookupEvent;
 
 @interface _UILookupGestureRecognizer : UIGestureRecognizer
 {
@@ -14,24 +14,18 @@
 }
 
 - (void);
-- (struct CGPoint)sterFileRepresentationForTypeIdentifier:(id)arg1 fileOptions:visibility:loadHandler: /* Error: Ran out of types for this method. */;
-- (void)utAsInputViewControllerOutput:(id)arg1;
-- (void)ctionTrackingKeyboardFocusUpdateForWindow:(id)arg1;
-- (void)hSelection:(id)arg1;
-- (void)determineScaleAutomatically;
+- (struct CGPoint)registerFileRepresentationForTypeIdentifier:(id)arg1 fileOptions:visibility:loadHandler: /* Error: Ran out of types for this method. */;
+- (void)performKeyboardOutputAsInputViewControllerOutput:(id)arg1;
+- (void)_systemShellAllowsInteractionTrackingKeyboardFocusUpdateForWindow:(id)arg1;
+- (void)_documentTextThroughSelection:(id)arg1;
+- (void)_determineScaleAutomatically;
 - (_Bool);
 - (void)background{view=;
 - (void);
 - (void):IÕ|` /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

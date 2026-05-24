@@ -7,14 +7,9 @@
 @interface MPSongInternal
 {
     double duration;
-    double startTime;
-    double audioVolume;
-    double fadeInDuration;
-    double fadeOutDuration;
-    _Bool assetLogging;
 }
 
-- (void);
+- (void)scription %@;
 - (_Bool);
 - (void);
 - (void);
@@ -28,12 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool assetLogging; // @synthesize assetLogging;
-@property(nonatomic) double audioVolume; // @synthesize audioVolume;
 @property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration;
-@property(nonatomic) double startTime; // @synthesize startTime;
 
 @end
 

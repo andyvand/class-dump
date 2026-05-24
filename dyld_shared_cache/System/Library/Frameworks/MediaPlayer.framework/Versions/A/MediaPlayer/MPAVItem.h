@@ -4,113 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVPlayerItem, AVPlayerItemMetadataOutput, ICMusicSubscriptionLeaseStatus, MPMediaItem, MPMediaLibraryPrivacyContext, MPModelGenericObject, MPModelPlayEvent, MPNowPlayingContentItem, MPQueueFeeder, NSArray, NSDate, NSDictionary, NSError, NSMutableArray, NSMutableSet, NSNumber, NSObject, NSString;
-@protocol MPAVItemObserver, OS_dispatch_queue;
+@class AVAsset;
 
 @interface MPAVItem
 {
     AVAsset *_asset;
-    NSObject<OS_dispatch_queue> *_assetQueue;
-    AVPlayerItem *_avPlayerItem;
-    _Bool _isAssetLoaded;
-    MPQueueFeeder *_feeder;
-    float _soundCheckVolumeNormalization;
-    double _cachedDuration;
-    double _cachedPlayableDuration;
-    NSArray *_cachedSeekableTimeRanges;
-    double _seekableTimeRangesCacheTime;
-    long long _type;
-    MPNowPlayingContentItem *_contentItem;
-    float _defaultPlaybackRate;
-    unsigned int _isStreamable:2;
-    unsigned int _watchingAttributes:1;
-    unsigned int _lyricsAvailable:1;
-    struct os_unfair_lock_s _lock;
-    _Bool _hasLoadedHasProtectedContent;
-    _Bool _hasLoadedPlaybackMode;
-    _Bool _hasValidPlayerItemDuration;
-    double _lastLoggedTotalDuration;
-    long long _likedState;
-    struct {
-        long long value;
-        int timescale;
-        unsigned int flags;
-        long long epoch;
-    } _playerItemDuration;
-    long long _exportableArtworkRevision;
-    MPMediaLibraryPrivacyContext *_privacyContext;
-    AVPlayerItemMetadataOutput *_metadataOutput;
-    NSMutableArray *_adjunctErrors;
-    NSMutableSet *_pendingContentItemUpdates;
-    _Bool _isPreloadedAsset;
-    _Bool _assetLoaded;
-    _Bool _didAttemptToLoadAsset;
-    _Bool _canReusePlayerItem;
-    _Bool _useEmbeddedChapterData;
-    _Bool _likedStateEnabled;
-    _Bool _supportsLikedState;
-    _Bool _mediaItemNeedsLoading;
-    _Bool _prefersSeekOverSkip;
-    _Bool _hasProtectedContent;
-    _Bool _shouldPreventPlayback;
-    _Bool _isStartItem;
-    _Bool _isHostingSharedSession;
-    _Bool _allowsAirPlayFromCloud;
-    _Bool _allowsExternalPlayback;
-    _Bool _requiresLoadedAssetForAirPlayProperties;
-    _Bool _hasFinishedDownloading;
-    _Bool _hasPerformedErrorResolution;
-    _Bool _activeItem;
-    _Bool _externalDisplay;
-    _Bool _didReachEnd;
-    _Bool _inSmartTransition;
-    _Bool _inOverlappedTransition;
-    _Bool _autoPlayItem;
-    _Bool _sharedListeningItem;
-    _Bool _configuredForVocalAttenuation;
-    float _currentPlaybackRate;
-    float _loudnessInfoVolumeNormalization;
-    id <MPAVItemObserver> _observer;
-    NSError *_itemError;
-    NSString *_queueIdentifier;
-    long long _playbackMode;
-    NSArray *_chapterTimeMarkers;
-    NSArray *_artworkTimeMarkers;
-    NSArray *_urlTimeMarkers;
-    NSArray *_closedCaptionTimeMarkers;
-    long long _albumStoreID;
-    NSString *_copyrightText;
-    NSString *_externalContentIdentifier;
-    NSDate *_releaseDate;
-    long long _storeItemInt64ID;
-    long long _storeSubscriptionAdamID;
-    double _lastPlayPerformanceTime;
-    MPMediaItem *_mediaItem;
-    NSString *_explicitBadge;
-    long long _nowPlayingInfoQueueIndex;
-    long long _nowPlayingInfoQueueCount;
-    long long _lastChangeDirection;
-    NSString *_associatedParticipantIdentifier;
-    MPModelGenericObject *_modelGenericObject;
-    MPModelPlayEvent *_modelPlayEvent;
-    NSNumber *_initialPlaybackStartTimeOverride;
-    NSNumber *_lastMetadataChangeTime;
-    NSString *_rtcReportingServiceIdentifier;
-    NSDictionary *_playbackInfo;
-    NSString *_storeFrontIdentifier;
-    NSNumber *_storeAccountID;
-    long long _leasePlaybackPreventionState;
-    ICMusicSubscriptionLeaseStatus *_leaseStatus;
-    NSDictionary *_transitionInfo;
-    double _overlappedTransitionDuration;
-    NSString *_contentItemID;
-    NSString *_queueSectionID;
-    NSString *_queueItemID;
-    long long _explicitContentState;
 }
 
-+ (id);
-+ (_Bool)essState: /* Error: Ran out of types for this method. */;
++ (id)ersions/A/HomeKitFeatures;
++ (_Bool)homeManager:didUpdateHH2MigrationInProgressState: /* Error: Ran out of types for this method. */;
 
 @end
 

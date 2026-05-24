@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface MXHALInterface
 {
     id <CoreAudioOrchestration> mOrchestrator;
-    NSNumber *_isolatedUseCaseSiriIDConfigurationToken;
-    NSNumber *_isolatedUseCaseAvailabilityChangedSubscriptionToken;
 }
 
 + (id);
@@ -41,7 +39,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) NSNumber *isolatedUseCaseAvailabilityChangedSubscriptionToken; // @synthesize isolatedUseCaseAvailabilityChangedSubscriptionToken=_isolatedUseCaseAvailabilityChangedSubscriptionToken;
 @property(retain) NSNumber *isolatedUseCaseSiriIDConfigurationToken; // @synthesize isolatedUseCaseSiriIDConfigurationToken=_isolatedUseCaseSiriIDConfigurationToken;
 
 @end

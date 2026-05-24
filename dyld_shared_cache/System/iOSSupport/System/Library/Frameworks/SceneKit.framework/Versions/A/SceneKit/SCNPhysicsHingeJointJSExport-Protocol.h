@@ -9,11 +9,6 @@
 @protocol SCNPhysicsHingeJointJSExport
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 anchorA;
-@property(nonatomic) struct SCNVector3 anchorB;
-@property(nonatomic) struct SCNVector3 axisA;
-@property(nonatomic) struct SCNVector3 axisB;
 @property(readonly, nonatomic) SCNPhysicsBody *bodyA;
-@property(readonly, nonatomic) SCNPhysicsBody *bodyB;
 @end
 

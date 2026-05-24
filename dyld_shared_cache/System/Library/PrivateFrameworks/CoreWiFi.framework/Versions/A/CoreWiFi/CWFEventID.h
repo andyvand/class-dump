@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CWFEventID
 {
     long long _type;
-    NSString *_interfaceName;
 }
 
-+ (id);
++ (id)aida_analyticsFinishEventForAIDAServiceType:(long long)arg1 accountManager:(id)arg2 authenticationResults:success:error: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -22,13 +19,12 @@
 - (long long);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)nection: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)%;
+- (void)ed on BKSHIDEventDiscreteDispatchingRule;
+- (void)__stopHostAPMode:XPCConnection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

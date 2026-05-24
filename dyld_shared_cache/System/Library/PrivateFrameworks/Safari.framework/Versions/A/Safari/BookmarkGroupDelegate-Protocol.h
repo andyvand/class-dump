@@ -5,5 +5,8 @@
 //
 
 @protocol BookmarkGroupDelegate
+
+@optional
+- (void);
 @end
 

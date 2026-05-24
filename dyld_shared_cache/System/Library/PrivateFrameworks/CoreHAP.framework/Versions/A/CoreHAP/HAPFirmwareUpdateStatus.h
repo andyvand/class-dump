@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPFirmwareUpdateStateWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPFirmwareUpdateStateWrapper;
 
 @interface HAPFirmwareUpdateStatus
 {
     HAPFirmwareUpdateStateWrapper *_state;
-    HAPTLVUnsignedNumberValue *_updateDuration;
-    NSString *_stagedFirmwareVersion;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool)unmap;
 - (_Bool);
 - (id);
 - (void)@0:8q16q24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *stagedFirmwareVersion; // @synthesize stagedFirmwareVersion=_stagedFirmwareVersion;
 @property(retain, nonatomic) HAPFirmwareUpdateStateWrapper *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *updateDuration; // @synthesize updateDuration=_updateDuration;
 
 @end
 

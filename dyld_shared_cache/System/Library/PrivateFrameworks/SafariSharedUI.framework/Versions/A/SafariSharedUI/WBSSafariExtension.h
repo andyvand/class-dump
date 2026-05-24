@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL, NSUUID, WBSExtensionsController;
+@class WBSExtensionsController;
 
 @interface WBSSafariExtension
 {
     WBSExtensionsController *_extensionsController;
-    NSURL *_safariExtensionBaseURI;
-    NSUUID *_baseURIHost;
-    NSString *_displayName;
-    struct __SecCode *_bundleCodeRef;
-    NSDictionary *_untrustedCodeSigningDictionary;
-    NSArray *_injectedScripts;
-    NSArray *_injectedStyleSheets;
-    NSUUID *_privacyPreservingProfileIdentifier;
 }
 
 - (void);
@@ -30,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct __SecCode *);
 - (id);
@@ -40,15 +32,7 @@
 - (void)WBSExtensionsAnalyticsEventCoalescerDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *baseURIHost; // @synthesize baseURIHost=_baseURIHost;
-@property(nonatomic) struct __SecCode *bundleCodeRef; // @synthesize bundleCodeRef=_bundleCodeRef;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(nonatomic) __weak WBSExtensionsController *extensionsController; // @synthesize extensionsController=_extensionsController;
-@property(copy, nonatomic) NSArray *injectedScripts; // @synthesize injectedScripts=_injectedScripts;
-@property(copy, nonatomic) NSArray *injectedStyleSheets; // @synthesize injectedStyleSheets=_injectedStyleSheets;
-@property(retain, nonatomic) NSUUID *privacyPreservingProfileIdentifier; // @synthesize privacyPreservingProfileIdentifier=_privacyPreservingProfileIdentifier;
-@property(retain, nonatomic) NSURL *safariExtensionBaseURI; // @synthesize safariExtensionBaseURI=_safariExtensionBaseURI;
-@property(copy, nonatomic) NSDictionary *untrustedCodeSigningDictionary; // @synthesize untrustedCodeSigningDictionary=_untrustedCodeSigningDictionary;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)okup.cat;
 + (void);
 - (id);
 - (_Bool);

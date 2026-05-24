@@ -4,64 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSettingValue, NSString, NSUUID;
-@protocol HMSettingManager;
+@class NSString;
 
 @interface HMSetting
 {
     id _value;
-    NSString *_keyPath;
-    NSUUID *_identifier;
-    Class _valueClass;
-    long long _type;
-    id <HMSettingManager> _settingManager;
-    NSString *_name;
-    unsigned long long _properties;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)intellectual;
+- (void)perceive;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void)ommissionerVendor:(Class)arg1;
-- (Class)ngGroup;
-- (void);
-- (id)rType;
+- (void)setSystemCommissionerVendor:(Class)arg1;
+- (Class)HMAccessorySettingGroup;
+- (void)_HMCameraStreamControlDelegate;
+- (id)_ErrorType;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) HMSettingValue *internalValue;
 @property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy) NSString *localizedTitle;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property unsigned long long properties; // @synthesize properties=_properties;
-@property __weak id <HMSettingManager> settingManager; // @synthesize settingManager=_settingManager;
-@property long long type; // @synthesize type=_type;
-@property(copy) id value; // @synthesize value=_value;
-@property(retain) Class valueClass; // @synthesize valueClass=_valueClass;
-@property(readonly, getter=isWritable) _Bool writable;
 
 @end
 

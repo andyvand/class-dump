@@ -9,7 +9,6 @@
 @interface AppStoreKit.CancelPreorderAction : AppStoreKit.Action
 {
     id preorderAdamId;
-    id isArcade;
 }
 
 @end

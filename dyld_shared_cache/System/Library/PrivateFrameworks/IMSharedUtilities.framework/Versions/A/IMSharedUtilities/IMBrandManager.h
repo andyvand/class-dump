@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setScanLocation: /* Error: Ran out of types for this method. */;
 - (void)[Ó;
 
 // Remaining properties

@@ -10,17 +10,17 @@
 
 + (id);
 + (double);
-+ (id);
-+ (id);
++ (id);
++ (id)_reserved;
 + (id);
 + (struct CGSize);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool)sUI.ThumbnailCache;
++ (_Bool)rController;
++ (_Bool)ICDrawingPencilKitConvertedNotificationFinalAttachmentKey;
++ (id)esMigrationPromptIfNeededForAccount:(struct CGSize)arg1 window:completionHandler:] /* Error: Ran out of types for this method. */;
++ (id)teLockedNotesInAccount:(id)arg1 toMode:window:completionHandler:] /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 + (id);
 + (double);

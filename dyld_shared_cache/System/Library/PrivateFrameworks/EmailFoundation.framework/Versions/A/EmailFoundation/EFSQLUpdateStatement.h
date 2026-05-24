@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 @protocol EFSQLValueExpressable;
 
 @interface EFSQLUpdateStatement
 {
     id <EFSQLValueExpressable> _whereClause;
-    NSMutableDictionary *_bindables;
-    NSMutableDictionary *_expressables;
-    NSString *_table;
-    unsigned long long _conflictResolution;
 }
 
 - (void);
-- (id);
+- (id)backgroundEffectView;
+- (void)only be set once on an AVMobileGlassControlsView.;
 - (void);
-- (void);
+- (id)GV;
 - (id);
-- (id);
-- (id);
+- (id)ailed :%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *queryString;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <EFSQLValueExpressable> whereClause; // @synthesize whereClause=_whereClause;
 
 @end
 

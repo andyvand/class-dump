@@ -5,5 +5,10 @@
 //
 
 @protocol IMDaemonListenerServiceProtocol
+- (void);
+- (void);
+- (void)T`;
+- (void);
+- (void)_TtCV14BiomeSQLParser17PgQuery_WindowDefP33_A784F7F2ED97E043416F18646CF1BF1713_StorageClass;
 @end
 

@@ -6,16 +6,15 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 @interface RAWCropFilter : RAWFilter
 {
     CIImage *inputImage;
-    CIVector *inputCropRect;
 }
 
 - (id);
-- (void);
+- (void);
 
 @end
 

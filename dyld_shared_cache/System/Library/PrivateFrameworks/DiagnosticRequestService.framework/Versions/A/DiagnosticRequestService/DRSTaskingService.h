@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSTaskingEventPublisher, DRSTaskingManager, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface DRSTaskingService
 {
     unsigned char _state;
-    NSObject<OS_dispatch_queue> *_messageQueue;
-    NSObject<OS_xpc_object> *_serviceConnection;
-    DRSTaskingManager *_taskingManager;
-    NSObject<OS_dispatch_semaphore> *_serviceDeactivatedSem;
-    DRSTaskingEventPublisher *_eventPublisher;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -44,19 +39,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)tResult:transaction:completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)reportTaskingConfigReceipt:uuidString:receiptResult:transaction:completionHandler: /* Error: Ran out of types for this method. */;
 - (void){public}@ from TaskingMessage ID %{public}@ due to already being expired (%{public}@ (endDate) <= %{public}@ (current date));
 - (id)%{public}@. Will fallback to default.;
-- (id)ribed;
+- (id)isSubscribed;
 
 // Remaining properties
-@property(readonly, nonatomic) DRSTaskingEventPublisher *eventPublisher; // @synthesize eventPublisher=_eventPublisher;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *messageQueue; // @synthesize messageQueue=_messageQueue;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *serviceDeactivatedSem; // @synthesize serviceDeactivatedSem=_serviceDeactivatedSem;
-@property(readonly, nonatomic) unsigned char state; // @synthesize state=_state;
-@property(readonly, nonatomic) DRSTaskingManager *taskingManager; // @synthesize taskingManager=_taskingManager;
 
 @end
 

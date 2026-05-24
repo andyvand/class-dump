@@ -6,12 +6,11 @@
 
 #import <Contacts/CNChangeHistoryEvent.h>
 
-@class CNGroup, NSString;
+@class CNGroup;
 
 @interface CNChangeHistoryAddGroupEvent : CNChangeHistoryEvent
 {
     CNGroup *_group;
-    NSString *_containerIdentifier;
 }
 
 + (unsigned long long);
@@ -20,17 +19,16 @@
 - (long long);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ring cleanup state;
+- (id)h;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (void)ekOfMonth;
+- (id)C ;
+- (void)weekOfMonth;
 - (id)tem/Library/Frameworks/CoreText.framework/Contents/MacOS/CoreText;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
 @property(readonly, nonatomic) CNGroup *group; // @synthesize group=_group;
 
 @end

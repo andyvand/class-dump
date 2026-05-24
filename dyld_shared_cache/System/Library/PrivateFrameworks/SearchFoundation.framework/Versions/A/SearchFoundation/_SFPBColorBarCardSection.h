@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBColor, _SFPBRichText;
+@class _SFPBColor;
 
 @interface _SFPBColorBarCardSection
 {
     _SFPBColor *_barColor;
-    _SFPBRichText *_topText;
-    _SFPBRichText *_title;
-    _SFPBRichText *_subtitle;
 }
 
 - (id);
@@ -22,30 +19,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (_Bool);
 - (void);
+- (id)invitationRecordGUIDsToUpdate;
+- (id)ring:%@ with annotation:%@ because it belongs to an unexpected class /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)tUnigramMatchInAttachmentTypes: /* Error: Ran out of types for this method. */;
+- (id)#;
+- (void)setCountUnigramMatchInAttachmentTypes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBColor *barColor; // @synthesize barColor=_barColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(retain, nonatomic) _SFPBRichText *topText; // @synthesize topText=_topText;
 
 @end
 

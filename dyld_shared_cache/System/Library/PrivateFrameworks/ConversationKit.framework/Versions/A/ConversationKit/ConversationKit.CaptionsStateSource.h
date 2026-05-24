@@ -7,20 +7,6 @@
 @interface ConversationKit.CaptionsStateSource
 {
     id _callName;
-    id _groupImage;
-    id _participants;
-    id _sections;
-    id _suppressionAge;
-    id _maximumAge;
-    id _isMinimized;
-    id _isGroupCall;
-    id _languageModelDownloadingProgress;
-    id _allowsMinimization;
-    id _onRequestMinimize;
-    id _onRequestDismissControls;
-    id _cancellables;
-    id sectionsCurrentValueUpdater;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TSDInfoGeometry, TSPObject;
-@protocol TSDContainerInfo, TSDOwningAttachment;
+@class TSDInfoGeometry;
 
 @protocol TSDInfo
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText;
 @property(copy, nonatomic) TSDInfoGeometry *geometry;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText;
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo;
 @end
 

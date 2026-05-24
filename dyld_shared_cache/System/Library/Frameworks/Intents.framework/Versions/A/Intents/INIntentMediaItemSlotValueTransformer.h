@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)le: /* Error: Ran out of types for this method. */;
++ (long long)setImageBundle: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ptionsByClassName;
 

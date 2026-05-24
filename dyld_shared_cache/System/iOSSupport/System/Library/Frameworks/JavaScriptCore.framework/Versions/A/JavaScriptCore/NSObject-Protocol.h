@@ -7,6 +7,10 @@
 @class NSString, Protocol;
 
 @protocol NSObject
+- (id);
+- (unsigned long long);
+- (_Bool)ooltip"16@0:(id)arg1 8;
+- (_Bool)numberWithUnsignedInteger:(Class)arg1;
 - (id)e ;
 - (_Bool).cpp:(Protocol *)arg1 871:25)] /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)"_eventValue" in injectedScript)
@@ -2373,12 +2377,6 @@ return wrapper;
 - (NSString *)C::LazyProperty<JSC::JSGlobalObject, JSC::Structure>::set(VM &, const OwnerType *, ElementType *) [OwnerType = JSC::JSGlobalObject, ElementType = JSC::Structure] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TUScreenSharingRemoteControllerDelegate
+- (void);
 @end
 

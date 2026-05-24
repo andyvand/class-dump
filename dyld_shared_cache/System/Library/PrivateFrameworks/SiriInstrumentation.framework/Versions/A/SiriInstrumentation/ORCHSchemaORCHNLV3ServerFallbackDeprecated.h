@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHNLV3ServerFallbackDeprecated : SISchemaInstrumentationMessage
 {
     int _fallbackReason;
-    CDStruct_321bbe3e _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)+;
 - (void);
 - (void);
 - (int);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void);
+- (unsigned long long)U;;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)ñÝð1Â0@ù
 × ;
-- (id)UnfilteredPartialResultIndexLists;
+- (id)_correctAlignedUnfilteredPartialResultIndexLists;
 - (id)ion",&,N,V_executorAppIntentQueryHandleTime;
 
 // Remaining properties
 @property(nonatomic) int fallbackReason; // @synthesize fallbackReason=_fallbackReason;
-@property(nonatomic) _Bool hasFallbackReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

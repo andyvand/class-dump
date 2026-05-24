@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionSession, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CMIOExtensionSession, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CMIODALExtensionSession
 {
     CMIOExtensionSession *_session;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_extensionsUpdateQueue;
-    NSDictionary *_extensions;
-    NSString *_description;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)nnected;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSDictionary *extensions;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) CMIOExtensionSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

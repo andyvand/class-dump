@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface NSAccessibilitySectionSearchElement
 {
     id _element;
-    NSMutableSet *_searchKeys;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)checked_didWriteData;
+- (id)tream ID=%llu;
+- (void)P;
+- (id)Address:subThoroughfare:postalCode:phoneNumbers:displayName:URL: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)¨ýB;
 
 // Remaining properties
 @property(readonly, nonatomic) id element; // @synthesize element=_element;
-@property(retain, nonatomic) NSMutableSet *searchKeys; // @synthesize searchKeys=_searchKeys;
 
 @end
 

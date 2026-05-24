@@ -6,29 +6,23 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKPaymentVehicleManufacturerResponse : PKPaymentWebServiceResponse
 {
     NSString *_encryptionScheme;
-    NSString *_ephemeralPublicKey;
-    NSString *_publicKeyHash;
-    NSData *_encryptedData;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)imulateCrossPlatformShareKey;
+- (void)PKSharingSimulateCrossPlatformShareKey;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *encryptedData; // @synthesize encryptedData=_encryptedData;
 @property(readonly, copy, nonatomic) NSString *encryptionScheme; // @synthesize encryptionScheme=_encryptionScheme;
-@property(readonly, copy, nonatomic) NSString *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(readonly, copy, nonatomic) NSString *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
 
 @end
 

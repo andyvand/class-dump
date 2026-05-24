@@ -13,8 +13,8 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)3;
+- (_Bool)Range=QQ}8I24^B28;
 - (void);
 - (id);
 

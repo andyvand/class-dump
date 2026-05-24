@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)I;
 - (void);
 - (id);
-- (void)ractionCSg;
+- (void)So35_UIScrollPocketContainerInteractionCSg;
 
 @end
 

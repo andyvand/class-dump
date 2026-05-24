@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSMediaGroundTruth : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_groundTruthId;
-    int _groundTruthSource;
-    NSString *_selectedMediaEntityAdamId;
-    NSString *_inferredMediaEntityAdamId;
-    int _selectedMediaEntitylocality;
-    int _inferredMediaEntitylocality;
-    struct {
-        unsigned int groundTruthSource:1;
-        unsigned int selectedMediaEntitylocality:1;
-        unsigned int inferredMediaEntitylocality:1;
-    } _has;
-    _Bool _hasGroundTruthId;
-    _Bool _hasSelectedMediaEntityAdamId;
-    _Bool _hasInferredMediaEntityAdamId;
 }
 
 - (void);
@@ -39,15 +26,15 @@
 - (int);
 - (id);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -58,30 +45,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)1;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)liasResolver:(id)arg1 Generating aliasToIDMap completed. Took %f seconds;
 - (id);
 - (id);
-- (id)erRequestContext;
+- (id)_hasTtmNeuralCombinerRequestContext;
 - (id)V_hasFullPayloadCorrectionExperimentContext;
-- (void)R__DETERMINEINTENT__ANSWERQUESTIONABOUTTITLE__TITLE;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__DETERMINEINTENT__ANSWERQUESTIONABOUTTITLE__TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *groundTruthId; // @synthesize groundTruthId=_groundTruthId;
-@property(nonatomic) int groundTruthSource; // @synthesize groundTruthSource=_groundTruthSource;
-@property(nonatomic) _Bool hasGroundTruthId; // @synthesize hasGroundTruthId=_hasGroundTruthId;
-@property(nonatomic) _Bool hasGroundTruthSource;
-@property(nonatomic) _Bool hasInferredMediaEntityAdamId; // @synthesize hasInferredMediaEntityAdamId=_hasInferredMediaEntityAdamId;
-@property(nonatomic) _Bool hasInferredMediaEntitylocality;
-@property(nonatomic) _Bool hasSelectedMediaEntityAdamId; // @synthesize hasSelectedMediaEntityAdamId=_hasSelectedMediaEntityAdamId;
-@property(nonatomic) _Bool hasSelectedMediaEntitylocality;
-@property(copy, nonatomic) NSString *inferredMediaEntityAdamId; // @synthesize inferredMediaEntityAdamId=_inferredMediaEntityAdamId;
-@property(nonatomic) int inferredMediaEntitylocality; // @synthesize inferredMediaEntitylocality=_inferredMediaEntitylocality;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *selectedMediaEntityAdamId; // @synthesize selectedMediaEntityAdamId=_selectedMediaEntityAdamId;
-@property(nonatomic) int selectedMediaEntitylocality; // @synthesize selectedMediaEntitylocality=_selectedMediaEntitylocality;
 
 @end
 

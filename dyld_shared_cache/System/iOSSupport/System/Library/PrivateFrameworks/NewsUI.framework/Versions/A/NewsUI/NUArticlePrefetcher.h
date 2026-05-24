@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyedOperationQueue, NSCountedSet, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSTimer;
-@protocol NUArticleDataProviderFactory, NUArticleFactory, OS_dispatch_queue;
+@protocol NUArticleFactory;
 
 @interface NUArticlePrefetcher
 {
     id <NUArticleFactory> _articleFactory;
-    id <NUArticleDataProviderFactory> _articleDataProviderFactory;
-    FCKeyedOperationQueue *_prefetchQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_articleDataProviderCache;
-    NSMutableSet *_failedArticleIDs;
-    NSCountedSet *_interestedArticleIDs;
-    NSMutableDictionary *_headlinesForArticles;
-    NSMutableDictionary *_interestModificationDates;
-    unsigned long long _highWaterMark;
-    NSTimer *_reprocessTimer;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ributesForNode:(id)arg1 withXMLNode:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -39,19 +28,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)channelPickerRegularSearchConfigurationProfiles;
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
+- (id)thumbnailData;
+- (id);
+- (id);
+- (void)eyboardFloating;
 - (unsigned long long);
 - (void);
 - (void);
@@ -59,24 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *articleDataProviderCache; // @synthesize articleDataProviderCache=_articleDataProviderCache;
-@property(retain, nonatomic) id <NUArticleDataProviderFactory> articleDataProviderFactory; // @synthesize articleDataProviderFactory=_articleDataProviderFactory;
 @property(retain, nonatomic) id <NUArticleFactory> articleFactory; // @synthesize articleFactory=_articleFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *failedArticleIDs; // @synthesize failedArticleIDs=_failedArticleIDs;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *headlinesForArticles; // @synthesize headlinesForArticles=_headlinesForArticles;
-@property(nonatomic) unsigned long long highWaterMark; // @synthesize highWaterMark=_highWaterMark;
-@property(retain, nonatomic) NSMutableDictionary *interestModificationDates; // @synthesize interestModificationDates=_interestModificationDates;
-@property(retain, nonatomic) NSCountedSet *interestedArticleIDs; // @synthesize interestedArticleIDs=_interestedArticleIDs;
-@property(retain, nonatomic) FCKeyedOperationQueue *prefetchQueue; // @synthesize prefetchQueue=_prefetchQueue;
-@property(retain, nonatomic) NSTimer *reprocessTimer; // @synthesize reprocessTimer=_reprocessTimer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

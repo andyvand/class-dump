@@ -7,10 +7,28 @@
 @class NSError;
 
 @protocol MTL4CommitFeedback
+- (double)oat minDist = 1.000000e+09;
+  const float nan = 1.0 / 0.0;
+  vec4 result = vec4(nan, nan, 0.0, 1.0);
+  vec2 dc = destCoord();
+  vec2 uv = _dc_to_uv(dc, ext);
+  for (int i = -1; i <= 1; i++) {
+    for (int j = -1; j <= 1; j++) {
+      vec2 off = vec2(i, j) * stride;
+      vec4 s = sample(image, samplerTransform(image, dc + off));
+      if (s.r == nan) continue;
+      float dist = _uv_distance(s.xy, uv, ext);
+      if (dist < minDist) {
+        result = s;
+        minDist = dist;
+      }
+    }
+  }
+  return result;
+}
+;
 
 // Remaining properties
-@property(readonly, nonatomic) double GPUEndTime;
-@property(readonly, nonatomic) double GPUStartTime;
 @property(readonly, nonatomic) NSError *error;
 @end
 

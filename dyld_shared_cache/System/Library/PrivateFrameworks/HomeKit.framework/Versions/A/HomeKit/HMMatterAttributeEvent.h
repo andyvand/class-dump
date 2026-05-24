@@ -6,21 +6,17 @@
 
 #import <HomeKit/HMEvent.h>
 
-@class HMAccessory, NSNumber;
+@class NSNumber;
 @protocol NSCopying;
 
 @interface HMMatterAttributeEvent : HMEvent
 {
     id <NSCopying> _triggerValue;
-    NSNumber *_attributeID;
-    NSNumber *_clusterID;
-    NSNumber *_endpointID;
-    HMAccessory *_accessory;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)InteractionLevel;
 - (_Bool);
 - (id);
 - (id);
@@ -31,19 +27,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)?;
+- (id)(	>	;
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void)D;
 
 // Remaining properties
-@property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;
 @property(readonly, nonatomic) NSNumber *attributeID; // @synthesize attributeID=_attributeID;
-@property(readonly, nonatomic) NSNumber *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, nonatomic) NSNumber *endpointID; // @synthesize endpointID=_endpointID;
-@property(readonly, copy, nonatomic) id <NSCopying> triggerValue; // @synthesize triggerValue=_triggerValue;
 
 @end
 

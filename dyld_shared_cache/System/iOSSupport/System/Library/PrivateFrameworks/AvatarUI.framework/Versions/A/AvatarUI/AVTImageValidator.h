@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTImageValidatorConfiguration, NSMutableDictionary, NSObject;
-@protocol AVTUILogger, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AVTImageValidator
 {
     NSObject<OS_dispatch_queue> *_duplicateValidationQueue;
-    id <AVTUILogger> _logger;
-    AVTImageValidatorConfiguration *_configuration;
-    NSMutableDictionary *_fileNameToImageHashesMap;
-    NSMutableDictionary *_imageHashesToAvatarDataHashesMap;
-    NSMutableDictionary *_imageHashesToFileNameMap;
 }
 
 + (_Bool);
@@ -40,12 +35,7 @@
 - (void)/î;
 
 // Remaining properties
-@property(retain, nonatomic) AVTImageValidatorConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *duplicateValidationQueue; // @synthesize duplicateValidationQueue=_duplicateValidationQueue;
-@property(retain, nonatomic) NSMutableDictionary *fileNameToImageHashesMap; // @synthesize fileNameToImageHashesMap=_fileNameToImageHashesMap;
-@property(retain, nonatomic) NSMutableDictionary *imageHashesToAvatarDataHashesMap; // @synthesize imageHashesToAvatarDataHashesMap=_imageHashesToAvatarDataHashesMap;
-@property(retain, nonatomic) NSMutableDictionary *imageHashesToFileNameMap; // @synthesize imageHashesToFileNameMap=_imageHashesToFileNameMap;
-@property(retain, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
 
 @end
 

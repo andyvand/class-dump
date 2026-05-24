@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMAccessory, HMService, NSString;
+
 @protocol HMAccessoryDelegate
+
+@optional
+- (void)_suppportedQueryTypes;
+- (void)_supportedIdentifiers;
+- (void)_subscriptionEntryForSharedAlbumWithGUID:(HMAccessory *)arg1;
+- (void)_stripWellKnownIdentifierFromIdentifierMap:(HMAccessory *)arg1;
+- (void)_storeResourceWithType:(HMAccessory *)arg1 version:(NSString *)arg2 asset:destURL:error: /* Error: Ran out of types for this method. */;
+- (void)_stopTrackingResourceWithScopedIdentifier:(HMAccessory *)arg1 fileSize:(HMService *)arg2 type: /* Error: Ran out of types for this method. */;
+- (void)_stopObservingLibraryStateCompletedAllOperations;
+- (void)_steps;
+- (void)_shouldUpdateLastModifiedDate;
 @end
 

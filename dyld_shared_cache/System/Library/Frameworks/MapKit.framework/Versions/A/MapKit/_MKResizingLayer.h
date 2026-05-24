@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _MKResizingLayer
 {
     NSMutableArray *_sizedLayers;
-    _Bool _needsLayoutOnBoundsChange;
 }
 
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)powerlogEnergyPrevious;
+- (_Bool)ryResult;
 - (void);
 - (void);
 - (void)!`AùÑ*1Â0@ù
 × ;
-- (void)ons: /* Error: Ran out of types for this method. */;
+- (void)setSelectedAnnotations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool needsLayoutOnBoundsChange; // @synthesize needsLayoutOnBoundsChange=_needsLayoutOnBoundsChange;
-@property(readonly, copy, nonatomic) NSArray *sizeToBoundsLayers;
 
 @end
 

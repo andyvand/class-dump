@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface SRCSCommandStringsTable
 {
     NSString *_localeIdentifier;
-    struct __CFStringTokenizer *_wordUnitStringTokenizer;
-    NSDictionary *_commandStringsCache;
-    NSDictionary *_commandDescriptionsCache;
-    NSMutableDictionary *_keyboardKeyNamesCache;
-    NSMutableDictionary *_modifierKeyNamesCache;
-    NSMutableDictionary *_phoneticKeyNamesCache;
-    NSMutableDictionary *_parameterIdentifiersToExamplesTable;
 }
 
 + (id);
@@ -26,18 +19,18 @@
 + (id);
 + (CDUnknownBlockType);
 + (id);
++ (id)setDeliveredPlaceholder:(id)arg1;
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Ks;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -47,20 +40,21 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)
+JI	J*;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)essing;
 - (id);
 - (void);
 

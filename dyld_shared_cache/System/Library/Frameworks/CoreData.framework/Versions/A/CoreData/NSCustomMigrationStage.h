@@ -11,9 +11,6 @@
 @interface NSCustomMigrationStage : NSMigrationStage
 {
     NSManagedObjectModelReference *_currentModel;
-    NSManagedObjectModelReference *_nextModel;
-    CDUnknownBlockType _willMigrateHandler;
-    CDUnknownBlockType _didMigrateHandler;
 }
 
 - (CDUnknownBlockType);
@@ -23,13 +20,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSManagedObjectModelReference *currentModel; // @synthesize currentModel=_currentModel;
-@property(copy) CDUnknownBlockType didMigrateHandler; // @synthesize didMigrateHandler=_didMigrateHandler;
-@property(readonly) NSManagedObjectModelReference *nextModel; // @synthesize nextModel=_nextModel;
-@property(copy) CDUnknownBlockType willMigrateHandler; // @synthesize willMigrateHandler=_willMigrateHandler;
 
 @end
 

@@ -7,14 +7,10 @@
 @interface TeaUI.TipPresentation
 {
     id placement;
-    id sourceViewController;
-    id tipViewController;
-    id delegate;
-    id observedScrollViews;
 }
 
-- (id);
-- (void);
+- (id)or"16;
+- (void)setHasOverflownOrphansFilterCoeff:(id)arg1;
 - (void)Tùúÿxùúÿ¬ùúÿèùúÿúúÿ0úúÿTúúÿ¤ûúÿàûúÿ$üúÿÈüúÿìüúÿ(ýúÿ<ÿúÿXÿúÿ|ÿúÿ ;
 
 @end

@@ -10,25 +10,23 @@
 {
     NSArray *_rawArray;
     NSDictionary *_dictionary;
-    NSData *_data;
 }
 
+- (id)ifier:(id)arg1 extensionUserInfo:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)outlineLayer;
+- (id)makeAvailableWithUserInterface:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)s credentials;
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)te",R,D,N;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
 @property(retain, nonatomic) NSArray *rawArray; // @synthesize rawArray=_rawArray;
 
 @end

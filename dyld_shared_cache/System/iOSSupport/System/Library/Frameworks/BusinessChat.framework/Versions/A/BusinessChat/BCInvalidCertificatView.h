@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView, UILabel, UIView;
+@class NSString, UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface BCInvalidCertificatView
 {
     NSString *_host;
     UIImageView *_insecureIcon;
-    UILabel *_titleLabel;
-    UILabel *_messageLabel;
-    UIView *_contentView;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)possibleKeySizes;
+- (id)opacityViewVerticalConstraint;
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id)ts configuration %@;
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void)T@"MKMapItem",&,N,V_location;
+- (id)kCPMessageListItemTrailingConfigurationItemKey;
+- (id)`;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
 @property(retain, nonatomic) NSString *host; // @synthesize host=_host;
 @property(retain, nonatomic) UIImageView *insecureIcon; // @synthesize insecureIcon=_insecureIcon;
-@property(retain, nonatomic) UILabel *messageLabel; // @synthesize messageLabel=_messageLabel;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

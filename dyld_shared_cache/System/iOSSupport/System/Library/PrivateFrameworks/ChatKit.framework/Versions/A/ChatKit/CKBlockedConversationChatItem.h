@@ -6,31 +6,28 @@
 
 #import <ChatKit/CKStampLabelChatItem.h>
 
-@class CKTranscriptBlockedConversationCell, NSAttributedString, NSString;
+@class NSAttributedString, NSString;
 
 @interface CKBlockedConversationChatItem : CKStampLabelChatItem
 {
     NSAttributedString *_transcriptButtonText;
-    CKTranscriptBlockedConversationCell *_sizingCell;
 }
 
-- (id);
-- (id);
+- (id)zR;
+- (id)ilij;
+- (void)Body;
 - (void);
-- (void);
+- (id)grating note to v1 Neo because it's not a v1 note {note:%@} /* Error: Ran out of types for this method. */;
+- (struct CGSize)support it {note:(struct CGSize)arg1 %@};
+- (_Bool)@%@>;
 - (id);
-- (struct CGSize);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)";
 - (Class);
-- (unsigned long long)gePartChatItem: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setStickerPickerMessagePartChatItem: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *blockedRecipients;
-@property(copy, nonatomic) CKTranscriptBlockedConversationCell *sizingCell; // @synthesize sizingCell=_sizingCell;
-@property(copy, nonatomic) NSAttributedString *transcriptButtonText; // @synthesize transcriptButtonText=_transcriptButtonText;
 
 @end
 

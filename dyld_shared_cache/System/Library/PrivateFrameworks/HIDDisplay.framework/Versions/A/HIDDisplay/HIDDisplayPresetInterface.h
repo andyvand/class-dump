@@ -11,10 +11,9 @@
 @interface HIDDisplayPresetInterface : HIDDisplayInterface
 {
     NSDictionary *_usageElementMap;
-    NSArray *_presets;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);

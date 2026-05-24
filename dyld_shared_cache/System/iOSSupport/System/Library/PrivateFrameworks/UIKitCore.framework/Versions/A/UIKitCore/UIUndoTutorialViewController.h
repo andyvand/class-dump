@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     UIUndoTutorialView *_tutorialView;
 }
 
+- (id)replayControllerNeedsSync;
+- (void)didReceiveBalloonPayload:(id)arg1 forChat:style:messageGUID:account: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)PMultiverseIdentifier"32@0:8q16q24 /* Error: Ran out of types for this method. */;
 - (_Bool)egator>"32;
-- (CDUnknownBlockType)ctivationHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)initWithActivationHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)È`;
 

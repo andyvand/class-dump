@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerSetupInfo, CKShare, LPLinkMetadata, NSArray, NSAttributedString, NSData, NSDictionary, NSString, NSUUID, _SWCollaborationMetadata, _SWCollaborationShareOptions, _SWPendingCollaboration;
+@class NSDictionary;
 
 @interface SHKMessagesLaunchEventContext
 {
     NSDictionary *_parameters;
-    NSString *_subject;
-    NSArray *_recipients;
-    NSUUID *_sessionID;
-    NSAttributedString *_text;
-    NSArray *_URLs;
-    NSArray *_fileURLs;
-    NSArray *_sendCopyRepresentationFileURLs;
-    NSArray *_auxiliaryFileURLs;
-    NSData *_webArchiveData;
-    LPLinkMetadata *_richLinkMetadata;
-    _SWCollaborationShareOptions *_collaborationShareOptions;
-    NSArray *_collaborationOptions;
-    _SWCollaborationMetadata *_collaborationMetadata;
-    _SWPendingCollaboration *_pendingCollaboration;
-    CKShare *_share;
-    CKContainerSetupInfo *_containerSetupInfo;
-    long long _mode;
-    long long _collaborationType;
 }
 
 + (_Bool);
@@ -42,43 +24,24 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (long long)ctiveHarvesting.Safari.PageView;
+- (id)o;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)ingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id)zz;
+- (id);
+- (void);
+- (id);
+- (id)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
 - (id)dSharingUI.invite;
 
 // Remaining properties
-@property(readonly, copy) NSArray *URLs; // @synthesize URLs=_URLs;
-@property(readonly, copy) NSArray *auxiliaryFileURLs; // @synthesize auxiliaryFileURLs=_auxiliaryFileURLs;
-@property(readonly) _SWCollaborationMetadata *collaborationMetadata; // @synthesize collaborationMetadata=_collaborationMetadata;
-@property(readonly, copy) NSArray *collaborationOptions; // @synthesize collaborationOptions=_collaborationOptions;
-@property(readonly, copy) _SWCollaborationShareOptions *collaborationShareOptions; // @synthesize collaborationShareOptions=_collaborationShareOptions;
-@property(readonly) long long collaborationType; // @synthesize collaborationType=_collaborationType;
-@property(readonly) CKContainerSetupInfo *containerSetupInfo; // @synthesize containerSetupInfo=_containerSetupInfo;
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy) NSArray *fileURLs; // @synthesize fileURLs=_fileURLs;
-@property(readonly) long long mode; // @synthesize mode=_mode;
 @property(readonly, copy) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly) _SWPendingCollaboration *pendingCollaboration; // @synthesize pendingCollaboration=_pendingCollaboration;
-@property(readonly, copy) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly) LPLinkMetadata *richLinkMetadata; // @synthesize richLinkMetadata=_richLinkMetadata;
-@property(readonly, copy) NSArray *sendCopyRepresentationFileURLs; // @synthesize sendCopyRepresentationFileURLs=_sendCopyRepresentationFileURLs;
-@property(readonly, copy) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) CKShare *share; // @synthesize share=_share;
-@property(readonly, copy) NSString *subject; // @synthesize subject=_subject;
-@property(readonly, copy) NSAttributedString *text; // @synthesize text=_text;
-@property(readonly) NSData *webArchiveData; // @synthesize webArchiveData=_webArchiveData;
 
 @end
 

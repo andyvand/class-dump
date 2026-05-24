@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISceneWindowingControlStyle
 {
     unsigned long long _type;
 }
 
++ (id)till uploading after time out %@ setting upload to done;
 + (id);
-+ (id);
-+ (id);
++ (id)r;
 - (id);
 - (id);
 - (id);
 - (id)=dd}{CGSize=dd}}32i64d68;
 - (void)(;
-- (id)x_G;
+- (id)yx_G;
 - (unsigned long long)À;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _type; // @synthesize _type;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

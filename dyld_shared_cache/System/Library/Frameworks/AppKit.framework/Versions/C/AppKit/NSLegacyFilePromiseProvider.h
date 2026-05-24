@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSValue;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSLegacyFilePromiseProvider
 {
     _Bool _isPromiseValid;
-    NSArray *_filePromiseProviders;
-    NSValue *_weakPasteboard;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)setProtocolClasses: /* Error: Ran out of types for this method. */;
+- (void)ly:(id)arg1;
+- (void)downloadTaskWithResumeData:(id)arg1;
+- (id)2ul;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSArray *filePromiseProviders; // @synthesize filePromiseProviders=_filePromiseProviders;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

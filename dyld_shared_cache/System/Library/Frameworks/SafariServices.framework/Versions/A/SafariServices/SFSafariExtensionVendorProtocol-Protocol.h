@@ -5,5 +5,8 @@
 //
 
 @protocol SFSafariExtensionVendorProtocol
+- (void)
+;
+- (void);
 @end
 

@@ -7,8 +7,11 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (oneway void)ext_ticket_parse_serverhello;
+- (NSString *);
 - (_Bool);
-- (_Bool)ent;
+- (_Bool)_itemAlignment;
 - (id)¨;
 - (_Bool){?=iqq}8;
 - (struct _NSZone *)@5"`ØÿäÿX]d;
@@ -17,12 +20,6 @@
 - (NSString *)Ø ô;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

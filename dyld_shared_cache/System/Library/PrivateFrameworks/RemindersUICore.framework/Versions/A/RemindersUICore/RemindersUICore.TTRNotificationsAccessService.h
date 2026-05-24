@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRNotificationsAccessService
 {
     id userDefaults;
-    id unUserNotificationCenter;
 }
 
 @end

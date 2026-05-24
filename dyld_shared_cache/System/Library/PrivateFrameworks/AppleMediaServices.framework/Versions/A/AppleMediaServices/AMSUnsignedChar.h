@@ -11,7 +11,7 @@
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)IDTouchEvent=(_MRHIDPoint={?=ff}[2f])IQI}16Q48;
 - (unsigned char);
 - (id);
 

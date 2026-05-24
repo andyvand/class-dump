@@ -7,9 +7,11 @@
 @class NSDate;
 
 @protocol MSPHistoryEntry
+- (_Bool);
+- (void);
+- (NSDate *)%;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool tracksRAPReportingOnly;
 @property(readonly, copy, nonatomic) NSDate *usageDate;
 @end
 

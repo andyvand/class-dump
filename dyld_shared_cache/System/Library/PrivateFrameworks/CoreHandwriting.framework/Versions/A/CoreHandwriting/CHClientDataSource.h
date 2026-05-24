@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHClientCalculateDocumentProvider, CHClientStrokeProvider, NSString;
+@class CHClientStrokeProvider;
 
 @interface CHClientDataSource
 {
     CHClientStrokeProvider *_strokeProviderSnapshot;
-    CHClientCalculateDocumentProvider *_calculateDocumentProviderSnapshot;
 }
 
 - (id);
@@ -19,15 +18,7 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CHClientCalculateDocumentProvider *calculateDocumentProviderSnapshot; // @synthesize calculateDocumentProviderSnapshot=_calculateDocumentProviderSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CHClientStrokeProvider *strokeProviderSnapshot; // @synthesize strokeProviderSnapshot=_strokeProviderSnapshot;
-@property(readonly) Class superclass;
 
 @end
 

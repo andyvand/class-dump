@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactViewController, NSString;
+@class CNContactViewController;
 @protocol ABUnknownPersonViewControllerDelegate;
 
 @interface ABUnknownPersonViewController
 {
     void *_addressBook;
     void *_displayedPerson;
-    _Bool _allowsActions;
-    _Bool _allowsAddingToAddressBook;
-    id <ABUnknownPersonViewControllerDelegate> _unknownPersonViewDelegate;
-    NSString *_alternateName;
-    NSString *_message;
-    CNContactViewController *_cnContactViewController;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (id);
@@ -48,20 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) void *addressBook;
-@property(nonatomic) _Bool allowsActions; // @synthesize allowsActions=_allowsActions;
-@property(nonatomic) _Bool allowsAddingToAddressBook; // @synthesize allowsAddingToAddressBook=_allowsAddingToAddressBook;
-@property(copy, nonatomic) NSString *alternateName; // @synthesize alternateName=_alternateName;
 @property(retain, nonatomic) CNContactViewController *cnContactViewController; // @synthesize cnContactViewController=_cnContactViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) void *displayedPerson;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 @property(nonatomic) id <ABUnknownPersonViewControllerDelegate> unknownPersonViewDelegate; // @synthesize unknownPersonViewDelegate=_unknownPersonViewDelegate;
 
 @end

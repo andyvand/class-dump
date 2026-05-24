@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotCategoryList, CTLazuliChatBotCommunicationAddress, CTLazuliChatBotMediaList, CTLazuliChatBotOrgDescription, CTLazuliChatBotOrgName, CTLazuliChatBotWebResources;
+@class CTLazuliChatBotCommunicationAddress;
 
 @interface CTLazuliChatBotOrgDetails
 {
     CTLazuliChatBotCommunicationAddress *_communicationAddress;
-    CTLazuliChatBotMediaList *_mediaList;
-    CTLazuliChatBotOrgName *_orgName;
-    CTLazuliChatBotOrgDescription *_orgDescription;
-    CTLazuliChatBotCategoryList *_categoryList;
-    CTLazuliChatBotWebResources *_webResources;
 }
 
-+ (_Bool);
++ (_Bool)responseEndTime;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)+@�?;
 - (id);
 - (id);
 - (id);
@@ -31,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)8;
 - (void);
 - (void);
 - (id);
@@ -39,12 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliChatBotCategoryList *categoryList; // @synthesize categoryList=_categoryList;
 @property(retain, nonatomic) CTLazuliChatBotCommunicationAddress *communicationAddress; // @synthesize communicationAddress=_communicationAddress;
-@property(retain, nonatomic) CTLazuliChatBotMediaList *mediaList; // @synthesize mediaList=_mediaList;
-@property(retain, nonatomic) CTLazuliChatBotOrgDescription *orgDescription; // @synthesize orgDescription=_orgDescription;
-@property(retain, nonatomic) CTLazuliChatBotOrgName *orgName; // @synthesize orgName=_orgName;
-@property(retain, nonatomic) CTLazuliChatBotWebResources *webResources; // @synthesize webResources=_webResources;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.NWPathNetworkInquiry
 {
     id evaluator;
-    id pathObservation;
-    id _isInternetOffline;
 }
 
 @end

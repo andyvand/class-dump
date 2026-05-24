@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PDFDetectedForm
 {
     struct vector<PDFDetectedFormRow, std::allocator<PDFDetectedFormRow>> _rows;
-    unsigned long long _fieldCount;
-    long long _displayBox;
 }
 
 - (id);
@@ -20,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)yj;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly) long long displayBox; // @synthesize displayBox=_displayBox;
 
 @end
 

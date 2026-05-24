@@ -14,6 +14,5 @@
 
 // Remaining properties
 @property(readonly) Class _effectiveUnitClass;
-@property(readonly, copy) NSString *symbol; // @synthesize symbol=_symbol;
 @end
 

@@ -6,28 +6,24 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceDeleteFundingSourceRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSString *_fundingSourceIdentifier;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)elium;
+- (void)Helium;
 - (void);
 - (id)ÀÖ¤ÿ,ù;
 - (void)öÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) NSString *fundingSourceIdentifier; // @synthesize fundingSourceIdentifier=_fundingSourceIdentifier;
 
 @end
 

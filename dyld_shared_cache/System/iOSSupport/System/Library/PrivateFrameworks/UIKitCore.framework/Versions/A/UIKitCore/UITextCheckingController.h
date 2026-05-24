@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, UITextChecker;
 @protocol UITextCheckingClient;
 
 @interface UITextCheckingController
 {
     id <UITextCheckingClient> _client;
-    UITextChecker *_textChecker;
-    NSTimer *_pauseTimer;
-    double _lastPauseTimer;
-    struct _NSRange _selectedRangeFromPreviousUnchecked;
-    struct _NSRange _previousCheckedSentenceRange;
-    struct _NSRange _previousCheckedSelectedRange;
-    long long _prechangeCheckingSequenceNumber;
-    struct __tccClientFlags {
-        unsigned int respondsToAutocorrectionType:1;
-        unsigned int respondsToSpellCheckingType:1;
-        unsigned int respondsToSmartQuotesType:1;
-        unsigned int respondsToSmartDashesType:1;
-        unsigned int respondsToSmartInsertDeleteType:1;
-        unsigned int respondsToContinuousSpellCheckingEnabled:1;
-    } _tccClientFlags;
 }
 
 - (struct _NSRange);
-- (void);
-- (struct _NSRange);
+- (void)<r;
+- (struct _NSRange)_payloadAllowGameCenterNearbyMultiplayer;
 - (void);
 - (void);
 - (void);
@@ -41,14 +25,14 @@
 × ;
 - (void);
 - (_Bool)t"16@"UIDragItem"24;
-- (id)ge:inContext:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)FromView:toView:containerView: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (void);
+- (id)writingToolsCoordinator:finishTextAnimation:forRange:inContext:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)performDisappearanceTransitionFromView:toView:containerView: /* Error: Ran out of types for this method. */;
+- (void)_selectionFadeAnimationForKey:(id)arg1 fromValue:(id)arg2 toValue: /* Error: Ran out of types for this method. */;
+- (void)_maximumBadgeWidth;
 - (void)ent",&,N,V_lastTouch;
 - (id)tch. Preferred attrs:(id)arg1 %@; original attrs:%@. /* Error: Ran out of types for this method. */;
 - (void)onolith-Standard;
-- (void)OSurface;
+- (void)IOSurface;
 - (id)é?ÚÙÙÙÙÙé?{®Gáz?ffffffæ?Ê?Ì?Í?{®Gáz¤?PPPPPPà?ä?Ñ?Ñ?<<<<<<ì?¸ëQ¸?Å?Ç?È?\\\\\\ì?ì?½¼¼¼¼¼ì?;
 - (struct _NSRange);
 - (void)q;

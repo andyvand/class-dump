@@ -9,11 +9,6 @@
 @interface PKAddressFormatConfiguration
 {
     PKContactFieldConfiguration *_streetFieldConfiguration;
-    PKContactFieldConfiguration *_subLocalityFieldConfiguration;
-    PKContactFieldConfiguration *_cityFieldConfiguration;
-    PKContactFieldConfiguration *_subAdministrativeAreaFieldConfiguration;
-    PKContactFieldConfiguration *_stateFieldConfiguration;
-    PKContactFieldConfiguration *_postalCodeFieldConfiguration;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -27,16 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (id)leOffersChangedForPassUniqueID:(id)arg1 didRemove: /* Error: Ran out of types for this method. */;
+- (id)_handleOffersChangedForPassUniqueID:(id)arg1 didRemove: /* Error: Ran out of types for this method. */;
 - (void)"PKPaymentDeviceConfigurationData"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, nonatomic) PKContactFieldConfiguration *cityFieldConfiguration; // @synthesize cityFieldConfiguration=_cityFieldConfiguration;
-@property(readonly, nonatomic) PKContactFieldConfiguration *postalCodeFieldConfiguration; // @synthesize postalCodeFieldConfiguration=_postalCodeFieldConfiguration;
-@property(readonly, nonatomic) PKContactFieldConfiguration *stateFieldConfiguration; // @synthesize stateFieldConfiguration=_stateFieldConfiguration;
 @property(readonly, nonatomic) PKContactFieldConfiguration *streetFieldConfiguration; // @synthesize streetFieldConfiguration=_streetFieldConfiguration;
-@property(readonly, nonatomic) PKContactFieldConfiguration *subAdministrativeAreaFieldConfiguration; // @synthesize subAdministrativeAreaFieldConfiguration=_subAdministrativeAreaFieldConfiguration;
-@property(readonly, nonatomic) PKContactFieldConfiguration *subLocalityFieldConfiguration; // @synthesize subLocalityFieldConfiguration=_subLocalityFieldConfiguration;
 
 @end
 

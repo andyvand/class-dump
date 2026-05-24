@@ -6,67 +6,39 @@
 
 #import <MechanismBase/MechanismBase.h>
 
-@class NSDictionary, NSMutableArray, NSString;
-@protocol LACContextUIDelegate, LACEvaluationRequest, LACRemoteUI;
+@protocol LACRemoteUI;
 
 @interface MechanismUI : MechanismBase
 {
     id <LACRemoteUI> _remoteUI;
-    MechanismBase *_nonUiMechanism;
-    MechanismBase *_backgroundMechanism;
-    MechanismBase *_fallbackMechanism;
-    NSMutableArray *_continueMechanisms;
-    unsigned long long _mechanismIndex;
-    id <LACEvaluationRequest> _request;
-    long long _policy;
-    NSDictionary *_internalInfo;
-    NSDictionary *_policyOptions;
-    NSDictionary *_additionalControllerInternalInfo;
-    NSDictionary *_eventProcessing;
-    NSDictionary *_previousResult;
-    _Bool _wantMoreUiIgnoreDisappear;
-    CDUnknownBlockType _showMoreUiBlock;
-    _Bool _remoteUIShouldIdle;
-    _Bool _uiDisappeared;
-    _Bool _usingSecureIO;
-    id <LACContextUIDelegate> _companionOriginalDelegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)xBaseLayer::compute() - Layer uninitialized /* Error: Ran out of types for this method. */;
+- (void)not supported for this distribution type;
+- (void)e;
+- (id)le = 0x%.6X%.8X);
+- (void)lCepNorm:(id)arg1:(id)arg2 setOutputFrame() - buffer empty;
+- (id)shFrame() - buffer full - redundant test;
+- (void)orer not initialized in config;
+- (void)scoresupervector() can only be called after initialize();
+- (void)lled after initialize();
+- (void)ct:(id)arg1 phrasecount() can only be called after initialize();
+- (void)phrase %d out of range (0-%d);
+- (void)d after initialize();
+- (void)prenormalize;
+- (void)durations;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned int instanceId;
-@property(readonly, nonatomic) _Bool isRunning;
-@property(readonly, nonatomic) id <LACEvaluationRequest> request;
-@property(readonly) Class superclass;
 
 @end
 

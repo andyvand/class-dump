@@ -6,7 +6,7 @@
 
 #import <LinkPresentation/LPFetcherResponse.h>
 
-@class LPARAsset, NSString;
+@class LPARAsset;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherARAssetResponse : LPFetcherResponse
@@ -17,20 +17,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 + (id);
-- (id);
-- (id);
+- (id)|;
+- (id)A;
 - (void)°!ÌBùHÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPARAsset *arAsset; // @synthesize arAsset=_arAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

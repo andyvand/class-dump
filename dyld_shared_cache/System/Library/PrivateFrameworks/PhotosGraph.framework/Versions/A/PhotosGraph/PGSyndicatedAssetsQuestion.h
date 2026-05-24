@@ -6,23 +6,20 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSString;
-
 @interface PGSyndicatedAssetsQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSString *_entityIdentifier;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)GEventTapProxy=}32;
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
-- (void)brella;
+- (unsigned short)-@8(Jy;
+- (void)umbrella;
 
 @end
 

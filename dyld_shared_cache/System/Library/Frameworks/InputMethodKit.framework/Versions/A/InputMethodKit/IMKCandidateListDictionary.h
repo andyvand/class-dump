@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMKCandidateListDictionary
 {
     unsigned long long _candidateCount;
-    NSDictionary *_dictionary;
-    NSArray *_orderedKeys;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)T	;
 - (id);
 - (id);
 - (id);
@@ -29,12 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allCandidates;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) IMKCandidate *firstCandidate;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) IMKCandidate *lastCandidate;
-@property(readonly, nonatomic) NSArray *orderedKeys; // @synthesize orderedKeys=_orderedKeys;
 
 @end
 

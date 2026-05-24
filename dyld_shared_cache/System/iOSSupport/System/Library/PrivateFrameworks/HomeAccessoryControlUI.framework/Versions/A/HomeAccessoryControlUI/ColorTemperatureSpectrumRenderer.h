@@ -4,43 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTKView, NSString;
-@protocol MTLBuffer, MTLCommandQueue, MTLDevice, MTLRenderPipelineState;
+@class MTKView;
+@protocol MTLCommandQueue;
 
 @interface ColorTemperatureSpectrumRenderer
 {
     unsigned short _startColor;
     unsigned short _endColor;
-    MTKView *_metalView;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLDevice> _device;
-    id <MTLRenderPipelineState> _pipelineState;
-    id <MTLBuffer> _vertexBuffer;
-    id <MTLBuffer> _fragmentShaderArgumentBuffer;
 }
 
-+ (struct CGPoint);
-+ (float);
-- (void);
-- (void);
-- (struct CGPoint);
++ (struct CGPoint)tformRuntimeState13JITDylibStateEEES3_EEEptB9nqn210106Ev;
++ (float)formRuntimeState13JITDylibStateEEES3_EEEdeB9nqn210106Ev;
+- (void)_ZNSt3__115__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIPvN12_GLOBAL__N_125MachOPlatformRuntimeState13JITDylibStateEEES3_EEEppB9nqn210106Ei;
+- (void)210106Ev;
+- (struct CGPoint)3JITDylibStateEEES3_EEEppB9nqn210106Ev;
+- (void)_ZNSt3__115__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIPvN12_GLOBAL__N_125MachOPlatformRuntimeState13JITDylibStateEEES3_EEEppB9nqn210106Ev;
+- (id)e> >;
+- (id)::MachOPlatformRuntimeState::JITDylibState> > /* Error: Ran out of types for this method. */;
+- (float)*const, (anonymous namespace):(struct CGPoint)arg1:MachOPlatformRuntimeState::JITDylibState> > /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (float);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)}Al;
 - (unsigned short);
+- (void)gE;
 - (void);
-- (void);
-- (unsigned short);
+- (unsigned short);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)z;
+- (void);
+- (id)p	;
+- (id);
 - (void);
 - (void);
 - (void)ÿÿÿÿD;
@@ -48,20 +42,7 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(nonatomic) unsigned short endColor; // @synthesize endColor=_endColor;
-@property(retain, nonatomic) id <MTLBuffer> fragmentShaderArgumentBuffer; // @synthesize fragmentShaderArgumentBuffer=_fragmentShaderArgumentBuffer;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) MTKView *metalView; // @synthesize metalView=_metalView;
-@property(retain, nonatomic) id <MTLRenderPipelineState> pipelineState; // @synthesize pipelineState=_pipelineState;
-@property(nonatomic) unsigned short startColor; // @synthesize startColor=_startColor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <MTLBuffer> vertexBuffer; // @synthesize vertexBuffer=_vertexBuffer;
 
 @end
 

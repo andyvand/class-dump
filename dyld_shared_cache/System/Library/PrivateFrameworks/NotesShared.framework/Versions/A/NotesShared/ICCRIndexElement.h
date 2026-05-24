@@ -10,23 +10,21 @@ __attribute__((visibility("hidden")))
 @interface ICCRIndexElement
 {
     NSUUID *_replica;
-    long long _integer;
 }
 
 + (id);
-- (id);
+- (id)rror"8;
 - (void);
 - (id);
 - (void);
 - (long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)o;
 - (long long);
 - (void)¨Ô|;
 
 // Remaining properties
-@property(nonatomic) long long integer; // @synthesize integer=_integer;
 @property(retain, nonatomic) NSUUID *replica; // @synthesize replica=_replica;
 
 @end

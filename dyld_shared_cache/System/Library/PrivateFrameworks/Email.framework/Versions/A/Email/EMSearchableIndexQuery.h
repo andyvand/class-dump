@@ -4,45 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchQuery, EFPromise, EMSearchableIndexQueryExpression, NSArray, NSError, NSLock, NSObject, NSProgress, NSString;
+@class NSObject, NSString;
 @protocol OS_os_activity;
 
 @interface EMSearchableIndexQuery
 {
     NSObject<OS_os_activity> *activity;
-    _Bool _counting;
-    _Bool _attribute;
-    _Bool _live;
-    _Bool _queryDidMoveToFinishedState;
-    _Bool _liveQueryDidGather;
-    NSString *_bundleID;
-    CDUnknownBlockType _resultsBlock;
-    CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _failureBlock;
-    CDUnknownBlockType _embeddingBlock;
-    CDUnknownBlockType _gatheredBlock;
-    CDUnknownBlockType _changedItemsBlock;
-    CDUnknownBlockType _foundAttributeResultsBlock;
-    CDUnknownBlockType _changedAttributeResultsBlock;
-    CDUnknownBlockType _removedItemsBlock;
-    CDUnknownBlockType _countChangedBlock;
-    NSArray *_fetchAttributes;
-    NSArray *_protectionClasses;
-    NSArray *_rankingQueries;
-    long long _maxCount;
-    NSString *_logIdentifier;
-    NSString *_sessionID;
-    NSString *_queryID;
-    EMSearchableIndexQueryExpression *_expression;
-    long long _count;
-    NSString *_logPrefixString;
-    NSString *_queryStatus;
-    CSSearchQuery *_query;
-    NSLock *_lock;
-    NSProgress *_progress;
-    NSProgress *_internalProgress;
-    EFPromise *_resultsPromise;
-    NSError *_simulatedFailedQueryError;
 }
 
 + (id);
@@ -55,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)layStartedEvent;
++ (id)_buildDisplayStartedEvent;
 - (void);
 - (_Bool);
 - (void);
@@ -67,26 +34,26 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)nificant on 2023 and later releases, but may lead to additional time loading schema and metadata;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)~;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)';
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)setSampleChannelsAudioEvent: /* Error: Ran out of types for this method. */;
+- (void)entryEventForwardDefinitionsDASDataBudgetAvailable;
+- (CDUnknownBlockType)TC0F;
 - (unsigned long long);
 - (id);
 - (id);
@@ -97,51 +64,51 @@
 - (id);
 - (void);
 - (void);
+- (void)lidating;
+- (CDUnknownBlockType);
+- (void)b;
+- (void);
+- (void);
+- (void)ongoingBiometricOperation;
+- (id);
+- (void);
+- (void);
+- (void)ParameterError::InvalidScope /* Error: Ran out of types for this method. */;
+- (id)(yE,;
+- (void);
+- (id)+;
+- (void)ime;
+- (_Bool)r or content type;
+- (void);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (void);
+- (void)T	;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void)oreGraphics.framework/Versions/A/CoreGraphics;
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType)v24@0:8@?16 /* Error: Ran out of types for this method. */;
+- (id)setAssetCollectionGUID: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_requestCompletedRequestorContext: /* Error: Ran out of types for this method. */;
+- (void)MSDeleter;
+- (void)ublic}@ - %@ Reauthorizing %ld items;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (id);
+- (id)A;
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
@@ -155,65 +122,18 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void));
 - (void);
 - (void)!¼@ùq=1Â0@ù
 × ;
-- (_Bool)eName:options: /* Error: Ran out of types for this method. */;
-- (void)mptyContentWithCompletionHandler:(id)arg1;
+- (_Bool)initWithMachServiceName:options: /* Error: Ran out of types for this method. */;
+- (void)contentObjectID:(id)arg1 placeholderHTMLForEmptyContentWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)V_bccList;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool attribute; // @synthesize attribute=_attribute;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) CDUnknownBlockType changedAttributeResultsBlock; // @synthesize changedAttributeResultsBlock=_changedAttributeResultsBlock;
-@property(copy, nonatomic) CDUnknownBlockType changedItemsBlock; // @synthesize changedItemsBlock=_changedItemsBlock;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(nonatomic) long long count; // @synthesize count=_count;
-@property(copy, nonatomic) CDUnknownBlockType countChangedBlock; // @synthesize countChangedBlock=_countChangedBlock;
-@property(nonatomic) _Bool counting; // @synthesize counting=_counting;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(copy, nonatomic) CDUnknownBlockType embeddingBlock; // @synthesize embeddingBlock=_embeddingBlock;
-@property(retain, nonatomic) EMSearchableIndexQueryExpression *expression; // @synthesize expression=_expression;
-@property(copy, nonatomic) CDUnknownBlockType failureBlock; // @synthesize failureBlock=_failureBlock;
-@property(copy, nonatomic) NSArray *fetchAttributes; // @synthesize fetchAttributes=_fetchAttributes;
-@property(copy, nonatomic) CDUnknownBlockType foundAttributeResultsBlock; // @synthesize foundAttributeResultsBlock=_foundAttributeResultsBlock;
-@property(copy, nonatomic) CDUnknownBlockType gatheredBlock; // @synthesize gatheredBlock=_gatheredBlock;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSProgress *internalProgress; // @synthesize internalProgress=_internalProgress;
-@property(readonly, nonatomic) _Bool isCancelled;
-@property(readonly, nonatomic) _Bool isFinished;
-@property(nonatomic) _Bool live; // @synthesize live=_live;
-@property(nonatomic) _Bool liveQueryDidGather; // @synthesize liveQueryDidGather=_liveQueryDidGather;
-@property(retain, nonatomic) NSLock *lock; // @synthesize lock=_lock;
-@property(copy, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
 @property(copy, nonatomic) NSString *logPrefixString; // @synthesize logPrefixString=_logPrefixString;
-@property(nonatomic) long long maxCount; // @synthesize maxCount=_maxCount;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) NSArray *protectionClasses; // @synthesize protectionClasses=_protectionClasses;
-@property(retain, nonatomic) CSSearchQuery *query; // @synthesize query=_query;
-@property(nonatomic) _Bool queryDidMoveToFinishedState; // @synthesize queryDidMoveToFinishedState=_queryDidMoveToFinishedState;
-@property(copy, nonatomic) NSString *queryID; // @synthesize queryID=_queryID;
-@property(copy, nonatomic) NSString *queryStatus; // @synthesize queryStatus=_queryStatus;
-@property(copy, nonatomic) NSArray *rankingQueries; // @synthesize rankingQueries=_rankingQueries;
-@property(copy, nonatomic) CDUnknownBlockType removedItemsBlock; // @synthesize removedItemsBlock=_removedItemsBlock;
-@property(copy, nonatomic) CDUnknownBlockType resultsBlock; // @synthesize resultsBlock=_resultsBlock;
-@property(retain, nonatomic) EFPromise *resultsPromise; // @synthesize resultsPromise=_resultsPromise;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) unsigned long long signpostID;
-@property(retain, nonatomic) NSError *simulatedFailedQueryError; // @synthesize simulatedFailedQueryError=_simulatedFailedQueryError;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface HomeKitDaemon.LocalPresence.DefaultAccessoryPresenceObserver
 {
     id $defaultActor;
-    id keepOccupiedDuration;
-    id timerProvider;
-    id dateProvider;
-    id loggingIdentifier;
-    id currentPresenceState;
-    id observerContinuation;
-    id observerTask;
-    id keepOccupiedTimer;
 }
 
 @end

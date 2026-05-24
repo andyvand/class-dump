@@ -4,43 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, CUSystemMonitor, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CUBLEScanner
 {
     _Bool _activateCalled;
-    CBCentralManager *_centralManager;
-    _Bool _changesPending;
-    NSMutableDictionary *_devices;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    int _rssiThreshold;
-    NSDictionary *_scanParametersCurrent;
-    _Bool _scannerStartCalled;
-    CUSystemMonitor *_systemMonitor;
-    struct LogCategory *_ucat;
-    int _bluetoothState;
-    unsigned int _changeFlags;
-    unsigned int _scanFlags;
-    int _scanRate;
-    CDUnknownBlockType _bluetoothStateChangedHandler;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _deviceChangedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)5˿;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
@@ -59,41 +35,23 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)MPSCNNPooling_new_tex2d_tex2d_max_5x2_0;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (void));
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (int)cFlags;
+- (int)_trafficFlags;
 - (void)o ifname:(id)arg1 %#m;
-- (void)ynthesisVoice;
+- (void)SiriTTSSynthesisVoice;
 - (void)ing start SC;
 
 // Remaining properties
 @property(nonatomic) int bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler; // @synthesize bluetoothStateChangedHandler=_bluetoothStateChangedHandler;
-@property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler; // @synthesize deviceChangedHandler=_deviceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property int rssiThreshold;
-@property(nonatomic) unsigned int scanFlags; // @synthesize scanFlags=_scanFlags;
-@property(nonatomic) int scanRate; // @synthesize scanRate=_scanRate;
-@property(readonly) Class superclass;
 
 @end
 

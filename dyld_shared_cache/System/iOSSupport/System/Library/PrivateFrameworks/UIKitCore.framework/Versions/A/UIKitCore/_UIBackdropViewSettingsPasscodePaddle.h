@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ationBar:didPushItem: /* Error: Ran out of types for this method. */;
+- (void)navigationBar:didPushItem: /* Error: Ran out of types for this method. */;
 
 @end
 

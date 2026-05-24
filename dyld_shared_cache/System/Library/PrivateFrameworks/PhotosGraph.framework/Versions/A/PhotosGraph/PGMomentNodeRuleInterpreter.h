@@ -11,8 +11,8 @@
     PGGraph *_graph;
 }
 
-- (id);
-- (id);
+- (id)AXKApplicationController;
+- (id)AXKSimpleStringTextProvider;
 - (id);
 - (void)de, which is not supposed to happen
 %@

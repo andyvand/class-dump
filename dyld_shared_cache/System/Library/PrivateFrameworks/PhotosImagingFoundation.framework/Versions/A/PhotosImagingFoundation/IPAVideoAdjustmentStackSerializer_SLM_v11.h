@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)So25AVMutableVideoCompositionC;
 - (id);
 - (id);
 - (id);

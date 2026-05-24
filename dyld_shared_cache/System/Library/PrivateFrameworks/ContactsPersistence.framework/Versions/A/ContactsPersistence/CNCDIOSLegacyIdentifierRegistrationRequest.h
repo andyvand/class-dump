@@ -7,10 +7,6 @@
 @interface CNCDIOSLegacyIdentifierRegistrationRequest
 {
     unsigned long long _requestedContactIdentifierCount;
-    unsigned long long _requestedGroupIdentifierCount;
-    unsigned long long _requestedContainerIdentifierCount;
-    unsigned long long _requestedInfoIdentifierCount;
-    unsigned long long _requestedMultivalueIdentifierCount;
 }
 
 + (_Bool);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long requestedContactIdentifierCount; // @synthesize requestedContactIdentifierCount=_requestedContactIdentifierCount;
-@property(nonatomic) unsigned long long requestedContainerIdentifierCount; // @synthesize requestedContainerIdentifierCount=_requestedContainerIdentifierCount;
-@property(nonatomic) unsigned long long requestedGroupIdentifierCount; // @synthesize requestedGroupIdentifierCount=_requestedGroupIdentifierCount;
-@property(nonatomic) unsigned long long requestedInfoIdentifierCount; // @synthesize requestedInfoIdentifierCount=_requestedInfoIdentifierCount;
-@property(nonatomic) unsigned long long requestedMultivalueIdentifierCount; // @synthesize requestedMultivalueIdentifierCount=_requestedMultivalueIdentifierCount;
 
 @end
 

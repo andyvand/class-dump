@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SXVisibilityMonitor;
+@class NSMutableArray, SXVisibilityMonitor;
 
 @interface SXVideoPlayerVisibilityMonitor
 {
     SXVisibilityMonitor *_visibilityMonitor;
-    NSMutableArray *_willAppearBlocks;
-    NSMutableArray *_didAppearBlocks;
-    NSMutableArray *_visiblePercentageBlocks;
-    NSMutableArray *_willDisappearBlocks;
-    NSMutableArray *_didDisappearBlocks;
 }
 
 - (id);
@@ -30,30 +25,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appeared;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableArray *didAppearBlocks; // @synthesize didAppearBlocks=_didAppearBlocks;
-@property(readonly, nonatomic) NSMutableArray *didDisappearBlocks; // @synthesize didDisappearBlocks=_didDisappearBlocks;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id object;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SXVisibilityMonitor *visibilityMonitor; // @synthesize visibilityMonitor=_visibilityMonitor;
-@property(readonly, nonatomic) double visiblePercentage;
-@property(readonly, nonatomic) NSMutableArray *visiblePercentageBlocks; // @synthesize visiblePercentageBlocks=_visiblePercentageBlocks;
 @property(readonly, nonatomic) NSMutableArray *willAppearBlocks; // @synthesize willAppearBlocks=_willAppearBlocks;
-@property(readonly, nonatomic) NSMutableArray *willDisappearBlocks; // @synthesize willDisappearBlocks=_willDisappearBlocks;
 
 @end
 

@@ -8,21 +8,6 @@
 {
     id idContext;
     id xValues;
-    id yValues;
-    id zValues;
-    id covariantYDomains;
-    id xOffsetValues;
-    id yOffsetValues;
-    id foregroundStyleValues;
-    id symbolValues;
-    id symbolSizeValues;
-    id lineStyleValues;
-    id stackContext;
-    id subPositionContext;
-    id vectorizedPlottables;
-    id hasSymbolEncoding;
-    id hasLineMarkSymbolEncoding;
-    id hasSectorMark;
 }
 
 @end

@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_UIPreviewPresentationPlatterViewAccessibility;
++ (void)ber.pad.delete;
 - (_Bool);
-- (id);
+- (id),N,V_selectableRegions;
 - (id);
 
 @end

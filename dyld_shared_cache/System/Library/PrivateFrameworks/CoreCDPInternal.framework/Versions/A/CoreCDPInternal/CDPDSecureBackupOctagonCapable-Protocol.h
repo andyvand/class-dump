@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class OTClique;
 @protocol CDPDOctagonTrustProxy;
 
 @protocol CDPDSecureBackupOctagonCapable
+- (id <CDPDOctagonTrustProxy>);
+- (OTClique *),&,N,V_table_score;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <CDPDOctagonTrustProxy> octagonTrustProxy;

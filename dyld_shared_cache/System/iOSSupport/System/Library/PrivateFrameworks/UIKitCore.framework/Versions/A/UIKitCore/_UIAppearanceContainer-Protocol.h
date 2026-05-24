@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _UIAppearanceContainer;
+
 @protocol _UIAppearanceContainer
+- (id <_UIAppearanceContainer>)ntentProcessingP;
 - (Class)"%@" for %@ contained UISceneClassName key, but could not load class with name "%@".;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol STWebService
+- (void);
+- (void)DefaultAutofavoriteClusteringKnobsPaidBundleArticleQuotas;
+- (void)DefaultTopicClusteringKnobsPaidBundleArticleQuotas;
 @end
 

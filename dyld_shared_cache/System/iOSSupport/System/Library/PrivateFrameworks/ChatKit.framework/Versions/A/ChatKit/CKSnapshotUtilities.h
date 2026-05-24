@@ -11,8 +11,8 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (void);
-+ (void);
++ (void)(;
++ (void)';
 + (void);
 + (void);
 + (id);
@@ -24,7 +24,7 @@
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id);
 
 @end
 

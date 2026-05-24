@@ -5,16 +5,10 @@
 //
 
 @class SFButtonItem;
-@protocol SearchUIButtonItemDelegate;
 
 @interface SearchUIButtonItem
 {
     _Bool _isOverflowButton;
-    _Bool _showsMenuAsPrimaryAction;
-    _Bool _useDefaultSymbolFillStyle;
-    SFButtonItem *_sfButtonItem;
-    unsigned long long _status;
-    id <SearchUIButtonItemDelegate> _delegate;
 }
 
 - (_Bool);
@@ -37,30 +31,25 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)}I})}{coap_address_t=I(?={sockaddr=CC[14c]}{sockaddr_in=CCS{in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}}i{coap_socket_t=iS^{coap_session_t}^{coap_endpoint_t}}^{coap_endpoint_t}^{coap_context_t}^vSCi^{coap_queue_t}Q[8C]Q^{coap_pdu_t}QQQQQ*Q*Q^vI{coap_fixed_point_t=SS}{coap_fixed_point_t=SS}Ii};
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)32;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)commute1Hr15MinWarningEntityRelevanceWiFiAndCoarseTimeOfDayFeatures;
 - (void);
-- (id);
-- (id);
+- (id)oyment:%u /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUIButtonItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool isOverflowButton; // @synthesize isOverflowButton=_isOverflowButton;
 @property(retain, nonatomic) SFButtonItem *sfButtonItem; // @synthesize sfButtonItem=_sfButtonItem;
-@property _Bool showsMenuAsPrimaryAction; // @synthesize showsMenuAsPrimaryAction=_showsMenuAsPrimaryAction;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property _Bool useDefaultSymbolFillStyle; // @synthesize useDefaultSymbolFillStyle=_useDefaultSymbolFillStyle;
 
 @end
 

@@ -6,67 +6,17 @@
 
 #import <Foundation/NSUserNotification.h>
 
-@class NSArray, NSData, NSDate, NSDateComponents, NSString, NSTimeZone, NSURL, NSUserNotificationAction;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSConcreteUserNotification : NSUserNotification
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_dateString;
-    NSString *_informativeText;
-    NSString *_actionButtonTitle;
-    NSString *_otherButtonTitle;
-    NSString *_soundName;
-    NSString *_identifier;
-    NSString *_proxyIdentifier;
-    NSString *_responsePlaceholder;
-    NSURL *_imageURL;
-    NSData *_secureEncodedUserInfo;
-    NSData *_encodedResponse;
-    NSDate *_deliveryDate;
-    NSTimeZone *_deliveryTimeZone;
-    NSDateComponents *_deliveryRepeatInterval;
-    NSDateComponents *_deliveryExpiration;
-    NSDateComponents *_duration;
-    NSDate *_eventDate;
-    NSData *_contentImageData;
-    NSData *_identityImageData;
-    NSUserNotificationAction *_additionalActivationAction;
-    unsigned long long _identityImageStyle;
-    NSArray *_additionalActions;
-    double _snoozeInterval;
-    double _snoozedDate;
-    NSArray *_alternateActionButtonTitles;
-    unsigned long long _alternateActionIndex;
-    NSArray *_peopleIdentifiers;
-    NSDate *_actualDeliveryDate;
-    id _storageID;
-    unsigned long long _style;
-    unsigned long long _displayStyle;
-    long long _activationType;
-    long long _badgeCount;
-    _Bool _hasActionButton;
-    _Bool _presented;
-    _Bool _snoozed;
-    _Bool _remote;
-    _Bool _clearable;
-    _Bool _allDayEvent;
-    _Bool _actionButtonIsSnooze;
-    _Bool _dismissAfterDuration;
-    _Bool _persistent;
-    _Bool _poofsOnCancel;
-    _Bool _ignoresDoNotDisturb;
-    _Bool _hasReplyButton;
-    _Bool _showsButtons;
-    _Bool _lockscreenOnly;
-    _Bool _substitutesEmojiInResponse;
-    _Bool _hasAttachment;
-    _Bool _alwaysShowAlternateActionMenu;
 }
 
 + (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,8 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -136,26 +85,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)@9ab;
+- (_Bool);
+- (unsigned long long)";
+- (_Bool)";
+- (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (id)<(;
 - (id);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -178,13 +127,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id)1Â0@ù
 × ;
-- (void);
+- (void)stringWithContentsOfURL:(id)arg1;
 - (id)0ÿÿÿÿÿ@;
 - (id)Q;
 - (id)tions parameter is invalid. Only one of {in, out, nearest} may be set for a given rect attribute.;

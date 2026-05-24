@@ -6,7 +6,7 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface HAP2ControllerReadRequest : HAP2LoggingObject
 {
@@ -18,21 +18,11 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void)ostics: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setAudioDiagnostics: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *characteristics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *originalCharacteristics; // @synthesize originalCharacteristics=_originalCharacteristics;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

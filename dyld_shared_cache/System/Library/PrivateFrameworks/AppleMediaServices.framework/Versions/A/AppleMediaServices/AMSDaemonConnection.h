@@ -4,21 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSDaemonConnection
 {
     NSXPCConnection *_sharedConnection;
-    NSObject<OS_dispatch_queue> *_sharedConnectionAccessQueue;
-    NSMutableArray *_interruptionHandlers;
 }
 
 - (void);
 - (id);
 - (void);
+- (id)eLock",&,V_localUsersSetLock;
 - (id);
+- (id)urationBag:phoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (id)IMConversationListFilterModeDrafts;
+- (id)xE;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -29,18 +32,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)"@"NSError">16;
+- (id)>64;
+- (void)_handleStateMachineErrorIfNeeded;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)_controller;
 - (void);
 - (id);
 - (void);
@@ -59,16 +56,7 @@ __attribute__((visibility("hidden")))
 ¹d³Fâ°FºE+»FcGFÆD±F¿ùì°DFFFFGòFFFF¼ºFJºF²F¸fEºç¼FØ¿F¸F²&FG¸FÊ¸EF°FFFªF½¹Û½F9¼F»FF°`F¸¸Fc¹Fx»FEFF»l²»)³F¾FDFF¸eF»º²F½F¹F¼n¹EFí°Fj²»FGfF¾DR±F÷±°F±mF¿GFGFG¹FFEa¼FvF³F±F¿hFD±FE¡¼¿FFDiFº°Fº»¨±F¼F¹gF³³E¾DFF½jF°²Fã¿8°GFF¾cF±½F²*¾FºF³oFG¼F"G­È!D®Ë3V¼Ù0U¿ÚªÏ%@©Ì&C»Þ4Q¸Ý7RÐµ_:(SEL)arg1 Ó¶\9Á¤N+Â§M(X=×²[>Ô±I,Æ£J/Å ýrþqìcï`uúvùdëgèjåiæ{ôx÷âmánó|ð¾Û1T½Ø2W¯Ê E¬É#F6S¹Ü5Pºß'B¨Í$A«ÎL)Ã¦O*À¥]8Ò·^;Ñ´Ä¡K.Ç¢H-Õ°Z?Ö³Y<aîbípÿsüéfê;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSMutableArray *interruptionHandlers; // @synthesize interruptionHandlers=_interruptionHandlers;
 @property(retain, nonatomic) NSXPCConnection *sharedConnection; // @synthesize sharedConnection=_sharedConnection;
-@property(readonly) NSObject<OS_dispatch_queue> *sharedConnectionAccessQueue; // @synthesize sharedConnectionAccessQueue=_sharedConnectionAccessQueue;
-@property(readonly) Class superclass;
 
 @end
 

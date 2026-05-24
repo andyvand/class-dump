@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSUUID, PKAutoRefineTask;
-@protocol CHStrokeProvider, OS_dispatch_queue, PKAutoRefineViewDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue, PKAutoRefineViewDelegate;
 
 @interface PKAutoRefineTaskManager
 {
     NSObject<OS_dispatch_queue> *_autoRefineQueue;
-    PKAutoRefineTask *_activeTask;
-    NSMutableArray *_tasksQueue;
-    id <PKAutoRefineViewDelegate> _autoRefineViewDelegate;
-    id <CHStrokeProvider> _latestStrokeProvider;
-    NSUUID *_currentDrawingUUID;
 }
 
 - (void);
@@ -38,8 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PKAutoRefineViewDelegate> autoRefineViewDelegate; // @synthesize autoRefineViewDelegate=_autoRefineViewDelegate;
-@property(retain, nonatomic) NSUUID *currentDrawingUUID; // @synthesize currentDrawingUUID=_currentDrawingUUID;
-@property(retain, nonatomic) id <CHStrokeProvider> latestStrokeProvider; // @synthesize latestStrokeProvider=_latestStrokeProvider;
 
 @end
 

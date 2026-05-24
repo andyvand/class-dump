@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSharingService, NSString;
+@class NSObject;
 @protocol NSSharingServiceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SHKNextTransportServiceDelegate
 {
     NSObject<NSSharingServiceDelegate> *_originalDelegate;
-    NSSharingService *_originalSharingService;
-    CDUnknownBlockType _didShareCompletionBlock;
-    CDUnknownBlockType _didFailCompletionBlock;
 }
 
 - (void);
@@ -28,20 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType didFailCompletionBlock; // @synthesize didFailCompletionBlock=_didFailCompletionBlock;
-@property(copy) CDUnknownBlockType didShareCompletionBlock; // @synthesize didShareCompletionBlock=_didShareCompletionBlock;
-@property(readonly) unsigned long long hash;
 @property(retain) NSObject<NSSharingServiceDelegate> *originalDelegate; // @synthesize originalDelegate=_originalDelegate;
-@property(retain) NSSharingService *originalSharingService; // @synthesize originalSharingService=_originalSharingService;
-@property(readonly) Class superclass;
 
 @end
 

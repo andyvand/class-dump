@@ -6,41 +6,19 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFPerformIntentCommand : SFCommand
 {
     struct {
         unsigned int isRunnableWorkflow:1;
     } _has;
-    _Bool _isRunnableWorkflow;
-    NSString *_intentMessageName;
-    NSString *_applicationBundleIdentifier;
-    NSData *_intentMessageData;
-    NSString *_biomeStreamIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *biomeStreamIdentifier; // @synthesize biomeStreamIdentifier=_biomeStreamIdentifier;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *intentMessageData; // @synthesize intentMessageData=_intentMessageData;
 @property(copy, nonatomic) NSString *intentMessageName; // @synthesize intentMessageName=_intentMessageName;
-@property(nonatomic) _Bool isRunnableWorkflow; // @synthesize isRunnableWorkflow=_isRunnableWorkflow;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

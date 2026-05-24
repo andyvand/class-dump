@@ -9,12 +9,6 @@
 @interface NFContactlessPaymentStartEvent
 {
     NSString *_appletIdentifier;
-    NSString *_keyIdentifier;
-    _Bool _background;
-    unsigned short _selectStatus;
-    unsigned short _paymentMode;
-    NFApplet *_applet;
-    NSString *_spIdentifier;
 }
 
 + (_Bool);
@@ -29,18 +23,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NFApplet *applet; // @synthesize applet=_applet;
-@property(readonly, nonatomic) _Bool background; // @synthesize background=_background;
-@property(readonly, retain, nonatomic) NSString *keyIdentifier;
-@property(readonly, nonatomic) unsigned short paymentMode; // @synthesize paymentMode=_paymentMode;
-@property(readonly, nonatomic) unsigned short selectStatus; // @synthesize selectStatus=_selectStatus;
-@property(readonly, retain, nonatomic) NSString *spIdentifier; // @synthesize spIdentifier=_spIdentifier;
 
 @end
 

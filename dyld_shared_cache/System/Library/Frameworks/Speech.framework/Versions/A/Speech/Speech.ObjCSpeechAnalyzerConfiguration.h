@@ -9,10 +9,6 @@
 @interface Speech.ObjCSpeechAnalyzerConfiguration
 {
     id modules;
-    id queue;
-    id clientIdentifier;
-    id formatForNewLines;
-    AVAudioFormat *audioFormat;
 }
 
 - (id);

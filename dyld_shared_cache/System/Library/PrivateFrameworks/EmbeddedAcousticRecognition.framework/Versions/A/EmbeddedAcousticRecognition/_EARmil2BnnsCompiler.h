@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)__TEXT;
 + (void)e;
 
 @end

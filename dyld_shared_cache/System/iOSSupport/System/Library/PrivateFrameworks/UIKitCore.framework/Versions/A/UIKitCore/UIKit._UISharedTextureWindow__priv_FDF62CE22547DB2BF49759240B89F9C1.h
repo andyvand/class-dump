@@ -12,8 +12,8 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool):withUseDLC: /* Error: Ran out of types for this method. */;
++ (_Bool)utDeviceRoute;
 + (_Bool)ZÐ1Â0@ù
 × ;
 - (void);
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (_Bool)ate>",N,V_delegate;
-- (id)lacement;
+- (id)_UIFindNavigatorPlacement;
 - (_Bool)"UIViewAnimationState"8;
 - (_Bool)M1ÐXáa;
 - (void)Î°;

@@ -9,13 +9,6 @@
 @interface PKInputPointAltitudeAndAzimuthNoiseFilter : PKInputPointBaseFilter
 {
     struct linear_congruential_engine<unsigned int, 48271U, 0U, 2147483647U> generator;
-    double currentAzimuthOffsetValue;
-    double currentAltitudeOffsetValue;
-    _Bool _noiseIsHeightBased;
-    double _altitudeJitterNoise;
-    double _azimuthJitterNoise;
-    double _altitudeOffsetNoise;
-    double _azimuthOffsetNoise;
 }
 
 - (void);
@@ -30,15 +23,11 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (id);
 
 // Remaining properties
 @property(nonatomic) double altitudeJitterNoise; // @synthesize altitudeJitterNoise=_altitudeJitterNoise;
-@property(nonatomic) double altitudeOffsetNoise; // @synthesize altitudeOffsetNoise=_altitudeOffsetNoise;
-@property(nonatomic) double azimuthJitterNoise; // @synthesize azimuthJitterNoise=_azimuthJitterNoise;
-@property(nonatomic) double azimuthOffsetNoise; // @synthesize azimuthOffsetNoise=_azimuthOffsetNoise;
-@property(nonatomic) _Bool noiseIsHeightBased; // @synthesize noiseIsHeightBased=_noiseIsHeightBased;
 
 @end
 

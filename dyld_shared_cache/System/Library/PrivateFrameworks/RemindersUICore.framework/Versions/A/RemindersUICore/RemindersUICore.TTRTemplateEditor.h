@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRTemplateEditor
 {
     id changeItem;
-    id undoContext;
-    id unitTest_oneShotSyncSaveForUndo;
 }
 
 @end

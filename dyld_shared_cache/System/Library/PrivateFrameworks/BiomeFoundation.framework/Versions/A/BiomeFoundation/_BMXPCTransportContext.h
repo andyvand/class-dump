@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _BMXPCTransportContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_connection;
-    CDUnknownBlockType _messageHandler;
-    CDUnknownBlockType _errorHandler;
-    NSMutableDictionary *_exportedUserInfo;
-    NSDictionary *_remoteUserInfo;
 }
 
 - (void);
@@ -28,16 +23,11 @@
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)n this platform.;
 - (void);
 
 // Remaining properties
-@property __weak NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(retain) NSMutableDictionary *exportedUserInfo; // @synthesize exportedUserInfo=_exportedUserInfo;
-@property(copy) CDUnknownBlockType messageHandler; // @synthesize messageHandler=_messageHandler;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSDictionary *remoteUserInfo; // @synthesize remoteUserInfo=_remoteUserInfo;
 
 @end
 

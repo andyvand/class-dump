@@ -5,5 +5,6 @@
 //
 
 @protocol CPLSyncSessionPredictorObserver
+- (void)s;
 @end
 

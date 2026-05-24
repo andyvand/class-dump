@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString;
-
 @interface SAPhoneHangUpResponse : SABaseCommand
 {
 }
@@ -15,7 +13,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (_Bool);
 - (id);
@@ -23,17 +21,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(nonatomic) _Bool activeCallRemaining;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *phoneHangUpCallType;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

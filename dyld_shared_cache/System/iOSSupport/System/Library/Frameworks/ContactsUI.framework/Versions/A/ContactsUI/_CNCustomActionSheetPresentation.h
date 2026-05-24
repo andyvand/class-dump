@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, UIViewController;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _CNCustomActionSheetPresentation
 {
     UIView *_sourceView;
-    CDUnknownBlockType _dismissHandler;
-    UIViewController *_viewController;
-    unsigned long long _permittedArrowDirections;
-    struct CGRect _sourceRect;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -30,21 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (void)thIdentifier: /* Error: Ran out of types for this method. */;
+- (void)cancelExtensionRequestWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long permittedArrowDirections; // @synthesize permittedArrowDirections=_permittedArrowDirections;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
 @property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

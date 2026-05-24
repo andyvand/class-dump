@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)itemPendingReconciliationJobBlockingCode;
 - (id);
 - (id);
-- (id);
-- (void)LocationName:schedulerProvider:loggerProvider: /* Error: Ran out of types for this method. */;
+- (void)unitTestingEnvironmentWithDataLocationName:schedulerProvider:loggerProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;

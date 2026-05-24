@@ -9,18 +9,11 @@
 @interface TeaUI.ShineView : TeaUI.MotionContainerView
 {
     id cornerRadius;
-    id maskedCorners;
-    id cornerCurve;
-    id identifier;
-    id imageView;
-    id $__lazy_storage_$_shineMotionLayer;
-    id shineImageRequest;
-    id shineOptions;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)pruningAssistantForZoneName:] /* Error: Ran out of types for this method. */;
+- (id)y"b1"subscriptionRate"b1};
 - (void)8ýÿXýÿpýÿ¨ýÿhýÿ¨ýÿìýÿ$ýÿ\ýÿ¼ýÿôýÿýÿ$ýÿýÿÄýÿtýÿÔýÿýÿðýÿ¬ýÿ ýÿàýÿýÿ,ýÿDýÿ\ýÿüýÿ4ýÿTýÿýÿ¤ýÿÜýÿýÿ@ýÿ°ýÿ ýÿXýÿäýÿ( ýÿ`!ýÿ !ýÿ;
 
 @end

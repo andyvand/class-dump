@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol CRJSObjectExport
++ (id)nhance) pa_isAutoEnhanceDescription];
+- (void)inputBoostAmount;
+- (JSValue *)DGGNGDefringeOperation;
+
+@optional
++ (id)DGGNGMultiplyOperation;
+- (void)DGShadowHighlightOperation;
+- (JSValue *)inputSharpenEnabled;
 @end
 

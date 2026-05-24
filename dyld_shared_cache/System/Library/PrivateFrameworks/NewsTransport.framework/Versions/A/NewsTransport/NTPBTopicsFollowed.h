@@ -4,38 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBTopicsFollowed
 {
     NSString *_topicGroupingId;
-    NSMutableArray *_topicIds;
 }
 
-+ (Class);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
++ (Class)assetAtItemIndexPath: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithText:searchObject:representedObject: /* Error: Ran out of types for this method. */;
+- (void)initWithPhotoLibrary:(id)arg1 fileURLs:assetCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)errorForReachingMaxSubscriptionLimitWithAlbumTitle: /* Error: Ran out of types for this method. */;
+- (void)curatedGeotaggableFromSet: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
+- (id)contactPicker:(unsigned long long)arg1 didSelectContactProperty: /* Error: Ran out of types for this method. */;
+- (id)contactIdentifier;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (id);
+- (void);
+- (void);
+- (unsigned long long)weakObjectsHashTable;
+- (_Bool)encountered an invalid post-order directory;
+- (_Bool)hing channel IDs for bundle subscription;
+- (id)#;
 - (id);
 - (void)1"adSupportedChannel"b1"articleLoaded"b1"badgeExposure"b1"didBounce"b1"didExpandDuringView"b1"didOpenInSafari"b1"isAudioEligible"b1"isAudioEngaged"b1"isBreakingNewsArticle"b1"isCoverArticle"b1"isDigitalReplicaAd"b1"isExplorationArticle"b1"isFreeArticle"b1"isGroupedArticle"b1"isNativeAd"b1"isNewUserToArticle"b1"isPaidSubscriberToFeed"b1"isPaidSubscriberToSourceChannel"b1"isSharedSubscriptionOnlyArticle"b1"isSubscribedToGroupFeed"b1"isSubscribedToSourceChannel"b1"isTopStoryArticle"b1"isUserSubscribedToParentFeed"b1"isVideoInFeed"b1"subscriptionOnlyArticle"b1"viewFromNotificationDirectOpen"b1};
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTopicGroupingId;
-@property(retain, nonatomic) NSString *topicGroupingId; // @synthesize topicGroupingId=_topicGroupingId;
-@property(retain, nonatomic) NSMutableArray *topicIds; // @synthesize topicIds=_topicIds;
 
 @end
 

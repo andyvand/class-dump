@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteStoreQueryContext, CNAutocompleteUserSession;
-@protocol CNAutocompleteFetchDelegate, CNAutocompleteProbeProvider, CNAutocompleteSearchProvider, CNScheduler;
+@protocol CNAutocompleteFetchDelegate, CNAutocompleteSearchProvider;
 
 @interface CNAutocompleteStoreQueryHelper
 {
     id <CNAutocompleteSearchProvider> _searchProvider;
-    id <CNAutocompleteFetchDelegate> _delegate;
-    id <CNScheduler> _scheduler;
-    CNAutocompleteStoreQueryContext *_queryContext;
-    id <CNAutocompleteProbeProvider> _probeProvider;
-    CNAutocompleteUserSession *_userSession;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -29,11 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CNAutocompleteFetchDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) id <CNAutocompleteProbeProvider> probeProvider; // @synthesize probeProvider=_probeProvider;
-@property(readonly, nonatomic) CNAutocompleteStoreQueryContext *queryContext; // @synthesize queryContext=_queryContext;
-@property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly, nonatomic) id <CNAutocompleteSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(readonly, nonatomic) CNAutocompleteUserSession *userSession; // @synthesize userSession=_userSession;
 
 @end
 

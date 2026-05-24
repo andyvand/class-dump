@@ -9,39 +9,32 @@
 @interface SGM2PerfXPCLatency
 {
     NSString *_key;
-    int _method;
-    struct {
-        unsigned int method:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)kNextActionGetServiceInformation;
+- (id)18getSelectedNetworkEN3xpc10auto_replyEE3$_0Fv19NetworkListOperatorEEE;
+- (int)26SubscriberFactoryInterface;
 - (id);
-- (int);
-- (id);
-- (void);
+- (void)setObject:(int)arg1 atIndexedSubscript: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mPackageLocation;
 - (_Bool);
 - (void);
-- (id);
+- (id)	;
 - (id);
 - (_Bool)1Â0@ù
 × ;
 - (int)l$Ð1Â0@ù
 × ;
-- (void)edInstance;
+- (void)sharedInstance;
 - (void)°7à7;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasMethod;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int method; // @synthesize method=_method;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface VMUReferenceTreeAnalyzer : VMUAnalyzerBase
 {
     _Bool _showRawClassNames;
-    _Bool _groupByType;
-    _Bool _showRegionVirtualSize;
 }
 
 - (_Bool);
@@ -18,13 +16,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool groupByType; // @synthesize groupByType=_groupByType;
 @property(nonatomic) _Bool showRawClassNames; // @synthesize showRawClassNames=_showRawClassNames;
-@property(nonatomic) _Bool showRegionVirtualSize; // @synthesize showRegionVirtualSize=_showRegionVirtualSize;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatCountryFlagAssetHandle
 {
     id countryCode;
-    id size;
-    id scale;
-    id sportsDataService;
-    id assetManager;
-    id resolvedHandle;
 }
 
 @end

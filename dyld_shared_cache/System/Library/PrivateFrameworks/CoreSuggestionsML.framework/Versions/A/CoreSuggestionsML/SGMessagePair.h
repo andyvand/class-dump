@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SGMessagePair
 {
     NSString *_reply;
-    NSString *_prompt;
-    NSString *_handle;
-    NSDate *_sentAt;
 }
 
 - (id);
@@ -20,16 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(retain, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
 @property(retain, nonatomic) NSString *reply; // @synthesize reply=_reply;
-@property(retain, nonatomic) NSDate *sentAt; // @synthesize sentAt=_sentAt;
 
 @end
 

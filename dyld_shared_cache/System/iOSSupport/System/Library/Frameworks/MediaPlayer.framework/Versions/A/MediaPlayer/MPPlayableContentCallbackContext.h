@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface MPPlayableContentCallbackContext
 {
     _Bool _serviced;
-    NSIndexPath *_indexPath;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void)mURL__MAPPING_MISSING__;
+- (void)__MPModelPropertyPodcastEpisodeStreamURL__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(nonatomic) _Bool serviced; // @synthesize serviced=_serviced;
 
 @end
 

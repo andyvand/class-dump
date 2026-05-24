@@ -10,26 +10,22 @@
 {
     NSString *_label;
     NSString *_value;
-    unsigned long long _traits;
-    id _object;
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ld not create pixel buffer pool.;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) __weak id object; // @synthesize object=_object;
-@property(nonatomic) unsigned long long traits; // @synthesize traits=_traits;
 @property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

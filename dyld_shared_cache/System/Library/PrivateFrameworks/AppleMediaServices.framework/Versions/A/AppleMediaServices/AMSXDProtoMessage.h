@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface AMSXDProtoMessage
 {
     NSString *_logKey;
-    NSData *_messageData;
 }
 
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)(;
+- (id):%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)setTimings:(id)arg1;
+- (_Bool)episodeType"b1"formatTierPreference"b1"mediaSubType"b1"mediaType"b1"numberOfSections"b1"playCount"b1"playbackProgress"b1"playbackRate"b1"playlistTraits"b1"playlistType"b1"radioStationType"b1"seasonNumber"b1"songTraits"b1"totalDiscCount"b1"totalTrackCount"b1"trackNumber"b1"artworkAvailable"b1"excludeFromSuggestions"b1"hasAlternativeFormats"b1"infoAvailable"b1"isAdvertisement"b1"isAlwaysLive"b1"isContainer"b1"isCurrentlyPlaying"b1"isExplicitItem"b1"isInTransition"b1"isInWishList"b1"isLiked"b1"isLoading"b1"isPlayable"b1"isResolvableParticipant"b1"isSharable"b1"isSteerable"b1"isStreamingContent"b1"languageOptionsAvailable"b1"lyricsAvailable"b1"transcriptAlignmentsAvailable"b1};
 - (void);
 - (id);
 - (id);
@@ -31,8 +30,6 @@ __attribute__((visibility("hidden")))
 Îïß9[ÏK4>Dgº²(òçÁü¹0+Ô¯Ì×s^OÅµA¥®/Ö±4çDø$Æ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLogKey;
-@property(retain, nonatomic) NSString *logKey; // @synthesize logKey=_logKey;
 @property(retain, nonatomic) NSData *messageData; // @synthesize messageData=_messageData;
 
 @end

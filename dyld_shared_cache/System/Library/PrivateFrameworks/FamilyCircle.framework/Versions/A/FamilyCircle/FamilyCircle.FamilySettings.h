@@ -7,7 +7,6 @@
 @interface FamilyCircle.FamilySettings
 {
     id altDSID;
-    id messageSender;
 }
 
 @end

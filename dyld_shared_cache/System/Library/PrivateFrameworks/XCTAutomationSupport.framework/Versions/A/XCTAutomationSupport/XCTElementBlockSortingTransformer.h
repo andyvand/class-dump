@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface XCTElementBlockSortingTransformer
 {
     _Bool stopsOnFirstMatch;
-    NSString *transformationDescription;
-    CDUnknownBlockType _comparator;
 }
 
 + (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSSet *elementTypes;
-@property(readonly) unsigned long long hash;
-@property _Bool stopsOnFirstMatch; // @synthesize stopsOnFirstMatch;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsAttributeKeyPathAnalysis;
-@property(copy) NSString *transformationDescription; // @synthesize transformationDescription;
 
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBLocation;
+@class _INPBLocation;
 
 @protocol _INPBReportIncidentIntentResponse
-- (_Bool)eFailure;
-- (unsigned long long)lectionForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)`;
+- (_Bool)INGetSettingIntentResponseCodeFailure;
+- (unsigned long long)provideCallCapabilityOptionsCollectionForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocation;
 @property(retain, nonatomic) _INPBLocation *location;
-@property(copy, nonatomic) NSArray *supportedTypes;
-@property(readonly, nonatomic) unsigned long long supportedTypesCount;
-@property(readonly, nonatomic) int *transportTypes;
-@property(readonly, nonatomic) unsigned long long transportTypesCount;
 @end
 

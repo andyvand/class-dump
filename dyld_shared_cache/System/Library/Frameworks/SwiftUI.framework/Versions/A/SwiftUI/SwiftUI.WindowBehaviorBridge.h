@@ -7,13 +7,6 @@
 @interface SwiftUI.WindowBehaviorBridge
 {
     id defaultConfiguration;
-    id currentConfiguration;
-    id behaviorConfigurationSeed;
-    id interactiveResizeSeed;
-    id interactiveResizeDisabled;
-    id aspectRatioSeed;
-    id aspectRatioConfiguration;
-    id needsAspectRatioAdjustment;
 }
 
 @end

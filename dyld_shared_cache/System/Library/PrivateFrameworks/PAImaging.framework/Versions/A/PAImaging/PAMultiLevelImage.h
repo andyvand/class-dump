@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PADevice, PANeutrinoImage;
+@class PADevice;
 
 @interface PAMultiLevelImage
 {
     PADevice *_device;
-    NSMutableArray *_levels;
-    long long _orientation;
-    long long _displayOrientation;
-    struct CGSize _size;
-    PANeutrinoImage *_neutrinoImage;
 }
 
 + (id);
@@ -21,7 +16,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -44,7 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)U;
 - (struct CGSize);
 - (_Bool);
 - (id);
@@ -54,11 +49,10 @@
 - (id);
 - (id);
 - (void);
-- (id)ithConfiguration:(id)arg1;
+- (id)updateAssetClient:(id)arg1 forKey:withConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PADevice *device; // @synthesize device=_device;
-@property(retain) PANeutrinoImage *neutrinoImage; // @synthesize neutrinoImage=_neutrinoImage;
 
 @end
 

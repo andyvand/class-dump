@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigAudioCaptureConnectionConfiguration, FigDepthDataCaptureConnectionConfiguration, FigMetadataItemCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration, NSArray;
+@class FigVideoCaptureConnectionConfiguration, NSArray;
 
 @interface FigCaptureSessionParsedMovieFileSinkConfiguration
 {
     NSArray *_videoConnectionConfigurations;
-    FigAudioCaptureConnectionConfiguration *_audioConnectionConfiguration;
-    FigMetadataItemCaptureConnectionConfiguration *_cameraDebugInfoMetadataConnectionConfiguration;
-    NSArray *_detectedObjectMetadataConnectionConfigurations;
-    FigDepthDataCaptureConnectionConfiguration *_depthDataConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_stillImageConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_sceneClassifierConnectionConfiguration;
 }
 
 - (id);
-- (void);
+- (void)readFrom:textRuns:to:index:row: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)owBlurMask;
+- (id)_superMacroEdgeFeatheringShowBlurMask;
 - (id)ientID %i is not active, priority not updated.;
 
 // Remaining properties
-@property(readonly, nonatomic) FigAudioCaptureConnectionConfiguration *audioConnectionConfiguration; // @synthesize audioConnectionConfiguration=_audioConnectionConfiguration;
-@property(readonly, nonatomic) FigMetadataItemCaptureConnectionConfiguration *cameraDebugInfoMetadataConnectionConfiguration; // @synthesize cameraDebugInfoMetadataConnectionConfiguration=_cameraDebugInfoMetadataConnectionConfiguration;
-@property(readonly, nonatomic) FigDepthDataCaptureConnectionConfiguration *depthDataConnectionConfiguration; // @synthesize depthDataConnectionConfiguration=_depthDataConnectionConfiguration;
-@property(readonly, nonatomic) NSArray *detectedObjectMetadataConnectionConfigurations; // @synthesize detectedObjectMetadataConnectionConfigurations=_detectedObjectMetadataConnectionConfigurations;
 @property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *primaryVideoConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *sceneClassifierConnectionConfiguration; // @synthesize sceneClassifierConnectionConfiguration=_sceneClassifierConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *stillImageConnectionConfiguration; // @synthesize stillImageConnectionConfiguration=_stillImageConnectionConfiguration;
-@property(readonly, nonatomic) NSArray *videoConnectionConfigurations; // @synthesize videoConnectionConfigurations=_videoConnectionConfigurations;
 
 @end
 

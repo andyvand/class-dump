@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface SUCoreLog
 {
     NSObject<OS_os_log> *_oslog;
-    NSString *_category;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *category; // @synthesize category=_category;
 @property(readonly, retain, nonatomic) NSObject<OS_os_log> *oslog; // @synthesize oslog=_oslog;
 
 @end

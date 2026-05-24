@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, NSTimeZone, PHAsset;
+@class NSDate;
 
 @interface UnknownClass (ShareBack)
-- (id)nSourceChildSocialGroup;
+- (id)PGSharingSuggestionSourceChildSocialGroup;
 - (double)tG;
 - (id)ÐSè;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *asset;
 @property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) double horizontalAccuracy;
-@property(readonly, nonatomic) NSDate *localCreationDate;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
 @end
 

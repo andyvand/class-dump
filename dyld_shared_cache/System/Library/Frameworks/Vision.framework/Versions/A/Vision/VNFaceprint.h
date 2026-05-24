@@ -6,7 +6,7 @@
 
 #import <Vision/VNEspressoModelImageprint.h>
 
-@class NSData, NSString, VNRequestSpecifier;
+@class VNRequestSpecifier;
 
 @interface VNFaceprint : VNEspressoModelImageprint
 {
@@ -29,37 +29,24 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)@9;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (float);
+- (unsigned long long);
+- (id);
+- (unsigned long long)@9h";
+- (id);
+- (id)daemonConnectionOverride;
+- (id);
+- (unsigned long long);
+- (_Bool)A;
+- (void)`;
+- (float)_subscribeToObservableIfNecessary;
 
 // Remaining properties
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintByteLength;
-@property(readonly) NSData *VNEntityIdentificationModelPrintData;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementCount;
-@property(readonly) unsigned long long VNEntityIdentificationModelPrintElementType;
 @property(readonly, copy) VNRequestSpecifier *VNEntityIdentificationModelPrintOriginatingRequestSpecifier;
-@property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long serializedLength;
-@property(readonly) Class superclass;
 
 @end
 

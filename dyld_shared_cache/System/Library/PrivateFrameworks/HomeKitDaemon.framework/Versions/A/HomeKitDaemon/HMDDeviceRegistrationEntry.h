@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, NSArray;
+@class HMDDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceRegistrationEntry
 {
     HMDDevice *_device;
-    NSArray *_accessoryUUIDList;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)J;
 - (id);
-- (void)Analyzer;
+- (void)ActionSetTriggerDeletionLogEventAnalyzer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessoryUUIDList; // @synthesize accessoryUUIDList=_accessoryUUIDList;
 @property(readonly, nonatomic) HMDDevice *device; // @synthesize device=_device;
 
 @end

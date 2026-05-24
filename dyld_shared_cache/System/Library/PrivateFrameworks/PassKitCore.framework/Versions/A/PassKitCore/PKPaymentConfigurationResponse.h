@@ -6,28 +6,22 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface PKPaymentConfigurationResponse : PKPaymentWebServiceResponse
 {
     NSData *_data;
-    NSData *_signature;
-    NSString *_version;
-    NSDictionary *_configuration;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)setHasRoundTripTimeMin: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)e remote devices;
 - (void):'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

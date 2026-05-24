@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKTSDBezierPath, AKTSDBrushStroke, AKTSDLineEnd;
+@class AKTSDBezierPath;
 
 @interface AKTSDShape
 {
@@ -20,21 +20,6 @@
         unsigned int tailLineEnd:1;
         unsigned int clippedPath:1;
     } mShapeInvalidFlags;
-    struct CGPoint mHeadPoint;
-    struct CGPoint mTailPoint;
-    struct CGPoint mHeadLineEndPoint;
-    struct CGPoint mTailLineEndPoint;
-    double mHeadLineEndAngle;
-    double mTailLineEndAngle;
-    long long mHeadCutSegment;
-    long long mTailCutSegment;
-    double mHeadCutT;
-    double mTailCutT;
-    AKTSDBezierPath *mCachedClippedPath;
-    AKTSDBezierPath *_path;
-    AKTSDBrushStroke *_stroke;
-    AKTSDLineEnd *_headLineEnd;
-    AKTSDLineEnd *_tailLineEnd;
 }
 
 - (struct CGPoint);
@@ -62,15 +47,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4@0:(id)arg1 8@16^{CGImage=}24C32Q36;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AKTSDLineEnd *headLineEnd; // @synthesize headLineEnd=_headLineEnd;
 @property(retain, nonatomic) AKTSDBezierPath *path; // @synthesize path=_path;
-@property(retain, nonatomic) AKTSDBrushStroke *stroke; // @synthesize stroke=_stroke;
-@property(retain, nonatomic) AKTSDLineEnd *tailLineEnd; // @synthesize tailLineEnd=_tailLineEnd;
 
 @end
 

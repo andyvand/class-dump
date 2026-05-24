@@ -4,6 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AACloudServicesClient, BTCloudDevice, BTMagicPairingSettings, HMDeviceCloudRecordInfo, NSArray, NSFileHandle, NSString, NSUUID;
+
 @protocol BTCloudServicesXPCDaemonInterface
+- (void)Environment">24;
+- (void)windowInfoForWindowID:(NSString *)arg1;
+- (void)window;
+- (void)wf_uncachedContainerURLForSecurityApplicationGroupIdentifier:(BTMagicPairingSettings *)arg1 error:(void (^)(NSError *))arg2;
+- (void)wf_unarchiveRootObjectAndFinishWithAllowedClasses:(HMDeviceCloudRecordInfo *)arg1;
+- (void)wf_stringContainsNewlineCharacters;
+- (void)wf_stringContainsCharacterInSet:(BTCloudDevice *)arg1;
+- (void)wf_stringByTrimmingTrailingWhitespaceAndNewlineCharacters;
+- (void)wf_securelyArchivedDataWithRootObject:(NSArray *)arg1 deletionResponsibility:(void (^)(NSError *))arg2;
+- (void)wf_securelyArchivedDataWithRootObject:(NSFileHandle *)arg1;
+- (void)wf_sanitizedFilename;
+- (void)wf_sandboxAllowsWritingFileWithAuditToken:(NSString *)arg1;
+- (void)wf_sandboxAllowsReadingFileWithAuditToken:(NSString *)arg1;
+- (void)wf_sandboxAllowsOperation:(void (^)(NSArray *, NSError *))arg1 withAuditToken: /* Error: Ran out of types for this method. */;
+- (void)wf_sandboxAllowsOperation:(NSString *)arg1;
+- (void)wf_relativePathFromURL:(NSUUID *)arg1;
+- (void)wf_realLibraryDirectoryURL;
+- (void)wf_proposedFileIsContainedByDirectoryAtURL:(NSString *)arg1;
+- (void)wf_preferredValueRounding;
+- (void)wf_postalAddressIdentifier;
+- (void)wf_placeDescriptorObjectClass;
+- (void)wf_linkMetadataIdentifier;
+- (void)wf_isUserCancelledError;
+- (void)wf_isSiriPunchOutError;
+- (void)wf_isAvailableInContext:(NSString *)arg1;
+- (void)wf_initWithDaysBeforeAndAfterCurrentDate:(BTMagicPairingSettings *)arg1;
+- (void)wf_iconIsDefaultVisible;
+- (void)at:(BTCloudDevice *)arg1 includeTimeForISO8601:(void (^)(NSError *))arg2 timeZone:locale: /* Error: Ran out of types for this method. */;
+- (void)wf_formattedStringWithDateStyle:(AACloudServicesClient *)arg1 timeStyle:(void (^)(NSError *))arg2 relativeDateStyle:customDateFormat:includeTimeForISO8601:timeZone:locale: /* Error: Ran out of types for this method. */;
 @end
 

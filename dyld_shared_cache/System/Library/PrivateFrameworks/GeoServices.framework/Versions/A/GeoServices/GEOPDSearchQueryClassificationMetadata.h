@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryClassificationMetadata
 {
     PBDataReader *_reader;
-    NSString *_classiferId;
-    NSMutableArray *_modelVersions;
-    NSMutableArray *_predictions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _localGlobalThreshold;
-    float _poiGeoThreshold;
-    struct {
-        unsigned int has_localGlobalThreshold:1;
-        unsigned int has_poiGeoThreshold:1;
-        unsigned int read_classiferId:1;
-        unsigned int read_modelVersions:1;
-        unsigned int read_predictions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)key '%@', as %@ is not a plist type;
+- (id)createPrepareAudioStreamMessageWithRequest: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ckShield"b1"read_icon"b1"read_sfSymbol"b1"read_shield"b1"wrote_anyField"b1};
-- (id)tions;
+- (id)_problemCorrections;
 - (id)ñ¼ñhò8ó ôðôøõ;
 - (void);
 

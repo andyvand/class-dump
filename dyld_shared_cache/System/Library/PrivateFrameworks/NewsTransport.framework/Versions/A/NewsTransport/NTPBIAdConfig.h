@@ -7,37 +7,26 @@
 @interface NTPBIAdConfig
 {
     long long _segmentsHistoryWindowInterval;
-    long long _segmentsMinimumArticleCount;
-    long long _segmentsSubmissionFrequency;
-    double _segmentsThreshold;
-    _Bool _segmentsEnabled;
-    struct {
-        unsigned int segmentsHistoryWindowInterval:1;
-        unsigned int segmentsMinimumArticleCount:1;
-        unsigned int segmentsSubmissionFrequency:1;
-        unsigned int segmentsThreshold:1;
-        unsigned int segmentsEnabled:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)defaultZoomLevelTransitionAnimationDuration;
+- (void)defaultVerticalMultipartPanoramaParameters;
+- (void)defaultVerticalMultipartPanoramaParameters;
+- (void)control:(_Bool)arg1 didFailToValidatePartialString:errorDescription: /* Error: Ran out of types for this method. */;
+- (void)control:(_Bool)arg1 didFailToFormatString:errorDescription: /* Error: Ran out of types for this method. */;
+- (void)contributorDisplayNames;
+- (void)contributor;
+- (void)continuousKenBurnsAnimationsTolerance;
+- (_Bool)annotationsWithUpdatedIndex;
+- (_Bool)annotationsToRemoveAfterAnimationHasStarted;
+- (_Bool)annotationsToRemoveAfterAnimationHasEnded;
+- (_Bool)annotationsToRedraw;
+- (_Bool)annotationsToAddImmediately;
+- (void)_updateInitialAssetReference;
+- (_Bool)_updateFullsizeContentBoundingBox;
+- (void)_updateCurrenPixelBufferAfterSeekingToTime:(long long)arg1 completionLock: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)completionPenalty;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -51,15 +40,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasSegmentsEnabled;
-@property(nonatomic) _Bool hasSegmentsHistoryWindowInterval;
-@property(nonatomic) _Bool hasSegmentsMinimumArticleCount;
-@property(nonatomic) _Bool hasSegmentsSubmissionFrequency;
-@property(nonatomic) _Bool hasSegmentsThreshold;
-@property(nonatomic) _Bool segmentsEnabled; // @synthesize segmentsEnabled=_segmentsEnabled;
-@property(nonatomic) long long segmentsHistoryWindowInterval; // @synthesize segmentsHistoryWindowInterval=_segmentsHistoryWindowInterval;
-@property(nonatomic) long long segmentsMinimumArticleCount; // @synthesize segmentsMinimumArticleCount=_segmentsMinimumArticleCount;
-@property(nonatomic) long long segmentsSubmissionFrequency; // @synthesize segmentsSubmissionFrequency=_segmentsSubmissionFrequency;
-@property(nonatomic) double segmentsThreshold; // @synthesize segmentsThreshold=_segmentsThreshold;
 
 @end
 

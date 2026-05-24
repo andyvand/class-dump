@@ -6,44 +6,36 @@
 
 #import <PackageKit/PKMutableProduct.h>
 
-@class NSData, NSString, NSURL, PKDistribution, PKDistributionContainer, PKProductInfo;
-@protocol PKMutableProductSigningDelegate;
+@class NSURL;
 
 @interface PKNetEnabledProduct : PKMutableProduct
 {
     NSURL *_url;
-    PKProductInfo *_productInfo;
-    NSData *_distributionData;
-    PKDistributionContainer *_container;
-    PKDistribution *_fromDistribution;
-    PKDistributionContainer *_fromContainer;
-    NSString *_resourcePath;
-    id <PKMutableProductSigningDelegate> _signingDelegate;
 }
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)#;
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)�FA9;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);

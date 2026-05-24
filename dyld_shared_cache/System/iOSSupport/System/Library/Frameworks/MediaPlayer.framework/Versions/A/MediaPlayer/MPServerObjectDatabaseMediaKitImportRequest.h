@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)H;
 - (long long);
 - (id);
 - (id);

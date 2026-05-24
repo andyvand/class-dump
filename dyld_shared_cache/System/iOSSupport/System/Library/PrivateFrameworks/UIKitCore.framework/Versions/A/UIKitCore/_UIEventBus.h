@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     id <_UIUpdateHIDAbstractInput> _inputs[3];
 }
 
-+ (id)orceSync: /* Error: Ran out of types for this method. */;
-- (id);
++ (id)modifyTextInputTraits:forceSync: /* Error: Ran out of types for this method. */;
+- (id)existingChatForID:(struct __IOHIDEvent *)arg1 account: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)tion:(id)arg1;
+- (void)_defaultHeightForOrientation:(id)arg1;
 - (void);
 
 @end

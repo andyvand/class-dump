@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (id);
-+ (_Bool)ionCharacteristicsAuthorizationData;
++ (_Bool)storeMigrationCharacteristicsAuthorizationData;
 + (_Bool)isAccurateLocation:(id)arg1;
 
 @end

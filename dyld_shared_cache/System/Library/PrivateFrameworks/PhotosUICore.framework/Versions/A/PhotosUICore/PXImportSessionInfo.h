@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray;
+@class NSDate;
 
 @interface PXImportSessionInfo
 {
     _Bool _importComplete;
-    _Bool _importStopped;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_itemsToImport;
-    NSMutableArray *_importedItems;
-    NSMutableArray *_errorItems;
-    long long _completedItemsCount;
 }
 
 - (void);
@@ -38,13 +31,6 @@
 - (void)I· »;
 
 // Remaining properties
-@property(nonatomic) long long completedItemsCount; // @synthesize completedItemsCount=_completedItemsCount;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSMutableArray *errorItems; // @synthesize errorItems=_errorItems;
-@property(nonatomic) _Bool importComplete; // @synthesize importComplete=_importComplete;
-@property(nonatomic) _Bool importStopped; // @synthesize importStopped=_importStopped;
-@property(retain, nonatomic) NSMutableArray *importedItems; // @synthesize importedItems=_importedItems;
-@property(retain, nonatomic) NSArray *itemsToImport; // @synthesize itemsToImport=_itemsToImport;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

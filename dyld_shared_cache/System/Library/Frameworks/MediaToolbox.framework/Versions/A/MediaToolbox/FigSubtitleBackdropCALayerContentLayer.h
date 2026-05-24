@@ -11,7 +11,7 @@
     struct OpaqueFigSubtitleBackdropCALayerContentLayerInternal *layerInternal;
 }
 
-- (void);
+- (void);
 - (id);
 - (id)[%p];
 

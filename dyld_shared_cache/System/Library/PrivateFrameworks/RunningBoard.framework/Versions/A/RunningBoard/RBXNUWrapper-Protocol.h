@@ -5,5 +5,6 @@
 //
 
 @protocol RBXNUWrapper
+- (void)D;
 @end
 

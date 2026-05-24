@@ -7,7 +7,6 @@
 @interface _AXObjectCacheHelper
 {
     void *_element;
-    unsigned long long _uid;
 }
 
 - (void);

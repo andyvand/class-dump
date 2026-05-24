@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, UITextFormattingViewControllerConfiguration;
+
 @protocol _UITextFormattingResponder
+
+@optional
+- (NSDictionary *);
+- (NSArray *)bcG;
+- (NSDictionary *){;
+- (void)DeviceDataModel;
+- (_Bool);
+- (_Bool);
+- (UITextFormattingViewControllerConfiguration *)!;
 @end
 

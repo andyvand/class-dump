@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSVisualEffectView;
+@class NSImageView;
 @protocol SiriUIAcousticIDSpinnerDelegate;
 
 @interface SiriUIAcousticIDSpinner
 {
     NSImageView *_musicNoteView;
-    NSImageView *_spinnerView;
-    NSVisualEffectView *_vibrancyView;
-    id <SiriUIAcousticIDSpinnerDelegate> _delegate;
 }
 
 - (id);
@@ -20,11 +17,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)HIDE_TAPBACKS;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void)áxÐ!Fù1Â0@ù
 × ;
 

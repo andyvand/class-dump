@@ -7,12 +7,11 @@
 @interface GEOArrivalTimeInfo
 {
     double _remainingTime;
-    unsigned long long _legIndex;
 }
 
 + (_Bool)Unexpected response type from geod on %s;
 - (void);
-- (unsigned long long);
+- (unsigned long long)V_isAddressingGrammarAccessGrantedCachedValue;
 - (id);
 - (double);
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long legIndex; // @synthesize legIndex=_legIndex;
-@property(nonatomic) double remainingTime; // @synthesize remainingTime=_remainingTime;
 
 @end
 

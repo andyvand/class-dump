@@ -12,7 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)RB�r%
+B;
 - (void);
 - (void);
 - (void);

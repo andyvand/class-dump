@@ -7,12 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceCanvasStatusView
 {
     id onServerTap;
-    id serverButton;
-    id maxWidth;
-    id statusLabel;
-    id editor;
-    id progressView;
-    id serverReloadQueueLabel;
 }
 
 - (struct CGSize);

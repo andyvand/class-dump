@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id):(id *)arg1 %d;
 - (id);
 - (void);
 - (id)ecurrence from REMRecurrenceRule %@ {reminderID:(id)arg1 %@};

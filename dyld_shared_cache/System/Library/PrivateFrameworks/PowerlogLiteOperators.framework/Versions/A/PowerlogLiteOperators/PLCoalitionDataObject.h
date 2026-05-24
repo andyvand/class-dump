@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoalitionComputeMetrics, NSString, NSValue;
+@class NSString;
 
 @interface PLCoalitionDataObject
 {
     NSString *_bundleID;
-    NSString *_launchdName;
-    NSValue *_coalStruct;
-    unsigned long long _coalitionID;
-    CoalitionComputeMetrics *_metrics;
 }
 
 - (void);
@@ -31,10 +27,6 @@
 
 // Remaining properties
 @property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain) NSValue *coalStruct; // @synthesize coalStruct=_coalStruct;
-@property unsigned long long coalitionID; // @synthesize coalitionID=_coalitionID;
-@property(retain) NSString *launchdName; // @synthesize launchdName=_launchdName;
-@property(retain) CoalitionComputeMetrics *metrics; // @synthesize metrics=_metrics;
 
 @end
 

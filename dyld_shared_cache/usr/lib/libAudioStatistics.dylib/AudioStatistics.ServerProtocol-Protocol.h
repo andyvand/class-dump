@@ -5,5 +5,7 @@
 //
 
 @protocol AudioStatistics.ServerProtocol
+- (void);
+- (void);
 @end
 

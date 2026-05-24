@@ -7,14 +7,13 @@
 @interface CKSSShare
 {
     struct ccss_shamir_share *_share;
-    unsigned long long _share_size;
 }
 
 - (id);
 - (id);
 - (void);
 - (unsigned int);
-- (id);
+- (id)Ol)x;
 - (struct ccss_shamir_share *);
 
 @end

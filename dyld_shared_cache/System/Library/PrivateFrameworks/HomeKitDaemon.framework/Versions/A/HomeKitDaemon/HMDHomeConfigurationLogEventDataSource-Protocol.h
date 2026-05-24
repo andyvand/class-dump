@@ -7,6 +7,11 @@
 @class HMDDevice, HMDUser, NSArray, NSUUID;
 
 @protocol HMDHomeConfigurationLogEventDataSource
+- (NSArray *)stripForSendingUpdatedTraffic;
+- (NSArray *)stringByAppendingPathComponent: /* Error: Ran out of types for this method. */;
+- (NSArray *)wn:%i) /* Error: Ran out of types for this method. */;
+- (NSArray *)(;
+- (NSArray *);
 - (_Bool);
 - (HMDDevice *)tected;
 - (NSUUID *);
@@ -14,24 +19,6 @@
 - (HMDUser *);
 
 // Remaining properties
-@property(readonly, copy) NSArray *accessories;
-@property(readonly, copy, nonatomic) NSArray *actionSets;
-@property(readonly, copy, nonatomic) NSArray *appleMediaAccessories;
-@property(readonly, getter=isAutomaticThirdPartyAccessorySoftwareUpdateEnabled) _Bool automaticThirdPartyAccessorySoftwareUpdateEnabled;
-@property(readonly) HMDDevice *currentDevice;
-@property(readonly, getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident;
-@property(readonly) HMDUser *currentUser;
-@property(readonly, copy, nonatomic) NSArray *enabledResidents;
-@property(readonly, copy) NSArray *hapAccessories;
-@property(readonly) _Bool isAccessToHomeAllowed;
-@property(readonly) _Bool isSiriPhraseOptionsHeySiriEnabled;
-@property(readonly) _Bool isSiriPhraseOptionsJustSiriEnabled;
-@property(readonly, nonatomic, getter=isLocalPresenceSupported) _Bool localPresenceSupported;
-@property(readonly) unsigned long long numMatterV2Keys;
-@property(readonly, getter=isOwnerUser) _Bool ownerUser;
-@property(readonly, copy, nonatomic) NSArray *triggerOwnedActionSets;
-@property(readonly, copy) NSArray *triggers;
-@property(readonly, copy) NSArray *users;
 @property(readonly, nonatomic) NSUUID *uuid;
 @end
 

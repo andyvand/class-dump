@@ -9,17 +9,12 @@
 @interface CDPRecoveryFlowContext
 {
     _Bool _hasPeersForRemoteApproval;
-    _Bool _isWalrusEnabled;
-    _Bool _hasViableICSC;
-    _Bool _isSingleICSC;
-    CDPContext *_context;
-    double _rpdProbationDuration;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (double);
 - (_Bool);
@@ -27,20 +22,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)ded.;
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CDPContext *context; // @synthesize context=_context;
-@property(nonatomic) _Bool hasPeersForRemoteApproval; // @synthesize hasPeersForRemoteApproval=_hasPeersForRemoteApproval;
-@property(nonatomic) _Bool hasViableICSC; // @synthesize hasViableICSC=_hasViableICSC;
-@property(nonatomic) _Bool isSingleICSC; // @synthesize isSingleICSC=_isSingleICSC;
-@property(nonatomic) _Bool isWalrusEnabled; // @synthesize isWalrusEnabled=_isWalrusEnabled;
-@property(nonatomic) double rpdProbationDuration; // @synthesize rpdProbationDuration=_rpdProbationDuration;
 
 @end
 

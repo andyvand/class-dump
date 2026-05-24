@@ -7,10 +7,10 @@
 @class NSArray, UIScene;
 
 @protocol _UISceneComponentProviding
-- (id)usViewPositionConstraints;
-- (UIScene *);
+- (id)_statusViewPositionConstraints;
 
 @optional
+- (UIScene *);
 - (NSArray *)be available in a few minutes.;
 - (void)¨VÌÿåàbÕÌÿåàbÈÕÌÿåàb<³Ðÿ;
 

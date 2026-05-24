@@ -9,7 +9,6 @@
 @interface WBSSandboxExtension
 {
     unsigned long long _counter;
-    NSURL *_url;
 }
 
 - (void);

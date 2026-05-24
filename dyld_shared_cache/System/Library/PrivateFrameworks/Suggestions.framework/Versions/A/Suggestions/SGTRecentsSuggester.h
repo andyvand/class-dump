@@ -23,10 +23,10 @@
 + (id);
 + (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)9!;
 - (_Bool);
 - (void);
 - (void);
@@ -34,7 +34,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`";
 - (void);
 - (id);
 - (void);
@@ -44,7 +44,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_getFontFromAppearanceString:ofPDFPage: /* Error: Ran out of types for this method. */;
 - (void)ÿ;
 
 @end

@@ -4,73 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DUIImageComponent, _DUIPreview;
-
 @interface _DUIVisibleDroppedItem
 {
     struct CAPoint3D _center;
-    CDUnion_84fc7ef9 _velocity3D;
-    CDUnion_84fc7ef9 _targetVelocity3D;
-    _Bool _constrainSize;
-    _Bool _flipped;
-    _Bool _precisionMode;
-    unsigned long long _itemIndex;
-    _DUIImageComponent *_imageComponent;
-    _DUIPreview *_preview;
-    double _rotation;
-    struct CGAffineTransform _appliedTransform;
 }
 
 + (_Bool)nted when a document could not be opened.;
-- (CDUnion_c6a188fc);
-- (struct CGVector);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (CDUnion_c6a188fc)updateStateForChat:hintMessage:shouldRebuildFailedMessageDate:setUnreadCountToZero: /* Error: Ran out of types for this method. */;
+- (struct CGVector)updateStateForChat:hintMessage:shouldRebuildFailedMessageDate: /* Error: Ran out of types for this method. */;
+- (void)reportZoneCreation:(CDUnion_c6a188fc)arg1;
+- (void)ressBlock:(struct CGVector)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)receiveFileTransfer:(CDUnion_c6a188fc)arg1 topic:path:requestURLString:ownerID:signature:decryptionKey:fileSize:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)isShowingFailure;
+- (void)fileTransferCenter;
+- (void)compressedProtobufDataForGroupTitleChangeItem;
+- (void)bestGuessUnifiedMetricTransportType;
+- (_Bool)_commandReadyForBlastdoor: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool).;
 - (struct CGAffineTransform);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (double);
+- (id)eldspar;
+- (double)__MPModelPropertyTVEpisodeKeepLocalEnableState__MAPPING_MISSING__;
 - (id);
 - (CDUnion_c6a188fc);
 - (struct CGPoint)!Aù±a°1Â0@ù
 × ;
 - (struct CGVector)
 × ;
-- (void)imumValue:(id)arg1 maximumValue: /* Error: Ran out of types for this method. */;
-- (_Bool)sentation:preparedMenuForDisplay:completion: /* Error: Ran out of types for this method. */;
+- (void)movieScrubber:(id)arg1 willZoomToMinimumValue:maximumValue: /* Error: Ran out of types for this method. */;
+- (_Bool)_editMenuPresentation:preparedMenuForDisplay:completion: /* Error: Ran out of types for this method. */;
 - (id)cusEventRecognizer;
 - (void)ue destination (%ld) encountered.;
-- (void)eyboardCenterBeginUserInfoKey;
+- (void)UIKeyboardCenterBeginUserInfoKey;
 - (void)ÃÃÙPl\;
 - (void)¨fºÿÎÈ@_;
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform appliedTransform; // @synthesize appliedTransform=_appliedTransform;
-@property(nonatomic) struct CGPoint center; // @dynamic center;
-@property(nonatomic) _Bool constrainSize; // @synthesize constrainSize=_constrainSize;
-@property(nonatomic) _Bool flipped; // @synthesize flipped=_flipped;
-@property(retain, nonatomic) _DUIImageComponent *imageComponent; // @synthesize imageComponent=_imageComponent;
 @property(nonatomic) unsigned long long itemIndex; // @synthesize itemIndex=_itemIndex;
-@property(nonatomic) _Bool precisionMode; // @synthesize precisionMode=_precisionMode;
-@property(copy, nonatomic) _DUIPreview *preview; // @synthesize preview=_preview;
-@property(nonatomic) double rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) struct CGVector targetVelocity;
-@property(nonatomic) CDUnion_c6a188fc targetVelocity3D; // @synthesize targetVelocity3D=_targetVelocity3D;
-@property(nonatomic) struct CGVector velocity;
-@property(nonatomic) CDUnion_c6a188fc velocity3D; // @synthesize velocity3D=_velocity3D;
 
 @end
 

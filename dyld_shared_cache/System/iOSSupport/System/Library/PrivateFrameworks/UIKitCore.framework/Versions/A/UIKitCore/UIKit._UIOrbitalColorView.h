@@ -11,10 +11,10 @@
     id palette;
 }
 
-+ (Class);
-- (void);
-- (id);
-- (id)UIDatePickerMode_Time;
++ (Class)__MPModelPropertyAlbumLastDevicePlaybackDate__MAPPING_MISSING__;
+- (void)From Push Handler;
+- (id)!;
+- (id)_UIDatePickerMode_Time;
 - (void)p	m;
 
 @end

@@ -8,10 +8,11 @@
 @protocol MTLDevice;
 
 @protocol MTLCommandQueue
-- (void)olWithIdentifier:(NSString *)arg1;
+- (void);
+- (id <MTLDevice>)x;
+- (void)defaultLocalizedNameForInkingToolWithIdentifier:(NSString *)arg1;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(copy) NSString *label;
 @end
 

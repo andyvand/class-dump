@@ -11,26 +11,25 @@
 @interface PHGraphQuery : PHQuery
 {
     PHObject *_graphSubject;
-    long long _graphQueryType;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)JA;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)M;
 - (id);
 - (id);
 - (_Bool);
@@ -40,11 +39,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)presentationMode;
 - (void)tchingType;
 
 // Remaining properties
-@property long long graphQueryType; // @synthesize graphQueryType=_graphQueryType;
 @property(retain) PHObject *graphSubject; // @synthesize graphSubject=_graphSubject;
 
 @end

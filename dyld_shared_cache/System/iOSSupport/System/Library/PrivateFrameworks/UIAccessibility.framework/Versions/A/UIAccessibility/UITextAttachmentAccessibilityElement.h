@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAdaptiveImageGlyph, NSTextAttachment;
+@class NSTextAttachment;
 
 @interface UITextAttachmentAccessibilityElement
 {
     NSTextAttachment *_attachment;
-    NSAdaptiveImageGlyph *_glyph;
 }
 
-- (void);
+- (void)2;
 - (id);
 - (id);
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSTextAttachment *attachment; // @synthesize attachment=_attachment;
-@property(retain, nonatomic) NSAdaptiveImageGlyph *glyph; // @synthesize glyph=_glyph;
 
 @end
 

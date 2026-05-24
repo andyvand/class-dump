@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceCuratedCollectionTicket
+- (void);
+- (void)8;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

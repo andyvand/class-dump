@@ -6,20 +6,16 @@
 
 #import <UIKitCore/_UIFeedback.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UITransientHapticFeedback : _UIFeedback
 {
     _Bool _highPriority;
-    float _intensity;
-    float _sharpness;
 }
 
-+ (id);
++ (id)k (%@:(float)arg1 merged-duplicate-chats) to YES;
 + (id)@"UIScenePresentationManager"16@"_UIScenePresenter"24;
 + (_Bool)@, targetRect:%@, canOverlapSourceViewRect:%@, preferLandscapeOrientations:%@     OUTPUTS:frame:%@, offset:%f, arrowDirection:%@, candidates:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (unsigned long long)tion token for handleID %@;
 - (_Bool);
 - (id);
 - (float)0@ù
@@ -27,23 +23,13 @@ __attribute__((visibility("hidden")))
 - (_Bool)ù
 × ;
 - (_Bool)dd}16@64;
-- (id)anHaveTitle;
+- (id)_canHaveTitle;
 - (id)ration",R,C,N,V_configuration;
-- (float);
+- (float)xt;
 - (id)¸÷íÿ¼xþÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canReuseCoreHapticsPlayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isHighPriority) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly, nonatomic) float intensity; // @synthesize intensity=_intensity;
-@property(readonly, nonatomic) float sharpness; // @synthesize sharpness=_sharpness;
-@property(readonly) Class superclass;
 
 @end
 

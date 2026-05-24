@@ -9,14 +9,6 @@
 @interface CACertInfo
 {
     NSString *_caCertAuthorityName;
-    NSString *_caCommonName;
-    NSString *_caOrganization;
-    NSString *_caOrganizationUnit;
-    NSString *_caLocality;
-    NSString *_caState;
-    NSString *_caCountry;
-    NSString *_caEmailAddressOfRequestor;
-    NSString *_caEmailAddressOfCA;
 }
 
 - (id);
@@ -24,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void)rH ;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -36,7 +28,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

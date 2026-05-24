@@ -6,7 +6,7 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AAPaymentSummaryResponse : AAResponse
 {
@@ -16,10 +16,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)Server;
+- (void)remoteServer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *description;
 @property(readonly, nonatomic) unsigned long long numberOfCards;
 
 @end

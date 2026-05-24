@@ -4,118 +4,82 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXGestureRecorderFingerPathCollection, AXGestureRecorderStyleProvider, AXGestureRecorderView, NSMutableArray, NSMutableDictionary, NSString;
-@protocol AXGestureRecorderViewControllerDelegate;
+@class AXGestureRecorderFingerPathCollection;
 
 @interface AXGestureRecorderViewController
 {
     _Bool _shouldPreventFurtherRecording;
-    _Bool _trackingTouches;
-    _Bool _inReplayMode;
-    AXGestureRecorderStyleProvider *_styleProvider;
-    id <AXGestureRecorderViewControllerDelegate> _delegate;
-    AXGestureRecorderFingerPathCollection *_fingerPathCollection;
-    AXGestureRecorderFingerPathCollection *_dynamicFingerPathCollection;
-    double _trackingTouchesDidStartTimeInterval;
-    unsigned long long _replayTimestampIndex;
-    unsigned long long _replayTimestampsCount;
-    NSMutableArray *_replayDynamicFingerPaths;
-    long long _recorderType;
-    NSMutableDictionary *_instantReplayTimestampIndexes;
-    NSMutableDictionary *_instantReplayPartialFingerPaths;
 }
 
-- (double);
-- (_Bool);
+- (double)g|;
+- (_Bool)|;
 - (void);
 - (void);
 - (void);
+- (void)|;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)|;
+- (unsigned long long)h|;
 - (void);
 - (id);
-- (void);
+- (void)_|;
 - (long long);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)|;
 - (void);
+- (id)_|;
+- (id)h|;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)~z;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)hh|;
+- (void)h|;
+- (void);
+- (void)dh|;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)|;
+- (id);
+- (void)h|;
+- (void);
+- (void)h|;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)H ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXGestureRecorderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AXGestureRecorderFingerPathCollection *dynamicFingerPathCollection; // @synthesize dynamicFingerPathCollection=_dynamicFingerPathCollection;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
 @property(retain, nonatomic) AXGestureRecorderFingerPathCollection *fingerPathCollection; // @synthesize fingerPathCollection=_fingerPathCollection;
-@property(readonly, nonatomic) AXGestureRecorderView *gestureRecorderView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInReplayMode) _Bool inReplayMode; // @synthesize inReplayMode=_inReplayMode;
-@property(retain, nonatomic) NSMutableDictionary *instantReplayPartialFingerPaths; // @synthesize instantReplayPartialFingerPaths=_instantReplayPartialFingerPaths;
-@property(retain, nonatomic) NSMutableDictionary *instantReplayTimestampIndexes; // @synthesize instantReplayTimestampIndexes=_instantReplayTimestampIndexes;
-@property(nonatomic) long long recorderType; // @synthesize recorderType=_recorderType;
-@property(retain, nonatomic) NSMutableArray *replayDynamicFingerPaths; // @synthesize replayDynamicFingerPaths=_replayDynamicFingerPaths;
-@property(nonatomic) unsigned long long replayTimestampIndex; // @synthesize replayTimestampIndex=_replayTimestampIndex;
-@property(nonatomic) unsigned long long replayTimestampsCount; // @synthesize replayTimestampsCount=_replayTimestampsCount;
-@property(nonatomic) _Bool shouldPreventFurtherRecording; // @synthesize shouldPreventFurtherRecording=_shouldPreventFurtherRecording;
-@property(retain, nonatomic) AXGestureRecorderStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTrackingTouches) _Bool trackingTouches; // @synthesize trackingTouches=_trackingTouches;
-@property(nonatomic) double trackingTouchesDidStartTimeInterval; // @synthesize trackingTouchesDidStartTimeInterval=_trackingTouchesDidStartTimeInterval;
 
 @end
 

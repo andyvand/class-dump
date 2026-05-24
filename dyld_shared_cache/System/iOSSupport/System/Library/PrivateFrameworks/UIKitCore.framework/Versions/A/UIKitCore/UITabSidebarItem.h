@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIAction, UIBackgroundConfiguration, UICellConfigurationState, UIListContentConfiguration, UITab;
-@protocol UIContentConfiguration;
+@class UIListContentConfiguration, UITab;
 
 @interface UITabSidebarItem
 {
     UIListContentConfiguration *_defaultContentConfiguration;
-    UIBackgroundConfiguration *_defaultBackgroundConfiguration;
-    unsigned long long _attributes;
-    id <UIContentConfiguration> _contentConfiguration;
-    UIBackgroundConfiguration *_backgroundConfiguration;
-    NSArray *_accessories;
-    UITab *_tab;
-    UIAction *_action;
-    UICellConfigurationState *_configurationState;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)itions check if CloudKit sync is enabled:%d /* Error: Ran out of types for this method. */;
+- (id)ient %d connection invalidated;
+- (id)last read message time date (%@) guid (%@) timestamp:(%@) Messages time date (%@) timestamp:(%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
+- (id)data (auxAssetPath %@);
+- (id)Resetting subCategory to None;
+- (id)essage is in a instant message chat, no need to validate.;
+- (_Bool)nabled state.  Error:%@ /* Error: Ran out of types for this method. */;
+- (void)IMDScreenTimeAskReponseHandler;
 - (void);
-- (void);
-- (void);
+- (void)SimulatedMessageBatch;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,26 +33,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (_Bool)ed:(id)arg1;
+- (_Bool)removeSegment:(id)arg1 animated: /* Error: Ran out of types for this method. */;
 - (id)isAccessibilityElementByDefault;
 - (id)u;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UITab *_tab;
-@property(copy, nonatomic) NSArray *accessories; // @synthesize accessories=_accessories;
-@property(readonly, nonatomic) UIAction *action; // @synthesize action=_action;
-@property(copy, nonatomic) UIBackgroundConfiguration *backgroundConfiguration; // @synthesize backgroundConfiguration=_backgroundConfiguration;
-@property(readonly, nonatomic) UICellConfigurationState *configurationState; // @synthesize configurationState=_configurationState;
-@property(copy, nonatomic) id <UIContentConfiguration> contentConfiguration; // @synthesize contentConfiguration=_contentConfiguration;
-@property(readonly, nonatomic) UITab *tab; // @synthesize tab=_tab;
 
 @end
 

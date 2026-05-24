@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICQueryObjC, NSPredicate, NSString;
+@class ICQueryObjC;
 
 @interface ICQuery
 {
@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)rayRef DSLDAPQueryCopyResults(DSLDAPQueryRef, CFErrorRef *);
 - (id);
 - (id);
 - (id);
@@ -29,10 +29,6 @@
 - (id)ngth is %zu, but should remain %ld;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeEdited;
-@property(readonly, copy, nonatomic) NSString *entityName;
-@property(readonly, nonatomic) long long minimumSupportedVersion;
-@property(readonly, copy, nonatomic) NSPredicate *predicate;
 @property(readonly) ICQueryObjC *queryObjC;
 
 @end

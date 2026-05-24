@@ -5,5 +5,6 @@
 //
 
 @protocol SPCompletionListRemoteViewControllerProtocol
+- (void));
 @end
 

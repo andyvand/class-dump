@@ -6,19 +6,11 @@
 
 #import <GeoServices/GEOComposedWalkingRouteStep.h>
 
-@class GEOTransitStep, NSArray;
-@protocol GEOTransitArtworkDataSource;
+@class GEOTransitStep;
 
 @interface GEOComposedTransitWalkingRouteStep : GEOComposedWalkingRouteStep
 {
     GEOTransitStep *_transitStep;
-    CDStruct_2c43369c _startCoordinate;
-    CDStruct_2c43369c _endCoordinate;
-    NSArray *_steppingArtwork;
-    NSArray *_routeDetailsPrimaryArtwork;
-    id <GEOTransitArtworkDataSource> _routeDetailsSecondaryArtwork;
-    NSArray *_advisories;
-    NSArray *_transitIncidents;
 }
 
 + (_Bool){public}@;
@@ -26,20 +18,20 @@
 - (CDStruct_39925896);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (CDStruct_39925896);
+- (id)@0:8@"NSURLSession"16@"NSURLSessionTask"24q32@?<v@?@"NSInputStream">40 /* Error: Ran out of types for this method. */;
+- (_Bool)signatureWithDomain:type:subType:detectedProcess:triggerThresholdValues: /* Error: Ran out of types for this method. */;
+- (_Bool)setMostRecentEvent: /* Error: Ran out of types for this method. */;
+- (id)setCurrentProcessHasValue:forEntitlement: /* Error: Ran out of types for this method. */;
+- (id)filteredOpenInOriginatingAccounts:(id)arg1 targetAppBundleID:(id)arg2 targetAccountManagement:(id)arg3;
+- (id)filter;
+- (CDStruct_39925896)will create a new one;
 - (id);
 - (void);
 - (id);
+- (id)_bindBuffer:toNetworkBlobName:bindMode:bindPtr:forModel:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)supportsDarkWakeFor: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void)f5;

@@ -7,7 +7,6 @@
 @interface SiriInference.SiriInferenceSuggestionsBridgeProvider
 {
     id $defaultActor;
-    id bridge;
 }
 
 @end

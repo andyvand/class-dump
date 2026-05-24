@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface WBSPasswordManagerWebsiteMetadataEntry
 {
     _Bool _supportsPasskeys;
-    NSDictionary *_originalBackingDictionary;
-    NSString *_websiteName;
-    NSDate *_websiteNameDateLastModified;
-    NSDate *_websiteNameDateLastRefreshed;
-    NSURL *_enrollPasskeyURL;
-    NSURL *_managePasskeyURL;
-    NSDate *_passkeyEndpointsDateLastRefreshed;
 }
 
 + (id);
@@ -36,21 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)IsVerified;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSURL *enrollPasskeyURL; // @synthesize enrollPasskeyURL=_enrollPasskeyURL;
-@property(readonly, nonatomic) NSString *keychainItemDescription;
-@property(retain, nonatomic) NSURL *managePasskeyURL; // @synthesize managePasskeyURL=_managePasskeyURL;
-@property(readonly, nonatomic) NSDictionary *originalBackingDictionary; // @synthesize originalBackingDictionary=_originalBackingDictionary;
-@property(retain, nonatomic) NSDate *passkeyEndpointsDateLastRefreshed; // @synthesize passkeyEndpointsDateLastRefreshed=_passkeyEndpointsDateLastRefreshed;
-@property(nonatomic) _Bool supportsPasskeys; // @synthesize supportsPasskeys=_supportsPasskeys;
 @property(readonly, copy, nonatomic) NSString *websiteName; // @synthesize websiteName=_websiteName;
-@property(readonly, nonatomic) NSDate *websiteNameDateLastModified; // @synthesize websiteNameDateLastModified=_websiteNameDateLastModified;
-@property(readonly, nonatomic) NSDate *websiteNameDateLastRefreshed; // @synthesize websiteNameDateLastRefreshed=_websiteNameDateLastRefreshed;
 
 @end
 

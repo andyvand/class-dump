@@ -6,17 +6,9 @@
 
 #import <AOSUI/AOSUIAccountContactBaseViewModel.h>
 
-@class AACustodianshipInfo, NSString;
-
 @interface AOSUIAccountContactInvitationViewModel : AOSUIAccountContactBaseViewModel
 {
     _Bool _shouldShowHelpLinkAsTemplateButton;
-    NSString *_title;
-    NSString *_detailText;
-    NSString *_recipientHandle;
-    NSString *_ownerHandle;
-    AACustodianshipInfo *_custodianshipInfo;
-    long long _templateContentViewLayout;
 }
 
 - (long long);

@@ -9,26 +9,24 @@
 @interface CTLazuliSecureGroupVersion
 {
     NSNumber *_era;
-    NSNumber *_epoch;
 }
 
-+ (_Bool);
++ (_Bool)rate:%ld> /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)ؗ!;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_serializedInvalidateWithMessage:(id)arg1;
 - (id);
 - (id);
 - (void)&°!\Bùª)1Â0@ù
 × ;
-- (void)st:(id)arg1;
+- (void)setItemList:(id)arg1;
 - (id)Notifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *epoch; // @synthesize epoch=_epoch;
 @property(copy, nonatomic) NSNumber *era; // @synthesize era=_era;
 
 @end

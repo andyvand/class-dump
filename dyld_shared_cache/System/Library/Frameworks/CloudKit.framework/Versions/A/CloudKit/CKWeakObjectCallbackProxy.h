@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Protocol;
-
 @interface CKWeakObjectCallbackProxy
 {
     _Bool _hadObject;
-    id _weakObject;
-    Protocol *_callbackProtocol;
 }
 
 - (void);
@@ -24,8 +20,6 @@
 - (id)°v;
 
 // Remaining properties
-@property(readonly, nonatomic) Protocol *callbackProtocol; // @synthesize callbackProtocol=_callbackProtocol;
-@property(readonly, nonatomic) _Bool hadObject; // @synthesize hadObject=_hadObject;
 @property(nonatomic) __weak id weakObject; // @synthesize weakObject=_weakObject;
 
 @end

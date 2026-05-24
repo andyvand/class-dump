@@ -7,6 +7,7 @@
 @protocol CBPeripheralManagerDelegate
 
 @optional
+- (void);
 - (void)1Â0@ù
 × ;
 @end

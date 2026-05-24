@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-@protocol NFConnectionHandoverTransportServiceValue;
+@class NSString;
 
 @interface NFConnectionHandoverRequest
 {
     NSString *_version;
-    NSString *_applicationLabel;
-    id <NFConnectionHandoverTransportServiceValue> _userInfo;
-    NSArray *_transportServiceList;
-    NSNumber *_retryRandom;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
+- (id)ROGRAM:AddressBook  PROJECT:AddressBook-2732.600.11
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *applicationLabel; // @synthesize applicationLabel=_applicationLabel;
-@property(retain, nonatomic) NSNumber *retryRandom; // @synthesize retryRandom=_retryRandom;
-@property(retain, nonatomic) NSArray *transportServiceList; // @synthesize transportServiceList=_transportServiceList;
-@property(retain, nonatomic) id <NFConnectionHandoverTransportServiceValue> userInfo; // @synthesize userInfo=_userInfo;
 @property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

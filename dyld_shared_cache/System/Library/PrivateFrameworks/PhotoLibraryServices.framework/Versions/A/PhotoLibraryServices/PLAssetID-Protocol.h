@@ -5,8 +5,11 @@
 //
 
 @protocol PLAssetID
+- (id)'HJ
+;
+- (id)A;
 - (id)1Â0@ù
 × ;
-- (id)Asset:withImageFileURL: /* Error: Ran out of types for this method. */;
+- (id)_updateAsset:withImageFileURL: /* Error: Ran out of types for this method. */;
 @end
 

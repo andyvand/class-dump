@@ -6,28 +6,27 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CLSMultipleChoiceAnswerItem : CLSObject
 {
     NSString *_itemText;
-    long long _displayOrder;
-    NSArray *assets;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_dataclassIsDisabledForProperties: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)P p ,&L&','@*l*;
+- (void):(id)arg1 pANEServicesDevice is NULL
+;
+- (id)(ms):%.3f /* Error: Ran out of types for this method. */;
+- (_Bool)IdentString;
+- (void)dma_src1_read_conflict_cycle;
 - (long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -36,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayOrder;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *itemText;
-@property(readonly) Class superclass;
 
 @end
 

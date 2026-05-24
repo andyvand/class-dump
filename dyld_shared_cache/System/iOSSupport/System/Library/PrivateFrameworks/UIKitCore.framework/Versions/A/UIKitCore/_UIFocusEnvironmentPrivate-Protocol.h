@@ -5,25 +5,20 @@
 //
 
 @class NSArray;
+@protocol UIFocusEnvironment;
 
 @protocol _UIFocusEnvironmentPrivate
+
+@optional
+- (long long)existingChatsWithPinningIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)_updateUndeliveredMessagesPendingSatelliteSendForChatWithIdentifier:account: /* Error: Ran out of types for this method. */;
+- (NSArray *)_copyMessageDictionaryForLogging;
+- (id <UIFocusEnvironment>);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isEligibleForFocusInteraction) _Bool eligibleForFocusInteraction;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N,G_isEligibleForFocusInteraction
-
-@property(readonly, nonatomic, getter=_isEligibleForFocusOcclusion) _Bool eligibleForFocusOcclusion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_isEligibleForFocusOcclusion
-
-@property(readonly, copy, nonatomic, getter=_linearFocusMovementSequences) NSArray *linearFocusMovementSequences;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N,G_linearFocusMovementSequences
-
-@property(readonly, nonatomic, getter=_preferredFocusMovementStyle) long long preferredFocusMovementStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N,G_preferredFocusMovementStyle
 
 @end
 

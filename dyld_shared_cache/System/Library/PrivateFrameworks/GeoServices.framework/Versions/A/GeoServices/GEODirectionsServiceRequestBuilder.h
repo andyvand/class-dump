@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsServiceRequestParameters, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface GEODirectionsServiceRequestBuilder
 {
     unsigned long long _type;
-    GEODirectionsServiceRequestParameters *_parameters;
-    NSArray *_waypoints;
 }
 
 + (id);
@@ -22,15 +18,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)efaults",R,V_userDefaults;
 - (int);
-- (id);
-- (id);
-- (id);
+- (id)Library;
+- (id)maplsdatabase;
+- (id)rivate.coreservices.canmaplsdatabase;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (void);
 - (id);

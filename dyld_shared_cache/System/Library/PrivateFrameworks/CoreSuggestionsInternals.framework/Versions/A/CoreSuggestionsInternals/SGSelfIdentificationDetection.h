@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGExtractionInfo;
+@class NSString;
 
 @interface SGSelfIdentificationDetection
 {
     NSString *_name;
-    NSString *_context;
-    SGExtractionInfo *_extractionInfo;
-    struct _NSRange _contextRange;
 }
 
 - (void);
@@ -22,12 +19,9 @@
 - (id);
 - (void);
 - (void);
-- (void)erstandingImporter12EntityBuffer;
+- (void)_TtCC24CoreSuggestionsInternals25TextUnderstandingImporter12EntityBuffer;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *context; // @synthesize context=_context;
-@property(nonatomic) struct _NSRange contextRange; // @synthesize contextRange=_contextRange;
-@property(retain, nonatomic) SGExtractionInfo *extractionInfo; // @synthesize extractionInfo=_extractionInfo;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

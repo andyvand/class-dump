@@ -6,7 +6,7 @@
 
 #import <MapKit/MKTableViewCell.h>
 
-@class MKViewWithHairline, NSColor;
+@class MKViewWithHairline;
 
 @interface MKCustomSeparatorCell : MKTableViewCell
 {
@@ -18,23 +18,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (double);
 - (double);
 - (double);
 - (_Bool);
 - (id);
-- (void)ilterExcludingAll;
+- (void)filterExcludingAll;
 - (id),C,N,V_rowViews;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double leadingSeparatorInset;
-@property(nonatomic) double leftSeparatorInset;
-@property(nonatomic) double rightSeparatorInset;
-@property(retain, nonatomic) NSColor *separatorColor;
 @property(nonatomic, getter=isSeparatorHidden) _Bool separatorHidden;
-@property(nonatomic) double trailingSeparatorInset;
 
 @end
 

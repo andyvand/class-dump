@@ -15,16 +15,15 @@
 + (id);
 + (id);
 - (id);
+- (void);
+- (id);
+- (id)h;
+- (id)L %@;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *adamId;
-@property(copy, nonatomic) NSString *affiliateId;
 
 @end
 

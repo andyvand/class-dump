@@ -11,7 +11,7 @@
     double _value;
 }
 
-- (id);
+- (id)_value;
 - (id);
 - (_Bool);
 - (double);

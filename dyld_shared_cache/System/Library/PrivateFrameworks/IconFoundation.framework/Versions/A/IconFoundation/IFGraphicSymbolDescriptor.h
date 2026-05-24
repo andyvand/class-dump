@@ -6,48 +6,20 @@
 
 #import <IconFoundation/IFSymbolImageDescriptor.h>
 
-@class CUIEncapsulationShape, IFColor, IFGraphicSymbolOverride, NSArray, NSString;
-
 @interface IFGraphicSymbolDescriptor : IFSymbolImageDescriptor
 {
     _Bool _flipXOffsetOverride;
-    NSString *_resolvedName;
-    long long _shape;
-    NSArray *_enclosureColors;
-    NSArray *_symbolColors;
-    long long _renderingMode;
-    long long _fill;
-    long long _resolvedShape;
-    CUIEncapsulationShape *_encapsulationShape;
-    long long _resolvedSymbolEffect;
-    long long _resolvedEnclosureEffect;
-    long long _resolvedFill;
-    NSArray *__processedSymbolColors;
-    NSArray *__processedEnclosureColors;
-    NSArray *_resolvedSymbolColors;
-    NSArray *_resolvedEnclosureColors;
-    double _resolvedBorderWidth;
-    IFColor *_resolvedBorderColor;
-    IFGraphicSymbolOverride *_symbolOverride;
-    NSString *_name;
-    long long _appearance;
-    long long _contrast;
-    long long _vibrancy;
-    long long _symbolEffect;
-    long long _enclosureEffect;
-    long long _appearanceVariant;
-    unsigned long long _platform;
-    struct CGSize _size;
-    struct CGSize _symbolOffset;
 }
 
-- (id);
+- (id)1�1�;
 - (struct CGSize);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)~1E;
+- (void)F;
 - (void);
 - (void);
 - (void);
@@ -58,43 +30,41 @@
 - (void);
 - (void);
 - (void);
+- (void)F;
 - (void);
+- (void)D;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long)4F1:D'E /* Error: Ran out of types for this method. */;
+- (id)-(;
+- (long long)14AB*;
 - (long long);
 - (id);
 - (long long);
-- (long long);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (double);
+- (long long)F/13D7'F;
+- (id)�E4F13�F/1;
+- (double)F13H'*;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)2H1H;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)�E1H1;
+- (id)1E;
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)2;
 - (long long);
 - (id);
-- (void);
+- (void)(;
 - (long long);
 - (long long);
-- (void);
-- (long long);
-- (id);
+- (void)5s;
+- (long long)sions/A/Resources/libRadiance.dylib;
+- (id){;
 - (long long);
 - (unsigned long long);
 - (id);
@@ -104,7 +74,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)auroraFactor;
 - (unsigned long long);
 - (id);
 - (long long);
@@ -115,38 +85,10 @@
 - (void);
 - (void);
 - (long long);
-- (void)sID;
+- (void)kCoreThemeGroupedImagesID;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *_processedEnclosureColors; // @synthesize _processedEnclosureColors=__processedEnclosureColors;
-@property(copy, nonatomic) NSArray *_processedSymbolColors; // @synthesize _processedSymbolColors=__processedSymbolColors;
-@property(nonatomic) long long appearance; // @synthesize appearance=_appearance;
-@property(nonatomic) long long appearanceVariant; // @synthesize appearanceVariant=_appearanceVariant;
-@property(nonatomic) long long contrast; // @synthesize contrast=_contrast;
-@property(nonatomic) CUIEncapsulationShape *encapsulationShape; // @synthesize encapsulationShape=_encapsulationShape;
-@property(copy, nonatomic) NSArray *enclosureColors; // @synthesize enclosureColors=_enclosureColors;
-@property(nonatomic) long long enclosureEffect; // @synthesize enclosureEffect=_enclosureEffect;
 @property(nonatomic) long long fill; // @synthesize fill=_fill;
-@property(nonatomic) _Bool flipXOffsetOverride; // @synthesize flipXOffsetOverride=_flipXOffsetOverride;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(nonatomic) long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(retain, nonatomic) IFColor *resolvedBorderColor; // @synthesize resolvedBorderColor=_resolvedBorderColor;
-@property(nonatomic) double resolvedBorderWidth; // @synthesize resolvedBorderWidth=_resolvedBorderWidth;
-@property(copy, nonatomic) NSArray *resolvedEnclosureColors; // @synthesize resolvedEnclosureColors=_resolvedEnclosureColors;
-@property(nonatomic) long long resolvedEnclosureEffect; // @synthesize resolvedEnclosureEffect=_resolvedEnclosureEffect;
-@property(nonatomic) long long resolvedFill; // @synthesize resolvedFill=_resolvedFill;
-@property(retain, nonatomic) NSString *resolvedName; // @synthesize resolvedName=_resolvedName;
-@property(nonatomic) long long resolvedShape; // @synthesize resolvedShape=_resolvedShape;
-@property(copy, nonatomic) NSArray *resolvedSymbolColors; // @synthesize resolvedSymbolColors=_resolvedSymbolColors;
-@property(nonatomic) long long resolvedSymbolEffect; // @synthesize resolvedSymbolEffect=_resolvedSymbolEffect;
-@property(nonatomic) long long shape; // @synthesize shape=_shape;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(copy, nonatomic) NSArray *symbolColors; // @synthesize symbolColors=_symbolColors;
-@property(nonatomic) long long symbolEffect; // @synthesize symbolEffect=_symbolEffect;
-@property(nonatomic) struct CGSize symbolOffset; // @synthesize symbolOffset=_symbolOffset;
-@property(retain) IFGraphicSymbolOverride *symbolOverride; // @synthesize symbolOverride=_symbolOverride;
-@property(nonatomic) long long vibrancy; // @synthesize vibrancy=_vibrancy;
 
 @end
 

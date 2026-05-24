@@ -7,12 +7,10 @@
 @interface SwiftUI.AppKitToolbarItemGroup
 {
     id isVisibleObservation;
-    id toolbarObservation;
-    id groupItem;
 }
 
 - (id);
-- (void)y;
+- (void)FormContentSizeFittingBehaviorKey;
 
 @end
 

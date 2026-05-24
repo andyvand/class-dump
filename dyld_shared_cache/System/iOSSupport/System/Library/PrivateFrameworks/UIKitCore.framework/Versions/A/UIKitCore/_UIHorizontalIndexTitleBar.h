@@ -6,44 +6,34 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSIndexPath, NSString, UICollectionView, UICollectionViewCompositionalLayout, UIFocusGuide, _UIFocusFastScrollingIndexBarEntry, _UIHorizontalIndexTitleBarCell;
-@protocol _UIHorizontalIndexTitleBarDelegate;
+@class NSArray, UICollectionView;
 
 @interface _UIHorizontalIndexTitleBar : UIView
 {
     NSArray *_entries;
-    UICollectionView *_collectionView;
-    UICollectionViewCompositionalLayout *_layout;
-    UIFocusGuide *_horizontalIndexTitleBarFocusGuide;
-    _UIFocusFastScrollingIndexBarEntry *_selectedEntry;
-    NSIndexPath *_selectedEntryIndexPath;
-    _UIHorizontalIndexTitleBarCell *_focusedCell;
-    id <_UIHorizontalIndexTitleBarDelegate> _delegate;
-    struct UIEdgeInsets _sectionInset;
-    struct UIEdgeInsets _parentContentInset;
 }
 
 - (void);
 - (void);
 - (void);
+- (id)tableDictionary"8;
+- (id)findChat;
+- (id)dateBySettingHour:minute:second:ofDate:options: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)4|;
+- (void);
+- (struct UIEdgeInsets)ata %@ fromID %@ context %@;
+- (_Bool)ask need to be started;
+- (void)ding CK update T3 with limit %ld, attemptCount %lu;
+- (id)asn't one of the guids we requested. IMItem we got back was:%@, IMDMessageRecordRef guid we got was:%@, requested guids was:%@ /* Error: Ran out of types for this method. */;
+- (id)r:%@ /* Error: Ran out of types for this method. */;
+- (struct NSDirectionalEdgeInsets)Could not find an expected event class for type:%@ /* Error: Ran out of types for this method. */;
+- (void)pperation;
+- (void)DaemonCoreBridgeDelegate;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (struct NSDirectionalEdgeInsets);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)C;
 - (struct UIEdgeInsets);
 - (id);
 - (void);
@@ -51,13 +41,13 @@
 - (void)!äGùqd°1Â0@ù
 × ;
 - (id);
-- (void)onName;
-- (id)yle;
+- (void)_textAnimationName;
+- (id)_lineCapStyle;
 - (long long)GestureRecognizer;
 - (long long)¨;
 - (id)àñ;
 - (id)edgeFlickBoostThreshold;
-- (void);
+- (void)intermediateVelocity;
 - (void)iOSMacSupport) _initiateIOSMacConnections]_block_invoke_10;
 - (void)}.*;
 - (void)uides.fullBottom;
@@ -68,22 +58,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIHorizontalIndexTitleBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(nonatomic) __weak _UIHorizontalIndexTitleBarCell *focusedCell; // @synthesize focusedCell=_focusedCell;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIFocusGuide *horizontalIndexTitleBarFocusGuide; // @synthesize horizontalIndexTitleBarFocusGuide=_horizontalIndexTitleBarFocusGuide;
-@property(retain, nonatomic) UICollectionViewCompositionalLayout *layout; // @synthesize layout=_layout;
-@property(nonatomic, getter=_parentContentInset, setter=_setParentContentInset:) struct UIEdgeInsets parentContentInset; // @synthesize parentContentInset=_parentContentInset;
-@property(nonatomic) struct UIEdgeInsets sectionInset; // @synthesize sectionInset=_sectionInset;
-@property(retain, nonatomic) _UIFocusFastScrollingIndexBarEntry *selectedEntry; // @synthesize selectedEntry=_selectedEntry;
-@property(retain, nonatomic) NSIndexPath *selectedEntryIndexPath; // @synthesize selectedEntryIndexPath=_selectedEntryIndexPath;
-@property(readonly) Class superclass;
 
 @end
 

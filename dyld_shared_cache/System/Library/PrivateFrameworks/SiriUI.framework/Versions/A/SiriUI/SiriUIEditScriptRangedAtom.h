@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SiriUIEditScriptRangedAtom
 {
     NSString *_replacementText;
-    struct _NSRange _editRange;
 }
 
 + (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct _NSRange editRange; // @synthesize editRange=_editRange;
-@property(retain, nonatomic) NSString *replacementText; // @synthesize replacementText=_replacementText;
 
 @end
 

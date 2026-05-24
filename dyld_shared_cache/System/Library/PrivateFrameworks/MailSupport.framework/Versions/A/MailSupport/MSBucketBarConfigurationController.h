@@ -7,23 +7,19 @@
 @interface MSBucketBarConfigurationController
 {
     id provider;
-    id observers;
-    id observerQueue;
-    id configuration;
-    id selection;
 }
 
 - (id);
 - (_Bool);
-- (long long);
+- (long long)D@9;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)qA;
+- (void)Language value less than minimum 4 bytes.;
 
 @end
 

@@ -11,29 +11,29 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint);
+- (struct CGPoint)%;
+- (double);
+- (double);
+- (struct CGPoint)lities query request. Relaying updated sms filter settings;
+- (id)ed fromID:%@,  /* Error: Ran out of types for this method. */;
+- (struct CGPoint)a 3rd party app;
+- (struct UIEdgeInsets)Missing Latest Identifier For Domain;
+- (struct UIEdgeInsets)ChatLookupAlert;
+- (double)er;
+- (struct CGPoint)PriorityClassification;
+- (double)repairHistory %@ pendingIncomingSatelliteMessageCount:(unsigned long long)arg1 %d];
+- (struct CGPoint)KSate:(unsigned long long)arg1 %@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (double)ID:(unsigned long long)arg1 %@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)IDSCommandIDStickerRepositionMessage;
+- (struct CGPoint)RecordKeyManateeZone;
+- (double)attachmentManateeZone;
+- (struct CGSize)PCSBackupDisabledSuccessfulKeyroll;
+- (double);
+- (double);
 - (double);
 - (double);
 - (struct CGPoint);
-- (id);
-- (struct CGPoint);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (struct CGPoint);
-- (double);
-- (struct CGSize);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct CGPoint);
-- (double)tString;
+- (double)lastInputString;
 - (struct CGPoint)NäO¨P¨QÔRS;
 
 @end

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineLMPScoreBoardInstance
 {
     int _corrects;
-    int _incorrects;
-    int _invalids;
-    NSString *_keyword;
-    int _unknowns;
-    struct {
-        unsigned int corrects:1;
-        unsigned int incorrects:1;
-        unsigned int invalids:1;
-        unsigned int unknowns:1;
-    } _has;
 }
 
 @end

@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSClueCollection, CLSInspector, CLSInvestigationFeeder, CLSInvestigationHelper, NSArray, NSMutableArray, NSMutableDictionary, NSString;
-@protocol CLSInvestigationDelegate, CLSInvestigationInterviewDelegate;
+@class CLSInvestigationFeeder, NSString;
 
 @interface CLSInvestigation
 {
     NSString *_uuid;
-    id _context;
-    CLSInvestigationFeeder *_feeder;
-    id <CLSInvestigationDelegate> _delegate;
-    id <CLSInvestigationInterviewDelegate> _interviewDelegate;
-    NSMutableArray *_profiles;
-    CLSInspector *_inspector;
-    CLSClueCollection *_clueCollection;
-    unsigned long long _precision;
-    NSArray *_informants;
-    NSMutableDictionary *_tracesLogsByURIs;
-    NSMutableArray *_tracesLogsURIs;
-    _Bool _enableDebuggingClues;
-    struct {
-        unsigned int delegateWillBegin:1;
-        unsigned int delegateDidEnd:1;
-        unsigned int delegateNumberOfItems:1;
-        unsigned int delegateSampleOfItems:1;
-    } _investigationFlags;
-    CLSInvestigationHelper *_helper;
 }
 
 + (id);
@@ -38,8 +18,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)R;
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -47,7 +27,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)vP22FI_TCollectionViewItemRbEEE;
 - (id);
 - (id);
 - (id);
@@ -57,23 +37,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, retain) CLSClueCollection *clueCollection; // @synthesize clueCollection=_clueCollection;
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(nonatomic) __weak id <CLSInvestigationDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool enableDebuggingClues; // @synthesize enableDebuggingClues=_enableDebuggingClues;
 @property(readonly, retain, nonatomic) CLSInvestigationFeeder *feeder; // @synthesize feeder=_feeder;
-@property(readonly) CLSInvestigationHelper *helper; // @synthesize helper=_helper;
-@property(nonatomic) __weak id <CLSInvestigationInterviewDelegate> interviewDelegate; // @synthesize interviewDelegate=_interviewDelegate;
-@property(nonatomic) unsigned long long precision; // @synthesize precision=_precision;
-@property(readonly, retain, nonatomic) NSArray *profiles; // @synthesize profiles=_profiles;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

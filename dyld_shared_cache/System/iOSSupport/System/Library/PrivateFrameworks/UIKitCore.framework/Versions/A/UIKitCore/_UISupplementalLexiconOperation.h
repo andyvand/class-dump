@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISupplementalLexicon;
-
 @interface _UISupplementalLexiconOperation
 {
     unsigned long long _type;
-    _UISupplementalLexicon *_lexicon;
-    unsigned long long _lexiconIdentifier;
 }
 
 - (unsigned long long);
@@ -22,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak _UISupplementalLexicon *lexicon; // @synthesize lexicon=_lexicon;
-@property(readonly, nonatomic) unsigned long long lexiconIdentifier; // @synthesize lexiconIdentifier=_lexiconIdentifier;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

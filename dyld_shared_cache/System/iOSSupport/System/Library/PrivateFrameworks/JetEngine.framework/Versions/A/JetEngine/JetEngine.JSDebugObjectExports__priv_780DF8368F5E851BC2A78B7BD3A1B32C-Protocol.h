@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol JetEngine.JSDebugObjectExports__priv_780DF8368F5E851BC2A78B7BD3A1B32C
+- (NSArray *);
 @end
 

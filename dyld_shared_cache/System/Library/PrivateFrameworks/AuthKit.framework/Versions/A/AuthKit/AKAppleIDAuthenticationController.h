@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationContextManager, AKClientConnectionLifecycleManager, NSString;
-@protocol AKAppleIDAuthenticationDelegate, AKAuthenticationUIProvider;
+@class NSString;
 
 @interface AKAppleIDAuthenticationController
 {
     NSString *_serviceID;
-    AKAppleIDAuthenticationContextManager *_contextManager;
-    AKClientConnectionLifecycleManager *_connectionManager;
-    id <AKAuthenticationUIProvider> _uiProvider;
-    CDUnknownBlockType _deallocHandler;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id)out to remote SymmetricKey service to initiate register for context %@;
 - (void);
@@ -38,9 +33,9 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)R$;
 - (void);
-- (void);
-- (void);
+- (void)"",A@!;
 - (void);
 - (void);
 - (_Bool);
@@ -56,7 +51,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (void);
@@ -72,13 +67,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)-;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)-;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -93,14 +88,14 @@
 - (id);
 - (void);
 - (void);
+- (void),;
+- (id);
+- (void)bV;
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)KR;
 - (void);
 - (void)¬©Ö¬©²Ö¬©?Ö¬©ÐÖ¬©ÌÖ¬©WÖ¬©"Ö¬©¶Ö¬©ÂÖ¬©çÖ¬©/Ö¬©LÖ¬©âÖ¬©Ö¬©òÖ¬©©Ö¬©Ö¬©êÖ¬©wÖ¬©÷Ö¬©zÖ¬©cÖ¬©Ö¬©ØÖ¬©>Ö¬©:(id)arg1 Ö¬©Ö¬©tÖ¬©èÖ¬©ãÖ¬©]Ö¬©Ö¬©
 Ö¬©ùÖ¬©Ö¬©ÃÖ¬©öÖ¬©UÖ¬©íÖ¬©¼Ö¬©­Ö¬©¤Fyp98tpgj;
@@ -108,15 +103,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType deallocHandler; // @synthesize deallocHandler=_deallocHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAppleIDAuthenticationDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <AKAuthenticationUIProvider> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end
 

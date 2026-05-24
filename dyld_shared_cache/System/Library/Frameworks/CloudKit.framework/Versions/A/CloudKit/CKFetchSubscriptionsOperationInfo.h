@@ -11,21 +11,19 @@
 @interface CKFetchSubscriptionsOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _isFetchAllSubscriptionsOperation;
-    NSArray *_subscriptionIDs;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)¸i
 Äk;
 
 // Remaining properties
-@property(nonatomic) _Bool isFetchAllSubscriptionsOperation; // @synthesize isFetchAllSubscriptionsOperation=_isFetchAllSubscriptionsOperation;
 @property(retain, nonatomic) NSArray *subscriptionIDs; // @synthesize subscriptionIDs=_subscriptionIDs;
 
 @end

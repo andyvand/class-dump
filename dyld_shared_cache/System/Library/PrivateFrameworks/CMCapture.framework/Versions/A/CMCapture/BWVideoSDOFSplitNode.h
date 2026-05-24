@@ -11,21 +11,18 @@
 @interface BWVideoSDOFSplitNode : BWFanOutNode
 {
     struct opaqueCMFormatDescription *_originalVideoFormatDescription;
-    BWNodeOutput *_originalOutput;
-    BWNodeOutput *_sdofOutput;
 }
 
 + (void).m;
-- (void);
+- (void)_initWithState: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) BWNodeOutput *originalOutput; // @synthesize originalOutput=_originalOutput;
-@property(readonly, nonatomic) BWNodeOutput *sdofOutput; // @synthesize sdofOutput=_sdofOutput;
 
 @end
 

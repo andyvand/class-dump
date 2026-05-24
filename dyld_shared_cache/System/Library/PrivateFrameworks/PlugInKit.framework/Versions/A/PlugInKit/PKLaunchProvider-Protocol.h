@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_xpc_object;
+
 @protocol PKLaunchProvider
+- (NSObject<OS_xpc_object> *);
+- (int)';
 @end
 

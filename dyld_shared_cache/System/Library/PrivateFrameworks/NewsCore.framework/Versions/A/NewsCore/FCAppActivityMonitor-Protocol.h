@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol FCAppActivityObserving;
+
 @protocol FCAppActivityMonitor
+- (void)dresses:(id <FCAppActivityObserving>)arg1;
 - (void)ncryptionRequired;
 
 // Remaining properties

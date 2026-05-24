@@ -12,7 +12,7 @@
 + (id);
 + (_Bool);
 + (id)ntainer",R,N,V_container;
-+ (void)WhichSingleton;
++ (void)NSQueryTokenWhichSingleton;
 - (id);
 - (id);
 - (_Bool);

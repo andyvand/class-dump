@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CXHandle
 {
     long long _type;
-    NSString *_value;
-    NSString *_siriDisplayName;
 }
 
 + (id);
 + (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)h";
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)olStateString=%{public}@;
 - (void);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)_connectionAssertions;
+- (void)TrebleReducer;
 - (id);
 - (id);
-- (void);
+- (void)source;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *siriDisplayName; // @synthesize siriDisplayName=_siriDisplayName;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

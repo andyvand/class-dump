@@ -6,21 +6,16 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPButtonStyle, LPCaptionButtonPresentationProperties, NSButton, NSSegmentedControl;
+@class LPCaptionButtonPresentationProperties;
 
 __attribute__((visibility("hidden")))
 @interface LPCaptionBarButtonView : LPComponentView
 {
     LPCaptionButtonPresentationProperties *_properties;
-    LPButtonStyle *_style;
-    NSButton *_button;
-    NSButton *_collapsedButton;
-    NSSegmentedControl *_segmentedControl;
-    _Bool _collapsed;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)p;
 - (void);
 - (void);
 - (id);
@@ -39,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)f;
 - (struct CGSize);
 - (id);
 - (void);
@@ -47,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)ð!@ù1H1Â0@ù
 × ;
 - (void);
-- (void);
+- (void)videoMetadata;
 
 // Remaining properties
 @property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;

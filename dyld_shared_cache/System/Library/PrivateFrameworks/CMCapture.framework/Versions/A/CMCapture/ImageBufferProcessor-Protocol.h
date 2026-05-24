@@ -7,12 +7,15 @@
 @class NSDictionary;
 
 @protocol ImageBufferProcessor
-- (int)rmAverage;
+- (NSDictionary *)Library/PrivateFrameworks/ScreenTimeServiceUI.framework/ScreenTimeServiceUI;
+- (void);
+- (int);
+- (int);
+- (int)AVAudioBitRateStrategy_LongTermAverage;
 - (int)essor>"8;
 - (int)process metadata;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *cameraInfoByPortType;
 @property(retain, nonatomic) NSDictionary *tuningParameters;
 @end
 

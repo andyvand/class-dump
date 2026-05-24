@@ -11,9 +11,9 @@
     id <WFSettings> _settings;
 }
 
-+ (_Bool);
++ (_Bool)0:(id)arg1 8Q16;
 - (_Bool);
-- (id);
+- (id)ySiSgGG_AHtGG;
 - (id);
 - (void);
 

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTAnswerSynthesisRequestEnded, STSchemaSTAnswerSynthesisRequestFailed, STSchemaSTAnswerSynthesisRequestStarted;
+@class STSchemaSTAnswerSynthesisRequestStarted;
 
 @interface STSchemaSTAnswerSynthesisContext : SISchemaInstrumentationMessage
 {
     STSchemaSTAnswerSynthesisRequestStarted *_startedOrChanged;
-    STSchemaSTAnswerSynthesisRequestEnded *_ended;
-    STSchemaSTAnswerSynthesisRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -37,25 +31,18 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)OCSP_request_sign;
+- (unsigned long long)setAutoUpdateEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCollectionTTYAction;
+- (_Bool)_IMDIndexingUnfinishedJobs;
 - (id);
 - (id);
-- (id);
-- (id)orted;
-- (void)NPUT_FIELD_MIC_BUTTON;
+- (id)deleteIsRawLastNowPlaying;
+- (id)_hasOrchestratorResultsStatsReported;
+- (void)INVOCATIONSOURCE_DICTATION_INPUT_FIELD_MIC_BUTTON;
 
 // Remaining properties
-@property(retain, nonatomic) STSchemaSTAnswerSynthesisRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) STSchemaSTAnswerSynthesisRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) STSchemaSTAnswerSynthesisRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

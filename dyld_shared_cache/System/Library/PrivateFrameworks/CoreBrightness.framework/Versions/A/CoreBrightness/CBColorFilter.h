@@ -6,23 +6,19 @@
 
 #import <CoreBrightness/CBFilter.h>
 
-@class CBColorSample, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CBColorFilter : CBFilter
 {
     NSMutableArray *_services;
-    NSMutableArray *_validServices;
-    unsigned long long _sensorPolicy;
-    unsigned long long _mode;
-    CBColorSample *_sample;
 }
 
-+ (CDStruct_6f955ef8);
++ (CDStruct_39925896);
 + (double);
 + (double);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (unsigned long long);
 - (void);
@@ -93,17 +89,7 @@ __attribute__((visibility("hidden")))
 ×#>{.>ÇK7>î|?>9´H>ôýT>øSc>ü©q>;
 
 // Remaining properties
-@property(readonly) _Bool allValidALSEventsArrived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(readonly) CBColorSample *sample; // @synthesize sample=_sample;
 @property(nonatomic) unsigned long long sensorPolicy; // @synthesize sensorPolicy=_sensorPolicy;
-@property(readonly) Class superclass;
 
 @end
 

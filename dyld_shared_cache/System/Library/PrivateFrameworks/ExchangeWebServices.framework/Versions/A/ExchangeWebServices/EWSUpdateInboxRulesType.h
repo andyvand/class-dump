@@ -6,19 +6,17 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EWSUpdateInboxRulesType : EWSBaseRequestType
 {
     _Bool _RemoveOutlookRuleBlob;
-    NSString *_MailboxSmtpAddress;
-    NSArray *_Operations;
 }
 
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *MailboxSmtpAddress; // @synthesize MailboxSmtpAddress=_MailboxSmtpAddress;
-@property(retain, nonatomic) NSArray *Operations; // @synthesize Operations=_Operations;
-@property(nonatomic) _Bool RemoveOutlookRuleBlob; // @synthesize RemoveOutlookRuleBlob=_RemoveOutlookRuleBlob;
 
 @end
 

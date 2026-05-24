@@ -7,9 +7,6 @@
 @interface IMDPersistence.StorageInspectionDatabaseTable
 {
     id tableName;
-    id targetTableName;
-    id tableType;
-    id indexes;
 }
 
 @end

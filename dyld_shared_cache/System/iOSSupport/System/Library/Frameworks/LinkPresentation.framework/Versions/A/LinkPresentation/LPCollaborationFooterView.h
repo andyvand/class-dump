@@ -6,29 +6,23 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPCollaborationFooterStyle, LPTextView, UIImageView, UIView;
+@class LPTextView;
 
 __attribute__((visibility("hidden")))
 @interface LPCollaborationFooterView : LPComponentView
 {
     LPTextView *_optionsView;
-    LPTextView *_subtitleView;
-    UIImageView *_indicatorView;
-    UIView *_separatorView;
-    CDUnknownBlockType _action;
-    LPCollaborationFooterStyle *_style;
-    struct UIEdgeInsets _additionalPadding;
 }
 
+- (void)supportsPassbookAttachments;
+- (void)suggestionBackgroundVisualEffectView;
+- (id)stopAccessingSecurityScopedResource;
+- (id)sizeThatFits:(id)arg1 textAlignmentInsets:isSingleLine: /* Error: Ran out of types for this method. */;
+- (struct CGSize)showNewMessageCompositionPanelWithRecipients:(struct CGSize)arg1 composition:(_Bool)arg2 suggestedReplies:animated:sendMessageHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)shouldSuppressRotationInNewCompose;
 - (struct CGSize);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (id)livePhoto;
 - (struct UIEdgeInsets);
 - (void)0@ù
 × ;

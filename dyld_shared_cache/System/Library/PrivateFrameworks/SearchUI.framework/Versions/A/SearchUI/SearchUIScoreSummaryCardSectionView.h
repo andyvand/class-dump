@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSString, TLKSplitHeaderView;
+@class TLKSplitHeaderView;
 
 @interface SearchUIScoreSummaryCardSectionView : SearchUICardSectionView
 {
@@ -24,22 +24,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)unt;
+- (void)SGMultiHeadPredictionItem;
+- (void)SGQuickResponsesEngagementDeltas;
 - (struct CGSize);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) TLKSplitHeaderView *splitHeaderView; // @synthesize splitHeaderView=_splitHeaderView;
-@property(readonly) Class superclass;
 
 @end
 

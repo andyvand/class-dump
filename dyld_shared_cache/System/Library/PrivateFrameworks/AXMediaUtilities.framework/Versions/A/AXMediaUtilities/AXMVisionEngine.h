@@ -4,48 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMImageRegistrationNode, AXMSequenceRequestManager, AXMService, AXMTaskDispatcher, AXMVisionEngineCache, NSArray, NSMutableArray, NSObject, NSString, _AXMVisionEngineAnalysisTask;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface AXMVisionEngine
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_queue_sourceNodes;
-    NSMutableArray *_queue_evaluationNodes;
-    AXMImageRegistrationNode *_queue_imageRegistrationNode;
-    NSMutableArray *_queue_resultHandlers;
-    _Bool _queue_shouldNotifyServiceOfEngineConfigChange;
-    _AXMVisionEngineAnalysisTask *_queue_currentTask;
-    _Bool _prioritySchedulingEnabled;
-    _Bool _prioritySchedulingAllowMultipleNodeExecution;
-    _Bool _imageRegistrationFilteringEnabled;
-    _Bool _diagnosticsEnabled;
-    _Bool _disableResultLogging;
-    NSString *_identifier;
-    long long _maximumQueueSize;
-    unsigned long long _thresholdPriority;
-    long long _minimumImageRegistrationSignalLevel;
-    AXMVisionEngineCache *_cache;
-    AXMService *_axMediaUtilsService;
-    AXMTaskDispatcher *_taskDispatcher;
-    AXMSequenceRequestManager *_sequenceRequestManager;
 }
 
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)unsignedLongLongValue;
+- (void)\|;
+- (void)\|;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)h{;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -59,99 +40,77 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
+- (long long)t;
 - (long long);
-- (long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool)|;
+- (id){;
+- (_Bool);
+- (void)\|;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)*L\|;
+- (void)\|;
+- (void)?{;
+- (_Bool)\|;
+- (_Bool);
+- (_Bool);
+- (_Bool)|;
+- (id)=\|;
+- (void);
+- (id):\| /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)|;
+- (_Bool)=h4z;
+- (_Bool)f\|;
+- (void)|;
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)\|;
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)-
+\|;
+- (void)|;
+- (id)\|;
+- (_Bool)|;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void){;
+- (void);kQz;
+- (void){;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Jkn;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)conformsToProtocol: /* Error: Ran out of types for this method. */;
+- (void)blurViewFrame;
 - (void);
-- (void);
-- (void);
+- (void)=;
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) AXMService *axMediaUtilsService; // @synthesize axMediaUtilsService=_axMediaUtilsService;
-@property(retain, nonatomic) AXMVisionEngineCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) long long cacheSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=areDiagnosticsEnabled) _Bool diagnosticsEnabled; // @synthesize diagnosticsEnabled=_diagnosticsEnabled;
-@property(nonatomic) _Bool disableResultLogging; // @synthesize disableResultLogging=_disableResultLogging;
-@property(readonly, nonatomic) NSArray *evaluationNodes;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool imageRegistrationFilteringEnabled; // @synthesize imageRegistrationFilteringEnabled=_imageRegistrationFilteringEnabled;
-@property(readonly, nonatomic) _Bool isCachingEnabled;
-@property long long maximumQueueSize; // @synthesize maximumQueueSize=_maximumQueueSize;
-@property(nonatomic) long long minimumImageRegistrationSignalLevel; // @synthesize minimumImageRegistrationSignalLevel=_minimumImageRegistrationSignalLevel;
-@property _Bool prioritySchedulingAllowMultipleNodeExecution; // @synthesize prioritySchedulingAllowMultipleNodeExecution=_prioritySchedulingAllowMultipleNodeExecution;
-@property _Bool prioritySchedulingEnabled; // @synthesize prioritySchedulingEnabled=_prioritySchedulingEnabled;
-@property(retain, nonatomic) AXMSequenceRequestManager *sequenceRequestManager; // @synthesize sequenceRequestManager=_sequenceRequestManager;
-@property(readonly, nonatomic) NSArray *sourceNodes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AXMTaskDispatcher *taskDispatcher; // @synthesize taskDispatcher=_taskDispatcher;
-@property unsigned long long thresholdPriority; // @synthesize thresholdPriority=_thresholdPriority;
 
 @end
 

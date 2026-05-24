@@ -5,5 +5,11 @@
 //
 
 @protocol CoreDAVLogDelegate
+- (void);
+
+@optional
+- (_Bool);
+- (long long)z;
+- (void){;
 @end
 

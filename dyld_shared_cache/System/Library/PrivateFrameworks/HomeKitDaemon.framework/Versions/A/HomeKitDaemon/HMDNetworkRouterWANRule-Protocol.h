@@ -5,5 +5,6 @@
 //
 
 @protocol HMDNetworkRouterWANRule
+- (void)e when stopping at a charger;
 @end
 

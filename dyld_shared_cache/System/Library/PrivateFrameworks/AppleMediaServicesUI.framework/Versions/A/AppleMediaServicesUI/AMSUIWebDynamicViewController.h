@@ -6,7 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUIDynamicViewController.h>
 
-@class AMSUIWebClientContext, NSString;
+@class AMSUIWebClientContext;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebDynamicViewController : AMSUIDynamicViewController
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     AMSUIWebClientContext *_context;
 }
 
-- (void);
+- (void)...;
 - (id);
 - (void);
 - (void);
@@ -24,13 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

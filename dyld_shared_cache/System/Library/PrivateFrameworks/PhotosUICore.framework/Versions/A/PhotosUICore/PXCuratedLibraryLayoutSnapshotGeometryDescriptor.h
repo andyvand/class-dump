@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSIndexSet;
+@class NSDictionary;
 
 @interface PXCuratedLibraryLayoutSnapshotGeometryDescriptor
 {
     NSDictionary *_sectionGeometryDescriptorsByIndexPath;
-    double _intersectionSpacing;
-    long long _dataSourceIdentifier;
-    long long _skimmingDataSourceIdentifier;
-    long long _zoomLevel;
-    struct CGPoint _offset;
-    struct CGRect _visibleRect;
 }
 
 - (long long);
@@ -24,9 +18,9 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (struct CGRect);
-- (id)reviewWithEmailAddresses:phoneNumbers:autoSharePolicy:startDate:personUUIDs:progress:presentationEnvironment:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)createPreviewWithEmailAddresses:phoneNumbers:autoSharePolicy:startDate:personUUIDs:progress:presentationEnvironment:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)Â§¤yD¤¤yF»«ySo8PHMemoryCGGGG;
 - (void)DetentIdentifier;
 - (long long);
@@ -34,11 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long dataSourceIdentifier; // @synthesize dataSourceIdentifier=_dataSourceIdentifier;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSIndexSet *sections;
-@property(readonly, nonatomic) long long skimmingDataSourceIdentifier; // @synthesize skimmingDataSourceIdentifier=_skimmingDataSourceIdentifier;
-@property(readonly, nonatomic) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
-@property(readonly, nonatomic) long long zoomLevel; // @synthesize zoomLevel=_zoomLevel;
 
 @end
 

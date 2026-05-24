@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface WFLocationQueryGeocodeCacheManager
 {
     struct os_unfair_lock_s _dataSynchronizationLock;
-    NSMutableDictionary *_geocodeCache;
-    double _expirationTime;
 }
 
 + (id);
@@ -29,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s dataSynchronizationLock; // @synthesize dataSynchronizationLock=_dataSynchronizationLock;
-@property(readonly, nonatomic) double expirationTime; // @synthesize expirationTime=_expirationTime;
-@property(readonly, nonatomic) NSMutableDictionary *geocodeCache; // @synthesize geocodeCache=_geocodeCache;
 
 @end
 

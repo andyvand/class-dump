@@ -8,13 +8,14 @@
 {
 }
 
-- (id);
+- (id)`;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (_Bool)uetoothBroadcomRSSITriggerValue=[20c]}36;
+- (void)ough memory (%zu bytes)?
+;
 - (id);
 - (id);
 

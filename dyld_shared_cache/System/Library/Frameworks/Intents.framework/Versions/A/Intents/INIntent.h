@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntentDonationMetadata, INIntentKeyParameter, INParameterContexts, NSArray, NSDictionary, NSMutableDictionary, NSString, NSUUID, PBCodable;
+@class NSMutableDictionary;
 
 @interface INIntent
 {
     NSMutableDictionary *_intentInstanceDescriptionMapping;
-    NSArray *_parameterImages;
-    _Bool _hasLoadedKeyParameter;
-    struct os_unfair_lock_s _keyParameterLock;
-    _Bool _shouldForwardToAppOnSucccess;
-    unsigned int _audioSessionID;
-    NSDictionary *_parameterCombinations;
-    NSDictionary *_configurableParameterCombinations;
-    INParameterContexts *_parameterContexts;
-    long long _indexingHash;
-    INIntentKeyParameter *_keyParameter;
-    NSString *_identifier;
-    INIntentDonationMetadata *_donationMetadata;
-    PBCodable *_backingStore;
-    NSString *_recordRoute;
-    NSUUID *_recordDeviceUID;
-    NSString *_recordDeviceIdentifier;
-    long long __preferredInteractionDirection;
 }
 
 @end

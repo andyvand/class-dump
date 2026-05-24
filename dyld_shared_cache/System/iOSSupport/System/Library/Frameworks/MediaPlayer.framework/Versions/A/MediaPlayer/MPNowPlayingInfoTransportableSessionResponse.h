@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MPNowPlayingInfoTransportableSessionResponse
 {
     NSString *_identifier;
-    NSString *_sessionType;
-    NSData *_data;
 }
 
-+ (id);
++ (id)havingClauseNestedAggregations;
 - (id);
 - (id);
 - (id);
-- (void)ExplicitContent__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaylistHasExplicitContent__MAPPING_MISSING__;
 - (id)lic}@:Needs reload [request by client] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *sessionType; // @synthesize sessionType=_sessionType;
 
 @end
 

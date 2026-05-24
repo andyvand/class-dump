@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, NSString, NSURL, NSUserActivity;
+@class NSString;
 
 @interface SGSuggestedEventLaunchInfo
 {
     NSString *_localizedShowInString;
-    NSString *_userActivityString;
-    NSString *_bundleId;
-    INIntent *_intent;
-    NSURL *_sourceURL;
 }
 
 + (_Bool);
@@ -25,15 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)isDifferentAndHasNewProposedTimeWithDiff: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly, nonatomic) NSString *localizedShowInString; // @synthesize localizedShowInString=_localizedShowInString;
-@property(readonly, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
-@property(readonly, nonatomic) NSUserActivity *userActivity;
 @property(retain, nonatomic) NSString *userActivityString; // @synthesize userActivityString=_userActivityString;
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface AKiCDPValidationDevice
 {
     _Bool _usesPasscode;
-    _Bool _usesNumericPasscode;
-    _Bool _usesRandomPasscode;
-    _Bool _isCurrentDevice;
-    NSString *_deviceName;
-    NSString *_deviceModel;
-    NSString *_deviceModelClass;
-    NSNumber *_numericPasscodeLength;
-    NSImage *_deviceIcon;
-    NSUUID *_deviceID;
-    NSDate *_recordDate;
-    unsigned long long _remainingAttempts;
 }
 
 + (_Bool);
@@ -31,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)SPPreferenceCustomRules;
 - (id);
 - (id);
 - (void);
@@ -40,31 +29,20 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)a";
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)paths;
 - (void);
-- (void);
-- (void)dImage;
-- (id)ewServiceWithSurrogateID:withAuthenticationContext:attachToWindow:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)unmaskedImage;
+- (id)bootstrapRemoteViewServiceWithSurrogateID:withAuthenticationContext:attachToWindow:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain, nonatomic) NSImage *deviceIcon; // @synthesize deviceIcon=_deviceIcon;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(copy, nonatomic) NSString *deviceModelClass; // @synthesize deviceModelClass=_deviceModelClass;
 @property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) _Bool isCurrentDevice; // @synthesize isCurrentDevice=_isCurrentDevice;
-@property(retain, nonatomic) NSNumber *numericPasscodeLength; // @synthesize numericPasscodeLength=_numericPasscodeLength;
-@property(retain, nonatomic) NSDate *recordDate; // @synthesize recordDate=_recordDate;
-@property(nonatomic) unsigned long long remainingAttempts; // @synthesize remainingAttempts=_remainingAttempts;
-@property(nonatomic) _Bool usesNumericPasscode; // @synthesize usesNumericPasscode=_usesNumericPasscode;
-@property(nonatomic) _Bool usesPasscode; // @synthesize usesPasscode=_usesPasscode;
-@property(nonatomic) _Bool usesRandomPasscode; // @synthesize usesRandomPasscode=_usesRandomPasscode;
 
 @end
 

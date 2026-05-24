@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)ationDisabled;
++ (id)autorotationDisabled;
 + (long long)(g;
 
 @end

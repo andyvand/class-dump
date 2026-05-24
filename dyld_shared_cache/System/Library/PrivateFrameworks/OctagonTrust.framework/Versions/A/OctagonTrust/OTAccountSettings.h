@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OTWalrus, OTWebAccess;
+@class OTWalrus;
 
 @interface OTAccountSettings
 {
     OTWalrus *_walrus;
-    OTWebAccess *_webAccess;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)__swift5_fieldmd__TEXT;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ioRenderer=}40@0:8^{__CFAllocator=}16^{__CFDictionary=}24^@32 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasWalrus;
-@property(readonly, nonatomic) _Bool hasWebAccess;
-@property(retain, nonatomic) OTWalrus *walrus; // @synthesize walrus=_walrus;
-@property(retain, nonatomic) OTWebAccess *webAccess; // @synthesize webAccess=_webAccess;
 
 @end
 

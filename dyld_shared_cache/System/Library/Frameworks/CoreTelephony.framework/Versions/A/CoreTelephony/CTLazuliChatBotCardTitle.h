@@ -11,7 +11,7 @@
     NSString *_text;
 }
 
-+ (_Bool);
++ (_Bool)has already started;
 - (_Bool);
 - (id);
 - (id);

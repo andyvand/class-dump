@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDDictationCounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_turnCounts;
-    _Bool _hasTurnCounts;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)84;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)essageCreationTimeSince1970;
-- (id)ed;
+- (id)_nLRouterInvalidDecisionEmitted;
 - (void)ySpanData.priorOrdinality;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTurnCounts; // @synthesize hasTurnCounts=_hasTurnCounts;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *turnCounts; // @synthesize turnCounts=_turnCounts;
 
 @end

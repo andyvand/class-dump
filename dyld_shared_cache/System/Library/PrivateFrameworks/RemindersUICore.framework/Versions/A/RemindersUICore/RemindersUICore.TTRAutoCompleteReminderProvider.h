@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRAutoCompleteReminderProvider
 {
     id $defaultActor;
-    id store;
-    id maximumResultCountBeforeTooGeneric;
-    id allowedLookbackDurationMonths;
-    id queryPerformer;
-    id $__lazy_storage_$_minimumSearchTermLengthByBaseLanguage;
 }
 
 @end

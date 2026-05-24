@@ -9,7 +9,6 @@
 @interface RTISupplementalLexicon
 {
     TISupplementalLexicon *_lexicon;
-    NSDictionary *_iconForIdentifier;
 }
 
 + (_Bool);
@@ -21,9 +20,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id);
+- (unsigned long long)A;
+- (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
@@ -31,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *iconForIdentifier; // @synthesize iconForIdentifier=_iconForIdentifier;
-@property(readonly, nonatomic) unsigned long long identifier;
-@property(readonly, nonatomic) TISupplementalLexicon *lexicon; // @synthesize lexicon=_lexicon;
 
 @end
 

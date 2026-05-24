@@ -8,24 +8,21 @@ __attribute__((visibility("hidden")))
 @interface SLSEventAuthenticationMessageVersionedPID
 {
     int _pid;
-    unsigned int _version;
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id)supportsFetchChanges;
+- (void)table 1 Exists - %s;
 - (int);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)r;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 @property(readonly, nonatomic) unsigned long long token; // @dynamic token;
-@property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

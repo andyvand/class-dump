@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PRSRankingItem;
-
 @interface TopHitResult
 {
     float _scoreL1;
-    NSString *_bundleID;
-    NSString *_identifier;
-    NSString *_dataclass;
-    NSDate *_interestingDate;
-    NSString *_threadId;
-    PRSRankingItem *_rankingItem;
-    id _score;
 }
 
 - (void);
@@ -24,27 +15,20 @@
 - (id);
 - (id);
 - (float);
-- (id);
-- (id);
-- (void);
+- (id).;
 - (id);
 - (void);
 - (id);
+- (void)) ;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)"*j;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *dataclass; // @synthesize dataclass=_dataclass;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDate *interestingDate; // @synthesize interestingDate=_interestingDate;
-@property(readonly, nonatomic) PRSRankingItem *rankingItem; // @synthesize rankingItem=_rankingItem;
 @property(nonatomic) id score; // @synthesize score=_score;
-@property(nonatomic) float scoreL1; // @synthesize scoreL1=_scoreL1;
-@property(retain, nonatomic) NSString *threadId; // @synthesize threadId=_threadId;
 
 @end
 

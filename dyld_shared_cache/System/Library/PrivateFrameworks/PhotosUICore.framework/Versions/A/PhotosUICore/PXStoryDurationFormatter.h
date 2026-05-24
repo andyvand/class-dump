@@ -13,7 +13,7 @@
 
 - (id);
 - (id)<ÒÐôþ;
-- (void)stKey;
+- (void)PlayerListKey;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateComponentsFormatter *dateComponentsFormatter; // @synthesize dateComponentsFormatter=_dateComponentsFormatter;

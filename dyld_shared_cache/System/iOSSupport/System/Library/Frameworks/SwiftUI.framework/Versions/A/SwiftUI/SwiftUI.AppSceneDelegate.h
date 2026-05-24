@@ -9,22 +9,11 @@
 @interface SwiftUI.AppSceneDelegate
 {
     UIWindow *window;
-    id sceneItemID;
-    id sceneNamespace;
-    id lastVersion;
-    id sceneBridge;
-    id scenePhase;
-    id sceneDelegateBox;
-    id sceneStorageValues;
-    id presentationDataType;
-    id rawPresentationDataValue;
-    id presentationDataValue;
-    id connectionOptions;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)transportDelegate;
 - (void);
 - (id);
 - (void);

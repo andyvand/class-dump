@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDistributedNotificationCenter, NSMutableArray, NSObject, NSOperationQueue, NSString, SOKerberosHelper, SOKerberosOpenDirectory, SOKerberosSettingsManager, UNUserNotificationCenter;
+@class NSMutableArray;
 
 @interface SOKerberosAgent
 {
     _Bool _networkChangePending;
-    CDUnknownBlockType _menuExtraLaunchHandler;
-    NSMutableArray *_contexts;
-    NSOperationQueue *_workQueue;
-    SOKerberosSettingsManager *_kerberosSettingsManager;
-    NSDistributedNotificationCenter *_distributedNotificationCenter;
-    UNUserNotificationCenter *_userNotificationCenter;
-    SOKerberosHelper *_kerberosHelper;
-    SOKerberosOpenDirectory *_kerberosOpenDirectory;
-    NSString *_localUserName;
-    NSObject *_credObserver;
-    NSObject *_existingCredObserver;
-    NSObject *_passwordChangeObserver;
 }
 
 - (void);
@@ -72,16 +60,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)k@	;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)tionError;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)rentPipeline addNode:faceDetectionNode error:&error] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -89,25 +77,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *contexts; // @synthesize contexts=_contexts;
-@property(retain) NSObject *credObserver; // @synthesize credObserver=_credObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDistributedNotificationCenter *distributedNotificationCenter; // @synthesize distributedNotificationCenter=_distributedNotificationCenter;
-@property(retain) NSObject *existingCredObserver; // @synthesize existingCredObserver=_existingCredObserver;
-@property(readonly) unsigned long long hash;
-@property(retain) SOKerberosHelper *kerberosHelper; // @synthesize kerberosHelper=_kerberosHelper;
-@property(retain) SOKerberosOpenDirectory *kerberosOpenDirectory; // @synthesize kerberosOpenDirectory=_kerberosOpenDirectory;
-@property(retain) SOKerberosSettingsManager *kerberosSettingsManager; // @synthesize kerberosSettingsManager=_kerberosSettingsManager;
-@property(retain) NSString *localUserName; // @synthesize localUserName=_localUserName;
-@property(copy, nonatomic) CDUnknownBlockType menuExtraLaunchHandler; // @synthesize menuExtraLaunchHandler=_menuExtraLaunchHandler;
-@property _Bool networkChangePending; // @synthesize networkChangePending=_networkChangePending;
-@property(retain) NSObject *passwordChangeObserver; // @synthesize passwordChangeObserver=_passwordChangeObserver;
-@property(readonly) Class superclass;
-@property(retain) UNUserNotificationCenter *userNotificationCenter; // @synthesize userNotificationCenter=_userNotificationCenter;
-@property(retain) NSOperationQueue *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

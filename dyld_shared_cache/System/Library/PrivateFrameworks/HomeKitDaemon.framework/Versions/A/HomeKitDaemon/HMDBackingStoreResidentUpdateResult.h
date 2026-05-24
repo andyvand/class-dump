@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreResidentUpdateResult
 {
     NSSet *_addedResidentDevices;
-    NSSet *_deletedResidentDevices;
-    NSSet *_reachabilityUpdates;
 }
 
-- (void);
+- (void)];
 - (void);
 - (void);
 - (id);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *addedResidentDevices; // @synthesize addedResidentDevices=_addedResidentDevices;
-@property(copy, nonatomic) NSSet *deletedResidentDevices; // @synthesize deletedResidentDevices=_deletedResidentDevices;
-@property(copy, nonatomic) NSSet *reachabilityUpdates; // @synthesize reachabilityUpdates=_reachabilityUpdates;
 
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SFCodingOptions_Ivars
 {
     long long encoding;
-    NSString *encryptionPassphrase;
 }
 
 - (void);

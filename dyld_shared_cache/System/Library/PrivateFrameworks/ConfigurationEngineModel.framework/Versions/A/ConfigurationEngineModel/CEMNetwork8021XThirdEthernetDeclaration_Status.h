@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)__AUTH;
++ (id);
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)ileAsset.VoiceServices.CustomVoice;
 
 @end
 

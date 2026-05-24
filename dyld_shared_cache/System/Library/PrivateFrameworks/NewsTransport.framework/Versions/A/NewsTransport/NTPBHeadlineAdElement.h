@@ -4,81 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NTPBHeadlineAdElement
 {
     long long _channelContentProviderID;
-    NSMutableArray *_articleIAdCategories;
-    NSMutableArray *_articleIAdKeywords;
-    NSMutableArray *_articleIAdSectionIDs;
-    NSString *_articleID;
-    NSString *_articleRating;
-    NSMutableArray *_channelIAdCategories;
-    NSMutableArray *_channelIAdKeywords;
-    NSString *_channelID;
-    NSString *_channelRating;
-    _Bool _draftArticle;
-    _Bool _paidArticle;
-    _Bool _sponsoredArticle;
-    struct {
-        unsigned int channelContentProviderID:1;
-        unsigned int draftArticle:1;
-        unsigned int paidArticle:1;
-        unsigned int sponsoredArticle:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
++ (Class)nary, skipping;
 + (Class);
 - (id);
 - (void);
-- (void);
+- (void)softness;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)performSelector:(id)arg1 target:argument:order:modes: /* Error: Ran out of types for this method. */;
+- (_Bool)peBarVerticalConstraint;
+- (void)";
+- (id);
+- (void)e LOIs;
 - (unsigned long long);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
+- (unsigned long long);
+- (void)enumerateCandidatesImpl;
+- (void);
+- (void)t;
+- (unsigned long long)hb;
+- (void);
+- (void);
+- (void);
+- (void)ngEnabled == YES;
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)herMac;
+- (_Bool)FU;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)GK;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 - (_Bool);
 - (id);
@@ -96,34 +76,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool)onTargetType;
-- (void)rptURL;
-- (_Bool)leMinRate;
+- (void)setAlgoID: /* Error: Ran out of types for this method. */;
+- (_Bool)_subscriptionButtonTargetType;
+- (void)_excerptURL;
+- (_Bool)_autoFavoriteGroupableMinRate;
 - (void)eedConfigurations;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *articleIAdCategories; // @synthesize articleIAdCategories=_articleIAdCategories;
-@property(retain, nonatomic) NSMutableArray *articleIAdKeywords; // @synthesize articleIAdKeywords=_articleIAdKeywords;
-@property(retain, nonatomic) NSMutableArray *articleIAdSectionIDs; // @synthesize articleIAdSectionIDs=_articleIAdSectionIDs;
-@property(retain, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(retain, nonatomic) NSString *articleRating; // @synthesize articleRating=_articleRating;
-@property(nonatomic) long long channelContentProviderID; // @synthesize channelContentProviderID=_channelContentProviderID;
-@property(retain, nonatomic) NSMutableArray *channelIAdCategories; // @synthesize channelIAdCategories=_channelIAdCategories;
-@property(retain, nonatomic) NSMutableArray *channelIAdKeywords; // @synthesize channelIAdKeywords=_channelIAdKeywords;
-@property(retain, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(retain, nonatomic) NSString *channelRating; // @synthesize channelRating=_channelRating;
-@property(nonatomic) _Bool draftArticle; // @synthesize draftArticle=_draftArticle;
 @property(readonly, nonatomic) _Bool hasArticleID;
-@property(readonly, nonatomic) _Bool hasArticleRating;
-@property(nonatomic) _Bool hasChannelContentProviderID;
-@property(readonly, nonatomic) _Bool hasChannelID;
-@property(readonly, nonatomic) _Bool hasChannelRating;
-@property(nonatomic) _Bool hasDraftArticle;
-@property(nonatomic) _Bool hasPaidArticle;
-@property(nonatomic) _Bool hasSponsoredArticle;
-@property(nonatomic) _Bool paidArticle; // @synthesize paidArticle=_paidArticle;
-@property(nonatomic) _Bool sponsoredArticle; // @synthesize sponsoredArticle=_sponsoredArticle;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSNumber, NSString, SAMPCollection;
+@class NSString;
 
 @interface SAMPSetQueue : SADomainCommand
 {
@@ -17,18 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetInfo;
-@property(nonatomic) _Bool dryRun;
-@property(copy, nonatomic) NSArray *filters;
-@property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(retain, nonatomic) SAMPCollection *mediaItems;
-@property(copy, nonatomic) NSString *recommendationId;
-@property(copy, nonatomic) NSString *requesterSharedUserId;
-@property(copy, nonatomic) NSString *sharedUserIdFromPlayableMusicAccount;
-@property(nonatomic) _Bool shouldOverrideManuallyCuratedUpNext;
-@property(nonatomic) _Bool shouldReloadQueue;
-@property(nonatomic) _Bool shouldShuffle;
-@property(copy, nonatomic) NSArray *sort;
-@property(copy, nonatomic) NSNumber *startPlaying;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <LoggingSupport/OSLogEventStreamBase.h>
 
-@class NSArray, NSDate, NSDictionary, NSEnumerator, _OSLogEventSerializationMetadata;
-@protocol OSLogEventDeserializerDataSourceDelegate;
-
 @interface OSLogDeserializedEventStream : OSLogEventStreamBase
 {
     _Bool _hasActivated;
-    _OSLogEventSerializationMetadata *_metadata;
-    id <OSLogEventDeserializerDataSourceDelegate> _dataSourceDelegate;
-    NSArray *_curEventArray;
-    NSEnumerator *_eventDictionaryEnumerator;
 }
 
 - (id);
@@ -30,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -38,14 +31,7 @@
 - (void)Ø;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *curEventArray; // @synthesize curEventArray=_curEventArray;
-@property(readonly, nonatomic) id <OSLogEventDeserializerDataSourceDelegate> dataSourceDelegate; // @synthesize dataSourceDelegate=_dataSourceDelegate;
-@property(readonly, nonatomic) NSEnumerator *eventDictionaryEnumerator; // @synthesize eventDictionaryEnumerator=_eventDictionaryEnumerator;
-@property(readonly, nonatomic) NSDate *firstDate;
 @property(nonatomic) _Bool hasActivated; // @synthesize hasActivated=_hasActivated;
-@property(readonly, nonatomic) NSDate *lastDate;
-@property(readonly, nonatomic) _OSLogEventSerializationMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSDictionary *observedSubsystemCategories;
 
 @end
 

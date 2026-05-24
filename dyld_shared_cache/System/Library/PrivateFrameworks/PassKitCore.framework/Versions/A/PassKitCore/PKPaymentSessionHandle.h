@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, STSSession;
-@protocol NFSession, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PKPaymentSessionHandle
 {
     NSObject<OS_dispatch_queue> *_internalSessionSerialQueue;
-    id <NFSession> _NFSessionHandle;
-    STSSession *_STSSession;
-    _Bool _STSSessionIsFirstInQueue;
 }
 
 - (_Bool);

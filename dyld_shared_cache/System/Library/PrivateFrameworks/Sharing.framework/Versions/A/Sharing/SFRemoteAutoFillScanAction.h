@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SFRemoteAutoFillScanAction
 {
     NSString *_message;
-    NSString *_title;
-    NSURL *_url;
 }
 
 + (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

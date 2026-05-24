@@ -15,11 +15,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)displayCompletionListRelativeToRect:ofView:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)C;
 - (id);
 
 // Remaining properties

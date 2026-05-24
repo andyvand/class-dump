@@ -12,11 +12,11 @@
 
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (Class);
-- (unsigned long long);
+- (_Bool)ICNoteLockManagerDidToggleLock;
+- (_Bool)imageForRange:] /* Error: Ran out of types for this method. */;
+- (_Bool)Duplicate contentID found %@, existing attachment will be overwritten;
+- (Class);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);

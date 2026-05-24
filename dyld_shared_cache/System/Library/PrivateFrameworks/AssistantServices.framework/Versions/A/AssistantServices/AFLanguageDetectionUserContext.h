@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface AFLanguageDetectionUserContext
 {
     NSMutableDictionary *_lidUserContext;
-    unsigned int _userContextChangeBit;
-    _Bool _simulateLanguageDetectorAssetsAvailability;
-    NSArray *_simulatingLanguageCodes;
-    NSArray *_finalDictationLanguages;
-    NSMutableDictionary *_dictationLanguageMappingCache;
-    _Bool _languageToggled;
-    NSString *_currentKeyboard;
-    NSString *_primaryLanguageCode;
-    NSDictionary *_languageCodeOverrides;
-    NSString *_prevMessageLanguage;
-    NSString *_globalLastUsedKeyboard;
-    NSArray *_multiLingualKeyboardLanguages;
-    NSArray *_keyboardConvoRecentMessages;
-    NSArray *_dictationLanguages;
-    NSDictionary *_keyboardConversationLanguagePriors;
-    NSDictionary *_keyboardGlobalLanguagePriors;
-    NSNumber *_dictationInputOrigin;
 }
 
 + (id);
@@ -34,7 +17,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
@@ -64,12 +47,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)q;
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -78,25 +61,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)tring",R,C,N,V_localizedFormatString;
+- (id);
 - (id)¡Ô"!Ì@ù±m&ð1Â0@ù
 × ;
 - (void)R,C,N,V_successTitle;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currentKeyboard; // @synthesize currentKeyboard=_currentKeyboard;
-@property(copy, nonatomic) NSNumber *dictationInputOrigin; // @synthesize dictationInputOrigin=_dictationInputOrigin;
-@property(copy, nonatomic) NSArray *dictationLanguages; // @synthesize dictationLanguages=_dictationLanguages;
-@property(copy, nonatomic) NSString *globalLastUsedKeyboard; // @synthesize globalLastUsedKeyboard=_globalLastUsedKeyboard;
-@property(copy, nonatomic) NSDictionary *keyboardConversationLanguagePriors; // @synthesize keyboardConversationLanguagePriors=_keyboardConversationLanguagePriors;
-@property(copy, nonatomic) NSArray *keyboardConvoRecentMessages; // @synthesize keyboardConvoRecentMessages=_keyboardConvoRecentMessages;
-@property(copy, nonatomic) NSDictionary *keyboardGlobalLanguagePriors; // @synthesize keyboardGlobalLanguagePriors=_keyboardGlobalLanguagePriors;
-@property(copy, nonatomic) NSDictionary *languageCodeOverrides; // @synthesize languageCodeOverrides=_languageCodeOverrides;
-@property(nonatomic, getter=wasLanguageToggled, setter=setWasLanguageToggled:) _Bool languageToggled; // @synthesize languageToggled=_languageToggled;
-@property(copy, nonatomic) NSArray *multiLingualKeyboardLanguages; // @synthesize multiLingualKeyboardLanguages=_multiLingualKeyboardLanguages;
-@property(copy, nonatomic) NSString *prevMessageLanguage; // @synthesize prevMessageLanguage=_prevMessageLanguage;
-@property(copy, nonatomic) NSString *primaryLanguageCode; // @synthesize primaryLanguageCode=_primaryLanguageCode;
 
 @end
 

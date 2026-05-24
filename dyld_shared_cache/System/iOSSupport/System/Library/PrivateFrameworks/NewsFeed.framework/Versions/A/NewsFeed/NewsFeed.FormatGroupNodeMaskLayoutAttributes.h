@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatGroupNodeMaskLayoutAttributes
 {
     id identifier;
-    id renderKeyIdentifier;
-    id bounds;
-    id style;
-    id animation;
 }
 
 @end

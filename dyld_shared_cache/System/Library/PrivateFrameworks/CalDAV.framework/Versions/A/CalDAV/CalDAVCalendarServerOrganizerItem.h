@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVHrefItem, CoreDAVLeafItem;
+@class CoreDAVHrefItem;
 
 @interface CalDAVCalendarServerOrganizerItem
 {
     CoreDAVHrefItem *_href;
-    CoreDAVLeafItem *_commonName;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)charge_duration_p_1_00_at_charge_start_secs_curr_dynamic_bin_2;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVLeafItem *commonName; // @synthesize commonName=_commonName;
 @property(retain, nonatomic) CoreDAVHrefItem *href; // @synthesize href=_href;
 
 @end

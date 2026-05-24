@@ -6,26 +6,21 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKInitiateParticipantVettingOperationInfo, CKShareMetadata, NSString;
-@protocol CKInitiateParticipantVettingOperationCallbacks;
+@class CKShareMetadata;
 
 @interface CKInitiateParticipantVettingOperation : CKOperation
 {
     CDUnknownBlockType _participantVettingInitiatedBlock;
-    CDUnknownBlockType _participantVettingInitiationCompletionBlock;
-    CKShareMetadata *_shareMetadata;
-    NSString *_participantID;
-    NSString *_address;
 }
 
 + (SEL);
 + (void);
 - (id);
+- (void)k ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)';
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
@@ -35,27 +30,14 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)4;
 - (id)gistry"16@"PKPushPayload"24@"NSString"32;
 - (void)Ô;
 - (void)delta directory:(id)arg1 %@, combined deliverable deltas:%@, local state vector:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) id <CKInitiateParticipantVettingOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKInitiateParticipantVettingOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(copy, nonatomic) CDUnknownBlockType participantVettingInitiatedBlock; // @synthesize participantVettingInitiatedBlock=_participantVettingInitiatedBlock;
-@property(copy, nonatomic) CDUnknownBlockType participantVettingInitiationCompletionBlock; // @synthesize participantVettingInitiationCompletionBlock=_participantVettingInitiationCompletionBlock;
 @property(copy, nonatomic) CKShareMetadata *shareMetadata; // @synthesize shareMetadata=_shareMetadata;
-@property(readonly) Class superclass;
 
 @end
 

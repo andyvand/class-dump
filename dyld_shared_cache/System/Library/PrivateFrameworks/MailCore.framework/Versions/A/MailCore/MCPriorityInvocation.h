@@ -17,7 +17,7 @@
 + (id);
 + (id);
 - (void);
-- (unsigned char)Loop;
+- (unsigned char)currentRunLoop;
 
 // Remaining properties
 @property unsigned char priority; // @synthesize priority=_priority;

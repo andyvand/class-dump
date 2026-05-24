@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _GCHapticDynamicParameter
 {
     unsigned int _type;
-    double _value;
 }
 
 - (void);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

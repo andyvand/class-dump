@@ -5,6 +5,8 @@
 //
 
 @protocol UITextCursorView
+- (void);
+- (_Bool):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isBlinking) _Bool blinking;

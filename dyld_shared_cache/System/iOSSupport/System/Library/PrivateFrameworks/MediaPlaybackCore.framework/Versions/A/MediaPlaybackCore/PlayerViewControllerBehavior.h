@@ -7,8 +7,6 @@
 @interface PlayerViewControllerBehavior
 {
     id delegate;
-    id onGoingJumpToTimeInfo;
-    id reporter;
 }
 
 - (void);

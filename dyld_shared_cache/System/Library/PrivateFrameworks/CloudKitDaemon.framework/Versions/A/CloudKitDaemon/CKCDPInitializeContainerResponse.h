@@ -7,26 +7,24 @@
 @interface CKCDPInitializeContainerResponse
 {
     _Bool _success;
-    CDStruct_f2ecb737 _has;
 }
 
 - (id);
 - (_Bool);
+- (void)ATLStateCardExpirationDate;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)shmemSourceReader_PrepareForFlush;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)52;
 - (void);
 - (id);
 - (id);
-- (_Bool)rtAfter;
+- (_Bool)hasInsertAfter;
 - (void)PCS memory cache %p;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

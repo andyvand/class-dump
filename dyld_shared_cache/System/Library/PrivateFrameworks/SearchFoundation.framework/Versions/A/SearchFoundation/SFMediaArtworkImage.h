@@ -6,15 +6,11 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFMediaArtworkImage : SFImage
 {
     CDStruct_c287193c _has;
-    int _mediaEntityType;
-    NSString *_persistentID;
-    NSString *_spotlightIdentifier;
-    NSString *_universalLibraryID;
 }
 
 + (_Bool);
@@ -26,44 +22,19 @@
 - (int);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)nType;
+- (id)setNextTrackIdentifierList:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)or %{public}@.;
 - (id);
+- (id)PHMemoryCurationAvailabilityOptionStillPhotoDurationKey;
+- (id)PHAssetExportRequestVideoFileURLKey;
 - (id);
-- (id);
-- (id);
-- (void)ayingCardSection;
+- (void)_nowPlayingCardSection;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(nonatomic) int mediaEntityType; // @synthesize mediaEntityType=_mediaEntityType;
 @property(copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(copy, nonatomic) NSString *spotlightIdentifier; // @synthesize spotlightIdentifier=_spotlightIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *universalLibraryID; // @synthesize universalLibraryID=_universalLibraryID;
 
 @end
 

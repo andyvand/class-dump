@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface HMIVideoAnalyzerDynamicConfiguration
 {
     _Bool _recognizeFaces;
-    _Bool _shouldEncode;
-    long long _eventTriggers;
-    NSArray *_activityZones;
-    long long _decodeMode;
-    CDStruct_1b6d18a9 _timelapseInterval;
 }
 
 + (_Bool);
 + (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (_Bool);
 - (void);
 - (void);
@@ -32,25 +25,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)\;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *activityZones; // @synthesize activityZones=_activityZones;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property long long decodeMode; // @synthesize decodeMode=_decodeMode;
-@property(readonly, copy) NSString *description;
-@property long long eventTriggers; // @synthesize eventTriggers=_eventTriggers;
-@property(readonly) unsigned long long hash;
-@property _Bool recognizeFaces; // @synthesize recognizeFaces=_recognizeFaces;
-@property _Bool shouldEncode; // @synthesize shouldEncode=_shouldEncode;
-@property(readonly) Class superclass;
-@property CDStruct_1b6d18a9 timelapseInterval; // @synthesize timelapseInterval=_timelapseInterval;
 
 @end
 

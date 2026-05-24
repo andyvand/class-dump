@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue, TUMetadataCacheDataProviderDelegate;
 
 @interface TUMetadataCacheDataProvider
 {
     id <TUMetadataCacheDataProviderDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_providerCache;
-    NSMutableDictionary *_providerDictCache;
 }
 
-+ (id);
++ (id)valueForKey:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void);
@@ -31,15 +28,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (id);
-- (void):completion: /* Error: Ran out of types for this method. */;
+- (void)startMediaRequest:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <TUMetadataCacheDataProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) NSMutableDictionary *providerCache; // @synthesize providerCache=_providerCache;
-@property(readonly, nonatomic) NSMutableDictionary *providerDictCache; // @synthesize providerDictCache=_providerDictCache;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

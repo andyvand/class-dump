@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface HMRemoteEventRouterProtoServerDiagnosticInfo
 {
     double _lastConnected;
-    unsigned long long _version;
-    NSMutableArray *_connectedClients;
-    int _connectionState;
-    int _mode;
-    struct {
-        unsigned int lastConnected:1;
-        unsigned int version:1;
-        unsigned int connectionState:1;
-        unsigned int mode:1;
-    } _has;
 }
 
 + (Class);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (int);
-- (double);
+- (double)_nextTokenSuggestions;
 - (int);
 - (int);
 - (unsigned long long);
@@ -44,15 +32,15 @@
 - (unsigned long long);
 - (int);
 - (_Bool);
+- (void)Q;
+- (void);
+- (id);
+- (_Bool)verbose;
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id)0@ù
@@ -62,15 +50,7 @@
 - (void)à·;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *connectedClients; // @synthesize connectedClients=_connectedClients;
-@property(nonatomic) int connectionState; // @synthesize connectionState=_connectionState;
-@property(nonatomic) _Bool hasConnectionState;
-@property(nonatomic) _Bool hasLastConnected;
-@property(nonatomic) _Bool hasMode;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) double lastConnected; // @synthesize lastConnected=_lastConnected;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

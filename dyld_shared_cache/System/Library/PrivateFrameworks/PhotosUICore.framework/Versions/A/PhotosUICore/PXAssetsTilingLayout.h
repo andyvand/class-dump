@@ -6,26 +6,11 @@
 
 #import <PhotosUICore/PXTilingLayout.h>
 
-@class NSIndexSet, PXAssetsDataSource, PXBasicTileUserData, PXIndexPathSet, PXOverlayBadgeTileUserData, PXSelectionBadgeTileUserData;
+@class PXOverlayBadgeTileUserData, PXSelectionBadgeTileUserData;
 
 @interface PXAssetsTilingLayout : PXTilingLayout
 {
     PXOverlayBadgeTileUserData *_overlayBadgeTileUserData;
-    PXAssetsDataSource *_dataSource;
-    PXIndexPathSet *_hiddenIndexPaths;
-    PXIndexPathSet *_selectedIndexPaths;
-    PXIndexPathSet *_draggingIndexPaths;
-    unsigned long long _selectionBadgeOptions;
-    unsigned long long _badgeOptions;
-    unsigned long long _animatedOverlayBehavior;
-    PXSelectionBadgeTileUserData *__selectedUserData;
-    PXSelectionBadgeTileUserData *__unselectedUserData;
-    PXBasicTileUserData *__highlightedDimmingUserData;
-    PXBasicTileUserData *__selectedDimmingUserData;
-    PXBasicTileUserData *__draggingDimmingUserData;
-    NSIndexSet *_additionalAccessoryTileKinds;
-    struct PXSimpleIndexPath _highlightedIndexPath;
-    struct PXSimpleIndexPath _focusedIndexPath;
 }
 
 - (double);
@@ -36,7 +21,7 @@
 - (void);
 - (unsigned long long);
 - (struct CGSize);
-- (id);
+- (id)M;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -57,42 +42,27 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)�t;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (struct PXSimpleIndexPath);
 - (void);
-- (id);
+- (id)topicFlowExponent;
 - (void);
 - (id);
-- (struct PXSimpleIndexPath);
-- (id);
+- (struct PXSimpleIndexPath)SVVideoPlayerViewController"24@"<SXAnalyticsReporting>"32;
+- (id)peP;
 - (id);
 - (void);
 - (unsigned long long);
-- (id)Button_Title;
+- (id)PXSharedLibraryExit_Confirmation_Owner_Button_Title;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXBasicTileUserData *_draggingDimmingUserData; // @synthesize _draggingDimmingUserData=__draggingDimmingUserData;
-@property(readonly, nonatomic) PXBasicTileUserData *_highlightedDimmingUserData; // @synthesize _highlightedDimmingUserData=__highlightedDimmingUserData;
-@property(retain, nonatomic, setter=_setContentTileUserData:) PXOverlayBadgeTileUserData *_overlayBadgeTileUserData; // @synthesize _overlayBadgeTileUserData;
-@property(readonly, nonatomic) PXBasicTileUserData *_selectedDimmingUserData; // @synthesize _selectedDimmingUserData=__selectedDimmingUserData;
 @property(readonly, nonatomic) PXSelectionBadgeTileUserData *_selectedUserData; // @synthesize _selectedUserData=__selectedUserData;
-@property(readonly, nonatomic) PXSelectionBadgeTileUserData *_unselectedUserData; // @synthesize _unselectedUserData=__unselectedUserData;
-@property(retain, nonatomic) NSIndexSet *additionalAccessoryTileKinds; // @synthesize additionalAccessoryTileKinds=_additionalAccessoryTileKinds;
-@property(nonatomic) unsigned long long animatedOverlayBehavior; // @synthesize animatedOverlayBehavior=_animatedOverlayBehavior;
-@property(nonatomic) unsigned long long badgeOptions; // @synthesize badgeOptions=_badgeOptions;
-@property(readonly, nonatomic) PXAssetsDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) PXIndexPathSet *draggingIndexPaths; // @synthesize draggingIndexPaths=_draggingIndexPaths;
-@property(nonatomic) struct PXSimpleIndexPath focusedIndexPath; // @synthesize focusedIndexPath=_focusedIndexPath;
-@property(retain, nonatomic) PXIndexPathSet *hiddenIndexPaths; // @synthesize hiddenIndexPaths=_hiddenIndexPaths;
-@property(nonatomic) struct PXSimpleIndexPath highlightedIndexPath; // @synthesize highlightedIndexPath=_highlightedIndexPath;
-@property(retain, nonatomic) PXIndexPathSet *selectedIndexPaths; // @synthesize selectedIndexPaths=_selectedIndexPaths;
-@property(nonatomic) unsigned long long selectionBadgeOptions; // @synthesize selectionBadgeOptions=_selectionBadgeOptions;
 
 @end
 

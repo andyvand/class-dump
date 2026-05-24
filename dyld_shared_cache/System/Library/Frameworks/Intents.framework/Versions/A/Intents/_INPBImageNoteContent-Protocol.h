@@ -10,7 +10,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImage;
 @property(retain, nonatomic) _INPBImageValue *image;
 @end
 

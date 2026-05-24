@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ADSegmentUpdateResponse
 {
     double _maxSegmentUpdateIntervalInSeconds;
-    double _segmentRefreshIntervalInSeconds;
-    NSString *_idDebug;
-    struct {
-        unsigned int maxSegmentUpdateIntervalInSeconds:1;
-        unsigned int segmentRefreshIntervalInSeconds:1;
-    } _has;
 }
 
 + (id);
@@ -23,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (double);
 - (_Bool);
@@ -42,11 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdDebug;
-@property(nonatomic) _Bool hasMaxSegmentUpdateIntervalInSeconds;
-@property(nonatomic) _Bool hasSegmentRefreshIntervalInSeconds;
-@property(retain, nonatomic) NSString *idDebug; // @synthesize idDebug=_idDebug;
-@property(nonatomic) double maxSegmentUpdateIntervalInSeconds; // @synthesize maxSegmentUpdateIntervalInSeconds=_maxSegmentUpdateIntervalInSeconds;
-@property(nonatomic) double segmentRefreshIntervalInSeconds; // @synthesize segmentRefreshIntervalInSeconds=_segmentRefreshIntervalInSeconds;
 
 @end
 

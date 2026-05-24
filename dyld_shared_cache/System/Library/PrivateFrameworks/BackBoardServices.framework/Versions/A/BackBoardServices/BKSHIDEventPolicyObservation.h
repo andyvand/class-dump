@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringSelectionPathIdentifier, BKSHIDEventDeferringToken, BKSHIDEventDisplay, NSString;
-
 @interface BKSHIDEventPolicyObservation
 {
     int _pid;
-    BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringEnvironment *_environment;
-    BKSHIDEventDeferringSelectionPathIdentifier *_selectionPath;
-    BKSHIDEventDeferringToken *_token;
-    long long _policyStatus;
-    _Bool _finalStringToken;
 }
 
 + (id);
-+ (id);
++ (id)FOLLOWUP_LAST_CUSTODIAN_NO_LIVENESS_BUTTON_NOTIFICATION_TITLE;
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)S;
 - (int);
-- (id);
+- (id)timewiseEligibleAtDate:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)currentDataVolumeMountPoint;
 - (id);
 - (id);
 - (id);
@@ -39,20 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BKSHIDEventDisplay *display;
-@property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *environment;
-@property(readonly, nonatomic, getter=isFinalStringToken) _Bool finalStringToken; // @synthesize finalStringToken=_finalStringToken;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int pid;
-@property(readonly, nonatomic) long long policyStatus;
-@property(readonly, nonatomic) BKSHIDEventDeferringSelectionPathIdentifier *selectionPath;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) BKSHIDEventDeferringToken *token;
 
 @end
 

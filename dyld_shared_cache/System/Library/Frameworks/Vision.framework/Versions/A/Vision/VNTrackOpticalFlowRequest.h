@@ -6,19 +6,12 @@
 
 #import <Vision/VNStatefulRequest.h>
 
-@class NSArray, VNImageBuffer, VNImageSignature, VNOpticalFlowObservation;
-
 @interface VNTrackOpticalFlowRequest : VNStatefulRequest
 {
     unsigned long long _previousRequestRevision;
-    struct CGRect _previousRegionOfInterest;
-    VNImageBuffer *_previousImageBuffer;
-    VNImageSignature *_previousImageSignature;
-    VNOpticalFlowObservation *_previousObservation;
-    _Bool _previousPortraitMode;
 }
 
-+ (Class);
++ (Class)block_invoke_2;
 + (const CDStruct_3a02d5a8 *);
 - (id);
 - (void);
@@ -28,12 +21,12 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)createUserInteractionSuppressingWithDomainIdentifier:(CDUnknownBlockType)arg1 withPurpose: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)_tipiConnectionStatus;
+- (id)SayyXlG;
 - (unsigned int);
-- (void);
+- (void)e-mail address, social profile or instant message address;
 - (_Bool);
 - (void)s;
 - (_Bool);
@@ -42,9 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long computationAccuracy;
-@property(nonatomic) _Bool keepNetworkOutput;
-@property(nonatomic) unsigned int outputPixelFormat;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

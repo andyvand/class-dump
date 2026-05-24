@@ -5,5 +5,6 @@
 //
 
 @protocol PKMicaResizableView
+- (double);
 @end
 

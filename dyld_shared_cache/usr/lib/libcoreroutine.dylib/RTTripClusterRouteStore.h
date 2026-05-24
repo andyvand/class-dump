@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTTripClusterRouteStore : RTStore
 {
 }
@@ -22,27 +20,21 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (void) s;
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void):(id)arg1 Failed to enroll Fallback Stingray Record:(CDUnknownBlockType)arg2 %@;
+- (void)often;
+- (id)dilemma;
 - (id);
 - (id)id parameter not satisfying:(id)arg1 messageGUID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

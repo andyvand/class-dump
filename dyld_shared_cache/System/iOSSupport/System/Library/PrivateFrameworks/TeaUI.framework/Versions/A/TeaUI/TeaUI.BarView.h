@@ -7,14 +7,11 @@
 @interface TeaUI.BarView
 {
     id style;
-    id separator;
-    id tintView;
-    id separatorView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)LocalAreas;
 - (void)¼_ýÿ@`ýÿ;
 
 @end

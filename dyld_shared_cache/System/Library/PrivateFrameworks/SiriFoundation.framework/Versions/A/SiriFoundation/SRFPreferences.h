@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SRFPreferences
 {
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -20,27 +18,23 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)X;
 - (_Bool);
 - (void);
-- (void);
+- (void)i(8;
 - (_Bool);
 - (void);
-- (id);
+- (id));
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)_updateWebUsageWithInterval:webDomain:trustedWebUsage:deviceIdentifier:event:webUsageIntervalsByDevice:categoryUsageIntervalsByDevice:aggregatedApplicationUsageIntervalsByDevice:aggregatedWebUsageIntervalsByDevice:categoryByWebDomain:timeZoneByDevice:lastEventDateByDevice: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=assistantIsEnabled) _Bool assistantIsEnabled;
-@property(readonly) NSString *languageCode;
-@property(nonatomic, getter=isLaunchAgentEnabled) _Bool launchAgentEnabled;
-@property(nonatomic, getter=isTypeToSiriEnabled) _Bool typeToSiriEnabled;
-@property(nonatomic) _Bool voiceTriggerUserEnabled;
 
 @end
 

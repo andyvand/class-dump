@@ -7,8 +7,6 @@
 @interface (extension in AuthKitUI):__C.AKMacOSRemoteUIProvider.HookHandler
 {
     id contextController;
-    id deferredResponse;
-    id uncancellableHeaderActions;
 }
 
 @end

@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)ionWantsViewsToDisappear;
+- (_Bool)applicationWantsViewsToDisappear;
 - (void)ler that requires hosting in navigation bar is losing its navigation item
 	%@
 %@;

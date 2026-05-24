@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (void)ASSCODE;
+- (void)CONTINUE_WITH_PASSCODE;
 
 // Remaining properties
 @property(nonatomic) __weak NSViewController *targetVC; // @synthesize targetVC=_targetVC;

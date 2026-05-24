@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSConfiguredWidgetContainerDescriptor, CHSExtensionIdentity, CHSWidget, CHSWidgetDisplayProperties, CHSWidgetMetrics, NSArray, NSDateComponents, NSString;
-@protocol CHSWidgetRefreshStrategy;
+@class CHSConfiguredWidgetContainerDescriptor;
 
 @interface CHSConfiguredWidgetDescriptor
 {
     CHSConfiguredWidgetContainerDescriptor *_weak_container;
-    _Bool _suggestion;
-    _Bool _systemConfigured;
-    unsigned long long _supportedColorSchemes;
-    NSArray *_supportedRenderSchemes;
-    _Bool _supportsLowLuminance;
-    _Bool _showsWidgetLabel;
-    CHSWidgetDisplayProperties *_displayProperties;
-    id <CHSWidgetRefreshStrategy> _refreshStrategy;
-    unsigned long long _supportedProximities;
-    NSDateComponents *_idealizedDateComponents;
-    NSString *_uniqueIdentifier;
-    CHSWidget *_widget;
-    CHSWidgetMetrics *_metrics;
 }
 
 + (id);
@@ -30,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)1;
 - (_Bool);
 - (id);
 - (id);
@@ -57,7 +43,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)D{;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -65,32 +51,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)e:(id)arg1 cornerRadius:scaleFactor:fontStyle: /* Error: Ran out of types for this method. */;
+- (id)initWithSize:(id)arg1 cornerRadius:scaleFactor:fontStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak CHSConfiguredWidgetContainerDescriptor *container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CHSWidgetDisplayProperties *displayProperties; // @synthesize displayProperties=_displayProperties;
-@property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDateComponents *idealizedDateComponents; // @synthesize idealizedDateComponents=_idealizedDateComponents;
-@property(readonly, nonatomic) NSString *kind;
-@property(readonly, copy, nonatomic) CHSWidgetMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) id <CHSWidgetRefreshStrategy> refreshStrategy; // @synthesize refreshStrategy=_refreshStrategy;
-@property(readonly, nonatomic) _Bool showsWidgetLabel; // @synthesize showsWidgetLabel=_showsWidgetLabel;
-@property(readonly, nonatomic, getter=isSuggestion) _Bool suggestion; // @synthesize suggestion=_suggestion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long supportedColorSchemes; // @synthesize supportedColorSchemes=_supportedColorSchemes;
-@property(readonly, nonatomic) unsigned long long supportedProximities; // @synthesize supportedProximities=_supportedProximities;
-@property(readonly, copy, nonatomic) NSArray *supportedRenderSchemes; // @synthesize supportedRenderSchemes=_supportedRenderSchemes;
-@property(readonly, nonatomic) _Bool supportsLowLuminance; // @synthesize supportsLowLuminance=_supportsLowLuminance;
-@property(readonly, nonatomic, getter=isSystemConfigured) _Bool systemConfigured; // @synthesize systemConfigured=_systemConfigured;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, copy, nonatomic) CHSWidget *widget; // @synthesize widget=_widget;
 
 @end
 

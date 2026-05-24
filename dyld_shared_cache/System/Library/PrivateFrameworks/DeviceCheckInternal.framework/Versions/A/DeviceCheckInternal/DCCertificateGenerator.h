@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DCContext, NSData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface DCCertificateGenerator
 {
     NSData *_publicKey;
-    DCContext *_context;
 }
 
-- (id);
-- (int);
+- (id)initWithBundleId:(id)arg1 account:mediaType:bag: /* Error: Ran out of types for this method. */;
+- (int)initWithBundleId:account:mediaType:bag: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBundleId:(id)arg1 account:bag: /* Error: Ran out of types for this method. */;
+- (id)initWithBlindedElement:(id)arg1 privateInput:(id)arg2 timestamp: /* Error: Ran out of types for this method. */;
+- (void)initWithBase64EncodedString:(CDUnknownBlockType)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)initWithBagContract:(CDUnknownBlockType)arg1;
+- (id)initWithBag:(id)arg1 caller:(id)arg2 keyProfile:(id *)arg3;
+- (void)initWithAuthorization:(id)arg1 error:(CDUnknownBlockType)arg2;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id)"16@"NSResponder"24;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) DCContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 
 @end

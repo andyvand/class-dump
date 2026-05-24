@@ -6,17 +6,14 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSString;
-
 @interface PGSharedLibraryAssetsQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSString *_entityIdentifier;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)public}@;
 - (unsigned short);
 - (id);
 - (unsigned short);

@@ -6,20 +6,11 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSEngagementRequest, AMSProcessInfo, AMSPromise, NSDictionary, NSString, NSViewController;
-@protocol AMSBagProtocol, AMSUIEngagementViewControllerDelegate;
+@class NSViewController;
 
 @interface AMSUIEngagementViewController : AMSUICommonViewController
 {
     _Bool _started;
-    _Bool _shouldSuppressDismissedEventOnDealloc;
-    AMSProcessInfo *_clientInfo;
-    id <AMSUIEngagementViewControllerDelegate> _delegate;
-    AMSEngagementRequest *_request;
-    AMSEngagementRequest *_effectiveRequest;
-    NSViewController *_childController;
-    AMSPromise *_loadVCPromise;
-    id <AMSBagProtocol> _bag;
 }
 
 + (id);
@@ -40,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -49,7 +40,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,44 +49,29 @@
 - (id);
 - (id);
 - (id);
+- (id)PLSearchHomeItemTypeDate;
+- (void)rySupport.m;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)s UUID folder on volume with role 0x%04X in container %s
+;
 - (id);
 - (void)!°CùqÐ1Â0@ù
 × ;
-- (void)pressErrorPage;
-- (id);
-- (_Bool);
+- (void)suppressErrorPage;
+- (id)setDismiss: /* Error: Ran out of types for this method. */;
+- (_Bool)setCachedNavigationController: /* Error: Ran out of types for this method. */;
 - (void)=G;
 - (void)r¡d§;
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(retain) NSViewController *childController; // @synthesize childController=_childController;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIEngagementViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) AMSEngagementRequest *effectiveRequest; // @synthesize effectiveRequest=_effectiveRequest;
-@property(readonly) NSDictionary *engagementMetrics;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSPromise *loadVCPromise; // @synthesize loadVCPromise=_loadVCPromise;
-@property(readonly) AMSEngagementRequest *request; // @synthesize request=_request;
-@property _Bool shouldSuppressDismissedEventOnDealloc; // @synthesize shouldSuppressDismissedEventOnDealloc=_shouldSuppressDismissedEventOnDealloc;
-@property _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 
 @end
 

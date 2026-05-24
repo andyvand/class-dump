@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKActionMenuController, NSArray, UIBlurEffect, UIVisualEffectView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CKActionMenuView
 {
     _Bool _collapsed;
-    _Bool _touchInside;
-    NSArray *_actionMenuItems;
-    unsigned long long _defaultActionIndex;
-    CKActionMenuController *_actionMenuController;
-    NSArray *_presentationActionMenuItems;
-    unsigned long long _presentationDefaultActionIndex;
-    UIVisualEffectView *_blurView;
-    UIBlurEffect *_blurEffect;
-    struct CGPoint _presentationTargetPosition;
-    struct CGRect _presentationTargetBounds;
 }
 
 + (void);
+- (void)G;
 - (void);
 - (void);
+- (void)e;
+- (void)e;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t;
 - (void);
 - (struct CGPoint);
-- (struct CGRect);
-- (unsigned long long);
+- (struct CGRect)a;
+- (unsigned long long)T;
 - (id);
-- (void);
-- (id);
+- (void)o;
+- (id)y legacyNote should not have a folder %@;
 - (void);
 - (unsigned long long);
 - (void);
@@ -59,17 +49,7 @@ __attribute__((visibility("hidden")))
 - (void)¸ÿcn4,1;
 
 // Remaining properties
-@property(nonatomic) __weak CKActionMenuController *actionMenuController; // @synthesize actionMenuController=_actionMenuController;
 @property(copy, nonatomic) NSArray *actionMenuItems; // @synthesize actionMenuItems=_actionMenuItems;
-@property(retain, nonatomic) UIBlurEffect *blurEffect; // @synthesize blurEffect=_blurEffect;
-@property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(nonatomic) unsigned long long defaultActionIndex; // @synthesize defaultActionIndex=_defaultActionIndex;
-@property(copy, nonatomic) NSArray *presentationActionMenuItems; // @synthesize presentationActionMenuItems=_presentationActionMenuItems;
-@property(nonatomic) unsigned long long presentationDefaultActionIndex; // @synthesize presentationDefaultActionIndex=_presentationDefaultActionIndex;
-@property(nonatomic) struct CGRect presentationTargetBounds; // @synthesize presentationTargetBounds=_presentationTargetBounds;
-@property(nonatomic) struct CGPoint presentationTargetPosition; // @synthesize presentationTargetPosition=_presentationTargetPosition;
-@property(nonatomic, getter=isTouchInside) _Bool touchInside; // @synthesize touchInside=_touchInside;
 
 @end
 

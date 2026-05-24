@@ -7,18 +7,9 @@
 @interface CKTapbackClassicAsset
 {
     id nameFormat;
-    id frameCount;
-    id pickerPresentationOffset;
-    id primarySelectionColorFilterValueMatrix;
-    id secondarySelectionColorFilterValueMatrix;
-    id primarySelectionColorFilter;
-    id secondarySelectionColorFilter;
-    id prefetchBuffer;
-    id prefetchCache;
-    id $__lazy_storage_$_stillImage;
 }
 
-- (id);
+- (id)So17NSManagedObjectIDC_G;
 - (id);
 - (void);
 

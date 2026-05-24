@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSTouchDevice
 {
     unsigned long long _deviceID;
-    long long _reserved1;
-    double _reserved2;
-    long long _flags;
-    struct CGSize _surfaceSize;
-    id _reserved3[3];
-    id _lastEndedTouches;
 }
 
 + (id);
@@ -27,11 +19,11 @@
 + (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)m;
 + (id);
 + (void)H;
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize)0h5iDjrdYYcog;
+- (_Bool)n;
 - (void);
 - (void);
 - (void);
@@ -41,23 +33,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)set_enablesL4SInternal:(id)arg1;
+- (void)set_discretionaryOverride:(id)arg1;
+- (void)set_blockTrackers:(id)arg1;
+- (void)getInputStream:(long long)arg1 outputStream:(CDUnknownBlockType)arg2;
+- (id)_loadedTimeRanges;
+- (id)pModificationDate;
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)d to clone trust, error %@ [%ld];
 - (id);
 - (void);
 - (void);
@@ -65,9 +51,16 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void)ror:(id)arg1 stepSQLStatement:(id)arg2 toCompletionWithRetry - stepping returned unhandled result=%d, DB=%@;
+- (void)orts:(long long)arg1 { %@ }
+;
+- (void)C;
 - (id);
 - (id);
 - (unsigned long long)1Â0@ù
@@ -75,15 +68,7 @@
 - (long long)corner mask. %s;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) struct CGSize surfaceSize; // @synthesize surfaceSize=_surfaceSize;
 
 @end
 

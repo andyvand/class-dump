@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingSettingsButtonViewLayoutAttributesFactory
 {
     id styler;
-    id cache;
 }
 
 @end

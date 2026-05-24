@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyleProvider, CNContact, NSString, NSTextField;
+@class NSString, NSTextField;
 
 @interface CNContactSharingEnabledWarningViewController
 {
     NSString *_warningMessage;
-    ABCardViewStyleProvider *_styleProvider;
-    NSTextField *_warningLabel;
-    CNContact *_contact;
 }
 
 + (id);
@@ -20,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)6@9;
 - (_Bool);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (double);
 - (id);
@@ -37,17 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSTextField *warningLabel; // @synthesize warningLabel=_warningLabel;
-@property(retain, nonatomic) NSString *warningMessage; // @synthesize warningMessage=_warningMessage;
 
 @end
 

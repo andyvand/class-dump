@@ -6,13 +6,11 @@
 
 #import <PencilKit/PKPaletteOptionCell.h>
 
-@class UILabel, UISwitch;
+@class UILabel;
 
 @interface PKPaletteOptionSwitchCell : PKPaletteOptionCell
 {
     UILabel *_textLabel;
-    UISwitch *_switchButton;
-    UILabel *_subTextLabel;
 }
 
 - (void);
@@ -20,10 +18,9 @@
 - (_Bool);
 - (_Bool);
 - (void)Coordinator"16;
-- (void)actionFeedbackHostViewDelegate;
+- (void)PKPalettePencilInteractionFeedbackHostViewDelegate;
 
 // Remaining properties
-@property(nonatomic, setter=setSwitchEnabled:) _Bool isSwitchEnabled;
 @property(nonatomic) _Bool on;
 
 @end

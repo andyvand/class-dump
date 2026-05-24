@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (int);
 + (_Bool);
-+ (int);
++ (int);
 + (int);
 + (id);
 + (id);
@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (struct OpaqueIconRef *);
-+ (struct _LSBinding *);
++ (struct _LSBinding *)P;
 
 @end
 

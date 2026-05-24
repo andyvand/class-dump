@@ -7,7 +7,6 @@
 @interface IOGPUMetalDeviceShmemPool
 {
     struct _IOGPUMetalDeviceShmemPoolPrivate _priv;
-    unsigned long long _allocatedSize;
 }
 
 - (void);

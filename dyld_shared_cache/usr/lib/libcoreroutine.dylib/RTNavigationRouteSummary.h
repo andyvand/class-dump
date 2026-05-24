@@ -9,19 +9,17 @@
 @interface RTNavigationRouteSummary
 {
     RTMapItem *_originMapItem;
-    RTMapItem *_destinationMapItem;
-    double _travelTime;
 }
 
 + (_Bool);
+- (void);
 - (void);
+- (id);
+- (id);
+- (id)addOperations:completionOp:allOps:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)d < 4;
 - (id);
 - (unsigned long long);
 - (double);
@@ -30,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RTMapItem *destinationMapItem; // @synthesize destinationMapItem=_destinationMapItem;
 @property(retain, nonatomic) RTMapItem *originMapItem; // @synthesize originMapItem=_originMapItem;
-@property(nonatomic) double travelTime; // @synthesize travelTime=_travelTime;
 
 @end
 

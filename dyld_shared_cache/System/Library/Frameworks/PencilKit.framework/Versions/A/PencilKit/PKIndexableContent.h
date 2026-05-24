@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSessionIndexableContent, NSString;
+@class CHRecognitionSessionIndexableContent;
 
 @interface PKIndexableContent
 {
@@ -15,13 +15,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)aJ9ht;
 - (void);
 
 // Remaining properties
 @property(retain) CHRecognitionSessionIndexableContent *chIndexableContent; // @synthesize chIndexableContent=_chIndexableContent;
-@property(readonly, nonatomic) NSString *indexableTextRepresentation;
-@property(readonly, nonatomic) NSString *presentableTextRepresentation;
 
 @end
 

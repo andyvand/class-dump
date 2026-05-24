@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, NSArray, NSString;
-
 @interface CLSBusinessItem
 {
     _Bool _cached;
-    NSString *_name;
-    CLCircularRegion *_region;
-    NSArray *_categories;
-    unsigned long long _muid;
-    long long _venueCapacity;
-    NSArray *_businessCategories;
-    NSString *_isoCountryCode;
-    NSString *_geoServiceProvider;
 }
 
 + (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFType;
+@class WFType;
 
 @interface UnknownClass (WFRuntimeUtilities)
 + (void);
@@ -12,7 +12,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *wfName;
 @property(readonly, nonatomic) WFType *wfType;
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, PLEntryNotificationOperatorComposition, PLMonotonicTimer, PLNSNotificationOperatorComposition, PLStateTrackingComposition;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLIOReportMetricsAgent
 {
     PLEntryNotificationOperatorComposition *_batteryLevelChangedNotifications;
-    PLEntryNotificationOperatorComposition *_screenstateChangedNotifications;
-    PLEntryNotificationOperatorComposition *_displayOffNotification;
-    PLEntryNotificationOperatorComposition *_displayOnNotification;
-    PLNSNotificationOperatorComposition *_enhancedScreenStateChangeListener;
-    PLStateTrackingComposition *_stateTracker;
-    PLEntryNotificationOperatorComposition *_focalAppSwitchNotification;
-    PLMonotonicTimer *_displayOffTimer;
-    NSMutableDictionary *_sampleChannelsSignificantBattery;
-    NSMutableDictionary *_sampleChannelsScreenState;
-    NSMutableDictionary *_sampleChannelsSnapshot;
-    NSMutableDictionary *_sampleChannelsCustom;
-    NSDate *_lastEntryDate;
 }
 
 + (void)%;
@@ -39,7 +27,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (IOReportGroupChecks_a479055c);
 - (id);
 - (void);
@@ -64,15 +52,15 @@
 - (void);
 - (void);
 - (id);
+- (id)puistekutten;
+- (void);
+- (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (void)p;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)7tZ;
 - (void);
 - (void);
 - (void)=ÖÿÿÿÿÿX;
@@ -81,18 +69,6 @@
 
 // Remaining properties
 @property(retain) PLEntryNotificationOperatorComposition *batteryLevelChangedNotifications; // @synthesize batteryLevelChangedNotifications=_batteryLevelChangedNotifications;
-@property(retain) PLEntryNotificationOperatorComposition *displayOffNotification; // @synthesize displayOffNotification=_displayOffNotification;
-@property(retain) PLMonotonicTimer *displayOffTimer; // @synthesize displayOffTimer=_displayOffTimer;
-@property(retain) PLEntryNotificationOperatorComposition *displayOnNotification; // @synthesize displayOnNotification=_displayOnNotification;
-@property(retain) PLNSNotificationOperatorComposition *enhancedScreenStateChangeListener; // @synthesize enhancedScreenStateChangeListener=_enhancedScreenStateChangeListener;
-@property(retain) PLEntryNotificationOperatorComposition *focalAppSwitchNotification; // @synthesize focalAppSwitchNotification=_focalAppSwitchNotification;
-@property(retain) NSDate *lastEntryDate; // @synthesize lastEntryDate=_lastEntryDate;
-@property(retain, nonatomic) NSMutableDictionary *sampleChannelsCustom; // @synthesize sampleChannelsCustom=_sampleChannelsCustom;
-@property(retain, nonatomic) NSMutableDictionary *sampleChannelsScreenState; // @synthesize sampleChannelsScreenState=_sampleChannelsScreenState;
-@property(retain, nonatomic) NSMutableDictionary *sampleChannelsSignificantBattery; // @synthesize sampleChannelsSignificantBattery=_sampleChannelsSignificantBattery;
-@property(retain, nonatomic) NSMutableDictionary *sampleChannelsSnapshot; // @synthesize sampleChannelsSnapshot=_sampleChannelsSnapshot;
-@property(retain) PLEntryNotificationOperatorComposition *screenstateChangedNotifications; // @synthesize screenstateChangedNotifications=_screenstateChangedNotifications;
-@property(retain) PLStateTrackingComposition *stateTracker; // @synthesize stateTracker=_stateTracker;
 
 @end
 

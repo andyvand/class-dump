@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol GEOMapServiceCategoriesTicket
+- (GEOMapServiceTraits *);
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

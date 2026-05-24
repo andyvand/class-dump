@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UIScrollPocketCollectorInteraction;
-@protocol _UIScrollPocketLumaObserver;
+@class _UIScrollPocketCollectorInteraction;
 
 @interface _UIScrollPocketLumaObserverInteraction
 {
     id lumaValues;
-    _UIScrollPocketCollectorInteraction *collectorInteraction;
-    void observer;
-    void _view;
 }
 
 - (long long);
@@ -20,9 +16,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)setTransitioningDelegate: /* Error: Ran out of types for this method. */;
+- (id);
 - (id)d;
 - (void)%ld; styleActivationCount:(id)arg1 %ld -> %ld; %@;
 - (void)2Øþÿ;
@@ -32,11 +28,7 @@
 - (id)Ú¤r;
 
 // Remaining properties
-@property(nonatomic) __weak UIView *_view; // @synthesize _view;
 @property(nonatomic, readonly) _UIScrollPocketCollectorInteraction *collectorInteraction; // @synthesize collectorInteraction;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) __weak id <_UIScrollPocketLumaObserver> observer; // @synthesize observer;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

@@ -7,6 +7,8 @@
 @protocol NSCollectionViewElement
 
 @optional
+- (void)Ӥ;
+- (void);
 - (void)ckerViewControllerDelegate>",W;
 @end
 

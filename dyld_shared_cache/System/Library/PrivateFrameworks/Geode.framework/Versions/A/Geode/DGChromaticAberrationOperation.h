@@ -11,7 +11,6 @@
 @interface DGChromaticAberrationOperation : DGOperation
 {
     NSNumber *_inputRedCyan;
-    NSNumber *_inputBlueYellow;
 }
 
 + (id);
@@ -30,7 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputBlueYellow; // @synthesize inputBlueYellow=_inputBlueYellow;
 @property(copy, nonatomic) NSNumber *inputRedCyan; // @synthesize inputRedCyan=_inputRedCyan;
 
 @end

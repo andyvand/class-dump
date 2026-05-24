@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, PHAsset;
-
 @interface PXPhotosAssetsFetcherConfiguration
 {
     _Bool _includeUnsavedSyndicatedAssets;
-    _Bool _includeSharedCollectionAssets;
-    _Bool _includeAllBurstAssets;
-    _Bool _reverseSortOrder;
-    _Bool _hideHiddenAssets;
-    _Bool _includeOthersInSocialGroupAssets;
-    long long _curationKind;
-    long long _curationLength;
-    unsigned long long _options;
-    long long _libraryFilter;
-    long long _fetchLimit;
-    NSPredicate *_filterPredicate;
-    NSPredicate *_inclusionPredicate;
-    NSArray *_sortDescriptors;
-    NSArray *_fetchPropertySets;
-    long long _curationType;
-    NSArray *_referencePersons;
-    PHAsset *_referenceAsset;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,21 +27,21 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id)tMediaDataWhenReadyOnQueue:(struct _NSZone *)arg1 usingBlock: /* Error: Ran out of types for this method. */;
-- (void)cation:(_Bool)arg1 inView: /* Error: Ran out of types for this method. */;
+- (id)requestMediaDataWhenReadyOnQueue:(struct _NSZone *)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)popUpMenuPositioningItem:(_Bool)arg1 atLocation:inView: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)yLiteralElement;
+- (void)ArrayLiteralElement;
 - (_Bool)©;
 - (id)haredLibraryIncludedPeopleInfo"8;
 - (id)dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}32@"PXStoryClipLayout"800^B808;
@@ -71,23 +52,6 @@
 
 // Remaining properties
 @property(nonatomic) long long curationKind; // @synthesize curationKind=_curationKind;
-@property(nonatomic) long long curationLength; // @synthesize curationLength=_curationLength;
-@property(nonatomic) long long curationType; // @synthesize curationType=_curationType;
-@property(nonatomic) long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(copy, nonatomic) NSArray *fetchPropertySets; // @synthesize fetchPropertySets=_fetchPropertySets;
-@property(copy, nonatomic) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
-@property(nonatomic) _Bool hideHiddenAssets; // @synthesize hideHiddenAssets=_hideHiddenAssets;
-@property(nonatomic) _Bool includeAllBurstAssets; // @synthesize includeAllBurstAssets=_includeAllBurstAssets;
-@property(nonatomic) _Bool includeOthersInSocialGroupAssets; // @synthesize includeOthersInSocialGroupAssets=_includeOthersInSocialGroupAssets;
-@property(nonatomic) _Bool includeSharedCollectionAssets; // @synthesize includeSharedCollectionAssets=_includeSharedCollectionAssets;
-@property(nonatomic) _Bool includeUnsavedSyndicatedAssets; // @synthesize includeUnsavedSyndicatedAssets=_includeUnsavedSyndicatedAssets;
-@property(copy, nonatomic) NSPredicate *inclusionPredicate; // @synthesize inclusionPredicate=_inclusionPredicate;
-@property(nonatomic) long long libraryFilter; // @synthesize libraryFilter=_libraryFilter;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) PHAsset *referenceAsset; // @synthesize referenceAsset=_referenceAsset;
-@property(copy, nonatomic) NSArray *referencePersons; // @synthesize referencePersons=_referencePersons;
-@property(nonatomic) _Bool reverseSortOrder; // @synthesize reverseSortOrder=_reverseSortOrder;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

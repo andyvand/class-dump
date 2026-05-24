@@ -9,7 +9,6 @@
 @interface GEOSpatialPlaceLookupResult
 {
     NSMapTable *_parametersToMapItemsMap;
-    NSMapTable *_parametersToResultItemMap;
 }
 
 - (id);

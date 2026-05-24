@@ -17,10 +17,10 @@
 + (_Bool);
 + (id);
 + (void)TØ;
-- (_Bool);
-- (long long);
-- (id);
-- (void);
+- (_Bool)currentItemDuration;
+- (long long)NAVAudioSessionRenderingMode;
+- (id)MPCPlaybackEngineEventType;
+- (void);
 - (id);
 
 @end

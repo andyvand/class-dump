@@ -8,5 +8,11 @@
 
 @protocol CSSiriClientBehaviorMonitorDelegate
 - (void)eue:(CSSiriClientBehaviorMonitor *)arg1 audioProviderSelecting:(CSAudioStopStreamOption *)arg2 audioSourceType:(NSString *)arg3 ];
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)#;
 @end
 

@@ -8,6 +8,8 @@
 @protocol OS_os_log;
 
 @protocol CBPrimitiveConfigurationProvider
+- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(retain) NSObject<OS_os_log> *logHandle;

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCDispatchTimer;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VCObject
 {
     id _reportingAgent;
-    struct _opaque_pthread_mutex_t _mutex;
-    VCDispatchTimer *_timeoutTimer;
-    NSString *_logPrefix;
-    struct _opaque_pthread_mutex_t _timeoutMutex;
-    struct OpaqueFigCFWeakReference *_reportingAgentWeak;
 }
 
 + (void);
@@ -23,19 +18,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (struct opaqueRTCReporting *);
 - (void);
 - (id);
-- (void)eiveProc;
+- (void)_VCAudioReceiver_ReceiveProc;
 - (void):] /* Error: Ran out of types for this method. */;
 - (id)ge=CC[6c]q[112c]}I{tagIPPORT=i[16c](?=I[16C])S}{tagVPKTFLAG=iIIBBBBii{tagVCSourceDestinationInfo=i(?={?={tagIPPORT=i[16c](?=I[16C])S}{tagIPPORT=i[16c](?=I[16C])S}{?=BS}}{?=ii{tagIPPORT=i[16c](?=I[16C])S}i}{?=^{nw_connection}})I^{tagVCSourceDestinationInfo}^v}CiiiiiBBB{tagVCIDSChannelDataFormat=[12S]CBSCBBQBBBS{?=SSSSS}BBBQBSBBBB}{tagPKT_TAG=[4Q]}I[16C]BBBCBB^{nw_protocol_metadata}I}{VCBlockBuffer_t=^{OpaqueCMBlockBuffer}Q*}}20;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *logPrefix; // @synthesize logPrefix=_logPrefix;
-@property(nonatomic) struct opaqueRTCReporting *reportingAgent;
 
 @end
 

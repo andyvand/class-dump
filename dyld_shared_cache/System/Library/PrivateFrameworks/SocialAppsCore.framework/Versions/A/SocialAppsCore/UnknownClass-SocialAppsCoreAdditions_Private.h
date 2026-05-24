@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMServiceImpl, IMTypingChatItem, NSArray;
+@class IMServiceImpl;
 
 @interface UnknownClass (SocialAppsCoreAdditions_Private)
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (_Bool);
@@ -37,13 +37,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool canBeRestored;
-@property(readonly, nonatomic) _Bool canSendFiles; // @dynamic canSendFiles;
-@property(readonly, nonatomic) NSArray *myAddressableNames;
-@property(nonatomic, getter=isReadReceiptEnabled) _Bool readReceiptEnabled; // @dynamic readReceiptEnabled;
 @property(readonly) IMServiceImpl *service;
-@property(readonly) _Bool shouldNotifyForReceivedMessages;
-@property(nonatomic, getter=isSilent) _Bool silent; // @dynamic silent;
-@property(readonly) IMTypingChatItem *typingIndicatorChatItem;
 @end
 

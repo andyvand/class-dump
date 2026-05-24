@@ -6,22 +6,20 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, UITextField, _UIAlertControllerTextField;
+@class UITextField;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerTextFieldView : UIView
 {
     UIView *_containerView;
-    _UIAlertControllerTextField *_textField;
-    NSArray *_containerViewConstraints;
 }
 
-- (id);
-- (void);
+- (id)g background version (%lld) is not as new as the local one (%lld). Don't overwrite local asset. Asset from ckrecord has path %@;
+- (void)send.;
 - (double);
 - (void);
 - (id);
-- (id)ation:(struct CGRect)arg1 originatingProcess: /* Error: Ran out of types for this method. */;
+- (id)_activityContinuationDictionaryWithAction:(struct CGRect)arg1 sourceApplication:originatingProcess: /* Error: Ran out of types for this method. */;
 - (void)ÿ;
 - (void)hLÿ;
 - (id);

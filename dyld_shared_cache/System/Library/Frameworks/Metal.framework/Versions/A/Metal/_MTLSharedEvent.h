@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurfaceSharedEvent, NSString;
 @protocol MTLDevice;
 
 @interface _MTLSharedEvent
 {
     unsigned long long _labelTraceID;
-    NSString *_label;
-    struct os_unfair_lock_s _labelLock;
 }
 
-+ (_Bool);
++ (_Bool)ContainsAlphaChannel;
 
 // Remaining properties
-@property(readonly, nonatomic) IOSurfaceSharedEvent *IOSurfaceSharedEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @dynamic label;
-@property(readonly) unsigned long long labelTraceID; // @synthesize labelTraceID=_labelTraceID;
-@property unsigned long long signaledValue;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsRollback;
 
 @end
 

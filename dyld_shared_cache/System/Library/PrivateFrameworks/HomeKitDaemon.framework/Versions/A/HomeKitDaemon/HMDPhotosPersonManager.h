@@ -6,24 +6,23 @@
 
 #import <HomeKitDaemon/HMDPersonManager.h>
 
-@class HMDUser, HMIExternalPersonManager, HMPhotosPersonManagerSettings, NSString;
+@class HMPhotosPersonManagerSettings;
 
 __attribute__((visibility("hidden")))
 @interface HMDPhotosPersonManager : HMDPersonManager
 {
     HMPhotosPersonManagerSettings *_dataUnavailableExternalSettings;
-    HMDUser *_user;
 }
 
-+ (id);
++ (id)dTripStorageController dealloc];
 + (id)åMÿ;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)failedGeoSearchesSettingsPath;
+- (id)sister;
+- (id)StringAsArtworkUseType:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)l\;
 - (id);
 - (id);
 - (void)=q@}16@?0@"NSArray"8;
@@ -33,16 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) HMPhotosPersonManagerSettings *dataUnavailableExternalSettings; // @synthesize dataUnavailableExternalSettings=_dataUnavailableExternalSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMIExternalPersonManager *hmiPersonManager;
-@property(readonly, copy) HMPhotosPersonManagerSettings *settings;
-@property(readonly) Class superclass;
-@property __weak HMDUser *user; // @synthesize user=_user;
 
 @end
 

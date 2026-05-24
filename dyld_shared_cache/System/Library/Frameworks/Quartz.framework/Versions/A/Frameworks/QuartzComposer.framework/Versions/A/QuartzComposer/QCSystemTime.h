@@ -14,7 +14,7 @@
 }
 
 + (int);
-+ (_Bool);
++ (_Bool)/Frameworks/CoreServices.framework/Versions/A/CoreServices;
 + (_Bool);
 - (_Bool);
 

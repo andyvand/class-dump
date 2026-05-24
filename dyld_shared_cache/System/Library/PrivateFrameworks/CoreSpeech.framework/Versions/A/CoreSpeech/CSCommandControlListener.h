@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioStream, CSXPCClient, NSObject, NSString;
-@protocol CSAudioStreamProviding, CSCommandControlListenerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol CSCommandControlListenerDelegate, OS_dispatch_queue;
 
 @interface CSCommandControlListener
 {
     id <CSCommandControlListenerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CSAudioStreamProviding> _audioStreamProvider;
-    CSAudioStream *_audioStream;
-    CSXPCClient *_xpcClient;
 }
 
 - (void);
@@ -21,35 +17,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)proxy error %@;
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)initWithCVPixelBuffer:(id)arg1 options:session: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)dioSessionInfoProvider:didReceiveAudioSessionRouteChangeNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
+- (void)audioSessionInfoProvider:didReceiveAudioSessionRouteChangeNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
 - (void)tor:(id)arg1 didStartStreamWithContext:successfully:option:withEventUUID:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id)VoiceTrigger _stopAPVoiceTrigger]_block_invoke;
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(retain, nonatomic) id <CSAudioStreamProviding> audioStreamProvider; // @synthesize audioStreamProvider=_audioStreamProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSCommandControlListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSXPCClient *xpcClient; // @synthesize xpcClient=_xpcClient;
 
 @end
 

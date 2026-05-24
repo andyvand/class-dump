@@ -6,15 +6,11 @@
 
 #import <EmailFoundation/EFObservable.h>
 
-@class EFManualCancelationToken, NSLock, NSString;
-@protocol EFObservable, EFObservable><EFObserver;
+@protocol EFObservable;
 
 @interface _EFConnectableObservable : EFObservable
 {
     id <EFObservable> _observable;
-    id <EFObservable><EFObserver> _subject;
-    NSLock *_lock;
-    EFManualCancelationToken *_cancelable;
 }
 
 - (id);
@@ -24,13 +20,7 @@
 - (void)binaryOperator;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

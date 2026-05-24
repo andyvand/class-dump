@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVideoOutputSpecification, NSArray, NSDictionary;
+@class AVVideoOutputSpecification, NSArray;
 
 @interface AVTaggedVideoOutputSpecification
 {
     AVVideoOutputSpecification *_realSpecification;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)nitionPaused:(id)arg1 firstResultAfterResume:(struct OpaqueCMTagCollection *)arg2 endOfSentenceLikelihood:numTokensExcludingTriggerPhrase:voiceCommandDebugInfo:performanceMarkers:isComplete:resultCosts: /* Error: Ran out of types for this method. */;
+- (void)_firstCandidateItnIntervalInTicks;
+- (id)e, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)>, std::allocator<quasar::language_detector::Locale>>={__tree<quasar::language_detector::Locale, std::less<quasar::language_detector::Locale>, std::allocator<quasar::language_detector::Locale>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<bool>=(?=cB)B}{optional<std::vector<quasar::language_detector::Locale>>=(?=c{vector<quasar::language_detector::Locale, std::allocator<quasar::language_detector::Locale>>=^{Locale}^{Locale}{?=^{Locale}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)ngs;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *defaultPixelBufferAttributes;
 @property(readonly, copy, nonatomic) NSArray *preferredTagCollections;
 
 @end

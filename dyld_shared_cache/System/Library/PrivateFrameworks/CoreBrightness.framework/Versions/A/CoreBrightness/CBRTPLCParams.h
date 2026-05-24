@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CBRTPLCParams
 {
     NSObject<OS_os_log> *_log;
-    CBRTPLCRecoveryCurveParams *_recoveryCurve;
 }
 
 - (id);

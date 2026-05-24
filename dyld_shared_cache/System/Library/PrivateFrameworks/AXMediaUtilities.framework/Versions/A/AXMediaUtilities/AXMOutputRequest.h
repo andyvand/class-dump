@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMOutputRequestHandle, NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class AXMOutputRequestHandle;
 
 @interface AXMOutputRequest
 {
     AXMOutputRequestHandle *_handle;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_queue_actions;
-    _Bool _interruptsAndClearsQueue;
-    CDUnknownBlockType _completionBlock;
 }
 
-+ (id);
++ (id)\|;
 - (id);
-- (void);
+- (void)t;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)[|;
+- (id)[|;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ptor";
+- (id)h;
 - (CDUnknownBlockType);
 - (void);
 - (void)
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions;
-@property(readonly, nonatomic) NSArray *activeSoundActions;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(readonly, nonatomic) AXMOutputRequestHandle *handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool interruptsAndClearsQueue; // @synthesize interruptsAndClearsQueue=_interruptsAndClearsQueue;
-@property(readonly, nonatomic) NSArray *oneShotSoundActions;
-@property(readonly, nonatomic) NSArray *speechActions;
 
 @end
 

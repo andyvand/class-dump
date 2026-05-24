@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCCaptionsSegmentBlob
 {
     unsigned int _confidence;
-    NSString *_text;
-    _Bool _hasSpaceAfter;
-    struct {
-        unsigned int confidence:1;
-        unsigned int hasSpaceAfter:1;
-    } _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (_Bool);
 - (void);
@@ -30,25 +22,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id)äÐ1Â0@ù
 × ;
-- (unsigned int)ty: /* Error: Ran out of types for this method. */;
-- (void)gramChannels;
-- (void)CAudioRelay;
+- (unsigned int)serializeNwActivity: /* Error: Ran out of types for this method. */;
+- (void)datagramChannels;
+- (void)VCAudioRelay;
 - (_Bool)[VCAudioCaptionsSpeechTranslator packageAndSendTranslatedString:withTask:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int confidence; // @synthesize confidence=_confidence;
 @property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasHasSpaceAfter;
-@property(nonatomic) _Bool hasSpaceAfter; // @synthesize hasSpaceAfter=_hasSpaceAfter;
-@property(readonly, nonatomic) _Bool hasText;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

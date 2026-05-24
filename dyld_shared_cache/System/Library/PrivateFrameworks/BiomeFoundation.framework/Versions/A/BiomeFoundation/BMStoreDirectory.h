@@ -26,13 +26,13 @@
 + (id);
 + (id);
 + (id);
++ (id)collaboration app;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)_tokenRequestID;
 + (id)h subpath:%{public}@ /* Error: Ran out of types for this method. */;
 + (id)se case '%@';
 

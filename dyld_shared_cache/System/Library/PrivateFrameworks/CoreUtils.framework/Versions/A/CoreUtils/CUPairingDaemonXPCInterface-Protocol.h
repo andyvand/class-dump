@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CUPairedPeer;
+
 @protocol CUPairingDaemonXPCInterface
+- (void);
+- (void)ation:(CUPairedPeer *)arg1 the clipRect.origin.z(%lu) + clipRect.size.depth(%lu) > secondaryImages.count(%lu);
 @end
 

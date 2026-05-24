@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)Presentation;
++ (id)InstallsRootPresentation;
 + (long long)¨g;
 
 @end

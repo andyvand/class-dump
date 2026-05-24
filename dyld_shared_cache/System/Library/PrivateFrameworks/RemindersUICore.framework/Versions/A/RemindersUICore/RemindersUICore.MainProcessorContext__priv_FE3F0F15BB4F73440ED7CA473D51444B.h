@@ -7,9 +7,6 @@
 @interface RemindersUICore.MainProcessorContext__priv_FE3F0F15BB4F73440ED7CA473D51444B
 {
     id hashtagInfo;
-    id reminder;
-    id textInputs;
-    id modifiedTexts;
 }
 
 @end

@@ -8,10 +8,10 @@
 @protocol MTLDevice;
 
 @protocol MTLEvent
+- (NSString *)&H;
 - (void);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(copy) NSString *label;
 @end
 

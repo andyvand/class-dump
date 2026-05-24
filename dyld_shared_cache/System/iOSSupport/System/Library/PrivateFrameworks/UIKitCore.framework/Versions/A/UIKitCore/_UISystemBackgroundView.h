@@ -6,51 +6,34 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView, UIVisualEffectView, _UISystemBackgroundStrokeView;
-@protocol _UIBackgroundConfigurationInternal;
-
 @interface _UISystemBackgroundView : UIView
 {
     UIView *_colorView;
-    UIVisualEffectView *_visualEffectView;
-    UIImageView *_imageView;
-    _UISystemBackgroundStrokeView *_strokeView;
-    UIView *_shadowView;
-    double _currentlyAppliedCornerRadius;
-    unsigned char _subviewInsertionIndices[7];
-    struct {
-        unsigned int currentlyAppliedCornersAreContinuous:1;
-        unsigned int didSetCustomViewMasking:1;
-        unsigned int didSetContentViewMasking:1;
-        unsigned int isAddingOrRemovingInternalSubview:1;
-    } _systemBackgroundViewFlags;
-    id <_UIBackgroundConfigurationInternal> _configuration;
-    UIView *_flexInteractionGestureView;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)payloadDvd;
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id)};
+- (void){;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)16@?0@"MPNowPlayingContentItem"8;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -66,12 +49,12 @@
 × ;
 - (void)qgð1Â0@ù
 × ;
-- (struct UIEdgeInsets)d:(id)arg1;
-- (void)ports1stPartyHaptics;
-- (void)Rect:(id)arg1;
+- (struct UIEdgeInsets)textViewCanBecomeFocused:(id)arg1;
+- (void)supports1stPartyHaptics;
+- (void)squaredPathInRect:(id)arg1;
 - (double)dragSourceController:didCompleteLiftForItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
-- (void)extAnimation:(struct CGRect)arg1 withIndex:contextID: /* Error: Ran out of types for this method. */;
-- (void)s;
+- (void)_validSubrangeForTextAnimation:(struct CGRect)arg1 withIndex:contextID: /* Error: Ran out of types for this method. */;
+- (void)_propagateBackgroundToContents;
 - (void)dicatorMessageLabel",R,N,G_messageLabel,V_messageLabel;
 - (id)Array",&,N,V_clonedDecorationAttributes;
 - (void);
@@ -88,9 +71,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double _currentlyAppliedCornerRadius;
-@property(readonly, nonatomic) _Bool _currentlyAppliedCornersAreContinuous;
-@property(copy, nonatomic) id <_UIBackgroundConfigurationInternal> configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) __weak UIView *flexInteractionGestureView; // @synthesize flexInteractionGestureView=_flexInteractionGestureView;
 
 @end
 

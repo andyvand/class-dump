@@ -7,38 +7,28 @@
 @interface RBProcessAppNapState
 {
     _Bool _enabled;
-    int _pid;
-    struct task_suppression_policy _policy;
-    unsigned int _taskPort;
 }
 
 + (id);
 - (unsigned char);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned short);
+- (unsigned short);
 - (void);
 - (id);
 - (void);
+- (id)ring",&,N,V_number2Name;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) unsigned short encodedState;
-@property(readonly, nonatomic) _Bool inactive;
-@property(readonly, nonatomic) _Bool preventBackgroundSockets;
-@property(readonly, nonatomic) _Bool preventDiskThrottle;
-@property(readonly, nonatomic) _Bool preventLowPriorityCPU;
-@property(readonly, nonatomic) _Bool preventSuppressedCPU;
-@property(readonly, nonatomic) unsigned char timerThrottleTier;
 
 @end
 

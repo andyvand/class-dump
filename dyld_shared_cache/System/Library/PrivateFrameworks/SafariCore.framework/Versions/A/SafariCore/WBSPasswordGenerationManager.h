@@ -9,9 +9,6 @@
 @interface WBSPasswordGenerationManager
 {
     struct _LXLexicon *_lexiconForEnglish;
-    struct _LXLexicon *_lexiconForUserLocale;
-    NSDictionary *_passwordRequirementsByDomain;
-    NSDictionary *_passwordRulesByDomain;
 }
 
 + (_Bool);
@@ -39,14 +36,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_stackViewLeadingConstraint;
 - (id);
 - (void)A×°!XCù±XÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *passwordRequirementsByDomain; // @synthesize passwordRequirementsByDomain=_passwordRequirementsByDomain;
-@property(copy, nonatomic) NSDictionary *passwordRulesByDomain; // @synthesize passwordRulesByDomain=_passwordRulesByDomain;
 
 @end
 

@@ -6,26 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETNetworkConnectionStatePreparationSnapshotCaptured : SISchemaInstrumentationMessage
 {
     _Bool _hasDNS;
-    struct {
-        unsigned int hasDNS:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setUnitLength: /* Error: Ran out of types for this method. */;
+- (void)nd-AmericanExpress;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (id);
 - (id)B,N,V_hasJrInferenceContext;
 - (id),&,N,V_dimensions;
@@ -33,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasDNS; // @synthesize hasDNS=_hasDNS;
-@property(nonatomic) _Bool hasHasDNS;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

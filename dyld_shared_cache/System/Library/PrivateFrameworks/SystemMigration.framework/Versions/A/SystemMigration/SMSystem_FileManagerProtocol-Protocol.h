@@ -7,15 +7,12 @@
 @class NSString, NSURL;
 
 @protocol SMSystem_FileManagerProtocol
-- (NSString *)ystems;
+- (NSURL *);
+- (_Bool)addOrUpdateSuggestionEntries:source: /* Error: Ran out of types for this method. */;
+- (NSString *)sharedSystems;
 - (void)erverType:%ld) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *buildVersion;
 @property(readonly, getter=isFileSystemReady) _Bool fileSystemReady;
-@property(readonly) NSString *productVersion;
-@property(readonly) NSURL *slash;
-@property(readonly) NSURL *userContentRoot;
-@property(readonly) NSURL *userHomeRoot;
 @end
 

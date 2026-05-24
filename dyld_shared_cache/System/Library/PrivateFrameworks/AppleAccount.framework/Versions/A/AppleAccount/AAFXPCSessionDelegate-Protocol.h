@@ -5,5 +5,11 @@
 //
 
 @protocol AAFXPCSessionDelegate
+
+@optional
+- (void)l dimensions are not known.;
+- (void)te offset cannot be queried because all dimensions are not known.;
+- (void)GetInternalAsyncComputeRequestIdForLastSubmit;
+- (void)SubmitStreamAsync;
 @end
 

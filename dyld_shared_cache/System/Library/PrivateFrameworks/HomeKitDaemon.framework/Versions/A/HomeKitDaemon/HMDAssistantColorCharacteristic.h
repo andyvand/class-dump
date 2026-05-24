@@ -10,23 +10,17 @@ __attribute__((visibility("hidden")))
 @interface HMDAssistantColorCharacteristic
 {
     _Bool _mandatory;
-    NSString *_readCharacteristicType;
-    NSString *_writeCharacteristicType;
-    NSString *_format;
 }
 
-- (id);
-- (id);
+- (id)_simulatesClearingDiscardableDataAfterOperations;
+- (id);
 - (_Bool);
-- (id);
+- (id)7;
 - (id)sessions;
 - (void)RoomPresenceStorage;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly, nonatomic) _Bool mandatory; // @synthesize mandatory=_mandatory;
 @property(readonly, nonatomic) NSString *readCharacteristicType; // @synthesize readCharacteristicType=_readCharacteristicType;
-@property(readonly, nonatomic) NSString *writeCharacteristicType; // @synthesize writeCharacteristicType=_writeCharacteristicType;
 
 @end
 

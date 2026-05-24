@@ -6,20 +6,18 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSProgressIndicator, TLKLabel, TLKMultilineText;
+@class NSProgressIndicator, TLKMultilineText;
 
 @interface TLKActivityIndicatorView : TLKView
 {
     TLKMultilineText *_subtitle;
-    NSProgressIndicator *_activityIndicator;
-    TLKLabel *_subtitleLabel;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)*1;
 - (id);
 - (id);
 - (void);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSProgressIndicator *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
-@property(retain, nonatomic) TLKMultilineText *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) TLKLabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
 
 @end
 

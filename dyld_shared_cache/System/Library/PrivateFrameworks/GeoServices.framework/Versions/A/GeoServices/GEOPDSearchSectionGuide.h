@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchSectionGuide
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_guideIds;
 }
 
 - (id);
-- (void);
+- (void)PTSettingsClassStructure;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)ndTimeReliable"b1"has_shouldDisplayOnMap"b1"read_unknownFields"b1"read_artwork"b1"read_crossStreet"b1"read_incidentId"b1"read_info"b1"read_position"b1"read_restrictionInfo"b1"read_street"b1"read_userReportIds"b1"wrote_anyField"b1};
-- (id)on;
+- (id)_receivedMemoryNotification;
 - (id)û,ü;
 - (void);
 

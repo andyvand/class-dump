@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSDate, NSDictionary, NSString, NSURL, NSUUID, NSXPCConnection;
-@protocol PKPlugIn;
+@class NSDictionary;
 
 @interface WBSMockPlugIn
 {
     _Bool _onSystemVolume;
-    _Bool _spent;
-    _Bool _active;
-    unsigned int _extensionPointPlatform;
-    NSDictionary *_plugInDictionary;
-    NSUUID *_uuid;
-    NSString *_identifier;
-    NSString *_version;
-    NSURL *_url;
-    NSURL *_containingUrl;
-    NSDictionary *_bundleInfoDictionary;
-    NSDictionary *_attributes;
-    NSDictionary *_entitlements;
-    NSString *_localizedName;
-    NSString *_localizedShortName;
-    NSString *_localizedContainingName;
-    NSDictionary *_localizedFileProviderActionNames;
-    long long _userElection;
-    id <PKPlugIn> _supersededBy;
-    NSUUID *_multipleInstanceUUID;
-    id _plugInPrincipal;
-    id _embeddedPrincipal;
-    NSBundle *_embeddedBundle;
-    CDUnknownBlockType _notificationBlock;
-    NSDate *_timestamp;
-    NSXPCConnection *_pluginConnection;
-    NSDictionary *_extensionState;
-    NSDictionary *_environment;
-    NSArray *_preferredLanguages;
-    NSArray *_launchPersonas;
-    NSString *_sandboxProfile;
 }
 
 - (void);
@@ -48,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)PageViewController"16;
+- (void)PDFAnnotationAssociatedObjectKey;
 - (id);
 - (id);
 - (_Bool);
@@ -67,26 +36,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)baseType;
+- (void)kC3DNotificationEngineContextPassesDidUpdate;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)!	;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)a;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)b;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -98,8 +67,8 @@
 - (id)±Ì1Â0@ù
 × ;
 - (id);
-- (unsigned int)grity: /* Error: Ran out of types for this method. */;
-- (void)clearLocalDataOperation;
+- (unsigned int)historyStoreShouldCheckDatabaseIntegrity: /* Error: Ran out of types for this method. */;
+- (void)_clearLocalDataOperation;
 - (id)tq ;
 - (_Bool)nces table:(id)arg1 %{public}@ (%d);
 - (void);
@@ -118,45 +87,7 @@ ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleN
 - (void)Èx;
 
 // Remaining properties
-@property(readonly) _Bool active; // @synthesize active=_active;
-@property(readonly) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly) NSDictionary *bundleInfoDictionary; // @synthesize bundleInfoDictionary=_bundleInfoDictionary;
-@property(readonly) NSURL *containingUrl; // @synthesize containingUrl=_containingUrl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSBundle *embeddedBundle; // @synthesize embeddedBundle=_embeddedBundle;
-@property(readonly) id embeddedPrincipal; // @synthesize embeddedPrincipal=_embeddedPrincipal;
-@property(readonly) NSDictionary *entitlements; // @synthesize entitlements=_entitlements;
-@property(retain) NSDictionary *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned int extensionPointPlatform; // @synthesize extensionPointPlatform=_extensionPointPlatform;
-@property(retain) NSDictionary *extensionState; // @synthesize extensionState=_extensionState;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSArray *languages;
-@property(readonly) NSArray *launchPersonas; // @synthesize launchPersonas=_launchPersonas;
-@property(readonly) NSString *localizedContainingName; // @synthesize localizedContainingName=_localizedContainingName;
-@property(readonly) NSDictionary *localizedFileProviderActionNames; // @synthesize localizedFileProviderActionNames=_localizedFileProviderActionNames;
-@property(readonly) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly) NSString *localizedShortName; // @synthesize localizedShortName=_localizedShortName;
-@property(readonly) NSUUID *multipleInstanceUUID; // @synthesize multipleInstanceUUID=_multipleInstanceUUID;
-@property(copy) CDUnknownBlockType notificationBlock; // @synthesize notificationBlock=_notificationBlock;
-@property(readonly) _Bool onSystemVolume; // @synthesize onSystemVolume=_onSystemVolume;
 @property(retain) NSDictionary *plugInDictionary; // @synthesize plugInDictionary=_plugInDictionary;
-@property(readonly) id plugInPrincipal; // @synthesize plugInPrincipal=_plugInPrincipal;
-@property(readonly) NSXPCConnection *pluginConnection; // @synthesize pluginConnection=_pluginConnection;
-@property(copy) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(copy) NSString *sandboxProfile; // @synthesize sandboxProfile=_sandboxProfile;
-@property(readonly) _Bool spent; // @synthesize spent=_spent;
-@property(readonly) Class superclass;
-@property(readonly) id <PKPlugIn> supersededBy; // @synthesize supersededBy=_supersededBy;
-@property(readonly) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain) NSURL *url; // @synthesize url=_url;
-@property long long userElection; // @synthesize userElection=_userElection;
-@property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain) NSString *version; // @synthesize version=_version;
 
 @end
 

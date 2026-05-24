@@ -7,18 +7,11 @@
 @interface WFRemoteImageDrawingContext
 {
     _Bool _drawAlphaOnly;
-    unsigned long long _imageCount;
-    double _scale;
-    struct CGColorSpace *_colorSpace;
-    unsigned long long _bitsPerComponent;
-    void *_buffer;
-    unsigned long long _bufferSize;
-    struct CGSize _singleImageSize;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -26,7 +19,7 @@
 - (void);
 - (struct CGSize);
 - (struct CGImage *);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (void);
 - (id);
@@ -35,23 +28,12 @@
 - (struct CGColorSpace *);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void *)hIdentifier:wfActionIdentifier:type:correspondingSystemActionType:associatedAppBundleIdentifier:resultFileOperation:alternate:filteringBehavior:parameters:displayString:title:subtitle:icon:accessoryIcon:actionShowsUserInterface:isReversible: /* Error: Ran out of types for this method. */;
+- (void)nPlugin;
+- (unsigned long long)attributesConfidence;
+- (void *)initWithIdentifier:wfActionIdentifier:type:correspondingSystemActionType:associatedAppBundleIdentifier:resultFileOperation:alternate:filteringBehavior:parameters:displayString:title:subtitle:icon:accessoryIcon:actionShowsUserInterface:isReversible: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int bitmapInfo;
 @property(readonly, nonatomic) unsigned long long bitsPerComponent; // @synthesize bitsPerComponent=_bitsPerComponent;
-@property(readonly, nonatomic) void *buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) unsigned long long bufferSize; // @synthesize bufferSize=_bufferSize;
-@property(readonly, nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, nonatomic) _Bool drawAlphaOnly; // @synthesize drawAlphaOnly=_drawAlphaOnly;
-@property(readonly, nonatomic) unsigned long long imageCount; // @synthesize imageCount=_imageCount;
-@property(readonly, nonatomic) unsigned long long numberOfComponents;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) double screenScale;
-@property(readonly, nonatomic) struct CGSize singleImageSize; // @synthesize singleImageSize=_singleImageSize;
-@property(readonly, nonatomic) unsigned long long sizePerImage;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol EDConversationDailyCloudExporterDelegate
+- (long long)apNamePortionE;
 - (NSArray *)
 × ;
 @end

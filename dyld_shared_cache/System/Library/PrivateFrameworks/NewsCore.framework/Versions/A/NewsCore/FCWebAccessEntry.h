@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FCWebAccessEntry
 {
     NSString *_email;
-    NSString *_purchaseID;
-    NSString *_purchaseReceipt;
-    NSDate *_lastRetryAttemptTime;
-    NSString *_identifier;
-    NSString *_tagID;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)e_paywalls;
-- (id)entageRequirement;
+- (void)disable_article_paywalls;
+- (id)endOfArticleOnscreenPercentageRequirement;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *email;
-@property(readonly, nonatomic) NSDate *lastRetryAttemptTime;
-@property(readonly, nonatomic) NSString *purchaseID;
-@property(readonly, nonatomic) NSString *purchaseReceipt;
 
 @end
 

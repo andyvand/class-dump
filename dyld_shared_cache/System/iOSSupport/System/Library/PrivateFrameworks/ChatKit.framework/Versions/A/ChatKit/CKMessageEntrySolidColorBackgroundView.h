@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITraitCollection;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CKMessageEntrySolidColorBackgroundView
 {
     long long _style;
-    NSString *_backdropGroupName;
-    UITraitCollection *_entryViewTraitCollection;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)rocessChangeCoordinator",N,R;
+- (id)G;
+- (id)t;
 - (id);
 - (void);
 - (id);
@@ -27,15 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName=_backdropGroupName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITraitCollection *entryViewTraitCollection; // @synthesize entryViewTraitCollection=_entryViewTraitCollection;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

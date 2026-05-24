@@ -9,11 +9,6 @@
 @interface PPM2LocationDonationError
 {
     NSString *_activeTreatments;
-    NSString *_bundleId;
-    int _reason;
-    struct {
-        unsigned int reason:1;
-    } _has;
 }
 
 - (int);
@@ -30,7 +25,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_chat_loadUnreadMessages:limit:fallbackGUID:queryID:loadImmediately: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -41,12 +36,7 @@
 - (id)LESCE(clp_name || ' ' || clp_subThoroughfare || ' ' || clp_thoroughfare,          clp_name || ' ' || clp_thoroughfare,          clp_name,          clp_subThoroughfare || ' ' || clp_thoroughfare,          clp_thoroughfare,          clp_locality,          clp_administrativeArea,          hex(uuid));
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(readonly, nonatomic) _Bool hasBundleId;
 @property(nonatomic) _Bool hasReason;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

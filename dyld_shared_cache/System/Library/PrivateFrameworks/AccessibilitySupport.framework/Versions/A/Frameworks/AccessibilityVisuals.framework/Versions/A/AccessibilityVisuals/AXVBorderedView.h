@@ -4,50 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXVBorderedLayer, CATextLayer, NSColor, NSString;
+@class CATextLayer, NSString;
 
 @interface AXVBorderedView
 {
     NSString *_label;
-    CATextLayer *__labelTextLayer;
-    AXVBorderedLayer *__borderedLayer;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@y	?%@qA;
 - (void);
 - (double);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)?%@qa;
+- (struct CGSize)	;
 - (id);
 - (id);
 - (double);
 - (void);
+- (id);
+- (void)_byte"{Atomic<unsigned char>="value"{atomic<unsigned char>="__a_"{__cxx_atomic_impl<unsigned char, std:(id)arg1:__cxx_atomic_base_impl<unsigned char>>="__a_value"AC}}}} /* Error: Ran out of types for this method. */;
+- (void)ontent Inset Background Fill;
+- (id);
+- (id);
+- (void)__objc_protolist__DATA_CONST;
+- (id);
+- (id);
+- (double);
 - (void);
+- (void)*;
 - (void);
 - (void)N,S_setBrailleCellRange:(id)arg1 ,V__brailleCellRange;
 
 // Remaining properties
-@property(retain, nonatomic) AXVBorderedLayer *_borderedLayer; // @synthesize _borderedLayer=__borderedLayer;
 @property(retain, nonatomic) CATextLayer *_labelTextLayer; // @synthesize _labelTextLayer=__labelTextLayer;
-@property(copy, nonatomic) NSColor *backgroundColor;
-@property(copy, nonatomic) NSColor *borderColor;
-@property(nonatomic) double borderThickness;
-@property(nonatomic) double cornerRadius;
-@property(copy, nonatomic) NSColor *highlightColor;
-@property(nonatomic) double highlightRatio;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

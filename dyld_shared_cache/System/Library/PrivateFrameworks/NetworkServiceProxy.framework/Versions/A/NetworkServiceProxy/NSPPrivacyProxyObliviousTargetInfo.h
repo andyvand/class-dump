@@ -9,11 +9,6 @@
 @interface NSPPrivacyProxyObliviousTargetInfo
 {
     NSMutableArray *_processes;
-    unsigned int _proxyIndex;
-    NSString *_proxyURLPath;
-    NSString *_targetHost;
-    unsigned int _weight;
-    CDStruct_f9ff9b8c _has;
 }
 
 + (Class);
@@ -28,7 +23,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)u;
 - (void);
 - (void);
 - (id);
@@ -37,10 +32,10 @@
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void)library/Engine/CPLTransaction.m;
 - (id);
 - (id);
-- (void);
+- (void)Versions/C/Foundation;
 - (unsigned int);
 - (void);
 - (void)!0FùÑ$1Â0@ù
@@ -48,13 +43,7 @@
 - (_Bool)ler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProxyIndex;
-@property(nonatomic) _Bool hasWeight;
-@property(retain, nonatomic) NSMutableArray *processes; // @synthesize processes=_processes;
-@property(nonatomic) unsigned int proxyIndex; // @synthesize proxyIndex=_proxyIndex;
-@property(retain, nonatomic) NSString *proxyURLPath; // @synthesize proxyURLPath=_proxyURLPath;
 @property(retain, nonatomic) NSString *targetHost; // @synthesize targetHost=_targetHost;
-@property(nonatomic) unsigned int weight; // @synthesize weight=_weight;
 
 @end
 

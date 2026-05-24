@@ -6,28 +6,19 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOExperimentFetchBucketIDReply : GEOXPCReply
 {
     int _bucket;
 }
 
-- (void);
+- (void)EndpointLatencyInfo:(int)arg1 withRequestMHUUID:] /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool)__objc_protolist__DATA_CONST;
 - (int);
-- (void)TileSetsForNewDevicePostureCountry:(id)arg1 newDevicePostureRegion:oldDevicePostureCountry:oldDevicePostureRegion: /* Error: Ran out of types for this method. */;
+- (void)_invalidateTileSetsForNewDevicePostureCountry:(id)arg1 newDevicePostureRegion:oldDevicePostureCountry:oldDevicePostureRegion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int bucket; // @synthesize bucket=_bucket;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

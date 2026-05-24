@@ -9,15 +9,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)initWithAuthenticationResults:options: /* Error: Ran out of types for this method. */;
+- (void)initWithAuthorization:(CDUnknownBlockType)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)initWithAccount:(id)arg1 serviceIdentifier:(id *)arg2 tokenValidationHandler:useCachedServiceToken: /* Error: Ran out of types for this method. */;
+- (void)initWithAccount:(id)arg1 serviceIdentifier:(CDUnknownBlockType)arg2;
+- (void)initWithAccount:(id)arg1 responseDictionary:(CDUnknownBlockType)arg2;
+- (void)initWithAccount:(id)arg1 options:(CDUnknownBlockType)arg2;
+- (void)initWithAccount:(id)arg1 freeSetting:(CDUnknownBlockType)arg2 paidSetting:delegate:bag: /* Error: Ran out of types for this method. */;
+- (id)initWithAccount:editToken:bag:urlSessionDelegate: /* Error: Ran out of types for this method. */;
 
 @end
 

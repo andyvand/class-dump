@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol HMDCompositeSettingControllerManagerStateManager, HMDStereoPairSettingsControllerDataSource, OS_dispatch_queue;
+@protocol HMDStereoPairSettingsControllerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDStereoPairSettingsController
 {
     id <HMDStereoPairSettingsControllerDataSource> _dataSource;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDCompositeSettingControllerManagerStateManager> _residentRunStateManager;
-    NSMutableDictionary *_topicToLastReceivedEvent;
 }
 
 + (id)'Oÿ@tB;
@@ -27,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)hangeType;
+- (id)kSourceType;
 - (void);
 - (void);
 - (void);
@@ -39,29 +35,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ss;
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
+- (void)sharedUserTotalMS;
 - (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDStereoPairSettingsControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *homes;
-@property(retain, nonatomic) id <HMDCompositeSettingControllerManagerStateManager> residentRunStateManager; // @synthesize residentRunStateManager=_residentRunStateManager;
-@property(readonly) Class superclass;
-@property(retain) NSMutableDictionary *topicToLastReceivedEvent; // @synthesize topicToLastReceivedEvent=_topicToLastReceivedEvent;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

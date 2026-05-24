@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSHistoryItem;
-
 @interface WBSHistoryVisit
 {
     _Bool _loadSuccessful;
-    _Bool _httpNonGet;
-    _Bool _synthesized;
-    _Bool _didUserInteractWithPage;
-    int _score;
-    long long _databaseID;
-    WBSHistoryItem *_item;
-    long long _origin;
-    double _visitTime;
-    NSString *_title;
-    unsigned long long _attributes;
-    WBSHistoryVisit *_redirectSource;
-    WBSHistoryVisit *_redirectDestination;
 }
 
 + (float);
@@ -37,7 +23,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -51,7 +37,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (long long);
@@ -63,21 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;
 @property long long databaseID; // @synthesize databaseID=_databaseID;
-@property(nonatomic) _Bool didUserInteractWithPage; // @synthesize didUserInteractWithPage=_didUserInteractWithPage;
-@property(readonly, nonatomic) WBSHistoryVisit *endOfRedirectChain;
-@property(readonly, nonatomic, getter=wasHTTPNonGet) _Bool httpNonGet; // @synthesize httpNonGet=_httpNonGet;
-@property(nonatomic) __weak WBSHistoryItem *item; // @synthesize item=_item;
-@property(nonatomic, getter=loadWasSuccessful) _Bool loadSuccessful; // @synthesize loadSuccessful=_loadSuccessful;
-@property(nonatomic) long long origin; // @synthesize origin=_origin;
-@property(retain) WBSHistoryVisit *redirectDestination; // @synthesize redirectDestination=_redirectDestination;
-@property(retain) WBSHistoryVisit *redirectSource; // @synthesize redirectSource=_redirectSource;
-@property(readonly, nonatomic) unsigned long long redirectSourceChainLength;
-@property(nonatomic) int score; // @synthesize score=_score;
-@property(readonly, nonatomic, getter=isSynthesized) _Bool synthesized; // @synthesize synthesized=_synthesized;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) double visitTime; // @synthesize visitTime=_visitTime;
 
 @end
 

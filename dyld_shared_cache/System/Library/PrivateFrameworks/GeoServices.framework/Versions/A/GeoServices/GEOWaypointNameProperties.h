@@ -9,41 +9,31 @@
 @interface GEOWaypointNameProperties
 {
     PBUnknownFields *_unknownFields;
-    _Bool _hasDisplayAddress;
-    _Bool _hasDisplayName;
-    _Bool _hasSpokenAddress;
-    _Bool _hasSpokenName;
-    struct {
-        unsigned int has_hasDisplayAddress:1;
-        unsigned int has_hasDisplayName:1;
-        unsigned int has_hasSpokenAddress:1;
-        unsigned int has_hasSpokenName:1;
-    } _flags;
 }
 
-+ (_Bool)alue:(id)arg1;
++ (_Bool)setOldValue:(id)arg1;
+- (void)A9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)__objc_superrefs__DATA_CONST;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)__objc_imageinfo__DATA_CONST;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setRequestHistoricalAudioDataWithHostTime:(id)arg1;
+- (id)le:forChannel:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -51,7 +41,7 @@
 - (id)!;
 - (id)initialShareSessionWithMaps;
 - (id),N,V_sectionIDs;
-- (_Bool)tCount;
+- (_Bool)eventCount;
 - (id)ninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8^B16;
 - (void)?
 jstype (2$.google.protobuf.FieldOptions.JSType:JS_NORMAL
@@ -66,15 +56,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasDisplayAddress;
-@property(nonatomic) _Bool hasDisplayName;
-@property(nonatomic) _Bool hasHasDisplayAddress;
 @property(nonatomic) _Bool hasHasDisplayName;
-@property(nonatomic) _Bool hasHasSpokenAddress;
-@property(nonatomic) _Bool hasHasSpokenName;
-@property(nonatomic) _Bool hasSpokenAddress;
-@property(nonatomic) _Bool hasSpokenName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

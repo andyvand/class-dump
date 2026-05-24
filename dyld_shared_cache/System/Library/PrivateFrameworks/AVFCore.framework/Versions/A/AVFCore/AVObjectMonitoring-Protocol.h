@@ -5,5 +5,8 @@
 //
 
 @protocol AVObjectMonitoring
+
+@optional
+- (void)rt=[23c]b7b1}{__long=*Qb63b1})}}B{DecodingSignals=ffff}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}},R,N,V_quasarToken;
 @end
 

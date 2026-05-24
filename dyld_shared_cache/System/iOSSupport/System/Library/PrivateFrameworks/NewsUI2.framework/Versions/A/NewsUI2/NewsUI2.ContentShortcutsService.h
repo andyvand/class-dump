@@ -7,27 +7,13 @@
 @interface NewsUI2.ContentShortcutsService
 {
     id appConfigManager;
-    id jsonDecoder;
-    id storageManager;
-    id cachedFetchResult;
-    id resourceService;
-    id tagService;
-    id feedModelFactory;
-    id feedContextFactory;
-    id subscriptionController;
-    id bundleSubscriptionManager;
-    id tipConfigManager;
-    id tipFilter;
-    id tipGroupFactory;
-    id featureAvailability;
-    id observers;
 }
 
+- (void)SubtitlePadding;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)VfN;
+- (id)6z: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ä];
 

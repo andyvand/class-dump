@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSECredentialAddress
 {
     PKSECredentialAddress *_next;
-    NSString *_identifier;
-    unsigned long long _type;
 }
 
 - (id);
@@ -23,17 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void)g.iso.18013.5.1.aamva;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appletIdentifier;
-@property(readonly, nonatomic) NSString *mostSpecificIdentifier;
 @property(readonly, nonatomic) unsigned long long mostSpecificType;
-@property(readonly, nonatomic) NSString *subcredentialIdentifier;
 
 @end
 

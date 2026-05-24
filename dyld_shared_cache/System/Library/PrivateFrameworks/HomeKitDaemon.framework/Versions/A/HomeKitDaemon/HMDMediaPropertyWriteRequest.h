@@ -6,28 +6,24 @@
 
 #import <HomeKitDaemon/HMDMediaPropertyRequest.h>
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDMediaPropertyWriteRequest : HMDMediaPropertyRequest
 {
     id _value;
-    NSUUID *_identifier;
 }
 
++ (id);
++ (id);
++ (id)];
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id)oomName:localizedFormat: /* Error: Ran out of types for this method. */;
+- (id)ler:(id)arg1 didUpdateActiveContactsValues:(id)arg2 ];
+- (id)#;
+- (id)componentsWithRawServiceName:rawRoomName:localizedFormat: /* Error: Ran out of types for this method. */;
 - (id)$;
 - (void)ate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end

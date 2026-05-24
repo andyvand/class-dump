@@ -5,5 +5,6 @@
 //
 
 @protocol WindowSharingRequestHostProtocol
+- (void);
 @end
 

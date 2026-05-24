@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDCharacteristicWriteTuple
 {
     HMDCharacteristic *_characteristic;
-    id _targetValue;
 }
 
 - (void)ConfigurationLogEventFactory;

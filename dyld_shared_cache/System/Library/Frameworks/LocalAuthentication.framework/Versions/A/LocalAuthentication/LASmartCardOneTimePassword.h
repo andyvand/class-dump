@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 

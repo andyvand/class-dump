@@ -6,17 +6,15 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString, RTDistanceCalculator, RTPersistenceExpirationEnforcer, RTPersistenceMirroringManager;
+@class RTPersistenceExpirationEnforcer;
 
 @interface RTLearnedLocationStore : RTStore
 {
     RTPersistenceExpirationEnforcer *_expirationEnforcer;
-    RTDistanceCalculator *_distanceCalculator;
-    RTPersistenceMirroringManager *_mirroringManager;
 }
 
-+ (id);
-+ (id);
++ (id)orage.PCSKeyEnvelope.AesSivKeyFromMasterKey;
++ (id)uld not allocate the context;
 - (void);
 - (void);
 - (id);
@@ -26,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -37,42 +35,43 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)participantIdsAtIndex:(CDUnknownBlockType)arg1;
+- (void)isServerReflexiveStunCandidate;
+- (void)initWithSequenceNumber:(unsigned long long)arg1 streamID:(id)arg2 peerResponseIdentifier:(CDUnknownBlockType)arg3;
+- (id)ponseCode;
+- (void)ate",&,N,V_contactsLastUpdatedDate;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void)%s:(id)arg1 last failure less than 5 seconds ago; waiting 5s...;
+- (void)h linkID %u;
+- (void)nnectWithSessionInfo%@:(CDUnknownBlockType)arg1 ftPowerOptimizationEnabled nil in session info;
+- (void)ating...;
+- (void);
+- (void)%u
+;
+- (void)(%d < %d), skip.;
+- (void)e-p2p-connection-id-ids;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,31 +81,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,7 +90,6 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -126,29 +100,54 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)sendBatchMessageProcessedContext:(id)arg1 serviceName:(CDUnknownBlockType)arg2;
+- (void)ageServerTimestamp:(unsigned long long)arg1 toURI:(CDUnknownBlockType)arg2;
+- (void)appendMiddleware:(id)arg1;
+- (_Bool);
+- (void);
+- (void)ster account;
+- (void)%@ while executing:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -174,11 +173,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)EConfiguration"16;
+- (void)",C,V_alwaysOnVPN;
+- (void)NEIKEv2PacketConstructor;
+- (void)nName failed (unSetAside = %d), name '%@' in use.;
+- (id)les-array;
 - (_Bool);
 - (void);
 - (void);
@@ -196,7 +195,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -205,7 +204,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void),Ð1Â0@ù
 × ;
 - (void)(!4EùA,1Â0@ù
@@ -216,16 +215,16 @@
 - (void)!tFù1C,1Â0@ù
 × ;
 - (void)ile"@"NSError">24;
-- (void)ration_bucketed:(id)arg1;
-- (id)IEstimate:(id)arg1;
+- (void)setMedian_daily_longest_uninterrupted_WiFi_connection_duration_bucketed:(id)arg1;
+- (id)setLastPostedBluePOIEstimate:(id)arg1;
 - (void)ecomingNonActive:(CDUnknownBlockType)arg1 earliestActiveDeviceIdentifier:latestActiveDeviceIdentifier: /* Error: Ran out of types for this method. */;
-- (void)ToString:(id)arg1;
-- (void)ithOptions:(id)arg1 handler:(CDUnknownBlockType)arg2;
+- (void)convertSMDirectionTransportTypeToString:(id)arg1;
+- (void)_fetchVisitLogsWithOptions:(id)arg1 handler:(CDUnknownBlockType)arg2;
 - (void)¬;
 - (void);
-- (id)nsMetricsEventUsage;
+- (id)SuggestionsMetricsEventUsage;
 - (void)RTSignalGenerator locationCountInStoreWithError:(id)arg1 ];
-- (void)stStateModelEl;
+- (void)latestStateModelEl;
 - (void)ined.store.cloud;
 - (void)sessionConfig;
 - (void)etchStoredElevationsWithOptions:(id)arg1 handler:(CDUnknownBlockType)arg2 ];
@@ -243,16 +242,7 @@ b@ÃVB_ªB@l=õ^À\Âõ(¼a@Y_òy$ªB@3è5î^ÀëQ¸ÎU@b5«B
 ×£pV@vËªB@BË>¸P^ÀR¸ë}v@¹ÝË}¨B@°WXp?^ÀAµmä?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
 @property(retain, nonatomic) RTPersistenceExpirationEnforcer *expirationEnforcer; // @synthesize expirationEnforcer=_expirationEnforcer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTPersistenceMirroringManager *mirroringManager; // @synthesize mirroringManager=_mirroringManager;
-@property(readonly) Class superclass;
 
 @end
 

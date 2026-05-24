@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKTransactionSessionWrapper;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKPaymentSession
 {
     NSObject<OS_dispatch_queue> *_internalSessionSerialQueue;
-    PKTransactionSessionWrapper *_internalSession;
-    unsigned long long _lifecycleState;
 }
 
 + (_Bool);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -23,8 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

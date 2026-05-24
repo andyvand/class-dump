@@ -5,5 +5,6 @@
 //
 
 @protocol ETTaskContext
+- (_Bool);
 @end
 

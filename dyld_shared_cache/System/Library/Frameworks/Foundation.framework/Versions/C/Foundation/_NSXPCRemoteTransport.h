@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OS_xpc_remote_connection;
+@class OS_xpc_remote_connection;
 
 __attribute__((visibility("hidden")))
 @interface _NSXPCRemoteTransport
 {
     OS_xpc_remote_connection *_connection;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _messageHandler;
 }
 
-- (void);
-- (void);
+- (void)Ԛh	;
+- (void);
 - (id);
-- (void);
-- (CDStruct_4c969caf);
-- (void);
+- (void);
+- (CDStruct_6ad76789);
+- (void);
 - (void);
 - (int);
-- (void);
+- (void)GGGGGGGGBBBBBBBB;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)licy:outputQueue: /* Error: Ran out of types for this method. */;
-- (id)tions;
+- (void);
+- (void)bufferWithMaximumObjectCount:fullPolicy:outputQueue: /* Error: Ran out of types for this method. */;
+- (id)_setUpAppKitTranslations;
 - (int)úúûûûûüýýýýýþþþþÿÿÿ;
 - (unsigned int);
 - (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 - (unsigned int)gH0k¦,;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

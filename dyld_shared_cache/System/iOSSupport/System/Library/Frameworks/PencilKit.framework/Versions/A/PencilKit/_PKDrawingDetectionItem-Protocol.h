@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath;
-
 @protocol _PKDrawingDetectionItem
 
 // Remaining properties
-@property(readonly, nonatomic) UIBezierPath *_baselinePath;
 @property(readonly, nonatomic) struct CGRect _frame;
-@property(readonly, nonatomic) double _strokeWidth;
 @end
 

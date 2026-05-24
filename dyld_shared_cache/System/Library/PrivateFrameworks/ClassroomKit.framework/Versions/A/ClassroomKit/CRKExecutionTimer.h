@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CRKExecutionTimer
 {
     NSString *_timerDescription;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)dspExceptionParameter164_;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(readonly, copy, nonatomic) NSString *timerDescription; // @synthesize timerDescription=_timerDescription;
 
 @end

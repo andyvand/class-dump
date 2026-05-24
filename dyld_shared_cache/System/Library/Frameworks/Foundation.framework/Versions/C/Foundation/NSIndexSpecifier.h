@@ -13,14 +13,14 @@
 
 + (_Bool);
 + (id);
-- (id);
+- (id)u;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)B;
 - (id);
 - (_Bool);
 - (id);

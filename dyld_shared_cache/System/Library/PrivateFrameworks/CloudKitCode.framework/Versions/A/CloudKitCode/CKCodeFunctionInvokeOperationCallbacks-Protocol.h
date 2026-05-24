@@ -5,5 +5,8 @@
 //
 
 @protocol CKCodeFunctionInvokeOperationCallbacks
+- (void)currentRunLoop;
+- (void)currentQueryIdentifier;
+- (void)currentMediaObject;
 @end
 

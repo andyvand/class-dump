@@ -6,27 +6,29 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSRemoteView, NSXPCConnection;
+@class NSRemoteView;
 
 @interface NSPasteControl : NSControl
 {
     NSRemoteView *_remoteView;
-    NSXPCConnection *_remoteConnection;
-    long long _displayMode;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class);
++ (_Bool);
 + (Class);
 + (Class);
 - (void);
 - (id);
 - (long long);
+- (void)le.nehelper;
 - (void);
-- (void);
+- (id)ystem/libsystem_asl.dylib;
 - (id);
-- (id);
-- (void);
+- (void)%d
+ HttpOnly=%d
+ HostOnly=%d
+ sameSite=%ld
+>;
 - (void);
 - (void);
 - (void);
@@ -38,11 +40,11 @@
 - (_Bool);
 - (void)0@ù
 × ;
-- (void)dler:(id)arg1;
+- (void)restoreAllPersistentStateWithFullFidelity:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id)initWithMenuIndex:(struct CGRect)arg1 operation: /* Error: Ran out of types for this method. */;
-- (void)ndSetToExpandItemsInto;
+- (void)_expandSetToExpandItemsInto;
 - (void)´üÌøä¬;
-- (void)ion;
+- (void)AXAscendingSortDirection;
 - (void)t Operation Override %d
 ;
 - (void)Ä@;
@@ -55,10 +57,6 @@
 
 // Remaining properties
 @property long long displayMode; // @synthesize displayMode=_displayMode;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

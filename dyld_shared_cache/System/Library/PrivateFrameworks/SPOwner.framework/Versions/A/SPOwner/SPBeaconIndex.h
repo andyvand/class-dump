@@ -7,7 +7,6 @@
 @interface SPBeaconIndex
 {
     unsigned char _sequence;
-    unsigned long long _index;
 }
 
 + (_Bool);
@@ -15,13 +14,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)CollectorEventQuickReplyTapReplyCount;
 - (unsigned long long);
 - (unsigned char);
 - (void)setLocalBeaconingManager:(unsigned long long)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(nonatomic) unsigned char sequence; // @synthesize sequence=_sequence;
 
 @end

@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNVGGishBabbleModelOutput
 {
     MLMultiArray *_output1;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (void)ÔúÿÕúÿ@Õúÿ|Õúÿ ÕúÿüÕúÿ ÖúÿDÖúÿÖúÿ¤ÖúÿôÖúÿ;
-- (id)tProcessingCodingKeys;
+- (id)SoundActionsPostProcessingCodingKeys;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *output1; // @synthesize output1=_output1;
 
 @end

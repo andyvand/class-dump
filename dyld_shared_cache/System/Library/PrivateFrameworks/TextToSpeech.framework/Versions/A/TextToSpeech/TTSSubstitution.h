@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface TTSSubstitution
 {
     _Bool _active;
-    _Bool _ignoreCase;
-    _Bool _appliesToAllApps;
-    _Bool _isReplacementTextAllPunctuation;
-    _Bool _isReplacementTextSurroundedByPunctuation;
-    _Bool _isUserSubstitution;
-    NSString *_originalString;
-    NSString *_replacementString;
-    NSString *_phonemes;
-    NSSet *_languages;
-    NSSet *_voiceIds;
-    NSUUID *_uuid;
-    NSSet *_bundleIdentifiers;
-    struct _NSRange _replacementRange;
 }
 
 + (_Bool);
@@ -30,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -40,11 +27,11 @@
 - (void);
 - (void);
 - (struct _NSRange);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)VCMediaAnalyzerSourceDelegate;
+- (id)vcSessionScreenEnabledDidSucceed;
 - (id);
 - (void);
 - (id);
@@ -53,7 +40,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -62,20 +49,7 @@
 - (id)GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG£;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(nonatomic) _Bool appliesToAllApps; // @synthesize appliesToAllApps=_appliesToAllApps;
-@property(copy, nonatomic) NSSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(nonatomic) _Bool ignoreCase; // @synthesize ignoreCase=_ignoreCase;
-@property(readonly, nonatomic) _Bool isReplacementTextAllPunctuation; // @synthesize isReplacementTextAllPunctuation=_isReplacementTextAllPunctuation;
-@property(readonly, nonatomic) _Bool isReplacementTextSurroundedByPunctuation; // @synthesize isReplacementTextSurroundedByPunctuation=_isReplacementTextSurroundedByPunctuation;
-@property(nonatomic) _Bool isUserSubstitution; // @synthesize isUserSubstitution=_isUserSubstitution;
-@property(copy, nonatomic) NSSet *languages; // @synthesize languages=_languages;
-@property(copy, nonatomic) NSString *originalString; // @synthesize originalString=_originalString;
-@property(copy, nonatomic) NSString *phonemes; // @synthesize phonemes=_phonemes;
-@property(nonatomic) struct _NSRange replacementRange; // @synthesize replacementRange=_replacementRange;
-@property(copy, nonatomic) NSString *replacementString; // @synthesize replacementString=_replacementString;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(copy, nonatomic) NSSet *voiceIds; // @synthesize voiceIds=_voiceIds;
 
 @end
 

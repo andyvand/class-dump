@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 @interface PPGestureView
 {
     struct CGGradient *mGradient;
-    NSTimer *mAnimationTimer;
-    double mAnimationStartTime;
-    double mAnimationTotalTime;
-    double mAnimationPercent;
-    struct CGRect mSelectedRect;
-    struct CGRect mAnimationStartRect;
-    struct CGRect mAnimatingRect;
-    long long mSelectionType;
 }
 
 - (void);
@@ -27,7 +17,7 @@
 - (double);
 - (void);
 - (long long);
-- (void);
+- (void)?=;
 - (void);
 - (void);
 - (void);
@@ -37,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double animationTotalTime; // @synthesize animationTotalTime=mAnimationTotalTime;
 @property long long selectionType; // @synthesize selectionType=mSelectionType;
 
 @end

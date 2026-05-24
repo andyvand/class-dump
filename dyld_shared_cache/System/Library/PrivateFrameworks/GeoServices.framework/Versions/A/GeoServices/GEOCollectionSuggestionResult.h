@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOExploreGuides, GEOPDCollectionSuggestionResult, NSArray;
+@class GEOPDCollectionSuggestionResult, NSArray;
 
 @interface GEOCollectionSuggestionResult
 {
     GEOPDCollectionSuggestionResult *_collectionSuggestionResult;
-    NSArray *_collections;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *collections; // @synthesize collections=_collections;
-@property(readonly, nonatomic) GEOExploreGuides *exploreGuides;
 
 @end
 

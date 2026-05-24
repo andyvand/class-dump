@@ -4,57 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSDictionary;
+@class ACAccount, ACAccountStore;
 
 @interface AADataclassActionsStore
 {
     ACAccount *_account;
-    _Bool _actionsForDeletionFetched;
-    _Bool _actionsForAdditionFetched;
-    _Bool _keychainActionsForAdditionFetched;
-    ACAccountStore *_accountStore;
-    NSDictionary *_dataclassDeletionActions;
-    NSDictionary *_dataclassAdditionActions;
-    NSDictionary *_keychainDataclassAdditionActions;
 }
 
+- (void)dsAttrTypeStandard:(id)arg1 HomeDirectory;
+- (void)ictionaryNominallyEqual():(id)arg1 cfDictionary1 and cfDictionary2 have bad type;
+- (void)):(id)arg1 cfArray1 or cfArray2 have bad type;
+- (void)_RestrictSupervisedPrefs returning NO (no items filtered);
+- (id)CP_SetupACMContextWithBootstrapToken;
+- (id)ivedByMDM;
+- (id)CP_DeleteBootstrapToken;
+- (_Bool)e Bootstrap Token with context provided.;
+- (id)her:(id)arg1 -dealloc entered;
+- (id)FilesInFolder:(id)arg1 Failed to fchflags to unlock %s:%s /* Error: Ran out of types for this method. */;
+- (id)moveFilesInFolder:Failed to fstat opened item %s:%s /* Error: Ran out of types for this method. */;
+- (id)d to open %s for unlocking:%s /* Error: Ran out of types for this method. */;
+- (id)r %s:%s /* Error: Ran out of types for this method. */;
+- (id)%s:(id)arg1 %s;
+- (id)dopendir for %s:%s /* Error: Ran out of types for this method. */;
+- (id)e of "%s" == %s;
+- (_Bool)ient:add '%s' to _lpadmin /* Error: Ran out of types for this method. */;
+- (_Bool)inGroup add user to _lpadmin;
+- (_Bool)ears to be a member of _lpadmin;
+- (id)cKeychainGetStatus returned %d;
+- (id)hainData will return identity;
+- (id)ce for DUPLICATE cert = %d;
+- (id)a    SecKeychainItemCreatePersistentReference for DUPLICATE cert = %d;
+- (void)ofiles;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)erID:repairDate:repairCount:recordBuildVersion: /* Error: Ran out of types for this method. */;
+- (id)Library/Frameworks/CoreServices.framework/Versions/A/CoreServices;
+- (id)logNSDictionary:(id)arg1;
+- (void)initWithBeneficiaryID:benefactorAltDSID:handle:otPeerID:repairDate:repairCount:recordBuildVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAccountStore:) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, nonatomic) _Bool actionsForAdditionFetched; // @synthesize actionsForAdditionFetched=_actionsForAdditionFetched;
-@property(readonly, nonatomic) _Bool actionsForDeletionFetched; // @synthesize actionsForDeletionFetched=_actionsForDeletionFetched;
-@property(retain, nonatomic) NSDictionary *dataclassAdditionActions; // @synthesize dataclassAdditionActions=_dataclassAdditionActions;
-@property(retain, nonatomic) NSDictionary *dataclassDeletionActions; // @synthesize dataclassDeletionActions=_dataclassDeletionActions;
-@property(readonly, nonatomic) _Bool keychainActionsForAdditionFetched; // @synthesize keychainActionsForAdditionFetched=_keychainActionsForAdditionFetched;
-@property(retain, nonatomic) NSDictionary *keychainDataclassAdditionActions; // @synthesize keychainDataclassAdditionActions=_keychainDataclassAdditionActions;
 
 @end
 

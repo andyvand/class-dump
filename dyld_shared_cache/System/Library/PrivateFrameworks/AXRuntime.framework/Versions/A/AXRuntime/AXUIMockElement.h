@@ -11,12 +11,6 @@
 @interface AXUIMockElement : AXUIElement
 {
     NSMutableDictionary *_writableAttributes;
-    NSMutableDictionary *_performActionLog;
-    _Bool _usesCarriageReturnAsLinesSeparator;
-    _Bool _isApplication;
-    NSMutableDictionary *_attributes;
-    CDUnknownBlockType _handleActionBlock;
-    CDUnknownBlockType _cacheUpdatedCallback;
 }
 
 + (void);
@@ -32,11 +26,11 @@
 - (void);
 - (struct CGSize);
 - (void);
+- (void)j;
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (struct _NSRange);
@@ -58,15 +52,15 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (float);
-- (id);
+- (id)-;
 - (void);
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
 - (struct __AXUIElement *);
-- (id);
-- (unsigned long long);
+- (id)a;
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
@@ -86,15 +80,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (_Bool);
-- (int);
+- (int)V;
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id);
+- (unsigned long long)X;
+- (_Bool)`;
 - (id);
 - (id);
 - (_Bool);
@@ -104,10 +98,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;
-@property(copy, nonatomic) CDUnknownBlockType cacheUpdatedCallback; // @synthesize cacheUpdatedCallback=_cacheUpdatedCallback;
-@property(copy, nonatomic) CDUnknownBlockType handleActionBlock; // @synthesize handleActionBlock=_handleActionBlock;
-@property(nonatomic) _Bool isApplication; // @synthesize isApplication=_isApplication;
-@property(nonatomic) _Bool usesCarriageReturnAsLinesSeparator; // @synthesize usesCarriageReturnAsLinesSeparator=_usesCarriageReturnAsLinesSeparator;
 
 @end
 

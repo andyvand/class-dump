@@ -7,9 +7,6 @@
 @interface SODictationHotKey
 {
     _Bool _isDoubleTap;
-    unsigned long long _keyChar;
-    unsigned long long _virtualKey;
-    unsigned long long _modifiers;
 }
 
 - (unsigned long long);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isDoubleTap; // @synthesize isDoubleTap=_isDoubleTap;
-@property(nonatomic) unsigned long long keyChar; // @synthesize keyChar=_keyChar;
-@property(nonatomic) unsigned long long modifiers; // @synthesize modifiers=_modifiers;
-@property(nonatomic) unsigned long long virtualKey; // @synthesize virtualKey=_virtualKey;
 
 @end
 

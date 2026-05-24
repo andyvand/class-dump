@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXVideoAdStateManager, SXVideoComponent, UIButton, UIView;
-@protocol SVVideoAdViewControllerProviding, SVVideoMetadata, SXAnalyticsReporting, SXVisibilityMonitoring;
+@protocol SVVideoMetadata, SXAnalyticsReporting;
 
 @interface SXVideoAdProvider
 {
     id <SXAnalyticsReporting> _analyticsReporter;
-    id <SVVideoMetadata> _metadata;
-    id <SVVideoAdViewControllerProviding> _fullscreenViewControllerProvider;
-    SXVideoAdStateManager *_stateManager;
-    id <SXVisibilityMonitoring> _videoVisibilityMonitor;
-    id <SXVisibilityMonitoring> _videoPlayerVisibilityMonitor;
-    SXVideoComponent *_component;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)R;
 - (id);
 - (id);
 - (void);
@@ -41,9 +34,9 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)R#;
 - (id);
-- (_Bool);
+- (_Bool)R;
 - (double);
 - (id);
 - (id);
@@ -54,35 +47,7 @@
 - (double)¬;
 
 // Remaining properties
-@property(retain, nonatomic) id <SXAnalyticsReporting> analyticsReporter; // @synthesize analyticsReporter=_analyticsReporter;
-@property(readonly, nonatomic) SXVideoComponent *component; // @synthesize component=_component;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SVVideoAdViewControllerProviding> fullscreenViewControllerProvider; // @synthesize fullscreenViewControllerProvider=_fullscreenViewControllerProvider;
-@property(readonly, nonatomic) _Bool hasAction;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double impressionThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @property(nonatomic) __weak id <SVVideoMetadata> metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) UIView *metricsView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) double prerollReadyToPlayTimeout;
-@property(readonly, nonatomic) UIButton *privacyMarker;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIButton",?,R,N
-
-@property(readonly, nonatomic) unsigned long long skipThreshold;
-@property(readonly, nonatomic) SXVideoAdStateManager *stateManager; // @synthesize stateManager=_stateManager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXVisibilityMonitoring> videoPlayerVisibilityMonitor; // @synthesize videoPlayerVisibilityMonitor=_videoPlayerVisibilityMonitor;
-@property(readonly, nonatomic) id <SXVisibilityMonitoring> videoVisibilityMonitor; // @synthesize videoVisibilityMonitor=_videoVisibilityMonitor;
 
 @end
 

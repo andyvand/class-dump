@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)ffer pool.;
++ (void)>;
 - (id);
-- (_Bool);
+- (_Bool)UIMenu"40@0:8@"UITextField"16@"NSArray"24@"NSArray"32 /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSNumber;
+@class NSNumber;
 
 @interface RelayTranslationPart
 {
     NSNumber *index;
-    NSAttributedString *string;
 }
 
 + (_Bool);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)registered good list;
 
 // Remaining properties
 @property(nonatomic, readonly) NSNumber *index; // @synthesize index;
-@property(nonatomic, readonly) NSAttributedString *string; // @synthesize string;
 
 @end
 

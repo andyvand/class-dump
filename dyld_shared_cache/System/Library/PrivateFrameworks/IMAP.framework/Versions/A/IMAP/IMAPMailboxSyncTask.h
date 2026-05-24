@@ -6,47 +6,16 @@
 
 #import <IMAP/IMAPTask.h>
 
-@class IMAPTaskManager, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSMutableOrderedSet, NSProgress, NSString;
-@protocol IMAPMessageDataSource;
+@class IMAPTaskManager, NSMutableIndexSet;
 
 @interface IMAPMailboxSyncTask : IMAPTask
 {
     NSMutableIndexSet *_messageNumbersNeedingUIDs;
-    NSMutableIndexSet *_messageNumbersNeedingSkeletons;
-    NSMutableIndexSet *_uidsNeedingSkeletons;
-    NSMutableOrderedSet *_messagesToPersist;
-    NSMutableIndexSet *_uidsToDelete;
-    NSMutableDictionary *_flagChangesByServerMessage;
-    NSMutableDictionary *_labelChangesByServerMessage;
-    NSMutableArray *_messagesNeedingUIDs;
-    NSMutableIndexSet *_uidsAddedLocally;
-    _Bool _userInitiated;
-    _Bool _wasReset;
-    _Bool _shouldVerifyLocalCount;
-    _Bool _isGmail;
-    _Bool _dataSourceIsInboxOrAllMail;
-    _Bool _hasUnseen;
-    _Bool _networkPriorityNeedsRecalculation;
-    _Bool _persistencePriorityNeedsRecalculation;
-    _Bool _needsUpdate;
-    _Bool _isEnding;
-    _Bool _foundNewUnreadInboxMessage;
-    unsigned int _uidNext;
-    unsigned int _lastSyncedUIDNext;
-    unsigned int _newUIDValidity;
-    unsigned int _localHighestUIDToCheck;
-    id <IMAPMessageDataSource> _dataSource;
-    IMAPTaskManager *_taskManager;
-    unsigned long long _serverModificationSequence;
-    unsigned long long _lastSyncedModificationSequence;
-    unsigned long long _exists;
-    NSProgress *_checkProgress;
-    long long _verificationState;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)#C9;
+- (void)H;
 - (_Bool);
 - (void);
 - (void);
@@ -55,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -64,7 +33,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)q!6;
 - (void);
 - (void);
 - (void);
@@ -81,42 +50,42 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)�F;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (long long);
 - (long long);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id));
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void)x;
+- (_Bool);
+- (void);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
+- (void)q;
 - (id);
 - (void);
 - (id);
@@ -127,42 +96,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)P;
 - (_Bool);
 - (void)Ô ;
 - (void)@"<IMAPMessageDataSource>",R,N,V_dataSource;
 
 // Remaining properties
-@property(readonly, nonatomic) NSProgress *checkProgress; // @synthesize checkProgress=_checkProgress;
-@property(readonly, nonatomic) id <IMAPMessageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) _Bool dataSourceIsInboxOrAllMail; // @synthesize dataSourceIsInboxOrAllMail=_dataSourceIsInboxOrAllMail;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool foundNewUnreadInboxMessage; // @synthesize foundNewUnreadInboxMessage=_foundNewUnreadInboxMessage;
-@property(nonatomic) _Bool hasUnseen; // @synthesize hasUnseen=_hasUnseen;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEnding; // @synthesize isEnding=_isEnding;
-@property(readonly, nonatomic) _Bool isGmail; // @synthesize isGmail=_isGmail;
-@property(nonatomic) unsigned long long lastSyncedModificationSequence; // @synthesize lastSyncedModificationSequence=_lastSyncedModificationSequence;
-@property(nonatomic) unsigned int lastSyncedUIDNext; // @synthesize lastSyncedUIDNext=_lastSyncedUIDNext;
-@property unsigned int localHighestUIDToCheck; // @synthesize localHighestUIDToCheck=_localHighestUIDToCheck;
-@property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(nonatomic) _Bool networkPriorityNeedsRecalculation; // @synthesize networkPriorityNeedsRecalculation=_networkPriorityNeedsRecalculation;
-@property(nonatomic) unsigned int newUIDValidity; // @synthesize newUIDValidity=_newUIDValidity;
-@property(nonatomic) _Bool persistencePriorityNeedsRecalculation; // @synthesize persistencePriorityNeedsRecalculation=_persistencePriorityNeedsRecalculation;
-@property(nonatomic) unsigned long long serverModificationSequence; // @synthesize serverModificationSequence=_serverModificationSequence;
-@property(nonatomic) _Bool shouldVerifyLocalCount; // @synthesize shouldVerifyLocalCount=_shouldVerifyLocalCount;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 @property(readonly) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
-@property(nonatomic) unsigned int uidNext; // @synthesize uidNext=_uidNext;
-@property(nonatomic) _Bool userInitiated;
-@property(nonatomic) long long verificationState; // @synthesize verificationState=_verificationState;
-@property(nonatomic) _Bool wasReset; // @synthesize wasReset=_wasReset;
 
 @end
 

@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/utility/TSUZipArchive.m;
 - (struct CGSize);
 - (id)Interaction"40;
 - (void);

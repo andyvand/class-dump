@@ -28,13 +28,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
-};
-
-struct FairPlayHWInfo_ {
-    unsigned int IDLength;
-    unsigned char ID[20];
+    double _field1;
+    double _field2;
 };
 
 struct _NSRange {
@@ -56,8 +51,8 @@ struct os_unfair_lock_s {
 };
 
 struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
+    struct os_unfair_lock_s _field1;
+    unsigned int _field2;
 };
 
 #pragma mark Typedef'd Structures

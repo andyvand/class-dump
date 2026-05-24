@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterIPAddressList
@@ -12,27 +12,20 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_addresses;
 }
 
-+ (id);
++ (id)momentNodesWithMinimumNumberOfPersons:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)lizationSegment:(struct _NSZone *)arg1 combinableWithInitializationSegment: /* Error: Ran out of types for this method. */;
+- (id)isInitializationSegment:(struct _NSZone *)arg1 combinableWithInitializationSegment: /* Error: Ran out of types for this method. */;
 - (void)ion.accessoryCategories;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *addresses; // @synthesize addresses=_addresses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

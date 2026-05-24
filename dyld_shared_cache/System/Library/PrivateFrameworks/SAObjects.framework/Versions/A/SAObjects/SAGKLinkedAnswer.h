@@ -6,14 +6,14 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, NSURL, SAUIAppPunchOut;
+@class NSString;
 
 @interface SAGKLinkedAnswer : AceObject
 {
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
@@ -24,31 +24,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)h";
+- (id)`;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)H;
 - (id)ñ¼;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *descriptionText;
-@property(copy, nonatomic) NSString *displayLink;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURL *link;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) SAUIAppPunchOut *punchOut;
-@property(copy, nonatomic) NSString *query;
-@property(copy, nonatomic) NSURL *searchUri;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *thumbnails;
 
 @end
 

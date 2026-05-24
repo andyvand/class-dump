@@ -5,31 +5,26 @@
 //
 
 @class PMLSessionDescriptor;
-@protocol PMLTransformerProtocol;
 
 @interface SGTransformerInstance
 {
     PMLSessionDescriptor *_sessionDescriptor;
-    id <PMLTransformerProtocol> _transformer;
-    Class _modelClass;
 }
 
-+ (id);
-+ (id);
++ (id)roller";
++ (id)y"40@0:(id)arg1 8@"NSTableView"16@"NSURL"24@"NSIndexSet"32;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (Class);
+- (Class)eanup];
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) Class modelClass; // @synthesize modelClass=_modelClass;
 @property(retain, nonatomic) PMLSessionDescriptor *sessionDescriptor; // @synthesize sessionDescriptor=_sessionDescriptor;
-@property(retain, nonatomic) id <PMLTransformerProtocol> transformer; // @synthesize transformer=_transformer;
 
 @end
 

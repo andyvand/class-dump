@@ -9,7 +9,6 @@
 @interface CKFeatureSet
 {
     NSArray *_features;
-    NSMutableDictionary *_featureMap;
 }
 
 + (_Bool);
@@ -18,17 +17,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)`;
+- (unsigned long long)sparseTexturesSupport;
 - (_Bool);
 - (void);
 - (id);
-- (id)sAtIndex:(id)arg1;
+- (id)stateValuesAtIndex:(id)arg1;
 - (void)Ìé;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *featureMap; // @synthesize featureMap=_featureMap;
-@property(readonly, nonatomic) NSArray *features; // @synthesize features=_features;
 
 @end
 

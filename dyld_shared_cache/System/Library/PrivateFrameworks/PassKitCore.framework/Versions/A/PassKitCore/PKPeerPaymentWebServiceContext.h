@@ -6,44 +6,32 @@
 
 #import <PassKitCore/PKWebServiceContext.h>
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface PKPeerPaymentWebServiceContext : PKWebServiceContext
 {
     _Bool _devSigned;
-    NSURL *_serviceURL;
-    NSString *_deviceIdentifier;
-    NSString *_pushTopic;
-    NSString *_pushToken;
-    NSString *_companionSerialNumber;
-    NSData *_signedEnrollmentDataSignature;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)T;
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)idCertificatesOnDevice;
-- (void)icationRedirectOpenButton;
+- (void)thTriggerMilliseconds;
+- (id)_validCertificatesOnDevice;
+- (void)applicationRedirectOpenButton;
 - (id)e machine in complete state;
 - (void);
 - (id)ÿ±È;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *companionSerialNumber; // @synthesize companionSerialNumber=_companionSerialNumber;
-@property _Bool devSigned; // @synthesize devSigned=_devSigned;
-@property(readonly, copy) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(copy) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(readonly, copy) NSString *pushTopic; // @synthesize pushTopic=_pushTopic;
 @property(readonly, copy) NSURL *serviceURL; // @synthesize serviceURL=_serviceURL;
-@property(copy) NSData *signedEnrollmentDataSignature; // @synthesize signedEnrollmentDataSignature=_signedEnrollmentDataSignature;
 
 @end
 

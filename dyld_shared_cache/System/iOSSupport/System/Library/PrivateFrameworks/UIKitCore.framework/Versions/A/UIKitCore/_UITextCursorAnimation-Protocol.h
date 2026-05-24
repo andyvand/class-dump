@@ -7,6 +7,9 @@
 @class UIView;
 
 @protocol _UITextCursorAnimation
+- (void);
+- (UIView *);
+- (void)H	;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *cursorShapeView;

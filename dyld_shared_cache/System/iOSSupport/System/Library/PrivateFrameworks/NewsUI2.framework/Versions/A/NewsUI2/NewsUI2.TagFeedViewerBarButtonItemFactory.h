@@ -7,13 +7,6 @@
 @interface NewsUI2.TagFeedViewerBarButtonItemFactory
 {
     id commandCenter;
-    id tracker;
-    id configurationManager;
-    id subscriptionController;
-    id puzzleArchiveFilterOptionsManager;
-    id tipSourceManager;
-    id featureAvailability;
-    id puzzleRadarReporter;
 }
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BMPBPhotosKnowledgeGraphEnrichmentLocation
 {
     NSString *_city;
-    NSString *_country;
-    NSData *_encodedLocation;
-    NSString *_state;
-    NSString *_street;
 }
 
 - (void);
@@ -21,10 +17,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)44@0:8^{_VCMockIDSDatagramChannelPacket={_VCSingleLinkedListEntry=^{_VCSingleLinkedListEntry}}[1500C]QB{?=IQSCc[12S]CS{?=SSSSS}dQBQ[16C]BB}Q}16r^v24I32^{?=IQSCc[12S]CS{?=SSSSS}dQBQ[16C]BB}36 /* Error: Ran out of types for this method. */;
+- (_Bool)b1"allowsContentsChangeWithAspectPreservation"b1};
+- (void)%s:(id)arg1 %d %@(%p) Missing local encryption settings;
+- (id)e frame now, size %d;
 - (id);
 - (id);
 - (id);
@@ -42,16 +38,7 @@
 - (void)qrstuæç;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *city; // @synthesize city=_city;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSData *encodedLocation; // @synthesize encodedLocation=_encodedLocation;
-@property(readonly, nonatomic) _Bool hasCity;
-@property(readonly, nonatomic) _Bool hasCountry;
-@property(readonly, nonatomic) _Bool hasEncodedLocation;
-@property(readonly, nonatomic) _Bool hasState;
 @property(readonly, nonatomic) _Bool hasStreet;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *street; // @synthesize street=_street;
 
 @end
 

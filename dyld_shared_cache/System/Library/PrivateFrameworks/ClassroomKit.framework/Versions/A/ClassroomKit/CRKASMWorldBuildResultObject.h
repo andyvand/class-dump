@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CRKASMRoster;
 
 @interface CRKASMWorldBuildResultObject
 {
     id <CRKASMRoster> _roster;
-    NSArray *_manageableLocations;
 }
 
 - (id);
@@ -20,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *manageableLocations; // @synthesize manageableLocations=_manageableLocations;
 @property(readonly, nonatomic) id <CRKASMRoster> roster; // @synthesize roster=_roster;
 
 @end

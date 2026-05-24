@@ -5,7 +5,7 @@
 //
 
 @protocol CRDirectionalRegion
-- (unsigned long long)Element;
+- (unsigned long long)_Element;
 
 // Remaining properties
 @property(readonly) unsigned long long layoutDirection;

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDUser;
 @protocol HMDUserPresence;
 
 @interface HMDDefaultUserActivityStateDetail
@@ -12,7 +11,7 @@
     id <HMDUserPresence> userPresence;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -22,10 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool atHome;
-@property(nonatomic, readonly) HMDDevice *deviceWhichUpdatedUserPresence;
-@property(nonatomic, readonly) _Bool notAtHome;
-@property(nonatomic, readonly) HMDUser *user;
 @property(nonatomic, readonly) id <HMDUserPresence> userPresence; // @synthesize userPresence;
 
 @end

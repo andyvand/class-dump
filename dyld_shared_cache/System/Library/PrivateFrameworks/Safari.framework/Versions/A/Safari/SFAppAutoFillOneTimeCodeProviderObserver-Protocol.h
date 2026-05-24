@@ -5,5 +5,8 @@
 //
 
 @protocol SFAppAutoFillOneTimeCodeProviderObserver
+
+@optional
+- (void)';
 @end
 

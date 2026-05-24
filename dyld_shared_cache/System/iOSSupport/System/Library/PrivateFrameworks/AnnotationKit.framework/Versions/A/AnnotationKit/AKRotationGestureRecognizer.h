@@ -9,14 +9,25 @@
 @interface AKRotationGestureRecognizer
 {
     unsigned long long tries;
-    AKController *_annotationController;
 }
 
 - (void);
 - (id);
+- (void)Sampler, v_tcDepth0.xy + rowOfs[3] ).r;
+    depth[1] = texture2D( depthSampler, v_tcDepth1.xy + rowOfs[3] ).r;
+    depth[2] = texture2D( depthSampler, v_tcDepth2.xy + rowOfs[3] ).r;
+    depth[3] = texture2D( depthSampler, v_tcDepth3.xy + rowOfs[3] ).r;
+    coc 	 = max(coc, abs(depth * CocScaleBias.x + CocScaleBias.y));
+
+    float maxCoc = max( max( coc.x, coc.y ), max( coc.z, coc.w ) );
+
+    
+    
+	gl_FragColor = vec4(color, maxCoc);
+}
+;
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak AKController *annotationController; // @synthesize annotationController=_annotationController;

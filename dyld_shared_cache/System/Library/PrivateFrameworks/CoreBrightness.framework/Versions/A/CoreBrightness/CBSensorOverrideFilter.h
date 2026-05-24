@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CBSensorOverrideFilter : CBFilter
 {
     CDStruct_6e3f967a _chromaticity;
-    double _illuminance;
-    int _orientation;
 }
 
 - (void);

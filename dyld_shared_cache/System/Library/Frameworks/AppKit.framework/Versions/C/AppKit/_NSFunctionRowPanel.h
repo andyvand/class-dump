@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)2;
+- (_Bool)hk|8;
 - (id);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)backgroundAVAssetDownloadTask:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelectionPropertyList: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)rs for view %@;

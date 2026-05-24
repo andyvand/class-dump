@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, NSString;
-@protocol WBSTabOrderPreferenceProviding, WBSTabOrderProvider;
+@class NSSet;
+@protocol WBSTabOrderProvider;
 
 @interface WBSTabOrderManager
 {
     NSSet *_closingTabs;
-    NSMutableDictionary *_simplifiedIdentifierMap;
-    long long _nextSimplifiedIdentifier;
-    id <WBSTabOrderProvider> _tabOrderProvider;
-    id <WBSTabOrderPreferenceProviding> _preferenceProvider;
 }
 
 - (id);
@@ -22,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -54,19 +50,6 @@
 - (void)y"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double minimumDelayForRelatingNewBlankTab;
-@property(readonly, nonatomic) _Bool newBlankTabPositionAppliesToAllBlankTabs;
-@property(readonly, nonatomic) unsigned long long newTabPosition;
-@property(readonly, nonatomic) _Bool newTabPositionAppliesToSpawnedTabs;
-@property(nonatomic) __weak id <WBSTabOrderPreferenceProviding> preferenceProvider; // @synthesize preferenceProvider=_preferenceProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool suppressRelatingNewBlankTabs;
 @property(nonatomic) __weak id <WBSTabOrderProvider> tabOrderProvider; // @synthesize tabOrderProvider=_tabOrderProvider;
 
 @end

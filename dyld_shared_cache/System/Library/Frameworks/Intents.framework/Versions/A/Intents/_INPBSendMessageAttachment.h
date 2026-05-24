@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBFileDataAttachment, _INPBURLValue;
+@class _INPBFileDataAttachment;
 
 @interface _INPBSendMessageAttachment
 {
     struct _has;
-    _Bool _currentLocation;
-    _INPBFileDataAttachment *_audioMessageFile;
-    _INPBURLValue *_audioMessageFileURL;
-    _INPBFileDataAttachment *_file;
-    _INPBURLValue *_fileURL;
-    NSString *_phAssetId;
-    _INPBURLValue *_sharedLink;
-    _INPBURLValue *_speechDataURL;
-    NSString *_typeIdentifier;
-    unsigned long long _whichDatasource;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -29,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)m;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -46,47 +36,22 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ʓ;
 - (_Bool);
+- (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)J;
 - (void);
 - (_Bool)e: /* Error: Ran out of types for this method. */;
 - (void)ts;
-- (void);
-- (id)tionCreatedOptionsForSearchForPhotos:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (id)nts: /* Error: Ran out of types for this method. */;
+- (void)INFile;
+- (id)provideLocationCreatedOptionsForSearchForPhotos:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)defaultRequestedEventAttributeForFindEvents: /* Error: Ran out of types for this method. */;
 - (void)ü,¹;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBFileDataAttachment *audioMessageFile; // @synthesize audioMessageFile=_audioMessageFile;
-@property(retain, nonatomic) _INPBURLValue *audioMessageFileURL; // @synthesize audioMessageFileURL=_audioMessageFileURL;
-@property(nonatomic) _Bool currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBFileDataAttachment *file; // @synthesize file=_file;
-@property(retain, nonatomic) _INPBURLValue *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) _Bool hasAudioMessageFile;
-@property(readonly, nonatomic) _Bool hasAudioMessageFileURL;
-@property(readonly, nonatomic) _Bool hasCurrentLocation;
-@property(readonly, nonatomic) _Bool hasFile;
-@property(readonly, nonatomic) _Bool hasFileURL;
-@property(readonly, nonatomic) _Bool hasPhAssetId;
-@property(readonly, nonatomic) _Bool hasSharedLink;
-@property(readonly, nonatomic) _Bool hasSpeechDataURL;
-@property(readonly, nonatomic) _Bool hasTypeIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *phAssetId; // @synthesize phAssetId=_phAssetId;
-@property(retain, nonatomic) _INPBURLValue *sharedLink; // @synthesize sharedLink=_sharedLink;
-@property(retain, nonatomic) _INPBURLValue *speechDataURL; // @synthesize speechDataURL=_speechDataURL;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
-@property(readonly, nonatomic) unsigned long long whichDatasource; // @synthesize whichDatasource=_whichDatasource;
 
 @end
 

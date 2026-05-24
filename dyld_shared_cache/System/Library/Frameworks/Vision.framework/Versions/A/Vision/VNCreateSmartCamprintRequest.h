@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNCreateSmartCamprintRequest : VNImageBasedRequest
 {
 }
@@ -21,7 +19,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSArray *results; // @dynamic results;
 @property(nonatomic) _Bool returnAllResults;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSGridColumn, NSGridRow, NSView;
+@class NSGridRow, NSView;
 
 @interface NSGridCell
 {
     NSGridRow *_row;
-    NSGridColumn *_column;
-    NSView *_contentView;
-    NSGridCell *_headOfMergedCell;
-    NSArray *_customPlacementConstraints;
-    long long _xPlacement;
-    long long _yPlacement;
-    long long _rowAlignment;
 }
 
 + (id);
@@ -28,11 +21,11 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id):(id)arg1 shared_ptr<__CoalescingConnectionKey>, std:(id)arg2:pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)URLHostAllowedCharacterSet;
+- (void)ion %llu:encountered bidirectional stream limit updated event /* Error: Ran out of types for this method. */;
+- (void)ified=Cd}[256C]*Q***}8C328;
+- (void)r *_PNAME<CFNACOAuthSigner>::GET() [OBJTYPE = CFNACOAuthSigner] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -42,27 +35,21 @@
 - (long long);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)RECORD_TOO_LARGE;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void)
 × ;
-- (void)nceAnimationsEnabled;
+- (void)_appearanceAnimationsEnabled;
 - (void)<;
 - (id)tªøÿõèG;
 
 // Remaining properties
-@property(readonly) __weak NSGridColumn *column; // @synthesize column=_column;
 @property(retain) NSView *contentView; // @synthesize contentView=_contentView;
-@property(copy) NSArray *customPlacementConstraints; // @synthesize customPlacementConstraints=_customPlacementConstraints;
-@property(readonly) __weak NSGridRow *row; // @synthesize row=_row;
-@property long long rowAlignment;
-@property long long xPlacement;
-@property long long yPlacement;
 
 @end
 

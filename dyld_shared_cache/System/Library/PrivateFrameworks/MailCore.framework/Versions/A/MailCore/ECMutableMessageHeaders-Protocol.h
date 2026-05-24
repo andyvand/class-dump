@@ -5,5 +5,7 @@
 //
 
 @protocol ECMutableMessageHeaders
+- (void)?kc;
+- (void)+;
 @end
 

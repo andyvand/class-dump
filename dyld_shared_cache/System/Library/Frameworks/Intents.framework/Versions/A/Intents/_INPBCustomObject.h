@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBImageValue;
+@class NSArray;
 
 @interface _INPBCustomObject
 {
     struct _has;
-    NSArray *_alternatives;
-    _INPBImageValue *_displayImage;
-    NSString *_displayString;
-    NSString *_identifier;
-    NSString *_pronunciationHint;
-    NSString *_subtitleString;
 }
 
-+ (Class);
++ (Class)V[;
 + (_Bool);
 - (id);
 - (id);
@@ -33,18 +27,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)DRequest %{public}@[%d];
+- (id)5d-f45c89abb0d9;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void):(id)arg1;
+- (void)diffFromPreviousDocument:(id)arg1;
 - (void)tionInfoResolver _resolveIntentExecutionInfoUsingCounterparts:] /* Error: Ran out of types for this method. */;
 - (id)ion: /* Error: Ran out of types for this method. */;
 - (void);
@@ -52,24 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(readonly, nonatomic) unsigned long long alternativesCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBImageValue *displayImage; // @synthesize displayImage=_displayImage;
-@property(copy, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(readonly, nonatomic) _Bool hasDisplayImage;
-@property(readonly, nonatomic) _Bool hasDisplayString;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPronunciationHint;
-@property(readonly, nonatomic) _Bool hasSubtitleString;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *pronunciationHint; // @synthesize pronunciationHint=_pronunciationHint;
-@property(copy, nonatomic) NSString *subtitleString; // @synthesize subtitleString=_subtitleString;
-@property(readonly) Class superclass;
 
 @end
 

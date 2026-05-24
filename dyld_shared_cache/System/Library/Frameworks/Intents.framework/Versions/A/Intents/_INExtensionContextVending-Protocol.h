@@ -5,8 +5,13 @@
 //
 
 @protocol _INExtensionContextVending
+- (oneway void);
+- (oneway void)i;
+- (oneway void);
 
 @optional
-- (oneway void)ts;
+- (oneway void);
+- (oneway void)InputGroup"16;
+- (oneway void)in_supportedIntents;
 @end
 

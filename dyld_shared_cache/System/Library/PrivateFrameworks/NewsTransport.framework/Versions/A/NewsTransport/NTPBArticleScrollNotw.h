@@ -9,23 +9,17 @@
 @interface NTPBArticleScrollNotw
 {
     NSString *_articleId;
-    float _maxScrollDepth;
-    NSString *_sourceChannelId;
-    NSString *_windowId;
-    struct {
-        unsigned int maxScrollDepth:1;
-    } _has;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (float);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id)configurationByApplyingConfiguration: /* Error: Ran out of types for this method. */;
+- (void)collectDiagnosticsWithCompletionHandler:(id)arg1;
+- (void)pScore:(float)arg1;
+- (void)animateWithDuration:(_Bool)arg1 delay:options:animations:completion: /* Error: Ran out of types for this method. */;
+- (float)_updateShouldPreventDisplaySleep;
+- (_Bool)_updatePlan;
+- (_Bool)_timerStopPlanResultsExecution;
+- (id)navigationBarTopConstraint;
+- (void)com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsCarRentalTitleFormatter.m;
 - (id);
 - (_Bool);
 - (void);
@@ -34,21 +28,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)le;
 - (_Bool);
 - (id);
 - (id);
-- (void)ItemOffset;
+- (void)hasItemOffset;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(readonly, nonatomic) _Bool hasArticleId;
 @property(nonatomic) _Bool hasMaxScrollDepth;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(readonly, nonatomic) _Bool hasWindowId;
-@property(nonatomic) float maxScrollDepth; // @synthesize maxScrollDepth=_maxScrollDepth;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
-@property(retain, nonatomic) NSString *windowId; // @synthesize windowId=_windowId;
 
 @end
 

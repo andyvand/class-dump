@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray;
+@class NSMutableArray;
 
 @interface MPQueueFeederIdentifierRegistry
 {
     NSMutableArray *_identifiers;
-    NSMutableArray *_identifierSets;
-    NSMapTable *_index;
 }
 
-+ (_Bool);
++ (_Bool)#;
 - (void);
 - (void);
 - (id);
@@ -23,24 +21,21 @@
 - (void);
 - (void);
 - (long long);
-- (id);
-- (id);
-- (void);
+- (id)CKBrowserShowInBrowser;
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id);
 - (long long);
 - (id)24;
-- (void)onUncensoredName__MAPPING_MISSING__;
+- (void)__MPModelPropertySocialPersonUncensoredName__MAPPING_MISSING__;
 - (void)ediaItemPropertyMovementCount(void);
-- (id)RestrictionsDidChangeNotification;
+- (id)MPMediaLibraryRestrictionsDidChangeNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
-@property(retain, nonatomic) NSMutableArray *identifierSets; // @synthesize identifierSets=_identifierSets;
 @property(retain, nonatomic) NSMutableArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(retain, nonatomic) NSMapTable *index; // @synthesize index=_index;
 
 @end
 

@@ -7,17 +7,15 @@
 @interface SKDiskImageResizeLimitsParams
 {
     _Bool _stdinPassPhrase;
-    _Bool _shallow;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)reset];
 
 // Remaining properties
-@property(nonatomic) _Bool shallow; // @synthesize shallow=_shallow;
 @property(nonatomic) _Bool stdinPassPhrase; // @synthesize stdinPassPhrase=_stdinPassPhrase;
 
 @end

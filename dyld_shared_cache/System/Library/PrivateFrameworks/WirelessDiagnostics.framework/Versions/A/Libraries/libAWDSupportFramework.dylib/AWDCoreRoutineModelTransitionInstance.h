@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDCoreRoutineTransitionMotionType;
-
 @interface AWDCoreRoutineModelTransitionInstance
 {
     unsigned int _distance;
-    unsigned int _duration;
-    AWDCoreRoutineTransitionMotionType *_transitionHistogram;
-    struct {
-        unsigned int distance:1;
-        unsigned int duration:1;
-    } _has;
 }
 
 - (id);
@@ -26,7 +18,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
@@ -40,12 +32,7 @@
 - (void)Count;
 
 // Remaining properties
-@property(nonatomic) unsigned int distance; // @synthesize distance=_distance;
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDistance;
 @property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasTransitionHistogram;
-@property(retain, nonatomic) AWDCoreRoutineTransitionMotionType *transitionHistogram; // @synthesize transitionHistogram=_transitionHistogram;
 
 @end
 

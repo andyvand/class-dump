@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSampleBufferVideoOutput, AVSampleBufferVideoRenderer, CALayer, NSObject, NSString;
-@protocol AVLoggingIdentifier, OS_dispatch_queue;
+@class CALayer;
 
 @interface AVSampleBufferDisplayLayer
 {
     CALayer *_contentLayer;
-    NSString *_videoGravity;
-    struct CGSize _presentationSize;
-    struct CGRect _bounds;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    AVSampleBufferVideoRenderer *_sampleBufferVideoRenderer;
-    AVSampleBufferVideoOutput *_videoOutput;
-    id <AVLoggingIdentifier> _loggingIdentifier;
-    _Bool _overridesPreferredDynamicRangeForVideo;
 }
 
 + (id);
-+ (struct CGRect);
++ (struct CGRect)v;
 + (id);
 + (id);
 

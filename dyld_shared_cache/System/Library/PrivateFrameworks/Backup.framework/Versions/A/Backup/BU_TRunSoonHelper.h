@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BU_TRunSoonHelper
 {
     struct unique_function<void ()> _functor;
-    int _dispatchType;
 }
 
 + (void);
@@ -17,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

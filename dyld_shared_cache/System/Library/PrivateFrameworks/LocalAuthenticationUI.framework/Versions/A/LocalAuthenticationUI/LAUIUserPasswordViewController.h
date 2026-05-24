@@ -5,21 +5,15 @@
 //
 
 @class NSLayoutConstraint;
-@protocol LAUIUserPasswordFieldRemoteProtocol;
 
 @interface LAUIUserPasswordViewController
 {
     NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    _Bool _invalid;
-    id <LAUIUserPasswordFieldRemoteProtocol> _delegate;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _keyboardEventHandler;
 }
 
 + (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,16 +48,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)˟;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)keyToPropertyMap;
 - (void);
-- (void);
+- (void)b1};
 - (void);
 - (id);
 

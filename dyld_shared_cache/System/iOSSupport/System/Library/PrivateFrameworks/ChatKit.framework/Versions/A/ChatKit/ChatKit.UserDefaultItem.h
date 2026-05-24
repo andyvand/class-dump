@@ -7,17 +7,6 @@
 @interface ChatKit.UserDefaultItem
 {
     id defaults;
-    id key;
-    id getter;
-    id inputStyle;
-    id changeHandler;
-    id _value;
-    id _doubleValue;
-    id shouldSetValueInUserDefaults;
-    id _boolValue;
-    id _displayString;
-    id _valueCanBeDisplayedInline;
-    id _isPinned;
 }
 
 - (void);

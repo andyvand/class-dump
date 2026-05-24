@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)onCache<%p>;
 
 @end
 

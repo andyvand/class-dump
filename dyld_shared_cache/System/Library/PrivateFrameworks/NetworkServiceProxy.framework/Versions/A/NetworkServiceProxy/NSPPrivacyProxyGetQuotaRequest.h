@@ -18,16 +18,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)ð;
-- (_Bool);
-- (void);
+- (id);
+- (_Bool)n;
+- (void)/;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUseCaseIdentifier;
-@property(retain, nonatomic) NSString *useCaseIdentifier; // @synthesize useCaseIdentifier=_useCaseIdentifier;
 
 @end
 

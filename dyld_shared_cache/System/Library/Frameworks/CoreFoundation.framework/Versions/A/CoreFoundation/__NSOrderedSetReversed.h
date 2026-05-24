@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSOrderedSetReversed : NSOrderedSet
 {
     id _orderedSet;
-    unsigned long long _cnt;
 }
 
 - (void);

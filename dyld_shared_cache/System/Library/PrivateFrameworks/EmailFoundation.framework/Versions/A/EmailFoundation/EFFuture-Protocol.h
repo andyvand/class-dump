@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EFFutureDelegate;
+@protocol EFFuture;
 
 @protocol EFFuture
+- (void);
+- (id)];
+- (id <EFFuture>)AMAuthInstallApCreateImagePropertiesWithDeviceMapZipped;
+- (void)optionalCharacteristics;
+- (void)a9;
 - (void)!;
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property __weak id <EFFutureDelegate> delegate;
-@property(readonly, getter=isFinished) _Bool finished;
 @property(readonly, nonatomic) id result;
-@property(readonly, nonatomic) id resultIfAvailable;
 @end
 

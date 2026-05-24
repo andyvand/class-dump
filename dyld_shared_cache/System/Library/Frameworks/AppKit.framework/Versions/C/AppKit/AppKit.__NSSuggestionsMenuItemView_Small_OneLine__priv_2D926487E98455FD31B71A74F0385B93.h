@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)ay;
+- (id)_spellCheckerMenuItemsArray;
 
 @end
 

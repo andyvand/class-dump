@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *)_;
 - (_Bool);
-- (id)cV7CodingKeys;
+- (id)SemanticV7CodingKeys;
 - (_Bool)ÿK@ÑÊ;
 
 // Remaining properties

@@ -6,41 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSAttributedString, NSString, UIDragInteraction, UIFont, UIImageView, UILabel, _MSStickerDragPreviewContainerView;
+@class UILabel;
 @protocol UIKeyboardEmojiDraggableViewDelegate;
 
 @interface UIKeyboardEmojiDraggableView : UIView
 {
     UILabel *_fixedLabel;
-    UIView *_liftContainerView;
-    UILabel *_previewLabel;
-    UIImageView *_upscaledImageView;
-    double _liftScale;
-    _MSStickerDragPreviewContainerView *_container;
-    UIDragInteraction *_dragInteraction;
-    _Bool _shouldLiftFromLastTouchLocation;
-    struct CGPoint _lastTouchLocation;
-    _Bool _lifted;
-    _Bool _dragEnabled;
-    id <UIKeyboardEmojiDraggableViewDelegate> _delegate;
-    NSString *_text;
-    NSAttributedString *_attributedText;
-    UIFont *_font;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)No plain body found for message %s;
+- (void)nIdentifier:(id)arg1 %@;
+- (void)@ on services:(id)arg1 %@;
 - (id);
+- (void)on Codes | codeMessageGUID is nil. Early returning.;
+- (_Bool)on APFS;
+- (id)dData"24@"IMDiMessagePipelineResources"32@"IDSMessageContext"40@"IMPowerAssertion"48;
+- (void)$;
+- (void)0;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)y1;
 - (id);
 - (void);
 - (void);
@@ -50,14 +36,14 @@
 - (id)¡!LDùÑ]ð1Â0@ù
 × ;
 - (void)g"40@"NSString"48;
-- (void)olbarTintColor;
+- (void)_toolbarTintColor;
 - (id),&,N,V_configuration;
-- (void)Effect;
+- (void)UIHoverAutomaticEffect;
 - (void):(id)arg1 ;;
 - (void)ì;
 - (id)nstraints=%p;
-- (id)tWritingDirectionUITextView;
-- (id)le;
+- (id)LanguageAwareStringAutoAdjustWritingDirectionUITextView;
+- (id)_prefersGrabberVisible;
 - (void)vironment(id<UIFocusEnvironment>  _Nonnull __strong);
 - (void)sert accessory:(id)arg1 %@ into accessories array:(id)arg2 %@;
 - (void)@;
@@ -68,18 +54,7 @@ _;
 - (void)1;
 
 // Remaining properties
-@property(retain, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIKeyboardEmojiDraggableViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dragEnabled; // @synthesize dragEnabled=_dragEnabled;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

@@ -7,12 +7,9 @@
 @interface _PASSqliteCollectionsConstraintPlanInfo
 {
     _Bool _unique;
-    _Bool _omit;
-    double _estimatedRows;
-    double _estimatedCost;
 }
 
-- (id);
+- (id)installerProgressError;
 
 @end
 

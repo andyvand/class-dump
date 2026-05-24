@@ -6,40 +6,32 @@
 
 #import <UIKitCore/UIInputSetHostView.h>
 
-@class NSArray, UILayoutGuide;
+@class UILayoutGuide;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardItemContainerView : UIInputSetHostView
 {
     UILayoutGuide *_belowInputLayoutGuide;
-    UILayoutGuide *_inputViewLayoutGuide;
-    UILayoutGuide *_assistantLayoutGuide;
-    UILayoutGuide *_aboveAssistantLayoutGuide;
-    NSArray *_guideConstraints;
 }
 
 + (_Bool);
 + (_Bool)@"UIViewController"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void)CloudKit were still being referenced, querying again;
+- (void)tantiated IMDQuickSwitchController;
+- (void)l performing MOIC account check on upgrade after %f seconds;
+- (id)ame:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)content;
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)sCancelButton;
+- (id)hasCancelButton;
 - (void)pîe;
 
 // Remaining properties
-@property(retain, nonatomic) UILayoutGuide *aboveAssistantLayoutGuide; // @synthesize aboveAssistantLayoutGuide=_aboveAssistantLayoutGuide;
-@property(retain, nonatomic) UILayoutGuide *assistantLayoutGuide; // @synthesize assistantLayoutGuide=_assistantLayoutGuide;
 @property(retain, nonatomic) UILayoutGuide *belowInputLayoutGuide; // @synthesize belowInputLayoutGuide=_belowInputLayoutGuide;
-@property(retain, nonatomic) NSArray *guideConstraints; // @synthesize guideConstraints=_guideConstraints;
-@property(retain, nonatomic) UILayoutGuide *inputViewLayoutGuide; // @synthesize inputViewLayoutGuide=_inputViewLayoutGuide;
 
 @end
 

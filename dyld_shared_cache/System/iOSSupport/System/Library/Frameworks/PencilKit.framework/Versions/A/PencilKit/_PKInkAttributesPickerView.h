@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKInk, PKToolConfiguration, UIView, _PKInkThicknessPicker;
-@protocol _PKColorAlphaSlider, _PKInkAttributesPickerViewDelegate;
+@class _PKInkThicknessPicker;
 
 @interface _PKInkAttributesPickerView
 {
     _Bool _showsTopSeparator;
-    id <_PKInkAttributesPickerViewDelegate> _delegate;
-    PKInk *_ink;
-    unsigned long long _displayMode;
-    double _minimumOpacityValue;
-    _PKInkThicknessPicker *_azimuthPicker;
-    _PKInkThicknessPicker *_thicknessPicker;
-    UIView *_colorAlphaSliderView;
-    id <_PKColorAlphaSlider> _colorAlphaSlider;
-    PKToolConfiguration *_toolConfiguration;
-    UIView *_topSeparatorView;
-    UIView *_middleSeparatorView;
-    UIView *_middleSeparatorViewB;
 }
 
 + (id);
@@ -53,41 +40,21 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)didTransitionFromOrientation:toOrientation: /* Error: Ran out of types for this method. */;
+- (void)didStageAssetArchive:(_Bool)arg1 identifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (void)olorOverride;
 - (unsigned long long)°Ç;
 
 // Remaining properties
 @property(retain, nonatomic) _PKInkThicknessPicker *azimuthPicker; // @synthesize azimuthPicker=_azimuthPicker;
-@property(retain, nonatomic) id <_PKColorAlphaSlider> colorAlphaSlider; // @synthesize colorAlphaSlider=_colorAlphaSlider;
-@property(retain, nonatomic) UIView *colorAlphaSliderView; // @synthesize colorAlphaSliderView=_colorAlphaSliderView;
-@property(nonatomic) long long colorUserInterfaceStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_PKInkAttributesPickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKInk *ink; // @synthesize ink=_ink;
-@property(retain, nonatomic) UIView *middleSeparatorView; // @synthesize middleSeparatorView=_middleSeparatorView;
-@property(retain, nonatomic) UIView *middleSeparatorViewB; // @synthesize middleSeparatorViewB=_middleSeparatorViewB;
-@property(nonatomic) double minimumOpacityValue; // @synthesize minimumOpacityValue=_minimumOpacityValue;
-@property(nonatomic) _Bool showsTopSeparator; // @synthesize showsTopSeparator=_showsTopSeparator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _PKInkThicknessPicker *thicknessPicker; // @synthesize thicknessPicker=_thicknessPicker;
-@property(retain, nonatomic) PKToolConfiguration *toolConfiguration; // @synthesize toolConfiguration=_toolConfiguration;
-@property(retain, nonatomic) UIView *topSeparatorView; // @synthesize topSeparatorView=_topSeparatorView;
 
 @end
 

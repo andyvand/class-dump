@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface SystemProperties
 {
     _Bool _internalBuild;
-    _Bool _seedBuild;
-    _Bool _carrierBuild;
-    _Bool _vendorBuild;
-    _Bool _dualSIMCapable;
-    _Bool _dualSIMEnabled;
-    _Bool _npiDevice;
-    _Bool _basebandCapability;
-    _Bool _factoryBuild;
-    _Bool _internalBuildDisabledByOverride;
-    int _deviceClass;
-    NSString *_buildVariant;
-    NSString *_serialNumber;
-    NSString *_basebandFirmwareVersion;
-    NSString *_productName;
-    NSString *_productType;
-    NSString *_productVersion;
-    NSString *_buildVersion;
-    NSString *_buildVersionPrefix;
-    NSString *_buildPlatform;
-    NSString *_basebandChipset;
-    NSString *_wifiChipset;
-    NSNumber *_carrierSeedBuildOverride;
-    NSNumber *_seedBuildOverride;
-    NSNumber *_vendorBuildOverride;
-    NSNumber *_npiDeviceOverride;
 }
 
 + (int);
@@ -51,64 +24,35 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)h;
 - (void);
 - (_Bool);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id)isTimeoutError: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id)p;
+- (id)droptappcap;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool basebandCapability; // @synthesize basebandCapability=_basebandCapability;
-@property(readonly, nonatomic) NSString *basebandChipset; // @synthesize basebandChipset=_basebandChipset;
-@property(readonly, nonatomic) NSString *basebandFirmwareVersion; // @synthesize basebandFirmwareVersion=_basebandFirmwareVersion;
-@property(readonly, nonatomic) NSString *buildPlatform; // @synthesize buildPlatform=_buildPlatform;
-@property(readonly, nonatomic) NSString *buildVariant; // @synthesize buildVariant=_buildVariant;
-@property(readonly, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, nonatomic) NSString *buildVersionPrefix; // @synthesize buildVersionPrefix=_buildVersionPrefix;
-@property(readonly, nonatomic) _Bool carrierBuild; // @synthesize carrierBuild=_carrierBuild;
-@property(readonly, nonatomic) _Bool carrierSeedBuild; // @dynamic carrierSeedBuild;
-@property(copy, nonatomic) NSNumber *carrierSeedBuildOverride; // @synthesize carrierSeedBuildOverride=_carrierSeedBuildOverride;
-@property(readonly, nonatomic) _Bool customerBuild; // @dynamic customerBuild;
-@property(readonly, nonatomic) _Bool customerSeedBuild; // @dynamic customerSeedBuild;
-@property(readonly, nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly, nonatomic) NSString *deviceClassString;
-@property(readonly, nonatomic) _Bool dualSIMCapable; // @synthesize dualSIMCapable=_dualSIMCapable;
-@property(readonly, nonatomic) _Bool dualSIMEnabled; // @synthesize dualSIMEnabled=_dualSIMEnabled;
-@property(readonly, nonatomic) _Bool factoryBuild; // @synthesize factoryBuild=_factoryBuild;
-@property(readonly, nonatomic) _Bool internalBuild; // @synthesize internalBuild=_internalBuild;
-@property(nonatomic) _Bool internalBuildDisabledByOverride; // @synthesize internalBuildDisabledByOverride=_internalBuildDisabledByOverride;
-@property(readonly, nonatomic) _Bool npiDevice; // @synthesize npiDevice=_npiDevice;
-@property(copy, nonatomic) NSNumber *npiDeviceOverride; // @synthesize npiDeviceOverride=_npiDeviceOverride;
-@property(readonly, nonatomic) NSString *productName; // @synthesize productName=_productName;
-@property(readonly, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(readonly, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(readonly, nonatomic) _Bool seedBuild; // @synthesize seedBuild=_seedBuild;
-@property(copy, nonatomic) NSNumber *seedBuildOverride; // @synthesize seedBuildOverride=_seedBuildOverride;
-@property(readonly, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 @property(nonatomic) _Bool vendorBuild; // @synthesize vendorBuild=_vendorBuild;
-@property(copy, nonatomic) NSNumber *vendorBuildOverride; // @synthesize vendorBuildOverride=_vendorBuildOverride;
-@property(readonly, nonatomic) NSString *wifiChipset; // @synthesize wifiChipset=_wifiChipset;
 
 @end
 

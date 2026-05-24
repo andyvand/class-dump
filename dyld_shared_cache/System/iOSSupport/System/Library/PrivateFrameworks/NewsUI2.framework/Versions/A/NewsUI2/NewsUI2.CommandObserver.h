@@ -7,14 +7,6 @@
 @interface NewsUI2.CommandObserver
 {
     id commandCenter;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id articleDataFactory;
-    id tagService;
-    id navigator;
-    id webEmbedDataSourceManager;
-    id puzzleHistoryService;
-    id tipConfigFactory;
 }
 
 @end

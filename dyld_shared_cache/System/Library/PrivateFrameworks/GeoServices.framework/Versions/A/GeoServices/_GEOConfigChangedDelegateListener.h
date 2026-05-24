@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _GEOConfigKeyHelper;
-@protocol GEOConfigChangeListenerDelegate, OS_dispatch_queue;
+@class _GEOConfigKeyHelper;
 
 __attribute__((visibility("hidden")))
 @interface _GEOConfigChangedDelegateListener
 {
     _GEOConfigKeyHelper *keyHelper;
-    NSObject<OS_dispatch_queue> *queue;
-    id <GEOConfigChangeListenerDelegate> delegate;
 }
 
-- (void);
+- (void)valuesForAttribute:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

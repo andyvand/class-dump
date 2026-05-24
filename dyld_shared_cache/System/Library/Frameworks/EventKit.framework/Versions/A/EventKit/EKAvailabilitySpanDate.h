@@ -10,26 +10,22 @@ __attribute__((visibility("hidden")))
 @interface EKAvailabilitySpanDate
 {
     NSDate *_spanDate;
-    long long _dateType;
-    long long _spanType;
 }
 
-+ (unsigned int);
++ (unsigned int)napshot %lf seconds ago;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)vantRouteDetector] %@:(long long)arg1 Connected endpoint=%@;
+- (void)cting endpoint=%@;
+- (void)d to decode MRDiscoveredGroupSession:(long long)arg1 %@;
+- (id)t;
+- (long long);
+- (long long);
 - (id);
-- (long long);
-- (long long);
-- (id);
-- (long long);
+- (long long);
 - (void);
 
 // Remaining properties
-@property long long dateType; // @synthesize dateType=_dateType;
 @property(retain, nonatomic) NSDate *spanDate; // @synthesize spanDate=_spanDate;
-@property long long spanType; // @synthesize spanType=_spanType;
 
 @end
 

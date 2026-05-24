@@ -6,32 +6,27 @@
 
 #import <SceneKit/SCNImageSource.h>
 
-@class CALayer, UIView, UIWindow;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface SCNUIKitSource : SCNImageSource
 {
     id _uiView;
-    id _uiWindow;
-    CALayer *_uiWindowLayer;
-    _Bool _isOpaque;
-    _Bool _windowPreparing;
 }
 
+- (void)setAppBundleIdentifier:(id)arg1;
+- (id)setAlphaValue: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *uiView; // @synthesize uiView=_uiView;
-@property(retain, nonatomic) UIWindow *uiWindow; // @synthesize uiWindow=_uiWindow;
 
 @end
 

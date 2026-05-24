@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedIdentifierList, NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MPIdentifierListSectionProxy
 {
     NSString *_sectionIdentifier;
-    MPSectionedIdentifierList *_sectionedIdentifierList;
-    NSMutableArray *_mutableItemIdentifiers;
 }
 
+- (void)4;
+- (void);
+- (id);
+- (id)HG;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)windowFunc;
+- (void)versionP;
 - (void);
 - (void);
 - (id);
-- (void)tItemIdentifiers;
+- (void)_contentItemIdentifiers;
 - (id)onstraint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *itemIdentifiers;
 @property(retain, nonatomic) NSMutableArray *mutableItemIdentifiers; // @synthesize mutableItemIdentifiers=_mutableItemIdentifiers;
-@property(readonly, copy, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
-@property(readonly, nonatomic) __weak MPSectionedIdentifierList *sectionedIdentifierList; // @synthesize sectionedIdentifierList=_sectionedIdentifierList;
-@property(readonly) Class superclass;
 
 @end
 

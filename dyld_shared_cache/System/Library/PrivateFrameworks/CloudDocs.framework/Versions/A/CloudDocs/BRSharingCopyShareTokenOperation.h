@@ -11,22 +11,19 @@
 @interface BRSharingCopyShareTokenOperation : BRShareOperation
 {
     NSURL *_fileURL;
-    CDUnknownBlockType _shareTokenCompletionBlock;
-    CDUnknownBlockType _shareAndBaseTokenCompletionBlock;
 }
 
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)`8  E;
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType shareAndBaseTokenCompletionBlock; // @synthesize shareAndBaseTokenCompletionBlock=_shareAndBaseTokenCompletionBlock;
 @property(copy) CDUnknownBlockType shareTokenCompletionBlock; // @synthesize shareTokenCompletionBlock=_shareTokenCompletionBlock;
 
 @end

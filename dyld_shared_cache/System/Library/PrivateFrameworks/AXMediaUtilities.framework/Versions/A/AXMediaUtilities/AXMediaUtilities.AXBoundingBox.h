@@ -9,17 +9,6 @@
 @interface AXMediaUtilities.AXBoundingBox
 {
     id id;
-    id heat;
-    id angle;
-    id rect;
-    id classIndex;
-    id heatByClass;
-    id firstSeen;
-    id lastSeen;
-    id depth;
-    id centroid3d;
-    id knownFeaturePoints;
-    id physicalSize;
 }
 
 + (id);

@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class DUSchemaDUContent, DUSchemaDUEventMetadata, DUSchemaDUSearchSessionRecord, DUSchemaDUSpeechAudioRecord, DUSchemaDUSpeechDatasetsRecord;
+@class DUSchemaDUEventMetadata;
 
 @interface DUSchemaDUEvent : SISchemaTopLevelUnionType
 {
     DUSchemaDUEventMetadata *_metadata;
-    DUSchemaDUContent *_content;
-    DUSchemaDUSpeechAudioRecord *_speechAudioRecord;
-    DUSchemaDUSearchSessionRecord *_searchSessionRecord;
-    DUSchemaDUSpeechDatasetsRecord *_speechDatasetsRecord;
-    _Bool _hasMetadata;
-    _Bool _hasContent;
-    _Bool _hasSpeechAudioRecord;
-    _Bool _hasSearchSessionRecord;
-    _Bool _hasSpeechDatasetsRecord;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);

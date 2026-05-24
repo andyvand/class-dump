@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCPreviewCALayerHost, AVConferenceXPCClient, CALayer, NSObject, NSString, VideoAttributes;
-@protocol AVConferencePreviewClientDelegate, OS_dispatch_queue;
+@class AVConferenceXPCClient, NSObject;
+@protocol AVConferencePreviewClientDelegate;
 
 @interface AVConferencePreview
 {
     AVConferenceXPCClient *connection;
-    _Bool clientWantsPreview;
-    unsigned int connectionAttempts;
-    CALayer *caLayerFront;
-    CALayer *caLayerBack;
-    AVCPreviewCALayerHost *_caLayerHostFront;
-    AVCPreviewCALayerHost *_caLayerHostBack;
-    VideoAttributes *_localVideoAttributes;
-    struct CGSize localScreenPortraitAspectRatio;
-    struct CGSize localScreenLandscapeAspectRatio;
-    NSObject<AVConferencePreviewClientDelegate> *delegate;
-    NSObject<OS_dispatch_queue> *avConferencePreviewQueue;
-    NSObject<OS_dispatch_queue> *avConferencePreviewNotificationQueue;
-    _Bool _isPreviewRunning;
-    _Bool _zoomAvailable;
-    _Bool _CFAvailable;
-    double _currentZoomFactor;
-    double _maxZoomFactor;
-    NSString *_localCameraUID;
 }
 
 + (_Bool);
@@ -35,7 +17,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,6 +29,11 @@
 - (unsigned int);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,12 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,6 +53,8 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,9 +64,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -97,7 +79,7 @@
 - (void);
 - (oneway void);
 - (id);
-- (double);
+- (double)Dt;
 - (void);
 - (id);
 - (id);

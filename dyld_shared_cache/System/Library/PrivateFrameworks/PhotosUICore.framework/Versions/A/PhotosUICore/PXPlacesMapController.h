@@ -4,43 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSObject, NSOrderedSet, NSSet, NSString, PXPlacesImageCache, PXPlacesMapPipelineExecutionContext, PXPlacesMapView;
-@protocol MKAnnotation, OS_dispatch_queue, OS_dispatch_source, PXPlacesMapControllerChangeDelegate, PXPlacesMapControllerFocusDelegate, PXPlacesMapControllerLoadingStateDelegate, PXPlacesMapControllerSelectionDelegate;
+@class NSObject, NSSet;
+@protocol OS_dispatch_queue;
 
 @interface PXPlacesMapController
 {
     NSObject<OS_dispatch_queue> *_pipelinesQueue;
-    NSObject<OS_dispatch_queue> *_dataSourcesQueue;
-    NSObject<OS_dispatch_queue> *_executionContextQueue;
-    NSObject<OS_dispatch_source> *_uiUpdateTimer;
-    NSMapTable *_dataSourceExecutionContexts;
-    NSMapTable *_pendingDataSourceChanges;
-    _Bool _pipelineExecutionAllowed;
-    _Bool _mapViewIsVisible;
-    _Bool _signalFocusWhenMapViewBecomesVisible;
-    id <PXPlacesMapControllerSelectionDelegate> _selectionDelegate;
-    id <PXPlacesMapControllerChangeDelegate> _changeDelegate;
-    id <PXPlacesMapControllerFocusDelegate> _focusDelegate;
-    id <PXPlacesMapControllerLoadingStateDelegate> _stateDelegate;
-    PXPlacesMapView *_mapView;
-    id <MKAnnotation> _currentSelection;
-    NSSet *_dataSources;
-    NSMapTable *_dataSourceToPipelineMap;
-    PXPlacesMapPipelineExecutionContext *_currentExecutionContext;
-    PXPlacesImageCache *_cache;
-    NSMutableDictionary *_showDebugMapRectColors;
-    struct CLLocationCoordinate2D _initialCenterCoordinate;
-    CDStruct_b7cb895d _initialCoordinateRegion;
-    struct NSEdgeInsets _initialEdgePadding;
-    CDStruct_02837cd9 _signalFocusMapRect;
 }
 
-+ (CDStruct_02837cd9);
++ (CDStruct_90e2a262);
 + (void);
 - (id);
 - (void);
 - (_Bool);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (id);
 - (void);
 - (void);
@@ -58,14 +35,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (CDStruct_02837cd9);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
+- (CDStruct_90e2a262);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct NSEdgeInsets);
-- (CDStruct_b7cb895d);
+- (CDStruct_26e8d939);
 - (struct CLLocationCoordinate2D);
 - (void);
 - (void);
@@ -81,11 +58,11 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (double);
 - (double);
 - (void);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (double);
 - (void);
 - (void);
@@ -96,11 +73,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)c;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -108,40 +85,15 @@
 - (void);
 - (id);
 - (id);
-- (void)set: /* Error: Ran out of types for this method. */;
+- (void)setWantsBaselineOffset: /* Error: Ran out of types for this method. */;
 - (id)_rootCollectionList;
-- (void)SULTS;
+- (void)SEARCH_NO_RESULTS_VIEW_COLLECTION_RESULTS;
 - (void)ØTÿ;
 - (id)_µ¤:ÿ_µì¤:ÿ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain) PXPlacesImageCache *cache; // @synthesize cache=_cache;
-@property __weak id <PXPlacesMapControllerChangeDelegate> changeDelegate; // @synthesize changeDelegate=_changeDelegate;
-@property(retain) PXPlacesMapPipelineExecutionContext *currentExecutionContext; // @synthesize currentExecutionContext=_currentExecutionContext;
-@property(readonly, nonatomic) NSOrderedSet *currentSelectedGeotaggables;
-@property(retain, nonatomic) id <MKAnnotation> currentSelection; // @synthesize currentSelection=_currentSelection;
-@property(retain) NSMapTable *dataSourceToPipelineMap; // @synthesize dataSourceToPipelineMap=_dataSourceToPipelineMap;
 @property(retain) NSSet *dataSources; // @synthesize dataSources=_dataSources;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak id <PXPlacesMapControllerFocusDelegate> focusDelegate; // @synthesize focusDelegate=_focusDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CLLocationCoordinate2D initialCenterCoordinate; // @synthesize initialCenterCoordinate=_initialCenterCoordinate;
-@property(nonatomic) CDStruct_b7cb895d initialCoordinateRegion; // @synthesize initialCoordinateRegion=_initialCoordinateRegion;
-@property(nonatomic) struct NSEdgeInsets initialEdgePadding; // @synthesize initialEdgePadding=_initialEdgePadding;
-@property(retain, nonatomic) PXPlacesMapView *mapView; // @synthesize mapView=_mapView;
-@property _Bool mapViewIsVisible; // @synthesize mapViewIsVisible=_mapViewIsVisible;
-@property _Bool pipelineExecutionAllowed; // @synthesize pipelineExecutionAllowed=_pipelineExecutionAllowed;
-@property __weak id <PXPlacesMapControllerSelectionDelegate> selectionDelegate; // @synthesize selectionDelegate=_selectionDelegate;
-@property(retain, nonatomic) NSMutableDictionary *showDebugMapRectColors; // @synthesize showDebugMapRectColors=_showDebugMapRectColors;
-@property(nonatomic) CDStruct_02837cd9 signalFocusMapRect; // @synthesize signalFocusMapRect=_signalFocusMapRect;
-@property(nonatomic) _Bool signalFocusWhenMapViewBecomesVisible; // @synthesize signalFocusWhenMapViewBecomesVisible=_signalFocusWhenMapViewBecomesVisible;
-@property __weak id <PXPlacesMapControllerLoadingStateDelegate> stateDelegate; // @synthesize stateDelegate=_stateDelegate;
-@property(readonly) Class superclass;
 
 @end
 

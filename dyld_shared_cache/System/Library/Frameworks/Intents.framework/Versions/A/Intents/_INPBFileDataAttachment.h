@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _INPBFileDataAttachment
 {
     struct _has;
-    NSData *_data;
-    NSString *_fileName;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)rary/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/engine/tb_pkmeth.c;
 - (_Bool);
 - (id);
-- (void);
+- (void)haring] Authorization request already in progress (clientID=%{public}@);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id)PrivatePlayMediaIntentDatas: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)setPayloadPrivatePlayMediaIntentDatas: /* Error: Ran out of types for this method. */;
 - (void)cess resolution with INTimerTypeUnknown will be reformed to notRequired.;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasFileName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

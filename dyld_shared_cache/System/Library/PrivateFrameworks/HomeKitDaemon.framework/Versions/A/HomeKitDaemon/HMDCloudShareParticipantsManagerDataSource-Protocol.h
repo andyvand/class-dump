@@ -5,5 +5,8 @@
 //
 
 @protocol HMDCloudShareParticipantsManagerDataSource
+
+@optional
+- (_Bool);
 @end
 

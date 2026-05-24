@@ -4,45 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMContentAttachment, BMNamedHandle, NSArray, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface BMMessagesContentEvent
 {
     NSString *_uniqueId;
-    NSString *_domainId;
-    NSString *_personaId;
-    double _absoluteTimestamp;
-    NSString *_conversationId;
-    BMNamedHandle *_fromHandle;
-    NSArray *_toHandles;
-    NSString *_suggestedNickname;
-    NSString *_suggestedPhotoPath;
-    NSString *_content;
-    NSString *_accountIdentifier;
-    NSArray *_accountHandles;
-    NSString *_accountType;
-    BMContentAttachment *_attachment;
-    NSURL *_URL;
-    NSString *_contentProtection;
-    NSNumber *_isNew;
-    NSNumber *_isTwoFactorCode;
-    NSNumber *_isFromMe;
-    NSNumber *_isGroupThread;
-    NSNumber *_isJunk;
-    NSNumber *_isRead;
-    NSNumber *_isPinned;
-    NSNumber *_isBusinessChat;
-    NSString *_tapbackAssociatedMessageID;
-    NSNumber *_tapbackType;
-    NSString *_messageType;
-    NSString *_messagesService;
-    NSNumber *_messageEffect;
-    NSNumber *_isKnownSender;
-    NSString *_conversationUUID;
 }
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,20 +26,19 @@
 - (id);
 - (id);
 - (id);
+- (id).;
+- (id);
+- (id)ents;
+- (id)index=%d is NULL whereas numberOfDataPackets=%d;
+- (id)et buffers;
+- (id)status:%d /* Error: Ran out of types for this method. */;
+- (id)m:peerSubscribedStreams:streamGroup:] /* Error: Ran out of types for this method. */;
+- (id)ion initWithConfiguration:] /* Error: Ran out of types for this method. */;
+- (id)ion updateAlwaysHDCaptureScreenEnabledWithNewParticipant:] /* Error: Ran out of types for this method. */;
+- (id)$(;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (id);
@@ -81,72 +51,22 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)So8NSStringCSg;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)G_QUERY__TOKEN__ISNULL;
+- (id);
+- (id)PG_QUERY__TOKEN__ISNULL;
 - (id)tmt":(id)arg1 {;
-- (id)C;
+- (id)NFKC;
 - (id)base failed to register user-defined function;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSArray *accountHandles; // @synthesize accountHandles=_accountHandles;
-@property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) NSString *accountType; // @synthesize accountType=_accountType;
-@property(readonly, nonatomic) BMContentAttachment *attachment; // @synthesize attachment=_attachment;
-@property(readonly, nonatomic) NSArray *bccHandles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *ccHandles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(readonly, nonatomic) NSString *conversationId; // @synthesize conversationId=_conversationId;
-@property(readonly, nonatomic) NSString *conversationUUID; // @synthesize conversationUUID=_conversationUUID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly, nonatomic) BMNamedHandle *fromHandle; // @synthesize fromHandle=_fromHandle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *isBusinessChat; // @synthesize isBusinessChat=_isBusinessChat;
-@property(readonly, nonatomic) NSNumber *isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) NSNumber *isGroupThread; // @synthesize isGroupThread=_isGroupThread;
-@property(readonly, nonatomic) NSNumber *isJunk; // @synthesize isJunk=_isJunk;
-@property(readonly, nonatomic) NSNumber *isKnownSender; // @synthesize isKnownSender=_isKnownSender;
-@property(readonly, nonatomic) NSNumber *isNew; // @synthesize isNew=_isNew;
-@property(readonly, nonatomic) NSNumber *isPinned; // @synthesize isPinned=_isPinned;
-@property(readonly, nonatomic) NSNumber *isRead; // @synthesize isRead=_isRead;
-@property(readonly, nonatomic) NSNumber *isTwoFactorCode; // @synthesize isTwoFactorCode=_isTwoFactorCode;
-@property(readonly, nonatomic) NSNumber *messageEffect; // @synthesize messageEffect=_messageEffect;
-@property(readonly, nonatomic) NSString *messageType; // @synthesize messageType=_messageType;
-@property(readonly, nonatomic) NSString *messagesService; // @synthesize messagesService=_messagesService;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly, nonatomic) NSString *suggestedNickname; // @synthesize suggestedNickname=_suggestedNickname;
-@property(readonly, nonatomic) NSString *suggestedPhotoPath; // @synthesize suggestedPhotoPath=_suggestedPhotoPath;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *tapbackAssociatedMessageID; // @synthesize tapbackAssociatedMessageID=_tapbackAssociatedMessageID;
-@property(readonly, nonatomic) NSNumber *tapbackType; // @synthesize tapbackType=_tapbackType;
-@property(readonly, nonatomic) NSArray *toHandles; // @synthesize toHandles=_toHandles;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

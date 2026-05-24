@@ -9,31 +9,25 @@
 @interface NFFieldNotificationECP1_0 : NFFieldNotification
 {
     _Bool _odaRequired;
-    _Bool _ignoreRFTechOnIsEqual;
-    unsigned int _terminalMode;
-    unsigned int _terminalType;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)P;
+- (void);
 - (_Bool);
 - (void);
 - (id);
+- (unsigned int);
+- (_Bool);
 - (unsigned int);
-- (_Bool);
-- (unsigned int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
-- (id);
+- (id)b;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool ignoreRFTechOnIsEqual; // @synthesize ignoreRFTechOnIsEqual=_ignoreRFTechOnIsEqual;
-@property(readonly) _Bool odaRequired; // @synthesize odaRequired=_odaRequired;
-@property(readonly) unsigned int terminalMode; // @synthesize terminalMode=_terminalMode;
-@property(readonly) unsigned int terminalType; // @synthesize terminalType=_terminalType;
 
 @end
 

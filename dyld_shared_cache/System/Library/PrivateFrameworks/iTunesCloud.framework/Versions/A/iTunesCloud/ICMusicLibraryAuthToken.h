@@ -4,23 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface ICMusicLibraryAuthToken
 {
     _Bool _frozen;
-    NSString *_token;
-    NSDate *_expirationDate;
-    NSString *_deviceGUID;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)q;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)oef);
+		
+		accum += texture2DRect(textureSampler1,sampleCoord + 0.5).x * coef2;
+		weight += coef2;
+	}
+	
+	if (weight > 1.0) {
+		accum /= weight;
+	} else {
+		accum = texture2DRect(textureSampler1,aoTexCoord).x;
+	}
+	
+	//accum = texture2DRect(textureSampler1,TexCoord).x;
+	gl_FragColor =	vec4(accum,accum,accum,1.0) * texture2DRect(textureSampler0,TexCoord);
+	};
 - (void);
 - (id);
 - (void);
@@ -31,17 +42,6 @@
 - (void)_ICMusicSubscriptionLeaseIdentityCacheKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceGUID; // @synthesize deviceGUID=_deviceGUID;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end

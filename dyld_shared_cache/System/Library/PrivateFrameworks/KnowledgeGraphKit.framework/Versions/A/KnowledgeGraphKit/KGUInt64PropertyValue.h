@@ -11,12 +11,12 @@
     unsigned long long _value;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)@;
+- (id)CoreMedia;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id){public}@ start, input = %{private}@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;

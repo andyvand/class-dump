@@ -6,38 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, READSchemaREADRequestStarted;
+@class READSchemaREADRequestStarted;
 
 @interface READSchemaREADRequestContext : SISchemaInstrumentationMessage
 {
     READSchemaREADRequestStarted *_startedOrChanged;
-    _Bool _hasStartedOrChanged;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
+- (_Bool)h;
+- (void);
+- (void);
+- (void)__AUTH;
+- (id);
+- (id);
+- (void);
+- (unsigned long long)/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAccountLookupResponse_macOS.m:20 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)ctual migration));
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (id)_whichDeviceattributes;
 - (id);
-- (id);
-- (id)utes;
-- (id);
-- (void)DATA_NSCOCOAERRORDOMAIN;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_INVALIDCLIENTDATA_NSCOCOAERRORDOMAIN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) READSchemaREADRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

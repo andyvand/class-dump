@@ -5,5 +5,6 @@
 //
 
 @protocol VGOEMAppSOCStreaming
+- (void);
 @end
 

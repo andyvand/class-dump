@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet, NSString;
-
 @interface SXTraitDistanceComponentInsertionCondition
 {
     unsigned long long _componentTrait;
-    unsigned long long _otherComponentTrait;
-    NSMutableIndexSet *_traitAreas;
-    NSMutableIndexSet *_otherTraitAreas;
-    struct _SXConvertibleValue _distance;
 }
 
 - (_Bool);
@@ -32,17 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long componentTrait; // @synthesize componentTrait=_componentTrait;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct _SXConvertibleValue distance; // @synthesize distance=_distance;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long otherComponentTrait; // @synthesize otherComponentTrait=_otherComponentTrait;
-@property(retain, nonatomic) NSMutableIndexSet *otherTraitAreas; // @synthesize otherTraitAreas=_otherTraitAreas;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableIndexSet *traitAreas; // @synthesize traitAreas=_traitAreas;
 
 @end
 

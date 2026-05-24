@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MSSearchResultsSectionSnapshot
 {
     NSArray *futures;
-    void title;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)ues[0];
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *futures; // @synthesize futures;
-@property(nonatomic, readonly) NSString *title;
 
 @end
 

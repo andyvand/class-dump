@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FUFlightInfoView;
+
 @protocol FUFlightInfoViewProtocol
+- (_Bool)t:(FUFlightInfoView *)arg1 %u is beyond the offset for the last table offset entry %u in segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)r frames, mapping to frame:(FUFlightInfoView *)arg1 %d when segment has only %d frames in segment:(long long)arg2 %{public}@;
 @end
 

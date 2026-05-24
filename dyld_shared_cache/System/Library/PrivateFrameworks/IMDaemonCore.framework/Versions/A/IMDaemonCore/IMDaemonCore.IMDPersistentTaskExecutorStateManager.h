@@ -7,11 +7,6 @@
 @interface IMDaemonCore.IMDPersistentTaskExecutorStateManager
 {
     id $defaultActor;
-    id holdingUpdates;
-    id pendingStates;
-    id monitors;
-    id executorStates;
-    id hasFullTaskReports;
 }
 
 @end

@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilityFindViewAncestor:startWithSelf: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
-- (void);
+- (void)藟;
 
 @end
 

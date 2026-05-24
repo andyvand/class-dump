@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     } _treeDetailBinderFlags;
 }
 
-+ (_Bool);
-+ (id);
-- (void);
-- (_Bool);
-- (id);
++ (_Bool)external data length doesn't match data;
++ (id)attribution;
+- (void)SData"40Q48@"NSUUID"56@"NSDictionary"64@?<v@?B>72;
+- (_Bool)F;
+- (id)Y;
 - (void);
 
 @end

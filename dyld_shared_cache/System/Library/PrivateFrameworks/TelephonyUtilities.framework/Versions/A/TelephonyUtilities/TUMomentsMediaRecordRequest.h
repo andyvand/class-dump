@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, TUMediaTokens, TUSandboxExtendedURL;
+@class NSUUID;
 
 @interface TUMomentsMediaRecordRequest
 {
     NSUUID *_callUUID;
-    TUSandboxExtendedURL *_sandboxURL;
-    TUMediaTokens *_mediaTokens;
-    NSString *_localeIdentifier;
-    NSString *_localCaptionsFileName;
-    NSString *_remoteCaptionsFileName;
 }
 
 + (_Bool);
@@ -25,23 +20,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)amplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WTF::NativePromiseProducer<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::PlatformMediaError, 16>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)uggestedNamesForDestinationID:onlySignificant:supportsInfoLookup:error: /* Error: Ran out of types for this method. */;
+- (void)suggestedNamesForDestinationID:onlySignificant:supportsInfoLookup:error: /* Error: Ran out of types for this method. */;
 - (id)nchronously;
 - (void)rentInputDevice;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *callUUID; // @synthesize callUUID=_callUUID;
-@property(copy, nonatomic) NSString *localCaptionsFileName; // @synthesize localCaptionsFileName=_localCaptionsFileName;
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(readonly, nonatomic) TUMediaTokens *mediaTokens; // @synthesize mediaTokens=_mediaTokens;
-@property(copy, nonatomic) NSString *remoteCaptionsFileName; // @synthesize remoteCaptionsFileName=_remoteCaptionsFileName;
-@property(readonly, nonatomic) TUSandboxExtendedURL *sandboxURL; // @synthesize sandboxURL=_sandboxURL;
 
 @end
 

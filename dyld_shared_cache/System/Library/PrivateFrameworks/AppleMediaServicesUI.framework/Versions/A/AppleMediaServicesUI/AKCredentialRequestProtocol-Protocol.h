@@ -7,12 +7,10 @@
 @class NSString, NSUUID;
 
 @protocol AKCredentialRequestProtocol
-- (NSString *)nguage;
+- (NSUUID *)t maximum resolution. If this command is unintentionally recognizing numbered items or grid sections, disable it and use “{System.OverlayChooseLabel}” instead.\n{CommonSection.AvailabilityRequiresNumbersOrGridOverlay};
+- (NSString *)language;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *altDSID;
-@property(readonly, copy, nonatomic) NSUUID *requestIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *transactionID;
 @property(copy, nonatomic) NSString *userIdentifier;
 @end
 

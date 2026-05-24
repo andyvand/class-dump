@@ -9,19 +9,17 @@
 @interface CVNLPTextDecodingContext
 {
     NSString *_history;
-    struct _NSRange _activeRange;
 }
 
+- (id)';
 - (id);
 - (id);
-- (id);
-- (struct _NSRange);
-- (id);
+- (struct _NSRange);
+- (id)H*;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange activeRange; // @synthesize activeRange=_activeRange;
 @property(readonly, nonatomic) NSString *history; // @synthesize history=_history;
 
 @end

@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSWindowChromeHostingContext, UIScene, UITraitCollection;
-@protocol UINSWindow;
-
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneMacComponent
 {
@@ -18,42 +15,31 @@ __attribute__((visibility("hidden")))
         unsigned int isScreenBasedWindowSceneForHostedWindows:1;
         unsigned int hideProxyWindowOnceAttached:1;
     } _flags;
-    double _overriddenDisplayScale;
-    long long _overriddenDisplayGamut;
-    long long _overriddenUserInterfaceStyle;
-    id _beginResizeNoteObserver;
-    id _endResizeNoteObserver;
-    id _viewServiceSessionDidChangeObserver;
-    _Bool _inLiveResize;
-    _Bool _usesToolbarSemanticContext;
-    UIScene *_scene;
-    id <UINSWindow> _UINSWindowProxy;
-    UINSWindowChromeHostingContext *_windowChromeHostingContext;
 }
 
 + (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)IMCollaborationNoticeTransmission"16@"NSSet"24@"NSString"32@?<v@?B>40;
+- (void)4q32B40;
+- (void)updateTransfersWithCKRecord:recordWasFetched:downloadAsset: /* Error: Ran out of types for this method. */;
+- (void)messageTime;
+- (void)handleTranslationWithPipeline:(_Bool)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_updateRecordZone;
+- (void)_chatRegistrySharedInstance;
+- (void)_chatInfoInRange:(long long)arg1 wantsBlackholed: /* Error: Ran out of types for this method. */;
+- (_Bool)Could not get IMDMessageRecordRef for attachment guid %s;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id)me;
+- (id)solutionFrame;
 - (id)two indices specifying the section and row. Please use the category on NSIndexPath in NSIndexPath+UIKitAdditions.h if possible.;
 - (void);
 - (id)@,§þ\R0nà;
@@ -61,22 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setUINSWindowProxy:) __weak id <UINSWindow> _UINSWindowProxy; // @synthesize _UINSWindowProxy;
 @property(nonatomic, getter=_isInLiveResize, setter=_setInLiveResize:) _Bool _inLiveResize; // @synthesize _inLiveResize;
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) UITraitCollection *_traitOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITraitCollection",?,R,N
-
-@property(setter=_setUsesToolbarSemanticContext:) _Bool _usesToolbarSemanticContext; // @synthesize _usesToolbarSemanticContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UINSWindowChromeHostingContext *windowChromeHostingContext; // @synthesize windowChromeHostingContext=_windowChromeHostingContext;
 
 @end
 

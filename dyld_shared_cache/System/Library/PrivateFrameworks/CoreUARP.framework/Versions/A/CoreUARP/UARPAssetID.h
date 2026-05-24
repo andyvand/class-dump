@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSNumber, NSObject, NSString, NSURL, UARPAssetTag;
-@protocol OS_os_log;
+@class NSString;
 
 @interface UARPAssetID
 {
     NSString *_remoteBuildManifestPlistPath;
-    NSNumber *_deploymentDay;
-    NSNumber *_deploymentPercent;
-    _Bool _signatureValidationNeeded;
-    long long _validationStatus;
-    NSString *_firmwareHash;
-    NSMutableArray *_activeAccessoriesForStaging;
-    NSMutableArray *_downstreamAssetIDs;
-    NSObject<OS_os_log> *_log;
-    _Bool _reportProgressToDelegates;
-    NSNumber *_assetVersionNumber;
-    _Bool _deploymentAllowed;
-    _Bool _isUrgentUpdate;
-    long long _type;
-    NSString *_remotePath;
-    NSString *_assetVersion;
-    long long _downloadStatus;
-    long long _updateAvailabilityStatus;
-    long long _releaseNotesDownloadStatus;
-    NSString *_releaseNotesRemotePath;
-    long long _releaseNotesAvailabilityStatus;
-    NSDate *_assetReleaseDate;
-    NSNumber *_releaseNotesFileSize;
-    NSNumber *_firmwareFileSize;
-    NSArray *_deploymentRules;
-    UARPAssetTag *_tag;
-    NSURL *_remoteURL;
-    NSURL *_localURL;
-    NSURL *_releaseNotesRemoteURL;
-    NSURL *_releaseNotesLocalURL;
-    NSURL *_tatsuServerURL;
-    NSString *_modelNumber;
 }
 
 + (_Bool);

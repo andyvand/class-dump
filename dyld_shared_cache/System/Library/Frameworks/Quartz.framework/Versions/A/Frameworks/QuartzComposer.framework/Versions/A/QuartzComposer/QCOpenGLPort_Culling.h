@@ -9,8 +9,6 @@
 @interface QCOpenGLPort_Culling : QCIndexPort
 {
     unsigned char _enabled;
-    int _mode;
-    void *_unused4[4];
 }
 
 - (void);

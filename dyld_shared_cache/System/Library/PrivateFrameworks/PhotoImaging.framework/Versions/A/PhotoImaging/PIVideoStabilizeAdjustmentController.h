@@ -6,15 +6,13 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSArray;
-
 @interface PIVideoStabilizeAdjustmentController : PIAdjustmentController
 {
 }
 
 + (id);
 + (id);
-- (CDStruct_996ac03c);
+- (CDStruct_0973877e);
 - (void);
 - (void);
 - (void);
@@ -26,10 +24,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long analysisType;
 @property(nonatomic) double cropFraction;
-@property(copy, nonatomic) NSArray *keyframes;
-@property(nonatomic) CDStruct_996ac03c stabCropRect;
 
 @end
 

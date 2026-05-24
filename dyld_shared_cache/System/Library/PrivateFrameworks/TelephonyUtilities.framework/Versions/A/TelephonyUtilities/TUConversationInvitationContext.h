@@ -11,18 +11,18 @@
     NSArray *_nearbyStableDeviceIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (void);
-- (id);
+- (id)~;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)TcZ;
 - (_Bool);
 - (void);
 - (id);
-- (void)splayMode:conversation: /* Error: Ran out of types for this method. */;
+- (void)setGridDisplayMode:conversation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *nearbyStableDeviceIdentifiers; // @synthesize nearbyStableDeviceIdentifiers=_nearbyStableDeviceIdentifiers;

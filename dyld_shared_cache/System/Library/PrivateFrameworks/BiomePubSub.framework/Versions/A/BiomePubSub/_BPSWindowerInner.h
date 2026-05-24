@@ -6,24 +6,11 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class BPSSubscriptionStatus, NSMutableArray, NSMutableDictionary, NSString;
-@protocol BPSSubscriber, BPSWindowAssigner;
+@protocol BPSSubscriber;
 
 @interface _BPSWindowerInner : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    BPSSubscriptionStatus *_status;
-    long long _demand;
-    NSMutableDictionary *_windows;
-    NSMutableDictionary *_windowsDemand;
-    NSMutableDictionary *_windowsBuffer;
-    NSMutableDictionary *_windowsStatus;
-    NSMutableArray *_buffer;
-    _Bool _recursion;
-    _Bool _sideRecursion;
-    id <BPSSubscriber> _downstream;
-    CDUnknownBlockType _key;
-    id <BPSWindowAssigner> _assigner;
 }
 
 + (id);
@@ -31,12 +18,12 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)@9;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id):8@16@24 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -46,16 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <BPSWindowAssigner> assigner; // @synthesize assigner=_assigner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDUnknownBlockType key; // @synthesize key=_key;
-@property(readonly) Class superclass;
 
 @end
 

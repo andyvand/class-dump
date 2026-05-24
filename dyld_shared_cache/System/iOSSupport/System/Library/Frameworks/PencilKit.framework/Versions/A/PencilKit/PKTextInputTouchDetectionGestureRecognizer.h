@@ -5,7 +5,6 @@
 //
 
 @class NSMapTable;
-@protocol PKTextInputTouchDetectionGestureRecognizerDelegate;
 
 @interface PKTextInputTouchDetectionGestureRecognizer
 {
@@ -20,17 +19,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void)mpletion:(id)arg1;
-- (void)de;
+- (void)setVisibleInWindow:(id)arg1 animated:(id)arg2 notify:completion: /* Error: Ran out of types for this method. */;
+- (void)_sixChannelMode;
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *_touches; // @synthesize _touches=__touches;
-@property(nonatomic) __weak id <PKTextInputTouchDetectionGestureRecognizerDelegate> delegate; // @dynamic delegate;
 
 @end
 

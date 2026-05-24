@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (struct ui_archive_entry *);
+- (struct ui_archive_entry *);
 - (struct ui_archive *);
 
 // Remaining properties

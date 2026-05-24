@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
+- (id)thumbnailSizeForAppIconInCollaborationLinks;
+- (_Bool)supportsInlineReplyTransition;
 - (id);
 - (void);
 - (long long);
-- (void)LinkView;
+- (void)VariantLinkView;
 
 // Remaining properties
 @property(nonatomic) long long index; // @synthesize index=_index;

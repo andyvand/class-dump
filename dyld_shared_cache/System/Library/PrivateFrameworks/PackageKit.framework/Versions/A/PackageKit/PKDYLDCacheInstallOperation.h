@@ -11,7 +11,6 @@
 @interface PKDYLDCacheInstallOperation : PKInstallOperation
 {
     PKInstallTask *_currentTask;
-    _Bool _inSandbox;
 }
 
 - (_Bool);
@@ -19,7 +18,7 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)stringValue;
 - (void);
 
 @end

@@ -7,7 +7,6 @@
 @interface AppKit.NSColorAttributeCompositor.FlattenMutableInfo__priv_E1D15EF5DAE0C93790587E8A66CA638F
 {
     id attributeName;
-    id mutableAttributedString;
 }
 
 - (id);

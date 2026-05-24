@@ -7,11 +7,6 @@
 @interface CoreCDPUI.DataAccessNavigationViewModel
 {
     id cdpContext;
-    id escapeOffers;
-    id _stack;
-    id _validator;
-    id devices;
-    id _$observationRegistrar;
 }
 
 @end

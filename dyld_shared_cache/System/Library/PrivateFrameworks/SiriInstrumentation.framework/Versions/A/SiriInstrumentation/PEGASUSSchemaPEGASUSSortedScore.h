@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSSortedScore : SISchemaInstrumentationMessage
 {
     NSString *_sortedScoreFinal;
-    NSString *_sortedScorelinearCombiner;
-    NSString *_sortedScoreModelFinal;
-    NSString *_sortedScoreStage2;
-    NSString *_sortedScoreBoosted;
-    NSString *_sortedScoreKnockOut;
-    _Bool _hasSortedScoreFinal;
-    _Bool _hasSortedScorelinearCombiner;
-    _Bool _hasSortedScoreModelFinal;
-    _Bool _hasSortedScoreStage2;
-    _Bool _hasSortedScoreBoosted;
-    _Bool _hasSortedScoreKnockOut;
 }
 
 - (id);
@@ -55,31 +44,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)O;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ification %@ hasn't been associated with a chat yet;
 - (id);
 - (id)
 × ;
-- (id)yHints;
+- (id)_hasDisplayHints;
 - (id),V_ended;
 - (void)pledAudioFileEnqueueFailed;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSortedScoreBoosted; // @synthesize hasSortedScoreBoosted=_hasSortedScoreBoosted;
-@property(nonatomic) _Bool hasSortedScoreFinal; // @synthesize hasSortedScoreFinal=_hasSortedScoreFinal;
-@property(nonatomic) _Bool hasSortedScoreKnockOut; // @synthesize hasSortedScoreKnockOut=_hasSortedScoreKnockOut;
-@property(nonatomic) _Bool hasSortedScoreModelFinal; // @synthesize hasSortedScoreModelFinal=_hasSortedScoreModelFinal;
-@property(nonatomic) _Bool hasSortedScoreStage2; // @synthesize hasSortedScoreStage2=_hasSortedScoreStage2;
-@property(nonatomic) _Bool hasSortedScorelinearCombiner; // @synthesize hasSortedScorelinearCombiner=_hasSortedScorelinearCombiner;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *sortedScoreBoosted; // @synthesize sortedScoreBoosted=_sortedScoreBoosted;
 @property(copy, nonatomic) NSString *sortedScoreFinal; // @synthesize sortedScoreFinal=_sortedScoreFinal;
-@property(copy, nonatomic) NSString *sortedScoreKnockOut; // @synthesize sortedScoreKnockOut=_sortedScoreKnockOut;
-@property(copy, nonatomic) NSString *sortedScoreModelFinal; // @synthesize sortedScoreModelFinal=_sortedScoreModelFinal;
-@property(copy, nonatomic) NSString *sortedScoreStage2; // @synthesize sortedScoreStage2=_sortedScoreStage2;
-@property(copy, nonatomic) NSString *sortedScorelinearCombiner; // @synthesize sortedScorelinearCombiner=_sortedScorelinearCombiner;
 
 @end
 

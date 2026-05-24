@@ -6,24 +6,23 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAARParaphrasedAlternativeResultsPod : SAAceView
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)k!;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternativeResultViews;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

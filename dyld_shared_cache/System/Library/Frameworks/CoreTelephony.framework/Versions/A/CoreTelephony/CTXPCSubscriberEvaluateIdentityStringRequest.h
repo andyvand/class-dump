@@ -15,8 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)h
+;
+- (id)ed "%@" from "%@" already exists as "%@";
 - (int);
 
 // Remaining properties

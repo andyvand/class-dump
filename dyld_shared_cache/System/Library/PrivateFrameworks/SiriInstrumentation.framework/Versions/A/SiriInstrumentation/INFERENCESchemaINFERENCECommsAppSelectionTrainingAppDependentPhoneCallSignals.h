@@ -6,30 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCECommsAppSelectionTrainingAppDependentPhoneCallSignals : SISchemaInstrumentationMessage
 {
     float _appAffinityScoreForPhoneCall;
-    float _appAffinityScoreForPhoneCallUsingSiri;
-    float _appAffinityScoreForPhoneCallReceived;
-    int _appFreqForPhoneCall;
-    int _appFreqForPhoneCallUsingSiri;
-    int _appFreqForPhoneCallForCountryCode;
-    struct {
-        unsigned int appAffinityScoreForPhoneCall:1;
-        unsigned int appAffinityScoreForPhoneCallUsingSiri:1;
-        unsigned int appAffinityScoreForPhoneCallReceived:1;
-        unsigned int appFreqForPhoneCall:1;
-        unsigned int appFreqForPhoneCallUsingSiri:1;
-        unsigned int appFreqForPhoneCallForCountryCode:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,22 +50,10 @@
 - (id)ás!ÀEùà°1Â0@ù
 × ;
 - (id)_hasIfflowError;
-- (id)nce;
+- (id)LTSchemaLocaleConfidence;
 
 // Remaining properties
 @property(nonatomic) float appAffinityScoreForPhoneCall; // @synthesize appAffinityScoreForPhoneCall=_appAffinityScoreForPhoneCall;
-@property(nonatomic) float appAffinityScoreForPhoneCallReceived; // @synthesize appAffinityScoreForPhoneCallReceived=_appAffinityScoreForPhoneCallReceived;
-@property(nonatomic) float appAffinityScoreForPhoneCallUsingSiri; // @synthesize appAffinityScoreForPhoneCallUsingSiri=_appAffinityScoreForPhoneCallUsingSiri;
-@property(nonatomic) int appFreqForPhoneCall; // @synthesize appFreqForPhoneCall=_appFreqForPhoneCall;
-@property(nonatomic) int appFreqForPhoneCallForCountryCode; // @synthesize appFreqForPhoneCallForCountryCode=_appFreqForPhoneCallForCountryCode;
-@property(nonatomic) int appFreqForPhoneCallUsingSiri; // @synthesize appFreqForPhoneCallUsingSiri=_appFreqForPhoneCallUsingSiri;
-@property(nonatomic) _Bool hasAppAffinityScoreForPhoneCall;
-@property(nonatomic) _Bool hasAppAffinityScoreForPhoneCallReceived;
-@property(nonatomic) _Bool hasAppAffinityScoreForPhoneCallUsingSiri;
-@property(nonatomic) _Bool hasAppFreqForPhoneCall;
-@property(nonatomic) _Bool hasAppFreqForPhoneCallForCountryCode;
-@property(nonatomic) _Bool hasAppFreqForPhoneCallUsingSiri;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

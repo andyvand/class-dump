@@ -5,5 +5,7 @@
 //
 
 @protocol ODRServerProtocol
+- (void);
+- (void);
 @end
 

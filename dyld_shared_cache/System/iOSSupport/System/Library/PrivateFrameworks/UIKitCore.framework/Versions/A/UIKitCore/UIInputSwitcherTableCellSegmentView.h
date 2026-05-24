@@ -6,22 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView, UIInputSwitcherTableCellBackgroundView, UILabel;
-
 __attribute__((visibility("hidden")))
 @interface UIInputSwitcherTableCellSegmentView : UIView
 {
     _Bool _selected;
-    _Bool _usesDarkTheme;
-    UILabel *_label;
-    UIImageView *_imageView;
-    UIInputSwitcherTableCellBackgroundView *_backgroundView;
 }
 
 + (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)couldn't fetch initiator from conversation %@;
+- (void)!;
 - (id);
 - (struct CGSize);
 - (id)te;
@@ -32,11 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)&ÿ%Ð~;
 
 // Remaining properties
-@property(readonly, nonatomic) UIInputSwitcherTableCellBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) _Bool usesDarkTheme; // @synthesize usesDarkTheme=_usesDarkTheme;
 
 @end
 

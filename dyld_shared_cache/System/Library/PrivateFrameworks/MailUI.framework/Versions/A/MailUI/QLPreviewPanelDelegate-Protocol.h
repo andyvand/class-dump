@@ -5,5 +5,8 @@
 //
 
 @protocol QLPreviewPanelDelegate
+
+@optional
+- (id)oup_wait (associateFaceCrops);
 @end
 

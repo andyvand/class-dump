@@ -4,57 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNReplaySubject, CoreTelephonyClient, NSObject, NSString;
-@protocol CNCancelable, CNDCoreTelephonyServices, OS_dispatch_queue;
+@class CoreTelephonyClient;
 
 @interface CNDSIMCardMonitor
 {
     CoreTelephonyClient *_coreTelephonyClient;
-    id <CNDCoreTelephonyServices> _coreTelephonyServices;
-    CNReplaySubject *_subject;
-    id <CNCancelable> _subjectToken;
-    struct __CTServerConnection *_serverConnection;
-    NSObject<OS_dispatch_queue> *_serverConnectionQueue;
 }
 
-+ (id);
++ (id)objectAtIndexedSubscript:(id)arg1;
 + (id);
 + (void);
 + (id);
++ (id)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}40;
 + (id);
-+ (id);
-- (void);
+- (void));
+- (id)h8;
 - (id);
-- (id);
-- (struct __CTServerConnection *);
-- (id);
-- (void);
-- (void);
-- (id);
+- (struct __CTServerConnection *)IKCacheDidPurgeNotification;
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)CATActiveIDSServiceConnectionMessageContent;
+- (void)_lexiconForLanguage:waitUntilLoaded: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CoreTelephonyClient *coreTelephonyClient; // @synthesize coreTelephonyClient=_coreTelephonyClient;
-@property(readonly, nonatomic) id <CNDCoreTelephonyServices> coreTelephonyServices; // @synthesize coreTelephonyServices=_coreTelephonyServices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct __CTServerConnection *serverConnection; // @synthesize serverConnection=_serverConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serverConnectionQueue; // @synthesize serverConnectionQueue=_serverConnectionQueue;
-@property(readonly, nonatomic) CNReplaySubject *subject; // @synthesize subject=_subject;
-@property(retain, nonatomic) id <CNCancelable> subjectToken; // @synthesize subjectToken=_subjectToken;
-@property(readonly) Class superclass;
 
 @end
 

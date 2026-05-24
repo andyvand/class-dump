@@ -9,9 +9,6 @@
 @interface _CDCacheCandidate
 {
     NSString *_domainId;
-    NSString *_derivedIntentId;
-    NSString *_bundleId;
-    NSString *_recipientsId;
 }
 
 - (void);
@@ -19,21 +16,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)V;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)2iv;
 - (void);
 - (void)ª3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *derivedIntentId; // @synthesize derivedIntentId=_derivedIntentId;
 @property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(retain, nonatomic) NSString *recipientsId; // @synthesize recipientsId=_recipientsId;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextCorrectionResult, NSArray;
+@class NSArray;
 
 @interface CHStrokeGroupTextCorrectionResult
 {
     NSArray *_inputStrokeIdentifiers;
-    CHTextCorrectionResult *_textCorrectionResult;
 }
 
-+ (_Bool);
++ (_Bool)_ikCameraDownloader;
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *inputStrokeIdentifiers; // @synthesize inputStrokeIdentifiers=_inputStrokeIdentifiers;
-@property(readonly, copy, nonatomic) CHTextCorrectionResult *textCorrectionResult; // @synthesize textCorrectionResult=_textCorrectionResult;
 
 @end
 

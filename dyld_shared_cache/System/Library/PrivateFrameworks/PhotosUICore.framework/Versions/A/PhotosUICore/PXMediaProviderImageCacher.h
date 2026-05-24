@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, PXMediaProvider;
+@class NSMutableDictionary, PXMediaProvider;
 
 @interface PXMediaProviderImageCacher
 {
     PXMediaProvider *_mediaProvider;
-    NSMutableDictionary *_requestIDByCacheSpec;
-    NSCountedSet *_requestCountByCacheSpec;
 }
 
 - (id);
@@ -18,14 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)ptions;
+- (void)ItemListManagerOptions;
 
 // Remaining properties
-@property(nonatomic) __weak PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) NSCountedSet *requestCountByCacheSpec; // @synthesize requestCountByCacheSpec=_requestCountByCacheSpec;
 @property(readonly, nonatomic) NSMutableDictionary *requestIDByCacheSpec; // @synthesize requestIDByCacheSpec=_requestIDByCacheSpec;
 
 @end

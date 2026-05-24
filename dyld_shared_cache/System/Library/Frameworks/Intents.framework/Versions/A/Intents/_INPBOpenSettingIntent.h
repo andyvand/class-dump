@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata, _INPBSettingMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBOpenSettingIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_searchQuery;
-    _INPBSettingMetadata *_settingMetadata;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)k;
 - (id);
-- (_Bool);
+- (_Bool)requires Zip64 extensions to extract.;
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -35,19 +32,7 @@
 - (void)or canRunOnLocalDevice];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSearchQuery;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBDataString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata; // @synthesize settingMetadata=_settingMetadata;
-@property(readonly) Class superclass;
 
 @end
 

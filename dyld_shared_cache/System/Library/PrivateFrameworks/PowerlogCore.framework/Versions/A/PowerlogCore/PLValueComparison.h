@@ -9,33 +9,24 @@
 @interface PLValueComparison
 {
     short _comparisonOperation;
-    NSString *_key;
-    id _value;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (_Bool);
 - (id);
 - (short);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)b;
+- (id)u;
+- (id)(DG
+;
 - (void);
 
 // Remaining properties
-@property(readonly) short comparisonOperation; // @synthesize comparisonOperation=_comparisonOperation;
-@property(readonly) NSString *comparisonOperationString;
-@property(readonly) _Bool hasEqualComparisonComponent;
-@property(readonly) _Bool hasGreaterThanComparisonComponent;
-@property(readonly) _Bool hasLessThanComparisonComponent;
-@property(readonly) _Bool hasNilComparisonComponent;
 @property(readonly) NSString *key; // @synthesize key=_key;
-@property(readonly) NSString *sqlWhereClause;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSendAnnouncementIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)@16@24@?32;
++ (int)length;
++ (long long)initWithThumbnailType:(int)arg1 iconFlavor:(int)arg2 CGImage:(_Bool)arg3 scale:contentRect:generatedProperties: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithFileAtURL:(long long)arg1 size:minimumDimension:scale:iconMode:error:shouldMakeSandboxWrapper: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)populateInitInfo:(id)arg1 forLogicalDevice: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)[corewifi] UI-SCAN:(id)arg1 Cannot start scans for nil interface name;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)eriods: /* Error: Ran out of types for this method. */;
+- (long long)StringAsPayloadAlarmPeriods: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *sentAnnouncements;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface RTStateModelLegacy
 {
     long long _version;
-    NSMutableDictionary *_stateModelLut;
 }
 
 + (_Bool);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)t been in probing state for %f seconds (%f);
+- (void);
+- (id)setCertifiedDeliveryContext: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void)fetching LOIs from homekit location;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *stateModelLut; // @synthesize stateModelLut=_stateModelLut;
 @property(nonatomic) long long version; // @synthesize version=_version;
 
 @end

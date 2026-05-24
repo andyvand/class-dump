@@ -7,10 +7,12 @@
 @class NSData, NSString;
 
 @protocol SGDSuggestManagerInternalProtocol
+- (void)Q;
+- (void)setClasses:(void (^)(SGXPCResponse1 *))arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (void)B'ð1Â0@ù
 × ;
-- (void)s:(_Bool)arg1 events:(void (^)(SGXPCResponse *))arg2 inApp: /* Error: Ran out of types for this method. */;
-- (void)eocodedLocationWithLabel:(NSData *)arg1 address:(NSString *)arg2 latitude:(unsigned long long)arg3 longitude:(void (^)(SGXPCResponse1 *))arg4 accuracy:handle:country:state:city:thoroughfare:subThoroughfare:postalCode: /* Error: Ran out of types for this method. */;
+- (void)recordBannerShownWithContacts:(_Bool)arg1 events:(void (^)(SGXPCResponse *))arg2 inApp: /* Error: Ran out of types for this method. */;
+- (void)geocodedLocationWithLabel:(NSData *)arg1 address:(NSString *)arg2 latitude:(unsigned long long)arg3 longitude:(void (^)(SGXPCResponse1 *))arg4 accuracy:handle:country:state:city:thoroughfare:subThoroughfare:postalCode: /* Error: Ran out of types for this method. */;
 - (void)arvested;
 - (void);
 @end

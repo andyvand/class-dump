@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface ISPersona
 {
     LSBundleRecord *_record;
-    long long _personaType;
 }
 
 - (id);
-- (long long);
+- (long long)_destinationPixelBufferAttributes;
 - (id);
 - (_Bool);
-- (id);
+- (id)reportToCoreAnlytics:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long personaType; // @synthesize personaType=_personaType;
 @property(readonly, nonatomic) LSBundleRecord *record; // @synthesize record=_record;
 
 @end

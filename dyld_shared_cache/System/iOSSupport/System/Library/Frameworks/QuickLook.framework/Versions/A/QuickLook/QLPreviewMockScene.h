@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, QLTransitionContext;
-@protocol QLIosmacPanelHelper, QLPreviewControllerConformingDataSource, QLPreviewControllerConformingDelegate, QLPreviewItem;
+@protocol QLIosmacPanelHelper;
 
 @interface QLPreviewMockScene
 {
     long long _currentPreviewItemIndex;
-    id <QLPreviewControllerConformingDelegate> delegate;
-    id <QLPreviewControllerConformingDataSource> dataSource;
-    id <QLIosmacPanelHelper> _bridgedPreviewPanel;
-    QLTransitionContext *_transitionContext;
 }
 
 + (id);
@@ -32,15 +27,15 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)Multicolor-Swatch;
 - (id);
-- (id);
+- (id)ecipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id INNER JOIN chat c ON   c.ROWID = cm.chat_id INNER JOIN chat_handle_join ch ON   c.ROWID = ch.chat_id WHERE   ch.handle_id = ?   AND c.room_name IS NULL   AND m.replace = ? ORDER BY m.ROWID DESC LIMIT ?;
 - (id);
 - (struct CGRect);
 - (void);
@@ -55,18 +50,6 @@
 
 // Remaining properties
 @property(retain) id <QLIosmacPanelHelper> bridgedPreviewPanel; // @synthesize bridgedPreviewPanel=_bridgedPreviewPanel;
-@property(readonly) id <QLPreviewItem> currentPreviewItem;
-@property long long currentPreviewItemIndex;
-@property(nonatomic) __weak id <QLPreviewControllerConformingDataSource> dataSource; // @synthesize dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <QLPreviewControllerConformingDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) QLTransitionContext *transitionContext; // @synthesize transitionContext=_transitionContext;
 
 @end
 

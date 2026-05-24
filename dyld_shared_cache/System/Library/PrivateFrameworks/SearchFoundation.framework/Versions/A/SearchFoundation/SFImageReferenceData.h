@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, SFCommand;
+@class NSString;
 
 @interface SFImageReferenceData
 {
     struct {
         unsigned int is_prominent:1;
     } _has;
-    _Bool _is_prominent;
-    NSString *_image_url;
-    SFCommand *_command;
-    NSString *_attribution;
-    NSNumber *_width;
-    NSNumber *_height;
 }
 
 + (_Bool);
@@ -27,38 +21,24 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)setEditSessionID:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
+- (void)tonesFromManifestPath:(id)arg1 (%{public}@) mediaDirectoryPath:(%{public}@):About to load tones. /* Error: Ran out of types for this method. */;
+- (void);
+- (id)chDictionaryAccessing>"16@0:(id)arg1 8;
+- (id)ModelCreation;
+- (id)avchdFingerprint;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)MatchInRecipients;
+- (void)_countUnigramMatchInRecipients;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attribution; // @synthesize attribution=_attribution;
-@property(retain, nonatomic) SFCommand *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *height; // @synthesize height=_height;
 @property(copy, nonatomic) NSString *image_url; // @synthesize image_url=_image_url;
-@property(nonatomic) _Bool is_prominent; // @synthesize is_prominent=_is_prominent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *width; // @synthesize width=_width;
 
 @end
 

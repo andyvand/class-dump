@@ -16,8 +16,8 @@
 + (id);
 + (id);
 + (unsigned short);
-- (id);
-- (void);
+- (id)NSUserNotificationCenterDelegate;
+- (void)f?;
 
 @end
 

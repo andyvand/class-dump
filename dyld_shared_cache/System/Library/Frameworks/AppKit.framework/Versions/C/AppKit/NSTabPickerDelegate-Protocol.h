@@ -5,5 +5,8 @@
 //
 
 @protocol NSTabPickerDelegate
+- (_Bool)a;
+- (void)\;
+- (void);
 @end
 

@@ -4,40 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAPIAdapter, ABAddressBook, ABCardViewStyleProvider, ABPerson, ABRemotePersonView;
+@class ABAPIAdapter, ABCardViewStyleProvider;
 
 @interface ABPersonView
 {
     ABCardViewStyleProvider *_styleProvider;
-    ABAPIAdapter *_adapter;
-    ABRemotePersonView *_remoteView;
-    ABAddressBook *_addressBook;
 }
 
 + (struct CGSize);
 - (void);
-- (void);
+- (void)';
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void)Frameworks/Accessibility.framework/Versions/A/Accessibility;
+- (id)addOrUpdateEventWithRelevanceKeys: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id)l/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/dh/dh_pmeth.c;
 - (void);
 - (id);
 - (void);
@@ -45,12 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ABAPIAdapter *_APIAdapter; // @synthesize _APIAdapter=_adapter;
-@property(retain, nonatomic) ABRemotePersonView *_remotePersonView; // @synthesize _remotePersonView=_remoteView;
-@property(retain, nonatomic) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property _Bool editing; // @dynamic editing;
-@property(retain) ABPerson *person; // @dynamic person;
-@property _Bool shouldShowLinkedPeople; // @dynamic shouldShowLinkedPeople;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
 
 @end
 

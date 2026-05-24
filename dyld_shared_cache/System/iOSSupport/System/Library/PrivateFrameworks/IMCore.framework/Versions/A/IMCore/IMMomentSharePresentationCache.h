@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMomentShareCache, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 @protocol IMMomentSharePresentationCacheDelegate;
 
 @interface IMMomentSharePresentationCache
 {
     NSMutableDictionary *_cache;
-    IMMomentShareCache *_momentShareCache;
-    id <IMMomentSharePresentationCacheDelegate> _delegate;
 }
 
 - (id);
@@ -19,21 +17,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void)inThreadForNewSetup:(id)arg1;
+- (void)setBlockMainThreadForNewSetup:(id)arg1;
 - (void)3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <IMMomentSharePresentationCacheDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

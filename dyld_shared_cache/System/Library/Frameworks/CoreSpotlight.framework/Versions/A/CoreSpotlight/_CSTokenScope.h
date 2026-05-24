@@ -9,9 +9,6 @@
 @interface _CSTokenScope
 {
     NSString *_title;
-    NSString *_tokenTitle;
-    long long _scopeType;
-    NSMutableSet *_queryTemplates;
 }
 
 + (id);
@@ -26,30 +23,27 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)@M ;
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (void)6t;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void) ;
+- (void);
+- (id)stascontienesectoresmomentosfacultadcréditodiversassupuestofactoressegundospequeñaгодаеслиестьбылобытьэтомЕслитогоменявсехэтойдажебылигодуденьэтотбыласебяодинсебенадосайтфотонегосвоисвойигрытожевсемсвоюлишьэтихпокаднейдомамиралиботемухотядвухсетилюдиделомиретебясвоевидечегоэтимсчеттемыценысталведьтемеводытебевышенамитипатомуправлицаоднагодызнаюмогудругвсейидеткиноодноделаделесрокиюнявесьЕстьразанашиاللهالتيجميعخاصةالذيعليهجديدالآنالردتحكمصفحةكانتاللييكونشبكةفيهابناتحواءأكثرخلالالحبدليلدروساضغطتكونهناكساحةناديالطبعليكشكرايمكنمنهاشركةرئيسنشيطماذاالفنشبابتعبررحمةكافةيقولمركزكلمةأحمدقلبييعنيصورةطريقشاركجوالأخرىمعناابحثعروضبشكلمسجلبنانخالدكتابكليةبدونأيضايوجدفريقكتبتأفضلمطبخاكثرباركافضلاحلىنفسهأيامردودأنهاديناالانمعرضتعلمداخلممكن;
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *queryTemplates; // @synthesize queryTemplates=_queryTemplates;
-@property(nonatomic) long long scopeType; // @synthesize scopeType=_scopeType;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *tokenTitle; // @synthesize tokenTitle=_tokenTitle;
 
 @end
 

@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface VCEmulatedNetworkElement
 {
     NSDictionary *_policies;
-    struct opaqueCMSimpleQueue *_networkElementQueue;
-    CDUnknownBlockType _processCompleteHandler;
 }
 
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (id);
 
 // Remaining properties

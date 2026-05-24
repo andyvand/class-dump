@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CRPolyline
+- (unsigned long long)updateIconBackground;
 
 // Remaining properties
 @property(readonly) struct CGPath *path;
-@property(readonly) unsigned long long pointCount;
-@property(readonly) NSArray *pointValues;
 @end
 

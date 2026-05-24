@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IDSLogFormatter)
-+ (id);
++ (id)R2;
 - (id);
 - (id);
 @end

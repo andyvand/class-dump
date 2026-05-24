@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray, NSString;
 
 @interface CNAvatarPickerUserSetupMemojiData
 {
     NSString *_path;
-    NSArray *_avatarRecordsDataArray;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)p;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *avatarRecordsData;
 @property(retain, nonatomic) NSArray *avatarRecordsDataArray; // @synthesize avatarRecordsDataArray=_avatarRecordsDataArray;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

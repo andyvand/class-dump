@@ -4,35 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UITextInputSessionBeganAction, _UITextInputSessionCopyAction, _UITextInputSessionCutAction, _UITextInputSessionDeletionAction, _UITextInputSessionDictationBeganAction, _UITextInputSessionDictationEndedAction, _UITextInputSessionEndAction, _UITextInputSessionInsertionAction, _UITextInputSessionKeyboardDockItemButtonPressAction, _UITextInputSessionPasteAction, _UITextInputSessionRedoAction, _UITextInputSessionReplaceTextAction, _UITextInputSessionReplaceWithCandidateAction, _UITextInputSessionSelectionAction, _UITextInputSessionUndoAction;
-
 __attribute__((visibility("hidden")))
 @interface _UITextInputSessionAction
 {
     long long _source;
-    long long _textInputActionsSource;
-    long long _textInputActionsType;
-    unsigned long long _insertedTextLength;
-    unsigned long long _insertedEmojiCount;
-    unsigned long long _insertedPunctuationCount;
-    unsigned long long _removedTextLength;
-    unsigned long long _removedEmojiCount;
-    unsigned long long _removedPunctuationCount;
-    long long _inputActionCountFromMergedActions;
-    unsigned long long _largestSingleInsertionLength;
-    unsigned long long _largestSingleDeletionLength;
-    NSString *_language;
-    NSString *_region;
-    NSString *_keyboardVariant;
-    NSString *_keyboardLayout;
-    NSString *_keyboardType;
-    NSString *_appBundleId;
-    long long _flagOptions;
-    struct _NSRange _relativeRangeBefore;
 }
 
 - (long long);
-- (long long);
+- (long long)';
 - (void);
 - (void);
 - (void);
@@ -49,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)C;
 - (struct _NSRange);
 - (long long);
-- (long long);
+- (long long)action;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -63,81 +42,43 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (long long);
+- (id)rsationMember"32;
+- (id)ersationManager"16@"TUConversation"24@"TUConversationMember"32;
+- (id)"TUConversation"24@"NSSet"32;
+- (id)"TUConversationManager"16@"TUConversation"24@"NSSet"32;
+- (id)nNotice"40;
+- (id)UConversationParticipant"32@"TUConversationNotice"40;
+- (id)ationManager"16@"TUConversation"24@"TUConversationParticipant"32@"TUConversationNotice"40;
+- (id)ager"16@"NSString"24;
+- (id)32;
+- (id)"TUConversationActivityEvent"32;
+- (id)TUConversation"24@"TUConversationActivityEvent"32;
+- (id)rsationManager"16@"TUConversation"24@"TUConversationActivityEvent"32;
+- (void)er GUID from %@ to %@;
+- (id)enerating preview, no destination attachmentPath for transfer %@;
+- (id)Resolved inconsistent GUID to %@ with success:%@ /* Error: Ran out of types for this method. */;
+- (id)History Updated:%@ /* Error: Ran out of types for this method. */;
+- (id)fixupDKEventsMetadataWithShouldContinueBlock:database:client: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
-- (void)Fence:(id)arg1;
-- (void)arHighlightOpacity;
-- (long long)rPresentation;
+- (void);
+- (id)rameWriterProgressRecipient>";
+- (long long);
+- (void)trackFence:(id)arg1;
+- (void)focusSpecularHighlightOpacity;
+- (long long)__hasPopoverPresentation;
 - (id)_retargetImpulse;
-- (void)r:(id)arg1;
+- (void)_setGroupName:(id)arg1 forNavigationBar: /* Error: Ran out of types for this method. */;
 - (id)þÿ@Ñîÿ;
 - (void)c;
 - (void);
 - (id);
-- (void)ration;
+- (void)Configuration;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(readonly, nonatomic) _UITextInputSessionBeganAction *asBegan;
-@property(readonly, nonatomic) _UITextInputSessionCopyAction *asCopy;
-@property(readonly, nonatomic) _UITextInputSessionCutAction *asCut;
-@property(readonly, nonatomic) _UITextInputSessionDeletionAction *asDeletion;
-@property(readonly, nonatomic) _UITextInputSessionDictationBeganAction *asDictationBegan;
-@property(readonly, nonatomic) _UITextInputSessionDictationEndedAction *asDictationEnded;
-@property(readonly, nonatomic) _UITextInputSessionEndAction *asEnd;
-@property(readonly, nonatomic) _UITextInputSessionInsertionAction *asInsertion;
-@property(readonly, nonatomic) _UITextInputSessionKeyboardDockItemButtonPressAction *asKeyboardDockItemButtonPress;
-@property(readonly, nonatomic) _UITextInputSessionPasteAction *asPaste;
-@property(readonly, nonatomic) _UITextInputSessionRedoAction *asRedo;
-@property(readonly, nonatomic) _UITextInputSessionReplaceTextAction *asReplaceText;
-@property(readonly, nonatomic) _UITextInputSessionReplaceWithCandidateAction *asReplaceWithCandidate;
-@property(readonly, nonatomic) _UITextInputSessionSelectionAction *asSelection;
-@property(readonly, nonatomic) _UITextInputSessionUndoAction *asUndo;
-@property(readonly, nonatomic) _Bool changedContent;
-@property(nonatomic) long long flagOptions; // @synthesize flagOptions=_flagOptions;
-@property(readonly, nonatomic) long long inputActionCount;
-@property(nonatomic) long long inputActionCountFromMergedActions; // @synthesize inputActionCountFromMergedActions=_inputActionCountFromMergedActions;
-@property(nonatomic) unsigned long long insertedEmojiCount; // @synthesize insertedEmojiCount=_insertedEmojiCount;
-@property(nonatomic) unsigned long long insertedPunctuationCount; // @synthesize insertedPunctuationCount=_insertedPunctuationCount;
-@property(nonatomic) unsigned long long insertedTextLength; // @synthesize insertedTextLength=_insertedTextLength;
-@property(readonly, nonatomic) _Bool isCapableOfTextInsertion;
-@property(copy, nonatomic) NSString *keyboardLayout; // @synthesize keyboardLayout=_keyboardLayout;
-@property(copy, nonatomic) NSString *keyboardType; // @synthesize keyboardType=_keyboardType;
-@property(copy, nonatomic) NSString *keyboardVariant; // @synthesize keyboardVariant=_keyboardVariant;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(nonatomic) unsigned long long largestSingleDeletionLength; // @synthesize largestSingleDeletionLength=_largestSingleDeletionLength;
-@property(nonatomic) unsigned long long largestSingleInsertionLength; // @synthesize largestSingleInsertionLength=_largestSingleInsertionLength;
-@property(readonly, nonatomic) long long netCharacterCount;
-@property(copy, nonatomic) NSString *region; // @synthesize region=_region;
-@property(nonatomic) struct _NSRange relativeRangeBefore; // @synthesize relativeRangeBefore=_relativeRangeBefore;
-@property(nonatomic) unsigned long long removedEmojiCount; // @synthesize removedEmojiCount=_removedEmojiCount;
-@property(nonatomic) unsigned long long removedPunctuationCount; // @synthesize removedPunctuationCount=_removedPunctuationCount;
-@property(nonatomic) unsigned long long removedTextLength; // @synthesize removedTextLength=_removedTextLength;
 @property(nonatomic) long long source; // @synthesize source=_source;
-@property(nonatomic) long long textInputActionsSource; // @synthesize textInputActionsSource=_textInputActionsSource;
-@property(nonatomic) long long textInputActionsType; // @synthesize textInputActionsType=_textInputActionsType;
 
 @end
 

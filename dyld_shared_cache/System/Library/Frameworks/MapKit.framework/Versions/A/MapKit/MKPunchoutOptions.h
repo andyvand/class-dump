@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface MKPunchoutOptions
 {
     NSURL *_urlToOpen;
-    NSString *_appBundleIdentifier;
-    long long _strategy;
 }
 
 + (id);
+- (void)content;
+- (id)ns allowed exception.;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (long long)tColor: /* Error: Ran out of types for this method. */;
-- (void)otoList;
+- (long long)setContentTintColor: /* Error: Ran out of types for this method. */;
+- (void)photoList;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(nonatomic) long long strategy; // @synthesize strategy=_strategy;
 @property(copy, nonatomic) NSURL *urlToOpen; // @synthesize urlToOpen=_urlToOpen;
 
 @end

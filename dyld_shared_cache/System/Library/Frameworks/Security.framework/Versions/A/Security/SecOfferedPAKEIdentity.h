@@ -9,8 +9,6 @@
 @interface SecOfferedPAKEIdentity
 {
     unsigned short _pake_scheme;
-    NSData *_client_identity;
-    NSData *_server_identity;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain) NSData *client_identity; // @synthesize client_identity=_client_identity;
-@property unsigned short pake_scheme; // @synthesize pake_scheme=_pake_scheme;
-@property(retain) NSData *server_identity; // @synthesize server_identity=_server_identity;
 
 @end
 

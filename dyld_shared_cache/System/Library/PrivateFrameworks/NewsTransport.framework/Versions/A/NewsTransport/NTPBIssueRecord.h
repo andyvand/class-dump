@@ -4,119 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleScores, NSMutableArray, NSString, NTPBDate, NTPBRecordBase;
-
 @interface NTPBIssueRecord
 {
     double _coverAspectRatio;
-    unsigned long long _halfLifeMilliseconds;
-    double _layeredCoverAspectRatio;
-    long long _minimumNewsVersion;
-    NSMutableArray *_allArticleIDs;
-    NSMutableArray *_allowedStorefrontIDs;
-    NTPBRecordBase *_base;
-    NSMutableArray *_blockedStorefrontIDs;
-    NSMutableArray *_bundleFeaturedArticleIDs;
-    NSString *_channelTagID;
-    COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleConversionStats *_conversionStats;
-    NSString *_coverAccentColor;
-    NSString *_coverArticleID;
-    NSString *_coverBackgroundColor;
-    NSString *_coverImageURL;
-    NSString *_coverPrimaryColor;
-    NSString *_coverTextColor;
-    NSString *_edition;
-    NSString *_issueDescription;
-    NSString *_layeredCover;
-    NSString *_layeredCoverPrimaryColor;
-    NSString *_metadataURL;
-    NSString *_notificationDescription;
-    NSString *_pdfResourceArchiveURL;
-    NTPBDate *_publishDate;
-    COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleScores *_scores;
-    NTPBDate *_sortDate;
-    NSString *_title;
-    NSMutableArray *_topicTagIDs;
-    int _type;
-    _Bool _isDraft;
-    _Bool _isPaid;
-    struct {
-        unsigned int coverAspectRatio:1;
-        unsigned int halfLifeMilliseconds:1;
-        unsigned int layeredCoverAspectRatio:1;
-        unsigned int minimumNewsVersion:1;
-        unsigned int type:1;
-        unsigned int isDraft:1;
-        unsigned int isPaid:1;
-    } _has;
 }
 
++ (Class)_colorSpace;
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
++ (Class)tem disappeared;
 + (Class);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *allArticleIDs; // @synthesize allArticleIDs=_allArticleIDs;
-@property(retain, nonatomic) NSMutableArray *allowedStorefrontIDs; // @synthesize allowedStorefrontIDs=_allowedStorefrontIDs;
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSMutableArray *blockedStorefrontIDs; // @synthesize blockedStorefrontIDs=_blockedStorefrontIDs;
-@property(retain, nonatomic) NSMutableArray *bundleFeaturedArticleIDs; // @synthesize bundleFeaturedArticleIDs=_bundleFeaturedArticleIDs;
-@property(retain, nonatomic) NSString *channelTagID; // @synthesize channelTagID=_channelTagID;
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleConversionStats *conversionStats; // @synthesize conversionStats=_conversionStats;
-@property(retain, nonatomic) NSString *coverAccentColor; // @synthesize coverAccentColor=_coverAccentColor;
-@property(retain, nonatomic) NSString *coverArticleID; // @synthesize coverArticleID=_coverArticleID;
-@property(nonatomic) double coverAspectRatio; // @synthesize coverAspectRatio=_coverAspectRatio;
-@property(retain, nonatomic) NSString *coverBackgroundColor; // @synthesize coverBackgroundColor=_coverBackgroundColor;
-@property(retain, nonatomic) NSString *coverImageURL; // @synthesize coverImageURL=_coverImageURL;
-@property(retain, nonatomic) NSString *coverPrimaryColor; // @synthesize coverPrimaryColor=_coverPrimaryColor;
-@property(retain, nonatomic) NSString *coverTextColor; // @synthesize coverTextColor=_coverTextColor;
-@property(retain, nonatomic) NSString *edition; // @synthesize edition=_edition;
-@property(nonatomic) unsigned long long halfLifeMilliseconds; // @synthesize halfLifeMilliseconds=_halfLifeMilliseconds;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasChannelTagID;
-@property(readonly, nonatomic) _Bool hasConversionStats;
-@property(readonly, nonatomic) _Bool hasCoverAccentColor;
-@property(readonly, nonatomic) _Bool hasCoverArticleID;
-@property(nonatomic) _Bool hasCoverAspectRatio;
-@property(readonly, nonatomic) _Bool hasCoverBackgroundColor;
-@property(readonly, nonatomic) _Bool hasCoverImageURL;
-@property(readonly, nonatomic) _Bool hasCoverPrimaryColor;
-@property(readonly, nonatomic) _Bool hasCoverTextColor;
-@property(readonly, nonatomic) _Bool hasEdition;
-@property(nonatomic) _Bool hasHalfLifeMilliseconds;
-@property(nonatomic) _Bool hasIsDraft;
-@property(nonatomic) _Bool hasIsPaid;
-@property(readonly, nonatomic) _Bool hasIssueDescription;
-@property(readonly, nonatomic) _Bool hasLayeredCover;
-@property(nonatomic) _Bool hasLayeredCoverAspectRatio;
-@property(readonly, nonatomic) _Bool hasLayeredCoverPrimaryColor;
-@property(readonly, nonatomic) _Bool hasMetadataURL;
-@property(nonatomic) _Bool hasMinimumNewsVersion;
-@property(readonly, nonatomic) _Bool hasNotificationDescription;
-@property(readonly, nonatomic) _Bool hasPdfResourceArchiveURL;
-@property(readonly, nonatomic) _Bool hasPublishDate;
-@property(readonly, nonatomic) _Bool hasScores;
-@property(readonly, nonatomic) _Bool hasSortDate;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool isDraft; // @synthesize isDraft=_isDraft;
-@property(nonatomic) _Bool isPaid; // @synthesize isPaid=_isPaid;
-@property(retain, nonatomic) NSString *issueDescription; // @synthesize issueDescription=_issueDescription;
-@property(retain, nonatomic) NSString *layeredCover; // @synthesize layeredCover=_layeredCover;
-@property(nonatomic) double layeredCoverAspectRatio; // @synthesize layeredCoverAspectRatio=_layeredCoverAspectRatio;
-@property(retain, nonatomic) NSString *layeredCoverPrimaryColor; // @synthesize layeredCoverPrimaryColor=_layeredCoverPrimaryColor;
-@property(retain, nonatomic) NSString *metadataURL; // @synthesize metadataURL=_metadataURL;
-@property(nonatomic) long long minimumNewsVersion; // @synthesize minimumNewsVersion=_minimumNewsVersion;
-@property(retain, nonatomic) NSString *notificationDescription; // @synthesize notificationDescription=_notificationDescription;
-@property(retain, nonatomic) NSString *pdfResourceArchiveURL; // @synthesize pdfResourceArchiveURL=_pdfResourceArchiveURL;
-@property(retain, nonatomic) NTPBDate *publishDate; // @synthesize publishDate=_publishDate;
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleScores *scores; // @synthesize scores=_scores;
-@property(retain, nonatomic) NTPBDate *sortDate; // @synthesize sortDate=_sortDate;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSMutableArray *topicTagIDs; // @synthesize topicTagIDs=_topicTagIDs;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

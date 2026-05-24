@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKStructuredLocation, UIView;
-@protocol EKEventDetailSuggestedLocationCellDelegate;
+@class EKEvent;
 
 @interface EKEventDetailSuggestedLocationCell
 {
     EKEvent *_event;
-    EKStructuredLocation *_location;
-    _Bool _inlineStyle;
-    id <EKEventDetailSuggestedLocationCellDelegate> _delegate;
 }
 
-- (id);
+- (id)v&s;
 - (struct CGRect);
+- (void)pk*s;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)3r;
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)P;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)abilityRequest: /* Error: Ran out of types for this method. */;
+- (void)setAvailabilityRequest: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bannerPopoverSourceRect;
-@property(readonly, nonatomic) UIView *bannerView;
-@property(nonatomic) __weak id <EKEventDetailSuggestedLocationCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool inlineStyle; // @synthesize inlineStyle=_inlineStyle;
 
 @end

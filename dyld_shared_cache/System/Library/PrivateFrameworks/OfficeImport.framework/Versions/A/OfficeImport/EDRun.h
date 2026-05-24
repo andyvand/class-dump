@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDResources, NSArray, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDRun
 {
     EDResources *mResources;
-    unsigned long long mCharIndex;
-    unsigned long long mFontIndex;
-    NSArray *mEffects;
 }
 
 + (id);
++ (id)=;
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -29,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
@@ -43,13 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)°;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

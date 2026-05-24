@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSOrderedSet;
+@class NSMutableDictionary;
 
 @interface _EDGroupedSenderList
 {
     NSMutableDictionary *_groupsBySender;
-    NSMutableOrderedSet *_orderedGroups;
-    CDUnknownBlockType _comparator;
-    struct os_unfair_lock_s _lock;
-    long long _grouping;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)common_SpatialPosition_BottomLeft;
 - (unsigned long long);
 - (unsigned long long);
 - (void)NULL),
@@ -52,8 +48,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy, nonatomic) NSOrderedSet *orderedGroupedSenders;
-@property(readonly, nonatomic) unsigned long long unreadCount;
 
 @end
 

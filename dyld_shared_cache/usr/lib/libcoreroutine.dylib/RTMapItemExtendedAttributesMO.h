@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface RTMapItemExtendedAttributesMO
 {
 }
 
++ (id)rror:%@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *addressIdentifier; // @dynamic addressIdentifier;
-@property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSNumber *isMe; // @dynamic isMe;
-@property(copy, nonatomic) NSNumber *wifiConfidence; // @dynamic wifiConfidence;
-@property(copy, nonatomic) NSNumber *wifiFingerprintLabelType; // @dynamic wifiFingerprintLabelType;
 
 @end
 

@@ -6,15 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, NSTextAttachmentViewProvider, NSTextLayoutFragment, NSTextParagraphAnchoredAttachment, _UITextLayoutCanvasView;
+@class NSTextParagraphAnchoredAttachment, _UITextLayoutCanvasView;
 
 __attribute__((visibility("hidden")))
 @interface _UITextParagraphAnchoredAttachmentView : UIView
 {
     _UITextLayoutCanvasView *_textLayoutCanvasView;
-    NSTextLayoutFragment *_textLayoutFragment;
-    NSTextAttachmentViewProvider *_attachmentViewProvider;
-    NSTextParagraphAnchoredAttachment *_anchoredAttachment;
 }
 
 - (_Bool);
@@ -22,22 +19,14 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id)namer:session:fileRenameDidFail: /* Error: Ran out of types for this method. */;
-- (void)enuElementCG;
+- (void)`
+;
+- (id)titleRenamer:session:fileRenameDidFail: /* Error: Ran out of types for this method. */;
+- (void)SaySo13UIMenuElementCG;
 - (void)ÿ0>R;
 
 // Remaining properties
 @property(readonly) __weak NSTextParagraphAnchoredAttachment *anchoredAttachment; // @synthesize anchoredAttachment=_anchoredAttachment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLayoutFragmentView;
-@property(readonly) Class superclass;
-@property __weak NSTextLayoutFragment *textLayoutFragment; // @dynamic textLayoutFragment;
 
 @end
 

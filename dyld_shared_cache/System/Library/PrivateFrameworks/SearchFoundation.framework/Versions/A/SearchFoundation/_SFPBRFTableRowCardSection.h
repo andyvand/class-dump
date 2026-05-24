@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBRFTableRowCardSection
 {
     _Bool _scale_to_fit;
-    int _vertical_alignment;
-    NSArray *_cells;
-    NSArray *_compact_cells;
 }
 
 - (int);
@@ -22,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -35,25 +32,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)requestStreamingURLForResource:(id)arg1 asset:intent:timeRange:streamingHints:inContext:clientBundleID:completion: /* Error: Ran out of types for this method. */;
+- (id)g until the first nightly caching task is done. Log message instead of error;
 - (id);
 - (id);
 - (void)ctItemButtonCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cells; // @synthesize cells=_cells;
-@property(copy, nonatomic) NSArray *compact_cells; // @synthesize compact_cells=_compact_cells;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool scale_to_fit; // @synthesize scale_to_fit=_scale_to_fit;
-@property(readonly) Class superclass;
-@property(nonatomic) int vertical_alignment; // @synthesize vertical_alignment=_vertical_alignment;
 
 @end
 

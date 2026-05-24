@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, NSObject, NSString, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue, OS_os_log, _CDRemoteUserContextServer;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _CDClientContext
 {
     _Bool _interrupted;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSObject<OS_dispatch_queue> *_xpcEventQueue;
-    NSXPCConnection *_xpcConnection;
-    NSXPCListenerEndpoint *_endpoint;
-    NSMutableDictionary *_keyPathToValues;
-    NSMutableDictionary *_registrations;
-    NSCountedSet *_keyPathsWithRegistrationsForAnyChange;
-    NSObject<OS_dispatch_queue> *_serialRegistrationCallbackQueue;
-    NSObject<OS_dispatch_queue> *_concurrentRegistrationCallbackQueue;
-    NSMutableDictionary *_openRegistrationTokens;
-    NSObject<OS_os_log> *_log;
-    id <_CDRemoteUserContextServer> _remoteUserContextProxy;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);
@@ -39,7 +26,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ngStore:AddResourceExtended() blkx failed.  %d.
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -51,14 +39,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)network with changed private MAC setting (%{public}@);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -67,19 +55,6 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -88,8 +63,21 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void)s:(id)arg1 location:(id)arg2 linkMetadata:(id)arg3 reaction:(CDUnknownBlockType)arg4 sticker:inlineGlyphContent: /* Error: Ran out of types for this method. */;
+- (void)TAPBACK_LAUGHED;
+- (id)provideRecipientsOptionsCollectionForSearchForMessages:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id)>;
 - (id);
 - (_Bool);
 - (id);
@@ -104,13 +92,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)C;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (void);
 - (id);
@@ -119,27 +107,7 @@
 - (void)ouldn't create os_log_t mdcsChannel;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *concurrentRegistrationCallbackQueue; // @synthesize concurrentRegistrationCallbackQueue=_concurrentRegistrationCallbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool interrupted; // @synthesize interrupted=_interrupted;
-@property(retain, nonatomic) NSMutableDictionary *keyPathToValues; // @synthesize keyPathToValues=_keyPathToValues;
-@property(retain, nonatomic) NSCountedSet *keyPathsWithRegistrationsForAnyChange; // @synthesize keyPathsWithRegistrationsForAnyChange=_keyPathsWithRegistrationsForAnyChange;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSMutableDictionary *openRegistrationTokens; // @synthesize openRegistrationTokens=_openRegistrationTokens;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *registrations; // @synthesize registrations=_registrations;
-@property(retain) id <_CDRemoteUserContextServer> remoteUserContextProxy; // @synthesize remoteUserContextProxy=_remoteUserContextProxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialRegistrationCallbackQueue; // @synthesize serialRegistrationCallbackQueue=_serialRegistrationCallbackQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcEventQueue; // @synthesize xpcEventQueue=_xpcEventQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcQueue; // @synthesize xpcQueue=_xpcQueue;
 
 @end
 

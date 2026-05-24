@@ -5,5 +5,6 @@
 //
 
 @protocol AWDLServiceDiscoveryManagerXPC
+- (void);
 @end
 

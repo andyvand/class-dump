@@ -7,32 +7,22 @@
 @interface CLRouteBoundingBox
 {
     int _nRows;
-    int _nColumns;
-    double _minLatitude;
-    double _maxLatitude;
-    double _minLongitude;
-    double _maxLongitude;
 }
 
 + (_Bool);
 - (int);
 - (int);
 - (double);
-- (double);
-- (double);
-- (double);
+- (double)bt;
+- (double)];
+- (double)Xe;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setMaxNumRegisters:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) double maxLatitude; // @synthesize maxLatitude=_maxLatitude;
-@property(readonly, nonatomic) double maxLongitude; // @synthesize maxLongitude=_maxLongitude;
 @property(readonly, nonatomic) double minLatitude; // @synthesize minLatitude=_minLatitude;
-@property(readonly, nonatomic) double minLongitude; // @synthesize minLongitude=_minLongitude;
-@property(readonly, nonatomic) int nColumns; // @synthesize nColumns=_nColumns;
-@property(readonly, nonatomic) int nRows; // @synthesize nRows=_nRows;
 
 @end
 

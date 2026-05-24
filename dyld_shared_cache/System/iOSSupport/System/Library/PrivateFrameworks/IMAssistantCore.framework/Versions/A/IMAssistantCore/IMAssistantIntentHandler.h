@@ -9,6 +9,7 @@
 @interface IMAssistantIntentHandler
 {
     NSMutableArray *_recentIntentHandlers;
+    id;
 }
 
 - (void);

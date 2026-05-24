@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SafariWebBookmark, Test_NetscapeBookmarkFileReaderBookmarkItem;
+@class SafariWebBookmark;
 
 @protocol NetscapeBookmarkFileReaderBookmarkItem
 - (SafariWebBookmark *);
 
 // Remaining properties
 @property(readonly, nonatomic) SafariWebBookmark *bookmark;
-@property(readonly, nonatomic) Test_NetscapeBookmarkFileReaderBookmarkItem *test_bookmark;
 @end
 

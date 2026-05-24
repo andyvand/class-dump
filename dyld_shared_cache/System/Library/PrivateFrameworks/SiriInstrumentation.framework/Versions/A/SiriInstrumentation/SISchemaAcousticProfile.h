@@ -11,7 +11,6 @@
 @interface SISchemaAcousticProfile : SISchemaInstrumentationMessage
 {
     _Bool _hasA;
-    NSData *_a;
 }
 
 - (void);
@@ -20,20 +19,18 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)essBook];
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)rom scheduled_messages_pending_cloudkit_delete where LENGTH(TRIM(recordID)) > 0 limit ?;;
 - (id);
 - (id);
-- (id)ntactSuggestionGenerated;
-- (id)edAggregationStats;
-- (void)imeSpan;
+- (id)contactSuggestionGenerated;
+- (id)_accumulatedAggregationStats;
+- (void)timeSpan;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *a; // @synthesize a=_a;
-@property(nonatomic) _Bool hasA; // @synthesize hasA=_hasA;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

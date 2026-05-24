@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentTransactionTag;
+@class PKPaymentTransactionTag;
 
 @interface PKSearchTagResult
 {
@@ -12,24 +12,17 @@
 }
 
 + (_Bool);
+- (unsigned long long)_;
+- (id)(;
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void)_NEW_PURCHASES_TITLE;
-- (void)reArgumentMismatch;
+- (void)_passiveCaptivityCorrectDetection;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_NEW_PURCHASES_TITLE;
+- (void)cloudStoreArgumentMismatch;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) PKPaymentTransactionTag *tag; // @synthesize tag=_tag;
 
 @end

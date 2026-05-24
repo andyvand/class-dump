@@ -4,61 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQuerySynonymMetadata
 {
     PBDataReader *_reader;
-    NSString *_countryCode;
-    NSMutableArray *_featureMaps;
-    NSMutableArray *_geoHashes;
-    unsigned long long _identifier;
-    NSString *_key;
-    NSString *_language;
-    NSString *_originalQueryDisplayString;
-    NSMutableArray *_refinementQueries;
-    NSString *_synonymQueryDisplayString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _confidence;
-    int _originalProvider;
-    int _rewriteProvider;
-    _Bool _hardRewrite;
-    _Bool _isOrgQueryPrefixOfRefinement;
-    _Bool _isWeakLexicalMatch;
-    _Bool _useGeoHashes;
-    struct {
-        unsigned int has_identifier:1;
-        unsigned int has_confidence:1;
-        unsigned int has_originalProvider:1;
-        unsigned int has_rewriteProvider:1;
-        unsigned int has_hardRewrite:1;
-        unsigned int has_isOrgQueryPrefixOfRefinement:1;
-        unsigned int has_isWeakLexicalMatch:1;
-        unsigned int has_useGeoHashes:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_featureMaps:1;
-        unsigned int read_geoHashes:1;
-        unsigned int read_key:1;
-        unsigned int read_language:1;
-        unsigned int read_originalQueryDisplayString:1;
-        unsigned int read_refinementQueries:1;
-        unsigned int read_synonymQueryDisplayString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)defaultRequestWithContext: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)iption"b1"read_laneWidths"b1"read_launchAndGoCardText"b1"read_name"b1"read_originListInstruction"b1"read_originWaypointInfo"b1"read_pathLeg"b1"read_pathMapMatcherInstructions"b1"read_phoneticName"b1"read_restrictedZoneIds"b1"read_roadComplexitys"b1"read_routeID"b1"read_routeNames"b1"read_routeCameraInputInfos"b1"read_routeDescriptions"b1"read_routeLabelDetailText"b1"read_routeLineStyleInfos"b1"read_routePlanningDescription"b1"read_segmentNameInfos"b1"read_startingRouteInstructions"b1"read_stepGroups"b1"read_steps"b1"read_trafficColorInfos"b1"read_trafficDescriptionLong"b1"read_trafficDescription"b1"read_unpackedLatLngVertices"b1"read_updateLocations"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)queryDymMetadata;
+- (id)_queryDymMetadata;
 - (id);
 - (void)wöéýH@;
 

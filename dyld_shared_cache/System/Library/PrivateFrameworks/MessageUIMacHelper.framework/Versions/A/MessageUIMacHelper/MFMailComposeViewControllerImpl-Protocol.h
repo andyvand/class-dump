@@ -5,5 +5,12 @@
 //
 
 @protocol MFMailComposeViewControllerImpl
+- (void)featureManager;
+- (void)fc_hasValidArticleComponents;
+- (void)experimentalTitleMetadata;
+- (void)channelPickerRegularSearchConfigurationProfiles;
+- (void)d}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}8r^{CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (void)nt=dd}{CGSize=dd}}8q40;
+- (void);
 @end
 

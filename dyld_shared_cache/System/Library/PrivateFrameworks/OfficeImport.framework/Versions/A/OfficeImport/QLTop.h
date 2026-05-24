@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMArchiveManager, CMMapper, CMState, NSString, OCDDocument;
+@class CMMapper;
 
 __attribute__((visibility("hidden")))
 @interface QLTop
 {
     CMMapper *_mapper;
-    CMState *_state;
-    CMArchiveManager *_archiver;
-    OCDDocument *_document;
-    NSString *_fileName;
-    unsigned long long _format;
-    _Bool _forIndexing;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (void);
-+ (void);
++ (void);
 + (void);
 - (Class);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (Class);
@@ -42,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)*TSUDefaultDateOnlyShortFormat(OITSULocale *__strong);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool forIndexing; // @synthesize forIndexing=_forIndexing;
-@property(readonly) unsigned long long hash;
 @property(readonly) CMMapper *mapper; // @synthesize mapper=_mapper;
-@property(readonly) CMState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

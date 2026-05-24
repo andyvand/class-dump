@@ -9,9 +9,6 @@
 @interface PPM2TopicInitialDonation
 {
     NSString *_activeTreatments;
-    int _algorithm;
-    int _source;
-    CDStruct_95ef61a7 _has;
 }
 
 - (_Bool);
@@ -23,30 +20,25 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)$;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_encrypted;
 - (int);
 - (id);
 - (int);
 - (id);
 - (_Bool);
 - (void);
-- (void)mFromBundleId:(_Bool)arg1 hasAddress:isEligible: /* Error: Ran out of types for this method. */;
+- (void)trackPasteboardItemFromBundleId:(_Bool)arg1 hasAddress:isEligible: /* Error: Ran out of types for this method. */;
 - (id);
 - (int)tchContents called with %tu locations;
 - (void)ice;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
 @property(nonatomic) _Bool hasSource;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, TSDInteractiveCanvasController, TSUNoCopyDictionary;
+@class TSDInteractiveCanvasController;
 
 @interface TSDGestureDispatcher
 {
     TSDInteractiveCanvasController *_interactiveCanvasController;
-    NSMutableArray *_simultaneitySets;
-    TSUNoCopyDictionary *_priorityMap;
-    _Bool _runningTargetHandleGesture;
-    NSMutableArray *_gesturesInFlight;
-    NSMutableArray *_targetsInFlight;
-    _Bool _gestureDidFire;
 }
 
-- (void);
+- (void)PodcastsManagedQueue;
 - (id);
 - (void);
 - (_Bool);
@@ -26,24 +20,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)agreed;
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) TSDInteractiveCanvasController *interactiveCanvasController; // @synthesize interactiveCanvasController=_interactiveCanvasController;
-@property(readonly) Class superclass;
 
 @end
 

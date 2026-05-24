@@ -18,9 +18,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)k;
 - (id);
-- (id);
+- (id)oreFoundation.framework/Versions/A/CoreFoundation;
 - (void)';
 - (void)%@ ;
 - (id)%@;

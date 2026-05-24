@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzleEmbedMenuDismissMessageHandler
 {
     id scriptsManager;
-    id delegate;
 }
 
 - (void);

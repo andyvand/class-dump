@@ -6,23 +6,21 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class PKPassUpgradeRequest, PKPaymentPass;
+@class PKPaymentPass;
 
 @interface PKPaymentRequestPassUpdateRequest : PKPaymentWebServiceRequest
 {
     PKPaymentPass *_pass;
-    PKPassUpgradeRequest *_request;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (void)t.pay.failed;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(readonly, nonatomic) PKPassUpgradeRequest *request; // @synthesize request=_request;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeValue, HMAccessory, NSArray, NSNumber, NSString;
+@class HMAccessory;
 
 @interface HMAccessoryAccessCode
 {
     _Bool _hasRestrictions;
-    HMAccessory *_accessory;
-    HMAccessCodeValue *_accessCodeValue;
-    NSNumber *_uniqueIdentifier;
 }
 
 + (id);
@@ -22,36 +19,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
-- (_Bool);
+- (_Bool)antinaturalism;
 - (id);
 - (id);
 - (id);
 - (void)error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasRestrictions; // @synthesize hasRestrictions=_hasRestrictions;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSNumber *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

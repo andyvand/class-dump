@@ -24,15 +24,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (id);
-- (id)ratedImage;
+- (id)_lastGeneratedImage;
 
 // Remaining properties
 @property(copy, nonatomic, getter=_ramps, setter=_setRamps:) NSMutableDictionary *ramps;

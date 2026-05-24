@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTLComputeCommandEncoder, MTLComputePipelineState, MTLDevice;
+@protocol MTLComputeCommandEncoder;
 
 @interface MPSComputeEncoder
 {
     id <MTLComputeCommandEncoder> _encoder;
-    id <MTLComputePipelineState> _state;
-    unsigned long long _dispatchType;
-    _Bool _isMultiDispatch;
-    _Bool _compilationOnly;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)f ;
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)R);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device; // @dynamic device;
 @property(readonly) unsigned long long dispatchType; // @dynamic dispatchType;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @dynamic label;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface JRSchemaJRClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_jrId;
-    _Bool _hasJrId;
 }
 
 - (void);
@@ -21,20 +20,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void));
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)odelFileSizeInBytes;
-- (id)SchemaAggregatedMetrics;
+- (id)hasLanguageModelFileSizeInBytes;
+- (id)SISchemaAggregatedMetrics;
 - (void)øÈÝÿd_¬©"";
 
 // Remaining properties
-@property(nonatomic) _Bool hasJrId; // @synthesize hasJrId=_hasJrId;
 @property(retain, nonatomic) SISchemaUUID *jrId; // @synthesize jrId=_jrId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

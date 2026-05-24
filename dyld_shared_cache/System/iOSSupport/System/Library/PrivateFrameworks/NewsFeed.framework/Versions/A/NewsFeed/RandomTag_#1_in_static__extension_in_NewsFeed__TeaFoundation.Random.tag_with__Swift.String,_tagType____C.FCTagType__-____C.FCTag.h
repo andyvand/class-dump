@@ -12,14 +12,14 @@
 
 - (id);
 - (id);
-- (id);
+- (id)#0 %;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)angePublisher;
+- (id)ObjectWillChangePublisher;
 - (id)arrow.uturn.forward;
 
 // Remaining properties

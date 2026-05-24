@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem, UIColor, UIView, _UIButtonBarButton, _UITypedStorage;
+@class UIBarButtonItem, _UIButtonBarButton;
 
 @interface _UIButtonBarButtonVisualProvider
 {
     _UIButtonBarButton *_button;
-    UIBarButtonItem *_barButtonItem;
-    UIColor *_tintColor;
-    _UITypedStorage *_typedStorage;
 }
 
 + (id);
-+ (void)UISceneHostingReconnectingActivationControllerDelegate;
++ (void)_UISceneHostingReconnectingActivationControllerDelegate;
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (Class);
-- (struct CGSize);
-- (id);
+- (struct CGSize)setWrapsForTruncationMode:(id)arg1;
+- (id)% ;
 - (void);
 - (_Bool);
 - (void);
@@ -33,26 +30,26 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)G;
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
 - (void)Á!@ù±d°1Â0@ù
 × ;
-- (_Bool)deActive:(id)arg1;
-- (id);
-- (_Bool)ingMultipliedBy: /* Error: Ran out of types for this method. */;
-- (id)tentView;
-- (id);
-- (id);
+- (_Bool)setSaverModeActive:(id)arg1;
+- (id)drivable;
+- (_Bool)constraintWithAnchor:relatedBy:toAnchor:withSystemSpacingMultipliedBy: /* Error: Ran out of types for this method. */;
+- (id)_unembedContentView;
+- (id)_splitViewControllerColumnForSender:(id)arg1;
+- (id)__initialTearOffPoint;
 - (id)ecognizer;
-- (id)servationInfo;
+- (id)observationInfo;
 - (id): /* Error: Ran out of types for this method. */;
 - (id)ate>",R,N;
 - (struct CGSize)",W,N,V_delegate;
 - (void)mage has an invalid size. (w:(id)arg1 %g, h:(CDUnknownBlockType)arg2 %g);
-- (id)ViewType;
-- (void)LocalizeOverrideLayoutEngine;
+- (id)UIViewType;
+- (void)UIViewLocalizeOverrideLayoutEngine;
 - (struct CGPoint)ted:%@ /* Error: Ran out of types for this method. */;
 - (void)layout attributes for supplementary view "%@" in section %ld when there are only %ld sections in the collection view;
 - (_Bool)peed up your typing by sliding your finger across the letters to compose a word.;
@@ -74,28 +71,18 @@
 - (id)h¼);
 - (id)Ø¸d;
 - (struct CGPoint)¾F;
-- (id);
+- (id)4Rd;
 - (id)|Vd;
 - (void)Ô,d;
 - (void)Ú0Ýd;
 - (struct CGSize)-ÝÏd;
 - (void)e;
-- (void);
+- (void)Tje;
 - (struct CGRect)ÿq;
 - (_Bool)pËe;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect accessoryViewAlignmentRect;
-@property(readonly, nonatomic) UIView *alignmentViewForStaticNavBarButtonLeading;
-@property(readonly, nonatomic) UIView *alignmentViewForStaticNavBarButtonTrailing;
-@property(nonatomic) _Bool backButtonConstraintsActive;
-@property(nonatomic) _Bool backButtonMaskEnabled;
-@property(readonly, nonatomic) UIView *backIndicatorView;
 @property(readonly) __weak UIBarButtonItem *barButtonItem;
-@property(readonly, nonatomic) _UIButtonBarButton *button;
-@property(readonly, nonatomic) UIView *contentView;
-@property(copy, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(readonly, nonatomic) _UITypedStorage *typedStorage; // @synthesize typedStorage=_typedStorage;
 
 @end
 

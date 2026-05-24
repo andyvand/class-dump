@@ -6,40 +6,29 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SASportsMetadata : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)P;
 - (void);
-- (void);
+- (void)tate ;
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id)ch;
+- (id)RetrySearch;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *average;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSNumber *selected;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

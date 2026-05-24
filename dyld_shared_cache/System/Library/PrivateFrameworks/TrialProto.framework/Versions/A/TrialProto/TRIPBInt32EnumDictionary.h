@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt32EnumDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
-    CDUnknownFunctionPointerType _validationFunc;
 }
 
-- (id);
+- (id)WBSPasswordWarningTopFraudTargetsTransformer;
 - (void);
 - (void);
 - (void);
@@ -21,28 +19,27 @@
 - (id);
 - (CDUnknownFunctionPointerType);
 - (id);
-- (unsigned long long);
+- (unsigned long long)9-;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)_SFPBMapCardSection;
 - (void);
 - (id);
-- (unsigned long long);
+- (void);
+- (id);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)gSuggestionsPlatform;
+- (void)SiriPrivateLearningSuggestionsPlatform;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType validationFunc; // @synthesize validationFunc=_validationFunc;
 
 @end
 

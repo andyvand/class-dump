@@ -6,38 +6,20 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVMobileChromelessFluidSlider, AVMobileGlassBackgroundView, AVMobileGlassControlsStyleSheet, AVMobileGlassVolumeButtonControl, NSString, UIViewPropertyAnimator;
-@protocol AVMobileGlassVolumeControlsViewDelegate;
+@class AVMobileGlassVolumeButtonControl;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassVolumeControlsView : AVGlassBackedView
 {
     AVGlassBackedView *_volumeControls;
-    UIViewPropertyAnimator *_emphasizedAnimator;
-    struct CGRect _sliderShadowPathRect;
-    struct CGRect _buttonShadowPathRect;
-    _Bool _drawsShadow;
-    _Bool _allowsVolumeAdjustment;
-    _Bool _fullscreen;
-    _Bool _prefersVolumeSliderIncluded;
-    _Bool _prefersVolumeSliderEnabled;
-    _Bool _emphasized;
-    _Bool _mute;
-    _Bool _volumeSliderHidesWithAlphaChange;
-    AVMobileGlassBackgroundView *_backgroundView;
-    id <AVMobileGlassVolumeControlsViewDelegate> _delegate;
-    AVMobileChromelessFluidSlider *_volumeSlider;
-    double _volume;
-    AVMobileGlassControlsStyleSheet *_styleSheet;
-    AVMobileGlassVolumeButtonControl *_volumeButton;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)entity (%@) to new identity set:(id)arg1 %@;
+- (_Bool)we were unable to re-authenticate user during vetting;
 - (void);
 - (_Bool);
 - (void);
@@ -46,29 +28,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)set;
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)lPhotoEnabled;
 - (void);
 - (void);
 - (double);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)setEpisodeName: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -78,31 +60,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)
 × ;
-- (void)temPressedEvent:(id)arg1;
+- (void)_copySubjectMenuItemPressedEvent:(id)arg1;
 
 // Remaining properties
-@property(nonatomic, getter=isTrackingEnabled) _Bool allowsVolumeAdjustment; // @synthesize allowsVolumeAdjustment=_allowsVolumeAdjustment;
-@property(readonly, nonatomic) AVMobileGlassBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AVMobileGlassVolumeControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;
-@property(nonatomic, getter=isEmphasized) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(nonatomic, getter=isFullscreen) _Bool fullscreen; // @synthesize fullscreen=_fullscreen;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTracking;
-@property(nonatomic, getter=isMuted) _Bool mute; // @synthesize mute=_mute;
-@property(nonatomic) _Bool prefersVolumeSliderEnabled; // @synthesize prefersVolumeSliderEnabled=_prefersVolumeSliderEnabled;
-@property(nonatomic) _Bool prefersVolumeSliderIncluded; // @synthesize prefersVolumeSliderIncluded=_prefersVolumeSliderIncluded;
-@property(retain, nonatomic) AVMobileGlassControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double volume; // @synthesize volume=_volume;
 @property(retain, nonatomic) AVMobileGlassVolumeButtonControl *volumeButton; // @synthesize volumeButton=_volumeButton;
-@property(readonly, nonatomic) AVMobileChromelessFluidSlider *volumeSlider; // @synthesize volumeSlider=_volumeSlider;
-@property(nonatomic) _Bool volumeSliderHidesWithAlphaChange; // @synthesize volumeSliderHidesWithAlphaChange=_volumeSliderHidesWithAlphaChange;
 
 @end
 

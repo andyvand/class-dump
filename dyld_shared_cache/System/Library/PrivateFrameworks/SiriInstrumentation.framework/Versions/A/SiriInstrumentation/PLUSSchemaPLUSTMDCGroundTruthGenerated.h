@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSTMDCGroundTruth, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSTMDCGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalPlusId;
-    PLUSSchemaPLUSTMDCGroundTruth *_groundTruth;
-    SISchemaUUID *_originalRequestId;
-    _Bool _hasOriginalPlusId;
-    _Bool _hasGroundTruth;
-    _Bool _hasOriginalRequestId;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -37,22 +32,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)j;
+- (_Bool)a generic 3rd party collaboration.;
 - (id);
 - (id);
-- (id)sagesEnabled;
+- (id)_isAutomaticallySendMessagesEnabled;
 - (id)dValue;
-- (void)TRYCODE_PS;
+- (void)COUNTRYCODE_PS;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSTMDCGroundTruth *groundTruth; // @synthesize groundTruth=_groundTruth;
-@property(nonatomic) _Bool hasGroundTruth; // @synthesize hasGroundTruth=_hasGroundTruth;
-@property(nonatomic) _Bool hasOriginalPlusId; // @synthesize hasOriginalPlusId=_hasOriginalPlusId;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalPlusId; // @synthesize originalPlusId=_originalPlusId;
-@property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 
 @end
 

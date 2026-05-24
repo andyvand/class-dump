@@ -13,19 +13,17 @@
 + (id);
 + (id);
 + (id) );
-- (void);
-- (void);
+- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)B;
 
 // Remaining properties
-@property _Bool automaticallyEmitsObjects;
-@property(copy) CDUnknownBlockType bufferFullHandler;
 @property(getter=isMemoryPressureSensitive) _Bool memoryPressureSensitive;
 
 @end

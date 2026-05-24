@@ -6,28 +6,24 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SICSchemaSICClientEventMetadata, SICSchemaSICInvocationContext, SISchemaInstrumentationMessage;
+@class SICSchemaSICClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface SICSchemaSICClientEvent : SISchemaTopLevelUnionType
 {
     SICSchemaSICClientEventMetadata *_eventMetadata;
-    SICSchemaSICInvocationContext *_siriInCallInvocationContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasSiriInCallInvocationContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)`;
+- (id)P;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (_Bool);
 - (void);
@@ -36,27 +32,21 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)return real results yet.;
 - (_Bool);
-- (_Bool);
+- (_Bool)join WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END;
 - (id);
 - (id);
 - (id)ù
 × ;
-- (unsigned long long)text;
-- (id)uencies;
+- (unsigned long long)deleteSsuUserRequestContext;
+- (id)clearFrequencies;
 - (id)awLanguage;
-- (int)SpeculativeDecodingMetrics;
-- (void)s;
+- (int)GMSSchemaGMSPrivateCloudSpeculativeDecodingMetrics;
+- (void)nowPlayingUsage7Days;
 
 // Remaining properties
-@property(retain, nonatomic) SICSchemaSICClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasSiriInCallInvocationContext; // @synthesize hasSiriInCallInvocationContext=_hasSiriInCallInvocationContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SICSchemaSICInvocationContext *siriInCallInvocationContext; // @synthesize siriInCallInvocationContext=_siriInCallInvocationContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

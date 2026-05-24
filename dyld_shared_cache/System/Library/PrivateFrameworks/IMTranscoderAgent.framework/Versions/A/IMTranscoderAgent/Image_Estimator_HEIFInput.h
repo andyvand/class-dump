@@ -4,94 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface Image_Estimator_HEIFInput
 {
     double _Input_File_Size;
-    double _Input_Height;
-    double _Input_Entropy;
-    double _Aspect_Ratio;
-    double _Target_File_Size;
-    long long _Target_Max_Dimension_4032;
-    long long _Target_Max_Dimension_3000;
-    long long _Target_Max_Dimension_2048;
-    long long _Target_Max_Dimension_1600;
-    long long _Target_Max_Dimension_1280;
-    long long _Target_Max_Dimension_1024;
-    long long _Target_Max_Dimension_800;
-    double _Compression_Ratio;
-    double _Input_H_x_W__NumOfPixels_;
-    double _Target_Height;
-    double _Target_Width;
-    double _Input_log_NumOfPixels_;
-    double _Ratio_of_NumOfPixels;
-    double _Exponential_Entropy;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (void)apPlayback_removePlayQueueItemInternal;
+- (void)nStandardCompletion, void *);
+- (void)CFDictionaryRef, FigEndpointPlaybackSessionStandardCompletion, void *);
+- (void)yQueueItem(FigEndpointPlaybackSessionRef, CFDictionaryRef, FigEndpointPlaybackSessionStandardCompletion, void *);
+- (void)apPlayback_performRemoteActionInternal;
+- (void)playlistInsert;
+- (void)apPlayback_insertPlayQueueItemInternal;
+- (void)andardCompletion, void *);
+- (void), FigEndpointPlaybackSessionStandardCompletion, void *);
+- (void)CFDictionaryRef, CFDictionaryRef, FigEndpointPlaybackSessionStandardCompletion, void *);
+- (void)Status apPlayback_InsertPlayQueueItem(FigEndpointPlaybackSessionRef, CFDictionaryRef, CFDictionaryRef, FigEndpointPlaybackSessionStandardCompletion, void *);
+- (void)CFTypeRef, CFStringRef, Boolean);
+- (void)f, APMetadataSourceEventType, CFTypeRef, CFStringRef, Boolean);
+- (void)etadataEvent(APMetadataSourceRef, CFTypeRef, APMetadataSourceEventType, CFTypeRef, CFStringRef, Boolean);
+- (void)metaData;
+- (void)apPlayback_handleMetadataEvent;
+- (void)apPlayback_subscribeMetadataEvents(FigEndpointPlaybackSessionRef);
+- (void)tr}] Playing %s %s URL:(double)arg1 %'@
+;
+- (void)ackSessionRef, CFStringRef, CFDictionaryRef);
+- (id)ID(FigEndpointPlaybackSessionRef, CFDictionaryRef);
+- (long long)resenceConfiguration:%@ /* Error: Ran out of types for this method. */;
+- (long long)%@;
+- (long long)n with NIDevicePresenceConfiguration:%@ /* Error: Ran out of types for this method. */;
+- (double)[%{ptr}] Starting NISession with NIDevicePresenceConfiguration:%@ /* Error: Ran out of types for this method. */;
+- (double)InSnapOutManager setupNISession];
+- (double)snapInUseCoarseEstimation;
+- (double)snapInUseInteractiveRate;
+- (double)ed snapInList;
+- (double)stChanged];
+- (long long)-[SnapInSnapOutManager handleSnapInListChanged];
+- (long long)ate.currentTargetPSIs = %@;
+- (long long)State.targetPSILookup = %@;
+- (long long)State.acceptableTargets = %@;
+- (double)e.knownTargets = %@;
+- (double)%s, removeTarget = %s;
+- (double)r}] Updating target %@:isInUse = %s, shouldBeInUse = %s, removeTarget = %s /* Error: Ran out of types for this method. */;
+- (double)anager updateTargetState:] /* Error: Ran out of types for this method. */;
+- (double)> PSI %@;
+- (double). IDS Device Identifier %@ -> PSI %@;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double Aspect_Ratio; // @synthesize Aspect_Ratio=_Aspect_Ratio;
-@property(nonatomic) double Compression_Ratio; // @synthesize Compression_Ratio=_Compression_Ratio;
-@property(nonatomic) double Exponential_Entropy; // @synthesize Exponential_Entropy=_Exponential_Entropy;
-@property(nonatomic) double Input_Entropy; // @synthesize Input_Entropy=_Input_Entropy;
 @property(nonatomic) double Input_File_Size; // @synthesize Input_File_Size=_Input_File_Size;
-@property(nonatomic) double Input_H_x_W__NumOfPixels_; // @synthesize Input_H_x_W__NumOfPixels_=_Input_H_x_W__NumOfPixels_;
-@property(nonatomic) double Input_Height; // @synthesize Input_Height=_Input_Height;
-@property(nonatomic) double Input_log_NumOfPixels_; // @synthesize Input_log_NumOfPixels_=_Input_log_NumOfPixels_;
-@property(nonatomic) double Ratio_of_NumOfPixels; // @synthesize Ratio_of_NumOfPixels=_Ratio_of_NumOfPixels;
-@property(nonatomic) double Target_File_Size; // @synthesize Target_File_Size=_Target_File_Size;
-@property(nonatomic) double Target_Height; // @synthesize Target_Height=_Target_Height;
-@property(nonatomic) long long Target_Max_Dimension_1024; // @synthesize Target_Max_Dimension_1024=_Target_Max_Dimension_1024;
-@property(nonatomic) long long Target_Max_Dimension_1280; // @synthesize Target_Max_Dimension_1280=_Target_Max_Dimension_1280;
-@property(nonatomic) long long Target_Max_Dimension_1600; // @synthesize Target_Max_Dimension_1600=_Target_Max_Dimension_1600;
-@property(nonatomic) long long Target_Max_Dimension_2048; // @synthesize Target_Max_Dimension_2048=_Target_Max_Dimension_2048;
-@property(nonatomic) long long Target_Max_Dimension_3000; // @synthesize Target_Max_Dimension_3000=_Target_Max_Dimension_3000;
-@property(nonatomic) long long Target_Max_Dimension_4032; // @synthesize Target_Max_Dimension_4032=_Target_Max_Dimension_4032;
-@property(nonatomic) long long Target_Max_Dimension_800; // @synthesize Target_Max_Dimension_800=_Target_Max_Dimension_800;
-@property(nonatomic) double Target_Width; // @synthesize Target_Width=_Target_Width;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

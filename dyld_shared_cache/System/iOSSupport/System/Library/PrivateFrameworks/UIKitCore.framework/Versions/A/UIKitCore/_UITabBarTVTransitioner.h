@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISpringTimingParameters, UIView;
-@protocol UIViewControllerContextTransitioning;
+@class UISpringTimingParameters;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarTVTransitioner
 {
     _Bool _fromViewOriginalShouldRasterize;
-    double _fromViewLayerOriginalRasterizationScale;
-    _Bool _toViewOriginalShouldRasterize;
-    double _toViewLayerOriginalRasterizationScale;
-    _Bool _transitionFromRight;
-    long long _transitionStyle;
-    id <UIViewControllerContextTransitioning> _transitionContext;
-    UISpringTimingParameters *_slideTimingParameters;
-    UIView *_toViewXFlippedScreenShot;
 }
 
 - (_Bool);
@@ -31,26 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (id);
-- (void)ayView;
+- (id)s={%d}, .occurrenceCount=%d } } result=%@;
+- (void)_sourceOverlayView;
 - (long long)Êîÿþÿ;
-- (void)g;
+- (void)interactiveSpring;
 - (void)UI;
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UISpringTimingParameters *slideTimingParameters; // @synthesize slideTimingParameters=_slideTimingParameters;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *toViewXFlippedScreenShot; // @synthesize toViewXFlippedScreenShot=_toViewXFlippedScreenShot;
-@property(retain, nonatomic) id <UIViewControllerContextTransitioning> transitionContext; // @synthesize transitionContext=_transitionContext;
-@property(nonatomic) _Bool transitionFromRight; // @synthesize transitionFromRight=_transitionFromRight;
-@property(nonatomic) long long transitionStyle; // @synthesize transitionStyle=_transitionStyle;
 
 @end
 

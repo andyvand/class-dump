@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AdminAuthenticator, NSObject, NSString, NSXPCConnection, PPSharingServiceViewController;
-@protocol OS_dispatch_queue;
+@class PPSharingServiceViewController;
 
 @interface PPSharingServiceExtensionManager
 {
     _Bool _initiallyEditable;
-    AdminAuthenticator *_authenticator;
-    NSObject<OS_dispatch_queue> *_adminQueue;
-    PPSharingServiceViewController *_viewController;
-    NSXPCConnection *_connection;
-    NSString *_bundleIdentifier;
 }
 
 + (id);
@@ -28,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (void);
@@ -38,8 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property __weak PPSharingServiceViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

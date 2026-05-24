@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _PFIndexCacheOffset
 {
     struct _NSRange _range;
-    long long _offset;
 }
 
 - (id);

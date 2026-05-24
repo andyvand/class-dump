@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Function Pointers and Blocks
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+#pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
 #pragma mark Named Structures
-
-struct __CFDictionary;
-
-struct __sbuf {
-    char *_field1;
-    int _field2;
-};
-
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
 
 struct receive_wait_s {
     _Bool _field1;
@@ -52,12 +38,4 @@ typedef struct {
     unsigned char _field15;
     unsigned char _field16;
 } CDStruct_bd2f613f;
-
-typedef struct {
-    long long version;
-    CDUnknownFunctionPointerType retain;
-    CDUnknownFunctionPointerType release;
-    CDUnknownFunctionPointerType copyDescription;
-    CDUnknownFunctionPointerType equal;
-} CDStruct_b3b3fc87;
 

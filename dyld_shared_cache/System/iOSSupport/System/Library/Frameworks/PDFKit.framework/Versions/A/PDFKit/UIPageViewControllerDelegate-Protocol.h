@@ -5,5 +5,9 @@
 //
 
 @protocol UIPageViewControllerDelegate
+
+@optional
+- (unsigned long long)Y;
+- (long long)__objc_arraydata__DATA_CONST;
 @end
 

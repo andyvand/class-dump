@@ -6,13 +6,13 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SAUIDecoratedText, SAUINanoImageResource;
+@class NSArray;
 
 @interface SASTTableRowItem : AceObject
 {
 }
 
-+ (id);
++ (id)4;
 + (id);
 - (void);
 - (void);
@@ -25,15 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *columnValues;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUINanoImageResource *imageResource;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SAUIDecoratedText *title;
 
 @end
 

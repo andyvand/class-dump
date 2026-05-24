@@ -6,20 +6,12 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary;
-@protocol CKFetchShareParticipantKeyOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDFetchShareParticipantKeyOperation : CKDDatabaseOperation
 {
     _Bool _hasAttemptedShareUpdate;
-    CDUnknownBlockType _shareParticipantKeyFetchedBlock;
-    NSMutableArray *_shareIDs;
-    NSDictionary *_baseTokensByShareID;
-    NSDictionary *_childRecordIDsByShareID;
-    NSMutableDictionary *_sharesNeedingUpdateByID;
 }
 
-+ (id);
++ (id)setRxCrsGlitchOverDecodingAttemptsPercentage:(unsigned long long)arg1;
 - (void);
 - (id);
 - (void);
@@ -33,27 +25,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)_Failed_Count_WhileTDWait;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (void)t copy private key %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *baseTokensByShareID; // @synthesize baseTokensByShareID=_baseTokensByShareID;
-@property(retain, nonatomic) NSDictionary *childRecordIDsByShareID; // @synthesize childRecordIDsByShareID=_childRecordIDsByShareID;
-@property(retain, nonatomic) id <CKFetchShareParticipantKeyOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(nonatomic) _Bool hasAttemptedShareUpdate; // @synthesize hasAttemptedShareUpdate=_hasAttemptedShareUpdate;
-@property(retain, nonatomic) NSMutableArray *shareIDs; // @synthesize shareIDs=_shareIDs;
-@property(copy, nonatomic) CDUnknownBlockType shareParticipantKeyFetchedBlock; // @synthesize shareParticipantKeyFetchedBlock=_shareParticipantKeyFetchedBlock;
-@property(retain, nonatomic) NSMutableDictionary *sharesNeedingUpdateByID; // @synthesize sharesNeedingUpdateByID=_sharesNeedingUpdateByID;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

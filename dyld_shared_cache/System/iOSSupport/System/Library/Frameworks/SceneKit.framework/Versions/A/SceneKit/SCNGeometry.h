@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSString, SCNGeometryElement, SCNGeometrySource, SCNGeometryTessellator, SCNMaterial, SCNOrderedDictionary, SCNProgram, SCNShadableHelper;
+@class NSString;
 
 @interface SCNGeometry
 {
     struct __C3DGeometry *_geometry;
-    unsigned int _isPresentationInstance:1;
-    NSMutableArray *_sources;
-    NSMutableArray *_elements;
-    NSArray *_sourceChannels;
-    NSMutableArray *_materials;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    NSArray *_levelsOfDetail;
-    unsigned long long _subdivisionLevel;
-    _Bool _subdivisionIsAdaptive;
-    CDStruct_4c02ed10 _subdivisionSettings;
-    SCNGeometrySource *_edgeCreasesSource;
-    SCNGeometryElement *_edgeCreasesElement;
-    SCNShadableHelper *_shadableHelper;
-    struct SCNVector3 *_fixedBoundingBoxExtrema;
-    NSString *_name;
-    NSMutableDictionary *_valuesForUndefinedKeys;
-    struct os_unfair_lock_s _valuesForUndefinedKeysLock;
-    SCNGeometryTessellator *_tessellator;
 }
 
 + (id);
@@ -42,14 +22,14 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)6;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)nonUsernameFieldLabels;
 + (id)d ID, threadgroup VertexType* cv, device OsdPerPatchVertexBezier& result)
 {
     int i = ID%4;
@@ -743,7 +723,7 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -773,11 +753,11 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 - (id);
 - (void);
 - (void);
-- (CDStruct_4c02ed10);
+- (CDStruct_3b44ca4f);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -805,14 +785,14 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 - (void);
 - (struct __C3DScene *);
 - (void);
-- (void);
+- (void)	˟;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)	?׿;
 - (id);
 - (id);
 - (id);
@@ -854,18 +834,18 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)setLassoToolEditingContainerViewCompactHeightConstraint: /* Error: Ran out of types for this method. */;
+- (id)setKnobsVisible:(id)arg1;
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)hIterationKeys;
 - (void);
+- (id);
+- (id);
+- (id)ion"8;
+- (void)%s;
 - (void);
 - (void);
 - (id);
@@ -1408,39 +1388,7 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 ÿðVú M½Ð#RV/ñ¹Kîõ`m­ø×plüÒ +âe=êæ¼©ëhï¶»'×¦æÓØ¥ÞodÚjÍ#ÄÝÐâÀö¡Í³ë`É~>½Éÿ¹¶¼´§«}°¢û:®æûªÌÀ¸§{Ýy£Æ`6q}÷¨[´Fu2­ót-°Ã0q].KY÷«T@¶ÉPEæNòûOJ+ÝGÀÍC!}{`COF /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *animationKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SCNGeometryElement *edgeCreasesElement;
-@property(retain, nonatomic) SCNGeometrySource *edgeCreasesSource;
-@property(retain, nonatomic) SCNMaterial *firstMaterial;
-@property(readonly, nonatomic) long long geometryElementCount;
-@property(readonly, nonatomic) NSArray *geometryElements;
-@property(readonly, nonatomic) NSArray *geometrySourceChannels;
-@property(readonly, nonatomic) NSArray *geometrySources;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *levelsOfDetail;
-@property(copy, nonatomic) NSArray *materials;
-@property(retain, nonatomic) NSNumber *minimumLanguageVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,&,N
-
 @property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) SCNProgram *program;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SCNProgram",?,&,N
-
-@property(copy, nonatomic) NSDictionary *shaderModifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,C,N
-
-@property(nonatomic) unsigned long long subdivisionLevel;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SCNGeometryTessellator *tessellator;
-@property(nonatomic) _Bool wantsAdaptiveSubdivision;
 
 @end
 

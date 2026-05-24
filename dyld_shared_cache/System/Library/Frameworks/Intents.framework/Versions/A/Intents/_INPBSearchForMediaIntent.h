@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBMediaSearch, _INPBPrivateSearchForMediaIntentData;
+@class _INPBIntentMetadata;
 
 @interface _INPBSearchForMediaIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_mediaItems;
-    _INPBMediaSearch *_mediaSearch;
-    _INPBPrivateSearchForMediaIntentData *_privateSearchForMediaIntentData;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -25,10 +21,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -38,26 +34,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool)inalValue;
 - (void)aracters;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMediaSearch;
-@property(readonly, nonatomic) _Bool hasPrivateSearchForMediaIntentData;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *mediaItems; // @synthesize mediaItems=_mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
-@property(retain, nonatomic) _INPBMediaSearch *mediaSearch; // @synthesize mediaSearch=_mediaSearch;
-@property(retain, nonatomic) _INPBPrivateSearchForMediaIntentData *privateSearchForMediaIntentData; // @synthesize privateSearchForMediaIntentData=_privateSearchForMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

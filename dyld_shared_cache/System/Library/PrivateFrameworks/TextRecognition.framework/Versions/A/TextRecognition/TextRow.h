@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface TextRow
 {
     NSMutableArray *_mutableTokens;
-    double _cachedScore;
 }
 
 - (void);
-- (id);
+- (id);
 - (double);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,13 +26,7 @@
 - (void)hort, double>>>="__map_"{__split_buffer<nms::RectForest<unsigned short, double> *, std::allocator<nms::RectForest<unsigned short, double> *>>="__first_"^^v"__begin_"^^v"__end_"^^v""{?="__cap_"^^v}}"__start_"Q""{?="__size_"Q}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double cachedScore; // @synthesize cachedScore=_cachedScore;
-@property(readonly) NSArray *features;
 @property(retain, nonatomic) NSMutableArray *mutableTokens; // @synthesize mutableTokens=_mutableTokens;
-@property(readonly) double score;
-@property(readonly) NSString *string;
-@property(readonly) unsigned long long tokenCount;
-@property(readonly, retain, nonatomic) NSArray *tokens;
 
 @end
 

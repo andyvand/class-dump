@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WiFiAwarePublishDatapathSecurityConfiguration, WiFiAwarePublishDatapathServiceSpecificInfo;
-
 @interface WiFiAwarePublishDatapathConfiguration
 {
     long long _serviceType;
-    WiFiAwarePublishDatapathSecurityConfiguration *_securityConfiguration;
-    WiFiAwarePublishDatapathServiceSpecificInfo *_serviceSpecificInfo;
-    long long _connectionMode;
 }
 
 + (_Bool);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4˟;
 - (long long);
 - (_Bool);
 - (void);
@@ -34,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long connectionMode; // @synthesize connectionMode=_connectionMode;
-@property(retain, nonatomic) WiFiAwarePublishDatapathSecurityConfiguration *securityConfiguration; // @synthesize securityConfiguration=_securityConfiguration;
-@property(copy, nonatomic) WiFiAwarePublishDatapathServiceSpecificInfo *serviceSpecificInfo; // @synthesize serviceSpecificInfo=_serviceSpecificInfo;
 @property(readonly, nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
 
 @end

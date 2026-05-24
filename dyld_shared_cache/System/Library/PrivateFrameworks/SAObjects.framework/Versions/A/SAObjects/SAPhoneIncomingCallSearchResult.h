@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, SAPersonAttribute;
+@class SAPersonAttribute;
 
 @interface SAPhoneIncomingCallSearchResult : SADomainObject
 {
@@ -19,11 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)TMAutomaticTimeZoneEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) SAPersonAttribute *caller;
-@property(copy, nonatomic) NSString *incomingCallType;
 
 @end
 

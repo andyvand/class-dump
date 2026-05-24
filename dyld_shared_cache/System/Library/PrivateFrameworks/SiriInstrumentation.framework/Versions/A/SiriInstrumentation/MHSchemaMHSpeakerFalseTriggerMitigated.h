@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHSpeakerFalseTriggerMitigated : SISchemaInstrumentationMessage
 {
     NSString *_modelVersion;
-    float _speakerMatchScore;
-    float _thresholdScore;
-    NSString *_errorMessage;
-    double _processedAudioDurationInNs;
-    unsigned int _errorCode;
-    struct {
-        unsigned int speakerMatchScore:1;
-        unsigned int thresholdScore:1;
-        unsigned int processedAudioDurationInNs:1;
-        unsigned int errorCode:1;
-    } _has;
-    _Bool _hasModelVersion;
-    _Bool _hasErrorMessage;
 }
 
 - (float);
@@ -31,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,16 +30,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void)F;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)setResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)mbol name;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -61,26 +48,14 @@
 - (id);
 - (id)T@"SISchemaUUID",&,N,V_uspId;
 - (id)&,N,V_eventMetadata;
-- (void)onRequired;
+- (void)photosPermissionRequired;
 - (void)·Z!;
 - (void)ë";
 - (id)øé¾ÿø;
 - (unsigned int)ìê;
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorMessage; // @synthesize hasErrorMessage=_hasErrorMessage;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasProcessedAudioDurationInNs;
-@property(nonatomic) _Bool hasSpeakerMatchScore;
-@property(nonatomic) _Bool hasThresholdScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) double processedAudioDurationInNs; // @synthesize processedAudioDurationInNs=_processedAudioDurationInNs;
-@property(nonatomic) float speakerMatchScore; // @synthesize speakerMatchScore=_speakerMatchScore;
-@property(nonatomic) float thresholdScore; // @synthesize thresholdScore=_thresholdScore;
 
 @end
 

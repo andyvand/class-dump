@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)s] value changed:%{private,mask.hash}s /* Error: Ran out of types for this method. */;
 - (void),N,V_smartReply;
 
 // Remaining properties

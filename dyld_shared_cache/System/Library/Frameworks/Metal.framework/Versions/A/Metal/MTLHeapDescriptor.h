@@ -7,26 +7,18 @@
 @interface MTLHeapDescriptor
 {
     long long _sparsePageSize;
-    long long _maxCompatiblePlacementSparsePageSize;
 }
 
 + (id);
 + (id)®ãÿ\;
-- (long long);
-- (void);
+- (long long);
+- (void)buf=*i}iq};
 - (long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long cpuCacheMode; // @dynamic cpuCacheMode;
-@property(nonatomic) unsigned long long hazardTrackingMode; // @dynamic hazardTrackingMode;
-@property(nonatomic) long long maxCompatiblePlacementSparsePageSize; // @synthesize maxCompatiblePlacementSparsePageSize=_maxCompatiblePlacementSparsePageSize;
-@property(nonatomic) unsigned long long resourceOptions; // @dynamic resourceOptions;
 @property(nonatomic) unsigned long long size; // @dynamic size;
-@property(nonatomic) long long sparsePageSize; // @synthesize sparsePageSize=_sparsePageSize;
-@property(nonatomic) unsigned long long storageMode; // @dynamic storageMode;
-@property(nonatomic) long long type; // @dynamic type;
 
 @end
 

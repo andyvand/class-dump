@@ -9,17 +9,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)abled:(id)arg1;
++ (_Bool)setHasTableBookingAppEnabled:(id)arg1;
 - (void);
+- (id)';
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)le.siri.SiriDebug.FeedbackBanner.NearMiss.Notify?triggeredPhraseId={TRIGGERED_PHRASE_ID}&triggerScore={TRIGGER_SCORE};
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)reHandleType;
+- (void);
+- (id)visibleFeatureHandleType;
 - (id)ion",&,N;
 - (id)8ÑD;
 - (id)rvices/libaddr_obj/cpp/src/AddressObjectBase.cpp;

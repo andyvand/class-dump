@@ -7,11 +7,12 @@
 @class NSArray, _INPBTemperatureValue;
 
 @protocol _INPBTemperature
-- (void)searchTerm:(_INPBTemperatureValue *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBTemperatureValue *)Occurrences;
++ (Class)sphrase:passphrase cannot be converted to UTF-8 string
+ /* Error: Ran out of types for this method. */;
+- (void)provideEntityNamesOptionsCollectionForMoveFile:(_INPBTemperatureValue *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBTemperatureValue *)deleteAllOccurrences;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

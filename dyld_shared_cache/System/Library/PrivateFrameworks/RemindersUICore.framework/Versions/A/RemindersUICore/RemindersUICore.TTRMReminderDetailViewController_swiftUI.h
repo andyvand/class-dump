@@ -7,15 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailViewController_swiftUI
 {
     id configuration;
-    id presenter;
-    id modelObject;
-    id rootView;
-    id firstResponderToRestoreOnDismiss;
-    id firstViewDidAppearCalled;
-    id selectedKeyboardInputSourceObserver;
-    id sheetIsPresented;
-    id sheetPresentationCancellables;
-    id $__lazy_storage_$_suggestionWindowController;
 }
 
 - (void);
@@ -24,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

@@ -5,6 +5,6 @@
 //
 
 @protocol UINSIntegerTraitDefinition
-+ (long long)ssingKeyboardInputMode;
++ (long long)IAPayloadKeyMissingKeyboardInputMode;
 @end
 

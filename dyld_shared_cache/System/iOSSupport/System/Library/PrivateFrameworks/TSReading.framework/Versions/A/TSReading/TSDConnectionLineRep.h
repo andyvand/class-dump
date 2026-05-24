@@ -16,12 +16,12 @@
 + (id);
 + (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect)FailedInitialLoadingTransitionState;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)9;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

@@ -6,7 +6,7 @@
 
 #import <Contacts/CNContactPosterDataManagedItem.h>
 
-@class CNContactImageManagedObject, NSData;
+@class NSData;
 
 @interface CNContactPosterManagedObject : CNContactPosterDataManagedItem
 {
@@ -22,14 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (void)ystemService;
+- (void)isConnectionFromSystemService;
 
 // Remaining properties
-@property(nonatomic) _Bool contentIsSensitive; // @dynamic contentIsSensitive;
-@property(retain, nonatomic) CNContactImageManagedObject *pairedImage; // @dynamic pairedImage;
 @property(retain, nonatomic) NSData *posterData; // @dynamic posterData;
-@property(retain, nonatomic) NSData *posterMetadata; // @dynamic posterMetadata;
-@property(retain, nonatomic) NSData *watchPosterImageData; // @dynamic watchPosterImageData;
 
 @end
 

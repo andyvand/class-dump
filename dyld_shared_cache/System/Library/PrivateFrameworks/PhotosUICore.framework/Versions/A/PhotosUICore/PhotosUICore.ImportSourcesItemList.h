@@ -7,8 +7,6 @@
 @interface PhotosUICore.ImportSourcesItemList
 {
     id importSources;
-    id itemIdentifiers;
-    id version;
 }
 
 @end

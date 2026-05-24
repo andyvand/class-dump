@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
-- (id)e;
++ (Class)_shouldPlaybackRequireSubscriptionLease;
+- (id)_extensionBundle;
 
 @end
 

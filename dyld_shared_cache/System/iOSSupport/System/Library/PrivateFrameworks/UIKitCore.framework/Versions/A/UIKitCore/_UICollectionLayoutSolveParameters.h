@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSSet;
+@class NSMutableIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutSolveParameters
 {
     NSMutableIndexSet *_invalidatedIndexes;
-    NSMutableDictionary *_invalidatedAuxillaryDict;
-    _Bool _isFullResolve;
-    struct CGPoint _scrollOffset;
-    struct CGRect _visibleBounds;
 }
 
 + (id);
 - (id);
-- (id);
-- (void);
+- (id)@"MTLTensorDescriptor"16^@24;
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (id)owCandidateAtIndex:(id)arg1;
+- (id)t;
+- (id)showCandidateAtIndex:(id)arg1;
 - (_Bool)setStateToRecognized;
-- (id):(id)arg1 animated:(struct CGPoint)arg2;
-- (id)dContent;
-- (id)isplayingVerticalSelection;
-- (_Bool)uledDoubleTapActionIfNecessary;
+- (id)navigationItemUpdatedTitleContent:(id)arg1 animated:(struct CGPoint)arg2;
+- (id)_resolvedContent;
+- (id)_isDisplayingVerticalSelection;
+- (_Bool)_createScheduledDoubleTapActionIfNecessary;
 - (struct CGRect)V_accessoryOffset;
 - (void)nt;
 - (id);
@@ -37,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)h+ÕäÒ];
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasInvalidatedItems;
-@property(readonly, nonatomic) NSSet *invalidatedAuxillaryKinds;
-@property(readonly, nonatomic) NSIndexSet *invalidatedIndexes;
 @property(readonly, nonatomic) _Bool isFullResolve;
-@property(readonly, nonatomic) struct CGPoint scrollOffset; // @synthesize scrollOffset=_scrollOffset;
-@property(readonly, nonatomic) struct CGRect visibleBounds; // @synthesize visibleBounds=_visibleBounds;
 
 @end
 

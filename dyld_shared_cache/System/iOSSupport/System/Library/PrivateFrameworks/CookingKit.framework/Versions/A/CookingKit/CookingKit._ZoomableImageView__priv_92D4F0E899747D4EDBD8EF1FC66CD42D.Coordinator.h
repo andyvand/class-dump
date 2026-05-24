@@ -7,6 +7,7 @@
 @interface CookingKit._ZoomableImageView__priv_92D4F0E899747D4EDBD8EF1FC66CD42D.Coordinator
 {
     id _shouldShowToolbar;
+    id;
 }
 
 @end

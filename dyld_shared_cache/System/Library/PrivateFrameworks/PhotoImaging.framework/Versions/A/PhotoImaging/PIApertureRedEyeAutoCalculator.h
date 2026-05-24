@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (void)opertiesCheck: /* Error: Ran out of types for this method. */;
+- (void)passesImagePropertiesCheck: /* Error: Ran out of types for this method. */;
 
 @end
 

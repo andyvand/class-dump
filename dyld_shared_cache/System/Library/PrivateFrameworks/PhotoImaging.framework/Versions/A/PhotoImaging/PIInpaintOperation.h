@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NUBrushStroke;
-
 @interface PIInpaintOperation
 {
     _Bool _repairEdges;
-    long long _mode;
-    unsigned long long _options;
-    NSArray *_maskIdentifiers;
-    NSArray *_exclusionMaskIdentifiers;
-    NUBrushStroke *_brushStroke;
-    struct CGPoint _sourceOffset;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -27,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct CGPoint);
 - (long long);
@@ -35,24 +27,12 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void)SourceInput: /* Error: Ran out of types for this method. */;
+- (_Bool)com.apple.photoanalysisd.;
+- (id);
+- (void)setCinematicAllowYUVSourceInput: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NUBrushStroke *brushStroke; // @synthesize brushStroke=_brushStroke;
-@property(readonly, nonatomic) NSArray *exclusionMaskIdentifiers; // @synthesize exclusionMaskIdentifiers=_exclusionMaskIdentifiers;
-@property(readonly, nonatomic) _Bool hasExclusionMask;
-@property(readonly, nonatomic) _Bool isFilledBrushStroke;
-@property(readonly, nonatomic) _Bool isLassoedSelection;
-@property(readonly, nonatomic) _Bool isScribbledSelection;
-@property(readonly, nonatomic) _Bool isTapSelect;
-@property(readonly, nonatomic) _Bool isTargetPoints;
-@property(readonly, nonatomic) NSArray *maskIdentifiers; // @synthesize maskIdentifiers=_maskIdentifiers;
 @property(readonly, nonatomic) long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) _Bool repairEdges; // @synthesize repairEdges=_repairEdges;
-@property(readonly, nonatomic) struct CGPoint sourceOffset; // @synthesize sourceOffset=_sourceOffset;
 
 @end
 

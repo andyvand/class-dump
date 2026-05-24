@@ -7,15 +7,6 @@
 @interface Safari.RWIApplicationModel
 {
     id liveApplication;
-    id target;
-    id id;
-    id _name;
-    id _bundleIdentifier;
-    id _identifier;
-    id _icon;
-    id _isCurrentApplication;
-    id _debuggables;
-    id _$observationRegistrar;
 }
 
 @end

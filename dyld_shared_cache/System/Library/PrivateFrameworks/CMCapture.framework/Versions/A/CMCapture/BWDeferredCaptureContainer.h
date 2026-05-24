@@ -6,29 +6,19 @@
 
 #import <CMCapture/BWDeferredContainer.h>
 
-@class NSDate, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface BWDeferredCaptureContainer : BWDeferredContainer
 {
     NSObject<OS_dispatch_queue> *_flushQueue;
-    NSObject<OS_dispatch_group> *_flushGroup;
-    _Bool _flushBuffersUponCommit;
-    _Bool _foldersCreated;
-    _Bool _committed;
-    _Bool _preflushed;
-    _Bool _cached;
-    unsigned long long _cacheExpiryTime;
-    NSDate *_commitTime;
-    long long _commitDurationNS;
-    long long _flushDurationNS;
 }
 
 + (id);
 + (id);
 - (int);
-- (int);
+- (int);
 - (void);
 - (int);
 - (id);
@@ -54,11 +44,7 @@ __attribute__((visibility("hidden")))
 - (int)%@ %p:captureID:%lld '%.4s' %dx%d RAW:'%.4s' HDR:%d QUAL:%d%@ BRCK:%d%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cacheExpiryTime; // @synthesize cacheExpiryTime=_cacheExpiryTime;
-@property(nonatomic) _Bool cached; // @synthesize cached=_cached;
-@property(readonly, nonatomic) long long commitDurationNS; // @synthesize commitDurationNS=_commitDurationNS;
 @property(readonly, nonatomic) _Bool committed; // @synthesize committed=_committed;
-@property(readonly, nonatomic) long long flushDurationNS; // @synthesize flushDurationNS=_flushDurationNS;
 
 @end
 

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)apFormat:bytesPerRow:bitsPerPixel: /* Error: Ran out of types for this method. */;
 
 @end
 

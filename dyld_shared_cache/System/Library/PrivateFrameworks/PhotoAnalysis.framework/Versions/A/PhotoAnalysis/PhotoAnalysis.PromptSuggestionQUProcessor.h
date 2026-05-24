@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.PromptSuggestionQUProcessor
 {
     id quProvider;
-    id logger;
 }
 
 @end

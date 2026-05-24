@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSView, NSWindow;
-@protocol NSGestureRecognizerContainer;
+@class NSArray;
 
 @protocol NSGestureRecognizerContainer
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *_childGestureRecognizerContainers;
-@property(readonly, nonatomic) NSWindow *_eventReceivingWindow;
-@property(readonly, nonatomic) id <NSGestureRecognizerContainer> _parentGestureRecognizerContainer;
-@property(readonly, nonatomic) NSView *_proxyView;
 @property(readonly, nonatomic) NSArray *gestureRecognizers;
 @end
 

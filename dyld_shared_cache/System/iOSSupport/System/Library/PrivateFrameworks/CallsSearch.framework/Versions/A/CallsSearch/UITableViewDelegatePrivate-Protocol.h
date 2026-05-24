@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, UITableView;
+
 @protocol UITableViewDelegatePrivate
+
+@optional
+- (void)(;
+- (NSArray *);
+- (NSString *);
+- (long long);
+- (_Bool);
+- (double)=;
+- (NSArray *)=;
+- (double)setUseCustomRetakeTransition:(UITableView *)arg1;
+- (double)Button;
+- (double)Action;
 @end
 

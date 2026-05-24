@@ -6,23 +6,21 @@
 
 #import <CloudKit/CKSyncEngineEvent.h>
 
-@class CKRecordZoneID, NSError;
+@class CKRecordZoneID;
 
 @interface CKSyncEngineDidFetchRecordZoneChangesEvent : CKSyncEngineEvent
 {
     CKRecordZoneID *_zoneID;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void);
+- (void)eProviderItemVersion"24@?<v@?@"NSFileProviderItemVersion"@"NSError">32;
+- (void)CKRecordZoneID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end

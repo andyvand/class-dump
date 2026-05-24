@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKIterator, IOKMatchingNotificationRef, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface IOKMatchingNotification
 {
     CDUnknownBlockType _handler;
-    IOKIterator *_iterator;
-    NSObject<OS_dispatch_queue> *_queue;
-    IOKMatchingNotificationRef *_notificationRef;
 }
 
 - (void);
@@ -29,9 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) IOKIterator *iterator; // @synthesize iterator=_iterator;
-@property(readonly, nonatomic) IOKMatchingNotificationRef *notificationRef; // @synthesize notificationRef=_notificationRef;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

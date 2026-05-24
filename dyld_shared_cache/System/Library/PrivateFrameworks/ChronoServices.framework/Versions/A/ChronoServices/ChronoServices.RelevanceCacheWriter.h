@@ -7,12 +7,6 @@
 @interface ChronoServices.RelevanceCacheWriter
 {
     id builder;
-    id archiver;
-    id nextId;
-    id relevanceProperties;
-    id keys;
-    id closed;
-    id extIdCache;
 }
 
 @end

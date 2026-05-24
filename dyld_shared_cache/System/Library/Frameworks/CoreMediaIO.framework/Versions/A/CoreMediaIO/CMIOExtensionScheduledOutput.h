@@ -9,8 +9,6 @@
 @interface CMIOExtensionScheduledOutput
 {
     NSString *_description;
-    unsigned long long _sequenceNumber;
-    unsigned long long _hostTimeInNanoseconds;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)tation;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -28,7 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long hostTimeInNanoseconds; // @synthesize hostTimeInNanoseconds=_hostTimeInNanoseconds;
 @property(readonly) unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end

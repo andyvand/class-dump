@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 @interface _UIViewGlass
 {
     id _underlyingMaterial;
 }
 
-- (id);
+- (id)WithAccount:%@] /* Error: Ran out of types for this method. */;
+- (void)le.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDaemonCore/IMDChatRegistry.m;
+- (void)ayload. Error:(_Bool)arg1 %@. Localized description:%@ /* Error: Ran out of types for this method. */;
+- (void)d Ingestion State:(_Bool)arg1 %ld;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)�T;
 - (id);
 - (id);
 - (_Bool);
@@ -58,39 +56,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)sortedArrayUsingSelector: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long)á	ð! AùQf°1Â0@ù
 × ;
-- (_Bool)eterForActionType:(id)arg1 timeSinceLastAction: /* Error: Ran out of types for this method. */;
+- (_Bool)audioPitchEventParameterForActionType:(id)arg1 timeSinceLastAction: /* Error: Ran out of types for this method. */;
 - (void)}{CGSize=dd}},N,S_setHostParentStackAlignmentFrame:(long long)arg1 ,V__hostParentStackAlignmentFrame;
 - (id)¨ÔÈ;
-- (long long)tion;
+- (long long)_UIDatePickerModeShouldResetNotification;
 - (void)ÌÜh;
 - (void)¼öþ JÊ`l;
 - (long long).;
 - (void)ðØr;
 
 // Remaining properties
-@property(nonatomic) long long _flexVariant;
-@property(nonatomic) _Bool allowsGrouping;
-@property(nonatomic, copy) NSString *backdropGroupName;
-@property(nonatomic) _Bool boostWhitePoint;
-@property(nonatomic) _Bool contentLensing;
-@property(nonatomic, retain) UIColor *controlTintColor;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) _Bool excludingControlDisplacement;
-@property(nonatomic) _Bool excludingControlLensing;
-@property(nonatomic) _Bool excludingForeground;
-@property(nonatomic) _Bool excludingPlatter;
-@property(nonatomic) _Bool excludingShadow;
-@property(nonatomic) _Bool flexible;
-@property(nonatomic) _Bool highlightsDisplayAngle;
-@property(nonatomic) long long identifier;
-@property(nonatomic, readonly) long long size;
-@property(nonatomic) double smoothness;
-@property(nonatomic, copy) NSString *subvariant;
-@property(nonatomic, retain) UIColor *tintColor;
 @property(nonatomic, readonly) long long variant;
 
 @end

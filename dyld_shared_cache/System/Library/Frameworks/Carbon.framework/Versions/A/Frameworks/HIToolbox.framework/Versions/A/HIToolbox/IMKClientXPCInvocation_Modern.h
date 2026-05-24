@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface IMKClientXPCInvocation_Modern
 {
     int _timeOutStatus;
-    SEL _callerSelector;
-    double _timeout;
 }
 
 + (id);

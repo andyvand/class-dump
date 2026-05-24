@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PXSharedLibrary;
 
 @interface PXExitSharedLibraryActionPerformer
 {
     _Bool _shouldConfirmExit;
-    id <PXSharedLibrary> _sharedLibraryOrPreview;
-    long long _exitRetentionPolicy;
 }
 
 - (_Bool);
@@ -32,16 +29,7 @@
 - (void)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long exitRetentionPolicy; // @synthesize exitRetentionPolicy=_exitRetentionPolicy;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <PXSharedLibrary> sharedLibraryOrPreview; // @synthesize sharedLibraryOrPreview=_sharedLibraryOrPreview;
-@property(nonatomic) _Bool shouldConfirmExit; // @synthesize shouldConfirmExit=_shouldConfirmExit;
-@property(readonly) Class superclass;
 
 @end
 

@@ -17,14 +17,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (unsigned long long)@;
+- (_Bool)setLTECoexDurationMS:(id)arg1;
+- (void)AWDCoreRoutineHintSourceUsageSet;
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)ture:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)le;
+- (id)defaultAccountForFeature:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)profile;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *contentByPageType; // @synthesize contentByPageType=_contentByPageType;

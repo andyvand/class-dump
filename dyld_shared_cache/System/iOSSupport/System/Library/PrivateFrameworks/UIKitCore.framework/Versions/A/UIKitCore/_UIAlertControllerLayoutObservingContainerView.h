@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _postLayoutBlock;
 }
 
-- (void);
+- (void)messagesPendingUpdateT2ToCloudKitWithLimit:(CDUnknownBlockType)arg1;
 - (CDUnknownBlockType);
 - (void);
 - (void)¨ë^;

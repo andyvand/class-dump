@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSFilePromiseReceiver, NSMutableArray, NSMutableDictionary, NSURL, UINSDropFilePromisedReaderTemporaryDirectory;
+@class NSFilePromiseReceiver;
 
 __attribute__((visibility("hidden")))
 @interface UINSDropFilePromiseReader
 {
     struct os_unfair_lock_s _lock;
-    int _lock_state;
-    UINSDropFilePromisedReaderTemporaryDirectory *_lock_temporaryDropDir;
-    NSURL *_lock_temporaryHostingDir;
-    NSError *_lock_error;
-    NSMutableArray *_lock_scheduledCallbacks;
-    NSMutableDictionary *_lock_typeToHostedURL;
-    NSFilePromiseReceiver *_filePromiseReceiver;
-    NSArray *_types;
 }
 
 - (id);
@@ -25,15 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)webViewContentRect: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)
 × ;
-- (id)endedLanguageForCurrentInputMode;
+- (id)intendedLanguageForCurrentInputMode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSFilePromiseReceiver *filePromiseReceiver; // @synthesize filePromiseReceiver=_filePromiseReceiver;
-@property(readonly, copy, nonatomic) NSArray *types; // @synthesize types=_types;
 
 @end
 

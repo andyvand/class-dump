@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSUUID;
+@class NSUUID;
 
 @interface HMIFaceCrop
 {
     NSUUID *_UUID;
-    NSData *_dataRepresentation;
-    NSDate *_dateCreated;
-    struct CGRect _faceBoundingBox;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (struct CGRect);
 - (id);
@@ -25,16 +22,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)i16@20;
+- (id):(struct _NSZone *)arg1 RetainPtr<CALayer>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)#;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSData *dataRepresentation; // @synthesize dataRepresentation=_dataRepresentation;
-@property(readonly, copy) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly) struct CGRect faceBoundingBox; // @synthesize faceBoundingBox=_faceBoundingBox;
 
 @end
 

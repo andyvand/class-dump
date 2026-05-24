@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface OITSUBasicProgressStorage
 {
     double mValue;
-    double mMaxValue;
-    _Bool mIndeterminate;
 }
 
-- (void);
+- (void)kVerticalMarginNum;
 - (void);
 - (double);
-- (void);
+- (void)lock;
 - (_Bool);
 - (double);
 
 // Remaining properties
-@property(getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=mIndeterminate;
-@property double maxValue; // @synthesize maxValue=mMaxValue;
 @property double value; // @synthesize value=mValue;
 
 @end

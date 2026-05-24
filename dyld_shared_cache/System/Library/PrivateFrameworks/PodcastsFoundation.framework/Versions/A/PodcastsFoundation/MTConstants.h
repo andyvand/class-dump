@@ -8,17 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)+;
++ (id)]qa;
 + (id);
 + (id);
 + (void);
@@ -26,6 +17,15 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (id);
++ (id);
++ (id);
++ (id)nger valid - perhaps it was unregistered by someone else?;
 + (id);
 + (_Bool)0@ù
 × ;

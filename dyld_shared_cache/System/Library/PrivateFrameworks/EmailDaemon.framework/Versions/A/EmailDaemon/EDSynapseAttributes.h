@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface EDSynapseAttributes
 {
     NSString *_senderAddressComment;
-    NSString *_senderAddress;
-    NSString *_messagePersistentID;
-    NSDate *_receivedDate;
 }
 
 - (id);
@@ -20,13 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void)s/MacOS/WebKit;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *messagePersistentID; // @synthesize messagePersistentID=_messagePersistentID;
-@property(readonly, copy, nonatomic) NSDate *receivedDate; // @synthesize receivedDate=_receivedDate;
-@property(readonly, copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
 @property(readonly, copy, nonatomic) NSString *senderAddressComment; // @synthesize senderAddressComment=_senderAddressComment;
 
 @end

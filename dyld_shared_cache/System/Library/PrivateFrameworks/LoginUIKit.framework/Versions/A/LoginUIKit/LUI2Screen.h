@@ -10,21 +10,18 @@
 }
 
 + (id);
-+ (id);
++ (id)(;
 + (id);
 - (double);
-- (double);
-- (id);
-- (id);
-- (id);
+- (double);
+- (id)?	;
+- (id);
+- (id)!X;
 - (struct CGRect);
 - (int);
 
 // Remaining properties
 @property(readonly) int displayID; // @synthesize displayID=_displayID;
-@property(readonly) struct CGRect frame;
-@property(readonly) double longSide;
-@property(readonly) double shortSide;
 
 @end
 

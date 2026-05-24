@@ -4,65 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, CAMeshTransform, ISBasePlayer, ISPlayerOutputContent, ISVideoPlayerUIView, ISWrappedAVAudioSession, NSString, UIImage, UIImageView, UIView;
-@protocol ISBasePlayerUIViewChangeObserver, PXAVResourceReclamationController;
+@class ISPlayerOutputContent, UIView;
 
 @interface ISBasePlayerUIView
 {
     ISPlayerOutputContent *_content;
-    struct {
-        _Bool didChangeWithAnimationDuration;
-    } _changeObserverRespondsTo;
-    ISBasePlayer *_player;
-    UIView *_customPhotoView;
-    UIImage *_overrideImage;
-    long long _preferredImageDynamicRange;
-    CDUnknownBlockType _videoLayerReadyForDisplayChangeHandler;
-    CAMeshTransform *_videoTransform;
-    CAFilter *_videoFilter;
-    UIView *_containerView;
-    UIView *_videoContainerView;
-    ISWrappedAVAudioSession *_wrappedAudioSession;
-    id <ISBasePlayerUIViewChangeObserver> __changeObserver;
-    ISVideoPlayerUIView *_videoBlurView;
-    id <PXAVResourceReclamationController> _resourceReclamationController;
-    UIImageView *_photoView;
-    ISVideoPlayerUIView *_videoView;
-    struct CGPoint _scaleAnchorOffset;
-    struct CGRect _contentsRect;
 }
 
-+ (Class);
-+ (id);
-+ (id);
++ (Class)er;
++ (id)N,V_originAnchorPosition;
++ (id)dex;
 + (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_components;
+- (id)_componentStyleToComponentsMap;
+- (id)_componentSizerEngine;
+- (id)_componentLayoutsToConditionsMap;
+- (id)_componentLayouts;
+- (void)_cache;
+- (void)_attributeToFontIndex;
+- (void)_activePreview;
+- (struct CGPoint)_accessibilityRawRangeForUITextRange: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityRangeForLineNumber:(id)arg1;
+- (id)_accessibilityParentForFindingScrollParent;
+- (_Bool)wportSize;
+- (_Bool)preferredImageSize;
+- (id)Point=dd}{CGSize=dd}},?,R,N;
+- (void)Td,R,N,V_xOffset;
+- (void)Margin;
+- (void)Td,N,V_spaceBetweenRows;
+- (void)V_mediaDuration;
+- (void)_contentScaleFactor;
+- (void)plitude;
+- (void)dex;
+- (void)Rows;
+- (void)ortPadding;
 - (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)PositionRestore;
+- (void)g,V_enclosingCanvasScrolling;
+- (void)B,?,R,N;
 - (void);
 - (id);
 - (id);
@@ -78,49 +57,21 @@
 - (struct CGRect);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)PANeutrinoImageLayer;
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (id);
+- (void)SubscribeConfiguration.channelInfo;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (id);
 
 // Remaining properties
-@property(nonatomic, setter=_setChangeObserver:) __weak id <ISBasePlayerUIViewChangeObserver> _changeObserver; // @synthesize _changeObserver=__changeObserver;
 @property(readonly, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;
-@property(retain, nonatomic) UIView *customPhotoView; // @synthesize customPhotoView=_customPhotoView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisplayingPhoto) _Bool displayingPhoto;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isVideoReadyForDisplay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) UIImage *overrideImage; // @synthesize overrideImage=_overrideImage;
-@property(readonly, nonatomic) UIImageView *photoView; // @synthesize photoView=_photoView;
-@property(retain, nonatomic) ISBasePlayer *player; // @synthesize player=_player;
-@property(nonatomic) long long preferredImageDynamicRange; // @synthesize preferredImageDynamicRange=_preferredImageDynamicRange;
-@property(readonly, nonatomic) id <PXAVResourceReclamationController> resourceReclamationController; // @synthesize resourceReclamationController=_resourceReclamationController;
-@property(nonatomic) struct CGPoint scaleAnchorOffset; // @synthesize scaleAnchorOffset=_scaleAnchorOffset;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ISVideoPlayerUIView *videoBlurView; // @synthesize videoBlurView=_videoBlurView;
-@property(readonly, nonatomic) UIView *videoContainerView; // @synthesize videoContainerView=_videoContainerView;
-@property(retain, nonatomic) CAFilter *videoFilter; // @synthesize videoFilter=_videoFilter;
-@property(copy, nonatomic) CDUnknownBlockType videoLayerReadyForDisplayChangeHandler; // @synthesize videoLayerReadyForDisplayChangeHandler=_videoLayerReadyForDisplayChangeHandler;
-@property(copy, nonatomic) CAMeshTransform *videoTransform; // @synthesize videoTransform=_videoTransform;
-@property(readonly, nonatomic) ISVideoPlayerUIView *videoView; // @synthesize videoView=_videoView;
-@property(retain, nonatomic, setter=_setWrappedAudioSession:) ISWrappedAVAudioSession *wrappedAudioSession; // @synthesize wrappedAudioSession=_wrappedAudioSession;
 
 @end
 

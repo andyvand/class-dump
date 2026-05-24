@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXAssetsDataSourceManager;
+@class PHPhotoLibrary, PXAssetsDataSourceManager;
 
 @interface PXCuratedLibraryZoomLevelDataConfiguration
 {
     PXAssetsDataSourceManager *_assetsDataSourceManager;
-    _Bool _enableDays;
-    long long _zoomLevel;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (_Bool);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (void);
@@ -28,17 +25,7 @@
 - (void)úþ µP¸ò?;
 
 // Remaining properties
-@property(readonly, nonatomic) PXAssetsDataSourceManager *assetsDataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableDays; // @synthesize enableDays=_enableDays;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long zoomLevel; // @synthesize zoomLevel=_zoomLevel;
 
 @end
 

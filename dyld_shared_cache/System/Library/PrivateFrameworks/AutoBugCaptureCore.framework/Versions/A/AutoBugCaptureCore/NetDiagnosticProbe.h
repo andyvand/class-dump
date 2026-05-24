@@ -6,15 +6,12 @@
 
 #import <AutoBugCaptureCore/TestProbe.h>
 
-@class NSMutableDictionary, NSString, NetDiagnosticsShim;
+@class NetDiagnosticsShim;
 
 __attribute__((visibility("hidden")))
 @interface NetDiagnosticProbe : TestProbe
 {
     NetDiagnosticsShim *_netDiags;
-    NSString *_taskName;
-    NSString *_ndFilePath;
-    NSMutableDictionary *_netDiagsTaskDict;
 }
 
 - (_Bool);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -35,17 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *ndFilePath; // @synthesize ndFilePath=_ndFilePath;
 @property(retain, nonatomic) NetDiagnosticsShim *netDiags; // @synthesize netDiags=_netDiags;
-@property(retain, nonatomic) NSMutableDictionary *netDiagsTaskDict; // @synthesize netDiagsTaskDict=_netDiagsTaskDict;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *taskName; // @synthesize taskName=_taskName;
 
 @end
 

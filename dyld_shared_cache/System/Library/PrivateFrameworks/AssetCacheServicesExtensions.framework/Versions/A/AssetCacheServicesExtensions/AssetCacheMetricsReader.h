@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectContext, NSObject, NSPersistentStoreCoordinator;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSDictionary;
 
 @interface AssetCacheMetricsReader
 {
     _Bool _isSetup;
-    NSDictionary *_databaseOptions;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSPersistentStoreCoordinator *_coordinator;
-    NSManagedObjectContext *_context;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (void);
-- (id);
+- (id)H;
 - (_Bool);
 - (id);
 - (id);
@@ -31,19 +25,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)setEnableFindMyMacDescriptionTextField:(id)arg1;
+- (_Bool)nt=dd}{CGSize=dd}}16;
 - (id);
-- (void);
+- (void)art);
 - (void);
 
 // Remaining properties
-@property(retain) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(retain) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
 @property(retain) NSDictionary *databaseOptions; // @synthesize databaseOptions=_databaseOptions;
-@property _Bool isSetup; // @synthesize isSetup=_isSetup;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

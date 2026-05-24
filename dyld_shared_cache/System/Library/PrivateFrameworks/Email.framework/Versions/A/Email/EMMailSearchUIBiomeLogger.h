@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStream, CSSuggestion, NSMutableSet, NSObject, NSString;
-@protocol EMBiomeStreamUIEventSource, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EMMailSearchUIBiomeLogger
 {
     long long _currentQueryID;
-    NSObject<OS_dispatch_queue> *_queue;
-    BMStream *_stream;
-    id <EMBiomeStreamUIEventSource> _source;
-    NSString *_currentUUID;
-    NSMutableSet *_windowsLoggedDimensionForCurrentUUID;
-    NSMutableSet *_windowsWithInputSinceAppeared;
-    CSSuggestion *_currentSuggestion;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)DefaultRoomPresencePublisher;
 - (void);
 - (void);
 - (void);
@@ -37,10 +30,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)AddACWGKeysToExistingHomesOperation;
+- (void),;
+- (void)~&;
+- (void)UserDefaults;
 - (void);
 - (void);
 - (long long);
@@ -51,39 +44,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)8;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)unsubscribeFromAlbumWithGUID:personID:info: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)
 × ;
 - (void);
 
 // Remaining properties
-@property long long currentQueryID; // @synthesize currentQueryID=_currentQueryID;
-@property(retain, nonatomic) CSSuggestion *currentSuggestion; // @synthesize currentSuggestion=_currentSuggestion;
-@property(copy, nonatomic) NSString *currentUUID; // @synthesize currentUUID=_currentUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id <EMBiomeStreamUIEventSource> source; // @synthesize source=_source;
-@property(retain, nonatomic) BMStream *stream; // @synthesize stream=_stream;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableSet *windowsLoggedDimensionForCurrentUUID; // @synthesize windowsLoggedDimensionForCurrentUUID=_windowsLoggedDimensionForCurrentUUID;
-@property(retain, nonatomic) NSMutableSet *windowsWithInputSinceAppeared; // @synthesize windowsWithInputSinceAppeared=_windowsWithInputSinceAppeared;
 
 @end
 

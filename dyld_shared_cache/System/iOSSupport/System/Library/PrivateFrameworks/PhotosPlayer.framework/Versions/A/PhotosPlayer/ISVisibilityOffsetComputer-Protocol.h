@@ -5,5 +5,6 @@
 //
 
 @protocol ISVisibilityOffsetComputer
+- (void)_fullscreenViewControllerProvider;
 @end
 

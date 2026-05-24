@@ -7,10 +7,10 @@
 @class INAlarmSearch, NSArray;
 
 @protocol INDeleteAlarmIntentExport
-- (NSArray *)ckRepeatModeOptionsCollectionForPlayMedia:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)[�;
+- (NSArray *)providePlaybackRepeatModeOptionsCollectionForPlayMedia:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) INAlarmSearch *alarmSearch;
-@property(copy) NSArray *alarms;
 @end
 

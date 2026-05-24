@@ -6,54 +6,38 @@
 
 #import <AppKit/_NSCollectionLayoutItem.h>
 
-@class NSArray, _NSCollectionLayoutSpacing;
+@class NSArray;
 
 @interface _NSCollectionLayoutGroup : _NSCollectionLayoutItem
 {
     int _layoutAxis;
-    _Bool _isCustomGroup;
-    NSArray *_subitems;
-    long long _count;
-    NSArray *_supplementaryItems;
-    _NSCollectionLayoutSpacing *_interItemSpacing;
-    long long _groupOptions;
-    CDUnknownBlockType _subitemsProvider;
-    CDUnknownBlockType _frameProvider;
-    CDUnknownBlockType _customGroupItemProvider;
-    CDUnknownBlockType _visualFormatProvider;
-    NSArray *_visualFormats;
 }
 
 + (id);
++ (id)finished successfully;
++ (id)finished with error [%ld] %{sensitive}@;
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)1;
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)on <%{public}@> backgroundSessionDidStartAppWake:called with ID:%@, when we already had an app wake with ID:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
-- (void);
-- (_Bool)idate;
-- (id)dRange:(struct _NSZone *)arg1 originalString:atPoint:forTextView: /* Error: Ran out of types for this method. */;
-- (void)w;
+- (void)lmarbp%ld ;
+- (_Bool)isSimpleCandidate;
+- (id)displayCompletions:(struct _NSZone *)arg1 indexOfSelectedItem:forPartialWordRange:originalString:atPoint:forTextView: /* Error: Ran out of types for this method. */;
+- (void)_frameView;
 - (_Bool)¤;
 - (_Bool)rovideSoundFeedback;
 - (void)Intent(void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long groupOptions; // @synthesize groupOptions=_groupOptions;
-@property(copy, nonatomic) _NSCollectionLayoutSpacing *interItemSpacing;
-@property(readonly, nonatomic) _Bool isCustomGroup;
-@property(readonly, nonatomic) _Bool isHorizontalGroup;
-@property(readonly, nonatomic) _Bool isVerticalGroup;
 @property(copy, nonatomic) NSArray *supplementaryItems;
 
 @end

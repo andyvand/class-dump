@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactListUndoableAction
+- (void);
 @end
 

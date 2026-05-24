@@ -9,7 +9,6 @@
 @interface CalDAVReportJunkAction
 {
     NSURL *_resourceURL;
-    id _changeContext;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id changeContext; // @synthesize changeContext=_changeContext;
 @property(readonly, nonatomic) NSURL *resourceURL; // @synthesize resourceURL=_resourceURL;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 @interface CSMacWakeSleepMonitor
 {
     _Bool _deviceIsInSleep;
-    NSHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSUUID *_token;
 }
 
 + (id)Type:voiceTriggerEventInfo:otherCtxt:completion: /* Error: Ran out of types for this method. */;
@@ -25,24 +20,20 @@
 - (id);
 - (void);
 - (void);
+- (void)initWithTargetedCGImage:(id)arg1 orientation:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)timeRange;
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void):(id)arg1;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)oiceTriggerAssetsDownloadingRequest:withConfigVersion:languageCode: /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (void)didReceiveVoiceTriggerAssetsDownloadingRequest:withConfigVersion:languageCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool deviceIsInSleep; // @synthesize deviceIsInSleep=_deviceIsInSleep;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property(retain, nonatomic) NSUUID *token; // @synthesize token=_token;
 
 @end
 

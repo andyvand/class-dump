@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATLoadScreenContentEventEnded, GATSchemaGATLoadScreenContentEventFailed, GATSchemaGATLoadScreenContentEventStarted, NSData;
+@class GATSchemaGATLoadScreenContentEventStarted;
 
 @interface GATSchemaGATLoadScreenContentContext : SISchemaInstrumentationMessage
 {
     GATSchemaGATLoadScreenContentEventStarted *_startedOrChanged;
-    GATSchemaGATLoadScreenContentEventEnded *_ended;
-    GATSchemaGATLoadScreenContentEventFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContentevent;
 }
 
 - (unsigned long long);
@@ -38,7 +32,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_setSelectedClassicRingtoneIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,14 +42,7 @@
 - (void)«t$;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATLoadScreenContentEventEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) GATSchemaGATLoadScreenContentEventFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GATSchemaGATLoadScreenContentEventStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContentevent; // @synthesize whichContentevent=_whichContentevent;
 
 @end
 

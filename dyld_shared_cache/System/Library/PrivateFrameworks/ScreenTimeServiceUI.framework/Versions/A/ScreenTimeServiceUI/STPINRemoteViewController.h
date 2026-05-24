@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface STPINRemoteViewController
 {
     CDUnknownBlockType _pinServiceDidComplete;
 }
 
-+ (void);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
++ (void)Not Valid Before:(id)arg1 %{public}@
+  Not Valid After:(long long)arg2 %{public}@
+* %{public}@
+    Not Valid Before:(CDUnknownBlockType)arg3 %{public}@
+  Not Valid After:(CDUnknownBlockType)arg4 %{public}@
+* Server Timestamp:%{public}@
+ /* Error: Ran out of types for this method. */;
++ (id)nvalid:%.1lf /* Error: Ran out of types for this method. */;
++ (id)BPSAggregations;
+- (void)seed;
+- (void)supportsRTPPacketRedundancy;
+- (CDUnknownBlockType)supportsHighAccuracyTimestamps;
+- (void)@9
+;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType pinServiceDidComplete; // @synthesize pinServiceDidComplete=_pinServiceDidComplete;
-@property(readonly) Class superclass;
 
 @end
 

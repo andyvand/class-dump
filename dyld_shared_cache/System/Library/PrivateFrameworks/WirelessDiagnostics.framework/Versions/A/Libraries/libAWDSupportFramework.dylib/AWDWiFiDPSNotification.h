@@ -7,15 +7,6 @@
 @interface AWDWiFiDPSNotification
 {
     unsigned long long _timestamp;
-    unsigned int _problemAC;
-    int _symptom;
-    _Bool _facetimeCallInProgress;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int problemAC:1;
-        unsigned int symptom:1;
-        unsigned int facetimeCallInProgress:1;
-    } _has;
 }
 
 - (id);
@@ -25,36 +16,29 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)NH ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
 - (int);
-- (id);
+- (id)�!;
+- (void)_k;
 - (void);
-- (void);
+- (unsigned long long)!A9?;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)(44;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void));
+- (id)";
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool facetimeCallInProgress; // @synthesize facetimeCallInProgress=_facetimeCallInProgress;
-@property(nonatomic) _Bool hasFacetimeCallInProgress;
-@property(nonatomic) _Bool hasProblemAC;
-@property(nonatomic) _Bool hasSymptom;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int problemAC; // @synthesize problemAC=_problemAC;
-@property(nonatomic) int symptom; // @synthesize symptom=_symptom;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

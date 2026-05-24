@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFScreen, NSArray, NSObject, NSPointerArray, NSString, _AXFScreenSourceHardware;
-@protocol AXFScreenSource, OS_dispatch_queue;
+@protocol AXFScreenSource;
 
 @interface AXFScreenManager
 {
     id <AXFScreenSource> _screenSource;
-    _AXFScreenSourceHardware *__hardware;
-    NSPointerArray *__observers;
-    NSObject<OS_dispatch_queue> *__localQueue;
 }
 
 + (id);
-+ (id);
++ (id)callID:%d /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (struct CGRect);
 - (void);
@@ -34,8 +30,8 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (void);
 - (void);
@@ -53,31 +49,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ef_stringByTrimmingWhitespaceAndDuplicateSpaces;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Timeout Relay;
 
 // Remaining properties
-@property(retain, nonatomic) _AXFScreenSourceHardware *_hardware; // @synthesize _hardware=__hardware;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_localQueue; // @synthesize _localQueue=__localQueue;
-@property(retain, nonatomic) NSPointerArray *_observers; // @synthesize _observers=__observers;
-@property(readonly, nonatomic) NSArray *allScreenFrames;
-@property(readonly, nonatomic) NSArray *allScreens;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) AXFScreen *mainScreen;
-@property(readonly, nonatomic) double maximumBackingScaleFactor;
-@property(readonly, nonatomic) AXFScreen *mouseScreen;
-@property(readonly, nonatomic) AXFScreen *primaryScreen;
 @property(retain, nonatomic) id <AXFScreenSource> screenSource; // @synthesize screenSource=_screenSource;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGRect totalScreenBounds;
 
 @end
 

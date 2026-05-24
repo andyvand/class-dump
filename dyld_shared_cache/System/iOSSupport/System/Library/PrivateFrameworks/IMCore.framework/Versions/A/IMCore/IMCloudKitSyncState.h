@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncStatistics, NSArray, NSDate, NSString;
-
 @interface IMCloudKitSyncState
 {
     unsigned long long syncControllerSyncState;
-    long long syncControllerSyncType;
-    long long syncControllerRecordType;
-    _Bool hasExited;
-    long long changingEnabledState;
-    _Bool isDisablingDevices;
-    _Bool hasAvailableRecordsToDownload;
-    void errors;
-    long long accountStatus;
-    unsigned long long syncType;
-    unsigned long long syncStatus;
-    unsigned long long syncJobState;
-    IMCloudKitSyncStatistics *statistics;
-    double lastDownloadProgress;
-    id _exitDate;
-    id _lastFullSyncDate;
-    id _lastFullPartialSyncDate;
-    id _lastSyncDate;
-    id _isBetweenInitialAndFullSync;
-    id accountEnabled;
-    id syncState;
 }
 
-- (_Bool);
+- (_Bool)I;
 - (id);
 - (unsigned long long);
 - (id);
@@ -41,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)m;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,12 +34,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long):DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)Unspecified error during remove.;
+- (_Bool)rce = const WebCore::ScrollingStateNode] /* Error: Ran out of types for this method. */;
+- (_Bool)(;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (long long);
@@ -72,37 +50,7 @@
 - (unsigned long long)D:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool accountNeedsRepair;
-@property(nonatomic, readonly) long long accountStatus; // @synthesize accountStatus;
-@property(nonatomic, readonly) _Bool canChangeEnabledSetting;
-@property(nonatomic, readonly) _Bool canEnableSyncing;
-@property(nonatomic, readonly) _Bool canStartSyncing;
-@property(nonatomic, readonly) long long changingEnabledState; // @synthesize changingEnabledState;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *errors;
-@property(nonatomic, readonly) NSDate *exitDate;
-@property(nonatomic, readonly) _Bool hasAvailableRecordsToDownload; // @synthesize hasAvailableRecordsToDownload;
-@property(nonatomic, readonly) _Bool hasExited; // @synthesize hasExited;
-@property(nonatomic, readonly) _Bool isBetweenInitialAndFullSync;
-@property(nonatomic, readonly) _Bool isDisablingDevices; // @synthesize isDisablingDevices;
-@property(nonatomic, readonly) _Bool isSyncEnabledForDisplayOnly;
-@property(nonatomic, readonly) _Bool isSyncing;
-@property(nonatomic, readonly) _Bool isSyncingAvailable;
-@property(nonatomic, readonly) _Bool isSyncingEnabled;
-@property(nonatomic, readonly) _Bool isSyncingPaused;
-@property(nonatomic, readonly) double lastDownloadProgress; // @synthesize lastDownloadProgress;
-@property(nonatomic, readonly) NSDate *lastFullPartialSyncDate;
-@property(nonatomic, readonly) NSDate *lastFullSyncDate;
-@property(nonatomic, readonly) NSDate *lastSyncDate;
-@property(nonatomic, readonly) IMCloudKitSyncStatistics *statistics; // @synthesize statistics;
-@property(nonatomic, readonly) long long syncControllerRecordType; // @synthesize syncControllerRecordType;
 @property(nonatomic, readonly) unsigned long long syncControllerSyncState; // @synthesize syncControllerSyncState;
-@property(nonatomic, readonly) long long syncControllerSyncType; // @synthesize syncControllerSyncType;
-@property(nonatomic, readonly) unsigned long long syncJobState; // @synthesize syncJobState;
-@property(nonatomic, readonly) unsigned long long syncStatus; // @synthesize syncStatus;
-@property(nonatomic, readonly) NSString *syncStatusText;
-@property(nonatomic, readonly) unsigned long long syncType; // @synthesize syncType;
-@property(nonatomic, readonly) _Bool syncingFailed;
 
 @end
 

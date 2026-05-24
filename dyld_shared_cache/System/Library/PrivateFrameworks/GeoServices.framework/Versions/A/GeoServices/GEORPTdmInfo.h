@@ -4,83 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPTdmInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_anonymousUserId;
-    NSMutableArray *_baaCertificates;
-    NSData *_baaSignature;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isBlocked;
-    _Bool _isTrusted;
-    struct {
-        unsigned int has_isBlocked:1;
-        unsigned int has_isTrusted:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_anonymousUserId:1;
-        unsigned int read_baaCertificates:1;
-        unsigned int read_baaSignature:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ils:(id)arg1;
++ (_Bool)setLocalizationDetails:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@16;
+- (void)scription>"16;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (unsigned long long)!;
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void)TA;
+- (id)esisRecord";
+- (void)",&,N,V_audioSessionController;
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id)b1"wrote_anyField"b1};
-- (id)ce;
+- (id)currentCountrySupportsNavigationIgnoringDevice;
 - (id)ä[¤],_ô`;
 - (id)iveTileGroupIdentifier:(id)arg1 updateType:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousUserId;
-@property(retain, nonatomic) NSMutableArray *baaCertificates;
-@property(retain, nonatomic) NSData *baaSignature;
 @property(readonly, nonatomic) _Bool hasAnonymousUserId;
-@property(readonly, nonatomic) _Bool hasBaaSignature;
-@property(nonatomic) _Bool hasIsBlocked;
-@property(nonatomic) _Bool hasIsTrusted;
-@property(nonatomic) _Bool isBlocked;
-@property(nonatomic) _Bool isTrusted;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

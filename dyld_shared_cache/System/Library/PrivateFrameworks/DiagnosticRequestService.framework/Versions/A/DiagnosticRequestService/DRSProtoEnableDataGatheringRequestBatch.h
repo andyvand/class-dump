@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoClientDeviceMetadata, NSMutableArray, NSString;
+@class DRSProtoClientDeviceMetadata;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoEnableDataGatheringRequestBatch
 {
     DRSProtoClientDeviceMetadata *_clientMetadata;
-    NSMutableArray *_dataGatheringRequests;
 }
 
 + (Class);
@@ -20,19 +19,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)xL;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)R;
+- (id);
+- (id);
+- (id)t;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)@;
 - (void);
 - (_Bool)ïÐ!$Dù
 
@@ -40,17 +39,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) DRSProtoClientDeviceMetadata *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(retain, nonatomic) NSMutableArray *dataGatheringRequests; // @synthesize dataGatheringRequests=_dataGatheringRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *requests;
-@property(readonly) Class superclass;
 
 @end
 

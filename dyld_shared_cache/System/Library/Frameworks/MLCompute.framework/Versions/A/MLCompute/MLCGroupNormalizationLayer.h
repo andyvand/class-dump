@@ -6,17 +6,9 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class MLCTensor, MLCTensorParameter;
-
 @interface MLCGroupNormalizationLayer : MLCLayer
 {
     float _varianceEpsilon;
-    unsigned long long _featureChannelCount;
-    unsigned long long _groupCount;
-    MLCTensor *_beta;
-    MLCTensor *_gamma;
-    MLCTensorParameter *_betaParameter;
-    MLCTensorParameter *_gammaParameter;
 }
 
 + (id);
@@ -39,16 +31,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dataType;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) MLCTensor *beta; // @synthesize beta=_beta;
-@property(readonly, retain, nonatomic) MLCTensorParameter *betaParameter; // @synthesize betaParameter=_betaParameter;
 @property(readonly, nonatomic) unsigned long long featureChannelCount; // @synthesize featureChannelCount=_featureChannelCount;
-@property(readonly, retain, nonatomic) MLCTensor *gamma; // @synthesize gamma=_gamma;
-@property(readonly, retain, nonatomic) MLCTensorParameter *gammaParameter; // @synthesize gammaParameter=_gammaParameter;
-@property(readonly, nonatomic) unsigned long long groupCount; // @synthesize groupCount=_groupCount;
-@property(readonly, nonatomic) float varianceEpsilon; // @synthesize varianceEpsilon=_varianceEpsilon;
 
 @end
 

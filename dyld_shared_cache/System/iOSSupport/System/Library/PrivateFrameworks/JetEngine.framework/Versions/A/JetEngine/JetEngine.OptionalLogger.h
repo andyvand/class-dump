@@ -7,8 +7,6 @@
 @interface JetEngine.OptionalLogger
 {
     id logger;
-    id levelNameKey;
-    id defaultVerbosityLevel;
 }
 
 @end

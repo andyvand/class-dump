@@ -5,5 +5,7 @@
 //
 
 @protocol HMDNetworkRouterFirewallRuleManagerDebug
+- (void)indexesOfObjectsPassingTest:(_Bool)arg1;
+- (void);
 @end
 

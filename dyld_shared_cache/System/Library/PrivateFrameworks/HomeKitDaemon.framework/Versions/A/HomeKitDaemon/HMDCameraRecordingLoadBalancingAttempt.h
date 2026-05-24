@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingLoadBalancingAttempt
 {
     struct os_unfair_lock_s _lock;
-    NSString *_logIdentifier;
-    HMFTimer *_localResponseTimer;
-    CDUnknownBlockType _completion;
 }
 
 + (id)Ïwÿ;
-- (void);
+- (void)icipants;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id)1Â0@ù
 × ;
-- (CDUnknownBlockType)questProperty:completion: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)addMediaWriteRequests:withRequestProperty:completion: /* Error: Ran out of types for this method. */;
 - (void)âÿÿÖªþÿlªþÿ"@þÿ;
 - (void)áù|&Th;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFTimer *localResponseTimer; // @synthesize localResponseTimer=_localResponseTimer;
 @property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

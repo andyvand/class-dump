@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSUUID;
-
 @interface RTTripSegmentFeatures
 {
     int _tripSequenceNumber;
-    unsigned long long _transitionIndex;
-    NSUUID *_tripId;
-    long long _mode;
-    NSDateInterval *_dateInterval;
 }
 
 - (int);
@@ -21,20 +15,16 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)receive;
 - (id);
 - (long long);
-- (id);
+- (id).;
 - (void);
 - (void);
 - (void)es not exceed required minimum interval, %.2f;
 
 // Remaining properties
-@property(retain, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
 @property(nonatomic) unsigned long long transitionIndex; // @synthesize transitionIndex=_transitionIndex;
-@property(retain, nonatomic) NSUUID *tripId; // @synthesize tripId=_tripId;
-@property(nonatomic) int tripSequenceNumber; // @synthesize tripSequenceNumber=_tripSequenceNumber;
 
 @end
 

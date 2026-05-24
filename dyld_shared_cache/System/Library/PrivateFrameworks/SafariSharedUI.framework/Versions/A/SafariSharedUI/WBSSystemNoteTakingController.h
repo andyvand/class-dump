@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString, SYLinkContextClient, SYNotesActivationObserver;
-@protocol WBSSystemNoteTakingControllerDelegate;
+@class SYLinkContextClient;
 
 @interface WBSSystemNoteTakingController
 {
     SYLinkContextClient *_linkContextClient;
-    NSCache *_cachedCanonicalURLStringForWebPageURLString;
-    SYNotesActivationObserver *_notesActivationObserver;
-    _Bool _isNotesPIPVisible;
-    id <WBSSystemNoteTakingControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)TI;
 - (_Bool);
 - (void);
 - (void);
@@ -38,15 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isSystemNoteTakingEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WBSSystemNoteTakingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isNotesPIPVisible; // @synthesize isNotesPIPVisible=_isNotesPIPVisible;
-@property(readonly) Class superclass;
 
 @end
 

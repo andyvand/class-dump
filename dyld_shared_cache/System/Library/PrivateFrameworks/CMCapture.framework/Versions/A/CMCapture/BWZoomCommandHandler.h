@@ -4,52 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWZoomDelayBuffer, NSArray;
-@protocol BWZoomCompletionDelegate;
-
 @interface BWZoomCommandHandler
 {
     struct os_unfair_lock_s _zoomLock;
-    float _appliedZoomFactor;
-    float _lastRequestedZoomFactor;
-    _Bool _zoomFactorServiced;
-    BWZoomDelayBuffer *_zoomDelayBuffer;
-    _Bool _clientCanCompensateForDelay;
-    id <BWZoomCompletionDelegate> _zoomCompletionDelegate;
-    id <BWZoomCompletionDelegate> _zoomCompletionDelegateForStereoAudio;
-    CDStruct_1b6d18a9 _lastFramePTSes[2];
-    int _lastFrameCaptureID;
-    long long _timeForLastRequestedZoomFactor;
-    CDStruct_1b6d18a9 _rampStartTime;
-    float _rampAcceleration;
-    float _rampStartFactor;
-    float _rampStartVelocity;
-    float _rampTargetFactor;
-    float _rampTargetVelocity;
-    int _rampCommandID;
-    _Bool _rampActive;
-    int _rampType;
-    int _rampTuning;
-    double _rampDuration;
-    float _rampSnapFraction;
-    float _rampCurrentVelocity;
-    float _rampZoomFactorOfInterest;
-    NSArray *_fudgedZoomRanges;
-    float _maxZoomFactorToApplyFudge;
-    float _minZoomFactorToApplyFudge;
-    float _maxFudgedZoomFactor;
-    float _minFudgedZoomFactor;
-    float _springRampTension;
-    float _springRampFriction;
-    float _earlySwitchOverScaleFactorForZoomIn;
-    float _allowableMinimumDigitalZoomFactorDuringZoomOut;
-    int _springRampStartFrameDelayAt30fps;
 }
 
 + (void)pelineOutput"8Q16^B24;
 - (void);
-- (void);
-- (void);
+- (void)mVerticalOverflowType;
+- (void)_verticalAnchor;
 - (float);
 - (float);
 - (float);
@@ -61,16 +24,16 @@
 - (long long);
 - (id);
 - (void);
-- (float);
-- (float);
+- (float)hh8h;
+- (float);
 - (void);
 - (void);
-- (float);
-- (void);
+- (float)e of model class:(CDStruct_1b6d18a9)arg1 %@;
+- (void)ope/Warsaw;
 - (id);
 - (float);
 - (float);
-- (void);
+- (void)/A/RemoteTextInput;
 - (void);
 - (void);
 - (void);
@@ -79,17 +42,7 @@
 - (float);
 
 // Remaining properties
-@property(readonly) float allowableMinimumDigitalZoomFactorDuringZoomOut;
-@property(readonly) float appliedZoomFactor;
-@property(readonly) float appliedZoomFactorWithoutFudge;
-@property(readonly) float earlySwitchOverScaleFactorForZoomIn;
-@property(readonly) float rampTargetZoomFactor;
-@property(readonly) int rampTuning;
-@property(readonly) float rampZoomFactorOfInterest;
 @property float requestedZoomFactor;
-@property(readonly) float requestedZoomFactorWithoutFudge;
-@property(nonatomic) id <BWZoomCompletionDelegate> zoomCompletionDelegate; // @synthesize zoomCompletionDelegate=_zoomCompletionDelegate;
-@property(nonatomic) id <BWZoomCompletionDelegate> zoomCompletionDelegateForStereoAudio; // @synthesize zoomCompletionDelegateForStereoAudio=_zoomCompletionDelegateForStereoAudio;
 
 @end
 

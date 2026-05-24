@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiSmarterFetchConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiSmarterFetchEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiSmarterFetchConfiguration *_configuration;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id)1Â0@ù
 × ;
 - (void)ervices/feldsparcore/Classes/FCCKDirectRequestOperation.m;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiSmarterFetchConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

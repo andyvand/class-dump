@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNContactListActionAuthorizationContext
 {
     id <CNContactListAction> _action;
-    long long _type;
 }
 
 - (long long);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <CNContactListAction> action; // @synthesize action=_action;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

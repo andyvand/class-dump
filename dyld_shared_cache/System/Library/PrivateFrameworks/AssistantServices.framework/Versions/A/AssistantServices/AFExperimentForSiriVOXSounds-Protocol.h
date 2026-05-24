@@ -7,7 +7,6 @@
 @protocol AFExperimentForSiriVOXSounds
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool playsSessionInactiveSoundForSiriVOXSounds;
 @property(readonly, nonatomic) _Bool playsTwoShotSoundForSiriVOXSounds;
 @end
 

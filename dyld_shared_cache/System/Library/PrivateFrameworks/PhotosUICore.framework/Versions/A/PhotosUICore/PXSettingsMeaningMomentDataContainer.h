@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAssetCollection, PHFetchResult;
+@class PHFetchResult;
 
 @interface PXSettingsMeaningMomentDataContainer
 {
     PHFetchResult *_curatedAssets;
-    PHAssetCollection *_assetCollection;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
 @property(readonly, nonatomic) PHFetchResult *curatedAssets; // @synthesize curatedAssets=_curatedAssets;
 
 @end

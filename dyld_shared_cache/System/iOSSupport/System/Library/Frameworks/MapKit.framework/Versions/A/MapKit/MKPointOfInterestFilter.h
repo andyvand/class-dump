@@ -9,7 +9,6 @@
 @interface MKPointOfInterestFilter
 {
     NSSet *_includedCategories;
-    NSSet *_excludedCategories;
 }
 
 + (id);
@@ -21,8 +20,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)7;
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -32,10 +31,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)mpletionHandlers;
+- (void)completionHandlers;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isAllCategories) _Bool isAllCategories;
 @property(readonly, nonatomic, getter=_isInclusive) _Bool isInclusive;
 
 @end

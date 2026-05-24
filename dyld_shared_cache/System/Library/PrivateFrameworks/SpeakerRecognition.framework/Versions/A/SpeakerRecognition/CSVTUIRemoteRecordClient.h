@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDispatchGroup, NSObject, NSString, OS_remote_device, OS_remote_device_browser, OS_xpc_remote_connection;
-@protocol CSVTUIRemoteRecordClientDelegate, OS_dispatch_queue;
+@class NSObject, OS_remote_device;
+@protocol OS_dispatch_queue;
 
 @interface CSVTUIRemoteRecordClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    OS_xpc_remote_connection *_connection;
-    OS_remote_device_browser *_deviceBrowser;
-    CSDispatchGroup *_deviceWaitingGroup;
-    _Bool _isRemoteRecording;
-    id <CSVTUIRemoteRecordClientDelegate> _delegate;
-    unsigned long long _audioStreamHandleId;
-    NSString *_deviceId;
-    OS_remote_device *_device;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -37,20 +29,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)i;
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)avkit_sbdlpip_findFirstCALayerHost;
+- (void)_;
+- (_Bool)letionBlock;
 - (id);
 - (void);
 - (_Bool)blic}ld maxCount %{public}ld;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long audioStreamHandleId; // @synthesize audioStreamHandleId=_audioStreamHandleId;
-@property(nonatomic) __weak id <CSVTUIRemoteRecordClientDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) OS_remote_device *device; // @synthesize device=_device;
-@property(readonly, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
 
 @end
 

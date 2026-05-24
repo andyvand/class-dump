@@ -11,12 +11,12 @@
     NSPersonNameComponentsFormatter *_personNameComponentsFormatter;
 }
 
++ (id)assetArrayFromScreenshotArray:(id)arg1 onlyAllowingOrientation: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (void)lc;
++ (void)mlmodelc;
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void)getComparableL3Score:sectionMapping:bundleId1:bundleId2:score1:score2:usePommesScore:useLegacyScore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

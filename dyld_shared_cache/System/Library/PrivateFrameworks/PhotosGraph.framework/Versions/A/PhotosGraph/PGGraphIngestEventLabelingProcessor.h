@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestEventLabelingProcessor
 {
     PGGraphBuilder *_graphBuilder;
 }
 
-+ (unsigned long long);
++ (unsigned long long)AXSharedDocumentContainer;
 - (_Bool);
-- (void);
-- (id);
+- (void)setLevel:(id)arg1;
+- (id)M4;
 - (void)24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

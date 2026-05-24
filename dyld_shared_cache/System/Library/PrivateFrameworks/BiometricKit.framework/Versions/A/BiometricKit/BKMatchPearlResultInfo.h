@@ -9,7 +9,6 @@
 @interface BKMatchPearlResultInfo : BKMatchResultInfo
 {
     long long _feedback;
-    unsigned long long _periocularMatchState;
 }
 
 - (unsigned long long);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long feedback; // @synthesize feedback=_feedback;
-@property(readonly, nonatomic) unsigned long long periocularMatchState; // @synthesize periocularMatchState=_periocularMatchState;
 
 @end
 

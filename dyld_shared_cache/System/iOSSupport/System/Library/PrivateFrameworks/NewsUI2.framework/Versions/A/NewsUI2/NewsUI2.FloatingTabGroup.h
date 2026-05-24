@@ -11,7 +11,7 @@
     id allowsReorderingWhileOnline;
 }
 
-- (id);
+- (id);
 - (id);
 
 // Remaining properties

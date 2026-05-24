@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, TSUProgressStage;
+@class TSUProgressStage;
 
 @interface TSUProgressContext
 {
     TSUProgressStage *m_currentStage;
-    NSDate *m_lastReportTime;
-    double m_lastProgressReport;
-    double m_lastOverallProgress;
 }
 
 - (void);
@@ -26,7 +23,7 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)%;
 - (double);
 - (void);
 - (id);

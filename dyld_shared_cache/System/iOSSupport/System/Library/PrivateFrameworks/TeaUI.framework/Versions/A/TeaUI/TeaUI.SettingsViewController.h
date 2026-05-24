@@ -7,11 +7,6 @@
 @interface TeaUI.SettingsViewController
 {
     id layout;
-    id actionHandler;
-    id tableView;
-    id searchItems;
-    id activeLayout;
-    id akeyboardWillChangeFrame;
 }
 
 - (void);
@@ -21,10 +16,10 @@
 - (_Bool);
 - (double);
 - (id);
+- (id)C,N,V_breadcrumbText;
 - (id);
-- (id);
-- (long long);
-- (void);
+- (long long)tils for uid %{public}d;
+- (void)ssing SystemVersion.plist;
 - (void);
 - (long long);
 - (void);

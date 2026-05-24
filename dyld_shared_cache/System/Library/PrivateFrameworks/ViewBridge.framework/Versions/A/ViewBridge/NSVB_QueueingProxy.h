@@ -6,35 +6,27 @@
 
 #import <ViewBridge/NSVB_TargetedProxy.h>
 
-@class NSMutableArray, NSViewServiceMarshal;
-
 __attribute__((visibility("hidden")))
 @interface NSVB_QueueingProxy : NSVB_TargetedProxy
 {
     unsigned int _wantsResume:1;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _suspensionCount;
-    NSMutableArray *_queuedInvocations;
-    CDUnknownBlockType _shouldSuspendInvocationBlock;
-    NSViewServiceMarshal *_connectionClient;
-    _Atomic unsigned int _queuedInvocationsAreSpecial;
 }
 
 + (id);
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ng",&,N,V_itemID;
 - (void);
-- (_Bool);
+- (_Bool)gytIegnnnnnr_;
 - (void);
 - (void);
-- (void);
+- (void)V;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol AAAgeMigrationStateProviding
+- (_Bool)fileTime;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ageMigrationFeatureEnabled;

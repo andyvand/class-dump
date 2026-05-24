@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation;
+
 @protocol CKConversationListCollectionViewCellDelegate
+- (_Bool)_writingToolsSessionUUID;
+
+@optional
+- (void)setExpectedReceiveSize:(CKConversation *)arg1;
 @end
 

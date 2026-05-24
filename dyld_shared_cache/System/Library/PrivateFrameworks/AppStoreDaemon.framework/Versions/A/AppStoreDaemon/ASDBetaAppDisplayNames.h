@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ASDBetaAppDisplayNames
 {
     NSDictionary *_localizedNames;
-    NSString *_primaryLocale;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (void);
@@ -22,12 +21,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)RIGHT_TURN_AT_END;
 - (void);
 
 // Remaining properties
 @property(copy) NSDictionary *localizedNames; // @synthesize localizedNames=_localizedNames;
-@property(copy) NSString *primaryLocale; // @synthesize primaryLocale=_primaryLocale;
 
 @end
 

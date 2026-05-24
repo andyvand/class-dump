@@ -8,11 +8,11 @@
 {
 }
 
++ (_Bool)k!;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 
 @end
 

@@ -5,5 +5,11 @@
 //
 
 @protocol LNActionExecutorDelegate
+
+@optional
+- (void);
+- (_Bool)z;
+- (_Bool)|;
+- (void);
 @end
 

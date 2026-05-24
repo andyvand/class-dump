@@ -9,7 +9,7 @@
     _Bool _enabled;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
 - (void);
 - (id);

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TLKLabel, TLKStackView;
+@class TLKLabel;
 
 __attribute__((visibility("hidden")))
 @interface TLKSplitTitleContainer
 {
     _Bool _useLargeTitle;
-    TLKLabel *_titleLabel;
-    TLKLabel *_centerLeadingTitleLabel;
-    TLKLabel *_centerTrailingTitleLabel;
-    TLKStackView *_titleStackView;
 }
 
 + (double);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)AMFDRDataSetApTicketAndGetNewestTrustObject;
 - (id);
 - (id);
 - (_Bool);
@@ -37,11 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TLKLabel *centerLeadingTitleLabel; // @synthesize centerLeadingTitleLabel=_centerLeadingTitleLabel;
-@property(retain, nonatomic) TLKLabel *centerTrailingTitleLabel; // @synthesize centerTrailingTitleLabel=_centerTrailingTitleLabel;
 @property(retain, nonatomic) TLKLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) TLKStackView *titleStackView; // @synthesize titleStackView=_titleStackView;
-@property _Bool useLargeTitle; // @synthesize useLargeTitle=_useLargeTitle;
 
 @end
 

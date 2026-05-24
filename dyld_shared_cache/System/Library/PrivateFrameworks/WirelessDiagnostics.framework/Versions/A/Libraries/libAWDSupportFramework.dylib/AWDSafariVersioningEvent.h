@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDSafariVersioningEvent
 {
     unsigned long long _timestamp;
-    int _variant;
-    NSString *_version;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int variant:1;
-    } _has;
 }
 
 - (id);
@@ -22,14 +14,14 @@
 - (_Bool);
 - (int);
 - (void);
+- (id)	;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,15 +31,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (int)rohibitsExpensive;
+- (int)hasProhibitsExpensive;
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasVariant;
-@property(readonly, nonatomic) _Bool hasVersion;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int variant; // @synthesize variant=_variant;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

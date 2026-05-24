@@ -9,7 +9,6 @@
 @interface MPSNDArrayInitializationRandomNormal : MPSNDArrayInitialization
 {
     float _mean;
-    float _standardDeviation;
 }
 
 - (unsigned long long);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float mean; // @synthesize mean=_mean;
-@property(readonly, nonatomic) float standardDeviation; // @synthesize standardDeviation=_standardDeviation;
 
 @end
 

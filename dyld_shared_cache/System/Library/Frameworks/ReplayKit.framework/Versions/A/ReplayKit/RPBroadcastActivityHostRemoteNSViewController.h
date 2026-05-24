@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSExtension, NSString, RPBroadcastActivityViewServiceExtensionHostContext;
+@class NSExtension;
 @protocol RPBroadcastActivityHostRemoteNSViewControllerDelegate;
 
 @interface RPBroadcastActivityHostRemoteNSViewController
 {
     id <RPBroadcastActivityHostRemoteNSViewControllerDelegate> _delegate;
-    NSExtension *_extension;
-    NSArray *_inputItems;
-    RPBroadcastActivityViewServiceExtensionHostContext *_hostContext;
 }
 
 + (void);
@@ -21,28 +18,18 @@
 - (void);
 - (id);
 - (id);
+- (void)on>",R,N;
+- (id);
+- (void);
+- (void)le while trying to fuzz search results;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)a;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RPBroadcastActivityHostRemoteNSViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RPBroadcastActivityViewServiceExtensionHostContext *hostContext; // @synthesize hostContext=_hostContext;
-@property(retain, nonatomic) NSArray *inputItems; // @synthesize inputItems=_inputItems;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,7 @@
 @class NSUUID;
 
 @protocol HMParsedIndexAccessoryEventTopic
-- (NSUUID *)essoryAccessCodeFetchResponseValueCodingKeyAccessoryUUID;
+- (NSUUID *)HMAccessoryAccessCodeFetchResponseValueCodingKeyAccessoryUUID;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *accessoryUUID;

@@ -4,6 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class VKARWalkingElevationRequestFailureInfo, VKARWalkingFeatureDidUpdateInfo, VKMapView;
+
 @protocol VKMapViewDelegate
+
+@optional
+- (void)initWithInfo:(VKMapView *)arg1;
+- (void)initWithIdentifier:(VKMapView *)arg1 andInfo:andSnapshottingEnabled:andMockData: /* Error: Ran out of types for this method. */;
+- (void)initWithEnergyMonitor:(VKMapView *)arg1 andMockData: /* Error: Ran out of types for this method. */;
+- (void)initWithDictionary:(VKMapView *)arg1 copyItems: /* Error: Ran out of types for this method. */;
+- (void)initWithDebugMode:(VKMapView *)arg1 andMockData:andCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithCompletionBlock:(VKMapView *)arg1;
+- (void)incrementNetworkEnergy:(VKMapView *)arg1;
+- (void)incrementCPUEnergy:(VKMapView *)arg1;
+- (void)identifierToDiscretionaryIntervals;
+- (void)identifierToCoalitionID;
+- (void)handleStopEvent:(VKMapView *)arg1 withInfo:(unsigned long long)arg2;
+- (void)handleStartEvent:(VKMapView *)arg1 withInfo: /* Error: Ran out of types for this method. */;
+- (void)handleOpenIntervalTimer;
+- (void)getTitleAndTextForType:(VKMapView *)arg1;
+- (void)getLocalizedStringForKey:(VKMapView *)arg1;
+- (void)getDiscretionaryEnergyBudget;
+- (void)generateEnergyReport;
+- (void)fileURLWithPath:(VKMapView *)arg1;
+- (void)fallbackDefaultBatteryEnergyCapacity;
+- (void)eventFilterSaved;
+- (void)enumerateKeysAndObjectsUsingBlock:(VKMapView *)arg1;
+- (void)dynamicCache;
+- (void)distantPast;
+- (void)disableQuickEnergy;
+- (void)dictionary;
+- (void)defaultBatteryEnergyCapacity;
+- (void)dateByAddingTimeInterval:(VKMapView *)arg1;
+- (void)curatedBatchingList;
+- (void)createXPCConnection;
+- (void)createPowerlogReportTimer;
+- (void)createOpenIntervalTimer;
+- (void)createIdentifierForSubsystem:(VKMapView *)arg1 category:(VKARWalkingElevationRequestFailureInfo *)arg2;
+- (void)cpuEnergyBilledToMe;
+- (void)countByEnumeratingWithState:(VKMapView *)arg1 objects:(unsigned long long)arg2 count: /* Error: Ran out of types for this method. */;
+- (void)copyItemAtPath:(VKMapView *)arg1 toPath:(VKARWalkingFeatureDidUpdateInfo *)arg2 error: /* Error: Ran out of types for this method. */;
 @end
 

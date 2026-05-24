@@ -6,7 +6,7 @@
 
 #import <ReminderKit/TTVersionedDocument.h>
 
-@class NSString, TTMergeableAttributedString;
+@class TTMergeableAttributedString;
 
 @interface TTMergeableStringVersionedDocument : TTVersionedDocument
 {
@@ -29,14 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TTMergeableAttributedString *mergeableString; // @synthesize mergeableString=_mergeableString;
-@property(readonly) Class superclass;
 
 @end
 

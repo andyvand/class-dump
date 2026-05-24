@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSettingValue, NSArray, NSMutableArray, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDSetting
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_constraints;
-    _Bool _readOnly;
-    NSUUID *_identifier;
-    NSUUID *_parentIdentifier;
-    NSString *_name;
-    NSString *_keyPath;
-    NSNumber *_type;
-    NSNumber *_properties;
-    HMSettingValue *_internalValue;
 }
 
 + (id);
@@ -27,18 +16,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)_coalescedPartialContentIdentifiersToFetch;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (id)iaStreamServerConfigurationCore error %d;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)c;
 - (id);
 - (id);
 - (void);
@@ -46,32 +35,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)
 × ;
-- (_Bool)cessoryWithUnifiedAccessWalletKeySupport;
-- (id)Paths;
-- (void)ticsTagObserver;
+- (_Bool)hasAnyAccessoryWithUnifiedAccessWalletKeySupport;
+- (id)eventPaths;
+- (void)_coreAnalyticsTagObserver;
 - (id);
 - (id)tricEventTracker;
-- (void);
-- (void)one;
+- (void)currentDeviceConfirmedPrimaryResident_INT;
+- (void)timeZone;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) HMSettingValue *internalValue; // @synthesize internalValue=_internalValue;
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(copy) NSNumber *properties; // @synthesize properties=_properties;
 @property(getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly) Class superclass;
-@property(copy) NSNumber *type; // @synthesize type=_type;
-@property(readonly, copy) id value;
 
 @end
 

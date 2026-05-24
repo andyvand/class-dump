@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSURL, SAHAAction;
+@class SAHAAction;
 
 @interface SAHASceneAction : SADomainObject
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAHAAction *action;
-@property(copy, nonatomic) NSURL *entityId;
 
 @end
 

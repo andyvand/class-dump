@@ -7,11 +7,10 @@
 @interface ConversationKit.SharedContentVideoView
 {
     id screenSharingCameraView;
-    id viewModel;
 }
 
 - (id);
-- (id);
+- (id)__TEXT;
 - (id);
 - (void)
 × ;

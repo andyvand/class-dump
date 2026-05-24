@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKSecureElementSignatureInfo;
+@class NSString;
 
 @interface PKPaymentInitiateExternalProvisioningRequestDPANAuthorization
 {
     NSString *_dpanIdentifier;
-    NSData *_signatureData;
-    PKSecureElementSignatureInfo *_signatureInfo;
 }
 
 - (id);
@@ -18,12 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void)untPurchaseMissedApplePayMerchantRewards;
+- (void)wallet:defaultCreditAccountPurchaseMissedApplePayMerchantRewards /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(readonly, copy, nonatomic) NSData *signatureData; // @synthesize signatureData=_signatureData;
-@property(readonly, nonatomic) PKSecureElementSignatureInfo *signatureInfo; // @synthesize signatureInfo=_signatureInfo;
 
 @end
 

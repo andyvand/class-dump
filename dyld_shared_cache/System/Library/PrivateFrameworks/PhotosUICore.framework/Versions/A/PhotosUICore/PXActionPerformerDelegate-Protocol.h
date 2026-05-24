@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUndoManager, NSViewController;
+@class NSUndoManager, NSViewController, PXActionPerformer;
 @protocol PXMemoryAssetsActionFactory;
 
 @protocol PXActionPerformerDelegate
-- (NSUndoManager *)nlandWater;
+- (NSUndoManager *)inlandWater;
 
 @optional
+- (double)initWithDefaultView:(PXActionPerformer *)arg1;
 - (NSViewController *);
-- (_Bool)iryDate;
+- (_Bool)expiryDate;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;

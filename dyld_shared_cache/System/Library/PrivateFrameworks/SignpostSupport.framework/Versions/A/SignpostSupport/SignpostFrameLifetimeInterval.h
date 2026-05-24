@@ -6,35 +6,11 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class NSArray, NSDictionary, NSNumber, NSSet, SignpostContextInfo, SignpostFrameLatencyInterval, SignpostFrameOverrunInterval, SignpostGPURenderInterval, SignpostHIDLatencyInterval, SignpostRenderServerRenderInterval;
-@protocol SignpostSupportTimeInterval;
+@class NSArray;
 
 @interface SignpostFrameLifetimeInterval : SignpostAnimationSubInterval
 {
     unsigned int _displayID;
-    unsigned char _bufferCount;
-    unsigned char _previousFrameBufferCount;
-    _Bool _frameStallSkipRequest;
-    _Bool _lifetimeIsLong;
-    unsigned char _nextFrameBufferCount;
-    _Bool _isMaintaningFrameCadanceWithPreviousFrameLifetime;
-    unsigned int _frameSeed;
-    unsigned int _swapID;
-    unsigned int _surfaceID;
-    unsigned long long _displayRefreshIntervalDurationMachTime;
-    unsigned long long _previousFramePresentationMCT;
-    NSDictionary *_pidToContextInfoArrayDict;
-    SignpostHIDLatencyInterval *_hidLatencyInterval;
-    NSArray *_updateIntervals;
-    SignpostRenderServerRenderInterval *_renderInterval;
-    SignpostGPURenderInterval *_gpuInterval;
-    NSArray *_skippedRenders;
-    SignpostFrameLatencyInterval *_frameLatencyInterval;
-    SignpostContextInfo *_earliestTimeContextInfo;
-    SignpostContextInfo *_contextInfoForHIDInput;
-    NSArray *_commits;
-    unsigned long long _inProcessAnimationDisplayTargetMCT;
-    NSDictionary *_processNameToPidsDict;
 }
 
 + (id);
@@ -46,15 +22,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)q;
 - (unsigned char);
 - (id);
 - (id);
@@ -63,14 +39,14 @@
 - (unsigned char);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned int);
@@ -85,10 +61,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*%;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -97,50 +73,13 @@
 - (id);
 - (unsigned char);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)ay">32;
 - (unsigned int);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char bufferCount; // @synthesize bufferCount=_bufferCount;
-@property(retain, nonatomic) NSArray *commits; // @synthesize commits=_commits;
-@property(readonly, nonatomic) SignpostContextInfo *contextInfoForHIDInput; // @synthesize contextInfoForHIDInput=_contextInfoForHIDInput;
-@property(readonly, nonatomic) NSSet *contributingPIDs;
-@property(readonly, nonatomic) SignpostFrameOverrunInterval *discrepancyFrameOverrunInactiveDisplayInterval;
-@property(readonly, nonatomic) unsigned int displayID;
-@property(readonly, nonatomic) NSNumber *displayIDNum;
-@property(readonly, nonatomic) unsigned long long displayRefreshIntervalDurationMachTime; // @synthesize displayRefreshIntervalDurationMachTime=_displayRefreshIntervalDurationMachTime;
-@property(readonly, nonatomic) SignpostContextInfo *earliestTimeContextInfo; // @synthesize earliestTimeContextInfo=_earliestTimeContextInfo;
-@property(retain, nonatomic) SignpostFrameLatencyInterval *frameLatencyInterval; // @synthesize frameLatencyInterval=_frameLatencyInterval;
-@property(readonly, nonatomic) _Bool frameLatencyIsLong;
-@property(readonly, nonatomic) SignpostFrameOverrunInterval *frameOverrunInactiveDisplayInterval;
-@property(readonly, nonatomic) SignpostFrameOverrunInterval *frameOverrunInterval;
-@property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
-@property(readonly, nonatomic) _Bool frameStallSkipRequest; // @synthesize frameStallSkipRequest=_frameStallSkipRequest;
-@property(readonly, nonatomic) SignpostGPURenderInterval *gpuInterval; // @synthesize gpuInterval=_gpuInterval;
-@property(readonly, nonatomic) _Bool hasRenderServerUpdateOnly;
-@property(readonly, nonatomic) SignpostHIDLatencyInterval *hidLatencyInterval; // @synthesize hidLatencyInterval=_hidLatencyInterval;
-@property(readonly, nonatomic) _Bool hidLatencyIsLong;
-@property(readonly, nonatomic) unsigned long long inProcessAnimationDisplayTargetMCT; // @synthesize inProcessAnimationDisplayTargetMCT=_inProcessAnimationDisplayTargetMCT;
-@property(nonatomic) _Bool isMaintaningFrameCadanceWithPreviousFrameLifetime; // @synthesize isMaintaningFrameCadanceWithPreviousFrameLifetime=_isMaintaningFrameCadanceWithPreviousFrameLifetime;
-@property(readonly, nonatomic) _Bool lifetimeIsLong; // @synthesize lifetimeIsLong=_lifetimeIsLong;
-@property(readonly, nonatomic) _Bool mayBeFirstFrame;
-@property(readonly, nonatomic) unsigned long long missedVBLCount;
-@property(nonatomic) unsigned char nextFrameBufferCount; // @synthesize nextFrameBufferCount=_nextFrameBufferCount;
-@property(readonly, nonatomic) NSDictionary *pidToContextInfoArrayDict; // @synthesize pidToContextInfoArrayDict=_pidToContextInfoArrayDict;
-@property(readonly, nonatomic, getter=isPotentiallyLong) _Bool potentiallyLong;
-@property(nonatomic) unsigned char previousFrameBufferCount; // @synthesize previousFrameBufferCount=_previousFrameBufferCount;
-@property(readonly, nonatomic) id <SignpostSupportTimeInterval> previousFrameOnScreenInterval;
-@property(readonly, nonatomic) unsigned long long previousFramePresentationMCT; // @synthesize previousFramePresentationMCT=_previousFramePresentationMCT;
-@property(retain, nonatomic) NSDictionary *processNameToPidsDict; // @synthesize processNameToPidsDict=_processNameToPidsDict;
-@property(readonly, nonatomic) SignpostRenderServerRenderInterval *renderInterval; // @synthesize renderInterval=_renderInterval;
-@property(readonly, nonatomic) _Bool renderIntervalIsLong;
-@property(readonly, nonatomic) NSArray *skippedRenders; // @synthesize skippedRenders=_skippedRenders;
-@property(readonly, nonatomic) unsigned int surfaceID; // @synthesize surfaceID=_surfaceID;
-@property(readonly, nonatomic) unsigned int swapID; // @synthesize swapID=_swapID;
-@property(retain, nonatomic) NSArray *updateIntervals; // @synthesize updateIntervals=_updateIntervals;
-@property(readonly, nonatomic) SignpostFrameOverrunInterval *userVisibleGlitchInterval;
+@property(readonly, nonatomic) NSArray *commits;
 
 @end
 

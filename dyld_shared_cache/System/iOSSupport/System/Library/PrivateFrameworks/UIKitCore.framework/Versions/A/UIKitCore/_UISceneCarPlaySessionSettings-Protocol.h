@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _UISceneCarPlaySessionSettings
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long carPlayAvailableInteractionModels;
-@property(nonatomic) unsigned long long carPlayPrimaryInteractionModel;
-@property(nonatomic) long long carPlayTouchLevel;
-@property(retain, nonatomic) NSArray *carPlayTouchpads;
 @end
 

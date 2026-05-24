@@ -6,23 +6,19 @@
 
 #import <StoreFoundation/ISOperation.h>
 
-@class ISAuthenticationContext, ISDialog, NSNumber, NSURL;
-@protocol ISDialogOperationDelegate;
+@class NSNumber;
 
 @interface ISServerAuthenticationOperation : ISOperation
 {
     NSNumber *_authenticatedAccountDSID;
-    ISAuthenticationContext *_authenticationContext;
-    ISDialog *_dialog;
-    NSURL *_redirectURL;
 }
 
-+ (id);
++ (id)9;
 - (void);
 - (id);
+- (_Bool)`;
+- (void);
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -32,14 +28,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSNumber *authenticatedAccountDSID; // @synthesize authenticatedAccountDSID=_authenticatedAccountDSID;
-@property(retain) ISAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property __weak id <ISDialogOperationDelegate> delegate; // @dynamic delegate;
-@property(readonly) ISDialog *dialog; // @synthesize dialog=_dialog;
-@property(retain) NSURL *redirectURL; // @synthesize redirectURL=_redirectURL;
 
 @end
 

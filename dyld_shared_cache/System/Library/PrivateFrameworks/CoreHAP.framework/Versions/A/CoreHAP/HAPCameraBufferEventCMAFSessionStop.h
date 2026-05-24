@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferEventCMAFSessionStop
 {
@@ -18,20 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)@"NSDictionary";
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *CMAFSessionID; // @synthesize CMAFSessionID=_CMAFSessionID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

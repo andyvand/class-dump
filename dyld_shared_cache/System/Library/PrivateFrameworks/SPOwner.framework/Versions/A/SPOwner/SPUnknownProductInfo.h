@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SPUnknownProductMetadata;
+@class NSString;
 
 @interface SPUnknownProductInfo
 {
     NSString *_modelName;
-    NSString *_manufacturerName;
-    SPUnknownProductMetadata *_learnModeMetadata;
-    SPUnknownProductMetadata *_disableMetadata;
-    unsigned long long _capabilities;
 }
 
 + (_Bool);
@@ -23,20 +19,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)primaryPhoneNumber;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)timeout:completion: /* Error: Ran out of types for this method. */;
+- (id)startDiscoveryWithScanRate:timeout:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(copy, nonatomic) SPUnknownProductMetadata *disableMetadata; // @synthesize disableMetadata=_disableMetadata;
-@property(copy, nonatomic) SPUnknownProductMetadata *learnModeMetadata; // @synthesize learnModeMetadata=_learnModeMetadata;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
 @property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
 
 @end

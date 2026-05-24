@@ -10,7 +10,7 @@
 {
 }
 
-- (id)e_unpacked;
+- (id)pg_query__create_conversion_stmt__free_unpacked;
 
 @end
 

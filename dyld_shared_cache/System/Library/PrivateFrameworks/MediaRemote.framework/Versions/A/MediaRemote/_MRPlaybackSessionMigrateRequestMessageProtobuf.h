@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRNowPlayingPlayerPathProtobuf, _MRPlaybackSessionMigrateRequestProtobuf, _MRPlaybackSessionProtobuf;
+@class _MRPlaybackSessionProtobuf;
 
 @interface _MRPlaybackSessionMigrateRequestMessageProtobuf
 {
     _MRPlaybackSessionProtobuf *_playbackSession;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    _MRPlaybackSessionMigrateRequestProtobuf *_request;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -24,22 +22,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)SnippetDomain;
 - (void);
 - (void);
-- (void)entConfigurationStyle: /* Error: Ran out of types for this method. */;
+- (void)_shouldUpdateStyleForCurrentConfigurationStyle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlaybackSession;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) _MRPlaybackSessionProtobuf *playbackSession; // @synthesize playbackSession=_playbackSession;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) _MRPlaybackSessionMigrateRequestProtobuf *request; // @synthesize request=_request;
 
 @end
 

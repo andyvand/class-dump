@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOSnapScorePoint
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_candidates;
-    GEOLatLng *_point;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_candidates:1;
-        unsigned int read_point:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ionsIsTouristScore:(id)arg1;
-- (_Bool);
++ (_Bool)setMapsSuggestionsIsTouristScore:(id)arg1;
+- (_Bool)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -36,10 +24,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
-- (void);
+- (void)_triggerCount;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -47,18 +35,15 @@
 - (id);
 - (void);
 - (id)l";
-- (id)nation;
-- (id)ter;
+- (id)hasIncludeSummaryForPredictedDestination;
+- (id)GEOPDLinkedServiceFilter;
 - (id)Üaxb4c¼e<f;
-- (id)GORY_TYPE_SUBCATEGORIES;
+- (id)BROWSE_SUBCATEGORY_TYPE_SUBCATEGORIES;
 - (void)¾BA¶ñaÏP@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *candidates;
 @property(readonly, nonatomic) _Bool hasPoint;
-@property(retain, nonatomic) GEOLatLng *point;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

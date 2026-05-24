@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindowScene;
+@class UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneOrientationClientComponent
@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     UIWindowScene *_windowScene;
 }
 
-- (void);
+- (void)@9;
 - (_Bool);
 - (long long);
 - (long long);
-- (void);
+- (void)orationNoticeRateLimiter";
 - (void);
 - (id);
 - (void);
@@ -32,16 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIWindowScene *_windowScene; // @synthesize _windowScene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long interfaceOrientationLockPreference;
-@property(readonly, nonatomic) long long interfaceOrientationLockState;
-@property(readonly, nonatomic, getter=isInterfaceOrientationLocked) _Bool interfaceOrientationLocked;
-@property(readonly) Class superclass;
 
 @end
 

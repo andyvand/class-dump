@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNRequestSpecifier;
-
 @interface VNFaceLandmarkRegion
 {
     struct CGRect _faceBoundingBox;
-    unsigned long long _pointCount;
-    VNRequestSpecifier *_originatingRequestSpecifier;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGRect);
-- (id);
+- (id)compare:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,9 +26,6 @@
 
 // Remaining properties
 @property(readonly) struct CGRect faceBoundingBox; // @synthesize faceBoundingBox=_faceBoundingBox;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier; // @synthesize originatingRequestSpecifier=_originatingRequestSpecifier;
-@property(readonly) unsigned long long pointCount; // @synthesize pointCount=_pointCount;
-@property(readonly, nonatomic) unsigned long long requestRevision;
 
 @end
 

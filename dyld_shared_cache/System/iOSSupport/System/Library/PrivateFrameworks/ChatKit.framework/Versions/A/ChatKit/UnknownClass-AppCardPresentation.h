@@ -6,10 +6,10 @@
 
 @interface UnknownClass (AppCardPresentation)
 + (void);
-+ (_Bool);
++ (_Bool);
+- (void)postAlertWithProceedAndCancelButtonsWithTitle:(id)arg1 message:proceedTitle:proceedHandler:cancelHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)controller;
+- (id)ithIdentifier.;
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKPhysicalCardOrder
 {
     unsigned long long _reason;
-    NSString *_nameOnCard;
-    NSString *_artworkIdentifier;
 }
 
 + (_Bool);
@@ -19,14 +15,12 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void)NFallbackSynLoss;
 - (void);
-- (void);
-- (void)fo;
+- (void)appletInfo;
 - (id)q;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
-@property(copy, nonatomic) NSString *nameOnCard; // @synthesize nameOnCard=_nameOnCard;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 
 @end

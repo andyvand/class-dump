@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDataString, _INPBIntentMetadata;
+@class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBGetReservationDetailsIntent
-- (_Bool)oRouteAsString: /* Error: Ran out of types for this method. */;
+- (NSArray *)/;
+- (_Bool);
+- (void);
+- (_INPBIntentMetadata *)24@?0@8Q16;
+- (_Bool)audioRouteAsString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasReservationContainerReference;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *reservationContainerReference;
-@property(copy, nonatomic) NSArray *reservationItemReferences;
-@property(readonly, nonatomic) unsigned long long reservationItemReferencesCount;
 @end
 

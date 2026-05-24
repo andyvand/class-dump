@@ -7,13 +7,6 @@
 @interface NewsUI2.TodayFeedServiceConfigFetcher
 {
     id logName;
-    id configManager;
-    id configTransformer;
-    id paidBundleConfigManager;
-    id subscriptionController;
-    id sportsOnboardingManager;
-    id prefetchedTodayConfigFetchResult;
-    id featureAvailability;
 }
 
 @end

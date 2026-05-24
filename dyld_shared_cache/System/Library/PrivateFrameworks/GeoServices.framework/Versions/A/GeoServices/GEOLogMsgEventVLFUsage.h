@@ -4,57 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOVLFARFailureTypes, GEOVLFCorrection, GEOVLFEntryPoint, GEOVLFInitializationFailureDetails, GEOVLFLocation, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventVLFUsage
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOVLFPositionContextClassification _initialPositionContextClassification;
-    GEOVLFARFailureTypes *_arFailureTypes;
-    NSMutableArray *_arStates;
-    NSMutableArray *_deviceOrientations;
-    GEOVLFEntryPoint *_entryPoint;
-    GEOVLFLocation *_initialLocation;
-    GEOVLFInitializationFailureDetails *_initializationFailureDetails;
-    NSMutableArray *_localizationDetails;
-    GEOVLFCorrection *_postFusionCorrection;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _finalState;
-    unsigned int _sessionTimeMs;
-    unsigned int _timeRoundedToHour;
-    struct {
-        unsigned int has_initialPositionContextClassification:1;
-        unsigned int has_finalState:1;
-        unsigned int has_sessionTimeMs:1;
-        unsigned int has_timeRoundedToHour:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_arFailureTypes:1;
-        unsigned int read_arStates:1;
-        unsigned int read_deviceOrientations:1;
-        unsigned int read_entryPoint:1;
-        unsigned int read_initialLocation:1;
-        unsigned int read_initializationFailureDetails:1;
-        unsigned int read_localizationDetails:1;
-        unsigned int read_postFusionCorrection:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)gdom;
++ (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)SubmittedRAP:(id)arg1;
++ (_Bool)setHasSubmittedRAP:(id)arg1;
 - (void);
 - (void);
 - (void);
+- (void)η;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,7 +31,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct GEOVLFPositionContextClassification);
 - (_Bool);
@@ -76,20 +44,20 @@
 - (id);
 - (int);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (unsigned long long)^v40;
+- (id):8d16Q24@32@40 /* Error: Ran out of types for this method. */;
+- (id)"NSXPCConnection"24;
+- (void)setClasses:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)resumedConnectionForServiceName:remoteObjectInterfaceProtocol: /* Error: Ran out of types for this method. */;
+- (void)removeObjectsInRange: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithTime:block: /* Error: Ran out of types for this method. */;
+- (id)initWithTask:timeProvider:os_log: /* Error: Ran out of types for this method. */;
+- (id)initWithTTL:renewalOptions:timeProvider: /* Error: Ran out of types for this method. */;
+- (void)decodeObjectOfClass:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)configureChildAccount:(id)arg1 withSettingsFromDelegateInfo:parent: /* Error: Ran out of types for this method. */;
+- (void)chineseRelatedGregorianYearMonthDayFormatter;
+- (id)CNFutureCompletionBlocks;
+- (_Bool)HE;
 - (int);
 - (void);
 - (void);
@@ -100,18 +68,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ownload meta data;
+- (void)Ω;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_֛u;
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id)rorForTileKey:(struct _NSZone *)arg1;
+- (id)shouldReportAnalyticsOnErrorForTileKey:(struct _NSZone *)arg1;
 - (id)",R,N,V_enrichmentEntities;
 - (id)eferenced by the database;
 - (void)P¼;
@@ -119,28 +87,7 @@
 - (void)P~þó~4¥3;
 
 // Remaining properties
-@property(retain, nonatomic) GEOVLFARFailureTypes *arFailureTypes;
-@property(retain, nonatomic) NSMutableArray *arStates;
-@property(retain, nonatomic) NSMutableArray *deviceOrientations;
-@property(retain, nonatomic) GEOVLFEntryPoint *entryPoint;
-@property(nonatomic) int finalState;
-@property(readonly, nonatomic) _Bool hasArFailureTypes;
 @property(readonly, nonatomic) _Bool hasEntryPoint;
-@property(nonatomic) _Bool hasFinalState;
-@property(readonly, nonatomic) _Bool hasInitialLocation;
-@property(nonatomic) _Bool hasInitialPositionContextClassification;
-@property(readonly, nonatomic) _Bool hasInitializationFailureDetails;
-@property(readonly, nonatomic) _Bool hasPostFusionCorrection;
-@property(nonatomic) _Bool hasSessionTimeMs;
-@property(nonatomic) _Bool hasTimeRoundedToHour;
-@property(retain, nonatomic) GEOVLFLocation *initialLocation;
-@property(nonatomic) struct GEOVLFPositionContextClassification initialPositionContextClassification;
-@property(retain, nonatomic) GEOVLFInitializationFailureDetails *initializationFailureDetails;
-@property(retain, nonatomic) NSMutableArray *localizationDetails;
-@property(retain, nonatomic) GEOVLFCorrection *postFusionCorrection;
-@property(nonatomic) unsigned int sessionTimeMs;
-@property(nonatomic) unsigned int timeRoundedToHour;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

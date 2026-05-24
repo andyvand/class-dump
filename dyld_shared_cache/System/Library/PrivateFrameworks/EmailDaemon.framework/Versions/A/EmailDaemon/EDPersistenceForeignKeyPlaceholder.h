@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLColumnSchema, NSString;
+@class EFSQLColumnSchema;
 
 @interface EDPersistenceForeignKeyPlaceholder
 {
     EFSQLColumnSchema *_column;
-    NSString *_tableName;
-    unsigned long long _deleteAction;
-    unsigned long long _updateAction;
 }
 
 - (_Bool);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EFSQLColumnSchema *column; // @synthesize column=_column;
-@property(readonly, nonatomic) unsigned long long deleteAction; // @synthesize deleteAction=_deleteAction;
-@property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
-@property(readonly, nonatomic) unsigned long long updateAction; // @synthesize updateAction=_updateAction;
 
 @end
 

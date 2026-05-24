@@ -5,13 +5,14 @@
 //
 
 @protocol LPAudioPlayer
+- (unsigned long long)!;
 - (void)ü!`Bùq
 °1Â0@ù
 × ;
+- (void)c;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) float progress;
-@property(readonly, nonatomic) unsigned long long state;
 @end
 

@@ -4,69 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NTPBTodayWidgetSession
 {
     CDStruct_95bda58d _countOfArticlesExposedPerSections;
-    NSMutableArray *_countOfArticlesExposedEachSections;
-    int _widgetArticleCount;
-    NSMutableArray *_widgetSectionIdsExposeds;
-    int _widgetSectionsExposed;
-    struct {
-        unsigned int widgetArticleCount:1;
-        unsigned int widgetSectionsExposed:1;
-    } _has;
 }
 
-+ (Class);
-+ (Class);
++ (Class)assetIsInPhotosSuggestedPreviewState;
++ (Class)_presentationSource;
+- (int)initWithTitle:subtitle:actionButtonTitle:cancelButtonTitle:actionButtonHandler:cancelButtonHandler:primaryActionIdentifier:cancelActionIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithTitle:queryToken: /* Error: Ran out of types for this method. */;
+- (id)initWithTitle:parentCollectionList:selectedAssets:keyAsset: /* Error: Ran out of types for this method. */;
+- (void)initWithRecipeType:(int)arg1 incomingTransition:innerTransition:motion: /* Error: Ran out of types for this method. */;
+- (void)initWithReason:(id)arg1 powerAssertionID: /* Error: Ran out of types for this method. */;
+- (void)initWithCinematicController:(_Bool)arg1;
+- (void)focusOnGroupIdentifier:(int *)arg1 atTime:(unsigned long long)arg2 strong: /* Error: Ran out of types for this method. */;
+- (void)focusOnGeotaggablesFromPipeline:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (_Bool)excludeContextMenuItemsWithIdentifiers: /* Error: Ran out of types for this method. */;
+- (unsigned long long)curatedLibraryActionPerformer:libraryFilterStateChanged: /* Error: Ran out of types for this method. */;
+- (int *)curatedLibraryActionPerformer:contentFilterStateChanged: /* Error: Ran out of types for this method. */;
+- (int)curatedFetchResult;
+- (unsigned long long)curatedAssetsLimit;
+- (id)curatedAssetsInSection: /* Error: Ran out of types for this method. */;
+- (id)curatedAssetIdentifiers;
+- (void)estionVersion: /* Error: Ran out of types for this method. */;
+- (void)createPopoverImageForGeotaggable:withImage:imageType:imageOptions:usingTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)createPointReferenceAtPoint: /* Error: Ran out of types for this method. */;
+- (void)copyIfNeededWithUpdatedConsiderNewAfterDate:(id)arg1;
+- (void)contextMenuForInvitations:(int)arg1 presentationEnvironment: /* Error: Ran out of types for this method. */;
+- (void)contextMenuCompactTopRowPriorityForActionType:(id)arg1;
+- (id)contentSyndicationSettings;
+- (void)animating;
+- (void);
 - (int);
-- (unsigned long long);
-- (id);
+- (id)9;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (int *);
-- (int);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)superclass;
+- (_Bool)allNonSystemReceipts;
+- (void)l;
+- (_Bool)configuration %{public}@;
+- (_Bool)configuration from configuration %{public}@;
 - (id);
 - (id);
 - (void)eType"b1};
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *countOfArticlesExposedEachSections; // @synthesize countOfArticlesExposedEachSections=_countOfArticlesExposedEachSections;
-@property(readonly, nonatomic) int *countOfArticlesExposedPerSections;
-@property(readonly, nonatomic) unsigned long long countOfArticlesExposedPerSectionsCount;
 @property(nonatomic) _Bool hasWidgetArticleCount;
-@property(nonatomic) _Bool hasWidgetSectionsExposed;
-@property(nonatomic) int widgetArticleCount; // @synthesize widgetArticleCount=_widgetArticleCount;
-@property(retain, nonatomic) NSMutableArray *widgetSectionIdsExposeds; // @synthesize widgetSectionIdsExposeds=_widgetSectionIdsExposeds;
-@property(nonatomic) int widgetSectionsExposed; // @synthesize widgetSectionsExposed=_widgetSectionsExposed;
 
 @end
 

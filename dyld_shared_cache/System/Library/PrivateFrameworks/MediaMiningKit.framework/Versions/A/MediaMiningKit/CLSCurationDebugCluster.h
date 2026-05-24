@@ -6,13 +6,11 @@
 
 #import <MediaMiningKit/CLSCurationDebugObject.h>
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface CLSCurationDebugCluster : CLSCurationDebugObject
 {
     NSSet *_debugClusters;
-    NSSet *_unclusteredDebugItems;
-    NSString *_reason;
 }
 
 - (id);
@@ -28,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *reason; // @synthesize reason=_reason;
 @property(retain, nonatomic) NSSet *unclusteredDebugItems; // @synthesize unclusteredDebugItems=_unclusteredDebugItems;
 
 @end

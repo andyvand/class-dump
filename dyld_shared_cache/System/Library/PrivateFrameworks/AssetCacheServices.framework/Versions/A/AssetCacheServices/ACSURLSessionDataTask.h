@@ -11,7 +11,7 @@
     CDUnknownBlockType __clientDataCompletionHandler;
 }
 
-- (void);
+- (void)initWithObjects:(CDUnknownBlockType)arg1 count: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);

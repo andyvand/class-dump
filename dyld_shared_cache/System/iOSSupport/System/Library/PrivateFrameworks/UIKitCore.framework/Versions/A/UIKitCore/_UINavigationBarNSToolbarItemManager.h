@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _UINavigationBarNSToolbarItemManager
 {
     NSMutableDictionary *_inflightItems;
-    NSDictionary *_toolbarItemsToSourceMap;
-    NSMutableDictionary *_toolbarItemsToChildBarButtonItemsMap;
 }
 
 - (void);
+- (void);
+- (id)(;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)dateLastMessageSentFromAppWithBundleID:recipientHandle: /* Error: Ran out of types for this method. */;
+- (id)e;
 - (void)Name:%@, term:%@, definition:%@ /* Error: Ran out of types for this method. */;
-- (void)MetricsTemporaryProviding;
+- (void)CoreListMetricsTemporaryProviding;
 
 // Remaining properties
 @property(readonly) NSMutableDictionary *toolbarItemsToChildBarButtonItemsMap; // @synthesize toolbarItemsToChildBarButtonItemsMap=_toolbarItemsToChildBarButtonItemsMap;

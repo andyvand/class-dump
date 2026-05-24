@@ -9,7 +9,6 @@
 @interface PKPassAuxiliaryRegistrationSignatureRequirement : PKPassAuxiliaryRegistrationRequirement
 {
     unsigned long long _type;
-    unsigned long long _signatureSchemeVersion;
 }
 
 + (_Bool)X"°!è@ùî%1Â0@ù
@@ -21,15 +20,14 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setHasBandScanCount24:(id)arg1;
+- (void)tcpi_wifi_rxbytes;
 - (id);
-- (id)ngth:(id)arg1;
-- (id)damID;
+- (id)appendBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (id)_adamID;
 - (unsigned long long)is nil;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long signatureSchemeVersion; // @synthesize signatureSchemeVersion=_signatureSchemeVersion;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

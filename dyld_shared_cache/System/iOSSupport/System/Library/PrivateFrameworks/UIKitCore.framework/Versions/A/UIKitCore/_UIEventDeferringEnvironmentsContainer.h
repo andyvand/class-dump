@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIEventDeferringEnvironmentsContainer
@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)setShouldUnderlineText:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)g",C,N,V_label;
 - (id);
 - (unsigned long long);
 - (id);
@@ -27,22 +27,15 @@ __attribute__((visibility("hidden")))
 - (id)Ð!P@ùqe°1Â0@ù
 × ;
 - (id);
-- (_Bool)ReceiveGlowAnimationState:(id)arg1 forStyle: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 granularity:completionHandler: /* Error: Ran out of types for this method. */;
-- (id);
+- (_Bool)statusBarServer:(id)arg1 didReceiveGlowAnimationState:forStyle: /* Error: Ran out of types for this method. */;
+- (void)selectPositionAtPoint:(id)arg1 granularity:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_clientGesturesRequiringTableGesturesToFail;
 - (id)yboardLayersToHost:(struct _NSZone *)arg1;
-- (id)Value2BlueColor;
+- (id)tableCellValue2BlueColor;
 - (void)ñWüV\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSSet *environments;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

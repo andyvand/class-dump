@@ -17,12 +17,6 @@ struct BufferSize {
     unsigned long long height;
 };
 
-struct BufferSizeFormat {
-    unsigned long long width;
-    unsigned long long height;
-    unsigned int format;
-};
-
 struct CCBoundary;
 
 struct CC_MD5state_st {
@@ -72,8 +66,8 @@ struct ConnectedComponentResult {
     struct unique_ptr<unsigned long[], std::default_delete<unsigned long[]>> _field1;
     struct vector<unsigned long, std::allocator<unsigned long>> _field2;
     struct vector<apple::vision::fgbg::ConnectedComponentResult::CCBoundary, std::allocator<apple::vision::fgbg::ConnectedComponentResult::CCBoundary>> _field3;
-    vector_9651d273 _field4;
-    vector_179dff5a _field5;
+    vector_52a4e7e1 _field4;
+    vector_ffe05210 _field5;
     unsigned long long _field6;
     unsigned long long _field7;
     int _field8;
@@ -117,24 +111,7 @@ struct FastRegistration_Signatures {
     char *_memoryContainer;
 };
 
-struct ForestAlgoParams {
-    float FAFrameRate;
-    int parabolaLength;
-    int minXDistanceFromLastPointOnParabola;
-    int maxXDistanceFromLastPointOnParabola;
-    int minYDistanceFromLastPointOnParabola;
-    int maxYDistanceFromLastPointOnParabola;
-    int maxFramesSkippedToContinueParabolaDetection;
-    int minObjectSize;
-};
-
-struct GazeFollowPredictor;
-
 struct ImageAnalyzer;
-
-struct ImageAnalyzer_CustomClassifier;
-
-struct ImageAnalyzer_PCA;
 
 struct ImageClassfier_Graph;
 
@@ -153,28 +130,6 @@ struct ImageDescriptorProcessorAbstract {
 };
 
 struct ImageDescriptorProcessorHyperplaneLSH;
-
-struct InternalParameters {
-    int minRegionSizeX;
-    int minRegionSizeY;
-    float initialYDiffLimit;
-    float startingMinDiffDeviation;
-    float maxDistanceForSolution;
-    int frameWidth;
-    int frameHeight;
-    float xScaleFactor;
-    float yScaleFactor;
-    int runningMinDiffDeviation;
-    float maxFrameSkipScaleFactor;
-    float majorAxisScaler;
-    float minorAxisScalar;
-    float contourSizeUpperBound;
-    float contourSizeLowerBound;
-    float maxRadiusToCompensate;
-    float maxRadiusBasedDeviation;
-    float xConsistencyDeviation;
-    float rejectionScaler;
-};
 
 struct LKTCPU;
 
@@ -211,13 +166,6 @@ struct Options {
     id _field4;
 };
 
-struct ParabolaSearchBuffer {
-    int maxFramesSkippedForDetection;
-    int minRegionSizeX;
-    int minRegionSizeY;
-    struct deque<std::vector<CGPointWithPts>, std::allocator<std::vector<CGPointWithPts>>> contourPointsQ;
-};
-
 struct PetprintGenerator;
 
 struct Projections_meanStdTable {
@@ -234,18 +182,18 @@ struct ThresholdSet_t {
 struct TorsoprintGenerator;
 
 struct _Geometry2D_point2D_ {
-    float x;
-    float y;
+    float _field1;
+    float _field2;
 };
 
 struct _Geometry2D_rect2D_ {
-    struct _Geometry2D_point2D_ origin;
-    struct _Geometry2D_size2D_ size;
+    struct _Geometry2D_point2D_ _field1;
+    struct _Geometry2D_size2D_ _field2;
 };
 
 struct _Geometry2D_size2D_ {
-    float height;
-    float width;
+    float _field1;
+    float _field2;
 };
 
 struct _LandmarkDetector_faceMeshParts_ {
@@ -421,35 +369,6 @@ struct basic_string_view<char, std::char_traits<char>> {
     unsigned long long _field2;
 };
 
-struct deque<std::vector<CGPointWithPts>, std::allocator<std::vector<CGPointWithPts>>> {
-    struct __split_buffer<std::vector<CGPointWithPts>*, std::allocator<std::vector<CGPointWithPts>*>> {
-        void **__first_;
-        void **__begin_;
-        void **__end_;
-        struct {
-            void **__cap_;
-        } ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
-struct map<int, InternalObservedParabola, std::less<int>, std::allocator<std::pair<const int, InternalObservedParabola>>> {
-    struct __tree<std::__value_type<int, InternalObservedParabola>, std::__map_value_compare<int, std::pair<const int, InternalObservedParabola>, std::less<int>>, std::allocator<std::pair<const int, InternalObservedParabola>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<int, ObservedParabola, std::less<int>, std::allocator<std::pair<const int, ObservedParabola>>> {
-    struct __tree<std::__value_type<int, ObservedParabola>, std::__map_value_compare<int, std::pair<const int, ObservedParabola>, std::less<int>>, std::allocator<std::pair<const int, ObservedParabola>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct mapped_model_file {
     CDUnknownFunctionPointerType *_field1;
     unsigned long long _field2;
@@ -469,24 +388,9 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct shared_ptr<apple::vision::libraries::autotrace::EPolygonList> {
-    struct EPolygonList *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<const std::vector<std::tuple<std::string, float, bool>>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<const vision::mod::FaceClustering> {
-    struct FaceClustering *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<std::vector<std::shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier>>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct FaceClustering *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<vision::mod::CamGazePredictor> {
@@ -539,24 +443,14 @@ struct shared_ptr<vision::mod::FaceprintAndAttributes> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<vision::mod::GazeFollowPredictor> {
-    struct GazeFollowPredictor *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<vision::mod::ImageAnalyzer> {
     struct ImageAnalyzer *__ptr_;
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier> {
-    struct ImageAnalyzer_CustomClassifier *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<vision::mod::ImageClassifierAbstract> {
-    struct ImageClassifierAbstract *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct ImageClassifierAbstract *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<vision::mod::ImageClassifier_HierarchicalModel> {
@@ -624,10 +518,6 @@ struct tuple<std::unordered_map<NSString *, __CVBuffer *>, std::unordered_map<NS
     } _field1;
 };
 
-struct unique_ptr<SessionsHandler<VNVTPixelRotationSession>, std::default_delete<SessionsHandler<VNVTPixelRotationSession>>> {
-    CDStruct_cffa721c ;
-};
-
 struct unique_ptr<SessionsHandler<VNVTPixelTransferSession>, std::default_delete<SessionsHandler<VNVTPixelTransferSession>>> {
     CDStruct_cffa721c ;
 };
@@ -653,15 +543,6 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
     } _field1;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, apple::vision::BufferSize>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, apple::vision::BufferSize>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, apple::vision::BufferSize>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, espresso_buffer_t>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, espresso_buffer_t>, void *>*>*>>> {
     struct {
         void **__ptr_;
@@ -671,23 +552,8 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<unsigned long[], std::default_delete<unsigned long[]>> {
-    CDStruct_56b55661 _field1;
-};
-
-struct unique_ptr<vision::mod::ImageAnalyzer_PCA, std::default_delete<vision::mod::ImageAnalyzer_PCA>> {
-    struct {
-        struct ImageAnalyzer_PCA *__ptr_;
-    } ;
+    CDStruct_f26bb81f _field1;
 };
 
 struct unique_ptr<vision::mod::ImageDescriptorProcessorHyperplaneLSH, std::default_delete<vision::mod::ImageDescriptorProcessorHyperplaneLSH>> {
@@ -709,19 +575,6 @@ struct unordered_map<NSString *, __CVBuffer *, std::hash<NSString *>, std::equal
     } _field1;
 };
 
-struct unordered_map<NSString *, apple::vision::BufferSize, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, apple::vision::BufferSize>>> {
-    struct __hash_table<std::__hash_value_type<NSString *, apple::vision::BufferSize>, std::__unordered_map_hasher<NSString *, std::pair<NSString *const, apple::vision::BufferSize>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::pair<NSString *const, apple::vision::BufferSize>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::pair<NSString *const, apple::vision::BufferSize>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, apple::vision::BufferSize>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, apple::vision::BufferSize>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, apple::vision::BufferSize>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_map<NSString *, espresso_buffer_t, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, espresso_buffer_t>>> {
     struct __hash_table<std::__hash_value_type<NSString *, espresso_buffer_t>, std::__unordered_map_hasher<NSString *, std::pair<NSString *const, espresso_buffer_t>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::pair<NSString *const, espresso_buffer_t>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::pair<NSString *const, espresso_buffer_t>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, espresso_buffer_t>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, espresso_buffer_t>, void *>*>*>>> __bucket_list_;
@@ -735,32 +588,19 @@ struct unordered_map<NSString *, espresso_buffer_t, std::hash<NSString *>, std::
     } __table_;
 };
 
-struct unordered_map<apple::vision::BufferSizeFormat, __CVPixelBufferPool *, std::hash<BufferSizeFormat>, std::equal_to<apple::vision::BufferSizeFormat>, std::allocator<std::pair<const apple::vision::BufferSizeFormat, __CVPixelBufferPool *>>> {
-    struct __hash_table<std::__hash_value_type<apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, std::__unordered_map_hasher<apple::vision::BufferSizeFormat, std::pair<const apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, std::hash<BufferSizeFormat>, std::equal_to<apple::vision::BufferSizeFormat>>, std::__unordered_map_equal<apple::vision::BufferSizeFormat, std::pair<const apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, std::equal_to<apple::vision::BufferSizeFormat>, std::hash<BufferSizeFormat>>, std::allocator<std::pair<const apple::vision::BufferSizeFormat, __CVPixelBufferPool *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<apple::vision::BufferSizeFormat, __CVPixelBufferPool *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct vImage_Buffer {
-    void *data;
-    unsigned long long height;
-    unsigned long long width;
-    unsigned long long rowBytes;
+    void *_field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
 };
 
 struct vector<CGPoint, std::allocator<CGPoint>> {
-    struct CGPoint *__begin_;
-    struct CGPoint *__end_;
+    struct CGPoint *_field1;
+    struct CGPoint *_field2;
     struct {
-        struct CGPoint *__cap_;
-    } ;
+        struct CGPoint *_field1;
+    } _field3;
 };
 
 struct vector<MPClusteringTreeNode *, std::allocator<MPClusteringTreeNode *>> {
@@ -771,14 +611,6 @@ struct vector<MPClusteringTreeNode *, std::allocator<MPClusteringTreeNode *>> {
     } _field3;
 };
 
-struct vector<_Geometry2D_point2D_, std::allocator<_Geometry2D_point2D_>> {
-    struct _Geometry2D_point2D_ *__begin_;
-    struct _Geometry2D_point2D_ *__end_;
-    struct {
-        struct _Geometry2D_point2D_ *__cap_;
-    } ;
-};
-
 struct vector<apple::vision::fgbg::ConnectedComponentResult::CCBoundary, std::allocator<apple::vision::fgbg::ConnectedComponentResult::CCBoundary>> {
     struct CCBoundary *_field1;
     struct CCBoundary *_field2;
@@ -787,58 +619,24 @@ struct vector<apple::vision::fgbg::ConnectedComponentResult::CCBoundary, std::al
     } _field3;
 };
 
-struct vector<float __attribute__((ext_vector_type(2))), std::allocator<float __attribute__((ext_vector_type(2)))>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
+    float *_field1;
+    float *_field2;
     struct {
-        float *__cap_;
-    } ;
-};
-
-struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::tuple<simd_float3x3, float>, std::allocator<std::tuple<simd_float3x3, float>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+        float *_field1;
+    } _field3;
 };
 
 struct vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>> {
     void *_field1;
     void *_field2;
-    struct {
-        void *_field1;
-    } _field3;
-};
-
-struct vector<std::vector<unsigned int>, std::allocator<std::vector<unsigned int>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<unsigned int, std::allocator<unsigned int>> {
-    unsigned int *__begin_;
-    unsigned int *__end_;
-    struct {
-        unsigned int *__cap_;
-    } ;
+    CDStruct_cffa721c _field3;
 };
 
 struct vector<unsigned long, std::allocator<unsigned long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
-    CDStruct_56b55661 ;
+    unsigned long long *_field1;
+    unsigned long long *_field2;
+    CDStruct_f26bb81f _field3;
 };
 
 #pragma mark Typedef'd Structures
@@ -862,8 +660,8 @@ typedef struct {
 } CDStruct_95fa7c00;
 
 typedef struct {
-    unsigned long long *__cap_;
-} CDStruct_56b55661;
+    unsigned long long *_field1;
+} CDStruct_f26bb81f;
 
 typedef struct {
     void *data;
@@ -889,6 +687,10 @@ typedef struct {
 } CDStruct_2bc666a5;
 
 typedef struct {
+    void *__ptr_;
+} CDStruct_cffa721c;
+
+typedef struct {
     float _field1;
     float _field2;
 } CDStruct_b2fbf00d;
@@ -909,11 +711,11 @@ typedef struct {
 } CDStruct_1ef3fb1f;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
     unsigned long long _field1;
@@ -938,31 +740,17 @@ typedef struct {
 } CDStruct_47a8b21a;
 
 typedef struct {
-    CDStruct_1b6d18a9 _field1;
-    CDStruct_1b6d18a9 _field2;
-    CDStruct_1b6d18a9 _field3;
-} CDStruct_d2aef016;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+    CDStruct_198678f7 _field3;
+} CDStruct_d00fdffd;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+} CDStruct_3c1748cc;
 
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
-
-// Ambiguous groups
-typedef struct {
-    void *__cap_;
-} CDStruct_63fd5f43;
-
-typedef struct {
-    void *__ptr_;
-} CDStruct_cffa721c;
-
+// Template types
 typedef struct basic_string_view<char, std::char_traits<char>> {
     char *_field1;
     unsigned long long _field2;
@@ -977,9 +765,9 @@ typedef struct optional<std::tuple<std::unordered_map<NSString *, __CVBuffer *>,
 } optional_b40efd33;
 
 typedef struct shared_ptr<const vision::mod::FaceClustering> {
-    struct FaceClustering *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_8fc713d1;
+    struct FaceClustering *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_9018f492;
 
 typedef struct shared_ptr<vision::mod::FaceID3Model> {
     struct FaceID3Model *__ptr_;
@@ -992,9 +780,9 @@ typedef struct shared_ptr<vision::mod::FaceIDModel> {
 } shared_ptr_8c39738b;
 
 typedef struct shared_ptr<vision::mod::ImageClassifierAbstract> {
-    struct ImageClassifierAbstract *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_047f28ed;
+    struct ImageClassifierAbstract *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_76176f90;
 
 typedef struct shared_ptr<vision::mod::ImageClassifier_HierarchicalModel> {
     struct ImageClassifier_HierarchicalModel *__ptr_;
@@ -1025,12 +813,12 @@ typedef struct tuple<float, float, float> {
 } tuple_8dc74180;
 
 typedef struct vector<CGPoint, std::allocator<CGPoint>> {
-    struct CGPoint *__begin_;
-    struct CGPoint *__end_;
+    struct CGPoint *_field1;
+    struct CGPoint *_field2;
     struct {
-        struct CGPoint *__cap_;
-    } ;
-} vector_9651d273;
+        struct CGPoint *_field1;
+    } _field3;
+} vector_52a4e7e1;
 
 typedef struct vector<MPClusteringTreeNode *, std::allocator<MPClusteringTreeNode *>> {
     struct MPClusteringTreeNode **_field1;
@@ -1041,18 +829,16 @@ typedef struct vector<MPClusteringTreeNode *, std::allocator<MPClusteringTreeNod
 } vector_6fb6d395;
 
 typedef struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
+    float *_field1;
+    float *_field2;
     struct {
-        float *__cap_;
-    } ;
-} vector_926a3350;
+        float *_field1;
+    } _field3;
+} vector_4858b34d;
 
 typedef struct vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>> {
     void *_field1;
     void *_field2;
-    struct {
-        void *_field1;
-    } _field3;
-} vector_179dff5a;
+    CDStruct_cffa721c _field3;
+} vector_ffe05210;
 

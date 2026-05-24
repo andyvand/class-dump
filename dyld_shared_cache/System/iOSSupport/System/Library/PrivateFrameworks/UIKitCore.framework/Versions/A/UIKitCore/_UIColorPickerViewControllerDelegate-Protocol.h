@@ -5,5 +5,10 @@
 //
 
 @protocol _UIColorPickerViewControllerDelegate
+
+@optional
+- (void);
+- (void)P;
+- (void)-;
 @end
 

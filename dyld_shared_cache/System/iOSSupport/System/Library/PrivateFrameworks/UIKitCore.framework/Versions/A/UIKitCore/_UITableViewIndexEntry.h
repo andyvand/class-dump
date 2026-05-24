@@ -10,31 +10,23 @@ __attribute__((visibility("hidden")))
 @interface _UITableViewIndexEntry
 {
     UIImage *_image;
-    id _line;
-    struct CGPoint _baselinePoint;
-    struct CGRect _bounds;
-    struct CGRect _typeBounds;
 }
 
 - (struct CGRect);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)4;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)z;
+- (id)_removePlaylistEntries: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGRect);
-- (void)w;
-- (void)text_p;
+- (void)_wantsSeparatorForCustomHeaderView;
+- (void)So44UIViewControllerTransitionCoordinatorContext_p;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint baselinePoint; // @synthesize baselinePoint=_baselinePoint;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) id line; // @synthesize line=_line;
-@property(nonatomic) struct CGRect typeBounds; // @synthesize typeBounds=_typeBounds;
 
 @end
 

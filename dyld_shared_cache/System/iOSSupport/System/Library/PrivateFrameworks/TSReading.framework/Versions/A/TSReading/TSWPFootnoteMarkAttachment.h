@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (_Bool);
-- (id);
+- (id)StorePlaybackItemsRequest;
+- (_Bool)file asset is invalid;
+- (id);
 - (int);
 
 @end

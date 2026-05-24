@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageBilinearScale, MPSImageGaussianBlur, MTLTextureDescriptor, NSDictionary;
-@protocol MTLCommandQueue, MTLDevice;
+@protocol MTLDevice;
 
 @interface VCPSpillmapMetalSession
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    MPSImageBilinearScale *_bilinearScale;
-    struct CF<__CVPixelBufferPool *> _spillBufferPoolUnprotected;
-    struct CF<__CVPixelBufferPool *> _spillBufferPoolScreenScrapingProtected;
-    struct CF<__CVPixelBufferPool *> _spillBufferPoolHDCPType0;
-    struct CF<__CVPixelBufferPool *> _spillBufferPoolHDCPType1;
-    struct CF<__CFDictionary *> _spillmapBufferProperties;
-    struct CF<__CVMetalTextureCache *> _textureCacheBGRA;
-    struct CF<__CVMetalTextureCache *> _textureCacheSpillmap;
-    NSDictionary *_readAttributes;
-    NSDictionary *_readWriteAttributes;
-    MTLTextureDescriptor *_intermediateImageDescriptor;
-    MPSImageGaussianBlur *_gaussianBlur;
 }
 
-- (id);
+- (id)J(;
 - (int);
 - (int);
-- (int);
+- (int);
 - (int);
 - (id);
 - (id);

@@ -8,7 +8,6 @@
 {
     id _measurements;
     id _dynamicTypeSize;
-    id _cache;
 }
 
 @end

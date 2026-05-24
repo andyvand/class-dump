@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSOutputStream, NSString;
+@class NSMutableData, NSOutputStream;
 
 @interface ICPeerOutputStream
 {
     NSOutputStream *_outputStream;
-    NSMutableData *_data;
 }
 
-- (void);
-- (void);
+- (void)g record;
+- (void)name from container;
 - (void);
 - (id);
 - (id);
@@ -24,14 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly) Class superclass;
 
 @end
 

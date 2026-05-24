@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDContainer, CKDIdentityCache, NSObject;
+@class CKDIdentityCache, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDPublicIdentityLookupService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CKDContainer *_container;
-    CKDIdentityCache *_cache;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ymous;
+- (void)_isAnonymous;
 - (id)lock;
 - (id)d;
 - (void)0;
 
 // Remaining properties
 @property(retain, nonatomic) CKDIdentityCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) __weak CKDContainer *container; // @synthesize container=_container;
 
 @end
 

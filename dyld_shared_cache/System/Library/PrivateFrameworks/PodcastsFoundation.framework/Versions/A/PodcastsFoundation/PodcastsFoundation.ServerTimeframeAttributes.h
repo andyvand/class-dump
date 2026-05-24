@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.ServerTimeframeAttributes
 {
     id startInMilliseconds;
-    id endInMilliseconds;
-    id offerTypes;
 }
 
 @end

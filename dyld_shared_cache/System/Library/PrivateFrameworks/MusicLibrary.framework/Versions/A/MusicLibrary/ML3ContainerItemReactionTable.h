@@ -13,7 +13,7 @@
     NSArray *_columns;
 }
 
-- (id);
+- (id)P;
 - (void)ist_pid NOT IN (SELECT album_artist_pid FROM album)) AND album_artist.liked_state IN (?, ?));
 - (id)OIN item_store USING (item_pid) WHERE base_location_id >= 3840 AND is_protected = 0 AND key_id != 0);
 

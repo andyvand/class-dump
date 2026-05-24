@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString;
+@class NSString;
 
 @interface ICDocCamDocumentInfoCollection
 {
     NSString *_title;
-    NSDate *_creationDate;
-    NSDate *_modificationDate;
-    NSString *_uniqueIdentifier;
-    NSMutableArray *_docInfos;
 }
 
 + (id);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)ibrary/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/Others/VideoTransmitterUtils.c:(id)arg1 %d:Invalid size iGobs = %d, iHeads = %d, buffer size = %u, dataLen = %d /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
@@ -37,11 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSMutableArray *docInfos; // @synthesize docInfos=_docInfos;
-@property(retain, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

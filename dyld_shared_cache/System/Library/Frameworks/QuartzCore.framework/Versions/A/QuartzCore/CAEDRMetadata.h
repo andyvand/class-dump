@@ -27,7 +27,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)13CVImageBuffer;
 - (id);
 
 @end

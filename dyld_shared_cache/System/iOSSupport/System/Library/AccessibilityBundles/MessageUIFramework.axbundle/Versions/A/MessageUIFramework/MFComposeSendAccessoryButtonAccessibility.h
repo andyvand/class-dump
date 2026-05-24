@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class);
++ (id)_UIDatePickerLinkedLabelAccessibility;
++ (void)ableViewCell;
 - (id);
 
 @end

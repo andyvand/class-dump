@@ -9,8 +9,8 @@
 - (void);
 - (long long);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)fileURLWithPath:(id)arg1;
+- (unsigned long long)fileURLWithFileSystemRepresentation:(id)arg1 isDirectory:(id)arg2 relativeToURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);

@@ -5,13 +5,16 @@
 //
 
 @protocol CKAdaptivePresentedControllerProtocol
+- (void)nge=QQ}32@?48;
+- (void)startEditingAfterLoad;
+- (_Bool)ic_rangeForAttachment:withTextAttachment: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)@40@0:(_Bool)arg1 8@16d24q32;
+- (_Bool)inkWithIdentifier:color:weight: /* Error: Ran out of types for this method. */;
+- (_Bool)\=;
 
 // Remaining properties
-@property(nonatomic) _Bool preserveModalPresentationStyle;
-@property(nonatomic) _Bool shouldHidePresentingWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(nonatomic) _Bool wantsWindowedPresentation;
 @end
 

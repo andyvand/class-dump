@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)sportsLogoAltImageLargeURL;
 - (void),_ýÿ_ýÿ;
 
 @end

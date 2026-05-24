@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PGGraph, PGGraphMomentNodeCollection, PGTitleGenerationContext;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PGPublicEventFeatureSummarySource
 {
     NSObject<OS_os_log> *_loggingConnection;
-    PGTitleGenerationContext *_titleGenerationContext;
-    PGGraph *_graph;
-    PGGraphMomentNodeCollection *_momentNodesWithRelevantPublicEvent;
 }
 
 - (id);
-- (id);
+- (id)setCurrentLineContent:(id)arg1;
 - (void)osGraph/Framework/Graph/Data Model Enrichment/PGRevGeocodeProcessor.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

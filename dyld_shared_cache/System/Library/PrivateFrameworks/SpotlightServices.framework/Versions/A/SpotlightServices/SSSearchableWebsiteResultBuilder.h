@@ -6,54 +6,42 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSString, NSURL, SFImage;
+@class NSURL;
 
 @interface SSSearchableWebsiteResultBuilder : SSResultBuilder
 {
     _Bool _primaryCommandExecutesSearch;
-    NSURL *_url;
-    NSString *_entityIdentifier;
-    NSString *_websiteName;
-    NSString *_bundleIdentifier;
-    NSString *_searchString;
-    SFImage *_thumbnail;
 }
 
 + (id);
-+ (id);
++ (id)alignTextAndMediaHorizontalEdges;
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)systemRedColor;
+- (id)subsampleImagesToScreenSize;
+- (id)subarrayWithRange: /* Error: Ran out of types for this method. */;
+- (id)stringFromPostalAddress:style: /* Error: Ran out of types for this method. */;
+- (id)sourceApplicationSecondaryIdentifierForRequiringPrivacyProxyFailingClosed;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)th:(id)arg1 error:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void)	;
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)dense_features: /* Error: Ran out of types for this method. */;
+- (void)initWithId_features:dense_features: /* Error: Ran out of types for this method. */;
 - (void)t.parsec;
-- (id)uenciesWeighted_Max_Prefix;
+- (id)parsec_url_TermFrequenciesWeighted_Max_Prefix;
 
 // Remaining properties
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSString *entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
-@property _Bool primaryCommandExecutesSearch; // @synthesize primaryCommandExecutesSearch=_primaryCommandExecutesSearch;
-@property(retain) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain) SFImage *thumbnail; // @synthesize thumbnail=_thumbnail;
 @property(retain) NSURL *url; // @synthesize url=_url;
-@property(retain) NSString *websiteName; // @synthesize websiteName=_websiteName;
 
 @end
 

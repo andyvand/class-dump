@@ -7,13 +7,6 @@
 @interface NewsUI2.WebEmbedContainerViewController
 {
     id styler;
-    id layoutAttributesFactory;
-    id eventHandler;
-    id webEmbedViewController;
-    id resource;
-    id embedLocation;
-    id webEmbedDataSourceService;
-    id feedConfigurationFactory;
 }
 
 - (void);

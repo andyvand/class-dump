@@ -7,9 +7,6 @@
 @interface IMCore.ImportExport.MessageAttachmentDownloadIterator
 {
     id downloadableAttachmentBatch;
-    id attachmentQueue;
-    id messages;
-    id processedMessages;
 }
 
 @end

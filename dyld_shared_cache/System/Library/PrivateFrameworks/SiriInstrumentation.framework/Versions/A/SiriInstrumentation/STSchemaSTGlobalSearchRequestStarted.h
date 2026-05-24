@@ -6,33 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTGlobalSearchRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)LatencyTierIdx=%u latencyMs=%u promotionWindowSecs=%d minSessionDurationSec=%u maxGlitchesPerWindowToPromote=%f minGlitchesPerWindowToDemote=%f minGlitchesPerWindowToWorst=%f
+;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setUpdateBuyParams: /* Error: Ran out of types for this method. */;
+- (_Bool)PHXTableView;
+- (_Bool)ributedBody.;
 - (id);
 - (id);
-- (id)bleSharedUserId;
-- (id)questId;
-- (_Bool)OMEKITACCESSORYTYPE_CARBON_DIOXIDE_SENSOR;
+- (id)deleteLoggableSharedUserId;
+- (id)_hasRequestId;
+- (_Bool)HOMEKITACCESSORYTYPE_CARBON_DIOXIDE_SENSOR;
 - (_Bool)IGNAL;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

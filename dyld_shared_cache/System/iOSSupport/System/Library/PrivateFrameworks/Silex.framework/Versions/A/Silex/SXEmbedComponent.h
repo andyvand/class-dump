@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *embedType; // @dynamic embedType;
-@property(readonly, nonatomic) NSString *resourceIdentifier; // @dynamic resourceIdentifier;
 
 @end
 

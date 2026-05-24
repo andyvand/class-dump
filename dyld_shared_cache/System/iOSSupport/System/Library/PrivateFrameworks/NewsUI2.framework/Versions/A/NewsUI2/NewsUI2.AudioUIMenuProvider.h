@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioUIMenuProvider
 {
     id headlineConverter;
-    id listeningProgressManager;
-    id commandCenter;
 }
 
 @end

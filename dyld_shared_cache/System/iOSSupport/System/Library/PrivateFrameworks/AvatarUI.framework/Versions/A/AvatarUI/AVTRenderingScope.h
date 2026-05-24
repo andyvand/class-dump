@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarPose, NSString;
+@class NSString;
 
 @interface AVTRenderingScope
 {
     float _sizeModifier;
-    NSString *_framingMode;
-    long long _renderingType;
-    double _scale;
-    unsigned long long _options;
-    AVTAvatarPose *_pose;
-    struct CGSize _size;
 }
 
 + (double);
@@ -34,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -48,22 +42,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`!
+;
 - (double);
-- (struct CGSize);
-- (unsigned long long);
-- (_Bool);
+- (struct CGSize)?e;
+- (unsigned long long)d;
+- (_Bool)= %lu { %s };
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *framingMode; // @synthesize framingMode=_framingMode;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) AVTAvatarPose *pose; // @synthesize pose=_pose;
-@property(readonly, nonatomic) long long renderingType; // @synthesize renderingType=_renderingType;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) float sizeModifier; // @synthesize sizeModifier=_sizeModifier;
 
 @end
 

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptionPosition;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptionRegionInternal
 {
     struct OpaqueFigCaptionRegion *figCaptionRegion;
-    AVCaptionPosition *position;
-    AVCaptionPosition *endPosition;
-    _Bool _overridePositionShouldBeNil;
 }
 
 @end

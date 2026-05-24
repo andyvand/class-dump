@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreLogChangesExistFetchOperation : HMDBackingStoreOperation
 {
     CDUnknownBlockType _fetchBlock;
-    long long _maskValue;
-    long long _compareValue;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
-- (CDUnknownBlockType);
+- (long long)?;
+- (CDUnknownBlockType)ay (%@ != %@);
 - (void);
-- (long long);
+- (long long)JA;
 - (void)$Õ;
 
 // Remaining properties
-@property(nonatomic) long long compareValue; // @synthesize compareValue=_compareValue;
 @property(copy, nonatomic) CDUnknownBlockType fetchBlock; // @synthesize fetchBlock=_fetchBlock;
-@property(nonatomic) long long maskValue; // @synthesize maskValue=_maskValue;
 
 @end
 

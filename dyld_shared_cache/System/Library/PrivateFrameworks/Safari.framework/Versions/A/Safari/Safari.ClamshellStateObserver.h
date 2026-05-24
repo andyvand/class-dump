@@ -7,11 +7,6 @@
 @interface Safari.ClamshellStateObserver
 {
     id rootDomain;
-    id notificationPort;
-    id serviceConnection;
-    id kAppleClamshellStateKey;
-    id clamshellStateChangeCallback;
-    id previousIsClamshellClosed;
 }
 
 - (id);

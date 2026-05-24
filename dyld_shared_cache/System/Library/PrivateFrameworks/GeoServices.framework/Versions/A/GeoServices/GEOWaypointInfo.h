@@ -4,44 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOARInfo, GEOAddress, GEOEVChargingInfo, GEOFormattedString, GEOLatLng, GEOPBTransitArtwork, GEOStyleAttributes, GEOWaypointUUID, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOWaypointInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOARInfo *_arInfo;
-    GEOPBTransitArtwork *_artwork;
-    GEOEVChargingInfo *_evChargingInfo;
-    GEOAddress *_localizedAddress;
-    unsigned long long _muid;
-    NSString *_name;
-    GEOLatLng *_position;
-    GEOStyleAttributes *_styleAttributes;
-    GEOWaypointUUID *_uniqueWaypointId;
-    GEOFormattedString *_waypointCaption;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _source;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_source:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_arInfo:1;
-        unsigned int read_artwork:1;
-        unsigned int read_evChargingInfo:1;
-        unsigned int read_localizedAddress:1;
-        unsigned int read_name:1;
-        unsigned int read_position:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int read_uniqueWaypointId:1;
-        unsigned int read_waypointCaption:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ldRouteIncidents:(id)arg1;
++ (_Bool)setOldRouteIncidents:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -54,8 +24,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)dict;
+- (id)ifiers:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -67,19 +37,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)setRcServerFeaturesLatency:(id)arg1;
+- (id)AVVC;
+- (id)ntBehaviorMonitor notifyWillStopStream:reason:forAccessory:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)q;
+- (void)UK;
 - (_Bool);
 - (id);
-- (void);
+- (void)_mapkit_resolvedFlatPhotoList;
 - (id);
-- (_Bool);
+- (_Bool)�(;
 - (_Bool);
 - (void);
 - (id);
@@ -88,10 +58,10 @@
 - (id)!Cùñ¹*Ð1Â0@ù
 × ;
 - (int)esourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@24@32Q40@?48@?56;
-- (id)nitWithWaypoints:routeAttributes:directionsResponse:directionsRequest: /* Error: Ran out of types for this method. */;
+- (id)initWithWaypoints:routeAttributes:directionsResponse:directionsRequest: /* Error: Ran out of types for this method. */;
 - (id)condaryInstructions;
-- (id)SULT_TYPE_UNKNOWN;
-- (void)_search_result_section;
+- (id)RESULT_TYPE_UNKNOWN;
+- (void)support_search_result_section;
 - (void)K failed:(id)arg1 output->message_prototype != NULL: /* Error: Ran out of types for this method. */;
 - (void)¸;
 - (_Bool);
@@ -142,29 +112,7 @@ deprecated (:false
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) GEOARInfo *arInfo;
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(retain, nonatomic) GEOEVChargingInfo *evChargingInfo;
-@property(readonly, nonatomic) _Bool hasArInfo;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasEvChargingInfo;
-@property(readonly, nonatomic) _Bool hasLocalizedAddress;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasPosition;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(readonly, nonatomic) _Bool hasUniqueWaypointId;
-@property(readonly, nonatomic) _Bool hasWaypointCaption;
-@property(retain, nonatomic) GEOAddress *localizedAddress;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) GEOLatLng *position;
-@property(nonatomic) int source;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(retain, nonatomic) GEOWaypointUUID *uniqueWaypointId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOFormattedString *waypointCaption;
 
 @end
 

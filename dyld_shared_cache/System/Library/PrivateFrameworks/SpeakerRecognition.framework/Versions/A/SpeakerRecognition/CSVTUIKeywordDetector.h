@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioCircularBuffer, SSRTriggerPhraseDetectorNDAPI;
+@class SSRTriggerPhraseDetectorNDAPI;
 
 @interface CSVTUIKeywordDetector
 {
     SSRTriggerPhraseDetectorNDAPI *_keywordAnalyzer;
-    float _lastKeywordScore;
-    float _keywordThreshold;
-    CSAudioCircularBuffer *_audioBuffer;
-    unsigned long long _extraSamplesAtStart;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)EventHandlerForActiveObjectINS1_13OdometerEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void);
 - (id)gerSampleFedCount %lu samplesFed:(id)arg1 %lu;
 

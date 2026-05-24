@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContext, NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MRShader
 {
     NSString *mShaderID;
-    NSString *mShaderKey;
-    NSDictionary *mDescription;
-    MRContext *mContext;
-    unsigned int mProgram;
-    unsigned int mVertexShader;
-    unsigned int mFragmentShader;
-    MRContext *mUseContext;
-    float mModelViewProjectionMatrix[16];
-    float mNormal[3];
-    float mTextureMatrix[4][16];
-    float mForeColor[4];
-    int mModelViewProjectionMatrixLocation;
-    int mNormalLocation;
-    int mTextureMatrixLocation[4];
-    int mForeColorLocation;
-    NSMutableDictionary *mUniformLocations;
-    NSMutableDictionary *mUniforms;
-    NSMutableDictionary *mAttributeLocations;
-    _Bool mTextureUnitsAreBound;
 }
 
 - (id);
@@ -35,33 +16,29 @@
 - (id);
 - (id);
 - (void);
+- (void)P;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)ageIO.framework/Versions/A/ImageIO;
+- (id)NDAnalyticsPayloadUploader;
+- (_Bool)xPayloadSize:] /* Error: Ran out of types for this method. */;
+- (_Bool)embler initWithConfigProvider:maxPayloadSize:] /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
-- (int);
+- (int)16;
 - (void);
 - (void);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int program; // @synthesize program=mProgram;
 @property(readonly) NSString *shaderID; // @synthesize shaderID=mShaderID;
-@property(readonly) NSString *shaderKey; // @synthesize shaderKey=mShaderKey;
-@property _Bool textureUnitsAreBound; // @synthesize textureUnitsAreBound=mTextureUnitsAreBound;
-@property(retain) MRContext *useContext;
 
 @end
 

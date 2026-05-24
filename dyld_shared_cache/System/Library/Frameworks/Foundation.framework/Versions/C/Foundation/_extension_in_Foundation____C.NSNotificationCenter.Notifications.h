@@ -7,7 +7,6 @@
 @interface (extension in Foundation):__C.NSNotificationCenter.Notifications
 {
     id center;
-    id lock;
 }
 
 @end

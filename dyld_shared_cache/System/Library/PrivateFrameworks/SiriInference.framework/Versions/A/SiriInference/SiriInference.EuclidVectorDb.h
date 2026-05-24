@@ -7,7 +7,6 @@
 @interface SiriInference.EuclidVectorDb
 {
     id client;
-    id decoder;
 }
 
 @end

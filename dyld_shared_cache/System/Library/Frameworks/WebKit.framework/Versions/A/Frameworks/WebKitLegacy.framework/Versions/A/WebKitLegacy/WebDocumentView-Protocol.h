@@ -5,5 +5,6 @@
 //
 
 @protocol WebDocumentView
+- (void)@t;
 @end
 

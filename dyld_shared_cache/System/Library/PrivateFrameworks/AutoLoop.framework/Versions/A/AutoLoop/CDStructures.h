@@ -11,27 +11,27 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct MetadataFloatVector {
@@ -40,8 +40,8 @@ struct MetadataFloatVector {
 };
 
 struct VTDecompressionOutputCallbackRecord {
-    CDUnknownFunctionPointerType decompressionOutputCallback;
-    void *decompressionOutputRefCon;
+    CDUnknownFunctionPointerType _field1;
+    void *_field2;
 };
 
 struct vector<CMTime, std::allocator<CMTime>> {
@@ -51,9 +51,9 @@ struct vector<CMTime, std::allocator<CMTime>> {
 };
 
 struct vector<FloatPoint, std::allocator<FloatPoint>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
+    CDStruct_183601bc *_field1;
+    CDStruct_183601bc *_field2;
+    CDStruct_669ce3ce _field3;
 };
 
 struct vector<SP_FrameInfo, std::allocator<SP_FrameInfo>> {
@@ -65,27 +65,27 @@ struct vector<SP_FrameInfo, std::allocator<SP_FrameInfo>> {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct CDStruct_183601bc;
 
 typedef struct {
     float _field1[9];
-    CDStruct_1b6d18a9 _field2;
-} CDStruct_d7aed2b2;
+    CDStruct_198678f7 _field2;
+} CDStruct_9630f756;
 
 typedef struct {
     CDStruct_183601bc *__cap_;
 } CDStruct_669ce3ce;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+} CDStruct_3c1748cc;
 
 // Template types
 typedef struct vector<CMTime, std::allocator<CMTime>> {
@@ -95,8 +95,8 @@ typedef struct vector<CMTime, std::allocator<CMTime>> {
 } vector_aad29ef0;
 
 typedef struct vector<FloatPoint, std::allocator<FloatPoint>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-} vector_54189413;
+    CDStruct_183601bc *_field1;
+    CDStruct_183601bc *_field2;
+    CDStruct_669ce3ce _field3;
+} vector_42d71437;
 

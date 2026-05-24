@@ -9,9 +9,6 @@
 @interface WADeviceAnalytics_EdgeBSSParameters
 {
     _Bool _isEdge;
-    short _autoLeaveRssi;
-    short _manualLeaveCount;
-    NSString *_bssid;
 }
 
 - (void);
@@ -21,16 +18,13 @@
 - (_Bool);
 - (id);
 - (short);
-- (id);
+- (id)rror while request to fetch Auto Categorization minimum supported version {error:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) short autoLeaveRssi; // @synthesize autoLeaveRssi=_autoLeaveRssi;
 @property(retain, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(nonatomic) _Bool isEdge; // @synthesize isEdge=_isEdge;
-@property(nonatomic) short manualLeaveCount; // @synthesize manualLeaveCount=_manualLeaveCount;
 
 @end
 

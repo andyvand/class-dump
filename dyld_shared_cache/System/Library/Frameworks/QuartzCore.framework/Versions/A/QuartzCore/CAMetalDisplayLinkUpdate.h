@@ -9,20 +9,16 @@
 @interface CAMetalDisplayLinkUpdate
 {
     id <CAMetalDrawable> _drawable;
-    double _targetTimestamp;
-    double _targetPresentationTimestamp;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)1;
 - (double);
-- (double)E;
+- (double)CA_PRINT_UNCOMPRESSED_IOSURFACE;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CAMetalDrawable> drawable; // @synthesize drawable=_drawable;
-@property(readonly, nonatomic) double targetPresentationTimestamp; // @synthesize targetPresentationTimestamp=_targetPresentationTimestamp;
-@property(readonly, nonatomic) double targetTimestamp; // @synthesize targetTimestamp=_targetTimestamp;
 
 @end
 

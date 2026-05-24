@@ -9,8 +9,8 @@
     _Bool _isCancelled;
 }
 
-- (void);
-- (_Bool);
+- (void)AAErrorDetailsActionButtonURL;
+- (_Bool)!;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;

@@ -7,7 +7,7 @@
 @interface UnknownClass (CRCharacterSet)
 + (id);
 + (id);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 + (id);

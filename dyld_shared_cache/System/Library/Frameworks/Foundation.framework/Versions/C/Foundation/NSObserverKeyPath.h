@@ -6,25 +6,17 @@
 
 #import <Foundation/NSBoundKeyPath.h>
 
-@class NSString;
-
 @interface NSObserverKeyPath : NSBoundKeyPath
 {
 }
 
+- (void)45;
 - (void);
-- (void);
-- (id);
+- (id)v40@0:8{?=qq}16q32 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

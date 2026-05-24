@@ -6,25 +6,12 @@
 
 #import <UIKitCore/UIPresentationController.h>
 
-@class NSMapTable, NSString, UISearchController, UIView, _UIPassthroughScrollInteraction, _UISearchPresentationAssistant;
-@protocol _UISearchControllerPresenting;
+@class UISearchController, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchPresentationController : UIPresentationController
 {
     UISearchController *_searchController;
-    _UISearchPresentationAssistant *_assistant;
-    UIView *_placeholderView;
-    NSMapTable *_excisedSearchBarConstraitMap;
-    NSMapTable *_placeholderConstraitMap;
-    struct CGRect _finalFrameForContainerView;
-    _UIPassthroughScrollInteraction *_passthroughInteraction;
-    struct {
-        unsigned int searchBarWasTableHeaderView:1;
-        unsigned int excisedSearchBarDuringPresentation:1;
-        unsigned int searchBarWantedAutolayoutBeforeExcision:1;
-        unsigned int searchHostedInNavigationBar:1;
-    } _controllerFlags;
 }
 
 + (_Bool);
@@ -37,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (long long)¬ÿÿÿQ;
 - (id){þÿ;
 - (void)Òîÿ*ØïÿxÙïÿ;
-- (void)ntrollerColumn;
-- (_Bool)aryFocusRingInset;
+- (void)secondaryEdgeSplitViewControllerColumn;
+- (_Bool)RotaryFocusRingInset;
 - (_Bool);
 - (_Bool)ContentUnavailableConstants_IOS - use UIContentUnavailableConstants_Phone or UIContentUnavailableConstants_Pad instead;
 - (_Bool)Item;
@@ -46,35 +33,35 @@ __attribute__((visibility("hidden")))
 - (double)merSession * _Nonnull __strong);
 - (struct CGRect)ple.UIKit.UIScenePersistenceQueue;
 - (void)/CFd3ow;
-- (_Bool)uatedObject;
+- (_Bool)topEvaluatedObject;
 - (void)pticEventParameterID getCHHapticEventParameterIDAudioPitch(void);
-- (_Bool);
+- (_Bool)UISelected;
 - (void)pshot.sectionIdentifiers.count;
 - (double):(id)arg1 %@;
 - (void)acking;
 - (id)TransitionContext"16;
 - (void)m.apple.;
 - (void)=dddd}24@?0d8d16;
-- (_Bool)putSession;
+- (_Bool)TextInputSession;
 - (void)und effects on a dependent visual effect view is not supported;
-- (void)aseInOut;
+- (void)EaseInOut;
 - (void)solveAuxillaryResultsForFramePreferredSize(_UICollectionPreferredSize *const __strong, _UICollectionLayoutItemSolver *const __strong);
 - (_Bool)Progress Change Tracking Spring;
 - (void)ButtonBar.swift;
-- (_Bool)DRHeadroomUsageLimit;
+- (_Bool)UITraitHDRHeadroomUsageLimit;
 - (id)pþÿ;
 - (void)Åþÿ;
 - (void)entationControllerAppearanceCSgG;
 - (struct CGRect)SSK¾7G;
 - (void)8E8356A5AC0B1FLLC8DelegateP;
-- (void)C;
-- (id)UIWindowSceneProminentPlacementC;
+- (void)So16_UIBarBackgroundC;
+- (id)So31UIWindowSceneProminentPlacementC;
 - (void)xSgz_yt_lXX;
 - (void)Õ13gm;
-- (id)DidChangeMessage;
-- (_Bool)odifier;
+- (id)CurrentInputModeDidChangeMessage;
+- (_Bool)SearchToolbarTransactionModifier;
 - (_Bool)\¡þ;
-- (void)nfigurableSharedTexture;
+- (void)_UIConfigurableSharedTexture;
 - (_Bool);
 - (_Bool);
 - (void)Ù®43d tþ¹®43L!tþ¹®43H!tþ¹®43D!tþ;
@@ -92,27 +79,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController;
-@property(readonly, nonatomic) _Bool animatorShouldLayoutPresentationViews;
 @property(readonly, nonatomic) UIView *backgroundObscuringView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long edgeForHidingNavigationBar;
-@property(readonly, nonatomic) struct CGRect finalFrameForContainerView; // @synthesize finalFrameForContainerView=_finalFrameForContainerView;
-@property(readonly, nonatomic) _Bool forceObeyNavigationBarInsets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double resultsControllerContentOffset;
-@property(readonly, nonatomic) _Bool resultsUnderlapsSearchBar;
-@property(readonly, nonatomic) _Bool searchBarCanContainScopeBar;
-@property(readonly, retain, nonatomic) UIView *searchBarContainerView;
-@property(readonly, nonatomic) _Bool searchBarShouldClipToBounds;
-@property(readonly, nonatomic) _Bool searchBarToBecomeTopAttached;
-@property(readonly, nonatomic) _Bool shouldAccountForStatusBar;
-@property(readonly, nonatomic) double statusBarAdjustment;
-@property(readonly) Class superclass;
 
 @end
 

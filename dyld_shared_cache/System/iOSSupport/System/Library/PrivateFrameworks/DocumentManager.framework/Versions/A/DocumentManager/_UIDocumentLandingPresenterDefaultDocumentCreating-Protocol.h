@@ -5,5 +5,6 @@
 //
 
 @protocol _UIDocumentLandingPresenterDefaultDocumentCreating
+- (void);
 @end
 

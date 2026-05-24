@@ -6,13 +6,17 @@
 
 @interface DESBinary64Transport
 {
-    CDStruct_82f37d05 _datas;
+    struct {
+        double *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _datas;
 }
 
-- (unsigned long long);
-- (void);
-- (void);
-- (double *);
+- (unsigned long long)n.typeIdentifier.custom.bundleId;
+- (void)eturnType.typeIdentifier.custom.bundleId;
+- (void)mmary.toolId;
+- (double *);
 - (void);
 - (id);
 - (void);
@@ -21,13 +25,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)a;
 - (void);
 - (id);
-- (id);
+- (id)ORDER BY;
 
 // Remaining properties
-@property(readonly, nonatomic) double *datas;
 @property(readonly, nonatomic) unsigned long long datasCount;
 
 @end

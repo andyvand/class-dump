@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBagFrozenDataSource, AMSProcessInfo, NSDate, NSDictionary, NSString;
+@class AMSBagFrozenDataSource, NSDate;
 
 @interface AMSSnapshotBag
 {
     NSDate *_creationDate;
-    AMSBagFrozenDataSource *_dataSource;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)MRActiveRoutesObserverOutputDeviceRemovedSnapshot;
 - (void);
 - (void);
 - (id);
@@ -38,30 +37,12 @@
 - (id);
 - (_Bool)
 × ;
-- (id)thentication;
-- (_Bool)tingsProviderTaskCSgXw;
+- (id)_isDelegateAuthentication;
+- (_Bool)So31AMSSuggestedRatingsProviderTaskCSgXw;
 - (void)¢ZSã÷ððÞîWá¢ÅÔryÁÉ§¯L5lPÍ[¯sX$Õ\àÓkÅ¹x£¥ø¤%Kn÷Ioó÷ZnÇñ¿\Ñ£nµìhÐ¢òá¾Ã;~%l¤Ìmf¯¶u£¡(ï×@vÝE:O<ÉþðLìRQ-»JãÄÞ%CÃÇf:Ù4+	ýA­Z¡HnP ©)ö¶ûH'ðe1òìÜûl7 $yHbºrÏ÷ºU¸GU¶óª$ìfj.þ]æGÙxN?/Þ1À2ÙÓ\ý /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(retain) AMSBagFrozenDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionary;
-@property(readonly) NSDate *expirationDate;
-@property(readonly, getter=isExpired) _Bool expired;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AMSProcessInfo *optionalProcessInfo;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
-@property(readonly) Class superclass;
 
 @end
 

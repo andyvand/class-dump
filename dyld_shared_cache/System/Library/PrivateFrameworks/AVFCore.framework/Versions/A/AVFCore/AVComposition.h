@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVAsset.h>
 
-@class AVCompositionInternal, NSArray, NSDictionary;
+@class AVCompositionInternal, NSArray;
 
 @interface AVComposition : AVAsset
 {
@@ -22,15 +22,15 @@
 - (struct OpaqueFigMutableComposition *);
 - (void);
 - (id);
-- (int);
+- (int)�;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (Class);
+- (Class);
 - (struct OpaqueFigAsset *);
 - (id);
 - (id);
@@ -40,13 +40,11 @@
 - (void);
 - (id);
 - (struct OpaqueFigFormatReader *);
-- (id);
+- (id)makeLookupableSpatialVideoConfigurations:(id)arg1;
 - (struct CGSize);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *URLAssetInitializationOptions;
-@property(readonly, nonatomic) struct CGSize naturalSize;
 @property(readonly, nonatomic) NSArray *tracks;
 
 @end

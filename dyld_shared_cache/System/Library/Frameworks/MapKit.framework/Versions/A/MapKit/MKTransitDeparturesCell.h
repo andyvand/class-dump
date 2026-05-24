@@ -6,88 +6,43 @@
 
 #import <MapKit/MKCustomSeparatorCell.h>
 
-@class MKImageView, MKThemeMultiPartLabel, NSArray, NSButton, NSDate, NSLayoutConstraint, NSMapTable, NSMutableDictionary, NSStackView, NSString, NSTimeZone, _MKUILabel;
-@protocol MKTransitDeparturesCellDelegate;
-
 @interface MKTransitDeparturesCell : MKCustomSeparatorCell
 {
     unsigned long long _cellStyle;
-    NSMutableDictionary *_constraintsByCellStyle;
-    NSArray *_currentCellStyleConstraints;
-    MKImageView *_lineImageView;
-    MKImageView *_incidentIconImageView;
-    _MKUILabel *_primaryLabel;
-    MKThemeMultiPartLabel *_secondaryLabel;
-    MKThemeMultiPartLabel *_tertiaryLabel;
-    NSButton *_incidentButton;
-    _MKUILabel *_departureLabel;
-    _MKUILabel *_departureDetailLabel;
-    NSStackView *_departureStackView;
-    NSStackView *_secondaryTextStackView;
-    NSLayoutConstraint *_labelLeadingMarginConstraint;
-    _Bool _enforceMinimumDepartureLabelWidth;
-    NSLayoutConstraint *_minimumDepartureLabelWidthConstraint;
-    NSMapTable *_departureDependentConstraintsByView;
-    double _lineImageCenteringValue;
-    NSLayoutConstraint *_lineImageToContainerTrailingConstraint;
-    NSLayoutConstraint *_lineImageViewTopConstraint;
-    NSLayoutConstraint *_lineImageViewToBottomConstraint;
-    NSLayoutConstraint *_primaryToTopConstraint;
-    NSLayoutConstraint *_departureStackViewToBottomConstraint;
-    NSLayoutConstraint *_departureStackViewTopToPrimaryTopConstraint;
-    NSLayoutConstraint *_lineImageViewCenteringConstraint;
-    NSLayoutConstraint *_lineImageViewCenteringVerticalPaddingConstraint;
-    NSLayoutConstraint *_incidentIconHorizontalConstraint;
-    NSLayoutConstraint *_lineImageViewHeightConstraint;
-    _Bool _showNoConnectionEmDash;
-    _Bool _showIncidentIcon;
-    _Bool _inactive;
-    _Bool _useMultilineDeparturesLabel;
-    double _lineImageViewSize;
-    NSArray *_departures;
-    unsigned long long _departureStyle;
-    NSDate *_countdownReferenceDate;
-    NSTimeZone *_departureTimeZone;
-    NSString *_incidentTitle;
-    id <MKTransitDeparturesCellDelegate> _delegate;
-    NSString *_operatingHours;
-    NSString *_frequency;
-    double _labelMargin;
-    NSDate *_departureCutoffDate;
 }
 
 + (id);
 + (double);
 + (id);
 + (id);
++ (id)x;
++ (id)domain %@;
++ (id);
 + (id);
++ (_Bool)L;
++ (double)C;
++ (void);
++ (id)C;
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (void);
++ (id);
++ (void);
 + (double);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (void);
-+ (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool),V_workQueue;
+- (void)ogEnergyDiff - QuickEnergyDiff = %f;
+- (void)stamp=%@, powerlogEnergyDiff=%f, powerlogEnergyDiff - QuickEnergyDiff = %f;
+- (void)kEnergyBetweenPowerlogReports=%f = cpuEnergyDiff=%f + networkEnergydiff=%f, from timestamp=%@ to timestamp=%@, powerlogEnergyDiff=%f, powerlogEnergyDiff - QuickEnergyDiff = %f;
+- (void)or identifier=%@;
+- (void)fe/UpgradeLogs/MajorVersion;
+- (void)chives/;
+- (void)t_EventBackward_Battery;;
+- (void)m;
+- (void)AUTOBRIGHTNESS_INFO_TEXT;
+- (void)insightsAndSuggestionsSummaryKey;
+- (void)insightsAndSuggestionsSummaryKey;
+- (void)hasNoteworthyInformation;
+- (void)__dummyKey;
+- (void)ot (%@:%f) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (double);
@@ -101,11 +56,11 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void)$;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -115,7 +70,7 @@
 - (id);
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (id);
@@ -129,9 +84,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)forEachClassicPeer: /* Error: Ran out of types for this method. */;
+- (id)essage:] /* Error: Ran out of types for this method. */;
+- (id)eceivedMessage:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -146,25 +101,11 @@
 - (void);
 - (void)¡ñ&!ÜGùÑ*°1Â0@ù
 × ;
-- (void);
+- (void)removeItemAtPath:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *countdownReferenceDate; // @synthesize countdownReferenceDate=_countdownReferenceDate;
-@property(nonatomic) __weak id <MKTransitDeparturesCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDate *departureCutoffDate; // @synthesize departureCutoffDate=_departureCutoffDate;
-@property(nonatomic) unsigned long long departureStyle; // @synthesize departureStyle=_departureStyle;
-@property(retain, nonatomic) NSTimeZone *departureTimeZone; // @synthesize departureTimeZone=_departureTimeZone;
-@property(retain, nonatomic) NSArray *departures; // @synthesize departures=_departures;
-@property(retain, nonatomic) NSString *frequency; // @synthesize frequency=_frequency;
-@property(nonatomic, getter=isInactive) _Bool inactive; // @synthesize inactive=_inactive;
-@property(copy, nonatomic) NSString *incidentTitle; // @synthesize incidentTitle=_incidentTitle;
-@property(readonly, nonatomic) double labelMargin; // @synthesize labelMargin=_labelMargin;
 @property(nonatomic) double lineImageViewSize; // @synthesize lineImageViewSize=_lineImageViewSize;
-@property(retain, nonatomic) NSString *operatingHours; // @synthesize operatingHours=_operatingHours;
-@property(nonatomic, getter=isShowingIncidentIcon) _Bool showIncidentIcon; // @synthesize showIncidentIcon=_showIncidentIcon;
-@property(nonatomic, getter=isShowingNoConnectionEmDash) _Bool showNoConnectionEmDash; // @synthesize showNoConnectionEmDash=_showNoConnectionEmDash;
-@property(nonatomic) _Bool useMultilineDeparturesLabel; // @synthesize useMultilineDeparturesLabel=_useMultilineDeparturesLabel;
 
 @end
 

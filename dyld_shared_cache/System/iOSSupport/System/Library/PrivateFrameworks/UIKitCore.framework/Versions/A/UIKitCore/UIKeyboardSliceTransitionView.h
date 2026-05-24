@@ -6,62 +6,42 @@
 
 #import <UIKitCore/UIKeyboardSplitTransitionView.h>
 
-@class CALayer, NSMutableDictionary, UIKBCacheToken;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardSliceTransitionView : UIKeyboardSplitTransitionView
 {
     struct CGImage *_defaultKeyplaneImage;
-    struct CGImage *_splitKeyplaneImage;
-    CALayer *_leftKeys;
-    CALayer *_rightKeys;
-    CALayer *_spaceFill;
-    NSMutableDictionary *_controlKeys;
-    CALayer *_topEdgeHighlight;
-    UIKBCacheToken *_keyplaneToken;
-    long long _orientation;
-    struct {
-        unsigned int position:1;
-        unsigned int slices:1;
-        unsigned int backgroundAndShadows:1;
-        unsigned int backgroundGradients:1;
-        unsigned int topEdgeHighlight:1;
-        unsigned int shiftKeys:1;
-        unsigned int returnKeys:1;
-        unsigned int moreIntlKeys:1;
-    } _rebuildFlags;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGImage *);
+- (void)eRecoverCommand:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGImage *);
-- (struct CGImage *);
-- (id);
-- (_Bool);
+- (void)elay a display name change, but found no identifier in domain %@;
+- (void)ility edit to CT:%@ /* Error: Ran out of types for this method. */;
+- (void)SMS, sending backwards compatibility edit to CT:%@ /* Error: Ran out of types for this method. */;
+- (void)ationProxy;
+- (void)%@;
+- (void)rforming delayed replication for %@;
+- (void)ating message %@;
+- (void)cated message release;
+- (void)plicated message %@;
+- (void)nt with possible numbers %@;
+- (id)e as device condition does not allow sync;
+- (void)(count=%lu) with GUIDs registered:%@ for message:%@ /* Error: Ran out of types for this method. */;
+- (struct CGImage *)ith guid %@ to have shouldForceToSMS = NO;
+- (struct CGImage *)et collaborationHighlight:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (id)ause this is a 1-1 chat.;
+- (_Bool)NicknamePendingKey;
 - (double);
-- (double);
+- (double)UsageReport;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)CEMSystemTVRemoteDeclaration_Status;
 - (void)er;
-- (id)r;
+- (id)minuteFormatter;
 - (void);
 - (void);
 

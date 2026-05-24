@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADDashStop
 {
     float mDash;
-    float mSpace;
 }
 
 + (void);
@@ -16,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 
 @end

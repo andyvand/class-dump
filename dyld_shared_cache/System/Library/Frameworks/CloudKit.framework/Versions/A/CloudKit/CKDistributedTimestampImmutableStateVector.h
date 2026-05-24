@@ -15,7 +15,7 @@
 + (void)dd to this share;
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (unsigned char);
@@ -37,13 +37,13 @@
 - (id);
 - (unsigned char);
 - (id);
+- (void)2;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)h;
+- (unsigned long long)setOutputDirectoryURL: /* Error: Ran out of types for this method. */;
+- (id)> ;
 - (_Bool);
 - (void);
 - (id);

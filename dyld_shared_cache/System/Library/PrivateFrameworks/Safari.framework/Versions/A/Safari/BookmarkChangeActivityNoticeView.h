@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImageView, NSLayoutConstraint, NSStackView, NSString, NSTextField, WebBookmarkLeaf;
-@protocol ActivityNoticeViewDelegate;
+@class NSStackView, NSString;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkChangeActivityNoticeView
 {
     NSStackView *_containerStackView;
-    NSLayoutConstraint *_containerLeadingConstraint;
-    NSLayoutConstraint *_containerTrailingConstraint;
-    NSTextField *_bookmarkFolderTitle;
-    id _touchIconRequestToken;
-    id <ActivityNoticeViewDelegate> _delegate;
-    unsigned long long _dismissalMode;
-    NSString *_folderTitle;
-    NSImageView *_bookmarkIcon;
-    NSArray *_suggestedFolders;
-    WebBookmarkLeaf *_addedBookmark;
 }
 
 - (id);
@@ -34,18 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)crypt cipher fields {error:%@, cipherfieldsMap:%@, tagToVerify:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)d/;
 
 // Remaining properties
-@property(retain, nonatomic) WebBookmarkLeaf *addedBookmark; // @synthesize addedBookmark=_addedBookmark;
-@property(retain, nonatomic) NSImageView *bookmarkIcon; // @synthesize bookmarkIcon=_bookmarkIcon;
-@property(nonatomic) __weak id <ActivityNoticeViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long dismissalMode; // @synthesize dismissalMode=_dismissalMode;
 @property(copy, nonatomic) NSString *folderTitle; // @synthesize folderTitle=_folderTitle;
-@property(retain, nonatomic) NSArray *suggestedFolders; // @synthesize suggestedFolders=_suggestedFolders;
 
 @end
 

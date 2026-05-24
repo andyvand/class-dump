@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOVLFLocation
 {
     PBUnknownFields *_unknownFields;
-    struct GEOECEFCoordinate _ecefLocation;
-    double _heading;
-    double _horizontalAccuracy;
-    GEOLatLng *_location;
-    double _verticalAccuracy;
-    int _type;
-    _Bool _isFused;
-    struct {
-        unsigned int has_ecefLocation:1;
-        unsigned int has_heading:1;
-        unsigned int has_horizontalAccuracy:1;
-        unsigned int has_verticalAccuracy:1;
-        unsigned int has_type:1;
-        unsigned int has_isFused:1;
-    } _flags;
 }
 
-+ (_Bool)tNumberOfTabsOpen:(id)arg1;
++ (_Bool)setNumberOfTabsOpen:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -34,12 +19,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct GEOECEFCoordinate);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (struct GEOECEFCoordinate)asePreparationRequest"16;
+- (_Bool)Aˠ;
+- (_Bool);
+- (void)boundingBoxesFromFloat32ImageBuffer:(double)arg1 thresholds:relativeToMaximum:applySmoothing:originalImageSize:sigmaX:sigmaY:nStd:error: /* Error: Ran out of types for this method. */;
+- (void)_vn_decode3x3MatrixFromDataRepresentation:(_Bool)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)_evaluateOriginalVNGenerateObjectnessBasedSaliencyImageRequest:configurations: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -47,12 +32,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setCheckerHSRejectBeforeActivationCount:(id)arg1;
+- (id)startMonitoringWithQueue:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (_Bool);
 - (void);
 - (void);
@@ -60,13 +45,13 @@
 - (id)
 × ;
 - (void)self;
-- (id)tingCategory: /* Error: Ran out of types for this method. */;
-- (int)r;
+- (id)initWithRatingCategory: /* Error: Ran out of types for this method. */;
+- (int)callHandlerIvar;
 - (id)GEORPResolution",&,N;
-- (double)ORouteHypothesisRequest;
-- (id)EOPOICategoryPark;
-- (void)NING;
-- (id)COVER_PHOTO;
+- (double)GEORouteHypothesisRequest;
+- (id)GEOPOICategoryPark;
+- (void)AUTOCOMPLETE_ORIGINATION_TYPE_ROUTE_PLANNING;
+- (id)GUIDE_SUMMARY_CELL_WITH_COVER_PHOTO;
 - (id)d¼;
 - (_Bool)À¬ÔàôðØô;
 - (void)¼a_a¤_a´_ì`Ä_Ô`Ô_¼`°`¸`´`t;
@@ -76,21 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct GEOECEFCoordinate ecefLocation;
-@property(nonatomic) _Bool hasEcefLocation;
-@property(nonatomic) _Bool hasHeading;
-@property(nonatomic) _Bool hasHorizontalAccuracy;
-@property(nonatomic) _Bool hasIsFused;
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasVerticalAccuracy;
-@property(nonatomic) double heading;
-@property(nonatomic) double horizontalAccuracy;
-@property(nonatomic) _Bool isFused;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) double verticalAccuracy;
 
 @end
 

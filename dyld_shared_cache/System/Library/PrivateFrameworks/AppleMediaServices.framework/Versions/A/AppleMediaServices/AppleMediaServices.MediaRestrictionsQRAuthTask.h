@@ -7,12 +7,6 @@
 @interface AppleMediaServices.MediaRestrictionsQRAuthTask
 {
     id bagValues;
-    id config;
-    id context;
-    id delegate;
-    id handler;
-    id session;
-    id urlSessionDelegate;
 }
 
 @end

@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface CLServiceVendor
 {
     NSMutableDictionary *_catalog;
-    NSDictionary *_serviceReplacementMap;
-    NSMutableSet *_unavailableServiceNames;
-    NSMutableSet *_timeCoercibleSilos;
-    int _missBehavior;
-    double _currentGlobalLatchedAbsoluteTimestamp;
-    NSMutableDictionary *_recordingFromTriggersByTo;
-    NSMutableDictionary *_recordingToTriggersByFrom;
 }
 
 + (void);
 + (id);
 + (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)B;
 - (void);
 - (id);
 - (_Bool);
+- (void)A;
+- (id);
+- (_Bool)x-software-update-session-id;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ope_Global, 0, &trueVar, sizeof( trueVar ) ) == 0 ;
 - (void);
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)referencesChanged;
 
 @end
 

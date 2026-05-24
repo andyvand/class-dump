@@ -6,30 +6,10 @@
 
 #import <ViceroyTrace/VCAggregator.h>
 
-@class VCReportingHistogram;
-
 __attribute__((visibility("hidden")))
 @interface VCAggregatorVideoStream : VCAggregator
 {
     unsigned long long _rxVideoBitrateSum;
-    unsigned long long _rxVideoBitrateCount;
-    unsigned int _totalConnectionTime;
-    double _totalVideoStallTime;
-    double _maxVideoStallTime;
-    unsigned long long _significantVideoStallCount;
-    double _minRxFrameRate;
-    double _averageRxFrameRateSum;
-    VCReportingHistogram *_poorConnection;
-    double _lastVideoDegradedTime;
-    double _videoDegradedStartTime;
-    _Bool _isVideoDegraded;
-    double _videoDegradedMaxLength;
-    double _videoDegradedTotalTime;
-    double _poorConnectionDuration;
-    unsigned int _poorConnectionCount;
-    unsigned long long _videoDegradedTotalCounter;
-    unsigned int _mediaStreamEndReason;
-    long long _rtcpTimeoutCount;
 }
 
 - (void);
@@ -38,15 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)`;
 - (id);
 
 @end

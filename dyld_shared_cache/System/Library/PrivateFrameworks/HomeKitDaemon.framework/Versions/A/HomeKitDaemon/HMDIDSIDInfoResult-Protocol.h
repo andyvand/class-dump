@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol HMDIDSIDInfoResult
+- (NSArray *)SPHistoryEntryRoute>">24@?<v@?@"<MSPHistoryEntryPlaceDisplay>">32@?<v@?@"<MSPHistoryEntryTransitLineItem>">40;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *hmdEndpoints;

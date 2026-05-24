@@ -9,19 +9,17 @@
 @interface _PSContact
 {
     _Bool _isChild;
-    CNContact *_cnContact;
 }
 
-- (void);
+- (void)_deliveryVehicle;
+- (id)_audioClientId;
 - (id);
-- (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CNContact *cnContact; // @synthesize cnContact=_cnContact;
-@property(nonatomic) _Bool isChild; // @synthesize isChild=_isChild;
 
 @end
 

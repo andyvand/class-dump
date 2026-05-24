@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)anCommitPresentation;
+- (id)_canCommitPresentation;
 
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAdaptativeLayoutView, AVTImageTransitioningContainerView, AVTRenderingScope, AVTViewSession, NSString, _AVTAvatarRecordImageProvider;
-@protocol AVTAvatarDisplayingControllerDelegate, AVTAvatarRecord, AVTPresenterDelegate, AVTTransition, AVTUILogger;
+@class AVTAdaptativeLayoutView;
+@protocol AVTAvatarDisplayingControllerDelegate;
 
 @interface AVTSingleAvatarController
 {
     id <AVTAvatarDisplayingControllerDelegate> delegate;
-    id <AVTPresenterDelegate> presenterDelegate;
-    AVTAdaptativeLayoutView *_view;
-    AVTImageTransitioningContainerView *_transitioningContainer;
-    id <AVTAvatarRecord> _displayedRecord;
-    AVTViewSession *_avtViewSession;
-    _AVTAvatarRecordImageProvider *_thumbnailRenderer;
-    AVTRenderingScope *_renderingScope;
-    id <AVTUILogger> _logger;
-    id <AVTTransition> _currentTransition;
 }
 
 - (void);
@@ -49,7 +40,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)+;
 - (id);
 - (void);
 - (void);
@@ -61,22 +52,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTViewSession *avtViewSession; // @synthesize avtViewSession=_avtViewSession;
-@property(retain, nonatomic) id <AVTTransition> currentTransition; // @synthesize currentTransition=_currentTransition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarDisplayingControllerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <AVTAvatarRecord> displayedRecord; // @synthesize displayedRecord=_displayedRecord;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(readonly, nonatomic) AVTRenderingScope *renderingScope; // @synthesize renderingScope=_renderingScope;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _AVTAvatarRecordImageProvider *thumbnailRenderer; // @synthesize thumbnailRenderer=_thumbnailRenderer;
-@property(retain, nonatomic) AVTImageTransitioningContainerView *transitioningContainer; // @synthesize transitioningContainer=_transitioningContainer;
 @property(retain, nonatomic) AVTAdaptativeLayoutView *view; // @synthesize view=_view;
 
 @end

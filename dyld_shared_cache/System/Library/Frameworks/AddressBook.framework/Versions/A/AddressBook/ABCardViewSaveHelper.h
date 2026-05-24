@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCommandExecutor, AKCardViewDataSource, CNContactStore, CNContainer;
-@protocol ABCardViewSaveHelperDelegate;
+@class CNContactStore;
 
 @interface ABCardViewSaveHelper
 {
     _Bool _isContactNewlyCreated;
-    _Bool _isSaving;
-    _Bool _hasSaved;
-    _Bool _ignoresGuardianRestrictions;
-    CNContactStore *_contactStore;
-    AKCardViewDataSource *_dataSource;
-    CNContainer *_parentContainer;
-    ABCommandExecutor *_commandExecutor;
-    id <ABCardViewSaveHelperDelegate> _delegate;
 }
 
 - (void);
@@ -31,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -46,18 +37,18 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)&;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -66,18 +57,10 @@
 - (void)0@ù
 × ;
 - (void)¿;
-- (id)dress;
+- (id)CNPostalAddress;
 
 // Remaining properties
-@property(retain, nonatomic) ABCommandExecutor *commandExecutor; // @synthesize commandExecutor=_commandExecutor;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) AKCardViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <ABCardViewSaveHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasSaved; // @synthesize hasSaved=_hasSaved;
-@property(nonatomic) _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions=_ignoresGuardianRestrictions;
-@property(nonatomic) _Bool isContactNewlyCreated; // @synthesize isContactNewlyCreated=_isContactNewlyCreated;
-@property(nonatomic) _Bool isSaving; // @synthesize isSaving=_isSaving;
-@property(retain, nonatomic) CNContainer *parentContainer; // @synthesize parentContainer=_parentContainer;
 
 @end
 

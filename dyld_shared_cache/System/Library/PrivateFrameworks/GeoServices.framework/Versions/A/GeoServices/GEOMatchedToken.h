@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class NSString, PBDataReader;
 
 @interface GEOMatchedToken
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _geoIds;
-    NSString *_matchedToken;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _geoType;
-    struct {
-        unsigned int has_geoType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_geoIds:1;
-        unsigned int read_matchedToken:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setHasTrafficType:(id)arg1;
@@ -37,15 +23,15 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (int);
+- (int)isHiddenURL: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_findRecordsWithName:(_Bool)arg1 type:attribute:expectedCount: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)file transfer;
+- (void)ecordingContext relinquishAudioSessionAssertionsWithContext:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -53,18 +39,13 @@
 - (id);
 - (void);
 - (id)14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
-- (id)entifier;
+- (id)hasLogoWithoutPaddingIdentifier;
 - (id)È¯°ð{;
 - (id)ter;
 - (void)xÿ¿;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *geoIds;
-@property(readonly, nonatomic) unsigned long long geoIdsCount;
-@property(nonatomic) int geoType;
-@property(nonatomic) _Bool hasGeoType;
 @property(retain, nonatomic) NSString *matchedToken;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

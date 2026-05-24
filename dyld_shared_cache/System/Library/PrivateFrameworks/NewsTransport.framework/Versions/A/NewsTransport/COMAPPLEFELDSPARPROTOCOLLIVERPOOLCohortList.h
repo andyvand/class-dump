@@ -11,7 +11,7 @@
     NSMutableArray *_cohorts;
 }
 
-+ (Class);
++ (Class)deleteControlPoint:type: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *cohorts; // @synthesize cohorts=_cohorts;

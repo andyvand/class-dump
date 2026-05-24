@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFEWSAccountTaskManager, MFEWSVisibleBodyFetchTask, NSString;
+@class MFEWSAccountTaskManager, MFEWSVisibleBodyFetchTask;
 
 @interface MFEWSBodyFetchContext
 {
     MFEWSVisibleBodyFetchTask *_bodyFetchTask;
-    MFEWSAccountTaskManager *_manager;
 }
 
 - (void);
@@ -19,19 +18,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)kD;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSVisibleBodyFetchTask *bodyFetchTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MFEWSAccountTaskManager *manager; // @synthesize manager=_manager;
-@property(readonly) Class superclass;
 
 @end
 

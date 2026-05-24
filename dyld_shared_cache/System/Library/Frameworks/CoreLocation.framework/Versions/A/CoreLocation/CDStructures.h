@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -13,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CLAssertionInternal {
@@ -37,14 +35,6 @@ struct CLConnectionClient;
 
 struct CLConnectionMessage;
 
-struct CLDistanceCalc {
-    double fM;
-    double fN;
-    double fRefLatRads;
-    double fRefLatDegs;
-    double fCosRefLat;
-};
-
 struct CLGNSSStateQueryAssertionResponseInternal;
 
 struct CLGnssDisablementAssertionInternal;
@@ -63,17 +53,6 @@ struct CLLocationCoordinate2D {
 struct CLMapRoad;
 
 struct CLRegulatoryConfigInternal;
-
-struct CLTripSegmentProcessor {
-    struct CLDistanceCalc fDistanceCalculator;
-    struct CLTripSegmentRecorder fRecorder;
-};
-
-struct CLTripSegmentRecorder {
-    _Bool fRecordingEnabled;
-    _Bool fFileNameShouldContainTime;
-    NSString *fRecordingDirectory;
-};
 
 struct _CLLocationManagerStateTrackerState {
     double distanceFilter;
@@ -151,12 +130,6 @@ struct shared_ptr<CLMapRoad> {
     struct __shared_weak_count *_field2;
 };
 
-struct unique_ptr<CLConnectionClient, std::default_delete<CLConnectionClient>> {
-    struct {
-        struct CLConnectionClient *__ptr_;
-    } ;
-};
-
 struct unique_ptr<CLGNSSStateQueryAssertionResponseInternal, std::default_delete<CLGNSSStateQueryAssertionResponseInternal>> {
     struct {
         struct CLGNSSStateQueryAssertionResponseInternal *__ptr_;
@@ -179,6 +152,21 @@ struct unique_ptr<CLRegulatoryConfigInternal, std::default_delete<CLRegulatoryCo
 
 typedef struct {
     unsigned long long _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+    unsigned char _field5;
+    unsigned char _field6;
+    unsigned char _field7;
+    unsigned char _field8;
+    unsigned char _field9;
+    unsigned char _field10;
+    unsigned char _field11;
+    unsigned char _field12;
+} CDStruct_789f8997;
+
+typedef struct {
+    unsigned long long _field1;
     double _field2;
     double _field3;
     double _field4;
@@ -186,16 +174,16 @@ typedef struct {
 } CDStruct_b7b5e951;
 
 typedef struct {
-    id columns[3];
-} CDStruct_1fe29af2;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
+    id _field1[4];
+} CDStruct_34f00414;
 
 typedef struct {
-    float v[6][6];
-} CDStruct_2972252c;
+    float _field1[6][6];
+} CDStruct_80ba4949;
 
 typedef struct {
     unsigned int _field1[8];
@@ -224,9 +212,9 @@ typedef struct {
 } CDStruct_b141a4d0;
 
 typedef struct {
-    double latitude;
-    double longitude;
-} CDStruct_2c43369c;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
     double _field1;
@@ -235,8 +223,8 @@ typedef struct {
 } CDStruct_dce2ee30;
 
 typedef struct {
-    double coordinate__horizontalAccuracy;
-} CDStruct_c3074bf1;
+    double _field1;
+} CDStruct_2418a849;
 
 typedef struct {
     float _field1;
@@ -245,29 +233,29 @@ typedef struct {
 } CDStruct_869f9c67;
 
 typedef struct {
-    int suitability;
-    CDStruct_2c43369c coordinate;
-    double horizontalAccuracy;
-    double altitude;
-    double verticalAccuracy;
-    double speed;
-    double speedAccuracy;
-    double course;
-    double courseAccuracy;
-    double timestamp;
-    int confidence;
-    double lifespan;
-    int type;
-    CDStruct_2c43369c rawCoordinate;
-    double rawCourse;
-    int floor;
-    unsigned int integrity;
-    int referenceFrame;
-    int rawReferenceFrame;
-    int signalEnvironmentType;
-    double ellipsoidalAltitude;
-    _Bool fromSimulationController;
-} CDStruct_c8010d5f;
+    int _field1;
+    CDStruct_c3b9c2ee _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    int _field11;
+    double _field12;
+    int _field13;
+    CDStruct_c3b9c2ee _field14;
+    double _field15;
+    int _field16;
+    unsigned int _field17;
+    int _field18;
+    int _field19;
+    int _field20;
+    double _field21;
+    _Bool _field22;
+} CDStruct_da0cd237;
 
 typedef struct {
     double _field1;
@@ -280,7 +268,7 @@ typedef struct {
     float _field8;
     _Bool _field9;
     int _field10;
-    CDStruct_2c43369c _field11;
+    CDStruct_c3b9c2ee _field11;
     double _field12;
     int _field13;
     int _field14;
@@ -305,7 +293,7 @@ typedef struct {
             double _field4;
             double _field5;
             double _field6;
-            CDStruct_2c43369c _field7;
+            CDStruct_c3b9c2ee _field7;
             double _field8;
             double _field9;
         } _field1;
@@ -318,10 +306,10 @@ typedef struct {
         double _field8;
         _Bool _field9;
     } _field17;
-    CDStruct_2c43369c _field18;
+    CDStruct_c3b9c2ee _field18;
     int _field19;
     float _field20;
-    CDStruct_2c43369c _field21;
+    CDStruct_c3b9c2ee _field21;
     double _field22;
     double _field23;
     int _field24;
@@ -336,7 +324,7 @@ typedef struct {
     double _field33;
     _Bool _field34;
     _Bool _field35;
-    CDStruct_2c43369c _field36;
+    CDStruct_c3b9c2ee _field36;
     double _field37;
     int _field38;
     double _field39;
@@ -357,7 +345,7 @@ typedef struct {
         float _field2;
     } _field50;
     _Bool _field51;
-} CDStruct_d9d84195;
+} CDStruct_7833a0ca;
 
 typedef struct {
     int _field1;
@@ -377,22 +365,7 @@ typedef struct {
     } _field6;
 } CDStruct_6fc73bc8;
 
-// Ambiguous groups
-typedef struct {
-    unsigned long long _field1;
-    unsigned char _field2;
-    unsigned char _field3;
-    unsigned char _field4;
-    unsigned char _field5;
-    unsigned char _field6;
-    unsigned char _field7;
-    unsigned char _field8;
-    unsigned char _field9;
-    unsigned char _field10;
-    unsigned char _field11;
-    unsigned char _field12;
-} CDStruct_789f8997;
-
+// Template types
 typedef struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
     struct {
         union __rep {

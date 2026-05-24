@@ -6,8 +6,7 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSDate, NSDictionary, NSManagedObjectID, NSString, PHObjectPlaceholder;
-@protocol PLChangesForServiceHandling;
+@class NSString;
 
 @interface PHQuestionChangeRequest : PHChangeRequest
 {
@@ -20,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (short);
+- (short);
 - (void);
 - (id);
 - (void);
@@ -31,44 +30,17 @@
 - (void);
 - (void);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short)safari_looksLikeWillRedirectToHostAfterAuthentication: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (id);
-- (double);
+- (double)c;
 - (id);
 - (void)Ð!¬@ùqÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(copy, nonatomic) NSDictionary *additionalInfo;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(copy, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned short displayType;
 @property(copy, nonatomic) NSString *entityIdentifier;
-@property(nonatomic) unsigned short entityType;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedQuestion;
-@property(nonatomic) short questionVersion;
-@property(nonatomic) double score;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(nonatomic) unsigned short state;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned short type;
 
 @end
 

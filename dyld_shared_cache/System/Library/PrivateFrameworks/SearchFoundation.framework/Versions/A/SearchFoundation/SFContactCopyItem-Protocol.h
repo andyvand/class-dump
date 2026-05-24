@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSURL, SFPerson;
+@class SFPerson;
 
 @protocol SFContactCopyItem
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *contactFileLocation;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFPerson *person;
 @end
 

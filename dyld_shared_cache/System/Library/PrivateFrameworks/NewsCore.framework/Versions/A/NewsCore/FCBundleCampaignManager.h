@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSString;
 @protocol FCBundleCampaignAccessProviding;
 
 @interface FCBundleCampaignManager
 {
     id <FCBundleCampaignAccessProviding> _protectedBundleCampaignAccess;
-    NFUnfairLock *_lock;
 }
 
 - (void);
@@ -29,20 +27,11 @@
 - (_Bool);
 - (id);
 - (id)ngOutputName:%@; /* Error: Ran out of types for this method. */;
-- (void)yingBarTime;
+- (void)nowPlayingBarTime;
 - (void)nfiguration %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) id <FCBundleCampaignAccessProviding> bundleCampaignAccess;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NFUnfairLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) id <FCBundleCampaignAccessProviding> protectedBundleCampaignAccess; // @synthesize protectedBundleCampaignAccess=_protectedBundleCampaignAccess;
-@property(readonly) Class superclass;
 
 @end
 

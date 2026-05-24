@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUGSchemaSUGInteraction, SUGSchemaSUGUserStatistics;
-
 @interface SUGSchemaSUGEngagementReported : SISchemaInstrumentationMessage
 {
     unsigned long long _performedTimeSince1970InMs;
-    SUGSchemaSUGUserStatistics *_userStatistics;
-    SUGSchemaSUGInteraction *_interaction;
-    struct {
-        unsigned int performedTimeSince1970InMs:1;
-    } _has;
-    _Bool _hasUserStatistics;
-    _Bool _hasInteraction;
 }
 
 - (id);
@@ -25,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -35,26 +26,20 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)?@"<ASDInstallationServiceProtocol><NSXPCProxyCreating>"@"NSError">16;
+- (_Bool)importGroup:(id)arg1 withImportedPeople: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool)oup_action_type column to the message table.;
 - (id);
 - (id);
-- (id)y;
-- (id)Context;
-- (_Bool);
+- (id)deleteNumAppDisambiguationsLastOneDay;
+- (id)_hasTapToEditContext;
+- (_Bool)_aceID;
 - (void),&,N,V_intelligenceFlowQuerySent;
 - (void)DDSiriClientEvent.ODDRequestsWithoutAssetsDigestReported;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInteraction; // @synthesize hasInteraction=_hasInteraction;
-@property(nonatomic) _Bool hasPerformedTimeSince1970InMs;
-@property(nonatomic) _Bool hasUserStatistics; // @synthesize hasUserStatistics=_hasUserStatistics;
-@property(retain, nonatomic) SUGSchemaSUGInteraction *interaction; // @synthesize interaction=_interaction;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long performedTimeSince1970InMs; // @synthesize performedTimeSince1970InMs=_performedTimeSince1970InMs;
-@property(retain, nonatomic) SUGSchemaSUGUserStatistics *userStatistics; // @synthesize userStatistics=_userStatistics;
 
 @end
 

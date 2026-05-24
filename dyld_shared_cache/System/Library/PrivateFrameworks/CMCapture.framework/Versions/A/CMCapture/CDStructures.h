@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWNodeOutput, BWPixelBufferPool, BWRamp, BWStats, FigCaptureFrameCounter, NSData, NSDictionary, NSObject, NSString;
-
 #pragma mark Function Pointers and Blocks
 
 typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
@@ -14,211 +12,143 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct AudioBuffer {
-    unsigned int _field1;
-    unsigned int _field2;
-    void *_field3;
-};
-
-struct AudioBufferList {
-    unsigned int _field1;
-    struct AudioBuffer _field2[1];
-};
-
-struct AudioStreamBasicDescription {
-    double mSampleRate;
-    unsigned int mFormatID;
-    unsigned int mFormatFlags;
-    unsigned int mBytesPerPacket;
-    unsigned int mFramesPerPacket;
-    unsigned int mBytesPerFrame;
-    unsigned int mChannelsPerFrame;
-    unsigned int mBitsPerChannel;
-    unsigned int mReserved;
-};
-
 struct BWAPSStatistics {
-    float stdDataFromAPSForWide;
-    float maxDataFromAPSForWide;
-    float minDataFromAPSForWide;
-    float stdDataFromSphereForWide;
-    float maxDataFromSphereForWide;
-    float minDataFromSphereForWide;
-    float stdDataFromAPSForTele;
-    float maxDataFromAPSForTele;
-    float minDataFromAPSForTele;
-    float stdDataFromSphereForTele;
-    float maxDataFromSphereForTele;
-    float minDataFromSphereForTele;
-    float stdDataFromAccel;
-    float maxDataFromAccel;
-    float minDataFromAccel;
-    float stdDataFromGyro;
-    float maxDataFromGyro;
-    float minDataFromGyro;
-};
-
-struct BWContinuousDirectInputSettings {
-    float exponentialSnapFraction;
-    float exponentialRampDuration;
-    float zoomOutDurationScale;
-};
-
-struct BWContinuousIndirectInputSettings {
-    float exponentialSnapFraction;
-    float exponentialRampDurationPreview;
-    float exponentialRampDurationOverCapturePreview;
-    float zoomOutDurationScalePreview;
-    float baseZoomFactorSnapFractionPreview;
-    float baseZoomFactorSnapFractionOverCapturePreview;
-    float exponentialRampDurationRecording;
-    float zoomOutDurationScaleRecording;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
+    float _field6;
+    float _field7;
+    float _field8;
+    float _field9;
+    float _field10;
+    float _field11;
+    float _field12;
+    float _field13;
+    float _field14;
+    float _field15;
+    float _field16;
+    float _field17;
+    float _field18;
 };
 
 struct BWCoreAnalyticsMovieRecordingCinematicAudioRemixStatistics {
-    float dialogueGain;
-    float ambienceGain;
-    float dialogueLoudness;
-    float ambienceLoudness;
-    float recordingLoudness;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
 };
 
 struct BWCoreAnalyticsMovieRecordingCinematicVideoStatistics {
-    unsigned int countOfSoftFocusRequests;
-    unsigned int countOfHardFocusRequests;
-    unsigned int countOfFixedPlaneFocusRequests;
-    unsigned int countOfTapToTrackFailures;
-    unsigned int countOfFixedTaxonomyFocusDecisions;
-    unsigned int countOfNonTaxonomyFocusDecisions;
-    unsigned int countOfCustomFocusDecisions;
-    unsigned int countOfAutoFocusDecisions;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+    unsigned int _field8;
 };
 
 struct BWCoreAnalyticsMovieRecordingSphereAFStatistics {
-    float accelStandardDeviation;
-    float gyroStandardDeviation;
-    float sphereMaxTrackErrorWide;
-    float sphereMaxTrackErrorTele;
-    float sphereStdTrackErrorSumXXWide;
-    float sphereStdTrackErrorSumXXTele;
-    float afMaxTrackErrorWide;
-    float afMaxTrackErrorTele;
-    float afMaxTrackErrorSuperWide;
-    float afMaxTrackErrorFront;
-    float afMaxTrackErrorFrontSuperWide;
-    float afStdTrackErrorSumXXWide;
-    float afStdTrackErrorSumXXTele;
-    float afStdTrackErrorSumXXSuperWide;
-    float afStdTrackErrorSumXXFront;
-    float afStdTrackErrorSumXXFrontSuperWide;
-    float sphereMinDistanceFromEndStopWide;
-    float sphereMinDistanceFromEndStopTele;
-    float spherePowerWide;
-    float spherePowerTele;
-    float sphereMaxPeakCurrentWide;
-    float sphereMaxPeakCurrentTele;
-    float sphereMaxPeakCurrentAllChannels;
-    float afPowerWide;
-    float afPowerTele;
-    float afPowerSuperWide;
-    float afPowerFront;
-    float afPowerFrontSuperWide;
-    float afMaxPeakCurrentWide;
-    float afMaxPeakCurrentTele;
-    float afMaxPeakCurrentSuperWide;
-    float afMaxPeakCurrentFront;
-    float afMaxPeakCurrentFrontSuperWide;
-    float afMaxPeakCurrentAllChannels;
-    float afAndSphereMaxPeakCurrentWide;
-    float afAndSphereMaxPeakCurrentTele;
-    float afAndSphereMaxPeakCurrentAllChannels;
-    unsigned int numberOfSamples;
-    unsigned int numberOfSamplesWide;
-    unsigned int numberOfSamplesTele;
-    unsigned int numberOfSamplesSuperWide;
-    unsigned int numberOfSamplesFront;
-    unsigned int numberOfSamplesFrontSuperWide;
-    _Bool sphereTravelRangeHistogramExtended;
-    unsigned int range_0_90umBinWide;
-    unsigned int range_90_110umBinWide;
-    unsigned int range_110_130umBinWide;
-    unsigned int range_130_150umBinWide;
-    unsigned int range_150_175umBinWide;
-    unsigned int range_175_infinityBinWide;
-    unsigned int range_175_220umBinWide;
-    unsigned int range_220_infinityBinWide;
-    unsigned int range_0_90umBinTele;
-    unsigned int range_90_110umBinTele;
-    unsigned int range_110_130umBinTele;
-    unsigned int range_130_150umBinTele;
-    unsigned int range_150_175umBinTele;
-    unsigned int range_175_infinityBinTele;
-    unsigned int range_175_220umBinTele;
-    unsigned int range_220_infinityBinTele;
-    unsigned int recenteringOccurredWide;
-    unsigned int recenteringOccurredTele;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+    float _field5;
+    float _field6;
+    float _field7;
+    float _field8;
+    float _field9;
+    float _field10;
+    float _field11;
+    float _field12;
+    float _field13;
+    float _field14;
+    float _field15;
+    float _field16;
+    float _field17;
+    float _field18;
+    float _field19;
+    float _field20;
+    float _field21;
+    float _field22;
+    float _field23;
+    float _field24;
+    float _field25;
+    float _field26;
+    float _field27;
+    float _field28;
+    float _field29;
+    float _field30;
+    float _field31;
+    float _field32;
+    float _field33;
+    float _field34;
+    float _field35;
+    float _field36;
+    float _field37;
+    unsigned int _field38;
+    unsigned int _field39;
+    unsigned int _field40;
+    unsigned int _field41;
+    unsigned int _field42;
+    unsigned int _field43;
+    _Bool _field44;
+    unsigned int _field45;
+    unsigned int _field46;
+    unsigned int _field47;
+    unsigned int _field48;
+    unsigned int _field49;
+    unsigned int _field50;
+    unsigned int _field51;
+    unsigned int _field52;
+    unsigned int _field53;
+    unsigned int _field54;
+    unsigned int _field55;
+    unsigned int _field56;
+    unsigned int _field57;
+    unsigned int _field58;
+    unsigned int _field59;
+    unsigned int _field60;
+    unsigned int _field61;
+    unsigned int _field62;
 };
 
 struct BWCoreAnalyticsMovieRecordingVideoDeghostingStatistics {
-    _Bool enabled;
-    int version;
-    double averageGhostArea;
-    double averageGhostCount;
-    float opticalCenterOffsetMag;
-    float opticalCenterOffsetX;
-    float opticalCenterOffsetY;
-    float opticalCenterEstConfidence;
-    float lightweightDetector1Precision;
-    float lightweightDetector1Recall;
-    float lightweightDetector2Precision;
-    float lightweightDetector2Recall;
-    float lightweightDetector3Precision;
-    float lightweightDetector3Recall;
-    float lightweightDetector4Precision;
-    float lightweightDetector4Recall;
-    float lightweightDetector5Precision;
-    float lightweightDetector5Recall;
+    _Bool _field1;
+    int _field2;
+    double _field3;
+    double _field4;
+    float _field5;
+    float _field6;
+    float _field7;
+    float _field8;
+    float _field9;
+    float _field10;
+    float _field11;
+    float _field12;
+    float _field13;
+    float _field14;
+    float _field15;
+    float _field16;
+    float _field17;
+    float _field18;
 };
 
 struct BWCoreAnalyticsMovieRecordingVideoSTFStatistics {
-    _Bool videoSTFEnabled;
-    NSString *cancelReason;
-    float videoSTFAppliedFrameCountPercentage;
-    float largestMaxCorrectionLevel;
-    int version;
-    unsigned int lowMeanCorrectionLevelFrameCount;
-    unsigned int moderateMeanCorrectionLevelFrameCount;
-    unsigned int highMeanCorrectionLevelFrameCount;
-    unsigned int veryHighMeanCorrectionLevelFrameCount;
-    unsigned int extremeMeanCorrectionLevelFrameCount;
-};
-
-struct BWDeferredMetadataCacheEntry {
-    CDStruct_1b6d18a9 pts;
-    struct __CFDictionary *metadataDict;
-    short useCount;
-    short age;
-};
-
-struct BWInterpolatedColorLookupTableEntry {
-    NSData *lookupTable;
-    float strength;
-    NSData *interpolatedTable;
-};
-
-struct BWLensSmudgeDetectionConfiguration {
-    _Bool lensSmudgeDetectionEnabled;
-    CDStruct_1b6d18a9 lensSmudgeDetectionInterval;
-};
-
-struct BWPreviewStitcherShiftCorrection {
-    struct CGPoint currentValue;
-    struct CGPoint updatedValue;
-    _Bool valueIsUpdated;
-    _Bool lastRegistrationWasValid;
-    int registeredFrameCaptureID;
-    BWRamp *rampX;
-    BWRamp *rampY;
+    _Bool _field1;
+    id _field2;
+    float _field3;
+    float _field4;
+    int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+    unsigned int _field8;
+    unsigned int _field9;
+    unsigned int _field10;
 };
 
 struct BWRenderListParameterList {
@@ -238,99 +168,6 @@ struct BWRenderListRendererNode {
     id _field2;
 };
 
-struct BWSmartCameraScene {
-    _Bool enabled;
-    _Bool confident;
-    float confidenceFilterRatio;
-    float filteredConfidence;
-    float confidenceThreshold;
-    float confidenceHysteresisValueLag;
-    short confidenceHysteresisTemporalLagBeforeConfident;
-    short confidenceHysteresisTemporalLagBeforeNotConfident;
-    short currentTemporalHysteresis;
-    _Bool resetTemporalHysteresisAndFilteringOnNextUpdate;
-    char *name;
-};
-
-struct BWSpringSettings {
-    float snapFraction;
-    float tension;
-    float friction;
-};
-
-struct BWStreamOutputStorage {
-    int type;
-    unsigned int flags;
-    _Bool ready;
-    _Bool enabled;
-    BWNodeOutput *nodeOutput;
-    struct opaqueCMSimpleQueue *simpleQueue;
-    NSObject *bufferServicingQueue;
-    CDUnknownFunctionPointerType bufferServicingQueueCallback;
-    struct opaqueCMFormatDescription *cachedFormatDescription;
-    CDStruct_1b6d18a9 lastEmittedPTS;
-    FigCaptureFrameCounter *frameCounter;
-    int retainedBufferCount;
-    int streamRetainedBufferCount;
-    BWPixelBufferPool *internalPixelBufferPool;
-    _Bool bufferPoolOwnedByAnotherNode;
-    int bytesPerRowAlignmentRequirement;
-    int planeAlignmentRequirement;
-    unsigned int sensorInterfaceRawPixelFormat;
-    unsigned int sashimiRawPixelFormat;
-    unsigned int sushiRawPixelFormat;
-    CDStruct_79c71658 outputDimensions;
-    struct CGRect cropRect;
-    float lastISPAppliedZoomFactor;
-    BWStats *ioSurfaceCompressionRatioStats;
-    int pixelBufferCompressionType;
-    unsigned long long totalCompressedDataSize;
-    unsigned long long totalUncompressedDataSize;
-    unsigned long long lumaCompressionHistogram[16];
-    unsigned long long chromaCompressionHistogram[16];
-    unsigned int universalCompressionNumberOfSamples;
-    CDStruct_1b6d18a9 lastUniversalCompressionSamplePTS;
-    _Bool pixelFormatIsTenBit;
-    _Bool pixelFormatIs420;
-    _Bool pixelFormatIsLossyCompression;
-    _Bool prefetchEnabled;
-    _Bool incrementalPrefetchEnabled;
-    unsigned int prevSceneIlluminationValue;
-    int prevSceneIlluminationValueCaptureID;
-};
-
-struct BWVISMotionTensors {
-    NSDictionary *entries;
-    CDStruct_1b6d18a9 framePTS;
-};
-
-struct BWZoomRampTuningSettings {
-    struct BWContinuousDirectInputSettings continuousDirectPreview;
-    struct BWContinuousDirectInputSettings continuousDirectRecording;
-    _Bool continuousDirectEarlySwitchOverForZoomInEnabled;
-    _Bool continuousDirectRecordingSpringRampsEnabled;
-    struct BWSpringSettings continuousDirectRecordingZoomInSpring;
-    struct BWSpringSettings continuousDirectRecordingZoomOutSpring;
-    struct BWSpringSettings continuousDirectOverCaptureRecordingZoomInSpring;
-    struct BWSpringSettings continuousDirectOverCaptureRecordingZoomOutSpring;
-    struct BWContinuousIndirectInputSettings continuousIndirect;
-    struct BWSpringSettings jumpZoomIn[3];
-    struct BWSpringSettings jumpZoomOut[3];
-    struct BWSpringSettings jumpFrontFacingZoomIn[3];
-    struct BWSpringSettings jumpFrontFacingZoomOut[3];
-    float earlySwitchOverScaleFactorForZoomIn;
-    float allowableMinimumDigitalZoomFactorDuringZoomOut;
-};
-
-struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
-};
-
 struct CGPoint {
     double x;
     double y;
@@ -344,23 +181,6 @@ struct CGRect {
 struct CGSize {
     double width;
     double height;
-};
-
-struct ComponentInstanceRecord {
-    long long _field1[1];
-};
-
-struct FigCaptureGreenGhostOfflineParams {
-    int luxSuperLow;
-    int luxLow;
-    float exposureHigh;
-    int clippedSmall;
-    float movieThresholdInSecond;
-};
-
-struct FigCaptureGreenGhostStatus {
-    int detectedGreenGhostFrameCount;
-    _Bool greenGhostSampleBufferMetadataDetected;
 };
 
 struct FigCaptureVideoTransform {
@@ -380,13 +200,6 @@ struct FigLocalQueueMessage {
             struct opaqueCMFormatDescription *_field2;
         } _field2;
     } _field2;
-};
-
-struct FigStateMachineStateConfiguration {
-    _Bool _field1;
-    id _field2;
-    id _field3;
-    id _field4;
 };
 
 struct PreviewGyroStabilizationTransformContext {
@@ -409,39 +222,19 @@ struct PreviewStabilizationFrameRateCompensatedParameter {
     float _field6;
 };
 
-struct TimestampedAudioBufferList {
-    struct __CFAllocator *allocator;
-    long long auRenderCount;
-    unsigned int dataBytesCapacity;
-    unsigned int numFrames;
-    CDStruct_1b6d18a9 pts;
-    struct AudioBufferList *abl;
-    unsigned int numPrependedSilenceFrames;
-    double sampleTime;
-};
-
 struct VISOverscanPredictorConfiguration {
     float _field1;
     float _field2;
 };
-
-struct __CVBuffer;
 
 struct _opaque_pthread_mutex_t {
     long long __sig;
     char __opaque[56];
 };
 
-struct _opaque_pthread_rwlock_t {
-    long long __sig;
-    char __opaque[192];
-};
-
 struct opaqueCMFormatDescription;
 
 struct opaqueCMSampleBuffer;
-
-struct opaqueCMSimpleQueue;
 
 struct os_state_data_decoder_s {
     char _field1[64];
@@ -473,10 +266,6 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    id vector;
-} CDStruct_da14d750;
-
-typedef struct {
     _Bool _field1;
     _Bool _field2;
     long long _field3;
@@ -484,10 +273,10 @@ typedef struct {
 } CDStruct_d5a37ef0;
 
 typedef struct {
-    _Bool enabled;
-    long long selectionBehavior;
-    unsigned long long restrictedSelectionConditions;
-} CDStruct_53454c09;
+    _Bool _field1;
+    long long _field2;
+    unsigned long long _field3;
+} CDStruct_8e1baa19;
 
 typedef struct {
     unsigned long long _field1;
@@ -497,52 +286,51 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned short major;
-    unsigned short minor;
-    unsigned short patch;
-} CDStruct_08002bce;
+    unsigned short _field1;
+    unsigned short _field2;
+    unsigned short _field3;
+} CDStruct_b99bf284;
 
 typedef struct {
     id _field1[2];
 } CDStruct_8666bb01;
 
 typedef struct {
-    id columns[3];
-} CDStruct_1fe29af2;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
     unsigned int val[8];
 } CDStruct_4c969caf;
 
 typedef struct {
-    float forwardOrders[8];
-    float inverseOrders[8];
-} CDStruct_42bba296;
+    void *_field1;
+    void *_field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned char _field6;
+    unsigned char _field7;
+    unsigned char _field8;
+} CDStruct_80d302cf;
 
 typedef struct {
-    void *base;
-    void *offsetTable;
-    unsigned long long nObjects;
-    unsigned long long topObjectOffset;
-    unsigned long long offsetTableStart;
-    unsigned char sortVersion;
-    unsigned char offsetSize;
-    unsigned char referenceSize;
-} CDStruct_e993e376;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_d2b197d1;
 
 typedef struct {
-    double w;
-    double x;
-    double y;
-    double z;
-} CDStruct_bf7dff04;
+    float _field1;
+    float _field2;
+    float _field3;
+} CDStruct_869f9c67;
 
 typedef struct {
-    double timestamp;
-    float x;
-    float y;
-    float z;
-} CDStruct_f31118bd;
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
 
 typedef struct {
     int _field1;
@@ -559,9 +347,9 @@ typedef struct {
 } CDStruct_77932685;
 
 typedef struct {
-    long long selectionBehavior;
-    unsigned long long restrictedSelectionConditions;
-} CDStruct_c0dda76c;
+    long long _field1;
+    unsigned long long _field2;
+} CDStruct_1dee9796;
 
 typedef struct {
     long long value;
@@ -571,16 +359,10 @@ typedef struct {
 } CDStruct_1b6d18a9;
 
 typedef struct {
-    long long mono;
-    long long left;
-    long long right;
-} CDStruct_49c6a4dd;
-
-typedef struct {
-    _Bool doingBiasEstimation;
-    double timestamp;
-    CDStruct_bf7dff04 quaternion;
-} CDStruct_ec629c3d;
+    long long _field1;
+    long long _field2;
+    long long _field3;
+} CDStruct_2ec95fd7;
 
 typedef struct {
     struct __CFString *_field1;
@@ -588,32 +370,15 @@ typedef struct {
 } CDStruct_1e745829;
 
 typedef struct {
-    struct __CVBuffer *pixelBuffer;
-    CDStruct_1b6d18a9 pts;
-} CDStruct_d638f5d0;
-
-typedef struct {
     struct opaqueCMSampleBuffer *_field1;
     struct opaqueCMSampleBuffer *_field2;
 } CDStruct_4d70cfb9;
 
 typedef struct {
-    CDStruct_bf7dff04 _field1;
-    struct {
-        float _field1;
-        float _field2;
-        float _field3;
-    } _field2;
-    struct {
-        float _field1;
-        float _field2;
-        float _field3;
-    } _field3;
-    struct {
-        float _field1;
-        float _field2;
-        float _field3;
-    } _field4;
+    CDStruct_d2b197d1 _field1;
+    CDStruct_869f9c67 _field2;
+    CDStruct_869f9c67 _field3;
+    CDStruct_869f9c67 _field4;
     int _field5;
     _Bool _field6;
     _Bool _field7;
@@ -622,7 +387,7 @@ typedef struct {
     _Bool _field10;
     _Bool _field11;
     int _field12;
-} CDStruct_c0fcda20;
+} CDStruct_a8cfa289;
 
 typedef struct {
     struct {
@@ -633,30 +398,35 @@ typedef struct {
 } CDStruct_6a624998;
 
 typedef struct {
-    union {
-        struct {
-            int numerator;
-            int denominator;
-        } rational;
-        float floating;
-    } u;
-    int tag;
-} CDStruct_bc6a056e;
+    CDStruct_1b6d18a9 start;
+    CDStruct_1b6d18a9 duration;
+} CDStruct_e83c9415;
 
 typedef struct {
-    _Bool autoFramingEnabled;
-    _Bool fisheyeEffectEnabled;
-    _Bool fieldOfViewRestrictedToWide;
-    struct CGRect outputFramingRectOfInterest;
-    int centerStageFramingMode;
-    float videoZoomFactor;
-    float panningAngleX;
-    float panningAngleY;
-    double manualFramingDefaultZoomFactor;
-    float defaultVirtualCameraRotationAngleX;
-    float defaultVirtualCameraRotationAngleY;
-    float defaultVirtualCameraRotationAngleZ;
-} CDStruct_a536cad7;
+    union {
+        struct {
+            int _field1;
+            int _field2;
+        } _field1;
+        float _field2;
+    } _field1;
+    int _field2;
+} CDStruct_12225535;
+
+typedef struct {
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    struct CGRect _field4;
+    int _field5;
+    float _field6;
+    float _field7;
+    float _field8;
+    double _field9;
+    float _field10;
+    float _field11;
+    float _field12;
+} CDStruct_60336a4d;
 
 typedef struct {
     float _field1[2];
@@ -676,34 +446,34 @@ typedef struct {
 } CDStruct_4e035876;
 
 typedef struct {
-    CDStruct_6e3f967a previousSpherePosition[3];
-    CDStruct_6e3f967a currentSpherePosition[3];
-    CDStruct_6e3f967a filteredSpherePosition[3];
-    CDStruct_6e3f967a estimatedSagPosition[3];
-    _Bool supportAverageSpherePositionKey;
+    CDStruct_b2fbf00d _field1[3];
+    CDStruct_b2fbf00d _field2[3];
+    CDStruct_b2fbf00d _field3[3];
+    CDStruct_b2fbf00d _field4[3];
+    _Bool _field5;
     struct {
-        unsigned int configuration;
-        CDStruct_6e3f967a opticalCenterOffset[3];
-        float baseZoomFactor[3];
-        float baseZoomFactorAdjustment[3];
-        float pixelSizeInMicron[3];
-        int quadraBinningFactor[3];
-        int quadraBinningFactorStashed;
-        float currentToReferenceScaleRatio[7];
-        float currentToReferenceExtrinsicMatrix[7][12];
-        int referencePortIndex;
-        int previousPortIndex;
-        CDStruct_6e3f967a parallaxShift;
-        CDStruct_6e3f967a stashedSpherePos[3];
-        float lastPracticalFocalLength[3];
-        float lastEffectiveFocalLength[3];
-        float lastPinholeCameraFocalLength[3];
-        _Bool decoupleBravoParallaxShiftFromSphereLensPosition;
-        float minDistanceForBravoParallaxShift;
-        float sphereScalingFactorUsedForParallaxShiftComputation;
-    } bravoData;
-    double sagEstimationAlpha;
-} CDStruct_e4afc2cb;
+        unsigned int _field1;
+        CDStruct_b2fbf00d _field2[3];
+        float _field3[3];
+        float _field4[3];
+        float _field5[3];
+        int _field6[3];
+        int _field7;
+        float _field8[7];
+        float _field9[7][12];
+        int _field10;
+        int _field11;
+        CDStruct_b2fbf00d _field12;
+        CDStruct_b2fbf00d _field13[3];
+        float _field14[3];
+        float _field15[3];
+        float _field16[3];
+        _Bool _field17;
+        float _field18;
+        float _field19;
+    } _field6;
+    double _field7;
+} CDStruct_df36bd60;
 
 typedef struct {
     int _field1;
@@ -712,20 +482,14 @@ typedef struct {
     unsigned char _field4;
     float _field5;
     float _field6;
-    struct {
-        float _field1;
-        float _field2;
-    } _field7;
+    CDStruct_b2fbf00d _field7;
     double _field8;
     double _field9;
     double _field10;
     double _field11;
     double _field12;
     double _field13;
-    struct {
-        float _field1;
-        float _field2;
-    } _field14;
+    CDStruct_b2fbf00d _field14;
     CDStruct_6a624998 _field15;
     struct CGRect _field16;
     int _field17;
@@ -798,39 +562,6 @@ typedef struct {
 
 // Ambiguous groups
 typedef struct {
-    float _field1;
-    float _field2;
-    float _field3;
-} CDStruct_869f9c67;
-
-typedef struct {
-    float redGain;
-    float greenGain;
-    float blueGain;
-} CDStruct_d6531dd4;
-
-typedef struct {
-    float x;
-    float y;
-    float z;
-} CDStruct_03942939;
-
-typedef struct {
-    float _field1;
-    float _field2;
-} CDStruct_b2fbf00d;
-
-typedef struct {
-    float min;
-    float max;
-} CDStruct_84af802f;
-
-typedef struct {
-    float x;
-    float y;
-} CDStruct_6e3f967a;
-
-typedef struct {
     int _field1;
     int _field2;
 } CDStruct_1ef3fb1f;
@@ -839,14 +570,4 @@ typedef struct {
     int width;
     int height;
 } CDStruct_79c71658;
-
-typedef struct {
-    CDStruct_1b6d18a9 _field1;
-    CDStruct_1b6d18a9 _field2;
-} CDStruct_5c5366e1;
-
-typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
 

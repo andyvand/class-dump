@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPaymentProvisionPrecursorPassRequest : PKPaymentWebServiceRequest
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSArray *_actions;
 }
 
 - (id);

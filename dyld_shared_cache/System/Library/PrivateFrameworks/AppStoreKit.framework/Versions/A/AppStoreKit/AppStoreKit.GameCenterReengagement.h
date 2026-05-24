@@ -7,18 +7,6 @@
 @interface AppStoreKit.GameCenterReengagement
 {
     id badgeGlyph;
-    id badge;
-    id title;
-    id subtitle;
-    id backgroundColor;
-    id backgroundArtwork;
-    id achievement;
-    id lockup;
-    id clickAction;
-    id heroAction;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

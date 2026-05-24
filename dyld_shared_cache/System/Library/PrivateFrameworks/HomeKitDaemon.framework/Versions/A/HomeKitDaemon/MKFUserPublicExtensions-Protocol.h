@@ -4,7 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+@protocol HMDHomeMember;
+
 @protocol MKFUserPublicExtensions
++ (_Bool);
++ (id <HMDHomeMember>)nly;
+- (_Bool);
+- (NSSet *)oint:%@ legIndex:%lu /* Error: Ran out of types for this method. */;
+- (_Bool)4;
 
 // Remaining properties
 @property(readonly) _Bool isRestrictedGuest;

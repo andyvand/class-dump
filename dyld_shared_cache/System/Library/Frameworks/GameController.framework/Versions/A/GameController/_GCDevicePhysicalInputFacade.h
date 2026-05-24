@@ -6,8 +6,7 @@
 
 #import <GameController/_GCDevicePhysicalInputView.h>
 
-@class GCPhysicalInputElementCollection, NSObject, NSString;
-@protocol GCDevice, OS_dispatch_queue;
+@protocol GCDevice;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputFacade : _GCDevicePhysicalInputView
@@ -16,18 +15,18 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)z;
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (double);
 - (long long);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)Td;
+- (id)DT;
 - (long long);
 - (id);
 - (id);
@@ -35,35 +34,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)0;
+- (id)@;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)lic,signpost.telemetry:number2,name=Error}d  /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)2@0:8@"<GCPlayerIndicatorXPCProxyServiceRemoteClientInterface>"16@?<v@?@"<GCPlayerIndicatorXPCProxyServiceRemoteServerInterface>"@"NSError">24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) GCPhysicalInputElementCollection *axes;
-@property(readonly) GCPhysicalInputElementCollection *buttons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) __weak id <GCDevice> device;
-@property(readonly) GCPhysicalInputElementCollection *dpads;
-@property(copy) CDUnknownBlockType elementValueDidChangeHandler;
-@property(readonly) GCPhysicalInputElementCollection *elements;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType inputStateAvailableHandler;
-@property long long inputStateQueueDepth;
-@property(readonly) double lastEventLatency;
-@property(readonly) double lastEventTimestamp;
-@property(retain) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) Class superclass;
-@property(readonly) GCPhysicalInputElementCollection *switches;
 
 @end
 

@@ -7,26 +7,9 @@
 @interface SGMIBiomeReducedMessageEvents
 {
     _Bool _scrolledToEnd;
-    _Bool _userReplied;
-    _Bool _markedAsRead;
-    _Bool _markedAsUnread;
-    _Bool _mailGotFlagged;
-    _Bool _replyDraftStarted;
-    _Bool _forwardDraftStarted;
-    _Bool _markedAsJunk;
-    _Bool _linkClicked;
-    unsigned int _numberOfMailsViewedBeforeSinceAvailable;
-    unsigned int _messageViewCount;
-    unsigned int _numberOfUnreadMessageAtFirstViewTime;
-    unsigned int _numberOfMoreRecentUnreadMessageAtFirstViewTime;
-    double _timeBeforeViewStartSinceAvailable;
-    double _messageViewMaxDwellTime;
-    double _messageViewTotalDwellTime;
-    double _firstAppLaunchFollowingFetch;
-    double _messageFetchTime;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -37,16 +20,16 @@
 - (double);
 - (_Bool);
 - (_Bool);
+- (unsigned int)ot negative number for script code from ICU:%d /* Error: Ran out of types for this method. */;
+- (unsigned int)/;
+- (unsigned int)C:@. /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (double);
-- (double);
-- (unsigned int);
 - (double);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)@ya&@�"˴˨&;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,24 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double firstAppLaunchFollowingFetch; // @synthesize firstAppLaunchFollowingFetch=_firstAppLaunchFollowingFetch;
-@property(readonly, nonatomic) _Bool forwardDraftStarted; // @synthesize forwardDraftStarted=_forwardDraftStarted;
-@property(readonly, nonatomic) _Bool linkClicked; // @synthesize linkClicked=_linkClicked;
-@property(readonly, nonatomic) _Bool mailGotFlagged; // @synthesize mailGotFlagged=_mailGotFlagged;
-@property(readonly, nonatomic) _Bool markedAsJunk; // @synthesize markedAsJunk=_markedAsJunk;
-@property(readonly, nonatomic) _Bool markedAsRead; // @synthesize markedAsRead=_markedAsRead;
-@property(readonly, nonatomic) _Bool markedAsUnread; // @synthesize markedAsUnread=_markedAsUnread;
-@property(readonly, nonatomic) double messageFetchTime; // @synthesize messageFetchTime=_messageFetchTime;
-@property(readonly, nonatomic) unsigned int messageViewCount; // @synthesize messageViewCount=_messageViewCount;
-@property(readonly, nonatomic) double messageViewMaxDwellTime; // @synthesize messageViewMaxDwellTime=_messageViewMaxDwellTime;
-@property(readonly, nonatomic) double messageViewTotalDwellTime; // @synthesize messageViewTotalDwellTime=_messageViewTotalDwellTime;
-@property(readonly, nonatomic) unsigned int numberOfMailsViewedBeforeSinceAvailable; // @synthesize numberOfMailsViewedBeforeSinceAvailable=_numberOfMailsViewedBeforeSinceAvailable;
-@property(readonly, nonatomic) unsigned int numberOfMoreRecentUnreadMessageAtFirstViewTime; // @synthesize numberOfMoreRecentUnreadMessageAtFirstViewTime=_numberOfMoreRecentUnreadMessageAtFirstViewTime;
-@property(readonly, nonatomic) unsigned int numberOfUnreadMessageAtFirstViewTime; // @synthesize numberOfUnreadMessageAtFirstViewTime=_numberOfUnreadMessageAtFirstViewTime;
-@property(readonly, nonatomic) _Bool replyDraftStarted; // @synthesize replyDraftStarted=_replyDraftStarted;
 @property(readonly, nonatomic) _Bool scrolledToEnd; // @synthesize scrolledToEnd=_scrolledToEnd;
-@property(readonly, nonatomic) double timeBeforeViewStartSinceAvailable; // @synthesize timeBeforeViewStartSinceAvailable=_timeBeforeViewStartSinceAvailable;
-@property(readonly, nonatomic) _Bool userReplied; // @synthesize userReplied=_userReplied;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol XPC_SystemStats_Protocol
+- (void)x;
+- (void);
+- (void);
 @end
 

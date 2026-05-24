@@ -6,15 +6,12 @@
 
 #import <SceneKit/SCNTextureSource.h>
 
-@class NSString;
 @protocol MTLTexture, SCNMaterialPropertyTextureProvider;
 
 __attribute__((visibility("hidden")))
 @interface SCNMaterialPropertyTextureProviderSource : SCNTextureSource
 {
     id <MTLTexture> _texture;
-    struct __C3DEngineContext *_engineContext;
-    id <SCNMaterialPropertyTextureProvider> _textureProvider;
 }
 
 - (void);
@@ -28,13 +25,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <SCNMaterialPropertyTextureProvider> textureProvider;
 
 @end

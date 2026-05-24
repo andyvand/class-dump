@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface MHSchemaMHAdMatchingEnded : SISchemaInstrumentationMessage
 {
     int _adBlockerDismissalType;
-    NSString *_adName;
-    float _shazamScore;
-    int _adBlockerSource;
-    struct {
-        unsigned int adBlockerDismissalType:1;
-        unsigned int shazamScore:1;
-        unsigned int adBlockerSource:1;
-    } _has;
-    _Bool _hasAdName;
 }
 
 - (float);
@@ -39,14 +28,14 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)˟;
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)uildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_sign.c;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)
 × ;
@@ -56,14 +45,6 @@
 
 // Remaining properties
 @property(nonatomic) int adBlockerDismissalType; // @synthesize adBlockerDismissalType=_adBlockerDismissalType;
-@property(nonatomic) int adBlockerSource; // @synthesize adBlockerSource=_adBlockerSource;
-@property(copy, nonatomic) NSString *adName; // @synthesize adName=_adName;
-@property(nonatomic) _Bool hasAdBlockerDismissalType;
-@property(nonatomic) _Bool hasAdBlockerSource;
-@property(nonatomic) _Bool hasAdName; // @synthesize hasAdName=_hasAdName;
-@property(nonatomic) _Bool hasShazamScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float shazamScore; // @synthesize shazamScore=_shazamScore;
 
 @end
 

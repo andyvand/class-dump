@@ -11,9 +11,10 @@
     struct CMPhotoDecompressionContainer *_container;
 }
 
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)request:(id)arg1 %{ptr} itemUUID:(long long)arg2 %'@
+;
+- (id), CFTypeRef);
+- (unsigned long long)%s;
 - (void);
 
 @end

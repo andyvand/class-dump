@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MKPriorityToIndexMap
 {
     NSMutableArray *_priorities;
-    NSMutableDictionary *_prioritiesToIndexes;
 }
 
 - (double);
@@ -23,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void)figureViews;
-- (_Bool)raint;
+- (void)configureViews;
+- (_Bool)_lineImageViewToBottomConstraint;
 
 @end
 

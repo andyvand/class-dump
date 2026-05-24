@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStreamBase, BPSSink, NSNotificationCenter, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class BMStreamBase;
 
 @interface SearchUIBiomeStreamSubscriber
 {
     _Bool _finished;
-    NSString *_streamIdentifier;
-    BMStreamBase *_stream;
-    BPSSink *_biomeSink;
-    NSNotificationCenter *_center;
-    unsigned long long _observerCount;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -34,24 +27,18 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)tionSeed;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)8SearchUI23SearchUIAppIntentRunner;
+- (void);
+- (id)_TtC8SearchUI23SearchUIAppIntentRunner;
 - (void)h@;
 
 // Remaining properties
-@property(retain, nonatomic) BPSSink *biomeSink; // @synthesize biomeSink=_biomeSink;
-@property(retain, nonatomic) NSNotificationCenter *center; // @synthesize center=_center;
-@property(readonly) _Bool finished; // @synthesize finished=_finished;
-@property unsigned long long observerCount; // @synthesize observerCount=_observerCount;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) BMStreamBase *stream; // @synthesize stream=_stream;
-@property(readonly) NSString *streamIdentifier; // @synthesize streamIdentifier=_streamIdentifier;
 
 @end
 

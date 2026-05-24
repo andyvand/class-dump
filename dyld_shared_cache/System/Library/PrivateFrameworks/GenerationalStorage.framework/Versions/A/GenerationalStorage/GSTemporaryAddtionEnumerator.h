@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSTemporaryStorage, NSArray, NSDirectoryEnumerator, NSError, NSString;
+@class GSTemporaryStorage, NSError;
 
 __attribute__((visibility("hidden")))
 @interface GSTemporaryAddtionEnumerator
 {
     GSTemporaryStorage *_storage;
-    NSString *_nameSpace;
-    unsigned long long _withOptions;
-    unsigned long long _withoutOption;
-    NSError *_error;
-    NSDirectoryEnumerator *_enumerator;
-    NSArray *_array;
-    unsigned long long _pos;
 }
 
 - (id);

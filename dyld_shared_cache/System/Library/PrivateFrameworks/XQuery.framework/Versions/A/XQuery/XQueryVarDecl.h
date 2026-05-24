@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class XQueryQName, XQueryTypeDeclaration;
+@class XQueryQName;
 
 __attribute__((visibility("hidden")))
 @interface XQueryVarDecl
 {
     XQueryQName *_name;
-    XQueryTypeDeclaration *_type;
-    id _expr;
-    id _prolog;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)۱;
 - (void);
-- (_Bool);
+- (_Bool)];
 
 @end
 

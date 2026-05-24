@@ -6,16 +6,9 @@
 
 #import <PrototypeTools/PTSettings.h>
 
-@class NSString;
-
 @interface PTFrameRateRangeSettings : PTSettings
 {
     unsigned short _reasonComponent;
-    unsigned short _reason;
-    int _minimum;
-    int _maximum;
-    int _preferred;
-    unsigned long long _preset;
 }
 
 + (id);
@@ -25,17 +18,17 @@
 - (id);
 - (unsigned short);
 - (id);
-- (void);
+- (void)!$_;
 - (id);
 - (unsigned short);
 - (struct CAFrameRateRange);
 - (void);
 - (void);
+- (void)ons_meanStdTable="sumTable"^f"sumSqTable"^f}"_memoryContainer"*};
+- (id)removeObjectsAtIndexes: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (void);
@@ -49,21 +42,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CAFrameRateRange frameRateRange;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int highFrameRateReason;
-@property(nonatomic) int maximum; // @synthesize maximum=_maximum;
-@property(nonatomic) int minimum; // @synthesize minimum=_minimum;
-@property(nonatomic) int preferred; // @synthesize preferred=_preferred;
 @property(nonatomic) unsigned long long preset; // @synthesize preset=_preset;
-@property(nonatomic) unsigned short reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned short reasonComponent; // @synthesize reasonComponent=_reasonComponent;
-@property(readonly) Class superclass;
 
 @end
 

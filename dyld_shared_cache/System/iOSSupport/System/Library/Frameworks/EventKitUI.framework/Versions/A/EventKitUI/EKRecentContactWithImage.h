@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRRecentContact, UIImage;
+@class CRRecentContact;
 
 @interface EKRecentContactWithImage
 {
     CRRecentContact *_recent;
-    UIImage *_image;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)ingAlerts: /* Error: Ran out of types for this method. */;
+- (void)setViewControllerForPresentingAlerts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) CRRecentContact *recent; // @synthesize recent=_recent;
 
 @end

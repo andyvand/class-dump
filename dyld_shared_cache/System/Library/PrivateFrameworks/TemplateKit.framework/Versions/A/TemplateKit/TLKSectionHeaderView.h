@@ -6,30 +6,26 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class TLKLabel, TLKMultilineText, TLKProminenceView;
+@class TLKLabel, TLKMultilineText;
 
 @interface TLKSectionHeaderView : TLKView
 {
     TLKMultilineText *_headerText;
-    TLKLabel *_headerTextLabel;
-    TLKProminenceView *_backgroundView;
 }
 
 - (_Bool);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)EncryptionType;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TLKProminenceView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) TLKMultilineText *headerText; // @synthesize headerText=_headerText;
 @property(retain, nonatomic) TLKLabel *headerTextLabel; // @synthesize headerTextLabel=_headerTextLabel;
 
 @end

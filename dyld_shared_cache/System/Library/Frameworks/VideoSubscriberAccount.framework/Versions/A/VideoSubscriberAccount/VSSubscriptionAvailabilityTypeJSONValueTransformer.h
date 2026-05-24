@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)archScopeSliceControllerDelegate>"};
 - (id);
 
 @end

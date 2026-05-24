@@ -5,5 +5,7 @@
 //
 
 @protocol FindMyDeviceUserNotificationsXPCInterface
+- (oneway void)16@24;
+- (oneway void)okePoint=d{CGPoint=dd}ddddddddd}24;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol QLPreviewItem;
-
 @interface SearchUIPreviewContainer
 {
     struct CGSize _preferredQuickLookContentSize;
@@ -16,15 +14,7 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly) _Bool isLoaded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property struct CGSize preferredQuickLookContentSize; // @synthesize preferredQuickLookContentSize=_preferredQuickLookContentSize;
-@property(retain) id <QLPreviewItem> previewItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<QLPreviewItem>",?,&
-
 
 @end
 

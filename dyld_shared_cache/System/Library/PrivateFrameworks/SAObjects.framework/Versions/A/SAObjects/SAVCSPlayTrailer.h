@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSString, NSURL, SAUIImageResource;
+@class NSString;
 
 @interface SAVCSPlayTrailer : SAAceView
 {
@@ -14,28 +14,23 @@
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)~;
+- (id);
+- (id);
+- (id)P;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)emGroup;
+- (id)B;
+- (id);
+- (void)itemGroup;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentType;
-@property(copy, nonatomic) NSURL *hiresTrailerUri;
-@property(retain, nonatomic) SAUIImageResource *image;
-@property(copy, nonatomic) NSURL *lowresTrailerUri;
-@property(copy, nonatomic) NSURL *url;
-@property(copy, nonatomic) NSString *utsId;
 
 @end
 

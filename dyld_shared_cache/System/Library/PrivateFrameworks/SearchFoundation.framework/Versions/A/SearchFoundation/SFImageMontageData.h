@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface SFImageMontageData
 {
@@ -12,29 +12,20 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)B;
+- (id)setDisableImplicitSectioning:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)About to begin playing alert %{public}@ with sound:(id)arg1 %{public}@.;
+- (id)16@24#32;
+- (id)etResource"8Q16^B24;
+- (id)albumGUID;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)xMatchInRecipientEmailAddresses;
+- (void)_countNgramPrefixMatchInRecipientEmailAddresses;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

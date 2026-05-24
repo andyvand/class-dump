@@ -10,7 +10,7 @@
 {
 }
 
-- (void *);
+- (void *)H;
 - (Class);
 
 @end

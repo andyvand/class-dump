@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIStretch : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputPoint;
-    CIVector *inputSize;
 }
 
 + (id);
@@ -21,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)NH;
 - (id);
 - (id);
 - (void)compressed surface cannot be accessed via its base address.
@@ -36,8 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputPoint; // @synthesize inputPoint;
-@property(retain, nonatomic) CIVector *inputSize; // @synthesize inputSize;
 
 @end
 

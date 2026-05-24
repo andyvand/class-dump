@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface GEOBluePOIPoi
 {
     unsigned long long _aoiIdentifier;
-    NSMutableArray *_polygons;
-    struct {
-        unsigned int has_aoiIdentifier:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)connectDeviceWithUUID:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)loadStrategy:(struct _NSZone *)arg1 loadedTileKey:source:sizeInBytes: /* Error: Ran out of types for this method. */;
+- (id)preloadStrategy:(struct _NSZone *)arg1 loadedTileKey:source:sizeInBytes: /* Error: Ran out of types for this method. */;
 - (id)Daðae¨fÀhHiìnloq¨q;
 - (id)n_id IN lookup_region_name_by_id_recursive AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0    LIMIT 1;;
 - (void)°Ù¦þ

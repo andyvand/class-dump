@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)rsions/A/CoreGraphics;
 - (_Bool);
 
 @end

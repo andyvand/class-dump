@@ -7,11 +7,10 @@
 @interface FAChildAccountCutOffAgeRequest
 {
     id urlProvider;
-    id urlSession;
 }
 
 - (void);
-- (id);
+- (id)y;
 - (id);
 - (void);
 

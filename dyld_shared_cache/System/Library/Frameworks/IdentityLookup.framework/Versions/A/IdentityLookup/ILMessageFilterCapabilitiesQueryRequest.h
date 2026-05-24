@@ -11,9 +11,9 @@
     NSString *_extensionIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)turePlatformAdapter",R,N;
 - (id);
-- (id);
+- (id)ion parameters,gps-leap-second,%i,gps-to-utc,%i,galileo-to-gps,%i;
 - (id);
 - (unsigned long long);
 - (id);

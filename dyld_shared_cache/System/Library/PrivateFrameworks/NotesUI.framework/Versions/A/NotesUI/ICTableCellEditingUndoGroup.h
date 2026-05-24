@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTableAttachmentSelection, ICTableUndoTarget, NSUUID;
+@class NSUUID;
 
 @interface ICTableCellEditingUndoGroup
 {
     NSUUID *_columnID;
-    NSUUID *_rowID;
-    ICTableAttachmentSelection *_tableSelection;
-    ICTableUndoTarget *_undoTarget;
 }
 
 - (id);
@@ -20,13 +17,10 @@
 - (id);
 - (id);
 - (id)32;
-- (void)xtAttachment;
+- (void)attachmentAsNSTextAttachment;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *columnID; // @synthesize columnID=_columnID;
-@property(readonly, nonatomic) NSUUID *rowID; // @synthesize rowID=_rowID;
-@property(readonly, nonatomic) ICTableAttachmentSelection *tableSelection; // @synthesize tableSelection=_tableSelection;
-@property(readonly, nonatomic) ICTableUndoTarget *undoTarget; // @synthesize undoTarget=_undoTarget;
 
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_data, OS_xpc_object;
-
 @interface OS_xpc_remote_message
 {
     unsigned long long msg_id;
-    CDUnknownBlockType barrier;
-    NSObject<OS_dispatch_data> *body;
-    int ool_length;
-    NSObject<OS_xpc_object> *ool[16];
-    OS_xpc_remote_message *link_stqe_next;
-    _Bool wants_reply;
 }
 
-- (void);
+- (void)^;
 
 @end
 

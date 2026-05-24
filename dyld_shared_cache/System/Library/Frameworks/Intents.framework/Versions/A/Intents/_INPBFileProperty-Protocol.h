@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBFilePropertyValue;
-
 @protocol _INPBFileProperty
+- (void)None;
+- (int)y;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasQualifier;
-@property(readonly, nonatomic) _Bool hasValue;
 @property(nonatomic) int name;
-@property(nonatomic) int qualifier;
-@property(retain, nonatomic) _INPBFilePropertyValue *value;
 @end
 

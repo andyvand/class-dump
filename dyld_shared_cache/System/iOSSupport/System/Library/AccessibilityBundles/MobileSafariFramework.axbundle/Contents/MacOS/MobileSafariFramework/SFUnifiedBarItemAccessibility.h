@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)keyCommandWithInput:modifierFlags:action: /* Error: Ran out of types for this method. */;
 + (void);
 
 @end

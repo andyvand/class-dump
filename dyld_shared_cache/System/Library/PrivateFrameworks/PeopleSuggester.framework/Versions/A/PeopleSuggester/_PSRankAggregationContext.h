@@ -11,9 +11,9 @@
     NSArray *_priorityOrder;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)_gradingOptInStateChange;
+- (id)_entityTypeMentioned;
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *priorityOrder; // @synthesize priorityOrder=_priorityOrder;

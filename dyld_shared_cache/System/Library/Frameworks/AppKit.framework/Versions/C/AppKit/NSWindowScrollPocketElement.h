@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSViewCornerRadii, NSWindow;
-
 @interface NSWindowScrollPocketElement
 {
     void *_identifier;
-    NSWindow *_window;
-    long long _style;
-    NSViewCornerRadii *_cornerRadii;
-    struct CGRect _frame;
 }
 
 - (id);
@@ -25,17 +19,13 @@
 × ;
 - (void)ñã3ð1Â0@ù
 × ;
-- (void)ation;
-- (void)nfigureFinalState;
+- (void)fileSystemRepresentation;
+- (void)_configureFinalState;
 - (void *)$;
 - (void)ble;
 
 // Remaining properties
-@property(retain, nonatomic) NSViewCornerRadii *cornerRadii; // @synthesize cornerRadii=_cornerRadii;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(nonatomic) void *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(retain, nonatomic) NSWindow *window; // @synthesize window=_window;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RRSchemaRRClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_rrID;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasRrID;
-    _Bool _hasRequestId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -29,30 +24,24 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)_handleDidForgetSheet:(_Bool)arg1 window:shouldRegister:password:pet:firstDevice:alreadyPending: /* Error: Ran out of types for this method. */;
+- (_Bool)_disableiCloudDriveStopButton;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Error"16;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ecovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?) ;
+- (id)`>;
 - (id);
-- (id);
-- (id)ges2Min;
+- (id)appContactFreqForMessages2Min;
 - (id)tionScore;
 - (void)l.siri.ift.IFTClientEvent.IFTStatementResult;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasRrID; // @synthesize hasRrID=_hasRrID;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 @property(retain, nonatomic) SISchemaUUID *rrID; // @synthesize rrID=_rrID;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 
 @end
 

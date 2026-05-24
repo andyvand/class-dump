@@ -5,5 +5,6 @@
 //
 
 @protocol _UIWindowSceneActivator
+- (void);
 @end
 

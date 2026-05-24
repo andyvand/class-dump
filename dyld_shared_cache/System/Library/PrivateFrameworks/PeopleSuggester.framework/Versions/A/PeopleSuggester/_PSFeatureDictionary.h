@@ -9,17 +9,16 @@
 @interface _PSFeatureDictionary
 {
     NSMutableDictionary *_timeBuckets;
-    NSMutableDictionary *_unoptimizedValues;
-    unsigned long long _count;
 }
 
-- (void);
-- (void);
+- (void)_activeStatus;
+- (void)_activeRedactionPolicies;
 - (id);
 - (void);
-- (id);
+- (id)%Κh;
 - (void);
-- (id);
+- (id)vironment must be <= %d characters.
+;
 - (id);
 - (unsigned long long);
 - (void);

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (id)d to open URL:(struct _NSZone *)arg1 %@!;
 - (id);
 - (id);

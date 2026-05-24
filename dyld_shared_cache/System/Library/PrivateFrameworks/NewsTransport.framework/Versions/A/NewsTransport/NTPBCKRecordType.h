@@ -21,12 +21,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void)rchLocation;
+- (void)AXSSVoiceOverTextualContextNarrative;
+- (void)hasSearchLocation;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

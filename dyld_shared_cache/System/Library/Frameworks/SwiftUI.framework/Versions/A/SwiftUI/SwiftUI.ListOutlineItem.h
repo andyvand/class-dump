@@ -7,11 +7,6 @@
 @interface SwiftUI.ListOutlineItem
 {
     id row;
-    id parent;
-    id childrenIDs;
-    id childrenCache;
-    id viewID;
-    id viewTraits;
 }
 
 - (id);

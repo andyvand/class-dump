@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SFService;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFProxHandoffService
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateCompletion;
-    _Bool _invalidateCalled;
-    SFService *_service;
-    int _serviceState;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (void);
@@ -27,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)j©ÿÿ;
 - (void)Ys;
 

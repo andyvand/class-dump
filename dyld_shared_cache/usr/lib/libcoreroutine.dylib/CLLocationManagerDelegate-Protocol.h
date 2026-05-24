@@ -9,9 +9,17 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (_Bool)isWiiUProController;
+- (void)isTransparencySupported;
+- (void)isTBFCPageCapable;
+- (void)isSpecialMicrosoftMouse;
+- (void)isSmartRoutingSupported;
+- (void)isSessionOpen;
+- (void)isRecent;
+- (void)fier %@ fromID %@ succeeded %@;
 - (void)C,ð1Â0@ù
 × ;
-- (void):(CLLocationManager *)arg1;
+- (void)setReceiverService:(CLLocationManager *)arg1;
 - (void);
 @end
 

@@ -7,6 +7,7 @@
 @protocol MapsSuggestionsMapsSyncConnectorDelegate;
 
 @protocol MapsSuggestionsMapsSyncConnector
+- (_Bool)A;
 
 // Remaining properties
 @property(nonatomic) __weak id <MapsSuggestionsMapsSyncConnectorDelegate> delegate;

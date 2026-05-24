@@ -9,33 +9,27 @@
 @interface PKDeviceVersion
 {
     NSString *_deviceClass;
-    NSString *_generation;
-    NSString *_model;
-    PKDeviceVersion *_companion;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)@;
+- (unsigned long long);
+- (_Bool)hasTcpECNIntConnNoPLCE;
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)ta:ofType:forPass: /* Error: Ran out of types for this method. */;
-- (id)roducts;
+- (id)initByUnarchivingData:ofType:forPass: /* Error: Ran out of types for this method. */;
+- (id)_reloadSetupProducts;
 - (void)e:%lu;  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PKDeviceVersion *companion; // @synthesize companion=_companion;
 @property(readonly, nonatomic) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly, nonatomic) NSString *generation; // @synthesize generation=_generation;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
 
 @end
 

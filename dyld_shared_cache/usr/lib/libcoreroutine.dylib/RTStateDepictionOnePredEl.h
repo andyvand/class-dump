@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface RTStateDepictionOnePredEl
 {
     int _numOfClustEntries;
-    double _aggregateTime_s;
-    double _latestVisitTime_s;
-    double _earliestVisitTime_s;
-    NSMutableArray *_visitHist;
-    double _density;
 }
 
 - (void);
-- (void);
+- (void)_timeLimitForItem;
 - (void);
 - (id);
 - (id);
@@ -25,19 +18,15 @@
 - (double);
 - (double);
 - (double);
-- (int);
+- (int)e %@ not found
+;
 - (void);
 - (void)%@, time since last training attempt, %@, time since last training success, %@;
 - (double);
 - (void)^;
 
 // Remaining properties
-@property(nonatomic) double aggregateTime_s; // @synthesize aggregateTime_s=_aggregateTime_s;
-@property(nonatomic) double density; // @synthesize density=_density;
-@property(nonatomic) double earliestVisitTime_s; // @synthesize earliestVisitTime_s=_earliestVisitTime_s;
-@property(nonatomic) double latestVisitTime_s; // @synthesize latestVisitTime_s=_latestVisitTime_s;
 @property(nonatomic) int numOfClustEntries; // @synthesize numOfClustEntries=_numOfClustEntries;
-@property(retain, nonatomic) NSMutableArray *visitHist; // @synthesize visitHist=_visitHist;
 
 @end
 

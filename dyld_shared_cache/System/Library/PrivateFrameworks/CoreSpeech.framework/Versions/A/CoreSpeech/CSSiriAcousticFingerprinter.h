@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
+@class NSObject;
 @protocol CSSiriAcousticFingerprinterDelegate, OS_dispatch_queue;
 
 @interface CSSiriAcousticFingerprinter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_asxConnection;
-    id <CSSiriAcousticFingerprinterDelegate> _delegate;
-    unsigned long long _totalSampleCount;
-    unsigned long long _nextFingerprintSampleNumber;
-    struct AudioStreamBasicDescription _sourceASBD;
-    double _interval;
-    struct OpaqueAudioConverter *_fingerprinterConverter;
 }
 
 - (void);
@@ -36,7 +29,7 @@
 - (id);
 - (void);
 - (void);
-- (void)ingPhraseResultsWithDetectedPhId: /* Error: Ran out of types for this method. */;
+- (void)getLosingPhraseResultsWithDetectedPhId: /* Error: Ran out of types for this method. */;
 - (void)HLlQQ;
 - (id)}lu;
 

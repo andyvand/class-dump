@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SAUIFeedbackForm, SiriSharedUISAEViewModelController, SiriUISystemAssistantExperienceViewController;
-@protocol SiriUIPresentationDataSource, SiriUIPresentationDelegate;
+@class SiriSharedUISAEViewModelController, SiriUISystemAssistantExperienceViewController;
 
 __attribute__((visibility("hidden")))
 @interface SiriUISystemAssistantExperiencePresentation
 {
     SiriUISystemAssistantExperienceViewController *_saeViewController;
-    NSString *_latencyUtterance;
-    _Bool _canPresentLatency;
-    SAUIFeedbackForm *_currentFeedbackForm;
-    NSUUID *_currentTaskIdentifier;
-    _Bool _isPresentingContent;
-    id <SiriUIPresentationDataSource> _dataSource;
-    id <SiriUIPresentationDelegate> _delegate;
-    SiriSharedUISAEViewModelController *_activeViewModelController;
-    long long _inputType;
-    NSString *_currentSpeakingIdentifier;
 }
 
 - (void);
@@ -32,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,7 +62,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (struct CGSize);
+- (struct CGSize);
 - (long long);
 - (void);
 - (void);
@@ -111,7 +100,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (_Bool);
@@ -122,7 +111,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (_Bool);
 - (id);
@@ -131,24 +120,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) SiriSharedUISAEViewModelController *activeViewModelController; // @synthesize activeViewModelController=_activeViewModelController;
-@property(copy, nonatomic) NSString *currentSpeakingIdentifier; // @synthesize currentSpeakingIdentifier=_currentSpeakingIdentifier;
-@property(nonatomic) __weak id <SiriUIPresentationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SiriUIPresentationDataSource>",?,W,N,V_dataSource
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUIPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SiriUIPresentationDelegate>",?,W,N,V_delegate
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=_inputType, setter=_setInputType:) long long inputType; // @synthesize inputType=_inputType;
-@property(readonly, nonatomic) _Bool isPresentingContent; // @synthesize isPresentingContent=_isPresentingContent;
-@property(readonly) Class superclass;
 
 @end
 

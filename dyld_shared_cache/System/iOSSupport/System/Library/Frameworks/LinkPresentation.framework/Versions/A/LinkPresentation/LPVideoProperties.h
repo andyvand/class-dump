@@ -11,12 +11,11 @@
 @interface LPVideoProperties : LPVisualMediaProperties
 {
     _Bool _hasAudio;
-    UIColor *_overlappingControlsColor;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)transcriptBecameVisibleTimestamp;
+- (void)tableView:(id)arg1 sectionForSectionIndexTitle:atIndex: /* Error: Ran out of types for this method. */;
+- (id)systemImageNameForActionManager: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setOverlappingControlsColor:) UIColor *_overlappingControlsColor; // @synthesize _overlappingControlsColor;
-@property(nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;
 
 @end
 

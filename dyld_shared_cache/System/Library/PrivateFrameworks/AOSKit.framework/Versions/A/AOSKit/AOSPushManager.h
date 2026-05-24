@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSArray, NSString;
-@protocol AOSPushDelegate;
+@class NSString;
 
 @interface AOSPushManager
 {
     NSString *_apsEnvironment;
-    APSConnection *_apsConnection;
-    NSString *_tokenString;
-    NSArray *_topics;
-    _Bool _enableLaunching;
-    id <AOSPushDelegate> _msgDelegate;
-    _Bool _tokenFetchAttempted;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)/;
 - (id);
 - (void);
 - (void);
@@ -29,20 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)hh8;
 - (void);
 - (void);
 - (void);
 - (void)ïAòc6§XÙJûl?ÐQÂsä·(©ZË|í a4¥VÇxùj=®_ðqâµ&×HÉzë¾/À2£TÅvç;¬]Î³$ÕF÷hé¼-ÞOà¡RÃtå¸9ª[Ì}î0±"ÓDõf	º+ÜMþo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

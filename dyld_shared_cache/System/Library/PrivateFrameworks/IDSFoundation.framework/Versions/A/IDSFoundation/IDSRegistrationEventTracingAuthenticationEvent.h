@@ -9,13 +9,12 @@
 @interface IDSRegistrationEventTracingAuthenticationEvent
 {
     void name;
-    id authenticationType;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)nitializeSendInfoForCandidatePair:(id)arg1;
+- (void)_initializeSendInfoForCandidatePair:(id)arg1;
 - (void)le.Bridge;
 
 // Remaining properties

@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSet, NSString, NSToolbar, NSURL, UITitlebar, _UINSToolbarConfiguration, _UINavigationBarNSToolbarItemManager, _UINavigationBarPalette;
-@protocol _UINavigationBarNSToolbarProxyTabBarItemProviding;
+@class NSToolbar, UITitlebar;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarNSToolbarProxy
 {
     NSToolbar *_reusedToolbar;
-    _Bool _isUpdatingToolbarProgrammatically;
-    _Bool _isSendingToolbarChangeNotification;
-    _Bool _isObservingKVO;
-    _UINavigationBarNSToolbarItemManager *_nsToolbarItemManager;
-    _UINSToolbarConfiguration *_currentToolbarConfiguration;
-    NSSet *_toolbarOwnedGroups;
-    NSString *_title;
-    NSString *_subtitle;
-    _Bool _isTitleHiddenByCurrentAppearance;
-    NSURL *_representedURL;
-    CDUnknownBlockType _representedDragItemsProvider;
-    NSMutableArray *_registeredParticipants;
-    struct {
-        unsigned int needsUpdate:1;
-    } _flags;
-    UITitlebar *_owningTitlebar;
-    id <_UINavigationBarNSToolbarProxyTabBarItemProviding> _tabBarProvider;
-    _UINavigationBarPalette *_bottomPalette;
 }
 
 + (_Bool);
@@ -36,33 +17,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (_Bool)unt"24;
+- (id)willMoveChatToRecentlyDeleted:(id)arg1;
+- (void)loadMessageWithGUID:queryID: /* Error: Ran out of types for this method. */;
+- (void)_adoptUpdatedStateForExistingItem:itemFromCKRecord: /* Error: Ran out of types for this method. */;
+- (void)MDCKDatabaseManager",&,N,V_databaseManager;
+- (void)BackwardCompatibilityMessageIdentifier",R,N;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)PCSTestBackupStateDidChange;
+- (void)AgentFallbackInterval %@;
+- (void)or handle ID:(id)arg1 %@;
+- (void)lter is disabled;
+- (void)s on file %@  (%@:(id)arg1 %@);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -70,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (_Bool);
@@ -80,10 +61,10 @@ __attribute__((visibility("hidden")))
 - (id)!ôEù1^Ð1Â0@ù
 × ;
 - (id)lledRestTimer"b1"delegateRotaryGestureRecognizerBeganClassifyingMovement"b1"delegateRotaryGestureRecognizerUpdatedClassifyingMovement"b1"delegateRotaryGestureRecognizerFailedClassifyingMovement"b1"delegateWasNonNil"b1};
-- (void):(id)arg1;
+- (void)setTintColor:(id)arg1 withDuration: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)terMaskImage must be backed by a CGImage:%@ /* Error: Ran out of types for this method. */;
-- (void)sets;
+- (void)safeAreaCornerInsets;
 - (void);
 - (void)Xô¡ÿ§;
 - (void)ÿ;
@@ -92,23 +73,7 @@ __attribute__((visibility("hidden")))
 - (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic) _UINavigationBarPalette *bottomPalette; // @synthesize bottomPalette=_bottomPalette;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTitleHiddenByCurrentAppearance;
-@property(readonly, nonatomic) _UINavigationBarNSToolbarItemManager *nsToolbarItemManager; // @synthesize nsToolbarItemManager=_nsToolbarItemManager;
 @property(readonly, nonatomic) __weak UITitlebar *owningTitlebar; // @synthesize owningTitlebar=_owningTitlebar;
-@property(readonly, copy, nonatomic) CDUnknownBlockType representedDragItemsProvider;
-@property(readonly, nonatomic) NSURL *representedURL;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <_UINavigationBarNSToolbarProxyTabBarItemProviding> tabBarProvider; // @synthesize tabBarProvider=_tabBarProvider;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSToolbar *toolbar;
 
 @end
 

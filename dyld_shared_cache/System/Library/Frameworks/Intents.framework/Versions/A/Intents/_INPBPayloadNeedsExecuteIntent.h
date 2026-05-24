@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentExecutionRequest;
+@class _INPBIntentExecutionRequest;
 
 @interface _INPBPayloadNeedsExecuteIntent
 {
     struct _has;
-    _INPBIntentExecutionRequest *_intentExecution;
 }
 
 + (_Bool);
@@ -21,21 +20,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void)Name;
+- (id);
+- (void)_className;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentExecution;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentExecutionRequest *intentExecution; // @synthesize intentExecution=_intentExecution;
-@property(readonly) Class superclass;
 
 @end
 

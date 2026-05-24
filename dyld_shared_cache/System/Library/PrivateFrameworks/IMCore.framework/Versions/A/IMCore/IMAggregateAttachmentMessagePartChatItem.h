@@ -11,24 +11,22 @@
 @interface IMAggregateAttachmentMessagePartChatItem : IMAttachmentMessagePartChatItem
 {
     NSArray *_transferGUIDs;
-    NSArray *_aggregateAttachmentParts;
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)gorithm=%d dtmfTonePlaybackEnabled=%d minJitterBufferQueueSize=%d dtmfEventCallbacksEnabled=%d enableEnhancedJBAdaptations=%d isFixedJitterBufferInitialOvershootResiliencyEnabled=%{bool}d;
+- (_Bool)PFL is expired, using hardcoded .mil file.;
+- (void)iaBitrateNoRed=%ukbps redPlayedRate=%ukbps redDiscardedRate=%ukbps;
+- (id)ad red payload!;
+- (_Bool)s] %s:(id)arg1 %d array is empty;
+- (id)icipantID=%llu, index=%ld, retry=%ld, payload=%@;
+- (id)eam [%s] %s:(id)arg1 %d %@(%p) capture=%dx%d, encode=%dx%d;
+- (id)nfigure transport;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *aggregateAttachmentParts; // @synthesize aggregateAttachmentParts=_aggregateAttachmentParts;
-@property(readonly, copy, nonatomic) NSArray *transferGUIDs; // @synthesize transferGUIDs=_transferGUIDs;
 
 @end
 

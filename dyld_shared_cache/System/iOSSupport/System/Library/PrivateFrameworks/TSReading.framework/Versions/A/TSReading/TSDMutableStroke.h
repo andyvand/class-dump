@@ -6,15 +6,13 @@
 
 #import <TSReading/TSDStroke.h>
 
-@class TSDStrokePattern, TSUColor;
-
 @interface TSDMutableStroke : TSDStroke
 {
 }
 
-+ (id);
-+ (id);
-- (void);
++ (id)P;
++ (id);
+- (void)Fxfuasiovlppa;
 - (void);
 - (void);
 - (void);
@@ -34,14 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double actualWidth;
-@property(nonatomic) int cap;
-@property(copy, nonatomic) TSUColor *color;
 @property(nonatomic) _Bool dontClearBackground; // @dynamic dontClearBackground;
-@property(nonatomic) int join;
-@property(nonatomic) double miterLimit;
-@property(copy, nonatomic) TSDStrokePattern *pattern;
-@property(nonatomic) double width;
 
 @end
 

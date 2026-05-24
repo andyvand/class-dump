@@ -5,5 +5,9 @@
 //
 
 @protocol CalUISuggestionsFieldDelegate
+
+@optional
+- (void);
+- (void)i;
 @end
 

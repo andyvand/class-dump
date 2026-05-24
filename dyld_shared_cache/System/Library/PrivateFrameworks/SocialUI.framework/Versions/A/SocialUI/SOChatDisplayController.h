@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAccount, IMChat, NSArray, NSAttributedString, NSDate, NSDictionary, NSMutableDictionary, NSOrderedSet, NSString, NSTextStorage, NSUndoManager;
-@protocol NSFastEnumeration;
+@class NSString;
 
 @interface SOChatDisplayController
 {
     _Bool _isShowingSendingText;
-    _Bool _hasHitBoundsLimit;
-    _Bool _sendingMessage;
-    _Bool _joiningInvitation;
-    NSString *_title;
-    NSString *_customTitle;
-    NSString *_defaultTitle;
-    NSString *_persistentGUID;
-    NSString *_summary;
-    NSDictionary *_bizIntent;
-    NSDate *_dateLastViewed;
-    IMChat *_chat;
-    IMAccount *_sendingAccount;
-    NSTextStorage *_inputLineTextStorage;
-    NSArray *_inputLineSelectedRanges;
-    NSUndoManager *_inputLineUndoManager;
-    NSArray *_recipients;
-    NSOrderedSet *_recipientHandles;
-    NSMutableDictionary *_viewConfigurationStorage;
 }
 
 + (id);
@@ -37,17 +18,17 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool))&;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -69,7 +50,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (id);
@@ -111,63 +92,22 @@
 - (id);
 - (void);
 - (id);
+- (void)prepareIrisPlayerItemWithAsset:(id)arg1 trimmedTimeRange:(unsigned long long)arg2 photoTime:(struct _NSRange)arg3 includeVideo:(long long)arg4 includeAudio:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)",&,V_pather;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)CNewsTabiEventAggregationArticleLikedConditions";
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)C;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *actionableHandles; // @dynamic actionableHandles;
-@property(retain, nonatomic) NSDictionary *bizIntent; // @synthesize bizIntent=_bizIntent;
-@property(readonly) NSString *businessChatPlaceholderString;
-@property(readonly, nonatomic) _Bool canAddRecipientHandles; // @dynamic canAddRecipientHandles;
-@property(readonly, nonatomic) _Bool canBeRestored; // @dynamic canBeRestored;
-@property(readonly, nonatomic) _Bool canInsertAttachmentsIntoInputLineContents; // @dynamic canInsertAttachmentsIntoInputLineContents;
-@property(readonly) _Bool canRemoveRecipientHandles; // @dynamic canRemoveRecipientHandles;
-@property(retain, nonatomic) IMChat *chat; // @synthesize chat=_chat;
-@property(readonly, copy, nonatomic) id <NSFastEnumeration> chatTranscriptItems;
-@property(copy, nonatomic) NSString *customTitle; // @synthesize customTitle=_customTitle;
-@property(nonatomic) NSDate *dateLastViewed; // @synthesize dateLastViewed=_dateLastViewed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSString *defaultTitle; // @synthesize defaultTitle=_defaultTitle;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool filterEmptyChatOut;
-@property(readonly, nonatomic) _Bool hasBusinessRecipient; // @dynamic hasBusinessRecipient;
-@property _Bool hasHitBoundsLimit; // @synthesize hasHitBoundsLimit=_hasHitBoundsLimit;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSAttributedString *inputLineAttributedString; // @dynamic inputLineAttributedString;
-@property(readonly) _Bool inputLineContainsFileTransfers; // @dynamic inputLineContainsFileTransfers;
-@property(readonly, nonatomic) _Bool inputLineHasContent; // @dynamic inputLineHasContent;
-@property(retain, nonatomic) NSArray *inputLineSelectedRanges; // @synthesize inputLineSelectedRanges=_inputLineSelectedRanges;
-@property(readonly, nonatomic) NSTextStorage *inputLineTextStorage; // @synthesize inputLineTextStorage=_inputLineTextStorage;
-@property(readonly, nonatomic) NSUndoManager *inputLineUndoManager; // @synthesize inputLineUndoManager=_inputLineUndoManager;
-@property(nonatomic, setter=setShowingSendingText:) _Bool isShowingSendingText; // @synthesize isShowingSendingText=_isShowingSendingText;
-@property(readonly, nonatomic, getter=isJoiningInvitation) _Bool joiningInvitation; // @synthesize joiningInvitation=_joiningInvitation;
-@property(readonly, nonatomic) unsigned long long numberOfChatTranscriptItems;
-@property(retain, nonatomic) NSString *persistentGUID; // @synthesize persistentGUID=_persistentGUID;
-@property(copy, nonatomic) NSOrderedSet *recipientHandles; // @synthesize recipientHandles=_recipientHandles;
-@property(readonly, nonatomic) NSArray *recipientHandlesArray;
-@property(readonly) _Bool recipientIsChat; // @dynamic recipientIsChat;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) _Bool representsNewChat; // @dynamic representsNewChat;
-@property(retain, nonatomic) IMAccount *sendingAccount; // @synthesize sendingAccount=_sendingAccount;
-@property(nonatomic) _Bool sendingMessage; // @synthesize sendingMessage=_sendingMessage;
-@property(readonly, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain) NSMutableDictionary *viewConfigurationStorage; // @synthesize viewConfigurationStorage=_viewConfigurationStorage;
 
 @end
 

@@ -6,26 +6,24 @@
 
 #import <CoreUI/CSIGenerator.h>
 
-@class CSIBitmapWrapper, CUIRenditionKey;
+@class CUIRenditionKey;
 
 __attribute__((visibility("hidden")))
 @interface CUICatalogCSIGenerator : CSIGenerator
 {
     CUIRenditionKey *_baseKey;
-    CSIBitmapWrapper *_flattenedBitmap;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CUIRenditionKey *baseKey; // @synthesize baseKey=_baseKey;
-@property(retain, nonatomic) CSIBitmapWrapper *flattenedBitmap; // @synthesize flattenedBitmap=_flattenedBitmap;
 
 @end
 

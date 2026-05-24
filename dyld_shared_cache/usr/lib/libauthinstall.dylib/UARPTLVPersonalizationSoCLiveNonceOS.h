@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned char);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)stopRoutingVideoToPictureInPicturePlayerLayerView;
 
 // Remaining properties
 @property(readonly) unsigned char liveNonce; // @synthesize liveNonce=_liveNonce;

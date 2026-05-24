@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKPlaceActionDataProvider, MKPlaceCardActionItem, NSString, TUCallProvider;
-@protocol _MKInfoCardAnalyticsDelegate;
+@class MKPlaceCardActionItem;
 
 @interface MKPlaceActionManager
 {
     MKPlaceCardActionItem *_favoriteActionItem;
-    MKPlaceCardActionItem *_homeActionItem;
-    MKPlaceCardActionItem *_collectionActionItem;
-    MKPlaceCardActionItem *_callActionItem;
-    MKPlaceCardActionItem *_websiteActionItem;
-    MKPlaceCardActionItem *_brandStoreActionItem;
-    MKPlaceCardActionItem *_libraryActionItem;
-    MKPlaceCardActionItem *_noteActionItem;
-    MKPlaceCardActionItem *_addToFavoritesGuideActionItem;
-    MKPlaceCardActionItem *_rateActionItem;
-    TUCallProvider *_callProvider;
-    _Bool _placeInBookmarks;
-    _Bool _placeInCollections;
-    _Bool _placeInShortcuts;
-    _Bool _placeHasRating;
-    _Bool _placeInFavoritesGuide;
-    _Bool _showContactActions;
-    _Bool _isCurrentLocation;
-    unsigned long long _placeInLibrary;
-    unsigned long long _placeHasNote;
-    id _placeCardDelegate;
-    id <_MKInfoCardAnalyticsDelegate> _analyticsDelegate;
-    MKPlaceActionDataProvider *_dataProvider;
-    MKPlaceCardActionItem *_deleteFromLibraryActionItem;
 }
 
-- (id);
+- (id)uting network energy diff between self=%@ and otherSnapshot=%@;
 - (_Bool);
 - (id);
 - (void);
@@ -45,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
@@ -58,18 +34,19 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)K;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)Z;
 - (id);
 - (id);
 - (id);
@@ -85,8 +62,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)X};
 - (id);
 - (void);
 - (id);
@@ -94,67 +70,34 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool)p;
 - (void);
+- (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool)groupCaseIdentifierForSignature:reply: /* Error: Ran out of types for this method. */;
+- (id)CaseDampeningExceptions;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)mapLayerWillAnimateToLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <_MKInfoCardAnalyticsDelegate> analyticsDelegate; // @synthesize analyticsDelegate=_analyticsDelegate;
-@property(readonly, nonatomic) MKPlaceCardActionItem *callActionItem;
-@property(readonly, nonatomic) MKPlaceCardActionItem *claimBusinessActionItem;
-@property(readonly, nonatomic) MKPlaceCardActionItem *collectionActionItem;
-@property(readonly, nonatomic) MKPlaceActionDataProvider *dataProvider; // @synthesize dataProvider=_dataProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) MKPlaceCardActionItem *deleteFromLibraryActionItem; // @synthesize deleteFromLibraryActionItem=_deleteFromLibraryActionItem;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MKPlaceCardActionItem *favoriteActionItem;
-@property(readonly, nonatomic) MKPlaceCardActionItem *flyoverActionItem;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MKPlaceCardActionItem *homeActionItem;
-@property(nonatomic) _Bool isCurrentLocation; // @synthesize isCurrentLocation=_isCurrentLocation;
-@property(readonly, nonatomic) MKPlaceCardActionItem *libraryActionItem;
-@property(readonly, nonatomic) MKPlaceCardActionItem *messageActionItem;
-@property(readonly, nonatomic) MKPlaceCardActionItem *noteActionItem;
-@property(nonatomic) __weak id placeCardDelegate; // @synthesize placeCardDelegate=_placeCardDelegate;
-@property(nonatomic) unsigned long long placeHasNote; // @synthesize placeHasNote=_placeHasNote;
-@property(nonatomic) _Bool placeHasRating; // @synthesize placeHasRating=_placeHasRating;
-@property(nonatomic) _Bool placeInBookmarks; // @synthesize placeInBookmarks=_placeInBookmarks;
-@property(nonatomic) _Bool placeInCollections; // @synthesize placeInCollections=_placeInCollections;
-@property(nonatomic) _Bool placeInFavoritesGuide; // @synthesize placeInFavoritesGuide=_placeInFavoritesGuide;
-@property(nonatomic) unsigned long long placeInLibrary; // @synthesize placeInLibrary=_placeInLibrary;
-@property(nonatomic) _Bool placeInShortcuts; // @synthesize placeInShortcuts=_placeInShortcuts;
-@property(readonly, nonatomic) MKPlaceCardActionItem *removeMarkerItem;
-@property(readonly, nonatomic) MKPlaceCardActionItem *reportAProblemAddPlaceFooterAction;
-@property(readonly, nonatomic) MKPlaceCardActionItem *reportAProblemFooterAction;
-@property(readonly, nonatomic) MKPlaceCardActionItem *shareActionItem;
-@property(nonatomic) _Bool showContactActions; // @synthesize showContactActions=_showContactActions;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MKPlaceCardActionItem *websiteActionItem;
 
 @end
 

@@ -6,20 +6,11 @@
 
 #import <ExchangeWebServices/EWSMessageType.h>
 
-@class EWSItemIdType, NSDateComponents, NSString;
+@class EWSItemIdType;
 
 @interface EWSMeetingMessageType : EWSMessageType
 {
     _Bool _IsDelegated;
-    _Bool _IsOutOfDate;
-    _Bool _HasBeenProcessed;
-    EWSItemIdType *_AssociatedCalendarItemId;
-    long long _ResponseType;
-    NSString *_UID;
-    NSDateComponents *_RecurrenceId;
-    NSDateComponents *_DateTimeStamp;
-    NSDateComponents *_ProposedStart;
-    NSDateComponents *_ProposedEnd;
 }
 
 + (id);
@@ -33,29 +24,20 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)@;
+- (void);
+- (_Bool)c;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)tion;
+- (id)Resolution;
 
 // Remaining properties
 @property(retain, nonatomic) EWSItemIdType *AssociatedCalendarItemId; // @synthesize AssociatedCalendarItemId=_AssociatedCalendarItemId;
-@property(retain, nonatomic) NSDateComponents *DateTimeStamp; // @synthesize DateTimeStamp=_DateTimeStamp;
-@property(nonatomic) _Bool HasBeenProcessed; // @synthesize HasBeenProcessed=_HasBeenProcessed;
-@property(nonatomic) _Bool IsDelegated; // @synthesize IsDelegated=_IsDelegated;
-@property(nonatomic) _Bool IsOutOfDate; // @synthesize IsOutOfDate=_IsOutOfDate;
-@property(retain, nonatomic) NSDateComponents *ProposedEnd; // @synthesize ProposedEnd=_ProposedEnd;
-@property(retain, nonatomic) NSDateComponents *ProposedStart; // @synthesize ProposedStart=_ProposedStart;
-@property(retain, nonatomic) NSDateComponents *RecurrenceId; // @synthesize RecurrenceId=_RecurrenceId;
-@property(nonatomic) long long ResponseType; // @synthesize ResponseType=_ResponseType;
-@property(copy, nonatomic) NSString *UID; // @synthesize UID=_UID;
 
 @end
 

@@ -10,9 +10,9 @@
 
 - (_Bool);
 - (id);
+- (id)e;
 - (id);
-- (id);
-- (id);
+- (id)impressionMetrics;
 
 @end
 

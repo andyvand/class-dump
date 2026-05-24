@@ -11,8 +11,6 @@
 @interface DMFSetAirPlayRouteRequest : DMFTaskRequest
 {
     _Bool _suppressPasscodePrompt;
-    NSString *_routeUID;
-    NSString *_password;
 }
 
 + (_Bool);
@@ -23,13 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)avatarView;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 @property(copy, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(nonatomic) _Bool suppressPasscodePrompt; // @synthesize suppressPasscodePrompt=_suppressPasscodePrompt;
 
 @end
 

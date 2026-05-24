@@ -7,21 +7,14 @@
 @interface TeaUI.UIKitCardContainerController
 {
     id delegate;
-    id transitionManager;
-    id cardViewLayoutOptions;
-    id rootViewController;
-    id snaps;
-    id detents;
-    id cardItemStack;
-    id eventManager;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)address '%@' to locale '%@';
+- (void)stringFromTimeInterval: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (void)pÊüÿÊüÿèÊüÿËüÿ<ËüÿhËüÿËüÿøËüÿDÌüÿdÌüÿ|ÌüÿÍüÿÍüÿ4ÍüÿLÍüÿdÍüÿ|ÍüÿÍüÿðÍüÿ;
 - (void)/;

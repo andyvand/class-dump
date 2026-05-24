@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (void)GB2Hue: /* Error: Ran out of types for this method. */;
++ (void)RGB2Hue: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

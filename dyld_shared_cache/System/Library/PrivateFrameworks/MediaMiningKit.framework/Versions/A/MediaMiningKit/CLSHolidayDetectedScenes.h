@@ -7,23 +7,17 @@
 @interface CLSHolidayDetectedScenes
 {
     unsigned long long _detectedSceneEdgeCaseCount;
-    unsigned long long _detectedSceneMediumCount;
-    unsigned long long _detectedSceneImportantCount;
-    unsigned long long _detectedSceneImperativeCount;
 }
 
-- (void);
+- (void)R;
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)d FRC for %d items, %d failed L1, %d failed FRC, %d passed. %.3fs processing time left.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long detectedSceneEdgeCaseCount; // @synthesize detectedSceneEdgeCaseCount=_detectedSceneEdgeCaseCount;
-@property(readonly, nonatomic) unsigned long long detectedSceneImperativeCount; // @synthesize detectedSceneImperativeCount=_detectedSceneImperativeCount;
-@property(readonly, nonatomic) unsigned long long detectedSceneImportantCount; // @synthesize detectedSceneImportantCount=_detectedSceneImportantCount;
-@property(readonly, nonatomic) unsigned long long detectedSceneMediumCount; // @synthesize detectedSceneMediumCount=_detectedSceneMediumCount;
 
 @end
 

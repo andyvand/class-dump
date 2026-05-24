@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _SKUIStoreProductRemoteViewController;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class _SKUIStoreProductRemoteViewController;
 
 @interface SKUIStoreProductViewController
 {
     _SKUIStoreProductRemoteViewController *_remoteViewController;
-    NSObject<OS_dispatch_queue> *_loadProductQueue;
-    NSObject<OS_dispatch_semaphore> *_remoteViewControllerSemaphore;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

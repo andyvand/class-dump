@@ -6,18 +6,11 @@
 
 #import <CoreData/NSPersistentStoreRequest.h>
 
-@class CKSchedulerActivity, NSCloudKitMirroringRequestOptions, NSMutableArray, NSPersistentCloudKitContainerEventActivity, NSUUID;
+@class NSUUID;
 
 @interface NSCloudKitMirroringRequest : NSPersistentStoreRequest
 {
     NSUUID *_requestIdentifier;
-    NSCloudKitMirroringRequestOptions *_options;
-    CDUnknownBlockType _requestCompletionBlock;
-    _Bool _deferredByBackgroundTimeout;
-    NSMutableArray *_containerBlocks;
-    _Bool _isContainerRequest;
-    CKSchedulerActivity *_schedulerActivity;
-    NSPersistentCloudKitContainerEventActivity *_activity;
 }
 
 + (id);
@@ -27,15 +20,13 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)"9;
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long)Info %@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSCloudKitMirroringRequestOptions *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) CDUnknownBlockType requestCompletionBlock; // @synthesize requestCompletionBlock=_requestCompletionBlock;
 @property(readonly, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end

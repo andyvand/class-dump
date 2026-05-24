@@ -9,8 +9,6 @@
 @interface PXStoryTiltedEdgeInsetsAnimation : PXStoryValueAnimation
 {
     CDStruct_e307eb02 _sourceEdgeInsets;
-    CDStruct_e307eb02 _targetEdgeInsets;
-    CDStruct_e307eb02 _currentEdgeInsets;
 }
 
 - (CDStruct_e307eb02);
@@ -23,9 +21,7 @@
 - (CDStruct_e307eb02);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_e307eb02 currentEdgeInsets; // @synthesize currentEdgeInsets=_currentEdgeInsets;
 @property(readonly, nonatomic) CDStruct_e307eb02 sourceEdgeInsets; // @synthesize sourceEdgeInsets=_sourceEdgeInsets;
-@property(readonly, nonatomic) CDStruct_e307eb02 targetEdgeInsets; // @synthesize targetEdgeInsets=_targetEdgeInsets;
 
 @end
 

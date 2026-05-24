@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)_section;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)0;
 - (_Bool);
 - (id)fo";
-- (id)ltDetourInfos;
+- (id)_resultDetourInfos;
 - (id)4	hÄP;
 - (void);
 

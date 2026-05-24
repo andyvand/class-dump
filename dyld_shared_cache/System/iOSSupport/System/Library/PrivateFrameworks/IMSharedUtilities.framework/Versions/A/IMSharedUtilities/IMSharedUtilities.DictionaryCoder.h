@@ -7,16 +7,13 @@
 @interface IMSharedUtilities.DictionaryCoder
 {
     id logger;
-    id dicts;
-    id arrays;
-    id key;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool)tsByDescriptor;
+- (_Bool)subBucketsByDescriptor;
 - (void);
 - (void)2;
 - (void)<å;

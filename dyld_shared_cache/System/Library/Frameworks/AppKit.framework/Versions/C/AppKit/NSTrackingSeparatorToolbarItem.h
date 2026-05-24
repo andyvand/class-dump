@@ -6,80 +6,63 @@
 
 #import <AppKit/NSToolbarItem.h>
 
-@class NSSeparatorToolbarItemView, NSSplitView;
+@class NSSeparatorToolbarItemView;
 
 @interface NSTrackingSeparatorToolbarItem : NSToolbarItem
 {
     NSSeparatorToolbarItemView *_view;
-    struct {
-        unsigned int isAlignmentSatisfied:1;
-        unsigned int alignmentIsAlwaysSatisfied:1;
-        unsigned int fullHeightDividersDisabled:1;
-        unsigned int alignmentNeedsUpdate:1;
-        unsigned int alignmentRequired:1;
-        unsigned int inPalette:1;
-    } _flags;
-    _Bool representsSidebar;
-    _Bool representsTrailingSidebar;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)a*)data length];
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (long long)e, const SysConfigData *__single, const SysConfigData *__single);
+- (id)NsIeRLGugrogpTZiayi1VA;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (double);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)H;
 - (_Bool);
 - (double);
-- (long long);
+- (void);
 - (void);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (double);
-- (_Bool);
-- (_Bool);
+- (double)decodeDownloadData:dataForkData:resourceForkData: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_addBlockOp:description:shouldWaitForTls: /* Error: Ran out of types for this method. */;
+- (id)UUIDString;
+- (double)sDirectWiFiAccess;
+- (_Bool)_NSURLHTTPProtocol;
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)mMoved: /* Error: Ran out of types for this method. */;
-- (id)ring;
-- (_Bool)goryXXL;
+- (id)_syncToChangedToolbar:itemMoved: /* Error: Ran out of types for this method. */;
+- (id)lastSelectionStartString;
+- (_Bool)UICTContentSizeCategoryXXL;
 - (struct CGSize);
 - (struct CGSize)èêþPHÐC;
 
 // Remaining properties
-@property _Bool alignmentIsAlwaysSatisfied;
 @property(readonly, getter=isAlignmentSatisfied) _Bool alignmentSatisfied;
-@property long long dividerIndex;
-@property(readonly) double dividerWidth;
-@property _Bool fullHeightDividersDisabled;
-@property _Bool representsSidebar; // @synthesize representsSidebar;
-@property _Bool representsTrailingSidebar; // @synthesize representsTrailingSidebar;
-@property(retain) NSSplitView *splitView;
 
 @end
 

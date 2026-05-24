@@ -9,7 +9,6 @@
 @interface CKDistributedSiteIdentifier
 {
     NSData *_identifier;
-    NSData *_modifier;
 }
 
 + (id);
@@ -20,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)1q@/;
+- (unsigned long long)setMmappedModel: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSData *modifier; // @synthesize modifier=_modifier;
 
 @end
 

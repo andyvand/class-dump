@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHPommesRequestEnded : SISchemaInstrumentationMessage
 {
     int _status;
-    CDStruct_47fe53f2 _has;
 }
 
 - (void);
@@ -22,17 +19,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int)T;
 - (id)0@ù
 × ;
-- (id)alAllocations;
+- (id)_counterfactualAllocations;
 - (id)esTime;
 - (_Bool)SString",C,N,V_flowHandlerId;
-- (void)RCE_CAROUSEL;
+- (void)GRADINGOPTINSTATECHANGESOURCE_CAROUSEL;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

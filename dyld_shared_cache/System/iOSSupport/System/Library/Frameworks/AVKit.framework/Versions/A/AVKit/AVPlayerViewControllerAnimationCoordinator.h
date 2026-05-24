@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerViewControllerAnimationCoordinator
 {
     NSMutableArray *_animations;
-    NSMutableArray *_completions;
 }
 
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)try.InternalToolDataTypes.EcefXyz;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *animations; // @synthesize animations=_animations;
-@property(readonly, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,11 +11,11 @@
 
 + (double);
 - (double);
+- (void)#;
+- (id)ExcludeAlwaysForLocales;
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)FAULT '', sort_album_artist TEXT, grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0,  store_id INTEGER NOT NULL DEFAULT 0, representative_item_pid INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 - (double);
 - (void);
 

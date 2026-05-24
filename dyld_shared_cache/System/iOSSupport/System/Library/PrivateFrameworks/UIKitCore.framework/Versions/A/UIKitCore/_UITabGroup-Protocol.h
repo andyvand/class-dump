@@ -7,13 +7,15 @@
 @class NSArray, UITab;
 
 @protocol _UITabGroup
+- (_Bool);
+- (_Bool)stickerPackUpdated:(NSArray *)arg1;
+- (void)setAssetDownloadInProgress:(UITab *)arg1;
+- (NSArray *)forceAutoBugCaptureWithSubType:(NSArray *)arg1 errorPayload:type:context: /* Error: Ran out of types for this method. */;
+- (NSArray *)_availabilitySubscriptionService;
+- (UITab *)tManager;
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsReordering;
-@property(readonly, copy, nonatomic) NSArray *children;
-@property(readonly, nonatomic, getter=isCollapsedByDefault) _Bool collapsedByDefault;
 @property(readonly, nonatomic) UITab *selectedChild;
-@property(readonly, nonatomic) NSArray *sidebarActions;
-@property(readonly, nonatomic) unsigned long long sidebarAppearance;
 @end
 

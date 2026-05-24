@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (void)hnessDays;
+- (void)defaultFreshnessDays;
 
 @end
 

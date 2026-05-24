@@ -7,8 +7,6 @@
 @interface NewsArticles.TableOfContentsBlueprintLayoutBuilder
 {
     id headerViewStyler;
-    id pdfReplicaCellStyler;
-    id issueCoverViewLayoutAttributesFactory;
 }
 
 @end

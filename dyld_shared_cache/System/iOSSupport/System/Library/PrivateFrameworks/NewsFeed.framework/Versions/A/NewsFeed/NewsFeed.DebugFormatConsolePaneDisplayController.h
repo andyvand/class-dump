@@ -7,12 +7,9 @@
 @interface NewsFeed.DebugFormatConsolePaneDisplayController
 {
     id editor;
-    id $__lazy_storage_$_consolePaneDebuggerButtonItem;
-    id $__lazy_storage_$_consolePaneLoggerButtonItem;
-    id flexibleBarButtonItem;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)³é;

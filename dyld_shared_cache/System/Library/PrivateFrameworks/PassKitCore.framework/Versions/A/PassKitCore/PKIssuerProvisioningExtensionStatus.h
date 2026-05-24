@@ -7,8 +7,6 @@
 @interface PKIssuerProvisioningExtensionStatus
 {
     _Bool _requiresAuthentication;
-    _Bool _passEntriesAvailable;
-    _Bool _remotePassEntriesAvailable;
 }
 
 + (_Bool)X"°!@ùî%1Â0@ù
@@ -17,16 +15,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)h.;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)correctRawBytesSinceLastCorruption;
 
 // Remaining properties
-@property(nonatomic) _Bool passEntriesAvailable; // @synthesize passEntriesAvailable=_passEntriesAvailable;
-@property(nonatomic) _Bool remotePassEntriesAvailable; // @synthesize remotePassEntriesAvailable=_remotePassEntriesAvailable;
 @property(nonatomic) _Bool requiresAuthentication; // @synthesize requiresAuthentication=_requiresAuthentication;
 
 @end

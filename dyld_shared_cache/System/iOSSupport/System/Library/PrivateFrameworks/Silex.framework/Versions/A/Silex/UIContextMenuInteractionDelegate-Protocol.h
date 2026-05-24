@@ -11,9 +11,9 @@
 @optional
 - (void)0@ù
 × ;
-- (UITargetedPreview *)ws;
-- (UITargetedPreview *)butesProvider;
-- (void)StyleProperties;
+- (UITargetedPreview *)_rebuildFlows;
+- (UITargetedPreview *)SXFallbackLiveActivityAttributesProvider;
+- (void)SXConditionalTextStyleProperties;
 - (UITargetedPreview *);
 @end
 

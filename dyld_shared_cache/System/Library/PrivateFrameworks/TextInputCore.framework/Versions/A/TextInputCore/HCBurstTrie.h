@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface HCBurstTrie
 {
     struct _CFBurstTrie *_burstTrie;
-    unsigned long long _keysAdded;
 }
 
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (struct _CFBurstTrie *);
+- (struct _CFBurstTrie *)҅;
 - (void);
 - (void);
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct _CFBurstTrie *burstTrie; // @synthesize burstTrie=_burstTrie;
-@property(readonly, nonatomic) unsigned long long keysAdded; // @synthesize keysAdded=_keysAdded;
 
 @end
 

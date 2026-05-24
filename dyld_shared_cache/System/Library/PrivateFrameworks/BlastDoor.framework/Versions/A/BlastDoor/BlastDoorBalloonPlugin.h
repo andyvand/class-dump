@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBalloonPluginPayloadWrapper, BlastDoorEncodedAttachments, NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorBalloonPlugin
 {
@@ -15,34 +15,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (long long);
-- (struct _NSRange);
+- (_Bool)e=QQ}32@0:8@16q24 /* Error: Ran out of types for this method. */;
+- (long long)@0:8@"CKFullScreenBalloonViewController"16@"IMSticker"24 /* Error: Ran out of types for this method. */;
+- (struct _NSRange)onViewController"16@"NSNumber"24;
+- (id)"CKFullScreenBalloonViewController"16d24B32d36@?<v@?>44;
+- (id)MColorComponents=dddd}{IMColorComponents=dddd}BqqBBBBB}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)TriggerStatus;
+- (id)EnvelopeTriggerStatus;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageGUID;
-@property(nonatomic, readonly) struct _NSRange associatedMessageRange;
-@property(nonatomic, readonly) long long associatedMessageType;
-@property(nonatomic, readonly) BlastDoorEncodedAttachments *attachments;
-@property(nonatomic, readonly) NSArray *attributionInfo;
-@property(nonatomic, readonly) NSString *bundleID;
-@property(nonatomic, readonly) NSAttributedString *content;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_associatedMessageRange;
-@property(nonatomic, readonly) _Bool has_associatedMessageType;
-@property(nonatomic, readonly) _Bool isExpirable;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
-@property(nonatomic, readonly) BlastDoorBalloonPluginPayloadWrapper *payload;
-@property(nonatomic, readonly) NSString *plainTextBody;
 
 @end
 

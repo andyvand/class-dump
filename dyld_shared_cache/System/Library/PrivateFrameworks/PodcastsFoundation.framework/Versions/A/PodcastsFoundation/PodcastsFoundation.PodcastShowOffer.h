@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.PodcastShowOffer
 {
     id type;
-    id kind;
 }
 
 @end

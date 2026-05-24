@@ -9,10 +9,9 @@
 @interface NDAnalyticsPayloadAssembler
 {
     id <NDAnalyticsPayloadAssemblerConfigProvider> _configProvider;
-    unsigned long long _maxPayloadSize;
 }
 
-- (void);
+- (void)Hints:(CDUnknownBlockType)arg1 anchoredAttachmentPositions:topicNumbers:layoutState:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <NDAnalyticsPayloadAssemblerConfigProvider> configProvider; // @synthesize configProvider=_configProvider;
-@property(nonatomic) unsigned long long maxPayloadSize; // @synthesize maxPayloadSize=_maxPayloadSize;
 
 @end
 

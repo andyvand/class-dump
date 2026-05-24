@@ -5,6 +5,10 @@
 //
 
 @protocol _PLThumbnailLoadingAsset
-- (_Bool)ources: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)virtualResourcesThatReplaceMissingPersistedResources: /* Error: Ran out of types for this method. */;
+
+@optional
+- (_Bool);
 @end
 

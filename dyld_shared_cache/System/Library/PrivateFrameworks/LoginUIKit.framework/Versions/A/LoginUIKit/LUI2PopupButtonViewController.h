@@ -14,9 +14,9 @@
 }
 
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)*;
 
 // Remaining properties
 @property(readonly) NSPopUpButton *popupButton; // @synthesize popupButton=_popupButton;

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (BrowserDataImportingNSBundleExtras)
 + (id);
 + (id);
@@ -38,15 +36,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool safari_isChromeBrowser;
-@property(readonly, nonatomic) _Bool safari_isDataImportingInstallPathDependent;
-@property(readonly, nonatomic) _Bool safari_isFirefoxBrowser;
-@property(readonly, nonatomic) _Bool safari_isSafariApplicationBundle;
-@property(readonly, nonatomic) _Bool safari_isSafariPlatformSupportHelperBundle;
-@property(readonly, nonatomic) _Bool safari_isSafariQuickLookPreviewBundle;
-@property(readonly, nonatomic) _Bool safari_isSafariServicesFrameworkBundle;
-@property(readonly, nonatomic) _Bool safari_isUIApplicationBundle;
-@property(readonly, nonatomic) _Bool safari_isXCTestBundle;
-@property(readonly, nonatomic) unsigned long long safari_supportedImportingDataTypes;
-@property(readonly, nonatomic) NSString *test_safari_defaultApplicationNameForUserAgent;
 @end
 

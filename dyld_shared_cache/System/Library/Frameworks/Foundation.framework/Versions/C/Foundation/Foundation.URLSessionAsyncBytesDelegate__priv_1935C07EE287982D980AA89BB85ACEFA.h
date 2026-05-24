@@ -7,11 +7,10 @@
 @interface Foundation.URLSessionAsyncBytesDelegate__priv_1935C07EE287982D980AA89BB85ACEFA
 {
     id lock;
-    id state;
 }
 
 - (id);
-- (void);
+- (void)R;
 - (void)@ ;
 - (void)îîïïïïïïððññòóôôõõöö÷÷øùùúûûüüüüýþþþÿ;
 - (void);

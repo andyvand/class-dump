@@ -12,27 +12,26 @@ __attribute__((visibility("hidden")))
 @interface ISConcreteIcon : ISCodableIcon
 {
     NSUUID *_digest;
-    ISImageCache *_imageCache;
 }
 
 + (_Bool);
 - (_Bool);
+- (void)QAQ}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}24@0:(id)arg1 8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16;
+- (id)Q}24d40i48;
+- (unsigned long long)urlIfyNode:(id)arg1;
+- (id)setCompletionQueue:(id)arg1;
+- (id)requestEmbeddingAssetsWithCompletionHandler:(id)arg1;
+- (id)intValue;
+- (id)_memoryWarningInProgress;
+- (id)_clientpid;
+- (id);
 - (void);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -44,7 +43,6 @@ __attribute__((visibility("hidden")))
 - (id)NT:LSDB state missmatch /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSUUID *digest; // @synthesize digest=_digest;
 @property(readonly) ISImageCache *imageCache; // @synthesize imageCache=_imageCache;
 
 @end

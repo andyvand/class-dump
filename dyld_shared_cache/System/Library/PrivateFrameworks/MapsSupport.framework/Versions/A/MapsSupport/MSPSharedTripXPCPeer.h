@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface MSPSharedTripXPCPeer
 {
     _Bool _canControlSharing;
-    _Bool _canControlReceiving;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canControlReceiving; // @synthesize canControlReceiving=_canControlReceiving;
 @property(readonly, nonatomic) _Bool canControlSharing; // @synthesize canControlSharing=_canControlSharing;
 
 @end

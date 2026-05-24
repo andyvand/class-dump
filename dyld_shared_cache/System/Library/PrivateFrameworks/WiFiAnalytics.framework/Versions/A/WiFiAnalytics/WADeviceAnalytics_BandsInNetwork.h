@@ -9,9 +9,6 @@
 @interface WADeviceAnalytics_BandsInNetwork
 {
     _Bool _has2GHz;
-    _Bool _has5GHz;
-    _Bool _has6GHz;
-    NSString *_ssid;
 }
 
 - (void);
@@ -21,15 +18,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ocery list:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)Client _triggerQueryForNWActivityWithPeers:andReply:queuedInvocation:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool has2GHz; // @synthesize has2GHz=_has2GHz;
-@property(nonatomic) _Bool has5GHz; // @synthesize has5GHz=_has5GHz;
-@property(nonatomic) _Bool has6GHz; // @synthesize has6GHz=_has6GHz;
 @property(retain, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNEither, NSError;
+@class CNEither;
 
 @interface CNResult
 {
@@ -24,8 +24,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)h;
 - (id);
 - (id);
 - (id);
@@ -38,10 +38,6 @@
 
 // Remaining properties
 @property(readonly) CNEither *either; // @synthesize either=_either;
-@property(readonly, copy) NSError *error;
-@property(readonly) _Bool isFailure;
-@property(readonly) _Bool isSuccess;
-@property(readonly) id value;
 
 @end
 

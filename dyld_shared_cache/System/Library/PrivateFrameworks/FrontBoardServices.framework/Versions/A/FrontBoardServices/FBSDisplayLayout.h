@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfiguration, NSArray, NSDate, NSMutableArray, NSString;
+@class FBSDisplayConfiguration, NSMutableArray;
 
 @interface FBSDisplayLayout
 {
     NSMutableArray *_elements;
-    NSDate *_timestamp;
-    FBSDisplayConfiguration *_displayConfiguration;
-    long long _interfaceOrientation;
-    long long _backlightLevel;
-    long long _backlightState;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (long long);
@@ -28,18 +23,18 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void)hd;
 - (long long);
-- (id);
-- (id);
-- (void);
+- (id)shouldCacheBytecode;
+- (id)assistantPayloadWithDictionary:context: /* Error: Ran out of types for this method. */;
+- (void)nce with offset %.3f;
 - (struct CGRect);
 - (long long);
 - (void);
@@ -47,20 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long backlightState; // @synthesize backlightState=_backlightState;
-@property(readonly, nonatomic) struct CGRect bounds; // @dynamic bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayBacklightLevel; // @synthesize displayBacklightLevel=_backlightLevel;
 @property(retain, nonatomic) FBSDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration=_displayConfiguration;
-@property(readonly, copy, nonatomic) NSArray *elements; // @synthesize elements=_elements;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

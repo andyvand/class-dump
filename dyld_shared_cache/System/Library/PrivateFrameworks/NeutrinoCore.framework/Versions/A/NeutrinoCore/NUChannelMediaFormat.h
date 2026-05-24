@@ -9,7 +9,6 @@
 @interface NUChannelMediaFormat : NUChannelFormat
 {
     long long mediaType;
-    long long _temporality;
 }
 
 - (long long);
@@ -24,14 +23,13 @@
 - (_Bool);
 - (_Bool);
 - (long long);
+- (id)l;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)#;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long mediaType; // @synthesize mediaType;
-@property(readonly, nonatomic) long long temporality; // @synthesize temporality=_temporality;
 
 @end
 

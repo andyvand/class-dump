@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteOwnerResponseLogEvent : HMDSharedUserInviteLogEvent
 {
     long long _authenticateUserMS;
-    long long _joiningReverseShareMS;
-    long long _addUserToHomeMS;
-    long long _totalOwnerResidentResponseMS;
 }
 
 - (long long);
@@ -20,19 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
+- (long long)@"NSData"32@"NSString"40@"NSString"48@"IDSMessageContext"56;
+- (id)_availabilityDelegate;
 - (long long);
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)authenticationHostKeyMismatchInfoFormat;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long addUserToHomeMS; // @synthesize addUserToHomeMS=_addUserToHomeMS;
 @property(nonatomic) long long authenticateUserMS; // @synthesize authenticateUserMS=_authenticateUserMS;
-@property(nonatomic) long long joiningReverseShareMS; // @synthesize joiningReverseShareMS=_joiningReverseShareMS;
-@property(nonatomic) long long totalOwnerResidentResponseMS; // @synthesize totalOwnerResidentResponseMS=_totalOwnerResidentResponseMS;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol NSGestureRecognizerDelegate
+
+@optional
+- (_Bool)supportsSecureCoding;
 @end
 

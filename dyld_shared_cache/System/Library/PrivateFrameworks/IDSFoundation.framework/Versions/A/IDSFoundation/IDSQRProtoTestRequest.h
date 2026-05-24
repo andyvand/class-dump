@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSQRProtoTestRequest
 {
     unsigned int _requestedErrorCode;
-    unsigned int _requestedMessageType;
-    NSString *_subOperation;
-    unsigned int _testOptionFlags;
-    struct {
-        unsigned int requestedErrorCode:1;
-        unsigned int requestedMessageType:1;
-    } _has;
 }
 
 - (void);
@@ -23,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)h8?;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -36,19 +27,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)dress=[6C]}16C24^{BluetoothHCIEventRoleChangeResults=S{BluetoothDeviceAddress=[6C]}C}28;
+- (void)alue:(id)arg1 ]_block_invoke;
 - (id);
 - (id);
 - (void)_readCapsuleWithExistingData:data is nil /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestedErrorCode;
-@property(nonatomic) _Bool hasRequestedMessageType;
-@property(readonly, nonatomic) _Bool hasSubOperation;
-@property(nonatomic) unsigned int requestedErrorCode; // @synthesize requestedErrorCode=_requestedErrorCode;
-@property(nonatomic) unsigned int requestedMessageType; // @synthesize requestedMessageType=_requestedMessageType;
-@property(retain, nonatomic) NSString *subOperation; // @synthesize subOperation=_subOperation;
 @property(nonatomic) unsigned int testOptionFlags; // @synthesize testOptionFlags=_testOptionFlags;
 
 @end

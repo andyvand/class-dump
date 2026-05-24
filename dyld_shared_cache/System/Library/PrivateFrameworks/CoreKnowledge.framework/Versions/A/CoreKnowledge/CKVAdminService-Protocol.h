@@ -5,5 +5,7 @@
 //
 
 @protocol CKVAdminService
+- (oneway void);
+- (oneway void);
 @end
 

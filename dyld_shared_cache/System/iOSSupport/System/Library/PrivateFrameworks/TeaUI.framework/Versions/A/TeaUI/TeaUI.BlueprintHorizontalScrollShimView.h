@@ -7,13 +7,6 @@
 @interface TeaUI.BlueprintHorizontalScrollShimView
 {
     id collectionView;
-    id layoutOptionsProvider;
-    id shimMaskView;
-    id keyValueObservers;
-    id hoverGestureRecognizers;
-    id nextButton;
-    id previousButton;
-    id hoveringState;
 }
 
 - (void);
@@ -22,10 +15,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)not cached;
 - (id);
-- (id);
-- (_Bool);
+- (id)nimumNewsVersion"b1"isDeprecated"b1"isDraft"b1"isPaid"b1};
+- (_Bool)V_trackDuration;
 - (void)üéüÿêüÿ,êüÿLêüÿlêüÿêüÿ¬êüÿÄêüÿÜêüÿôêüÿxëüÿ°ëüÿèëüÿ;
 
 @end

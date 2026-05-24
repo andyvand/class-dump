@@ -4,53 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXBrowserSummaryController;
-@protocol PXDisplayAssetCollection, PXLibrarySummaryDataSource, PXLibrarySummaryOutputPresenter;
+@class PXBrowserSummaryController;
 
 @interface PXCuratedLibrarySummaryHelper
 {
     _Bool _isPerformingUpdates;
-    _Bool _isPerformingChanges;
-    struct {
-        _Bool headlineOutput;
-        _Bool primaryTitleOutput;
-        _Bool secondaryTitleOutput;
-        _Bool topMostAssetCollection;
-    } _needsUpdateFlags;
-    struct {
-        _Bool visibleContentSnapshot;
-        _Bool topMostAssetCollection;
-        _Bool shouldUpdateImmediately;
-    } _dataSourceRespondsTo;
-    struct {
-        _Bool setTitle;
-        _Bool setSubtitle;
-        _Bool setAttributedTitle;
-        _Bool defaultAttributes;
-        _Bool emphasizedAttributes;
-    } _outputPresenterRespondsTo;
-    _Bool _shouldUseAbbreviatedDates;
-    id <PXLibrarySummaryDataSource> _dataSource;
-    id <PXLibrarySummaryOutputPresenter> _outputPresenter;
-    NSString *_headline;
-    NSString *_selectionTitle;
-    PXBrowserSummaryController *_summaryController;
-    id <PXDisplayAssetCollection> _topMostAssetCollection;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,8 +34,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)*;
+- (void)ReportingProvider>"16@?0@"<TFResolver>"8;
 - (id);
 - (id);
 - (id);
@@ -75,24 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PXLibrarySummaryDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *headline; // @synthesize headline=_headline;
-@property(nonatomic) __weak id <PXLibrarySummaryOutputPresenter> outputPresenter; // @synthesize outputPresenter=_outputPresenter;
-@property(copy, nonatomic) NSString *selectionTitle; // @synthesize selectionTitle=_selectionTitle;
-@property(readonly, nonatomic) _Bool shouldShowImportDates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool shouldUseAbbreviatedDates; // @synthesize shouldUseAbbreviatedDates=_shouldUseAbbreviatedDates;
 @property(readonly, nonatomic) PXBrowserSummaryController *summaryController; // @synthesize summaryController=_summaryController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, setter=_setTopMostAssetCollection:) id <PXDisplayAssetCollection> topMostAssetCollection; // @synthesize topMostAssetCollection=_topMostAssetCollection;
 
 @end
 

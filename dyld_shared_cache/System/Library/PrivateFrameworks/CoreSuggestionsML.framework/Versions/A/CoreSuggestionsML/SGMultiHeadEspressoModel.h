@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SGMultiHeadEspressoModel
 {
     CDStruct_2bc666a5 _espressoModel;
-    void *_espressoPlan;
-    void *_espressoContext;
-    NSString *_inputName;
-    unsigned long long _inputNumParameters;
-    NSDictionary *_headDimensionality;
 }
 
 + (id);
 + (id);
 + (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);

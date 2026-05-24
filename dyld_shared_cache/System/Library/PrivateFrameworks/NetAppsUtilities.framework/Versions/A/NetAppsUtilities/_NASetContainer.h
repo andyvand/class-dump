@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NASetContainer
 {
     id _object;
-    unsigned long long _index;
-    CDUnknownBlockType _comparator;
-    CDUnknownBlockType _hashGenerator;
 }
 
 + (id);
@@ -18,18 +15,15 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)e URL has a bad user name, syserr = %s;
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(copy, nonatomic) CDUnknownBlockType hashGenerator; // @synthesize hashGenerator=_hashGenerator;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end

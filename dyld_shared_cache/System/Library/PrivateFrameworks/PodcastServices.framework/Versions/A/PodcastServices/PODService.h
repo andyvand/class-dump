@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSXPCConnection, PODServiceConfiguration;
-@protocol OS_os_log;
+@class NSMutableDictionary;
 
 @interface PODService
 {
     NSMutableDictionary *_inflightXPCInvalidationHandlers;
-    NSXPCConnection *_serviceConnection;
-    NSObject<OS_os_log> *_loggingCategory;
-    PODServiceConfiguration *_serviceConfiguration;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -31,16 +26,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)setSubmittedActivityTracker: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(readonly, nonatomic) NSMutableDictionary *inflightXPCInvalidationHandlers; // @synthesize inflightXPCInvalidationHandlers=_inflightXPCInvalidationHandlers;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingCategory; // @synthesize loggingCategory=_loggingCategory;
-@property(readonly, nonatomic) PODServiceConfiguration *serviceConfiguration; // @synthesize serviceConfiguration=_serviceConfiguration;
-@property(readonly, nonatomic) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
 
 @end
 

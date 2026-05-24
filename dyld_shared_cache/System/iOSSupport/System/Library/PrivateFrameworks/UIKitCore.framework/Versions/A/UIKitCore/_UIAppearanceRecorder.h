@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface _UIAppearanceRecorder
 {
     NSString *_classNameToRecord;
-    Class _superclassToRecord;
-    NSArray *_containerClassNames;
-    NSMutableArray *_customizations;
-    NSArray *_unarchivedCustomizations;
 }
 
++ (id)@;
 + (id);
 + (id);
-+ (id);
-- (Class);
-- (void);
-- (void);
-- (void);
+- (Class)o further action needed.;
+- (void)setting downgrade flag for %@ (expiration:(Class)arg1 %@) to %@;
+- (void)to (%@) for chat %@;
+- (void)ching chat:(id)arg1 [IMDChat:%p  GUID:%@  Style:%c  State:%d  Display Name:%@  Identifier:%@  Row ID:%lld  originalGroupID:%@  isFiltered:%d  repairHistory:(Repaired Participant For Chat ID Handle ID Mismatch:%{BOOL}d  Repaired Blank Service Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
+- (id)sageID:%lld GUID:'%@' sortID:%lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)it should be;
+- (void)Nickname;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void):(id)arg1;
-- (id)edSize:(id)arg1 title:accessibilityHint:systemImageName:subcomponents: /* Error: Ran out of types for this method. */;
+- (void)rectangleAtIndex:(id)arg1 scale:inset: /* Error: Ran out of types for this method. */;
+- (id)initWithComponentKey:(id)arg1 preferredSize:title:accessibilityHint:systemImageName:subcomponents: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setClassNameToRecord:) NSString *_classNameToRecord; // @synthesize _classNameToRecord;
-@property(copy, nonatomic, setter=_setContainerClassNames:) NSArray *_containerClassNames; // @synthesize _containerClassNames;
-@property(readonly, nonatomic) NSData *_serializedRepresentation;
-@property(nonatomic, setter=_setSuperclassToRecord:) Class _superclassToRecord; // @synthesize _superclassToRecord;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsArticles.ArticleScrollPositionManager
 {
     id readingHistory;
-    id currentlyPlayingObservable;
-    id mostRecentPosition;
-    id minTimeSpentToPersistPosition;
 }
 
 - (id);

@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id):(id)arg1 momentunScale:useNesterovMomentum: /* Error: Ran out of types for this method. */;
+- (id)optimizerSGDWithDescriptor:(id)arg1 momentunScale:useNesterovMomentum: /* Error: Ran out of types for this method. */;
 
 @end
 

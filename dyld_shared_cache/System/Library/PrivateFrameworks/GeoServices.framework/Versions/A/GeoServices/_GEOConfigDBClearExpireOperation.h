@@ -6,13 +6,12 @@
 
 #import <GeoServices/_GEOConfigDBOperationBase.h>
 
-@class GEOSQLiteDB, NSString;
+@class GEOSQLiteDB;
 
 __attribute__((visibility("hidden")))
 @interface _GEOConfigDBClearExpireOperation : _GEOConfigDBOperationBase
 {
     GEOSQLiteDB *_db;
-    NSString *_keyPath;
 }
 
 - (id);
@@ -20,13 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)'×È|P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

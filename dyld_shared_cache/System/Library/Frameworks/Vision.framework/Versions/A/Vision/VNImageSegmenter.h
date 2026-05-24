@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
 @interface VNImageSegmenter : VNE5RTBasedDetector
 {
     VNFgBgE5MLInstanceSegmenter *_fgbgInstanceSegmenter;
-    unsigned long long _minimumMaskPixelCount;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -25,14 +24,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)arrayWithArray: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (id);
 - (struct __CVBuffer *);
+- (_Bool)h;
 - (_Bool);
-- (_Bool);
-- (vector_926a3350);
+- (vector_4858b34d);
 - (id);
 - (_Bool);
 - (struct __CVBuffer *);

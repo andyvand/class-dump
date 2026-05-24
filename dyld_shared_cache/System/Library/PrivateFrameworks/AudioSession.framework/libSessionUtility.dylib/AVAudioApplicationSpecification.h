@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVAudioApplicationSpecification
 {
     long long audioAppType;
-    NSString *attributionBundleID;
-    NSString *processName;
-    CDStruct_4c969caf _appAuditToken;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (long long);
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)SDictionary",R,C,N,V_bundleInfo;
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_4c969caf appAuditToken; // @synthesize appAuditToken=_appAuditToken;
-@property(retain, nonatomic) NSString *attributionBundleID; // @synthesize attributionBundleID;
 @property(nonatomic) long long audioAppType; // @synthesize audioAppType;
-@property(retain, nonatomic) NSString *processName; // @synthesize processName;
 
 @end
 

@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id)startNowPlayingUpdatesTimer;
 
 // Remaining properties
 @property(readonly) unsigned char life; // @synthesize life=_life;

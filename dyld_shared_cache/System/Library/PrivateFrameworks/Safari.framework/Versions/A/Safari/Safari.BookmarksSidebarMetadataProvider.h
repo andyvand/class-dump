@@ -7,8 +7,6 @@
 @interface Safari.BookmarksSidebarMetadataProvider
 {
     id metadataManager;
-    id linkPresentationMetadataProvider;
-    id bookmarkIDsToMetadataRequestTokens;
 }
 
 @end

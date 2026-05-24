@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TTSWrappedAudioQueue, TextToSpeech.VoiceResolver;
-
 @interface TextToSpeech.CoreSynthesizer
 {
     id _executor;
-    id _queue;
-    TextToSpeech.VoiceResolver *_voiceResolver;
-    id _voices;
-    id schedulingQueue;
-    TTSWrappedAudioQueue *_audioQueue;
-    id _bufferedAudioQueue;
-    id _speechRenderer;
-    id _audioRenderer;
-    id $__lazy_storage_$_offlineChain;
-    void _bundleIdentifier;
-    id _selectionProviders;
-    id _effectManager;
-    void _effects;
-    id _substitutions;
-    id _nextWordBlock;
-    id _$observationRegistrar;
 }
 
 - (void);
@@ -58,28 +40,16 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)updateMediaRecorderCapabillities:imageType:videoCodec: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)ptionCatcher;
+- (void)TTSExceptionCatcher;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, retain) TTSWrappedAudioQueue *_audioQueue; // @synthesize _audioQueue;
-@property(nonatomic, copy) NSString *_bundleIdentifier;
-@property(nonatomic, copy) NSArray *_effects;
-@property(nonatomic, retain) TextToSpeech.VoiceResolver *_voiceResolver; // @synthesize _voiceResolver;
-@property(nonatomic) unsigned int audioDevice;
-@property(nonatomic, retain) TTSWrappedAudioQueue *audioQueue;
-@property(nonatomic) unsigned int audioQueueFlags;
-@property(nonatomic, copy) NSString *bundleIdentifier;
-@property(nonatomic, copy) NSArray *effects;
-@property(nonatomic, readonly) _Bool isPaused;
 @property(nonatomic, readonly) _Bool isSpeaking;
-@property(nonatomic, copy) NSArray *offlineChain;
-@property(nonatomic, retain) TextToSpeech.VoiceResolver *voiceResolver;
 
 @end
 

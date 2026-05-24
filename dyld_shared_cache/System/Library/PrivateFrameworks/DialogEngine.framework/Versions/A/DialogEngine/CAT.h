@@ -20,13 +20,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
 + (id);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (id);

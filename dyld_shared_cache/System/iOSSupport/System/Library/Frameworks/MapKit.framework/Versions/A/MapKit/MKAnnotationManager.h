@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAnnotationView, MKQuadTrie, NSArray, NSHashTable, NSMapTable, NSMutableDictionary, NSMutableSet, NSTimer;
-@protocol MKAnnotation, MKAnnotationManagerDelegate, MKAnnotationMarkerContainer, MKAnnotationRepresentation;
+@protocol MKAnnotationMarkerContainer;
 
 __attribute__((visibility("hidden")))
 @interface MKAnnotationManager
 {
     id <MKAnnotationMarkerContainer> _container;
-    id <MKAnnotationManagerDelegate> _delegate;
-    _Bool _annotationRepresentationsAreAddedImmediately;
-    NSTimer *_updateVisibleTimer;
-    MKQuadTrie *_annotations;
-    NSHashTable *_visibleAnnotations;
-    NSMutableSet *_pendingAnnotations;
-    NSMutableSet *_disallowAnimationAnnotations;
-    NSMutableSet *_invalidCoordinateAnnotations;
-    id <MKAnnotation> _selectedAnnotation;
-    id <MKAnnotation> _draggedAnnotation;
-    NSMapTable *_annotationsToRepresentations;
-    NSMutableSet *_annotationRepresentations;
-    NSMapTable *_reusableAnnotationRepresentations;
-    NSMutableSet *_pendingRemovalAnnotationRepresentations;
-    NSMutableDictionary *_registeredIdentifierToRepresentationClasses;
-    NSHashTable *_allClusterAnnotations;
-    _Bool _isChangingCoordinate;
-    _Bool _isDeferringContainerSelection;
-    _Bool _deferredContainerSelectionAnimated;
-    MKAnnotationView *_userLocationView;
 }
 
 - (void);
@@ -43,21 +22,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)7;
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)b;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void))	;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,21 +50,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (id)rlappingSections: /* Error: Ran out of types for this method. */;
-- (void)ublishedCollections;
+- (id)setOverlappingSections: /* Error: Ran out of types for this method. */;
+- (void)_numberOfPublishedCollections;
 - (id)uccessful;
 - (void)÷ïÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *annotationRepresentations;
-@property(nonatomic) _Bool annotationRepresentationsAreAddedImmediately; // @synthesize annotationRepresentationsAreAddedImmediately=_annotationRepresentationsAreAddedImmediately;
-@property(readonly, nonatomic) NSArray *annotations;
 @property(nonatomic) __weak id <MKAnnotationMarkerContainer> container; // @synthesize container=_container;
-@property(nonatomic) __weak id <MKAnnotationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak id <MKAnnotation> draggedAnnotation; // @synthesize draggedAnnotation=_draggedAnnotation;
-@property(readonly, nonatomic) __weak id <MKAnnotationRepresentation> selectedAnnotationRepresentation;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTRequestPrescribedPlanOpenTool : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_resultStatementId;
-    long long _elementAtIndex;
-    CDStruct_2cf6a68d _has;
-    _Bool _hasResultStatementId;
 }
 
 - (void);
@@ -32,18 +29,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ation.framework/Versions/C/Foundation;
 - (id)1Â0@ù
 × ;
 - (id)SRRescoringDeliberationResult",&,N,V_rescoringDeliberationResult;
-- (id)1;
+- (id)CNVSchemaCNVLinkMetadataTier1;
 - (void)A2¯-#;
 
 // Remaining properties
-@property(nonatomic) long long elementAtIndex; // @synthesize elementAtIndex=_elementAtIndex;
-@property(nonatomic) _Bool hasElementAtIndex;
-@property(nonatomic) _Bool hasResultStatementId; // @synthesize hasResultStatementId=_hasResultStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *resultStatementId; // @synthesize resultStatementId=_resultStatementId;
 
 @end

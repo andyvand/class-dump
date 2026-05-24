@@ -7,7 +7,7 @@
 @class MLFeatureValue, NSSet;
 
 @protocol MLFeatureProvider
-- (MLFeatureValue *)mberOfEngagedSuggestionsFromSourceAppWithConversation;
+- (MLFeatureValue *)_numberOfEngagedSuggestionsFromSourceAppWithConversation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames;

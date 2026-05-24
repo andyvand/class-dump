@@ -9,19 +9,23 @@
 @interface FCNotificationsConfiguration
 {
     NSArray *_preSubscribedNotificationsChannelIDs;
-    NSArray *_recommendedNotificationChannelIDs;
 }
 
 - (id);
-- (id);
+- (id)h@9;
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)MSG_DELETE_OPTION:(id)arg1 DELETE_FROM_CALENDAR;
+- (_Bool)rformanceReport:(id)arg1 Timestamp:%@
+ 	LocalTimestamp:%@ 
+ 	Throughput Ceiling:%@ Mbps 
+ 	Throughput Capacity:%@ Mbps 
+ 	Tx Latency:%@ 
+ 	Signal Strength:%@ 
+ 	Duration Active:%.2f s /* Error: Ran out of types for this method. */;
 - (void)viding>> *__strong, BOOL, NSDictionary<NSString *,FCIssue *> *__strong, FCHeadlineExperimentalTitleProvider *__strong);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *preSubscribedNotificationsChannelIDs; // @synthesize preSubscribedNotificationsChannelIDs=_preSubscribedNotificationsChannelIDs;
-@property(readonly, copy, nonatomic) NSArray *recommendedNotificationChannelIDs; // @synthesize recommendedNotificationChannelIDs=_recommendedNotificationChannelIDs;
 
 @end
 

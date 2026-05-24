@@ -6,28 +6,17 @@
 
 #import <PhotosUICore/PXStoryAnimation.h>
 
-@class NSArray, NSString, PXGEffect;
-
 @interface PXStoryConcreteTransition : PXStoryAnimation
 {
     BOOL _kind;
-    _Bool _finished;
-    long long _event;
-    CDUnknownBlockType _effectAlphaHandler;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_clipLayouts;
-    PXGEffect *_effect;
-    PXGEffect *_auxiliaryEffect;
-    double _initialClipAlpha;
-    CDStruct_1b6d18a9 _duration;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (double);
-- (id);
+- (double)=;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,9 +25,9 @@
 - (id);
 - (double);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)A;
 - (id);
 - (CDStruct_1b6d18a9);
 - (_Bool);
@@ -53,24 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXGEffect *auxiliaryEffect; // @synthesize auxiliaryEffect=_auxiliaryEffect;
-@property(readonly, copy, nonatomic) NSArray *clipLayouts; // @synthesize clipLayouts=_clipLayouts;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) PXGEffect *effect; // @synthesize effect=_effect;
-@property(copy, nonatomic) CDUnknownBlockType effectAlphaHandler; // @synthesize effectAlphaHandler=_effectAlphaHandler;
-@property(readonly, nonatomic) long long event; // @synthesize event=_event;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double initialClipAlpha; // @synthesize initialClipAlpha=_initialClipAlpha;
-@property(readonly, nonatomic) BOOL kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) double progress;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoBlackAndWhite
 {
     CIImage *inputImage;
-    NSNumber *inputIntensity;
 }
 
-+ (void);
++ (void)DGiPhotoBlackAndWhite;
 - (id);
 - (id);
 

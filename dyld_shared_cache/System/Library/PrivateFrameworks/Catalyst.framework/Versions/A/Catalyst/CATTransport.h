@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATStateMachine, NSString;
-@protocol CATTransportDelegate;
+@class CATStateMachine, NSString;
 
 @interface CATTransport
 {
     CATStateMachine *mFSM;
-    CATOperationQueue *mControlQueue;
-    CATOperationQueue *mMessageQueue;
-    CATTransport *mStrongSelf;
-    NSString *_name;
-    id <CATTransportDelegate> _delegate;
 }
 
 - (void);
@@ -24,13 +18,11 @@
 - (void);
 - (id);
 - (void);
+- (void)d points;
+- (id)sq;
+- (void)P;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +37,9 @@
 - (void);
 - (void);
 - (void);
+- (void)Counter;
 - (void);
+- (void)errorIndicatesTATSUDeclinedAuthorization;
 - (void);
 - (id);
 - (void);
@@ -55,7 +49,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CATTransportDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

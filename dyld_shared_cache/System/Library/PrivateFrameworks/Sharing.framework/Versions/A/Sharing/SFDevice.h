@@ -4,53 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, SFBLEDevice;
-
 @interface SFDevice
 {
     _Bool _autoUnlockEnabled;
-    _Bool _autoUnlockWatch;
-    unsigned char _deviceActionType;
-    unsigned char _deviceClassCode;
-    unsigned char _deviceModelCode;
-    _Bool _duetSync;
-    _Bool _enhancedDiscovery;
-    _Bool _hasProblem;
-    _Bool _idsIdentifierConflict;
-    _Bool _inDiscoverySession;
-    _Bool _isBLEDeviceReplaced;
-    _Bool _needsAWDL;
-    _Bool _needsKeyboard;
-    _Bool _needsSetup;
-    _Bool _wakeDevice;
-    _Bool _watchLocked;
-    _Bool _wifiP2P;
-    unsigned char _osVersion;
-    _Bool _paired;
-    _Bool _testMode;
-    int _audioRoutingScore;
-    unsigned int _deviceFlags;
-    unsigned int _hotspotInfo;
-    unsigned int _systemPairState;
-    NSString *_accountID;
-    NSArray *_batteryInfo;
-    SFBLEDevice *_bleDevice;
-    NSString *_contactIdentifier;
-    long long _deviceType;
-    long long _distance;
-    NSUUID *_identifier;
-    NSString *_idsIdentifier;
-    NSString *_mediaRemoteID;
-    NSString *_mediaRouteID;
-    NSString *_model;
-    NSString *_name;
-    unsigned long long _problemFlags;
-    NSString *_rapportIdentifier;
-    NSString *_requestSSID;
-    NSString *_accountAltDSID;
 }
 
-+ (_Bool);
++ (_Bool)	?;
 
 @end
 

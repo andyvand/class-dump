@@ -4,6 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UIDragPreviewParameters, _UITableViewDropAnimationContainerView, _UITableViewDropPlaceholderContextImpl;
+@protocol UIDropSession;
+
 @protocol _UITableViewDropControllerDelegate
+- (_Bool)0;
+- (void)postCoreAutomationNotificationFinishedPeriodicSyncNotificationWithStartTime:chatsDidsync:messagesDidSync:attachmentsDidSync:recoverableMessagesDidSync: /* Error: Ran out of types for this method. */;
+- (void)has_replicationSourceID;
+- (NSIndexPath *)_shouldMarkAllAttachmentsAsNeedingSync;
+- (void)nsionUpdated;
+- (void)sReceivedReadReceipt;
+- (UIDragPreviewParameters *)members;
+- (void)tionary",&,N,V_participantChangeGUIDs;
+- (void)localizedStringWithValidatedFormat:(id <UIDropSession>)arg1 validFormatSpecifiers:error: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)isSafeToDeleteAttachmentAtPath:(_UITableViewDropPlaceholderContextImpl *)arg1;
+- (long long)IMDaemonListenerCloudSyncProtocol;
+- (_Bool);
+- (_UITableViewDropAnimationContainerView *),J;
+- (void)HhH;
 @end
 

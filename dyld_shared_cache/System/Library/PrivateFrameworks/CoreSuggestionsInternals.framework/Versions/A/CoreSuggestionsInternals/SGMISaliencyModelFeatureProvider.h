@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SGMISaliencyModelFeatureProvider
 {
     MLMultiArray *_data;
-    NSSet *_featureNames;
 }
 
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MLMultiArray *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSSet *featureNames; // @synthesize featureNames=_featureNames;
 
 @end
 

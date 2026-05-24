@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)tring for key with value:%@=%@ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,24 +5,18 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@protocol OS_dispatch_queue;
 
 @interface CLMapHelperService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool fHasEntitlementForRoadData;
-    _Bool fHasEntitlementForBuildingData;
-    NSObject<OS_os_transaction> *fTransaction;
-    _Bool fRoadDataRequestInProgress;
-    _Bool fExternalSignalReceivedToStopConstructVehicularRouteProcessing;
-    _Bool fEnableDebugLogging;
 }
 
 - (void);
+- (void): /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)V;
+- (_Bool)j;
 - (id);
 - (_Bool);
 - (shared_ptr_fba94852);

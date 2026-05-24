@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface FI_TScopeBarStackView
 {
     NSView *_viewToSwapIn;
-    NSView *_viewToSwapOut;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)y	?%@qa;
 - (void)time.this_week(+1);
 - (void)ÿÿ5;
 
 // Remaining properties
 @property(retain, nonatomic) NSView *viewToSwapIn; // @synthesize viewToSwapIn=_viewToSwapIn;
-@property(retain, nonatomic) NSView *viewToSwapOut; // @synthesize viewToSwapOut=_viewToSwapOut;
 
 @end
 

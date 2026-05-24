@@ -5,5 +5,6 @@
 //
 
 @protocol VCAggregatorDelegate
+- (void)a	;
 @end
 

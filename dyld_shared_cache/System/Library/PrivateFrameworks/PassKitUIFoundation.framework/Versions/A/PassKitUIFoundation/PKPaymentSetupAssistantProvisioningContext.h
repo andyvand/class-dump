@@ -9,7 +9,6 @@
 @interface PKPaymentSetupAssistantProvisioningContext
 {
     id <PKPaymentSetupAssistantProvisioningContextDelegate> _delegate;
-    id <PKPassSnapshotCoordinatorProtocol> _snapshotCoordinator;
 }
 
 - (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <PKPaymentSetupAssistantProvisioningContextDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) id <PKPassSnapshotCoordinatorProtocol> snapshotCoordinator; // @synthesize snapshotCoordinator=_snapshotCoordinator;
 
 @end

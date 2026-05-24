@@ -9,34 +9,26 @@
 @interface CTCarrier
 {
     NSString *_carrierName;
-    NSString *_mobileCountryCode;
-    NSString *_mobileNetworkCode;
-    NSString *_isoCountryCode;
-    _Bool _allowsVOIP;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h^;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)x;
 - (void);
-- (void);
+- (void)s not a supported encoding.;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsVOIP; // @synthesize allowsVOIP=_allowsVOIP;
 @property(retain, nonatomic) NSString *carrierName; // @synthesize carrierName=_carrierName;
-@property(retain, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(retain, nonatomic) NSString *mobileCountryCode; // @synthesize mobileCountryCode=_mobileCountryCode;
-@property(retain, nonatomic) NSString *mobileNetworkCode; // @synthesize mobileNetworkCode=_mobileNetworkCode;
 
 @end
 

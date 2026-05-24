@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString, NSURL, OSLaunchdJobProperties;
+@class NSSet;
 
 @interface RBSLaunchdJobDescriptor
 {
     _Bool _backoff;
-    NSURL *_executableURL;
-    NSString *_bundleIdentifier;
-    NSArray *_attributes;
-    NSDictionary *_launchRequestEndpointIdentifiers;
-    OSLaunchdJobProperties *_jobProperties;
-    NSDictionary *_clientRestriction;
 }
 
 - (void);
@@ -28,21 +22,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B+;
 
 // Remaining properties
-@property(retain) NSArray *attributes; // @synthesize attributes=_attributes;
-@property _Bool backoff; // @synthesize backoff=_backoff;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSDictionary *clientRestriction; // @synthesize clientRestriction=_clientRestriction;
-@property(retain) NSURL *executableURL; // @synthesize executableURL=_executableURL;
-@property(retain) OSLaunchdJobProperties *jobProperties; // @synthesize jobProperties=_jobProperties;
-@property(retain) NSDictionary *launchRequestEndpointIdentifiers; // @synthesize launchRequestEndpointIdentifiers=_launchRequestEndpointIdentifiers;
 @property(readonly) NSSet *managedEndpointLaunchIdentifiers;
 
 @end

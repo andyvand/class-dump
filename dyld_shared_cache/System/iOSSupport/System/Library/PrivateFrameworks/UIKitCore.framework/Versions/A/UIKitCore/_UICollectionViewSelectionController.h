@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewSelectionController
 {
     NSMutableSet *_selectedIndexPaths;
-    NSMutableSet *_highlightedIndexPaths;
-    NSMutableSet *_deselectionTransitionIndexPaths;
-    NSMutableSet *_nonvisibleTrackedSelectedIdentifiers;
-    _Bool _allowsMultipleSelection;
 }
 
 - (void);
@@ -21,17 +17,18 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (long long);
+- (void)_payloadIncomingMailServerPortNumber;
+- (id)CEMSecurityInformationCommand;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)factorization.
+;
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)ModelPropertyAlbumSongPopularity;
 - (id);
 - (id);
 - (_Bool);
@@ -48,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void)QgÐ1Â0@ù
 × ;
 - (void)_setAdditionalSafeAreaInsets:(id)arg1;
-- (id)iewControllerReadyForDisplay: /* Error: Ran out of types for this method. */;
+- (id)_handleTopViewControllerReadyForDisplay: /* Error: Ran out of types for this method. */;
 - (void)astTypedKeyTimestamp,S_setLastTypedKeyTimestamp:(id)arg1 ,V_lastTypedKeyTimestamp;
 - (void)= %@;
 - (void)dUpdateFocus(__strong id<UIFocusEnvironment> _Nonnull, UIFocusUpdateContext *__strong _Nonnull);
@@ -59,11 +56,6 @@ __attribute__((visibility("hidden")))
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property(readonly, copy, nonatomic) NSSet *deselectionTransitionIndexPaths; // @synthesize deselectionTransitionIndexPaths=_deselectionTransitionIndexPaths;
-@property(readonly, copy, nonatomic) NSSet *highlightedIndexPaths;
-@property(readonly, nonatomic) long long highlightedItemsCount;
-@property(readonly, copy, nonatomic) NSSet *selectedIndexPaths;
 @property(readonly, nonatomic) long long selectedItemsCount;
 
 @end

@@ -13,10 +13,10 @@
     NSNumber *_memberDSID;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)EventSnippet;
+- (id)appAuthorizationStatusMap;
+- (id)];
+- (void)ngingNotification:(CDUnknownBlockType)arg1 no server INVITE transaction;
 - (void);
 
 // Remaining properties

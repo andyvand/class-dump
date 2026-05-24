@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString, SAUIAudioDescription;
+@class NSData;
 
 @interface SAUIAudioData : AceObject
 {
@@ -25,15 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *audioBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) SAUIAudioDescription *decoderStreamDescription;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIAudioDescription *playerStreamDescription;
-@property(readonly) Class superclass;
 
 @end
 

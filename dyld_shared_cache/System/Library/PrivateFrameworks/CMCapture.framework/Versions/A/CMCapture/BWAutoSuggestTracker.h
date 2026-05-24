@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface BWAutoSuggestTracker
 {
     int _objectType;
-    long long _combinedTrackerID;
-    int _validObjectCounter;
-    struct CGRect _rect;
-    NSMutableArray *_centersIn;
-    NSMutableArray *_ObjectAreaIn;
-    NSMutableArray *_centerVx;
-    NSMutableArray *_centerVy;
-    NSMutableArray *_centerDx;
-    NSMutableArray *_centerDy;
-    int _trackerID;
-    unsigned int _confidenceLevel;
-    NSMutableArray *_objectAreaIn;
 }
 
 - (int);
@@ -37,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -47,23 +33,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (struct CGRect);
-- (void)wOutputBufferPoolRequirements:(unsigned int)arg1;
+- (void)setMaximumFrameRateForSensorRawOutputBufferPoolRequirements:(unsigned int)arg1;
 - (unsigned int)Urÿdsÿttÿuÿwÿxÿuÿ£pÿªkÿ°gÿ¶bÿ½|\ÿÄxWÿËsRÿÓoLÿÛkGÿähBÿìe>ÿõc;ÿýb9ÿÿa8ÿÿa7ÿÿa7ÿÿa7ÿÿb7ÿ;
 - (void)ÿ(ÿ'ÿ$ÿ£ÿ©{ÿ°wÿ·rÿ¾m;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *centerDx; // @synthesize centerDx=_centerDx;
-@property(retain, nonatomic) NSMutableArray *centerDy; // @synthesize centerDy=_centerDy;
-@property(retain, nonatomic) NSMutableArray *centerVx; // @synthesize centerVx=_centerVx;
-@property(retain, nonatomic) NSMutableArray *centerVy; // @synthesize centerVy=_centerVy;
-@property(retain, nonatomic) NSMutableArray *centersIn; // @synthesize centersIn=_centersIn;
-@property(nonatomic) long long combinedTrackerID; // @synthesize combinedTrackerID=_combinedTrackerID;
-@property(nonatomic) unsigned int confidenceLevel; // @synthesize confidenceLevel=_confidenceLevel;
-@property(retain, nonatomic) NSMutableArray *objectAreaIn; // @synthesize objectAreaIn=_objectAreaIn;
 @property(nonatomic) int objectType; // @synthesize objectType=_objectType;
-@property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(nonatomic) int trackerID; // @synthesize trackerID=_trackerID;
-@property(nonatomic) int validObjectCounter; // @synthesize validObjectCounter=_validObjectCounter;
 
 @end
 

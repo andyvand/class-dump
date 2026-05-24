@@ -12,14 +12,14 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (unsigned char);
 - (unsigned char);
 - (id);
 - (void);
 - (void);
 - (unsigned char);
-- (void);
+- (void)own;
 - (unsigned char);
 - (void);
 

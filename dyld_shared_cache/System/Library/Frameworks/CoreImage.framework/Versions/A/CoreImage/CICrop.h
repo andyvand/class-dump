@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICrop : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputRectangle;
 }
 
 + (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputRectangle; // @synthesize inputRectangle;
 
 @end
 

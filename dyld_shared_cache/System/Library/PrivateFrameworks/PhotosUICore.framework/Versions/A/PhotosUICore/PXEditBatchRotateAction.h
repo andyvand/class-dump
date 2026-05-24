@@ -13,9 +13,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)p;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long)¸Æ;

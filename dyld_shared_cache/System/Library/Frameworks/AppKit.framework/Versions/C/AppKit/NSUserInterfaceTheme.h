@@ -10,12 +10,12 @@
 }
 
 + (id);
-+ (id);
++ (id)HTTPCookieStorage::copyCookiesForURL /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)!;
 - (id);
 
 @end

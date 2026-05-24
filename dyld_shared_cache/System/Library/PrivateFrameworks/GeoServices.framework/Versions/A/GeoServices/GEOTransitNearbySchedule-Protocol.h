@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol GEOTransitNearbySchedule
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *categories;

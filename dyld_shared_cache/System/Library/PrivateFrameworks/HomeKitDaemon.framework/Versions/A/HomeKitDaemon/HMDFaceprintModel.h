@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModelReference, NSData, NSUUID;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDFaceprintModel
@@ -12,14 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
++ (id)loiGivenFacetimeWithEntity;
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy) NSData *data; // @dynamic data;
-@property(retain) HMBModelReference *faceCrop; // @dynamic faceCrop;
-@property(copy) NSUUID *modelUUID; // @dynamic modelUUID;
 
 @end
 

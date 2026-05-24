@@ -7,13 +7,6 @@
 @interface MediaPlaybackCore.AssetSlidingQueue.Position
 {
     id contentItemID;
-    id queueItem;
-    id assetTaskFinished;
-    id error;
-    id isSkippable;
-    id hasBegunPlayback;
-    id firstAudioFrameRendered;
-    id isFullyDownloaded;
 }
 
 @end

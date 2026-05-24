@@ -13,13 +13,13 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
@@ -35,15 +35,15 @@ struct NSDirectionalEdgeInsets {
 };
 
 struct UIEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _NUIBoxArrangement {
@@ -102,42 +102,12 @@ struct _NUIGridArrangementCell;
 
 struct _NUIGridArrangementDimension;
 
-struct map<UIView *, _NUIContainerViewArrangedSubview, std::less<UIView *>, std::allocator<std::pair<UIView *const, _NUIContainerViewArrangedSubview>>> {
-    struct __tree<std::__value_type<UIView *, _NUIContainerViewArrangedSubview>, std::__map_value_compare<UIView *, std::pair<UIView *const, _NUIContainerViewArrangedSubview>, std::less<UIView *>>, std::allocator<std::pair<UIView *const, _NUIContainerViewArrangedSubview>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<UIView *, const std::pair<_NSRange, _NSRange>, std::less<UIView *>, std::allocator<std::pair<UIView *const, const std::pair<_NSRange, _NSRange>>>> {
-    struct __tree<std::__value_type<UIView *, const std::pair<_NSRange, _NSRange>>, std::__map_value_compare<UIView *, std::pair<UIView *const, const std::pair<_NSRange, _NSRange>>, std::less<UIView *>>, std::allocator<std::pair<UIView *const, const std::pair<_NSRange, _NSRange>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<UIView *, double, std::less<UIView *>, std::allocator<std::pair<UIView *const, double>>> {
-    struct __tree<std::__value_type<UIView *, double>, std::__map_value_compare<UIView *, std::pair<UIView *const, double>, std::less<UIView *>>, std::allocator<std::pair<UIView *const, double>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct nui_size_cache {
     void *__begin_;
     void *__end_;
     struct {
         void *__cap_;
     } ;
-};
-
-struct vector<CALayer *, std::allocator<CALayer *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
 };
 
 struct vector<CGRect, std::allocator<CGRect>> {
@@ -167,7 +137,9 @@ struct vector<_NUIFlowArrangementCell, std::allocator<_NUIFlowArrangementCell>> 
 struct vector<_NUIFlowRowContainer *, std::allocator<_NUIFlowRowContainer *>> {
     id *__begin_;
     id *__end_;
-    CDStruct_b6058e76 ;
+    struct {
+        id *__cap_;
+    } ;
 };
 
 struct vector<_NUIGridArrangementCell, std::allocator<_NUIGridArrangementCell>> {
@@ -189,31 +161,7 @@ struct vector<_NUIGridArrangementDimension, std::allocator<_NUIGridArrangementDi
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    unsigned short width;
-    unsigned short height;
-} CDStruct_0d6b4eb6;
-
-typedef struct {
-    id *__cap_;
-} CDStruct_b6058e76;
-
-typedef struct {
-    unsigned int horzAlign:8;
-    unsigned int vertAlign:8;
-} CDStruct_e0b918f9;
-
-typedef struct {
     double baseLineFromTop;
     double baseLineFromBottom;
 } CDStruct_6c92d79e;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
 

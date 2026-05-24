@@ -11,8 +11,6 @@
 @interface CKBrowserPluginCell : CKBrowserCell
 {
     UIImageView *_selectionOutline;
-    IMBalloonPlugin *_plugin;
-    UIImageView *_browserImage;
 }
 
 + (id);
@@ -29,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *browserImage; // @synthesize browserImage=_browserImage;
 @property(retain, nonatomic) IMBalloonPlugin *plugin; // @synthesize plugin=_plugin;
 
 @end

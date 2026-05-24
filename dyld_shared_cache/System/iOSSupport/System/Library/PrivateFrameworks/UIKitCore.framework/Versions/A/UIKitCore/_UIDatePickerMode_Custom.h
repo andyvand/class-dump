@@ -6,36 +6,32 @@
 
 #import <UIKitCore/_UIDatePickerMode.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerMode_Custom : _UIDatePickerMode
 {
     NSString *_originalFormat;
-    NSArray *_components;
-    NSArray *_sortedComponents;
-    long long _displayedUnits;
-    long long _desiredUnits;
 }
 
 - (double);
 - (long long);
 - (long long);
-- (void);
+- (void)reloadTimeInterval;
+- (long long)incomingTranslatedMessageIdentifier;
+- (void)historyToken;
+- (unsigned long long)hasRecentMessageFrom:(unsigned long long)arg1;
+- (unsigned long long)hasReceivedReadReceipt;
+- (id)_setLastUnreadDumpDate:(id)arg1;
+- (unsigned long long)romURI:guid: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (long long);
-- (id);
-- (id);
+- (id)udSyncProtocol>",R,N;
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)BlastDoorSMSFilteringSettingsMessage;
 - (id)ollapsedByDefault;
-- (unsigned long long)lEvents;
+- (unsigned long long)endReceivingRemoteControlEvents;
 - (void)Ë\;
 
 @end

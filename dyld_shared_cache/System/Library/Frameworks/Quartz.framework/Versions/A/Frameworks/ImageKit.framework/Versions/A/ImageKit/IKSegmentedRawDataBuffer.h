@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheFragHandler, NSMutableDictionary;
-
 @interface IKSegmentedRawDataBuffer
 {
     unsigned int _totalSpace;
-    unsigned int _usedSpace;
-    int _estimatedItemCount;
-    NSMutableDictionary *_fragments;
-    void *_segmentedBuffer;
-    IKCacheFragHandler *_fragHandler;
-    unsigned int _realBufferLength;
-    unsigned int _totalSpacePlusOverhead;
 }
 
 - (unsigned int);
@@ -23,7 +14,7 @@
 - (unsigned int);
 - (void);
 - (void *);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -35,7 +26,7 @@
 - (unsigned int);
 - (void);
 - (void *);
-- (int);
+- (int)hasSecondsSince1970;
 - (void);
 
 @end

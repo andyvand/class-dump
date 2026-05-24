@@ -7,24 +7,19 @@
 @interface IMPersistentTaskMonitor
 {
     id id;
-    id state;
-    id derivedState;
-    id changeHandler;
-    id notificationObserver;
 }
 
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)q;
+- (id)?;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long remainingChats;
-@property(nonatomic, readonly) long long remainingMessages;
 
 @end
 

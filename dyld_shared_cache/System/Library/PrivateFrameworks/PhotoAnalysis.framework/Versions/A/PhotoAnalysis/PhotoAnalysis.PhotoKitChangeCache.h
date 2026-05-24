@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.PhotoKitChangeCache
 {
     id $defaultActor;
-    id changeByTokensKey;
 }
 
 @end

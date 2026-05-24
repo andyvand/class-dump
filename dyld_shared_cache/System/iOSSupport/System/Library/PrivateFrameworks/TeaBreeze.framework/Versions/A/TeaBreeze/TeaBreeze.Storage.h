@@ -8,12 +8,6 @@
 {
     id rootDependencyContainer;
     id scopedDependencyContainers;
-    id dependencyGraph;
-    id scopeRuleSets;
-    id currentlyUpdatingVertices;
-    id inflightExplicitUpdates;
-    id pendingScopeDefinitions;
-    id scopes;
 }
 
 @end

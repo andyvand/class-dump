@@ -6,19 +6,11 @@
 
 @interface WiFiAnalyticsAWDWiFiNWActivityRateAndAggregation
 {
-    CDStruct_62a50c50 _ampduAGGs;
-    CDStruct_62a50c50 _rxHESuccess;
-    CDStruct_62a50c50 _rxMCSSuccess;
-    CDStruct_62a50c50 _rxVHTSuccess;
-    CDStruct_62a50c50 _rxampduMUMIMOs;
-    CDStruct_62a50c50 _rxampduOFDMAs;
-    CDStruct_62a50c50 _rxampduSUs;
-    CDStruct_62a50c50 _txHESuccess;
-    CDStruct_62a50c50 _txMCSSuccess;
-    CDStruct_62a50c50 _txVHTSuccess;
-    CDStruct_62a50c50 _txampduMUMIMOs;
-    CDStruct_62a50c50 _txampduOFDMAs;
-    CDStruct_62a50c50 _txampduSUs;
+    struct {
+        unsigned long long *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _ampduAGGs;
 }
 
 - (unsigned long long *);
@@ -28,9 +20,9 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long *);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)(;
 - (unsigned long long *);
 - (void);
 - (void);
@@ -49,33 +41,22 @@
 - (unsigned long long *);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)[;
 - (unsigned long long *);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (void)n;
+- (void)t;
+- (void)�	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long *);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long *);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -91,52 +72,38 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long *);
+- (unsigned long long)TopLevelGraphEncodingNode;
+- (unsigned long long)C;
+- (unsigned long long *);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
+- (unsigned long long *);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ze an empty set {objectID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)ingRef, const double &);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *ampduAGGs;
-@property(readonly, nonatomic) unsigned long long ampduAGGsCount;
-@property(readonly, nonatomic) unsigned long long *rxHESuccess;
-@property(readonly, nonatomic) unsigned long long rxHESuccessCount;
-@property(readonly, nonatomic) unsigned long long *rxMCSSuccess;
-@property(readonly, nonatomic) unsigned long long rxMCSSuccessCount;
-@property(readonly, nonatomic) unsigned long long *rxVHTSuccess;
 @property(readonly, nonatomic) unsigned long long rxVHTSuccessCount;
-@property(readonly, nonatomic) unsigned long long *rxampduMUMIMOs;
-@property(readonly, nonatomic) unsigned long long rxampduMUMIMOsCount;
-@property(readonly, nonatomic) unsigned long long *rxampduOFDMAs;
-@property(readonly, nonatomic) unsigned long long rxampduOFDMAsCount;
-@property(readonly, nonatomic) unsigned long long *rxampduSUs;
-@property(readonly, nonatomic) unsigned long long rxampduSUsCount;
-@property(readonly, nonatomic) unsigned long long *txHESuccess;
-@property(readonly, nonatomic) unsigned long long txHESuccessCount;
-@property(readonly, nonatomic) unsigned long long *txMCSSuccess;
-@property(readonly, nonatomic) unsigned long long txMCSSuccessCount;
-@property(readonly, nonatomic) unsigned long long *txVHTSuccess;
-@property(readonly, nonatomic) unsigned long long txVHTSuccessCount;
-@property(readonly, nonatomic) unsigned long long *txampduMUMIMOs;
-@property(readonly, nonatomic) unsigned long long txampduMUMIMOsCount;
-@property(readonly, nonatomic) unsigned long long *txampduOFDMAs;
-@property(readonly, nonatomic) unsigned long long txampduOFDMAsCount;
-@property(readonly, nonatomic) unsigned long long *txampduSUs;
-@property(readonly, nonatomic) unsigned long long txampduSUsCount;
 
 @end
 

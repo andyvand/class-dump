@@ -5,5 +5,7 @@
 //
 
 @protocol TUConduitLifecycleControllerDelegate
+- (void);
+- (void)W;
 @end
 

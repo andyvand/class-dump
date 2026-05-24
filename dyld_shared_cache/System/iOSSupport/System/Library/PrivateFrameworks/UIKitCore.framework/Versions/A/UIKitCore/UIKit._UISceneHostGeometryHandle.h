@@ -7,14 +7,6 @@
 @interface UIKit._UISceneHostGeometryHandle
 {
     id isHandleValid;
-    id frame;
-    id safeAreaInsets;
-    id cornerRadiusConfiguration;
-    id interfaceOrientation;
-    id orientationMode;
-    id orientationMapResolver;
-    id targetScene;
-    id isBatchingUpdates;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFMapCache, NSXPCConnection;
+@class FMFMapCache;
 
 @interface FMFMapSession
 {
     FMFMapCache *_mapCache;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -28,11 +27,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) FMFMapCache *mapCache; // @synthesize mapCache=_mapCache;
 
 @end

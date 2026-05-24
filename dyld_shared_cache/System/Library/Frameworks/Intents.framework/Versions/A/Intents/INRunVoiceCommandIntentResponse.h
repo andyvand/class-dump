@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INArchivedObject, NSArray, NSDictionary, NSNumber, NSString;
-
 @interface INRunVoiceCommandIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)wrapperWithURL:(long long)arg1 extensionClass:report:error: /* Error: Ran out of types for this method. */;
++ (int)initWithFPItem:(long long)arg1 size:minimumDimension:scale:iconMode: /* Error: Ran out of types for this method. */;
++ (long long)hasThumbnailOnImmutableDocumentAtURL:(int)arg1;
++ (_Bool):(long long)arg1;
 + (_Bool);
-+ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -27,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (id);
@@ -38,52 +36,30 @@
 - (id);
 - (long long);
 - (void);
+- (void);
+- (id);
+- (void)ties:(id)arg1;
+- (void);
+- (id)+;
+- (id)__objc_protorefs__DATA_CONST;
+- (id)initWithTimestamp:(id)arg1 usagePage:usage:down:sender: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)includedByDefault;
+- (id);
+- (id)ing against %s;
+- (void);
+- (void)public}s:(id)arg1 %u) SecCodeCheckValidityWithErrors() returned %d (%@);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (long long)ypesCount;
+- (long long)payloadWellnessObjectTypesCount;
 - (long long)R,N;
 
 // Remaining properties
-@property(copy) NSString *appBundleId;
 @property(readonly) long long code;
-@property(copy) NSNumber *continueRunning;
-@property(copy) NSNumber *customResponsesDisabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long intentCategory;
-@property(copy) NSNumber *interstitialDisabled;
-@property(copy) NSString *localizedAppName;
-@property(copy) NSDictionary *parameters;
-@property(copy) NSNumber *prefersExecutionOnCompanion;
-@property(copy) NSString *responseTemplate;
-@property(copy) NSArray *steps;
-@property(readonly) Class superclass;
-@property long long toggleState;
-@property(copy) INArchivedObject *underlyingIntent;
-@property(copy) INArchivedObject *underlyingIntentResponse;
-@property(copy) NSString *underlyingIntentTitle;
-@property(copy) NSString *verb;
 
 @end
 

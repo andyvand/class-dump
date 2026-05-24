@@ -6,45 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSMultiturnExecution : SISchemaInstrumentationMessage
 {
     _Bool _isRewrite;
-    int _triggerError;
-    struct {
-        unsigned int isRewrite:1;
-        unsigned int triggerError:1;
-    } _has;
 }
 
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)9@9;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q";
 - (_Bool);
-- (_Bool);
+- (_Bool)notifications sent before first unlock;
 - (id);
 - (id)ÑÝ1Â0@ù
 × ;
-- (id)ptFailed;
+- (id)_hasCdmSingleServiceSetupAttemptFailed;
 - (id)V_pommesSessionId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRewrite;
-@property(nonatomic) _Bool hasTriggerError;
 @property(nonatomic) _Bool isRewrite; // @synthesize isRewrite=_isRewrite;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int triggerError; // @synthesize triggerError=_triggerError;
 
 @end
 

@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _muids;
-    NSMutableArray *_identifiers;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _resultProviderId;
-    _Bool _enablePartialClientization;
-    struct {
-        unsigned int has_resultProviderId:1;
-        unsigned int has_enablePartialClientization:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_muids:1;
-        unsigned int read_identifiers:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)_handleServerMessage: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id)b1"read_name"b1"wrote_anyField"b1};
-- (id)tScheduleRequestForStation:line:referenceTripId:includeAllDirectionNames:routingParameters:traits: /* Error: Ran out of types for this method. */;
+- (id)_initWithTransitScheduleRequestForStation:line:referenceTripId:includeAllDirectionNames:routingParameters:traits: /* Error: Ran out of types for this method. */;
 - (id)ðÍ4ÏÐÔÐ;
 - (void)×£@\Âõ(<@;
 - (id)-: /* Error: Ran out of types for this method. */;

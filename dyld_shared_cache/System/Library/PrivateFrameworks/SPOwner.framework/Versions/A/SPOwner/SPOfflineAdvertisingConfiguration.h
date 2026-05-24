@@ -7,7 +7,6 @@
 @interface SPOfflineAdvertisingConfiguration
 {
     long long _shortIntervalCount;
-    long long _longIntervalCount;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long longIntervalCount; // @synthesize longIntervalCount=_longIntervalCount;
 @property(nonatomic) long long shortIntervalCount; // @synthesize shortIntervalCount=_shortIntervalCount;
 
 @end

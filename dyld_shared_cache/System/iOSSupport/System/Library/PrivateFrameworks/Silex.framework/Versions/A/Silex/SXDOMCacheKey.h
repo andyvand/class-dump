@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXDocument, SXLayoutOptions;
-@protocol SXConditionHints;
+@class SXDocument;
 
 @interface SXDOMCacheKey
 {
     SXDocument *_document;
-    SXLayoutOptions *_options;
-    id <SXConditionHints> _hints;
 }
 
 - (id);
@@ -21,12 +18,10 @@
 - (_Bool);
 - (id);
 - (void)"<SXPresentationEnvironment>";
-- (id)yFill: /* Error: Ran out of types for this method. */;
+- (id)applyFill: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXDocument *document; // @synthesize document=_document;
-@property(readonly, nonatomic) id <SXConditionHints> hints; // @synthesize hints=_hints;
-@property(readonly, nonatomic) SXLayoutOptions *options; // @synthesize options=_options;
 
 @end
 

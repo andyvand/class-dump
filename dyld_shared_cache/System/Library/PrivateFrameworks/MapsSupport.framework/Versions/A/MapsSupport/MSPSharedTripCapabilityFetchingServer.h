@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDTimer, IDSBatchIDQueryController, MSPSharedTripIDSCapabilityFetchingQueue, MSPSharedTripMessagesCapabilityFetchingQueue, NSMapTable, NSMutableDictionary, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripCapabilityFetchingServer
 {
     NSXPCListener *_listener;
-    NSMapTable *_peersByConnection;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_identifierToMapsStatus;
-    NSMutableDictionary *_identifierToMessagesStatus;
-    NSMutableDictionary *_identifierToTextMessageStatus;
-    IDSBatchIDQueryController *_messagesBatchController;
-    MSPSharedTripIDSCapabilityFetchingQueue *_mapsStatusFetchQueue;
-    MSPSharedTripIDSCapabilityFetchingQueue *_messagesStatusFetchQueue;
-    MSPSharedTripMessagesCapabilityFetchingQueue *_textMessageStatusFetchQueue;
-    id _blockListMonitoringObserver;
-    GCDTimer *_blockListCoalescingTimer;
-    GCDTimer *_purgeTimer;
 }
 
 - (void);
@@ -36,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -45,19 +32,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)metadataForControl:andContainingFormInFrame:webView:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithDictionary:usingContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

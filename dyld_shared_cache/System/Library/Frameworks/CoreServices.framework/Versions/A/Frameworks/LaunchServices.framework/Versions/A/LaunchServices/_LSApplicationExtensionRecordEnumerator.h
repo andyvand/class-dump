@@ -6,21 +6,15 @@
 
 #import <LaunchServices/_LSRecordEnumerator.h>
 
-@class LSExtensionPointRecord, LSPropertyList, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _LSApplicationExtensionRecordEnumerator : _LSRecordEnumerator
 {
     NSString *_extensionPointID;
-    unsigned int _platform;
-    LSExtensionPointRecord *_extensionPointRecord;
-    unsigned long long _options;
-    CDUnknownBlockType _filterBlock;
-    LSPropertyList *_propertyList;
-    struct vector<unsigned int, std::allocator<unsigned int>> _plugins;
 }
 
-- (_Bool);
+- (_Bool)J=;
 - (id);
 - (_Bool);
 - (id);

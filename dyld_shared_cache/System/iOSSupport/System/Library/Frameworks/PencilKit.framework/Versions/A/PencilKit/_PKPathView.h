@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath, UIColor;
+@class UIBezierPath;
 
 @interface _PKPathView
 {
@@ -14,13 +14,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)_creatorTwitterUsername;
+- (id)h;
 - (void)Ô	ð!Bù&1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *fillColor;
 @property(retain, nonatomic) UIBezierPath *path;
 
 @end

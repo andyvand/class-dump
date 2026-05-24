@@ -6,27 +6,11 @@
 
 #import <Photos/PHMediaRequestContext.h>
 
-@class NSArray, NSMutableIndexSet, NSProgress, PAImageConversionServiceClient, PHAdjustmentDataRequest, PHContentEditingInputRequestOptions, PHContentEditingInputResult, PHImageRequest, PHImageResourceChooser, PHRepairRequest, PHVideoRequest;
+@class PHContentEditingInputRequestOptions, PHContentEditingInputResult;
 
 @interface PHContentEditingInputRequestContext : PHMediaRequestContext
 {
     PHContentEditingInputResult *_contentEditingInputResult;
-    _Bool _useRAWAsUnadjustedBase;
-    PHAdjustmentDataRequest *_adjustmentRequest;
-    PHVideoRequest *_videoRequest;
-    unsigned long long _imageBaseRequestIndex;
-    PHImageRequest *_displayImageRequest;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _inflightMediaRequestCount;
-    NSProgress *_adjustmentProgress;
-    NSProgress *_videoProgress;
-    NSProgress *_imageProgress;
-    PHRepairRequest *_repairRequest;
-    PHImageResourceChooser *_backupChooser;
-    NSArray *_assetResources;
-    NSMutableIndexSet *_requestIndexesOfAssetResourceRequests;
-    PAImageConversionServiceClient *_imageConversionClient;
-    PHContentEditingInputRequestOptions *_options;
 }
 
 + (_Bool);
@@ -39,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -51,15 +35,15 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)PMusicPlayerControllerNowPlaying",&,N;
 - (void);
-- (void);
+- (void)edPersonID, @flavor, @url, @urlExpirationDate ) ;;
 - (long long);
-- (id);
-- (long long);
+- (id)P;
+- (long long)P;
 - (id);
 - (void);
-- (void)e;
+- (void)PHAssetExportRequestVariantValue;
 - (CDUnknownBlockType)nied by user;
 - (_Bool);
 

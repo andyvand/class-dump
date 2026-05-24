@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, UIColor;
+@class NSNumber;
 
 @interface UIStatusBarStyleRequest
 {
     long long _style;
-    long long _legibilityStyle;
-    UIColor *_foregroundColor;
-    NSNumber *_overrideHeight;
-    double _foregroundAlpha;
 }
 
 - (id);
-- (long long);
+- (long long)et;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)importArtworkTokenForEntityPersistentID:entityType:artworkToken:artworkType:sourceType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -28,10 +24,10 @@
 - (id)ZÐ1Â0@ù
 × ;
 - (id);
-- (_Bool)aractersInRange:(id)arg1 state:replacementAttributedString: /* Error: Ran out of types for this method. */;
+- (_Bool)proofreadingController:(id)arg1 replaceCharactersInRange:state:replacementAttributedString: /* Error: Ran out of types for this method. */;
 - (_Bool)V_overlayDepth;
 - (id)animatedAppearanceBarButtonItem;
-- (_Bool)terDetailLegacySupport;
+- (_Bool)MasterDetailLegacySupport;
 - (id)`DeEìE`Ff¸GÐGgIÀI;
 - (void)Lc;
 - (double)h;
@@ -39,11 +35,7 @@
 - (long long)j;
 
 // Remaining properties
-@property(readonly, nonatomic) double foregroundAlpha; // @synthesize foregroundAlpha=_foregroundAlpha;
-@property(readonly, retain, nonatomic) UIColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(readonly, nonatomic) long long legibilityStyle; // @synthesize legibilityStyle=_legibilityStyle;
 @property(readonly, retain, nonatomic) NSNumber *overrideHeight; // @synthesize overrideHeight=_overrideHeight;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

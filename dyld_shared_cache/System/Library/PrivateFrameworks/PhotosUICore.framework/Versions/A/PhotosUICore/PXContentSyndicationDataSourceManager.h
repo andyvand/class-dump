@@ -23,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> allAssetsFetchResult; // @synthesize allAssetsFetchResult=_allAssetsFetchResult;
 @property(readonly, nonatomic) PXContentSyndicationDataSource *dataSource; // @dynamic dataSource;
 
 @end

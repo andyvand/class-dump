@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)^B24;
 - (void)@?0@"PGGraphHighlightGroupNode"8^B16;
 
 @end

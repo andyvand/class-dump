@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TUCall;
-@protocol CNKFaceTimeMultiwayConversationViewControllerDelegate;
+@class PlatformViewController;
+@protocol CNKFaceTimeMultiwayConversationViewControllerDelegate, CNKMultiwayViewControllerProtocol;
 
 @protocol CNKStagingAreaViewControllerProtocol
+- (PlatformViewController<CNKMultiwayViewControllerProtocol> *);
+- (void)gQr;
 
 // Remaining properties
-@property(retain, nonatomic) TUCall *call;
 @property(nonatomic) __weak id <CNKFaceTimeMultiwayConversationViewControllerDelegate> delegate;
 @end
 

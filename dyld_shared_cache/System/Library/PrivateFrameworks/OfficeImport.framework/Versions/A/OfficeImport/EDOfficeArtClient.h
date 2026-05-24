@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAnchor, EDComment, EDSheet, EDTextBox, NSMutableDictionary, NSString;
+@class EDSheet;
 
 __attribute__((visibility("hidden")))
 @interface EDOfficeArtClient
 {
     EDSheet *mSheet;
-    id mClientState;
-    EDAnchor *mAnchor;
-    EDTextBox *mTextBox;
-    EDComment *mComment;
-    NSMutableDictionary *mTableModels;
-    struct CGRect mBounds;
-    _Bool mIsBoundsSet;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (_Bool)N;
@@ -40,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)ª;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

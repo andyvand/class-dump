@@ -9,9 +9,6 @@
 @interface CKDPDistributedTimestampsSiteVersionVectors
 {
     CKDPDistributedTimestampsVersionVector *_contentsVector;
-    CKDPDistributedTimestampsVersionVector *_dependenciesVector;
-    CKDPDistributedTimestampsVersionVector *_previousVector;
-    CKDPDistributedTimestampsVersionVector *_removalsVector;
 }
 
 - (void);
@@ -19,33 +16,26 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id).!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
+- (void)Ê;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)saveCustomWordTaggingModelToURL:modelData:stringInputName:classname:NSError: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (id);
 - (id);
 - (void)°Þ;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPDistributedTimestampsVersionVector *contentsVector; // @synthesize contentsVector=_contentsVector;
-@property(retain, nonatomic) CKDPDistributedTimestampsVersionVector *dependenciesVector; // @synthesize dependenciesVector=_dependenciesVector;
-@property(readonly, nonatomic) _Bool hasContentsVector;
-@property(readonly, nonatomic) _Bool hasDependenciesVector;
 @property(readonly, nonatomic) _Bool hasPreviousVector;
-@property(readonly, nonatomic) _Bool hasRemovalsVector;
-@property(retain, nonatomic) CKDPDistributedTimestampsVersionVector *previousVector; // @synthesize previousVector=_previousVector;
-@property(retain, nonatomic) CKDPDistributedTimestampsVersionVector *removalsVector; // @synthesize removalsVector=_removalsVector;
 
 @end
 

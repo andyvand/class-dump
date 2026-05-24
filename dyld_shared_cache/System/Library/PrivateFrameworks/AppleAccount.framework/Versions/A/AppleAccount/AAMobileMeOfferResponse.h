@@ -6,24 +6,22 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface AAMobileMeOfferResponse : AAResponse
 {
 }
 
+- (id)e=%u.
+;
+- (id):returning, err = %ld, code=%u.
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)loadRequest: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *classicMessage;
-@property(readonly, nonatomic) NSString *classicTitle;
 @property(readonly, nonatomic) NSNumber *identifier;
-@property(readonly, nonatomic) NSString *message;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

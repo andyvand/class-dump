@@ -5,5 +5,10 @@
 //
 
 @protocol NSImmediateActionAnimationController
+
+@optional
+- (void)Authority;
+- (void);
+- (void)STSWithUntrustedRootCertificate;
 @end
 

@@ -7,10 +7,12 @@
 @protocol PRUISPosterMotionEventsDelegate;
 
 @protocol PRUISPosterMotionEventsGenerating
-- (void)m:(double)arg1 partIndex:withNewComposition: /* Error: Ran out of types for this method. */;
+- (void)er";
+- (id <PRUISPosterMotionEventsDelegate>)initWithAttributedString: /* Error: Ran out of types for this method. */;
+- (double);
+- (void)editMessageItem:(double)arg1 partIndex:withNewComposition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double deviceMotionUpdateInterval;
-@property(nonatomic) __weak id <PRUISPosterMotionEventsDelegate> motionEventsDelegate;
 @end
 

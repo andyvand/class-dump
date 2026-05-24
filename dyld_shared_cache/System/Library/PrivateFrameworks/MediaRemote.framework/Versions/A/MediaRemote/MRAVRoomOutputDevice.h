@@ -6,35 +6,30 @@
 
 #import <MediaRemote/MRAVOutputDevice.h>
 
-@class MRAVConcreteOutputDevice, NSArray, NSString;
+@class NSArray;
 
 @interface MRAVRoomOutputDevice : MRAVOutputDevice
 {
     NSArray *_clusterComposition;
-    NSString *_uid;
-    MRAVOutputDevice *_outputDevice;
-    MRAVConcreteOutputDevice *_concreteOutputDevice;
-    NSArray *_roomMemberOutputDevices;
-    NSString *_label;
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)inator;
 - (id);
 - (void);
 - (float);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)stemAssistantExperienceStatusManager fetchGenerativeModelsAvailability]_block_invoke;
+- (id)";
 - (void);
 - (id);
 - (id);
@@ -45,15 +40,11 @@
 - (unsigned int);
 - (unsigned int);
 - (id)yAssets;
-- (void)k;
+- (void)_volumeCallback;
 - (id)ò]c¤ö;
 
 // Remaining properties
-@property(readonly, nonatomic) MRAVConcreteOutputDevice *concreteOutputDevice; // @synthesize concreteOutputDevice=_concreteOutputDevice;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 @property(readonly, nonatomic) MRAVOutputDevice *outputDevice; // @synthesize outputDevice=_outputDevice;
-@property(readonly, nonatomic) MRAVOutputDevice *roomMemberOutputDevice;
-@property(readonly, nonatomic) NSArray *roomMemberOutputDevices; // @synthesize roomMemberOutputDevices=_roomMemberOutputDevices;
 
 @end
 

@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIView;
+@class UIView;
 @protocol UITextCursorView, UITextInput;
 
 @interface UITextCursorDropPositionAnimator
 {
     _Bool _didPerformInitialUpdate;
-    _Bool _isCursorVisible;
-    NSMutableArray *_alongsideAnimations;
-    NSMutableArray *_alongsideCompletions;
-    UIView<UITextCursorView> *_cursorView;
-    UIView<UITextInput> *_textInput;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)- Found another iMessage account:[%@], displayName:[%@] /* Error: Ran out of types for this method. */;
+- (void)eleted | Removed parts from old item %@, got new item:(CDUnknownBlockType)arg1 %@;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)';
+- (_Bool)9;
 - (id);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)A;
 - (id)à;
 - (void)ØRØÔÕa;
 

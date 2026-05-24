@@ -11,12 +11,11 @@
 @interface MISDBManager : SQLDB
 {
     MISEntitlementsModel *Entitlements;
-    MISProfileModel *Profiles;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -26,14 +25,14 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id);;
 - (id);
 - (id);
 - (id);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,22 +43,21 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`6;
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)no unknown file icon found;
+- (_Bool)�;
 - (void);
 
 // Remaining properties
-@property(retain) MISEntitlementsModel *Entitlements; // @synthesize Entitlements;
 @property(retain) MISProfileModel *Profiles; // @synthesize Profiles;
 
 @end

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineLocationAwarenessIntervalHistogram
 {
     unsigned long long _duration;
-    unsigned long long _timestamp;
-    NSMutableArray *_anyPositiveIntervalHistograms;
-    NSMutableArray *_lessThan10mIntervalHistograms;
-    NSMutableArray *_lessThan200mIntervalHistograms;
-    NSMutableArray *_lessThan25mIntervalHistograms;
-    NSMutableArray *_lessThan55mIntervalHistograms;
-    CDStruct_9b5766a4 _has;
 }
 
 @end

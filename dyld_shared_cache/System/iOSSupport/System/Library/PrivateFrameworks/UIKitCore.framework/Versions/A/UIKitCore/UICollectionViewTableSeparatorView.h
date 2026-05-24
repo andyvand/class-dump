@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     _UITableViewCellSeparatorView *_separatorView;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)etedPreview;
+- (void)targetedPreview;
 - (void);
 
 // Remaining properties

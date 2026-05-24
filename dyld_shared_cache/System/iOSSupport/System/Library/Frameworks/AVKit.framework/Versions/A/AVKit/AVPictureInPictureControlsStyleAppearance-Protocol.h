@@ -5,6 +5,7 @@
 //
 
 @protocol AVPictureInPictureControlsStyleAppearance
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long controlsStyle;

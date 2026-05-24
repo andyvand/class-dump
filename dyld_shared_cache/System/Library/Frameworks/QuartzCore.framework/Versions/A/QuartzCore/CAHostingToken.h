@@ -10,16 +10,9 @@
 @interface CAHostingToken
 {
     NSObject<OS_xpc_object> *_xPort;
-    struct {
-        unsigned int sid;
-        int pid;
-        unsigned int cid;
-        unsigned int type;
-    } _data;
-    unsigned int _port;
 }
 
-+ (id);
++ (id)B;
 + (id);
 + (_Bool);
 - (_Bool);
@@ -36,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, getter=isAuthoritative) _Bool authoritative;
-@property(readonly) int pid;
 
 @end
 

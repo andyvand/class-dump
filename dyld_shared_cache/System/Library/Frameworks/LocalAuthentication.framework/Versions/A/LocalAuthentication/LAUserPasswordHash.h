@@ -9,8 +9,6 @@
 @interface LAUserPasswordHash
 {
     long long iterations;
-    void salt;
-    id pbkdf2Hash;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *hashData;
-@property(nonatomic, readonly) long long iterations; // @synthesize iterations;
-@property(nonatomic, readonly) NSData *salt;
 
 @end
 

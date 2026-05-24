@@ -4,53 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, CALayer, NSArray, NSObject, NSString, VCPixelBufferOverlay, VCStreamOutput;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface VCImageQueue
 {
     struct _CAImageQueue *_caQueue;
-    struct OpaqueFigImageQueue *_figQueue;
-    struct __CFDictionary *_storedAttributes;
-    struct _opaque_pthread_mutex_t _enqueueLock;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    unsigned int _slot;
-    unsigned int _frameRate;
-    _Bool _imageQueueProtected;
-    _Bool _isLowLatencyEnabled;
-    long long _streamToken;
-    unsigned int _enqueuedFrameCount;
-    _Atomic int _frameCount;
-    struct __CFArray *_frameCountHistory;
-    VCPixelBufferOverlay *_pixelBufferOverlay;
-    VCStreamOutput *_streamOutput;
-    struct __CFAllocator *_streamOutputAllocator;
-    unsigned int _contextId;
-    unsigned int _layerHostSlot;
-    CAContext *_caContext;
-    CALayer *_caLayer;
-    struct CGRect _contentsRect;
-    struct CATransform3D _transform;
-    _Bool _waitForLayoutChange;
-    struct _opaque_pthread_cond_t _waitForLayoutChangeCondition;
-    struct OpaqueFigVideoTarget *_videoTarget;
-    struct __CFArray *_videoTargetImageQueue;
-    struct OpaqueFigDataQueue *_videoTargetDataQueue;
-    struct __CFAllocator *_dataBlockBufferStructureAllocator;
-    struct __CFAllocator *_dataFormatDescriptionAllocator;
-    struct __CFAllocator *_dataSampleBufferAllocator;
-    _Bool _isLocalVideo;
-    _Bool _effectsEnabled;
-    _Bool _lastEffectsEnabled;
-    int _cameraFacing;
-    unsigned int _maxFrameRateForClipping;
-    _Bool _usingRemoteQueue;
-    _Bool _layerHostMode;
-    _Bool _isExternalCamera;
-    _Bool _transformForRemoteVideoOrientationEnabled;
-    NSObject<OS_xpc_object> *_endpointID;
-    NSArray *_videoBufferDescription;
 }
 
 + (id);
@@ -65,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -77,54 +34,37 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)iy8(	;
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
+- (id)n;
+- (void)};
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned int);
+- (unsigned int)odels/;
 - (void);
 - (void);
 - (int)ÎÿmYê¹¬%;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *endpointID; // @synthesize endpointID=_endpointID;
 @property unsigned int frameRate;
-@property(readonly) unsigned long long hash;
-@property _Bool imageQueueProtected;
-@property(nonatomic) _Bool isExternalCamera; // @synthesize isExternalCamera=_isExternalCamera;
-@property(nonatomic, getter=isLayerHostMode) _Bool layerHostMode; // @synthesize layerHostMode=_layerHostMode;
-@property(nonatomic, getter=isLowLatencyEnabled) _Bool lowLatencyEnabled; // @synthesize lowLatencyEnabled=_isLowLatencyEnabled;
-@property(retain) VCStreamOutput *streamOutput; // @synthesize streamOutput=_streamOutput;
-@property long long streamToken;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTransformForRemoteVideoOrientationEnabled) _Bool transformForRemoteVideoOrientationEnabled; // @synthesize transformForRemoteVideoOrientationEnabled=_transformForRemoteVideoOrientationEnabled;
-@property(readonly) _Bool usingRemoteQueue; // @synthesize usingRemoteQueue=_usingRemoteQueue;
-@property(retain, nonatomic) NSArray *videoBufferDescription; // @synthesize videoBufferDescription=_videoBufferDescription;
 
 @end
 

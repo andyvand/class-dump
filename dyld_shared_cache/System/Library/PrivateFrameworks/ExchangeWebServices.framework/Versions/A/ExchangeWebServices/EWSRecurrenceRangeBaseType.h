@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface EWSRecurrenceRangeBaseType
 {
     NSDateComponents *_StartDate;
 }
 
-+ (id);
++ (id)Qo__SSAEyA14__A14_tGAHQo_;
 - (id);
 - (id);
 - (void);
@@ -19,13 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDateComponents *StartDate; // @synthesize StartDate=_StartDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

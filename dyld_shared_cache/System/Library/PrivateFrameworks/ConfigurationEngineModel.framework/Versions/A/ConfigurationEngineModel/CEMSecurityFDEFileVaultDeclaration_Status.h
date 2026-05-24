@@ -13,9 +13,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)_;
 - (id);
-- (_Bool);
+- (_Bool)ch.VoiceSmuggler;
 
 @end
 

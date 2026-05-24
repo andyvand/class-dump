@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHUIActivationEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)last message date for chat identifiers:(id)arg1 %@ and last addressed labelIDs:%@   (Results:%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)aluationContext;
-- (id)gerSettings: /* Error: Ran out of types for this method. */;
-- (_Bool)OME;
+- (id)_evaluationContext;
+- (id)setHasSiriVoiceTriggerSettings: /* Error: Ran out of types for this method. */;
+- (_Bool)FLCANDIDATEOUTCOME_UNABLE_TO_DERIVE_OUTCOME;
 - (_Bool);
 - (void)þ$;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

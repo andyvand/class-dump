@@ -7,11 +7,6 @@
 @interface AWDSafariEnterPasswordsPreferencesEvent
 {
     unsigned long long _percentageOfDuplicatedPasswords;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int percentageOfDuplicatedPasswords:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
@@ -19,9 +14,9 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (void)`;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long).;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -30,13 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPercentageOfDuplicatedPasswords;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long percentageOfDuplicatedPasswords; // @synthesize percentageOfDuplicatedPasswords=_percentageOfDuplicatedPasswords;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

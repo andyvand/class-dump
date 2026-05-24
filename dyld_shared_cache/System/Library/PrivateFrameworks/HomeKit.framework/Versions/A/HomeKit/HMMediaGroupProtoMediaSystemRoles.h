@@ -9,7 +9,6 @@
 @interface HMMediaGroupProtoMediaSystemRoles
 {
     NSString *_leftDestinationIdentifier;
-    NSString *_rightDestinationIdentifier;
 }
 
 - (void);
@@ -17,13 +16,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)viscose;
 - (void);
 - (id);
 - (id);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLeftDestinationIdentifier;
-@property(readonly, nonatomic) _Bool hasRightDestinationIdentifier;
-@property(retain, nonatomic) NSString *leftDestinationIdentifier; // @synthesize leftDestinationIdentifier=_leftDestinationIdentifier;
-@property(retain, nonatomic) NSString *rightDestinationIdentifier; // @synthesize rightDestinationIdentifier=_rightDestinationIdentifier;
 
 @end
 

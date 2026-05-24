@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface ASDEnterpriseAppMetadata
 {
     _Bool _hideUserPrompts;
-    NSURL *_manifestURL;
 }
 
 + (_Bool);
@@ -19,21 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)tIndex:(struct _NSZone *)arg1 ];
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool hideUserPrompts; // @synthesize hideUserPrompts=_hideUserPrompts;
-@property(readonly) NSURL *manifestURL; // @synthesize manifestURL=_manifestURL;
-@property(readonly) long long metadataType;
-@property(readonly) Class superclass;
 
 @end
 

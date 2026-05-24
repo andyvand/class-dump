@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSSQLiteIntarrayTable
 {
     struct sqlite3_intarray *_intarrayTable;
-    NSString *_intarrayTableName;
 }
 
 - (void);

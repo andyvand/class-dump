@@ -6,35 +6,29 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class CADisplayLink, NSDate, _UIVelocityIntegrator;
+@class CADisplayLink;
 
 __attribute__((visibility("hidden")))
 @interface _UISteadyTouchForceGestureRecognizer : UIGestureRecognizer
 {
     CADisplayLink *_continuousEvaluationDisplayLink;
-    _UIVelocityIntegrator *_velocityIntegrator;
-    double _currentTouchForce;
-    NSDate *_steadyTimestamp;
-    _Bool _useOverridingMinimumDuration;
-    double _overrideMinimumSteadyTouchForceDuration;
-    double _minimumSteadyTouchForceDuration;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
+- (void)dation token for handle handleID:(id)arg1 %@ Error:(id)arg2 %@;
+- (double)e record operation unsupported.;
+- (void)Consumer;
 - (void);
 - (void);
 - (id)nd_"^{_UIOutlineNode}""{?="__cap_"^{_UIOutlineNode}}};
-- (void)tes: /* Error: Ran out of types for this method. */;
-- (void)nceStatesByIndexPaths:(id)arg1;
-- (void)dleDelayedCentroidUpdate;
-- (void)utModeIdentifiers;
-- (void)utAccessoryView;
-- (void)utoshifted:(id)arg1;
+- (void)setMaximumNumberOfCandidates: /* Error: Ran out of types for this method. */;
+- (void)setCellAppearanceStatesByIndexPaths:(id)arg1;
+- (void)handleDelayedCentroidUpdate;
+- (void)activeDictationSupportedInputModeIdentifiers;
+- (void)_inputAccessoryView;
+- (void)setAutoshifted:(id)arg1;
 - (void),N,V_keyboardVC;
 - (void)ch is not supported by flow layout. Delegate:(id)arg1 %@; collection view:(id)arg2 %@;
 - (void);

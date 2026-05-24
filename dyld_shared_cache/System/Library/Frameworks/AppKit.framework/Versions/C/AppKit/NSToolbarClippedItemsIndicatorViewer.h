@@ -6,24 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSPortalView, NSString, NSToolbarClippedItemsIndicator, NSToolbarPlatterView, NSToolbarView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarClippedItemsIndicatorViewer : NSView
 {
     _Bool _needsModeConfiguration;
-    struct CGSize _minSize;
-    unsigned long long _displayMode;
-    NSToolbarClippedItemsIndicator *_clippedItemsIndicator;
-    NSPortalView *_portalView;
-    NSToolbarView *_toolbarView;
-    NSToolbarPlatterView *_associatedPlatter;
 }
 
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
++ (_Bool)or %d opening resume file:(id)arg1 %@;
++ (_Bool)bad username/password, trying again handle %p;
+- (_Bool)o copy the bootManifestHash;
 - (void);
 - (void);
 - (void);
@@ -32,112 +26,55 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)R;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)RE;
+- (id)apple.reminders;
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void)="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std:(_Bool)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (struct CATransform3D)portList;
+- (void)backgroundTask:didReceiveResponse:transactionMetrics: /* Error: Ran out of types for this method. */;
+- (id)_networkContext;
+- (_Bool)NSURLSessionWebSocketTask;
+- (void)rbage collection for alternative services;
+- (void)EHA_INDEXED_DYN;
+- (void)privateloader;
+- (void)@;
+- (void)unsafeAllowedInEarlyData;
+- (void)valid ATS format (Domains);
+- (_Bool)BwithCachedResponse-ERROR:bind of partition value for item:%@ /* Error: Ran out of types for this method. */;
+- (void)L,		port int NOT NULL,		alternatePort int NOT NULL,		type int NOT NULL,		creation_time int,		expires_time int,		UNIQUE(partition, host, port, type)		);;
+- (void);
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (struct CATransform3D);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id)ver;
+- (id)_xpcServer;
 - (id);
 - (void)&& index >= 0;
 - (void);
-- (struct NSEdgeInsets)hDynamicRangeContent;
+- (struct NSEdgeInsets)ShouldBeginSuppressingHighDynamicRangeContent;
 - (struct CGSize);
 - (_Bool)ÀÿRðÎ@;
 - (struct CGSize)î}uF;
 
 // Remaining properties
-@property(setter=_setNeedsModeConfiguration:) _Bool _needsModeConfiguration;
-@property(readonly) _Bool alwaysWantsOverflowTransitions;
-@property _Bool animatingIn;
-@property _Bool animatingOut;
-@property __weak NSToolbarPlatterView *associatedPlatter;
 @property(copy) NSArray *clippedItems;
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isFirstItemInGlassGroup) _Bool firstItemInGlassGroup;
-@property(readonly) struct CGRect glassBackedViewRectInSelf;
-@property(readonly) unsigned long long glassBehavior;
-@property(readonly) _Bool hasItemsToDisplayInPopUp;
-@property(readonly) unsigned long long hash;
-@property _Bool inGlassSidebar;
-@property(readonly) _Bool isGroup;
-@property(readonly) _Bool isNavigational;
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool isVisible;
-@property(readonly) unsigned long long itemPosition;
-@property(getter=isLastItemInGlassGroup) _Bool lastItemInGlassGroup;
-@property(readonly) struct CGSize maxSize;
-@property(readonly) struct CGSize minSize;
-@property(readonly) _Bool participatesInOverflow;
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) long long priorityIndex;
-@property(readonly) NSArray *subitems;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsExplicitFrame;
-@property(readonly) _Bool wantsToBeCentered;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BOSDevice, BOSRequest, NSDate, NSError, NSString, NSUUID;
+@class BOSRequest;
 
 @interface BOSTelemetry
 {
     _Bool _isAppleInternalBuild;
-    NSUUID *_sessionUUID;
-    NSError *_error;
-    BOSRequest *_request;
-    BOSDevice *_device;
-    NSDate *_startDate;
-    NSString *_fromMacOSBuild;
-    NSString *_projectVersion;
 }
 
 - (void);
@@ -32,9 +25,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)ASCLockupViewDelegate;
 - (void);
 - (void);
 - (id);
@@ -44,14 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) BOSDevice *device; // @synthesize device=_device;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSString *fromMacOSBuild; // @synthesize fromMacOSBuild=_fromMacOSBuild;
-@property _Bool isAppleInternalBuild; // @synthesize isAppleInternalBuild=_isAppleInternalBuild;
-@property(retain) NSString *projectVersion; // @synthesize projectVersion=_projectVersion;
 @property(retain) BOSRequest *request; // @synthesize request=_request;
-@property(retain) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

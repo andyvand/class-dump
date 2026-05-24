@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol NSCopying><NSSecureCoding;
+@class NSString;
 
 @interface PPLabeledValue
 {
     NSString *_label;
-    NSObject<NSCopying><NSSecureCoding> *_value;
 }
 
-+ (id);
++ (id)setThreshold_BW_Label:(id)arg1;
 + (_Bool);
-- (id);
+- (id)addRepresentation:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -24,12 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSObject<NSCopying><NSSecureCoding> *value; // @synthesize value=_value;
 
 @end
 

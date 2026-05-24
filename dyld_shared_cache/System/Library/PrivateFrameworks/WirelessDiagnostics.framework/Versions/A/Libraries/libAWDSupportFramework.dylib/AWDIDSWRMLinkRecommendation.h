@@ -7,20 +7,9 @@
 @interface AWDIDSWRMLinkRecommendation
 {
     unsigned long long _timestamp;
-    unsigned int _infraWiFiState;
-    unsigned int _magnetState;
-    unsigned int _primaryLinkType;
-    unsigned int _recommendedLinkType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int infraWiFiState:1;
-        unsigned int magnetState:1;
-        unsigned int primaryLinkType:1;
-        unsigned int recommendedLinkType:1;
-    } _has;
 }
 
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -36,31 +25,22 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (id);
+- (id)*;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInfraWiFiState;
-@property(nonatomic) _Bool hasMagnetState;
-@property(nonatomic) _Bool hasPrimaryLinkType;
-@property(nonatomic) _Bool hasRecommendedLinkType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int infraWiFiState; // @synthesize infraWiFiState=_infraWiFiState;
-@property(nonatomic) unsigned int magnetState; // @synthesize magnetState=_magnetState;
-@property(nonatomic) unsigned int primaryLinkType; // @synthesize primaryLinkType=_primaryLinkType;
-@property(nonatomic) unsigned int recommendedLinkType; // @synthesize recommendedLinkType=_recommendedLinkType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.FeedViewContextFactory
 {
     id analyticsReferralFactory;
-    id adContextFactory;
 }
 
 @end

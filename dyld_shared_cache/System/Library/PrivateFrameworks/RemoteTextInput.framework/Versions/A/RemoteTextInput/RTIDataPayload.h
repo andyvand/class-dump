@@ -9,7 +9,6 @@
 @interface RTIDataPayload
 {
     unsigned long long _version;
-    NSData *_data;
 }
 
 + (id);
@@ -19,16 +18,15 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)readReflection:fromXmlNode: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

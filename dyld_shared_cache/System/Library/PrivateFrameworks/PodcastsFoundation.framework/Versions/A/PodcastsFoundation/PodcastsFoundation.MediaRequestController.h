@@ -9,8 +9,6 @@
 @interface PodcastsFoundation.MediaRequestController : IMBaseStoreService
 {
     id responseQueue;
-    id cachePolicy;
-    id requestTelemetry;
 }
 
 - (id);

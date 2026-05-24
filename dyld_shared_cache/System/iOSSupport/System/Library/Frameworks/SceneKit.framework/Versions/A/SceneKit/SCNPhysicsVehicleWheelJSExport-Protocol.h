@@ -7,6 +7,9 @@
 @class SCNNode;
 
 @protocol SCNPhysicsVehicleWheelJSExport
+- (struct SCNVector3);
+- (void);
+- (void);
 - (id)ttribute vec4 a_texCoord1; 
 attribute vec4 a_color; 
 
@@ -36,17 +39,6 @@ void main()
 %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property struct SCNVector3 axle;
-@property struct SCNVector3 connectionPosition;
-@property double frictionSlip;
-@property double maximumSuspensionForce;
-@property double maximumSuspensionTravel;
 @property(readonly) SCNNode *node;
-@property double radius;
-@property struct SCNVector3 steeringAxis;
-@property double suspensionCompression;
-@property double suspensionDamping;
-@property double suspensionRestLength;
-@property double suspensionStiffness;
 @end
 

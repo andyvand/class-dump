@@ -7,10 +7,6 @@
 @interface PhotosUICore.LemonadeInvitationModel
 {
     id _item;
-    id cellSpecs;
-    id _didFetchSharedAlbum;
-    id _cachedSharedAlbum;
-    id _$observationRegistrar;
 }
 
 @end

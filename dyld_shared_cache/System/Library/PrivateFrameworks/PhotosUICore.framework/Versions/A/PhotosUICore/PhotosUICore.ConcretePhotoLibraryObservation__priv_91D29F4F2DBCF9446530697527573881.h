@@ -7,8 +7,6 @@
 @interface PhotosUICore.ConcretePhotoLibraryObservation__priv_91D29F4F2DBCF9446530697527573881
 {
     id observer;
-    id prepareBlock;
-    id block;
 }
 
 - (id);

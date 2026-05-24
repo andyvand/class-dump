@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFOptionalBool;
+@class NSString, RFOptionalBool;
 
 @protocol RFShowMoreOnTap
+- (RFOptionalBool *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceLabel;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFOptionalBool *shows_without_truncation;
 @end
 

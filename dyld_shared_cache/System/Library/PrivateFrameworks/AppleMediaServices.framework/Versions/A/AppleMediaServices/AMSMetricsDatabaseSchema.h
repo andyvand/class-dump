@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)(=;
 + (void);
-+ (void);
++ (void)UnreadCountStateProtocol;
 + (void);
 + (void);
 + (void)t;

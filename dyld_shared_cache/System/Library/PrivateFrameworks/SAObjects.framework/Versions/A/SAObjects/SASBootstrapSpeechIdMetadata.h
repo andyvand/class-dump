@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SASBootstrapSpeechIdMetadata : AceObject
 {
@@ -19,21 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)0úÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bootstrapSpeechId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceType;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *keychainCreationDate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol UISegmentProtocol
+- (_Bool)_UISliderFluidInteractionDelegate;
 - (unsigned int)!hCùÑ^1Â0@ù
 × ;
 - (_Bool).isHidden;
@@ -12,12 +13,6 @@
 - (_Bool)ªªªªú?«ªªªªª*@UUUUUU#@«ªªªªª@333333@ñ?UUUUUU@;
 
 // Remaining properties
-@property(readonly, nonatomic) int controlSize;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(readonly, nonatomic, getter=isMomentary) _Bool momentary;
-@property(readonly, nonatomic, getter=isRightHighlighted) _Bool rightHighlighted;
-@property(readonly, nonatomic, getter=isRightSelected) _Bool rightSelected;
-@property(readonly, nonatomic) unsigned int segmentPosition;
 @property(readonly, nonatomic, getter=isSelected) _Bool selected;
 @end
 

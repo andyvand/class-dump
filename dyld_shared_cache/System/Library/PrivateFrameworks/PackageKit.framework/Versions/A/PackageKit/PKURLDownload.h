@@ -6,29 +6,11 @@
 
 #import <PackageKit/PKDownload.h>
 
-@class IASChunklist, NSData, NSFileHandle, NSLock, NSNumber, NSThread, NSURL, PKURLTransport;
-@protocol PKDownloadDelegate><NSObject;
+@class NSThread;
 
 @interface PKURLDownload : PKDownload
 {
     _Bool _overwriteAllowed;
-    _Bool _cancelled;
-    id <PKDownloadDelegate><NSObject> _delegate;
-    NSThread *_delegateThread;
-    NSURL *_fileURL;
-    NSURL *_chunklistURL;
-    NSNumber *_chunklistSize;
-    CDUnknownBlockType _connectionChallengeBlock;
-    CDUnknownBlockType _sessionChallengeBlock;
-    NSLock *_downloaderLock;
-    PKURLTransport *_chunklistTransport;
-    PKURLTransport *_fileTransport;
-    NSFileHandle *_fileHandle;
-    NSFileHandle *_chunklistHandle;
-    IASChunklist *_chunklist;
-    NSData *_chunklistHash;
-    NSData *_fileResumeData;
-    NSData *_chunklistResumeData;
 }
 
 + (_Bool);
@@ -39,34 +21,34 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9;
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (_Bool);
+- (id);
+- (id);
+- (id)q;
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -76,53 +58,37 @@
 - (void);
 - (void);
 - (id);
+- (void)#;
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)GL_NV_shadow_samplers_array;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) IASChunklist *chunklist; // @synthesize chunklist=_chunklist;
-@property(retain, nonatomic) NSFileHandle *chunklistHandle; // @synthesize chunklistHandle=_chunklistHandle;
-@property(retain, nonatomic) NSData *chunklistHash; // @synthesize chunklistHash=_chunklistHash;
-@property(retain) NSData *chunklistResumeData; // @synthesize chunklistResumeData=_chunklistResumeData;
-@property(retain) NSNumber *chunklistSize; // @synthesize chunklistSize=_chunklistSize;
-@property(retain) PKURLTransport *chunklistTransport; // @synthesize chunklistTransport=_chunklistTransport;
-@property(retain) NSURL *chunklistURL; // @synthesize chunklistURL=_chunklistURL;
-@property(copy) CDUnknownBlockType connectionChallengeBlock; // @synthesize connectionChallengeBlock=_connectionChallengeBlock;
 @property(retain) NSThread *delegateThread; // @synthesize delegateThread=_delegateThread;
-@property(retain, nonatomic) NSLock *downloaderLock; // @synthesize downloaderLock=_downloaderLock;
-@property(retain, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(retain) NSData *fileResumeData; // @synthesize fileResumeData=_fileResumeData;
-@property(retain) PKURLTransport *fileTransport; // @synthesize fileTransport=_fileTransport;
-@property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property _Bool overwriteAllowed; // @synthesize overwriteAllowed=_overwriteAllowed;
-@property(copy) CDUnknownBlockType sessionChallengeBlock; // @synthesize sessionChallengeBlock=_sessionChallengeBlock;
 
 @end
 

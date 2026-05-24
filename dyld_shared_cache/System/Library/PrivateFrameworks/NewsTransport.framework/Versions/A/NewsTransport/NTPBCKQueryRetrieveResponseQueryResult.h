@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBCKRecord, NTPBCKRecordIdentifier;
+@class NSString;
 
 @interface NTPBCKQueryRetrieveResponseQueryResult
 {
     NSString *_etag;
-    NTPBCKRecordIdentifier *_identifier;
-    NTPBCKRecord *_record;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)isPuzzleInPuzzleHistory: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool)xposed"b1};
-- (void)dRealTimeUserFeedbackCoefficient;
-- (void)rickType;
+- (void)topicFeedRealTimeUserFeedbackCoefficient;
+- (void)hasRecommendationBrickType;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(readonly, nonatomic) _Bool hasEtag;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasRecord;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NTPBCKRecordIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NTPBCKRecord *record; // @synthesize record=_record;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

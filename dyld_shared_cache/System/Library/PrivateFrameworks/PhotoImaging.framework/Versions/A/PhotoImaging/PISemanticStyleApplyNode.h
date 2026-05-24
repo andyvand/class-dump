@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NURenderNode, PISemanticStyleLearnNode;
+@class NURenderNode;
 
 @interface PISemanticStyleApplyNode
 {
 }
 
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id)';
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NURenderNode *inputNode;
-@property(readonly, nonatomic) PISemanticStyleLearnNode *styleNode;
-@property(readonly, nonatomic) NURenderNode *thumbnailNode;
 
 @end
 

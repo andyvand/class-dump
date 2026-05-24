@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWMultitaskingSessionAnalyticsPayload
 {
     NSString *_clientApplicationID;
-    _Bool _windowed;
-    _Bool _pipEnabled;
 }
 
 - (void);
@@ -19,24 +17,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
+- (void)e]. If a configuration block is set later on, it will be run immediately.;
 - (void);
-- (void);
-- (id);
+- (id)T;
 - (_Bool);
 - (id);
 - (id)utMonitor _updateObserversWithLayout:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool pipEnabled; // @synthesize pipEnabled=_pipEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool windowed; // @synthesize windowed=_windowed;
 
 @end
 

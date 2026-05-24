@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, ML3MusicLibrary, NSData, NSMutableArray, NSMutableDictionary;
+@class ML3DatabaseConnection;
 
 @interface ML3SortMap
 {
     ML3DatabaseConnection *_connection;
-    ML3MusicLibrary *_library;
-    NSMutableDictionary *_nameOrders;
-    NSMutableArray *_entries;
-    NSData *_minSortKey;
-    NSData *_maxSortKey;
-    long long _smallestNameDelta;
-    _Bool _preloadNames;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
-- (long long);
-- (id);
-- (long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)_abortWithRebuildReasonPLRebuildReasonPathCorruption;
+- (_Bool)_abortFromMocExecFail_NSMOC_SQLITE_NOMEM_7_withCode: /* Error: Ran out of types for this method. */;
+- (_Bool)_MSASSharingRelationships;
+- (id)N,V_optimalSourcePixelSize;
+- (_Bool)hip;
+- (_Bool)utcCreationDate;
+- (id)setPhotosKnowledgeGraphIsReady:(id)arg1;
+- (long long)setPhotosCount:(id)arg1;
+- (id)V_logger;
+- (long long)_processingSnapshot;
+- (id)processWorkItemObjectID:(id)arg1 sourceLibrary:(struct iPhoneSortKeyBuilder *)arg2 targetLibrary:completion: /* Error: Ran out of types for this method. */;
+- (long long)uplicateAsset",&,V_targetAsset;
+- (_Bool)alizer",R,N,V_deferredPhotoFinalizer;
+- (id),R,C,N,V_CIFilterName;
+- (_Bool);
 - (void)tableArray"16^B24;
 
 @end

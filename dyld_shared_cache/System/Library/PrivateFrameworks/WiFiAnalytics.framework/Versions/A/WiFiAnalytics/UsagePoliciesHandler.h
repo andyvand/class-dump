@@ -9,7 +9,6 @@
 @interface UsagePoliciesHandler
 {
     WAPersistentContainer *_container;
-    unsigned long long _topLANUsagePercentile;
 }
 
 + (id);
@@ -31,15 +30,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)�H;
+- (_Bool);
 - (id);
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)I#;
 - (_Bool);
 - (id);
 - (void);
@@ -47,7 +46,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) WAPersistentContainer *container; // @synthesize container=_container;
-@property(nonatomic) unsigned long long topLANUsagePercentile; // @synthesize topLANUsagePercentile=_topLANUsagePercentile;
 
 @end
 

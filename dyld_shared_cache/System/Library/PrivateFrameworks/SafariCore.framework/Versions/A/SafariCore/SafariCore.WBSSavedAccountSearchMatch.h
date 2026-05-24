@@ -7,8 +7,6 @@
 @interface SafariCore.WBSSavedAccountSearchMatch
 {
     id score;
-    id matchingType;
-    id matchingRanges;
 }
 
 - (id);

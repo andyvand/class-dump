@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCInterface;
+@class NSString;
 
 @protocol FMNSXPCConnectionConfigurable
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCInterface *exportedInterface;
-@property(readonly, nonatomic) _Bool machService;
-@property(readonly, nonatomic) unsigned long long options;
-@property(readonly, nonatomic) NSXPCInterface *remoteInterface;
 @property(readonly, nonatomic) NSString *serviceName;
 @end
 

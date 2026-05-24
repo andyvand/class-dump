@@ -10,23 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDAutocompleteResultSortPriorityMapping
 {
     PBUnknownFields *_unknownFields;
-    int _resultSubtype;
-    int _resultType;
-    int _sortPriority;
-    struct {
-        unsigned int has_resultSubtype:1;
-        unsigned int has_resultType:1;
-        unsigned int has_sortPriority:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)a;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ate=If}{PolylineCoordinate=If}}24i40;
-- (id)ontextMetadata;
+- (id)_autocompletePlaceContextMetadata;
 - (id)JP$¬³JP4¬³ôJPD¬³`KPT¬³ÐKPd¬³°LPt¬³ìQP¬³4P¨¬³PÀ¬³4Pà¬³¬P<­³ÏP­³°
 Q¨­³(Q¸­³ðQØ­³Qð­³¸Q@®³TQ®³ Q ®³¬QÐ®³|Qè®³pQ¯³HQ°³,9Q°³8@Q@°³DQP°³¤FQ°³¼PQÀ°³´XQø°³[Q±³`mQ`²³qQ ²³ÜtQü²³`|Qh³³Ø}Q³³hQ³³Qì³³ðQ´³8ÎQ0´³0ÒQT´³ØãQh´³ÜýQÄ´³¤Rø´³ÀRµ³@R µ³ôR4µ³¬RHµ³6R\µ³<Rµ³8\R µ³]R´µ³à]RÈµ³lcR¶³¸|R¶³ÜR0¶³0RD¶³(RX¶³DRl¶³\R¶³ä¥R¶³Ì¦R¤¶³´§R´¶³©RÄ¶³Ø©Rä¶³¨ªR·³«R·³¬R0·³®R\·³°®Rp·³d¯R·³L±R´·³ô±RÈ·³¨²Rà·³d³Rø·³ÔµR¸³ø·R(¸³Ä¸R@¸³¹RX¸³\ºRp¸³l»R¸³X½R´¸³;
 - (void)`6|þ0;

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABasicAnimation;
-
 @interface SearchUI.SearchUIBasicAnimationSettings
 {
     double duration;
-    double delay;
 }
 
 - (double);
 - (void);
 - (id);
 - (double);
-- (id);
+- (id)TK;
 - (void)¬;
 
 // Remaining properties
-@property(nonatomic, readonly) CABasicAnimation *coreAnimation;
-@property(nonatomic) double delay; // @synthesize delay;
 @property(nonatomic) double duration; // @synthesize duration;
 
 @end

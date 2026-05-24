@@ -6,15 +6,11 @@
 
 #import <CoreData/NSPersistentStoreResult.h>
 
-@class NSCloudKitMirroringRequest, NSError, NSString;
+@class NSString;
 
 @interface NSCloudKitMirroringResult : NSPersistentStoreResult
 {
     _Bool _success;
-    _Bool _madeChanges;
-    NSCloudKitMirroringRequest *_request;
-    NSString *_storeIdentifier;
-    NSError *_error;
 }
 
 - (id);
@@ -27,11 +23,7 @@
 - (id)t import tracking, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool madeChanges; // @synthesize madeChanges=_madeChanges;
-@property(readonly, nonatomic) NSCloudKitMirroringRequest *request; // @synthesize request=_request;
 @property(readonly, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

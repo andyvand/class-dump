@@ -9,16 +9,14 @@
 @interface SGSearchableItemIdTriple
 {
     NSString *_bundleId;
-    NSString *_domainId;
-    NSString *_uniqueId;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)A/MobileKeyBag;
 - (id);
-- (id);
+- (id)I;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

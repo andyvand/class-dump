@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
 @interface PasswordGenerationAssistanceAutoFillCellView : ColorInvertingTableCellView
 {
     NSString *_passwordSuggestion;
-    NSTextField *_passwordSuggestionLabel;
 }
 
-+ (struct CGSize);
++ (struct CGSize)0;
 - (void);
 - (void);
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void)ì;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *passwordSuggestion; // @synthesize passwordSuggestion=_passwordSuggestion;
 @property(nonatomic) __weak NSTextField *passwordSuggestionLabel; // @synthesize passwordSuggestionLabel=_passwordSuggestionLabel;
 
 @end

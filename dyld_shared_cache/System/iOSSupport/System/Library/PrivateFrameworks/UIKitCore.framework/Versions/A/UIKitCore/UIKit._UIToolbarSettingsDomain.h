@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id)te:isMini:withFallback: /* Error: Ran out of types for this method. */;
-+ (id)lor;
++ (id)T;
++ (id)backgroundImageForState:isMini:withFallback: /* Error: Ran out of types for this method. */;
++ (id)_updateStrokeViewColor;
 + (Class);
 
 @end

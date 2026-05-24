@@ -9,61 +9,43 @@
 @interface NTPBEnvelopeBatch
 {
     int _envelopeDroppedCountDueToSizeLimit;
-    NSMutableArray *_envelopes;
-    int _majorVersion;
-    int _minorVersion;
-    int _patchVersion;
-    struct {
-        unsigned int envelopeDroppedCountDueToSizeLimit:1;
-        unsigned int majorVersion:1;
-        unsigned int minorVersion:1;
-        unsigned int patchVersion:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)_presentationStatus;
+- (void)contentSource;
+- (void)changedImageAnalysisOverlayNeededForViewModelChange:(_Bool)arg1;
+- (void)bottomLayoutGuide;
+- (void)audioQualityScore;
 - (void);
-- (void);
-- (void);
+- (_Bool)_updateSegmentIdentifiers;
+- (unsigned long long)_updateContentSize;
+- (id)_updateContentScrollPosition;
+- (int)_updateContentMode;
+- (id)_updateContentLoudness;
+- (void)_transitionToOrFromAllPhotosAnimationDuration;
+- (void)_thumbnailShadowForType:(id)arg1 usingTraitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)_syndicated1upPillAlignment;
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (void);
+- (id)A;
+- (void)_EEEEE3$_0;
+- (void);
+- (unsigned long long)3;
+- (_Bool);
+- (_Bool)__C_Synthesized;
+- (void);
 - (id);
 - (int);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (int);
-- (id);
-- (int);
-- (int);
-- (void)sCount;
+- (int)=dd}{CGSize=dd}}16;
+- (void)linkedIssueIDsCount;
 
 // Remaining properties
-@property(nonatomic) int envelopeDroppedCountDueToSizeLimit; // @synthesize envelopeDroppedCountDueToSizeLimit=_envelopeDroppedCountDueToSizeLimit;
 @property(retain, nonatomic) NSMutableArray *envelopes; // @synthesize envelopes=_envelopes;
-@property(nonatomic) _Bool hasEnvelopeDroppedCountDueToSizeLimit;
-@property(nonatomic) _Bool hasMajorVersion;
-@property(nonatomic) _Bool hasMinorVersion;
-@property(nonatomic) _Bool hasPatchVersion;
-@property(nonatomic) int majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(nonatomic) int minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(nonatomic) int patchVersion; // @synthesize patchVersion=_patchVersion;
 
 @end
 

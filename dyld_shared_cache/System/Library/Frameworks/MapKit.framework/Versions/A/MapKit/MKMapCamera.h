@@ -4,62 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView;
-
 @interface MKMapCamera
 {
     struct CLLocationCoordinate2D _centerCoordinate;
-    double _heading;
-    double _pitch;
-    double _altitude;
-    MKMapView *_mapView;
-    _Bool _pitchAdjustsAltitude;
-    _Bool _needsStateUpdate;
 }
 
 + (id);
 + (id);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)loadedCLIPSRulesAndFacts;
 + (id);
-+ (id);
-+ (id);
++ (id)/CoreAnalytics.framework/Versions/A/CoreAnalytics;
++ (id)p;
 + (struct CLLocationCoordinate2D);
 + (id);
 + (_Bool);
+- (void)#;
+- (double)QX;
 - (void);
-- (double);
 - (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (CDStruct_02837cd9);
-- (CDStruct_02837cd9);
+- (double)bsqlite3.dylib;
+- (void)setInvalidationHandler: /* Error: Ran out of types for this method. */;
+- (id)resetAllWithReply: /* Error: Ran out of types for this method. */;
+- (CDStruct_2f492f29)EventKitMigration;
+- (CDStruct_2f492f29);
 - (_Bool);
 - (void);
-- (void);
+- (void)uggestions;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (double);
 - (double);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D);
 - (void)ùQ *1Â0@ù
 × ;
-- (void)ame: /* Error: Ran out of types for this method. */;
+- (void)initWithBusinessHours:frame: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(nonatomic) struct CLLocationCoordinate2D centerCoordinate; // @synthesize centerCoordinate=_centerCoordinate;
-@property(nonatomic) double centerCoordinateDistance;
-@property(nonatomic) double heading; // @synthesize heading=_heading;
-@property(nonatomic) double pitch;
 @property(nonatomic, getter=_precisePitch, setter=_setPrecisePitch:) double precisePitch; // @synthesize precisePitch=_pitch;
 
 @end

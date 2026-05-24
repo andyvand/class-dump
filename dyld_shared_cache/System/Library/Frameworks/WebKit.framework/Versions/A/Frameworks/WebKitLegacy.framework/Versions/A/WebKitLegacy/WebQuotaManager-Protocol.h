@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WebSecurityOrigin;
+
 @protocol WebQuotaManager
+- (unsigned long long)initWithFraudReportRefreshScoreBlock:fraudReportStateStorageFactoryBlock: /* Error: Ran out of types for this method. */;
+- (WebSecurityOrigin *)g;
 @end
 

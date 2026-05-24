@@ -6,28 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaFreeFormText, TTSSchemaTTSVoiceContext;
-
 @interface TTSSchemaTTSSynthesisStarted : SISchemaInstrumentationMessage
 {
     int _synthesisSource;
-    TTSSchemaTTSVoiceContext *_voiceContext;
-    int _synthesisEffect;
-    int _thermalState;
-    int _thermalLevel;
-    SISchemaFreeFormText *_textToSpeak;
-    struct {
-        unsigned int synthesisSource:1;
-        unsigned int synthesisEffect:1;
-        unsigned int thermalState:1;
-        unsigned int thermalLevel:1;
-    } _has;
-    _Bool _hasVoiceContext;
-    _Bool _hasTextToSpeak;
 }
 
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -45,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)s;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -59,29 +44,17 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ontalSpacing;
+- (_Bool)e_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.is_read == 0  AND m.is_from_me == 0  AND m.item_type == 1  ORDER BY m.date DESC;;
 - (id);
 - (id);
-- (id)OffsetInMS;
-- (id)onEdits;
-- (void)DIATYPE_PODCAST_STATION;
+- (id)deleteResponseStartOffsetInMS;
+- (id)_lmeOverActivationEdits;
+- (void)PEGASUSREQUESTEDMEDIATYPE_PODCAST_STATION;
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSynthesisEffect;
-@property(nonatomic) _Bool hasSynthesisSource;
-@property(nonatomic) _Bool hasTextToSpeak; // @synthesize hasTextToSpeak=_hasTextToSpeak;
-@property(nonatomic) _Bool hasThermalLevel;
-@property(nonatomic) _Bool hasThermalState;
-@property(nonatomic) _Bool hasVoiceContext; // @synthesize hasVoiceContext=_hasVoiceContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int synthesisEffect; // @synthesize synthesisEffect=_synthesisEffect;
 @property(nonatomic) int synthesisSource; // @synthesize synthesisSource=_synthesisSource;
-@property(retain, nonatomic) SISchemaFreeFormText *textToSpeak; // @synthesize textToSpeak=_textToSpeak;
-@property(nonatomic) int thermalLevel; // @synthesize thermalLevel=_thermalLevel;
-@property(nonatomic) int thermalState; // @synthesize thermalState=_thermalState;
-@property(retain, nonatomic) TTSSchemaTTSVoiceContext *voiceContext; // @synthesize voiceContext=_voiceContext;
 
 @end
 

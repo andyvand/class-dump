@@ -14,12 +14,11 @@
 
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long));
 - (id);
-- (_Bool)yList;
+- (_Bool)routePickerAirPlayDenyList;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long controllerID;
 @property(readonly, nonatomic) _MRGameControllerMessageProtobuf *event;
 
 @end

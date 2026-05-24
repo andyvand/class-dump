@@ -6,24 +6,18 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, RTDefaultsManager, RTLearnedLocationManager, RTMotionActivityManager, RTVisitManager;
+@class RTDefaultsManager;
 
 @interface RTBluePOIMonitorEnabler : RTService
 {
     _Bool _isDriving;
-    _Bool _atHomeOrWork;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTVisitManager *_visitManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTDefaultsManager *_defaultsManager;
-    NSDate *_stationaryStartDate;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -31,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)eviousPedometerData;
+- (_Bool)_previousPedometerData;
 - (id)e.CoreRoutine.TripSegment;
 - (void)itionPreprocessor,pre tryCompounding,visit timestamps null,transition index,%{public}ld;
 - (id)r testing only, %@;
@@ -41,11 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) _Bool enabled;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) NSDate *stationaryStartDate; // @synthesize stationaryStartDate=_stationaryStartDate;
-@property(retain, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

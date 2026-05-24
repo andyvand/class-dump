@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EXHostViewController;
+
 @protocol EXHostViewControllerDelegate
+
+@optional
+- (void)_segmentByMergingMergableSegments:(EXHostViewController *)arg1;
+- (void)_savedRecordingUUID;
 @end
 

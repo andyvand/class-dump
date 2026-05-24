@@ -5,6 +5,6 @@
 //
 
 @protocol HMDRemoteMessageTransportReachabilityDelegate
-- (void)rPrivateExtensions;
+- (void)MKFTimerTriggerPrivateExtensions;
 @end
 

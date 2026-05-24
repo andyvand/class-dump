@@ -7,14 +7,6 @@
 @interface IKAutodetectedItem
 {
     struct CGRect _rect;
-    struct CGPoint _position;
-    struct CGPoint _anchor;
-    double _rotationAngle;
-    struct CGPath *_path;
-    struct CGPoint _bottomLeft;
-    struct CGPoint _bottomRight;
-    struct CGPoint _topLeft;
-    struct CGPoint _topRight;
 }
 
 - (void);
@@ -28,17 +20,10 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGRect);
-- (struct CGPoint)lSearchIndex:totalIndexes:forView: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)initWithInitialSearchIndex:totalIndexes:forView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGPoint anchor; // @synthesize anchor=_anchor;
-@property(readonly) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(readonly) struct CGPoint bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(readonly) struct CGPoint position; // @synthesize position=_position;
 @property(readonly) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(readonly) struct CGPoint topLeft; // @synthesize topLeft=_topLeft;
-@property(readonly) struct CGPoint topRight; // @synthesize topRight=_topRight;
 
 @end
 

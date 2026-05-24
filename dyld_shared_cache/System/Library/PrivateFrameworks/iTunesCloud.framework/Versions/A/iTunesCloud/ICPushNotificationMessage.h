@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ICPushNotificationMessage
 {
     NSDictionary *_userInfo;
-    long long _accountDSID;
-    long long _actionType;
-    NSDictionary *_apsPayload;
 }
 
 - (id);
@@ -23,21 +20,12 @@
 - (long long);
 - (id);
 - (id);
+- (long long)b;
 - (long long);
-- (long long);
-- (void)seActionType;
+- (void)leaseActionType;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountDSID; // @synthesize accountDSID=_accountDSID;
-@property(readonly, nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(readonly, copy, nonatomic) NSDictionary *apsPayload; // @synthesize apsPayload=_apsPayload;
-@property(readonly, copy, nonatomic) NSString *clientIdentifier;
-@property(readonly, copy, nonatomic) NSArray *jaliscoChangedMediaTypes;
-@property(readonly, nonatomic) long long jaliscoServerRevision;
-@property(readonly, nonatomic) long long moduleIdentifier;
 @property(readonly, nonatomic) long long sagaServerRevision;
-@property(readonly, copy, nonatomic) NSArray *sagaUpdatedSubscribedPlaylistIDs;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

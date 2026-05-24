@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)w;
 + (id);
 + (id);
 + (id);
@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)<;
 + (void);
 + (id);
 

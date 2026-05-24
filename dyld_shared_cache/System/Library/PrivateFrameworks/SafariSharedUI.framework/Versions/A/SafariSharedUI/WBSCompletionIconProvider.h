@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, OS_dispatch_queue;
+@class OS_dispatch_queue;
 
 @interface WBSCompletionIconProvider
 {
     OS_dispatch_queue *iconFetchingQueue;
-    struct CGSize iconSize;
-    double _continuousCornerRadius;
-    id lightModeIcons;
-    id darkModeIcons;
-    void systemImageNames;
 }
 
 + (id);
-- (id);
+- (id)@@9K6e;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
@@ -30,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double _continuousCornerRadius; // @synthesize _continuousCornerRadius;
-@property(nonatomic, readonly) double continuousCornerRadiusRatio;
 @property(nonatomic, readonly) OS_dispatch_queue *iconFetchingQueue; // @synthesize iconFetchingQueue;
-@property(nonatomic, readonly) struct CGSize iconSize; // @synthesize iconSize;
-@property(nonatomic, readonly) NSArray *systemImageNames;
 
 @end
 

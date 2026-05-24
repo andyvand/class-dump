@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id);
+- (id)frameRectForContentRect: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

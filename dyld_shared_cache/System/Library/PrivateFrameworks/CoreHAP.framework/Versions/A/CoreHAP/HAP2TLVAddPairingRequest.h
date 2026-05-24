@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVPairingMethodWrapper, HAP2TLVPairingStateWrapper, HAPTLVUnsignedNumberValue, NSData, NSString;
+@class HAP2TLVPairingStateWrapper;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVAddPairingRequest
 {
     HAP2TLVPairingStateWrapper *_state;
-    HAP2TLVPairingMethodWrapper *_method;
-    NSString *_identifier;
-    NSData *_publicKey;
-    HAPTLVUnsignedNumberValue *_permissions;
 }
 
 + (id);
@@ -25,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)%@;
+- (_Bool)__DATA;
 - (void);
 - (void);
 - (id);
@@ -37,18 +33,7 @@ __attribute__((visibility("hidden")))
 - (id)enabled and the accessory is marked as reachable but lacks an advertisement;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HAP2TLVPairingMethodWrapper *method; // @synthesize method=_method;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *permissions; // @synthesize permissions=_permissions;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 @property(retain, nonatomic) HAP2TLVPairingStateWrapper *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

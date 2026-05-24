@@ -6,14 +6,11 @@
 
 #import <DataDetectorsNaturalLanguage/IPFeature.h>
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface IPFeatureKeyword : IPFeature
 {
     NSMutableDictionary *_contextDictionary;
-    NSString *_keywordString;
-    NSArray *_eventTypes;
-    unsigned long long _type;
 }
 
 + (id);
@@ -22,21 +19,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)L08_;
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)viceDelegate>",W,N,V_custodianDelegate;
 - (void);
 - (void);
 - (id)u|;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *contextDictionary; // @synthesize contextDictionary=_contextDictionary;
-@property(retain, nonatomic) NSArray *eventTypes; // @synthesize eventTypes=_eventTypes;
 @property(retain) NSString *keywordString; // @synthesize keywordString=_keywordString;
-@property unsigned long long type; // @synthesize type=_type;
 
 @end
 

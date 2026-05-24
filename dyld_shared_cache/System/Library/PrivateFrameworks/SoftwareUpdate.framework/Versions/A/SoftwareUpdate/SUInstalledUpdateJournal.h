@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUInstalledUpdateJournal
 {
     NSObject<OS_dispatch_queue> *_updateQueue;
-    NSString *_customDirectoryPath;
-    NSArray *_cache;
 }
 
 + (id);
@@ -34,8 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *cache; // @synthesize cache=_cache;
-@property(retain) NSString *customDirectoryPath; // @synthesize customDirectoryPath=_customDirectoryPath;
 @property(retain) NSObject<OS_dispatch_queue> *updateQueue; // @synthesize updateQueue=_updateQueue;
 
 @end

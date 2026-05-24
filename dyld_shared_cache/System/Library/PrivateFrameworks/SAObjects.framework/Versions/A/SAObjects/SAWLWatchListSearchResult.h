@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDate, NSString, SAUIImageResource;
+@class NSString;
 
 @interface SAWLWatchListSearchResult : AceObject
 {
@@ -24,37 +24,21 @@
 - (id);
 - (id);
 - (void);
+- (void)(;
+- (id);
+- (id);
+- (id);
+- (void)_;
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)ics;
+- (void)lastGameStatistics;
 - (void)w;
-- (id)pportedIntentResponse;
+- (id)UnsupportedIntentResponse;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalId;
-@property(copy, nonatomic) NSString *contentType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SAUIImageResource *evodFeaturingImage;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIImageResource *image;
-@property(nonatomic) _Bool isEvod;
-@property(copy, nonatomic) NSString *network;
-@property(copy, nonatomic) NSDate *releaseDate;
-@property(copy, nonatomic) NSString *shelfType;
-@property(copy, nonatomic) NSString *studio;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

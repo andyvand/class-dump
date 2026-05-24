@@ -7,23 +7,11 @@
 @interface NewsFeed.DebugFeaturePromotionViewController
 {
     id featurePromotionManager;
-    id featurePromotionViewFactory;
-    id featurePromotionEligibilityProviderFactory;
-    id featurePromotionResolvedDataSourceFactory;
-    id feedPersonalizationService;
-    id formatSystemFactory;
-    id tagImageApplier;
-    id presentationArchive;
-    id context;
-    id $__lazy_storage_$_model;
-    id $__lazy_storage_$_hostingViewController;
-    id result;
-    id _sorting;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)tc;
+- (id)A9m;
 - (void);
 - (void);
 

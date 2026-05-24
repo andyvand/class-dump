@@ -198,57 +198,57 @@ struct rxSecurityInfo {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    _Bool aggressiveTDEnabled;
-    _Bool rnfAllowed;
-    _Bool fastTD;
-    _Bool suppress_SymptomDataStallScoreGood;
-    _Bool suppress_SymptomAppPolicyScore;
-    _Bool suppress_FastCheapCellular;
-    _Bool suppress_2dBGuard;
-    _Bool suppress_NoFGnetwApp;
-    _Bool suppress_TTR;
-    _Bool suppress_UserInput;
-    _Bool suppress_GoodAfterRoam;
-    _Bool defer_activeProbing;
-    _Bool defer_roaming;
-} CDStruct_1787456f;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+    _Bool _field6;
+    _Bool _field7;
+    _Bool _field8;
+    _Bool _field9;
+    _Bool _field10;
+    _Bool _field11;
+    _Bool _field12;
+    _Bool _field13;
+} CDStruct_fad4fd71;
 
 typedef struct {
-    _Bool decision_TxPER;
-    _Bool decision_BeaconPER;
-    _Bool decision_FWTxPER;
-    _Bool decision_GatewayARPFailure;
-    _Bool decision_SymptomsDNSError;
-    _Bool decision_AutoLeave;
-    _Bool decision_ActiveProbe;
-    _Bool decision_FastTD;
-    int tdMode;
-    _Bool motionbasedAggressiveTDEnabled;
-    _Bool walkoutDetected;
-    _Bool waitForRoam;
-    _Bool edgeBSS;
-    _Bool appsUsingWiFi;
-    _Bool monitorMode;
-    long long autoLeaveRSSIthreshold;
-} CDStruct_48e5f4c8;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+    _Bool _field6;
+    _Bool _field7;
+    _Bool _field8;
+    int _field9;
+    _Bool _field10;
+    _Bool _field11;
+    _Bool _field12;
+    _Bool _field13;
+    _Bool _field14;
+    _Bool _field15;
+    long long _field16;
+} CDStruct_dcaf7d55;
 
 typedef struct {
-    _Bool isAllowed;
-    _Bool forceApply;
-    _Bool deviceSupport;
-    _Bool isEAP;
-    unsigned long long environment;
-    unsigned long long networkOfInterestType;
-    unsigned long long LOIType;
-} CDStruct_13d057f3;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+} CDStruct_7e6a0780;
 
 typedef struct {
-    _Bool wifiPreferredOverCell;
-    _Bool isCellularDataUsable;
-    unsigned long long cellularWRMScore;
-    unsigned long long cellularWRMScoreConfidence;
-    double cellularWRMStateChangeTimestamp;
-} CDStruct_9af74d93;
+    _Bool _field1;
+    _Bool _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    double _field5;
+} CDStruct_ca6789b4;
 
 typedef struct {
     unsigned char _field1;
@@ -275,18 +275,18 @@ typedef struct {
 } CDStruct_72398065;
 
 typedef struct {
-    unsigned long long fastTD_voteCount;
-    _Bool fastTD_vote_recommendation;
-    _Bool fastTD_vote_TxPER;
-    _Bool fastTD_vote_BeaconPER;
-    _Bool fastTD_vote_FWTxPER;
-    _Bool fastTD_vote_HighLatency;
-    _Bool fastTD_vote_2GPoorLink;
-    _Bool fastTD_vote_2GDataStall;
-    _Bool fastTD_vote_InsufficientRxFrames;
-    _Bool fastTD_RTApp;
-    _Bool fastTD_Cheap5G;
-} CDStruct_4d326173;
+    unsigned long long _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+    _Bool _field6;
+    _Bool _field7;
+    _Bool _field8;
+    _Bool _field9;
+    _Bool _field10;
+    _Bool _field11;
+} CDStruct_bf71ab5d;
 
 typedef struct {
     unsigned long long _field1;
@@ -354,14 +354,14 @@ typedef struct {
 } CDStruct_cc9bcac7;
 
 typedef struct {
-    long long valueByBands[3][3];
-    _Bool valid[3][3];
-} CDStruct_4d759c64;
+    long long _field1[3][3];
+    _Bool _field2[3][3];
+} CDStruct_4323666f;
 
 typedef struct {
-    double valueByBand[3];
-    _Bool valid[3];
-} CDStruct_2a57ecad;
+    double _field1[3];
+    _Bool _field2[3];
+} CDStruct_6ab2e6ed;
 
 typedef struct {
     long long valueByBand[3];

@@ -4,11 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKWebExtensionContext;
+@class WKWebExtensionContext, WKWebView;
+@protocol WKWebExtensionWindow;
 
 @protocol WKWebExtensionTab
 
 @optional
+- (id <WKWebExtensionWindow>);
+- (WKWebView *);
+- (struct CGSize);
+- (void)|;
+- (void)q;
 - (void)onRemoteControlCommandType>>:(WKWebExtensionContext *)arg1:(void (^)(NSError *))arg2 validateKey(const ValueType &) [Key = WebCore::PlatformMediaSessionRemoteControlCommandType, Value = WebCore::PlatformMediaSessionRemoteControlCommandType, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::IntHash<WebCore::PlatformMediaSessionRemoteControlCommandType>, Traits = WTF::StrongEnumHashTraits<WebCore::PlatformMediaSessionRemoteControlCommandType>, KeyTraits = WTF::StrongEnumHashTraits<WebCore::PlatformMediaSessionRemoteControlCommandType>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

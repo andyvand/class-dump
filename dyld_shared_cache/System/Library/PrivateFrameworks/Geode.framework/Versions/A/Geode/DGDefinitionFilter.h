@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGDefinitionFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    NSNumber *inputIntensity;
-    NSNumber *inputClampv0;
-    NSNumber *inputDefinitionKernelv0;
 }
 
 + (id);

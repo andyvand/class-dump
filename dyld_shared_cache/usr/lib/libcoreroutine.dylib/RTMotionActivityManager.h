@@ -6,37 +6,36 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTPlatform, RTVehicleStore;
+@class RTPlatform;
 
 @interface RTMotionActivityManager : RTService
 {
     RTPlatform *_platform;
-    RTVehicleStore *_vehicleStore;
 }
 
 + (void);
 + (double);
-+ (id);
-+ (id);
++ (id):(unsigned long long)arg1 8B16@20@?28;
++ (id)@0:(unsigned long long)arg1 8@?16;
 + (id);
 + (_Bool)ùqA,°1Â0@ù
 × ;
 + (id)ìôúÿ95.I;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void)setStableMetadata:(CDUnknownBlockType)arg1;
+- (void)setServiceContexts:(id)arg1;
+- (void)setICDPHSMWalrus:(id)arg1;
+- (void)keychain successfully;
+- (void)to be done, Stingray Fallback key hash in existing record match our DBR Record!;
+- (void)wrapping key:(id)arg1 %@;
+- (void)FlagAccountAlreadyHasGuitarfishPrimaryRecord;
+- (void)FlagRepairedKeychainRecoveryTokenFromPRecoveryToken;
+- (void)Outer blob, potential missing guitarfish record;
 - (id);
+- (id)+B;
 - (void)DRSetup,%{public}.3f;
 - (void)rror submitting RTVisitSettledStateMetrics:%@ /* Error: Ran out of types for this method. */;
 - (void)r, %@;
@@ -44,7 +43,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) RTVehicleStore *vehicleStore; // @synthesize vehicleStore=_vehicleStore;
 
 @end
 

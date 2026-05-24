@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface CUSPAKEM3
 {
@@ -13,13 +13,12 @@
 
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)targetWithProcessIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *confirmPData; // @synthesize confirmPData=_confirmPData;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 
 @end
 

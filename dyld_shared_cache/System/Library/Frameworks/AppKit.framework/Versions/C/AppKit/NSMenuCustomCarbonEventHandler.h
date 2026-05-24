@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCarbonMenuImpl;
-
 __attribute__((visibility("hidden")))
 @interface NSMenuCustomCarbonEventHandler
 {
     struct OpaqueEventHandlerRef *eventHandlerRef;
-    int specCount;
-    void *eventSpecs;
-    CDUnknownBlockType handlerBlock;
-    NSMenuCustomCarbonEventHandler *nextHandler;
-    NSCarbonMenuImpl *menuImpl;
-    CDUnknownBlockType blockGetter;
 }
 
-- (void);
-- (void);
+- (void)6;
+- (void);
 - (void);
 - (void);
 - (id);

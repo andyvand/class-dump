@@ -7,15 +7,13 @@
 @interface PGMeaningThresholds
 {
     double highRecallThreshold;
-    double highPrecisionThreshold;
 }
 
-- (double);
-- (double);
+- (double)AppleIntelligenceOnboardingViewControllerDidCompleteNotification;
+- (double)tter is needed;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) double highPrecisionThreshold; // @synthesize highPrecisionThreshold;
 @property(nonatomic, readonly) double highRecallThreshold; // @synthesize highRecallThreshold;
 
 @end

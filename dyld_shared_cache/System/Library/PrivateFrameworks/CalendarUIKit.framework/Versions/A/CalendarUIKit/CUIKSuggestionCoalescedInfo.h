@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarSuggestionNotification, NSString;
+@class NSString;
 
 @interface CUIKSuggestionCoalescedInfo
 {
     NSString *_title;
-    NSString *_descriptionText;
-    EKCalendarSuggestionNotification *_earliestSuggestionNotification;
 }
 
-- (id)(=;
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
-@property(readonly) EKCalendarSuggestionNotification *earliestSuggestionNotification; // @synthesize earliestSuggestionNotification=_earliestSuggestionNotification;
 @property(readonly) NSString *title; // @synthesize title=_title;
 
 @end

@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIFactorsState, _PASLock;
 @protocol TRIPaths;
 
 @interface TRIDefaultFactorProvider
 {
     id <TRIPaths> _paths;
-    TRIFactorsState *_factorsState;
-    _PASLock *_lock;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ry/PrivateFrameworks/Bom.framework/Versions/A/Bom;
 - (id);
 - (void);
 - (id);
+- (id)h;
+- (void);
 - (id);
 - (id);
+- (id)rePreview";
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)setFillToolFileParameterCommand:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -40,13 +37,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

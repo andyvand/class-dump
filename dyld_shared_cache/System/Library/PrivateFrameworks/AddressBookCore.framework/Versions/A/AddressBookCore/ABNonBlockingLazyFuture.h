@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFuture, NSString;
+@class CNFuture;
 
 @interface ABNonBlockingLazyFuture
 {
     CNFuture *_future;
-    CDUnknownBlockType _block;
-    CDUnknownBlockType _cleanupBlock;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)nicknameHasValidVisualIdentityData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -33,15 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

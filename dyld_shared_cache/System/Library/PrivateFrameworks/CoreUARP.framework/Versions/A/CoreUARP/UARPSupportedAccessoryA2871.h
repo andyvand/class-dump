@@ -15,9 +15,9 @@
 
 + (id);
 + (id);
-+ (unsigned short);
++ (unsigned short)v;
 - (id);
-- (id);
+- (id)AMSPaymentValidationService;
 - (void);
 
 @end

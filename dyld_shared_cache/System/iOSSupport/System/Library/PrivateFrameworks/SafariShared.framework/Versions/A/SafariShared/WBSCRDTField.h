@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, WBSCRDTGeneration;
 @protocol NSCopying;
 
 @interface WBSCRDTField
 {
     id _value;
-    id _valueSource;
-    CDUnknownBlockType _valueProvider;
-    CDUnknownBlockType _valueUpdater;
-    NSMutableDictionary *_metadata;
-    _Bool _shouldIncrementGeneration;
-    WBSCRDTGeneration *_generation;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)>;
 - (id);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)ank:(id)arg1 credentialID:(id)arg2 userHandle: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -41,8 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) WBSCRDTGeneration *generation; // @synthesize generation=_generation;
-@property(nonatomic) _Bool shouldIncrementGeneration; // @synthesize shouldIncrementGeneration=_shouldIncrementGeneration;
 @property(copy, nonatomic) id <NSCopying> value;
 
 @end

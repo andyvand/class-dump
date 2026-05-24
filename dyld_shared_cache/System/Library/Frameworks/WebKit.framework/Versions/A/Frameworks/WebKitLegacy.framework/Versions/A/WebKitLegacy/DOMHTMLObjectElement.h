@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMDocument, DOMHTMLFormElement, NSString, NSURL, WebFrame;
+@class WebFrame;
 
 @interface DOMHTMLObjectElement : DOMHTMLElement
 {
@@ -20,56 +20,37 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H#;
 - (void);
 - (void);
 - (int);
-- (id);
-- (id);
+- (id)z\;
+- (id)n;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)`&;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ompression algorithm %c ;
 - (id);
-- (id);
+- (id)-[SDBetaManager saveAppleAccountIdentifierWithAlternateDSIDForCurrentDevice:completion:] /* Error: Ran out of types for this method. */;
 - (void)l_state_"c"__val_"d)"__engaged_"B}"speed"{optional<double>=""(?="__null_state_"c"__val_"d)"__engaged_"B}"floorLevel"{optional<double>=""(?="__null_state_"c"__val_"d)"__engaged_"B}};
 - (id)ractor, WTF::DefaultHash<WTF::RefPtr<WebCore::HistoryItem>>, WTF::HashTraits<WTF::RefPtr<WebCore::HistoryItem>>, WTF::HashTraits<WTF::RefPtr<WebCore::HistoryItem>>>::validateKey(const ValueType &) [Key = WTF::RefPtr<WebCore::HistoryItem>, Value = WTF::RefPtr<WebCore::HistoryItem>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::RefPtr<WebCore::HistoryItem>>, Traits = WTF::HashTraits<WTF::RefPtr<WebCore::HistoryItem>>, KeyTraits = WTF::HashTraits<WTF::RefPtr<WebCore::HistoryItem>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSURL *absoluteImageURL;
-@property(copy) NSString *align;
-@property(copy) NSString *archive;
-@property(copy) NSString *border;
-@property(copy) NSString *code;
-@property(copy) NSString *codeBase;
-@property(copy) NSString *codeType;
-@property(readonly) DOMDocument *contentDocument;
 @property(readonly, nonatomic) WebFrame *contentFrame;
-@property(copy) NSString *data;
-@property _Bool declare;
-@property(readonly) DOMHTMLFormElement *form;
-@property(copy) NSString *height;
-@property int hspace;
-@property(copy) NSString *name;
-@property(copy) NSString *standby;
-@property(copy) NSString *type;
-@property(copy) NSString *useMap;
-@property int vspace;
-@property(copy) NSString *width;
 
 @end
 

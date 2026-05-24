@@ -6,7 +6,7 @@
 
 #import <PersonalizationPortrait/PPTopicRecord.h>
 
-@class NSString, PPSource, PPTopic, PPTopicMetadata;
+@class PPTopic;
 
 @interface PPMutableTopicRecord : PPTopicRecord
 {
@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,15 +27,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long algorithm; // @dynamic algorithm;
-@property(nonatomic) double decayRate; // @dynamic decayRate;
-@property(nonatomic) unsigned int extractionAssetVersion; // @dynamic extractionAssetVersion;
-@property(retain, nonatomic) NSString *extractionOsBuild; // @dynamic extractionOsBuild;
-@property(nonatomic) double initialScore; // @dynamic initialScore;
-@property(nonatomic) _Bool isLocal; // @dynamic isLocal;
-@property(retain, nonatomic) PPTopicMetadata *metadata; // @dynamic metadata;
-@property(nonatomic) double sentimentScore; // @dynamic sentimentScore;
-@property(retain, nonatomic) PPSource *source; // @dynamic source;
 @property(retain, nonatomic) PPTopic *topic; // @dynamic topic;
 
 @end

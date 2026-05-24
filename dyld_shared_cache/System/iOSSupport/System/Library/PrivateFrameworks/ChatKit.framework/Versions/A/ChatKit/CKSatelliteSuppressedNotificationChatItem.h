@@ -6,17 +6,17 @@
 
 #import <ChatKit/CKChatItem.h>
 
-@class IMSatelliteSuppressedNotificationChatItem, NSAttributedString;
+@class NSAttributedString;
 
 @interface CKSatelliteSuppressedNotificationChatItem : CKChatItem
 {
     NSAttributedString *_satelliteNoNotificationTitleLabelAttributedText;
 }
 
-- (void);
-- (BOOL);
-- (void);
-- (id);
+- (void)setMathNotesNotesInSource: /* Error: Ran out of types for this method. */;
+- (BOOL)setContentCompressionResistancePriority:forOrientation: /* Error: Ran out of types for this method. */;
+- (void)filterSubstringAttributesForPlainText;
+- (id),V_isAutomatic;
 - (id);
 - (struct CGSize);
 - (id);
@@ -28,7 +28,6 @@
 - (void)Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) IMSatelliteSuppressedNotificationChatItem *imSatelliteSuppressedNotificationChatItem;
 @property(retain, nonatomic) NSAttributedString *satelliteNoNotificationTitleLabelAttributedText; // @synthesize satelliteNoNotificationTitleLabelAttributedText=_satelliteNoNotificationTitleLabelAttributedText;
 
 @end

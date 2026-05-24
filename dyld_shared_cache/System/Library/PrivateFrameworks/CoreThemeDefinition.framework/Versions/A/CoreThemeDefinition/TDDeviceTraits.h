@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface TDDeviceTraits
 {
     double _scale;
-    long long _idiomValue;
-    NSArray *_hostedIdiomValues;
-    long long _subtype;
-    long long _sizeClassHorizontal;
-    long long _sizeClassVertical;
-    long long _displayGamutValue;
-    long long _deploymentTargetValue;
-    long long _memoryPerformanceClass;
-    long long _graphicsPerformanceClass;
-    long long _graphicsFeatureSetClassValue;
-    NSArray *_graphicsFeatureSetFallbackValues;
-    NSArray *_subtypeFallbackValues;
-    long long _dynamicDisplayModeValue;
-    long long _platform;
 }
 
 - (id);
@@ -45,13 +29,13 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (long long);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id);
+- (long long);
 - (long long);
 - (id);
 - (id);
@@ -69,36 +53,18 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void);
+- (id)possible to reach this state.;
 - (id);
-- (id);
+- (void)o path %@ for event store %@;
 - (void);
-- (void);
-- (id);
+- (id)5;
 - (void);
 - (id);
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deploymentTarget;
-@property(nonatomic) long long deploymentTargetValue; // @synthesize deploymentTargetValue=_deploymentTargetValue;
-@property(retain, nonatomic) NSString *displayGamut;
-@property(nonatomic) long long displayGamutValue; // @synthesize displayGamutValue=_displayGamutValue;
-@property(retain, nonatomic) NSString *dynamicDisplayMode;
-@property(nonatomic) long long dynamicDisplayModeValue; // @synthesize dynamicDisplayModeValue=_dynamicDisplayModeValue;
-@property(retain, nonatomic) NSString *graphicsFeatureSetClass;
-@property(nonatomic) long long graphicsFeatureSetClassValue; // @synthesize graphicsFeatureSetClassValue=_graphicsFeatureSetClassValue;
-@property(copy, nonatomic) NSArray *graphicsFeatureSetFallbackValues; // @synthesize graphicsFeatureSetFallbackValues=_graphicsFeatureSetFallbackValues;
-@property(retain, nonatomic) NSArray *graphicsFeatureSetFallbacks;
-@property(nonatomic) long long graphicsPerformanceClass; // @synthesize graphicsPerformanceClass=_graphicsPerformanceClass;
-@property(copy, nonatomic) NSArray *hostedIdiomValues; // @synthesize hostedIdiomValues=_hostedIdiomValues;
-@property(retain, nonatomic) NSArray *hostedIdioms;
-@property(retain, nonatomic) NSString *idiom;
 @property(nonatomic) long long idiomValue; // @synthesize idiomValue=_idiomValue;
-@property(nonatomic) long long memoryPerformanceClass; // @synthesize memoryPerformanceClass=_memoryPerformanceClass;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) long long subtype; // @synthesize subtype=_subtype;
-@property(retain, nonatomic) NSArray *subtypeFallbackValues; // @synthesize subtypeFallbackValues=_subtypeFallbackValues;
 
 @end
 

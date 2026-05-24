@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol CBIORegInterface, OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBIORegistryParser
 {
     NSObject<OS_os_log> *_logHandle;
-    id <CBIORegInterface> _reader;
 }
 
 + (id);
@@ -22,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)j;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long)T5;
 - (id);
 - (void);
 - (void);
@@ -34,15 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
 @property(readonly) id <CBIORegInterface> reader; // @synthesize reader=_reader;
-@property(readonly) Class superclass;
 
 @end
 

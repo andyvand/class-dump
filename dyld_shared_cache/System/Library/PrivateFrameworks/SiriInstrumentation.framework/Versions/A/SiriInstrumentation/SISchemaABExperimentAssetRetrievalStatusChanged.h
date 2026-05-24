@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaABExperimentAssetRetrievalStatusChanged : SISchemaInstrumentationMessage
 {
     NSString *_experimentId;
-    NSString *_assetId;
-    int _retrievalStatusCode;
-    struct {
-        unsigned int retrievalStatusCode:1;
-    } _has;
-    _Bool _hasExperimentId;
-    _Bool _hasAssetId;
 }
 
 - (void);
@@ -26,34 +19,28 @@
 - (int);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)appendData:(_Bool)arg1;
+- (_Bool)AOSUIRecoveryFactorController;
+- (void)P;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)mmand>"8Q16^B24;
+- (_Bool)e_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ocale:(id)arg1;
-- (id)firmationSnippet;
+- (void)setUserLocale:(id)arg1;
+- (id)confirmationSnippet;
 - (id),V_locationFrequencyCount156Kilometers;
-- (void)ersion;
+- (void)configurationVersion;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetId; // @synthesize assetId=_assetId;
 @property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasAssetId; // @synthesize hasAssetId=_hasAssetId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasRetrievalStatusCode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int retrievalStatusCode; // @synthesize retrievalStatusCode=_retrievalStatusCode;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCUserEventHistoryStorage, NSString;
-@protocol FCUserEventHistoryStorageType;
+@class FCUserEventHistoryStorage;
 
 @interface FCUserEventHistory : FCPrivateDataController
 {
@@ -17,13 +16,13 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)q;
 + (id);
 + (_Bool);
 + (id);
-+ (long long);
++ (long long)_shouldUpdateTargetAreaOnBeginInteractive;
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long),N;
 + (id);
 + (id);
 + (id)8HH¸I;
@@ -32,22 +31,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)w~;
 - (id);
 - (void);
-- (id)hName:(id)arg1 expirationHandler:(id)arg2;
-- (void)encesIPhoneBestOfBundle;
+- (id)fc_beginBackgroundTaskWithName:(id)arg1 expirationHandler:(id)arg2;
+- (void)maxPublisherOccurrencesIPhoneBestOfBundle;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) FCUserEventHistoryStorage *privateStorage; // @synthesize privateStorage=_privateStorage;
-@property(readonly, nonatomic) id <FCUserEventHistoryStorageType> storage;
-@property(readonly) Class superclass;
 
 @end
 

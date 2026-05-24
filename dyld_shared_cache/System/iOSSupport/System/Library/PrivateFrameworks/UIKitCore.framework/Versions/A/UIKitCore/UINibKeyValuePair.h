@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UINibKeyValuePair
 {
     id object;
-    NSString *keyPath;
-    id value;
 }
 
+- (id)for purging:(id)arg1 %@;
+- (void)BackgroundProcessing;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void)aterial;
+- (void)defaultHeightWithBackgroundMaterial;
 - (id)|°;
-- (void)owColor;
+- (void)shadowColor;
 - (void)zâÿ±vÝèÔd;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath;
 @property(readonly, nonatomic) id object; // @synthesize object;
-@property(readonly, nonatomic) id value; // @synthesize value;
 
 @end
 

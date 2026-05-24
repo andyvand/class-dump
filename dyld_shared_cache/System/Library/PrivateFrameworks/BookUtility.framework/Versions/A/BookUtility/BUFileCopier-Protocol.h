@@ -7,6 +7,7 @@
 @protocol BUFileCopierDelegate;
 
 @protocol BUFileCopier
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) __weak id <BUFileCopierDelegate> delegate;

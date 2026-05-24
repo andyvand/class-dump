@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBClearProactiveCategoryCommand
 {
     _Bool _shouldClearWholeSection;
-    int _category;
-    NSString *_proactiveIdentifier;
 }
 
 - (_Bool);
@@ -23,25 +19,15 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
-- (id);
+- (id)insertIntoPhotoLibrary:(id)arg1 withUUID: /* Error: Ran out of types for this method. */;
+- (id)photoLibrary:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void)dDetail: /* Error: Ran out of types for this method. */;
+- (void)setCommandDetail: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *proactiveIdentifier; // @synthesize proactiveIdentifier=_proactiveIdentifier;
-@property(nonatomic) _Bool shouldClearWholeSection; // @synthesize shouldClearWholeSection=_shouldClearWholeSection;
-@property(readonly) Class superclass;
 
 @end
 

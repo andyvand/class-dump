@@ -9,17 +9,15 @@
 @interface NTPBCKRecordReference
 {
     NTPBCKRecordIdentifier *_recordIdentifier;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);
-- (void);
+- (void))!;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)issueReadingHistory;
 - (_Bool);
 - (id);
 - (void);
@@ -27,14 +25,11 @@
 - (id);
 - (_Bool);
 - (_Bool)LaCarteSubscribed"b1};
-- (void)rActivityType;
-- (void)lular;
+- (void)userActivityType;
+- (void)hasSavedArticlesMaximumCountCellular;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRecordIdentifier;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NTPBCKRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface CHSynthesisReplacementRecipe
 {
     NSString *_originalString;
-    NSString *_replacementString;
-    long long _synthesisSuggestion;
 }
 
 - (long long);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly) NSString *originalString; // @synthesize originalString=_originalString;
-@property(readonly) NSString *replacementString; // @synthesize replacementString=_replacementString;
-@property(readonly) long long synthesisSuggestion; // @synthesize synthesisSuggestion=_synthesisSuggestion;
 
 @end
 

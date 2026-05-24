@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFMailRankingSignals;
-
 @interface MSParsecSearchSessionMessageResult
 {
     int _type;
-    NSString *_resultID;
-    long long _messageAge;
-    SFMailRankingSignals *_mailRankingSignals;
 }
 
 + (id);
@@ -25,20 +20,10 @@
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)ribute_t"8Q16^B24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SFMailRankingSignals *mailRankingSignals; // @synthesize mailRankingSignals=_mailRankingSignals;
 @property(readonly, nonatomic) long long messageAge; // @synthesize messageAge=_messageAge;
-@property(readonly, nonatomic) NSString *resultID; // @synthesize resultID=_resultID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

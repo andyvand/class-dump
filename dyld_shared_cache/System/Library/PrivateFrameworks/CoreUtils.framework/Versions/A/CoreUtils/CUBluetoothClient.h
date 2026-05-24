@@ -4,88 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, CBPeripheralManager, NSData, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSData;
 
 @interface CUBluetoothClient
 {
     NSData *_btAdvertisingAddress;
-    CBCentralManager *_btCentralManager;
-    _Bool _btCentralManagerNeeded;
-    CBPeripheralManager *_btPeripheralManager;
-    _Bool _btPeripheralManagerNeeded;
-    _Bool _btConnectionEventsNeeded;
-    _Bool _btConnectionDevicesInitialized;
-    NSMutableDictionary *_btConnectedDevices;
-    NSMutableDictionary *_btPairedDevices;
-    _Bool _btPairedDevicesInitialized;
-    NSMutableArray *_findDeviceRequests;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    int _bluetoothState;
-    unsigned int _flags;
-    unsigned int _requiredServices;
-    unsigned int _statusFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_label;
-    CDUnknownBlockType _bluetoothAddressChangedHandler;
-    CDUnknownBlockType _bluetoothStateChangedHandler;
-    CDUnknownBlockType _deviceConnectedHandler;
-    CDUnknownBlockType _deviceDisconnectedHandler;
-    CDUnknownBlockType _deviceEventHandler;
-    CDUnknownBlockType _devicePairedHandler;
-    CDUnknownBlockType _deviceUnpairedHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
-- (int);
+- (int);
 - (void);
-- (id);
+- (id)ll pure virtual functions.;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)itRanking] Finishing - clientBundleID=%@ hitCount=%ld, maxCount=%ld
+;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (unsigned int);
+- (id)initWithContext:bundleID: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (unsigned int);
+- (void)Ghe8;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -99,28 +71,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType bluetoothAddressChangedHandler; // @synthesize bluetoothAddressChangedHandler=_bluetoothAddressChangedHandler;
 @property(nonatomic) int bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler; // @synthesize bluetoothStateChangedHandler=_bluetoothStateChangedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType deviceConnectedHandler; // @synthesize deviceConnectedHandler=_deviceConnectedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceDisconnectedHandler; // @synthesize deviceDisconnectedHandler=_deviceDisconnectedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceEventHandler; // @synthesize deviceEventHandler=_deviceEventHandler;
-@property(copy, nonatomic) CDUnknownBlockType devicePairedHandler; // @synthesize devicePairedHandler=_devicePairedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceUnpairedHandler; // @synthesize deviceUnpairedHandler=_deviceUnpairedHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned int requiredServices; // @synthesize requiredServices=_requiredServices;
-@property(nonatomic) unsigned int statusFlags; // @synthesize statusFlags=_statusFlags;
-@property(readonly) Class superclass;
 
 @end
 

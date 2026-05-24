@@ -9,18 +9,16 @@
 @interface CSVoiceTriggerFirstPassMetrics
 {
     NSNumber *_firstPassInfoGeneratedTime;
-    NSNumber *_firstPassInfoProcessedTime;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void)PTurnedOn;
+- (void)isSiriDSPTurnedOn;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *firstPassInfoGeneratedTime; // @synthesize firstPassInfoGeneratedTime=_firstPassInfoGeneratedTime;
-@property(readonly, nonatomic) NSNumber *firstPassInfoProcessedTime; // @synthesize firstPassInfoProcessedTime=_firstPassInfoProcessedTime;
 
 @end
 

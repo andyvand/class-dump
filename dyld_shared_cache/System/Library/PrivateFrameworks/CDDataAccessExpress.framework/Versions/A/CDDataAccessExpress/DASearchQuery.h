@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
-@protocol DASearchQueryConsumer;
+@class NSString;
 
 @interface DASearchQuery
 {
     int _timeLimit;
-    NSString *_searchString;
-    NSPredicate *_searchPredicate;
-    id <DASearchQueryConsumer> _consumer;
-    NSString *_searchID;
-    unsigned long long _state;
-    struct _NSRange _range;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -46,14 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <DASearchQueryConsumer> consumer; // @synthesize consumer=_consumer;
-@property(nonatomic) unsigned int maxResults;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(copy, nonatomic) NSString *searchID; // @synthesize searchID=_searchID;
-@property(copy, nonatomic) NSPredicate *searchPredicate; // @synthesize searchPredicate=_searchPredicate;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) int timeLimit; // @synthesize timeLimit=_timeLimit;
 
 @end
 

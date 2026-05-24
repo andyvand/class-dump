@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SecureBackupTermsInfo;
-
 @interface StoredTermsInfo
 {
     unsigned long long _storageVersion;
-    SecureBackupTermsInfo *_termsInfo;
-    struct {
-        unsigned int storageVersion:1;
-    } _has;
 }
 
 - (id);
@@ -24,20 +18,17 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)%{public}@ notifications for changed objects.;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasStorageVersion;
-@property(readonly, nonatomic) _Bool hasTermsInfo;
-@property(nonatomic) unsigned long long storageVersion; // @synthesize storageVersion=_storageVersion;
-@property(retain, nonatomic) SecureBackupTermsInfo *termsInfo; // @synthesize termsInfo=_termsInfo;
 
 @end
 

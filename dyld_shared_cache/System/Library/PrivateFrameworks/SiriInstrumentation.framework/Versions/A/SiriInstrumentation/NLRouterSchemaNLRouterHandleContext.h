@@ -6,24 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaNLRouterHandleEnded, NLRouterSchemaNLRouterHandleFailed, NLRouterSchemaNLRouterHandleStarted, NSData;
+@class NLRouterSchemaNLRouterHandleStarted;
 
 @interface NLRouterSchemaNLRouterHandleContext : SISchemaInstrumentationMessage
 {
     NLRouterSchemaNLRouterHandleStarted *_startedOrChanged;
-    NLRouterSchemaNLRouterHandleEnded *_ended;
-    NLRouterSchemaNLRouterHandleFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)?ה;
 - (void);
 - (void);
 - (void);
@@ -36,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)e;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -49,14 +43,7 @@
 - (void)¡ç9\>;
 
 // Remaining properties
-@property(retain, nonatomic) NLRouterSchemaNLRouterHandleEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLRouterSchemaNLRouterHandleFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLRouterSchemaNLRouterHandleStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

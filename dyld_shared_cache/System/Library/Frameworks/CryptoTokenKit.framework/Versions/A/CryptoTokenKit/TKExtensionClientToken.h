@@ -6,27 +6,25 @@
 
 #import <CryptoTokenKit/TKClientToken.h>
 
-@class NSXPCConnection, TKCTKDConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface TKExtensionClientToken : TKClientToken
 {
     long long _connectionIdentifier;
-    TKCTKDConnection *_serverConnection;
-    NSXPCConnection *_tokenConnection;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)recordingLimitTimerStart:(id)arg1 ];
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)works/CryptoTokenKit.framework/Contents/MacOS/CryptoTokenKit;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *tokenConnection; // @synthesize tokenConnection=_tokenConnection;

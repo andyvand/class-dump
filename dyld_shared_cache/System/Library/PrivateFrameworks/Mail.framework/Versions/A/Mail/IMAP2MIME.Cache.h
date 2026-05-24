@@ -7,15 +7,6 @@
 @interface IMAP2MIME.Cache
 {
     id _allCanonicalNames;
-    id _utf8CanonicalName;
-    id _eucCnCanonicalName;
-    id _gb2312CanonicalName;
-    id _gbk95CanonicalName;
-    id _gb18030CanonicalName;
-    id _big5CanonicalName;
-    id _big5HkscsCanonicalName;
-    id _converters;
-    id _idna;
 }
 
 @end

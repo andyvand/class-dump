@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BTAudioRoutingRequest;
+
 @protocol BTServicesXPCDaemonInterface
+- (void)tionExecutor"16@"LNAction"24;
+- (void)wf_initWithDaysBeforeAndAfterCurrentDate:(unsigned int)arg1;
+- (void)wf_iconIsDefaultVisible;
+- (void)rISO8601:(BTAudioRoutingRequest *)arg1 timeZone:(void (^)(BTAudioRoutingResponse *))arg2 locale: /* Error: Ran out of types for this method. */;
 @end
 

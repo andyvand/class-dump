@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents;
-
 @interface ScreenTimeCore.Schedule
 {
     _Bool enabled;
-    void start;
-    void end;
 }
 
 + (void);
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version) SELECT item_pid, title, sort_title, disc_count, track_count, total_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
+- (id)_count, total_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version) SELECT item_pid, title, sort_title, disc_count, track_count, total_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
+- (id)d INTEGER PRIMARY KEY, bookkeeper_identifier TEXT NOT NULL, metadata_timestamp REAL DEFAULT NULL, metadata_entity_revision INTEGER DEFAULT NULL);
+- (id)_pid, sort_map.name_order from sort_map JOIN item_extra ON item_extra.title = sort_map.name;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)E;
 - (_Bool);
 - (void);
-- (id);
+- (id)R,N,V_artworkTimeMarkers;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool enabled; // @synthesize enabled;
-@property(nonatomic, readonly) NSDateComponents *end;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSDateComponents *start;
 
 @end
 

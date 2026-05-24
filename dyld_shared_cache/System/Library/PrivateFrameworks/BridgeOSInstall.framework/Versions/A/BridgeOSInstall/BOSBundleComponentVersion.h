@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BOSBundleComponentVersion
 {
     NSString *_shortVersionString;
-    NSString *_bundleVersion;
-    NSString *_sourceVersion;
-    NSString *_buildVersion;
 }
 
-+ (id);
++ (id):(id)arg1 STPinRemoteViewController.viewWillAppear;
 + (id);
 + (id);
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -29,16 +26,12 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSDictionary *attributeDictionary;
-@property(retain) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
 @property(retain) NSString *shortVersionString; // @synthesize shortVersionString=_shortVersionString;
-@property(retain) NSString *sourceVersion; // @synthesize sourceVersion=_sourceVersion;
 
 @end
 

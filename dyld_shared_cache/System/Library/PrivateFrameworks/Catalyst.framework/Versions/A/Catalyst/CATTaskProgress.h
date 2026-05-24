@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString, NSUUID;
+@class NSUUID;
 
 @interface CATTaskProgress
 {
     _Bool _isCancelable;
-    _Bool _isCanceled;
-    NSUUID *_UUID;
-    unsigned long long _phase;
-    id _resultObject;
-    NSError *_error;
-    NSDictionary *_userInfo;
-    long long _completedUnitCount;
-    long long _totalUnitCount;
-    NSString *_requestClassName;
 }
 
 + (id);
 + (void);
 + (Class);
-+ (_Bool);
++ (_Bool)_uuiddbfd;
 - (id);
 - (id);
 - (unsigned long long);
@@ -44,32 +35,23 @@
 - (id);
 - (id);
 - (id);
+- (id)=^{os_trace_uuid_map_s}QQ[0[16C]]};
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (long long);
 - (id);
-- (long long);
-- (_Bool);
+- (long long)iceAvailableWithFailure:%p
+ /* Error: Ran out of types for this method. */;
+- (_Bool)Q,R;
 - (void);
 - (void);
-- (void);
-- (id)Priority:(id)arg1;
+- (void);
+- (id)setQueuePriority:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(nonatomic) long long completedUnitCount; // @synthesize completedUnitCount=_completedUnitCount;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool isCancelable; // @synthesize isCancelable=_isCancelable;
-@property(nonatomic) _Bool isCanceled; // @synthesize isCanceled=_isCanceled;
-@property(nonatomic) unsigned long long phase; // @synthesize phase=_phase;
-@property(copy, nonatomic) NSString *requestClassName; // @synthesize requestClassName=_requestClassName;
-@property(retain, nonatomic) id resultObject; // @synthesize resultObject=_resultObject;
-@property(readonly, nonatomic) unsigned long long state;
-@property(nonatomic) long long totalUnitCount; // @synthesize totalUnitCount=_totalUnitCount;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

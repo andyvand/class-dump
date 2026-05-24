@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSPublicEventCachingOptions, PGGraph, PGGraphMomentNodeCollection;
+@class CLSPublicEventCachingOptions, PGGraph;
 
 @interface PGPublicEventCachingFetchRequest
 {
     PGGraph *_graph;
-    PGGraphMomentNodeCollection *_momentNodes;
-    CLSPublicEventCachingOptions *_cachingOptions;
 }
 
-- (id);
+- (id)LibCall_ACMGlobalContextVerifyPolicyEx;
 - (id);
 - (void)tate;
 - (id)nFeatureExtractor - extractMusicCurationFeatures;
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CLSPublicEventCachingOptions *cachingOptions; // @synthesize cachingOptions=_cachingOptions;
-@property(readonly, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes; // @synthesize momentNodes=_momentNodes;
 
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (void)MutableTraitsInternal>"@?>16;
-- (void)NSObjectCSgG;
+- (void)SDySSSo8NSObjectCSgG;
 
 @end
 

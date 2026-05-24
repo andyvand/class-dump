@@ -6,19 +6,17 @@
 
 #import <CoreDuet/_CDPerfMetric.h>
 
-@class NSObject, _DKEventStatsTimerCounter;
+@class NSObject;
 @protocol OS_os_activity;
 
 @interface _CDMutablePerfMetric : _CDPerfMetric
 {
     NSObject<OS_os_activity> *_os_activity;
-    struct os_activity_scope_state_s _os_activity_scope_state;
-    _DKEventStatsTimerCounter *_eventStatsTimerCounter;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void)ª31Â0@ù
 × ;
 

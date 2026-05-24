@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface FCPresentationOperation
 {
     _Bool _endsPresentationSession;
-    _Bool _ignoreAfterSuccessfulPresentation;
-    NSString *_handlerUID;
-    NSString *_operationUID;
-    long long _requiredAppLaunchCount;
-    NSNumber *_maxPrecedingSameSessionPresentations;
-    NSNumber *_maxPresentationAttempts;
-    long long _suppressOnLaunchConditions;
-    NSNumber *_maxRetries;
 }
 
 - (_Bool);
@@ -27,29 +19,74 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)bOther.b, 2.0)); 
+	//return lab; 
+ 	return vec4(vec3(dist), 1.0); 
+}kernel vec4 convertFromRGBToLABColorized(sampler orig, sampler gmapped){ 
+	vec3 xyzN = vec3(0.95, 1.0, 1.089); 
+	vec3 stepXYZ, fXYZ, xyzIm; 
+	vec4 pix; 
+	vec4 origPix = sample(orig, samplerCoord(orig)); 
+	pix = origPix; 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+   pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 lab = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+ 	pix = sample(gmapped, samplerCoord(gmapped)); 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+    pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 labOther = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+	float dist = (pow(lab.r - labOther.r, 2.0) + pow(lab.g - labOther.g, 2.0) + pow(lab.b - labOther.b, 2.0)); 
+	dist = min(dist, 1.0); 
+	// multiply the input pixel by the distance, so if it's unmapped, we get black, and if it's mapped, the color is scaled 
+	pix = origPix * vec4(vec3(dist), 1.0); 
+ 	return pix; 
+}kernel vec4 convertFromRGBToLABMonochrome(sampler orig, sampler gmapped){ 
+	vec3 xyzN = vec3(0.95, 1.0, 1.089); 
+	vec3 stepXYZ, fXYZ, xyzIm; 
+	vec4 pix; 
+	vec4 origPix = sample(orig, samplerCoord(orig)); 
+	pix = origPix; 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+   pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 lab = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+ 	pix = sample(gmapped, samplerCoord(gmapped)); 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+    pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 labOther = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+	float dist = (pow(lab.r - labOther.r, 2.0) + pow(lab.g - labOther.g, 2.0) + pow(lab.b - labOther.b, 2.0)); 
+	dist = min(dist, 1.0); 
+	dist = smoothstep(0.04, 1.0, dist); 
+	float gray = (origPix.r + origPix.g + origPix.b) / 3.0; 
+	// if we're close to zero distance, then we get gray scale, but if it's mapped more, we get a color pixel, scaled by the amount of the mapping 
+	pix.rgb = mix(vec3(gray), pix.rgb, dist); 
+ 	return pix; 
+};
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)beros flags for principal %@;
 - (id);
 - (void)FCSubscriptionList appendSubscriptionForTagID:type:] /* Error: Ran out of types for this method. */;
 - (long long)nPoolOperation.m;
-- (id);
+- (id)readOnly;
 
 // Remaining properties
-@property(nonatomic) _Bool endsPresentationSession; // @synthesize endsPresentationSession=_endsPresentationSession;
 @property(copy, nonatomic) NSString *handlerUID; // @synthesize handlerUID=_handlerUID;
-@property(nonatomic) _Bool ignoreAfterSuccessfulPresentation; // @synthesize ignoreAfterSuccessfulPresentation=_ignoreAfterSuccessfulPresentation;
-@property(retain, nonatomic) NSNumber *maxPrecedingSameSessionPresentations; // @synthesize maxPrecedingSameSessionPresentations=_maxPrecedingSameSessionPresentations;
-@property(retain, nonatomic) NSNumber *maxPresentationAttempts; // @synthesize maxPresentationAttempts=_maxPresentationAttempts;
-@property(retain, nonatomic) NSNumber *maxRetries; // @synthesize maxRetries=_maxRetries;
-@property(copy, nonatomic) NSString *operationUID; // @synthesize operationUID=_operationUID;
-@property(nonatomic) long long requiredAppLaunchCount; // @synthesize requiredAppLaunchCount=_requiredAppLaunchCount;
-@property(nonatomic) long long suppressOnLaunchConditions; // @synthesize suppressOnLaunchConditions=_suppressOnLaunchConditions;
 
 @end
 

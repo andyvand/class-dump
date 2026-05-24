@@ -6,57 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, NSTimer, UIDimmingView, UIGlomojiAnalyticsDispatcher, UIInputSwitcherSelectionExtraView, UIInputSwitcherShadowView, UIInputSwitcherTableView, UIKBKeyView, UIKBTree, UIKeyboardLayoutStar, UISelectionFeedbackGenerator;
+@class UIInputSwitcherTableView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardMenuView : UIView
 {
     UIInputSwitcherTableView *m_table;
-    UIInputSwitcherShadowView *m_shadowView;
-    UIInputSwitcherSelectionExtraView *m_selExtraView;
-    struct CGRect m_referenceRect;
-    double m_pointerOffset;
-    _Bool m_scrollable;
-    _Bool m_startAutoscroll;
-    _Bool m_scrolling;
-    _Bool m_shouldFade;
-    struct CGPoint m_point;
-    double m_scrollStartTime;
-    int m_scrollDirection;
-    NSTimer *m_scrollTimer;
-    unsigned long long m_visibleRows;
-    unsigned long long m_firstVisibleRow;
-    long long m_mode;
-    UIDimmingView *m_dimmingView;
-    UIView *m_inputView;
-    struct CGPoint m_referenceLocation;
-    UIKBKeyView *m_backgroundKeyView;
-    double m_timeDismissed;
-    long long m_initialIndexInteracted;
-    _Bool m_menuDrag;
-    UISelectionFeedbackGenerator *m_slideBehavior;
-    _Bool _usesStraightLeftEdge;
-    _Bool _usesDarkTheme;
-    _Bool _showingCapsLockSwitcher;
-    long long _indexForSelectedFastSwitchMode;
-    long long _indexForUnselectedFastSwitchMode;
-    UIKBTree *_referenceKey;
-    UIKeyboardLayoutStar *_layout;
-    UIGlomojiAnalyticsDispatcher *_glomojiAnalyticsInstance;
 }
 
-- (void);
-- (void);
+- (void)Q;
+- (void)x$;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)`q;
 - (id);
-- (id);
+- (id)missingMatchingLivePhotoComponent;
 - (double);
-- (id);
-- (id);
+- (id)So30IMDScheduledMessageCoordinatorCSgXw;
+- (id)So20IMDiagnosticNotifierCSg;
 - (void);
 - (_Bool);
 - (void);
@@ -74,48 +43,48 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (double);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (void);
+- (void);
+- (void)received aliases changed to %@:(struct CGPoint)arg1 %@ (%@);
+- (void)ed API is not available, validatePersonalStatusSubscriptionMatchesSubscriptionValidationToken:fromSender:completion: /* Error: Ran out of types for this method. */;
+- (struct CGRect)meaningfully changed.;
+- (void)background, subclass for iMessage should handle.;
+- (double)ceipt processing;
+- (id)rk as purgable;
+- (id)o handles or servicename to receive a message from:(unsigned long long)arg1 {handles:%@ serviceName:%@} /* Error: Ran out of types for this method. */;
+- (_Bool)pID:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (_Bool)rticipant, re-added %@ to %@;
+- (struct CGRect)erval:%f) /* Error: Ran out of types for this method. */;
+- (void)is nil when attempting to update a message;
 - (long long);
+- (long long)passing in nil filePath to initWithFilePath;
+- (void)ransfers:(unsigned long long)arg1 full CK error with nil failedTransfers, treating all %lu transfers as failed. error:%@ /* Error: Ran out of types for this method. */;
+- (id)progress:%@ /* Error: Ran out of types for this method. */;
 - (long long);
+- (id)d while under first unlock. Can't track batches!;
+- (void)n error unpacking Collaboration Notice Action, error:(double)arg1 %@;
 - (void);
+- (void)eived message guid:(id)arg1 %@ to report to carrier as junk;
+- (void)oup mutation to %@;
+- (unsigned long long)is phone or watch:[%@] /* Error: Ran out of types for this method. */;
+- (void)PersistentTaskCriticalExecutionTTRWindow;
+- (_Bool)or:%@. Localized description:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)cted with confidence ;
+- (void);
 - (id);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)CEMNetworkWiFiDeclaration_EAPClientConfiguration;
 - (void);
 - (id);
 - (void);
@@ -123,20 +92,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)hasSameContentAsDataSource: /* Error: Ran out of types for this method. */;
+- (id)	;
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)arkText;
-- (void)entsForSheetController:(id)arg1 invalidate: /* Error: Ran out of types for this method. */;
-- (void)smissalPassthroughViews:(id)arg1;
+- (void)_unmarkText;
+- (void)_resetDetentsForSheetController:(id)arg1 invalidate: /* Error: Ran out of types for this method. */;
+- (void)_dci_setSuggestionsMenuDismissalPassthroughViews:(id)arg1;
 - (void);
 - (id)"UIKBShape",&,N,Vm_originalShape;
-- (void)sToLoad;
+- (void)_sectionsToLoad;
 - (void)ÿÿ¿L;
 - (id);
-- (void)RecentFamilies;
+- (void)UIFontPickerRecentFamilies;
 - (void)l content view:(id)arg1 %@;
 - (void)ö´;
 - (unsigned long long);
@@ -146,28 +115,12 @@ __attribute__((visibility("hidden")))
 - (id)Û´Ðd;
 - (void).rþ;
 - (id);
-- (_Bool)j;
+- (_Bool)4Hj;
 - (void)­wÑÐÏj;
 - (void)`3Êz#m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIGlomojiAnalyticsDispatcher *glomojiAnalyticsInstance; // @synthesize glomojiAnalyticsInstance=_glomojiAnalyticsInstance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long indexForSelectedFastSwitchMode; // @synthesize indexForSelectedFastSwitchMode=_indexForSelectedFastSwitchMode;
-@property(nonatomic) long long indexForUnselectedFastSwitchMode; // @synthesize indexForUnselectedFastSwitchMode=_indexForUnselectedFastSwitchMode;
-@property(nonatomic) UIKeyboardLayoutStar *layout; // @synthesize layout=_layout;
 @property(nonatomic) long long mode; // @synthesize mode=m_mode;
-@property(nonatomic) UIKBTree *referenceKey; // @synthesize referenceKey=_referenceKey;
-@property(nonatomic) _Bool showingCapsLockSwitcher; // @synthesize showingCapsLockSwitcher=_showingCapsLockSwitcher;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesDarkTheme; // @synthesize usesDarkTheme=_usesDarkTheme;
-@property(nonatomic) _Bool usesStraightLeftEdge; // @synthesize usesStraightLeftEdge=_usesStraightLeftEdge;
-@property(readonly) _Bool usesTable;
 
 @end
 

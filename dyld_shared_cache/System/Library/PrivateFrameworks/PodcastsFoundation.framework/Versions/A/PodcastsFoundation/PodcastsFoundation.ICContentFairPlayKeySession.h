@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFFairPlayAsset, PFFairPlayKeyResponseData;
+@class NSString;
 
 @interface PodcastsFoundation.ICContentFairPlayKeySession
 {
     void id;
-    PFFairPlayAsset *asset;
-    _Bool bypassCache;
-    PFFairPlayKeyResponseData *keyResponseData;
-    id keyStore;
-    id requestContext;
-    id keyCertificateURL;
-    id urlConfiguration;
-    id pendingProcessCompletion;
-    id $__lazy_storage_$_delegateWrapper;
-    id $__lazy_storage_$_logPrefix;
-    id $__lazy_storage_$_session;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
@@ -39,11 +28,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic, readonly) PFFairPlayAsset *asset; // @synthesize asset;
-@property(nonatomic) _Bool bypassCache; // @synthesize bypassCache;
 @property(nonatomic, readonly) NSString *id;
-@property(nonatomic, retain) PFFairPlayKeyResponseData *keyResponseData; // @synthesize keyResponseData;
-@property(nonatomic, readonly) NSString *keyStoreFilePath;
 
 @end
 

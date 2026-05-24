@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
-
 @interface NSFileProviderDiagnosticAttributesDescriptor
 {
     unsigned int _docID;
-    unsigned long long _fileID;
-    NSString *_itemID;
-    NSDictionary *_diagnosticAttributes;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -24,20 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)kCTQualityOfServiceSourceIP;
 - (void);
-- (void);
-- (id);
+- (void)4D;
+- (id)TV;
 - (id);
 - (void)±ç)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *diagnosticAttributes; // @synthesize diagnosticAttributes=_diagnosticAttributes;
 @property(readonly, nonatomic) unsigned int docID; // @synthesize docID=_docID;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) unsigned long long fileID; // @synthesize fileID=_fileID;
-@property(readonly, nonatomic) NSString *itemID; // @synthesize itemID=_itemID;
 
 @end
 

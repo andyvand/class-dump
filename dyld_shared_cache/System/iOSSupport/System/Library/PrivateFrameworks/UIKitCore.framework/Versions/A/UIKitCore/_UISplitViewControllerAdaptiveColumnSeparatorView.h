@@ -6,40 +6,29 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIPointerInteraction;
+@class UIPointerInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UISplitViewControllerAdaptiveColumnSeparatorView : UIView
 {
     unsigned long long _permittedResizeDirections;
-    long long _splitViewControllerColumn;
-    UIPointerInteraction *_pointerInteraction;
 }
 
-+ (double);
-+ (double);
++ (double)previously set one before this device was added. toIdentifier:%@, fromIdentifier:%@, chat:%@ /* Error: Ran out of types for this method. */;
++ (double)8;
 - (long long);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
-- (struct CGRect);
+- (long long)DiMessagePipelineResources",R,N,V_pipelineResources;
+- (struct CGRect)round file from %@ to %@, error %@;
 - (id)tionContainerViewForRange:(id)arg1 inContext:(id)arg2 completion:(id)arg3 and therefore must assign a non-nil value to the coordinator's decorationContainerView property.;
 - (id)t and not collapsing secondary on top of primary. SplitViewController is %@, primary is %@, secondary is %@;
 - (void)UUUUUU@«ªªªªª@46<=0@®Gáz®÷?ÊÃB­iÞú?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long permittedResizeDirections; // @synthesize permittedResizeDirections=_permittedResizeDirections;
 @property(readonly, nonatomic) UIPointerInteraction *pointerInteraction; // @synthesize pointerInteraction=_pointerInteraction;
-@property(readonly, nonatomic) long long splitViewControllerColumn; // @synthesize splitViewControllerColumn=_splitViewControllerColumn;
-@property(readonly) Class superclass;
 
 @end
 

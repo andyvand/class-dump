@@ -6,24 +6,12 @@
 
 #import <MediaRemote/MRExternalDeviceTransport.h>
 
-@class CURunLoopThread, MRAVOutputDevice, MRDeviceInfo, NSError, NSInputStream, NSObject, NSOutputStream, NSRunLoop, NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class MRAVOutputDevice, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRAVXPCPipeTransport : MRExternalDeviceTransport
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    MRDeviceInfo *_deviceInfo;
-    NSError *_error;
-    NSInputStream *_inputStream;
-    NSInputStream *_inputStreamInternal;
-    NSOutputStream *_outputStream;
-    NSOutputStream *_outputStreamInternal;
-    _Bool _useSystemAuthenticationPrompt;
-    NSXPCConnection *_pipeConnection;
-    NSRunLoop *_runLoop;
-    CURunLoopThread *_runLoopThread;
-    MRAVOutputDevice *_outputDevice;
-    NSXPCListenerEndpoint *_pipeEndpoint;
 }
 
 - (_Bool);
@@ -34,30 +22,22 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)remoteService:(id)arg1 didEstablishConnection: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)collectionView:willDisplayItem:forRepresentedObjectAtIndexPath: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
 - (void),N,V_currentPlaybackDateData;
-- (id)oTotalQueueCount;
+- (id)kMRMediaRemoteNowPlayingInfoTotalQueueCount;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MRAVOutputDevice *outputDevice; // @synthesize outputDevice=_outputDevice;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *pipeEndpoint; // @synthesize pipeEndpoint=_pipeEndpoint;
-@property(readonly) Class superclass;
 
 @end
 

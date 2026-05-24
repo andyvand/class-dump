@@ -7,10 +7,9 @@
 @interface AFSafetyBlock
 {
     struct atomic_flag _hasInvoked;
-    CDUnknownBlockType _block;
 }
 
-- (void);
+- (void)d.fmip-lost-mode;
 - (_Bool);
 - (id);
 - (void)incremental;

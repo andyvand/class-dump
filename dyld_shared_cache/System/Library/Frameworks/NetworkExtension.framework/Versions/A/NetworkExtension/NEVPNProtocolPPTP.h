@@ -11,12 +11,12 @@
     long long _encryptionLevel;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)setUserSpecifiedCommand: /* Error: Ran out of types for this method. */;
+- (void)	;
 - (long long);
-- (struct __SCNetworkInterface *);
+- (struct __SCNetworkInterface *);
 - (id);
-- (id);
+- (id)_SFXPCAsyncSequenceContainer;
 - (id);
 - (id);
 - (void);

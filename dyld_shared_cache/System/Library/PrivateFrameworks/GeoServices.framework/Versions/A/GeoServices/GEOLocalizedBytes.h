@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLocalizedBytes
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSData *_byteValue;
-    NSString *_locale;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_byteValue:1;
-        unsigned int read_locale:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)eldType:(id)arg1;
++ (_Bool)setHasShieldType:(id)arg1;
 - (void);
+- (_Bool)stringByStandardizingPath;
+- (id)SObject<OS_tcc_message_options>",R,N,V_messageOptionsForSyncNoPrompt;
+- (void);
+- (id);
 - (_Bool);
-- (id);
+- (id)	;
+- (void)P;
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)SiriCoreSymptomsReporter;
+- (void)L	;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -43,18 +31,14 @@
 - (id);
 - (id);
 - (void);
-- (id)aceCardTransitSystemName:(struct _NSZone *)arg1;
-- (id)PreferredTransportType: /* Error: Ran out of types for this method. */;
+- (id)setPlaceCardPlaceActionDetailsTransitPlaceCardTransitSystemName:(struct _NSZone *)arg1;
+- (id)StringAsUserPreferredTransportType: /* Error: Ran out of types for this method. */;
 - (id)a valid configuration for type %@. Associated module config is %@;
 - (id);
 - (void)^E4;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *byteValue;
-@property(readonly, nonatomic) _Bool hasByteValue;
 @property(readonly, nonatomic) _Bool hasLocale;
-@property(retain, nonatomic) NSString *locale;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

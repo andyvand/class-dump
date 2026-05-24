@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol AAChooseContactViewModel
+- (NSString *)configuration profile id:'%s' /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *selectButtonText;
 @property(readonly, copy, nonatomic) NSString *title;
 @end
 

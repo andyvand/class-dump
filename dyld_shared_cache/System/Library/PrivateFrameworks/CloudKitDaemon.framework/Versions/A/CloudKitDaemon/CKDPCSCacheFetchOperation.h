@@ -6,33 +6,20 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDPCSCache, CKDPCSData, CKDRecordPCSData, NSError, NSObject, NSString;
-@protocol CKSQLiteItem, OS_dispatch_group;
+@class CKDPCSCache;
 
 @interface CKDPCSCacheFetchOperation : CKDDatabaseOperation
 {
     _Bool _didFetchData;
-    _Bool _wasFetchedFromCache;
-    _Bool _shouldRetry;
-    _Bool _pcsDataInvalidated;
-    int _numRetries;
-    NSObject<OS_dispatch_group> *_fetchGroup;
-    CKDPCSCache *_cache;
-    id <CKSQLiteItem> _itemID;
-    unsigned long long _fetchOptions;
-    CKDPCSData *_pcsData;
-    NSError *_fetchError;
-    NSError *_dependentPCSFetchError;
-    CKDRecordPCSData *_parentPCSData;
 }
 
-+ (id);
++ (id)setScanDuration5G:(unsigned long long)arg1;
 - (_Bool);
 - (void);
+- (void)9*;
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -50,19 +37,19 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)eLeader(FigEndpointRef, FigEndpointRef);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)export CloudKit content. Rescheduling (%g). %{public}@;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)libavp_copy_strong_identity_data;
 - (id);
 - (id);
 - (void)@"CKDPCSKeySyncCoreAnalytics";
@@ -72,21 +59,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKDPCSCache *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSError *dependentPCSFetchError; // @synthesize dependentPCSFetchError=_dependentPCSFetchError;
-@property(nonatomic) _Bool didFetchData; // @synthesize didFetchData=_didFetchData;
-@property(retain, nonatomic) NSError *fetchError; // @synthesize fetchError=_fetchError;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *fetchGroup; // @synthesize fetchGroup=_fetchGroup;
-@property(nonatomic) unsigned long long fetchOptions; // @synthesize fetchOptions=_fetchOptions;
-@property(readonly, nonatomic) _Bool hasAllPCSData;
-@property(retain, nonatomic) id <CKSQLiteItem> itemID; // @synthesize itemID=_itemID;
-@property(readonly, nonatomic) NSString *itemTypeName;
-@property(nonatomic) int numRetries; // @synthesize numRetries=_numRetries;
-@property(retain, nonatomic) CKDRecordPCSData *parentPCSData; // @synthesize parentPCSData=_parentPCSData;
-@property(retain, nonatomic) CKDPCSData *pcsData; // @synthesize pcsData=_pcsData;
-@property(getter=isPCSDataInvalidated) _Bool pcsDataInvalidated; // @synthesize pcsDataInvalidated=_pcsDataInvalidated;
-@property(nonatomic) _Bool shouldRetry; // @synthesize shouldRetry=_shouldRetry;
-@property(nonatomic) unsigned long long state; // @dynamic state;
-@property(nonatomic) _Bool wasFetchedFromCache; // @synthesize wasFetchedFromCache=_wasFetchedFromCache;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAAbsintheContext, NSDate;
+@class NSDate;
 
 @interface AAAbsintheSignerContextCache
 {
     NSDate *_creationDate;
-    AAAbsintheContext *_context;
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)tForShareAccessKeyType: /* Error: Ran out of types for this method. */;
+- (void)detailTextForShareAccessKeyType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AAAbsintheContext *context; // @synthesize context=_context;
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 
 @end

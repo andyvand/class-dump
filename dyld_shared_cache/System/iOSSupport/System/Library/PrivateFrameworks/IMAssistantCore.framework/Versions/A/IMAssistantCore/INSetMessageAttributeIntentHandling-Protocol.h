@@ -5,5 +5,8 @@
 //
 
 @protocol INSetMessageAttributeIntentHandling
+
+@optional
+- (void)9;
 @end
 

@@ -5,37 +5,29 @@
 //
 
 @class NSMutableArray;
-@protocol UINSHidSettings;
 
 __attribute__((visibility("hidden")))
 @interface UINSHidManager
 {
     struct os_unfair_lock_s _lock;
-    id <UINSHidSettings> settings;
-    NSMutableArray *_queuedEvents;
-    CDUnknownBlockType _pingHandler;
 }
 
 + (id);
-- (void);
-- (struct __IOHIDEvent *);
+- (void)ρ;
+- (struct __IOHIDEvent *)E;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)NEModel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}16^@24;
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)ҡ(;
 - (void);
 
 // Remaining properties
-@property(readonly) double doubleClickInterval;
-@property(readonly) _Bool forceClickPerformsQuickLook;
-@property(copy, nonatomic) CDUnknownBlockType pingHandler; // @synthesize pingHandler=_pingHandler;
 @property(retain, nonatomic) NSMutableArray *queuedEvents; // @synthesize queuedEvents=_queuedEvents;
-@property(readonly, nonatomic) id <UINSHidSettings> settings; // @synthesize settings;
 
 @end
 

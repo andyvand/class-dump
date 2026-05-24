@@ -9,19 +9,6 @@
 @interface NSMenuTemplate
 {
     NSString *title;
-    struct CGPoint location;
-    id view;
-    NSString *menuClassName;
-    id supermenu;
-    id realObject;
-    id extension;
-    _Bool isWindowsMenu;
-    _Bool isRequestMenu;
-    _Bool isFontMenu;
-    BOOL interfaceStyle;
-    char *cMenuClassName;
-    _Bool disabled;
-    id popupCell;
 }
 
 + (void)ô;
@@ -32,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ConnectionProtocolConnected;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)ublic}s[%p] Applying EV constraint;
+- (void)mainIdentifiers:(_Bool)arg1 %@;
 - (void)1Â0@ù
 × ;
 - (void)ð;

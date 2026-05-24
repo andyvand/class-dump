@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TTSRulesetRunner
 {
     _Bool _executing;
-    _Bool _shouldAbort;
-    CDUnknownBlockType _preRuleWriter;
-    CDUnknownBlockType _postRuleWriter;
-    CDUnknownBlockType _matchLogger;
-    NSObject<OS_dispatch_queue> *_regexExecutionQueue;
-    NSMutableArray *_ruleReplacements;
-    NSMutableArray *_ruleSets;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void))!;
 - (void);
 - (void);
 - (id);
@@ -35,30 +28,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)del:Unable to detect language from title string %s /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)y=}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)	;
 - (void)±/öÅ0ØR;
 
 // Remaining properties
-@property _Bool executing; // @synthesize executing=_executing;
-@property(copy, nonatomic) CDUnknownBlockType matchLogger; // @synthesize matchLogger=_matchLogger;
-@property(copy, nonatomic) CDUnknownBlockType postRuleWriter; // @synthesize postRuleWriter=_postRuleWriter;
-@property(copy, nonatomic) CDUnknownBlockType preRuleWriter; // @synthesize preRuleWriter=_preRuleWriter;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *regexExecutionQueue; // @synthesize regexExecutionQueue=_regexExecutionQueue;
-@property(readonly, nonatomic) NSNumber *ruleCount;
-@property(retain, nonatomic) NSMutableArray *ruleReplacements; // @synthesize ruleReplacements=_ruleReplacements;
-@property(retain, nonatomic) NSMutableArray *ruleSets; // @synthesize ruleSets=_ruleSets;
-@property _Bool shouldAbort; // @synthesize shouldAbort=_shouldAbort;
 
 @end
 

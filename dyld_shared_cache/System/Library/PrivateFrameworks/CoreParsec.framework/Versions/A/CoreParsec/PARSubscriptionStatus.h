@@ -11,10 +11,10 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)CPGroupActivityPlayTogetherContext;
 
 // Remaining properties
 @property(nonatomic) _Bool isSubscribed; // @synthesize isSubscribed;

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SFAuthenticationOptions
 {
     _Bool _scanForever;
-    _Bool _checkLocally;
-    _Bool _biometricOnly;
-    NSString *_idsDeviceID;
-    long long _scanTimeout;
-    NSData *_acmContext;
-    NSString *_bundleID;
-    NSString *_appName;
-    NSData *_authorizationToken;
 }
 
 + (_Bool);
@@ -24,7 +16,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (id);
 - (id);
@@ -44,15 +36,7 @@
 - (void)ot supported on this platform;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *acmContext; // @synthesize acmContext=_acmContext;
-@property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(copy, nonatomic) NSData *authorizationToken; // @synthesize authorizationToken=_authorizationToken;
-@property(nonatomic) _Bool biometricOnly; // @synthesize biometricOnly=_biometricOnly;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) _Bool checkLocally; // @synthesize checkLocally=_checkLocally;
 @property(copy, nonatomic) NSString *idsDeviceID; // @synthesize idsDeviceID=_idsDeviceID;
-@property(nonatomic) _Bool scanForever; // @synthesize scanForever=_scanForever;
-@property(nonatomic) long long scanTimeout; // @synthesize scanTimeout=_scanTimeout;
 
 @end
 

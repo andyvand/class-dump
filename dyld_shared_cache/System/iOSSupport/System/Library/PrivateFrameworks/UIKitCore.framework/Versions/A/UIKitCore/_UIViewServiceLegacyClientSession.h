@@ -4,49 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID, NSXPCConnection, _UIAsyncInvocation, _UIViewServiceDeputyManager, _UIViewServiceSessionManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceLegacyClientSession
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    _UIViewServiceSessionManager *_manager;
-    _UIViewServiceDeputyManager *_deputyManager;
-    _UIAsyncInvocation *_invalidationInvocation;
-    CDUnknownBlockType _terminationHandler;
-    NSUUID *_uniqueIdentifier;
 }
 
-+ (id);
++ (id)ithGUIDs:(id)arg1 options:(id)arg2 completion:] /* Error: Ran out of types for this method. */;
 + (void)(whÿ/0Üørn;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_postBadgeNumber: /* Error: Ran out of types for this method. */;
+- (void)ith error:(CDUnknownBlockType)arg1 %@;
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType)0@ù
 × ;
-- (id)e:minimum:maximum:animated: /* Error: Ran out of types for this method. */;
+- (id)_setValue:minimum:maximum:animated: /* Error: Ran out of types for this method. */;
 - (void)hard crash in a future release;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak _UIViewServiceSessionManager *manager; // @synthesize manager=_manager;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) CDUnknownBlockType terminationHandler; // @synthesize terminationHandler=_terminationHandler;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

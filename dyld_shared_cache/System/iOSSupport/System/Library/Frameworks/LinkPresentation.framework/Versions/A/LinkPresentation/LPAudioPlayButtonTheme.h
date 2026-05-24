@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface LPAudioPlayButtonTheme
 {
     _Bool _useInvertedInactiveState;
-    UIColor *_keyColor;
-    UIColor *_secondaryColor;
-    UIColor *_outerBorderColor;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)tableBackgroundColor;
+- (id)stretchSpringsAttachedToCellsForBoundsChange: /* Error: Ran out of types for this method. */;
+- (id)startRecordingForRaiseGesture:(id)arg1 shouldPlaySound:(id)arg2;
 - (id);
 - (id);
 - (void)0@ù
@@ -25,9 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIColor *keyColor; // @synthesize keyColor=_keyColor;
-@property(readonly, retain, nonatomic) UIColor *outerBorderColor; // @synthesize outerBorderColor=_outerBorderColor;
-@property(readonly, retain, nonatomic) UIColor *secondaryColor; // @synthesize secondaryColor=_secondaryColor;
-@property(readonly, nonatomic) _Bool useInvertedInactiveState; // @synthesize useInvertedInactiveState=_useInvertedInactiveState;
 
 @end
 

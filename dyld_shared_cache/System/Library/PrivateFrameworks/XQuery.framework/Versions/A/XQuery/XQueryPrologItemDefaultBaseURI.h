@@ -10,23 +10,16 @@ __attribute__((visibility("hidden")))
 @interface XQueryPrologItemDefaultBaseURI
 {
     NSString *baseURI;
-    long long line;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)O;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

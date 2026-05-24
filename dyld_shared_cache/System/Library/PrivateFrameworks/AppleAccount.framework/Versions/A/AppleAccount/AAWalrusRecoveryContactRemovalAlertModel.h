@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)ot be NULL;
 
 @end
 

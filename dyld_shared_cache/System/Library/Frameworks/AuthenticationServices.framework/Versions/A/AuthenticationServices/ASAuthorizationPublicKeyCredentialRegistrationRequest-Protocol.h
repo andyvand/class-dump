@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol ASAuthorizationPublicKeyCredentialRegistrationRequest
+- (NSString *);
+- (NSString *)anchoringViewForSharingService:showRelativeToRect:preferredEdge: /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *attestationPreference;
-@property(copy, nonatomic) NSData *challenge;
-@property(copy, nonatomic) NSString *displayName;
-@property(copy, nonatomic) NSString *name;
 @property(readonly, copy, nonatomic) NSString *relyingPartyIdentifier;
-@property(copy, nonatomic) NSData *userID;
-@property(retain, nonatomic) NSString *userVerificationPreference;
 @end
 

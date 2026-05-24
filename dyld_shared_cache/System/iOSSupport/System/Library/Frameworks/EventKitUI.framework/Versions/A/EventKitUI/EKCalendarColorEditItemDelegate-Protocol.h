@@ -5,5 +5,6 @@
 //
 
 @protocol EKCalendarColorEditItemDelegate
+- (void);
 @end
 

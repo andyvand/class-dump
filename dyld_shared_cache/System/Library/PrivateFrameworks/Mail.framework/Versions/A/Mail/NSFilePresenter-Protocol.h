@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSURL;
+@class NSOperationQueue, NSURL;
 
 @protocol NSFilePresenter
+- (NSOperationQueue *);
 - (NSURL *)@"NSArray"16^B24;
 
 @optional
+- (void)	ka;
+- (void);
+- (void);
+- (void)-;
+- (void)I;
+- (void)*;
 - (void)R;
 
 // Remaining properties
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
 @end
 

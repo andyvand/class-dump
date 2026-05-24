@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NewsArticles.ProxyConfiguration
 {
     id embedProxyConfiguration;
@@ -15,11 +13,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)Context;
+- (void)FeatureContext;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *proxyAutoConfigScript;
-@property(nonatomic, readonly) NSString *proxyHost;
 @property(nonatomic, readonly) _Bool usePrivateRelay;
 
 @end

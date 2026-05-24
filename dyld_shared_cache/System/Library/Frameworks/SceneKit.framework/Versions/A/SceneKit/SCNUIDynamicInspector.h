@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObjectController, NSPathControl, NSString, SCNUIArrayEditor;
-
 __attribute__((visibility("hidden")))
 @interface SCNUIDynamicInspector
 {
     id _instance;
-    NSString *_modelPath;
-    NSMutableArray *_modelPathComponents;
-    NSMutableArray *_stack;
-    SCNUIArrayEditor *_pendingAllocationListener;
-    NSObjectController *_objectController;
-    NSPathControl *stackControl;
 }
 
 - (void);
@@ -31,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -55,11 +47,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)T@"NSData",R,C,V_internalData;
+- (void)rameworks/HMFoundation.framework/Versions/A/HMFoundation;
+- (id);
+- (void)tracks request to %{public}@. Attributes:%{public}@, options:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)O %@;
 - (void);
 - (void)mpleCount)
     {
@@ -648,8 +640,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) id instance;
-@property(nonatomic) __weak NSObjectController *objectController; // @synthesize objectController=_objectController;
-@property(retain, nonatomic) NSPathControl *stackControl; // @synthesize stackControl;
 
 @end
 

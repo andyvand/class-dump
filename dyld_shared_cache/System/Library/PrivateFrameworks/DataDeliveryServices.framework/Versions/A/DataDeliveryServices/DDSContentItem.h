@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSAsset, NSDictionary, NSString, NSURL;
+@class DDSAsset;
 
 @interface DDSContentItem
 {
     DDSAsset *_parentAsset;
-    NSDictionary *_contents;
 }
 
-- (id);
-- (_Bool);
+- (id)setHasContactId: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasConstraintValue:(id)arg1;
+- (id)setHasConnectionInfo:(id)arg1;
+- (void)setHasCompanionDeviceDiscoveryContext:(id)arg1;
+- (id),;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)__AUTH_CONST;
 - (id);
 - (id);
 - (id);
@@ -29,13 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) NSString *fileName;
-@property(readonly, nonatomic) NSString *locale;
 @property(retain, nonatomic) DDSAsset *parentAsset; // @synthesize parentAsset=_parentAsset;
-@property(readonly, nonatomic) NSURL *path;
-@property(readonly, nonatomic) NSDictionary *region;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

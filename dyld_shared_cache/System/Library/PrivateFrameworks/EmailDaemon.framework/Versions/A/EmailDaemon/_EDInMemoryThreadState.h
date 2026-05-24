@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMThread, EMThreadObjectID, NSMutableArray;
+@class NSMutableArray;
 
 @interface _EDInMemoryThreadState
 {
     NSMutableArray *_messages;
-    EMThreadObjectID *_objectID;
-    EMThread *_thread;
 }
 
 - (id);
@@ -34,7 +32,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)f;
 - (id);
 - (id);
 - (id);
@@ -42,7 +40,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)hm, symptom %p
+;
 - (void);
 - (void)(:account, 9, 0, 0, 0, :started_at, NULL),
        (:account, 10, 0, 0, 0, :started_at, NULL),
@@ -63,8 +62,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *messages; // @synthesize messages=_messages;
-@property(retain, nonatomic) EMThreadObjectID *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) EMThread *thread; // @synthesize thread=_thread;
 
 @end
 

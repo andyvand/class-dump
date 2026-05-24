@@ -9,17 +9,11 @@
 @interface UIKit._GlassGroupView : UIView
 {
     id groupLayers;
-    id addBackdropCaptureGroup;
-    id usesForeground;
-    id pendingBackdropContext;
-    id quantizedLuma;
-    id smoothness;
-    id applySmoothnessViaGaussianRadius;
 }
 
 - (void);
 - (id);
-- (id)reviewPresentationController;
+- (id)UIPreviewPresentationController;
 - (void);
 - (void)·@ï;
 

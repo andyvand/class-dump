@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningExistingCardAuthorizationCarKeyDestinationProvider
 {
     id context;
-    id credential;
-    id sid;
 }
 
 @end

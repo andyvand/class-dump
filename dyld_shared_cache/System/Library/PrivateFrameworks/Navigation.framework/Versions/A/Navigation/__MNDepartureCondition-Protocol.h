@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol __MNDepartureCondition
+- (double);
+- (NSString *)@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name;

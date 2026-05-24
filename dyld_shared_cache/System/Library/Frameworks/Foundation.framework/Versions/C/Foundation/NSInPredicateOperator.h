@@ -6,12 +6,9 @@
 
 #import <Foundation/NSPredicateOperator.h>
 
-@class NSSubstringPredicateOperator;
-
 @interface NSInPredicateOperator : NSPredicateOperator
 {
     unsigned long long _flags;
-    NSSubstringPredicateOperator *_stringVersion;
 }
 
 + (_Bool)ss] called on invalid NSAppleEventDescriptor;

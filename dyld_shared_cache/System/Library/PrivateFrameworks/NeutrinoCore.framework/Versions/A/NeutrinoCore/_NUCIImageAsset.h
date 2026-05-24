@@ -6,31 +6,25 @@
 
 #import <NeutrinoCore/_NUAsset.h>
 
-@class CIImage, NSString, NUSourceContainerNode;
-@protocol NUAssetMedia;
+@class CIImage, NUSourceContainerNode;
 
 @interface _NUCIImageAsset : _NUAsset
 {
     NUSourceContainerNode *_sourceContainerNode;
-    CIImage *_image;
-    long long _mediaType;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
-- (long long);
+- (long long)%@
+;
 - (void)°!ØDùñá°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) CIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) id <NUAssetMedia> media;
-@property(readonly, nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) long long type;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CSVTUIRemoteRecordClientDelegate
+- (void);
 @end
 

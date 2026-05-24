@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol _MKInfoCardAnalyticsDelegate
+- (void)flushing cache now;
+- (void)ientID:(int)arg1 %d withKey:(int)arg2 %@ withType:(NSString *)arg3 %@ - Return=%@;
+- (void)he:(int)arg1 %@;
+- (void)ed:(int)arg1 Unregistering for %@ notification;
+- (void)Cache=%@
+
+pendingTaskCache=%@
+
+batchedTaskCachePPS=%@
+;
 @end
 

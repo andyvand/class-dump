@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDOrientedBoundingBox, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDStorefrontFace
 {
     PBDataReader *_reader;
-    NSMutableArray *_features;
-    GEOPDOrientedBoundingBox *_geometry;
-    unsigned long long _groupId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_groupId:1;
-        unsigned int read_features:1;
-        unsigned int read_geometry:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ustryCode:(id)arg1;
++ (_Bool)setIndustryCode:(id)arg1;
 + (Class);
-- (void);
+- (void)Could not add container because we failed to create an in-memory store;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -35,12 +23,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)appendString:(id)arg1;
+- (id)getMHStatisticDistributionInfoFromDictionary:withScaleFactor: /* Error: Ran out of types for this method. */;
+- (void)ppressStartAlert = %d, activationHostTime = %llu, isVoiceOverSiriSoundsEnabled = %d;
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)T@"NSString",C,N,V_address;
 - (_Bool);
 - (id);
 - (id);
@@ -48,20 +36,16 @@
 - (void)¹*Ð1Â0@ù
 × ;
 - (id)gned long>, std:(struct _NSZone *)arg1:equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, unsigned long>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)rideSelectionsUpdatedHandler;
+- (id)_rideSelectionsUpdatedHandler;
 - (id)Ðÿ;
-- (id)D_PARTY_MAP_VIEW;
+- (id)THIRD_PARTY_MAP_VIEW;
 - (void);
 - (void)àD;
 - (id)¸ÐàØð¨ø¨;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *features;
-@property(retain, nonatomic) GEOPDOrientedBoundingBox *geometry;
-@property(nonatomic) unsigned long long groupId;
 @property(readonly, nonatomic) _Bool hasGeometry;
-@property(nonatomic) _Bool hasGroupId;
 
 @end
 

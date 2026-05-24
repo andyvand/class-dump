@@ -13,28 +13,18 @@
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void)S;
 - (id);
+- (id)L) ;
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)mediaSystemIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *domain;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *input;
-@property(copy, nonatomic) NSString *output;
-@property(copy, nonatomic) NSString *subFeature;
-@property(readonly) Class superclass;
 
 @end
 

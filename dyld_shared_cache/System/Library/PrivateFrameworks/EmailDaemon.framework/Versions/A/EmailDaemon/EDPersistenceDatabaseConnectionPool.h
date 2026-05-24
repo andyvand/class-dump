@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLock, NSMapTable, NSMutableSet, _EDPersistenceDatabaseConnectionWrapper;
+@class NSLock;
 @protocol EDPersistenceDatabaseConnectionPoolDelegate;
 
 @interface EDPersistenceDatabaseConnectionPool
 {
     NSLock *_cacheLock;
-    NSMutableSet *_cache;
-    unsigned long long _cacheGeneration;
-    NSLock *_checkoutLock;
-    NSMapTable *_checkoutMap;
-    NSLock *_writerLock;
-    _EDPersistenceDatabaseConnectionWrapper *_writerConnection;
-    int _writersWaiting;
-    unsigned long long _minimumCachedReaderConnections;
-    unsigned long long _totalCurrentReaderConnections;
-    NSDate *_lastConnectionCreationTime;
-    NSDate *_lastConnectionDisposalTime;
-    id <EDPersistenceDatabaseConnectionPoolDelegate> _delegate;
 }
 
 - (void);
@@ -43,9 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long cacheSize;
 @property(nonatomic) __weak id <EDPersistenceDatabaseConnectionPoolDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long writersWaiting;
 
 @end
 

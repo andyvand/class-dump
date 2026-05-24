@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDictationConnection, NSLocale, NSOperationQueue, NSString;
-@protocol NSObject, SFSpeechRecognizerDelegate;
+@class AFDictationConnection;
 
 @interface SFSpeechRecognizer
 {
     AFDictationConnection *_dictationConnection;
-    NSString *_languageCode;
-    id <NSObject> _preferencesObserver;
-    _Bool _supportsOnDeviceRecognition;
-    NSLocale *_locale;
-    id <SFSpeechRecognizerDelegate> _delegate;
-    long long _defaultTaskHint;
-    NSOperationQueue *_queue;
 }
 
 + (void);
@@ -30,39 +22,26 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)initWithEmptyTileKey:(long long)arg1 etag:error: /* Error: Ran out of types for this method. */;
+- (void)value:(long long)arg1 %f;
+- (_Bool)ange AutojoinBlacklisting timeout value:%f /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)\;
+- (void)_inputStream;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)shark;
+- (id)needsRetrainingWithAudioFiles: /* Error: Ran out of types for this method. */;
+- (id)	;
 - (_Bool);
 - (void);
 - (void)itionServiceC34enableEncryptionBypassForAssistantyySbYaKFTE;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isAvailableForForcedOfflineRecognition) _Bool _availableForForcedOfflineRecognition;
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long defaultTaskHint; // @synthesize defaultTaskHint=_defaultTaskHint;
-@property(nonatomic) __weak id <SFSpeechRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsOnDeviceRecognition; // @synthesize supportsOnDeviceRecognition=_supportsOnDeviceRecognition;
 
 @end
 

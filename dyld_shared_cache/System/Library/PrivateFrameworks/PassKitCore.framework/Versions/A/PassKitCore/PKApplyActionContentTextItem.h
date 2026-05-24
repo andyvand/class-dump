@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol NSCopying;
+@class NSString;
 
 @interface PKApplyActionContentTextItem
 {
     NSString *_analyticsIdentifier;
-    NSString *_title;
-    NSString *_subtitle;
-    NSArray *_odiDetails;
 }
 
 - (void);
-- (id);
+- (id)8`;
 - (id);
 - (id);
 - (id);
@@ -25,21 +21,10 @@
 × ;
 - (id)_installmentAuthorizationToken;
 - (id)`;
-- (void)ETTINGS_MESSAGE_MAC;
+- (void)APPLE_PAY_DISABLED_SECURITY_SETTINGS_MESSAGE_MAC;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *analyticsIdentifier; // @synthesize analyticsIdentifier=_analyticsIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NSCopying> identifier;
-@property(readonly, copy, nonatomic) NSArray *odiDetails; // @synthesize odiDetails=_odiDetails;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSImage, NSString, NSURL, NSWindow;
+@class NSString;
 
 @interface MMAuthenticatingPasswordSheet
 {
     NSString *_accountID;
-    NSString *_password;
-    NSString *_rawPassword;
-    NSString *_title;
-    NSString *_message;
-    NSString *_defaultButtonString;
-    NSString *_cancelButtonString;
-    NSString *_alternateButtonString;
-    NSDictionary *_authenticationResults;
-    NSURL *_iForgotURL;
-    NSError *_authenticationError;
-    NSImage *_displayImage;
-    _Bool _shouldPromptForPasswordOnly;
-    _Bool _isEphemeral;
-    _Bool _supportsPiggybacking;
-    _Bool _shouldForceInteractiveAuth;
-    _Bool _shouldOfferSecurityUpgrade;
-    CDUnknownBlockType _helpHandler;
-    NSString *_clientID;
-    _Bool _shouldSkipiCloudLogin;
-    NSWindow *_parentWindow;
 }
 
-+ (id);
++ (id))?M1	3;
 - (void);
 - (void);
 - (void);
@@ -65,7 +45,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -78,23 +58,6 @@
 
 // Remaining properties
 @property(copy) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain) NSError *authenticationError; // @synthesize authenticationError=_authenticationError;
-@property(copy) NSDictionary *authenticationResults; // @synthesize authenticationResults=_authenticationResults;
-@property(copy) NSString *clientID; // @synthesize clientID=_clientID;
-@property(copy) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(copy) CDUnknownBlockType helpHandler; // @synthesize helpHandler=_helpHandler;
-@property(copy) NSURL *iForgotURL; // @synthesize iForgotURL=_iForgotURL;
-@property _Bool isEphemeral; // @synthesize isEphemeral=_isEphemeral;
-@property(copy) NSString *message; // @synthesize message=_message;
-@property NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property(copy) NSString *rawPassword; // @synthesize rawPassword=_rawPassword;
-@property _Bool shouldForceInteractiveAuth; // @synthesize shouldForceInteractiveAuth=_shouldForceInteractiveAuth;
-@property _Bool shouldOfferSecurityUpgrade; // @synthesize shouldOfferSecurityUpgrade=_shouldOfferSecurityUpgrade;
-@property _Bool shouldPromptForPasswordOnly; // @synthesize shouldPromptForPasswordOnly=_shouldPromptForPasswordOnly;
-@property _Bool shouldSkipiCloudLogin; // @synthesize shouldSkipiCloudLogin=_shouldSkipiCloudLogin;
-@property _Bool supportsPiggybacking; // @synthesize supportsPiggybacking=_supportsPiggybacking;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

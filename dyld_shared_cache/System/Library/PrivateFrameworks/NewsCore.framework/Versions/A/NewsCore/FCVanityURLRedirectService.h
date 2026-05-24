@@ -10,7 +10,6 @@
 @interface FCVanityURLRedirectService
 {
     FCFetchedValueManager *_vanityURLMappingManager;
-    id <FCContentContext> _contentContext;
 }
 
 - (id);
@@ -20,14 +19,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)P;
+- (id),&,V_localSystems;
 - (void)_type;
 - (id)edNSErrorP;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, nonatomic) FCFetchedValueManager *vanityURLMappingManager; // @synthesize vanityURLMappingManager=_vanityURLMappingManager;
 
 @end
 

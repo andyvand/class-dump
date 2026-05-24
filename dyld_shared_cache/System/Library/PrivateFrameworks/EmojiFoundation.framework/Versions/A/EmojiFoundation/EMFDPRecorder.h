@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFEmojiToken, NSLock, NSString;
-@protocol EMFDPReportingDelegate;
+@class NSLock, NSString;
 
 @interface EMFDPRecorder
 {
     NSLock *_delegateLock;
-    id <EMFDPReportingDelegate> _delegate;
-    EMFEmojiToken *_emoji;
 }
 
 - (id);
-- (id);
+- (id)Options;
 - (void);
 - (id);
 - (id);
@@ -24,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) id <EMFDPReportingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) EMFEmojiToken *emoji; // @synthesize emoji=_emoji;
 @property(readonly, nonatomic) NSString *recordingKey;
 
 @end

@@ -7,9 +7,6 @@
 @interface PhotosUICore.GenerativeStoryFeedbackBarButtonItem.ButtonActionHandler__priv_31508E01683337601CDD45AAE6AA7CEC
 {
     id actionPerformer;
-    id memory;
-    id feedbackType;
-    id presentationPrepareHandler;
 }
 
 - (void);

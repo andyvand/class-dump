@@ -5,5 +5,6 @@
 //
 
 @protocol VNRequestWarming
+- (_Bool)A;
 @end
 

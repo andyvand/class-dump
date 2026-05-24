@@ -7,7 +7,6 @@
 @interface TeaTemplate.DebugLayoutData
 {
     id frames;
-    id records;
 }
 
 @end

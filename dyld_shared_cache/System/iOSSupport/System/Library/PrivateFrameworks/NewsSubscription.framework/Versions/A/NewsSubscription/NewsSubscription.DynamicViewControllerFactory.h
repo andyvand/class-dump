@@ -7,11 +7,9 @@
 @interface NewsSubscription.DynamicViewControllerFactory
 {
     id clientIdentifier;
-    id dynamicViewControllerDelegate;
-    id metricsBuilder;
 }
 
-- (id);
+- (id)llsToSplit:randomGenerator:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

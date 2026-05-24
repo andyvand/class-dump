@@ -7,10 +7,9 @@
 @interface (extension in JetUI):__C.NSMenuItem.DeferredItemResolver__priv_581CA73138019ED6E3CB80F9497EED55
 {
     id placeholderItem;
-    id itemProvider;
 }
 
-- (void);
+- (void){;
 
 @end
 

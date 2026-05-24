@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCAnsweringMachineConfiguration, AVConferenceXPCClient, NSObject;
-@protocol AVCAnsweringMachineDelegate, OS_dispatch_queue;
+@class AVCAnsweringMachineConfiguration;
+@protocol AVCAnsweringMachineDelegate;
 
 @interface AVCAnsweringMachine
 {
     AVCAnsweringMachineConfiguration *_configuration;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    id <AVCAnsweringMachineDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    _Bool _isAnnouncementInProgress;
-    long long _messageAudioToken;
 }
 
 + (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,18 +29,15 @@
 - (id);
 - (void);
 - (id);
+- (void)tem/Library/Frameworks/Security.framework/Versions/A/Security;
 - (void);
-- (void);
+- (id)`B;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id)íÿÿÿüÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVCAnsweringMachineDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(nonatomic) _Bool isAnnouncementInProgress; // @synthesize isAnnouncementInProgress=_isAnnouncementInProgress;
-@property(readonly, nonatomic) long long messageAudioToken; // @synthesize messageAudioToken=_messageAudioToken;
 
 @end
 

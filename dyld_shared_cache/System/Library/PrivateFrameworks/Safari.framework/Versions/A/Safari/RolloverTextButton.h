@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSString *_originalTitle;
 }
 
-+ (id)aggedIndexPath;
++ (id)_shouldRefreshDraggedIndexPath;
 + (void)(çÿëÃ$Î-;
 - (void);
 - (id);

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint);
+- (struct CGPoint)ranscript background command and cleaning up:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

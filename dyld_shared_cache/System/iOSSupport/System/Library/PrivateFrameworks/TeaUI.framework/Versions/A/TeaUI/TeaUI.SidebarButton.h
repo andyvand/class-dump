@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TeaUI.SidebarButton
 {
     id accessibilityDelegate;
@@ -14,12 +12,11 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)setSynchronousMode:(struct CGRect)arg1;
 - (void);
-- (id)te;
+- (id)delete;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityLabel;
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end

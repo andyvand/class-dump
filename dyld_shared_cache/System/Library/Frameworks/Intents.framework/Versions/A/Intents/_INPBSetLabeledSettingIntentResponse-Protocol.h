@@ -7,13 +7,10 @@
 @class NSString;
 
 @protocol _INPBSetLabeledSettingIntentResponse
+- (void)_8߽;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasOldValue;
-@property(readonly, nonatomic) _Bool hasUpdatedValue;
-@property(copy, nonatomic) NSString *oldValue;
-@property(copy, nonatomic) NSString *updatedValue;
 @end
 

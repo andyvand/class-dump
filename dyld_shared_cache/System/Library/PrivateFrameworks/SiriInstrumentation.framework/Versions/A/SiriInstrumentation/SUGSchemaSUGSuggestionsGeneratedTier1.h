@@ -6,44 +6,39 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SUGSchemaSUGSuggestionsGeneratedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_suggestions;
-    _Bool _hasLinkId;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
+- (void)walrusStatusWithCompletion:(id)arg1;
+- (void)upgradeDevicesSingleDeviceTypeConstraint;
+- (id)setTemplateType: /* Error: Ran out of types for this method. */;
+- (_Bool)registerAccountWithUsername:rawPassword: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id);
 - (void);
 - (id);
+- (unsigned long long)Dictionary"24;
+- (_Bool)dViewStyleProvider",&,N;
+- (void);
+- (_Bool)j     INNER JOIN message m ON j.message_id = m.ROWID     INNER JOIN attachment a ON j.attachment_id = a.ROWID     WHERE       m.guid = ?       AND a.guid = ?   ) ;
+- (void)Configuration;
+- (id);
 - (id);
-- (id)iginalClockId;
-- (id)FallbackOccurred;
+- (id)deleteOriginalClockId;
+- (id)_hasVoiceFallbackOccurred;
 - (id)leTime;
 - (void)sReported;
-- (void)eOffsetInNs;
+- (void)triggerFireTimeOffsetInNs;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end
 

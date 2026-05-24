@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
-@protocol PXPerson, PXSharedLibraryImageProvider;
+@class NSString;
 
 @interface UnknownClass (PXSharedLibraryPhotoKitParticipant)
 - (id);
@@ -13,20 +12,6 @@
 - (id)created memory with identifier:%@ error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *emailAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXSharedLibraryImageProvider> imageProvider;
-@property(readonly, nonatomic) _Bool isCurrentUser;
-@property(readonly, copy, nonatomic) NSString *localIdentifier;
-@property(readonly, copy, nonatomic) NSPersonNameComponents *nameComponents;
-@property(readonly, nonatomic) id <PXPerson> person;
-@property(readonly, copy, nonatomic) NSString *phoneNumber;
-@property(readonly, nonatomic) long long status;
-@property(readonly) Class superclass;
 @end
 

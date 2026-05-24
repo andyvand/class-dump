@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *shortNickname;

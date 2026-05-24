@@ -7,12 +7,12 @@
 @class NSDate;
 
 @protocol APPCMetricEventsTracking
+- (void);
+- (NSDate *)RecipeHistoryFeedGroupKnobs;
+- (NSDate *)ext;
+- (void)SportsFavoritesPrewarmBlueprintModifier;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *adResponseTimestamp;
 @property(nonatomic, readonly) NSDate *placeholderPlacedTimestamp;
-@property(nonatomic, readonly) NSDate *prerollAdRequestTimestamp;
-@property(nonatomic, readonly) NSDate *prerollAdResponseTimestamp;
-@property(nonatomic, readonly) NSDate *replacedPlaceholderTimestamp;
 @end
 

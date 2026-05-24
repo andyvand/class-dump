@@ -6,25 +6,11 @@
 
 #import <AppSupportUI/NUIContainerView.h>
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface NUIContainerGridView : NUIContainerView
 {
     NSMutableArray *_viewRows;
-    struct _NUIGridArrangement _arrangement;
-    CDStruct_0d6b4eb6 _visibleCount;
-    struct map<NSView *, const std::pair<_NSRange, _NSRange>, std::less<NSView *>, std::allocator<std::pair<NSView *const, const std::pair<_NSRange, _NSRange>>>> _viewRanges;
-    struct CGSize _spacing;
-    NSMutableArray *_rows;
-    NSMutableArray *_columns;
-    struct {
-        unsigned int horzAlign:8;
-        unsigned int vertAlign:8;
-        unsigned int inInsertOrRemove:1;
-        unsigned int hasMutations:1;
-    } _gridViewFlags;
-    double _rowHeight;
-    double _columnWidth;
 }
 
 + (id);
@@ -36,11 +22,11 @@
 - (void);
 - (long long);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)&;
 - (id);
 - (id);
 - (id);
@@ -56,7 +42,7 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (void);
@@ -64,23 +50,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)logTokenForCategory:(long long)arg1;
+- (void)dataWithContentsOfURL:(long long)arg1;
+- (void)availabilityNotificationForAttestationCertificatesPosted:(long long)arg1;
+- (void)UARPAsset.asset.id is nil;
+- (void)asset %lu;
+- (id);
 - (long long);
 - (double);
-- (id);
+- (id)V;
+- (void)8^v16^v24B32^B36@44@52@60;
 - (void);
-- (void);
-- (id);
-- (double);
-- (double);
 - (id);
 - (double);
-- (void);
+- (double);
+- (id);
+- (double);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -91,23 +77,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *arrangedSubviewRows;
-@property(nonatomic) double columnSpacing;
-@property(nonatomic) double columnWidth; // @synthesize columnWidth=_columnWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long horizontalAlignment;
-@property(nonatomic) long long horizontalDistribution;
-@property(readonly, nonatomic) long long numberOfColumns;
-@property(readonly, nonatomic) long long numberOfRows;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(nonatomic) double rowSpacing;
-@property(readonly) Class superclass;
-@property(nonatomic) long long verticalAlignment;
-@property(nonatomic) long long verticalDistribution;
 
 @end
 

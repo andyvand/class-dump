@@ -9,15 +9,10 @@
 @interface GEOTrafficControlDeviceInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_trafficCameraInfos;
-    _Bool _hasTrafficLightAtEnd;
-    struct {
-        unsigned int has_hasTrafficLightAtEnd:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)MerchantRawState:(id)arg1;
++ (_Bool)setMerchantRawState:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -25,32 +20,29 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)secureTemporarySubdirectoryWithName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)ltivalue);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)initWithAsset:(id)arg1 assetConfig:firstPassSource:activeChannel:siriLanguage:shouldEnableShadowMicScore:rtmodelRequestOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)syRoads"b1"has_walkingAvoidHills"b1"has_walkingAvoidStairs"b1};
-- (id);
-- (id)EOPBTileStyleZoomAvailability;
-- (id)ports_generic_combinations_instructions_for_all_modes;
+- (id)hasTimestamp;
+- (id)GEOPBTileStyleZoomAvailability;
+- (id)supports_generic_combinations_instructions_for_all_modes;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasTrafficLightAtEnd;
-@property(nonatomic) _Bool hasTrafficLightAtEnd;
 @property(retain, nonatomic) NSMutableArray *trafficCameraInfos;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

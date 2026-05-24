@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXTilingController;
 @protocol NSObject;
 
 @interface PXTilingControllerCompositionInvalidationContext
 {
     id <NSObject> _animationOptions;
-    PXTilingController *_originatingTilingController;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <NSObject> animationOptions; // @synthesize animationOptions=_animationOptions;
-@property(retain, nonatomic) PXTilingController *originatingTilingController; // @synthesize originatingTilingController=_originatingTilingController;
 
 @end
 

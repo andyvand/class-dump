@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactCardViewControllerLogger
+- (void)>ܗ(;
+- (void)[=ܗ;
+- (void);
 @end
 

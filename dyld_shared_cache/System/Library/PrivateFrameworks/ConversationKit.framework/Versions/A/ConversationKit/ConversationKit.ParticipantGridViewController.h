@@ -9,24 +9,13 @@
 @interface ConversationKit.ParticipantGridViewController : PlatformViewController
 {
     id participants;
-    id participantsBeforeFocus;
-    id layoutStyle;
-    id nonFullScreenConstraints;
-    id fullScreenConstraints;
-    id isLocalMemberAuthorizedToChangeGroupMembership;
-    id focusedParticipant;
-    id sashedParticipant;
-    id selectedParticipant;
-    id fullScreenFocusedParticipant;
-    id participantsViewControllerDelegate;
-    id participantGridViewControllerDelegate;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_preferredFontForTextStyle:weight: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

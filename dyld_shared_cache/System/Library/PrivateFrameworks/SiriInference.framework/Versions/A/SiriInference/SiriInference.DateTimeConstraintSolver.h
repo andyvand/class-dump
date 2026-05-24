@@ -7,9 +7,6 @@
 @interface SiriInference.DateTimeConstraintSolver
 {
     id constraints;
-    id context;
-    id solvers;
-    id orderedConstraints;
 }
 
 @end

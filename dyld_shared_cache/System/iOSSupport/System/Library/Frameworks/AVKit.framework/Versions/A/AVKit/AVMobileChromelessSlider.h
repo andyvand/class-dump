@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UIPointerInteraction, UIView, UIVisualEffect, UIVisualEffectView;
+@class UIView;
 @protocol AVMobileChromelessSliderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessSlider
 {
     UIView *_contentView;
-    UIVisualEffectView *_filledBarView;
-    UIVisualEffectView *_unfilledBarView;
-    float _trackingStartNormalizedValue;
-    float _trackingTouchStartNormalizedX;
-    NSMutableArray *_sliderMarkViews;
-    UIVisualEffect *_enabledFilledBarViewEffect;
-    UIVisualEffect *_enabledUnfilledBarViewEffect;
-    UIVisualEffect *_disabledFilledBarViewEffect;
-    UIVisualEffect *_disabledUnfilledBarViewEffect;
-    UIPointerInteraction *_sliderPointerInteraction;
-    float _minimumValue;
-    float _maximumValue;
-    float _totalValue;
-    float _value;
-    double _barHeight;
-    NSArray *_sliderMarks;
-    unsigned long long _tintState;
-    id <AVMobileChromelessSliderDelegate> _delegate;
 }
 
-- (_Bool);
+- (_Bool)4;
 - (void);
 - (void);
 - (void);
@@ -40,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
-- (struct CGRect);
+- (void)`;
+- (struct CGSize)A;
+- (struct CGRect)h;
 - (id);
 - (void);
 - (void);
@@ -53,38 +35,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (_Bool);
-- (void);
+- (void)LPQuoteView;
 - (void);
 - (id);
 - (struct CGRect);
 - (float);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void)>";
-- (void)eIdentifier;
+- (void)bundleIdentifier;
 - (double)ContentInfo;
-- (_Bool)text;
+- (_Bool)AVBehaviorContext;
 - (float)°;
 
 // Remaining properties
-@property(nonatomic) double barHeight; // @synthesize barHeight=_barHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AVMobileChromelessSliderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) float minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(retain, nonatomic) NSArray *sliderMarks; // @synthesize sliderMarks=_sliderMarks;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tintState; // @synthesize tintState=_tintState;
-@property(nonatomic) float totalValue; // @synthesize totalValue=_totalValue;
-@property(nonatomic) float value; // @synthesize value=_value;
 
 @end
 

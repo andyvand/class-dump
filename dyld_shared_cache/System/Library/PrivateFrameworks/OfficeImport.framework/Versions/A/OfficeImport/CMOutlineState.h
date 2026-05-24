@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WDList, WDListDefinition;
+@class NSMutableArray, WDListDefinition;
 
 __attribute__((visibility("hidden")))
 @interface CMOutlineState
 {
     NSMutableArray *_counters;
-    WDListDefinition *_listDefinition;
-    WDList *_currentList;
 }
 
 - (void);
@@ -23,12 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)setLeftDividerMargin: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Ä=;
 
 // Remaining properties
-@property(retain) WDList *currentList; // @synthesize currentList=_currentList;
 @property(readonly) WDListDefinition *listDefinition; // @synthesize listDefinition=_listDefinition;
 
 @end

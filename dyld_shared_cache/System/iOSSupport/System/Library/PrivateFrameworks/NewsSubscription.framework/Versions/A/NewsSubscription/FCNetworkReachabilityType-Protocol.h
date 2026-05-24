@@ -5,16 +5,11 @@
 //
 
 @protocol FCNetworkReachabilityType
-- (long long)StorySelectionMessage;
-- (_Bool);
+- (long long);
+- (_Bool)freeGlobalESLArticleListIDs;
+- (long long)blockedCuratedStorySelectionMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cellularRadioAccessTechnology;
-@property(readonly, nonatomic) _Bool isCloudKitReachable;
-@property(readonly, nonatomic) _Bool isLowDataModeEnabled;
 @property(readonly, nonatomic) _Bool isNetworkReachable;
-@property(readonly, nonatomic) _Bool isNetworkReachableViaWiFi;
-@property(readonly, nonatomic) _Bool isNetworkUsageInexpensive;
-@property(readonly, nonatomic) long long offlineReason;
 @end
 

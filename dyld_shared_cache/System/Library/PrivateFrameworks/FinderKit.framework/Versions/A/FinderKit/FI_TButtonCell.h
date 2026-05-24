@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)wMouseEventDelegate>";
 - (id);
 - (id);
-- (id);
+- (id)shouldAddRemoteContentLinksForMessage:(id)arg1 logMessage: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)ôØ
 ;

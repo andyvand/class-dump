@@ -12,10 +12,10 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)&&this.endOffset||(e=t.mf_traversePreviousNode())}return e&&!this.intersectsNode(e)&&(e=undefined),e};const IS_BLOCK_ELEMENT_NAME=function(e){const t=["HTML","BODY","BR","LI","OL","UL","TD","TH","HR","DD","DL","DT","PRE","BLOCKQUOTE","DIV","P","TR","H1","H2","H3","H4","H5","H6"];return e&&-1!==t.indexOf(e)},isBlockLevelNode=function(e){let t=!1;return t=!!IS_BLOCK_ELEMENT_NAME(e.nodeName)};Range.prototype.mf_getBlockBoundaryParentAndNextSibling=function(e){let t,n;if(e){let e=this.mf_firstNode(),t=e&&e.mf_topmostContainingNodeWithNameInArray(HTMLDocument.mf_listElements);if(t)return{parent:t.parentNode,nextSibling:t}}else{let e=this.mf_lastNode(),t=e&&e.mf_topmostContainingNodeWithNameInArray(HTMLDocument.mf_listElements);if(t)return{parent:t.parentNode,nextSibling:t.nextSibling}}let i,s,o;if(e?(i=this.startContainer,o=this.startOffset):(i=this.endContainer,o=this.endOffset),i instanceof Text)i=(s=i).parentNode;else for(s=i.firstChild;o-- >0;s=s.nextSibling);for(e&&(s=s?s.previousSibling:i.lastChild);!t&&i;){for(;!t&&s;)isBlockLevelNode(s)?(t=i,n=e||"BR"===s.nodeName.toUpperCase()?s.nextSibling:s):s=e?s.previousSibling:s.nextSibling;s||(isOrContainsBlockLevelNode(i)?(t=i,n=e?t.firstChild:undefined):(s=i,i=i.parentNode))}return{parent:t,nextSibling:n}};const isOrContainsBlockLevelNode=function(e){let t,n=!1;if(IS_BLOCK_ELEMENT_NAME(e.nodeName))n=!0;else for(t=e.firstChild;!n&&t;)n=isOrContainsBlockLevelNode(t),t=t.nextSibling;return n}; /* Error: Ran out of types for this method. */;
 - (id)áÐ!xDùñ)	°1Â0@ù
 × ;
-- (unsigned long long)hecker;
+- (unsigned long long)_recipeAccessChecker;
 - (id)4;
 - (unsigned long long)ransactionQueue init];
 - (int)-E;

@@ -14,7 +14,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)ons: /* Error: Ran out of types for this method. */;
+- (void)queryForPersonsInAsset:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

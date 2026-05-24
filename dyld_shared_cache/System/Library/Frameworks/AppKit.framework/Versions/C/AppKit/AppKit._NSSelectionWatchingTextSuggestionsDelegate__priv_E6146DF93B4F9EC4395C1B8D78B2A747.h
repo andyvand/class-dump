@@ -7,8 +7,6 @@
 @interface AppKit._NSSelectionWatchingTextSuggestionsDelegate__priv_E6146DF93B4F9EC4395C1B8D78B2A747
 {
     id wrapped;
-    id isCallingDidSelect;
-    id tearDown;
 }
 
 @end

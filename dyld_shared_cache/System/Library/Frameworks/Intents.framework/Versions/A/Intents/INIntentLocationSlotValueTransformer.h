@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
 + (Class);
 - (id);
-- (id)ringAsDeviceClass:(id)arg1;
+- (id)StringAsDeviceClass:(id)arg1;
 
 @end
 

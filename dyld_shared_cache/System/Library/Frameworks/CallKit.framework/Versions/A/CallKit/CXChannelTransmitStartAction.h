@@ -15,11 +15,11 @@
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)pendingRoutes;
 - (id);
 - (id);
 - (void);

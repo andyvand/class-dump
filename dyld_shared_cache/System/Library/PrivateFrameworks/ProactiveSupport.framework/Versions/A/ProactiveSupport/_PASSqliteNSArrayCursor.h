@@ -14,13 +14,13 @@
 }
 
 + (const char *);
-+ (id);
++ (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)"NSData";
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *collection; // @dynamic collection;

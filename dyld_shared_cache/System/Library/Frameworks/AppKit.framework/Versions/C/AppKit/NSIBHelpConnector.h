@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSIBHelpConnector
 {
     id _destination;
-    NSString *_file;
-    NSString *_marker;
 }
 
 + (void)¯ÆH;
 - (void);
 - (id);
 - (void);
+- (void)connection:didReceiveData:completion: /* Error: Ran out of types for this method. */;
+- (void)6mY;
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)7o;
 - (id);
 - (void);
 - (void)0@ù
 × ;
-- (void)previousPosition:(id)arg1 touchType:timestamp:isResting:view:device:deviceSize:force: /* Error: Ran out of types for this method. */;
-- (id)terialPocketContainer;
+- (void)_initWithIndex:(id)arg1 phase:contextId:position:previousPosition:touchType:timestamp:isResting:view:device:deviceSize:force: /* Error: Ran out of types for this method. */;
+- (id)_glassMaterialPocketContainer;
 - (void)p¥;
 - (void)-;
 

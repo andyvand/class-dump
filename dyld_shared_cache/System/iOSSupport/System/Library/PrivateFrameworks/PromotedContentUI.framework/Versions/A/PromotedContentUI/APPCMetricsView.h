@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APPCPromotedContentInfo, PromotedContentUI.PrivacyMarker;
-@protocol APPCDiagnosticMetricsHelping, APPCMetricsInteractionPresentationDelegate, APPCMetricsViewReadyDelegate;
+@protocol APPCMetricsInteractionPresentationDelegate;
 
 @interface APPCMetricsView
 {
     id startsCollapsed;
-    id identifier;
-    id frameObserver;
-    id currentlyViewable;
-    id context;
-    id promotedContent;
-    id debugView;
-    id forcedReadiness;
-    id wasTapped;
-    id isBackgrounded;
-    id impressionSent;
-    id timingTracking;
-    id visibilityChecker;
-    id needToSendOnScreen;
-    id slotPosition;
-    id adContentPosition;
-    id currentOrientation;
-    id debugOverlay;
-    void interactionPresentationDelegate;
-    id modalAdDelegate;
-    id visibilityCheckingView;
-    id offsetObserver;
-    id isCollapsedInternal;
-    id lastTimeVisibilityCheckFrame;
-    id readinessObserver;
-    id $__lazy_storage_$_debugViewEnabled;
-    id $__lazy_storage_$_debugVisibilityColorsEnabled;
-    id visibleThresholds;
-    id reportedVisibilityThresholds;
-    id contentView;
-    id visibleThresholdsLock;
-    id viewCollapsedState;
-    id lastCollapsedState;
-    id policyCheckCompleted;
-    id viewThroughAttributionStartedRecording;
-    _Bool ready;
-    void readyDelegate;
-    id impressionDelegate;
-    APPCPromotedContentInfo *promotedContentInfo;
-    id appBeginViewImpressionTask;
-    id isAAKEnabled;
 }
 
 - (void);
@@ -62,7 +21,7 @@
 - (id);
 - (struct CGRect);
 - (struct UIEdgeInsets);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -89,16 +48,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) id <APPCDiagnosticMetricsHelping> diagnosticMetricHelper;
-@property(nonatomic) struct CGRect frame;
 @property(nonatomic) __weak id <APPCMetricsInteractionPresentationDelegate> interactionPresentationDelegate; // @synthesize interactionPresentationDelegate;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) struct UIEdgeInsets metricsViewEdgeInsets;
-@property(nonatomic, readonly) struct CGRect privacyMarkerFrame;
-@property(nonatomic, readonly) PromotedContentUI.PrivacyMarker *privacyMarkerView;
-@property(nonatomic, retain) APPCPromotedContentInfo *promotedContentInfo; // @synthesize promotedContentInfo;
-@property(nonatomic) _Bool ready; // @synthesize ready;
-@property(nonatomic) __weak id <APPCMetricsViewReadyDelegate> readyDelegate; // @synthesize readyDelegate;
 
 @end
 

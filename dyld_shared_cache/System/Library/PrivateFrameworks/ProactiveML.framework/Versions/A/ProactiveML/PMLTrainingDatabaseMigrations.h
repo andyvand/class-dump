@@ -13,14 +13,13 @@
 
 + (id);
 + (id);
+- (id)ngRequest;
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int)(;
 - (void);
-- (id);
+- (id)tionType"24@"NSString"32d40;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int maxVersion; // @dynamic maxVersion;
 @property(readonly, nonatomic) NSDictionary *migrations; // @synthesize migrations=_migrations;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <ReminderKit/REMFetchMetadata.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface REMReminderFetchMetadata : REMFetchMetadata
 {
     NSDictionary *_subtaskCounts;
-    NSArray *_dueDateCounts;
 }
 
 + (_Bool);
@@ -20,14 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *dueDateCounts; // @synthesize dueDateCounts=_dueDateCounts;
 @property(readonly, nonatomic) NSDictionary *subtaskCounts; // @synthesize subtaskCounts=_subtaskCounts;
 
 @end

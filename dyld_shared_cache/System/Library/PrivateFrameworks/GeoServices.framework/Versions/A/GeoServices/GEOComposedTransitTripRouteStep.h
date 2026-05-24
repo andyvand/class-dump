@@ -6,23 +6,11 @@
 
 #import <GeoServices/GEOComposedTransitRouteStep.h>
 
-@class GEOComposedTransitTripRouteSegment, GEOTransitBoardingInfo, GEOTransitVehicleInfo, NSArray, NSDate, NSTimeZone;
-@protocol GEOTransitLine, GEOTransitSystem;
+@class GEOComposedTransitTripRouteSegment, NSArray;
 
 @interface GEOComposedTransitTripRouteStep : GEOComposedTransitRouteStep
 {
     NSArray *_arrivalTimesAtOrigin;
-    NSArray *_departureTimes;
-    NSArray *_arrivalTimes;
-    double _departureTimeIntervalMin;
-    double _departureTimeIntervalMax;
-    GEOTransitVehicleInfo *_transitVehicle;
-    id <GEOTransitLine> _transitLine;
-    id <GEOTransitSystem> _transitSystem;
-    NSArray *_routeLineArtwork;
-    _Bool _isRail;
-    _Bool _isBus;
-    _Bool _canPreloadTiles;
 }
 
 + (_Bool)es not match resource:%{public}@ /* Error: Ran out of types for this method. */;
@@ -31,48 +19,30 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)setMatchInfo: /* Error: Ran out of types for this method. */;
+- (id)formatTimeIntervalByRoundingForPrivacy:(id)arg1;
+- (id)failureWithError:(id)arg1 time:(id)arg2;
 - (id);
 - (id);
 - (double);
 - (double);
 - (id);
+- (_Bool)mplicitly-assumed-identity;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
-- (_Bool)mPostCheckForModules: /* Error: Ran out of types for this method. */;
+- (_Bool)_performPostCheckForModules: /* Error: Ran out of types for this method. */;
 - (void)ó9²5;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *arrivalTime;
-@property(readonly, nonatomic) NSDate *arrivalTimeAtOrigin;
-@property(readonly, nonatomic) NSTimeZone *arrivalTimeZone;
-@property(readonly, nonatomic) NSArray *arrivalTimes; // @synthesize arrivalTimes=_arrivalTimes;
-@property(readonly, nonatomic) NSArray *arrivalTimesAtOrigin; // @synthesize arrivalTimesAtOrigin=_arrivalTimesAtOrigin;
-@property(readonly, nonatomic) GEOTransitBoardingInfo *boardingInfo;
-@property(readonly, nonatomic) _Bool canPreloadTilesForThisStep;
-@property(readonly, nonatomic) NSDate *departureTime;
-@property(readonly, nonatomic) double departureTimeIntervalMax; // @synthesize departureTimeIntervalMax=_departureTimeIntervalMax;
-@property(readonly, nonatomic) double departureTimeIntervalMin; // @synthesize departureTimeIntervalMin=_departureTimeIntervalMin;
-@property(readonly, nonatomic) NSTimeZone *departureTimeZone;
-@property(readonly, nonatomic) NSArray *departureTimes; // @synthesize departureTimes=_departureTimes;
-@property(readonly, nonatomic) _Bool isBus; // @synthesize isBus=_isBus;
-@property(readonly, nonatomic) _Bool isRail; // @synthesize isRail=_isRail;
-@property(readonly, nonatomic) NSArray *routeLineArtwork; // @synthesize routeLineArtwork=_routeLineArtwork;
-@property(readonly, nonatomic) id <GEOTransitLine> transitLine; // @synthesize transitLine=_transitLine;
-@property(readonly, nonatomic) id <GEOTransitSystem> transitSystem; // @synthesize transitSystem=_transitSystem;
-@property(readonly, nonatomic) GEOTransitVehicleInfo *transitVehicle; // @synthesize transitVehicle=_transitVehicle;
 @property(readonly, nonatomic) GEOComposedTransitTripRouteSegment *tripSegment;
 
 @end

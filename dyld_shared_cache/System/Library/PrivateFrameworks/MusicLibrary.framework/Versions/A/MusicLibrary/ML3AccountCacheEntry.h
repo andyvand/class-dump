@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface ML3AccountCacheEntry
 {
     NSString *_appleID;
-    NSString *_altDSID;
 }
 
-- (void);
+- (void)ciphertext;
 - (id);
 - (void);
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)f;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(retain, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
 
 @end

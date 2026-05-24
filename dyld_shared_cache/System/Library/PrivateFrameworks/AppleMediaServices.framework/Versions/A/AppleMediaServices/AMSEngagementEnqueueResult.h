@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagementRequest, NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface AMSEngagementEnqueueResult
 {
     NSDictionary *_data;
-    NSArray *_actions;
-    AMSEngagementRequest *_request;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setGroupName: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)%@:(id)arg1 {
@@ -28,9 +26,7 @@
 gÓEÇLë>?:ñ df¾èöæ&9|J5qÕì]'ZR\¦NÛeò¡Oà*jÃ®ô0¬xIWru²¨S /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *actions; // @synthesize actions=_actions;
 @property(retain) NSDictionary *data; // @synthesize data=_data;
-@property(retain) AMSEngagementRequest *request; // @synthesize request=_request;
 
 @end
 

@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerPreviewView
 {
     UIView *_previewView;
-    UIView *_thumbnailContentView;
-    CAShapeLayer *_clippingLayer;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)`D;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)sourceLineNumberForPCaddress:(struct CGRect)arg1;
 - (void)_log;
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *clippingLayer; // @synthesize clippingLayer=_clippingLayer;
 @property(readonly, nonatomic) UIView *previewView; // @synthesize previewView=_previewView;
-@property(retain, nonatomic) UIView *thumbnailContentView; // @synthesize thumbnailContentView=_thumbnailContentView;
 
 @end
 

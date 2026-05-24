@@ -10,10 +10,10 @@
 
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool)C;
 + (id);
 + (_Bool);
-+ (id);
++ (id)P;
 
 @end
 

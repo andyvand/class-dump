@@ -9,70 +9,46 @@
 @interface NTPBEndpointConfig
 {
     NSString *_analyticsEndpointUrlsJson;
-    NSString *_analyticsEnvelopeContentTypePropJson;
-    NSString *_clientApiBaseUrl;
-    int _environment;
-    NSString *_eventRelayBaseUrl;
-    NSString *_eventRelayBatchBaseUrl;
-    NSString *_newsNotificationsBaseUrl;
-    NSString *_remoteDataSourceBaseUrl;
-    NSString *_staticAssetBaseUrl;
 }
 
+- (id)currentIndex;
+- (void)createAssetWithCategory:(id)arg1 scheme:cloudIdentifier: /* Error: Ran out of types for this method. */;
+- (void)copyOptionalPropertiesFromOtherExportConfiguration:(id)arg1;
+- (void)constraintGreaterThanOrEqualToSystemSpacingBelowAnchor:(id)arg1 multiplier: /* Error: Ran out of types for this method. */;
+- (void)audioFadeCurve;
+- (void)audioDesiredPlayState;
+- (void)assetTypeCountsForAssets:(id)arg1 photosCount:videosCount:othersCount: /* Error: Ran out of types for this method. */;
+- (void)aspectFitItemCornerRadius;
+- (void)aspectFitEdgeMargins;
+- (id)applicationIsActive;
+- (id)allowOnDemandVideoAnalysis;
+- (_Bool)accessoryImageView;
+- (_Bool)_workerQueue_fetchRemainingPeopleInBatches;
+- (_Bool)_videoQueue_ensureVideoSessionWithDesiredPlayState: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateScrollInfoIfNeeded;
+- (_Bool)_updateScrollDecelerationRate;
+- (_Bool)_updateMembers;
+- (_Bool)_updateFromCurrentPresentationState;
+- (_Bool)_updateFramesForShownDigits;
+- (id)_updateConfiguration:fromDataSourceManager: /* Error: Ran out of types for this method. */;
+- (id)_updateCompositionParameters;
+- (id)_unfilteredDataSource;
+- (id)_timelineTranslationXAnimator;
+- (id)_timelineStyle;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)anscoder19TouchTranscoderImpl24clearNeuralNetworkBufferEvE3$_0FvRNS2_13MontrealModelEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (int);
-- (void)itedArticleID;
+- (void)lastVisitedArticleID;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *analyticsEndpointUrlsJson; // @synthesize analyticsEndpointUrlsJson=_analyticsEndpointUrlsJson;
-@property(retain, nonatomic) NSString *analyticsEnvelopeContentTypePropJson; // @synthesize analyticsEnvelopeContentTypePropJson=_analyticsEnvelopeContentTypePropJson;
-@property(retain, nonatomic) NSString *clientApiBaseUrl; // @synthesize clientApiBaseUrl=_clientApiBaseUrl;
 @property(nonatomic) int environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) NSString *eventRelayBaseUrl; // @synthesize eventRelayBaseUrl=_eventRelayBaseUrl;
-@property(retain, nonatomic) NSString *eventRelayBatchBaseUrl; // @synthesize eventRelayBatchBaseUrl=_eventRelayBatchBaseUrl;
-@property(readonly, nonatomic) _Bool hasAnalyticsEndpointUrlsJson;
-@property(readonly, nonatomic) _Bool hasAnalyticsEnvelopeContentTypePropJson;
-@property(readonly, nonatomic) _Bool hasClientApiBaseUrl;
-@property(readonly, nonatomic) _Bool hasEventRelayBaseUrl;
-@property(readonly, nonatomic) _Bool hasEventRelayBatchBaseUrl;
-@property(readonly, nonatomic) _Bool hasNewsNotificationsBaseUrl;
-@property(readonly, nonatomic) _Bool hasRemoteDataSourceBaseUrl;
-@property(readonly, nonatomic) _Bool hasStaticAssetBaseUrl;
-@property(retain, nonatomic) NSString *newsNotificationsBaseUrl; // @synthesize newsNotificationsBaseUrl=_newsNotificationsBaseUrl;
-@property(retain, nonatomic) NSString *remoteDataSourceBaseUrl; // @synthesize remoteDataSourceBaseUrl=_remoteDataSourceBaseUrl;
-@property(retain, nonatomic) NSString *staticAssetBaseUrl; // @synthesize staticAssetBaseUrl=_staticAssetBaseUrl;
 
 @end
 

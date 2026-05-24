@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIFont;
+@class NSString;
 
 @interface CKPhoneNumberCompressor
 {
     NSString *_phoneNumber;
-    UIFont *_font;
-    double _desiredWidth;
-    NSArray *_preferredCompressions;
 }
 
+- (void)attachmentInfoDictionaryForAttachmentPresentation:(id)arg1;
+- (void)_beforeEndEditedRange;
+- (id);
+- (double)t;
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)uldUpdate_transcriptAvailabilityFontAttributes;
+- (id)ckShouldUpdate_transcriptAvailabilityFontAttributes;
 - (void);
 - (void)Ð
  ;
 
 // Remaining properties
-@property(nonatomic) double desiredWidth; // @synthesize desiredWidth=_desiredWidth;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
 @property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(copy, nonatomic) NSArray *preferredCompressions; // @synthesize preferredCompressions=_preferredCompressions;
 
 @end
 

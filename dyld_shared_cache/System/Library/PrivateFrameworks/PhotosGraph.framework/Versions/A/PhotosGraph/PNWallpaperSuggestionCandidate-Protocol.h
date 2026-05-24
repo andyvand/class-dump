@@ -7,6 +7,7 @@
 @class NSDate;
 
 @protocol PNWallpaperSuggestionCandidate
+- (NSDate *)2_SA_EEEEEENS8_ISF_EEEE;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate;

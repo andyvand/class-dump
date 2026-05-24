@@ -5,6 +5,7 @@
 //
 
 @protocol IXCoordinatorWithInitialODRAssetPromises
+- (_Bool)dE;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInitialODRAssetPromises;

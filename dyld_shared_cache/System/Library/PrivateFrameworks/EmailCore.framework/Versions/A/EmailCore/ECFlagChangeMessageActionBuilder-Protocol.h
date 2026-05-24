@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlagChange, NSArray, NSSet;
+@class ECMessageFlagChange, NSSet;
 
 @protocol ECFlagChangeMessageActionBuilder
+- (void);
+- (NSSet *);
+- (ECMessageFlagChange *)implement messageWithParts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) ECMessageFlagChange *flagChange;
-@property(copy, nonatomic) NSArray *messages;
 @property(copy, nonatomic) NSSet *remoteIDs;
 @end
 

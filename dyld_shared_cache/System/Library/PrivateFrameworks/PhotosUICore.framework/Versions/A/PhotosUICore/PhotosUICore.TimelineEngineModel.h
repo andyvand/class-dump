@@ -7,13 +7,6 @@
 @interface PhotosUICore.TimelineEngineModel
 {
     id _paused;
-    id _completed;
-    id lastPause;
-    id lastReset;
-    id lastOutro;
-    id lastOutroAbsoluteT;
-    id completionHandler;
-    id _$observationRegistrar;
 }
 
 @end

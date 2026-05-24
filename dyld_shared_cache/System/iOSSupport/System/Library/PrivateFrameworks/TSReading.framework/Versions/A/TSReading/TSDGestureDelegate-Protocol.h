@@ -5,5 +5,8 @@
 //
 
 @protocol TSDGestureDelegate
+
+@optional
+- (_Bool);
 @end
 

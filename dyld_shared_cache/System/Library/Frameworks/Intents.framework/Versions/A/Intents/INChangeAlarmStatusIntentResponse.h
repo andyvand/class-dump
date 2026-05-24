@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INChangeAlarmStatusIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)allyGenerated;
 + (int);
 + (long long);
 + (_Bool);
@@ -21,27 +19,19 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)__got;
 - (id);
 - (long long);
 - (id);
+- (id)_GCAppServerConnection;
+- (id);
+- (void)teLimitAskToShareFromAppexRequestWithClientID:(id)arg1 clientID networkID:self.associatedNetwork.matchingKnownNetworkProfile.wifiNetworkSharingNetworkID] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)estaurantReservationBookingsIntentExport;
+- (long long)INGetAvailableRestaurantReservationBookingsIntentExport;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *modifiedAlarms;
-@property(readonly) Class superclass;
 
 @end
 

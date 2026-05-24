@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface HomeKitDaemon.Metric.MediaGroup.PreflightCheckLogEvent
 {
     id eventName;
-    unsigned long long coreAnalyticsEventOptions;
-    id sessionIdentifier;
-    id accessoryCategory;
-    id fetchDuration;
-    id firstImportCompleted;
-    id hasMediaRouteIdentifier;
-    id hasPairingIdentity;
-    id hasConnectedEventRouterClient;
-    id isCloudSignedIn;
-    id hasManatee;
-    id isIdsReady;
-    id isOwnerUser;
 }
 
 - (void);
@@ -32,8 +18,6 @@
 - (void)x>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
-@property(nonatomic, readonly) NSString *coreAnalyticsEventName;
 @property(nonatomic) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
 
 @end

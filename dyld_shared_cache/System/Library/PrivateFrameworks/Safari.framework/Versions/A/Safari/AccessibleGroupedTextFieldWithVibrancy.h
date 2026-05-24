@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface AccessibleGroupedTextFieldWithVibrancy : TextFieldWithVibrancy
 {
     _Bool _primaryElement;
-    long long _siblingGroupingId;
 }
 
 - (long long);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)+;
 - (_Bool);
 - (struct CGRect);
-- (id);
+- (id)messages.URLBalloonProvider;
 - (id)ateRunLoopSource() failed;
 
 // Remaining properties
-@property(nonatomic, getter=isPrimaryElement) _Bool primaryElement; // @synthesize primaryElement=_primaryElement;
 @property(nonatomic) long long siblingGroupingId; // @synthesize siblingGroupingId=_siblingGroupingId;
 
 @end

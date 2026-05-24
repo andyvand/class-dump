@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKDetailsControllerAdapter, UIViewController;
+
 @protocol CKDetailsControllerAdapterDelegate
+- (_Bool)_makeDecisionForMovingModernObjectsToVirtualDestination;
+- (void);
+- (void);
+
+@optional
+- (UIViewController *)modernManagedObjectContext;
+- (void)N,V_tokens;
+- (void)ICSystemPaperThumbnailServiceInternal;
+- (void)_TtC7NotesUI19LinkEditorViewModel;
+- (void)o;
+- (void)rge… {reason:(CKDetailsControllerAdapter *)arg1 %s};
 @end
 

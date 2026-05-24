@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface UnknownClass (WBSNSDateExtras)
 + (double);
 + (id);
@@ -24,10 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *safari_filenameFormattedString;
 @property(readonly, nonatomic) _Bool safari_isInToday;
-@property(readonly, nonatomic) _Bool safari_isNowOrInRecentPast;
-@property(readonly, nonatomic) NSDate *safari_startOfDay;
-@property(readonly, nonatomic) double safari_timeIntervalUntilNow;
 @end
 

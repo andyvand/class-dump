@@ -7,14 +7,12 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBDoubleValue
+- (_Bool);
 - (_Bool)e;
 - (void)ache because there's no identifier.;
 - (_INPBValueMetadata *)%s;
 
 // Remaining properties
-@property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

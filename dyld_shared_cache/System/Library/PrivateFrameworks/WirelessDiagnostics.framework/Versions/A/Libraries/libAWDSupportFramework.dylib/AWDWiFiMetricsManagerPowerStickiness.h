@@ -7,20 +7,13 @@
 @interface AWDWiFiMetricsManagerPowerStickiness
 {
     unsigned long long _timestamp;
-    unsigned int _enabled;
-    unsigned int _stickiness;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int enabled:1;
-        unsigned int stickiness:1;
-    } _has;
 }
 
 - (unsigned int);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -28,23 +21,18 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)*O;
 - (id);
-- (unsigned int);
+- (unsigned int)e values that carry URIs for illegal characters and if such are found, escape them as HTML 4 recommends. ;
 - (_Bool)hasPrefNetsCount;
 
 // Remaining properties
-@property(nonatomic) unsigned int enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool hasEnabled;
-@property(nonatomic) _Bool hasStickiness;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int stickiness; // @synthesize stickiness=_stickiness;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

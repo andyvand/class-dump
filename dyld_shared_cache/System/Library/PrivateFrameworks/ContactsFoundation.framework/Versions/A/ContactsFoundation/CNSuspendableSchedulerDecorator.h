@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNQueue, NSConditionLock, NSString;
 @protocol CNScheduler;
 
 @interface CNSuspendableSchedulerDecorator
 {
     id <CNScheduler> _scheduler;
-    CNQueue *_queue;
-    NSConditionLock *_lock;
 }
 
 + (id);
-+ (id);
++ (id)_authContext;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (double);
-- (id);
+- (id)rTypeProp=%@;
+- (void);
+- (id)setIsConnectedOverUSB:(double)arg1;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setModificationDateYearless: /* Error: Ran out of types for this method. */;
+- (id)initWithPersistentStoreCache:(id)arg1 accountCollection: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSConditionLock *lock; // @synthesize lock=_lock;
-@property(readonly) CNQueue *queue; // @synthesize queue=_queue;
 @property(readonly) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

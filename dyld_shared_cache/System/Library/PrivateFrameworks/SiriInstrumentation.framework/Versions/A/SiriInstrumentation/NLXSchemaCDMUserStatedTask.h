@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMUserStatedTask : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)_performPreflightEncryptedCheck;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)rces/libressl/libressl-2.2/crypto/x509v3/v3_bitst.c;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)+j;
+- (id)";
 - (id)
 × ;
 - (id)V_isConnected;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
++ (Class)"CPImageSet"8;
 + (id);
 + (void);
 - (id);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool)b;
+- (long long)_;
 
 @end
 

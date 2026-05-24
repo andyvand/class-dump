@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PIPortraitVideoMetadataSample, PTGlobalRenderingMetadata;
+@class NSArray;
 
 @interface PIPortraitVideoRenderNode
 {
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (CDStruct_912cb5d2);
 - (struct __CVBuffer *);
 - (_Bool);
-- (int);
+- (int)(;
+- (_Bool);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id)C;
+- (id);
+- (CDStruct_1b6d18a9)6;
 - (id);
 - (id);
-- (id);
-- (CDStruct_1b6d18a9);
-- (id);
-- (id);
-- (int);
+- (int);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *apertureKeyframes;
-@property(readonly, nonatomic) long long debugMode;
 @property(readonly, copy, nonatomic) NSArray *disparityKeyframes;
-@property(readonly, nonatomic) PTGlobalRenderingMetadata *globalMetadata;
-@property(readonly, nonatomic) int renderQuality;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 renderTime;
-@property(readonly, nonatomic) PIPortraitVideoMetadataSample *timedMetadata;
 
 @end
 

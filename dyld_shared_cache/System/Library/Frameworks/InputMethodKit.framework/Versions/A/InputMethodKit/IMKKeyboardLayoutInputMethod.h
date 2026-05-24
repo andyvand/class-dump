@@ -9,12 +9,11 @@
 @interface IMKKeyboardLayoutInputMethod : IMKAbstractInputMethod
 {
     _Bool _showsPanelWhenScrubbing;
-    _Bool _didStartScrubberTimer;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool didStartScrubberTimer; // @synthesize didStartScrubberTimer=_didStartScrubberTimer;
-@property _Bool showsPanelWhenScrubbing; // @synthesize showsPanelWhenScrubbing=_showsPanelWhenScrubbing;
 
 @end
 

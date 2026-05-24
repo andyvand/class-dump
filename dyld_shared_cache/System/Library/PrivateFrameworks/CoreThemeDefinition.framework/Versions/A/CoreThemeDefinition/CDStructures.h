@@ -19,8 +19,6 @@ struct CGAffineTransform {
     double _field6;
 };
 
-struct CGColorSpace;
-
 struct CGPoint {
     double x;
     double y;
@@ -53,8 +51,8 @@ struct _renditionkeyfmt {
 };
 
 struct _renditionkeytoken {
-    unsigned short identifier;
-    unsigned short value;
+    unsigned short _field1;
+    unsigned short _field2;
 };
 
 struct _themeconstant {
@@ -67,35 +65,18 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct vImage_Buffer {
-    void *data;
-    unsigned long long height;
-    unsigned long long width;
-    unsigned long long rowBytes;
-};
-
-struct vImage_CGImageFormat {
-    unsigned int bitsPerComponent;
-    unsigned int bitsPerPixel;
-    struct CGColorSpace *colorSpace;
-    unsigned int bitmapInfo;
-    unsigned int version;
-    double *decode;
-    int renderingIntent;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
+    id _field1[4];
+} CDStruct_34f00414;
 
 typedef struct {
-    double top;
-    double left;
-    double bottom;
-    double right;
-} CDStruct_3c058996;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_d2b197d1;
 
 typedef struct {
     int _field1;
@@ -114,7 +95,7 @@ typedef struct {
         long long _field3;
         unsigned long long _field4;
     } _field6[12];
-} CDStruct_26b2aa83;
+} CDStruct_a8ccdd7f;
 
 typedef struct {
     struct CGSize _field1;
@@ -127,6 +108,6 @@ typedef struct {
     char *_field2;
     _Bool _field3;
     long long _field4;
-    CDStruct_26b2aa83 _field5[8];
-} CDStruct_22c2ae3f;
+    CDStruct_a8ccdd7f _field5[8];
+} CDStruct_b96027fa;
 

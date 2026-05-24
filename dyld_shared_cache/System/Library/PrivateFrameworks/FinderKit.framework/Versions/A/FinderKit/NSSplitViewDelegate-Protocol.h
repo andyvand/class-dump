@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSplitView;
+
 @protocol NSSplitViewDelegate
+
+@optional
+- (struct CGRect);
+- (_Bool);
+- (_Bool)\:(NSSplitView *)arg1 ;
 @end
 

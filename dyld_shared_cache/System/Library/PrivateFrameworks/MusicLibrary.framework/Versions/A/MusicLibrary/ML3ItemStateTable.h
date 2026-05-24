@@ -13,7 +13,7 @@
     NSArray *_columns;
 }
 
-- (id);
+- (id)_applyImageIOMetadataToExternalResource:fromFileURL:fileExists:assumedWidth:assumedHeight:recipe:assetKind: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)apper;
 - (id)FAULT 0, data BLOB);

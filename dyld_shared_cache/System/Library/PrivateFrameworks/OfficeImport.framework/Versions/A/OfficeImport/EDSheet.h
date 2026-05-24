@@ -6,30 +6,17 @@
 
 #import <OfficeImport/OCDDelayedNode.h>
 
-@class EDColorReference, EDHeaderFooter, EDPageSetup, EDProcessors, EDString, EDWarnings, EDWorkbook, ESDContainer, NSMutableArray, OITSUPointerKeyDictionary;
+@class EDString;
 
 __attribute__((visibility("hidden")))
 @interface EDSheet : OCDDelayedNode
 {
     EDString *mName;
-    _Bool mHidden;
-    _Bool mDisplayFormulas;
-    _Bool mDisplayGridlines;
-    _Bool mIsDialogSheet;
-    EDColorReference *mDefaultGridlineColorReference;
-    EDHeaderFooter *mHeaderFooter;
-    EDPageSetup *mPageSetup;
-    NSMutableArray *mDrawables;
-    OITSUPointerKeyDictionary *mTextBoxMap;
-    OITSUPointerKeyDictionary *mCommentMap;
-    EDProcessors *mProcessors;
-    EDWarnings *mWarnings;
-    ESDContainer *mEscherDrawing;
-    EDWorkbook *mWorkbook;
 }
 
 + (id);
 - (id);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -38,9 +25,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)9;
+- (void)<;
 - (void);
 - (id);
 - (id);
@@ -48,10 +34,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)6s";
 - (id);
 - (id);
 - (id);
@@ -69,13 +55,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void)owMarker:(id)arg1;
+- (void)setShowMarker:(id)arg1;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isDialogSheet; // @synthesize isDialogSheet=mIsDialogSheet;
-@property(readonly) __weak EDWorkbook *workbook; // @synthesize workbook=mWorkbook;
 
 @end
 

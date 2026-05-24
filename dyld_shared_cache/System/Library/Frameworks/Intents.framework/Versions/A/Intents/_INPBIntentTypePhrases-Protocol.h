@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentType;
+@class NSArray, NSString, _INPBIntentType;
 
 @protocol _INPBIntentTypePhrases
+- (NSString *);
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentType;
 @property(retain, nonatomic) _INPBIntentType *intentType;
-@property(copy, nonatomic) NSArray *intentVocabularyExamples;
-@property(readonly, nonatomic) unsigned long long intentVocabularyExamplesCount;
 @end
 

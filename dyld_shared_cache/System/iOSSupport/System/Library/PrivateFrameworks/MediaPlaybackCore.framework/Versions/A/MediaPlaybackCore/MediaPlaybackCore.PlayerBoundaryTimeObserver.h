@@ -7,10 +7,6 @@
 @interface MediaPlaybackCore.PlayerBoundaryTimeObserver
 {
     id player;
-    id observationToken;
-    id observerNumber;
-    id observers;
-    id observedTimes;
 }
 
 @end

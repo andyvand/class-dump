@@ -6,20 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaHardwareInterfaceIdentifier;
-
 @interface SISchemaAudioFirstBufferRecorded : SISchemaInstrumentationMessage
 {
     int _audioInputRoute;
-    SISchemaHardwareInterfaceIdentifier *_hardwareInterfaceVendorID;
-    struct {
-        unsigned int audioInputRoute:1;
-    } _has;
-    _Bool _hasHardwareInterfaceVendorID;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,25 +20,22 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)tType;
+- (id)${;
 - (id);
-- (id);
-- (void);
+- (void)@;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ks/IntlPreferences.framework/Contents/MacOS/IntlPreferences;
+- (_Bool)COUNT(*) FROM chat_recoverable_message_join AS crmj JOIN message AS m ON crmj.message_id = m.ROWID JOIN chat AS c ON crmj.chat_id = c.ROWID WHERE c.guid = ? AND NOT (m.group_action_type IN (1,3) AND (m.ROWID IN (SELECT message_id FROM message_attachment_join)));
 - (id);
-- (id);
-- (id)cksSystem;
-- (id)cations;
-- (void)CH_DURING_SECOND_PASS;
+- (id)e may not be NULL.
+;
+- (id)cpuTicksSystem;
+- (id)_announceNotifications;
+- (void)ADBLOCKERDISMISSALTYPE_MATCH_DURING_SECOND_PASS;
 
 // Remaining properties
 @property(nonatomic) int audioInputRoute; // @synthesize audioInputRoute=_audioInputRoute;
-@property(retain, nonatomic) SISchemaHardwareInterfaceIdentifier *hardwareInterfaceVendorID; // @synthesize hardwareInterfaceVendorID=_hardwareInterfaceVendorID;
-@property(nonatomic) _Bool hasAudioInputRoute;
-@property(nonatomic) _Bool hasHardwareInterfaceVendorID; // @synthesize hasHardwareInterfaceVendorID=_hasHardwareInterfaceVendorID;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

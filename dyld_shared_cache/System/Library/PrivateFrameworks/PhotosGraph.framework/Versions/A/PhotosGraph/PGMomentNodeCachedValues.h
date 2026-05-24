@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PGGraphMomentNode;
-
 @interface PGMomentNodeCachedValues
 {
     _Bool _hasAddressNodes;
-    _Bool _hasAddressNodesIsSet;
-    double _neighborScore;
-    NSSet *_personLocalIdentifiers;
-    PGGraphMomentNode *_previousMomentNode;
-    PGGraphMomentNode *_nextMomentNode;
-    struct CLLocationCoordinate2D _bestLocationCoordinate;
 }
 
 - (void);
@@ -26,23 +18,17 @@
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)n;
 - (struct CLLocationCoordinate2D);
 - (_Bool);
-- (void);
-- (id);
+- (void)%d (Select All:(id)arg1 %d, Initial Load Completed:%d, Is Expanding:%d, Parent is selected:%d) /* Error: Ran out of types for this method. */;
+- (id)BOOL}d, shouldBatchSectionUpdates:%{BOOL}d, update:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ng used by more than one node
 ;
 
 // Remaining properties
-@property(nonatomic) struct CLLocationCoordinate2D bestLocationCoordinate; // @synthesize bestLocationCoordinate=_bestLocationCoordinate;
-@property(nonatomic) _Bool hasAddressNodes; // @synthesize hasAddressNodes=_hasAddressNodes;
-@property(nonatomic) _Bool hasAddressNodesIsSet; // @synthesize hasAddressNodesIsSet=_hasAddressNodesIsSet;
 @property(nonatomic) double neighborScore; // @synthesize neighborScore=_neighborScore;
-@property(retain, nonatomic) PGGraphMomentNode *nextMomentNode; // @synthesize nextMomentNode=_nextMomentNode;
-@property(retain, nonatomic) NSSet *personLocalIdentifiers; // @synthesize personLocalIdentifiers=_personLocalIdentifiers;
-@property(retain, nonatomic) PGGraphMomentNode *previousMomentNode; // @synthesize previousMomentNode=_previousMomentNode;
 
 @end
 

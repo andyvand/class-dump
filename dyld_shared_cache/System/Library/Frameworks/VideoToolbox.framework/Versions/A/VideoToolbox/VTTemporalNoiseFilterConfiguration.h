@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface VTTemporalNoiseFilterConfiguration
 {
     unsigned int _sourcePixelFormat;
-    NSDictionary *_sourcePixelBufferAttributes;
-    NSDictionary *_destinationPixelBufferAttributes;
-    NSArray *_frameSupportedPixelFormats;
-    long long _nextFrameCount;
-    long long _previousFrameCount;
-    long long _frameWidth;
-    long long _frameHeight;
 }
 
 + (id);
@@ -26,10 +17,10 @@
 - (unsigned int);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool)?	;
 - (id);
 - (long long);
-- (id);
+- (id)ө;
 - (long long);
 - (id);
 - (id);
@@ -37,20 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *destinationPixelBufferAttributes; // @synthesize destinationPixelBufferAttributes=_destinationPixelBufferAttributes;
-@property(readonly, nonatomic) long long frameHeight; // @synthesize frameHeight=_frameHeight;
-@property(readonly, nonatomic) NSArray *frameSupportedPixelFormats; // @synthesize frameSupportedPixelFormats=_frameSupportedPixelFormats;
 @property(readonly, nonatomic) long long frameWidth; // @synthesize frameWidth=_frameWidth;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long nextFrameCount; // @synthesize nextFrameCount=_nextFrameCount;
-@property(readonly, nonatomic) long long previousFrameCount; // @synthesize previousFrameCount=_previousFrameCount;
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes; // @synthesize sourcePixelBufferAttributes=_sourcePixelBufferAttributes;
-@property(readonly) Class superclass;
 
 @end
 

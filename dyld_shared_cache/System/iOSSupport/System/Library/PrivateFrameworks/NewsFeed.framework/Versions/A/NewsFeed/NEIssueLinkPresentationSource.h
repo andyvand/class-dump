@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCIssue, LPLinkMetadata;
+@class FCIssue;
 
 @interface NEIssueLinkPresentationSource
 {
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCIssue *issue; // @synthesize issue=_issue;
-@property(readonly, nonatomic) LPLinkMetadata *linkMetadata;
 
 @end
 

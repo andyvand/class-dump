@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDHighlightObject;
-
 __attribute__((visibility("hidden")))
 @interface DDHighlightRangeUpdater2
 {
     int startOffset;
-    int endOffset;
-    DDHighlightObject *highlight;
 }
 
 - (void);

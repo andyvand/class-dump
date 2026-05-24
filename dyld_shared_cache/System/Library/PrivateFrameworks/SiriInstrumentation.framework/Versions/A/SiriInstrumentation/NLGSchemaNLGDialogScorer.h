@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLGSchemaNLGDialogScorer : SISchemaInstrumentationMessage
 {
     int _dialogScorerType;
-    struct {
-        unsigned int dialogScorerType:1;
-    } _has;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)com;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int dialogScorerType; // @synthesize dialogScorerType=_dialogScorerType;
-@property(nonatomic) _Bool hasDialogScorerType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

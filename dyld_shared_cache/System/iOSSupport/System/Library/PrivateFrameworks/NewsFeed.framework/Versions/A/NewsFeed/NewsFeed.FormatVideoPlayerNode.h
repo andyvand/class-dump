@@ -7,24 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerNode
 {
     id _identifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id animation;
-    id content;
-    id posterContent;
-    id posterStyle;
-    id overlayContent;
-    id isLive;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id _selectors;
-    id _name;
-    id allowsPrerollAds;
-    id flex;
 }
 
 @end

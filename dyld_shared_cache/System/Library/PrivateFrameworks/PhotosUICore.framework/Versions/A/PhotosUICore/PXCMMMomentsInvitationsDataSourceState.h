@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PHFetchResult, PHPhotoLibrary;
+@class PHFetchResult, PHPhotoLibrary;
 
 @interface PXCMMMomentsInvitationsDataSourceState
 {
     PHFetchResult *_assetCollections;
-    NSDictionary *_invitationsByAssetCollectionObjectID;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)oto:(struct _NSZone *)arg1;
+- (id)initWithLivePhoto:(struct _NSZone *)arg1;
 - (void);
 - (id)uNq>;
 
 // Remaining properties
-@property(readonly, nonatomic) PHFetchResult *assetCollections; // @synthesize assetCollections=_assetCollections;
-@property(readonly, nonatomic) NSDictionary *invitationsByAssetCollectionObjectID; // @synthesize invitationsByAssetCollectionObjectID=_invitationsByAssetCollectionObjectID;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;
 
 @end

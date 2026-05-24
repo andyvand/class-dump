@@ -13,14 +13,14 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)bottom;
++ (id)divider;
++ (id)isHighlighted;
++ (id)highlightColor;
++ (id)subtitle;
++ (id)e;
++ (id)p;
++ (id)c;
 + (id);
 
 @end

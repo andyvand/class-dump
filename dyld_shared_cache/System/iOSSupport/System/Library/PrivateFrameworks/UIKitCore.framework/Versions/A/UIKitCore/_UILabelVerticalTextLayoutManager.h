@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextContainer, NSTextContentStorage, NSTextLayoutManager;
+@class NSTextLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface _UILabelVerticalTextLayoutManager
 {
     NSTextLayoutManager *_layoutManager;
-    NSTextContainer *_textContainer;
-    NSTextContentStorage *_contentStorage;
-    double _scale;
-    long long _lineBreakMode;
 }
 
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (struct CGRect);
+- (void)initWithRegistrationProperties:(id)arg1 pushToken:(struct CGRect)arg2;
+- (void)initWithRecordsToSave:(id)arg1 recordIDsToDelete:(struct CGRect)arg2;
+- (struct CGRect)acceptChatContainingMessageWithGUID:(id)arg1;
+- (struct CGRect)aa_primaryAppleAccountWithPreloadedDataclasses;
+- (void)ing recoverable messages to delete from CloudKit;
+- (struct CGRect)ay message response %p received;
 - (id)$ÿÿhêÿ;
-- (void)tateCIeyByy_;
+- (void)So023UITableViewHeaderFooterB0CSo24UIViewConfigurationStateCIeyByy_;
 - (long long);
 - (void)H;
 

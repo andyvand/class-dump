@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CAMediaTimingFunction;
+
 @protocol SCNTransactionJSExport
++ (_Bool)32;
++ (CAMediaTimingFunction *)tableView:moveRowAtIndexPath:toIndexPath: /* Error: Ran out of types for this method. */;
++ (void)preferredFocusEnvironments;
 + (void)>SceneKit_copy</key>
 		<dict>
 			<key>outputs</key>

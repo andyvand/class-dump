@@ -6,13 +6,9 @@
 
 #import <MediaPlayer/MPModelKind.h>
 
-@class MPModelSongKind;
-
 @interface MPModelAlbumKind : MPModelKind
 {
     unsigned long long _variants;
-    MPModelSongKind *_songKind;
-    unsigned long long _options;
 }
 
 + (id);
@@ -22,17 +18,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)__kIMFileTransferUpdatedNotification;
+- (unsigned long long)lastTreatmentUpdateForNamespaceName: /* Error: Ran out of types for this method. */;
+- (id)publisher;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void)adioStream;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) MPModelSongKind *songKind; // @synthesize songKind=_songKind;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

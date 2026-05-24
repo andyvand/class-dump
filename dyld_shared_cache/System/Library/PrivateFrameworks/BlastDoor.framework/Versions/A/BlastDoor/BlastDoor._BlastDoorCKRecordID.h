@@ -7,9 +7,6 @@
 @interface BlastDoor._BlastDoorCKRecordID
 {
     id recordName;
-    id zoneID;
-    id RecordNameKey;
-    id ZoneIDKey;
 }
 
 + (void);

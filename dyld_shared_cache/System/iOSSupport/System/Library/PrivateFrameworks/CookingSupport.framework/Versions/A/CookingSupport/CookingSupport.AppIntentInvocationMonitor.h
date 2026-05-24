@@ -7,6 +7,7 @@
 @interface CookingSupport.AppIntentInvocationMonitor
 {
     id _$scope;
+    id;
 }
 
 @end

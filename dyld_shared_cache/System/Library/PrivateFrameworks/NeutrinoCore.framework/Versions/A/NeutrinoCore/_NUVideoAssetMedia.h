@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NUAssetMedia.h>
 
-@class NSArray, NUChannelMediaFormat;
-@protocol NUMediaGeometry, NUMediaMetadata;
+@protocol NUMediaGeometry;
 
 @interface _NUVideoAssetMedia : _NUAssetMedia
 {
@@ -18,10 +17,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
 @property(readonly, nonatomic) id <NUMediaGeometry> geometry;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
 
 @end
 

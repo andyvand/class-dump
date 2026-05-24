@@ -7,11 +7,10 @@
 @class NSArray, _INPBAlarm;
 
 @protocol _INPBUpdateAlarmIntentResponse
+- (void);
+- (_INPBAlarm *)';
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *conflictAlarms;
-@property(readonly, nonatomic) unsigned long long conflictAlarmsCount;
-@property(readonly, nonatomic) _Bool hasUpdatedAlarm;
-@property(retain, nonatomic) _INPBAlarm *updatedAlarm;
 @end
 

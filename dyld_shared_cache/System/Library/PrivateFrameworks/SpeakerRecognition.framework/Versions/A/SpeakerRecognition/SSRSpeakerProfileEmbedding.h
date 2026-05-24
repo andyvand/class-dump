@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SSRSpeakerProfileEmbedding
 {
     unsigned int _numEmbedding;
-    unsigned int _dimension;
-    NSString *_siriSharedUserId;
-    NSString *_voiceProfileId;
-    NSData *_embeddings;
-    unsigned long long _speakerRecognizerType;
 }
 
 + (_Bool);
@@ -28,15 +23,10 @@
 - (id);
 - (void);
 - (void);
-- (unsigned int)DataEncryptDecrypt;
+- (unsigned int)CSNSDataEncryptDecrypt;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dimension; // @synthesize dimension=_dimension;
-@property(readonly, nonatomic) NSData *embeddings; // @synthesize embeddings=_embeddings;
-@property(readonly, nonatomic) unsigned int numEmbedding; // @synthesize numEmbedding=_numEmbedding;
 @property(readonly, nonatomic) NSString *siriSharedUserId; // @synthesize siriSharedUserId=_siriSharedUserId;
-@property(readonly, nonatomic) unsigned long long speakerRecognizerType; // @synthesize speakerRecognizerType=_speakerRecognizerType;
-@property(readonly, nonatomic) NSString *voiceProfileId; // @synthesize voiceProfileId=_voiceProfileId;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface MIDICIDeviceInfo
 {
     NSData *_manufacturerID;
-    NSData *_family;
-    NSData *_model;
-    NSData *_revision;
-    unsigned int _midiDestination;
 }
 
 + (id);
@@ -32,11 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *family; // @synthesize family=_family;
 @property(readonly, nonatomic) NSData *manufacturerID; // @synthesize manufacturerID=_manufacturerID;
-@property(readonly, nonatomic) unsigned int midiDestination; // @synthesize midiDestination=_midiDestination;
-@property(readonly, nonatomic) NSData *modelNumber; // @synthesize modelNumber=_model;
-@property(readonly, nonatomic) NSData *revisionLevel; // @synthesize revisionLevel=_revision;
 
 @end
 

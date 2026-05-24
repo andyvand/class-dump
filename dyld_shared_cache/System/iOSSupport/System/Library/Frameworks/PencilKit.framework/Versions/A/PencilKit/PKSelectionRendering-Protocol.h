@@ -5,5 +5,7 @@
 //
 
 @protocol PKSelectionRendering
+- (id);
+- (void);
 @end
 

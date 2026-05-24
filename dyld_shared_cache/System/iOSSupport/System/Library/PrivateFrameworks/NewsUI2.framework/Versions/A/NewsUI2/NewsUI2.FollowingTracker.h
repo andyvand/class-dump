@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingTracker
 {
     id tracker;
-    id channelDataFactory;
 }
 
 @end

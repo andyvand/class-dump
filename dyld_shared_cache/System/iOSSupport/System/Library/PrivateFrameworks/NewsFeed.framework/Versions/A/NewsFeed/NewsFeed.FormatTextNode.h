@@ -7,22 +7,6 @@
 @interface NewsFeed.FormatTextNode
 {
     id _identifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id animation;
-    id content;
-    id invalidation;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibility;
-    id accessibilityRole;
-    id _selectors;
-    id _sourceItems;
-    id name;
-    id flex;
 }
 
 @end

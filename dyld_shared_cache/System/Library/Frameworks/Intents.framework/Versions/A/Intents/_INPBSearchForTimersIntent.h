@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
-
 @interface _INPBSearchForTimersIntent
 {
     struct {
@@ -13,19 +11,14 @@
         unsigned int state:1;
         unsigned int type:1;
     } _has;
-    int _state;
-    int _type;
-    double _duration;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_label;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (int);
+- (int)(;
 - (id);
-- (id);
+- (id)ore.A.dylib;
 - (double);
 - (id);
 - (void);
@@ -33,44 +26,28 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)gN;
 - (int);
 - (int);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (int);
-- (void)ome:(_Bool)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (id)opy;
+- (void)resolveFiltersForShowHome:(_Bool)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (id)copy;
 - (_Bool)N,V_payloadNeedsValue;
 - (void)CommandDeviceInformation",C;
 - (_Bool)@"NSCache",R,N;
-- (void)Sizes;
+- (void)__INCodableAttributeINIntentResponseParameterArraySizes;
 - (void)meration == YES OR property.supportsResolution == NO)) OR unit.name == 'Multiple';
-- (_Bool)pleIntentResponseCodeFailureRequiringAppLaunch;
+- (_Bool)INDeleteHealthSampleIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBDataString *label; // @synthesize label=_label;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VFXMaterial, VFXMorpher, VFXNode;
+@class VFXMorpher;
 
 __attribute__((visibility("hidden")))
 @interface AVTMorpherDrivenMaterialDescriptor
 {
     VFXMorpher *_readMorpher;
-    VFXNode *_readMorpherNode;
-    long long _morphTargetIndex;
-    VFXMaterial *_material;
-    NSString *_propertyName;
 }
 
 - (void);

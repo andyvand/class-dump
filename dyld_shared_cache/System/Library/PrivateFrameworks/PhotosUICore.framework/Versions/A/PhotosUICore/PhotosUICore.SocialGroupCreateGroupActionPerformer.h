@@ -9,10 +9,6 @@
 @interface PhotosUICore.SocialGroupCreateGroupActionPerformer : PXPhotoKitAssetCollectionActionPerformer
 {
     id customTitle;
-    id keyAssetUUID;
-    id photoLibrary;
-    id creationCompletionBlock;
-    id mutationActionDelegate;
 }
 
 - (id);

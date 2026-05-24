@@ -7,10 +7,6 @@
 @interface AdPlatformsCommon.SovereignSensitiveCategoryFilter
 {
     id currentTerritorySource;
-    id homeTerritorySource;
-    id storefrontTerritorySource;
-    id ruleStore;
-    id ruleEvaluator;
 }
 
 @end

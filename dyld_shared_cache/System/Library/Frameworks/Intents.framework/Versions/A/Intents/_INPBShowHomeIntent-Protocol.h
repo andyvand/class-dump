@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDateTimeRange, _INPBIntentMetadata;
+@class NSArray, _INPBHomeFilter, _INPBIntentMetadata;
 
 @protocol _INPBShowHomeIntent
-- (void)otVocabularyPolicies;
++ (Class);
+- (_INPBIntentMetadata *)tring",C,V_stderr;
+- (_INPBHomeFilter *)j;
+- (void);
+- (void)AUTO-JOIN:(_INPBHomeFilter *)arg1 All pre-association scan channels have already been scanned;
+- (void)intentSlotVocabularyPolicies;
 - (_Bool)rgingConnectors: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *filters;
-@property(readonly, nonatomic) unsigned long long filtersCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDateTimeRange *time;
 @end
 

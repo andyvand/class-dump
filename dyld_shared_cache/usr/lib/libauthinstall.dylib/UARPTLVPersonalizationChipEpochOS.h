@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     unsigned int _chipEpoch;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (unsigned int);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)skipInterval;
 
 // Remaining properties
 @property(readonly) unsigned int chipEpoch; // @synthesize chipEpoch=_chipEpoch;

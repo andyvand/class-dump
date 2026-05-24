@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, OS_xpc_remote_connection;
-@protocol OS_dispatch_queue;
+@class OS_xpc_remote_connection;
 
 @interface SocketRemoteXpcProxy
 {
     int _clientSock;
-    int _serverSock;
-    OS_xpc_remote_connection *_peer;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _onCancel;
 }
 
 - (int);
@@ -24,16 +19,12 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)ngPersonIDs;
 - (id);
-- (void);
+- (void)s;
 
 // Remaining properties
-@property(readonly, nonatomic) int clientSock; // @synthesize clientSock=_clientSock;
-@property(copy, nonatomic) CDUnknownBlockType onCancel; // @synthesize onCancel=_onCancel;
 @property(readonly, nonatomic) OS_xpc_remote_connection *peer; // @synthesize peer=_peer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) int serverSock; // @synthesize serverSock=_serverSock;
 
 @end
 

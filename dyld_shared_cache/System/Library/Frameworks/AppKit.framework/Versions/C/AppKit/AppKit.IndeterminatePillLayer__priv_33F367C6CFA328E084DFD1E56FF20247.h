@@ -7,14 +7,11 @@
 @interface AppKit.IndeterminatePillLayer__priv_33F367C6CFA328E084DFD1E56FF20247
 {
     id gradientLayer;
-    id baseWidth;
-    id maxWidth;
-    id accentColor;
 }
 
+- (id)5;
 - (id);
-- (id);
-- (id);
+- (id)G;
 - (void)These should all have declared keys;
 - (void)ÈvF;
 

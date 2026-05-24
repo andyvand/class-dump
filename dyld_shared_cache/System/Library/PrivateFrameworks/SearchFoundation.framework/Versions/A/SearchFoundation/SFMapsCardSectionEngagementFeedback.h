@@ -13,9 +13,9 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)setModelPlayEvent:(id)arg1;
 - (void);
-- (void);
+- (void)tor:(id)arg1 (%{public}@) withToneIdentifier:(%{public}@). /* Error: Ran out of types for this method. */;
 - (int)L¨¬$;
 
 // Remaining properties

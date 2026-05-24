@@ -9,10 +9,6 @@
 @interface UIKit.NavigationBarContentView.DebugVisualizer__priv_345D3E4B07A261C8C2F7AC9E3003F3BA : UIView
 {
     id effectiveLayoutMargins;
-    id safeAreaVisualizer;
-    id effectiveLayoutMarginsVisualizer;
-    id leftCornerInsetsVisualizer;
-    id rightCornerInsetsVisualizer;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (void)Áð!@AùÑ\°1Â0@ù
 × ;
-- (id)tionBSActionsHandler;
+- (id)_UISceneRemoteNotificationBSActionsHandler;
 - (void)-ÖÎl;
 
 @end

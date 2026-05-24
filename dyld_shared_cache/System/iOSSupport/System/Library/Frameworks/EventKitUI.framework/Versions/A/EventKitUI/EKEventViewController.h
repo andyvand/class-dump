@@ -4,84 +4,82 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSDictionary, NSString, UIScrollView, UIViewController;
-@protocol EKEventViewControllerImpl, EKEventViewDelegate, EKUIViewControllerNavigationDelegate;
+@class UIViewController;
+@protocol EKEventViewControllerImpl;
 
 @interface EKEventViewController
 {
     UIViewController<EKEventViewControllerImpl> *_impl;
-    _Bool _dockable;
-    unsigned long long _requestedResponse;
 }
 
 - (_Bool);
+- (_Bool)%s;
+- (_Bool)&s;
+- (_Bool)x+s;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)&s;
+- (void)s;
+- (void)s;
+- (void)%s;
 - (void);
 - (void);
+- (void)s;
+- (void);
+- (void)X%s;
 - (void);
 - (void);
+- (void)s;
+- (void);
+- (void)&s;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
+- (_Bool)&s;
+- (_Bool)Y%s;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)&s;
 - (id);
 - (_Bool);
-- (id);
+- (id)&s;
 - (id);
 - (int);
-- (int);
+- (int)xX%s;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool))s;
+- (_Bool)s;
 - (_Bool);
+- (id);
+- (void)&s;
+- (_Bool)s;
 - (_Bool);
-- (_Bool);
+- (_Bool)S%s;
+- (void);
+- (void)c*s;
+- (void);
+- (void);
+- (void);
+- (id)Cell=Bii{Cell=iiiiiiii}{ScdmaCell=iiiiiiii}{CdmaCell=i{vector<int, std:(id)arg1:(id)arg2 __1::allocator<int> >=^i^i{__compressed_pair<int *, std::__1::allocator<int> >=^i}}iiiiiiiii{CLDaemonLocation=i{?=dd}ddddddddidi{?=dd}diIiii}iii{basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >={__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}{CLDaemonLocation=i{?=dd}ddddddddidi{?=dd}diIiii}ii}{LteCell=iiiiiiiddiiii}} /* Error: Ran out of types for this method. */;
+- (void);
+- (void)e;
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)yn=G;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -94,55 +92,18 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)focusConfigurationHostContext:didPressButtonWithIdentifier:cellFrame: /* Error: Ran out of types for this method. */;
+- (_Bool)GGt;
 - (void);
 - (void);
 - (unsigned long long)1Â0@ù
 × ;
-- (void)ntOverlay: /* Error: Ran out of types for this method. */;
-- (void)dePopover;
+- (void)setPressedAccentOverlay: /* Error: Ran out of types for this method. */;
+- (void)isPresentedInsidePopover;
 - (void)óÿ­_r;
 
 // Remaining properties
-@property(nonatomic, getter=isICSPreview) _Bool ICSPreview;
-@property(nonatomic) _Bool allowsCalendarPreview;
-@property(nonatomic) _Bool allowsEditing;
-@property(nonatomic) _Bool allowsInviteResponses;
-@property(nonatomic) _Bool allowsSubitems;
-@property(nonatomic) _Bool calendarPreviewIsInlineDayView;
-@property(nonatomic) unsigned long long canvasView;
-@property(readonly) NSDictionary *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKEventViewDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dockable; // @synthesize dockable=_dockable;
-@property(nonatomic) int editorHideTransition;
-@property(nonatomic) int editorShowTransition;
-@property(retain, nonatomic) EKEvent *event;
-@property(readonly, nonatomic) UIScrollView *eventDetailsScrollView;
-@property(readonly, nonatomic) UIViewController *eventDetailsViewController;
 @property(nonatomic) _Bool eventEditViewPresented;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inlineDayViewRespectsSelectedCalendarsFilter;
-@property(nonatomic) _Bool isEditingMode;
-@property(nonatomic) _Bool isLargeDayView;
-@property(nonatomic) _Bool minimalMode;
-@property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate;
-@property(nonatomic) _Bool noninteractivePlatterMode;
-@property(nonatomic) unsigned long long requestedResponse; // @synthesize requestedResponse=_requestedResponse;
-@property(nonatomic) _Bool showsAddToCalendarForICSPreview;
-@property(nonatomic) _Bool showsDelegateMessage;
-@property(nonatomic) _Bool showsDelegatorMessage;
-@property(nonatomic) _Bool showsDeleteForICSPreview;
-@property(nonatomic) _Bool showsDetectedConferenceItem;
-@property(nonatomic) _Bool showsDoneButton;
-@property(nonatomic) _Bool showsOutOfDateMessage;
-@property(nonatomic) _Bool showsUpdateCalendarForICSPreview;
-@property(readonly) Class superclass;
 
 @end
 

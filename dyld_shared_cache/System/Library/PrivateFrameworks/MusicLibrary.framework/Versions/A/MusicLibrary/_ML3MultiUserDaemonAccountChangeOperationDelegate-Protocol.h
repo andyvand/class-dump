@@ -5,5 +5,6 @@
 //
 
 @protocol _ML3MultiUserDaemonAccountChangeOperationDelegate
+- (void);
 @end
 

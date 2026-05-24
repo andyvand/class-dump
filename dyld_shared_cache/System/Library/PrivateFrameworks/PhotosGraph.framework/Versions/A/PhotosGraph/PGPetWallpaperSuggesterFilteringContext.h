@@ -7,15 +7,6 @@
 @interface PGPetWallpaperSuggesterFilteringContext
 {
     _Bool _ignoreClockOverlap;
-    _Bool _bypassCropScoreCheck;
-    long long _orientation;
-    double _minimumWallpaperScore;
-    double _minimumCropScore;
-    double _timeIntervalForCandidateDeduping;
-    double _minimumFaceSize;
-    double _maximumFaceSize;
-    double _maximumLowLightScore;
-    double _maximumCropZoomRatio;
 }
 
 - (double);
@@ -32,29 +23,20 @@
 - (double);
 - (double);
 - (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)accessibilityLineForAXFTextPosition:(long long)arg1;
+- (id)accessibilityIdentifier;
+- (id)_zoomFocusRectForRange:(long long)arg1 textElement:withElementInfo:withPreviousElementInfo: /* Error: Ran out of types for this method. */;
+- (id)_visibleWindowCountFromApplicationController: /* Error: Ran out of types for this method. */;
+- (_Bool)_sharedKeyboardFocusedElementSelectedElementControllers;
+- (_Bool)crypto_encryptText;
 - (void);
-- (double);
+- (double)&;
 - (double);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool bypassCropScoreCheck; // @synthesize bypassCropScoreCheck=_bypassCropScoreCheck;
-@property(nonatomic) _Bool ignoreClockOverlap; // @synthesize ignoreClockOverlap=_ignoreClockOverlap;
-@property(nonatomic) double maximumCropZoomRatio; // @synthesize maximumCropZoomRatio=_maximumCropZoomRatio;
-@property(nonatomic) double maximumFaceSize; // @synthesize maximumFaceSize=_maximumFaceSize;
-@property(nonatomic) double maximumLowLightScore; // @synthesize maximumLowLightScore=_maximumLowLightScore;
-@property(nonatomic) double minimumCropScore; // @synthesize minimumCropScore=_minimumCropScore;
-@property(nonatomic) double minimumFaceSize; // @synthesize minimumFaceSize=_minimumFaceSize;
-@property(nonatomic) double minimumWallpaperScore; // @synthesize minimumWallpaperScore=_minimumWallpaperScore;
 @property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) double timeIntervalForCandidateDeduping; // @synthesize timeIntervalForCandidateDeduping=_timeIntervalForCandidateDeduping;
 
 @end
 

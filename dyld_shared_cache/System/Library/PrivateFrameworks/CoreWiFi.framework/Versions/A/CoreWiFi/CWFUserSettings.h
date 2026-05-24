@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CWFUserSettings
 {
     long long _syncMode;
-    long long _askToJoinMode;
-    long long _autoHotspotMode;
-    long long _compatibilityMode;
-    NSDictionary *_OSSpecificAttributes;
 }
 
-+ (_Bool);
++ (_Bool)J;
 - (void);
 - (void);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (long long);
@@ -30,16 +24,12 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)add_device;
 - (id);
-- (id);
-- (long long);
+- (long long)file: /* Error: Ran out of types for this method. */;
 - (void)B,N,V_FASTProvisionPACAnonymously;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *OSSpecificAttributes; // @synthesize OSSpecificAttributes=_OSSpecificAttributes;
-@property(nonatomic) long long askToJoinMode; // @synthesize askToJoinMode=_askToJoinMode;
-@property(nonatomic) long long autoHotspotMode; // @synthesize autoHotspotMode=_autoHotspotMode;
-@property(nonatomic) long long compatibilityMode; // @synthesize compatibilityMode=_compatibilityMode;
 @property(nonatomic) long long syncMode; // @synthesize syncMode=_syncMode;
 
 @end

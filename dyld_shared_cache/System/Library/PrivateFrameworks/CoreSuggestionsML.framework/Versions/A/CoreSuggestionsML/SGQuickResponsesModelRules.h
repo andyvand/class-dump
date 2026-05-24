@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)MercuryDecoder;
++ (id)_TtCCO14CloudKitDaemon15CKDSessionCheck15EncryptionCheckP33_AE58FEBB3FEC26C4F883E25FBBA159FF20ServiceIdentityActor;
 
 @end
 

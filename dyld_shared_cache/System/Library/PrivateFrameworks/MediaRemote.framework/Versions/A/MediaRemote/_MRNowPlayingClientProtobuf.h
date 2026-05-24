@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRColorProtobuf;
+@class NSString;
 
 @interface _MRNowPlayingClientProtobuf
 {
     NSString *_bundleIdentifier;
-    NSString *_displayName;
-    NSMutableArray *_extendedBundleIdentifierHierarchys;
-    NSString *_iconURL;
-    int _nowPlayingVisibility;
-    NSString *_parentApplicationBundleIdentifier;
-    int _processIdentifier;
-    int _processUserIdentifier;
-    _MRColorProtobuf *_tintColor;
-    _Bool _isEmptyDeprecated;
-    struct {
-        unsigned int nowPlayingVisibility:1;
-        unsigned int processIdentifier:1;
-        unsigned int processUserIdentifier:1;
-        unsigned int isEmptyDeprecated:1;
-    } _has;
 }
 
 + (Class);
@@ -37,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -47,22 +32,23 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)colorForLoginStyleStatusImagePressed;
+- (_Bool)device 0x%012llX
+;
+- (id)setHandles: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ramework/Versions/A/BackgroundSystemTasks;
 - (id);
 - (id);
 - (int);
-- (void);
-- (id);
+- (void)supportedOnPlatform;
+- (id)_connection];
 - (int);
 - (_Bool);
 - (void);
@@ -72,31 +58,13 @@
 - (void);
 - (void);
 - (id);
-- (int)DidInvalidate: /* Error: Ran out of types for this method. */;
-- (void)SetState: /* Error: Ran out of types for this method. */;
-- (void)owPlayingInfoIsExplicitTrack;
+- (int)destinationResolverDestinationDidInvalidate: /* Error: Ran out of types for this method. */;
+- (void)_processSetState: /* Error: Ran out of types for this method. */;
+- (void)kMRMediaRemoteNowPlayingInfoIsExplicitTrack;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSMutableArray *extendedBundleIdentifierHierarchys; // @synthesize extendedBundleIdentifierHierarchys=_extendedBundleIdentifierHierarchys;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasIconURL;
-@property(nonatomic) _Bool hasIsEmptyDeprecated;
-@property(nonatomic) _Bool hasNowPlayingVisibility;
-@property(readonly, nonatomic) _Bool hasParentApplicationBundleIdentifier;
 @property(nonatomic) _Bool hasProcessIdentifier;
-@property(nonatomic) _Bool hasProcessUserIdentifier;
-@property(readonly, nonatomic) _Bool hasTintColor;
-@property(retain, nonatomic) NSString *iconURL; // @synthesize iconURL=_iconURL;
-@property(nonatomic) _Bool isEmptyDeprecated; // @synthesize isEmptyDeprecated=_isEmptyDeprecated;
-@property(nonatomic) int nowPlayingVisibility; // @synthesize nowPlayingVisibility=_nowPlayingVisibility;
-@property(retain, nonatomic) NSString *parentApplicationBundleIdentifier; // @synthesize parentApplicationBundleIdentifier=_parentApplicationBundleIdentifier;
-@property(nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(nonatomic) int processUserIdentifier; // @synthesize processUserIdentifier=_processUserIdentifier;
-@property(retain, nonatomic) _MRColorProtobuf *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

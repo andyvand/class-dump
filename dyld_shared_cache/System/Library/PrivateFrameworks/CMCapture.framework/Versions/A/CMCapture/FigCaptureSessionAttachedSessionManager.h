@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureSessionAttachedSessionManager
 {
     struct OpaqueFigCaptureSession *_currentPrimarySession;
-    struct OpaqueFigCaptureSession *_currentlyStartingSession;
-    int _currentlyStartingSessionChangeSeed;
-    NSMutableArray *_attachedSessions;
-    NSMutableArray *_detachingSessions;
-    NSMutableArray *_sessionsToStart;
-    NSMutableArray *_incompatibleSessions;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _changeSeed;
 }
 
-+ (void)usDistance;
++ (void)MinimumFocusDistance;
 - (id);
 
 @end

@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _PFGarbageManager
 {
     NSMutableDictionary *_storeLinksDirs;
-    NSMutableSet *_filesToCleanUp;
 }
 
-+ (id);
++ (id)p�t
+;
 + (void)CloudKitImportRecordsWorkItem commitMetadataChangesWithContext:forStore:error:] /* Error: Ran out of types for this method. */;
 + (id)%@ IS NULL AND %@ IS NULL;
 - (unsigned long long);
 - (oneway void);
-- (id);
+- (id)U[;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)%;
 
 @end
 

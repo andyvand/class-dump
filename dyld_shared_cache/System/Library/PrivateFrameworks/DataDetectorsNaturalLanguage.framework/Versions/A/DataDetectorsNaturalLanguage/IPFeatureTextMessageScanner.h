@@ -6,14 +6,11 @@
 
 #import <DataDetectorsNaturalLanguage/IPFeatureScanner.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface IPFeatureTextMessageScanner : IPFeatureScanner
 {
     _Bool _followProposal;
-    NSArray *_contextMessageUnits;
-    NSMutableArray *_detectedEventsInContext;
-    NSMutableArray *_dataFeaturesExtractedInContextAndMain;
 }
 
 - (void);
@@ -25,28 +22,25 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (double);
 - (id);
 - (void);
+- (id)m;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)q;
 - (double);
-- (id);
+- (id)qK;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *contextMessageUnits; // @synthesize contextMessageUnits=_contextMessageUnits;
-@property(retain, nonatomic) NSMutableArray *dataFeaturesExtractedInContextAndMain; // @synthesize dataFeaturesExtractedInContextAndMain=_dataFeaturesExtractedInContextAndMain;
 @property(retain) NSMutableArray *detectedEventsInContext; // @synthesize detectedEventsInContext=_detectedEventsInContext;
-@property _Bool followProposal; // @synthesize followProposal=_followProposal;
 
 @end
 

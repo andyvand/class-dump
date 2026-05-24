@@ -11,17 +11,16 @@
 @interface IDSDestinationDevice : IDSDestination
 {
     IDSURI *_destinationURI;
-    _Bool _isGuest;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)completedSuccessfully;
++ (_Bool),;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)des %@;
 - (void);
 - (id);
 - (id);
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IDSURI *destinationURI; // @synthesize destinationURI=_destinationURI;
-@property(nonatomic) _Bool isGuest; // @synthesize isGuest=_isGuest;
 
 @end
 

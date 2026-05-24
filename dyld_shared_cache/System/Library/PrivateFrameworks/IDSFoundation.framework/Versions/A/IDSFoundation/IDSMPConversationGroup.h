@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENGroupID, NSData, NSDictionary, NSString;
+@class ENGroupID;
 
 @interface IDSMPConversationGroup
 {
     ENGroupID *_groupID;
-    NSData *_publicKeyData;
-    NSData *_forwardingTicket;
-    unsigned long long _generation;
-    NSData *_applicationData;
-    NSString *_sponsorAlias;
-    NSDictionary *_groupMembers;
 }
 
 + (id);
@@ -25,28 +19,22 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (unsigned long long);
 - (id)4@0:8@"IDSLinkSelectionStrategy"16 /* Error: Ran out of types for this method. */;
-- (id)ate:state2:state3:relayCandidatePairsOnly:excludeSelfAlloc: /* Error: Ran out of types for this method. */;
+- (id)_hasCandidatePairInState:state2:state3:relayCandidatePairsOnly:excludeSelfAlloc: /* Error: Ran out of types for this method. */;
 - (id)RecordZone - Create - Begin;
 - (void)oad %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *applicationData; // @synthesize applicationData=_applicationData;
-@property(readonly, nonatomic) NSData *forwardingTicket; // @synthesize forwardingTicket=_forwardingTicket;
-@property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
 @property(readonly, nonatomic) ENGroupID *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) NSDictionary *groupMembers; // @synthesize groupMembers=_groupMembers;
-@property(readonly, nonatomic) NSData *publicKeyData; // @synthesize publicKeyData=_publicKeyData;
-@property(readonly, nonatomic) NSString *sponsorAlias; // @synthesize sponsorAlias=_sponsorAlias;
 
 @end
 

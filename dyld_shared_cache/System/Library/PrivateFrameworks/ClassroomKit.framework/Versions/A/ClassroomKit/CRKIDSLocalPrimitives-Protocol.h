@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @protocol CRKIDSLocalPrimitives
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *accounts;
 @property(readonly, copy, nonatomic) NSDictionary *debugInfo;
 @end
 

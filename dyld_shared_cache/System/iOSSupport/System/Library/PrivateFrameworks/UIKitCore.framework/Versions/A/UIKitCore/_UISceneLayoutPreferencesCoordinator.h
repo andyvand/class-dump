@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _UISceneLayoutPreferencesCoordinatorDelegate;
 
 __attribute__((visibility("hidden")))
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnion_c6a188fc);
-- (void);
+- (void);
 - (struct CGSize);
 - (id);
 - (id);
@@ -32,14 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)ÑÅ03X*¸þÑÅ03ä*¸þÙÅ03à*¸þ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UISceneLayoutPreferencesCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

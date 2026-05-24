@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)T;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enabled;

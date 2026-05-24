@@ -7,7 +7,6 @@
 @interface TeaUI.RadarAttachmentResolver
 {
     id temporaryDirectory;
-    id diagnosticAttachmentResolver;
 }
 
 @end

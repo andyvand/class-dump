@@ -16,11 +16,11 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)semanticallyDedupedItemsInItems:(id)arg1 options:debugInfo:progressBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)eTrackIDs: /* Error: Ran out of types for this method. */;
+- (void)setRequiredSourceTrackIDs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *modeValue; // @synthesize modeValue=_modeValue;

@@ -7,17 +7,10 @@
 @interface NewsUI2.PuzzleContinuePlayingViewController
 {
     id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintLayoutProvider;
-    id lastComputedSize;
-    id blueprintHorizontalShimView;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

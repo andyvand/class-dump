@@ -10,9 +10,9 @@
 }
 
 + (_Bool);
-- (struct CGRect);
-- (id);
-- (void);
+- (struct CGRect));
+- (id)_;
+- (void)$;
 - (id);
 
 @end

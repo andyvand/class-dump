@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SFRemoteHotspotInfo
 {
     NSString *_name;
-    NSString *_password;
-    NSNumber *_channel;
 }
 
 + (_Bool);
@@ -20,16 +18,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)APTNANDataSessionProperty_HandleAuthorizationRequestBlock;
 - (id);
 - (void);
-- (void)verrideForContainerAccess;
+- (void)applicationBundleIdentifierOverrideForContainerAccess;
 - (void)ð©þÿõ¡ÿÿÿþÿ;
 
 // Remaining properties
-@property(retain) NSNumber *channel; // @synthesize channel=_channel;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) NSString *password; // @synthesize password=_password;
 
 @end
 

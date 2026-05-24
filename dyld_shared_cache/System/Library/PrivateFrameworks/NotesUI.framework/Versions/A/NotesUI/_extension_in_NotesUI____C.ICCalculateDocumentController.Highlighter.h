@@ -7,17 +7,11 @@
 @interface (extension in NotesUI):__C.ICCalculateDocumentController.Highlighter
 {
     id controller;
-    id highlightAttributeName;
-    id currentHighlightsAttributedString;
-    id currentHighlightsAttributedStringHasHighlights;
-    id $__lazy_storage_$_updateDelayer;
-    id isMathPaperSolvingAllowedObservation;
-    id isKeyboardMathSolvingAllowedObservation;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 
 @end

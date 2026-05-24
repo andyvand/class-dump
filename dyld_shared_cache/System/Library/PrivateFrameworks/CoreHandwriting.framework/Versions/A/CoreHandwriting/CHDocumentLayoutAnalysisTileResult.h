@@ -7,15 +7,13 @@
 @interface CHDocumentLayoutAnalysisTileResult
 {
     struct vector<std::vector<float>, std::allocator<std::vector<float>>> _strokeClassificationMatrix;
-    struct vector<std::unordered_map<unsigned long, float>, std::allocator<std::unordered_map<unsigned long, float>>> _sparseAdjacencyMatrix;
-    unsigned long long _hash;
 }
 
 + (void);
 + (void);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_endScrollingInGroup: /* Error: Ran out of types for this method. */;
 - (void *);
 - (void *);
 - (id);
@@ -24,7 +22,7 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)m.;
 - (id);
 - (id);
 - (void);

@@ -7,7 +7,6 @@
 @interface SiriInference.CandidateContactDeduplicator
 {
     id config;
-    id tokenizer;
 }
 
 @end

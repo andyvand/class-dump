@@ -7,10 +7,9 @@
 @interface NewsSubscription.RefreshReceiptTransitionContext
 {
     id receipt;
-    id purchaseID;
 }
 
-- (id);
+- (id).m;
 - (void);
 
 @end

@@ -9,7 +9,6 @@
 @protocol HMHAPMetadataCharacteristic
 
 // Remaining properties
-@property(retain, nonatomic) NSString *chrDescription;
 @property(retain, nonatomic) NSString *uuidStr;
 @end
 

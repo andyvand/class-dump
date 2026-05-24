@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLazyResult;
-
 @interface PPLocalNamedEntityStoreGuardedData
 {
     _Bool _pendingNamedEntityChangeNotification;
-    _PASLazyResult *_filter;
-    _PASLazyResult *_mapsSearchQueryResult;
 }
 
 - (void)_CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16^@24;

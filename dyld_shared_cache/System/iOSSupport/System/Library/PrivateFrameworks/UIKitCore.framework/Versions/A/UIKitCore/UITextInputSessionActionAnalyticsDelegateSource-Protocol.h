@@ -9,5 +9,10 @@
 @protocol UITextInputSessionActionAnalyticsDelegateSource
 - (UIResponder *)sal;
 - (NSUUID *)v[;
+
+@optional
+- (long long)_noticeEventHistory;
+- (void);
+- (void);
 @end
 

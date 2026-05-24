@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOperationQueue, NSString, NSUUID, NSXPCConnection;
-@protocol NSCopying, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface ICMusicSubscriptionStatusController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    unsigned long long _numberOfActiveRemoteRequests;
-    NSOperationQueue *_operationQueue;
-    id <NSCopying> _privacyAcknowledgementObservationToken;
-    NSXPCConnection *_remoteRequestingClientConnection;
-    NSUUID *_remoteRequestingClientConnectionIdentifier;
-    NSObject<OS_dispatch_source> *_remoteRequestingClientConnectionInvalidationTimer;
-    NSMutableDictionary *_statusHandlersForPendingIdenticalRequests;
-    NSMutableDictionary *_pendingRequests;
 }
 
 + (_Bool);
@@ -27,15 +18,11 @@
 - (void);
 - (void);
 - (void);
+- (void)ntactDelegate>";
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -46,15 +33,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void)_addNotification;
+- (void);
+- (id),@;
+- (void)N25domGles_basic_type_common6domIntE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)BdBc!8b8aaa"d;
 - (_Bool);
 - (void);
 - (void)Â0@ù
@@ -62,13 +53,7 @@
 - (void)N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

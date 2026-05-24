@@ -4,69 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSData, NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIRecord
 {
     NSString *_persistentID;
-    unsigned int _windowID;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_keyedState;
-    NSMutableArray *_securityScopedBookmarks;
-    NSData *_archivedState;
-    _Bool _isCarbonWindow;
-    _Bool _isFromLSFileListEra;
-    unsigned char _encryptionKey[16];
 }
 
 + (id);
-+ (void);
++ (void)URLRequest getObjectKeyWithIndex:(id)arg1 ];
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)nd match for domain <%{private}s> (index %d) owner <%{private}s>;
+- (_Bool)ry = %p;
+- (id);
+- (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)onCrypto.dylib;
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (id)_compare<std:(_Bool)arg1:(id)arg2 string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)checked__getAuthHeadersForResponse;
+- (unsigned long long)checked__conditionalRequirementsChanged;
+- (void)_onqueue_setTransportConnection:(id)arg1;
+- (void)tion block - connection canceled;
+- (id)CT receiver_data, entry_ID from cfurl_cache_receiver_data WHERE isDataOnFS > 0 AND entry_ID in 								 (SELECT entry_ID from cfurl_cache_response WHERE entry_ID > 0 ORDER BY time_stamp ASC LIMIT %d);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id)recovered_session;
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (struct __CFData *);
 - (void);
-- (_Bool)ContainerInsets;
+- (_Bool)textContainerInsets;
 - (long long)|QýÿOÿÿ$ýÿ;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long approximateWrittenSize;
 @property(copy) NSData *archivedState; // @synthesize archivedState=_archivedState;
-@property(readonly, getter=isGlobal) _Bool global;
-@property _Bool isCarbonWindow; // @synthesize isCarbonWindow=_isCarbonWindow;
-@property(readonly) _Bool isFromLSFileListEra; // @synthesize isFromLSFileListEra=_isFromLSFileListEra;
-@property(readonly, copy) NSDictionary *keyedState;
-@property(readonly, copy) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly, copy) NSArray *securityScopedBookmarks;
-@property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end
 

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface DTXResourceTracker
 {
     unsigned long long _total;
-    unsigned long long _maxChunk;
-    unsigned long long _used;
-    unsigned int _waiting;
-    unsigned int _acquireNum;
-    int _suspendCount;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_acqSem;
-    DTXResourceTracker *_parentTracker;
-    _Bool _log;
 }
 
 - (void);
@@ -30,14 +18,12 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long)playTrailer;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool log; // @synthesize log=_log;
-@property(nonatomic) unsigned long long maxChunkSize;
 @property(nonatomic) unsigned long long totalSize;
 
 @end

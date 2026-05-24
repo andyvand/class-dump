@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)isArchived;
 - (id);
 - (void);
-- (void)title:(id)arg1;
+- (void)setLeadingSubtitle:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) SearchUIBackgroundColorView *backgroundView; // @synthesize backgroundView=_backgroundView;

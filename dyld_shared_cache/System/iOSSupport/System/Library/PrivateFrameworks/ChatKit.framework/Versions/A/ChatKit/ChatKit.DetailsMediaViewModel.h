@@ -9,8 +9,6 @@
 @interface ChatKit.DetailsMediaViewModel : ChatKit.DetailsConfiguredViewModel
 {
     id listRowInsets;
-    id mediaSectionBackgroundColor;
-    id _$observationRegistrar;
 }
 
 @end

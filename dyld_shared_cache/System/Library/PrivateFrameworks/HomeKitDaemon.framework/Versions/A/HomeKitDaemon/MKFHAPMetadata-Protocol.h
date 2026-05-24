@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHAPMetadataDatabaseID, NSData, NSDate, NSNumber;
+@class NSData, NSNumber;
 @protocol MKFHomeManager;
 
 @protocol MKFHAPMetadata
+- (void)C;
+- (void);
+- (NSNumber *)ror sending scroll gesture event. %d;
+- (NSData *);
 - (id <MKFHomeManager>)¨$ð;
 - (NSNumber *)target;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHAPMetadataDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHomeManager> homeManager;
 @property(retain, nonatomic) NSData *legacyCloudData;
-@property(retain, nonatomic) NSData *legacyIDSData;
-@property(copy, nonatomic) NSNumber *metadataVersion;
-@property(retain, nonatomic) NSData *rawPlist;
-@property(copy, nonatomic) NSNumber *schemaVersion;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

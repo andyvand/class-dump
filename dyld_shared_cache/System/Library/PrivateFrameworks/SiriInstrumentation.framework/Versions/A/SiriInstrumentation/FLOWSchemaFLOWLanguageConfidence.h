@@ -6,23 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWLanguageConfidence : SISchemaInstrumentationMessage
 {
     int _languageCode;
-    unsigned long long _confidenceScore;
-    struct {
-        unsigned int languageCode:1;
-        unsigned int confidenceScore:1;
-    } _has;
 }
 
 - (void);
+- (void)$;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)t from ApplePay alert. Failing signout.;
+- (void)htForSignout failed , Failing signout.;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -36,13 +29,9 @@
 - (id);
 - (id)asUeiSiriWasUnavailable;
 - (id)xø´ø;
-- (_Bool)rruptionContext;
+- (_Bool)assistantDaemonAudioRecordingInterruptionContext;
 
 // Remaining properties
-@property(nonatomic) unsigned long long confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasLanguageCode;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int languageCode; // @synthesize languageCode=_languageCode;
 
 @end

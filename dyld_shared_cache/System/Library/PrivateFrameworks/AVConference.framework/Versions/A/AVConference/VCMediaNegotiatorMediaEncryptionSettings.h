@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableSet, NSSet;
+@class NSMutableSet, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorMediaEncryptionSettings
 {
     NSMutableSet *_mediaCipherSuites;
-    NSMutableSet *_srtcpCipherSuites;
-    NSData *_sendMediaKey;
 }
 
 - (id);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *mediaCipherSuites; // @synthesize mediaCipherSuites=_mediaCipherSuites;
-@property(readonly, nonatomic) NSData *sendMediaKey; // @synthesize sendMediaKey=_sendMediaKey;
-@property(readonly, nonatomic) NSSet *srtcpCipherSuites; // @synthesize srtcpCipherSuites=_srtcpCipherSuites;
 
 @end
 

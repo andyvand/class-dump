@@ -8,18 +8,13 @@ __attribute__((visibility("hidden")))
 @interface ODDIteratorAttributes
 {
     int mAxis;
-    int mPointType;
-    _Bool mHideLastTransition;
-    int mStart;
-    unsigned int mCount;
-    int mStep;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (int);
 - (void);
 - (int);

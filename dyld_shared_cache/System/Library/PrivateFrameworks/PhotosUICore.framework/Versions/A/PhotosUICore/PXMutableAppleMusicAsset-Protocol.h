@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSURL, PHPhotoLibrary;
+@class NSArray, NSNumber, NSString;
 
 @protocol PXMutableAppleMusicAsset
+- (NSNumber *)!;
+- (NSString *);
+- (NSArray *);
+- (CDStruct_1b6d18a9)sportsFeaturedEventsResourceId;
+- (void);
+- (NSString *)hj;
 - (void)
 × ;
 - (NSString *):°1Â0@ù
@@ -15,27 +21,9 @@
 - (void)"NSString",R,C,N,V_albumName;
 - (NSString *)LHëþ;
 - (void)@"PLManagedAsset"8Q16^B24;
-- (PHPhotoLibrary *);
 - (void);;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumTitle;
-@property(copy, nonatomic) NSString *artistName;
-@property(copy, nonatomic) NSString *artworkURLFormat;
-@property(copy, nonatomic) NSString *colorGradeCategory;
-@property(copy, nonatomic) NSString *contentProvider;
-@property(nonatomic) CDStruct_1b6d18a9 duration;
-@property(copy, nonatomic) NSNumber *energy;
-@property(copy, nonatomic) NSArray *entryPoints;
-@property(nonatomic) unsigned long long flags;
-@property(copy, nonatomic) NSURL *introPreviewURL;
-@property(copy, nonatomic) NSNumber *loudnessMainPeak;
-@property(copy, nonatomic) NSNumber *loudnessMainValue;
-@property(retain, nonatomic) PHPhotoLibrary *photoLibrary;
-@property(copy, nonatomic) NSURL *songURL;
 @property(copy, nonatomic) NSString *storeID;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSNumber *valence;
-@property(copy, nonatomic) NSNumber *visualTempo;
 @end
 

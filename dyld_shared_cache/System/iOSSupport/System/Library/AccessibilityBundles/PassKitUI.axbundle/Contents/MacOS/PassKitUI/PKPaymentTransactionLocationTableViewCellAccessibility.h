@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__VKCVisualSearchCornerViewAccessibility_super;
 + (void);
 - (_Bool);
 - (id);

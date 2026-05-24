@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSSTheme, TSUCustomCallBackDictionary;
+@class TSSTheme;
 
 @interface TSSThemeAssetMapper
 {
     TSSTheme *mFromTheme;
-    TSSTheme *mToTheme;
-    TSUCustomCallBackDictionary *mAssetMap;
 }
 
 - (_Bool);
@@ -18,17 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NCMTimebaseRef;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) TSSTheme *fromTheme; // @synthesize fromTheme=mFromTheme;
-@property(readonly, nonatomic) TSSTheme *toTheme; // @synthesize toTheme=mToTheme;
 
 @end
 

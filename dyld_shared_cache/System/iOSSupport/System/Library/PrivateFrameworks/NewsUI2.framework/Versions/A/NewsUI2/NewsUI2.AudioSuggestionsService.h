@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioSuggestionsService
 {
     id cloudContext;
-    id paidBundleConfigManager;
-    id audioPlaylist;
-    id personalizationService;
 }
 
 @end

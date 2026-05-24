@@ -5,5 +5,6 @@
 //
 
 @protocol AppStoreKit.JSTimeoutManagerExports__priv_BF597D35F59A6C9F417C13B388F39AC2
+- (void)o;
 @end
 

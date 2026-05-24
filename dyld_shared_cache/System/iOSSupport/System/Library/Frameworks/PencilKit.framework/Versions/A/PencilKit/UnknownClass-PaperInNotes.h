@@ -16,10 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *_paperBundleAssetsURL;
 @property(readonly, nonatomic) NSURL *_paperBundleBaseURL;
-@property(readonly, nonatomic) NSURL *_paperBundleDatabaseURL;
-@property(nonatomic) _Bool pkAttachmentBoundsMightBeInvalid;
-@property(nonatomic) _Bool pkInserting;
 @end
 

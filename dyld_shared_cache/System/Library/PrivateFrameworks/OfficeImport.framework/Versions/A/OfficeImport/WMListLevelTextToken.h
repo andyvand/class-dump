@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMNumberFormatter, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface WMListLevelTextToken
 {
     NSString *_string;
-    int _level;
-    CMNumberFormatter *_formatter;
 }
 
 + (id);
@@ -19,10 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (int)7EshBackgroundPropertiesImpl;
+- (int)27EshBackgroundPropertiesImpl;
 
 // Remaining properties
-@property(readonly) int level; // @synthesize level=_level;
 @property(readonly) NSString *string; // @synthesize string=_string;
 
 @end

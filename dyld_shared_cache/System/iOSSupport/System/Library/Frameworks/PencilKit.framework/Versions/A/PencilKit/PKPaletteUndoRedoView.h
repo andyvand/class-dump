@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, PKPaletteButton, UIStackView;
-@protocol PKPaletteUndoRedoViewDelegate;
+@class UIStackView;
 
 @interface PKPaletteUndoRedoView
 {
     _Bool _undoEnabled;
-    _Bool _redoEnabled;
-    unsigned long long _edgeLocation;
-    unsigned long long _cornerLocation;
-    double _scalingFactor;
-    id <PKPaletteUndoRedoViewDelegate> _delegate;
-    PKPaletteButton *_undoButton;
-    PKPaletteButton *_redoButton;
-    double _interItemSpacing;
-    UIStackView *_stackView;
-    NSLayoutConstraint *_undoButtonWidthConstraint;
-    NSLayoutConstraint *_undoButtonHeightConstraint;
-    NSLayoutConstraint *_redoButtonWidthConstraint;
-    NSLayoutConstraint *_redoButtonHeightConstraint;
 }
 
 - (id);
@@ -54,7 +40,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)9;
 - (void);
 - (double);
 - (struct CGSize);
@@ -63,30 +49,10 @@
 - (void);
 - (id);
 - (double);
-- (void)gate;
+- (void)PKPaletteToolPreviewDelegate;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaletteUndoRedoViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long edgeLocation; // @synthesize edgeLocation=_edgeLocation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;
-@property(retain, nonatomic) PKPaletteButton *redoButton; // @synthesize redoButton=_redoButton;
-@property(retain, nonatomic) NSLayoutConstraint *redoButtonHeightConstraint; // @synthesize redoButtonHeightConstraint=_redoButtonHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *redoButtonWidthConstraint; // @synthesize redoButtonWidthConstraint=_redoButtonWidthConstraint;
-@property(nonatomic, getter=isRedoEnabled) _Bool redoEnabled; // @synthesize redoEnabled=_redoEnabled;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PKPaletteButton *undoButton; // @synthesize undoButton=_undoButton;
-@property(retain, nonatomic) NSLayoutConstraint *undoButtonHeightConstraint; // @synthesize undoButtonHeightConstraint=_undoButtonHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *undoButtonWidthConstraint; // @synthesize undoButtonWidthConstraint=_undoButtonWidthConstraint;
-@property(nonatomic, getter=isUndoEnabled) _Bool undoEnabled; // @synthesize undoEnabled=_undoEnabled;
 
 @end
 

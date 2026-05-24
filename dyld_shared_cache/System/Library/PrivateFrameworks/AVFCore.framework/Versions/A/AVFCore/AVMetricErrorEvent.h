@@ -6,12 +6,9 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class NSError;
-
 @interface AVMetricErrorEvent : AVMetricEvent
 {
     _Bool _didRecover;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(readonly) _Bool didRecover;
-@property(readonly) NSError *error;
 
 @end
 

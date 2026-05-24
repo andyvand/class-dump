@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPExtensionEnumerationSettings, NSData, NSMutableDictionary, NSObject, NSString;
-@protocol FPCollectionDataSourceDelegate, FPDLifetimeServicing, FPXEnumerator, OS_dispatch_queue;
+@class FPExtensionEnumerationSettings, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface FPExtensionDataSource
 {
     FPExtensionEnumerationSettings *_enumerationSettings;
-    id <FPXEnumerator> _enumerator;
-    _Bool _started;
-    _Bool _invalidated;
-    _Bool _shouldUpdate;
-    _Bool _enumeratingExtensionResults;
-    NSData *_nextPageToken;
-    NSData *_changeToken;
-    unsigned long long _numGatheredItems;
-    id <FPDLifetimeServicing> _lifetimeExtender;
-    NSMutableDictionary *_oobBuffer;
-    _Bool _hasMoreIncoming;
-    id <FPCollectionDataSourceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void);
@@ -44,25 +31,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)CTSimHardwareTypeUnknown;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (void)ñç)1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FPCollectionDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMoreIncoming; // @synthesize hasMoreIncoming=_hasMoreIncoming;
-@property(readonly) unsigned long long hash;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

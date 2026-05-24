@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface MetadataExtractor
 {
     struct BundleFrame _bundleFrame;
-    struct BundleScriptWorld _isolatedWorld;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)k!;
 - (void);
 
 @end

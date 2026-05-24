@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSKPlaceholderTextView, UIView;
-@protocol UITextViewDelegate;
+@class NSString, TSKPlaceholderTextView;
 
 @interface TSKEditableTextViewCell
 {
     TSKPlaceholderTextView *mTextView;
-    UIView *mInputView;
-    _Bool mNumberHasDecimal;
-    id <UITextViewDelegate> mSavedDelegate;
 }
 
+- (void)al pressure policy %@ [level:%ld] /* Error: Ran out of types for this method. */;
+- (void);
+- (void):(id)arg1;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)S};
 - (void);
 - (void);
 - (void);
@@ -39,14 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *string;
-@property(readonly) Class superclass;
 
 @end
 

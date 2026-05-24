@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, PXObservable;
+@class NSError;
 
 @interface PXDefaultAppleMusicStatusProvider
 {
     id $__lazy_storage_$_systemTCCStatusProvider;
-    id injectedTCCStatusProvider;
-    id cloudStatusMonitor;
-    PXObservable *observable;
-    id lockedState;
 }
 
 - (long long);
@@ -25,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSError *error;
-@property(nonatomic, readonly) PXObservable *observable; // @synthesize observable;
 
 @end
 

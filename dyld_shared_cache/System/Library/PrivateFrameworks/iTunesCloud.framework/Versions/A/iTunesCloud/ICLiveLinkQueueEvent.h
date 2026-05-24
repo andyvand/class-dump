@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLinkQueueEventContentAdded, ICLiveLinkQueueEventContentPlayedNow, ICLiveLinkQueueEventContentRemoved, ICLiveLinkQueueEventContentReordered, ICLiveLinkQueueEventContentReplaced, ICLiveLinkQueueEventContentUpdatedMessage, ICLiveLinkQueueEventPlaybackModeChanged;
-
 @interface ICLiveLinkQueueEvent
 {
     long long _kind;
-    ICLiveLinkQueueEventContentAdded *_contentAdded;
-    ICLiveLinkQueueEventContentPlayedNow *_contentPlayedNow;
-    ICLiveLinkQueueEventContentRemoved *_contentRemoved;
-    ICLiveLinkQueueEventContentReordered *_contentReordered;
-    ICLiveLinkQueueEventContentReplaced *_contentReplaced;
-    ICLiveLinkQueueEventContentUpdatedMessage *_contentUpdatedMessage;
-    ICLiveLinkQueueEventPlaybackModeChanged *_playbackModeChanged;
 }
 
 + (id);
@@ -24,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)ion>";
 - (id);
 - (id);
 - (id);
@@ -34,17 +25,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)ICMusicSubscriptionFairPlayKeyStatus;
 
 // Remaining properties
-@property(readonly, nonatomic) ICLiveLinkQueueEventContentAdded *contentAdded; // @synthesize contentAdded=_contentAdded;
-@property(readonly, nonatomic) ICLiveLinkQueueEventContentPlayedNow *contentPlayedNow; // @synthesize contentPlayedNow=_contentPlayedNow;
-@property(readonly, nonatomic) ICLiveLinkQueueEventContentRemoved *contentRemoved; // @synthesize contentRemoved=_contentRemoved;
-@property(readonly, nonatomic) ICLiveLinkQueueEventContentReordered *contentReordered; // @synthesize contentReordered=_contentReordered;
-@property(readonly, nonatomic) ICLiveLinkQueueEventContentReplaced *contentReplaced; // @synthesize contentReplaced=_contentReplaced;
-@property(readonly, nonatomic) ICLiveLinkQueueEventContentUpdatedMessage *contentUpdatedMessage; // @synthesize contentUpdatedMessage=_contentUpdatedMessage;
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) ICLiveLinkQueueEventPlaybackModeChanged *playbackModeChanged; // @synthesize playbackModeChanged=_playbackModeChanged;
 
 @end
 

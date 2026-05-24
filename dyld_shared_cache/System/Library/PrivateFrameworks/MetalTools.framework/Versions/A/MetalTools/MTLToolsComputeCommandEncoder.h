@@ -6,7 +6,6 @@
 
 #import <MetalTools/MTLToolsCommandEncoder.h>
 
-@class NSString;
 @protocol MTLDevice;
 
 @interface MTLToolsComputeCommandEncoder : MTLToolsCommandEncoder
@@ -25,6 +24,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,15 +35,14 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void)o;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -51,6 +50,15 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void)<;
+- (void);
+- (void);
+- (void)A�;
+- (void);
+- (void)NSt3__110__function6__funcIZNK11InputEngine20AmbiguousTrieAdapterIN11RomajiTools10RomajiTrieEE15ambiguousSearchERKNS2_30AmbiguousTrieSearchLatticeBaseIDsEERKNS_8functionIFvRKN3nlp13ScoredPayloadIPKDsEEPKcmmRbEEEbiEUlSI_SK_mPKmmmSL_E_FvSI_SK_mSR_mmSL_EEE;
+- (void)NSt3__110__function6__funcIZZNK11InputEngine20AmbiguousTrieAdapterINS2_22StaticBurstTrieAdapterIiDsEEE20enumerateCompletionsERKNS2_30AmbiguousTrieSearchLatticeBaseIDsEEiRKNS_8functionIFvRKN3nlp13ScoredPayloadIiEEPKcmPKmmmRbEEEiENKUlRKNS2_28StaticBurstTrieAdapterCursorEfSI_mSK_mmSL_E_clESS_fSI_mSK_mmSL_EUlRKiSI_mSL_E_FvSV_SI_mSL_EEE;
+- (void)__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,37 +67,19 @@
 - (void);
 - (void);
 - (void);
+- (void)ointerFvS5_16LXPartOfSpeechIDPhEE3$_0FvmNS_17basic_string_viewIcNS_11char_traitsIcEEEERbEEE;
+- (void)JH	J=H;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)M=;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long dispatchType;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,15 +6,13 @@
 
 #import <MediaPlayer/MPSectionedIdentifierList.h>
 
-@class MPRandomDistribution, NSArray, NSMutableArray;
+@class NSArray;
 @protocol _MPSSILDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _MPSSILImplementation : MPSectionedIdentifierList
 {
     NSArray *_orderedSectionIDs;
-    MPRandomDistribution *_randomDistribution;
-    NSMutableArray *_candidateItems;
 }
 
 + (_Bool);
@@ -35,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -47,12 +45,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (void)ion:beforeTailOfSection:completion: /* Error: Ran out of types for this method. */;
+- (void)addDataSource:section:beforeTailOfSection:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *candidateItems; // @synthesize candidateItems=_candidateItems;
 @property(nonatomic) __weak id <_MPSSILDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) MPRandomDistribution *randomDistribution; // @synthesize randomDistribution=_randomDistribution;
 
 @end
 

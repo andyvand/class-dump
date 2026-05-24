@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSXMLParser;
+
 @protocol NSXMLParserDelegate
+
+@optional
+- (void);
+- (void):(NSXMLParser *)arg1 %@. messageGUID:(NSString *)arg2 %@;
+- (void);
 @end
 

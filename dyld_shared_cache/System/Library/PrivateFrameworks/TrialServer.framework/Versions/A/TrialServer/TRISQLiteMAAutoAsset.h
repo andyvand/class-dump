@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, NSString, TRIFullMAAssetId, TRISQLiteMADatabase;
+@class TRIFullMAAssetId, TRISQLiteMADatabase;
 
 @interface TRISQLiteMAAutoAsset
 {
     TRISQLiteMADatabase *_db;
-    TRIFullMAAssetId *assetId;
-    MAAutoAssetSelector *assetSelector;
 }
 
-+ (void)ctorsWithTreatmentId:(id)arg1 namespaceName: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
++ (void)_removeFactorsWithTreatmentId:(id)arg1 namespaceName: /* Error: Ran out of types for this method. */;
+- (id)quicktimeImageIdentifier;
+- (id)ownerName;
+- (id)outroDurationForSongPace:(id *)arg1;
 - (void);
 - (id);
-- (void);
+- (void)setFilename:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -32,14 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TRIFullMAAssetId *assetId; // @synthesize assetId;
-@property(retain, nonatomic) MAAutoAssetSelector *assetSelector; // @synthesize assetSelector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

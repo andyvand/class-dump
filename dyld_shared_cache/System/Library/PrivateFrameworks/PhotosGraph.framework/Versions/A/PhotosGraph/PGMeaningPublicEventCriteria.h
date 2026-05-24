@@ -9,7 +9,6 @@
 @interface PGMeaningPublicEventCriteria
 {
     NSString *_publicEventCategory;
-    NSString *_publicEventCategoryNameString;
 }
 
 + (id);
@@ -26,15 +25,7 @@
 - (void)ncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/Conveniences/PGMemoryFeatureBlocking.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *publicEventCategory; // @synthesize publicEventCategory=_publicEventCategory;
 @property(retain, nonatomic) NSString *publicEventCategoryNameString; // @synthesize publicEventCategoryNameString=_publicEventCategoryNameString;
-@property(readonly) Class superclass;
 
 @end
 

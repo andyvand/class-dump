@@ -7,8 +7,6 @@
 @interface PhotosUICore.PhotosFeedbackActionPerformer
 {
     id feedbackController;
-    id previousMemoryUUID;
-    id previousAssetUUID;
 }
 
 - (id);

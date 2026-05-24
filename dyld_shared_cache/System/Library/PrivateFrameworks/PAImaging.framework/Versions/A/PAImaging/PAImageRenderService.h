@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject, PAImageRenderRequestHandler, PATimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PAImageRenderService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_requestHandlers;
-    PAImageRenderRequestHandler *_currentRequestHandler;
-    NSMutableSet *_completingRequestHandlers;
-    PATimer *_timer;
 }
 
 + (id);

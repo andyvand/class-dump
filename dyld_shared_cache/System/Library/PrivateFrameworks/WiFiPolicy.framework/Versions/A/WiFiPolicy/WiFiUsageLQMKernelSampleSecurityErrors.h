@@ -11,11 +11,6 @@
 @interface WiFiUsageLQMKernelSampleSecurityErrors : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _rxUcastReplayError;
-    unsigned long long _rxucastDecryptError;
-    unsigned long long _rxmcastReplayError;
-    unsigned long long _rxmcastDecryptError;
 }
 
 + (id);
@@ -23,24 +18,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)!;
+- (unsigned long long);
 - (id);
-- (double);
+- (double)navigationControllerPreferredInterfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long rxUcastReplayError; // @synthesize rxUcastReplayError=_rxUcastReplayError;
-@property(nonatomic) unsigned long long rxmcastDecryptError; // @synthesize rxmcastDecryptError=_rxmcastDecryptError;
-@property(nonatomic) unsigned long long rxmcastReplayError; // @synthesize rxmcastReplayError=_rxmcastReplayError;
-@property(nonatomic) unsigned long long rxucastDecryptError; // @synthesize rxucastDecryptError=_rxucastDecryptError;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

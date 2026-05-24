@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface IMTranscodeController
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
 }
 
 + (id);
@@ -35,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)QhR;
 - (void);
 - (id);
 - (void);
@@ -48,7 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
 
 @end
 

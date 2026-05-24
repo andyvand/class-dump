@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATextLayer, QCCompositionCellLayer, QCPickerSelectionLayer;
+@class QCCompositionCellLayer;
 
 @interface QCCompositionPickerGridCellLayer
 {
     QCCompositionCellLayer *_QCLayer;
-    QCPickerSelectionLayer *_selectionLayer;
-    CATextLayer *_textLayer;
-    struct CGColor *_cellFocusRingColor;
-    struct CGColor *_cellSelectedTextColor;
-    struct CGColor *_cellTextColor;
-    id _controller;
-    _Bool _selected;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void)resident is changing from [%@] to [%@];
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)yI11daeSmartRefIN13domProfile_CG12domTechnique7domPass9domShader7domBindEEE;
-- (_Bool)x3E;
+- (void)D;
+- (void)9daeTArrayI11daeSmartRefIN13domProfile_CG12domTechnique7domPass9domShader7domBindEEE;
+- (_Bool)N23domFx_basic_type_common11domFloat1x3E;
 - (void)`e;
 
 @end

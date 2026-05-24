@@ -6,45 +6,35 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface CEMNetworkVPNDeclaration_AlwaysOn : CEMPayloadBase
 {
     NSArray *_payloadTunnelConfigurations;
-    NSNumber *_payloadUIToggleEnabled;
-    NSArray *_payloadServiceExceptions;
-    NSNumber *_payloadAllowCaptiveWebSheet;
-    NSNumber *_payloadAllowAllCaptiveNetworkPlugins;
-    NSArray *_payloadAllowedCaptiveNetworkPlugins;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)framework/Versions/A/OSAnalytics;
+- (void)a L`;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
+- (void)`;
+- (_Bool)SynthesisVoiceFromTTSAXResource(TTSAXResource *__strong);
+- (id);
+- (void)DTLS1_SEND_SERVER_HELLO;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadAllowAllCaptiveNetworkPlugins; // @synthesize payloadAllowAllCaptiveNetworkPlugins=_payloadAllowAllCaptiveNetworkPlugins;
-@property(copy, nonatomic) NSNumber *payloadAllowCaptiveWebSheet; // @synthesize payloadAllowCaptiveWebSheet=_payloadAllowCaptiveWebSheet;
-@property(copy, nonatomic) NSArray *payloadAllowedCaptiveNetworkPlugins; // @synthesize payloadAllowedCaptiveNetworkPlugins=_payloadAllowedCaptiveNetworkPlugins;
-@property(copy, nonatomic) NSArray *payloadServiceExceptions; // @synthesize payloadServiceExceptions=_payloadServiceExceptions;
 @property(copy, nonatomic) NSArray *payloadTunnelConfigurations; // @synthesize payloadTunnelConfigurations=_payloadTunnelConfigurations;
-@property(copy, nonatomic) NSNumber *payloadUIToggleEnabled; // @synthesize payloadUIToggleEnabled=_payloadUIToggleEnabled;
 
 @end
 

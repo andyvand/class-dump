@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserDataDirectories, NSAppearance, NSArray, NSDateFormatter, NSMutableDictionary, NSString, StartPageCollectionViewLayoutSection, StartPageFeatureAvailabilityImportBrowserDataCollectionViewItem;
-@protocol StartPageCollectionSectionProviderDelegate, StartPageFeatureAvailabilitySectionProviderDelegate;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface StartPageFeatureAvailabilitySectionProvider
 {
     NSMutableDictionary *_cachedTemplateCollectionViewItems;
-    long long _featureAvailabilityState;
-    StartPageCollectionViewLayoutSection *_cachedLayoutSection;
-    StartPageFeatureAvailabilityImportBrowserDataCollectionViewItem *_newImportBrowserDataCollectionViewItem;
-    BrowserDataDirectories *_browserDataDirectories;
-    unsigned long long _availableDataTypes;
-    id <StartPageFeatureAvailabilitySectionProviderDelegate> _delegate;
-    NSDateFormatter *_dateFormatter;
-    _Bool _softwareUpdateAwarenessContentDidChange;
-    _Bool _usesPrivateBrowsing;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
-    NSString *_identifier;
 }
 
 - (id);
@@ -59,29 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)ÅU,;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) _Bool isShowingSoftwareUpdateAwarenessSection;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
+@class NSCollectionViewItem, NSView;
 
 @protocol NSCollectionViewDataSource
+- (NSCollectionViewItem *);
 
 @optional
 - (NSView *)á	;

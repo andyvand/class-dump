@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBButtonItem, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBButtonItem, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemPlayerCardSection
+- (void);
+- (_SFPBRFTextProperty *)NSColor"24@0:8@"AKAnnotationRendererOptions"16 /* Error: Ran out of types for this method. */;
+- (_SFPBButtonItem *)ForClient;
+- (NSData *)ueue;
+- (void)LibrarySizeRangeSmall;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBButtonItem *player;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

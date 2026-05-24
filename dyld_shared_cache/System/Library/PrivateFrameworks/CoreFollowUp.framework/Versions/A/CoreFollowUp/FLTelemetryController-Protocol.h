@@ -5,5 +5,8 @@
 //
 
 @protocol FLTelemetryController
+- (void);
+- (void)P;
+- (void)y;
 @end
 

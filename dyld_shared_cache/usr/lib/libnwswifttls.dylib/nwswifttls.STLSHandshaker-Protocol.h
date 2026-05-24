@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol nwswifttls.STLSHandshaker
+- (NSData *);
 @end
 

@@ -7,7 +7,6 @@
 @interface _NSBundleODRTag
 {
     double _preservationPriority;
-    _Bool _alwaysPreserved;
 }
 
 + (_Bool)Invocation during send for sequence %d, exception is %@;
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool alwaysPreserved; // @synthesize alwaysPreserved=_alwaysPreserved;
 @property double preservationPriority; // @synthesize preservationPriority=_preservationPriority;
 
 @end

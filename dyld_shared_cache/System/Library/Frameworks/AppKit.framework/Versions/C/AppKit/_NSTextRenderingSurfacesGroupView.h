@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)Kit18FluidAnimationBase;
+- (id)_TtC6AppKit18FluidAnimationBase;
 
 @end
 

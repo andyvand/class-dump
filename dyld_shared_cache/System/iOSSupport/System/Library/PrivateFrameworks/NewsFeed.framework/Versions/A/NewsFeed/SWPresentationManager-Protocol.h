@@ -7,12 +7,9 @@
 @class SWPresentationDatastore;
 
 @protocol SWPresentationManager
+- (SWPresentationDatastore *);
 
 // Remaining properties
-@property(readonly, nonatomic) SWPresentationDatastore *datastore;
-@property(readonly, nonatomic) double height;
-@property(copy, nonatomic, setter=onLoad:) CDUnknownBlockType loadBlock;
-@property(copy, nonatomic, setter=onPresentable:) CDUnknownBlockType presentableBlock;
 @property(nonatomic) unsigned long long presentationState;
 @end
 

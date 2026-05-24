@@ -6,38 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaUEIDictationVoiceCommandExecuted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_voiceCommandId;
-    int _commandStatus;
-    int _commandType;
-    unsigned long long _commandTargetWordCount;
-    unsigned long long _commandPayloadWordCount;
-    unsigned long long _commandTargetCharacterCount;
-    unsigned long long _commandPayloadCharacterCount;
-    unsigned long long _commandExecutionStartTimeInNs;
-    unsigned long long _commandExecutionEndTimeInNs;
-    _Bool _hasSpelling;
-    _Bool _hasTextSelection;
-    _Bool _isWfstParseable;
-    _Bool _hasAdjacentEdit;
-    struct {
-        unsigned int commandStatus:1;
-        unsigned int commandType:1;
-        unsigned int commandTargetWordCount:1;
-        unsigned int commandPayloadWordCount:1;
-        unsigned int commandTargetCharacterCount:1;
-        unsigned int commandPayloadCharacterCount:1;
-        unsigned int commandExecutionStartTimeInNs:1;
-        unsigned int commandExecutionEndTimeInNs:1;
-        unsigned int hasSpelling:1;
-        unsigned int hasTextSelection:1;
-        unsigned int isWfstParseable:1;
-        unsigned int hasAdjacentEdit:1;
-    } _has;
-    _Bool _hasVoiceCommandId;
 }
 
 - (id);
@@ -46,12 +19,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)!;
+- (void)";
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
@@ -71,7 +44,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)n;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -98,52 +71,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)1	?׀;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)tS;
 - (id);
 - (int);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)completionHandlerAdapter;
 - (_Bool);
-- (_Bool);
+- (_Bool), rmp.part_text FROM recoverable_message_part AS rmp JOIN chat AS c ON c.ROWID = rmp.chat_id AND c.guid = ? JOIN message AS m ON m.ROWID = rmp.message_id;;
 - (id);
 - (void);
 - (id);
-- (id)idTrialParameters;
-- (id)geOptInDigestReported;
-- (void)ISTICRULE;
+- (id)deleteEuclidTrialParameters;
+- (id)_hasAssistantDiagnosticAndUsageOptInDigestReported;
+- (void)NLROUTERTRIGGEREDHEURISTICRULE_MULTITURNHEURISTICRULE;
 
 // Remaining properties
-@property(nonatomic) unsigned long long commandExecutionEndTimeInNs; // @synthesize commandExecutionEndTimeInNs=_commandExecutionEndTimeInNs;
-@property(nonatomic) unsigned long long commandExecutionStartTimeInNs; // @synthesize commandExecutionStartTimeInNs=_commandExecutionStartTimeInNs;
-@property(nonatomic) unsigned long long commandPayloadCharacterCount; // @synthesize commandPayloadCharacterCount=_commandPayloadCharacterCount;
-@property(nonatomic) unsigned long long commandPayloadWordCount; // @synthesize commandPayloadWordCount=_commandPayloadWordCount;
-@property(nonatomic) int commandStatus; // @synthesize commandStatus=_commandStatus;
-@property(nonatomic) unsigned long long commandTargetCharacterCount; // @synthesize commandTargetCharacterCount=_commandTargetCharacterCount;
-@property(nonatomic) unsigned long long commandTargetWordCount; // @synthesize commandTargetWordCount=_commandTargetWordCount;
-@property(nonatomic) int commandType; // @synthesize commandType=_commandType;
-@property(nonatomic) _Bool hasAdjacentEdit; // @synthesize hasAdjacentEdit=_hasAdjacentEdit;
-@property(nonatomic) _Bool hasCommandExecutionEndTimeInNs;
-@property(nonatomic) _Bool hasCommandExecutionStartTimeInNs;
-@property(nonatomic) _Bool hasCommandPayloadCharacterCount;
-@property(nonatomic) _Bool hasCommandPayloadWordCount;
-@property(nonatomic) _Bool hasCommandStatus;
-@property(nonatomic) _Bool hasCommandTargetCharacterCount;
-@property(nonatomic) _Bool hasCommandTargetWordCount;
-@property(nonatomic) _Bool hasCommandType;
-@property(nonatomic) _Bool hasHasAdjacentEdit;
-@property(nonatomic) _Bool hasHasSpelling;
-@property(nonatomic) _Bool hasHasTextSelection;
-@property(nonatomic) _Bool hasIsWfstParseable;
-@property(nonatomic) _Bool hasSpelling; // @synthesize hasSpelling=_hasSpelling;
-@property(nonatomic) _Bool hasTextSelection; // @synthesize hasTextSelection=_hasTextSelection;
-@property(nonatomic) _Bool hasVoiceCommandId; // @synthesize hasVoiceCommandId=_hasVoiceCommandId;
-@property(nonatomic) _Bool isWfstParseable; // @synthesize isWfstParseable=_isWfstParseable;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *voiceCommandId; // @synthesize voiceCommandId=_voiceCommandId;
 
 @end

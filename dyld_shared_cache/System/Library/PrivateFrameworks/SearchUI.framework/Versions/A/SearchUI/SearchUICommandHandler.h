@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMenu, NSString, NSViewController, SFButtonItem, SFCommand, SFImage, SFPunchout, SearchUICommandEnvironment, SearchUIRowModel, SearchUISectionModel;
-@protocol QLPreviewItem;
+@class SearchUIRowModel;
 
 @interface SearchUICommandHandler
 {
     _Bool _prefersModalPresentation;
-    _Bool _supportsOpen;
-    _Bool _supportsShare;
-    NSViewController *_viewController;
-    SFCommand *_command;
-    SearchUIRowModel *_rowModel;
-    SearchUISectionModel *_sectionModel;
-    SearchUICommandEnvironment *_environment;
-    SFButtonItem *_buttonItem;
-    NSMenu *_contextMenu;
-    NSArray *_additionalPreviewActionCommandHandlers;
-    id <QLPreviewItem> _previewItem;
-    NSString *_defaultSymbolName;
-    SFPunchout *_destinationPunchout;
 }
 
 + (id);
@@ -63,10 +49,10 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
@@ -75,45 +61,21 @@
 - (id);
 - (id);
 - (id);
+- (id)[;
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
+- (void)=dd}52{CGRect={CGPoint=dd}{CGSize=dd}}68;
 - (unsigned long long);
-- (id);
+- (id)ictionary from file:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *additionalPreviewActionCommandHandlers; // @synthesize additionalPreviewActionCommandHandlers=_additionalPreviewActionCommandHandlers;
-@property(retain) SFButtonItem *buttonItem; // @synthesize buttonItem=_buttonItem;
-@property(retain) SFCommand *command; // @synthesize command=_command;
-@property(readonly) NSMenu *contextMenu; // @synthesize contextMenu=_contextMenu;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSString *defaultSymbolName; // @synthesize defaultSymbolName=_defaultSymbolName;
-@property(readonly) NSString *defaultTitle;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long destination;
-@property(readonly) NSString *destinationApplicationBundleIdentifier;
-@property(readonly) SFImage *destinationApplicationIconImage;
-@property(readonly) SFPunchout *destinationPunchout; // @synthesize destinationPunchout=_destinationPunchout;
-@property(retain) SearchUICommandEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool prefersModalPresentation; // @synthesize prefersModalPresentation=_prefersModalPresentation;
-@property(readonly) id <QLPreviewItem> previewItem; // @synthesize previewItem=_previewItem;
 @property(retain) SearchUIRowModel *rowModel; // @synthesize rowModel=_rowModel;
-@property(readonly) SearchUISectionModel *sectionModel; // @synthesize sectionModel=_sectionModel;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsOpen; // @synthesize supportsOpen=_supportsOpen;
-@property(readonly) _Bool supportsShare; // @synthesize supportsShare=_supportsShare;
-@property(retain, nonatomic) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

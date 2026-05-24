@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)-[MPMediaLibraryDataProviderMacOS setValue:(id)arg1 forProperty:ofPlaylistWithIdentifier:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

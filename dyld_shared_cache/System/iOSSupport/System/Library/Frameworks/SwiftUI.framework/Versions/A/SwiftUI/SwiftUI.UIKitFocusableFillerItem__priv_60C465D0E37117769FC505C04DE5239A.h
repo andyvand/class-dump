@@ -6,37 +6,26 @@
 
 #import <SwiftUI/UIKitFocusableViewResponderItemBase.h>
 
-@class NSArray, UIFocusEffect;
-@protocol UIFocusEnvironment, UIFocusItemContainer;
-
 @interface SwiftUI.UIKitFocusableFillerItem__priv_60C465D0E37117769FC505C04DE5239A : UIKitFocusableViewResponderItemBase
 {
     id host;
-    id axis;
-    id logicalFrame;
-    id focusableFrame;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (void)rtDate;
+- (void)startDate;
 - (_Bool);
 - (void)8;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFocused;
-@property(nonatomic, readonly) UIFocusEffect *focusEffect;
-@property(nonatomic, readonly) id <UIFocusItemContainer> focusItemContainer;
 @property(nonatomic, readonly) struct CGRect frame;
-@property(nonatomic, readonly) id <UIFocusEnvironment> parentFocusEnvironment;
-@property(nonatomic, readonly) NSArray *preferredFocusEnvironments;
 
 @end
 

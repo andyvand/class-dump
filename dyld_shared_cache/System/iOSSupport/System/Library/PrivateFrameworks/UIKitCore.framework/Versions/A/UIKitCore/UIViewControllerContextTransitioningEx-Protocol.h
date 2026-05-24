@@ -7,7 +7,9 @@
 @class NSArray;
 
 @protocol UIViewControllerContextTransitioningEx
-- (long long)sidebarResizeTapGestureRecognizer;
+- (void)__MPModelRelationshipAlbumRepresentativeSong__MAPPING_MISSING__;
+- (void)A;
+- (long long)_sidebarResizeTapGestureRecognizer;
 - (void)ingChanged:(_Bool)arg1;
 - (double)RemoteViewController",&,N,V_card;
 - (_Bool)ä_;
@@ -16,8 +18,6 @@
 - (struct CGAffineTransform)defined behavior. %@;
 
 // Remaining properties
-@property(nonatomic, getter=_allowUserInteraction, setter=_setAllowUserInteraction:) _Bool _allowUserInteraction;
 @property(retain, nonatomic, setter=_setContainerViews:) NSArray *_containerViews;
-@property(nonatomic, setter=_setPercentOffset:) double _percentOffset;
 @end
 

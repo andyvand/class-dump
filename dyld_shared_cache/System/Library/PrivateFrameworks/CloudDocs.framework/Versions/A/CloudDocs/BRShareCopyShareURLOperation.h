@@ -6,22 +6,18 @@
 
 #import <CloudDocs/BRShareOperation.h>
 
-@class CKShare, NSError, NSString;
+@class CKShare;
 
 @interface BRShareCopyShareURLOperation : BRShareOperation
 {
     CKShare *_share;
-    NSString *_appName;
-    NSError *_error;
-    CDUnknownBlockType _shareCopyURLCompletionBlock;
-    CDUnknownBlockType _copyShareURLCompletionBlock;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
@@ -33,9 +29,7 @@
 - (id)¤;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType copyShareURLCompletionBlock; // @synthesize copyShareURLCompletionBlock=_copyShareURLCompletionBlock;
 @property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(copy) CDUnknownBlockType shareCopyURLCompletionBlock; // @synthesize shareCopyURLCompletionBlock=_shareCopyURLCompletionBlock;
 
 @end
 

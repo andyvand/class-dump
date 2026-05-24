@@ -6,6 +6,6 @@
 
 @interface UnknownClass (ICSWriter)
 - (id);
-- (void);
+- (void);;
 @end
 

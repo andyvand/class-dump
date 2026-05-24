@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (id);
+- (id)o;
 - (id);
 - (id)SString",R,C,V_trainNumber;
 

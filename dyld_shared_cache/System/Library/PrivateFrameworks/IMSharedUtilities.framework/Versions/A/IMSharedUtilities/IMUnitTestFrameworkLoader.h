@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMUnitTestBundleLoader, IMUnitTestLogger;
-
 @interface IMUnitTestFrameworkLoader
 {
     _Bool _xctestFrameworkLoaded;
-    IMUnitTestBundleLoader *_bundleLoader;
-    IMUnitTestLogger *_logger;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,8 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) IMUnitTestBundleLoader *bundleLoader; // @synthesize bundleLoader=_bundleLoader;
-@property(readonly) IMUnitTestLogger *logger; // @synthesize logger=_logger;
 @property _Bool xctestFrameworkLoaded; // @synthesize xctestFrameworkLoaded=_xctestFrameworkLoaded;
 
 @end

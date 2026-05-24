@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
 @protocol CLSHolidayCalendarEventDateRuleDelegate;
 
 @interface CLSHolidayCalendarEventDateRule
 {
     id <CLSHolidayCalendarEventDateRuleDelegate> _delegate;
-    NSDateComponents *_simpleRuleComponents;
-    long long _startYear;
-    long long _startEra;
-    long long _endYear;
-    long long _endEra;
-    long long _offsetDays;
-    NSString *_relativeToRuleUUID;
-    NSString *_calendarIdentifier;
-    NSDateComponents *_leapYearOverrideComponents;
 }
 
-+ (id);
++ (id)?;
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +41,7 @@
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (id);
@@ -59,16 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
 @property(nonatomic) __weak id <CLSHolidayCalendarEventDateRuleDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long endEra; // @synthesize endEra=_endEra;
-@property(nonatomic) long long endYear; // @synthesize endYear=_endYear;
-@property(readonly, copy, nonatomic) NSDateComponents *leapYearOverrideComponents; // @synthesize leapYearOverrideComponents=_leapYearOverrideComponents;
-@property(nonatomic) long long offsetDays; // @synthesize offsetDays=_offsetDays;
-@property(copy, nonatomic) NSString *relativeToRuleUUID; // @synthesize relativeToRuleUUID=_relativeToRuleUUID;
-@property(copy, nonatomic) NSDateComponents *simpleRuleComponents; // @synthesize simpleRuleComponents=_simpleRuleComponents;
-@property(nonatomic) long long startEra; // @synthesize startEra=_startEra;
-@property(nonatomic) long long startYear; // @synthesize startYear=_startYear;
 
 @end
 

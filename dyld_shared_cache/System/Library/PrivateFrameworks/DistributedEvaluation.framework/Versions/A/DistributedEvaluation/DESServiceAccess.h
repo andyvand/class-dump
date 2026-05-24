@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)deWithCoder:(id)arg1 ];
 
 @end
 

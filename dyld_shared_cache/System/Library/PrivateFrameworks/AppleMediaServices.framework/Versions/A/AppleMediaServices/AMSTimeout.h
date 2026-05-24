@@ -10,29 +10,23 @@ __attribute__((visibility("hidden")))
 @interface AMSTimeout
 {
     _Bool _expired;
-    id <AMSTimeoutClockSource> _clockSource;
-    double _expirationTimestamp;
-    double _timestampAtPreviousQuery;
 }
 
 + (id);
 - (double);
 - (void);
-- (void);
+- (void);
 - (double);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)nnection _delegateDidRecognizePartialSpeechPackage:nluResult:languageModel:delegate:] /* Error: Ran out of types for this method. */;
 - (void)æýq×OµV
 Å-·½M`§¢M¨3¢ÞBñPv\EhÞö%o0qøXs'²ºtÒBEØÜ4¼°Ïýbg55zjÃÙÞ¡r·ÖÜj9Çö4TÝìºcÒ#^À5sØ"ÆÑÚ¯çëK[©¦Òp=N? \.N|
 c¯ÂÒp¬JjM¯Ð^³@Pûïõ	Q1GÄ©êrkÉÊ2{F'.	öóüxË.÷#e|é;
 
 // Remaining properties
 @property(retain) id <AMSTimeoutClockSource> clockSource; // @synthesize clockSource=_clockSource;
-@property double expirationTimestamp; // @synthesize expirationTimestamp=_expirationTimestamp;
-@property(readonly, getter=hasExpired) _Bool expired; // @synthesize expired=_expired;
-@property double timestampAtPreviousQuery; // @synthesize timestampAtPreviousQuery=_timestampAtPreviousQuery;
 
 @end
 

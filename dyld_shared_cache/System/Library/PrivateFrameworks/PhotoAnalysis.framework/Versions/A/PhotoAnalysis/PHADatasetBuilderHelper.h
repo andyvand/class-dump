@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PHADatasetBuilderHelper
 {
     NSArray *_dataLabelArray;
-    NSDictionary *_fingerprints;
 }
 
 - (void);
@@ -17,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ntifiers;
+- (void)_shufflePeopleLocalIdentifiers;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *dataLabelArray; // @synthesize dataLabelArray=_dataLabelArray;
-@property(retain, nonatomic) NSDictionary *fingerprints; // @synthesize fingerprints=_fingerprints;
 
 @end
 

@@ -6,39 +6,31 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDDiscoverUserIdentitiesURLRequest : CKDURLRequest
 {
     _Bool _wantsProtectionInfo;
-    _Bool _adopterProvidedLookupInfos;
-    CDUnknownBlockType _progressBlock;
-    NSArray *_infosToDiscover;
-    NSMutableDictionary *_submittedInfos;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (long long);
 - (id)public PCS from the PCS data %@ for identity %@;
-- (void)wnloaded;
+- (void)bytesDownloaded;
 - (id)oid *, void (^__strong)(void));
 - (id)for container:(id)arg1 %@;
 - (void)quest triggered to update the same current identity for %s. retryCount:(id)arg1 %ld;
 - (void)TV¼ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adopterProvidedLookupInfos; // @synthesize adopterProvidedLookupInfos=_adopterProvidedLookupInfos;
 @property(readonly, nonatomic) NSArray *infosToDiscover; // @synthesize infosToDiscover=_infosToDiscover;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(readonly, nonatomic) NSMutableDictionary *submittedInfos; // @synthesize submittedInfos=_submittedInfos;
-@property(nonatomic) _Bool wantsProtectionInfo; // @synthesize wantsProtectionInfo=_wantsProtectionInfo;
 
 @end
 

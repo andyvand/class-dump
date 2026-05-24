@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol NSOpenSavePanelDelegate
+
+@optional
+- (void)_remoteTrafficSelectors;
+- (_Bool)_remoteSecurePasswordMethod;
+- (NSString *)_remoteObject;
+- (NSString *)_remoteFirstMessage;
+- (void)_remoteCertificateAuthorityReferences;
+- (void)_remoteAuthProtocolUsed;
+- (void)!;
 @end
 

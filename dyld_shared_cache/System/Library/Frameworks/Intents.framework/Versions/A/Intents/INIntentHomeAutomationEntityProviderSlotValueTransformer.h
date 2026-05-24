@@ -13,7 +13,7 @@
 + (Class);
 + (long long)tems;
 - (id);
-- (id)tor:(id)arg1;
+- (id)StringAsChargingConnector:(id)arg1;
 
 @end
 

@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSSearchStructureIntentRequestType
 {
     PBUnknownFields *_unknownFields;
-    int _intentType;
-    int _structureType;
-    struct {
-        unsigned int has_intentType:1;
-        unsigned int has_structureType:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)nyField"b1};
-- (id)aymentMethodType;
+- (id)_paymentMethodType;
 - (id)p#;
 - (void)xbÖ¡ÄG@;
 

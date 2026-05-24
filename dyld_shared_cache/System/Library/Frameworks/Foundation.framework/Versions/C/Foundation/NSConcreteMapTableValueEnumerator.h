@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSConcreteMapTableValueEnumerator
 {
     NSConcreteMapTable *mapTable;
-    unsigned long long counter;
 }
 
 + (id)}à;

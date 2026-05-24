@@ -12,11 +12,11 @@
 + (_Bool);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
++ (void)RenderingMode;
++ (void)NMPCErrorCode;
++ (void)NMPCPlaybackEngineInternalErrorCode;
++ (void)@] K;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);

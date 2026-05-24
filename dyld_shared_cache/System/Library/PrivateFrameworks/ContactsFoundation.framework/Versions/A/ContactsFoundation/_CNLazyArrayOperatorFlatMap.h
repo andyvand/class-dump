@@ -6,12 +6,9 @@
 
 #import <ContactsFoundation/_CNLazyArrayOperator.h>
 
-@class CNQueue;
-
 @interface _CNLazyArrayOperatorFlatMap : _CNLazyArrayOperator
 {
     CDUnknownBlockType _transform;
-    CNQueue *_buffer;
 }
 
 - (id);

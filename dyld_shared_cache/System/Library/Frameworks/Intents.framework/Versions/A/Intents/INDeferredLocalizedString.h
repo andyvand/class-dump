@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface INDeferredLocalizedString
 {
     NSString *_formatKey;
-    NSString *_table;
-    NSArray *_arguments;
-    NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    NSString *_cachedLocalization;
 }
 
 + (_Bool);
@@ -26,28 +21,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)nexpectedly found nil while unwrapping an Optional value;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)CDeviceDriverConnection>",&;
+- (id)_GCIPCEndpointServer;
 - (id);
 - (unsigned long long);
-- (Class);
-- (void);
+- (Class)ork/Versions/C/Foundation;
+- (void)e.O2_UK.5899e0b0-d474-11eb-a9ed-f45c89abb0d9;
 - (id);
 - (unsigned short);
 - (Class)tb;
-- (void):withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideSetDateTimeRangeOptionsForUpdateEvent:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *_arguments; // @synthesize _arguments;
-@property(readonly, copy) NSString *_bundleIdentifier; // @synthesize _bundleIdentifier;
-@property(readonly, copy) NSURL *_bundleURL; // @synthesize _bundleURL;
-@property(readonly, copy) NSString *_cachedLocalization; // @synthesize _cachedLocalization;
 @property(readonly, copy) NSString *_formatKey; // @synthesize _formatKey;
-@property(readonly, copy) NSString *_table; // @synthesize _table;
 
 @end
 

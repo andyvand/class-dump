@@ -7,7 +7,9 @@
 @protocol IMSystemMonitorListener
 
 @optional
-- (void)mer;
+- (void);
+- (void)A;
+- (void)CKMediaObjectDeleteAssetActionPerformer;
 - (void);
 @end
 

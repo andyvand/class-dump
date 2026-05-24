@@ -6,22 +6,15 @@
 
 #import <HTTPServer/DDAbstractLogger.h>
 
-@class DDLogFileInfo, NSFileHandle, NSObject, NSString;
-@protocol DDLogFileManager, OS_dispatch_source;
+@protocol DDLogFileManager;
 
 @interface DDFileLogger : DDAbstractLogger
 {
     id <DDLogFileManager> logFileManager;
-    DDLogFileInfo *currentLogFileInfo;
-    NSFileHandle *currentLogFileHandle;
-    NSObject<OS_dispatch_source> *rollingTimer;
-    unsigned long long maximumFileSize;
-    double rollingFrequency;
-    unsigned long long droppedMessageCount;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -41,16 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <DDLogFileManager> logFileManager; // @synthesize logFileManager;
 @property unsigned long long maximumFileSize;
-@property double rollingFrequency;
-@property(readonly) Class superclass;
 
 @end
 

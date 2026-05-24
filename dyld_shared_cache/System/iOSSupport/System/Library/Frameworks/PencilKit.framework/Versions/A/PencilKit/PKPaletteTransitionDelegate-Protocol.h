@@ -5,5 +5,6 @@
 //
 
 @protocol PKPaletteTransitionDelegate
+- (void)64;
 @end
 

@@ -8,9 +8,6 @@
 {
     id _cFaceRepresentationProvider;
     id _cFaceRepresentationConfiguration;
-    id faceRepresentationDataContinuations;
-    id surfacePoolsContinuations;
-    id updateQueue;
 }
 
 @end

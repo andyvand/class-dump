@@ -4,49 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WDDocument, WDTableCell;
+@class NSMutableArray, WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDText
 {
     NSMutableArray *mBlocks;
-    int mTextType;
-    WDDocument *mDocument;
-    WDTableCell *mTableCell;
 }
 
-- (int);
-- (int);
+- (int)c;
+- (int);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id)	;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)#;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)g buffer, segmentListHeader is null;
 - (id)mPosition;
-- (id)ng;
+- (id)_scientificString;
 - (void)ipLocalFileHeaderRecord;
 - (id);
 
 // Remaining properties
 @property(readonly) __weak WDDocument *document; // @synthesize document=mDocument;
-@property(readonly) __weak WDTableCell *tableCell; // @synthesize tableCell=mTableCell;
 
 @end
 

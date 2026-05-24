@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDispatchTimer, MNTracePlayerTimelineStream, NSMutableArray;
 @protocol MNTracePlayerSchedulerDelegate;
 
 @interface MNTracePlayerScheduler
 {
     id <MNTracePlayerSchedulerDelegate> _delegate;
-    MNDispatchTimer *_timer;
-    double _lastTimerScheduleTime;
-    double _speedMultiplier;
-    NSMutableArray *_timelineStreams;
-    double _position;
-    MNTracePlayerTimelineStream *_nextTimelineStream;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)IsCompatibleWithDragAndDropAutoscroll;
 - (double);
 - (void);
 - (void);
@@ -38,8 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <MNTracePlayerSchedulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double position; // @synthesize position=_position;
-@property(nonatomic) double speedMultiplier; // @synthesize speedMultiplier=_speedMultiplier;
 
 @end
 

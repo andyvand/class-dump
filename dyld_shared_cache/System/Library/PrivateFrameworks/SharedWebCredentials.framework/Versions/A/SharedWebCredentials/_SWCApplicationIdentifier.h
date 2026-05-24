@@ -9,8 +9,6 @@
 @interface _SWCApplicationIdentifier
 {
     unsigned long long _hash;
-    NSString *_prefix;
-    NSString *_bundleIdentifier;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -27,20 +25,17 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)durationInSeconds;
+- (id);
 - (id);
+- (id)__DATA_DIRTY;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)>S;
 - (_Bool);
-- (void);
+- (void)*;
 
 // Remaining properties
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *prefix; // @synthesize prefix=_prefix;
 @property(readonly) NSString *rawValue;
-@property(readonly, getter=isValid) _Bool valid;
 
 @end
 

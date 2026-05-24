@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface STScreenTimeEnablementCoreAnalyticsEvent
 {
     _Bool _screenTimeEnabled;
-    _Bool _pinSet;
-    _Bool _userIsRemote;
-    long long _userAgeGroup;
-    long long _numberOfGuardians;
 }
 
 + (id);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (long long);
-- (id);
+- (_Bool)ner_pid, distinguished_kind, date_created, date_modified, name, name_order, is_owner, is_editable, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, cloud_is_shared, cloud_author_display_name, cloud_user_count, cloud_global_play_count, cloud_global_like_count, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, is_owner, is_editable, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, keep_local, keep_local_status FROM container;
+- (long long)keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (_Bool)ack_event;
+- (long long)NTEGER NOT NULL DEFAULT 0, date_played INTEGER NOT NULL DEFAULT 0, date_skipped INTEGER NOT NULL DEFAULT 0, date_accessed INTEGER NOT NULL DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0);
+- (id)0 AND play_order >= 59;
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *name;
-@property(readonly) long long numberOfGuardians; // @synthesize numberOfGuardians=_numberOfGuardians;
-@property(readonly, copy) NSDictionary *payload;
-@property(readonly) _Bool pinSet; // @synthesize pinSet=_pinSet;
 @property(readonly) _Bool screenTimeEnabled; // @synthesize screenTimeEnabled=_screenTimeEnabled;
-@property(readonly) long long userAgeGroup; // @synthesize userAgeGroup=_userAgeGroup;
-@property(readonly) _Bool userIsRemote; // @synthesize userIsRemote=_userIsRemote;
 
 @end
 

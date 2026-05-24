@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (id);
+- (id)searchRequest;
 
 // Remaining properties
 @property(readonly, nonatomic) long long peripheralDeviceNodeType; // @synthesize peripheralDeviceNodeType=_peripheralDeviceNodeType;

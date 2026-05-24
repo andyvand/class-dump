@@ -5,5 +5,7 @@
 //
 
 @protocol DESFedStatsRecorderProtocol
+- (_Bool)nseGenerationRequest.statementResults.payload.outcome.parameterCandidatesNotFounds.value.value.primitive.app.bundleId;
+- (_Bool)ction.values.query.typeIdentifier.custom.bundleId;
 @end
 

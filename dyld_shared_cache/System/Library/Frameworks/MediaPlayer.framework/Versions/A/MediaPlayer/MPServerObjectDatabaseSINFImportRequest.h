@@ -6,17 +6,14 @@
 
 #import <MediaPlayer/MPServerObjectDatabaseAssetImportRequest.h>
 
-@class NSString;
-
 @interface MPServerObjectDatabaseSINFImportRequest : MPServerObjectDatabaseAssetImportRequest
 {
     id _requestPayload;
-    NSString *_hashedPersonID;
 }
 
 - (_Bool);
 - (id);
-- (void)ations;
+- (void)_registerNotifications;
 
 @end
 

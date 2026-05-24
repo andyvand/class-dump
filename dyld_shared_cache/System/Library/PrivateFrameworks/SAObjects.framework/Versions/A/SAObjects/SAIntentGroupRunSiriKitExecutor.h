@@ -6,14 +6,14 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SAIntentGroupAceBargeInState, SAIntentGroupParse, SAIntentGroupSiriKitAppSelectionState, SAIntentGroupSiriKitListPosition, SAIntentGroupSiriKitMetrics, SAIntentGroupSiriKitRemoteExecution, SAPerson, SAUserSessionState;
+@class SAIntentGroupSiriKitAppSelectionState;
 
 @interface SAIntentGroupRunSiriKitExecutor : SABaseClientBoundCommand
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -28,6 +28,7 @@
 - (void);
 - (void);
 - (void);
+- (void)J(8;
 - (void);
 - (void);
 - (void);
@@ -36,8 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -51,60 +51,28 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)C;
+- (_Bool);
+- (id)h8;
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (void);
+- (id)&;
+- (void)translateSpeech:(_Bool)arg1 from:to:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (_Bool);
-- (_Bool)lable: /* Error: Ran out of types for this method. */;
+- (_Bool)setUserAvailable: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAIntentGroupSiriKitAppSelectionState *appSelectionState;
-@property(retain, nonatomic) SAIntentGroupAceBargeInState *bargeInState;
-@property(copy, nonatomic) NSString *confirmationState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool directAction;
-@property(nonatomic) _Bool eyesFree;
-@property(copy, nonatomic) NSString *goalID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAPerson *identifiedUserMeCard;
-@property(copy, nonatomic) NSString *inputOrigin;
-@property(copy, nonatomic) NSString *interactionType;
-@property(copy, nonatomic) NSString *mode;
-@property(nonatomic) _Bool multiUser;
-@property(copy, nonatomic) NSArray *parameterMetadata;
-@property(copy, nonatomic) NSArray *parameterPrompts;
-@property(copy, nonatomic) NSString *parentGoalID;
-@property(retain, nonatomic) SAIntentGroupParse *parse;
-@property(retain, nonatomic) SAIntentGroupSiriKitListPosition *readingListPosition;
-@property(retain, nonatomic) SAIntentGroupSiriKitRemoteExecution *remoteExecution;
-@property(nonatomic) _Bool requiresConditionalMultiUserGrounding;
-@property(copy, nonatomic) NSString *sessionHandOffContinuityID;
-@property(retain, nonatomic) SAIntentGroupSiriKitMetrics *siriKitMetrics;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool textToSpeechEnabled;
-@property(copy, nonatomic) NSString *turnId;
-@property(copy, nonatomic) NSString *userInitiatedAction;
-@property(retain, nonatomic) SAUserSessionState *userSessionState;
-@property(copy, nonatomic) NSString *usoVerb;
-@property(nonatomic) _Bool voiceTriggerEnabled;
 
 @end
 

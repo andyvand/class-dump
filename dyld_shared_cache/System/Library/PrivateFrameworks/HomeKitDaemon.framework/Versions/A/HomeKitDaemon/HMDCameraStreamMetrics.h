@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraMetricsStreamLogEvent, NSError;
+@class HMDCameraMetricsStreamLogEvent;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraStreamMetrics
 {
     HMDCameraMetricsStreamLogEvent *_cameraStreamMetricsLogEvent;
-    NSError *_error;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void)7;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDCameraMetricsStreamLogEvent *cameraStreamMetricsLogEvent; // @synthesize cameraStreamMetricsLogEvent=_cameraStreamMetricsLogEvent;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

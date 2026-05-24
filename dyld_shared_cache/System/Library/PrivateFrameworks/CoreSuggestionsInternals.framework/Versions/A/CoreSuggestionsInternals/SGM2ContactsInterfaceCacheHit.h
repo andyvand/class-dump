@@ -9,33 +9,28 @@
 @interface SGM2ContactsInterfaceCacheHit
 {
     NSString *_key;
-    _Bool _cacheHit;
-    CDStruct_fbc31351 _has;
 }
 
-- (void);
+- (void)tView]-(rightMargin)-|;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)m;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mMessageText;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)tUserActivity:(id)arg1;
+- (void)setUserActivity:(id)arg1;
 - (void)òôò;
 
 // Remaining properties
-@property(nonatomic) _Bool cacheHit; // @synthesize cacheHit=_cacheHit;
-@property(nonatomic) _Bool hasCacheHit;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

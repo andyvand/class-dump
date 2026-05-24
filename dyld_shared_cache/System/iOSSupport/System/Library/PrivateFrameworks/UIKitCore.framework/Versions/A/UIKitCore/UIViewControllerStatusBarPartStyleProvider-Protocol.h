@@ -10,8 +10,6 @@
 - (long long)3Ï;
 
 // Remaining properties
-@property(readonly, nonatomic) long long preferredCenterStatusBarStyle;
 @property(readonly, nonatomic) long long preferredLeadingStatusBarStyle;
-@property(readonly, nonatomic) long long preferredTrailingStatusBarStyle;
 @end
 

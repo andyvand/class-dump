@@ -43,8 +43,8 @@ struct CGAffineTransform {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
@@ -53,8 +53,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct os_unfair_lock_s {
@@ -67,5 +67,5 @@ typedef struct {
     long long _field1;
     struct CGPoint _field2;
     struct CGPoint _field3;
-} CDStruct_3b09cf25;
+} CDStruct_02f813cc;
 

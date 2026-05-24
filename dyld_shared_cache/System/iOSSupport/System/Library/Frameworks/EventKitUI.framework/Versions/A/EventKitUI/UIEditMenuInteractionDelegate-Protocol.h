@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIEditMenuInteraction, UIMenu;
+@class UIEditMenuConfiguration, UIEditMenuInteraction, UIMenu;
 
 @protocol UIEditMenuInteractionDelegate
 
 @optional
 - (void)ilItem"16;
-- (void)erfaceOrientationWithFutureOrientation:(UIEditMenuInteraction *)arg1;
-- (UIMenu *)s:(UIEditMenuInteraction *)arg1;
-- (struct CGRect):(UIEditMenuInteraction *)arg1;
+- (void)validateInterfaceOrientationWithFutureOrientation:(UIEditMenuInteraction *)arg1;
+- (UIMenu *)setSupportedSearchTypes:(UIEditMenuInteraction *)arg1;
+- (struct CGRect)_updateVirtualConferenceCell:(UIEditMenuInteraction *)arg1 index:(UIEditMenuConfiguration *)arg2 virtualConference: /* Error: Ran out of types for this method. */;
 @end
 

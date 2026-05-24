@@ -9,10 +9,6 @@
 @interface FCPurchaseOfferableConfiguration
 {
     _Bool _allowsPublisherPhoneApp;
-    _Bool _allowsPublisherPadApp;
-    _Bool _allowsPublisherWebsite;
-    _Bool _preferredOffer;
-    NSString *_purchaseID;
 }
 
 - (void);
@@ -21,18 +17,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (id)Signal;
+- (void);
+- (_Bool)s;
 - (_Bool);
 - (void)cipeIDs;
 - (id)dsparcore/Classes/FCFDBConnection.m;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPublisherPadApp; // @synthesize allowsPublisherPadApp=_allowsPublisherPadApp;
-@property(nonatomic) _Bool allowsPublisherPhoneApp; // @synthesize allowsPublisherPhoneApp=_allowsPublisherPhoneApp;
-@property(nonatomic) _Bool allowsPublisherWebsite; // @synthesize allowsPublisherWebsite=_allowsPublisherWebsite;
-@property(nonatomic) _Bool preferredOffer; // @synthesize preferredOffer=_preferredOffer;
 @property(copy, nonatomic) NSString *purchaseID; // @synthesize purchaseID=_purchaseID;
 
 @end

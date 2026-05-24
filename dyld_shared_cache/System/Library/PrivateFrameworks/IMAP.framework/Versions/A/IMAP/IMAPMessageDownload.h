@@ -12,17 +12,9 @@
 @interface IMAPMessageDownload : IMAPCompoundDownload
 {
     MCMessage<IMAPMessage> *_message;
-    unsigned int _usingPartialDownloads:1;
-    unsigned int _startedFetch:1;
-    unsigned int _fetchingBodyText:1;
-    unsigned int _doneAddingSubdownloads:1;
-    _Bool _allowsPartialDownloads;
-    _Bool _writesCacheFile;
-    _Bool _dataWritten;
-    MCMimePart *_topLevelPart;
 }
 
-+ (id);
++ (id)";
 - (id);
 - (void);
 - (void);
@@ -34,10 +26,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (id);
@@ -47,12 +39,7 @@
 - (_Bool);
 
 // Remaining properties
-@property _Bool allowsPartialDownloads; // @synthesize allowsPartialDownloads=_allowsPartialDownloads;
-@property _Bool dataWritten; // @synthesize dataWritten=_dataWritten;
-@property(readonly, nonatomic) _Bool isPartial;
-@property(retain) MCMessage<IMAPMessage> *message;
 @property(retain) MCMimePart *topLevelPart; // @synthesize topLevelPart=_topLevelPart;
-@property _Bool writesCacheFile; // @synthesize writesCacheFile=_writesCacheFile;
 
 @end
 

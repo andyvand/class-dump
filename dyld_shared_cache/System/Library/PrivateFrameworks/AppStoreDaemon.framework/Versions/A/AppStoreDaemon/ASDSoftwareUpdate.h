@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString;
+@class NSArray;
 
 @interface ASDSoftwareUpdate
 {
     NSArray *_blockedBy;
-    NSDate *_installDate;
-    NSDictionary *_metrics;
-    _Bool _perDevice;
-    _Bool _profileValidated;
-    NSDictionary *_rawUpdateDictionary;
-    long long _rawUpdateState;
-    NSDate *_timestamp;
-    long long _updateState;
-    _Bool _autoUpdateEnabled;
-    _Bool _iOSBinaryMacOSCompatible;
-    _Bool _downloaded;
-    long long _deviceFamilies;
-    long long _installerPackagingType;
-    long long _packageType;
 }
 
 + (_Bool);
@@ -35,7 +21,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)T{";
 - (id);
 - (long long);
 - (_Bool);
@@ -56,48 +42,24 @@
 - (id);
 - (long long);
 - (long long);
-- (void);
+- (void)0;
 - (_Bool);
 - (_Bool);
+- (id)%@ ;
 - (id);
 - (id);
-- (id);
+- (void)\&;
 - (void);
+- (_Bool)isServer;
+- (void)MNNavigationServiceProxy;
+- (id):(struct _NSZone *)arg1 navigation_end_time;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (id)on macOS;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isArcade) _Bool arcade;
-@property(nonatomic) _Bool autoUpdateEnabled; // @synthesize autoUpdateEnabled=_autoUpdateEnabled;
-@property(copy, nonatomic) NSArray *blockedBy; // @synthesize blockedBy=_blockedBy;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSString *buyParams;
 @property(nonatomic) long long deviceFamilies; // @synthesize deviceFamilies=_deviceFamilies;
-@property(nonatomic, getter=isDownloaded) _Bool downloaded; // @synthesize downloaded=_downloaded;
-@property(readonly, nonatomic) NSNumber *externalVersionIdentifier;
-@property(nonatomic, getter=isIOSBinaryMacOSCompatible) _Bool iOSBinaryMacOSCompatible; // @synthesize iOSBinaryMacOSCompatible=_iOSBinaryMacOSCompatible;
-@property(copy, nonatomic) NSDate *installDate; // @synthesize installDate=_installDate;
-@property(nonatomic, getter=installerPackagingType) long long installerPackagingType; // @synthesize installerPackagingType=_installerPackagingType;
-@property(copy, nonatomic) NSDictionary *metrics; // @synthesize metrics=_metrics;
-@property(nonatomic, getter=packageType) long long packageType; // @synthesize packageType=_packageType;
-@property(readonly, nonatomic) long long parentalControlsRank;
-@property(nonatomic, getter=isPerDevice) _Bool perDevice; // @synthesize perDevice=_perDevice;
-@property(nonatomic, getter=isProfileValidated) _Bool profileValidated; // @synthesize profileValidated=_profileValidated;
-@property(readonly, nonatomic) NSDictionary *rawUpdateDictionary; // @synthesize rawUpdateDictionary=_rawUpdateDictionary;
-@property(nonatomic) long long rawUpdateState; // @synthesize rawUpdateState=_rawUpdateState;
-@property(readonly, nonatomic) _Bool requiresRosetta;
-@property(readonly, nonatomic) _Bool runsOnAppleSilicon;
-@property(readonly, nonatomic) _Bool runsOnIntel;
-@property(readonly, nonatomic) long long storeItemIdentifier;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) NSDictionary *updateDictionary;
-@property(nonatomic) long long updateState; // @synthesize updateState=_updateState;
 
 @end
 

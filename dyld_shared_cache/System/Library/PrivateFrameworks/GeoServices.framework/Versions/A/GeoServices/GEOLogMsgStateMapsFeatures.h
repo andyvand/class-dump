@@ -9,39 +9,9 @@
 @interface GEOLogMsgStateMapsFeatures
 {
     PBUnknownFields *_unknownFields;
-    int _favoritesCount;
-    int _followedPublisherCount;
-    int _libraryFavoritesGuideSavedPlacesCount;
-    int _libraryGuidesSavedPlacesCount;
-    int _libraryPlacesWithNoteCount;
-    int _librarySavedPlacesCount;
-    int _personalCollectionsCount;
-    int _savedCollectionsCount;
-    int _submittedPhotosCount;
-    int _submittedRatingsCount;
-    _Bool _homeFavoriteSet;
-    _Bool _schoolFavoriteSet;
-    _Bool _transitFavoriteSet;
-    _Bool _workFavoriteSet;
-    struct {
-        unsigned int has_favoritesCount:1;
-        unsigned int has_followedPublisherCount:1;
-        unsigned int has_libraryFavoritesGuideSavedPlacesCount:1;
-        unsigned int has_libraryGuidesSavedPlacesCount:1;
-        unsigned int has_libraryPlacesWithNoteCount:1;
-        unsigned int has_librarySavedPlacesCount:1;
-        unsigned int has_personalCollectionsCount:1;
-        unsigned int has_savedCollectionsCount:1;
-        unsigned int has_submittedPhotosCount:1;
-        unsigned int has_submittedRatingsCount:1;
-        unsigned int has_homeFavoriteSet:1;
-        unsigned int has_schoolFavoriteSet:1;
-        unsigned int has_transitFavoriteSet:1;
-        unsigned int has_workFavoriteSet:1;
-    } _flags;
 }
 
-+ (_Bool)fications:(id)arg1;
++ (_Bool)setHasSupportForIdsBasedNotifications:(id)arg1;
 - (int);
 - (void);
 - (void);
@@ -49,7 +19,7 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -63,14 +33,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)domainIdentifier;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)commandControlListener:(_Bool)arg1 hasLPCMBufferAvailable:hostTime: /* Error: Ran out of types for this method. */;
+- (_Bool)= %llu, isRecordingStopped = %d;
+- (void)voice profile retraining;
+- (_Bool)CSSpeechRecordSettingsKey_LanguageDetectorWasLanguageToggled;
 - (void);
 - (void);
 - (id);
@@ -80,8 +50,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)u):(_Bool)arg1 Received a datagram fragment with more data than expected (%lu vs. %lu);
+- (void)ook to long;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -94,57 +64,29 @@
 - (int);
 - (void);
 - (int);
-- (void);
+- (void)kRXRecognitionSystemProperty_EndOfFileCallback;
 - (int)updateOffRouteProgress:minDistanceToGetOnRoute: /* Error: Ran out of types for this method. */;
-- (id)upportedIntegrations;
-- (void)ectionId;
-- (int)IsNumberSecondQueryToken;
-- (int)teTransitIncidentsWithDecoderData: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)supportedIntegrations;
+- (void)hasSectionId;
+- (int)hasPrefixTokenIsNumberSecondQueryToken;
+- (int)_populateTransitIncidentsWithDecoderData: /* Error: Ran out of types for this method. */;
+- (id)setNumberOfAvailableExtensions: /* Error: Ran out of types for this method. */;
 - (id)es isKindOfClass:NSArray.class] /* Error: Ran out of types for this method. */;
 - (_Bool)ic}@;
-- (_Bool)ing;
+- (_Bool)labeling;
 - (_Bool)input stream;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void)ëâ6ÀÛK@;
-- (void)bjectExceptionE;
+- (void)N8addr_obj22AddressObjectExceptionE;
 - (void)I÷5Z^3;
 - (void)éþ;
 - (void)245;
 
 // Remaining properties
-@property(nonatomic) int favoritesCount;
-@property(nonatomic) int followedPublisherCount;
-@property(nonatomic) _Bool hasFavoritesCount;
-@property(nonatomic) _Bool hasFollowedPublisherCount;
 @property(nonatomic) _Bool hasHomeFavoriteSet;
-@property(nonatomic) _Bool hasLibraryFavoritesGuideSavedPlacesCount;
-@property(nonatomic) _Bool hasLibraryGuidesSavedPlacesCount;
-@property(nonatomic) _Bool hasLibraryPlacesWithNoteCount;
-@property(nonatomic) _Bool hasLibrarySavedPlacesCount;
-@property(nonatomic) _Bool hasPersonalCollectionsCount;
-@property(nonatomic) _Bool hasSavedCollectionsCount;
-@property(nonatomic) _Bool hasSchoolFavoriteSet;
-@property(nonatomic) _Bool hasSubmittedPhotosCount;
-@property(nonatomic) _Bool hasSubmittedRatingsCount;
-@property(nonatomic) _Bool hasTransitFavoriteSet;
-@property(nonatomic) _Bool hasWorkFavoriteSet;
-@property(nonatomic) _Bool homeFavoriteSet;
-@property(nonatomic) int libraryFavoritesGuideSavedPlacesCount;
-@property(nonatomic) int libraryGuidesSavedPlacesCount;
-@property(nonatomic) int libraryPlacesWithNoteCount;
-@property(nonatomic) int librarySavedPlacesCount;
-@property(nonatomic) int personalCollectionsCount;
-@property(nonatomic) int savedCollectionsCount;
-@property(nonatomic) _Bool schoolFavoriteSet;
-@property(nonatomic) int submittedPhotosCount;
-@property(nonatomic) int submittedRatingsCount;
-@property(nonatomic) _Bool transitFavoriteSet;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) _Bool workFavoriteSet;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSObjCValue, NSArray, NSString;
+@class NSString;
 
 @interface BSObjCMethod
 {
     long long _required;
-    NSString *_name;
-    NSString *_encoding;
-    SEL _selector;
-    NSArray *_arguments;
-    BSObjCValue *_returnValue;
 }
 
 - (id);
@@ -24,30 +19,19 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)a
+;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (SEL);
+- (id)2
+;
+- (SEL)_finalized;
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *arguments; // @synthesize arguments=_arguments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *encoding; // @synthesize encoding=_encoding;
-@property(readonly, retain, nonatomic) BSObjCValue *firstArgument;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) BSObjCValue *lastArgument;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, retain, nonatomic) BSObjCValue *returnValue; // @synthesize returnValue=_returnValue;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSString, TRITrackingId;
+@class TRITrackingId;
 
 @interface PPTrialWrapperGuardedData
 {
     TRITrackingId *trackingId;
-    NSMutableArray *notificationTokens;
-    NSMutableDictionary *pathOverrides;
-    NSDate *mostRecentUpdateDate;
-    NSString *concatenatedTreatmentNames;
-    unsigned int treatmentsHash;
 }
 
 - (void)÷1Â0@ù

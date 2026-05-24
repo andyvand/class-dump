@@ -9,15 +9,11 @@
 @interface MKViewWithHairline
 {
     MKHairlineView *_bottomHairline;
-    MKHairlineView *_topHairline;
-    UIColor *_hairlineColor;
-    double _leftHairlineInset;
-    double _rightHairlineInset;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)qa;
+- (void);
 - (void);
 - (void);
 - (double);
@@ -26,15 +22,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void)andRoute: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)findFirstUniqueRangeBetweenRoute:andRoute: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isBottomHairlineHidden) _Bool bottomHairlineHidden;
 @property(retain, nonatomic) UIColor *hairlineColor; // @synthesize hairlineColor=_hairlineColor;
-@property(nonatomic) double leftHairlineInset; // @synthesize leftHairlineInset=_leftHairlineInset;
-@property(nonatomic) double rightHairlineInset; // @synthesize rightHairlineInset=_rightHairlineInset;
-@property(nonatomic, getter=isTopHairlineHidden) _Bool topHairlineHidden;
 
 @end
 

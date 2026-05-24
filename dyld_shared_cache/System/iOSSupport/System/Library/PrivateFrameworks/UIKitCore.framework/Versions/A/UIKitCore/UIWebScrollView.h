@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (id)rcentDimmed;
+- (_Bool)transcodeFileTransferContents:(id)arg1 utiType:isSticker:allowUnfilteredUTIs:target:sizes:commonCapabilities:maxDimension:transcoderUserInfo:representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)__confinedPercentDimmed;
 - (void)Ù8Ú;
 
 @end

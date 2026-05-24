@@ -12,24 +12,20 @@
 
 + (id);
 + (id);
+- (void)initWithPreparedSource:(long long)arg1 container:pipelineSettings:sourceOptions: /* Error: Ran out of types for this method. */;
+- (long long);
+- (long long);
+- (long long);
 - (void);
 - (long long);
-- (long long);
-- (long long);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
+- (_Bool)rAssetIdCompletionBlockOnError:retryAfter:error: /* Error: Ran out of types for this method. */;
+- (void)4;
 - (long long);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long bigMessageWarningSize;
-@property(nonatomic) long long daysAfterDownloadToDeleteMessagesFromServer;
-@property(readonly, nonatomic) _Bool daysAfterDownloadToDeleteMessagesFromServerIsSet;
-@property(nonatomic) long long deletionPolicy;
-@property(nonatomic) _Bool hasNotFinishedFirstTimeSync;
 
 @end
 

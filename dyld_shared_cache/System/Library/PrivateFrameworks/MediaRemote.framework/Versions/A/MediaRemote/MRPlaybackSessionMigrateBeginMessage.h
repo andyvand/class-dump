@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlaybackSessionRequest, MRPlayerPath;
+@class MRPlaybackSessionRequest;
 
 @interface MRPlaybackSessionMigrateBeginMessage : MRProtocolMessage
 {
@@ -14,11 +14,10 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)PersonalRequestsV2;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MRPlayerPath *playerPath;
 @property(readonly, nonatomic) MRPlaybackSessionRequest *request;
 
 @end

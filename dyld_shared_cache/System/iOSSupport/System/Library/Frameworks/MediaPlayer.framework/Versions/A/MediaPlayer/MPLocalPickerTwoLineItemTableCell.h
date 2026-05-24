@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UILabel *_secondaryLabel;
 }
 
-+ (id);
++ (id)a;
 - (void);
 - (void);
 - (id);

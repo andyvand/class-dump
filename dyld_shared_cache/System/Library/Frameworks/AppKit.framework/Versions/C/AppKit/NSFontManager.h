@@ -4,47 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFont, NSFontPanel, NSString;
+@class NSFontPanel;
 
 @interface NSFontManager
 {
     NSFontPanel *_panel;
-    SEL _action;
-    id _actionOrigin;
-    id _target;
-    NSFont *_selFont;
-    struct _fmFlags {
-        unsigned int multipleFont:1;
-        unsigned int disabled:1;
-        unsigned int senderTagMode:2;
-        unsigned int _RESERVED:12;
-    } _fmFlags;
-    id _delegate;
-    id _collections;
 }
 
 + (id);
-+ (void);
-+ (void);
++ (void)_timeoutInterval;
++ (void)_timeWindowDelay;
 
 // Remaining properties
-@property SEL action;
-@property(readonly, copy) NSArray *availableFontFamilies;
-@property(readonly, copy) NSArray *availableFonts;
-@property(readonly, copy) NSArray *collectionNames;
-@property(readonly) unsigned long long currentFontAction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id delegate;
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
 @property(readonly, getter=isMultiple) _Bool multiple;
-@property(readonly) NSFont *selectedFont;
-@property(readonly) Class superclass;
-@property __weak id target;
 
 @end
 

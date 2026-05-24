@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface BMXPCActivity
 {
     NSObject<OS_xpc_object> *_activity;
-    NSString *_activityName;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)`;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) NSString *activityName; // @synthesize activityName=_activityName;
 
 @end
 

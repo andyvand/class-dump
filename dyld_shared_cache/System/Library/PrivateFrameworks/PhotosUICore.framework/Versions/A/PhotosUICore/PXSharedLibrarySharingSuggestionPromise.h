@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PHAssetCollection;
-@protocol PXDisplayAsset, PXDisplayCollection, _PXSharedLibrarySharingSuggestionContainer;
+@class NSDate;
 
 @interface PXSharedLibrarySharingSuggestionPromise
 {
     _Bool _isNew;
-    _Bool _isPlaceholder;
-    id <PXDisplayAsset> _keyAsset;
-    NSString *_title;
-    NSArray *_locations;
-    NSDate *_considerNewAfterDate;
-    NSDate *_suggestedDate;
-    id <_PXSharedLibrarySharingSuggestionContainer> _container;
 }
 
 + (_Bool);
@@ -33,11 +25,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id)CurrentPPTPreset:(struct _NSZone *)arg1;
-- (id)justment;
+- (id)setCurrentPPTPreset:(struct _NSZone *)arg1;
+- (id)PXStorySmartGradientAdjustment;
 - (id)leTransform:%{public}s /* Error: Ran out of types for this method. */;
 - (id)ggestions are either reversed, or equal to each other. This is not valid.;
 - (_Bool)¸å?ÍÌÌÌÌÌü?;
@@ -45,23 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *considerNewAfterDate; // @synthesize considerNewAfterDate=_considerNewAfterDate;
-@property(readonly, nonatomic) id <_PXSharedLibrarySharingSuggestionContainer> container; // @synthesize container=_container;
-@property(readonly, nonatomic) PHAssetCollection *containerCollection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PXDisplayCollection> displayCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isNew; // @synthesize isNew=_isNew;
-@property(readonly, nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(readonly, nonatomic) id <PXDisplayAsset> keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) NSDate *suggestedDate; // @synthesize suggestedDate=_suggestedDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

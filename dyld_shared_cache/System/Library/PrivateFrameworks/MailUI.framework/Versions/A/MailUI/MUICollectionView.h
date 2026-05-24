@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUICollectionHeightStorage, NSIndexSet, NSLayoutConstraint, NSMapTable, NSMutableArray, NSMutableIndexSet, NSMutableSet, NSStackView, NSString;
-@protocol MUICollectionViewDelegate;
+@class MUICollectionHeightStorage, NSMutableArray;
 
 @interface MUICollectionView
 {
     NSMutableArray *_activeCellViews;
-    NSMutableSet *_spareCellViews;
-    NSMutableIndexSet *_faultedIndexes;
-    NSMutableIndexSet *_lockedIndexes;
-    NSMutableIndexSet *_selectionIndexes;
-    unsigned long long _focusedIndex;
-    _Bool _emphasized;
-    _Bool _inScroll;
-    _Bool _adjustHeightForPinning;
-    _Bool _adjustScrollForPinning;
-    _Bool _changingSupplementaryViewHeight;
-    id <MUICollectionViewDelegate> _delegate;
-    CDUnknownBlockType _supplementaryViewProvider;
-    MUICollectionHeightStorage *_heightStorage;
-    unsigned long long _pinnedIndex;
-    unsigned long long _pinnedCellEdge;
-    unsigned long long _pinnedEdge;
-    double _pinnedOffset;
-    double _pinnedHeightAdjustment;
-    NSStackView *_topSupplementaryStackView;
-    NSStackView *_bottomSupplementaryStackView;
-    NSLayoutConstraint *_bottomSupplementaryViewTopConstraint;
-    NSMapTable *_supplementaryViewHeightConstraints;
 }
 
 + (id);
@@ -55,18 +32,18 @@
 - (void);
 - (void);
 - (void);
+- (void),;
 - (void);
+- (void)9w;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (struct _NSRange);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (unsigned long long);
 - (unsigned long long);
@@ -77,7 +54,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -89,11 +66,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)RI;
 - (void);
 - (void);
 - (void);
@@ -102,25 +79,25 @@
 - (double);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 - (double);
 - (struct CGRect);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (void);
 - (struct _NSRange);
 - (void);
@@ -131,10 +108,10 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -142,7 +119,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)%;
 - (void);
 - (void);
 - (void);
@@ -152,7 +129,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct NSEdgeInsets);
 - (void);
@@ -160,57 +137,19 @@
 - (void);
 - (void);
 - (void);
+- (void)aption Display Settings API;
 - (void);
-- (void);
-- (id);
+- (id)egate;
 - (void);
 - (_Bool)!øFùqx°1Â0@ù
 × ;
-- (void)econd: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)pairWithFirst:second: /* Error: Ran out of types for this method. */;
+- (void)intersectSet:(id)arg1;
 - (void)not attempt recovery;
 - (id)ototype._passesMinimumSizeThreshold=function(){for(var t=!1,e=0,n=0,i=0;i<this.redundantCluster.redundantNodes.length;i++){var r=this.redundantCluster.redundantNodes[i];if(r.nodeType===Node.ELEMENT_NODE&&"block"===r.style.display){var o=!1;1==r.childNodes.length&&"block"===htmlElement.firstChild.style.display&&(o=!0),o||e++}r.nodeType===Node.TEXT_NODE&&(n+=r.length);var a=MUIRedundantTextUtilities_isAttachmentNode(r);if(e>5||n>350||a){t=!0;break}}return t},MUISimpleLinkWithDottedBlockquoteBarAbbreviator.prototype.abbreviate=function(){if(this.parentPrototype.abbreviate.call(this)){var t=null,e=document.createElement("div");e.style.cssText="font:bold 11px Helvetica; padding-top:2px; position:relative; top:3px;",e.innerHTML='<a href="x-redundant-cluster-toggle://'+this.clusterID+'" class="x-apple-mail-see-more">'+MUIWebDocumentDisplayController_sharedInstance.loadContext.localizedStrings.SEE_MORE+"</a>",e.firstChild.ondragstart=function(t){t.preventDefault()},t=e;for(var n=0;n<this.redundantCluster.redundantNodes.length;n++){var i=this.redundantCluster.redundantNodes[n];if(i.nodeType===Node.ELEMENT_NODE&&"BLOCKQUOTE"===i.tagName){var r=document.createElement("blockquote");r.setAttribute("type",i.getAttribute("type")),r.style.cssText=i.style.cssText,r.style.cssText+="border-left-style:dotted !important;",r.appendChild(t),t=r;break}}var o=document.createElement("div");o.style.cssText+="margin-top:-3px !important;",o.appendChild(t);var a=document.createElement("div");a.style.cssText+="overflow:hidden; padding-bottom:3px;",a.appendChild(o),t=a;var d=this._constructAutoremovedContainerHTMLElement("div");d.style.cssText+="-webkit-user-select:none;",this.expandLinkElement=d,d.appendChild(t),this._insertExpansionAffordance(d),this.redundantCluster.isFirstContent||d.insertBefore(MUIRedundantTextUtilities_createBlankLineElement(),d.firstChild),this.redundantCluster.isLastContent||d.appendChild(MUIRedundantTextUtilities_createBlankLineElement()),this.redundantCluster.hide()}return this.isAbbreviated},MUISimpleLinkWithDottedBlockquoteBarAbbreviator.prototype.expand=function(){var t=this.parentPrototype.expand.call(this);return this.redundantCluster.show(),t&&(this.expandLinkElement=null),t},MUISimpleLinkWithDottedBlockquoteBarAbbreviator.prototype.verticalFoldPosition=function(){return this.expandLinkElement.getBoundingClientRect().top+2},MUISimpleLinkWithDottedBlockquoteBarAbbreviator.prototype.needsLayoutInformation=function(){return!this.senderName}; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
-@property(nonatomic) _Bool adjustHeightForPinning; // @synthesize adjustHeightForPinning=_adjustHeightForPinning;
-@property(nonatomic) _Bool adjustScrollForPinning; // @synthesize adjustScrollForPinning=_adjustScrollForPinning;
-@property(retain, nonatomic) NSStackView *bottomSupplementaryStackView; // @synthesize bottomSupplementaryStackView=_bottomSupplementaryStackView;
-@property(retain, nonatomic) NSLayoutConstraint *bottomSupplementaryViewTopConstraint; // @synthesize bottomSupplementaryViewTopConstraint=_bottomSupplementaryViewTopConstraint;
-@property(nonatomic) struct CGSize cellSpacing;
-@property(nonatomic) _Bool changingSupplementaryViewHeight; // @synthesize changingSupplementaryViewHeight=_changingSupplementaryViewHeight;
-@property(nonatomic) struct NSEdgeInsets contentInset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MUICollectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool emphasized;
-@property(readonly, nonatomic) unsigned long long firstResponderIndex;
-@property(nonatomic) unsigned long long focusedIndex;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MUICollectionHeightStorage *heightStorage; // @synthesize heightStorage=_heightStorage;
-@property(nonatomic) _Bool inScroll; // @synthesize inScroll=_inScroll;
-@property(readonly, nonatomic) unsigned long long numberOfCells;
-@property(nonatomic) unsigned long long pinnedCellEdge; // @synthesize pinnedCellEdge=_pinnedCellEdge;
-@property(nonatomic) unsigned long long pinnedEdge; // @synthesize pinnedEdge=_pinnedEdge;
-@property(nonatomic) double pinnedHeightAdjustment; // @synthesize pinnedHeightAdjustment=_pinnedHeightAdjustment;
-@property(nonatomic) unsigned long long pinnedIndex; // @synthesize pinnedIndex=_pinnedIndex;
-@property(nonatomic) double pinnedOffset; // @synthesize pinnedOffset=_pinnedOffset;
-@property(copy, nonatomic) NSIndexSet *selectionIndexes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMapTable *supplementaryViewHeightConstraints; // @synthesize supplementaryViewHeightConstraints=_supplementaryViewHeightConstraints;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryViewProvider; // @synthesize supplementaryViewProvider=_supplementaryViewProvider;
-@property(retain, nonatomic) NSStackView *topSupplementaryStackView; // @synthesize topSupplementaryStackView=_topSupplementaryStackView;
-@property(readonly, nonatomic) struct _NSRange visibleRange;
 
 @end
 

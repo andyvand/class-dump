@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDDateTimeRange
 {
     PBUnknownFields *_unknownFields;
-    struct GEOPDLocalTimeRange *_timeRanges;
-    unsigned long long _timeRangesCount;
-    unsigned long long _timeRangesSpace;
-    unsigned long long _endDate;
-    unsigned long long _startDate;
-    struct {
-        unsigned int has_endDate:1;
-        unsigned int has_startDate:1;
-    } _flags;
 }
 
 - (_Bool);
@@ -29,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)s"b1"read_header"b1"wrote_anyField"b1};
-- (id)atStringsSupported;
+- (id)_concatenatingFormatStringsSupported;
 - (id)\+;
 - (void)ñÿÿÿóÿÿÿ÷ÿÿÿõÿÿÿñÿÿÿðÿÿÿòÿÿÿôÿÿÿóÿÿÿöÿÿÿöÿÿÿòÿÿÿ÷ÿÿÿôÿÿÿóÿÿÿðÿÿÿøÿÿÿõÿÿÿûÿÿÿéÿÿÿ÷ÿÿÿæÿÿÿÞÿÿÿÿÿÿÿßÿÿÿÿÿÿÿóÿÿÿäÿÿÿèÿÿÿåÿÿÿøÿÿÿíÿÿÿìÿÿÿçÿÿÿØÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿôÿÿÿóÿÿÿòÿÿÿðÿÿÿïÿÿÿõÿÿÿìÿÿÿöÿÿÿñÿÿÿîÿÿÿëÿÿÿíÿÿÿßÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿëÿÿÿæÿÿÿåÿÿÿéÿÿÿîÿÿÿòÿÿÿïÿÿÿìÿÿÿçÿÿÿèÿÿÿäÿÿÿâÿÿÿñÿÿÿðÿÿÿêÿÿÿãÿÿÿüÿÿÿ÷ÿÿÿýÿÿÿöÿÿÿúÿÿÿùÿÿÿïÿÿÿÿÿÿÿòÿÿÿõÿÿÿñÿÿÿðÿÿÿëÿÿÿóÿÿÿîÿÿÿôÿÿÿìÿÿÿøÿÿÿíÿÿÿûÿÿÿìÿÿÿ÷ÿÿÿöÿÿÿôÿÿÿùÿÿÿûÿÿÿøÿÿÿõÿÿÿïÿÿÿòÿÿÿèÿÿÿêÿÿÿëÿÿÿîÿÿÿðÿÿÿñÿÿÿúÿÿÿéÿÿÿíÿÿÿóÿÿÿ÷ÿÿÿñÿÿÿúÿÿÿóÿÿÿûÿÿÿðÿÿÿïÿÿÿòÿÿÿöÿÿÿôÿÿÿîÿÿÿýÿÿÿüÿÿÿõÿÿÿùÿÿÿøÿÿÿËÿÿÿÿÿÿÿÃÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÂÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÆÿÿÿÿÿÿÿÇÿÿÿÿÿÿÿûÿýÿüÿùÿ;
 

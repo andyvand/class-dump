@@ -9,8 +9,6 @@
 @interface _GCCurrentApplicationForegroundMonitor
 {
     NSMutableSet *_observers;
-    _Atomic _Bool _appInBackground;
-    unsigned long long _state;
 }
 
 

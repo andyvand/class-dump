@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSAttendingOptions
 {
     _Bool _useVAD;
-    _Bool _useOwnVoiceVAD;
-    _Bool _useBoron;
-    long long _attendingType;
-    unsigned long long _startAttendingHostTime;
-    unsigned long long _startAttendingSampleCount;
-    double _startOfSpeechThresholdInMs;
-    double _startOfSpeechNearMissThresholdInMs;
-    double _prependAudioDuration;
-    double _timeoutThresholdInSec;
-    long long _triggerType;
-    double _audioStreamHoldingDurationInSec;
-    long long _recordType;
-    NSString *_deviceId;
-    unsigned long long _attendingListeningType;
-    double _pauseDurationThreshold;
-    double _maxPauseDelay;
 }
 
 + (id);
@@ -38,8 +20,8 @@
 - (double);
 - (double);
 - (unsigned long long);
-- (unsigned long long);
-- (double);
+- (unsigned long long)U;
+- (double);
 - (double);
 - (double);
 - (id);
@@ -49,33 +31,17 @@
 - (long long);
 - (unsigned long long);
 - (double);
-- (id);
+- (id)@36;
 - (id);
 - (long long);
 - (long long);
 - (void);
+- (id)w;
 - (id);
-- (id);
-- (void)p:arrivalTimestampToAudioRecorder: /* Error: Ran out of types for this method. */;
+- (void)addSamples:timestamp:arrivalTimestampToAudioRecorder: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long attendingListeningType; // @synthesize attendingListeningType=_attendingListeningType;
 @property(readonly, nonatomic) long long attendingType; // @synthesize attendingType=_attendingType;
-@property(readonly, nonatomic) double audioStreamHoldingDurationInSec; // @synthesize audioStreamHoldingDurationInSec=_audioStreamHoldingDurationInSec;
-@property(readonly, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(readonly, nonatomic) double maxPauseDelay; // @synthesize maxPauseDelay=_maxPauseDelay;
-@property(readonly, nonatomic) double pauseDurationThreshold; // @synthesize pauseDurationThreshold=_pauseDurationThreshold;
-@property(readonly, nonatomic) double prependAudioDuration; // @synthesize prependAudioDuration=_prependAudioDuration;
-@property(readonly, nonatomic) long long recordType; // @synthesize recordType=_recordType;
-@property(readonly, nonatomic) unsigned long long startAttendingHostTime; // @synthesize startAttendingHostTime=_startAttendingHostTime;
-@property(readonly, nonatomic) unsigned long long startAttendingSampleCount; // @synthesize startAttendingSampleCount=_startAttendingSampleCount;
-@property(readonly, nonatomic) double startOfSpeechNearMissThresholdInMs; // @synthesize startOfSpeechNearMissThresholdInMs=_startOfSpeechNearMissThresholdInMs;
-@property(readonly, nonatomic) double startOfSpeechThresholdInMs; // @synthesize startOfSpeechThresholdInMs=_startOfSpeechThresholdInMs;
-@property(readonly, nonatomic) double timeoutThresholdInSec; // @synthesize timeoutThresholdInSec=_timeoutThresholdInSec;
-@property(readonly, nonatomic) long long triggerType; // @synthesize triggerType=_triggerType;
-@property(readonly, nonatomic) _Bool useBoron; // @synthesize useBoron=_useBoron;
-@property(readonly, nonatomic) _Bool useOwnVoiceVAD; // @synthesize useOwnVoiceVAD=_useOwnVoiceVAD;
-@property(readonly, nonatomic) _Bool useVAD; // @synthesize useVAD=_useVAD;
 
 @end
 

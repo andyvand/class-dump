@@ -7,9 +7,6 @@
 @interface NewsFeed.FeedItemPrefetcher
 {
     id bannerAdViewManager;
-    id bannerAdRequester;
-    id formatImageCache;
-    id boostedImageInterestTokens;
 }
 
 @end

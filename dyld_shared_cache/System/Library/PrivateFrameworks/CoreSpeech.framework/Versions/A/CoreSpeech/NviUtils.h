@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)_;
++ (id)`;
 + (id);
 + (unsigned long long);
 + (unsigned long long);

@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INListShortcutsIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)tionHandler:(long long)arg1;
++ (int)associateThumbnailsForDocumentAtURL:(long long)arg1 withDocumentAtURL:error: /* Error: Ran out of types for this method. */;
++ (long long)_thumbnailVersion;
++ (_Bool)_removedAdditionsOnURLUsingDaemon:(long long)arg1;
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id)numberInputFeatures;
+- (id)_owner;
+- (id)h;
+- (void)sed:(id)arg1 true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)ent;
+- (long long)INOpenSettingIntent;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *shortcuts;
-@property(readonly) Class superclass;
 
 @end
 

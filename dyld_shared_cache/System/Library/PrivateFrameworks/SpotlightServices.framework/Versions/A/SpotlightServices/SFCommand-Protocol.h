@@ -7,13 +7,13 @@
 @class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
 
 @protocol SFCommand
+- (SFCommandReference *)saveSubscription:completionHandler: /* Error: Ran out of types for this method. */;
+- (NSData *)latestPersonalizedConsentVersion;
+- (SFTopic *)dataWithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
+- (NSData *)T SUPPORTED!!!);
+- (NSDictionary *);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
 @property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
 @end
 

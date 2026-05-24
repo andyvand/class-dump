@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface AFHomeAccessorySiriDataSharingChangeLogEvent
 {
     NSDate *_date;
-    long long _previousOptInStatus;
-    long long _newOptInStatus;
-    long long _changeSource;
-    NSString *_changeReason;
-    NSString *_buildVersion;
-    NSString *_productVersion;
-    NSString *_schemaVersion;
-    NSString *_logEventIdentifier;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (long long);
 - (long long);
 - (id);
 - (id);
+- (id)setSubLocality:(CDUnknownBlockType)arg1;
 - (id);
-- (id);
-- (id);
+- (id)86;
 - (id);
 - (id);
 - (id);
@@ -36,32 +28,17 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)tureContextsChangeCallback:added:removed:reason: /* Error: Ran out of types for this method. */;
+- (void)invokeActiveGestureContextsChangeCallback:added:removed:reason: /* Error: Ran out of types for this method. */;
 - (id)tsSAEByDeviceCapabilityAndFeatureFlags = %d, localeSupportsSAE = %d, gmsAvailable = %d;
-- (id)udioPlaybackRequest::itemURL /* Error: Ran out of types for this method. */;
+- (id)AFAudioPlaybackRequest::itemURL /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, copy, nonatomic) NSString *changeReason; // @synthesize changeReason=_changeReason;
-@property(readonly, nonatomic) long long changeSource; // @synthesize changeSource=_changeSource;
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *logEventIdentifier; // @synthesize logEventIdentifier=_logEventIdentifier;
-@property(readonly, nonatomic) long long newOptInStatus; // @synthesize newOptInStatus=_newOptInStatus;
-@property(readonly, nonatomic) long long previousOptInStatus; // @synthesize previousOptInStatus=_previousOptInStatus;
-@property(readonly, copy, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(readonly, copy, nonatomic) NSString *schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(readonly) Class superclass;
 
 @end
 

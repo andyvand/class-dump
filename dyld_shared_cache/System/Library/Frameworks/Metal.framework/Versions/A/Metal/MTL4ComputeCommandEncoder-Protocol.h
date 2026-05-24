@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MTLTexture;
+
 @protocol MTL4ComputeCommandEncoder
+- (void);
+- (void)replaceRegion:(id <MTLTexture>)arg1 mipmapLevel:(unsigned long long)arg2 withBytes:(unsigned long long)arg3 bytesPerRow: /* Error: Ran out of types for this method. */;
+- (void)";
+- (void)apostrophearmenian;
+- (void)*~
+;
 @end
 

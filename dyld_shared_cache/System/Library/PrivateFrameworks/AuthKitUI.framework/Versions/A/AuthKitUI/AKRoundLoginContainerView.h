@@ -7,17 +7,15 @@
 @interface AKRoundLoginContainerView
 {
     _Bool _usesDarkMode;
-    _Bool _shouldHideCenterLine;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldHideCenterLine; // @synthesize shouldHideCenterLine=_shouldHideCenterLine;
 @property(nonatomic) _Bool usesDarkMode; // @synthesize usesDarkMode=_usesDarkMode;
 
 @end

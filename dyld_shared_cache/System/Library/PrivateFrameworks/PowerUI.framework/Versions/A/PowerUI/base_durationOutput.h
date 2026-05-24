@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface base_durationOutput
 {
@@ -20,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double duration_pred; // @synthesize duration_pred=_duration_pred;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

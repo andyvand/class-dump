@@ -6,40 +6,29 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSString, NSTextField;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewDeletionLabel : NSView
 {
     CALayer *_maskLayer;
-    NSTextField *_labelField;
-    struct CGAffineTransform _labelTransform;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)t decode options require version2;
+- (_Bool)e property list;
 - (void);
 - (struct CGAffineTransform);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)izeForCustomizationPalette:(struct CGRect)arg1;
+- (id)setPreferredSizeForCustomizationPalette:(struct CGRect)arg1;
 - (void)ÿÿÿÿø;
 - (void)d:(id)arg1 START for collectionView %p;
 - (void)t;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(copy) NSString *label;
-@property struct CGAffineTransform labelTransform;
-@property(readonly) Class superclass;
 
 @end
 

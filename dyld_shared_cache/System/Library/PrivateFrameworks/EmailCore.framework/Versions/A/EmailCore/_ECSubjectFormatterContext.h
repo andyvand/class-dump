@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRegularExpression, NSString;
+@class NSRegularExpression;
 
 @interface _ECSubjectFormatterContext
 {
     _Bool _prefixLastStrongDirectionalityIsLeftToRight;
-    NSRegularExpression *_regex;
-    NSString *_localizedPrefix;
 }
 
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)TabsView should only be set once on an AVMobileGlassControlsView.;
+- (id)should only be set once on an AVMobileGlassControlsView.;
+- (id)a;
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *localizedPrefix; // @synthesize localizedPrefix=_localizedPrefix;
-@property(readonly, nonatomic) _Bool prefixLastStrongDirectionalityIsLeftToRight; // @synthesize prefixLastStrongDirectionalityIsLeftToRight=_prefixLastStrongDirectionalityIsLeftToRight;
 @property(readonly, nonatomic) NSRegularExpression *regex; // @synthesize regex=_regex;
 
 @end

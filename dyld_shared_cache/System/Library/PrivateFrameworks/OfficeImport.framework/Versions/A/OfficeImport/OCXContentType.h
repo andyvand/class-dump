@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface OCXContentType
 {
     NSString *mContentType;
-    NSString *mPath;
-    NSString *mExtension;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contentType; // @synthesize contentType=mContentType;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=mPath;
 
 @end
 

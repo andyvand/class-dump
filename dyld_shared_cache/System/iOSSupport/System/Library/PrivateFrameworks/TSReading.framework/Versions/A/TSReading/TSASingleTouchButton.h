@@ -9,7 +9,6 @@
 @interface TSASingleTouchButton
 {
     UIImage *_touchImage;
-    _Bool _showsTouchOnTopWhenHighlighted;
 }
 
 - (id);
@@ -22,11 +21,10 @@
 - (void);
 - (void);
 - (void);
-- (void)ynamicHidingText;
+- (void)mDynamicHidingText;
 
 // Remaining properties
 @property(nonatomic) _Bool showsTouchOnTopWhenHighlighted; // @synthesize showsTouchOnTopWhenHighlighted=_showsTouchOnTopWhenHighlighted;
-@property(retain, nonatomic) UIImage *touchImage; // @synthesize touchImage=_touchImage;
 
 @end
 

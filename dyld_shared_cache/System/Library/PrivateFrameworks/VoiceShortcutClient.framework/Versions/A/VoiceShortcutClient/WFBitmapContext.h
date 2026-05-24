@@ -7,33 +7,29 @@
 @interface WFBitmapContext
 {
     double _scale;
-    struct CGContext *_CGContext;
-    struct CGSize _size;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)didz;
++ (id)֛{;
++ (id);
 + (id);
 + (id);
 - (id);
+- (id)z;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)4z;
+- (id)Ws2|;
 - (id);
 - (id);
 - (void);
 - (struct CGContext *);
 - (double);
 - (id);
-- (void);
-- (struct CGSize);
+- (void)Ptf;
+- (struct CGSize)/;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGContext *CGContext; // @synthesize CGContext=_CGContext;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

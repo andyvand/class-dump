@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMBookmarkablePublisher, BMComputePublisherClient, BMComputePublisherStorage, BMDSL, NSObject, NSString;
+@class BMComputePublisherStorage, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BMBiomeScheduler
 {
     BMComputePublisherStorage *_bookmarkStorage;
-    _Bool _waking;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_identifier;
-    BMComputePublisherClient *_client;
-    NSString *_subscriptionIdentifier;
-    BMBookmarkablePublisher *_bpsPublisher;
-    BMDSL *_graph;
 }
 
 + (id);
@@ -27,10 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)signedRanges;
+- (id)_procName;
 - (void);
-- (id);
+- (id)tringValue;
 - (void);
 - (id);
 - (id);
@@ -44,18 +36,11 @@
 - (struct os_unfair_lock_s)2;
 - (void);
 - (id)ÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿ;
-- (id);
+- (id)5y;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BMBookmarkablePublisher *bpsPublisher; // @synthesize bpsPublisher=_bpsPublisher;
-@property(readonly, nonatomic) BMComputePublisherClient *client; // @synthesize client=_client;
-@property(retain, nonatomic) BMDSL *graph; // @synthesize graph=_graph;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSString *subscriptionIdentifier; // @synthesize subscriptionIdentifier=_subscriptionIdentifier;
-@property(readonly, nonatomic) _Bool waking; // @synthesize waking=_waking;
 
 @end
 

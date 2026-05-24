@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, MPCModelStorePlaybackItemsRequest, MPMutableSectionedCollection, MPPropertySet, MPSectionedCollection, MPServerObjectDatabase, NSError, NSMutableArray, NSMutableOrderedSet, NSMutableSet, NSOperationQueue, NSString;
+@class MPCModelStorePlaybackItemsRequest;
 
 @interface _MPCModelStorePlaybackItemsRequestAccumulator_Legacy
 {
     MPCModelStorePlaybackItemsRequest *_request;
-    MPServerObjectDatabase *_sod;
-    NSString *_personID;
-    MPPropertySet *_requestPropertySet;
-    NSMutableArray *_importResults;
-    NSMutableSet *_failedStoreIDs;
-    NSMutableOrderedSet *_pendingStoreIDs;
-    ICURLAggregatedPerformanceMetrics *_performanceMetrics;
-    MPMutableSectionedCollection *_progressiveContentDescriptors;
-    MPMutableSectionedCollection *_unpersonalizedContentDescriptors;
-    struct os_unfair_lock_s _lock;
-    long long _defaultLibraryPersonalizationStyle;
-    long long _unknownEndpointLibraryPersonalizationStyle;
-    long long _storePersonalizationStyle;
-    unsigned int _spirTag;
-    unsigned int _piaTag;
-    _Bool _allowsExplicitContent;
-    _Bool _requestUsesSectionedModelObjects;
-    NSError *_accumulationError;
-    NSOperationQueue *_operationQueue;
 }
 
 + (_Bool);
-- (void);
+- (void)actions for enablement %@;
 - (unsigned int);
 - (id);
 - (id);
@@ -60,21 +41,7 @@
 - (void)formInsertPlaybackContext:| disabling auto play [data source unsupported] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *accumulationError; // @synthesize accumulationError=_accumulationError;
-@property(readonly, nonatomic) struct MPCModelStorePlaybackItemsRequestAccumulatorResult accumulatorResult;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long failedIDsCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) long long pendingIDsCount;
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics;
 @property(readonly, nonatomic) unsigned int piaTag;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPSectionedCollection *unpersonalizedContentDescriptors;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)voicedb.;
 
 @end
 

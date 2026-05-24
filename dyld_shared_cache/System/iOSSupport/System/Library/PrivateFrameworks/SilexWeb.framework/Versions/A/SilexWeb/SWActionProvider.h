@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol SWActionFactory, SWEmbedAction, SWLogger;
+@protocol SWActionFactory;
 
 @interface SWActionProvider
 {
     id <SWActionFactory> _actionFactory;
-    id <SWLogger> _logger;
-    NSMutableArray *_actionBlocks;
 }
 
 - (id);
@@ -19,22 +16,12 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id)erences;
+- (id)preferences;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SWEmbedAction> action;
-@property(readonly, nonatomic) NSMutableArray *actionBlocks; // @synthesize actionBlocks=_actionBlocks;
 @property(readonly, nonatomic) id <SWActionFactory> actionFactory; // @synthesize actionFactory=_actionFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
 
 @end
 

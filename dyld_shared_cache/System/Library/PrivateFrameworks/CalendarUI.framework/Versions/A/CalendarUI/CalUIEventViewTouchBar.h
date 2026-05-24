@@ -4,105 +4,85 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUserActionTouchBar, CalUICalendarPickerTouchBarItemController, CalUIDatePickerTouchBar, CalUIEventViewReportJunkControl, EKEvent, NSButton, NSCustomTouchBarItem, NSGroupTouchBarItem, NSLayoutConstraint, NSPopoverTouchBarItem, NSSegmentedControl, NSString, NSTouchBar;
+@class EKEvent;
 @protocol CalUIEventViewTouchBarDelegate;
 
 @interface CalUIEventViewTouchBar
 {
     EKEvent *_event;
-    id <CalUIEventViewTouchBarDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    NSButton *_escButton;
-    NSButton *_escSecondaryButton;
-    NSButton *_escWidthMeasurementButton;
-    NSLayoutConstraint *_escButtonWidthConstraint;
-    NSCustomTouchBarItem *_escButtonTouchBarItem;
-    CalUICalendarPickerTouchBarItemController *_calendarPickerController;
-    NSButton *_inspectorToggleButton;
-    NSGroupTouchBarItem *_inspectorFieldsTouchBarItem;
-    NSPopoverTouchBarItem *_locationPopoverTouchBarItem;
-    NSPopoverTouchBarItem *_eventTimePopoverTouchBarItem;
-    NSPopoverTouchBarItem *_inviteesPopoverTouchBarItem;
-    NSTouchBar *_locationTouchBar;
-    CalUIDatePickerTouchBar *_datePickerTouchBar;
-    NSTouchBar *_inviteesTouchBar;
-    CNUserActionTouchBar *_userActionTouchBar;
-    CalUIEventViewReportJunkControl *_reportJunkControl;
-    NSSegmentedControl *_invitationResponseControl;
-    NSTouchBar *_invitationReponseTouchBar;
 }
 
 + (id);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool))~));
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)O;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
+- (void)F;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)~�t&;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (id)鸩BB9)	;
+- (void)`;
 - (id);
 - (void);
+- (void)?;
+- (id)ڑ;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void).;
 - (void);
 - (void);
 - (void);
@@ -116,34 +96,7 @@
 - (void)öÿîé~~°;
 
 // Remaining properties
-@property(retain) CalUICalendarPickerTouchBarItemController *calendarPickerController; // @synthesize calendarPickerController=_calendarPickerController;
-@property(retain) CalUIDatePickerTouchBar *datePickerTouchBar; // @synthesize datePickerTouchBar=_datePickerTouchBar;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CalUIEventViewTouchBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSButton *escButton; // @synthesize escButton=_escButton;
-@property(retain) NSCustomTouchBarItem *escButtonTouchBarItem; // @synthesize escButtonTouchBarItem=_escButtonTouchBarItem;
-@property(retain) NSLayoutConstraint *escButtonWidthConstraint; // @synthesize escButtonWidthConstraint=_escButtonWidthConstraint;
-@property(retain) NSButton *escSecondaryButton; // @synthesize escSecondaryButton=_escSecondaryButton;
-@property(retain) NSButton *escWidthMeasurementButton; // @synthesize escWidthMeasurementButton=_escWidthMeasurementButton;
-@property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(retain) NSPopoverTouchBarItem *eventTimePopoverTouchBarItem; // @synthesize eventTimePopoverTouchBarItem=_eventTimePopoverTouchBarItem;
-@property(readonly) unsigned long long hash;
-@property(retain) NSGroupTouchBarItem *inspectorFieldsTouchBarItem; // @synthesize inspectorFieldsTouchBarItem=_inspectorFieldsTouchBarItem;
-@property(retain) NSButton *inspectorToggleButton; // @synthesize inspectorToggleButton=_inspectorToggleButton;
-@property(retain) NSTouchBar *invitationReponseTouchBar; // @synthesize invitationReponseTouchBar=_invitationReponseTouchBar;
-@property(retain) NSSegmentedControl *invitationResponseControl; // @synthesize invitationResponseControl=_invitationResponseControl;
-@property(retain) NSPopoverTouchBarItem *inviteesPopoverTouchBarItem; // @synthesize inviteesPopoverTouchBarItem=_inviteesPopoverTouchBarItem;
-@property(retain) NSTouchBar *inviteesTouchBar; // @synthesize inviteesTouchBar=_inviteesTouchBar;
-@property(retain) NSPopoverTouchBarItem *locationPopoverTouchBarItem; // @synthesize locationPopoverTouchBarItem=_locationPopoverTouchBarItem;
-@property(retain) NSTouchBar *locationTouchBar; // @synthesize locationTouchBar=_locationTouchBar;
-@property(retain) CalUIEventViewReportJunkControl *reportJunkControl; // @synthesize reportJunkControl=_reportJunkControl;
-@property(readonly) Class superclass;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
-@property(retain) CNUserActionTouchBar *userActionTouchBar; // @synthesize userActionTouchBar=_userActionTouchBar;
 
 @end
 

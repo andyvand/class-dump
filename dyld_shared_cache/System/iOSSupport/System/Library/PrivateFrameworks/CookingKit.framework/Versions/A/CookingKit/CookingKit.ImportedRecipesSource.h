@@ -8,10 +8,6 @@
 {
     id _recipeFeaturesConfiguration;
     id state;
-    id recipeStore;
-    id measurementParser;
-    id updateTask;
-    id _$scope;
 }
 
 @end

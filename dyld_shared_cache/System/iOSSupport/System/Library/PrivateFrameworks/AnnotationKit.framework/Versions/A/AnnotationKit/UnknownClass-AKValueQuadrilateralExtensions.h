@@ -10,10 +10,10 @@
 + (id);
 + (id);
 + (id);
-- (struct CGSize);
-- (struct CGRect);
+- (struct CGSize);
+- (struct CGRect)X;
 - (struct CGPoint);
-- (struct AKQuadrilateral);
+- (struct AKQuadrilateral);
 - (struct CGRect);
 
 // Remaining properties

@@ -9,14 +9,12 @@
 @interface AVAnnotationRepresentation
 {
     NSString *_representationType;
-    NSString *_version;
-    NSUUID *_identifier;
 }
 
 + (id);
 + (id);
++ (id)ո;
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
@@ -24,10 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)z;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (id);
 

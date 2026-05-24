@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABasicAnimation;
-
 @interface SearchUI.SearchUISpringAnimationSettings
 {
     double bounce;
-    double perceptualDuration;
-    double delay;
 }
 
 + (id);
@@ -22,14 +18,11 @@
 - (id);
 - (double);
 - (id);
-- (double);
+- (double);
 - (void)¿;
 
 // Remaining properties
 @property(nonatomic) double bounce; // @synthesize bounce;
-@property(nonatomic, readonly) CABasicAnimation *coreAnimation;
-@property(nonatomic) double delay; // @synthesize delay;
-@property(nonatomic) double perceptualDuration; // @synthesize perceptualDuration;
 
 @end
 

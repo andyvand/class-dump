@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCKDatabase, NSString;
+@class NSString;
 
 @interface IDSCKContainer
 {
     NSString *_containerIdentifier;
-    IDSCKDatabase *_privateCloudDatabase;
-    IDSCKDatabase *_publicCloudDatabase;
 }
 
 + (Class);
 + (id);
 - (id);
 - (id);
-- (void)ediaRemoteV2;
+- (void)MediaRemoteV2;
 - (id)QäáWd¹
 ;
 
 // Remaining properties
 @property(readonly) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, nonatomic) IDSCKDatabase *privateCloudDatabase; // @synthesize privateCloudDatabase=_privateCloudDatabase;
-@property(readonly, nonatomic) IDSCKDatabase *publicCloudDatabase; // @synthesize publicCloudDatabase=_publicCloudDatabase;
 
 @end
 

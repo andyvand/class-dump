@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientACSuggestionEntry, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMIFAutocompleteBaseEntry
 {
     PBDataReader *_reader;
-    GEOClientACSuggestionEntry *_clientAcSuggestionEntry;
-    NSString *_itemIdentifier;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_clientAcSuggestionEntry:1;
-        unsigned int read_itemIdentifier:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_LKFSLowerPercentile;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)rritoryLookupParameters"b1"read_transitNearbyPaymentMethodLookupParameters"b1"read_transitNearbyScheduleLookupParameters"b1"read_transitScheduleLookupParameter"b1"read_transitVehiclePositionParameters"b1"read_vendorSpecificPlaceRefinementParameters"b1"read_wifiFingerprintParameters"b1"wrote_anyField"b1};
-- (id)se:callbackQueue:callback: /* Error: Ran out of types for this method. */;
+- (id)_fetchCoarseEquivalentForLocation:addLocationNoise:callbackQueue:callback: /* Error: Ran out of types for this method. */;
 - (id)°K;
 - (void);
 

@@ -6,24 +6,12 @@
 
 #import <MetalTools/MTLToolsSharedEvent.h>
 
-@class NSString;
-@protocol MTLDevice;
-
 @interface MTLToolsLateEvalEvent : MTLToolsSharedEvent
 {
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
 @property unsigned long long signaledValue;
-@property(readonly) Class superclass;
 @end
 

@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXAssetController, NSString, NSURL;
+@class NSURL;
 
 @interface AXMImageCaptionModelAssetManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _didTryWaitingForAssetLookup;
-    AXAssetController *_assetController;
-    NSURL *_baseURL;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
+- (id)~[|;
+- (void)|;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)s.dylib;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

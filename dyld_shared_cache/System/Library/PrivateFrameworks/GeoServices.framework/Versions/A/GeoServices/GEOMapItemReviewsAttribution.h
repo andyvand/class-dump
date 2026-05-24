@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)6^@20@?28;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addReviewURLs;

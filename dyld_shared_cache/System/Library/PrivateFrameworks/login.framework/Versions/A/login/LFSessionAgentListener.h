@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)B(cnbbPd;
+- (id)ed by a common transform block (or decorrelating colour transform) have incompatible dimensions.  This error may also be detected if the sub-sampling factors associated with an MCT output image component vary from tile to tile or if relative component size change from resolution level to resolution level (due to incompatible Part-2 downsampling factor style usage).  While these latter conditions might not be strictly illegal, they are clearly foolish.;
 
 // Remaining properties
 @property(retain) id <LFSessionAgentListenerInterface> messageHandler; // @dynamic messageHandler;

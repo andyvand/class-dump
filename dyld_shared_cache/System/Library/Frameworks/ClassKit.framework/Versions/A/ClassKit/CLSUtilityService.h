@@ -10,7 +10,6 @@
 @interface CLSUtilityService
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CLSEndpointConnection *_endpointConnection;
 }
 
 + (Class);
@@ -20,6 +19,7 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -28,25 +28,35 @@
 - (void);
 - (void);
 - (void);
+- (void)reFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Calcuating HwExecution Time for programId:(CDUnknownBlockType)arg1 %u processId:%u procedureId:%u, StartTime:%llu, nFinishTime:%llu
+ /* Error: Ran out of types for this method. */;
+- (void)for stats!
+;
+- (void)ERROR:(CDUnknownBlockType)arg1 %s:nothing to process for stats!
+ /* Error: Ran out of types for this method. */;
+- (void)ServicesDeviceMessageNotification:(id)arg1 kANEDeviceSleep
+;
+- (void)NE System) Skipping ANEServices device at index %d
+;
+- (void)status=0x%x
+;
+- (void)lx
+;
+- (void)ANERequestReceiverProcessRequest;
+- (void)syncRequests to be completed
+;
+- (void)dr=%llx;
+- (void):(unsigned long long)arg1 Invalid perf tracer metric2;
+- (void)id perf tracer category;
+- (void)oes not support version %lld
+;
+- (void)rser:(CDUnknownBlockType)arg1 Invalid memory access.
+;
+- (void)failed
+;
 - (void);
 - (id);
 - (void);

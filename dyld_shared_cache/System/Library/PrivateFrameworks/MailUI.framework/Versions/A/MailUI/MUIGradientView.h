@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSArray;
+@class CAGradientLayer;
 
 @interface MUIGradientView
 {
@@ -16,18 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint endPoint;
-@property(retain, nonatomic) NSArray *gradientColors;
 @property(readonly, nonatomic) CAGradientLayer *gradientLayer;
-@property(retain, nonatomic) NSArray *locations;
-@property(nonatomic) struct CGPoint startPoint;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSString, PHObjectPlaceholder, PHRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class NSString, PHRelationshipChangeRequestHelper;
 
 @interface PHShareParticipantChangeRequest : PHChangeRequest
 {
@@ -18,12 +17,12 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)d;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)qA;
 - (id);
 - (id);
 - (void);
@@ -33,7 +32,7 @@
 - (short);
 - (id);
 - (void);
-- (void);
+- (void)9h;
 - (void);
 - (short);
 - (_Bool);
@@ -42,7 +41,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)- Null pointer passed to assign;
 - (id);
 - (short);
 - (unsigned short);
@@ -52,29 +51,7 @@
 - (short);
 
 // Remaining properties
-@property(nonatomic) short acceptanceStatus;
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *emailAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *personHelper; // @synthesize personHelper=_personHelper;
-@property(retain, nonatomic) NSString *phoneNumber;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedShareParticipant;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, PBUnknownFields;
-@protocol GEOSurchargeType;
+@class NSArray, PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEORequestOptions
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_requestOptions;
-    int _optionUsed;
-    struct {
-        unsigned int has_optionUsed:1;
-    } _flags;
 }
 
 - (id);
@@ -27,13 +21,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"b1"wrote_anyField"b1};
-- (id)istanceFromDestination;
+- (id)distanceFromDestination;
 - (id)Ðjl´n	qLs;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOSurchargeType> selectedSurchargeType;
-@property(readonly, nonatomic) unsigned long long selectedSurchargeTypeIndex;
 @property(readonly, nonatomic) NSArray *surchargeTypes;
 
 @end

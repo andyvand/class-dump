@@ -6,24 +6,11 @@
 
 #import <MetalTools/MTLToolsComputePipelineState.h>
 
-@class MTLComputePipelineReflection, MTLGPUDebugBuffer, MTLGPUDebugImageData, NSArray, NSMutableArray, NSString;
+@class MTLGPUDebugImageData, NSArray;
 
 @interface MTLGPUDebugComputePipelineState : MTLToolsComputePipelineState
 {
     MTLGPUDebugImageData *_kernelFunctionData;
-    MTLComputePipelineReflection *_internalReflection;
-    MTLComputePipelineReflection *_userReflection;
-    NSMutableArray *_binaryFunctionData;
-    unsigned long long _constantOffset;
-    unsigned int _threadgroupArgumentOffset;
-    unsigned int _activeThreadgroupMask;
-    MTLGPUDebugBuffer *_indirectStateBuffer;
-    _Bool _supportsIndirectCommandBuffers;
-    long long _shaderValidation;
-    long long _shaderValidationState;
-    NSMutableArray *_retainedFunctions;
-    int _maxCallStackDepth;
-    NSString *_UID;
 }
 
 - (id);
@@ -45,7 +32,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
@@ -56,18 +43,7 @@
 - (long long){;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *UID; // @synthesize UID=_UID;
 @property(readonly, nonatomic) NSArray *binaryFunctionData; // @synthesize binaryFunctionData=_binaryFunctionData;
-@property(readonly, nonatomic) unsigned long long constantOffset;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *globalConstantsBuffer;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *indirectStateBuffer;
-@property(readonly, nonatomic) MTLComputePipelineReflection *internalReflection;
-@property(readonly, nonatomic) MTLGPUDebugImageData *kernelFunctionData;
-@property(readonly, nonatomic) int maxCallStackDepth; // @synthesize maxCallStackDepth=_maxCallStackDepth;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly, nonatomic) MTLComputePipelineReflection *userReflection;
 
 @end
 

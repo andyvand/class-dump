@@ -5,5 +5,6 @@
 //
 
 @protocol BSServiceConnectionCommonConfiguring
+- (void);
 @end
 

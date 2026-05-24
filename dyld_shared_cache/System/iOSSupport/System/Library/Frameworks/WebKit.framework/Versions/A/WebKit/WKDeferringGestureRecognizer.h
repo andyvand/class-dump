@@ -8,17 +8,16 @@ __attribute__((visibility("hidden")))
 @interface WKDeferringGestureRecognizer
 {
     struct WeakObjCPtr<id<WKDeferringGestureRecognizerDelegate>> _deferringGestureDelegate;
-    _Bool _immediatelyFailsAfterTouchEnd;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)setCloudKitContainerOptions:(long long)arg1;
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)egistrableDomain>>, WTF:(id)arg1:(id)arg2 KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;

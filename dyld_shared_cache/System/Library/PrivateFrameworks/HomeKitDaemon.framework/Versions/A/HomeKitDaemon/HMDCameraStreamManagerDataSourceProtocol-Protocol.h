@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HMDAVCRemoteVideoClient;
+
 @protocol HMDCameraStreamManagerDataSourceProtocol
+- (id <HMDAVCRemoteVideoClient>)n restoring state %@ to %@;
 @end
 

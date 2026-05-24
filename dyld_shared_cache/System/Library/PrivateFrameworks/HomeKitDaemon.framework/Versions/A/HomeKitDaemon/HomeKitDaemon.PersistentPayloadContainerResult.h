@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface HomeKitDaemon.PersistentPayloadContainerResult
 {
     double publishTimestamp;
-    void domainPayloads;
 }
 
 - (id);
 - (id);
-- (double);
+- (double)en set.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *domainPayloads;
 @property(nonatomic, readonly) double publishTimestamp; // @synthesize publishTimestamp;
 
 @end

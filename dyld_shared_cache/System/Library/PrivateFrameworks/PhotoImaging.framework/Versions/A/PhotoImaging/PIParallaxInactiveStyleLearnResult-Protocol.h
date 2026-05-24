@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *styleData;
-@property(readonly, nonatomic) struct CGRect styleFrame;
 @end
 

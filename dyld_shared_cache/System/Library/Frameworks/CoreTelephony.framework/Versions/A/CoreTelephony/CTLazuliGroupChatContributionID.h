@@ -11,13 +11,13 @@
     NSString *_identifier;
 }
 
-+ (_Bool);
++ (_Bool)temRateChangeEvent:%p %@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id);
+- (id);
+- (_Bool)U;
+- (void)Context;
 - (void);
 - (id);
 - (id);

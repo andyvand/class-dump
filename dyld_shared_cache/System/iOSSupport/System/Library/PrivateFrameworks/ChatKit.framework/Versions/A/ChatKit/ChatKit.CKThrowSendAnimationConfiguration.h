@@ -7,20 +7,10 @@
 @interface ChatKit.CKThrowSendAnimationConfiguration
 {
     id duration;
-    id beginTime;
-    id speed;
-    id animationDelegate;
-    id timingFunction;
-    id fillMode;
-    id animationGroup;
-    id initialSize;
-    id finalSize;
-    id preferredFrameRateRange;
-    id highFrameRateReason;
 }
 
 + (id);
-- (id);
+- (id)ContentView;
 - (id);
 - (void)Ú;
 

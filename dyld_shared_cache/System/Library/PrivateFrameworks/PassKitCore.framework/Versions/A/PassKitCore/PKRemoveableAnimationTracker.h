@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class CALayer;
 
 @interface PKRemoveableAnimationTracker
 {
     _Bool _removed;
-    _Bool _finished;
-    _Bool _tracked;
-    _Bool _preemptAttempted;
-    CDUnknownBlockType _preemptAction;
-    _Bool _preempted;
-    CALayer *_layer;
-    NSString *_key;
 }
 
 + (id);
@@ -26,13 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (id)nts;
-- (void)alProduct;
+- (id)_TtC11PassKitCore28ProvisioningStepRequirements;
+- (void)totalProduct;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
 @property(readonly, nonatomic) __weak CALayer *layer; // @synthesize layer=_layer;
-@property(readonly, nonatomic, getter=isPreempted) _Bool preempted; // @synthesize preempted=_preempted;
 
 @end
 

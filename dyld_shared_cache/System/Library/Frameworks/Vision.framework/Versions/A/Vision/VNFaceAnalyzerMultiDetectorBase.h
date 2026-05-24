@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (const void *);
 + (id);
-+ (unsigned int);
-+ (id);
++ (unsigned int)or">24;
++ (id)CNContactPosterDataXPCConnectionFactory;
 + (id);
 + (_Bool);
 + (Class)ÐPQÀT¸W;

@@ -7,37 +7,15 @@
 @class NSDate;
 
 @protocol PXCPLMutableStatusSource
-- (void)moriesToFetch:(_Bool)arg1;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)Ԝ;
+- (void)_setRemainingMemoriesToFetch:(_Bool)arg1;
 - (void)Enumeration>",R,N,V_assetsToAdd;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *exitDate;
-@property(nonatomic) _Bool hasChangesToProcess;
-@property(nonatomic) _Bool isCapturingSnapshot;
-@property(nonatomic) _Bool isCellularDataDisabled;
-@property(nonatomic) _Bool isClientNotAuthenticated;
-@property(nonatomic) _Bool isClientVersionTooOld;
-@property(nonatomic) _Bool isExceedingBatteryQuota;
-@property(nonatomic) _Bool isExceedingCellularQuota;
-@property(nonatomic) _Bool isExceedingQuota;
-@property(nonatomic) _Bool isExceedingSharedLibraryQuota;
-@property(nonatomic) _Bool isInAirplaneMode;
-@property(nonatomic) _Bool isInHeavyThermalPressure;
-@property(nonatomic) _Bool isInLowBattery;
-@property(nonatomic) _Bool isInLowDataMode;
-@property(nonatomic) _Bool isInLowPowerMode;
-@property(nonatomic) _Bool isInModerateThermalPressure;
-@property(nonatomic) _Bool isInPoorNetworkConnection;
-@property(nonatomic) _Bool isLowDiskSpace;
-@property(nonatomic) _Bool isOffline;
-@property(nonatomic) _Bool isOptimizingSystemPerformance;
-@property(nonatomic) _Bool isUpgradeSuggestedToAccessAllPhotos;
-@property(nonatomic) _Bool isVeryLowDiskSpace;
-@property(nonatomic) unsigned long long numberOfOtherAssets;
-@property(nonatomic) unsigned long long numberOfPhotoAssets;
-@property(nonatomic) unsigned long long numberOfVideoAssets;
-@property(nonatomic) unsigned long long sharedLibraryExitingWithNumberOfAssetsRemaining;
-@property(copy, nonatomic) NSDate *syncDate;
 @end
 

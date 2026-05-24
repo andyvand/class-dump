@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOScopedBrandInfo
 {
     PBDataReader *_reader;
-    NSString *_isoCountryCode;
-    NSMutableArray *_localizedNames;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_isoCountryCode:1;
-        unsigned int read_localizedNames:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)MapUiCurrentTabIndex:(id)arg1;
++ (Class)/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle (%d);
++ (_Bool)setMapUiCurrentTabIndex:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
@@ -32,27 +22,25 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ics.framework/Versions/A/CoreGraphics;
 - (id);
-- (void);
+- (void)_receiveVoiceGradingDataFromPeerId:(id)arg1 requestInfo:withReply: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)T;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id)yDelegate>"16@0:(struct _NSZone *)arg1 8;
-- (id);
-- (id)downData;
+- (id)hasCurrentAbAssignmentResponse;
+- (id)GEOCountdownData;
 - (id)gestion"8;
 - (void)ýh8eP@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIsoCountryCode;
-@property(retain, nonatomic) NSString *isoCountryCode;
-@property(retain, nonatomic) NSMutableArray *localizedNames;
 
 @end
 

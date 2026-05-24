@@ -11,9 +11,9 @@
     NSArray *_bindings;
 }
 
-- (id);
+- (id);
 - (void);
-- (id)4BPP;
+- (id)PVRTC_RGB_4BPP;
 
 // Remaining properties
 @property(readonly) NSArray *bindings; // @synthesize bindings=_bindings;

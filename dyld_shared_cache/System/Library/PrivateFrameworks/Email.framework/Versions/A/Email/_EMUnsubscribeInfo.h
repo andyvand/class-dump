@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface _EMUnsubscribeInfo
 {
     NSURL *_mailtoURL;
-    NSURL *_postURL;
-    NSString *_postContent;
 }
 
 - (id);

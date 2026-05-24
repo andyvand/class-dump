@@ -7,25 +7,6 @@
 @interface PodcastsFoundation.PodcastAttributes
 {
     id artistName;
-    id url;
-    id subscribable;
-    id displayType;
-    id feedUrl;
-    id name;
-    id description;
-    id artwork;
-    id copyright;
-    id kind;
-    id editorialArtwork;
-    id releaseDateTime;
-    id contentRating;
-    id websiteUrl;
-    id genreNames;
-    id seasonNumbers;
-    id offers;
-    id upsell;
-    id $__lazy_storage_$_releaseDateResolved;
-    id mediaKinds;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INNoteContent, INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INCreateNoteIntent : INIntent
 {
@@ -14,7 +14,7 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id)_֡l;
 - (id);
 - (id);
 - (void);
@@ -24,27 +24,18 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)<;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)rSetClimateSettingsInCar:completion: /* Error: Ran out of types for this method. */;
+- (id)resolveCarNameForSetClimateSettingsInCar:completion: /* Error: Ran out of types for this method. */;
 - (id)4h;
 - (void)ãÿ;
 
 // Remaining properties
-@property(readonly, copy) INNoteContent *content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INSpeakableString *groupName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy) INSpeakableString *title;
 
 @end

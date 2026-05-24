@@ -4,60 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPassDescriptor, TSDMetalContext, TSDMetalShader;
-@protocol MTLCommandBuffer, MTLTexture, TSDAnimationRandomGenerator, TSDMTLDataBuffer;
-
 @interface TSDMetalMotionBlurEffect
 {
     struct CGSize _framebufferSize;
-    struct CGSize _slideSize;
-    id <MTLTexture> _combinedTextureColor1;
-    id <MTLTexture> _combinedTextureColor2;
-    id <MTLTexture> _combinedTextureVelocity;
-    TSDMetalShader *_defaultTextureShader;
-    TSDMetalShader *_colorAndVelocityShader;
-    TSDMetalShader *_colorAndVelocityBlendingShader;
-    TSDMetalShader *_velocityVisualizerShader;
-    TSDMetalShader *_velocityCollectionShader;
-    TSDMetalShader *_velocityTileMaxVerticalShader;
-    TSDMetalShader *_velocityTileMaxHorizontalShader;
-    TSDMetalShader *_velocityNeighborMaxHorizontalShader;
-    TSDMetalShader *_velocityNeighborMaxVerticalShader;
-    id <MTLTexture> _colorTexture1;
-    id <MTLTexture> _colorTexture2;
-    id <TSDMTLDataBuffer> _colorFBODataBuffer;
-    id <MTLTexture> _velocityTexture1;
-    id <MTLTexture> _velocityTexture2;
-    id <MTLTexture> _velocityTextureSquashed;
-    id <TSDMTLDataBuffer> _velocityFBODataBuffer;
-    id <TSDMTLDataBuffer> _velocitySquashedFBODataBuffer;
-    id <TSDMTLDataBuffer> _FBODataBuffer;
-    id <TSDMTLDataBuffer> _FBODataBufferFlipped;
-    MTLRenderPassDescriptor *_colorAndVelocityPassDescriptor;
-    MTLRenderPassDescriptor *_tileHorizontalPassDescriptor;
-    MTLRenderPassDescriptor *_tileVerticalPassDescriptor;
-    MTLRenderPassDescriptor *_neighborHorizontalPassDescriptor;
-    MTLRenderPassDescriptor *_neighborVerticalPassDescriptor;
-    MTLRenderPassDescriptor *_combined1PassDescriptor;
-    id <TSDAnimationRandomGenerator> _randomGenerator;
-    id <MTLCommandBuffer> _currentCommandBuffer;
-    TSDMetalContext *_metalContext;
-    _Bool _isSingleObject;
-    double _motionBlurStrength;
-    long long _debugDrawMode;
-    double _framebufferScale;
 }
 
+- (struct CGSize)layerController - Always-live stream paused - currentItem:(_Bool)arg1;
+- (struct CGSize)ate: /* Error: Ran out of types for this method. */;
+- (void)nsumer;
+- (void);
+- (void);
+- (void)EventReporting;
+- (void);
+- (struct CGSize)PlayerPeriodicObservationConfiguration;
 - (struct CGSize);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
 - (struct CGSize);
 - (void);
 - (void);
@@ -67,15 +28,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)MPCPlaybackEngineEventVideoRenderingMode;
+- (void)MPCPlaybackEngineEventVideoRenderingModeChangeReason;
 - (_Bool);
 - (double);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (void);
+- (long long)1;
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CATransform3D);
 - (void);
@@ -84,10 +45,7 @@
 - (void)ylePreset initWithStyleNetwork:index:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long debugDrawMode; // @synthesize debugDrawMode=_debugDrawMode;
-@property(nonatomic) double framebufferScale; // @synthesize framebufferScale=_framebufferScale;
 @property(nonatomic) _Bool isSingleObject; // @synthesize isSingleObject=_isSingleObject;
-@property(nonatomic) double motionBlurStrength; // @synthesize motionBlurStrength=_motionBlurStrength;
 
 @end
 

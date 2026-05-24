@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)9(;
 - (double);
 
 @end

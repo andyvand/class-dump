@@ -9,12 +9,6 @@
 @interface CPLMapEnumerator
 {
     id <NSFastEnumeration> _enumerator;
-    id *_resultValues;
-    unsigned long long _previousResultValuesLength;
-    unsigned long long _previousResultValuesCount;
-    unsigned long long _previousItemsPtrLength;
-    id *_itemsPtr;
-    CDUnknownBlockType _mapBlock;
 }
 
 - (CDUnknownBlockType);

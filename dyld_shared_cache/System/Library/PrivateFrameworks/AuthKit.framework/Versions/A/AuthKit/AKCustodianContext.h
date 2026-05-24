@@ -4,63 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface AKCustodianContext
 {
     _Bool __cliMode;
-    _Bool _cliMode;
-    _Bool _ownerDevice;
-    _Bool _custodianSyncAction;
-    NSUUID *_identifier;
-    NSString *_altDSID;
-    NSString *_identityToken;
-    NSString *_heartbeatToken;
-    NSString *_ownerAppleID;
-    NSString *_ownerCustodianAltDSID;
-    NSUUID *_custodianUUID;
-    NSData *_wrappingKeyRKC;
-    NSString *_recordBuildVersion;
-    NSString *_custodianSetupToken;
-    NSString *_pushToken;
-    NSString *_recoverySessionID;
-    NSString *_custodianRecoveryToken;
-    NSData *_aaData;
-    NSData *_idmsData;
-    NSData *_encryptedPRKC;
-    NSString *_recoveryStep;
-    long long _clientErrorCode;
-    long long _notificationAction;
-    NSString *_transactionID;
-    NSArray *_custodianUUIDs;
-    NSArray *_beneficiaryUUIDs;
-    NSDate *_lastDataSyncTimestamp;
 }
 
 + (_Bool);
+- (id)RK;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)/;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)! ;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -68,7 +42,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)R$;
 - (id);
 - (id);
 - (id);
@@ -81,7 +55,7 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)- ;
 - (void);
 - (id);
 - (void);
@@ -89,7 +63,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -101,40 +75,7 @@
 - (id)0PÿÐþÙ¡?àÜk°ñTöHçÉOBg¹ûj^GJu¶èÓw ïÕIì=Úx¥vDA]Ç!ZêK£½;
 
 // Remaining properties
-@property(nonatomic) _Bool _cliMode; // @synthesize _cliMode;
-@property(copy, nonatomic, setter=_setHeartbeatToken:) NSString *_heartbeatToken; // @synthesize _heartbeatToken;
-@property(readonly, nonatomic) NSUUID *_identifier; // @synthesize _identifier;
 @property(copy, nonatomic, setter=_setIdentityToken:) NSString *_identityToken; // @synthesize _identityToken;
-@property(copy, nonatomic) NSData *aaData; // @synthesize aaData=_aaData;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSArray *beneficiaryUUIDs; // @synthesize beneficiaryUUIDs=_beneficiaryUUIDs;
-@property(nonatomic) _Bool cliMode; // @synthesize cliMode=__cliMode;
-@property(nonatomic) long long clientErrorCode; // @synthesize clientErrorCode=_clientErrorCode;
-@property(copy, nonatomic) NSString *custodianRecoveryToken; // @synthesize custodianRecoveryToken=_custodianRecoveryToken;
-@property(copy, nonatomic) NSString *custodianSetupToken; // @synthesize custodianSetupToken=_custodianSetupToken;
-@property(nonatomic, getter=isCustodianSyncAction) _Bool custodianSyncAction; // @synthesize custodianSyncAction=_custodianSyncAction;
-@property(copy, nonatomic) NSUUID *custodianUUID; // @synthesize custodianUUID=_custodianUUID;
-@property(copy, nonatomic) NSArray *custodianUUIDs; // @synthesize custodianUUIDs=_custodianUUIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSData *encryptedPRKC; // @synthesize encryptedPRKC=_encryptedPRKC;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *idmsData; // @synthesize idmsData=_idmsData;
-@property(copy, nonatomic) NSDate *lastDataSyncTimestamp; // @synthesize lastDataSyncTimestamp=_lastDataSyncTimestamp;
-@property(nonatomic) long long notificationAction; // @synthesize notificationAction=_notificationAction;
-@property(copy, nonatomic) NSString *ownerAppleID; // @synthesize ownerAppleID=_ownerAppleID;
-@property(copy, nonatomic) NSString *ownerCustodianAltDSID; // @synthesize ownerCustodianAltDSID=_ownerCustodianAltDSID;
-@property(nonatomic) _Bool ownerDevice; // @synthesize ownerDevice=_ownerDevice;
-@property(copy, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(copy, nonatomic) NSString *recordBuildVersion; // @synthesize recordBuildVersion=_recordBuildVersion;
-@property(copy, nonatomic) NSString *recoverySessionID; // @synthesize recoverySessionID=_recoverySessionID;
-@property(copy, nonatomic) NSString *recoveryStep; // @synthesize recoveryStep=_recoveryStep;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
-@property(copy, nonatomic) NSData *wrappingKeyRKC; // @synthesize wrappingKeyRKC=_wrappingKeyRKC;
 
 @end
 

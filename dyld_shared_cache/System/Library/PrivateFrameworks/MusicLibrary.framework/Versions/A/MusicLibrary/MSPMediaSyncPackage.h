@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPMediaSyncError, MSPMediaSyncHeader, MSPMediaSyncOperation;
+@class MSPMediaSyncError;
 
 @interface MSPMediaSyncPackage
 {
     MSPMediaSyncError *_error;
-    MSPMediaSyncHeader *_header;
-    MSPMediaSyncOperation *_syncOperation;
-    int _type;
-    _Bool _lastPackage;
-    struct {
-        unsigned int type:1;
-        unsigned int lastPackage:1;
-    } _has;
 }
 
+- (id)_cloudFeedDeletionEntries;
+- (void)_cleanupLegacyArchiveURL:(id)arg1 replacementURL:error: /* Error: Ran out of types for this method. */;
+- (void)_calculateUnpauseTimeForPauseTime:(_Bool)arg1;
+- (_Bool)_aggregationHighlightClustersForMoments: /* Error: Ran out of types for this method. */;
+- (_Bool)_abortFromMocExecFail_NSMOC_SQLITE_DONE_101_withCode: /* Error: Ran out of types for this method. */;
+- (_Bool)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
+- (void)",&,N,V_frequentLocationManager;
 - (id);
-- (void);
-- (void);
+- (void)cheerleader;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)N3fst13SortedMatcherINS_3FstINS_6ArcTplINS_17TropicalWeightTplIfEEEEEEEE;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)serviceGroupIdentifiers;
 - (int);
 - (void);
 - (_Bool);
-- (void);
+- (void)timer;
 - (id);
 - (void);
 - (id);
@@ -51,16 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MSPMediaSyncError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool hasError;
-@property(readonly, nonatomic) _Bool hasHeader;
-@property(nonatomic) _Bool hasLastPackage;
-@property(readonly, nonatomic) _Bool hasSyncOperation;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) MSPMediaSyncHeader *header; // @synthesize header=_header;
-@property(nonatomic) _Bool lastPackage; // @synthesize lastPackage=_lastPackage;
-@property(retain, nonatomic) MSPMediaSyncOperation *syncOperation; // @synthesize syncOperation=_syncOperation;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

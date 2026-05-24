@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCSBusinessQueryService, NSString;
+@class BCSBusinessQueryService;
 
 @interface EDBusinessConnectMetadataProvider
 {
@@ -15,19 +15,12 @@
 - (void);
 - (void);
 - (id);
+- (id)g bytes != (%d) buffer bytes;
 - (id);
-- (id);
-- (void)ation_position;
+- (void)conversation_position;
 
 // Remaining properties
 @property(retain, nonatomic) BCSBusinessQueryService *businessQueryService; // @synthesize businessQueryService=_businessQueryService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

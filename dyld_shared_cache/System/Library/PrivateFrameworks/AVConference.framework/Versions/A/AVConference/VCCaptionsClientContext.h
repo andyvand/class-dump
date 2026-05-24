@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCCaptionsClientContext
 {
     long long _streamToken;
-    NSString *_localeIdentifier;
-    unsigned int _uniqueIdentifier;
 }
 
 - (id);
@@ -26,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)È%;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
 @property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(nonatomic) unsigned int uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

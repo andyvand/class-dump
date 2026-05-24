@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSearchResult, WBSQuerySuggestion;
+@class NSString;
 
 @protocol WBSCompletionListItem
 
-// Remaining properties
-@property(readonly, nonatomic) unsigned long long engagementDestination;
-@property(readonly, nonatomic) NSString *parsecDomainIdentifier;
-@property(nonatomic) long long parsecQueryID;
-@property(readonly, nonatomic) SFSearchResult *sfSearchResultValue;
-@property(retain, nonatomic) WBSQuerySuggestion *siriSuggestion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WBSQuerySuggestion",?,&,N
+@optional
+- (void)6;
 
+// Remaining properties
+@property(readonly, nonatomic) NSString *parsecDomainIdentifier;
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderService, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface BRXPCAutomaticErrorProxy
 {
     NSXPCConnection *_connection;
-    NSFileProviderService *_service;
 }
 
 + (void);
 + (void);
-+ (_Bool)ersionReceiving;
++ (_Bool)BRNonLocalVersionReceiving;
 - (void);
 - (void);
 - (id);

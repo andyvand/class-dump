@@ -8,9 +8,6 @@
 {
     id _cSceneDepthProvider;
     id _cSceneDepthConfiguration;
-    id depthSensorsStateContinuations;
-    id depthDataContinuations;
-    id updateQueue;
 }
 
 @end

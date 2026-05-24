@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface PGShareBackSuggesterResult
 {
     unsigned short _processingValue;
-    NSArray *_suggesterInputs;
-    NSSet *_momentNodes;
 }
 
 + (id);
-- (id);
+- (id)visibleBounds;
 - (id);
 - (unsigned short);
-- (id);
+- (id);
 - (void)its and live pictures together:%@ /* Error: Ran out of types for this method. */;
 - (id)on:labelForTargetBlock:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(readonly, nonatomic) unsigned short processingValue; // @synthesize processingValue=_processingValue;
 @property(readonly, nonatomic) NSArray *suggesterInputs; // @synthesize suggesterInputs=_suggesterInputs;
 
 @end

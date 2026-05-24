@@ -14,7 +14,6 @@
 
 // Remaining properties
 @property(nonatomic) int fragmentBitIndex; // @dynamic fragmentBitIndex;
-@property(nonatomic) int sequenceBitIndex; // @dynamic sequenceBitIndex;
 
 @end
 

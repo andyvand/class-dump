@@ -11,23 +11,21 @@
 @interface MFNeXTMailbox : MFMboxDocument
 {
     NSURL *_tableOfContentsFile;
-    unsigned long long _maxFileSize;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)T;
+- (id)q`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id) `$;
 - (unsigned long long);
 - (void)ä;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long maxFileSize; // @synthesize maxFileSize=_maxFileSize;
 @property(readonly, nonatomic) NSURL *tableOfContentsFile; // @synthesize tableOfContentsFile=_tableOfContentsFile;
 
 @end

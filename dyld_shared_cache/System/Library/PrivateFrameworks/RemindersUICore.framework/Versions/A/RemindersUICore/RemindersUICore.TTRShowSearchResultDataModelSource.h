@@ -9,13 +9,6 @@
 @interface RemindersUICore.TTRShowSearchResultDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id searchTerm;
-    id store;
-    id countCompleted;
-    id showCompletedContextInstance;
-    id dataViewMonitor;
-    id itemsByID;
-    id queryPerformer;
 }
 
 @end

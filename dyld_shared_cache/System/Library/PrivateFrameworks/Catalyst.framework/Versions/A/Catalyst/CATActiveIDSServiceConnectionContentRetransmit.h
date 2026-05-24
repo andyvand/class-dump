@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CATActiveIDSServiceConnectionContentRetransmit
@@ -17,11 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (id)ingPolicy;
+- (id)bufferingPolicy;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, copy, nonatomic) NSArray *sequenceNumbers; // @synthesize sequenceNumbers=_sequenceNumbers;
 
 @end

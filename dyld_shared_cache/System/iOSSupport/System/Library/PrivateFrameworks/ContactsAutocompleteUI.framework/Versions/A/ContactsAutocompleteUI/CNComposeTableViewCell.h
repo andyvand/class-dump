@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNComposeRecipient, NSString, NUIContainerStackView, UIColor, UILabel, UIView;
+@class CNComposeRecipient, UIView;
 
 @interface CNComposeTableViewCell
 {
     CNComposeRecipient *_recipient;
-    UIView *_highlightView;
-    UILabel *_titleLabel;
-    UILabel *_detailLabel;
-    UIColor *_labelColor;
-    double _trailingButtonMidlineInsetFromLayoutMargin;
-    double _trailingButtonWidth;
-    UIColor *_backgroundColor;
-    NUIContainerStackView *_labelViewStack;
 }
 
 + (id);
@@ -30,17 +22,17 @@
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (struct CGSize);
+- (void);
+- (struct CGSize)_BorderedButtonMenuStyle;
 - (void);
 - (id);
 - (id);
@@ -60,25 +52,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) _Bool canCollapseRecipient;
-@property(readonly, nonatomic) _Bool canExpandRecipient;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UILabel *detailLabel; // @synthesize detailLabel=_detailLabel;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIView *highlightView; // @synthesize highlightView=_highlightView;
-@property(retain, nonatomic) UIColor *labelColor; // @synthesize labelColor=_labelColor;
-@property(retain, nonatomic) NUIContainerStackView *labelViewStack; // @synthesize labelViewStack=_labelViewStack;
-@property(retain, nonatomic) CNComposeRecipient *recipient; // @synthesize recipient=_recipient;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAvatarView;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(nonatomic) double trailingButtonMidlineInsetFromLayoutMargin; // @synthesize trailingButtonMidlineInsetFromLayoutMargin=_trailingButtonMidlineInsetFromLayoutMargin;
-@property(readonly, nonatomic) double trailingButtonWidth; // @synthesize trailingButtonWidth=_trailingButtonWidth;
 
 @end
 

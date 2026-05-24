@@ -10,8 +10,8 @@
 
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)y;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

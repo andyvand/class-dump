@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAsset, PHSuggestion, PNWallpaperCropResult;
+@class PHAsset;
 
 @interface PGSettlingEffectWallpaperSuggestionCandidate
 {
     PHAsset *_asset;
-    PNWallpaperCropResult *_cropResult;
-    PHSuggestion *_suggestion;
 }
 
-+ (id);
++ (id)canSetAXAttribute: /* Error: Ran out of types for this method. */;
+- (id)setChildControllers:(id)arg1;
 - (id);
-- (id);
-- (id)LabelForMeaningLabel:inTree:currentParent: /* Error: Ran out of types for this method. */;
-- (id)eMomentLabelingAnniversary;
-- (void)Threshold;
+- (id)_findParentMeaningLabelForMeaningLabel:inTree:currentParent: /* Error: Ran out of types for this method. */;
+- (id)ExhaustiveMomentLabelingAnniversary;
+- (void)finalPassDedupingThreshold;
 
 // Remaining properties
 @property(readonly) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly) PNWallpaperCropResult *cropResult; // @synthesize cropResult=_cropResult;
-@property(readonly) PHSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 
 @end
 

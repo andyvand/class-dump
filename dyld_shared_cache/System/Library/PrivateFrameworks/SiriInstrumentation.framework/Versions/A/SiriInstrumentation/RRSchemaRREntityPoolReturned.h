@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface RRSchemaRREntityPoolReturned : SISchemaInstrumentationMessage
 {
     NSArray *_candidateEntities;
-    unsigned int _entityCount;
-    struct {
-        unsigned int entityCount:1;
-    } _has;
 }
 
 - (void);
@@ -32,20 +28,17 @@
 - (id);
 - (unsigned int);
 - (void);
-- (unsigned long long);
+- (unsigned long long)mented at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobActivity_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)_id IN (SELECT m.ROWID FROM message m WHERE m.guid ;
 - (id);
 - (id);
-- (id)ismissed;
+- (id)appTextBoxDismissed;
 - (id)n;
-- (void)articipant;
+- (void)participant;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *candidateEntities; // @synthesize candidateEntities=_candidateEntities;
-@property(nonatomic) unsigned int entityCount; // @synthesize entityCount=_entityCount;
-@property(nonatomic) _Bool hasEntityCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

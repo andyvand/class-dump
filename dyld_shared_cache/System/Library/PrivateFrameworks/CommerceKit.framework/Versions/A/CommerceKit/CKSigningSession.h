@@ -9,7 +9,6 @@
 @interface CKSigningSession
 {
     CKStoreClient *_storeClient;
-    id _sessionToken;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -27,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSessionOpen;
-@property(retain, nonatomic) id sessionToken; // @synthesize sessionToken=_sessionToken;
 @property(readonly, nonatomic) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
 
 @end

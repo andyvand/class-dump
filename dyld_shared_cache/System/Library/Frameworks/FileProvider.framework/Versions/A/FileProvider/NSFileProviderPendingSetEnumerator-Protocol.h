@@ -7,10 +7,10 @@
 @class NSFileProviderDomainVersion;
 
 @protocol NSFileProviderPendingSetEnumerator
+- (_Bool);
+- (NSFileProviderDomainVersion *)response SDP has been PRACKed;
 
 // Remaining properties
 @property(readonly, nonatomic) NSFileProviderDomainVersion *domainVersion;
-@property(readonly, nonatomic, getter=isMaximumSizeReached) _Bool maximumSizeReached;
-@property(readonly, nonatomic) double refreshInterval;
 @end
 

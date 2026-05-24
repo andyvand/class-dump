@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _BlastDoorASCodableSecureCloudShareItem
 {
     NSData *_invitationToken;
-    NSString *_shareURL;
-    NSString *_zoneName;
 }
 
 - (_Bool);
@@ -34,12 +32,7 @@
 - (void)Ø·Ëÿt:Qk6L% /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasInvitationToken;
 @property(readonly, nonatomic) _Bool hasShareURL;
-@property(readonly, nonatomic) _Bool hasZoneName;
-@property(retain, nonatomic) NSData *invitationToken; // @synthesize invitationToken=_invitationToken;
-@property(retain, nonatomic) NSString *shareURL; // @synthesize shareURL=_shareURL;
-@property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

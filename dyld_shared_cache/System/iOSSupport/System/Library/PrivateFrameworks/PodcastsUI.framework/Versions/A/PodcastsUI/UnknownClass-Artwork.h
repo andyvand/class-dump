@@ -9,10 +9,10 @@
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void);
 + (id);
-+ (id);
-+ (id);
++ (id)n;
++ (id)up>";
 - (void);
 - (id);
 @end

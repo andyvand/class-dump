@@ -7,22 +7,6 @@
 @interface AWDWiFiMetricsManagerNetworkTransitionRecord
 {
     CDStruct_9f2792e4 _channelScanCounts;
-    unsigned long long _beganTimestamp;
-    unsigned long long _endedTimestamp;
-    unsigned long long _gotIPTimestamp;
-    unsigned long long _timestamp;
-    unsigned int _errors;
-    unsigned int _state;
-    unsigned int _trigger;
-    struct {
-        unsigned int beganTimestamp:1;
-        unsigned int endedTimestamp:1;
-        unsigned int gotIPTimestamp:1;
-        unsigned int timestamp:1;
-        unsigned int errors:1;
-        unsigned int state:1;
-        unsigned int trigger:1;
-    } _has;
 }
 
 - (void);
@@ -34,13 +18,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)?q;
 - (unsigned int *);
 - (unsigned int);
 - (unsigned long long);
@@ -55,8 +39,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)!A9?;
+- (unsigned long long)o;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -67,26 +51,11 @@
 - (void);
 - (id);
 - (id);
-- (unsigned int)errts: /* Error: Ran out of types for this method. */;
-- (void)sTcpFastOpen;
+- (unsigned int)setHasCtsnotrxafterrts: /* Error: Ran out of types for this method. */;
+- (void)hasTcpFastOpen;
 
 // Remaining properties
-@property(nonatomic) unsigned long long beganTimestamp; // @synthesize beganTimestamp=_beganTimestamp;
-@property(readonly, nonatomic) unsigned int *channelScanCounts;
-@property(readonly, nonatomic) unsigned long long channelScanCountsCount;
-@property(nonatomic) unsigned long long endedTimestamp; // @synthesize endedTimestamp=_endedTimestamp;
-@property(nonatomic) unsigned int errors; // @synthesize errors=_errors;
-@property(nonatomic) unsigned long long gotIPTimestamp; // @synthesize gotIPTimestamp=_gotIPTimestamp;
-@property(nonatomic) _Bool hasBeganTimestamp;
-@property(nonatomic) _Bool hasEndedTimestamp;
-@property(nonatomic) _Bool hasErrors;
-@property(nonatomic) _Bool hasGotIPTimestamp;
-@property(nonatomic) _Bool hasState;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTrigger;
-@property(nonatomic) unsigned int state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int trigger; // @synthesize trigger=_trigger;
 
 @end
 

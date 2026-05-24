@@ -11,8 +11,6 @@
 @interface AXKCompositeAction : AXKBaseAction
 {
     NSString *_actionName;
-    NSString *_actionDescription;
-    NSArray *_actions;
 }
 
 + (id);
@@ -20,16 +18,14 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id)4;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)	;
+- (void)setAxvCanAppearInMultipleSpaces: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionDescription; // @synthesize actionDescription=_actionDescription;
-@property(copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Caller, NSDate, NSMutableArray, NSObject;
-@protocol LACServiceLocator, OS_os_log;
+@class NSMutableArray, NSObject;
+@protocol OS_os_log;
 
 @interface Request
 {
     NSMutableArray *_heldObjects;
-    unsigned int _identifier;
-    Caller *_caller;
-    NSDate *_received;
-    NSObject<OS_os_log> *_log;
-    id <LACServiceLocator> _serviceLocator;
 }
 
 + (id);
@@ -25,21 +20,17 @@
 - (void);
 - (unsigned int);
 - (id);
+- (id)p;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id),V_splatComboBuildVersion;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) Caller *caller; // @synthesize caller=_caller;
-@property(readonly, nonatomic) unsigned int identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) NSDate *received; // @synthesize received=_received;
-@property(retain, nonatomic) id <LACServiceLocator> serviceLocator; // @synthesize serviceLocator=_serviceLocator;
 
 @end
 

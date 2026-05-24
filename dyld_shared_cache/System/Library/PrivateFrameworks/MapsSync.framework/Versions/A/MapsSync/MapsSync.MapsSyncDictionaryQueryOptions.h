@@ -11,7 +11,6 @@
 @interface MapsSync.MapsSyncDictionaryQueryOptions : MapsSync.MapsSyncQueryOptions
 {
     void propertiesToFetch;
-    void propertiesToGroupBy;
 }
 
 - (id);
@@ -20,12 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h ;
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *propertiesToFetch;
-@property(nonatomic, copy) NSArray *propertiesToGroupBy;
 
 @end
 

@@ -7,6 +7,13 @@
 @class NSString;
 
 @protocol NSObject
+- (id)T
+;
+- (id)	;
+- (Class);
+- (_Bool) ;
+- (NSString *);
+- (_Bool)]}{LSVersionNumber=[32C]}IIIIIIIIIICCIS{LSBundleBaseFlags=b1b1b1b1b1b1b1}}48^@56;
 - (_Bool)>24;
 - (id);
 - (struct _NSZone *);
@@ -15,12 +22,6 @@
 - (NSString *)âû;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

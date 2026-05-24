@@ -6,7 +6,7 @@
 
 #import <SceneKit/SCNPhysicsBehavior.h>
 
-@class SCNPhysicsBody, SCNPhysicsWorld;
+@class SCNPhysicsBody;
 
 @interface SCNPhysicsConeTwistJoint : SCNPhysicsBehavior
 {
@@ -19,8 +19,6 @@
         double maximumAngularLimit2;
         double maximumTwistAngle;
     } _definition;
-    struct btConeTwistConstraint *_constraint;
-    SCNPhysicsWorld *_world;
 }
 
 + (id);
@@ -35,7 +33,7 @@
 - (double);
 - (double);
 - (id);
-- (id);
+- (id);
 - (struct CATransform3D);
 - (struct CATransform3D);
 - (id);
@@ -49,12 +47,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SCNPhysicsBody *bodyA;
-@property(readonly, nonatomic) SCNPhysicsBody *bodyB;
-@property(nonatomic) struct CATransform3D frameA;
-@property(nonatomic) struct CATransform3D frameB;
-@property(nonatomic) double maximumAngularLimit1;
-@property(nonatomic) double maximumAngularLimit2;
-@property(nonatomic) double maximumTwistAngle;
 
 @end
 

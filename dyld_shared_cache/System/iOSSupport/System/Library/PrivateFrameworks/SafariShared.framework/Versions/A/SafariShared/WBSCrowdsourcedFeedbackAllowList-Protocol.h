@@ -5,5 +5,6 @@
 //
 
 @protocol WBSCrowdsourcedFeedbackAllowList
+- (void);
 @end
 

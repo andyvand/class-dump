@@ -29,8 +29,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ges.IMMetricsCollectorEventWatchQuickReplyTapped;
+- (id));
 - (id);
 - (double);
 - (void);
@@ -40,17 +40,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);6`êÖ±yJ)(\G X0õ7ÇÅg©ÃÃdÊÆuæÁê¿kíkhé5AxF?°Ø¾vßyëÀ¦¹"W[á&t²ivT?ÄJÏ×æo0ïbR¨ptCaX2ø"lì½¦RÛéfÁMJVòÈjo×y?3÷ÃÕþW8º«¬e¾J3G«%l·ENÝÖ ÷ºrÀ3#aI<CÔÈE¹KÝ­ÖOB~©q&3þ'K'¡óx¦Éátºéåf×Ä¼vÊ ¢z½KE;%ÐÒÝ1;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *dictionary;
-@property(readonly, getter=isFreeTrial) _Bool freeTrial;
 @property(readonly, copy) NSDictionary *normalizedDictionary;
-@property(readonly) NSDictionary *objectForLogging;
-@property(readonly) double price;
 
 @end
 

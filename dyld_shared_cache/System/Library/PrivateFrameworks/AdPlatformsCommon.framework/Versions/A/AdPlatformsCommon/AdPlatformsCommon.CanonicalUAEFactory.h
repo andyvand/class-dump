@@ -7,16 +7,6 @@
 @interface AdPlatformsCommon.CanonicalUAEFactory
 {
     id handle;
-    id purpose;
-    id source;
-    id impressionId;
-    id options;
-    id trace;
-    id branch;
-    id orderTracking;
-    id order;
-    id lock;
-    id eventCount;
 }
 
 @end

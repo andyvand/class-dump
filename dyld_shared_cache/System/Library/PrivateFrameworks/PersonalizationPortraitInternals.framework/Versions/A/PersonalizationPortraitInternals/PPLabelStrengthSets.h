@@ -9,17 +9,15 @@
 @interface PPLabelStrengthSets
 {
     NSSet *_weak;
-    NSSet *_strong;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)alTrustObjectDigest is NULL;
 - (void)B48@?52@?60d68;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *strong; // @synthesize strong=_strong;
 @property(readonly, nonatomic) NSSet *weak; // @synthesize weak=_weak;
 
 @end

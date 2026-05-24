@@ -4,44 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2StreamGroupStream
 {
     unsigned int _audioChannelCount;
-    unsigned int _coordinateSystem;
-    unsigned int _maxNetworkBitrate;
-    unsigned int _maxNetworkBitrateV2;
-    unsigned int _metadata;
-    NSData *_optionalPackedPayload;
-    unsigned int _payloadSpecOrPayloads;
-    unsigned int _payloadsVersion;
-    unsigned int _qualityIndex;
-    unsigned int _repairedMaxNetworkBitrate;
-    unsigned int _repairedMaxNetworkBitrateV2;
-    NSData *_requiredPackedPayload;
-    unsigned int _rtpSSRC;
-    unsigned int _streamID;
-    unsigned int _streamIndex;
-    struct {
-        unsigned int audioChannelCount:1;
-        unsigned int coordinateSystem:1;
-        unsigned int maxNetworkBitrate:1;
-        unsigned int maxNetworkBitrateV2:1;
-        unsigned int metadata:1;
-        unsigned int payloadSpecOrPayloads:1;
-        unsigned int payloadsVersion:1;
-        unsigned int qualityIndex:1;
-        unsigned int repairedMaxNetworkBitrate:1;
-        unsigned int repairedMaxNetworkBitrateV2:1;
-        unsigned int rtpSSRC:1;
-        unsigned int streamID:1;
-        unsigned int streamIndex:1;
-    } _has;
 }
 
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 + (void);
@@ -53,7 +22,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (void);
@@ -62,18 +31,23 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)F;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,43 +55,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned int);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
-- (id);
 - (id);
 - (id);
 - (unsigned int);
 - (unsigned int);
+- (_Bool);
+- (_Bool);
 - (unsigned int);
+- (unsigned int);
+- (id);
+- (id);
+- (id);
+- (unsigned int);
+- (unsigned int);
+- (unsigned int)J;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)k�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -137,8 +106,8 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (void);
-- (id);
+- (void);
+- (id)h;
 - (void);
 - (void);
 - (unsigned long long);
@@ -154,36 +123,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)options=%s, error=%s;
 
 // Remaining properties
-@property(nonatomic) unsigned int audioChannelCount; // @synthesize audioChannelCount=_audioChannelCount;
-@property(nonatomic) unsigned int coordinateSystem; // @synthesize coordinateSystem=_coordinateSystem;
-@property(nonatomic) _Bool hasAudioChannelCount;
-@property(nonatomic) _Bool hasCoordinateSystem;
-@property(nonatomic) _Bool hasMaxNetworkBitrate;
-@property(nonatomic) _Bool hasMaxNetworkBitrateV2;
 @property(nonatomic) _Bool hasMetadata;
-@property(readonly, nonatomic) _Bool hasOptionalPackedPayload;
-@property(nonatomic) _Bool hasPayloadSpecOrPayloads;
-@property(nonatomic) _Bool hasPayloadsVersion;
-@property(nonatomic) _Bool hasQualityIndex;
-@property(nonatomic) _Bool hasRepairedMaxNetworkBitrate;
-@property(nonatomic) _Bool hasRepairedMaxNetworkBitrateV2;
-@property(readonly, nonatomic) _Bool hasRequiredPackedPayload;
-@property(nonatomic) _Bool hasRtpSSRC;
-@property(nonatomic) _Bool hasStreamID;
-@property(nonatomic) _Bool hasStreamIndex;
-@property(nonatomic) unsigned int maxNetworkBitrate; // @synthesize maxNetworkBitrate=_maxNetworkBitrate;
-@property(nonatomic) unsigned int maxNetworkBitrateV2; // @synthesize maxNetworkBitrateV2=_maxNetworkBitrateV2;
-@property(nonatomic) unsigned int metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSData *optionalPackedPayload; // @synthesize optionalPackedPayload=_optionalPackedPayload;
-@property(nonatomic) unsigned int payloadSpecOrPayloads; // @synthesize payloadSpecOrPayloads=_payloadSpecOrPayloads;
-@property(nonatomic) unsigned int payloadsVersion; // @synthesize payloadsVersion=_payloadsVersion;
-@property(nonatomic) unsigned int qualityIndex; // @synthesize qualityIndex=_qualityIndex;
-@property(nonatomic) unsigned int repairedMaxNetworkBitrate; // @synthesize repairedMaxNetworkBitrate=_repairedMaxNetworkBitrate;
-@property(nonatomic) unsigned int repairedMaxNetworkBitrateV2; // @synthesize repairedMaxNetworkBitrateV2=_repairedMaxNetworkBitrateV2;
-@property(retain, nonatomic) NSData *requiredPackedPayload; // @synthesize requiredPackedPayload=_requiredPackedPayload;
-@property(nonatomic) unsigned int rtpSSRC; // @synthesize rtpSSRC=_rtpSSRC;
-@property(nonatomic) unsigned int streamID; // @synthesize streamID=_streamID;
-@property(nonatomic) unsigned int streamIndex; // @synthesize streamIndex=_streamIndex;
 
 @end
 

@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)oneEndpointsFromPhoneNumbers:(id)arg1;
+- (_Bool)phoneEndpointsFromPhoneNumbers:(id)arg1;
 - (void)¬à;
 
 @end

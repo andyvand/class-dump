@@ -9,7 +9,6 @@
 @interface WebJavaScriptTextInputPanel
 {
     NSTextField *prompt;
-    NSTextField *textInput;
 }
 
 - (void);

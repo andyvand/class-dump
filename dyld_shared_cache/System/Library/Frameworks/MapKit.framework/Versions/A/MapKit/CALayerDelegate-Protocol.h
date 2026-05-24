@@ -9,6 +9,7 @@
 @protocol CALayerDelegate
 
 @optional
+- (void)_isAVVCRefChannelAvailable;
 - (void)1Â0@ù
 × ;
 - (id <CAAction>);

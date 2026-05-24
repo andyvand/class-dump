@@ -6,7 +6,7 @@
 
 #import <TelephonyUtilities/TUParticipant.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface TUMutableParticipant : TUParticipant
 {
@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *imageURL; // @dynamic imageURL;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
 @end
 

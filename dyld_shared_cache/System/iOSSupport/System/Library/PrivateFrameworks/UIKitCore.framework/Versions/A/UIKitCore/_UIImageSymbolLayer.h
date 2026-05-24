@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImageAsset, _UIImageCUIVectorGlyphContent;
+@class UIColor, UIImageAsset;
 
 @interface _UIImageSymbolLayer
 {
     UIColor *_color;
-    double _scaleFactor;
-    UIImageAsset *_asset;
-    _UIImageCUIVectorGlyphContent *_content;
-    struct CGPoint _offset;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id):(id)arg1;
++ (id)setSplitProgress:(id)arg1;
 + (id)TSÛxÊd;
 - (id);
 - (id)
 × ;
-- (_Bool)DisablesOccludedBackdropBlurs: /* Error: Ran out of types for this method. */;
-- (void)etDimmingView:(id)arg1;
+- (_Bool)setDisablesOccludedBackdropBlurs: /* Error: Ran out of types for this method. */;
+- (void)_setDimmingView:(id)arg1;
 - (void)windowScene:(id)arg1 %p; scene identity:%@ /* Error: Ran out of types for this method. */;
 - (double)Üÿÿÿ8Dêÿ Ãþþÿ¬Öìÿ;
 - (void)kit.protocol-creation-queue;
 - (void)fluid slider methods on non-fluid slider.;
-- (id)AChannelMissingKeyboard;
+- (id)IAChannelMissingKeyboard;
 - (void)ntGestureRecognizer;
-- (id)tricsC;
+- (id)So27_UISheetPresentationMetricsC;
 - (void)Z[;
 - (struct CGPoint)Ü^;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) _UIImageCUIVectorGlyphContent *content; // @synthesize content=_content;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(readonly, nonatomic, getter=isSystemImage) _Bool systemImage;
 
 @end
 

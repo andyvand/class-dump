@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CHDBubbleSeries : CHDSeries
 {
     CHDData *mSizeData;
-    _Bool mBubble3D;
-    _Bool mInvertIfNegative;
-    _Bool mShowBubbleSize;
 }
 
 - (id);

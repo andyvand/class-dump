@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol UINSUIKitBackgroundingControllerDelegate;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface UINSUIKitBackgroundingController
 {
     _Bool _uiAppIsForeground;
-    _Bool _uiAppIsActive;
-    _Bool _isDequeueing;
-    _Bool _hasOngoingForegroundingBatch;
-    _Bool _hasOngoingBackgroundingBatch;
-    _Bool _isForcingAppWideBackgroundState;
-    _Bool _nsAppWideBackgroundingRequestedExplicitly;
-    _Bool _areDisplaysAsleep;
-    _Bool _isMachineAsleep;
-    _Bool _isLoginSessionInactive;
-    _Bool _areSceneStateChangesFrozen;
-    id <UINSUIKitBackgroundingControllerDelegate> _delegate;
-    NSMutableSet *_knownScenes;
-    NSMutableDictionary *_sceneStates;
-    NSMutableArray *_sceneStateChangeQueue;
-    NSString *_sceneTrackedForTransition;
-    long long _trackedSceneTargetState;
-    CDUnknownBlockType _sceneTransitionCompletionHandler;
-    NSMutableDictionary *_shadowStates;
-    unsigned long long _freezeRequestCount;
-    NSMutableSet *_scenesWeSlammedToBackgroundFromForegroundActive;
-    NSMutableSet *_scenesWeSlammedToBackgroundFromForegroundInactive;
 }
 
 + (_Bool);
@@ -77,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)B;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -116,7 +94,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -131,35 +109,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)`;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)page at num 0x%x has a bad object pgnum %p
+;
+- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool areDisplaysAsleep; // @synthesize areDisplaysAsleep=_areDisplaysAsleep;
-@property(nonatomic) _Bool areSceneStateChangesFrozen; // @synthesize areSceneStateChangesFrozen=_areSceneStateChangesFrozen;
-@property(nonatomic) __weak id <UINSUIKitBackgroundingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long freezeRequestCount; // @synthesize freezeRequestCount=_freezeRequestCount;
-@property(nonatomic) _Bool hasOngoingBackgroundingBatch; // @synthesize hasOngoingBackgroundingBatch=_hasOngoingBackgroundingBatch;
-@property(nonatomic) _Bool hasOngoingForegroundingBatch; // @synthesize hasOngoingForegroundingBatch=_hasOngoingForegroundingBatch;
-@property(nonatomic) _Bool isDequeueing; // @synthesize isDequeueing=_isDequeueing;
-@property(nonatomic) _Bool isForcingAppWideBackgroundState; // @synthesize isForcingAppWideBackgroundState=_isForcingAppWideBackgroundState;
-@property(nonatomic) _Bool isLoginSessionInactive; // @synthesize isLoginSessionInactive=_isLoginSessionInactive;
-@property(nonatomic) _Bool isMachineAsleep; // @synthesize isMachineAsleep=_isMachineAsleep;
 @property(retain, nonatomic) NSMutableSet *knownScenes; // @synthesize knownScenes=_knownScenes;
-@property(nonatomic) _Bool nsAppWideBackgroundingRequestedExplicitly; // @synthesize nsAppWideBackgroundingRequestedExplicitly=_nsAppWideBackgroundingRequestedExplicitly;
-@property(retain, nonatomic) NSMutableArray *sceneStateChangeQueue; // @synthesize sceneStateChangeQueue=_sceneStateChangeQueue;
-@property(retain, nonatomic) NSMutableDictionary *sceneStates; // @synthesize sceneStates=_sceneStates;
-@property(retain, nonatomic) NSString *sceneTrackedForTransition; // @synthesize sceneTrackedForTransition=_sceneTrackedForTransition;
-@property(copy, nonatomic) CDUnknownBlockType sceneTransitionCompletionHandler; // @synthesize sceneTransitionCompletionHandler=_sceneTransitionCompletionHandler;
-@property(retain, nonatomic) NSMutableSet *scenesWeSlammedToBackgroundFromForegroundActive; // @synthesize scenesWeSlammedToBackgroundFromForegroundActive=_scenesWeSlammedToBackgroundFromForegroundActive;
-@property(retain, nonatomic) NSMutableSet *scenesWeSlammedToBackgroundFromForegroundInactive; // @synthesize scenesWeSlammedToBackgroundFromForegroundInactive=_scenesWeSlammedToBackgroundFromForegroundInactive;
-@property(retain, nonatomic) NSMutableDictionary *shadowStates; // @synthesize shadowStates=_shadowStates;
-@property(nonatomic) long long trackedSceneTargetState; // @synthesize trackedSceneTargetState=_trackedSceneTargetState;
-@property(nonatomic) _Bool uiAppIsActive; // @synthesize uiAppIsActive=_uiAppIsActive;
-@property(nonatomic) _Bool uiAppIsForeground; // @synthesize uiAppIsForeground=_uiAppIsForeground;
 
 @end
 

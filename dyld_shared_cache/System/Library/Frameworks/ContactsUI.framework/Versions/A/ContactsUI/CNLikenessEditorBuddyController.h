@@ -6,18 +6,14 @@
 
 #import <ContactsUI/CNAvatarEditorViewController.h>
 
-@class NSDictionary, NSView, PRLikeness;
 @protocol MBSecondPartyHost;
 
 @interface CNLikenessEditorBuddyController : CNAvatarEditorViewController
 {
     id <MBSecondPartyHost> _host;
-    NSView *_editorAreaView;
-    PRLikeness *_finalizedLikeness;
-    NSDictionary *_userInfo;
 }
 
-+ (void);
++ (void)a;
 + (_Bool);
 - (void);
 - (void);
@@ -26,13 +22,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (id);
@@ -41,10 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSView *editorAreaView; // @synthesize editorAreaView=_editorAreaView;
-@property(retain) PRLikeness *finalizedLikeness; // @synthesize finalizedLikeness=_finalizedLikeness;
 @property __weak id <MBSecondPartyHost> host; // @synthesize host=_host;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -7,14 +7,17 @@
 @class UIColor;
 
 @protocol _UIDatePickerWheelsViewComponent
+- (void)syncTaskByServiceName;
+- (void)setHandleTransitionedList:(UIColor *)arg1;
+- (void)service:(UIColor *)arg1 didSwitchActivePairedDevice:acknowledgementBlock: /* Error: Ran out of types for this method. */;
+- (void)relayLegacySatelliteMessage:(_Bool)arg1 toChat:localWatchOnly: /* Error: Ran out of types for this method. */;
+- (void)relayDisplayNameChange:(_Bool)arg1 forChat:fromID:messageID:didOccurLocally: /* Error: Ran out of types for this method. */;
+- (UIColor *)_writeDirtyMessagesToCloudKitWithActivity:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)ices:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)nCore33IncomingClientConnectionListeningP;
 
 // Remaining properties
 @property(nonatomic, getter=_allowsZeroCountDownDuration, setter=_setAllowsZeroCountDownDuration:) _Bool allowsZeroCountDownDuration;
-@property(nonatomic, getter=_allowsZeroTimeInterval, setter=_setAllowsZeroTimeInterval:) _Bool allowsZeroTimeInterval;
-@property(retain, nonatomic, getter=_highlightColor, setter=_setHighlightColor:) UIColor *highlightColor;
-@property(readonly, nonatomic, getter=_isTimeIntervalMode) _Bool isTimeIntervalMode;
-@property(retain, nonatomic, getter=_magnifierLineColor, setter=_setMagnifierLineColor:) UIColor *magnifierLineColor;
-@property(retain, nonatomic, getter=_textColor, setter=_setTextColor:) UIColor *textColor;
-@property(retain, nonatomic, getter=_textShadowColor, setter=_setTextShadowColor:) UIColor *textShadowColor;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNVGGishLaughterModelOutput
 {
@@ -19,7 +19,6 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *output1; // @synthesize output1=_output1;
 
 @end

@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLTaskEvaluation, NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLSchemaFLActionEvaluationEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifSessionId;
-    unsigned int _actionStatementId;
-    FLSchemaFLTaskEvaluation *_taskEvaluation;
-    NSArray *_candidateEvaluations;
-    int _evaluationType;
-    struct {
-        unsigned int actionStatementId:1;
-        unsigned int evaluationType:1;
-    } _has;
-    _Bool _hasIfSessionId;
-    _Bool _hasTaskEvaluation;
 }
 
 - (id);
@@ -32,7 +22,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -45,34 +35,25 @@
 - (id);
 - (void);
 - (unsigned int);
-- (void);
+- (void)w;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)cyAdjustForSystemAudioMs(void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (void);
 - (id)eSinceLastMaintenanceInSeconds"b1};
-- (id)iginalResolutionContextId;
+- (id)_hasOriginalResolutionContextId;
 - (id)p¦;
 - (void)ÄPÂÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int actionStatementId; // @synthesize actionStatementId=_actionStatementId;
-@property(copy, nonatomic) NSArray *candidateEvaluations; // @synthesize candidateEvaluations=_candidateEvaluations;
-@property(nonatomic) int evaluationType; // @synthesize evaluationType=_evaluationType;
-@property(nonatomic) _Bool hasActionStatementId;
-@property(nonatomic) _Bool hasEvaluationType;
-@property(nonatomic) _Bool hasIfSessionId; // @synthesize hasIfSessionId=_hasIfSessionId;
-@property(nonatomic) _Bool hasTaskEvaluation; // @synthesize hasTaskEvaluation=_hasTaskEvaluation;
 @property(retain, nonatomic) SISchemaUUID *ifSessionId; // @synthesize ifSessionId=_ifSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLSchemaFLTaskEvaluation *taskEvaluation; // @synthesize taskEvaluation=_taskEvaluation;
 
 @end
 

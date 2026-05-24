@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+@protocol UIViewControllerPreviewing_Private;
+
 @protocol UIViewControllerPreviewingDelegate_Private
+
+@optional
+- (void)assignNonHistoricaliMessageIdentifierAndBroadcastForChat:(id <UIViewControllerPreviewing_Private>)arg1 identifier:(UIViewController *)arg2;
+- (void)assignIdentifier:(id <UIViewControllerPreviewing_Private>)arg1 forDomain:(UIViewController *)arg2 isHistoricalIdentifier: /* Error: Ran out of types for this method. */;
 @end
 

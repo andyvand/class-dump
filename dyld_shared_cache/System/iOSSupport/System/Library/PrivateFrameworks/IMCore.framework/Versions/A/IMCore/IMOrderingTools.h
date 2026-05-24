@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface IMOrderingTools
 {
     NSString *_jsonFilePath;
-    NSMutableArray *_jsonArray;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 - (void)dª°«;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *jsonArray; // @synthesize jsonArray=_jsonArray;
 @property(retain, nonatomic) NSString *jsonFilePath; // @synthesize jsonFilePath=_jsonFilePath;
 
 @end

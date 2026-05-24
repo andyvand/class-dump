@@ -4,44 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
-
 @interface NSPConnectionInfo
 {
     long long _fallbackReason;
-    _Bool _isMultipath;
-    _Bool _TFOSucceeded;
-    _Bool _isTFOProbeSucceeded;
-    long long _pathType;
-    long long _fallbackReasonCategory;
-    double _fallbackDelay;
-    long long _edgeType;
-    NSString *_edgeAddress;
-    unsigned long long _multipathSubflowCount;
-    unsigned long long _multipathConnectedSubflowCount;
-    unsigned long long _multipathPrimarySubflowInterfaceIndex;
-    NSDictionary *_multipathSubflowSwitchCounts;
-    NSDictionary *_TCPInfo;
-    NSDate *_firstTxByteTimeStamp;
-    double _firstTxByteDelay;
-    double _connectionDelay;
-    long long _IPType;
-    long long _interfaceType;
-    unsigned long long _minimumRTT;
-    double _timeIntervalSinceLastUsage;
-    double _timeToFirstByte;
-    long long _tunnelConnectionError;
-    unsigned long long _initialBytesLeftOver;
-    NSDictionary *_exceptions;
-    NSString *_interfaceName;
-    NSArray *_timingIntervals;
 }
 
 + (_Bool);
 + (id);
 + (int);
 + (_Bool);
-+ (_Bool);
++ (_Bool)fingerprintSchemeForStableHash;
 - (long long);
 - (id);
 - (double);
@@ -50,6 +22,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,8 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -91,44 +63,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)è;
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)0;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long IPType; // @synthesize IPType=_IPType;
-@property(retain, nonatomic) NSDictionary *TCPInfo; // @synthesize TCPInfo=_TCPInfo;
-@property(nonatomic) _Bool TFOSucceeded; // @synthesize TFOSucceeded=_TFOSucceeded;
-@property(nonatomic) double connectionDelay; // @synthesize connectionDelay=_connectionDelay;
-@property(retain, nonatomic) NSString *edgeAddress; // @synthesize edgeAddress=_edgeAddress;
-@property(nonatomic) long long edgeType; // @synthesize edgeType=_edgeType;
-@property(retain, nonatomic) NSDictionary *exceptions; // @synthesize exceptions=_exceptions;
-@property(nonatomic) double fallbackDelay; // @synthesize fallbackDelay=_fallbackDelay;
-@property(nonatomic) long long fallbackReason;
-@property(readonly, nonatomic) long long fallbackReasonCategory; // @synthesize fallbackReasonCategory=_fallbackReasonCategory;
-@property(nonatomic) double firstTxByteDelay; // @synthesize firstTxByteDelay=_firstTxByteDelay;
-@property(retain, nonatomic) NSDate *firstTxByteTimeStamp; // @synthesize firstTxByteTimeStamp=_firstTxByteTimeStamp;
-@property(nonatomic) unsigned long long initialBytesLeftOver; // @synthesize initialBytesLeftOver=_initialBytesLeftOver;
-@property(retain, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) long long interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(nonatomic) _Bool isMultipath; // @synthesize isMultipath=_isMultipath;
-@property(nonatomic) _Bool isTFOProbeSucceeded; // @synthesize isTFOProbeSucceeded=_isTFOProbeSucceeded;
-@property(nonatomic) unsigned long long minimumRTT; // @synthesize minimumRTT=_minimumRTT;
-@property(nonatomic) unsigned long long multipathConnectedSubflowCount; // @synthesize multipathConnectedSubflowCount=_multipathConnectedSubflowCount;
-@property(nonatomic) unsigned long long multipathPrimarySubflowInterfaceIndex; // @synthesize multipathPrimarySubflowInterfaceIndex=_multipathPrimarySubflowInterfaceIndex;
-@property(nonatomic) unsigned long long multipathSubflowCount; // @synthesize multipathSubflowCount=_multipathSubflowCount;
-@property(retain, nonatomic) NSDictionary *multipathSubflowSwitchCounts; // @synthesize multipathSubflowSwitchCounts=_multipathSubflowSwitchCounts;
 @property(nonatomic) long long pathType; // @synthesize pathType=_pathType;
-@property(nonatomic) double timeIntervalSinceLastUsage; // @synthesize timeIntervalSinceLastUsage=_timeIntervalSinceLastUsage;
-@property(nonatomic) double timeToFirstByte; // @synthesize timeToFirstByte=_timeToFirstByte;
-@property(retain, nonatomic) NSArray *timingIntervals; // @synthesize timingIntervals=_timingIntervals;
-@property(nonatomic) long long tunnelConnectionError; // @synthesize tunnelConnectionError=_tunnelConnectionError;
 
 @end
 

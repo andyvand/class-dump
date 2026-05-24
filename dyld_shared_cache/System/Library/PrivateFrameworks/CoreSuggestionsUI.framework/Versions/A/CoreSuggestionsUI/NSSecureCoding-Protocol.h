@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)16^B24;
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDFormula, EDResources, EDString, OADGraphicProperties;
+@class EDResources, EDString;
 
 __attribute__((visibility("hidden")))
 @interface CHDTrendlineLabel
 {
     EDResources *mResources;
-    CHDFormula *mName;
-    unsigned long long mContentFormatId;
-    _Bool mContentFormatDerived;
-    _Bool mGeneratedText;
-    _Bool mAutomaticLabelDeleted;
-    OADGraphicProperties *mGraphicProperties;
-    EDString *mLastCachedName;
 }
 
 + (id);

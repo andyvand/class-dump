@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIDragPreviewParameters;
+
 @protocol UICollectionViewDragDelegate
 
 @optional
+- (_Bool)hasSportsFavoritesVector;
+- (UIDragPreviewParameters *)h;
 - (_Bool);
 @end
 

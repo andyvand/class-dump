@@ -6,37 +6,23 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, MRCroppingSprite, MRImage, MROrigamiAnimationPath, MRTextRenderer, NSArray, NSMutableArray, NSMutableDictionary;
+@class MRTextRenderer;
 
 @interface MREffectOrigamiTitle : MREffect
 {
     MRTextRenderer *mText0Renderer;
-    MRCroppingSprite *mText0Sprite;
-    NSMutableArray *mText0Images;
-    NSMutableArray *mText0Offsets;
-    MRImage *mText0Image;
-    unsigned char mLineWordCounts[3];
-    NSMutableArray *mWordIndexForGlyph;
-    NSArray *mPatchworkAtEnd;
-    NSMutableDictionary *mSprites;
-    struct CGSize mImageSize;
-    long long mWordCount;
-    MRCAMLBezierData *mBreakCurve;
-    MROrigamiAnimationPath *mBigSwing;
-    MRImage *mBackColorImage;
-    float mBackColorForImage[3];
 }
 
+- (void)ue;
+- (void)Store;
+- (void)FCNewsAppConfigurationManager>",&,N,V_appConfigurationManager;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)\;
 - (id);
-- (_Bool);
+- (_Bool)lytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
 - (_Bool);
 - (id);
 - (void);
@@ -46,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)[;
 - (void)TB,V_stretchableWithoutReauthoring;
 
 @end

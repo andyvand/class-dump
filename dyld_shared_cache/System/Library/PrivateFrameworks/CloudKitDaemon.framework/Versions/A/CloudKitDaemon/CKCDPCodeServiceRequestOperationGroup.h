@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKCDPCodeServiceRequestOperationGroup
 {
     long long _operationGroupQuantity;
-    NSString *_operationGroupId;
-    NSString *_operationGroupName;
-    NSString *_operationId;
-    struct {
-        unsigned int operationGroupQuantity:1;
-    } _has;
 }
 
 - (id);
 - (id);
 - (_Bool);
+- (void)r:(id)arg1 limitedToPassUniqueIdentifiers:seHasActivatedApplets:skipAllActivations:useLegacyBehavior:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)/32f/5.1.2;
 - (long long);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)updateSendLaterDate:(id)arg1 message:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void)t;
-- (id)wareID;
+- (void)serviceIdentityKeyIDsCount;
+- (id)_deviceHardwareID;
 - (void)ndler.m;
 - (void);
 - (_Bool)uq;
 - (id)@·;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOperationGroupId;
-@property(readonly, nonatomic) _Bool hasOperationGroupName;
-@property(nonatomic) _Bool hasOperationGroupQuantity;
 @property(readonly, nonatomic) _Bool hasOperationId;
-@property(retain, nonatomic) NSString *operationGroupId; // @synthesize operationGroupId=_operationGroupId;
-@property(retain, nonatomic) NSString *operationGroupName; // @synthesize operationGroupName=_operationGroupName;
-@property(nonatomic) long long operationGroupQuantity; // @synthesize operationGroupQuantity=_operationGroupQuantity;
-@property(retain, nonatomic) NSString *operationId; // @synthesize operationId=_operationId;
 
 @end
 

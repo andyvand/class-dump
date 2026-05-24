@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (id);
+- (id)Zc;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *relations; // @synthesize relations=_relations;

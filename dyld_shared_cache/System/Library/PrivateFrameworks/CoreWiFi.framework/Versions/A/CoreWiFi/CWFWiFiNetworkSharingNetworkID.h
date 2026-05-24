@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CWFWiFiNetworkSharingNetworkID
 {
@@ -20,15 +20,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ailure:(struct _NSZone *)arg1 "local_device_service_names != ((void*)0)" -> %llu;
+- (id)Settings() returned NULL trust settings;
 - (id);
 - (id);
 - (void)ANQPCacheAge;
 
 // Remaining properties
-@property(copy) NSData *SSID; // @synthesize SSID=_SSID;
-@property(readonly) NSString *descriptor;
+@property(readonly, copy) NSData *SSID;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSURL, UARPSuperBinaryAsset;
+@class NSArray, NSURL;
 
 @interface UARPDynamicAssetVersions
 {
     NSURL *_url;
-    UARPSuperBinaryAsset *_asset;
-    NSMutableArray *_serialNumbers;
 }
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
+- (id)AMSContractBagShim;
 - (id);
-- (id);
-- (void);
+- (void)-;
 
 // Remaining properties
 @property(readonly) NSArray *partnerSerialNumbers;

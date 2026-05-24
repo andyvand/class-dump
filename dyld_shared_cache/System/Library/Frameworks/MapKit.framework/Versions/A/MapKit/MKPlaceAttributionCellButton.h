@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)iew:didSelectLabelMarker: /* Error: Ran out of types for this method. */;
-- (void)erContainer;
+- (void)mapView:didSelectLabelMarker: /* Error: Ran out of types for this method. */;
+- (void)MKAnnotationMarkerContainer;
 - (void);
 
 // Remaining properties

@@ -6,25 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTResponseManifest, IFTSchemaIFTStatementOutcome, NSData;
+@class IFTSchemaIFTStatementOutcome;
 
 @interface IFTSchemaIFTStatementResultPayload : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementOutcome *_outcome;
-    IFTSchemaIFTResponseManifest *_response;
-    _Bool _hasOutcome;
-    _Bool _hasResponse;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)oIAiI/Sources/libressl/libressl-2.2/crypto/dsa/dsa_ossl.c;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -34,16 +31,12 @@
 - (id);
 - (id)t°!;
 - (id)N,V_hasEuclidScoreStatistics;
-- (id)estExperimentTriggeredTier1;
-- (id)untFactoryAssetInBytes;
+- (id)EXPSiriSchemaEXPClientSiriRequestExperimentTriggeredTier1;
+- (id)countFactoryAssetInBytes;
 - (void)¹#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOutcome; // @synthesize hasOutcome=_hasOutcome;
-@property(nonatomic) _Bool hasResponse; // @synthesize hasResponse=_hasResponse;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementOutcome *outcome; // @synthesize outcome=_outcome;
-@property(retain, nonatomic) IFTSchemaIFTResponseManifest *response; // @synthesize response=_response;
 
 @end
 

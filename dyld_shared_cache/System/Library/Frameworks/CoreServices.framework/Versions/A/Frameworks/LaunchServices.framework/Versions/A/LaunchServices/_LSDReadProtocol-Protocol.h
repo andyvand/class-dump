@@ -7,6 +7,10 @@
 @class NSSet;
 
 @protocol _LSDReadProtocol
-- (void)IdentityString:(NSSet *)arg1 personaUniqueString:(NSSet *)arg2 personaType:(void (^)(NSArray *, NSArray *, NSError *))arg3;
+- (void);
+- (void);
+- (void)(;
+- (void)) (full image) for %s.;
+- (void)initWithIdentityString:(NSSet *)arg1 personaUniqueString:(NSSet *)arg2 personaType:(void (^)(NSArray *, NSArray *, NSError *))arg3;
 @end
 

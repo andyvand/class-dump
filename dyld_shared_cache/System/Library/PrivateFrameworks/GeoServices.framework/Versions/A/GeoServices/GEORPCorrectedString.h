@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPCorrectedString
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_correctedValue;
-    NSString *_originalValue;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_correctedValue:1;
-        unsigned int read_originalValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etIsPaidAccount:(id)arg1;
++ (_Bool)setIsPaidAccount:(id)arg1;
 - (void);
-- (void);
+- (void)CNCDTestPersistenceStack;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)t;
 - (id);
 - (void);
-- (id);
+- (void);
+- (id)setCachedAssetWithOverride: /* Error: Ran out of types for this method. */;
+- (void)stTime = %llu;
+- (id)-s;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 - (id)eDisplayedInPlaceCardHeader"b1};
-- (id)DirectedRoadSegment: /* Error: Ran out of types for this method. */;
+- (id)addDirectedRoadSegment: /* Error: Ran out of types for this method. */;
 - (id)$EÜE;
-- (id)amp;
+- (id)updatedTimeStamp;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *correctedValue;
-@property(readonly, nonatomic) _Bool hasCorrectedValue;
 @property(readonly, nonatomic) _Bool hasOriginalValue;
-@property(retain, nonatomic) NSString *originalValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

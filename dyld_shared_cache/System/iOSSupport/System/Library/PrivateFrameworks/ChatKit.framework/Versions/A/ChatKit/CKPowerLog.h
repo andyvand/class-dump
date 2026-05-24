@@ -10,7 +10,7 @@
 
 + (void);
 - (id);
-- (void)eViewContainer;
+- (void)TapbackPickerPileViewContainer;
 
 @end
 

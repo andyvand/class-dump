@@ -9,8 +9,6 @@
 @interface NEAccountIdentifiers
 {
     NSArray *_mailAccountIdentifiers;
-    NSArray *_calendarAccountIdentifiers;
-    NSArray *_contactsAccountIdentifiers;
 }
 
 - (void);
@@ -19,11 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void)tocolVersion;
+- (void)maximumSSLProtocolVersion;
 
 // Remaining properties
-@property(copy) NSArray *calendarAccountIdentifiers; // @synthesize calendarAccountIdentifiers=_calendarAccountIdentifiers;
-@property(copy) NSArray *contactsAccountIdentifiers; // @synthesize contactsAccountIdentifiers=_contactsAccountIdentifiers;
 @property(copy) NSArray *mailAccountIdentifiers; // @synthesize mailAccountIdentifiers=_mailAccountIdentifiers;
 
 @end

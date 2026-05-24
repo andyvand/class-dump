@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface FCCacheInvalidationConfig
 {
     void updatedAt;
-    id records;
 }
 
 + (_Bool);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ToV4Level3;
+- (void)privateDataCleanupToV4Level3;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *recordInvalidations;
 @property(nonatomic, readonly) NSDate *updatedAt;
 
 @end

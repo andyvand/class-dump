@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSRequestMO, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSLogMO
 {
 }
 
-+ (id);
++ (id)cell;
 
 // Remaining properties
-@property(retain, nonatomic) DRSRequestMO *parentRequest; // @dynamic parentRequest;
 @property(copy, nonatomic) NSString *path; // @dynamic path;
-@property(nonatomic) long long size; // @dynamic size;
-@property(nonatomic) _Bool transferOwnership; // @dynamic transferOwnership;
 
 @end
 

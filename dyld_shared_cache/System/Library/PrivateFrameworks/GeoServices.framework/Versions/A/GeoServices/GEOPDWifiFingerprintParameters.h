@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDWifiFingerprintParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_measurements;
-    unsigned int _maxLabels;
-    struct {
-        unsigned int has_maxLabels:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)qH;
 - (_Bool);
 - (_Bool);
 - (id)DSearchProximityIntent";
-- (id)PunchinEncodedString;
+- (id)_spotlightSearchPunchinEncodedString;
 - (id)ÄK°M;
 - (void);
 

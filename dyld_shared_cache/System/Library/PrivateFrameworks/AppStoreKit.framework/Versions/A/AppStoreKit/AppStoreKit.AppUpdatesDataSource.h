@@ -7,19 +7,11 @@
 @interface AppStoreKit.AppUpdatesDataSource
 {
     id consistencyLock;
-    id objectGraph;
-    id updatesQuery;
-    id lastServerReloadTime;
-    id lockupsListeners;
-    id countsListeners;
-    id adamIdToCachedAppLockupPair;
-    id isFetching;
-    id queryResultsDidChange;
 }
 
-- (void);
+- (void)ܠ;
 - (id);
-- (void)_p;
+- (void)So28AMSMediaTokenServiceProtocol_p;
 
 @end
 

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (id);
++ (id)_UIBasicHeaderFooterContentViewConfigurationAccessibility;
++ (void)20;
+- (id)_;
 - (_Bool);
 
 @end

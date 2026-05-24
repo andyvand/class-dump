@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNActionMenuHelper, CNContactListActionConfiguration, CNContactListActionExecutor, CNContactOrbActionsController, NSArray, NSString;
-@protocol CNContactListActionHelperDelegate;
+@class CNContactListActionConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListActionHelper
 {
     _Bool _includesContactOrbActions;
-    _Bool _includesEditingActions;
-    id <CNContactListActionHelperDelegate> _delegate;
-    CNContactListActionConfiguration *_actionConfiguration;
-    NSArray *_contacts;
-    CNContactListActionExecutor *_actionExecutor;
-    CNContactOrbActionsController *_contactActionsController;
-    CNActionMenuHelper *_actionMenuHelper;
 }
 
-+ (id);
++ (id)1f;
 + (id)qt°1Â0@ù
 × ;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)8;
+- (void)$;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -39,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -52,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -68,20 +60,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CNContactListActionConfiguration *actionConfiguration; // @synthesize actionConfiguration=_actionConfiguration;
-@property(retain, nonatomic) CNContactListActionExecutor *actionExecutor; // @synthesize actionExecutor=_actionExecutor;
-@property(retain, nonatomic) CNActionMenuHelper *actionMenuHelper; // @synthesize actionMenuHelper=_actionMenuHelper;
-@property(retain, nonatomic) CNContactOrbActionsController *contactActionsController; // @synthesize contactActionsController=_contactActionsController;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactListActionHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includesContactOrbActions; // @synthesize includesContactOrbActions=_includesContactOrbActions;
-@property(nonatomic) _Bool includesEditingActions; // @synthesize includesEditingActions=_includesEditingActions;
-@property(readonly) Class superclass;
 
 @end
 

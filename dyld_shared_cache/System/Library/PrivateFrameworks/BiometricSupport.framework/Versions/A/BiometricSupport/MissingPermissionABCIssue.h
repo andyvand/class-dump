@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-- (id);
+- (id)";
 - (unsigned long long);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (int)°;
 

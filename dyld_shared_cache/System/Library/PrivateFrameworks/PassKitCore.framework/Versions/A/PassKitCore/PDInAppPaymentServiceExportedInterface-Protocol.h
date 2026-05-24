@@ -5,5 +5,7 @@
 //
 
 @protocol PDInAppPaymentServiceExportedInterface
+- (void);
+- (void)V;
 @end
 

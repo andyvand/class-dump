@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayLayoutMonitor, FigCaptureDisplayLayout, FigCaptureOSStateHandle, NSArray, NSMutableArray, NSString;
-
 @interface FigCaptureDisplayLayoutMonitor
 {
     long long _displayType;
-    struct OpaqueFigSimpleMutex *_layoutObserversLock;
-    NSMutableArray *_layoutObservers;
-    struct OpaqueFigSimpleMutex *_layoutLock;
-    _Bool _displayConnected;
-    FigCaptureDisplayLayout *_layout;
-    NSArray *_elementIdentifiersToIgnore;
-    FBSDisplayLayoutMonitor *_layoutMonitor;
-    FigCaptureOSStateHandle *_osStateHandle;
 }
 
-+ (id);
++ (id)tsu_overridesClassSelector:ofBaseClass: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (void)on.avcapturedevice.private.built-in_metadata:1 /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
+- (void)autoAxisAndMajorGridColor;
+- (void)ed,VmContentFormatApplied;
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (id);
@@ -38,18 +28,7 @@
 - (_Bool).simulatedAperture;
 
 // Remaining properties
-@property(readonly, nonatomic) FigCaptureDisplayLayout *currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisplayConnected) _Bool displayConnected; // @synthesize displayConnected=_displayConnected;
 @property(readonly, nonatomic) long long displayType; // @synthesize displayType=_displayType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isOnHomeScreen) _Bool onHomeScreen;
-@property(readonly, nonatomic, getter=isOnLockScreen) _Bool onLockScreen;
-@property(readonly) Class superclass;
 
 @end
 

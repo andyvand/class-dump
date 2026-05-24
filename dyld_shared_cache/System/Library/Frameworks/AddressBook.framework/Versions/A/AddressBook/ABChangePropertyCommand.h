@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABInputController, ABPerson, NSString;
+@class NSString;
 
 @interface ABChangePropertyCommand
 {
     NSString *_propertyPath;
-    id _oldValue;
-    id _newValue;
-    ABPerson *_person;
-    ABInputController *_controller;
 }
 
 - (id);

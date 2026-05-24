@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (TSDGeometryAdditions)
-+ (id);
++ (id);
 - (long long);
 - (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 @end
 

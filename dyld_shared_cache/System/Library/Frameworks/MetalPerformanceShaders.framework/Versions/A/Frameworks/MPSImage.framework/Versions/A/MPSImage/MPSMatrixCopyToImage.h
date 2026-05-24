@@ -7,8 +7,6 @@
 @interface MPSMatrixCopyToImage
 {
     CDStruct_67e7699a _sourceMatrixOrigin;
-    unsigned long long _sourceMatrixBatchIndex;
-    unsigned long long _dataLayout;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -20,18 +18,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)N;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)initWithQueryID:(id)arg1 userQuery:maxItemsCount:keyboardLanguage:preferredLanguages:markedText:markedTextStart: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)é°ÄÄ?¦M*k^p°?çÏVäZÆ?;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataLayout; // @synthesize dataLayout=_dataLayout;
-@property(nonatomic) unsigned long long sourceMatrixBatchIndex; // @synthesize sourceMatrixBatchIndex=_sourceMatrixBatchIndex;
 @property(nonatomic) CDStruct_14f26992 sourceMatrixOrigin; // @synthesize sourceMatrixOrigin=_sourceMatrixOrigin;
 
 @end

@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
-- (id)rfaceWithProtocol: /* Error: Ran out of types for this method. */;
+- (id)interfaceWithProtocol: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSString *remoteIPPort; // @synthesize remoteIPPort;

@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface STSchemaLLMQUQueryArguments : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    _Bool _isQuestionNeedingAnswer;
-    int _sortOrder;
-    struct {
-        unsigned int isQuestionNeedingAnswer:1;
-        unsigned int sortOrder:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -29,32 +22,26 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)setShouldShow:(id)arg1;
+- (void)setPlusButton:(_Bool)arg1;
+- (id)rampedStateString;
+- (_Bool)initWithAccountManager:presentingWindow: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
+- (unsigned long long)service:badgesDidChange: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCleanGroupEntryListCellView;
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)ataPresentationTransformerClass(void)_block_invoke;
 - (id);
 - (id);
-- (id)ype;
-- (int)nterruptionType;
-- (id)ivedTier1;
-- (void)SCRIPT_ELEMENT;
+- (id)deleteIsPreferredType;
+- (int)avAudioSessionInterruptionType;
+- (id)_hasNotificationReceivedTier1;
+- (void)INVOCATIONSOURCE_TRANSCRIPT_ELEMENT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsQuestionNeedingAnswer;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasSortOrder;
-@property(nonatomic) _Bool isQuestionNeedingAnswer; // @synthesize isQuestionNeedingAnswer=_isQuestionNeedingAnswer;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int sortOrder; // @synthesize sortOrder=_sortOrder;
 
 @end
 

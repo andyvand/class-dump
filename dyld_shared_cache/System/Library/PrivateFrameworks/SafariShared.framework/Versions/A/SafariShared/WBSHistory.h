@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet, NSMutableDictionary, NSObject, NSString, WBSHistoryActivityThrottler, WBSHistoryTagMap;
-@protocol OS_dispatch_queue, WBSHistoryStore;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface WBSHistory
 {
     NSObject<OS_dispatch_queue> *_entriesByURLStringAccessQueue;
-    NSMutableDictionary *_entriesByURLString;
-    NSObject<OS_dispatch_queue> *_stringsForUserTypedDomainExpansionAccessQueue;
-    NSCountedSet *_stringsForUserTypedDomainExpansion;
-    double _historyAgeLimit;
-    _Bool _hasStartedLoadingHistory;
-    NSObject<OS_dispatch_queue> *_waitUntilHistoryHasLoadedQueue;
-    id <WBSHistoryStore> _historyStore;
-    WBSHistoryActivityThrottler *_entryCreationThrottler;
-    NSString *_databaseID;
-    WBSHistoryTagMap *_historyTagMap;
 }
 
 + (id);
@@ -34,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,7 +47,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)	`;
 - (void);
 - (void);
 - (_Bool);
@@ -74,7 +64,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -99,7 +89,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -125,7 +115,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void)L¦\¦§	ª;
@@ -133,20 +123,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allItems;
 @property(readonly, nonatomic) NSString *databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAnyHistoryItems;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double historyAgeLimit; // @synthesize historyAgeLimit=_historyAgeLimit;
-@property(readonly, nonatomic) WBSHistoryTagMap *historyTagMap; // @synthesize historyTagMap=_historyTagMap;
-@property(readonly, nonatomic) unsigned long long numberOfHistoryItems;
-@property(readonly, nonatomic) NSString *profileLocalIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

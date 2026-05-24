@@ -7,10 +7,6 @@
 @interface Vision.DetectScreenGazeRequest
 {
     id revision;
-    id uuid;
-    id state;
-    id supportedComputeStageDevices;
-    id configuration;
 }
 
 @end

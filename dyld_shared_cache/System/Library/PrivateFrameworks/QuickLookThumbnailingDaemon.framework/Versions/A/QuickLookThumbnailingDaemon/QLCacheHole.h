@@ -7,7 +7,6 @@
 @interface QLCacheHole
 {
     unsigned long long _location;
-    unsigned long long _length;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (void)¡X;
 
 // Remaining properties
-@property(nonatomic) unsigned long long length; // @synthesize length=_length;
 @property(nonatomic) unsigned long long location; // @synthesize location=_location;
 
 @end

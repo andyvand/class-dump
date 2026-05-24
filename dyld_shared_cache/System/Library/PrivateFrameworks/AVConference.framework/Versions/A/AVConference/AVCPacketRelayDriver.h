@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)questeeID;
++ (id)vcMomentsRequesteeID;
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 
 @end

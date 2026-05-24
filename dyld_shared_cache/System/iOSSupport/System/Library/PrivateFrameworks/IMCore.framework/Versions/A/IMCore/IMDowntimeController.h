@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFApplicationPolicyMonitor, IMCommLimitsPolicyCache, NSMutableDictionary, NSObject, NSSet, NSString, STConversation, TUCallProviderManager;
-@protocol OS_dispatch_queue;
+@class TUCallProviderManager;
 
 @interface IMDowntimeController
 {
     struct os_unfair_lock_s _stateLock;
-    _Bool _needsNotificationsRegistering;
-    STConversation *_stateLock_STConversation;
-    NSSet *_stateLock_emergencyNumbersSet;
-    _Bool _isRunningFromMacMessagesApp;
-    TUCallProviderManager *_callProviderManager;
-    NSObject<OS_dispatch_queue> *_screenTimeDispatchQueue;
-    NSObject<OS_dispatch_queue> *_setupDispatchQueue;
-    IMCommLimitsPolicyCache *_policyCache;
-    NSMutableDictionary *_bundleIDPolicyMap;
-    DMFApplicationPolicyMonitor *_appPolicyMonitor;
 }
 
 + (_Bool);
@@ -50,10 +39,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)?	;
 - (void);
 - (void);
 - (id);
@@ -61,20 +50,7 @@
 - (void)(Óÿ97fzÚ;
 
 // Remaining properties
-@property(retain, nonatomic) DMFApplicationPolicyMonitor *appPolicyMonitor; // @synthesize appPolicyMonitor=_appPolicyMonitor;
-@property(retain, nonatomic) NSMutableDictionary *bundleIDPolicyMap; // @synthesize bundleIDPolicyMap=_bundleIDPolicyMap;
 @property(retain, nonatomic) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager=_callProviderManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRunningFromMacMessagesApp; // @synthesize isRunningFromMacMessagesApp=_isRunningFromMacMessagesApp;
-@property(retain, nonatomic) IMCommLimitsPolicyCache *policyCache; // @synthesize policyCache=_policyCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *screenTimeDispatchQueue; // @synthesize screenTimeDispatchQueue=_screenTimeDispatchQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *setupDispatchQueue; // @synthesize setupDispatchQueue=_setupDispatchQueue;
-@property(readonly) Class superclass;
 
 @end
 

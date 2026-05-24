@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)y/Frameworks/AVFoundation.framework/Versions/A/AVFoundation;
++ (id)ns/A/WiFiPeerToPeer;
++ (id)teFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)ctivation in:(id)arg1 %f;
 
 @end
 

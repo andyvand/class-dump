@@ -6,14 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer;
 @protocol UITextInput;
 
 @interface _UITextDragCaretView : UIView
 {
     UIView<UITextInput> *_view;
-    CAShapeLayer *_mask;
-    _Bool _rangesExcludeSelection;
 }
 
 - (void);
@@ -31,14 +28,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)setCreateEngramGroupOnMessageSend:(id)arg1;
+- (id)setInExitState: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
+- (void)Ĺ;
 - (struct CGRect);
 - (id);
-- (void);
+- (void)%@;
 - (id);
 - (void)¤W;
 - (void)G;

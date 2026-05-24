@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol UINSAccessibilityInfo
+- (NSString *)KeyExtractor<WTF::KeyValuePair<WTF::String, std::unique_ptr<WebResourceLoadScheduler::HostInformation>>>, HashFunctions = WTF::StringHash, Traits = WTF::HashMap<WTF::String, std::unique_ptr<WebResourceLoadScheduler::HostInformation>, WTF::StringHash>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityHint;
 @property(copy, nonatomic) NSString *accessibilityLabel;
-@property(copy, nonatomic) NSString *accessibilityValue;
 @end
 

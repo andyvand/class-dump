@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDispatchOnce, AVWeakReference, NSArray, NSString;
-@protocol AVLoggingIdentifier;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetInternal
 {
     AVWeakReference *weakReference;
-    AVDispatchOnce *loadChapterInfoOnce;
-    NSArray *chapterGroupInfo;
-    NSString *anchorChapterType;
-    NSArray *availableChapterLanguages;
-    NSArray *availableCanonicalizedChapterLanguages;
-    NSArray *availableChapterLocales;
-    id <AVLoggingIdentifier> loggingIdentifier;
 }
 
 @end

@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXAssetsSelectionAction.h>
 
-@class NSArray, NSDictionary, PHAssetCollection;
+@class NSDictionary;
 
 @interface PXRemoveAssetsFromAssetCollectionAction : PXAssetsSelectionAction
 {
     NSDictionary *_removedAssetIdentifiers;
-    NSDictionary *_removedAssetIndexes;
-    NSArray *_assetsInput;
-    PHAssetCollection *_collectionInput;
 }
 
 - (id);

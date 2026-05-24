@@ -6,31 +6,30 @@
 
 #import <CoreDuetContext/_CDContextualPredicate.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface _CDMDCSContextualPredicate : _CDContextualPredicate
 {
     NSString *_identifier;
-    NSDictionary *_parameters;
 }
 
 + (id);
 + (id);
++ (id)t;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)__INCodableBooleanAttributeMetadataFalseDisplayNameID;
++ (id)_payloadUpdateAlarmOperation;
 + (id);
++ (id)M;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)a;
 + (_Bool);
 + (id);
-+ (id);
++ (id)#;
 + (id);
 + (id);
 + (id);
@@ -38,20 +37,19 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (_Bool)_securityScopedURLs;
+- (void)INSetTemporalSettingIntentResponseCodeUnspecified;
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface PKProvisioningAnalyticsSessionStepReporter : PKProvisioningAnalyticsSessionReporter
 {
     _Bool _didReportProvisioningStart;
-    _Bool _didReportSuccessfulProvisioning;
 }
 
 - (void);
@@ -23,11 +22,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool didReportProvisioningStart; // @synthesize didReportProvisioningStart=_didReportProvisioningStart;
-@property(nonatomic) _Bool didReportSuccessfulProvisioning; // @synthesize didReportSuccessfulProvisioning=_didReportSuccessfulProvisioning;
 
 @end
 

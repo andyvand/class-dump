@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, UIViewController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIDebuggingOverlayDetail
 {
     NSString *_title;
-    NSString *_detail;
-    long long _accessoryType;
 }
 
 + (id);
-- (void);
+- (void)w;
 - (id);
 - (long long);
-- (void);
-- (void);
-- (void):(id)arg1 continuous:mask: /* Error: Ran out of types for this method. */;
+- (void)"NSString",R;
+- (void)�;
+- (void)_isCornerWithRadius:(id)arg1 continuous:mask: /* Error: Ran out of types for this method. */;
 - (id)enuInteraction;
 - (id)<Point id="bottomLeft" x="%g" y="%g"/><Point id="topLeft" x="%g" y="%g"/><Point id="topRight" x="%g" y="%g"/><Point id="bottomRight" x="%g" y="%g"/></Rectangle>;
 - (id)ollerDetent"8Q16^B24;
 - (void)Â\;
 
 // Remaining properties
-@property(nonatomic) long long accessoryType; // @synthesize accessoryType=_accessoryType;
-@property(retain, nonatomic) NSString *detail; // @synthesize detail=_detail;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) UIView *view;
-@property(readonly, nonatomic) UIViewController *viewController;
 
 @end
 

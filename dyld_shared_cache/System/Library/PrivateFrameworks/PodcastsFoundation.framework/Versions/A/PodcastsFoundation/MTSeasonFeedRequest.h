@@ -13,7 +13,7 @@
     void seasons;
 }
 
-- (void);
+- (void)Cm;
 - (id);
 - (id);
 - (id);

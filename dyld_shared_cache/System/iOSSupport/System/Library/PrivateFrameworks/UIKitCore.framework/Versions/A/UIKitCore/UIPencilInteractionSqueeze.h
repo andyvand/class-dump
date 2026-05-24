@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPencilHoverPose;
-
 @interface UIPencilInteractionSqueeze
 {
     double _normalizedForceVelocity;
-    double _timestamp;
-    unsigned long long _phase;
-    UIPencilHoverPose *_hoverPose;
 }
 
 + (id);
-- (id);
+- (id)articipants than its iMessage sibling. Chat:%@. Updating participants using %@ /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)usesDefaultLayoutMargins;
+- (id);
 - (id);
 - (id);
 - (double);
@@ -33,16 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double _normalizedForceVelocity; // @synthesize _normalizedForceVelocity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIPencilHoverPose *hoverPose; // @synthesize hoverPose=_hoverPose;
-@property(readonly, nonatomic) unsigned long long phase; // @synthesize phase=_phase;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

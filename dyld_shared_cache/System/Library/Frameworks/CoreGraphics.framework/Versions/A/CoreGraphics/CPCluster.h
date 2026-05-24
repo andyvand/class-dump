@@ -8,24 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CPCluster
 {
     const CDStruct_1ec70fb1 *profile;
-    unsigned int xCount;
-    double *x;
-    double *dx;
-    unsigned int *dxOrderIndex;
-    unsigned int interClusterMinIndex;
-    double *ddx;
-    unsigned int *ddxOrderIndex;
-    unsigned int interLevelMinIndex;
-    unsigned int minClusterSize;
-    double maxClusterSpread;
-    double minInterClusterDiff;
-    double minInterLevel2ndDiff;
-    unsigned int clusterCount;
-    CDStruct_2a61e2ef *xStats;
-    unsigned int levels;
-    CDStruct_2a61e2ef *dxStats;
-    _Bool ownData;
-    _Bool ownDifferences;
 }
 
 + (void);
@@ -54,17 +36,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (CDStruct_2a61e2ef);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)_legacyAssertions;
+- (void)raphics.framework/Versions/A/CoreGraphics;
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)#I;
 - (id);
 
 @end

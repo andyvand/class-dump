@@ -7,36 +7,32 @@
 @interface TSUDatabase
 {
     struct sqlite3 *_db;
-    _Bool _readonly;
-    struct sqlite3_stmt *_beginTransactionStatement;
-    struct sqlite3_stmt *_commitTransactionStatement;
-    struct sqlite3_stmt *_rollbackTransactionStatement;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)resource;
+- (_Bool)useMoreFromIssueEOA;
+- (_Bool)longitude;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)SGASGGG;
 - (id);
-- (struct sqlite3 *);
+- (struct sqlite3 *)ewsUI236ChannelSectionsGroupPersonalizerTypeP;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)h
+;
+- (_Bool)watchComplete;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) struct sqlite3 *_sqliteDatabase; // @synthesize _sqliteDatabase=_db;
-@property(readonly, nonatomic) _Bool readonly; // @synthesize readonly=_readonly;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ECIMAPLocalActionReplayerDelegate, ECIMAPServerInterface;
+@protocol ECIMAPLocalActionReplayerDelegate;
 
 @protocol ECIMAPLocalActionReplayer
 
 // Remaining properties
 @property(nonatomic) __weak id <ECIMAPLocalActionReplayerDelegate> delegate;
-@property(retain, nonatomic) id <ECIMAPServerInterface> serverInterface;
 @end
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBUserActivityData;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBPunchout
+- (_Bool);
+- (void)0;
+- (NSArray *));
+- (NSData *)tionRequestOptions",C,N,V_creationOptions;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionTarget;
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(nonatomic) _Bool forceOpenInBrowser;
-@property(nonatomic) _Bool hasClip;
-@property(nonatomic) _Bool isRunnableInBackground;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSArray *urls;
-@property(retain, nonatomic) _SFPBUserActivityData *userActivityData;
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol INIntentDeliveringDelegate;
 
 @interface INAppIntentDispatcher
@@ -13,20 +12,14 @@
 }
 
 - (void);
-- (id);
+- (id)rmission() failed. %ld
+;
 - (void);
-- (id);
-- (void)knameIntent;
+- (id)(;
+- (void)SetNicknameIntent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <INIntentDeliveringDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwareSrvInfo
 {
     _Bool _isEnabled;
-    unsigned int _publishServiceCount;
-    unsigned int _subscribeServiceCount;
-    unsigned int _srvSessionCount;
-    NSString *_interfaceName;
-    WiFiMACAddress *_interfaceAddr;
-    NSArray *_srvSessionInfos;
 }
 
 + (_Bool);
@@ -26,7 +20,7 @@
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -35,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WiFiMACAddress *interfaceAddr; // @synthesize interfaceAddr=_interfaceAddr;
 @property(readonly, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) unsigned int publishServiceCount; // @synthesize publishServiceCount=_publishServiceCount;
-@property(readonly, nonatomic) unsigned int srvSessionCount; // @synthesize srvSessionCount=_srvSessionCount;
-@property(readonly, nonatomic) NSArray *srvSessionInfos; // @synthesize srvSessionInfos=_srvSessionInfos;
-@property(readonly, nonatomic) unsigned int subscribeServiceCount; // @synthesize subscribeServiceCount=_subscribeServiceCount;
 
 @end
 

@@ -4,36 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfiguration, NSString;
-@protocol _UIDisplayInfoShape;
+@class FBSDisplayConfiguration;
 
 @interface UnknownClass (ForPreviewsOnly)
 + (id);
 - (struct UIEdgeInsets);
 - (double);
-- (struct UIEdgeInsets)tentView: /* Error: Ran out of types for this method. */;
-- (double)ntroller: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)nment;
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)setIndicatorContentView: /* Error: Ran out of types for this method. */;
+- (double)_setShouldDeferFontPickerPresentationToViewController: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)_initialDestinationEnvironment;
+- (struct UIEdgeInsets)_hasTouchPad;
 - (struct UIEdgeInsets)<?@¯±<à?+M9û®×n@r"E?Ðâ?4i$XU@ ªrÞz2@Äí[cûï?;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long artworkSubtype;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) FBSDisplayConfiguration *displayConfiguration;
-@property(readonly, nonatomic) id <_UIDisplayInfoShape> exclusionArea; // @dynamic exclusionArea;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double homeAffordanceOverlayAllowance;
-@property(readonly, nonatomic) struct UIEdgeInsets peripheryInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeLeft;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeRight;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortrait;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortraitUpsideDown;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double systemMinimumMargin;
 @end
 

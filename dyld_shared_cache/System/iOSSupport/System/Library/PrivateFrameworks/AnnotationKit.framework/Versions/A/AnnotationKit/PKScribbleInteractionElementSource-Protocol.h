@@ -5,5 +5,6 @@
 //
 
 @protocol PKScribbleInteractionElementSource
+- (struct CGRect)";
 @end
 

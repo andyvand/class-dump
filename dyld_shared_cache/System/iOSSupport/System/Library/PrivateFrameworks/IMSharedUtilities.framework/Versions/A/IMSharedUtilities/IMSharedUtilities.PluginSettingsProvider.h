@@ -7,7 +7,6 @@
 @interface IMSharedUtilities.PluginSettingsProvider
 {
     id userDefaults;
-    id disabledHashtagImagesKey;
 }
 
 @end

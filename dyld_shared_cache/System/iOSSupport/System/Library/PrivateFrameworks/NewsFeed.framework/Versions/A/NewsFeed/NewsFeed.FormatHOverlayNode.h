@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatHOverlayNode
 {
     id _identifier;
-    id targetIdentifier;
-    id _targetPath;
-    id _name;
-    id _description;
-    id _size;
-    id _adjustments;
-    id _children;
-    id _reversed;
-    id _reverse;
-    id flex;
 }
 
 @end

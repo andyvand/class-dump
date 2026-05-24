@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVPortraitEffectsMatteInternal
 {
     struct __CVBuffer *pixelBuffer;
-    int version;
 }
 
 @end

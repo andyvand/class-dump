@@ -5,5 +5,6 @@
 //
 
 @protocol AVCStreamOutputDelegate
+- (void);
 @end
 

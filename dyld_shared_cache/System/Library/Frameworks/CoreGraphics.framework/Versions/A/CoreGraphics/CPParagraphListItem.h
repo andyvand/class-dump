@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPParagraphListItem
 {
     CPList *list;
-    int number;
-    struct __CFArray *paragraphs;
 }
 
 - (unsigned int);
@@ -53,7 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CPList *list; // @synthesize list;
-@property(nonatomic) int number; // @synthesize number;
 
 @end
 

@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AWDWifiAwdlServiceRecord
 {
     unsigned long long _duration;
-    unsigned int _opcode;
-    unsigned int _serviceId;
-    NSData *_serviceKey;
-    unsigned int _type;
-    struct {
-        unsigned int duration:1;
-        unsigned int opcode:1;
-        unsigned int serviceId:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)R;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,29 +27,20 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)`;
+- (unsigned int)k;
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
 - (void);
+- (id);
+- (void)suggester:(_Bool)arg1 filterSuggestions:forInput: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasOpcode;
-@property(nonatomic) _Bool hasServiceId;
-@property(readonly, nonatomic) _Bool hasServiceKey;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int opcode; // @synthesize opcode=_opcode;
-@property(nonatomic) unsigned int serviceId; // @synthesize serviceId=_serviceId;
-@property(retain, nonatomic) NSData *serviceKey; // @synthesize serviceKey=_serviceKey;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

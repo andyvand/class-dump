@@ -5,13 +5,10 @@
 //
 
 @class IAMMessageCoordinator, NSString;
-@protocol IAMMessageGroupInternalDelegate;
 
 @interface IAMMessageGroup
 {
     NSString *_groupIdentifier;
-    IAMMessageCoordinator *_messageCoordinator;
-    id <IAMMessageGroupInternalDelegate> _internalDelegate;
 }
 
 - (_Bool);
@@ -26,15 +23,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_updateMetadata:(id)arg1 withProvidedMetadata: /* Error: Ran out of types for this method. */;
+- (id)setSupportsDynamicPercentiles: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(nonatomic) __weak id <IAMMessageGroupInternalDelegate> internalDelegate; // @synthesize internalDelegate=_internalDelegate;
 @property(nonatomic) __weak IAMMessageCoordinator *messageCoordinator; // @synthesize messageCoordinator=_messageCoordinator;
 
 @end

@@ -7,11 +7,6 @@
 @interface NewsUI2.ContentShortcutsStorageManager
 {
     id $defaultActor;
-    id fileManager;
-    id loadState;
-    id feedModelFactory;
-    id feedContextFactory;
-    id tagService;
 }
 
 @end

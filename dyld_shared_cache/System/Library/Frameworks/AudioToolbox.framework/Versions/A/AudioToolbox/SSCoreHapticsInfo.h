@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)P;
 - (id);
 - (unsigned long long);
 - (void);

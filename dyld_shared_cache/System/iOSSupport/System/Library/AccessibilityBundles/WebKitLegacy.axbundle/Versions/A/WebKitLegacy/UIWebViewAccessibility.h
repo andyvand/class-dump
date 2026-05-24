@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 - (unsigned long long);
-- (void);
+- (void)ting CHIP pairing mode;
 - (void);
 - (void);
 

@@ -23,12 +23,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)__TEXT;
 - (_Bool);
 - (_Bool)°!ôAù1J °1Â0@ù
 × ;
-- (_Bool)ecordsCompletion;
-- (_Bool)tionHandler;
+- (_Bool)_contactNameRecordsCompletion;
+- (_Bool)PPNotificationHandler;
 - (_Bool)urning nil due to:(id *)arg1 %@;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol TTRBannerControllerDelegate
+- (void);
 @end
 

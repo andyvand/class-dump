@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVMessageParser
 {
     NSString *_lineSeparator;
-    NSString *_headerBodySeparator;
-    NSString *_bodyLengthKey;
-    NSString *_compressionMethodKey;
-    NSData *_lineSeparatorData;
-    NSData *_headerBodySeparatorData;
 }
 
 + (id);
@@ -26,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)>;
 - (id);
 - (id);
 - (id);
@@ -37,12 +32,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bodyLengthKey; // @synthesize bodyLengthKey=_bodyLengthKey;
-@property(copy, nonatomic) NSString *compressionMethodKey; // @synthesize compressionMethodKey=_compressionMethodKey;
-@property(copy, nonatomic) NSString *headerBodySeparator; // @synthesize headerBodySeparator=_headerBodySeparator;
-@property(retain, nonatomic) NSData *headerBodySeparatorData; // @synthesize headerBodySeparatorData=_headerBodySeparatorData;
 @property(copy, nonatomic) NSString *lineSeparator; // @synthesize lineSeparator=_lineSeparator;
-@property(retain, nonatomic) NSData *lineSeparatorData; // @synthesize lineSeparatorData=_lineSeparatorData;
 
 @end
 

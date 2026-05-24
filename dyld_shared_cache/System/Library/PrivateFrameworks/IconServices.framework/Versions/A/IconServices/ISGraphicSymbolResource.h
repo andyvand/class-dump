@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFGraphicSymbolDescriptor, NSString, NSURL;
+@class IFGraphicSymbolDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface ISGraphicSymbolResource
 {
     IFGraphicSymbolDescriptor *_descriptor;
-    NSURL *_url;
-    NSString *_symbolName;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)remoteObjectProxyWithErrorHandler:(id)arg1;
++ (id)rangeOfString:(id)arg1 options:(id)arg2 range:(id)arg3;
++ (id)ine_name;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) IFGraphicSymbolDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(readonly) NSURL *url; // @synthesize url=_url;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 
 @end
 

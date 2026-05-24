@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface ICMusicSubscriptionStatusCacheKey
 {
     NSNumber *_DSID;
-    NSString *_phoneNumber;
-    NSString *_storefrontIdentifier;
 }
 
-- (id);
-- (id);
+- (id)`
+;
+- (id)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16^{_CGLPixelFormatObject=}24d32r^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ}40;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id):(id)arg1 8^{CGPath=}16{CGPoint=dd}24B40;
 - (void)Account",&,N,V_ACAccount;
 - (void)dV1;
 - (void)uowî@B.ýxôDøD©4ÀHið{ÎrOÀZë¶²¬ÖÊ·¬Ää/ÈDr³é^$23%%ßØ;
@@ -33,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 
 @end
 

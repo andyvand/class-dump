@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSValidationErrorLocalizationPolicy
 {
     NSURL *_url;
-    NSBundle *_localizationBundle;
-    NSString *_modelStringsFileName;
-    NSDictionary *_localizationDictionary;
-    _Bool _hasSetLocalizationDictionary;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)&?;
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)SDictionary"@"NSError">24;
+- (void)initWithStream: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)eferredHandlers - Run after %f sec;
+- (void)onEEE;
+- (id)xA;
 - (void);
 
 // Remaining properties

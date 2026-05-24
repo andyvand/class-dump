@@ -7,14 +7,6 @@
 @interface NewsFeed.DebugFeaturePromotionModel
 {
     id _result;
-    id _topics;
-    id _viewState;
-    id debuggerContext;
-    id viewFactory;
-    id eligibilityProviderFactory;
-    id resolvedDataSourceFactory;
-    id tagImageApplier;
-    id imageCache;
 }
 
 @end

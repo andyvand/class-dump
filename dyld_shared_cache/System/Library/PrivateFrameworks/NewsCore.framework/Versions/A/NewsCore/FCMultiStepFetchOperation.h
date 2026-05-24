@@ -6,33 +6,29 @@
 
 #import <NewsCore/FCFetchOperation.h>
 
-@class NFMutexLock, NSMutableArray;
+@class NSMutableArray;
 
 @interface FCMultiStepFetchOperation : FCFetchOperation
 {
     NSMutableArray *_steps;
-    NSMutableArray *_stepResults;
-    NFMutexLock *_accessLock;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)viewWillStartLiveResize;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void)ubscriptions;
+- (void)privateDataShouldCleanupAfterSecureSubscriptions;
 - (id)ck;
 - (id)ntColorPair",R,N,V_tertiaryColor;
-- (void)fier;
+- (void)environmentIdentifier;
 - (void)ews_local;
 - (void)\)´ÿt,´ÿk´ÿ,t´ÿx´ÿ4z´ÿx´ÿ\´ÿX²ÿT²ÿÄµÿÈµÿXµÿ(µÿü'µÿü7µÿ°Cµÿ[µÿ@\µÿ<dµÿ´ÿ¬´ÿ ²ÿÐ[¶ÿè_¶ÿ(c¶ÿXu¶ÿ4Þ¶ÿ¸å¶ÿÐë¶ÿhì¶ÿ@í¶ÿèî¶ÿX·ÿ\3·ÿì²ÿd·ÿ<·ÿ\·ÿ4ª·ÿÈ«·ÿÀº·ÿÃ·ÿÔç·ÿÈ²ÿì¸ÿÀ²ÿX4¸ÿX7¸ÿ\Y¸ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NFMutexLock *accessLock; // @synthesize accessLock=_accessLock;
-@property(retain, nonatomic) NSMutableArray *stepResults; // @synthesize stepResults=_stepResults;
 @property(retain, nonatomic) NSMutableArray *steps; // @synthesize steps=_steps;
 
 @end

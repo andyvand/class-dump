@@ -5,5 +5,6 @@
 //
 
 @protocol IXTerminationAssertionWrapperProtocol
+- (void)Timeline>"24;
 @end
 

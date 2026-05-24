@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
 @protocol HMDAPSConnectionDelegate;
 
 @protocol HMDAPSConnection
+- (id <HMDAPSConnectionDelegate>)�c;
 
 // Remaining properties
 @property __weak id <HMDAPSConnectionDelegate> delegate;
-@property(readonly, retain, nonatomic) NSData *publicToken;
 @end
 

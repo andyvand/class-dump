@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWDeferredProcessingAnalyticsPayload
 {
     int _error;
-    NSString *_processingResult;
-    int _processingType;
-    _Bool _fileBacked;
-    unsigned int _containerAgeInSeconds;
-    unsigned long long _containerSizeInBytes;
-    _Bool _interactiveQoS;
-    unsigned int _graphPrepareDurationInMilliseconds;
-    unsigned int _jobDurationInMilliseconds;
-    int _containerProcessingCount;
 }
 
 - (void);
@@ -38,33 +27,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (int);
-- (unsigned int);
+- (unsigned int)P;
 - (int);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)!;
 
 // Remaining properties
-@property(nonatomic) unsigned int containerAgeInSeconds; // @synthesize containerAgeInSeconds=_containerAgeInSeconds;
-@property(nonatomic) int containerProcessingCount; // @synthesize containerProcessingCount=_containerProcessingCount;
-@property(nonatomic) unsigned long long containerSizeInBytes; // @synthesize containerSizeInBytes=_containerSizeInBytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int error; // @synthesize error=_error;
-@property(nonatomic) _Bool fileBacked; // @synthesize fileBacked=_fileBacked;
-@property(nonatomic) unsigned int graphPrepareDurationInMilliseconds; // @synthesize graphPrepareDurationInMilliseconds=_graphPrepareDurationInMilliseconds;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool interactiveQoS; // @synthesize interactiveQoS=_interactiveQoS;
-@property(nonatomic) unsigned int jobDurationInMilliseconds; // @synthesize jobDurationInMilliseconds=_jobDurationInMilliseconds;
-@property(copy, nonatomic) NSString *processingResult; // @synthesize processingResult=_processingResult;
-@property(nonatomic) int processingType; // @synthesize processingType=_processingType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol PXScrollViewControllerObserver
+
+@optional
+- (void);
+- (void))%֚i;
+- (_Bool);
 @end
 

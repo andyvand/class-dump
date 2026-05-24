@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray;
+@class NSMapTable;
 
 @interface SGSuggestionsWorkGroupManagerGuardedData
 {
     NSMapTable *_groupLookup;
-    NSMutableArray *_uniqueIds;
 }
 
 - (void);
@@ -17,10 +16,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

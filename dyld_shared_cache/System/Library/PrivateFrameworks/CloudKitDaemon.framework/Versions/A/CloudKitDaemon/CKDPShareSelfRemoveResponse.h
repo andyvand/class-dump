@@ -11,8 +11,9 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)end of utterance timestamp %1.3f
+;
+- (_Bool)`;
 - (_Bool);
 - (void);
 - (id);

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)ice;
++ (id)_updatingNameOfDevice;
 - (void);
 - (void);
 - (_Bool);
@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_connectionLock;
 - (_Bool);
 
 @end

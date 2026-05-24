@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKInvisibleInkEffectView, NSString, NSTimer, UIGestureRecognizer, UIView;
-@protocol CKInvisibleInkEffectHostView;
+@class CKInvisibleInkEffectView;
 
 @interface CKInvisibleInkEffectController
 {
     _Bool _enabled;
-    _Bool _paused;
-    _Bool _suspended;
-    _Bool _effectViewNeedsReset;
-    CKInvisibleInkEffectView *_effectView;
-    UIView<CKInvisibleInkEffectHostView> *_hostView;
-    NSTimer *_resumeTimer;
-    UIView *_borrowedEffectViewSnapshot;
-    UIGestureRecognizer *_gestureRecognizer;
 }
 
+- (void)htmlAttributesForAttachment:legacyContentID:tagName: /* Error: Ran out of types for this method. */;
+- (void)authenticateDevicePasswordWithPrompt:(double)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ICTagDetailItemIdentifier;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)s;
 - (void);
 - (void);
 - (_Bool);
+- (id)esModeMigrator presentDivergedModeAlertForNote:mode:window:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)@?0@"NSString"8;
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (_Bool);
+- (void)ctionary",R;
 - (_Bool);
 - (void)aý°!ÈBù1Ð1Â0@ù
 × ;
@@ -55,22 +46,7 @@
 - (_Bool)$0ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *borrowedEffectViewSnapshot; // @synthesize borrowedEffectViewSnapshot=_borrowedEffectViewSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CKInvisibleInkEffectView *effectView; // @synthesize effectView=_effectView;
-@property(nonatomic) _Bool effectViewNeedsReset; // @synthesize effectViewNeedsReset=_effectViewNeedsReset;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIView<CKInvisibleInkEffectHostView> *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(retain, nonatomic) NSTimer *resumeTimer; // @synthesize resumeTimer=_resumeTimer;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

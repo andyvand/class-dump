@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SKProductsResponseInternal
 {
     NSArray *_invalidIdentifiers;
-    NSArray *_products;
 }
 
 - (void);

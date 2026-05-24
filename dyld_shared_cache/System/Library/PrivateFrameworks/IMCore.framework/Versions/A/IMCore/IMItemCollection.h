@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface IMItemCollection
 {
     _Bool _isReversed;
-    NSArray *_chatItems;
-    NSMutableArray *_extraItems;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)%fs:(id)arg1 long %fs :(struct _NSRange)arg2 threshold %fs), discarding;
+- (id)ioReceiver [%s] %s:%d _VCAudioReceiver_Decrypt failed %d /* Error: Ran out of types for this method. */;
+- (id)RedundancyChangeQueue;
+- (id)otification came in %s;
+- (id)running;
+- (id)t do not support one to one mode;
+- (id):%d %@(%p) Will switch from idle to captioning. streamToken=%ld samplesToBackProcess=%d collectionHostTime=%f sampleHostTime=%f /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)NqDugDWyMIMj1HyyyqoS22I5NoGpHpy6mRb3kI/Library/Caches/com.apple.xbs/TemporaryDirectory.lwsgJi/Sources/TimeSync/clocksyncd/IOKit/TSDClockManager.mm;
 - (id);
-- (id);
+- (id)`B;
 - (void)pm;
 - (_Bool)threadOriginatorMessageWasDeleted;
-- (unsigned long long)gVettedAliases;
+- (unsigned long long)receivingVettedAliases;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *chatItems; // @synthesize chatItems=_chatItems;
-@property(readonly, nonatomic) NSMutableArray *extraItems; // @synthesize extraItems=_extraItems;
-@property(readonly, nonatomic) _Bool isReversed; // @synthesize isReversed=_isReversed;
 
 @end
 

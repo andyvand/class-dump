@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDMessageHistorySyncTask, IMDMessageHistorySyncTaskFactory;
-
 @interface IMDMessageHistorySyncController
 {
     _Bool _replayControllerNeedsSync;
-    _Bool _ckChatSyncControllerNeedsSync;
-    _Bool _idsTransportLogNeedsSync;
-    id <IMDMessageHistorySyncTask> _currentlyExecutingSyncTask;
-    id <IMDMessageHistorySyncTaskFactory> _syncTaskFactory;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)makeKeyAndOrderFront: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)pple.quicklook.QuickLook;
 - (void);
 - (void);
 - (void);
@@ -33,11 +27,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool ckChatSyncControllerNeedsSync; // @synthesize ckChatSyncControllerNeedsSync=_ckChatSyncControllerNeedsSync;
-@property(retain, nonatomic) id <IMDMessageHistorySyncTask> currentlyExecutingSyncTask; // @synthesize currentlyExecutingSyncTask=_currentlyExecutingSyncTask;
-@property(nonatomic) _Bool idsTransportLogNeedsSync; // @synthesize idsTransportLogNeedsSync=_idsTransportLogNeedsSync;
 @property(nonatomic) _Bool replayControllerNeedsSync; // @synthesize replayControllerNeedsSync=_replayControllerNeedsSync;
-@property(retain, nonatomic) id <IMDMessageHistorySyncTaskFactory> syncTaskFactory; // @synthesize syncTaskFactory=_syncTaskFactory;
 
 @end
 

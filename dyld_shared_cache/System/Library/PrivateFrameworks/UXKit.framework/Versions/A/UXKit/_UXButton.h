@@ -9,13 +9,12 @@
 @interface _UXButton
 {
     NSMutableDictionary *_titlesByState;
-    NSMutableDictionary *_titleAttributesByState;
 }
 
 + (Class);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);

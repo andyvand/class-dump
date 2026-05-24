@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BCNetworkProviderProtocol;
 
 @interface BCImageManager
 {
     id <BCNetworkProviderProtocol> _networkProvider;
+    id networkProvider;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)J;
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)N,V_eventStatus;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <BCNetworkProviderProtocol> networkProvider; // @synthesize networkProvider=_networkProvider;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,30 +6,15 @@
 
 #import <UIKitCore/UIInputViewController.h>
 
-@class NSArray, NSString, UIKeyboard, UIKeyboardInputMode, UILayoutGuide, UIViewController;
-@protocol UITextCursorAssertion;
+@class UIKeyboardInputMode, UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface UICompatibilityInputViewController : UIInputViewController
 {
     UIKeyboardInputMode *_inputMode;
-    UIKeyboard *_deferredSystemView;
-    UIKeyboardInputMode *_incomingExtensionInputMode;
-    double _incomingExtensionInputModeTime;
-    double _lastSuspendedTime;
-    double _currentResumeTime;
-    _Bool _shouldRegenerateSizingConstraints;
-    _Bool _shouldSuppressRemoteInputController;
-    _Bool _tearingDownInputController;
-    double _resetInputModeTime;
-    unsigned long long _latestDelayTime;
-    UILayoutGuide *_focusSafeAreaLayoutGuide;
-    UIViewController *_inputController;
-    NSArray *_internalEdgeMatchConstraints;
-    id <UITextCursorAssertion> _blinkAssertion;
 }
 
-+ (id);
++ (id)";
 + (id)n",N,&,VrightScrollPocketInteraction;
 + (_Bool)|Õþ;
 + (id);
@@ -40,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)m;
 - (void);
 - (id);
 - (void);
@@ -57,16 +42,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24;
 - (void)iew"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionAnimating>"32;
-- (id)rdIfSplit: /* Error: Ran out of types for this method. */;
-- (_Bool)uration:animator: /* Error: Ran out of types for this method. */;
-- (_Bool)ender: /* Error: Ran out of types for this method. */;
-- (id)ate:(id)arg1;
-- (void)aceFoundTextInRange:inDocument:withText: /* Error: Ran out of types for this method. */;
+- (id)visualStyleForKeyboardIfSplit: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (_Bool)sendDelayedPressWithType:timestamp:sender: /* Error: Ran out of types for this method. */;
+- (id)scrollViewDidEndDragging:(id)arg1 willDecelerate: /* Error: Ran out of types for this method. */;
+- (void)replaceFoundTextInRange:inDocument:withText: /* Error: Ran out of types for this method. */;
 - (void)lyAnimatingAffectedSides;
 - (void)Handler;
 - (void)ciatedViewController;
 - (id)g",C,D,N,S_setHiddenAncestorSheetID: /* Error: Ran out of types for this method. */;
-- (void)emApp;
+- (void)_DUIClientSystemApp;
 - (_Bool)ene for reason:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)tation should return the desired displayMode instead.;
 - (void)enced from a nib in the bundle with identifier "%@";
@@ -92,17 +77,7 @@ __attribute__((visibility("hidden")))
 - (void)Pêo;
 
 // Remaining properties
-@property(retain, nonatomic) id <UITextCursorAssertion> blinkAssertion; // @synthesize blinkAssertion=_blinkAssertion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UILayoutGuide *focusSafeAreaLayoutGuide;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIViewController *inputController; // @synthesize inputController=_inputController;
-@property(retain, nonatomic) NSArray *internalEdgeMatchConstraints; // @synthesize internalEdgeMatchConstraints=_internalEdgeMatchConstraints;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface SPBeaconSharingLimits
 {
     long long _maxCircleMembers;
-    long long _maxDelegatedShares;
 }
 
 + (_Bool);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ReportJunkHawkingOnNotBlackholed;
 
 // Remaining properties
 @property(nonatomic) long long maxCircleMembers; // @synthesize maxCircleMembers=_maxCircleMembers;
-@property(nonatomic) long long maxDelegatedShares; // @synthesize maxDelegatedShares=_maxDelegatedShares;
 
 @end
 

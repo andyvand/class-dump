@@ -5,5 +5,7 @@
 //
 
 @protocol CLEEDInterface
+- (void)~;
+- (void);
 @end
 

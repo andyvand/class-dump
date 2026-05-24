@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface CalChangeHistoryCollector
 {
     _Bool _didReset;
-    _Bool _hasChanges;
-    NSMutableArray *_insertedContacts;
-    NSMutableArray *_updatedContacts;
-    NSMutableArray *_deletedContactIdentifiers;
 }
 
 - (void);
@@ -22,8 +16,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)__objc_imageinfo__DATA_CONST;
+- (void)�*;
 - (void);
 - (id);
 - (id);
@@ -33,18 +27,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSMutableArray *deletedContactIdentifiers; // @synthesize deletedContactIdentifiers=_deletedContactIdentifiers;
-@property(readonly, copy) NSString *description;
 @property _Bool didReset; // @synthesize didReset=_didReset;
-@property _Bool hasChanges; // @synthesize hasChanges=_hasChanges;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableArray *insertedContacts; // @synthesize insertedContacts=_insertedContacts;
-@property(readonly) Class superclass;
-@property(retain) NSMutableArray *updatedContacts; // @synthesize updatedContacts=_updatedContacts;
 
 @end
 

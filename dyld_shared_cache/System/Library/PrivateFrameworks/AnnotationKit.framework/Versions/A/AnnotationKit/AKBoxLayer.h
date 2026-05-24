@@ -7,8 +7,6 @@
 @interface AKBoxLayer
 {
     double _borderWidthScale;
-    double _boxCornerRadius;
-    double _nominalBorderWidth;
 }
 
 - (void);
@@ -22,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double borderWidthScale;
 @property double boxCornerRadius; // @synthesize boxCornerRadius=_boxCornerRadius;
-@property double nominalBorderWidth; // @synthesize nominalBorderWidth=_nominalBorderWidth;
 
 @end
 

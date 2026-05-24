@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObject, CKUIVideoEditorController, NSString;
+@class CKMediaObject;
 @protocol CKTrimControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKVideoTrimController
 {
     CKMediaObject *_originalMediaObject;
-    CKMediaObject *_trimmedMediaObject;
-    id <CKTrimControllerDelegate> _delegate;
-    CKUIVideoEditorController *_editVideoVC;
 }
 
 - (id);
+- (void)textController:(id)arg1 updatedTrackedAttribute: /* Error: Ran out of types for this method. */;
+- (void)setIsPausingUndoActions:(id)arg1;
+- (id)control:didFailToValidatePartialString:errorDescription: /* Error: Ran out of types for this method. */;
+- (id)esWithCoalescingAndDelay;
+- (id);
+- (void)eview for attachment:(id)arg1 %@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)FiltrationForcedOn;
+- (void)(x;
+- (void)IncomingMessageAlertFiltrationForcedOn;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CKTrimControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKUIVideoEditorController *editVideoVC; // @synthesize editVideoVC=_editVideoVC;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKMediaObject *originalMediaObject; // @synthesize originalMediaObject=_originalMediaObject;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKMediaObject *trimmedMediaObject; // @synthesize trimmedMediaObject=_trimmedMediaObject;
 
 @end
 

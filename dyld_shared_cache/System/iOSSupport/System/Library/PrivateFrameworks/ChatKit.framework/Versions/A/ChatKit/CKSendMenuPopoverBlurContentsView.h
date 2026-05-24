@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)applicationDocumentsURLForAccountIdentifier:(double)arg1;
 - (double);
 - (id);
 - (_Bool);

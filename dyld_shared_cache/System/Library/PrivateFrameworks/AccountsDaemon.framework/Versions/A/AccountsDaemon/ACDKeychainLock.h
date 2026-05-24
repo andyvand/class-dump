@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface ACDKeychainLock
 {
     struct os_unfair_lock_s _containerLock;
-    NSMutableDictionary *_locksByServiceUsername;
 }
 
 - (id);
-- (void);
+- (void)!@;
 - (void);
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
-@protocol BTMLoginItemControllerDelegate, OS_dispatch_queue;
+@class NSSet;
+@protocol BTMLoginItemControllerDelegate;
 
 @interface BTMLoginItemController
 {
     id <BTMLoginItemControllerDelegate> _delegate;
-    NSSet *_internalItems;
-    unsigned long long _typeMask;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (unsigned long long);
@@ -27,16 +24,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)vtopk_common_matrix_half_4;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id <BTMLoginItemControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSSet *internalItems; // @synthesize internalItems=_internalItems;
-@property(readonly) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly) NSSet *items;
-@property(readonly) unsigned long long typeMask; // @synthesize typeMask=_typeMask;
 
 @end
 

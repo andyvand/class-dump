@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)edited message matching backward compatibility message %s. Message can be dropped.;
+- (_Bool)Path:%s /* Error: Ran out of types for this method. */;
+- (id)provide a reason for logging.;
 
 @end
 

@@ -7,13 +7,6 @@
 @interface JetUI.LayoutTextViewPlaceholder
 {
     id text;
-    id textAlignment;
-    id lineSpacing;
-    id frame;
-    id isHidden;
-    id numberOfLines;
-    id lineBreakMode;
-    id font;
 }
 
 @end

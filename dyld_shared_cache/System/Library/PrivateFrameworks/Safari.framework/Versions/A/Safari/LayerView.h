@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 __attribute__((visibility("hidden")))
 @interface LayerView
 {
     double _borderWidth;
-    NSColor *_borderColor;
 }
 
 - (void);
@@ -24,8 +21,6 @@ __attribute__((visibility("hidden")))
 - (void).;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
 @property(nonatomic) double cornerRadius; // @dynamic cornerRadius;
 
 @end

@@ -6,14 +6,11 @@
 
 #import <EmailFoundation/EFObservable.h>
 
-@class NSLock;
 @protocol EFObservable;
 
 @interface _EFDistinctUntilChangedObservable : EFObservable
 {
     id <EFObservable> _observable;
-    id _lastObservedResult;
-    NSLock *_lock;
 }
 
 - (id);

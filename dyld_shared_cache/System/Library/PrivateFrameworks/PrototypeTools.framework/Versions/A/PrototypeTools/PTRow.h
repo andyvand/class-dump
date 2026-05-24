@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSPredicate, NSString, PTRowAction, PTSection, PTSettings, UIImage;
+@class NSHashTable;
 
 @interface PTRow
 {
     NSHashTable *_observers;
-    _Bool _isEncodable;
-    NSString *_valueKeyPath;
-    NSString *_staticTitle;
-    NSString *_titleKeyPath;
-    UIImage *_staticImage;
-    NSString *_imageKeyPath;
-    NSPredicate *_condition;
-    PTRowAction *_action;
-    CDUnknownBlockType _valueValidatator;
-    CDUnknownBlockType _valueFormatter;
-    CDUnknownBlockType _valueGetter;
-    CDUnknownBlockType _valueSetter;
-    CDUnknownBlockType _externalCondition;
-    CDUnknownBlockType _unregisterBlock;
-    PTSection *_section;
-    PTSettings *_settings;
 }
 
 + (id);
@@ -33,30 +17,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) PTRowAction *action; // @synthesize action=_action;
-@property(copy, nonatomic) NSPredicate *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType externalCondition; // @synthesize externalCondition=_externalCondition;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *imageKeyPath; // @synthesize imageKeyPath=_imageKeyPath;
-@property(nonatomic) _Bool isEncodable; // @synthesize isEncodable=_isEncodable;
-@property(nonatomic) __weak PTSection *section; // @synthesize section=_section;
-@property(retain, nonatomic) PTSettings *settings; // @synthesize settings=_settings;
-@property(retain, nonatomic) UIImage *staticImage; // @synthesize staticImage=_staticImage;
-@property(copy, nonatomic) NSString *staticTitle; // @synthesize staticTitle=_staticTitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *titleKeyPath; // @synthesize titleKeyPath=_titleKeyPath;
-@property(copy, nonatomic) CDUnknownBlockType unregisterBlock; // @synthesize unregisterBlock=_unregisterBlock;
-@property(retain, nonatomic) id value;
-@property(copy, nonatomic) CDUnknownBlockType valueFormatter; // @synthesize valueFormatter=_valueFormatter;
 @property(copy, nonatomic) CDUnknownBlockType valueGetter; // @synthesize valueGetter=_valueGetter;
-@property(copy, nonatomic) NSString *valueKeyPath; // @synthesize valueKeyPath=_valueKeyPath;
-@property(copy, nonatomic) CDUnknownBlockType valueSetter; // @synthesize valueSetter=_valueSetter;
-@property(copy, nonatomic) CDUnknownBlockType valueValidatator; // @synthesize valueValidatator=_valueValidatator;
 
 @end
 

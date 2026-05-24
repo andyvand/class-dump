@@ -9,12 +9,10 @@
 @interface PKPhysicsJointWeld : PKPhysicsJoint
 {
     struct b2WeldJointDef _jointDef;
-    struct b2WeldJoint *_joint;
-    struct CGPoint _anchor;
 }
 
-+ (id);
-+ (_Bool);
++ (id)(;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);

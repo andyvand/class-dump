@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage, NSString;
+
 @protocol NSColorPickingDefault
+- (NSImage *)eallocSysConfig3MetadataEntry(const char *__single __terminated_by(0), const uint8_t *__single __counted_by(dataLength), uint32_t, const char *__single __terminated_by(0));
+- (struct CGSize)operty;
+- (NSString *);
 @end
 

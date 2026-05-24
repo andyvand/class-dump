@@ -6,15 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface CEMSystemXsanVolumePreferencesDeclaration : CEMConfigurationBase
 {
     NSArray *_payloadOnlyMount;
-    NSArray *_payloadDenyMount;
-    NSArray *_payloadDenyDLC;
-    NSArray *_payloadPreferDLC;
-    NSNumber *_payloadUseDLC;
 }
 
 + (id);
@@ -34,28 +30,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *payloadDenyDLC; // @synthesize payloadDenyDLC=_payloadDenyDLC;
-@property(copy, nonatomic) NSArray *payloadDenyMount; // @synthesize payloadDenyMount=_payloadDenyMount;
 @property(copy, nonatomic) NSArray *payloadOnlyMount; // @synthesize payloadOnlyMount=_payloadOnlyMount;
-@property(copy, nonatomic) NSArray *payloadPreferDLC; // @synthesize payloadPreferDLC=_payloadPreferDLC;
-@property(copy, nonatomic) NSNumber *payloadUseDLC; // @synthesize payloadUseDLC=_payloadUseDLC;
-@property(readonly) Class superclass;
 
 @end
 

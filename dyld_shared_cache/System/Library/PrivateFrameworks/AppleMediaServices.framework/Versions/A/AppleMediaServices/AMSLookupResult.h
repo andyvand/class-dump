@@ -6,26 +6,24 @@
 
 #import <AppleMediaServices/AMSURLResult.h>
 
-@class NSArray, NSDate, NSDictionary;
+@class NSDate, NSDictionary;
 
 @interface AMSLookupResult : AMSURLResult
 {
     NSDictionary *_response;
-    NSDate *_expirationDate;
 }
 
-- (id);
+- (id)pes:options:listenerID:queue:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)kMRMediaRemoteNowPlayingInfoPurchaseInfoData;
 - (id);
 - (id);
 - (void)eDescription;
 - (void)©µü6ã85òÒõ1;Ã5²ÑÁ4£f+P«ê$6¶ü¢âÔw£JJ£¿æ7êÞk¶zzþÔòI<x¡d°ÁIup§ì©E¸­|át@zñ\ -ý5ùYÕ¹f#:¨÷7|q@)Ê[à¤OÈo[X´¬ÎÄÓh®ÈI(t]$v)%MHdÓ§-ú&ï?q]¢Ö³çM÷XðàÁë¬JÆ,¿ÎZ}î?º<­Oí6Üý1ÞÔÂ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allItems;
 @property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 
 @end

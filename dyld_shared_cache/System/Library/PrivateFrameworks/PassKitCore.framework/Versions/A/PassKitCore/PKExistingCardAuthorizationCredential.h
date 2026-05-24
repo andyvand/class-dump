@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKPaymentRemoteCredential.h>
 
-@class NSString;
-
 @interface PKExistingCardAuthorizationCredential : PKPaymentRemoteCredential
 {
     PKPaymentRemoteCredential *_remoteCredential;
-    NSString *_redemptionToken;
 }
 
 + (_Bool)X"°!xFùî%°1Â0@ù
@@ -23,12 +20,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)invalids;
 - (void);
 - (void)24@?0@"PKPaymentOfferMerchandisingOfferDetails"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *redemptionToken; // @synthesize redemptionToken=_redemptionToken;
 @property(readonly, nonatomic) PKPaymentRemoteCredential *remoteCredential; // @synthesize remoteCredential=_remoteCredential;
 
 @end

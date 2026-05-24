@@ -9,7 +9,7 @@
     id value;
 }
 
-- (id);
+- (id)z;
 - (int);
 - (void);
 

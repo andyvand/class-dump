@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNTUCallProviderManagerDelegate
 {
     CDUnknownBlockType _block;
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (void)edRecentHandlesMatchingAllPropertiesOfContact: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (void)sortedRecentHandlesMatchingAllPropertiesOfContact: /* Error: Ran out of types for this method. */;
 - (void)0Ã;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

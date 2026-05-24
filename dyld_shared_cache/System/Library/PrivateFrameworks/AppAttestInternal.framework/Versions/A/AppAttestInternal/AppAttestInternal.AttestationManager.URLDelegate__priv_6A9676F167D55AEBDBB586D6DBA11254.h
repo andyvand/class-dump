@@ -7,9 +7,6 @@
 @interface AppAttestInternal.AttestationManager.URLDelegate__priv_6A9676F167D55AEBDBB586D6DBA11254
 {
     id host;
-    id auditToken;
-    id logger;
-    id $__lazy_storage_$_securityController;
 }
 
 - (id);

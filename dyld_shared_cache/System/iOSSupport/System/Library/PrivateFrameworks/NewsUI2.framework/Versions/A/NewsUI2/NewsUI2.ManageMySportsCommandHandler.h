@@ -7,9 +7,6 @@
 @interface NewsUI2.ManageMySportsCommandHandler
 {
     id navigator;
-    id tracker;
-    id featureAvailability;
-    id offlineProvider;
 }
 
 @end

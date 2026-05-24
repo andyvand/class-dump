@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (void)backgroundAVAssetDownloadTask:(SEL)arg1 willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void)Dhâ;
 - (void);

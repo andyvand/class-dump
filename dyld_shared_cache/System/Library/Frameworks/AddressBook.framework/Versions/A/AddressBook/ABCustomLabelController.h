@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPanel, NSTextField, NSView;
-@protocol ABCardCollectionRowView;
+@class NSPanel;
 
 @interface ABCustomLabelController
 {
     NSPanel *mEditPanel;
-    NSTextField *mLabelField;
-    NSButton *mOkayButton;
-    NSView<ABCardCollectionRowView> *mDatumView;
 }
 
 + (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)4(;
 - (void);
 - (void);
 - (void)1Â0@ù

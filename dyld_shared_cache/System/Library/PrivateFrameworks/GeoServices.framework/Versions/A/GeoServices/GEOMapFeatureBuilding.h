@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOBuildingFootprintFeature, GEOVectorTile, NSArray;
+@class GEOVectorTile, NSArray;
 
 @interface GEOMapFeatureBuilding
 {
     GEOVectorTile *_tile;
-    GEOBuildingFootprintFeature *_feature;
-    NSArray *_sections;
-    unsigned long long _buildingID;
-    int _tileSetStyle;
-    _Bool _hasTerrainElevation;
-    unsigned long long _materialID;
 }
 
 - (unsigned long long);
@@ -22,17 +16,13 @@
 - (id);
 - (int);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)<;
 - (void);
 - (id)setExitPlanInfo: /* Error: Ran out of types for this method. */;
 - (void)q583;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long buildingID; // @synthesize buildingID=_buildingID;
-@property(readonly, nonatomic) _Bool hasTerrainElevation; // @synthesize hasTerrainElevation=_hasTerrainElevation;
-@property(readonly, nonatomic) unsigned long long materialID; // @synthesize materialID=_materialID;
 @property(readonly, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly, nonatomic) int tileSetStyle; // @synthesize tileSetStyle=_tileSetStyle;
 
 @end
 

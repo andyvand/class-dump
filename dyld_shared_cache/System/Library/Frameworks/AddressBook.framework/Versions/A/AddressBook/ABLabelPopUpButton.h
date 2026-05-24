@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSMenuItem, NSPopUpButtonCell, NSTextFieldCell;
+@class NSColor, NSDictionary;
 
 @interface ABLabelPopUpButton
 {
     NSDictionary *mLabelAttributes;
-    double mFontLineHeight;
-    double mFontBaselineOffset;
-    NSTextFieldCell *mTextFieldCellForDrawing;
-    NSColor *mTextColor;
-    NSMenuItem *mSpacerItem;
-    NSMenuItem *mCustomItem;
-    NSPopUpButtonCell *mPopupButtonImageFactoryCell;
 }
 
 + (double);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)U&;
 - (void);
 - (id);
 - (struct CGRect);
@@ -35,12 +28,10 @@
 - (void);
 - (void)ñ©ð1Â0@ù
 × ;
-- (void)TypesForRecordOfClass:(id)arg1;
+- (void)propertyTypesForRecordOfClass:(id)arg1;
 - (void)ôW;
 
 // Remaining properties
-@property(retain, nonatomic) NSMenuItem *customItem; // @synthesize customItem=mCustomItem;
-@property(retain, nonatomic) NSMenuItem *spacerItem; // @synthesize spacerItem=mSpacerItem;
 @property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=mTextColor;
 
 @end

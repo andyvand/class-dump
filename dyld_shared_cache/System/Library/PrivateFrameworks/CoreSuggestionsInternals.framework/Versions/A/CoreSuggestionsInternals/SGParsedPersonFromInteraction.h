@@ -4,56 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPersonHandle, NSDate, NSPersonNameComponents, NSString, SGSocialProfileDetails;
+@class INPersonHandle, NSString;
 
 @interface SGParsedPersonFromInteraction
 {
     INPersonHandle *_handle;
-    NSString *_bundleId;
-    NSString *_groupId;
-    NSString *_interactionIdentifier;
-    NSDate *_date;
-    NSString *_displayName;
-    NSPersonNameComponents *_nameComponents;
-    NSString *_email;
-    SGSocialProfileDetails *_socialProfile;
-    NSString *_phoneNumber;
-    NSString *_contactIdentifier;
 }
 
++ (id)__DATA_CONST;
 + (id);
-+ (id);
-+ (id);
++ (id)childAccounts;
 - (id);
 - (id);
+- (void)];
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (id)initWithLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)23PptTextGenericRulerAtom;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)ier: /* Error: Ran out of types for this method. */;
+- (id)initWithRecordId:sourceUniqueIdentifier: /* Error: Ran out of types for this method. */;
 - (void)¡0¢P¢l¥¦Ü¦t¨ª­	ô°h±;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *email; // @synthesize email=_email;
-@property(readonly, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) NSString *interactionIdentifier; // @synthesize interactionIdentifier=_interactionIdentifier;
-@property(readonly, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(readonly, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly, nonatomic) SGSocialProfileDetails *socialProfile; // @synthesize socialProfile=_socialProfile;
 
 @end
 

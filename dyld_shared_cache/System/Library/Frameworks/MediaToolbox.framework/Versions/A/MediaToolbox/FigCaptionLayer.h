@@ -6,7 +6,7 @@
 
 #import <MediaToolbox/FigBaseCALayer.h>
 
-@class FigCaptionLayerPrivate, NSString;
+@class FigCaptionLayerPrivate;
 
 @interface FigCaptionLayer : FigBaseCALayer
 {
@@ -21,19 +21,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ictionary setOrderedObject:(struct FigGeometryMargins)arg1 forKey:] /* Error: Ran out of types for this method. */;
+- (void)S@;
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,63 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, TextToSpeech.CoreSynthesizer;
-@protocol OS_dispatch_queue, OS_voucher, TTSSpeechSynthesizerDelegate;
+@class NSObject;
+@protocol OS_voucher;
 
 @interface TTSSpeechSynthesizer
 {
     long long _footprint;
-    id <TTSSpeechSynthesizerDelegate> _delegate;
-    _Bool _useSharedSession;
-    _Bool _audioSessionIDIsValid;
-    unsigned int _audioSessionID;
-    unsigned int _audioDeviceId;
-    unsigned int _audioQueueFlags;
-    NSMutableDictionary *_channels;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_speechRequests;
-    struct {
-        unsigned int delegateStartWithRequest:1;
-        unsigned int delegateFinishWithRequest:1;
-        unsigned int delegateFinishWithPhonemesSpokenWithRequest:1;
-        unsigned int delegatePauseWithRequest:1;
-        unsigned int delegateContinueWithRequest:1;
-        unsigned int delegateWillSpeakWithRequest:1;
-        unsigned int delegateDidEncounterMarkerWithRequest:1;
-        unsigned int willUseInput:1;
-    } _synthesizerFlags;
-    NSArray *_outputChannels;
-    NSMutableDictionary *_testingLastRuleConversion;
-    _Bool _supportsAccurateWordCallbacks;
-    _Bool _skipLuthorRules;
-    _Bool _ignoreSubstitutions;
-    _Bool _synthesizeSilently;
-    float _rate;
-    float _pitch;
-    float _volume;
-    NSString *_speechSource;
-    NSObject<OS_dispatch_queue> *_delegateTargetQueue;
-    NSString *_voiceIdentifier;
-    unsigned long long _requestClientIdentifier;
-    void *_speakingRequestClientContext;
-    NSArray *_userSubstitutions;
-    NSArray *_phonemeSubstitutions;
-    CDUnknownBlockType _audioBufferCallback;
-    NSDictionary *_perVoiceSettings;
-    NSObject<OS_voucher> *_voucher;
-    TextToSpeech.CoreSynthesizer *_coreSynth;
 }
 
++ (id)videoRulesCollectionsByRemovingPayload:(id)arg1 andPayload:(id)arg2 removeCellular:(long long)arg3;
++ (_Bool)rSubscribedStreams=%@;
++ (id)AudioStream [%s] %s:%d stream=%@, outputFreq=%@ /* Error: Ran out of types for this method. */;
++ (id)ession vcSessionParticipant:(id)arg1 mediaMixingDidChangeForMediaType:mixingMediaType:]_block_invoke /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)2@0:(long long)arg1 8@"NSControl"16@"NSText"24;
++ (id)CWMenuItemView;
 + (id);
 + (id);
 - (id);
@@ -68,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)2;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -92,15 +53,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id));
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -123,8 +84,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)B;
+- (_Bool)@;
 - (unsigned int);
 - (id);
 - (id);
@@ -146,8 +107,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)updateCaptionsConfig: /* Error: Ran out of types for this method. */;
+- (void)VCAudioPowerSpectrumSource;
 - (id);
 - (id);
 - (void);
@@ -160,37 +121,12 @@
 - (float);
 - (void);
 - (void);
-- (void);
+- (void)<d;
 - (void);
 - (void);
 - (float)ervice not reachable %@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType audioBufferCallback; // @synthesize audioBufferCallback=_audioBufferCallback;
-@property(nonatomic) unsigned int audioDeviceId;
-@property(retain, nonatomic) NSArray *audioEffects;
-@property(nonatomic) unsigned int audioQueueFlags;
-@property(retain, nonatomic) NSString *bundleIdentifier;
-@property(retain, nonatomic) TextToSpeech.CoreSynthesizer *coreSynth; // @synthesize coreSynth=_coreSynth;
-@property(nonatomic) __weak id <TTSSpeechSynthesizerDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateTargetQueue; // @synthesize delegateTargetQueue=_delegateTargetQueue;
-@property(nonatomic) _Bool ignoreSubstitutions; // @synthesize ignoreSubstitutions=_ignoreSubstitutions;
-@property(nonatomic) float normalizedRate;
-@property(retain, nonatomic) NSArray *outputChannels;
-@property(retain, nonatomic) NSDictionary *perVoiceSettings; // @synthesize perVoiceSettings=_perVoiceSettings;
-@property(copy, nonatomic) NSArray *phonemeSubstitutions; // @synthesize phonemeSubstitutions=_phonemeSubstitutions;
-@property(nonatomic) float pitch; // @synthesize pitch=_pitch;
-@property(nonatomic) float rate; // @synthesize rate=_rate;
-@property(nonatomic) unsigned long long requestClientIdentifier; // @synthesize requestClientIdentifier=_requestClientIdentifier;
-@property(readonly, nonatomic) NSString *resolvedVoiceIdentifier;
-@property(nonatomic) _Bool skipLuthorRules; // @synthesize skipLuthorRules=_skipLuthorRules;
-@property(nonatomic) void *speakingRequestClientContext; // @synthesize speakingRequestClientContext=_speakingRequestClientContext;
-@property(retain, nonatomic) NSString *speechSource; // @synthesize speechSource=_speechSource;
-@property(nonatomic) _Bool supportsAccurateWordCallbacks; // @synthesize supportsAccurateWordCallbacks=_supportsAccurateWordCallbacks;
-@property(nonatomic) _Bool synthesizeSilently; // @synthesize synthesizeSilently=_synthesizeSilently;
-@property(copy, nonatomic) NSArray *userSubstitutions; // @synthesize userSubstitutions=_userSubstitutions;
-@property(retain, nonatomic) NSString *voiceIdentifier; // @synthesize voiceIdentifier=_voiceIdentifier;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 @property(retain, nonatomic) NSObject<OS_voucher> *voucher; // @synthesize voucher=_voucher;
 
 @end

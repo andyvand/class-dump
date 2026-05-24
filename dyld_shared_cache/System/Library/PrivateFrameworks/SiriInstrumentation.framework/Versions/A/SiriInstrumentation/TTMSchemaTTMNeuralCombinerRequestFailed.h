@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface TTMSchemaTTMNeuralCombinerRequestFailed : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_tcuId;
-    int _reason;
-    CDStruct_6555f803 _has;
-    _Bool _hasTcuId;
 }
 
 - (id);
@@ -21,28 +18,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (int);
+- (id)];
+- (int)initWithEventID:type:maneuverType:instruction:variableOverrides:arrowLabel:locationCoordinate:maneuverRoadName:heading:stepIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ffectedStores;
+- (_Bool)e, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE error == 0 AND is_from_me == 0 AND item_type == 0 AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT ?;;
 - (void);
 - (id);
-- (id);
-- (id)ontext;
-- (id)abled;
+- (id)?;
+- (id)deletePreprocessorExecutionContext;
+- (id)_isExternalMicrophoneHSEnabled;
 - (void)extPairsSelected;
-- (void)HLIGHTLEVEL_OFF;
+- (void)ORCHFLASHLIGHTLEVEL_OFF;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasTcuId; // @synthesize hasTcuId=_hasTcuId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 @property(retain, nonatomic) SISchemaUUID *tcuId; // @synthesize tcuId=_tcuId;
 
 @end

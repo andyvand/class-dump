@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface BlastDoorFileTransferAttribute_AttachmentInfo
 {
@@ -17,16 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id)assSharingExternalInvitationRequestMessage_Value;
+- (id)walletPassSharingExternalInvitationRequestMessage_Value;
 - (void)iÉeÂÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSURL *attachmentURL;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *encryptionKey;
-@property(nonatomic, readonly) unsigned long long expectedFileSize;
-@property(nonatomic, readonly) NSString *ownerID;
-@property(nonatomic, readonly) NSString *signature;
 
 @end
 

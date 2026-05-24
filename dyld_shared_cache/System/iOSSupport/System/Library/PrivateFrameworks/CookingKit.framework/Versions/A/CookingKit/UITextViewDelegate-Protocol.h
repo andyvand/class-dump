@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIAction;
+
 @protocol UITextViewDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (UIAction *);
+- (void)!;
 @end
 

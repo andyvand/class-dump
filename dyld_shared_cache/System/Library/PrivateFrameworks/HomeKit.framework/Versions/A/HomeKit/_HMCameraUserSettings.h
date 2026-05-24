@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCameraUserNotificationSettings, NSArray, NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface _HMCameraUserSettings
 {
     _Bool _cameraManuallyDisabled;
-    _Bool _activityZonesIncludedForSignificantEventDetection;
-    NSUUID *_UUID;
-    unsigned long long _supportedFeatures;
-    unsigned long long _accessModeAtHome;
-    unsigned long long _accessModeNotAtHome;
-    unsigned long long _currentAccessMode;
-    unsigned long long _recordingEventTriggers;
-    HMCameraUserNotificationSettings *_notificationSettings;
-    NSSet *_activityZones;
 }
 
 + (id);
@@ -35,54 +26,28 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (unsigned long long)n;
+- (void)_shouldProcessDownloads;
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)coexistent;
+- (id)heliolater;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)context;
 - (unsigned long long)tworkInfo";
-- (id)er;
-- (void)Residents;
+- (id)_audioGroupIdentifier;
+- (void)_autoSelectedPreferredResidents;
 
 // Remaining properties
 @property(copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property unsigned long long accessModeAtHome; // @synthesize accessModeAtHome=_accessModeAtHome;
-@property unsigned long long accessModeNotAtHome; // @synthesize accessModeNotAtHome=_accessModeNotAtHome;
-@property(copy) NSSet *activityZones; // @synthesize activityZones=_activityZones;
-@property(getter=areActivityZonesIncludedForSignificantEventDetection) _Bool activityZonesIncludedForSignificantEventDetection; // @synthesize activityZonesIncludedForSignificantEventDetection=_activityZonesIncludedForSignificantEventDetection;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(getter=isCameraManuallyDisabled) _Bool cameraManuallyDisabled; // @synthesize cameraManuallyDisabled=_cameraManuallyDisabled;
-@property unsigned long long currentAccessMode; // @synthesize currentAccessMode=_currentAccessMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) HMCameraUserNotificationSettings *notificationSettings; // @synthesize notificationSettings=_notificationSettings;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property unsigned long long recordingEventTriggers; // @synthesize recordingEventTriggers=_recordingEventTriggers;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property unsigned long long supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
 
 @end
 

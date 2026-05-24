@@ -6,21 +6,15 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class CKPackageDatabase, CKSQLitePackage, NSDate, NSNumber;
+@class NSNumber;
 
 @interface CKPackageDatabaseReference : CKSQLiteTableEntry
 {
     int _referenceType;
-    CKSQLitePackage *_sqlitePackage;
-    NSNumber *_referenceID;
-    NSNumber *_packageID;
-    NSDate *_packageDBCreationDate;
-    NSDate *_expirationDate;
-    CKPackageDatabase *_packageDB;
 }
 
 + (Class);
-- (id);
+- (id)k;
 - (void);
 - (void);
 - (void);
@@ -33,18 +27,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) CKPackageDatabase *packageDB; // @synthesize packageDB=_packageDB;
-@property(retain, nonatomic) NSDate *packageDBCreationDate; // @synthesize packageDBCreationDate=_packageDBCreationDate;
-@property(retain, nonatomic) NSNumber *packageID; // @synthesize packageID=_packageID;
 @property(retain, nonatomic) NSNumber *referenceID; // @synthesize referenceID=_referenceID;
-@property(nonatomic) int referenceType; // @synthesize referenceType=_referenceType;
-@property(retain, nonatomic) CKSQLitePackage *sqlitePackage; // @synthesize sqlitePackage=_sqlitePackage;
 
 @end
 

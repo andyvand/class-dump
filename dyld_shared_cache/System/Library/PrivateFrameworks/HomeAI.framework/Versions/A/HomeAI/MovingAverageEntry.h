@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface MovingAverageEntry
 {
     NSNumber *_value;
-    NSDate *_date;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSDate *date; // @synthesize date=_date;
 @property(readonly) NSNumber *value; // @synthesize value=_value;
 
 @end

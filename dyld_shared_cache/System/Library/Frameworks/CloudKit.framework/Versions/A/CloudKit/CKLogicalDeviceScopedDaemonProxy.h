@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKLogicalDeviceContext, CKXPCConnection;
-@protocol CKXPCLogicalDeviceScopedDaemon, NSObject;
+@protocol CKXPCLogicalDeviceScopedDaemon;
 
 @interface CKLogicalDeviceScopedDaemonProxy
 {
     _Bool _hasValidLogicalDeviceScopedDaemonProxyCreator;
-    id <CKXPCLogicalDeviceScopedDaemon> _logicalDeviceScopedDaemonProxyCreator;
-    id <NSObject> _connectionInterruptedObserver;
-    CKLogicalDeviceContext *_deviceContext;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)K	?;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)s of %@%@;
 - (id)ndler: /* Error: Ran out of types for this method. */;
 - (void)ø&ð'Ä(è)è*è/;
 
 // Remaining properties
-@property(readonly, nonatomic) CKXPCConnection *connection;
-@property(retain, nonatomic) id <NSObject> connectionInterruptedObserver; // @synthesize connectionInterruptedObserver=_connectionInterruptedObserver;
-@property(readonly, nonatomic) __weak CKLogicalDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
-@property _Bool hasValidLogicalDeviceScopedDaemonProxyCreator; // @synthesize hasValidLogicalDeviceScopedDaemonProxyCreator=_hasValidLogicalDeviceScopedDaemonProxyCreator;
 @property(retain, nonatomic) id <CKXPCLogicalDeviceScopedDaemon> logicalDeviceScopedDaemonProxyCreator; // @synthesize logicalDeviceScopedDaemonProxyCreator=_logicalDeviceScopedDaemonProxyCreator;
 
 @end

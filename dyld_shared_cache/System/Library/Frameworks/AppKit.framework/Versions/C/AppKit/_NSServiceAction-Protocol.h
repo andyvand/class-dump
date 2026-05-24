@@ -7,40 +7,34 @@
 @class NSArray, NSKeyboardShortcut, NSSet, NSString, NSUUID;
 
 @protocol _NSServiceAction
-- (_Bool)lbarLeadingSpace;
+- (void);
+- (NSString *)erties. Falling back to default policy.;
+- (NSSet *)correct type (should be %@, is %@);
+- (NSString *)side;
+- (NSString *)failed to parse cert properties:%d /* Error: Ran out of types for this method. */;
+- (void)ed;
+- (void)ailed with error 0x%016llX;
+- (void)xpected tag %c%c%c%c found tag %c%c%c%c;
+- (NSKeyboardShortcut *)not-green-tea;
+- (_Bool)DeviceSupportsAdvancedMapRendering;
+- (_Bool)CameraLiveEffectsCapability;
+- (_Bool)BootManifestHash;
+- (_Bool)ORegistryUtilities/sysconfig.c;
+- (_Bool)rces/MobileGestalt/libMobileGestalt/IORegistryUtilities/sysconfig.c;
+- (_Bool)leGestalt/libMobileGestalt/MGBasebandSupport.c;
+- (_Bool)raryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MGBasebandSupport.c;
+- (_Bool)Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MGBasebandSupport.c;
+- (NSString *)_kCFNetServiceMonitorBlockingMode;
+- (_Bool)tative information;
+- (NSString *)Bc|;
+- (_Bool)_toolbarLeadingSpace;
 - (NSString *)idFailToOpenInView:%{public}@, %{public}@ /* Error: Ran out of types for this method. */;
 - (NSString *)menu item from dock menu;
-- (NSArray *)rItemIdentifierFlexibleSpace;
-- (NSString *)NewSystemFont;
+- (NSArray *)NSTouchBarItemIdentifierFlexibleSpace;
+- (NSString *)NSSwapInNewSystemFont;
 - (NSUUID *)ÿéÃhüÄÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *availablePresentationModes;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSString *bundlePath;
-@property(readonly, nonatomic) NSString *categoryTitle;
-@property(readonly, nonatomic) NSArray *combinedSendTypes;
-@property(readonly, nonatomic) NSKeyboardShortcut *defaultKeyboardShortcut;
-@property(readonly, copy, nonatomic) NSSet *defaultPresentationModes;
-@property(readonly, nonatomic) _Bool hasBackgroundColor;
-@property(readonly, nonatomic) _Bool hasCustomIcon;
-@property(nonatomic) _Bool isAvailableInContextMenu;
-@property(nonatomic) _Bool isAvailableInServicesMenu;
-@property(readonly, nonatomic) _Bool isRestricted;
-@property(readonly, nonatomic) _Bool isShortcut;
-@property(readonly, nonatomic) _Bool isSpellChecker;
-@property(readonly, nonatomic) _Bool isWorkflow;
-@property(copy, nonatomic) NSString *keyEquivalent;
-@property(copy, nonatomic) NSKeyboardShortcut *keyboardShortcut;
-@property(readonly, nonatomic) NSString *localizedCategoryTitle;
-@property(readonly, nonatomic) NSString *localizedServiceDescription;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(copy, nonatomic) NSSet *presentationModes;
 @property(readonly, nonatomic) NSString *qualifiedServiceMessage;
-@property(readonly, nonatomic) NSArray *returnTypes;
-@property(readonly, nonatomic) NSArray *sendFileTypes;
-@property(readonly, nonatomic) NSUUID *serviceUUID;
-@property(readonly, nonatomic) NSString *shortcutIdentifier;
-@property(readonly, nonatomic) NSString *title;
 @end
 

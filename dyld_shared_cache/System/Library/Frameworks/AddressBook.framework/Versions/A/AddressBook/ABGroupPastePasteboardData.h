@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface ABGroupPastePasteboardData
 {
     NSDictionary *_groupsDictionary;
-    NSDictionary *_peopleDictionary;
 }
 
 - (id);
@@ -21,9 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSArray *groupUids;
 @property(readonly, copy) NSDictionary *groupsDictionary; // @synthesize groupsDictionary=_groupsDictionary;
-@property(readonly, copy) NSDictionary *peopleDictionary; // @synthesize peopleDictionary=_peopleDictionary;
 
 @end
 

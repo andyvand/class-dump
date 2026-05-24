@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)ta: /* Error: Ran out of types for this method. */;
++ (long long)setPhonemeData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ame;
 

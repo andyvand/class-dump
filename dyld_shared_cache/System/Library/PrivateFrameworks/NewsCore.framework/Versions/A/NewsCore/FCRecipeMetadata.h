@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface FCRecipeMetadata
 {
     NSString *_identifier;
-    FCHeadlineThumbnailMetadata *_formatThumbnail;
-    NSDictionary *_dictionary;
 }
 
 - (id);
@@ -22,55 +20,27 @@
 - (long long);
 - (void);
 - (id);
-- (long long);
+- (long long)_setContentTransform: /* Error: Ran out of types for this method. */;
+- (id)outputImage;
+- (id)ts;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)intent;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)pOntologyLevelConfig;
-- (id)sArchiveBaseURLForConfiguration: /* Error: Ran out of types for this method. */;
+- (id)shadowTagForYouGroupOntologyLevelConfig;
+- (id)puzzlesArchiveBaseURLForConfiguration: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)¸¹;
 - (long long)ispatch_group_t  _Nonnull __strong);
-- (void)Rank;
+- (void)defaultRank;
 - (id)±È;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) FCHeadlineThumbnailMetadata *formatThumbnail; // @synthesize formatThumbnail=_formatThumbnail;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isPaid;
-@property(readonly, nonatomic) _Bool isSponsored;
-@property(readonly, nonatomic) NSDate *publishDate;
-@property(readonly, nonatomic) NSString *shortExcerpt;
-@property(readonly, nonatomic) NSString *sourceChannelTagID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *thumbnailAccentColor;
-@property(readonly, nonatomic) NSString *thumbnailBackgroundColor;
-@property(readonly, nonatomic) NSString *thumbnailExtraLarge;
-@property(readonly, nonatomic) long long thumbnailExtraLargeMetadata;
-@property(readonly, nonatomic) long long thumbnailFocalFrame;
-@property(readonly, nonatomic) NSString *thumbnailLarge;
-@property(readonly, nonatomic) long long thumbnailLargeMetadata;
-@property(readonly, nonatomic) NSString *thumbnailMedium;
-@property(readonly, nonatomic) long long thumbnailMediumMetadata;
-@property(readonly, nonatomic) NSString *thumbnailPrimaryColor;
-@property(readonly, nonatomic) NSString *thumbnailSmall;
-@property(readonly, nonatomic) long long thumbnailSmallMetadata;
-@property(readonly, nonatomic) NSString *thumbnailTextColor;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

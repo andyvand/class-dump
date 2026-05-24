@@ -6,17 +6,11 @@
 
 #import <MediaRemote/MRAVEndpoint.h>
 
-@class MRAVOutputDevice, MRExternalDevice, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSArray, NSString;
 
 @interface MRConcreteEndpoint : MRAVEndpoint
 {
     NSString *_uniqueIdentifier;
-    NSArray *_outputDevices;
-    MRExternalDevice *_externalDevice;
-    MRAVOutputDevice *_designatedGroupLeader;
-    long long _connectionType;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 - (id);
@@ -30,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ponse: /* Error: Ran out of types for this method. */;
+- (void)sendMessage:type:destination:session:options:priority:response: /* Error: Ran out of types for this method. */;
 - (void)ôP;
 
 // Remaining properties

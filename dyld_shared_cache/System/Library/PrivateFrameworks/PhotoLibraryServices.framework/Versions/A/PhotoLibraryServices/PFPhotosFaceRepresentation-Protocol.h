@@ -5,5 +5,9 @@
 //
 
 @protocol PFPhotosFaceRepresentation
+- (id)k!;
+- (id)J;
+- (id);
+- (id);
 @end
 

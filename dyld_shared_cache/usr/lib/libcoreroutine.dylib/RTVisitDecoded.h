@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
-
 @interface RTVisitDecoded
 {
     double _logProbability;
-    NSDate *_entryDate;
-    NSDate *_exitDate;
 }
 
-- (void);
+- (void)R;
 - (void);
 - (_Bool);
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)D:dsid is nil /* Error: Ran out of types for this method. */;
+- (id)dinator stopScanning];
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_groupContextDataSource;
 - (id);
 - (void)pdated learned location of interest was nil, location, %{sensitive}@, visit, %{sensitive}@, transition, %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;
-@property(retain, nonatomic) NSDate *exitDate; // @synthesize exitDate=_exitDate;
 @property(nonatomic) double logProbability; // @synthesize logProbability=_logProbability;
-@property(readonly, nonatomic) NSNumber *outputType;
 
 @end
 

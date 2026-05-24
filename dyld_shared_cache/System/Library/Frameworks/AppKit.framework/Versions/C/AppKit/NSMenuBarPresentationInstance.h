@@ -8,34 +8,14 @@ __attribute__((visibility("hidden")))
 @interface NSMenuBarPresentationInstance
 {
     struct __CFRunLoopTimer *_autoShowHideTimer;
-    unsigned long long _currentSpaceID;
-    int _displaySeed;
-    struct CGRect _bounds;
-    double _autoHideHeight;
-    double _activeMenuBarHeight;
-    double _cachedActiveMenuBarHeight;
-    unsigned int _fullScreenUIMode;
-    unsigned int _fullScreenUIOptions;
-    unsigned int _aggregateUIMode;
-    unsigned int _aggregateUIOptions;
-    _Bool _isOnFullScreenSpace;
-    _Bool _isAlwaysVisibleInFullScreen;
-    _Bool _isVisInitializedFromMode;
-    _Bool _isVisible;
-    _Bool _areBoundsDirty;
-    _Bool _hasBeenHiddenAtLeastOnce;
-    _Bool _isWindowVisible;
-    _Bool _isVisibleForAutoShow;
-    _Bool _isCurrentlyBeingShownOrHidden;
-    _Bool _isAutoShowHideTimerShowing;
 }
 
 + (void);
 + (_Bool);
-+ (id);
++ (id)or;
 + (void);
-+ (id);
-+ (id);
++ (id)_CFURLCache;
++ (id)askWork %p <%s>>;
 + (_Bool);
 + (id);
 + (void);
@@ -49,29 +29,29 @@ __attribute__((visibility("hidden")))
 + (int);
 + (void);
 + (void);
-+ (int);
++ (int)@;
 + (void);
 + (void);
 + (void);
 + (_Bool);
-+ (void);
++ (void)@;
 + (int);
 + (int);
 + (double);
-+ (id);
++ (id);
++ (_Bool);
++ (_Bool)?;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)@;
 + (_Bool);
 + (_Bool);
 + (void);
 + (void);
 + (void);
 + (int);
-+ (int);
++ (int);
 + (id);
 + (void);
 + (void);
@@ -83,7 +63,7 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (id);
 + (id);
-+ (void);
++ (void)@;
 + (void);
 + (_Bool);
 + (int);
@@ -94,54 +74,79 @@ __attribute__((visibility("hidden")))
 + (void);
 - (void);
 - (void);
+- (void)d;
+- (void)handling proxy auth challenge for %@ host %@ port %d;
+- (void)esponse recorded(%d, %zu);
+- (void)DownloadCreateWithResumeInformation():(id)arg1 Asked to create from NULL resumeInformation!;
+- (void)_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void)valid;
+- (void)etwork I/O Path Preference(%{public}@) Invalid;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
+- (void)6;
 - (void);
 - (int);
-- (int);
+- (void);
+- (void)t;
+- (int)initializedWithAVAsset;
+- (int)storagePartitionIdentifier;
+- (void)discretionary;
+- (void)Error=}8{shared_ptr<__CFDictionary>=^{__CFDictionary}^{__shared_weak_count}}16;
+- (void)cated;
+- (void)_CFString=}12;
+- (double)AssertType;
+- (_Bool);
+- (_Bool)	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
+- (_Bool)
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
+- (double);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (void);
 - (_Bool);
-- (double);
+- (double)@;
+- (id);
+- (void)@;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 
 @end
 

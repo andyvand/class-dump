@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id)imageSizeScalingSize:proportionallyToFitSize: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

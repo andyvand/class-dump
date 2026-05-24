@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, IOBluetoothSDPUUID, NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IOBluetoothSDPServiceRecord
 {
     NSDictionary *mAttributeDictionary;
-    IOBluetoothDevice *mDeviceForService;
-    NSArray *sortedAttributes;
 }
 
 + (id);
@@ -27,16 +25,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned short);
+- (unsigned short)R;
 - (int);
-- (id);
+- (id);
 - (struct OpaqueIOBluetoothObjectRef *);
 - (int);
 - (int);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)6T;
 - (id);
 - (id);
 - (id);
@@ -51,9 +49,6 @@
 
 // Remaining properties
 @property(copy) NSDictionary *attributes; // @synthesize attributes=mAttributeDictionary;
-@property(retain) IOBluetoothDevice *device; // @synthesize device=mDeviceForService;
-@property(readonly) IOBluetoothSDPUUID *serviceUUID;
-@property(copy, nonatomic) NSArray *sortedAttributes; // @synthesize sortedAttributes;
 
 @end
 

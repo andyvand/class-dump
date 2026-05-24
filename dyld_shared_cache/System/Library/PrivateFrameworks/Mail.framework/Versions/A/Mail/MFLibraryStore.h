@@ -6,22 +6,11 @@
 
 #import <Mail/MFMessageStore.h>
 
-@class MFLibraryStoreMessageConsumer, MFMessageCriterion, NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSString;
 
 @interface MFLibraryStore : MFMessageStore
 {
     id _openOptionsLock;
-    unsigned int _openOptions;
-    NSMutableSet *_memberMessageIDs;
-    id _allMessagesDuringOpeningLock;
-    NSMutableArray *_allMessagesDuringOpening;
-    id _consumerLock;
-    MFLibraryStoreMessageConsumer *_consumer;
-    NSMutableDictionary *_libraryFetchLockMap;
-    NSString *_url;
-    long long _mailboxID;
-    MFMessageCriterion *_criterion;
-    NSString *_searchPhrase;
 }
 
 + (id);
@@ -33,29 +22,29 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)|u+%04x]);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)d photos face crop data;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sedUIElementNotification;
 - (long long);
 - (id);
 - (id);
@@ -63,7 +52,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -76,9 +65,9 @@
 × ;
 - (id)ÔAbÐ!Gùð1Â0@ù
 × ;
-- (void)ousActionID:(id *)arg1;
-- (void)ads;
-- (_Bool)elete: /* Error: Ran out of types for this method. */;
+- (void)messageActionsForAccountURL:(id *)arg1 previousActionID:(id *)arg2;
+- (void)_startMigratorServiceForMailDownloads;
+- (_Bool)_clearAllPathBasedCachesAndDelete: /* Error: Ran out of types for this method. */;
 - (_Bool),V_mailboxID;
 - (id)nge;
 - (void)T@"EDConversationPersistence",R,N,V_conversationPersistence;
@@ -124,10 +113,10 @@
 - (void);
 - (_Bool)È*ýÿì*ýÿ+ýÿ(+ýÿL+ýÿp+ýÿ¤+ýÿ¼+ýÿÔ+ýÿì+ýÿx+ýÿ;
 - (id);
-- (id)ositionAndLanguage;
+- (id)dispositionAndLanguage;
 - (void)topic;
-- (_Bool)ages;
-- (void)dexedForSearch;
+- (_Bool)messages;
+- (void)messagesIndexedForSearch;
 - (void)ÿ\;
 - (void)Q;
 - (void)Q;
@@ -139,26 +128,15 @@
 - (void);
 - (id)blic}s] [{%.*hx}-%{sensitive,mask.mailbox}s] Found %ld UIDs locally, %ld on server.;
 - (_Bool)s missing all body data (in latest %ld). Excluding UIDs %{public}s;
-- (void)oxes;
+- (void)DisableAccountSpecialMailboxes;
 - (void)ilbox_id_index ON labels(mailbox_id);;
-- (id)EndTime;
+- (id)MFOutOfOfficeSettingsEndTime;
 - (void);
 - (id)ÿ;
 - (void)ÄÜ;
 - (void);
 
 // Remaining properties
-@property(retain) MFMessageCriterion *criterion; // @synthesize criterion=_criterion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
-@property(readonly, copy) NSArray *notificationMessagesFromOpen;
-@property(copy, nonatomic) NSString *searchPhrase; // @synthesize searchPhrase=_searchPhrase;
-@property(readonly) Class superclass;
 @property(copy) NSString *url; // @synthesize url=_url;
 
 @end

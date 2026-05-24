@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRProtocolClientConnection, MRProtocolMessageOptions, NSData, NSError, NSString, PBCodable;
+@class NSData, PBCodable;
 
 @interface MRProtocolMessage
 {
     NSData *_protobufData;
-    _Bool _replied;
-    _Bool _isIncomingReply;
-    _Bool _isOutgoingReply;
-    PBCodable *_underlyingCodableMessage;
-    NSError *_error;
-    NSString *_replyIdentifier;
-    NSString *_uniqueIdentifier;
-    unsigned long long _timestamp;
-    MRProtocolMessageOptions *_transportOptions;
-    MRProtocolClientConnection *_clientConnection;
 }
 
 + (id);
@@ -29,47 +19,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)setTransactionNotificationsEnabled: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long):m /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (unsigned long long)HomePod;
 - (void);
 - (id);
-- (_Bool)oneCount: /* Error: Ran out of types for this method. */;
-- (id)kRate;
+- (void);
+- (void);
+- (id);
+- (_Bool)setHeadphoneCount: /* Error: Ran out of types for this method. */;
+- (id)playbackRate;
 - (id)ordingStateMessage;
 - (void)@"_MRRegisterForGameControllerEventsMessageProtobuf",&,N,V_registerForGameControllerEvents;
-- (void)ivatedClusterMembersAtIndex:(id)arg1;
+- (void)activatedClusterMembersAtIndex:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) __weak MRProtocolClientConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(readonly, nonatomic) NSString *description;
-@property(readonly, nonatomic) unsigned long long encryptionType;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool isIncomingReply; // @synthesize isIncomingReply=_isIncomingReply;
-@property(nonatomic) _Bool isOutgoingReply; // @synthesize isOutgoingReply=_isOutgoingReply;
-@property(readonly, nonatomic) NSData *protobufData;
-@property(copy, nonatomic) NSString *replyIdentifier; // @synthesize replyIdentifier=_replyIdentifier;
-@property(readonly, nonatomic) _Bool shouldLog;
-@property(readonly, nonatomic) _Bool shouldVerboselyLog;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) MRProtocolMessageOptions *transportOptions; // @synthesize transportOptions=_transportOptions;
-@property(readonly, nonatomic) unsigned long long type;
 @property(retain, nonatomic) PBCodable *underlyingCodableMessage; // @synthesize underlyingCodableMessage=_underlyingCodableMessage;
-@property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

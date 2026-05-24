@@ -9,28 +9,22 @@
 @interface GEOLogMsgStateDirectionsDetail
 {
     PBUnknownFields *_unknownFields;
-    int _transportType;
-    _Bool _isEv;
-    struct {
-        unsigned int has_transportType:1;
-        unsigned int has_isEv:1;
-    } _flags;
 }
 
-+ (_Bool)ems:(id)arg1;
++ (_Bool)setHasSupportChildItems:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_CNFailedFutureImpl;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)__LINKEDIT;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,8 +32,8 @@
 × ;
 - (int)as_linkType"b1"has_type"b1"has_isGroup"b1"read_unknownFields"b1"read_classification"b1"read_metadata"b1"read_vendor"b1"wrote_anyField"b1};
 - (void)onAccessPoints"b1"read_destinationPoints"b1"read_originAccessPoints"b1"read_originPoint"b1"wrote_anyField"b1};
-- (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)storefrontFaceGeometrys;
+- (id)setAutocompleteOriginationInfo: /* Error: Ran out of types for this method. */;
 - (id)red. Clearing errors;
 - (id);
 - (void)}êX¥ôQ@;
@@ -47,11 +41,7 @@
 - (int)ø¡þIä7VW5;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEv;
 @property(nonatomic) _Bool hasTransportType;
-@property(nonatomic) _Bool isEv;
-@property(nonatomic) int transportType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDServiceClient, NSObject, NSString, NSUUID;
-@protocol OS_os_log;
+@class HIDServiceClient;
 
 __attribute__((visibility("hidden")))
 @interface CBLuminanceNotification
 {
     HIDServiceClient *_service;
-    NSUUID *_usbID;
-    NSObject<OS_os_log> *_logHandle;
-    _Bool _receivedAny;
-    double _maxBrightness;
 }
 
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (_Bool);
 - (void);
@@ -26,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

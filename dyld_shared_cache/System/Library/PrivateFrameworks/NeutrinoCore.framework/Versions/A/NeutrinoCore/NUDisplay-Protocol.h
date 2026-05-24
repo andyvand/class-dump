@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPixelFormat;
+@class NUPixelFormat;
 
 @protocol NUDisplay
-- (NUPixelFormat *)e:error: /* Error: Ran out of types for this method. */;
+- (NUPixelFormat *)newDefaultLibraryWithBundle:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NUColorSpace *colorSpace;
 @property(readonly, nonatomic) id identifier;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly) NUPixelFormat *pixelFormat;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @end
 

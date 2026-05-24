@@ -13,7 +13,7 @@
     NSString *_string;
 }
 
-+ (_Bool);
++ (_Bool)K@9-;
 - (id);
 - (id);
 - (void);

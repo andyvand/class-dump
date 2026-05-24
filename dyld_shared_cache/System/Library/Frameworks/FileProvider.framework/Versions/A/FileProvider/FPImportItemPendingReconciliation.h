@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderDiagnosticAttributesDescriptor, NSString;
+@class NSString;
 
 @interface FPImportItemPendingReconciliation
 {
     _Bool _itemPendingReconciliationIsLocked;
-    _Bool _itemPendingReconciliationIsLockedInDB;
-    NSString *_itemIdentifier;
-    NSFileProviderDiagnosticAttributesDescriptor *_diagnosticAttributes;
-    long long _itemPendingReconciliationJobCode;
-    long long _itemPendingReconciliationJobSchedulingState;
-    long long _itemPendingReconciliationJobBlockingCode;
 }
 
 + (_Bool);
@@ -22,15 +16,15 @@
 - (void);
 - (void);
 - (void);
+- (void)M;
 - (void);
-- (void);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -40,13 +34,7 @@
 - (id)received contentType with an invalid type;
 
 // Remaining properties
-@property(copy, nonatomic) NSFileProviderDiagnosticAttributesDescriptor *diagnosticAttributes; // @synthesize diagnosticAttributes=_diagnosticAttributes;
 @property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(nonatomic) _Bool itemPendingReconciliationIsLocked; // @synthesize itemPendingReconciliationIsLocked=_itemPendingReconciliationIsLocked;
-@property(nonatomic) _Bool itemPendingReconciliationIsLockedInDB; // @synthesize itemPendingReconciliationIsLockedInDB=_itemPendingReconciliationIsLockedInDB;
-@property(nonatomic) long long itemPendingReconciliationJobBlockingCode; // @synthesize itemPendingReconciliationJobBlockingCode=_itemPendingReconciliationJobBlockingCode;
-@property(nonatomic) long long itemPendingReconciliationJobCode; // @synthesize itemPendingReconciliationJobCode=_itemPendingReconciliationJobCode;
-@property(nonatomic) long long itemPendingReconciliationJobSchedulingState; // @synthesize itemPendingReconciliationJobSchedulingState=_itemPendingReconciliationJobSchedulingState;
 
 @end
 

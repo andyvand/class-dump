@@ -6,33 +6,24 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContact, NSString, UIViewController;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNContactCreateNewContactAction : CNContactAction
 {
     CNContact *_createdContact;
-    UIViewController *_presentingViewController;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)	k!;
 - (id);
 - (void);
 - (void)ngFamilyName;
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *createdContact; // @synthesize createdContact=_createdContact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(readonly) Class superclass;
 
 @end
 

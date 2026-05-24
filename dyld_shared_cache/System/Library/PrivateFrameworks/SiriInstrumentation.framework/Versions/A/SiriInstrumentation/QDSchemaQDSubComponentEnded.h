@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface QDSchemaQDSubComponentEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)may only be resolved once!;
 - (_Bool);
-- (_Bool);
+- (_Bool)sage_date < ? ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (id);
 - (id);
-- (id)reWhenRejected;
+- (id)_userAsrScoreWhenRejected;
 - (id)ed;
-- (_Bool)NKNOWN;
+- (_Bool)RESPONSECATEGORY_UNKNOWN;
 - (_Bool)ot.rollouts;
 - (void)#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

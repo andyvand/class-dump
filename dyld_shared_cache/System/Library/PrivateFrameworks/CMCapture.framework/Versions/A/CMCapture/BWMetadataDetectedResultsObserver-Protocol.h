@@ -7,7 +7,7 @@
 @class FigCaptureLogSmartCameraGating;
 
 @protocol BWMetadataDetectedResultsObserver
-- (FigCaptureLogSmartCameraGating *)lbackShiftRamp;
+- (FigCaptureLogSmartCameraGating *)SuperWideFallbackShiftRamp;
 - (void)cate name! Forbidden;
 
 // Remaining properties

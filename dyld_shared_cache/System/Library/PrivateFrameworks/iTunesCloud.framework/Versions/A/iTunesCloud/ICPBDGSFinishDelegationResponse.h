@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)y3;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
 

@@ -11,16 +11,12 @@
 @interface CSLocationTag : CSNumericAnalysisTag
 {
     NSNumber *_location;
-    NSNumber *_parent;
-    NSNumber *_country;
-    double _lat;
-    double _lng;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
@@ -28,11 +24,7 @@
 - (double)Ô ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *country; // @synthesize country=_country;
-@property(readonly, nonatomic) double lat; // @synthesize lat=_lat;
-@property(readonly, nonatomic) double lng; // @synthesize lng=_lng;
 @property(readonly, nonatomic) NSNumber *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSNumber *parent; // @synthesize parent=_parent;
 
 @end
 

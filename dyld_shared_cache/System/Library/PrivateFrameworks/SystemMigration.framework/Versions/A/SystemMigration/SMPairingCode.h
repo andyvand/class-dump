@@ -14,8 +14,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ey %@ in operation %@;
+- (id)ateFrameworks/FMNetworking.framework/Versions/A/FMNetworking;
 - (void)Ñ	Ð1Â0@ù
 × ;
 

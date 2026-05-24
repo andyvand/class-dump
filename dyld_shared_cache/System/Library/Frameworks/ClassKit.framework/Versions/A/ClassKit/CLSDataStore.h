@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSActivity, CLSAuthTree, CLSContext, CLSCurrentUser, CLSEndpointConnection, CLSGraph, NSDate, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol CLSDataStoreDelegate;
+@class CLSContext, NSMutableSet;
 
 @interface CLSDataStore
 {
     NSMutableSet *_dataObservers;
-    NSMutableDictionary *_deletedObjectsByID;
-    NSMutableDictionary *_objectGenerationsByID;
-    CLSCurrentUser *_cachedCurrentUser;
-    struct os_unfair_recursive_lock_s _lock;
-    NSMutableArray *_pendingSaves;
-    _Bool _saveInProgress;
-    CLSAuthTree *_authTree;
-    CLSAuthTree *_handoutAssignedItemsAuthTree;
-    NSMutableArray *_runningActivities;
-    NSDate *_lastPruneDate;
-    NSString *_appBundleIdentifier;
-    NSString *_appName;
-    CLSContext *_mainAppContext;
-    id <CLSDataStoreDelegate> _delegate;
-    CLSEndpointConnection *_endpointConnection;
-    CLSGraph *_graph;
 }
 
 + (id);
@@ -33,7 +16,7 @@
 + (_Bool);
 + (id);
 + (Class);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -42,22 +25,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CLSContext *activeContext;
-@property(readonly, nonatomic) CLSAuthTree *authTree;
-@property(retain, nonatomic) CLSCurrentUser *cachedCurrentUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CLSDataStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CLSEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
-@property(readonly, nonatomic) CLSGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) CLSAuthTree *handoutAssignedItemsAuthTree;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CLSContext *mainAppContext; // @synthesize mainAppContext=_mainAppContext;
-@property(readonly, nonatomic) CLSActivity *runningActivity;
-@property(readonly) Class superclass;
 
 @end
 

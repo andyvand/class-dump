@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)12A7A9834AFB22C1AC3415FBFXPCConnector",N,R,VxpcConnector;
 
 @end
 

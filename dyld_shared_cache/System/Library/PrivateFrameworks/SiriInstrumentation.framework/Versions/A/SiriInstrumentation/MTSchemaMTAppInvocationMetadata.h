@@ -6,30 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTLocalePair, NSData, SISchemaUUID;
-
 @interface MTSchemaMTAppInvocationMetadata : SISchemaInstrumentationMessage
 {
     int _displayMode;
-    MTSchemaMTLocalePair *_localePair;
-    _Bool _isGenderAlternativeEnabled;
-    int _tabName;
-    SISchemaUUID *_tabSessionId;
-    SISchemaUUID *_autoTranslateSessionId;
-    _Bool _isPlayTranslationsEnabled;
-    int _conversationTabView;
-    int _audioChannel;
-    struct {
-        unsigned int displayMode:1;
-        unsigned int isGenderAlternativeEnabled:1;
-        unsigned int tabName:1;
-        unsigned int isPlayTranslationsEnabled:1;
-        unsigned int conversationTabView:1;
-        unsigned int audioChannel:1;
-    } _has;
-    _Bool _hasLocalePair;
-    _Bool _hasTabSessionId;
-    _Bool _hasAutoTranslateSessionId;
 }
 
 - (id);
@@ -53,22 +32,22 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
+- (int);
 - (id);
 - (int);
 - (int);
@@ -76,9 +55,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)D;
 - (id);
-- (id);
-- (void);
+- (void)RC2_GET_ASN1_TYPE_AND_IV;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -87,29 +66,11 @@
 × ;
 - (id)alGenerated;
 - (id)ssages;
-- (void)aODDHeySiriHangupEnablementState;
+- (void)ODDSiriSchemaODDHeySiriHangupEnablementState;
 - (int),mÐÿÛÀ°qJ#;
 
 // Remaining properties
-@property(nonatomic) int audioChannel; // @synthesize audioChannel=_audioChannel;
-@property(retain, nonatomic) SISchemaUUID *autoTranslateSessionId; // @synthesize autoTranslateSessionId=_autoTranslateSessionId;
-@property(nonatomic) int conversationTabView; // @synthesize conversationTabView=_conversationTabView;
 @property(nonatomic) int displayMode; // @synthesize displayMode=_displayMode;
-@property(nonatomic) _Bool hasAudioChannel;
-@property(nonatomic) _Bool hasAutoTranslateSessionId; // @synthesize hasAutoTranslateSessionId=_hasAutoTranslateSessionId;
-@property(nonatomic) _Bool hasConversationTabView;
-@property(nonatomic) _Bool hasDisplayMode;
-@property(nonatomic) _Bool hasIsGenderAlternativeEnabled;
-@property(nonatomic) _Bool hasIsPlayTranslationsEnabled;
-@property(nonatomic) _Bool hasLocalePair; // @synthesize hasLocalePair=_hasLocalePair;
-@property(nonatomic) _Bool hasTabName;
-@property(nonatomic) _Bool hasTabSessionId; // @synthesize hasTabSessionId=_hasTabSessionId;
-@property(nonatomic) _Bool isGenderAlternativeEnabled; // @synthesize isGenderAlternativeEnabled=_isGenderAlternativeEnabled;
-@property(nonatomic) _Bool isPlayTranslationsEnabled; // @synthesize isPlayTranslationsEnabled=_isPlayTranslationsEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MTSchemaMTLocalePair *localePair; // @synthesize localePair=_localePair;
-@property(nonatomic) int tabName; // @synthesize tabName=_tabName;
-@property(retain, nonatomic) SISchemaUUID *tabSessionId; // @synthesize tabSessionId=_tabSessionId;
 
 @end
 

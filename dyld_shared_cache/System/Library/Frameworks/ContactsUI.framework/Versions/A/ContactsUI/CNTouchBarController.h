@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString, NSTouchBar;
+@class CNContact;
 @protocol CNTouchBarControllerDelegate;
 
 @interface CNTouchBarController
 {
     CNContact *_contact;
-    id <CNTouchBarControllerDelegate> _delegate;
-    NSTouchBar *_touchBar;
 }
 
 - (id);
@@ -19,23 +17,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)NSt3__120__shared_ptr_pointerIP13PersonalitiesNS_10shared_ptrIKS1_E27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
 - (id);
 - (id);
 - (void);
 - (id)t;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CNTouchBarControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

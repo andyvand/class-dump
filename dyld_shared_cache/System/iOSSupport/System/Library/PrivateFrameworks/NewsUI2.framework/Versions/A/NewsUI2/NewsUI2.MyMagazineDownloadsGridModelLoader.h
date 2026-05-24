@@ -7,14 +7,6 @@
 @interface NewsUI2.MyMagazineDownloadsGridModelLoader
 {
     id delegate;
-    id identifier;
-    id store;
-    id issueService;
-    id issueModelFactory;
-    id tagService;
-    id offlineIssueManager;
-    id _sort;
-    id $__lazy_storage_$_lazyInitializingPromise;
 }
 
 @end

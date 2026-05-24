@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol HMDActiveSiriSessionInfoDelegate, HMDDataStreamBulkSendSession;
+@protocol HMDActiveSiriSessionInfoDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDActiveSiriSessionInfo
 {
     _Bool _didBulkSendSessionFail;
-    _Bool _didBulkSendSessionComplete;
-    _Bool _didSiriSessionStart;
-    _Bool _didSiriSessionStop;
-    NSString *_identifier;
-    id <HMDActiveSiriSessionInfoDelegate> _delegate;
-    id <HMDDataStreamBulkSendSession> _bulkSendSession;
 }
 
 + (id)wÿ;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -36,34 +29,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (void);
+- (void)ibswiftCore.dylib;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)unknown device auth version:%lu /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
-- (id)ansportUseDelegateAck;
-- (void)tionName;
+- (id)HMDIDSMessageTransportUseDelegateAck;
+- (void)NNSNotificationName;
 
 // Remaining properties
-@property(retain, nonatomic) id <HMDDataStreamBulkSendSession> bulkSendSession; // @synthesize bulkSendSession=_bulkSendSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <HMDActiveSiriSessionInfoDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didBulkSendSessionComplete; // @synthesize didBulkSendSessionComplete=_didBulkSendSessionComplete;
-@property(nonatomic) _Bool didBulkSendSessionFail; // @synthesize didBulkSendSessionFail=_didBulkSendSessionFail;
-@property(nonatomic) _Bool didSiriSessionStart; // @synthesize didSiriSessionStart=_didSiriSessionStart;
-@property(nonatomic) _Bool didSiriSessionStop; // @synthesize didSiriSessionStop=_didSiriSessionStop;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

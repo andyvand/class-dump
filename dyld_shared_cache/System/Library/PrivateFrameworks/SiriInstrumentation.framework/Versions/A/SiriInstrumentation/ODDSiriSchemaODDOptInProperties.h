@@ -6,25 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ODDSiriSchemaODDOptInProperties : SISchemaInstrumentationMessage
 {
     _Bool _isMteUploadEnabled;
-    int _dataSharingOptInStatus;
-    NSArray *_gradingOptInStateChanges;
-    _Bool _isServerUserDataSyncEnabled;
-    struct {
-        unsigned int isMteUploadEnabled:1;
-        unsigned int dataSharingOptInStatus:1;
-        unsigned int isServerUserDataSyncEnabled:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ki;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -45,7 +35,7 @@
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)4;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -57,14 +47,7 @@
 - (void)orderedMessages.siriEventTypeUnion.nlxClientEvent.nlxLegacyNLContextTier1.renderedTexts;
 
 // Remaining properties
-@property(nonatomic) int dataSharingOptInStatus; // @synthesize dataSharingOptInStatus=_dataSharingOptInStatus;
-@property(copy, nonatomic) NSArray *gradingOptInStateChanges; // @synthesize gradingOptInStateChanges=_gradingOptInStateChanges;
-@property(nonatomic) _Bool hasDataSharingOptInStatus;
-@property(nonatomic) _Bool hasIsMteUploadEnabled;
-@property(nonatomic) _Bool hasIsServerUserDataSyncEnabled;
 @property(nonatomic) _Bool isMteUploadEnabled; // @synthesize isMteUploadEnabled=_isMteUploadEnabled;
-@property(nonatomic) _Bool isServerUserDataSyncEnabled; // @synthesize isServerUserDataSyncEnabled=_isServerUserDataSyncEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

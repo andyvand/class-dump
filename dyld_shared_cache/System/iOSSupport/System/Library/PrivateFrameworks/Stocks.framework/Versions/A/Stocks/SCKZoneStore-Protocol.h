@@ -7,13 +7,14 @@
 @class CKServerChangeToken, NSArray, NSDate;
 
 @protocol SCKZoneStore
-- (CKServerChangeToken *)iew;
+- (NSArray *);
+- (void)z({;
+- (NSArray *)P;
+- (NSDate *)face>";
+- (NSDate *)character32AtIndex:returningNumberOfComposedChars: /* Error: Ran out of types for this method. */;
+- (CKServerChangeToken *)shouldStackView;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *lastDirtyDate;
 @property(copy, nonatomic) NSDate *lastSyncDate;
-@property(copy, nonatomic) NSArray *pendingCommands;
-@property(copy, nonatomic) CKServerChangeToken *serverChangeToken;
-@property(copy, nonatomic) NSArray *serverRecords;
 @end
 

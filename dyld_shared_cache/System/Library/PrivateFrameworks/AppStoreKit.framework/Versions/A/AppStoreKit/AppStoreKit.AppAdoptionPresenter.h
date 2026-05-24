@@ -9,10 +9,6 @@
 @interface AppStoreKit.AppAdoptionPresenter : AppStoreKit.BaseShelfPresenter
 {
     id appAdoptionAgency;
-    id eligibleApps;
-    id shelves;
-    id isUpdatingStorage;
-    id view;
 }
 
 @end

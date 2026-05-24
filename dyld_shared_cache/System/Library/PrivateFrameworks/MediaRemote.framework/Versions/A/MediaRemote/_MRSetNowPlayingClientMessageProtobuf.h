@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
@@ -21,12 +21,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)on failure in %@, %@:(struct _NSZone *)arg1 %lu:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)g: /* Error: Ran out of types for this method. */;
+- (void)appendString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MRNowPlayingClientProtobuf *client; // @synthesize client=_client;
 @property(readonly, nonatomic) _Bool hasClient;
 
 @end

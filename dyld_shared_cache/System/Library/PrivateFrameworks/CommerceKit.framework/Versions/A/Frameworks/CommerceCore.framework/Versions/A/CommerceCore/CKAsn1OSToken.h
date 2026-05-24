@@ -11,8 +11,8 @@
     CKAsn1Token *mValue;
 }
 
-- (id);
-- (id);
+- (id)pendingRequestsChanged;
+- (id)ediaRemoteServiceRef, MRNowPlayingPlayerPathRef, MRVolumeControlCapabilities, __strong dispatch_queue_t, void (^__strong)(MRMediaRemoteError));
 - (id);
 - (void);
 

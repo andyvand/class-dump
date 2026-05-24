@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NLXSchemaCDMMultilingualVariant : SISchemaInstrumentationMessage
 {
     NSString *_languageVariantName;
-    double _languageVariantConfidenceScore;
-    struct {
-        unsigned int languageVariantConfidenceScore:1;
-    } _has;
-    _Bool _hasLanguageVariantName;
 }
 
 - (void);
@@ -29,9 +24,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)meter;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)η;
 - (_Bool);
 - (id);
 - (id)!TCùÑÞð1Â0@ù
@@ -41,10 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLanguageVariantConfidenceScore;
-@property(nonatomic) _Bool hasLanguageVariantName; // @synthesize hasLanguageVariantName=_hasLanguageVariantName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double languageVariantConfidenceScore; // @synthesize languageVariantConfidenceScore=_languageVariantConfidenceScore;
 @property(copy, nonatomic) NSString *languageVariantName; // @synthesize languageVariantName=_languageVariantName;
 
 @end

@@ -4,40 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol PKPhysicsContactDelegate;
-
 @interface PKPhysicsWorld
 {
     void *_world;
-    struct b2Vec2 _gravity;
-    _Bool _doSleep;
-    double _accumulatedDt;
-    struct PKContactListener _contactListener;
-    float _speed;
-    NSMutableArray *_bodies;
-    NSMutableArray *_joints;
-    NSMutableArray *_postStepBlocks;
-    struct PKDebugDrawPacket drawPacket;
 }
 
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_bodies;
 @property(nonatomic) _Bool _doSleep;
-@property(nonatomic) struct b2Vec2 _gravity;
-@property(readonly, nonatomic) void *_world;
-@property(readonly, nonatomic) void *aether;
-@property(nonatomic) id <PKPhysicsContactDelegate> contactDelegate;
-@property(nonatomic) struct CGVector gravity;
-@property(readonly, nonatomic, getter=isSettling) _Bool settling;
-@property(nonatomic) double settlingAngularVelocityThreshold;
-@property(nonatomic) double settlingDuration;
-@property(nonatomic) double settlingLinearVelocityThreshold;
-@property(nonatomic) double speed;
-@property(nonatomic) double velocityThreshold;
 
 @end
 

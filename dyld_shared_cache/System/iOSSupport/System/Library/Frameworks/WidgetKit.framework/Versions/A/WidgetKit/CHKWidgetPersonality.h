@@ -9,7 +9,6 @@
 @interface CHKWidgetPersonality
 {
     void extensionBundleIdentifier;
-    void kind;
 }
 
 + (_Bool);
@@ -25,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSString *extensionBundleIdentifier;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *kind;
 
 @end
 

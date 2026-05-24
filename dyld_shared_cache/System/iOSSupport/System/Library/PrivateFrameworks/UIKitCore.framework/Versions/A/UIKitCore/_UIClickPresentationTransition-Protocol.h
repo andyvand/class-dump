@@ -8,6 +8,10 @@
 
 @protocol _UIClickPresentationTransition
 
+@optional
+- (void)f;
+- (UIViewPropertyAnimator *);
+
 // Remaining properties
 @property(readonly, nonatomic) UIViewPropertyAnimator *customAnimator;
 // Preceding property had unknown attributes: ?

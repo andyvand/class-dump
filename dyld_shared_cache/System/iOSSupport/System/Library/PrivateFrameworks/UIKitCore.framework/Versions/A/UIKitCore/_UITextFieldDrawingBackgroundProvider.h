@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)_transitionToWaitingForAssetsForContext:(_Bool)arg1;
+- (id);
 - (void)leDictionary",&,N,S_setTrackingInfos:(id)arg1 ,V_trackingInfos;
 - (void);
 - (void);

@@ -10,10 +10,11 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)VKImageAnalysisBarButtonItemAccessibility;
 + (void);
-- (_Bool);
+- (_Bool)eate IOSurface image (texture)
+;
 
 @end
 

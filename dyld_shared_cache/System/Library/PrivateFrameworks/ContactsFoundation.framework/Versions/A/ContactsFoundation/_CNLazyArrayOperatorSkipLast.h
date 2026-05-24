@@ -11,12 +11,10 @@
 @interface _CNLazyArrayOperatorSkipLast : _CNLazyArrayOperator
 {
     CNQueue *_buffer;
-    unsigned long long _limit;
-    _Bool _haveFilledBuffer;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 

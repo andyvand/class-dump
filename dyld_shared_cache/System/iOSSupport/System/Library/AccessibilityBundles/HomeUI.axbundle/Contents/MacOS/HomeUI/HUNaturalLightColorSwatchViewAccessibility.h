@@ -14,9 +14,9 @@
 + (id);
 + (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
+- (id)_accessibilityIntegerValueForKey: /* Error: Ran out of types for this method. */;
 
 @end
 

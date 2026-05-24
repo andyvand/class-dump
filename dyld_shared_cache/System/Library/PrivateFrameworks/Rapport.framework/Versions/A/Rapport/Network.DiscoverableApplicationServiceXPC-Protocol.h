@@ -5,5 +5,6 @@
 //
 
 @protocol Network.DiscoverableApplicationServiceXPC
+- (void)(;
 @end
 

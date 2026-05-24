@@ -4,12 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSControl, NSTextView;
+@class NSArray, NSControl, NSNotification, NSString, NSText, NSTextView;
 
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (void)contextMenuInteraction:(NSNotification *)arg1 previewForHighlightingMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (NSArray *)contactKey;
+- (_Bool)consumeAutocompleteSearchResults:(NSControl *)arg1 taskID:(NSText *)arg2;
+- (_Bool)constraintsWithVisualFormat:(NSControl *)arg1 options:(id)arg2 metrics:views: /* Error: Ran out of types for this method. */;
+- (void)constraintEqualToAnchor:(NSControl *)arg1 constant:(NSString *)arg2;
+- (_Bool)conformsToProtocol:(NSControl *)arg1;
 - (void)NSArray"24;
-- (_Bool)ollmentMode:(NSControl *)arg1 locale:(NSTextView *)arg2 voiceTriggerType:(SEL)arg3;
+- (_Bool)emitPHSEnrollmentUIStartedEventWith:(NSControl *)arg1 enrollmentMode:(NSTextView *)arg2 locale:(SEL)arg3 voiceTriggerType: /* Error: Ran out of types for this method. */;
 @end
 

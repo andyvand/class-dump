@@ -4,51 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene, NSMutableArray, NSString, UIViewController, _UISceneHostingActivationStateHostComponent, _UISceneHostingView, _UISceneHostingViewController, _UISheetPresentationControllerConfiguration, _UIViewServiceHostSceneComponent;
-@protocol _UISceneHostingActivationControlling, _UISceneHostingControllerDelegate, _UISceneHostingSheetPresentationHostProviding, _UISceneIntelligenceSupportHost, _UISceneTouchSharing;
+@class _UISceneHostingActivationStateHostComponent;
 
 @interface _UISceneHostingController
 {
     struct {
         unsigned int _clientIsReady:1;
     } _flags;
-    _UISceneHostingViewController *_sceneViewController;
-    NSMutableArray *_queuedActions;
-    _Bool _fencesDisabled;
-    FBScene *_fbScene;
-    _UISceneHostingView *_sceneView;
-    id <_UISceneHostingControllerDelegate> _delegate;
 }
 
 + (void),gÿ«üÚXn;
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)Protobuf"32@"NSString"40@"IDSMessageContext"48;
+- (void)service:(id)arg1 account:receivedGroupSessionParticipantDataUpdate: /* Error: Ran out of types for this method. */;
+- (id)scheme;
+- (id)has_minThumbSizeHeight;
+- (id)has_groupPhotoCreationTime;
+- (id)endowmentNamespaces;
+- (void)connection:(_Bool)arg1 didReceiveURLTokenError:forInfo: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void)ess:%@  error:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void)Y;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)setStationEventID:(id)arg1;
 - (void);
 - (id);
 - (void)Ô!Ð!ìDùbð1Â0@ù
@@ -59,32 +52,13 @@
 × ;
 - (id);
 - (void)Entry",C,N,V_mainBatteryEntry;
-- (void)ssForBackGesture;
+- (void)_disableMenuPressForBackGesture;
 - (id)ew=%p data=%p%@ scopeBarData=%p};
 - (void);
 - (void)!?;
 
 // Remaining properties
-@property(readonly, nonatomic) FBScene *_fbScene; // @synthesize _fbScene;
-@property(readonly, nonatomic) id <_UISceneHostingSheetPresentationHostProviding> _remoteSheetProvider;
-@property(retain, nonatomic, setter=_setSheetConfiguration:) _UISheetPresentationControllerConfiguration *_sheetConfiguration; // @dynamic _sheetConfiguration;
-@property(nonatomic, setter=_setViewClipsToBounds:) _Bool _viewClipsToBounds; // @dynamic _viewClipsToBounds;
-@property(readonly, nonatomic) _UIViewServiceHostSceneComponent *_viewServiceComponent;
-@property(retain, nonatomic) id <_UISceneHostingActivationControlling> activationController;
 @property(readonly, nonatomic) _UISceneHostingActivationStateHostComponent *activationStateComponent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UISceneHostingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fencesDisabled; // @synthesize fencesDisabled=_fencesDisabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <_UISceneIntelligenceSupportHost> intelligenceComponent;
-@property(readonly, nonatomic) _UISceneHostingView *sceneView; // @synthesize sceneView=_sceneView;
-@property(readonly, nonatomic) UIViewController *sceneViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <_UISceneTouchSharing> touchSharing;
 
 @end
 

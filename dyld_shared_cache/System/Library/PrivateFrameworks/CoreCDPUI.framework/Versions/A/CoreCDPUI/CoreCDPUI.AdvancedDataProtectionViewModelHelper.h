@@ -7,11 +7,6 @@
 @interface CoreCDPUI.AdvancedDataProtectionViewModelHelper
 {
     id cdpContext;
-    id contextProvider;
-    id reporter;
-    id networkObserver;
-    id advancedDataProtectionPresenter;
-    id privacyLinkBundle;
 }
 
 @end

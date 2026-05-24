@@ -23,11 +23,11 @@
 + (struct CGPath *);
 + (void);
 + (struct CGRect);
-+ (void);
++ (void)L;
 + (struct CGRect);
 + (_Bool);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)RI;
 + (struct CGSize);
 
 @end

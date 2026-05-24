@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-@protocol FCNewsAppConfiguration, NUArticleDataProvider, NULiveCoverageManagerDelegate;
+@protocol NUArticleDataProvider;
 
 @interface NULiveCoverageManager
 {
     _Bool _hasInitializedPostCount;
-    id <NULiveCoverageManagerDelegate> _delegate;
-    id <NUArticleDataProvider> _articleDataProvider;
-    id <FCNewsAppConfiguration> _configuration;
-    NSTimer *_pollingTimer;
-    long long _lastLiveBlogPostCount;
 }
 
 - (void);
@@ -26,19 +20,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (double);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setParagraphWritingDirection:forCharRange:undoTransaction: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -46,12 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUArticleDataProvider> articleDataProvider; // @synthesize articleDataProvider=_articleDataProvider;
-@property(readonly, nonatomic) id <FCNewsAppConfiguration> configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) __weak id <NULiveCoverageManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasInitializedPostCount; // @synthesize hasInitializedPostCount=_hasInitializedPostCount;
-@property(nonatomic) long long lastLiveBlogPostCount; // @synthesize lastLiveBlogPostCount=_lastLiveBlogPostCount;
-@property(readonly, nonatomic, getter=isPolling) _Bool polling;
-@property(retain, nonatomic) NSTimer *pollingTimer; // @synthesize pollingTimer=_pollingTimer;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol MRRouteRecommendationUIServerXPCProtocol
+- (void);
+- (void)$;
 @end
 

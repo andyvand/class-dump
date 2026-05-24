@@ -9,14 +9,14 @@
     CDUnknownBlockType _deduperFunction;
 }
 
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)passwordVersionForAccount:(CDUnknownBlockType)arg1;
+- (id)estartCounter;
+- (id)tingIdentity;
+- (_Bool)PHSM;
+- (id)epair because we are already in a good state;
+- (id)ving existing health status:(id)arg1 %@;
+- (id)irIdentities entered;
+- (id)@;
 - (CDUnknownBlockType);
 - (id);
 - (void)rror,%@;

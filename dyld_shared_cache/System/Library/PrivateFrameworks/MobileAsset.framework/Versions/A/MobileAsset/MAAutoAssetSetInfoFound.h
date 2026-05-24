@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSetStatus, NSString;
+@class NSString;
 
 @interface MAAutoAssetSetInfoFound
 {
     NSString *_assetSetIdentifier;
-    MAAutoAssetSetStatus *_currentSetStatus;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)listener:(id)arg1 shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
-@property(readonly, retain, nonatomic) MAAutoAssetSetStatus *currentSetStatus; // @synthesize currentSetStatus=_currentSetStatus;
 
 @end
 

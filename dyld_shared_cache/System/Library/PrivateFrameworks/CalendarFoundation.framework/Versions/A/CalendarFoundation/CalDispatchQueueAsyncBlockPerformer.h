@@ -12,7 +12,7 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
+- (id)II}^{UARP4ccTag}^{uarpPlatformStreamingBuffer}^{uarpPlatformTransmitBufferEntry}^{uarpPlatformTransmitBufferEntry}S{UARPVersion=IIII}{UARPVersion=IIII}^{uarpPlatformRemoteEndpoint}}16@0:(CDUnknownBlockType)arg1 8;
 - (id);
 - (id);
 - (id);

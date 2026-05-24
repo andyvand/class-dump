@@ -5,6 +5,8 @@
 //
 
 @protocol BAASupportDelegate
++ (int);
++ (int)H$;
 + (_Bool)y device type with error %@
 ;
 @end

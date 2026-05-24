@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSArray, NSString;
+@class GEOMapRegion;
 
 __attribute__((visibility("hidden")))
 @interface _GEOSingleTileSetMapRegionTileKeyEnumerator
 {
     GEOMapRegion *_region;
-    int _style;
-    int _size;
-    int _scale;
-    NSArray *_zoomLevels;
-    long long _zoomMode;
-    unsigned int _additionalBufferCount;
-    unsigned long long _currentZIndex;
-    unsigned int _currentOffset;
 }
 
 - (id);
 - (_Bool);
-- (unsigned long long)dback;
+- (unsigned long long)rap_user_response_feedback;
 - (void)þÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

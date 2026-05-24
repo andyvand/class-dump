@@ -7,7 +7,6 @@
 @interface ContactsUICore.DynamicPosterSnapshot
 {
     id _snapshot;
-    id _$observationRegistrar;
 }
 
 @end

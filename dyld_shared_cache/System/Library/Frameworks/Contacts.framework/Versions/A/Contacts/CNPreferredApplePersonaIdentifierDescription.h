@@ -6,8 +6,6 @@
 
 #import <Contacts/CNPropertyDescription.h>
 
-@class NSString;
-
 @interface CNPreferredApplePersonaIdentifierDescription : CNPropertyDescription
 {
 }
@@ -16,21 +14,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (Class)Ôq&Ð!üCùñ*ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

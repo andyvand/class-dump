@@ -6,42 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ANCSchemaANCAudioDevice : SISchemaInstrumentationMessage
 {
     NSString *_vendorIdentifier;
-    NSString *_productIdentifier;
-    _Bool _hasVendorIdentifier;
-    _Bool _hasProductIdentifier;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)I;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)OSS/Sources/ExternalAccessory/EAAccessory.mm;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id)cessType: /* Error: Ran out of types for this method. */;
+- (id)setTaskSuccessType: /* Error: Ran out of types for this method. */;
 - (id)hì;
-- (id)KNOWN;
+- (id)TTSSYNTHESISEFFECT_UNKNOWN;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasProductIdentifier; // @synthesize hasProductIdentifier=_hasProductIdentifier;
-@property(nonatomic) _Bool hasVendorIdentifier; // @synthesize hasVendorIdentifier=_hasVendorIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
 @property(copy, nonatomic) NSString *vendorIdentifier; // @synthesize vendorIdentifier=_vendorIdentifier;
 
 @end

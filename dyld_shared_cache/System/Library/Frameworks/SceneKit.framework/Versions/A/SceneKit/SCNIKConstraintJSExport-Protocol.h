@@ -7,9 +7,10 @@
 @class SCNNode;
 
 @protocol SCNIKConstraintJSExport
+- (void);
+- (id)B;
 
 // Remaining properties
 @property(readonly, nonatomic) SCNNode *chainRootNode;
-@property(nonatomic) struct SCNVector3 targetPosition;
 @end
 

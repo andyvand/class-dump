@@ -7,11 +7,6 @@
 @interface NewsUI2.AudioFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id feedConfigManager;
-    id configTransformer;
-    id paidBundleConfigManager;
-    id subscriptionController;
 }
 
 @end

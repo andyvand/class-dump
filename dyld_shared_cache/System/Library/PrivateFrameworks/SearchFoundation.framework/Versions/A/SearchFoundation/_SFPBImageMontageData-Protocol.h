@@ -7,9 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBImageMontageData
+- (unsigned long long)nts since the bundle identifier (%{private}@) doesn't match Passwords app or Passwords menu bar app.;
+- (NSData *)_relevantOIDSet;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *images;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

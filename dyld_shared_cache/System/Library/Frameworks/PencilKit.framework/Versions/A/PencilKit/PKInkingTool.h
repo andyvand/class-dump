@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKTool.h>
 
-@class NSColor, NSString, PKInk;
+@class NSString;
 
 @interface PKInkingTool : PKTool
 {
@@ -23,7 +23,7 @@
 + (double);
 + (void *);
 + (double);
-+ (CDStruct_2da3c04e);
++ (CDStruct_0762bd03);
 + (void);
 + (double);
 + (double);
@@ -35,19 +35,13 @@
 - (double);
 - (id);
 - (id);
-- (double);
-- (id);
-- (double);
+- (double)identifierCodeFromLocalIdentifier: /* Error: Ran out of types for this method. */;
+- (id)PBFlightCheckinCommand"16@0:8 /* Error: Ran out of types for this method. */;
+- (double)TModel",&,N,V_catModel;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double azimuth;
-@property(readonly, nonatomic) NSColor *color;
-@property(readonly, nonatomic) PKInk *ink; // @dynamic ink;
-@property(readonly, nonatomic) NSString *inkType;
 @property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) long long requiredContentVersion;
-@property(readonly, nonatomic) double width;
 
 @end
 

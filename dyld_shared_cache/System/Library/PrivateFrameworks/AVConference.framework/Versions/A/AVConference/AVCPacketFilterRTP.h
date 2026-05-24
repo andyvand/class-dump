@@ -9,12 +9,11 @@
 @interface AVCPacketFilterRTP : AVCPacketFilter
 {
     unsigned int _SSRC;
-    unsigned char _type;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned char);
 

@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSInflectionRuleExplicit : NSInflectionRule
 {
     NSMorphology *_morphology;
-    long long _agreeWithConcept;
-    long long _agreeWithArgument;
-    long long _referentConcept;
 }
 
 - (id);
@@ -23,17 +20,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
-- (void);
-- (id);
+- (void)&;
+- (id)<;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)s;
 
 // Remaining properties
-@property(readonly, nonatomic) long long agreeWithArgument; // @synthesize agreeWithArgument=_agreeWithArgument;
-@property(readonly, nonatomic) long long agreeWithConcept; // @synthesize agreeWithConcept=_agreeWithConcept;
 @property(readonly, copy) NSMorphology *morphology; // @synthesize morphology=_morphology;
-@property(readonly, nonatomic) long long referentConcept; // @synthesize referentConcept=_referentConcept;
 
 @end
 

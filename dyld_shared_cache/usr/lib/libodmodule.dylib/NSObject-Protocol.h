@@ -7,13 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)a;
+- (Class);
+- (unsigned long long)$`;
+- (_Bool)@;
+- (NSString *)f(CApduHeader_t) + payloadLen == bytes->size();
+- (id)%s failed:0x%X
+ /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)e header1 at offset 0x%x. Invalidating this header, then trying again with a different header.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 @end

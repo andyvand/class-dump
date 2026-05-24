@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKProcessPool, WKWebsiteDataStore;
+@class WKProcessPool;
 
 @interface SWWebViewConfigurationFactory
 {
     WKProcessPool *_processPool;
-    WKWebsiteDataStore *_websiteDataStore;
 }
 
 - (id);
@@ -19,15 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WKProcessPool *processPool; // @synthesize processPool=_processPool;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WKWebsiteDataStore *websiteDataStore; // @synthesize websiteDataStore=_websiteDataStore;
 
 @end
 

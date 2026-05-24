@@ -9,32 +9,26 @@
 @interface GEOComposedRouteTrafficIncidentInfo
 {
     GEORouteIncident *_incident;
-    CDStruct_2c43369c _coordinate;
-    double _offsetMeters;
-    CDStruct_3f2a7a20 _routeCoordinate;
 }
 
 + (_Bool)inal URL:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (double);
-- (id);
+- (double)48@0:8@16@24@32#40 /* Error: Ran out of types for this method. */;
+- (id)_strategies;
 - (CDStruct_3f2a7a20);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)er setCurrentRecordContext:error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (CDStruct_c3b9c2ee)!È@ùq¹*ð1Â0@ù
 × ;
 - (void)j°5;
 
 // Remaining properties
-@property(nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
 @property(retain, nonatomic) GEORouteIncident *incident; // @synthesize incident=_incident;
-@property(nonatomic) double offsetMeters; // @synthesize offsetMeters=_offsetMeters;
-@property(nonatomic) CDStruct_3f2a7a20 routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
 
 @end
 

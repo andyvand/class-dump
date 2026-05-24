@@ -15,10 +15,87 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (void)ContentRotationAngle;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)id = -1;
+- (void)shadow *= step(0., lightScreen.w);
+
+    return shadow;
+}
+
+inline float ComputeCascadeBlendAmount(float3 shadowPos, bool cascadeBlending)
+{
+    const float cascadeBlendingFactor = 0.1f; 
+
+    float3 cascadePos = abs(shadowPos.xyz * 2.f - 1.f);
+    
+    if (cascadeBlending) {
+#if 0
+        const float edge = 1.f - cascadeBlendingFactor;
+        
+        cascadePos = 1.f - saturate((cascadePos - edge) / cascadeBlendingFactor);
+        return cascadePos.x * cascadePos.y * cascadePos.z; 
+#else
+        
+        float distToEdge = 1.0f - max(max(cascadePos.x, cascadePos.y), cascadePos.z);
+        return smoothstep(0.0f, cascadeBlendingFactor, distToEdge);
+#endif
+    } else {
+        return step(cascadePos.x, 1.f) * step(cascadePos.y, 1.f) * step(cascadePos.z, 1.f);
+    }
+}
+
+inline float4 SampleShadowCascade(sampler shadow_sampler, depth2d_array<float> shadowMaps, float3 shadowPosition, uint cascadeIndex, constant float4* shadowKernel, int sampleCount, float shadowRadius)
+{
+    
+    float2 gridSize = float2(shadowMaps.get_width(), shadowMaps.get_height()) / 32;
+    float gd = scn::checkerboard(shadowPosition.xy, gridSize);
+    float3 gridCol = mix(float3(scn::debugColorForCascade(cascadeIndex).rgb), float3(0.f), float3(gd > 0.f));
+    
+    float shadow = 0.f;
+    if (sampleCount > 1) {
+
+        
+        for (int i = 0; i < sampleCount; ++i) {
+            shadow += shadow2DArray(shadow_sampler, shadowMaps, shadowKernel[i].xyz * shadowRadius + shadowPosition, cascadeIndex);
+        }
+        shadow /= float(sampleCount);
+    } else {
+        
+        shadow = shadow2DArray(shadow_sampler, shadowMaps, shadowPosition, cascadeIndex);
+    }
+    return float4(gridCol, shadow);
+}
+
+inline float4 ComputeCascadedShadow(sampler shadow_sampler, float3 viewPos, float4x4 shadowMatrix, constant float4 *cascadeScale, constant float4 *cascadeBias, int cascadeCount, depth2d_array<float> shadowMaps, bool enableCascadeBlending, constant float4* shadowKernel, int sampleCount, float shadowRadius)
+{
+    float4 shadow = 0.f;
+    float opacitySum = 1.f;
+    
+    
+    float3 pos_ls =  (shadowMatrix * float4(viewPos, 1.f)).xyz;
+
+    for (int c = 0; c < cascadeCount; ++c) {
+        
+        float3 pos_cs =  pos_ls * cascadeScale[c].xyz + cascadeBias[c].xyz;
+
+        
+        float cascadeRadius = shadowRadius * cascadeScale[c].x;
+
+        float opacity = ComputeCascadeBlendAmount(pos_cs, enableCascadeBlending);
+        if (opacity > 0.f) { 
+            
+            float alpha = opacity * opacitySum;
+            shadow += SampleShadowCascade(shadow_sampler, shadowMaps, pos_cs, c, shadowKernel, sampleCount, cascadeRadius) * alpha;
+            opacitySum -= alpha;
+        }
+        if (opacitySum <= 0.f) 
+            break;
+    }
+
+    return shadow;
+}
+ /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

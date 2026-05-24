@@ -7,25 +7,6 @@
 @interface CalendarWidget.ViewMetrics
 {
     id widgetMargins;
-    id widgetLargeContentSizeMargins;
-    id widgetTightMargins;
-    id horizontalMonthViewMarginDelta;
-    id eventBackgroundPadding;
-    id eventBackgroundCornerRadius;
-    id colorBarWidth;
-    id spacingBetweenColorBarAndText;
-    id spacingBetweenIconAndText;
-    id spacingBetweenIconAndTextDelta;
-    id secondarySpacingBetweenIconAndText;
-    id horizontalSpacingBetweenColorBars;
-    id allDayCirclesFrameSizeRatio;
-    id usePrivacyAnnotations;
-    id primaryFont;
-    id secondaryFont;
-    id showsAttendeesLine;
-    id showsDateLine;
-    id showsLeadingIcons;
-    id _$observationRegistrar;
 }
 
 @end

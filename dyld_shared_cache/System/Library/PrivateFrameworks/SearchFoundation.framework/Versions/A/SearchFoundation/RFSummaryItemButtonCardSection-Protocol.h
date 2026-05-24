@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty, SFButtonItem;
+@class NSArray, RFTextProperty;
 
 @protocol RFSummaryItemButtonCardSection
+- (NSArray *)Rh";
+- (NSArray *);
+- (void);
+- (RFTextProperty *)_initPageCornerRadiusForMagnification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool buttonItemsAreTrailing;
-@property(retain, nonatomic) SFButtonItem *button_1;
-@property(retain, nonatomic) SFButtonItem *button_2;
-@property(retain, nonatomic) SFButtonItem *button_3;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

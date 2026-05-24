@@ -14,13 +14,6 @@
 + (id);
 
 // Remaining properties
-@property(readonly) NSArray *fragmentArguments; // @dynamic fragmentArguments;
-@property(readonly) NSArray *fragmentBindings; // @dynamic fragmentBindings;
-@property(readonly) NSArray *meshBindings; // @dynamic meshBindings;
-@property(readonly) NSArray *objectBindings; // @dynamic objectBindings;
-@property(readonly) NSArray *tileArguments; // @dynamic tileArguments;
-@property(readonly) NSArray *tileBindings; // @dynamic tileBindings;
-@property(readonly) NSArray *vertexArguments; // @dynamic vertexArguments;
 @property(readonly) NSArray *vertexBindings; // @dynamic vertexBindings;
 
 @end

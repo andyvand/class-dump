@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDBezierPath;
+@class TSDBezierPath;
 
 @interface TSDSVGToBezierPathConverter
 {
     TSDBezierPath *mFileBezierPath;
-    NSString *mHiddenOnTag;
-    unsigned long long mHiddenOnTagNestedCount;
-    struct CGAffineTransform mGroupedAffineTransform;
-    unsigned long long mGroupedAffineTransformNestedCount;
-    _Bool mViewBoxFound;
-    struct CGRect mViewBox;
-    _Bool mUsesEvenOdd;
 }
 
 + (struct CGAffineTransform);
-+ (struct CGPath *);
++ (struct CGPath *)?;
 + (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
@@ -29,13 +22,7 @@
 - (void)e:reservedCount:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

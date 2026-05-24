@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)utomatic;
+- (void)UIBlurEffectStyleATVMediumAutomatic;
 - (void)UUUUUUõ?;
 
 // Remaining properties

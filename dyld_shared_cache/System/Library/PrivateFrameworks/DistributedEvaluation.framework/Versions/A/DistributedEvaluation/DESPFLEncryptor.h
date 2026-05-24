@@ -9,36 +9,33 @@
 @interface DESPFLEncryptor
 {
     NSString *_privatizationIdentifier;
-    long long _version;
-    double _weight;
 }
 
-+ (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (_Bool)stom.bundleId;
+- (void)ationRequest.statementResults.payload.outcome.parameterDisambiguation.items.collection.values.entity.typeIdentifier.custom.bundleId;
+- (id)atementResults.payload.outcome.parameterDisambiguation.items.value.enumeration.typeIdentifier.custom.bundleId;
+- (_Bool)nerationRequest.statementResults.payload.outcome.parameterDisambiguation.items.value.primitive.app.bundleId;
+- (id)rConfirmation.item.collection.typeIdentifier.custom.bundleId;
+- (id)mentResults.payload.outcome.parameterConfirmation.item.collection.typeIdentifier.custom.bundleId;
+- (id)leId;
+- (id)nRequest.statementResults.payload.outcome.success.returnValue.collection.values.primitive.app.bundleId;
+- (id)ue.collection.typeIdentifier.custom.bundleId;
+- (id).statementResults.payload.outcome.success.returnValue.collection.typeIdentifier.custom.bundleId;
+- (id)alue.query.typeIdentifier.custom.bundleId;
+- (id)responseGenerationRequest.statementResults.payload.outcome.success.returnValue.value.query.typeIdentifier.custom.bundleId;
+- (id)tcome.success.returnValue.value.entity.typeIdentifier.custom.bundleId;
+- (id)dentifier.custom.bundleId;
 - (long long);
 - (id);
-- (id);
-- (void);
-- (double);
+- (id)equired info (dsid=%@, token=0x%x, url=%@);
+- (void)#F'
+;
+- (double)ztn_50-59%_Transitions;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *privatizationIdentifier; // @synthesize privatizationIdentifier=_privatizationIdentifier;
-@property(nonatomic) long long version; // @synthesize version=_version;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

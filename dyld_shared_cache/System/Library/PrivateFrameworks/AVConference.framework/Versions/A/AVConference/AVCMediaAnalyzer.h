@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSObject;
-@protocol AVCMediaAnalyzerDelegate, OS_dispatch_queue;
+@protocol AVCMediaAnalyzerDelegate;
 
 @interface AVCMediaAnalyzer
 {
     long long _streamToken;
-    id _delegate;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    long long _analysisType;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 + (long long);
@@ -57,8 +51,6 @@ XÌ¹>^/§+è1rªB=áa½8Å=ðà¸p¨ÈJ0N&
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVCMediaAnalyzerDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly) long long streamToken; // @synthesize streamToken=_streamToken;
 
 @end
 

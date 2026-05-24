@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface UAFSchemaUAFAssetMetadata : SISchemaInstrumentationMessage
 {
     NSString *_assetName;
-    unsigned long long _assetSizeInBytes;
-    struct {
-        unsigned int assetSizeInBytes:1;
-    } _has;
-    _Bool _hasAssetName;
 }
 
 - (void);
@@ -26,25 +21,21 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)';
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_addSubgroups:(id)arg1 toGroup: /* Error: Ran out of types for this method. */;
+- (_Bool)story query:(id)arg1 rowID should be > 0 for second load;
 - (id);
 - (id);
-- (id)tterances;
-- (id)erPlaybackContext;
-- (void)MAPSFEATURE_OTHER;
+- (id)deleteSatNumTrainingUtterances;
+- (id)_mediaPlayerPlaybackContext;
+- (void)PEGASUSMAPSFEATURE_OTHER;
 - (void)GraphTier1.linkedUsoEntityIdentifiers.backingAppBundleId;
 - (id)ìê;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;
-@property(nonatomic) unsigned long long assetSizeInBytes; // @synthesize assetSizeInBytes=_assetSizeInBytes;
-@property(nonatomic) _Bool hasAssetName; // @synthesize hasAssetName=_hasAssetName;
-@property(nonatomic) _Bool hasAssetSizeInBytes;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

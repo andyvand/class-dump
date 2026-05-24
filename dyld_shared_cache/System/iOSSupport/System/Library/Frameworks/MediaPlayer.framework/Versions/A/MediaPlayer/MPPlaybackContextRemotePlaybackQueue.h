@@ -11,20 +11,19 @@
 @interface MPPlaybackContextRemotePlaybackQueue : MPRemotePlaybackQueue
 {
     MPPlaybackContext *_playbackContext;
-    long long _replaceIntent;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
-- (void)APPING_MISSING__;
+- (void)__MPModelPropertyRadioStationLive__MAPPING_MISSING__;
 
 @end
 

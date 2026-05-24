@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, NSDictionary, NSImage, NSMutableDictionary, NSNumber, NSOrderedSet, NSString, NSURL;
+@class NSOrderedSet;
 
 @interface SPMetadataResult
 {
     struct __MDItem *_metadataItem;
-    id _score;
-    NSImage *_appImage;
-    NSString *_filePath;
-    NSURL *_fileURL;
-    NSDictionary *_attributes;
-    NSMutableDictionary *_dynamicCache;
-    NSOrderedSet *_alreadyFetchedAttributes;
-    CSSearchableItem *_csItem;
 }
 
 + (id);
@@ -28,7 +20,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,14 +40,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
-- (void);
+- (void)r;
 - (int);
 - (_Bool);
-- (id);
-- (id);
+- (id)parseFromPlistFormatVersion:error: /* Error: Ran out of types for this method. */;
+- (id)securityDomain;
 - (id);
 - (id);
 - (id);
@@ -63,7 +55,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)%lu, person = %lu, mediatype = %lu;
 - (id);
 - (id);
 - (id);
@@ -75,11 +67,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *adamID;
 @property(readonly, nonatomic) NSOrderedSet *alreadyFetchedAttributes; // @synthesize alreadyFetchedAttributes=_alreadyFetchedAttributes;
-@property(readonly, nonatomic) NSString *copyrightString;
-@property(readonly, nonatomic) CSSearchableItem *csItem; // @synthesize csItem=_csItem;
-@property(readonly, nonatomic) NSNumber *groupNumber;
 
 @end
 

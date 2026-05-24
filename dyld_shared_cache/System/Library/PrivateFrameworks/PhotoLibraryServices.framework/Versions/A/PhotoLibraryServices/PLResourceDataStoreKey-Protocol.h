@@ -5,8 +5,8 @@
 //
 
 @protocol PLResourceDataStoreKey
-- (id)CachedLocation: /* Error: Ran out of types for this method. */;
-- (id)x`!8e;
+- (id)setCachedLocation: /* Error: Ran out of types for this method. */;
+- (short)x`!8e;
 - (id)om the archive. Error:%@ /* Error: Ran out of types for this method. */;
 - (id)tle for the Bursts album.;
 @end

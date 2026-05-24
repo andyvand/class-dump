@@ -9,13 +9,11 @@
 @interface AppSandbox.ASBBinaryIdentity
 {
     id validationCategory;
-    void signingIdentifier;
-    void teamIdentifier;
 }
 
++ (id)T6;
 + (id);
-+ (id);
-- (id);
+- (id)@HzA(;
 - (id);
 - (id);
 - (long long);
@@ -26,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *signingIdentifier;
-@property(nonatomic, readonly) NSString *teamIdentifier;
 
 @end
 

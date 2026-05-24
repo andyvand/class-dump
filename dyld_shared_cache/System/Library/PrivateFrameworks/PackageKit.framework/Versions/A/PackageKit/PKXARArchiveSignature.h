@@ -11,11 +11,11 @@
     struct __xar_signature_t *_sig;
 }
 
+- (id)9;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)@9;
 - (id);
 
 @end

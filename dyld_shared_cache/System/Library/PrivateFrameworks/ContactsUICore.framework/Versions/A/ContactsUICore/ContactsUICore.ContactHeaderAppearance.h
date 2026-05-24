@@ -7,12 +7,6 @@
 @interface ContactsUICore.ContactHeaderAppearance
 {
     id _sublabelOpacity;
-    id _nameLabelLineLimit;
-    id _nameLabelScale;
-    id _nameLabelScaleAnchor;
-    id _nameLabelOffset;
-    id _nameLabelFrame;
-    id _$observationRegistrar;
 }
 
 @end

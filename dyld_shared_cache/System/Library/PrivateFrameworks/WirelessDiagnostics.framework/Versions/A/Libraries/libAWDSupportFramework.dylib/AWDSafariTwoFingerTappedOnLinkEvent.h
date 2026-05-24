@@ -7,11 +7,6 @@
 @interface AWDSafariTwoFingerTappedOnLinkEvent
 {
     unsigned long long _timestamp;
-    int _outcome;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int outcome:1;
-    } _has;
 }
 
 - (void);
@@ -20,13 +15,13 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)kU@9_;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)$@)	k;
 - (void);
 - (void);
 - (void);
@@ -35,10 +30,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOutcome;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int outcome; // @synthesize outcome=_outcome;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

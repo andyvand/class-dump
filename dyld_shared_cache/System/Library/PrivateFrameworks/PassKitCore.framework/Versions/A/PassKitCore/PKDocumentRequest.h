@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKDocumentRequest
 {
     unsigned long long _documentType;
-    NSString *_countryCode;
-    double _preferredWidth;
 }
 
-- (void);
+- (void)*;
 - (unsigned long long);
-- (void);
+- (void)(;
 - (double);
-- (id)d:authorization:completion: /* Error: Ran out of types for this method. */;
+- (id)regenerateVPANCardCredentialsForVirtualCard:authorization:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)On;
+- (void)shastaLiveOn;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
 @property(nonatomic) unsigned long long documentType; // @synthesize documentType=_documentType;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
 
 @end
 

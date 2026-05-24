@@ -12,16 +12,16 @@
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (CDStruct_1b6d18a9);
-- (id);
+- (id)_lmeDataSearch;
+- (void)_contactsCount;
+- (void)_bestContactsCount;
+- (void)fo}}},N;
+- (long long)runRecognitionWithResultStream: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)T@"NSArray",R,C,N,V_targetTokens;
+- (id)exes;
 - (id);
 - (int);
-- (unsigned int);
+- (unsigned int)Q;
 - (void);
 - (long long);
 - (void);
@@ -32,12 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long direction;
-@property(retain, nonatomic) AVSampleCursor *limitCursor;
-@property(nonatomic) long long maxSampleCount;
-@property(nonatomic) long long mode;
-@property(nonatomic) CDStruct_1b6d18a9 overrideTime;
-@property(nonatomic) long long preferredMinSampleCount;
 @property(readonly, retain, nonatomic) AVSampleCursor *startCursor;
 
 @end

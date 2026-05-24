@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRSendCommandHandlerEvent, NSString, _MRSendCommandResultHandlerDialogActionProtobuf;
+@class NSString, _MRSendCommandResultHandlerDialogActionProtobuf;
 
 @interface MRSendCommandHandlerDialogAction
 {
     NSString *_title;
-    MRSendCommandHandlerEvent *_event;
-    long long _type;
 }
 
 + (id);
 - (id);
 - (id);
-- (long long);
+- (long long)emporaryPreviewURL=%@, error=%@;
 - (id);
 - (id);
 - (id);
@@ -25,10 +23,7 @@
 - (void)ChangeMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) MRSendCommandHandlerEvent *event; // @synthesize event=_event;
 @property(readonly, copy, nonatomic) _MRSendCommandResultHandlerDialogActionProtobuf *protobuf;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

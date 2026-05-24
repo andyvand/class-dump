@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface NWPBServiceBrowse
 {
     NSString *_domain;
-    NSString *_type;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)explicitlySetRequiresDNSSECValidation;
+- (id)_explicitlySetRequiresDNSSECValidation;
 - (id)ÌHØp;
 - (void)@;
 

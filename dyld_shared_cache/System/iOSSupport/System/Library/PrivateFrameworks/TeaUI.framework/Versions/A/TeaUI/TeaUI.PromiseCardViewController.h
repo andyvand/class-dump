@@ -7,10 +7,6 @@
 @interface TeaUI.PromiseCardViewController
 {
     id viewControllerState;
-    id defaultCardViewBehavior;
-    id defaultCardSplitViewPresentationForState;
-    id activityIndicatorView;
-    id activityIndicatorOffset;
 }
 
 - (id);

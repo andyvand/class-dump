@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDRemoteLoginBase.h>
 
-@class HMDRemoteLoginReceiverSession, NSString;
+@class HMDRemoteLoginReceiverSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginReceiver : HMDRemoteLoginBase
@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (id)g´VB;
 - (void);
-- (id);
+- (id)scheduledTimerWithTimeInterval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -34,14 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)ssive history pruned;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMDRemoteLoginReceiverSession *loginSession; // @synthesize loginSession=_loginSession;
-@property(readonly) Class superclass;
 
 @end
 

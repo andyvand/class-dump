@@ -6,16 +6,12 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSMutableArray;
-@protocol CKShareRequestAccessOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDShareRequestAccessOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _shareRequestAccessCompletionBlock;
-    NSMutableArray *_shareURLsToRequestAccessFor;
 }
 
-+ (id);
++ (id)setTimeOfLastLinkUp:(unsigned long long)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -27,7 +23,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)BlackPearlExperimentID;
 - (id);
 - (void);
 - (int);
@@ -35,9 +31,6 @@
 - (void)pÙÚfðÚ;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKShareRequestAccessOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType shareRequestAccessCompletionBlock; // @synthesize shareRequestAccessCompletionBlock=_shareRequestAccessCompletionBlock;
-@property(retain, nonatomic) NSMutableArray *shareURLsToRequestAccessFor; // @synthesize shareURLsToRequestAccessFor=_shareURLsToRequestAccessFor;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

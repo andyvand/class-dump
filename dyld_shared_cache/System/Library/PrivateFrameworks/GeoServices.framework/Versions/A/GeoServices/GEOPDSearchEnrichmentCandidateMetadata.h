@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchEnrichmentCandidateMetadata
 {
     PBUnknownFields *_unknownFields;
-    NSString *_impressionId;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)GEOTrafficControlDeviceInfo";
-- (id)aireFilter;
+- (id)_placeQuestionnaireFilter;
 - (id)Ðxà È\0p!¬!"À"h$ü$Ð%&¸'L( )`)++p,°,X.ì.¼/ü/¤1823L3ô45\66D8à8´9¨:|;p<D=Ä=>Ø> /* Error: Ran out of types for this method. */;
 - (void);
 

@@ -7,11 +7,9 @@
 @interface _PKNearbyPeerPaymentReceiverCoordinator
 {
     id peerPaymentAccount;
-    id senderMetadata;
-    id $__lazy_storage_$_amountFormatter;
 }
 
-+ (_Bool);
++ (_Bool)	;
 - (void);
 - (void);
 - (void);

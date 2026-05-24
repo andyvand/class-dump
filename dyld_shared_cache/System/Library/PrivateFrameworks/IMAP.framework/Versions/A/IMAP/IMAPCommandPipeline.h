@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface IMAPCommandPipeline
 {
     _Bool _isSending;
-    unsigned int _chunkSize;
-    unsigned int _expectedSize;
-    NSMutableArray *_fetchUnits;
-    id _imapCommandPipelineLock;
 }
 
 - (void);
@@ -27,19 +21,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned int);
-- (id);
-- (id);
-- (_Bool);
+- (unsigned int)*;
+- (id)L	ok;
+- (id)clientCanPullOnly, clientCanPushOnly, enabled, clientWantsToPullTruth, shouldRefilter FROM SyncState WHERE clientId=?;
+- (_Bool)setUserInfoObject:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(nonatomic) unsigned int expectedSize; // @synthesize expectedSize=_expectedSize;
-@property(retain, nonatomic) NSMutableArray *fetchUnits; // @synthesize fetchUnits=_fetchUnits;
-@property(readonly, nonatomic) id imapCommandPipelineLock; // @synthesize imapCommandPipelineLock=_imapCommandPipelineLock;
-@property(readonly, nonatomic) _Bool isFull;
-@property(nonatomic) _Bool isSending; // @synthesize isSending=_isSending;
 
 @end
 

@@ -13,10 +13,10 @@
     NSArray *_suggestedPersonLocalIdentifiers;
 }
 
+- (id)registerListener:(id)arg1;
+- (id)rangeOfCharacterFromSet:(id)arg1 options:(id)arg2 range: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void)evantUntilDate;
+- (void)relevantUntilDate;
 
 @end
 

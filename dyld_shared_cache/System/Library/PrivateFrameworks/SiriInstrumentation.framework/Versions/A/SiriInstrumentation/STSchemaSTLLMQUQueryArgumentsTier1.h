@@ -6,64 +6,47 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface STSchemaSTLLMQUQueryArgumentsTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _eventType;
-    int _llmquAppEntityType;
-    int _llmquAppEntityStatus;
-    struct {
-        unsigned int eventType:1;
-        unsigned int llmquAppEntityType:1;
-        unsigned int llmquAppEntityStatus:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (int);
 - (int);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)signInCompletedMainThread:(id)arg1;
+- (void)showMayExceedMaxTierQuotaSheet:(_Bool)arg1 storageAvailable:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)setCompletionCallback: /* Error: Ran out of types for this method. */;
+- (_Bool)mbWebkitViewValidateLocalPasswordWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)1;
 - (id);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)startWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)BFaceTimeCommunicationsBridgeDelegate>",W,N,V_delegate;
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)update flags.;
 - (id);
 - (void);
 - (id);
-- (id)leteMatchingTransforms;
-- (id)ttenUtterance;
-- (void)0_R;
-- (void)IdentityReceived;
+- (id)deleteMatchingTransforms;
+- (id)_hasRewrittenUtterance;
+- (void)UTCOFFSET_MINUS_05_00_R;
+- (void)firstIdentityReceived;
 
 // Remaining properties
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) _Bool hasEventType;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasLlmquAppEntityStatus;
-@property(nonatomic) _Bool hasLlmquAppEntityType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int llmquAppEntityStatus; // @synthesize llmquAppEntityStatus=_llmquAppEntityStatus;
-@property(nonatomic) int llmquAppEntityType; // @synthesize llmquAppEntityType=_llmquAppEntityType;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PXAssetInfoProvidingLayout
+- (void);
 @end
 

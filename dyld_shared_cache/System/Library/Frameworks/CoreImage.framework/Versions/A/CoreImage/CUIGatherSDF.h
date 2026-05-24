@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIGatherSDF : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputBelow;
-    NSNumber *inputAbove;
 }
 
 - (void);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (id)nwwwwbc\e9N@aQhcuUljsffffOYQ[ESH[oooomu|y~~|qywfwuzrrrrH`Wi?[Ql}}~~~~~S]SeI]Rj¯¯¯¯®®®®xjtm}ttttpuuuzzzzk|||t|||||||awt}\vstttt[f]hif\nn}myuNbWn:RD_ETG\S^Vb]oms||||ipppjjjjUc\ffd\f[`Ug3WJo_tp[e[m7O?_acYdppppssssee[mX_Smkvq{Vqlbjaufjbn^niowwwwaxv~iwtj{v}{££££¤¤¤¤¦¦§§§§§§yiiiiaa^annnn||||oooo!>0S-<+Pafbkibjdnffbfkkjk[plxv}Qa\i:K=Vffcfªªª±±±±{O^SfGP@ZDUIbxwuxg|z|j{{}_rpyhwv}|}}}}ptozQcYrismyk¡¡¡¡u=VGj%A,X>P@W``\``ljl||||]sszF^WmUb\g^^\^AL@Q>J=SV`ZePjhr_mktyyyy}}}}ppppWWOX(:)H+=-JRVNXbbbb^^^^HTNVYYYYffffyyyy««««¥¥¥¥jcrkyttttuuuuixty{¦««¶¶¶¶¨¨¨¨wwpwepgue\ngwhmfo_nioPg_mnnnnttqtNnfso|Vpj}|^rqzfc[h\_UdZjdq]vsF^UqBRG_=H:WHZT`oooorrrrSe_kM_Tjorkv~x\ojxPc[pzwuz    kxtk}{ctoxrrmrxxsx¤¤¤¤««««££££}}}}vvvvZc^i<QE^XkgoUpnLVIdXUIX[[[[``^`N^VbRbZennnnw}|}YoiYlfz{{z{||{|{yw{zywzbtqyyyyywwwwfzx~¥¥¥¥£¢££]}xisk|PjdvSbZmyyyy~~~~ssss\d\lwwtws{wyn_|z~w~~~vvvvtrot~k|wo{§£§§·¼½½¾¿ÀÀ¦©®µ¢¥±¶¶¶¶°°°°r~ynxs~~_{x~~^tnz¢¢¢¢ªªªª}¢¦s{{{{nnnncd]dO^S`Y_Tf}y££££¼¼¼¼ÁÁÁÁ¶¶¶¶¡¡¡¡zQof`xsxxxxIYP]:I<RY[U[hhhhhpnpvvvvwwww /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAbove; // @synthesize inputAbove;
-@property(copy, nonatomic) NSNumber *inputBelow; // @synthesize inputBelow;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

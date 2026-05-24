@@ -9,45 +9,27 @@
 @interface CLMiLoServiceMetaInfo
 {
     NSNumber *_numberOfClustersLearnedInModel;
-    NSNumber *_numberOfRecordingTriggersAtCurrentLocationOfInterest;
-    NSNumber *_numberOfInputValidFingerprints;
-    NSNumber *_numberOfInputValidFingerprintsLabeled;
-    NSNumber *_numberOfInputValidFingerprintsUnLabeled;
-    NSNumber *_numberOfFingerprintsBeforePruning;
-    NSNumber *_numberOfFingerprintsAfterPruning;
-    NSNumber *_numberOfWiFiAccessPoints;
-    NSNumber *_numberOfBLESources;
-    NSNumber *_numberOfUWBSources;
 }
 
 + (_Bool);
 - (id);
+- (id)!;
+- (id);
+- (id)d;
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
+- (id)X;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)wn  ;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setFragmentDebugInstrumentationData:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *numberOfBLESources; // @synthesize numberOfBLESources=_numberOfBLESources;
 @property(readonly, nonatomic) NSNumber *numberOfClustersLearnedInModel; // @synthesize numberOfClustersLearnedInModel=_numberOfClustersLearnedInModel;
-@property(readonly, nonatomic) NSNumber *numberOfFingerprintsAfterPruning; // @synthesize numberOfFingerprintsAfterPruning=_numberOfFingerprintsAfterPruning;
-@property(readonly, nonatomic) NSNumber *numberOfFingerprintsBeforePruning; // @synthesize numberOfFingerprintsBeforePruning=_numberOfFingerprintsBeforePruning;
-@property(readonly, nonatomic) NSNumber *numberOfInputValidFingerprints; // @synthesize numberOfInputValidFingerprints=_numberOfInputValidFingerprints;
-@property(readonly, nonatomic) NSNumber *numberOfInputValidFingerprintsLabeled; // @synthesize numberOfInputValidFingerprintsLabeled=_numberOfInputValidFingerprintsLabeled;
-@property(readonly, nonatomic) NSNumber *numberOfInputValidFingerprintsUnLabeled; // @synthesize numberOfInputValidFingerprintsUnLabeled=_numberOfInputValidFingerprintsUnLabeled;
-@property(readonly, nonatomic) NSNumber *numberOfRecordingTriggersAtCurrentLocationOfInterest; // @synthesize numberOfRecordingTriggersAtCurrentLocationOfInterest=_numberOfRecordingTriggersAtCurrentLocationOfInterest;
-@property(readonly, nonatomic) NSNumber *numberOfUWBSources; // @synthesize numberOfUWBSources=_numberOfUWBSources;
-@property(readonly, nonatomic) NSNumber *numberOfWiFiAccessPoints; // @synthesize numberOfWiFiAccessPoints=_numberOfWiFiAccessPoints;
 
 @end
 

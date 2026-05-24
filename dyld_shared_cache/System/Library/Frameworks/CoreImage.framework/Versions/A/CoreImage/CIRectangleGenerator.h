@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIVector, NSNumber;
+@class CIColor;
 
 __attribute__((visibility("hidden")))
 @interface CIRectangleGenerator : CIFilter
 {
     CIColor *inputColor;
-    CIVector *inputRectangle;
-    NSNumber *inputEdgeBlur;
 }
 
 + (id);

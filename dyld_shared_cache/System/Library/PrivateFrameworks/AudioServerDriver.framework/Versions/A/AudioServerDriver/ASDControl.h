@@ -9,13 +9,10 @@
 @interface ASDControl : ASDObject
 {
     unsigned int _objectClassID;
-    unsigned int _controlElement;
-    unsigned int _controlScope;
 }
 
 
 // Remaining properties
 @property(nonatomic) unsigned int controlElement; // @synthesize controlElement=_controlElement;
-@property(nonatomic) unsigned int controlScope; // @synthesize controlScope=_controlScope;
 @end
 

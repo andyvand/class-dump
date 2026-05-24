@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _UIHyperregionUnion
 {
     unsigned long long __dimensions;
-    NSArray *__regions;
-    double *__temp;
 }
 
-+ (id)ener: /* Error: Ran out of types for this method. */;
++ (id)setCaretChangeListener: /* Error: Ran out of types for this method. */;
 + (_Bool)-number;
-- (double *);
-- (void);
+- (double *)	?ׂG;
+- (void)$;
 - (void);
 - (id);
 - (id);
@@ -25,25 +21,16 @@
 - (void);
 - (id)ù
 × ;
-- (_Bool)pOffset;
-- (unsigned long long)roAlpha:(double *)arg1;
-- (void)entInput:(id)arg1;
-- (id)iate;
+- (_Bool)topOffset;
+- (unsigned long long)setKeyboardCanBecomeFocusedWithZeroAlpha:(double *)arg1;
+- (void)setCurrentInput:(id)arg1;
+- (id)_backing_wrapLayerInIntermediate;
 - (id)BackButton;
 - (void)lection view:(double *)arg1 %@;
 - (void)a[;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(copy, nonatomic, setter=_setRegions:) NSArray *_regions; // @synthesize _regions=__regions;
 @property(readonly, nonatomic) double *_temp; // @synthesize _temp=__temp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

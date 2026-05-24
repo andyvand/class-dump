@@ -9,17 +9,15 @@
 @interface AVAudioSessionPortExtensionBluetoothMicrophone
 {
     AVAudioSessionCapability *highQualityRecording;
-    AVAudioSessionCapability *farFieldCapture;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)cateAuthorityHash;
+- (void)createTCPConnectionToEndpoint:(id)arg1 enableTLS:TLSParameters:delegate: /* Error: Ran out of types for this method. */;
+- (id)NEProfilePayloadBaseDelegate;
+- (id)NEIKEv2KeyExchangeHandlerMODP;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVAudioSessionCapability *farFieldCapture; // @synthesize farFieldCapture;
 @property(retain, nonatomic) AVAudioSessionCapability *highQualityRecording; // @synthesize highQualityRecording;
 
 @end

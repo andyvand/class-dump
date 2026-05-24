@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class HMDDevice, HMDUser, NSArray, NSDate, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDTriggerModel : HMDBackingStoreModelObject
 {
@@ -20,24 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)singRemoteDeviceAnalysisNode;
+- (id)isUsingRemoteDeviceAnalysisNode;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *active; // @dynamic active;
-@property(retain, nonatomic) NSNumber *autoDelete; // @dynamic autoDelete;
-@property(retain, nonatomic) NSString *configuredName; // @dynamic configuredName;
-@property(retain, nonatomic) NSArray *currentActionSets; // @dynamic currentActionSets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *mostRecentFireDate; // @dynamic mostRecentFireDate;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) HMDUser *owner; // @dynamic owner;
-@property(retain, nonatomic) HMDDevice *owningDevice; // @dynamic owningDevice;
-@property(readonly) Class superclass;
 
 @end
 

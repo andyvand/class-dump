@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureDepthDataOutputInternal, NSObject, NSString;
-@protocol AVCaptureDepthDataOutputDelegate, OS_dispatch_queue;
+@class AVCaptureDepthDataOutputInternal;
+@protocol AVCaptureDepthDataOutputDelegate;
 
 @interface AVCaptureDepthDataOutput : AVCaptureOutput
 {
@@ -16,48 +16,36 @@
 
 + (id);
 + (void)ingAtPointForDeviceID:handler:] /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
+- (void)ctionary;
+- (void)contain an array as the root object.;
+- (void)SVLogStateHandle MSVLogAddStateHandler(__strong dispatch_queue_t _Nonnull, NSString *__strong _Nonnull, _MSVLogState  _Nullable (^__strong _Nonnull)(MSVLogStateHints, __strong _MSVLogStateEncode))_block_invoke;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)_modernIMAPSupportedDataclasses;
+- (void);
+- (id);
+- (id)C;
+- (void);
+- (void);
+- (id)le.quicktime.video-map.smart-style-delta-map;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)py;
+- (id)mutableCopy;
 - (void)igCaptureStillImageSettings",R,N,V_captureSettings;
 - (id)tureDepthDataOutputDelegate>",R,N;
-- (id)Channel_Tundra;
+- (id)AVCaptureAudioChannel_Tundra;
 - (void)didShow %d);
 - (void)maxPhotoDimensions of the photo output;
 - (void)edPhotoProcessor deletePersistentStorageForPhotoProxy:(id)arg1 ];
 - (_Bool)ata value is an instance of %@, but format description does not properly describe face data;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysDiscardsLateDepthData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) id <AVCaptureDepthDataOutputDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue;
-@property(readonly, nonatomic) id delegateOverride;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFilteringEnabled) _Bool filteringEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,20 +6,9 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class CLLocationManager, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_source, OS_os_log;
-
 @interface _DKSunriseSunsetMonitor : _DKMonitor
 {
     _Bool _enabled;
-    _Bool _awaitingLocationAfterDisabledAirplaneMode;
-    int _authorizationStatus;
-    NSObject<OS_dispatch_source> *_updateTimer;
-    unsigned long long _updateInterval;
-    CLLocationManager *_manager;
-    NSDictionary *_previousDataDictionary;
-    NSObject<OS_os_log> *_log;
-    struct __SCPreferences *_radioPrefs;
 }
 
 + (id);
@@ -28,8 +17,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)wedSampler<3UL>="_min"d"_max"d"_avg"d"_sum"d"_idx"{optional<unsigned long>=""(?="__null_state_"c"__val_"Q)"__engaged_"B}"_samples"{array<double, 3UL>="__elems_"[3d]}}};
+- (void)of vector land cover zoom range existing.;
 - (id);
 - (id);
 - (void);
@@ -37,9 +26,9 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
@@ -51,33 +40,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)I;
+- (void)9;
+- (int);
 - (void);
-- (int);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool)setConnectionUpdateLock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;
-@property(nonatomic) _Bool awaitingLocationAfterDisabledAirplaneMode; // @synthesize awaitingLocationAfterDisabledAirplaneMode=_awaitingLocationAfterDisabledAirplaneMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) CLLocationManager *manager; // @synthesize manager=_manager;
-@property(retain, nonatomic) NSDictionary *previousDataDictionary; // @synthesize previousDataDictionary=_previousDataDictionary;
-@property struct __SCPreferences *radioPrefs; // @synthesize radioPrefs=_radioPrefs;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long updateInterval; // @synthesize updateInterval=_updateInterval;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *updateTimer; // @synthesize updateTimer=_updateTimer;
 
 @end
 

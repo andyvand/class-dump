@@ -7,17 +7,15 @@
 @interface MCNearbyKey
 {
     unsigned short _character;
-    float _logLikelihood;
 }
 
 + (unsigned long long);
 - (float);
 - (id);
-- (unsigned short);
+- (unsigned short)o in request;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short character; // @synthesize character=_character;
-@property(readonly, nonatomic) float logLikelihood; // @synthesize logLikelihood=_logLikelihood;
 
 @end
 

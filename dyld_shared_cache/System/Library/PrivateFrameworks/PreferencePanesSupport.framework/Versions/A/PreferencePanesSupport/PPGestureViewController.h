@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVURLAsset, NSArray, NSImageView, NSMutableArray, NSMutableDictionary, NSTextField, NSTrackingArea, NSURL, NSView, PPGesture, PPGestureRow, PPGestureView;
+@class NSArray;
 
 @interface PPGestureViewController
 {
     NSArray *mGesturesArray;
-    PPGestureView *mGestureTableView;
-    AVPlayer *mAVPlayer;
-    AVURLAsset *mAVAsset;
-    _Bool mPlayMovieWhenReady;
-    NSArray *mChapters;
-    NSMutableArray *mPlayingChapters;
-    long long mPlayingChapterIndex;
-    NSMutableDictionary *mAVPlayerObserverDict;
-    NSView *mMoviewView;
-    NSTextField *mMoviewNotes;
-    NSImageView *mMoviewViewPlaceholder;
-    NSTrackingArea *mGestureTableTrackingArea;
-    PPGestureRow *mSelectedGestureRow;
-    _Bool mUseNewUI;
-    _Bool mDidRegisterForFirstResponder;
-    CDUnknownBlockType mChapterPlaybackCompleteBlock;
-    CDUnknownBlockType mUserDidSelectGestureBlock;
 }
 
 - (_Bool);
@@ -64,11 +47,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *compositeMovieURL; // @dynamic compositeMovieURL;
-@property(readonly) NSArray *gestureRowsArray; // @synthesize gestureRowsArray=mGesturesArray;
-@property(readonly) PPGestureView *gestureTableView; // @synthesize gestureTableView=mGestureTableView;
-@property(readonly) PPGesture *selectedGesture; // @dynamic selectedGesture;
-@property long long selectionType; // @dynamic selectionType;
 @property _Bool useNewUI; // @synthesize useNewUI=mUseNewUI;
 
 @end

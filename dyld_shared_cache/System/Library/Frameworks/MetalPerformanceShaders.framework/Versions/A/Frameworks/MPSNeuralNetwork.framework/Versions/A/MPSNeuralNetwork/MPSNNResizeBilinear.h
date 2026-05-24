@@ -9,8 +9,6 @@
 @interface MPSNNResizeBilinear : MPSCNNKernel
 {
     unsigned long long _resizeWidth;
-    unsigned long long _resizeHeight;
-    _Bool _alignCorners;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -25,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alignCorners; // @synthesize alignCorners=_alignCorners;
-@property(readonly, nonatomic) unsigned long long resizeHeight; // @synthesize resizeHeight=_resizeHeight;
 @property(readonly, nonatomic) unsigned long long resizeWidth; // @synthesize resizeWidth=_resizeWidth;
 
 @end

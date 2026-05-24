@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSCache, NSHashTable, NSObject;
+@class NSCache, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKContactResolver
 {
     NSObject<OS_dispatch_queue> *_replyQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    struct os_unfair_lock_s _delegatesLock;
-    struct os_unfair_lock_s _storeLock;
-    CNContactStore *_contactStore;
-    NSArray *_keysToFetch;
-    NSCache *_handleToContactCache;
-    NSCache *_altDSIDToContactCache;
-    NSHashTable *_delegates;
 }
 
 + (id);
@@ -27,7 +19,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -37,23 +29,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)9;
 - (void);
 - (id);
-- (void)SecondaryTrainName;
+- (id);
+- (void);
+- (void)"nStatusUpdateDelayBin1"b1"nStatusUpdateDelayBin2"b1"nStatusUpdateDelayBin3"b1"nStatusUpdateDelayBin4"b1"nStatusUpdateDelayBin5"b1"nStatusUpdateDelayBin6"b1"nUnknownStatusUpdat"b1"nVehicular"b1"nVoice"b1"nWalking"b1"nWifiBadBcn"b1"nWifiBadLoad"b1"nWifiBadPER"b1"nWifiBadRSSI"b1"nWifiBadSNR"b1"nWifiBadTransportRTP"b1"nWifiBadTransportSymptom"b1"nWifiNotInit"b1"nWifiNotReady"b1};
+- (id);
+- (void)shinkansenSecondaryTrainName;
 - (void)ïÿ;
 - (id)`L ;
 
 // Remaining properties
-@property(retain, nonatomic) NSCache *altDSIDToContactCache; // @synthesize altDSIDToContactCache=_altDSIDToContactCache;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
 @property(retain, nonatomic) NSCache *handleToContactCache; // @synthesize handleToContactCache=_handleToContactCache;
-@property(readonly, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
 
 @end
 

@@ -6,22 +6,11 @@
 
 #import <HelpData/DDMObject.h>
 
-@class DDMBook, NSArray, NSString, NSURL;
+@class NSArray, NSString;
 
 @interface DDMTocItem : DDMObject
 {
     NSString *_articleID;
-    NSString *_createdDate;
-    NSString *_locale;
-    NSString *_modifiedDate;
-    NSString *_productVersion;
-    NSString *_title;
-    NSString *_tocID;
-    NSURL *_targetURL;
-    NSArray *_childItems;
-    DDMBook *_ddmBook;
-    NSArray *_childIDs;
-    NSArray *_contents;
 }
 
 - (id);
@@ -29,37 +18,24 @@
 - (id);
 - (id);
 - (id);
+- (id))T;
+- (void)?;
+- (id)qB;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id)gningEdges;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)o *, unsigned int, std::hash<VMUClassInfo *>, std::equal_to<VMUClassInfo *>, std::allocator<std::pair<VMUClassInfo *const, unsigned int>>>="__table_"{__hash_table<std::__hash_value_type<VMUClassInfo *, unsigned int>, std::__unordered_map_hasher<VMUClassInfo *, std::pair<VMUClassInfo *const, unsigned int>, std::hash<VMUClassInfo *>, std::equal_to<VMUClassInfo *>>, std::__unordered_map_equal<VMUClassInfo *, std::pair<VMUClassInfo *const, unsigned int>, std::equal_to<VMUClassInfo *>, std::hash<VMUClassInfo *>>, std::allocator<std::pair<VMUClassInfo *const, unsigned int>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<VMUClassInfo *, unsigned int>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (id)surfaceDescriptions;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *articleID; // @synthesize articleID=_articleID;
 @property(retain) NSArray *childIDs; // @synthesize childIDs=_childIDs;
-@property(retain) NSArray *childItems; // @synthesize childItems=_childItems;
-@property(retain) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly) NSString *createdDate; // @synthesize createdDate=_createdDate;
-@property(readonly) __weak DDMBook *ddmBook; // @synthesize ddmBook=_ddmBook;
-@property(readonly) NSString *destinationID;
-@property(readonly) NSString *destinationProduct;
-@property(readonly) NSString *locale; // @synthesize locale=_locale;
-@property(readonly) NSString *modifiedDate; // @synthesize modifiedDate=_modifiedDate;
-@property(readonly) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(readonly) NSURL *targetURL; // @synthesize targetURL=_targetURL;
-@property(readonly) NSString *title; // @synthesize title=_title;
-@property(readonly) NSString *tocID; // @synthesize tocID=_tocID;
 
 @end
 

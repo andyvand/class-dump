@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFHashDetail
+- (NSArray *)_pdfAnnotationInstanceForAKAnnotation: /* Error: Ran out of types for this method. */;
+- (_Bool)PDFScrollViewDidChangeZoomFactor;
+- (_Bool)PDFViewDidEndChangingSelection;
+- (void);
+- (void)y;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *full_hash;
-@property(nonatomic) _Bool has_summary;
-@property(nonatomic) _Bool has_table_of_contents;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *matched_url_variant;
-@property(copy, nonatomic) NSArray *sba_entity_types;
 @end
 

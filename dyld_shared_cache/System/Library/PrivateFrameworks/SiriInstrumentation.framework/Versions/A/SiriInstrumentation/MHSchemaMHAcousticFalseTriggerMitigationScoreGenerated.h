@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAcousticFalseTriggerMitigationScoreGenerated : SISchemaInstrumentationMessage
 {
     float _score;
-    unsigned long long _audioDurationInNs;
-    float _threshold;
-    struct {
-        unsigned int score:1;
-        unsigned int audioDurationInNs:1;
-        unsigned int threshold:1;
-    } _has;
 }
 
 - (void);
@@ -28,32 +19,26 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void)TCServiceMonitor",&,N,V_monitor;
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void)irectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_mbstr.c;
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (float)d: /* Error: Ran out of types for this method. */;
+- (float)setHasLanguageIdentificationCompleted: /* Error: Ran out of types for this method. */;
 - (id)lusSuggesterMetadataReported;
 - (id)eStateContext",&,N,V_deviceElectionStateContext;
-- (void)MPONENT_SIMPLE_ITEM_RICH_SEARCH_RESULT;
+- (void)RFCOMPONENT_SIMPLE_ITEM_RICH_SEARCH_RESULT;
 - (float);
 
 // Remaining properties
-@property(nonatomic) unsigned long long audioDurationInNs; // @synthesize audioDurationInNs=_audioDurationInNs;
-@property(nonatomic) _Bool hasAudioDurationInNs;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasThreshold;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
 
 @end
 

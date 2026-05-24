@@ -7,7 +7,6 @@
 @interface JetEngine.CompoundMetricsEventRecorder
 {
     id recorders;
-    id queue;
 }
 
 @end

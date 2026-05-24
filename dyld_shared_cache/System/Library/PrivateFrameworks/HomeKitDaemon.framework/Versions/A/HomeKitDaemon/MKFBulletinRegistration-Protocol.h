@@ -4,22 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFBulletinRegistrationDatabaseID, NSArray, NSDate, NSString, NSUUID;
-@protocol MKFGuest, MKFHome, MKFUser;
+@class NSString, NSUUID;
+@protocol MKFBulletinCondition, MKFHome, MKFPresenceBulletinCondition, MKFTimePeriodBulletinCondition, MKFUser;
 
 @protocol MKFBulletinRegistration
+- (id <MKFTimePeriodBulletinCondition>);
+- (id <MKFTimePeriodBulletinCondition>)service:(NSUUID *)arg1 account:receivedGroupSessionParticipantUpdate: /* Error: Ran out of types for this method. */;
+- (id <MKFPresenceBulletinCondition>)service:(NSUUID *)arg1 account:receivedGroupSessionParticipantDataUpdate: /* Error: Ran out of types for this method. */;
+- (NSUUID *)_stopSharingWithContact:reason:completion: /* Error: Ran out of types for this method. */;
+- (NSString *)_stopSharingTripWithReason:completion: /* Error: Ran out of types for this method. */;
+- (id <MKFTimePeriodBulletinCondition>)serInfo",R,N;
+- (id <MKFPresenceBulletinCondition>)gion",R,N;
+- (id <MKFBulletinCondition>)_source;
+- (void).canmaplsdatabase;
 - (id <MKFHome>)1Â0@ù
 × ;
 - (id <MKFUser>)etting Network Requirement;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *conditions;
-@property(readonly, copy, nonatomic) MKFBulletinRegistrationDatabaseID *databaseID;
 @property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSUUID *deviceIdsIdentifier;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -9,9 +9,6 @@
 @interface AVCNetworkAddress
 {
     NSString *ip;
-    NSString *interfaceName;
-    unsigned short port;
-    _Bool isIPv6;
 }
 
 - (id);
@@ -26,10 +23,7 @@
 - (void)f}{?=CsscCCCCSSC})}{tagVCStatisticsVideoLossFeedback=ISCC}{tagVCStatisticsLocalRCEvent=ddI}{tagVCStatisticsReceiveTimeReport=IIISSIBdIII}{tagVCStatisticsAddRemoveEndPoint=IB})}8;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName;
 @property(copy, nonatomic) NSString *ip; // @synthesize ip;
-@property(nonatomic) _Bool isIPv6; // @synthesize isIPv6;
-@property(nonatomic) unsigned short port; // @synthesize port;
 
 @end
 

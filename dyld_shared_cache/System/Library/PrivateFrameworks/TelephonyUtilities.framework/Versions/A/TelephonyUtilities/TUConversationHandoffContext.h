@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TUConversationPresentationContext;
-
 @interface TUConversationHandoffContext
 {
     _Bool _prefersToPlayDuringWombat;
-    _Bool _setUplinkMuted;
-    NSSet *_invitationPreferences;
-    TUConversationPresentationContext *_presentationContext;
 }
 
 + (_Bool);
@@ -31,13 +26,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ason: /* Error: Ran out of types for this method. */;
+- (void)setFilteredOutReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *invitationPreferences; // @synthesize invitationPreferences=_invitationPreferences;
 @property(nonatomic) _Bool prefersToPlayDuringWombat; // @synthesize prefersToPlayDuringWombat=_prefersToPlayDuringWombat;
-@property(copy, nonatomic) TUConversationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(nonatomic) _Bool setUplinkMuted; // @synthesize setUplinkMuted=_setUplinkMuted;
 
 @end
 

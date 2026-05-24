@@ -6,59 +6,40 @@
 
 #import <UIKitCore/_UIDocumentUnavailablePageView.h>
 
-@class NSString, UIAction, UIColor, UIContentUnavailableView, UIMenu;
+@class NSString, UIContentUnavailableView;
 
 __attribute__((visibility("hidden")))
 @interface _UIDocumentUnavailableTitlePageView : _UIDocumentUnavailablePageView
 {
     UIContentUnavailableView *_contentUnavailableView;
-    _Bool _hasPrimaryProgress;
-    _Bool _hasSecondaryProgress;
-    _Bool _actionsEnabled;
-    NSString *_title;
-    UIColor *_primaryButtonTint;
-    UIAction *_primaryAction;
-    UIMenu *_primaryMenu;
-    UIAction *_secondaryAction;
-    UIMenu *_secondaryMenu;
-    double _bottomInset;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)@24{_NSRange=QQ}32;
+- (void)=QQ}32@48@56@64@72@80@88;
+- (void)signedIntoiCloudAndiMessageAndiCloudAccountMatchesiMessageAccount;
+- (id)setPersonalNickname:oldRecordID:completionBlockWithWallpaperAndRecipeDataTags: /* Error: Ran out of types for this method. */;
+- (id)recoverChatsFromJunkContainingMessageWithGUID: /* Error: Ran out of types for this method. */;
+- (id)recordZoneID;
+- (_Bool)_proxyPort;
+- (_Bool)ty:completionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)gationController;
-- (id)orDisplay:(struct CGRect)arg1 withIndexPath:layoutAttributesToUpdate: /* Error: Ran out of types for this method. */;
-- (double)nOffLabel;
+- (void)_isNestedNavigationController;
+- (id)_configureCachedCellForDisplay:(struct CGRect)arg1 withIndexPath:layoutAttributesToUpdate: /* Error: Ran out of types for this method. */;
+- (double)showsOnOffLabel;
 - (void)¸X¢¸¢	t£¤l¦¤¬|¯,²\²È³´;
 - (id).pîÿ;
-- (id)ontrollers;
+- (id)_perColumnViewControllers;
 - (void)X\,Ç\;
 
 // Remaining properties
-@property(nonatomic) _Bool actionsEnabled; // @synthesize actionsEnabled=_actionsEnabled;
-@property(nonatomic) double bottomInset; // @synthesize bottomInset=_bottomInset;
-@property(nonatomic) _Bool hasPrimaryProgress; // @synthesize hasPrimaryProgress=_hasPrimaryProgress;
-@property(nonatomic) _Bool hasSecondaryProgress; // @synthesize hasSecondaryProgress=_hasSecondaryProgress;
-@property(copy, nonatomic) UIAction *primaryAction; // @synthesize primaryAction=_primaryAction;
-@property(retain, nonatomic) UIColor *primaryButtonTint; // @synthesize primaryButtonTint=_primaryButtonTint;
-@property(copy, nonatomic) UIMenu *primaryMenu; // @synthesize primaryMenu=_primaryMenu;
-@property(copy, nonatomic) UIAction *secondaryAction; // @synthesize secondaryAction=_secondaryAction;
-@property(copy, nonatomic) UIMenu *secondaryMenu; // @synthesize secondaryMenu=_secondaryMenu;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

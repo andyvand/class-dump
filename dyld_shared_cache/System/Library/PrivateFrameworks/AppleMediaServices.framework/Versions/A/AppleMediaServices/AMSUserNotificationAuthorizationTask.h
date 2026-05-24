@@ -6,29 +6,25 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSUserNotificationAuthorizationOptions, NSString, UNUserNotificationCenter;
-@protocol AMSUserNotificationAuthorizationDelegate;
+@class NSString, UNUserNotificationCenter;
 
 @interface AMSUserNotificationAuthorizationTask : AMSTask
 {
     NSString *_bundleIdentifier;
-    id <AMSUserNotificationAuthorizationDelegate> _delegate;
-    AMSUserNotificationAuthorizationOptions *_options;
-    UNUserNotificationCenter *_notificationCenter;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)p;
+- (id)d44@52;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void)o*ÍéàÃI
 M¤9d¡Ãý\ù¾rÀ"ÅÑZ6y#Â°zbXûÀ¾óWÑy«[(øZ{´Â¦åôD÷k©¬?ö%P?òª¹;ØÍJoüvOÛê.aîJLó£Ö¨G#A¦¥Âµ¼,6[ûk¨ÂKÔ|{¾Èc*ô<S1<%¢Eîúô¹ÕõÈ±»ô?;ÅÕjsMùK-óö·ª	Oßº|gJ¯k«$Í`ÔB_|©ÂM;
 - (id)ÉäÙ¿ÐWÖw9:-é´u²CÑØP$ ÿ¦¶TLãY
@@ -38,10 +34,7 @@
 ¨ù,>ÐÅxX?`¾Zÿ«Ø1ó#2MÚ°"{ÛVxý5ÞÃÊ%6Ç»xP¶/½ì¤Rzy/2ú©LåÓ÷M¿"ßµA¸P¼ÔÓrÑFûE÷{°z=nÎÁàøPrr¬^ß¢êYS[þ»{wñ0¶âA ó©9zàXÄ²iû.2õ}Å7ûÐü¿IÆÔdTk¶U¹·-÷ÍaÁÙZu=qÒ^'6;
 
 // Remaining properties
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property __weak id <AMSUserNotificationAuthorizationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) UNUserNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) AMSUserNotificationAuthorizationOptions *options; // @synthesize options=_options;
 
 @end
 

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSMescalFairPlay
 {
     _Bool _complete;
-    struct FPSAPContextOpaque_ *_context;
-    struct FairPlayHWInfo_ _hardwareInfo;
-    long long _mescalType;
-    NSString *_logKey;
 }
 
 - (void);
@@ -35,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(copy, nonatomic) NSString *logKey; // @synthesize logKey=_logKey;
 
 @end
 

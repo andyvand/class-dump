@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface OITSUDescription
 {
     NSObject *_object;
-    Class _class;
-    void *_cfType;
-    NSString *_header;
-    NSMutableDictionary *_fields;
-    NSMutableArray *_fieldOrder;
-    unsigned long long _fieldNameWidth;
-    _Bool _commaSeparated;
 }
 
 + (id);
@@ -24,18 +17,18 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)T@"NSArray",&,V_overrideLikenesses;
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)dataUsingEncoding:(id)arg1;
 - (id)1Â0@ù
 × ;
 - (id)°;

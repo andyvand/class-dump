@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeKitVersion, HMDPreferredResidentsList, HMDResidentSelectionInfo, NSDate, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatus
 {
     _Bool _hasReachableAccessories;
-    NSUUID *_idsIdentifier;
-    NSString *_idsDestination;
-    HMDHomeKitVersion *_swVersion;
-    NSUUID *_generationID;
-    HMDPreferredResidentsList *_preferredResidentsList;
-    unsigned long long _location;
-    HMDResidentSelectionInfo *_selectionInfo;
-    unsigned long long _networkConnectionType;
-    NSDate *_assertionTime;
-    NSNumber *_locationRawValue;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)24@?32;
+- (id)8@16@?24;
+- (id)_activeContacts;
+- (id)s not enabled;
+- (_Bool)cipants left for event after filtering;
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id).apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerSeasonInHistory.m;
 - (id);
 - (id);
 - (id);
@@ -41,21 +31,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long)ForChangedCharacteristics.;
 - (void)onPortStart=%@, destinationPortEnd=%@>;
-- (id)dEventCounter;
+- (id)HMDLogEventUserActivityAnalyzerInternalRequestedReadEventCounter;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *assertionTime; // @synthesize assertionTime=_assertionTime;
-@property(readonly, nonatomic) NSUUID *generationID; // @synthesize generationID=_generationID;
-@property(readonly, nonatomic) _Bool hasReachableAccessories; // @synthesize hasReachableAccessories=_hasReachableAccessories;
-@property(readonly, nonatomic) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(readonly, nonatomic) NSUUID *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
-@property(readonly, nonatomic) _Bool isPrimary;
-@property(readonly, nonatomic) unsigned long long location; // @synthesize location=_location;
 @property(readonly, nonatomic) NSNumber *locationRawValue; // @synthesize locationRawValue=_locationRawValue;
-@property(readonly, nonatomic) unsigned long long networkConnectionType; // @synthesize networkConnectionType=_networkConnectionType;
-@property(readonly, nonatomic) HMDPreferredResidentsList *preferredResidentsList; // @synthesize preferredResidentsList=_preferredResidentsList;
-@property(readonly, nonatomic) HMDResidentSelectionInfo *selectionInfo; // @synthesize selectionInfo=_selectionInfo;
-@property(readonly, nonatomic) HMDHomeKitVersion *swVersion; // @synthesize swVersion=_swVersion;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface NULivePhotoSourceContainerNode : NUSourceContainerNode
 {
     NUSourceContainerNode *_image;
-    NUSourceContainerNode *_video;
 }
 
 - (id);

@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)name:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

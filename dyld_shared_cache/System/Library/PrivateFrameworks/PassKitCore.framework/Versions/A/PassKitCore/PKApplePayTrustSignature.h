@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PKApplePayTrustSignatureRequest;
+@class PKApplePayTrustSignatureRequest;
 
 @interface PKApplePayTrustSignature
 {
     PKApplePayTrustSignatureRequest *_signatureRequest;
-    NSData *_signatureData;
-    NSData *_paymentData;
 }
 
 + (_Bool)X"ð!´Bùî%ð1Â0@ù
@@ -21,12 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)V4;
 - (void)plePayTrustSession"8;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *paymentData; // @synthesize paymentData=_paymentData;
-@property(readonly, copy, nonatomic) NSData *signatureData; // @synthesize signatureData=_signatureData;
 @property(readonly, nonatomic) PKApplePayTrustSignatureRequest *signatureRequest; // @synthesize signatureRequest=_signatureRequest;
 
 @end

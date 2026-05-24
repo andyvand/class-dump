@@ -9,17 +9,15 @@
 @interface CNComposeRecipientOriginContext
 {
     NSString *_searchTerm;
-    unsigned long long _resultType;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)odel:capitalizationDictionaryArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long resultType; // @synthesize resultType=_resultType;
 @property(retain, nonatomic) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
 
 @end

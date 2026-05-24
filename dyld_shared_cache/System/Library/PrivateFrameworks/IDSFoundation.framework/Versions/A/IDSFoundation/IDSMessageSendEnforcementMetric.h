@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IDSMessageSendEnforcementMetric
 {
     long long _state;
-    long long _code;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)?@q;
 - (id);
 - (void);
-- (long long);
-- (_Bool);
+- (long long)knife;
+- (_Bool)removeAllPDUsOfType:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)RawValue;
 - (void)a.;
 - (id);
 
 // Remaining properties
-@property long long code; // @synthesize code=_code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
 @property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

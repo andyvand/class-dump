@@ -9,7 +9,6 @@
 @interface _DASActivityResult
 {
     NSString *_identifier;
-    long long _count;
 }
 
 + (_Bool);
@@ -29,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

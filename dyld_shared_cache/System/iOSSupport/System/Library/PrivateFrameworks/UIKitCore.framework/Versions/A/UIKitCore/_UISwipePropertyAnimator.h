@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)tingConstraintsChange;
+- (id)_animatingConstraintsChange;
 - (void);
 - (_Bool)X;
 

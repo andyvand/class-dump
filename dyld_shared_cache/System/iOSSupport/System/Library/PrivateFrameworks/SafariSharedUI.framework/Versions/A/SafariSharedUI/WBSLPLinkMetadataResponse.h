@@ -11,16 +11,14 @@
 @interface WBSLPLinkMetadataResponse : WBSSiteMetadataResponse
 {
     _Bool _canAttemptFetchNow;
-    LPLinkMetadata *_metadata;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (void)ler:prepareAdaptivePresentationController: /* Error: Ran out of types for this method. */;
+- (void)presentationController:prepareAdaptivePresentationController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAttemptFetchNow; // @synthesize canAttemptFetchNow=_canAttemptFetchNow;
 @property(readonly, copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

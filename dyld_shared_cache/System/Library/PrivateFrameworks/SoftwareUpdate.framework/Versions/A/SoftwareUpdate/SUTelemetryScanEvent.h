@@ -6,20 +6,16 @@
 
 #import <SoftwareUpdate/SUTelemetryEvent.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SUTelemetryScanEvent : SUTelemetryEvent
 {
     _Bool _isBackgroundScan;
-    NSURL *_catalogURL;
-    double _timeSinceLastScan;
-    double _timeElapsed;
-    long long _scanResult;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -29,18 +25,12 @@
 - (void);
 - (long long);
 - (void);
-- (double);
+- (double)6;
 - (id);
 - (double);
 
 // Remaining properties
 @property(retain) NSURL *catalogURL; // @synthesize catalogURL=_catalogURL;
-@property(readonly) NSString *eventName;
-@property _Bool isBackgroundScan; // @synthesize isBackgroundScan=_isBackgroundScan;
-@property long long scanResult; // @synthesize scanResult=_scanResult;
-@property(readonly) long long telemetryServer;
-@property double timeElapsed; // @synthesize timeElapsed=_timeElapsed;
-@property double timeSinceLastScan; // @synthesize timeSinceLastScan=_timeSinceLastScan;
 
 @end
 

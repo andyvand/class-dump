@@ -11,7 +11,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)own' value length too large;
 
 @end
 

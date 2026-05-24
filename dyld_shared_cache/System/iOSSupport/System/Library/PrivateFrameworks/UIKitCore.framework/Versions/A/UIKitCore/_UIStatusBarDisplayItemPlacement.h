@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHashTable, NSSet, _UIStatusBarIdentifier;
-
 @interface _UIStatusBarDisplayItemPlacement
 {
     _Bool _enabled;
-    long long _priority;
-    _UIStatusBarIdentifier *_identifier;
-    NSHashTable *_excludedPlacements;
-    NSSet *_excludedRegionIdentifiers;
-    NSHashTable *_includedPlacements;
-    NSHashTable *_allRequiredPlacements;
-    NSHashTable *_anyRequiredPlacements;
-    NSDictionary *_itemInfo;
 }
 
 + (id)× ;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)UserEnabledOptions;
+- (id);
+- (id)stringByPaddingToLength:(id)arg1 withString:startingAtIndex: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (id)FPageImageCache";
 - (_Bool)@"<UIContentContainer>"16{CGSize=dd}24;
-- (id)eAdjustment: /* Error: Ran out of types for this method. */;
-- (id)PressDuration;
-- (id)orName;
-- (id)pendCGFloat:(id)arg1;
+- (id)setCoordinateAdjustment: /* Error: Ran out of types for this method. */;
+- (id)minimumFinalPressDuration;
+- (id)flatColorName;
+- (id)appendCGFloat:(id)arg1;
 - (id)s:(id)arg1;
 - (id)erFlags;
 - (id)ngIndicator;
-- (id)Controller;
+- (id)_UISearchATVPresentationController;
 - (id)v#Lyôy
 Ð{;
 - (id)Ät;
@@ -45,14 +35,6 @@
 - (long long)4Øyÿ KÊh%];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSHashTable *allRequiredPlacements; // @synthesize allRequiredPlacements=_allRequiredPlacements;
-@property(readonly, copy, nonatomic) NSHashTable *anyRequiredPlacements; // @synthesize anyRequiredPlacements=_anyRequiredPlacements;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, copy, nonatomic) NSHashTable *excludedPlacements; // @synthesize excludedPlacements=_excludedPlacements;
-@property(readonly, copy, nonatomic) NSSet *excludedRegionIdentifiers; // @synthesize excludedRegionIdentifiers=_excludedRegionIdentifiers;
-@property(readonly, copy, nonatomic) _UIStatusBarIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSHashTable *includedPlacements; // @synthesize includedPlacements=_includedPlacements;
-@property(readonly, copy, nonatomic) NSDictionary *itemInfo; // @synthesize itemInfo=_itemInfo;
 @property(nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end

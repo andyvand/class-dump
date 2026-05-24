@@ -11,38 +11,29 @@
 @interface LPApplePhotosSharedLibraryInvitationMetadata : LPSpecializationMetadata
 {
     NSString *_message;
-    NSString *_originatorDisplayName;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)8v;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (_Bool);
-- (id);
+- (id)idn't get PCS data for share %@ to add to record %@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)RINcjMjrbNg9jTwzf/ALv0DjTEP2i4M00DRoAxZeUBxN3nJbevTWsHMjDjt3MNKK31HOLtjAB2Lu5snX5qloyp4Q8v/BDhwT2AptCZPh6MGlmGBK7R/p0xcDd5sHgKGUHZ8pgZAuVLldpdxEeINo5xRtum0zZYI4KYXxte4WEzhg5ksbVRi7AULkC5W7dfZvwWnpwjW35ZfQOSbuN4LNEdaLY77IXJFtKMCXF/zm3a6U/AiK1fyw6eyv0qbW8Znoetdm7SdInuG6EHqrlhzb+3F4x7UCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAKNqD5mzB+vTEPhcKdh81WBnSQVN5DAkn0p9el1qve9Iln62v2DbtOpqpO3JPP4hb6gord0nmTd1NlHxpg2GZ2F/J3620pa7EWsQIFEyEvNlNiwKo/AH76d2EaHMD8IgejcDehrUVLdXULq8kIWa2QsMtdeNsZPIPKUU1nb2HmOnjZfJ7MQm3KIrofVCV9OiWYNKPSqUV2q332pVRjdZ8KRZ4J1sb29JAQCGavrnJazMDE+fFG55w2Vi6DMlwTeD+gV6OYHbIkbu/1tHLXzXGdW6EzsGxKhNIsfhJ9yVU8U7psxHB5opJiAPl1k0QA63lO5MxLs39n78G6govhhN/5A==;
 - (void)1H1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *originatorDisplayName; // @synthesize originatorDisplayName=_originatorDisplayName;
-@property(readonly) Class superclass;
 
 @end
 

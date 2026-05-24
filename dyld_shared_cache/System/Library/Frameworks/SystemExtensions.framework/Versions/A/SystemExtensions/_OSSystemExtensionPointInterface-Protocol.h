@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class OSSystemExtensionInfo;
+
 @protocol _OSSystemExtensionPointInterface
+- (void)tas:(OSSystemExtensionInfo *)arg1 %@ };
+- (void)PinnedIdentitiesMetadatas;
+- (void)ity:(OSSystemExtensionInfo *)arg1 %@ };
+- (void){ service:(OSSystemExtensionInfo *)arg1 %@, identity:(OSSystemExtensionInfo *)arg2 %@ };
+- (void)infraWiFiState;
+- (void)queryErrorCode;
+- (void)ServiceIdentifier;
 @end
 

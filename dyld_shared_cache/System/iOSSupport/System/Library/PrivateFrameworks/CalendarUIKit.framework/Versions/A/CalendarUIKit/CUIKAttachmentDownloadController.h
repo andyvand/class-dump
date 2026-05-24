@@ -5,34 +5,30 @@
 //
 
 @class EKAttachment;
-@protocol CUIKAttachmentDownloadControllerDelegate;
 
 @interface CUIKAttachmentDownloadController
 {
     id _downloadID;
-    EKAttachment *_attachment;
-    id <CUIKAttachmentDownloadControllerDelegate> _delegate;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)_supportsActivityPreviews;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)Type: /* Error: Ran out of types for this method. */;
+- (id)IMDSavedDeviceStateIsMigratingKey;
+- (void)readWriteCalendarsForEntityType: /* Error: Ran out of types for this method. */;
 - (void)P;þÿìïñÿHÿ;
 
 // Remaining properties
 @property(retain, nonatomic) EKAttachment *attachment; // @synthesize attachment=_attachment;
-@property(nonatomic) __weak id <CUIKAttachmentDownloadControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

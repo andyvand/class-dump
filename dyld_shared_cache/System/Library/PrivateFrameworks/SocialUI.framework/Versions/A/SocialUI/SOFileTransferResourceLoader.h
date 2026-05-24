@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface SOFileTransferResourceLoader
 {
     NSMutableDictionary *_imageGUIDToScaledDownPath;
-    NSMutableSet *_imageGUIDsWritingToDisk;
-    NSMutableSet *_imageGUIDsNotWorthScaling;
-    NSObject<OS_dispatch_queue> *_scalingQueue;
-    NSMutableDictionary *_passURLToPKPassMap;
-    NSMutableDictionary *_passGUIDToURLMap;
-    NSObject<OS_dispatch_queue> *_mapLoadingQueue;
-    NSObject<OS_dispatch_queue> *_mapVariableQueue;
-    NSMutableDictionary *_loadingMapFileURLToSemaphore;
-    NSMutableDictionary *_fileURLToMapURLMap;
-    NSMutableDictionary *_mapURLtoRenderedImageMap;
-    NSMutableDictionary *_mapGUIDtoMapFileURLMap;
 }
 
 + (id);
@@ -44,20 +32,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (id);
+- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -68,18 +56,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *fileURLToMapURLMap; // @synthesize fileURLToMapURLMap=_fileURLToMapURLMap;
 @property(retain) NSMutableDictionary *imageGUIDToScaledDownPath; // @synthesize imageGUIDToScaledDownPath=_imageGUIDToScaledDownPath;
-@property(retain) NSMutableSet *imageGUIDsNotWorthScaling; // @synthesize imageGUIDsNotWorthScaling=_imageGUIDsNotWorthScaling;
-@property(retain) NSMutableSet *imageGUIDsWritingToDisk; // @synthesize imageGUIDsWritingToDisk=_imageGUIDsWritingToDisk;
-@property(retain, nonatomic) NSMutableDictionary *loadingMapFileURLToSemaphore; // @synthesize loadingMapFileURLToSemaphore=_loadingMapFileURLToSemaphore;
-@property(retain, nonatomic) NSMutableDictionary *mapGUIDtoMapFileURLMap; // @synthesize mapGUIDtoMapFileURLMap=_mapGUIDtoMapFileURLMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *mapLoadingQueue; // @synthesize mapLoadingQueue=_mapLoadingQueue;
-@property(retain, nonatomic) NSMutableDictionary *mapURLtoRenderedImageMap; // @synthesize mapURLtoRenderedImageMap=_mapURLtoRenderedImageMap;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *mapVariableQueue; // @synthesize mapVariableQueue=_mapVariableQueue;
-@property(retain, nonatomic) NSMutableDictionary *passGUIDToURLMap; // @synthesize passGUIDToURLMap=_passGUIDToURLMap;
-@property(retain, nonatomic) NSMutableDictionary *passURLToPKPassMap; // @synthesize passURLToPKPassMap=_passURLToPKPassMap;
-@property(retain) NSObject<OS_dispatch_queue> *scalingQueue; // @synthesize scalingQueue=_scalingQueue;
 
 @end
 

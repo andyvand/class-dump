@@ -15,7 +15,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)r>"40@0:8@"<MLFeatureProvider>"16@"MLPredictionOptions"24^@32 /* Error: Ran out of types for this method. */;
 

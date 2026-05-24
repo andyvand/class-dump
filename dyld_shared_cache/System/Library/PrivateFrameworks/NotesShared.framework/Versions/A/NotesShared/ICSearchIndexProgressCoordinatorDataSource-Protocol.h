@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
+@class NSSet, NSURL;
 
 @protocol ICSearchIndexProgressCoordinatorDataSource
+- (void)n locale '%@';
+- (NSSet *);
+
+@optional
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *persistenceURL;

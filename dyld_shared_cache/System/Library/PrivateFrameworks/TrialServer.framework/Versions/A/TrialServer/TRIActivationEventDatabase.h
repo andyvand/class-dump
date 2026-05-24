@@ -17,8 +17,8 @@
 - (id);
 - (CDStruct_69d7cc99);
 - (void)rContext"24;
-- (struct _PASDBTransactionCompletion_)d;
-- (id)lure;
+- (struct _PASDBTransactionCompletion_)teamId;
+- (id)TreatmentFetchDownloadAssetFailure;
 
 @end
 

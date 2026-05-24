@@ -13,9 +13,9 @@
     BWStillImageCoordinatorNode *_stillImageCoordinator;
 }
 
-+ (void)mePath;
-- (void);
-- (void);
++ (void)DADiskCreateFromVolumePath;
+- (void)EDUnsupportedSheet;
+- (void)P;
 - (id);
 - (id)c}@ Pending iris recording request captureID:%lld does not have irisMovieInfo filled out yet. Skipping. /* Error: Ran out of types for this method. */;
 - (void)îuÿ÷vÿÿvÿÿwÿÿxÿÿxÿGwÿIwÿKwÿMwÿQwÿUwÿZwÿ_wÿdwÿkxÿqxÿwxÿ}xÿxÿy	ÿy

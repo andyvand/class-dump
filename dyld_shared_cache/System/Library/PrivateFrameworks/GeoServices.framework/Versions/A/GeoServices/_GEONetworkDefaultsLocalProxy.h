@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, geo_isolater;
-@protocol OS_dispatch_source, _GEONetworkDefaultsServerProxyDelegate;
+@protocol _GEONetworkDefaultsServerProxyDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _GEONetworkDefaultsLocalProxy
 {
     id <_GEONetworkDefaultsServerProxyDelegate> _delegate;
-    geo_isolater *_isolation;
-    NSMutableArray *_updateCompletionHandlers;
-    unsigned long long _stateCaptureHandle;
-    double _lastAttempt;
-    int _missingContainerRetryCount;
-    _Bool _activelyUpdating;
-    struct atomic_flag _isWaiting;
-    NSObject<OS_dispatch_source> *_updateTimer;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)cStringUsingEncoding: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)_handleSessionInfoProvidingDelegateMessageBody:(id)arg1;
 - (id);
 - (void);
-- (void)ceUnit;
+- (id);
+- (void);
+- (void)preferredDistanceUnit;
 - (void)0ü;
 - (void)ýÿÿÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_GEONetworkDefaultsServerProxyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, TUCTCapabilityInfo;
+@class TUCTCapabilityInfo;
 
 @interface TUCTCapabilitiesState
 {
     _Bool _provisioningURLInvalid;
-    _Bool _supported;
-    _Bool _enabled;
-    _Bool _currentlyAvailable;
-    _Bool _roamingSupported;
-    _Bool _roamingEnabled;
-    _Bool _emergencySupported;
-    _Bool _emergencyCurrentlyAvailable;
-    int _provisioningStatus;
-    NSURL *_provisioningURL;
-    NSData *_provisioningPostData;
 }
 
 + (id);
@@ -27,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -35,16 +25,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)!;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
-- (void);
-- (int);
+- (void)WebPage_LoadSimulatedRequestAndResponse;
+- (int)RemoteMediaPlayerProxy_RequestHostingContextReply;
 - (void);
 - (_Bool);
 - (void);
@@ -57,30 +47,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)Completion: /* Error: Ran out of types for this method. */;
+- (_Bool)PendingClient;
+- (void)nearbyTVDevicesWithCompletion: /* Error: Ran out of types for this method. */;
 - (void)bd;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) TUCTCapabilityInfo *ctCapabilityInfo;
-@property(nonatomic, getter=isCurrentlyAvailable) _Bool currentlyAvailable; // @synthesize currentlyAvailable=_currentlyAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEmergencyCurrentlyAvailable) _Bool emergencyCurrentlyAvailable; // @synthesize emergencyCurrentlyAvailable=_emergencyCurrentlyAvailable;
-@property(nonatomic, getter=isEmergencySupported) _Bool emergencySupported; // @synthesize emergencySupported=_emergencySupported;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *provisioningPostData; // @synthesize provisioningPostData=_provisioningPostData;
-@property(nonatomic) int provisioningStatus; // @synthesize provisioningStatus=_provisioningStatus;
-@property(copy, nonatomic) NSURL *provisioningURL; // @synthesize provisioningURL=_provisioningURL;
-@property(nonatomic, getter=isProvisioningURLInvalid) _Bool provisioningURLInvalid; // @synthesize provisioningURLInvalid=_provisioningURLInvalid;
-@property(nonatomic, getter=isRoamingEnabled) _Bool roamingEnabled; // @synthesize roamingEnabled=_roamingEnabled;
-@property(nonatomic, getter=isRoamingSupported) _Bool roamingSupported; // @synthesize roamingSupported=_roamingSupported;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UITextFieldViewBackgroundProvider.h>
 
-@class NSString, _UICoreUIWidget, _UITextFieldMacBackgroundView;
+@class _UICoreUIWidget, _UITextFieldMacBackgroundView;
 
 __attribute__((visibility("hidden")))
 @interface _UITextFieldMacBackgroundProvider : _UITextFieldViewBackgroundProvider
@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id)× ;
 - (void);
-- (id)esKey;
+- (id)_UIAppearanceHasExtendedAppearancesKey;
 - (id)tes to a collection view from a UICollectionViewDiffableDataSource, but the collection view's dataSource is not the UICollectionViewDiffableDataSource. Collection view:%@ /* Error: Ran out of types for this method. */;
 - (void)SfIegy_;
 - (double);
@@ -34,15 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _UICoreUIWidget *coreUIWidget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double naturalHeight;
-@property(readonly, nonatomic) _Bool shouldExtendCaretHeight;
-@property(readonly) Class superclass;
 
 @end
 

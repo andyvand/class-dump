@@ -7,11 +7,6 @@
 @interface IMCore.ImportExport.ExportIterator
 {
     id exportOptions;
-    id conversations;
-    id conversationIndex;
-    id conversationRowID;
-    id conversationExporter;
-    id exporter;
 }
 
 @end

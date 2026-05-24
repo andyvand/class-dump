@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface ASDDSPGraph
 {
     shared_ptr_f6ac7592 _graph;
@@ -17,13 +15,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)-;
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)__handleSendMessageFailureWithError:(shared_ptr_f6ac7592)arg1 destination: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -31,28 +29,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)z******g;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (shared_ptr_f6ac7592);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *boxes;
-@property(readonly, nonatomic) _Bool configured;
 @property(readonly, nonatomic) shared_ptr_f6ac7592 graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) _Bool initialized;
-@property(readonly, nonatomic) NSSet *inputs;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long numberOfInputs;
-@property(readonly, nonatomic) unsigned long long numberOfOutputs;
-@property(readonly, nonatomic) NSSet *outputs;
-@property(readonly, nonatomic) long long sliceDurationInSamples;
 
 @end
 

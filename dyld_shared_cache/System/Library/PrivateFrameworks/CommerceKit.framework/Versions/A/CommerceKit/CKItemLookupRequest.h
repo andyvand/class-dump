@@ -9,11 +9,6 @@
 @interface CKItemLookupRequest
 {
     NSArray *_bundleIdentifiers;
-    NSArray *_adamIdentifiers;
-    _Bool _platformOverride;
-    NSString *_keyProfile;
-    NSString *_preferredLanguage;
-    CDUnknownBlockType _lookupCallbackBlock;
 }
 
 - (_Bool);
@@ -27,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool platformOverride; // @synthesize platformOverride=_platformOverride;
 @property(retain, nonatomic) NSString *preferredLanguage; // @synthesize preferredLanguage=_preferredLanguage;
 
 @end

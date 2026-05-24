@@ -11,17 +11,17 @@
     AVSampleBufferRenderSynchronizerInternal *_synchronizerInternal;
 }
 
-+ (void);
++ (void);
 + (id);
-- (struct OpaqueCMTimebase *);
-- (_Bool);
+- (struct OpaqueCMTimebase *)_results;
+- (_Bool)_currentPhonemes;
+- (void)_currentGrapheme;
+- (void)_currentDictationLanguage;
+- (void)__short=[23c]b7b1}{__long=*Qb63b1})}},N,V_prevBestRecogText;
+- (id),V_countOfIsFinalFalseAlreadyWritten;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)erProfiler;
+- (void)les;
 - (_Bool);
 - (void);
 - (id);
@@ -33,27 +33,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)\^;
 - (id);
 - (int);
-- (id);
+- (id)`1;
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)F;
 - (_Bool);
 - (void);
 - (id);
 - (CDStruct_1b6d18a9);
-- (void);
-- (float);
+- (void)QQ}16;
+- (float)AVPlayerVideoOutputConfiguration;
 
 // Remaining properties
-@property(nonatomic) _Bool delaysRateChangeUntilHasSufficientMediaData;
-@property(nonatomic) float rate;
 @property(readonly) NSArray *renderers;
-@property(readonly, retain) struct OpaqueCMTimebase *timebase;
 
 @end
 

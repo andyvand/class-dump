@@ -11,10 +11,6 @@
 @interface QCPatchProfileView : QCProfileView
 {
     QCPatch *_patch;
-    double _lastFrameTime;
-    unsigned long long _lastFrameID;
-    unsigned long long _lastPatchCount;
-    void *_unused2[4];
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)kM;
 - (void);
 - (void);
 - (void);

@@ -4,8 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_dispatch_queue;
+
 @protocol CHSynchronizable
-- (_Bool);
+- (NSObject<OS_dispatch_queue> *);
+- (void)>	;
+- (id);
 - (void)Tÿÿeÿÿ;
 @end
 

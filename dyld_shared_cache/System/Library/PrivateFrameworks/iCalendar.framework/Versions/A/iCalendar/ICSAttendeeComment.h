@@ -6,7 +6,7 @@
 
 #import <iCalendar/ICSProperty.h>
 
-@class ICSDateValue, NSString;
+@class NSString;
 
 @interface ICSAttendeeComment : ICSProperty
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *x_calendarserver_attendee_ref;
-@property(retain, nonatomic) ICSDateValue *x_calendarserver_dtstamp;
 
 @end
 

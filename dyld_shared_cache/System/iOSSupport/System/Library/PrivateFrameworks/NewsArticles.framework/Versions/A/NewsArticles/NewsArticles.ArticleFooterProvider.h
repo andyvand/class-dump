@@ -7,7 +7,6 @@
 @interface NewsArticles.ArticleFooterProvider
 {
     id endOfArticleModule;
-    id featureAvailability;
 }
 
 @end

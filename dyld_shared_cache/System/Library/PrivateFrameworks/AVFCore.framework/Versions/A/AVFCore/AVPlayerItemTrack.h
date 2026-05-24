@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetTrack, AVPlayerItemTrackInternal, NSArray, NSString;
+@class AVPlayerItemTrackInternal, NSArray;
 
 @interface AVPlayerItemTrack
 {
@@ -21,22 +21,22 @@
 - (void);
 - (void);
 - (void);
+- (id)h;
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (float);
 - (id);
-- (id);
-- (void);
+- (id)c;
+- (void)B;
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)SharingRemoteWidgetUpdate;
 - (id);
 - (void);
 - (void);
@@ -48,10 +48,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (void);
-- (void);
-- (id);
+- (void)@"NSData"64@0:8@"TKTokenSession"16@"NSData"24@32@"TKTokenKeyAlgorithm"40@"TKTokenKeyExchangeParameters"48^@56 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -59,11 +59,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) AVAssetTrack *assetTrack;
-@property(readonly) float currentVideoFrameRate;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(readonly, nonatomic) NSArray *outputs;
-@property(copy, nonatomic) NSString *videoFieldMode;
 
 @end
 

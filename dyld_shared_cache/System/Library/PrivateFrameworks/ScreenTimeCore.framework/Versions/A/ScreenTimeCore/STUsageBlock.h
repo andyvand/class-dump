@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, STUsage;
+@class NSDate;
 
 @interface STUsageBlock
 {
 }
 
-+ (id);
-+ (id);
-+ (double);
-+ (long long);
-+ (long long);
-+ (id);
++ (id)200);
++ (id)m_pid from item WHERE remote_location_id = 200);
++ (double)t_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
++ (long long)id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
++ (long long)re_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
++ (id)400 WHERE path = 'Podcasts';
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *categories; // @dynamic categories;
-@property(retain, nonatomic) NSSet *countedItems; // @dynamic countedItems;
-@property(nonatomic) long long durationInMinutes; // @dynamic durationInMinutes;
-@property(retain, nonatomic) NSDate *firstPickupDate; // @dynamic firstPickupDate;
 @property(retain, nonatomic) NSDate *lastEventDate; // @dynamic lastEventDate;
-@property(retain, nonatomic) NSDate *longestSessionEndDate; // @dynamic longestSessionEndDate;
-@property(retain, nonatomic) NSDate *longestSessionStartDate; // @dynamic longestSessionStartDate;
-@property(nonatomic) long long numberOfPickupsWithoutApplicationUsage; // @dynamic numberOfPickupsWithoutApplicationUsage;
-@property(nonatomic) long long screenTimeInSeconds; // @dynamic screenTimeInSeconds;
-@property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(retain, nonatomic) STUsage *usage; // @dynamic usage;
 
 @end
 

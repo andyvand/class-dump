@@ -4,43 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UICollectionViewData, _UICollectionViewRTree;
+@class UICollectionViewData, _UICollectionViewRTree;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewDataAttributesMap
 {
     _UICollectionViewRTree *_rTree;
-    NSMutableArray *_clonedCellAttributes;
-    NSMutableArray *_clonedSupplementaryAttributes;
-    NSMutableArray *_clonedDecorationAttributes;
-    UICollectionViewData *_collectionViewData;
-    struct CGRect _validLayoutRect;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)numberWithUnsignedInteger:(id)arg1;
+- (void)numberWithUnsignedChar:(id)arg1;
+- (void)numberWithInteger:(id)arg1;
+- (void)canHandleNotificationResponse:(id)arg1 userNotificationCenter:(long long)arg2;
+- (id)pingChatsToHighlightsQueue;
+- (id)hasScheduledMessageForHandleID:(struct CGRect)arg1;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)}};
+- (void)s.SMSReceivedRelayFailure;
+- (struct CGRect)D %@ iteration %@;
 - (struct CGRect);
-- (struct CGRect);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void)@è];
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clonedCellAttributes; // @synthesize clonedCellAttributes=_clonedCellAttributes;
-@property(retain, nonatomic) NSMutableArray *clonedDecorationAttributes; // @synthesize clonedDecorationAttributes=_clonedDecorationAttributes;
-@property(retain, nonatomic) NSMutableArray *clonedSupplementaryAttributes; // @synthesize clonedSupplementaryAttributes=_clonedSupplementaryAttributes;
 @property(readonly, nonatomic) UICollectionViewData *collectionViewData; // @synthesize collectionViewData=_collectionViewData;
-@property(readonly, nonatomic) struct CGRect validLayoutRect; // @synthesize validLayoutRect=_validLayoutRect;
 
 @end
 

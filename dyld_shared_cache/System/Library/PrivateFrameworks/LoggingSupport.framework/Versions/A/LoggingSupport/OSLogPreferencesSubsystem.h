@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface OSLogPreferencesSubsystem
 {
     NSDictionary *_systemPrefs;
-    NSString *_internalPrefsFile;
-    NSDictionary *_internalPrefs;
-    NSString *_prefsFile;
-    NSMutableDictionary *_prefs;
-    NSString *_name;
 }
 
 - (_Bool);
@@ -39,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id))	;
 - (long long);
 - (_Bool);
 - (id);
@@ -62,18 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
-@property(readonly, nonatomic) long long effectiveEnabledLevel;
-@property(readonly, nonatomic) long long effectivePersistedLevel;
-@property(nonatomic) long long enabledLevel;
-@property(readonly, nonatomic) _Bool isLocked;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool oversizeMessagesEnabled;
-@property(nonatomic) long long persistedLevel;
-@property(nonatomic) _Bool signpostAllowStreaming;
-@property(nonatomic) _Bool signpostBacktracesEnabled;
-@property(nonatomic) _Bool signpostEnabled;
-@property(nonatomic) _Bool signpostPersisted;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsArticles.RecipeViewerBarButtonItemFactory
 {
     id commandCenter;
-    id recipeViewerStyler;
-    id recipeCoordinator;
-    id radarReporter;
-    id recipeFeaturesConfiguration;
-    id recipeFactory;
 }
 
 @end

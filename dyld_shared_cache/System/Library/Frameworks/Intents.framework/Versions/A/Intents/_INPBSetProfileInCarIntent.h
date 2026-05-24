@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBInteger, _INPBIntentMetadata, _INPBString;
+@class _INPBDataString;
 
 @interface _INPBSetProfileInCarIntent
 {
     struct {
         unsigned int defaultProfile:1;
     } _has;
-    _Bool _defaultProfile;
-    _INPBDataString *_carName;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBString *_profileName;
-    _INPBInteger *_profileNumber;
 }
 
 + (_Bool);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)`C;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,33 +31,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)/PrivateFrameworks/CoreUtils.framework/CoreUtils;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool)uccess:,V_shouldForwardToAppOnSucccess /* Error: Ran out of types for this method. */;
-- (void)E;
+- (void)UNSUPPORTED_ATTRIBUTE;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName; // @synthesize carName=_carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool defaultProfile; // @synthesize defaultProfile=_defaultProfile;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasDefaultProfile;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasProfileName;
-@property(readonly, nonatomic) _Bool hasProfileNumber;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBString *profileName; // @synthesize profileName=_profileName;
-@property(retain, nonatomic) _INPBInteger *profileNumber; // @synthesize profileNumber=_profileNumber;
-@property(readonly) Class superclass;
 
 @end
 

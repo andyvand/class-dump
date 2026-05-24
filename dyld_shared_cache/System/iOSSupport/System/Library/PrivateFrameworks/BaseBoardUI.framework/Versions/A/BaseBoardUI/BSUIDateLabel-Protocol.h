@@ -7,11 +7,12 @@
 @protocol BSUIDateLabelDelegate;
 
 @protocol BSUIDateLabel
+- (id <BSUIDateLabelDelegate>)藟;
+- (void);
+- (void)L;
+- (void)ons/A/IDSKVStore;
 
 // Remaining properties
 @property(nonatomic, getter=isAllDay) _Bool allDay;
-@property(nonatomic) __weak id <BSUIDateLabelDelegate> delegate;
-@property(nonatomic) _Bool isTimestamp;
-@property(nonatomic) long long labelType;
 @end
 

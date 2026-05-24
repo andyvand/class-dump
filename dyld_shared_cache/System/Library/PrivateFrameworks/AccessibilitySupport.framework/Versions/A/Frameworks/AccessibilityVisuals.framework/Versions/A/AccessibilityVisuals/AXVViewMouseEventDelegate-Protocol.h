@@ -5,5 +5,10 @@
 //
 
 @protocol AXVViewMouseEventDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
 @end
 

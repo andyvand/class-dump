@@ -9,23 +9,21 @@
 @interface AACustodianPasswordResetInformation
 {
     NSString *_custodianRecoveryToken;
-    NSString *_ownerAppleID;
 }
 
 + (_Bool);
+- (id)lt = %d;
+- (void)es input and output to have same number of components.;
+- (id)n hasn't been prepared for encode.;
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)tWithAccount:device: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)es;
+- (void)initWithAccount:device: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *custodianRecoveryToken; // @synthesize custodianRecoveryToken=_custodianRecoveryToken;
-@property(copy, nonatomic) NSString *ownerAppleID; // @synthesize ownerAppleID=_ownerAppleID;
 
 @end
 

@@ -6,14 +6,14 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SADecoratedString;
+@class NSString;
 
 @interface SASTBodyTextItem : AceObject
 {
 }
 
++ (id)_;
 + (id);
-+ (id);
 - (void);
 - (id);
 - (void);
@@ -23,20 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)6;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignment;
-@property(copy, nonatomic) NSString *bodyText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) SADecoratedString *decoratedBodyText;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *position;
-@property(readonly) Class superclass;
 
 @end
 

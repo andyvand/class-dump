@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     UIDropInteraction *_dropInteraction;
 }
 
-- (id);
+- (id)autoLoginActiveAccountsIfNecessary;
 - (id)ation;
 - (void)k;
 

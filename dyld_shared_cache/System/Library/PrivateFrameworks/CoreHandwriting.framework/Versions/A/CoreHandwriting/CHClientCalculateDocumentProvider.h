@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface CHClientCalculateDocumentProvider
 {
     NSSet *_declaredVariables;
-    NSArray *_recognizedExpressions;
 }
 
 - (id);
@@ -19,19 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSSet *declaredVariables; // @synthesize declaredVariables=_declaredVariables;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *expressionEvaluationResults;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *recognizedExpressions; // @synthesize recognizedExpressions=_recognizedExpressions;
-@property(readonly) Class superclass;
 
 @end
 

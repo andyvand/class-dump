@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)Type"b1"subDomain"b1"quality"b1"answerClass"b1};
+- (void)"messageCharLength"b1"messageWordLength"b1};
+- (void)nPromptFailed";
 - (_Bool);
 - (id);
 

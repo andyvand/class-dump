@@ -6,43 +6,29 @@
 
 #import <UIKitCore/UICollectionViewLayout.h>
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface UICollectionViewTransitionLayout : UICollectionViewLayout
 {
     UICollectionViewLayout *_fromLayout;
-    UICollectionViewLayout *_toLayout;
-    struct CGRect _fromVisibleBounds;
-    struct CGRect _toVisibleBounds;
-    struct CGSize _contentSize;
-    _Bool _haveValidInfos;
-    double _transitionProgress;
-    NSMutableDictionary *_transitionInformationsDict;
-    NSMutableDictionary *_currentLayoutInfos;
-    _Bool _layoutIsValid;
-    NSMutableArray *_disappearingLayoutAttributes;
-    NSMutableArray *_appearingLayoutAttributes;
-    double _accuracy;
 }
 
-- (double);
+- (double);
 - (void);
 - (struct CGPoint);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)errideWithId: /* Error: Ran out of types for this method. */;
-- (void)dbackPlayer;
+- (void)_restoreInputAccessoryViewOverrideWithId: /* Error: Ran out of types for this method. */;
+- (void)__indirectFeedbackPlayer;
 - (double)dentifiers:,V_sectionForGeneratingToolbarIdentifiers /* Error: Ran out of types for this method. */;
 - (struct CGSize)custom color for text animation because of subrange mismatch with source text.
 %@
@@ -55,8 +41,6 @@
 - (id)-ÿáÖ bp;
 
 // Remaining properties
-@property(readonly, nonatomic) UICollectionViewLayout *currentLayout; // @synthesize currentLayout=_fromLayout;
-@property(readonly, nonatomic) UICollectionViewLayout *nextLayout; // @synthesize nextLayout=_toLayout;
 @property(nonatomic) double transitionProgress; // @synthesize transitionProgress=_transitionProgress;
 
 @end

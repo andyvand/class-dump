@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UISearchController;
+@protocol UISearchSuggestion;
+
 @protocol UISearchResultsUpdating
+
+@optional
+- (void)saveViewDurationEvent:(UISearchController *)arg1 withDuration:(id <UISearchSuggestion>)arg2;
 @end
 

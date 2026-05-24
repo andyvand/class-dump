@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BWStereoVideoCaptureAnalyticsPayload
 {
     int _videoOrientation;
-    int _cameraPosture;
-    _Bool _stereoVideoCaptureEnabled;
-    int _stereoVideoCaptureStatus;
-    float _stereoVideoCaptureDuration;
-    float _percentageOfFramesWithAggressiveLuxLevel;
-    float _percentageOfFramesWithAggressiveFocusDistance;
 }
 
 - (float);
@@ -30,27 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (int)nTimeNumber;
-- (int)eamyHues;
+- (id)bad ObjectDiscovery key of length %lu;
+- (int)cfIntegrationTimeNumber;
+- (int)DreamyHues;
 - (void)alid) != 0))) || ((Boolean)(CMTimeCompare(adjustedTime, _lastVideoAdjustedTime) > 0)) );
 - (_Bool)Có;
 
 // Remaining properties
-@property(nonatomic) int cameraPosture; // @synthesize cameraPosture=_cameraPosture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float percentageOfFramesWithAggressiveFocusDistance; // @synthesize percentageOfFramesWithAggressiveFocusDistance=_percentageOfFramesWithAggressiveFocusDistance;
-@property(nonatomic) float percentageOfFramesWithAggressiveLuxLevel; // @synthesize percentageOfFramesWithAggressiveLuxLevel=_percentageOfFramesWithAggressiveLuxLevel;
-@property(nonatomic) float stereoVideoCaptureDuration; // @synthesize stereoVideoCaptureDuration=_stereoVideoCaptureDuration;
 @property(nonatomic) _Bool stereoVideoCaptureEnabled; // @synthesize stereoVideoCaptureEnabled=_stereoVideoCaptureEnabled;
-@property(nonatomic) int stereoVideoCaptureStatus; // @synthesize stereoVideoCaptureStatus=_stereoVideoCaptureStatus;
-@property(readonly) Class superclass;
-@property(nonatomic) int videoOrientation; // @synthesize videoOrientation=_videoOrientation;
 
 @end
 

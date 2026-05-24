@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKPointOfInterestFilter;
-
 @interface MKLocalPointsOfInterestRequest
 {
     _Bool _createdFromRegion;
-    double _radius;
-    MKPointOfInterestFilter *_pointOfInterestFilter;
-    long long _maxResultCount;
-    struct CLLocationCoordinate2D _coordinate;
-    CDStruct_b7cb895d _region;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)__AUTH_CONST;
+- (_Bool)gcapture;
 - (double);
 - (_Bool);
-- (CDStruct_b7cb895d);
-- (long long);
+- (CDStruct_4760c753);
+- (long long);
+- (id)meric comparison failed failed;
+- (struct CLLocationCoordinate2D)_isASRFeatureFromServer;
 - (id);
-- (struct CLLocationCoordinate2D);
-- (id);
-- (double);
+- (double)P;
 - (void)hasWifiFingerprintLabelType;
-- (CDStruct_b7cb895d)lastKnownNavCourse:] /* Error: Ran out of types for this method. */;
+- (CDStruct_4760c753)lastKnownNavCourse:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
 @property(readonly, nonatomic, getter=_createdFromRegion) _Bool createdFromRegion; // @synthesize createdFromRegion=_createdFromRegion;
-@property(nonatomic, getter=_maxResultCount, setter=_setMaxResultCount:) long long maxResultCount; // @synthesize maxResultCount=_maxResultCount;
-@property(copy, nonatomic) MKPointOfInterestFilter *pointOfInterestFilter; // @synthesize pointOfInterestFilter=_pointOfInterestFilter;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly, nonatomic) CDStruct_b7cb895d region; // @synthesize region=_region;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENAccountIdentity, NSDictionary, NSString;
+@class ENAccountIdentity;
 
 @interface IDSTransactionLogTaskHandlerAccountInfo
 {
     ENAccountIdentity *_accountIdentity;
-    NSDictionary *_aliasToAccountsMap;
-    NSString *_serviceName;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ENAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
-@property(readonly, nonatomic) NSDictionary *aliasToAccountsMap; // @synthesize aliasToAccountsMap=_aliasToAccountsMap;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

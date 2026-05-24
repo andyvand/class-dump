@@ -7,6 +7,8 @@
 @protocol NSUserNotificationCenterDelegate
 
 @optional
+- (void);
+- (void);
 - (_Bool)	<	@H 0¤¸hðð !´!;
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDictionary, NSString, UIImage;
+@class NSString;
 
 @interface CNUIAcceptedContactConfiguration
 {
     NSString *_subtitle;
-    UIImage *_subtitleImage;
-    NSString *_suggestedDisplayName;
-    NSDictionary *_metadata;
-    NSString *_sendingAddress;
-    NSString *_source;
-    CNContact *_contact;
-    long long _configurationType;
-    NSString *_handle;
-    long long _handleType;
 }
 
 + (id);
@@ -26,10 +17,10 @@
 × ;
 - (id);
 - (void);
+- (void));
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
@@ -40,29 +31,20 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)	?׹;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)SWIFT_CLASS_EXISTENTIAL;
 - (id);
 - (void);
-- (void)rID:queue: /* Error: Ran out of types for this method. */;
+- (void)addDelegate:forService:listenerID:queue: /* Error: Ran out of types for this method. */;
 - (long long)tlineSectionController",&,V_sectionController;
 - (void)ns] adding container %@ to account %@ in store %@;
 - (void)<f9údk;
 
 // Remaining properties
-@property(nonatomic) long long configurationType; // @synthesize configurationType=_configurationType;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(nonatomic) long long handleType; // @synthesize handleType=_handleType;
-@property(copy) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(copy) NSString *sendingAddress; // @synthesize sendingAddress=_sendingAddress;
-@property(copy) NSString *source; // @synthesize source=_source;
-@property(copy) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy) UIImage *subtitleImage; // @synthesize subtitleImage=_subtitleImage;
-@property(copy) NSString *suggestedDisplayName; // @synthesize suggestedDisplayName=_suggestedDisplayName;
 
 @end
 

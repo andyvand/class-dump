@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSString, NSView, StartPagePopoverItemView;
+@class NSView, StartPagePopoverItemView;
 
 __attribute__((visibility("hidden")))
 @interface BackgroundThumbnailImageViewItem
 {
     StartPagePopoverItemView *_imageView;
-    NSButton *_button;
-    NSLayoutConstraint *_buttonXConstraint;
-    NSLayoutConstraint *_buttonYConstraint;
-    NSLayoutConstraint *_buttonWidthConstraint;
-    NSLayoutConstraint *_buttonHeightConstraint;
-    NSProgressIndicator *_downloadProgressIndicator;
-    NSImageView *_downloadButtonImage;
-    _Bool _canDisplayGeneratedBackgroundImage;
-    NSView *_backgroundView;
-    long long _downloadState;
-    NSString *_profileIdentifier;
 }
 
 + (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);;
 - (void);
 - (id);
 - (void);
@@ -54,9 +43,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic) _Bool canDisplayGeneratedBackgroundImage; // @synthesize canDisplayGeneratedBackgroundImage=_canDisplayGeneratedBackgroundImage;
-@property(nonatomic) long long downloadState; // @synthesize downloadState=_downloadState;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
 
 @end
 

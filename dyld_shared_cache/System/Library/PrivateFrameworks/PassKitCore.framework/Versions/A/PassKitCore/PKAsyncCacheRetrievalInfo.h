@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PKAsyncCacheRetrievalInfo
 {
     struct os_unfair_lock_s _lock;
-    _Bool _itemFetched;
-    id _item;
-    NSMutableArray *_deliveryBlocks;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ion;
+- (void)devicePrimaryInAppPaymentApplication;
 
 @end
 

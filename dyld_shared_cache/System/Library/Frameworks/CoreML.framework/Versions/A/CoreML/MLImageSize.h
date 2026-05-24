@@ -7,22 +7,20 @@
 @interface MLImageSize
 {
     long long _pixelsWide;
-    long long _pixelsHigh;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
-- (id);
+- (id)vedInKbps;
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) long long pixelsHigh; // @synthesize pixelsHigh=_pixelsHigh;
 @property(readonly) long long pixelsWide; // @synthesize pixelsWide=_pixelsWide;
 
 @end

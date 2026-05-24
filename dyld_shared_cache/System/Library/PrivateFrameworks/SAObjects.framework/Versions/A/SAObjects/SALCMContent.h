@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SALCMContent : SADomainObject
 {
@@ -23,13 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalId;
-@property(copy, nonatomic) NSString *channelId;
-@property(copy, nonatomic) NSURL *externalId;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

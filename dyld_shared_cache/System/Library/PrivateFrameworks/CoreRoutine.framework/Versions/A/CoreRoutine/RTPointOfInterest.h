@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, RTLocation, RTPolygon;
-
 @interface RTPointOfInterest
 {
     _Bool _applePaySupport;
-    _Bool _filtered;
-    _Bool _fullyCoversTile;
-    NSUUID *_identifier;
-    RTLocation *_location;
-    unsigned long long _muid;
-    RTPolygon *_polygon;
 }
 
 @end

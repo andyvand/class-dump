@@ -8,16 +8,13 @@ __attribute__((visibility("hidden")))
 @interface EDTableFilter
 {
     int mScale;
-    int mOperator;
-    double mValue;
-    double mFilterValue;
 }
 
 + (id);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)|;
 - (int);
 - (double);
 - (void);

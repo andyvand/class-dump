@@ -11,7 +11,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool rootVolumeSealValid;
 @property(readonly, retain, nonatomic) NSString *rootVolumeUUID;
 @end
 

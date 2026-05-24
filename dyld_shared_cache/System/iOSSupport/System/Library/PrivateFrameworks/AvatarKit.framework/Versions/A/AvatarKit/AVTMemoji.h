@@ -6,44 +6,9 @@
 
 #import <AvatarKit/AVTAvatar.h>
 
-@class AVTAssetResourceCache, AVTAvatarBodyPose, AVTColorPreset, AVTComponent, AVTComponentInstance, AVTCompositor, AVTMemojiWrapDeformerDriverInfo, AVTPreset, AVTPresetStore, NSDictionary, VFXMaterial, VFXNode;
-
 @interface AVTMemoji : AVTAvatar
 {
     unsigned long long _usageIntent;
-    unsigned long long _visibleBodyParts;
-    AVTAssetResourceCache *_resourceCache;
-    _Bool _needsUpdate;
-    struct os_unfair_lock_s _updateLock;
-    VFXNode *_headComponentContainer;
-    VFXNode *_bodyComponentContainer;
-    VFXNode *_handsComponentContainer;
-    VFXNode *_headNode;
-    VFXNode *_torsoNode;
-    VFXNode *_avatarNode;
-    VFXNode *_eyelashes;
-    VFXNode *_eyesAndTongue;
-    VFXNode *_skeletonRootNode;
-    AVTMemojiWrapDeformerDriverInfo *_outfitWrapDeformerDriverInfo;
-    AVTMemojiWrapDeformerDriverInfo *_headwearWrapDeformerDriverInfo;
-    VFXMaterial *_eyeMaterialLeft;
-    VFXMaterial *_eyeMaterialRight;
-    NSDictionary *_eyesAndTongueSpecializationSettings;
-    AVTComponent *_components[42];
-    AVTComponentInstance *_componentInstances[42];
-    unsigned long long _componentDirtyMask;
-    unsigned long long _componentAnimatedMask;
-    AVTPresetStore *_presetStore;
-    AVTPreset *_currentPresetsForVariants[40];
-    AVTColorPreset *_colorPresets[40][3];
-    struct CGImage *_combinedAOImage;
-    _Bool _skinAOIsValid;
-    AVTCompositor *_compositor;
-    unsigned long long _compositorComponentDirtyMask;
-    _Bool _hairPhysicsShouldIgnoreUpperNodes;
-    AVTAvatarBodyPose *_bodyPose;
-    NSDictionary *_specializationSettings;
-    CDUnknownBlockType _componentAssetNodeObservationForStickerBlock;
 }
 
 + (id);
@@ -74,24 +39,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
@@ -118,11 +83,11 @@
 - (id);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)8h;
 - (void);
 - (void);
 - (void);
@@ -138,14 +103,14 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)ry column already exists;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)analysis data.;
 - (void);
 - (id);
 - (void);

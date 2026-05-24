@@ -7,9 +7,11 @@
 @class NSString;
 
 @protocol MLE5ProgramLibraryImpl
+- (NSString *)TLGPUBVHBuilder refitVertexDataWithEncoder:descriptor:bvhDescriptor:inPlace:sourceBuffer:sourceBufferOffset:scratchBuffer:scratchBufferOffset:retainedResources:innerNodeCapacity:leafNodeCapacity:] /* Error: Ran out of types for this method. */;
+- (NSString *)Depth2dMsArrayType;
+- (struct e5rt_program_library *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *modelDisplayName;
-@property(readonly, copy, nonatomic) NSString *serializedMILText;
 @end
 

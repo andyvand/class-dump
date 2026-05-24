@@ -7,10 +7,6 @@
 @interface ICDocCamImageQuad
 {
     struct CGPoint _topLeft;
-    struct CGPoint _topRight;
-    struct CGPoint _bottomLeft;
-    struct CGPoint _bottomRight;
-    struct CGRect _boundingBox;
 }
 
 + (id);
@@ -39,9 +35,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)scheme;
+- (id)xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/Others/VideoTransmitterUtils.c:(id)arg1 %d:Invalid adjustedMTU=%d MTU=%d /* Error: Ran out of types for this method. */;
+- (id)Delegate:bufferLength:] /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -50,27 +46,15 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void):(struct CGPoint)arg1 8@16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (id)this case, which as should be guaranteed by -_isValidCodePointAtIndex:(struct _NSZone *)arg1 ";
 
 // Remaining properties
-@property(nonatomic) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(nonatomic) struct CGPoint bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) _Bool containsAngleOutOfValidThreshold;
-@property(readonly, nonatomic) _Bool containsIntersectingLines;
-@property(readonly, nonatomic) _Bool containsPointOutsideOfExtendedImageBounds;
-@property(readonly, nonatomic) _Bool containsPointsLessThanDistanceThreshold;
-@property(readonly, nonatomic) _Bool isConvex;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) double mininumAllowedDistanceBetweenPoints;
 @property(nonatomic) struct CGPoint topLeft; // @synthesize topLeft=_topLeft;
-@property(nonatomic) struct CGPoint topRight; // @synthesize topRight=_topRight;
 
 @end
 

@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputContext, AVOutputDeviceDiscoverySession, NSArray, NSDate, NSString;
-@protocol MPAVLightweightRoutingControllerDelegate;
+@class AVOutputDeviceDiscoverySession;
 
 @interface MPAVLightweightRoutingController
 {
     AVOutputDeviceDiscoverySession *_avDiscoverySession;
-    AVOutputContext *_avOutputContext;
-    _Bool _notificationScheduled;
-    NSDate *_lastOutputContextNotificationDate;
-    long long _discoveryMode;
-    NSString *_name;
-    id <MPAVLightweightRoutingControllerDelegate> _delegate;
 }
 
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
+- (id)type:Should be a color /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)ropertyAlbumDiscCount__MAPPING_MISSING__;
+- (void)__MPModelPropertyAlbumDiscCount__MAPPING_MISSING__;
 - (long long)ä/;
 
 // Remaining properties
-@property(nonatomic) __weak id <MPAVLightweightRoutingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isDevicePresenceDetected) _Bool devicePresenceDetected;
 @property(nonatomic) long long discoveryMode; // @synthesize discoveryMode=_discoveryMode;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *pickedRoutes;
 
 @end
 

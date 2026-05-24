@@ -4,38 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSKeyedSettings, FBSDisplayConfiguration;
+@class FBSDisplayConfiguration;
 @protocol FBSceneClientProcess;
 
 @protocol FBSSceneSettings
-- (_Bool)n:queue:calloutQueue:workspace: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (_Bool)n BSXPCServiceConnectionEventHandler;
+- (_Bool)_initWithIdentifier:connection:queue:calloutQueue:workspace: /* Error: Ran out of types for this method. */;
 - (double)ate a non-main FBSDisplayConfiguration from CADisplay=%@ -> created=%@;
 
+@optional
+- (id <FBSceneClientProcess>)setOptionIgnoreExistingDoublePress: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
-@property(nonatomic) BOOL activityMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tc,?,N
-
-@property(nonatomic, getter=isClientFuture) _Bool clientFuture;
-@property(retain, nonatomic) id <FBSceneClientProcess> clientProcess;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FBSceneClientProcess>",?,&,N
-
 @property(copy, nonatomic) FBSDisplayConfiguration *displayConfiguration;
-@property(nonatomic, getter=isForeground) _Bool foreground;
-@property(nonatomic) struct CGRect frame;
-@property(nonatomic) long long interfaceOrientation;
-@property(nonatomic) long long interruptionPolicy;
-@property(nonatomic) unsigned short jetsamPriority;
-@property(nonatomic) double level;
-@property(nonatomic, getter=isOccluded) _Bool occluded;
-@property(nonatomic) _Bool prefersProcessTaskSuspensionWhileSceneForeground;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) BSKeyedSettings *propagatedSettings;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"BSKeyedSettings",?,&,N
-
 @end
 

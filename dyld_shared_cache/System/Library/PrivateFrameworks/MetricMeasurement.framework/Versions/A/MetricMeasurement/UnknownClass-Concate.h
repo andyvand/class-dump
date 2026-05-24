@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Concate)
-- (id);
+- (id)|;
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UIVisualEffectView;
-@protocol SXFullscreenNavigationBarViewDelegate;
+@class UIVisualEffectView;
 
 @interface SXFullscreenNavigationBarView
 {
     _Bool _expanded;
-    id <SXFullscreenNavigationBarViewDelegate> _delegate;
-    UIVisualEffectView *_backgroundView;
-    UIButton *_button;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -33,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) __weak id <SXFullscreenNavigationBarViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
 
 @end
 

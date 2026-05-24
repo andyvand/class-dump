@@ -5,5 +5,8 @@
 //
 
 @protocol AssetCacheServicesManagerProtocol
+- (oneway void);
+- (oneway void);
+- (oneway void)@yI;
 @end
 

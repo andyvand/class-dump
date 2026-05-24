@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, NSString;
-@protocol PKBluetoothMonitorerDelegate;
+@class CBCentralManager;
 
 @interface PKBluetoothMonitorer
 {
     CBCentralManager *_bluetoothManager;
-    id <PKBluetoothMonitorerDelegate> _delegate;
-    long long _state;
 }
 
-- (id);
+- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)registerForDraggedTypes: /* Error: Ran out of types for this method. */;
 - (void)ransit.apple.calypso.navigo;
-- (id)MenuButtonDismissal;
+- (id)SBUserNotificationAllowMenuButtonDismissal;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKBluetoothMonitorerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

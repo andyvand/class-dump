@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath, UITargetedPreview, _UIShadowProperties, _UIViewAlphaOverrideAssertion;
-@protocol _UIAssertion;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIMagicMorphDestination
 {
     UITargetedPreview *preview;
-    _UIShadowProperties *shadowProperties;
-    _Bool hidesSourceView;
-    struct UIEdgeInsets insets;
-    _Bool allowsUserInteraction;
-    _Bool wantsMinificationFilter;
-    _UIViewAlphaOverrideAssertion *hidingAssertion;
-    id <_UIAssertion> backgroundSuppressionAssertion;
-    UIBezierPath *shadowPath;
-    id previewSize;
-    id initialLuminance;
-    id $__lazy_storage_$_progress;
-    id transformView;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)f file URLs:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (void)Failed to create IMDChat for guid %@ chatIdentifier %@ ChatRecord %@;
+- (void)tionary"8d16;
 - (void);
 - (void);
 - (void);
@@ -38,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id)MPArtworkDataSourceIdentifiable;
+- (void)[accessory=nil];
 - (id);
-- (void);
-- (id);
-- (struct UIEdgeInsets)cusedView;
-- (void)upPresentationStyles;
+- (struct UIEdgeInsets)focusedView;
+- (void)_updateActionsGroupPresentationStyles;
 - (void)_prepareHighlightForInteraction:(struct UIEdgeInsets)arg1;
 - (id);
 - (id);
@@ -51,16 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)þ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsUserInteraction; // @synthesize allowsUserInteraction;
-@property(nonatomic, retain) id <_UIAssertion> backgroundSuppressionAssertion; // @synthesize backgroundSuppressionAssertion;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic) _Bool hidesSourceView; // @synthesize hidesSourceView;
-@property(nonatomic, retain) _UIViewAlphaOverrideAssertion *hidingAssertion; // @synthesize hidingAssertion;
-@property(nonatomic) struct UIEdgeInsets insets; // @synthesize insets;
 @property(nonatomic, retain) UITargetedPreview *preview; // @synthesize preview;
-@property(nonatomic, retain) UIBezierPath *shadowPath; // @synthesize shadowPath;
-@property(nonatomic, retain) _UIShadowProperties *shadowProperties; // @synthesize shadowProperties;
-@property(nonatomic) _Bool wantsMinificationFilter; // @synthesize wantsMinificationFilter;
 
 @end
 

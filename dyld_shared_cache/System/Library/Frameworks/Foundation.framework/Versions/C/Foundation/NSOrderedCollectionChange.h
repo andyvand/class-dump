@@ -7,18 +7,12 @@
 @interface NSOrderedCollectionChange
 {
     id _object;
-    long long _changeType;
-    unsigned long long _index;
-    unsigned long long _associatedIndex;
 }
 
 + (id);
 + (id);
 
 // Remaining properties
-@property(readonly) unsigned long long associatedIndex; // @synthesize associatedIndex=_associatedIndex;
-@property(readonly) long long changeType; // @synthesize changeType=_changeType;
-@property(readonly) unsigned long long index; // @synthesize index=_index;
 @property(readonly) id object; // @synthesize object=_object;
 
 @end

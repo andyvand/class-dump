@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (CDUnknownBlockType)eturnKeyType: /* Error: Ran out of types for this method. */;
-- (void)ransition;
-- (void)DirectionalLightEffectView;
+- (void)setUseApplicationAudioSession:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)translateToTextInputReturnKeyType: /* Error: Ran out of types for this method. */;
+- (void)isHiddenForFloatingTransition;
+- (void)UIRBDirectionalLightEffectView;
 - (void)Ü´¿\;
 
 // Remaining properties

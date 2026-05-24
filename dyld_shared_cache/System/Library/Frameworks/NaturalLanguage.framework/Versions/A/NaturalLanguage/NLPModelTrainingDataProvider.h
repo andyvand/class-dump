@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NLPModelTrainingDataProvider : NLDataProvider
 {
     unsigned long long _numberOfInstances;
-    void *_dataSource;
-    CDUnknownBlockType _instanceDataProvider;
 }
 
 - (unsigned long long);
 - (id);
-- (id);
+- (id)utilityCollectionQRCodes;
 - (void);
 
 @end

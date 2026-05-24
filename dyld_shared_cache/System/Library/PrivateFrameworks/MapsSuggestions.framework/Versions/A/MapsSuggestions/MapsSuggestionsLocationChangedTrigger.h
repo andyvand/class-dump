@@ -6,17 +6,11 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseTrigger.h>
 
-@class CLLocation, MapsSuggestionsCanKicker, NSString;
-@protocol MapsSuggestionsLocationUpdater;
+@class CLLocation, NSString;
 
 @interface MapsSuggestionsLocationChangedTrigger : MapsSuggestionsBaseTrigger
 {
     CLLocation *_previousLocation;
-    double _minDistance;
-    id <MapsSuggestionsLocationUpdater> _locationUpdater;
-    MapsSuggestionsCanKicker *_locationForceUpdateCanKicker;
-    double _locationForceUpdateTime;
-    id <MapsSuggestionsLocationUpdater> _forcingLocationUpdater;
 }
 
 - (void);
@@ -34,13 +28,6 @@
 - (void)torDelegate>"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

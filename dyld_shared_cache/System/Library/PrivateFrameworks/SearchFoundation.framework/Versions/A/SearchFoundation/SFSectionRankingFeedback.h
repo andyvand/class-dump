@@ -6,36 +6,30 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSArray, SFResultSection;
+@class NSArray;
 
 @interface SFSectionRankingFeedback : SFFeedback
 {
     NSArray *_results;
-    SFResultSection *_section;
-    unsigned long long _localSectionPosition;
-    double _personalizationScore;
 }
 
 + (_Bool);
-- (id);
+- (id)updateJaliscoLibraryWithReason:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)Source handleActionTimeout:(id)arg1 ]_block_invoke;
+- (void)_shouldStopAlertForUserInterruption:(id)arg1;
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)PHCollectionPresentationHintsQualityCategoryNone;
 - (void);
 - (double);
-- (void);
+- (void)duration;
 
 // Remaining properties
-@property(nonatomic) unsigned long long localSectionPosition; // @synthesize localSectionPosition=_localSectionPosition;
-@property(nonatomic) double personalizationScore; // @synthesize personalizationScore=_personalizationScore;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(copy, nonatomic) SFResultSection *section; // @synthesize section=_section;
 
 @end
 

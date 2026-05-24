@@ -11,13 +11,13 @@
     NSArray *_meInfoList;
 }
 
-+ (_Bool);
++ (_Bool)NULL;
 - (id);
 - (id);
 - (_Bool);
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)U{;
 - (id);
 - (void)qª)ð1Â0@ù
 × ;

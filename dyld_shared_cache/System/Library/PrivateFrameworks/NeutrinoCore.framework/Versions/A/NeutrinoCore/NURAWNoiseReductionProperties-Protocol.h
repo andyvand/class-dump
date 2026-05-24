@@ -8,10 +8,6 @@
 - (double)o CPU device;
 
 // Remaining properties
-@property(readonly) double color;
-@property(readonly) double contrast;
-@property(readonly) double detail;
 @property(readonly) double luminance;
-@property(readonly) double sharpness;
 @end
 

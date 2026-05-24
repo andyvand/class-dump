@@ -5,5 +5,6 @@
 //
 
 @protocol STDebouncerDelegate
+- (void)user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill) SELECT item_pid, IFNULL(user_rating, 0), IFNULL(needs_restore, 0), download_identifier, IFNULL(play_count_user, 0), IFNULL(play_count_recent, 0), IFNULL(has_been_played, 0), IFNULL(date_played, 0), IFNULL(date_skipped, 0), IFNULL(date_accessed, 0), IFNULL(is_alarm, 0), IFNULL(skip_count_user, 0), IFNULL(skip_count_recent, 0), IFNULL(remember_bookmark, 0), IFNULL(bookmark_time_ms, 0.0), IFNULL(hidden, 0), IFNULL(chosen_by_auto_fill, 0) FROM item_stats;
 @end
 

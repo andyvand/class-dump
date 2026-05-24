@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAngleBracketIDHash, EFPathComponent, NSString;
-@protocol MCRemoteAttachmentDataSource;
-
 @interface MFLibraryAttachmentDataSource
 {
     _Bool _isMailDropImageArchive;
-    _Bool _isMailDropImageThumbnail;
-    _Bool _isAutoArchiveAttachment;
-    id <MCRemoteAttachmentDataSource> _remoteDataSource;
-    long long _messageID;
-    NSString *_mimePartNumber;
-    ECAngleBracketIDHash *_contentIDHash;
-    EFPathComponent *_attachmentFilename;
 }
 
 + (id);
@@ -26,7 +16,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -36,7 +26,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (id)øtûÿ;
@@ -44,24 +34,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) EFPathComponent *attachmentFilename; // @synthesize attachmentFilename=_attachmentFilename;
-@property(readonly, nonatomic) _Bool canResultsBeCached;
-@property(readonly, copy, nonatomic) ECAngleBracketIDHash *contentIDHash; // @synthesize contentIDHash=_contentIDHash;
-@property(readonly, nonatomic) _Bool dataIsLocallyAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAutoArchiveAttachment; // @synthesize isAutoArchiveAttachment=_isAutoArchiveAttachment;
-@property(readonly, nonatomic) _Bool isDirectory;
-@property(readonly, nonatomic) _Bool isMailDropImageArchive; // @synthesize isMailDropImageArchive=_isMailDropImageArchive;
-@property(readonly, nonatomic) _Bool isMailDropImageThumbnail; // @synthesize isMailDropImageThumbnail=_isMailDropImageThumbnail;
 @property(readonly, nonatomic) long long messageID; // @synthesize messageID=_messageID;
-@property(readonly, copy, nonatomic) NSString *mimePartNumber; // @synthesize mimePartNumber=_mimePartNumber;
-@property(readonly, nonatomic) id <MCRemoteAttachmentDataSource> remoteDataSource; // @synthesize remoteDataSource=_remoteDataSource;
-@property(readonly) Class superclass;
 
 @end
 

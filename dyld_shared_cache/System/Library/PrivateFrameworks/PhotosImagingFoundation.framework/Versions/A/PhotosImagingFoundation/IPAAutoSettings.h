@@ -13,30 +13,22 @@
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)isCumulativePanAcceptableForFrames:firstIndex:lastIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool pending;
-@property(readonly) Class superclass;
 
 @end
 

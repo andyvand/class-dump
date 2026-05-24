@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOMapFeatureAccess, GEOMapFeatureRoad, NSMutableDictionary;
+@class GEOLocation, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface GEORoadConnectivityPenalty
 {
     GEOLocation *_location;
-    GEOMapFeatureRoad *_originRoad;
-    NSMutableDictionary *_roadIntersections;
-    GEOMapFeatureAccess *_mapFeatureAccess;
-    unsigned long long _maxDepthForRoadConnectivity;
-    _Bool _completedConnectivityMap;
 }
 
 - (unsigned long long);
@@ -22,14 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)customValues;
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapFeatureRoad *originRoad;
 @property(retain, nonatomic) NSMutableDictionary *roadIntersections; // @synthesize roadIntersections=_roadIntersections;
 
 @end

@@ -7,9 +7,9 @@
 @protocol CRKOutputDevice;
 
 @protocol CRKAirPlayPrimitives
+- (id <CRKOutputDevice>)ment to context;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKOutputDevice> currentOutputDevice;
 @property(readonly, nonatomic) id <CRKOutputDevice> localOutputDevice;
 @end
 

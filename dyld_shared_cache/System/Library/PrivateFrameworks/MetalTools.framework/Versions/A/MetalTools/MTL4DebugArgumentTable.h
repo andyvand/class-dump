@@ -9,9 +9,6 @@
 @interface MTL4DebugArgumentTable : MTL4ToolsArgumentTable
 {
     struct vector<MTL4DebugBindingInfo, std::allocator<MTL4DebugBindingInfo>> _bufferBindings;
-    struct vector<MTL4DebugBindingInfo, std::allocator<MTL4DebugBindingInfo>> _textureBindings;
-    struct vector<MTL4DebugBindingInfo, std::allocator<MTL4DebugBindingInfo>> _samplerBindings;
-    _Bool _supportsAttributeStrides;
 }
 
 - (const struct MTL4DebugBindingInfo *);
@@ -24,7 +21,7 @@
 - (id);
 - (const struct MTL4DebugBindingInfo *);
 - (id);
-- (void)nClamps:lodMaxClamps:withRange: /* Error: Ran out of types for this method. */;
+- (void)setVertexSamplerStates:lodMinClamps:lodMaxClamps:withRange: /* Error: Ran out of types for this method. */;
 
 @end
 

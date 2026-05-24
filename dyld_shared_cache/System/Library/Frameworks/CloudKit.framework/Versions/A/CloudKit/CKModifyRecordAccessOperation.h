@@ -6,19 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKModifyRecordAccessOperationInfo, NSArray, NSMutableArray, NSMutableDictionary, NSString;
 @protocol CKModifyRecordAccessOperationCallbacks;
 
 @interface CKModifyRecordAccessOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _recordAccessGrantedBlock;
-    CDUnknownBlockType _recordAccessRevokedBlock;
-    CDUnknownBlockType _recordAccessCompletionBlock;
-    NSArray *_recordIDsToGrant;
-    NSArray *_recordIDsToRevoke;
-    NSMutableDictionary *_recordErrors;
-    NSMutableArray *_grantedRecordIDs;
-    NSMutableArray *_revokedRecordIDs;
 }
 
 + (SEL);
@@ -29,13 +21,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)=q;
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
+- (id)	=;
 - (void);
 - (void);
 - (id);
@@ -44,7 +36,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)K;
 - (void);
 - (_Bool);
 - (_Bool)¬;
@@ -54,22 +46,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKModifyRecordAccessOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *grantedRecordIDs; // @synthesize grantedRecordIDs=_grantedRecordIDs;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKModifyRecordAccessOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType recordAccessCompletionBlock; // @synthesize recordAccessCompletionBlock=_recordAccessCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordAccessGrantedBlock; // @synthesize recordAccessGrantedBlock=_recordAccessGrantedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordAccessRevokedBlock; // @synthesize recordAccessRevokedBlock=_recordAccessRevokedBlock;
-@property(retain, nonatomic) NSMutableDictionary *recordErrors; // @synthesize recordErrors=_recordErrors;
-@property(retain, nonatomic) NSArray *recordIDsToGrant; // @synthesize recordIDsToGrant=_recordIDsToGrant;
-@property(retain, nonatomic) NSArray *recordIDsToRevoke; // @synthesize recordIDsToRevoke=_recordIDsToRevoke;
-@property(retain, nonatomic) NSMutableArray *revokedRecordIDs; // @synthesize revokedRecordIDs=_revokedRecordIDs;
-@property(readonly) Class superclass;
 
 @end
 

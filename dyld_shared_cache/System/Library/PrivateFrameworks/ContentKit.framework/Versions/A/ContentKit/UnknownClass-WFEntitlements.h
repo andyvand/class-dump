@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface UnknownClass (WFEntitlements)
 - (id);
@@ -14,10 +14,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=wf_applicationGroups) NSArray *applicationGroups;
-@property(readonly, nonatomic, getter=wf_apsEnvironment) NSString *apsEnvironment;
 @property(readonly, nonatomic, getter=wf_entitlements) NSDictionary *entitlements;
-@property(readonly, nonatomic, getter=wf_keychainAccessGroups) NSArray *keychainAccessGroups;
-@property(readonly, nonatomic, getter=wf_teamIdentifier) NSString *teamIdentifier;
 @end
 

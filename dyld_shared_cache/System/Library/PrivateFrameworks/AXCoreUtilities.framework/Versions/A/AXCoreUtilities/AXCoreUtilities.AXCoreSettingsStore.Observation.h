@@ -7,12 +7,9 @@
 @interface AXCoreUtilities.AXCoreSettingsStore.Observation
 {
     id id;
-    id key;
-    id block;
-    id suite;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

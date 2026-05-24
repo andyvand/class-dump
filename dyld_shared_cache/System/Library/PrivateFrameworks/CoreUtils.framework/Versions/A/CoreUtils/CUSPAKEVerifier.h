@@ -9,7 +9,6 @@
 @interface CUSPAKEVerifier
 {
     NSData *_passwordData;
-    struct ccspake_ctx *_spakeContext;
 }
 
 - (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)updateInterestedAssertionReasons: /* Error: Ran out of types for this method. */;
 
 @end
 

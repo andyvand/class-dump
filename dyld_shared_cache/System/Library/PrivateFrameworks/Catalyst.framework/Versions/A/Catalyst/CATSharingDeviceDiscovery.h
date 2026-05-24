@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, NSArray;
-@protocol CATSharingDeviceDiscoveryDelegate, CATSharingDiscoveryPrimitives;
+@protocol CATSharingDiscoveryPrimitives;
 
 @interface CATSharingDeviceDiscovery
 {
     id <CATSharingDiscoveryPrimitives> mDiscoveryPrimitives;
-    id <CATSharingDeviceDiscoveryDelegate> mDelegate;
-    CATOperationQueue *mDelegationQueue;
-    _Bool _invalidated;
-    NSArray *_nearbyDevices;
 }
 
 - (void);
@@ -30,11 +25,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(copy, nonatomic) NSArray *nearbyDevices; // @synthesize nearbyDevices=_nearbyDevices;
 
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSString, SMSessionConfigurationMO;
+@class NSString;
 
 @interface SMConversationMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)BBB}I}16@0:(id)arg1 8;
++ (id)tityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
++ (id)WithListener:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SMSessionConfigurationMO *configuration; // @dynamic configuration;
-@property(copy, nonatomic) NSString *displayName; // @dynamic displayName;
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSOrderedSet *receiverHandles; // @dynamic receiverHandles;
-@property(retain, nonatomic) SMSessionConfigurationMO *sosConfiguration; // @dynamic sosConfiguration;
 
 @end
 

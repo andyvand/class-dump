@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_leadingToIconViewCenterX;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)updateIsDeletingIncomingMessages:(id)arg1;
+- (id)cachedUnreadReportsCount;
+- (void)_shouldReportNewUserIfCreatedChatZones:deletedZones: /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
 - (void)Ða];

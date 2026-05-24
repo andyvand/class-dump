@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWholeHouseAudioDestinationContext : SISchemaInstrumentationMessage
 {
     unsigned int _eligibleDeviceCount;
-    unsigned int _deviceSuccessCount;
-    struct {
-        unsigned int eligibleDeviceCount:1;
-        unsigned int deviceSuccessCount:1;
-    } _has;
 }
 
 - (void);
@@ -28,9 +21,9 @@
 - (unsigned int);
 - (void);
 - (void);
-- (id);
+- (id)__objc_protolist__DATA_CONST;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -39,11 +32,7 @@
 - (id)Ì ¤!;
 
 // Remaining properties
-@property(nonatomic) unsigned int deviceSuccessCount; // @synthesize deviceSuccessCount=_deviceSuccessCount;
 @property(nonatomic) unsigned int eligibleDeviceCount; // @synthesize eligibleDeviceCount=_eligibleDeviceCount;
-@property(nonatomic) _Bool hasDeviceSuccessCount;
-@property(nonatomic) _Bool hasEligibleDeviceCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

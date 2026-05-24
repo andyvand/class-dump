@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBArchivedObject;
-
 @interface _INPBRunWorkflowIntentResponse
 {
     struct {
@@ -13,16 +11,9 @@
         unsigned int requestsIntentExecution:1;
         unsigned int waitingForResume:1;
     } _has;
-    _Bool _continueRunning;
-    _Bool _requestsIntentExecution;
-    _Bool _waitingForResume;
-    NSArray *_steps;
-    _INPBArchivedObject *_underlyingIntent;
-    _INPBArchivedObject *_underlyingIntentResponse;
-    NSString *_utterance;
 }
 
-+ (Class);
++ (Class)ocessed {%lu, %lu};
 + (_Bool);
 - (_Bool);
 - (id);
@@ -35,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,7 +40,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)Error">28;
 - (void);
 - (id);
 - (unsigned long long);
@@ -63,26 +54,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool continueRunning; // @synthesize continueRunning=_continueRunning;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasContinueRunning;
-@property(nonatomic) _Bool hasRequestsIntentExecution;
-@property(readonly, nonatomic) _Bool hasUnderlyingIntent;
-@property(readonly, nonatomic) _Bool hasUnderlyingIntentResponse;
-@property(readonly, nonatomic) _Bool hasUtterance;
-@property(nonatomic) _Bool hasWaitingForResume;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool requestsIntentExecution; // @synthesize requestsIntentExecution=_requestsIntentExecution;
-@property(copy, nonatomic) NSArray *steps; // @synthesize steps=_steps;
-@property(readonly, nonatomic) unsigned long long stepsCount;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBArchivedObject *underlyingIntent; // @synthesize underlyingIntent=_underlyingIntent;
-@property(retain, nonatomic) _INPBArchivedObject *underlyingIntentResponse; // @synthesize underlyingIntentResponse=_underlyingIntentResponse;
-@property(copy, nonatomic) NSString *utterance; // @synthesize utterance=_utterance;
-@property(nonatomic) _Bool waitingForResume; // @synthesize waitingForResume=_waitingForResume;
 
 @end
 

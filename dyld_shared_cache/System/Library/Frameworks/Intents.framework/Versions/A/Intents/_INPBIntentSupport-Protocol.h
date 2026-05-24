@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString;
 
 @protocol _INPBIntentSupport
+- (NSString *);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *intentsRestrictedWhileLockeds;
-@property(readonly, nonatomic) unsigned long long intentsRestrictedWhileLockedsCount;
-@property(copy, nonatomic) NSArray *intentsSupporteds;
-@property(readonly, nonatomic) unsigned long long intentsSupportedsCount;
-@property(copy, nonatomic) NSArray *supportedMediaCategories;
-@property(readonly, nonatomic) unsigned long long supportedMediaCategoriesCount;
 @end
 

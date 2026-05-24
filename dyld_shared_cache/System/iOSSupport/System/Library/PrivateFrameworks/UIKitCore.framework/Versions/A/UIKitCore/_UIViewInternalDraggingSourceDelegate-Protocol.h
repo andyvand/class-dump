@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UIView, _UIDragSessionProperties;
+
 @protocol _UIViewInternalDraggingSourceDelegate
+- (NSArray *);
+- (_UIDragSessionProperties *)%s;
+- (NSArray *)tialImport;
+- (long long);
+- (void);
 - (_Bool)1Â0@ù
 × ;
-- (void);
+- (void)placementTargetingSceneSession:(UIView *)arg1;
 @end
 

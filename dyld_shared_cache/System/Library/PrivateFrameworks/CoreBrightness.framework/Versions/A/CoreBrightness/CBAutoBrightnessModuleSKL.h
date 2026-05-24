@@ -6,36 +6,12 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBABCurve, CBBespokeModeManager, CBDisplayModuleSKL, CBRingLight, NSMutableArray, NSString;
+@class CBDisplayModuleSKL, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CBAutoBrightnessModuleSKL : CBModule
 {
     NSMutableArray *_ALSServices;
-    NSString *_containerID;
-    NSString *_uniqueID;
-    NSString *_displayUUID;
-    _Bool _enabled;
-    _Bool _available;
-    _Bool _displayState;
-    _Bool _presetDisableAB;
-    CBABCurve *_curve;
-    CBABCurve *_preRingLightCurve;
-    _Bool _updatesFrozen;
-    _Bool _suspendAutoBrightness;
-    _Bool _fastRamp;
-    _Bool _builtIn;
-    _Bool _firstBrightnessUpdate;
-    _Bool _running;
-    unsigned long long _chargerState;
-    _Bool _chargerDimmingEnabled;
-    _Bool _ecoModeState;
-    CBRingLight *_ringLight;
-    int _gameModeToken;
-    unsigned long long _gameModeState;
-    CBBespokeModeManager *_bespokeManager;
-    _Bool _bespokeEnabled;
-    CBDisplayModuleSKL *_displayModule;
 }
 
 - (void);
@@ -66,24 +42,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)AFOperationCompleted;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) CBDisplayModuleSKL *displayModule; // @synthesize displayModule=_displayModule;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

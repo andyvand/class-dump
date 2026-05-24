@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ibraryDescriptorSPI"16^@24;
 - (void);
 - (id);
 - (unsigned long long);

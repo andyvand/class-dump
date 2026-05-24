@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKTextDocumentTextInputAdaptor;
 @protocol IMKTextDocument;
 
 @interface IMKTextInputTextDocumentAdaptor
@@ -12,14 +11,14 @@
     id <IMKTextDocument> _textDocument;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)S;
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)h;
+- (void)[8	;
 - (void);
 - (long long);
 - (id);
@@ -28,9 +27,9 @@
 - (id);
 - (void);
 - (struct CGRect);
+- (id)fff@fff@fff@fff@fff@;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (long long);
 - (_Bool);
@@ -41,7 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMKTextDocument> textDocument; // @synthesize textDocument=_textDocument;
-@property(readonly, nonatomic) IMKTextDocumentTextInputAdaptor *textDocumentAdaptor;
 
 @end
 

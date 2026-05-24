@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id);
 - (void)ComputeEncoder->isEncoding();
 - (void)atrix * float4(params.surface.position, 1.f))).rgb;
     if (LIGHT_IS_MODULATE(lightInfo)) {

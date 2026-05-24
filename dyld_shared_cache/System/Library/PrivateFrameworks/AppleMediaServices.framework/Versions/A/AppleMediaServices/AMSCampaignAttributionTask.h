@@ -6,18 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSCampaignAttributor, AMSProcessInfo, AMSURLSession, NSArray, NSString, NSURL;
-@protocol AMSBagProtocol;
+@class ACAccount, AMSURLSession;
 
 @interface AMSCampaignAttributionTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSArray *_additionalQueryItems;
-    NSURL *_URL;
-    AMSURLSession *_URLSession;
-    AMSCampaignAttributor *_campaignAttributor;
 }
 
 + (id);
@@ -25,15 +18,15 @@
 xÃ(EñpëG G°¾e>vòØáÉbâF]¢BØ>FQÇsi¡}/D>¤WdIA¢Ú^ô^Æ'rñFßÛ¢W:ØáshYòÌyéëÈ²;ÛPÃßñQõÂ¡XoÅ^%Ð°yé´÷ó!¼Ç4é¸¼Süc0¡U`X;t¤ÂcSUg'¯­Â1èv1%Â/Ìd6Î<ô-\êupØ$ØëêQPd0m]DÛÔ%0¾*ôóä}å¿£j¨"	GïcçZ_*F²]'s'ÔáBª,*2bcJi¼ñþ /* Error: Ran out of types for this method. */;
 + (id)ýÁI!1lMT;
 + (id)Põ;
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id)C;
+- (id);
+- (void);
+- (id);
+- (id)le to extract contact for data. Error %@;
 - (id);
 - (id);
 - (void)entifier;
@@ -42,20 +35,7 @@ xÃ(EñpëG G°¾e>vòØáÉbâF]¢BØ>FQÇsi¡}/D>¤Wd
 - (id)ÚÕ¶	ÄÐF>±Ú7¥âb¢¥NÂó_ÖTá7´¬e¤FÔéA´÷@¹d§ÏQ Ñ­IæsÇüýéÂo¼È-wIQrûá`ÔzCýB·Iì»ú¾æ+ÅÜJ*NSV ©-Ê%Ls;
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly) AMSURLSession *URLSession; // @synthesize URLSession=_URLSession;
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property(copy) NSArray *additionalQueryItems; // @synthesize additionalQueryItems=_additionalQueryItems;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain, nonatomic) AMSCampaignAttributor *campaignAttributor; // @synthesize campaignAttributor=_campaignAttributor;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

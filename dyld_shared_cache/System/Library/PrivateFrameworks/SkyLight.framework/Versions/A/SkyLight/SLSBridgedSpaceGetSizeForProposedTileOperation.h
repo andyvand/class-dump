@@ -6,18 +6,15 @@
 
 #import <SkyLight/SLSSynchronousBridgedWindowManagementOperation.h>
 
-@class NSDictionary;
-
 @interface SLSBridgedSpaceGetSizeForProposedTileOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    NSDictionary *_values;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)> %@ -> %@;
+- (id)com.apple.coredata.cloudkit.zone;
+- (id)ple.backupd;
 - (unsigned long long);
 - (id);
 - (void);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly, copy) NSDictionary *values; // @synthesize values=_values;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage, NSSharingService, NSView;
+
 @protocol NSSharingServiceDelegate
+
+@optional
+- (void);
+- (NSImage *)Foundation.framework/Versions/C/Foundation;
+- (void)WMF;
+- (void)brary/PrivateFrameworks/GPURawCounter.framework/Versions/A/GPURawCounter;
+- (NSView *)removeObjectAtIndex:(NSSharingService *)arg1;
 @end
 

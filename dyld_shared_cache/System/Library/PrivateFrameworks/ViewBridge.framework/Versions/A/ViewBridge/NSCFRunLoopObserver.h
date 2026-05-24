@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSCFRunLoopObserver
 {
     unsigned long long _activities;
-    NSMutableArray *_modes;
-    NSMutableArray *_observers;
-    struct __CFRunLoop *_loop;
 }
 
 + (id);

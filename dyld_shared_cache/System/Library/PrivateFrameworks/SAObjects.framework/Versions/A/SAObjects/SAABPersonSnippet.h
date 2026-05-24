@@ -19,11 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ToLeft;
+- (void)RightToLeft;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *displayProperties;
-@property(copy, nonatomic) NSArray *persons;
 
 @end
 

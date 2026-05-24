@@ -4,68 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSNumber, NSString, NSUUID, PBRequest;
-@protocol DRSDecisionServerBatchRequest;
+@class NSUUID;
 
 @interface DRSRequest
 {
     _Bool _hasBeenCountedByTelemetry;
-    unsigned char _decisionServerDecision;
-    _Bool _isExpedited;
-    unsigned short _uploadAttemptCount;
-    NSUUID *_requestID;
-    NSDate *_requestDate;
-    NSString *_build;
-    NSString *_teamID;
-    NSString *_issueCategory;
-    NSString *_issueDescription;
-    NSData *_contextDictionaryData;
-    NSDictionary *_contextDictionary;
-    unsigned long long _requestMCT;
-    NSString *_logType;
-    NSArray *_logs;
-    unsigned long long _requestState;
-    NSString *_errorDescription;
-    NSString *_ckRecordID;
-    unsigned long long _uploadID;
-    NSArray *_submittedLogInfos;
 }
 
 + (_Bool);
++ (id)a;
 + (id);
-+ (id);
-+ (unsigned char);
-+ (_Bool);
++ (unsigned char);
++ (_Bool);
 + (Class);
 + (_Bool);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)C;
 + (_Bool);
 + (id);
 + (id);
 + (unsigned long long);
 + (id);
-+ (id)tsType;
++ (id)decisionResultsType;
 - (id);
 - (void);
 - (_Bool);
 - (id);
+- (id)ntroller";
+- (void)registrationStatus;
+- (id);
+- (id);
+- (id);
+- (_Bool)f8;
+- (void);
+- (_Bool)r Lifestyle1 badge emblem;
+- (_Bool)two labels. The `INLINE_MENU_please_read_comments` parameter will be replaced with a button menu allowing the user to choose a filter operator with the choices of 'HASHTAGS_OPTION_OR' or 'LIST_DETAIL_OPTION_AND'. This tag should be placed in the appropriate location in the string for the respective language and **MUST** only appear once;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (void);
@@ -80,7 +60,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)4;
 - (_Bool);
 - (unsigned char);
 - (id);
@@ -88,12 +68,12 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (unsigned char);
+- (unsigned char);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (id);
 - (_Bool);
@@ -101,11 +81,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Y;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)_audioTabRootNodes;
 - (id);
 - (id);
 - (void);
@@ -114,11 +94,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)k: /* Error: Ran out of types for this method. */;
 - (unsigned short);
 - (_Bool);
 - (id);
@@ -131,12 +111,12 @@
 - (void)@ù
 × ;
 - (id)peningManager";
-- (void)me:(id)arg1;
-- (void)OrSeedNoDownsamplingConfiguration;
-- (unsigned long long)_MOC_QUEUE: /* Error: Ran out of types for this method. */;
+- (void)setOutcome:(id)arg1;
+- (void)hangTracerWatchOSInternalOrSeedNoDownsamplingConfiguration;
+- (unsigned long long)_initWithTeamDampeningConfigMO_ON_MOC_QUEUE: /* Error: Ran out of types for this method. */;
 - (id)ltString:completionBlock: /* Error: Ran out of types for this method. */;
 - (id)ableArray",&,N;
-- (id)essageMutation;
+- (id)CKCodeOperationMessageMutation;
 - (id)managers due to error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)tersDict;
 - (id)ic}@. Unsubscribing;
@@ -144,52 +124,7 @@
 - (id)ound for %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *automatedDeviceGroup;
-@property(readonly, nonatomic) NSString *build; // @synthesize build=_build;
-@property(readonly, nonatomic) NSString *ckRecordID; // @synthesize ckRecordID=_ckRecordID;
-@property(readonly, nonatomic) NSDictionary *contextDictionary; // @synthesize contextDictionary=_contextDictionary;
-@property(readonly, nonatomic) NSData *contextDictionaryData; // @synthesize contextDictionaryData=_contextDictionaryData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned char decisionServerDecision; // @synthesize decisionServerDecision=_decisionServerDecision;
-@property(readonly, nonatomic) NSString *decisionServerDecisionString;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(readonly, nonatomic) unsigned long long expectedType;
-@property(readonly, nonatomic) NSString *functionName;
-@property(nonatomic) _Bool hasBeenCountedByTelemetry; // @synthesize hasBeenCountedByTelemetry=_hasBeenCountedByTelemetry;
-@property(readonly, nonatomic) _Bool hasUploadableContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *hwModel;
-@property(readonly, nonatomic) _Bool isExpedited; // @synthesize isExpedited=_isExpedited;
-@property(readonly, nonatomic) NSNumber *isLikeCarryDevice;
-@property(readonly, nonatomic) _Bool isNonPurgeableInFlightUntilUploadAttempt;
-@property(readonly, nonatomic) NSString *issueCategory; // @synthesize issueCategory=_issueCategory;
-@property(readonly, nonatomic) NSString *issueDescription; // @synthesize issueDescription=_issueDescription;
-@property(readonly, nonatomic) unsigned long long logSizeLimitBytes;
-@property(retain, nonatomic) NSString *logType; // @synthesize logType=_logType;
-@property(retain, nonatomic) NSArray *logs; // @synthesize logs=_logs;
-@property(readonly, nonatomic) NSDictionary *metadataDictionary;
-@property(readonly, nonatomic) id <DRSDecisionServerBatchRequest> pbBatchInstance;
-@property(readonly, nonatomic) Class pbBatchResponseClass;
-@property(readonly, nonatomic) PBRequest *pbRequest;
-@property(readonly, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
-@property(readonly, nonatomic) NSUUID *requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) unsigned long long requestMCT; // @synthesize requestMCT=_requestMCT;
-@property(readonly, nonatomic) unsigned char requestOutcome;
-@property(readonly, nonatomic) NSString *requestOutcomeString;
-@property(nonatomic) unsigned long long requestState; // @synthesize requestState=_requestState;
-@property(readonly, nonatomic) NSString *requestStateString;
-@property(readonly, nonatomic) NSString *requestType;
-@property(readonly, nonatomic) NSArray *submittedLogInfos; // @synthesize submittedLogInfos=_submittedLogInfos;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
-@property(readonly, nonatomic) unsigned long long totalLogSizeBytes;
 @property(readonly, nonatomic) NSUUID *uniqueID;
-@property(nonatomic) unsigned short uploadAttemptCount; // @synthesize uploadAttemptCount=_uploadAttemptCount;
-@property(readonly, nonatomic) unsigned long long uploadID; // @synthesize uploadID=_uploadID;
 
 @end
 

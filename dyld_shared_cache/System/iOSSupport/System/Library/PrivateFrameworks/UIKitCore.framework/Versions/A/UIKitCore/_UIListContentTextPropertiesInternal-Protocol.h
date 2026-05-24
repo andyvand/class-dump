@@ -7,16 +7,13 @@
 @class NSString, UIFont;
 
 @protocol _UIListContentTextPropertiesInternal
+- (_Bool)ithLaunchanimImmutable:withMineffect:withMineffectImmutable:withTilesize:withSizeImmutable:withMCXDockSpecialFolders:withAllowDockFixupOverride:withStaticOnly:withStaticOthers:withStaticApps:withContentsImmutable:withWindowtabbingImmutable:withDblclickbehaviorImmutable:withShowindicatorsImmutable:withShowRecents: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 - (UIFont *)È5	L6´6L7ì7: /* Error: Ran out of types for this method. */;
 - (long long)_SceneStorageInterface;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _effectiveTextAlignment;
-@property(readonly, nonatomic) _Bool _hasNonEmptyPlainTextOnly;
-@property(readonly, nonatomic) UIFont *font;
-@property(readonly, nonatomic) long long numberOfLines;
 @property(readonly, nonatomic) NSString *text;
 @end
 

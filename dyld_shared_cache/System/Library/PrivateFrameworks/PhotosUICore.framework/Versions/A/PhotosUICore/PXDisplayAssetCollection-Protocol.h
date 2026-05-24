@@ -4,31 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol PXDisplayAssetCollection
-- (NSString *)ryDummyStyleProducer;
+- (NSString *);
+- (NSString *)PXStoryDummyStyleProducer;
 - (NSString *)â;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long estimatedAssetCount;
-@property(readonly, nonatomic) _Bool isAggregation;
 @property(readonly, nonatomic) _Bool isEnriched;
-@property(readonly, nonatomic) _Bool isEnrichmentComplete;
-@property(readonly, nonatomic) _Bool isRecent;
-@property(readonly, nonatomic) NSString *localizedDateDescription;
-@property(readonly, nonatomic) NSString *localizedDebugDescription;
-@property(readonly, nonatomic) NSArray *localizedLocationNames;
-@property(readonly, nonatomic) NSString *localizedShortDateDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *localizedSmartDescription;
-@property(readonly, nonatomic) NSString *localizedSubtitle;
-@property(readonly, nonatomic) double promotionScore;
-@property(readonly, nonatomic) unsigned short px_highlightEnrichmentState;
-@property(readonly, nonatomic) long long px_highlightKind;
-@property(readonly, nonatomic) _Bool px_isVirtualCollection;
-@property(readonly, nonatomic) NSString *uuid;
 @end
 

@@ -7,12 +7,13 @@
 @class NSString;
 
 @protocol INHomeAttributeExport
+- (long long)ader.encryptionIVSize            %ld
+;
+- (_Bool)o/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/rsa/rsa_pmeth.c;
+- (double)setUseCoreRotation: /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
-@property _Bool boolValue;
-@property double doubleValue;
-@property(copy) NSString *stringValue;
 @property long long type;
-@property long long valueType;
 @end
 

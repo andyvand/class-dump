@@ -4,45 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliFileCryptoMaterial, NSNumber, NSString, NSURL;
+@class NSNumber, NSString;
 
 @interface CTLazuliFileDispositionInformation
 {
     NSNumber *_fileSizeInBytes;
-    NSString *_originalFileName;
-    NSString *_untrustedContentType;
-    NSURL *_dataUrl;
-    NSString *_validUntil;
-    long long _disposition;
-    NSNumber *_playingLengthInSeconds;
-    CTLazuliFileCryptoMaterial *_cryptoMaterial;
 }
 
-+ (_Bool);
++ (_Bool)playlistRequestEvents;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)_TtCE19LocalAuthenticationCSo20LAUserCredentialHashP33_01E46989850A18CE5A6517C417EC3A8D10Properties;
 - (id);
 - (id);
-- (long long);
+- (long long)entitlementsWithDictionary:forAppWithSigningIdentifier:error: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 - (void);
@@ -50,14 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contentType;
-@property(retain, nonatomic) CTLazuliFileCryptoMaterial *cryptoMaterial; // @synthesize cryptoMaterial=_cryptoMaterial;
-@property(retain, nonatomic) NSURL *dataUrl; // @synthesize dataUrl=_dataUrl;
-@property(nonatomic) long long disposition; // @synthesize disposition=_disposition;
-@property(retain, nonatomic) NSNumber *fileSizeInBytes; // @synthesize fileSizeInBytes=_fileSizeInBytes;
-@property(retain, nonatomic) NSString *originalFileName; // @synthesize originalFileName=_originalFileName;
-@property(retain, nonatomic) NSNumber *playingLengthInSeconds; // @synthesize playingLengthInSeconds=_playingLengthInSeconds;
-@property(retain, nonatomic) NSString *untrustedContentType; // @synthesize untrustedContentType=_untrustedContentType;
-@property(retain, nonatomic) NSString *validUntil; // @synthesize validUntil=_validUntil;
 
 @end
 

@@ -7,19 +7,16 @@
 @interface CUKeyValueStoreReader
 {
     struct cdb _cdb;
-    int _fd;
-    Class _keyType;
-    Class _valueType;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)-O file is malformed:(id)arg1 Invalid magic number:0x%x. /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
 - (_Bool);

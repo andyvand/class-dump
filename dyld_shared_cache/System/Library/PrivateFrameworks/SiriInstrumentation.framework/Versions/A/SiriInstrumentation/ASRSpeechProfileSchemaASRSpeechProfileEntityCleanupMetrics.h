@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSpeechProfileSchemaASRSpeechProfileEntityCleanupMetrics : SISchemaInstrumentationMessage
 {
     _Bool _isCleanupIngestionEnabled;
-    unsigned int _numEntitiesContainingEmoji;
-    unsigned int _numEntitiesContainingSpecialCharacters;
-    unsigned int _numEntitiesCleaned;
-    struct {
-        unsigned int isCleanupIngestionEnabled:1;
-        unsigned int numEntitiesContainingEmoji:1;
-        unsigned int numEntitiesContainingSpecialCharacters:1;
-        unsigned int numEntitiesCleaned:1;
-    } _has;
 }
 
 - (void);
@@ -48,21 +37,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)leConfusionScoresCount;
+- (id)voiceProfileConfusionScoresCount;
 - (id)	
 ;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsCleanupIngestionEnabled;
-@property(nonatomic) _Bool hasNumEntitiesCleaned;
-@property(nonatomic) _Bool hasNumEntitiesContainingEmoji;
-@property(nonatomic) _Bool hasNumEntitiesContainingSpecialCharacters;
 @property(nonatomic) _Bool isCleanupIngestionEnabled; // @synthesize isCleanupIngestionEnabled=_isCleanupIngestionEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numEntitiesCleaned; // @synthesize numEntitiesCleaned=_numEntitiesCleaned;
-@property(nonatomic) unsigned int numEntitiesContainingEmoji; // @synthesize numEntitiesContainingEmoji=_numEntitiesContainingEmoji;
-@property(nonatomic) unsigned int numEntitiesContainingSpecialCharacters; // @synthesize numEntitiesContainingSpecialCharacters=_numEntitiesContainingSpecialCharacters;
 
 @end
 

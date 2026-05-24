@@ -6,7 +6,7 @@
 
 @interface UnknownClass (RBSXPCSecureCoding)
 + (_Bool);
-- (_Bool);
+- (_Bool)q!;;
 - (id);
 - (_Bool);
 @end

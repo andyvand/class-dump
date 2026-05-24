@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventCountersManager, HMMDateProvider, NSNotificationCenter, NSObject, NSString;
-@protocol HMDCurrentResidentDeviceDataSource, OS_dispatch_queue;
+@class HMDEventCountersManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDMetricsHomeDataChangedManager
 {
     _Bool _started;
-    HMDEventCountersManager *_countersManager;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDCurrentResidentDeviceDataSource> _currentHomeDataSource;
-    HMMDateProvider *_dateProvider;
-    unsigned long long _maxNumberEventsToReport;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)¢B;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)_joinLiveModeFromHandle:fromAccountID:error: /* Error: Ran out of types for this method. */;
+- (id)service:(id)arg1 account:(id)arg2 didReceiveLocalNetworkHandshake:fromID:context: /* Error: Ran out of types for this method. */;
+- (id)service:(id)arg1 account:didReceiveLocalNetworkHandshake:fromID:context: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -36,32 +29,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)`";
+- (id);
+- (id)sessionDidDropLocalPaths:atRemoteDropDestination: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)Manager;
+- (void)GG;
+- (void)ResidentChannelV2Manager;
 - (_Bool)trouter.server.mode;
 - (id)l:= /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
-@property(readonly, nonatomic) __weak id <HMDCurrentResidentDeviceDataSource> currentHomeDataSource; // @synthesize currentHomeDataSource=_currentHomeDataSource;
-@property(readonly, nonatomic) __weak HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long maxNumberEventsToReport; // @synthesize maxNumberEventsToReport=_maxNumberEventsToReport;
-@property(readonly, nonatomic) __weak NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

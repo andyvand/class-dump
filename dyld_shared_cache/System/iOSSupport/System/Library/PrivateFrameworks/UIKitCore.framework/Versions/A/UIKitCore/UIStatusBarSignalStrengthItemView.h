@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarSignalStrengthItemView : UIStatusBarItemView
 {
     int _signalStrengthRaw;
-    int _signalStrengthBars;
-    _Bool _enableRSSI;
-    _Bool _showRSSI;
-    _Bool _showFailure;
-    _Bool _useSmallBars;
 }
 
-- (_Bool);
+- (_Bool)_updateTracker;
+- (double)etching changes from update zone with no error;
 - (double);
-- (double);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)s -> %@.
+;
+- (_Bool)ting both caller ID for chat with guid %@ to be:(int)arg1 %@ from %@ and sim ID to be:(int)arg2 %@;
+- (id)StoreDemoMode;
+- (id)h failed with specific error;
 - (void)4Å\;
 - (id)¤mã_j;
 

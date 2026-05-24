@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PGGraphBusinessNode;
+@class PGGraphBusinessNode;
 
 @interface PGBusinessLocationSummarizedFeature
 {
     _Bool _isMandatoryForKeyAsset;
-    unsigned short _type;
-    NSSet *_intervalsPresent;
-    PGGraphBusinessNode *_businessNode;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -23,16 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphBusinessNode *businessNode; // @synthesize businessNode=_businessNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *intervalsPresent; // @synthesize intervalsPresent=_intervalsPresent;
-@property(readonly, nonatomic) _Bool isMandatoryForKeyAsset; // @synthesize isMandatoryForKeyAsset=_isMandatoryForKeyAsset;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned short type; // @synthesize type=_type;
 
 @end
 

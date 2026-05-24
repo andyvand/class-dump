@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMTimingCollection, NSArray, NSMutableArray, NSMutableSet;
+@class IMTimingCollection;
 
 @interface IMDSpotlightIndexerTimingProfiler
 {
     struct os_unfair_lock_s _lock;
-    IMTimingCollection *_timingCollection;
-    double _timeout;
-    NSMutableSet *_runningTimers;
-    NSMutableArray *_runTimers;
-    NSArray *_abortedTimers;
 }
 
 - (id);
 - (void);
 - (void);
+- (void))A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (double);
 - (double);
@@ -50,10 +45,6 @@
 - (void)d to add column is_archived to the chat table.;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *abortedTimers; // @synthesize abortedTimers=_abortedTimers;
-@property(retain, nonatomic) NSMutableArray *runTimers; // @synthesize runTimers=_runTimers;
-@property(retain, nonatomic) NSMutableSet *runningTimers; // @synthesize runningTimers=_runningTimers;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 @property(retain, nonatomic) IMTimingCollection *timingCollection; // @synthesize timingCollection=_timingCollection;
 
 @end

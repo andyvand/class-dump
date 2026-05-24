@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, NSString, VKCustomFeature;
-
 __attribute__((visibility("hidden")))
 @interface _MKMapItemCustomFeature
 {
     CDStruct_2c43369c _coordinate;
-    VKCustomFeature *_feature;
-    GEOFeatureStyleAttributes *_styleAttributes;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)setCachePermission:ForClientID:withKey:withType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (CDStruct_c3b9c2ee);
+- (CDStruct_2c43369c)installedAssetOfType:withLanguage:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void)setIsPointOfInterest: /* Error: Ran out of types for this method. */;
 - (id)when canShowCallout is YES on corresponding view %@;
 
 // Remaining properties
-@property(nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
-@property(nonatomic) double course;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool showsBalloonCallout;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,13 +7,6 @@
 @interface PromotedContentUI.AppStoreModule
 {
     id theLock;
-    id factory;
-    id dataProvider;
-    id greenTeaLogger;
-    id notificationListener;
-    id enabledConfigs;
-    id settings;
-    id isColdStart;
 }
 
 - (void);

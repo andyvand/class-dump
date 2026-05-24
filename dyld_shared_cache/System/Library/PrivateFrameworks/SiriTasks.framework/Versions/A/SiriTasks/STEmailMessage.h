@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, STPerson;
+@class NSString;
 
 @interface STEmailMessage
 {
     NSString *_messageBody;
-    NSURL *_messageIdentifier;
-    STPerson *_sender;
-    NSString *_subject;
-    long long _type;
-    NSArray *_toRecipients;
-    NSArray *_ccRecipients;
-    NSArray *_bccRecipients;
-    NSArray *_receivingAddresses;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)5|;
+- (id)z;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void){;
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)Fl;
 - (id);
 - (id);
 - (id);
@@ -45,15 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *bccRecipients; // @synthesize bccRecipients=_bccRecipients;
-@property(retain, nonatomic) NSArray *ccRecipients; // @synthesize ccRecipients=_ccRecipients;
 @property(copy, nonatomic) NSString *messageBody; // @synthesize messageBody=_messageBody;
-@property(retain, nonatomic) NSURL *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(retain, nonatomic) NSArray *receivingAddresses; // @synthesize receivingAddresses=_receivingAddresses;
-@property(retain, nonatomic) STPerson *sender; // @synthesize sender=_sender;
-@property(copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(retain, nonatomic) NSArray *toRecipients; // @synthesize toRecipients=_toRecipients;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

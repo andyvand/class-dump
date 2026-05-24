@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIFeedbackPreferences
 {
     NSMutableDictionary *_enabledFeedbackTypes;
-    NSDictionary *_defaultFeedbackTypes;
-    NSUserDefaults *_userDefaults;
 }
 
 + (id)Yð1Â0@ù
@@ -19,16 +17,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)@16@0:(id)arg1 8;
 - (id);
 - (void);
-- (void)rmsPredictiveCandidates:(id)arg1;
-- (unsigned long long)Backdrops:(id)arg1;
-- (id)tiveVolume;
+- (id);
+- (void)G;
+- (void)setPredictionViewPrewarmsPredictiveCandidates:(id)arg1;
+- (unsigned long long)setGroupBackdrops:(id)arg1;
+- (id)effectiveVolume;
 - (id)clusionRects;
-- (void)tionToHost;
+- (void)_UISceneHostingEventDeferringFocusRequestActionToHost;
 - (unsigned long long)\MÌN;
 - (void);
 - (id)7G;

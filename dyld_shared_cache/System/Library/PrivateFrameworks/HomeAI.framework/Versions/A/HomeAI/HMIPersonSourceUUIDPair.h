@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface HMIPersonSourceUUIDPair
 {
     NSUUID *_sourceUUID;
-    NSUUID *_personUUID;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)*@9Jy_Yq!;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)IJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+.-;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *UUIDPairString;
-@property(readonly, copy) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
 @property(readonly, copy) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end

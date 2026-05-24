@@ -7,8 +7,6 @@
 @interface NSUserActivity
 {
     id _internal;
-    id _delegate;
-    id _frameworkDelegate;
 }
 
 @end

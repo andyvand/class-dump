@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSArray, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTUpdateParametersExpression : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_callStatementId;
-    NSArray *_updates;
-    _Bool _hasCallStatementId;
 }
 
 - (unsigned long long);
@@ -28,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)+;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -37,14 +35,11 @@
 - (id)1Â0@ù
 × ;
 - (id)mquOverallDurationInMs;
-- (id)lientEventMetadata;
+- (id)GRRSchemaGRRClientEventMetadata;
 - (void)t Õÿâ¬¬Ùý";
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTStatementId *callStatementId; // @synthesize callStatementId=_callStatementId;
-@property(nonatomic) _Bool hasCallStatementId; // @synthesize hasCallStatementId=_hasCallStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *updates; // @synthesize updates=_updates;
 
 @end
 

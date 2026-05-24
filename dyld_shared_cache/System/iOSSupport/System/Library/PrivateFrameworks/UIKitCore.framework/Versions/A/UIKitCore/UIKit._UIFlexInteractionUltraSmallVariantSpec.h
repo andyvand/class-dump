@@ -10,7 +10,7 @@
 {
 }
 
-- (void): /* Error: Ran out of types for this method. */;
+- (void)_setInternalConstraints: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

@@ -6,20 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSError, NSObject, NSProgress, PXStoryModel, PXStoryViewModel;
-@protocol OS_dispatch_queue, PXStoryErrorReporter, PXStoryTimeline;
+@class PXStoryModel;
 
 @interface PXStoryValidationController : PXStoryController
 {
     _Bool _isActive;
-    PXStoryViewModel *_viewModel;
-    PXStoryModel *_model;
-    id <PXStoryTimeline> _timelineToValidate;
-    NSProgress *_timelineValidationProgress;
-    NSError *_timelineValidationError;
-    long long _timelineValidationCount;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <PXStoryErrorReporter> _errorReporter;
 }
 
 + (id);
@@ -48,23 +39,15 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id)Output: /* Error: Ran out of types for this method. */;
+- (_Bool)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16^{_CGLPixelFormatObject=}24@32;
+- (id)setAudioQueue_audioMixOutput: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)automaticallyRestartStoryGenerationAfterUserDisambiguation;
 - (void)ÿ)Ú·ÿÚ·ÿ!Ú·ÿ!Ú·ÿéÙ·ÿ;
 - (id)¸MÊ_¹¼;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryErrorReporter> errorReporter; // @synthesize errorReporter=_errorReporter;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 @property(retain, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) id <PXStoryTimeline> timelineToValidate; // @synthesize timelineToValidate=_timelineToValidate;
-@property(nonatomic) long long timelineValidationCount; // @synthesize timelineValidationCount=_timelineValidationCount;
-@property(retain, nonatomic) NSError *timelineValidationError; // @synthesize timelineValidationError=_timelineValidationError;
-@property(retain, nonatomic) NSProgress *timelineValidationProgress; // @synthesize timelineValidationProgress=_timelineValidationProgress;
-@property(readonly, nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

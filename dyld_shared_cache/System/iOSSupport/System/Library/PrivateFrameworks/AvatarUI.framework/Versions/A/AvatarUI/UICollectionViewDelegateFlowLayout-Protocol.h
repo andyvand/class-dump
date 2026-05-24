@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UICollectionView;
+
 @protocol UICollectionViewDelegateFlowLayout
+
+@optional
+- (struct CGSize)getAudioCaptureRingBufferModeWithDict:(UICollectionView *)arg1;
+- (struct CGSize)Computing derivatives for %ld photos took %.2f seconds, or %.2f per photo.;
+- (struct CGSize)hasPrefix:(UICollectionView *)arg1;
 @end
 

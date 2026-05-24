@@ -5,9 +5,9 @@
 //
 
 @protocol PurgeableItem
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long purgeOrder;
-@property(readonly, nonatomic) unsigned long long size;
 @end
 

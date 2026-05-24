@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (double)%s;
 - (void);
-- (id);
+- (id)@;
 - (void);
-- (struct CGSize);
+- (struct CGSize)!;
 - (void);
-- (id)ardDidAppearInSendMenuPopoverViewController:(long long)arg1;
+- (id)appCardDidAppearInSendMenuPopoverViewController:(long long)arg1;
 - (void);
 
 // Remaining properties

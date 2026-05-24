@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTCellularPlanLifecycleProperties, NSArray, NSString;
+@class NSString;
 
 @interface CTCellularPlanProperties
 {
     NSString *_associatedIccid;
-    long long _simCapability;
-    NSArray *_supportedRegionCodes;
-    CTCellularPlanLifecycleProperties *_lifecycleProperties;
 }
 
 + (_Bool);
@@ -24,16 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)on %{public}@ cid:(id)arg1 %u returned %{public}@ when attempting to encode credential;
 - (void)¡&°!@Fù±ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *associatedIccid; // @synthesize associatedIccid=_associatedIccid;
-@property(retain, nonatomic) CTCellularPlanLifecycleProperties *lifecycleProperties; // @synthesize lifecycleProperties=_lifecycleProperties;
-@property(nonatomic) long long simCapability; // @synthesize simCapability=_simCapability;
-@property(retain, nonatomic) NSArray *supportedRegionCodes; // @synthesize supportedRegionCodes=_supportedRegionCodes;
 
 @end
 

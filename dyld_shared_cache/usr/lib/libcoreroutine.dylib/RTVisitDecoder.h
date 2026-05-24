@@ -9,7 +9,6 @@
 @interface RTVisitDecoder
 {
     NSArray *_beam;
-    RTVisitHyperParameter *_hyperParameter;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)32q40@48B56@60;
 - (void)ntactsWithHandler,Fetched contacts %d, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

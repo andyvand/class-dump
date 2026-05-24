@@ -7,13 +7,10 @@
 @interface NewsUI2.NewsOfflineModeMonitor
 {
     id offlineModeMonitor;
-    id offlineReason;
-    id poorConnectionThrottler;
-    id observers;
 }
 
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (void)ÿ;
 

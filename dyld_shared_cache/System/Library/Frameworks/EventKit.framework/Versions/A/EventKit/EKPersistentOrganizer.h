@@ -12,26 +12,23 @@
 {
 }
 
-+ (id);
++ (id)ing item.;
 + (Class);
 + (id);
 + (id);
 - (void);
 - (long long);
-- (id);
+- (id),;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (int);
-- (id);
+- (id)_charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *URLString; // @dynamic URLString;
 @property(retain, nonatomic) NSString *displayNameRaw; // @dynamic displayNameRaw;
-@property(retain, nonatomic) NSString *emailAddress; // @dynamic emailAddress;
-@property(nonatomic) _Bool isCurrentUser; // @dynamic isCurrentUser;
 
 @end
 

@@ -4,54 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObjectAssetMenuBuilder, CKMessagePartChatItem, NSMutableDictionary, NSString, UIMenu;
-@protocol CKMediaObjectAssetActionHelper;
+@class CKMediaObjectAssetMenuBuilder, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CKMediaObjectAssetActionManager
 {
     CKMediaObjectAssetMenuBuilder *_menuBuilder;
-    CKMessagePartChatItem *_chatItem;
-    id <CKMediaObjectAssetActionHelper> _chatActionHelper;
-    NSMutableDictionary *_performerClassByType;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)convertAllDrawingsIfNeededInContext: /* Error: Ran out of types for this method. */;
+- (_Bool)controller:(id)arg1 sectionIndexTitleForSectionName: /* Error: Ran out of types for this method. */;
+- (_Bool)_titleAttributedStringInsideFrame;
+- (_Bool)_tipKitCheckRegex;
+- (id)^;
 - (id);
 - (id);
 - (id);
+- (void)GG;
+- (void)ya_;
+- (void);
+- (void);
+- (void);
+- (void)So22NSManagedObjectContextCSg;
 - (id);
+- (void)a;
+- (id);
+- (id)edObjectContext was unexpectedly nil.;
+- (id)d markdown;
+- (id)alesced mention notification to %@, expecting %@;
+- (id)6^B24;
+- (id)attachment_brick_weblink_generic_thumb;
+- (id);
+- (void)e;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)AudioRecordingCoordinator;
+- (void);
 - (void);
+- (void);
+- (void)NICAppearanceType;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (SEL);
+- (SEL);
 - (_Bool);
 - (id);
 - (id)aûÐ!`BùÐ1Â0@ù
@@ -60,18 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)};
 
 // Remaining properties
-@property(readonly, nonatomic) UIMenu *actionContextMenu;
-@property(readonly, nonatomic) __weak id <CKMediaObjectAssetActionHelper> chatActionHelper; // @synthesize chatActionHelper=_chatActionHelper;
-@property(readonly, nonatomic) CKMessagePartChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableDictionary *performerClassByType; // @synthesize performerClassByType=_performerClassByType;
-@property(readonly, nonatomic) _Bool shouldHideInteractions;
-@property(readonly) Class superclass;
 
 @end
 

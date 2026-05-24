@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItemArtwork, NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPNowPlayingInfoCenterArtworkContext
 {
     NSString *_artworkIdentifier;
-    MPMediaItemArtwork *_artwork;
-    NSData *_artworkData;
 }
 
 - (void);
@@ -19,13 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ckCount__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaylistDownloadedTrackCount__MAPPING_MISSING__;
 - (id)þ®
 ;
 
 // Remaining properties
-@property(retain, nonatomic) MPMediaItemArtwork *artwork; // @synthesize artwork=_artwork;
-@property(retain, nonatomic) NSData *artworkData; // @synthesize artworkData=_artworkData;
 @property(copy, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
 
 @end

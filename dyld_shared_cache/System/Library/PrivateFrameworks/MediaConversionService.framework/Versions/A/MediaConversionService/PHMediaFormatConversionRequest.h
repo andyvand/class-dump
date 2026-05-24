@@ -4,54 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSError, NSProgress, NSString, NSTimeZone, NSURL, NSUUID, PFMediaCapabilities, PHMediaFormatConversionCompositeRequest, PHMediaFormatConversionDestination, PHMediaFormatConversionSource;
+@class NSUUID;
 
 @interface PHMediaFormatConversionRequest
 {
     double _formatConversionExpansionFactor;
-    _Bool _didCalculateRequiresFormatConversion;
-    _Bool _requiresFormatConversion;
-    _Bool _forceFormatConversion;
-    _Bool _shouldPadOutputFileToEstimatedLength;
-    _Bool _shouldStripLocation;
-    _Bool _useTransferBehaviorUserPreference;
-    _Bool _requiresSinglePassVideoConversion;
-    _Bool _shouldExportAsHDR;
-    _Bool _preflighted;
-    long long _livePhotoPairingIdentifierBehavior;
-    NSString *_livePhotoPairingIdentifier;
-    long long _status;
-    NSProgress *_progress;
-    NSError *_error;
-    NSString *_outputFilename;
-    NSString *_forcedOutputPathExtension;
-    PHMediaFormatConversionDestination *_destination;
-    id _userInfo;
-    NSString *_videoExportPreset;
-    NSUUID *_identifier;
-    PHMediaFormatConversionSource *_source;
-    PFMediaCapabilities *_destinationCapabilities;
-    PHMediaFormatConversionCompositeRequest *_parentRequest;
-    NSURL *_directoryForTemporaryFiles;
-    long long _transferBehaviorUserPreference;
-    CDUnknownBlockType _singlePassVideoConversionUpdateHandler;
-    long long _locationMetadataBehavior;
-    CLLocation *_location;
-    long long _creationDateMetadataBehavior;
-    NSDate *_creationDate;
-    NSTimeZone *_creationDateTimeZone;
-    long long _captionMetadataBehavior;
-    NSString *_caption;
-    long long _accessibilityDescriptionMetadataBehavior;
-    NSString *_accessibilityDescription;
-    long long _passthroughConversionAdditionalByteCount;
 }
 
 + (id);
 + (double);
 + (double);
 + (double);
-+ (id);
++ (id)zone:(id)arg1 %@;
 + (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,8 +23,11 @@
 - (long long);
 - (_Bool);
 - (CDUnknownBlockType);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void)
+;
 - (void);
 - (void);
 - (void);
@@ -71,15 +38,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -94,7 +59,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -104,35 +69,35 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)_triggerOutputForOutputRow:options: /* Error: Ran out of types for this method. */;
+- (_Bool)setHmbReserved: /* Error: Ran out of types for this method. */;
+- (void)s;
+- (void)derStatus;
 - (void);
 - (void);
+- (void);
+- (void)H;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)te for zone ID %@ after updating subscriptions. All zone ID state:(long long)arg1 %@;
+- (void)d for context %@:(long long)arg1 %{public}@;
+- (void)blic}@[%{public}@] Failed to accept share metadata %@:(long long)arg1 %@;
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (void)_defaultCutoutPath;
+- (id)P;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)onjour to discoverAccessories;
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)4;
 - (id);
 - (void);
 - (void);
@@ -144,62 +109,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)commute1Hr15MinWarningEntityRelevanceDayOfWeekFeatures;
+- (void)*;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(readonly) long long accessibilityDescriptionMetadataBehavior; // @synthesize accessibilityDescriptionMetadataBehavior=_accessibilityDescriptionMetadataBehavior;
-@property(readonly) long long backwardsCompatibilityStatus;
-@property(readonly, copy) NSString *caption; // @synthesize caption=_caption;
-@property(readonly) long long captionMetadataBehavior; // @synthesize captionMetadataBehavior=_captionMetadataBehavior;
-@property(readonly) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly) long long creationDateMetadataBehavior; // @synthesize creationDateMetadataBehavior=_creationDateMetadataBehavior;
-@property(readonly) NSTimeZone *creationDateTimeZone; // @synthesize creationDateTimeZone=_creationDateTimeZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PHMediaFormatConversionDestination *destination; // @synthesize destination=_destination;
-@property(retain) PFMediaCapabilities *destinationCapabilities; // @synthesize destinationCapabilities=_destinationCapabilities;
-@property(retain) NSURL *directoryForTemporaryFiles; // @synthesize directoryForTemporaryFiles=_directoryForTemporaryFiles;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long estimatedOutputFileLength;
-@property(nonatomic) _Bool forceFormatConversion; // @synthesize forceFormatConversion=_forceFormatConversion;
-@property(copy) NSString *forcedOutputPathExtension; // @synthesize forcedOutputPathExtension=_forcedOutputPathExtension;
-@property(nonatomic) double formatConversionExpansionFactor;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isCompositeRequest;
-@property(copy) NSString *livePhotoPairingIdentifier; // @synthesize livePhotoPairingIdentifier=_livePhotoPairingIdentifier;
-@property long long livePhotoPairingIdentifierBehavior; // @synthesize livePhotoPairingIdentifierBehavior=_livePhotoPairingIdentifierBehavior;
-@property(readonly) CLLocation *location; // @synthesize location=_location;
-@property(readonly) long long locationMetadataBehavior; // @synthesize locationMetadataBehavior=_locationMetadataBehavior;
-@property(readonly) NSString *outputFileType;
-@property(retain) NSString *outputFilename; // @synthesize outputFilename=_outputFilename;
-@property(readonly) NSString *outputPathExtension;
-@property __weak PHMediaFormatConversionCompositeRequest *parentRequest; // @synthesize parentRequest=_parentRequest;
-@property(nonatomic) long long passthroughConversionAdditionalByteCount; // @synthesize passthroughConversionAdditionalByteCount=_passthroughConversionAdditionalByteCount;
-@property _Bool preflighted; // @synthesize preflighted=_preflighted;
-@property(retain) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly) _Bool requiresFormatConversion;
-@property(readonly) _Bool requiresMetadataChanges;
-@property(readonly) _Bool requiresPassthroughConversion;
-@property _Bool requiresSinglePassVideoConversion; // @synthesize requiresSinglePassVideoConversion=_requiresSinglePassVideoConversion;
-@property _Bool shouldExportAsHDR; // @synthesize shouldExportAsHDR=_shouldExportAsHDR;
-@property _Bool shouldPadOutputFileToEstimatedLength; // @synthesize shouldPadOutputFileToEstimatedLength=_shouldPadOutputFileToEstimatedLength;
-@property _Bool shouldStripLocation; // @synthesize shouldStripLocation=_shouldStripLocation;
-@property(copy) CDUnknownBlockType singlePassVideoConversionUpdateHandler; // @synthesize singlePassVideoConversionUpdateHandler=_singlePassVideoConversionUpdateHandler;
-@property(retain) PHMediaFormatConversionSource *source; // @synthesize source=_source;
-@property long long status; // @synthesize status=_status;
-@property(readonly) NSString *statusString;
-@property(readonly) Class superclass;
-@property long long transferBehaviorUserPreference; // @synthesize transferBehaviorUserPreference=_transferBehaviorUserPreference;
-@property _Bool useTransferBehaviorUserPreference; // @synthesize useTransferBehaviorUserPreference=_useTransferBehaviorUserPreference;
-@property(retain) id userInfo; // @synthesize userInfo=_userInfo;
-@property(retain) NSString *videoExportPreset; // @synthesize videoExportPreset=_videoExportPreset;
 
 @end
 

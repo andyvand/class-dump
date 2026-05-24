@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSPersistentStore, NSStagedMigrationManager, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentStoreCoordinatorMigrationContext
 {
     _Bool _forceMigration;
-    NSURL *_storeURL;
-    NSString *_storeType;
-    NSString *_configurationName;
-    NSString *_destinationConfigurationForCloudKitValidation;
-    NSDictionary *_options;
-    NSDictionary *_metadata;
-    NSPersistentStore *_migratedStore;
-    NSStagedMigrationManager *_stagedMigrationManager;
 }
 
 - (id);
@@ -26,27 +18,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)g;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *configurationName; // @synthesize configurationName=_configurationName;
-@property(retain, nonatomic) NSString *destinationConfigurationForCloudKitValidation; // @synthesize destinationConfigurationForCloudKitValidation=_destinationConfigurationForCloudKitValidation;
-@property(nonatomic) _Bool forceMigration; // @synthesize forceMigration=_forceMigration;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSPersistentStore *migratedStore; // @synthesize migratedStore=_migratedStore;
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(retain, nonatomic) NSStagedMigrationManager *stagedMigrationManager; // @synthesize stagedMigrationManager=_stagedMigrationManager;
-@property(readonly, nonatomic) NSString *storeType; // @synthesize storeType=_storeType;
 @property(readonly, nonatomic) NSURL *storeURL; // @synthesize storeURL=_storeURL;
 
 @end

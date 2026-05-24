@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)e: /* Error: Ran out of types for this method. */;
++ (long long)setNumberStyle: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)UnsupportedReason:(id)arg1;
+- (id)StringAsFindDeviceAndPlaySoundIntentDeviceUnsupportedReason:(id)arg1;
 
 @end
 

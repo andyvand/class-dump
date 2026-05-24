@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol MTLDevice;
-
 @interface CRFormAnalyzerConfiguration
 {
     _Bool _gatingWithOCRResults;
-    _Bool _resizeInputImage;
-    _Bool _tileInputImage;
-    _Bool _useContourBasedDetection;
-    _Bool _useModelBasedDetection;
-    _Bool _useTextBasedDetection;
-    NSURL *_customModelURL;
-    NSObject<MTLDevice> *_metalDevice;
-    unsigned long long _computeDeviceType;
 }
 
 - (_Bool);
@@ -39,18 +28,10 @@
 - (void);
 - (id);
 - (id);
-- (void)cognizer;
+- (void)tableStructureRecognizer;
 
 // Remaining properties
-@property(nonatomic) unsigned long long computeDeviceType; // @synthesize computeDeviceType=_computeDeviceType;
-@property(retain, nonatomic) NSURL *customModelURL; // @synthesize customModelURL=_customModelURL;
 @property(nonatomic) _Bool gatingWithOCRResults; // @synthesize gatingWithOCRResults=_gatingWithOCRResults;
-@property(retain, nonatomic) NSObject<MTLDevice> *metalDevice; // @synthesize metalDevice=_metalDevice;
-@property(nonatomic) _Bool resizeInputImage; // @synthesize resizeInputImage=_resizeInputImage;
-@property(nonatomic) _Bool tileInputImage; // @synthesize tileInputImage=_tileInputImage;
-@property(nonatomic) _Bool useContourBasedDetection; // @synthesize useContourBasedDetection=_useContourBasedDetection;
-@property(nonatomic) _Bool useModelBasedDetection; // @synthesize useModelBasedDetection=_useModelBasedDetection;
-@property(nonatomic) _Bool useTextBasedDetection; // @synthesize useTextBasedDetection=_useTextBasedDetection;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.NestedCollectionViewImpressionsCoordinator
 {
     id impressionsCalculator;
-    id collectionView;
-    id models;
 }
 
 @end

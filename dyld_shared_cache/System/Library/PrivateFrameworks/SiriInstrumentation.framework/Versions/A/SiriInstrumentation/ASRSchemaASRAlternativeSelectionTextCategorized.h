@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRAlternativeSelectionTextCategorized : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    NSString *_fullCorrectedText;
-    _Bool _hasOriginalAsrId;
-    _Bool _hasFullCorrectedText;
 }
 
 - (void);
@@ -26,23 +23,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)EASession;
+- (id)c\;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)zeReported: /* Error: Ran out of types for this method. */;
+- (id)setToolboxSizeReported: /* Error: Ran out of types for this method. */;
 - (id)|(;
-- (id)oggingInitialized;
+- (id)loggingInitialized;
 - (void)*l±­;';
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fullCorrectedText; // @synthesize fullCorrectedText=_fullCorrectedText;
-@property(nonatomic) _Bool hasFullCorrectedText; // @synthesize hasFullCorrectedText=_hasFullCorrectedText;
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
 
 @end

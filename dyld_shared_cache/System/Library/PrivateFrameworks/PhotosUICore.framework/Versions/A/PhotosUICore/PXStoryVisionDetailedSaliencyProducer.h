@@ -5,14 +5,11 @@
 //
 
 @class NSObject, PXMediaProvider;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_os_log;
 
 @interface PXStoryVisionDetailedSaliencyProducer
 {
     PXMediaProvider *_mediaProvider;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    long long _overlappingTileCount;
 }
 
 + (id);
@@ -23,15 +20,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id)an instance conforming to PXPhotosFeedbackController;
 - (void)·µ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) long long overlappingTileCount; // @synthesize overlappingTileCount=_overlappingTileCount;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

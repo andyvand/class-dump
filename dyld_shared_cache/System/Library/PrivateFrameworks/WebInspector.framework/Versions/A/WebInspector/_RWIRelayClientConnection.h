@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _RWIRelayClientConnectionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _RWIRelayClientConnection
 {
     _Bool _closed;
-    _Bool _sleeping;
-    id <_RWIRelayClientConnectionDelegate> _delegate;
-    NSString *_tag;
 }
 
 - (_Bool);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -34,8 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <_RWIRelayClientConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool sleeping; // @synthesize sleeping=_sleeping;
-@property(copy, nonatomic) NSString *tag; // @synthesize tag=_tag;
 
 @end
 

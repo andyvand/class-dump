@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString, TRIPBMessageOptions;
+@class NSString;
 
 @interface TRIPBDescriptorProto : TRIPBMessage
 {
@@ -15,26 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *enumTypeArray; // @dynamic enumTypeArray;
-@property(readonly, nonatomic) unsigned long long enumTypeArray_Count; // @dynamic enumTypeArray_Count;
-@property(retain, nonatomic) NSMutableArray *extensionArray; // @dynamic extensionArray;
-@property(readonly, nonatomic) unsigned long long extensionArray_Count; // @dynamic extensionArray_Count;
-@property(retain, nonatomic) NSMutableArray *extensionRangeArray; // @dynamic extensionRangeArray;
-@property(readonly, nonatomic) unsigned long long extensionRangeArray_Count; // @dynamic extensionRangeArray_Count;
-@property(retain, nonatomic) NSMutableArray *fieldArray; // @dynamic fieldArray;
-@property(readonly, nonatomic) unsigned long long fieldArray_Count; // @dynamic fieldArray_Count;
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
-@property(nonatomic) _Bool hasOptions; // @dynamic hasOptions;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSMutableArray *nestedTypeArray; // @dynamic nestedTypeArray;
-@property(readonly, nonatomic) unsigned long long nestedTypeArray_Count; // @dynamic nestedTypeArray_Count;
-@property(retain, nonatomic) NSMutableArray *oneofDeclArray; // @dynamic oneofDeclArray;
-@property(readonly, nonatomic) unsigned long long oneofDeclArray_Count; // @dynamic oneofDeclArray_Count;
-@property(retain, nonatomic) TRIPBMessageOptions *options; // @dynamic options;
-@property(retain, nonatomic) NSMutableArray *reservedNameArray; // @dynamic reservedNameArray;
-@property(readonly, nonatomic) unsigned long long reservedNameArray_Count; // @dynamic reservedNameArray_Count;
-@property(retain, nonatomic) NSMutableArray *reservedRangeArray; // @dynamic reservedRangeArray;
-@property(readonly, nonatomic) unsigned long long reservedRangeArray_Count; // @dynamic reservedRangeArray_Count;
 
 @end
 

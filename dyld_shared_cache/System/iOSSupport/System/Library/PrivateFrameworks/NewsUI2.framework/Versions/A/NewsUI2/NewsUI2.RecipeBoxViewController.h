@@ -7,27 +7,9 @@
 @interface NewsUI2.RecipeBoxViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id titleViewProvider;
-    id recipeFilterSelectionManager;
-    id newsActivityManager;
-    id filterBarHostingController;
-    id filterBarViewModel;
-    id commandCenter;
-    id tracker;
-    id searchBarInsetsController;
-    id searchAction;
-    id $__lazy_storage_$_filterButton;
-    id $__lazy_storage_$_filterBarButtonItem;
-    id isFilterConfigLoaded;
-    id $__lazy_storage_$_rightBarButtonItem;
-    id $__lazy_storage_$_searchController;
-    id $__lazy_storage_$_cancelSearchBarButtonItem;
-    id showCancelButton;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

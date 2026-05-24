@@ -4,49 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTBipartiteMatcher, NSMutableArray, NSMutableDictionary, NSObject, VNSession;
-@protocol OS_dispatch_queue;
-
 @interface FigObjectDetectionMetadataGenerator
 {
     struct CGRect _regionOfInterest;
-    unsigned int _maxHumanFaces;
-    _Bool _humanFaceEyeDetectionEnabled;
-    _Bool _humanFaceSmileDetectionEnabled;
-    _Bool _humanFaceBlinkDetectionEnabled;
-    unsigned int _maxHumanHeads;
-    unsigned int _maxHumanBodies;
-    unsigned int _maxHumanFullBodies;
-    unsigned int _maxDogBodies;
-    unsigned int _maxDogHeads;
-    unsigned int _maxCatBodies;
-    unsigned int _maxCatHeads;
-    unsigned int _maxSalientObjects;
-    unsigned int _maxSportsBalls;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_detectObjectQueue;
-    _Bool _prepared;
-    unsigned long long _objectDetectionHostTime;
-    unsigned int _objectDetectionInterval;
-    float _maxMatchCost;
-    unsigned int _previousDetectionsThreshold;
-    _Bool _objectDetectionIsRunning;
-    NSMutableDictionary *_objectMetadataDictionary;
-    CDStruct_1b6d18a9 _objectMetadataDictionaryPTS;
-    struct OpaqueVTPixelTransferSession *_pixelTransferInSession;
-    VNSession *_vnSession;
-    NSMutableArray *_figFaceObservations;
-    NSMutableArray *_figHumanBodyObservations;
-    unsigned long long _metadataFaceID;
-    unsigned long long _metadataHumanBodyID;
-    FTBipartiteMatcher *_objectTrackingMatcher;
 }
 
-+ (void)tion;
++ (void)AvailableMetadataKeyGroupsSupportingZeroFrameDelaySynchronization;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)|@H;
 - (void);
 - (void);
 - (void);
@@ -59,11 +26,11 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
+- (unsigned int)D;
+- (unsigned int)>;
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -74,26 +41,13 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
-- (id);
+- (void)DSummary",R,N,VmSummary;
+- (id);
 - (void);
 - (void)eDeviceVendor >>>> %s:(struct opaqueCMFormatDescription *)arg1 Device %p is still in use. Waiting for -takeBackDevice:to be called %d more times to release the device. /* Error: Ran out of types for this method. */;
 - (void)e:(struct opaqueCMSampleBuffer *)arg1 captureFlags:sceneFlags:frameStatisticsByPortType:metadata:deliverOriginalImage:deliverSushiRaw:bravoConstituentImageDeliveryDeviceTypes:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool humanFaceBlinkDetectionEnabled;
-@property _Bool humanFaceEyeDetectionEnabled;
-@property _Bool humanFaceSmileDetectionEnabled;
-@property unsigned int maxCatBodies;
-@property unsigned int maxCatHeads;
-@property unsigned int maxDogBodies;
-@property unsigned int maxDogHeads;
-@property unsigned int maxHumanBodies;
-@property unsigned int maxHumanFaces;
-@property unsigned int maxHumanFullBodies;
-@property unsigned int maxHumanHeads;
-@property unsigned int maxSalientObjects;
-@property unsigned int maxSportsBalls;
 @property struct CGRect regionOfInterest;
 
 @end

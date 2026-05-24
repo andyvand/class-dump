@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, SPSearchResultMarker;
+@class NSArray, NSError;
 
 @interface SPAdvertisementCacheSearchResult
 {
     NSError *_error;
-    NSArray *_beaconAdvertisements;
-    SPSearchResultMarker *_searchResultMarker;
 }
 
-+ (_Bool);
++ (_Bool)";
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *beaconAdvertisements; // @synthesize beaconAdvertisements=_beaconAdvertisements;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) SPSearchResultMarker *searchResultMarker; // @synthesize searchResultMarker=_searchResultMarker;
 
 @end
 

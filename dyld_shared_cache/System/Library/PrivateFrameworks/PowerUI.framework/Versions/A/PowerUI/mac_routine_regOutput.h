@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface mac_routine_regOutput
 {
@@ -16,11 +14,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (id)rr_static_bin;
+- (id)_drain_duration_mean_at_charge_start_soc_curr_static_bin;
 
 // Remaining properties
 @property(nonatomic) double duration_pred; // @synthesize duration_pred=_duration_pred;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

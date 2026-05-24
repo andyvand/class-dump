@@ -9,13 +9,6 @@
 @interface NSDecimalNumber : NSNumber
 {
     unsigned int _exponent:8;
-    unsigned int _length:4;
-    unsigned int _isNegative:1;
-    unsigned int _isCompact:1;
-    unsigned int _reserved:1;
-    unsigned int _hasExternalRefCount:1;
-    unsigned int _refs:16;
-    unsigned short *_mantissa;
 }
 
 @end

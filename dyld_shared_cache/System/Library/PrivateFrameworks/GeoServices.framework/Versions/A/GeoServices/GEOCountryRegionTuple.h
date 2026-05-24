@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOCountryRegionTuple
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_countryCode;
-    NSString *_region;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_region:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)asPower:(id)arg1;
-- (void);
++ (_Bool)setHasPower:(id)arg1;
+- (void)P;
 - (id);
-- (id);
+- (id)eB;
 - (void);
-- (void);
-- (id);
+- (void)setBuiltInSeconPassProgressProvider:(id)arg1;
+- (id)merChanged:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -40,8 +28,8 @@
 - (void);
 - (id);
 - (void);
-- (id)equenceNumber:(struct _NSZone *)arg1;
-- (id)ankingFeatureTypeSource;
+- (id)setHasAcSequenceNumber:(struct _NSZone *)arg1;
+- (id)GEOPDClientRankingFeatureTypeSource;
 - (id)MARCOLITE_USAGE;
 - (id)known_refinement_type;
 - (id);
@@ -50,11 +38,7 @@
 - (id)N: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *countryCode;
 @property(readonly, nonatomic) _Bool hasCountryCode;
-@property(readonly, nonatomic) _Bool hasRegion;
-@property(retain, nonatomic) NSString *region;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

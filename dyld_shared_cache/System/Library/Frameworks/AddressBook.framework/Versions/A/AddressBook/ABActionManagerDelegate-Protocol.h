@@ -5,5 +5,6 @@
 //
 
 @protocol ABActionManagerDelegate
+- (_Bool);
 @end
 

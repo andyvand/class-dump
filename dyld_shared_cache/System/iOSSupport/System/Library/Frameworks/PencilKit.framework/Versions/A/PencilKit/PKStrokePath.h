@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
-
 @interface PKStrokePath
 {
     struct PKStrokePathPointsPrivate _strokeDataPointsPrivate;
-    shared_ptr_ad015234 _unknownFields;
-    _Bool _didValidateTimestamps;
-    _Bool _hasValidTimestampData;
-    double _cachedMaxWidth;
-    unsigned long long _immutablePointsCount;
-    unsigned long long _startIndex;
-    long long _inputType;
-    NSUUID *_strokeDataUUID;
 }
 
 + (id);
 + (void);
 + (void);
 - (void);
-- (void);
+- (void).;
 - (void);
 - (_Bool);
 - (void);
@@ -62,35 +52,26 @@
 - (struct PKCompressedStrokePoint);
 - (void);
 - (id);
-- (id);
-- (id);
-- (struct CGPoint);
-- (double);
+- (id);
+- (id)length;
+- (struct CGPoint)V;
+- (double);
 - (double);
 - (long long);
 - (double);
-- (id);
-- (id);
+- (id)Aa!@b!;
+- (id);
 - (id);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (unsigned long long);
-- (void)ressingPlaceholderForElement: /* Error: Ran out of types for this method. */;
+- (void)pencilTextInputInteraction:endSuppressingPlaceholderForElement: /* Error: Ran out of types for this method. */;
 - (id)Ø&¤ÛÜÜ`ÝÀÝÞ	tÞ(ßÌßà4ã¨ãæAêTêøë;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _immutablePointsCount; // @synthesize _immutablePointsCount;
-@property(readonly, nonatomic) long long _inputType; // @synthesize _inputType;
 @property(readonly, nonatomic) unsigned long long _pointsCount;
-@property(readonly, nonatomic) unsigned long long _startIndex; // @synthesize _startIndex;
-@property(readonly, nonatomic) NSUUID *_strokeDataUUID; // @synthesize _strokeDataUUID;
-@property(readonly, nonatomic) double _timestamp;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) _Bool hasAzimuthAngles;
-@property(readonly, nonatomic) _Bool hasValidPointTimestampData;
 
 @end
 

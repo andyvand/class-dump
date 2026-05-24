@@ -7,19 +7,6 @@
 @interface NewsUI2.ContentShortcutsViewController
 {
     id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id selectionProvider;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id commandCenter;
-    id isEditingFavorites;
-    id tipManager;
-    id tipConfigFactory;
-    id blueprintHorizontalShimView;
-    id featureAvailability;
-    id tracker;
-    id isTransitioning;
 }
 
 - (void);
@@ -31,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void)eprintViewCellProvider;
+- (void)SavedFeedBlueprintViewCellProvider;
 - (void);
 
 @end

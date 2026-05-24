@@ -15,9 +15,9 @@
 
 + (_Bool);
 - (id);
+- (id)5;
 - (id);
-- (id);
-- (id);
+- (id)fetchParentForItem:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);

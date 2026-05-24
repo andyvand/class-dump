@@ -6,27 +6,19 @@
 
 #import <TSReading/EQKitMathMLBinaryNode.h>
 
-@class NSString;
-
 @interface EQKitMathMLMSuperscript : EQKitMathMLBinaryNode
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)Code;
+- (id)MPPlaybackSessionType;
+- (id)St;
 - (id);
 - (struct Schemata);
-- (_Bool);
+- (_Bool)U;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

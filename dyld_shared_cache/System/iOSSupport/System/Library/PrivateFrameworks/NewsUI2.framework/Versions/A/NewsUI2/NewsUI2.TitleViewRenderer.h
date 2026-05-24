@@ -7,7 +7,6 @@
 @interface NewsUI2.TitleViewRenderer
 {
     id styler;
-    id moreButtonRenderer;
 }
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PKPaymentOfferDynamicContent;
+@class NSString;
 
 @interface PKPaymentOfferMerchandisingOffer
 {
     NSString *_identifier;
-    NSString *_primaryTitle;
-    NSString *_secondaryTitleIdentifier;
-    PKPaymentOfferDynamicContent *_dynamicContent;
-    NSArray *_installments;
-    NSArray *_rewards;
-    NSArray *_other;
-    NSDate *_lastUpdated;
 }
 
 + (id);
@@ -25,31 +18,24 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setMptcpSuccessCount:(id)arg1;
+- (void)AWDIDSSessionStarted;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)countPaymentFundingDetails";
-- (id)t:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ShareSecureElementPassErrorDomain;
+- (id)deleteMerchantTokenWithRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)PKShareSecureElementPassErrorDomain;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) PKPaymentOfferDynamicContent *dynamicContent; // @synthesize dynamicContent=_dynamicContent;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSArray *installments; // @synthesize installments=_installments;
-@property(readonly, copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(readonly, copy, nonatomic) NSArray *other; // @synthesize other=_other;
-@property(readonly, copy, nonatomic) NSString *primaryTitle; // @synthesize primaryTitle=_primaryTitle;
-@property(readonly, copy, nonatomic) NSArray *rewards; // @synthesize rewards=_rewards;
-@property(readonly, copy, nonatomic) NSString *secondaryTitleIdentifier; // @synthesize secondaryTitleIdentifier=_secondaryTitleIdentifier;
 
 @end
 

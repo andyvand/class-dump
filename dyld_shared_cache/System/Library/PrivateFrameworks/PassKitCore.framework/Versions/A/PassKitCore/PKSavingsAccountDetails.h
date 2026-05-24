@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone, NSURL, PKSavingsAccountStepUpDetails, PKSavingsAccountSummary;
+@class NSDate;
 
 @interface PKSavingsAccountDetails
 {
     _Bool _moreInfoRequired;
-    _Bool _fccStepUpRequired;
-    _Bool _termsAcceptanceRequired;
-    NSDate *_lastUpdatedDate;
-    NSDate *_createdDate;
-    NSString *_countryCode;
-    NSString *_currencyCode;
-    NSString *_routingNumber;
-    NSString *_accountNumber;
-    NSTimeZone *_productTimeZone;
-    PKSavingsAccountStepUpDetails *_fccStepUpDetails;
-    NSString *_termsIdentifier;
-    NSURL *_privacyPolicyURL;
-    NSString *_businessChatIdentifier;
-    NSURL *_contactWebsite;
-    NSString *_contactNumber;
-    PKSavingsAccountSummary *_accountSummary;
 }
 
 + (_Bool);
@@ -38,9 +22,9 @@
 - (void);
 - (void);
 - (void);
+- (void)V;
 - (void);
-- (void);
-- (id);
+- (id)V;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -52,8 +36,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)7須R_;
 - (void);
 - (id);
 - (void);
@@ -63,33 +47,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)_migratorDestroyedStoreReason;
+- (id);
 - (id)1Â0@ù
 × ;
 - (id)ponse">32;
-- (id)calizedCallbackErrorTitle;
+- (id)localizedCallbackErrorTitle;
 - (void)NSDate",C,N,V_addedSinceDate;
-- (void)ry_date;
+- (void)expiry_date;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(retain, nonatomic) PKSavingsAccountSummary *accountSummary; // @synthesize accountSummary=_accountSummary;
-@property(copy, nonatomic) NSString *businessChatIdentifier; // @synthesize businessChatIdentifier=_businessChatIdentifier;
-@property(copy, nonatomic) NSString *contactNumber; // @synthesize contactNumber=_contactNumber;
-@property(copy, nonatomic) NSURL *contactWebsite; // @synthesize contactWebsite=_contactWebsite;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSDate *createdDate; // @synthesize createdDate=_createdDate;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) PKSavingsAccountStepUpDetails *fccStepUpDetails; // @synthesize fccStepUpDetails=_fccStepUpDetails;
-@property(nonatomic) _Bool fccStepUpRequired; // @synthesize fccStepUpRequired=_fccStepUpRequired;
 @property(copy, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(nonatomic) _Bool moreInfoRequired; // @synthesize moreInfoRequired=_moreInfoRequired;
-@property(copy, nonatomic) NSURL *privacyPolicyURL; // @synthesize privacyPolicyURL=_privacyPolicyURL;
-@property(retain, nonatomic) NSTimeZone *productTimeZone; // @synthesize productTimeZone=_productTimeZone;
-@property(copy, nonatomic) NSString *routingNumber; // @synthesize routingNumber=_routingNumber;
-@property(nonatomic) _Bool termsAcceptanceRequired; // @synthesize termsAcceptanceRequired=_termsAcceptanceRequired;
-@property(copy, nonatomic) NSString *termsIdentifier; // @synthesize termsIdentifier=_termsIdentifier;
 
 @end
 

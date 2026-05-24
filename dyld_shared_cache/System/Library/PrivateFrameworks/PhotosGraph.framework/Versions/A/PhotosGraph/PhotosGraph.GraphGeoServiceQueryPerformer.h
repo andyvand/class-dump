@@ -7,7 +7,6 @@
 @interface PhotosGraph.GraphGeoServiceQueryPerformer
 {
     id $defaultActor;
-    id sharedService;
 }
 
 @end

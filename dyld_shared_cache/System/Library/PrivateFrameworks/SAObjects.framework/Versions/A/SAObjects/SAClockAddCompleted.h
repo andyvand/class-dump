@@ -6,34 +6,22 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString, NSURL;
-
 @interface SAClockAddCompleted : SABaseCommand
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)J;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(nonatomic) _Bool alreadyExists;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *worldClockId;
 
 @end
 

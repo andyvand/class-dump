@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface IMPersistentMenu
 {
     long long level;
-    void displayText;
-    void items;
 }
 
 + (id);
@@ -30,9 +26,6 @@
 - (long long)E;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *displayText;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSArray *items;
 @property(nonatomic, readonly) long long level; // @synthesize level;
 
 @end

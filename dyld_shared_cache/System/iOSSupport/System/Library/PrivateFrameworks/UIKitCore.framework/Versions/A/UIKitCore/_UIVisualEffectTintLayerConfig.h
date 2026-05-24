@@ -20,8 +20,8 @@
 - (void);
 - (void)Ð!,Eùeð1Â0@ù
 × ;
-- (id)etDistance;
-- (void)yySo27CAPresentationModifierGroupCcG;
+- (id)_caretDistance;
+- (void)SayySo27CAPresentationModifierGroupCcG;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;

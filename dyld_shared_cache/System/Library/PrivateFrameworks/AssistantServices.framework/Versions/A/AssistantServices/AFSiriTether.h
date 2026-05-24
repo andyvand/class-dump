@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFSiriTether
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_connection;
-    AFInstanceContext *_instanceContext;
-    _Bool _isAttached;
-    CDUnknownBlockType _attachmentStatusChangedHandler;
-    NSMutableArray *_pendingEvents;
-    int _notifyToken;
 }
 
 - (void);
@@ -25,13 +19,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)rrency:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void)ionEvent;
-- (id)ostTypeRecentPlayback;
-- (id)Call;
+- (void)_activationEvent;
+- (id)AFCDABoostTypeRecentPlayback;
+- (id)AFCallStateSnapshot:(id)arg1:isDropInCall /* Error: Ran out of types for this method. */;
 
 @end
 

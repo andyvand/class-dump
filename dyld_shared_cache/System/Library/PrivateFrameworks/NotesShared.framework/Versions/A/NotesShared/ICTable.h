@@ -6,22 +6,18 @@
 
 #import <NotesShared/CRTable.h>
 
-@class ICCRTTCompatibleDocument, ICTableCellChangeNotifier, NSMutableDictionary, NSObject;
+@class NSMutableDictionary, NSObject;
 @protocol ICTableDelegate;
 
 @interface ICTable : CRTable
 {
     NSMutableDictionary *_columnTextStorages;
-    ICTableCellChangeNotifier *_cellChangeNotifier;
 }
 
 + (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ICTableCellChangeNotifier *cellChangeNotifier; // @synthesize cellChangeNotifier=_cellChangeNotifier;
-@property(readonly, nonatomic) NSMutableDictionary *columnTextStorages; // @synthesize columnTextStorages=_columnTextStorages;
 @property(nonatomic) __weak NSObject<ICTableDelegate> *delegate; // @dynamic delegate;
-@property(readonly, nonatomic) ICCRTTCompatibleDocument *ttDocument;
 
 @end
 

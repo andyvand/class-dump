@@ -7,13 +7,6 @@
 @interface PhotosUICore.SocialGroupCropFetchRequest
 {
     id options;
-    id imageManager;
-    id socialGroupRequestID;
-    id imageManagerRequestID;
-    id keyAsset;
-    id faces;
-    id imageInfo;
-    id _isCanceled;
 }
 
 @end

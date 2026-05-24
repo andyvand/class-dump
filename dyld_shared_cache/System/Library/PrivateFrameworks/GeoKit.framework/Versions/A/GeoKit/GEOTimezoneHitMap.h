@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
-
 @interface GEOTimezoneHitMap
 {
     _Bool isLoaded;
-    NSData *hitMap;
-    unsigned int width;
-    unsigned int height;
-    NSArray *areas;
-    NSDictionary *areasToTimeZones;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CGImage *);
-- (id);
++ (id)}@] Did not find an account matching the given authentication results. authenticationResults = %{public}@;
++ (id)expired certificates;
+- (id)te.;
+- (_Bool)}@] Failed to find an existing account. Unable to proceed with the authentication because account modifications are not allowed.;
+- (_Bool)lic}@;
+- (id)g the given authentication results. authenticationResults = %{public}@;
+- (struct CGImage *)ntication results. authenticationResults = %{public}@ | options = %{public}@;
+- (id)iously acknowledged = %d.;
 - (_Bool);
 - (void);
 

@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)roupId;
+- (id)P;
 
 @end
 

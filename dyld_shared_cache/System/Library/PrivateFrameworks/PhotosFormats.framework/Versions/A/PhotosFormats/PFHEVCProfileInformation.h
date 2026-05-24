@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PFHEVCProfileInformation
 {
     NSNumber *_profile;
-    NSNumber *_tier;
-    NSNumber *_level;
 }
 
-- (void);
+- (void)_targetForSelector:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)nu;
+- (void)(;
 - (id);
 
 // Remaining properties
-@property(retain) NSNumber *level; // @synthesize level=_level;
 @property(retain) NSNumber *profile; // @synthesize profile=_profile;
-@property(readonly) NSString *summaryDescription;
-@property(retain) NSNumber *tier; // @synthesize tier=_tier;
 
 @end
 

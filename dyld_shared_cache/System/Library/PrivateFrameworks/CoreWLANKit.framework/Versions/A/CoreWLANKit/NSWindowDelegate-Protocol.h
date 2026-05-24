@@ -4,17 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSArray, NSNotification, NSScreen, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void)*J;
+- (void);
+- (void)qm;
+- (void)@y;
+- (void);
+- (NSArray *)requestWithType:(NSWindow *)arg1 recordInfo:retrieveData: /* Error: Ran out of types for this method. */;
+- (NSArray *)replyWithErrorCode:(NSWindow *)arg1 andFormat:(NSScreen *)arg2;
+- (NSArray *)replyWithErrorCode:(NSWindow *)arg1 andFailureReason: /* Error: Ran out of types for this method. */;
+- (void)qb;
+- (NSArray *);
 - (void)Áöð!Bù±HÐ1Â0@ù
 × ;
 - (_Bool)ÑH°1Â0@ù
 × ;
 - (void)bject<OS_dispatch_queue>";
-- (void)tAccessibilityMarkerGroupUIElement:(NSNotification *)arg1;
-- (struct CGSize)nosticsButton:(NSWindow *)arg1;
+- (void)setAccessibilityMarkerGroupUIElement:(NSNotification *)arg1;
+- (struct CGSize)onRunDiagnosticsButton:(NSWindow *)arg1;
 @end
 

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLock, NSString;
+@class NSDate, NSLock;
 
 @interface NSDistributedLock
 {
     NSLock *threadLock;
-    NSString *lockName;
-    _Bool hasLock;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)NSGlyphNameGlyphInfo;
 - (id);
 - (void);
 - (_Bool);

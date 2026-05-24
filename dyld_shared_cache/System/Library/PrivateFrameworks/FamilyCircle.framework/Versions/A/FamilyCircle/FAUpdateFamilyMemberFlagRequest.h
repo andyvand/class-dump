@@ -6,21 +6,18 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class NSDictionary, NSNumber, NSString;
+@class NSDictionary, NSNumber;
 
 @interface FAUpdateFamilyMemberFlagRequest : FAFamilyCircleRequest
 {
     NSNumber *_dsid;
-    NSString *_flag;
-    _Bool _enabled;
-    NSDictionary *_ephemeralAuthResults;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)REMOVED_FROM_HOME_SCREEN;
+- (id)speakableSuffix;
+- (id)fallbackCommands;
+- (id)subject;
+- (void)ded PRACK handler for cseq ;
 - (void);
 
 // Remaining properties

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVOperation
 {
     NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    long long _status;
-    NSError *_error;
 }
 
 + (long long);
 + (void)r AVVideoCleanApertureWidthKey;
-- (_Bool);
+- (_Bool)ܷ;
 - (_Bool);
 - (void);
 - (id);
@@ -26,13 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)rtBytes finished %{public}@;
 - (long long);
 - (void);
-- (_Bool)entifier;
+- (_Bool)MediaIdentifier;
 
 // Remaining properties
-@property(readonly) NSError *error;
 @property(readonly) long long status;
 
 @end

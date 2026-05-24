@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NEIKEv2ConfigurationMessage
 {
     unsigned long long _configurationType;
-    NSArray *_attributes;
 }
 
 - (id);
+- (id)airdropUIManager;
 - (id);
-- (id);
-- (void)nts: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)setPostprocessedPayloadContents: /* Error: Ran out of types for this method. */;
+- (id)CamelliaCCM16;
 
 @end
 

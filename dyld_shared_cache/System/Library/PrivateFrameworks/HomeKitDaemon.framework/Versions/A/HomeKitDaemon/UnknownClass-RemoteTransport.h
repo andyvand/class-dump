@@ -4,51 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, HMFMessage, NSArray, NSString;
-
 @interface UnknownClass (RemoteTransport)
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)displayName;
+- (id)directionsCachePath;
+- (id)deleteContentsObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)dateWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
+- (_Bool)dataWithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)dataWithContentsOfFile:options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)dataUsingEncoding: /* Error: Ran out of types for this method. */;
+- (_Bool)currentlyNecessaryNotificationTypeForState: /* Error: Ran out of types for this method. */;
+- (_Bool)currentState;
+- (_Bool)currentMapsGroupContainerURL;
+- (_Bool)currentMapsApplicationContainerURL;
+- (_Bool)creationDatetime;
+- (_Bool)createXPCListener;
+- (_Bool)createFileAtPath:contents:attributes: /* Error: Ran out of types for this method. */;
+- (_Bool)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (_Bool)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (_Bool)countOfEditableObjects;
+- (unsigned long long)coordinate;
+- (unsigned long long)containerDidEraseContents:fromStorageTypes: /* Error: Ran out of types for this method. */;
+- (id)composedRouteIfExists;
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *hmd_clientIdentifier;
-@property(readonly) long long hmd_dataVersion;
-@property(readonly) unsigned long long hmd_entitlements;
-@property(readonly, getter=hmd_isForLocalStore) _Bool hmd_forLocalStore;
-@property(readonly, getter=hmd_isForNonAdminSharedUser) _Bool hmd_forNonAdminSharedUser;
-@property(readonly, getter=hmd_isForRemoteGatewayCoder) _Bool hmd_forRemoteGatewayCoder;
-@property(readonly, getter=hmd_isForRemoteTransport) _Bool hmd_forRemoteTransport;
-@property(readonly, getter=hmd_isForRemoteTransportOnSameAccount) _Bool hmd_forRemoteTransportOnSameAccount;
-@property(readonly, getter=hmd_isForRemoteUserAdministrator) _Bool hmd_forRemoteUserAdministrator;
 @property(readonly, getter=hmd_isForSharedUser) _Bool hmd_forSharedUser;
-@property(readonly, getter=hmd_isForXPCTransport) _Bool hmd_forXPCTransport;
-@property(readonly, getter=hmd_isForXPCTransportAuthorizedForLocationAccess) _Bool hmd_forXPCTransportAuthorizedForLocationAccess;
-@property(readonly, getter=hmd_isForXPCTransportEntitledForAssistantIdentifiers) _Bool hmd_forXPCTransportEntitledForAssistantIdentifiers;
-@property(readonly, getter=hmd_isForXPCTransportEntitledForHomeLocationAccess) _Bool hmd_forXPCTransportEntitledForHomeLocationAccess;
-@property(readonly, getter=hmd_isForXPCTransportEntitledForSPIAccess) _Bool hmd_forXPCTransportEntitledForSPIAccess;
-@property(readonly) unsigned long long hmd_homeManagerOptions;
-@property(readonly, getter=hmd_isForXPCTransportEntitledForHomeLocationFeedbackAccess) _Bool hmd_isForXPCTransportEntitledForHomeLocationFeedbackAccess;
-@property(readonly) HMFMessage *hmd_message;
-@property(readonly, copy) NSArray *hmd_supportedFeatures;
-@property(readonly) HMDUser *hmd_user;
 @end
 

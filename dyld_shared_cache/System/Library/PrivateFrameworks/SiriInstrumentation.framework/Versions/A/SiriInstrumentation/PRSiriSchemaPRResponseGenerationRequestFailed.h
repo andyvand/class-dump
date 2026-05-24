@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PRSiriSchemaPRResponseGenerationRequestFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)nterrupted;
 - (id);
 - (id);
 - (id)_snapshotTriggerReason;
 - (id)sWwanPreferred;
-- (_Bool)ALID_INPUT;
+- (_Bool)MARRSERRORTYPE_INVALID_INPUT;
 - (_Bool)iriEventTypeUnion.asrClientEvent.recognitionResultTier1.tokens.text;
 - (void)uÐÿ0´H#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

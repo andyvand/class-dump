@@ -9,12 +9,12 @@
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)p] Perform one enqueue;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P�;
 - (id);
 - (id);
 

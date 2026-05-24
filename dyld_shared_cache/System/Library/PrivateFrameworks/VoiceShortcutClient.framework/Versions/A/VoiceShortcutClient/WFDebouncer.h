@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
-
 @interface WFDebouncer
 {
     _Bool _unboundedFiringReasons;
-    _Bool _pendingFire;
-    void *_firingReasonsQueue;
-    NSArray *_firingReasons;
-    double _delay;
-    double _maximumDelay;
-    id _userInfo;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_transaction> *_transaction;
-    NSMapTable *_targetTable;
-    NSObject<OS_dispatch_source> *_delayTimer;
-    NSObject<OS_dispatch_source> *_maximumDelayTimer;
 }
 
 - (id);
@@ -33,9 +19,9 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (double);
+- (double)h=;
 - (void);
 - (void)ñ^1Â0@ù
 × ;
@@ -44,11 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double delay; // @synthesize delay=_delay;
-@property(readonly, nonatomic) NSArray *firingReasons; // @synthesize firingReasons=_firingReasons;
-@property(readonly, nonatomic) double maximumDelay; // @synthesize maximumDelay=_maximumDelay;
-@property(readonly, nonatomic, getter=isPendingFire) _Bool pendingFire;
-@property(readonly, nonatomic) _Bool unboundedFiringReasons; // @synthesize unboundedFiringReasons=_unboundedFiringReasons;
-@property(readonly, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

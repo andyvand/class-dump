@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)t slice with service %@ for chat with guid %@ error:%@ /* Error: Ran out of types for this method. */;
 + (double);
 + (struct CGSize);
 + (_Bool);
-- (id)ionSheetContainerView;
+- (id)_actionSheetContainerView;
 
 @end
 

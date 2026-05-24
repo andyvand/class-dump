@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSEnumerator, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface BRContainerBundlePropertyEnumerator
 {
     NSDictionary *_plist;
-    NSEnumerator *_enumerator;
-    NSString *_propertyKey;
-    Class _valueClass;
 }
 
 - (id);

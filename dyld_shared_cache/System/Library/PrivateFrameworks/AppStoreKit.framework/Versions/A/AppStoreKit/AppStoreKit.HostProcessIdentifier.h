@@ -11,10 +11,10 @@
     void hostBundleId;
 }
 
-+ (id);
++ (id)o;
 + (id)toreKit28TopChartSegmentPresenterViewP;
 - (id);
-- (void);
+- (void),R,N,V_badge;
 - (id);
 - (void)ACy<ªÑ	SgGGACyÈ«Ñ	GG¸Ñ	GkÑ	G_âÑ	ySayYGÕéÒ	øfÒ	yABGSgGSgQo_;
 

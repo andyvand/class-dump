@@ -5,5 +5,8 @@
 //
 
 @protocol CoreDAVOAuthInfoProvider
+
+@optional
+- (unsigned long long);
 @end
 

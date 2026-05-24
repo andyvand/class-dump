@@ -6,7 +6,7 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface PIPortraitAdjustmentController : PIAdjustmentController
 {
@@ -25,21 +25,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_suggestionsURLTemplateStringInDictionary:(id)arg1 usingContext: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)ҕ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double defaultStrength;
-@property(copy, nonatomic) NSString *kind;
 @property(copy, nonatomic) NSDictionary *portraitInfo;
-@property(copy, nonatomic) NSNumber *spillMatteAllowed;
-@property(nonatomic) double strength;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

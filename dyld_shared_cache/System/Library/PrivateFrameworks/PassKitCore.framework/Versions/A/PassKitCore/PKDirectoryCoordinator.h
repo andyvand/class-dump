@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface PKDirectoryCoordinator
 {
     struct os_unfair_lock_s _lock;
-    _Atomic _Bool _invalidated;
-    NSURL *_url;
 }
 
 - (id);
-- (void);
+- (void)o;
 - (void);
 - (id);
 - (_Bool)localProxyTargetDevice;
-- (void)nKeyAttestation;
+- (void)deviceEncryptionKeyAttestation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @dynamic invalidated;
-@property(readonly) Class superclass;
 
 @end
 

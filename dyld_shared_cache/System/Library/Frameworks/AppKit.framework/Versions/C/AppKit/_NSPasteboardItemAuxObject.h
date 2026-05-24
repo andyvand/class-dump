@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSPasteboardItemAuxObject
 {
     NSMutableArray *_orderedTypes;
-    NSMutableDictionary *_dataByType;
-    NSMutableDictionary *_providersByType;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)d;
 - (void);
 
 @end

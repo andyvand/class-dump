@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface SALocalSearchRoute : AceObject
 {
@@ -15,14 +15,14 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -36,22 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSData *etaFilter;
-@property(copy, nonatomic) NSData *evChargingMetadata;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *originalWaypointRoute;
-@property(copy, nonatomic) NSData *routeAsZilchBinary;
-@property(copy, nonatomic) NSData *routeId;
-@property(copy, nonatomic) NSArray *routeIncidentOffsets;
-@property(copy, nonatomic) NSArray *routeIncidents;
 @property(copy, nonatomic) NSData *routeTrafficIncident;
-@property(copy, nonatomic) NSData *sessionState;
-@property(readonly) Class superclass;
 
 @end
 

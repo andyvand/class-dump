@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICIAMApplicationMessage, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ICIAMApplicationMessage, NSString;
 
 @interface ICInAppMessageEntry
 {
     NSString *_bundleIdentifier;
-    NSMutableDictionary *_metadata;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_resourceCache;
-    _Bool _shouldDownloadResources;
-    _Bool _didCacheRequiredResources;
-    _Bool _isBadgingApplication;
-    ICIAMApplicationMessage *_applicationMessage;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) ICIAMApplicationMessage *applicationMessage; // @synthesize applicationMessage=_applicationMessage;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool didCacheRequiredResources; // @synthesize didCacheRequiredResources=_didCacheRequiredResources;
-@property(nonatomic) _Bool isBadgingApplication; // @synthesize isBadgingApplication=_isBadgingApplication;
-@property(readonly, nonatomic) NSDictionary *metadata;
-@property(nonatomic) _Bool shouldDownloadResources; // @synthesize shouldDownloadResources=_shouldDownloadResources;
 
 @end
 

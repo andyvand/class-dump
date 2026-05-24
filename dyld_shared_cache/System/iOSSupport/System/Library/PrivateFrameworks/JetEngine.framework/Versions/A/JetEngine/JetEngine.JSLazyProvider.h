@@ -7,12 +7,11 @@
 @interface JetEngine.JSLazyProvider
 {
     id lazyDependencies;
-    id context;
 }
 
 - (id);
-- (id);
-- (void)e;
+- (id)pageContentPresenter;
+- (void)unsignedCharValue;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface CoreUtilsSwift._CUDictionaryEncoder
 {
     id codingPath;
-    id _context;
-    id _container;
-    id userInfo;
 }
 
 @end

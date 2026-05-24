@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDSearchableIndex;
+@class EDSearchableIndex;
 
 @interface EDSpotlightDaemonClient
 {
     EDSearchableIndex *_searchableIndex;
-    EDMessagePersistence *_persistence;
 }
 
 - (id);
-- (id);
+- (id);
+- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)urityErrors sampleWithStruct:andTimestamp:] /* Error: Ran out of types for this method. */;
 - (void)(SELECT MIN(age) FROM undonated_redonation_percentiles WHERE percentile=19) as redonation_age_p95
           FROM undonated_redonations
     ),
@@ -30,11 +29,10 @@
          WHERE is_redonation
            AND is_donated
            AND ;
-- (void)n;
+- (void)_WKProcessPoolConfiguration;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) EDMessagePersistence *persistence; // @synthesize persistence=_persistence;
 @property(retain, nonatomic) EDSearchableIndex *searchableIndex; // @synthesize searchableIndex=_searchableIndex;
 
 @end

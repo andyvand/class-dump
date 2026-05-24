@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDClientRankingFeatureTypeSource
 {
     PBUnknownFields *_unknownFields;
-    int _serverEntryType;
-    int _suggestionType;
-    struct {
-        unsigned int has_serverEntryType:1;
-        unsigned int has_suggestionType:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)b1"read_poiImageContext"b1"read_poiImageCorrections"b1"wrote_anyField"b1};
-- (id)tion;
+- (id)_clearFunction;
 - (id)¿¨¿dÁ;
 - (void)äÿÿÿöÿÿÿßÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿãÿÿÿÙÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿàÿÿÿÿÿÿÿòÿÿÿâÿÿÿæÿÿÿñÿÿÿäÿÿÿôÿÿÿêÿÿÿìÿÿÿðÿÿÿîÿÿÿçÿÿÿåÿÿÿóÿÿÿïÿÿÿãÿÿÿèÿÿÿÜÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿïÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿßÿÿÿÿÿÿÿìÿÿÿîÿÿÿäÿÿÿòÿÿÿãÿÿÿêÿÿÿðÿÿÿëÿÿÿÿÿÿÿÿÿÿ;
 

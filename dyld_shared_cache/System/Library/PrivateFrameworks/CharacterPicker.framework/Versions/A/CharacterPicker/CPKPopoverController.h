@@ -4,62 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKBottomView, CPKCategoriesPickerView, CPKCategoriesView, CPKCharactersView, CPKDataProvider, CPKDividerLine, CPKHeaderView, CPKPopover, CPKSearchView, CPKTestWindow, CPSearchManager, NSArray, NSDictionary, NSMutableArray, NSRemoteViewController, NSString, NSView, STKEmojiGenerationViewController, STKEmojiGenerationViewControllerOLD;
+@class CPKHeaderView;
 
 __attribute__((visibility("hidden")))
 @interface CPKPopoverController
 {
     CPKHeaderView *_headerView;
-    CPKBottomView *_bottomView;
-    NSView *_titleView;
-    CPKSearchView *_searchView;
-    CPSearchManager *_searchManager;
-    CPKCategoriesView *_categoriesView;
-    CPKCategoriesPickerView *_categoriesPickerView;
-    CPKDividerLine *_dividerLine;
-    STKEmojiGenerationViewController *_creationVC;
-    STKEmojiGenerationViewControllerOLD *_creationVC_OLD;
-    long long _lastCategoryIndex;
-    NSMutableArray *_categorySectionTitle;
-    NSDictionary *_wholeCharCache;
-    long long _maxSearchCount;
-    long long _numberOfRecentsCategories;
-    _Bool _searchViewShown;
-    _Bool _madeSelectionWhileSearching;
-    _Bool _symbolCategoriesInitialized;
-    _Bool _isTemporarilyClosed;
-    _Bool _dontUnhideGridAfterUpdatingDataProvider;
-    struct CGRect _popoverContentsFrame;
-    struct CGRect _genmojiCreationContentsFrame;
-    NSString *_searchFieldContents;
-    _Bool _detachedWindow;
-    _Bool _enabled;
-    _Bool _isEmojiCreationMode;
-    _Bool _currentlyDoingSecondaryInitialization;
-    _Bool _didDoInitialStickersCountCalculation;
-    _Bool _nowSearching;
-    _Bool _popoverDidPerformInitialPositioning;
-    CPKDataProvider *_dataProvider;
-    CPKCharactersView *_charactersView;
-    NSArray *_lastSearchResult;
-    NSArray *_savedRecents;
-    CPKPopover *_enclosingPopover;
-    NSDictionary *_categoryToDataSectionMapping;
-    NSDictionary *_dataSectionToCategoryMapping;
-    CPKDataProvider *_pendingDataProvider;
-    NSRemoteViewController *_generationRemoteViewController;
-    CPKTestWindow *_testWindow;
-    unsigned long long _mode;
-    struct CGPoint _storedScrollPosition;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)RY;
 - (id);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,37 +27,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)T);
+- (void)$;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)' ;
 - (void);
 - (void);
 - (void);
@@ -105,33 +64,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)T;
+- (void)kM;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (id);
+- (id)R$;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -140,7 +99,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -159,31 +118,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)T;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (void)h
+;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)0;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)qa;
 - (void);
 - (long long);
 - (long long);
@@ -192,16 +152,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Kh
+;
 - (id);
-- (void);
+- (void)�@9;
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -211,36 +172,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) CPKCategoriesPickerView *categoriesPickerView; // @synthesize categoriesPickerView=_categoriesPickerView;
-@property(retain, nonatomic) NSDictionary *categoryToDataSectionMapping; // @synthesize categoryToDataSectionMapping=_categoryToDataSectionMapping;
-@property(readonly) CPKCharactersView *charactersView; // @synthesize charactersView=_charactersView;
 @property(nonatomic) _Bool currentlyDoingSecondaryInitialization; // @synthesize currentlyDoingSecondaryInitialization=_currentlyDoingSecondaryInitialization;
-@property(readonly) CPKDataProvider *dataProvider; // @synthesize dataProvider=_dataProvider;
-@property(retain, nonatomic) NSDictionary *dataSectionToCategoryMapping; // @synthesize dataSectionToCategoryMapping=_dataSectionToCategoryMapping;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool detachedWindow; // @synthesize detachedWindow=_detachedWindow;
-@property(nonatomic) _Bool didDoInitialStickersCountCalculation; // @synthesize didDoInitialStickersCountCalculation=_didDoInitialStickersCountCalculation;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property __weak CPKPopover *enclosingPopover; // @synthesize enclosingPopover=_enclosingPopover;
-@property(retain, nonatomic) NSRemoteViewController *generationRemoteViewController; // @synthesize generationRemoteViewController=_generationRemoteViewController;
-@property(readonly, nonatomic) struct CGRect genmojiContentsFrame;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEmojiCreationMode; // @synthesize isEmojiCreationMode=_isEmojiCreationMode;
-@property(readonly) _Bool isEmojiIMMode;
-@property(retain) NSArray *lastSearchResult; // @synthesize lastSearchResult=_lastSearchResult;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(nonatomic) _Bool nowSearching; // @synthesize nowSearching=_nowSearching;
-@property(retain, nonatomic) CPKDataProvider *pendingDataProvider; // @synthesize pendingDataProvider=_pendingDataProvider;
-@property(nonatomic) _Bool popoverDidPerformInitialPositioning; // @synthesize popoverDidPerformInitialPositioning=_popoverDidPerformInitialPositioning;
-@property(copy) NSArray *savedRecents; // @synthesize savedRecents=_savedRecents;
-@property(readonly) CPKSearchView *searchView; // @synthesize searchView=_searchView;
-@property(nonatomic) struct CGPoint storedScrollPosition; // @synthesize storedScrollPosition=_storedScrollPosition;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CPKTestWindow *testWindow; // @synthesize testWindow=_testWindow;
 
 @end
 

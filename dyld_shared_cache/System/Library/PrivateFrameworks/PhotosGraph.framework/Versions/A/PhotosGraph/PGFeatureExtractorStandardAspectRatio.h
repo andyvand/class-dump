@@ -11,11 +11,11 @@
 }
 
 - (long long);
-- (float);
+- (float)_addElement:atRowIndex:inRows:atColumnIndex:inColumns:withRowCount:forceSplit:addToTopRow: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)ҫ];
+- (id)retainCount;
 - (id)PGMusicMaestro;
 
 @end

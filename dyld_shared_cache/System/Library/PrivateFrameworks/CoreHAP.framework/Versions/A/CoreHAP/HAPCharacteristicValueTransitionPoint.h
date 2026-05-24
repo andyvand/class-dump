@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSData, NSString;
+@class NSData;
 
 @interface HAPCharacteristicValueTransitionPoint
 {
     NSData *_targetValue;
-    HAPTLVUnsignedNumberValue *_targetCompletionDuration;
-    HAPTLVUnsignedNumberValue *_startDelayDuration;
 }
 
 + (id);
@@ -23,22 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)nextEventWithContext:(id)arg1;
 - (_Bool);
 - (void);
-- (id);
+- (id)_;
 - (void)32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *startDelayDuration; // @synthesize startDelayDuration=_startDelayDuration;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *targetCompletionDuration; // @synthesize targetCompletionDuration=_targetCompletionDuration;
 @property(retain, nonatomic) NSData *targetValue; // @synthesize targetValue=_targetValue;
 
 @end

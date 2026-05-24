@@ -11,18 +11,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)P;
 - (double);
 - (_Bool);
 - (void);
 - (void);
+- (void)from data.;
 - (void);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool matchAppearanceWithSystem; // @synthesize matchAppearanceWithSystem=_matchAppearanceWithSystem;
-@property(nonatomic) double materialCornerRadius;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol _DKSyncRemoteKnowledgeStorage
+- (void)entCapacityKey in power source dictionary;
+- (void).t5;
 @end
 

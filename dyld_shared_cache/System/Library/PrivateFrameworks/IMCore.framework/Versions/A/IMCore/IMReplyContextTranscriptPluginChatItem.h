@@ -6,33 +6,27 @@
 
 #import <IMCore/IMTranscriptPluginChatItem.h>
 
-@class IMItem, IMMessageItem, NSString;
+@class IMItem;
 
 @interface IMReplyContextTranscriptPluginChatItem : IMTranscriptPluginChatItem
 {
     _Bool _replyIsFromMe;
-    IMMessageItem *_messageItem;
-    IMItem *_parentItem;
-    NSString *_replyMessageGUID;
 }
 
+- (void)verThread:(id)arg1 AVCPacketRelayDriverProc thread(%p) started...;
 - (void);
-- (void);
+- (id)ck:error = %p, result = %s /* Error: Ran out of types for this method. */;
+- (_Bool)s:%d didStartConnectionBlock:error = %p, result = %s /* Error: Ran out of types for this method. */;
+- (_Bool)[%s] %s:%d Does not support type %d /* Error: Ran out of types for this method. */;
+- (id)s IS NOT behind NAT 64;
+- (void)obingQRStatRequestMaxRTT=%f;
+- (id)acketLossRateShort, videoPacketLossRate, ecnCERatio, bandwidthEstimate, trainingValue, trainingAction, trainingActionLogProbability) SELECT state, ROUND(timestamp,3), ROUND(arrivalTime,3), targetBitrate, bitrate, basebandFlush, ROUND(rateControlTime,3), ROUND(owrd, 3), ROUND(nowrd,3), ROUND(nowrda,3), ROUND(roundTripTime,3), ROUND(roundTripTimeAverage,3), ROUND(roundTripTimeMinEnvelope,3), ROUND(audioPacketLossRate,3), ROUND(audioPacketLossRateShort,3), ROUND(videoPacketLossRate,3), ROUND(ecnCERatio,3), bandwidthEstimate, ROUND(trainingValue,3), trainingAction, ROUND(trainingActionLogProbability,3) FROM Feedback; INSERT INTO VCRCMLoutput (state, timestamp, arrivalTime, targetBitrate, bitrate, basebandFlush, nwConnectionTimestamp, frequencyBand, intermittentState, estimatedIntermittentPeriod, singleOutagePeriod, btCoex, radioCoex, qualityScoreDelayRx, qualityScoreDelayTx, qualityScoreLossRx, qualityScoreLossTx, qualityScoreChannel, offChannelTimeRatio, wlanDutyCycle, observedTxBitrateBE, observedTxBitrateBK, observedTxBitrateVI, observedTxBitrateVO, observedTxBitrateLLW0, observedTxBitrateLLW1) SELECT state, ROUND(timestamp,3), ROUND(arrivalTime,3), targetBitrate, bitrate, basebandFlush, nwConnectionTimestamp, frequencyBand, intermittentState, estimatedIntermittentPeriod, singleOutagePeriod, btCoex, radioCoex, qualityScoreDelayRx, qualityScoreDelayTx, qualityScoreLossRx, qualityScoreLossTx, qualityScoreChannel, ROUND(offChannelTimeRatio,2), wlanDutyCycle, observedTxBitrateBE, observedTxBitrateBK, observedTxBitrateVI, observedTxBitrateVO, observedTxBitrateLLW0, observedTxBitrateLLW1 FROM Network; INSERT INTO VCRCMLoutput (state, timestamp, arrivalTime, targetBitrate, bitrate, basebandFlush, radioTechnology, flushableQueueDepth, unflushableQueueDepth, averageBitrate, averageBitrateShort, averageBitrateLong, txBitrate, averageQueueDepth, expectedQueuingDelay, bdcd, normalizedBDCD, normalizedDelay) SELECT state, ROUND(timestamp,3), ROUND(arrivalTime,3), targetBitrate, bitrate, basebandFlush, radioTechnology, flushableQueueDepth, unflushableQueueDepth, averageBitrate, averageBitrateShort, averageBitrateLong, txBitrate, ROUND(averageQueueDepth,2), ROUND(expectedQueuingDelay,3), ROUND(bdcd,3), ROUND(normalizedBDCD,3), ROUND(normalizedDelay,3) FROM Baseband; INSERT INTO VCRCMLoutput (state, timestamp, arrivalTime, targetBitrate, bitrate, basebandFlush, bytesInFlight, bytesInFlightRollingAverage) SELECT state, ROUND(timestamp,3), ROUND(arrivalTime,3), targetBitrate, bitrate, basebandFlush, bytesInFlight, bytesInFlightRollingAverage FROM LocalRCEvents; INSERT INTO VCRCMLoutput (state, timestamp, arrivalTime, targetBitrate, bitrate, basebandFlush, mode, localRAT, remoteRAT, minTargetBitrate, maxTargetBitrate, algorithmVersion) SELECT state, ROUND(timestamp,3), ROUND(arrivalTime,3), targetBitrate, bitrate, basebandFlush, mode, localRAT, remoteRAT, minTargetBitrate, maxTargetBitrate, algorithmVersion FROM RateControllerConfiguration; ;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void)´;
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(readonly, nonatomic) IMMessageItem *messageItem; // @synthesize messageItem=_messageItem;
-@property(nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 
 @end
 

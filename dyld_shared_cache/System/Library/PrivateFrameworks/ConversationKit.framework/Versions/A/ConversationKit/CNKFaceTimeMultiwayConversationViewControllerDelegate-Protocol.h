@@ -4,9 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
+@class NSImage, NSView, TURoute;
 
 @protocol CNKFaceTimeMultiwayConversationViewControllerDelegate
+- (void)Kz;
+- (NSView *)ZQr;
+- (NSImage *)x:(TURoute *)arg1 Cz;
+
+@optional
+- (void);
+- (void)acz;
+- (void);
+- (void)Qr;
+- (void)r;
 
 // Remaining properties
 @property(readonly, nonatomic) NSImage *audioRouteGlyphForDevice;

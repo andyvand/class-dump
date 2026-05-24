@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)troller"16@"SFSafariCredential"24;
 - (_Bool);
 - (id);
 

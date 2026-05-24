@@ -6,13 +6,11 @@
 
 #import <AOSUI/AOSUISpyglassBaseViewController.h>
 
-@class AOSUISpyglassAccountChangeHelper, CNAvatarViewController, NSString, NSView;
+@class AOSUISpyglassAccountChangeHelper, NSView;
 
 @interface AOSUISpyglassAvatarProfileViewController : AOSUISpyglassBaseViewController
 {
     AOSUISpyglassAccountChangeHelper *_accountChangeHelper;
-    NSView *_imageWell;
-    CNAvatarViewController *_avatarViewController;
 }
 
 - (void);
@@ -21,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)?k){;
 - (void);
 - (void);
 - (id);
@@ -34,15 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak NSView *imageWell; // @synthesize imageWell=_imageWell;
-@property(readonly) Class superclass;
 
 @end
 

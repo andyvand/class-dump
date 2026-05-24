@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIPSDLayoutMetricsChannel
 {
     struct CGRect _edgeInsets;
-    NSString *_name;
 }
 
 - (void);
@@ -22,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

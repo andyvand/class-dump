@@ -4,45 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PRPosterContentOcclusionRectSet, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface CKPosterInitialRenderingOptions
 {
     unsigned long long _renderingMode;
-    PRPosterContentOcclusionRectSet *_contentOcclusionRectangles;
-    UIColor *_viewBackgroundColor;
-    UIColor *_sceneViewBackgroundColor;
-    struct CGRect _salientContentRectangle;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)fixFontsInAttributedString:(id)arg1;
+- (void)convertInlineAttachmentToTextInTextView:(id)arg1 forRange: /* Error: Ran out of types for this method. */;
+- (void)convertAttachmentToLinkSystemImageName;
+- (void)_lastUndoEditRange;
+- (id)zeWidthConstraint;
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)!;
+- (id)9;
 - (void)ÀEù±°1Â0@ù
 × ;
-- (struct CGRect)ntentOverTranscriptBackground;
+- (struct CGRect)_dimsContentOverTranscriptBackground;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PRPosterContentOcclusionRectSet *contentOcclusionRectangles; // @synthesize contentOcclusionRectangles=_contentOcclusionRectangles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) struct CGRect salientContentRectangle; // @synthesize salientContentRectangle=_salientContentRectangle;
-@property(retain, nonatomic) UIColor *sceneViewBackgroundColor; // @synthesize sceneViewBackgroundColor=_sceneViewBackgroundColor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIColor *viewBackgroundColor; // @synthesize viewBackgroundColor=_viewBackgroundColor;
 
 @end
 

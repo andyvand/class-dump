@@ -13,7 +13,7 @@
     NSImage *_image;
 }
 
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void)CacheDelegate>",W,N;

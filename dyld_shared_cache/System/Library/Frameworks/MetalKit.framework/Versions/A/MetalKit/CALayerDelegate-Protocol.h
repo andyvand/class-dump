@@ -9,6 +9,9 @@
 @protocol CALayerDelegate
 
 @optional
-- (id <CAAction>)iption;
+- (void);
+- (void);
+- (void)-[APBrowserBTLEManager createBTLEDiscoverer];
+- (id <CAAction>)debugDescription;
 @end
 

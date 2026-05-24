@@ -5,5 +5,9 @@
 //
 
 @protocol RTCPReportProvider
+- (_Bool)9;
+
+@optional
+- (unsigned int);
 @end
 

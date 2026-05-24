@@ -7,21 +7,6 @@
 @interface AWDSafariSelectedFavoritesGridItemEvent
 {
     unsigned long long _itemsPerRow;
-    unsigned long long _row;
-    unsigned long long _sectionIndex;
-    unsigned long long _timestamp;
-    int _displayContext;
-    int _section;
-    int _type;
-    struct {
-        unsigned int itemsPerRow:1;
-        unsigned int row:1;
-        unsigned int sectionIndex:1;
-        unsigned int timestamp:1;
-        unsigned int displayContext:1;
-        unsigned int section:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
@@ -32,7 +17,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)TH;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,20 +33,20 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)i;
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
-- (void);
+- (_Bool)F;
+- (void);
 - (void);
 - (int);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (int);
 - (id);
@@ -70,20 +55,7 @@
 - (void)s"b1"numRemoteDnsServers"b1"stallscoreAtStudyEnd"b1"stallscoreAtStudyStart"b1"stallscoreHealthAfterDecision"b1"stallscoreHealthBeforeDecision"b1"suppressedReason"b1"symptomsDnsRecommendation"b1"totalDnsServers"b1"wanHealthAfterDecision"b1"wanHealthBeforeDecision"b1"dpsNotificationReceivedDuringStudy"b1"isCaptiveServerIPResolved"b1"isPingEnqueueFailing"b1"slowWiFiNotificationReceivedDuringStudy"b1"symptomsDnsscreenStateOn"b1};
 
 // Remaining properties
-@property(nonatomic) int displayContext; // @synthesize displayContext=_displayContext;
-@property(nonatomic) _Bool hasDisplayContext;
-@property(nonatomic) _Bool hasItemsPerRow;
-@property(nonatomic) _Bool hasRow;
-@property(nonatomic) _Bool hasSection;
-@property(nonatomic) _Bool hasSectionIndex;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned long long itemsPerRow; // @synthesize itemsPerRow=_itemsPerRow;
-@property(nonatomic) unsigned long long row; // @synthesize row=_row;
-@property(nonatomic) int section; // @synthesize section=_section;
-@property(nonatomic) unsigned long long sectionIndex; // @synthesize sectionIndex=_sectionIndex;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

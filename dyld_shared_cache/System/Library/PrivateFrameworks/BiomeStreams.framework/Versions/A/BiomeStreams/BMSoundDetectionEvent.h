@@ -6,22 +6,19 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMSoundDetectionEvent : BMEventBase
 {
     double _absoluteTimestamp;
-    NSString *_type;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)H	;
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
@@ -33,15 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

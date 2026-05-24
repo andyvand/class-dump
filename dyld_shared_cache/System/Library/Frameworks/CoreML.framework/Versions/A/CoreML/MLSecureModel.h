@@ -6,51 +6,34 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, NSObject, NSString, NSXPCConnection;
-@protocol CoreMLModelSecurityProtocol;
+@class NSXPCConnection;
 
 @interface MLSecureModel : MLModel
 {
     NSXPCConnection *_connectionToModelSecurityService;
-    NSObject<CoreMLModelSecurityProtocol> *_secureModelProxy;
 }
 
 + (id);
-+ (id);
++ (id),;
 + (id);
 + (id);
 + (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)cpp_str_flex_ctor;
+- (void)DepthStencilStateType;
+- (id)FunctionConstant;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)+AA9;
 - (id);
 - (id);
 - (id);
 - (void)(\d+) for large kernel but are (\d* and \d*);
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
 @property(retain, nonatomic) NSXPCConnection *connectionToModelSecurityService; // @synthesize connectionToModelSecurityService=_connectionToModelSecurityService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(retain, nonatomic) NSObject<CoreMLModelSecurityProtocol> *secureModelProxy; // @synthesize secureModelProxy=_secureModelProxy;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

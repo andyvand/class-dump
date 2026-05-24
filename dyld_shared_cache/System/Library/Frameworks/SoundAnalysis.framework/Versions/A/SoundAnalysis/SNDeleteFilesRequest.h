@@ -9,7 +9,7 @@
     id impl;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapLayerDataServiceLayer, GEOMapLayerDataServiceLayerIndex, GEOMapLayerDataServiceVersion, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapLayerDataServiceVersionUpdate
 {
     PBDataReader *_reader;
-    GEOMapLayerDataServiceLayerIndex *_index;
-    GEOMapLayerDataServiceLayer *_layer;
-    GEOMapLayerDataServiceVersion *_sourceVersion;
-    GEOMapLayerDataServiceVersion *_targetVersion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_b651aedb _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)or recordingWillStartGroup before scheduling stopAudioStream;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)nt;
+- (id)venuesCount;
 - (id)T@"GEOLogMsgStateActionButtonDetails",&,N;
 - (id)ÍB;
 - (void)Ôûmÿìê;

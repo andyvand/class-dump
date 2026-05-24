@@ -9,7 +9,7 @@
     id name;
 }
 
-+ (_Bool);
++ (_Bool)-1;
 - (id);
 - (id);
 - (void);

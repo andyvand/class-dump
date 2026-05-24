@@ -7,9 +7,6 @@
 @interface JetEngine.MetricsLogger
 {
     id loggerName;
-    id recorder;
-    id eventTopic;
-    id sampling;
 }
 
 @end

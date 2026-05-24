@@ -24,42 +24,34 @@ struct ImsNetworkPathDelegate;
 
 struct SipStack;
 
-struct WakeOnWifiAssertion;
-
 struct __shared_weak_count;
-
-struct atomic<CLAuthorizationStatus> {
-    struct __cxx_atomic_impl<CLAuthorizationStatus, std::__cxx_atomic_base_impl<CLAuthorizationStatus>> {
-        _Atomic int __a_value;
-    } __a_;
-};
 
 struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
     struct {
         union __rep {
             struct __short {
-                char __data_[23];
-                unsigned int __size_:7;
-                unsigned int __is_long_:1;
-            } __s;
+                char _field1[23];
+                unsigned int :7;
+                unsigned int :1;
+            } _field1;
             struct __long {
-                char *__data_;
-                unsigned long long __size_;
-                unsigned int __cap_:63;
-                unsigned int __is_long_:1;
-            } __l;
-        } __rep_;
-    } ;
+                char *_field1;
+                unsigned long long _field2;
+                unsigned int :63;
+                unsigned int :1;
+            } _field2;
+        } _field1;
+    } _field1;
 };
 
 struct dispatch_object_s;
 
 struct object {
-    struct dispatch_object_s *fObj;
+    struct dispatch_object_s *_field1;
 };
 
 struct queue {
-    struct object fObj;
+    struct object _field1;
 };
 
 struct shared_ptr<AVCAudioSession> {
@@ -68,8 +60,8 @@ struct shared_ptr<AVCAudioSession> {
 };
 
 struct shared_ptr<AVCRTPStackController> {
-    struct AVCRTPStackController *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct AVCRTPStackController *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<AVCRTTSession> {
@@ -80,11 +72,6 @@ struct shared_ptr<AVCRTTSession> {
 struct shared_ptr<SipStack> {
     struct SipStack *_field1;
     struct __shared_weak_count *_field2;
-};
-
-struct shared_ptr<WakeOnWifiAssertion> {
-    struct WakeOnWifiAssertion *__ptr_;
-    struct __shared_weak_count *__cntrl_;
 };
 
 struct weak_ptr<AVCAudioSession> {
@@ -98,18 +85,18 @@ struct weak_ptr<AVCRTTSession> {
 };
 
 struct weak_ptr<ImsKeepAliveDelegate> {
-    struct ImsKeepAliveDelegate *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct ImsKeepAliveDelegate *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct weak_ptr<ImsLocationSelectorDelegate> {
-    struct ImsLocationSelectorDelegate *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct ImsLocationSelectorDelegate *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct weak_ptr<ImsNetworkPathDelegate> {
-    struct ImsNetworkPathDelegate *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct ImsNetworkPathDelegate *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 #pragma mark Typedef'd Structures
@@ -119,19 +106,19 @@ typedef struct basic_string<char, std::char_traits<char>, std::allocator<char>> 
     struct {
         union __rep {
             struct __short {
-                char __data_[23];
-                unsigned int __size_:7;
-                unsigned int __is_long_:1;
-            } __s;
+                char _field1[23];
+                unsigned int :7;
+                unsigned int :1;
+            } _field1;
             struct __long {
-                char *__data_;
-                unsigned long long __size_;
-                unsigned int __cap_:63;
-                unsigned int __is_long_:1;
-            } __l;
-        } __rep_;
-    } ;
-} basic_string_cc40eacf;
+                char *_field1;
+                unsigned long long _field2;
+                unsigned int :63;
+                unsigned int :1;
+            } _field2;
+        } _field1;
+    } _field1;
+} basic_string_23c5cf75;
 
 typedef struct shared_ptr<AVCAudioSession> {
     struct AVCAudioSession *_field1;
@@ -139,9 +126,9 @@ typedef struct shared_ptr<AVCAudioSession> {
 } shared_ptr_e4394561;
 
 typedef struct shared_ptr<AVCRTPStackController> {
-    struct AVCRTPStackController *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_954fe6d6;
+    struct AVCRTPStackController *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_774b78e2;
 
 typedef struct shared_ptr<AVCRTTSession> {
     struct AVCRTTSession *_field1;
@@ -164,17 +151,17 @@ typedef struct weak_ptr<AVCRTTSession> {
 } weak_ptr_99ee96bd;
 
 typedef struct weak_ptr<ImsKeepAliveDelegate> {
-    struct ImsKeepAliveDelegate *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} weak_ptr_44a62e6d;
+    struct ImsKeepAliveDelegate *_field1;
+    struct __shared_weak_count *_field2;
+} weak_ptr_eace0d2d;
 
 typedef struct weak_ptr<ImsLocationSelectorDelegate> {
-    struct ImsLocationSelectorDelegate *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} weak_ptr_fe6e8d2a;
+    struct ImsLocationSelectorDelegate *_field1;
+    struct __shared_weak_count *_field2;
+} weak_ptr_c7fbdfd2;
 
 typedef struct weak_ptr<ImsNetworkPathDelegate> {
-    struct ImsNetworkPathDelegate *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} weak_ptr_030f1409;
+    struct ImsNetworkPathDelegate *_field1;
+    struct __shared_weak_count *_field2;
+} weak_ptr_fdb46ec5;
 

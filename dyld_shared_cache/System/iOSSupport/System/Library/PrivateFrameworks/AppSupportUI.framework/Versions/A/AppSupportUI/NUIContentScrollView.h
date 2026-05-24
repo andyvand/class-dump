@@ -9,23 +9,19 @@
 @interface NUIContentScrollView
 {
     _Bool _canScrollDocumentViewHorizontally;
-    _Bool _canScrollDocumentViewVertically;
-    UIView *_documentView;
-    long long _horizontalAlignment;
-    long long _verticalAlignment;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (void);
-- (void);
-- (_Bool);
+- (void)P;
+- (_Bool)?;
 - (id);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -34,7 +30,7 @@
 - (struct CGSize);
 - (void);
 - (CDStruct_6c92d79e);
-- (id);
+- (id)@;
 - (void);
 - (struct CGSize);
 - (void);
@@ -42,16 +38,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)!ySk";
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool canScrollDocumentViewHorizontally; // @synthesize canScrollDocumentViewHorizontally=_canScrollDocumentViewHorizontally;
-@property(nonatomic) _Bool canScrollDocumentViewVertically; // @synthesize canScrollDocumentViewVertically=_canScrollDocumentViewVertically;
 @property(retain, nonatomic) UIView *contentView;
-@property(retain, nonatomic) UIView *documentView; // @synthesize documentView=_documentView;
-@property(nonatomic) long long horizontalAlignment; // @synthesize horizontalAlignment=_horizontalAlignment;
-@property(nonatomic) long long verticalAlignment; // @synthesize verticalAlignment=_verticalAlignment;
 
 @end
 

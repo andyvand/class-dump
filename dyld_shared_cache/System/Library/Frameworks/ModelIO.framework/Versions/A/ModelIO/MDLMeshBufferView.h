@@ -6,38 +6,23 @@
 
 #import <ModelIO/MDLBufferView.h>
 
-@class MDLMeshBufferViewAllocator, NSString;
-@protocol MDLMeshBufferAllocator, MDLMeshBufferZone;
-
 @interface MDLMeshBufferView : MDLBufferView
 {
     unsigned long long _type;
-    MDLMeshBufferViewAllocator *_allocator;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)];
+- (void)__objc_methlist;
+- (id)notifications for %lu characteristic%s;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id)nterface: /* Error: Ran out of types for this method. */;
-- (id)ementScale;
+- (id)setRemoteObjectInterface: /* Error: Ran out of types for this method. */;
+- (id)objectDisplacementScale;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator;
 @property(readonly, nonatomic) const void *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, retain, nonatomic) id <MDLMeshBufferZone> zone;
 
 @end
 

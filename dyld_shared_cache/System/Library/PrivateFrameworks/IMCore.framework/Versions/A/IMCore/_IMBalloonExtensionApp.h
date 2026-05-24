@@ -6,34 +6,33 @@
 
 #import <IMCore/IMBalloonApp.h>
 
-@class LSPlugInKitProxy, NSExtension;
+@class NSExtension;
 
 @interface _IMBalloonExtensionApp : IMBalloonApp
 {
     NSExtension *_extension;
-    LSPlugInKitProxy *_proxy;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)ate[%f] totalFrameErasureRateAlt[%f] redErasureCompensationRate[%f] maxRedFrameRecoveryDepth[%f] redAudioFramesPlayed[%d] redAudioBytesPlayed[%d] totalFramesPlayed[%d] totalSpeechErasureRate[%f] totalWindowedErasureRate[%f] maxConsecutiveAudioErasures[%d], totalErasureCount[%u];
+- (_Bool)rWindow[%f];
+- (_Bool)ForSession[%f] maxJitterForWindow[%f];
+- (_Bool)locate the JitterBuffer;
+- (_Bool)nabled=%d minQSize5G=%f minQSizeCellular=%f targetSynchronizer=%p spikeManagement=%d skipDecodeOnSilence=%d skipJBDumpCreation=%d enableEnhancedJBAdaptations=%d;
+- (double)rol for unsupported streamGroupID=%s;
+- (_Bool)Stream [%s] %s:(id)arg1 %d @:@ AVCVideoStream-didPause (%p) didSucceed=%d, error=%@ /* Error: Ran out of types for this method. */;
+- (_Bool)VideoStream-didPause;
+- (_Bool)RTCONFERENCE (client side);
+- (_Bool)AVCVideoStream-addRemoteEndpoint;
+- (_Bool)eam [%s] %s:%d %@(%p) destination=%@, callID=%@, error=%@ /* Error: Ran out of types for this method. */;
+- (id)on-didStart (%p) didSucceed=%d, error=%@;
+- (id)o add the participant;
+- (id).2f, currentTargetBitrate(Mbps)=%.2f, measuredBitrate(Mbps)=%.2f;
+- (id)arget=%d, elapsedTime(s)=%.2f, currentTargetBitrate(Mbps)=%.2f, measuredBitrate(Mbps)=%.2f;
+- (id)RegisterForPrefixUpdate:could not create a shared instance of NAT64Resolver /* Error: Ran out of types for this method. */;
+- (id)on of context %08X on interface %s;
+- (id)esolverRegisterForPrefixUpdate:begin registration of context %08X on interface %s /* Error: Ran out of types for this method. */;
+- (id)eams=%d;
+- (id)videoPriorityEnabled=%d, uplinkVideoStreamController.dynamicVideoPriorityEnabled=%d uplinkVideoStreamController.captureFrameRate=%d;
 - (id);
 - (_Bool);
 - (id);
@@ -50,7 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(retain, nonatomic) LSPlugInKitProxy *proxy; // @synthesize proxy=_proxy;
 
 @end
 

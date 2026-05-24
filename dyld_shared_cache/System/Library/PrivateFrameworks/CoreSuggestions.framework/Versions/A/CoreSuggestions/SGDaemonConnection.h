@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCConnection, NSXPCInterface;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SGDaemonConnection
 {
     NSString *_machServiceName;
-    NSXPCInterface *_xpcInterface;
-    NSObject<OS_dispatch_queue> *_connectLock;
-    NSMutableArray *_abortBlocks;
-    struct _opaque_pthread_mutex_t _abortLock;
-    NSXPCConnection *_xpcConnection;
 }
 
 + (_Bool);
@@ -26,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);

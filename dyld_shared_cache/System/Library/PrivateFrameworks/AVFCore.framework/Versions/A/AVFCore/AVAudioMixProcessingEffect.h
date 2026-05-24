@@ -6,18 +6,15 @@
 
 #import <AVFCore/AVAudioMixEffect.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSString;
+@class NSString;
 
 @interface AVAudioMixProcessingEffect : AVAudioMixEffect
 {
     NSString *_identifier;
-    NSString *_graphText;
-    NSMutableArray *_scheduleEntries;
-    NSDictionary *_properties;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -25,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (unsigned long long);
@@ -34,10 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *DSPGraphText;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSArray *parameterSchedule;
-@property(readonly, nonatomic) NSDictionary *properties;
 
 @end
 

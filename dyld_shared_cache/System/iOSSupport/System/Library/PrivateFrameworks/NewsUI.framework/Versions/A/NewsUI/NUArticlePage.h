@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticle, FCAsyncOnceOperation, NSString, NUPageStyle, UIViewController;
-@protocol FCOperationCanceling, NUActivityProvider, NUArticleActivityFactory, NUArticleHostViewControllerFactory, NUPageable;
+@class FCArticle;
 
 @interface NUArticlePage
 {
     FCArticle *_article;
-    id <NUArticleHostViewControllerFactory> _articleHostViewControllerFactory;
-    id <NUArticleActivityFactory> _articleActivityFactory;
-    NUPageStyle *_pageStyle;
-    id <NUActivityProvider> _activityProvider;
-    FCAsyncOnceOperation *_asyncOnceOperation;
-    id <FCOperationCanceling> _asyncOnceCancelHandler;
-    UIViewController<NUPageable> *_articleViewController;
-    unsigned long long _pageNextAction;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,24 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <NUActivityProvider> activityProvider; // @synthesize activityProvider=_activityProvider;
-@property(readonly, nonatomic) _Bool allowNeighboringAdvertising;
 @property(readonly, nonatomic) FCArticle *article; // @synthesize article=_article;
-@property(readonly, nonatomic) id <NUArticleActivityFactory> articleActivityFactory; // @synthesize articleActivityFactory=_articleActivityFactory;
-@property(readonly, nonatomic) id <NUArticleHostViewControllerFactory> articleHostViewControllerFactory; // @synthesize articleHostViewControllerFactory=_articleHostViewControllerFactory;
-@property(retain, nonatomic) UIViewController<NUPageable> *articleViewController; // @synthesize articleViewController=_articleViewController;
-@property(retain, nonatomic) id <FCOperationCanceling> asyncOnceCancelHandler; // @synthesize asyncOnceCancelHandler=_asyncOnceCancelHandler;
-@property(retain, nonatomic) FCAsyncOnceOperation *asyncOnceOperation; // @synthesize asyncOnceOperation=_asyncOnceOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(nonatomic) unsigned long long pageNextAction; // @synthesize pageNextAction=_pageNextAction;
-@property(retain, nonatomic) NUPageStyle *pageStyle; // @synthesize pageStyle=_pageStyle;
-@property(readonly) Class superclass;
 
 @end
 

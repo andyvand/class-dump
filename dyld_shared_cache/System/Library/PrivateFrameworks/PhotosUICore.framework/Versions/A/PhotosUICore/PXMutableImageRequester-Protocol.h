@@ -8,23 +8,13 @@
 
 @protocol PXMutableImageRequester
 - (void);
-- (void)asedSongID;
+- (void)PXStoryMusicCuratorFetchIdentifierForPurchasedSongID;
 - (id <PXDisplayAsset>)nvitation;
 - (void)ce change, got %lu;
 - (struct CGRect)µ§È;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <PXDisplayAsset> asset;
-@property(nonatomic) struct CGSize contentSize;
-@property(nonatomic) struct CGRect cropRect;
-@property(nonatomic) struct CGRect desiredContentsRect;
-@property(nonatomic) long long downloadIntent;
-@property(nonatomic) struct CGSize maximumRequestSize;
 @property(retain, nonatomic) id <PXUIImageProvider> mediaProvider;
-@property(nonatomic) _Bool preferHDR;
-@property(nonatomic) double scale;
-@property(nonatomic) double targetHDRHeadroom;
-@property(nonatomic) struct CGSize viewportSize;
 @end
 

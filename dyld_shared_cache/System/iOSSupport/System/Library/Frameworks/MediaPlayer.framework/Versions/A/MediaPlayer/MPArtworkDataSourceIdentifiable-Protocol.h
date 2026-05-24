@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MPArtworkDataSourceIdentifiable
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkDataSourceIdentifier;

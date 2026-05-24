@@ -6,23 +6,17 @@
 
 #import <OfficeImport/TCDumpType.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TCDumpArray : TCDumpType
 {
     int mCount;
-    int mCountFieldType;
-    NSString *mCountFieldName;
-    int mPaddingSize;
-    TCDumpType *mElementType;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)K;
 - (void)cStorage localeSpecificStorageForLocale:] /* Error: Ran out of types for this method. */;
 
 @end

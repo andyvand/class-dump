@@ -6,32 +6,26 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKCurrencyAmount;
+@class NSString;
 
 @interface PKAccountWebServiceTransferEligibilityRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    PKCurrencyAmount *_currencyAmount;
-    unsigned long long _type;
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)߈*;
 - (unsigned long long);
 - (void);
 - (id)o acquire notification assertion with error:%@ /* Error: Ran out of types for this method. */;
-- (void)rencesChangedDistributedNotification;
+- (void)PDPeerPaymentServicePreferencesChangedDistributedNotification;
 - (void)^H!L°C;
 - (id)úàÿçIÜ;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

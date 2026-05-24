@@ -17,7 +17,7 @@
 - (_Bool);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)$H;
 - (unsigned long long);
 - (_Bool);
 - (void);

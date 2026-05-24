@@ -9,12 +9,6 @@
 @interface EspressoDCNEspressoOverfeatDetector
 {
     int tileSizeScaleFactor;
-    int tileDimension;
-    int localFaceMerging;
-    void *face_list;
-    EspressoFDOverfeatNetwork *_enet;
-    double _confidenceThreshold;
-    double _minBoundingBoxThreshold;
 }
 
 - (void);
@@ -26,7 +20,7 @@
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)So17OS_dispatch_queueC;
 - (id);
 - (double);
 - (void);
@@ -37,9 +31,7 @@
 - (void)Ð;
 
 // Remaining properties
-@property(nonatomic) double confidenceThreshold; // @synthesize confidenceThreshold=_confidenceThreshold;
 @property(retain, nonatomic) EspressoFDOverfeatNetwork *enet; // @synthesize enet=_enet;
-@property(nonatomic) double minBoundingBoxThreshold; // @synthesize minBoundingBoxThreshold=_minBoundingBoxThreshold;
 
 @end
 

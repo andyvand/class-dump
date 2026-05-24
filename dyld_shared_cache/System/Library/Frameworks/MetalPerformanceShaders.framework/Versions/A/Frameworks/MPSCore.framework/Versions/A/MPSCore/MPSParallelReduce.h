@@ -9,10 +9,6 @@
 @interface MPSParallelReduce : MPSKernel
 {
     unsigned int _kernelID;
-    unsigned int _argkernelID;
-    unsigned int _sourceDataType;
-    unsigned int _destinationDataType;
-    int _reduceOp;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -28,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int destinationDataType; // @synthesize destinationDataType=_destinationDataType;
 @property(readonly, nonatomic) unsigned int sourceDataType; // @synthesize sourceDataType=_sourceDataType;
 
 @end

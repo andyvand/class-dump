@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TableViewPlusDataSource, TableViewPlusDelegate, TableViewPlusScrollDelegate;
-
 __attribute__((visibility("hidden")))
 @interface TableViewPlus
 {
     _Bool _startEditTimerOnMouseUp;
-    long long _clickedRow;
-    long long _clickedColumn;
-    _Bool _preservesSelectionWhenDisplayingContextMenu;
-    id <TableViewPlusScrollDelegate> _scrollDelegate;
 }
 
 - (_Bool);
@@ -37,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ode:languageCodeChangeDate:loadAsync:actionsOnly:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -47,10 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak id <TableViewPlusDataSource> dataSource; // @dynamic dataSource;
-@property __weak id <TableViewPlusDelegate> delegate; // @dynamic delegate;
 @property _Bool preservesSelectionWhenDisplayingContextMenu; // @synthesize preservesSelectionWhenDisplayingContextMenu=_preservesSelectionWhenDisplayingContextMenu;
-@property(nonatomic) __weak id <TableViewPlusScrollDelegate> scrollDelegate; // @synthesize scrollDelegate=_scrollDelegate;
 
 @end
 

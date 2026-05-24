@@ -8,12 +8,14 @@
 
 @interface HomeUtilityServices.UtilitySubscriptionResponse
 {
+    HomeUtilityServices.UtilitySubscriptionInformation *subscription;
+    void authorizationToken;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 
 // Remaining properties

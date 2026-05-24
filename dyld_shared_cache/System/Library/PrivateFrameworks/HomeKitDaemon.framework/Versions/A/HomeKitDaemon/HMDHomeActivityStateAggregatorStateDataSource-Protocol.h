@@ -7,10 +7,11 @@
 @class HMDHomeActivityComingHomeAggregatorState, HMDHomeActivityHomeAwayAggregatorState, HMDHomeActivityVacationAggregatorState;
 
 @protocol HMDHomeActivityStateAggregatorStateDataSource
+- (HMDHomeActivityVacationAggregatorState *);
+- (HMDHomeActivityHomeAwayAggregatorState *)ch>">16@?<v@?@"<MSPHistoryEntryRoute>">24@?<v@?@"<MSPHistoryEntryPlaceDisplay>">32@?<v@?@"<MSPHistoryEntryTransitLineItem>">40;
+- (HMDHomeActivityComingHomeAggregatorState *)d to block identifiers %@:error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDHomeActivityComingHomeAggregatorState *comingHomeAggregatorState;
 @property(readonly, copy, nonatomic) HMDHomeActivityHomeAwayAggregatorState *homeAwayAggregatorState;
-@property(readonly, copy, nonatomic) HMDHomeActivityVacationAggregatorState *vacationAggregatorState;
 @end
 

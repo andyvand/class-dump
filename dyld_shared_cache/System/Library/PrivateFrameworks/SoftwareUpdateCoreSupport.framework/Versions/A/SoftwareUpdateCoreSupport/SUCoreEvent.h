@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary;
 
 @interface SUCoreEvent
 {
     _Bool _changedSinceReported;
-    NSMutableDictionary *_allFields;
-    NSURL *_serverURL;
-    NSString *_reportedUUID;
 }
 
 + (_Bool);
+- (void)registerDataRepresentationForTypeIdentifier:(id)arg1 visibility:loadHandler: /* Error: Ran out of types for this method. */;
+- (void)rect;
+- (void)recognitionStream;
+- (id);
+- (_Bool)processIdentifier;
+- (id)presentedWindowStyle;
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)potentialAutoScrollEvent;
+- (id)popoverWillShow: /* Error: Ran out of types for this method. */;
+- (_Bool)popUpButton;
+- (id)platformRotorStorage;
 - (void);
 - (id);
 - (void);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *allFields; // @synthesize allFields=_allFields;
-@property(nonatomic) _Bool changedSinceReported; // @synthesize changedSinceReported=_changedSinceReported;
-@property(retain, nonatomic) NSString *reportedUUID; // @synthesize reportedUUID=_reportedUUID;
-@property(retain, nonatomic) NSURL *serverURL; // @synthesize serverURL=_serverURL;
 
 @end
 

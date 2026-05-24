@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAnimation, NSDictionary;
 @protocol NSAnimationContextCompletionHandlerSuspension;
 
 __attribute__((visibility("hidden")))
 @interface _NSAccessoryAnimationData
 {
     id <NSAnimationContextCompletionHandlerSuspension> _animationContextResumeKey;
-    NSAnimation *_visibilityAnimation;
-    id _animator;
-    NSDictionary *_animationsDictionary;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)n-NULL;
+- (void)AthxlkPBk46HtzM9AxK9vg;
+- (void)wtUF1NceYeLT6IHovZvocw;
+- (void)6fD64RQ;
 - (id);
 - (id);
 - (void);
@@ -29,9 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) id <NSAnimationContextCompletionHandlerSuspension> animationContextResumeKey; // @synthesize animationContextResumeKey=_animationContextResumeKey;
-@property(copy) NSDictionary *animationsDictionary; // @synthesize animationsDictionary=_animationsDictionary;
-@property __weak id animator; // @synthesize animator=_animator;
-@property(retain) NSAnimation *visibilityAnimation; // @synthesize visibilityAnimation=_visibilityAnimation;
 
 @end
 

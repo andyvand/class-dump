@@ -6,16 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHMultiUserResultCandidateReceived : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (unsigned long long);
@@ -24,16 +21,14 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ompanionName;
+- (id)_companionName;
 - (id)eDataCaptureMetadata;
-- (_Bool)ER;
-- (_Bool)ason;
+- (_Bool)FLOWSMSATTACHMENTTYPE_PHONE_NUMBER;
+- (_Bool)POMMESSchemaPOMMESPegasusRequestFailureReason;
 - (void)0%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPromise, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AMSMediaInvokeAuthenticationCoordinator
 {
     struct os_unfair_lock_s _queueLock;
-    NSMutableArray *_invokeAuthQueue;
-    AMSPromise *_inflightAuthPromise;
 }
 
 + (id)H¿U!~ÎÏÃ4?¼»þ³ÙeTúAã8tj*Þðzph¦{ZµJÐçÉ¡ÑØ$5`WoìÇF·ID\g
 |mi%Yõ;ºr7uR9°éÚfÿN½+ß S¯E¶"K'vxâ«Ló²qïÁÌ£Û,±s­Ò/à#÷ølñd;
 - (void);
 - (void);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s)#;
 - (id);
 - (id);
 - (id);
@@ -28,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)?	v@¸ÇñPf/á×¨7~H°Ïù;Dr¼õÃj\#Ûí¤`V)Ñç®1Nx¶ÿÉ=tBºÅóZl%ëÝ¢5|J²ÍûRd-ãÕªh^!Ùï¦9Fp¾÷Á&oY¡ÞèAw>ðÆ¹{M2Êüµ*Uc­äÒsE:Âô½"]k¥ìÚ.gQ©ÖàI /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) AMSPromise *inflightAuthPromise; // @synthesize inflightAuthPromise=_inflightAuthPromise;
-@property(readonly) NSMutableArray *invokeAuthQueue; // @synthesize invokeAuthQueue=_invokeAuthQueue;
 @property(readonly) struct os_unfair_lock_s queueLock; // @synthesize queueLock=_queueLock;
 
 @end

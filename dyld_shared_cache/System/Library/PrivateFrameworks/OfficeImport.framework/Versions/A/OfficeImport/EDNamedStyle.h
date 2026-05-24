@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)arent:(id)arg1;
+- (void)setMergedWithParent:(id)arg1;
 - (void)ô3;
 
 @end

@@ -17,10 +17,10 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)oorMemoryGenerator;
+- (id)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (id)PGChildOutdoorMemoryGenerator;
 - (void)Internal/Library/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Data Model Enrichment/PGGraphPortraitDonationEnrichmentProcessor.m;
-- (id)CG;
+- (id)SaySo8PHPersonCG;
 - (id);
 
 // Remaining properties

@@ -4,35 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUserActivity, UIScene, UISceneConfiguration;
+@class UIScene;
 
 @interface UISceneSession
 {
     UIScene *_scene;
-    NSString *_role;
-    NSString *_persistentIdentifier;
-    UISceneConfiguration *_configuration;
-    NSUserActivity *_stateRestorationActivity;
-    NSDictionary *_userInfo;
-    NSDictionary *_internalUserInfo;
-    struct {
-        unsigned int _stateRestorationActivityIsDirty:1;
-        unsigned int _stateRestorationActivityIsCurrent:1;
-        unsigned int _trackingSessionRequest:1;
-        unsigned int _configurationIsDirty:1;
-        unsigned int _userInfoIsDirty:1;
-        unsigned int _userInfoIsCurrent:1;
-        unsigned int _internalUserInfoIsDirty:1;
-        unsigned int _internalUserInfoIsCurrent:1;
-        unsigned int _isInternal:1;
-    } _sessionFlags;
 }
 
 + (_Bool)u;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)escriptor"16;
 - (_Bool);
 - (id);
 - (void);
@@ -44,7 +27,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)becomeActiveIfPossibleWithCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -57,19 +40,19 @@
 - (void)ð!°FùÑbÐ1Â0@ù
 × ;
 - (id)d}24;
-- (_Bool)ForegroundWithBlock:(id)arg1;
-- (void)geInLength:(id)arg1;
-- (_Bool)ader:forSection: /* Error: Ran out of types for this method. */;
-- (void)lorChanges;
+- (_Bool)observeIsForegroundWithBlock:(id)arg1;
+- (void)edited:(id)arg1 range:changeInLength: /* Error: Ran out of types for this method. */;
+- (_Bool)_setupSectionView:isHeader:forSection: /* Error: Ran out of types for this method. */;
+- (void)_markNeedsLayoutAndDisplayOnTintColorChanges;
 - (void)sSystemItemContainer",R,N,V_itemContainerProxy;
 - (id)rceSnapshot;
 - (void)½d¾;
 - (_Bool);
 - (id)ng code needs updating;
 - (id)g stateRestorationActivity for scene %@;
-- (id)Black;
+- (id)UIKBColorBlack;
 - (_Bool)Highlighted (pressed) states are the only supported states;
-- (id)elligenceElementV13AsyncLoadable_px1TAcDPRts_XP;
+- (id)21UIIntelligenceSupport19IntelligenceElementV13AsyncLoadable_px1TAcDPRts_XP;
 - (_Bool);
 - (id);
 - (id)Ê;
@@ -80,29 +63,7 @@
 - (void)×ì«g;
 
 // Remaining properties
-@property(nonatomic, setter=_setConfigurationIsDirty:) _Bool _configurationIsDirty;
-@property(readonly, nonatomic) _Bool _configurationNeedsReevalulation;
-@property(readonly, nonatomic, getter=_isInternal) _Bool _internal;
-@property(copy, nonatomic, setter=_setInternalUserInfo:) NSDictionary *_internalUserInfo; // @synthesize _internalUserInfo;
-@property(readonly, nonatomic) _Bool _internalUserInfoIsCurrent;
-@property(nonatomic, setter=_setInternalUserInfoIsDirty:) _Bool _internalUserInfoIsDirty;
-@property(nonatomic, setter=_setStateRestorationActivityIsDirty:) _Bool _stateRestorationActivityIsDirty;
-@property(nonatomic, setter=_setTrackingRefreshRequest:) _Bool _trackingRefreshRequest;
 @property(readonly, nonatomic) _Bool _userInfoIsCurrent;
-@property(nonatomic, setter=_setUserInfoIsDirty:) _Bool _userInfoIsDirty;
-@property(readonly, copy, nonatomic) UISceneConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(readonly, nonatomic) NSString *role; // @synthesize role=_role;
-@property(readonly, nonatomic) __weak UIScene *scene; // @synthesize scene=_scene;
-@property(retain, nonatomic) NSUserActivity *stateRestorationActivity;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *userInfo;
 
 @end
 

@@ -6,28 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCKContentDatabase, FCEdgeCacheHint, FCThreadSafeMutableArray, NFPromise, NSArray, NSDictionary;
+@class FCCKContentDatabase, FCThreadSafeMutableArray;
 
 @interface FCCKBatchedOrderFeedQueryOperation : FCOperation
 {
     FCCKContentDatabase *_database;
-    NSArray *_feedRequests;
-    NSArray *_desiredKeys;
-    unsigned long long _resultsLimit;
-    unsigned long long _queryPriority;
-    NSArray *_articleLinkKeys;
-    NSDictionary *_additionalRequestHTTPHeaders;
-    FCEdgeCacheHint *_edgeCacheHint;
-    CDUnknownBlockType _queryCompletionHandler;
-    NFPromise *_queryCompletionPromise;
-    FCThreadSafeMutableArray *_allFeedItemAndArticleRecords;
-    FCThreadSafeMutableArray *_allFeedResponses;
-    FCThreadSafeMutableArray *_allTagRecords;
-    FCThreadSafeMutableArray *_allIssueRecords;
-    FCThreadSafeMutableArray *_allNetworkEvents;
-    FCThreadSafeMutableArray *_allErrors;
-    CDUnknownBlockType _promiseResolveBlock;
-    CDUnknownBlockType _promiseRejectBlock;
 }
 
 - (CDUnknownBlockType);
@@ -44,14 +27,7 @@
 - (void)r:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) FCThreadSafeMutableArray *allErrors; // @synthesize allErrors=_allErrors;
 @property(readonly, nonatomic) FCThreadSafeMutableArray *allFeedItemAndArticleRecords; // @synthesize allFeedItemAndArticleRecords=_allFeedItemAndArticleRecords;
-@property(readonly, nonatomic) FCThreadSafeMutableArray *allFeedResponses; // @synthesize allFeedResponses=_allFeedResponses;
-@property(readonly, nonatomic) FCThreadSafeMutableArray *allIssueRecords; // @synthesize allIssueRecords=_allIssueRecords;
-@property(readonly, nonatomic) FCThreadSafeMutableArray *allNetworkEvents; // @synthesize allNetworkEvents=_allNetworkEvents;
-@property(readonly, nonatomic) FCThreadSafeMutableArray *allTagRecords; // @synthesize allTagRecords=_allTagRecords;
-@property(readonly, copy, nonatomic) CDUnknownBlockType promiseRejectBlock; // @synthesize promiseRejectBlock=_promiseRejectBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType promiseResolveBlock; // @synthesize promiseResolveBlock=_promiseResolveBlock;
 
 @end
 

@@ -15,11 +15,11 @@ typedef struct {
 } CDStruct_6ad76789;
 
 typedef struct {
-    unsigned int channels:1;
-    unsigned int networks:1;
-    unsigned int cacheEnabled:1;
-    unsigned int cacheRollover:1;
-    unsigned int scanFrequency:1;
-    unsigned int lostNetworkScanCount:1;
-} CDStruct_d6d3f188;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+} CDStruct_d3566df9;
 

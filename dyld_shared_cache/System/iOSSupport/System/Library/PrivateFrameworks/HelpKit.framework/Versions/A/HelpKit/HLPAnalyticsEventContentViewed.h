@@ -12,42 +12,32 @@
 {
     NSString *_externalURLString;
     NSString *_fromTopicID;
-    NSString *_topicID;
-    NSString *_topicTitle;
-    NSString *_source;
-    NSString *_viewMode;
-    unsigned long long _viewNum;
 }
 
-+ (id);
++ (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long)V;
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (void)setTimeRange:(id)arg1;
+- (id)ComparisonResult;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *externalURLString; // @synthesize externalURLString=_externalURLString;
-@property(retain, nonatomic) NSString *fromTopicID; // @synthesize fromTopicID=_fromTopicID;
-@property(retain, nonatomic) NSString *source; // @synthesize source=_source;
 @property(retain, nonatomic) NSString *topicID; // @synthesize topicID=_topicID;
 @property(retain, nonatomic) NSString *topicTitle; // @synthesize topicTitle=_topicTitle;
-@property(retain, nonatomic) NSString *viewMode; // @synthesize viewMode=_viewMode;
-@property(nonatomic) unsigned long long viewNum; // @synthesize viewNum=_viewNum;
 
 @end
 

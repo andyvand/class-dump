@@ -9,12 +9,6 @@
 @interface PXLivePhotoTrimScrubberSnapStripControllerSpec
 {
     _Bool _alwaysShowKeyTime;
-    _Bool _showDefaultKeyTime;
-    _Bool _livePortraitStyle;
-    NSColor *_disabledColor;
-    NSColor *_currentPositionMarkerColor;
-    NSColor *_originalPositionMarkerColor;
-    NSColor *_suggestedMarkerColor;
 }
 
 - (id);
@@ -23,25 +17,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3֗`;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)_;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysShowKeyTime; // @synthesize alwaysShowKeyTime=_alwaysShowKeyTime;
-@property(retain, nonatomic) NSColor *currentPositionMarkerColor; // @synthesize currentPositionMarkerColor=_currentPositionMarkerColor;
 @property(retain, nonatomic) NSColor *disabledColor; // @synthesize disabledColor=_disabledColor;
-@property(nonatomic) _Bool livePortraitStyle; // @synthesize livePortraitStyle=_livePortraitStyle;
-@property(retain, nonatomic) NSColor *originalPositionMarkerColor; // @synthesize originalPositionMarkerColor=_originalPositionMarkerColor;
-@property(nonatomic) _Bool showDefaultKeyTime; // @synthesize showDefaultKeyTime=_showDefaultKeyTime;
-@property(retain, nonatomic) NSColor *suggestedMarkerColor; // @synthesize suggestedMarkerColor=_suggestedMarkerColor;
 
 @end
 

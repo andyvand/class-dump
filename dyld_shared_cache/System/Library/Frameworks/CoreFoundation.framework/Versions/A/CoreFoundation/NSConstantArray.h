@@ -9,21 +9,20 @@
 @interface NSConstantArray : NSArray
 {
     unsigned long long _count;
-    const id *_objects;
 }
 
 + (id);
-+ (_Bool)Result;
++ (_Bool)AKBeneficiaryAliasSetupResult;
 + (id))U;
 - (unsigned long long);
 - (void);
 - (oneway void);
 - (id);
-- (id);
+- (id)m ;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (void)e:(id *)arg1 toUnitGranularity:(struct _NSRange)arg2 ];
 - (id)		;
 - (id);
@@ -31,7 +30,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)uestInfo;
+- (id)FMDPairingLockUpdateRequestInfo;
 - (id);
 
 @end

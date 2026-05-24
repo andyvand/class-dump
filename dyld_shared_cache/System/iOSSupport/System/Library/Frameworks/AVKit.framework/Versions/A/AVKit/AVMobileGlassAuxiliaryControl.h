@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMobileGlassAuxiliaryControlView, NSString, UIView;
-@protocol AVMobileGlassAuxiliaryControlDelegate;
+@class AVMobileGlassAuxiliaryControlView;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassAuxiliaryControl
 {
     _Bool _included;
-    long long _displayPriority;
-    NSString *_identifier;
-    id <AVMobileGlassAuxiliaryControlDelegate> _delegate;
-    AVMobileGlassAuxiliaryControlView *_controlView;
-    long long _style;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)gnss_preprocessor_rf_time_bias_variance_scale_factor;
++ (id)setRequestTtl:(id)arg1;
 - (id);
 - (void);
 - (long long);
@@ -31,18 +25,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)initWithModel:(_Bool)arg1 encoded: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *controlItemView;
 @property(retain, nonatomic) AVMobileGlassAuxiliaryControlView *controlView; // @synthesize controlView=_controlView;
-@property(nonatomic) __weak id <AVMobileGlassAuxiliaryControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long displayPriority; // @synthesize displayPriority=_displayPriority;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

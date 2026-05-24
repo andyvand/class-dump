@@ -6,22 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFActivity, HMFLogEventSession, HMFMessageDestination, HMFMessageTransport, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMFMessageInternal : HMFObject
 {
     NSUUID *_identifier;
-    NSString *_name;
-    double _timeout;
-    long long _qualityOfService;
-    HMFMessageDestination *_destination;
-    HMFMessageTransport *_transport;
-    HMFActivity *_activity;
-    NSDictionary *_userInfo;
-    NSDictionary *_headers;
-    NSDictionary *_messagePayload;
-    HMFLogEventSession *_logEventSession;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (void);
@@ -29,20 +18,20 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (long long);
+- (long long)1;
+- (void);
+- (void)h;
+- (id);
+- (id);
+- (id)>	(	@	;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_supportsCameraActivityZones;
+- (id)mpletionHandler:(struct _NSZone *)arg1 ];
 - (void);
 - (id);
 - (id);
@@ -53,18 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMFActivity *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) HMFMessageDestination *destination; // @synthesize destination=_destination;
-@property(copy, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HMFLogEventSession *logEventSession; // @synthesize logEventSession=_logEventSession;
-@property(copy, nonatomic) NSDictionary *messagePayload; // @synthesize messagePayload=_messagePayload;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(nonatomic) __weak HMFMessageTransport *transport; // @synthesize transport=_transport;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

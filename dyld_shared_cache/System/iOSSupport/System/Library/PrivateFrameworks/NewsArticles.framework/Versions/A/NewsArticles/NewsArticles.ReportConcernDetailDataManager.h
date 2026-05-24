@@ -7,10 +7,6 @@
 @interface NewsArticles.ReportConcernDetailDataManager
 {
     id service;
-    id historyService;
-    id tagService;
-    id context;
-    id concern;
 }
 
 @end

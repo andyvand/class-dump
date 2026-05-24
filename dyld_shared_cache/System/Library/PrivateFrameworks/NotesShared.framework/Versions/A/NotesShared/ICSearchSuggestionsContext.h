@@ -13,18 +13,17 @@
 
 + (_Bool);
 - (void);
+- (void)Hu;
 - (void);
+- (id)isDefaultLocale;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id){;
 - (_Bool);
 - (void)HI;
 
 // Remaining properties
-@property(readonly) _Bool isEmpty;
 @property(retain, nonatomic) CSSuggestion *searchSuggestion; // @synthesize searchSuggestion=_searchSuggestion;
 
 @end

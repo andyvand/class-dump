@@ -7,10 +7,6 @@
 @interface NewsFeed.LikingCommandHandler
 {
     id readingHistory;
-    id bundleSubscriptionManager;
-    id paidAccessChecker;
-    id allLikedArticleIDs;
-    id allDislikedArticleIDs;
 }
 
 - (void);

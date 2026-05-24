@@ -7,6 +7,7 @@
 @class AKAnnotation;
 
 @protocol AKParentAnnotationProtocol
+- (void)string<char, std:(AKAnnotation *)arg1:char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"input_buffer_attributes_"^{__CFDictionary}"output_buffer_attributes_"^{__CFDictionary}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak AKAnnotation *childAnnotation;

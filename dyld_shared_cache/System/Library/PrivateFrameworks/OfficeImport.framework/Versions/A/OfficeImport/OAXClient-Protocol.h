@@ -5,5 +5,8 @@
 //
 
 @protocol OAXClient
+
+@optional
+- (_Bool);
 @end
 

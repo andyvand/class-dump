@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAnimationKeyframe, MPAnimationPath, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MPAnimationKeyframe
 {
     NSMutableDictionary *_attributes;
-    MPAnimationPath *_parentPath;
-    MCAnimationKeyframe *_keyframe;
-    double _time;
-    unsigned long long _offsetType;
-    double _preControl;
-    double _postControl;
 }
 
 + (_Bool);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (long long);
@@ -34,7 +28,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void);
@@ -42,9 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long offsetType; // @synthesize offsetType=_offsetType;
-@property(nonatomic) double postControl; // @synthesize postControl=_postControl;
-@property(nonatomic) double preControl; // @synthesize preControl=_preControl;
 @property(nonatomic) double time; // @synthesize time=_time;
 
 @end

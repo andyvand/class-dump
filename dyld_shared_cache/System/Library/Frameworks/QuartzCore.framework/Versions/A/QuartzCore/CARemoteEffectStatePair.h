@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CARemoteEffectStatePair
 {
     NSString *_fromState;
-    NSString *_toState;
 }
 
 + (id);
@@ -18,15 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (struct Object *);
+- (struct Object *)_lastCachedLoginStartDate;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@48@0:8@16Q24@32@40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fromState; // @synthesize fromState=_fromState;
-@property(readonly, nonatomic) NSString *toState; // @synthesize toState=_toState;
 
 @end
 

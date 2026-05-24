@@ -6,15 +6,12 @@
 
 #import <UIKitCore/_UITextLayoutControllerBase.h>
 
-@class CUIStyleEffectConfiguration, NSArray, NSLayoutManager, NSString, NSTextContainer, NSTextStorage, UITextPosition, UITextRange, UITextView, _UITextCanvasView;
-@protocol NSLayoutManagerDelegate;
+@class NSLayoutManager, UITextView;
 
 __attribute__((visibility("hidden")))
 @interface _UITextKit1LayoutController : _UITextLayoutControllerBase
 {
     UITextView *_textView;
-    NSLayoutManager *_originalLayoutManager;
-    _UITextCanvasView *_canvasView;
 }
 
 - (void);
@@ -24,33 +21,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)buildWithIdentifier:withVPNUUID:withCellularSliceUUID:withDesignatedRequirement:withSigningIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (double);
+- (id)_k";
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)"immersiveDeepLinkURL"b1"dateReleased"b1"classicalWork"b1"classicalMovement"b1"classicalMovementCount"b1"classicalMovementNumber"b1"album"{?="identifiers"b1"title"b1"releaseDate"b1"year"b1"artist"b1}"artist"{?="identifiers"b1"name"b1}"composer"{?="identifiers"b1"name"b1}"genre"{?="identifiers"b1"name"b1}"homeSharingAsset"{?="identifiers"b1}"lyrics"{?="identifiers"b1"text"b1"hasStoreLyrics"b1"hasTimeSyncedLyrics"b1"hasDownloadedCatalogLyrics"b1}};
+- (id)bookmarkTime;
+- (void)setSectionKind:(id)arg1;
+- (id)setVolumeValue:(id)arg1;
+- (struct CGRect)canConnectToMediaArtworkService;
+- (void);
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -66,27 +63,27 @@ __attribute__((visibility("hidden")))
 - (void)bleViewLayoutInfo={UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32@0:(id)arg1 8{CGSize=dd}16;
 - (id)temDataSource>";
 - (id)guration";
-- (void)rData;
-- (long long)tions;
-- (id)Change:(struct _NSRange)arg1;
-- (void)tWithTouchType:interfaceOrientation:hardwareKeyboardState:magicKeyboardState: /* Error: Ran out of types for this method. */;
-- (id)faultSidebarCellBackgroundPropertiesForStyle:(id)arg1 state:(long long)arg2 traitCollection: /* Error: Ran out of types for this method. */;
-- (struct CGRect)tiplier:(id)arg1;
-- (void)AdjustmentForBarMetrics: /* Error: Ran out of types for this method. */;
-- (void)ationIn:(_Bool)arg1 withIndex: /* Error: Ran out of types for this method. */;
-- (void)pedFromSuperview:(struct CGRect)arg1;
-- (id)n:(id)arg1;
-- (void)id;
+- (void)userData;
+- (long long)supportedInteractions;
+- (id)selectedIndexDidChange:(struct _NSRange)arg1;
+- (void)initWithTouchType:interfaceOrientation:hardwareKeyboardState:magicKeyboardState: /* Error: Ran out of types for this method. */;
+- (id)defaultSidebarCellBackgroundPropertiesForStyle:(id)arg1 state:(long long)arg2 traitCollection: /* Error: Ran out of types for this method. */;
+- (struct CGRect)constraintWithItem:(id)arg1 attribute:relatedBy:toItem:attribute:multiplier: /* Error: Ran out of types for this method. */;
+- (void)backgroundVerticalAdjustmentForBarMetrics: /* Error: Ran out of types for this method. */;
+- (void)annotationIn:(_Bool)arg1 withIndex: /* Error: Ran out of types for this method. */;
+- (void)_updateRenderedHorizontallyFlippedFromSuperview:(struct CGRect)arg1;
+- (id)_tabBarWindowForInterfaceOrientation:(id)arg1;
+- (void)_rectToKeepValid;
 - (struct _NSRange)imationParameters;
 - (struct _NSRange)temBadge",N,&;
-- (struct CGRect);
+- (struct CGRect)_vibrantOptions;
 - (id)¬;
 - (id);
 - (id)s creates a risk of termination. Remember to call UIApplication.endBackgroundTask(_:) for your task in a timely manner to avoid this. /* Error: Ran out of types for this method. */;
 - (struct CGRect)%d, force:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void)ManagerWindowSceneComponentKey;
+- (void)_UIBannerManagerWindowSceneComponentKey;
 - (_Bool)h archive version %ld;
 - (struct _NSRange)t select a tab (%@) that is not seletable.;
 - (void)¸þÿ;
@@ -98,42 +95,14 @@ __attribute__((visibility("hidden")))
 - (_Bool)Õ¨23pçrþ;
 - (long long)latfromGlassInteractionDefinition;
 - (id);
-- (id)ptions;
+- (id)UICoreTraitCollectionResolutionOptions;
 - (id);
 - (id);
 - (id)þB]»b;
 - (id).Òÿq;
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic) _Bool canAccessLayoutManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UITextRange *documentRange;
-@property(nonatomic) _Bool drawsDebugBaselines;
-@property(getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,GisEditable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(readonly, nonatomic) NSTextContainer *firstTextContainer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includesTextListMarkers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSLayoutManager *layoutManager;
-@property(nonatomic) __weak id <NSLayoutManagerDelegate> layoutManagerDelegate;
-@property(nonatomic) double maxTileHeight;
 @property(readonly, nonatomic) NSLayoutManager *originalLayoutManager;
-@property(copy, nonatomic) CUIStyleEffectConfiguration *styleEffectConfiguration;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *textContainers;
-@property(readonly, nonatomic) NSTextStorage *textStorage;
-@property(nonatomic) _Bool usesTiledViews;
 
 @end
 

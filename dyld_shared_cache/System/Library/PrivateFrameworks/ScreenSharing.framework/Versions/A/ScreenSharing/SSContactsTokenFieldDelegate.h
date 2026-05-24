@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, IDSBatchIDQueryController, NSArray, NSMutableDictionary, NSObject, NSScrollView, NSSet, NSString, NSTableView, NSWindow, SSContact, SSContactsTokenField;
-@protocol CNKeyDescriptor, OS_dispatch_queue;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface SSContactsTokenFieldDelegate
 {
     int _selectedIDSIndex;
-    SSContactsTokenField *_tokenField;
-    IDSBatchIDQueryController *_idQueryController;
-    NSArray *_matchingContacts;
-    NSMutableDictionary *_availabilityByID;
-    SSContact *_selectedContact;
-    NSString *_previousPartialString;
-    NSWindow *_completionWindow;
-    NSTableView *_completionTableView;
-    NSScrollView *_completionTableScrollView;
-    NSSet *_recentItems;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    CNContactStore *_cnStore;
-    id <CNKeyDescriptor> _listOfKeysNeededToGetFullName;
 }
 
 + (id);
@@ -78,34 +64,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ternalAssetsTask timeoutFatal:(id)arg1 ];
 - (void);
 - (id);
 - (void)040Ü2l9À:(id)arg1 ÌK<PøPPR0hhh;
 - (_Bool).isSessionVisible %d;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *availabilityByID; // @synthesize availabilityByID=_availabilityByID;
 @property(retain) CNContactStore *cnStore; // @synthesize cnStore=_cnStore;
-@property(retain) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain) NSScrollView *completionTableScrollView; // @synthesize completionTableScrollView=_completionTableScrollView;
-@property(retain) NSTableView *completionTableView; // @synthesize completionTableView=_completionTableView;
-@property(retain) NSWindow *completionWindow; // @synthesize completionWindow=_completionWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) IDSBatchIDQueryController *idQueryController; // @synthesize idQueryController=_idQueryController;
-@property(retain) id <CNKeyDescriptor> listOfKeysNeededToGetFullName; // @synthesize listOfKeysNeededToGetFullName=_listOfKeysNeededToGetFullName;
-@property(copy) NSArray *matchingContacts; // @synthesize matchingContacts=_matchingContacts;
-@property(copy) NSString *previousPartialString; // @synthesize previousPartialString=_previousPartialString;
-@property(copy) NSSet *recentItems; // @synthesize recentItems=_recentItems;
-@property(retain) SSContact *selectedContact; // @synthesize selectedContact=_selectedContact;
-@property int selectedIDSIndex; // @synthesize selectedIDSIndex=_selectedIDSIndex;
-@property(readonly) Class superclass;
-@property SSContactsTokenField *tokenField; // @synthesize tokenField=_tokenField;
 
 @end
 

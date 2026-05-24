@@ -7,10 +7,10 @@
 @class NSData, NSDictionary;
 
 @protocol SFFillToolParameterCommand
+- (NSData *);
+- (NSDictionary *)E;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

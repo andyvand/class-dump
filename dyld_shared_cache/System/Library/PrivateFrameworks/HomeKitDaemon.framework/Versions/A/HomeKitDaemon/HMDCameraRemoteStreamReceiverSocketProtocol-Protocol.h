@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int remoteAudioSocket;
-@property(readonly, nonatomic) int remoteVideoSocket;
 @end
 

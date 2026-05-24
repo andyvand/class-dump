@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface _CPLForcedTaskHistory
 {
     _Bool _discarded;
-    NSDate *_creationDate;
-    NSString *_simpleDescription;
-    Class _taskClass;
-    NSString *_errorDescription;
 }
 
 - (void);

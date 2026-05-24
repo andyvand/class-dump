@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface VCMockIDSDatagramChannelSocket : VCMockIDSDatagramChannel
 {
     struct sockaddr_in _remoteAddress;
-    struct sockaddr_in _localAddress;
-    _Bool _isTwoWayFaceTimeTestUsingSocketsEnabled;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (void);
 - (int);
 - (void);

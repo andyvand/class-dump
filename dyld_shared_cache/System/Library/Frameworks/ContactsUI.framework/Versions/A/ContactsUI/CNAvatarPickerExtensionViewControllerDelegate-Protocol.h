@@ -5,5 +5,6 @@
 //
 
 @protocol CNAvatarPickerExtensionViewControllerDelegate
+- (void)Th;
 @end
 

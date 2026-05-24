@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXLIFOQueue
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableArray *_internalQueue_pendingBlocks;
-    NSObject<OS_dispatch_queue> *_targetQueue;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)©·¬hÿ;

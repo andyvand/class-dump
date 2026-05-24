@@ -9,7 +9,6 @@
 @interface FBSInvocationTarget
 {
     BSObjCProtocol *_interface;
-    CDUnknownBlockType _handler;
 }
 
 - (void);

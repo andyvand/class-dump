@@ -11,7 +11,6 @@
 @interface PXEditAppliedCompositionAction : PXEditCompositionAction
 {
     NUComposition *_sourceComposition;
-    NUComposition *_targetComposition;
 }
 
 - (id);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void)r;
+- (void)ShelfStateMutator;
 
 // Remaining properties
 @property(readonly, nonatomic) NUComposition *sourceComposition; // @synthesize sourceComposition=_sourceComposition;

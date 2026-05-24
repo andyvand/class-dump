@@ -9,8 +9,6 @@
 @interface AppStoreKit.FamilyCircleAction : AppStoreKit.Action
 {
     id clientName;
-    id eventType;
-    id additionalParameters;
 }
 
 @end

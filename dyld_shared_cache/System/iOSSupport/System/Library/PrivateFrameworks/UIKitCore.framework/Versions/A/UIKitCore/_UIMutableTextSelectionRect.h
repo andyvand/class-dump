@@ -6,19 +6,9 @@
 
 #import <UIKitCore/UITextSelectionRect.h>
 
-@class UIBezierPath, UITextSelectionRectCustomHandleInfo;
-
 @interface _UIMutableTextSelectionRect : UITextSelectionRect
 {
     _Bool _containsStart;
-    _Bool _containsEnd;
-    _Bool _isVertical;
-    _Bool __drawsOwnHighlight;
-    long long _writingDirection;
-    UIBezierPath *__path;
-    UITextSelectionRectCustomHandleInfo *__customHandleInfo;
-    struct CGRect _rect;
-    struct CGAffineTransform _transform;
 }
 
 + (id);
@@ -26,36 +16,29 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)modernHighQualityPhotoSizeLimit;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)chat %ld received %ld;
+- (id)inalGroupID:%@ and service:%@ /* Error: Ran out of types for this method. */;
+- (void)Checking if salt zone needs to be created;
+- (void)_supportsContiguousChatItems;
+- (_Bool)tup with capabilities %s;
+- (_Bool)ion %s is waiting for setup with capabilities %s;
 - (long long);
 - (_Bool);
 - (id);
-- (struct CGAffineTransform);
-- (id);
+- (struct CGAffineTransform);
+- (id)hRecommendedContentWithSeedTrackID:seedTrackIDType:count:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id)Qg°1Â0@ù
 × ;
-- (_Bool)tWithCompositingMode:(id)arg1 compositingColor: /* Error: Ran out of types for this method. */;
-- (struct CGRect)Color: /* Error: Ran out of types for this method. */;
+- (_Bool)vibrantEffectWithCompositingMode:(id)arg1 compositingColor: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_performBlockCheckingDefinesTintColor: /* Error: Ran out of types for this method. */;
 - (void)lassSwapperTemplate;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UITextSelectionRectCustomHandleInfo *_customHandleInfo; // @synthesize _customHandleInfo=__customHandleInfo;
-@property(nonatomic, setter=_setDrawsOwnHighlight:) _Bool _drawsOwnHighlight; // @synthesize _drawsOwnHighlight=__drawsOwnHighlight;
-@property(retain, nonatomic) UIBezierPath *_path; // @synthesize _path=__path;
-@property(nonatomic) _Bool containsEnd; // @synthesize containsEnd=_containsEnd;
-@property(nonatomic) _Bool containsStart; // @synthesize containsStart=_containsStart;
-@property(nonatomic) _Bool isVertical; // @synthesize isVertical=_isVertical;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 @property(nonatomic) long long writingDirection; // @synthesize writingDirection=_writingDirection;
 
 @end

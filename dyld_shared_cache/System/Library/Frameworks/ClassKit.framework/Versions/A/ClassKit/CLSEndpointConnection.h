@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSString;
 
 @interface CLSEndpointConnection
 {
     struct os_unfair_recursive_lock_s _lock;
-    NSXPCConnection *_serverConnection;
-    NSXPCListenerEndpoint *_endpoint;
-    _Bool _connectionBorked;
-    _Bool _interrupted;
-    NSString *_overrideBundleIdentifier;
-    CDUnknownBlockType _onInterupt;
-    CDUnknownBlockType _onConnect;
 }
 
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)t;
 + (_Bool);
 + (id);
 + (id);
@@ -38,14 +31,14 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (id)__objc_classlist__DATA_CONST;
+- (void)[;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)oginAccountResponse"16@"ACAccount"24@?<v@?@"NSError">32;
 - (void);
 - (id);
 - (void);
@@ -58,16 +51,7 @@
 - (void)activityItemInfo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType onConnect; // @synthesize onConnect=_onConnect;
-@property(copy, nonatomic) CDUnknownBlockType onInterupt; // @synthesize onInterupt=_onInterupt;
 @property(copy, nonatomic) NSString *overrideBundleIdentifier; // @synthesize overrideBundleIdentifier=_overrideBundleIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

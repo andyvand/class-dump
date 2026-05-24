@@ -9,8 +9,8 @@
     id gesturesRequiringFailure;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)CryptoPassphraseVerifier;
 - (_Bool);
 - (void)¸pÎå%Ðü.	;
 

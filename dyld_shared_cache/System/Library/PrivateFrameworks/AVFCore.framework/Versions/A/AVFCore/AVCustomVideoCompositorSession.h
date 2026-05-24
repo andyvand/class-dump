@@ -4,31 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVideoComposition, AVVideoCompositionRenderContext, AVWeakReference, NSDictionary, NSError, NSObject;
-@protocol AVVideoCompositing, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVCustomVideoCompositorSession
 {
     struct OpaqueFigVideoCompositor *_figCustomCompositor;
-    _Bool _hasRegisteredFigCustomCompositorCallbacks;
-    NSDictionary *_clientRequiredPixelBufferAttributes;
-    AVWeakReference *_weakSelf;
-    void *_callbackContextToken;
-    NSObject<OS_dispatch_queue> *_videoCompositionQ;
-    AVVideoComposition *_videoComposition;
-    _Bool _videoCompositionDidChange;
-    NSObject<OS_dispatch_queue> *_clientCustomCompositorQ;
-    id <AVVideoCompositing> _clientCustomCompositor;
-    NSObject<OS_dispatch_queue> *_clientErrorQ;
-    NSError *_clientError;
-    NSObject<OS_dispatch_queue> *_renderContextQ;
-    AVVideoCompositionRenderContext *_renderContext;
-    NSObject<OS_dispatch_queue> *_finishedRequestQ;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)i;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -47,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)̭;
 - (void);
 - (struct OpaqueFigVideoCompositor *);
 - (int);
@@ -55,7 +38,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool supportsHDRSourceFrames;
 @property(readonly, nonatomic) _Bool supportsWideColorSourceFrames;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, USOSerializedGraph;
+@class NSUUID;
 
 @interface SIRINLUUserAccepted
 {
     NSUUID *_offerId;
-    USOSerializedGraph *_reference;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *offerId; // @synthesize offerId=_offerId;
-@property(retain, nonatomic) USOSerializedGraph *reference; // @synthesize reference=_reference;
 
 @end
 

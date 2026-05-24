@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface ICEvernoteNote
 {
     NSString *_title;
-    NSString *_content;
-    NSDate *_created;
-    NSDate *_updated;
-    NSArray *_tags;
-    NSArray *_resources;
 }
 
 + (_Bool);
@@ -21,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (void)esResourceCap;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id)!0@ù±2
@@ -38,12 +33,7 @@
 - (id)%d times. Max number of retries is %d. It will now be ignored for %d push attempts. %@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(copy, nonatomic) NSDate *created; // @synthesize created=_created;
-@property(copy, nonatomic) NSArray *resources; // @synthesize resources=_resources;
-@property(copy, nonatomic) NSArray *tags; // @synthesize tags=_tags;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSDate *updated; // @synthesize updated=_updated;
 
 @end
 

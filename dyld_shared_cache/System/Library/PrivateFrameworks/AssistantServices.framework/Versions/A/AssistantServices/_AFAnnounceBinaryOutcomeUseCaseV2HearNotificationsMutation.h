@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnnounceBinaryOutcomeUseCaseV2HearNotifications, NSString;
+@class AFAnnounceBinaryOutcomeUseCaseV2HearNotifications;
 
 @interface _AFAnnounceBinaryOutcomeUseCaseV2HearNotificationsMutation
 {
     AFAnnounceBinaryOutcomeUseCaseV2HearNotifications *_base;
-    unsigned long long _count;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasCount:1;
-    } _mutationFlags;
 }
 
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)etUserProfileConfidence:(id)arg1;
+- (id)setUserProfileConfidence:(id)arg1;
 - (void)sPrivacySensitiveContents:externalProviders: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

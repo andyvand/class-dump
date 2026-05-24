@@ -7,30 +7,15 @@
 @class NSString;
 
 @protocol PHATask
+- (_Bool)G;
+- (NSString *);
 - (int)`¹ÿÿ¬~ÿÿ;
 
+@optional
+- (unsigned long long);
+- (_Bool);
+
 // Remaining properties
-@property(readonly, nonatomic) _Bool featureAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned long long featureCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool featureComplete;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double incrementalWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double period;
-@property(readonly, nonatomic) unsigned long long version;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 @end
 

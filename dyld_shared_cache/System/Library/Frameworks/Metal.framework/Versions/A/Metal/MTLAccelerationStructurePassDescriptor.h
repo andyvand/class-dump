@@ -11,7 +11,7 @@
     MTLAccelerationStructurePassSampleBufferAttachmentDescriptorArray *_sampleBufferAttachments;
 }
 
-+ (id);
++ (id);
 + (id)¤;
 + (id)íÿÖå;
 - (id);

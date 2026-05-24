@@ -7,19 +7,16 @@
 @class _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBCreateFileIntent
-- (_Bool)tacts: /* Error: Ran out of types for this method. */;
+- (void);
+- (int);
+- (int)containingBundle;
+- (void)(b;
+- (_INPBIntentMetadata *)ApertureLibrary;
+- (void);
+- (_Bool)addMatchedContacts: /* Error: Ran out of types for this method. */;
 - (_INPBString *)userActivity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *destinationName;
-@property(nonatomic) int destinationType;
-@property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

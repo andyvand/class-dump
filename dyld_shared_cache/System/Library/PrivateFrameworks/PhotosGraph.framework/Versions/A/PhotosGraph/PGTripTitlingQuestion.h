@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGTripTitlingQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
-    NSDictionary *_additionalInfo;
 }
 
 - (double);
@@ -23,7 +18,7 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)sent: /* Error: Ran out of types for this method. */;
+- (id)initWithMaximumNumberOfOtherFacesPresent: /* Error: Ran out of types for this method. */;
 - (void)ary/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Ingest/Ingest Processing/PGGraphIngestLocationsOfInterestProcessor.m;
 
 @end

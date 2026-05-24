@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUColorSpace;
+@class NSDictionary;
 
 @protocol NUAuxiliaryImage
+- (long long)N5boost10wrapexceptISt13runtime_errorEE;
+- (NSDictionary *) ;
 
 // Remaining properties
 @property(readonly) long long auxiliaryImageType;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, nonatomic) struct CGImageMetadata *metadata;
 @end
 

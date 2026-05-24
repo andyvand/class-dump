@@ -9,12 +9,11 @@
 @interface AXMVisionFeatureRecognizedText
 {
     VNRecognizedText *_text;
-    struct _NSRange _textRange;
 }
 
-+ (_Bool);
++ (_Bool)mailMessage";
 - (id);
-- (id);
+- (id)`+kn;
 - (id);
 - (struct _NSRange);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) VNRecognizedText *text; // @synthesize text=_text;
-@property(readonly, nonatomic) struct _NSRange textRange; // @synthesize textRange=_textRange;
 
 @end
 

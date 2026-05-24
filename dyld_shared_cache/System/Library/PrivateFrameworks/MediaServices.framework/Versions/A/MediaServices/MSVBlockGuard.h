@@ -9,10 +9,6 @@
 @interface MSVBlockGuard
 {
     MSVTimer *_timeoutTimer;
-    CDUnknownBlockType _interruptionHandler;
-    struct os_unfair_lock_s _lock;
-    unsigned int _disarmed:1;
-    unsigned int _didTimeout:1;
 }
 
 - (void);

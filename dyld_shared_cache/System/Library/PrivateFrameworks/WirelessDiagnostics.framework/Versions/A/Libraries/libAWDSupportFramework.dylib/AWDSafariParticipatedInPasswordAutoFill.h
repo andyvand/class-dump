@@ -7,11 +7,6 @@
 @interface AWDSafariParticipatedInPasswordAutoFill
 {
     unsigned long long _timestamp;
-    int _autoFillInteractionType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int autoFillInteractionType:1;
-    } _has;
 }
 
 - (void);
@@ -20,10 +15,10 @@
 - (id);
 - (int);
 - (int);
-- (id);
+- (id)V!;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)#;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,10 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int autoFillInteractionType; // @synthesize autoFillInteractionType=_autoFillInteractionType;
-@property(nonatomic) _Bool hasAutoFillInteractionType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

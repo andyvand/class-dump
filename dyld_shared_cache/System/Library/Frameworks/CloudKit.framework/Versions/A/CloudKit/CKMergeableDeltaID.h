@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMergeableValueID, NSString;
+@class NSString;
 
 @interface CKMergeableDeltaID
 {
     NSString *_deltaIdentifier;
-    CKMergeableValueID *_valueID;
 }
 
 + (_Bool);
@@ -17,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)B;
+- (unsigned long long)usesCodeSigningIdentityForEncryption;
 - (_Bool);
 - (void);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *deltaIdentifier; // @synthesize deltaIdentifier=_deltaIdentifier;
-@property(readonly, copy, nonatomic) CKMergeableValueID *valueID; // @synthesize valueID=_valueID;
 
 @end
 

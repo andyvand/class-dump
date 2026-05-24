@@ -5,5 +5,6 @@
 //
 
 @protocol StartPageFullDescriptionViewItemDelegate
+- (void);
 @end
 

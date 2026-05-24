@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNSoundPrintKEmbeddingModelOutput
 {
     MLMultiArray *_fixedLengthEmbedding;
-    MLMultiArray *_framewiseEmbedding;
 }
 
 - (void);
@@ -17,14 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void)úÿDúÿhúÿ¤úÿÈúÿúÿlúÿÜúÿ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *fixedLengthEmbedding; // @synthesize fixedLengthEmbedding=_fixedLengthEmbedding;
-@property(retain, nonatomic) MLMultiArray *framewiseEmbedding; // @synthesize framewiseEmbedding=_framewiseEmbedding;
 
 @end
 

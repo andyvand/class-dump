@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UIScene, UIWindowScene;
+@class UIWindowScene;
 
 @interface UIStatusBarManager
 {
     int _statusBarVisibility;
-    _Bool _overriddingStatusBarHidden;
-    _Bool _statusBarHidden;
-    _Bool _inStatusBarFadeAnimation;
-    long long _statusBarStyle;
-    UIWindowScene *_windowScene;
-    long long _statusBarResolvedStyle;
-    NSDictionary *_statusBarPartStyles;
-    double _statusBarAlpha;
-    CDUnknownBlockType _debugMenuHandler;
 }
 
 + (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (CDUnknownBlockType);
 - (double);
 - (struct CGRect);
-- (void);
+- (void)ContainerElementReference;
 - (id);
-- (id);
+- (id)initWithRequestDetails:type:outputDevices: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
+- (double)t();
 - (long long);
 - (struct CGRect);
 - (void)!ÌBùñY1Â0@ù
@@ -44,11 +35,11 @@
 × ;
 - (long long)ngsDiff"16;
 - (CDUnknownBlockType)ionListHead="slh_first"^{ActionListItem}};
-- (double)ckingAreas;
-- (CDUnknownBlockType)hV2Enabled: /* Error: Ran out of types for this method. */;
+- (double)updateTrackingAreas;
+- (CDUnknownBlockType)setMorphV2Enabled: /* Error: Ran out of types for this method. */;
 - (void)deactivationOrigin;
 - (struct CGRect)_updatePullView:(double)arg1;
-- (_Bool)ayModeButtonItemForDisplayMode:(id)arg1;
+- (_Bool)_updateDisplayModeButtonItemForDisplayMode:(id)arg1;
 - (void)oint;
 - (void)ttributesBeforeInsertion;
 - (void);
@@ -65,26 +56,6 @@
 - (id)Hi;
 
 // Remaining properties
-@property(nonatomic, getter=_isOverridingStatusBarHidden, setter=_setOverridingStatusBarHidden:) _Bool _overriddingStatusBarHidden; // @synthesize _overriddingStatusBarHidden;
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;
-@property(readonly, nonatomic) struct CGRect _statusBarFrameIgnoringVisibility;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) CDUnknownBlockType debugMenuHandler; // @synthesize debugMenuHandler=_debugMenuHandler;
-@property(readonly, nonatomic) double defaultStatusBarHeight;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInStatusBarFadeAnimation) _Bool inStatusBarFadeAnimation; // @synthesize inStatusBarFadeAnimation=_inStatusBarFadeAnimation;
-@property(readonly, nonatomic) double statusBarAlpha; // @synthesize statusBarAlpha=_statusBarAlpha;
-@property(readonly, nonatomic) struct CGRect statusBarFrame;
-@property(readonly, nonatomic) double statusBarHeight;
-@property(readonly, nonatomic, getter=isStatusBarHidden) _Bool statusBarHidden; // @synthesize statusBarHidden=_statusBarHidden;
-@property(readonly, nonatomic) NSDictionary *statusBarPartStyles; // @synthesize statusBarPartStyles=_statusBarPartStyles;
-@property(readonly, nonatomic) long long statusBarResolvedStyle; // @synthesize statusBarResolvedStyle=_statusBarResolvedStyle;
-@property(readonly, nonatomic) long long statusBarStyle; // @synthesize statusBarStyle=_statusBarStyle;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UIWindowScene *windowScene; // @synthesize windowScene=_windowScene;
 
 @end

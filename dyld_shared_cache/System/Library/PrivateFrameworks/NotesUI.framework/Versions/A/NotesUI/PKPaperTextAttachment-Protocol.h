@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol PKPaperTextAttachment
 
-// Remaining properties
-@property(readonly, nonatomic) NSURL *_encryptionDelegateCRContextURL;
-@property(readonly, nonatomic) NSURL *_nonEncryptedContentCRContextURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,N
+@optional
+- (void);
 
-@property(readonly, nonatomic) NSURL *_paperBundleURL;
+// Remaining properties
 @property(readonly, nonatomic) NSString *_paperIdentifier;
 @end
 

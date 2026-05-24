@@ -7,9 +7,9 @@
 @protocol CNUIIDSHandle;
 
 @protocol CNUIIDSHandleAvailability
+- (id <CNUIIDSHandle>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNUIIDSHandle> handle;
-@property(readonly, nonatomic) _Bool isAvailable;
 @end
 

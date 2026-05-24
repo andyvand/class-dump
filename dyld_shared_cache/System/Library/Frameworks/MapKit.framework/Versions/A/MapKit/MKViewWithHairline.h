@@ -9,35 +9,27 @@
 @interface MKViewWithHairline
 {
     NSBox *_bottomHairline;
-    NSBox *_topHairline;
-    NSColor *_hairlineColor;
-    double _leftHairlineInset;
-    double _rightHairlineInset;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)ed to vacuum db with error %s;
+- (void)SendMessageWithReply:(double)arg1 no xpcResponse;
+- (void)notificationName=%@;
+- (void)Diff=%f;
+- (void)=%@;
+- (double)-[PLClientLogger permissionForClientID:withKey:withType:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)t (Remora:(struct CGRect)arg1 accessoryId:%{private}@) start listening now, CSVoiceTriggerFirstPassRemora can stop listening now /* Error: Ran out of types for this method. */;
+- (void)troller-OSX;
 - (void)!Cù±*ð1Â0@ù
 × ;
-- (void)eedback;
+- (void)sendFeedback;
 
 // Remaining properties
-@property(nonatomic, getter=isBottomHairlineHidden) _Bool bottomHairlineHidden;
 @property(retain, nonatomic) NSColor *hairlineColor; // @synthesize hairlineColor=_hairlineColor;
-@property(nonatomic) double leftHairlineInset; // @synthesize leftHairlineInset=_leftHairlineInset;
-@property(nonatomic) double rightHairlineInset; // @synthesize rightHairlineInset=_rightHairlineInset;
-@property(nonatomic, getter=isTopHairlineHidden) _Bool topHairlineHidden;
 
 @end
 

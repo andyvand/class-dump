@@ -6,33 +6,19 @@
 
 #import <PhotosGraph/PGAbstractMetricEvent.h>
 
-@class CLSCurationContext, CLSCurationSession, NSDictionary, NSString, PGEventLabelingConfiguration, PGManagerWorkingContext, PGPhotosChallengeMetricEventFetchHelper, PGPrecisionRecallEvaluation;
+@class PGManagerWorkingContext;
 
 @interface PGPhotosChallengeMetricEvent : PGAbstractMetricEvent
 {
     PGManagerWorkingContext *_workingContext;
-    PGPhotosChallengeMetricEvent *_subMetricEvent;
-    PGEventLabelingConfiguration *_eventLabelingConfiguration;
-    unsigned short _questionMetricType;
-    NSDictionary *_payload;
-    PGPhotosChallengeMetricEventFetchHelper *_metricsCache;
-    unsigned long long _algorithmVersion;
-    unsigned long long _graphSchemaVersion;
-    NSString *_photoLibrarySize;
-    unsigned long long _photosModelVersion;
-    NSString *_questionTypeString;
-    unsigned long long _questionVersion;
-    PGPrecisionRecallEvaluation *_evaluation;
-    CLSCurationSession *_curationSession;
-    CLSCurationContext *_curationContext;
 }
 
-+ (unsigned short);
-+ (id);
-+ (id);
-+ (unsigned short);
-+ (id);
-+ (id);
++ (unsigned short)setButtonType:(unsigned short)arg1;
++ (id)debugDescription;
++ (id);
++ (unsigned short)ot supported.;
++ (id)supported.;
++ (id).AccessibilityKit.AXKWorkspaceManager.ApplicationQueue;
 + (id);
 + (unsigned long long);
 + (id);
@@ -53,25 +39,27 @@
 - (id);
 - (unsigned short);
 - (id);
-- (unsigned long long);
+- (unsigned long long)__DATA;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)24B32;
+- (id)_performAsyncOnDelegateQueue:(id)arg1;
+- (unsigned long long)inalAlpha: /* Error: Ran out of types for this method. */;
+- (id);
+- (id){)/;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (id)a;
+- (id),a;
 - (id);
 - (id);
 - (id);
@@ -93,15 +81,13 @@
 - (id);
 - (id);
 - (id);
+- (id)z!;
+- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -117,7 +103,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
@@ -135,7 +121,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -144,30 +130,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)K;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void)call Threshold for version %@:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long algorithmVersion; // @synthesize algorithmVersion=_algorithmVersion;
-@property(retain, nonatomic) CLSCurationContext *curationContext; // @synthesize curationContext=_curationContext;
-@property(retain, nonatomic) CLSCurationSession *curationSession; // @synthesize curationSession=_curationSession;
-@property(retain, nonatomic) PGPrecisionRecallEvaluation *evaluation; // @synthesize evaluation=_evaluation;
-@property(nonatomic) unsigned long long graphSchemaVersion; // @synthesize graphSchemaVersion=_graphSchemaVersion;
-@property(retain, nonatomic) PGPhotosChallengeMetricEventFetchHelper *metricsCache; // @synthesize metricsCache=_metricsCache;
-@property(readonly, nonatomic) NSString *photoLibrarySize; // @synthesize photoLibrarySize=_photoLibrarySize;
-@property(nonatomic) unsigned long long photosModelVersion; // @synthesize photosModelVersion=_photosModelVersion;
-@property(nonatomic) unsigned short questionMetricType; // @synthesize questionMetricType=_questionMetricType;
-@property(retain, nonatomic) NSString *questionTypeString; // @synthesize questionTypeString=_questionTypeString;
-@property(nonatomic) unsigned long long questionVersion; // @synthesize questionVersion=_questionVersion;
 
 @end
 

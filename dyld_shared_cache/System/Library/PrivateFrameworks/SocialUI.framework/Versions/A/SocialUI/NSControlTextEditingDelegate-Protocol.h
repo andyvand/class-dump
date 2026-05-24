@@ -4,9 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (void)xt;
+- (NSArray *)T@"<_MSMessageComposeHostImplProtocol>",&,N;
+- (_Bool)d},N;
+- (_Bool)_activeExtensionContext;
+- (void),N;
+- (_Bool)ate;
+- (_Bool)postFinalManagedStatus;
 - (_Bool)0@ù
 × ;
 @end

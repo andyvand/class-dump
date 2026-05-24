@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalResource;
-
 @interface IOGPUMemoryInfo
 {
     void *memlist_key;
-    IOGPUMetalResource *fResourceListHead;
-    struct os_unfair_lock_s _memoryInfoLock;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (struct __CFArray *);
 - (void);
 - (struct __CFArray *);
-- (void);
+- (void)r dealloc:%p /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

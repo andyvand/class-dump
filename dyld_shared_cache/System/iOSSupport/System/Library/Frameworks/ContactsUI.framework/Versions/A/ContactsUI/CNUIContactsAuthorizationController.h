@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIContactsAuthorizationStore, CNUICoreContactsAuthorizationModel, NSArray;
+@class CNUIContactsAuthorizationStore;
 @protocol CNUIContactsAuthorizationControllerDelegate;
 
 @interface CNUIContactsAuthorizationController
 {
     id <CNUIContactsAuthorizationControllerDelegate> _delegate;
-    CNUIContactsAuthorizationStore *_store;
-    CNUICoreContactsAuthorizationModel *_model;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -23,25 +21,21 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)iB;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)setPlaylistSyncVersion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id);
+- (id)roupingEnabled,V_groupingEnabled;
+- (id);
+- (void)addPosterAnimationLoadingSpinner;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bundleIdentifiersOfAppsWithContactsAccessInfo;
-@property(nonatomic) id <CNUIContactsAuthorizationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool foundAppsWithContactsAccessInfo;
-@property(retain, nonatomic) CNUICoreContactsAuthorizationModel *model; // @synthesize model=_model;
 @property(readonly, nonatomic) CNUIContactsAuthorizationStore *store; // @synthesize store=_store;
 
 @end

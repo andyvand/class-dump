@@ -6,31 +6,22 @@
 
 #import <HomeKit/HMAccessoryProfile.h>
 
-@class NSString;
 @protocol HMDoorbellChimeProfileDelegate;
 
 @interface HMDoorbellChimeProfile : HMAccessoryProfile
 {
     struct os_unfair_lock_s _lock;
-    id <HMDoorbellChimeProfileDelegate> _delegate;
 }
 
-+ (id)dioGroupIdentifierPayloadKey;
++ (id)HMMediaDestinationAudioGroupIdentifierPayloadKey;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)entryWithDocumentText:(id)arg1 userInput: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDoorbellChimeProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

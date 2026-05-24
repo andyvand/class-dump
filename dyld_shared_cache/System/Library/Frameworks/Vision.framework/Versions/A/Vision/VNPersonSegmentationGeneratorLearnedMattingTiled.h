@@ -7,14 +7,11 @@
 #import <Vision/VNPersonSegmentationGeneratorLearnedMatting.h>
 
 @class VNMetalContext;
-@protocol MTLComputePipelineState;
 
 __attribute__((visibility("hidden")))
 @interface VNPersonSegmentationGeneratorLearnedMattingTiled : VNPersonSegmentationGeneratorLearnedMatting
 {
     VNMetalContext *_postProcessingMetalContext;
-    id <MTLComputePipelineState> _createTileWithScaleComputePipelineState;
-    id <MTLComputePipelineState> _pasteTileComputePipelineState;
 }
 
 + (_Bool);

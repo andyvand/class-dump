@@ -9,7 +9,6 @@
 @interface IMReplyingRemoteDaemonProxy
 {
     _Bool _synchronousReplies;
-    IMDaemonController *_daemonController;
 }
 
 - (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak IMDaemonController *daemonController; // @synthesize daemonController=_daemonController;
-@property(nonatomic) _Bool synchronousReplies; // @synthesize synchronousReplies=_synchronousReplies;
 
 @end
 

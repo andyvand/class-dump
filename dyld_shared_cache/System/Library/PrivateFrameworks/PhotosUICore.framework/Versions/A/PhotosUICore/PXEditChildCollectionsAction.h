@@ -6,17 +6,12 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSIndexSet, PHCollectionList, PHFetchResult, PXMovingCollectionsUndoContext;
+@class PHCollectionList;
 @protocol PXFastEnumeration;
 
 @interface PXEditChildCollectionsAction : PXPhotosAction
 {
     PHCollectionList *_collectionList;
-    id <PXFastEnumeration> _collectionsToAdd;
-    id <PXFastEnumeration> _collectionsToRemove;
-    PXMovingCollectionsUndoContext *_collectionsToAddUndoContext;
-    NSIndexSet *_collectionsToRemoveUndoIndexes;
-    PHFetchResult *_collectionListUndoFetchResult;
 }
 
 - (void);
@@ -30,16 +25,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)�Z;
 - (void)LemonadeSuggestionsFeature;
 
 // Remaining properties
-@property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;
-@property(retain, nonatomic) PHFetchResult *collectionListUndoFetchResult; // @synthesize collectionListUndoFetchResult=_collectionListUndoFetchResult;
 @property(readonly, nonatomic) id <PXFastEnumeration> collectionsToAdd; // @synthesize collectionsToAdd=_collectionsToAdd;
-@property(readonly, nonatomic) PXMovingCollectionsUndoContext *collectionsToAddUndoContext; // @synthesize collectionsToAddUndoContext=_collectionsToAddUndoContext;
-@property(readonly, nonatomic) id <PXFastEnumeration> collectionsToRemove; // @synthesize collectionsToRemove=_collectionsToRemove;
-@property(readonly, nonatomic) NSIndexSet *collectionsToRemoveUndoIndexes; // @synthesize collectionsToRemoveUndoIndexes=_collectionsToRemoveUndoIndexes;
 
 @end
 

@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCSportsUpsellConfig
 {
     long long _quiescenceInterval;
-    long long _engagedUserQuiescenceInterval;
-    long long _minNumberOfArticlesRead;
-    long long _maxNumberOfPresentations;
-    NSString *_landingPageArticleID;
-    long long _maxNumberOfTopics;
 }
 
-- (long long);
+- (long long)<;
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long)protectImageManagerResult:outImage:infoDictionary:outInfoDictionary:forImageRequestFromAsset:applyLiveBlurIfSensitive: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (long long);
-- (void);
+- (void)_sendStickerUsageAnalyticsForDragAndDrop;
+- (long long)pathForResource:ofType:inDirectory: /* Error: Ran out of types for this method. */;
+- (void)rame:(long long)arg1 inScriptWorld: /* Error: Ran out of types for this method. */;
 - (id)items, policy=%{public}s;
 
 // Remaining properties
-@property(nonatomic) long long engagedUserQuiescenceInterval; // @synthesize engagedUserQuiescenceInterval=_engagedUserQuiescenceInterval;
-@property(nonatomic) NSString *landingPageArticleID; // @synthesize landingPageArticleID=_landingPageArticleID;
-@property(nonatomic) long long maxNumberOfPresentations; // @synthesize maxNumberOfPresentations=_maxNumberOfPresentations;
-@property(nonatomic) long long maxNumberOfTopics; // @synthesize maxNumberOfTopics=_maxNumberOfTopics;
-@property(nonatomic) long long minNumberOfArticlesRead; // @synthesize minNumberOfArticlesRead=_minNumberOfArticlesRead;
 @property(nonatomic) long long quiescenceInterval; // @synthesize quiescenceInterval=_quiescenceInterval;
 
 @end

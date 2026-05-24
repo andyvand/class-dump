@@ -8,12 +8,6 @@
 {
     id _recipeID;
     id _recipeURL;
-    id _sections;
-    id _selectedIngredientIDs;
-    id _isFocusable;
-    id _isGroceryListEnabled;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

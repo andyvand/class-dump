@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIView, UIVisualEffectView;
+@class UIColor;
 @protocol MKHairlineViewStyleProvider;
 
 @interface MKHairlineView
 {
     id <MKHairlineViewStyleProvider> _styleProvider;
-    UIVisualEffectView *_vibrancyEffectView;
-    UIView *_contentView;
-    UIColor *_fillColor;
 }
 
 - (void);
@@ -20,13 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)hB;
 - (void);
 - (id);
 - (void);
-- (void)ickness;
+- (id);
+- (void);
+- (void)_segmentThickness;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;

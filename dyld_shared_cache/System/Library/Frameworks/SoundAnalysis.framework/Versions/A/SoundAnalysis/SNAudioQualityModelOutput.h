@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface SNAudioQualityModelOutput
 {
     NSDictionary *_final_output;
-    NSString *_classLabel;
 }
 
 - (void);
@@ -22,8 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *classLabel; // @synthesize classLabel=_classLabel;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) NSDictionary *final_output; // @synthesize final_output=_final_output;
 
 @end

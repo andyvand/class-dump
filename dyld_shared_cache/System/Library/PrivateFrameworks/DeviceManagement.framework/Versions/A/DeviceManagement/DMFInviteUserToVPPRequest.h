@@ -6,12 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface DMFInviteUserToVPPRequest : DMFTaskRequest
 {
     NSURL *_URL;
-    NSString *_originator;
 }
 
 + (_Bool);
@@ -22,13 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setStringValue: /* Error: Ran out of types for this method. */;
 - (id)"<DMFConfigurationSourceClientDelegate>";
-- (void)leIdentifiers;
+- (void)handlingBundleIdentifiers;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *originator; // @synthesize originator=_originator;
 
 @end
 

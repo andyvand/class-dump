@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServiceBootstrapInterface
+- (void)b;
 @end
 

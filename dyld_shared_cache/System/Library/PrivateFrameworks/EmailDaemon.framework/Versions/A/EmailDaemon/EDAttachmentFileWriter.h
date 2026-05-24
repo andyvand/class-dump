@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol OS_dispatch_io, OS_dispatch_queue;
-
 @interface EDAttachmentFileWriter
 {
     struct atomic_flag _didClose;
-    struct atomic_flag _didFail;
-    struct CC_SHA256state_st _digestContext;
-    int _fileDescriptor;
-    NSURL *_tempURL;
-    NSURL *_finalURL;
-    unsigned long long _byteCount;
-    NSObject<OS_dispatch_io> *_io;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_compressionQueue;
-    CDUnknownBlockType _completion;
 }
 
 - (id);

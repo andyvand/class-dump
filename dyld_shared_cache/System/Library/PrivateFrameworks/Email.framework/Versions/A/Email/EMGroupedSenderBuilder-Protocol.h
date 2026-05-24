@@ -7,10 +7,11 @@
 @class NSString;
 
 @protocol EMGroupedSenderBuilder
+- (unsigned long long);
+- (NSString *)@;
+- (void)rA;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *businessDisplayName;
 @property(nonatomic) unsigned long long unreadCount;
-@property(nonatomic) unsigned long long unseenCount;
 @end
 

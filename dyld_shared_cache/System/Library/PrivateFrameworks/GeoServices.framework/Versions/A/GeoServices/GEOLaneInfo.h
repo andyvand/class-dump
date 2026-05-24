@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLaneInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_arrows;
-    _Bool _hov;
-    _Bool _preferredForMultipleManeuvers;
-    _Bool _supportsManeuver;
-    struct {
-        unsigned int has_hov:1;
-        unsigned int has_preferredForMultipleManeuvers:1;
-        unsigned int has_supportsManeuver:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)tHasServerSearchCompletionSectionIndex:(id)arg1;
++ (Class);
++ (_Bool)setHasServerSearchCompletionSectionIndex:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -32,40 +23,33 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)48;
+- (void)TB,D,GisInternalBuild;
+- (unsigned long long)@"CNFuture",&,N,V_firstUnlockFuture;
+- (id)leManager;
+- (id),R,D;
+- (void)/0/X01;
+- (_Bool)eduler>"8;
+- (void)Venezuela;
 - (void);
+- (id);
+- (id);
+- (void)l@8);
+- (void);
+- (void)Hg	;
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)Capabilities:(struct _NSZone *)arg1;
-- (id)danceLevel: /* Error: Ran out of types for this method. */;
+- (id)setOriginalClientCapabilities:(struct _NSZone *)arg1;
+- (id)StringAsNavVoiceGuidanceLevel: /* Error: Ran out of types for this method. */;
 - (id)ex < self.pointCount;
 - (id);
 - (void)¶U4;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *arrows;
-@property(nonatomic) _Bool hasHov;
-@property(nonatomic) _Bool hasPreferredForMultipleManeuvers;
 @property(nonatomic) _Bool hasSupportsManeuver;
-@property(nonatomic) _Bool hov;
-@property(nonatomic) _Bool preferredForMultipleManeuvers;
-@property(nonatomic) _Bool supportsManeuver;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

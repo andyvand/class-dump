@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXExtendedTraitCollection, PXStoryConfiguration, PXStoryExportAudioOptions, PXStoryExportVideoOptions;
-@protocol PXStoryErrorReporter;
+@class NSString, PXStoryExportVideoOptions;
 
 @interface PXStoryExportConfiguration
 {
     PXStoryExportVideoOptions *_videoOptions;
-    PXStoryExportAudioOptions *_audioOptions;
-    PXStoryConfiguration *_storyConfiguration;
-    NSString *_activityType;
-    NSString *_activityCategory;
-    id <PXStoryErrorReporter> _errorReporter;
 }
 
 - (id);
@@ -25,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)ð¡;
@@ -33,20 +27,7 @@
 - (void)ôøþ³ðøþ³ìøþ½³¤Qkÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activityCategory; // @synthesize activityCategory=_activityCategory;
 @property(retain, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, nonatomic) PXStoryExportAudioOptions *audioOptions; // @synthesize audioOptions=_audioOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <PXStoryErrorReporter> errorReporter; // @synthesize errorReporter=_errorReporter;
-@property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXStoryConfiguration *storyConfiguration; // @synthesize storyConfiguration=_storyConfiguration;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXStoryExportVideoOptions *videoOptions; // @synthesize videoOptions=_videoOptions;
 
 @end
 

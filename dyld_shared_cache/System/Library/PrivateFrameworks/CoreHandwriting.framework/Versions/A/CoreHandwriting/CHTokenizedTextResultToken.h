@@ -6,34 +6,18 @@
 
 #import <CoreHandwriting/CHTokenizedResultToken.h>
 
-@class NSArray, NSLocale;
-
 @interface CHTokenizedTextResultToken : CHTokenizedResultToken
 {
     unsigned int _wordID;
-    double _modelScore;
-    double _recognitionScore;
-    double _combinedScore;
-    double _alignmentScore;
-    unsigned long long _properties;
-    NSLocale *_recognizerSourceLocale;
-    unsigned long long _inputSources;
-    long long _substrokeCount;
-    struct CGRect _originalBounds;
-    CDStruct_9bc45644 _principalLines;
-    NSArray *_principalPoints;
-    _Bool _isOriginal;
-    _Bool _isTopOriginal;
-    _Bool _isTransliterated;
 }
 
 + (id);
 + (unsigned long long);
 + (id);
-+ (_Bool);
-- (long long);
++ (_Bool)_isDirty;
+- (long long)Jj;
 - (id);
-- (id);
+- (id)!;
 - (double);
 - (double);
 - (CDStruct_9bc45644);
@@ -52,40 +36,26 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)ollowed by 4 hex digits;
+- (_Bool)u' must be followed by 4 hex digits;
 - (unsigned long long);
 - (unsigned long long);
 - (double);
 - (unsigned int);
 - (double);
-- (unsigned long long);
+- (unsigned long long)N,V_manual;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void)¢£¤¥¦§¨©ª«®¯°±²³´µº»¼½¾¿ÀÁÂÃÄÅÈÉÎÏÐÑÒÓÔÕÖ×ÚÛÜÝÞßàáæçèéêëìíîïòöø« ¬ ´ ½ !!;
 
 // Remaining properties
-@property(readonly, nonatomic) double alignmentScore;
-@property(readonly, nonatomic) double combinedScore;
-@property(readonly, nonatomic) unsigned long long inputSources; // @synthesize inputSources=_inputSources;
-@property(readonly, nonatomic) _Bool isOriginal; // @synthesize isOriginal=_isOriginal;
-@property(readonly, nonatomic) _Bool isTopOriginal; // @synthesize isTopOriginal=_isTopOriginal;
-@property(readonly, nonatomic) _Bool isTransliterated; // @synthesize isTransliterated=_isTransliterated;
 @property(readonly, nonatomic) double modelScore;
-@property(readonly, nonatomic) struct CGRect originalBounds; // @synthesize originalBounds=_originalBounds;
-@property(readonly, nonatomic) CDStruct_9bc45644 principalLines; // @synthesize principalLines=_principalLines;
-@property(readonly, copy, nonatomic) NSArray *principalPoints; // @synthesize principalPoints=_principalPoints;
-@property(readonly, nonatomic) unsigned long long properties;
-@property(readonly, nonatomic) double recognitionScore;
-@property(readonly, copy, nonatomic) NSLocale *recognizerSourceLocale; // @synthesize recognizerSourceLocale=_recognizerSourceLocale;
-@property(readonly, nonatomic) long long substrokeCount;
-@property(readonly, nonatomic) unsigned int wordID; // @synthesize wordID=_wordID;
 
 @end
 

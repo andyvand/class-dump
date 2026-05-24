@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOpenGLContext;
-
 @interface IKOpenGLRoundedRectRendererCache
 {
     unsigned int _glID;
-    NSOpenGLContext *_context;
-    float _strokeColor[4];
-    float _fillColor[4];
-    float _radius;
-    float _scaleFactor;
-    int _mode;
-    int _lineWidth;
 }
 
 - (_Bool);
 - (id);
 - (unsigned int);
-- (void);
+- (void)qb;
 - (id);
 
 @end

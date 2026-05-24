@@ -9,11 +9,10 @@
 @interface CHRecognizerResultCache
 {
     NSMutableDictionary *_lastDrawings;
-    NSMutableDictionary *_textResults;
 }
 
 - (id);
-- (void);
+- (void)I;
 - (void);
 - (id);
 - (void);

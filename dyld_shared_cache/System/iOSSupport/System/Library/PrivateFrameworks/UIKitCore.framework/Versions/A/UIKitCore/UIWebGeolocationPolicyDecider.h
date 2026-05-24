@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface UIWebGeolocationPolicyDecider
 {
     NSMutableDictionary *_sites;
-    NSMutableArray *_challenges;
-    NSMapTable *_activeChallenges;
 }
 
-+ (id);
++ (id)first unlock. Can't track batches!;
 + (void)K ÎÜn;
 - (_Bool);
 - (void);
@@ -22,21 +20,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (id)in message GUID:(id)arg1 %@;
+- (id)not find partIndex:%@ in message GUID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)eItems:(id)arg1 %lu};
 - (long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)nature;
 - (id);
 - (void);
-- (void)mHourCycle:forceDoubleDigitHours:displaysTimeZone: /* Error: Ran out of types for this method. */;
-- (void)rTraitCollection:withRimShadow: /* Error: Ran out of types for this method. */;
+- (void)initWithCalendar:locale:followsSystemHourCycle:forceDoubleDigitHours:displaysTimeZone: /* Error: Ran out of types for this method. */;
+- (void)_rightArrowViewForTraitCollection:withRimShadow: /* Error: Ran out of types for this method. */;
 - (void)È·ÀÿÐW¿f;
 
 @end

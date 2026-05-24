@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _GCScrollEventImpl
 {
     unsigned long long timestamp;
-    float x;
-    float y;
 }
 
 - (id);
 - (unsigned long long);
+- (void)aida_updateTelemetryIdsWithAuthenticationResults:(float)arg1 accountManager: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)NSArray"16@"NSArray"24@?<v@?@"NSError">32;
 - (void);
 - (float);
 - (float)@"NSObject<OS_xpc_object>"@?>24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp; // @synthesize timestamp;
-@property(nonatomic) float x; // @synthesize x;
-@property(nonatomic) float y; // @synthesize y;
 
 @end
 

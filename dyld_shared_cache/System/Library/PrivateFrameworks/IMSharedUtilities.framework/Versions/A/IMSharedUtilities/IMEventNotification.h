@@ -7,9 +7,6 @@
 @interface IMEventNotification
 {
     id _target;
-    id _sender;
-    CDUnknownBlockType _eventNotificationWithSenderBlock;
-    CDUnknownBlockType _eventNotificationBlock;
 }
 
 + (id);
@@ -20,19 +17,16 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (id);
 - (void);
-- (void)ingNicknameUpdates;
+- (void)pendingNicknameUpdates;
 - (_Bool)referredFromID:listenerID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType eventNotificationBlock; // @synthesize eventNotificationBlock=_eventNotificationBlock;
-@property(copy) CDUnknownBlockType eventNotificationWithSenderBlock; // @synthesize eventNotificationWithSenderBlock=_eventNotificationWithSenderBlock;
-@property __weak id sender; // @synthesize sender=_sender;
 @property __weak id target; // @synthesize target=_target;
 
 @end

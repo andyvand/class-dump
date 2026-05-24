@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWStillImageProcessorControllerInput;
-@protocol BWStillImageProcessorControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface BWStillImageProcessorControllerRequest
 {
     int _err;
-    BWStillImageProcessorControllerInput *_input;
-    id <BWStillImageProcessorControllerDelegate> _delegate;
 }
 
 - (_Bool);
@@ -21,15 +16,13 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)EBOfficeArtReaderClient;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <BWStillImageProcessorControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) int err; // @synthesize err=_err;
-@property(readonly, nonatomic) BWStillImageProcessorControllerInput *input; // @synthesize input=_input;
 
 @end
 

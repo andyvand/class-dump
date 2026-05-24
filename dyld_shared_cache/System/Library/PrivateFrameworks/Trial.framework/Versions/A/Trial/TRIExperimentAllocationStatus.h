@@ -6,21 +6,18 @@
 
 #import <Trial/TRIAllocationStatus.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TRIExperimentAllocationStatus : TRIAllocationStatus
 {
     int _deploymentId;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    NSArray *_namespaces;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_mediaLock;
 - (id);
 - (id);
 - (void);
@@ -30,10 +27,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

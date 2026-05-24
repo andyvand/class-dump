@@ -10,14 +10,9 @@ __attribute__((visibility("hidden")))
 @interface CHDDateAxis : CHDAxis
 {
     _Bool mAutomatic;
-    double mMajorUnitValue;
-    double mMinorUnitValue;
-    int mMinorTimeUnit;
-    int mMajorTimeUnit;
-    int mBaseTimeUnit;
 }
 
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -26,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (int);
 - (double);
+- (int)R	;
 - (int);
-- (int);
-- (_Bool);
+- (_Bool)*;
 - (id);
 - (_Bool);
 

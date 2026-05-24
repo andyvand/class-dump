@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSTextFieldCell, NSView, NSWindow;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface AOSUICloudDriveViewController
 {
     _Bool _isEnabled;
-    NSButton *_doneButton;
-    NSImageView *_iCloudDriveLogoImageView;
-    NSTextFieldCell *_iCloudDriveLabel;
-    NSTextFieldCell *_iCloudDriveDescriptionLabel;
-    NSTextFieldCell *_appsSyncingLabel;
-    NSTextFieldCell *_appsSyncingDescriptionLabel;
-    NSTextFieldCell *_statusLabel;
-    NSButton *_switchButton;
-    NSButton *_optionsButton;
-    NSBox *_appSyncingPane;
-    NSView *_grayOverlay;
-    NSProgressIndicator *_spinner;
-    NSLayoutConstraint *_doneButtonTopConstraint;
-    NSWindow *_modalWindow;
-    NSWindow *_hostWindow;
-    double _appSyncingPaneHeight;
-    CDUnknownBlockType _callback;
 }
 
 - (void);
@@ -34,19 +17,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)K	3;
 - (void);
 - (void);
+- (void)K	鏌R	k3;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)a=;
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)q(3;
 - (id);
-- (id);
-- (id);
+- (id)B(c@ aEt;
 - (id);
 - (id);
 - (double);
@@ -58,8 +41,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)scoreForSequenceUnsafe:(id)arg1;
+- (void)ListCellDraggingMetadata;
 - (void);
 - (void);
 - (void);
@@ -79,24 +62,7 @@ __attribute__((visibility("hidden")))
 - (void)key status.;
 
 // Remaining properties
-@property __weak NSBox *appSyncingPane; // @synthesize appSyncingPane=_appSyncingPane;
-@property(nonatomic) double appSyncingPaneHeight; // @synthesize appSyncingPaneHeight=_appSyncingPaneHeight;
-@property __weak NSTextFieldCell *appsSyncingDescriptionLabel; // @synthesize appsSyncingDescriptionLabel=_appsSyncingDescriptionLabel;
-@property __weak NSTextFieldCell *appsSyncingLabel; // @synthesize appsSyncingLabel=_appsSyncingLabel;
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
 @property __weak NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property __weak NSLayoutConstraint *doneButtonTopConstraint; // @synthesize doneButtonTopConstraint=_doneButtonTopConstraint;
-@property __weak NSView *grayOverlay; // @synthesize grayOverlay=_grayOverlay;
-@property(retain, nonatomic) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property __weak NSTextFieldCell *iCloudDriveDescriptionLabel; // @synthesize iCloudDriveDescriptionLabel=_iCloudDriveDescriptionLabel;
-@property __weak NSTextFieldCell *iCloudDriveLabel; // @synthesize iCloudDriveLabel=_iCloudDriveLabel;
-@property __weak NSImageView *iCloudDriveLogoImageView; // @synthesize iCloudDriveLogoImageView=_iCloudDriveLogoImageView;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(retain, nonatomic) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property __weak NSButton *optionsButton; // @synthesize optionsButton=_optionsButton;
-@property __weak NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property __weak NSTextFieldCell *statusLabel; // @synthesize statusLabel=_statusLabel;
-@property __weak NSButton *switchButton; // @synthesize switchButton=_switchButton;
 
 @end
 

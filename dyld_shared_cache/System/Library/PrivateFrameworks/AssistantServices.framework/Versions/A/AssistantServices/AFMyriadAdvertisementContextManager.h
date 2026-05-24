@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSettingsConnection, NSObject;
-@protocol OS_dispatch_queue;
+@class AFSettingsConnection;
 
 @interface AFMyriadAdvertisementContextManager
 {
     AFSettingsConnection *_settingsConnection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGFeatureSliceTransformer
 {
     long long _fromIndex;
-    long long _toIndex;
 }
 
 + (id);
-+ (id);
++ (id)ign:baselineOffset:backgroundColor:cornerRadius:title:url:shouldGenerateGlyph: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)te>",W,N;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long fromIndex; // @synthesize fromIndex=_fromIndex;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long toIndex; // @synthesize toIndex=_toIndex;
 
 @end
 

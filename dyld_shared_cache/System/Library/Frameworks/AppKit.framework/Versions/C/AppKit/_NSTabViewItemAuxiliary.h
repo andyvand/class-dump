@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSTabViewItemAuxiliary
 {
     struct CGSize cachedMinimumLabelSize;
-    long long _springLoadingHighlight;
-    NSString *_explicitToolTip;
-    NSViewController *_viewController;
 }
 
-- (void);
+- (void)ould not open EAN service and connect;
 - (id);
 - (void);
 - (void);
@@ -23,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSString *explicitToolTip; // @synthesize explicitToolTip=_explicitToolTip;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

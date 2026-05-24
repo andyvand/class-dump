@@ -5,14 +5,14 @@
 //
 
 @class HMIAnalysisStateManager, HMIHomePersonManager, NSSet;
-@protocol HMDCameraRecordingSessionVideoAnalyzerDelegate;
 
 @protocol HMDCameraRecordingSessionVideoAnalyzer
+- (HMIHomePersonManager *)updateRouteInfoFromComposedRoute: /* Error: Ran out of types for this method. */;
+- (NSSet *)accessQueue;
+- (HMIAnalysisStateManager *);
+- (void)(=;
 
 // Remaining properties
-@property(retain) HMIAnalysisStateManager *analysisStateManager;
-@property __weak id <HMDCameraRecordingSessionVideoAnalyzerDelegate> delegate;
-@property(copy) NSSet *externalPersonManagers;
 @property(retain) HMIHomePersonManager *homePersonManager;
 @end
 

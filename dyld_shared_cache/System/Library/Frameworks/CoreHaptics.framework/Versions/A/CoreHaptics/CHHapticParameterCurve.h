@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CHHapticParameterCurve
 {
     NSString *_param;
-    double _time;
-    NSArray *_controlPoints;
 }
 
-- (void);
+- (void)T?$;
 - (double);
 - (id);
 - (id);
@@ -22,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *controlPoints;
 @property(readonly) NSString *parameterID; // @synthesize parameterID=_param;
-@property double relativeTime; // @synthesize relativeTime=_time;
 
 @end
 

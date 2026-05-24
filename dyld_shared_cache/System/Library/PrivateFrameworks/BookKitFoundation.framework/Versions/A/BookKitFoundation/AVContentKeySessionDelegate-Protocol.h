@@ -5,5 +5,9 @@
 //
 
 @protocol AVContentKeySessionDelegate
+
+@optional
+- (void);
+- (void)UIViewType;
 @end
 

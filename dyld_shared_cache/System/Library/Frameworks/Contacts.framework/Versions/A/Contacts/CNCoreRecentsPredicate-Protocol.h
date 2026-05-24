@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CNCoreRecentsLibraryProviding;
+
 @protocol CNCoreRecentsPredicate
+- (long long)importDomain:(id <CNCoreRecentsLibraryProviding>)arg1 forProviderIdentifier:fromDirectoryAtURL:knownFolders:error: /* Error: Ran out of types for this method. */;
 @end
 

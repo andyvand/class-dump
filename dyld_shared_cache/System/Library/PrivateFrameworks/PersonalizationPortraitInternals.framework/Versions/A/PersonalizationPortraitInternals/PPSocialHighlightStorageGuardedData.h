@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSocialHighlightFeedbackStream, _PASBloomFilterForWriting;
+@class BMSocialHighlightFeedbackStream;
 
 @interface PPSocialHighlightStorageGuardedData
 {
     BMSocialHighlightFeedbackStream *feedbackStream;
-    _PASBloomFilterForWriting *_feedbackStreamBloomFilter;
-    unsigned long long _countOfEventsInBloomFilter;
 }
 
 - (void)÷°1Â0@ù

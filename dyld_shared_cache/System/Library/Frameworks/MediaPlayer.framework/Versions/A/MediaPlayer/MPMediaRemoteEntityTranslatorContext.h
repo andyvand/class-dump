@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)ultValue: /* Error: Ran out of types for this method. */;
+- (void)_adjustedItemPropertyContentRatingOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <MPMediaRemoteEntityArtworkGenerator> artworkGenerator; // @synthesize artworkGenerator=_artworkGenerator;

@@ -6,25 +6,21 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMServiceImpl, NSString;
+@class IMServiceImpl;
 
 @interface IMSatelliteUnavailableForServiceChatItem : IMTranscriptChatItem
 {
     _Bool _isGroupChat;
-    IMServiceImpl *_service;
-    NSString *_recipientID;
 }
 
-- (id);
-- (id);
+- (id)ified client %p RTCP packet timeout;
+- (id)s:(id)arg1 %d attachments array is not present;
 - (_Bool);
-- (id);
+- (id)L);
 - (id);
 - (void)èw;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isGroupChat; // @synthesize isGroupChat=_isGroupChat;
-@property(readonly, nonatomic) NSString *recipientID; // @synthesize recipientID=_recipientID;
 @property(readonly, nonatomic) IMServiceImpl *service; // @synthesize service=_service;
 
 @end

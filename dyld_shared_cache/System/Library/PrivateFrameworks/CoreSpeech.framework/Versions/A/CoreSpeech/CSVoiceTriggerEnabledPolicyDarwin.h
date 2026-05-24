@@ -10,7 +10,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)VNCRImageReaderForDocumentsDetectorType;
 
 @end
 

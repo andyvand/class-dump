@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBSearchForBillsIntentResponse
 {
     struct _has;
-    NSArray *_bills;
 }
 
-+ (Class);
++ (Class)t.framework/Versions/A/AppSupport;
 + (_Bool);
 - (void);
 - (void);
@@ -21,25 +20,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)%;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)<;
 - (id);
 - (id);
-- (void)sponseCodeFailure;
+- (void)INPauseTimerIntentResponseCodeFailure;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bills; // @synthesize bills=_bills;
-@property(readonly, nonatomic) unsigned long long billsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

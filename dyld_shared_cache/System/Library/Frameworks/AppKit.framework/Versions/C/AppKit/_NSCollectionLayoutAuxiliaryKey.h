@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutAuxiliaryKey
 {
     _Bool _isSupplementary;
-    NSString *_elementKind;
-    long long _index;
-    long long _auxiliaryKind;
 }
 
 - (id);
@@ -21,16 +18,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)dicatorForView:(struct _NSZone *)arg1;
+- (id)dismissCorrectionIndicatorForView:(struct _NSZone *)arg1;
 - (long long)´°;
 - (id)er should always make sure -firstBaselineOffsetFromTop and -lastBaselineOffsetFromBottom are pixel-integral.;
 - (void)mRange:toRange:] called without session beginning /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long auxiliaryKind; // @synthesize auxiliaryKind=_auxiliaryKind;
 @property(readonly, nonatomic) NSString *elementKind; // @synthesize elementKind=_elementKind;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) _Bool isSupplementary; // @synthesize isSupplementary=_isSupplementary;
 
 @end
 

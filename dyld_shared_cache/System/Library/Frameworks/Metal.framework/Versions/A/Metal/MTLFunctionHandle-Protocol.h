@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @protocol MTLFunctionHandle
+- (id <MTLDevice>)iivowelsigngujarati;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(readonly) unsigned long long functionType;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) NSString *name;
 @end
 

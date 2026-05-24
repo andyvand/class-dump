@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol NSTouchBarCustomizationPreviewSectionLayoutDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewSectionLayout
 {
     id <NSTouchBarCustomizationPreviewSectionLayoutDelegate> _delegate;
-    long long _section;
-    NSArray *_cachedLayoutAttributes;
-    struct CGRect _cachedContainmentRect;
-    NSString *_identifier;
-    NSString *_accessibilityDescription;
 }
 
 + (Class)ß3ð1Â0@ù
@@ -27,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (struct CGRect);
-- (id);
-- (id);
-- (void);
+- (id)Expectation Failed;
+- (id)a, entry_ID from cfurl_cache_receiver_data WHERE isDataOnFS > 0 AND entry_ID in 								 (SELECT entry_ID from cfurl_cache_response WHERE entry_ID > 0 ORDER BY time_stamp ASC LIMIT %d);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -45,12 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)Color %@ (this warning is only given once);
 
 // Remaining properties
-@property(copy) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property struct CGRect cachedContainmentRect; // @synthesize cachedContainmentRect=_cachedContainmentRect;
 @property(copy) NSArray *cachedLayoutAttributes; // @synthesize cachedLayoutAttributes=_cachedLayoutAttributes;
-@property(readonly) id <NSTouchBarCustomizationPreviewSectionLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) long long section; // @synthesize section=_section;
 
 @end
 

@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (id);
-- (struct _NSRange);
+- (id)(F;
+- (struct _NSRange)siriui_bitmapImageRepresentation;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

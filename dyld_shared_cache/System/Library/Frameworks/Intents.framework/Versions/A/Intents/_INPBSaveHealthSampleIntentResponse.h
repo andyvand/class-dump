@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBString;
+@class _INPBString;
 
 @interface _INPBSaveHealthSampleIntentResponse
 {
     struct _has;
-    _INPBString *_defaultUnit;
-    _INPBString *_punchoutUrl;
-    _INPBDateTimeRange *_recordDate;
-    NSArray *_sampleUuids;
-    _INPBString *_userProvidedUnit;
-    NSArray *_valuesDefaultUnits;
-    NSArray *_valuesUserProvidedUnits;
 }
 
 + (Class);
@@ -43,7 +36,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -63,27 +56,7 @@
 - (void)serActivity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) _INPBString *defaultUnit; // @synthesize defaultUnit=_defaultUnit;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasDefaultUnit;
-@property(readonly, nonatomic) _Bool hasPunchoutUrl;
-@property(readonly, nonatomic) _Bool hasRecordDate;
-@property(readonly, nonatomic) _Bool hasUserProvidedUnit;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBString *punchoutUrl; // @synthesize punchoutUrl=_punchoutUrl;
-@property(retain, nonatomic) _INPBDateTimeRange *recordDate; // @synthesize recordDate=_recordDate;
-@property(copy, nonatomic) NSArray *sampleUuids; // @synthesize sampleUuids=_sampleUuids;
-@property(readonly, nonatomic) unsigned long long sampleUuidsCount;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBString *userProvidedUnit; // @synthesize userProvidedUnit=_userProvidedUnit;
-@property(copy, nonatomic) NSArray *valuesDefaultUnits; // @synthesize valuesDefaultUnits=_valuesDefaultUnits;
-@property(readonly, nonatomic) unsigned long long valuesDefaultUnitsCount;
-@property(copy, nonatomic) NSArray *valuesUserProvidedUnits; // @synthesize valuesUserProvidedUnits=_valuesUserProvidedUnits;
-@property(readonly, nonatomic) unsigned long long valuesUserProvidedUnitsCount;
 
 @end
 

@@ -9,30 +9,6 @@
 @interface PSGPBQuery
 {
     NSString *_bundleIdentifier;
-    NSString *_experimentId;
-    NSString *_initiatingProcess;
-    NSString *_localeIdentifier;
-    unsigned int _maxPredictionItems;
-    unsigned int _maxStructuredInfoItems;
-    unsigned int _maxTextualResponseItems;
-    NSString *_textContentType;
-    NSString *_treatmentId;
-    NSString *_treatmentName;
-    _Bool _hasContextBeforeInput;
-    _Bool _hasRecipientNames;
-    _Bool _hasResponseContext;
-    _Bool _isDocumentEmpty;
-    _Bool _isResponseContextBlacklisted;
-    struct {
-        unsigned int maxPredictionItems:1;
-        unsigned int maxStructuredInfoItems:1;
-        unsigned int maxTextualResponseItems:1;
-        unsigned int hasContextBeforeInput:1;
-        unsigned int hasRecipientNames:1;
-        unsigned int hasResponseContext:1;
-        unsigned int isDocumentEmpty:1;
-        unsigned int isResponseContextBlacklisted:1;
-    } _has;
 }
 
 - (void);
@@ -73,13 +49,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)S;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)NSObject;
 - (void);
 - (_Bool);
 - (void);
@@ -93,43 +69,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)initWithThunk: /* Error: Ran out of types for this method. */;
+- (void)2;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(nonatomic) _Bool hasContextBeforeInput; // @synthesize hasContextBeforeInput=_hasContextBeforeInput;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(nonatomic) _Bool hasHasContextBeforeInput;
-@property(nonatomic) _Bool hasHasRecipientNames;
-@property(nonatomic) _Bool hasHasResponseContext;
-@property(readonly, nonatomic) _Bool hasInitiatingProcess;
-@property(nonatomic) _Bool hasIsDocumentEmpty;
-@property(nonatomic) _Bool hasIsResponseContextBlacklisted;
-@property(readonly, nonatomic) _Bool hasLocaleIdentifier;
-@property(nonatomic) _Bool hasMaxPredictionItems;
-@property(nonatomic) _Bool hasMaxStructuredInfoItems;
-@property(nonatomic) _Bool hasMaxTextualResponseItems;
-@property(nonatomic) _Bool hasRecipientNames; // @synthesize hasRecipientNames=_hasRecipientNames;
-@property(nonatomic) _Bool hasResponseContext; // @synthesize hasResponseContext=_hasResponseContext;
-@property(readonly, nonatomic) _Bool hasTextContentType;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(readonly, nonatomic) _Bool hasTreatmentName;
-@property(retain, nonatomic) NSString *initiatingProcess; // @synthesize initiatingProcess=_initiatingProcess;
-@property(nonatomic) _Bool isDocumentEmpty; // @synthesize isDocumentEmpty=_isDocumentEmpty;
-@property(nonatomic) _Bool isResponseContextBlacklisted; // @synthesize isResponseContextBlacklisted=_isResponseContextBlacklisted;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) unsigned int maxPredictionItems; // @synthesize maxPredictionItems=_maxPredictionItems;
-@property(nonatomic) unsigned int maxStructuredInfoItems; // @synthesize maxStructuredInfoItems=_maxStructuredInfoItems;
-@property(nonatomic) unsigned int maxTextualResponseItems; // @synthesize maxTextualResponseItems=_maxTextualResponseItems;
-@property(retain, nonatomic) NSString *textContentType; // @synthesize textContentType=_textContentType;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(retain, nonatomic) NSString *treatmentName; // @synthesize treatmentName=_treatmentName;
 
 @end
 

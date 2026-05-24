@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPArtworkGradientInfo, NSColor;
+@class NSColor;
 
 @interface MPArtworkImageAttachments
 {
     _Bool _hasTitle;
-    NSColor *_textColor;
-    MPArtworkGradientInfo *_gradient;
 }
 
 + (_Bool);
@@ -26,8 +24,6 @@
 - (void)__MPModelPropertyPlaylistIsStoreRedownloadable__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) MPArtworkGradientInfo *gradient; // @synthesize gradient=_gradient;
-@property(readonly, nonatomic) _Bool hasTitle; // @synthesize hasTitle=_hasTitle;
 @property(readonly, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
 
 @end

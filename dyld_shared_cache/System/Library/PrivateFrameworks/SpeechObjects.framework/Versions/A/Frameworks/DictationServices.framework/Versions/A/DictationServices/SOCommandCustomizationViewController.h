@@ -4,41 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSImageView, NSLayoutConstraint, NSPopUpButton, NSScrollView, NSSearchField, NSString, NSTableView, NSTextField, NSTextView, NSUndoManager, NSView, NSWindow, SOAddRemoveActionBar, SOCommandEditingViewController, SODictationCommandItem, SODictationCommandManager, SODictationPreferences;
-
 __attribute__((visibility("hidden")))
 @interface SOCommandCustomizationViewController
 {
     _Bool _isAwakeFromNib;
-    SODictationPreferences *_dictationPreferences;
-    SODictationCommandManager *_commandManager;
-    NSUndoManager *_commandUndoManager;
-    SODictationCommandItem *_lastSelectedItem;
-    SOCommandEditingViewController *_editingViewController;
-    NSWindow *_window;
-    NSBox *_customBox;
-    NSView *_commandsContainer;
-    NSView *_localeContainer;
-    NSPopUpButton *_localePopUpButton;
-    NSLayoutConstraint *_topConstraint;
-    NSString *_currentLocaleIdentifier;
-    NSLayoutConstraint *_bottomConstraint;
-    NSString *_lastSelectedIdentifierForFeature;
-    NSButton *_doneButton;
-    NSView *_alertContainer;
-    NSTextField *_alertTextField;
-    NSSearchField *_searchField;
-    NSTableView *_commandsTable;
-    NSScrollView *_commandsScrollView;
-    SOAddRemoveActionBar *_addRemoveActionBar;
-    NSView *_addRemoveActionView;
-    NSLayoutConstraint *_scrollViewWidthConstraint;
-    NSTextField *_noCommandSelectedTextField;
-    NSTextView *_commandVariationsTextView;
-    NSScrollView *_commandVariationsScrollView;
-    NSView *_editingViewContainer;
-    NSImageView *_generalAlertImageView;
-    NSTextField *_generalAlertTextField;
 }
 
 + (id);
@@ -49,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (void);
 - (void);
@@ -72,30 +41,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)SignalEnvironmentEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id)ericEventEE_;
+- (_Bool)ZN11cnframework12ActiveObjectIN5raven33RavenGnssPreprocessorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_35ReceiverDifferentialCodeBiasesEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (_Bool)NSt3__110__function6__funcIZN11cnframework12ActiveObjectIN5raven33RavenGnssPreprocessorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_22SignalEnvironmentEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (void)N8cnmatrix12CNMatrixBaseIPFiRKNS_8CNMatrixILj26ELj1EdEERKNS1_ILj23ELj1EdEEPvRS2_RNS1_ILj26ELj26EdEERNS1_ILj26ELj23EdEEEEE;
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)H;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

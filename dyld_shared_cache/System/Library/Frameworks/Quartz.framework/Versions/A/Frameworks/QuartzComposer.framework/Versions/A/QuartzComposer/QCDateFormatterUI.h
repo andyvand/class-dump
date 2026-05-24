@@ -6,21 +6,17 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSPopUpButton, NSTextField;
+@class NSButton;
 
 @interface QCDateFormatterUI : QCInspector
 {
     NSButton *zoneButton;
-    NSPopUpButton *zoneMenu;
-    NSPopUpButton *dateMenu;
-    NSPopUpButton *timeMenu;
-    NSTextField *formatField;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)Dim (%i) = %i, %i, %i
 Local Dim (%i) = %i, %i, %i
 ;

@@ -7,8 +7,6 @@
 @interface AppStoreKit.BasePage
 {
     id pageRefreshPolicy;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     id <SidebarScrollViewAccessibilityDelegate> _accessibilityDelegate;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)(|;

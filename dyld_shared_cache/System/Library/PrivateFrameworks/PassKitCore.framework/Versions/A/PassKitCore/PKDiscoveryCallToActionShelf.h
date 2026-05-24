@@ -11,27 +11,25 @@
 @interface PKDiscoveryCallToActionShelf : PKDiscoveryShelf
 {
     _Bool _useImageAsTitle;
-    PKDiscoveryCallToAction *_callToAction;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)9(?=;
+- (id)q`;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id)ssuer;
-- (void)keDefaultExplanationSetupLater;
+- (unsigned long long)?i;
+- (_Bool)hasTimeIntervalSinceLastRecordAssociation;
+- (void)Z{;
+- (id)_reportedViewAppearedProductIssuer;
+- (void)makeDefaultExplanationSetupLater;
 
 // Remaining properties
 @property(readonly, nonatomic) PKDiscoveryCallToAction *callToAction; // @synthesize callToAction=_callToAction;
-@property(readonly, nonatomic) _Bool useImageAsTitle; // @synthesize useImageAsTitle=_useImageAsTitle;
 
 @end
 

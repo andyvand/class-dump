@@ -6,29 +6,21 @@
 
 #import <SceneKit/SCNCommonProfileProgramGenerator.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface SCNCommonProfileProgramGeneratorMetal : SCNCommonProfileProgramGenerator
 {
     _Bool _allowHotReload;
-    _Bool _useFunctionConstants;
-    NSString *_originalSourceCode;
-    NSArray *_injectionPointRanges;
-    struct _NSRange _commonProfileIORange;
-    NSString *_originalLightingSourceCode;
-    NSArray *_lightingInjectionPointRanges;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct __C3DFXProgram *);
 - (struct __C3DFXProgram *);
 - (void);
 - (void);
-- (int);
+- (int)?;
 
 @end
 

@@ -12,7 +12,7 @@
 + (void);
 + (id);
 + (_Bool);
-+ (void);
++ (void);
 - (id);
 - (id);
 - (struct DRPrepareObject *);
@@ -21,19 +21,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)checkCellularDiagnosticsStatus: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (int);
+- (void)xpectedFederationId;
+- (int)oviderDomain"40@"NSFileProviderDomainVersion"48@?<v@?@"NSError">56;
+- (id)fp_formatStringWithValues:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)me;
 
 @end
 

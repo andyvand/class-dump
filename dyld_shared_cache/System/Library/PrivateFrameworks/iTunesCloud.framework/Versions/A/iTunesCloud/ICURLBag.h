@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSnapshotBag, ICURLBagEnhancedAudioConfiguration, ICURLBagLibraryDAAPConfiguration, ICURLBagRadioConfiguration, NSArray, NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSSet, NSString;
+@class NSDictionary;
 
 @interface ICURLBag
 {
     struct os_unfair_lock_s _lock;
-    NSDictionary *_bagValues;
-    NSMutableDictionary *_convertedActionsCache;
-    NSArray *_GUIDURLRegexPatterns;
-    NSSet *_GUIDURLSchemes;
-    NSDate *_requestDate;
-    NSDate *_expirationDate;
-    NSString *_serverCorrelationKey;
-    NSString *_serverEnvironment;
-    NSString *_profileName;
-    NSString *_profileVersion;
-    NSNumber *_sourceAccountDSID;
-    AMSSnapshotBag *_amsBag;
 }
 
 + (id);
@@ -29,13 +17,741 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (void)__C3DMaterial=}16;
+- (id)ctsToConsider:(id)arg1 vertexAttributeNamed:materialPropertyNamed: /* Error: Ran out of types for this method. */;
+- (id)startValue;
+- (id)i] = 0;
+    }
+}
+
+Vertex readVertex(int index, device float* vertexBuffer, KernelUniformArgs args) {
+    Vertex v;
+    int vertexIndex = args.srcOffset + index * SRC_STRIDE;
+    for (int i = 0; i < LENGTH; ++i) {
+        v.vertexData[i] = vertexBuffer[vertexIndex + i];
+    }
+    return v;
+}
+
+void writeVertex(int index, Vertex v, device float* vertexBuffer, KernelUniformArgs args) {
+    int vertexIndex = args.dstOffset + index * DST_STRIDE;
+    for (int i = 0; i < LENGTH; ++i) {
+        vertexBuffer[vertexIndex + i] = v.vertexData[i];
+    }
+}
+
+void writeVertexSeparate(int index, Vertex v, device float* dstVertexBuffer, KernelUniformArgs args) {
+    int vertexIndex = args.dstOffset + index * DST_STRIDE;
+    for (int i = 0; i < LENGTH; ++i) {
+        dstVertexBuffer[vertexIndex + i] = v.vertexData[i];
+    }
+}
+
+void addWithWeight(thread Vertex& v, const Vertex src, float weight) {
+    for (int i = 0; i < LENGTH; ++i) {
+        v.vertexData[i] += weight * src.vertexData[i];
+    }
+}
+
+void writeDu(int index, Vertex du, device float* duDerivativeBuffer, KernelUniformArgs args)
+{
+    int duIndex = args.duDesc.x + index * args.duDesc.z;
+    for(int i = 0; i < LENGTH; i++)
+    {
+        duDerivativeBuffer[duIndex + i] = du.vertexData[i];
+    }
+}
+
+void writeDv(int index, Vertex dv, device float* dvDerivativeBuffer, KernelUniformArgs args)
+{
+    int dvIndex = args.dvDesc.x + index * args.dvDesc.z;
+    for(int i = 0; i < LENGTH; i++)
+    {
+        dvDerivativeBuffer[dvIndex + i] = dv.vertexData[i];
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+kernel void eval_stencils(
+    uint thread_position_in_grid [[thread_position_in_grid]],
+#if C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+    const device uint8_t* sizes [[buffer(SIZES_BUFFER_INDEX)]],
+    const device int* offsets [[buffer(OFFSETS_BUFFER_INDEX)]],
+    const device uint16_t* indices [[buffer(INDICES_BUFFER_INDEX)]],
+    const device half* weights [[buffer(WEIGHTS_BUFFER_INDEX)]],
+#else
+    const device int* sizes [[buffer(SIZES_BUFFER_INDEX)]],
+    const device int* offsets [[buffer(OFFSETS_BUFFER_INDEX)]],
+    const device int* indices [[buffer(INDICES_BUFFER_INDEX)]],
+    const device float* weights [[buffer(WEIGHTS_BUFFER_INDEX)]],
+#endif
+    device float* srcVertices [[buffer(SRC_VERTEX_BUFFER_INDEX)]],
+    device float* dstVertexBuffer [[buffer(DST_VERTEX_BUFFER_INDEX)]],
+    const device float* duWeights [[buffer(DU_WEIGHTS_BUFFER_INDEX)]],
+    const device float* dvWeights [[buffer(DV_WEIGHTS_BUFFER_INDEX)]],
+    device float* duDerivativeBuffer [[buffer(DU_DERIVATIVE_BUFFER_INDEX)]],
+    device float* dvDerivativeBuffer [[buffer(DV_DERIVATIVE_BUFFER_INDEX)]],
+    const constant KernelUniformArgs& args [[buffer(PARAMETER_BUFFER_INDEX)]]
+)
+{
+    auto current  = thread_position_in_grid + args.batchStart;
+    if(current >= args.batchEnd)
+        return;
+
+    Vertex dst;
+    clear(dst);
+
+
+    auto offset = offsets[current];
+    auto size = sizes[current];
+
+    for(auto stencil = 0; stencil < size; stencil++)
+    {
+        auto vindex = offset + stencil;
+        addWithWeight(dst, readVertex(indices[vindex], srcVertices, args), weights[vindex]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    Vertex du, dv;
+    clear(du);
+    clear(dv);
+
+
+    for(auto i = 0; i < size; i++)
+    {
+        auto src = readVertex(indices[offset + i], srcVertices, args);
+        addWithWeight(du, src, duWeights[offset + i]);
+        addWithWeight(dv, src, dvWeights[offset + i]);
+    }
+
+    writeDu(current, du, duDerivativeBuffer, args);
+    writeDv(current, dv, dvDerivativeBuffer, args);
+#endif
+}
+
+
+// ---------------------------------------------------------------------------
+
+// PERFORMANCE:(id)arg1 stride could be constant, but not as significant as length
+
+//struct PatchArray {
+//    int patchType;
+//    int numPatches;
+//    int indexBase;        // an offset within the index buffer
+//    int primitiveIdBase;  // an offset within the patch param buffer
+//};
+// # of patcharrays is 1 or 2.
+
+uint getDepth(uint patchBits) {
+    return (patchBits & 0xf);
+}
+
+float getParamFraction(uint patchBits) {
+    uint nonQuadRoot = (patchBits >> 4) & 0x1;
+    uint depth = getDepth(patchBits);
+    if (nonQuadRoot == 1) {
+        return 1.0f / float( 1 << (depth-1) );
+    } else {
+        return 1.0f / float( 1 << depth );
+    }
+}
+
+float2 normalizePatchCoord(uint patchBits, float2 uv) {
+    float frac = getParamFraction(patchBits);
+
+    uint iu = (patchBits >> 22) & 0x3ff;
+    uint iv = (patchBits >> 12) & 0x3ff;
+
+    // top left corner
+    float pu = float(iu*frac);
+    float pv = float(iv*frac);
+
+    // normalize u,v coordinates
+    return float2((uv.x - pu) / frac, (uv.y - pv) / frac);
+}
+
+bool isRegular(uint patchBits) {
+    return (((patchBits >> 5) & 0x1u) != 0);
+}
+
+int getNumControlVertices(int patchType) {
+    switch(patchType) {
+        case 3:return 4;
+        case 6:return 16;
+        case 9:return 20;
+        default:return 0;
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+kernel void eval_patches(
+                         uint thread_position_in_grid [[thread_position_in_grid]],
+                         const constant uint4* patchArrays [[buffer(PATCH_ARRAYS_BUFFER_INDEX)]],
+                         device PatchCoord* patchCoords [[buffer(PATCH_COORDS_BUFFER_INDEX)]],
+                         device int* patchIndices [[buffer(PATCH_INDICES_BUFFER_INDEX)]],
+                         device PatchParam* patchParams [[buffer(PATCH_PARAMS_BUFFER_INDEX)]],
+                         device float* srcVertexBuffer [[buffer(SRC_VERTEX_BUFFER_INDEX)]],
+                         device float* dstVertexBuffer [[buffer(DST_VERTEX_BUFFER_INDEX)]],
+                         device float* duDerivativeBuffer [[buffer(DU_DERIVATIVE_BUFFER_INDEX)]],
+                         device float* dvDerivativeBuffer [[buffer(DV_DERIVATIVE_BUFFER_INDEX)]],
+                         const constant KernelUniformArgs& args [[buffer(PARAMETER_BUFFER_INDEX)]]
+                         )
+{
+    auto current = thread_position_in_grid;
+    auto patchCoord = patchCoords[current];
+    auto patchIndex = patchIndices[patchCoord.patchIndex];
+    auto patchArray = patchArrays[patchCoord.arrayIndex];
+    auto patchBits = patchParams[patchIndex].field1; 
+    auto patchType = select(patchArray.x, uint(6), isRegular(patchBits));
+    auto numControlVertices = getNumControlVertices(patchType);
+    auto uv = normalizePatchCoord(patchBits, float2(patchCoord.s, patchCoord.t));
+    auto dScale = float(1 << getDepth(patchBits));
+    auto boundaryMask = int((patchBits >> 8) & 0xFU);
+
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+
+
+    if(patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 6) {
+        OsdGetBSplinePatchWeights(uv.x, uv.y, dScale, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+
+    Vertex dst, du, dv;
+    clear(dst);
+    clear(du);
+    clear(dv);
+
+
+    auto indexBase = patchArray.z + numControlVertices * (patchCoord.patchIndex - patchArray.w);
+    for(auto cv = 0; cv < numControlVertices; cv++)
+    {
+        auto index = patchIndices[indexBase + cv];
+        auto src = readVertex(index, srcVertexBuffer, args);
+        addWithWeight(dst, src, wP[cv]);
+        addWithWeight(du, src, wDs[cv]);
+        addWithWeight(dv, src, wDt[cv]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    if(args.duDesc.y > 0)
+        writeDu(current, du, duDerivativeBuffer, args);
+
+    if(args.dvDesc.y > 0)
+        writeDv(current, dv, dvDerivativeBuffer, args);
+#endif
+
+
+}
+
+ /* Error: Ran out of types for this method. */;
+- (void)_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+#if defined(USE_EMISSION_TEXTURE_COMPONENT)
+    _surface.emission = colorFromMask(_surface.emission, USE_EMISSION_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_EMISSION_INTENSITY
+    _surface.emission *= scn_commonprofile.emissionIntensity;
+#endif
+#elif defined(USE_EMISSION_COLOR)
+    _surface.emission = scn_commonprofile.emissionColor;
+#elif defined(USE_EMISSION)
+    _surface.emission = float4(0.);
+#endif
+#ifdef USE_SELFILLUMINATION_MAP
+    _surface.selfIllumination = u_selfIlluminationTexture.sample(u_selfIlluminationTextureSampler, _surface.selfIlluminationTexcoord);
+#if defined(USE_SELFILLUMINATION_TEXTURE_COMPONENT)
+    _surface.selfIllumination = colorFromMask(_surface.selfIllumination, USE_SELFILLUMINATION_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_SELFILLUMINATION_INTENSITY
+    _surface.selfIllumination *= scn_commonprofile.selfIlluminationIntensity;
+#endif
+#elif defined(USE_SELFILLUMINATION_COLOR)
+    _surface.selfIllumination = scn_commonprofile.selfIlluminationColor;
+#elif defined(USE_SELFILLUMINATION)
+    _surface.selfIllumination = float4(0.);
+#endif
+#ifdef USE_MULTIPLY_MAP
+    _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+#if defined(USE_MULTIPLY_TEXTURE_COMPONENT)
+    _surface.multiply = colorFromMask(_surface.multiply, USE_MULTIPLY_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_MULTIPLY_INTENSITY
+    _surface.multiply = mix(float4(1.), _surface.multiply, scn_commonprofile.multiplyIntensity);
+#endif
+#elif defined(USE_MULTIPLY_COLOR)
+    _surface.multiply = scn_commonprofile.multiplyColor;
+#elif defined(USE_MULTIPLY)
+    _surface.multiply = float4(1.);
+#endif
+#ifdef USE_TRANSPARENT_MAP
+    _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+#if defined(USE_TRANSPARENT_TEXTURE_COMPONENT)
+    _surface.transparent = colorFromMask(_surface.transparent, USE_TRANSPARENT_TEXTURE_COMPONENT);
+#endif
+#ifdef USE_TRANSPARENT_INTENSITY
+    _surface.transparent *= scn_commonprofile.transparentIntensity;
+#endif
+#elif defined(USE_TRANSPARENT_COLOR)
+    _surface.transparent = scn_commonprofile.transparentColor;
+#elif defined(USE_TRANSPARENT)
+    _surface.transparent = float4(1.f);
+#endif
+    
+#ifdef USE_METALNESS_MAP
+#if defined(USE_METALNESS_TEXTURE_COMPONENT)
+    _surface.metalness = colorFromMask(u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord), USE_METALNESS_TEXTURE_COMPONENT).r;
+#else
+    _surface.metalness = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord).r;
+#endif
+#ifdef USE_METALNESS_INTENSITY
+    _surface.metalness *= scn_commonprofile.metalnessIntensity;
+#endif
+#elif defined(USE_METALNESS_COLOR)
+    _surface.metalness = scn_commonprofile.metalness;
+#else
+    _surface.metalness = 0.f;
+#endif
+    
+#ifdef USE_ROUGHNESS_MAP
+#if defined(USE_ROUGHNESS_TEXTURE_COMPONENT)
+    _surface.roughness = colorFromMask(u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord), USE_ROUGHNESS_TEXTURE_COMPONENT).r;
+#else
+    _surface.roughness = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+#endif
+#ifdef USE_ROUGHNESS_INTENSITY
+    _surface.roughness *= scn_commonprofile.roughnessIntensity;
+#endif
+#elif defined(USE_ROUGHNESS_COLOR)
+    _surface.roughness = scn_commonprofile.roughness;
+#else
+    _surface.roughness = 0.f;
+#endif
+#if (defined USE_POSITION) && (USE_POSITION == 2)
+    _surface.position = in.position;
+#endif
+#if (defined USE_NORMAL) && (USE_NORMAL == 2)
+#if defined(HAS_NORMAL) || defined(USE_OPENSUBDIV)
+#ifdef USE_DOUBLE_SIDED
+    _surface.geometryNormal = normalize(in.normal.xyz) * (isFrontFacing ? 1.f :-1.f );
+#else
+    _surface.geometryNormal = normalize(in.normal.xyz);
+#endif
+#else 
+    _surface.geometryNormal = normalize( cross(dfdy( _surface.position ), dfdx( _surface.position ) ));
+#endif
+    _surface.normal = _surface.geometryNormal;
+    _surface.clearCoatNormal = _surface.geometryNormal;
+#endif
+#if defined(USE_TANGENT) && (USE_TANGENT == 2)
+    _surface.tangent = in.tangent;
+#endif
+#if defined(USE_BITANGENT) && (USE_BITANGENT == 2)
+    _surface.bitangent = in.bitangent;
+#endif
+#if (defined USE_VIEW) && (USE_VIEW == 2)
+    _surface.view = normalize(-in.position);
+    {
+        
+        
+        float NoV = dot(_surface.geometryNormal, _surface.view);
+        _surface.view = _surface.view + max(0.f, -2.f * NoV) * _surface.geometryNormal;         
+        
+    }
+#endif
+#if defined(USE_NORMAL_MAP)
+    {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+#ifdef USE_NORMAL_MAP
+#if defined(USE_NORMAL_TEXTURE_COMPONENT)
+        _surface._normalTS.xy = colorFromMask(u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord), USE_NORMAL_TEXTURE_COMPONENT).rg * 2.f - 1.f;
+        _surface._normalTS.z = sqrt(1.f - saturate(length_squared(_surface._normalTS.xy)));
+#else
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+#endif
+#ifdef USE_NORMAL_INTENSITY
+        _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+#endif
+#else
+        _surface._normalTS = float3(0.f, 0.f, 1.f);
+#endif
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS.xyz );
+    }
+#else
+    _surface._normalTS = float3(0.f, 0.f, 1.f);
+#endif
+#ifdef USE_PBR
+    {
+        float roughness = clamp(_surface.roughness, PBR_MIN_ROUGHNESS, 1.0);
+        float alpha = scn_filteredAlphaFromRoughness(_surface.normal, roughness);
+        _surface.roughness = sqrt(alpha);
+    }
+#endif
+#if defined(USE_CLEARCOATNORMAL_MAP)
+    {
+        
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.geometryNormal);
+#ifdef USE_CLEARCOATNORMAL_MAP
+#if defined(USE_CLEARCOATNORMAL_TEXTURE_COMPONENT)
+        _surface._clearCoatNormalTS.xy = colorFromMask(u_clearCoatNormalTexture.sample(u_clearCoatnormalTextureSampler, _surface.clearCoatNormalTexcoord), USE_CLEARCOATNORMAL_TEXTURE_COMPONENT).rg * 2.f - 1.f;
+        _surface._clearCoatNormalTS.z = sqrt(1.f - saturate(length_squared(_surface._clearCoatNormalTS.xy)));
+#else
+        _surface._clearCoatNormalTS = u_clearCoatNormalTexture.sample(u_clearCoatNormalTextureSampler, _surface.clearCoatNormalTexcoord).rgb;
+        _surface._clearCoatNormalTS = _surface._clearCoatNormalTS * 2.f - 1.f;
+#endif
+#ifdef USE_CLEARCOATNORMAL_INTENSITY
+        _surface._clearCoatNormalTS = mix(float3(0.f, 0.f, 1.f), _surface._clearCoatNormalTS, scn_commonprofile.clearCoatNormalIntensity);
+#endif
+#else
+        _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+        _surface.clearCoatNormal.rgb = normalize(ts2vs * _surface._clearCoatNormalTS.xyz );
+    }
+#else
+    _surface._clearCoatNormalTS = float3(0.f, 0.f, 1.f);
+#endif
+    
+#ifdef USE_REFLECTIVE_MAP
+    float3 refl = reflect( -_surface.view, _surface.normal );
+    float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + (refl.z+1.f)*(refl.z+1.f));
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+#if defined(USE_REFLECTIVE_TEXTURE_COMPONENT)
+    _surface.reflective = colorFromMask(_surface.reflective, USE_REFLECTIVE_TEXTURE_COMPONENT).r;
+#endif
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_CUBEMAP)
+    float3 refl = reflect( _surface.position, _surface.normal );
+    _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+#ifdef USE_REFLECTIVE_INTENSITY
+    _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+#endif
+#elif defined(USE_REFLECTIVE_COLOR)
+    _surface.reflective = scn_commonprofile.reflectiveColor;
+#elif defined(USE_REFLECTIVE)
+    _surface.reflective = float4(0.);
+#endif
+#ifdef USE_FRESNEL
+    _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+    _surface.reflective *= _surface.fresnel;
+#endif
+#ifdef USE_SHININESS
+    _surface.shininess = scn_commonprofile.materialShininess;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SURFACE_MODIFIER
+    
+    __DoSurfaceModifier__
+    
+#endif
+    
+    
+    
+    
+    
+    SCNShaderLightingContribution _lightingContribution(_surface, in);
+#ifdef USE_LIGHT_MODIFIER
+    __LightModifierCopyDecl__
+#endif
+#ifdef USE_AMBIENT_LIGHTING
+    _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+#endif
+#ifdef USE_LIGHTING
+#ifdef USE_PER_PIXEL_LIGHTING
+#ifdef USE_CLUSTERED_LIGHTING
+    uint3 clusterIndex;
+    clusterIndex.xy = uint2(in.fragmentPosition.xy * scn_frame.clusterScale.xy); 
+    clusterIndex.z = in.position.z * scn_frame.clusterScale.z + scn_frame.clusterScale.w; 
+    
+    
+    ushort4 cluster_offset_count = u_clusterTexture.read(clusterIndex);
+    int lid = cluster_offset_count.x;
+#endif
+
+#ifdef USE_PBR
+    _lightingContribution.prepareForPBR(u_specularDFGDiffuseHammonTexture, scn_commonprofile.selfIlluminationOcclusion);
+    
+    
+#ifdef USE_SELFILLUMINATION
+    _lightingContribution.add_irradiance_from_selfIllum();
+#else
+#ifdef USE_PROBES_LIGHTING 
+    _lightingContribution.add_global_irradiance_from_sh(scn_frame.viewToCubeTransform, scn_node.shCoefficients);
+#else
+    _lightingContribution.add_global_irradiance_probe(u_irradianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+#endif
+#endif
+
+    
+#ifndef DISABLE_SPECULAR
+#ifdef C3D_USE_REFLECTION_PROBES
+    int probe_count = (cluster_offset_count.z & 0xff);
+    for (int i = 0 ; i < probe_count; ++i, ++lid) {
+        _lightingContribution.add_local_probe(scn_lights[LightIndex(lid)], u_reflectionProbeTexture);
+    }
+#if PROBES_NORMALIZATION
+#if PROBES_OUTER_BLENDING
+    _lightingContribution.specular += _lightingContribution.probesWeightedSum.rgb / max(1.f, _lightingContribution.probesWeightedSum.a);
+#else
+    _lightingContribution.specular += _lightingContribution.probesWeightedSum.rgb / _lightingContribution.probesWeightedSum.a;
+#endif
+    float globalFactor = saturate(1.f - _lightingContribution.probesWeightedSum.a);
+#else
+    float globalFactor = _lightingContribution.probeRadianceRemainingFactor;
+#endif
+    _lightingContribution.add_global_probe(scn_frame.viewToCubeTransform, globalFactor * scn_frame.environmentIntensity,
+                                           u_reflectionProbeTexture);
+#else 
+   _lightingContribution.add_global_probe(u_radianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+    
+#ifdef USE_CLEARCOAT
+    _lightingContribution.add_global_probeClearCoat(u_radianceTexture, scn_frame.viewToCubeTransform, scn_frame.environmentIntensity);
+#endif
+
+    
+#endif 
+#endif 
+
+#endif 
+    #if DEBUG_PIXEL
+        switch (DEBUG_PIXEL) {
+            case 1:_output.color = float4(_surface.normal * 0.5f + 0.5f, 1.f); break;
+            case 2:_output.color = float4(_surface.geometryNormal * 0.5f + 0.5f, 1.f); break;
+            case 3:_output.color = float4(_surface.tangent * 0.5f + 0.5f, 1.f); break;
+            case 4:_output.color = float4(in.uv0, 0.f, 1.f); break;
+            case 5:_output.color = float4(_surface.diffuse.rgb, 1.f); break;
+            case 6:_output.color = float4(float3(_surface.roughness), 1.f); break;
+            case 7:_output.color = float4(float3(_surface.metalness), 1.f); break;
+            case 8:_output.color = float4(float3(_surface.ambientOcclusion), 1.f); break;
+            default:break;
+        }
+        return _output;
+    #endif
+    
+    __FragmentDoLighting__
+    
+    #ifdef USE_CLUSTERED_LIGHTING
+        
+        int omni_count = cluster_offset_count.y & 0xff;
+        for (int i = 0 ; i < omni_count; ++i, ++lid) {
+            _lightingContribution.add_local_omni(scn_lights[LightIndex(lid)]);
+        }
+
+        
+        int spot_count = (cluster_offset_count.y >> 8);
+        for (int i = 0 ; i < spot_count; ++i, ++lid) {
+            _lightingContribution.add_local_spot(scn_lights[LightIndex(lid)]);
+        }
+
+    #endif
+#else 
+        _lightingContribution.diffuse = in.diffuse;
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = in.specular;
+    #endif
+#endif 
+    #ifdef AVOID_OVERLIGHTING
+        _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+    #ifdef USE_SPECULAR
+        _lightingContribution.specular = saturate(_lightingContribution.specular);
+    #endif 
+    #endif 
+#else 
+    _lightingContribution.diffuse = float3(1.);
+#endif 
+
+    
+    
+    
+    
+#ifdef USE_PBR
+    { 
+        float3 diffuseAlbedo = mix(_lightingContribution.pbr.albedo, float3(0.0), _surface.metalness);
+        
+        
+#ifdef USE_PBR_TRANSPARENCY
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _lightingContribution.pbr.albedo;
+#else
+        float3 color = (_lightingContribution.ambient * _surface.ambientOcclusion) * _surface.diffuse.rgb;
+#endif
+        
+        color += _lightingContribution.pbr.envDiffuse;
+        color += _lightingContribution.diffuse * diffuseAlbedo;
+#ifndef DISABLE_SPECULAR
+        color += _lightingContribution.pbr.envSpecular;
+        color += _lightingContribution.specular;
+#endif
+#ifdef USE_EMISSION
+        color += _surface.emission.rgb;
+#endif
+#ifdef USE_MULTIPLY
+        color *= _surface.multiply.rgb;
+#endif
+#ifdef USE_MODULATE
+        color *= _lightingContribution.modulate;
+#endif
+        _output.color.rgb = color;
+    }
+#else 
+
+#ifdef USE_SHADOWONLY
+    _output.color.rgb = float3(0.0);
+    _output.color.a = 1. - _lightingContribution.shadowFactor;
+#else
+    _output.color.rgb = illuminate(_surface, _lightingContribution);
+#endif
+#endif
+
+#ifndef USE_SHADOWONLY
+  #ifdef USE_PBR_TRANSPARENCY
+    _output.color.a = _lightingContribution.pbr.transparency;
+  #else
+    _output.color.a = _surface.diffuse.a;
+  #endif
+#endif
+
+#ifdef USE_FOG
+    float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+    _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+#endif
+
+#if !defined(DIFFUSE_PREMULTIPLIED) && !defined(USE_PBR_TRANSPARENCY)
+    _output.color.rgb *= _surface.diffuse.a;
+#endif
+    
+    
+    
+    
+    
+#ifdef USE_SHADOWONLY
+    float transparencyFactor = 1.0;
+  #ifdef USE_NODE_OPACITY
+    transparencyFactor *= in.nodeOpacity;
+  #endif
+    _output.color.a *= transparencyFactor; 
+
+#else 
+
+#ifdef USE_TRANSPARENT 
+    
+#ifdef USE_TRANSPARENCY
+    _surface.transparent *= scn_commonprofile.transparency;
+#endif
+    
+#ifdef USE_TRANSPARENCY_RGBZERO
+    
+    _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+    _output.color *= (float4(1.f) - _surface.transparent);
+#else
+  #ifndef USE_PBR_TRANSPARENCY
+    _output.color *= _surface.transparent.a;
+  #endif
+#endif
+    
+#else 
+    
+#ifdef USE_TRANSPARENCY 
+  #ifndef USE_PBR_TRANSPARENCY
+    _output.color *= scn_commonprofile.transparency;
+  #endif
+#endif
+    
+#endif 
+    
+#ifdef USE_NODE_OPACITY
+    _output.color *= in.nodeOpacity;
+#endif
+    
+#endif 
+    
+    
+    
+    
+    
+#ifdef USE_MODIFIER_FRAMEBUFFER
+    const SCNFramebuffer _framebuffer = {
+#if defined(C3D_SUPPORTS_PROGRAMMABLE_BLENDING) && defined(USE_MODIFIER_FRAMEBUFFER_COLOR0)
+        .color = framebufferColor0
+#else
+        .color = 0.f
+#endif
+    };
+#endif
+    
+#ifdef USE_FRAGMENT_MODIFIER
+    
+    __DoFragmentModifier__
+    
+#endif
+#if defined(USE_CLUSTERED_LIGHTING) && defined(DEBUG_CLUSTER_TILE)
+    _output.color.rgb = mix(_output.color.rgb, float3(scn::debugColorForCount(clusterIndex.z).xyz), 0.1f);
+    _output.color.rgb = mix(_output.color.rgb, float3(clusterIndex.x & 0x1 ^ clusterIndex.y & 0x1).xyz, 0.01f);
+#endif
+#ifdef DISABLE_LINEAR_RENDERING
+    _output.color.rgb = scn::linear_to_srgb(_output.color.rgb);
+#endif
+    
+#ifdef USE_DISCARD
+    if (_output.color.a == 0.) 
+        discard_fragment();
+#endif
+
+#ifdef USE_POINT_RENDERING
+    if ((dfdx(pointCoord.x) < 0.5f) && (length_squared(pointCoord * 2.f - 1.f) > 1.f)) {
+        discard_fragment();
+    }
+#endif
+    
+    
+#ifdef USE_OUTLINE
+    _output.color.rgb = in.outlineHash;
+#endif
+    
+
+#ifdef USE_MOTIONBLUR
+#ifdef USE_MULTIPLE_RENDERING
+    _output.motionblur.xy = half2((in.mv_fragment.xy - scn_frame.viewportSize.zw) / in.mv_fragment.z - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#else
+    _output.motionblur.xy = half2((in.mv_fragment.xy / in.mv_fragment.z) - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#endif
+    _output.motionblur.z = length(_output.motionblur.xy);
+    _output.motionblur.w = half(-_surface.position.z);
+#endif
+
+#ifdef USE_NORMALS_OUTPUT
+    _output.normals = half4( half3(_surface.normal.xyz), half(_surface.roughness) );
+#endif
+    
+#ifdef USE_RADIANCE_OUTPUT
+    _output.radiance.rgb = half3(_lightingContribution.specular.rgb);
+#endif
+                                 
+#ifdef USE_REFLECTANCE_ROUGHNESS_OUTPUT
+#ifdef USE_PBR
+    _output.reflectanceRoughnessOutput = half4( half3(_lightingContribution.pbr.probeReflectance), half(_surface.roughness) );
+#else 
+    _output.reflectanceRoughnessOutput = half4( 0.h );
+#endif
+#endif
+    
+    return _output;
+}
+ /* Error: Ran out of types for this method. */;
+- (id)EnvMap2D;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -47,64 +763,44 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)I;
+- (id);
+- (void);
 - (id);
 - (id);
+- (id);
+- (id)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16^{_CGLPixelFormatObject=}24d32r^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ}40;
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
+- (_Bool));
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)8;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id).;
+- (id)quadrilateralValue;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id)redActivityGroupSizeMax"b1"stationID"b1"storeAccountID"b1"subscriptionAdamID"b1"tvShowPurchasedAdamID"b1"tvShowSubscriptionAdamID"b1"vocalAttenuationDuration"b1"wallClockPlayDuration"b1"audioQualityPreference"b1"containerType"b1"displayType"b1"endReasonType"b1"eventType"b1"itemType"b1"mediaType"b1"playbackFormatPreference"b1"reasonHintType"b1"sharedActivityType"b1"sourceType"b1"systemReleaseType"b1"transitionTypeProvided"b1"userTransitionTypePreference"b1"vocalAttenuationAvailibility"b1"continuityCameraUsed"b1"continuityMicrophoneUsed"b1"displayTranslationEnabled"b1"displayTransliterationEnabled"b1"internalBuild"b1"isCollaborativePlaylist"b1"offline"b1"privateListeningEnabled"b1"sBEnabled"b1"siriInitiated"b1};
-- (void): /* Error: Ran out of types for this method. */;
+- (void)initWithUpdatedAutoPlayEnabled: /* Error: Ran out of types for this method. */;
 - (id)true
 ;
 - (id)¡\»PáO/¹Çí¯%<Á±kéîo3ö×t:é24r¶h
 1MÓ~fÎ?y$µ5ßgñ^6þR¹¤³dI¸D\ñNEùà&Ï,Oe-[ÿMÿðãÒm@ÁÌ¬+¨ÈÂï<ÀhÙº;ãÄp¥úîcHK°;¿·D{LÏ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *GUIDURLRegexPatterns; // @synthesize GUIDURLRegexPatterns=_GUIDURLRegexPatterns;
-@property(retain, nonatomic) NSSet *GUIDURLSchemes; // @synthesize GUIDURLSchemes=_GUIDURLSchemes;
-@property(readonly, copy, nonatomic) NSDictionary *_allValues;
-@property(readonly, nonatomic) NSDictionary *_propertyListRepresentation;
-@property(readonly, copy, nonatomic) NSDictionary *allValues;
-@property(readonly, nonatomic) AMSSnapshotBag *amsBag; // @synthesize amsBag=_amsBag;
 @property(copy, nonatomic) NSDictionary *bagValues; // @synthesize bagValues=_bagValues;
-@property(readonly, nonatomic) _Bool canPostKeybagSyncData;
-@property(retain, nonatomic) NSMutableDictionary *convertedActionsCache; // @synthesize convertedActionsCache=_convertedActionsCache;
-@property(readonly, nonatomic) ICURLBagEnhancedAudioConfiguration *enhancedAudioConfiguration;
-@property(copy, nonatomic, setter=_setExpirationDate:) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(readonly, nonatomic) ICURLBagLibraryDAAPConfiguration *libraryDAAPConfiguration;
-@property(readonly, copy, nonatomic) NSString *profileName; // @synthesize profileName=_profileName;
-@property(readonly, copy, nonatomic) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
-@property(readonly, nonatomic) ICURLBagRadioConfiguration *radioConfiguration;
-@property(readonly, copy, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
-@property(readonly, copy, nonatomic) NSString *serverCorrelationKey; // @synthesize serverCorrelationKey=_serverCorrelationKey;
-@property(readonly, copy, nonatomic) NSString *serverEnvironment; // @synthesize serverEnvironment=_serverEnvironment;
-@property(readonly, copy, nonatomic) NSNumber *sourceAccountDSID; // @synthesize sourceAccountDSID=_sourceAccountDSID;
-@property(readonly, copy, nonatomic) NSString *storefrontHeaderSuffix;
 
 @end
 

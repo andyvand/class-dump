@@ -6,36 +6,28 @@
 
 #import <SearchFoundation/SFTopic.h>
 
-@class NSString, SFSearchResult;
+@class SFSearchResult;
 
 @interface SFLocalTopic : SFTopic
 {
     SFSearchResult *_result;
 }
 
-+ (_Bool);
++ (_Bool)B;
+- (id)�;
 - (id);
 - (id);
+- (id)setImageArtworkInfo:(id)arg1;
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (void)rAlertType:(id)arg1 (%{public}@) […]:Falling back to default due missing setting in Preferences. toneIdentifier = %{public}@. /* Error: Ran out of types for this method. */;
+- (id)PHSearchEntityCategoryTypeDateComponents;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)ationTokens;
+- (void)_hasGenericLocationTokens;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
 @property(copy, nonatomic) SFSearchResult *result; // @synthesize result=_result;
-@property(readonly) Class superclass;
 
 @end
 

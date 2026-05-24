@@ -6,7 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUIColor;
 @protocol SASTTemplateAction;
 
 @interface SASTCountdownTimerItem : AceObject
@@ -27,26 +26,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h
+;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <SASTTemplateAction> action; // @dynamic action;
-@property(nonatomic) long long actionDelayInSeconds;
-@property(retain, nonatomic) SAUIColor *bodyBackgroundColor;
-@property(retain, nonatomic) SAUIColor *countdownTextColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIColor *headerBackgroundColor;
-@property(copy, nonatomic) NSString *headerText;
-@property(retain, nonatomic) SAUIColor *headerTextColor;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKBGradient;
-
 @interface UIKBDivotedEffect
 {
     double _weight;
@@ -13,10 +11,10 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool)okeView;
-- (void)teCalled:(id)arg1;
-- (id)oUIWindow: /* Error: Ran out of types for this method. */;
-- (id);
+- (_Bool)strokeView;
+- (void)setDismissDelegateCalled:(id)arg1;
+- (id)convertPointToUIWindow: /* Error: Ran out of types for this method. */;
+- (id)UIViewConfigurationState;
 - (double)Selected:%@
 
 === /* Error: Ran out of types for this method. */;
@@ -24,18 +22,7 @@
 - (struct CGColor *)GJ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIKBGradient *gradient;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) _Bool renderUnder;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesRGBColors;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

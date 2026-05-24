@@ -9,7 +9,6 @@
 @interface Vision.E5RTBasedDetector : Vision.Detector
 {
     id functionDescriptor;
-    id executionContext;
 }
 
 @end

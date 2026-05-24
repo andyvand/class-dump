@@ -9,7 +9,6 @@
 @interface SFUniversalLink
 {
     LSAppLink *_appLink;
-    NSURL *_webpageURL;
 }
 
 + (id);
@@ -17,13 +16,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)d segmentation have different length;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *applicationURL;
-@property(getter=isEnabled) _Bool enabled;
 @property(readonly) NSURL *webpageURL; // @synthesize webpageURL=_webpageURL;
 
 @end

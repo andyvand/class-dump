@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPoiAtAddressLookupParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_components;
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (id)48@0:(struct _NSZone *)arg1 8@16@24@?32@?40;
-- (id)apSettingsAvoidTolls;
+- (id)_mapSettingsAvoidTolls;
 - (id)¤RTSThT;
 - (void)u?T>F@;
 

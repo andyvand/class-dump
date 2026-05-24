@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SiriInference)
-- (id);
+- (id)@;
 @end
 

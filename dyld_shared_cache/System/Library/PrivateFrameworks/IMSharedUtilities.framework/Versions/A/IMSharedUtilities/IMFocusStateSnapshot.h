@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface IMFocusStateSnapshot
 {
     unsigned long long _configurationType;
-    NSSet *_contactIdentifiers;
-    NSSet *_handles;
 }
 
 + (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)due to internal settings;
 - (id);
-- (id);
+- (id)_TtC10LoginUIKit17LUI2GlassTextView;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long configurationType; // @synthesize configurationType=_configurationType;
-@property(readonly, nonatomic) NSSet *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly, nonatomic) NSSet *handles; // @synthesize handles=_handles;
 
 @end
 

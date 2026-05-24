@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORegionalResourceTileData, GEOResourceLoader, GEOResourceManifestConfiguration;
+@class GEORegionalResourceTileData;
 
 __attribute__((visibility("hidden")))
 @interface _GEORegionalResourcesTileLoader
 {
     GEORegionalResourceTileData *_tile;
-    GEOResourceManifestConfiguration *_manifestConfiguration;
-    GEOResourceLoader *_resourceLoader;
-    struct os_unfair_lock_s _lock;
-    struct _GEOTileKey _tileKey;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (struct _GEOTileKey *)ays;
+- (void);
+- (struct _GEOTileKey *)avoidHighways;
 - (void)d;
 
 // Remaining properties

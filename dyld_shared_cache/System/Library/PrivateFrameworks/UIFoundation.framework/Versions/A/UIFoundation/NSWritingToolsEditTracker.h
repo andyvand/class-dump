@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray;
+@class NSMutableArray;
 
 @interface NSWritingToolsEditTracker
 {
     NSMutableArray *_edits;
-    NSMapTable *_uuidToEdit;
-    struct _NSRange _contextRange;
-    struct _NSRange _currentContextRange;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -23,7 +20,7 @@
 - (unsigned long long);
 - (struct _NSRange);
 - (struct _NSRange);
-- (struct _NSRange);
+- (struct _NSRange);
 - (void);
 - (id);
 - (void);

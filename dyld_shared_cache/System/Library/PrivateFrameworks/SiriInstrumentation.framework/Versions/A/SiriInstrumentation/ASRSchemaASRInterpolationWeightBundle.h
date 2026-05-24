@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ASRSchemaASRInterpolationWeightBundle : SISchemaInstrumentationMessage
 {
     unsigned long long _startTimeInNs;
-    unsigned long long _endTimeInNs;
-    NSArray *_weights;
-    CDStruct_b5935cb6 _has;
 }
 
 - (unsigned long long);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (unsigned long long);
 - (void);
 - (void);
@@ -38,19 +33,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)on;
+- (id)stoppedListeningForSpeechContinuation;
 - (id)h¤ü¥¨¦,§Ì¨L©(«;
 - (id);
 - (id);
 - (void)	©ÿ\À³a÷&;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endTimeInNs; // @synthesize endTimeInNs=_endTimeInNs;
-@property(nonatomic) _Bool hasEndTimeInNs;
-@property(nonatomic) _Bool hasStartTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long startTimeInNs; // @synthesize startTimeInNs=_startTimeInNs;
-@property(copy, nonatomic) NSArray *weights; // @synthesize weights=_weights;
 
 @end
 

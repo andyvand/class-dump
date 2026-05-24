@@ -7,7 +7,6 @@
 @interface PhotosGraph.GraphEntityRanker
 {
     id cal;
-    id bundle;
 }
 
 @end

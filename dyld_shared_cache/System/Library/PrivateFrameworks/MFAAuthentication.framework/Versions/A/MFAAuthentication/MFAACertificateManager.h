@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserDefaults, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface MFAACertificateManager
 {
     NSXPCConnection *_xpcConnection;
-    NSUserDefaults *_userDefaults;
 }
 
 + (_Bool);
@@ -41,14 +40,14 @@
 - (id);
 - (id);
 - (int);
-- (int);
+- (int) ;
 - (int);
 - (int);
 - (int);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -57,7 +56,6 @@
 - (void)completion:(id)arg1 %s);
 
 // Remaining properties
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

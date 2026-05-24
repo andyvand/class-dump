@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PFMetadataStateBreadcrumb
 {
     unsigned int _qualityOfService;
-    double _timeInterval;
-    unsigned long long _threadID;
-    NSString *_message;
 }
 
 - (id);
@@ -20,13 +15,9 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (double);
+- (double)R;
 
 // Remaining properties
-@property(readonly, copy) NSString *breadcrumbDescription;
-@property(readonly, copy) NSString *message; // @synthesize message=_message;
-@property(readonly) unsigned int qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly) unsigned long long threadID; // @synthesize threadID=_threadID;
 @property(readonly) double timeInterval; // @synthesize timeInterval=_timeInterval;
 
 @end

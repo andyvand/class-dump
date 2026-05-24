@@ -6,15 +6,9 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSArray, NSMutableArray;
-
 @interface SXJSONArray : SXJSONObject
 {
     CDUnknownBlockType _objectValueClassBlock;
-    CDUnknownBlockType _valueClassBlock;
-    NSArray *_json;
-    NSMutableArray *_objects;
-    unsigned long long _count;
 }
 
 - (id);
@@ -26,18 +20,14 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)_;
 - (id);
 - (unsigned long long);
 - (void)32;
 - (unsigned long long)task-identifier=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) NSArray *json; // @synthesize json=_json;
 @property(readonly, nonatomic) CDUnknownBlockType objectValueClassBlock; // @synthesize objectValueClassBlock=_objectValueClassBlock;
-@property(readonly, nonatomic) NSMutableArray *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) CDUnknownBlockType valueClassBlock; // @synthesize valueClassBlock=_valueClassBlock;
 
 @end
 

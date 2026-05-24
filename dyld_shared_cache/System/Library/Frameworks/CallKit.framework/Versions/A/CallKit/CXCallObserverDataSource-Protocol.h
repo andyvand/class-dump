@@ -7,7 +7,8 @@
 @class NSDictionary;
 
 @protocol CXCallObserverDataSource
-- (NSDictionary *)ryWithNextSequentialPhoneNumber: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSDictionary *)addBlockingEntryWithNextSequentialPhoneNumber: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *callUUIDToCallMap;

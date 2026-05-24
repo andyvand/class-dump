@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)getCorrections:(id)arg1 forLanguage:(id)arg2 version:(id)arg3;
+- (id)@;
 
 @end
 

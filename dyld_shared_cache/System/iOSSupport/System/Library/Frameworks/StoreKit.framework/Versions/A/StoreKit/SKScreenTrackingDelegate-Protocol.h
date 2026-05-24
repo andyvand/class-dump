@@ -5,5 +5,7 @@
 //
 
 @protocol SKScreenTrackingDelegate
+- (void);
+- (void)CK (is_system_client IN (0, 1));
 @end
 

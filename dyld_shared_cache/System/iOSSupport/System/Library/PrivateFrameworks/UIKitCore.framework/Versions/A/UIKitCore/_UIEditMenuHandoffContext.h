@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIEditMenuConfiguration, UIMenu, UIView;
+@class UIEditMenuConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuHandoffContext
 {
     UIEditMenuConfiguration *_configuration;
-    UIMenu *_preparedMenu;
-    long long _arrowDirection;
-    UIView *_sourceView;
 }
 
 + (id);
-- (id);
+- (id)removeFailedEditsFrom: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;
 @property(readonly, nonatomic) UIEditMenuConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) UIMenu *preparedMenu; // @synthesize preparedMenu=_preparedMenu;
-@property(readonly, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end
 

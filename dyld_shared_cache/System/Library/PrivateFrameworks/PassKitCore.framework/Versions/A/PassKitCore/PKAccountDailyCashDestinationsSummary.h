@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKAccountDailyCashDestinationsSummary
 {
     NSArray *_destinations;
-    NSString *_localizedTitle;
-    NSString *_localizedFooterText;
 }
 
 + (_Bool)±î%1Â0@ù
 × ;
-- (id);
+- (id)x;
 - (id);
 - (id);
 - (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *destinations; // @synthesize destinations=_destinations;
-@property(readonly, nonatomic) NSString *localizedFooterText; // @synthesize localizedFooterText=_localizedFooterText;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INMediaSearch, INPrivateSearchForMediaIntentData, NSArray;
+@class NSArray;
 
 @protocol INSearchForMediaIntentExport
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy) NSArray *mediaItems;
-@property(copy) INMediaSearch *mediaSearch;
-@property(copy) INPrivateSearchForMediaIntentData *privateSearchForMediaIntentData;
 @end
 

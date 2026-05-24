@@ -19,10 +19,7 @@
 - (unsigned long long)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *directoryAttributes;
 @property(readonly, copy) NSDictionary *fileAttributes;
-@property(readonly) _Bool isEnumeratingDirectoryPostOrder;
-@property(readonly) unsigned long long level;
 
 @end
 

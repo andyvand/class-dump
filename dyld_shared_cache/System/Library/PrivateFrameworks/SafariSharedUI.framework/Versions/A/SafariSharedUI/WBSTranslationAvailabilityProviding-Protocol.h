@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol WBSTranslationAvailabilityProviding
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *userPreferredTargetLocales;

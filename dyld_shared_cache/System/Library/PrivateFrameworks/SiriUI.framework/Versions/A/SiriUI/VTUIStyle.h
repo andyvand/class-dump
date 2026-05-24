@@ -9,21 +9,14 @@
 @interface VTUIStyle
 {
     NSArray *_deviceStringSuffixes;
-    NSArray *_deviceImageSuffixes;
-    _Bool _isIpad;
-    _Bool _isLargeIpad;
-    _Bool _needMoreLineSpacing;
-    _Bool _isBuddy;
-    _Bool _isHeySiriAlwaysOn;
-    long long _enrollmentMode;
 }
 
 + (id);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
+- (double): /* Error: Ran out of types for this method. */;
+- (double);
 - (double);
 - (double);
 - (double);
@@ -37,14 +30,14 @@
 - (double);
 - (id);
 - (id);
-- (double);
+- (double)5˿;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (id);
 - (double);
 - (double);
@@ -67,7 +60,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (void);
 - (id);
@@ -77,7 +70,7 @@
 - (long long);
 - (id);
 - (id);
-- (double);
+- (double)B;
 - (id);
 - (void);
 - (void)Q1Â0@ù
@@ -85,8 +78,6 @@
 
 // Remaining properties
 @property(nonatomic) long long enrollmentMode; // @synthesize enrollmentMode=_enrollmentMode;
-@property(nonatomic) _Bool isBuddy; // @synthesize isBuddy=_isBuddy;
-@property(nonatomic) _Bool isHeySiriAlwaysOn; // @synthesize isHeySiriAlwaysOn=_isHeySiriAlwaysOn;
 
 @end
 

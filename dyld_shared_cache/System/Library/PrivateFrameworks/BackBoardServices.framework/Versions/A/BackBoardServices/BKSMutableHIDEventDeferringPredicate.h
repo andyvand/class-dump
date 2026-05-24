@@ -6,23 +6,21 @@
 
 #import <BackBoardServices/BKSHIDEventDeferringPredicate.h>
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken, BKSHIDEventDisplay;
+@class BKSHIDEventDeferringEnvironment;
 
 @interface BKSMutableHIDEventDeferringPredicate : BKSHIDEventDeferringPredicate
 {
 }
 
-+ (id);
-- (id);
++ (id)FOLLOWUP_CUSTODIAN_EMBARGO_TITLE_REBRAND;
+- (id)NSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) BKSHIDEventDisplay *display; // @dynamic display;
 @property(copy, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @dynamic environment;
-@property(copy, nonatomic) BKSHIDEventDeferringToken *token; // @dynamic token;
 
 @end
 

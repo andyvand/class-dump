@@ -7,10 +7,6 @@
 @interface ChatKit.TTRSheet.TranscriptViewModel
 {
     id sections;
-    id message;
-    id chat;
-    id chatGUID;
-    id dateFormatter;
 }
 
 @end

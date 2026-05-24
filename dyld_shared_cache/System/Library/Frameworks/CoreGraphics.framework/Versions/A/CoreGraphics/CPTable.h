@@ -10,20 +10,11 @@ __attribute__((visibility("hidden")))
 @interface CPTable : CPChunk
 {
     struct CGRect tableBounds;
-    unsigned int rowCount;
-    double *rowY;
-    unsigned int columnCount;
-    double *columnX;
-    struct CGColor *backgroundColor;
-    unsigned int backgroundGraphicCount;
-    id *backgroundGraphics;
-    unsigned int usedGraphicCount;
-    _Bool disposed;
 }
 
 - (unsigned int);
 - (struct CGRect);
-- (void);
+- (void)*;
 - (void);
 - (double *);
 - (void);
@@ -31,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double *);
 - (void);
-- (unsigned int);
+- (unsigned int)(;
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (void);
@@ -41,11 +32,6 @@ __attribute__((visibility("hidden")))
 yy±yyÌyy½yySyyÙyyGy¦y¦y§y§tyªyª:y®y®y±y±Çy³y³y¹y¹Hy½y½Íy¾y¾¾y¿y¿ÛyÀyÀÝyÁyÁ¡yÉyÉ½yÊyÊByËyËiyÑyÑßyÒyÒ=yÕyÕUyØyØVyßyßyäyäÑyæyæXyçyçÎyéyéoyûyûz /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int backgroundGraphicCount; // @synthesize backgroundGraphicCount;
-@property(nonatomic) unsigned int columnCount;
-@property(readonly, nonatomic) double *columnX; // @synthesize columnX;
-@property(nonatomic) unsigned int rowCount;
-@property(readonly, nonatomic) double *rowY; // @synthesize rowY;
 @property(readonly, nonatomic) struct CGRect tableBounds; // @synthesize tableBounds;
 
 @end

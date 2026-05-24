@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol UISApplicationStateXPCServerInterface
+- (oneway void)setTimeElapsedSinceStart:(NSString *)arg1;
+- (oneway void)EFSQLQueryGenerator;
 @end
 

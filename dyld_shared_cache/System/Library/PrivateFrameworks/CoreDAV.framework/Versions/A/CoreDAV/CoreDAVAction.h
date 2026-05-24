@@ -7,26 +7,20 @@
 @interface CoreDAVAction
 {
     int _action;
-    id _context;
-    id _changeContext;
-    _Bool _ignoresGuardianRestrictions;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_removeConstraintAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (id);
+- (id)_ObjectiveCType;
 - (int);
-- (void);
+- (void)UpdateDelegateResponse;
 
 // Remaining properties
 @property(readonly, nonatomic) int action; // @synthesize action=_action;
-@property(retain, nonatomic) id changeContext; // @synthesize changeContext=_changeContext;
-@property(readonly, nonatomic) id context; // @synthesize context=_context;
-@property(nonatomic) _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions=_ignoresGuardianRestrictions;
 
 @end
 

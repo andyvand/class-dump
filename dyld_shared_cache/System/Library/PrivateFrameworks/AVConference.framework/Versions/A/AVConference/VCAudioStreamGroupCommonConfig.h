@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCAudioMachineLearningCoordinator;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioStreamGroupCommonConfig
 {
     int _processID;
-    _Bool _isGKVoiceChat;
-    _Bool _isMuted;
-    unsigned int _preferredIOSampleRate;
-    unsigned int _preferredIOSamplesPerFrame;
-    unsigned int _audioSessionID;
-    CDUnknownFunctionPointerType _didProcessSamplesCallback;
-    void *_didProcessSamplesCallbackContext;
-    long long _powerSpectrumStreamToken;
-    unsigned int _audioChannelIndex;
-    unsigned long long _spatialAudioSourceID;
-    VCAudioMachineLearningCoordinator *_audioMachineLearningCoordinator;
 }
 
 - (unsigned long long);
@@ -41,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownFunctionPointerType);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool)Handler:] /* Error: Ran out of types for this method. */;
@@ -50,18 +37,7 @@ __attribute__((visibility("hidden")))
 - (int)ØC%;
 
 // Remaining properties
-@property(nonatomic) unsigned int audioChannelIndex; // @synthesize audioChannelIndex=_audioChannelIndex;
-@property(retain, nonatomic) VCAudioMachineLearningCoordinator *audioMachineLearningCoordinator; // @synthesize audioMachineLearningCoordinator=_audioMachineLearningCoordinator;
-@property(nonatomic) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(nonatomic) CDUnknownFunctionPointerType didProcessSamplesCallback; // @synthesize didProcessSamplesCallback=_didProcessSamplesCallback;
-@property(nonatomic) void *didProcessSamplesCallbackContext; // @synthesize didProcessSamplesCallbackContext=_didProcessSamplesCallbackContext;
-@property(nonatomic) _Bool isGKVoiceChat; // @synthesize isGKVoiceChat=_isGKVoiceChat;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(nonatomic) long long powerSpectrumStreamToken; // @synthesize powerSpectrumStreamToken=_powerSpectrumStreamToken;
-@property(nonatomic) unsigned int preferredIOSampleRate; // @synthesize preferredIOSampleRate=_preferredIOSampleRate;
-@property(nonatomic) unsigned int preferredIOSamplesPerFrame; // @synthesize preferredIOSamplesPerFrame=_preferredIOSamplesPerFrame;
 @property(nonatomic) int processID; // @synthesize processID=_processID;
-@property(nonatomic) unsigned long long spatialAudioSourceID; // @synthesize spatialAudioSourceID=_spatialAudioSourceID;
 
 @end
 

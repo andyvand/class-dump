@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalSQLContext, HMBModelContainer, NSMapTable, NSOperationQueue, NSString;
-@protocol HMBLocalDatabaseDelegate;
+@class NSOperationQueue;
 
 @interface HMBLocalDatabase
 {
     struct os_unfair_lock_s _lock;
-    HMBModelContainer *_modelContainer;
-    id <HMBLocalDatabaseDelegate> _delegate;
-    NSOperationQueue *_queue;
-    HMBLocalSQLContext *_local;
-    NSMapTable *_openZonesByZoneID;
-    CDUnknownBlockType _localZoneFactory;
 }
 
 + (id)0:8@"NSCoder"16 /* Error: Ran out of types for this method. */;
-- (void);
+- (void),N,V_subtitleLocalizedKey;
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)hardware_sigma_accelerometer_scale_turn_on_high_acceleration;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -36,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9h;
 - (id);
 - (id);
 - (id);
@@ -45,19 +38,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMBLocalDatabaseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMBLocalSQLContext *local; // @synthesize local=_local;
-@property(copy, nonatomic) CDUnknownBlockType localZoneFactory; // @synthesize localZoneFactory=_localZoneFactory;
-@property(readonly, nonatomic) HMBModelContainer *modelContainer; // @synthesize modelContainer=_modelContainer;
-@property(readonly, nonatomic) NSMapTable *openZonesByZoneID; // @synthesize openZonesByZoneID=_openZonesByZoneID;
 @property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

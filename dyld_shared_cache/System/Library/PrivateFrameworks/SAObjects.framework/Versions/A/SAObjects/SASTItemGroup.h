@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *fallbackCommands;
-@property(copy, nonatomic) NSArray *templateItems;
 
 @end
 

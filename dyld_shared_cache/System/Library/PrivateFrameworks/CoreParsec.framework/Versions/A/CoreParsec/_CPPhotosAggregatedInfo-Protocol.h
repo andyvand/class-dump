@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPPhotosAggregatedInfo
+- (int)uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (int)pe, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (int)s, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ePair<WTF:(int)arg1:UUID, WTF::Ref<WebKit::WebNotification>>>, HashFunctions = WTF::DefaultHash<WTF::UUID>, Traits = WTF::HashMap<WTF::UUID, WTF::Ref<WebKit::WebNotification>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)tractor = WTF:(int)arg1:KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>>, HashFunctions = WTF::DefaultHash<WTF::UUID>, Traits = WTF::HashMap<WTF::UUID, WTF::Ref<WebKit::WebNotification>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ype &) [Key = WTF:(int)arg1:UUID, Value = WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::UUID, WTF::Ref<WebKit::WebNotification>>>, HashFunctions = WTF::DefaultHash<WTF::UUID>, Traits = WTF::HashMap<WTF::UUID, WTF::Ref<WebKit::WebNotification>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<UUID>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)K
+;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int totalNumberOfAssets;
-@property(nonatomic) int totalNumberOfEmbeddingMatchedAssets;
-@property(nonatomic) int totalNumberOfMetadataMatchedAssets;
 @end
 

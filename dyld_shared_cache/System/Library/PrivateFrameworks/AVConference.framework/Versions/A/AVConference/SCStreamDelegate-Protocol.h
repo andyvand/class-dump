@@ -5,5 +5,9 @@
 //
 
 @protocol SCStreamDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

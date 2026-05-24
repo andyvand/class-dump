@@ -9,16 +9,6 @@
 @interface NSPinyinString : NSString
 {
     NSString *_string;
-    unsigned long long _syllableCount;
-    unsigned long long _score;
-    unsigned long long _rangeCount;
-    unsigned long long _replacementCount;
-    unsigned long long _transpositionCount;
-    unsigned long long _insertionCount;
-    unsigned long long _deletionCount;
-    unsigned long long _firstModificationIndex;
-    struct _NSRange *_ranges;
-    _Bool _lastSyllableIsPartial;
 }
 
 - (unsigned long long);
@@ -30,7 +20,7 @@
 - (struct _NSRange);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (unsigned long long);
 - (id);
@@ -41,7 +31,7 @@
 - (Class);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned short)onary;
 - (unsigned long long)I%I%J%J%J%J%J%J%J%K%K%K%L%M%N%N%N%N%N%O%O%P%P%P%Q%Q%R%R%S%S%T%U%V%V%V%W%W%W%X%X%X%Y%Y%Y%Z%Z%[%\%]%]%]%^%^%^%^%^%_%`%`%`%`%`%a%b%c%c%c%d%d%e%e%f%g%h%h%i%j%j%j%k%k%k%k%k%l%l%m%m%n%n%o%o%o%o%p%p%q%q%q%q%q%q%q%r%r%s%s%s%t%t%t%t%t%u%u%v%v%w%w%x%x%y%z%z%{%|%}%}%~%~%~%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %¡%¢%¢%¢%¢%¢%£%£%¤%¥%¦%§%¨%¨%¨%¨%¨%©%©%©%©%©%ª%ª%ª%«%«%«%¬%­%®%®%®%®%¯%¯%¯%°%°%±%²%³%´%´%´%µ%¶%·%¸%¹%º%º%»%¼%¼%½%¾%¿%¿%À%Á%Á%Â%Â%Ã%Ã%Ã%Ä%Ä%Å%Æ%Æ%Ç%Ç%È%È%É%É%Ê%Ê%Ë%Ì%Ì%Ì%Ì%Í%Í%Í%Î%Ï%Ï%Ð%Ð%Ð%Ñ%Ò%Ò%Ó%Ó%Ó%Ó%Ó%Ó%Ô%Ô%Ô%Õ%Õ%Ö%Ö%×%×%Ø%Ù%Ù%Ú%Û%Û%Ü%Ý%Ý%Ý%Ý%Ý%Þ%Þ%Þ%Þ%Þ%Þ%Þ%ß%à%à%á%á%á%á%á%â%â%â%ã%ã%ä%ä%å%æ%ç%è%é%ê%ë%ì%í%í%î%î%ï%ï%ï%ï%ð%ð%ñ%ñ%ñ%ò%ó%ô%õ%õ%ö%ö%ö%÷%÷%÷%ø%ù%ù%ú%ú%ú%û%û%û%ü%ý%ý%ý%þ%ÿ%;

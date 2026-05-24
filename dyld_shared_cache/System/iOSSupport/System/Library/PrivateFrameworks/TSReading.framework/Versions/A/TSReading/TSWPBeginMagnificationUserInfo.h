@@ -9,24 +9,27 @@
 @interface TSWPBeginMagnificationUserInfo
 {
     TSWPRep *_target;
-    struct CGPoint _magnificationPoint;
-    struct CGPoint _offset;
-    _Bool _animated;
 }
 
-- (void);
-- (struct CGPoint);
+- (void)stFeedAnimator found a header with an index path row other than 0 %{public}@;
+- (struct CGPoint)ageHandlers.applenews.postMessage(log);
+    };
+
+    function __stringify(message) {
+        if (typeof message === 'string') return message;
+        return message instanceof Error ? message.toString() :JSON.stringify(message)
+    }
+
+    puzzleRadar.setup = function() {
+        document.addEventListener(' /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGPoint)spect the aspect ratio of the natural size;
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated=_animated;
-@property(nonatomic) struct CGPoint magnificationPoint; // @synthesize magnificationPoint=_magnificationPoint;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
 @property(nonatomic) TSWPRep *target; // @synthesize target=_target;
 
 @end

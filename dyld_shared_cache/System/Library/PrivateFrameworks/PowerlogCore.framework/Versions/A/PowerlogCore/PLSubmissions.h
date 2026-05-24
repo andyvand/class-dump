@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRConfigMonitor, NSMutableArray, NSNumber, NSString, PLSQLiteConnection, PLStorageOperator;
+@class PLSQLiteConnection;
 
 @interface PLSubmissions
 {
     _Bool _xpcActivityStarted;
-    _Bool _taskingStarted;
-    PLStorageOperator *_storageOperator;
-    NSMutableArray *_submissionQueue;
-    double _lastXPCActivityTimestamp;
-    double _xpcActivityDelay;
-    PLSQLiteConnection *_connection;
-    NSString *_request;
-    NSString *_filterQuery;
-    NSString *_onDemandTasking;
-    NSNumber *_capValue;
-    DRConfigMonitor *_taskingMonitor;
 }
 
 + (id);
@@ -29,11 +18,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (short);
+- (id));
+- (short);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -45,14 +34,14 @@
 - (void);
 - (void);
 - (void);
+- (void)4;
+- (id)d;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
+- (id):(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -74,48 +63,40 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)j;
 - (void);
 - (id);
+- (id)n;
+- (void)F'
+;
+- (_Bool)*J
+;
+- (void)1
+;
+- (id)s;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (int);
+- (void)=;
 - (void);
 - (void);
 - (void);
+- (void)connection:(id)arg1 didFailWithError: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)B;
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)DLP_channelValueDiff;
-- (id);
+- (void)PDLP_channelValueDiff;
+- (id)QoS;
 - (void)system boot session uuid %d;
 - (id);
 
 // Remaining properties
-@property(retain) NSNumber *capValue; // @synthesize capValue=_capValue;
 @property(retain) PLSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(retain) NSString *filterQuery; // @synthesize filterQuery=_filterQuery;
-@property double lastXPCActivityTimestamp; // @synthesize lastXPCActivityTimestamp=_lastXPCActivityTimestamp;
-@property(retain) NSString *onDemandTasking; // @synthesize onDemandTasking=_onDemandTasking;
-@property(retain) NSString *request; // @synthesize request=_request;
-@property __weak PLStorageOperator *storageOperator; // @synthesize storageOperator=_storageOperator;
-@property(retain) NSMutableArray *submissionQueue; // @synthesize submissionQueue=_submissionQueue;
-@property(retain) DRConfigMonitor *taskingMonitor; // @synthesize taskingMonitor=_taskingMonitor;
-@property(readonly) _Bool taskingStarted; // @synthesize taskingStarted=_taskingStarted;
-@property double xpcActivityDelay; // @synthesize xpcActivityDelay=_xpcActivityDelay;
-@property _Bool xpcActivityStarted; // @synthesize xpcActivityStarted=_xpcActivityStarted;
 
 @end
 

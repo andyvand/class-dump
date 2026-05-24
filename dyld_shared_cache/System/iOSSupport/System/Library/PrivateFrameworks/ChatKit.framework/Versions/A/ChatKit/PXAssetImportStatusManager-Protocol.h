@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PXAssetImportStatusObserver;
+
 @protocol PXAssetImportStatusManager
+- (void)serializeWithPathData:(id <PXAssetImportStatusObserver>)arg1;
+- (long long)_thumbnailView;
 @end
 

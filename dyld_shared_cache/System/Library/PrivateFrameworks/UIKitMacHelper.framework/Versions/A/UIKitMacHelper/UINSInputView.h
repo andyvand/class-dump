@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSMutableSet, NSString, NSTrackingArea, NSView, NSViewHost, UINSEventTranslator, UINSGameEventTranslator, UINSMouseEventTranslator, UINSSceneHostingView, UINSSceneView;
+@class NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface UINSInputView
 {
     NSTrackingArea *_mouseTrackingArea;
-    UINSEventTranslator *_eventTranslator;
-    UINSMouseEventTranslator *_mouseEventTranslator;
-    UINSGameEventTranslator *_gameEventTranslator;
-    _Bool _trackingDragLocally;
-    _Bool _gameControllerInputAlternativeActive;
-    NSMutableSet *_currentlyHeldModifierKeyCodes;
-    id _keyUpEventMonitor;
-    id _keyFocusEventMonitor;
-    NSEvent *_resentEvent;
-    id _resignedKeyObserver;
-    _Bool _performingKeyEquivalent;
-    _Bool _waitingForMaybeDidBecomeFirstResponder;
-    NSView *_fallbackKeyViewIfNotHandledByFocusSystem;
-    NSEvent *_lastSeenEventInChooseNewKeyViewWithDirection;
-    NSViewHost *_hostedView;
-    UINSSceneHostingView *_sceneHostingView;
 }
 
-- (void);
+- (void)ʋ;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)bK;
 - (id);
 - (id);
 - (_Bool);
@@ -48,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ৄR;
+- (id)zS1K;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -60,13 +44,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)JI	J*;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)
+,;
 - (void);
-- (id);
+- (id)8mQ(
+J;
 - (_Bool);
 - (void);
 - (void);
@@ -79,7 +65,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)J;
 - (void);
 - (_Bool);
 - (void);
@@ -133,42 +119,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)SoftLinking.framework/Versions/A/SoftLinking;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (struct CGRect);
 - (void);
 - (id);
+- (void)"PowerUITTEPredictor";
+- (void)6d24d32@40;
+- (void)24q28;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
+- (void)setDrain_depth_var_at_charge_start_soc_curr_dynamic_bin_4: /* Error: Ran out of types for this method. */;
+- (void)setDrain_depth_p_0_90_at_charge_start_secs_curr_dynamic_bin_1:(id)arg1;
+- (void)setDrain_depth_p_0_50_at_charge_start_secs_curr_dynamic_bin_1:(id)arg1;
+- (void)setDrain_depth_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:(id)arg1;
+- (void)setDrain_depth_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:(id)arg1;
+- (id)ation_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:(struct _NSRange)arg1 charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:(struct _NSRange *)arg2 charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:prev_1_drain_depth:prev_1_charge_duration:prev_1_drain_duration:prev_2_drain_depth:prev_2_charge_duration:prev_2_drain_duration:prev_3_drain_depth:prev_3_charge_duration:prev_3_drain_duration:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
+- (void)oc_curr_dynamic_bin_8:(id)arg1 charge_duration_count_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
+- (id)numberWithUnsignedChar:(struct CGPoint)arg1;
+- (struct CGRect)n_drain_below_100_7days;
+- (_Bool)lastNonEngagementSignalID;
+- (_Bool)chargingAdviceNotificationContent;
 - (void);
 - (double);
-- (id);
+- (id)its %@ < %@;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)TF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"desc"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"mimes"{Vector<WebCore::MimeClassInfo, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"^{MimeClassInfo}"m_capacity"I"m_size"I}"isApplicationPlugin"B"bundleIdentifier"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"versionString"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}} /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -177,7 +163,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -190,36 +176,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct _NSRange)1Â0@ù
 × ;
-- (void)ptionIfNecessary;
+- (void)_updateDescriptionIfNecessary;
 - (_Bool)V_contextId;
-- (void)_CONFIRM;
+- (void)PREFS_CONFIRMATION_CONFIRM;
 - (_Bool)ü;
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setHostedView:) __weak NSViewHost *_hostedView; // @synthesize _hostedView;
-@property(nonatomic, setter=_setSceneHostingView:) __weak UINSSceneHostingView *_sceneHostingView; // @synthesize _sceneHostingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGRect documentVisibleRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UINSSceneView *sceneView;
 @property(readonly, nonatomic) struct CGRect screenRect;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGRect unionRectInVisibleSelectedRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
 
 @end
 

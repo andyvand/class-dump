@@ -7,18 +7,13 @@
 @interface TSTLayoutProcessChangesActions
 {
     _Bool mLayoutInvalidate;
-    _Bool mLayoutInvalidateProvider;
-    _Bool mLayoutInvalidateSize;
-    _Bool mLayoutInvalidateTableNameVisibility;
-    _Bool mLayoutSpacesInvalidateCoordinates;
-    _Bool mLayoutSpacesInvalidateTableOffsets;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)OriginatingOutputDeviceUID;
+- (void)@?@"MPCAssistantRemoteControlDestination">8;
+- (void)roupID=%@ ;
+- (void)UIDs=[%@] ;
+- (void)ooks;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -29,11 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool layoutInvalidate; // @synthesize layoutInvalidate=mLayoutInvalidate;
-@property(nonatomic) _Bool layoutInvalidateProvider; // @synthesize layoutInvalidateProvider=mLayoutInvalidateProvider;
-@property(nonatomic) _Bool layoutInvalidateSize; // @synthesize layoutInvalidateSize=mLayoutInvalidateSize;
-@property(nonatomic) _Bool layoutInvalidateTableNameVisibility; // @synthesize layoutInvalidateTableNameVisibility=mLayoutInvalidateTableNameVisibility;
-@property(nonatomic) _Bool layoutSpacesInvalidateCoordinates; // @synthesize layoutSpacesInvalidateCoordinates=mLayoutSpacesInvalidateCoordinates;
-@property(nonatomic) _Bool layoutSpacesInvalidateTableOffsets; // @synthesize layoutSpacesInvalidateTableOffsets=mLayoutSpacesInvalidateTableOffsets;
 
 @end
 

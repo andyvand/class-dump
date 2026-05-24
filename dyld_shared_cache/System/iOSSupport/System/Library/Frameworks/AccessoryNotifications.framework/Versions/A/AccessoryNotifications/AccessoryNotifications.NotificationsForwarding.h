@@ -7,6 +7,7 @@
 @interface AccessoryNotifications.NotificationsForwarding
 {
     id handlerFactory;
+    id;
 }
 
 @end

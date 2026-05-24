@@ -4,43 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MecabraWordProperties
 {
     NSString *_analysisString;
-    NSArray *_characterInformation;
-    NSArray *_codeLookupInformation;
-    _Bool _emoji;
-    int _language;
 }
 
-+ (id);
-+ (id);
-+ (struct __IDXIndex *);
-+ (struct __IDXIndex *);
-+ (struct __IDXIndex *);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
++ (id)32;
++ (id)16@24B32;
++ (struct __IDXIndex *)36;
++ (struct __IDXIndex *)q24^@32^@40;
++ (struct __IDXIndex *)64;
+- (id)^vi*^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii}16^{_xmlDtd=^vi*^{_xmlNode}^{_xmlNode}^{_xmlDoc}^{_xmlNode}^{_xmlNode}^{_xmlDoc}^v^v^v^v**^v}24^{_xmlValidCtxt=^v^?^?^{_xmlNode}ii^^{_xmlNode}I^{_xmlDoc}i^{_xmlValidState}ii^{_xmlValidState}^{_xmlAutomata}^{_xmlAutomataState}}32;
+- (id)redicateValidating>";
+- (id)ing"24@"NSString"32;
+- (id)ject""uuid"@"NSUUID"})})};
+- (void)=@@@@q@@@}16@0:(_Bool)arg1 8;
+- (void)NSSharedKeySetS";
+- (void)*16Q24;
+- (void)drinfo}};
+- (id)o}}16@0:(id)arg1 8;
+- (id)8@"NSURLConnection"16@"NSURLProtectionSpace"24;
+- (id)NSURLConnection"16;
+- (id)6@0:8@16Q24@32^B40^@48 /* Error: Ran out of types for this method. */;
+- (id)16@24:(id)arg1 32@40;
+- (id)4:(id)arg1 32@40B48;
+- (id):8Q16B24 /* Error: Ran out of types for this method. */;
+- (id)terSet=}16;
+- (id)2^@40;
+- (id)@24@32@40^@48;
+- (id)@24@32Q40^@48;
+- (_Bool)0@0:8{_NSRange=QQ}16@32 /* Error: Ran out of types for this method. */;
+- (id)nge=QQ}24@0:(id)arg1 8@16;
 - (void);
 - (int);
 - (id);
@@ -48,10 +44,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *analysisString; // @synthesize analysisString=_analysisString;
-@property(retain, nonatomic) NSArray *characterInformation; // @synthesize characterInformation=_characterInformation;
-@property(retain, nonatomic) NSArray *codeLookupInformation; // @synthesize codeLookupInformation=_codeLookupInformation;
-@property(nonatomic, getter=isEmoji) _Bool emoji; // @synthesize emoji=_emoji;
-@property(nonatomic) int language; // @synthesize language=_language;
 
 @end
 

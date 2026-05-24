@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu, _UIContextMenuListView;
+@class _UIContextMenuListView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuNode
 {
     _Bool _leftOfParentWhenCascading;
-    _UIContextMenuListView *_listView;
-    UIMenu *_menu;
-    _UIContextMenuNode *_previous;
-    _UIContextMenuNode *_next;
 }
 
-- (void);
-- (_Bool);
+- (void)updateVocabularyForDeferredUpdateRequestIfNecessaryWithCompletionHandler:(_Bool)arg1;
+- (_Bool)chatForHandles:account:chatIdentifier:style:groupID:originalGroupID:displayName:guid:lastAddressedHandle:lastAddressedSIMID:isBlackholed: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -30,11 +26,7 @@ __attribute__((visibility("hidden")))
 - (id),Ùluc;
 
 // Remaining properties
-@property(nonatomic) _Bool leftOfParentWhenCascading; // @synthesize leftOfParentWhenCascading=_leftOfParentWhenCascading;
 @property(retain, nonatomic) _UIContextMenuListView *listView; // @synthesize listView=_listView;
-@property(retain, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(nonatomic) __weak _UIContextMenuNode *next; // @synthesize next=_next;
-@property(nonatomic) __weak _UIContextMenuNode *previous; // @synthesize previous=_previous;
 
 @end
 

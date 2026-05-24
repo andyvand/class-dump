@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, NFUnfairLock, NSData, NSString, NSURL;
+@class NSData, NSString;
 
 @interface FCAVPersistentAssetKeyCache
 {
     NSString *_cacheDirectory;
-    NFUnfairLock *_initializationLock;
-    FCKeyValueStore *_keyStore;
-    NSURL *_certificateFileURL;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (id);
 - (void);

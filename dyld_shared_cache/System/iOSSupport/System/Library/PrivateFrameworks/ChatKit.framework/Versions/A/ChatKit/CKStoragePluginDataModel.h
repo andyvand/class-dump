@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitHooks;
 @protocol CKStoragePluginDataModelDelegate;
 
 @interface CKStoragePluginDataModel
 {
     id cachedAttachmentsMap;
-    id cachedAttachmentItems;
-    id cachedAttachmentFetchOffsets;
-    void delegate;
-    id $__lazy_storage_$_spaceSavedByAutoDeletingMessagesFetcher;
-    id $__lazy_storage_$_storageCountsFetcher;
-    id $__lazy_storage_$_cloudKitHooks;
 }
 
 + (void);
 + (id);
 - (long long);
 - (long long);
+- (long long)So16NSViewControllerC;
+- (long long)hgrzo_;
 - (long long);
 - (long long);
-- (long long);
-- (long long);
+- (void)r;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
+- (void)e;
+- (void)count is unsupported;
+- (long long)eivedSince:(id)arg1 ]_block_invoke_4;
+- (_Bool)TextStorage:toNote:attachmentPreviewGenerator:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
@@ -47,16 +40,7 @@
 - (_Bool)Þí8mõ/;
 
 // Remaining properties
-@property(nonatomic, retain) IMCloudKitHooks *cloudKitHooks;
 @property(nonatomic) __weak id <CKStoragePluginDataModelDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isCloudKitEnabled;
-@property(nonatomic, readonly) long long spaceSavedByAutoDeletingMessages;
-@property(nonatomic, readonly) long long spaceSavedByDeletingNonSyncedAttachments;
-@property(nonatomic, readonly) long long spaceTakenByAllConversations;
-@property(nonatomic, readonly) long long spaceTakenBySyncedConversations;
-@property(nonatomic, readonly) long long spaceTakenByUnsyncedConversations;
-@property(nonatomic, readonly) long long totalSpaceOfAttachments;
-@property(nonatomic, readonly) long long totalSpaceOfNonPurgeableAttachments;
 
 @end
 

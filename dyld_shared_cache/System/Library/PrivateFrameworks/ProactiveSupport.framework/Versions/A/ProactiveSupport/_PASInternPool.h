@@ -11,16 +11,15 @@
 @interface _PASInternPool : _PASZonedObject
 {
     _PASLock *_lock;
-    CDUnknownBlockType _copyWithZone;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)n as string for self:%@ and it came from %@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)setWeekOfYear: /* Error: Ran out of types for this method. */;
 - (id)ÿðÿÿÿÿÿÿÿèÿÿÿÿÿÿÿ;
 
 @end

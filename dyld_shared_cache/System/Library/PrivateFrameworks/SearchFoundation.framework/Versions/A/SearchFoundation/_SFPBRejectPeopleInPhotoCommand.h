@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBPhotosLibraryImage;
+@class NSArray;
 
 @interface _SFPBRejectPeopleInPhotoCommand
 {
     NSArray *_rejectedPeoples;
-    _SFPBPhotosLibraryImage *_photosLibraryImage;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
@@ -26,23 +25,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)resignCurrent;
+- (id)not adding representations;
 - (id);
 - (id);
 - (void)0:8@"_SFPBRFButtonCardSection"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPhotosLibraryImage *photosLibraryImage; // @synthesize photosLibraryImage=_photosLibraryImage;
 @property(copy, nonatomic) NSArray *rejectedPeoples; // @synthesize rejectedPeoples=_rejectedPeoples;
-@property(readonly) Class superclass;
 
 @end
 

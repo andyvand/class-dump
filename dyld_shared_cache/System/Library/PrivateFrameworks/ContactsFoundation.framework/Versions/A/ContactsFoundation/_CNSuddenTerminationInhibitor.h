@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id)me;
+- (id)scheme;
 
 // Remaining properties
 @property(retain, nonatomic) NSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;

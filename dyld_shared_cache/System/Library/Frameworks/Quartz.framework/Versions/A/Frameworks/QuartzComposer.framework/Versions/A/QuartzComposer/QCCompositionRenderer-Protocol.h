@@ -5,5 +5,6 @@
 //
 
 @protocol QCCompositionRenderer
+- (_Bool).	>		$	0	;
 @end
 

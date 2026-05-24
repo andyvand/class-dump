@@ -7,15 +7,13 @@
 @interface MPSNDArrayMultiaryMultiDestinationBase
 {
     unsigned long long _srcCount;
-    unsigned long long _dstCount;
-    void *_encodeData;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)G;
 - (void);
 
 @end

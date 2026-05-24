@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLGeocoder, MKLocalSearch, MKLocalSearchCompletion, NSString, WFResponse, WFTaskIdentifier;
-
 __attribute__((visibility("hidden")))
 @interface WFLocationQueryGeocode
 {
     _Bool _finished;
-    WFTaskIdentifier *identifier;
-    MKLocalSearchCompletion *_searchCompletion;
-    NSString *_searchString;
-    CDUnknownBlockType _resultHandler;
-    WFResponse *_response;
-    CLGeocoder *_reverseGeocoder;
-    MKLocalSearch *_search;
-    struct CLLocationCoordinate2D _searchCoordinate;
-    struct CLLocationCoordinate2D _unshiftedCoordinate;
 }
 
 + (id);
@@ -52,27 +41,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)i;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) WFTaskIdentifier *identifier; // @synthesize identifier;
-@property(retain) WFResponse *response; // @synthesize response=_response;
 @property(copy) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(retain, nonatomic) CLGeocoder *reverseGeocoder; // @synthesize reverseGeocoder=_reverseGeocoder;
-@property(retain, nonatomic) MKLocalSearch *search; // @synthesize search=_search;
-@property(readonly) MKLocalSearchCompletion *searchCompletion; // @synthesize searchCompletion=_searchCompletion;
-@property(nonatomic) struct CLLocationCoordinate2D searchCoordinate; // @synthesize searchCoordinate=_searchCoordinate;
-@property(readonly) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CLLocationCoordinate2D unshiftedCoordinate; // @synthesize unshiftedCoordinate=_unshiftedCoordinate;
 
 @end
 

@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface MLPixelBufferPool
 {
     struct os_unfair_lock_s _cacheLock;
-    NSMutableDictionary *_pixelBufferPoolCache;
 }
 
-- (id);
+- (id)sed if set;
 - (struct __CVBuffer *);
 - (struct __CVPixelBufferPool *);
 - (id);

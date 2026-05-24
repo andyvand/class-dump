@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHVoiceTriggerRePrompted : SISchemaInstrumentationMessage
 {
     NSString *_siriSpeechID;
-    _Bool _isRePrompted;
-    NSString *_lastWhenRePrompted;
-    struct {
-        unsigned int isRePrompted:1;
-    } _has;
-    _Bool _hasSiriSpeechID;
-    _Bool _hasLastWhenRePrompted;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)aJ)K;
 - (void);
 - (void);
 - (void);
@@ -32,11 +25,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)RB;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)ssage digest;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,12 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRePrompted;
-@property(nonatomic) _Bool hasLastWhenRePrompted; // @synthesize hasLastWhenRePrompted=_hasLastWhenRePrompted;
-@property(nonatomic) _Bool hasSiriSpeechID; // @synthesize hasSiriSpeechID=_hasSiriSpeechID;
-@property(nonatomic) _Bool isRePrompted; // @synthesize isRePrompted=_isRePrompted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *lastWhenRePrompted; // @synthesize lastWhenRePrompted=_lastWhenRePrompted;
 @property(copy, nonatomic) NSString *siriSpeechID; // @synthesize siriSpeechID=_siriSpeechID;
 
 @end

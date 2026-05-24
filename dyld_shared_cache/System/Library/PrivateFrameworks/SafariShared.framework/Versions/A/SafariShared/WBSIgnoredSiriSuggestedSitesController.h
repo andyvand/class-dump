@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, WBSIgnoredSiriSuggestedSitesDatabaseController;
+@class WBSIgnoredSiriSuggestedSitesDatabaseController;
 
 @interface WBSIgnoredSiriSuggestedSitesController
 {
     WBSIgnoredSiriSuggestedSitesDatabaseController *_databaseController;
-    NSDate *_dateOfLastPruning;
 }
 
 + (id);
@@ -21,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

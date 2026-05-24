@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDMessagingHandle, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CSDMessagingMemberAssociationClaim
 {
     unsigned long long _primaryIdentifier;
-    CSDMessagingHandle *_associatedPseudonym;
-    NSString *_conversationGroupUUIDString;
-    NSString *_primaryAvcIdentifier;
-    CSDMessagingHandle *_primaryHandle;
-    int _type;
-    unsigned int _version;
-    struct {
-        unsigned int primaryIdentifier:1;
-        unsigned int type:1;
-        unsigned int version:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (_Bool);
+- (_Bool)˿;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -50,7 +37,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)7
+;
 - (id);
 - (void);
 - (id);
@@ -58,23 +46,10 @@ __attribute__((visibility("hidden")))
 - (_Bool)0@ù
 × ;
 - (void);
-- (void)QueryItem;
+- (void)localSenderIdentityUUIDURLQueryItem;
 
 // Remaining properties
-@property(retain, nonatomic) CSDMessagingHandle *associatedPseudonym; // @synthesize associatedPseudonym=_associatedPseudonym;
-@property(retain, nonatomic) NSString *conversationGroupUUIDString; // @synthesize conversationGroupUUIDString=_conversationGroupUUIDString;
-@property(readonly, nonatomic) _Bool hasAssociatedPseudonym;
-@property(readonly, nonatomic) _Bool hasConversationGroupUUIDString;
-@property(readonly, nonatomic) _Bool hasPrimaryAvcIdentifier;
-@property(readonly, nonatomic) _Bool hasPrimaryHandle;
-@property(nonatomic) _Bool hasPrimaryIdentifier;
-@property(nonatomic) _Bool hasType;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *primaryAvcIdentifier; // @synthesize primaryAvcIdentifier=_primaryAvcIdentifier;
-@property(retain, nonatomic) CSDMessagingHandle *primaryHandle; // @synthesize primaryHandle=_primaryHandle;
-@property(nonatomic) unsigned long long primaryIdentifier; // @synthesize primaryIdentifier=_primaryIdentifier;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

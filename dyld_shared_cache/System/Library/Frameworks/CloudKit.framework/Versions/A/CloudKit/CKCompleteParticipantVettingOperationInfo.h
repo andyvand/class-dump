@@ -6,17 +6,11 @@
 
 #import <CloudKit/CKOperationInfo.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKCompleteParticipantVettingOperationInfo : CKOperationInfo
 {
     NSString *_vettingToken;
-    NSString *_vettingEmail;
-    NSString *_vettingPhone;
-    NSString *_routingKey;
-    NSData *_encryptedKey;
-    NSString *_baseToken;
-    NSString *_displayedHostname;
 }
 
 + (_Bool);
@@ -25,13 +19,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id)LFù1G11Â0@ù
@@ -40,12 +34,6 @@
 - (id)annot replace assigned container ID %@ with %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *baseToken; // @synthesize baseToken=_baseToken;
-@property(retain, nonatomic) NSString *displayedHostname; // @synthesize displayedHostname=_displayedHostname;
-@property(retain, nonatomic) NSData *encryptedKey; // @synthesize encryptedKey=_encryptedKey;
-@property(retain, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) NSString *vettingEmail; // @synthesize vettingEmail=_vettingEmail;
-@property(retain, nonatomic) NSString *vettingPhone; // @synthesize vettingPhone=_vettingPhone;
 @property(copy, nonatomic) NSString *vettingToken; // @synthesize vettingToken=_vettingToken;
 
 @end

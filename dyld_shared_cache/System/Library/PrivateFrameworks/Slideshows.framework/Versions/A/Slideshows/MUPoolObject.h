@@ -9,8 +9,8 @@
     MUPoolObject *mPoolPrev;
 }
 
-+ (id);
-+ (CDStruct_32b7e343 *);
++ (id);
++ (CDStruct_32b7e343 *)Q;
 + (_Bool);
 + (void);
 + (long long);

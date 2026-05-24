@@ -9,6 +9,13 @@
 @protocol IDSServiceDelegate
 
 @optional
-- (void)uctordTransportWithCompletion:(IDSService *)arg1;
+- (void);
+- (void)h;
+- (void)R,&,N,V_bioOpsQueue;
+- (void)P stream;
+- (void)S2;
+- (void)8;
+- (void)c;
+- (void)makeInstructordTransportWithCompletion:(IDSService *)arg1;
 @end
 

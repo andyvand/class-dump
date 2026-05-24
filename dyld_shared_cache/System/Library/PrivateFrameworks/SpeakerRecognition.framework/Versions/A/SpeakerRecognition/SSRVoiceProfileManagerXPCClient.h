@@ -13,8 +13,8 @@
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)V_portraitTransitionTable;
+- (id);
 - (void);
 - (id);
 - (void);

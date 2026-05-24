@@ -9,12 +9,11 @@
 @interface CKDPMergeableDeltaMetadataRetrieveResponse
 {
     NSData *_continuation;
-    NSMutableArray *_metadatas;
 }
 
-+ (Class);
++ (Class)P;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
@@ -22,10 +21,11 @@
 - (id);
 - (id);
 - (id);
+- (void)localRecordFormat;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)index / seqNum = %d / %u Stream count = %d / audioBufferSize = %d
+;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -34,8 +34,6 @@
 - (void)Assets Extension processes;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuation; // @synthesize continuation=_continuation;
-@property(readonly, nonatomic) _Bool hasContinuation;
 @property(retain, nonatomic) NSMutableArray *metadatas; // @synthesize metadatas=_metadatas;
 
 @end

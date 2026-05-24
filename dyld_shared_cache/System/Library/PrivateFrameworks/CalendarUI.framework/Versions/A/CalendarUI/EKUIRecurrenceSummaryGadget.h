@@ -6,23 +6,17 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class NSArray, NSButton, NSMenu, NSTextField;
+@class NSTextField;
 
 @interface EKUIRecurrenceSummaryGadget : EKUISingleViewGadget
 {
     NSTextField *_textField;
-    NSButton *_nextButton;
-    NSButton *_previousButton;
-    NSButton *_recurButton;
-    NSArray *_horizontalConstraints;
-    NSMenu *_recDiffMenu;
-    NSMenu *_recurrenceNavMenu;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)7(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,36 +24,30 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)@;
+- (id);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)5;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)	;
 - (void);
 - (id);
 - (id);
-- (double);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id)+;
+- (double)	;
+- (id);
+- (void);
 - (void);
 - (_Bool)0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSArray *horizontalConstraints; // @synthesize horizontalConstraints=_horizontalConstraints;
-@property(retain) NSButton *nextButton; // @synthesize nextButton=_nextButton;
-@property(retain) NSButton *previousButton; // @synthesize previousButton=_previousButton;
-@property(retain) NSMenu *recDiffMenu; // @synthesize recDiffMenu=_recDiffMenu;
-@property(retain) NSButton *recurButton; // @synthesize recurButton=_recurButton;
-@property(retain) NSMenu *recurrenceNavMenu; // @synthesize recurrenceNavMenu=_recurrenceNavMenu;
 @property(retain) NSTextField *textField; // @synthesize textField=_textField;
 
 @end

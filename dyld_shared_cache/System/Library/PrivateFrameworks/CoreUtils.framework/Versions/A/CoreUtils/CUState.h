@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray, NSString;
-
 @interface CUState
 {
     CDUnknownBlockType _eventHandler;
-    unsigned long long _index;
-    NSPointerArray *_lcaMap;
-    NSString *_name;
-    CUState *_parent;
 }
 
+- (void)#;
+- (id)removeAllObjects;
+- (id)!;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)k_s="_os_unfair_lock_opaque"I};
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

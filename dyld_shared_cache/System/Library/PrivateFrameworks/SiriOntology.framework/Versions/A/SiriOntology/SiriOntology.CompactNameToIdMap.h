@@ -7,8 +7,6 @@
 @interface SiriOntology.CompactNameToIdMap
 {
     id _buckets;
-    id _values;
-    id names;
 }
 
 @end

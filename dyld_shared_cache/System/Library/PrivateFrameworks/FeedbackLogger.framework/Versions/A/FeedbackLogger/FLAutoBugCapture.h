@@ -7,7 +7,6 @@
 @interface FLAutoBugCapture
 {
     id nextTimeToTrigger;
-    id queue;
 }
 
 - (void);

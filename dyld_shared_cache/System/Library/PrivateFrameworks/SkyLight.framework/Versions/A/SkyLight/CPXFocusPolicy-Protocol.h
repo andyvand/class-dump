@@ -5,5 +5,7 @@
 //
 
 @protocol CPXFocusPolicy
+- (void)to %@ (%@);
+- (void)m location failed:(struct CPSProcessRec *)arg1 %@;
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristicValueTransitionTypesWrapper, HAPTLVSignedNumberValue, NSString;
+@class HAPTLVSignedNumberValue;
 
 @interface HAPSupportedCharacteristicValueTransition
 {
     HAPTLVSignedNumberValue *_HAPInstanceID;
-    HAPCharacteristicValueTransitionTypesWrapper *_transitionTypes;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -23,19 +22,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (void)soryServerSecureTransport>";
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVSignedNumberValue *HAPInstanceID; // @synthesize HAPInstanceID=_HAPInstanceID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPCharacteristicValueTransitionTypesWrapper *transitionTypes; // @synthesize transitionTypes=_transitionTypes;
 
 @end
 

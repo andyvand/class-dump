@@ -6,21 +6,19 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, _NSTextFinderImpl;
+@class _NSTextFinderImpl;
 
 __attribute__((visibility("hidden")))
 @interface _NSFindIndicatorOverlayView : NSView
 {
     _NSTextFinderImpl *_textFinderImpl;
-    NSArray *_holes;
-    _Bool _flipped;
 }
 
 - (void);
-- (id);
+- (id)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)L Distribution Points;
 - (_Bool);
 
 @end

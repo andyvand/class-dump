@@ -7,7 +7,6 @@
 @interface ENPair
 {
     id _first;
-    id _second;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id first; // @synthesize first=_first;
-@property(retain, nonatomic) id second; // @synthesize second=_second;
 
 @end
 

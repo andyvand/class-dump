@@ -6,22 +6,9 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSDate, NSNumber, NSString;
-
 @interface SSScreenTimeRequestResultBuilder : SSResultBuilder
 {
     int _requestStatus;
-    NSArray *_approvers;
-    NSDate *_expireDate;
-    NSDate *_respondDate;
-    NSDate *_requestDate;
-    NSString *_requestedItemName;
-    NSString *_requestedItemDescription;
-    NSString *_requesterContactIdentifier;
-    NSNumber *_requesterDSID;
-    NSString *_requestIdentifier;
-    NSString *_requestStatusString;
-    NSNumber *_requestAmountDuration;
 }
 
 + (id);
@@ -39,44 +26,33 @@
 - (id);
 - (id);
 - (id);
+- (id)startFetchingMetadataForRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)standardQuickLookMenuItem;
+- (id)specializedMetadataProviderForURLWithContext: /* Error: Ran out of types for this method. */;
+- (id)showMuteButton;
+- (id)showCharacterLimitIndicator;
+- (id)shouldHideIconsWhenCollapsed;
+- (id)shouldAutoPlay;
+- (_Bool)sharedObjectInformationForTransformer: /* Error: Ran out of types for this method. */;
+- (id)sharedObjectDownloadStateForComponentView: /* Error: Ran out of types for this method. */;
+- (id)setVideoProvider: /* Error: Ran out of types for this method. */;
+- (void)setLeadingAccessoryType:(id)arg1;
+- (id)setConversationActivity:(id)arg1;
+- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)Alternates;
+- (int)SOAddRemoveActionBar;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (int);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void):displayName: /* Error: Ran out of types for this method. */;
+- (void)initWithContentType:displayName: /* Error: Ran out of types for this method. */;
 - (id)(-1M),$time.now) || InRange(kMDItemDateAdded_Ranking, $time.today(-1M), $time.now));
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *approvers; // @synthesize approvers=_approvers;
-@property(retain, nonatomic) NSDate *expireDate; // @synthesize expireDate=_expireDate;
-@property(retain, nonatomic) NSNumber *requestAmountDuration; // @synthesize requestAmountDuration=_requestAmountDuration;
-@property(retain, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
-@property(retain, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 @property(nonatomic) int requestStatus; // @synthesize requestStatus=_requestStatus;
-@property(retain, nonatomic) NSString *requestStatusString; // @synthesize requestStatusString=_requestStatusString;
-@property(retain, nonatomic) NSString *requestedItemDescription; // @synthesize requestedItemDescription=_requestedItemDescription;
-@property(retain, nonatomic) NSString *requestedItemName; // @synthesize requestedItemName=_requestedItemName;
-@property(retain, nonatomic) NSString *requesterContactIdentifier; // @synthesize requesterContactIdentifier=_requesterContactIdentifier;
-@property(retain, nonatomic) NSNumber *requesterDSID; // @synthesize requesterDSID=_requesterDSID;
-@property(retain, nonatomic) NSDate *respondDate; // @synthesize respondDate=_respondDate;
 
 @end
 

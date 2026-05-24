@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UINSPDFDocument;
-
 @interface UINSPDFPrintingView
 {
     _Bool _isGeneratingPDF;
-    CDUnknownBlockType _pdfDocumentGenerator;
-    id <UINSPDFDocument> _cachedPdfDocument;
-    double _scale;
-    long long _pageToPrint;
-    struct CGSize _paperSize;
-    struct CGRect _imageablePageBounds;
 }
 
 - (void);
@@ -22,14 +14,15 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (long long);
+- (long long)B;
 - (id);
-- (id);
+- (id)J`;
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (struct CGRect);
+- (void)i
+;
+- (struct CGRect)Sh;
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
@@ -37,19 +30,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (double);
+- (double)3;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) id <UINSPDFDocument> cachedPdfDocument; // @synthesize cachedPdfDocument=_cachedPdfDocument;
-@property struct CGRect imageablePageBounds; // @synthesize imageablePageBounds=_imageablePageBounds;
-@property(nonatomic) _Bool isGeneratingPDF; // @synthesize isGeneratingPDF=_isGeneratingPDF;
-@property long long pageToPrint; // @synthesize pageToPrint=_pageToPrint;
-@property struct CGSize paperSize; // @synthesize paperSize=_paperSize;
-@property(readonly, nonatomic) id <UINSPDFDocument> pdfDocument;
 @property(copy) CDUnknownBlockType pdfDocumentGenerator; // @synthesize pdfDocumentGenerator=_pdfDocumentGenerator;
-@property double scale; // @synthesize scale=_scale;
 
 @end
 

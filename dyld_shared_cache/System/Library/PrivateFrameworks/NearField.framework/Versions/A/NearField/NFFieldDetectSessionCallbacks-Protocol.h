@@ -5,5 +5,7 @@
 //
 
 @protocol NFFieldDetectSessionCallbacks
+- (void)ck_invoke;
+- (void);
 @end
 

@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, _UIVectorTextLayoutInfo;
-
 __attribute__((visibility("hidden")))
 @interface _UIVectorTextLayoutRun
 {
     unsigned long long _glyphCount;
-    NSAttributedString *_sourceString;
-    _UIVectorTextLayoutInfo *_layoutInfo;
-    unsigned long long _lineIndex;
-    struct __CTRun *_runRef;
-    double _baseline;
-    struct CGRect _lineRect;
-    struct CGRect _usedLineRect;
-    struct CGRect _usedRunRect;
 }
 
 - (struct CGRect);
@@ -30,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct __CTRun *);
-- (void);
+- (struct __CTRun *)etching contacts for %s in chat with GUID:%s /* Error: Ran out of types for this method. */;
+- (void)y detected! Update version and spawn TTR;
 - (unsigned long long);
-- (void);
+- (void)ut overwriting at path ;
 - (void);
 - (double);
 - (id);
@@ -44,18 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CTRun *_CTRun; // @synthesize _CTRun=_runRef;
-@property(nonatomic) double baseline; // @synthesize baseline=_baseline;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long lineIndex; // @synthesize lineIndex=_lineIndex;
-@property(nonatomic) struct CGRect lineRect; // @synthesize lineRect=_lineRect;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect usedLineRect; // @synthesize usedLineRect=_usedLineRect;
-@property(nonatomic) struct CGRect usedRunRect; // @synthesize usedRunRect=_usedRunRect;
 
 @end
 

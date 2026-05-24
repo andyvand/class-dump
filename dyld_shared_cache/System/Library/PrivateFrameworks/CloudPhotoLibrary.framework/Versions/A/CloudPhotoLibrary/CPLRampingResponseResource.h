@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CPLRampingResponseResource
 {
     long long _retryAfterMillis;
-    NSString *_resource;
-    _Bool _allowed;
-    struct {
-        unsigned int retryAfterMillis:1;
-        unsigned int allowed:1;
-    } _has;
 }
 
-- (void);
+- (void)4g;
 - (void);
 - (void);
 - (long long);
 - (_Bool);
+- (_Bool);
+- (_Bool)l keys:%lu keys cleared /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (_Bool);
+- (void)h;
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void)!¨Gùq°1Â0@ù
-× ;
-- (id)A©ÿÃÿ_Ö#Õø_¼©öW©ôO©ý{©ýÃ;
-- (_Bool)RRÐòàªôàªô;
 - (void);
 - (id);
 - (id);
@@ -42,12 +33,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowed; // @synthesize allowed=_allowed;
-@property(nonatomic) _Bool hasAllowed;
 @property(readonly, nonatomic) _Bool hasResource;
-@property(nonatomic) _Bool hasRetryAfterMillis;
-@property(retain, nonatomic) NSString *resource; // @synthesize resource=_resource;
-@property(nonatomic) long long retryAfterMillis; // @synthesize retryAfterMillis=_retryAfterMillis;
 
 @end
 

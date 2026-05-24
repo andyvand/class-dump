@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol IPLocalizationSwitcherProtocol
+- (void)currentCommandBuffer;
+- (void)control:(NSArray *)arg1 didFailToValidatePartialString:(void (^)(NSDictionary *))arg2 errorDescription: /* Error: Ran out of types for this method. */;
+- (void)control:(NSString *)arg1 didFailToFormatString:(void (^)(NSArray *))arg2 errorDescription: /* Error: Ran out of types for this method. */;
+- (void)contactTestBetweenBody:(NSString *)arg1 andBody:options: /* Error: Ran out of types for this method. */;
+- (void)boxWithWidth:(void (^)(NSDictionary *))arg1 height:length:cornerRadius:options: /* Error: Ran out of types for this method. */;
 @end
 

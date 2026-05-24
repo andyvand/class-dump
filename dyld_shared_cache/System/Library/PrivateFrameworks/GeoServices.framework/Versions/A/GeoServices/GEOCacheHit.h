@@ -9,19 +9,9 @@
 @interface GEOCacheHit
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _bytes;
-    unsigned int _count;
-    int _requestorType;
-    int _tileSourceType;
-    struct {
-        unsigned int has_bytes:1;
-        unsigned int has_count:1;
-        unsigned int has_requestorType:1;
-        unsigned int has_tileSourceType:1;
-    } _flags;
 }
 
-+ (_Bool)ultipleCardsPerNoticeSupported:(id)arg1;
++ (_Bool)setHasMultipleCardsPerNoticeSupported:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -29,25 +19,25 @@
 - (void);
 - (void);
 - (void);
+- (void)substringFromIndex:(unsigned int)arg1;
+- (id)newReaderWriterSchedulerWithName:(int)arg1;
+- (int)newContactNameOrder;
+- (_Bool);
+- (_Bool)or %{public}@;
+- (_Bool)ia;
+- (int);
+- (int);
+- (void);
+- (_Bool);
 - (void);
 - (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)defaultExclaveConverter;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&r;
 - (unsigned int);
 - (_Bool);
 - (void)
@@ -57,19 +47,11 @@
 - (id)view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id IN (            SELECT region                FROM region_name_mapping                WHERE name IN (SELECT rowid FROM region_names WHERE icu_match(region_names.name, @name) != 0)    )    ORDER BY name COLLATE region_collater, sort_order, iso_code, time_zone_name;;
 - (id)¼Ì;
 - (void)ËèÈËðÈøÊÉàÊÉÈÊ É°Ê°ÉÊÊÊÊt;
-- (unsigned int)on6__baseIFNS_13unordered_setIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEEEvEEE;
+- (unsigned int)NSt3__110__function6__baseIFNS_13unordered_setIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEEEvEEE;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int bytes;
-@property(nonatomic) unsigned int count;
-@property(nonatomic) _Bool hasBytes;
-@property(nonatomic) _Bool hasCount;
 @property(nonatomic) _Bool hasRequestorType;
-@property(nonatomic) _Bool hasTileSourceType;
-@property(nonatomic) int requestorType;
-@property(nonatomic) int tileSourceType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

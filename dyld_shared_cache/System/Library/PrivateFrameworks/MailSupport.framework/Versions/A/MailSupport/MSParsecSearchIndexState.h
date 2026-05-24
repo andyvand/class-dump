@@ -7,15 +7,9 @@
 @interface MSParsecSearchIndexState
 {
     long long _indexType;
-    long long _percentMessagesIndexed;
-    long long _percentMessageBodiesIndexed;
-    long long _percentUnindexedBodiesInFrecent;
-    long long _percentAttachmentsIndexed;
-    long long _totalMessageCount;
-    long long _indexedMessageCount;
 }
 
-+ (id);
++ (id);
 - (long long);
 - (id);
 - (long long);
@@ -24,16 +18,10 @@
 - (long long);
 - (long long);
 - (id);
-- (long long);
+- (long long)elementControllerWithElement: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long indexType; // @synthesize indexType=_indexType;
-@property(readonly) long long indexedMessageCount; // @synthesize indexedMessageCount=_indexedMessageCount;
-@property(readonly) long long percentAttachmentsIndexed; // @synthesize percentAttachmentsIndexed=_percentAttachmentsIndexed;
-@property(readonly) long long percentMessageBodiesIndexed; // @synthesize percentMessageBodiesIndexed=_percentMessageBodiesIndexed;
-@property(readonly) long long percentMessagesIndexed; // @synthesize percentMessagesIndexed=_percentMessagesIndexed;
-@property(readonly) long long percentUnindexedBodiesInFrecent; // @synthesize percentUnindexedBodiesInFrecent=_percentUnindexedBodiesInFrecent;
-@property(readonly) long long totalMessageCount; // @synthesize totalMessageCount=_totalMessageCount;
 
 @end
 

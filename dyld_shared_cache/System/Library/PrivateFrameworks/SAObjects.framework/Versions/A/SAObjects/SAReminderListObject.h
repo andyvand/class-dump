@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSNumber, NSString, SAReminderRecurrence, SAReminderTrigger;
+@class NSString;
 
 @interface SAReminderListObject : SADomainObject
 {
@@ -15,30 +15,24 @@
 + (id);
 + (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);W;
+- (void)OW;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)(;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountName;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) SAReminderRecurrence *recurrence;
-@property(retain, nonatomic) SAReminderTrigger *reminderTrigger;
-@property(copy, nonatomic) NSArray *reminders;
-@property(copy, nonatomic) NSArray *remindersToCreate;
-@property(copy, nonatomic) NSNumber *totalNumOfReminders;
 
 @end
 

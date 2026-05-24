@@ -13,11 +13,11 @@
     long long _defaultRowAnimation;
 }
 
-- (void);
-- (long long);
+- (void)p4;
+- (long long);
 - (id)@ù
 × ;
-- (id)Component:(id)arg1 withEvent:(CDUnknownBlockType)arg2;
+- (id)shouldReceiveComponent:(id)arg1 withEvent:(CDUnknownBlockType)arg2;
 - (id);
 
 // Remaining properties

@@ -6,21 +6,16 @@
 
 #import <UIKitCore/UIKeyboardMotionSupport.h>
 
-@class BSSimpleAssertion, UIInputViewSetNotificationInfo, UIScrollView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface UIScrollToDismissSupport : UIKeyboardMotionSupport
 {
     UIScrollView *_scrollViewForTransition;
-    _Bool _scrollViewShowsHorizontalScrollIndicator;
-    _Bool _scrollViewTransitionFinishing;
-    BSSimpleAssertion *_interfaceAutorotationDisabledAssertion;
-    struct CGPoint _scrollViewTransitionPreviousPoint;
-    UIInputViewSetNotificationInfo *_scrollViewNotificationInfo;
 }
 
 - (void);
-- (void);
+- (void)iceKey;
 - (void);
 - (void);
 - (void);
@@ -28,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (_Bool)ð1Â0@ù
 × ;
 - (void)emContentLayoutGuideForStaticNavBarButtonVisibility"b1"navItemContentLayoutGuideStaticButtonVisibilityAnimationConstraintNeedsInitialization"b1"shouldFadeStaticNavBarButton"b1"staticNavBarButtonLingers"b1"staticNavBarButtonIsActingAsFakeBackButton"b1"hostedTabBarEnabled"b1};
-- (id)y;
-- (void)onfigurationSupporting;
+- (id)rendersLocally;
+- (void)UITextPasteConfigurationSupporting;
 - (id)ÿþêÿh'¨þ\þÿä3ìÿ;
 - (void)eteAnimationsRunning is less than or equal to 0 while entering a completion handler. It seems like the initial animation count is incorrect. This is a UIKit bug.;
 - (void);

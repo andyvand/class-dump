@@ -7,12 +7,10 @@
 @interface ABPeoplePickerNameCell
 {
     int _roundedEdges;
-    unsigned long long _iconType;
-    _Bool _disableHighlight;
 }
 
 + (unsigned long long);
-+ (void)teAvatarSize;
++ (void)compositeAvatarSize;
 - (void);
 - (void);
 - (int);
@@ -22,21 +20,19 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)T�;
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_toSystemOS;
 
 // Remaining properties
 @property(nonatomic) _Bool disableHighlight; // @synthesize disableHighlight=_disableHighlight;
-@property(nonatomic) unsigned long long iconType; // @synthesize iconType=_iconType;
-@property(nonatomic) int roundedEdges; // @synthesize roundedEdges=_roundedEdges;
 
 @end
 

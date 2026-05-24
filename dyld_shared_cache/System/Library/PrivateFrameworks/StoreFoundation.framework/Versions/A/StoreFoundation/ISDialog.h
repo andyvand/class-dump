@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDialogButton, NSArray, NSDictionary, NSLock, NSMutableDictionary, NSString;
-@protocol ISDialogDelegate;
+@class ISDialogButton;
 
 @interface ISDialog
 {
     _Bool _allowDuplicates;
-    _Bool _authorizationIsForced;
-    NSArray *_buttons;
-    long long _defaultButtonIndex;
-    _Bool _dismissOnLock;
-    _Bool _expectsResponse;
-    _Bool _groupsTextFields;
-    long long _kind;
-    NSLock *_lock;
-    NSString *_message;
-    _Bool _oneButtonPerLine;
-    NSArray *_textFields;
-    NSString *_title;
-    NSMutableDictionary *_userInfo;
-    NSDictionary *_baseDictionary;
-    NSDictionary *_authenticationParameters;
-    id <ISDialogDelegate> _delegate;
-    ISDialogButton *_okButton;
-    ISDialogButton *_cancelButton;
-    ISDialogButton *_otherButton;
-    ISDialogButton *_suppressionCheckbox;
 }
 
 + (void);
@@ -46,11 +25,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -59,61 +38,44 @@
 - (void);
 - (id);
 - (id);
+- (id)J;
+- (long long);
+- (void)ionError;
+- (_Bool)IFPLATFORMTARGET_PLAN_RESOLVER_SERVICE_SETUP;
+- (void);
+- (void)a;
+- (_Bool);
 - (id);
+- (void);
+- (void);
 - (long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (id);
+- (id);
+- (id)hh8;
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)'JF*F
+;
+- (id)4'A9J
+;
 - (long long);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool allowDuplicates; // @synthesize allowDuplicates=_allowDuplicates;
-@property(readonly) NSDictionary *authenticationParameters; // @synthesize authenticationParameters=_authenticationParameters;
-@property _Bool authorizationIsForced; // @synthesize authorizationIsForced=_authorizationIsForced;
-@property(readonly) NSDictionary *baseDictionary; // @synthesize baseDictionary=_baseDictionary;
-@property(retain) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(readonly) ISDialogButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property long long defaultButtonIndex; // @synthesize defaultButtonIndex=_defaultButtonIndex;
-@property(nonatomic) __weak id <ISDialogDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool dismissOnLock; // @synthesize dismissOnLock=_dismissOnLock;
-@property _Bool expectsResponse; // @synthesize expectsResponse=_expectsResponse;
-@property _Bool groupsTextFields; // @synthesize groupsTextFields=_groupsTextFields;
-@property long long kind; // @synthesize kind=_kind;
-@property(retain) NSString *message; // @synthesize message=_message;
-@property(readonly) _Bool needsDedicatedUI;
 @property(readonly) ISDialogButton *okButton; // @synthesize okButton=_okButton;
-@property _Bool oneButtonPerLine; // @synthesize oneButtonPerLine=_oneButtonPerLine;
-@property(readonly) ISDialogButton *otherButton; // @synthesize otherButton=_otherButton;
-@property(readonly) ISDialogButton *suppressionCheckbox; // @synthesize suppressionCheckbox=_suppressionCheckbox;
-@property(retain) NSArray *textFields; // @synthesize textFields=_textFields;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

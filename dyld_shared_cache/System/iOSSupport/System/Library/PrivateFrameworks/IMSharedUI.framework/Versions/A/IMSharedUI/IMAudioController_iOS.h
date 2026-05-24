@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)r;
 - (void);
 - (void);
 - (void);

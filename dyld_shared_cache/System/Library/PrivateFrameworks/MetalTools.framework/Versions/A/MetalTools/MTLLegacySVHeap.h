@@ -9,15 +9,9 @@
 @interface MTLLegacySVHeap : MTLToolsHeap
 {
     _Bool _enableResourceUsageValidation;
-    struct os_unfair_lock_s _bufferLock;
-    struct vector<unsigned int, std::allocator<unsigned int>> _bufferIndices;
-    struct os_unfair_lock_s _textureLock;
-    struct vector<unsigned int, std::allocator<unsigned int>> _textureIndices;
-    struct os_unfair_lock_s _accelerationStructureLock;
-    struct vector<unsigned int, std::allocator<unsigned int>> _accelerationStructureIndices;
 }
 
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
@@ -26,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)};
 - (id);
 - (id);
 - (id);
@@ -34,7 +28,7 @@
 - (id)× ;
 - (id)ge=QQ}24Q40^{MTLDebugFunctionArgument=BBQ@QQQQQQBff}48Q56Q64;
 - (void)acing"b1"enableResourceUsageValidation"b1"enableStackOverflow"b1"enableDumpToStderr"b1"enableAccelerationStructureChecking"b1"enableRelaxedTextureArrayBindings"b1}};
-- (id)mandBuffer:(unsigned long long)arg1;
+- (id)initWithIndirectRenderCommand:(unsigned long long)arg1 commandIndex:indirectCommandBuffer: /* Error: Ran out of types for this method. */;
 
 @end
 

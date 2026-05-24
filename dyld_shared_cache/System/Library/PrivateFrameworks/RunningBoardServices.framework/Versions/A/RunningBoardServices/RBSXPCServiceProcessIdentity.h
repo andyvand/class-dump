@@ -15,17 +15,17 @@
 
 + (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool)_;
 - (id);
 - (void);
 - (_Bool);
@@ -35,7 +35,7 @@
 - (unsigned char);
 - (id);
 - (_Bool);
-- (id);
+- (id)ning procNotFound because no application found for address descriptor.;
 - (void);
 - (id);
 

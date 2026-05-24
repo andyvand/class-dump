@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCollectionViewItem, NSString;
+@class NSString;
 
 @interface ABBirthdayConversionUIAction
 {
     NSString *_targetPropertyKey;
-    ABCollectionViewItem *_sourceItem;
 }
 
 - (_Bool);
@@ -18,18 +17,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)A!8@ùQª1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSString *targetPropertyKey; // @synthesize targetPropertyKey=_targetPropertyKey;
 
 @end

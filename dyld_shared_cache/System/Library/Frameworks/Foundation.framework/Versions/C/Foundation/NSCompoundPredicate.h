@@ -6,17 +6,13 @@
 
 #import <Foundation/NSPredicate.h>
 
-@class NSArray;
-
 @interface NSCompoundPredicate : NSPredicate
 {
     unsigned long long _type;
-    NSArray *_subpredicates;
 }
 
 
 // Remaining properties
 @property(readonly) unsigned long long compoundPredicateType;
-@property(readonly, copy) NSArray *subpredicates;
 @end
 

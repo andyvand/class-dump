@@ -5,5 +5,13 @@
 //
 
 @protocol NDBackgroundSessionProtocol
+- (void)`;
+- (void)@;
+- (void);
+- (void)L;
+- (void)ւ;
+- (void)QB;
+- (void);
+- (void);
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageEditingBalloonView;
+
 @protocol CKMessageEditingBalloonViewDelegate
+- (void)constraintGreaterThanOrEqualToConstant:(CKMessageEditingBalloonView *)arg1;
+- (void)constraintEqualToAnchor:(CKMessageEditingBalloonView *)arg1 constant: /* Error: Ran out of types for this method. */;
+- (void)constant;
+- (void)confirmButton;
+- (void)configureHashtagAndMentionsForView:(CKMessageEditingBalloonView *)arg1;
 @end
 

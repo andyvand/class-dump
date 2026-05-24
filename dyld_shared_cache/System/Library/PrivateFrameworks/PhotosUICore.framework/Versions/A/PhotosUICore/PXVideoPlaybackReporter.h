@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString, _PXVideoPlaybackCPAnalyticsEndpoint;
-
 @interface PXVideoPlaybackReporter
 {
     struct os_unfair_lock_s _endpointsLock;
-    long long _state;
-    NSString *_identifier;
-    NSMutableArray *_endpoints;
-    NSDate *_startDate;
-    NSDate *_assetCreationDate;
-    NSDate *_endDate;
-    long long _priority;
-    _PXVideoPlaybackCPAnalyticsEndpoint *_cpAnalyticsEndpoint;
 }
 
 - (void);
@@ -28,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -39,25 +29,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)pped at time %f, slideshow time %f
+;
 - (long long);
 - (id);
 - (void)á%Ð!Gù19°1Â0@ù
 × ;
 - (id),&,N,V_hideFocusStateBadgeTimer;
-- (void)tatus_Resume_Update_Battery_AlertTitle_Description;
+- (void)PXCPLStatus_Resume_Update_Battery_AlertTitle_Description;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *assetCreationDate; // @synthesize assetCreationDate=_assetCreationDate;
-@property(retain, nonatomic) _PXVideoPlaybackCPAnalyticsEndpoint *cpAnalyticsEndpoint; // @synthesize cpAnalyticsEndpoint=_cpAnalyticsEndpoint;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, copy, nonatomic) NSMutableArray *endpoints; // @synthesize endpoints=_endpoints;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isStateFinal;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(nonatomic) long long state; // @synthesize state=_state;
 
 @end

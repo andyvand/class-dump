@@ -9,11 +9,10 @@
 @interface MRTransitionDroplet : MRTransition
 {
     float mAmplitude;
-    _Bool mUseLighting;
 }
 
 - (void);
-- (id);
+- (id)defaultManager;
 
 @end
 

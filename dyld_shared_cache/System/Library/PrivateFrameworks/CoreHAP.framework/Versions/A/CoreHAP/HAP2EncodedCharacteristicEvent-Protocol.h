@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
-@protocol HAP2AccessoryCharacteristicEncodedData;
+@class NSNumber;
 
 @protocol HAP2EncodedCharacteristicEvent
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *encodedContextData;
-@property(readonly, nonatomic) id <HAP2AccessoryCharacteristicEncodedData> encodedValueData;
 @property(readonly, nonatomic) NSNumber *instanceID;
 @end
 

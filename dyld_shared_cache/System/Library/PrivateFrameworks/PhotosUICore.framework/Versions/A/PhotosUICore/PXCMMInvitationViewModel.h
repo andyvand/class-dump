@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSColor, NSString;
-@protocol PXCMMInvitationParticipant, PXDisplayAsset, PXUIImageProvider;
-
 @interface PXCMMInvitationViewModel
 {
     _Bool _isNew;
-    _Bool _highlighted;
-    id <PXCMMInvitationParticipant> _owner;
-    NSString *_posterTitle;
-    NSString *_posterSubtitle;
-    id <PXDisplayAsset> _posterAsset;
-    id <PXUIImageProvider> _posterMediaProvider;
-    NSAttributedString *_attributedPosterTitle;
-    NSAttributedString *_attributedTitle;
-    NSAttributedString *_attributedSubtitle1;
-    NSAttributedString *_attributedSubtitle2;
-    NSColor *_opaqueAncestorBackgroundColor;
 }
 
 - (void);
@@ -29,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -40,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_webCrashRetryThrottler;
 - (id);
 - (_Bool);
 - (void);
@@ -53,18 +39,7 @@
 - (void)ÓS|§=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *attributedPosterTitle; // @synthesize attributedPosterTitle=_attributedPosterTitle;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedSubtitle1; // @synthesize attributedSubtitle1=_attributedSubtitle1;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedSubtitle2; // @synthesize attributedSubtitle2=_attributedSubtitle2;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(readonly, nonatomic) _Bool isNew; // @synthesize isNew=_isNew;
-@property(readonly, nonatomic) NSColor *opaqueAncestorBackgroundColor; // @synthesize opaqueAncestorBackgroundColor=_opaqueAncestorBackgroundColor;
-@property(readonly, nonatomic) id <PXCMMInvitationParticipant> owner; // @synthesize owner=_owner;
-@property(readonly, copy, nonatomic) id <PXDisplayAsset> posterAsset; // @synthesize posterAsset=_posterAsset;
-@property(readonly, copy, nonatomic) id <PXUIImageProvider> posterMediaProvider; // @synthesize posterMediaProvider=_posterMediaProvider;
-@property(readonly, copy, nonatomic) NSString *posterSubtitle; // @synthesize posterSubtitle=_posterSubtitle;
-@property(readonly, copy, nonatomic) NSString *posterTitle; // @synthesize posterTitle=_posterTitle;
 
 @end
 

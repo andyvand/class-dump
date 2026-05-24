@@ -4,52 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PKSharedAccountCloudStoreZone
 {
     NSString *_zoneName;
-    NSString *_accountIdentifier;
-    unsigned long long _accountType;
-    unsigned long long _access;
-    unsigned long long _mode;
-    NSString *_originatorAltDSID;
-    NSSet *_sharedUsersAltDSIDs;
 }
 
-+ (_Bool);
++ (_Bool)/usr/lib/libSystem.B.dylib;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)_tcpECNIntOnAvgRTT;
+- (void)7	7	07	P7	h7	7	 7		@7	
+(7	H7	87	`7	p7	;
 - (id);
 - (unsigned long long);
-- (id)rWithDouble:(id)arg1;
+- (id)numberWithDouble:(id)arg1;
 - (id)ôòpóô;
 - (id)¯;
 - (void)tory-%ld.csv;
 - (void)tifier:(id)arg1 '%@'; ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long access; // @synthesize access=_access;
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) unsigned long long accountType; // @synthesize accountType=_accountType;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(copy, nonatomic) NSString *originatorAltDSID; // @synthesize originatorAltDSID=_originatorAltDSID;
-@property(copy, nonatomic) NSSet *sharedUsersAltDSIDs; // @synthesize sharedUsersAltDSIDs=_sharedUsersAltDSIDs;
 @property(copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end

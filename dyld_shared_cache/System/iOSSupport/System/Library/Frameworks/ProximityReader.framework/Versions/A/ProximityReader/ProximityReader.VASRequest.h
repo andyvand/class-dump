@@ -8,7 +8,6 @@
 {
     id vasMerchants;
     id localizedVASType;
-    id userInterfaceLanguage;
 }
 
 @end

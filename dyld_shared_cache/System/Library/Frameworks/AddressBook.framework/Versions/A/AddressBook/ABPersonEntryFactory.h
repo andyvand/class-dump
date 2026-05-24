@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDRecordNameFormatter, NSPredicate, NSString;
+@class NSString;
 
 @interface ABPersonEntryFactory
 {
     NSString *_property;
-    long long _propertyType;
-    unsigned long long _resultType;
-    NSPredicate *_filterPredicate;
-    unsigned long long _defaultNameOrder;
-    ABCDRecordNameFormatter *_recordNameFormatter;
-    _Bool _isMe;
 }
 
 - (id);
@@ -34,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long).5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPushCacheDeleteUpdateRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void)¡@Ð!|Gùñ©1Â0@ù
 × ;
 

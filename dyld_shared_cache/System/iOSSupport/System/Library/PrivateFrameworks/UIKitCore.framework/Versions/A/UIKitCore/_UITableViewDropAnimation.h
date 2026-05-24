@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIDragItem;
+@class UIDragItem;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewDropAnimation
 {
     _Bool _didBeginAnimation;
-    UIDragItem *_dragItem;
-    NSMutableArray *_animationsBlocks;
-    NSMutableArray *_completionBlocks;
 }
 
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)nt: /* Error: Ran out of types for this method. */;
+- (void)_processFetchArchivedRecordCompletionWithError:(_Bool)arg1 WithCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id)ation:editingConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)T;
+- (void)an be downgraded to version:(id)arg1 %ld;
+- (id)_applyCellAccessoriesToNormalConfiguration:editingConfiguration: /* Error: Ran out of types for this method. */;
 - (void)ct:(CDUnknownBlockType)arg1 %@;
 - (void)So28_UISceneDestructionConditionCG;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *animationsBlocks; // @synthesize animationsBlocks=_animationsBlocks;
-@property(retain, nonatomic) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=_didBeginAnimation, setter=_setDidBeginAnimation:) _Bool didBeginAnimation; // @synthesize didBeginAnimation=_didBeginAnimation;
 @property(retain, nonatomic) UIDragItem *dragItem; // @synthesize dragItem=_dragItem;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

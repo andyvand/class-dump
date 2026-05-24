@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABBookCommand
 {
     _Bool _ignoresGuardianRestrictions;
@@ -14,20 +12,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)s:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions=_ignoresGuardianRestrictions;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,N,V_ignoresGuardianRestrictions
 
-@property(readonly) Class superclass;
 
 @end
 

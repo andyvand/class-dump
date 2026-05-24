@@ -14,7 +14,7 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id)*     FROM responses ;
 
 // Remaining properties
 @property(retain, nonatomic) TLKActivityIndicatorView *contentView; // @dynamic contentView;

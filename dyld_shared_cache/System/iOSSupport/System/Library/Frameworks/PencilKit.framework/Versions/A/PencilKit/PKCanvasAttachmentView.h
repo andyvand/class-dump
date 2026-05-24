@@ -6,14 +6,11 @@
 
 #import <PencilKit/PKAttachmentView.h>
 
-@class NSMutableArray, PKCanvasView;
+@class PKCanvasView;
 
 @interface PKCanvasAttachmentView : PKAttachmentView
 {
     _Bool __wantsFullyRenderedNotification;
-    PKCanvasView *_canvasView;
-    double _drawingWidth;
-    NSMutableArray *_fullyRenderedCompletionBlocks;
 }
 
 - (_Bool);
@@ -33,10 +30,7 @@
 - (void)T7¤7;
 
 // Remaining properties
-@property(nonatomic) _Bool _wantsFullyRenderedNotification; // @synthesize _wantsFullyRenderedNotification=__wantsFullyRenderedNotification;
 @property(nonatomic) __weak PKCanvasView *canvasView; // @synthesize canvasView=_canvasView;
-@property(nonatomic) double drawingWidth; // @synthesize drawingWidth=_drawingWidth;
-@property(retain, nonatomic) NSMutableArray *fullyRenderedCompletionBlocks; // @synthesize fullyRenderedCompletionBlocks=_fullyRenderedCompletionBlocks;
 
 @end
 

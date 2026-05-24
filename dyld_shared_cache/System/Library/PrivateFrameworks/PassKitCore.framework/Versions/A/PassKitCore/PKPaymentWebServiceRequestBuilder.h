@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKAppleAccountInformation, PKPaymentWebService;
+@class NSURL, PKPaymentWebService;
 
 @interface PKPaymentWebServiceRequestBuilder
 {
     NSURL *_brokerURL;
-    NSString *_deviceID;
-    PKAppleAccountInformation *_appleAccountInformation;
-    PKPaymentWebService *_webService;
 }
 
-- (id);
+- (id)+);
 - (void);
 - (id);
 - (void);
@@ -22,12 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void)refetchTimeInterval;
+- (void)defaultDynamicAssetPrefetchTimeInterval;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAppleAccountInformation *appleAccountInformation; // @synthesize appleAccountInformation=_appleAccountInformation;
-@property(readonly, nonatomic) NSURL *brokerURL; // @synthesize brokerURL=_brokerURL;
-@property(readonly, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
 @property(nonatomic) __weak PKPaymentWebService *webService; // @synthesize webService=_webService;
 
 @end

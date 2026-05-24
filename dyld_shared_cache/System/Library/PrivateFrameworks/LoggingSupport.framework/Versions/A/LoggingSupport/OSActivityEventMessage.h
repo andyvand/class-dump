@@ -6,12 +6,11 @@
 
 #import <LoggingSupport/OSActivityEvent.h>
 
-@class NSData, NSMutableArray, NSString;
+@class NSData, NSMutableArray;
 
 @interface OSActivityEventMessage : OSActivityEvent
 {
     NSData *_bufferPrivateData;
-    NSData *_bufferData;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *arguments;
-@property(readonly, copy) NSString *format;
 
 @end
 

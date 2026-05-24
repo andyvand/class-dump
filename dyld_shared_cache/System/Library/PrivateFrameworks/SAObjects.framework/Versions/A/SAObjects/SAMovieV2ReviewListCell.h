@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SAMovieV2ReviewListCell : SADomainObject
 {
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *reviewAuthor;
-@property(copy, nonatomic) NSDate *reviewDate;
-@property(copy, nonatomic) NSString *reviewText;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TISInputMethodDataFileLoader
 {
     NSString *_fileName;
-    _Bool _isValidFile;
-    id _module;
-    _Bool _parseOnlyForBasicProperties;
 }
 
 - (struct __CFDictionary *);

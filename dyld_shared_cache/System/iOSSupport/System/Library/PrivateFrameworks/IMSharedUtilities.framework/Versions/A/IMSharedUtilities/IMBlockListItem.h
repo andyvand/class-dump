@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, IMBlockListPerson, NSString;
+@class IMBlockListPerson, NSString;
 
 @interface IMBlockListItem
 {
     NSString *_address;
-    void *_cmfItem;
-    IMBlockListPerson *_person;
-    NSString *_cachedFormattedHandle;
-    NSString *_cachedFormattedPersonName;
 }
 
 - (void);
@@ -37,11 +33,6 @@
 - (void)t;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *address; // @synthesize address=_address;
-@property(retain, nonatomic) NSString *cachedFormattedHandle; // @synthesize cachedFormattedHandle=_cachedFormattedHandle;
-@property(retain, nonatomic) NSString *cachedFormattedPersonName; // @synthesize cachedFormattedPersonName=_cachedFormattedPersonName;
-@property(nonatomic) void *cmfItem; // @synthesize cmfItem=_cmfItem;
-@property(readonly, nonatomic) CNContact *cnPerson;
 @property(retain, nonatomic) IMBlockListPerson *person; // @synthesize person=_person;
 
 @end

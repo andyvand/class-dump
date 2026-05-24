@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface SABinaryLocator
 {
     NSMutableDictionary *_mappings;
-    NSString *_buildNumber;
-    _Bool _dirty;
-    _Bool _enabled;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (oneway void)ü;
 

@@ -6,27 +6,23 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKArchiveRecordsOperationInfo, NSArray, NSMutableDictionary, NSString;
-@protocol CKArchiveRecordsOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKArchiveRecordsOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _recordArchivedBlock;
-    CDUnknownBlockType _archiveRecordsCompletionBlock;
-    NSArray *_recordIDs;
-    NSMutableDictionary *_perItemErrors;
 }
 
 + (SEL);
 + (void);
-- (void);
+- (void)!;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id)8l;
 - (void);
 - (id);
 - (id);
@@ -41,19 +37,7 @@
 - (void)È*ïÿ	òP;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveRecordsCompletionBlock; // @synthesize archiveRecordsCompletionBlock=_archiveRecordsCompletionBlock;
-@property(readonly, nonatomic) id <CKArchiveRecordsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKArchiveRecordsOperationInfo *operationInfo; // @dynamic operationInfo;
 @property(retain, nonatomic) NSMutableDictionary *perItemErrors; // @synthesize perItemErrors=_perItemErrors;
-@property(copy, nonatomic) CDUnknownBlockType recordArchivedBlock; // @synthesize recordArchivedBlock=_recordArchivedBlock;
-@property(copy, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface BUZipEntry
 {
     _Bool _compressed;
-    unsigned short _nameLength;
-    unsigned short _extraFieldsLength;
-    unsigned int _CRC;
-    unsigned int _externalFileAttributes;
-    NSString *_name;
-    NSDate *_lastModificationDate;
-    unsigned long long _size;
-    NSString *_collapsedName;
-    unsigned long long _compressedSize;
-    unsigned long long _offset;
-    unsigned long long _fileHeaderLength;
 }
 
 - (struct _xmlDoc *);
 - (id);
-- (id);
+- (id)R";
 - (void);
 - (id);
 - (_Bool);
@@ -32,7 +21,7 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (void);
@@ -41,7 +30,7 @@
 - (void);
 - (void);
 - (unsigned short);
-- (unsigned long long);
+- (unsigned long long)v;
 - (unsigned short);
 - (unsigned long long);
 - (id);
@@ -51,29 +40,17 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 
 // Remaining properties
-@property(nonatomic) unsigned int CRC; // @synthesize CRC=_CRC;
-@property(copy, nonatomic) NSString *collapsedName; // @synthesize collapsedName=_collapsedName;
-@property(nonatomic, getter=isCompressed) _Bool compressed; // @synthesize compressed=_compressed;
-@property(nonatomic) unsigned long long compressedSize; // @synthesize compressedSize=_compressedSize;
-@property(nonatomic) unsigned int externalFileAttributes; // @synthesize externalFileAttributes=_externalFileAttributes;
-@property(nonatomic) unsigned short extraFieldsLength; // @synthesize extraFieldsLength=_extraFieldsLength;
-@property(nonatomic) unsigned long long fileHeaderLength; // @synthesize fileHeaderLength=_fileHeaderLength;
-@property(copy, nonatomic) NSDate *lastModificationDate; // @synthesize lastModificationDate=_lastModificationDate;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned short nameLength; // @synthesize nameLength=_nameLength;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly, nonatomic, getter=isSymLink) _Bool symLink;
 
 @end
 

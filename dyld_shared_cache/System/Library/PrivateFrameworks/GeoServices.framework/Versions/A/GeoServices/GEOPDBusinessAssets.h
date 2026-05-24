@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBusinessAssets
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_coverPhotos;
-    NSMutableArray *_croppedCoverPhotos;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_coverPhotos:1;
-        unsigned int read_croppedCoverPhotos:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)assHearst",&,N,V_voiceTriggerFirstPassHearst;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)GEODataRequestThrottlerToken";
-- (id)oundingMapRegion;
+- (id)_boundingMapRegion;
 - (id)HF]Ôï³,O]ð³ÔP]°ð³@S]üð³PU]8ñ³ìV]Lñ³]]äñ³8`]0ò³c]ò³(f]Ôò³Ðg]èò³°q]üò³8u]ó³Px](ó³8z]Dó³°]Xó³h]ló³È]ó³H©]Üó³4­]ðó³|°]ô³|²]$ô³ð¼]8ô³¤¾]Lô³\À]`ô³Â]tô³É]ô³â] ô³¬^õ³¼^õ³<%^°õ³)^Ìõ³^^àõ³Ð_^ôõ³a^ö³èd^ö³g^0ö³Ðh^Dö³Ü^Xö³^lö³X^ö³tõ^ö³pù^¨ö³Ðü^Àö³Øþ^Üö³Ô_ðö³ _÷³ä0_÷³$<_,÷³A_¤÷³T_¸÷³¸W_ø³TY_(ø³[_@ø³T^_ø³ìb_üø³;
 - (void);
 

@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureBracketedStillImageSettings;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureStillImageRequest
 {
     CDUnknownBlockType _sbufCompletionBlock;
-    CDUnknownBlockType _iosurfaceCompletionBlock;
-    CDUnknownBlockType _bracketedCaptureCompletionBlock;
-    long long _settingsID;
-    unsigned int _shutterSoundID;
-    AVCaptureBracketedStillImageSettings *_bracketedSettings;
 }
 
 + (id);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
+- (unsigned int)createHeader: /* Error: Ran out of types for this method. */;
+- (void)backgroundColorHex;
+- (void)assertionWillInvalidate:(CDUnknownBlockType)arg1;
+- (void)_registeredServiceName;
+- (void)_falsePositiveTolerance;
+- (void)_explanationForExtension;
+- (CDUnknownBlockType)_bindVariantArray:length:toParameterAtIndex: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_domain;
+- (id)private}@, error %s;
+- (CDUnknownBlockType)t on disk.;
 - (void);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType bracketedCaptureCompletionBlock; // @synthesize bracketedCaptureCompletionBlock=_bracketedCaptureCompletionBlock;
-@property(retain) AVCaptureBracketedStillImageSettings *bracketedSettings; // @synthesize bracketedSettings=_bracketedSettings;
-@property(copy) CDUnknownBlockType iosurfaceCompletionBlock; // @synthesize iosurfaceCompletionBlock=_iosurfaceCompletionBlock;
 @property(copy) CDUnknownBlockType sbufCompletionBlock; // @synthesize sbufCompletionBlock=_sbufCompletionBlock;
-@property long long settingsID; // @synthesize settingsID=_settingsID;
-@property unsigned int shutterSoundID; // @synthesize shutterSoundID=_shutterSoundID;
 
 @end
 

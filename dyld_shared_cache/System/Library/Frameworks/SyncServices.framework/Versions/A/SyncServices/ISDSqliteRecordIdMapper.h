@@ -41,12 +41,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)managedObjectWithIdentifier:inContext: /* Error: Ran out of types for this method. */;
+- (void)_managedObjectWithIdentifier:inContext: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

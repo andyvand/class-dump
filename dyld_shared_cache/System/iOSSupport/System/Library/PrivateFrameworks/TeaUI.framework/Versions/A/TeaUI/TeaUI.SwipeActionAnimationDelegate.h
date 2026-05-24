@@ -7,10 +7,9 @@
 @interface TeaUI.SwipeActionAnimationDelegate
 {
     id swipeState;
-    id completion;
 }
 
-- (id);
+- (id)treatmentID;
 - (void)*Õýÿÿÿ;
 - (void);
 

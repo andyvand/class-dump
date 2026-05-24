@@ -11,7 +11,6 @@
 @interface KCSRPServerContext : KCSRPContext
 {
     NSData *_salt;
-    NSData *_verifier;
 }
 
 - (_Bool);
@@ -22,10 +21,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)~;
 
 // Remaining properties
-@property(readonly) NSData *salt; // @synthesize salt=_salt;
 @property(retain) NSData *verifier; // @synthesize verifier=_verifier;
 
 @end

@@ -20,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) MRAudioBuffer *buffer; // @dynamic buffer;
-@property(nonatomic) float gain; // @dynamic gain;
-@property(nonatomic) CDStruct_ace97b7a time; // @dynamic time;
 
 @end
 

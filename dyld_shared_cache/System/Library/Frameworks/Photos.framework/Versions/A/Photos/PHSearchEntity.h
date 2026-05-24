@@ -6,21 +6,16 @@
 
 #import <Photos/PHObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PHSearchEntity : PHObject
 {
     NSString *_synonymsString;
-    NSString *_label;
-    NSString *_searchEntityIdentifier;
-    unsigned long long _type;
-    double _rankingScore;
-    NSArray *_synonyms;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)identityProperties;
++ (_Bool)__MPModelPropertyMovieInfoDictionary__MAPPING_MISSING__;
 + (id);
 + (id);
 + (_Bool)Àdede¸eÈeflf´}Ø};
@@ -36,18 +31,14 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)LibraryAsset;
+- (void)isCloudPhotoLibraryAsset;
 - (void)nalysisVersion;
 - (void)ginObservingCloudStatusBlock;
 - (double)to delete recent suggestions at path:"%@" with error:%@. /* Error: Ran out of types for this method. */;
-- (id)enrecording;
+- (id)screenrecording;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) double rankingScore; // @synthesize rankingScore=_rankingScore;
-@property(copy, nonatomic) NSString *searchEntityIdentifier; // @synthesize searchEntityIdentifier=_searchEntityIdentifier;
-@property(copy, nonatomic) NSArray *synonyms; // @synthesize synonyms=_synonyms;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

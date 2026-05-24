@@ -7,12 +7,11 @@
 #import <MetalTools/MTLToolsObject.h>
 
 @class NSString;
-@protocol MTL4CommandAllocator, MTL4CommandBuffer;
+@protocol MTL4CommandBuffer;
 
 @interface MTL4ToolsCommandEncoder : MTLToolsObject
 {
     id <MTL4CommandBuffer> _commandBuffer;
-    id <MTL4CommandAllocator> _commandAllocator;
 }
 
 - (void);
@@ -31,26 +30,17 @@
 - (void);
 - (void);
 - (void);
+- (void)uS!;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)ThB;
 - (void)j2°!dGùh6°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandAllocator> commandAllocator;
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

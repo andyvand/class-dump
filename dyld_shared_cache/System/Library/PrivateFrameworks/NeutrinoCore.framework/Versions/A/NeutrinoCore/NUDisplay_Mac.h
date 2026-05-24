@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPixelFormat;
-
 @interface NUDisplay_Mac
 {
     unsigned int _displayID;
 }
 
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (CDStruct_912cb5d2);
 - (id);
-- (unsigned int);
-- (id)skImage;
+- (unsigned int)B;
+- (id)_maskImage;
 
 // Remaining properties
-@property(readonly) NUColorSpace *colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id identifier;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly) NUPixelFormat *pixelFormat;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
 
 @end
 

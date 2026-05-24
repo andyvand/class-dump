@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, SFService;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface RPAppSignInService
 {
     _Bool _activateCalled;
-    SFService *_bleAdvertiser;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    unsigned int _flags;
-    NSString *_appName;
-    NSString *_appBundleID;
-    NSArray *_associatedDomains;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)rd multi embedding yet;
+- (id)a;
 - (id);
 - (void);
 - (id);
@@ -37,14 +28,10 @@
 - (void);
 - (id);
 - (void);
-- (void)touchStop;
+- (void)_touchStop;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
 @property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(copy, nonatomic) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
 
 @end
 

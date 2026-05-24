@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol MRAVOutputDeviceDescriptionImpl
+- (NSString *);
+- (_Bool);
+- (unsigned int)!;
 - (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClusterLeader) _Bool clusterLeader;
-@property(readonly, nonatomic) unsigned int clusterType;
-@property(readonly, nonatomic) unsigned int deviceSubtype;
-@property(readonly, nonatomic) unsigned int deviceType;
-@property(readonly, nonatomic) NSString *modelID;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *roomID;
-@property(readonly, nonatomic) NSString *roomName;
-@property(readonly, nonatomic) NSArray *subComponents;
-@property(readonly, nonatomic) _Bool supportsEngageOnClusterActivation;
 @property(readonly, nonatomic) NSString *uid;
 @end
 

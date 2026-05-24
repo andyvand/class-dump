@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLBuffer;
 
 @interface PKMetalBuffer
 {
     unsigned long long _lockCount;
-    _Atomic int _isPurged;
-    id <MTLBuffer> _metalBuffer;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)rokesAnimationBounds;
+- (_Bool)_liveStrokeStrokesAnimationBounds;
 - (void)pression;
 - (void)b;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <MTLBuffer> metalBuffer; // @synthesize metalBuffer=_metalBuffer;
-@property(readonly) Class superclass;
 
 @end
 

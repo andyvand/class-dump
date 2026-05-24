@@ -6,27 +6,20 @@
 
 #import <OSAnalyticsPrivate/PCCJob.h>
 
-@class NSDictionary, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface PCCGroupJob : PCCJob
 {
     NSMutableArray *_log_sets;
-    NSDictionary *_content;
-    NSString *_group_type;
-    unsigned int _total_count;
-    unsigned int _rejected_count;
-    unsigned int _success_count;
-    unsigned int _error_count;
-    unsigned int _consecutive_error_count;
 }
 
-- (void);
-- (void);
+- (void)id *);
+- (void)SessionRef);
+- (id)mc2ucDetectionSSMGroupInfo;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)$[;
 
 @end
 

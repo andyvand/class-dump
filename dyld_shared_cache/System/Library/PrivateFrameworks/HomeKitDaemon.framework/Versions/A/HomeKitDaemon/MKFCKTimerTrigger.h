@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKTrigger.h>
 
-@class NSDate, NSDateComponents, NSString, NSTimeZone;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKTimerTrigger : MKFCKTrigger
@@ -14,16 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)hasClosureReason;
+- (_Bool)rvice] Will stop monitoring system block list updates;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *fireDate; // @dynamic fireDate;
-@property(retain, nonatomic) NSTimeZone *fireDateTimeZone; // @dynamic fireDateTimeZone;
-@property(retain, nonatomic) NSDateComponents *fireRepeatInterval; // @dynamic fireRepeatInterval;
-@property(nonatomic) long long recurrencesInt; // @dynamic recurrencesInt;
-@property(copy, nonatomic) NSString *significantEvent; // @dynamic significantEvent;
-@property(retain, nonatomic) NSDateComponents *significantEventOffset; // @dynamic significantEventOffset;
 
 @end
 

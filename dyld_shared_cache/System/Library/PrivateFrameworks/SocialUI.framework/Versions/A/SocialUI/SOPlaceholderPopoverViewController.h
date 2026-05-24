@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextField;
+@class NSTextField;
 
 @interface SOPlaceholderPopoverViewController
 {
     NSTextField *_placeholderLabel;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSTextField *placeholderLabel; // @synthesize placeholderLabel=_placeholderLabel;
-@property(copy) NSString *placeholderString;
 
 @end
 

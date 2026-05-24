@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalStreamTaskWorkWrite : __NSCFURLLocalStreamTaskWork
 {
     NSData *_bytesAsData;
-    unsigned long long _bytesToWrite;
-    CDUnknownBlockType _completion;
 }
 
-- (void);
+- (void)gravedeva;
 
 @end
 

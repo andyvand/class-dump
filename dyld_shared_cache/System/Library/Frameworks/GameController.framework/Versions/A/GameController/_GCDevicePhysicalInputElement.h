@@ -6,30 +6,27 @@
 
 #import <GameController/_GCDevicePhysicalInputView.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputElement : _GCDevicePhysicalInputView
 {
     unsigned long long _localizedNameSlot;
-    unsigned long long _symbolSlot;
-    NSString *_identifier;
-    NSSet *_aliases;
 }
 
 + (unsigned short);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -40,17 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSSet *aliases; // @synthesize aliases=_aliases;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly, copy) NSString *sfSymbolsName;
-@property(readonly) Class superclass;
 
 @end
 

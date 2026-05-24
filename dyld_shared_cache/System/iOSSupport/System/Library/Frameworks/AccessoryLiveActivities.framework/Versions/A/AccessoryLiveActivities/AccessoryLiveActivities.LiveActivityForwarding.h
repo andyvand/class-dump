@@ -7,6 +7,7 @@
 @interface AccessoryLiveActivities.LiveActivityForwarding
 {
     id handlerFactory;
+    id;
 }
 
 @end

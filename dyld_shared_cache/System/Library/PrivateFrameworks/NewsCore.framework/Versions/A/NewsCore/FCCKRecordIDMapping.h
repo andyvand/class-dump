@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, FCCKZoneSchema, NSString;
+@class FCCKZoneSchema;
 
 @interface FCCKRecordIDMapping
 {
     FCCKZoneSchema *_fromZoneSchema;
-    FCCKZoneSchema *_toZoneSchema;
-    NSString *_fromRecordName;
-    NSString *_toRecordName;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (id);
@@ -25,13 +22,7 @@
 - (_Bool)jLãµÿaÅjðr¶ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRecordID *fromRecordID;
-@property(readonly, nonatomic) NSString *fromRecordName; // @synthesize fromRecordName=_fromRecordName;
 @property(readonly, nonatomic) FCCKZoneSchema *fromZoneSchema; // @synthesize fromZoneSchema=_fromZoneSchema;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) CKRecordID *toRecordID;
-@property(readonly, nonatomic) NSString *toRecordName; // @synthesize toRecordName=_toRecordName;
-@property(readonly, nonatomic) FCCKZoneSchema *toZoneSchema; // @synthesize toZoneSchema=_toZoneSchema;
 
 @end
 

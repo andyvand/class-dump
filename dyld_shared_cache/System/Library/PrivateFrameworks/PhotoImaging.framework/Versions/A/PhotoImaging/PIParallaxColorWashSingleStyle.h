@@ -11,7 +11,6 @@
 @interface PIParallaxColorWashSingleStyle : PIParallaxStyle
 {
     _Bool _showsBackground;
-    PFParallaxColor *_color;
 }
 
 + (id);
@@ -28,11 +27,10 @@
 - (void);
 - (id);
 - (id);
-- (void)LinearImageTexture: /* Error: Ran out of types for this method. */;
+- (void)setInputLinearImageTexture: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PFParallaxColor *color; // @synthesize color=_color;
-@property(nonatomic) _Bool showsBackground; // @synthesize showsBackground=_showsBackground;
 
 @end
 

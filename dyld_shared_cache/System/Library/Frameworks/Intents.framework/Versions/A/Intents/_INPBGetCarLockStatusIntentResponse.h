@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBGetCarLockStatusIntentResponse
 {
     CDStruct_b1e20226 _has;
-    _Bool _locked;
 }
 
 + (_Bool);
@@ -20,22 +17,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)earbysync] FAILED to remember local network %{public}@, returned error %{public}@;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasLocked;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool locked; // @synthesize locked=_locked;
-@property(readonly) Class superclass;
 
 @end
 

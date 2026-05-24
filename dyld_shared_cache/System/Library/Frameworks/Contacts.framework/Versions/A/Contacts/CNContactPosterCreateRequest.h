@@ -6,32 +6,30 @@
 
 #import <Contacts/CNContactPosterDataCreateRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNContactPosterCreateRequest : CNContactPosterDataCreateRequest
 {
     NSString *_contactIdentifier;
-    NSArray *_posters;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)ler;
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void)@28@0:8B16B20B24 /* Error: Ran out of types for this method. */;
-- (void)dentifier:(id)arg1;
+- (void)insertNewInfoForUnifiedContactWithIdentifier:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy, nonatomic) NSArray *posters; // @synthesize posters=_posters;
 
 @end
 

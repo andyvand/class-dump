@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGMIMetricsTrialMetadata
 {
     int _deploymentId;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    struct {
-        unsigned int deploymentId:1;
-    } _has;
 }
 
 - (void);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)tion was interrupted;
 - (id);
 - (_Bool);
 - (void);
@@ -38,12 +31,7 @@
 - (void)hD;
 
 // Remaining properties
-@property(nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)FCReadingHistoryItem;
 - (id);
 - (void);
 - (void)°1Â0@ù

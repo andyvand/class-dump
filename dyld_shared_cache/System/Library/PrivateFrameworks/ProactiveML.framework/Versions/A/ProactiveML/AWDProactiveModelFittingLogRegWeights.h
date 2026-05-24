@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingEvalMetrics, AWDProactiveModelFittingMinibatchStats, AWDProactiveModelFittingModelInfo, AWDProactiveModelFittingQuantizedDenseVector, AWDProactiveModelFittingQuantizedSparseVector, AWDProactiveModelFittingSparseFloatVector;
-
 @interface AWDProactiveModelFittingLogRegWeights
 {
     unsigned long long _timestamp;
-    AWDProactiveModelFittingQuantizedDenseVector *_denseQuantizedWeights;
-    AWDProactiveModelFittingEvalMetrics *_evaluationMetrics;
-    AWDProactiveModelFittingMinibatchStats *_minibatchStats;
-    AWDProactiveModelFittingModelInfo *_modelInfo;
-    AWDProactiveModelFittingSparseFloatVector *_sparseFloatWeights;
-    AWDProactiveModelFittingQuantizedSparseVector *_sparseQuantizedWeights;
-    float _weightsL2norm;
-    float _weightsScaleFactor;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int weightsL2norm:1;
-        unsigned int weightsScaleFactor:1;
-    } _has;
 }
 
 - (float);
@@ -29,11 +14,11 @@
 - (id);
 - (id);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +36,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)statusGroupsForApplicationPermission:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -64,27 +49,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)n"I"total_in"Q"next_out"*"avail_out"I"total_out"Q"msg"*"state"^{internal_state}"zalloc"^?"zfree"^?"opaque"^v"data_type"i"adler"Q"reserved"Q};
 
 // Remaining properties
-@property(retain, nonatomic) AWDProactiveModelFittingQuantizedDenseVector *denseQuantizedWeights; // @synthesize denseQuantizedWeights=_denseQuantizedWeights;
-@property(retain, nonatomic) AWDProactiveModelFittingEvalMetrics *evaluationMetrics; // @synthesize evaluationMetrics=_evaluationMetrics;
-@property(readonly, nonatomic) _Bool hasDenseQuantizedWeights;
-@property(readonly, nonatomic) _Bool hasEvaluationMetrics;
-@property(readonly, nonatomic) _Bool hasMinibatchStats;
-@property(readonly, nonatomic) _Bool hasModelInfo;
-@property(readonly, nonatomic) _Bool hasSparseFloatWeights;
-@property(readonly, nonatomic) _Bool hasSparseQuantizedWeights;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasWeightsL2norm;
-@property(nonatomic) _Bool hasWeightsScaleFactor;
-@property(retain, nonatomic) AWDProactiveModelFittingMinibatchStats *minibatchStats; // @synthesize minibatchStats=_minibatchStats;
-@property(retain, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(retain, nonatomic) AWDProactiveModelFittingSparseFloatVector *sparseFloatWeights; // @synthesize sparseFloatWeights=_sparseFloatWeights;
-@property(retain, nonatomic) AWDProactiveModelFittingQuantizedSparseVector *sparseQuantizedWeights; // @synthesize sparseQuantizedWeights=_sparseQuantizedWeights;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) float weightsL2norm; // @synthesize weightsL2norm=_weightsL2norm;
-@property(nonatomic) float weightsScaleFactor; // @synthesize weightsScaleFactor=_weightsScaleFactor;
 
 @end
 

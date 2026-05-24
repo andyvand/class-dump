@@ -5,13 +5,10 @@
 //
 
 @class NSString;
-@protocol CNVCardLineFactory;
 
 @interface CNVCardLineGenerator
 {
     NSString *_lineName;
-    long long *_groupingCount;
-    id <CNVCardLineFactory> _lineFactory;
 }
 
 + (id);
@@ -28,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);

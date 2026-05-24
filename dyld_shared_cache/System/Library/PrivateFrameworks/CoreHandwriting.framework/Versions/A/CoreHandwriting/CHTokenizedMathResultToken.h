@@ -6,19 +6,14 @@
 
 #import <CoreHandwriting/CHTokenizedResultToken.h>
 
-@class NSString;
-
 @interface CHTokenizedMathResultToken : CHTokenizedResultToken
 {
     double _score;
-    unsigned long long _properties;
-    NSString *_maskedAlternative;
-    double _maskedAlternativeScore;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_internalNextTypeSelectMatchFromIndex:toIndex:forString: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (id);
@@ -27,7 +22,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)leOrderedSet",?,R,&,N;
 - (id);
 - (id);
 - (id);
@@ -35,16 +30,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (double);
+- (id)5;
+- (double)kIKScannerDeviceView_TryingToOpenScannerSession;
 - (id);
 - (void)%;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *maskedAlternative; // @synthesize maskedAlternative=_maskedAlternative;
-@property(readonly, nonatomic) double maskedAlternativeScore; // @synthesize maskedAlternativeScore=_maskedAlternativeScore;
 @property(readonly, nonatomic) unsigned long long properties;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

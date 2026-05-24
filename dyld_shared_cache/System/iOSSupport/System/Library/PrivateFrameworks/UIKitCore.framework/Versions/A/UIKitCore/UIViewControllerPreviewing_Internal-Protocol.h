@@ -7,6 +7,7 @@
 @protocol UIViewControllerPreviewingDelegate;
 
 @protocol UIViewControllerPreviewing_Internal
+- (id <UIViewControllerPreviewingDelegate>);
 - (void)0@ù
 × ;
 

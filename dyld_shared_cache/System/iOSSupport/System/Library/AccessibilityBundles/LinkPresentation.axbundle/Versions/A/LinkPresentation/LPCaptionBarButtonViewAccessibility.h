@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)__PUTilingViewAccessibility_super;
 - (void);
 - (void);
 - (void);

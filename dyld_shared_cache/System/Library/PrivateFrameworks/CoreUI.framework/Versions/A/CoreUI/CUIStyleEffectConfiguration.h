@@ -4,60 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIStyleEffectConfiguration
 {
     long long _state;
-    long long _presentationState;
-    long long _value;
-    unsigned long long _dimension1;
-    NSString *_appearanceName;
-    _Bool _useSimplifiedEffect;
-    _Bool _foregroundColorShouldTintEffects;
-    double _brightnessMultiplier;
-    double _effectScale;
-    unsigned long long _colorTemperature;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)N	;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)vN;
 - (void);
 - (void);
 - (long long);
 - (void);
 - (id);
 - (double);
-- (long long);
-- (_Bool);
+- (long long)J;
+- (_Bool)e existent if the importing schema has no target namespace;
 - (_Bool);
 - (unsigned long long);
-- (double)ight:glyphSize:fromUltralight:regular:black: /* Error: Ran out of types for this method. */;
+- (double)_interpolatedAnchorWithWeight:glyphSize:fromUltralight:regular:black: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appearanceName; // @synthesize appearanceName=_appearanceName;
-@property(nonatomic) double brightnessMultiplier; // @synthesize brightnessMultiplier=_brightnessMultiplier;
-@property(nonatomic) unsigned long long colorTemperature; // @synthesize colorTemperature=_colorTemperature;
-@property(nonatomic) unsigned long long dimension1; // @synthesize dimension1=_dimension1;
-@property(nonatomic) double effectScale; // @synthesize effectScale=_effectScale;
-@property(nonatomic) _Bool foregroundColorShouldTintEffects; // @synthesize foregroundColorShouldTintEffects=_foregroundColorShouldTintEffects;
-@property(nonatomic) long long presentationState; // @synthesize presentationState=_presentationState;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) _Bool useSimplifiedEffect; // @synthesize useSimplifiedEffect=_useSimplifiedEffect;
-@property(nonatomic) long long value; // @synthesize value=_value;
 
 @end
 

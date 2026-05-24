@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface RMDevice
 {
@@ -13,36 +13,22 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id){;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)conditionCode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UDID;
-@property(readonly, nonatomic) NSNumber *chipID;
-@property(readonly, nonatomic) _Bool hasSEP;
-@property(readonly, nonatomic) _Bool locked;
-@property(readonly, nonatomic) NSString *modelFamily;
-@property(readonly, nonatomic) NSString *modelIdentifier;
-@property(readonly, nonatomic) NSString *modelMarketingName;
-@property(readonly, nonatomic) NSString *modelNumber;
-@property(readonly, nonatomic) NSString *operatingSystem;
-@property(readonly, nonatomic) NSString *operatingSystemBuildVersion;
-@property(readonly, nonatomic) NSString *operatingSystemMarketingName;
-@property(readonly, nonatomic) NSString *operatingSystemSupplementalBuildVersion;
-@property(readonly, nonatomic) NSString *operatingSystemSupplementalExtraVersion;
-@property(readonly, nonatomic) NSString *operatingSystemVersion;
-@property(readonly, nonatomic) NSString *serialNumber;
 
 @end
 

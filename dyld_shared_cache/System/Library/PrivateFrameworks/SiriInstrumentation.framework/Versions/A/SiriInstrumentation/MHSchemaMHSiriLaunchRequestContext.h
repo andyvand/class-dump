@@ -6,31 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHSiriLaunchRequestEnded, MHSchemaMHSiriLaunchRequestStarted, NSData;
+@class MHSchemaMHSiriLaunchRequestStarted;
 
 @interface MHSchemaMHSiriLaunchRequestContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHSiriLaunchRequestStarted *_startedOrChanged;
-    MHSchemaMHSiriLaunchRequestEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)DSO_new_method;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,12 +37,7 @@
 - (void)àÃåÿ­3]!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHSiriLaunchRequestEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHSiriLaunchRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

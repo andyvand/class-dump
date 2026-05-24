@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBCKRecordFieldIdentifier, NTPBCKRecordFieldValue;
+@class NTPBCKRecordFieldIdentifier;
 
 @interface NTPBCKRecordField
 {
     NTPBCKRecordFieldIdentifier *_identifier;
-    NTPBCKRecordFieldValue *_value;
 }
 
 - (void);
@@ -26,13 +25,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ionCode;
+- (void)hasRegionCode;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NTPBCKRecordFieldIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NTPBCKRecordFieldValue *value; // @synthesize value=_value;
 
 @end
 

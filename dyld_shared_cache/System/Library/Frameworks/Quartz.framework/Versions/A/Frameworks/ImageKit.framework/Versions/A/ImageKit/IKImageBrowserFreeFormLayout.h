@@ -6,32 +6,12 @@
 
 #import <ImageKit/IKImageBrowserSubsetLayoutManager.h>
 
-@class NSMutableArray;
-
 @interface IKImageBrowserFreeFormLayout : IKImageBrowserSubsetLayoutManager
 {
     CDStruct_c3b9c2ee *_cellsPosition;
-    double *_cellsScale;
-    long long *_cellsZValue;
-    int _cellsCount;
-    long long _maxZValue;
-    struct CGPoint _anchorPoint;
-    struct CGSize _scaleFactor;
-    struct CGPoint _documentTranslation;
-    struct CGPoint _offset;
-    struct CGPoint _totalOffset;
-    NSMutableArray *_ordering;
-    struct __CFDictionary *_indexToOrderedIndex;
-    struct __CFDictionary *_zToIndex;
-    void *_bsp;
-    unsigned long long _rightIndex;
-    unsigned long long _bottomIndex;
-    unsigned long long _leftIndex;
-    unsigned long long _topIndex;
-    _Bool _edgeIndexesValid;
 }
 
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
@@ -49,7 +29,7 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (unsigned long long);
-- (struct CGPoint);
+- (struct CGPoint)P;
 - (CDStruct_c3b9c2ee);
 - (long long);
 - (unsigned long long);
@@ -64,15 +44,15 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (unsigned long long);
 - (void);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
-- (CDStruct_02837cd9);
-- (void);
+- (CDStruct_90e2a262);
+- (void));
 - (void);
 - (void);
 

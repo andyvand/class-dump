@@ -6,26 +6,24 @@
 
 #import <HomeKitDaemon/HMDCameraIDSSessionHandler.h>
 
-@class HMDApplicationVendorIDStore, HMDCameraIDSSessionInviterDeviceVerifier, NSString;
-@protocol HMDCameraIDSSessionReceiverDelegate, HMDIDSSession;
+@class HMDCameraIDSSessionInviterDeviceVerifier;
+@protocol HMDCameraIDSSessionReceiverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraIDSSessionReceiver : HMDCameraIDSSessionHandler
 {
     id <HMDCameraIDSSessionReceiverDelegate> _delegate;
-    HMDCameraIDSSessionInviterDeviceVerifier *_sessionInviterDeviceVerifier;
-    HMDApplicationVendorIDStore *_applicationVendorIDStore;
 }
 
 + (id)ÇB;
-- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)C;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,18 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)q ~&øÓÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDApplicationVendorIDStore *applicationVendorIDStore; // @synthesize applicationVendorIDStore=_applicationVendorIDStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraIDSSessionReceiverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMDIDSSession> idsSession;
-@property(readonly, copy) NSString *remoteDestination;
 @property(readonly, nonatomic) HMDCameraIDSSessionInviterDeviceVerifier *sessionInviterDeviceVerifier; // @synthesize sessionInviterDeviceVerifier=_sessionInviterDeviceVerifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGRecoveryFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
-    NSNumber *inputRecoveryEV;
-    NSNumber *inputRecoveryBreakpoint;
 }
 
 + (id);
-+ (void)r;
++ (void)DGPatchFilter;
 - (id);
 - (id);
 

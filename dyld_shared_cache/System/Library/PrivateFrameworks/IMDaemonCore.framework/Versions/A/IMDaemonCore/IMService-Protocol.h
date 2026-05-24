@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol IMService
 - (_Bool)cationAction;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ignoresNetworkConnectivity;
-@property(readonly, nonatomic) NSString *internalName;
-@property(readonly, nonatomic) _Bool supportsRegistration;
-@property(readonly, nonatomic) _Bool supportsRelay;
 @end
 

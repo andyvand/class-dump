@@ -13,11 +13,11 @@
 - (id);
 - (id);
 - (id);
+- (id)A0000000049100000100;
 - (id);
+- (id)inkRecommendationFlags:(unsigned long long)arg1 rtTrafficStatus:(id *)arg2;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);

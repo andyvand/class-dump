@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _ANEProcedureData
 {
     NSString *_procedureSymbol;
-    NSArray *_weightArray;
 }
 
-+ (id);
++ (id)f@"NSError">24;
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)b;
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *procedureSymbol; // @synthesize procedureSymbol=_procedureSymbol;
-@property(readonly, nonatomic) NSArray *weightArray; // @synthesize weightArray=_weightArray;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CKKeyboardContentViewController
 {
     UIViewController *_viewController;
-    NSString *_identifier;
 }
 
 - (id);
@@ -18,14 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (id)dTasks;
+- (id)executeDeferredTasks;
 - (void)AnywayButton;
 - (id)Tð¾;
 - (void)ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

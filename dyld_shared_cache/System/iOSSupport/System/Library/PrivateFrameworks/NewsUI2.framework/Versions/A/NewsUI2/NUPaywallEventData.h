@@ -7,12 +7,6 @@
 @interface NUPaywallEventData
 {
     id viewData;
-    id articleData;
-    id channel;
-    id feedData;
-    id groupData;
-    id referral;
-    id qToken;
 }
 
 - (id);

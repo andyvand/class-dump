@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLFeatureValue, NSDictionary;
-@protocol MLFeatureProvider;
+@class MLFeatureValue;
 
 @interface MLClassifierResult
 {
     MLFeatureValue *_predictedClass;
-    NSDictionary *_classProbability;
-    long long _predictedClassFeatureType;
-    id <MLFeatureProvider> _additionalFeatures;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)h;
++ (id);
++ (id)$X;
 + (id);
 - (long long);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)/
+;
 - (void)e in setting up to dynamically allocate for sequence size.;
 
 // Remaining properties
-@property(readonly) id <MLFeatureProvider> additionalFeatures; // @synthesize additionalFeatures=_additionalFeatures;
-@property(readonly) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
 @property(readonly) MLFeatureValue *predictedClass; // @synthesize predictedClass=_predictedClass;
-@property(readonly) long long predictedClassFeatureType; // @synthesize predictedClassFeatureType=_predictedClassFeatureType;
 
 @end
 

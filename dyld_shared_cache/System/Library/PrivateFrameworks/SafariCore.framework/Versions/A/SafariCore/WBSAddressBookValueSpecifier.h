@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface WBSAddressBookValueSpecifier
 {
     NSString *_property;
-    NSString *_component;
-    NSString *_label;
-    NSString *_category;
-    NSString *_parentProperty;
-    NSString *_classification;
-    NSString *_classificationHint;
 }
 
 - (id);
@@ -27,19 +21,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)for MPModelPropertyLyricsTTML;
 - (id);
 - (void)a×!DCùÑXÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSString *classification; // @synthesize classification=_classification;
-@property(readonly, nonatomic) NSString *classificationHint; // @synthesize classificationHint=_classificationHint;
-@property(readonly, nonatomic) NSString *component; // @synthesize component=_component;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *parentProperty; // @synthesize parentProperty=_parentProperty;
 @property(readonly, nonatomic) NSString *property; // @synthesize property=_property;
 
 @end

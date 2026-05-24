@@ -8,30 +8,17 @@
 @protocol MMCSOperationStateTimeRange;
 
 @protocol MMCSOperationMetric
+- (NSArray *);
+- (unsigned long long)h;
+- (NSMutableDictionary *);
 - (id <MMCSOperationStateTimeRange>)geFileIndices;
 - (unsigned long long)maxSectionChunkCount value:%lu /* Error: Ran out of types for this method. */;
 - (void)account;
-- (unsigned long long);
 - (unsigned long long)Global Configuration for operation %p;
 - (NSMutableSet *)nished before it could.;
 - (void)cloudd.;
 
 // Remaining properties
-@property unsigned long long bytesDownloaded;
-@property unsigned long long bytesFulfilledByPeers;
-@property unsigned long long bytesFulfilledLocally;
-@property unsigned long long bytesResumed;
-@property unsigned long long bytesUploaded;
-@property(readonly) NSMutableDictionary *chunkCountByChunkProfile;
-@property unsigned long long connections;
-@property unsigned long long connectionsCreated;
-@property(readonly) double duration;
-@property double executing;
-@property(readonly) NSMutableDictionary *fileCountByChunkProfile;
-@property double queueing;
-@property(readonly) NSArray *rangesCopy;
-@property(readonly) NSMutableSet *requestUUIDs;
 @property(readonly) NSDate *startDate;
-@property(readonly) NSMutableDictionary *totalBytesByChunkProfile;
 @end
 

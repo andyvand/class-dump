@@ -11,12 +11,12 @@
     CTLazuliChatBotSuggestedChip *_chip;
 }
 
-+ (_Bool);
++ (_Bool)requestStartTime;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (_Bool);
 - (void);

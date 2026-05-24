@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCCaptionsConfig
 {
     NSLocale *_locale;
-    unsigned char _taskHint;
-    unsigned char _usage;
-    _Bool _languageDetectorEnabled;
-    _Bool _explicitLanguageFilterEnabled;
-    unsigned char _callType;
-    _Bool _formatForNewLinesEnabled;
-    unsigned long long _languageDetectorReportingFrequency;
 }
 
 + (unsigned char);
@@ -29,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)9;
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -42,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned char);
@@ -50,14 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)&;
 
 // Remaining properties
-@property(nonatomic) unsigned char callType; // @synthesize callType=_callType;
-@property(nonatomic, getter=isExplicitLanguageFilterEnabled) _Bool explicitLanguageFilterEnabled; // @synthesize explicitLanguageFilterEnabled=_explicitLanguageFilterEnabled;
-@property(nonatomic, getter=isFormatForNewLinesEnabled) _Bool formatForNewLinesEnabled; // @synthesize formatForNewLinesEnabled=_formatForNewLinesEnabled;
-@property(nonatomic) _Bool languageDetectorEnabled; // @synthesize languageDetectorEnabled=_languageDetectorEnabled;
-@property(nonatomic) unsigned long long languageDetectorReportingFrequency; // @synthesize languageDetectorReportingFrequency=_languageDetectorReportingFrequency;
 @property(copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) unsigned char taskHint; // @synthesize taskHint=_taskHint;
-@property(nonatomic) unsigned char usage; // @synthesize usage=_usage;
 
 @end
 

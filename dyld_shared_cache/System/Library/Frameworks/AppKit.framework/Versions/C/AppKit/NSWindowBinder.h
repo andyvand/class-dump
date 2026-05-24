@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)h;
++ (id)er.bysocket;
 + (void);
 + (void)H;
 - (Class);
+- (_Bool)ng verification error 0x%016llX;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (void)eFoundation.framework/Versions/A/CoreFoundation;
+- (void);
+- (_Bool)backgroundDownloadTask:(id)arg1 didFinishDownloadingToURL:response:reply: /* Error: Ran out of types for this method. */;
+- (unsigned long long)reate from a NULL path!;
 - (void);
 - (void);
 - (void);

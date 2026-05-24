@@ -6,17 +6,14 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class NSArray, RTLocation;
+@class NSArray;
 
 @interface RTBluePOIMonitorEstimateUpdateNotification : RTNotification
 {
     NSArray *_inferredMapItems;
-    RTLocation *_referenceLocation;
-    NSArray *_locations;
-    NSArray *_accessPoints;
 }
 
-- (id);
+- (id)ata",&,N,V_currentMetadata;
 - (id);
 - (id);
 - (id);
@@ -25,10 +22,7 @@
 - (void)ate,%@,nextTransitionStartDate,%@,error,%@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;
 @property(readonly, nonatomic) NSArray *inferredMapItems; // @synthesize inferredMapItems=_inferredMapItems;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) RTLocation *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
 
 @end
 

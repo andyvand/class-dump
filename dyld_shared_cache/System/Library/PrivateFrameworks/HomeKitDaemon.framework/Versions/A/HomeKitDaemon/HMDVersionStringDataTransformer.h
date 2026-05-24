@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ChangeType:(id)arg1 uuid:(id *)arg2 parentUUID: /* Error: Ran out of types for this method. */;
-+ (Class)ata:ofType:forUserIndex:flow: /* Error: Ran out of types for this method. */;
++ (id)initWithObjectChangeType:(id)arg1 uuid:(id *)arg2 parentUUID: /* Error: Ran out of types for this method. */;
++ (Class)addDeviceCredentialKeyData:ofType:forUserIndex:flow: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

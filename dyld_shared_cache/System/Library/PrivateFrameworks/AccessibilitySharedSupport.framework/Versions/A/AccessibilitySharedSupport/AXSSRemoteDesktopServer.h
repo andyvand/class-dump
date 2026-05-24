@@ -9,13 +9,13 @@
     id _macImpl;
 }
 
-- (void);
+- (void)g;
 - (int);
 - (int);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 

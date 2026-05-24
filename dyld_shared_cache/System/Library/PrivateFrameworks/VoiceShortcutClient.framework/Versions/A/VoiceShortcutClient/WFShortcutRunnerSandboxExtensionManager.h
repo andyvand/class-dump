@@ -9,36 +9,31 @@
 @interface WFShortcutRunnerSandboxExtensionManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_issuedExtensionsAccessResources;
-    NSMutableSet *_issuedExtensionHandlers;
-    NSMutableSet *_resignedExtensionsAccessResources;
 }
 
 + (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool){;
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void){;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)ing";
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *issuedExtensionHandlers; // @synthesize issuedExtensionHandlers=_issuedExtensionHandlers;
 @property(readonly, nonatomic) NSMutableSet *issuedExtensionsAccessResources; // @synthesize issuedExtensionsAccessResources=_issuedExtensionsAccessResources;
-@property(readonly, nonatomic) NSMutableSet *resignedExtensionsAccessResources; // @synthesize resignedExtensionsAccessResources=_resignedExtensionsAccessResources;
 
 @end
 

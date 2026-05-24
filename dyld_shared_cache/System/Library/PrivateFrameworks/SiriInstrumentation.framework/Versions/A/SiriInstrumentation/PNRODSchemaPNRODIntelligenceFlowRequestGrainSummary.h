@@ -6,59 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODIntelligenceFlowRequestGrainSummary : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clientRequestId;
-    SISchemaUUID *_clientSessionId;
-    SISchemaUUID *_rawSessionId;
-    SISchemaUUID *_rawQueryEventId;
-    long long _status;
-    NSArray *_toolIds;
-    NSArray *_bundleIds;
-    NSArray *_requestFeatureTags;
-    unsigned int _numPlansCreated;
-    unsigned int _numPlansCreatedForResponse;
-    unsigned int _numQueriesCreated;
-    unsigned int _numActionsCreated;
-    unsigned int _numStatementsEvaluated;
-    unsigned int _numStatementsEvaluatedFromPlanner;
-    unsigned int _numResponseGenerationRequests;
-    unsigned int _numSystemResponsesGenerated;
-    unsigned int _numSystemPromptsResolved;
-    PNRODSchemaPNRODMetricDuration *_requestResponseTime;
-    PNRODSchemaPNRODMetricDuration *_planningTime;
-    PNRODSchemaPNRODMetricDuration *_queryTime;
-    PNRODSchemaPNRODMetricDuration *_executionTime;
-    PNRODSchemaPNRODMetricDuration *_responsePreparationTime;
-    PNRODSchemaPNRODMetricDuration *_planGenerationTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationTime;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int status:1;
-        unsigned int numPlansCreated:1;
-        unsigned int numPlansCreatedForResponse:1;
-        unsigned int numQueriesCreated:1;
-        unsigned int numActionsCreated:1;
-        unsigned int numStatementsEvaluated:1;
-        unsigned int numStatementsEvaluatedFromPlanner:1;
-        unsigned int numResponseGenerationRequests:1;
-        unsigned int numSystemResponsesGenerated:1;
-        unsigned int numSystemPromptsResolved:1;
-    } _has;
-    _Bool _hasClientRequestId;
-    _Bool _hasClientSessionId;
-    _Bool _hasRawSessionId;
-    _Bool _hasRawQueryEventId;
-    _Bool _hasRequestResponseTime;
-    _Bool _hasPlanningTime;
-    _Bool _hasQueryTime;
-    _Bool _hasExecutionTime;
-    _Bool _hasResponsePreparationTime;
-    _Bool _hasPlanGenerationTime;
-    _Bool _hasQueryDecorationTime;
-    _Bool _hasFailureInfo;
 }
 
 - (unsigned long long);
@@ -85,11 +37,11 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -106,7 +58,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (id);
 - (id);
@@ -114,12 +66,16 @@
 - (id);
 - (unsigned int);
 - (unsigned int);
+- (unsigned int)R;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (_Bool);
+- (_Bool)ii8	;
+- (_Bool);
+- (_Bool)R";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -135,11 +91,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)W;
+- (void)!;
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -150,16 +108,10 @@
 - (void);
 - (void);
 - (void);
+- (void)<;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -171,7 +123,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -184,76 +136,29 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)action;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)] while downloading file transfer with GUIDs %@;
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (id)
 × ;
-- (id)isWebSearchUsed;
+- (id)_isWebSearchUsed;
 - (id)ersion;
 - (_Bool)V_hasEnrollmentUIUtteranceTrainingAttempted;
 - (void)lÎöÿÎöÿ´ÎöÿØÎöÿüÎöÿ ÏöÿDÏöÿhÏöÿÏöÿ°ÏöÿÔÏöÿøÏöÿÐöÿ@ÐöÿdÐöÿÐöÿ¬ÐöÿÐÐöÿôÐöÿÑöÿ<Ñöÿ`ÑöÿÑöÿ¨ÑöÿÌÑöÿðÑöÿÒöÿ8Òöÿ\ÒöÿÒöÿ¤ÒöÿÈÒöÿìÒöÿÓöÿ4ÓöÿXÓöÿ|Óöÿ ÓöÿÄÓöÿèÓöÿÔöÿ0ÔöÿTÔöÿxÔöÿÔöÿÀÔöÿäÔöÿÕöÿ,ÕöÿPÕöÿtÕöÿÕöÿ¼ÕöÿàÕöÿÖöÿ(ÖöÿLÖöÿpÖöÿÖöÿ¸ÖöÿÜÖöÿ;
-- (void)BLUETOOTH_PERMISSION_REQUIRED;
+- (void)EXECUTORAPPINTENTERROR_ACTIONREQUIREMENT_PERMISSIONREQUIREMENT_BLUETOOTH_PERMISSION_REQUIRED;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bundleIds; // @synthesize bundleIds=_bundleIds;
 @property(retain, nonatomic) SISchemaUUID *clientRequestId; // @synthesize clientRequestId=_clientRequestId;
-@property(retain, nonatomic) SISchemaUUID *clientSessionId; // @synthesize clientSessionId=_clientSessionId;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *executionTime; // @synthesize executionTime=_executionTime;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasClientRequestId; // @synthesize hasClientRequestId=_hasClientRequestId;
-@property(nonatomic) _Bool hasClientSessionId; // @synthesize hasClientSessionId=_hasClientSessionId;
-@property(nonatomic) _Bool hasExecutionTime; // @synthesize hasExecutionTime=_hasExecutionTime;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasNumActionsCreated;
-@property(nonatomic) _Bool hasNumPlansCreated;
-@property(nonatomic) _Bool hasNumPlansCreatedForResponse;
-@property(nonatomic) _Bool hasNumQueriesCreated;
-@property(nonatomic) _Bool hasNumResponseGenerationRequests;
-@property(nonatomic) _Bool hasNumStatementsEvaluated;
-@property(nonatomic) _Bool hasNumStatementsEvaluatedFromPlanner;
-@property(nonatomic) _Bool hasNumSystemPromptsResolved;
-@property(nonatomic) _Bool hasNumSystemResponsesGenerated;
-@property(nonatomic) _Bool hasPlanGenerationTime; // @synthesize hasPlanGenerationTime=_hasPlanGenerationTime;
-@property(nonatomic) _Bool hasPlanningTime; // @synthesize hasPlanningTime=_hasPlanningTime;
-@property(nonatomic) _Bool hasQueryDecorationTime; // @synthesize hasQueryDecorationTime=_hasQueryDecorationTime;
-@property(nonatomic) _Bool hasQueryTime; // @synthesize hasQueryTime=_hasQueryTime;
-@property(nonatomic) _Bool hasRawQueryEventId; // @synthesize hasRawQueryEventId=_hasRawQueryEventId;
-@property(nonatomic) _Bool hasRawSessionId; // @synthesize hasRawSessionId=_hasRawSessionId;
-@property(nonatomic) _Bool hasRequestResponseTime; // @synthesize hasRequestResponseTime=_hasRequestResponseTime;
-@property(nonatomic) _Bool hasResponsePreparationTime; // @synthesize hasResponsePreparationTime=_hasResponsePreparationTime;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numActionsCreated; // @synthesize numActionsCreated=_numActionsCreated;
-@property(nonatomic) unsigned int numPlansCreated; // @synthesize numPlansCreated=_numPlansCreated;
-@property(nonatomic) unsigned int numPlansCreatedForResponse; // @synthesize numPlansCreatedForResponse=_numPlansCreatedForResponse;
-@property(nonatomic) unsigned int numQueriesCreated; // @synthesize numQueriesCreated=_numQueriesCreated;
-@property(nonatomic) unsigned int numResponseGenerationRequests; // @synthesize numResponseGenerationRequests=_numResponseGenerationRequests;
-@property(nonatomic) unsigned int numStatementsEvaluated; // @synthesize numStatementsEvaluated=_numStatementsEvaluated;
-@property(nonatomic) unsigned int numStatementsEvaluatedFromPlanner; // @synthesize numStatementsEvaluatedFromPlanner=_numStatementsEvaluatedFromPlanner;
-@property(nonatomic) unsigned int numSystemPromptsResolved; // @synthesize numSystemPromptsResolved=_numSystemPromptsResolved;
-@property(nonatomic) unsigned int numSystemResponsesGenerated; // @synthesize numSystemResponsesGenerated=_numSystemResponsesGenerated;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *planGenerationTime; // @synthesize planGenerationTime=_planGenerationTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *planningTime; // @synthesize planningTime=_planningTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationTime; // @synthesize queryDecorationTime=_queryDecorationTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryTime; // @synthesize queryTime=_queryTime;
-@property(retain, nonatomic) SISchemaUUID *rawQueryEventId; // @synthesize rawQueryEventId=_rawQueryEventId;
-@property(retain, nonatomic) SISchemaUUID *rawSessionId; // @synthesize rawSessionId=_rawSessionId;
-@property(copy, nonatomic) NSArray *requestFeatureTags; // @synthesize requestFeatureTags=_requestFeatureTags;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *requestResponseTime; // @synthesize requestResponseTime=_requestResponseTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responsePreparationTime; // @synthesize responsePreparationTime=_responsePreparationTime;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSArray *toolIds; // @synthesize toolIds=_toolIds;
 
 @end
 

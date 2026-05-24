@@ -11,7 +11,7 @@
     AVCaptureSynchronizedDataInternal_Tundra *_synchronizedDataInternal;
 }
 
-- (void);
+- (void)32;
 - (CDStruct_1b6d18a9);
 
 // Remaining properties

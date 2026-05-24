@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 
 + (int);
 + (int);
-+ (int);
++ (int);
 + (id);
-+ (struct EshColor);
++ (struct EshColor)(;
 
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface AVAudioRemoteNotificationPayload
 {
     NSString *_notification;
-    NSArray *_subscribedDelegates;
-    NSDictionary *_delegatePayload;
 }
 
 + (_Bool);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (id);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *delegatePayload; // @synthesize delegatePayload=_delegatePayload;
 @property(copy, nonatomic) NSString *notification; // @synthesize notification=_notification;
-@property(copy, nonatomic) NSArray *subscribedDelegates; // @synthesize subscribedDelegates=_subscribedDelegates;
 
 @end
 

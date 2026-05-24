@@ -4,45 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, NSURL;
+@class NSDate, NSDictionary;
 
 @interface ICStorePlatformMetadata
 {
     NSDate *_expirationDate;
-    NSDictionary *_metadataDictionary;
 }
 
-+ (id);
++ (id)HMUserSettingsAdapter";
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)inMaxOffset;
+- (_Bool)h;
 - (id);
 - (id);
 - (double);
+- (_Bool)`;
+- (long long);
+- (id);
+- (id);
+- (id)	*hB;
+- (id);
+- (long long);
+- (id);
+- (long long);
+- (id);
+- (id)valueForKeyFrame:controlType: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (id);
 - (long long);
 - (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
-- (long long);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -57,43 +56,7 @@
 - (long long).;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *artistName;
-@property(readonly, nonatomic) long long artistStoreAdamID;
-@property(readonly, copy, nonatomic) NSArray *artworkInfos;
-@property(readonly, copy, nonatomic) NSArray *audioTraits;
-@property(readonly, copy, nonatomic) NSURL *classicalURL;
-@property(readonly, copy, nonatomic) NSString *cloudUniversalLibraryID;
-@property(readonly, copy, nonatomic) NSString *collectionName;
-@property(readonly, nonatomic) long long collectionStoreAdamID;
-@property(readonly, copy, nonatomic) NSString *composerName;
-@property(readonly, copy, nonatomic) NSString *copyrightText;
-@property(readonly, nonatomic) long long discNumber;
-@property(readonly, nonatomic) double duration;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) long long explicitRating;
-@property(readonly, copy, nonatomic) NSArray *formerStoreAdamIDs;
-@property(readonly, copy, nonatomic) NSArray *genreNames;
-@property(readonly, nonatomic) _Bool hasDownloadedCatalogLyrics;
-@property(readonly, nonatomic) _Bool hasLyrics;
-@property(readonly, nonatomic) _Bool hasTimeSyncedLyrics;
-@property(readonly, nonatomic) _Bool isExplicit;
-@property(readonly, copy, nonatomic) NSString *kind;
 @property(readonly, copy, nonatomic) NSDictionary *metadataDictionary; // @synthesize metadataDictionary=_metadataDictionary;
-@property(readonly, nonatomic) long long movementCount;
-@property(readonly, copy, nonatomic) NSString *movementName;
-@property(readonly, nonatomic) long long movementNumber;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) NSArray *offers;
-@property(readonly, copy, nonatomic) NSString *playlistGlobalID;
-@property(readonly, copy, nonatomic) NSString *radioStationStringID;
-@property(readonly, copy, nonatomic) NSDate *releaseDate;
-@property(readonly, nonatomic) _Bool shouldShowComposer;
-@property(readonly, nonatomic) long long storeAdamID;
-@property(readonly, nonatomic) _Bool supportsVocalAttenuation;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) long long trackCount;
-@property(readonly, nonatomic) long long trackNumber;
-@property(readonly, copy, nonatomic) NSString *workName;
 
 @end
 

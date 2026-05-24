@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)wantsSeparatedSubviewsWithBezelConfiguration:(id)arg1;
 - (struct NSEdgeInsets)ÆÿÃb¨D;
 
 // Remaining properties

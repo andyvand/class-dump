@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEORouteInformation
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_detail;
-    GEOFormattedString *_distance;
-    GEOFormattedString *_duration;
-    GEOFormattedString *_routeDescription;
-    NSString *_separator;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_detail:1;
-        unsigned int read_distance:1;
-        unsigned int read_duration:1;
-        unsigned int read_routeDescription:1;
-        unsigned int read_separator:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
@@ -38,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id)eCoordinate=If}24@32;
-- (id);
-- (id)InferredSignals;
+- (id)hasAlternateArtwork;
+- (id)GEOPDSInferredSignals;
 - (void)B=ÐP@;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, NSSet;
+@class CKContainerID;
 
 @interface CKDContainerPrivacySettings
 {
     CKContainerID *_containerID;
-    NSSet *_applicationBundleIDs;
-    long long _discoverable;
 }
 
 - (id);
@@ -18,15 +16,14 @@
 - (id);
 - (id);
 - (long long);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)ceName '%@' - Supports MC2UCDetection=%d], isMC2UCDetectionEnabled=%d, isGroupPlayback=%d
+;
+- (id)submitAnalyticsEventForFetchRequest:duration:error:resultCount: /* Error: Ran out of types for this method. */;
+- (_Bool)LPropertyMapper";
 - (void).test.p01.B.Xaeaeg.com.apple.SafariShared.CloudTabs;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *applicationBundleIDs; // @synthesize applicationBundleIDs=_applicationBundleIDs;
 @property(readonly, copy, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, nonatomic) long long discoverable; // @synthesize discoverable=_discoverable;
 
 @end
 

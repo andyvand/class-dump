@@ -7,9 +7,6 @@
 @interface IOServiceObserver
 {
     id mTarget;
-    SEL mSelector;
-    unsigned int mIOConnectIterator;
-    unsigned int mIOTerminateIterator;
 }
 
 + (id);
@@ -20,14 +17,13 @@
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (SEL);
 - (void);
 
 // Remaining properties
-@property(readonly) SEL selector; // @synthesize selector=mSelector;
 @property(readonly) id target; // @synthesize target=mTarget;
 
 @end

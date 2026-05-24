@@ -21,14 +21,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)th to the deleteStmt;
+- (id)invalidateAsync_block_invoke;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy) NSArray *childNodes; // @synthesize childNodes=_childNodes;
 @property(readonly, copy) NSArray *leafNodes;
 
 @end

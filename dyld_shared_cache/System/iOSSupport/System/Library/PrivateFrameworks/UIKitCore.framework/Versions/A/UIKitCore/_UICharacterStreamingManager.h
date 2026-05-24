@@ -4,56 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableArray, NSString, UITextView;
+@class NSString, UITextView;
 
 __attribute__((visibility("hidden")))
 @interface _UICharacterStreamingManager
 {
     UITextView *_textView;
-    CADisplayLink *_streamingAnimationDisplayLink;
-    _Bool _streamingAnimationActive;
-    double _lastAnimationUpdateTimeStamp;
-    _Bool _committingFinalResults;
-    _Bool _discardNextHypothesis;
-    NSString *_previousHypothesis;
-    NSString *_lastHypothesis;
-    NSString *_targetHypothesis;
-    NSMutableArray *_pendingEdits;
-    double _streamingCharacterInsertionRate;
-    double _minDurationBetweenHypotheses;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)v24@0:(id)arg1 8@?<v@?q@"NSError">16;
+- (void)updateEngroupCreationDate:(id)arg1;
+- (void)transitionedHandles;
+- (void)setProperties:(id)arg1 ofParticipant:inChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (void)setErrorToKeyRollingError;
+- (void)sendPlayedReceiptForMessage:(double)arg1 toChatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (void)retrievePhoneAccountAndPhoneAliasFromIDSAccounts:(id)arg1;
+- (void)muteIdentifiersForChatStyle:(_Bool)arg1 groupID:domainIdentifiers:participantIDs:lastAddressedHandleID:originalGroupID:chatIdentifier: /* Error: Ran out of types for this method. */;
+- (id)collaborationNoticesDidChangeForChatGUIDs: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (double)redKeys:syncType:error:currentBatchCount:maxBatchCount:activity:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)_isDoingDeleteRecoverySync;
+- (_Bool)Dz;
+- (void);
+- (void)when fetching message types.;
+- (void). Starting translation... ;
 - (double);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
+- (void)onServiceRules";
 - (id);
 - (void)JZd;
 
 // Remaining properties
-@property(nonatomic) _Bool discardNextHypothesis; // @synthesize discardNextHypothesis=_discardNextHypothesis;
-@property(copy, nonatomic) NSString *lastHypothesis; // @synthesize lastHypothesis=_lastHypothesis;
-@property(nonatomic) double minDurationBetweenHypotheses; // @synthesize minDurationBetweenHypotheses=_minDurationBetweenHypotheses;
-@property(retain, nonatomic) NSMutableArray *pendingEdits; // @synthesize pendingEdits=_pendingEdits;
 @property(copy, nonatomic) NSString *previousHypothesis; // @synthesize previousHypothesis=_previousHypothesis;
-@property(nonatomic) double streamingCharacterInsertionRate; // @synthesize streamingCharacterInsertionRate=_streamingCharacterInsertionRate;
-@property(copy, nonatomic) NSString *targetHypothesis; // @synthesize targetHypothesis=_targetHypothesis;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface _INPBIntentExecutionResult
 {
     CDStruct_a8e956ad _has;
-    int _encodingFormat;
-    NSString *_encodedIntent;
-    NSString *_encodedIntentResponse;
 }
 
 + (_Bool);
@@ -21,36 +18,24 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)9h;
 - (id);
 - (int);
 - (id);
 - (id);
-- (int);
+- (int)l;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)XPC CONNECTION %{public}@ [pid=%d, euid=%d, egid=%d uuid=%{public}@];
 - (id);
 - (id);
 - (void)INSiriAuthorizationManager _siriAuthorizationStatusForAppID:intentSlot:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *encodedIntent; // @synthesize encodedIntent=_encodedIntent;
-@property(copy, nonatomic) NSString *encodedIntentResponse; // @synthesize encodedIntentResponse=_encodedIntentResponse;
-@property(nonatomic) int encodingFormat; // @synthesize encodingFormat=_encodingFormat;
-@property(readonly, nonatomic) _Bool hasEncodedIntent;
-@property(readonly, nonatomic) _Bool hasEncodedIntentResponse;
-@property(nonatomic) _Bool hasEncodingFormat;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

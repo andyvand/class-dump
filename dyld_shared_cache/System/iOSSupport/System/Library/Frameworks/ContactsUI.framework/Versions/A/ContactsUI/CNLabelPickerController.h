@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CNLabelPickerController : CNPickerController
 {
     CNPropertyGroupItem *_item;
-    NSMutableArray *_labelsToDeleteOnCommit;
 }
 
 - (id);
@@ -22,10 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)otifier;
+- (void)_contactChangesNotifier;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak CNPropertyGroupItem *item; // @synthesize item=_item;
 @property(retain) NSMutableArray *labelsToDeleteOnCommit; // @synthesize labelsToDeleteOnCommit=_labelsToDeleteOnCommit;
 
 @end

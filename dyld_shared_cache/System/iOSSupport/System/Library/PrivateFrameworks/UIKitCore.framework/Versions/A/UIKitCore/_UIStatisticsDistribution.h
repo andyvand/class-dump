@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ùÑ`1Â0@ù
 × ;
-- (_Bool)bEnabled;
-- (void)dropEffectView:(id)arg1;
+- (_Bool)thumbEnabled;
+- (void)setBackdropEffectView:(id)arg1;
 
 @end
 

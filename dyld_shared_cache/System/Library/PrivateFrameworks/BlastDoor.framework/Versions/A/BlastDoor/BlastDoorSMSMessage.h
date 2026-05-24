@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorSMSMessage_SMSFilteringSettings, NSArray, NSDate, NSString;
+@class NSString;
 
 @interface BlastDoorSMSMessage
 {
@@ -14,7 +14,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long);
@@ -28,18 +28,18 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (id)2;
+- (id)ler"16@"CNVisualIdentity"24@"CNContactImage"32;
+- (long long)/System/Library/PrivateFrameworks/FindMyUICore.framework/FindMyUICore;
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
 - (id);
+- (id);
+- (id);
+- (long long)disconnectDevice: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (_Bool);
 - (id)=µÿÿÿÿÿÌ;
 - (id)rþùÿ` ýÿ;
@@ -50,41 +50,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *GUID;
-@property(nonatomic, readonly) NSString *carrierNameSupportsReportJunk;
-@property(nonatomic, readonly) NSString *contentType;
-@property(nonatomic, readonly) NSString *countryCode;
-@property(nonatomic, readonly) NSDate *date;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *displayName;
-@property(nonatomic, readonly) _Bool encrypted;
-@property(nonatomic, readonly) NSString *fallbackHash;
-@property(nonatomic, readonly) long long filterSubCategory;
-@property(nonatomic, readonly) _Bool foundAppleGUID;
-@property(nonatomic, readonly) NSString *groupID;
-@property(nonatomic, readonly) _Bool has_iMessageCapability;
-@property(nonatomic, readonly) _Bool has_replaceMessage;
-@property(nonatomic, readonly) _Bool has_sendEnabled;
-@property(nonatomic, readonly) _Bool has_spamCategory;
-@property(nonatomic, readonly) _Bool has_trackMessage;
-@property(nonatomic, readonly) long long iMessageCapability;
-@property(nonatomic, readonly) NSArray *items;
-@property(nonatomic, readonly) NSString *originalGroupID;
-@property(nonatomic, readonly) NSString *originatedDeviceEmail;
-@property(nonatomic, readonly) NSString *originatedDeviceNumber;
-@property(nonatomic, readonly) NSString *originatedDeviceSIM;
-@property(nonatomic, readonly) NSString *originatedDeviceUniqueID;
-@property(nonatomic, readonly) NSArray *recipients;
-@property(nonatomic, readonly) long long replaceMessage;
-@property(nonatomic, readonly) _Bool sendEnabled;
-@property(nonatomic, readonly) NSString *sender;
-@property(nonatomic, readonly) NSString *serviceCenter;
-@property(nonatomic, readonly) BlastDoorSMSMessage_SMSFilteringSettings *smsFilteringSettings;
-@property(nonatomic, readonly) long long spamCategory;
-@property(nonatomic, readonly) NSString *subject;
-@property(nonatomic, readonly) _Bool trackMessage;
-@property(nonatomic, readonly) long long type;
-@property(nonatomic, readonly) NSString *version;
 
 @end
 

@@ -5,15 +5,11 @@
 //
 
 @protocol SXCollectionContentDisplay
+- (unsigned long long);
+- (struct _SXConvertibleValue);
+- (struct _SXConvertibleValue)m,;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long alignment;
-@property(readonly, nonatomic) unsigned long long distribution;
-@property(readonly, nonatomic) struct _SXConvertibleValue gutter;
-@property(readonly, nonatomic) struct _SXConvertibleValue maximumWidth;
 @property(readonly, nonatomic) struct _SXConvertibleValue minimumWidth;
-@property(readonly, nonatomic) struct _SXConvertibleValue rowSpacing;
-@property(readonly, nonatomic) _Bool variableSizing;
-@property(readonly, nonatomic) unsigned long long widows;
 @end
 

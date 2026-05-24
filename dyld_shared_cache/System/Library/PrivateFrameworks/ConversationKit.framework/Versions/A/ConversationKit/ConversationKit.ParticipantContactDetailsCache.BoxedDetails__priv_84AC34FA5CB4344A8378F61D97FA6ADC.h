@@ -9,7 +9,7 @@
     id details;
 }
 
-- (id);
+- (id)A/FMCore;
 - (void)|eüÿTEÿÿ;
 
 @end

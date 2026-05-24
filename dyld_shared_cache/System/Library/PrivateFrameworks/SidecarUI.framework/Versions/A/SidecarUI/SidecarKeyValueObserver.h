@@ -6,19 +6,15 @@
 
 #import <SidecarUI/SidecarRunLoopSource.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface SidecarKeyValueObserver : SidecarRunLoopSource
 {
     id _representedObject;
-    NSSet *_keys;
-    CDUnknownBlockType _handler;
 }
 
-+ (id);
++ (id)aggregateInvalid;
 - (void);
-- (void);
+- (void)movieDataWithTitleFontName: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (CDUnknownBlockType);

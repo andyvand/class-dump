@@ -6,18 +6,16 @@
 
 #import <KnowledgeGraphKit/KGMemoryGraphStore.h>
 
-@class KGDatabase, NSURL;
+@class KGDatabase;
 
 @interface KGDegasAllInMemoryGraphStore : KGMemoryGraphStore
 {
     KGDatabase *_database;
-    unsigned long long _transactionCounter;
-    NSURL *_url;
 }
 
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)!`M;
 + (_Bool);
 - (void);
 - (void);
@@ -35,7 +33,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)logger;
 - (void)ÿÿÿÿ@;
 
 @end

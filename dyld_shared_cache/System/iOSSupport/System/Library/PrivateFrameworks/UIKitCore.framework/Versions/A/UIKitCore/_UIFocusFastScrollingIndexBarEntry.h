@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSString;
 
 @interface _UIFocusFastScrollingIndexBarEntry
 {
     _Bool _isPlaceholder;
-    _Bool _hasCachedContentOffset;
-    struct CGPoint _cachedContentOffset;
-    CDUnknownBlockType _contentOffsetGenerator;
-    NSString *_title;
-    NSIndexPath *_targetFocusedIndexPath;
 }
 
 + (id);
@@ -21,18 +16,15 @@
 + (id);
 - (id);
 - (void);
+- (id)initWithMemberStatus:(id)arg1 forHandle:(CDUnknownBlockType)arg2 forChat:style: /* Error: Ran out of types for this method. */;
+- (id)initWithLocalDomain:(id)arg1 remoteDomain:(struct CGPoint)arg2 localStorageDelegate:remoteStorageDelegate:watchSyncDelegate:syncConfigurationDelegate: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (struct CGPoint)ewAboveText;
+- (struct CGPoint)_hostViewAboveText;
 - (id)ert document that already has an open or revert operation in flight:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic, getter=isPlaceholder) _Bool placeholder;
-@property(copy, nonatomic) NSIndexPath *targetFocusedIndexPath; // @synthesize targetFocusedIndexPath=_targetFocusedIndexPath;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

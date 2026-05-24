@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContact, NSArray, NSString;
+
 @protocol AACNContactsManager
+- (void)ing anchor certificates:(NSString *)arg1 %d;
+- (NSString *)db/DEP.plist;
+- (CNContact *)DEP_IgnoreSimulator;
+- (CNContact *)APNS) forcing response of:(NSArray *)arg1 %@;
+- (CNContact *)und;
 @end
 

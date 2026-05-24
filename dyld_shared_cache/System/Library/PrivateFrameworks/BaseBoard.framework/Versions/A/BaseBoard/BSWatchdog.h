@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAbsoluteMachTimer, NSDate, NSObject;
-@protocol BSWatchdogDelegate, BSWatchdogProviding, OS_dispatch_queue;
+@class BSAbsoluteMachTimer;
+@protocol BSWatchdogDelegate;
 
 @interface BSWatchdog
 {
     BSAbsoluteMachTimer *_timer;
-    CDUnknownBlockType _completion;
-    _Bool _invalidated;
-    _Bool _completed;
-    _Bool _hasFired;
-    id <BSWatchdogDelegate> _delegate;
-    id <BSWatchdogProviding> _provider;
-    double _timeout;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_startDate;
 }
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -36,17 +27,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id).%ld;
 - (double);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <BSWatchdogDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=hasFired) _Bool fired; // @synthesize fired=_hasFired;
-@property(readonly, nonatomic) id <BSWatchdogProviding> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

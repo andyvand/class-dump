@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MDLMeshBufferAllocator, MDLMeshBufferZone;
+@protocol MDLMeshBufferZone;
 
 @protocol MDLMeshBuffer
+- (id <MDLMeshBufferZone>);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator;
 @property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, retain, nonatomic) id <MDLMeshBufferZone> zone;
 @end
 

@@ -6,14 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSImageView, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface NSSavePanelAlertStyleContentView : NSView
 {
     NSImageView *_iconView;
-    NSTextField *_messageTextField;
-    NSTextField *_informativeMessageTextField;
 }
 
 - (void);
@@ -24,16 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void)_socketStreamClient;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)meResizePosition;
+- (void)NNSCursorFrameResizePosition;
 
 // Remaining properties
 @property NSImageView *iconView; // @synthesize iconView=_iconView;
-@property NSTextField *informativeMessageTextField; // @synthesize informativeMessageTextField=_informativeMessageTextField;
-@property NSTextField *messageTextField; // @synthesize messageTextField=_messageTextField;
 
 @end
 

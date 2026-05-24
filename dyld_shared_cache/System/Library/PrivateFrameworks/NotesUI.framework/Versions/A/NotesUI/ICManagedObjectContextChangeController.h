@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSelectorDelayer, NSMutableSet, NSObject, NSSet;
-@protocol ICManagedObjectContextChangeControllerDelegate, OS_dispatch_queue;
+@class NSSet;
+@protocol ICManagedObjectContextChangeControllerDelegate;
 
 @interface ICManagedObjectContextChangeController
 {
     id <ICManagedObjectContextChangeControllerDelegate> _delegate;
-    NSSet *_managedObjectContexts;
-    unsigned long long _objectTypes;
-    double _updateInterval;
-    NSMutableSet *_needsUpdateManagedObjectIDs;
-    NSObject<OS_dispatch_queue> *_needsUpdateManagedObjectIDsSerialQueue;
-    ICSelectorDelayer *_updateSelectorDelayer;
 }
 
 - (id);
@@ -27,32 +21,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
+- (unsigned long long)sociatedMessagesDOMProvider",R,N,V_associatedMessagesDOMProvider;
+- (id);
 - (void);
 - (id);
-- (void)ionType;
+- (void);
+- (void);
+- (id);
+- (void)_timelineSectionType;
 - (double);
 
 // Remaining properties
-@property(nonatomic) __weak id <ICManagedObjectContextChangeControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSSet *managedObjectContexts; // @synthesize managedObjectContexts=_managedObjectContexts;
-@property(retain, nonatomic) NSMutableSet *needsUpdateManagedObjectIDs; // @synthesize needsUpdateManagedObjectIDs=_needsUpdateManagedObjectIDs;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *needsUpdateManagedObjectIDsSerialQueue; // @synthesize needsUpdateManagedObjectIDsSerialQueue=_needsUpdateManagedObjectIDsSerialQueue;
-@property(readonly, nonatomic) NSSet *objectTypeKeys;
-@property(nonatomic) unsigned long long objectTypes; // @synthesize objectTypes=_objectTypes;
-@property(nonatomic) double updateInterval; // @synthesize updateInterval=_updateInterval;
-@property(retain, nonatomic) ICSelectorDelayer *updateSelectorDelayer; // @synthesize updateSelectorDelayer=_updateSelectorDelayer;
 
 @end
 

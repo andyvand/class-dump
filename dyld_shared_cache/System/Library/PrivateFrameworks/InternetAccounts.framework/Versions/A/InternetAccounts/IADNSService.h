@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class NSString;
 
 @interface IADNSService
 {
     NSString *_serverAddress;
-    NSMutableDictionary *_mailServers;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    _Bool _readResultsFromCache;
-    _Bool _writeResultsToCache;
 }
 
 - (_Bool);
@@ -25,19 +20,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)	?נ;
+- (void)(;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *mailServers; // @synthesize mailServers=_mailServers;
-@property _Bool readResultsFromCache; // @synthesize readResultsFromCache=_readResultsFromCache;
-@property(readonly) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
 @property(retain) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
-@property _Bool writeResultsToCache; // @synthesize writeResultsToCache=_writeResultsToCache;
 
 @end
 

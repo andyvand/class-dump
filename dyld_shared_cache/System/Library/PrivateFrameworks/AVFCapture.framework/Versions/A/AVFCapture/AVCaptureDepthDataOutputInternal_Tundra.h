@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureDepthDataOutputInternal_Tundra
 {
     _Bool alwaysDiscardsLateDepthData;
-    _Bool filteringEnabled;
-    AVWeakReference *weakReferenceDelegate;
-    NSObject<OS_dispatch_queue> *clientQueue;
-    struct os_unfair_lock_s internalLock;
 }
 
-- (void);
+- (void)ticationPluginManager",&,V_authenticationPluginManager;
 - (id);
 
 @end

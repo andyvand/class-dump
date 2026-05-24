@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface MSVSegmentedCodingPackage
 {
     _Bool _needsInfoDictionaryUpdate;
-    NSURL *_packageURL;
-    Class _archivedClass;
-    NSMutableDictionary *_segmentEncoderMap;
-    NSMutableDictionary *_infoDictionary;
 }
 
 + (id);
@@ -37,11 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *allVersions;
-@property(retain, nonatomic) Class archivedClass; // @synthesize archivedClass=_archivedClass;
-@property(retain, nonatomic) NSMutableDictionary *infoDictionary; // @synthesize infoDictionary=_infoDictionary;
 @property(copy, nonatomic) NSURL *packageURL; // @synthesize packageURL=_packageURL;
-@property(retain, nonatomic) NSMutableDictionary *segmentEncoderMap; // @synthesize segmentEncoderMap=_segmentEncoderMap;
 
 @end
 

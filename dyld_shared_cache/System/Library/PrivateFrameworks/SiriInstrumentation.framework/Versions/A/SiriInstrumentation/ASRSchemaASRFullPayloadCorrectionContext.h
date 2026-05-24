@@ -6,56 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRFullPayloadCorrectionEnded, ASRSchemaASRFullPayloadCorrectionFailed, ASRSchemaASRFullPayloadCorrectionStarted, NSData;
+@class ASRSchemaASRFullPayloadCorrectionStarted;
 
 @interface ASRSchemaASRFullPayloadCorrectionContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRFullPayloadCorrectionStarted *_startedOrChanged;
-    ASRSchemaASRFullPayloadCorrectionEnded *_ended;
-    ASRSchemaASRFullPayloadCorrectionFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)Account"24@?<v@?B@"NSError">32;
+- (void)@"NSString"16@"NSString"24@"NSString"32@"NSString"40@"NSString"48@"NSString"56@"NSNumber"64@"NSNumber"72@?<v@?@"NSDictionary">80;
 - (id);
+- (id);
+- (id)6^{__CFString=}24^{__CFString=}32^{__CFString=}40^^{__CFUserNotification}48^?56d64;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)oreThreshold;
+- (id)speakerIdScoreThreshold;
 - (id)Dðtä,`Ä;
 - (id);
 - (void)I´}';
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRFullPayloadCorrectionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ASRSchemaASRFullPayloadCorrectionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRFullPayloadCorrectionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

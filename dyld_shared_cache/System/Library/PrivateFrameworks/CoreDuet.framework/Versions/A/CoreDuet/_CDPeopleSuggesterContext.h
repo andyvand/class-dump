@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString, _CDInteraction;
+@class NSDate, _CDInteraction;
 
 @interface _CDPeopleSuggesterContext
 {
     NSDate *_date;
-    NSString *_locationUUID;
-    NSString *_title;
-    NSString *_contactPrefix;
-    NSSet *_seedContactIdentifiers;
-    NSSet *_nearbyPeople;
-    NSString *_consumerIdentifier;
-    NSSet *_contentUTIs;
-    _CDInteraction *_activeInteraction;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)\;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id)Z%;
+- (id);
+- (void)#;
+- (id);
 - (id);
 - (void);
 - (id);
+- (id)P;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ltiMaker_Cura_5.2.2;
 - (void);
 
 // Remaining properties
 @property(retain) _CDInteraction *activeInteraction; // @synthesize activeInteraction=_activeInteraction;
-@property(retain) NSString *consumerIdentifier; // @synthesize consumerIdentifier=_consumerIdentifier;
-@property(retain) NSString *contactPrefix; // @synthesize contactPrefix=_contactPrefix;
-@property(retain) NSSet *contentUTIs; // @synthesize contentUTIs=_contentUTIs;
-@property(retain) NSDate *date; // @synthesize date=_date;
-@property(retain) NSString *locationUUID; // @synthesize locationUUID=_locationUUID;
-@property(retain) NSSet *nearbyPeople; // @synthesize nearbyPeople=_nearbyPeople;
-@property(retain) NSSet *seedContactIdentifiers; // @synthesize seedContactIdentifiers=_seedContactIdentifiers;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

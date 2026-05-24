@@ -44,22 +44,6 @@ struct __DDResult {
     float _field12;
 };
 
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
-};
-
-struct header_s {
-    unsigned int qidCount;
-    unsigned int topicCount;
-    unsigned int nonzeroCount;
-    unsigned int payloadLen;
-};
-
 struct shared_ptr<std::vector<float>> {
     void *_field1;
     struct __shared_weak_count *_field2;
@@ -70,18 +54,6 @@ struct unique_ptr<std::vector<PPScoreInterpreterValue>, std::default_delete<std:
 };
 
 struct unique_ptr<std::vector<PPSubscoreIdentifier>, std::default_delete<std::vector<PPSubscoreIdentifier>>> {
-    CDStruct_cffa721c ;
-};
-
-struct unique_ptr<std::vector<float>, std::default_delete<std::vector<float>>> {
-    CDStruct_cffa721c ;
-};
-
-struct unique_ptr<std::vector<std::shared_ptr<std::vector<float>>>, std::default_delete<std::vector<std::shared_ptr<std::vector<float>>>>> {
-    CDStruct_cffa721c ;
-};
-
-struct unique_ptr<std::vector<std::vector<std::unordered_set<PPSubscoreIdentifier>>>, std::default_delete<std::vector<std::vector<std::unordered_set<PPSubscoreIdentifier>>>>> {
     CDStruct_cffa721c ;
 };
 
@@ -101,62 +73,9 @@ typedef struct {
     long long _field2;
 } CDStruct_912cb5d2;
 
-// Ambiguous groups
-typedef struct {
-    unsigned int resultSizeLog10:1;
-    unsigned int error:1;
-    unsigned int exclusionSpec:1;
-    unsigned int limitHit:1;
-    unsigned int timeLimited:1;
-    unsigned int timeSpec:1;
-} CDStruct_68ee747f;
-
-typedef struct {
-    unsigned int rank:1;
-    unsigned int algorithm:1;
-    unsigned int donationSource:1;
-    unsigned int newItem:1;
-    unsigned int userCreated:1;
-} CDStruct_9710aa02;
-
-typedef struct {
-    unsigned int algorithm:1;
-    unsigned int donationSource:1;
-} CDStruct_e3b84e97;
-
-typedef struct {
-    unsigned int algorithm:1;
-    unsigned int source:1;
-} CDStruct_95ef61a7;
-
-typedef struct {
-    unsigned int domain:1;
-} CDStruct_497d21fc;
-
-typedef struct {
-    unsigned int donationSource:1;
-} CDStruct_a8edabe5;
-
-typedef struct {
-    unsigned int feedbackType:1;
-} CDStruct_00b579d7;
-
-typedef struct {
-    unsigned int schemaVersion:1;
-} CDStruct_278ffb8f;
-
-typedef struct {
-    unsigned int value:1;
-} CDStruct_01ef6375;
-
+// Template types
 typedef struct shared_ptr<std::vector<float>> {
     void *_field1;
     struct __shared_weak_count *_field2;
 } shared_ptr_60ebf058;
-
-#pragma mark Named Unions
-
-union type {
-    unsigned char __data[24];
-};
 

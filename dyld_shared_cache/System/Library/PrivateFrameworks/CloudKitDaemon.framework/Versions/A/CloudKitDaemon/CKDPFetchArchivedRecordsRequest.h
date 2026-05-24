@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAssetsToDownload, CKDPRecordZoneIdentifier, NSData;
+@class NSData;
 
 @interface CKDPFetchArchivedRecordsRequest
 {
     NSData *_archiveContinuationToken;
-    CKDPAssetsToDownload *_assetsToDownload;
-    unsigned int _limit;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    _Bool _newestFirst;
-    struct {
-        unsigned int limit:1;
-        unsigned int newestFirst:1;
-    } _has;
 }
 
 + (id);
@@ -27,41 +19,41 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)formatTransitDetailRaw:(id)arg1 forProvider:forCity: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)tr}] Trying to enable HK Access Control when there are no peers
+;
+- (unsigned long long)ipV6NetworkSignature;
+- (_Bool);
 - (unsigned int);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)stence.m;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (unsigned int);
+- (unsigned int)GsatVJJ5T/5EVDuL
+QgLaZNiWeAC19+clUREnS247RjLNIZZq0hj2Rk5zO6sSyt8vM+kJZrTVdGaSk++l
+OFWzSdo0Ev/izPkuL/cH146YZS1UWZJI61mdvbvvxqqQaoTmviuMDqDoCZ7crLu3
+LRoS6/+w+xir5s6hmAF8D6FzAkVmeAroyd6Hclk6CnhlcQP5GxjTQjA2YGe/9X54
+30qL4fjiDwdLYqxyL5J28/yxt068aoVaukoRAgiGoZouyieTV9DabenxYBOygijS
+4G4RVf4qVnQ7wGkQokhz4WIkMr4C4ydWU3GhSuM3T9Tx9ASscch/oLMczDMLKYMe
+3sdtc60+gxrctSq/B3E/5nddDj9vQ7BdRWcvJ+n/ESsXgwk5z15YZUwU/qW0j5rD
+4bPy9nox5DLds+/l
+-----END CERTIFICATE-----;
 - (id);
 - (id)ÑÛ1Â0@ù
 × ;
-- (Class):error: /* Error: Ran out of types for this method. */;
+- (Class)deleteCallbackWithMetadata:error: /* Error: Ran out of types for this method. */;
 - (void)response for request %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *archiveContinuationToken; // @synthesize archiveContinuationToken=_archiveContinuationToken;
-@property(retain, nonatomic) CKDPAssetsToDownload *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(readonly, nonatomic) _Bool hasArchiveContinuationToken;
-@property(readonly, nonatomic) _Bool hasAssetsToDownload;
-@property(nonatomic) _Bool hasLimit;
-@property(nonatomic) _Bool hasNewestFirst;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) unsigned int limit; // @synthesize limit=_limit;
-@property(nonatomic) _Bool newestFirst; // @synthesize newestFirst=_newestFirst;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

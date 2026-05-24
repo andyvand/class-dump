@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-+ (int);
++ (int)_preciseAddressNodesByMomentNode;
 + (_Bool);
 + (int);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)keyPathsForValuesAffectingIsReconnecting;
 
 @end
 

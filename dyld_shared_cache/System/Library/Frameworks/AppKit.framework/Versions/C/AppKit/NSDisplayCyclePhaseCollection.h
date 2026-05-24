@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSPointerArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSDisplayCyclePhaseCollection
 {
     unsigned long long _changeCount;
-    NSMapTable *_earlierPhasesByPhase;
-    NSPointerArray *_orderedPhases;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)t certificates (%ld elements);
 - (void);
 - (id);
 - (unsigned long long)­`ÿU	ÌF;
 
 // Remaining properties
-@property(readonly) unsigned long long changeCount;
 @property(readonly) NSArray *orderedPhases;
 
 @end

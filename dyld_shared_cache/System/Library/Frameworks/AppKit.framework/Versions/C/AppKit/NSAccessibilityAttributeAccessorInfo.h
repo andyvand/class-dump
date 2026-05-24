@@ -10,54 +10,41 @@ __attribute__((visibility("hidden")))
 @interface NSAccessibilityAttributeAccessorInfo
 {
     NSString *_attribute;
-    long long _returnType;
-    _Bool _parameterized;
-    SEL _getter;
-    SEL _setter;
-    long long _paramType;
-    _Bool _isBaseImplementationAcceptable;
 }
 
-+ (id);
++ (id)vent"24@?<v@?>32;
 + (id);
 - (SEL);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tHosts"{map<std:(_Bool)arg1:shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)de_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std:(long long)arg1:shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)SString"24@"NSData"32@"NSDictionary"40@"AVAssetDownloadConfiguration"48;
+- (void)substringWithRange:(SEL)arg1;
+- (_Bool)initWithIdentity:(id)arg1 certificates:(id)arg2 persistence: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)V;
+- (_Bool)for com.apple.CFNetwork.har-capture-update;
 - (SEL);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
-- (id);
+- (id)firstPartyMsgMorningSun;
 - (long long);
-- (SEL)wBuildLayerTreeOnForcibleDisplay;
-- (void)ingAreaKey;
+- (SEL)NSViewBuildLayerTreeOnForcibleDisplay;
+- (void)_NSAutosaveButtonTrackingAreaKey;
 - (void)index <= [_splitViewItems count] && index >= 0;
 - (long long) ;
 - (id)P¢F;
 
 // Remaining properties
-@property SEL action;
 @property(retain) NSString *attribute; // @synthesize attribute=_attribute;
-@property SEL getter; // @synthesize getter=_getter;
-@property _Bool isBaseImplementationAcceptable; // @synthesize isBaseImplementationAcceptable=_isBaseImplementationAcceptable;
-@property long long paramType; // @synthesize paramType=_paramType;
-@property(getter=isParameterized) _Bool parameterized; // @synthesize parameterized=_parameterized;
-@property long long returnType; // @synthesize returnType=_returnType;
-@property SEL setter; // @synthesize setter=_setter;
 
 @end
 

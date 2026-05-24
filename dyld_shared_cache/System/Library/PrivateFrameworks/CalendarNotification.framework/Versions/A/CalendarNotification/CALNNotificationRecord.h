@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNNotificationContent, NSDate, NSString;
+@class NSString;
 
 @interface CALNNotificationRecord
 {
     NSString *_sourceIdentifier;
-    NSString *_sourceClientIdentifier;
-    CALNNotificationContent *_content;
-    NSDate *_date;
-    _Bool _shouldPresentAlert;
-    _Bool _shouldPlaySound;
 }
 
 + (_Bool);
@@ -23,14 +18,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (void);
-- (id);
+- (id)achmentGadget;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,13 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CALNNotificationContent *content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) _Bool hasAlertContent;
-@property(readonly, nonatomic) _Bool hasSound;
-@property(readonly, nonatomic) _Bool shouldPlaySound; // @synthesize shouldPlaySound=_shouldPlaySound;
-@property(readonly, nonatomic) _Bool shouldPresentAlert; // @synthesize shouldPresentAlert=_shouldPresentAlert;
-@property(readonly, copy, nonatomic) NSString *sourceClientIdentifier; // @synthesize sourceClientIdentifier=_sourceClientIdentifier;
 @property(readonly, copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 
 @end

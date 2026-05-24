@@ -4,32 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessoryPairingRequest, HMFActivity, HMFTimer, NSData, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDUnpairedHAPAccessoryPairingInformation
 {
     _Bool _allowAddUnauthenticatedAccessory;
-    _Bool _provideNetworkCredentialsToAccessory;
-    _Bool _setupCodeProvided;
-    long long _linkType;
-    HMFTimer *_pairingInterruptionTimer;
-    CDUnknownBlockType _addAccessoryCompletionHandler;
-    CDUnknownBlockType _addAccessoryProgressHandler;
-    CDUnknownBlockType _setupCodeProviderCompletionHandler;
-    HMFTimer *_pairingRetryTimer;
-    HMFTimer *_reconfirmTimer;
-    HMFActivity *_pairingActivity;
-    HAPAccessoryPairingRequest *_pairingRequest;
-    NSString *_accessoryName;
-    NSUUID *_accessoryUUID;
-    NSUUID *_homeUUID;
-    NSString *_accessoryServerIdentifier;
-    NSString *_setupCode;
-    NSString *_setupID;
-    NSUUID *_setupAuthTokenUUID;
-    NSData *_setupAuthToken;
-    long long _ipType;
 }
 
 - (CDUnknownBlockType);
@@ -50,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
-- (id);
+- (id)_indexesOfRemovedObjects;
+- (id)_fetchQueuesDidUpdate;
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -71,38 +49,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)1Â0@ù
 × ;
 - (id);
-- (void);
+- (void)private;
 - (id);
 - (id);
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
-@property(retain, nonatomic) NSString *accessoryServerIdentifier; // @synthesize accessoryServerIdentifier=_accessoryServerIdentifier;
-@property(retain, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(copy, nonatomic) CDUnknownBlockType addAccessoryCompletionHandler; // @synthesize addAccessoryCompletionHandler=_addAccessoryCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType addAccessoryProgressHandler; // @synthesize addAccessoryProgressHandler=_addAccessoryProgressHandler;
-@property(nonatomic) _Bool allowAddUnauthenticatedAccessory; // @synthesize allowAddUnauthenticatedAccessory=_allowAddUnauthenticatedAccessory;
-@property(copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, nonatomic) long long ipType; // @synthesize ipType=_ipType;
 @property(nonatomic) long long linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) __weak HMFActivity *pairingActivity; // @synthesize pairingActivity=_pairingActivity;
-@property(retain, nonatomic) HMFTimer *pairingInterruptionTimer; // @synthesize pairingInterruptionTimer=_pairingInterruptionTimer;
-@property(readonly, nonatomic) HAPAccessoryPairingRequest *pairingRequest; // @synthesize pairingRequest=_pairingRequest;
-@property(retain, nonatomic) HMFTimer *pairingRetryTimer; // @synthesize pairingRetryTimer=_pairingRetryTimer;
-@property(nonatomic) _Bool provideNetworkCredentialsToAccessory; // @synthesize provideNetworkCredentialsToAccessory=_provideNetworkCredentialsToAccessory;
-@property(retain, nonatomic) HMFTimer *reconfirmTimer; // @synthesize reconfirmTimer=_reconfirmTimer;
-@property(retain, nonatomic) NSData *setupAuthToken; // @synthesize setupAuthToken=_setupAuthToken;
-@property(retain, nonatomic) NSUUID *setupAuthTokenUUID; // @synthesize setupAuthTokenUUID=_setupAuthTokenUUID;
-@property(retain, nonatomic) NSString *setupCode; // @synthesize setupCode=_setupCode;
-@property(nonatomic) _Bool setupCodeProvided; // @synthesize setupCodeProvided=_setupCodeProvided;
-@property(copy, nonatomic) CDUnknownBlockType setupCodeProviderCompletionHandler; // @synthesize setupCodeProviderCompletionHandler=_setupCodeProviderCompletionHandler;
-@property(retain, nonatomic) NSString *setupID; // @synthesize setupID=_setupID;
 
 @end
 

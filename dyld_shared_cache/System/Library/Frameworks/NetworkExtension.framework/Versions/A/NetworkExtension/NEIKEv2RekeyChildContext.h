@@ -11,7 +11,7 @@
     unsigned int _childID;
 }
 
-- (id);
+- (id)02.1x;
 - (int)assword entered;
 
 @end

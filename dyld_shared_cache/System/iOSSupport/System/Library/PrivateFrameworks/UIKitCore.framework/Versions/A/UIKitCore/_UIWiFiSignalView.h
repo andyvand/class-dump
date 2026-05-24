@@ -6,7 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIAccessibilityHUDItem, UIColor;
 @protocol _UISignalViewImplementation;
 
 __attribute__((visibility("hidden")))
@@ -20,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (struct CGSize);
 - (void);
-- (void)date:(long long)arg1;
-- (void)ntSelectionContainsPoint:(long long)arg1;
-- (id);
+- (void)setNeedsHoverStyleUpdate:(long long)arg1;
+- (void)currentSelectionContainsPoint:(long long)arg1;
+- (id)_parentAvatarViewSize;
 - (id)¤ô;
 - (void)mojiCategoryPrepopulated(void);
 - (void)¨Âþ;
@@ -37,20 +36,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-@property(copy, nonatomic) UIColor *activeColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIColor *inactiveColor;
-@property(nonatomic) long long numberOfActiveBars;
-@property(nonatomic) long long numberOfBars;
-@property(nonatomic) long long signalMode;
 @property(nonatomic) long long sizeCategory;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,101 +6,90 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSColor, NSColorList, NSColorPickerPencils, NSColoredPencil, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSString, NSTrackingArea;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerPencilView : NSView
 {
     NSMutableArray *_pencils;
-    NSMutableDictionary *_pencilLayers;
-    NSColoredPencil *_hoveredPencil;
-    NSColoredPencil *_selectedPencil;
-    NSColoredPencil *_currentFocusedPencil;
-    NSTrackingArea *_trackingArea;
-    NSColorList *_pencilColorList;
-    NSColorPickerPencils *_controllingPicker;
-    NSLayoutConstraint *_aspectRatioConstraint;
-    unsigned int _didHoverOutsideSelectedPencil:1;
-    unsigned int _didCompleteScaledPencilRender:1;
-    unsigned int _reservedFlags:31;
 }
 
 + (_Bool)Ñâ31Â0@ù
 × ;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)setWithCapacity: /* Error: Ran out of types for this method. */;
+- (void)setNetworkDownloadSize:(id)arg1;
+- (void)setIsTopLevelNavigation:(id)arg1;
+- (void)setExpectedProgressTarget:(id)arg1 forTaskWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setCredential:forProtectionSpace:task: /* Error: Ran out of types for this method. */;
+- (id)initWithCFHTTPCookie: /* Error: Ran out of types for this method. */;
+- (void)_legacySocketStreamProperties;
+- (void)sponse_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id)D4;
+- (id);
+- (_Bool);
+- (void);
+- (void)ersions/A/NetworkServiceProxy;
+- (void)got %zu bytes of decoder stream;
+- (void)ended header; hinfo absent;
+- (struct CGRect)-sharing:(id)arg1 %d ident:%@, cache = %p, cookies = %p, auth = %p, hsts = %p } /* Error: Ran out of types for this method. */;
+- (id)sandboxExt;
+- (_Bool)ror=}8{shared_ptr<__CFDictionary>=^{__CFDictionary}^{__shared_weak_count}}16;
+- (void)cSAQICAQBuggUxMIIFLaADAgEFoQMCAQ6iBwMFAAAAAACjggQiYYIEHjCCBBqgAwIBBaEbGxlDT1JFU0VSVklDRVNET00uQVBQTEUuQ09NoiowKKADAgEDoSEwHxsESFRUUBsXY29yZXByb3h5MjAwNi5hcHBsZS5jb22jggPIMIIDxKADAgEXoQMCAQuiggO2BIIDsr462JTRgOjDtOBS82RF5fsT81I+xb2M7e2roBBr/iiPw7ceB94eq1yqTjfHFDlScm96toANdWSwRyAXDc5zpV6IE4+R4i3rDAAAiESAEThFXkIIm1A9oDDkvdbRYxpQ7ZxQTIRnf9scj2NMcQYJjeZgcoevQmRw1anhxXQPyTwNXGlz4XHVmS8hC4uoDOH0IhSkT3grri1c/GwQnHSmQdP82oKGjU9NKN4a3I/daTWoAXoX+Rx/Pi8zvT1DJiarcC9R4r50z4/hSZHo72jVY+BfbekKuzGPPVULO3NZMh2bGTq+1wsVCk86GVhq21BQZPS7ovvAu7yMj2pDUPLDDiuXUEwBdtZj6UR64VZE8MVY75cgOXU89QjVkA4cJVp7wmWVPiJRYDos2NhHvdfza2PM5uAi3wxpj3u4SUvWdrnl3T6mGIvzP+rle+osabo+votkD6bewAYPgzIHmZ8EdbzjADBsziSQGZu7zVU6nxm/6dfsRkX368s/jnIhAjZjLp34o5uTqA4LfSzuUf4zC5hE1q/PSD8DNTK/LH4pMApZqCN03hbugMsf2Ya1irOY/7/uHsfA0Vv/GbsQmbXxDfdao3H5iiAolGCJZqEyxafxOqywa0BoVO0J/6CjX0BqQh3jed8yax1Jz71vxPMoMGweNpCNI1ulpb4kMsImqVk0LJjNxxE46KwfK/zsmXvuc6yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (struct CGRect);
 - (struct CGRect);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)nc;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)V;
 - (void);
 - (id);
 - (void)8{CGPoint=dd}16Q32d40q48@56q64;
-- (void)idth:(id)arg1 fillColor:cornerRadius: /* Error: Ran out of types for this method. */;
-- (id)ecognizer:(struct CGRect)arg1 inRect:ofView: /* Error: Ran out of types for this method. */;
-- (void)Jiggle;
+- (void)viewWithStrokeColor:(id)arg1 strokeWidth:fillColor:cornerRadius: /* Error: Ran out of types for this method. */;
+- (id)beginTrackingGestureRecognizer:(struct CGRect)arg1 inRect:ofView: /* Error: Ran out of types for this method. */;
+- (void)_leadingJiggle;
 - (void): /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)JD;
@@ -108,14 +97,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSColorList *_colorList;
-@property(readonly) NSColoredPencil *_focusedPencil;
-@property(readonly) _Bool _hasFocusRing;
 @property(readonly, copy) NSArray *_pencils;
-@property(readonly) NSColoredPencil *_selectedPencil;
-@property(readonly) _Bool _shouldShowFocusRing;
-@property(copy) NSColor *color;
-@property(readonly, copy) NSString *localizedColorNameComponent;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface DRSDampeningConfiguration
 {
     double _hysteresis;
-    unsigned long long _countCap;
-    double _acceptanceRate;
 }
 
 + (id);
@@ -16,6 +14,23 @@
 + (id);
 + (id);
 + (id);
++ (id)TouchBarItem;
++ (id);
++ (id);
++ (id);
++ (id)J;
++ (id);
++ (id);
++ (id);
++ (id)I;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
@@ -42,27 +57,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
+- (_Bool)tableView:(id)arg1 userCanChangeVisibilityOfTableColumn: /* Error: Ran out of types for this method. */;
+- (id)ȥ;
 - (id);
-- (id);
-- (double);
+- (double)le for Tag keyboard tab bar icon;
 - (id);
 - (id);
 - (double);
@@ -70,14 +68,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)Q;
+- (void)4;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double acceptanceRate; // @synthesize acceptanceRate=_acceptanceRate;
-@property(nonatomic) unsigned long long countCap; // @synthesize countCap=_countCap;
 @property(nonatomic) double hysteresis; // @synthesize hysteresis=_hysteresis;
 
 @end

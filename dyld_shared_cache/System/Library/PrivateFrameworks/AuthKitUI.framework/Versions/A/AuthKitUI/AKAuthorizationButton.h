@@ -20,7 +20,6 @@
 - (struct NSEdgeInsets);
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets alignmentRectInsetsOverride; // @synthesize alignmentRectInsetsOverride=_alignmentRectInsetsOverride;
 @property(copy, nonatomic) NSString *buttonText;
 
 @end

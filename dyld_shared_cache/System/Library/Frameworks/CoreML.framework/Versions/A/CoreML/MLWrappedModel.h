@@ -6,17 +6,14 @@
 
 #import <CoreML/MLModel.h>
 
-@class NSString;
-
 @interface MLWrappedModel : MLModel
 {
     MLModel *_innerModel;
-    NSString *_reason;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)refitInstanceLeafNodeInPlaceKernel;
+- (id)ect<OS_xpc_object>"8;
+- (id)alidation =;
 - (void);
 - (id);
 - (id);
@@ -29,7 +26,6 @@
 
 // Remaining properties
 @property(retain) MLModel *innerModel; // @synthesize innerModel=_innerModel;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

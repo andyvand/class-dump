@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, FCNewsTabiNotificationScoringConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiNotificationScoringEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiNotificationScoringConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 - (void)"8@"COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata"16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiNotificationScoringConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

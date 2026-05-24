@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, CALayer, NSString;
+@class CALayer;
 
 @interface CAStateTransitionElement
 {
     CALayer *_target;
-    CAAnimation *_animation;
-    NSString *_key;
-    _Bool _enabled;
 }
 
 + (void);
 + (_Bool);
 - (id);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (id);
 - (double);
 - (void);
 - (id);
-- (double);
-- (id);
+- (double)_recordWithIDWasDeletedBlock_wrapper;
+- (id)SQLiteError;
 - (_Bool);
 - (void);
 - (id);
@@ -40,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CAAnimation *animation; // @synthesize animation=_animation;
-@property(nonatomic) double beginTime;
-@property(nonatomic) double duration;
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) __weak CALayer *target; // @synthesize target=_target;
 
 @end
 

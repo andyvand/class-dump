@@ -9,18 +9,6 @@
 @interface _EARVoiceCommandDebugInfo
 {
     _Bool _hasVoiceCommandInExhaustiveParses;
-    _Bool _hasVoiceCommandParses;
-    _Bool _hasVoiceCommandEditIntent;
-    _Bool _hasVoiceCommandAfterReranking;
-    _Bool _hasNoVoiceCommandAfterRespeakCheck;
-    NSString *_precedingUtterance;
-    NSString *_commandUtterance;
-    NSString *_target;
-    NSString *_payload;
-    unsigned long long _commandParserMachContinuousStartTicks;
-    unsigned long long _commandParserMachContinuousEndTicks;
-    unsigned long long _commandParserMachAbsoluteStartTicks;
-    unsigned long long _commandParserMachAbsoluteEndTicks;
 }
 
 + (_Bool);
@@ -29,35 +17,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
+- (unsigned long long);
+- (unsigned long long)c;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (id)privilegeWithdrawn;
 - (id);
-- (id);
-- (id);
+- (id)nil and error;
 - (_Bool);
 - (void);
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long commandParserMachAbsoluteEndTicks; // @synthesize commandParserMachAbsoluteEndTicks=_commandParserMachAbsoluteEndTicks;
-@property(readonly, nonatomic) unsigned long long commandParserMachAbsoluteStartTicks; // @synthesize commandParserMachAbsoluteStartTicks=_commandParserMachAbsoluteStartTicks;
-@property(readonly, nonatomic) unsigned long long commandParserMachContinuousEndTicks; // @synthesize commandParserMachContinuousEndTicks=_commandParserMachContinuousEndTicks;
-@property(readonly, nonatomic) unsigned long long commandParserMachContinuousStartTicks; // @synthesize commandParserMachContinuousStartTicks=_commandParserMachContinuousStartTicks;
-@property(readonly, nonatomic) NSString *commandUtterance; // @synthesize commandUtterance=_commandUtterance;
-@property(readonly, nonatomic) _Bool hasNoVoiceCommandAfterRespeakCheck; // @synthesize hasNoVoiceCommandAfterRespeakCheck=_hasNoVoiceCommandAfterRespeakCheck;
-@property(readonly, nonatomic) _Bool hasVoiceCommandAfterReranking; // @synthesize hasVoiceCommandAfterReranking=_hasVoiceCommandAfterReranking;
-@property(readonly, nonatomic) _Bool hasVoiceCommandEditIntent; // @synthesize hasVoiceCommandEditIntent=_hasVoiceCommandEditIntent;
-@property(readonly, nonatomic) _Bool hasVoiceCommandInExhaustiveParses; // @synthesize hasVoiceCommandInExhaustiveParses=_hasVoiceCommandInExhaustiveParses;
-@property(readonly, nonatomic) _Bool hasVoiceCommandParses; // @synthesize hasVoiceCommandParses=_hasVoiceCommandParses;
-@property(readonly, nonatomic) NSString *payload; // @synthesize payload=_payload;
 @property(readonly, nonatomic) NSString *precedingUtterance; // @synthesize precedingUtterance=_precedingUtterance;
-@property(readonly, nonatomic) NSString *target; // @synthesize target=_target;
 
 @end
 

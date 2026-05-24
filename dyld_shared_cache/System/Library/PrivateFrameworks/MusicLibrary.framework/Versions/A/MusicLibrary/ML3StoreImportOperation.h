@@ -6,21 +6,19 @@
 
 #import <MusicLibrary/ML3ImportOperation.h>
 
-@class ML3StoreItemAlbumArtistData, ML3StoreItemPlaylistData, ML3StoreItemTrackData;
+@class ML3StoreItemTrackData;
 
 __attribute__((visibility("hidden")))
 @interface ML3StoreImportOperation : ML3ImportOperation
 {
     ML3StoreItemTrackData *_trackData;
-    ML3StoreItemPlaylistData *_playlistData;
-    ML3StoreItemAlbumArtistData *_albumArtistData;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)ingAlbumList;
+- (_Bool)rebuildWorkIsRequiredForEntity:(void *)arg1;
+- (_Bool)reachedMinSplit;
+- (_Bool)@"PLExtendedAttributes",&,D,N;
+- (unsigned long long)%{public}@;
 - (void);
 - (void)IN (%@) AND (%@) GROUP BY album_pid ORDER BY liked_state, date_accessed;
 

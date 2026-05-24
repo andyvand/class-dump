@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSDate, NSNumber;
+@class NSArray;
 
 @interface PKPaymentAvailableProductsResponse : PKPaymentWebServiceResponse
 {
@@ -14,15 +14,13 @@
 }
 
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (_Bool);
-- (void)hicleIdentifier;
+- (void)personalizedVehicleIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *availableProducts; // @synthesize availableProducts=_availableProducts;
-@property(readonly, nonatomic) NSDate *expiry;
-@property(readonly, nonatomic) NSNumber *timestamp;
 
 @end
 

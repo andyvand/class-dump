@@ -7,17 +7,13 @@
 @interface IKIrisListener
 {
     id _delegate;
-    void *_irisMatcher;
-    struct __CFArray *_irisListeners;
-    _Bool _irisClosedInitialized;
-    _Bool _irisClosed;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

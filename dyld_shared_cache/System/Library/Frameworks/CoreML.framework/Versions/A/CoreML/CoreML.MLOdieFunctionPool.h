@@ -7,8 +7,6 @@
 @interface CoreML.MLOdieFunctionPool
 {
     id programLibrary;
-    id functionName;
-    id pool;
 }
 
 @end

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SIRINLUResponseStatus
 {
     int _statusCode;
-    NSString *_statusDescription;
 }
 
 + (_Bool);
@@ -20,12 +17,11 @@
 - (void);
 - (void)noVerb_commonEmail_EmailAttribute;
 - (id)ÊÿåÐ(LÊÿ;
-- (int)aft_ta_Message;
+- (int)UsoTask_draft_ta_Message;
 - (void);
 
 // Remaining properties
 @property(nonatomic) int statusCode; // @synthesize statusCode=_statusCode;
-@property(retain, nonatomic) NSString *statusDescription; // @synthesize statusDescription=_statusDescription;
 
 @end
 

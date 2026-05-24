@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDeviceCapabilitiesModel, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceCapabilities
 {
     struct os_unfair_lock_s _lock;
-    HMDDeviceCapabilitiesModel *_objectModel;
-    _Bool _supportsInstallManagedConfigurationProfile;
 }
 
 + (_Bool);
@@ -19,16 +17,16 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (unsigned long long);
 + (_Bool);
++ (_Bool)removeTrackingArea: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)learnError;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)(;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -41,16 +39,16 @@ __attribute__((visibility("hidden")))
 × ;
 + (unsigned long long)teDataGenerator"24;
 + (_Bool);
-+ (unsigned long long)r:sentBytes:totalBytes: /* Error: Ran out of types for this method. */;
-+ (id)edWithServer;
-+ (_Bool)unt;
-+ (_Bool)aFromChannel: /* Error: Ran out of types for this method. */;
++ (unsigned long long)service:account:identifier:sentBytes:totalBytes: /* Error: Ran out of types for this method. */;
++ (id)heartbeatPingMessagesQueuedWithServer;
++ (_Bool)consecutiveFailureCount;
++ (_Bool)_submitPriorityUpdateMetricsIfNeededWithReceivedDataFromChannel: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool)À:lè¥ /* Error: Ran out of types for this method. */;
 + (_Bool)t target;
 + (_Bool)Creating watch video connection with name:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)MDoorbellChimeProfile;
-+ (_Bool)ri_soundAlert_value;
++ (_Bool)_HMDoorbellChimeProfile;
++ (_Bool)root_siri_soundAlert_value;
 + (id);
 + (id);
 - (_Bool);
@@ -65,23 +63,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)upport 60 FPS encoding;
+- (_Bool)AddEntryToFirewall;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)colorMatrixFilter;
+- (_Bool)applyWithExtent:arguments: /* Error: Ran out of types for this method. */;
+- (_Bool)_maxAutoPitch;
+- (_Bool)inputWhiteDstRGB;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)=7;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -100,16 +98,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -123,13 +121,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)NSString"16@"NSObject<OS_dispatch_queue>"24@?<v@?@"<HMDBackgroundSystemTask>">32;
 - (_Bool)ssage"24@"NSUUID"32@"NSUUID"40@"NSString"48@"HMImmutableSettingValue"56@"HMFVersion"64;
-- (id)escriptionWithBlacklistKeys:(id)arg1;
-- (_Bool)uration;
-- (id)MMessage:(struct _NSZone *)arg1;
-- (_Bool)ateFromData:error: /* Error: Ran out of types for this method. */;
-- (_Bool)entTriggerInvalidService:context: /* Error: Ran out of types for this method. */;
+- (id)secureDescriptionWithBlacklistKeys:(id)arg1;
+- (_Bool)rtpConfiguration;
+- (id)handleUnregisterHMMMMessage:(struct _NSZone *)arg1;
+- (_Bool)decodePredicateFromData:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_fixupCharacteristicEventTriggerInvalidService:context: /* Error: Ran out of types for this method. */;
 - (id)R,C,N,V_reason;
-- (_Bool)thZoneManager:modelClass: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithZoneManager:modelClass: /* Error: Ran out of types for this method. */;
 - (_Bool)aSource>",R,N,V_dataSource;
 - (_Bool)R,C,N;
 - (id)V_schemaVersion;
@@ -147,10 +145,10 @@ __attribute__((visibility("hidden")))
 - (Class)tinuing legacy add for unassociated accessory:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)notifications enabled=%{BOOL}d and adding matter attributes to registration payload. Attributes=%@;
 - (void)%s No designated Find My device;
-- (_Bool)nt;
+- (_Bool)reducedUsageCount;
 - (id)ÿ;
-- (_Bool)itCount;
-- (_Bool)SS_MODE_TITLE;
+- (_Bool)CloudStoreCommitCount;
+- (_Bool)BULLETIN_WALLET_KEY_EXPRESS_MODE_TITLE;
 - (void)KitDaemon.HMDCameraKeyManager;
 - (_Bool);
 - (_Bool)À;
@@ -161,99 +159,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)A;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clearsKeychainWhenRemovedFromHome;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isResidentCapable;
-@property(readonly) Class modelClass;
-@property(readonly, copy, nonatomic) NSUUID *modelIdentifier;
 @property(copy, nonatomic) NSUUID *modelParentIdentifier;
-@property(readonly, nonatomic, getter=isRemoteGatewayCapable) _Bool remoteGatewayCapable;
-@property(readonly, nonatomic, getter=isResidentCapable) _Bool residentCapable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAccessCodes;
-@property(readonly, nonatomic) _Bool supportsAnnounce;
-@property(readonly, nonatomic) _Bool supportsAssistantAccessControl;
-@property(readonly, nonatomic) _Bool supportsAudioReturnChannel;
-@property(readonly, nonatomic) _Bool supportsCHIP;
-@property(readonly, nonatomic) _Bool supportsCameraActivityZones;
-@property(readonly, nonatomic) _Bool supportsCameraPackageDetection;
-@property(readonly, nonatomic) _Bool supportsCameraRecording;
-@property(readonly, nonatomic) _Bool supportsCameraRecordingReachabilityNotifications;
-@property(readonly, nonatomic) _Bool supportsCameraSignificantEventNotifications;
-@property(readonly, nonatomic) _Bool supportsCloudDataSync;
-@property(readonly, nonatomic) _Bool supportsCompanionInitiatedObliterate;
-@property(readonly, nonatomic) _Bool supportsCompanionInitiatedRestart;
-@property(readonly, nonatomic) _Bool supportsCoordinationDoorbellChime;
-@property(readonly, nonatomic) _Bool supportsCoordinationFreeDoorbellChime;
-@property(readonly, nonatomic) _Bool supportsCrossfadeAsAirPlaySource;
-@property(readonly, nonatomic) _Bool supportsCustomMediaApplicationDestination;
-@property(readonly, nonatomic) _Bool supportsDedicatedStatusChannel;
-@property(readonly, nonatomic) _Bool supportsDeviceSetup;
-@property(readonly, nonatomic) _Bool supportsDistributedExecutionOnAppleMediaAccessories;
-@property(readonly, nonatomic) _Bool supportsDistributedExecutionOnPrimary;
-@property(readonly) _Bool supportsDoorbellChime;
-@property(readonly, nonatomic) _Bool supportsEventLog;
-@property(readonly, nonatomic) _Bool supportsFaceClassification;
-@property(readonly, nonatomic) _Bool supportsFirmwareUpdate;
-@property(readonly, nonatomic) _Bool supportsHEVC;
-@property(readonly, nonatomic) _Bool supportsHKSV3;
-@property(readonly, nonatomic) _Bool supportsHomeActivityState;
-@property(readonly) _Bool supportsHomeHub;
-@property(readonly, nonatomic) _Bool supportsHomeInvitation;
-@property(readonly, nonatomic) _Bool supportsHomeLevelLocationServiceSetting;
-@property(readonly, nonatomic) _Bool supportsIDSActivityMonitorPresence;
-@property(readonly, nonatomic) _Bool supportsInstallManagedConfigurationProfile; // @synthesize supportsInstallManagedConfigurationProfile=_supportsInstallManagedConfigurationProfile;
-@property(readonly) _Bool supportsJustSiri;
-@property(readonly, nonatomic) _Bool supportsKeyTransferClient;
-@property(readonly, nonatomic) _Bool supportsKeyTransferServer;
-@property(readonly, nonatomic) _Bool supportsKeychainSync;
-@property(readonly, nonatomic) _Bool supportsLockNotificationContext;
-@property(readonly, nonatomic) _Bool supportsLoreto;
-@property(readonly, nonatomic) _Bool supportsManagedConfigurationProfile;
-@property(readonly, nonatomic) _Bool supportsMatterOwnerCertFetch;
-@property(readonly, nonatomic) _Bool supportsMatterSharedAdminPairing;
-@property(readonly, nonatomic) _Bool supportsMatterTTU;
-@property(readonly, nonatomic) _Bool supportsMediaActions;
-@property(readonly, nonatomic) _Bool supportsMessagedHomePodSettings;
-@property(readonly, nonatomic) _Bool supportsModernTransport;
-@property(readonly, nonatomic) _Bool supportsMultiUser;
-@property(readonly, nonatomic) _Bool supportsMusicAlarm;
-@property(readonly, nonatomic) _Bool supportsNativeMatter;
-@property(readonly, nonatomic) _Bool supportsNativeMatterPlugin;
-@property(readonly, nonatomic) _Bool supportsNaturalLighting;
-@property(readonly, nonatomic) _Bool supportsNetworkDiagnostics;
-@property(readonly) _Bool supportsPreferredMediaUser;
-@property(readonly) _Bool supportsRMVonAppleTV;
-@property(readonly, nonatomic) _Bool supportsResidentActionSetStateEvaluation;
-@property(readonly, nonatomic) _Bool supportsResidentFirmwareUpdate;
-@property(readonly, nonatomic) _Bool supportsResidentFirstAccessoryCommunication;
-@property(readonly, nonatomic) _Bool supportsResidentSelection;
-@property(readonly, nonatomic) _Bool supportsRestrictedGuest;
-@property(readonly, nonatomic) _Bool supportsRouterManagement;
-@property(readonly, nonatomic) _Bool supportsShortcutActions;
-@property(readonly) _Bool supportsSiriEndpointSetup;
-@property(readonly, nonatomic) _Bool supportsSoftwareUpdateV2;
-@property(readonly, nonatomic) _Bool supportsStandaloneMode;
-@property(readonly, nonatomic) _Bool supportsStereoOdeonTTSUBypassingPrimary;
-@property(readonly, nonatomic) _Bool supportsTVOSUpdateManualUpdateAvailableNotification;
-@property(readonly, nonatomic) _Bool supportsTargetControl;
-@property(readonly) _Bool supportsThirdPartyMusic;
-@property(readonly, nonatomic) _Bool supportsThreadBorderRouter;
-@property(readonly, nonatomic) _Bool supportsThreadNetworkCredentialSharing;
-@property(readonly) _Bool supportsThreadService;
-@property(readonly, nonatomic) _Bool supportsUWB;
-@property(readonly, nonatomic) _Bool supportsUWBUnlock;
-@property(readonly, nonatomic) _Bool supportsUnifiedMediaNotifications;
-@property(readonly) _Bool supportsUserMediaSettings;
-@property(readonly, nonatomic) _Bool supportsWakeOnLAN;
-@property(readonly, nonatomic) _Bool supportsWalletKey;
-@property(readonly, nonatomic) _Bool supportsWholeHouseAudio;
-@property(readonly, nonatomic) _Bool supportsWiFiRepairV2;
 
 @end
 

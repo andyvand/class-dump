@@ -5,6 +5,7 @@
 //
 
 @protocol OspreyClientStreamingContext
+- (void)q!E;
 - (void)l}5Íçsb%£SìÐ1pXõ?¯uT¤«÷óÒzä_ÑK±êÌ!Uô¡¨æ¦¿3*ü&^Ý/øÃA,IÙÆÞHc\:`å
 Q¹Ökµ²ãR¥Nß¬ò~ïj /* Error: Ran out of types for this method. */;
 @end

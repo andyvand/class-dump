@@ -7,16 +7,6 @@
 @interface MapsSync.MapsSyncContainer
 {
     id delegates;
-    id container;
-    id context;
-    id historyToken;
-    id historyStartDate;
-    id persistentStoreObserver;
-    id historyQueue;
-    id contextLock;
-    id delegatesLock;
-    id historyTokenLock;
-    id config;
 }
 
 @end

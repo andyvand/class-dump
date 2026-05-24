@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASNavigationControllerBarView, NSButton, NSLayoutConstraint, NSMutableArray, NSTextField, NSView, NSViewController;
+@class ASNavigationControllerBarView;
 @protocol ASNavigationControllerDelegate;
 
 @interface ASNavigationController
 {
     ASNavigationControllerBarView *_topNavigationBarView;
-    ASNavigationControllerBarView *_bottomNavigationBarView;
-    NSView *_paddingView;
-    NSView *_navigationContentView;
-    NSLayoutConstraint *_paddingHeightLessThanOrEqualConstraint;
-    NSLayoutConstraint *_paddingHeightEqualConstraint;
-    NSMutableArray *_viewControllerStack;
-    _Bool _needsSmoothAnimationMomentaryToggle;
-    NSButton *_backButton;
-    NSView *_customTitleView;
-    NSTextField *_titleTextField;
-    id <ASNavigationControllerDelegate> _delegate;
 }
 
 - (void);
@@ -33,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -45,9 +34,7 @@
 - (id)ÿÿ<;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *customTitleView;
 @property __weak id <ASNavigationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSViewController *topViewController;
 
 @end
 

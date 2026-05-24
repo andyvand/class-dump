@@ -7,8 +7,6 @@
 @interface PhotosGraph.UpNext.ScoredMatchingResults
 {
     id source;
-    id weights;
-    id matchingResultsInDescendingScoreOrder;
 }
 
 @end

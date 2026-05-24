@@ -6,31 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMInternalSpanData, NSArray, NSData, NSString, SISchemaUUID, USOSchemaUSOGraph;
+@class NSString;
 
 @interface NLXSchemaCDMMatchingSpan : SISchemaInstrumentationMessage
 {
     NSString *_label;
-    SISchemaUUID *_linkId;
-    unsigned int _startTokenIndex;
-    unsigned int _endTokenIndex;
-    USOSchemaUSOGraph *_usoGraph;
-    NSArray *_matcherNames;
-    NLXSchemaCDMInternalSpanData *_internalSpanData;
-    struct {
-        unsigned int startTokenIndex:1;
-        unsigned int endTokenIndex:1;
-    } _has;
-    _Bool _hasLabel;
-    _Bool _hasLinkId;
-    _Bool _hasUsoGraph;
-    _Bool _hasInternalSpanData;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
@@ -47,6 +33,7 @@
 - (unsigned int);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -54,16 +41,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
-- (void);
+- (unsigned int)�gx�8;
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)_ָ;
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)RSA_padding_add_SSLv23;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -71,26 +57,13 @@
 - (id);
 - (id);
 - (id)V_hasSequenceNumber;
-- (id)etHasNumberOfRequestsReviewed: /* Error: Ran out of types for this method. */;
+- (id)setHasNumberOfRequestsReviewed: /* Error: Ran out of types for this method. */;
 - (void)apple.aiml.exp.siri.EXPSiriServerEvent;
 - (void);
 - (_Bool)åÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int endTokenIndex; // @synthesize endTokenIndex=_endTokenIndex;
-@property(nonatomic) _Bool hasEndTokenIndex;
-@property(nonatomic) _Bool hasInternalSpanData; // @synthesize hasInternalSpanData=_hasInternalSpanData;
-@property(nonatomic) _Bool hasLabel; // @synthesize hasLabel=_hasLabel;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasStartTokenIndex;
-@property(nonatomic) _Bool hasUsoGraph; // @synthesize hasUsoGraph=_hasUsoGraph;
-@property(retain, nonatomic) NLXSchemaCDMInternalSpanData *internalSpanData; // @synthesize internalSpanData=_internalSpanData;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *matcherNames; // @synthesize matcherNames=_matcherNames;
-@property(nonatomic) unsigned int startTokenIndex; // @synthesize startTokenIndex=_startTokenIndex;
-@property(retain, nonatomic) USOSchemaUSOGraph *usoGraph; // @synthesize usoGraph=_usoGraph;
 
 @end
 

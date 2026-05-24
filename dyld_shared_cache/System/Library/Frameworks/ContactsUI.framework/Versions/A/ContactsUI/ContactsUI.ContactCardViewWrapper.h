@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSViewController;
+@class NSViewController;
 
 @interface ContactsUI.ContactCardViewWrapper
 {
     NSViewController *hostingController;
-    id config;
-    id cardActionViewModels;
-    id customActionViewModels;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)L;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic, retain) NSViewController *hostingController; // @synthesize hostingController;
-@property(nonatomic, readonly) CNContact *workingContact;
 
 @end
 

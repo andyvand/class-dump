@@ -7,11 +7,6 @@
 @interface PromotedContentUI.SLPCCMExpirationHandler
 {
     id metadataExpirationTimer;
-    id commandManagerQueue;
-    id isContentStale;
-    id lock;
-    id stateMachine;
-    id delegate;
 }
 
 @end

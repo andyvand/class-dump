@@ -7,9 +7,9 @@
 @class NSDictionary, NSString;
 
 @protocol PLMetricEvent
+- (NSDictionary *)cCurator - extractMusicCurationFeaturesForMemory;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSDictionary *payload;
 @end
 

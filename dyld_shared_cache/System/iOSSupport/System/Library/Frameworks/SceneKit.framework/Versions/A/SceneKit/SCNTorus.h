@@ -9,16 +9,11 @@
 @interface SCNTorus : SCNGeometry
 {
     double _torusringRadius;
-    double _toruspipeRadius;
-    double _torusradialSpan;
-    long long _torusringSegmentCount;
-    long long _toruspipeSegmentCount;
-    long long _torusprimitiveType;
 }
 
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)tion, rangeLength, replacementString, selectionStart);;
+- (void)();
 - (void);
 - (void);
 - (void);
@@ -33,7 +28,7 @@
 - (id);
 - (id);
 - (void);
-- (struct __C3DGeometry *);
+- (struct __C3DGeometry *);
 - (void);
 - (id);
 - (_Bool);
@@ -41,7 +36,7 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)createOTCFromMessageBody:sender:guid: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -199,10 +194,7 @@ __DoFragmentModifier__
 ;
 
 // Remaining properties
-@property(nonatomic) double pipeRadius;
-@property(nonatomic) long long pipeSegmentCount;
 @property(nonatomic) double ringRadius;
-@property(nonatomic) long long ringSegmentCount;
 
 @end
 

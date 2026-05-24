@@ -8,8 +8,6 @@
 {
     id viewModel;
     id continuouslyPoll;
-    id allowPlanUpdatePolling;
-    id isPollingForBillingChanges;
 }
 
 @end

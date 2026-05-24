@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAAdjustmentVersion, NSDictionary, NSString;
+@class NSString;
 
 @interface IPAAdjustment
 {
     NSString *_identifier;
-    IPAAdjustmentVersion *_version;
-    NSDictionary *_settings;
 }
 
-- (id);
+- (id)AVFoundation;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)terval;
 - (_Bool);
 - (void);
-- (void);
+- (void)ifSearch:(id)arg1 ifRoute:ifPlaceDisplay:ifTransitLineItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)getParamForKey:toInt: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDictionary *settings; // @synthesize settings=_settings;
-@property(retain, nonatomic) IPAAdjustmentVersion *version; // @synthesize version=_version;
 
 @end
 

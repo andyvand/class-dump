@@ -82,27 +82,27 @@ struct AudioValueRange {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CVSMPTETime {
@@ -126,25 +126,23 @@ struct FigVideoReceiverConfigurationInfo {
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct OpaqueCMTaggedBufferGroup;
 
 struct OpaqueFigMediaFileSegmenter;
 
-struct OpaqueFigSimpleMutex;
-
 struct OpaqueFigVideoReceiver;
 
 struct OpaqueFigVideoTarget;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {
@@ -174,16 +172,16 @@ typedef struct {
 } CDStruct_8f3a66c8;
 
 typedef struct {
-    double left;
-    double top;
-    double right;
-    double bottom;
-} CDStruct_1edcc8d7;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_d2b197d1;
 
 typedef struct {
-    int width;
-    int height;
-} CDStruct_79c71658;
+    int _field1;
+    int _field2;
+} CDStruct_1ef3fb1f;
 
 typedef struct {
     long long _field1;
@@ -200,9 +198,9 @@ typedef struct {
 } CDStruct_1b6d18a9;
 
 typedef struct {
-    long long horizontalSpacing;
-    long long verticalSpacing;
-} CDStruct_43f4b5b8;
+    long long _field1;
+    long long _field2;
+} CDStruct_912cb5d2;
 
 typedef struct {
     unsigned int _field1;
@@ -234,12 +232,5 @@ typedef struct {
 typedef struct {
     struct CGRect _field1;
     struct CGRect _field2;
-} CDStruct_b7523c42;
-
-#pragma mark Typedef'd Unions
-
-typedef union {
-    float relativeToEnclosingRegion;
-    long long cell;
-} CDUnion_4a99137e;
+} CDStruct_62e32a95;
 

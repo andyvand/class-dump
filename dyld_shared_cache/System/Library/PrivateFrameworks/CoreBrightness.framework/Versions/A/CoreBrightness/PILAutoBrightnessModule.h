@@ -6,23 +6,10 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBALSServiceClient, CBRampManager, NSString, PILABCurve, PILController;
-
 __attribute__((visibility("hidden")))
 @interface PILAutoBrightnessModule : CBModule
 {
     _Bool _enabled;
-    _Bool _firstBrightnessUpdate;
-    _Bool _running;
-    float _pilbrightness;
-    float _minimumAchievableBrightness;
-    float _maximumAchievableBrightness;
-    _Bool _pilBrightnessRangeSet;
-    PILABCurve *_curve;
-    PILController *_pilController;
-    CBRampManager *_rampManager;
-    CBALSServiceClient *_alsServiceClient;
-    NSString *_rampString;
 }
 
 - (void);
@@ -32,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)R;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -42,14 +29,14 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (float);
-- (float);
+- (float)#;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)@A!H! ;
+- (void);
 - (id);
-- (void);
+- (void)0u;
 - (_Bool);
 - (void);
 - (id);
@@ -57,13 +44,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

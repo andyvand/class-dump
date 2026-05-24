@@ -7,6 +7,7 @@
 @interface AlarmKit.AuthorizationClient
 {
     id singleton;
+    id;
 }
 
 @end

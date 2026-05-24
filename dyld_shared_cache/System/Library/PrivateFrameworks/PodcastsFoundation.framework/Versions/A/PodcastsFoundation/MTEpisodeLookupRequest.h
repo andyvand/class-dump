@@ -9,13 +9,6 @@
 @interface MTEpisodeLookupRequest
 {
     NSString *_uuid;
-    long long _storeTrackId;
-    long long _persistentID;
-    NSString *_episodeGuid;
-    NSString *_podcastFeedUrl;
-    NSString *_episodeTitle;
-    NSString *_podcastTitle;
-    NSString *_streamUrl;
 }
 
 - (void);
@@ -37,13 +30,6 @@
 - (void)otocolP;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *episodeGuid; // @synthesize episodeGuid=_episodeGuid;
-@property(retain, nonatomic) NSString *episodeTitle; // @synthesize episodeTitle=_episodeTitle;
-@property(nonatomic) long long persistentID; // @synthesize persistentID=_persistentID;
-@property(retain, nonatomic) NSString *podcastFeedUrl; // @synthesize podcastFeedUrl=_podcastFeedUrl;
-@property(retain, nonatomic) NSString *podcastTitle; // @synthesize podcastTitle=_podcastTitle;
-@property(nonatomic) long long storeTrackId; // @synthesize storeTrackId=_storeTrackId;
-@property(retain, nonatomic) NSString *streamUrl; // @synthesize streamUrl=_streamUrl;
 @property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

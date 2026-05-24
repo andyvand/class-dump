@@ -6,13 +6,13 @@
 
 #import <NotesShared/ICCloudSyncingObjectCryptoStrategyV1Neo.h>
 
-@class ICCloudSyncingObject, ICEncryptionKey, ICEncryptionMetadata, ICEncryptionObject, NSString;
+@class ICCloudSyncingObject;
 
 @interface ICNoteCryptoStrategyV1Neo : ICCloudSyncingObjectCryptoStrategyV1Neo
 {
 }
 
-- (_Bool);
+- (_Bool)ount to zero for %s:(id)arg1 %ld %s;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -21,22 +21,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAuthenticate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPassphraseSet;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long intrinsicNotesVersion;
-@property(readonly, nonatomic) _Bool isAuthenticated;
 @property(readonly, nonatomic) __weak ICCloudSyncingObject *object;
-@property(readonly, copy, nonatomic) NSString *passphraseHint;
-@property(readonly, nonatomic) ICEncryptionObject *primaryEncryptionObject;
-@property(readonly, nonatomic) ICEncryptionMetadata *primaryMetadata;
-@property(readonly, nonatomic) ICEncryptionKey *primaryWrappedKey;
-@property(readonly) Class superclass;
 
 @end
 

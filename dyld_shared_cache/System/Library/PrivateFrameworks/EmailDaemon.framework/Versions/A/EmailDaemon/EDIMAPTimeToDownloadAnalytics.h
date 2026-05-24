@@ -7,17 +7,14 @@
 @interface EDIMAPTimeToDownloadAnalytics
 {
     id queue;
-    id database;
-    id accountIdentifier;
-    id runtimeStart;
 }
 
 + (id);
 - (id);
 - (void);
+- (void)F;
 - (void);
-- (void);
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_PaymentAccountType;
 - (void)rsistenceStatistics];
 
 @end

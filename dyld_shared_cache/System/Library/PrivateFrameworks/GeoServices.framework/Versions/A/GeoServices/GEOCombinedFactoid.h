@@ -4,46 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOColor, GEOMapItemIdentifier, NSString;
+@class NSString;
 @protocol GEOFactoid;
 
 @interface GEOCombinedFactoid
 {
     id <GEOFactoid> _labelFactoid;
-    id <GEOFactoid> _iconFactoid;
 }
 
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)_cn_decodeBase64;
 - (_Bool);
-- (id);
+- (id)_rawValue;
 - (id);
 - (int);
-- (double)oryStringsFor:mapItem:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)sport_type;
+- (double)categoryStringsFor:mapItem:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)user_preferred_transport_type;
 - (id);
 - (void)èh°þ¿;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeDisplayedInPlaceSummary;
-@property(readonly, nonatomic) GEOColor *color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEOMapItemIdentifier *placeIdentifier;
-@property(readonly, nonatomic) int semantic;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *symbolName;
 @property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) int unitType;
-@property(readonly, nonatomic) NSString *unstructuredValue;
-@property(readonly, nonatomic, getter=shouldUseStructuredData) _Bool useStructuredData;
-@property(readonly, nonatomic) double value;
 
 @end
 

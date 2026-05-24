@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol GEOMapItem;
 
 @interface MKAddressRepresentations
@@ -16,20 +15,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)mentRectInsets;
+- (void)defaultCollisionAlignmentRectInsets;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *cityName;
-@property(readonly, copy, nonatomic) NSString *cityWithContext;
 @property(readonly, nonatomic, getter=_geoMapItem) id <GEOMapItem> geoMapItem; // @synthesize geoMapItem=_geoMapItem;
-@property(readonly, copy, nonatomic) NSString *regionCode;
-@property(readonly, copy, nonatomic) NSString *regionName;
 
 @end
 

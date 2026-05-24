@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CATActiveIDSServiceConnectionContentRequestMissingData
 {
@@ -19,8 +17,6 @@ __attribute__((visibility("hidden")))
 - (id)IDSServiceConnectionMetadata",R,N,V_metadata;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, nonatomic) unsigned long long expectedSequenceNumber; // @synthesize expectedSequenceNumber=_expectedSequenceNumber;
 
 @end

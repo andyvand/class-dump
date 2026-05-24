@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class AVWeakReference;
 
 @interface AVWaitForNotificationOrDeallocationOperation
 {
     AVWeakReference *_weakReferenceToSelf;
-    AVWeakReference *_weakReferenceToMonitoredObject;
-    NSObject<OS_dispatch_queue> *_operationStateSerializationQueue;
-    NSObject<OS_dispatch_semaphore> *_monitoringIsFinishedSemaphore;
-    NSArray *_notificationNames;
-    _Bool _registeredForObjectNotifications;
-    _Bool _started;
-    _Bool _finished;
 }
 
+- (void)cale}{?=^{Locale}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)initWithConfiguration:(id)arg1 withGeneralVoc:(id)arg2 withLexiconEnh:withItnEnh: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)HP;
+- (void)\?!9y;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

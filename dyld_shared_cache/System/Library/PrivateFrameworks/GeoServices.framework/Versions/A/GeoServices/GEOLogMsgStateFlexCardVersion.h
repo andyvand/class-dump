@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateFlexCardVersion
 {
     PBUnknownFields *_unknownFields;
-    NSString *_bundleVersionId;
 }
 
-+ (_Bool)HasSupportDirectionIntentAutocomplete:(id)arg1;
++ (_Bool)setHasSupportDirectionIntentAutocomplete:(id)arg1;
 - (void);
 - (_Bool);
-- (id);
+- (id)setBool:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id)eetAtIndex:(struct _NSZone *)arg1;
-- (id)ation: /* Error: Ran out of types for this method. */;
+- (id)styleSheetAtIndex:(struct _NSZone *)arg1;
+- (id)setDestination: /* Error: Ran out of types for this method. */;
 - (id)alize nav session data for archival (%@);
 - (id)¨;
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleVersionId;
 @property(readonly, nonatomic) _Bool hasBundleVersionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

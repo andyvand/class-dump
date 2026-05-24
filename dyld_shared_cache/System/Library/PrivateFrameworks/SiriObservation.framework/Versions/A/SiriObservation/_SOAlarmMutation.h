@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID, SOAlarm;
+@class SOAlarm;
 
 @interface _SOAlarmMutation
 {
     SOAlarm *_base;
-    NSUUID *_alarmID;
-    NSURL *_alarmURL;
-    NSString *_title;
-    unsigned long long _hour;
-    unsigned long long _minute;
-    unsigned long long _repeatSchedule;
-    _Bool _isEnabled;
-    _Bool _isFiring;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasAlarmID:1;
-        unsigned int hasAlarmURL:1;
-        unsigned int hasTitle:1;
-        unsigned int hasHour:1;
-        unsigned int hasMinute:1;
-        unsigned int hasRepeatSchedule:1;
-        unsigned int hasIsEnabled:1;
-        unsigned int hasIsFiring:1;
-    } _mutationFlags;
 }
 
 - (unsigned long long);
@@ -36,14 +17,14 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)lq;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -51,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

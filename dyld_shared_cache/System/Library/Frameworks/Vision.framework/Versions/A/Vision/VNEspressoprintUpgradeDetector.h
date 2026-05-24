@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNEspressoprintUpgradeDetector : VNEspressoModelFileBasedDetector
 {
     CDStruct_0a65202a _highResolutionOldEspressoprint;
-    CDStruct_0a65202a _lowResolutionNewEspressoprint;
-    CDStruct_0a65202a _highResolutionNewEspressoprint;
-    CDStruct_0a65202a _highResolutionNewEspressoprintSigma;
 }
 
 + (_Bool);
@@ -23,14 +20,13 @@ __attribute__((visibility("hidden")))
 - (CDStruct_0a65202a);
 - (CDStruct_0a65202a);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(nonatomic) CDStruct_0a65202a highResolutionNewEspressoprint; // @synthesize highResolutionNewEspressoprint=_highResolutionNewEspressoprint;
-@property(nonatomic) CDStruct_0a65202a highResolutionNewEspressoprintSigma; // @synthesize highResolutionNewEspressoprintSigma=_highResolutionNewEspressoprintSigma;
 
 @end
 

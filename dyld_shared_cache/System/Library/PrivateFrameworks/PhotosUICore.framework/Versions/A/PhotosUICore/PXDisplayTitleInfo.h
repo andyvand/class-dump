@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAssetCollection;
+@class PHAssetCollection;
 
 @interface PXDisplayTitleInfo
 {
     _Bool _useVerboseSmartDescription;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_fontName;
-    PHAssetCollection *__assetCollection;
 }
 
 + (id);
@@ -23,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -39,17 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAssetCollection:) PHAssetCollection *_assetCollection; // @synthesize _assetCollection=__assetCollection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) _Bool useVerboseSmartDescription; // @synthesize useVerboseSmartDescription=_useVerboseSmartDescription;
 
 @end
 

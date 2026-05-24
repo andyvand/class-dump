@@ -10,14 +10,13 @@
 @interface UARPUploader
 {
     NSObject<OS_os_log> *_xpcLog;
-    UARPController *_controller;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)L;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,20 +24,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)64;
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (id),R,V_iCloudUsername;
+- (void);
+- (void);
 - (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)L;
 
 // Remaining properties
 @property(readonly) __weak UARPController *controller; // @synthesize controller=_controller;

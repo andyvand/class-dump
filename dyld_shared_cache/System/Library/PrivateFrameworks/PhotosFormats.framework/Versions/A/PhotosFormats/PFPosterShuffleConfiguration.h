@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface PFPosterShuffleConfiguration
 {
     long long _shuffleType;
-    long long _shuffleFrequency;
-    NSSet *_personLocalIdentifiers;
-    unsigned long long _shuffleSmartAlbums;
-    NSSet *_albumCloudIdentifiers;
 }
 
 + (_Bool);
 - (unsigned long long);
 - (long long);
 - (void);
+- (void)Versions/A/Contacts;
+- (void)Library/Frameworks/FileProvider.framework/Versions/A/FileProvider;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)lytics;
+- (void)ary/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics;
+- (void)__DATA_DIRTY;
 - (id);
 - (id);
 - (_Bool);
@@ -37,7 +31,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)missingAssetStatusRecord;
 - (_Bool);
 - (void);
 - (id);
@@ -45,22 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *albumCloudIdentifiers; // @synthesize albumCloudIdentifiers=_albumCloudIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeCityscapes;
-@property(nonatomic) _Bool includeLandscapes;
 @property(nonatomic) _Bool includePeople;
-@property(nonatomic) _Bool includePets;
-@property(retain, nonatomic) NSSet *personLocalIdentifiers; // @synthesize personLocalIdentifiers=_personLocalIdentifiers;
-@property(nonatomic) long long shuffleFrequency; // @synthesize shuffleFrequency=_shuffleFrequency;
-@property(nonatomic) unsigned long long shuffleSmartAlbums; // @synthesize shuffleSmartAlbums=_shuffleSmartAlbums;
-@property(nonatomic) long long shuffleType; // @synthesize shuffleType=_shuffleType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class CLLocation, EKUIMapContainerView, EKUIMapView, EKUIWeatherBox, NSDateComponents, NSDictionary, NSImageView, NSString, NSTextField;
+@class EKUIMapContainerView;
 
 @interface EKUIMapGadget : EKUISingleViewGadget
 {
     EKUIMapContainerView *_containerView;
-    EKUIMapView *_mapView;
-    EKUIWeatherBox *_weatherview;
-    NSImageView *_weatherIconView;
-    NSTextField *_temperatureField;
-    NSTextField *_cityNameField;
-    CLLocation *_lastFetchedWeatherLocation;
-    NSDateComponents *_lastFetchedWeatherDateComponents;
-    NSDictionary *_layoutMetrics;
 }
 
 + (id);
@@ -27,56 +19,41 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id)Size: /* Error: Ran out of types for this method. */;
-- (void)eHandle;
+- (id)systemFontOfSize: /* Error: Ran out of types for this method. */;
+- (void)popAnimateHandle;
 
 // Remaining properties
-@property(retain) NSTextField *cityNameField; // @synthesize cityNameField=_cityNameField;
 @property(retain) EKUIMapContainerView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDateComponents *lastFetchedWeatherDateComponents; // @synthesize lastFetchedWeatherDateComponents=_lastFetchedWeatherDateComponents;
-@property(retain) CLLocation *lastFetchedWeatherLocation; // @synthesize lastFetchedWeatherLocation=_lastFetchedWeatherLocation;
-@property(retain) NSDictionary *layoutMetrics; // @synthesize layoutMetrics=_layoutMetrics;
-@property(retain) EKUIMapView *mapView; // @synthesize mapView=_mapView;
-@property(readonly) Class superclass;
-@property(retain) NSTextField *temperatureField; // @synthesize temperatureField=_temperatureField;
-@property(retain) NSImageView *weatherIconView; // @synthesize weatherIconView=_weatherIconView;
-@property(retain) EKUIWeatherBox *weatherview; // @synthesize weatherview=_weatherview;
 
 @end
 

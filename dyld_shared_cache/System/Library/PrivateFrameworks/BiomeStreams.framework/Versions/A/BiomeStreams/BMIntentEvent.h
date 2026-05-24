@@ -6,32 +6,19 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSData, NSString;
-
 @interface BMIntentEvent : BMEventBase
 {
     _Bool _donatedBySiri;
-    double _absoluteTimestamp;
-    NSString *_bundleID;
-    NSString *_sourceId;
-    NSString *_intentClass;
-    NSString *_intentVerb;
-    long long _intentType;
-    long long _intentHandlingStatus;
-    NSData *_interaction;
-    NSString *_itemID;
-    long long _interactionDirection;
-    NSString *_groupIdentifier;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-+ (long long);
++ (long long)ra;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)];
 - (_Bool);
 - (_Bool);
 - (id);
@@ -41,16 +28,16 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long): /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -64,7 +51,7 @@
 - (void)8;
 - (void)øðÿØ[×ÿ(P;
 - (_Bool)er":{ /* Error: Ran out of types for this method. */;
-- (id)ation;
+- (id)transaction_isolation;
 - (id)comment;
 - (id);
 - (id)f;
@@ -74,26 +61,6 @@
 
 // Remaining properties
 @property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool donatedBySiri; // @synthesize donatedBySiri=_donatedBySiri;
-@property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *intentClass; // @synthesize intentClass=_intentClass;
-@property(nonatomic) long long intentHandlingStatus; // @synthesize intentHandlingStatus=_intentHandlingStatus;
-@property(nonatomic) long long intentType; // @synthesize intentType=_intentType;
-@property(copy, nonatomic) NSString *intentVerb; // @synthesize intentVerb=_intentVerb;
-@property(copy, nonatomic) NSData *interaction; // @synthesize interaction=_interaction;
-@property(nonatomic) long long interactionDirection; // @synthesize interactionDirection=_interactionDirection;
-@property(copy, nonatomic) NSString *itemID; // @synthesize itemID=_itemID;
-@property(copy, nonatomic) NSString *sourceId; // @synthesize sourceId=_sourceId;
-@property(readonly) Class superclass;
 
 @end
 

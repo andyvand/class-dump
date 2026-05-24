@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol HMDHPSSetting;
+
 @protocol HMDHPSAccessorySettingServiceDelegate
 
 @optional
+- (void)service:(id <HMDHPSSetting>)arg1 account:(NSString *)arg2 incomingMessage:fromID:context: /* Error: Ran out of types for this method. */;
 - (void)not changing from %@;
 @end
 

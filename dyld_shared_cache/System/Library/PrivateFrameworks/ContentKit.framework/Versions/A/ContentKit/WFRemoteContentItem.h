@@ -14,12 +14,12 @@
 }
 
 + (id);
-- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)CloudKit. Marking PCS state needs updating;
 - (void);
 
 // Remaining properties

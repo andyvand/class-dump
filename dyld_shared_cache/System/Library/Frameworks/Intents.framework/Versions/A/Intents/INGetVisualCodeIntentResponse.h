@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INImage, NSString;
-
 @interface INGetVisualCodeIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)arrayByAddingObject:(long long)arg1;
++ (int)onedFileIdentifier",R,D,N;
++ (long long)conformsToType:(int)arg1;
++ (_Bool)xWrapper;
 + (_Bool);
 - (void);
 - (void);
@@ -25,23 +23,15 @@
 - (long long);
 - (id);
 - (id);
+- (id)initWithDelegate:(id)arg1 queue:options: /* Error: Ran out of types for this method. */;
+- (id)AE;
+- (void)preAssocScanChannelCount6GHz;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)NoteIntentExport;
+- (long long)INAppendToNoteIntentExport;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) INImage *visualCodeImage;
 
 @end
 

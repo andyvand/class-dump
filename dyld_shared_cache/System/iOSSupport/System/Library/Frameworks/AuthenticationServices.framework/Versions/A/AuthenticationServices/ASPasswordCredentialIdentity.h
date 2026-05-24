@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCredentialServiceIdentifier, NSString, SFExternalCredentialIdentityStoreIdentifier;
+@class ASCredentialServiceIdentifier, SFExternalCredentialIdentityStoreIdentifier;
 
 @interface ASPasswordCredentialIdentity
 {
     SFExternalCredentialIdentityStoreIdentifier *_credentialIdentityStoreIdentifier;
-    ASCredentialServiceIdentifier *_serviceIdentifier;
-    NSString *_user;
-    NSString *_recordIdentifier;
-    long long _rank;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)fetchMessagesWithoutChatsCountWithCompletionHandler:(struct _NSZone *)arg1;
 - (id);
 - (id);
 - (long long);
@@ -34,18 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) SFExternalCredentialIdentityStoreIdentifier *credentialIdentityStoreIdentifier; // @synthesize credentialIdentityStoreIdentifier=_credentialIdentityStoreIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long rank; // @synthesize rank=_rank;
-@property(readonly, copy, nonatomic) NSString *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
 @property(readonly, nonatomic) ASCredentialServiceIdentifier *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *user; // @synthesize user=_user;
 
 @end
 

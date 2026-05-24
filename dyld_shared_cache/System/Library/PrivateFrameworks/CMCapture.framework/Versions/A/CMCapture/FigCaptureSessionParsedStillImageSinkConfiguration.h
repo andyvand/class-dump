@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigPointCloudDataCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration, NSArray;
+@class FigVideoCaptureConnectionConfiguration, NSArray;
 
 @interface FigCaptureSessionParsedStillImageSinkConfiguration
 {
     NSArray *_stillImageConnectionConfigurations;
-    FigVideoCaptureConnectionConfiguration *_movieFileVideoConnectionConfiguration;
-    FigPointCloudDataCaptureConnectionConfiguration *_pointCloudDataConnectionConfiguration;
 }
 
-- (void);
+- (void)WXGroupNamespace;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *movieFileVideoConnectionConfiguration; // @synthesize movieFileVideoConnectionConfiguration=_movieFileVideoConnectionConfiguration;
-@property(readonly, nonatomic) FigPointCloudDataCaptureConnectionConfiguration *pointCloudDataConnectionConfiguration; // @synthesize pointCloudDataConnectionConfiguration=_pointCloudDataConnectionConfiguration;
 @property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *primaryStillImageConnectionConfiguration;
-@property(readonly, nonatomic) NSArray *stillImageConnectionConfigurations; // @synthesize stillImageConnectionConfigurations=_stillImageConnectionConfigurations;
 
 @end
 

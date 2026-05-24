@@ -4,60 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDViewportInfo
 {
     PBUnknownFields *_unknownFields;
-    GEOMapRegion *_mapRegion;
-    int _mapType;
-    unsigned int _timeSinceMapViewportChanged;
-    CDStruct_ab3d1c4b _flags;
 }
 
 + (id)ù
 × ;
-+ (_Bool)eted:(id)arg1;
++ (_Bool)setInstallCompleted:(id)arg1;
+- (id)k;
+- (void)s;
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)%@;
 - (id);
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)disabled;
 - (id);
 - (int);
-- (void);
+- (void)dequeueReusableAnnotationViewWithIdentifier:(id)arg1;
 - (_Bool);
 - (int);
 - (void);
 - (void);
 - (id)d_locale"b1"read_query"b1"read_sortedIdTapsLists"b1"read_spellRewrites"b1"read_synonyms"b1"wrote_anyField"b1};
 - (id)LinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24;
-- (id)gnposts;
+- (id)_signposts;
 - (id)	;
-- (id)_CENTER_MAP_ON_USER;
+- (id)RAP_CENTER_MAP_ON_USER;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMapRegion;
-@property(nonatomic) _Bool hasMapType;
-@property(nonatomic) _Bool hasTimeSinceMapViewportChanged;
-@property(retain, nonatomic) GEOMapRegion *mapRegion;
-@property(nonatomic) int mapType;
-@property(nonatomic) unsigned int timeSinceMapViewportChanged;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

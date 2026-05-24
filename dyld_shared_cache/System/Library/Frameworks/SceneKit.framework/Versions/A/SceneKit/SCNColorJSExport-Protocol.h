@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSColor;
+
 @protocol SCNColorJSExport
++ (NSColor *)R#;
+- (double)oJ;
 - (double)1));
 //        tessLevel /= pow(2.0, (refinementLevel - 1));
 //    }
@@ -1163,9 +1167,6 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double a;
-@property(readonly, nonatomic) double b;
-@property(readonly, nonatomic) double g;
 @property(readonly, nonatomic) double r;
 @end
 

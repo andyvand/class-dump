@@ -11,22 +11,20 @@
 @interface WPZoneTracker : WPClient
 {
     _Bool _wantEntry;
-    _Bool _wantExit;
-    id <WPZoneTrackerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)*;
+- (_Bool);
+- (id)Y,;
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -39,8 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <WPZoneTrackerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool wantEntry; // @synthesize wantEntry=_wantEntry;
-@property(nonatomic) _Bool wantExit; // @synthesize wantExit=_wantExit;
 
 @end
 

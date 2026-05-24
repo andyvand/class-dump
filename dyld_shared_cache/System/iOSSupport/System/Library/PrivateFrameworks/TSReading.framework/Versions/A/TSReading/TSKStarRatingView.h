@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSKHorizontalDragRecognizer, TSUColor;
-
 @interface TSKStarRatingView
 {
     long long mRating;
-    long long mRatingOnFingerDown;
-    int mStyle;
-    TSKHorizontalDragRecognizer *mDragGesture;
-    _Bool mShowsDots;
-    TSUColor *mColor;
 }
 
 + (void);
 + (struct CGPath *);
-- (_Bool);
-- (void);
+- (_Bool)discoverLocalEndpointFromDeviceInfo;
+- (void)oller state did change:(_Bool)arg1;
 - (void);
 - (long long);
 - (long long);
-- (void);
+- (void)currentItem;
 - (void);
 - (void);
 - (int);
@@ -33,16 +26,13 @@
 - (Class);
 - (void);
 - (id);
+- (void)P;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)saveToCameraRoll;
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) TSUColor *color; // @synthesize color=mColor;
-@property(nonatomic) _Bool showsDots; // @synthesize showsDots=mShowsDots;
-@property(nonatomic) int style; // @synthesize style=mStyle;
 @property(nonatomic) long long value;
 
 @end

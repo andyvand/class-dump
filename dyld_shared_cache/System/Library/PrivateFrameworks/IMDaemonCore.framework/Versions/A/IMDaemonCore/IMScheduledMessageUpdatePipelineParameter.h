@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface IMScheduledMessageUpdatePipelineParameter
 {
     _Bool _isFromMe;
-    NSString *_GUID;
-    NSNumber *_scheduleState;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
 }
 
 + (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (_Bool);
@@ -27,10 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(readonly, copy, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(readonly, nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, copy, nonatomic) NSNumber *scheduleState; // @synthesize scheduleState=_scheduleState;
-@property(readonly, copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
 
 @end
 

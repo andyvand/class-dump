@@ -6,30 +6,21 @@
 
 #import <PhotosPlayer/ISBasePlayer.h>
 
-@class ISDisplayLink;
-
 @interface ISLiveWallpaperPlayer : ISBasePlayer
 {
     CDStruct_1b6d18a9 _videoDuration;
-    double _smoothedVelocity;
-    _Bool _touching;
-    _Bool __active;
-    _Bool __seeking;
-    float __playRate;
-    double _force;
-    ISDisplayLink *__displayLink;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)Rect={CGPoint=dd}{CGSize=dd}},R,N,V_errorLabelFrame;
+- (void)oximateLocation;
+- (void)currentTranslation;
+- (void)mnOffset;
+- (float)ceOrientation;
+- (_Bool)R,N,V_contentScaleFactor;
+- (void)_amplitude;
+- (void)N,V_presentationMode;
+- (void)TQ,N,V_index;
+- (_Bool)nished;
 - (_Bool);
 - (void);
 - (void);
@@ -39,17 +30,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (double);
+- (_Bool)assertion:didInvalidateWithError: /* Error: Ran out of types for this method. */;
+- (double)_remote_IXSPlaceholder:getLaunchProhibitedWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setActive:) _Bool _active; // @synthesize _active=__active;
-@property(nonatomic, setter=_setDisplayLink:) ISDisplayLink *_displayLink; // @synthesize _displayLink=__displayLink;
-@property(nonatomic, setter=_setPlayRate:) float _playRate; // @synthesize _playRate=__playRate;
-@property(nonatomic, getter=_isSeeking, setter=_setSeeking:) _Bool _seeking; // @synthesize _seeking=__seeking;
-@property(nonatomic) double force; // @synthesize force=_force;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(nonatomic, getter=isTouching) _Bool touching; // @synthesize touching=_touching;
 
 @end
 

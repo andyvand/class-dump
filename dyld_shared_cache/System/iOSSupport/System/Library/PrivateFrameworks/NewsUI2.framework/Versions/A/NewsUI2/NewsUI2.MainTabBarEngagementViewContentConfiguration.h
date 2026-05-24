@@ -7,7 +7,6 @@
 @interface NewsUI2.MainTabBarEngagementViewContentConfiguration
 {
     id configurationBlock;
-    id engagementModel;
 }
 
 @end

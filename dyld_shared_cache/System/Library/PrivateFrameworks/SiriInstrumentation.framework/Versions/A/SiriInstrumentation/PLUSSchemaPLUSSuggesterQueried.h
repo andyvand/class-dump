@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PLUSSchemaPLUSSuggestionDomainMetadata, SISchemaUUID;
+@class PLUSSchemaPLUSSuggestionDomainMetadata;
 
 @interface PLUSSchemaPLUSSuggesterQueried : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggestionDomainMetadata *_suggestionDomainMetadata;
-    SISchemaUUID *_originalRequestId;
-    NSArray *_matchedResults;
-    _Bool _matchedResultsPopulated;
-    struct {
-        unsigned int matchedResultsPopulated:1;
-    } _has;
-    _Bool _hasSuggestionDomainMetadata;
-    _Bool _hasOriginalRequestId;
 }
 
 - (id);
@@ -31,10 +23,10 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (_Bool)jh8;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,22 +40,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)a Drop everything change history event;
+- (id);
 - (id)1Â0@ù
 × ;
-- (id)toricalDataCount;
+- (id)_historicalDataCount;
 - (id)rdLanguage;
 - (void)HOMEPODONMUSIC;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMatchedResultsPopulated;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasSuggestionDomainMetadata; // @synthesize hasSuggestionDomainMetadata=_hasSuggestionDomainMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *matchedResults; // @synthesize matchedResults=_matchedResults;
-@property(nonatomic) _Bool matchedResultsPopulated; // @synthesize matchedResultsPopulated=_matchedResultsPopulated;
-@property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggestionDomainMetadata *suggestionDomainMetadata; // @synthesize suggestionDomainMetadata=_suggestionDomainMetadata;
 
 @end

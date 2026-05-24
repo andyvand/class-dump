@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TextCell
 {
     NSString *_truncationAlternateString;
-    NSString *_secondTruncationAlternateString;
-    double _leftMargin;
-    double _rightMargin;
-    double _topMargin;
-    NSFont *_baselineFont;
-    _Bool _drawsEngraved;
-    _Bool _engravedTextAttributesDirty;
-    NSColor *_engravedTextColor;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -9,12 +9,12 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
 - (void)0@ù
 × ;
 - (void)@ù
 × ;
 - (id)× ;
-- (void);
 - (void)ªð1Â0@ù
 × ;
 - (NSArray *)1Â0@ù
@@ -22,20 +22,20 @@
 - (void)Â0@ù
 × ;
 - (void)× ;
-- (void)tries:(NSNotification *)arg1;
-- (void)isibilityOfTableColumn:(NSNotification *)arg1;
-- (void)etReloadEnabled:(NSNotification *)arg1;
-- (void)Record:(NSNotification *)arg1 contact: /* Error: Ran out of types for this method. */;
-- (unsigned long long)rs:(NSWindow *)arg1;
-- (void)sWithNames:(NSNotification *)arg1;
-- (void)tion;
+- (void)vCardDisplayNameForEntries:(NSNotification *)arg1;
+- (void)tableView:(NSNotification *)arg1 userCanChangeVisibilityOfTableColumn: /* Error: Ran out of types for this method. */;
+- (void)setReloadEnabled:(NSNotification *)arg1;
+- (void)personEntryForRecord:(NSNotification *)arg1 contact: /* Error: Ran out of types for this method. */;
+- (unsigned long long)highlightGroupsWithMembers:(NSWindow *)arg1;
+- (void)bestMatchFromAppearancesWithNames:(NSNotification *)arg1;
+- (void)_personUidsExistingInDestination;
 - (void)_nameViewHeadlinePlaceholderAttributes;
 - (struct CGRect)Dictionary",R,C,V_groupsDictionary;
-- (void)Formatter;
+- (void)ABNicknameFormatter;
 - (void)ô	ìô;
 - (_Bool)¼Ù;
 - (void)action:(NSNotification *)arg1 %{public}@;
 - (void)pple.ABImageData;
-- (struct CGSize)LE;
+- (struct CGSize)AX_GROUP_LIST_TITLE;
 @end
 

@@ -7,13 +7,12 @@
 @interface vCard.CNVCardTagInclusionRestrictedPolicy
 {
     id tags;
-    _Bool shouldCaptureUnknownTags;
 }
 
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
-- (id);
+- (id)	?׀;
 - (void);
 
 // Remaining properties

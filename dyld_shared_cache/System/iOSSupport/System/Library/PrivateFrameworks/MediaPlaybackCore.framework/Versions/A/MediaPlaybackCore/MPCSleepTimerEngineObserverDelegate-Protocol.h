@@ -5,5 +5,9 @@
 //
 
 @protocol MPCSleepTimerEngineObserverDelegate
+
+@optional
+- (void)^B24;
+- (void)sDataclassSupportedForCurrentRegion:(double)arg1 ];
 @end
 

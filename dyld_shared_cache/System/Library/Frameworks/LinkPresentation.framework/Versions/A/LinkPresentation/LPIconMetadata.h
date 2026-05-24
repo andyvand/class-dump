@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPIconMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_accessibilityText;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
+- (id)service;
+- (unsigned int)s to server share participants;
+- (id)n not accept share at URL %@ because we couldn't decrypt the share as an invited user;
+- (id)�;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

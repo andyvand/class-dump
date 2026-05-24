@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _GEOConfigKeyHelper;
-@protocol OS_dispatch_queue;
+@class _GEOConfigKeyHelper;
 
 __attribute__((visibility("hidden")))
 @interface _GEOConfigChangedBlockListener
 {
     _GEOConfigKeyHelper *keyHelper;
-    NSObject<OS_dispatch_queue> *queue;
-    CDUnknownBlockType block;
 }
 
-- (void);
+- (void)valueForKey:withEntityName:entityKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

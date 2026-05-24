@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKQueryCursor, NSMutableSet, NSString;
-
 @interface FCTagSearchRecordStream
 {
     _Bool _fetching;
-    _Bool _finished;
-    CDUnknownBlockType _operationConstructor;
-    CKQueryCursor *_cursor;
-    NSMutableSet *_encounteredRecordIDs;
 }
 
+- (void)W��;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Z;
 - (_Bool);
 - (id);
 - (id);
@@ -27,22 +21,11 @@
 - (_Bool);
 - (id)0@ù
 × ;
-- (void)MinHammingDistance;
+- (void)thumbnailMinHammingDistance;
 - (void)adingHistoryItem>"8^Q16;
 
 // Remaining properties
-@property(retain, nonatomic) CKQueryCursor *cursor; // @synthesize cursor=_cursor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *encounteredRecordIDs; // @synthesize encounteredRecordIDs=_encounteredRecordIDs;
-@property(nonatomic) _Bool fetching; // @synthesize fetching=_fetching;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType operationConstructor; // @synthesize operationConstructor=_operationConstructor;
-@property(readonly) Class superclass;
 
 @end
 

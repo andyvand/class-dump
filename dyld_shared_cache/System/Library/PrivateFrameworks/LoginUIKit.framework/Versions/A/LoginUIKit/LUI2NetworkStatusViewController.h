@@ -11,32 +11,25 @@
 @interface LUI2NetworkStatusViewController : LUI2ViewController
 {
     int _networkStatusInternal;
-    id _target;
-    SEL _action;
-    NSButton *_networkStatusButton;
 }
 
-- (void);
+- (void);
 - (void);
 - (int);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (SEL);
-- (void);
+- (void)c;
 - (void);
 - (int);
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property int networkStatus; // @dynamic networkStatus;
 @property(retain) NSButton *networkStatusButton; // @synthesize networkStatusButton=_networkStatusButton;
-@property int networkStatusInternal; // @synthesize networkStatusInternal=_networkStatusInternal;
-@property id target; // @synthesize target=_target;
 
 @end
 

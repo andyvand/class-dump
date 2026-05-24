@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString, PKPackageInfo;
+@class NSArray, NSString;
 
 @interface PKPackageChecker
 {
     NSString *_contentPath;
-    PKPackageInfo *_packageInfo;
-    NSDictionary *_componentMap;
-    NSMutableArray *_checkResults;
-    NSArray *_checkedAttrs;
 }
 
 + (id);

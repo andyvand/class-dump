@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingReachabilityEventModel
 {
 }
 
-+ (id);
++ (id)findUpdatesFunction;
 + (id);
 - (_Bool);
-- (id);
+- (id)_launchpadButton;
 - (void)NP;
 
 // Remaining properties
-@property(retain) NSDate *dateOfOccurrence; // @dynamic dateOfOccurrence;
-@property _Bool reachable;
 @property(retain) NSNumber *reachableField; // @dynamic reachableField;
 
 @end

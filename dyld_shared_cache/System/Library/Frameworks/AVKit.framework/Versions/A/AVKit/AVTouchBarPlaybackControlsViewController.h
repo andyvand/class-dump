@@ -6,37 +6,16 @@
 
 #import <AVKit/AVTouchBarControlsViewController.h>
 
-@class AVPlayerControllerTimeResolver, AVPlayerLayer, AVTouchBarScrubberController, NSMutableArray, NSTextField, NSView;
-@protocol AVTouchBarPlaybackControlsControllingInternal><AVTouchBarTrackControlling><AVTimeControlling;
+@class AVPlayerControllerTimeResolver;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarPlaybackControlsViewController : AVTouchBarControlsViewController
 {
     AVPlayerControllerTimeResolver *_intervalTimeResolver;
-    AVTouchBarScrubberController *_touchBarScrubberController;
-    AVPlayerLayer *_thumbnailPlayerLayer;
-    NSView *_timeLineView;
-    NSView *_liveStreamingView;
-    NSView *_seekableLiveStreamingView;
-    id _touchBarDidExitCustomizationObserver;
-    NSMutableArray *_bindings;
-    _Bool _showsPlayButton;
-    id <AVTouchBarPlaybackControlsControllingInternal><AVTouchBarTrackControlling><AVTimeControlling> _playerController;
-    NSTextField *_durationTextField;
-    NSTextField *_remainingTimeTextField;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
@@ -44,25 +23,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)__objc_ivar;
+- (id);
+- (id)-;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_SFExtensionHelperContentBlockerManager;
+- (id)#;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)i;
+- (void)c;
 
 // Remaining properties
-@property(readonly, nonatomic) NSTextField *durationTextField; // @synthesize durationTextField=_durationTextField;
 @property(retain, nonatomic) AVPlayerControllerTimeResolver *intervalTimeResolver; // @synthesize intervalTimeResolver=_intervalTimeResolver;
-@property(retain, nonatomic) id <AVTouchBarPlaybackControlsControllingInternal><AVTouchBarTrackControlling><AVTimeControlling> playerController; // @synthesize playerController=_playerController;
-@property(readonly, nonatomic) NSTextField *remainingTimeTextField; // @synthesize remainingTimeTextField=_remainingTimeTextField;
-@property _Bool showsPlayButton; // @synthesize showsPlayButton=_showsPlayButton;
-@property(retain, nonatomic) AVPlayerLayer *thumbnailPlayerLayer; // @synthesize thumbnailPlayerLayer=_thumbnailPlayerLayer;
 
 @end
 

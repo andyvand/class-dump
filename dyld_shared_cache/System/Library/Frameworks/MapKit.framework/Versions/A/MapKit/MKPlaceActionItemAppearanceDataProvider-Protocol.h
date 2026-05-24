@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKPlaceActionItemAppearanceProvider, NSString;
+
 @protocol MKPlaceActionItemAppearanceDataProvider
+- (unsigned long long)setPowerlevel3Duration:(MKPlaceActionItemAppearanceProvider *)arg1;
+- (_Bool)setNumberOfBytesUploadedCell:(MKPlaceActionItemAppearanceProvider *)arg1;
+- (_Bool)setNetworkEnergySnapshot:(MKPlaceActionItemAppearanceProvider *)arg1;
+- (_Bool)setLogHandle:(MKPlaceActionItemAppearanceProvider *)arg1;
+- (NSString *)setLinkDuration:(MKPlaceActionItemAppearanceProvider *)arg1;
+- (_Bool)setLastReportedNetworkEnergy:(MKPlaceActionItemAppearanceProvider *)arg1;
 @end
 

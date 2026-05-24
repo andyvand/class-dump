@@ -7,7 +7,6 @@
 @interface NewsUI2.PDFReplicaViewerCoordinator
 {
     id delegate;
-    id tracker;
 }
 
 @end

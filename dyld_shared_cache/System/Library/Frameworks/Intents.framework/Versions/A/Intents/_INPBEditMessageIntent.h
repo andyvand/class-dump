@@ -4,50 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class NSString;
 
 @interface _INPBEditMessageIntent
 {
     struct _has;
-    NSString *_editedContent;
-    _INPBIntentMetadata *_intentMetadata;
-    NSString *_messageIdentifier;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)n completed (error=%{public}@, clientID=%{public}@, duration=%llums, results=%{public}@, );
 - (id);
 - (id);
 - (void);
-- (_Bool)allIntentContactsUnsupportedReason: /* Error: Ran out of types for this method. */;
-- (void)IntentResponseCodeInProgress;
+- (_Bool)StringAsStartCallIntentContactsUnsupportedReason: /* Error: Ran out of types for this method. */;
+- (void)INQueryHealthSampleIntentResponseCodeInProgress;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *editedContent; // @synthesize editedContent=_editedContent;
-@property(readonly, nonatomic) _Bool hasEditedContent;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMessageIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSString *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

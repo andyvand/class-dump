@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, HMBLocalZone, HMDNetworkRouterFirewallRuleCloudZone, NSMutableSet;
+@class CKRecordZoneID;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorZoneInfo
 {
     _Bool _zoneHasChanged;
-    _Bool _zoneWasDeleted;
-    _Bool _ignoreChangeToken;
-    CKRecordZoneID *_zoneID;
-    NSMutableSet *_recordIDs;
-    HMDNetworkRouterFirewallRuleCloudZone *_cloudZone;
-    HMBLocalZone *_mirroredLocalZone;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)lastUpdatedDatetime;
+- (void)_state;
+- (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id)ithHoldInfo:transitionalStateEndDate:reason: /* Error: Ran out of types for this method. */;
+- (id)handleHomeActivityStateChange:withHoldInfo:transitionalStateEndDate:reason: /* Error: Ran out of types for this method. */;
 - (id)ring resident for reads;
 - (id)Feature":(id)arg1 "Pin Codes"}] Handling updated home access code model;
-- (void)ESSORY_CONFIRM_UNKNOWN_DETAIL;
-- (id)rotocol;
+- (void)ACCESSORY_CONFIRM_UNKNOWN_DETAIL;
+- (id)DiscoveryControllerProtocol;
 
 // Remaining properties
-@property(retain, nonatomic) HMDNetworkRouterFirewallRuleCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly, nonatomic) _Bool ignoreChangeToken; // @synthesize ignoreChangeToken=_ignoreChangeToken;
-@property(retain, nonatomic) HMBLocalZone *mirroredLocalZone; // @synthesize mirroredLocalZone=_mirroredLocalZone;
-@property(readonly, nonatomic) NSMutableSet *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(readonly, nonatomic) _Bool zoneHasChanged; // @synthesize zoneHasChanged=_zoneHasChanged;
 @property(readonly, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
-@property(readonly, nonatomic) _Bool zoneWasDeleted; // @synthesize zoneWasDeleted=_zoneWasDeleted;
 
 @end
 

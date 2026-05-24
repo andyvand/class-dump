@@ -8,8 +8,6 @@
 {
     id recipeID;
     id _conversionEnabled;
-    id _scaleFactor;
-    id observationTask;
 }
 
 @end

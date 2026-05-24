@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MRCryptoPairingSessionBlockDelegate
 {
     CDUnknownBlockType _dataExchangeBlock;
-    CDUnknownBlockType _showSetupCodeBlock;
-    CDUnknownBlockType _hideSetupCodeBlock;
-    CDUnknownBlockType _promptForSetupCodeBlock;
-    CDUnknownBlockType _exchangeCompleteBlock;
 }
 
 - (CDUnknownBlockType);
@@ -35,17 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dataExchangeBlock; // @synthesize dataExchangeBlock=_dataExchangeBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType exchangeCompleteBlock; // @synthesize exchangeCompleteBlock=_exchangeCompleteBlock;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType hideSetupCodeBlock; // @synthesize hideSetupCodeBlock=_hideSetupCodeBlock;
-@property(copy, nonatomic) CDUnknownBlockType promptForSetupCodeBlock; // @synthesize promptForSetupCodeBlock=_promptForSetupCodeBlock;
-@property(copy, nonatomic) CDUnknownBlockType showSetupCodeBlock; // @synthesize showSetupCodeBlock=_showSetupCodeBlock;
-@property(readonly) Class superclass;
 
 @end
 

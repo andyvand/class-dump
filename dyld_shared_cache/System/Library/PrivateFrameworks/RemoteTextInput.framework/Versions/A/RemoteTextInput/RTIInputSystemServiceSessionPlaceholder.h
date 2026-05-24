@@ -14,13 +14,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)a@9	;
 
 @end
 

@@ -7,10 +7,9 @@
 @interface AppStoreKit.AutomaticUpdates
 {
     id dispatchQueue;
-    id lastAreEnabledValue;
 }
 
-- (void);
+- (void)o;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol HMDWatchSystemStateDelegate
+
+@optional
+- (void)service:(_Bool)arg1 didSwitchActivePairedDevice:acknowledgementBlock: /* Error: Ran out of types for this method. */;
 @end
 

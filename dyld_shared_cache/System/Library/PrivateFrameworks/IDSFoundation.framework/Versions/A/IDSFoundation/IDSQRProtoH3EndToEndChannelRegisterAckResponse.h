@@ -9,12 +9,13 @@
 }
 
 - (id);
-- (void);
+- (void)(	;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)versionInformation:(id)arg1 EASessionIndex:EAMatchAction:strings:AAP: /* Error: Ran out of types for this method. */;
+- (void)ssion info:(id)arg1 %#m
+;
 - (id);
 - (id);
 

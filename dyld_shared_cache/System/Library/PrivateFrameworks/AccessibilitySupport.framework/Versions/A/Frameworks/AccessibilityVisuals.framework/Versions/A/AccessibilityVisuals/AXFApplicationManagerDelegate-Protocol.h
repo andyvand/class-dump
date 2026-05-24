@@ -5,5 +5,8 @@
 //
 
 @protocol AXFApplicationManagerDelegate
+
+@optional
+- (void)T?;
 @end
 

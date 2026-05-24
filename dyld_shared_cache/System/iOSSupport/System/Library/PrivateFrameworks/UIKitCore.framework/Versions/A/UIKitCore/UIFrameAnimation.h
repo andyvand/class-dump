@@ -9,13 +9,11 @@
 @interface UIFrameAnimation : UIAnimation
 {
     struct CGRect _startFrame;
-    struct CGRect _endFrame;
-    int _fieldsToChange;
 }
 
 - (void);
-- (void);
-- (void)reaInsets;
+- (void)orwarding mapping packet to ID:(int)arg1 %@;
+- (void)effectiveSafeAreaInsets;
 - (void)X.];
 - (id)ô=a;
 - (struct CGRect)O;

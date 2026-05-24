@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
 @protocol CNUINavigationListStyle;
 
 __attribute__((visibility("hidden")))
 @interface CNUINavigationListViewCellHeightEstimator
 {
     id <CNUINavigationListStyle> _navigationListStyle;
-    NSNumber *_estimatedCellHeightNumber;
-    NSNumber *_estimatedDetailCellHeightNumber;
 }
 
 - (void);
@@ -23,14 +20,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (double);
-- (id);
-- (void)PerformResponse;
+- (id)5;
+- (void)asyncShouldPerformResponse;
 
 // Remaining properties
-@property(readonly, nonatomic) double estimatedCellHeight;
-@property(retain, nonatomic) NSNumber *estimatedCellHeightNumber; // @synthesize estimatedCellHeightNumber=_estimatedCellHeightNumber;
-@property(readonly, nonatomic) double estimatedDetailCellHeight;
-@property(retain, nonatomic) NSNumber *estimatedDetailCellHeightNumber; // @synthesize estimatedDetailCellHeightNumber=_estimatedDetailCellHeightNumber;
 @property(retain, nonatomic) id <CNUINavigationListStyle> navigationListStyle; // @synthesize navigationListStyle=_navigationListStyle;
 
 @end

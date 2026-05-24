@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface TTSSchemaTTSSpeechCancelled : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)BARRef, APSAudioTransportTime, Boolean *);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ailableForMessaging,V_availableForMessaging;
+- (_Bool)HERE   c.room_name = ?   AND c.service_name = ? ORDER BY   m.ROWID DESC LIMIT ?;
 - (id);
 - (id);
-- (id)e;
-- (id)sabled;
-- (_Bool)YPE_ASSISTANTTURN_TASKCOMPLETE_ASSISTANT_INITIATEDPARTY_VOICE;
-- (_Bool)ier;
+- (id)deleteReportedFailure;
+- (id)_isWebContentDisabled;
+- (_Bool)SUGINVOCATIONTYPE_ASSISTANTTURN_TASKCOMPLETE_ASSISTANT_INITIATEDPARTY_VOICE;
+- (_Bool)identifier;
 - (void)Â6Y-ç9Ì(>;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

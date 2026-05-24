@@ -7,11 +7,10 @@
 @class FCContentArchive, FCContentManifest;
 
 @protocol FCContentArchivable
-- (FCContentArchive *)imeInterval;
+- (FCContentArchive *)timeInterval;
 - (FCContentManifest *)GroupHeadlineScoringOutputName;
 
 // Remaining properties
 @property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
 @end
 

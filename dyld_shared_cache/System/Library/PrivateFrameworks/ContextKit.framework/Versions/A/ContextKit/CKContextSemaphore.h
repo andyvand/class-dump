@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 @interface CKContextSemaphore
 {
     _Bool _semaOwner;
-    unsigned int _sema;
-    unsigned long long _shmSize;
-    struct {
-        _Atomic unsigned int _field1;
-        _Atomic unsigned int _field2;
-        _Atomic unsigned int _field3;
-        _Atomic unsigned int _field4;
-        _Atomic int _field5;
-        _Atomic int _field6;
-        _Atomic unsigned long long _field7;
-        _Atomic unsigned int _field8;
-        _Atomic unsigned int _field9;
-    } *_shm;
-    NSObject<OS_xpc_object> *_shmObject;
 }
 
 + (_Bool);
@@ -32,19 +15,19 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void)validateUserInterfaceItem:(unsigned long long)arg1;
+- (unsigned long long)@;
 - (long long);
-- (id);
+- (id)ook up class of developer token provider with name:%@. /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
 - (long long);
-- (void);
+- (void)debug_deleteAllPersistedDataWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (_Bool);

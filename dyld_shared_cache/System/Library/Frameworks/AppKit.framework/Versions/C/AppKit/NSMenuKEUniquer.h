@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 __attribute__((visibility("hidden")))
 @interface NSMenuKEUniquer
 {
     struct __CFDictionary *keyTable;
-    NSLock *lock;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)ty session info:(id)arg1 %s;
+- (void)eiveInformationalResponse:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id)1Â0@ù
 × ;

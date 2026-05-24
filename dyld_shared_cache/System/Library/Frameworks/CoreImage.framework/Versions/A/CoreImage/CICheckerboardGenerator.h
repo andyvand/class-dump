@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIVector, NSNumber;
+@class CIVector;
 
 __attribute__((visibility("hidden")))
 @interface CICheckerboardGenerator : CIFilter
 {
     CIVector *inputCenter;
-    CIColor *inputColor0;
-    CIColor *inputColor1;
-    NSNumber *inputWidth;
-    NSNumber *inputSharpness;
 }
 
 + (id);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -34,10 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) CIColor *inputColor0; // @synthesize inputColor0;
-@property(retain, nonatomic) CIColor *inputColor1; // @synthesize inputColor1;
-@property(retain, nonatomic) NSNumber *inputSharpness; // @synthesize inputSharpness;
-@property(retain, nonatomic) NSNumber *inputWidth; // @synthesize inputWidth;
 
 @end
 

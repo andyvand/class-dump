@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BlastDoorASCodableActivityDataPreview;
+@class _BlastDoorASCodableActivityDataPreview;
 
 @interface _BlastDoorASCodableInviteRequest
 {
     _BlastDoorASCodableActivityDataPreview *_activityDataPreview;
-    NSString *_handshakeToken;
-    NSString *_inviterBuildNumber;
-    NSString *_inviterCallerID;
-    NSString *_inviterCloudKitAddress;
-    unsigned int _inviterVersion;
-    struct {
-        unsigned int inviterVersion:1;
-    } _has;
 }
 
 - (void);
@@ -27,18 +19,18 @@
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)9;
 - (void);
 - (void);
 - (unsigned long long);
@@ -50,18 +42,7 @@
 - (void)IDSClientMessageType;
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorASCodableActivityDataPreview *activityDataPreview; // @synthesize activityDataPreview=_activityDataPreview;
-@property(retain, nonatomic) NSString *handshakeToken; // @synthesize handshakeToken=_handshakeToken;
-@property(readonly, nonatomic) _Bool hasActivityDataPreview;
 @property(readonly, nonatomic) _Bool hasHandshakeToken;
-@property(readonly, nonatomic) _Bool hasInviterBuildNumber;
-@property(readonly, nonatomic) _Bool hasInviterCallerID;
-@property(readonly, nonatomic) _Bool hasInviterCloudKitAddress;
-@property(nonatomic) _Bool hasInviterVersion;
-@property(retain, nonatomic) NSString *inviterBuildNumber; // @synthesize inviterBuildNumber=_inviterBuildNumber;
-@property(retain, nonatomic) NSString *inviterCallerID; // @synthesize inviterCallerID=_inviterCallerID;
-@property(retain, nonatomic) NSString *inviterCloudKitAddress; // @synthesize inviterCloudKitAddress=_inviterCloudKitAddress;
-@property(nonatomic) unsigned int inviterVersion; // @synthesize inviterVersion=_inviterVersion;
 
 @end
 

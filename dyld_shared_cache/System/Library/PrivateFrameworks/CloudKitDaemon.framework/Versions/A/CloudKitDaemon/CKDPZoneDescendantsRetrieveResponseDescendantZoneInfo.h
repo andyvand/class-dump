@@ -13,11 +13,11 @@
 
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)ndpointStreamAirPlayRef, CMTimeRange);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasZoneSummary;
-@property(retain, nonatomic) CKDPZoneRetrieveResponseZoneSummary *zoneSummary; // @synthesize zoneSummary=_zoneSummary;
 
 @end
 

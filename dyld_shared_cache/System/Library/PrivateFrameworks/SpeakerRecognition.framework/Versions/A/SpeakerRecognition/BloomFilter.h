@@ -9,11 +9,6 @@
 @interface BloomFilter
 {
     BitVector *_bitVector;
-    unsigned long long _numberOfBits;
-    unsigned long long _numberHashes;
-    unsigned int _seed;
-    unsigned long long _expectedNumberOfItems;
-    double _falsePositiveRate;
 }
 
 + (_Bool);
@@ -29,8 +24,6 @@
 - (unsigned int)ÿÿ¾;
 
 // Remaining properties
-@property(readonly) unsigned long long expectedNumberOfItems; // @synthesize expectedNumberOfItems=_expectedNumberOfItems;
-@property(readonly) double falsePositiveRate; // @synthesize falsePositiveRate=_falsePositiveRate;
 @property(readonly) unsigned int seed; // @synthesize seed=_seed;
 
 @end

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKBadgeCountItem
 {
     unsigned long long _itemType;
-    NSString *_subtitle;
-    long long _count;
-    NSString *_title;
 }
 
 + (_Bool)X"Ð!Cùî%Ð1Â0@ù
 × ;
 - (id);
+- (id)?;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)hasCoreRoutineTransitionMotionTypeUnknown;
 - (void);
 - (long long)HV;
 - (id)ö;
@@ -28,10 +23,7 @@
 - (unsigned long long)Ô¯ÿ\hÈú;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) unsigned long long itemType; // @synthesize itemType=_itemType;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModuleSwipe : UINSGameModuleDigitizer
 {
     double _distance;
-    double _duration;
-    struct CGPoint _normalizedLocation;
 }
 
 + (id);
-- (void);
+- (void)JF;
 - (struct CGPoint);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (id);
 - (void);
@@ -33,8 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property double distance; // @synthesize distance=_distance;
-@property double duration; // @synthesize duration=_duration;
-@property struct CGPoint normalizedLocation; // @synthesize normalizedLocation=_normalizedLocation;
 
 @end
 

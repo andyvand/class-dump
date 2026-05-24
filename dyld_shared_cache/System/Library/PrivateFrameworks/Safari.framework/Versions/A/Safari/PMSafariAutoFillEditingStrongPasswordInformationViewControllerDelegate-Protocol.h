@@ -5,5 +5,6 @@
 //
 
 @protocol PMSafariAutoFillEditingStrongPasswordInformationViewControllerDelegate
+- (void);
 @end
 

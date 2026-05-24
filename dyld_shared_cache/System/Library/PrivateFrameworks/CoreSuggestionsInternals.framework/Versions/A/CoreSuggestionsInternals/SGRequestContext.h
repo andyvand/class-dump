@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, SGServiceContext;
+@class NSOperationQueue;
 
 @interface SGRequestContext
 {
     int _concurrencyBehavior;
-    int _backpressureHazard;
-    int _extractionMode;
-    SGServiceContext *_serviceContext;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
+- (int);
 - (int);
-- (int);
 - (id);
 - (id);
-- (id);
+- (id)__objc_selrefs;
 - (void)8Ìÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) int backpressureHazard; // @synthesize backpressureHazard=_backpressureHazard;
-@property(readonly, nonatomic) int concurrencyBehavior; // @synthesize concurrencyBehavior=_concurrencyBehavior;
-@property(readonly, nonatomic) int extractionMode; // @synthesize extractionMode=_extractionMode;
 @property(readonly, nonatomic) NSOperationQueue *processingQueue;
-@property(readonly, nonatomic) SGServiceContext *serviceContext; // @synthesize serviceContext=_serviceContext;
-@property(readonly, nonatomic) NSOperationQueue *storageQueue;
 
 @end
 

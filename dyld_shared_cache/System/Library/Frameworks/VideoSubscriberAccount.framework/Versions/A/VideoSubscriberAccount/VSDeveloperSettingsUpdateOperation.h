@@ -6,20 +6,18 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class VSDeveloperServiceConnection, VSDeveloperSettings, VSOptional;
+@class VSDeveloperSettings, VSOptional;
 
 @interface VSDeveloperSettingsUpdateOperation : VSAsyncOperation
 {
     VSDeveloperSettings *_settings;
-    VSOptional *_result;
-    VSDeveloperServiceConnection *_connection;
 }
 
 - (id);
-- (void);
+- (void)rogressAnimationSetup:(id)arg1 ]ENK3$_5clEP19FI_TMouseOverButtonEUlS4_E_FvS4_EEE;
+- (id)View]E3$_2FvvEEE;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -27,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VSDeveloperServiceConnection *connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
-@property(copy, nonatomic) VSDeveloperSettings *settings; // @synthesize settings=_settings;
 
 @end
 

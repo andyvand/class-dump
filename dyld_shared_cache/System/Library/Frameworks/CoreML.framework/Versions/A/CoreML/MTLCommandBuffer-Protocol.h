@@ -4,11 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-@protocol MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLLogContainer;
+@protocol MTLAccelerationStructureCommandEncoder, MTLBlitCommandEncoder, MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLLogContainer;
 
 @protocol MTLCommandBuffer
-- (void)enceFrameDataSerialization;
+- (id <MTLBlitCommandEncoder>)y=;
+- (void)@;
+- (double),CLTripSegmentProcessor,processingTime exceeded max allowed,after runInertialIntegrator;
+- (void);
+- (unsigned long long),;
+- (void);
+- (double);
+- (id <MTLAccelerationStructureCommandEncoder>)H;
+- (void)inferenceFrameDataSerialization;
 - (void);
 - (void);
 - (void) ;
@@ -22,17 +29,6 @@
 ãXÁn'uÒ`É¶ï½Ús¨Ñ~7l"[ðF?Í*øaG¼r« /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double GPUEndTime;
-@property(readonly) double GPUStartTime;
-@property(readonly) id <MTLCommandQueue> commandQueue;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long errorOptions;
-@property(readonly) double kernelEndTime;
-@property(readonly) double kernelStartTime;
-@property(copy) NSString *label;
-@property(readonly) id <MTLLogContainer> logs;
-@property(readonly) _Bool retainedReferences;
-@property(readonly) unsigned long long status;
 @end
 

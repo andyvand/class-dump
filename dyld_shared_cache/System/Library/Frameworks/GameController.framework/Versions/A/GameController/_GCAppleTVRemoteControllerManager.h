@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, NSDictionary, NSMutableDictionary, NSObject, NSSet, NSString, _GCHIDEventSubject;
-@protocol GCHIDSystemServiceProviding, OS_dispatch_queue;
+@class NSObject, NSSet;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _GCAppleTVRemoteControllerManager
 {
     NSObject<OS_dispatch_queue> *_sessionQueue;
-    _Bool _supportsMultipleRemotes;
-    NSMutableDictionary *_controllersByUDID;
-    NSMutableDictionary *_controllersByRegistryID;
-    GCController *_firstMicroGamepad;
-    long long _currentMediaRemoteInputMode;
-    GCController *__controller_genericBTRemote;
-    id <GCHIDSystemServiceProviding> _hidServiceProviding;
-    _GCHIDEventSubject *_hidEventSource;
-    id _hidEventObservation;
-    NSSet *_devices;
 }
 
 - (void);
@@ -30,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (_Bool);
@@ -38,26 +28,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)z;
 - (void);
+- (void);Ќ;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)`;
+- (void)canAddChildMembers;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *controllersByUDID; // @synthesize controllersByUDID=_controllersByUDID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSSet *devices; // @synthesize devices=_devices;
-@property(nonatomic) __weak GCController *firstMicroGamepad;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

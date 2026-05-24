@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class)(;
 + (Class);
 + (long long),V_audioSearchResults;
 - (id);

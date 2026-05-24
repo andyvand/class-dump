@@ -7,9 +7,6 @@
 @interface AMSUIBubbleTipInlineAnchorInfo
 {
     unsigned long long _arrowDirection;
-    double _arrowOffset;
-    double _relativeArrowOffset;
-    struct CGRect _anchorRect;
 }
 
 - (void);
@@ -17,7 +14,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (double);
 - (unsigned long long);
@@ -26,10 +23,7 @@
 × ;
 
 // Remaining properties
-@property struct CGRect anchorRect; // @synthesize anchorRect=_anchorRect;
 @property unsigned long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;
-@property double arrowOffset; // @synthesize arrowOffset=_arrowOffset;
-@property double relativeArrowOffset; // @synthesize relativeArrowOffset=_relativeArrowOffset;
 
 @end
 

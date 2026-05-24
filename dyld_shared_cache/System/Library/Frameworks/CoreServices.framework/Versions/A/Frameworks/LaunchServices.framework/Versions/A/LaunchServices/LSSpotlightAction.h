@@ -9,12 +9,10 @@
 @interface LSSpotlightAction
 {
     NSString *_identifier;
-    NSString *_unlocalizedTitle;
-    NSString *_symbolImageName;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)"16;
 - (_Bool);
 - (id);
 - (id);
@@ -23,15 +21,13 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)runWithInputsArray:resultsArray:intermediateOperations: /* Error: Ran out of types for this method. */;
 - (id)ntext>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}};
 - (void);
 - (id)ÈÔ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *symbolImageName; // @synthesize symbolImageName=_symbolImageName;
-@property(readonly, nonatomic) NSString *unlocalizedTitle; // @synthesize unlocalizedTitle=_unlocalizedTitle;
 
 @end
 

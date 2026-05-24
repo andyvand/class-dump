@@ -8,18 +8,14 @@
 
 @protocol MTLResidencySetSPI
 
+@optional
+- (void);
+- (NSArray *);
+
 // Remaining properties
 @property(readonly, copy) NSArray *allCommittedAllocations;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C
-
-@property(nonatomic) unsigned long long currentGeneration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) unsigned long long expiredGeneration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
 
 @end
 

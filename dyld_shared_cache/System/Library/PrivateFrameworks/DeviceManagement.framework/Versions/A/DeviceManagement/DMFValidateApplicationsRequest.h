@@ -16,12 +16,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-- (id);
++ (id)r;
+- (id)h;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)control:textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;

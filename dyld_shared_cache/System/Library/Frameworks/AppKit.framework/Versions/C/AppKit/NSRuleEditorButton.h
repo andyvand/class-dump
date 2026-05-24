@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (Class);
+- (Class)ray"16@?0@"NSArray"8;
 
 @end
 

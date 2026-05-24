@@ -5,16 +5,12 @@
 //
 
 @protocol _INPBLocalDate
+- (void)createExtensionRunnerWithClassName:(_Bool)arg1;
+- (void)y",&,N,V_objects;
+- (void)";
 - (long long);
 
 // Remaining properties
 @property(nonatomic) long long dayOfMonth;
-@property(nonatomic) int dayOfWeek;
-@property(nonatomic) _Bool hasDayOfMonth;
-@property(nonatomic) _Bool hasDayOfWeek;
-@property(nonatomic) _Bool hasMonth;
-@property(nonatomic) _Bool hasYear;
-@property(nonatomic) long long month;
-@property(nonatomic) long long year;
 @end
 

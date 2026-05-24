@@ -7,39 +7,12 @@
 @interface ChatKit.SendMenuCollectionViewCell
 {
     id titleLabel;
-    id titleBlurContainerView;
-    id iconImageView;
-    id iconBlurContainerView;
-    id sendMenuCellDelegate;
-    id iconWidthConstraint;
-    id iconHeightConstraint;
-    id iconToEdgeHorizontalConstraint;
-    id iconToLabelHorizontalConstraint;
-    id iconToTopConstraint;
-    id iconToBottomConstraint;
-    id touchRecognitionRectIsInset;
-    id selectionStateScale;
-    id sendMenuItemImageForLightMode;
-    id sendMenuCustomIconLayer;
-    id sendMenuItemImageForDarkMode;
-    id sendMenuItemImageCompositingFilterForLightMode;
-    id sendMenuItemImageCompositingFilterForDarkMode;
-    id sendMenuItemImageInsets;
-    id titleLabelSendMenuAppearanceAnimationBlurFilterRadius;
-    id titleLabelScrollViewEdgeBlurFilterRadius;
-    id iconImageViewSendMenuAppearanceAnimationBlurFilterRadius;
-    id iconImageViewScrollViewEdgeBlurFilterRadius;
-    id iconImageViewAppearanceAnimationOpacity;
-    id iconImageViewScrollViewEdgeOpacity;
-    id titleLabelScrollViewEdgeOpacity;
-    id titleLabelAppearanceAnimationOpacity;
-    id sendMenuItemEnabledOpacity;
 }
 
-- (void);
+- (void)/;
 - (void);
 - (struct CGRect);
-- (id);
+- (id)U;
 - (void);
 - (void);
 - (id);
@@ -54,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessibilityFrame;
-@property(nonatomic) struct CGPoint center;
 
 @end
 

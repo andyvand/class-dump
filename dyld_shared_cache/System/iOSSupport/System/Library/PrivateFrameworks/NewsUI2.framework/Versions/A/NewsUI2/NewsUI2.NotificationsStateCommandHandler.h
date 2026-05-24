@@ -7,7 +7,6 @@
 @interface NewsUI2.NotificationsStateCommandHandler
 {
     id commandCenter;
-    id notificationCenter;
 }
 
 - (void);

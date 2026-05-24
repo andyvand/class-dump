@@ -9,11 +9,6 @@
 @interface IKTexturePacker
 {
     NSMutableArray *_packerItems;
-    struct __CFDictionary *_packersByID;
-    struct CGSize _textureSize;
-    id _delegate;
-    int _firstPackerFailedCount;
-    _Bool _fake;
 }
 
 - (unsigned int);
@@ -26,7 +21,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (int);
+- (int);
 - (_Bool);
 - (void);
 - (id);
@@ -35,12 +30,12 @@
 - (void);
 - (unsigned int);
 - (void);
+- (id)query hang/timeout;
 - (id);
-- (id);
-- (id);
+- (id)U;
 - (void);
 - (void);
-- (float)ngth;
+- (float)contentsEDRStrength;
 
 // Remaining properties
 @property _Bool fake; // @synthesize fake=_fake;

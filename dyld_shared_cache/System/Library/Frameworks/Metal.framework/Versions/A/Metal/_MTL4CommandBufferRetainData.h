@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer, MTLLogState;
+@protocol MTLLogState;
 
 __attribute__((visibility("hidden")))
 @interface _MTL4CommandBufferRetainData
 {
     id <MTLLogState> _logState;
-    id <MTLBuffer> _privateData;
-    unsigned long long _privateDataOffset;
 }
 
 - (void);
-- (id);
+- (id)(;
 - (void);
-- (id);
+- (id)p;
 - (id);
 - (void);
 - (void);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLLogState> logState; // @synthesize logState=_logState;
-@property(retain, nonatomic) id <MTLBuffer> privateData; // @synthesize privateData=_privateData;
-@property(nonatomic) unsigned long long privateDataOffset; // @synthesize privateDataOffset=_privateDataOffset;
 
 @end
 

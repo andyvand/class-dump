@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface SignpostAggregation
 {
     NSString *_subsystem;
-    NSString *_category;
-    NSString *_name;
-    NSString *_aggregationDescription;
-    NSArray *_rawIntervals;
-    unsigned long long _durationNs;
-    NSDate *_earliestDate;
-    NSDate *_latestDate;
-    NSDictionary *_groupNameToGroupDict;
-    NSMutableDictionary *__groupToTypeToDuration;
-    NSMutableDictionary *__groupToTypeToMeasuredValue;
-    unsigned long long _earliestMCT;
-    unsigned long long _latestMCT;
 }
 
 + (id);
-+ (id);
++ (id)2h^;
 + (id);
 + (id);
 - (void);
@@ -36,20 +24,20 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)";
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -74,29 +62,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_groupToTypeToDuration; // @synthesize _groupToTypeToDuration=__groupToTypeToDuration;
-@property(retain, nonatomic) NSMutableDictionary *_groupToTypeToMeasuredValue; // @synthesize _groupToTypeToMeasuredValue=__groupToTypeToMeasuredValue;
-@property(readonly, nonatomic) NSString *aggregationDescription; // @synthesize aggregationDescription=_aggregationDescription;
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double durationMs;
-@property(readonly, nonatomic) unsigned long long durationNs; // @synthesize durationNs=_durationNs;
-@property(readonly, nonatomic) double durationSeconds;
-@property(readonly, nonatomic) NSDate *earliestDate; // @synthesize earliestDate=_earliestDate;
-@property(nonatomic) unsigned long long earliestMCT; // @synthesize earliestMCT=_earliestMCT;
-@property(readonly, nonatomic) NSDictionary *groupNameToGroupDict; // @synthesize groupNameToGroupDict=_groupNameToGroupDict;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *latestDate; // @synthesize latestDate=_latestDate;
-@property(nonatomic) unsigned long long latestMCT; // @synthesize latestMCT=_latestMCT;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *rawIntervals; // @synthesize rawIntervals=_rawIntervals;
-@property(readonly, nonatomic) NSString *signatureString;
-@property(readonly, nonatomic) NSString *subsystem; // @synthesize subsystem=_subsystem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool telemetryEnabled;
 
 @end
 

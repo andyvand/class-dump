@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface BWBracketSettings
 {
     int _bracketingMode;
-    _Bool _providePreBracketedEV0;
-    _Bool _lensStabilizationEnabledForClientBracket;
-    NSArray *_exposureValues;
-    NSArray *_manualExposureBracketedCaptureParams;
-    NSDictionary *_oisBracketedCaptureParams;
 }
 
 + (id);
@@ -39,13 +32,7 @@
 - (void)onitorCreateFunction:(_Bool)arg1 displayType:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int bracketFrameCount;
 @property(readonly, nonatomic) int bracketingMode; // @synthesize bracketingMode=_bracketingMode;
-@property(copy, nonatomic) NSArray *exposureValues; // @synthesize exposureValues=_exposureValues;
-@property(nonatomic) _Bool lensStabilizationEnabledForClientBracket; // @synthesize lensStabilizationEnabledForClientBracket=_lensStabilizationEnabledForClientBracket;
-@property(copy, nonatomic) NSArray *manualExposureBracketedCaptureParams; // @synthesize manualExposureBracketedCaptureParams=_manualExposureBracketedCaptureParams;
-@property(copy, nonatomic) NSDictionary *oisBracketedCaptureParams; // @synthesize oisBracketedCaptureParams=_oisBracketedCaptureParams;
-@property(nonatomic) _Bool providePreBracketedEV0; // @synthesize providePreBracketedEV0=_providePreBracketedEV0;
 
 @end
 

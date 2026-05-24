@@ -7,15 +7,13 @@
 @interface AVAudioUIntegerRange
 {
     unsigned long long minimum;
-    unsigned long long maximum;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)b3MTPDIMM virtual temp for 3x DIMM Slot1+3+4 config (DegC) (TM3b);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long maximum; // @synthesize maximum;
 @property(readonly, nonatomic) unsigned long long minimum; // @synthesize minimum;
 
 @end

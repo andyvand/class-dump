@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetrics, NSArray, NSObject, NSString, PKDiscoveryService;
-@protocol OS_dispatch_queue, PKDiscoveryDataSourceDelegate;
+@class PKDiscoveryService;
+@protocol PKDiscoveryDataSourceDelegate;
 
 @interface PKDiscoveryDataSource
 {
     PKDiscoveryService *_discoveryService;
-    AMSMetrics *_AMPMetrics;
-    struct os_unfair_lock_s _articleLayoutsLock;
-    NSArray *_articleLayouts;
-    _Bool _updatingArticles;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <PKDiscoveryDataSourceDelegate> _delegate;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,18 +31,10 @@
 - (id);
 - (void);
 - (id);
-- (void)le;
+- (void)shouldTile;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *articleLayouts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PKDiscoveryDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

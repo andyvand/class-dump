@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSNoteMessageReceivedMetric
 {
     _Bool _fromStorage;
-    NSString *_service;
-    NSNumber *_accountType;
-    double _serverTimestamp;
-    double _localTimeDelta;
 }
 
 - (double);
@@ -20,26 +16,13 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)$	;
 - (id);
 - (void)y used for the push prompt.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *accountType; // @synthesize accountType=_accountType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) _Bool fromStorage; // @synthesize fromStorage=_fromStorage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double localTimeDelta; // @synthesize localTimeDelta=_localTimeDelta;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) double serverTimestamp; // @synthesize serverTimestamp=_serverTimestamp;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

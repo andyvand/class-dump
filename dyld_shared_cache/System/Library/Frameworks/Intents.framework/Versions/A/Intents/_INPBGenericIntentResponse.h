@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBGenericIntentResponse
 {
     struct _has;
-    _INPBIntentMetadata *_metadata;
-    NSArray *_properties;
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)entID, dismissing (clientID=%{public}@);
+- (void)ewifi] [nearbysync] Password changed for network %{public}@, updating the %{public}s keychain;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool)ntentResponse;
-- (void)SE;
+- (_Bool)INSetNicknameIntentResponse;
+- (void)CAR_LEASE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) unsigned long long propertiesCount;
-@property(readonly) Class superclass;
 
 @end
 

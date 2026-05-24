@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKTool.h>
 
-@class NSString, PKToolConfiguration, UIColor;
+@class NSString;
 
 @interface PKCustomTool : PKTool
 {
@@ -20,7 +20,7 @@
 - (Class);
 - (id);
 - (id);
-- (id);
+- (id)setSearchListControllerPresentationState:(id)arg1;
 - (double);
 - (unsigned long long);
 - (id);
@@ -31,10 +31,7 @@
 - (void)`5T6à6<9Ì9F¬<==X>ÄB;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *color;
-@property(readonly, copy, nonatomic) PKToolConfiguration *customConfigurationCopy;
 @property(readonly, nonatomic) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;
-@property(readonly, nonatomic) double weight;
 
 @end
 

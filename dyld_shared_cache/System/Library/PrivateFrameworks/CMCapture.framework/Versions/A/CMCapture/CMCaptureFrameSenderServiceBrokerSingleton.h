@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMCaptureFrameSenderServiceBroker, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface CMCaptureFrameSenderServiceBrokerSingleton
 {
     char *_frameSenderServiceBrokerQueueLabel;
-    unsigned long long _frameSenderServiceBrokerQueueLabelLength;
-    NSObject<OS_dispatch_queue> *_frameSenderServiceBrokerQueue;
-    CMCaptureFrameSenderServiceBroker *_frameSenderServiceBroker;
-    NSObject<OS_dispatch_queue> *_frameSenderServiceBrokerReconnectionQueue;
-    int _numberOfTimesConnectionHasBroken;
-    _Bool _connectionWasInterrupted;
 }
 
 + (id);
 - (int);
-- (int);
+- (int);
 - (void);
 - (void);
 - (id);

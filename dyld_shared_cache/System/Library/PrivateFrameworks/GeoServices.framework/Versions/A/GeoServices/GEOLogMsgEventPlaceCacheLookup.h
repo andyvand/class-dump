@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventPlaceCacheLookup
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _businessId;
-    NSString *_requestAppIdentifier;
-    unsigned int _bytes;
-    int _localSearchProviderID;
-    int _lookupResult;
-    struct {
-        unsigned int has_businessId:1;
-        unsigned int has_bytes:1;
-        unsigned int has_localSearchProviderID:1;
-        unsigned int has_lookupResult:1;
-    } _flags;
 }
 
-+ (_Bool)tateOfChargeAtDestPredicted:(id)arg1;
++ (_Bool)setHasStateOfChargeAtDestPredicted:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -33,46 +22,36 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)tP;
+- (int)tion failed:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)(=;
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void),";
 - (_Bool);
-- (void);
+- (void)componentsJoinedByString:(int)arg1;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)criptorCache;
 - (unsigned int);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id)TileGroupIdentifier:(struct _NSZone *)arg1;
-- (unsigned long long)stCompletedWithAMPResult: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)setTileGroupIdentifier:(struct _NSZone *)arg1;
+- (unsigned long long)requestCompletedWithAMPResult: /* Error: Ran out of types for this method. */;
 - (id)ettings",&,N;
 - (id)%@ | %{private}f, %{private}f | %0.1fÂ°;
 - (id)L°;
 - (void)zÝ3;
 
 // Remaining properties
-@property(nonatomic) unsigned long long businessId;
-@property(nonatomic) unsigned int bytes;
-@property(nonatomic) _Bool hasBusinessId;
-@property(nonatomic) _Bool hasBytes;
-@property(nonatomic) _Bool hasLocalSearchProviderID;
-@property(nonatomic) _Bool hasLookupResult;
 @property(readonly, nonatomic) _Bool hasRequestAppIdentifier;
-@property(nonatomic) int localSearchProviderID;
-@property(nonatomic) int lookupResult;
-@property(retain, nonatomic) NSString *requestAppIdentifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

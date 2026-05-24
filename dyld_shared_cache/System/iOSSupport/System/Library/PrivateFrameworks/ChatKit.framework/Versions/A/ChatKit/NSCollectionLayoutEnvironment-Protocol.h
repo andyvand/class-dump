@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
 @end
 

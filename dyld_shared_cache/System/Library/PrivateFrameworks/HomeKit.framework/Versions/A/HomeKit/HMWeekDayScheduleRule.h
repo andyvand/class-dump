@@ -4,62 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface HMWeekDayScheduleRule
 {
     NSDateComponents *_startTime;
-    NSDateComponents *_endTime;
-    unsigned long long _daysOfTheWeek;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool)fh	;
 - (id);
 - (_Bool);
-- (void);
+- (void)pl_analysisErrorForInvalidParameterValue:(unsigned long long)arg1 named: /* Error: Ran out of types for this method. */;
+- (unsigned long long)nodesForActingObjectIDs:createIfMissing:inContext: /* Error: Ran out of types for this method. */;
+- (id)A;
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)symbolic;
+- (id)editing;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)orySelectionSettingItem;
+- (id);
+- (id);
+- (void)HMAccessorySelectionSettingItem;
 - (void)àÂ<ìËÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property unsigned long long daysOfTheWeek; // @synthesize daysOfTheWeek=_daysOfTheWeek;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDateComponents *endTime; // @synthesize endTime=_endTime;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
 @property(copy) NSDateComponents *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 
 @end
 

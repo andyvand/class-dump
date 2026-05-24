@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, SFBonjourNearBy;
-@protocol OS_dispatch_queue, WPNearbyDelegate;
+@class SFBonjourNearBy;
 
 __attribute__((visibility("hidden")))
 @interface WPBonjourNearBy
 {
     SFBonjourNearBy *_sfBonjourNearBy;
-    NSMutableDictionary *_advertiserNearbyTypesAdvData;
-    NSMutableDictionary *_scannerNearbyTypesToScan;
-    NSObject<OS_dispatch_queue> *_dispatch_queue;
-    id <WPNearbyDelegate> _delegate;
-    long long _state;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id)1ýÿÄ1ýÿ;
 - (void);

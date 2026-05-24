@@ -8,10 +8,7 @@ __attribute__((visibility("hidden")))
 @interface UITextMagnifierTimeWeightedPoint
 {
     int m_index;
-    struct {
-        struct CGPoint point;
-        double time;
-    } m_points[16];
+    CDStruct_cccd6e1b m_points[16];
 }
 
 - (struct CGPoint);
@@ -21,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct CGSize)Storage;
-- (void)uldLoadKeySceneInputViewsForResponder: /* Error: Ran out of types for this method. */;
-- (struct CGSize)dowObserver;
+- (struct CGSize)typedStorage;
+- (void)shouldLoadKeySceneInputViewsForResponder: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_keyWindowObserver;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint weightedPoint;

@@ -12,25 +12,18 @@
 @interface UICalendarSelectionMultiDate : UICalendarSelection
 {
     NSMutableArray *_selectedDates;
-    struct {
-        unsigned int canSelect:1;
-        unsigned int canDeselect:1;
-        unsigned int didSelect:1;
-        unsigned int didDeselect:1;
-    } _delegateImplements;
-    id <UICalendarSelectionMultiDateDelegate> _delegate;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)essage item does not exist. Bailing and passing input to next pipeline;
+- (_Bool)d. Associating with message guid %@ hasAsset:(id)arg1 %@;
+- (void)ce incoming nickname in our handled map, add to pending;
+- (void)rsion to %@;
+- (id)@ instead;
+- (void)registered for SMS;
 - (void);
 - (void);
+- (void);
+- (void)M;
 - (void);
 - (void);
 - (_Bool);

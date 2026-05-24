@@ -9,39 +9,31 @@
 @interface CWFNearbyDeviceDiscoveryFilter
 {
     NSString *_receiverMacAddress;
-    NSString *_transmitterMacAddress;
-    NSString *_bssid;
-    long long _numReports;
-    long long _frameType;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)6;
 - (long long);
 - (_Bool);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)|	;
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
+- (void);
+- (id)-;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)tAddresses;
+- (void)IPv4BroadcastAddresses;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(nonatomic) long long frameType; // @synthesize frameType=_frameType;
-@property(nonatomic) long long numReports; // @synthesize numReports=_numReports;
 @property(copy, nonatomic) NSString *receiverMacAddress; // @synthesize receiverMacAddress=_receiverMacAddress;
-@property(copy, nonatomic) NSString *transmitterMacAddress; // @synthesize transmitterMacAddress=_transmitterMacAddress;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsUI2.SharedWithYouFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
-    id featureAvailability;
 }
 
 @end

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MFPSharpenEffect : MFPEffect
 {
     float mAmount;
-    float mRadius;
 }
 
 + (id);

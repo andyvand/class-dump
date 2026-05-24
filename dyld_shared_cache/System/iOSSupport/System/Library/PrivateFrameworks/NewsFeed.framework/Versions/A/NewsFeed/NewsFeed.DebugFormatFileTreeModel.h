@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatFileTreeModel
 {
     id editor;
-    id allowSelection;
-    id _items;
-    id _selection;
-    id _metrics;
 }
 
 @end

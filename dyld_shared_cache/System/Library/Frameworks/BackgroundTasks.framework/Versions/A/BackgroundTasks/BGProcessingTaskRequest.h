@@ -9,12 +9,11 @@
 @interface BGProcessingTaskRequest : BGTaskRequest
 {
     _Bool _requiresNetworkConnectivity;
-    _Bool _requiresExternalPower;
 }
 
 + (id);
 + (Class);
-- (id);
+- (id)ALL_COMPLETED_FOR_EMPTY_LIST;
 - (_Bool);
 - (void);
 - (void);
@@ -26,7 +25,6 @@
 - (_Bool);
 
 // Remaining properties
-@property _Bool requiresExternalPower; // @synthesize requiresExternalPower=_requiresExternalPower;
 @property _Bool requiresNetworkConnectivity; // @synthesize requiresNetworkConnectivity=_requiresNetworkConnectivity;
 
 @end

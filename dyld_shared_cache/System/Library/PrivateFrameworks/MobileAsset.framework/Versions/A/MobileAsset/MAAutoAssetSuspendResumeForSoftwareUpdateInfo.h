@@ -11,7 +11,7 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)postGeneration;
 - (id);
 - (void);
 

@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsFeedOfflineFeedBuilder
 {
     id resolver;
-    id appConfigManager;
-    id feedAvailabilityService;
-    id offlineFeedDatabase;
 }
 
 @end

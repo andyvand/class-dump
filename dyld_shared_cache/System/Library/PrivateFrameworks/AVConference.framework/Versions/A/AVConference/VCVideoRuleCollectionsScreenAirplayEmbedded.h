@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     id <VCHardwareSettingsEmbeddedProtocol> _hardwareSettings;
 }
 
-+ (id)et;
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id)MQGet;
+- (_Bool)� ;
+- (_Bool);
+- (_Bool)9;
 - (id);
 - (void);
 - (void);

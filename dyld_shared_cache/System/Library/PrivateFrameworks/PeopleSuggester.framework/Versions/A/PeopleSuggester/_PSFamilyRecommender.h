@@ -4,65 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, HKMedicalIDStore, NSObject, _CDInteractionStore, _PSContactResolver, _PSMegadomeFamilyUtility;
-@protocol OS_dispatch_queue;
+@class _PSContactResolver;
 
 @interface _PSFamilyRecommender
 {
     struct os_unfair_lock_s _lock;
-    _CDInteractionStore *_interactionStore;
-    CNContactStore *_contactStore;
-    HKMedicalIDStore *_medicalIDStore;
-    _PSContactResolver *_contactResolver;
-    _PSMegadomeFamilyUtility *_megadomeUtility;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
+- (id)_hasAppAssetPath;
+- (id)_hasAnonymizedSelectedEntityIdentifier;
+- (id)_hasAnonymizedLocationNameId;
+- (void)_flowCommandReceived;
+- (void)_flErrorCode;
+- (id)_entityPartialAppCount6Hr;
+- (id)_entityKitRequestContext;
+- (_Bool)_entityFeedbackHistorys;
+- (id)_enrollmentZeroDetectionCompleted;
+- (id)_durationFromBootToFirstRequestSeconds;
+- (id)_deviceUnlockRequired;
+- (id)_deletionTriggerEvent;
+- (void)_dataSharingOptInState;
+- (unsigned long long)_categoryType;
+- (id)_audioInputRoute;
+- (id)_assistantDaemonAudioRecordingInterruptionStartedTier1;
+- (id)_assetSetsReported;
+- (id)_assetSetStatusDigestReported;
+- (id)_assetSelectionLatencyInSecond;
+- (id)_assetPath;
+- (id)_assetFailureReasons;
+- (id)_appUsageCountForEntityFromSiri14Days;
+- (id)_appShortcutFirstRunConfirmationContext;
+- (id)_appSelectionUses;
+- (id)server_upload_ts;
+- (id)Type;
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)AccumulatedKeyValues;
 - (void);
 - (void);
 - (void)creating tensor:(id)arg1 %@;
-- (id)leModel_predictWithPredictionContext;
+- (id)_PSEnsembleModel_predictWithPredictionContext;
 - (id)om.apple.PeopleSuggester.MessagesPinning.Config;
 
 // Remaining properties
 @property(retain, nonatomic) _PSContactResolver *contactResolver; // @synthesize contactResolver=_contactResolver;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
-@property(retain, nonatomic) HKMedicalIDStore *medicalIDStore; // @synthesize medicalIDStore=_medicalIDStore;
-@property(retain, nonatomic) _PSMegadomeFamilyUtility *megadomeUtility; // @synthesize megadomeUtility=_megadomeUtility;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

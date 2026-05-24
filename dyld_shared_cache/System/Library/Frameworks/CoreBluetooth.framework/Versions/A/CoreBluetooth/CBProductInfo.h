@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CBProductInfo
 {
     unsigned short _vendorIDBluetooth;
-    unsigned short _vendorIDUSB;
-    unsigned int _flags;
-    unsigned int _productID;
-    unsigned int _radarComponentID;
-    NSString *_model;
-    NSString *_productName;
-    NSString *_sfSymbolNameCase;
-    NSString *_sfSymbolNameMain;
 }
 
 + (id);
@@ -28,20 +18,12 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
-- (void);
-- (unsigned int);
+- (id);
+- (void)y=%f, taskID=%@;
+- (unsigned int)ions:reply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly, copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(readonly, nonatomic) unsigned int productID; // @synthesize productID=_productID;
-@property(readonly, copy, nonatomic) NSString *productName; // @synthesize productName=_productName;
-@property(readonly, nonatomic) unsigned int radarComponentID; // @synthesize radarComponentID=_radarComponentID;
-@property(readonly, copy, nonatomic) NSString *sfSymbolNameCase; // @synthesize sfSymbolNameCase=_sfSymbolNameCase;
-@property(readonly, copy, nonatomic) NSString *sfSymbolNameMain; // @synthesize sfSymbolNameMain=_sfSymbolNameMain;
-@property(readonly, nonatomic) unsigned short vendorIDBluetooth; // @synthesize vendorIDBluetooth=_vendorIDBluetooth;
-@property(readonly, nonatomic) unsigned short vendorIDUSB; // @synthesize vendorIDUSB=_vendorIDUSB;
 
 @end
 

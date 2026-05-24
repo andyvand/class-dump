@@ -27,10 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool imageForkedFromMeCard;
-@property(nonatomic) _Bool nameForkedFromMeCard;
-@property(nonatomic) unsigned long long nameFormat;
-@property(nonatomic) unsigned long long sharingAudience;
 @property(nonatomic) _Bool sharingEnabled;
 
 @end

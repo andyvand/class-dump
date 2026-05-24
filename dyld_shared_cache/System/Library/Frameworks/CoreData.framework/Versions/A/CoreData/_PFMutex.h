@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 
 + (void)kItem addUpdatedRecord:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)hx;
 - (_Bool);
-- (void)terDelay:inModes: /* Error: Ran out of types for this method. */;
-- (void)b;
+- (void)performSelector:withObject:afterDelay:inModes: /* Error: Ran out of types for this method. */;
+- (void)_db;
 
 @end
 

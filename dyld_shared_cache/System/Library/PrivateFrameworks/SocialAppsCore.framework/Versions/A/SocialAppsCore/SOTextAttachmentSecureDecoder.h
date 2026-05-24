@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)T;
+- (id)it013TapbackPickerD16PillViewDelegateP;
 - (void);
 
 @end

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVFrameRateRangeInternal
 {
     int minFrameRate;
-    int maxFrameRate;
 }
 
 @end

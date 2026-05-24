@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NEPathEvent
 {
     long long _type;
-    NSString *_bundleID;
 }
 
 - (id);
@@ -17,7 +14,6 @@
 - (void)6@20;
 
 // Remaining properties
-@property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

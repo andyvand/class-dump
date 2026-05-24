@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPStoreAssetInfoPlaybackCacheRequest
 {
     unsigned long long _accountID;
-    unsigned long long _delegatedAccountID;
-    long long _requestType;
-    NSString *_redownloadParameters;
-    NSString *_cloudUniversalLibraryID;
-    long long _storeSubscriptionAdamID;
-    unsigned long long _storeCloudID;
-    long long _storePurchasedAdamID;
-    long long _storeRadioAdamID;
 }
 
 - (long long);
@@ -30,28 +20,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)$;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)trackDonationFromBundleId:source:hasLatLon:isEligible: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
-- (void)o_KEY;
+- (void)ver.GetChunkKeysRequest;
+- (void)__gaplessInfo_KEY;
 - (void)Tø;
 - (long long)ataSource=<%{public}@ %p> indexPath=%{public}@;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accountID; // @synthesize accountID=_accountID;
-@property(copy, nonatomic) NSString *cloudUniversalLibraryID; // @synthesize cloudUniversalLibraryID=_cloudUniversalLibraryID;
-@property(nonatomic) unsigned long long delegatedAccountID; // @synthesize delegatedAccountID=_delegatedAccountID;
-@property(copy, nonatomic) NSString *redownloadParameters; // @synthesize redownloadParameters=_redownloadParameters;
-@property(nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(nonatomic) unsigned long long storeCloudID; // @synthesize storeCloudID=_storeCloudID;
-@property(nonatomic) long long storePurchasedAdamID; // @synthesize storePurchasedAdamID=_storePurchasedAdamID;
-@property(nonatomic) long long storeRadioAdamID; // @synthesize storeRadioAdamID=_storeRadioAdamID;
-@property(nonatomic) long long storeSubscriptionAdamID; // @synthesize storeSubscriptionAdamID=_storeSubscriptionAdamID;
 
 @end
 

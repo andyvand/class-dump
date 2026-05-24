@@ -5,5 +5,9 @@
 //
 
 @protocol NSControlTextEditingDelegate
+
+@optional
+- (void)Ӊ;
+- (void);
 @end
 

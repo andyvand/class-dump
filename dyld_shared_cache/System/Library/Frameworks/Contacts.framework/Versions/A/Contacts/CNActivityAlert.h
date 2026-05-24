@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CNActivityAlert
 {
     _Bool _ignoreMute;
-    NSString *_sound;
-    NSString *_vibration;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
@@ -23,30 +20,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)transaction;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)ed:(id)arg1 locked:] /* Error: Ran out of types for this method. */;
+- (_Bool)ATA #IMPLIED>;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)%;
+- (void)synchronizeProviderDomainUsingSession:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreMute; // @synthesize ignoreMute=_ignoreMute;
 @property(copy) NSString *sound; // @synthesize sound=_sound;
-@property(readonly) Class superclass;
-@property(copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(copy) NSString *vibration; // @synthesize vibration=_vibration;
 
 @end
 

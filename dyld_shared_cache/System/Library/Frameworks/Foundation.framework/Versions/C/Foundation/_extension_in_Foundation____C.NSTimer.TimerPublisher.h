@@ -7,12 +7,6 @@
 @interface (extension in Foundation):__C.NSTimer.TimerPublisher
 {
     id interval;
-    id tolerance;
-    id runLoop;
-    id mode;
-    id options;
-    id sides;
-    id lock;
 }
 
 @end

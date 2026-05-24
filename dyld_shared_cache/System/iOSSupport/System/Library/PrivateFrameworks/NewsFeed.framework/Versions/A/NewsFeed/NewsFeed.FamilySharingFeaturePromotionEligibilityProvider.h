@@ -7,7 +7,6 @@
 @interface NewsFeed.FamilySharingFeaturePromotionEligibilityProvider
 {
     id familySharing;
-    id familySharingStatusManager;
 }
 
 @end

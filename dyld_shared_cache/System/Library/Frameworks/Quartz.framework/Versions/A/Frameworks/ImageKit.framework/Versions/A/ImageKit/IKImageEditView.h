@@ -9,8 +9,6 @@
 @interface IKImageEditView
 {
     id _dataSource;
-    IKImageEditPanel *_imageEditPanel;
-    _Bool _dataSourceIsIKImageView;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property id dataSource; // @synthesize dataSource=_dataSource;
-@property _Bool dataSourceIsIKImageView; // @synthesize dataSourceIsIKImageView=_dataSourceIsIKImageView;
 @property IKImageEditPanel *imageEditPanel; // @synthesize imageEditPanel=_imageEditPanel;
 
 @end

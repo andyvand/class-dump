@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHeartBeat, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface _CSSiriQueueObserver
 {
     unsigned long long _numberOfOccurrences;
-    AFHeartBeat *_heartBeat;
-    NSObject<OS_dispatch_queue> *_queue;
-    double _heartBeatInterval;
-    double _timeoutInterval;
-    CDUnknownBlockType _timeoutHandler;
 }
 
 - (void);
@@ -22,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ifyDidStartStreamWithContext:audioProviderUUID:successfully:option: /* Error: Ran out of types for this method. */;
+- (void)notifyDidStartStreamWithContext:audioProviderUUID:successfully:option: /* Error: Ran out of types for this method. */;
 
 @end
 

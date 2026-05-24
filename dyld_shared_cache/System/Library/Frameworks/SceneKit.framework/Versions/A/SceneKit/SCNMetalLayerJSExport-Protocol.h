@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNScene;
+@class SCNScene;
 
 @protocol SCNMetalLayerJSExport
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)1 FROM item WHERE ROWID = ?;
 - (_Bool)@¿;
 - (void)body
 
@@ -36,13 +41,6 @@
 - (void)óvx?¨@î^.¾G<5?DQx?Ak@-¾É%?:(_Bool)arg1 [x?cX@mÿ*¾Y?Äyx?\èG@èõ'¾?x?K?9@G¯&¾¹?û®x?¼[,@°Ê%¾Ëñ>^»x?®!@y­$¾á>ÅÊx?\Æ@$¾¶×Ò>íÔx?R@oñ ¾'Å>þx?Í?@oI¾Vï¸>"y?÷®û?Ô¾âé­>§=y?æ\î?¸¾Ô£>,ay?ú)â?¾H>ly?:×?Y¾Ý>&Ãy?Ì]Í?X¾>õy?ñFÄ?K¾¦Ð>Y3z?é)¼?ì¾ÛLu>pz?c¸´?K¾¬tg>[¶z?ôø­?¯wÿ½5^Z>eýz?Ñ§?©0ö½ÙÐM>=H{?ó:¢?µ3ì½àA>c{?6!?ýá½µÅ5>Oê{?^?³_×½ôM*>î=|?gC?ÖVÌ½>!|?4f?©gÁ½¥/>æ|?!ä?²ºµ½^i	>;}?Öª?&7ª½§çý=*}?¼?¡h½«é=¾Ú}??aT½oÕ=&~?A?i½<Â=&m~?íÒ~?<ùt½}X¯=â®~?êËz?¸\½=¢ë~?F#w?~ÃD½*ä=Ñ"?"ás?~-½&s=S?êp?³&½Q=¦}?K:n?0þ¼Çõ/='¢?aÞk?kÑ¼Î=+À?²i?Ã¥¼ñá<Ø?4¾g?|Ót¼Â¦<ê?íe?·¼Y<ö?5Ad?;ª»ZÓ;Æý?«¯b?Þ8SÉ· /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(nonatomic) double currentTime;
-@property(nonatomic) id delegate;
-@property(nonatomic) _Bool loops;
-@property(nonatomic, getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
 @property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) _Bool showsStatistics;
 @end
 

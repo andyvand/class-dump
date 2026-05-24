@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFSpeechAnalyzer;
+
 @protocol SFSpeechAnalyzerTranscriberResultDelegate
+- (void)setQueue:(SFSpeechAnalyzer *)arg1;
+- (void)setProviders:(SFSpeechAnalyzer *)arg1;
+
+@optional
+- (void)setPredicate:(SFSpeechAnalyzer *)arg1;
 @end
 

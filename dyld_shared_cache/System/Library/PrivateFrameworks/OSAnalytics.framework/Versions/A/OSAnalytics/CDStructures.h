@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -15,11 +13,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 struct _CSTypeRef {
     unsigned long long _field1;
     unsigned long long _field2;
-};
-
-struct __sbuf {
-    char *_field1;
-    int _field2;
 };
 
 struct dyld_shared_cache_loadinfo_v2 {
@@ -122,6 +115,6 @@ struct timeval64 {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    NSObject *daFlow;
-} CDStruct_7277eab8;
+    id _field1;
+} CDStruct_183fa7cb;
 

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface IMDRelayGroupMutationMessage
 {
     _Bool _fromMe;
-    _Bool _unattributed;
-    NSString *_sender;
-    NSString *_service;
-    NSString *_groupID;
-    NSString *_originalGroupID;
-    NSUUID *_guid;
-    NSString *_destinationCallerID;
-    unsigned long long _type;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
-- (void);
+- (id)T(;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -41,22 +31,13 @@
 - (void)× ;
 - (id)0@ù
 × ;
-- (id)ChatVocabularyUpdater;
+- (id)IMDChatVocabularyUpdater;
 - (void);
 - (void)*;
 - (void)ãD];
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destinationCallerID; // @synthesize destinationCallerID=_destinationCallerID;
-@property(readonly, nonatomic) _Bool failed;
-@property(nonatomic) _Bool fromMe; // @synthesize fromMe=_fromMe;
-@property(copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(copy, nonatomic) NSUUID *guid; // @synthesize guid=_guid;
-@property(copy, nonatomic) NSString *originalGroupID; // @synthesize originalGroupID=_originalGroupID;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(copy, nonatomic) NSString *service; // @synthesize service=_service;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool unattributed; // @synthesize unattributed=_unattributed;
 
 @end
 

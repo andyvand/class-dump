@@ -9,19 +9,19 @@
 + (id);
 + (id);
 + (void);
-+ (void);
-+ (id);
++ (void)� ;
++ (id)A;
 + (id);
 + (id)6@2x.png;
 + (void);
 - (id);
 - (oneway void);
-- (id);
+- (id)n%e~Pg;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)NSActionTemplate;
 @end
 

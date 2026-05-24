@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSRewrittenUtteranceTier1 : SISchemaInstrumentationMessage
 {
     NSString *_rewrittenUtterance;
-    _Bool _hasRewrittenUtterance;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)0@9;
 - (_Bool);
-- (_Bool);
+- (_Bool)dress book name, so going to try and suggest a name;
 - (id);
 - (id);
-- (id)sCountry;
+- (id)_hasCountry;
 - (id),V_appLanguageModelBuildContext;
-- (void)EL;
+- (void)ASRAPPLANGUAGEMODELLOADFAILURE_REASON_STALE_MODEL;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRewrittenUtterance; // @synthesize hasRewrittenUtterance=_hasRewrittenUtterance;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *rewrittenUtterance; // @synthesize rewrittenUtterance=_rewrittenUtterance;
 
 @end

@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PDPlaceholder
 {
     int mType;
-    int mOrientation;
-    int mSize;
-    unsigned int mIndex;
-    int mBoundsTrack;
 }
 
 + (_Bool);
@@ -20,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (int);
-- (void);
+- (int)led Postal Address;
+- (void)@;
 - (int);
 - (int);
 - (void);

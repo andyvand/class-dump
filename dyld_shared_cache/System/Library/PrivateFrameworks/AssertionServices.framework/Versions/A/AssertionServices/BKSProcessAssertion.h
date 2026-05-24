@@ -6,37 +6,32 @@
 
 #import <AssertionServices/BKSAssertion.h>
 
-@class RBSAssertion;
-
 @interface BKSProcessAssertion : BKSAssertion
 {
     unsigned int _reason;
-    unsigned int _flags;
-    RBSAssertion *_mediaPlaybackHackAssertion;
 }
 
 + (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)X;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int flags;
-@property(readonly, nonatomic) unsigned int reason; // @synthesize reason=_reason;
 
 @end
 

@@ -9,14 +9,6 @@
 @interface BWDeviceMotionActivityDetector
 {
     BWMotionSampleRingBuffer *_motionDataRingBuffer;
-    struct OpaqueFigSimpleMutex *_ringMutex;
-    _Bool _stationary;
-    _Bool _newMotionDataAvailable;
-    _Bool _robustMethodEnabled;
-    _Bool _motionMetadataStatusChecked;
-    _Bool _directionalMotionDetectionEnabled;
-    double _directionalMotionDetectionAngularRotationThreshold;
-    CDStruct_ec629c3d _directionalMotionDetectionReferenceDirection;
 }
 
 + (void)ut pipelineStage:pipelineStage] /* Error: Ran out of types for this method. */;
@@ -24,11 +16,10 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)Defocus;
+- (_Bool)trainingRMSDefocus;
 - (void)cLite;
 
 // Remaining properties
-@property(getter=isDirectionalMotionDetectionEnabled) _Bool directionalMotionDetectionEnabled;
 @property(readonly, nonatomic, getter=isStationary) _Bool stationary;
 
 @end

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSManagedObjectID;
 
 __attribute__((visibility("hidden")))
 @interface _PFObjectCKRecordZoneLink
 {
     NSManagedObjectID *_objectID;
-    NSString *_recordName;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)9h;
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) NSString *recordName; // @synthesize recordName=_recordName;
 
 @end
 

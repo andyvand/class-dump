@@ -6,39 +6,33 @@
 
 #import <UIKitCore/_UIContextMenuPresentationAnimation.h>
 
-@class NSArray, UIKit._UILiquidMorphAnimation, UITargetedPreview, UIViewFloatAnimatableProperty, _UIContentPlatterView, _UIContextMenuLayoutArbiterOutput, _UIContextMenuPlatformMetrics;
+@class UIKit._UILiquidMorphAnimation, UITargetedPreview;
 
 @interface _UIContextMenuLiquidMorphPresentationAnimation : _UIContextMenuPresentationAnimation
 {
     UIKit._UILiquidMorphAnimation *morphAnimation;
-    UITargetedPreview *outgoingAnimationPreview;
-    _UIContextMenuLayoutArbiterOutput *presentedLayout;
-    UIViewFloatAnimatableProperty *animationProgress;
-    void accessoryAnimationBlock;
-    UITargetedPreview *stashedDismissalPreview;
-    UITargetedPreview *stashedDismissalPivot;
 }
 
+- (id)CLOUD---**/;
+- (id)[%@];
+- (_Bool)n account (%@) that isn't IMDIDS (%@), can't determien region -- falling through.;
+- (id)ith region (%@) is not a candidate for spam filtering.;
+- (void)IMDMomentShareManagerErrorDomain;
+- (void)e URLs:(id)arg1 %@, for transfer:%@ /* Error: Ran out of types for this method. */;
+- (void)24;
+- (void)ver bag attempted to be read, but not loaded.;
+- (void);
+- (void)IMDPersistentTaskExecutorDelegate;
+- (void);
+- (void);
+- (id)%;
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)oh;
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -49,36 +43,19 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (CDStruct_d52ce5d2);
+- (CDStruct_9253ee8c);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)LogLocationPerplexity;
 - (id);
 - (id);
 - (void);
 - (_Bool)(q;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *_accessoryViews;
-@property(nonatomic, readonly) _UIContextMenuPlatformMetrics *_currentPlatformMetrics;
-@property(nonatomic, readonly) _Bool _hasVisibleBackground;
-@property(nonatomic, readonly) _Bool _isDismissingToDrag;
-@property(nonatomic, readonly) UITargetedPreview *_targetedPreviewForDismissalAnimation;
-@property(nonatomic, copy) CDUnknownBlockType accessoryAnimationBlock;
-@property(nonatomic, readonly) UIViewFloatAnimatableProperty *animationProgress; // @synthesize animationProgress;
-@property(nonatomic, readonly) _UIContentPlatterView *contentPlatterView;
-@property(nonatomic, readonly) _Bool isCompactMenu;
-@property(nonatomic, retain) UIKit._UILiquidMorphAnimation *morphAnimation; // @synthesize morphAnimation;
-@property(nonatomic, readonly) UITargetedPreview *morphPreviewFromAttachmentPoint;
-@property(nonatomic, retain) UITargetedPreview *outgoingAnimationPreview; // @synthesize outgoingAnimationPreview;
-@property(nonatomic, retain) _UIContextMenuLayoutArbiterOutput *presentedLayout; // @synthesize presentedLayout;
-@property(nonatomic, readonly) UITargetedPreview *resolvedSourcePreview;
 @property(nonatomic, retain) UITargetedPreview *sourcePreview;
-@property(nonatomic, readonly) _Bool sourcePreviewMorphsToMenu;
-@property(nonatomic, retain) UITargetedPreview *stashedDismissalPivot; // @synthesize stashedDismissalPivot;
-@property(nonatomic, retain) UITargetedPreview *stashedDismissalPreview; // @synthesize stashedDismissalPreview;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface AppStoreKit.ErrorPresenter
 {
     id networkInquiry;
-    id airplaneModeInquiry;
-    id cellularDataInquiry;
-    id networkObservation;
-    id view;
-    id reasonForNoInternet;
-    id error;
 }
 
 - (void);

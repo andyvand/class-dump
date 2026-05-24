@@ -5,5 +5,6 @@
 //
 
 @protocol NFReaderSessionInternalCallbacks
+- (void)ACTION_MULTIPLE_SEARCH_SPOTLIGHT;
 @end
 

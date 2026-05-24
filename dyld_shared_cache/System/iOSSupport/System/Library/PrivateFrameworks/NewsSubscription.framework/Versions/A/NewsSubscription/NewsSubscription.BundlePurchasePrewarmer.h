@@ -7,15 +7,10 @@
 @interface NewsSubscription.BundlePurchasePrewarmer
 {
     id _purchase;
-    id configurationManager;
-    id networkReachability;
-    id bundleSubscriptionManager;
-    id purchaseManager;
-    id deduper;
 }
 
 - (void);
-- (id);
+- (id)TSDBrush;
 - (void);
 - (void);
 

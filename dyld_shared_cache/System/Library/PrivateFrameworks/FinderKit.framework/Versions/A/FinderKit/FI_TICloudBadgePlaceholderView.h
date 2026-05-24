@@ -10,25 +10,19 @@ __attribute__((visibility("hidden")))
 @interface FI_TICloudBadgePlaceholderView : FI_TUpdateLayerView
 {
     _Bool _selected;
-    _Bool _dimmed;
-    _Bool _active;
-    _Bool _isMouseDown;
-    int _context;
-    int _badge;
-    function_e88ba8d7 _clickHandler;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)pinnedEdge;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void)!DùÑõ1Â0@ù
@@ -42,10 +36,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) int badge; // @synthesize badge=_badge;
-@property int context; // @synthesize context=_context;
-@property(getter=isDimmed) _Bool dimmed; // @synthesize dimmed=_dimmed;
 @property(getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 
 @end

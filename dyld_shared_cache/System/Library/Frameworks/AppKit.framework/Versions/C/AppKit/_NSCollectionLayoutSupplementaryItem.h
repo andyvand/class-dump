@@ -6,38 +6,28 @@
 
 #import <AppKit/_NSCollectionLayoutItem.h>
 
-@class NSString, _NSCollectionLayoutAnchor, _NSCollectionLayoutEdgeSpacing;
+@class NSString;
 
 @interface _NSCollectionLayoutSupplementaryItem : _NSCollectionLayoutItem
 {
     NSString *_elementKind;
-    long long _zIndex;
-    _NSCollectionLayoutAnchor *_containerAnchor;
-    _NSCollectionLayoutAnchor *_itemAnchor;
-    _NSCollectionLayoutEdgeSpacing *_edgeSpacing;
-    NSString *_name;
-    _Bool _canAdjustContentSize;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)started;
 - (void);
 - (id);
 - (id);
-- (long long)ection: /* Error: Ran out of types for this method. */;
-- (id)set:(struct _NSZone *)arg1;
-- (_Bool)etDefinition;
+- (long long)isElementInOrthogonalScrollingSection: /* Error: Ran out of types for this method. */;
+- (id)dragImageForRows:(struct _NSZone *)arg1 event:dragImageOffset: /* Error: Ran out of types for this method. */;
+- (_Bool)_widgetDefinition;
 - (void)b1},R;
 - (id)%{sensitive}@. Here's the error:%{private}@ /* Error: Ran out of types for this method. */;
-- (void)llLaps;
+- (void)NSScrollViewLiveScrollLaps;
 
 // Remaining properties
-@property(nonatomic) _Bool canAdjustContentSize; // @synthesize canAdjustContentSize=_canAdjustContentSize;
-@property(readonly, nonatomic) _NSCollectionLayoutAnchor *containerAnchor; // @synthesize containerAnchor=_containerAnchor;
-@property(readonly, nonatomic) NSString *elementKind; // @synthesize elementKind=_elementKind;
-@property(readonly, nonatomic) _NSCollectionLayoutAnchor *itemAnchor; // @synthesize itemAnchor=_itemAnchor;
 @property(nonatomic) long long zIndex; // @synthesize zIndex=_zIndex;
 
 @end

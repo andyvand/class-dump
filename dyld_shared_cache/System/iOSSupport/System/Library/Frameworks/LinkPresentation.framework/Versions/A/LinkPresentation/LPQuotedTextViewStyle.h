@@ -12,33 +12,25 @@ __attribute__((visibility("hidden")))
 @interface LPQuotedTextViewStyle : LPTextViewStyle
 {
     _Bool _showQuoteIndicator;
-    _Bool _showCharacterLimitIndicator;
-    unsigned int _maximumLinesToConsiderShort;
-    UIFont *_longPullQuoteFont;
-    LPTextViewStyle *_characterLimitIndicatorStyle;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)transcriptBackgroundChannelTransferGUID;
+- (_Bool)transcriptBackgroundActive;
+- (void)touchUpInsideCellLeaveConversationButton:(_Bool)arg1;
+- (void)toolbarDefaultItemIdentifiers:(id)arg1;
 - (unsigned int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)textView:didEndFormattingWithViewController: /* Error: Ran out of types for this method. */;
+- (id)textContainerInset;
+- (id)tableView:moveRowAtIndexPath:toIndexPath: /* Error: Ran out of types for this method. */;
+- (id)systemDidEnterDataProtectionLock;
+- (void)startRecordingToOutputFileURL:(_Bool)arg1 recordingDelegate: /* Error: Ran out of types for this method. */;
+- (void)startRecordingForRaiseGesture;
 - (id);
 - (void)QÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) LPTextViewStyle *characterLimitIndicatorStyle; // @synthesize characterLimitIndicatorStyle=_characterLimitIndicatorStyle;
 @property(retain, nonatomic) UIFont *longPullQuoteFont; // @synthesize longPullQuoteFont=_longPullQuoteFont;
-@property(nonatomic) unsigned int maximumLinesToConsiderShort; // @synthesize maximumLinesToConsiderShort=_maximumLinesToConsiderShort;
-@property(nonatomic) _Bool showCharacterLimitIndicator; // @synthesize showCharacterLimitIndicator=_showCharacterLimitIndicator;
-@property(nonatomic) _Bool showQuoteIndicator; // @synthesize showQuoteIndicator=_showQuoteIndicator;
 
 @end
 

@@ -6,7 +6,7 @@
 
 @interface UnknownClass (BUAdditions)
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -18,7 +18,7 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)@9 ;
 - (_Bool);
 - (_Bool);
 - (id);

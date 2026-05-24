@@ -6,43 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSMutableSet, NSString, RTAuthorizationManager, RTContactsManager, RTDarwinNotificationHelper, RTDefaultsManager, RTDeviceLocationPredictor, RTDistanceCalculator, RTHealthKitManager, RTLearnedLocationManager, RTLearnedLocationOfInterest, RTLearnedLocationStore, RTLocation, RTLocationManager, RTMapServiceManager, RTMotionActivityManager, RTMotionActivityPedometerData, RTNavigationManager, RTPlatform, RTVisitConsolidator, RTVisitManager, RTXPCTimerAlarm, SMAppDeletionManager, SMEligibilityChecker, SMMessagingService, SMSessionStore, SMSuggestionsHelper, SMSuggestionsMetricsManager, SMSuggestionsStore, SMTrialManager;
+@class SMSuggestionsMetricsManager;
 
 @interface SMSuggestionsManager : RTService
 {
     _Bool _isPedometerNotificationsSetupAfterRoutineStarted;
-    _Bool _routineEnabled;
-    SMSuggestionsMetricsManager *_suggestionsMetricsManager;
-    RTXPCTimerAlarm *_walkingTriggerAlarm;
-    CDUnknownBlockType _pedometerDataHandler;
-    NSDate *_pedometerStartDate;
-    NSMutableSet *_pedometerUUIDs;
-    RTMotionActivityPedometerData *_previousPedometerData;
-    RTAuthorizationManager *_authorizationManager;
-    RTContactsManager *_contactsManager;
-    RTDarwinNotificationHelper *_notificationHelper;
-    RTDefaultsManager *_defaultsManager;
-    RTDeviceLocationPredictor *_deviceLocationPredictor;
-    RTDistanceCalculator *_distanceCalculator;
-    RTHealthKitManager *_healthKitManager;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    SMMessagingService *_messagingService;
-    RTMotionActivityManager *_motionActivityManager;
-    RTNavigationManager *_navigationManager;
-    RTPlatform *_platform;
-    SMEligibilityChecker *_eligibilityChecker;
-    SMSessionStore *_sessionStore;
-    SMSuggestionsStore *_suggestionsStore;
-    RTVisitManager *_visitManager;
-    RTVisitConsolidator *_visitConsolidator;
-    RTLocation *_latestLocationOfTheDevice;
-    RTLearnedLocationOfInterest *_currentLOI;
-    SMSuggestionsHelper *_suggestionsHelper;
-    SMAppDeletionManager *_appDeletionManager;
-    SMTrialManager *_trialManager;
 }
 
 + (long long);
@@ -50,20 +18,20 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)^V;
+- (void);
+- (void)!a;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -99,8 +67,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)A/MediaAnalysis;
+- (_Bool)__DATA_DIRTY;
 - (_Bool);
 - (void);
 - (void);
@@ -134,42 +102,42 @@
 - (id);
 - (void);
 - (void);
+- (_Bool)updateEscrowKey:(id)arg1 escrowBlob:(double)arg2;
+- (_Bool)setupIdentitiesForAccount:(id *)arg1 withParameters:optional: /* Error: Ran out of types for this method. */;
+- (_Bool)settingsKeyForKey:(id)arg1 error:(id *)arg2;
+- (_Bool)setVersion:(id)arg1;
+- (_Bool)mobileBackupStatus:(id)arg1;
+- (_Bool)migrateToiCDPForAccount:(id *)arg1 withParameters:complete: /* Error: Ran out of types for this method. */;
+- (void)limitLocalStoring;
+- (_Bool)qlite3_stmt=},V_insertEscrowKey;
+- (void)T^{sqlite3_stmt=},V_deleteMirrorKeys;
+- (id)Array=},V_missingFromRegistry;
+- (void)PCSMobileBackup;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)y;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)#;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)r: /* Error: Ran out of types for this method. */;
-- (id)d;
-- (id)orizedLocationDatabaseInitializationMetrics;
+- (id)_fetchUniqueWorkoutUUIDsWithHandler: /* Error: Ran out of types for this method. */;
+- (id)uid;
+- (id)RTAuthorizedLocationDatabaseInitializationMetrics;
 - (void);
 - (id);
 - (void)chTripClusterRoadTransitionsWithOptions:handler:] /* Error: Ran out of types for this method. */;
@@ -182,46 +150,7 @@
 - (void)ty update due to small number of locations, %lu;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SMAppDeletionManager *appDeletionManager; // @synthesize appDeletionManager=_appDeletionManager;
-@property(readonly, copy, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, copy, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(retain, nonatomic) RTLearnedLocationOfInterest *currentLOI; // @synthesize currentLOI=_currentLOI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) RTDeviceLocationPredictor *deviceLocationPredictor; // @synthesize deviceLocationPredictor=_deviceLocationPredictor;
-@property(readonly, copy, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, copy, nonatomic) SMEligibilityChecker *eligibilityChecker; // @synthesize eligibilityChecker=_eligibilityChecker;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(nonatomic) _Bool isPedometerNotificationsSetupAfterRoutineStarted; // @synthesize isPedometerNotificationsSetupAfterRoutineStarted=_isPedometerNotificationsSetupAfterRoutineStarted;
-@property(copy, nonatomic) RTLocation *latestLocationOfTheDevice; // @synthesize latestLocationOfTheDevice=_latestLocationOfTheDevice;
-@property(readonly, copy, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, copy, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, copy, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, copy, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(readonly, copy, nonatomic) SMMessagingService *messagingService; // @synthesize messagingService=_messagingService;
-@property(readonly, copy, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(readonly, copy, nonatomic) RTNavigationManager *navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(readonly, nonatomic) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
-@property(copy, nonatomic) CDUnknownBlockType pedometerDataHandler; // @synthesize pedometerDataHandler=_pedometerDataHandler;
-@property(retain, nonatomic) NSDate *pedometerStartDate; // @synthesize pedometerStartDate=_pedometerStartDate;
-@property(retain, nonatomic) NSMutableSet *pedometerUUIDs; // @synthesize pedometerUUIDs=_pedometerUUIDs;
-@property(readonly, copy, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) RTMotionActivityPedometerData *previousPedometerData; // @synthesize previousPedometerData=_previousPedometerData;
-@property(nonatomic) _Bool routineEnabled; // @synthesize routineEnabled=_routineEnabled;
-@property(readonly, copy, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(readonly, copy, nonatomic) SMSuggestionsHelper *suggestionsHelper; // @synthesize suggestionsHelper=_suggestionsHelper;
 @property(retain, nonatomic) SMSuggestionsMetricsManager *suggestionsMetricsManager; // @synthesize suggestionsMetricsManager=_suggestionsMetricsManager;
-@property(readonly, copy, nonatomic) SMSuggestionsStore *suggestionsStore; // @synthesize suggestionsStore=_suggestionsStore;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) SMTrialManager *trialManager; // @synthesize trialManager=_trialManager;
-@property(readonly, copy, nonatomic) RTVisitConsolidator *visitConsolidator; // @synthesize visitConsolidator=_visitConsolidator;
-@property(readonly, copy, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
-@property(retain, nonatomic) RTXPCTimerAlarm *walkingTriggerAlarm; // @synthesize walkingTriggerAlarm=_walkingTriggerAlarm;
 
 @end
 

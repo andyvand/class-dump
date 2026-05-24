@@ -6,12 +6,11 @@
 
 #import <PodcastServices/PODContentChangeEntityData.h>
 
-@class NSString, PODEpisode, PODShow;
+@class PODEpisode;
 
 @interface PODEpisodeChangeEntityData : PODContentChangeEntityData
 {
     PODEpisode *_episode;
-    PODShow *_show;
 }
 
 + (_Bool);
@@ -19,19 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)l;
+- (void)supportsAnyApplication;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PODEpisode *episode; // @synthesize episode=_episode;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PODShow *show; // @synthesize show=_show;
-@property(readonly) Class superclass;
 
 @end
 

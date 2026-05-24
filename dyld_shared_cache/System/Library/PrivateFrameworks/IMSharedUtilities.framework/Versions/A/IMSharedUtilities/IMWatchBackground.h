@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IMWatchBackground
 {
     _Bool _isHighKey;
-    NSData *_backgroundImageData;
-    double _luminance;
-    NSString *_extensionIdentifier;
 }
 
 + (id);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *backgroundImageData; // @synthesize backgroundImageData=_backgroundImageData;
-@property(retain, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(nonatomic) _Bool isHighKey; // @synthesize isHighKey=_isHighKey;
-@property(nonatomic) double luminance; // @synthesize luminance=_luminance;
 
 @end
 

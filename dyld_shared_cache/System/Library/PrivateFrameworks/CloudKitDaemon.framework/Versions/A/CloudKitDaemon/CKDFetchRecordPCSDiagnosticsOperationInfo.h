@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id)ionPool;
+- (id)CKDURLSessionPool;
 - (void).fetchAggregator;
 
 // Remaining properties

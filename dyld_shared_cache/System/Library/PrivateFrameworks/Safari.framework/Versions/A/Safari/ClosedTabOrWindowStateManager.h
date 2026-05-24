@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString, WBSCoalescedAsynchronousWriter, WBTabGroupManager;
-@protocol OS_dispatch_queue, TabSnapshotSensitiveDataPurging, WBSEncryptionProvider;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ClosedTabOrWindowStateManager
 {
     NSMutableArray *_closedTabOrWindowPersistentStates;
-    WBSCoalescedAsynchronousWriter *_recentlyClosedTabsOrWindowsWriter;
-    NSObject<OS_dispatch_queue> *_loadClosedTabsDataFromDiskSynchronizationQueue;
-    struct atomic<LoadingStatus> _savedStateLoadingStatus;
-    NSMutableDictionary *_closingWindowUUIDsToClosedTabStateArrays;
-    id <TabSnapshotSensitiveDataPurging> _purger;
-    id <WBSEncryptionProvider> _encryptionProvider;
-    WBTabGroupManager *_tabGroupManager;
-    NSArray *_windowStatesFromLastSession;
-    unsigned long long _numberOfSavedTabStates;
 }
 
 + (id);
@@ -27,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)	*;
 - (void);
 - (void);
 - (void);
@@ -50,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (void);
@@ -62,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
@@ -73,7 +63,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,14 +77,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property unsigned long long numberOfSavedTabStates; // @synthesize numberOfSavedTabStates=_numberOfSavedTabStates;
-@property(readonly) Class superclass;
 
 @end
 

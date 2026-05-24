@@ -9,11 +9,9 @@
 @interface SGM2SerializedContactsCacheHit
 {
     NSString *_key;
-    _Bool _cacheHit;
-    CDStruct_fbc31351 _has;
 }
 
-- (void);
+- (void)pple.calendar.dateScrubber;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -21,21 +19,18 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)Ws;
+- (id)mPointIndex;
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void)nceOrigin;
+- (void)significanceOrigin;
 - (void)¬8Äx|Ôìdl;
 
 // Remaining properties
-@property(nonatomic) _Bool cacheHit; // @synthesize cacheHit=_cacheHit;
-@property(nonatomic) _Bool hasCacheHit;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

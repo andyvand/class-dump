@@ -5,5 +5,7 @@
 //
 
 @protocol TKTokenAccessDB
+- (void);
+- (long long);
 @end
 

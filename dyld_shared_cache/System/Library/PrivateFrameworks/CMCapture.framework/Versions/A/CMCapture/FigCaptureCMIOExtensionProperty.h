@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureCMIOExtensionProperty
 {
     id _propertyValue;
-    NSString *_propertyName;
-    _Bool _readonly;
-    NSString *_propertyAliasName;
 }
 
 - (void);
@@ -27,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSString *propertyAliasName; // @synthesize propertyAliasName=_propertyAliasName;
 @property(readonly, retain) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(retain) id propertyValue; // @synthesize propertyValue=_propertyValue;
-@property(readonly) _Bool readonly; // @synthesize readonly=_readonly;
 
 @end
 

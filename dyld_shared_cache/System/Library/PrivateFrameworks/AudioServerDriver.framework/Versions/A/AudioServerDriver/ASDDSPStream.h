@@ -6,31 +6,11 @@
 
 #import <AudioServerDriver/ASDStream.h>
 
-@class ASDAudioDevice, ASDDSPGraph, ASDStreamDSPConfiguration, NSArray, NSObject, NSString, NSUserDefaults;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class ASDAudioDevice, ASDStreamDSPConfiguration;
 
 @interface ASDDSPStream : ASDStream
 {
     ASDAudioDevice *_owningDevice;
-    struct unique_ptr<ASDDSPStreamHelper, std::default_delete<ASDDSPStreamHelper>> _streamHelper;
-    struct list<ASDDSPGraphHelper, std::allocator<ASDDSPGraphHelper>> _graphHelpers;
-    struct unique_ptr<caulk::concurrent::guarded_lookup_hash_table<unsigned long long, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>, std::default_delete<caulk::concurrent::guarded_lookup_hash_table<unsigned long long, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>>> _clientToGraphMap;
-    NSObject<OS_dispatch_queue> *_dspQueue;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
-    long long _DSPCaptureType;
-    NSString *_DSPCaptureDirectory;
-    long long _maximumFramesPerIOCycle;
-    NSUserDefaults *_defaults;
-    NSArray *_underlyingStreams;
-    long long _graphAudioValidationMode;
-    long long _ioReferenceCount;
-    NSObject<OS_dispatch_source> *mHUPSource;
-    _Bool _isRunning;
-    _Bool _keepGraphInitialized;
-    _Bool _bypassMode;
-    unsigned long long _underlyingInputStreamCount;
-    unsigned long long _underlyingOutputStreamCount;
-    ASDStreamDSPConfiguration *_currentDSPConfiguration;
 }
 
 - (void);
@@ -51,7 +31,7 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (int);
+- (int)C;
 - (long long);
 - (_Bool);
 - (id);
@@ -65,7 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (void);
 - (id);
@@ -74,43 +54,34 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)3;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)replaceContentForRequestWithIdentifier:replacementContent:completionHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)locationUpdateTimeStamp;
+- (id)initWithSessionInfo:(unsigned int)arg1 reachabilityPath:(id)arg2 streamSender:remoteCapabilities:localNetworkConfig:streamPreference: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)`b;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)l1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool bypassMode; // @synthesize bypassMode=_bypassMode;
 @property(retain, nonatomic) ASDStreamDSPConfiguration *currentDSPConfiguration; // @synthesize currentDSPConfiguration=_currentDSPConfiguration;
-@property(nonatomic) long long graphAudioValidationMode;
-@property(readonly, nonatomic) ASDDSPGraph *hardwareDSP;
-@property(readonly, nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
-@property(nonatomic) _Bool keepGraphInitialized; // @synthesize keepGraphInitialized=_keepGraphInitialized;
-@property(readonly, nonatomic) long long maximumFramesPerIOCycle;
-@property(nonatomic) unsigned long long underlyingInputStreamCount; // @synthesize underlyingInputStreamCount=_underlyingInputStreamCount;
-@property(nonatomic) unsigned long long underlyingOutputStreamCount; // @synthesize underlyingOutputStreamCount=_underlyingOutputStreamCount;
-@property(copy, nonatomic) NSArray *underlyingStreams;
 
 @end
 

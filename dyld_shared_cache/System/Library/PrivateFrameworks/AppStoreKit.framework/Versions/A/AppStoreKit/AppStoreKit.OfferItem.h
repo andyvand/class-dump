@@ -9,17 +9,6 @@
 @interface AppStoreKit.OfferItem : AppStoreKit.AppPromotion
 {
     id moduleArtwork;
-    id mediaOverlayStyle;
-    id moduleVideo;
-    id iapArtwork;
-    id title;
-    id badge;
-    id subtitle;
-    id description;
-    id formattedEndDateString;
-    id supportsStreamlinedBuy;
-    id offerLockup;
-    id endDate;
 }
 
 @end

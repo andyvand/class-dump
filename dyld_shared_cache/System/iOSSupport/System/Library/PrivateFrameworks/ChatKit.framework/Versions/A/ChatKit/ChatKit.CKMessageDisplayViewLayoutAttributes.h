@@ -7,19 +7,17 @@
 @interface ChatKit.CKMessageDisplayViewLayoutAttributes
 {
     struct CGSize messageDisplayViewSize;
-    _Bool wantsFrameClamping;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (void)]SbytIegnnr_;
+- (void)n;
+- (struct CGSize)jLrib3m-DUd6A/Library/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/Views/ICLoadingPieLayer.m;
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) struct CGSize messageDisplayViewSize; // @synthesize messageDisplayViewSize;
-@property(nonatomic) _Bool wantsFrameClamping; // @synthesize wantsFrameClamping;
 
 @end
 

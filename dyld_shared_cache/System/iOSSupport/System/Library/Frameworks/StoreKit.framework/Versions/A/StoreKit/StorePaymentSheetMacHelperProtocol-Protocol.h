@@ -5,5 +5,6 @@
 //
 
 @protocol StorePaymentSheetMacHelperProtocol
+- (void);
 @end
 

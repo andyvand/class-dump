@@ -7,8 +7,6 @@
 @interface NSIndexPath
 {
     unsigned long long *_indexes;
-    unsigned long long _length;
-    unsigned long long _inlinePayload;
 }
 
 @end

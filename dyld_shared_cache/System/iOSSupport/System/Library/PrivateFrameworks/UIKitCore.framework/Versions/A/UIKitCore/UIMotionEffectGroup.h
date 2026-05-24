@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (id);
+- (id)ng check. Is the account and service set correctly?;
 - (void)Se;
 
 // Remaining properties

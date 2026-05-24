@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMUser;
+
 @protocol HMUserDelegatePrivate
+
+@optional
+- (void)idString:(HMUser *)arg1 %s;
+- (void)e with guidString:(HMUser *)arg1 %s, %@;
+- (void)tice, error:(HMUser *)arg1 %s;
+- (void)t retrieve object context;
+- (void)to retrieve any notices;
+- (void)Monitor version default > target version, this should never happen;
+- (void)message:(HMUser *)arg1 %@;
+- (void)sending message %@;
 @end
 

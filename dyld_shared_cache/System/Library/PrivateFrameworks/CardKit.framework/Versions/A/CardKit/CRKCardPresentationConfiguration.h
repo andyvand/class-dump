@@ -5,13 +5,10 @@
 //
 
 @class CRSCardRequest;
-@protocol CRContent;
 
 @interface CRKCardPresentationConfiguration
 {
     _Bool _respectsUserConsent;
-    _Bool _loadsBundleProviders;
-    CRSCardRequest *_cardRequest;
 }
 
 - (void);
@@ -21,15 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities;
+- (id)D %d;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CRSCardRequest *cardRequest; // @synthesize cardRequest=_cardRequest;
-@property(readonly, nonatomic) id <CRContent> content;
-@property(nonatomic) _Bool loadsBundleProviders; // @synthesize loadsBundleProviders=_loadsBundleProviders;
-@property(nonatomic) _Bool respectsUserConsent; // @synthesize respectsUserConsent=_respectsUserConsent;
 
 @end
 

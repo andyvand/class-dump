@@ -12,7 +12,7 @@
 
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);

@@ -11,20 +11,20 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool);
+- (id)menuExtras;
+- (id)menuDidClose: /* Error: Ran out of types for this method. */;
+- (id)makeApplicationFrontmost:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)mainWithElementController: /* Error: Ran out of types for this method. */;
+- (id)localizedCaseInsensitiveContainsString:(id)arg1;
+- (id)firstKeyboardFocusableItemUnderElement:(id)arg1;
+- (id);
+- (id)@+;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (unsigned short);
 

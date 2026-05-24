@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibraryIdentifier, PLCPLSettings, PLPhotoLibraryIdentifier;
+@class PLPhotoLibraryIdentifier;
 
 @interface PHPhotoLibraryAttributes
 {
     PLPhotoLibraryIdentifier *_pl_libraryIdentifier;
-    PLCPLSettings *_cplSettings;
-    PHPhotoLibraryIdentifier *_identifier;
-    NSString *_name;
-    NSString *_userDescription;
 }
 
 - (id);
-- (id);
+- (id)A;
 - (unsigned short);
 - (id);
-- (_Bool);
+- (_Bool)e-url-bags is set in the response;
 - (id);
 - (id);
-- (id);
+- (id)il? how?;
 - (void)_glassesType;
 
 // Remaining properties
-@property(readonly) unsigned short cloudResourcePrefetchMode;
-@property(readonly, getter=isCloudSyncEnabled) _Bool cloudSyncEnabled;
-@property(readonly) PLCPLSettings *cplSettings; // @synthesize cplSettings=_cplSettings;
-@property(readonly) PHPhotoLibraryIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(readonly) PLPhotoLibraryIdentifier *pl_libraryIdentifier; // @synthesize pl_libraryIdentifier=_pl_libraryIdentifier;
-@property(readonly) NSString *userDescription; // @synthesize userDescription=_userDescription;
 
 @end
 

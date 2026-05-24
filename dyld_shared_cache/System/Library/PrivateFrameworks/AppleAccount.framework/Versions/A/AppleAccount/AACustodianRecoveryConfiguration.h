@@ -7,23 +7,22 @@
 @interface AACustodianRecoveryConfiguration
 {
     long long _codeLength;
-    long long _maxSessionTime;
 }
 
 + (_Bool);
+- (void)e to '%s'; bytes written = %ld; error = %ld;
+- (void)LockFile:(long long)arg1 Giving up waiting on lock:%s /* Error: Ran out of types for this method. */;
+- (long long)S[%u] created (flags=0x%x).
+;
+- (long long)from _mcxlpadmin;
+- (id)data in blob ;
+- (id);
+- (id);
 - (void);
-- (void);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)penaltyTracker;
 
 // Remaining properties
 @property(nonatomic) long long codeLength; // @synthesize codeLength=_codeLength;
-@property(nonatomic) long long maxSessionTime; // @synthesize maxSessionTime=_maxSessionTime;
 
 @end
 

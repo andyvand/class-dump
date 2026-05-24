@@ -6,27 +6,12 @@
 
 #import <CoreData/PFCloudKitImporterWorkItem.h>
 
-@class NSMutableArray, NSMutableDictionary, NSString, NSUUID, PFCloudKitFetchedAssetBytesMetric, PFCloudKitFetchedRecordBytesMetric;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImportRecordsWorkItem : PFCloudKitImporterWorkItem
 {
     NSMutableDictionary *_assetPathToSafeSaveURL;
-    NSUUID *_importOperationIdentifier;
-    NSMutableArray *_updatedRecords;
-    unsigned long long _totalOperationBytes;
-    PFCloudKitFetchedAssetBytesMetric *_fetchedAssetBytesMetric;
-    PFCloudKitFetchedRecordBytesMetric *_fetchedRecordBytesMetric;
-    NSMutableDictionary *_recordTypeToDeletedRecordID;
-    NSMutableArray *_allRecordIDs;
-    NSMutableArray *_encounteredErrors;
-    NSMutableArray *_failedRelationships;
-    NSMutableArray *_incrementalResults;
-    NSMutableArray *_unknownItemRecordIDs;
-    NSMutableDictionary *_updatedShares;
-    unsigned long long _currentOperationBytes;
-    unsigned long long _countUpdatedRecords;
-    unsigned long long _countDeletedRecords;
 }
 
 - (id);
@@ -45,13 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

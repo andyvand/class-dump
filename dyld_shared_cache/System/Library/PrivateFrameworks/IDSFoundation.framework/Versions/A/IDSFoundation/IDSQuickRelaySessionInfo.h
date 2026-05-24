@@ -4,59 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSUUID;
-@protocol IDSGroupQUICMaterialExchangeProvider, IDSQuickRelayAllocateResponseHandle;
-
 @interface IDSQuickRelaySessionInfo
 {
     long long _allocateType;
-    double _allocateTime;
-    NSString *_allocateRequestID;
-    NSString *_idsSessionID;
-    NSString *_relaySessionID;
-    NSData *_relaySessionToken;
-    NSData *_relaySessionKey;
-    NSData *_softwareData;
-    unsigned char _protocolVersion;
-    long long _relayServerProviderType;
-    NSString *_reportingDataBlob;
-    unsigned long long _participantID;
-    NSArray *_allParticipantIDs;
-    _Bool _isInitiator;
-    long long _linkProtocol;
-    struct sockaddr_storage _serverAddress;
-    struct sockaddr_storage _serverAddressIPv6;
-    struct sockaddr_storage _highPriorityServerAddress;
-    struct sockaddr_storage _highPriorityServerAddressIPv6;
-    NSString *_groupID;
-    NSString *_stableGroupID;
-    NSUUID *_defaultDeviceLocalCBUUID;
-    NSUUID *_defaultDeviceRemoteCBUUID;
-    NSArray *_publishedStreams;
-    NSArray *_subscribedStreams;
-    unsigned int _generationCounter;
-    unsigned char _maxConcurrentStreams;
-    unsigned char _linkSuggestion;
-    unsigned char _linkScore;
-    _Bool _uplinkNackDisabled;
-    _Bool _h2FallbackDisabled;
-    _Bool _transportLayerEncryptionDisabled;
-    _Bool _ipDiscoveryDisabled;
-    NSDictionary *_qrSessionExperiments;
-    _Bool _sessionIsNonUserParticipantInitiated;
-    _Bool _handOffOverQREnabled;
-    NSString *_pskTransportParameters;
-    NSString *_pskH3Settings;
-    _Bool _isInternal;
-    _Bool _isPseudoParticipant;
-    NSData *_avcDataBlob;
-    unsigned char _ipPreference;
-    unsigned long long _callType;
-    _Bool _ftPowerOptimizationEnabled;
-    _Bool _sessionIsUserParticipantInitiated;
-    NSArray *_allocatedPushTokens;
-    id <IDSQuickRelayAllocateResponseHandle> _allocateResponseHandle;
-    id <IDSGroupQUICMaterialExchangeProvider> _quicMaterialExchangeProvider;
 }
 
 - (_Bool);
@@ -91,70 +41,26 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (double);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (const struct sockaddr_storage *);
 - (_Bool);
 - (unsigned long long);
-- (id)headPerPacket:allowedPacketsPerSecond: /* Error: Ran out of types for this method. */;
+- (id)adaptiveWithAllowedOverheadPerPacket:allowedPacketsPerSecond: /* Error: Ran out of types for this method. */;
 - (unsigned char)g.;
 - (void)ers string doesn't have enough fields (%lu) for the three required parameters;
 - (_Bool)_connection_id;
 - (unsigned int)TÁ@ãWä8;
 
 // Remaining properties
-@property(readonly) NSArray *allParticipantIDs; // @synthesize allParticipantIDs=_allParticipantIDs;
-@property(readonly) NSString *allocateRequestID; // @synthesize allocateRequestID=_allocateRequestID;
-@property(readonly) id <IDSQuickRelayAllocateResponseHandle> allocateResponseHandle; // @synthesize allocateResponseHandle=_allocateResponseHandle;
-@property(readonly) double allocateTime; // @synthesize allocateTime=_allocateTime;
 @property(readonly) long long allocateType; // @synthesize allocateType=_allocateType;
-@property(readonly) NSArray *allocatedPushTokens; // @synthesize allocatedPushTokens=_allocatedPushTokens;
-@property(readonly) NSData *avcDataBlob; // @synthesize avcDataBlob=_avcDataBlob;
-@property(readonly) unsigned long long callType; // @synthesize callType=_callType;
-@property(readonly) NSUUID *defaultDeviceLocalCBUUID; // @synthesize defaultDeviceLocalCBUUID=_defaultDeviceLocalCBUUID;
-@property(readonly) NSUUID *defaultDeviceRemoteCBUUID; // @synthesize defaultDeviceRemoteCBUUID=_defaultDeviceRemoteCBUUID;
-@property(readonly) _Bool ftPowerOptimizationEnabled; // @synthesize ftPowerOptimizationEnabled=_ftPowerOptimizationEnabled;
-@property(readonly) unsigned int generationCounter; // @synthesize generationCounter=_generationCounter;
-@property(readonly) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly) _Bool h2FallbackDisabled; // @synthesize h2FallbackDisabled=_h2FallbackDisabled;
-@property(readonly) _Bool handOffOverQREnabled; // @synthesize handOffOverQREnabled=_handOffOverQREnabled;
-@property(readonly) NSString *idsSessionID; // @synthesize idsSessionID=_idsSessionID;
-@property(readonly) _Bool ipDiscoveryDisabled; // @synthesize ipDiscoveryDisabled=_ipDiscoveryDisabled;
-@property(readonly) unsigned char ipPreference; // @synthesize ipPreference=_ipPreference;
-@property(readonly) _Bool isInitiator; // @synthesize isInitiator=_isInitiator;
-@property(readonly) _Bool isInternal; // @synthesize isInternal=_isInternal;
-@property(readonly) _Bool isPseudoParticipant; // @synthesize isPseudoParticipant=_isPseudoParticipant;
-@property(readonly) long long linkProtocol; // @synthesize linkProtocol=_linkProtocol;
-@property(readonly) unsigned char linkScore; // @synthesize linkScore=_linkScore;
-@property(readonly) unsigned char linkSuggestion; // @synthesize linkSuggestion=_linkSuggestion;
-@property(readonly) unsigned char maxConcurrentStreams; // @synthesize maxConcurrentStreams=_maxConcurrentStreams;
-@property(readonly) unsigned long long participantID; // @synthesize participantID=_participantID;
-@property(readonly) unsigned char protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(readonly) NSString *pskH3Settings; // @synthesize pskH3Settings=_pskH3Settings;
-@property(readonly) NSString *pskTransportParameters; // @synthesize pskTransportParameters=_pskTransportParameters;
-@property(readonly) NSArray *publishedStreams; // @synthesize publishedStreams=_publishedStreams;
-@property(readonly) NSDictionary *qrSessionExperiments; // @synthesize qrSessionExperiments=_qrSessionExperiments;
-@property(readonly) id <IDSGroupQUICMaterialExchangeProvider> quicMaterialExchangeProvider; // @synthesize quicMaterialExchangeProvider=_quicMaterialExchangeProvider;
-@property(readonly) long long relayServerProviderType; // @synthesize relayServerProviderType=_relayServerProviderType;
-@property(readonly) NSString *relaySessionID; // @synthesize relaySessionID=_relaySessionID;
-@property(readonly) NSData *relaySessionKey; // @synthesize relaySessionKey=_relaySessionKey;
-@property(readonly) NSData *relaySessionToken; // @synthesize relaySessionToken=_relaySessionToken;
-@property(readonly) NSString *reportingDataBlob; // @synthesize reportingDataBlob=_reportingDataBlob;
-@property(readonly) const struct sockaddr_storage *serverAddress;
-@property(readonly) const struct sockaddr_storage *serverAddressIPv6;
-@property(readonly) _Bool sessionIsUserParticipantInitiated; // @synthesize sessionIsUserParticipantInitiated=_sessionIsUserParticipantInitiated;
-@property(readonly) NSData *softwareData; // @synthesize softwareData=_softwareData;
-@property(readonly) NSString *stableGroupID; // @synthesize stableGroupID=_stableGroupID;
-@property(readonly) NSArray *subscribedStreams; // @synthesize subscribedStreams=_subscribedStreams;
-@property(readonly) _Bool transportLayerEncryptionDisabled; // @synthesize transportLayerEncryptionDisabled=_transportLayerEncryptionDisabled;
-@property(readonly) _Bool uplinkNackDisabled; // @synthesize uplinkNackDisabled=_uplinkNackDisabled;
 
 @end
 

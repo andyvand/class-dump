@@ -9,17 +9,14 @@
 @interface UIKeyboardEmoji
 {
     _Bool _isFromRecentsCategory;
-    _Bool _isFromEmojiSearch;
-    NSString *_emojiString;
-    unsigned long long _variantMask;
 }
 
-+ (_Bool);
++ (_Bool)guid %@ while parsing message;
 + (id);
 - (unsigned long long);
+- (void)duleState Update to peer devices, error %@;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)tRequest;
 - (_Bool);
 - (void);
 - (id);
@@ -28,15 +25,11 @@
 - (_Bool);
 - (id)á	ð!üEùQfÐ1Â0@ù
 × ;
-- (_Bool)ntStorage:(id)arg1 textContainer: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTextView:(id)arg1 textContentStorage:textContainer: /* Error: Ran out of types for this method. */;
 - (void)ØPf;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *emojiString; // @synthesize emojiString=_emojiString;
-@property(nonatomic) _Bool isFromEmojiSearch; // @synthesize isFromEmojiSearch=_isFromEmojiSearch;
-@property(nonatomic) _Bool isFromRecentsCategory; // @synthesize isFromRecentsCategory=_isFromRecentsCategory;
-@property(readonly, nonatomic) _Bool supportsSkinToneVariants;
-@property unsigned long long variantMask; // @synthesize variantMask=_variantMask;
 
 @end
 

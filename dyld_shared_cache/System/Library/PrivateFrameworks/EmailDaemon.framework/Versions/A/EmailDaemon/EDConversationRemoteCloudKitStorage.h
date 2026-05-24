@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCloudMirroringPersistentStore, EDTransactionService, NSFetchedResultsController, NSPersistentHistoryToken, NSString;
-@protocol EDConversationRemoteStorageDelegate;
+@class EDCloudMirroringPersistentStore;
 
 @interface EDConversationRemoteCloudKitStorage
 {
     _Bool _initialized;
-    EDCloudMirroringPersistentStore *_mirroringPersistentStore;
-    id <EDConversationRemoteStorageDelegate> _delegate;
-    NSFetchedResultsController *_fetchedResultsController;
-    NSPersistentHistoryToken *_historyToken;
-    EDTransactionService *_exportTransaction;
-    EDTransactionService *_importTransaction;
 }
 
 + (id);
@@ -26,12 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)CRKInMemoryIdentity;
 - (id);
 - (void);
+- (void)common_MediaItemType_Music;
+- (id);
+- (void)Com_Apple_Siri_Product_Proto_MitigatorClassification;
 - (_Bool);
 - (void);
 - (void);
@@ -40,26 +33,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)qA;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)ionIncluded:(id)arg1 essDisassociationImminent:(id)arg2;
 - (void);
 - (_Bool);
-- (void);
+- (void)matchingRule;
 - (void);
 - (id)merging reconciled businesses;
 - (void)ndex is not active;
@@ -70,21 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EDConversationRemoteStorageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EDTransactionService *exportTransaction; // @synthesize exportTransaction=_exportTransaction;
-@property(readonly, nonatomic) NSFetchedResultsController *fetchedResultsController; // @synthesize fetchedResultsController=_fetchedResultsController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSPersistentHistoryToken *historyToken; // @synthesize historyToken=_historyToken;
-@property(retain, nonatomic) EDTransactionService *importTransaction; // @synthesize importTransaction=_importTransaction;
-@property(nonatomic, getter=isInitialized) _Bool initialized; // @synthesize initialized=_initialized;
-@property(nonatomic, getter=isMigratedFromKVSStorage) _Bool migratedFromKVSStorage; // @dynamic migratedFromKVSStorage;
 @property(readonly, nonatomic) EDCloudMirroringPersistentStore *mirroringPersistentStore; // @synthesize mirroringPersistentStore=_mirroringPersistentStore;
-@property(readonly) Class superclass;
 
 @end
 

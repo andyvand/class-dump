@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, WBSPerSitePreference;
-@protocol WBSPerSitePreferenceManager;
+@class WBSPerSitePreference;
 
 __attribute__((visibility("hidden")))
 @interface PerSitePreferenceCheckBoxItemViewController
 {
     WBSPerSitePreference *_perSitePreference;
-    id <WBSPerSitePreferenceManager> _perSitePreferenceManager;
-    id _onValue;
-    id _offValue;
-    NSString *_domain;
-    NSButton *_switchButton;
-    NSString *_title;
 }
 
 - (void);
@@ -30,13 +23,7 @@ __attribute__((visibility("hidden")))
 - (void),ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

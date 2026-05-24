@@ -6,24 +6,15 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPaletteDecorationElement : NSView
 {
 }
 
-- (id)InNavigationLoop:(struct CGRect)arg1;
+- (id)setParticipatesInNavigationLoop:(struct CGRect)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(readonly) Class superclass;
 
 @end
 

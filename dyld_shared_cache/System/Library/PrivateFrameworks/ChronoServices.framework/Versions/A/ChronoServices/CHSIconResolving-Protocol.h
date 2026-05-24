@@ -5,5 +5,7 @@
 //
 
 @protocol CHSIconResolving
+- (void);
+- (void)_k;
 @end
 

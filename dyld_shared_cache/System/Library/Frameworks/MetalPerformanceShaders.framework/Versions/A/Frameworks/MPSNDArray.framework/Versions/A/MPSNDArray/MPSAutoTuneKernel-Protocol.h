@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(nonatomic) long long autoTuneIteration;
-@property(nonatomic) _Bool logNextAutoTuneParams;
 @end
 

@@ -11,12 +11,6 @@
 @interface PXVideoStabilizeOperationSpec : PXVideoProcessingOperationSpec
 {
     _Bool _performStabilization;
-    _Bool _abortIfStabilizationFails;
-    _Bool _wantsAudio;
-    PXVideoStabilizationRecipeSource *_recipeSource;
-    CDStruct_1b6d18a9 _startTime;
-    CDStruct_1b6d18a9 _crossfadeDuration;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (_Bool);
@@ -27,23 +21,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (CDStruct_1b6d18a9);
 - (void);
 - (CDStruct_1b6d18a9);
 - (void);
-- (id)ge;
+- (id)showMessage;
 - (CDStruct_e83c9415)tion.m;
-- (void)eopleFactory;
+- (void)LemonadeCollectionCustomizationPeopleFactory;
 
 // Remaining properties
-@property(nonatomic) _Bool abortIfStabilizationFails; // @synthesize abortIfStabilizationFails=_abortIfStabilizationFails;
-@property(nonatomic) CDStruct_1b6d18a9 crossfadeDuration; // @synthesize crossfadeDuration=_crossfadeDuration;
-@property(nonatomic) _Bool performStabilization; // @synthesize performStabilization=_performStabilization;
 @property(retain, nonatomic) PXVideoStabilizationRecipeSource *recipeSource; // @synthesize recipeSource=_recipeSource;
-@property(nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
-@property(nonatomic) _Bool wantsAudio; // @synthesize wantsAudio=_wantsAudio;
 
 @end
 

@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationCompleted
 {
     unsigned long long _timestamp;
-    int _circleStatus;
-    int _registrationError;
-    int _registrationType;
-    NSString *_serviceIdentifier;
-    unsigned int _wasSuccessful;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int circleStatus:1;
-        unsigned int registrationError:1;
-        unsigned int registrationType:1;
-        unsigned int wasSuccessful:1;
-    } _has;
 }
 
+- (void)7;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)v;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,7 +36,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool)QM;
+- (_Bool)_cellDataLQM;
 - (int)_firstRead;
 - (void)",&,N,V_parentActivityUUID;
 - (int)¸mÜxØ~Ð;
@@ -58,18 +44,7 @@
 - (unsigned int)ù	;
 
 // Remaining properties
-@property(nonatomic) int circleStatus; // @synthesize circleStatus=_circleStatus;
-@property(nonatomic) _Bool hasCircleStatus;
-@property(nonatomic) _Bool hasRegistrationError;
-@property(nonatomic) _Bool hasRegistrationType;
-@property(readonly, nonatomic) _Bool hasServiceIdentifier;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasWasSuccessful;
-@property(nonatomic) int registrationError; // @synthesize registrationError=_registrationError;
-@property(nonatomic) int registrationType; // @synthesize registrationType=_registrationType;
-@property(retain, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int wasSuccessful; // @synthesize wasSuccessful=_wasSuccessful;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
 @protocol ENCypher, ENDevicePublicKey;
 
 @interface ENParticipantDevice
 {
     id <ENDevicePublicKey> _devicePublicKey;
-    NSData *_identifier;
-    id <ENCypher> _cypher;
 }
 
 - (id);
@@ -22,13 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)!!;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <ENCypher> cypher; // @synthesize cypher=_cypher;
-@property(readonly, nonatomic) id <ENDevicePublicKey> devicePublicKey; // @synthesize devicePublicKey=_devicePublicKey;
-@property(readonly, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
 
 @end
 

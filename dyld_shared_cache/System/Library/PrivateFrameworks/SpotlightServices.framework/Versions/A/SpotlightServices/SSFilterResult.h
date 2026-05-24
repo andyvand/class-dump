@@ -6,48 +6,32 @@
 
 #import <SpotlightServices/SFSearchResult_SpotlightExtras.h>
 
-@class NSArray, NSSet, NSString, NSURL, SFDetailedRowCardSection, SSPerformEntityQueryCommand, UTType;
+@class NSString, SFDetailedRowCardSection;
 
 @interface SSFilterResult : SFSearchResult_SpotlightExtras
 {
     NSString *_filterTitle;
-    NSString *_filterSubtitle;
-    NSString *_symbolName;
-    UTType *_thumbnailType;
-    NSString *_appBundleId;
-    NSURL *_appURL;
-    NSArray *_keywords;
-    NSArray *_filterQueries;
-    NSArray *_enabledDomains;
-    NSArray *_folderScopeURLs;
-    SSPerformEntityQueryCommand *_command;
-    NSArray *_searchBarButtonItems;
-    NSSet *_contentTypes;
-    NSSet *_allowedTypes;
-    NSSet *_blockedTypes;
-    UTType *_parentType;
-    SFDetailedRowCardSection *_cardSection;
 }
 
++ (id)dProgressTransformer"16;
++ (_Bool)ressSpinnerPresentationProperties"16;
++ (id)4@0:8@"LPMetadataProviderSpecialization"16 /* Error: Ran out of types for this method. */;
++ (id)menuItemDidClose: /* Error: Ran out of types for this method. */;
++ (id)_setNeedsMessagesTranscriptPushCounterAnimation:(id)arg1;
++ (id)_setIsGroupHeader:(id)arg1;
++ (id)_requestSourceApplicationMetadataForBundleIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)_maximumNumberOfLines;
++ (id)_leadingIconBadgeProperties;
++ (id)iTunes;
++ (id);
++ (id);
++ (id);
++ (id)T@"NSData",&,N,V_genericData;
++ (id);
++ (id);
++ (id)_terminatedThreadsUserTimeInNs;
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -57,29 +41,29 @@
 - (void);
 - (id);
 - (id);
+- (_Bool)e";
+- (id)unlocalizedNameForBundleIdentifier:(id)arg1;
+- (id)transferIndicatorDirection;
+- (id)shadow;
+- (void)setAppearance: /* Error: Ran out of types for this method. */;
+- (id)rightView;
+- (void)isKnownApplication:(id)arg1;
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)odingFactory>";
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)`z:(id)arg1 xZ;
 - (void);
 - (id);
 - (void);
@@ -92,29 +76,13 @@
 - (void);
 - (id);
 - (void);
-- (void)Bundle: /* Error: Ran out of types for this method. */;
+- (void)engagementCountForDateKeyForBundle: /* Error: Ran out of types for this method. */;
 - (void)gHint=%.04f];
-- (id)41;
-- (void)match_count;
+- (id)kMDItemSpecialCondition41;
+- (void)kMDItemPhotosMemoryTitle_norm_match_count;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allowedTypes; // @synthesize allowedTypes=_allowedTypes;
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(copy, nonatomic) NSURL *appURL; // @synthesize appURL=_appURL;
-@property(retain, nonatomic) NSSet *blockedTypes; // @synthesize blockedTypes=_blockedTypes;
 @property(retain) SFDetailedRowCardSection *cardSection; // @synthesize cardSection=_cardSection;
-@property(retain, nonatomic) SSPerformEntityQueryCommand *command; // @synthesize command=_command;
-@property(retain, nonatomic) NSSet *contentTypes; // @synthesize contentTypes=_contentTypes;
-@property(retain, nonatomic) NSArray *enabledDomains; // @synthesize enabledDomains=_enabledDomains;
-@property(retain, nonatomic) NSArray *filterQueries; // @synthesize filterQueries=_filterQueries;
-@property(retain, nonatomic) NSString *filterSubtitle; // @synthesize filterSubtitle=_filterSubtitle;
-@property(retain, nonatomic) NSString *filterTitle; // @synthesize filterTitle=_filterTitle;
-@property(retain, nonatomic) NSArray *folderScopeURLs; // @synthesize folderScopeURLs=_folderScopeURLs;
-@property(retain, nonatomic) NSArray *keywords; // @synthesize keywords=_keywords;
-@property(retain, nonatomic) UTType *parentType; // @synthesize parentType=_parentType;
-@property(retain, nonatomic) NSArray *searchBarButtonItems; // @synthesize searchBarButtonItems=_searchBarButtonItems;
-@property(copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property(copy, nonatomic) UTType *thumbnailType; // @synthesize thumbnailType=_thumbnailType;
 
 @end
 

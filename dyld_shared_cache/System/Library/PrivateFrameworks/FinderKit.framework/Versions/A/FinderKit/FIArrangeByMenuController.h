@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface FIArrangeByMenuController : FI_TArrangeByMenuController
 {
     _Bool _configuredArrangeByMenu;
-    _Bool _configuredSortByMenu;
-    struct TNSWeakPtr<FIContainerController> _weakContainerController;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)T;

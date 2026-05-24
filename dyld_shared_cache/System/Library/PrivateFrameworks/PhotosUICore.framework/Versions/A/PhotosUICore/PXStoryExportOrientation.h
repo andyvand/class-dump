@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXStoryExportOrientation
 {
     long long _type;
@@ -17,11 +15,10 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (id)tKeyAssetsFetchResult:(struct _NSZone *)arg1;
+- (id)setKeyAssetsFetchResult:(struct _NSZone *)arg1;
 - (id)r¸Ð?ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedTitle;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

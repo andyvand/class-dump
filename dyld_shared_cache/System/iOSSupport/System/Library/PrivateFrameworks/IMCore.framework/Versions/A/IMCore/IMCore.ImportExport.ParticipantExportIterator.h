@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.ParticipantExportIterator
 {
     id exportOptions;
-    id exportStatistics;
 }
 
 @end

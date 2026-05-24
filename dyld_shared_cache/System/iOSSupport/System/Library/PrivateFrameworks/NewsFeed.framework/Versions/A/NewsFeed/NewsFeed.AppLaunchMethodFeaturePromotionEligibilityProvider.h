@@ -7,7 +7,6 @@
 @interface NewsFeed.AppLaunchMethodFeaturePromotionEligibilityProvider
 {
     id appLaunchMethodChecker;
-    id appLaunchMethod;
 }
 
 @end

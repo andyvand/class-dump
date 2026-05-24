@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLLexicon, NSString;
+@class NLLexicon;
 
 @interface NLLexiconCursor
 {
     NLLexicon *_lexicon;
-    struct _LXCursor *_cursor;
 }
 
 - (double);
@@ -28,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool hasChildren;
 @property(readonly) _Bool hasEntries;
-@property(readonly) double prefixProbability;
-@property(readonly) double terminationProbability;
-@property(readonly, copy) NSString *traversedString;
 
 @end
 

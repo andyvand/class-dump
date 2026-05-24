@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFrameStore, BMStoreBookmark, BMStreamDatastore, BMStreamMetadata;
-@protocol BMStoreBookmarkEnumerator;
+@class BMFrameStore;
 
 @interface BMStoreEnumerator
 {
     unsigned long long _frameStoreOffset;
-    double _iterationStartTime;
-    double _endTime;
-    unsigned long long _maxEvents;
-    unsigned long long _eventCount;
-    unsigned long long _lastEventCount;
-    unsigned long long _options;
-    BMStreamMetadata *_metadata;
-    Class _dataType;
-    BMFrameStore *_currentFrameStore;
-    BMStreamDatastore *_ds;
-    id <BMStoreBookmarkEnumerator> _bookmarkEnumerator;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)fetchCompleteModels:(_Bool)arg1;
+- (id)record_v2 WHERE store_v2_id = ?1 AND uuid = ?4 AND model_data IS NOT NULL;
+- (id)hould be loaded before attempting to add gesture recognizers to it.;
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -48,11 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) BMStoreBookmark *bookmark;
-@property(readonly, nonatomic) id <BMStoreBookmarkEnumerator> bookmarkEnumerator; // @synthesize bookmarkEnumerator=_bookmarkEnumerator;
 @property(readonly, nonatomic) BMFrameStore *currentFrameStore; // @synthesize currentFrameStore=_currentFrameStore;
-@property(readonly, nonatomic) BMStreamDatastore *ds; // @synthesize ds=_ds;
-@property(readonly, nonatomic) BMStreamMetadata *metadata;
 
 @end
 

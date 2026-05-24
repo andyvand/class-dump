@@ -4,88 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface STRestrictions
 {
     _Bool _isEnabled;
-    long long _allowInstallingApps;
-    long long _allowDeletingApps;
-    long long _allowInAppPurchases;
-    long long _allowMusicVideos;
-    long long _allowMusicProfiles;
-    NSNumber *_tvShowsRating;
-    NSNumber *_moviesRating;
-    NSNumber *_appsRating;
-    long long _allowExplicitBooks;
-    long long _allowExplicitMediaContent;
-    unsigned long long _webFilterState;
-    long long _allowPrivateMessaging;
-    long long _allowAvatarAndNicknameChanges;
-    long long _allowProfilePrivacyChanges;
-    long long _allowWebContentSearchInSiri;
-    long long _allowExplicitLanguageInSiri;
-    long long _allowExternalIntelligenceIntegrations;
-    long long _allowWritingTools;
-    long long _allowImageCreation;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)lay_count INTEGER NOT NULL DEFAULT 0, cloud_global_like_count INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)r INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', cloud_is_shared INTEGER NOT NULL DEFAULT 0, cloud_author_display_name TEXT NOT NULL DEFAULT '', cloud_user_count INTEGER NOT NULL DEFAULT 0, cloud_global_play_count INTEGER NOT NULL DEFAULT 0, cloud_global_like_count INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)L DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status FROM container;
+- (id)sentative_item_artwork_token TEXT NOT NULL DEFAULT '', grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, user_rating INTEGER NOT NULL DEFAULT 0, all_compilations INTEGER NOT NULL DEFAULT 0, feed_url TEXT, season_number INTEGER, album_year INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (long long)!= '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)st_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)SE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)HEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)ry_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)token != '' THEN purchase_history_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)token ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN purchase_history_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)shot_token != '' THEN sync_screenshot_token ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN purchase_history_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)enshot_token ELSE (CASE WHEN sync_screenshot_token != '' THEN sync_screenshot_token ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN purchase_history_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)hot_token != '' THEN cloud_screenshot_token ELSE (CASE WHEN sync_screenshot_token != '' THEN sync_screenshot_token ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN purchase_history_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)ken = (CASE WHEN cloud_screenshot_token != '' THEN cloud_screenshot_token ELSE (CASE WHEN sync_screenshot_token != '' THEN sync_screenshot_token ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN purchase_history_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (long long)ATE item_screenshot SET best_screenshot_token = (CASE WHEN cloud_screenshot_token != '' THEN cloud_screenshot_token ELSE (CASE WHEN sync_screenshot_token != '' THEN sync_screenshot_token ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN purchase_history_screenshot_token ELSE (CASE WHEN store_screenshot_token != '' THEN store_screenshot_token ELSE '' END) END) END) END), best_screenshot_source_type = (CASE WHEN cloud_screenshot_token != '' THEN 1 ELSE (CASE WHEN sync_screenshot_token != '' THEN 2 ELSE (CASE WHEN purchase_history_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (id)twork_token TEXT NOT NULL DEFAULT '', sync_artwork_token TEXT NOT NULL DEFAULT '', purchase_history_artwork_token TEXT NOT NULL DEFAULT '', store_artwork_token TEXT NOT NULL DEFAULT '');
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)`;
+- (id)d.;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_;
 
 // Remaining properties
-@property(readonly, nonatomic) long long allowAvatarAndNicknameChanges;
-@property(readonly, nonatomic) long long allowDeletingApps;
-@property(readonly, nonatomic) long long allowExplicitBooks;
-@property(readonly, nonatomic) long long allowExplicitLanguageInSiri;
-@property(readonly, nonatomic) long long allowExplicitMediaContent;
-@property(readonly, nonatomic) long long allowExternalIntelligenceIntegrations;
-@property(readonly, nonatomic) long long allowImageCreation;
-@property(readonly, nonatomic) long long allowInAppPurchases;
-@property(readonly, nonatomic) long long allowInstallingApps;
-@property(readonly, nonatomic) long long allowMusicProfiles;
-@property(readonly, nonatomic) long long allowMusicVideos;
-@property(readonly, nonatomic) long long allowPrivateMessaging;
-@property(readonly, nonatomic) long long allowProfilePrivacyChanges;
-@property(readonly, nonatomic) long long allowWebContentSearchInSiri;
-@property(readonly, nonatomic) long long allowWritingTools;
-@property(readonly, nonatomic) NSNumber *appsRating;
 @property(readonly, nonatomic) _Bool isEnabled;
-@property(readonly, nonatomic) NSNumber *moviesRating;
-@property(readonly, nonatomic) NSNumber *tvShowsRating;
-@property(readonly, nonatomic) unsigned long long webFilterState;
 
 @end
 

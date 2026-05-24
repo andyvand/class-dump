@@ -9,16 +9,12 @@
 @interface GEORPScorecardUpdate
 {
     GEORPScorecard *_scorecard;
-    int _action;
-    struct {
-        unsigned int has_action:1;
-    } _flags;
 }
 
-+ (_Bool)dReason:(id)arg1;
++ (_Bool)setLoadReason:(id)arg1;
 - (void);
-- (id);
-- (_Bool);
+- (id)setPhoneNumbers: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (_Bool);
 - (int);
@@ -26,25 +22,22 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)SSVCASpeakerDistanceNearBoostFactor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (id)d_name"b1"read_values"b1"wrote_anyField"b1};
-- (id)onvertToGEOPDResultRefinementSort;
+- (id)convertToGEOPDResultRefinementSort;
 - (id)°ìí;
-- (id)_PREMISE_FOR_CA;
-- (int)ceId;
+- (id)REMOVE_SUB_PREMISE_FOR_CA;
+- (int)placeId;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int action;
-@property(nonatomic) _Bool hasAction;
 @property(readonly, nonatomic) _Bool hasScorecard;
-@property(retain, nonatomic) GEORPScorecard *scorecard;
 
 @end
 

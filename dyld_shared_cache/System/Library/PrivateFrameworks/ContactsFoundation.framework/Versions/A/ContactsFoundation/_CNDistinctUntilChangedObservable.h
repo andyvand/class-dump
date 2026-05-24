@@ -11,7 +11,6 @@
 @interface _CNDistinctUntilChangedObservable : CNObservable
 {
     id <CNObservable> _observable;
-    id _lastObservedResult;
 }
 
 - (_Bool);

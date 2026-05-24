@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount, NSDate, NSNumber;
+
 @protocol AKAccountManagerProtocol
+- (NSNumber *)#;
+- (ACAccount *);
+- (NSNumber *)};
+- (NSDate *)etINSendMessageIntentClass(void)_block_invoke;
 @end
 

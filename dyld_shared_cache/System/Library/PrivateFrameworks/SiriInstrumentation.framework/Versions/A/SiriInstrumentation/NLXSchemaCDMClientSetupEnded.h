@@ -6,20 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMClientSetupEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)losed] Preferences indicate that CancelUpdateOnClientDisconnect is present; shouldRequestCancel:(_Bool)arg1 %{public}@;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs7/pk7_attr.c;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

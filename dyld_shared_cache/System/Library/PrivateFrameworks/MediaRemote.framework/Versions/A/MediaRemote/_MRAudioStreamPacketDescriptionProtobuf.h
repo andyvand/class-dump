@@ -7,22 +7,15 @@
 @interface _MRAudioStreamPacketDescriptionProtobuf
 {
     long long _startOffset;
-    unsigned int _dataByteSize;
-    unsigned int _variableFramesInPacket;
-    struct {
-        unsigned int startOffset:1;
-        unsigned int dataByteSize:1;
-        unsigned int variableFramesInPacket:1;
-    } _has;
 }
 
-- (unsigned int);
+- (unsigned int)7(6r;
+- (void);
+- (void)`7�7�7�;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)v8	7;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -30,21 +23,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)Y;
+- (_Bool)@20@0:(id)arg1 8i16;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)guageCode:isGoodFit:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int dataByteSize; // @synthesize dataByteSize=_dataByteSize;
-@property(nonatomic) _Bool hasDataByteSize;
 @property(nonatomic) _Bool hasStartOffset;
-@property(nonatomic) _Bool hasVariableFramesInPacket;
-@property(nonatomic) long long startOffset; // @synthesize startOffset=_startOffset;
-@property(nonatomic) unsigned int variableFramesInPacket; // @synthesize variableFramesInPacket=_variableFramesInPacket;
 
 @end
 

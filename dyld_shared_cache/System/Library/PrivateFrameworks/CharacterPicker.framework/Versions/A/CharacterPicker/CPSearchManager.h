@@ -10,18 +10,18 @@ __attribute__((visibility("hidden")))
 @interface CPSearchManager
 {
     NSString *_lastSearchString;
-    unsigned long long _transactionID;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)h
+;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)kJ;
 - (void);
 
 @end

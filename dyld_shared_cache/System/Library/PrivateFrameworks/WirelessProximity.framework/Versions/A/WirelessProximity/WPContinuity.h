@@ -6,14 +6,11 @@
 
 #import <WirelessProximity/WPClient.h>
 
-@class NSMutableDictionary;
 @protocol WPContinuityDelegate;
 
 @interface WPContinuity : WPClient
 {
     long long _btBandwidthState;
-    id <WPContinuityDelegate> _delegate;
-    NSMutableDictionary *_transfers;
 }
 
 + (long long);
@@ -21,23 +18,23 @@
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (long long);
 - (void);
-- (id);
+- (id)ace=}16;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)erAtIndex:(CDUnknownBlockType)arg1 ];
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,17 +68,13 @@
 × ;
 - (void)Ô÷ Ð!¼BùQ$ð1Â0@ù
 × ;
-- (void);
+- (void)clientAsString;
 - (void)0x%2x;
 - (void)stop advertising of type:(id)arg1 %d;
 - (void)x);
 
 // Remaining properties
-@property long long btBandwidthState; // @synthesize btBandwidthState=_btBandwidthState;
-@property long long connectionUseCase; // @dynamic connectionUseCase;
 @property(nonatomic) __weak id <WPContinuityDelegate> delegate; // @synthesize delegate=_delegate;
-@property long long maxAllowedConnectionDelayMs; // @dynamic maxAllowedConnectionDelayMs;
-@property(retain) NSMutableDictionary *transfers; // @synthesize transfers=_transfers;
 
 @end
 

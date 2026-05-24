@@ -11,10 +11,6 @@
 @interface PKPeerPaymentTransactionAnswerRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSString *_transactionIdentifier;
-    unsigned long long _questionType;
-    NSString *_answer;
-    NSString *_altDSID;
 }
 
 - (id);
@@ -23,13 +19,11 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void)ureElement;
+- (void);
+- (void)requiresFelicaSecureElement;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSString *answer; // @synthesize answer=_answer;
 @property(nonatomic) unsigned long long questionType; // @synthesize questionType=_questionType;
 
 @end

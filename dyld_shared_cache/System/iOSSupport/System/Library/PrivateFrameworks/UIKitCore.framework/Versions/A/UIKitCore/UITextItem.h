@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextAttachment, NSURL;
-
 @interface UITextItem
 {
     long long _contentType;
-    NSURL *_link;
-    NSTextAttachment *_textAttachment;
-    NSString *_tagIdentifier;
-    struct _NSRange _range;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,10 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) NSURL *link; // @synthesize link=_link;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, nonatomic) NSString *tagIdentifier; // @synthesize tagIdentifier=_tagIdentifier;
-@property(readonly, nonatomic) NSTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;
 
 @end
 

@@ -18,11 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)PISensitiveContentAnalysisResult;
 - (void)q;
 
 // Remaining properties
-@property(nonatomic, retain) HMFFlow *flow; // @synthesize flow;
 @property(nonatomic, readonly) long long qualityOfService;
 
 @end

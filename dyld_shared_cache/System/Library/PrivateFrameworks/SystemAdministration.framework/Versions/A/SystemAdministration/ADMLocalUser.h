@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMSystem, NSData, NSString, NSUUID, ODRecord;
+@class ADMSystem, ODRecord;
 
 @interface ADMLocalUser
 {
     ADMSystem *_system;
-    ODRecord *_record;
 }
 
 + (id);
@@ -20,31 +19,19 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)setPlaceholderIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)image;
 - (void);
+- (id)cacheObjectSettings:dsid:options:replyBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, retain) NSData *dataForClonedUser; // @dynamic dataForClonedUser;
-@property(readonly, copy) NSString *fullname; // @dynamic fullname;
-@property(readonly) _Bool hasSecureToken; // @dynamic hasSecureToken;
-@property(readonly) _Bool isAdmin; // @dynamic isAdmin;
-@property(readonly) _Bool isAllowedSecureToken;
-@property(readonly) _Bool isOwner; // @dynamic isOwner;
-@property(readonly, copy) NSString *name; // @dynamic name;
-@property(readonly, copy) NSString *passwordHint; // @dynamic passwordHint;
-@property(readonly, retain) NSData *picture; // @dynamic picture;
-@property(readonly, retain) ODRecord *record; // @synthesize record=_record;
-@property(readonly, copy) NSString *redactedDescription; // @dynamic redactedDescription;
-@property(readonly, retain) ADMSystem *system; // @synthesize system=_system;
-@property(readonly, retain) NSUUID *uuid; // @dynamic uuid;
+@property(readonly, retain) ODRecord *record;
 
 @end
 

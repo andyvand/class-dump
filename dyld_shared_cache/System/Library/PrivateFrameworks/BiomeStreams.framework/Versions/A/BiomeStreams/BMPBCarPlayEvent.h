@@ -7,8 +7,6 @@
 @interface BMPBCarPlayEvent
 {
     int _reason;
-    _Bool _isStart;
-    CDStruct_a5d77586 _has;
 }
 
 - (_Bool);
@@ -23,9 +21,9 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)_type;
 - (void);
-- (void);
+- (void)createDirectoryAtPath:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -33,9 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsStart;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

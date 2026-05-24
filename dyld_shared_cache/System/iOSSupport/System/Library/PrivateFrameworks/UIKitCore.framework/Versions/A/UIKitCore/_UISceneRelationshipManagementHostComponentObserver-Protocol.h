@@ -5,5 +5,6 @@
 //
 
 @protocol _UISceneRelationshipManagementHostComponentObserver
+- (void);
 @end
 

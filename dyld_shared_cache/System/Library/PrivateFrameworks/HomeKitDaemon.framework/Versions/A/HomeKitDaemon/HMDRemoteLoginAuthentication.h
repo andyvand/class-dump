@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDRemoteLoginMessageSender, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginAuthentication
 {
     NSString *_sessionID;
-    HMDDevice *_remoteDevice;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDRemoteLoginMessageSender *_remoteMessageSender;
 }
 
 + (id)´YB;
 - (id);
-- (id);
+- (id)estStorage;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)sion;
+- (id);
+- (id)h;
+- (id)leftExpression;
 - (void)Control List;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDDevice *remoteDevice; // @synthesize remoteDevice=_remoteDevice;
-@property(readonly, nonatomic) HMDRemoteLoginMessageSender *remoteMessageSender; // @synthesize remoteMessageSender=_remoteMessageSender;
 @property(readonly, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

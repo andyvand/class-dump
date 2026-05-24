@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SearchUIShareItem
-- (void)ngeTypingAttributes:(NSString *)arg1 toAttributes: /* Error: Ran out of types for this method. */;
+- (void)textView:(NSString *)arg1 shouldChangeTypingAttributes:toAttributes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentType;
 @property(copy, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccount, HMDIDSSendMessageOperation, NSMutableSet, NSObject, NSSet, NSString;
-@protocol HMDIDSService, OS_dispatch_queue;
+@protocol HMDIDSService;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceDiscoveryOperation
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMDIDSSendMessageOperation *_operation;
-    NSMutableSet *_devices;
-    id <HMDIDSService> _service;
-    HMDAccount *_account;
-    CDUnknownBlockType _discoveryBlock;
 }
 
 + (double)2-urdlb;
 + (id)¥ÿKk;
-- (void);
-- (id);
+- (void)_MSPQueryState;
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -33,21 +26,11 @@ __attribute__((visibility("hidden")))
 - (id)message payload:%@ /* Error: Ran out of types for this method. */;
 - (void)@[%@] operation for accessory :(id)arg1 %@ was removed? %@;
 - (id)evice siri language:(id)arg1 %@;
-- (void)oveTriggerRequestKey;
+- (void)kRemoveTriggerRequestKey;
 - (void);
 
 // Remaining properties
-@property(readonly) HMDAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSSet *devices;
-@property(copy) CDUnknownBlockType discoveryBlock; // @synthesize discoveryBlock=_discoveryBlock;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <HMDIDSService> service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

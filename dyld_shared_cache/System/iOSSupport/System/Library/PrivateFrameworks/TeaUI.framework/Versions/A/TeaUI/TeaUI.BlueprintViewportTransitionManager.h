@@ -7,8 +7,6 @@
 @interface TeaUI.BlueprintViewportTransitionManager
 {
     id pluginManager;
-    id parentViewController;
-    id transitionManager;
 }
 
 @end

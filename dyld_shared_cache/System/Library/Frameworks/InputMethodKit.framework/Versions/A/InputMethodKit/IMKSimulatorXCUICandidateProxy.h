@@ -9,10 +9,9 @@
 @interface IMKSimulatorXCUICandidateProxy
 {
     NSString *_text;
-    NSString *_annotation;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -20,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *annotation; // @synthesize annotation=_annotation;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

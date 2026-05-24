@@ -11,16 +11,12 @@
 - (void)iew",&,N,V_tableView;
 - (UIColor *)3ø»þ;
 - (void)s,XoþXoþ0òR0;
-- (struct UIEdgeInsets)tMode;
-- (UIVisualEffect *)tonConfigurationCornerStyle;
-- (void)derStyle;
+- (struct UIEdgeInsets)ContentMode;
+- (UIVisualEffect *)__UIButtonConfigurationCornerStyle;
+- (void)NUITextBorderStyle;
 - (long long)P\;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *separatorColor;
-@property(retain, nonatomic) UIVisualEffect *separatorEffect;
-@property(nonatomic) struct UIEdgeInsets separatorInset;
-@property(nonatomic) _Bool separatorInsetIsRelativeToCellEdges;
 @property(nonatomic) long long separatorStyle;
 @end
 

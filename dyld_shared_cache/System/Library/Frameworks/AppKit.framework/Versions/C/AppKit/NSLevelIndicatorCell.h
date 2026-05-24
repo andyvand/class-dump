@@ -11,22 +11,6 @@
 @interface NSLevelIndicatorCell : NSActionCell
 {
     double _value;
-    double _minValue;
-    double _maxValue;
-    double _warningValue;
-    double _criticalValue;
-    int _numberOfTickMarks;
-    int _numberOfMajorTickMarks;
-    struct {
-        unsigned int indicatorStyle:4;
-        unsigned int tickMarkPosition:1;
-        unsigned int selectable:1;
-        unsigned int placeholderVisibility:2;
-        unsigned int tieredCapacity:1;
-        unsigned int reserved:23;
-    } _liFlags;
-    id _aux;
-    id <_NSLevelIndicatorVisualProvider> _visualProvider;
 }
 
 + (id);
@@ -46,17 +30,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)__objc_data;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)__objc_classlist__DATA_CONST;
 - (struct CGRect);
 - (id);
 - (id);
@@ -68,104 +52,104 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (struct CGRect);
-- (_Bool);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (_Bool);
+- (id)hore>";
+- (id)32@"NSData"40@"NSDictionary"48@"NSDictionary"56@"NSString"64Q72@"NSUUID"80@?<v@?B>88;
+- (unsigned long long)<std:(id)arg1:(struct CGRect)arg2 __value_type<std:(id)arg3:string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (struct CGRect)substringWithRange:(struct CGRect)arg1;
+- (_Bool)numberWithInt: /* Error: Ran out of types for this method. */;
+- (struct CGRect)netServiceBrowser:(struct CGRect)arg1 didRemoveService:moreComing: /* Error: Ran out of types for this method. */;
+- (void)moveItemAtPath:(struct CGRect)arg1 toPath:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)initWithTrust:(struct CGRect)arg1;
+- (void):(struct CGRect)arg1 error:(id)arg2 sender: /* Error: Ran out of types for this method. */;
+- (id)_taskGroup;
+- (id)_strictContentLength;
+- (double)_sessionWithConfiguration:delegate:delegateDispatchQueue: /* Error: Ran out of types for this method. */;
+- (id)_sessionSendsLaunchOnDemandEvents;
+- (_Bool)_newerThanLastAccess;
 - (struct CGSize);
+- (_Bool)NSString",&,V_path;
 - (_Bool);
-- (_Bool);
+- (id)\=;
 - (id);
 - (id);
 - (id);
+- (void)6;
+- (id);
 - (id);
-- (void);
+- (id)=6;
+- (_Bool);
+- (_Bool)j;
+- (_Bool)5;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)^;
+- (_Bool)5;
 - (id);
-- (id);
-- (id);
+- (id)8x;
+- (id)_ZN19URLConnectionLoader26protocolDidReceiveResponseEP14_CFURLResponse;
+- (id)_ZN19URLConnectionLoader24protocolDidFinishLoadingEv;
+- (id)letionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)Challenge invoking completion with cred %@ cancel %d;
+- (int)his domain to Exception Domains in your Info.plist.%{xcode:(id)arg1 text-backtrace}.*P;
+- (void)topSecureConnection on a URLSessionStreamTask after task has completed;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (int);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long)T;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (CDStruct_6f593a28);
+- (id)).8.//33445566778899/	//(/3	33(34	44(45	55(5//
+////)/8/33
+3333)38344
+4444)48455
+5555)5856	66(67	77(78	88(89	99(966
+6666)68677
+7777)78788
+8888)88899
+9999)989;
+- (CDStruct_6f593a28)@;
 - (_Bool);
 - (id);
 - (double);
 - (void);
 - (struct NSEdgeInsets);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
 - (id);
 - (CDStruct_6f593a28);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)ataKey-derivedIntentIdentifier;
+- (_Bool)m;
 - (id);
 - (double);
-- (void);
-- (void);
+- (void);
+- (void)�;
 - (long long);
 - (double);
 - (void)0@ù
 × ;
 - (void);
-- (id)thControlContentStyleForTextInView:(struct _NSZone *)arg1;
+- (id)_pathControlContentStyleForTextInView:(struct _NSZone *)arg1;
 - (float)_cachedApplicationPresentationItems;
 - (id)w;
 - (void)4¬;
 - (int)ÿ;
-- (id)erformKeyEquivalent;
-- (void)indowTitleVisibility;
+- (id)performKeyEquivalent;
+- (void)NSWindowTitleVisibility;
 - (_Bool);
 - (void)¨è@;
 - (double)ÌG;
 - (id)H;
 
 // Remaining properties
-@property double criticalValue;
-@property unsigned long long levelIndicatorStyle;
-@property double maxValue;
-@property double minValue;
-@property long long numberOfMajorTickMarks;
-@property long long numberOfTickMarks;
-@property unsigned long long tickMarkPosition;
 @property(readonly) id <_NSLevelIndicatorVisualProvider> visualProvider; // @synthesize visualProvider=_visualProvider;
-@property double warningValue;
 
 @end
 

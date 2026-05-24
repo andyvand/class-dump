@@ -6,26 +6,26 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface DOMHTMLImageElement : DOMHTMLElement
 {
 }
 
-- (int);
+- (int)j;
 - (id);
 - (id);
 - (void);
+- (void)X;
+- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
+- (void),1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
+- (int)eI;
 - (id);
 - (id);
 - (_Bool);
@@ -35,7 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -48,32 +48,13 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)ject is nil!;
 - (_Bool);
 - (int)SSharingServiceDelegate>"32@0:8@"NSSharingServicePicker"16@"NSSharingService"24 /* Error: Ran out of types for this method. */;
 - (int)¼4;
 
 // Remaining properties
-@property(readonly, copy) NSURL *absoluteImageURL;
-@property(copy) NSString *align;
-@property(copy) NSString *alt;
-@property(readonly, copy) NSString *altDisplayString;
-@property(copy) NSString *border;
-@property(readonly) _Bool complete;
-@property int height;
-@property int hspace;
-@property _Bool isMap;
-@property(copy) NSString *longDesc;
-@property(copy) NSString *lowsrc;
 @property(copy) NSString *name;
-@property(readonly) int naturalHeight;
-@property(readonly) int naturalWidth;
-@property(copy) NSString *src;
-@property(copy) NSString *useMap;
-@property int vspace;
-@property int width;
-@property(readonly) int x;
-@property(readonly) int y;
 
 @end
 

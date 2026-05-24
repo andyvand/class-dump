@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 @protocol PODEpisodePlayMetadataProtocol;
 
 @protocol PODEpisodeProtocol
+- (long long)@9i>@9(*h>;
+- (id <PODEpisodePlayMetadataProtocol>);
+- (NSString *);
+- (NSString *)EEE;
+- (unsigned long long)_OpenLocalFile;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *addedDate;
-@property(readonly, nonatomic) unsigned long long byteSize;
-@property(readonly, nonatomic) NSString *category;
-@property(readonly, nonatomic) _Bool doNotAutoDelete;
-@property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) unsigned long long episodeNumber;
-@property(readonly, nonatomic) NSURL *episodePageUrl;
-@property(readonly, nonatomic) NSString *externalGuid;
-@property(readonly, nonatomic) NSURL *feedUrl;
-@property(readonly, nonatomic) _Bool isExplicit;
-@property(readonly, nonatomic) NSString *longDescription;
-@property(readonly, nonatomic) NSURL *mediaDownloadableUrl;
-@property(readonly, nonatomic) NSURL *mediaFileUrl;
-@property(readonly, nonatomic) id <PODEpisodePlayMetadataProtocol> playMetadata;
-@property(readonly, nonatomic) long long priceType;
-@property(readonly, nonatomic) NSDate *pubDate;
-@property(readonly, nonatomic) unsigned long long seasonNumber;
-@property(readonly, nonatomic) NSString *shortDescription;
-@property(readonly, nonatomic) long long showSyncID;
-@property(readonly, nonatomic) unsigned long long storeTrackId;
 @property(readonly, nonatomic) NSString *title;
 @end
 

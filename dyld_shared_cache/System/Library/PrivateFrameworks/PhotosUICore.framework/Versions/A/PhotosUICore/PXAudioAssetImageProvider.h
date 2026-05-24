@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSCountedSet, NSMutableDictionary, NSObject, NSString;
-@protocol OS_os_log;
-
 @interface PXAudioAssetImageProvider
 {
     long long _requestCounter;
-    NSMutableDictionary *_requestByClientID;
-    NSMutableDictionary *_requestIDByCacheSpec;
-    NSCountedSet *_requestCountByCacheSpec;
-    NSMutableDictionary *_requestsByImageLoaderIdentifier;
-    NSMutableDictionary *_imageLoaderByIdentifier;
-    NSCache *_imageCache;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);
@@ -26,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)wz;
 - (void);
 - (id);
 - (void);
@@ -42,21 +32,7 @@
 - (void)!·wU;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(readonly, nonatomic) NSMutableDictionary *imageLoaderByIdentifier; // @synthesize imageLoaderByIdentifier=_imageLoaderByIdentifier;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) NSMutableDictionary *requestByClientID; // @synthesize requestByClientID=_requestByClientID;
-@property(readonly, nonatomic) NSCountedSet *requestCountByCacheSpec; // @synthesize requestCountByCacheSpec=_requestCountByCacheSpec;
 @property(nonatomic) long long requestCounter; // @synthesize requestCounter=_requestCounter;
-@property(readonly, nonatomic) NSMutableDictionary *requestIDByCacheSpec; // @synthesize requestIDByCacheSpec=_requestIDByCacheSpec;
-@property(readonly, nonatomic) NSMutableDictionary *requestsByImageLoaderIdentifier; // @synthesize requestsByImageLoaderIdentifier=_requestsByImageLoaderIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

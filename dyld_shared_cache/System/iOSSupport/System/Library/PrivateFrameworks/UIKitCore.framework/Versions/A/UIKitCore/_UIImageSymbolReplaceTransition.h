@@ -16,16 +16,16 @@
  /* Error: Ran out of types for this method. */;
 + (id)Êm;
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)Zone is nil in IMDRecordZoneManager;
+- (_Bool)he syndication library. syndicationLibrary:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)hasBeenApprovedForSMSRelay;
 - (long long);
 - (id);
 - (unsigned long long);
 - (void)
 × ;
-- (_Bool)Count;
-- (void)ransitionDuration:(id)arg1;
+- (_Bool)trailingOverlayCount;
+- (void)setDefaultSlidingTransitionDuration:(id)arg1;
 - (id)DidChange;
 
 // Remaining properties

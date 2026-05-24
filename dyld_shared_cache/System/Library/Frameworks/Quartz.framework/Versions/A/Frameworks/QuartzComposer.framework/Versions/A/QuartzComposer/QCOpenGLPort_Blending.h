@@ -9,12 +9,6 @@
 @interface QCOpenGLPort_Blending : QCIndexPort
 {
     unsigned char _enabled;
-    unsigned char _testingEnabled;
-    int _sourceFunction;
-    int _destFunction;
-    int _alphaFunc;
-    double _alphaRef;
-    void *_unused4[1];
 }
 
 - (void);

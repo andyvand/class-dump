@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, PXAssetsDataSource, PXAssetsDataSourceManager, PXPhotosViewLens, PXUpdater;
-@protocol NSCopying;
+@class NSDictionary;
 
 @interface PXSwitchableAssetsDataSourceManager
 {
     _Bool _applyPropertyChangesToAllDataSourceManagers;
-    id <NSCopying> _currentKey;
-    NSDictionary *_dataSourceManagerByKey;
-    PXUpdater *_updater;
-    NSSet *_allKeys;
-    id <NSCopying> _currentDataSourceKey;
-    PXAssetsDataSource *_currentDataSource;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +38,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -54,7 +47,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)˟;
 - (id);
 - (id);
 - (id);
@@ -73,16 +66,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)namespacedTextStyleIdentifierForIdentifier:component: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)rm:(_Bool)arg1;
+- (void)setNormalizedSizeTransform:(_Bool)arg1;
 - (void)Model;
 - (id)haredAlbum:completionHandler:) /* Error: Ran out of types for this method. */;
 - (id)ll, PHFetchResult<PHAsset *> * _Nonnull __autoreleasing * _Nonnull);
@@ -92,21 +85,7 @@
 - (id)þÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allKeys; // @synthesize allKeys=_allKeys;
-@property(retain, nonatomic) PXAssetsDataSource *currentDataSource; // @synthesize currentDataSource=_currentDataSource;
-@property(retain, nonatomic) id <NSCopying> currentDataSourceKey; // @synthesize currentDataSourceKey=_currentDataSourceKey;
-@property(readonly, nonatomic) PXAssetsDataSourceManager *currentDataSourceManager;
-@property(copy, nonatomic) id <NSCopying> currentKey; // @synthesize currentKey=_currentKey;
-@property(copy, nonatomic) PXPhotosViewLens *currentLens;
 @property(readonly, nonatomic) NSDictionary *dataSourceManagerByKey; // @synthesize dataSourceManagerByKey=_dataSourceManagerByKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKAccountPostProvisioningContent
 {
     unsigned long long _type;
-    NSString *_title;
-    NSString *_subTitle;
-    NSString *_body;
-    NSString *_primaryButtonTitle;
-    NSString *_secondaryButtonTitle;
 }
 
 - (id);
@@ -21,17 +14,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id)s;
+- (void)';
+- (id)_dataDetectorTypes;
 - (id)À;
-- (void)Payments_Localizable;
+- (void)DeferredPayments_Localizable;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, copy, nonatomic) NSString *primaryButtonTitle; // @synthesize primaryButtonTitle=_primaryButtonTitle;
-@property(readonly, copy, nonatomic) NSString *secondaryButtonTitle; // @synthesize secondaryButtonTitle=_secondaryButtonTitle;
-@property(readonly, copy, nonatomic) NSString *subTitle; // @synthesize subTitle=_subTitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -6,16 +6,12 @@
 
 #import <FinderKit/FI_IAirDropProgressViewController.h>
 
-@class FI_TPropertyLogicalSizeExtractor, NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropSenderProgressViewController : FI_IAirDropProgressViewController
 {
     struct shared_ptr<TAirDropSenderOperationController> _senderOpController;
-    struct TFENodeVector _nodesBeingSent;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    FI_TPropertyLogicalSizeExtractor *_sizeExtractor;
-    NSImage *_largeImage;
 }
 
 + (void);
@@ -31,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))};
 - (long long);
 - (shared_ptr_466d67c7);
 - (id);
@@ -47,15 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSImage *largeImage; // @synthesize largeImage=_largeImage;
-@property(readonly, nonatomic) long long previousSFOperationEvent;
-@property(readonly) Class superclass;
 
 @end
 

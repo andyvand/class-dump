@@ -9,15 +9,12 @@
 @interface AKProtoAccountContext
 {
     _Bool _shouldForceShieldUI;
-    NSString *_givenName;
-    NSString *_lastName;
-    unsigned long long _ageRange;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)D;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,17 +23,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void)à³ü¶;
 
 // Remaining properties
-@property(nonatomic) unsigned long long ageRange; // @synthesize ageRange=_ageRange;
 @property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(nonatomic) _Bool shouldForceShieldUI; // @synthesize shouldForceShieldUI=_shouldForceShieldUI;
 
 @end
 

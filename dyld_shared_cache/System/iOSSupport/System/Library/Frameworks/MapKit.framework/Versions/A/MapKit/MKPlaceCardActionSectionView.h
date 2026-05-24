@@ -6,67 +6,48 @@
 
 #import <MapKit/MKPlaceSectionRowView.h>
 
-@class MKPlaceCardActionItem, NSLayoutConstraint, UIButton, UIView;
-@protocol MKPlaceCardActionSectionViewDelegate;
+@class MKPlaceCardActionItem;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceCardActionSectionView : MKPlaceSectionRowView
 {
     _Bool _useMarginLayout;
-    _Bool _usingSmallFonts;
-    NSLayoutConstraint *_heightAnchor;
-    NSLayoutConstraint *_leftButtonYConstraint;
-    NSLayoutConstraint *_rightButtonYConstraint;
-    NSLayoutConstraint *_platterSizeConstraint;
-    _Bool _singleItemIsFullWidth;
-    MKPlaceCardActionItem *_leftItem;
-    MKPlaceCardActionItem *_rightItem;
-    UIButton *_rightButton;
-    UIButton *_leftButton;
-    id <MKPlaceCardActionSectionViewDelegate> _delegate;
-    UIView *_accessoryView;
 }
 
 + (void);
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)C;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)8a(;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id)qA;
+- (void);
+- (id)@;
 - (void);
 - (void);
 - (id)Ñ°1Â0@ù
 × ;
-- (void)tFillColor;
-- (void)enterOffset;
+- (void)calloutFillColor;
+- (void)_centerOffset;
 - (id)26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})},N,V_key;
 - (void)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(nonatomic) __weak id <MKPlaceCardActionSectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIButton *leftButton; // @synthesize leftButton=_leftButton;
 @property(retain, nonatomic) MKPlaceCardActionItem *leftItem; // @synthesize leftItem=_leftItem;
-@property(retain, nonatomic) UIButton *rightButton; // @synthesize rightButton=_rightButton;
-@property(retain, nonatomic) MKPlaceCardActionItem *rightItem; // @synthesize rightItem=_rightItem;
-@property(nonatomic) _Bool singleItemIsFullWidth; // @synthesize singleItemIsFullWidth=_singleItemIsFullWidth;
 
 @end
 

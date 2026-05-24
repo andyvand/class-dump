@@ -9,16 +9,12 @@
 @interface CSCustomAttributeKey
 {
     _Bool _searchable;
-    _Bool _searchableByDefault;
-    _Bool _unique;
-    _Bool _multiValued;
-    NSString *_keyName;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)q;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -31,19 +27,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)@h;
+- (void);
 
 // Remaining properties
 @property(retain) NSString *keyName; // @synthesize keyName=_keyName;
-@property(getter=isMultiValued) _Bool multiValued; // @synthesize multiValued=_multiValued;
-@property(getter=isSearchable) _Bool searchable; // @synthesize searchable=_searchable;
-@property(getter=isSearchableByDefault) _Bool searchableByDefault; // @synthesize searchableByDefault=_searchableByDefault;
-@property(getter=isUnique) _Bool unique; // @synthesize unique=_unique;
 
 @end
 

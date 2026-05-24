@@ -6,33 +6,18 @@
 
 #import <NeutrinoCore/NUSourceNode.h>
 
-@class NSDictionary, NSObject, NSString, NSURL, NUColorSpace;
-@protocol NUSemanticStyleProperties, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface NUCGImageSourceNode : NUSourceNode
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _loaded;
-    float _contentHeadroom;
-    struct CMPhotoDecompressionSession *_decompressionSession;
-    struct CMPhotoDecompressionContainer *_decompressionContainer;
-    NSURL *_URL;
-    NSString *_UTI;
-    struct CGImageSource *_cgImageSource;
-    NSDictionary *_cgImageProperties;
-    id <NUSemanticStyleProperties> _semanticStylesProperties;
-    long long _orientation;
-    NUColorSpace *_colorSpace;
-    long long _alphaInfo;
-    long long _componentInfo;
-    NSDictionary *_auxiliaryImagesProperties;
-    CDStruct_d58201db _size;
 }
 
 - (_Bool);
 - (_Bool);
-- (long long);
-- (_Bool);
+- (long long);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -73,14 +58,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)deleteAllVoiceProfilesForAppDomain: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (CDStruct_912cb5d2);
 - (void);
-- (void);
+- (void)A;
 - (long long);
 - (void);
 - (_Bool);
@@ -89,25 +74,11 @@
 - (float);
 - (void)A°!üBùáÐ1Â0@ù
 × ;
-- (void)WithOptions:renderer:block: /* Error: Ran out of types for this method. */;
+- (void)useAsCIImageWithOptions:renderer:block: /* Error: Ran out of types for this method. */;
 - (id).xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Geometry/NUGeometry.mm;
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly) NSString *UTI; // @synthesize UTI=_UTI;
-@property long long alphaInfo; // @synthesize alphaInfo=_alphaInfo;
-@property(retain) NSDictionary *auxiliaryImagesProperties; // @synthesize auxiliaryImagesProperties=_auxiliaryImagesProperties;
-@property(retain, nonatomic) NSDictionary *cgImageProperties; // @synthesize cgImageProperties=_cgImageProperties;
-@property(retain, nonatomic) struct CGImageSource *cgImageSource; // @synthesize cgImageSource=_cgImageSource;
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property long long componentInfo; // @synthesize componentInfo=_componentInfo;
-@property float contentHeadroom; // @synthesize contentHeadroom=_contentHeadroom;
-@property(nonatomic) struct CMPhotoDecompressionContainer *decompressionContainer; // @synthesize decompressionContainer=_decompressionContainer;
 @property(nonatomic) struct CMPhotoDecompressionSession *decompressionSession; // @synthesize decompressionSession=_decompressionSession;
-@property _Bool loaded; // @synthesize loaded=_loaded;
-@property long long orientation; // @synthesize orientation=_orientation;
-@property(retain, nonatomic) id <NUSemanticStyleProperties> semanticStylesProperties; // @synthesize semanticStylesProperties=_semanticStylesProperties;
-@property CDStruct_912cb5d2 size; // @synthesize size=_size;
 
 @end
 

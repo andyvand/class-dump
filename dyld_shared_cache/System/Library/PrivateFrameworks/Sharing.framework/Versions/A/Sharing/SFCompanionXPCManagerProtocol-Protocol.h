@@ -5,5 +5,6 @@
 //
 
 @protocol SFCompanionXPCManagerProtocol
+- (void);
 @end
 

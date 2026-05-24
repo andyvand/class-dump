@@ -5,5 +5,8 @@
 //
 
 @protocol TSKSearchTargetProvider
+- (void);
+- (unsigned long long)ticReload:(unsigned long long)arg1 %p;
+- (unsigned long long), expected one.;
 @end
 

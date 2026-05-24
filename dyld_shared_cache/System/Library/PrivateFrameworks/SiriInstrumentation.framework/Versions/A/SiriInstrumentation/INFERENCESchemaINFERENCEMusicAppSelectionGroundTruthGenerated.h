@@ -6,20 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEMusicTrainingIndependentSignals, NSArray, NSData;
+@class INFERENCESchemaINFERENCEMusicTrainingIndependentSignals;
 
 @interface INFERENCESchemaINFERENCEMusicAppSelectionGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEMusicTrainingIndependentSignals *_inferenceMusicTrainingIndependentSignals;
-    NSArray *_inferenceMusicTrainingDependentSignals;
-    _Bool _hasInferenceMusicTrainingIndependentSignals;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
@@ -37,14 +35,11 @@
 - (id)!hEùñßÐ1Â0@ù
 × ;
 - (id)eadySnapshotCaptured",&,N,V_networkConnectionStateReadySnapshotCaptured;
-- (id)tyGenAICounts;
+- (id)ODDSiriSchemaODDAssistantThirdPartyGenAICounts;
 - (void)^";
 
 // Remaining properties
-@property(nonatomic) _Bool hasInferenceMusicTrainingIndependentSignals; // @synthesize hasInferenceMusicTrainingIndependentSignals=_hasInferenceMusicTrainingIndependentSignals;
-@property(copy, nonatomic) NSArray *inferenceMusicTrainingDependentSignals; // @synthesize inferenceMusicTrainingDependentSignals=_inferenceMusicTrainingDependentSignals;
 @property(retain, nonatomic) INFERENCESchemaINFERENCEMusicTrainingIndependentSignals *inferenceMusicTrainingIndependentSignals; // @synthesize inferenceMusicTrainingIndependentSignals=_inferenceMusicTrainingIndependentSignals;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol NSScrollerImpPairDelegate
+- (struct CGPoint)tlement is NULL;
+- (_Bool)__NSCFURLLocalStreamTaskWork;
 @end
 

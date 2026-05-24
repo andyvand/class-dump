@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSString, WKWebView;
-@protocol SLWebClient;
+@class ACAccount, WKWebView;
 
 @interface SLWebAuthController
 {
     ACAccount *_account;
-    ACAccountStore *_accountStore;
-    CDUnknownBlockType _presentationBlock;
-    CDUnknownBlockType _completion;
-    WKWebView *_webView;
-    id <SLWebClient> __webClient;
-    NSString *__extentionIdentifier;
 }
 
 - (void);
@@ -28,10 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)x;
 - (void);
 - (void);
-- (void);
+- (void)ed for %{public}@ (%{public}@);
 - (void);
 - (void);
 - (id);
@@ -46,16 +39,6 @@
 - (id)oteSession;
 
 // Remaining properties
-@property(readonly) NSString *_extentionIdentifier; // @synthesize _extentionIdentifier=__extentionIdentifier;
-@property(readonly) id <SLWebClient> _webClient; // @synthesize _webClient=__webClient;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

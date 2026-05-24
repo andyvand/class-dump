@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventHardStop
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _digits;
-    NSMutableArray *_cities;
-    double _score;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_score:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_digits:1;
-        unsigned int read_cities:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)dress:(id)arg1;
++ (_Bool)setHasSpokenAddress:(id)arg1;
 - (void);
-- (unsigned long long);
-- (unsigned int);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (unsigned long long)resourceLock_validateKeys: /* Error: Ran out of types for this method. */;
+- (unsigned int)resourceLock_validateKey:(unsigned long long)arg1;
+- (void)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
+- (void)enumerateStandardKeysAndValuesUsingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)dictionaryWithObjects:forKeys: /* Error: Ran out of types for this method. */;
+- (id)dictionaryWithObjects:(unsigned long long)arg1 forKeys: /* Error: Ran out of types for this method. */;
+- (void)StatusCachedValue;
+- (void)loggingIdentifierForAuditToken:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -44,32 +30,27 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id):Model is missing /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)to read command from kernel.;
 - (unsigned int *);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)cy:(struct _NSZone *)arg1;
+- (id)setSpatialLookupURLLegacy:(struct _NSZone *)arg1;
 - (id)e",N,&,VguidanceState;
 - (double)er changed from %{public}@ -> %{public}@;
 - (id)index < _zilchPoints.size();
 - (id)|ð;
-- (void)io20ZeroCopyOutputStreamE;
+- (void)N6google8protobuf2io20ZeroCopyOutputStreamE;
 - (void)I: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cities;
-@property(readonly, nonatomic) unsigned int *digits;
 @property(readonly, nonatomic) unsigned long long digitsCount;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) double score;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

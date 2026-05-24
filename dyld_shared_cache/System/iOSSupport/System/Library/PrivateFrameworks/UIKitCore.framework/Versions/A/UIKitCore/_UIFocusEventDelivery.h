@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _UIFocusEventDelivery
 {
     UIFocusSystem *_focusSystem;
-    double _lastDeliveredTimestamp;
-    long long _lastDeliveredMovement;
-    NSMutableSet *_keyboardPressEventForwardingMap;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)conflict while fetching lock record %@;
 - (id);
 - (id);
 - (id);

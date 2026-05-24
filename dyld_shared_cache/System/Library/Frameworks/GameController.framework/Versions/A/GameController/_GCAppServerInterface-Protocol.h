@@ -5,5 +5,6 @@
 //
 
 @protocol _GCAppServerInterface
+- (void);
 @end
 

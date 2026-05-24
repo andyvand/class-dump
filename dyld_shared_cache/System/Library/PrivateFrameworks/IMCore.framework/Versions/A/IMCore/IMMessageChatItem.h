@@ -6,14 +6,14 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, IMMessage, IMMessageItem, NSDate, NSString;
+@class IMMessage;
 
 @interface IMMessageChatItem : IMTranscriptChatItem
 {
 }
 
-- (_Bool);
-- (id);
+- (_Bool)%u);
+- (id)reportingSetUserInfo;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -21,19 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFromMe;
 @property(readonly, nonatomic) IMMessage *message;
-@property(readonly, nonatomic) IMMessageItem *messageItem;
-@property(readonly, nonatomic) IMHandle *sender;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *time;
 
 @end
 

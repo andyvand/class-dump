@@ -9,7 +9,6 @@
 @interface CKDPCSMemoryCacheEntry
 {
     CKDPCSData *_pcsData;
-    double _lastAccess;
 }
 
 - (void);
@@ -18,11 +17,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)epairRecordID;
+- (id)_poorCoverageAndScanDuration;
+- (void)repairRecordID;
 
 // Remaining properties
-@property double lastAccess; // @synthesize lastAccess=_lastAccess;
 @property(retain, nonatomic) CKDPCSData *pcsData; // @synthesize pcsData=_pcsData;
 
 @end

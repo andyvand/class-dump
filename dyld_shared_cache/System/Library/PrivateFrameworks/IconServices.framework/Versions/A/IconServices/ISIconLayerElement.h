@@ -4,42 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, IFImageBag, NSArray, NSMutableDictionary, NSUUID;
+@class NSArray, NSMutableDictionary;
 
 @interface ISIconLayerElement
 {
     NSArray *_images;
-    NSMutableDictionary *_opacities;
-    NSMutableDictionary *_effects;
-    NSMutableDictionary *_fillColors;
-    IFImageBag *_imageBag;
 }
 
 + (_Bool);
 - (void);
+- (void)__DATA_CONST;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)__gcc_except_tab__TEXT;
 - (double);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)E;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)HighSpeed;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)rl;
 - (_Bool);
-- (void);
-- (double);
+- (void)H;
+- (double);
 - (void);
 - (id);
 - (void);
@@ -47,15 +43,7 @@
 - (id)ranceName:%@]. Resolved appearance:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSUUID *digest;
-@property(retain) NSMutableDictionary *effects; // @synthesize effects=_effects;
-@property(copy) IFColor *fillColor;
-@property(retain) NSMutableDictionary *fillColors; // @synthesize fillColors=_fillColors;
-@property _Bool hasEffects;
-@property(readonly) IFImageBag *imageBag; // @synthesize imageBag=_imageBag;
-@property(readonly) NSArray *images; // @synthesize images=_images;
 @property(retain) NSMutableDictionary *opacities; // @synthesize opacities=_opacities;
-@property double opacity;
 
 @end
 

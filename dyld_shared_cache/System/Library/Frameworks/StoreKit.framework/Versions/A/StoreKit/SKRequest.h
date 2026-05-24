@@ -5,7 +5,6 @@
 //
 
 @class SKPaymentQueueClient;
-@protocol SKRequestDelegate;
 
 @interface SKRequest
 {
@@ -16,18 +15,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)C;
 - (void);
 - (id);
 - (void);
+- (id)P;
 - (void);
+- (void)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SKRequestDelegate> delegate;
 @property(copy, nonatomic) SKPaymentQueueClient *paymentQueueClient;
 
 @end

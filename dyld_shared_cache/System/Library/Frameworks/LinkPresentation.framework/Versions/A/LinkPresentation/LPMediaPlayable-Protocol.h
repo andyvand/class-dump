@@ -5,10 +5,10 @@
 //
 
 @protocol LPMediaPlayable
+- (_Bool)_errorTypeProto: /* Error: Ran out of types for this method. */;
 - (void)openxmlformats.wordprocessingml;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMuteControl;
 @property(nonatomic, getter=isPlaying) _Bool playing;
 @end
 

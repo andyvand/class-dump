@@ -7,9 +7,6 @@
 @interface NewsPersonalization.ArticleUserEventHistoryFeaturesFactory
 {
     id userEventHistory;
-    id dislikesSupplement;
-    id isSubscribed;
-    id aggregateStoreFactory;
 }
 
 @end

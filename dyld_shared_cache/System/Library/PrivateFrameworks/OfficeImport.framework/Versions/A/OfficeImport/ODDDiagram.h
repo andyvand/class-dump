@@ -6,26 +6,23 @@
 
 #import <OfficeImport/OADDrawable.h>
 
-@class NSArray, ODDColorTransform, ODDNodePoint, ODDStyleDefinition;
+@class NSArray, ODDNodePoint;
 
 __attribute__((visibility("hidden")))
 @interface ODDDiagram : OADDrawable
 {
     ODDNodePoint *mDocumentPoint;
-    ODDColorTransform *mColorTransform;
-    ODDStyleDefinition *mStyleDefinition;
-    NSArray *mEquivalentDrawables;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)R	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)t;
 - (void);
 
 // Remaining properties

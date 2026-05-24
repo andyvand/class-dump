@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NSLifeguard
 {
     _Bool _busy;
-    NSCountedSet *_proxyCounts;
 }
 
-+ (_Bool);
-+ (id);
-+ (void);
++ (_Bool)odyStreamForTask:)` delegate method. /* Error: Ran out of types for this method. */;
++ (id)_kCFNTimingDataConnectionReused;
++ (void)ache_blob_data(entry_ID);;
 + (_Bool);
 + (long long);
 - (void);
@@ -28,7 +27,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)æÿÐ&xG;
 
 // Remaining properties
-@property(getter=isBusy) _Bool busy; // @synthesize busy=_busy;
 @property(readonly, copy) NSCountedSet *proxyCounts; // @synthesize proxyCounts=_proxyCounts;
 
 @end

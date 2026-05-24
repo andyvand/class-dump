@@ -6,12 +6,11 @@
 
 #import <NeutrinoCore/NUChannelMediaFormat.h>
 
-@class NSDictionary, NUChannelComponentMediaFormat;
+@class NUChannelComponentMediaFormat;
 
 @interface NUChannelContainerMediaFormat : NUChannelMediaFormat
 {
     long long _containerMediaType;
-    NSDictionary *_components;
 }
 
 + (id);
@@ -35,12 +34,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)jectsHashTable;
+- (void)weakObjectsHashTable;
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelComponentMediaFormat *componentFormat;
-@property(readonly, copy, nonatomic) NSDictionary *components; // @synthesize components=_components;
-@property(readonly, nonatomic) long long containerMediaType; // @synthesize containerMediaType=_containerMediaType;
 
 @end
 

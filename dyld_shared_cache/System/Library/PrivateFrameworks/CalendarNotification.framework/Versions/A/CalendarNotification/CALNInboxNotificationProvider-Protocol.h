@@ -9,7 +9,6 @@
 @protocol CALNInboxNotificationProvider
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long eventNotificationCount;
 @property(readonly, nonatomic) NSArray *eventNotificationReferences;
 @end
 

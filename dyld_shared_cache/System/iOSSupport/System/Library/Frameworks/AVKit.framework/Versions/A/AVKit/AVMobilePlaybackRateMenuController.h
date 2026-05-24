@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPlaybackSpeed, AVPlaybackSpeedCollection, NSArray, UIMenu;
+@class AVObservationController, AVPlaybackSpeedCollection;
 
 __attribute__((visibility("hidden")))
 @interface AVMobilePlaybackRateMenuController
 {
     AVObservationController *_observationController;
-    UIMenu *_playbackRateMenu;
-    NSArray *_activeMenuItems;
-    AVPlaybackSpeedCollection *_activePlaybackRateCollection;
-    AVPlaybackSpeed *_activeSelectedPlaybackSpeed;
-    _Bool _activeMenuHasImage;
-    AVPlaybackSpeedCollection *_playbackSpeedCollection;
 }
 
 + (void);
@@ -25,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id)inueTrackingWithTouch:withEvent: /* Error: Ran out of types for this method. */;
+- (id)continueTrackingWithTouch:withEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIMenu *menu;
 @property(retain, nonatomic) AVPlaybackSpeedCollection *playbackSpeedCollection; // @synthesize playbackSpeedCollection=_playbackSpeedCollection;
 
 @end

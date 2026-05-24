@@ -7,6 +7,8 @@
 @class NSArray;
 
 @protocol IMVisibleAssociatedMessageHost
+- (NSArray *);
+- (void)s] %s:(NSArray *)arg1 %d Delegate %@ does not respond to -device:didReceiveText: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setVisibleAssociatedMessageChatItems:) NSArray *visibleAssociatedMessageChatItems;

@@ -9,17 +9,15 @@
 @interface EKConferenceDeserializationResult
 {
     EKVirtualConference *_conference;
-    struct _NSRange _range;
 }
 
+- (id)@;
 - (id);
-- (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (void)±2'1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) EKVirtualConference *conference; // @synthesize conference=_conference;
 @property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end

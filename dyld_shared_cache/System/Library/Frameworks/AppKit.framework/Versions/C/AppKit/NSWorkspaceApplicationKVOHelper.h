@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLSNotificationHelper, NSLock, NSMutableArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSWorkspaceApplicationKVOHelper
 {
     NSArray *staleAppsArray;
-    NSMutableArray *propertyBackingArray;
-    NSLSNotificationHelper *notificationHelper;
-    NSLock *lock;
-    void *notificationID;
-    unsigned long long propertyIndex;
 }
 
 - (void);
@@ -24,17 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)erting a new leaf;
+- (void);
+- (void)checked_didReceiveData_withoutCB;
+- (unsigned long long)_task_onqueue_didFinish;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (id)*;
 - (const struct WorkspaceKVOData_t *);
 - (void);
-- (id)dowOrderFront;
-- (void)wningApplication;
+- (id)_doTabbedWindowOrderFront;
+- (void)menuBarOwningApplication;
 
 @end
 

@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryFuzzyMatchV2Metadata
 {
     PBDataReader *_reader;
-    CDStruct_82f37d05 _fuzzyV2Scores;
-    CDStruct_95bda58d _rewriteTypes;
-    NSMutableArray *_rewrittenQueries;
-    NSMutableArray *_rewrittenQueryTokens;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _pruneFuzzyV2Results;
-    _Bool _useFuzzyV1;
-    struct {
-        unsigned int has_pruneFuzzyV2Results:1;
-        unsigned int has_useFuzzyV1:1;
-        unsigned int read_fuzzyV2Scores:1;
-        unsigned int read_rewriteTypes:1;
-        unsigned int read_rewrittenQueries:1;
-        unsigned int read_rewrittenQueryTokens:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)y archive at path %@;
+- (id)currentSpeed;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)read_encodedLngs"b1"read_encodedTimestamps"b1"read_relativeLocations"b1"wrote_anyField"b1};
-- (id)sLock;
+- (id)_processedRequestsLock;
 - (id)ä2;
 - (void)G7Â¢ÔH@;
 

@@ -7,10 +7,6 @@
 @interface SRFClamshellStateNotifier
 {
     struct __CFRunLoopSource *_ioRunLoopSource;
-    struct IONotificationPort *_notifyPort;
-    unsigned int _notification;
-    unsigned int _rootService;
-    _Bool _clamshellState;
 }
 
 + (id);

@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol PKPassLibraryDataProvider
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canAddPaymentPass;

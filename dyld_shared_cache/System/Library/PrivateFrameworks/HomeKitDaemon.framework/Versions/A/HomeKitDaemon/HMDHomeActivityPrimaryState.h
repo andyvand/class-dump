@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (id)p.;
-- (unsigned long long);
-- (void);
+- (unsigned long long)ading persisted data from %@;
+- (void)tificates.  Only returned %lu certificate(s);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long);
 
 @end
 

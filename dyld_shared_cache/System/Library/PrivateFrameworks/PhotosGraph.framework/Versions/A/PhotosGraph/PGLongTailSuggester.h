@@ -6,36 +6,27 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSArray, NSDictionary, NSMutableSet, NSString, PGLongTailAdditionalOptions, PGSuggestionOptions;
+@class PGSuggestionOptions;
 
 @interface PGLongTailSuggester : PGAbstractSuggester
 {
     PGSuggestionOptions *_options;
-    PGLongTailAdditionalOptions *_additionalOptions;
-    unsigned long long _maximumNumberOfSuggestions;
-    unsigned long long _numberOfGeneratedSuggestions;
-    unsigned int _randomSeed;
-    NSArray *_eligibleAssetUUIDs;
-    NSDictionary *_verifiedPersonUUIDsByAssetUUIds;
-    NSMutableSet *_suggestedAssetsFromPreviousBatch;
-    NSMutableSet *_candidateAssetsFromPreviousBatch;
-    NSString *_meNodeLocalIdentifier;
 }
 
-+ (id);
-+ (unsigned long long);
++ (id)accessibilityContents;
++ (unsigned long long)ilJJX-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c;
 + (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)4;
+- (_Bool)currentSentenceRange;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (struct _NSRange);
-- (id);
+- (struct _NSRange)x;
+- (id)C;
 - (unsigned long long);
 - (id);
 - (id);
@@ -44,7 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)is/PhotosGraph/Framework/Graph/Data Model Enrichment/PGGraphAssetRevGeocodeEnrichmentProcessor.m;

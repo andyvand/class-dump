@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface PETTestLoggingOutlet
 {
     NSString *_lastLoggedKey;
-    unsigned long long _lastLoggedScalarValue;
-    double _lastLoggedDistributionValue;
-    NSString *_previousLoggedKey;
-    unsigned long long _previousLoggedScalarValue;
-    double _previousLoggedDistributionValue;
-    NSMutableArray *_allLoggedKeys;
-    NSMutableArray *_allLoggedValues;
-    NSMutableDictionary *_keyValues;
 }
 
 - (unsigned long long);
@@ -24,36 +16,21 @@
 - (unsigned long long);
 - (id);
 - (double);
+- (id)g;
+- (double);
 - (id);
-- (double);
+- (void)H;
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)G;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *allLoggedKeys; // @synthesize allLoggedKeys=_allLoggedKeys;
-@property(readonly, nonatomic) NSMutableArray *allLoggedValues; // @synthesize allLoggedValues=_allLoggedValues;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *keyValues; // @synthesize keyValues=_keyValues;
-@property(readonly, nonatomic) double lastLoggedDistributionValue; // @synthesize lastLoggedDistributionValue=_lastLoggedDistributionValue;
 @property(readonly, nonatomic) NSString *lastLoggedKey; // @synthesize lastLoggedKey=_lastLoggedKey;
-@property(readonly, nonatomic) unsigned long long lastLoggedScalarValue; // @synthesize lastLoggedScalarValue=_lastLoggedScalarValue;
-@property(readonly, nonatomic) double previousLoggedDistributionValue; // @synthesize previousLoggedDistributionValue=_previousLoggedDistributionValue;
-@property(readonly, nonatomic) NSString *previousLoggedKey; // @synthesize previousLoggedKey=_previousLoggedKey;
-@property(readonly, nonatomic) unsigned long long previousLoggedScalarValue; // @synthesize previousLoggedScalarValue=_previousLoggedScalarValue;
-@property(readonly) Class superclass;
 
 @end
 

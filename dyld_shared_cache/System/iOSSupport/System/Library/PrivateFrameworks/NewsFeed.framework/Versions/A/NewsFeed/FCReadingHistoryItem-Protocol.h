@@ -4,43 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSDate, NSString;
+@class CKRecord, NSString;
 
 @protocol FCReadingHistoryItem
+- (_Bool);
+- (long long)initWithArticle:issue:articleViewControllerFactory:settings:errorMessageFactory:analyticsReporting:contentSizeManager:relativePriority: /* Error: Ran out of types for this method. */;
+- (NSString *)_shouldIgnoreDidScrollWithScrollView: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ÐMòÿ;
-- (NSString *);
 - (NSString *)Q;
 - (CKRecord *)on [%s]. Not eligible for auto enabling notifications.;
 - (NSString *)hpgUvg;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) unsigned long long articleLikingStatus;
-@property(readonly, nonatomic) CKRecord *asCKRecord;
-@property(readonly, copy, nonatomic) NSString *clusterID;
-@property(readonly, copy, nonatomic) NSString *deviceID;
-@property(readonly, copy, nonatomic) NSDate *firstSeenAt;
-@property(readonly, copy, nonatomic) NSDate *firstSeenAtOfMaxVersionSeen;
-@property(readonly, nonatomic) unsigned long long flags;
-@property(readonly, nonatomic) _Bool hasArticleBeenConsumed;
-@property(readonly, nonatomic) _Bool hasArticleBeenMarkedOffensive;
-@property(readonly, nonatomic) _Bool hasArticleBeenRead;
-@property(readonly, nonatomic) _Bool hasArticleBeenRemovedFromAudio;
-@property(readonly, nonatomic) _Bool hasArticleBeenSeen;
-@property(readonly, nonatomic) _Bool hasArticleCompletedListening;
-@property(readonly, nonatomic) _Bool hasArticleCompletedReading;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSDate *lastListenedAt;
-@property(readonly, copy, nonatomic) NSDate *lastVisitedAt;
-@property(readonly, nonatomic) long long listenedCount;
-@property(readonly, nonatomic) double listeningProgress;
-@property(readonly, copy, nonatomic) NSDate *listeningProgressSavedAt;
-@property(readonly, nonatomic) long long maxVersionRead;
-@property(readonly, nonatomic) long long maxVersionSeen;
-@property(readonly, nonatomic, getter=isPruningDisabled) _Bool pruningDisabled;
-@property(readonly, nonatomic) long long readCount;
-@property(readonly, copy, nonatomic) NSString *readingPosition;
-@property(readonly, copy, nonatomic) NSDate *readingPositionSavedAt;
-@property(readonly, copy, nonatomic) NSString *sourceChannelTagID;
 @end
 

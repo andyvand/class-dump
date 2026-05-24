@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface CKAudioSessionController
 {
     _Bool _active;
-    _Bool _dirty;
-    unsigned long long _options;
 }
 
-+ (id);
-+ (id): /* Error: Ran out of types for this method. */;
++ (id)6objectD0t;
++ (id)pluginPayloadWantsResize: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,16 +29,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void)e;
+- (void)__objc_protorefs__DATA_CONST;
+- (void)CKKTEnhancedProtectionStatusCellDelegate;
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property unsigned long long options; // @synthesize options=_options;
-@property(readonly) _Bool shouldDuckOthers;
-@property(readonly) _Bool shouldStopPlayingWhenSilent;
-@property(readonly) _Bool shouldUseSpeaker;
 
 @end
 

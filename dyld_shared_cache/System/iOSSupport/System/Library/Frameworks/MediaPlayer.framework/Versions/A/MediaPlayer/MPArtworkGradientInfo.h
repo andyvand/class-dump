@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface MPArtworkGradientInfo
 {
     double _y1;
-    double _y2;
-    UIColor *_color;
 }
 
 - (double);
 - (double);
 - (void);
 - (void);
+- (id)newValNeighbor;
 - (id);
-- (id);
-- (void);
+- (void)K;
 - (void)MusicPlayerApplicationController",R,N;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
 @property(nonatomic) double y1; // @synthesize y1=_y1;
-@property(nonatomic) double y2; // @synthesize y2=_y2;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsSubscription.PaywallShownEntriesManager
 {
     id lazyStore;
-    id shownEntries;
-    id accessLock;
 }
 
 @end

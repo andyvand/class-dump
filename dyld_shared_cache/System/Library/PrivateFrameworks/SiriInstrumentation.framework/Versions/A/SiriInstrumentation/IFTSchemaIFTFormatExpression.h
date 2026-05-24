@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTFormatExpression : SISchemaInstrumentationMessage
 {
@@ -33,7 +33,6 @@
 - (void)¦àµw#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *statementIds; // @synthesize statementIds=_statementIds;
 
 @end

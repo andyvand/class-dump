@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, SFCommand;
+@class NSNumber, NSString;
 
 @protocol SFImageReferenceData
+- (_Bool);
+- (NSString *);
+- (void);
+- (NSNumber *)	;
+- (void)isEqualToArray:(NSNumber *)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attribution;
-@property(retain, nonatomic) SFCommand *command;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *height;
 @property(copy, nonatomic) NSString *image_url;
-@property(nonatomic) _Bool is_prominent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *width;
 @end
 

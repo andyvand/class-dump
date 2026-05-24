@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface OTInheritanceKey
 {
     NSUUID *_uuid;
-    NSData *_wrappingKeyData;
-    NSString *_wrappingKeyString;
-    NSData *_wrappedKeyData;
-    NSString *_wrappedKeyString;
-    NSData *_claimTokenData;
-    NSString *_claimTokenString;
-    NSData *_recoveryKeyData;
 }
 
 + (id);

@@ -9,21 +9,19 @@
 @interface MKZoomSegmentedControl
 {
     _Bool _mouseDown;
-    MKMapView *mapView;
 }
 
 - (long long);
-- (long long);
-- (_Bool);
+- (long long)>;
+- (_Bool)indexesOfLabeledValuesUnifiableWithLabelValuePair:inMultiValue:forProperty: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)n: /* Error: Ran out of types for this method. */;
-- (id)rVendorID: /* Error: Ran out of types for this method. */;
+- (void)setAnnotation: /* Error: Ran out of types for this method. */;
+- (id)extensionModeForVendorID: /* Error: Ran out of types for this method. */;
 - (void)m;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView;
-@property(readonly, nonatomic, getter=isMouseDown) _Bool mouseDown; // @synthesize mouseDown=_mouseDown;
 
 @end
 

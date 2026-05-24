@@ -13,7 +13,7 @@
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void))A;
 
 // Remaining properties
 @property(nonatomic) long long badgeCount; // @synthesize badgeCount=_badgeCount;

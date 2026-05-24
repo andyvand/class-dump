@@ -5,5 +5,7 @@
 //
 
 @protocol _CDSocialInteractionAdvisorTuningDelegate
+- (void)gx;
+- (void);
 @end
 

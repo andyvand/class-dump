@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMediaGroup, MLMediaLibrary, NSArray, NSData, NSDictionary;
-
 @interface MLMediaGroupImpl
 {
     _Bool _mediaObjectsRequested;
-    _Bool _iconImageDataRequested;
-    MLMediaLibrary *_mediaLibrary;
-    MLMediaGroup *_parent;
-    NSArray *_childGroups;
-    NSArray *_mediaObjects;
-    NSDictionary *_attributes;
-    NSData *_iconImageData;
 }
 
 - (void);
@@ -37,14 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSArray *childGroups; // @synthesize childGroups=_childGroups;
-@property(retain, nonatomic) NSData *iconImageData; // @synthesize iconImageData=_iconImageData;
-@property(nonatomic) _Bool iconImageDataRequested; // @synthesize iconImageDataRequested=_iconImageDataRequested;
-@property(nonatomic) MLMediaLibrary *mediaLibrary; // @synthesize mediaLibrary=_mediaLibrary;
-@property(copy, nonatomic) NSArray *mediaObjects; // @synthesize mediaObjects=_mediaObjects;
 @property(nonatomic) _Bool mediaObjectsRequested; // @synthesize mediaObjectsRequested=_mediaObjectsRequested;
-@property(nonatomic) MLMediaGroup *parent; // @synthesize parent=_parent;
 
 @end
 

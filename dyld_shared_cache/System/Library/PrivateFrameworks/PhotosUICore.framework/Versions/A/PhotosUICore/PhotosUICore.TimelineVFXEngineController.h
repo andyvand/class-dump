@@ -7,42 +7,6 @@
 @interface PhotosUICore.TimelineVFXEngineController
 {
     id _spec;
-    id world;
-    id camera;
-    id cameraAssemble;
-    id cameraRipple;
-    id cellTemplate;
-    id _cells;
-    id _cellStartingOffsetsPortrait;
-    id _cellStartingOffsetsLandscape;
-    id _cellsToBeRemoved;
-    id _cellsToBeRecycled;
-    id placeholderImages;
-    id _images;
-    id _outroImage;
-    id cameraAnimations;
-    id _nextImageIndex;
-    id _nextPlaceholderImageIndex;
-    id _paused;
-    id _isFrozen;
-    id _continuousAnimationStartTime;
-    id _continuousAnimationPauseTime;
-    id _dropTimer;
-    id _permuteTimer;
-    id _nextRippleCenter;
-    id _lastRippleTime;
-    id _isPortrait;
-    id _isCompactHeight;
-    id _viewSize;
-    id _projectionDirection;
-    id _completionHandler;
-    id _preheatVFXWorldCompleted;
-    id _preheatCompletionHandler;
-    id _controllerQueueResetIteration;
-    id _reduceMotion;
-    id signposter;
-    id _state;
-    id _$observationRegistrar;
 }
 
 - (void);

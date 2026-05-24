@@ -7,12 +7,6 @@
 @interface NewsArticles.EndOfArticleBlueprintModifierFactory
 {
     id presentationOptions;
-    id sectionFactory;
-    id feedContextFactory;
-    id nativeAdManager;
-    id policyValidator;
-    id layoutCollectionProvider;
-    id subscriptionList;
 }
 
 @end

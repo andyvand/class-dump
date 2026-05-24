@@ -7,7 +7,6 @@
 @interface AWDSiriServerConnectionStart
 {
     unsigned long long _timestamp;
-    CDStruct_b5306035 _has;
 }
 
 - (id);
@@ -17,7 +16,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

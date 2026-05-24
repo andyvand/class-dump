@@ -5,5 +5,8 @@
 //
 
 @protocol TUTTYCoreTelephonyClient
+- (_Bool);
+- (_Bool);
+- (_Bool);
 @end
 

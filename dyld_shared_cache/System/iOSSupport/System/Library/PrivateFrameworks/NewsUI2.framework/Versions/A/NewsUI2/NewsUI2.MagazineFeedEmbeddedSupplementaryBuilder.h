@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineFeedEmbeddedSupplementaryBuilder
 {
     id baseStyler;
-    id groupTitleViewLayoutAttributesFactory;
-    id sectionFooterViewLayoutAttributesFactory;
 }
 
 @end

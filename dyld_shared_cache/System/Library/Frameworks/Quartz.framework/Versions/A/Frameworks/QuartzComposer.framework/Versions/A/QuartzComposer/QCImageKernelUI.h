@@ -6,20 +6,17 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSSplitView, QCProgrammablePatchView;
+@class QCProgrammablePatchView;
 
 @interface QCImageKernelUI : QCInspector
 {
     QCProgrammablePatchView *sourceView;
-    QCProgrammablePatchView *advancedViewMain;
-    NSButton *dodButton;
-    NSSplitView *splitView;
-    NSButton *advancedModeButton;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)v
+;
 - (void);
 - (double);
 - (double);

@@ -10,7 +10,7 @@
 }
 
 + (id)QualityLocalURL:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)Rh;
 - (void);
 - (id);
 - (void)or[%s] %s;

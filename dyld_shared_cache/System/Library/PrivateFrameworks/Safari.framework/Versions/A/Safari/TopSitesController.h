@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class History, NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSTimer, WBSCoalescedAsynchronousWriter;
-@protocol OS_dispatch_queue;
+@class History;
 
 __attribute__((visibility("hidden")))
 @interface TopSitesController
 {
     unsigned long long _initializationLevel;
-    NSMutableArray *_blocksToPerformWhenInitialized;
-    WBSCoalescedAsynchronousWriter *_saveToDiskWriter;
-    NSTimer *_recomputeTimer;
-    _Bool _didComputeFrequentlyVisitedSites;
-    NSMutableArray *_displayedSites;
-    NSMutableSet *_bannedURLStrings;
-    NSMutableSet *_pinnedURLStrings;
-    NSArray *_frequentlyVisitedNonBannedSites;
-    NSArray *_demoSites;
-    NSMutableArray *_undisplayedPinnedSites;
-    NSMutableDictionary *_sitesByURL;
-    NSMutableDictionary *_sitesByCanonicalURL;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    History *_history;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (void);
@@ -56,20 +41,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -77,8 +62,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool)tedStringValue: /* Error: Ran out of types for this method. */;
+- (id)toreUpdateService;
+- (_Bool)setAttributedStringValue: /* Error: Ran out of types for this method. */;
 - (void)ontroller;
 - (id)tation contains empty download filename;
 - (void)l store and use the address of this webpage to improve web compatibility. Your report will not be linked to your Apple Account. Do not submit this report if the URL contains personal or confidential information.;
@@ -86,10 +71,7 @@ __attribute__((visibility("hidden")))
 - (id)(x;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *frequentlyVisitedNonBannedSites;
 @property(readonly, nonatomic) History *history; // @synthesize history=_history;
-@property(readonly, copy, nonatomic) NSArray *topSites;
-@property(readonly, nonatomic, getter=isWarmingUp) _Bool warmingUp;
 
 @end
 

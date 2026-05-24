@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCContext, HMDCloudPhotosSettingObserver, HMDCoreDataCloudTransform, HMDPhotosPersonManager, HMDPhotosPersonManagerSettingsModel, HMDUser, HMFMessageDispatcher, HMPhotosPersonManagerSettings, NSNotificationCenter, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserPhotosPersonDataManager
 {
     _Bool _supportsFaceClassification;
-    HMDPhotosPersonManager *_personManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_homeUUID;
-    NSUUID *_userUUID;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMCContext *_backingStoreContext;
-    HMDCoreDataCloudTransform *_cloudTransform;
-    NSNotificationCenter *_notificationCenter;
-    HMDCloudPhotosSettingObserver *_cloudPhotosSettingObserver;
-    HMDUser *_user;
-    HMDPhotosPersonManagerSettingsModel *_settingsModel;
-    CDUnknownBlockType _personManagerFactory;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id)LzB;
 - (id);
 - (id);
@@ -44,21 +32,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)torage;
+- (void)outeBookmark;
+- (void);
+- (void),N;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(%@) <delegate:(id)arg1 %@, %lu pending:(id)arg2 %@, %lu inflight:%@> /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
+- (id)OU߲;
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id);
 - (id);
@@ -69,39 +57,13 @@ __attribute__((visibility("hidden")))
 - (void)hile waiting to remove the pairing from the accessories.;
 - (void)workRouterAccessViolationControlOperationType %ld;
 - (id)=%s;
-- (id)kerAnalytics;
+- (id)shareSpeakerAnalytics;
 - (id)}&|»ÿe}&Ðÿÿÿ;
 - (id)ìI=;
 - (void);
 
 // Remaining properties
-@property(readonly) HMCContext *backingStoreContext; // @synthesize backingStoreContext=_backingStoreContext;
-@property(readonly) HMDCloudPhotosSettingObserver *cloudPhotosSettingObserver; // @synthesize cloudPhotosSettingObserver=_cloudPhotosSettingObserver;
-@property(readonly) HMDCoreDataCloudTransform *cloudTransform; // @synthesize cloudTransform=_cloudTransform;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) HMDPhotosPersonManager *personManager; // @synthesize personManager=_personManager;
-@property(copy) CDUnknownBlockType personManagerFactory; // @synthesize personManagerFactory=_personManagerFactory;
-@property(readonly, copy) HMPhotosPersonManagerSettings *settings;
-@property(retain) HMDPhotosPersonManagerSettingsModel *settingsModel; // @synthesize settingsModel=_settingsModel;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsFaceClassification; // @synthesize supportsFaceClassification=_supportsFaceClassification;
-@property __weak HMDUser *user; // @synthesize user=_user;
-@property(readonly, copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, copy) NSUUID *zoneUUID;
 
 @end
 

@@ -6,29 +6,22 @@
 
 #import <EventKitUI/EKUIAutocompleteSearchResultBaseCell.h>
 
-@class NSArray, NSAttributedString, NSMutableArray, UILabel;
+@class UILabel;
 
 @interface EKUIPasteboardResultsTableViewCell : EKUIAutocompleteSearchResultBaseCell
 {
     UILabel *_aggregateTextLabel;
-    NSMutableArray *_colorDotViews;
-    NSMutableArray *_titleTextLabels;
-    UILabel *_xMoreLabel;
-    NSAttributedString *_aggregateTitle;
-    NSMutableArray *_eventCalendarColors;
-    NSMutableArray *_eventTitles;
-    NSArray *_cellConstraints;
 }
 
-+ (double);
++ (double);
 + (id);
 + (id);
-+ (id);
-- (void);
++ (id)(;
+- (void)%s;
 - (void);
 - (void);
 - (id);
-- (void)ePath: /* Error: Ran out of types for this method. */;
+- (void)viewForExternalDragOperationFromEvent:visiblePath: /* Error: Ran out of types for this method. */;
 
 @end
 

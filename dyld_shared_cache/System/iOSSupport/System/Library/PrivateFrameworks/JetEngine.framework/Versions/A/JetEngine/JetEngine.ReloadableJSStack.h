@@ -7,7 +7,6 @@
 @interface JetEngine.ReloadableJSStack
 {
     id container;
-    id notificationToken;
 }
 
 @end

@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (int);
-- (unsigned int);
+- (unsigned int)ContinuationEndMeterset;
 - (void);
 - (void){?=II[3Q]}{?=IIII[2Q]}{?=II[3Q]})}}16I24;
 

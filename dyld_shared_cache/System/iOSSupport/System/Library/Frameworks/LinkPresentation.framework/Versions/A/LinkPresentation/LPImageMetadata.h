@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPImageMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
-    struct CGSize _size;
 }
 
 + (_Bool);
-- (void);
+- (void)tableView:(id)arg1 didBeginMultipleSelectionInteractionAtIndexPath: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned int);
-- (id);
-- (id);
+- (unsigned int);
+- (id)28@0:(id)arg1 8@16i24;
+- (id)_maxSize;
 - (unsigned long long);
 - (struct CGSize);
 - (void);
@@ -35,10 +29,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

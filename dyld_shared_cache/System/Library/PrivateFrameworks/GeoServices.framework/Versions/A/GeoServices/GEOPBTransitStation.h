@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitStation
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_location;
-    unsigned long long _muid;
-    NSString *_nameDisplayString;
-    NSMutableArray *_zoomNames;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _stationIndex;
-    int _structureType;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_stationIndex:1;
-        unsigned int has_structureType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_location:1;
-        unsigned int read_nameDisplayString:1;
-        unsigned int read_zoomNames:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)HasVersion:(id)arg1;
++ (_Bool)setHasVersion:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -47,11 +27,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int)6@24@32;
 - (void);
 - (id);
 - (id);
@@ -60,14 +40,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ck_invoke_2;
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void)rror;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)updateCalloutStateForSelectedAnnotationView: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -75,32 +55,14 @@
 - (id)elTime;
 - (id)Xë0ì;
 - (id)\}÷;
-- (id)yMetadata;
+- (id)privacyMetadata;
 - (id);
 - (void);
 - (_Bool)þ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLocation;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasNameDisplayString;
-@property(nonatomic) _Bool hasStationIndex;
-@property(nonatomic) _Bool hasStructureType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *nameDisplayString;
-@property(nonatomic) unsigned int stationIndex;
-@property(nonatomic) int structureType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *zoomNames;
 
 @end
 

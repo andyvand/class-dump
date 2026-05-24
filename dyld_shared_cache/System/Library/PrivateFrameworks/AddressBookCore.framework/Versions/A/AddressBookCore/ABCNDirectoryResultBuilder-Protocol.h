@@ -5,5 +5,9 @@
 //
 
 @protocol ABCNDirectoryResultBuilder
+- (void)|;
+- (void);
+- (void)Utility;
+- (id);
 @end
 

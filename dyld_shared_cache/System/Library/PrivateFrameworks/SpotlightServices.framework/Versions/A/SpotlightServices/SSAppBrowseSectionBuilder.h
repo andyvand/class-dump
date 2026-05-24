@@ -10,14 +10,14 @@
 {
 }
 
-+ (_Bool);
-+ (unsigned long long);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool)KDataTask"16@"NSData"24;
++ (unsigned long long)>";
++ (_Bool)6;
++ (id)_populateMetadataForBackwardCompatibility;
++ (id)_populateDominantBackgroundColorForPropertiesIfNeeded:(id)arg1;
++ (id)_minimumWidth;
++ (id)_lp_luminosityLevelForUserInterfaceStyle;
++ (_Bool)with error %@.;
 + (void);
 - (id);
 

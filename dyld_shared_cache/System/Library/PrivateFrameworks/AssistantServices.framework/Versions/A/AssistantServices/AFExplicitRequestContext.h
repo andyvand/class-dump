@@ -20,7 +20,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void),N,V_connectedBTProductID;
 

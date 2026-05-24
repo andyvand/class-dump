@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, RWIApplication;
-@protocol RWIDebuggableDelegate, RWIDebugger;
+@class RWIApplication;
+@protocol RWIDebuggableDelegate;
 
 @interface RWIDebuggable
 {
     id <RWIDebuggableDelegate> _delegate;
-    NSString *_uuid;
-    NSNumber *_pageId;
-    NSString *_url;
-    NSString *_title;
-    NSString *_displayName;
-    NSDictionary *_userInfo;
-    RWIApplication *_application;
-    long long _type;
-    long long _debuggerState;
-    RWIApplication *_proxyApplication;
-    id <RWIDebugger> _debugger;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -35,32 +24,19 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (id)	;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) RWIApplication *application; // @synthesize application=_application;
-@property(nonatomic) __weak id <RWIDebugger> debugger; // @synthesize debugger=_debugger;
-@property(readonly, nonatomic) long long debuggerState; // @synthesize debuggerState=_debuggerState;
-@property(nonatomic) __weak id <RWIDebuggableDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) RWIApplication *owningApplication; // @dynamic owningApplication;
-@property(readonly, copy, nonatomic) NSNumber *pageId; // @synthesize pageId=_pageId;
 @property(readonly, nonatomic) RWIApplication *proxyApplication; // @synthesize proxyApplication=_proxyApplication;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSString *url; // @synthesize url=_url;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

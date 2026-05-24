@@ -6,62 +6,52 @@
 
 #import <ChatKit/CKAVMediaObject.h>
 
-@class AVURLAsset, UIImage;
-
 @interface CKMovieMediaObject : CKAVMediaObject
 {
     _Bool _hasVideoTrack;
-    _Bool _isAutoloopVideo;
-    _Bool _isJellyfishVideo;
-    _Bool _isMultitrackMemoriesVideo;
-    _Bool _checkedVideoInfo;
-    _Bool _isAutoloopVideoInitialized;
-    _Bool _isJellyfishInitialized;
-    UIImage *_thumbnail;
-    AVURLAsset *_asset;
-    struct CGSize _pxSize;
 }
 
-+ (id);
++ (id)intents needs convertAttributes == YES.;
 + (id);
 + (Class);
 + (struct CGImage *);
 + (id);
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (Class);
-- (struct CGSize);
+- (_Bool)queryForSystemPaperNotesAllowsRecentlyDeleted: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_managedObjectIDForURIRepresentation: /* Error: Ran out of types for this method. */;
+- (void)_webViewDidEnterFullscreen:(struct CGSize)arg1;
+- (void)_fetchedResultsController;
+- (void)_enabledBindingObjectSet;
+- (void)_editingExistingLink;
+- (void)_dataDetectionContextForWebView:(_Bool)arg1;
+- (void)_cursorTrackingArea;
+- (void)Coordinate2D=dd},N,V_coordinate;
+- (void)ary",R,N,V_cachedIdealColumnWidths;
+- (Class)ICAttachmentPreviewGenerating;
+- (struct CGSize)t;
 - (void);
 - (id);
 - (Class);
+- (id)&;
+- (_Bool);
+- (_Bool);
+- (_Bool)5<7y_fR7So9NSRunLoopCGSg;
+- (_Bool);
+- (_Bool)3_y%;;
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)GG;
+- (_Bool)re for object — skipping;
+- (struct CGSize)text attachment that we could not create a text attachment for:%@ at %@ /* Error: Ran out of types for this method. */;
+- (id)ote save took %.2fs;
+- (Class)@};
+- (id)*You** removed %lld subfolders;
+- (_Bool)setEnableShiftNewLinesInSmartLists(%@);;
 - (_Bool);
-- (struct CGSize);
-- (id);
-- (Class);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)-
+;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -75,16 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVURLAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) _Bool checkedVideoInfo; // @synthesize checkedVideoInfo=_checkedVideoInfo;
 @property(nonatomic) _Bool hasVideoTrack; // @synthesize hasVideoTrack=_hasVideoTrack;
-@property(nonatomic) _Bool isAutoloopVideo; // @synthesize isAutoloopVideo=_isAutoloopVideo;
-@property(nonatomic) _Bool isAutoloopVideoInitialized; // @synthesize isAutoloopVideoInitialized=_isAutoloopVideoInitialized;
-@property(nonatomic) _Bool isJellyfishInitialized; // @synthesize isJellyfishInitialized=_isJellyfishInitialized;
-@property(nonatomic) _Bool isJellyfishVideo; // @synthesize isJellyfishVideo=_isJellyfishVideo;
-@property(nonatomic) _Bool isMultitrackMemoriesVideo; // @synthesize isMultitrackMemoriesVideo=_isMultitrackMemoriesVideo;
-@property(nonatomic) struct CGSize pxSize; // @synthesize pxSize=_pxSize;
-@property(retain, nonatomic) UIImage *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

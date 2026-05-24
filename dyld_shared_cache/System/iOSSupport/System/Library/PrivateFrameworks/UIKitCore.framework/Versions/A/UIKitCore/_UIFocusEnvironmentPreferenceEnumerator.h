@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIDebugLogNode;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusEnvironmentPreferenceEnumerator
 {
     _Bool _allowsInferringPreferences;
-    long long _enumerationMode;
-    CDUnknownBlockType _didVisitAllPreferencesForEnvironmentHandler;
-    CDUnknownBlockType _shouldInferPreferenceForEnvironmentHandler;
-    _UIDebugLogNode *_debugLog;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)?Q>52;
+- (id)fetchMMSReportJunkCarrierAddressForPhoneNumber:(long long)arg1 simID: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType)_recordsToProcessWithError:error: /* Error: Ran out of types for this method. */;
+- (_Bool)ow;
 - (_Bool);
 - (long long);
 - (void);
@@ -32,18 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsInferringPreferences; // @synthesize allowsInferringPreferences=_allowsInferringPreferences;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _UIDebugLogNode *debugLog; // @synthesize debugLog=_debugLog;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didVisitAllPreferencesForEnvironmentHandler; // @synthesize didVisitAllPreferencesForEnvironmentHandler=_didVisitAllPreferencesForEnvironmentHandler;
 @property(readonly, nonatomic) long long enumerationMode; // @synthesize enumerationMode=_enumerationMode;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType shouldInferPreferenceForEnvironmentHandler; // @synthesize shouldInferPreferenceForEnvironmentHandler=_shouldInferPreferenceForEnvironmentHandler;
-@property(readonly) Class superclass;
 
 @end
 

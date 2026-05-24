@@ -10,7 +10,7 @@
 - (UIView *)0@ù
 × ;
 - (void)B,R,N,GisReadOnlyChat;
-- (void)ersationListCollectionViewController;
+- (void)CKConversationListCollectionViewController;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *view;

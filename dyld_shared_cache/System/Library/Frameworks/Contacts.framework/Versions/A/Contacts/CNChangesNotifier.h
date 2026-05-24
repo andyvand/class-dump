@@ -11,7 +11,7 @@
     CNChangesNotifierProxy *_notifierProxy;
 }
 
-+ (id);
++ (id)<T;
 + (void);
 + (id);
 - (void);
@@ -19,10 +19,10 @@
 - (void);
 - (id);
 - (id);
+- (void)appContainerBundleIdentifier;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)aVolume:dataRole:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)ictionary";

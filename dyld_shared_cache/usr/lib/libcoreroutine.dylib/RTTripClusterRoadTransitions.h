@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
-
 @interface RTTripClusterRoadTransitions
 {
     unsigned int _count;
-    unsigned int _startRoadCount;
-    unsigned int _endRoadCount;
-    unsigned int _roadSequenceNumber;
-    NSUUID *_clusterID;
-    unsigned long long _clRoadIDTo;
-    unsigned long long _clRoadIDFrom;
-    double _fromStartLatitude;
-    double _fromStartLongitude;
-    double _fromEndLatitude;
-    double _fromEndLongitude;
-    double _toStartLatitude;
-    double _toStartLongitude;
-    double _toEndLatitude;
-    double _toEndLongitude;
-    NSDate *_startDate;
-    double _familiarityMetric;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)quote;
++ (id)pyramid;
++ (id)provided for sign-in;
 + (id);
 + (_Bool);
 - (void);
@@ -45,56 +27,33 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
+- (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (unsigned int);
+- (double)r/lib/libSystem.B.dylib;
+- (unsigned int)__AUTH;
 - (unsigned long long);
 - (unsigned long long);
-- (double);
-- (double);
+- (double)spider;
+- (double)noodle;
+- (id)crawl;
+- (id)8;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)idsResolvedEndpoint:%s /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id)0@ù
 × ;
 - (void)rsToWatch:(unsigned int)arg1 filteringDistanceThreshold:topNWorkouts:isSchedulerTriggered:reply: /* Error: Ran out of types for this method. */;
-- (unsigned int)apItem:oldCandidate:error: /* Error: Ran out of types for this method. */;
+- (unsigned int)associateNonPlaceholderRelabeledInferredMapItem:oldCandidate:error: /* Error: Ran out of types for this method. */;
 - (void)rs",&,N,V_parameters;
 - (void)emaphore error while fetching current device from store, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clRoadIDFrom; // @synthesize clRoadIDFrom=_clRoadIDFrom;
-@property(readonly, nonatomic) unsigned long long clRoadIDTo; // @synthesize clRoadIDTo=_clRoadIDTo;
-@property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int endRoadCount; // @synthesize endRoadCount=_endRoadCount;
-@property(nonatomic) double familiarityMetric; // @synthesize familiarityMetric=_familiarityMetric;
-@property(readonly, nonatomic) double fromEndLatitude; // @synthesize fromEndLatitude=_fromEndLatitude;
-@property(readonly, nonatomic) double fromEndLongitude; // @synthesize fromEndLongitude=_fromEndLongitude;
-@property(readonly, nonatomic) double fromStartLatitude; // @synthesize fromStartLatitude=_fromStartLatitude;
-@property(readonly, nonatomic) double fromStartLongitude; // @synthesize fromStartLongitude=_fromStartLongitude;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int roadSequenceNumber; // @synthesize roadSequenceNumber=_roadSequenceNumber;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned int startRoadCount; // @synthesize startRoadCount=_startRoadCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double toEndLatitude; // @synthesize toEndLatitude=_toEndLatitude;
-@property(readonly, nonatomic) double toEndLongitude; // @synthesize toEndLongitude=_toEndLongitude;
-@property(readonly, nonatomic) double toStartLatitude; // @synthesize toStartLatitude=_toStartLatitude;
-@property(readonly, nonatomic) double toStartLongitude; // @synthesize toStartLongitude=_toStartLongitude;
 
 @end
 

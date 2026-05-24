@@ -5,10 +5,10 @@
 //
 
 @protocol _INPBFocusStatus
+- (void);
 - (_Bool)Ðé;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsFocused;
 @property(nonatomic) _Bool isFocused;
 @end
 

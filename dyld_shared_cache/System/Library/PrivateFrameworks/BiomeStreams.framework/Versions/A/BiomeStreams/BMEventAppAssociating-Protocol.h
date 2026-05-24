@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol BMEventAppAssociating
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID;

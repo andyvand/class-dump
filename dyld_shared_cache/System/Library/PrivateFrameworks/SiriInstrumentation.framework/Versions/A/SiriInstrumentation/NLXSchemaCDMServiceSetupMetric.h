@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMServiceSetupMetric : SISchemaInstrumentationMessage
 {
     int _serviceType;
-    long long _startLogicalTimestampInNs;
-    long long _endLogicalTimestampInNs;
-    int _failureReason;
-    unsigned int _errorCode;
-    struct {
-        unsigned int serviceType:1;
-        unsigned int startLogicalTimestampInNs:1;
-        unsigned int endLogicalTimestampInNs:1;
-        unsigned int failureReason:1;
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (long long);
@@ -30,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)o;
 - (long long);
 - (void);
 - (void);
@@ -38,15 +25,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)dataWithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)TS_TST_INFO_set_policy_id;
 - (unsigned long long);
-- (void);
+- (void)2@0:(int)arg1 8@16@24;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -54,24 +41,14 @@
 - (id);
 - (id)
 × ;
-- (_Bool)iveWithin24Hours;
+- (_Bool)carPlayActiveWithin24Hours;
 - (id)ult;
 - (id)tityPoolResolveContext",&,N,V_entityPoolResolveContext;
 - (void);
 - (unsigned int)ßð&;
 
 // Remaining properties
-@property(nonatomic) long long endLogicalTimestampInNs; // @synthesize endLogicalTimestampInNs=_endLogicalTimestampInNs;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool hasEndLogicalTimestampInNs;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasFailureReason;
-@property(nonatomic) _Bool hasServiceType;
-@property(nonatomic) _Bool hasStartLogicalTimestampInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int serviceType; // @synthesize serviceType=_serviceType;
-@property(nonatomic) long long startLogicalTimestampInNs; // @synthesize startLogicalTimestampInNs=_startLogicalTimestampInNs;
 
 @end
 

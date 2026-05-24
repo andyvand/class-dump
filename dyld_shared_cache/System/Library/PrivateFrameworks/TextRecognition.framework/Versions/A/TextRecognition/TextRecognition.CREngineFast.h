@@ -9,10 +9,6 @@
 @interface TextRecognition.CREngineFast
 {
     id confidenceThresholdProviderFacade;
-    id textRecognitionStats;
-    id configuration;
-    id languageCorrection;
-    id shouldCancel;
 }
 
 - (id);

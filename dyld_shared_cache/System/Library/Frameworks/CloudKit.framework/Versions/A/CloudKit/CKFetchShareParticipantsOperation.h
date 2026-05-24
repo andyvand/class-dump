@@ -6,25 +6,17 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKFetchShareParticipantsOperationInfo, NSArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol CKFetchShareParticipantsOperationCallbacks;
+@class NSMutableSet;
 
 @interface CKFetchShareParticipantsOperation : CKOperation
 {
     CDUnknownBlockType _shareParticipantFetchedBlock;
-    CDUnknownBlockType _perShareParticipantCompletionBlock;
-    CDUnknownBlockType _fetchShareParticipantsCompletionBlock;
-    NSArray *_userIdentityLookupInfos;
-    NSMutableSet *_discoveredUserIdentities;
-    NSMutableDictionary *_lookupErrors;
-    CDUnknownBlockType _perShareParticipantCompletionBlock_wrapper;
-    CDUnknownBlockType _fetchShareParticipantsCompletionBlock_wrapper;
 }
 
 + (SEL);
 + (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
@@ -41,12 +33,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)P;
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool)¤T;
 - (void)ÎðÎTÏ;
@@ -54,23 +46,7 @@
 - (void)Ø;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKFetchShareParticipantsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableSet *discoveredUserIdentities; // @synthesize discoveredUserIdentities=_discoveredUserIdentities;
-@property(copy, nonatomic) CDUnknownBlockType fetchShareParticipantsCompletionBlock; // @synthesize fetchShareParticipantsCompletionBlock=_fetchShareParticipantsCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchShareParticipantsCompletionBlock_wrapper; // @synthesize fetchShareParticipantsCompletionBlock_wrapper=_fetchShareParticipantsCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *lookupErrors; // @synthesize lookupErrors=_lookupErrors;
-@property(readonly, nonatomic) CKFetchShareParticipantsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perShareParticipantCompletionBlock; // @synthesize perShareParticipantCompletionBlock=_perShareParticipantCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perShareParticipantCompletionBlock_wrapper; // @synthesize perShareParticipantCompletionBlock_wrapper=_perShareParticipantCompletionBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType shareParticipantFetchedBlock; // @synthesize shareParticipantFetchedBlock=_shareParticipantFetchedBlock;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *userIdentityLookupInfos; // @synthesize userIdentityLookupInfos=_userIdentityLookupInfos;
 
 @end
 

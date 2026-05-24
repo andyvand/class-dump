@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAngleBracketIDHash, EMReadLater, MCMessage, MSUserNotificationCenterAnalyticsLogger, NSString, UNUserNotificationCenter;
+@class MCMessage, NSString;
 
 @interface MFPostUserNotificationOperation
 {
     MCMessage *_message;
-    NSString *_identifier;
-    NSString *_snippet;
-    NSString *_messageID;
-    ECAngleBracketIDHash *_messageIDHeaderHash;
-    UNUserNotificationCenter *_userNotificationCenter;
-    long long _postType;
-    EMReadLater *_readLater;
-    NSString *_title;
-    MSUserNotificationCenterAnalyticsLogger *_analyticsLogger;
 }
 
 - (void);
@@ -28,13 +19,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)soleDomainEventDispatcher",R,N;
 - (_Bool);
 - (void);
 - (id);
@@ -48,16 +39,7 @@
 - (id)J#ï;
 
 // Remaining properties
-@property(retain, nonatomic) MSUserNotificationCenterAnalyticsLogger *analyticsLogger; // @synthesize analyticsLogger=_analyticsLogger;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) MCMessage *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(readonly, copy, nonatomic) ECAngleBracketIDHash *messageIDHeaderHash; // @synthesize messageIDHeaderHash=_messageIDHeaderHash;
-@property(nonatomic) long long postType; // @synthesize postType=_postType;
-@property(nonatomic) EMReadLater *readLater; // @synthesize readLater=_readLater;
 @property(readonly, copy, nonatomic) NSString *snippet; // @synthesize snippet=_snippet;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UNUserNotificationCenter *userNotificationCenter; // @synthesize userNotificationCenter=_userNotificationCenter;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPDeviceCredentialKey, HAPIssuerKey, HAPReaderKey, NSString;
+@class HAPIssuerKey;
 
 @interface HAPMatterCredential
 {
     HAPIssuerKey *_issuerKey;
-    HAPReaderKey *_readerKey;
-    HAPDeviceCredentialKey *_deviceCredentialKey;
 }
 
 + (id);
@@ -24,22 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)6C84;
 - (_Bool);
 - (id);
 - (void):8@"<HAP2AccessoryServerSecureTransportDelegate>"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPDeviceCredentialKey *deviceCredentialKey; // @synthesize deviceCredentialKey=_deviceCredentialKey;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPIssuerKey *issuerKey; // @synthesize issuerKey=_issuerKey;
-@property(retain, nonatomic) HAPReaderKey *readerKey; // @synthesize readerKey=_readerKey;
-@property(readonly) Class superclass;
 
 @end
 

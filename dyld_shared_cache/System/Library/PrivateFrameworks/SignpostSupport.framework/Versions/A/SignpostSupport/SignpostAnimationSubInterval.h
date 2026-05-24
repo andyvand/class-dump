@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SignpostAnimationSubInterval
 {
     _Bool _isGeneratedInterval;
-    unsigned long long _startMachContinuousTime;
-    unsigned long long _endMachContinuousTime;
-    double _timebaseRatio;
 }
 
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long)P;
 - (double);
 - (unsigned long long);
 - (double);
-- (double);
+- (double);
 - (float);
 - (unsigned long long);
 - (unsigned long long);
@@ -35,16 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long endMachContinuousTime; // @synthesize endMachContinuousTime=_endMachContinuousTime;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isGeneratedInterval; // @synthesize isGeneratedInterval=_isGeneratedInterval;
-@property(nonatomic) unsigned long long startMachContinuousTime; // @synthesize startMachContinuousTime=_startMachContinuousTime;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
 
 @end

@@ -7,18 +7,18 @@
 @interface HMNetworkConfigurationWiFiOptions
 {
     _Bool _rotate;
-    long long _credentialType;
 }
 
 - (id);
-- (void);
-- (_Bool);
+- (void)(*J
+;
+- (_Bool)J
+;
 - (id);
-- (long long);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(nonatomic) _Bool rotate; // @synthesize rotate=_rotate;
 
 @end
 

@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableSet, NSString, NSURL, SMCopyEngine, SMPathSizer;
-
 @interface SMCopyEngineCopier
 {
     _Bool _tracksCompletedPaths;
-    _Bool _isParentExpectingProgress;
-    unsigned long long copySize;
-    SMCopyEngine *_engine;
-    NSURL *_relativeSourcePath;
-    NSURL *_relativeDestinationPath;
-    unsigned long long _copyFileCount;
-    id _associatedObject;
-    NSString *_errorString;
-    double _transferRate;
-    unsigned long long _lastSizeUpdate;
-    unsigned long long _accumulatedBytesCopied;
-    unsigned long long _lastDeltaSinceAccumulatedBytesUpdated;
-    SMPathSizer *_pathSizer;
-    NSMutableSet *_hardlinkInodes;
-    NSMutableSet *_cloneIDs;
-    NSDate *_startTime;
 }
 
 + (id);
@@ -45,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -63,49 +45,29 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)4;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)com.apple.PXStorySongResourcePreloadingOperation;
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
+- (id)8@"NSError"24;
+- (id)32@40;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)%;
 - (long long);
 - (void)
 × ;
-- (_Bool)FileCount;
+- (_Bool)actualFileCount;
 
 // Remaining properties
-@property unsigned long long accumulatedBytesCopied; // @synthesize accumulatedBytesCopied=_accumulatedBytesCopied;
-@property(retain) id associatedObject; // @synthesize associatedObject=_associatedObject;
-@property(retain) NSMutableSet *cloneIDs; // @synthesize cloneIDs=_cloneIDs;
-@property unsigned long long copyFileCount; // @synthesize copyFileCount=_copyFileCount;
-@property unsigned long long copySize; // @synthesize copySize;
-@property(readonly) NSURL *destinationPath;
-@property(readonly) NSURL *destinationPathConsideringSandbox;
-@property __weak SMCopyEngine *engine; // @synthesize engine=_engine;
-@property(retain) NSString *errorString; // @synthesize errorString=_errorString;
-@property(retain) NSMutableSet *hardlinkInodes; // @synthesize hardlinkInodes=_hardlinkInodes;
-@property _Bool isParentExpectingProgress; // @synthesize isParentExpectingProgress=_isParentExpectingProgress;
-@property unsigned long long lastDeltaSinceAccumulatedBytesUpdated; // @synthesize lastDeltaSinceAccumulatedBytesUpdated=_lastDeltaSinceAccumulatedBytesUpdated;
 @property unsigned long long lastSizeUpdate; // @synthesize lastSizeUpdate=_lastSizeUpdate;
-@property(retain) SMPathSizer *pathSizer; // @synthesize pathSizer=_pathSizer;
-@property(retain) NSURL *relativeDestinationPath; // @synthesize relativeDestinationPath=_relativeDestinationPath;
-@property(retain) NSURL *relativeSourcePath; // @synthesize relativeSourcePath=_relativeSourcePath;
-@property(readonly) NSURL *sandboxedDestinationPath;
-@property(readonly) NSURL *sourcePath;
-@property(retain) NSDate *startTime; // @synthesize startTime=_startTime;
-@property _Bool tracksCompletedPaths; // @synthesize tracksCompletedPaths=_tracksCompletedPaths;
-@property double transferRate; // @synthesize transferRate=_transferRate;
 
 @end
 

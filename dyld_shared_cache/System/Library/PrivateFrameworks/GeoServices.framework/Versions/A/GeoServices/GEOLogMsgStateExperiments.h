@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABClientConfig, GEOABExperimentAssignment, GEOAbAssignInfo, GEOPDDatasetABStatus, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateExperiments
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOAbAssignInfo *_abAssignInfo;
-    GEOABClientConfig *_clientAbExperimentAssignment;
-    GEOPDDatasetABStatus *_datasetAbStatus;
-    GEOABExperimentAssignment *_tilesAbExperimentAssignment;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_abAssignInfo:1;
-        unsigned int read_clientAbExperimentAssignment:1;
-        unsigned int read_datasetAbStatus:1;
-        unsigned int read_tilesAbExperimentAssignment:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasSupportClientRankingCompositeFeatures:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)enabledPolicyWithAVVCAudioSource;
+- (_Bool)MA assets;
+- (id)udioDecoder for audioFormat %{public}u;
+- (id)jbl_begin_short.caf;
 - (void);
-- (id);
+- (id)�;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)tringResultWithOptions:(struct _NSZone *)arg1;
-- (_Bool)correct: /* Error: Ran out of types for this method. */;
-- (id)upportRapAffordance;
+- (id)stringResultWithOptions:(struct _NSZone *)arg1;
+- (_Bool)setIsCategoryIncorrect: /* Error: Ran out of types for this method. */;
+- (id)_supportRapAffordance;
 - (id);
 - (id)our allowable extension range;
-- (_Bool)dex;
+- (_Bool)arrivalParameterIndex;
 - (_Bool)SIRI_DISAMBIGUATION_LIST;
 - (id)|;
 - (void)ü	ø;
@@ -60,15 +44,7 @@
 - (void)L¬Ûþ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAbAssignInfo *abAssignInfo;
-@property(retain, nonatomic) GEOABClientConfig *clientAbExperimentAssignment;
-@property(retain, nonatomic) GEOPDDatasetABStatus *datasetAbStatus;
-@property(readonly, nonatomic) _Bool hasAbAssignInfo;
-@property(readonly, nonatomic) _Bool hasClientAbExperimentAssignment;
-@property(readonly, nonatomic) _Bool hasDatasetAbStatus;
 @property(readonly, nonatomic) _Bool hasTilesAbExperimentAssignment;
-@property(retain, nonatomic) GEOABExperimentAssignment *tilesAbExperimentAssignment;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,9 +7,11 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFPreviewList
+- (unsigned long long));
+- (id)A;
+- (NSData *)_publicURLState;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *previews;
 @end
 

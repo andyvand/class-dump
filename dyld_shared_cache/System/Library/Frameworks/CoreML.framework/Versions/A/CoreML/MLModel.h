@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLFairPlayDecryptSession, MLModelConfiguration, MLModelDescription, MLModelMetadata, MLPredictionEvent, NSObject, NSString;
-@protocol MLClassifier, MLNeuralNetwork, MLPipeline, MLProgram, MLRegressor, MLWritable, OS_dispatch_queue;
-
 @interface MLModel
 {
     struct atomic<bool> _emittedDetailsToInstruments;
-    struct atomic<unsigned long long> _nextPredictionRequestID;
-    unsigned long long _signpostID;
-    NSObject<OS_dispatch_queue> *_asyncPredictionQueue;
-    MLModelMetadata *_metadata;
-    MLFairPlayDecryptSession *_decryptSession;
-    MLPredictionEvent *_predictionEvent;
-    MLModelDescription *_modelDescription;
-    MLModelConfiguration *_configuration;
 }
 
+- (id)IOAccelIndirectCommandBuffer makeAliasable];
+- (id)of render targets requires %lu bytes of pixel storage. This device supports %lu bytes.;
+- (id)teRoundingMode =;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ȋ;
+- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -55,25 +44,25 @@
 - (id);
 - (id);
 - (id);
+- (id)8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/webrtc/pc/channel.h;
+- (id)@9JJ;
+- (void);
+- (id);
+- (unsigned long long)(;
+- (id);
 - (id);
 - (id);
 - (void);
+- (id)+S,S-S%;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
+- (id)h;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (id);
 - (id)24;
@@ -86,28 +75,7 @@ E
  mJ¦-7Fð.5ë.}ðs»Ã/7Îc´µ¡3»8\^WÄx#½,æÖú=ÆóÕÇ¦«¥\Âß§¥¯k7Fÿ@eìþ6Ýü½YÝø.G7XÀæ'*?çNË½x&m\OD>¸Ã¶O^NfIÉKhK5rmíÚÍ(`;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MLClassifier> classifier;
-@property(retain, nonatomic) MLModelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) MLFairPlayDecryptSession *decryptSession; // @synthesize decryptSession=_decryptSession;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(readonly, nonatomic) id <MLNeuralNetwork> neuralNetwork;
-@property(readonly, nonatomic) id <MLPipeline> pipeline;
-@property(retain, nonatomic) MLPredictionEvent *predictionEvent; // @synthesize predictionEvent=_predictionEvent;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) id <MLProgram> program;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) id <MLRegressor> regressor;
 @property(nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
-@property(readonly, nonatomic) id <MLWritable> writable;
 
 @end
 

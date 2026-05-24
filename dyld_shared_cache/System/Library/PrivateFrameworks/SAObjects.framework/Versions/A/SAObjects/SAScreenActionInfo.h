@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface SAScreenActionInfo : SADomainObject
 {
@@ -20,25 +20,19 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)ed forward;
+- (id);
+- (id)};
+- (id)M;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)AltDSID:(id)arg1;
+- (void)setICloudAltDSID:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *elementId;
-@property(copy, nonatomic) NSArray *examples;
-@property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSString *semanticData;
-@property(copy, nonatomic) NSURL *semanticId;
-@property(copy, nonatomic) NSURL *type;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

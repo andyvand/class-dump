@@ -8,13 +8,12 @@
 {
     id barColor;
     id power;
-    id bandViews;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 
 @end
 

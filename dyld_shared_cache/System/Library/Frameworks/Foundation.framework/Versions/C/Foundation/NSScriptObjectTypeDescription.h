@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)initWithAudioUnit:busType: /* Error: Ran out of types for this method. */;
 
 @end
 

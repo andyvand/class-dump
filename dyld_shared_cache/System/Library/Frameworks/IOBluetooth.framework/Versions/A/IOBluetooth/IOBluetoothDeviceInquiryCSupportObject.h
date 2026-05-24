@@ -7,15 +7,10 @@
 @interface IOBluetoothDeviceInquiryCSupportObject
 {
     CDUnknownFunctionPointerType _startedCallback;
-    CDUnknownFunctionPointerType _updatingNamesStartedCallback;
-    CDUnknownFunctionPointerType _deviceFoundCallback;
-    CDUnknownFunctionPointerType _deviceNameUpdatedCallback;
-    CDUnknownFunctionPointerType _completeCallback;
-    void *_refCon;
 }
 
 + (id);
-- (void);
+- (void)6.;
 - (void);
 - (void);
 - (void);

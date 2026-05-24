@@ -7,24 +7,11 @@
 @interface NewsUI2.FollowingViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintSelectionProvider;
-    id purchaseController;
-    id bundleSubscriptionManager;
-    id previousSelectedIndexPath;
-    id commands;
-    id newsActivityManager;
-    id featureAvailability;
-    id offlineProvider;
-    id followingTabGroupManager;
-    id tipManager;
-    id offlineBannerCoordinator;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)TA;
 - (id);
 - (id);
 - (void);

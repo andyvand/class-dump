@@ -7,7 +7,6 @@
 @interface JetUI.InsetLayoutView
 {
     id internalLayoutView;
-    id insets;
 }
 
 @end

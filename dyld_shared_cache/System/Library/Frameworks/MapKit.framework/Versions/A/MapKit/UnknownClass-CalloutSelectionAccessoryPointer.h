@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CalloutSelectionAccessoryPointer)
 + (double);
-+ (id);
++ (id)__AUTH;
 + (id);
 - (void);
 - (void);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL;
+@class NSURL;
 
 @interface WBSRemoteHistoryVisit
 {
     NSURL *_url;
-    NSDate *_date;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 - (void)'metadata';metadataHTML = metadataElement.outerHTML;}articleHTML = subheadHTML + metadataHTML + articleHTML;articleHTML;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

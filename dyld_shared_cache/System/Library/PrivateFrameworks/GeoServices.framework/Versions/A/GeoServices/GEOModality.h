@@ -7,18 +7,9 @@
 @interface GEOModality
 {
     double _timestamp;
-    int _confidence;
-    _Bool _expectedModality;
-    _Bool _notMoving;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int has_confidence:1;
-        unsigned int has_expectedModality:1;
-        unsigned int has_notMoving:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasTransactionTime:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -27,16 +18,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)__data;
+- (int)initWithExpectedResult:(id)arg1;
+- (void)ision;
+- (_Bool)VNHLKITIP;
+- (void)iB;
 - (id);
-- (int);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)BuiltInMic;
+- (unsigned long long);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -45,21 +36,14 @@
 - (void);
 - (void)nInfo"b1"read_secondarySigns"b1"read_shieldName"b1"read_signDetails"b1"read_signTitles"b1"wrote_anyField"b1};
 - (id)6b14b4b4b4b36})}16@"_GEOSimpleTileRequesterOperation"32@"NSError"40;
-- (id)oblemState;
+- (id)hasProblemState;
 - (id)¼»;
 - (int)$~¬(°;
 - (void)stoppedToken:(int)arg1 %d, interrupted:%d, connection:%@ /* Error: Ran out of types for this method. */;
 - (id)/libprotobuf/src/google/protobuf/reflection_ops.cc;
 
 // Remaining properties
-@property(nonatomic) int confidence;
-@property(nonatomic) _Bool expectedModality;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasExpectedModality;
-@property(nonatomic) _Bool hasNotMoving;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool notMoving;
-@property(nonatomic) double timestamp;
 
 @end
 

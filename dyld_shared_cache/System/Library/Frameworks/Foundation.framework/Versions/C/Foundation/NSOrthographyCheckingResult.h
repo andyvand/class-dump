@@ -6,12 +6,9 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSOrthography;
-
 @interface NSOrthographyCheckingResult : NSTextCheckingResult
 {
     struct _NSRange _range;
-    NSOrthography *_orthography;
 }
 
 + (_Bool)cy:read type is null, expecting '%s' /* Error: Ran out of types for this method. */;
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (struct _NSRange);
+- (struct _NSRange)<N;
 - (void);
 - (unsigned long long)CáH;
 

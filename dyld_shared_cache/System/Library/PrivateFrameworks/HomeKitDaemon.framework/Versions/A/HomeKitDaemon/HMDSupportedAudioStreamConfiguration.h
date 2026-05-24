@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDSupportedAudioStreamConfiguration
 {
     NSNumber *_supportsComfortNoise;
-    NSDictionary *_codecConfigurations;
 }
 
 + (_Bool)ðóTôÐõHöd÷° ø0!ùL"°"h#x$\%Ü'Ä)ä*ú+û<,|,ü(-;
 - (id);
-- (id);
+- (id)geoPinnedPlacesSettingsPath;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)_general_accessibility_vision_voiceOver_enabled_value;
+- (void)?;
+- (void)root_general_accessibility_vision_voiceOver_enabled_value;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *codecConfigurations; // @synthesize codecConfigurations=_codecConfigurations;
 @property(readonly, copy, nonatomic) NSNumber *supportsComfortNoise; // @synthesize supportsComfortNoise=_supportsComfortNoise;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _CPConnectionInvalidatedFeedback
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

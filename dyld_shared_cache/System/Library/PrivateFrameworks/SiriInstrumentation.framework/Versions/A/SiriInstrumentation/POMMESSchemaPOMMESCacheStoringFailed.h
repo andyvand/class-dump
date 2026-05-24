@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheStoringFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
-- (id);
-- (int);
+- (id)u;
+- (int)) [%u x %u] for IDs:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)on/Stubs/ASDPersistentRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ssageGUID, please file a radar--****;
 - (void);
 - (id);
-- (id);
-- (id)perationResult;
+- (id)A;
+- (id)_operationResult;
 - (id)SpeechBegin;
-- (void)PT;
+- (void)MHAUDIOSESSIONMODE_VOICE_PROMPT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

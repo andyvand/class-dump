@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface TMRulesEngine
 {
     NSMutableDictionary *_deviceEngineMap;
-    _Bool _systemFilesExcluded;
-    NSArray *_pathExclusions;
-    NSArray *_standardExclusionPaths;
-    NSArray *_volumeUUIDExclusions;
 }
 
 + (id);
@@ -33,20 +29,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *appManagedExclusionPaths;
-@property(readonly, copy) NSArray *deviceRulesEngines;
-@property(readonly, copy) NSArray *mountPointsForIncludedDisks;
-@property(copy) NSArray *pathExclusions; // @synthesize pathExclusions=_pathExclusions;
-@property(copy) NSArray *standardExclusionPaths; // @synthesize standardExclusionPaths=_standardExclusionPaths;
 @property _Bool systemFilesExcluded; // @synthesize systemFilesExcluded=_systemFilesExcluded;
-@property(readonly, copy) NSArray *userManagedExclusionPaths;
-@property(copy) NSArray *volumeUUIDExclusions; // @synthesize volumeUUIDExclusions=_volumeUUIDExclusions;
 
 @end
 

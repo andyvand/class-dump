@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DiagCollectionClient, NSMutableDictionary, NSNumber, NSString;
+@class DiagCollectionClient, NSMutableDictionary;
 
 @interface DiagnosticsController
 {
     DiagCollectionClient *deCollector;
-    NSString *_autoBugCapturePath;
-    NSNumber *_autoBugCaptureGID;
-    NSNumber *_autoBugCaptureUID;
-    NSMutableDictionary *_actionsDict;
-    NSMutableDictionary *_settingsDict;
 }
 
 + (id);
@@ -38,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)י;
 - (id);
 - (void);
 - (unsigned long long);
@@ -53,16 +48,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)A;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *actionsDict; // @synthesize actionsDict=_actionsDict;
-@property(retain, nonatomic) NSNumber *autoBugCaptureGID; // @synthesize autoBugCaptureGID=_autoBugCaptureGID;
-@property(retain, nonatomic) NSString *autoBugCapturePath; // @synthesize autoBugCapturePath=_autoBugCapturePath;
-@property(retain, nonatomic) NSNumber *autoBugCaptureUID; // @synthesize autoBugCaptureUID=_autoBugCaptureUID;
-@property(retain, nonatomic) NSMutableDictionary *settingsDict; // @synthesize settingsDict=_settingsDict;
 
 @end
 

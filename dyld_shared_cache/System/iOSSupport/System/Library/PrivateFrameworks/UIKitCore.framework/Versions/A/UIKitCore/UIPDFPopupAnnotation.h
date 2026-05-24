@@ -13,15 +13,15 @@
 }
 
 - (void);
-- (_Bool);
-- (id);
-- (struct CGRect);
-- (Class);
+- (_Bool)iled to suspend reindex scheduling:%@ /* Error: Ran out of types for this method. */;
+- (id)as zero length, chat:(struct CGPDFDictionary *)arg1 %@;
+- (struct CGRect)age.roll.Messages3;
+- (Class)initWithEventStorage: /* Error: Ran out of types for this method. */;
 - (int);
-- (id);
+- (id)preferredVideoHighBandwidthResolution;
 - (id);
 - (struct CGRect)32@0:8@"_UIViewControllerTransitionConductor"16@"UIViewController"24 /* Error: Ran out of types for this method. */;
-- (void)dView;
+- (void)_UITextHighlightBackgroundView;
 
 // Remaining properties
 @property(nonatomic) struct CGRect adjustedBounds; // @synthesize adjustedBounds=_adjustedBounds;

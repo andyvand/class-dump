@@ -6,41 +6,32 @@
 
 #import <AppKit/NSTouchBarColorPickerSliders.h>
 
-@class NSTouchBarColorPickerSliderArtworkProvider, NSTouchBarColorPickerSliderHSBArtworkProvider;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSlidersHSB : NSTouchBarColorPickerSliders
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)bute. Cookie= %@;
++ (id)should not be present for the same eld+1.;
++ (id)onse for Web-Socket Handshake, failing task;
++ (id)_kCFNTimingDataConnectionInterfaceIdentifier;
++ (id)|| ?);
++ (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)synchronousRemoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (double)t of %d parsed:%s /* Error: Ran out of types for this method. */;
+- (double)fault handling for %{public}@;
+- (double)onse;
+- (double)duling %{public}@;
 - (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
+- (id)get_dst;
 
 // Remaining properties
-@property(readonly, copy) NSTouchBarColorPickerSliderArtworkProvider *_alphaArtworkProvider;
-@property(readonly, copy) NSTouchBarColorPickerSliderHSBArtworkProvider *_brightnessArtworkProvider;
-@property(readonly) double _displayedAlphaComponent;
-@property(readonly) double _displayedBrightnessComponent;
 @property(readonly) double _displayedHueComponent;
-@property(readonly) double _displayedSaturationComponent;
-@property(readonly, copy) NSTouchBarColorPickerSliderHSBArtworkProvider *_hueArtworkProvider;
-@property(readonly, copy) NSTouchBarColorPickerSliderHSBArtworkProvider *_saturationArtworkProvider;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INSearchForTimersIntentResponseExport
+- (void)%;
 - (long long)hasTemporalEventTrigger;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *matchedTimers;
-@property(copy) NSArray *unmatchedTimers;
 @end
 

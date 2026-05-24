@@ -7,8 +7,9 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void);
 - (long long)1Â0@ù
 × ;
-- (void)taDetectorTypes;
+- (void)dataDetectorTypes;
 @end
 

@@ -7,6 +7,7 @@
 @class TIKeyboardCandidate;
 
 @protocol UIKeyboardCandidateList
+- (_Bool);
 - (_Bool)ÔÁ;
 - (unsigned long long)0@ù
 × ;
@@ -14,7 +15,7 @@
 × ;
 
 @optional
-- (void)3330æþ;
 - (void);
+- (void)3330æþ;
 @end
 

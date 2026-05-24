@@ -4,46 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButtonConfiguration, UIColor, UIFont, UIVisualEffect;
-
 @interface _UIEditMenuPlatformMetrics
 {
     _Bool _showsSeparatorBetweenItems;
-    _Bool _useThinSeparators;
-    _Bool _prefersHorizontalLayoutForLargeContentSize;
-    _Bool _derivesAutomaticArrowDirectionsFromAvailableSpace;
-    _Bool _pageButtonHasInlineAppearance;
-    CDUnknownBlockType _containerViewConfigurator;
-    CDUnknownBlockType _menuBackgroundConfigurator;
-    UIVisualEffect *_menuBackgroundEffect;
-    UIVisualEffect *_menuHighlightBackgroundEffect;
-    UIColor *_menuHighlightBackgroundColor;
-    UIVisualEffect *_separatorEffect;
-    UIColor *_separatorEffectColor;
-    long long _overrideUserInterfaceStyle;
-    double _shadowOpacity;
-    double _shadowRadius;
-    double _horizontalMenuMaximumWidth;
-    double _horizontalMenuCornerRadius;
-    double _verticalMenuMaximumHeight;
-    double _verticalMenuCornerRadius;
-    double _sourceRectMargins;
-    double _arrowSideRadius;
-    double _arrowTipRadius;
-    CDUnknownBlockType _menuItemMarginsProvider;
-    CDUnknownBlockType _cellBackgroundShapeProvider;
-    UIColor *_destructiveColor;
-    UIFont *_menuItemTitleFont;
-    UIButtonConfiguration *_pageButtonConfiguration;
-    long long _pageButtonSymbolScale;
-    double _pageButtonAlignmentOffset;
-    double _pageButtonOverlapAmount;
-    UIFont *_pageButtonFont;
-    double _pageButtonVisibilityMultiplier;
-    struct CGSize _shadowOffset;
-    struct CGSize _arrowSize;
-    struct NSDirectionalEdgeInsets _sectionInsets;
-    struct UIEdgeInsets _additionalSeparatorInsets;
 }
 
 - (double);
@@ -73,37 +36,37 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)0@48@56B64;
+- (void):(double)arg1 8@16@24B32B36@40;
+- (void)0:(id)arg1 8^Q16^Q24;
+- (void)48@0:(_Bool)arg1 8@16@24{_NSRange=QQ}32;
+- (void)rationClearNoticeRateLimiter";
+- (void)validateReportJunkCarrierAddress:(double)arg1;
+- (void)validateProfileAccount:(struct CGSize)arg1;
+- (void)mpletion:(double)arg1;
+- (void)updateIsFromActivePairedDeviceForService:(struct UIEdgeInsets)arg1;
+- (id)trackedRecords;
+- (struct NSDirectionalEdgeInsets)subscriptionValidationTokenForHandle:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)removeObjectsForKeys: /* Error: Ran out of types for this method. */;
+- (double)originalMessageGUID;
+- (long long)originalFilename;
+- (double)orderedParts;
+- (_Bool)optionFlags;
 - (id);
-- (struct NSDirectionalEdgeInsets);
-- (_Bool);
-- (double);
-- (long long);
-- (double);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (double);
-- (double);
-- (id);
-- (_Bool);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (id)oneTimeCodesDidChange: /* Error: Ran out of types for this method. */;
+- (double)onboardDeleteVerificationCodesIfNeededWithReply: /* Error: Ran out of types for this method. */;
+- (id)isRegisteredForCTPhoneNumberNotifications;
+- (CDUnknownBlockType)isReflection;
+- (id)isRecoverablyDeletedMessageGUID: /* Error: Ran out of types for this method. */;
+- (id)isRCSSendWithoutEncryption;
+- (id)isNewerThan: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)isNameAndPhotoC3Enabled;
+- (double)_writeCKRecordsToChatZone:activity:withCompletion: /* Error: Ran out of types for this method. */;
+- (double)_writeCKRecordsToAttachmentZone:activity:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_askToTapToRadarWithString:internalOnly: /* Error: Ran out of types for this method. */;
+- (_Bool)_allowsWritingToDisk;
+- (CDUnknownBlockType)shouldTranslateMessagesForChat: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)IMDFilePurgeabilityMonitor;
 - (double);
 - (struct CGSize);
 - (struct UIEdgeInsets);
@@ -111,9 +74,9 @@
 - (double);
 - (void);
 - (long long);
-- (id);
+- (id)\;
 - (double)× ;
-- (void)ewControllerIdentifier;
+- (void)_destinationViewControllerIdentifier;
 - (void)QþÛHx\;
 - (struct CGSize);
 - (double);
@@ -122,42 +85,7 @@
 - (void)ZÖ­b;
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets additionalSeparatorInsets; // @synthesize additionalSeparatorInsets=_additionalSeparatorInsets;
-@property(nonatomic) double arrowSideRadius; // @synthesize arrowSideRadius=_arrowSideRadius;
-@property(nonatomic) struct CGSize arrowSize; // @synthesize arrowSize=_arrowSize;
-@property(nonatomic) double arrowTipRadius; // @synthesize arrowTipRadius=_arrowTipRadius;
-@property(copy, nonatomic) CDUnknownBlockType cellBackgroundShapeProvider; // @synthesize cellBackgroundShapeProvider=_cellBackgroundShapeProvider;
 @property(copy, nonatomic) CDUnknownBlockType containerViewConfigurator; // @synthesize containerViewConfigurator=_containerViewConfigurator;
-@property(nonatomic) _Bool derivesAutomaticArrowDirectionsFromAvailableSpace; // @synthesize derivesAutomaticArrowDirectionsFromAvailableSpace=_derivesAutomaticArrowDirectionsFromAvailableSpace;
-@property(retain, nonatomic) UIColor *destructiveColor; // @synthesize destructiveColor=_destructiveColor;
-@property(nonatomic) double horizontalMenuCornerRadius; // @synthesize horizontalMenuCornerRadius=_horizontalMenuCornerRadius;
-@property(nonatomic) double horizontalMenuMaximumWidth; // @synthesize horizontalMenuMaximumWidth=_horizontalMenuMaximumWidth;
-@property(copy, nonatomic) CDUnknownBlockType menuBackgroundConfigurator; // @synthesize menuBackgroundConfigurator=_menuBackgroundConfigurator;
-@property(copy, nonatomic) UIVisualEffect *menuBackgroundEffect; // @synthesize menuBackgroundEffect=_menuBackgroundEffect;
-@property(copy, nonatomic) UIColor *menuHighlightBackgroundColor; // @synthesize menuHighlightBackgroundColor=_menuHighlightBackgroundColor;
-@property(copy, nonatomic) UIVisualEffect *menuHighlightBackgroundEffect; // @synthesize menuHighlightBackgroundEffect=_menuHighlightBackgroundEffect;
-@property(copy, nonatomic) CDUnknownBlockType menuItemMarginsProvider; // @synthesize menuItemMarginsProvider=_menuItemMarginsProvider;
-@property(retain, nonatomic) UIFont *menuItemTitleFont; // @synthesize menuItemTitleFont=_menuItemTitleFont;
-@property(nonatomic) long long overrideUserInterfaceStyle; // @synthesize overrideUserInterfaceStyle=_overrideUserInterfaceStyle;
-@property(nonatomic) double pageButtonAlignmentOffset; // @synthesize pageButtonAlignmentOffset=_pageButtonAlignmentOffset;
-@property(copy, nonatomic) UIButtonConfiguration *pageButtonConfiguration; // @synthesize pageButtonConfiguration=_pageButtonConfiguration;
-@property(retain, nonatomic) UIFont *pageButtonFont; // @synthesize pageButtonFont=_pageButtonFont;
-@property(nonatomic) _Bool pageButtonHasInlineAppearance; // @synthesize pageButtonHasInlineAppearance=_pageButtonHasInlineAppearance;
-@property(nonatomic) double pageButtonOverlapAmount; // @synthesize pageButtonOverlapAmount=_pageButtonOverlapAmount;
-@property(nonatomic) long long pageButtonSymbolScale; // @synthesize pageButtonSymbolScale=_pageButtonSymbolScale;
-@property(nonatomic) double pageButtonVisibilityMultiplier; // @synthesize pageButtonVisibilityMultiplier=_pageButtonVisibilityMultiplier;
-@property(nonatomic) _Bool prefersHorizontalLayoutForLargeContentSize; // @synthesize prefersHorizontalLayoutForLargeContentSize=_prefersHorizontalLayoutForLargeContentSize;
-@property(nonatomic) struct NSDirectionalEdgeInsets sectionInsets; // @synthesize sectionInsets=_sectionInsets;
-@property(copy, nonatomic) UIVisualEffect *separatorEffect; // @synthesize separatorEffect=_separatorEffect;
-@property(copy, nonatomic) UIColor *separatorEffectColor; // @synthesize separatorEffectColor=_separatorEffectColor;
-@property(nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
-@property(nonatomic) double shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property(nonatomic) double shadowRadius; // @synthesize shadowRadius=_shadowRadius;
-@property(nonatomic) _Bool showsSeparatorBetweenItems; // @synthesize showsSeparatorBetweenItems=_showsSeparatorBetweenItems;
-@property(nonatomic) double sourceRectMargins; // @synthesize sourceRectMargins=_sourceRectMargins;
-@property(nonatomic) _Bool useThinSeparators; // @synthesize useThinSeparators=_useThinSeparators;
-@property(nonatomic) double verticalMenuCornerRadius; // @synthesize verticalMenuCornerRadius=_verticalMenuCornerRadius;
-@property(nonatomic) double verticalMenuMaximumHeight; // @synthesize verticalMenuMaximumHeight=_verticalMenuMaximumHeight;
 
 @end
 

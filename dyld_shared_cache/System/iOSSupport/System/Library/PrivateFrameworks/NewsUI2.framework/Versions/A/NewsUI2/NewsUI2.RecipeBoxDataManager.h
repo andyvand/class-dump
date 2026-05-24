@@ -7,20 +7,11 @@
 @interface NewsUI2.RecipeBoxDataManager
 {
     id delegate;
-    id recipeBox;
-    id recipeService;
-    id recipeBoxSearchDatabase;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedService;
-    id subscriptionService;
-    id recipeAccessProvider;
-    id recipeUserDataManager;
-    id ratingObservationTask;
 }
 
-- (void);
-- (id);
+- (void)
+f;
+- (id)V;
 - (void)Y`_(¦þI`_$¦þQ`_dyþ1`_¦þ;
 
 @end

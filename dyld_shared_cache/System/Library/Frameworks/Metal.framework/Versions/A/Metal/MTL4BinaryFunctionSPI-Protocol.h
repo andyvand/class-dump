@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4BinaryFunctionReflection, MTLDebugInstrumentationData, NSArray;
+@class MTLDebugInstrumentationData, NSArray;
 
 @protocol MTL4BinaryFunctionSPI
+- (NSArray *);
+- (void)Ksicyrillic;
 - (MTLDebugInstrumentationData *)@@ù±s0°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly) MTL4BinaryFunctionReflection *reflection;
-@property(copy, nonatomic) NSArray *relocations;
 @end
 

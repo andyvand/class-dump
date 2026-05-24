@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface HMCameraClipVideoFileCombiner
 {
     NSArray *_videoFileURLs;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id)4EDB0F32A9;
@@ -22,14 +20,6 @@
 - (void)È;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSArray *videoFileURLs; // @synthesize videoFileURLs=_videoFileURLs;
 
 @end

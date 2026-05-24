@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSArray, NSData, SessionSchemaSessionId;
+@class SessionSchemaSessionId;
 
 @interface SessionSchemaSession : SISchemaTopLevelUnionType
 {
     SessionSchemaSessionId *_sessionId;
-    NSArray *_events;
-    unsigned long long _creationTimestampInMsSince1970;
-    struct {
-        unsigned int creationTimestampInMsSince1970:1;
-    } _has;
-    _Bool _hasSessionId;
 }
 
 - (void);
@@ -29,34 +23,29 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)AKCardViewDataSource",&,N,V_dataSource;
 - (void);
-- (_Bool);
+- (_Bool)ished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE error == 0 AND is_from_me == 0 AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT 1;;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id)× ;
-- (id)elligenceFlowPlannerGrainSummary;
-- (id)ligible;
+- (id)deletePnrodIntelligenceFlowPlannerGrainSummary;
+- (id)_isAppleMusicVoiceEligible;
 - (void)_hasLlmquPerfMetrics;
 - (void)ü ý
 È;
 - (void)è;
 - (_Bool);
-- (id)iations;
+- (id)numCustomPronunciations;
 - (void)ientEvent.ORCHExecuteOnRemoteRequestContext;
 
 // Remaining properties
-@property(nonatomic) unsigned long long creationTimestampInMsSince1970; // @synthesize creationTimestampInMsSince1970=_creationTimestampInMsSince1970;
-@property(copy, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(nonatomic) _Bool hasCreationTimestampInMsSince1970;
-@property(nonatomic) _Bool hasSessionId; // @synthesize hasSessionId=_hasSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SessionSchemaSessionId *sessionId; // @synthesize sessionId=_sessionId;
 
 @end

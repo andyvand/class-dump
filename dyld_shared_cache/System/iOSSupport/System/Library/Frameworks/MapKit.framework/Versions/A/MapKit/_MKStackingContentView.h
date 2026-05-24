@@ -12,25 +12,19 @@ __attribute__((visibility("hidden")))
 @interface _MKStackingContentView : _MKUIViewControllerRootView
 {
     NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_middleConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    UIView *_topView;
-    UIView *_bottomView;
 }
 
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)pItem:isPlaceHolderPlace: /* Error: Ran out of types for this method. */;
+- (void)initWithGeoMapItem:isPlaceHolderPlace: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSLayoutConstraint *bottomConstraint;
-@property(retain, nonatomic) UIView *bottomView; // @synthesize bottomView=_bottomView;
 @property(retain, nonatomic) UIView *topView; // @synthesize topView=_topView;
 
 @end

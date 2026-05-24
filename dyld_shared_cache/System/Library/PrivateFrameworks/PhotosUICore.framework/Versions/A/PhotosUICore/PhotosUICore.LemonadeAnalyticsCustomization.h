@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeAnalyticsCustomization
 {
     id payload;
-    id maxAnalyticsToSend;
 }
 
 @end

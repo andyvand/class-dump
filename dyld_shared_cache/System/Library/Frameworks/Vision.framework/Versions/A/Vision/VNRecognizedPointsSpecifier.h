@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, VNRequestSpecifier;
+@class VNRequestSpecifier;
 
 __attribute__((visibility("hidden")))
 @interface VNRecognizedPointsSpecifier
 {
     VNRequestSpecifier *_originatingRequestSpecifier;
-    NSDictionary *_allRecognizedPoints;
 }
 
 + (_Bool);
@@ -21,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)Persona:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (void)(void * _Nullable, const void * _Nullable);
 

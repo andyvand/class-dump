@@ -7,9 +7,6 @@
 @interface NewsArticles.AdComponentSizer
 {
     id layoutStore;
-    id bannerAdLayoutAttributesFactory;
-    id bannerAdFactory;
-    id $__lazy_storage_$_isVisualDebuggingEnabled;
 }
 
 - (unsigned long long);
@@ -18,7 +15,7 @@
 - (struct _NSRange);
 - (id);
 - (double);
-- (void)escriptor;
+- (void)Descriptor;
 
 @end
 

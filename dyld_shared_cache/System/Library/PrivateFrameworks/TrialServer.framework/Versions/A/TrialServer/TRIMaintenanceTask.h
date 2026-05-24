@@ -6,35 +6,30 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSObject, NSString, _PASLock;
-@protocol OS_dispatch_queue, TRITaskQueueStateProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TRIMaintenanceTask : TRIBaseTask
 {
     NSObject<OS_dispatch_queue> *_channelCleanupQueue;
-    _PASLock *_lock;
-    _Bool _isFlatbufferReadEnabled;
-    _Bool _isFlatbufferWriteEnabled;
-    _Bool wasDeferred;
-    int retryCount;
 }
 
 + (id);
 + (id);
 + (_Bool);
+- (void)initWithMediaURL:(id)arg1 timeZoneLookup:(id)arg2;
+- (void)initWithCoordinate:(id)arg1 altitude:(id)arg2 horizontalAccuracy:verticalAccuracy:course:speed:timestamp: /* Error: Ran out of types for this method. */;
+- (void)initWithContentsOfFile:(id)arg1;
+- (_Bool)imageFileURL;
+- (_Bool)imageDirection;
+- (_Bool)imageCaptureRequestIdentifier;
+- (id)ory as unreachable;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void)1!°1Â0@ù
@@ -43,27 +38,13 @@
 - (_Bool)¬;
 - (void)ty is not supported on this platform;
 - (id)SysctlOnTrialdLaunchComplete;
-- (int)undleId: /* Error: Ran out of types for this method. */;
+- (int)tri_shortVersionStringForBundleId: /* Error: Ran out of types for this method. */;
 - (void)torPacks;
 - (int)* FROM     taskDependencies ORDER BY     taskId ASC,     dependentTaskId ASC;;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

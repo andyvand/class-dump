@@ -7,10 +7,6 @@
 @interface SwiftUI.SceneStorageValues.Entry__priv_1700ED20D4EA891B02973E899ABDB425
 {
     id key;
-    id domain;
-    id valueType;
-    id _location;
-    id transformBox;
 }
 
 @end

@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, WBSCGImage;
+@class NSObject, WBSCGImage;
 @protocol OS_dispatch_queue;
 
 @interface WBSStartPageBackgroundManager
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_imageReadWriteQueue;
-    WBSCGImage *_prefetchedImage;
-    NSURL *_prefetchedImageURL;
-    NSString *_lastPrefetchedFilePath;
-    struct atomic<long long> _prefetchingCoalescingDelay;
-    NSURL *_imageURL;
-    long long _appearance;
-    struct os_unfair_lock_s _imageLock;
-    WBSCGImage *_prefetchedImageThumbnail;
-    double _prefetchedImageLuminance;
-    NSMutableDictionary *_backgroundImageIdentifierToImage;
-    NSMutableDictionary *_backgroundImageIdentifierToLuminance;
-    NSMutableDictionary *_imageURLToTileRequired;
-    WBSCGImage *_image;
 }
 
 + (id);
 + (void);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)0=;
 - (void);
 - (id);
 - (_Bool);
@@ -49,7 +35,7 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)Q;
 - (id);
 - (id);
 - (_Bool);

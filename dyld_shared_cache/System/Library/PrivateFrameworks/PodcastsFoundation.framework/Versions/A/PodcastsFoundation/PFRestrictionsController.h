@@ -7,15 +7,14 @@
 @interface PFRestrictionsController
 {
     id _state;
-    id observation;
 }
 
 + (_Bool);
 + (id)<$y)/$y+/$y-/$GADGG;
 - (id);
-- (void)tifying;
+- (void)providerIdentifying;
 - (void)?$ySay>$GGSg;
-- (void);
+- (void)XDXMT;
 - (void);
 
 @end

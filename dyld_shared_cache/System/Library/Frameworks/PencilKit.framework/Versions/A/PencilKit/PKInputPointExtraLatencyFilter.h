@@ -9,14 +9,13 @@
 @interface PKInputPointExtraLatencyFilter : PKInputPointBaseFilter
 {
     vector_8f46a492 _inputPoints;
-    long long _numFramesExtraLatency;
 }
 
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)_indexedUserActivityCommand;
+- (void)Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 
 // Remaining properties
 @property(nonatomic) long long numFramesExtraLatency; // @synthesize numFramesExtraLatency=_numFramesExtraLatency;

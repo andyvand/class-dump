@@ -11,9 +11,9 @@
     CNDonationOrigin *_origin;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)ICScannerFunctionalUnitTransparencyProps;
++ (id)ICScannerFeatureBooleanProps;
++ (id)TICScannerFeatureProps;
 + (id);
 + (id);
 + (_Bool);
@@ -21,13 +21,13 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)Thu;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)queryControllerDidUpdate:(id)arg1 resultDifference: /* Error: Ran out of types for this method. */;
+- (void)_rangeOfTokens;
 - (id);
 
 // Remaining properties

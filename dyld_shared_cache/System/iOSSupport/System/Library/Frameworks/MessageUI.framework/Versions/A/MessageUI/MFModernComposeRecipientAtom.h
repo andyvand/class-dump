@@ -6,35 +6,29 @@
 
 #import <MessageUI/MFModernAtomView.h>
 
-@class MFComposeRecipient, UITextInputTraits;
-@protocol MFComposeRecipientAtomDelegate;
+@class MFComposeRecipient;
 
 @interface MFModernComposeRecipientAtom : MFModernAtomView
 {
     MFComposeRecipient *_recipient;
-    UITextInputTraits *_traits;
-    unsigned int _wasSelectedWhenTouchesBegan:1;
-    unsigned int _touchesWereCancelled:1;
-    id <MFComposeRecipientAtomDelegate> _delegate;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_scribbleInteraction:beginSuppressingPlaceholderForElement: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)E;
+- (void)sMentionOfMe;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <MFComposeRecipientAtomDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) MFComposeRecipient *recipient;
 
 @end

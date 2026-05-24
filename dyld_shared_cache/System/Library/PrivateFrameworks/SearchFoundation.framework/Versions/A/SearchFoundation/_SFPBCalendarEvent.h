@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate, _SFPBStructuredLocation, _SFPBTimeZone, _SFPBURL;
+@class NSString;
 
 @interface _SFPBCalendarEvent
 {
     _Bool _isAllDay;
-    NSString *_title;
-    _SFPBDate *_startDate;
-    _SFPBDate *_endDate;
-    _SFPBStructuredLocation *_location;
-    NSString *_notes;
-    _SFPBTimeZone *_startTimeZone;
-    _SFPBTimeZone *_endTimeZone;
-    _SFPBStructuredLocation *_endLocation;
-    _SFPBURL *_url;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -36,40 +27,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)16@24@32d40@48@56;
+- (id)onAlgorithmVersion:(id)arg1 visualSearchAlgorithmVersion:stickerConfidenceAlgorithmVersion:vaAnalysisVersion:mediaAnalysisVersion:mediaAnalysisImageVersion: /* Error: Ran out of types for this method. */;
+- (void)canUseLocationCoordinateForLocation;
+- (id)ess is %f, total progress is %f;
 - (id);
 - (id);
 - (void);
-- (void)tItemButtonCardSection;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)rfFactItemButtonCardSection;
 - (_Bool)üh;
 - (void)âP;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) _SFPBStructuredLocation *endLocation; // @synthesize endLocation=_endLocation;
-@property(retain, nonatomic) _SFPBTimeZone *endTimeZone; // @synthesize endTimeZone=_endTimeZone;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBStructuredLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(retain, nonatomic) _SFPBDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) _SFPBTimeZone *startTimeZone; // @synthesize startTimeZone=_startTimeZone;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) _SFPBURL *url; // @synthesize url=_url;
 
 @end
 

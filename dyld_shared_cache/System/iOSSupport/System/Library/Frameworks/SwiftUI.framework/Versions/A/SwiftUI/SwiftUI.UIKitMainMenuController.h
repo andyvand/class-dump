@@ -7,10 +7,6 @@
 @interface SwiftUI.UIKitMainMenuController
 {
     id topLevelItemCoordinators;
-    id keyCommandMap;
-    id currentResponderCommands;
-    id commandsListVersion;
-    id optionalMenus;
 }
 
 - (void);

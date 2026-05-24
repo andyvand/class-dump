@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WBSPrivacyReportMetrics
 {
     unsigned long long _numberOfTrackers;
-    double _ratioOfTrackedFirstPartiesToAllVisited;
-    NSString *_mostSeenKnownTrackerDomain;
-    unsigned long long _mostSeenKnownTrackerFirstParties;
 }
 
-- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
@@ -27,10 +22,7 @@
 - (void)ier:provenance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *mostSeenKnownTrackerDomain; // @synthesize mostSeenKnownTrackerDomain=_mostSeenKnownTrackerDomain;
-@property(nonatomic) unsigned long long mostSeenKnownTrackerFirstParties; // @synthesize mostSeenKnownTrackerFirstParties=_mostSeenKnownTrackerFirstParties;
 @property(nonatomic) unsigned long long numberOfTrackers; // @synthesize numberOfTrackers=_numberOfTrackers;
-@property(nonatomic) double ratioOfTrackedFirstPartiesToAllVisited; // @synthesize ratioOfTrackedFirstPartiesToAllVisited=_ratioOfTrackedFirstPartiesToAllVisited;
 
 @end
 

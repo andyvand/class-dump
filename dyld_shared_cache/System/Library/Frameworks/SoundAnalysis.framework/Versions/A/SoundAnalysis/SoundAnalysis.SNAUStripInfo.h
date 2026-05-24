@@ -9,11 +9,10 @@
 @interface SoundAnalysis.SNAUStripInfo : SoundAnalysis.SNDSPItemInfo
 {
     id path;
-    id value;
 }
 
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (void)Ðëøÿôëøÿ0ìøÿTìøÿ ìøÿíøÿÀíøÿäíøÿîøÿÌîøÿðîøÿïøÿPïøÿtïøÿïøÿ¼ïøÿøïøÿðøÿ@ðøÿdðøÿ ðøÿÄðøÿñøÿ\ñøÿ¨ñøÿ´ñøÿòøÿ0òøÿTòøÿxòøÿÔòøÿøòøÿóøÿXóøÿ|óøÿ ôøÿÜôøÿ;
 

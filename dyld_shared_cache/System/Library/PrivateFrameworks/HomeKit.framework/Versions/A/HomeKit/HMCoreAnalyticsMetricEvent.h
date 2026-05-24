@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface HMCoreAnalyticsMetricEvent
 {
     NSString *_name;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)numberOfMatchesInString:options:range: /* Error: Ran out of types for this method. */;
+- (void)UIKeyboardSupportsWatch;
 - (void)ì
 ;
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
 
 @end

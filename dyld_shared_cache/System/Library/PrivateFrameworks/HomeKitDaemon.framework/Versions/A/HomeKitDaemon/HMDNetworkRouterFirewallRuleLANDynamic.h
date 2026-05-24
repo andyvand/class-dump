@@ -6,15 +6,10 @@
 
 #import <HomeKitDaemon/HMDNetworkRouterFirewallRuleLAN.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleLANDynamic : HMDNetworkRouterFirewallRuleLAN
 {
     unsigned char _transportProtocol;
-    unsigned char _advertisingProtocol;
-    _Bool _advertisingOnly;
-    NSString *_serviceType;
 }
 
 + (id);
@@ -22,9 +17,9 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)id"b1};
+- (_Bool)_needToSendETARefreshFor:state: /* Error: Ran out of types for this method. */;
+- (id)after filtering;
 - (unsigned char);
 - (id);
 - (unsigned long long);
@@ -34,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (void)napshot.handler;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAdvertisingOnly) _Bool advertisingOnly; // @synthesize advertisingOnly=_advertisingOnly;
-@property(readonly, nonatomic) unsigned char advertisingProtocol; // @synthesize advertisingProtocol=_advertisingProtocol;
-@property(readonly, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 @property(readonly, nonatomic) unsigned char transportProtocol; // @synthesize transportProtocol=_transportProtocol;
 
 @end

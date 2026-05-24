@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface RTLearnedPlaceVersions
 {
     _Bool _isRotted;
-    RTLearnedPlace *_inferredVersion;
-    RTLearnedPlace *_existingVersion;
-    RTLearnedPlace *_truthfulCounterpart;
 }
 
 - (id);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)emove key for identifier, %@ in keychain, error, %d;
 
 // Remaining properties
-@property(retain, nonatomic) RTLearnedPlace *existingVersion; // @synthesize existingVersion=_existingVersion;
 @property(retain, nonatomic) RTLearnedPlace *inferredVersion; // @synthesize inferredVersion=_inferredVersion;
-@property(nonatomic) _Bool isRotted; // @synthesize isRotted=_isRotted;
-@property(retain, nonatomic) RTLearnedPlace *truthfulCounterpart; // @synthesize truthfulCounterpart=_truthfulCounterpart;
 
 @end
 

@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAssertionContext, AFAssertionCoordinator, NSString, NSUUID, _AFAssertionImpl;
+@class NSUUID, _AFAssertionImpl;
 
 @interface _AFAssertionProxy
 {
     _AFAssertionImpl *_impl;
-    AFAssertionCoordinator *_coordinator;
 }
 
 - (id);
+- (void)x;
 - (void);
-- (void);
-- (void);
+- (void)PKMockMinimumOSPolicyOverrides;
 - (id);
 - (id);
 - (id);
-- (void)uctID;
+- (void)_hasProductID;
 
 // Remaining properties
-@property(readonly, nonatomic) AFAssertionContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uuid;
 
 @end

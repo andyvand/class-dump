@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, SSInFlightCAMetalDrawableInterval, _SSCAMLTimeInterval;
+@class SSInFlightCAMetalDrawableInterval, _SSCAMLTimeInterval;
 
 @interface SSCAMetalLayerOnGlassDrawableInterval
 {
     SSInFlightCAMetalDrawableInterval *_inFlightDrawableInterval;
-    NSNumber *_drawableID;
-    _SSCAMLTimeInterval *_backingInterval;
 }
 
 - (double);
 - (double);
 - (unsigned long long);
-- (double);
+- (double)o;
 - (id);
 - (_Bool);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (unsigned long long);
 - (double);
 - (id);
 - (id);
-- (double);
+- (double);
 - (float);
 - (unsigned long long);
 - (unsigned long long);
@@ -41,18 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _SSCAMLTimeInterval *backingInterval; // @synthesize backingInterval=_backingInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSNumber *drawableID; // @synthesize drawableID=_drawableID;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SSInFlightCAMetalDrawableInterval *inFlightDrawableInterval; // @synthesize inFlightDrawableInterval=_inFlightDrawableInterval;
-@property(readonly, nonatomic) double instantaneousFramesPerSecond;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly) Class superclass;
 
 @end
 

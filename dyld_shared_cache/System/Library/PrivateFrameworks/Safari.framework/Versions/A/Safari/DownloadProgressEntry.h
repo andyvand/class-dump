@@ -4,63 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, DownloadFile, NSArray, NSData, NSDate, NSError, NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSProgress, NSSet, NSString, NSTimer, NSURL, NSURLRequest, NSURLResponse, NSUUID, WBSCoalescedAsynchronousWriter, WKDownload, WKWebView;
-@protocol DownloadProgressEntryDelegate, OS_dispatch_queue, WBSSandboxExtensionToken;
+@class NSURL, NSURLRequest;
 
 __attribute__((visibility("hidden")))
 @interface DownloadProgressEntry
 {
     NSURLRequest *_request;
-    NSURLResponse *_response;
-    DownloadFile *_downloadFile;
-    NSMutableArray *_postDownloadFiles;
-    NSMutableDictionary *_depthForNestedArchive;
-    NSData *_resumeInformation;
-    WBSCoalescedAsynchronousWriter *_plistWriter;
-    NSDate *_startDate;
-    long long _bytesLoadedAtStart;
-    long long _lastBytesPerSecond;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> m_suddenTerminationDisabler;
-    NSProgress *_progress;
-    float _lastSavedFractionCompleted;
-    struct CGPoint _hopOriginPoint;
-    BrowserWindowController *_hopOriginWindowController;
-    _Bool _observingFileLocation;
-    struct os_unfair_lock_s _cachedBundlePathUnfairLock;
-    NSTimer *_reportUpdatedProgressTimer;
-    id <WBSSandboxExtensionToken> _sandboxTokenForBundle;
-    NSObject<OS_dispatch_queue> *_downloadSandboxTokenQueue;
-    _Bool _shouldUseRequestURLAsOriginURLIfNecessary;
-    _Bool _didShowStorageManagerUI;
-    _Bool _resumed;
-    _Bool _openWhenDone;
-    _Bool _shouldAvoidPersistingIdentifyingInformation;
-    _Bool _done;
-    NSURL *_threadUnsafeDownloadBundleURL;
-    NSArray *_tags;
-    NSDate *_dateAdded;
-    NSDate *_dateFinished;
-    NSUUID *_sandboxIdentifier;
-    NSString *_profileIdentifier;
-    id <DownloadProgressEntryDelegate> _delegate;
-    NSURL *_URL;
-    long long _lastReportedBytesLoaded;
-    long long _bytesLoaded;
-    long long _bytesExpected;
-    NSError *_error;
-    WKDownload *_wkDownload;
-    WKWebView *_navigatedWebView;
-    NSString *_suggestedFilename;
-    NSString *_identifier;
-    long long _downloadStage;
-    NSString *_securityOriginHost;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)';
 - (_Bool);
 - (_Bool);
 - (void);
@@ -94,54 +50,54 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)4(K;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id)";
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (void);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -161,7 +117,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)%s:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -173,8 +129,8 @@ __attribute__((visibility("hidden")))
 - (void)0@ù
 × ;
 - (id)oup"16@"SafariWebBookmark"24B32;
-- (void)_localCachesDirectory;
-- (id)Image:highlightedRanges: /* Error: Ran out of types for this method. */;
+- (void)safari_localCachesDirectory;
+- (id)initWithTitle:subtitle:secondaryImage:highlightedRanges: /* Error: Ran out of types for this method. */;
 - (id)H;
 - (id)s. shouldAutoFillPasswordsFromKeychain=%{bool}d isPasswordFieldFocused=%{bool}d hasMatches=%{bool}d hasCredentialProviderExtension=%{bool}d hasGeneratedPasswordMatches=%{bool}d;
 - (id)°¤;
@@ -188,68 +144,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿÅÔÁ¿Ó.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) unsigned long long additionalSpaceRequiredAtDownloadBundleLocation;
-@property(readonly, copy, nonatomic) NSString *busyStatus;
-@property(nonatomic) long long bytesExpected; // @synthesize bytesExpected=_bytesExpected;
-@property(nonatomic) long long bytesLoaded; // @synthesize bytesLoaded=_bytesLoaded;
-@property(readonly, nonatomic) long long bytesLoadedSinceStart;
-@property(readonly, nonatomic) long long bytesPerSecond;
 @property(retain, nonatomic) NSURL *cachedDownloadBundleURL; // @synthesize cachedDownloadBundleURL=_threadUnsafeDownloadBundleURL;
-@property(readonly, nonatomic) _Bool canAttemptOpen;
-@property(readonly, nonatomic) _Bool canAttemptResume;
-@property(readonly, nonatomic) _Bool canAttemptReveal;
-@property(readonly, nonatomic) _Bool canResumeOrReload;
-@property(readonly, nonatomic) _Bool canStop;
-@property(readonly, nonatomic) DownloadFile *currentFile;
-@property(readonly, copy, nonatomic) NSURL *currentFileURL;
-@property(readonly, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(readonly, nonatomic) NSDate *dateFinished; // @synthesize dateFinished=_dateFinished;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <DownloadProgressEntryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSMutableDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool didShowStorageManagerUI; // @synthesize didShowStorageManagerUI=_didShowStorageManagerUI;
-@property(readonly, nonatomic) _Bool done; // @synthesize done=_done;
-@property(readonly, nonatomic) DownloadFile *downloadFile; // @synthesize downloadFile=_downloadFile;
-@property(nonatomic) long long downloadStage; // @synthesize downloadStage=_downloadStage;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, copy, nonatomic) NSString *filename;
-@property(readonly, nonatomic) _Bool hasEnoughFreeDiskSpaceAtDownloadBundleLocation;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBusy;
-@property(readonly, nonatomic) _Bool isCanceled;
-@property(readonly, nonatomic) _Bool isIdle;
-@property(nonatomic) long long lastReportedBytesLoaded; // @synthesize lastReportedBytesLoaded=_lastReportedBytesLoaded;
-@property(readonly, nonatomic) __weak WKWebView *navigatedWebView; // @synthesize navigatedWebView=_navigatedWebView;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, nonatomic) _Bool openWhenDone; // @synthesize openWhenDone=_openWhenDone;
-@property(readonly, copy, nonatomic) NSString *pathExtension;
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly, copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly, nonatomic, getter=wasResumed) _Bool resumed; // @synthesize resumed=_resumed;
-@property(readonly, nonatomic) NSUUID *sandboxIdentifier; // @synthesize sandboxIdentifier=_sandboxIdentifier;
-@property(readonly, nonatomic) long long secondsRemaining;
-@property(copy, nonatomic) NSString *securityOriginHost; // @synthesize securityOriginHost=_securityOriginHost;
-@property(readonly, nonatomic) _Bool shouldAvoidPersistingIdentifyingInformation; // @synthesize shouldAvoidPersistingIdentifyingInformation=_shouldAvoidPersistingIdentifyingInformation;
-@property(nonatomic) _Bool shouldUseRequestURLAsOriginURLIfNecessary; // @synthesize shouldUseRequestURLAsOriginURLIfNecessary=_shouldUseRequestURLAsOriginURLIfNecessary;
-@property(readonly, copy, nonatomic) NSString *statusString;
-@property(readonly, copy, nonatomic) NSString *suggestedFilename; // @synthesize suggestedFilename=_suggestedFilename;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *tags; // @synthesize tags=_tags;
-@property(readonly, nonatomic) WKDownload *wkDownload; // @synthesize wkDownload=_wkDownload;
 
 @end
 

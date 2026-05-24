@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOLabel;
-
 @interface USOSchemaUSOEdgeLabel : SISchemaInstrumentationMessage
 {
     unsigned int _usoElementId;
-    unsigned int _enumeration;
-    USOSchemaUSOLabel *_baseEdgeLabel;
-    struct {
-        unsigned int usoElementId:1;
-        unsigned int enumeration:1;
-    } _has;
-    _Bool _hasBaseEdgeLabel;
 }
 
 - (unsigned int);
@@ -37,23 +28,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_displaysAlternatePlaceholder;
+- (_Bool)cted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INDEXED BY message_idx_expire_state WHERE   (m.expire_state = %d OR m.expire_state = %d)  AND m.item_type == 0   AND m.schedule_type == 0   AND m.ROWID > ? ORDER BY m.date ASC;
 - (id);
 - (id);
-- (id)leteSiriDeviceID;
-- (id)ted;
-- (void)SUSECASE_EVENT_WINNER;
+- (id)deleteSiriDeviceID;
+- (id)_numAccessoriesCompleted;
+- (void)PEGASUSSPORTSUSECASE_EVENT_WINNER;
 
 // Remaining properties
-@property(retain, nonatomic) USOSchemaUSOLabel *baseEdgeLabel; // @synthesize baseEdgeLabel=_baseEdgeLabel;
-@property(nonatomic) unsigned int enumeration; // @synthesize enumeration=_enumeration;
-@property(nonatomic) _Bool hasBaseEdgeLabel; // @synthesize hasBaseEdgeLabel=_hasBaseEdgeLabel;
-@property(nonatomic) _Bool hasEnumeration;
-@property(nonatomic) _Bool hasUsoElementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int usoElementId; // @synthesize usoElementId=_usoElementId;
 
 @end

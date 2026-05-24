@@ -6,41 +6,32 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, RTElevationProvider, RTElevationStore;
+@class RTElevationStore;
 
 @interface RTElevationManager : RTService
 {
     RTElevationStore *_elevationStore;
-    RTElevationProvider *_elevationProvider;
 }
 
-+ (long long);
++ (long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)initWithContextData:(id)arg1;
+- (void)e resulted in:(id)arg1 %d;
+- (void):(id)arg1 %@:(CDUnknownBlockType)arg2 %@:%@:%f:%d /* Error: Ran out of types for this method. */;
+- (id)%@ does not have current bit set, attempting to fix;
+- (id)or service %@;
+- (void)on %p have a NULL master key;
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)$!;
 - (void)legacy buffer that was compresssed;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTElevationProvider *elevationProvider; // @synthesize elevationProvider=_elevationProvider;
 @property(retain, nonatomic) RTElevationStore *elevationStore; // @synthesize elevationStore=_elevationStore;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

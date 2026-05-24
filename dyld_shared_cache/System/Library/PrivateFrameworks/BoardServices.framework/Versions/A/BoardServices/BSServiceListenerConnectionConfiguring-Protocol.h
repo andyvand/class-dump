@@ -5,5 +5,6 @@
 //
 
 @protocol BSServiceListenerConnectionConfiguring
+- (void)tokenSession:(void (^)(BSServiceListenerConnection<BSServiceConnectionContext> *))arg1 supportsOperation:usingKey:algorithm:parameters: /* Error: Ran out of types for this method. */;
 @end
 

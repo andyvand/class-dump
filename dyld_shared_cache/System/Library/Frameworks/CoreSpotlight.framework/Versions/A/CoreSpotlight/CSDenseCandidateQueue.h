@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSDenseCandidateQueue
 {
     struct __CFBinaryHeap *_denseQueue;
-    NSString *_bundleID;
 }
 
 - (void);

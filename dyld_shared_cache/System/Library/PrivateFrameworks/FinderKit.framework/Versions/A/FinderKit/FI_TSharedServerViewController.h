@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TSharedServerViewController
 {
     _Bool _waitingToEject;
-    struct shared_ptr<TNodeObserverCocoaBridge> _nodeObserver;
 }
 
 - (void);
@@ -18,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@@y	?%@qa;
 - (struct TFENode);
 - (void);
 - (void);
@@ -29,20 +26,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)!;
+- (id) ;
 - (id);
 - (void);
 - (void)#Opá;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

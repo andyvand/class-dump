@@ -9,9 +9,6 @@
 @interface OBAnimationState
 {
     NSString *_name;
-    NSString *_darkName;
-    double _transitionDuration;
-    double _transitionSpeed;
 }
 
 - (id);
@@ -23,15 +20,12 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)`;
 - (double);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *darkName; // @synthesize darkName=_darkName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double transitionDuration; // @synthesize transitionDuration=_transitionDuration;
-@property(nonatomic) double transitionSpeed; // @synthesize transitionSpeed=_transitionSpeed;
 
 @end
 

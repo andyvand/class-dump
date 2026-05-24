@@ -7,48 +7,6 @@
 @interface NewsUI2.TodayFeedGroupEmitterFactory
 {
     id newspaperGroupService;
-    id formatService;
-    id audioHeadlineConverter;
-    id headlineService;
-    id feedPersonalizer;
-    id featureAvailability;
-    id magazineFeedService;
-    id personalizationService;
-    id cloudContext;
-    id tagService;
-    id tagHighlightsService;
-    id tagFeedCurationService;
-    id tagFeedHeadlineService;
-    id suggestionClusteringService;
-    id localNewsChannelService;
-    id locationManager;
-    id channelLocationService;
-    id promotedHeadlineService;
-    id channelHeadlineService;
-    id engagementInlineViewManager;
-    id todayFeedEngagementEventHandler;
-    id engagementFeatureSettings;
-    id sharedItemManager;
-    id sportsTopicClusteringService;
-    id sportsDataService;
-    id sportsFavoritesService;
-    id sportsRecommendationManager;
-    id sportsOnboardingManager;
-    id sportsGraphManager;
-    id sportsSectionService;
-    id sportsScoreSorter;
-    id mySportsTagService;
-    id historyService;
-    id sportsEmbedConfigurationManager;
-    id sportsConfiguringDataService;
-    id puzzleHistoryService;
-    id weatherService;
-    id channelPickerConfigManager;
-    id suggestionsService;
-    id foodService;
-    id foodClusteringService;
-    id recipeService;
-    id articleForYouAvailability;
 }
 
 @end

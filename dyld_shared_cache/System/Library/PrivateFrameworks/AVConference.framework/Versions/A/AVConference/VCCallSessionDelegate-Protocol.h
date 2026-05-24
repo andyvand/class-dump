@@ -5,5 +5,14 @@
 //
 
 @protocol VCCallSessionDelegate
+- (_Bool);
+- (void)(;
+- (void));
+- (_Bool);
+- (void);
+- (void)A�?;
+- (void);
+- (void)1;
+- (struct AudioStreamBasicDescription)qa;
 @end
 

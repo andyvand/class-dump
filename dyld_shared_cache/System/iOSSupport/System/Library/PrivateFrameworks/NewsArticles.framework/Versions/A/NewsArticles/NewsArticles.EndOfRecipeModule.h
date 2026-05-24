@@ -7,8 +7,6 @@
 @interface NewsArticles.EndOfRecipeModule
 {
     id resolver;
-    id tracker;
-    id feedDismissingManager;
 }
 
 @end

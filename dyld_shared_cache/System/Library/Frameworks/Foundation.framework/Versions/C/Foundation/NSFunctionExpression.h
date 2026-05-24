@@ -6,13 +6,9 @@
 
 #import <Foundation/NSExpression.h>
 
-@class NSArray;
-
 @interface NSFunctionExpression : NSExpression
 {
     NSExpression *_operand;
-    SEL _selector;
-    NSArray *_arguments;
 }
 
 + (_Bool)ntDescriptor copyWithZone:] called on invalid NSAppleEventDescriptor /* Error: Ran out of types for this method. */;

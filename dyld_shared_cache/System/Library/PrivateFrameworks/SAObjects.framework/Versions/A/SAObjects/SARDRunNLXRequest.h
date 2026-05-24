@@ -6,14 +6,14 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString, SASRecognition;
+@class SASRecognition;
 
 @interface SARDRunNLXRequest : SABaseClientBoundCommand
 {
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -24,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SASRecognition *asrOutput;
-@property(copy, nonatomic) NSNumber *processedAudioDuration;
-@property(copy, nonatomic) NSString *userId;
 
 @end
 

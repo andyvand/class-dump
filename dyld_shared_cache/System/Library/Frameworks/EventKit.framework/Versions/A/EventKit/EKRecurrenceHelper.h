@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface EKRecurrenceHelper
 {
     NSString *_specifier;
-    _Bool _dirty;
-    _Bool _parsed;
-    NSArray *_daysOfTheWeek;
-    NSArray *_daysOfTheMonth;
-    NSArray *_daysOfTheYear;
-    NSArray *_weeksOfTheYear;
-    NSArray *_monthsOfTheYear;
-    NSArray *_setPositions;
 }
 
+- (void)?;
+- (void)ublic}@ error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)@ UpdatingCache:playbackState %{public}@ /* Error: Ran out of types for this method. */;
+- (id)yingPlayerClientRequests] %{public}@ UpdatingCache:(CDStruct_f9502b4c *)arg1 playbackState %{public}@;
+- (id)blic}@ - error:(CDStruct_f9502b4c *)arg1 %{public}@;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Session(CoreUtils)] Failed to derive output key (OSStatus = %d);
+- (void)erive input key (OSStatus = %d);
+- (void).;
 - (id);
 - (id);
 - (void);
@@ -48,14 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *daysOfTheMonth;
-@property(copy, nonatomic) NSArray *daysOfTheWeek;
-@property(copy, nonatomic) NSArray *daysOfTheYear;
 @property(readonly, nonatomic) _Bool isDirty;
-@property(copy, nonatomic) NSArray *monthsOfTheYear;
-@property(copy, nonatomic) NSArray *setPositions;
-@property(copy, nonatomic) NSString *specifier;
-@property(copy, nonatomic) NSArray *weeksOfTheYear;
 
 @end
 

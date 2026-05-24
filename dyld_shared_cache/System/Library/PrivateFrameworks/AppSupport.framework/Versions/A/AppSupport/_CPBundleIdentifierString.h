@@ -9,12 +9,10 @@
 @interface _CPBundleIdentifierString
 {
     NSString *_executablePath;
-    NSString *_bundleIdentifierOrProcessName;
-    _Bool _isProcessName;
 }
 
 - (void);
-- (void);
+- (void)1;
 - (unsigned long long);
 - (id);
 - (_Bool);

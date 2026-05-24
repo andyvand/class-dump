@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSPointerArray, NSString, PACGImage;
+@class NSPointerArray;
 
 @interface PAImageRenderResponse
 {
     NSPointerArray *_images;
-    NSError *_error;
 }
 
 - (id);
-- (void);
+- (void)LemonadeNotificationsStackModel;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -26,17 +25,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(retain) PACGImage *image;
 @property(readonly) unsigned long long imageCount;
-@property(readonly) NSArray *images;
-@property(readonly) Class superclass;
 
 @end
 

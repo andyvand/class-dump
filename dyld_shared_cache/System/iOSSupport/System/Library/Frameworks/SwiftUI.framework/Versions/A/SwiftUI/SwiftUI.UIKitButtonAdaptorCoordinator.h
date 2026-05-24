@@ -9,14 +9,6 @@
 @interface SwiftUI.UIKitButtonAdaptorCoordinator : SwiftUI.PlatformViewCoordinator
 {
     id action;
-    id menuAttribute;
-    id menuTitle;
-    id onMenuPresentationChanged;
-    id menuControlGroupSize;
-    id effectiveLabelStyle;
-    id menuChangeDetector;
-    id sheetBridgeToken;
-    id popoverBridgeToken;
 }
 
 - (void);

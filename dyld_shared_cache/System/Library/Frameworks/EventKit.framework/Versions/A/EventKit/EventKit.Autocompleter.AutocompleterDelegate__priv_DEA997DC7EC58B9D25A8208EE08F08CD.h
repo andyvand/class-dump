@@ -7,11 +7,10 @@
 @interface EventKit.Autocompleter.AutocompleterDelegate__priv_DEA997DC7EC58B9D25A8208EE08F08CD
 {
     id continuation;
-    id autocompleter;
 }
 
-- (void);
-- (void);
+- (void)ArtworkHeight(MRPlaybackQueueRequestRef);
+- (void)eueRequestGetIncludeArtwork(MRPlaybackQueueRequestRef);
 - (id);
 - (void)Ñ2'ð1Â0@ù
 × ;

@@ -12,7 +12,7 @@
 
 - (id);
 - (void);
-- (void)ringSelfTest;
+- (void)kIKScannerDeviceView_Advanced_PreparingSelfTest;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BSCornerRadiusConfiguration
 {
     double _topLeft;
-    double _bottomLeft;
-    double _bottomRight;
-    double _topRight;
 }
 
 + (void);
@@ -29,18 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(readonly, nonatomic) double bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isCongruent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double topLeft; // @synthesize topLeft=_topLeft;
-@property(readonly, nonatomic) double topRight; // @synthesize topRight=_topRight;
 
 @end
 

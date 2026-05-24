@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebClientContext, AMSUIWebContainerViewController, NSLock, NSMutableSet, NSString;
+@class AMSUIWebClientContext, AMSUIWebContainerViewController;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFlowController
 {
     AMSUIWebContainerViewController *_rootContainer;
-    AMSUIWebClientContext *_context;
-    NSString *_currentRefreshToken;
-    NSLock *_timeoutLock;
-    NSMutableSet *_timeouts;
-    unsigned long long _previousNavigationIndex;
-    long long _previousPageIndex;
 }
 
-- (id);
-- (id);
+- (id)ed download for assertion (%{public}@) with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)sset:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ic}@);
+- (void)}@) clientID:(%{public}@) /* Error: Ran out of types for this method. */;
+- (void)y:(double)arg1 (%{public}@) assertionID:(id)arg2 (%{public}@) clientID:(CDUnknownBlockType)arg3 (%{public}@);
+- (void)e UAF subscriptions for existing assertions;
+- (void)query:(long long)arg1 %{public}@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)lay:(id)arg1 %ld Now:%{public}@ Future:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)ror decoding object for key %{public}@;
+- (id)rvices in this build does not set doNotBlockOnNetworkStatusSetter=YES, possibly resulting in hangs.;
+- (id)t fetch asset update status, manager interface is nil for asset type:(id)arg1 %@;
+- (void)er, manager interface is nil for asset type:(id)arg1 %@;
+- (long long)m.apple.DataDeliveryServices.DDSAssertionTracker;
+- (unsigned long long)DictionaryRapidUpdates_Info.plist;
+- (void)eAssetv2Provider assetsInCatalogForQuery:(long long)arg1 errorPtr:] /* Error: Ran out of types for this method. */;
+- (void)bileAssetv2Provider;
+- (void)BcsilqCSILQ;
+- (id)yService;
 - (id);
 - (id);
 - (id);
@@ -51,13 +45,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly) __weak AMSUIWebContainerViewController *currentContainer;
-@property(retain) NSString *currentRefreshToken; // @synthesize currentRefreshToken=_currentRefreshToken;
-@property unsigned long long previousNavigationIndex; // @synthesize previousNavigationIndex=_previousNavigationIndex;
-@property long long previousPageIndex; // @synthesize previousPageIndex=_previousPageIndex;
-@property(readonly) __weak AMSUIWebContainerViewController *rootContainer; // @synthesize rootContainer=_rootContainer;
-@property(retain) NSLock *timeoutLock; // @synthesize timeoutLock=_timeoutLock;
-@property(retain) NSMutableSet *timeouts; // @synthesize timeouts=_timeouts;
 
 @end
 

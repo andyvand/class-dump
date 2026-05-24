@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSScrubberLayoutAttributes, NSSet;
+
 @protocol NSScrubberSelectionLayout
+- (NSSet *);
+- (NSScrubberLayoutAttributes *)ean=}40@0:(long long)arg1 8@16c24@28c36;
+- (long long)rkFHO5dZmWxy3QdOx7r7kA;
 
 // Remaining properties
 @property _Bool floatingSelection;
-@property long long itemAlignment;
 @end
 

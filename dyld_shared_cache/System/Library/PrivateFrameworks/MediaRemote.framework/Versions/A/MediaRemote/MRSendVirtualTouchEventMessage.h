@@ -10,14 +10,13 @@
 {
 }
 
-- (id);
+- (id)hixJH7	;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)common caps:%@ /* Error: Ran out of types for this method. */;
 - (struct _MRHIDTouchEvent);
 
 // Remaining properties
 @property(readonly, nonatomic) struct _MRHIDTouchEvent event;
-@property(readonly, nonatomic) unsigned long long virtualDeviceID;
 
 @end
 

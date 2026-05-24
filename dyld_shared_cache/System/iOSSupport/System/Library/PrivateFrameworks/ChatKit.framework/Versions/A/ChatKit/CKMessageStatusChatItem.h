@@ -11,12 +11,6 @@
 @interface CKMessageStatusChatItem : CKChatItem
 {
     _Bool _buttonSizeLoaded;
-    _Bool _labelSizeLoaded;
-    NSAttributedString *_transcriptButtonText;
-    struct CGSize _buttonSize;
-    struct CGSize _labelSize;
-    struct UIEdgeInsets _buttonTextAlignmentInsets;
-    struct UIEdgeInsets _labelTextAlignmentInsets;
 }
 
 + (id);
@@ -25,60 +19,51 @@
 + (id);
 + (void);
 + (void);
-- (_Bool);
+- (_Bool)preReplaceCharactersInRange:withStringLength: /* Error: Ran out of types for this method. */;
+- (void)legacyAccountForLocalAccountWithContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (struct UIEdgeInsets);
-- (BOOL);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (struct UIEdgeInsets)insertedText:replacementRange:inTextView:hashtagController:mentionsController:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
+- (BOOL)tentSizeCategory:hasBoldText:hasButtonShapes:hasDarkerSystemColors:hasBorder: /* Error: Ran out of types for this method. */;
+- (id)imageDataWithMarkupModelData:sourceImageData: /* Error: Ran out of types for this method. */;
+- (_Bool)convertInlineAttachmentToTextInTextView:(id)arg1 forRange:(id)arg2;
+- (_Bool)on:isEndingEditing:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)arrayWithObject:(id)arg1;
+- (void)orrectPasswordAttempts;
 - (void);
 - (id);
 - (id);
 - (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (BOOL);
+- (_Bool)GAJtGGAGGG_G;
+- (id)e;
+- (id)n;
+- (struct UIEdgeInsets):editedRange out of bounds /* Error: Ran out of types for this method. */;
+- (_Bool)View Folder;
+- (id));
+- (id)((sFontSingleLineA) != nil);
+- (id)adingTextWithContentSizeCategory:(id)arg1 isForPrint:(BOOL)arg2 ];
+- (BOOL)@Z
+;
 - (long long);
 - (struct CGSize);
 - (struct CGSize);
 - (struct UIEdgeInsets);
 - (Class);
 - (struct CGSize);
-- (long long);
+- (long long)ㄢ˙;
 - (unsigned long long)up"32;
-- (id)letion: /* Error: Ran out of types for this method. */;
+- (id)animateOutWithCompletion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)Ú[G¤J\G[yÀ/;
 - (void)¬ä;
 - (long long)4uÿ$£2Ä/0;
 - (id)ßÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsEffectAutoPlayback;
-@property(readonly, nonatomic) struct CGSize buttonSize; // @synthesize buttonSize=_buttonSize;
-@property(nonatomic, getter=isButtonSizeLoaded) _Bool buttonSizeLoaded; // @synthesize buttonSizeLoaded=_buttonSizeLoaded;
-@property(readonly, nonatomic) struct UIEdgeInsets buttonTextAlignmentInsets; // @synthesize buttonTextAlignmentInsets=_buttonTextAlignmentInsets;
-@property(readonly, nonatomic) long long buttonType;
-@property(readonly, nonatomic) struct CGSize labelSize; // @synthesize labelSize=_labelSize;
-@property(nonatomic, getter=isLabelSizeLoaded) _Bool labelSizeLoaded; // @synthesize labelSizeLoaded=_labelSizeLoaded;
-@property(readonly, nonatomic) struct UIEdgeInsets labelTextAlignmentInsets; // @synthesize labelTextAlignmentInsets=_labelTextAlignmentInsets;
-@property(readonly, nonatomic) _Bool shouldHideDuringDarkFSM;
-@property(readonly, nonatomic) BOOL statusAlignment;
 @property(copy, nonatomic) NSAttributedString *transcriptButtonText; // @synthesize transcriptButtonText=_transcriptButtonText;
 
 @end

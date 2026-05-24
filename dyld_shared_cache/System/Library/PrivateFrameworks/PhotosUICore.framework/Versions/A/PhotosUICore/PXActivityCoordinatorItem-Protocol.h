@@ -5,6 +5,7 @@
 //
 
 @protocol PXActivityCoordinatorItem
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long activityCoordinatorQueuePosition;

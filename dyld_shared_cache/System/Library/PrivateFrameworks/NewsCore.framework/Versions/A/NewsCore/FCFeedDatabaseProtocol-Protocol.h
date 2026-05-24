@@ -7,9 +7,9 @@
 @class NSURL;
 
 @protocol FCFeedDatabaseProtocol
+- (NSURL *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *parentDirectoryURL;
 @property(readonly, nonatomic) unsigned short version;
 @end
 

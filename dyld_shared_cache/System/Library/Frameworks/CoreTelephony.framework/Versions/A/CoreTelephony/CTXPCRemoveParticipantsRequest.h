@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliGroupChatParticipantList, CTLazuliGroupChatUri, CTLazuliOperationID;
+@class CTLazuliGroupChatUri;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCRemoveParticipantsRequest : CTXPCSubscriptionContextRequest
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)9h;
 - (id);
 - (id);
 - (id);
@@ -25,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliGroupChatUri *groupChatURI;
-@property(readonly, nonatomic) CTLazuliOperationID *operationID;
-@property(readonly, nonatomic) CTLazuliGroupChatParticipantList *participants;
 
 @end
 

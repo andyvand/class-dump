@@ -13,16 +13,16 @@
     NSData *_ecID;
 }
 
++ (id)(;
++ (id)/;
 + (id);
-+ (id);
-+ (id);
-+ (unsigned int);
++ (unsigned int)y present on disk. All requested guids:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AMSSyncAccountFlagsTask;
 - (void);
 
 // Remaining properties

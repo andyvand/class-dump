@@ -5,7 +5,7 @@
 //
 
 @protocol INPlayVoicemailIntentResponseExport
-- (long long)nkURL;
+- (long long)hasLinkURL;
 
 // Remaining properties
 @property(readonly) long long code;

@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSShadowRemoteViewControllerDebugView, UINSWindowProxy, UIView, UIViewController, UIWindow;
+@class UIViewController;
 
 @interface UINSShadowRemoteViewController
 {
     UIViewController *_trackedViewController;
-    UIView *_trackedView;
-    UIWindow *_trackedUIWindow;
-    UINSWindowProxy *_hostWindowProxy;
-    struct CGRect _lastSetViewFrame;
-    UINSShadowRemoteViewControllerDebugView *_debugView;
-    _Bool _showsDebugOverlay;
 }
 
 + (void);
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)B;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)8P;
+- (void);
+- (void)flattenedImage;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool showsDebugOverlay; // @synthesize showsDebugOverlay=_showsDebugOverlay;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *trackedView;
-@property(nonatomic) __weak UIViewController *trackedViewController;
 
 @end
 

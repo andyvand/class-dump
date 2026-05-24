@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBDateTime;
+@class _INPBDateTime;
 
 @interface _INPBTaskList
 {
     struct _has;
-    _INPBDateTime *_createdDateTime;
-    _INPBDataString *_groupName;
-    NSString *_identifier;
-    _INPBDateTime *_modifiedDateTime;
-    NSArray *_tasks;
-    _INPBDataString *_title;
 }
 
 + (Class);
@@ -25,9 +19,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -39,38 +33,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id)Á%!BùÑ¾(1Â0@ù
 × ;
-- (void)upportedOsVersion;
+- (void)INShareETAIntentResponseCodeFailureUnsupportedOsVersion;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTime *createdDateTime; // @synthesize createdDateTime=_createdDateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDataString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) _Bool hasCreatedDateTime;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasModifiedDateTime;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _INPBDateTime *modifiedDateTime; // @synthesize modifiedDateTime=_modifiedDateTime;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *tasks; // @synthesize tasks=_tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
-@property(retain, nonatomic) _INPBDataString *title; // @synthesize title=_title;
 
 @end
 

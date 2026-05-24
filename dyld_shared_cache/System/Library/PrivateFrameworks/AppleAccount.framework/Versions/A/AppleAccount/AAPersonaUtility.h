@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (void)te returned %d;
++ (_Bool)%ld:(id)arg1 %s);
++ (_Bool)opertyListSerialization dataFromPropertyList:(id)arg1 ] returned "%s";
++ (id)%d (%d);
 
 @end
 

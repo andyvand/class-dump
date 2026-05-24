@@ -10,11 +10,11 @@
 {
 }
 
+- (_Bool)J;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (unsigned long long);
+- (_Bool)ts they need to re-request setup;
+- (struct CGRect)essing for filtering;
+- (unsigned long long), nothing to archive for handle %@. isPhotoOrPosterUpdate:(struct CGPDFDictionary *)arg1 %{BOOL}d Current nickname dict:%@. /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (unsigned long long);

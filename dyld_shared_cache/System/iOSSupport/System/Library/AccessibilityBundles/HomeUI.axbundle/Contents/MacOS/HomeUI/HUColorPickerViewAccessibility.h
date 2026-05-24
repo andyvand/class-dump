@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (void);
+- (void)axSafelyAddObject:(CDStruct_d2b197d1)arg1;
 
 @end
 

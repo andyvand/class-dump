@@ -4,57 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPArtworkImageAttachments, MPArtworkRepresentationCollection, NSCache, NSString, NSUUID;
-@protocol MPArtworkDataSource, MPArtworkDataSourceVisualIdenticality, NSCopying, _MPArtworkCatalogOverlayDelegate;
-
 @interface MPArtworkCatalog
 {
     struct CGSize _fittingSize;
-    long long _modelRevisionID;
-    NSUUID *_UUID;
-    struct os_unfair_lock_s _lock;
-    _Bool _allowsVideoConstrainedNetworkAccess;
-    _Bool _mainThreadBound;
-    _Bool _loadingRepresentation;
-    double _destinationScale;
-    long long _preferredVideoFormat;
-    id _destination;
-    CDUnknownBlockType _configurationBlock;
-    unsigned long long _representationKinds;
-    MPArtworkRepresentationCollection *_bestAvailableRepresentationCollection;
-    NSString *_cacheIdentifier;
-    id _requestingContext;
-    id <NSCopying> _loadingKey;
-    id _token;
-    id <MPArtworkDataSource> _dataSource;
-    unsigned long long _renderHint;
-    unsigned long long _videoCacheStoragePolicy;
-    id <_MPArtworkCatalogOverlayDelegate> _overlayDelegate;
-    id _overlayToken;
-    id _overlayStorage;
 }
 
 + (id);
 + (id);
++ (void)skipData;
++ (void)remoteSchema;
++ (void)fdwImportSchemaAll;
++ (void)hasVersion_p;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)alterTsconfigReplaceDict;
++ (void)alterTsconfigAddMapping;
++ (void)newValIsAfter;
++ (id)dictionary;
++ (id);
++ (id);
++ (void)`;
 + (void);
 + (void);
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)eFrameworks/CoreDuet.framework/CoreDuet;
++ (id)reDuet.framework/CoreDuet;
++ (id)PBUserFocusComputedModeEvent proto;
 - (id);
 - (unsigned long long);
 - (id);
@@ -70,11 +45,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,23 +68,23 @@
 - (long long);
 - (id);
 - (id);
+- (id)nullTestType;
+- (_Bool);
+- (_Bool)atDisableRule;
+- (_Bool)joinSemi;
+- (id)rangeTableFunc;
+- (_Bool)ascii91;
+- (_Bool)_ctecolnames;
+- (id)_casecollid;
+- (double)legacyCreateTable;
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (double);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tG;
+- (void)7ElementSTQyd__;
 - (void);
 - (void);
 - (void);
@@ -118,9 +93,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (long long);
+- (void)eFrameworks/CoreDuet.framework/CoreDuet;
+- (id)nt from payload %s %@;
+- (long long)urbWhileDriving, please consult error logs for cause;
 - (id);
 - (id);
 - (void);
@@ -128,45 +103,17 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)e1408: /* Error: Ran out of types for this method. */;
+- (id)SNAudioLevelMeasurer;
 - (_Bool);
 - (struct CGSize);
 - (id);
 - (id);
 - (id);
-- (void)ibraries;
+- (void)_mediaLibraries;
 
 // Remaining properties
 @property(readonly, nonatomic) long long MP_artworkType;
-@property(readonly, nonatomic) NSUUID *UUID;
-@property(nonatomic) _Bool allowsVideoConstrainedNetworkAccess; // @synthesize allowsVideoConstrainedNetworkAccess=_allowsVideoConstrainedNetworkAccess;
-@property(retain, nonatomic) MPArtworkRepresentationCollection *bestAvailableRepresentationCollection; // @synthesize bestAvailableRepresentationCollection=_bestAvailableRepresentationCollection;
-@property(readonly, nonatomic) NSCache *cache;
-@property(copy, nonatomic) NSString *cacheIdentifier; // @synthesize cacheIdentifier=_cacheIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType configurationBlock; // @synthesize configurationBlock=_configurationBlock;
-@property(readonly, nonatomic) __weak id <MPArtworkDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) __weak id destination; // @synthesize destination=_destination;
-@property(nonatomic) double destinationScale; // @synthesize destinationScale=_destinationScale;
-@property(nonatomic) struct CGSize fittingSize; // @synthesize fittingSize=_fittingSize;
-@property(readonly, nonatomic) _Bool hasExportableArtworkProperties;
-@property(readonly, nonatomic) _Bool hasImageOnDisk;
-@property(readonly, nonatomic) MPArtworkImageAttachments *imageAttachments;
-@property(copy, nonatomic) id <NSCopying> loadingKey; // @synthesize loadingKey=_loadingKey;
-@property(getter=isLoadingRepresentation) _Bool loadingRepresentation; // @synthesize loadingRepresentation=_loadingRepresentation;
-@property(readonly, nonatomic, getter=isMainThreadBound) _Bool mainThreadBound; // @synthesize mainThreadBound=_mainThreadBound;
-@property(nonatomic) __weak id <_MPArtworkCatalogOverlayDelegate> overlayDelegate; // @synthesize overlayDelegate=_overlayDelegate;
-@property(retain, nonatomic) id overlayStorage; // @synthesize overlayStorage=_overlayStorage;
-@property(retain, nonatomic) id overlayToken; // @synthesize overlayToken=_overlayToken;
-@property(nonatomic) long long preferredVideoFormat; // @synthesize preferredVideoFormat=_preferredVideoFormat;
-@property(nonatomic) unsigned long long renderHint; // @synthesize renderHint=_renderHint;
-@property(nonatomic) unsigned long long representationKinds; // @synthesize representationKinds=_representationKinds;
-@property(nonatomic) __weak id requestingContext; // @synthesize requestingContext=_requestingContext;
-@property(readonly, nonatomic) struct CGSize scaledFittingSize;
-@property(readonly, nonatomic) id token; // @synthesize token=_token;
-@property(readonly, nonatomic) NSCache *videoCache;
-@property(nonatomic) unsigned long long videoCacheStoragePolicy; // @synthesize videoCacheStoragePolicy=_videoCacheStoragePolicy;
-@property(readonly, nonatomic) id <MPArtworkDataSourceVisualIdenticality> visualIdenticalityIdentifier;
 
 @end
 

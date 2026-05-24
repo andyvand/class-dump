@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceVirtualCardSecurityCodeActivityRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSString *_virtualCardIdentifier;
-    NSString *_securityCodeIdentifier;
-    long long _action;
-    NSDate *_timestamp;
 }
 
 - (id);
@@ -28,18 +23,13 @@
 - (long long)ix;
 - (void)P;
 - (id)ng credential:%s /* Error: Ran out of types for this method. */;
-- (void)tifier;
+- (void)identifier;
 - (void);
 - (id),4;
 - (void)j8;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) long long action; // @synthesize action=_action;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *securityCodeIdentifier; // @synthesize securityCodeIdentifier=_securityCodeIdentifier;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSString *virtualCardIdentifier; // @synthesize virtualCardIdentifier=_virtualCardIdentifier;
 
 @end
 

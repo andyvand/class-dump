@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface VCCommandObjC
 {
@@ -14,7 +14,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -33,9 +33,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *commandIdentifier;
-@property(nonatomic, readonly) NSDictionary *commandProperties;
-@property(nonatomic, readonly) _Bool isNewForCurrentDevice;
-@property(nonatomic, readonly) _Bool showCodingGuideInSettings;
 
 @end
 

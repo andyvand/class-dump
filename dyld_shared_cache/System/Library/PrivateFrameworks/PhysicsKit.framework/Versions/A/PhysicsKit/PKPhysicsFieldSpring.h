@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)mUserInterfaceItem;
 - (id);
 
 @end

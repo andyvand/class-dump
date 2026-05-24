@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRModelInputShapes : SISchemaInstrumentationMessage
 {
     NSArray *_candidateTuplesShapes;
-    NSArray *_deviceContextShapes;
-    NSArray *_candidateInteractionsShapes;
-    NSArray *_tupleInteractionsCandidatesShapes;
-    NSArray *_tupleInteractionsAlignmentShapes;
-    NSArray *_similarityScoresShapes;
 }
 
 - (unsigned long long);
@@ -23,7 +18,15 @@
 - (id);
 - (unsigned long long);
 - (unsigned int);
+- (id);
+- (unsigned long long);
+- (unsigned int);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (unsigned int);
 - (id);
@@ -32,15 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)a
+;
 - (void);
 - (void);
 - (void);
@@ -54,7 +50,7 @@
 - (unsigned int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,18 +64,12 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ale;
-- (id)nVoiceCommandExecuted;
+- (id)hasSourceLocale;
+- (id)SISchemaUEIDictationVoiceCommandExecuted;
 - (void)@³;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *candidateInteractionsShapes; // @synthesize candidateInteractionsShapes=_candidateInteractionsShapes;
 @property(copy, nonatomic) NSArray *candidateTuplesShapes; // @synthesize candidateTuplesShapes=_candidateTuplesShapes;
-@property(copy, nonatomic) NSArray *deviceContextShapes; // @synthesize deviceContextShapes=_deviceContextShapes;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *similarityScoresShapes; // @synthesize similarityScoresShapes=_similarityScoresShapes;
-@property(copy, nonatomic) NSArray *tupleInteractionsAlignmentShapes; // @synthesize tupleInteractionsAlignmentShapes=_tupleInteractionsAlignmentShapes;
-@property(copy, nonatomic) NSArray *tupleInteractionsCandidatesShapes; // @synthesize tupleInteractionsCandidatesShapes=_tupleInteractionsCandidatesShapes;
 
 @end
 

@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSButton, NSDictionary, NSImageView, NSMutableDictionary, NSMutableSet, NSStackView, NSString, NSTextField;
+@class NSDictionary, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface SafeAutoFillChoicesConfirmationPopoverViewController
 {
     NSDictionary *_displayData;
-    NSString *_contactName;
-    NSTextField *_textFieldForFittingSize;
-    NSArray *_popUpButtonViewControllers;
-    _Bool _isNameFieldGoingToBeFilled;
-    NSMutableDictionary *_initiallySelectedAddressBookPropertiesToIdentifiersMap;
-    CNContact *_contact;
-    NSMutableSet *_availableLabels;
-    NSArray *_addressBookMatchesForContact;
-    NSMutableDictionary *_addressBookLabelsToPropertyNamesToPropertyIndexes;
-    void *_safeAutoFillConfirmationController;
-    NSStackView *_addressBookDisplayDataStackView;
-    NSButton *_autoFillButton;
-    NSButton *_cancelButton;
-    NSTextField *_contactNameLabel;
-    NSImageView *_contactImageView;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void *);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -47,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)";
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -67,18 +52,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSStackView *addressBookDisplayDataStackView; // @synthesize addressBookDisplayDataStackView=_addressBookDisplayDataStackView;
-@property(nonatomic) __weak NSButton *autoFillButton; // @synthesize autoFillButton=_autoFillButton;
-@property(nonatomic) __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) __weak NSImageView *contactImageView; // @synthesize contactImageView=_contactImageView;
-@property(nonatomic) __weak NSTextField *contactNameLabel; // @synthesize contactNameLabel=_contactNameLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) void *safeAutoFillConfirmationController; // @synthesize safeAutoFillConfirmationController=_safeAutoFillConfirmationController;
-@property(readonly) Class superclass;
 
 @end
 

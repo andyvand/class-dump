@@ -7,13 +7,6 @@
 @interface PhotoAnalysis.LegacyStorytellingWorker
 {
     id $defaultActor;
-    id graphManager;
-    id taskRecorder;
-    id changeReader;
-    id requirements;
-    id stateHolder;
-    id clientRequestHandler;
-    id onDemandTaskHandler;
 }
 
 @end

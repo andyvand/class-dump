@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapServiceTraits, NSString;
+@class NSString;
 
 @protocol GEOMapServiceCompletionTicket
+- (NSString *)unknownProperties;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_searchQuery) NSString *searchQuery;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 @end
 

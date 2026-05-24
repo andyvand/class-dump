@@ -7,10 +7,6 @@
 @interface CSMyriadPHashFactors
 {
     unsigned char _goodness;
-    unsigned char _confidence;
-    unsigned char _frac;
-    unsigned short _hashValue;
-    unsigned long long _absTime;
 }
 
 - (id);
@@ -21,10 +17,6 @@
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long absTime; // @synthesize absTime=_absTime;
-@property(readonly, nonatomic) unsigned char confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) unsigned char frac; // @synthesize frac=_frac;
-@property(readonly, nonatomic) unsigned char goodness; // @synthesize goodness=_goodness;
 @property(readonly, nonatomic) unsigned short hashValue; // @synthesize hashValue=_hashValue;
 
 @end

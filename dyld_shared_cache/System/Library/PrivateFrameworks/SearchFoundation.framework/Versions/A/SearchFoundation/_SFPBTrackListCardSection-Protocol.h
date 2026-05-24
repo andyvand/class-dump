@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBTrackListCardSection
-- (NSArray *)dSection;
-- (int)xt;
+- (void)`B;
+- (_Bool)A;
+- (void)o;
+- (_Bool)setQueueContentReferences: /* Error: Ran out of types for this method. */;
+- (_Bool)setMinimumBitrate: /* Error: Ran out of types for this method. */;
+- (void)rySize > diskCacheAvailableSize] dataTask=%{public}@ URL=%{public}@ expectedEntrySize=%lld diskCacheAvailableSize=%lld;
+- (NSString *)P;
+- (void);
+- (NSData *)R;
+- (NSArray *)_SFPBRFFactItemDetailedNumberCardSection;
+- (int)_moreText;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSArray *tracks;
-@property(copy, nonatomic) NSString *type;
 @end
 

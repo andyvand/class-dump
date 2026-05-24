@@ -7,19 +7,15 @@
 @interface ICThumbnailCache
 {
     id cache;
-    id persistedCache;
-    id workerContext;
-    id cacheKeyQueue;
-    id objectIdentifiersToCacheKeys;
 }
 
-+ (id)ed;
++ (id)wasForceStopped;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)roundAlpha;
+- (id)P;
+- (void)foregroundAlpha;
 
 @end
 

@@ -4,6 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ECTransferMessageActionItem, ECTransferMessageActionResults, NSData, NSURL;
+
 @protocol ECTransferActionReplayerSubclassMethods
+- (ECTransferMessageActionResults *);
+- (NSData *)creenPlaceholderIndicatorScale - %ld;
+- (_Bool)bited:%s {
+	isContentSourceSupported:%s
+	isPictureInPicturePossible:%s
+	isSystemPictureInPicturePossible:%s
+	allowsPictureInPicturePlayback:%s
+	isPlayingOnSecondScreen:%s
+	sourceIsVisible:%s
+	contentDimensions:(%.01f, %.01f)
+	isPictureInPictureSupported:%s
+} /* Error: Ran out of types for this method. */;
+- (_Bool)t once on an AVMobileChromelessControlsView.;
+- (ECTransferMessageActionResults *)be set once on an AVMobileChromelessControlsView.;
+- (ECTransferMessageActionResults *)ely:(ECTransferMessageActionItem *)arg1 %d
+	isHidingItemsForTransition:(NSURL *)arg2 %d};
 @end
 

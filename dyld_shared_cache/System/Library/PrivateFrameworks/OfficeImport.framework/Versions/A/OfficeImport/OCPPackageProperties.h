@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OCPPackageProperties
 {
     NSString *mCreator;
-    NSString *mDescription;
-    NSString *mKeywords;
-    NSString *mTitle;
-    NSString *mAppVersion;
-    NSString *mSubject;
-    NSString *mCompany;
 }
 
 - (void);
@@ -35,7 +29,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) NSString *company; // @synthesize company=mCompany;
 @property(retain) NSString *subject; // @synthesize subject=mSubject;
 
 @end

@@ -7,8 +7,6 @@
 @interface Catalyst.CATAsyncGate
 {
     id supportsTaskCancellation;
-    id stream;
-    id continuation;
 }
 
 @end

@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
 @protocol VNDetectorCacheDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VNDetectorCache
 {
     id <VNDetectorCacheDelegate> _delegate;
-    struct {
-        unsigned int reportDidCacheDetector:1;
-        unsigned int reportDidEvictDetector:1;
-    } _delegateFlags;
-    NSMutableSet *_detectors;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id))2	;
 - (void);
-- (void);
+- (void)d) "Donation failed from sender %@. Error:(id)arg1 %@";
 - (id);
 - (id);
 - (id);
 - (void)self.observationsFromE5RTExecutionOutputs:observations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) id <VNDetectorCacheDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

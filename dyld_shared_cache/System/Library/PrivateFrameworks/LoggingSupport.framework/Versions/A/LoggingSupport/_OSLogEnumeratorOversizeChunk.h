@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _OSLogEnumeratorOversizeChunk
 {
     id <EnumeratorCatalogSubchunk> _subchunk;
-    struct tracev3_chunk_s *_chunk;
 }
 
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

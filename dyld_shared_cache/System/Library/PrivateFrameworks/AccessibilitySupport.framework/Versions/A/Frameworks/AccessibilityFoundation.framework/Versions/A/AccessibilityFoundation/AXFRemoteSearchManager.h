@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, NSArray, NSString;
+@class NSArray;
 
 @interface AXFRemoteSearchManager
 {
     _Bool __visibleOnly;
-    NSArray *__searchKeys;
-    NSString *__searchText;
-    AXFUIElement *__containerElement;
-    AXFUIElement *__nextStartElement;
-    AXFUIElement *__previousStartElement;
 }
 
 + (_Bool);
@@ -28,8 +23,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)RE;
+- (void);
+- (id);
+- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -38,18 +36,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)Signature Required;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak AXFUIElement *_containerElement; // @synthesize _containerElement=__containerElement;
-@property(retain, nonatomic, setter=_setNextStartElement:) AXFUIElement *_nextStartElement; // @synthesize _nextStartElement=__nextStartElement;
-@property(retain, nonatomic, setter=_setPreviousStartElement:) AXFUIElement *_previousStartElement; // @synthesize _previousStartElement=__previousStartElement;
 @property(readonly, nonatomic) NSArray *_searchKeys; // @synthesize _searchKeys=__searchKeys;
-@property(readonly, copy, nonatomic) NSString *_searchText; // @synthesize _searchText=__searchText;
-@property(readonly, nonatomic) _Bool _visibleOnly; // @synthesize _visibleOnly=__visibleOnly;
 
 @end
 

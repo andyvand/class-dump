@@ -5,9 +5,9 @@
 //
 
 @protocol NUImageTile
+- (CDStruct_996ac03c)n [%{public}@];
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c contentRect;
 @property(readonly, nonatomic) CDStruct_996ac03c frameRect;
 @end
 

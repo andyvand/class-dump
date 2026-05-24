@@ -9,12 +9,11 @@
 @interface TSWPObfuscatedFontDataProvider
 {
     NSInputStream *_stream;
-    unsigned char _xorMask[20];
 }
 
-- (long long);
-- (unsigned long long);
-- (id);
+- (long long)olve entity via SOD after successful StorePlatform lookup:(long long)arg1 %@;
+- (unsigned long long)9000;
+- (id);
 - (long long);
 - (void);
 - (void);

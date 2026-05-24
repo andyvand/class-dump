@@ -5,5 +5,10 @@
 //
 
 @protocol IOBluetoothRFCOMMChannelDelegate
+
+@optional
+- (void)$;
+- (void)`;
+- (void);
 @end
 

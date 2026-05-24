@@ -5,5 +5,7 @@
 //
 
 @protocol LAContextClientEvaluationProt
+- (void)hicWeightINS_17TropicalWeightTplIfEENS_16LatticeWeightTplIfEEEEiEEiEEEENS_20DefaultCommonDivisorISA_EENS_24DefaultDeterminizeFilterISC_EENS_28DefaultDeterminizeStateTableISC_NS_18IntegerFilterStateIaEEEEEE;
+- (void));
 @end
 

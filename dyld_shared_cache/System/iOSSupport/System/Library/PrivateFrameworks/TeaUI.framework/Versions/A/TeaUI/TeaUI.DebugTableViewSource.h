@@ -7,14 +7,13 @@
 @interface TeaUI.DebugTableViewSource
 {
     id dataSource;
-    id controller;
 }
 
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
+- (id)	;
+- (id)ndRecipeData;
+- (long long)ogressUpdateThrottler] Phase description changed from '%@' to '%@'. Sending update.;
+- (void)NetworkMigrationServerUsingSourcePath:(id)arg1 andSecretPassword:(id)arg2 ]_block_invoke;
+- (id)16q24;
 - (long long);
 - (void)¨!ûÿô!ûÿ"ûÿT"ûÿ"ûÿô"ûÿP$ûÿt$ûÿ°$ûÿä$ûÿ %ûÿ8%ûÿX&ûÿ(ûÿT)ûÿÌ)ûÿð)ûÿ*ûÿ8*ûÿ\*ûÿØ+ûÿü+ûÿ ,ûÿ¬,ûÿè,ûÿ$-ûÿ0-ûÿ/ûÿ<ÿûÿXÿûÿtÿûÿÿûÿ¬ÿûÿÈÿûÿäÿûÿ;
 

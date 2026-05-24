@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLIOAccelDevice;
-@protocol MTLDeviceSPI;
-
 __attribute__((visibility("hidden")))
 @interface MTLIOAccelService
 {
     unsigned int _acceleratorPort;
-    struct IONotificationPort *_notifyPort;
-    unsigned int _notifyObject;
-    MTLIOAccelDevice<MTLDeviceSPI> *_weakDevice;
-    Class _deviceClass;
-    unsigned long long _registryID;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -30,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned int acceleratorPort; // @synthesize acceleratorPort=_acceleratorPort;
-@property(readonly) unsigned long long registryID; // @synthesize registryID=_registryID;
 
 @end
 

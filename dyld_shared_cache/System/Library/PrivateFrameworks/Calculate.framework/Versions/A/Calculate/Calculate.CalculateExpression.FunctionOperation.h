@@ -9,7 +9,6 @@
 @interface Calculate.CalculateExpression.FunctionOperation : Calculate.CalculateExpression.Operation
 {
     id function;
-    id isInvertible;
 }
 
 @end

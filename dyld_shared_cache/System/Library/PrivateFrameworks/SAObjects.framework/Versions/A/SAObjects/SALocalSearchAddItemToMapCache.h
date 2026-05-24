@@ -13,12 +13,12 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) SALocalSearchMapItem *mapItem;

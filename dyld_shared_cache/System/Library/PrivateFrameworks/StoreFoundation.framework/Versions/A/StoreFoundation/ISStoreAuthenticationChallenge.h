@@ -6,23 +6,15 @@
 
 #import <StoreFoundation/ISAuthenticationChallenge.h>
 
-@class NSString;
-@protocol NSURLAuthenticationChallengeSender;
-
 @interface ISStoreAuthenticationChallenge : ISAuthenticationChallenge
 {
     long long _failureCount;
-    _Bool _hasPassword;
-    NSString *_password;
-    id <NSURLAuthenticationChallengeSender> _sender;
-    NSString *_user;
-    _Bool _userNameIsEditable;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)6A;
 - (_Bool);
 - (void);
 - (id);
@@ -32,16 +24,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)leAtPath:(id)arg1 withProgressHandler: /* Error: Ran out of types for this method. */;
+- (id)_;
+- (void)isSignedByAppleFileAtPath:(id)arg1 withProgressHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long failureCount; // @synthesize failureCount=_failureCount;
-@property _Bool hasPassword; // @synthesize hasPassword=_hasPassword;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property __weak id <NSURLAuthenticationChallengeSender> sender; // @synthesize sender=_sender;
-@property(retain) NSString *user; // @synthesize user=_user;
-@property _Bool userNameIsEditable; // @synthesize userNameIsEditable=_userNameIsEditable;
 
 @end
 

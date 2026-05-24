@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface CKSoftwareUpdateStatus
 {
     _Bool _canCancel;
-    long long _state;
-    unsigned long long _bytesDownloaded;
-    unsigned long long _bytesTotal;
-    double _percentComplete;
-    double _estimatedTimeRemaining;
-    NSError *_error;
 }
 
 + (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_gmsModelRequestContext;
 - (double);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)F'
+;
 - (void);
 - (double);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bytesDownloaded; // @synthesize bytesDownloaded=_bytesDownloaded;
-@property(readonly, nonatomic) unsigned long long bytesTotal; // @synthesize bytesTotal=_bytesTotal;
-@property(readonly, nonatomic) _Bool canCancel; // @synthesize canCancel=_canCancel;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property(readonly, nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end

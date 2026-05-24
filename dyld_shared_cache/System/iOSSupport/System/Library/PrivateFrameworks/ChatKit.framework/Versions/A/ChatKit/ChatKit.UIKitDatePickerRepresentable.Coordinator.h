@@ -7,7 +7,6 @@
 @interface ChatKit.UIKitDatePickerRepresentable.Coordinator
 {
     id configuration;
-    id cancellables;
 }
 
 - (void);

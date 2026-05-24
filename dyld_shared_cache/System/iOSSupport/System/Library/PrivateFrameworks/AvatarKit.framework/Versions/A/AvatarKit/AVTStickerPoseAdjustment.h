@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarPose, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVTStickerPoseAdjustment
 {
     long long _presetCategory;
-    NSString *_presetIdentifier;
-    AVTAvatarPose *_pose;
 }
 
 - (void);
@@ -21,13 +17,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)equal to zero, %.2lf. Marking the RavenSolution as unhealthy. Exiting with check passed return value.;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTAvatarPose *pose; // @synthesize pose=_pose;
 @property(nonatomic) long long presetCategory; // @synthesize presetCategory=_presetCategory;
-@property(retain, nonatomic) NSString *presetIdentifier; // @synthesize presetIdentifier=_presetIdentifier;
 
 @end
 

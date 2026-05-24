@@ -9,16 +9,14 @@
 @interface MPMediaItemAnimatedArtwork
 {
     CDUnknownBlockType _previewImageRequestHandler;
-    CDUnknownBlockType _videoAssetFileURLRequestHandler;
-    NSString *_artworkID;
 }
 
-+ (id);
++ (id);
 + (void);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)uncommitted;
 - (void),&,N,V_quaternaryTextColor;
 
 // Remaining properties

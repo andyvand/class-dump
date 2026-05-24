@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSStackView, NSTextField;
-@protocol TitleAndStackViewControllerDelegate;
+@class NSArray, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface TitleAndStackViewController
 {
     NSArray *_elements;
-    id <TitleAndStackViewControllerDelegate> _delegate;
-    double _minimumWidth;
-    double _maximumWidth;
-    NSStackView *_stackView;
-    NSLayoutConstraint *_stackViewBottomConstraint;
-    NSTextField *_titleTextField;
 }
 
 - (id);
@@ -40,12 +33,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <TitleAndStackViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *elements; // @synthesize elements=_elements;
-@property(readonly, nonatomic) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(readonly, nonatomic) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(nonatomic) __weak NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(nonatomic) __weak NSLayoutConstraint *stackViewBottomConstraint; // @synthesize stackViewBottomConstraint=_stackViewBottomConstraint;
 @property(nonatomic) __weak NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end

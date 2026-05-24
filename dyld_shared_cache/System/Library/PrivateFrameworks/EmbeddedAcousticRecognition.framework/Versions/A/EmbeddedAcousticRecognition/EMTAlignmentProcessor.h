@@ -16,7 +16,7 @@
 + (id);
 + (struct _NSRange);
 + (vector_a196e018);
-+ (id);
++ (id);
 + (void)¿;
 
 @end

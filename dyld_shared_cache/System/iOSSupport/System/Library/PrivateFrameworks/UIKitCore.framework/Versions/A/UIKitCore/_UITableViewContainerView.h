@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)rowsable content APIs:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

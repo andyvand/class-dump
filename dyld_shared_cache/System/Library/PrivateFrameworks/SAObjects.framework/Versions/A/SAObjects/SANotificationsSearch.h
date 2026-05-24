@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SANotificationsSearch : SABaseClientBoundCommand
 {
@@ -15,28 +15,23 @@
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void).k;
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)NgramLmModel2>="__ptr_"^{NgramLmModel2}"__cntrl_"^{__shared_weak_count}};
 - (id);
 - (id);
 - (_Bool);
-- (id)ionOption;
+- (id)ConfirmationOption;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *afterNotificationId;
-@property(copy, nonatomic) NSNumber *isOnDeviceSearch;
-@property(copy, nonatomic) NSString *notificationType;
-@property(copy, nonatomic) NSString *priority;
-@property(copy, nonatomic) NSString *sourceAppId;
-@property(copy, nonatomic) NSNumber *supportsSpokenNotifications;
 
 @end
 

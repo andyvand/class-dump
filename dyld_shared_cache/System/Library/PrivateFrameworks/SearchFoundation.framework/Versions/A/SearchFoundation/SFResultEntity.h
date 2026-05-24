@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFLocationTypeInfo;
+@class NSString;
 
 @interface SFResultEntity
 {
     NSString *_name;
-    NSString *_maps_encrypted_muid;
-    SFLocationTypeInfo *_location_type_info;
 }
 
 + (_Bool);
@@ -18,31 +16,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)skipWithBehavior:(id)arg1;
+- (id)isSavedAccountHistoryInAutoFillEnabled;
 - (unsigned long long);
 - (_Bool);
+- (void)ime;
+- (id);
+- (id)PHAssetComposabilityResultTriptychScoresKey;
+- (id)only;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)tom;
+- (void)buttonItemsAreBottom;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLocationTypeInfo *location_type_info; // @synthesize location_type_info=_location_type_info;
-@property(copy, nonatomic) NSString *maps_encrypted_muid; // @synthesize maps_encrypted_muid=_maps_encrypted_muid;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

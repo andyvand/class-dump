@@ -4,12 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class EKAccountRefresher;
 
 @protocol EKCalendarChooserDelegatePrivateInProcessOnly
+- (EKAccountRefresher *);
+- (void)s;
+- (void)&s;
+- (void);
+- (unsigned long long)Rz;
 
 // Remaining properties
 @property(nonatomic) unsigned long long focusFilterMode;
-@property(readonly, nonatomic) NSSet *unselectedCalendarsForFocusMode;
 @end
 

@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void);
 + (void);
 + (_Bool);
 + (void);
@@ -43,22 +43,22 @@
 + (long long);
 + (_Bool);
 + (void);
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)zR;
 + (_Bool);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool)r or sponsorAltDSID in follow-up item;
 + (void);
 + (_Bool);
 + (void);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (void);
-+ (_Bool)derWithAccount:preferUsingPassword: /* Error: Ran out of types for this method. */;
++ (void)d;
++ (_Bool)aa_addBasicAuthorizationHeaderWithAccount:preferUsingPassword: /* Error: Ran out of types for this method. */;
 
 @end
 

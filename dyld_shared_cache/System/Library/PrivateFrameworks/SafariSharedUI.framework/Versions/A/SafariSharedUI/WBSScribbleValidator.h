@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, WKWebView;
+@class NSArray, WKWebView;
 
 @interface WBSScribbleValidator
 {
     WKWebView *_webView;
-    NSArray *_elementsToValidate;
-    NSArray *_targetsToExclude;
-    NSMutableArray *_targetingResults;
-    NSMutableArray *_targetsToHideUsingPaintAvoidance;
-    NSMutableArray *_targetsToHideUsingDisplayNone;
-    NSMutableArray *_targetsToReveal;
-    NSMutableArray *_similarTargetsAndElements;
-    NSMapTable *_targetToScribbleElementWithMatchingSelectorsMap;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
@@ -34,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (void);
@@ -42,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *targetsToHideUsingDisplayNone;
-@property(readonly, nonatomic) NSArray *targetsToHideUsingPaintAvoidance;
-@property(readonly, nonatomic) NSArray *targetsToReveal;
 
 @end
 

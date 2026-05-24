@@ -9,31 +9,23 @@
 @interface CGVirtualDisplaySettings
 {
     NSArray *_modes;
-    unsigned int _hiDPI;
-    double _refreshDeadline;
-    _Bool _isReference;
-    unsigned int _rotation;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)qa;
 - (double);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)ple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitMetadataPurger.m;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned int hiDPI; // @synthesize hiDPI=_hiDPI;
-@property(nonatomic) _Bool isReference;
-@property(retain, nonatomic) NSArray *modes;
 @property(nonatomic) double refreshDeadline;
-@property(nonatomic) unsigned int rotation; // @synthesize rotation=_rotation;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PHChange;
+
 @protocol PHPhotoLibraryChangeObserver
+- (void)e/AVConference.subproj/Sources/AUIO/AUIO.mm:(PHChange *)arg1 %d:AUIO=%p AudioUnitGetProperty(MicOut) failed(%d) /* Error: Ran out of types for this method. */;
 @end
 

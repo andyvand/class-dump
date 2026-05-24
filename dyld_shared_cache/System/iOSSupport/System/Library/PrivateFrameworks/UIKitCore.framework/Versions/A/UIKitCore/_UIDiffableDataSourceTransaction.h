@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDiffableDataSourceSnapshot, NSOrderedCollectionDifference;
+@class NSArray, NSDiffableDataSourceSnapshot;
 
 @interface _UIDiffableDataSourceTransaction
 {
     NSArray *_reorderedItemIdentifiers;
-    long long _source;
-    NSDiffableDataSourceSnapshot *_initialSnapshot;
-    NSDiffableDataSourceSnapshot *_finalSnapshot;
-    NSOrderedCollectionDifference *_difference;
-    NSArray *_sectionTransactions;
 }
 
 + (id);
 + (id);
+- (long long)setPayloadADWarnUserBeforeCreatingMAFlag:(long long)arg1;
 - (long long);
-- (long long);
 - (id);
 - (id);
-- (id);
+- (id)vector(%lu)
+;
 - (id);
 - (id);
 - (long long);
@@ -34,25 +30,22 @@
 × ;
 - (id)e°1Â0@ù
 × ;
-- (_Bool)ingFloatingTabBar;
-- (id)CenterYConstraint;
-- (id)ActionAtIndex: /* Error: Ran out of types for this method. */;
-- (id)rovider;
-- (id)erInsetsValue;
+- (_Bool)showingFloatingTabBar;
+- (id)primaryViewCenterYConstraint;
+- (id)_preparedAlertActionAtIndex: /* Error: Ran out of types for this method. */;
+- (id)_elementProvider;
+- (id)_UICornerInsetsValue;
 - (long long),V_replaceReplaceAllSegmentedControl;
 - (id)ckground thread. Performing any operation from a background thread on UIView or a subclass is not supported and may result in unexpected and insidious behavior. trace=%@;
-- (long long)leInternal;
+- (long long)AppleInternal;
 - (id):] /* Error: Ran out of types for this method. */;
-- (_Bool)eIdentifier;
+- (_Bool)UIReuseIdentifier;
 - (long long)erInterfaceStyle = ;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;
-@property(readonly, nonatomic) NSDiffableDataSourceSnapshot *finalSnapshot; // @synthesize finalSnapshot=_finalSnapshot;
 @property(readonly, nonatomic) NSDiffableDataSourceSnapshot *initialSnapshot; // @synthesize initialSnapshot=_initialSnapshot;
-@property(readonly, nonatomic) NSArray *sectionTransactions; // @synthesize sectionTransactions=_sectionTransactions;
 
 @end
 

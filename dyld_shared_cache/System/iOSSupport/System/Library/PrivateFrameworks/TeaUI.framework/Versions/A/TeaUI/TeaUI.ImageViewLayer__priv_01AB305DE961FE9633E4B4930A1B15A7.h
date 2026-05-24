@@ -12,7 +12,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)urlStringForThumbnailKey:inRecord: /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
 - (void);
@@ -21,21 +21,15 @@
 - (struct CGColor *);
 - (const struct CGPath *);
 - (double);
-- (void);
+- (void)ijh8i;
 - (void);
 - (void);
 - (struct CGSize);
 - (double);
-- (void)ger;
+- (void)Trigger;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius;
-@property(nonatomic) unsigned long long maskedCorners;
-@property(nonatomic, retain) struct CGColor *shadowColor;
-@property(nonatomic) struct CGSize shadowOffset;
-@property(nonatomic) float shadowOpacity;
-@property(nonatomic, retain) const struct CGPath *shadowPath;
-@property(nonatomic) double shadowRadius;
 
 @end
 

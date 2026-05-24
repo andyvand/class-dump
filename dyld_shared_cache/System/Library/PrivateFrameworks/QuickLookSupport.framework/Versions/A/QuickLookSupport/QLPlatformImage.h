@@ -7,31 +7,23 @@
 @interface QLPlatformImage
 {
     struct CGImage *_cgImage;
-    unsigned int _orientation;
-    double _scale;
-    CDUnknownBlockType _cleanupDataBlock;
-    struct CGSize _size;
 }
 
 + (id);
+- (void)ct];
+- (CDUnknownBlockType)nt64_t>, unsigned long long>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)tb;
 - (double);
-- (struct CGSize);
-- (void);
+- (struct CGSize);
+- (void);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (struct CGImage *);
 - (void);
 
 // Remaining properties
-@property struct CGImage *CGImage;
-@property(copy, nonatomic) CDUnknownBlockType cleanupDataBlock; // @synthesize cleanupDataBlock=_cleanupDataBlock;
-@property unsigned int orientation; // @synthesize orientation=_orientation;
-@property double scale; // @synthesize scale=_scale;
 @property struct CGSize size; // @synthesize size=_size;
 
 @end

@@ -4,52 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol MTLBuffer, MTLCommandBuffer, MTLComputePipelineState, MTLDevice, MTLTexture, OS_dispatch_group;
+@protocol MTLCommandBuffer;
 
 __attribute__((visibility("hidden")))
 @interface CIBilateralSolverGPU
 {
     id <MTLCommandBuffer> _commandBuffer;
-    id <MTLDevice> _metalDevice;
-    id <MTLComputePipelineState> _computePipelines[9];
-    NSObject<OS_dispatch_group> *_computePipelinesGroup;
-    struct {
-        CDStruct_da2e99ad dispatchThreadgroups;
-        CDStruct_da2e99ad threadsPerThreadgroup;
-    } _threadGroupInfo;
-    struct {
-        float lambda;
-        unsigned int N;
-        unsigned short dims;
-        float sigma_s;
-        float sigma_r_luma;
-    } _params;
-    struct {
-        id reference__confidence__disparity__output;
-    } _offsets;
-    int _width;
-    int _height;
-    unsigned long long _maxVertices;
-    id <MTLBuffer> _gridHashBuffer;
-    id <MTLBuffer> _gridBlurBuffer;
-    id <MTLBuffer> _gridCoordIndicesBuffer;
-    id <MTLBuffer> _gridCoordTableBuffer;
-    id <MTLTexture> _gridHashMatrix;
-    id <MTLBuffer> _gridInterpIndicesBuffer;
-    id <MTLBuffer> _gridInterpTableBuffer;
-    id <MTLBuffer> _gridInterpPadBuffer;
-    id <MTLBuffer> _A_buf;
-    id <MTLBuffer> _b_buf;
-    id <MTLBuffer> _s_buf;
-    id <MTLBuffer> _q_buf;
-    id <MTLBuffer> _Dn_buf[2];
-    id <MTLBuffer> _x_buf[2];
-    id <MTLBuffer> _r_buf[2];
-    id <MTLBuffer> _d_buf[2];
-    int _idxDnBufIn;
-    int _idxSwapBufIn;
-    _Bool _useTrilinearInterpolation;
 }
 
 - (_Bool);

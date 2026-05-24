@@ -6,15 +6,15 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolNetworkResponse;
+@class NSString;
 
 @interface RWIProtocolNetworkCachedResource : RWIProtocolJSONObject
 {
 }
 
-- (id);
+- (id)TJ;
 - (void);
-- (id);
+- (id)qA;
 - (void);
 - (double);
 - (id);
@@ -25,10 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double bodySize;
-@property(retain, nonatomic) RWIProtocolNetworkResponse *response;
-@property(copy, nonatomic) NSString *sourceMapURL;
-@property(nonatomic) long long type;
 @property(copy, nonatomic) NSString *url;
 
 @end

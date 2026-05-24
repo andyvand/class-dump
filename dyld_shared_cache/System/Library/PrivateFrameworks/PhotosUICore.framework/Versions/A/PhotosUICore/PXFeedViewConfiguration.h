@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXExtendedTraitCollection, PXFeedConfiguration, UXViewController;
+@class PXFeedConfiguration;
 
 @interface PXFeedViewConfiguration
 {
     PXFeedConfiguration *_feedConfiguration;
-    PXExtendedTraitCollection *_extendedTraitCollection;
-    UXViewController *_containerViewController;
 }
 
 - (id);
@@ -18,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id)rySubtitleTracking;
+- (id)memorySubtitleTracking;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak UXViewController *containerViewController; // @synthesize containerViewController=_containerViewController;
-@property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection; // @synthesize extendedTraitCollection=_extendedTraitCollection;
 @property(readonly, nonatomic) PXFeedConfiguration *feedConfiguration; // @synthesize feedConfiguration=_feedConfiguration;
 
 @end

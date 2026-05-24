@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSURL, TMIOKitDisk, TMOtherIODisk;
 @protocol TMAttrListDisk;
 
 @interface TMDisk
 {
     id <TMAttrListDisk> _attrInfo;
-    TMIOKitDisk *_ioInfo;
-    TMOtherIODisk *_otherIOInfo;
-    unsigned long long _traits;
 }
 
 + (id);
@@ -20,14 +16,14 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool)0;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -55,6 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -62,6 +59,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,22 +81,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)1@�_;
 - (id);
 - (id);
 - (id);
@@ -100,12 +96,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (int);
-- (id);
+- (id)onCache.m;
 - (id);
 - (id);
 - (struct fsid);
@@ -114,68 +110,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSString *apfsSnapshotName;
-@property(readonly) unsigned long long apfsSnapshotXID;
-@property(readonly) NSString *apfsVolumeGroupUUID;
-@property(readonly) NSNumber *apfsVolumeRole;
-@property(readonly) id <TMAttrListDisk> attrInfo; // @synthesize attrInfo=_attrInfo;
-@property(readonly) _Bool backedByDiskImage;
-@property(readonly) NSNumber *bytesFree;
-@property(readonly) NSNumber *bytesUsed;
-@property(readonly) NSNumber *capacity;
-@property(readonly) int device;
-@property(readonly, copy) NSString *deviceNode;
-@property(readonly) NSString *devicePath;
-@property(readonly) _Bool eligibleForBackup;
-@property(readonly) NSString *filesystemTypeName;
-@property(readonly) struct fsid fsid;
-@property(readonly) _Bool hasBackupVolumeRole;
-@property(readonly) _Bool hasRecoveryRole;
-@property(readonly) _Bool ignoringOwnership;
-@property(readonly) _Bool includedByDefault;
-@property(readonly) TMIOKitDisk *ioInfo; // @synthesize ioInfo=_ioInfo;
-@property(readonly) _Bool isAFP;
-@property(readonly) _Bool isAPFS;
-@property(readonly) _Bool isAPFSSnapshot;
-@property(readonly) _Bool isAppleBootPartition;
-@property(readonly) _Bool isBackupVolume;
-@property(readonly) _Bool isCaseSensitive;
-@property(readonly) _Bool isEXFAT;
-@property(readonly) _Bool isFAT;
-@property(readonly) _Bool isFullDiskEncrypted;
-@property(readonly) _Bool isHFS;
-@property(readonly) _Bool isHFSExtended;
-@property(readonly) _Bool isInStartupVolumeGroup;
-@property(readonly) _Bool isInternalDevice;
-@property(readonly) _Bool isJournaled;
-@property(readonly) _Bool isNTFS;
-@property(readonly) _Bool isROSPDataVolume;
-@property(readonly) _Bool isROSPSystemVolume;
-@property(readonly) _Bool isSMB;
-@property(readonly) _Bool isStartupDisk;
-@property(readonly) _Bool isWindows;
-@property(readonly) _Bool isXSAN;
 @property(readonly) TMDisk *liveDisk;
-@property(readonly) NSString *liveDiskDevice;
-@property(readonly) NSNumber *maximumVolumeSize;
-@property(readonly) unsigned long long mediumType;
-@property(readonly) NSString *mountPoint;
-@property(readonly) NSURL *mountPointURL;
-@property(readonly) NSArray *mountedDisksInVolumeGroup;
-@property(readonly) _Bool mountedLocally;
-@property(readonly) _Bool mountedReadOnly;
-@property(readonly) _Bool mountedTargetDiskMode;
-@property(readonly) _Bool mountedVisibly;
-@property(readonly) TMOtherIODisk *otherIOInfo; // @synthesize otherIOInfo=_otherIOInfo;
-@property(readonly) NSNumber *quota;
-@property(readonly) _Bool supportsBackupDiskImages;
-@property(readonly) _Bool supportsBackupStores;
-@property(readonly) _Bool supportsProtectedFiles;
-@property(readonly) unsigned long long traits; // @synthesize traits=_traits;
-@property(readonly) _Bool userVisibleVolume;
-@property(readonly) NSString *userVisibleVolumeName;
-@property(readonly) NSString *volumeName;
-@property(readonly) NSString *volumeUUID;
 
 @end
 

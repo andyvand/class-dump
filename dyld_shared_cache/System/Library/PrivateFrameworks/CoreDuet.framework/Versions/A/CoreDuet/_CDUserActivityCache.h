@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLock;
 @protocol _DKKnowledgeQuerying><_DKKnowledgeSaving><_DKKnowledgeEventStreamDeleting;
 
 @interface _CDUserActivityCache
 {
     id <_DKKnowledgeQuerying><_DKKnowledgeSaving><_DKKnowledgeEventStreamDeleting> _knowledgeStore;
-    _PASLock *_deletionCache;
-    unsigned int _count;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)Url;
 - (void)0@ù
 × ;
 

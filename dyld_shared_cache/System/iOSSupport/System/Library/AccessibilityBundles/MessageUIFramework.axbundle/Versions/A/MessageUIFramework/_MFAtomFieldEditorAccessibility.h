@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_UIValueCellContentViewConfigurationAccessibility;
++ (void);
 - (id);
 - (_Bool);
 - (id);

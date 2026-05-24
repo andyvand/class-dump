@@ -4,59 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSString;
+@class NSBundle;
 
 @interface OBBundle
 {
     NSBundle *_bundle;
-    _Bool _isPlaceholder;
-    _Bool _isLinkBundle;
-    _Bool _isReplacementBundle;
-    NSString *_identifier;
-    NSString *_name;
-    NSString *_bundleVersion;
-    NSString *_replacementPreconditionCache;
-    NSArray *_replaceeIdentifierSetsCache;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)entifierType, WTF:(id)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, bool>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)iJ;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)!;
+- (id)hB;
+- (id)@;
+- (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isLinkBundle; // @synthesize isLinkBundle=_isLinkBundle;
 @property(nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(nonatomic) _Bool isReplacementBundle; // @synthesize isReplacementBundle=_isReplacementBundle;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSArray *replaceeIdentifierSetsCache; // @synthesize replaceeIdentifierSetsCache=_replaceeIdentifierSetsCache;
-@property(retain, nonatomic) NSString *replacementPreconditionCache; // @synthesize replacementPreconditionCache=_replacementPreconditionCache;
-@property(readonly, nonatomic) NSBundle *underlyingBundle;
 
 @end
 

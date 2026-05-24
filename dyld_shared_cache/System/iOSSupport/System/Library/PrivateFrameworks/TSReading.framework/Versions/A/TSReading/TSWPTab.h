@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSWPTab
 {
     double _position;
-    int _alignment;
-    NSString *_leader;
 }
 
 + (id);
 + (int);
 + (id);
 + (id);
++ (id);
++ (id)Y;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Z;
 + (id);
 + (id);
 + (id);
@@ -33,28 +29,26 @@
 + (id);
 + (id);
 + (void)´;
-- (void);
-- (void);
-- (double);
-- (id);
-- (_Bool);
-- (id);
+- (void)without resolvedIdentifiers;
+- (void)ifiers:(id)arg1 %@;
+- (double)adam;
+- (id)aviorPodcasts-ReuseQueue;
+- (_Bool)B;
+- (id)InternalPlayerControllerDelegate;
 - (long long);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (int);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (void)
 × ;
-- (void)ecognizers;
+- (void)p_setupGestureRecognizers;
 
 // Remaining properties
-@property(nonatomic) int alignment; // @synthesize alignment=_alignment;
-@property(copy, nonatomic) NSString *leader; // @synthesize leader=_leader;
 @property(nonatomic) double position; // @synthesize position=_position;
 
 @end

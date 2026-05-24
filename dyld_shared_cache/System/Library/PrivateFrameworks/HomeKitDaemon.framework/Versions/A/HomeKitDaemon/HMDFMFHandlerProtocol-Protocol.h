@@ -5,6 +5,7 @@
 //
 
 @protocol HMDFMFHandlerProtocol
+- (void)_currentMinimalSenderForServiceName:(_Bool)arg1 createIfNeeded:(void (^)(HMDFMF *))arg2;
 - (_Bool)àhi@ipi iØij@jpj jäjkPkxk°kØklHll¸lðl<mpmmÔm;
 
 // Remaining properties

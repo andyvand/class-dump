@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVDisambiguationFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)n;
 - (void);
 - (void);
 - (unsigned long long);
@@ -24,15 +21,13 @@
 - (_Bool);
 - (id);
 - (id)@"ANCSchemaANCClientEvent";
-- (id)hemaIFTSystemPromptResolutionRequirementResolution;
+- (id)IFTSchemaIFTSystemPromptResolutionRequirementResolution;
 - (id)X-;
 - (void)Nô;
 - (unsigned int)·,;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

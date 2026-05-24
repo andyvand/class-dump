@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PAImageRequestCacheHint, PAImageRequestTileHint;
+@class PAImageRequestCacheHint;
 @protocol PAImageRequestService;
 
 @interface PAImageRequest
 {
     id <PAImageRequestService> _requestService;
-    unsigned char _loadMode;
-    PAImageRequestCacheHint *_cacheHint;
-    PAImageRequestTileHint *_tileHint;
 }
 
 + (void);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned char);
 - (id);
 - (void);
@@ -34,8 +31,6 @@
 
 // Remaining properties
 @property(retain) PAImageRequestCacheHint *cacheHint; // @synthesize cacheHint=_cacheHint;
-@property unsigned char loadMode; // @synthesize loadMode=_loadMode;
-@property(retain) PAImageRequestTileHint *tileHint; // @synthesize tileHint=_tileHint;
 
 @end
 

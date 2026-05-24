@@ -6,14 +6,11 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MLModelDescription;
 
 @interface MLClassifier : MLModel
 {
     struct os_unfair_lock_s _asyncClassifierQueueLock;
-    _Bool _supportsAsyncClassification;
-    NSObject<OS_dispatch_queue> *_asyncClassifierQueue;
 }
 
 + (id);
@@ -21,27 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)ro or mismatched lengths.;
 - (void)Cannot evaluate a sequence of length %d, which is longer than maximum of %d for bidirectional models.;
 - (id)Xx»ïÏ3GgªÞþ"vV¹Íí1eE¨üÜ ;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
 @property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

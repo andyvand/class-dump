@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SAAppsGetRestrictedAppsResponse : SABaseCommand
 {
@@ -20,20 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSDictionary *appToItsRestrictionsMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSArray *restrictedApps;
-@property(readonly) Class superclass;
 
 @end
 

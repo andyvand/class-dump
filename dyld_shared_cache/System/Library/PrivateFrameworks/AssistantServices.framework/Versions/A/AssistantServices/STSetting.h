@@ -9,11 +9,10 @@
 @interface STSetting : STSiriModelObject
 {
     long long _type;
-    id _value;
 }
 
 + (_Bool);
-- (void);
+- (void)t %{public}hd:(id)arg1 Disconnect already been called;
 - (id);
 - (long long);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

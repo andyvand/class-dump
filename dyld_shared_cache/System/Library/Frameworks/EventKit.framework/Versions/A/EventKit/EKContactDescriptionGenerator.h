@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
++ (id)kMRMediaRemoteApplicationFinishedLoadingContentNotification;
++ (id)kMRNowPlayingPlayerPathUserInfoKey;
 
 @end
 

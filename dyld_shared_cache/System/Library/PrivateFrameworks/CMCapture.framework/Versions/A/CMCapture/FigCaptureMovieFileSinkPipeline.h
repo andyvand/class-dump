@@ -6,32 +6,18 @@
 
 #import <CMCapture/FigCaptureSinkPipeline.h>
 
-@class BWFigVideoCaptureDevice, FigCaptureMovieFileSinkHeadPipeline, FigCaptureMovieFileSinkMiddlePipeline, FigVideoCaptureConnectionConfiguration, NSMutableArray, OS_os_workgroup;
+@class BWFigVideoCaptureDevice;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkPipeline : FigCaptureSinkPipeline
 {
     BWFigVideoCaptureDevice *_primaryCaptureDevice;
-    FigCaptureMovieFileSinkHeadPipeline *_headPipeline;
-    FigCaptureMovieFileSinkMiddlePipeline *_middlePipeline;
-    NSMutableArray *_tailPipelines;
-    NSMutableArray *_movieFileSinkNodes;
-    NSMutableArray *_videoCompressorNodes;
-    NSMutableArray *_sdofCompressorNodes;
-    FigVideoCaptureConnectionConfiguration *_primaryMovieFileVideoCaptureConnectionConfiguration;
-    _Bool _momentCaptureMovieRecordingEnabled;
-    _Bool _overCaptureTailPipelineRenderingEnabled;
-    _Bool _overCaptureEnabled;
-    _Bool _stereoVideoCaptureEnabled;
-    int _videoStabilizationStrength;
-    _Bool _smartStyleReversibilityEnabled;
-    OS_os_workgroup *_workgroup;
 }
 
-+ (void)ufacturer;
++ (void)Manufacturer;
 - (id);
 - (id);
-- (void);
+- (void)mOrientedBounds;
 
 @end
 

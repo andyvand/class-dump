@@ -5,5 +5,9 @@
 //
 
 @protocol LAContextClientEvaluationProt
+- (void)eightTplIfEEiEELNS_10GallicTypeE4EEENS_12GallicFactorIiS5_LS7_4EEEEEEE;
+- (void);
+- (void)B;
+- (void)aL;
 @end
 

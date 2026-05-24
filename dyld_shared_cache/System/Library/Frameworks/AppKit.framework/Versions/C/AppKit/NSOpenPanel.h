@@ -6,8 +6,6 @@
 
 #import <AppKit/NSSavePanel.h>
 
-@class NSArray;
-
 @interface NSOpenPanel : NSSavePanel
 {
 }
@@ -15,17 +13,9 @@
 + (unsigned long long);
 + (void);
 + (void);
-+ (id);
++ (id)kCFStreamPropertySocketSSLContext;
 
 // Remaining properties
-@property(readonly, copy) NSArray *URLs;
-@property(getter=isAccessoryViewDisclosed) _Bool accessoryViewDisclosed;
-@property _Bool allowsMultipleSelection;
-@property _Bool canChooseDirectories;
-@property _Bool canChooseFiles;
-@property _Bool canDownloadUbiquitousContents;
-@property _Bool canResolveUbiquitousConflicts;
-@property _Bool resolvesAliases;
 @property _Bool showsContentTypes;
 
 @end

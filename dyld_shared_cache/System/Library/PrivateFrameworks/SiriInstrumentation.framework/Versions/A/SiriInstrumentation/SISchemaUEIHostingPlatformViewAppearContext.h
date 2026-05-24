@@ -6,47 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEIHostingPlatformViewAppearEnded, SISchemaUEIHostingPlatformViewAppearStarted;
+@class SISchemaUEIHostingPlatformViewAppearStarted;
 
 @interface SISchemaUEIHostingPlatformViewAppearContext : SISchemaInstrumentationMessage
 {
     SISchemaUEIHostingPlatformViewAppearStarted *_startedOrChanged;
-    SISchemaUEIHostingPlatformViewAppearEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (id)tQ;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)dictionary;
 - (_Bool);
-- (_Bool);
+- (_Bool)successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages    FROM chat c   WHERE style = 43   AND (SELECT count(*) FROM chat cdupe WHERE cdupe.group_id = c.group_id AND cdupe.service_name = c.service_name) > 1   LIMIT ?;
 - (id);
-- (id);
-- (id)gQueryLocationCallContext;
-- (id)sAutoshortcutTemplate;
-- (void)BLED;
+- (id)	;
+- (id)deleteExecutorStringQueryLocationCallContext;
+- (id)_hasAutoshortcutTemplate;
+- (void)NLROUTERBRIDGEROUTINGDECISIONSOURCE_NL_ROUTER_DISABLED;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUEIHostingPlatformViewAppearEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUEIHostingPlatformViewAppearStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

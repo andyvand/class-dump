@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)fetchMomentIDsNotAnalyzedForThemesInContext:(id)arg1 adapterVersion:(id)arg2 uemVersion: /* Error: Ran out of types for this method. */;
 
 @end
 

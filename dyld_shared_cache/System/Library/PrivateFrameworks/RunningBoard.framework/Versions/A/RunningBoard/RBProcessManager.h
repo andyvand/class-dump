@@ -4,76 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, NSString, RBLaunchManager, RBLaunchdJobManager, RBPrewarmManager, RBProcessIndex, RBProcessMap, RBSystemState;
-@protocol RBBundlePropertiesManaging, RBEntitlementManaging, RBHistoricalStatisticsMaintaining, RBJetsamPropertyManaging, RBProcessManagerDelegate;
+@class RBLaunchdJobManager;
 
 @interface RBProcessManager
 {
     RBLaunchdJobManager *_jobManager;
-    id <RBBundlePropertiesManaging> _bundlePropertiesManager;
-    id <RBEntitlementManaging> _entitlementManager;
-    id <RBJetsamPropertyManaging> _jetsamPropertytManager;
-    id <RBHistoricalStatisticsMaintaining> _historicalStatistics;
-    RBPrewarmManager *_prewarmManager;
-    RBLaunchManager *_launchManager;
-    id <RBProcessManagerDelegate> _delegate;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _pendingExitBlockLock;
-    _Atomic unsigned long long _counter;
-    RBProcessIndex *_processIndex;
-    RBProcessIndex *_processGraveyard;
-    RBSystemState *_systemState;
-    RBProcessMap *_processState;
-    NSMutableDictionary *_identityToPendingExitBlock;
-    NSMutableDictionary *_identityToProcessLifecycleQueue;
-    NSCountedSet *_lifecycleQueuesInUse;
-    _Bool _systemPreventsIdleSleep;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)d/;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void).LaunchServices.applicationRegistered;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

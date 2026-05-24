@@ -6,13 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface NSToolbarSnapshotContainer : NSView
 {
     NSView *_contentView;
-    NSMapTable *_decorationViewsToContentViews;
 }
 
 - (id);

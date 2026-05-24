@@ -6,44 +6,34 @@
 
 #import <QuartzComposer/QCGraphicsContext.h>
 
-@class NSString, QCCGLContext;
+@class QCCGLContext;
 
 @interface QCOpenGLContext : QCGraphicsContext
 {
     QCCGLContext *_glContext;
-    float _fieldOfView;
-    _Bool _resetMatrices;
-    _Bool _flipped;
-    _Bool _mainThread;
-    NSString *_outputImageKey;
-    QCCGLContext *_ignoredContext;
-    struct _BackgroundInfo *_backgroundInfo;
-    struct _GLMatrices *_matrices;
-    unsigned long long _flags;
-    void *_unused3[1];
 }
 
 + (void);
 + (Class);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (struct CGColorSpace *);
 - (_Bool);
+- (void);
+- (void)Q	=S(=*=;
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)4;
 - (double);
 - (id);
 - (id);
@@ -65,18 +55,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct _CGLPixelFormatObject *);
 - (struct _CGLContextObject *);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)@  e;
 - (void);
 - (void);
 - (void);
 - (void)¬;
-- (float)ller;
+- (float)C3DKeyframedAnimationSetController;
 
 @end
 

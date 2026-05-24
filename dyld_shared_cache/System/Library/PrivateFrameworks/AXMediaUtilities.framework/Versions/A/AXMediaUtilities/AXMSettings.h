@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSUserDefaults;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AXMSettings
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSUserDefaults *_defaults;
-    NSMutableDictionary *_queue_settingObservers;
 }
 
 + (id);
 - (_Bool);
+- (_Bool)\|;
+- (_Bool)Qz;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)[|;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool useANODModelForAXElementVision; // @dynamic useANODModelForAXElementVision;
 @property(nonatomic) _Bool writeOutInputImages; // @dynamic writeOutInputImages;
-@property(nonatomic) _Bool writeOutOCRInputImages; // @dynamic writeOutOCRInputImages;
-@property(nonatomic) _Bool writeOutScreenCaptures; // @dynamic writeOutScreenCaptures;
 
 @end
 

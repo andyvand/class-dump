@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPlaybackArchiveDisplayProperties, NSData, NSMutableDictionary, NSString;
-
 @interface MPPlaybackArchive
 {
     _Bool _final;
-    MPPlaybackArchiveDisplayProperties *_displayProperties;
-    NSString *_bundleIdentifier;
-    unsigned long long _supportedOptions;
-    unsigned long long _copyOptions;
-    unsigned long long _queueControlOptions;
-    NSMutableDictionary *_storage;
-    long long _type;
-    NSString *_playbackSessionIdentifier;
-    NSString *_playbackSessionType;
-    NSData *_playbackSessionData;
 }
 
 + (_Bool);

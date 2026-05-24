@@ -6,19 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchRecordVersionsOperationInfo, NSArray, NSMutableDictionary, NSString;
 @protocol CKFetchRecordVersionsOperationCallbacks;
 
 @interface CKFetchRecordVersionsOperation : CKDatabaseOperation
 {
     _Bool _isDeleted;
-    _Bool _shouldFetchAssetContent;
-    CDUnknownBlockType _fetchRecordVersionsProgressBlock;
-    CDUnknownBlockType _fetchRecordVersionsCompletionBlock;
-    NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    NSString *_minimumVersionETag;
-    NSMutableDictionary *_recordErrors;
 }
 
 + (SEL);
@@ -29,47 +21,31 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)JA;
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id)9I;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)/j(8J!;
+- (id)a;
 - (void);
 - (_Bool);
 - (_Bool)(ð8òPôøÌøúþ;
 - (void)äØ;
 - (void)ø;
 - (void)account access authorization '%@' for container %{public}@;
-- (id)bution_PhoneFaceTimeCallHistory;
+- (id)CKSQLiteContainerAttribution_PhoneFaceTimeCallHistory;
 - (void)1saveResults_SDySSAAyytAD_pGG06deleteC0t;
 - (void)$añÿ¯ø;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKFetchRecordVersionsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordVersionsCompletionBlock; // @synthesize fetchRecordVersionsCompletionBlock=_fetchRecordVersionsCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordVersionsProgressBlock; // @synthesize fetchRecordVersionsProgressBlock=_fetchRecordVersionsProgressBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDeleted; // @synthesize isDeleted=_isDeleted;
-@property(copy, nonatomic) NSString *minimumVersionETag; // @synthesize minimumVersionETag=_minimumVersionETag;
-@property(readonly, nonatomic) CKFetchRecordVersionsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(retain, nonatomic) NSMutableDictionary *recordErrors; // @synthesize recordErrors=_recordErrors;
-@property(copy, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(readonly) Class superclass;
 
 @end
 

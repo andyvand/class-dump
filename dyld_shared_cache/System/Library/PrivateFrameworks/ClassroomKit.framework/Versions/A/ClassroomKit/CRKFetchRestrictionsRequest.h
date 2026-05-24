@@ -9,7 +9,7 @@
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)_;
 
 @end
 

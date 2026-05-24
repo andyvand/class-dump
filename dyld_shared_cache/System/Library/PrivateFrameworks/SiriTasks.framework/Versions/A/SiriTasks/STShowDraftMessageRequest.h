@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ocator<unsigned int> >=^I^I{__compressed_pair<unsigned int *, std:(id)arg1:__1::allocator<unsigned int> >=^I}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface AFInstanceInfo
 {
     NSUUID *_instanceUUID;
-    long long _applicationType;
-    NSUUID *_applicationUUID;
 }
 
-+ (id);
++ (id)2#;
 + (_Bool);
+- (id)stsSession:(CDUnknownBlockType)arg1 didStartTransaction: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)P;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void)"NSString",R,C,N,V_modalAlertContentMessage;
 - (id)teSnapshotMutating>"8;
 
 // Remaining properties
-@property(readonly, nonatomic) long long applicationType; // @synthesize applicationType=_applicationType;
-@property(readonly, copy, nonatomic) NSUUID *applicationUUID; // @synthesize applicationUUID=_applicationUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *instanceUUID; // @synthesize instanceUUID=_instanceUUID;
-@property(readonly) Class superclass;
 
 @end
 

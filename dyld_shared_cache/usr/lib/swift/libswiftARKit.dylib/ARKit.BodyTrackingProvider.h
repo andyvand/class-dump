@@ -8,9 +8,6 @@
 {
     id _cBodyTrackingProvider;
     id _cBodyTrackingConfiguration;
-    id anchorQueue;
-    id _latestBodyAnchor;
-    id anchorUpdateIterators;
 }
 
 @end

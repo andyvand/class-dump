@@ -8,7 +8,6 @@
 {
     id _recipeState;
     id _sheet;
-    id _$observationRegistrar;
 }
 
 @end

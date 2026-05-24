@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUISizeCache;
-
 @protocol TLKGridArrangementItem
+- (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange columnRange;
 @property(nonatomic) struct CGRect frame;
-@property(nonatomic) double horizontalCompressionResistance;
-@property(nonatomic) double horizontalHuggingPriority;
-@property(nonatomic) unsigned long long row;
-@property(retain, nonatomic) NUISizeCache *sizeCache;
 @end
 

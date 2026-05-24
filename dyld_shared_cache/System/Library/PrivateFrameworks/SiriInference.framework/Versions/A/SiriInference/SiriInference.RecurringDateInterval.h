@@ -7,7 +7,6 @@
 @interface SiriInference.RecurringDateInterval
 {
     id interval;
-    id recurrencePattern;
 }
 
 @end

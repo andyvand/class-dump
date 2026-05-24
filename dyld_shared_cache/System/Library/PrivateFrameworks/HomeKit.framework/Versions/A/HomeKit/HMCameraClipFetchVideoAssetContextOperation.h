@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCameraClip, HMCameraClipManager, NSURL;
+@class HMCameraClipManager;
 @protocol HMCameraClipFetchAssetContextOperationDataSource;
 
 @interface HMCameraClipFetchVideoAssetContextOperation
 {
     HMCameraClipManager *_clipManager;
-    HMCameraClip *_clip;
-    unsigned long long _videoSegmentsDownloadBatchSize;
-    NSURL *_clipDestinationFileURL;
-    NSURL *_hlsPlaylistDestinationFileURL;
-    CDUnknownBlockType _downloadProgressHandler;
-    CDUnknownBlockType _fetchVideoAssetContextCompletionBlock;
-    id <HMCameraClipFetchAssetContextOperationDataSource> _dataSource;
-    struct _NSRange _videoDataSegmentsRange;
 }
 
 + (id)3CE6F7E-F7E8-44B4-80CE-5786F6E6CD47;
@@ -42,26 +34,19 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
+- (CDUnknownBlockType)4*ED*J
+;
+- (id)h;
+- (id)d location data for %@ assets;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithUnsignedInteger: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) HMCameraClip *clip; // @synthesize clip=_clip;
-@property(copy) NSURL *clipDestinationFileURL; // @synthesize clipDestinationFileURL=_clipDestinationFileURL;
-@property(readonly) HMCameraClipManager *clipManager; // @synthesize clipManager=_clipManager;
 @property(readonly) id <HMCameraClipFetchAssetContextOperationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(copy) CDUnknownBlockType downloadProgressHandler; // @synthesize downloadProgressHandler=_downloadProgressHandler;
-@property(copy) CDUnknownBlockType fetchVideoAssetContextCompletionBlock; // @synthesize fetchVideoAssetContextCompletionBlock=_fetchVideoAssetContextCompletionBlock;
-@property(copy) NSURL *hlsPlaylistDestinationFileURL; // @synthesize hlsPlaylistDestinationFileURL=_hlsPlaylistDestinationFileURL;
-@property struct _NSRange videoDataSegmentsRange; // @synthesize videoDataSegmentsRange=_videoDataSegmentsRange;
-@property unsigned long long videoSegmentsDownloadBatchSize; // @synthesize videoSegmentsDownloadBatchSize=_videoSegmentsDownloadBatchSize;
 
 @end
 

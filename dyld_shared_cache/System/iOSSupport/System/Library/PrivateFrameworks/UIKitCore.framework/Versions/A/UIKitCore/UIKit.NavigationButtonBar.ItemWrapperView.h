@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString;
-
 @interface UIKit.NavigationButtonBar.ItemWrapperView : UIView
 {
     id contentView;
@@ -16,17 +14,15 @@
 
 - (void);
 - (id);
-- (id);
+- (id)setMLoadingQuery: /* Error: Ran out of types for this method. */;
 - (struct CGSize)Ð!@ùq\°1Â0@ù
 × ;
 - (struct UIEdgeInsets)8@"_UIViewControllerTransitionConductor"16@"_UIViewControllerOneToOneTransitionContext"24B32;
-- (id)rkEntry;
+- (id)_UIStatusBarDataNetworkEntry;
 - (struct CGSize)rameworks/WebKit.framework/WebKit;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) struct UIEdgeInsets hitTestInsets;
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end

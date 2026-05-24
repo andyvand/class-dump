@@ -7,16 +7,6 @@
 @interface NotesUI.ShareMetrics__priv_7B61C87D5F1EF51EE56142734628054A
 {
     id objectID;
-    id oldShare;
-    id activityType;
-    id error;
-    id shareOperation;
-    id _activityTypeAssigned;
-    id _errorAssigned;
-    id _completed;
-    id _collaborationSelected;
-    id _newShare;
-    id _shareOperationAssigned;
 }
 
 @end

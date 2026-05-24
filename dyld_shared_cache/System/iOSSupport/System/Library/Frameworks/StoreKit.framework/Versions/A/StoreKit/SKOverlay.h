@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SKOverlayConfiguration;
 @protocol SKOverlayDelegate;
 
 @interface SKOverlay
 {
     id <SKOverlayDelegate> _delegate;
-    SKOverlayConfiguration *_configuration;
 }
 
-+ (id);
++ (id)reading bytes during deserialization:(id)arg1;
 + (void);
+- (id)vents, reason:(id)arg1;
+- (void)orget to add an IntentDispatcher to your object graph, or add the intent dispatcher to your SwiftUI view hierarchy?;
+- (void)or occurred while reading bytes during deserialization:(id)arg1;
+- (id)IO;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) SKOverlayConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(nonatomic) __weak id <SKOverlayDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

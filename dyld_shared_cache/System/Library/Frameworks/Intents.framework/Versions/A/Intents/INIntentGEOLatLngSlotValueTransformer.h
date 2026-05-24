@@ -13,7 +13,7 @@
 + (Class);
 + (long long)ms;
 - (id);
-- (id)endarSystem:(id)arg1;
+- (id)StringAsCalendarSystem:(id)arg1;
 
 @end
 

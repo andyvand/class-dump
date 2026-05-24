@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactStore, CNContainer, CNGroup, CNUIGroupsAndContainersSaveManager, NSArray, NSMutableSet, NSString;
-@protocol CNMultipleUnknownContactsViewControllerDelegate;
+@class CNContactStore, NSArray;
 
 @interface CNMultipleUnknownContactsViewController
 {
     CNContactStore *_contactStore;
-    id <CNMultipleUnknownContactsViewControllerDelegate> _delegate;
-    CNGroup *_targetGroup;
-    CNContainer *_targetContainer;
-    NSArray *_contacts;
-    NSMutableSet *_createdContactIdentifiers;
-    CNContactFormatter *_formatter;
-    CNUIGroupsAndContainersSaveManager *_groupsAndContainersSaveManager;
 }
 
 + (id)0@ù
 × ;
-+ (id)IfNeeded;
++ (id)setupViewHierarchyAndConstraintsIfNeeded;
 + (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)k"*;
+- (id)j;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)qBl;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -43,39 +35,25 @@
 - (id);
 - (_Bool);
 - (id);
+- (long long)lockInfoForDelegate:(id)arg1;
+- (void)al id '%@'. Probably an underlying SQLite locking issue.;
+- (void);
 - (long long);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)wControllerWasTapped: /* Error: Ran out of types for this method. */;
+- (id)avatarViewControllerWasTapped: /* Error: Ran out of types for this method. */;
+- (void)_groupViewConfigurationUpdateToken;
 - (void);
-- (void);
-- (id)Style;
+- (id)CNActionViewStyle;
 - (void)s/AvatarUI.framework/AvatarUI;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(copy, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain, nonatomic) NSMutableSet *createdContactIdentifiers; // @synthesize createdContactIdentifiers=_createdContactIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMultipleUnknownContactsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContactFormatter *formatter; // @synthesize formatter=_formatter;
-@property(retain, nonatomic) CNUIGroupsAndContainersSaveManager *groupsAndContainersSaveManager; // @synthesize groupsAndContainersSaveManager=_groupsAndContainersSaveManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNContainer *targetContainer; // @synthesize targetContainer=_targetContainer;
-@property(retain, nonatomic) CNGroup *targetGroup; // @synthesize targetGroup=_targetGroup;
 
 @end
 

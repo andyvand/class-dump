@@ -13,7 +13,7 @@
     NSString *_followUpItemIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)Q;
 - (id);
 - (void);
 - (id);

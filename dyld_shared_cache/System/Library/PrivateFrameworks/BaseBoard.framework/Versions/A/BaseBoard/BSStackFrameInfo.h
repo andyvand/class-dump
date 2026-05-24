@@ -9,10 +9,6 @@
 @interface BSStackFrameInfo
 {
     NSString *_realFunctionName;
-    unsigned long long _address;
-    NSString *_functionName;
-    NSString *_executablePath;
-    NSString *_className;
 }
 
 - (id);
@@ -25,10 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long address; // @synthesize address=_address;
-@property(readonly, nonatomic) NSString *className; // @synthesize className=_className;
-@property(readonly, nonatomic) NSString *executableName;
-@property(readonly, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
 
 @end
 

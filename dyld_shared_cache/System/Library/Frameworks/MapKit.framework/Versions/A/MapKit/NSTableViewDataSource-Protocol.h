@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSTableView;
+
 @protocol NSTableViewDataSource
+
+@optional
+- (void);
+- (long long)willReindexItemsWithIdentifiers:(NSTableView *)arg1;
 @end
 

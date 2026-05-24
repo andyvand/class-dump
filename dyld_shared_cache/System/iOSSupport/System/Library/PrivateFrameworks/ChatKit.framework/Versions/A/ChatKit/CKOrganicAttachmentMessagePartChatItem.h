@@ -13,14 +13,14 @@
     CKOrganicImageLayoutRecipe *_layoutRecipe;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)identifiers;
+- (void)_snippetHighlightRegexMatchFinder;
 - (struct CGSize);
+- (id)hasMultipleAccounts;
 - (id);
-- (id);
-- (Class);
-- (Class);
-- (unsigned long long);
+- (Class)n;
+- (Class)edUserRecordNameForAccount with empty accountID;
+- (unsigned long long)gableData;
 - (Class);
 - (unsigned long long)24@"CKMediaObject"32;
 - (void)¨üè;

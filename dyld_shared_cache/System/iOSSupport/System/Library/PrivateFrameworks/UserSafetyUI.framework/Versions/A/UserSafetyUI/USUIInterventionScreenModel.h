@@ -4,46 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface USUIInterventionScreenModel
 {
     NSString *_title;
     NSString *_imageName;
-    NSString *_emoji;
-    NSArray *_bullets;
-    NSArray *_actions;
 }
 
++ (id)AddAutomation;
++ (id)legacyVariableString;
++ (id)sObjectContentItem.m;
++ (id)s Product;
++ (id)Error"32;
++ (id)NSURL"8@"NSData"16@"NSURLResponse"24@"NSError"32;
++ (id)RL"8Q16@?<v@?@"NSError">24^B32;
++ (id)esObjectContentItem"8@16@?<v@?@>24;
++ (id)ore ID;
++ (id)@"NSError"16;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)storeItemAdamID;
 + (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)ndicating next precipitation will be on Sunday. This precipitation includes snowfall that is less than a given amount, along with some liquid precipitation. The first argument is the snowfall amount, like 1.2. The second argument is the formatted snowfall amount with units, like 1.2 mm or 1.2″. The third argument is formatted liquid precipitation amount with units, like 1.2 mm or 1.2″.;
+- (id)_;
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (void)@2;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSArray *bullets; // @synthesize bullets=_bullets;
-@property(copy, nonatomic) NSString *emoji; // @synthesize emoji=_emoji;
 @property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 

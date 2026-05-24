@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNGenerateImageFeaturePrintRequest : VNImageBasedRequest
 {
 }
@@ -15,19 +13,18 @@
 + (Class);
 + (const CDStruct_3a02d5a8 *);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)for cache:(unsigned long long)arg1 %@;
+- (void)OS_ldap_connection>"8i16;
 - (_Bool);
 - (id)T¸±ÿ-Õ§T ±ÿÕ§T±ÿ;
 - (_Bool)ÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long imageCropAndScaleOption;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

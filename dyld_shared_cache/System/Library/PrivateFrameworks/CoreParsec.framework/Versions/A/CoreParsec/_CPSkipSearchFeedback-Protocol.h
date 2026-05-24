@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @protocol _CPSkipSearchFeedback
+- (void)qA;
+- (void)V_supportedMediaTypes;
 - (void)
 × ;
-- (int)gramPrefixMatchInAuthorEmailAddresses;
+- (int)countUnigramPrefixMatchInAuthorEmailAddresses;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *experimentId;
-@property(copy, nonatomic) NSString *experimentNamespaceId;
-@property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSString *treatmentId;
-@property(nonatomic) int triggerEvent;
 @end
 

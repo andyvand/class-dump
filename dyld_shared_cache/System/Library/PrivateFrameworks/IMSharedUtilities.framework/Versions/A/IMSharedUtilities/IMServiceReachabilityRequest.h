@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMServiceReachabilityContext, NSArray, NSString;
+@class NSArray;
 
 @interface IMServiceReachabilityRequest
 {
     NSArray *_handleIDs;
-    NSString *_requestID;
-    NSString *_serviceName;
-    NSString *_accountID;
-    IMServiceReachabilityContext *_context;
 }
 
 + (_Bool);
@@ -20,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,11 +25,7 @@
 - (void)]ÿÿÒ]ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) IMServiceReachabilityContext *context; // @synthesize context=_context;
 @property(readonly, nonatomic) NSArray *handleIDs; // @synthesize handleIDs=_handleIDs;
-@property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

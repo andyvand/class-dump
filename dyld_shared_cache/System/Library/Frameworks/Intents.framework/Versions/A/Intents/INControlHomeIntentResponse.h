@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INControlHomeIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_downloadingAllowed;
 + (int);
 + (long long);
 + (_Bool);
@@ -25,23 +23,15 @@
 - (long long);
 - (id);
 - (id);
+- (id)GCSystemGestureXPCProxyServerEndpoint;
+- (id);
+- (void)-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)ertyMetadataMaximumUnit;
+- (long long)__INCodableTimeIntervalAttributeMetadataINTypePropertyMetadataMaximumUnit;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *entityResponses;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

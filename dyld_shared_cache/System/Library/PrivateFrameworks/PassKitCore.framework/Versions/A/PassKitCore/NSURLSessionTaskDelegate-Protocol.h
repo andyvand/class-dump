@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)$;
+- (void)_removeLegacyGlobalDomainDefaultsEntriesWithSaveName:(NSURLSession *)arg1;
 - (void)es not meet requested level of %ld;
 - (void)mantic tags.;
 - (void);

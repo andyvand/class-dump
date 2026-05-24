@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebFetchQRCPETAction : AMSUIWebAction
 {
     id account;
-    id appProvidedData;
-    id authenticationType;
-    id log;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)Name:value: /* Error: Ran out of types for this method. */;
+- (void)queryItemWithName:value: /* Error: Ran out of types for this method. */;
 
 @end
 

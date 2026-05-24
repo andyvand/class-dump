@@ -9,13 +9,13 @@
 }
 
 + (_Bool);
++ (_Bool)o;
 + (_Bool);
++ (_Bool);
++ (_Bool)o;
++ (_Bool)o;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (double);

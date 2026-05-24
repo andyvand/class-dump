@@ -4,46 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLChangeBatch, CPLEngineIDMapping, CPLEngineScopeStorage, CPLEngineStore, CPLPushChangeTasks, NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet;
-@protocol CPLEngineIDMapping;
+@class CPLChangeBatch, CPLEngineScopeStorage;
 
 @interface CPLPushSessionTracker
 {
     CPLEngineScopeStorage *_scopes;
-    id <CPLEngineIDMapping> _optimisticIDMapping;
-    CPLEngineIDMapping *_realIDMapping;
-    NSMutableSet *_unquarantinedRecordScopedIdentifiers;
-    NSMutableDictionary *_incomingBatchRecordPerScopedIdentifiers;
-    NSMutableDictionary *_storedClientRecords;
-    NSMutableDictionary *_storedCloudRecords;
-    NSMutableArray *_addedRecords;
-    NSMutableArray *_updatedRecords;
-    NSMutableArray *_deletedRecordScopedIdentifiers;
-    NSMutableArray *_changesWithResourceChanges;
-    NSMutableDictionary *_fullRecords;
-    NSMutableDictionary *_resourcesToUpload;
-    NSMutableDictionary *_recordWithStatusChangesToNotify;
-    NSMutableSet *_validScopeIdentifiers;
-    NSMutableSet *_invalidScopeIdentifiers;
-    NSMutableArray *_changesWithMissingIDMapping;
-    _Bool _diffedBatchCanLowerQuota;
-    _Bool _expandHasBeenSuccessful;
-    _Bool _diffHasBeenSuccessful;
-    _Bool _applyHasBeenSuccessful;
-    CPLChangeBatch *_incomingBatch;
-    CPLEngineStore *_store;
-    CPLChangeBatch *_expandedBatch;
-    CPLPushChangeTasks *_pushChangeTasks;
-    CPLChangeBatch *_diffedBatch;
-    NSSet *_deletedScopeIdentifiers;
-    NSArray *_revertedChanges;
-    unsigned long long _ignoredRecordCount;
-    NSDate *_now;
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)nnot add quarantine to %{public}s:(id)arg1 %@;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -53,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -64,8 +34,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)+ %lu more;
-- (id)ª,Fàª.Fàª(Føª;
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -75,37 +45,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)!BùÑð1Â0@ù
 × ;
-- (_Bool)shResource:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)cords;
+- (_Bool)publishResource:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_updatedRecords;
 - (id)ræÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addedRecords;
-@property(readonly, nonatomic) _Bool applyHasBeenSuccessful; // @synthesize applyHasBeenSuccessful=_applyHasBeenSuccessful;
-@property(readonly, nonatomic) NSArray *deletedRecordScopedIdentifiers;
-@property(readonly, nonatomic) NSSet *deletedScopeIdentifiers; // @synthesize deletedScopeIdentifiers=_deletedScopeIdentifiers;
-@property(readonly, nonatomic) _Bool diffHasBeenSuccessful; // @synthesize diffHasBeenSuccessful=_diffHasBeenSuccessful;
-@property(readonly, nonatomic) CPLChangeBatch *diffedBatch; // @synthesize diffedBatch=_diffedBatch;
-@property(readonly, nonatomic) _Bool diffedBatchCanLowerQuota; // @synthesize diffedBatchCanLowerQuota=_diffedBatchCanLowerQuota;
-@property(readonly, nonatomic) _Bool expandHasBeenSuccessful; // @synthesize expandHasBeenSuccessful=_expandHasBeenSuccessful;
-@property(readonly, nonatomic) CPLChangeBatch *expandedBatch; // @synthesize expandedBatch=_expandedBatch;
-@property(readonly, nonatomic) _Bool hasPushChangeTasks;
-@property(readonly, nonatomic) unsigned long long ignoredRecordCount; // @synthesize ignoredRecordCount=_ignoredRecordCount;
 @property(readonly, nonatomic) CPLChangeBatch *incomingBatch; // @synthesize incomingBatch=_incomingBatch;
-@property(copy, nonatomic) NSDate *now; // @synthesize now=_now;
-@property(readonly, nonatomic) CPLPushChangeTasks *pushChangeTasks; // @synthesize pushChangeTasks=_pushChangeTasks;
-@property(readonly, nonatomic) NSDictionary *recordWithStatusChangesToNotify; // @synthesize recordWithStatusChangesToNotify=_recordWithStatusChangesToNotify;
-@property(readonly, nonatomic) NSDictionary *resourcesToUpload;
-@property(readonly, nonatomic) NSArray *revertedChanges; // @synthesize revertedChanges=_revertedChanges;
-@property(readonly, nonatomic) CPLEngineStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) NSSet *unquarantinedRecordScopedIdentifiers; // @synthesize unquarantinedRecordScopedIdentifiers=_unquarantinedRecordScopedIdentifiers;
-@property(readonly, nonatomic) NSArray *updatedRecords;
 
 @end
 

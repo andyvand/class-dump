@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface EKImageCache
 {
     NSMutableDictionary *_cache;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

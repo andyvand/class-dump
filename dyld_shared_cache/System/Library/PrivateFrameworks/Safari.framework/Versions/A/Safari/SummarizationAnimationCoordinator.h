@@ -9,10 +9,6 @@
 @interface SummarizationAnimationCoordinator
 {
     id activeEffects;
-    id $__lazy_storage_$_previewSource;
-    id effectView;
-    void delegate;
-    _Bool contentBoundsUpdating;
 }
 
 - (void);
@@ -20,13 +16,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)audioTranscriptionText;
 - (void);
 - (void);
 - (void)¼;
 
 // Remaining properties
-@property(nonatomic) _Bool contentBoundsUpdating; // @synthesize contentBoundsUpdating;
 @property(nonatomic) __weak id <SummarizationAnimationCoordinatorDelegate> delegate; // @synthesize delegate;
 
 @end

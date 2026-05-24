@@ -7,9 +7,6 @@
 @interface SiriIntentEvents.IntentResult
 {
     id intentType;
-    id type;
-    id intentData;
-    id timestamp;
 }
 
 @end

@@ -18,12 +18,11 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)E;
+- (id)chatRecordsWithHandles:(void *)arg1 serviceName:displayName:groupID:style:useOriginalGroupID: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSArray *passwords;
 
 @end

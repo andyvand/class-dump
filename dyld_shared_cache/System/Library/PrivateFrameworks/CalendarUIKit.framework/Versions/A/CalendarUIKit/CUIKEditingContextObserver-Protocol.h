@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol CUIKEditingContextObserver
+- (NSDictionary *)workspaces/cloudphotolibrary/Framework/Sources/CPLPushChangeSession.m;
+- (_Bool)or '%@';
+
+@optional
+- (void)ny times;
 @end
 

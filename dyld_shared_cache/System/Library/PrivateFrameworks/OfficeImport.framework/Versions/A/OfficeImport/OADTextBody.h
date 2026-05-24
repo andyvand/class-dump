@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, OADTextBodyProperties, OADTextListStyle;
+@class OADTextBodyProperties;
 
 __attribute__((visibility("hidden")))
 @interface OADTextBody
 {
     OADTextBodyProperties *mProperties;
-    NSMutableArray *mParagraphs;
-    OADTextListStyle *mTextListStyle;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -25,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id);
 - (id);
@@ -36,11 +34,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)ts (File already downloaded). isNew:%d, localURL:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (void);
 
 @end

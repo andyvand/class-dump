@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSMutableDictionary, NSObject, NSSet, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCRequestTracker
 {
     struct os_unfair_lock_s _lock;
-    NSString *_clientName;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_pendingRequests;
-    HMFTimer *_watchdogTimer;
 }
 
 + (id)³B;
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)hModel:(id)arg1 message:error: /* Error: Ran out of types for this method. */;
+- (void)updateZoneWithModel:(id)arg1 message:error: /* Error: Ran out of types for this method. */;
 - (id)verConnectEndTime;
 - (id);
 - (void)of invalid selected config;
@@ -34,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)daemon.media.destination.controller.updateDestinationFailed;
 
 // Remaining properties
-@property(copy) NSString *clientName; // @synthesize clientName=_clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, copy) NSSet *requestIdentifiers;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) HMFTimer *watchdogTimer; // @synthesize watchdogTimer=_watchdogTimer;
 
 @end
 

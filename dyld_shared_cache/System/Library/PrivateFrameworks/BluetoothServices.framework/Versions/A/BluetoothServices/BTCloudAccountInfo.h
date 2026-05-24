@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BTCloudAccountInfo
 {
     _Bool _isSignedIn;
-    _Bool _manateeAvailable;
-    NSString *_accountIdentifier;
-    NSString *_loginID;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)poraryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/WebPasteboardProxyCocoa.mm 336:(_Bool)arg1 Invalid message dispatched %{public}s;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)ut it doesn't contain valid coordinates. Dictionary:%@ /* Error: Ran out of types for this method. */;
+- (id)8;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
 @property(nonatomic) _Bool isSignedIn; // @synthesize isSignedIn=_isSignedIn;
-@property(retain, nonatomic) NSString *loginID; // @synthesize loginID=_loginID;
-@property(nonatomic) _Bool manateeAvailable; // @synthesize manateeAvailable=_manateeAvailable;
 
 @end
 

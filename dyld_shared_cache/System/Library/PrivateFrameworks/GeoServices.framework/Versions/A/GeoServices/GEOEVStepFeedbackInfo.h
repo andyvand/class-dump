@@ -7,18 +7,9 @@
 @interface GEOEVStepFeedbackInfo
 {
     unsigned int _remainingBatteryCharge;
-    unsigned int _remainingBatteryPercentage;
-    unsigned int _remainingTravelRange;
-    unsigned int _stateOfChargeDiff;
-    struct {
-        unsigned int has_remainingBatteryCharge:1;
-        unsigned int has_remainingBatteryPercentage:1;
-        unsigned int has_remainingTravelRange:1;
-        unsigned int has_stateOfChargeDiff:1;
-    } _flags;
 }
 
-+ (_Bool)ainingBatteryPercentage:(id)arg1;
++ (_Bool)setHasRemainingBatteryPercentage:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
@@ -26,38 +17,31 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (unsigned int)lib/swift/libswiftIOKit.dylib;
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (unsigned int)/A/Accounts;
+- (_Bool)setAuditToken:allowsHighPriorityError: /* Error: Ran out of types for this method. */;
+- (_Bool)providerWithBackgroundConcurrencyLimit: /* Error: Ran out of types for this method. */;
+- (_Bool)providerContainerIdentifier;
+- (_Bool)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)voiceTriggerAudioLogDirectory;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)nabled:(struct _NSZone *)arg1;
-- (id)kets;
+- (id)setHasSearchEnrichmentIsOptInEnabled:(struct _NSZone *)arg1;
+- (id)GEOAdditionalEnabledMarkets;
 - (id)Õÿÿ8Öÿÿ;
 - (id)´;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRemainingBatteryCharge;
 @property(nonatomic) _Bool hasRemainingBatteryPercentage;
-@property(nonatomic) _Bool hasRemainingTravelRange;
-@property(nonatomic) _Bool hasStateOfChargeDiff;
-@property(nonatomic) unsigned int remainingBatteryCharge;
-@property(nonatomic) unsigned int remainingBatteryPercentage;
-@property(nonatomic) unsigned int remainingTravelRange;
-@property(nonatomic) unsigned int stateOfChargeDiff;
 
 @end
 

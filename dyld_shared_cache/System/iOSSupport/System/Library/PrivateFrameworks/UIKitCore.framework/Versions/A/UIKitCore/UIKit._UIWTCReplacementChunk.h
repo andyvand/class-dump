@@ -9,11 +9,6 @@
 @interface UIKit._UIWTCReplacementChunk : UIKit._UIWTCTextChunk
 {
     id deliveryID;
-    id effectiveContextID;
-    id isInitialAnimationPending;
-    id isDeliveryAnimationPending;
-    id isInitialAnimationComplete;
-    id isDeliveryAnimationComplete;
 }
 
 - (id);

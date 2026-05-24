@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     GEOGloriaDB *_db;
 }
 
-- (id);
+- (id)c;
 - (id);
 - (id)@ù
 × ;

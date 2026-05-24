@@ -7,9 +7,6 @@
 @interface _MTLIndirectStencilReferenceValues
 {
     unsigned int frontReferenceValue;
-    unsigned int backReferenceValue;
-    unsigned int _frontReferenceValue;
-    unsigned int _backReferenceValue;
 }
 
 - (void);
@@ -18,7 +15,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned int backReferenceValue; // @synthesize backReferenceValue=_backReferenceValue;
 @property(nonatomic) unsigned int frontReferenceValue; // @synthesize frontReferenceValue=_frontReferenceValue;
 
 @end

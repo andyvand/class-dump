@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext;
+@class CDPContext, NSArray;
 
 @protocol CDPDOctagonTrustProxy
++ (_Bool)WalletOrderFileDownload;
+- (void)TJ;
+- (NSArray *)H1;
 
 // Remaining properties
 @property(retain, nonatomic) CDPContext *cdpContext;

@@ -5,5 +5,6 @@
 //
 
 @protocol VCRateAdaptationDelegate
+- (void)?;
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol _UIForceLevelClassifierDelegate
+- (void),R,C,N,V_scheduleState;
+
+@optional
+- (void);
 @end
 

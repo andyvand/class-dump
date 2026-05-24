@@ -6,20 +6,16 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface AKNoteAnnotation : AKAnnotation
 {
     NSColor *_fillColorHDR;
-    NSColor *_fillColorSDR;
-    AKAnnotation *_childAnnotation;
-    NSString *_contents;
-    struct CGRect _rectangle;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
@@ -30,12 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)for voice input. Siri must be enabled to use this command.;
+- (void)ic}@Install managed configuration profiles succeeded:(struct CGPoint)arg1 %@;
+- (id)ps with UUIDs:%@ /* Error: Ran out of types for this method. */;
+- (void)};
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -45,19 +41,7 @@
 - (void);
 
 // Remaining properties
-@property __weak AKAnnotation *childAnnotation; // @synthesize childAnnotation=_childAnnotation;
-@property(copy) NSString *contents; // @synthesize contents=_contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSColor *fillColor;
-@property(retain) NSColor *fillColorHDR; // @synthesize fillColorHDR=_fillColorHDR;
-@property(retain) NSColor *fillColorSDR; // @synthesize fillColorSDR=_fillColorSDR;
-@property(readonly) unsigned long long hash;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property(readonly) Class superclass;
 
 @end
 

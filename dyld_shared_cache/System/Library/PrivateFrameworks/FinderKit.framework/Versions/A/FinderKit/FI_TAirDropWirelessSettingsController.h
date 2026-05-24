@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFWirelessSettingsController;
+@class SFWirelessSettingsController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropWirelessSettingsController
 {
     SFWirelessSettingsController *_settingsController;
-    _Bool _isBluetoothEnabled;
-    _Bool _isWifiEnabled;
-    _Bool _deviceSupportsWAPI;
 }
 
-+ (id)arTargetNode;
++ (id)_sidebarTargetNode;
 - (void);
 - (void);
 - (void);
@@ -25,22 +22,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ssages ON message_references.reference = messages.message_id WHERE message_references.message = :descendant_rowid ORDER BY message_references.ROWID DESC /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)inerEnumerator23FinishLibraryPopulationEvEN3$_0clEvEUlvE0_vJEEE;
 
 // Remaining properties
 @property(nonatomic, getter=isBluetoothEnabled) _Bool bluetoothEnabled; // @synthesize bluetoothEnabled=_isBluetoothEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool deviceSupportsWAPI; // @synthesize deviceSupportsWAPI=_deviceSupportsWAPI;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isWifiEnabled) _Bool wifiEnabled; // @synthesize wifiEnabled=_isWifiEnabled;
 
 @end
 

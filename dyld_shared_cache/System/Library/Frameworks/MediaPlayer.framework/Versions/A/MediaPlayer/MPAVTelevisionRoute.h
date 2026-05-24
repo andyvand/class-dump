@@ -11,7 +11,6 @@
 @interface MPAVTelevisionRoute : MPAVRoute
 {
     MPAVRouteConnection *_connection;
-    void *_television;
 }
 
 - (void *);
@@ -20,8 +19,8 @@
 - (long long);
 - (void);
 - (id);
-- (id);
-- (void)ovieKeepLocalManagedStatusReason__MAPPING_MISSING__;
+- (id)setCachedSubscriptionStatus: /* Error: Ran out of types for this method. */;
+- (void)__MPModelPropertyMovieKeepLocalManagedStatusReason__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) void *television; // @synthesize television=_television;

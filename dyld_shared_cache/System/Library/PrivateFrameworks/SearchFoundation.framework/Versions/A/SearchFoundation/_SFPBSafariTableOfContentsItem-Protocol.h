@@ -7,11 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBSafariTableOfContentsItem
+- (NSString *)enableBackgroundImages;
+- (id)@;
+- (NSData *)itleMixed;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *elementPath;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *text;
-@property(copy, nonatomic) NSString *trailingText;
 @end
 

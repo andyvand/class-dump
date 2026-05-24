@@ -7,11 +7,10 @@
 @interface TSKBiggerButton
 {
     _Bool mHitTestWithOutsets;
-    struct UIEdgeInsets mOutsets;
 }
 
 + (id);
-- (void);
+- (void)ER EVENT INJECTED   〔;
 - (_Bool);
 
 @end

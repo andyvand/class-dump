@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (id)OBData failed:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)|;
 
 // Remaining properties
 @property(readonly) id <_CNLazyArrayOperation> input; // @synthesize input=_input;

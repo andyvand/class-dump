@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id)uggestionPropertyStartDateComponents;
++ (id)_UUIDString;
++ (id)PHSearchSuggestionPropertyStartDateComponents;
 + (id);
 - (short);
 - (id);

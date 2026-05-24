@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPTranscriptAlignment, MRTranscriptAlignment;
+@class MRTranscriptAlignment;
 
 @interface MPNowPlayingInfoTranscriptAlignment
 {
     _Bool _matchedBeginning;
-    _Bool _matchedEnd;
-    double _playerStartTime;
-    double _playerEndTime;
-    double _referenceStartTime;
-    double _referenceEndTime;
 }
 
 - (id);
@@ -28,14 +23,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool matchedBeginning; // @synthesize matchedBeginning=_matchedBeginning;
-@property(readonly, nonatomic) _Bool matchedEnd; // @synthesize matchedEnd=_matchedEnd;
-@property(readonly, nonatomic) MPTranscriptAlignment *mpTranscriptAlignment;
 @property(readonly, nonatomic) MRTranscriptAlignment *mrTranscriptAlignment;
-@property(readonly, nonatomic) double playerEndTime; // @synthesize playerEndTime=_playerEndTime;
-@property(readonly, nonatomic) double playerStartTime; // @synthesize playerStartTime=_playerStartTime;
-@property(readonly, nonatomic) double referenceEndTime; // @synthesize referenceEndTime=_referenceEndTime;
-@property(readonly, nonatomic) double referenceStartTime; // @synthesize referenceStartTime=_referenceStartTime;
 
 @end
 

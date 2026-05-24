@@ -4,45 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableIndexSet, NSString, UITableView, UITableViewRowData, UIView;
-@protocol _UITableViewIgnoreDragsToken;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewUpdateSupport
 {
     long long oldSection;
-    long long newSection;
-    long long oldGlobalRow;
-    long long newGlobalRow;
-    UITableView *tableView;
-    struct _NSRange visibleRows;
-    NSArray *updateItems;
-    UITableViewRowData *oldRowData;
-    UITableViewRowData *newRowData;
-    struct _NSRange oldRowRange;
-    struct _NSRange newRowRange;
-    NSMutableIndexSet *movedRows;
-    struct CGRect oldTableViewVisibleBounds;
-    struct CGRect newTableViewVisibleBounds;
-    struct CGRect tableViewVisibleBoundsUnion;
-    double tableViewVisibleBoundsOffset;
-    long long oldSectionCount;
-    long long newSectionCount;
-    long long oldGlobalRowCount;
-    long long newGlobalRowCount;
-    id *animatedCells;
-    id *animatedHeaders;
-    id *animatedFooters;
-    long long globalReorderingRow;
-    id _context;
-    id <_UITableViewIgnoreDragsToken> _ignoringDragsToken;
-    _Bool _updateItemUsedAutomaticRowAnimation;
-    NSMutableArray *viewAnimations;
-    NSMutableArray *deletedSections;
-    NSMutableArray *insertedSections;
-    UIView *backdropView;
-    struct _UIDataSourceUpdateMaps _updateMaps;
-    NSString *_invalidUpdatesErrorMessage;
 }
 
 - (id);
@@ -56,29 +23,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (double);
-- (void);
+- (void)_matchesHeightForAlignmentRectWithIntrinsicContentSize;
 - (void);
 - (id);
 - (void);
 - (id *);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)Â0@ù
 × ;
 - (void)";
-- (void)nlineView:yOffset: /* Error: Ran out of types for this method. */;
-- (void)neWillDeactivate:(long long)arg1 withContext:(struct CGRect)arg2;
-- (id)ForAxis: /* Error: Ran out of types for this method. */;
-- (void)ntsBlendModeForAccessibilityBackgrounds;
+- (void)updateDictationPopoverLocationForCandidateInlineView:yOffset: /* Error: Ran out of types for this method. */;
+- (void)sceneWillDeactivate:(long long)arg1 withContext:(struct CGRect)arg2;
+- (id)contentHuggingPriorityForAxis: /* Error: Ran out of types for this method. */;
+- (void)_wantsBlendModeForAccessibilityBackgrounds;
 - (void)r: /* Error: Ran out of types for this method. */;
-- (void)Updates;
-- (void)iew;
-- (_Bool)nge;
-- (void)buttonForBackButtonIndicator;
+- (void)_tracksWindowsNeedingDeferredInitialUpdates;
+- (void)_topStripView;
+- (_Bool)_metricsProviderDidChange;
+- (void)_buttonForBackButtonIndicator;
 - (double)umaTrackingBackdropViewGroupDelegate>",W,N,S_setGroupDelegate:(long long)arg1;
-- (double)SearchBarAnimator;
+- (double)_UISearchControllerCarPlaySearchBarAnimator;
 - (struct _NSRange)`g;
 - (long long)R{þÿ;
 - (void)all;

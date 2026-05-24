@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterAccessViolation
 {
     HAPTLVUnsignedNumberValue *_clientIdentifier;
-    HAPTLVUnsignedNumberValue *_lastViolationTimestamp;
-    HAPTLVUnsignedNumberValue *_lastResetTimestamp;
 }
 
-+ (id);
++ (id)momentForMomentNode:(id)arg1 inPhotoLibrary:(id *)arg2;
 - (void);
 - (void);
-- (id);
+- (id)ndexesOfRemovedObjects;
 - (id);
 - (id);
 - (id);
@@ -27,20 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)meAllowed;
-- (void)roupsAggregateConsumerUpdatedAggregateDataNotification;
+- (id)isAccessToHomeAllowed;
+- (void)HMDMediaGroupsAggregateConsumerUpdatedAggregateDataNotification;
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *lastResetTimestamp; // @synthesize lastResetTimestamp=_lastResetTimestamp;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *lastViolationTimestamp; // @synthesize lastViolationTimestamp=_lastViolationTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,87 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TodayCirclePulseBackground, UIFont, UILabel, UIView;
+@class NSString, UIView;
 
 @interface EKUITodayCirclePulseView
 {
     UIView *_backgroundContainer;
-    TodayCirclePulseBackground *_background;
-    UILabel *_label;
-    UILabel *_overlayLabel;
-    NSDictionary *_attributes;
-    NSDictionary *_overlayAttributes;
-    _Bool _usesTextYOffsetWithoutAdjustmentForOverlay;
-    _Bool _circleShouldFillFrame;
-    _Bool _dontApplyCenteringOffset;
-    double _circleDiameter;
-    double _textYOffset;
-    double _textFrameWidthAdjustment;
-    struct CGPoint _textOffsetFromCircle;
 }
 
 - (_Bool);
-- (_Bool);
-- (double);
+- (_Bool);
+- (double);
 - (struct CGPoint);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)X%s;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
+- (_Bool)Y%s;
 - (_Bool);
-- (_Bool);
-- (double);
+- (double);
 - (void);
 - (void);
+- (void)s;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)0;
 - (id);
 - (void);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)or timer:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)itor"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributes;
-@property(nonatomic) double circleDiameter; // @synthesize circleDiameter=_circleDiameter;
-@property(nonatomic) _Bool circleShouldFillFrame; // @synthesize circleShouldFillFrame=_circleShouldFillFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dontApplyCenteringOffset; // @synthesize dontApplyCenteringOffset=_dontApplyCenteringOffset;
-@property(retain, nonatomic) UIFont *font;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *overlayAttributes;
-@property(retain, nonatomic) UIFont *overlayFont;
-@property(copy, nonatomic) NSString *overlayString;
-@property(nonatomic) double roundedRectCornerRadius;
 @property(copy, nonatomic) NSString *string;
-@property(readonly) Class superclass;
-@property(nonatomic) double textFrameWidthAdjustment; // @synthesize textFrameWidthAdjustment=_textFrameWidthAdjustment;
-@property(nonatomic) struct CGPoint textOffsetFromCircle; // @synthesize textOffsetFromCircle=_textOffsetFromCircle;
-@property(nonatomic) double textYOffset; // @synthesize textYOffset=_textYOffset;
-@property(nonatomic) _Bool usesRoundedRectInsteadOfCircle;
-@property(nonatomic) _Bool usesTextYOffsetWithoutAdjustmentForOverlay; // @synthesize usesTextYOffsetWithoutAdjustmentForOverlay=_usesTextYOffsetWithoutAdjustmentForOverlay;
 
 @end
 

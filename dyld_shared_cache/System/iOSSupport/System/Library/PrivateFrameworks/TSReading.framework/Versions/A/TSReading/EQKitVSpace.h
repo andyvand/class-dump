@@ -9,13 +9,12 @@
 @interface EQKitVSpace : EQKitBox
 {
     double mHeight;
-    double mDepth;
 }
 
 - (double);
 - (double);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)9;
 - (id);
 - (id);
 - (double);
@@ -25,10 +24,7 @@
 %¯;
 
 // Remaining properties
-@property(readonly, nonatomic) double depth; // @synthesize depth=mDepth;
 @property(readonly, nonatomic) double height; // @synthesize height=mHeight;
-@property(readonly, nonatomic) double layoutDepth;
-@property(readonly, nonatomic) double layoutHeight;
 
 @end
 

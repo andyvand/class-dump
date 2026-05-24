@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface TUSmartHoldingSession
 {
     _Bool _hostedOnCurrentDevice;
-    NSUUID *_uuid;
-    unsigned long long _state;
-    unsigned long long _requiresUserAttentionReason;
-    NSArray *_events;
 }
 
 + (_Bool);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -28,15 +24,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)eIdentifier: /* Error: Ran out of types for this method. */;
+- (id)/CoreGraphics;
+- (void)willRestrictAddresses:forBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic, getter=isHostedOnCurrentDevice) _Bool hostedOnCurrentDevice; // @synthesize hostedOnCurrentDevice=_hostedOnCurrentDevice;
-@property(readonly, nonatomic) unsigned long long requiresUserAttentionReason; // @synthesize requiresUserAttentionReason=_requiresUserAttentionReason;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSArray *transcription;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

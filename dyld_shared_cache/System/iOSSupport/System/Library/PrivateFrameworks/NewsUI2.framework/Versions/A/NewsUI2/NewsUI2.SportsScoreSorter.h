@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsScoreSorter
 {
     id subscribedTagsSetProvider;
-    id scorePersonalizer;
 }
 
 @end

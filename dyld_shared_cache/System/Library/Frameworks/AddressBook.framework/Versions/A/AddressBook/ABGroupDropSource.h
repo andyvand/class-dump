@@ -9,7 +9,6 @@
 @interface ABGroupDropSource
 {
     ABRecordContext *_recordContext;
-    _Bool _isLocalToWindow;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) _Bool isLocalToWindow; // @synthesize isLocalToWindow=_isLocalToWindow;
 @property(readonly) ABRecordContext *recordContext; // @synthesize recordContext=_recordContext;
 
 @end

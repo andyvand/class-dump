@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface PKCreditInstallmentPlanProduct
 {
     _Bool _upgradeEligible;
-    NSString *_identifier;
-    NSString *_model;
-    NSString *_capacity;
-    NSString *_color;
-    unsigned long long _warrantyYears;
-    NSSet *_features;
-    NSString *_serialNumber;
-    NSDictionary *_iconURLs;
-    NSDictionary *_splashImageURLs;
 }
 
 + (_Bool);
@@ -28,7 +19,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)b;
 - (id);
 - (id);
 - (void);
@@ -36,10 +27,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)4A;
+- (_Bool)hasRoamScanDuration;
+- (id)effectiveDataTransferRateMpbs;
+- (void)wifilowDataMode;
 - (void);
 - (id);
 - (void);
@@ -47,23 +38,14 @@
 - (id);
 - (id);
 - (id)!;
-- (id)gExtensionCredentials;
+- (id)_provisioningExtensionCredentials;
 - (id)_accountStateDirty;
 - (void)ber",&,N,V_bindingAmount;
 - (void)x·ø¸º;
-- (void)NAVAILABLE_REASON_VERIFICATION_TERMINATED;
+- (void)PAYMENT_OPTIONS_CARD_STATE_UNAVAILABLE_REASON_VERIFICATION_TERMINATED;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *capacity; // @synthesize capacity=_capacity;
-@property(copy, nonatomic) NSString *color; // @synthesize color=_color;
-@property(copy, nonatomic) NSSet *features; // @synthesize features=_features;
 @property(copy, nonatomic) NSDictionary *iconURLs; // @synthesize iconURLs=_iconURLs;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSDictionary *splashImageURLs; // @synthesize splashImageURLs=_splashImageURLs;
-@property(nonatomic, getter=isUpgradeEligible) _Bool upgradeEligible; // @synthesize upgradeEligible=_upgradeEligible;
-@property(nonatomic) unsigned long long warrantyYears; // @synthesize warrantyYears=_warrantyYears;
 
 @end
 

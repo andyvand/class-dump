@@ -7,7 +7,6 @@
 @interface AppStoreKit.TodayCardOverlay
 {
     id kind;
-    id id;
 }
 
 @end

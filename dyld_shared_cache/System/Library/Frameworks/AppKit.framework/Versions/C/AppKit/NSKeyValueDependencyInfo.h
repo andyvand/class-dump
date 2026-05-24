@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSKeyValueDependency, NSMutableDictionary;
-@protocol NSDynamicPropertyContainer;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueDependencyInfo
 {
     struct __CFDictionary *_dependencyMap;
-    struct NSDPClassInfo *_classInfo;
-    NSKeyValueDependency *_dependencyPrototype;
-    unsigned int _attached:1;
-    id <NSDynamicPropertyContainer> _owner;
-    NSMutableDictionary *_computedDependencyContexts;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)URLRequest"16;
+- (id)_sqlSelectEntry_idAndRecevierDataForKeyStmt;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItem, FPProviderDomain, NSString, NSURL;
+@class NSString;
 
 @interface DOCDownloadSettingsItem
 {
     NSString *_providerName;
-    NSString *_providerDomainName;
-    NSString *_providerFullDisplayName;
-    NSString *_folderName;
-    NSString *_identifier;
-    NSURL *_fileURL;
-    FPItem *_fpItem;
-    FPProviderDomain *_providerDomain;
 }
 
 @end

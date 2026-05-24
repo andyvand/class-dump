@@ -14,11 +14,11 @@
 + (id);
 - (id);
 - (id);
+- (id)2;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setValue:(id)arg1 forProperty:error:account: /* Error: Ran out of types for this method. */;
 - (void)e %@ required option was not found;
 
 @end

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPresentationController;
+
 @protocol _UIPresentationControllerTransitionDelegate
+- (void)initWithFlags:(UIPresentationController *)arg1 options:timeout:wifiTimeout:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithFirstName:(UIPresentationController *)arg1 lastName:avatar:pronouns:wallpaper: /* Error: Ran out of types for this method. */;
+- (void)initWithFileName:(UIPresentationController *)arg1 filePath:(_Bool)arg2 lowResFileName:lowResFilePath:metadata:contentIsSensitive: /* Error: Ran out of types for this method. */;
+- (void)initWithEventStreamName:(UIPresentationController *)arg1;
 @end
 

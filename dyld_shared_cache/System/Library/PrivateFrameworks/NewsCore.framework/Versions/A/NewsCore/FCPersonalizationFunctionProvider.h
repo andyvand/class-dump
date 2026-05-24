@@ -7,9 +7,6 @@
 @interface FCPersonalizationFunctionProvider
 {
     double _articleDiversificationSimilarityExpectationStart;
-    double _articleDiversificationSimilarityExpectationEnd;
-    double _articleDiversificationUniquePublisherExpectationSlope;
-    double _articleDiversificationUniquePublisherExpectationYIntercept;
 }
 
 - (void);
@@ -18,18 +15,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (double);
-- (double);
+- (id);
+- (double);
+- (double);
 - (double);
 - (id);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double articleDiversificationSimilarityExpectationEnd; // @synthesize articleDiversificationSimilarityExpectationEnd=_articleDiversificationSimilarityExpectationEnd;
 @property(nonatomic) double articleDiversificationSimilarityExpectationStart; // @synthesize articleDiversificationSimilarityExpectationStart=_articleDiversificationSimilarityExpectationStart;
-@property(nonatomic) double articleDiversificationUniquePublisherExpectationSlope; // @synthesize articleDiversificationUniquePublisherExpectationSlope=_articleDiversificationUniquePublisherExpectationSlope;
-@property(nonatomic) double articleDiversificationUniquePublisherExpectationYIntercept; // @synthesize articleDiversificationUniquePublisherExpectationYIntercept=_articleDiversificationUniquePublisherExpectationYIntercept;
 
 @end
 

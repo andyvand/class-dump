@@ -16,10 +16,9 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool isLocalStorage;
 @property(copy, nonatomic) NSString *securityOrigin;
 
 @end

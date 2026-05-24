@@ -6,28 +6,19 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOPlaceCalculateFreeableSpaceReply : GEOXPCReply
 {
     unsigned long long _freeableBytes;
 }
 
-- (void);
+- (void)file is read-only:(unsigned long long)arg1 %@;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)anentlyClosed;
+- (void)isPermanentlyClosed;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long freeableBytes; // @synthesize freeableBytes=_freeableBytes;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

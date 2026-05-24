@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXAssetController, AXAssetPolicy, AXDispatchTimer, NSArray, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AXAssetController;
 
 @interface AXAssetUpdateMonitor
 {
     struct os_unfair_lock_s _assetsLock;
-    NSHashTable *_updateObservers;
-    NSArray *_cachedInstalledAssets;
-    AXDispatchTimer *_refreshDispatchTimer;
-    NSObject<OS_dispatch_queue> *_workerQueue;
-    AXAssetController *_assetController;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (_Bool);
@@ -43,16 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AXAssetController *assetController; // @synthesize assetController=_assetController;
-@property(readonly, nonatomic) AXAssetPolicy *assetPolicy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasInProgressDownloads;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

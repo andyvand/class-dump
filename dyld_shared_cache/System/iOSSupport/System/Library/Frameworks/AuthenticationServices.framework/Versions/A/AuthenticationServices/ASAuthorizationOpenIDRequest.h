@@ -6,15 +6,11 @@
 
 #import <AuthenticationServices/ASAuthorizationRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ASAuthorizationOpenIDRequest : ASAuthorizationRequest
 {
     NSArray *_requestedScopes;
-    NSString *_state;
-    NSString *_nonce;
-    NSString *_requestedOperation;
-    struct os_unfair_lock_s _internalLock;
 }
 
 - (_Bool);
@@ -24,16 +20,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)isRollSupportUnknown;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *nonce;
-@property(copy, nonatomic) NSString *requestedOperation;
 @property(copy, nonatomic) NSArray *requestedScopes;
-@property(copy, nonatomic) NSString *state;
 
 @end
 

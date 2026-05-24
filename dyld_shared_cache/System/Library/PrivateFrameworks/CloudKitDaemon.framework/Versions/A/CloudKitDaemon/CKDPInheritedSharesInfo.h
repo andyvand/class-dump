@@ -19,9 +19,9 @@
 - (void);
 - (id);
 - (id);
+- (void)getProductIDWithTicketType:(id)arg1 withOperatorID:withRiderClass:forCity:withProductCategory:withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)fferedAudioEngine_copyPropertyInternal(FigEndpointStreamAudioEngineRef, CFStringRef, CFAllocatorRef, void *);
 - (_Bool);
 - (_Bool);
 - (void);

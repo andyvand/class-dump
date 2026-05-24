@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, CALayer, NSProgressIndicator, NSProgressIndicatorConfiguration, NSString;
+@class NSProgressIndicator;
 
 __attribute__((visibility("hidden")))
 @interface NSProgressIndicatorLegacyVisualProvider
 {
     NSProgressIndicator *_progressIndicator;
-    NSProgressIndicatorConfiguration *_configuration;
-    CALayer *_indicatorLayer;
-    unsigned int _animationIndex;
-    CADisplayLink *_displayLink;
-    double _animationStartTime;
 }
 
 - (_Bool);
@@ -33,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void)ndorID;
-- (void)WindowAllowsDeepBackingStores;
+- (void)setPrepositionLineBreakBehavior:(unsigned long long)arg1;
+- (void)VendorID;
+- (void)NSWindowAllowsDeepBackingStores;
 - (void)ÊhtËÿ;
 - (void)$?;
 - (struct NSEdgeInsets)Ñæ"E;
@@ -44,16 +39,7 @@ __attribute__((visibility("hidden")))
 ½fD;
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct CGSize intrinsicContentSize;
 @property __weak NSProgressIndicator *progressIndicator;
-@property(readonly) Class superclass;
 
 @end
 

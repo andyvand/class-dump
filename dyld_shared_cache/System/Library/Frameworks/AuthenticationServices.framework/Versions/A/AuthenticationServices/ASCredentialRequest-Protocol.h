@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ASCredentialIdentity;
-
 @protocol ASCredentialRequest
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASCredentialIdentity> credentialIdentity;
 @property(readonly, nonatomic) long long type;
 @end
 

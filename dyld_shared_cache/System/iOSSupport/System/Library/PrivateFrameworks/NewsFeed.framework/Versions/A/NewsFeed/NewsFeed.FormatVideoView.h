@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatVideoView
 {
     id identifier;
-    id assets;
-    id displayStateCoordinator;
-    id playerProperties;
 }
 
 + (Class);

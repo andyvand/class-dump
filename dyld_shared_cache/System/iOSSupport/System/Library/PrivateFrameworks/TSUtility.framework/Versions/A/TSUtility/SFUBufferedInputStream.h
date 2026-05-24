@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SFUInputStream;
 
 @interface SFUBufferedInputStream
 {
     id <SFUInputStream> mStream;
-    char *mBuffer;
-    unsigned long long mBufferSize;
-    long long mBufferOffset;
-    long long mBufferStart;
-    long long mBufferEnd;
 }
 
 - (_Bool);
@@ -33,13 +27,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

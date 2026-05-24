@@ -12,7 +12,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly) double duration;
 @property(readonly) double timestamp;
 
 @end

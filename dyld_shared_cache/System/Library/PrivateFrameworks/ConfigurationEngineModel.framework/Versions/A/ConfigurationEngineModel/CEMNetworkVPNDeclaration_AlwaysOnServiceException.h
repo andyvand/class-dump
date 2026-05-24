@@ -11,23 +11,21 @@
 @interface CEMNetworkVPNDeclaration_AlwaysOnServiceException : CEMPayloadBase
 {
     NSString *_payloadServiceName;
-    NSString *_payloadAction;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)framework/Versions/C/Foundation;
 - (void);
 - (void);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)AXVOLocalizedStringForCharacter;
+- (id)afeXPCProxyXPCProtocolP;
+- (void)SSL23_CLIENT_HELLO;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadAction; // @synthesize payloadAction=_payloadAction;
 @property(copy, nonatomic) NSString *payloadServiceName; // @synthesize payloadServiceName=_payloadServiceName;
 
 @end

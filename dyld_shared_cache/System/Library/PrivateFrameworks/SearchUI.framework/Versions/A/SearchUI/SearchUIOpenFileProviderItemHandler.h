@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICommandHandler.h>
 
-@class NSURL, SFOpenFileProviderItemCommand;
+@class NSURL;
 
 @interface SearchUIOpenFileProviderItemHandler : SearchUICommandHandler
 {
@@ -26,10 +26,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)elocity] FAILED to copy WiFi log item to final destination '%{public}@' --> '%{public}@', returned error [%{public}@];
 
 // Remaining properties
-@property(readonly) SFOpenFileProviderItemCommand *command; // @dynamic command;
 @property(readonly, nonatomic) NSURL *fileProviderURL;
 
 @end

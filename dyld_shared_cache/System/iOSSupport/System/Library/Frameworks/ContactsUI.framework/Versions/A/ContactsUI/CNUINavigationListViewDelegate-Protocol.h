@@ -5,5 +5,8 @@
 //
 
 @protocol CNUINavigationListViewDelegate
+
+@optional
+- (_Bool)(;
 @end
 

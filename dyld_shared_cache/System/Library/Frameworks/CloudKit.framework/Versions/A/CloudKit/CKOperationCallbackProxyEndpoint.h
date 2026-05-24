@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCInterface, NSXPCListenerEndpoint, Protocol;
+@class NSXPCListenerEndpoint;
 
 @interface CKOperationCallbackProxyEndpoint
 {
     NSXPCListenerEndpoint *_endpoint;
-    Class _cls;
-    Protocol *_protocol;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (Class);
 - (id);
@@ -26,9 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) Class cls; // @synthesize cls=_cls;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly, copy, nonatomic) NSXPCInterface *interface;
-@property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end
 

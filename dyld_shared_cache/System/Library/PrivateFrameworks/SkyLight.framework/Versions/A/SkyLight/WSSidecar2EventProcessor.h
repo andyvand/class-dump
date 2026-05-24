@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
+- (void)ROW WHEN %@;
+- (_Bool)moveReceipts;
 
 @end
 

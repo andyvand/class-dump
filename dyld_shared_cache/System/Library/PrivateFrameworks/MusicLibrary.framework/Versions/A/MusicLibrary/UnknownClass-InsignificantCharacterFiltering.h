@@ -5,16 +5,16 @@
 //
 
 @interface UnknownClass (InsignificantCharacterFiltering)
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (struct _NSRange);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_assetPayloadVersion;
+- (id)_anyOriginalNonDerivativeAlternateImageResource;
+- (_Bool)_analyticsDescriptionForMediaAge:(id)arg1;
+- (void)_analyticsCacheReadEntitled;
+- (id)stamp;
+- (id)N,V_uncertainty;
+- (struct _NSRange)rmed;
+- (id)setIgnoreMissingSourceFileURLs:(_Bool)arg1;
+- (id)raryServicesManager",R,N;
+- (id)ainer",&,N,V_nodeContainer;
+- (id)predicateForKeyAssetsCandidates;
 @end
 

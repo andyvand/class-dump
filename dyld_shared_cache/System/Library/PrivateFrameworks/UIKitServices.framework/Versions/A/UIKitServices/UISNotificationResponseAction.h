@@ -19,15 +19,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)putPort>"16@"NUChannelExpression"24o^@32;
 - (_Bool);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDefaultAction;
-@property(readonly, nonatomic) _Bool isLocal;
-@property(readonly, nonatomic) _Bool isRemote;
 @property(readonly, retain, nonatomic) UNNotificationResponse *response; // @synthesize response=_response;
 
 @end

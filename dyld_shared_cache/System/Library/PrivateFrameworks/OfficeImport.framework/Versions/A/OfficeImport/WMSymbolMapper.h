@@ -6,18 +6,15 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WMSymbolMapper : CMMapper
 {
     unsigned short mCharacter;
-    NSString *mFontName;
 }
 
 + (unsigned short);
 + (unsigned short);
-+ (unsigned short);
++ (unsigned short);
 + (_Bool);
 - (void);
 - (id);

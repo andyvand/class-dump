@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)chInfo:(struct CGRect)arg1;
+- (id)_doEndedTouchWithTouchInfo:(struct CGRect)arg1;
 
 @end
 

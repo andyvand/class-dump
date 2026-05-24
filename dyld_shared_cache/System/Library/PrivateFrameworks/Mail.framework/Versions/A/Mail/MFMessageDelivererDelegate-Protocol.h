@@ -5,5 +5,9 @@
 //
 
 @protocol MFMessageDelivererDelegate
+- (void);
+
+@optional
+- (void);
 @end
 

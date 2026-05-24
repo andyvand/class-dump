@@ -7,24 +7,6 @@
 @interface Speech.SpeechAnalyzer
 {
     id $defaultActor;
-    id options;
-    id clientInfo;
-    id currentClientInfo;
-    id pendingNewModules;
-    id internalModules;
-    id inputTask;
-    id isRunningInputLoop;
-    id latestInputBufferRange;
-    id latestInputSampleTime;
-    id isInputFinished;
-    id didFinishInputHandlers;
-    id inputBarriers;
-    id isFinished;
-    id internalVolatileRange;
-    id didChangeVolatileRange;
-    id volatileRangeBarriers;
-    id internalContext;
-    id updatedContext;
 }
 
 @end

@@ -4,55 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
-
 @interface AVMomentCaptureMovieRecordingSettings
 {
     long long _uniqueID;
-    unsigned long long _userInitiatedCaptureTime;
-    NSString *_videoCodecType;
-    NSURL *_movieFileURL;
-    NSArray *_movieMetadata;
-    _Bool _autoSpatialOverCaptureEnabled;
-    NSString *_spatialOverCaptureGroupIdentifier;
-    NSURL *_spatialOverCaptureMovieFileURL;
-    NSArray *_spatialOverCaptureMovieMetadata;
 }
 
 + (id);
 + (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (unsigned long long)setKeepParentheses: /* Error: Ran out of types for this method. */;
+- (id)returnUInt64: /* Error: Ran out of types for this method. */;
+- (id)replaceObjectAtIndexPath:withObject: /* Error: Ran out of types for this method. */;
+- (void)processData:(unsigned long long)arg1;
+- (void)parser:(id)arg1 parseErrorOccurred: /* Error: Ran out of types for this method. */;
+- (void)parser:(id)arg1 foundUnparsedEntityDeclarationWithName:publicID:systemID:notationName: /* Error: Ran out of types for this method. */;
+- (void)msv_prefixUpToIndex:(id)arg1;
+- (void)msv_mutableClass;
+- (void)initWithObjects:(_Bool)arg1;
+- (id)bindNullValueToParameterNamed: /* Error: Ran out of types for this method. */;
+- (id)bindNullValueToParameterAtIndex: /* Error: Ran out of types for this method. */;
+- (id)ng os_transaction %p;
+- (id)ated statement.;
+- (_Bool)PrivateFrameworks;
+- (id)MSVStreamReader;
+- (id){?="mCustomFormatKey"@"NSUUID""mCustomFormat"@"OITSUCustomFormat""mLegacyID"I"mAppliedConditionKey"C}"mControlFormatStruct"{?="mMinimum"d"mMaximum"d"mIncrement"d"mDisplayFormatType"i"mOrientation"b2"mPosition"b2}"mMultipleChoiceListFormatStruct"{?="mInitialValue"i"mMultipleChoiceListFormatID"I"mData"@"<TSUMultipleChoiceListChoiceProviding>"})};
+- (void)y";
 - (void);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)k;
 
 // Remaining properties
-@property(nonatomic, getter=isAutoSpatialOverCaptureEnabled) _Bool autoSpatialOverCaptureEnabled; // @synthesize autoSpatialOverCaptureEnabled=_autoSpatialOverCaptureEnabled;
-@property(copy, nonatomic) NSURL *movieFileURL; // @synthesize movieFileURL=_movieFileURL;
-@property(copy, nonatomic) NSArray *movieMetadata;
-@property(copy, nonatomic) NSURL *spatialOverCaptureMovieFileURL; // @synthesize spatialOverCaptureMovieFileURL=_spatialOverCaptureMovieFileURL;
-@property(copy, nonatomic) NSArray *spatialOverCaptureMovieMetadata;
 @property(readonly, nonatomic) long long uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(nonatomic) unsigned long long userInitiatedCaptureTime; // @synthesize userInitiatedCaptureTime=_userInitiatedCaptureTime;
-@property(copy, nonatomic) NSString *videoCodecType;
 
 @end
 

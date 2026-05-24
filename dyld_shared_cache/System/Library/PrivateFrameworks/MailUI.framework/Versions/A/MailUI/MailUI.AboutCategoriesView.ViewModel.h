@@ -7,10 +7,6 @@
 @interface MailUI.AboutCategoriesView.ViewModel
 {
     id _title;
-    id _subtitle;
-    id _action;
-    id _state;
-    id _$observationRegistrar;
 }
 
 @end

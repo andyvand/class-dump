@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSApplicationSubTest
 {
     NSNumber *_startTime;
-    NSNumber *_startFrame;
-    NSMutableArray *_time;
-    NSMutableArray *_fps;
-    NSString *_testName;
-    _Bool _showTime;
-    _Bool _showFps;
-    NSMutableDictionary *_data;
-    NSNumber *startTime;
 }
 
 - (id);

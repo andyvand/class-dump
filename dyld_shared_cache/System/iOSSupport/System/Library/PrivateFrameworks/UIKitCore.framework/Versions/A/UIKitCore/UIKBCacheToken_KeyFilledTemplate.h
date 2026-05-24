@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)e Available:(id)arg1 %@;
 - (id);
 
 @end

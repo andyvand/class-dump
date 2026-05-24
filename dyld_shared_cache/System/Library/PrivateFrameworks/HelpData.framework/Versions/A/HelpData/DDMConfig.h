@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSString, NSURL;
+@class NSDictionary;
 
 @interface DDMConfig
 {
     NSDictionary *_configDict;
-    NSMapTable *_productTable;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,12 +28,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *configDict; // @synthesize configDict=_configDict;
-@property(readonly) NSDictionary *ddmBooks;
-@property(readonly) NSArray *ddmPreloadedBookIDs;
-@property(retain) NSMapTable *productTable; // @synthesize productTable=_productTable;
-@property(readonly) NSString *serverURLString;
-@property(readonly) NSString *serviceName;
-@property(readonly) NSURL *supportSiteURL;
 
 @end
 

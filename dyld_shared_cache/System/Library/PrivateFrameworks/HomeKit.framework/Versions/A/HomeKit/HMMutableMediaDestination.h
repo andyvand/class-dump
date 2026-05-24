@@ -6,17 +6,14 @@
 
 #import <HomeKit/HMMediaDestination.h>
 
-@class NSUUID;
-
 @interface HMMutableMediaDestination : HMMediaDestination
 {
 }
 
-+ (id)DataRequestKey;
++ (id)kFetchVendorMetadataProductDataRequestKey;
 - (id);
 
 // Remaining properties
-@property(copy) NSUUID *audioGroupIdentifier; // @dynamic audioGroupIdentifier;
 @property unsigned long long supportedOptions; // @dynamic supportedOptions;
 
 @end

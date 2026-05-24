@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFusionDelta : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputAddBlur;
-    CIVector *inputRemoveBlur;
-    NSNumber *inputApertureScaling;
-    NSNumber *inputMaxBlur;
 }
 
 + (id);

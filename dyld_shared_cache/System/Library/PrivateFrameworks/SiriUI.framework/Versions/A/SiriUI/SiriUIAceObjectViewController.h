@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AceObject, NSString, NSUUID;
-@protocol SiriUIAceObjectViewControllerDelegate;
+@class NSUUID;
 
 @interface SiriUIAceObjectViewController
 {
     _Bool _virgin;
-    NSUUID *_instrumentationTurnIdentifier;
-    AceObject *_aceObject;
-    id <SiriUIAceObjectViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -25,14 +21,14 @@
 - (long long);
 - (long long);
 - (double);
-- (void);
+- (void)+;
 - (double);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)H;
+- (id);
+- (id)01;
 - (void);
 - (id);
 - (void);
@@ -40,30 +36,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AceObject *aceObject; // @synthesize aceObject=_aceObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUIAceObjectViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *instrumentationTurnIdentifier; // @synthesize instrumentationTurnIdentifier=_instrumentationTurnIdentifier;
-@property(nonatomic) _Bool isInAmbient;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isInAmbientInteractivity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isPresentedWithSmartDialogText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isUtteranceUserInteractionEnabled) _Bool utteranceUserInteractionEnabled;
-@property(readonly, nonatomic, getter=isVirgin) _Bool virgin; // @synthesize virgin=_virgin;
 
 @end
 

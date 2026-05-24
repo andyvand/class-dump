@@ -5,5 +5,9 @@
 //
 
 @protocol GEONavigationListenerPrivateDelegate
+
+@optional
+- (void)ping remote_content_links;
+- (void)ImmediateActionGestureRecognizers]E4$_26FvRK7TFENodebEEE;
 @end
 

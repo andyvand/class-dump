@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSLinkSelectionStrategy
 {
     id strategy;
@@ -16,11 +14,10 @@
 + (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) _Bool wrapsPacketsWithQualityMetadata;
 
 @end

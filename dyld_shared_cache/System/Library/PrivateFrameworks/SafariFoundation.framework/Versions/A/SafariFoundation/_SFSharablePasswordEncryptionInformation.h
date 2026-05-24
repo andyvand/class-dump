@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _SFSharablePasswordEncryptionInformation
 {
     NSData *_encryptedPasswordData;
-    NSData *_encryptionKeyReference;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)*;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *encryptedPasswordData; // @synthesize encryptedPasswordData=_encryptedPasswordData;
-@property(readonly, copy, nonatomic) NSData *encryptionKeyReference; // @synthesize encryptionKeyReference=_encryptionKeyReference;
 
 @end
 

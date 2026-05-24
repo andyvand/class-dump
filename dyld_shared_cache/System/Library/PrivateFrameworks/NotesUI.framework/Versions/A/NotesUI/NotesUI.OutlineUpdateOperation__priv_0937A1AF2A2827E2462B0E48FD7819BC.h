@@ -7,13 +7,11 @@
 @interface NotesUI.OutlineUpdateOperation__priv_0937A1AF2A2827E2462B0E48FD7819BC
 {
     id attributedString;
-    id controller;
-    id updateBlock;
 }
 
 - (id);
-- (void);
-- (void)symbolsNeedingPrivateCatalog;
+- (void);
+- (void)ic_symbolsNeedingPrivateCatalog;
 
 @end
 

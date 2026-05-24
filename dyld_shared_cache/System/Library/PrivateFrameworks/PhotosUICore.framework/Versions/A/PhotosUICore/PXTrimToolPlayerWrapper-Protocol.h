@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UXView;
 @protocol PXTrimToolPlayerObserver;
 
 @protocol PXTrimToolPlayerWrapper
-- (CDStruct_1b6d18a9)GradientImageConfiguration;
-- (void)XSidebarDataContext init];
-- (_Bool)eMemoryButtonAccessibilityLabelMemoryButton;
-- (_Bool);
+- (void);
+- (void);
 - (void);
+- (void)A;
+- (CDStruct_1b6d18a9)headerGradientImageConfiguration;
+- (void)XSidebarDataContext init];
+- (_Bool)InteractiveMemoryButtonAccessibilityLabelMemoryButton;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
-@property(readonly, nonatomic) UXView *loupePlayerView;
 @property(nonatomic) __weak id <PXTrimToolPlayerObserver> playerObserver;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly, nonatomic, getter=isReadyToPlay) _Bool readyToPlay;
-@property(readonly, nonatomic) CDStruct_e83c9415 trimRange;
 @end
 

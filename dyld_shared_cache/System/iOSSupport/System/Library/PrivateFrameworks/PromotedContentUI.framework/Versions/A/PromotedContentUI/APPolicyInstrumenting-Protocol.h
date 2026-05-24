@@ -5,5 +5,9 @@
 //
 
 @protocol APPolicyInstrumenting
+- (_Bool)CNContactStoreConfiguration;
+- (_Bool)y;
+- (_Bool)KEventAttendeesEditViewController.m;
+- (_Bool)cipient"16;
 @end
 

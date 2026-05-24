@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackgroundTaskManager, HMDIDSServerBag, HMDPreferredResidentsList, HMDResidentSelectionInfo, HMDResidentSelectionStatusKit, HMDResidentTakeOverInfo, HMFTimer, NSArray, NSDictionary, NSEnumerator, NSObject, NSSet, NSString, NSUUID;
-@protocol HMDResidentDeviceManagerContext, HMDResidentSelectionModeDelegate, OS_dispatch_queue;
+@class HMDResidentSelectionInfo;
+@protocol HMDResidentSelectionModeDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSelectionMode
 {
     id <HMDResidentSelectionModeDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDResidentDeviceManagerContext> _context;
-    HMFTimer *_takeOverIfPrimaryIsNotViableTimer;
-    HMDResidentSelectionInfo *_residentSelectionInfoFromWorkingStore;
-    HMDPreferredResidentsList *_localPreferredResidentsList;
-    HMDPreferredResidentsList *_preferredResidentsListFromElector;
-    CDUnknownBlockType _selectionCompletion;
-    NSEnumerator *_residentsEnumerator;
-    NSString *_backgroundTaskIdentifier;
-    HMDBackgroundTaskManager *_backgroundTaskManager;
-    HMFTimer *_takeOverTimer;
-    NSDictionary *_residentIDSIdentifierToLocationMap;
-    unsigned long long _primaryChangedReason;
-    HMDResidentSelectionStatusKit *_presentResidentsStatuses;
-    HMDIDSServerBag *_idsServerBag;
-    HMDResidentTakeOverInfo *_takeOverInfo;
 }
 
 + (id)qB;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,23 +59,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (unsigned long long)updateNotificationSubtitle;
+- (id)unsubscribeFromSharedTripUpdatesWithIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)ticketForFeedbackRequestParameters:mapItem:traits: /* Error: Ran out of types for this method. */;
+- (id)ode:(id)arg1 %ld, %@;
+- (_Bool)upStorage %@;
+- (void)cts;
+- (void)d to connect to trip sharing process;
+- (void)erDelegate>"16;
+- (void)oc];
+- (void)has_routing_incident_badge;
+- (void)JhbmNpc2NvMtwCWiNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb1oOMTU1IEhlcm1hbm4gU3RaHVNhbiBGcmFuY2lzY28sIENBICA5NDEwMi02MTMwWg1Vbml0ZWQgU3RhdGVzevYBCg1Vbml0ZWQgU3RhdGVzEgJVUxoKQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -104,10 +88,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (double);
 - (id);
@@ -132,12 +116,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)vokerDelegate>";
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)?;
 - (id);
 - (id);
 - (id)ID;
@@ -149,40 +133,7 @@ __attribute__((visibility("hidden")))
 - (id)È¼ôà?;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *backgroundTaskIdentifier; // @synthesize backgroundTaskIdentifier=_backgroundTaskIdentifier;
-@property(readonly, nonatomic) HMDBackgroundTaskManager *backgroundTaskManager; // @synthesize backgroundTaskManager=_backgroundTaskManager;
-@property(readonly, nonatomic) __weak id <HMDResidentDeviceManagerContext> context; // @synthesize context=_context;
-@property(readonly) unsigned long long currentModeType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDResidentSelectionModeDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDIDSServerBag *idsServerBag; // @synthesize idsServerBag=_idsServerBag;
-@property(retain) HMDPreferredResidentsList *localPreferredResidentsList; // @synthesize localPreferredResidentsList=_localPreferredResidentsList;
-@property(readonly, nonatomic) NSSet *locallyReachableResidents;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) unsigned long long preferredListGenerationEndHour;
-@property(readonly) unsigned long long preferredListGenerationStartHour;
-@property(retain) HMDPreferredResidentsList *preferredResidentsListFromElector; // @synthesize preferredResidentsListFromElector=_preferredResidentsListFromElector;
-@property(retain) HMDResidentSelectionStatusKit *presentResidentsStatuses; // @synthesize presentResidentsStatuses=_presentResidentsStatuses;
-@property unsigned long long primaryChangedReason; // @synthesize primaryChangedReason=_primaryChangedReason;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSDictionary *residentIDSIdentifierToLocationMap; // @synthesize residentIDSIdentifierToLocationMap=_residentIDSIdentifierToLocationMap;
 @property(retain) HMDResidentSelectionInfo *residentSelectionInfoFromWorkingStore; // @synthesize residentSelectionInfoFromWorkingStore=_residentSelectionInfoFromWorkingStore;
-@property(retain) NSEnumerator *residentsEnumerator; // @synthesize residentsEnumerator=_residentsEnumerator;
-@property(copy) CDUnknownBlockType selectionCompletion; // @synthesize selectionCompletion=_selectionCompletion;
-@property(readonly, nonatomic) NSArray *sortedResidents;
-@property(readonly) Class superclass;
-@property(retain) HMFTimer *takeOverIfPrimaryIsNotViableTimer; // @synthesize takeOverIfPrimaryIsNotViableTimer=_takeOverIfPrimaryIsNotViableTimer;
-@property(retain) HMDResidentTakeOverInfo *takeOverInfo; // @synthesize takeOverInfo=_takeOverInfo;
-@property(retain) HMFTimer *takeOverTimer; // @synthesize takeOverTimer=_takeOverTimer;
 
 @end
 

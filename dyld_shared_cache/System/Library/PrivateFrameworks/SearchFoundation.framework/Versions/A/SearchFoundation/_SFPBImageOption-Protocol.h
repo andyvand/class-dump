@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBStringDictionary;
+@class NSData, NSString;
 
 @protocol _SFPBImageOption
+- (id)#;
+- (NSData *);
 - (void)¿;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *defaultValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) _SFPBStringDictionary *options;
 @end
 

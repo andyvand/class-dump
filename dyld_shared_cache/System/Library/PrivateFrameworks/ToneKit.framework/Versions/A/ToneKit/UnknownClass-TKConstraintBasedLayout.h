@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)C;
 - (id);
 - (id);
 @end

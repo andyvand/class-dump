@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEvent, MPCPlaybackEngineEventStream, NSString;
+@class MPCPlaybackEngineEventStream;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlaybackEngineEventStreamCursor
 {
     unsigned long long _startNS;
-    unsigned long long _endNS;
-    MPCPlaybackEngineEventStream *_eventStream;
-    MPCPlaybackEngineEvent *_startEvent;
-    MPCPlaybackEngineEvent *_endEvent;
 }
 
 - (id);
@@ -29,22 +25,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (void)ing data source [] sil=%{public}@ position=AfterSection section=%{public}@ afterSection=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MPCPlaybackEngineEvent *endEvent; // @synthesize endEvent=_endEvent;
 @property(readonly, nonatomic) MPCPlaybackEngineEventStream *eventStream; // @synthesize eventStream=_eventStream;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MPCPlaybackEngineEvent *startEvent; // @synthesize startEvent=_startEvent;
-@property(readonly) Class superclass;
 
 @end
 

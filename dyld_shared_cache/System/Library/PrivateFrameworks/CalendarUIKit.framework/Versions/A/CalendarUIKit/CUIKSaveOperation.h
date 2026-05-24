@@ -6,69 +6,64 @@
 
 #import <CalendarUIKit/CUIKUserOperation.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CUIKSaveOperation : CUIKUserOperation
 {
     NSArray *_previousObjects;
-    NSArray *_previousSliceInfo;
-    NSDictionary *_objectsRequiringAlteredSpan;
 }
 
 + (id);
-+ (id)µøã;
-+ (id)ªáªñªàò	?×h@ù;
-+ (id)ªÄ ;
 + (id);
-+ (id)R®@9ßÁ;
-+ (id)ñ-Rª±-R«±MR±í;
-+ (id)T[;
-+ (id)0})}S?ýë¡;
 + (id);
-+ (id)²5;
-+ (id)@;
-+ (id)ªàªmÒáªëï¶(ìxÓ)Ü@ô';
-+ (id);
-+ (id)¿*kb;
-+ (id)R±,R±LRk±`;
 + (id);
-+ (id)R°}­}S¿ýë;
-+ (id)Tß*kb;
-+ (id);
 + (id);
-+ (id)@øàªáªñªàò	?× Yø2Õ XøÂþõª¿CÑý{E©ôOD©÷[C©ùcB©ûkA©ü@ùèFüÿ_Ö N(;
-+ (id)ªÕ;
-+ (id)ª ZÐ;
-+ (id)8á;
-+ (id)ªøªâª\öò	?×õªÕ»Wøh@øàª(;
-+ (id)¨¼°]Gù@¹èª_øñªñÇåò0ÁÚFøàªøªâª\öò	?×õªÕ»Wøh@øàª(;
-+ (id);
-+ (id)Ú	"@ù(=;
-+ (id)ñGÁÚë@;
-+ (id)ÿÿ;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (void);
-- (void)_øðªñ	ªñÇåò0ÁÚñªñGÁÚë@;
-- (id)èª	Cøàª!;
-- (id)ÁÚ	"@ù(=;
-- (void)Râª?×;
-- (void)?×;
-- (id)_øñ;
-- (id)Ñõª÷;
-- (id)10@ù
-?×é;
-- (Class)ªô;
-- (id)úg»©ø_©öW©ôO©ý{©ýÿ;
-- (id)q£;
-- (void)Ó¡¼!Cù¢¼BTCù£¼c4Cùà;
-- (long long)þÿô#;
-- (_Bool)Ï <øªH@øàªáªñªàò	?×h@øàªáªñªàò	?× YøçÔ¸öÿµf¡z­ n);
+- (void)v;
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (Class);
+- (id);
+- (id);
+- (void);
+- (long long);
+- (_Bool);
+- (id)StateIncludedWordEnv;
 - (void)24^@32^@40;
 
 // Remaining properties
-@property(retain) NSDictionary *objectsRequiringAlteredSpan; // @synthesize objectsRequiringAlteredSpan=_objectsRequiringAlteredSpan;
 @property(retain) NSArray *previousObjects; // @synthesize previousObjects=_previousObjects;
-@property(retain) NSArray *previousSliceInfo; // @synthesize previousSliceInfo=_previousSliceInfo;
 
 @end
 

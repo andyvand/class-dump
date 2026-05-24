@@ -6,32 +6,24 @@
 
 #import <Contacts/CNPropertyDescription.h>
 
-@class NSString;
-
 @interface CNImageDataAvailableDescription : CNPropertyDescription
 {
 }
 
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)pb;
 - (id);
 - (Class)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

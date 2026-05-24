@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGSize);
-- (id):(struct CGRect)arg1;
+- (id)_barCustomizationItemWithBarButtonGroup:(struct CGRect)arg1;
 
 @end
 

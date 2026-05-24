@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchStructuredAttribute, GEOPDSearchTokenSet, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchAttributeIntent
 {
     PBDataReader *_reader;
-    NSString *_attributeId;
-    NSString *_attributeValue;
-    NSString *_name;
-    GEOPDSearchStructuredAttribute *_structuredAttribute;
-    GEOPDSearchTokenSet *_tokenSet;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isOptionalAttribute;
-    struct {
-        unsigned int has_isOptionalAttribute:1;
-        unsigned int read_attributeId:1;
-        unsigned int read_attributeValue:1;
-        unsigned int read_name:1;
-        unsigned int read_structuredAttribute:1;
-        unsigned int read_tokenSet:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)audioProviderSelecting;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)sory"b1"read_evAdvisory"b1"read_genericAdvisorys"b1"read_incidentAdvisorys"b1"read_noticeAdvisorys"b1"read_tollAdvisory"b1"wrote_anyField"b1};
-- (id)sionDetailsState;
+- (id)_photoSubmissionDetailsState;
 - (id)`M;
 - (void);
 

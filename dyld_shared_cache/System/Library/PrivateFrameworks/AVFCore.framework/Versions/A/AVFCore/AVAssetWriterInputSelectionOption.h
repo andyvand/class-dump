@@ -6,64 +6,47 @@
 
 #import <AVFCore/AVMediaSelectionOption.h>
 
-@class AVAssetWriterInput, NSArray, NSDictionary, NSString;
+@class AVAssetWriterInput, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputSelectionOption : AVMediaSelectionOption
 {
     AVAssetWriterInput *_input;
-    NSString *_mediaType;
-    NSDictionary *_outputSettings;
-    struct opaqueCMFormatDescription *_sourceFormatHint;
-    NSString *_languageCode;
-    NSString *_extendedLanguageTag;
-    NSArray *_metadata;
-    NSDictionary *_trackReferences;
-    _Bool _displaysNonForcedSubtitles;
-    _Bool _enabled;
 }
 
-+ (id);
-+ (id);
++ (id)K;
++ (id),5;
 - (id);
 - (id);
-- (id);
+- (id)\;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)Խ;
+- (id)Ô;
+- (void)Z;
+- (id)@;
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id)!ð@ù1)1Â0@ù
 × ;
-- (id)ExportSettingsOutputSettingsAssistantVideoSettingsAdjuster;
+- (id)AVExportSettingsOutputSettingsAssistantVideoSettingsAdjuster;
 - (id)pConstraint_set3_flag;
 - (_Bool)ObjectTeardownBreak() to debug;
 - (struct opaqueCMFormatDescription *)create a new caption adaptor with an asset writer input that is already attached to a caption adaptor;
-- (id)setAppleM4V480pSD;
+- (id)AVAssetExportPresetAppleM4V480pSD;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool displaysNonForcedSubtitles; // @synthesize displaysNonForcedSubtitles=_displaysNonForcedSubtitles;
-@property(readonly, nonatomic) NSString *extendedLanguageTag; // @synthesize extendedLanguageTag=_extendedLanguageTag;
-@property(readonly, nonatomic) AVAssetWriterInput *input; // @synthesize input=_input;
-@property(readonly, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
 @property(readonly, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) NSArray *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSDictionary *outputSettings; // @synthesize outputSettings=_outputSettings;
-@property(readonly, nonatomic) struct opaqueCMFormatDescription *sourceFormatHint; // @synthesize sourceFormatHint=_sourceFormatHint;
-@property(readonly, nonatomic) NSDictionary *trackReferences; // @synthesize trackReferences=_trackReferences;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNMonogrammer, NSObject, _MKUserLocationView;
-@protocol OS_dispatch_queue;
+@class _MKUserLocationView;
 
 __attribute__((visibility("hidden")))
 @interface _MKUserLocationViewImageProvider
 {
     _MKUserLocationView *_view;
-    NSObject<OS_dispatch_queue> *_queue;
-    CNContactStore *_contactStore;
-    CNMonogrammer *_monogrammer;
 }
 
 - (id);
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)tWithPlace: /* Error: Ran out of types for this method. */;
+- (void)initWithPlace: /* Error: Ran out of types for this method. */;
 
 @end
 

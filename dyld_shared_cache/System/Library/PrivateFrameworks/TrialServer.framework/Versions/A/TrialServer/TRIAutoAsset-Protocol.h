@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSelector, TRIFullMAAssetId;
+@class NSDictionary, NSNumber, NSURL, TRIFullMAAssetId;
 
 @protocol TRIAutoAsset
+- (id)setTargetZoomFactorLimit:(TRIFullMAAssetId *)arg1;
+- (NSDictionary *)setIsSpatialPhotoAvailable:(id *)arg1;
+- (NSNumber *)setIsSettlingEffectAvailable:(id *)arg1;
+- (NSURL *);
 
 // Remaining properties
 @property(retain, nonatomic) TRIFullMAAssetId *assetId;
-@property(retain, nonatomic) MAAutoAssetSelector *assetSelector;
 @end
 

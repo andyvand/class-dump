@@ -5,5 +5,7 @@
 //
 
 @protocol UASharedPasteboardManagerProtocol
+- (void)#;
+- (void);
 @end
 

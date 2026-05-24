@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFPhotosAttributes
 {
     struct {
@@ -16,12 +14,6 @@
         unsigned int isFavorite:1;
         unsigned int photosSuggestionType:1;
     } _has;
-    _Bool _isEmbeddingMatched;
-    _Bool _isMetadataMatched;
-    _Bool _isVideo;
-    _Bool _isFavorite;
-    int _photosSuggestionType;
-    unsigned long long _positionIndex;
 }
 
 + (_Bool);
@@ -34,40 +26,26 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (int);
+- (int)#;
 - (_Bool);
 - (_Bool);
+- (void)C3DKeyframeControllerSetOutTangents;
+- (_Bool)n failed on port "%@" %@;
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id)setStoreAlbumArtistID:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)Ԗ;
 - (id);
-- (id);
-- (id);
+- (id)PHPhotosErrorPreSchemaMigrationFailed;
+- (id)ing locally available bag;
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEmbeddingMatched; // @synthesize isEmbeddingMatched=_isEmbeddingMatched;
-@property(nonatomic) _Bool isFavorite; // @synthesize isFavorite=_isFavorite;
-@property(nonatomic) _Bool isMetadataMatched; // @synthesize isMetadataMatched=_isMetadataMatched;
-@property(nonatomic) _Bool isVideo; // @synthesize isVideo=_isVideo;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int photosSuggestionType; // @synthesize photosSuggestionType=_photosSuggestionType;
 @property(nonatomic) unsigned long long positionIndex; // @synthesize positionIndex=_positionIndex;
-@property(readonly) Class superclass;
 
 @end
 

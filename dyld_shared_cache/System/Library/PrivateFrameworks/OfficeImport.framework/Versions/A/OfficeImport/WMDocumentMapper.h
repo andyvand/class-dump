@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (int);
 - (id);
@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (double);
-- (id);
+- (id)CSFallbackStingrayRecordFallbackStingrayClientMetadata",&,N,V_clientMetadata;
 - (id)ies=^^?^^?{WrdCharacterPropertiesOverridden=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}{CsColour=SSSS}{CsColour=SSSS}{CsString=^^?^SII}^{WrdShading}^{WrdBorder}^{WrdDateTime}^{WrdDateTime}^{WrdDateTime}^{WrdDateTime}^{WrdDateTime}iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiSSSSSiiSiiiiiiiiISSSSSSSSSSSSSSSSb1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1sCCCCC}16@0:8 /* Error: Ran out of types for this method. */;
 - (double)fficedocument.spreadsheetml.styles+xml;
 - (void)userInfo:] /* Error: Ran out of types for this method. */;

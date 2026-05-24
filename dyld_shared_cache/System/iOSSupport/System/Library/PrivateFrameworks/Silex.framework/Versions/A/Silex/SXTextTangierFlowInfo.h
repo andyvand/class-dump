@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SXTextTangierFlowStorage, TSDInfoGeometry, TSPObject;
-@protocol TSDContainerInfo, TSDOwningAttachment, TSDRepDirectLayerHosting;
+@class SXTextTangierFlowStorage;
 
 @interface SXTextTangierFlowInfo
 {
     _Bool floatingAboveText;
-    _Bool anchoredToText;
-    _Bool inlineWithText;
-    _Bool attachedToBodyText;
-    TSDInfoGeometry *geometry;
-    TSPObject<TSDOwningAttachment> *owningAttachment;
-    NSObject<TSDContainerInfo> *parentInfo;
-    SXTextTangierFlowStorage *_storage;
-    id <TSDRepDirectLayerHosting> _directLayerHost;
-    struct _NSRange _range;
 }
 
 - (void);
@@ -28,9 +18,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,38 +32,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (Class);
 - (struct _NSRange);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @synthesize anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText; // @synthesize attachedToBodyText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <TSDRepDirectLayerHosting> directLayerHost; // @synthesize directLayerHost=_directLayerHost;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText; // @synthesize floatingAboveText;
-@property(copy, nonatomic) TSDInfoGeometry *geometry; // @synthesize geometry;
-@property(readonly, nonatomic) _Bool hasSpeakableContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText; // @synthesize inlineWithText;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment; // @synthesize owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo; // @synthesize parentInfo;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) SXTextTangierFlowStorage *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
 
 @end
 

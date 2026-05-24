@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIColor;
+@class NSMutableArray;
 
 @interface MTNowPlayingIndicatorView
 {
     NSMutableArray *_levelViews;
-    _Bool bufferingShouldDisplayAsPaused;
-    _Bool _showsLevelGutters;
-    double _interLevelSpacing;
-    double _levelCornerRadius;
-    double _levelWidth;
-    double _maximumLevelHeight;
-    double _minimumLevelHeight;
-    long long _numberOfLevels;
-    long long _playbackState;
-    long long _bounceStyle;
-    UIColor *_levelGuttersColor;
 }
 
-- (long long);
+- (long long)7ElementSTQz;
 - (_Bool);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)P;
 - (double);
 - (double);
 - (void);
@@ -37,11 +26,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (long long);
 - (double);
-- (long long);
+- (long long)2;
 - (void);
 - (void);
 - (double);
@@ -58,16 +47,7 @@
 - (void)¬Öÿÿ;
 
 // Remaining properties
-@property(nonatomic) long long bounceStyle; // @synthesize bounceStyle=_bounceStyle;
 @property(nonatomic) double interLevelSpacing; // @synthesize interLevelSpacing=_interLevelSpacing;
-@property(nonatomic) double levelCornerRadius; // @synthesize levelCornerRadius=_levelCornerRadius;
-@property(retain, nonatomic) UIColor *levelGuttersColor; // @synthesize levelGuttersColor=_levelGuttersColor;
-@property(nonatomic) double levelWidth; // @synthesize levelWidth=_levelWidth;
-@property(nonatomic) double maximumLevelHeight; // @synthesize maximumLevelHeight=_maximumLevelHeight;
-@property(nonatomic) double minimumLevelHeight; // @synthesize minimumLevelHeight=_minimumLevelHeight;
-@property(nonatomic) long long numberOfLevels; // @synthesize numberOfLevels=_numberOfLevels;
-@property(nonatomic) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(nonatomic) _Bool showsLevelGutters; // @synthesize showsLevelGutters=_showsLevelGutters;
 
 @end
 

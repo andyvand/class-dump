@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResolvedItem, NSString;
+@class GEOPDResolvedItem;
 
 @interface GEOResolvedItem
 {
     GEOPDResolvedItem *_resolvedItem;
 }
 
-- (id);
+- (id)nts;
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)MKLookAroundSceneRequest;
 - (void))P@;
 - (int)Ì÷þlc6hX3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *extractedTerm;
 @property(readonly, nonatomic) _Bool hasResultIndex;
-@property(readonly, nonatomic) int itemType;
-@property(readonly, nonatomic) unsigned long long resultIndex;
 
 @end
 

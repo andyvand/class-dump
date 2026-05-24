@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSObject, NSString;
+@protocol NSFastEnumeration;
 
 @protocol CKThrottlingCriteria
 
 @optional
+- (NSObject<NSFastEnumeration> *)setRxUcastCTSOverRxCtrlFrmsPercentage: /* Error: Ran out of types for this method. */;
 - (NSString *);
 - (NSString *)@;
 - (NSString *)-attempting authorization UI check;

@@ -6,65 +6,48 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVIntentEagerExecutionCancelled, CNVSchemaCNVIntentEagerExecutionEnded, CNVSchemaCNVIntentEagerExecutionFailed, CNVSchemaCNVIntentEagerExecutionStarted, NSData;
+@class CNVSchemaCNVIntentEagerExecutionStarted;
 
 @interface CNVSchemaCNVIntentEagerExecutionContext : SISchemaInstrumentationMessage
 {
     CNVSchemaCNVIntentEagerExecutionStarted *_startedOrChanged;
-    CNVSchemaCNVIntentEagerExecutionEnded *_ended;
-    CNVSchemaCNVIntentEagerExecutionFailed *_failed;
-    CNVSchemaCNVIntentEagerExecutionCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
+- (unsigned long long)T;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)PHOTOSTREAM_OPTIONS_ICLOUD_EXCEEDED_QUOTA_MESSAGE;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)$;
+- (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
+- (id)handleFailureInFunction:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)RequestSchemaIFPlatformRequestStructuredError";
-- (void)ngTime;
-- (id)ed;
+- (void)queryDecorationFullPlannerBlockingTime;
+- (id)JRSchemaJRInferenceEnded;
 - (id)th;
 - (void)|´ÿ|M²kø%;
 
 // Remaining properties
-@property(retain, nonatomic) CNVSchemaCNVIntentEagerExecutionCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) CNVSchemaCNVIntentEagerExecutionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CNVSchemaCNVIntentEagerExecutionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CNVSchemaCNVIntentEagerExecutionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

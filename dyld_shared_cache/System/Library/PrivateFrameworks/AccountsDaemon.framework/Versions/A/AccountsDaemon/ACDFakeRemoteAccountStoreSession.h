@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)b),B9"h;
 - (id);
 - (id);
 - (void);

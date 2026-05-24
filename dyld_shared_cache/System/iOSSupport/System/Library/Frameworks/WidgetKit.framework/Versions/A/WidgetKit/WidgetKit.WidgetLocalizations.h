@@ -7,8 +7,6 @@
 @interface WidgetKit.WidgetLocalizations
 {
     id identifier;
-    id availableLocalizations;
-    id supportsMixedLocalizations;
 }
 
 + (_Bool);

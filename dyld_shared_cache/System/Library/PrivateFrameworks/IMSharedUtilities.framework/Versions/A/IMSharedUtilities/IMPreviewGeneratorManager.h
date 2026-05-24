@@ -9,7 +9,6 @@
 @interface IMPreviewGeneratorManager
 {
     NSDictionary *_UTITypes;
-    NSDictionary *_dynamicTypes;
 }
 
 + (id)TimeCore;
@@ -18,20 +17,19 @@
 - (Class);
 - (_Bool);
 - (struct CGImage *);
+- (_Bool)?;
+- (_Bool)q;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (Class);
 - (id);
-- (id);
+- (id)continuityType;
 - (void)translationEmpty;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *UTITypes; // @synthesize UTITypes=_UTITypes;
-@property(copy, nonatomic) NSDictionary *dynamicTypes; // @synthesize dynamicTypes=_dynamicTypes;
 
 @end
 

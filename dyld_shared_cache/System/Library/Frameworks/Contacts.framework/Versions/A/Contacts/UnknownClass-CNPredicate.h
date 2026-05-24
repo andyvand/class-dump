@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CNPredicate)
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)31CEPCoarseTableSSEntriesMapIndex;
 @end
 

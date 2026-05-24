@@ -4,59 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOBatchRevGeocodeRequest
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _additionalPlaceTypes;
-    NSString *_deviceCountryCode;
-    NSString *_deviceSku;
-    NSString *_displayRegion;
-    NSMutableArray *_locations;
-    NSMutableArray *_serviceTags;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_additionalPlaceTypes:1;
-        unsigned int read_deviceCountryCode:1;
-        unsigned int read_deviceSku:1;
-        unsigned int read_displayRegion:1;
-        unsigned int read_locations:1;
-        unsigned int read_serviceTags:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)tHasMinLength:(id)arg1;
++ (_Bool)setHasMinLength:(id)arg1;
 + (Class)\6¤¿7;
-- (void);
+- (void)removeItemAtURL:(int *)arg1;
+- (unsigned long long),V_result;
+- (id)TQ,R,V_options;
+- (void)w;
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)";
 - (int *);
-- (int);
+- (int)ь;
 - (void);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)clientForFallbackAudioSessionReleaseProviding;
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)H;
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
@@ -69,11 +51,11 @@ __attribute__((visibility("hidden")))
 - (void)·*°1Â0@ù
 × ;
 - (void)sOptions";
-- (id)sString:(struct _NSZone *)arg1;
-- (id):enumerationOptions:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)preferenceTypeAsString:(struct _NSZone *)arg1;
+- (id)enumerateComponentOfType:enumerationOptions:usingBlock: /* Error: Ran out of types for this method. */;
 - (id)ÔM¨NàN;
 - (id)PhysicalFeature;
-- (id);
+- (id)is_reranker_triggered;
 - (id);
 - (Class);
 - (void)
@@ -87,16 +69,7 @@ __attribute__((visibility("hidden")))
 - (void)0ìèÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) int *additionalPlaceTypes;
-@property(readonly, nonatomic) unsigned long long additionalPlaceTypesCount;
-@property(retain, nonatomic) NSString *deviceCountryCode;
-@property(retain, nonatomic) NSString *deviceSku;
-@property(retain, nonatomic) NSString *displayRegion;
-@property(readonly, nonatomic) _Bool hasDeviceCountryCode;
-@property(readonly, nonatomic) _Bool hasDeviceSku;
-@property(readonly, nonatomic) _Bool hasDisplayRegion;
 @property(retain, nonatomic) NSMutableArray *locations;
-@property(retain, nonatomic) NSMutableArray *serviceTags;
 
 @end
 

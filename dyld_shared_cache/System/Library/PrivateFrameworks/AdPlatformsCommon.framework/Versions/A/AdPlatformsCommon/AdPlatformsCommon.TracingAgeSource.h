@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.TracingAgeSource
 {
     id tracedSource;
-    id log;
 }
 
 @end

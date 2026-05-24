@@ -20,20 +20,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)e;
 - (id);
 - (id);
-- (void);
-- (id);
-- (long long);
+- (void);
+- (id)o EdSK;
+- (long long)*;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain;
-@property(copy, nonatomic) NSString *originalQuery;
-@property(copy, nonatomic) NSString *qid;
-@property(nonatomic) long long rank;
-@property(nonatomic) double rankerConfidence;
 
 @end
 

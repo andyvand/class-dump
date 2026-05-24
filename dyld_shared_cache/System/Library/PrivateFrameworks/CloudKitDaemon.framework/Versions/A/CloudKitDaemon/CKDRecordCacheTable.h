@@ -22,11 +22,11 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)wnerIdentity:(id)arg1 onPCS:(id)arg2;
+- (id)setOwnerIdentity:(id)arg1 onPCS:(id)arg2;
 - (id)xÜ;
 
 @end

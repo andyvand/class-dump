@@ -6,26 +6,22 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSButton, NSColor, NSImage, NSString;
+@class NSButton, NSString;
 
 @interface NSButtonTouchBarItem : NSTouchBarItem
 {
     NSButton *_button;
-    NSImage *_image;
-    id _target;
-    SEL _action;
-    NSString *_customizationLabel;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
++ (id)};
++ (id)ream %p>{flags = %p, read = %p, write = %p, socket = %@, properties = %p };
++ (id)ter %f seconds of inactivity. Timing out the connection.;
 - (void);
 - (void);
+- (id)ublic}@ failed to create resume data %{private}@;
 - (id);
-- (id);
-- (void);
+- (void)ATSAllowsArbitraryLoadsForMedia;
 - (void);
 - (void);
 - (id);
@@ -40,19 +36,13 @@
 - (void)áë/Ð!TFùñà3Ð1Â0@ù
 × ;
 - (void)nsis_frameInEngine:(id)arg1 forLayoutGuide:withRounding: /* Error: Ran out of types for this method. */;
-- (id)kupPredominantAxisFilter;
+- (id)_backupPredominantAxisFilter;
 - (SEL)dSaveTestApp;
-- (void)s;
-- (id)Component;
+- (void)plus;
+- (id)_NSTextFormattingViewControllerLineHeightComponent;
 - (void)hC;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(copy) NSColor *bezelColor;
-@property(copy) NSString *customizationLabel;
-@property(getter=isEnabled) _Bool enabled;
-@property(retain) NSImage *image;
-@property __weak id target; // @synthesize target=_target;
 @property(copy) NSString *title;
 
 @end

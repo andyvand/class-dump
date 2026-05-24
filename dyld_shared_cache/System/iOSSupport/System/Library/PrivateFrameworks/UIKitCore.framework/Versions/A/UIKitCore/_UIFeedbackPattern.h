@@ -6,69 +6,52 @@
 
 #import <UIKitCore/_UIFeedback.h>
 
-@class NSMutableArray, NSString, NSTimer;
+@class NSMutableArray;
 
 @interface _UIFeedbackPattern : _UIFeedback
 {
     _Bool _canReuseCoreHapticsPlayer;
-    _Bool _highPriority;
-    _Bool _isRepeating;
-    double _duration;
-    NSMutableArray *_feedbacks;
-    NSTimer *_repeatTimer;
 }
 
 + (Class);
 + (id);
 + (id)e=dd}}24d56B64B68;
 + (_Bool)d *CoreAnalyticsLibrary(void);
+- (void)er";
+- (id)setStickerAttachmentInfo: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (void)on group chat %@;
+- (id)m index;
+- (id)PeriodicChatSyncCompleted;
+- (id)LastCompleteDBCKSyncWasNotWithin3Days;
 - (void);
+- (unsigned long long)D!;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint)B;
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (double);
-- (void);
-- (void);
+- (void)y;
+- (void)e>",W,N;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool)× ;
-- (_Bool)lver;
+- (_Bool)styleResolver;
 - (id);
 - (id)	
 ;
-- (id)bleLayoutAwareShortcutsAutomatic;
+- (id)EnableLayoutAwareShortcutsAutomatic;
 - (void)g the title text alignment of an alert action is not supported with descriptive text;
-- (_Bool);
+- (_Bool)TrailingCornerInset;
 - (id)"tþá°43t#tþá°43p#tþá°43l#tþ;
 - (void)((\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(retain, nonatomic) NSMutableArray *feedbacks; // @synthesize feedbacks=_feedbacks;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHighPriority) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly, nonatomic) _Bool isRepeating; // @synthesize isRepeating=_isRepeating;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) NSTimer *repeatTimer; // @synthesize repeatTimer=_repeatTimer;
-@property(readonly) Class superclass;
 
 @end
 

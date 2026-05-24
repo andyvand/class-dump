@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSBox *_separator;
 }
 
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void)¬;
 - (void)E4$_17FvRK7TFENodeEEE;

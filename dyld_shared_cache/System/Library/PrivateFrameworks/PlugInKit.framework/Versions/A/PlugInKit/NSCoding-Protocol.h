@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)[6s]fIiSB[6I]B[3f][3f]fB}16;
 @end
 

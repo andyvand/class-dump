@@ -5,5 +5,6 @@
 //
 
 @protocol AKAppleIDPasskeyDaemonProtocol
+- (void);
 @end
 

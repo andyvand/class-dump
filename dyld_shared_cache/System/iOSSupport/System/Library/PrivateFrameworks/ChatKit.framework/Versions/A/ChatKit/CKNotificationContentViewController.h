@@ -4,45 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKNotificationChatController, IMTimingCollection, NSString, UIColor, UNNotification;
+@class UNNotification;
 
 @interface CKNotificationContentViewController
 {
     _Bool _canUpdateContentExtensionSize;
-    UNNotification *_notification;
-    CKNotificationChatController *_chatController;
-    IMTimingCollection *_launchTokeyboardBringUpTC;
 }
 
-+ (void);
++ (void)erialize Encrypted NoteData;
 + (void)`¹0;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)previewImages;
+- (void)postAlertForFolderDepthLimitWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)invitationObjectIDs;
+- (void)currentColorForGlyphIndex:(id)arg1 numberOfGlyphs:timeIndex: /* Error: Ran out of types for this method. */;
+- (void)_scalableDeviceInfo;
+- (void)NSTextField",W,V_progressLabel;
+- (void)aragraphStyleAttributeName;
 - (void);
 - (void);
 - (id);
+- (struct UIEdgeInsets)So22NSManagedObjectContextCSg;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)nt from object ID %@ in attachment thumbnail operation;
+- (void)nvitation {share:(id)arg1 %@, objectID:(id)arg2 %@};
+- (void)ing invitations… {accountID:(id)arg1 %@, receivedSince:(id)arg2 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)nothing;
+- (void)ng share:(id)arg1 %@;
+- (void)ept share.;
+- (void)from metadata %@:(id)arg1 %@;
+- (id)trying accept share %@ %@;
+- (_Bool)send mention (%@) notification:%@ (userInfo=%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -51,36 +48,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)BadgeView:(id)arg1;
-- (id)arDownRemoteView;
+- (void)setSpatialBadgeView:(id)arg1;
+- (id)deferredForceTearDownRemoteView;
 - (void)ndle. %@;
 - (void)	p-;
 - (void)$À0;
 
 // Remaining properties
-@property(nonatomic, getter=canUpdateContentExtensionSize) _Bool canUpdateContentExtensionSize; // @synthesize canUpdateContentExtensionSize=_canUpdateContentExtensionSize;
-@property(retain, nonatomic) CKNotificationChatController *chatController; // @synthesize chatController=_chatController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMTimingCollection *launchTokeyboardBringUpTC; // @synthesize launchTokeyboardBringUpTC=_launchTokeyboardBringUpTC;
-@property(readonly, nonatomic) struct CGRect mediaPlayPauseButtonFrame;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, copy, nonatomic) UIColor *mediaPlayPauseButtonTintColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,C,N
-
-@property(readonly, nonatomic) unsigned long long mediaPlayPauseButtonType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 @property(retain, nonatomic) UNNotification *notification; // @synthesize notification=_notification;
-@property(readonly) Class superclass;
 
 @end
 

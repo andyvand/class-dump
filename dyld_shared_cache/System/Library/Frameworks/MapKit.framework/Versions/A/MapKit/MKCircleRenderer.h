@@ -11,20 +11,18 @@
 @interface MKCircleRenderer : MKOverlayPathRenderer
 {
     VKVectorOverlayCircle *_vectorData;
-    double _strokeStart;
-    double _strokeEnd;
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)ad sandbox extension for payload path '%{public}@'.;
 - (void);
 - (_Bool);
 - (id);
@@ -33,17 +31,15 @@
 - (void);
 - (void);
 - (id);
+- (void)setImageSignatureprintType:(double)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)numerateAttribute:inRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)9xv;
+- (void)4_;
+- (void)enumerateAttribute:inRange:options:usingBlock: /* Error: Ran out of types for this method. */;
 - (void)B,R,N,G_isInclusive;
 
 // Remaining properties
 @property(readonly, nonatomic) MKCircle *circle;
-@property(nonatomic) double strokeEnd;
-@property(nonatomic) double strokeStart;
 
 @end
 

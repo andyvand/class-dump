@@ -5,5 +5,6 @@
 //
 
 @protocol AMSAuthenticateTaskDelegate
+- (void)HTX79EzsJPt;
 @end
 

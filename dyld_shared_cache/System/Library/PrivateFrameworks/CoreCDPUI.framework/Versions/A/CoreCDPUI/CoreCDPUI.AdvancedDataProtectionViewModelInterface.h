@@ -7,18 +7,6 @@
 @interface CoreCDPUI.AdvancedDataProtectionViewModelInterface
 {
     id cdpContext;
-    id _progressViewIsDisplayed;
-    id _isWalrusEnabled;
-    id _isWalrusAvailableForPrimaryAccount;
-    id _localizedWalrusUnavailableMessage;
-    id _walrusStatusMismatchDetected;
-    id _adpState;
-    id accountRecoveryRowViewModel;
-    id adpViewModelHelper;
-    id advancedDataProtectionDataClassViewModel;
-    id walrusStatePublisher;
-    id walrusStateSubscription;
-    id contextProvider;
 }
 
 - (id);

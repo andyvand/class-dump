@@ -5,5 +5,6 @@
 //
 
 @protocol ABLinkingInfoDataSource
+- (_Bool);
 @end
 

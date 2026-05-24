@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double latitude;
-@property(nonatomic, readonly) double longitude;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaABClientEventMetadata, SISchemaABExperimentAllocationChanged, SISchemaABExperimentAssetRetrievalStatusChanged, SISchemaABExperimentClientFeatureTriggered, SISchemaInstrumentationMessage;
+@class SISchemaABClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface SISchemaABClientEvent : SISchemaTopLevelUnionType
 {
     SISchemaABClientEventMetadata *_eventMetadata;
-    SISchemaABExperimentAllocationChanged *_allocationChanged;
-    SISchemaABExperimentAssetRetrievalStatusChanged *_assetRetrievalStatusChanged;
-    SISchemaABExperimentClientFeatureTriggered *_clientFeatureTriggered;
-    _Bool _hasEventMetadata;
-    _Bool _hasAllocationChanged;
-    _Bool _hasAssetRetrievalStatusChanged;
-    _Bool _hasClientFeatureTriggered;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -39,38 +31,28 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)0;
+- (_Bool)covered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE c.guid = ?  AND m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
 - (id);
 - (id)× ;
-- (unsigned long long)onStartedInMs;
-- (id)mmandUtterance;
+- (unsigned long long)deleteTimeSinceAssistantDaemonStartedInMs;
+- (id)commandUtterance;
 - (id)V_viewRegionDesignation;
-- (void)ableToCandidate;
+- (void)isApplicableToCandidate;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaABExperimentAllocationChanged *allocationChanged; // @synthesize allocationChanged=_allocationChanged;
-@property(retain, nonatomic) SISchemaABExperimentAssetRetrievalStatusChanged *assetRetrievalStatusChanged; // @synthesize assetRetrievalStatusChanged=_assetRetrievalStatusChanged;
-@property(retain, nonatomic) SISchemaABExperimentClientFeatureTriggered *clientFeatureTriggered; // @synthesize clientFeatureTriggered=_clientFeatureTriggered;
-@property(retain, nonatomic) SISchemaABClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasAllocationChanged; // @synthesize hasAllocationChanged=_hasAllocationChanged;
-@property(nonatomic) _Bool hasAssetRetrievalStatusChanged; // @synthesize hasAssetRetrievalStatusChanged=_hasAssetRetrievalStatusChanged;
-@property(nonatomic) _Bool hasClientFeatureTriggered; // @synthesize hasClientFeatureTriggered=_hasClientFeatureTriggered;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

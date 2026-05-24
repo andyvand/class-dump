@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIImageView;
+@class UIImageView;
 
 @interface MKCompassView_ios
 {
     UIImageView *_containerImageView;
-    UIImageView *_assetImageView;
-    NSArray *_compassPointLocalizedAbbreviations;
-    int _lastDrawnCompassDirection;
-    long long _compassViewSize;
-    long long _compassViewStyle;
 }
 
-+ (id);
++ (id)P;
 + (id);
 + (id);
 - (void);
@@ -28,37 +23,27 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@@9;
 - (void);
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
+- (void)6;
 - (void);
+- (void)	;
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct CGSize);
+- (struct CGSize)(;
 - (id);
 - (double);
 - (void);
-- (void)Drawable:forOverlay:level: /* Error: Ran out of types for this method. */;
+- (void)_removeDrawable:forOverlay:level: /* Error: Ran out of types for this method. */;
 - (void)T@"NSArray",&,N,V_routeIDs;
 
 // Remaining properties
-@property(readonly, nonatomic) long long compassViewSize; // @synthesize compassViewSize=_compassViewSize;
-@property(readonly, nonatomic) long long compassViewStyle; // @synthesize compassViewStyle=_compassViewStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double mapHeading;
-@property(readonly) Class superclass;
-@property(nonatomic) double yaw;
 
 @end
 

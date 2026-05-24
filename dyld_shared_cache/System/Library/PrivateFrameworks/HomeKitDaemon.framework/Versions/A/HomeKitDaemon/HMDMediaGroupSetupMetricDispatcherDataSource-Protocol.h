@@ -5,5 +5,6 @@
 //
 
 @protocol HMDMediaGroupSetupMetricDispatcherDataSource
+- (_Bool)#;
 @end
 

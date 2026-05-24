@@ -6,82 +6,26 @@
 
 #import <ConversationKit/PlatformViewController.h>
 
-@class ConversationKit.VideoReactionPickerViewController, NSImage, NSTimer, NSView, TUCall;
-@protocol CNKFaceTimeMultiwayConversationViewControllerDelegate, CNKFaceTimeMultiwayViewControllerIOSDelegate;
-
 @interface ConversationKit.MultiwayViewController : PlatformViewController
 {
     id queryForSuggestedBannerStartTime;
-    id featureFlags;
-    id conversationController;
-    id captioningStateManager;
-    id mostActiveParticipantsController;
-    id layoutStyle;
-    id isSplitViewActive;
-    id layoutStyleBeforeReactionsVisible;
-    id reactionsState;
-    id showReactionPickerTimer;
-    id isLocalReactionActive;
-    id didRequestMemojiPicker;
-    id reactionPickerTipState;
-    id linkShareCoordinator;
-    _Bool didExpandIncomingCallBanner;
-    id _cachedDidExpandActiveVideoCallFromBanner;
-    id isHandlingMouseEnteredEvent;
-    id viewContent;
-    id $__lazy_storage_$_sensitiveContentController;
-    NSTimer *inCallControlsDismissTimer;
-    id effectsLayoutController;
-    id pipZoomControl;
-    id shouldShowZoomControls;
-    id hideOneToOneLivePhotoAlertViewTimer;
-    id didNotifyMutedCaller;
-    id cachedPresentationSize;
-    id cachedGridViewSize;
-    id needsConnectionAnimation;
-    id captionsPausedState;
-    id defaults;
-    id features;
-    long long deviceOrientation;
-    long long supportedDeviceOrientations;
-    _Bool hasParticipantVideo;
-    _Bool isDisplayedInBanner;
-    id deskViewTapHandler;
-    id mostRecentFullScreenFocusedAspectRatio;
-    id mostRecentGridIsFullScreen;
-    id windowAspectRatioHandler;
-    id captionsLayoutChangeHandler;
-    id unansweredCallDismissalHandler;
-    _Bool isFullScreen;
-    _Bool isAmbient;
-    _Bool isPipStashed;
-    long long pipState;
-    void delegate;
-    void iOSDelegate;
-    _Bool effectsEnabled;
-    id needsUpdatePresentationContexts;
-    id lastUpdatedMostActiveParticipantViewForPiP;
-    id callUUIDsThatPresentedSNaPSecondaryPill;
-    id tonePlayer;
-    id subscriptions;
-    id $__lazy_storage_$_mePipDimmingBackgroundView;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void)0{;
 - (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)Qr;
 - (void);
 - (void);
 - (void);
@@ -96,20 +40,20 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)r;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)}Qr;
+- (_Bool)fQr;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (struct CGRect);
@@ -119,23 +63,23 @@
 - (_Bool);
 - (double);
 - (_Bool);
+- (id)1z;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)zz;
+- (void). z;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)"{;
 - (id);
-- (void);
+- (void){;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (id);
@@ -150,46 +94,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_resetPreferredMaxLayoutWidths;
+- (void)leViewControllerDelegate>",W,N,V_delegate;
 - (void)
 × ;
 - (void)Rüÿ\Süÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSImage *audioRouteGlyphForDevice;
-@property(nonatomic, readonly) TUCall *call;
-@property(nonatomic, readonly) double captionsTranscriptWidth;
-@property(nonatomic) __weak id <CNKFaceTimeMultiwayConversationViewControllerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) long long deviceOrientation; // @synthesize deviceOrientation;
-@property(nonatomic) _Bool didExpandIncomingCallBanner; // @synthesize didExpandIncomingCallBanner;
-@property(nonatomic) _Bool effectsEnabled; // @synthesize effectsEnabled;
-@property(nonatomic, readonly) long long fullScreenFocusedParticipantOrientation;
-@property(nonatomic) _Bool hasParticipantVideo; // @synthesize hasParticipantVideo;
-@property(nonatomic) __weak id <CNKFaceTimeMultiwayViewControllerIOSDelegate> iOSDelegate; // @synthesize iOSDelegate;
-@property(nonatomic, retain) NSTimer *inCallControlsDismissTimer; // @synthesize inCallControlsDismissTimer;
-@property(nonatomic) _Bool isAmbient; // @synthesize isAmbient;
-@property(nonatomic) _Bool isCaptioningEnabled;
-@property(nonatomic) _Bool isDisplayedInBanner; // @synthesize isDisplayedInBanner;
-@property(nonatomic) _Bool isFullScreen; // @synthesize isFullScreen;
-@property(nonatomic, readonly) _Bool isInVideoMessageFlow;
-@property(nonatomic, readonly) _Bool isOneToOneModeEnabled;
-@property(nonatomic) _Bool isPipStashed; // @synthesize isPipStashed;
-@property(nonatomic, readonly) _Bool isPipped;
-@property(nonatomic, readonly) _Bool isPresentingEffectsBrowser;
-@property(nonatomic, readonly) _Bool isShowingHUD;
-@property(nonatomic, readonly) _Bool isShowingReactions;
-@property(nonatomic, readonly) _Bool isShownAboveCoverSheet;
-@property(nonatomic, readonly) NSView *localParticipantView;
-@property(nonatomic) long long pipState; // @synthesize pipState;
-@property(nonatomic, readonly) PlatformViewController *pipViewController;
-@property(nonatomic, readonly) struct CGSize preferredPIPContentAspectRatio;
-@property(nonatomic, readonly) ConversationKit.VideoReactionPickerViewController *reactionsViewController;
-@property(nonatomic, readonly) _Bool shouldDisconnectOnDismissal;
 @property(nonatomic, readonly) _Bool shouldShowTranscriptDrawer;
-@property(nonatomic) long long supportedDeviceOrientations; // @synthesize supportedDeviceOrientations;
-@property(nonatomic, readonly) _Bool wantsApplicationDismissalStyle;
-@property(nonatomic, readonly) _Bool wantsPIPRotationForLocalPreview;
 
 @end
 

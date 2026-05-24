@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIDraggingImageComponent
 {
     _Bool _ignoresAccessibilityFilters;
-    _Bool _hidesImage;
-    UIView *_view;
-    UIImage *_image;
-    struct CGRect _frame;
 }
 
+- (id)calculateAliasesForDefaults;
+- (id)Received: /* Error: Ran out of types for this method. */;
+- (_Bool)_totalExpectedBatches;
+- (_Bool)_sharedIMDMessageStore;
+- (id)e active list;
+- (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (struct CGRect)ideTextColor: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setOverrideTextColor: /* Error: Ran out of types for this method. */;
 - (id)r;
 - (id);
 - (void)`àµ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) _Bool hidesImage; // @synthesize hidesImage=_hidesImage;
-@property(readonly, nonatomic) _Bool ignoresAccessibilityFilters; // @synthesize ignoresAccessibilityFilters=_ignoresAccessibilityFilters;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

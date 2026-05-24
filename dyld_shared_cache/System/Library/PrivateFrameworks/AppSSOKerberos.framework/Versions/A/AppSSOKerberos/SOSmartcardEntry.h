@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SOSmartcardEntry
 {
     NSString *_upn;
-    NSString *_certName;
-    NSString *_tokenID;
-    NSString *_issuer;
-    NSDictionary *_attributes;
-    struct __SecIdentity *_identity;
-    NSData *_persistentRef;
 }
 
 - (void);
@@ -34,12 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain) NSString *certName; // @synthesize certName=_certName;
-@property struct __SecIdentity *identity; // @synthesize identity=_identity;
-@property(retain) NSString *issuer; // @synthesize issuer=_issuer;
-@property(retain) NSData *persistentRef; // @synthesize persistentRef=_persistentRef;
-@property(retain) NSString *tokenID; // @synthesize tokenID=_tokenID;
 @property(retain) NSString *upn; // @synthesize upn=_upn;
 
 @end

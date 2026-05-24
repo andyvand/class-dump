@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSSet, NSString;
 
 @protocol CRKSharingAirDropTransfer
-- (NSSet *)ntifiers;
+- (NSSet *)_trustedUserIdentifiers;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *destFileURLs;
-@property(readonly, copy, nonatomic) NSSet *fileURLs;
 @property(readonly, copy, nonatomic) NSString *identifier;
 @end
 

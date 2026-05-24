@@ -6,14 +6,11 @@
 
 #import <WeatherFoundation/WFResponse.h>
 
-@class NSData, WFWeatherConditions;
+@class WFWeatherConditions;
 
 @interface WFForecastResponse : WFResponse
 {
     _Bool _responseWasFromCache;
-    WFWeatherConditions *_forecast;
-    unsigned long long _forecastType;
-    NSData *_rawAPIData;
 }
 
 + (_Bool);
@@ -24,16 +21,13 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)A;
+- (id)Y;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFWeatherConditions *forecast; // @synthesize forecast=_forecast;
-@property(nonatomic) unsigned long long forecastType; // @synthesize forecastType=_forecastType;
-@property(retain, nonatomic) NSData *rawAPIData; // @synthesize rawAPIData=_rawAPIData;
-@property(nonatomic) _Bool responseWasFromCache; // @synthesize responseWasFromCache=_responseWasFromCache;
 
 @end
 

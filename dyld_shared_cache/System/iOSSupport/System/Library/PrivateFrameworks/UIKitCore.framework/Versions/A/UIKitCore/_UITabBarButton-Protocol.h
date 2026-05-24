@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UITabBar;
+@class UITabBar;
 
 @protocol _UITabBarButton
+- (_Bool);
+- (void)4B32B36B40;
+- (void)44@0:(_Bool)arg1 8@16B24B28q32B40;
+- (void)setScheduleState:(struct UIOffset)arg1;
 
 // Remaining properties
-@property(nonatomic, getter=_isSelected, setter=_setSelected:) _Bool _selected;
-@property(nonatomic, setter=_setShowsHighlightedState:) _Bool _showsHighlightedState;
 @property(readonly, nonatomic) __weak UITabBar *tabBar;
-@property(retain, nonatomic, getter=_unselectedTintColor, setter=_setUnselectedTintColor:) UIColor *unselectedTintColor;
 @end
 

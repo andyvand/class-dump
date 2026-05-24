@@ -15,15 +15,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void);
-- (void)visional;
+- (void)statusIsProvisional;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *photoViewingAppURL;
-@property(readonly, copy, nonatomic) NSString *photosAssetIdentifier; // @synthesize photosAssetIdentifier=_photosAssetIdentifier;
 
 @end
 

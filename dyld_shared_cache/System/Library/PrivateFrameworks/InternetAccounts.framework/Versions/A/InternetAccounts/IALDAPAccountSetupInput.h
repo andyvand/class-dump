@@ -6,39 +6,29 @@
 
 #import <InternetAccounts/IAAccountSetupInput.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface IALDAPAccountSetupInput : IAAccountSetupInput
 {
     NSString *_serverAddress;
-    NSNumber *_useSSL;
-    long long _port;
-    NSString *_scope;
-    NSString *_searchBase;
-    _Bool _authenticate;
 }
 
+- (void)d;
+- (void);
+- (id);
+- (id)(;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)roundYOffset;
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool authenticate; // @synthesize authenticate=_authenticate;
-@property long long port; // @synthesize port=_port;
-@property(retain) NSString *scope; // @synthesize scope=_scope;
-@property(retain) NSString *searchBase; // @synthesize searchBase=_searchBase;
 @property(retain) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
-@property(retain) NSNumber *useSSL; // @synthesize useSSL=_useSSL;
 
 @end
 

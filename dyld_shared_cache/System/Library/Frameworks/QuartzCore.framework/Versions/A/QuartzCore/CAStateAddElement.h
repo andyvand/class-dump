@@ -11,17 +11,15 @@
 @interface CAStateAddElement : CAStateElement
 {
     NSString *_keyPath;
-    id _object;
-    id _beforeObject;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)AncestorRecord;
 - (void);
 - (void);
 - (void);
@@ -36,9 +34,7 @@
 - (void)CGSize=dd}}16@48;
 
 // Remaining properties
-@property(retain, nonatomic) id beforeObject; // @synthesize beforeObject=_beforeObject;
 @property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end
 

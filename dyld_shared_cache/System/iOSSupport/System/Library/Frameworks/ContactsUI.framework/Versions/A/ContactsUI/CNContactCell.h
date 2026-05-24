@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCardGroupItem, NSArray;
+@class NSArray;
 
 @interface CNContactCell
 {
     NSArray *_constantConstraints;
-    NSArray *_variableConstraints;
-    CNCardGroupItem *_cardGroupItem;
 }
 
 + (_Bool);
@@ -23,23 +21,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)R	j
+;
 - (void);
+- (void)Q;
+- (void)P;
 - (void);
+- (void)tV;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)isWritable;
 - (void)on;
 
 // Remaining properties
-@property(retain, nonatomic) CNCardGroupItem *cardGroupItem; // @synthesize cardGroupItem=_cardGroupItem;
 @property(readonly, nonatomic) NSArray *constantConstraints;
-@property(readonly, nonatomic) _Bool hasGapBetweenSeparatorAndTrailingEdge;
-@property(readonly, nonatomic) double minCellHeight;
-@property(nonatomic) _Bool showSeparator;
-@property(readonly, nonatomic) NSArray *variableConstraints;
 
 @end
 

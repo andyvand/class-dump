@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PGMusicCacheInfoEntry
@@ -14,7 +14,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSData *musicBagContentsAsData; // @dynamic musicBagContentsAsData;
 @property(nonatomic, copy) NSString *version; // @dynamic version;
 
 @end

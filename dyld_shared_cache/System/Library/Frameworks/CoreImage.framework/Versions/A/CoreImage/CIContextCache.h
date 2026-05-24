@@ -11,7 +11,7 @@
 + (long long);
 + (id);
 + (float);
-+ (long long);
++ (long long);
 + (long long);
 + (void);
 

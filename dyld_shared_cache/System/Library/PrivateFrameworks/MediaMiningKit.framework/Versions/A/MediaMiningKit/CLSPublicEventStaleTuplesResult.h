@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface CLSPublicEventStaleTuplesResult
 {
     NSArray *_staleTimeLocationTuples;
-    NSDate *_lastQueriedDate;
 }
 
 + (id);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastQueriedDate; // @synthesize lastQueriedDate=_lastQueriedDate;
 @property(readonly, nonatomic) NSArray *staleTimeLocationTuples; // @synthesize staleTimeLocationTuples=_staleTimeLocationTuples;
 
 @end

@@ -10,41 +10,23 @@
 @interface TSDCanvasZoomTracker
 {
     TSDCanvasLayer *mCanvasLayer;
-    NSObject<TSDCanvasZoomTrackerDelegate> *mDelegate;
-    _Bool mAlwaysUsesTranslationSprings;
-    _Bool mSnapsViewScale;
-    _Bool mAnimateTransform;
-    struct CGAffineTransform mSavedTransform;
-    struct CGPoint mZoomOrigin;
-    _Bool mHasGestureOrigin;
-    struct CGPoint mGestureOrigin;
-    struct CGPoint mGestureOffset;
-    struct CGPoint mSavedContentOffset;
-    _Bool mIsZooming;
-    unsigned long long mZoomVelocitySampleCount;
-    double mZoomVelocity;
-    double mZoomStartTime;
-    _Bool mIsShowingZoomHUD;
 }
 
-- (void);
+- (void)_TimeContinuity;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void)out:pageNumber:pageCount:footnoteMarkProvider:styleProvider:colorOverride:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysUsesTranslationSprings; // @synthesize alwaysUsesTranslationSprings=mAlwaysUsesTranslationSprings;
-@property(nonatomic) _Bool animateTransform; // @synthesize animateTransform=mAnimateTransform;
 @property(nonatomic) __weak NSObject<TSDCanvasZoomTrackerDelegate> *delegate; // @synthesize delegate=mDelegate;
-@property(nonatomic) _Bool snapsViewScale; // @synthesize snapsViewScale=mSnapsViewScale;
 
 @end
 

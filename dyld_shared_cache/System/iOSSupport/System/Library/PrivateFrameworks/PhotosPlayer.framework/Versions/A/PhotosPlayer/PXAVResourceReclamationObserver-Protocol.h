@@ -5,5 +5,6 @@
 //
 
 @protocol PXAVResourceReclamationObserver
+- (void)_objectValueClassBlock;
 @end
 

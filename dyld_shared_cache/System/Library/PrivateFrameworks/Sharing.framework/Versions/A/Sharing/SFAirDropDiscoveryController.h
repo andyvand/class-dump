@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SFAirDropDiscoveryControllerDelegate;
-
 @interface SFAirDropDiscoveryController
 {
     id _delegate;
-    _Bool _isVisible;
-    _Bool _isLegacyDevice;
-    _Bool _isLegacyModeEnabled;
-    _Bool _isLegacyModeSettable;
-    struct __SFOperation *_controller;
-    long long _discoverableMode;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -44,15 +36,6 @@
 ;
 
 // Remaining properties
-@property(getter=isCellularUsageEnabled) _Bool cellularUsageEnabled;
-@property __weak id <SFAirDropDiscoveryControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property long long discoverableMode;
-@property(readonly) _Bool isNearbySharingSupported;
-@property(readonly) _Bool isTimeLimitedEveryoneMode;
-@property(readonly, getter=isLegacyDevice) _Bool legacyDevice;
-@property(getter=isLegacyModeEnabled) _Bool legacyModeEnabled;
-@property(readonly, getter=isLegacyModeSettable) _Bool legacyModeSettable;
-@property(getter=isNearbySharingEnabled) _Bool nearbySharingEnabled;
 @property(readonly, getter=isVisible) _Bool visible;
 
 @end

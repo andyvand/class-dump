@@ -11,9 +11,6 @@
 {
     UIViewController *_presentingViewController;
     CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _retryHandler;
-    CDUnknownBlockType _tryPINHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (CDUnknownBlockType);
@@ -30,16 +27,13 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)k;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(retain, nonatomic) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(copy, nonatomic) CDUnknownBlockType retryHandler; // @synthesize retryHandler=_retryHandler;
-@property(copy, nonatomic) CDUnknownBlockType tryPINHandler; // @synthesize tryPINHandler=_tryPINHandler;
 
 @end
 

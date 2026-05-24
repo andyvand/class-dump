@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSTextField *_textField;
 }
 
+- (void)BaseNumber:(id)arg1 %@  Region ID:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void);
 
 @end
 

@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSUUID;
-@protocol NSMenuBarLifecycleProtocol;
-
 __attribute__((visibility("hidden")))
 @interface NSMenuBarDisplayWindow
 {
     struct CGRect _frame;
-    struct CGRect _apertureFrame;
-    double _backingScaleFactor;
-    unsigned int _displayID;
-    _Bool _isGroupingUpdates;
-    _Bool _isRTL;
-    _Bool _isVisible;
-    _Bool _needsUpdate;
-    NSUUID *_identifier;
-    NSObject<NSMenuBarLifecycleProtocol> *_menuBarImpl;
 }
 
 + (id);
@@ -30,23 +18,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (double);
+- (double)URLHostAllowedCharacterSet;
+- (struct CGRect)retionary;
+- (void);
+- (id)ret_len:(id)arg1 %zu, identity_len:%zu /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)t;
+- (void);
 - (struct CGRect);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (void);
+- (void);
 - (void)1Â0@ù
 × ;
 - (void)Að/ð!¼FùÑæ3Ð1Â0@ù
 × ;
-- (void)ew;
+- (void)NSMultiplePagePDFImageView;
 - (id);
-- (_Bool)yDisplayOptionsDidChangeObserver;
+- (_Bool)accessibilityDisplayOptionsDidChangeObserver;
 - (unsigned int)ive resize (%@);
 - (_Bool)%=hxO ÿ;
 - (void)¤t@;
@@ -54,24 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)ØËlÿ	&,G;
 
 // Remaining properties
-@property struct CGRect apertureFrame;
-@property double backingScaleFactor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned int displayID;
-@property struct CGRect frame;
-@property(readonly) unsigned long long hash;
-@property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property __weak NSObject<NSMenuBarLifecycleProtocol> *impl; // @synthesize impl=_menuBarImpl;
 @property(readonly) _Bool isGroupingUpdates;
-@property _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(setter=setVisible:) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(readonly, copy) NSDictionary *presentationSettings;
-@property(readonly) Class superclass;
 
 @end
 

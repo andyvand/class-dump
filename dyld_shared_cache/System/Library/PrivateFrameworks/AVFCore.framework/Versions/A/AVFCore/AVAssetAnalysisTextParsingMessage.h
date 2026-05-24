@@ -20,7 +20,7 @@
 - (id);
 - (struct _NSRange);
 - (void);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (long long);
 - (struct _NSRange);
@@ -28,12 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *diagnosticInformation;
-@property(readonly) long long lineNumber;
 @property(readonly) NSString *messageType;
-@property(readonly) NSString *referencedText;
-@property(readonly) struct _NSRange textRange;
-@property(readonly) struct _NSRange textRangeInLine;
 
 @end
 

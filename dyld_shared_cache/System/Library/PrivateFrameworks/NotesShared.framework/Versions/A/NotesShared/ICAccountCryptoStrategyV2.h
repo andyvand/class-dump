@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCloudSyncingObjectCryptoStrategyV2.h>
 
-@class ICCloudSyncingObject, ICEncryptionKey, ICEncryptionMetadata, ICEncryptionObject, NSString;
+@class ICCloudSyncingObject;
 
 @interface ICAccountCryptoStrategyV2 : ICCloudSyncingObjectCryptoStrategyV2
 {
@@ -14,27 +14,12 @@
 
 - (_Bool);
 - (void);
+- (_Bool)led to create distribution controller;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAuthenticate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPassphraseSet;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long intrinsicNotesVersion;
-@property(readonly, nonatomic) _Bool isAuthenticated;
 @property(readonly, nonatomic) __weak ICCloudSyncingObject *object;
-@property(readonly, copy, nonatomic) NSString *passphraseHint;
-@property(readonly, nonatomic) ICEncryptionObject *primaryEncryptionObject;
-@property(readonly, nonatomic) ICEncryptionMetadata *primaryMetadata;
-@property(readonly, nonatomic) ICEncryptionKey *primaryWrappedKey;
-@property(readonly) Class superclass;
 
 @end
 

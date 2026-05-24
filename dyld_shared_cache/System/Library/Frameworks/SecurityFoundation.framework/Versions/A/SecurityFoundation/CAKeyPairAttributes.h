@@ -7,18 +7,12 @@
 @interface CAKeyPairAttributes
 {
     int _caKeySize;
-    int _caKeyAlgorithm;
-    int _caUserKeySize;
-    int _caUserKeyAlgorithm;
-    int _caCertAuthorityKeySize;
-    int _caCertAuthorityKeyAlgorithm;
-    _Bool _caDoneCAKeyPair;
-    struct __SecAccess *_caSecAccessRef;
 }
 
 - (int);
 - (int);
 - (void);
+- (void)R(;
 - (void);
 - (void);
 - (void);
@@ -26,16 +20,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (_Bool);
-- (int);
+- (int) ;
 - (int);
 - (struct __SecAccess *);
 - (void);
-- (void);
+- (void);
 
 @end
 

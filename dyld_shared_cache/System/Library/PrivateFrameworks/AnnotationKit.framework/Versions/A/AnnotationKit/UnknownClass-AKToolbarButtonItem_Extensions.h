@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AKToolbarButtonItem_Extensions)
-- (unsigned long long);
+- (unsigned long long)kAccessoryDiagnosticsOptions;
 
 // Remaining properties
 @property(readonly) unsigned long long akToolbarButtonItemType;

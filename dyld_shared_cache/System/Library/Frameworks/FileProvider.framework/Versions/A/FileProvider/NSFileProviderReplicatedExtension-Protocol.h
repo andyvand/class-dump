@@ -5,5 +5,6 @@
 //
 
 @protocol NSFileProviderReplicatedExtension
+- (id);
 @end
 

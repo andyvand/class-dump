@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
-
 __attribute__((visibility("hidden")))
 @interface SCNUIImagePicker
 {
     id _contents;
-    NSImage *_image;
-    id target;
-    SEL action;
 }
 
 + (id);
@@ -24,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (_Bool)__objc_catlist;
+- (void)B#;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)HMFErrorDomain;
+- (id)ing *__strong);
+- (id)P;
 - (SEL);
 - (void)!Cù±³ð1Â0@ù
 × ;
@@ -827,8 +822,6 @@ static void OsdInterpolateFaceVarings(thread SCNShaderGeometry&      geometry
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action;
-@property(retain, nonatomic) id target; // @synthesize target;
 @property(retain, nonatomic) id value;
 
 @end

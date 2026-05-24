@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTPresetResourceLoader, NSMutableDictionary;
-@protocol AVTUILogger;
+@class AVTPresetResourceLoader;
 
 @interface AVTAvatarAttributeEditorPreloader
 {
     AVTPresetResourceLoader *_resourceLoader;
-    NSMutableDictionary *_cancelationTokens;
-    id <AVTUILogger> _logger;
 }
 
 - (void);
@@ -21,7 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)|
+;
 - (id);
 - (void);
 - (void);
@@ -29,8 +27,6 @@
 - (void)ÏO;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *cancelationTokens; // @synthesize cancelationTokens=_cancelationTokens;
-@property(retain, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
 @property(retain, nonatomic) AVTPresetResourceLoader *resourceLoader; // @synthesize resourceLoader=_resourceLoader;
 
 @end

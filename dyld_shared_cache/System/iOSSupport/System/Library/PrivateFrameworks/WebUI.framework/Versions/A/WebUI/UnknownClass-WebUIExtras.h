@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (WebUIExtras)
-+ (id);
++ (id)ChatBotActionButtonBackgroundStyle;
 @end
 

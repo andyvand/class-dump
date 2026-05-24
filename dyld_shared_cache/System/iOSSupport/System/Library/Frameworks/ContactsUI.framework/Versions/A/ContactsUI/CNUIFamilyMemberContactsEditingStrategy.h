@@ -9,7 +9,6 @@
 @interface CNUIFamilyMemberContactsEditingStrategy
 {
     NSArray *_prohibitedPropertyKeys;
-    CDUnknownBlockType _sensitiveDataContactFilter;
 }
 
 + (id);
@@ -17,11 +16,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void)rActions;
+- (void)allowsPickerActions;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *prohibitedPropertyKeys; // @synthesize prohibitedPropertyKeys=_prohibitedPropertyKeys;
-@property(readonly, nonatomic) CDUnknownBlockType sensitiveDataContactFilter; // @synthesize sensitiveDataContactFilter=_sensitiveDataContactFilter;
 
 @end
 

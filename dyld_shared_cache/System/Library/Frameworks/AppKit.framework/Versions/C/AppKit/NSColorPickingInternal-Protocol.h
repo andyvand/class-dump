@@ -7,9 +7,11 @@
 @class NSString;
 
 @protocol NSColorPickingInternal
+- (void)@9H;
+- (NSString *)ence;
+- (_Bool)xgJ9GElef8Q;
 
 // Remaining properties
 @property _Bool isActivePicker;
-@property(readonly, copy) NSString *pickerIdentifier;
 @end
 

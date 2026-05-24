@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiMetricsManagerLinkQualityStats
 {
     unsigned long long _timestamp;
-    NSMutableArray *_statRecords;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -19,26 +15,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)!9;
 - (void);
 - (id);
+- (void);
+- (void);
+- (unsigned long long)_;
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)(;
+- (void)+;
+- (void);
+- (void);
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *statRecords; // @synthesize statRecords=_statRecords;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

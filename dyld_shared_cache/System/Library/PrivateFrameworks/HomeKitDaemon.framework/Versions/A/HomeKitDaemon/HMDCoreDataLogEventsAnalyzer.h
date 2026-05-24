@@ -6,34 +6,27 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDCounterThresholdTTRTrigger, HMDEventCounterGroup, HMDEventCountersManager, NSString;
-@protocol HMMLogEventSubmitting;
+@class HMDEventCounterGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataLogEventsAnalyzer : HMDLogEventAnalyzer
 {
     HMDEventCounterGroup *_aggregationEventGroup;
-    HMDEventCounterGroup *_cloudStoreReasonsEventGroup;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMDEventCountersManager *_countersManager;
-    HMDCounterThresholdTTRTrigger *_workingStoreCommitTTRTrigger;
-    HMDCounterThresholdTTRTrigger *_cloudKitImportCountTTRTrigger;
-    HMDCounterThresholdTTRTrigger *_cloudKitExportCountTTRTrigger;
 }
 
 + (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%d;
 - (void)eachability:(id)arg1 %{public}@;
 - (id)cessory not registered;
-- (void)sInActionSet;
+- (void)noActionsInActionSet;
 - (void)ÿ°Ú;
 - (void)iveTemperatureAutomationsRemoteMessage:) /* Error: Ran out of types for this method. */;
 - (id)æÿ[¸B?;
@@ -41,19 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDEventCounterGroup *aggregationEventGroup; // @synthesize aggregationEventGroup=_aggregationEventGroup;
-@property(readonly, nonatomic) HMDCounterThresholdTTRTrigger *cloudKitExportCountTTRTrigger; // @synthesize cloudKitExportCountTTRTrigger=_cloudKitExportCountTTRTrigger;
-@property(readonly, nonatomic) HMDCounterThresholdTTRTrigger *cloudKitImportCountTTRTrigger; // @synthesize cloudKitImportCountTTRTrigger=_cloudKitImportCountTTRTrigger;
-@property(readonly, nonatomic) HMDEventCounterGroup *cloudStoreReasonsEventGroup; // @synthesize cloudStoreReasonsEventGroup=_cloudStoreReasonsEventGroup;
-@property(readonly, nonatomic) HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMDCounterThresholdTTRTrigger *workingStoreCommitTTRTrigger; // @synthesize workingStoreCommitTTRTrigger=_workingStoreCommitTTRTrigger;
 
 @end
 

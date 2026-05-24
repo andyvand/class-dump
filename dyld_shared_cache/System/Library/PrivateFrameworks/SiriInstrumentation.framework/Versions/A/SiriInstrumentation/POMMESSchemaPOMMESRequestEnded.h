@@ -6,32 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, POMMESSchemaPOMMESRequestResult;
-
 @interface POMMESSchemaPOMMESRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _isHandledByPreflight;
-    POMMESSchemaPOMMESRequestResult *_result;
-    NSString *_preflightClientHandlerIdentifier;
-    unsigned int _pommesSearchReason;
-    struct {
-        unsigned int isHandledByPreflight:1;
-        unsigned int pommesSearchReason:1;
-    } _has;
-    _Bool _hasResult;
-    _Bool _hasPreflightClientHandlerIdentifier;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)q;
+- (void)C;
+- (void)qa;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)R";
 - (_Bool);
 - (_Bool);
 - (void);
@@ -41,30 +30,22 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Creating>"8@"NSError"16;
 - (_Bool);
-- (_Bool);
+- (_Bool)fore deleting attachment, we found attachment guid:(id)arg1 %@;
 - (id);
 - (id);
 - (_Bool)tÐ!$Bùàð1Â0@ù
 × ;
-- (void)sambiguationsLastTwoMinutes:(_Bool)arg1;
-- (id)nRequest;
+- (void)setNumSelectedActionDisambiguationsLastTwoMinutes:(_Bool)arg1;
+- (id)_responseGenerationRequest;
 - (id)t;
-- (id)ted;
+- (id)CNVSchemaCNVFindFlowStarted;
 - (void)²÷ÿ;
-- (void)E_UNKNOWN;
+- (void)FLOWMEDIAPLAYERPLAYLISTSUBTYPE_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsHandledByPreflight;
-@property(nonatomic) _Bool hasPommesSearchReason;
-@property(nonatomic) _Bool hasPreflightClientHandlerIdentifier; // @synthesize hasPreflightClientHandlerIdentifier=_hasPreflightClientHandlerIdentifier;
-@property(nonatomic) _Bool hasResult; // @synthesize hasResult=_hasResult;
 @property(nonatomic) _Bool isHandledByPreflight; // @synthesize isHandledByPreflight=_isHandledByPreflight;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int pommesSearchReason; // @synthesize pommesSearchReason=_pommesSearchReason;
-@property(copy, nonatomic) NSString *preflightClientHandlerIdentifier; // @synthesize preflightClientHandlerIdentifier=_preflightClientHandlerIdentifier;
-@property(retain, nonatomic) POMMESSchemaPOMMESRequestResult *result; // @synthesize result=_result;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, PK_ipp_collection_t;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface PK_ipp_value_t
@@ -19,36 +19,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)_;
 - (int);
 - (struct ipp_value_date_t);
 - (id);
 - (id);
-- (struct ipp_value_string_t);
-- (id);
+- (struct ipp_value_string_t)	;
+- (id)B;
 - (struct ipp_value_resolution_t);
-- (void);
-- (struct ipp_value_range_t);
-- (void);
-- (void);
+- (void);
+- (struct ipp_value_range_t);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)able;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)_setMenuExtras: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool boolean; // @dynamic boolean;
-@property(retain) PK_ipp_collection_t *collection; // @dynamic collection;
-@property struct ipp_value_date_t date; // @dynamic date;
 @property int integer; // @dynamic integer;
-@property struct ipp_value_range_t range; // @dynamic range;
-@property struct ipp_value_resolution_t resolution; // @dynamic resolution;
-@property struct ipp_value_string_t string; // @dynamic string;
-@property(retain) NSData *unknown; // @dynamic unknown;
 
 @end
 

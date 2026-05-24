@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableAttributedString, NSMutableDictionary, NSZipFileArchive;
+@class NSMutableAttributedString;
 
 @interface NSZipTextReader
 {
     NSMutableAttributedString *_attrStr;
-    NSMutableDictionary *_documentAttrs;
-    NSZipFileArchive *_archive;
-    NSDictionary *_options;
-    NSData *_contentData;
-    NSData *_wordData;
-    NSData *_opfData;
-    NSData *_smilData;
-    NSData *_xmlData;
-    long long _indexingLimit;
-    long long _thumbnailLimit;
-    long long _errorCode;
 }
 
 - (void);

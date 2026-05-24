@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsArticleEmbeddingConfiguration, FCNewsPersonalizationArticleEmbeddingsFittingConfiguration;
+@class FCNewsArticleEmbeddingConfiguration;
 
 @interface FCNewsArticleEmbeddingsConfiguration
 {
     FCNewsArticleEmbeddingConfiguration *_titleEmbeddingConfiguration;
-    FCNewsArticleEmbeddingConfiguration *_bodyEmbeddingConfiguration;
-    FCNewsPersonalizationArticleEmbeddingsFittingConfiguration *_fittingConfiguration;
-    long long _requiredDimensions;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 - (void)es/FCCKDatabaseLoggingMiddleware.m;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsArticleEmbeddingConfiguration *bodyEmbeddingConfiguration; // @synthesize bodyEmbeddingConfiguration=_bodyEmbeddingConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationArticleEmbeddingsFittingConfiguration *fittingConfiguration; // @synthesize fittingConfiguration=_fittingConfiguration;
-@property(nonatomic) long long requiredDimensions; // @synthesize requiredDimensions=_requiredDimensions;
 @property(retain, nonatomic) FCNewsArticleEmbeddingConfiguration *titleEmbeddingConfiguration; // @synthesize titleEmbeddingConfiguration=_titleEmbeddingConfiguration;
 
 @end

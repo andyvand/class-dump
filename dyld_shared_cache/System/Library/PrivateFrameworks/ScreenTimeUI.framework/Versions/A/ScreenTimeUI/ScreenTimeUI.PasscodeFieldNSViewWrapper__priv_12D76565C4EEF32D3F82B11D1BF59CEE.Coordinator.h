@@ -7,12 +7,11 @@
 @interface ScreenTimeUI.PasscodeFieldNSViewWrapper__priv_12D76565C4EEF32D3F82B11D1BF59CEE.Coordinator
 {
     id passcodeWrapper;
-    id initialPasscode;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)_setAccessibilityAttributedLocalizedString: /* Error: Ran out of types for this method. */;
 
 @end
 

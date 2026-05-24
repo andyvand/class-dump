@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (_Bool);
-- (double);
+- (double)fusing to add experiment record of type %@ with id %{public}@ and missing deploymentId;
 - (void);
 
 // Remaining properties

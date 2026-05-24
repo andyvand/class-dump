@@ -7,6 +7,9 @@
 @protocol MSPublishStorageProtocolDelegate;
 
 @protocol MSPublishStorageProtocol
+- (void)nt in the home;
+- (void)diately transmitting updated metrics;
+- (id <MSPublishStorageProtocolDelegate>);
 
 // Remaining properties
 @property(nonatomic) id <MSPublishStorageProtocolDelegate> delegate;

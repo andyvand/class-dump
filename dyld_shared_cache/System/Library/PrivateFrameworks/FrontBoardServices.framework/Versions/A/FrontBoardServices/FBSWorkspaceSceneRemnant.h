@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneIdentity, FBSSceneParameters, NSString;
+@class FBSSceneIdentity;
 
 @interface FBSWorkspaceSceneRemnant
 {
     FBSSceneIdentity *_identity;
-    FBSSceneParameters *_parameters;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id)_8;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) FBSSceneIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, copy, nonatomic) FBSSceneParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

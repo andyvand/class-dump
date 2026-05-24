@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 @interface PKPaletteToolShadowPathView
 {
     UIView *_largeShadow;
-    UIView *_smallShadow;
-    unsigned long long _edgeLocation;
-    unsigned long long _cornerLocation;
-    double _scalingFactor;
 }
 
 - (void);
@@ -25,22 +21,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (struct CGSize);
 - (double);
-- (void)wController;
+- (void)PKHandwritingSynthesisDataCollectionViewController;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long edgeLocation; // @synthesize edgeLocation=_edgeLocation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
 
 @end
 

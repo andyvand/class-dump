@@ -6,8 +6,6 @@
 
 #import <LinkPresentation/LPFetcherResponse.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface LPFetcherJSONResponse : LPFetcherResponse
 {
@@ -21,14 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) id rootObject; // @synthesize rootObject=_rootObject;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, GEOPDLinkedService, NSArray, NSString, NSTimeZone;
+@class GEOPDLinkedService, NSTimeZone;
 
 @interface GEOLinkedService
 {
     GEOPDLinkedService *_linkedService;
-    NSArray *_cachedBusinessHours;
-    _Bool _checkedForBusinessHoursAlready;
-    NSTimeZone *_timeZone;
-    NSArray *_businessHours;
-    NSString *_localizedCategoryName;
-    GEOFeatureStyleAttributes *_styleAttributes;
 }
 
 - (void);
 - (id);
 - (id);
+- (void)initWithRequestRevision:(id)arg1 regionMap:deallocateBuffer:userBBox:alignedBBox:valueToLabelMap: /* Error: Ran out of types for this method. */;
+- (id)entityIdentificationModel:observationAtIndex:forEntityAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)dWrapperIdEE;
+- (void)N6google8protobuf8internal20RepeatedFieldWrapperIdEE;
 - (void)K4;
 - (id)¢X4^d;;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *businessHours; // @synthesize businessHours=_businessHours;
-@property(retain, nonatomic) NSString *localizedCategoryName; // @synthesize localizedCategoryName=_localizedCategoryName;
-@property(retain, nonatomic) GEOFeatureStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
 @property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end

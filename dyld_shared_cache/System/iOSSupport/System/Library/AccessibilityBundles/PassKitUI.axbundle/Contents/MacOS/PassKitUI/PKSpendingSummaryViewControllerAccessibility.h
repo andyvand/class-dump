@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_axIsDataDetectorOfType: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (void);

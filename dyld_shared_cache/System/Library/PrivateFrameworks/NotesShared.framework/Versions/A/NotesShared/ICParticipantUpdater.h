@@ -10,22 +10,20 @@
 @interface ICParticipantUpdater
 {
     NSManagedObjectContext *_managedObjectContext;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 - (id);
+- (void)unable to add server;
+- (void)move subnet '%@' from '%@':(CDUnknownBlockType)arg1 %@ (%d);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (void)È;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end

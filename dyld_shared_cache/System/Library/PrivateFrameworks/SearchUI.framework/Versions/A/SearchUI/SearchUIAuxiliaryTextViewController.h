@@ -6,8 +6,6 @@
 
 #import <SearchUI/SearchUIAccessoryViewController.h>
 
-@class TLKAuxilliaryTextView;
-
 @interface SearchUIAuxiliaryTextViewController : SearchUIAccessoryViewController
 {
     _Bool _shouldCenter;
@@ -18,12 +16,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)clearAccountTypes;
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldCenter; // @synthesize shouldCenter=_shouldCenter;
-@property(retain) TLKAuxilliaryTextView *view; // @dynamic view;
 
 @end
 

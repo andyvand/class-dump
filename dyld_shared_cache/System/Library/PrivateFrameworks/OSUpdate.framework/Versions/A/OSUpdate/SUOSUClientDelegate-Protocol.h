@@ -5,5 +5,9 @@
 //
 
 @protocol SUOSUClientDelegate
+
+@optional
+- (void)k;
+- (void);
 @end
 

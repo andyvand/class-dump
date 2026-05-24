@@ -7,13 +7,6 @@
 @interface AWDSafariDedupedDAVBookmarksEvent
 {
     unsigned long long _dedupeCount;
-    unsigned long long _foldersWithDupesCount;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int dedupeCount:1;
-        unsigned int foldersWithDupesCount:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
@@ -21,30 +14,25 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)k;
+- (unsigned long long)T�2;
 - (void);
-- (id);
+- (id)6;
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)T8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)	;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long dedupeCount; // @synthesize dedupeCount=_dedupeCount;
-@property(nonatomic) unsigned long long foldersWithDupesCount; // @synthesize foldersWithDupesCount=_foldersWithDupesCount;
-@property(nonatomic) _Bool hasDedupeCount;
-@property(nonatomic) _Bool hasFoldersWithDupesCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

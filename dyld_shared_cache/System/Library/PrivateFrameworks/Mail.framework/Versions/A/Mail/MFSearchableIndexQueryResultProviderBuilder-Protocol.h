@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFMessageCriterion, NSString;
+@class NSString;
 @protocol MFMessageConsumer;
 
 @protocol MFSearchableIndexQueryResultProviderBuilder
+- (unsigned int);
 - (void)Ä;
 - (NSString *)`(;#_pIeglyozo_;
 - (void)ü;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID;
-@property(retain, nonatomic) MFMessageCriterion *criterion;
-@property(copy, nonatomic) NSString *logIdentifier;
-@property(nonatomic) unsigned int options;
-@property(copy, nonatomic) NSString *queryID;
-@property(copy, nonatomic) NSString *sessionID;
 @property(retain, nonatomic) id <MFMessageConsumer> target;
 @end
 

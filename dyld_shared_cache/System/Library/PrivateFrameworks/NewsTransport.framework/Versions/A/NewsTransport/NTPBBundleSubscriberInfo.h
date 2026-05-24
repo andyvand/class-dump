@@ -4,63 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NTPBBundleSubscriberInfo
 {
     long long _startTimestamp;
-    int _bundleSubscriptionStatus;
-    NSMutableArray *_subscribedChannelIds;
-    NSString *_userId;
-    NSString *_userStorefrontId;
-    _Bool _isAmplifyUser;
-    _Bool _isBundlePurchaser;
-    _Bool _isStoreDemoModeEnabled;
-    struct {
-        unsigned int startTimestamp:1;
-        unsigned int bundleSubscriptionStatus:1;
-        unsigned int isAmplifyUser:1;
-        unsigned int isBundlePurchaser:1;
-        unsigned int isStoreDemoModeEnabled:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)alphaForClipWithInfo:proposedAlpha:inViewMode:layout: /* Error: Ran out of types for this method. */;
+- (id)contentTilingController;
+- (unsigned long long)configureAlertConfiguration:withUserConfirmationHandler: /* Error: Ran out of types for this method. */;
+- (id)configurationsFromSharableString:(unsigned long long)arg1;
+- (void)completedItemsCount;
+- (void)collectionFixedOrderPriority;
+- (void)canPerformOnCollectionList:(_Bool)arg1;
+- (void)canEditAlbums;
+- (void)assetCollectionsCountForFetchResult:(_Bool)arg1;
+- (void)assetCollectionDuplicateTypeMappingForAssetCollectionUUIDs:(_Bool)arg1 photoLibrary:error: /* Error: Ran out of types for this method. */;
+- (void)assetCollectionBySection;
+- (void)wed:(int)arg1;
+- (_Bool)_userCanContinueAfterSavingSyndicatedAssets;
+- (_Bool)_updateTransformedObjects;
+- (_Bool)_unfavoritePersonWithChangeRequest:photoLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)_triptychFrequencyTable;
+- (_Bool)_trimStartTime;
+- (_Bool)_text;
+- (void)_startLibraryFilterChangedSignpostForCollection: /* Error: Ran out of types for this method. */;
+- (id)_snapStripView;
+- (int)dicator: /* Error: Ran out of types for this method. */;
+- (void)_signalDelegateForPrimaryItemChange;
+- (void)_shouldUseProcessingStatusInAvailabilityMonitor;
+- (int)_setRequestingNewMemories:(id)arg1;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
+- (_Bool)rt;
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (int);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)`;
+- (id)allowMixedStateWhenAllChildrenSelected;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,24 +52,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)hasPersonalizationConfig;
 
 // Remaining properties
-@property(nonatomic) int bundleSubscriptionStatus; // @synthesize bundleSubscriptionStatus=_bundleSubscriptionStatus;
 @property(nonatomic) _Bool hasBundleSubscriptionStatus;
-@property(nonatomic) _Bool hasIsAmplifyUser;
-@property(nonatomic) _Bool hasIsBundlePurchaser;
-@property(nonatomic) _Bool hasIsStoreDemoModeEnabled;
-@property(nonatomic) _Bool hasStartTimestamp;
-@property(readonly, nonatomic) _Bool hasUserId;
-@property(readonly, nonatomic) _Bool hasUserStorefrontId;
-@property(nonatomic) _Bool isAmplifyUser; // @synthesize isAmplifyUser=_isAmplifyUser;
-@property(nonatomic) _Bool isBundlePurchaser; // @synthesize isBundlePurchaser=_isBundlePurchaser;
-@property(nonatomic) _Bool isStoreDemoModeEnabled; // @synthesize isStoreDemoModeEnabled=_isStoreDemoModeEnabled;
-@property(nonatomic) long long startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(retain, nonatomic) NSMutableArray *subscribedChannelIds; // @synthesize subscribedChannelIds=_subscribedChannelIds;
-@property(retain, nonatomic) NSString *userId; // @synthesize userId=_userId;
-@property(retain, nonatomic) NSString *userStorefrontId; // @synthesize userStorefrontId=_userStorefrontId;
 
 @end
 

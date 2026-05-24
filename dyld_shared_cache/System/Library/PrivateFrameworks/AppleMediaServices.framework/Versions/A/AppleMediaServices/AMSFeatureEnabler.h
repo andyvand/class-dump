@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (void);
-+ (id)onseDecoder: /* Error: Ran out of types for this method. */;
++ (id)setResponseDecoder: /* Error: Ran out of types for this method. */;
 
 @end
 

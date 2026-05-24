@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface PXSharedLibraryParticipantTableCellModel
 {
     _Bool _removeButtonVisible;
-    _Bool _ellipsisButtonAllowed;
-    NSImage *_image;
-    long long _requestID;
-    NSString *_name;
-    NSString *_address;
 }
 
 + (double);
@@ -35,12 +30,7 @@
 - (void)LemonadeAlbumsFolderAccessibilityUtilities;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) _Bool ellipsisButtonAllowed; // @synthesize ellipsisButtonAllowed=_ellipsisButtonAllowed;
 @property(readonly, copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool removeButtonVisible; // @synthesize removeButtonVisible=_removeButtonVisible;
-@property(readonly, nonatomic) long long requestID; // @synthesize requestID=_requestID;
 
 @end
 

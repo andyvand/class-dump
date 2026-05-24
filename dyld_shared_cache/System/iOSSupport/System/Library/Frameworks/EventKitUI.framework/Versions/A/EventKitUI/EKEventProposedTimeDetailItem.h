@@ -6,27 +6,25 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface EKEventProposedTimeDetailItem : EKEventDetailItem
 {
     NSMutableDictionary *_cellForAttendee;
-    NSArray *_attendeesWithProposedTimes;
-    _Bool _visibilityChanged;
 }
 
-- (void);
+- (void)DL;
 - (id);
-- (id);
+- (id)e;
 - (unsigned long long);
-- (void);
+- (void)nrollment check result:(double)arg1 %{public}@;
 - (unsigned long long);
-- (id);
+- (id)undoManagerForTextView:(struct CGRect)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)ed: /* Error: Ran out of types for this method. */;
+- (void)setNumberOfTapsRequired: /* Error: Ran out of types for this method. */;
 - (void)entAndReminderBlock:(int)arg1 noBackgroundStyle: /* Error: Ran out of types for this method. */;
 - (double)°åôÿ_;
 

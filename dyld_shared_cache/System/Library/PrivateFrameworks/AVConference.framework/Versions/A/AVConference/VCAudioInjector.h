@@ -6,37 +6,17 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSString, VCCannedAVSync;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioInjector : VCObject
 {
     unsigned int _audioSampleCount;
-    int _assetType;
-    NSString *_cannedMoviePath;
-    int _position;
-    _Bool _fromBeginning;
-    _Bool _playbackComplete;
-    struct os_unfair_lock_s _samplesMutex;
-    struct _opaque_pthread_cond_t _samplesConditional;
-    struct AudioStreamBasicDescription _outputFormat;
-    VCCannedAVSync *_avSync;
-    _Bool _isSharedAVSync;
-    _Bool _isReadyToInject;
-    struct tagVCAudioInjectorConverterProc _audioConverterProc;
-    struct opaqueVCAudioBufferList *_sampleBuffer;
-    unsigned int _maxLoopCount;
-    unsigned int _loopCount;
-    unsigned int _samplesInLoop;
-    double _loopLength;
-    _Bool _forceVoiceActive;
 }
 
 + (int);
 + (_Bool);
 + (struct AudioStreamBasicDescription);
 + (id);
-+ (id);
++ (id)";
 - (int);
 - (int);
 - (_Bool);
@@ -45,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (int);
+- (int);
 - (void);
 - (int);
 - (int);
@@ -53,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (int);
+- (int))@yI;
 - (_Bool);
 - (void);
 - (id);
@@ -61,7 +41,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool isReadyToInject; // @synthesize isReadyToInject=_isReadyToInject;
-@property(readonly) unsigned int samplesInLoop; // @synthesize samplesInLoop=_samplesInLoop;
 
 @end
 

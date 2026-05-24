@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AutoFillCandidateListBarItemController, NSCustomTouchBarItem, NSString, NSTouchBar, NSURL;
 @protocol AutoFillFunctionBarProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AutoFillFunctionBarProvider
 {
     Vector_e48de2cf _currentCompletionListItems;
-    NSURL *_currentFormURL;
-    NSCustomTouchBarItem *_autoFillLabelFunctionBarItem;
-    AutoFillCandidateListBarItemController *_autoFillCandidateListBarItemController;
-    NSTouchBar *_functionBar;
-    id <AutoFillFunctionBarProviderDelegate> _delegate;
 }
 
 - (id);
@@ -26,30 +20,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (RefPtr_2606f788);
+- (RefPtr_2606f788)v;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
 - (id)æ/;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AutoFillFunctionBarProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar; // @synthesize touchBar=_functionBar;
 
 @end
 

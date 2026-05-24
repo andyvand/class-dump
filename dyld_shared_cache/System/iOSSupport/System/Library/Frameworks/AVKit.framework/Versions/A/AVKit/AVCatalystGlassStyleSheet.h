@@ -6,66 +6,27 @@
 
 #import <AVKit/AVMobileControlsStyleSheet.h>
 
-@class UIColor, UIFont;
-
 __attribute__((visibility("hidden")))
 @interface AVCatalystGlassStyleSheet : AVMobileControlsStyleSheet
 {
     struct UIEdgeInsets _fullscreenInsets;
-    struct UIEdgeInsets _embeddedInlineInsets;
-    double _standardPaddingFullScreen;
-    double _standardPaddingInline;
-    _Bool _shouldUseCompactFullScreenSize;
-    UIFont *_infoLabelFont;
-    UIFont *_scrubberInfoLabelFont;
-    UIFont *_scrubberTimeLabelFont;
-    double _standardInteritemPadding;
-    double _additionalInlinePaddingForDodgingSafeArea;
-    double _volumeSliderInlineWidth;
-    double _volumeSliderCompactFullScreenWidth;
-    double _volumeSliderRegularFullScreenWidth;
-    double _volumeSliderPadding;
-    double _minimumProminentPlayButtonDimension;
-    double _maximumProminentPlayButtonDimension;
-    double _maximumTransportControlsWidth;
-    double _maximumMultiRowTransportControlsWidth;
-    double _minimumTransportControlsWidth;
-    double _minimumSingleButtonTransportControlsWidth;
-    double _spacingBetweenScrubInstructionsAndScrubber;
-    double _liveBroadcastLabelTopToBackdropTopDistance;
-    UIFont *_buttonFont;
-    double _defaultInterItemSpacing;
-    double _defaultPlatterHeight;
-    UIColor *_sliderMinValueTrackColor;
-    struct CGSize _defaultItemInlineSize;
-    struct CGSize _defaultItemFullScreenSize;
-    struct CGSize _routePickerButtonInlineSize;
-    struct CGSize _routePickerButtonFullScreenSize;
-    struct CGSize _audioRoutePickerFullScreenSize;
-    struct CGSize _volumeButtonInlineSize;
-    struct CGSize _volumeButtonFullScreenSize;
-    struct CGSize _minimumScrubberSize;
-    struct NSDirectionalEdgeInsets _doubleRowLayoutMargins;
-    struct NSDirectionalEdgeInsets _doubleRowLayoutMarginsWhenShowingScrubInstructions;
-    struct NSDirectionalEdgeInsets _doublerowLayoutMarginsWhenShowingCustomContentInfo;
-    struct NSDirectionalEdgeInsets _volumeControlsDirectionalInsets;
 }
 
-- (double);
-- (double);
+- (double);
+- (double);
 - (double);
 - (double);
 - (struct CGSize);
-- (struct CGSize);
-- (double);
+- (struct CGSize);
+- (double);
 - (double);
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
+- (double);
 - (double);
-- (double);
-- (struct CGSize);
+- (struct CGSize);
 - (double);
 - (double);
 - (double);
@@ -94,39 +55,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double additionalInlinePaddingForDodgingSafeArea; // @synthesize additionalInlinePaddingForDodgingSafeArea=_additionalInlinePaddingForDodgingSafeArea;
-@property(readonly, nonatomic) struct CGSize audioRoutePickerFullScreenSize; // @synthesize audioRoutePickerFullScreenSize=_audioRoutePickerFullScreenSize;
-@property(readonly, nonatomic) UIFont *buttonFont; // @synthesize buttonFont=_buttonFont;
-@property(readonly, nonatomic) double defaultInterItemSpacing; // @synthesize defaultInterItemSpacing=_defaultInterItemSpacing;
-@property(readonly, nonatomic) struct CGSize defaultItemFullScreenSize; // @synthesize defaultItemFullScreenSize=_defaultItemFullScreenSize;
 @property(readonly, nonatomic) struct CGSize defaultItemInlineSize; // @synthesize defaultItemInlineSize=_defaultItemInlineSize;
-@property(readonly, nonatomic) double defaultPlatterHeight; // @synthesize defaultPlatterHeight=_defaultPlatterHeight;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets doubleRowLayoutMargins; // @synthesize doubleRowLayoutMargins=_doubleRowLayoutMargins;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets doubleRowLayoutMarginsWhenShowingScrubInstructions; // @synthesize doubleRowLayoutMarginsWhenShowingScrubInstructions=_doubleRowLayoutMarginsWhenShowingScrubInstructions;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets doublerowLayoutMarginsWhenShowingCustomContentInfo; // @synthesize doublerowLayoutMarginsWhenShowingCustomContentInfo=_doublerowLayoutMarginsWhenShowingCustomContentInfo;
-@property(readonly, nonatomic) UIFont *infoLabelFont; // @synthesize infoLabelFont=_infoLabelFont;
-@property(readonly, nonatomic) double liveBroadcastLabelTopToBackdropTopDistance; // @synthesize liveBroadcastLabelTopToBackdropTopDistance=_liveBroadcastLabelTopToBackdropTopDistance;
-@property(readonly, nonatomic) double maximumMultiRowTransportControlsWidth; // @synthesize maximumMultiRowTransportControlsWidth=_maximumMultiRowTransportControlsWidth;
-@property(readonly, nonatomic) double maximumProminentPlayButtonDimension; // @synthesize maximumProminentPlayButtonDimension=_maximumProminentPlayButtonDimension;
-@property(readonly, nonatomic) double maximumTransportControlsWidth; // @synthesize maximumTransportControlsWidth=_maximumTransportControlsWidth;
-@property(readonly, nonatomic) double minimumProminentPlayButtonDimension; // @synthesize minimumProminentPlayButtonDimension=_minimumProminentPlayButtonDimension;
-@property(readonly, nonatomic) struct CGSize minimumScrubberSize; // @synthesize minimumScrubberSize=_minimumScrubberSize;
-@property(readonly, nonatomic) double minimumSingleButtonTransportControlsWidth; // @synthesize minimumSingleButtonTransportControlsWidth=_minimumSingleButtonTransportControlsWidth;
-@property(readonly, nonatomic) double minimumTransportControlsWidth; // @synthesize minimumTransportControlsWidth=_minimumTransportControlsWidth;
-@property(readonly, nonatomic) struct CGSize routePickerButtonFullScreenSize; // @synthesize routePickerButtonFullScreenSize=_routePickerButtonFullScreenSize;
-@property(readonly, nonatomic) struct CGSize routePickerButtonInlineSize; // @synthesize routePickerButtonInlineSize=_routePickerButtonInlineSize;
-@property(readonly, nonatomic) UIFont *scrubberInfoLabelFont; // @synthesize scrubberInfoLabelFont=_scrubberInfoLabelFont;
-@property(readonly, nonatomic) UIFont *scrubberTimeLabelFont; // @synthesize scrubberTimeLabelFont=_scrubberTimeLabelFont;
-@property(readonly, nonatomic) UIColor *sliderMinValueTrackColor; // @synthesize sliderMinValueTrackColor=_sliderMinValueTrackColor;
-@property(readonly, nonatomic) double spacingBetweenScrubInstructionsAndScrubber; // @synthesize spacingBetweenScrubInstructionsAndScrubber=_spacingBetweenScrubInstructionsAndScrubber;
-@property(readonly, nonatomic) double standardInteritemPadding; // @synthesize standardInteritemPadding=_standardInteritemPadding;
-@property(readonly, nonatomic) struct CGSize volumeButtonFullScreenSize; // @synthesize volumeButtonFullScreenSize=_volumeButtonFullScreenSize;
-@property(readonly, nonatomic) struct CGSize volumeButtonInlineSize; // @synthesize volumeButtonInlineSize=_volumeButtonInlineSize;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets volumeControlsDirectionalInsets; // @synthesize volumeControlsDirectionalInsets=_volumeControlsDirectionalInsets;
-@property(readonly, nonatomic) double volumeSliderCompactFullScreenWidth; // @synthesize volumeSliderCompactFullScreenWidth=_volumeSliderCompactFullScreenWidth;
-@property(readonly, nonatomic) double volumeSliderInlineWidth; // @synthesize volumeSliderInlineWidth=_volumeSliderInlineWidth;
-@property(readonly, nonatomic) double volumeSliderPadding; // @synthesize volumeSliderPadding=_volumeSliderPadding;
-@property(readonly, nonatomic) double volumeSliderRegularFullScreenWidth; // @synthesize volumeSliderRegularFullScreenWidth=_volumeSliderRegularFullScreenWidth;
 
 @end
 

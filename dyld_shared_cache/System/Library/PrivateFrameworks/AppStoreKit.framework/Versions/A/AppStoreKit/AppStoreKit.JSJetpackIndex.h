@@ -7,9 +7,6 @@
 @interface AppStoreKit.JSJetpackIndex
 {
     id cacheKey;
-    id scriptURL;
-    id properties;
-    id bagOverrides;
 }
 
 @end

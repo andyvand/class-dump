@@ -7,8 +7,6 @@
 @interface PGSearchEntityPersister
 {
     id photoLibrary;
-    id logger;
-    id batchSize;
 }
 
 - (_Bool);

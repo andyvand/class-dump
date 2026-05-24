@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PHSuggestion, PHSuggestionMessageContext;
+@class PHSuggestion;
 
 @interface PHSuggestionMessageMatchingResult
 {
     PHSuggestion *_suggestion;
-    PHSuggestionMessageContext *_messageContext;
-    NSMutableDictionary *_scoreByCMMSuggestionMatchingType;
 }
 
 - (void);
@@ -18,16 +16,14 @@
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)0;
 - (id);
 - (void)0@ù
 × ;
-- (id)cludeTorsoOnlyPersonNumber;
-- (void)hedProperties: /* Error: Ran out of types for this method. */;
+- (id)_includeTorsoOnlyPersonNumber;
+- (void)_attachPropertyObjectOfClass:preFetchedProperties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PHSuggestionMessageContext *messageContext; // @synthesize messageContext=_messageContext;
-@property(retain, nonatomic) NSMutableDictionary *scoreByCMMSuggestionMatchingType; // @synthesize scoreByCMMSuggestionMatchingType=_scoreByCMMSuggestionMatchingType;
 @property(retain, nonatomic) PHSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 
 @end

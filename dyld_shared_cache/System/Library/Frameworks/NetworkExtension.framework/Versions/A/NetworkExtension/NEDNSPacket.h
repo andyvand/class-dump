@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString;
-
 @interface NEDNSPacket
 {
     _Bool _isAuthoritativeAnswer;
-    _Bool _isTruncated;
-    _Bool _isRecursionDesired;
-    _Bool _isRecursionAvailable;
-    unsigned short _flags;
-    long long _identifier;
-    NSDate *_timestamp;
-    long long _messageType;
-    long long _opCode;
-    long long _responseCode;
-    NSArray *_queries;
-    NSArray *_answers;
-    NSArray *_authorities;
-    NSArray *_additionalRecords;
-    NSData *_data;
-    unsigned long long _endOfQueriesOffset;
 }
 
 + (id);
@@ -41,25 +24,12 @@
 - (_Bool);
 - (long long);
 - (id);
-- (long long);
-- (void)nHandler: /* Error: Ran out of types for this method. */;
+- (long long)_connectionCountHint;
+- (void)removeConfigurationFromDisk:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
 - (long long)g>"8@"NSArray"16;
 
 // Remaining properties
-@property(readonly) NSArray *additionalRecords; // @synthesize additionalRecords=_additionalRecords;
-@property(readonly) NSArray *answers; // @synthesize answers=_answers;
-@property(readonly) NSArray *authorities; // @synthesize authorities=_authorities;
 @property(readonly) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isAuthoritativeAnswer; // @synthesize isAuthoritativeAnswer=_isAuthoritativeAnswer;
-@property(readonly) _Bool isRecursionAvailable; // @synthesize isRecursionAvailable=_isRecursionAvailable;
-@property(readonly) _Bool isRecursionDesired; // @synthesize isRecursionDesired=_isRecursionDesired;
-@property(readonly) _Bool isTruncated; // @synthesize isTruncated=_isTruncated;
-@property(readonly) long long messageType; // @synthesize messageType=_messageType;
-@property(readonly) long long opCode; // @synthesize opCode=_opCode;
-@property(readonly) NSArray *queries; // @synthesize queries=_queries;
-@property(readonly) long long responseCode; // @synthesize responseCode=_responseCode;
-@property(readonly) NSString *responseCodeString;
-@property(readonly) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol VCDeviceStateProtocol
+- (void);
 @end
 

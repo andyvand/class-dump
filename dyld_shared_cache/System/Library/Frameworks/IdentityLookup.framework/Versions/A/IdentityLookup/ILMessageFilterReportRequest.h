@@ -9,37 +9,29 @@
 @interface ILMessageFilterReportRequest
 {
     NSString *_sender;
-    NSString *_messageBody;
-    NSString *_receiverISOCountryCode;
-    long long _suggestedAction;
-    NSString *_extensionIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)maxTime;
 - (void);
 - (id);
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)pected inability to convert to CNSatId,SV,%s;
+- (id)n` dH	;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(copy, nonatomic) NSString *messageBody; // @synthesize messageBody=_messageBody;
-@property(copy, nonatomic) NSString *receiverISOCountryCode; // @synthesize receiverISOCountryCode=_receiverISOCountryCode;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(nonatomic) long long suggestedAction; // @synthesize suggestedAction=_suggestedAction;
 
 @end
 

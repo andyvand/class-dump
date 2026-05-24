@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CHRecognitionSessionObserver;
 
 @interface PKRecognitionSessionObserverWrapper
 {
     id <CHRecognitionSessionObserver> _realObserver;
-    _Atomic _Bool _deactivated;
 }
 
-- (id);
+- (id)Am!8c!a;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

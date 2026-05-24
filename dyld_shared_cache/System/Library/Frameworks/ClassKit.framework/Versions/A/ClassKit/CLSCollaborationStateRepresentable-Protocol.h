@@ -8,6 +8,10 @@
 
 @protocol CLSCollaborationStateRepresentable
 
+@optional
+- (NSArray *)kANEDeviceWakeup
+;
+
 // Remaining properties
 @property(readonly, nonatomic) NSArray *collaborationStates;
 // Preceding property had unknown attributes: ?

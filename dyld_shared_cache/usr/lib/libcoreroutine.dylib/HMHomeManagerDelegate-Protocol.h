@@ -7,6 +7,8 @@
 @protocol HMHomeManagerDelegate
 
 @optional
+- (void)#;
+- (void);
 - (void)predownloadBluePOITiles;
 @end
 

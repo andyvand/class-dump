@@ -5,5 +5,16 @@
 //
 
 @protocol ICMusicSubscriptionLeaseSessionDelegate
+- (void)rtexColor.a * tex.a; 
+#ifdef ENABLE_FOG
+    gl_FragColor.rgb = mix(v_vertexColor.rgb + tex.rgb, u_fogColor.rgb, v_normal.a) * gl_FragColor.a; 
+#else
+    gl_FragColor.rgb = (v_vertexColor.rgb + tex.rgb) * gl_FragColor.a; 
+#endif 
+#else
+    gl_FragColor = v_vertexColor * tex; 
+#endif
+} 
+;
 @end
 

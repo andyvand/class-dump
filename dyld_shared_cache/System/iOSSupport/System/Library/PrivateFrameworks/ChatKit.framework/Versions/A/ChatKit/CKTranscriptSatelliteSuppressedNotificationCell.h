@@ -6,41 +6,32 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class NSAttributedString, NSString, UILabel;
+@class NSAttributedString, UILabel;
 
 @interface CKTranscriptSatelliteSuppressedNotificationCell : CKTranscriptCell
 {
     NSAttributedString *_satelliteNoNotificationTitleLabelAttributedText;
-    UILabel *_satelliteNoNotificationTitleLabel;
 }
 
 + (id);
 + (id);
+- (void)notePredicateFromNoteInVirtualSmartFolderInURL:(id)arg1;
+- (void)noteMultitaskingOccurred;
+- (id)crossProcessChangeCoordinator;
+- (id)croppingQuadTopRightX;
+- (void)_filteredModernSourceObjects;
+- (void)al",N,R;
+- (void);
+- (id)t;
+- (void)otes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
+- (void)a %@ object, use +sharedInstance instead.;
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)indexPathForRow:(struct CGRect)arg1 inSection: /* Error: Ran out of types for this method. */;
 - (void)service color in recipient search list for handle:%@, with service:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UILabel *satelliteNoNotificationTitleLabel; // @synthesize satelliteNoNotificationTitleLabel=_satelliteNoNotificationTitleLabel;
-@property(copy, nonatomic) NSAttributedString *satelliteNoNotificationTitleLabelAttributedText; // @synthesize satelliteNoNotificationTitleLabelAttributedText=_satelliteNoNotificationTitleLabelAttributedText;
-@property(readonly) Class superclass;
 
 @end
 

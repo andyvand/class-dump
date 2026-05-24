@@ -7,8 +7,6 @@
 @interface FMNetworking.FMNMockClientURLSession
 {
     id httpArchiveFileURL;
-    id responseReadQueue;
-    id urlResponseByURL;
 }
 
 @end

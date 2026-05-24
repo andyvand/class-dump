@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPromiseSerialQueue, NSString;
+@class AMSPromiseSerialQueue;
 
 __attribute__((visibility("hidden")))
 @interface AMSAbsintheSession
 {
     CDUnknownFunctionPointerType _PSCHelloV4Override;
-    CDUnknownFunctionPointerType _PSCDisposeOverride;
-    AMSPromiseSerialQueue *_queue;
-    struct PSCSessionInternal_ *_sessionRef;
-    NSString *_servKey;
 }
 
 + (id);
@@ -40,11 +36,7 @@ __attribute__((visibility("hidden")))
 o^m9Ì /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property CDUnknownFunctionPointerType PSCDisposeOverride; // @synthesize PSCDisposeOverride=_PSCDisposeOverride;
-@property CDUnknownFunctionPointerType PSCHelloV4Override; // @synthesize PSCHelloV4Override=_PSCHelloV4Override;
 @property(readonly, nonatomic) AMSPromiseSerialQueue *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) NSString *servKey; // @synthesize servKey=_servKey;
-@property(nonatomic) struct PSCSessionInternal_ *sessionRef; // @synthesize sessionRef=_sessionRef;
 
 @end
 

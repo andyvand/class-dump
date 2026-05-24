@@ -7,11 +7,6 @@
 @interface NewsUI2.ContinueReadingInteractor
 {
     id tracker;
-    id userActivityHandlerManager;
-    id newsActivityManager;
-    id exposureData;
-    id navigator;
-    id articleDataFactory;
 }
 
 @end

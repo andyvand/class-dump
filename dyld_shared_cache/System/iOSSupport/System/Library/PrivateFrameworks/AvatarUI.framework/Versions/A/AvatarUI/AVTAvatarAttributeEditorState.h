@@ -9,8 +9,6 @@
 @interface AVTAvatarAttributeEditorState
 {
     NSMutableDictionary *_pairedStates;
-    NSMutableDictionary *_multicolorEnabledStates;
-    NSMutableDictionary *_multicolorSelectedStates;
 }
 
 + (id);
@@ -21,18 +19,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)ks/Accounts.framework/Versions/A/Accounts;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *multicolorEnabledStates; // @synthesize multicolorEnabledStates=_multicolorEnabledStates;
-@property(retain, nonatomic) NSMutableDictionary *multicolorSelectedStates; // @synthesize multicolorSelectedStates=_multicolorSelectedStates;
 @property(retain, nonatomic) NSMutableDictionary *pairedStates; // @synthesize pairedStates=_pairedStates;
 
 @end

@@ -12,12 +12,6 @@ __attribute__((visibility("hidden")))
 @interface EPPivotTableStyleFlattener : EPStyleFlattener
 {
     EDPivotTable *mPivotTable;
-    long long mFirstHeaderRow;
-    long long mFirstDataRow;
-    long long mFirstDataColumn;
-    unsigned long long mRowFieldsCount;
-    unsigned long long mColumnFieldsCount;
-    unsigned long long mPageFieldsCount;
 }
 
 - (id);
@@ -33,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
 

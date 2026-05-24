@@ -6,20 +6,16 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class CWWiFiClient, NSImageView, NSObject;
-@protocol OS_dispatch_queue;
+@class NSImageView;
 
 @interface LUI2WiFiViewController : LUI2ViewController
 {
     _Bool _paused;
-    NSImageView *_wifiImageView;
-    CWWiFiClient *_client;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,9 +25,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)deleteAccountStatementMetadataForStatementIdentifier:(id)arg1 accountIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (void), issuerCountryCodes:(id)arg1 %@, result:%@ /* Error: Ran out of types for this method. */;
+- (void)ed pass:(id)arg1 %@ from source device;
 - (id);
 - (void);
 - (void);
@@ -45,9 +41,6 @@
 - (void)8;
 
 // Remaining properties
-@property(retain) CWWiFiClient *client; // @synthesize client=_client;
-@property _Bool paused; // @synthesize paused=_paused;
-@property(retain) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 @property(retain) NSImageView *wifiImageView; // @synthesize wifiImageView=_wifiImageView;
 
 @end

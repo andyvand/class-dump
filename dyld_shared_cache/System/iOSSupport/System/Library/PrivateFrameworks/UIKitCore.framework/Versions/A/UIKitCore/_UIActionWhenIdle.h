@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSInvocation *_invocation;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (_Bool);
-- (void)S;
+- (void)_UIPickerViewStyle_iOS;
 - (id)ink requires a non-null view.;
 - (void)Ì#;
 - (id)Í;

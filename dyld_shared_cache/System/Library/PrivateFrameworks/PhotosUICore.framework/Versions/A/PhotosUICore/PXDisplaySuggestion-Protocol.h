@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @protocol PXDisplaySuggestion
-- (NSString *)ionPerformer;
+- (unsigned short)displayStartTime;
+- (NSString *)PXPhotosGridPickerShowFiltersMenuActionPerformer;
 - (unsigned short)Õ¤yÓ¤y®¤Gv²¤GGAByACyAByAByAByAByÍ¤yACyADyéÜ¤yADyAByABy4¥yQo_AYGA7_G_AZSg=Ý¤SgA22_SgADyA40__AItGSgtGG_A41_AAyAzAyA35_yADyA40__A4_A40_tGGA4_GGADyA40__A35_yADyA40__A22_A40_tGGtGSgtGG_Qo_A21_GA18_y²Å¤GGAJGA28_yA29_yþ¤GA32_GGGAJGG;
-- (NSString *)ioPlayerChangedVolume;
+- (NSString *)PXAudioPlayerChangedVolume;
 - (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *actionProperties;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, copy, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) NSString *localizedSubtitle;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) NSDate *startDate;
 @property(readonly, nonatomic) unsigned short state;
-@property(readonly, nonatomic) unsigned short subtype;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) unsigned short type;
 @end
 

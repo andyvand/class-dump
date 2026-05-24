@@ -6,45 +6,35 @@
 
 #import <IMDaemonCore/IMDCKAbstractSyncController.h>
 
-@class IMDCKAttachmentSyncCKOperationFactory, IMDRecordZoneManager, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, SyncTokenStoreProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMDCKAttachmentSyncController : IMDCKAbstractSyncController
 {
     _Bool _isDoingDeleteRecoverySync;
-    _Bool _assetDownloadInProgress;
-    NSObject<OS_dispatch_queue> *_ckQueue;
-    IMDRecordZoneManager *_recordZoneManager;
-    IMDCKAttachmentSyncCKOperationFactory *_CKOperationFactory;
-    id <SyncTokenStoreProviding> _syncTokenStore;
-    NSMutableDictionary *_completionBlocksForAssetFetchOperations;
-    NSMutableDictionary *_recordIDToTransferMap;
-    CDUnknownBlockType _perTransferProgress;
-    NSMutableArray *_downloadAssetsForTransferGUIDs;
-    unsigned long long _deviceConditionsToCheck;
 }
 
 + (id)exists, generating new chat identifier %s and GUID %s;
 - (void);
+- (void)(;
+- (void)J9(@b �N;
+- (void)L#H;
 - (void);
 - (void);
+- (void)'H;
+- (void) H;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)9#%9!;
 - (id);
-- (id);
-- (id);
+- (id)``;
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
@@ -61,94 +51,85 @@
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)<  ;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)rD;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)';
 - (long long);
+- (long long);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)*;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)"n
+;
+- (void);
+- (id);
+- (id))A;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)NSObject;
+- (id);
+- (id);
+- (void)BMUserActivityMetadataTopic;
 - (long long);
-- (unsigned long long);
-- (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void):(id)arg1;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)AMFDRDataLocalMultiExport;
 - (void);
 - (void)ty on chat with guid %s.;
 
 // Remaining properties
-@property(retain, nonatomic) IMDCKAttachmentSyncCKOperationFactory *CKOperationFactory; // @synthesize CKOperationFactory=_CKOperationFactory;
-@property(nonatomic) _Bool assetDownloadInProgress; // @synthesize assetDownloadInProgress=_assetDownloadInProgress;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
-@property(retain, nonatomic) NSMutableDictionary *completionBlocksForAssetFetchOperations; // @synthesize completionBlocksForAssetFetchOperations=_completionBlocksForAssetFetchOperations;
-@property(nonatomic) unsigned long long deviceConditionsToCheck; // @synthesize deviceConditionsToCheck=_deviceConditionsToCheck;
-@property(retain, nonatomic) NSMutableArray *downloadAssetsForTransferGUIDs; // @synthesize downloadAssetsForTransferGUIDs=_downloadAssetsForTransferGUIDs;
-@property(nonatomic) _Bool isDoingDeleteRecoverySync; // @synthesize isDoingDeleteRecoverySync=_isDoingDeleteRecoverySync;
-@property(copy, nonatomic) CDUnknownBlockType perTransferProgress; // @synthesize perTransferProgress=_perTransferProgress;
-@property(retain, nonatomic) NSMutableDictionary *recordIDToTransferMap; // @synthesize recordIDToTransferMap=_recordIDToTransferMap;
-@property(retain, nonatomic) IMDRecordZoneManager *recordZoneManager; // @synthesize recordZoneManager=_recordZoneManager;
-@property(retain, nonatomic) id <SyncTokenStoreProviding> syncTokenStore; // @synthesize syncTokenStore=_syncTokenStore;
 
 @end
 

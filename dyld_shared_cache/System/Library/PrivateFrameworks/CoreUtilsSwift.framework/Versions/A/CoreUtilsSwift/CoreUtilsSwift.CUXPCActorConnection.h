@@ -7,15 +7,6 @@
 @interface CoreUtilsSwift.CUXPCActorConnection
 {
     id bundleID;
-    id clientMode;
-    id entitled;
-    id _environment;
-    id _label;
-    id _lastRecipientID;
-    id onDemandActorIDs;
-    id pid;
-    id _system;
-    id xpcConnection;
 }
 
 @end

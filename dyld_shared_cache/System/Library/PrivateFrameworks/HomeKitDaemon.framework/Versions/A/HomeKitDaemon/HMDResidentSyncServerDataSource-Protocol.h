@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly) long long maximumTransactionsForSparseUpdate;
-@property(readonly) long long maximumTransactionsForStoreChange;
 @end
 

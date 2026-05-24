@@ -6,22 +6,11 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSProgress, NSSet, PXStoryConfiguration, PXStoryModel, PXStoryProducerResult, PXStoryViewModel;
 @protocol PXStoryRelatedProducer;
 
 @interface PXStoryRelatedController : PXStoryController
 {
     _Bool _isActive;
-    _Bool _canStartProducingRelated;
-    _Bool _isProductionEnabled;
-    PXStoryViewModel *_viewModel;
-    NSSet *_recentlyUsedFlexSongIDs;
-    NSSet *_recentlyUsedAppleMusicSongIDs;
-    id <PXStoryRelatedProducer> _relatedProducer;
-    PXStoryConfiguration *_mainConfiguration;
-    PXStoryModel *_mainModel;
-    NSProgress *_progress;
-    PXStoryProducerResult *_result;
 }
 
 - (void);
@@ -53,30 +42,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)e ;
 - (id);
-- (_Bool);
-- (id)x_So16PHCollectionListCRbzlXX;
+- (_Bool)setTruncate: /* Error: Ran out of types for this method. */;
+- (id)yxGSgXwz_x_So16PHCollectionListCRbzlXX;
 - (void)eAreaInsets:(id)arg1 %s, statusBarHeight:%f, topChromeHeight:%f /* Error: Ran out of types for this method. */;
 - (id)*> *__strong _Nonnull, __strong id<PXPresentationEnvironment> _Nonnull, void (^ _Nullable __strong)(BOOL, NSError * _Nullable __strong));
 - (void)init];
-- (void)backAutoLoopBadStabilizationKey;
+- (void)kPXFeedbackAutoLoopBadStabilizationKey;
 - (void)8y)ÿÅÕ²4y)ÿåÕ²0y)ÿÕÕ²,y)ÿÝÕ²(y)ÿÝÕ²$y)ÿ¥Õ² y)ÿ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canStartProducingRelated; // @synthesize canStartProducingRelated=_canStartProducingRelated;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) _Bool isProductionEnabled; // @synthesize isProductionEnabled=_isProductionEnabled;
-@property(retain, nonatomic) PXStoryConfiguration *mainConfiguration; // @synthesize mainConfiguration=_mainConfiguration;
-@property(retain, nonatomic) PXStoryModel *mainModel; // @synthesize mainModel=_mainModel;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) NSSet *recentlyUsedAppleMusicSongIDs; // @synthesize recentlyUsedAppleMusicSongIDs=_recentlyUsedAppleMusicSongIDs;
-@property(readonly, nonatomic) NSSet *recentlyUsedFlexSongIDs; // @synthesize recentlyUsedFlexSongIDs=_recentlyUsedFlexSongIDs;
 @property(readonly, nonatomic) id <PXStoryRelatedProducer> relatedProducer; // @synthesize relatedProducer=_relatedProducer;
-@property(readonly, nonatomic) PXStoryProducerResult *result; // @synthesize result=_result;
-@property(readonly, nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

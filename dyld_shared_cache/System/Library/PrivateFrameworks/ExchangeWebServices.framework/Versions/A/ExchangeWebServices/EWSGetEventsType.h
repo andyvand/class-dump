@@ -11,10 +11,9 @@
 @interface EWSGetEventsType : EWSBaseRequestType
 {
     NSString *_SubscriptionId;
-    NSString *_Watermark;
 }
 
-+ (id);
++ (id)SgQo_;
 - (void);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *SubscriptionId; // @synthesize SubscriptionId=_SubscriptionId;
-@property(copy, nonatomic) NSString *Watermark; // @synthesize Watermark=_Watermark;
 
 @end
 

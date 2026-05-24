@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (void)1Â0@ù
 × ;
-- (_Bool)ize: /* Error: Ran out of types for this method. */;
-- (_Bool)abled: /* Error: Ran out of types for this method. */;
+- (_Bool)setRoundButtonMinSize: /* Error: Ran out of types for this method. */;
+- (_Bool)_setBackgroundBlurDisabled: /* Error: Ran out of types for this method. */;
 - (_Bool)rtical/horizontalScrollIndicatorInsets. This is a UIKit bug.;
 - (void)ift;
 - (_Bool);

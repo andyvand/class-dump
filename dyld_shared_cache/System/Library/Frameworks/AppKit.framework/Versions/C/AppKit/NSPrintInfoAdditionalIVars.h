@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSPrintInfoDictionaryProxy;
-
 __attribute__((visibility("hidden")))
 @interface NSPrintInfoAdditionalIVars
 {
     struct OpaquePMPrintSession *printSession;
-    struct OpaquePMPageFormat *pageFormat;
-    struct OpaquePMPrintSettings *printSettings;
-    NSData *flattenedPageFormatData;
-    NSData *flattenedPrintSettingsData;
-    _Bool printSessionIsReconciled;
-    _Bool pageFormatIsReconciled;
-    _Bool printSettingsIsReconciled;
-    _Bool pageFormatIsValidated;
-    _Bool printSettingsIsValidated;
-    NSPrintInfoDictionaryProxy *attributesDictionaryProxy;
-    NSPrintInfoDictionaryProxy *printSettingsDictionaryProxy;
-    _Bool printerWasSetExplicitly;
 }
 
 @end

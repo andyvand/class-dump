@@ -6,23 +6,19 @@
 
 #import <CoreData/PFHistoryAnalyzerContext.h>
 
-@class NSManagedObjectContext, NSMutableDictionary, NSMutableSet, NSSQLCore, NSSet;
+@class NSManagedObjectContext;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitHistoryAnalyzerContext : PFHistoryAnalyzerContext
 {
     NSManagedObjectContext *_managedObjectContext;
-    NSSet *_configuredEntityNames;
-    NSMutableSet *_resetChangedObjectIDs;
-    NSMutableDictionary *_entityIDToChangedPrimaryKeySet;
-    NSSQLCore *_store;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)p;
 - (id);
 - (_Bool);
-- (id);
+- (id)ess;
 - (_Bool);
 - (id);
 - (_Bool)ta);

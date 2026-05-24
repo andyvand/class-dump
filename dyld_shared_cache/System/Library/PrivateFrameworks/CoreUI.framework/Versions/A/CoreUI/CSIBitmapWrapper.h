@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CSIBitmapWrapper
 {
     struct CGContext *_bitmapContext;
-    NSData *_pixelData;
-    unsigned int _pixelFormat;
-    unsigned int _width;
-    unsigned int _height;
-    unsigned long long _rowbytes;
-    _Bool _allowsMultiPassEncoding;
-    _Bool _allowsOptimalRowbytesPacking;
-    _Bool _allowsCompactCompression;
-    _Bool _allowsPaletteImageCompression;
-    _Bool _allowsHevcCompression;
-    _Bool _allowsDeepmapImageCompression;
-    _Bool _allowsDeepmap2ImageCompression;
-    _Bool _flipped;
-    struct CGImage *_sourceImage;
-    struct CGImage *_destImage;
-    long long _texturePixelFormat;
-    unsigned int _imageAlpha;
-    double _compressionQuality;
-    long long _compressionType;
-    unsigned long long _colorSpaceID;
-    long long _textureInterpretation;
-    int _exifOrientation;
-    long long _targetPlatform;
-    NSString *_name;
 }
 
 - (long long);
@@ -57,10 +31,10 @@
 - (id);
 - (struct CGContext *);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -72,33 +46,17 @@
 - (void);
 - (int);
 - (id);
-- (unsigned int);
+- (unsigned int)with UUID:%@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (_Bool);
+- (void)ApplicationLaunch;
 - (void);
 - (void);
-- (void);
-- (unsigned int)tFlattenedBitmap: /* Error: Ran out of types for this method. */;
+- (unsigned int)setFlattenedBitmap: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool allowsCompactCompression;
-@property _Bool allowsDeepmap2ImageCompression; // @synthesize allowsDeepmap2ImageCompression=_allowsDeepmap2ImageCompression;
-@property _Bool allowsDeepmapImageCompression; // @synthesize allowsDeepmapImageCompression=_allowsDeepmapImageCompression;
-@property _Bool allowsHevcCompression; // @synthesize allowsHevcCompression=_allowsHevcCompression;
-@property _Bool allowsMultiPassEncoding; // @synthesize allowsMultiPassEncoding=_allowsMultiPassEncoding;
-@property _Bool allowsOptimalRowbytesPacking; // @synthesize allowsOptimalRowbytesPacking=_allowsOptimalRowbytesPacking;
-@property _Bool allowsPaletteImageCompression; // @synthesize allowsPaletteImageCompression=_allowsPaletteImageCompression;
-@property(nonatomic) unsigned long long colorSpaceID; // @synthesize colorSpaceID=_colorSpaceID;
-@property(nonatomic) double compressionQuality; // @synthesize compressionQuality=_compressionQuality;
-@property long long compressionType; // @synthesize compressionType=_compressionType;
-@property(nonatomic) int exifOrientation; // @synthesize exifOrientation=_exifOrientation;
-@property(nonatomic) _Bool flipped; // @synthesize flipped=_flipped;
-@property(nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) unsigned int pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) unsigned long long rowbytes;
-@property long long targetPlatform; // @synthesize targetPlatform=_targetPlatform;
-@property(nonatomic) long long textureInterpretation; // @synthesize textureInterpretation=_textureInterpretation;
 
 @end
 

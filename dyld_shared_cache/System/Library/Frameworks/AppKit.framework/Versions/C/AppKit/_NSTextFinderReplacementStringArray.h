@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _NSTextFinderImpl;
-
 __attribute__((visibility("hidden")))
 @interface _NSTextFinderReplacementStringArray
 {
     struct _NSRange *replacementRanges;
-    unsigned long long length;
-    NSString *string;
-    NSString *replacementString;
-    _Bool hasReplacePattern;
-    _Bool replacePatternHasBackreferences;
-    id replacementStringCache;
-    _NSTextFinderImpl *impl;
 }
 
 - (id);

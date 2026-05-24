@@ -9,18 +9,14 @@
 @interface IMActionCalendar
 {
     void startTime;
-    void endTime;
-    void title;
-    void calDescription;
-    void fallbackUrl;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)ok.payment.transaction.other-card;
+- (long long);
 - (_Bool);
 - (id);
 - (id);
@@ -29,12 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *calDescription;
-@property(nonatomic, readonly) NSString *endTime;
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *startTime;
-@property(nonatomic, readonly) NSString *title;
 
 @end
 

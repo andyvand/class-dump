@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMappedBundleInfo, AMSProcessInfo, NSString;
-@protocol AMSDeviceInfo;
+@class AMSMappedBundleInfo;
 
 @interface AMSUserAgent
 {
     AMSMappedBundleInfo *_bundleInfo;
-    AMSProcessInfo *_processInfo;
-    id <AMSDeviceInfo> _deviceInfoProvider;
 }
 
 + (id);
@@ -29,15 +26,15 @@
 - (id);
 - (void);
 - (id);
+- (id)isUserSelectedEndpoint;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Z;
 - (void);
 - (id);
 - (id);
-- (id)chTerm:(id)arg1;
+- (id)_addSearchTerm:(id)arg1;
 - (id)ping add paymentHardwareStatus as bag was not provided.;
 - (void)ÍÇÜ°*¾¢°(°qÁ°´YK°S 5°ñ¿°{ª°Ù°>ûã°Ói°4° 
 °Get°åMþ°4° °Ged°åMî°{ª°Ù°>ûó°Óy°qÑ°´Y[°S %°ñ¯°oïF°ÍÇÌ°*¾²°8°>û3°Ó¹°{ªÇ°ÙM°Ge¤°åM.°4P° Ú°*¾r°ø°oï°ÍÇ°S å°ño°q°´Y°S õ°ñ°q°´Y°*¾b°è°oï°ÍÇ°Ge´°åM>°4@° Ê°>û#°Ó©°{ª×°Ù]°oï°ÍÇ°*¾â°h°q°´Y°S u°ñÿ°{ªW°ÙÝ°>û£°Ó)°4À° J°Ge4°åM¾°4Ð° Z°Ge$°åM®°{ªG°ÙÍ°>û³°Ó9°q°´Y°S e°ñï°oï°ÍÇ°*¾ò°x°Ù­°{ª'°ÓY°>ûÓ° :°4°°åMÎ°GeD°ÍÇì°oïf°°*¾°´Y{°qñ°ñ°S °´Yk°qá°ñ°S °ÍÇü°oïv°°*¾° *°4 °åMÞ°GeT°Ù½°{ª7°ÓI°>ûÃ°°*¾°ÍÇ|°oïö°ñ°S °´Yë°qa°ÓÉ°>ûC°Ù=°{ª·°åM^°GeÔ° ª°4 °åMN°GeÄ° º°40°ÓÙ°>ûS°Ù-°{ª§°ñ°S °´Yû°qq°°*¾°ÍÇl°oïæ°yhþÖm1Îu³mIåÏ}æ³\^¼:0é¡ËÍ)þÞZ
@@ -46,10 +43,6 @@
 
 // Remaining properties
 @property(readonly) AMSMappedBundleInfo *bundleInfo; // @synthesize bundleInfo=_bundleInfo;
-@property(retain) NSString *clientName;
-@property(retain) NSString *clientVersion;
-@property(readonly) id <AMSDeviceInfo> deviceInfoProvider; // @synthesize deviceInfoProvider=_deviceInfoProvider;
-@property(readonly) AMSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
 
 @end
 

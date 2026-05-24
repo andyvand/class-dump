@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol _UIDisplayInfoShape
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayShapeName;

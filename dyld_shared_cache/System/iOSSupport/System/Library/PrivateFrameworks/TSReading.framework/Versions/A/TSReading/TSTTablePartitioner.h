@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TSDInfoGeometry, TSTLayout, TSTTableInfo, TSUPointerKeyDictionary;
+@class TSTLayout, TSTTableInfo;
 
 @interface TSTTablePartitioner
 {
     TSTTableInfo *mTableInfo;
-    TSDInfoGeometry *mInfoGeometry;
-    double mFirstPartitionWidth;
-    struct CGSize mScaleToFit;
-    TSTLayout *mScaledLayout;
-    TSUPointerKeyDictionary *mHintMatricesByCanvas;
-    NSMutableDictionary *mPartitioningPassCache;
 }
 
-- (void);
-- (id);
+- (void)musicvideo;
+- (id)%@ dataSources:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)me;
+- (void)gineEvent.m;
+- (void)mediaRedownloadWaitTime;
+- (id)LastPlaybackSessionIdentifier;
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)time completed [playbackStartTimeOverride set on queue item] - target time:(id)arg1;
+- (id)ime:(struct CGSize)arg1;
+- (void)sessionInitiator;
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (CDStruct_5f1f7aa9);
+- (CDStruct_f5d1269f);
 - (id);
 - (double);
 - (id);
@@ -43,12 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) TSDInfoGeometry *infoGeometry; // @synthesize infoGeometry=mInfoGeometry;
-@property(readonly, nonatomic) double inlineTableWidth; // @synthesize inlineTableWidth=mFirstPartitionWidth;
-@property(readonly, nonatomic) _Bool scaleIsValid;
-@property(nonatomic) struct CGSize scaleToFit; // @synthesize scaleToFit=mScaleToFit;
 @property(readonly, nonatomic) TSTLayout *scaledLayout;
-@property(readonly, nonatomic) TSTTableInfo *tableInfo; // @synthesize tableInfo=mTableInfo;
 
 @end
 

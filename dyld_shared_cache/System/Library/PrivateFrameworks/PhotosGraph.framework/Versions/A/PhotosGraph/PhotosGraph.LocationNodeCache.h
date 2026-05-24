@@ -9,8 +9,6 @@
 @interface PhotosGraph.LocationNodeCache
 {
     id locationNode;
-    id momentsAtThisLocation;
-    id children;
 }
 
 - (id);

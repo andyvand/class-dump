@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
-@protocol UINamedLayerContentProvider;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UIStackedImageSingleNamedLayerImage
@@ -18,31 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int)!àFù]Ð1Â0@ù
 × ;
-- (struct CGRect)rs;
-- (double)frame: /* Error: Ran out of types for this method. */;
+- (struct CGRect)weakCooperatingSelectionTrackingControllers;
+- (double)initWithWebView:frame: /* Error: Ran out of types for this method. */;
 - (void)'ö@TR' °í?;
 
 // Remaining properties
-@property(readonly, nonatomic) int blendMode;
-@property(readonly, nonatomic) id <UINamedLayerContentProvider> contentProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UINamedLayerContentProvider>",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fixedFrame;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIImage *imageObj; // @synthesize imageObj=_imageObj;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double opacity;
-@property(readonly) Class superclass;
 
 @end
 

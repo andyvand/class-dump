@@ -18,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSData *binaryData; // @dynamic binaryData;
-@property(retain, nonatomic) NSData *externalBinaryData; // @dynamic externalBinaryData;
 
 @end
 

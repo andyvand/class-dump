@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage;
+@class NSString;
 
 @interface _SFPBToggleButtonConfiguration
 {
     NSString *_untoggledTitle;
-    NSString *_toggledTitle;
-    _SFPBImage *_untoggledImage;
-    _SFPBImage *_toggledImage;
 }
 
 - (id);
@@ -27,24 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setFinalAssetHeight:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void)ExpandingComponentContent"24@0:8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBImage *toggledImage; // @synthesize toggledImage=_toggledImage;
-@property(copy, nonatomic) NSString *toggledTitle; // @synthesize toggledTitle=_toggledTitle;
-@property(retain, nonatomic) _SFPBImage *untoggledImage; // @synthesize untoggledImage=_untoggledImage;
 @property(copy, nonatomic) NSString *untoggledTitle; // @synthesize untoggledTitle=_untoggledTitle;
 
 @end

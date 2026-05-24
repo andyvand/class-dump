@@ -9,7 +9,6 @@
 @interface ABBidirectionalDictionary
 {
     NSMutableDictionary *_keyToObjectDictionary;
-    NSMutableDictionary *_objectToKeyDictionary;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

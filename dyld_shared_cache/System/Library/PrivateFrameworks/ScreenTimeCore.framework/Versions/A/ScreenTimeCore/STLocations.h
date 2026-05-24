@@ -12,8 +12,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)elPropertyTVEpisodeStoreCanonicalID;
++ (id)(;
 
 @end
 

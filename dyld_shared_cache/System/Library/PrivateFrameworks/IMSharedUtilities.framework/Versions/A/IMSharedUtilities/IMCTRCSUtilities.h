@@ -15,7 +15,7 @@
 + (long long);
 + (_Bool);
 + (_Bool);
-- (id);
+- (id)m.apple.passbook.payment.in-app.shippingsource;
 
 @end
 

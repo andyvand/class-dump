@@ -6,29 +6,17 @@
 
 #import <Safari/ButtonPlus.h>
 
-@class NSTimer, NSTrackingArea;
+@class NSTrackingArea;
 @protocol RolloverTrackingButtonDelegate;
 
 __attribute__((visibility("hidden")))
 @interface RolloverTrackingButton : ButtonPlus
 {
     NSTrackingArea *_trackingArea;
-    id _flagsChangedEventMonitor;
-    _Bool _mouseOver;
-    _Bool _trackingRectUpdatePending;
-    NSTimer *_mouseDownTimer;
-    _Bool _performedLongPress;
-    _Bool _usesRolloverAppearanceInInactiveWindow;
-    _Bool _usesRolloverAppearanceOnMouseDown;
-    _Bool _usesRolloverAppearanceWhenFirstResponder;
-    _Bool _redrawOnMouseEnteredAndExited;
-    _Bool _useRolloverAppearanceNow;
-    _Bool _trackingMouseDown;
-    id <RolloverTrackingButtonDelegate> _delegate;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -66,12 +54,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <RolloverTrackingButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool redrawOnMouseEnteredAndExited; // @synthesize redrawOnMouseEnteredAndExited=_redrawOnMouseEnteredAndExited;
-@property(readonly, nonatomic, getter=isTrackingMouseDown) _Bool trackingMouseDown; // @synthesize trackingMouseDown=_trackingMouseDown;
-@property(nonatomic) _Bool useRolloverAppearanceNow; // @synthesize useRolloverAppearanceNow=_useRolloverAppearanceNow;
-@property(nonatomic) _Bool usesRolloverAppearanceInInactiveWindow; // @synthesize usesRolloverAppearanceInInactiveWindow=_usesRolloverAppearanceInInactiveWindow;
-@property(nonatomic) _Bool usesRolloverAppearanceOnMouseDown; // @synthesize usesRolloverAppearanceOnMouseDown=_usesRolloverAppearanceOnMouseDown;
-@property(nonatomic) _Bool usesRolloverAppearanceWhenFirstResponder; // @synthesize usesRolloverAppearanceWhenFirstResponder=_usesRolloverAppearanceWhenFirstResponder;
 
 @end
 

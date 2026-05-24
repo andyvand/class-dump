@@ -4,52 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
-
 @interface SFUserActivityInfo
 {
     struct {
         unsigned int valueType:1;
     } _has;
-    int _valueType;
-    NSString *_key;
-    NSString *_stringValue;
-    NSURL *_urlValue;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
-- (id);
+- (id)v64@0:(id)arg1 8q16q24q32q40q48@?56;
 - (void);
 - (unsigned long long);
-- (int);
+- (int)PrivateFrameworks/LockdownMode.framework/Versions/A/LockdownMode;
 - (id);
 - (_Bool);
+- (void)setTargetAttenuationTimeoutDuration:(id)arg1;
+- (id);
+- (id)but asset has none, invalid request;
+- (id)PHResourceLocalAvailabilityRequestSpatialOvercapturePhotoURLKey;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)pyItem;
+- (void)imageCopyItem;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *urlValue; // @synthesize urlValue=_urlValue;
 @property(nonatomic) int valueType; // @synthesize valueType=_valueType;
 
 @end

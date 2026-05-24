@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
-
 @interface FigCaptureSourceBacking
 {
     unsigned int _mediaType;
-    NSDictionary *_attributes;
-    NSMutableDictionary *_cachedProperties;
-    struct os_unfair_lock_s _cachedPropertiesLock;
-    NSArray *_formats;
-    NSArray *_missingFormatNames;
-    NSArray *_synchronizedStreamUniqueIDs;
-    NSArray *_unsynchronizedStreamUniqueIDs;
 }
 
+- (id)X7;
+- (id)l/}xB;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)_copyCsvRows:usingDelimiter:columnCountIsConstant:rowLimit: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) NSDictionary *cachedProperties; // @synthesize cachedProperties=_cachedProperties;
-@property(readonly, nonatomic) NSArray *formats; // @synthesize formats=_formats;
 @property(readonly, nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) NSArray *missingFormatNames; // @synthesize missingFormatNames=_missingFormatNames;
-@property(readonly, nonatomic) NSArray *synchronizedStreamUniqueIDs; // @synthesize synchronizedStreamUniqueIDs=_synchronizedStreamUniqueIDs;
-@property(readonly, nonatomic) NSArray *unsynchronizedStreamUniqueIDs; // @synthesize unsynchronizedStreamUniqueIDs=_unsynchronizedStreamUniqueIDs;
 
 @end
 

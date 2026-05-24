@@ -9,19 +9,17 @@
 @interface PRImageView
 {
     _Bool _circular;
-    UIImage *_image;
 }
 
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isCircular) _Bool circular; // @synthesize circular=_circular;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end

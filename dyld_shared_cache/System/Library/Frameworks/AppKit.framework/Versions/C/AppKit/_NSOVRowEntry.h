@@ -8,17 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSOVRowEntry
 {
     _NSOVRowEntry *parent;
-    long long childIndex;
-    id item;
-    long long childCount;
-    id *children;
-    long long *rowCounts;
-    short lvl;
-    struct {
-        unsigned int expandable:1;
-        unsigned int expanded:1;
-        unsigned int initedIsExpandableData:1;
-    } _REFlags;
 }
 
 - (id);

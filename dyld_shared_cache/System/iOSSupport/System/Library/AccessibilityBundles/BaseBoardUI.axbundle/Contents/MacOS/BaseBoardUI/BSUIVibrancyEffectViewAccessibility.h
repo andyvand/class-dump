@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)/UIKit.framework/Versions/A/UIKit;
 - (id);
 
 @end

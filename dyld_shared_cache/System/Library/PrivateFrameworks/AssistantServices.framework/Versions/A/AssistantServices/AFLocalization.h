@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFLocalization
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_tables;
 }
 
 + (id);
@@ -19,6 +18,7 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -31,8 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -47,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ute: /* Error: Ran out of types for this method. */;
+- (void)setRecordRoute: /* Error: Ran out of types for this method. */;
 
 @end
 

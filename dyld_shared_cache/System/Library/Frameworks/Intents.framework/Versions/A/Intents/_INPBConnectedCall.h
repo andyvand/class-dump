@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBConnectedCall
 {
     CDStruct_fbf2c6cd _has;
-    int _audioRoute;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (int);
-- (id);
+- (id)eRemoteServerInterface>"@"NSError">24;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)0:(id)arg1 8@16B24B28B32;
+- (void)ore than %d days ago, will not remove (%@);
 - (int);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int audioRoute; // @synthesize audioRoute=_audioRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, AVTAvatarEnvironment, NSMapTable, NSMutableArray, NSNumber, VFXNode, VFXWorld;
+@class VFXWorld;
 
 __attribute__((visibility("hidden")))
 @interface AVTStickerConfigurationReversionContext
 {
     VFXWorld *_scene;
-    AVTAvatar *_avatar;
-    NSMutableArray *_presetOverrides;
-    NSMutableArray *_morpherOverrides;
-    NSMapTable *_shaderModifiers;
-    NSMapTable *_customMaterialProperties;
-    NSMutableArray *_singleSidedMaterials;
-    VFXNode *_extraCameraNode;
-    VFXNode *_extraPropsNode;
-    NSNumber *_showMemojiBody;
-    AVTAvatarEnvironment *_environmentForPointOfViewUpdateFromFramingMode;
 }
 
 - (void);

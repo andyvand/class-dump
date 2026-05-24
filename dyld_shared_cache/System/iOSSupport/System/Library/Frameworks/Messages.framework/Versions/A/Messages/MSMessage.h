@@ -4,51 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMessageLayout, MSSession, NSArray, NSData, NSDate, NSError, NSNumber, NSString, NSURL, NSUUID;
+@class NSDate;
 
 @interface MSMessage
 {
     _Bool _pending;
-    _Bool _shouldExpire;
-    _Bool _isFromMe;
-    _Bool _requiresValidation;
-    MSSession *_session;
-    NSUUID *_senderParticipantIdentifier;
-    MSMessageLayout *_layout;
-    NSURL *_URL;
-    NSString *_accessibilityLabel;
-    NSString *_summaryText;
-    NSError *_error;
-    NSDate *_time;
-    NSData *__data;
-    NSString *_senderAddress;
-    NSString *_guid;
-    NSNumber *_overriddenAdamID;
-    NSArray *_customAcknowledgements;
-    NSString *_statusText;
-    NSString *_breadcrumbText;
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSData *_data; // @synthesize _data=__data;
-@property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(copy, nonatomic) NSString *breadcrumbText; // @synthesize breadcrumbText=_breadcrumbText;
-@property(retain, nonatomic) NSArray *customAcknowledgements; // @synthesize customAcknowledgements=_customAcknowledgements;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(copy, nonatomic) MSMessageLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) NSNumber *overriddenAdamID; // @synthesize overriddenAdamID=_overriddenAdamID;
-@property(nonatomic, getter=isPending) _Bool pending; // @synthesize pending=_pending;
-@property(nonatomic) _Bool requiresValidation; // @synthesize requiresValidation=_requiresValidation;
-@property(retain, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(retain, nonatomic) NSUUID *senderParticipantIdentifier; // @synthesize senderParticipantIdentifier=_senderParticipantIdentifier;
-@property(readonly, nonatomic) MSSession *session; // @synthesize session=_session;
-@property(nonatomic) _Bool shouldExpire; // @synthesize shouldExpire=_shouldExpire;
-@property(copy, nonatomic) NSString *statusText; // @synthesize statusText=_statusText;
-@property(copy, nonatomic) NSString *summaryText; // @synthesize summaryText=_summaryText;
 @property(retain, nonatomic) NSDate *time; // @synthesize time=_time;
 @end
 

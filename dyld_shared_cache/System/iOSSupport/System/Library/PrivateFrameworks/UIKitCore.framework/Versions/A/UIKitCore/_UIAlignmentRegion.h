@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol _UIHyperregion;
-
 @interface _UIAlignmentRegion
 {
     unsigned long long __dimensions;
-    id <_UIHyperregion> __region;
-    double __maximumDistance;
-    double *__temp;
 }
 
-+ (id)Unhiding: /* Error: Ran out of types for this method. */;
++ (id)setAvoidMovingNavBarOffscreenBeforeUnhiding: /* Error: Ran out of types for this method. */;
 + (_Bool):%@, from responder:%@ /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (_Bool)"32@"NSString"40@"NSString"48@"NSDictionary"56B64B68B72;
 - (id);
-- (void);
+- (void);
 - (double *);
 - (void);
-- (double);
-- (id);
-- (id);
+- (double)buildWithName:withAuthenticationType:withUsername:withPassword:withAllowedProtocolMask: /* Error: Ran out of types for this method. */;
+- (id)3";
+- (id)RegisterItem paddedFileLength cannot be zero.;
 - (_Bool);
 - (unsigned long long);
-- (_Bool)s:(id)arg1;
-- (void)enterAmbiguousActivationMargin:(id)arg1;
+- (_Bool)setOverrideDrivers:(id)arg1;
+- (void)observeControlCenterAmbiguousActivationMargin:(id)arg1;
 - (id)Speed:(unsigned long long)arg1 ,V__minimumSpeed;
-- (id)eViewSnapshotWindow;
+- (id)initialSourceViewSnapshotWindow;
 - (void)(mÿÿ;
 - (void)æ£îÿH~þÿ;
 - (void)UÊDù^;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(nonatomic, setter=_setMaximumDistance:) double _maximumDistance; // @synthesize _maximumDistance=__maximumDistance;
-@property(retain, nonatomic, setter=_setRegion:) id <_UIHyperregion> _region; // @synthesize _region=__region;
 @property(readonly, nonatomic) double *_temp; // @synthesize _temp=__temp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,59 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface PKFeatureApplicationInvitationDetails
 {
     NSString *_accountUserAltDSID;
-    NSString *_originatorAltDSID;
-    unsigned long long _accountUserAccessLevel;
-    NSString *_originatorFirstName;
-    NSString *_originatorLastName;
-    NSString *_accountUserFirstName;
-    NSString *_accountUserLastName;
 }
 
 + (_Bool)X"°!ðFùî%°1Â0@ù
 × ;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)uA;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)k`;
 - (id);
-- (id);
-- (id);
+- (id)q`;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)networkProtocolNameAsString:(id)arg1;
 - (void);
 - (id);
 - (id)¡X"Ð!TFùqï%°1Â0@ù
 × ;
-- (id)ntial;
-- (void)ssLibraryReplacementPassesUserInfo;
+- (id)_subCredential;
+- (void)PKPassLibraryReplacementPassesUserInfo;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accountUserAccessLevel; // @synthesize accountUserAccessLevel=_accountUserAccessLevel;
 @property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(copy, nonatomic) NSString *accountUserFirstName; // @synthesize accountUserFirstName=_accountUserFirstName;
-@property(copy, nonatomic) NSString *accountUserLastName; // @synthesize accountUserLastName=_accountUserLastName;
-@property(readonly, nonatomic) NSPersonNameComponents *accountUserNameComponents;
-@property(copy, nonatomic) NSString *originatorAltDSID; // @synthesize originatorAltDSID=_originatorAltDSID;
-@property(copy, nonatomic) NSString *originatorFirstName; // @synthesize originatorFirstName=_originatorFirstName;
-@property(copy, nonatomic) NSString *originatorLastName; // @synthesize originatorLastName=_originatorLastName;
-@property(readonly, nonatomic) NSPersonNameComponents *originatorNameComponents;
 
 @end
 

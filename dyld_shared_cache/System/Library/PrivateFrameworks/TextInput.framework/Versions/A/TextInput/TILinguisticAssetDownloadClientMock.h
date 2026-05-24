@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface TILinguisticAssetDownloadClientMock
 {
     long long _result;
-    NSError *_error;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)d through force.
+;
 - (long long)*H*D';
 - (void)
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) long long result; // @synthesize result=_result;
 
 @end

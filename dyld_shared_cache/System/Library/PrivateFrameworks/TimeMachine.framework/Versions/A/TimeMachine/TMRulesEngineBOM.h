@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSSet, NSString;
-
 @interface TMRulesEngineBOM
 {
     unsigned int _baseRuleSet;
-    NSSet *_sourceDisks;
-    NSSet *_spotlightOracles;
-    NSSet *_userHomes;
-    NSArray *_pathExclusions;
-    NSMutableDictionary *_systemFilesExcludedMap;
-    NSString *_mailRealmSubpath;
-    NSArray *_volumeUUIDExclusions;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -33,18 +24,12 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)@987;
 - (id);
 - (void);
 
 // Remaining properties
 @property unsigned int baseRuleSet; // @synthesize baseRuleSet=_baseRuleSet;
-@property(copy) NSString *mailRealmSubpath; // @synthesize mailRealmSubpath=_mailRealmSubpath;
-@property(copy) NSArray *pathExclusions; // @synthesize pathExclusions=_pathExclusions;
-@property(copy) NSSet *sourceDisks; // @synthesize sourceDisks=_sourceDisks;
-@property(copy) NSSet *spotlightOracles; // @synthesize spotlightOracles=_spotlightOracles;
-@property(copy) NSSet *userHomes; // @synthesize userHomes=_userHomes;
-@property(copy) NSArray *volumeUUIDExclusions; // @synthesize volumeUUIDExclusions=_volumeUUIDExclusions;
 
 @end
 

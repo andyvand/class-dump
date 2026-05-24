@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXPhotosGridMessagesLayoutSpecManager;
-@protocol PXAssetImportStatusManager, PXPhotosSectionBodyLayoutProviderInvalidationDelegate, PXTapbackStatusManager;
+@class PXPhotosGridMessagesLayoutSpecManager;
+@protocol PXPhotosSectionBodyLayoutProviderInvalidationDelegate;
 
 @interface PXPhotosGridMessagesBodyLayoutProvider
 {
     id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate;
-    PXPhotosGridMessagesLayoutSpecManager *_specManager;
-    id <PXTapbackStatusManager> _tapbackStatusManager;
-    id <PXAssetImportStatusManager> _assetImportStatusManager;
 }
 
 - (id);
@@ -33,17 +30,7 @@
 - (void)g1;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXAssetImportStatusManager> assetImportStatusManager; // @synthesize assetImportStatusManager=_assetImportStatusManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate; // @synthesize invalidationDelegate;
 @property(readonly, nonatomic) PXPhotosGridMessagesLayoutSpecManager *specManager; // @synthesize specManager=_specManager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PXTapbackStatusManager> tapbackStatusManager; // @synthesize tapbackStatusManager=_tapbackStatusManager;
 
 @end
 

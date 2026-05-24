@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol RTCVideoEncoder;
+
 @protocol RTCVideoEncoderFactory
+- (id <RTCVideoEncoder>)otes != 0) && (catedStr != 0);
+- (NSArray *)//ns.adobe.com/xap/1.0/t/;
+
+@optional
+- (NSArray *)ConvertToUTF8;
 @end
 

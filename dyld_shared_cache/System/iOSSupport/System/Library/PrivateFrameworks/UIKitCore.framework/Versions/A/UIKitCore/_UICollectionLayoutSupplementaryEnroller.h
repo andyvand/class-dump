@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSSet;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutSupplementaryEnroller
 {
     NSMutableOrderedSet *_enrollmentIdentifiers;
-    NSMutableSet *_uncommittedEnrollmentIdentifiers;
-    NSMutableDictionary *_enrollmentsDict;
-    NSMutableDictionary *_kindEnrollmentsDict;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)artOfItemInstanceCount;
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
@@ -30,23 +27,18 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)
 × ;
-- (void)ToFitContent;
-- (void)ameters;
-- (void)icKeyboardViewController;
+- (void)canResizeToFitContent;
+- (void)_slideTimingParameters;
+- (void)_numericKeyboardViewController;
 - (id)ÿdvþÿ;
-- (void)rformanceSearchFoundProactiveResults;
-- (id)dTypeASCIICapableNumberPadStr;
+- (void)UIKeyboardPerformanceSearchFoundProactiveResults;
+- (id)UIKBAttributeValueKeyboardTypeASCIICapableNumberPadStr;
 - (long long)nil;
 - (id)nd=%@; isSup=%@>;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
 @property(retain, nonatomic) NSMutableOrderedSet *enrollmentIdentifiers; // @synthesize enrollmentIdentifiers=_enrollmentIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *enrollmentsDict; // @synthesize enrollmentsDict=_enrollmentsDict;
-@property(retain, nonatomic) NSMutableDictionary *kindEnrollmentsDict; // @synthesize kindEnrollmentsDict=_kindEnrollmentsDict;
-@property(readonly, nonatomic) NSSet *kinds;
-@property(retain, nonatomic) NSMutableSet *uncommittedEnrollmentIdentifiers; // @synthesize uncommittedEnrollmentIdentifiers=_uncommittedEnrollmentIdentifiers;
 
 @end
 

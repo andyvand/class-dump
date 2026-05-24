@@ -11,7 +11,6 @@
 @interface REMListsDataViewInvocation_fetchDefaultListRequiringCloudKit : REMStoreInvocation
 {
     _Bool _debug_useInMemoryPreferredDefaultListStorage;
-    REMObjectID *_accountObjectID;
 }
 
 + (_Bool);
@@ -20,7 +19,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) REMObjectID *accountObjectID; // @synthesize accountObjectID=_accountObjectID;
-@property(nonatomic) _Bool debug_useInMemoryPreferredDefaultListStorage; // @synthesize debug_useInMemoryPreferredDefaultListStorage=_debug_useInMemoryPreferredDefaultListStorage;
 
 @end
 

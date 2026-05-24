@@ -7,10 +7,6 @@
 @interface NewsSubscription.BundleArticleSoftPaywallMeter
 {
     id articlesWithNoSoftPaywallCount;
-    id articlesWithPaywallCount;
-    id articlesWithNoPaywallCount;
-    id minimumArticlesBeforeArticleSoftPaywall;
-    id maximumArticlesWithSoftPaywallPerSession;
 }
 
 @end

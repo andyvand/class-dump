@@ -6,16 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemMusicDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowMusicService;
-    NSNumber *_payloadAllowRadioService;
-    NSNumber *_payloadAllowMusicArtistActivity;
-    NSNumber *_payloadAllowMusicVideos;
-    NSNumber *_payloadAllowSharedLibraries;
-    NSNumber *_payloadAllowSpeakerVolumeLimitModification;
 }
 
 + (id);
@@ -37,31 +32,19 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)K;
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (_Bool). Attaching observer.;
+- (id)li, Version:%@ /* Error: Ran out of types for this method. */;
+- (id)nalysis31XPCTerminalDataEncodableViaJSONP;
+- (void)__LINKEDIT;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowMusicArtistActivity; // @synthesize payloadAllowMusicArtistActivity=_payloadAllowMusicArtistActivity;
 @property(copy, nonatomic) NSNumber *payloadAllowMusicService; // @synthesize payloadAllowMusicService=_payloadAllowMusicService;
-@property(copy, nonatomic) NSNumber *payloadAllowMusicVideos; // @synthesize payloadAllowMusicVideos=_payloadAllowMusicVideos;
-@property(copy, nonatomic) NSNumber *payloadAllowRadioService; // @synthesize payloadAllowRadioService=_payloadAllowRadioService;
-@property(copy, nonatomic) NSNumber *payloadAllowSharedLibraries; // @synthesize payloadAllowSharedLibraries=_payloadAllowSharedLibraries;
-@property(copy, nonatomic) NSNumber *payloadAllowSpeakerVolumeLimitModification; // @synthesize payloadAllowSpeakerVolumeLimitModification=_payloadAllowSpeakerVolumeLimitModification;
-@property(readonly) Class superclass;
 
 @end
 

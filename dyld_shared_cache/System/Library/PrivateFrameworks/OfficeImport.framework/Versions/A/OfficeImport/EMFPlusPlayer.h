@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFPlayer, MFPEffect, MFPGraphics, NSMutableData;
+@class MFPGraphics;
 
 __attribute__((visibility("hidden")))
 @interface EMFPlusPlayer
 {
     MFPGraphics *mGraphics;
-    EMFPlayer *mOwner;
-    int mLargeType;
-    unsigned short mLargeFlags;
-    unsigned int mLargeSize;
-    NSMutableData *mLargeData;
-    MFPEffect *mEffect;
 }
 
 + (int);
 + (float);
-- (int);
+- (int)TH;
 - (void);
 - (int);
 - (int);
@@ -87,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)Ԕ;
 - (int);
 - (int);
 - (int);
@@ -95,7 +89,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (int);
+- (int)(;
 - (int);
 - (int);
 - (int);

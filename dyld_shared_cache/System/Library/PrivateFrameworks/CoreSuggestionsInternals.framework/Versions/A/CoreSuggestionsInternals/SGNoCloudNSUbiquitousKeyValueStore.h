@@ -9,19 +9,18 @@
 @interface SGNoCloudNSUbiquitousKeyValueStore
 {
     NSMutableDictionary *_kv;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)&;
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)hh8h;
 - (_Bool);
 - (id);
 - (void);
-- (id)OfInterest:(id)arg1 extractionInfo: /* Error: Ran out of types for this method. */;
+- (id)birthday:(id)arg1 forIdentity:context:contextRangeOfInterest:extractionInfo: /* Error: Ran out of types for this method. */;
 - (void),ìÄì4í@í°í(ïðÈð@ñ¸ñÀòóôódôÔô;
 
 @end

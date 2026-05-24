@@ -6,22 +6,18 @@
 
 #import <PhotosGraph/PGShareBackSource.h>
 
-@class NSSet, NSString, PHPhotoLibrary;
-@protocol CLSFaceIdentificationProtocol;
+@class PHPhotoLibrary;
 
 @interface PGShareBackFacesSource : PGShareBackSource
 {
     PHPhotoLibrary *_photoLibrary;
-    NSString *_meLocalIdentifier;
-    NSSet *_childPersonLocalIdentifiers;
-    id <CLSFaceIdentificationProtocol> _faceIdentification;
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)DedupingFaceprintDistance;
+- (id);
+- (_Bool);
+- (id)=dd}{CGSize=dd}}40@0:(id)arg1 8@16@24@32;
+- (id)4;
+- (void)PGDeduperIdenticalDedupingFaceprintDistance;
 
 @end
 

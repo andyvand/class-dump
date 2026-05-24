@@ -5,5 +5,6 @@
 //
 
 @protocol SDXPCDaemonProtocol
+- (void);
 @end
 

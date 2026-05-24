@@ -7,26 +7,18 @@
 @class NSString;
 
 @protocol PXMutableFlexMusicAsset
+- (NSString *)т;
+- (CDStruct_1b6d18a9)subscriptionControllerDidStopSyncingRemoteChanges: /* Error: Ran out of types for this method. */;
 - (void)±81Â0@ù
 × ;
 - (NSString *);
 - (unsigned long long)iIq}},R,N,V_targetTimeRangeInSourceTime;
-- (void)sonLocalIdentifierForPersonUniversalIdentifier:(unsigned long long)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
-- (NSString *)equence:count: /* Error: Ran out of types for this method. */;
-- (NSString *)ionPerformerC;
+- (void)personLocalIdentifierForPersonUniversalIdentifier:(unsigned long long)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
+- (NSString *)_scanNonPanoramaSequence:count: /* Error: Ran out of types for this method. */;
+- (NSString *)So40PXPhotoKitAssetCollectionActionPerformerC;
 - (void)Mode=%@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumTitle;
-@property(copy, nonatomic) NSString *artistName;
-@property(copy, nonatomic) NSString *assetTagsDescription;
-@property(copy, nonatomic) NSString *colorGradeCategory;
-@property(nonatomic) CDStruct_1b6d18a9 duration;
-@property(nonatomic) unsigned long long flags;
-@property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) long long pace;
-@property(copy, nonatomic) NSString *subtitle;
 @property(nonatomic) CDStruct_1b6d18a9 targetDuration;
-@property(copy, nonatomic) NSString *title;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMutableArray, NSSet, NSString;
+@class NSMutableArray;
 
 @interface IdentityDataSource
 {
     NSMutableArray *_identities;
-    NSSet *_disabledIdentities;
-    NSImage *_userImage;
-    NSImage *_groupImage;
-    NSImage *_vCardImage;
 }
 
 - (void);
@@ -23,19 +19,13 @@
 - (_Bool);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (id);
+- (void)	;
+- (id)0@0:8Q16Q24Q32 /* Error: Ran out of types for this method. */;
+- (id)C;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

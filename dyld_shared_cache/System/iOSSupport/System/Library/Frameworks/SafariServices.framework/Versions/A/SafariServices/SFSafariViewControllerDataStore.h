@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFBrowserRemoteViewController, SFQueueingServiceViewControllerProxy, _UIAsyncInvocation;
+@class SFQueueingServiceViewControllerProxy;
 @protocol SFServiceViewControllerProtocol;
 
 @interface SFSafariViewControllerDataStore
 {
     SFQueueingServiceViewControllerProxy<SFServiceViewControllerProtocol> *_serviceProxy;
-    _UIAsyncInvocation *_cancelViewServiceRequest;
-    SFBrowserRemoteViewController *_remoteViewController;
 }
 
 + (id);

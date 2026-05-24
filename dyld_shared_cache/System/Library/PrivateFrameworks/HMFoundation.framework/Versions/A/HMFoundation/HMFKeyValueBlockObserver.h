@@ -11,12 +11,6 @@
 @interface HMFKeyValueBlockObserver : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    _Bool _valid;
-    _Bool _observing;
-    CDUnknownBlockType _handler;
-    NSString *_keyPath;
-    id _observedObject;
-    unsigned long long _options;
 }
 
 + (id){Ð1Â0@ù
@@ -27,27 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@36@0:8@16@24B32 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)e;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly) __weak id observedObject; // @synthesize observedObject=_observedObject;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

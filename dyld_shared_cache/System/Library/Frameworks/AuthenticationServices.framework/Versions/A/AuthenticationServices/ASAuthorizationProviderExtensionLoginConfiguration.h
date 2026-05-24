@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString, NSURL, POLoginConfiguration;
+@class NSArray, POLoginConfiguration;
 
 @interface ASAuthorizationProviderExtensionLoginConfiguration
 {
     NSArray *_kerberosTicketMappings;
-    POLoginConfiguration *_loginConfiguration;
 }
 
 + (void);
 - (unsigned long long);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,8 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ዹ;
 - (void);
 - (void);
 - (void);
@@ -89,6 +88,7 @@
 - (id);
 - (long long);
 - (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -102,8 +102,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (struct __SecKey *);
 - (id);
 - (id);
@@ -115,51 +114,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountDisplayName;
-@property(copy, nonatomic) NSString *additionalAuthorizationScopes;
-@property(copy, nonatomic) NSString *additionalScopes;
-@property(copy, nonatomic) NSString *audience;
-@property(readonly, copy, nonatomic) NSString *clientID;
-@property(copy, nonatomic) NSArray *customFederationUserPreauthenticationRequestValues;
-@property(copy, nonatomic) NSArray *customKeyExchangeRequestValues;
-@property(copy, nonatomic) NSArray *customKeyRequestValues;
-@property(copy, nonatomic) NSArray *customLoginRequestValues;
-@property(copy, nonatomic) NSArray *customNonceRequestValues;
-@property(copy, nonatomic) NSArray *customRefreshRequestValues;
-@property(copy, nonatomic) NSString *customRequestJWTParameterName;
-@property(copy, nonatomic) NSData *deviceContext;
-@property(copy, nonatomic) NSURL *federationMEXURL;
-@property(copy, nonatomic) NSString *federationMEXURLKeypath;
-@property(copy, nonatomic) NSString *federationPredicate;
-@property(copy, nonatomic) NSString *federationRequestURN;
-@property(nonatomic) long long federationType;
-@property(copy, nonatomic) NSURL *federationUserPreauthenticationURL;
-@property(copy, nonatomic) NSString *groupRequestClaimName;
-@property(copy, nonatomic) NSString *groupResponseClaimName;
-@property(nonatomic) struct __SecKey *hpkeAuthPublicKey;
-@property(copy, nonatomic) NSData *hpkePreSharedKey;
-@property(copy, nonatomic) NSData *hpkePreSharedKeyID;
-@property(nonatomic) _Bool includePreviousRefreshTokenInLoginRequest;
-@property(copy, nonatomic) NSString *invalidCredentialPredicate;
-@property(readonly, copy, nonatomic) NSString *issuer;
-@property(copy, nonatomic) NSURL *jwksEndpointURL;
-@property(copy, nonatomic) NSArray *jwksTrustedRootCertificates;
-@property(copy, nonatomic) NSArray *kerberosTicketMappings; // @synthesize kerberosTicketMappings=_kerberosTicketMappings;
-@property(copy, nonatomic) NSURL *keyEndpointURL;
 @property(readonly, nonatomic) POLoginConfiguration *loginConfiguration; // @synthesize loginConfiguration=_loginConfiguration;
-@property(copy, nonatomic) NSData *loginRequestEncryptionAPVPrefix;
-@property(copy, nonatomic) NSNumber *loginRequestEncryptionAlgorithm;
-@property(nonatomic) struct __SecKey *loginRequestEncryptionPublicKey;
-@property(copy, nonatomic) NSData *loginRequestHPKEPreSharedKey;
-@property(copy, nonatomic) NSData *loginRequestHPKEPreSharedKeyID;
-@property(copy, nonatomic) NSURL *nonceEndpointURL;
-@property(copy, nonatomic) NSString *nonceResponseKeypath;
-@property(copy, nonatomic) NSString *previousRefreshTokenClaimName;
-@property(copy, nonatomic) NSURL *refreshEndpointURL;
-@property(copy, nonatomic) NSString *serverNonceClaimName;
-@property(copy, nonatomic) NSURL *tokenEndpointURL;
-@property(copy, nonatomic) NSString *uniqueIdentifierClaimName;
-@property(nonatomic) unsigned long long userSecureEnclaveKeyBiometricPolicy;
 
 @end
 

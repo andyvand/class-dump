@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraClientCertificateStatus
 {
     HAPTLVUnsignedNumberValue *_needsUpdate;
 }
 
-+ (id);
++ (id)C;
 - (id);
 - (id);
-- (void);
+- (void)SES];
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)indexOfObject:(id)arg1 inSortedRange:options:usingComparator: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id)!lAùÑ·1Â0@ù
@@ -25,14 +25,7 @@
 - (void)ssionPrivate=}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(readonly) Class superclass;
 
 @end
 

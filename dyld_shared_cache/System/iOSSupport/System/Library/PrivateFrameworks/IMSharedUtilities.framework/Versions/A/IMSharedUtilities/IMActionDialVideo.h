@@ -9,7 +9,6 @@
 @interface IMActionDialVideo
 {
     void phoneNumber;
-    void fallbackUrl;
 }
 
 - (id);
@@ -17,14 +16,12 @@
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)pending review count:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
 
 @end

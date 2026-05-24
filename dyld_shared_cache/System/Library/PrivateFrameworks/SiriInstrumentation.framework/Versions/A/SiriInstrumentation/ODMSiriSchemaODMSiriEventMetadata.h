@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, ODMSiriSchemaODMTrialExperimentIdentifiers, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODMSiriSchemaODMSiriEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_odmId;
-    NSString *_pluginVersion;
-    ODMSiriSchemaODMTrialExperimentIdentifiers *_trialExperimentIdentifiers;
-    _Bool _hasOdmId;
-    _Bool _hasPluginVersion;
-    _Bool _hasTrialExperimentIdentifiers;
 }
 
 - (id);
@@ -36,9 +31,9 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long).V;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!ÀEù1Þ°1Â0@ù
 × ;
@@ -47,13 +42,7 @@
 - (void)uthGenerated;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOdmId; // @synthesize hasOdmId=_hasOdmId;
-@property(nonatomic) _Bool hasPluginVersion; // @synthesize hasPluginVersion=_hasPluginVersion;
-@property(nonatomic) _Bool hasTrialExperimentIdentifiers; // @synthesize hasTrialExperimentIdentifiers=_hasTrialExperimentIdentifiers;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *odmId; // @synthesize odmId=_odmId;
-@property(copy, nonatomic) NSString *pluginVersion; // @synthesize pluginVersion=_pluginVersion;
-@property(retain, nonatomic) ODMSiriSchemaODMTrialExperimentIdentifiers *trialExperimentIdentifiers; // @synthesize trialExperimentIdentifiers=_trialExperimentIdentifiers;
 
 @end
 

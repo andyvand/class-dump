@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CTXPCMessage
 {
@@ -12,24 +12,22 @@
 }
 
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)ressionPropertiesKey;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)unsaltedStateHash;
+- (id);
 - (id);
 - (void)a&°!°EùQª)ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
-@property(readonly, nonatomic) NSString *ct_shortName;
 @property(retain, nonatomic) NSDictionary *namedArguments; // @synthesize namedArguments=_namedArguments;
 
 @end

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPaymentRecord;
-
 @protocol INSendPaymentIntentResponseExport
-- (long long)es;
+- (long long)hasUpdateAllOccurrences;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INPaymentRecord *paymentRecord;
 @end
 

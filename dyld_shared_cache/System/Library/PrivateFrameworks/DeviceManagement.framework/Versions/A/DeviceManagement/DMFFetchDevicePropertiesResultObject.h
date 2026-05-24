@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFDevice, NSDictionary;
+@class NSDictionary;
 
 @interface DMFFetchDevicePropertiesResultObject
 {
     NSDictionary *_valuesByPropertyKey;
-    NSDictionary *_errorsByPropertyKey;
 }
 
-+ (_Bool);
++ (_Bool)T6;
 - (id);
 - (id);
 - (id);
@@ -22,11 +21,9 @@
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void)d;
 
 // Remaining properties
-@property(readonly, nonatomic) DMFDevice *device;
-@property(readonly, copy, nonatomic) NSDictionary *errorsByPropertyKey; // @synthesize errorsByPropertyKey=_errorsByPropertyKey;
 @property(readonly, copy, nonatomic) NSDictionary *valuesByPropertyKey; // @synthesize valuesByPropertyKey=_valuesByPropertyKey;
 
 @end

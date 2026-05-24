@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ray, dbf_flags:%x dfb_type:%d flags:%x type:%d /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

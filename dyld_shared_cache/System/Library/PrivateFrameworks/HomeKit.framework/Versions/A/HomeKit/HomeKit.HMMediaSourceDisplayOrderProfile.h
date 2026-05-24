@@ -9,13 +9,10 @@
 @interface HomeKit.HMMediaSourceDisplayOrderProfile : HMAccessoryProfile
 {
     id televisionProfile;
-    id displayOrderProfileDelegateAdaptor;
-    id canModifyOrder;
-    id delegate;
 }
 
-- (id);
-- (id);
+- (id)`;
+- (id);
 - (void)code %@, invalid action type:%@ /* Error: Ran out of types for this method. */;
 
 @end

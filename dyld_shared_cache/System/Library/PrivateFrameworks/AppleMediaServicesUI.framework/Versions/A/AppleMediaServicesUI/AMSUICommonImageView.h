@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImageSymbolConfiguration;
-
 @interface AMSUICommonImageView
 {
     long long _contentMode;
@@ -15,7 +13,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property long long contentMode; // @synthesize contentMode=_contentMode;
-@property(retain) NSImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(copy) NSColor *tintColor;
 
 @end
 

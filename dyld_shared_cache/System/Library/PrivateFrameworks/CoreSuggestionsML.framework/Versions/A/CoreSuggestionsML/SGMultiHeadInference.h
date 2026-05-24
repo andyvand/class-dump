@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SGMultiHeadEspressoModel, SGQuickResponsesConfig, SGQuickResponsesTransformerInstance;
+@class SGQuickResponsesConfig;
 
 @interface SGMultiHeadInference
 {
     SGQuickResponsesConfig *_config;
-    SGMultiHeadEspressoModel *_model;
-    SGQuickResponsesTransformerInstance *_transformer;
-    NSMutableDictionary *_headDimensionality;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

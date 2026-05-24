@@ -6,21 +6,18 @@
 
 #import <EmailCore/ECLocalMessageAction.h>
 
-@class ECLocalMessageActionID, NSArray, NSSet, NSString, NSURL;
+@class NSSet;
 
 @interface ECLabelChangeMessageAction : ECLocalMessageAction
 {
     NSSet *_remoteIDs;
-    NSArray *_messages;
-    NSSet *_labelsToAdd;
-    NSSet *_labelsToRemove;
 }
 
-- (void);
-- (void);
+- (void)olsView.;
+- (void)of another view.;
 - (id);
-- (id);
-- (id);
+- (id)@ to JSON (%{public}@);
+- (id)d to serialize %{public}@ to JSON (%{public}@);
 - (void);
 - (void);
 - (id);
@@ -28,20 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSSet *labelsToAdd; // @synthesize labelsToAdd=_labelsToAdd;
-@property(copy, nonatomic) NSSet *labelsToRemove; // @synthesize labelsToRemove=_labelsToRemove;
-@property(retain, nonatomic) NSURL *mailboxURL;
-@property(copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
-@property(retain, nonatomic) ECLocalMessageActionID *persistentID;
 @property(copy, nonatomic) NSSet *remoteIDs; // @synthesize remoteIDs=_remoteIDs;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

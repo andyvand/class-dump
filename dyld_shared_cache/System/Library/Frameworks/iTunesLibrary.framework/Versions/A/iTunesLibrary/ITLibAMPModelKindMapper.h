@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITLibrary, NSCharacterSet;
+@class ITLibrary;
 
 @interface ITLibAMPModelKindMapper
 {
     ITLibrary *_library;
-    NSCharacterSet *_capitalizedLetters;
 }
 
 - (id);
@@ -17,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -33,7 +32,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)wa@�;
 - (void);
 
 @end

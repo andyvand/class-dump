@@ -9,12 +9,6 @@
 @interface MapsSuggestions.MapsSuggestionsFinanceKit
 {
     void uniqueName;
-    id _connector;
-    id _observer;
-    id _delegate;
-    id _timeWindow;
-    id _requester;
-    id _queue;
 }
 
 - (void);
@@ -23,11 +17,11 @@
 - (id);
 - (BOOL);
 - (_Bool);
-- (void);
+- (void)timelineKind;
 - (id);
 - (id);
 - (id);
-- (void)tionEntriesOfType:handler: /* Error: Ran out of types for this method. */;
+- (void)updateSuggestionEntriesOfType:handler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *uniqueName;

@@ -9,9 +9,6 @@
 @interface PKPassShareInitiationActivationConfiguration
 {
     _Bool _allowUserEdit;
-    _Bool _isBlocked;
-    PKPassShareActivationOptions *_defaultOptions;
-    PKPassShareActivationOptions *_availableOptions;
 }
 
 - (void);
@@ -22,14 +19,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void)RROR_UNAVAILABLE_DESCRIPTION;
+- (id)?;
+- (void)SHARE_INITIATION_ERROR_UNAVAILABLE_DESCRIPTION;
 
 // Remaining properties
-@property(nonatomic) _Bool allowUserEdit; // @synthesize allowUserEdit=_allowUserEdit;
-@property(retain, nonatomic) PKPassShareActivationOptions *availableOptions; // @synthesize availableOptions=_availableOptions;
 @property(retain, nonatomic) PKPassShareActivationOptions *defaultOptions; // @synthesize defaultOptions=_defaultOptions;
-@property(nonatomic) _Bool isBlocked; // @synthesize isBlocked=_isBlocked;
 
 @end
 

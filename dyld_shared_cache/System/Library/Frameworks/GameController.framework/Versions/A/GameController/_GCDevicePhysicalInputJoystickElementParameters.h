@@ -6,31 +6,15 @@
 
 #import <GameController/_GCDevicePhysicalInputElementParameters.h>
 
-@class NSSet, _GCDevicePhysicalInputPressInputParameters, _GCDevicePhysicalInputTouchInputParameters;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputJoystickElementParameters : _GCDevicePhysicalInputElementParameters
 {
     _Bool _analog;
-    float _directionPressedThreshold;
-    NSSet *_xySources;
-    NSSet *_xSources;
-    NSSet *_ySources;
-    NSSet *_upSources;
-    NSSet *_leftSources;
-    NSSet *_downSources;
-    NSSet *_rightSources;
-    _GCDevicePhysicalInputPressInputParameters *_press;
-    _GCDevicePhysicalInputTouchInputParameters *_touch;
-    unsigned long long _eventXValueField;
-    unsigned long long _eventYValueField;
-    unsigned long long _eventPressValueField;
-    unsigned long long _eventTouchValueField;
 }
 
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)҅;
+- (id)setLastSignedOutAccountAltDSID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

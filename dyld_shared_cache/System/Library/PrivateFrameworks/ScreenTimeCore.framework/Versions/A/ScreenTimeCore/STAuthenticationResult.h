@@ -10,10 +10,10 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)0);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (_Bool);
 - (void);

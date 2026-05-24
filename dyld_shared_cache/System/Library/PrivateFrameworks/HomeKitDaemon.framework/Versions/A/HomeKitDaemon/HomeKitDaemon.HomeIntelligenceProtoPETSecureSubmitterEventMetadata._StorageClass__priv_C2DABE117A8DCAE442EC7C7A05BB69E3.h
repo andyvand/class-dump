@@ -7,15 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligenceProtoPETSecureSubmitterEventMetadata._StorageClass__priv_C2DABE117A8DCAE442EC7C7A05BB69E3
 {
     id _schemaVersion;
-    id _eventName;
-    id _eventUuid;
-    id _timestamp;
-    id _home;
-    id _device;
-    id _submittingDevice;
-    id _user;
-    id _systemUptime;
-    id _currentServerTime;
 }
 
 @end

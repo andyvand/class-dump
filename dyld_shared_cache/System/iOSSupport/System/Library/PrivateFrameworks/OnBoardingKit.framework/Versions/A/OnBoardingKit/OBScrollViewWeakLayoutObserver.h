@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIScrollViewLayoutObserver;
-
 __attribute__((visibility("hidden")))
 @interface OBScrollViewWeakLayoutObserver
 {
     OBScrollViewWeakLayoutObserver *_selfReference;
-    id <_UIScrollViewLayoutObserver> _weakLayoutObserver;
 }
 
 - (id);

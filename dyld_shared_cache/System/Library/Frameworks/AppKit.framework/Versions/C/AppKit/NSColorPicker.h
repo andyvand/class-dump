@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColorPanel, NSImage, NSString;
+@class NSColorPanel;
 
 @interface NSColorPicker
 {
     id _imageObject;
-    NSString *_buttonToolTip;
-    NSColorPanel *_colorPanel;
 }
 
 - (void);
-- (id);
-- (struct CGSize);
+- (id)ictionary"24@"NSString"32@?<v@?B>40;
+- (struct CGSize)performDefaultHandlingForAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (void)_ignoreDidReceiveResponseDisposition;
+- (id)ExpectedToLoad:(unsigned long long)arg1;
+- (void)icator finished cont %d req %{sensitive}@ headers %{sensitive}@;
+- (id)iled to create a background AVAggregateAssetDownloadTask, as remote session is unavailable;
+- (id)into db. Error= %s;
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)>8>;
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)Q}32^B48;
 
 // Remaining properties
-@property(readonly, copy) NSString *buttonToolTip;
 @property(readonly) NSColorPanel *colorPanel;
-@property(readonly) struct CGSize minContentSize;
-@property(readonly) NSImage *provideNewButtonImage;
 
 @end
 

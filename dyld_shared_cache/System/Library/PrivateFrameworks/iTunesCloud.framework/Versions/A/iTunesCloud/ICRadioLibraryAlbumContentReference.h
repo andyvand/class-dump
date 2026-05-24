@@ -6,16 +6,14 @@
 
 #import <iTunesCloud/ICRadioContentReference.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ICRadioLibraryAlbumContentReference : ICRadioContentReference
 {
     NSString *_albumName;
-    NSNumber *_representativeCloudIdentifier;
-    NSNumber *_storeIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)B;
 - (void);
 - (id);
 - (id);
@@ -29,13 +27,11 @@
 - (id);
 - (long long)0@ù
 × ;
-- (void)yResponseError: /* Error: Ran out of types for this method. */;
+- (void)processContentKeyResponseError: /* Error: Ran out of types for this method. */;
 - (id)ZÍ¤Í1ÍXÍÍÍÍ|Í,Í}ÍIÍTÍ Í÷yR3báÁn#«¿:oªuðÎiõ¶ýÃM´wE¼w$J7\bõµ¼Bxô³%.N¢C¢¬tÔpEU~¯ÞµHÍGÇ*µ+èÑöýcåõuè /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumName; // @synthesize albumName=_albumName;
-@property(copy, nonatomic) NSNumber *representativeCloudIdentifier; // @synthesize representativeCloudIdentifier=_representativeCloudIdentifier;
-@property(copy, nonatomic) NSNumber *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

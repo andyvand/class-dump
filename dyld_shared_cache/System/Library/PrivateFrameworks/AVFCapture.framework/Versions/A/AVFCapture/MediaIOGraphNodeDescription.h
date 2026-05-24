@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface MediaIOGraphNodeDescription
 {
     struct OpaqueCMIOGraph *_graph;
-    int _graphNode;
 }
 
 + (id);
-- (unsigned int);
-- (unsigned int);
-- (id);
+- (unsigned int)dictionaryOpeningTagData;
+- (unsigned int)dictionaryClosingTagData;
+- (id)_readBufferFileHandle;
 - (void);
 - (struct OpaqueCMIOGraph *)nk:r:path:/System/Library/PrivateFrameworks/Portrait.framework/Portrait /* Error: Ran out of types for this method. */;
 - (int)Ì´;
@@ -22,10 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) struct OpaqueCMIOGraph *graph;
-@property(readonly) int node;
-@property(readonly) unsigned int nodeFunctionalDesignation;
-@property(readonly) unsigned int nodeIndex;
-@property(readonly) struct OpaqueCMIOUnit *unit;
 
 @end
 

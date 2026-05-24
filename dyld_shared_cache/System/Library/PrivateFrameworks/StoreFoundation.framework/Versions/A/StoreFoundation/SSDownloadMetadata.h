@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSLock, NSMutableDictionary, NSNumber, NSString, NSURL;
+@class NSDictionary, NSMutableDictionary;
 
 @interface SSDownloadMetadata
 {
     NSMutableDictionary *_dictionary;
-    NSLock *_lock;
 }
 
 + (_Bool);
@@ -20,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,9 +49,9 @@
 - (id);
 - (id);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)undation.dylib;
 - (id);
 - (id);
 - (_Bool);
@@ -71,82 +70,39 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)q(;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (unsigned long long)ilePaths:addOrDelete: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)lastError;
+- (id)compareBoundaryPoints:sourceRange: /* Error: Ran out of types for this method. */;
+- (id)J
+;
+- (id)r;
+- (id)d;
+- (id);
+- (id);
+- (id)h;
+- (void);
+- (void)c;
+- (void);
+- (void);
+- (unsigned long long)updateLockedFilePaths:addOrDelete: /* Error: Ran out of types for this method. */;
 - (id)appleId;
 
 // Remaining properties
-@property(readonly) NSNumber *ageRestriction;
-@property _Bool animationExpected;
-@property(retain) NSString *appleID;
-@property(readonly) NSString *applicationIdentifier;
-@property _Bool artworkIsPrerendered;
-@property(readonly) NSArray *assets;
-@property(readonly) NSString *bundleDisplayName;
-@property(retain) NSString *bundleIdentifier;
-@property(readonly) NSString *bundleShortVersionString;
-@property(retain) NSString *bundleVersion;
-@property(retain) NSString *buyParameters;
-@property(readonly) NSNumber *collectionID;
-@property(retain) NSString *collectionName;
 @property(retain) NSDictionary *dictionary;
-@property(retain) NSString *downloadKey;
-@property(retain) NSNumber *durationInMilliseconds;
-@property(retain) NSData *epubRightsData;
-@property(readonly) _Bool extractionCanBeStreamed;
-@property(retain) NSString *fileExtension;
-@property(retain) NSString *genre;
-@property(readonly) NSNumber *iapContentSize;
-@property(readonly) NSString *iapContentVersion;
-@property(retain) NSString *iapInstallPath;
-@property(retain) NSData *ipaInstallBookmarkData;
-@property(retain) NSString *ipaInstallPath;
-@property(readonly) _Bool isExplicitContents;
-@property _Bool isMDMProvided;
-@property unsigned long long itemIdentifier;
-@property(retain) NSString *kind;
-@property(retain) NSString *managedAppUUIDString;
-@property(readonly) _Bool needsSoftwareInstallOperation;
-@property(retain) NSURL *preflightPackageURL;
-@property(retain) NSString *productType;
-@property(readonly) NSString *purchaseDate;
-@property(getter=isRental) _Bool rental;
-@property(readonly, getter=isSample) _Bool sample;
-@property(retain) NSArray *sinfs;
-@property(readonly) NSString *sortArtist;
-@property(readonly) NSString *sortName;
-@property(retain) NSString *subtitle;
-@property(retain) NSURL *thumbnailImageURL;
-@property(retain) NSString *title;
-@property(retain) NSString *transactionIdentifier;
-@property(readonly) NSNumber *uncompressedSize;
-@property(retain) NSNumber *version;
 
 @end
 

@@ -9,20 +9,16 @@
 @interface PGKeyCuratorSubcluster
 {
     id <CLSInvestigationItem> _keyItem;
-    double _score;
-    unsigned long long _iconicScoreBucket;
 }
 
-- (id);
+- (id)_batteryStatus;
 - (unsigned long long);
 - (id);
-- (double);
+- (double);
 - (void)om.apple.photos.memories.sbl;
 
 // Remaining properties
-@property(readonly) unsigned long long iconicScoreBucket; // @synthesize iconicScoreBucket=_iconicScoreBucket;
 @property(readonly) id <CLSInvestigationItem> keyItem; // @synthesize keyItem=_keyItem;
-@property(readonly) double score; // @synthesize score=_score;
 
 @end
 

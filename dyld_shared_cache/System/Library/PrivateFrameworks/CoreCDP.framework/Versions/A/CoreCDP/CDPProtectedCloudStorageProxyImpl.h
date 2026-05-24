@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CDPProtectedCloudStorageProxyImpl
 {
 }
 
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)sgLogging;
+- (void)GER NOT NULL,author TEXT,content TEXT,contentRangeOfInterest TEXT,title TEXT COLLATE NOCASE,timeRangeStart REAL,timeRangeEnd REAL,floatingRange INTEGER,timeRangeStartUTCOffsetSeconds INTEGER,timeRangeEndUTCOffsetSeconds INTEGER,creationTimestamp REAL,updateTimestamp REAL,indexTimestamp REAL,lastSeenTimestamp REAL,tags TEXT,structuredData BLOB,quality REAL,locations BLOB,masterEntityId INTEGER DEFAULT -1,groupId INTEGER DEFAULT -1,state INTEGER DEFAULT 0,contentHash TEXT,downloadState INTEGER DEFAULT 0, contentHashBlob BLOB, pendingGeocode BOOLEAN DEFAULT false, harvestedOnBuild TEXT, curatedDupe BOOLEAN DEFAULT false);
 - (_Bool);
 - (struct _PCSIdentitySetData *);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)stillImageStabilizationSupported;
+- (void)deepFusionSupportedForPortType:(id)arg1;
+- (_Bool)> %s:(id)arg1 %p:(id *)arg2 can't open valve for captureID:%lld because there isn't enough video (still image host time %.4lf < minimum required host time %.4lf, queues contain V %.4lf-%.4lf, A %.4lf-%.4lf, still was captured %.1lfms ago). Hit error %d. /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void)op:(id)arg1 ];
+- (_Bool);
+- (_Bool);
+- (_Bool)ERKNS9_IyEEE3$_1;
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct _PCSIdentitySetData *);
+- (struct _PCSIdentitySetData *);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

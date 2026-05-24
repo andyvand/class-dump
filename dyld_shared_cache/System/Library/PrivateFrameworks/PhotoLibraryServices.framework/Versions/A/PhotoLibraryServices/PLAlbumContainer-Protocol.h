@@ -5,7 +5,10 @@
 //
 
 @protocol PLAlbumContainer
+- (id)3Tbe03P0Mdg/Library/Caches/com.apple.xbs/TemporaryDirectory.oHjloT/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/louds-trie.cc:430:MARISA_MEMORY_ERROR:std::bad_alloc /* Error: Ran out of types for this method. */;
+- (id)i;
+- (id)r5;
 - (id)deleteExpiredTrashedResources;
-- (id)ts;
+- (id)faceAreaPoints;
 @end
 

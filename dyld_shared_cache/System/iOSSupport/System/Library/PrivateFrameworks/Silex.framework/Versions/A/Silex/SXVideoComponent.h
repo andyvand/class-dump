@@ -6,7 +6,7 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, SXJSONDictionary;
+@class NSString;
 
 @interface SXVideoComponent : SXComponent
 {
@@ -19,21 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityCaption; // @dynamic accessibilityCaption;
-@property(readonly, nonatomic) SXJSONDictionary *advertising; // @dynamic advertising;
-@property(readonly, nonatomic) _Bool allowsPrerollAds; // @dynamic allowsPrerollAds;
-@property(readonly, nonatomic) double aspectRatio; // @dynamic aspectRatio;
-@property(readonly, nonatomic) NSString *caption; // @dynamic caption;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *prerollPlacementIdentifier; // @dynamic prerollPlacementIdentifier;
-@property(readonly, nonatomic) NSString *resourceIdentifier; // @dynamic resourceIdentifier;
 @property(readonly, nonatomic) NSString *stillImageIdentifier; // @dynamic stillImageIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOArrivalTimeAndDistanceInfo, GEOComposedRoute, GEOLocation, GEONameInfo, GEONavigationGuidanceState, GEONavigationRouteSummary, GEONavigationRouteTransitSummary, GEORouteMatch, NSArray, NSData, NSString, NSXPCConnection;
+@class NSXPCConnection;
 @protocol GEOServerFormattedStepStringFormatter;
 
 @interface GEONavigationProxy
 {
     NSXPCConnection *_navdConnection;
-    NSString *_destinationName;
-    GEOComposedRoute *_route;
-    GEOLocation *_lastLocation;
-    CDStruct_3f2a7a20 _matchedCoordinate;
-    _Bool _locationUnreliable;
-    GEORouteMatch *_routeMatch;
-    NSString *_currentRoadName;
-    _Bool _guidancePromptsEnabled;
-    NSData *_activeRouteDetailsData;
-    NSArray *_rideSelections;
-    unsigned long long _stepIndex;
-    unsigned long long _displayedStepIndex;
-    GEONameInfo *_stepNameInfo;
-    CDStruct_a70066d4 _positionFromSign;
-    CDStruct_a70066d4 _positionFromManeuver;
-    CDStruct_a70066d4 _positionFromDestination;
-    unsigned long long _announcementStage;
-    unsigned long long _nextAnnouncementStage;
-    double _timeUntilNextAnnouncement;
-    GEONavigationRouteSummary *_routeSummary;
-    GEONavigationRouteTransitSummary *_transitRouteSummary;
-    GEOArrivalTimeAndDistanceInfo *_timeAndDistanceInfo;
-    GEONavigationGuidanceState *_guidanceState;
-    int _navigationVoiceVolume;
-    _Bool _isNavigatingInLowGuidance;
-    _Bool _isConnectedToCarplay;
-    id <GEOServerFormattedStepStringFormatter> _formatter;
 }
 
 - (void);
@@ -64,6 +37,7 @@
 - (void);
 - (void);
 - (void);
+- (void)switchMap:(int)arg1 schedulerProvider: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -71,16 +45,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void)6d32q40B48;
-- (void)atingsValue;
-- (void)ailureDetails;
+- (void)_ratingsValue;
+- (void)_initializationFailureDetails;
 - (void)r only supports routes using routing path points or zilch points;
 - (void)hasItemId:(id)arg1 %s;
 - (void)|¸;
@@ -88,7 +61,7 @@
 - (void)ù?;
 - (id);
 - (void)^2;
-- (void)C4;
+- (void)FC4;
 
 // Remaining properties
 @property(retain, nonatomic) id <GEOServerFormattedStepStringFormatter> formatter; // @synthesize formatter=_formatter;

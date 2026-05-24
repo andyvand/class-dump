@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDRecordStore, ISyncConcreteSession, NSArray;
+@class ISyncConcreteSession;
 
 @interface ISDChangeEnumerator
 {
     ISyncConcreteSession *_session;
-    ISDRecordStore *_clientStore;
-    ISDRecordStore *_truth;
-    NSArray *_recordIds;
-    NSArray *_clientRecordCache;
-    NSArray *_truthRecordCache;
-    unsigned long long _recordIdIndex;
-    unsigned long long _clientRecordCacheIndex;
-    unsigned long long _truthRecordCacheIndex;
 }
 
 - (id);

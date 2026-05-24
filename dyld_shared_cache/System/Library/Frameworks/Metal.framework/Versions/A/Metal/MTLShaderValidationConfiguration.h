@@ -7,10 +7,6 @@
 @interface MTLShaderValidationConfiguration
 {
     _Bool _enableBoundsChecking;
-    _Bool _enableThreadgroupMemoryChecks;
-    _Bool _enableTextureChecks;
-    _Bool _enableResourceUsageValidation;
-    _Bool _enableStackOverflow;
 }
 
 - (void);
@@ -25,15 +21,11 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (id);
 
 // Remaining properties
 @property _Bool enableBoundsChecking; // @synthesize enableBoundsChecking=_enableBoundsChecking;
-@property _Bool enableResourceUsageValidation; // @synthesize enableResourceUsageValidation=_enableResourceUsageValidation;
-@property _Bool enableStackOverflow; // @synthesize enableStackOverflow=_enableStackOverflow;
-@property _Bool enableTextureChecks; // @synthesize enableTextureChecks=_enableTextureChecks;
-@property _Bool enableThreadgroupMemoryChecks; // @synthesize enableThreadgroupMemoryChecks=_enableThreadgroupMemoryChecks;
 
 @end
 

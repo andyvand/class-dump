@@ -7,18 +7,14 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
+- (NSString *);
+- (unsigned long long)MapsSuggestionsPredictorConnectionLeewayInSecondsKey;
+- (NSString *)SMSystem_Client_TimeMachineDisk;
 - (NSArray *)
 × ;
 - (NSString *)JeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNetworkEvent.m;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *backIssuesListID;
-@property(readonly, nonatomic) unsigned long long channelType;
-@property(readonly, copy, nonatomic) NSArray *currentIssueIDs;
-@property(readonly, copy, nonatomic) NSString *defaultSectionID;
-@property(readonly, nonatomic) _Bool isWhitelisted;
-@property(readonly, copy, nonatomic) NSArray *recentIssueIDs;
 @property(readonly, copy, nonatomic) NSArray *sectionIDs;
-@property(readonly, nonatomic) _Bool supportsNotifications;
 @end
 

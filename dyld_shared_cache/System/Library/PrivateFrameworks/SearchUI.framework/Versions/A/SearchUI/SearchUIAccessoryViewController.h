@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSControl, NSString, NSView, SearchUIDetailedRowModel;
-@protocol SearchUIAccessoryViewDelegate, SearchUIFeedbackDelegate;
+@class NSView, SearchUIDetailedRowModel;
 
 @interface SearchUIAccessoryViewController
 {
     SearchUIDetailedRowModel *rowModel;
-    NSView *view;
-    id <SearchUIFeedbackDelegate> feedbackDelegate;
-    NSControl *_control;
-    id <SearchUIAccessoryViewDelegate> _delegate;
 }
 
 + (_Bool);
@@ -24,12 +19,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)activity;
 - (void);
-- (id);
+- (id)eVideo;
 - (void);
 - (void);
 - (void);
@@ -37,24 +32,12 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)eyboardEvent"24^{__CGEvent=}32^{__CGEventTapProxy=}40;
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSControl *control; // @synthesize control=_control;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <SearchUIAccessoryViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SearchUIDetailedRowModel *rowModel; // @synthesize rowModel;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long type;
 @property(retain, nonatomic) NSView *view; // @synthesize view;
 
 @end

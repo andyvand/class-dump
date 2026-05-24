@@ -7,10 +7,10 @@
 @class NSData, NSImage;
 
 @protocol CNUILikenessBadge
+- (void)	;
+- (NSImage *)kCellularPlanErrorUserCanceledOnSource;
 
 // Remaining properties
-@property(nonatomic) unsigned long long badgeType;
-@property(readonly, nonatomic) NSImage *image;
 @property(readonly, nonatomic) NSData *imageData;
 @end
 

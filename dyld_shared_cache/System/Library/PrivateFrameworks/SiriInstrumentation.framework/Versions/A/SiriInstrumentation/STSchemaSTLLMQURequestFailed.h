@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTFailureError;
-
 @interface STSchemaSTLLMQURequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    STSchemaSTFailureError *_stError;
-    CDStruct_6555f803 _has;
-    _Bool _hasStError;
 }
 
 - (void);
@@ -22,28 +17,24 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)alternateRouteIndex;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)subscriptionDetailsWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)n;
+- (_Bool)mn.;
 - (void);
+- (id)!;
 - (id);
-- (id);
-- (id)eteMediaQAUseCase;
-- (id)ileStored;
-- (void)splayedDialog;
+- (id)deleteMediaQAUseCase;
+- (id)_hasSampledAudioFileStored;
+- (void)displayedDialog;
 - (void)declineDismissGesture;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStError; // @synthesize hasStError=_hasStError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) STSchemaSTFailureError *stError; // @synthesize stError=_stError;
 
 @end
 

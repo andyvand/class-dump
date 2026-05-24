@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMEPersistentConnectionServer, HMFMessageDispatcher, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDXPCEventRouterServerDataSource, OS_dispatch_queue;
+@class HMEPersistentConnectionServer;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCEventRouterServer
 {
     HMEPersistentConnectionServer *_persistentConnectionServer;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_messageUUID;
-    NSString *_changeRegistrationsMessageName;
-    NSString *_updateEventsMessageName;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDXPCEventRouterServerDataSource> _dataSource;
 }
 
 + (id)B;
@@ -30,46 +22,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)BA9;
 - (id)à°!@BùQ1Â0@ù
 × ;
-- (void)chableTransports;
-- (id)hmdAccessoryPairingEventResidentConfirmation;
+- (void)reachableTransports;
+- (id)_hmdAccessoryPairingEventResidentConfirmation;
 - (id)rom %@ -> %@;
 - (void)e it is disabled;
-- (void)rUpdateReasonUserPrivilegeChanged;
+- (void)HMDUserActivityStateDetectorUpdateReasonUserPrivilegeChanged;
 - (void)HomeKit.daemon.network.stability;
-- (void)ResultKey;
-- (id)upsPerHome;
-- (id)chUnderlyingErrorCode;
+- (void)HMDHomeLockNotificationContextResolutionResultKey;
+- (id)maximumServiceGroupsPerHome;
+- (id)hmd_accessoryDiagnosticInfoFetchUnderlyingErrorCode;
 - (id);
 - (id)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *changeRegistrationsMessageName; // @synthesize changeRegistrationsMessageName=_changeRegistrationsMessageName;
-@property(readonly) __weak id <HMDXPCEventRouterServerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) NSUUID *messageUUID; // @synthesize messageUUID=_messageUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(readonly) HMEPersistentConnectionServer *persistentConnectionServer; // @synthesize persistentConnectionServer=_persistentConnectionServer;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *updateEventsMessageName; // @synthesize updateEventsMessageName=_updateEventsMessageName;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

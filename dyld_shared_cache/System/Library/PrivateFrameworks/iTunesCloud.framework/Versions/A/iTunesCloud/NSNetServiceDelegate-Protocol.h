@@ -5,5 +5,12 @@
 //
 
 @protocol NSNetServiceDelegate
+
+@optional
+- (void)_SQLITE_INTERRUPT;
+- (void)_SQLITE_FULL;
+- (void)_MLMediaLibraryResourcesServiceServerRemoteObjectInterface;
+- (void)_MLMediaLibraryResourcesServiceServerExportedInterface;
+- (void)c;
 @end
 

@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface SCRCMathTableCellExpression : SCRCMathRowExpression
 {
     _Bool _didGetTablePosition;
-    unsigned long long _rowIndex;
-    unsigned long long _columnIndex;
-    unsigned long long _tableRowCount;
-    unsigned long long _tableColumnCount;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)m;
 - (id);
 - (id);
 - (void);

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCoreDataXPCMessage, NSDictionary, NSError, NSXPCStore;
+@class NSXPCStore;
 
 __attribute__((visibility("hidden")))
 @interface NSXPCStoreMessageContext
 {
     NSXPCStore *_store;
-    NSCoreDataXPCMessage *_message;
-    NSDictionary *_result;
-    NSError *_error;
 }
 
-- (void);
+- (void);
 - (id);
 
 @end

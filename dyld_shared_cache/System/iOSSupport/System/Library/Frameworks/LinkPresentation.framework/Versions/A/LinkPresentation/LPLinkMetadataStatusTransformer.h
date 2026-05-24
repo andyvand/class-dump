@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSAttributedString, NSURL, UIColor;
-@protocol LPLinkMetadataStatusTransformerDelegate;
+@class LPLinkMetadata;
 
 @interface LPLinkMetadataStatusTransformer
 {
     LPLinkMetadata *_metadata;
-    NSURL *_URL;
-    _Bool _wantsStatusItem;
-    id <LPLinkMetadataStatusTransformerDelegate> _delegate;
-    UIColor *_foregroundColor;
 }
 
 - (_Bool);
@@ -33,13 +28,7 @@
 - (id)H;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *actionURL;
-@property(readonly, copy, nonatomic) NSURL *canonicalURL;
-@property(nonatomic) __weak id <LPLinkMetadataStatusTransformerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy, nonatomic) NSAttributedString *statusText;
-@property(readonly, nonatomic) _Bool wantsStatusItem; // @synthesize wantsStatusItem=_wantsStatusItem;
 
 @end
 

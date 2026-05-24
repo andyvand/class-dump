@@ -7,8 +7,6 @@
 @interface PhotosGraph.MomentGraphCluster
 {
     id momentNode;
-    id assetFetchResult;
-    id supportedFeatureExtractors;
 }
 
 @end

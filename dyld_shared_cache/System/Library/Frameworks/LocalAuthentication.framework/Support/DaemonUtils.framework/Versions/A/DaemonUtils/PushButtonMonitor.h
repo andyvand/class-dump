@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PushButtonDelegate;
-
 @interface PushButtonMonitor
 {
     unsigned long long _lastTap;
-    unsigned long long _lastDoubleTap;
-    CDUnknownBlockType _axDoubleTapExpirationBlock;
-    struct __IOHIDEventSystemClient *_hidClient;
-    _Bool _doubleTapDetected;
-    _Bool _axDoubleTapDetected;
-    id <PushButtonDelegate> _delegate;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -34,17 +26,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (id);
-- (void);
+- (void)_noImageSize;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool axDoubleTapDetected; // @synthesize axDoubleTapDetected=_axDoubleTapDetected;
-@property(nonatomic) __weak id <PushButtonDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool doubleTapDetected; // @synthesize doubleTapDetected=_doubleTapDetected;
 
 @end

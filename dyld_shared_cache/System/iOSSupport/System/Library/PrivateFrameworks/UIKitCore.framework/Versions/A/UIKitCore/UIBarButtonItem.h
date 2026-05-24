@@ -6,80 +6,11 @@
 
 #import <UIKitCore/UIBarItem.h>
 
-@class NSArray, NSDictionary, NSSet, NSString, UIAction, UIBarButtonItemGroup, UIColor, UIImage, UIMenu, UIMenuElement, UINavigationItem, UISearchController, UIView, _UIBarButtonItemAppearanceStorage, _UITypedStorage;
-@protocol _UIBarButtonItemViewOwner;
+@class NSString;
 
 @interface UIBarButtonItem : UIBarItem
 {
     NSString *_title;
-    NSSet *_possibleTitles;
-    SEL _action;
-    id _target;
-    UIImage *_image;
-    UIImage *_landscapeImagePhone;
-    struct UIEdgeInsets _imageInsets;
-    struct UIEdgeInsets _landscapeImagePhoneInsets;
-    double _width;
-    UIView *_view;
-    _UIBarButtonItemAppearanceStorage *_appearanceStorage;
-    struct {
-        unsigned int enabled:1;
-        unsigned int style:3;
-        unsigned int isSystemItem:1;
-        unsigned int systemItem:8;
-        unsigned int viewIsCustom:1;
-        unsigned int isMinibarView:1;
-        unsigned int disableAutosizing:1;
-        unsigned int selected:1;
-        unsigned int menuIsPrimary:2;
-        unsigned int imageHasEffects:1;
-        unsigned int actsAsFakeBackButton:1;
-        unsigned int springLoaded:1;
-        unsigned int showsChevron:1;
-        unsigned int wantsThreeUp:1;
-        unsigned int changesSelectionAsPrimaryAction:1;
-        unsigned int enableSymbolAnimations:1;
-        unsigned int sharesBackground:1;
-        unsigned int hidesSharedBackground:1;
-        unsigned int isSearchBarViewItem:1;
-        unsigned int nstoolbarItemIdentifierNeedsPointerForUniqueness:1;
-    } _barButtonItemFlags;
-    NSArray *_gestureRecognizers;
-    NSArray *_interactions;
-    _Bool _flexible;
-    _Bool _hidden;
-    _Bool _groupRepresentative;
-    _Bool __showsBackButtonIndicator;
-    _Bool _isKeyboardItem;
-    _Bool _shouldUseButtonPlatters;
-    _Bool __changesSelectionAsPrimaryAction;
-    double _minimumWidth;
-    double _maximumWidth;
-    NSSet *_possibleSystemItems;
-    NSDictionary *_stylesForSizingTitles;
-    UISearchController *_associatedSearchController;
-    UINavigationItem *_vendingNavigationItem;
-    UIView *_accessoryView;
-    long long _accessoryPlacement;
-    _UITypedStorage *_typedStorage;
-    CDUnknownBlockType _secondaryActionsProvider;
-    UIAction *_primaryAction;
-    UIMenu *_menu;
-    long long _preferredMenuElementOrder;
-    UIMenuElement *_menuRepresentation;
-    NSString *_identifier;
-    UIBarButtonItemGroup *_buttonGroup;
-    long long _columnToggleItemType;
-    UINavigationItem *__owningNavigationItem;
-    UIBarButtonItemGroup *__owningButtonGroup;
-    id <_UIBarButtonItemViewOwner> __viewOwner;
-    CDUnknownBlockType __autoValidationHandler;
-    NSArray *__backButtonAlternateTitles;
-    double __toolbarCharge;
-    UIBarButtonItem *__itemVariation;
-    UIColor *__effectiveTintColor;
-    struct UIOffset _accessoryOffset;
-    struct UIEdgeInsets _additionalSelectionInsets;
 }
 
 @end

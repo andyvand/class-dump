@@ -9,10 +9,9 @@
 @interface CPLPushToTransportTask : CPLEngineMultiscopeSyncTask
 {
     _Bool _deferredCancel;
-    _Bool _highPriority;
 }
 
-+ (void);
++ (void)";
 + (_Bool);
 - (void);
 - (_Bool);

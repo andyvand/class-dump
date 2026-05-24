@@ -6,28 +6,20 @@
 
 #import <Mail/MFMailAccount.h>
 
-@class ACAccount, ECAuthScheme, ECPOPAccount, MCActivityMonitor, MFPOPStore, NSArray, NSDate, NSLock, NSOperationQueue, NSString;
+@class MFPOPStore, NSLock;
 
 @interface MFPOPAccount : MFMailAccount
 {
     NSLock *_connectionActivityLock;
-    id _seenMessagesManagerLock;
-    id _backgroundActivityFlagsLock;
-    _Bool _backgroundFetchInProgress;
-    _Bool _deletingMessages;
-    _Bool _fetcherNeedsReset;
-    _Bool _hasDoneBackgroundSynchronization;
-    MFPOPStore *_fetcher;
-    MCActivityMonitor *_fetchMonitor;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)HHJ*J\;
 + (id);
 - (id);
 - (Class);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,11 +33,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)߈;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -61,7 +53,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -70,84 +62,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
+- (id)<[;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)set_zoomDrawingQueue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)´;
 
 // Remaining properties
-@property(readonly, copy) NSString *accountTypeString;
-@property _Bool allowInsecureAuthentication;
-@property(readonly, copy) NSString *altDSID;
-@property(readonly, copy) NSString *appleAuthenticationToken;
-@property(readonly, copy) NSString *applePersonID;
-@property(copy) NSString *authenticationScheme;
-@property(readonly, copy) NSString *base64EncodedAppleAuthenticationToken2;
-@property(retain, nonatomic) ECPOPAccount *baseAccount; // @dynamic baseAccount;
-@property long long bigMessageWarningSize;
-@property(copy) NSString *canonicalEmailAddress;
-@property(readonly, copy) NSString *clientInfo;
-@property _Bool configureDynamically;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property long long delayedMessageDeletionInterval;
-@property(nonatomic) _Bool deletingMessages; // @synthesize deletingMessages=_deletingMessages;
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *displayName;
-@property(readonly, copy) NSArray *emailAddressStrings;
-@property(readonly, copy, nonatomic) NSDate *expiryDate;
-@property(copy) NSString *externalHostname;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C
-
-@property(retain, nonatomic) MCActivityMonitor *fetchMonitor; // @synthesize fetchMonitor=_fetchMonitor;
 @property(retain, nonatomic) MFPOPStore *fetcher; // @synthesize fetcher=_fetcher;
-@property(nonatomic) _Bool fetcherNeedsReset; // @synthesize fetcherNeedsReset=_fetcherNeedsReset;
-@property(nonatomic) _Bool hasDoneBackgroundSynchronization; // @synthesize hasDoneBackgroundSynchronization=_hasDoneBackgroundSynchronization;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *hostname;
-@property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isActive;
-@property _Bool isFirstTimeSync;
-@property(readonly, nonatomic) _Bool isGmailAccount;
-@property(readonly) _Bool isYahooAccount;
-@property(readonly, copy) NSString *machineID;
-@property(readonly, nonatomic, getter=isManaged) _Bool managed;
-@property long long messageDeletionPolicy;
-@property(readonly, copy) NSString *oauthToken;
-@property(readonly, copy) NSString *oneTimePassword;
-@property(copy) NSString *password;
-@property long long portNumber;
-@property(retain) ECAuthScheme *preferredAuthScheme;
-@property(readonly) _Bool primaryiCloudAccount;
-@property(readonly, nonatomic) NSOperationQueue *remoteFetchQueue;
-@property(readonly, nonatomic) NSOperationQueue *remoteTaskQueue;
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-@property(readonly, copy, nonatomic) NSString *saslProfileName;
-@property long long securityLayerType;
-@property _Bool shouldUseAuthentication;
-@property(readonly, copy, nonatomic) NSArray *standardPorts;
-@property(readonly, copy, nonatomic) NSArray *standardSSLPorts;
-@property(readonly, copy, nonatomic) NSString *statisticsKind;
-@property(readonly) Class superclass;
-@property(readonly) ACAccount *systemAccount;
-@property(readonly, copy) NSString *username;
-@property _Bool usesSSL;
 
 @end
 

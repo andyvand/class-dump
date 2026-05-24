@@ -7,13 +7,6 @@
 @interface AppStoreKit.BaseCollectionViewCell
 {
     id layoutMargins;
-    id contentView;
-    id backgroundView;
-    id selectedBackgroundView;
-    id separatorSupplementaryView;
-    id componentSeparator;
-    id isSelected;
-    id highlightState;
 }
 
 - (id);
@@ -21,7 +14,7 @@
 - (id);
 - (id)á1Â0@ù
 × ;
-- (void)reviousState;
+- (void)previousState;
 - (void)GG¤ÎÑ	yNßÑ	GG;
 
 // Remaining properties

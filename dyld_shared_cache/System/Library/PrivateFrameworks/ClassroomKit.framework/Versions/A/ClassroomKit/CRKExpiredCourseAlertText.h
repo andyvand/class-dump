@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKCourse, NSString;
+@class CRKCourse;
 
 @interface CRKExpiredCourseAlertText
 {
@@ -21,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *acknowledgeOptionTitle;
 @property(readonly, nonatomic) CRKCourse *course; // @synthesize course=_course;
-@property(readonly, nonatomic) NSString *message;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

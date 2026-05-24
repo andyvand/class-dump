@@ -11,30 +11,20 @@ __attribute__((visibility("hidden")))
 @interface HMDMessageFilter
 {
     NSString *_name;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)B;
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id)DatabaseID",R,C,N;
-- (void)ting;
+- (void)HMDCompositeSetting;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

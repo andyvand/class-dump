@@ -9,37 +9,31 @@
 @interface PDSProtoBatchRegisterReq
 {
     long long _requestTtl;
-    NSMutableArray *_userPushTokenRegRequests;
-    struct {
-        unsigned int requestTtl:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)n't enumerate the next object in the model. Error:%{public}s /* Error: Ran out of types for this method. */;
+- (unsigned long long)@:Still has pending changes %{public}@ /* Error: Ran out of types for this method. */;
+- (id)}@:(unsigned long long)arg1 Finished checking album changes;
+- (id){public}@ due to reset sync.;
+- (void)ueuing comment check operation for asset collection GUID %{public}@ in album GUID %{public}@;
+- (void);
+- (void)e on asset collection GUID %{public}@ because it is the same as the previous state:(_Bool)arg1 %d;
+- (long long)m.;
+- (_Bool):%{public}s /* Error: Ran out of types for this method. */;
+- (void)lic}@:Could not create asset collection index. Error:%{public}s /* Error: Ran out of types for this method. */;
+- (void)not create invitation tables. Error:(id)arg1 %{public}s;
+- (id);
+- (void);
+- (void)dentityDelegate>",W,V_identityDelegate;
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestTtl;
-@property(nonatomic) long long requestTtl; // @synthesize requestTtl=_requestTtl;
 @property(retain, nonatomic) NSMutableArray *userPushTokenRegRequests; // @synthesize userPushTokenRegRequests=_userPushTokenRegRequests;
 
 @end

@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)L, __strong MapsSuggestionsEntryMapItemFetchCompletion _Nonnull);
 - (_Bool);
-- (void);
+- (void),;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *teamTaskings; // @synthesize teamTaskings=_teamTaskings;

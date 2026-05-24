@@ -8,5 +8,8 @@
 
 @protocol JetEngine.JSBagObjectExports__priv_CD4A13C520117F75F11731052EDCF02B
 - (JSValue *);
+- (JSValue *)P;
+- (JSValue *)@;
+- (JSValue *)em";
 @end
 

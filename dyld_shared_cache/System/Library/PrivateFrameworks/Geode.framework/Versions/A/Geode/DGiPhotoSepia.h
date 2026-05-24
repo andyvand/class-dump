@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoSepia
 {
     CIImage *inputImage;
-    NSNumber *inputIntensity;
 }
 
 + (void)DGSelectiveColorOperation;

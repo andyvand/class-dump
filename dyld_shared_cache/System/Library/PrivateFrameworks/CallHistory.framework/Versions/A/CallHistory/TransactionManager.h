@@ -6,15 +6,12 @@
 
 #import <CallHistory/CHSynchronizedLoggable.h>
 
-@class NSMutableArray, NSString, NSXPCConnection, NSXPCInterface;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface TransactionManager : CHSynchronizedLoggable
 {
     NSXPCConnection *_connection;
-    NSXPCInterface *_interface;
-    id _syncHelperReadyNotificationRef;
-    NSMutableArray *_queuedTransactions;
 }
 
 + (id);
@@ -28,13 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

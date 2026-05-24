@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface DAOofParams
 {
     int _oofState;
-    int _externalState;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSString *_message;
-    NSString *_externalMessage;
 }
 
 - (void);
@@ -28,21 +21,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)봉대가리;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)s;
+- (id)?;
 - (void);
 - (void)_workFaxPhone;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(retain, nonatomic) NSString *externalMessage; // @synthesize externalMessage=_externalMessage;
-@property(nonatomic) int externalState; // @synthesize externalState=_externalState;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
 @property(nonatomic) int oofState; // @synthesize oofState=_oofState;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol PXGadgetDelegate, PXGadgetProviderDelegate;
+@class NSArray;
 
 @interface PXGadgetProvider
 {
     _Bool _isPerformingChanges;
-    _Bool _invalidGadgets;
-    NSString *_identifier;
-    id <PXGadgetProviderDelegate> _delegate;
-    id <PXGadgetDelegate> _nextGadgetResponder;
-    NSArray *_gadgets;
 }
 
 - (void);
@@ -42,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˿;
 - (void);
 - (void);
 - (id);
@@ -50,28 +44,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)/A/CoreFoundation;
 - (void);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 - (id)$;
 - (void)GenerativeStoryTransitionIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXGadgetProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(copy) NSArray *gadgets; // @synthesize gadgets=_gadgets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool invalidGadgets; // @synthesize invalidGadgets=_invalidGadgets;
-@property(nonatomic) _Bool isPerformingChanges; // @synthesize isPerformingChanges=_isPerformingChanges;
-@property(nonatomic) __weak id <PXGadgetDelegate> nextGadgetResponder; // @synthesize nextGadgetResponder=_nextGadgetResponder;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,16 +15,16 @@
 
 + (double);
 + (double)item or chat for deletion.;
-- (void);
-- (void);
-- (void);
+- (void)ICDrawingHashtagsAndMentionsController;
+- (void)ICThumbnailDescription;
+- (void);
 - (id);
+- (void)LockedNotesView;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)lastInputToolbarStorage;
 - (struct CGSize);
-- (id)abberForBrowserTransitionCoordinator:(long long)arg1;
+- (id)appGrabberForBrowserTransitionCoordinator:(long long)arg1;
 - (void);
 
 // Remaining properties

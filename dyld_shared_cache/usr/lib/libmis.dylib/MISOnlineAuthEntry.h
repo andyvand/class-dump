@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MISOnlineAuthEntry
 {
     _Bool _isRejected;
-    _Bool _isRejectedByWholeProfile;
-    int _gracePeriod;
-    NSString *_profileUUID;
-    NSData *_cdHash;
-    long long _lastSuccessMonotonicTime;
-    long long _lastSuccessResetCount;
 }
 
 - (void);
@@ -33,22 +27,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)RIMARY KEY NOT NULL,v INTEGER);CREATE TABLE "realval"(k TEXT PRIMARY KEY NOT NULL,v REAL);CREATE TABLE "textval"(k TEXT PRIMARY KEY NOT NULL,v TEXT);CREATE TABLE "blobval"(k TEXT PRIMARY KEY NOT NULL,v BLOB);PRAGMA case_sensitive_like = true;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool) ;
 - (id);
 - (void);
-- (int);
+- (int)B;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *cdHash; // @synthesize cdHash=_cdHash;
-@property(nonatomic) int gracePeriod; // @synthesize gracePeriod=_gracePeriod;
-@property(nonatomic) _Bool isRejected; // @synthesize isRejected=_isRejected;
-@property(nonatomic) _Bool isRejectedByWholeProfile; // @synthesize isRejectedByWholeProfile=_isRejectedByWholeProfile;
-@property(nonatomic) long long lastSuccessMonotonicTime; // @synthesize lastSuccessMonotonicTime=_lastSuccessMonotonicTime;
-@property(nonatomic) long long lastSuccessResetCount; // @synthesize lastSuccessResetCount=_lastSuccessResetCount;
 @property(copy, nonatomic) NSString *profileUUID; // @synthesize profileUUID=_profileUUID;
 
 @end

@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSIndexSet, NSMutableArray, NSMutableIndexSet;
+@class NSMutableArray;
 
 @interface _MFRedundantTextIdentifierSolutionContext
 {
     NSMutableArray *_redundantRanges;
-    NSMutableIndexSet *_redundantAttachmentStartIndexes;
-    NSMutableArray *_attributionLineRanges;
-    _Bool _searchInForwardDirection;
-    _Bool _matchedEntireOriginalContiguously;
-    CDStruct_f9502b4c *_replyBuffer;
-    long long _replyStartIndex;
-    long long _replyLength;
-    CDStruct_f9502b4c *_originalBuffer;
-    long long _originalStartIndex;
-    long long _originalLength;
-    NSDictionary *_originalAttachmentContextsByURL;
-    NSDictionary *_replyAttachmentContextsByURL;
-    unsigned long long _startingIndexForRedundantRanges;
-    unsigned long long _startingIndexForAttributionLineRanges;
-    long long _lastIndexMatchedInOriginal;
-    long long _lastIndexMatchedInReply;
 }
 
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�		;
 - (void);
 - (void);
 - (void);
@@ -40,13 +24,14 @@
 - (long long);
 - (CDStruct_f9502b4c *);
 - (id);
-- (long long);
+- (long long)&H)
+;
 - (CDStruct_f9502b4c *);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -60,29 +45,13 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)setStorageDatabaseIdleInterval: /* Error: Ran out of types for this method. */;
+- (id)DC;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributionLineRanges;
-@property(nonatomic) long long lastIndexMatchedInOriginal; // @synthesize lastIndexMatchedInOriginal=_lastIndexMatchedInOriginal;
-@property(nonatomic) long long lastIndexMatchedInReply; // @synthesize lastIndexMatchedInReply=_lastIndexMatchedInReply;
-@property(nonatomic) _Bool matchedEntireOriginalContiguously; // @synthesize matchedEntireOriginalContiguously=_matchedEntireOriginalContiguously;
-@property(readonly, copy, nonatomic) NSDictionary *originalAttachmentContextsByURL; // @synthesize originalAttachmentContextsByURL=_originalAttachmentContextsByURL;
-@property(readonly, nonatomic) CDStruct_f9502b4c *originalBuffer; // @synthesize originalBuffer=_originalBuffer;
-@property(readonly, nonatomic) long long originalLength; // @synthesize originalLength=_originalLength;
-@property(nonatomic) long long originalStartIndex; // @synthesize originalStartIndex=_originalStartIndex;
-@property(readonly, copy, nonatomic) NSIndexSet *redundantAttachmentStartIndexes;
-@property(readonly, copy, nonatomic) NSArray *redundantRanges;
-@property(readonly, copy, nonatomic) NSDictionary *replyAttachmentContextsByURL; // @synthesize replyAttachmentContextsByURL=_replyAttachmentContextsByURL;
 @property(readonly, nonatomic) CDStruct_f9502b4c *replyBuffer; // @synthesize replyBuffer=_replyBuffer;
-@property(readonly, nonatomic) long long replyLength; // @synthesize replyLength=_replyLength;
-@property(nonatomic) long long replyStartIndex; // @synthesize replyStartIndex=_replyStartIndex;
-@property(nonatomic) _Bool searchInForwardDirection; // @synthesize searchInForwardDirection=_searchInForwardDirection;
-@property(nonatomic) unsigned long long startingIndexForAttributionLineRanges; // @synthesize startingIndexForAttributionLineRanges=_startingIndexForAttributionLineRanges;
-@property(nonatomic) unsigned long long startingIndexForRedundantRanges; // @synthesize startingIndexForRedundantRanges=_startingIndexForRedundantRanges;
 
 @end
 

@@ -6,25 +6,23 @@
 
 #import <Foundation/NSXMLDTDNode.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NSXMLAttributeDeclaration : NSXMLDTDNode
 {
     NSString *_elementName;
-    unsigned long long _defaultType;
-    NSMutableArray *_enumerations;
 }
 
-- (id);
+- (id)!;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (_Bool);
-- (id)m;
+- (id)AffineTransform;
 
 @end
 

@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)generate primary keys for batch insert;
+- (id)%@%lu BLOB;;
 - (id);
 - (unsigned long long);
 - (id);

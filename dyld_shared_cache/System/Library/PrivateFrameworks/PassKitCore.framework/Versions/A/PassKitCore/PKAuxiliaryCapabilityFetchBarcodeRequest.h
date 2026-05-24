@@ -6,22 +6,16 @@
 
 #import <PassKitCore/PKAuxiliaryCapabilityWebServiceRequest.h>
 
-@class NSArray, NSData, NSString, PKSecureElementSignatureInfo;
+@class NSString;
 
 @interface PKAuxiliaryCapabilityFetchBarcodeRequest : PKAuxiliaryCapabilityWebServiceRequest
 {
     NSString *_dpanIdentifier;
-    long long _barcodeCount;
-    NSString *_lastUsedBarcodeIdentifier;
-    NSArray *_encryptionCertificateChain;
-    long long _fetchReason;
-    NSData *_signatureData;
-    PKSecureElementSignatureInfo *_signatureInfo;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,16 +29,10 @@
 - (id);
 - (void);
 - (void);
-- (void)veDataConfiguration;
+- (void)liveDataConfiguration;
 
 // Remaining properties
-@property(nonatomic) long long barcodeCount; // @synthesize barcodeCount=_barcodeCount;
 @property(copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(copy, nonatomic) NSArray *encryptionCertificateChain; // @synthesize encryptionCertificateChain=_encryptionCertificateChain;
-@property(nonatomic) long long fetchReason; // @synthesize fetchReason=_fetchReason;
-@property(copy, nonatomic) NSString *lastUsedBarcodeIdentifier; // @synthesize lastUsedBarcodeIdentifier=_lastUsedBarcodeIdentifier;
-@property(copy, nonatomic) NSData *signatureData; // @synthesize signatureData=_signatureData;
-@property(retain, nonatomic) PKSecureElementSignatureInfo *signatureInfo; // @synthesize signatureInfo=_signatureInfo;
 
 @end
 

@@ -7,14 +7,12 @@
 @interface WidgetKit.TimelineRequest
 {
     id widget;
-    id environment;
-    id fileHandle;
 }
 
 + (_Bool);
+- (id)$Y;
 - (id);
-- (id);
-- (void);
+- (void)";
 - (void)bãÿÿÿÿÿH;
 
 @end

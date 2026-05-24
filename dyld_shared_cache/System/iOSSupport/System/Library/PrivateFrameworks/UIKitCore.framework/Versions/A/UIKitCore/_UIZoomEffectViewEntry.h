@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)fð1Â0@ù
 × ;
-- (void)escriptor;
-- (_Bool)dPopoverViewController;
+- (void)_UIGravityWellEffectDescriptor;
+- (_Bool)_UIDocumentMovedPopoverViewController;
 - (void)ES; ;
 
 // Remaining properties

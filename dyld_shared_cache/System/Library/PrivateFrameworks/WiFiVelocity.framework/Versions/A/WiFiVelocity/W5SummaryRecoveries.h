@@ -14,14 +14,14 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)C;
+- (id)ary/PrivateFrameworks/Espresso.framework/Versions/A/Espresso;
+- (unsigned long long)_volumeControlsFullscreenInternalSpacing;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)6@0:8@16@24@?32@?40d48 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

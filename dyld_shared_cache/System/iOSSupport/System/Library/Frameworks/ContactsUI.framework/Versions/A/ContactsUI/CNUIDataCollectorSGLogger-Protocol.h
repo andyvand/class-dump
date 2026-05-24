@@ -5,5 +5,7 @@
 //
 
 @protocol CNUIDataCollectorSGLogger
+- (void);
+- (void);
 @end
 

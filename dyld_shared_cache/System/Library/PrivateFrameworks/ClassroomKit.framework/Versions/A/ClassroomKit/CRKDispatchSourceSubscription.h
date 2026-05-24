@@ -10,7 +10,6 @@
 @interface CRKDispatchSourceSubscription
 {
     NSObject<OS_dispatch_source> *_source;
-    CDUnknownBlockType _handler;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) NSObject<OS_dispatch_source> *source; // @synthesize source=_source;
 
 @end

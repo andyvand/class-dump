@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol TUConversationLinkDescriptorDataSourceDelegate;
 
 @protocol TUConversationLinkDescriptorDataSource
+- (unsigned long long)B;
+- (unsigned long long)@;
+- (unsigned long long);
+- (NSArray *);
+- (id <TUConversationLinkDescriptorDataSourceDelegate>);
+- (void)_;
 
 // Remaining properties
 @property(retain, nonatomic) id <TUConversationLinkDescriptorDataSourceDelegate> conversationLinkDescriptorDataSourceDelegate;

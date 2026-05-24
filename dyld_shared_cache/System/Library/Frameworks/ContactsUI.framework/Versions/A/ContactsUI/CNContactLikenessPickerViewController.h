@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCardViewDataSource, CNAvatarViewController, CNContact, CNContactAvatarPersistenceHelper, CNLikeness, CNLikenessEditorPresentationController, CNUIMeContactMonitor, NSString;
-@protocol CNCancelable, CNContactLikenessPickerViewControllerDelegate;
+@class CNLikenessEditorPresentationController;
 
 @interface CNContactLikenessPickerViewController
 {
     _Bool _isMe;
-    CNContact *_contact;
-    AKCardViewDataSource *_dataSource;
-    CNContactAvatarPersistenceHelper *_persistenceHelper;
-    id <CNContactLikenessPickerViewControllerDelegate> _delegate;
-    CNLikenessEditorPresentationController *_editorPresentationController;
-    CNAvatarViewController *_avatarViewController;
-    id <CNCancelable> _currentLikenessToken;
-    CNLikeness *_likenessBeingEdited;
-    CNUIMeContactMonitor *_meContactMonitor;
 }
 
 - (void);
@@ -26,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,42 +26,26 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void));
 - (void);
 - (void);
 - (double);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)he.internal.axinspector;
 - (void);
-- (void);
-- (void);
+- (void)ounceTimerImpl18startDebounceTimerEvE3$_0FvvEEE;
+- (void)&;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property __weak CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) id <CNCancelable> currentLikenessToken; // @synthesize currentLikenessToken=_currentLikenessToken;
-@property(retain, nonatomic) AKCardViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactLikenessPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain) CNLikenessEditorPresentationController *editorPresentationController; // @synthesize editorPresentationController=_editorPresentationController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(retain, nonatomic) CNLikeness *likenessBeingEdited; // @synthesize likenessBeingEdited=_likenessBeingEdited;
-@property(retain, nonatomic) CNUIMeContactMonitor *meContactMonitor; // @synthesize meContactMonitor=_meContactMonitor;
-@property(retain, nonatomic) CNContactAvatarPersistenceHelper *persistenceHelper; // @synthesize persistenceHelper=_persistenceHelper;
-@property(readonly) Class superclass;
 
 @end
 

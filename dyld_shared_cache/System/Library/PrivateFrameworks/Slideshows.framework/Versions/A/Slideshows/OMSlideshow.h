@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, NSArray, NSDictionary, NSMutableDictionary, NSNumber, NSString, NSURL, OKDocument, OMSlideshowTheme;
-@protocol OMSlideshowEditingDelegate, OMSlideshowMediaItemLookupDelegate;
+@class MPDocument, NSURL;
 
 @interface OMSlideshow
 {
     MPDocument *_marimbaDocument;
-    OKDocument *_opusDocument;
-    NSMutableDictionary *_mediaItems;
-    NSArray *_synopsis;
-    NSArray *_itemMap;
-    NSDictionary *_restoredMarimbaCustomDurations;
-    NSDictionary *_restoredMarimbaSubtitles;
-    NSNumber *_restoredMarimbaSeed;
-    NSArray *_restoredOpusGuidelines;
-    NSMutableDictionary *_mediaAttributes;
-    _Bool _wantsIris;
-    struct {
-        unsigned int isLoaded:1;
-        unsigned int deferSynopsisUpdateDelegateCall:1;
-        unsigned int synopsisUpdateDelegateCallWasDeferred:1;
-    } _flags;
-    NSURL *_url;
-    OMSlideshowTheme *_theme;
-    id <OMSlideshowEditingDelegate> _editingDelegate;
-    id <OMSlideshowMediaItemLookupDelegate> _mediaItemLookupDelegate;
-    NSDictionary *_subtitles;
-    double _minDuration;
-    double _maxDuration;
-    double _duration;
 }
 
-+ (id);
++ (id)SessionData;
 + (id);
 + (id);
 + (id);
@@ -43,15 +19,15 @@
 + (void);
 + (_Bool);
 + (void)È0\;
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGImage *);
 - (struct CGImage *);
-- (struct CGSize);
-- (void);
+- (struct CGSize)NewsArticleViewer;
+- (void)_;
 - (void);
 - (struct CGImage *);
 - (void);
@@ -61,59 +37,59 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)trackEventWithPropertyValues:(id)arg1;
+- (void)setSubmissionQueue:(id)arg1;
+- (void)setSchedulingAndForegroundUploadThrottler:(id)arg1;
+- (void)setBackgroundSessionLaunchEventCounter:(id)arg1;
+- (id)initWithLowWaterMark:(id)arg1 highWaterMark:alwaysFlushKeysWithZeroInterest: /* Error: Ran out of types for this method. */;
+- (_Bool)assetStore;
+- (unsigned long long)_maxPayloadSize;
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)e %@, taskDescription %@;
+- (_Bool)ancelling background task with taskDescription %@;
+- (_Bool)for task with description %@, error %@;
+- (id)stateful;
+- (unsigned long long)genderConfidenceLevel;
+- (void)isPersonalizedAdsEnabled;
+- (id)sportsDataService;
+- (id)/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssemblerUtilities.m;
+- (id)ticipatedForContentType:(id)arg1 ];
+- (id)icsEnvelopeTracker registerEnvelopeCreationAnticipatedForContentType:(id)arg1 ];
+- (id)or"16;
+- (id)alyticsPayloadAssemblerConfigProvider.m;
+- (void)chAnalyticsEnvelopeContentTypeConfigsWithCompletion:] /* Error: Ran out of types for this method. */;
+- (void)ppedEnvelopeReasonsToUpload containsObject:@(NDAnalyticsPayloadAssemblerDroppedEnvelopeReasonMissingConfigForContentType)] /* Error: Ran out of types for this method. */;
+- (id)stUploadDatesByContentType:(id)arg1 completion:(id)arg2 ];
+- (id)NDAnalyticsPayloadAssembler determinePayloadDeliveryWindowForEntries:(id)arg1 withLastUploadDatesByContentType:(id)arg2 completion:] /* Error: Ran out of types for this method. */;
+- (id)dsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
+- (id)hes/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
+- (id)CE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
+- (void)?0@"NTPBEnvelope"8;
+- (_Bool)thAppConfigurationManager:] /* Error: Ran out of types for this method. */;
+- (id)e-store;
+- (void)NSArray"8@"NSArray"16;
+- (void)alyticsEnvelopeManager initWithAppConfigurationManager:telemetryUploader:storeDirectoryFileURL:URLSessionQueue:] /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
 - (void);
+- (id)?;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)4<;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Ư;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -136,22 +112,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property id <OMSlideshowEditingDelegate> editingDelegate; // @synthesize editingDelegate=_editingDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isLoaded;
-@property(readonly) double maxDuration; // @synthesize maxDuration=_maxDuration;
-@property id <OMSlideshowMediaItemLookupDelegate> mediaItemLookupDelegate; // @synthesize mediaItemLookupDelegate=_mediaItemLookupDelegate;
-@property(readonly) double minDuration; // @synthesize minDuration=_minDuration;
-@property(readonly) NSDictionary *subtitles; // @synthesize subtitles=_subtitles;
-@property(readonly) Class superclass;
-@property(readonly) _Bool synopsisSupportsMultipleItemsPerGroup;
-@property(readonly) OMSlideshowTheme *theme; // @synthesize theme=_theme;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

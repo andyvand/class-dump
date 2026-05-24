@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSFullScreenWindowZoomController
 {
     NSWindow *_window;
-    struct _UINSDisplayConfig _launchDisplayConfig;
-    struct _UINSDisplayConfig _lastDisplayConfig;
 }
 
 - (void);

@@ -7,8 +7,6 @@
 @interface SystemAdministrationInterface.PasswordPolicy
 {
     id id;
-    id satisfied;
-    id contentDescription;
 }
 
 @end

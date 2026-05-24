@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, WBSSQLiteDatabase;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface WBSContentBlockerStatisticsSQLiteStore
 {
     NSURL *_databaseURL;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSSQLiteDatabase *_database;
 }
 
 + (id);
@@ -30,7 +27,7 @@
 - (_Bool);
 - (long long);
 - (long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -45,13 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

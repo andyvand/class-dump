@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject;
-@protocol MTLDevice, OS_dispatch_semaphore;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface VNCIContextsHandler
 {
     id <MTLDevice> _metalDevice;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    struct os_unfair_lock_s _contextsLock;
-    NSMutableArray *_freeContexts;
-    NSMutableSet *_inUseContexts;
 }
 
 - (void)rRecipient;

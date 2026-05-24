@@ -6,33 +6,27 @@
 
 #import <NeutrinoCore/NUAbstractScaleNode.h>
 
-@class NUSubsampleNode;
-
 @interface NUResampleNode : NUAbstractScaleNode
 {
     long long _subsampleFactor;
-    long long _sampleMode;
-    NUSubsampleNode *_subsampleNode;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2);
 - (id);
 - (long long);
-- (long long);
+- (long long)__DATA_CONST;
 - (void)â°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) long long sampleMode; // @synthesize sampleMode=_sampleMode;
 @property(readonly) long long subsampleFactor; // @synthesize subsampleFactor=_subsampleFactor;
-@property(readonly) NUSubsampleNode *subsampleNode; // @synthesize subsampleNode=_subsampleNode;
 
 @end
 

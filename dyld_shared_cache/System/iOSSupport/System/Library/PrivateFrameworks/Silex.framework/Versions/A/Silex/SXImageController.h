@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableOrderedSet, SXColumnLayout, SXDocumentController;
+@class NSDictionary, SXDocumentController;
 
 @interface SXImageController
 {
     NSDictionary *_imageResourcesGroupedByImageIdentifier;
-    NSDictionary *_image2ResourcesGroupedByImageIdentifier;
-    SXDocumentController *_documentController;
-    SXColumnLayout *_columnLayout;
-    NSMutableOrderedSet *_optimalImageResources;
-    NSMutableDictionary *_optimalImageResourcesByID;
-    struct CGSize _viewportSize;
 }
 
 - (struct CGSize);
@@ -31,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)І;
 - (id);
 - (id);
 - (id);
@@ -41,24 +35,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)9;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void)8{?=QQ}16;
-- (id)epareShadow:(id)arg1;
+- (id)prepareShadow:(id)arg1;
 - (id)er;
 
 // Remaining properties
-@property(readonly, nonatomic) SXColumnLayout *columnLayout; // @synthesize columnLayout=_columnLayout;
 @property(readonly, nonatomic) __weak SXDocumentController *documentController; // @synthesize documentController=_documentController;
-@property(readonly, nonatomic) NSDictionary *image2ResourcesGroupedByImageIdentifier; // @synthesize image2ResourcesGroupedByImageIdentifier=_image2ResourcesGroupedByImageIdentifier;
-@property(readonly, nonatomic) NSDictionary *imageResourcesGroupedByImageIdentifier; // @synthesize imageResourcesGroupedByImageIdentifier=_imageResourcesGroupedByImageIdentifier;
-@property(readonly, nonatomic) NSMutableOrderedSet *optimalImageResources; // @synthesize optimalImageResources=_optimalImageResources;
-@property(readonly, nonatomic) NSMutableDictionary *optimalImageResourcesByID; // @synthesize optimalImageResourcesByID=_optimalImageResourcesByID;
-@property(readonly, nonatomic) struct CGSize viewportSize; // @synthesize viewportSize=_viewportSize;
 
 @end
 

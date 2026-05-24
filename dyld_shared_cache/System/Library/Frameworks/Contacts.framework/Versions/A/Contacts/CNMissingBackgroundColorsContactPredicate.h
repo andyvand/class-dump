@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (id);
-- (id);
+- (id)atm_Registration_Attempt;
 - (id);
 - (unsigned long long);
 - (_Bool);

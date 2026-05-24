@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface SGTaggedCharacterRange
 {
     unsigned long long _annotationType;
-    NSArray *_tags;
-    NSString *_text;
-    struct _NSRange _range;
 }
 
 + (id);
 + (id);
++ (id)__objc_methname;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
++ (id)r";
++ (id)IndexSet"32;
++ (id)tableView:(id)arg1 pasteboardWriterForRow:(id)arg2;
++ (unsigned long long)shouldPromptForAuthInWindow:(id)arg1 forAccount:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)_password;
 + (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id)oreFoundation.dylib;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
+- (id);
+- (id)PasswordAssistantView;
+- (unsigned long long);
+- (id);
+- (id)_countryCode;
 - (struct _NSRange);
 - (_Bool);
 - (void);
@@ -43,9 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long annotationType; // @synthesize annotationType=_annotationType;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, nonatomic) NSArray *tags; // @synthesize tags=_tags;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

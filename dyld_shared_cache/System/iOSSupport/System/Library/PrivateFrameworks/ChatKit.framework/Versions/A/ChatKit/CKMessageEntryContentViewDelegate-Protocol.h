@@ -4,6 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMediaObject, CKMessageEntryContentView, IMPluginPayload, NSArray, NSString, UIInputSuggestion, UIView, UIViewController;
+@protocol CKGradientReferenceView;
+
 @protocol CKMessageEntryContentViewDelegate
+- (void)createSubattachmentForRecordingAndReturnError:(CKMessageEntryContentView *)arg1;
+- (void)createSubAttachmentFromDocument:(CKMessageEntryContentView *)arg1 imageCache:galleryAttachment: /* Error: Ran out of types for this method. */;
+- (void)createPaperDocumentForAttachment:(CKMessageEntryContentView *)arg1 fromLegacyMediaAtURL:(_Bool)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)createNoteForAirDropDocument:(CKMessageEntryContentView *)arg1 processAttributedString:completion: /* Error: Ran out of types for this method. */;
+- (void)createNoteForAirDropDocument:(CKMessageEntryContentView *)arg1 legacyContext:completion: /* Error: Ran out of types for this method. */;
+- (void)createMenuItem;
+- (_Bool)createMentionAttachmentIfApplicableWithMentionText:(CKMessageEntryContentView *)arg1 userRecordName:note:parentAttachment: /* Error: Ran out of types for this method. */;
+- (_Bool)createMarkdownStringFrom:(CKMessageEntryContentView *)arg1 context:rangeMapping: /* Error: Ran out of types for this method. */;
+- (_Bool):(CKMessageEntryContentView *)arg1 note:parentAttachment: /* Error: Ran out of types for this method. */;
+- (_Bool)createInlineAttachmentIfApplicableWithTypeUTI:(CKMessageEntryContentView *)arg1 altText:tokenContentIdentifier:note:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)createHashtagAttachmentIfApplicableWithHashtagText:(CKMessageEntryContentView *)arg1 forHashtag:note:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)parentAttachment:(CKMessageEntryContentView *)arg1;
+- (void)createDirectoryAtURL:(CKMessageEntryContentView *)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (void)createAndAddSubAttachmentsToGalleryAttachment:(CKMessageEntryContentView *)arg1 fromDocuments:imageCache:context: /* Error: Ran out of types for this method. */;
+- (void)countOfVisiblePasswordProtectedNotesInAccount:(CKMessageEntryContentView *)arg1;
+- (void)countOfModernAccounts;
+- (void)countOfDrawingsNeedingConversionInNote:(CKMessageEntryContentView *)arg1;
+- (void)countEvernoteNotesFromFileURL:(CKMessageEntryContentView *)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)countByEnumeratingWithState:(CKMessageEntryContentView *)arg1 objects:(_Bool)arg2 count:(_Bool)arg3;
+- (void)copyWithZone:(CKMessageEntryContentView *)arg1;
+- (void)copyValuesFromButton:(CKMessageEntryContentView *)arg1 toButton:(IMPluginPayload *)arg2;
+- (void)copyNSParagraphStylefromAttributes:(CKMessageEntryContentView *)arg1 toAttributes:(UIViewController *)arg2;
+- (void)copyDataForUTI:(CKMessageEntryContentView *)arg1 range:(_Bool)arg2 persistenceHelper: /* Error: Ran out of types for this method. */;
+- (_Bool)copyAttribute:(CKMessageEntryContentView *)arg1 fromAttributes:(NSArray *)arg2 toAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)convertToBuffer:(CKMessageEntryContentView *)arg1 error:(struct _NSRange)arg2 withInputFromBlock:(NSString *)arg3;
+- (void)convertSketchAttachment:(CKMessageEntryContentView *)arg1 toInlineDrawingAtRange:(CKMediaObject *)arg2 inNote: /* Error: Ran out of types for this method. */;
+- (void)convertSize:(CKMessageEntryContentView *)arg1 toView:(IMPluginPayload *)arg2;
+- (void)convertRect:(CKMessageEntryContentView *)arg1 toView:(UIInputSuggestion *)arg2;
+- (void)convertPoint:(CKMessageEntryContentView *)arg1 fromView:(NSString *)arg2;
+- (void)convertNSTablesToICTables:(CKMessageEntryContentView *)arg1 pasteboardTypes:(UIViewController *)arg2 filterPastedAttributes:isReadingSelectionFromPasteboard: /* Error: Ran out of types for this method. */;
+- (_Bool)convertLinkToAttachmentSystemImageName;
+- (UIView<CKGradientReferenceView> *)levantItemIdentifier;
+- (void)%@}%s:(CKMessageEntryContentView *)arg1 %d;
 @end
 

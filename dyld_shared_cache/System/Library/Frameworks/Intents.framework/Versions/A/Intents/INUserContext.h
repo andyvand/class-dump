@@ -12,14 +12,14 @@
 }
 
 + (_Bool);
-+ (long long)entResponseCodeUnspecified;
++ (long long)INCreateAlarmIntentResponseCodeUnspecified;
 - (void);
 - (void);
+- (id)"<GCGameIntentLauncherXPCClientInterface>"@"NSError">24;
 - (id);
-- (id);
+- (void)uto-join was triggered;
 - (void);
-- (void);
-- (void)ht;
+- (void)requiresAppLaunchPreflight;
 
 @end
 

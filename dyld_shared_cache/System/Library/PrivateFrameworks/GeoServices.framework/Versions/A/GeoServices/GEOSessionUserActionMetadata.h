@@ -9,8 +9,6 @@
 @interface GEOSessionUserActionMetadata
 {
     GEOPDSSessionUserActionMetadata *_actionMetadata;
-    double _analyticsShortSessionCreateTime;
-    GEOPDSSessionUserActionMetadata *_sessionUserActionMetadata;
 }
 
 - (id);

@@ -4,53 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSURL;
-@protocol TMMachineStoreInfo;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TMSessionVolumeStore
 {
     _Bool _isCaseSensitive;
-    NSString *_name;
-    NSURL *_url;
-    NSString *_volumeUUID;
-    NSString *_fstype;
-    NSString *_volumeGroupUUID;
-    NSNumber *_volumeRole;
-    NSDate *_dateBackupCompleted;
-    id <TMMachineStoreInfo> _machineStoreInfo;
 }
 
 - (id);
 - (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)d.managed;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) NSDate *dateBackupCompleted; // @synthesize dateBackupCompleted=_dateBackupCompleted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *fstype; // @synthesize fstype=_fstype;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isCaseSensitive; // @synthesize isCaseSensitive=_isCaseSensitive;
-@property(readonly) id <TMMachineStoreInfo> machineStoreInfo; // @synthesize machineStoreInfo=_machineStoreInfo;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSURL *url; // @synthesize url=_url;
-@property(readonly, copy) NSString *volumeGroupUUID; // @synthesize volumeGroupUUID=_volumeGroupUUID;
-@property(readonly, copy) NSNumber *volumeRole; // @synthesize volumeRole=_volumeRole;
-@property(readonly, copy) NSString *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
 
 @end
 

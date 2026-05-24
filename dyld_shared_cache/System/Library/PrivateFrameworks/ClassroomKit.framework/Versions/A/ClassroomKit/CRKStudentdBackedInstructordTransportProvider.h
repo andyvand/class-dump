@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
 @protocol CRKRequestPerformingProtocol;
 
 @interface CRKStudentdBackedInstructordTransportProvider
 {
     id <CRKRequestPerformingProtocol> _studentDaemonProxy;
-    NSURL *_classroomAppBundleURL;
-    NSString *_instructordBundleIdentifier;
 }
 
 - (id);
@@ -29,16 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *classroomAppBundleURL; // @synthesize classroomAppBundleURL=_classroomAppBundleURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *instructordBundleIdentifier; // @synthesize instructordBundleIdentifier=_instructordBundleIdentifier;
 @property(retain, nonatomic) id <CRKRequestPerformingProtocol> studentDaemonProxy; // @synthesize studentDaemonProxy=_studentDaemonProxy;
-@property(readonly) Class superclass;
 
 @end
 

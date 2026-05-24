@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSData, NSString, PKEncryptedPushProvisioningTarget;
+@class PKEncryptedPushProvisioningTarget;
 
 @interface PKPaymentShareableCredential : PKPaymentCredential
 {
     _Bool _backgroundProvisioning;
-    PKEncryptedPushProvisioningTarget *_encryptedProvisioningTarget;
-    NSString *_sharingInstanceIdentifier;
-    NSData *_passThumbnailImageData;
-    long long _source;
-    NSData *_externalizedAuth;
 }
 
 + (_Bool)0@ù
@@ -23,30 +18,25 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Y;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ainLookupStart"b1"firstRead"b1"firstWrite"b1"isCellular"b1"resumeStart"b1"secureConnectionStart"b1"taskCreationStart"b1"timestamp"b1};
+- (void)V_tcpiSndWnd;
+- (void);
 - (long long);
 - (void)ompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBackgroundProvisioning) _Bool backgroundProvisioning; // @synthesize backgroundProvisioning=_backgroundProvisioning;
 @property(readonly, nonatomic) PKEncryptedPushProvisioningTarget *encryptedProvisioningTarget; // @synthesize encryptedProvisioningTarget=_encryptedProvisioningTarget;
-@property(retain, nonatomic) NSData *externalizedAuth; // @synthesize externalizedAuth=_externalizedAuth;
-@property(readonly, nonatomic) NSData *passThumbnailImageData; // @synthesize passThumbnailImageData=_passThumbnailImageData;
-@property(readonly, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
-@property(nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

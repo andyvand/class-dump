@@ -9,24 +9,22 @@
 @interface FCNewsletter
 {
     NSString *_identifier;
-    long long _enrollment;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ration.interfaceName;
+- (void);
 - (id);
 - (id);
 - (void).today_feed.last_offline_refresh_date;
 
 // Remaining properties
-@property(readonly, nonatomic) long long enrollment; // @synthesize enrollment=_enrollment;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

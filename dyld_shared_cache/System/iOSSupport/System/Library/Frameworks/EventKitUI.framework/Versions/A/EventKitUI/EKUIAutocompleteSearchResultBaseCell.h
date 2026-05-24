@@ -6,40 +6,32 @@
 
 #import <EventKitUI/EKUITableViewCellWithPrimaryAndSecondaryFonts.h>
 
-@class NSString;
-
 @interface EKUIAutocompleteSearchResultBaseCell : EKUITableViewCellWithPrimaryAndSecondaryFonts
 {
 }
 
-+ (double);
-+ (double);
-+ (double);
-+ (id);
++ (double)s;
++ (double)%s;
 + (double);
 + (id);
-+ (id);
++ (double)%s;
++ (id)f;
++ (id)f;
 - (double);
+- (double)s;
 - (double);
-- (double);
-- (void);
+- (void)%s;
+- (id);
 - (id);
-- (id);
 - (double);
-- (id);
+- (id)s;
 - (void);
 - (void);
-- (void);
+- (void)e;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

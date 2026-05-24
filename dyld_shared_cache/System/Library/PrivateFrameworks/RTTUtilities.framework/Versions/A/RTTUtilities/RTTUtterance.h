@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface RTTUtterance
 {
     _Bool _isMe;
-    _Bool _isTranscription;
-    _Bool _ignoreTimeoutTemporarily;
-    NSString *_contactPath;
-    NSString *_text;
-    NSString *_translatedText;
-    NSDate *_lastChangeDate;
 }
 
 + (id);
@@ -25,26 +19,26 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)T);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id)N5raven34h_VIOPositionArgs_RavenConvergenceE;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)l;
 - (void);
-- (_Bool);
+- (_Bool)prepareForStorageLocation:using:updatedModelIDs:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -52,12 +46,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contactPath; // @synthesize contactPath=_contactPath;
-@property(nonatomic) _Bool ignoreTimeoutTemporarily; // @synthesize ignoreTimeoutTemporarily=_ignoreTimeoutTemporarily;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(nonatomic) _Bool isTranscription; // @synthesize isTranscription=_isTranscription;
-@property(retain, nonatomic) NSDate *lastChangeDate; // @synthesize lastChangeDate=_lastChangeDate;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) NSString *translatedText; // @synthesize translatedText=_translatedText;
 
 @end
 

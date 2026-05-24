@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactCardFieldPickerDelegate
+- (void);
 @end
 

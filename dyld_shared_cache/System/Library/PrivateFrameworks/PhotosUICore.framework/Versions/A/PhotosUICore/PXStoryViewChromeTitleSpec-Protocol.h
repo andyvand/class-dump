@@ -5,14 +5,11 @@
 //
 
 @protocol PXStoryViewChromeTitleSpec
-- (long long)Coordinator;
+- (_Bool);
+- (long long)selectionCoordinator;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hidden;
-@property(readonly, nonatomic) struct NSEdgeInsets margins;
-@property(readonly, nonatomic) long long numberOfSubtitleLines;
 @property(readonly, nonatomic) long long numberOfTitleLines;
-@property(readonly, nonatomic) long long textAlignment;
 @end
 

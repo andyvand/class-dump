@@ -6,17 +6,12 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class NSString, WDCharacterRun, WMStyle;
+@class WDCharacterRun;
 
 __attribute__((visibility("hidden")))
 @interface WMCharacterRunMapper : CMMapper
 {
     WDCharacterRun *wdCharacterRun;
-    WMStyle *mStyle;
-    int mFontSizeBumpFactor;
-    NSString *mText;
-    _Bool mIsDeleted;
-    _Bool mIsInEmptyStylingParagraph;
 }
 
 + (void);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);

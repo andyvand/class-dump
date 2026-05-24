@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAssetCollection;
+@class NSString;
 
 @interface PXStoryPPTConfiguration
 {
     _Bool _useDefaultMemory;
-    NSString *_contentDescription;
-    PHAssetCollection *_assetCollection;
-    long long _collectionType;
-    unsigned long long _assetType;
-    unsigned long long _assetCount;
-    double _preferredStoryDuration;
-    unsigned long long _subpreset;
 }
 
 + (id);
 + (void);
 + (void);
-+ (void);
++ (void)@;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -29,25 +22,25 @@
 - (void);
 - (double);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)(;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)qA;
 - (id);
 - (id);
 - (id);
@@ -57,15 +50,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(nonatomic) unsigned long long assetCount; // @synthesize assetCount=_assetCount;
-@property(readonly, nonatomic) unsigned long long assetType; // @synthesize assetType=_assetType;
-@property(readonly, nonatomic) long long collectionType; // @synthesize collectionType=_collectionType;
 @property(readonly, nonatomic) NSString *contentDescription; // @synthesize contentDescription=_contentDescription;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) double preferredStoryDuration; // @synthesize preferredStoryDuration=_preferredStoryDuration;
-@property(nonatomic) unsigned long long subpreset; // @synthesize subpreset=_subpreset;
-@property(readonly, nonatomic) _Bool useDefaultMemory; // @synthesize useDefaultMemory=_useDefaultMemory;
 
 @end
 

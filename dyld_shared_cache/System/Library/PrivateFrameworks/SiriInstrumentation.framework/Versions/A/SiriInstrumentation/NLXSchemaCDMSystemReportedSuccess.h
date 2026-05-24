@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, USOSchemaUSOGraph;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSystemReportedSuccess : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    USOSchemaUSOGraph *_task;
-    _Bool _hasTaskId;
-    _Bool _hasTask;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)*b;
 - (void);
 - (void);
 - (_Bool);
@@ -27,9 +24,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)/libressl-2.2/crypto/x509/x509_obj.c;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Ǭ;
 - (_Bool);
 - (id);
 - (id)ù
@@ -41,10 +38,6 @@
 - (void)DHTSchemaDHTServerEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTask; // @synthesize hasTask=_hasTask;
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) USOSchemaUSOGraph *task; // @synthesize task=_task;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

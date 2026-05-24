@@ -5,5 +5,6 @@
 //
 
 @protocol RBSServiceDelegate
+- (void);
 @end
 

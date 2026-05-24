@@ -26,69 +26,28 @@ struct CloudKitAssetRecordAsset {
     unsigned char _field1[1];
 };
 
-struct CloudKitAssetRecordAssetBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
 struct CloudKitTreatmentRecordAsset {
     unsigned char _field1[1];
-};
-
-struct CloudKitTreatmentRecordAssetBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
 };
 
 struct FactorLevel {
     unsigned char _field1[1];
 };
 
-struct FactorLevelBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
 struct FactorMetadataKeyValue {
     unsigned char _field1[1];
-};
-
-struct FactorMetadataKeyValueBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
 };
 
 struct FastFactorLevels {
     unsigned char _field1[1];
 };
 
-struct FastFactorLevelsBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
-struct FlatBufferBuilder;
-
 struct MobileAssetReference {
     unsigned char _field1[1];
 };
 
-struct MobileAssetReferenceBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
 struct TrialManagedAsset {
     unsigned char _field1[1];
-};
-
-struct TrialManagedAssetBuilder {
-    struct FlatBufferBuilder *_field1;
-    unsigned int _field2;
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
 };
 
 struct passwd {

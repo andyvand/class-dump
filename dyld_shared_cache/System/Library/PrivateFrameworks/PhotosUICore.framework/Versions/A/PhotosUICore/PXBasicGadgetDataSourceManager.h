@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)tionSortKey;
+- (void)PHCollectionSortKey;
 - (id);
 - (void)â§ÿ7ÀS ?;
 

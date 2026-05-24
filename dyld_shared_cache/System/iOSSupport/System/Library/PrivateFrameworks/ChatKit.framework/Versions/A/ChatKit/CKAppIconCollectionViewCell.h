@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAppIconView, NSMutableArray, UIImageView;
+@class NSMutableArray;
 
 @interface CKAppIconCollectionViewCell
 {
     long long _appName;
-    NSMutableArray *_constraints;
-    CKAppIconView *_appContentView;
-    UIImageView *_appIconView;
 }
 
 + (id);
-- (void);
+- (void)n;
 - (void);
 - (id);
 - (id);
@@ -30,9 +27,6 @@
 - (void)+;
 
 // Remaining properties
-@property(retain, nonatomic) CKAppIconView *appContentView; // @synthesize appContentView=_appContentView;
-@property(retain, nonatomic) UIImageView *appIconView; // @synthesize appIconView=_appIconView;
-@property(nonatomic) long long appName; // @synthesize appName=_appName;
 @property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;
 
 @end

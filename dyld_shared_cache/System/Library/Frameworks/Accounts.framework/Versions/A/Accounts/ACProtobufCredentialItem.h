@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACProtobufDate, ACProtobufURL, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ACProtobufCredentialItem
 {
     NSString *_accountIdentifier;
-    NSMutableArray *_dirtyProperties;
-    ACProtobufDate *_expirationDate;
-    ACProtobufURL *_objectID;
-    NSString *_serviceName;
-    _Bool _isPersistent;
-    struct {
-        unsigned int isPersistent:1;
-    } _has;
 }
 
 + (Class);
@@ -25,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -42,10 +34,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)BSMutableKeyedSettings;
 - (id);
 - (void);
 - (id);
@@ -54,14 +46,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSMutableArray *dirtyProperties; // @synthesize dirtyProperties=_dirtyProperties;
-@property(retain, nonatomic) ACProtobufDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool hasExpirationDate;
-@property(nonatomic) _Bool hasIsPersistent;
-@property(readonly, nonatomic) _Bool hasObjectID;
-@property(nonatomic) _Bool isPersistent; // @synthesize isPersistent=_isPersistent;
-@property(retain, nonatomic) ACProtobufURL *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

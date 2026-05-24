@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface MNBatteryChargeInfo
 {
     unsigned long long _legIndex;
-    NSUUID *_routeID;
-    double _batteryChargeRemainingAtEndOfLeg;
-    double _batteryChargeRemainingAtEndOfRoute;
 }
 
-+ (_Bool);
++ (_Bool)t;
 - (id);
+- (double)=G4;
 - (double);
-- (double);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)AOSUIBeneficiaryRadioListViewSelectorDelegate;
 - (void):8@"NSUUID"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double batteryChargeRemainingAtEndOfLeg; // @synthesize batteryChargeRemainingAtEndOfLeg=_batteryChargeRemainingAtEndOfLeg;
-@property(readonly, nonatomic) double batteryChargeRemainingAtEndOfRoute; // @synthesize batteryChargeRemainingAtEndOfRoute=_batteryChargeRemainingAtEndOfRoute;
 
 @end
 

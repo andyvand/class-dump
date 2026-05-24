@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _MRLanguageOptionProtobuf
 {
     NSMutableArray *_characteristics;
-    NSString *_displayName;
-    NSString *_identifier;
-    NSString *_languageTag;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 + (Class);
@@ -24,39 +19,31 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (int);
+- (id)`;
+- (int)ntGeneratePreviewContact;
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)AFLocationSnapshot:(int)arg1:accessState /* Error: Ran out of types for this method. */;
+- (id):speechEndHostTime:context:preferences:delegate:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (_Bool)40;
-- (void)lapsedTimeTimestamp:(_Bool)arg1;
-- (void)eviceID;
-- (void)OutputDeviceChanged: /* Error: Ran out of types for this method. */;
+- (void)setElapsedTimeTimestamp:(_Bool)arg1;
+- (void)_virtualDeviceID;
+- (void)_notifyOutputDeviceChanged: /* Error: Ran out of types for this method. */;
 - (id)d changed <%{public}@> to <%@> in <%{public}@>;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *characteristics; // @synthesize characteristics=_characteristics;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLanguageTag;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *languageTag; // @synthesize languageTag=_languageTag;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PHPhotoLibrary;
+@class NSArray;
 
 @interface PXAddUnverifiedPeopleActionPerformer
 {
     NSArray *_selectedPeopleToAdd;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (void);
@@ -17,21 +16,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id)¼òÿ¯TTá=;
 - (void)R´ø@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 @property(retain, nonatomic) NSArray *selectedPeopleToAdd; // @synthesize selectedPeopleToAdd=_selectedPeopleToAdd;
-@property(readonly) Class superclass;
 
 @end
 

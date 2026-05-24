@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
++ (id)e;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ta %@;
++ (id)D;
++ (id);
 + (id);
 + (double);
 + (id);

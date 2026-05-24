@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVCaptureConnection, AVCapturePointCloudDataOutput, AVPointCloudData;
+
 @protocol AVCapturePointCloudDataOutputDelegate
+
+@optional
+- (void)initWithBytesNoCopy:(AVCapturePointCloudDataOutput *)arg1 length:(AVPointCloudData *)arg2 encoding:(CDStruct_1b6d18a9)arg3 freeWhenDone:(AVCaptureConnection *)arg4;
+- (void)initWithBundleIdentifier:(AVCapturePointCloudDataOutput *)arg1 flags:(AVPointCloudData *)arg2 reason:(CDStruct_1b6d18a9)arg3 name:(AVCaptureConnection *)arg4;
 @end
 

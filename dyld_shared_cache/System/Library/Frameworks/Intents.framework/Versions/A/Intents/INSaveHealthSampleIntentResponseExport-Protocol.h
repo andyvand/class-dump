@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, NSArray, NSString;
+@class NSString;
 
 @protocol INSaveHealthSampleIntentResponseExport
-- (long long)on;
+- (NSString *)z�?;
+- (long long)hasRestaurantLocation;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *defaultUnit;
-@property(copy) NSString *punchoutUrl;
-@property(copy) INDateComponentsRange *recordDate;
-@property(copy) NSArray *sampleUuids;
-@property(copy) NSString *userProvidedUnit;
-@property(copy) NSArray *valuesDefaultUnits;
-@property(copy) NSArray *valuesUserProvidedUnits;
 @end
 

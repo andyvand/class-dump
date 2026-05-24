@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSPersistentStoreCoordinator, NSString, NSURL, VSOptional;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface VSSubscriptionPersistentContainer
 {
     _Bool _didSetupPersistence;
-    _Bool _skipMigration;
-    NSOperationQueue *_migrationQueue;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    VSOptional *_viewContext;
-    NSString *_persistentStoreType;
-    NSURL *_persistentStoreURL;
-    NSURL *_subscriptionsPropertyListURL;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -34,24 +27,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)p;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void)× ;
-- (void)hainEditingContext;
-- (id);
+- (void)_keychainEditingContext;
+- (id)min: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool didSetupPersistence; // @synthesize didSetupPersistence=_didSetupPersistence;
 @property(retain, nonatomic) NSOperationQueue *migrationQueue; // @synthesize migrationQueue=_migrationQueue;
-@property(retain, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
-@property(copy, nonatomic) NSString *persistentStoreType; // @synthesize persistentStoreType=_persistentStoreType;
-@property(copy, nonatomic) NSURL *persistentStoreURL; // @synthesize persistentStoreURL=_persistentStoreURL;
-@property(nonatomic) _Bool skipMigration; // @synthesize skipMigration=_skipMigration;
-@property(copy, nonatomic) NSURL *subscriptionsPropertyListURL; // @synthesize subscriptionsPropertyListURL=_subscriptionsPropertyListURL;
-@property(retain, nonatomic) VSOptional *viewContext; // @synthesize viewContext=_viewContext;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRPinnedListBackgroundView
 {
     id fillViewCornerRadius;
-    id selectionBorderWidth;
-    id isSelected;
-    id fillView;
-    id borderView;
-    id needsUpdateRadius;
 }
 
 - (id);

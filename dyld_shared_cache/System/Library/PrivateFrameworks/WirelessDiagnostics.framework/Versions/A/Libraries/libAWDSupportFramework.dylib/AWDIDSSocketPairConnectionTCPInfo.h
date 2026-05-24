@@ -7,22 +7,13 @@
 @interface AWDIDSSocketPairConnectionTCPInfo
 {
     unsigned long long _bandwidth;
-    unsigned long long _currentRTT;
-    unsigned long long _timestamp;
-    unsigned int _linkType;
-    struct {
-        unsigned int bandwidth:1;
-        unsigned int currentRTT:1;
-        unsigned int timestamp:1;
-        unsigned int linkType:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
+- (_Bool)R	];
+- (_Bool)j!;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -45,14 +36,7 @@
 - (unsigned int)ëÇn{;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bandwidth; // @synthesize bandwidth=_bandwidth;
-@property(nonatomic) unsigned long long currentRTT; // @synthesize currentRTT=_currentRTT;
-@property(nonatomic) _Bool hasBandwidth;
-@property(nonatomic) _Bool hasCurrentRTT;
-@property(nonatomic) _Bool hasLinkType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

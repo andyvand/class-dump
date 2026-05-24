@@ -7,17 +7,15 @@
 @interface GEOComposedRouteETAUPosition
 {
     CDStruct_3f2a7a20 _routeCoordinate;
-    double _timeSinceLastUpdate;
 }
 
-- (double);
-- (id);
+- (double)9;
+- (id)awaitWhileSpinningRunloopWithTimeout:(id)arg1;
 - (CDStruct_3f2a7a20);
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_3f2a7a20 routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
-@property(readonly, nonatomic) double timeSinceLastUpdate; // @synthesize timeSinceLastUpdate=_timeSinceLastUpdate;
 
 @end
 

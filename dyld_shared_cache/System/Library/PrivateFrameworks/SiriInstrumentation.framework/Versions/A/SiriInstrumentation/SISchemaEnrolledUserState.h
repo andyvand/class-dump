@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaPersonalization;
+@class NSString;
 
 @interface SISchemaEnrolledUserState : SISchemaInstrumentationMessage
 {
     NSString *_siriLinkedSpeechID;
-    SISchemaPersonalization *_personalization;
-    _Bool _hasSiriLinkedSpeechID;
-    _Bool _hasPersonalization;
 }
 
 - (id);
@@ -24,25 +21,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)A;
+- (id);
+- (id);
+- (id)!;
 - (void);
+- (unsigned long long)NSString",C,N,V_volumeID;
+- (_Bool)PickerLocalNotificationWatcher.m;
+- (_Bool));
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)dActionStatementId;
-- (id)e;
-- (void);
+- (id)deleteCancelledActionStatementId;
+- (id)_conversationalOdldScore;
+- (void)MHVOICETRIGGERSECONDPASSREJECTREASON_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPersonalization; // @synthesize hasPersonalization=_hasPersonalization;
-@property(nonatomic) _Bool hasSiriLinkedSpeechID; // @synthesize hasSiriLinkedSpeechID=_hasSiriLinkedSpeechID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaPersonalization *personalization; // @synthesize personalization=_personalization;
 @property(copy, nonatomic) NSString *siriLinkedSpeechID; // @synthesize siriLinkedSpeechID=_siriLinkedSpeechID;
 
 @end

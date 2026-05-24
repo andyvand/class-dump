@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface RFImageElement
 {
@@ -12,29 +12,20 @@
 }
 
 + (_Bool);
-- (id);
+- (id)isHomeSharingLibrary;
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)shouldUseFileIdentifierForBundleScope:(id)arg1;
+- (id)videoCaptionVersion;
 - (id);
 - (id);
 - (void)terCommand",&,N,V_fillToolParameterCommand;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *sources; // @synthesize sources=_sources;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,29 +9,25 @@
 @interface STPersonContactHandle
 {
     NSString *_handle;
-    NSString *_label;
-    unsigned long long _type;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)	;
+- (_Bool)qm;
 - (id);
-- (id);
+- (id)4/;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (void);
-- (id);
+- (id)TranslationCircuitBreaker;
 - (void);
 - (void)hasTwoShotAudioPlaybackRequest"b1"hasDeviceSetupFlowBeginDate"b1"hasDeviceSetupFlowEndDate"b1"hasCarOwnsMainAudio"b1"hasIsEyesFreeDevice"b1};
-- (void)ontmost;
-- (void)marParseCandidate:(id)arg1:isComplete /* Error: Ran out of types for this method. */;
+- (void)_frontmost;
+- (void)AFVoiceCommandGrammarParseCandidate:(id)arg1:isComplete /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

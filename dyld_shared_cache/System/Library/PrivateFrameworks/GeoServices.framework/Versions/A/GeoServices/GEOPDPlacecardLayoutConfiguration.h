@@ -9,12 +9,11 @@
 @interface GEOPDPlacecardLayoutConfiguration
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_entries;
 }
 
 + (id);
 + (Class);
-+ (_Bool)LaneWidths:(id)arg1;
++ (_Bool)setIncludeLaneWidths:(id)arg1;
 - (unsigned long long);
 - (void);
 - (id);
@@ -23,24 +22,23 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)%{public}.3f, twoShotDecisionWaitSamples = %{public}tu (%{public}.3f);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (void);
 - (id)ion"16@0:(struct _NSZone *)arg1 8;
-- (id)cesCount;
+- (id)_mapFeatureLibraryFavoritesGuideSavedPlacesCount;
 - (id);
 - (id)8p0qLrPsøs¼y|zH{;
-- (id)t;
+- (id)address_recommendation_result;
 - (void)FB[Î¥"F@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *entries;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

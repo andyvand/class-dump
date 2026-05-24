@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAirline, _INPBAirportGate, _INPBDateTimeRange;
+@class _INPBAirline;
 
 @interface _INPBFlight
 {
     struct _has;
-    _INPBAirline *_airline;
-    _INPBAirportGate *_arrivalAirportGate;
-    _INPBDateTimeRange *_boardingTime;
-    _INPBAirportGate *_departureAirportGate;
-    _INPBDateTimeRange *_flightDuration;
-    NSString *_flightNumber;
 }
 
 + (_Bool);
@@ -34,38 +28,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)PrivateFrameworks/AOSUI.framework/AOSUI;
+- (id)UP~;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)%{public}s:(id)arg1 %u) 'networkID' is NULL;
 - (id);
 - (id);
-- (void)strictionEnabled;
+- (void)INSearchForMessagesIntentResponseCodeFailureScreenTimeRestrictionEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAirline *airline; // @synthesize airline=_airline;
-@property(retain, nonatomic) _INPBAirportGate *arrivalAirportGate; // @synthesize arrivalAirportGate=_arrivalAirportGate;
-@property(retain, nonatomic) _INPBDateTimeRange *boardingTime; // @synthesize boardingTime=_boardingTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _INPBAirportGate *departureAirportGate; // @synthesize departureAirportGate=_departureAirportGate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDateTimeRange *flightDuration; // @synthesize flightDuration=_flightDuration;
-@property(copy, nonatomic) NSString *flightNumber; // @synthesize flightNumber=_flightNumber;
-@property(readonly, nonatomic) _Bool hasAirline;
-@property(readonly, nonatomic) _Bool hasArrivalAirportGate;
-@property(readonly, nonatomic) _Bool hasBoardingTime;
-@property(readonly, nonatomic) _Bool hasDepartureAirportGate;
-@property(readonly, nonatomic) _Bool hasFlightDuration;
-@property(readonly, nonatomic) _Bool hasFlightNumber;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

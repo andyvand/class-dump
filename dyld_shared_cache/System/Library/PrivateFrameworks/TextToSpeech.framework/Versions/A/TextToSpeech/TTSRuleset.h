@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber, NSString, TTSRegex;
+@class TTSRegex;
 
 @interface TTSRuleset
 {
     TTSRegex *_activationRegex;
-    unsigned long long _priority;
-    NSString *_identifier;
-    NSMutableArray *_ruleReplacements;
 }
 
 + (id);
@@ -34,10 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TTSRegex *activationRegex; // @synthesize activationRegex=_activationRegex;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSNumber *ruleCount;
-@property(retain, nonatomic) NSMutableArray *ruleReplacements; // @synthesize ruleReplacements=_ruleReplacements;
 
 @end
 

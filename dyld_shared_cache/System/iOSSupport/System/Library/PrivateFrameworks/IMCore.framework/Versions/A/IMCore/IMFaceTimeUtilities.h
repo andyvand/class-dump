@@ -13,8 +13,8 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
-+ (void);
++ (_Bool)H;
++ (void)qH;
 + (void);
 + (id);
 + (_Bool);

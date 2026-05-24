@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PRLexiconGroup
 {
     _Bool _cachedOnly;
-    NSString *_localization;
-    NSArray *_lexicons;
 }
 
 - (id);
@@ -22,8 +20,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool cachedOnly; // @synthesize cachedOnly=_cachedOnly;
-@property(readonly, copy) NSArray *lexicons; // @synthesize lexicons=_lexicons;
 @property(readonly, copy) NSString *localization; // @synthesize localization=_localization;
 
 @end

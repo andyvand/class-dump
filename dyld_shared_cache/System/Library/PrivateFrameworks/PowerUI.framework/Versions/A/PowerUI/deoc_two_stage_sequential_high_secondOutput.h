@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface deoc_two_stage_sequential_high_secondOutput
 {
     long long _target;
-    NSDictionary *_classProbability;
 }
 
 - (void);
@@ -23,8 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)c_curr_dynamic_bin_8;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long target; // @synthesize target=_target;
 
 @end

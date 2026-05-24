@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNeuralRecognizerConfiguration, NSDictionary, NSNumber, NSString, NSURL;
-
 @interface CRTextSequenceRecognizerModel
 {
     int *_codemapArray;
-    unsigned long long _codemapSize;
-    long long _ctcBlankLabelIndex;
-    NSDictionary *_outputShape;
-    NSNumber *_outputWidthDownscale;
-    NSNumber *_outputWidthOffset;
-    NSNumber *_outputFormatVersion;
-    CRNeuralRecognizerConfiguration *_configuration;
 }
 
 + (id);
@@ -28,35 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (unsigned long long);
-- (int *);
+- (int *);
 - (struct TextBoxesOffsets);
 - (void);
-- (id);
+- (id)safari_isDictionaryHotKeyEvent;
 - (void);
 - (id);
 - (void)16@0:8 /* Error: Ran out of types for this method. */;
-- (id)ci;
+- (id)merci;
 
 // Remaining properties
 @property(readonly, nonatomic) int *codemapArray; // @synthesize codemapArray=_codemapArray;
-@property(readonly, nonatomic) unsigned long long codemapSize; // @synthesize codemapSize=_codemapSize;
-@property(readonly, nonatomic) CRNeuralRecognizerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) long long ctcBlankLabelIndex; // @synthesize ctcBlankLabelIndex=_ctcBlankLabelIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURL *modelURL;
-@property(readonly, nonatomic) NSNumber *outputFormatVersion; // @synthesize outputFormatVersion=_outputFormatVersion;
-@property(readonly, nonatomic) NSDictionary *outputShape; // @synthesize outputShape=_outputShape;
-@property(readonly, nonatomic) NSNumber *outputWidthDownscale; // @synthesize outputWidthDownscale=_outputWidthDownscale;
-@property(readonly, nonatomic) NSNumber *outputWidthOffset; // @synthesize outputWidthOffset=_outputWidthOffset;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportCharacterBoxes;
 
 @end
 

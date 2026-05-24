@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDReference, EDResources, EDWorksheet, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDColumnInfo
 {
     EDResources *mResources;
-    EDWorksheet *mWorksheet;
-    int mWidth;
-    _Bool mHidden;
-    EDReference *mRange;
-    unsigned long long mStyleIndex;
-    unsigned char mOutlineLevel;
 }
 
 + (id);
 - (int);
 - (unsigned long long);
-- (void);
+- (void))	;
 - (void);
 - (void);
 - (void);
 - (unsigned char);
-- (id);
+- (id)k";
 - (id);
 - (id);
 - (long long);
@@ -41,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

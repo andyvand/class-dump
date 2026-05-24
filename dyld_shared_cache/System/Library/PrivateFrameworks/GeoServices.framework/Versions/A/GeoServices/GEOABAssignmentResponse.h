@@ -4,53 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABClientConfig, GEOABSecondPartyPlaceRequestClientMetaData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOABAssignmentResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_assignments;
-    unsigned long long _branchExpirationTtlHours;
-    GEOABClientConfig *_clientConfig;
-    GEOABSecondPartyPlaceRequestClientMetaData *_mapsAbClientMetadata;
-    GEOABSecondPartyPlaceRequestClientMetaData *_parsecClientMetadata;
-    GEOABSecondPartyPlaceRequestClientMetaData *_rapClientMetadata;
-    unsigned long long _refreshIntervalSeconds;
-    NSString *_requestGuid;
-    GEOABSecondPartyPlaceRequestClientMetaData *_siriClientMetadata;
-    NSString *_sourceURL;
-    double _timestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _invalidatePoiCache;
-    _Bool _invalidateTileCache;
-    struct {
-        unsigned int has_branchExpirationTtlHours:1;
-        unsigned int has_refreshIntervalSeconds:1;
-        unsigned int has_timestamp:1;
-        unsigned int has_invalidatePoiCache:1;
-        unsigned int has_invalidateTileCache:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_assignments:1;
-        unsigned int read_clientConfig:1;
-        unsigned int read_mapsAbClientMetadata:1;
-        unsigned int read_parsecClientMetadata:1;
-        unsigned int read_rapClientMetadata:1;
-        unsigned int read_requestGuid:1;
-        unsigned int read_siriClientMetadata:1;
-        unsigned int read_sourceURL:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)tingsDirectionsWakeDevice:(id)arg1;
++ (_Bool)setHasMapSettingsDirectionsWakeDevice:(id)arg1;
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
 - (unsigned long long);
@@ -60,27 +26,27 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)_handleJarvisVoiceTriggerFromDeviceId:(id)arg1 activationInfo:triggerHostTime:completion: /* Error: Ran out of types for this method. */;
+- (void)eProfileRetrainManager _retrainingVoiceProfile:(unsigned long long)arg1 voiceProfile:asset:secureAsset:] /* Error: Ran out of types for this method. */;
+- (void)arkService runVTSecondPassModelWithConfig:(_Bool)arg1 locale:withUrl:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
+- (void)`;
 - (void);
+- (id)!;
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)C	;
 - (double);
+- (_Bool)mber too big in {} quantifier;
 - (_Bool);
+- (void)y;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id)Touches;
 - (void);
 - (id);
 - (_Bool);
@@ -97,17 +63,17 @@
 - (void)0@ù
 × ;
 - (void)Ô ;
-- (void)playStringIndex:(double)arg1;
-- (_Bool)alPressure: /* Error: Ran out of types for this method. */;
-- (id)foForIdentifier:(struct _NSZone *)arg1 allowNetwork:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)eIndexesUsingBlock: /* Error: Ran out of types for this method. */;
+- (void)setLinkDisplayStringIndex:(double)arg1;
+- (_Bool)setHasThermalPressure: /* Error: Ran out of types for this method. */;
+- (id)loadAttributionInfoForIdentifier:(struct _NSZone *)arg1 allowNetwork:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)enumerateIndexesUsingBlock: /* Error: Ran out of types for this method. */;
 - (void)à°à á;
 - (id)°V;
 - (void)!ü!;
 - (_Bool)Ä<;
-- (id)g;
+- (id)Experiments_Debug;
 - (void)e per object;
-- (void)_id;
+- (void)feed_id;
 - (id);
 - (_Bool);
 - (id)to
@@ -202,32 +168,7 @@ deprecated (:false
 - (_Bool): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *assignments;
-@property(nonatomic) unsigned long long branchExpirationTtlHours;
-@property(retain, nonatomic) GEOABClientConfig *clientConfig;
-@property(nonatomic) _Bool hasBranchExpirationTtlHours;
-@property(readonly, nonatomic) _Bool hasClientConfig;
-@property(nonatomic) _Bool hasInvalidatePoiCache;
-@property(nonatomic) _Bool hasInvalidateTileCache;
-@property(readonly, nonatomic) _Bool hasMapsAbClientMetadata;
-@property(readonly, nonatomic) _Bool hasParsecClientMetadata;
-@property(readonly, nonatomic) _Bool hasRapClientMetadata;
-@property(nonatomic) _Bool hasRefreshIntervalSeconds;
-@property(readonly, nonatomic) _Bool hasRequestGuid;
-@property(readonly, nonatomic) _Bool hasSiriClientMetadata;
-@property(readonly, nonatomic) _Bool hasSourceURL;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool invalidatePoiCache;
-@property(nonatomic) _Bool invalidateTileCache;
-@property(retain, nonatomic) GEOABSecondPartyPlaceRequestClientMetaData *mapsAbClientMetadata;
-@property(retain, nonatomic) GEOABSecondPartyPlaceRequestClientMetaData *parsecClientMetadata;
-@property(retain, nonatomic) GEOABSecondPartyPlaceRequestClientMetaData *rapClientMetadata;
-@property(nonatomic) unsigned long long refreshIntervalSeconds;
-@property(retain, nonatomic) NSString *requestGuid;
-@property(retain, nonatomic) GEOABSecondPartyPlaceRequestClientMetaData *siriClientMetadata;
-@property(retain, nonatomic) NSString *sourceURL;
-@property(nonatomic) double timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface SoundAnalysis.SNAudioRecordingQueue
 {
     id recordFormat;
-    id audioQueueConfiguration;
-    id session;
-    id dispatchQueue;
-    id bufferHandler;
-    id interruptionHandler;
-    id running;
-    id audioQueue;
-    id aqCallbackScheduler;
 }
 
 @end

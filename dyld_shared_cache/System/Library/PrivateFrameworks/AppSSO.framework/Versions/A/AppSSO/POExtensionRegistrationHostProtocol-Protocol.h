@@ -5,5 +5,8 @@
 //
 
 @protocol POExtensionRegistrationHostProtocol
+- (void);
+- (void);
+- (void);
 @end
 

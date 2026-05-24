@@ -4,59 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, MOEffectiveSettingsStore, NSBox, NSButton, NSImageView, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSView, STManagementState, STPasscodeField;
-@protocol MOCancellable;
+@class NSImageView;
 
 @interface STBlockingViewController
 {
     _Bool _changePolicyButtonHidden;
-    _Bool _fullScreenBehavior;
-    _Bool _showingPolicyOptions;
-    CDUnknownBlockType _okButtonHandler;
-    CDUnknownBlockType _addContactHandler;
-    NSImageView *_hourglassView;
-    NSImageView *_communicationLimitView;
-    NSTextField *_titleLabel;
-    NSTextField *_messageLabel;
-    NSButton *_okButton;
-    NSButton *_ignoreLimitButton;
-    NSButton *_askForMoreTimeButton;
-    NSButton *_enterScreenTimePasscodeButton;
-    NSButton *_addContactButton;
-    NSView *_passcodeContainerView;
-    STPasscodeField *_passcodeField;
-    NSTextField *_passcodeErrorLabel;
-    NSButton *_oneMoreMinuteButton;
-    NSLayoutConstraint *_oneMoreMinuteButtonWidthConstraint;
-    NSButton *_ignoreFor15MinutesButton;
-    NSButton *_ignoreForTodayButton;
-    NSBox *_horizontalDivider;
-    NSTextField *_sendRequestLabel;
-    NSButton *_sendRequestButton;
-    NSButton *_approveFor15MinutesButton;
-    NSButton *_approveForHourButton;
-    NSButton *_approveForTodayButton;
-    NSButton *_cancelButton;
-    NSStackView *_optionsStackView;
-    NSLayoutConstraint *_stackViewBottomConstraint;
-    NSLayoutConstraint *_stackViewTopConstraint;
-    long long _policy;
-    NSString *_formattedContactHandle;
-    CNContactStore *_contactStore;
-    STManagementState *_managementState;
-    NSString *_categoryIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_webDomain;
-    MOEffectiveSettingsStore *_effectiveSettingsStore;
-    id <MOCancellable> _effectiveSettingsSubscription;
 }
 
++ (id)"5;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)i;
 - (void);
 - (_Bool);
 - (void);
@@ -77,14 +37,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)HL@9yHL;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -99,7 +59,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)2HO;
 - (id);
 - (id);
 - (id);
@@ -138,26 +98,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ͤ;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)k;
 - (id);
 - (id);
 - (void);
@@ -167,11 +127,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)authenticate:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -179,55 +139,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_zoomInOrOut: /* Error: Ran out of types for this method. */;
+- (id)ility/axperf_%@_%d_%@.csv;
 - (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSButton *addContactButton; // @synthesize addContactButton=_addContactButton;
-@property(copy) CDUnknownBlockType addContactHandler; // @synthesize addContactHandler=_addContactHandler;
-@property(retain) NSButton *approveFor15MinutesButton; // @synthesize approveFor15MinutesButton=_approveFor15MinutesButton;
-@property(retain) NSButton *approveForHourButton; // @synthesize approveForHourButton=_approveForHourButton;
-@property(retain) NSButton *approveForTodayButton; // @synthesize approveForTodayButton=_approveForTodayButton;
-@property(retain) NSButton *askForMoreTimeButton; // @synthesize askForMoreTimeButton=_askForMoreTimeButton;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy) NSString *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(nonatomic, getter=isChangePolicyButtonHidden) _Bool changePolicyButtonHidden; // @synthesize changePolicyButtonHidden=_changePolicyButtonHidden;
-@property(retain) NSImageView *communicationLimitView; // @synthesize communicationLimitView=_communicationLimitView;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly) MOEffectiveSettingsStore *effectiveSettingsStore; // @synthesize effectiveSettingsStore=_effectiveSettingsStore;
-@property(retain) id <MOCancellable> effectiveSettingsSubscription; // @synthesize effectiveSettingsSubscription=_effectiveSettingsSubscription;
-@property(retain) NSButton *enterScreenTimePasscodeButton; // @synthesize enterScreenTimePasscodeButton=_enterScreenTimePasscodeButton;
-@property(copy) NSString *formattedContactHandle; // @synthesize formattedContactHandle=_formattedContactHandle;
-@property _Bool fullScreenBehavior; // @synthesize fullScreenBehavior=_fullScreenBehavior;
-@property(retain) NSBox *horizontalDivider; // @synthesize horizontalDivider=_horizontalDivider;
 @property(retain) NSImageView *hourglassView; // @synthesize hourglassView=_hourglassView;
-@property(retain) NSButton *ignoreFor15MinutesButton; // @synthesize ignoreFor15MinutesButton=_ignoreFor15MinutesButton;
-@property(retain) NSButton *ignoreForTodayButton; // @synthesize ignoreForTodayButton=_ignoreForTodayButton;
-@property(retain) NSButton *ignoreLimitButton; // @synthesize ignoreLimitButton=_ignoreLimitButton;
-@property(readonly) STManagementState *managementState; // @synthesize managementState=_managementState;
-@property(retain) NSTextField *messageLabel; // @synthesize messageLabel=_messageLabel;
-@property(retain) NSButton *okButton; // @synthesize okButton=_okButton;
-@property(copy, nonatomic) CDUnknownBlockType okButtonHandler; // @synthesize okButtonHandler=_okButtonHandler;
-@property(retain) NSButton *oneMoreMinuteButton; // @synthesize oneMoreMinuteButton=_oneMoreMinuteButton;
-@property(retain) NSLayoutConstraint *oneMoreMinuteButtonWidthConstraint; // @synthesize oneMoreMinuteButtonWidthConstraint=_oneMoreMinuteButtonWidthConstraint;
-@property(retain) NSStackView *optionsStackView; // @synthesize optionsStackView=_optionsStackView;
-@property(retain) NSView *passcodeContainerView; // @synthesize passcodeContainerView=_passcodeContainerView;
-@property(retain) NSTextField *passcodeErrorLabel; // @synthesize passcodeErrorLabel=_passcodeErrorLabel;
-@property(retain) STPasscodeField *passcodeField; // @synthesize passcodeField=_passcodeField;
-@property long long policy; // @synthesize policy=_policy;
-@property(retain) NSButton *sendRequestButton; // @synthesize sendRequestButton=_sendRequestButton;
-@property(retain) NSTextField *sendRequestLabel; // @synthesize sendRequestLabel=_sendRequestLabel;
-@property(readonly) _Bool shouldAllowOneMoreMinute;
-@property(readonly) _Bool shouldRequestMoreTime;
-@property(getter=isShowingPolicyOptions) _Bool showingPolicyOptions; // @synthesize showingPolicyOptions=_showingPolicyOptions;
-@property(retain) NSLayoutConstraint *stackViewBottomConstraint; // @synthesize stackViewBottomConstraint=_stackViewBottomConstraint;
-@property(retain) NSLayoutConstraint *stackViewTopConstraint; // @synthesize stackViewTopConstraint=_stackViewTopConstraint;
-@property(retain) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(copy) NSString *webDomain; // @synthesize webDomain=_webDomain;
 
 @end
 

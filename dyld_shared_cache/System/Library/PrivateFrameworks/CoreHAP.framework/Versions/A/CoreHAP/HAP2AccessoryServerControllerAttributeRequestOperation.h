@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ry:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)readValueForCharacteristic:timeout:expiry:completionQueue:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

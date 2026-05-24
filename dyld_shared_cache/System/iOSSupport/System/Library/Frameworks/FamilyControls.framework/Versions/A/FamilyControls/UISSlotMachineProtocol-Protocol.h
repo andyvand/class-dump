@@ -5,5 +5,6 @@
 //
 
 @protocol UISSlotMachineProtocol
+- (void)e;
 @end
 

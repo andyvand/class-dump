@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchQuery, ICRankingQueriesDefinition, NSArray, NSDictionary, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 @interface ICSearchQuery
 {
     _Bool _wasForceStopped;
-    _Bool _modernResultsOnly;
-    ICRankingQueriesDefinition *_rankingQueriesDefinition;
-    NSObject<OS_dispatch_semaphore> *_synchronousSemaphore;
-    CSSearchQuery *_searchQuery;
-    NSMutableDictionary *_mutableQueryResults;
-    NSArray *_externalRankingQueries;
 }
 
 + (id);
-- (id);
+- (id)g returned unexpected type;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -32,30 +26,23 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id), "%s";
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)$;
 - (id);
 - (_Bool);
-- (id);
+- (id)t;
 - (void);
 - (double), hasPassphrase:%@, hasKeys:%@, hasDivergedKey:%@, hasDivergedKeys:%@, includeAllAuthenticatedObjects:%@, isUserInitiated:%@> /* Error: Ran out of types for this method. */;
-- (void)ionBlock;
+- (void)recordZoneFetchCompletionBlock;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *externalRankingQueries; // @synthesize externalRankingQueries=_externalRankingQueries;
-@property(readonly, nonatomic) _Bool modernResultsOnly; // @synthesize modernResultsOnly=_modernResultsOnly;
-@property(retain, nonatomic) NSMutableDictionary *mutableQueryResults; // @synthesize mutableQueryResults=_mutableQueryResults;
-@property(readonly, nonatomic) NSDictionary *queryResults;
-@property(retain, nonatomic) ICRankingQueriesDefinition *rankingQueriesDefinition; // @synthesize rankingQueriesDefinition=_rankingQueriesDefinition;
-@property(retain, nonatomic) CSSearchQuery *searchQuery; // @synthesize searchQuery=_searchQuery;
 @property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *synchronousSemaphore; // @synthesize synchronousSemaphore=_synchronousSemaphore;
-@property(nonatomic) _Bool wasForceStopped; // @synthesize wasForceStopped=_wasForceStopped;
 
 @end
 

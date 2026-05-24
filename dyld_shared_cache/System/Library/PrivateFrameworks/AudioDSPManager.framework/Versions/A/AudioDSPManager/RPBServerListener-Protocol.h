@@ -5,5 +5,8 @@
 //
 
 @protocol RPBServerListener
+
+@optional
+- (void);
 @end
 

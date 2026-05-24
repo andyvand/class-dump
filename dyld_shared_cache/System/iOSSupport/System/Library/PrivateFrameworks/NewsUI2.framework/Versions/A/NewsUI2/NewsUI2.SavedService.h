@@ -7,15 +7,10 @@
 @interface NewsUI2.SavedService
 {
     id observers;
-    id readingList;
-    id headlineStreamingResults;
-    id articleController;
-    id headlineModelFactory;
-    id headlineService;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void)AudioHistoryFeedRemovalRequest;
 

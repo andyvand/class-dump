@@ -6,16 +6,13 @@
 
 #import <HomeKit/HMCameraSource.h>
 
-@class NSArray, NSDate, NSString;
-
 @interface HMCameraSnapshot : HMCameraSource
 {
     _Bool _didFillSlot;
-    NSDate *_captureDate;
 }
 
-+ (id);
-+ (id)peBuilder;
++ (id)H;
++ (id)HMActionSetTypeBuilder;
 - (id);
 - (void);
 - (_Bool);
@@ -23,33 +20,15 @@
 - (void);
 - (id);
 - (void);
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)padHardwareKeyboard;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSDate *captureDate; // @synthesize captureDate=_captureDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool didFillSlot; // @synthesize didFillSlot=_didFillSlot;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSArray, NSData, NSDictionary, NSSet, NSString, _MRPlaybackQueueContextProtobuf;
+@class _MRPlaybackQueueContextProtobuf;
 
 @interface MRPlaybackQueue
 {
     _Bool _hasLocation;
-    long long _location;
-    NSString *_requestIdentifier;
-    NSString *_queueIdentifier;
-    NSArray *_contentItems;
-    NSDictionary *_properties;
-    NSDictionary *_auxiliaryNowPlayingInfo;
-    MRPlayerPath *_resolvedPlayerPath;
-    _MRPlaybackQueueContextProtobuf *_context;
-    NSSet *_homeUserIdentifiers;
 }
 
 + (_Bool);
@@ -31,11 +22,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_bigTimeViewController;
 - (void);
 - (id);
-- (id);
-- (struct _NSRange);
+- (id)setWasInterworked: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)f;
 - (id);
 - (id);
 - (void);
@@ -48,11 +39,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)woShot;
+- (void)ntContext:(id)arg1 completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)ion;
+- (id)e=%@, interpretation=%@;
+- (id)UICommandHandle;
 - (void);
 - (id);
 - (id);
@@ -60,30 +51,15 @@
 - (id);
 - (void)0@ù
 × ;
-- (id)DOverride;
+- (id)uniqueIDOverride;
 - (id)setPopulatesExternalDevice: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)setCommandSequenceUUID: /* Error: Ran out of types for this method. */;
 - (void)",R,N;
 - (_Bool)`p;
 - (void)´2;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *auxiliaryNowPlayingInfo; // @synthesize auxiliaryNowPlayingInfo=_auxiliaryNowPlayingInfo;
-@property(readonly, copy, nonatomic) NSArray *contentItemIdentifiers;
-@property(copy, nonatomic) NSArray *contentItems; // @synthesize contentItems=_contentItems;
 @property(copy, nonatomic) _MRPlaybackQueueContextProtobuf *context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool hasLocation; // @synthesize hasLocation=_hasLocation;
-@property(copy, nonatomic) NSSet *homeUserIdentifiers; // @synthesize homeUserIdentifiers=_homeUserIdentifiers;
-@property(nonatomic) long long location; // @synthesize location=_location;
-@property(readonly, copy, nonatomic) NSString *minimalReadableDescription;
-@property(readonly, copy, nonatomic) NSDictionary *nowPlayingInfo;
-@property(copy, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(copy, nonatomic) NSString *queueIdentifier; // @synthesize queueIdentifier=_queueIdentifier;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(retain, nonatomic) MRPlayerPath *resolvedPlayerPath; // @synthesize resolvedPlayerPath=_resolvedPlayerPath;
 
 @end
 

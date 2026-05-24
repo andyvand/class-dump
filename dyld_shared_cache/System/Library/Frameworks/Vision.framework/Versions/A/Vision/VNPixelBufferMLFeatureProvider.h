@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol MLFeatureProvider;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface VNPixelBufferMLFeatureProvider
 {
     struct __CVBuffer *_pixelBuffer;
-    NSString *_imageInputKey;
-    id <MLFeatureProvider> _originalFeatureProvider;
 }
 
 - (id);
 - (void);
 - (id);
-- (void)tectionprintGeneratorType;
+- (void)VNCSUDetectionprintGeneratorType;
 - (id);
 
 // Remaining properties

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class REMClockElementList;
-@protocol REMReplicaManagerClient;
-
 @interface REMReplicaEntry
 {
     _Bool _inUse;
-    unsigned int _replicaUUIDIndex;
-    REMClockElementList *_clockElementList;
-    id <REMReplicaManagerClient> _client;
 }
 
 - (void);
@@ -33,9 +27,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) id <REMReplicaManagerClient> client; // @synthesize client=_client;
-@property(retain, nonatomic) REMClockElementList *clockElementList; // @synthesize clockElementList=_clockElementList;
-@property(nonatomic) _Bool inUse; // @synthesize inUse=_inUse;
 @property(nonatomic) unsigned int replicaUUIDIndex; // @synthesize replicaUUIDIndex=_replicaUUIDIndex;
 
 @end

@@ -9,8 +9,6 @@
 @interface AMSUIDynamicImpressionMetricsIdentifier
 {
     NSString *_element;
-    long long _index;
-    NSString *_parent;
 }
 
 - (id);
@@ -19,14 +17,12 @@
 - (long long);
 - (id)!XBùÐ1Â0@ù
 × ;
-- (void)sageFontDictionary: /* Error: Ran out of types for this method. */;
+- (void)set_messageFontDictionary: /* Error: Ran out of types for this method. */;
 - (void)=y=Å=G_Î}=Qo_þÁ=ySbGG_AAy`Ó@ALGtGGtGG=G;
 - (void):(long long)arg1 /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices;
 
 // Remaining properties
 @property(retain) NSString *element; // @synthesize element=_element;
-@property long long index; // @synthesize index=_index;
-@property(retain) NSString *parent; // @synthesize parent=_parent;
 
 @end
 

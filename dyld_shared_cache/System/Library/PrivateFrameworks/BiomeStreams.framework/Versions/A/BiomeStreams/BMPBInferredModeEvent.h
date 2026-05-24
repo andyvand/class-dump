@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface BMPBInferredModeEvent
 {
     double _absoluteTimestamp;
-    double _confidenceScore;
-    unsigned long long _uiLocation;
-    NSString *_modeIdentifier;
-    int _modeType;
-    int _origin;
-    NSString *_originAnchorType;
-    NSString *_originBundleId;
-    NSMutableArray *_serializedTriggers;
-    NSString *_userModeName;
-    NSString *_uuid;
-    _Bool _isAutomationEnabled;
-    _Bool _isStart;
-    _Bool _shouldSuggestTriggers;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int confidenceScore:1;
-        unsigned int uiLocation:1;
-        unsigned int modeType:1;
-        unsigned int origin:1;
-        unsigned int isAutomationEnabled:1;
-        unsigned int isStart:1;
-        unsigned int shouldSuggestTriggers:1;
-    } _has;
 }
 
 + (Class);
@@ -41,10 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,17 +46,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (double);
-- (int);
-- (_Bool);
+- (_Bool)CAudioFrameFormat={AudioStreamBasicDescription=dIIIIIIII}I}d{?=qiIq}{?=qiIq}I^{tagVCRealTimeThread}{tagVCAudioReceiverReportingTask=^{opaqueRTCReporting}i^{tagHANDLE}B}BB{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_mutex_t=q[56c]}{tagVCAudioDecoderList=^{tagDecoderSettings}I}I{tagVCAudioReceiverStatistics=AIIIIIQQQfAIAIAIAIAIAIAIAI}^{tagWRMMetricsInfo}^?{tagVCAudioReceiverCallbackContext=^v^?^?}^?{tagVCAudioReceiverCallbackContext=^v^?^?}I[2{_RTCPPacketList=(tagNTP=Q{?=II})C[10^{tagRTCPPACKET}]^{OpaqueCMBlockBuffer}*QI[1472C][12S]CBQ{?=^{_RTCPPacketList}}}]dII[300{tagPacketHistoryInfo=ISIBB}]SS{_opaque_pthread_mutex_t=q[56c]}^{tagVCAudioReceiverStream}SSdBSS{_VCAudioCodecModeChangeEvent=iiiI{EVSRFParams=II}}BSSSIBBQB^v^?^?^?^?^{tagVCJBTargetEstimatorSynchronizer}{tagVCJitterBufferWRMReportingMetrics=IIIIQQII}^vBdiddId^{tagVCAudioIssueDetector}ii[128I][128I]IIIi^{tagVCAudioDump}{tagVCAudioDumpPayloadInfo=BiBB^{AudioStreamBasicDescription}}BB^{tagVCAudioFrameDelay}dq^{tagVCOverlaySource}BdIdB{tagVCAudioReceiverInactiveFrameDetectionInfo=BBIf}B}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)supportedVideoRulesSizesForBitrate:(int)arg1 transportType:payload:encodingType: /* Error: Ran out of types for this method. */;
+- (double)streamDidInterruptionEnd: /* Error: Ran out of types for this method. */;
+- (int)setupLocalRateControlTestGroupSwitches;
+- (_Bool)v;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)k;
 - (void);
 - (double);
 - (unsigned long long);
@@ -89,7 +64,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)replaceImage:(id)arg1 metaData:uuid: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (int);
@@ -98,39 +73,13 @@
 - (void);
 - (id);
 - (void);
-- (void)xecute_stmt;
-- (void)ighlightType;
+- (void)execute_stmt;
+- (void)highlightType;
 - (_Bool)T;
 - (void)²³;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(nonatomic) double confidenceScore; // @synthesize confidenceScore=_confidenceScore;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasIsAutomationEnabled;
-@property(nonatomic) _Bool hasIsStart;
-@property(readonly, nonatomic) _Bool hasModeIdentifier;
-@property(nonatomic) _Bool hasModeType;
-@property(nonatomic) _Bool hasOrigin;
-@property(readonly, nonatomic) _Bool hasOriginAnchorType;
-@property(readonly, nonatomic) _Bool hasOriginBundleId;
-@property(nonatomic) _Bool hasShouldSuggestTriggers;
-@property(nonatomic) _Bool hasUiLocation;
-@property(readonly, nonatomic) _Bool hasUserModeName;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(nonatomic) _Bool isAutomationEnabled; // @synthesize isAutomationEnabled=_isAutomationEnabled;
-@property(nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(retain, nonatomic) NSString *modeIdentifier; // @synthesize modeIdentifier=_modeIdentifier;
-@property(nonatomic) int modeType; // @synthesize modeType=_modeType;
-@property(nonatomic) int origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) NSString *originAnchorType; // @synthesize originAnchorType=_originAnchorType;
-@property(retain, nonatomic) NSString *originBundleId; // @synthesize originBundleId=_originBundleId;
-@property(retain, nonatomic) NSMutableArray *serializedTriggers; // @synthesize serializedTriggers=_serializedTriggers;
-@property(nonatomic) _Bool shouldSuggestTriggers; // @synthesize shouldSuggestTriggers=_shouldSuggestTriggers;
-@property(nonatomic) unsigned long long uiLocation; // @synthesize uiLocation=_uiLocation;
-@property(retain, nonatomic) NSString *userModeName; // @synthesize userModeName=_userModeName;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

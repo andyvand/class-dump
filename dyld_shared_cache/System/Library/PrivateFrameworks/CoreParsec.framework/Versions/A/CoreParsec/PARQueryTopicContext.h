@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFQueryTopic;
+@class SFQueryTopic;
 
 @interface PARQueryTopicContext
 {
     SFQueryTopic *_topic;
-    NSString *_contextId;
 }
 
 + (_Bool);
-- (id);
+- (id)>:(id)arg1:(long long)arg2 KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebKit::ContentWorldIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
@@ -24,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contextId; // @synthesize contextId=_contextId;
-@property(readonly, nonatomic) long long index; // @dynamic index;
 @property(retain, nonatomic) SFQueryTopic *topic; // @synthesize topic=_topic;
 
 @end

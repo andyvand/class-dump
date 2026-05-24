@@ -9,22 +9,17 @@
 @interface CNUIColorButton
 {
     NSColor *_color;
-    NSImage *_defaultImage;
-    NSImage *_selectedImage;
-    NSImage *_focusedImage;
-    NSImage *_activatedImage;
-    double _wellDiamter;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (double);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -32,21 +27,16 @@
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize)	;
 - (id);
-- (id);
+- (id)etDataSource>",W,N,V_dataSource;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSImage *activatedImage; // @synthesize activatedImage=_activatedImage;
-@property(retain) NSColor *color; // @synthesize color=_color;
 @property(retain) NSImage *defaultImage; // @synthesize defaultImage=_defaultImage;
-@property(retain) NSImage *focusedImage; // @synthesize focusedImage=_focusedImage;
-@property(retain) NSImage *selectedImage; // @synthesize selectedImage=_selectedImage;
-@property double wellDiamter; // @synthesize wellDiamter=_wellDiamter;
 
 @end
 

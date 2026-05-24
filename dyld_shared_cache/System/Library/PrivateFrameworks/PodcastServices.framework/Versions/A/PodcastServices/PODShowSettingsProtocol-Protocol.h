@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long playOrder;
-@property(readonly, nonatomic) long long sortOrder;
 @end
 

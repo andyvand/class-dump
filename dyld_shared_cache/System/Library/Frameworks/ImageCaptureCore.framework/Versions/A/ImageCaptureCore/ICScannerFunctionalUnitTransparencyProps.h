@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface ICScannerFunctionalUnitTransparencyProps
 {
     NSMutableIndexSet *_supportedDocumentTypes;
-    unsigned long long _documentType;
 }
 
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long documentType; // @synthesize documentType=_documentType;
 @property(retain, nonatomic) NSMutableIndexSet *supportedDocumentTypes; // @synthesize supportedDocumentTypes=_supportedDocumentTypes;
 
 @end

@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNGeneratePersonSegmentationRequestConfiguration : VNStatefulRequestConfiguration
 {
     _Bool _useTiling;
-    _Bool _keepRawOutputMask;
-    unsigned int _outputPixelFormat;
-    float _minimumConfidence;
-    unsigned long long _qualityLevel;
 }
 
 - (_Bool);
@@ -22,19 +18,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (void)setCanSendWriteWithoutResponse:(unsigned int)arg1;
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int)onary"16@?0@"NSArray"8;
 - (float);
 - (id);
 - (id)X^;
 
 // Remaining properties
-@property(nonatomic) _Bool keepRawOutputMask; // @synthesize keepRawOutputMask=_keepRawOutputMask;
-@property(nonatomic) float minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
-@property(nonatomic) unsigned int outputPixelFormat; // @synthesize outputPixelFormat=_outputPixelFormat;
 @property(nonatomic) unsigned long long qualityLevel; // @synthesize qualityLevel=_qualityLevel;
-@property(nonatomic) _Bool useTiling; // @synthesize useTiling=_useTiling;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface MSUCatalog
 {
     NSURL *_URL;
-    unsigned long long _options;
-    long long _version;
-    NSArray *_products;
-    NSDate *_loadDate;
-    NSString *_testMode;
 }
 
 + (_Bool);
@@ -27,28 +22,16 @@
 - (void);
 - (id);
 - (long long);
-- (id);
-- (void);
+- (id)getMetadataForAllFormsInPageWithMainFrame:requestType:frames:formMetadata: /* Error: Ran out of types for this method. */;
+- (void)ask.hash}@" failed.;
 - (unsigned long long);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDate *loadDate; // @synthesize loadDate=_loadDate;
-@property unsigned long long options; // @synthesize options=_options;
-@property(retain) NSArray *products; // @synthesize products=_products;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *testMode; // @synthesize testMode=_testMode;
-@property long long version; // @synthesize version=_version;
 
 @end
 

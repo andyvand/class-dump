@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommandReference, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFAttribution
 {
     int _index;
-    _SFPBRFTextProperty *_title;
-    _SFPBRFTextProperty *_subtitle;
-    _SFPBRFVisualProperty *_image;
-    NSString *_localized_index;
-    NSString *_localized_separator;
-    NSString *_locale;
-    _SFPBCommandReference *_commandReference;
-    _SFPBRFTextProperty *_secondary_title;
 }
 
 - (void);
@@ -33,14 +25,14 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)ganizationSettingsRestrictionUtility found Apps rating; derived Image Creation restriction value %lld;
 - (id);
-- (void);
+- (void)ControllerHostConnection:(id)arg1 %@ transaction:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)projectExtensionIdentifier;
+- (id)ollection;
 - (id);
 - (id);
 - (int);
@@ -49,22 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommandReference *commandReference; // @synthesize commandReference=_commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBRFVisualProperty *image; // @synthesize image=_image;
-@property(nonatomic) int index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSString *localized_index; // @synthesize localized_index=_localized_index;
-@property(copy, nonatomic) NSString *localized_separator; // @synthesize localized_separator=_localized_separator;
-@property(retain, nonatomic) _SFPBRFTextProperty *secondary_title; // @synthesize secondary_title=_secondary_title;
-@property(retain, nonatomic) _SFPBRFTextProperty *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *title; // @synthesize title=_title;
 
 @end

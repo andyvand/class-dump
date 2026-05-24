@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UITextView;
+
 @protocol UITextViewDelegate
+
+@optional
+- (void);
+- (void)j;
+- (void)tched %{public}s;
+- (void)enerated.cpp 1445:(UITextView *)arg1 Invalid message dispatched %{public}s;
+- (void)raryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/RemoteGraphicsContextGLFunctionsGenerated.cpp 1445:(UITextView *)arg1 Invalid message dispatched %{public}s;
+- (NSArray *)oots/4~CN9ougCMFlWK-bQ6x4VpErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/RemoteGraphicsContextGLFunctionsGenerated.cpp 1445:(UITextView *)arg1 Invalid message dispatched %{public}s;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber;
+@class NSArray;
 
 @interface _EARRecognitionMetrics
 {
     struct weak_ptr<quasar::SpeechRecognizer> _recognizer;
-    NSMutableArray *_mutableItnRunIntervals;
-    _Bool _isEmojiPersonalizationUsed;
-    _Bool _isEmojiDisambiguationUsed;
-    _Bool _isEmojiExpectedButNotRecognized;
-    NSArray *_pauseDurations;
-    NSNumber *_itnDurationInNs;
-    NSArray *_recognizedEmojis;
 }
 
 - (void);
@@ -28,20 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)ClassKit.framework/Versions/A/ClassKit;
+- (id)__DATA;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allItnRunIntervals;
-@property(readonly, nonatomic) _Bool isEmojiDisambiguationUsed; // @synthesize isEmojiDisambiguationUsed=_isEmojiDisambiguationUsed;
-@property(readonly, nonatomic) _Bool isEmojiExpectedButNotRecognized; // @synthesize isEmojiExpectedButNotRecognized=_isEmojiExpectedButNotRecognized;
-@property(readonly, nonatomic) _Bool isEmojiPersonalizationUsed; // @synthesize isEmojiPersonalizationUsed=_isEmojiPersonalizationUsed;
-@property(readonly, nonatomic) NSNumber *itnDurationInNs; // @synthesize itnDurationInNs=_itnDurationInNs;
-@property(readonly, copy, nonatomic) NSArray *pauseDurations; // @synthesize pauseDurations=_pauseDurations;
-@property(readonly, copy, nonatomic) NSArray *recognizedEmojis; // @synthesize recognizedEmojis=_recognizedEmojis;
 
 @end
 

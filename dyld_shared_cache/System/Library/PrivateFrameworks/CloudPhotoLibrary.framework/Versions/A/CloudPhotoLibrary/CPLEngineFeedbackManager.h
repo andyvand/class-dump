@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineLibrary, NSArray, NSDate, NSMutableArray, NSObject, NSString, NSURL;
-@protocol CPLEngineTransportSendFeedbackTask, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CPLEngineFeedbackManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <CPLEngineTransportSendFeedbackTask> _sendTask;
-    NSMutableArray *_messagesToSend;
-    NSArray *_messagesSending;
-    NSDate *_lastAttemptDate;
-    NSURL *_feedbackMessagesURL;
-    _Bool _opened;
-    _Bool _closed;
-    _Bool _deactivated;
-    NSString *_libraryIdentifier;
-    _Bool _disableFeedback;
-    CPLEngineLibrary *_engineLibrary;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void)O©ý{©ýôªöªóª÷ªø;
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
+- (void)f;
+- (void)I;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)ñ1Â0@ù
 × ;
@@ -50,15 +39,7 @@
 - (id)Pðÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool disableFeedback; // @synthesize disableFeedback=_disableFeedback;
-@property(readonly, nonatomic) __weak CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAttributedString;
 @protocol CKBalloonTextViewInteractionDelegate;
 
 @protocol CKBalloonTextViewProtocol
+- (struct CGSize)SRange=QQ}16;
+- (_Bool)"16B24;
+- (void)totalUnitCount;
+- (void)setExpectsMediaDataInRealTime:(_Bool)arg1;
+- (void)registerTextAttachmentViewProviderClass:(struct _NSRange)arg1 forFileType: /* Error: Ran out of types for this method. */;
+- (_Bool)_doneEdgeConstraint;
+- (id <CKBalloonTextViewInteractionDelegate>);
+
+@optional
+- (void)setOcrSummary:(NSAttributedString *)arg1;
 
 // Remaining properties
-@property(nonatomic, getter=isFakeSelected) _Bool fakeSelected;
 @property(nonatomic) __weak id <CKBalloonTextViewInteractionDelegate> interactionDelegate;
-@property(nonatomic) _Bool shouldAdjustInsetsForMinimumSize;
 @end
 

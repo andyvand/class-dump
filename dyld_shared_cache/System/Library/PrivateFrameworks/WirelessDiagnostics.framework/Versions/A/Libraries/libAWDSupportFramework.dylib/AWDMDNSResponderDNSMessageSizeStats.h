@@ -7,12 +7,9 @@
 @interface AWDMDNSResponderDNSMessageSizeStats
 {
     CDStruct_9f2792e4 _querySizeCounts;
-    CDStruct_9f2792e4 _responseSizeCounts;
-    unsigned long long _timestamp;
-    CDStruct_b5306035 _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned int *);
@@ -23,29 +20,24 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int *);
-- (void);
+- (unsigned int *);
+- (void);
 - (id);
-- (void);
+- (void)_A;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)i;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)5;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) unsigned int *querySizeCounts;
-@property(readonly, nonatomic) unsigned long long querySizeCountsCount;
-@property(readonly, nonatomic) unsigned int *responseSizeCounts;
-@property(readonly, nonatomic) unsigned long long responseSizeCountsCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -10,6 +10,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -17,23 +18,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)A;
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (struct CGColor *);
@@ -44,10 +44,10 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id)appleID;
 - (_Bool);
 - (void);
-- (void);
+- (void)hb;
 - (void),V_templates;
 - (_Bool)ûÿö»oi;
 @end

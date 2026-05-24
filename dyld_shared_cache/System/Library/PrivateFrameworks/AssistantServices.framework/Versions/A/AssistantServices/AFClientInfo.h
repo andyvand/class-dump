@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFClientInfo
 {
     int _processIdentifier;
-    NSString *_processName;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)SDecimalNumber",C,N,V_maxLoadAmount;
 - (id);
 - (id);
 - (id);
@@ -27,11 +24,10 @@
 - (void);
 - (id);
 - (int);
-- (void)DeviceContextMutability;
+- (void)AFServiceDeviceContextMutability;
 
 // Remaining properties
 @property(readonly, nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly, copy, nonatomic) NSString *processName; // @synthesize processName=_processName;
 
 @end
 

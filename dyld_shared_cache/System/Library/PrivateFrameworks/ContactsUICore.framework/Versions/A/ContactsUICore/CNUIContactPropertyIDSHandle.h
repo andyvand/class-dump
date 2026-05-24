@@ -9,7 +9,6 @@
 @interface CNUIContactPropertyIDSHandle
 {
     CNContactProperty *_contactProperty;
-    NSString *_idsID;
 }
 
 + (id);
@@ -23,19 +22,10 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)ions;
+- (void)subscriptions;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *_cnui_IDSIDRepresentation;
-@property(readonly, copy, nonatomic) CNContactProperty *contactProperty; // @synthesize contactProperty=_contactProperty;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *idsID; // @synthesize idsID=_idsID;
-@property(readonly) Class superclass;
 
 @end
 

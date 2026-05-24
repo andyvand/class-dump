@@ -6,16 +6,12 @@
 
 #import <HomeKitDaemon/HMDEvent.h>
 
-@class HMDCharacteristic, NSNumber, NSUUID;
+@class HMDCharacteristic;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicEventBase : HMDEvent
 {
     HMDCharacteristic *_characteristic;
-    NSUUID *_accessoryUUID;
-    NSNumber *_serviceID;
-    NSNumber *_characteristicInstanceID;
-    id _previousValue;
 }
 
 + (id);
@@ -29,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -46,11 +42,7 @@ __attribute__((visibility("hidden")))
 - (id)âÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
 @property(retain, nonatomic) HMDCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(readonly, nonatomic) NSNumber *characteristicInstanceID; // @synthesize characteristicInstanceID=_characteristicInstanceID;
-@property(retain, nonatomic) id previousValue; // @synthesize previousValue=_previousValue;
-@property(readonly, nonatomic) NSNumber *serviceID; // @synthesize serviceID=_serviceID;
 
 @end
 

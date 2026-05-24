@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSUUID, NSViewController, _MXExtension, _MXSerialQueue;
-@protocol _MXExtensionURLHandling;
+@class NSUUID, _MXSerialQueue;
 
 @interface _MXExtensionService
 {
     _MXSerialQueue *_serialQueue;
-    _Bool _didSendConnectionTerminationNotifcation;
-    NSUUID *_connectionIdentifier;
-    NSExtension *_realExtension;
-    _MXExtension *_extensionProxy;
-    unsigned long long _state;
-    id <_MXExtensionURLHandling> _URLHandlingDelegate;
-    NSViewController *_remoteViewController;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)xpcSendMessageWithReply:(id)arg1 withClientID:withKey:withPayload: /* Error: Ran out of types for this method. */;
+- (id)components:fromDate: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id)_CNObservableEventBufferingStrategy;
+- (id)VNImageAnalyzerMultiDetectorOption_EntityNetConfiguration;
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
@@ -49,16 +41,10 @@
 - (int);
 - (id);
 - (id);
-- (void)em: /* Error: Ran out of types for this method. */;
+- (void)shouldShowPhotosCallToActionForMapItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <_MXExtensionURLHandling> URLHandlingDelegate; // @synthesize URLHandlingDelegate=_URLHandlingDelegate;
-@property(retain, nonatomic) NSUUID *connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(readonly, nonatomic) _MXExtension *extensionProxy; // @synthesize extensionProxy=_extensionProxy;
-@property(retain, nonatomic) NSExtension *realExtension; // @synthesize realExtension=_realExtension;
-@property(retain, nonatomic) NSViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
 @property(readonly, nonatomic) NSUUID *serviceIdentifier;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

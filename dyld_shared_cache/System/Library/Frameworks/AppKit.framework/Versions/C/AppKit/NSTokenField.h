@@ -6,7 +6,6 @@
 
 #import <AppKit/NSTextField.h>
 
-@class NSCharacterSet;
 @protocol NSTokenFieldDelegate;
 
 @interface NSTokenField : NSTextField
@@ -16,27 +15,27 @@
 
 + (id);
 + (double);
-+ (_Bool);
++ (_Bool)%s.  Error=%d. Cause=%s;
 + (void)Ôÿ!càH;
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)+A;
+- (id)Ex6ChutQnIx5Zm6c5uwYuw;
+- (unsigned long long)Tw;
+- (_Bool)4E/VsXjEIa83CkRdZrQ;
+- (id)aTbnK/UqL6cA;
+- (unsigned long long)yPqGUljqvtItkM6XMCZaQw;
+- (id)8Xy7Onyvko0vA;
+- (id)F6e86pLBiPP4pVJ24g;
+- (id)Nhm02nvVOaQPimpOshlO1g;
+- (id)5tnvmEsHQKfCoieLEYpnvg;
+- (id)ENZu+wbg7PUprwNwBWg;
+- (_Bool)Iq37xQ;
+- (id)6iI7/9cVUGIjdrSvIXEt4A;
+- (id)Wxy5BDEEZTeWlHQ;
+- (id)FNvQ6lBvJIUcYBzQ8ggOUQ;
+- (_Bool)AJFQheZDyUbvI6RmBMT9Cg;
+- (id)ibhfX8FQ6b809N632Ey98g;
+- (id)4qfpxrvLtWillIHpIsVgMA;
+- (id)aDuN0jCthN9lLu4qQ9OrEA;
 - (void);
 - (void);
 - (void);
@@ -49,24 +48,34 @@
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)eader Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (id)entry_ID in (SELECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
+- (double)%d) Req(%d) Resp(%d) Auth(%@);
+- (void)_nscfBridgeURLCacheCopyResponseForRequest:(id)arg1;
+- (void);
+- (id)h;
+- (id);
+- (void)_resolvedAttachmentFrame;
 - (_Bool);
-- (id);
-- (double);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id)amesDict:(struct CGRect)arg1;
+- (id)setEnrolledSupplementaryFramesDict:(struct CGRect)arg1;
 - (void)writeRecords:toFile:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double completionDelay;
 @property __weak id <NSTokenFieldDelegate> delegate;
-@property unsigned long long tokenStyle;
-@property(copy) NSCharacterSet *tokenizingCharacterSet;
 
 @end
 

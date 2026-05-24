@@ -6,7 +6,7 @@
 
 #import <Suggestions/SGTSuggester.h>
 
-@class NSArray, NSString, SGTSpotlightSuggesterReserved;
+@class NSArray, SGTSpotlightSuggesterReserved;
 
 @interface SGTSpotlightSuggester : SGTSuggester
 {
@@ -16,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -32,15 +32,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)
+k";
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,21 +52,15 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)cStringUsingEncoding: /* Error: Ran out of types for this method. */;
 - (void)T ¨;
 
 // Remaining properties
-@property(copy) NSArray *additionalAttributeNames;
-@property(readonly) NSArray *attributeNames;
-@property(copy) NSString *baseQuery;
-@property _Bool matchesFinderFilesOnly;
-@property _Bool matchesSupportFiles;
 @property(copy) NSArray *searchScope;
-@property(copy) NSArray *sortingAttributeNames;
 
 @end
 

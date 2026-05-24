@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKeyValueCollection, NSArray, NSDate, NSDictionary, NSString;
-@protocol IMDCKSyncStateDelegate;
+@class IMKeyValueCollection;
 
 @interface IMDCKSyncState
 {
     IMKeyValueCollection *_storage;
-    id <IMDCKSyncStateDelegate> _delegate;
-    NSDate *_lastFullSyncDate;
-    NSDictionary *_syncStatistics;
 }
 
-+ (id);
-+ (void);
++ (id)SportsProbeSuccessful;
++ (void)localFrequencyStabilityLower;
 - (void);
 - (void);
 - (void);
@@ -35,6 +31,8 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,45 +43,44 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void).;
+- (void);
+- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)c8"!"`;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void).;
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)b;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)  ;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)
+jA;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -93,7 +90,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)  ;
 - (id);
 - (unsigned long long);
 - (long long);
@@ -108,14 +105,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`h;
 - (void);
 - (id);
 - (id);
@@ -127,56 +124,17 @@
 - (long long);
 - (id);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool)R;
+- (long long)";
 - (id);
 - (id);
-- (void)cAttachmentMetadataFirstSyncWithActivity:(id)arg1 deviceConditionsToCheck:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)syncAttachmentMetadataFirstSyncWithActivity:(id)arg1 deviceConditionsToCheck:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id)Ðè;
 
 // Remaining properties
-@property(nonatomic) long long accountStatus; // @dynamic accountStatus;
-@property(copy, nonatomic) NSDictionary *analyticSyncDatesDictionary; // @dynamic analyticSyncDatesDictionary;
-@property(nonatomic) _Bool createdChatZone; // @dynamic createdChatZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMDCKSyncStateDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool deletedZones; // @dynamic deletedZones;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDisablingDevices) _Bool disablingDevices; // @dynamic disablingDevices;
-@property(nonatomic, getter=isEligibleForTruthZone) _Bool eligibleForTruthZone; // @dynamic eligibleForTruthZone;
-@property(copy, nonatomic) NSDate *exitDate; // @dynamic exitDate;
-@property(nonatomic, getter=isFeatureEnabled) _Bool featureEnabled; // @dynamic featureEnabled;
-@property(nonatomic) _Bool hasAvailableRecordsToDownload; // @dynamic hasAvailableRecordsToDownload;
 @property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInExitState) _Bool inExitState; // @dynamic inExitState;
-@property(readonly, nonatomic) IMKeyValueCollection *keyValueCollection; // @synthesize keyValueCollection=_storage;
-@property(nonatomic) double lastDownloadProgress; // @dynamic lastDownloadProgress;
-@property(readonly, copy, nonatomic) NSDate *lastFullSyncDate; // @synthesize lastFullSyncDate=_lastFullSyncDate;
-@property(copy, nonatomic) NSDate *lastSyncDate; // @dynamic lastSyncDate;
-@property(copy, nonatomic) NSString *micDeviceIdentifier; // @dynamic micDeviceIdentifier;
-@property(nonatomic, getter=isRemovedFromBackup) _Bool removedFromBackup; // @dynamic removedFromBackup;
-@property(nonatomic, getter=isStartingEnabledSettingChange) _Bool startingEnabledSettingChange; // @dynamic startingEnabledSettingChange;
-@property(nonatomic, getter=isStartingInitialSyncSetByCloudKitHooks) _Bool startingInitialSyncSetByCloudKitHooks; // @dynamic startingInitialSyncSetByCloudKitHooks;
-@property(nonatomic, getter=isStartingPeriodicSyncSetByCloudKitHooks) _Bool startingPeriodicSyncSetByCloudKitHooks; // @dynamic startingPeriodicSyncSetByCloudKitHooks;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool syncCancelled; // @dynamic syncCancelled;
-@property(nonatomic) long long syncControllerRecordType; // @dynamic syncControllerRecordType;
-@property(nonatomic) unsigned long long syncControllerSyncState; // @dynamic syncControllerSyncState;
-@property(nonatomic) long long syncControllerSyncType; // @dynamic syncControllerSyncType;
-@property(readonly, nonatomic) NSArray *syncErrors;
-@property(readonly, nonatomic) unsigned long long syncJobState; // @dynamic syncJobState;
-@property(copy, nonatomic) NSString *syncSessionID; // @dynamic syncSessionID;
-@property(copy, nonatomic) NSDictionary *syncStatistics; // @synthesize syncStatistics=_syncStatistics;
-@property(nonatomic) unsigned long long syncStatus; // @dynamic syncStatus;
-@property(readonly, nonatomic) unsigned long long syncType; // @dynamic syncType;
-@property(nonatomic, getter=isSyncing) _Bool syncing; // @dynamic syncing;
-@property(nonatomic, getter=isSyncingEnabled) _Bool syncingEnabled; // @dynamic syncingEnabled;
-@property(nonatomic, getter=isSyncingPaused) _Bool syncingPaused; // @dynamic syncingPaused;
 
 @end
 

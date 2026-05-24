@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)OS_voucher>",&,V_voucher;
 - (id);
-- (id);
+- (id)=%q AND d.entry_ID=r.entry_ID;
 
 @end
 

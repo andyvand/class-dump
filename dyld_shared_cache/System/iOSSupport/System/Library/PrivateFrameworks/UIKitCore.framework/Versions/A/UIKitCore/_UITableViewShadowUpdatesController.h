@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UITableView, _UIDataSourceSnapshotter, _UIDataSourceUpdateMap;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewShadowUpdatesController
 {
     NSMutableArray *_shadowUpdates;
-    UITableView *_tableView;
-    _UIDataSourceSnapshotter *_initialSnapshot;
-    _UIDataSourceUpdateMap *_updateMap;
 }
 
 - (id);
@@ -23,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (id);
@@ -49,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (double);
 - (double);
@@ -74,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (struct CGRect);
-- (double);
+- (double);
 - (double);
 - (double);
 - (long long);
@@ -88,119 +85,106 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)W;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void));
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
 - (double);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (double);
+- (double);
 - (id);
+- (id);
+- (id)account:(id)arg1;
+- (_Bool)initWithDisplayName:(id)arg1 fromID:(id)arg2 toIdentifier:(id)arg3 forChat:style:account: /* Error: Ran out of types for this method. */;
+- (id)initWithDisplayName:(id)arg1 fromID:(unsigned long long)arg2 toIdentifier:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (void)initWithDictionary:(id)arg1 uniqueID:(id)arg2 serviceName: /* Error: Ran out of types for this method. */;
+- (id)initWithDelegate:(id)arg1 syncStateManager:(id)arg2;
+- (id)initWithDefusedSyndicationAction:(id)arg1 idsTrustedData:(id)arg2 pipelineResources:(id)arg3;
+- (id)initWithDefusedMessage:(id)arg1 idsTrustedData:(id)arg2 isFromDefaultPairedDevice:(id)arg3;
+- (void)initWithDefusedMessage:(id)arg1 idsTrustedData:(id)arg2;
+- (void)initWithDefusedMessage:(id)arg1;
+- (void)initWithData:(id)arg1 encoding:(id)arg2;
+- (_Bool)initWithData:(id)arg1 accountUniqueID:(id)arg2 fromID:loginID:serviceName: /* Error: Ran out of types for this method. */;
+- (id)initWithContext:(id)arg1;
+- (void)initWithContentsOfFile:(id)arg1;
+- (long long)initWithContainerIdentifier:(id)arg1 environment:(id)arg2;
+- (long long)initWithCollaborationId:(id)arg1 date:(id)arg2 guidString:(id)arg3;
+- (_Bool)initWithChipArray:(id)arg1;
+- (_Bool)initWithChatStatus:(id)arg1 chat:(id)arg2 style:handleInfo: /* Error: Ran out of types for this method. */;
+- (id)BlastDoorTranscriptBackgroundCommandTypeWrapper",&,N,V_type;
+- (long long)ground asset on record. Asset:(id)arg1 %@. Record:(id)arg2 %@;
+- (long long)able to initialize from background file URL:(id)arg1 %@;
+- (void)allow it):(id)arg1 %@:(id)arg2 %@;
+- (void)location item:(id)arg1 %@ to the corresponding chats with handleID:(id)arg2 %@ hasStoredItem:%{BOOL}d broadcastChanges:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (_Bool)r text, should ignore do not disturb;
+- (id)iMessage chat found for chat identifier:(id)arg1 %@;
+- (void);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (long long);
-- (long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (id)idRecognizeFocusMovementRequest: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (id)_focusEventRecognizer:didRecognizeFocusMovementRequest: /* Error: Ran out of types for this method. */;
+- (id)_displayConfigurations;
 - (id)setAccessibilityExpandedStatus:(id)arg1;
-- (void)AutoFillTestGroundTruthGenerationViewControllerDelegate;
-- (void)yplaneTransformation;
+- (void)UIKBAutoFillTestGroundTruthGenerationViewControllerDelegate;
+- (void)UIKBResizableKeyplaneTransformation;
 - (id)`;
 - (id)Ì;
 - (id);
 - (id)ge, or contain neither image;
 - (void)morph to a view that isn't in the view hierarchy. ;
-- (id)mentScalePts;
-- (void)PSg;
+- (id)movementScalePts;
+- (void)ScPSg;
 - (id)Ù?;
-- (void)Key;
+- (void)ScrollPocketInteractionKey;
 - (id);
 - (id)[;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIDataSourceSnapshotter *dataSourceAfterShadowUpdates;
-@property(readonly, nonatomic) _UIDataSourceSnapshotter *dataSourceBeforeShadowUpdates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasShadowUpdates;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIDataSourceSnapshotter *initialSnapshot; // @synthesize initialSnapshot=_initialSnapshot;
-@property(retain, nonatomic) NSMutableArray *shadowUpdates; // @synthesize shadowUpdates=_shadowUpdates;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UITableView *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) _UIDataSourceUpdateMap *updateMap; // @synthesize updateMap=_updateMap;
 
 @end
 

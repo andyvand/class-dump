@@ -9,8 +9,6 @@
 @interface PPM2TopicDonation
 {
     NSString *_activeTreatments;
-    int _donationSource;
-    CDStruct_a8edabe5 _has;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (_Bool);
 - (id);
 - (int);
-- (int);
+- (int);
 - (id);
 - (void);
 - (id);
@@ -27,16 +25,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)(G;
+- (_Bool)_displayName;
 - (id);
 - (id);
 - (void)che";
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(nonatomic) _Bool hasDonationSource;
 
 @end

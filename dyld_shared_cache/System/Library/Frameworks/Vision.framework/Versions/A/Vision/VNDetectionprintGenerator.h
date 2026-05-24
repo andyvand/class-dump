@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (unsigned int);
-+ (void);
++ (unsigned int)56q64@?72;
++ (void)completedUnitCount;
 + (unsigned long long);
 + (id);
 - (_Bool);

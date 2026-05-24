@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAutounbinder, NSDictionary, NSStoryboard, NSViewController, NSWindowController;
+@class NSAutounbinder, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSWindowControllerMoreIVars
 {
     NSAutounbinder *autounbinder;
-    long long cascadeNumber;
-    struct CGPoint cascadePoint;
-    NSDictionary *_externalObjectEntryTableForWindowLoading;
-    NSArray *_topLevelObjectsToKeepAliveFromStoryboard;
-    NSArray *_segueTemplates;
-    NSStoryboard *_storyboard;
-    NSDictionary *_segueDestinationOptions;
-    NSWindowController *_retainedSelf;
-    NSViewController *_contentViewController;
 }
 
+- (id)lue %@ for %@ cannot be represented as %s;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)MobileEquipmentInfoBaseVersion;
+- (void)DeviceSupportsCinnamon;
+- (void)s;
+- (void)d;
+- (void)82Ono2SP03rNGkhOc5O1Mw;
+- (void)+bcrw;
 - (id);
 - (id);
 - (id);
@@ -36,12 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
 @property(retain) NSDictionary *externalObjectEntryTableForWindowLoading; // @synthesize externalObjectEntryTableForWindowLoading=_externalObjectEntryTableForWindowLoading;
-@property(retain) NSDictionary *segueDestinationOptions; // @synthesize segueDestinationOptions=_segueDestinationOptions;
-@property(retain) NSArray *segueTemplates; // @synthesize segueTemplates=_segueTemplates;
-@property(retain) NSStoryboard *storyboard; // @synthesize storyboard=_storyboard;
-@property(retain) NSArray *topLevelObjectsToKeepAliveFromStoryboard; // @synthesize topLevelObjectsToKeepAliveFromStoryboard=_topLevelObjectsToKeepAliveFromStoryboard;
 
 @end
 

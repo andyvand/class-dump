@@ -7,16 +7,6 @@
 @interface RemindersUICore.TTRAccountsListsViewModel
 {
     id isEditing;
-    id hashtagsHeaderItem;
-    id hashtagsItem;
-    id permissionMainItem;
-    id pinnedListsItems;
-    id suggestGroceriesItem;
-    id accountsCapabilities;
-    id tree;
-    id smartListDisplayability;
-    id pinnedListsNodes;
-    id maximumItemCountInPinnedListsSection;
 }
 
 @end

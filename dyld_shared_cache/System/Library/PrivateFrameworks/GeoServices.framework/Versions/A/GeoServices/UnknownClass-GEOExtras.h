@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (GEOExtras)
-- (id);
+- (id)#;
 - (id);
 @end
 

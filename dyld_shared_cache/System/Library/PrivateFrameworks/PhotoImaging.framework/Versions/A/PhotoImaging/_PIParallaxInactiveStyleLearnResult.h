@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol NURenderStatistics;
+@class NSData;
 
 @interface _PIParallaxInactiveStyleLearnResult
 {
     NSData *_styleData;
-    struct CGRect _styleFrame;
 }
 
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (void)="value"q"timescale"i"flags"I"epoch"q}};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
 @property(readonly, nonatomic) NSData *styleData; // @synthesize styleData=_styleData;
-@property(readonly, nonatomic) struct CGRect styleFrame; // @synthesize styleFrame=_styleFrame;
-@property(readonly) Class superclass;
 
 @end
 

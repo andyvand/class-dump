@@ -11,30 +11,26 @@
 @interface DGNoiseReductionOperation : DGOperation
 {
     int _legacyVersion;
-    NSNumber *_inputRadius;
-    NSNumber *_inputEdgeDetail;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)^;
 + (id);
 - (void);
 - (void);
-- (int);
+- (int);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputEdgeDetail; // @synthesize inputEdgeDetail=_inputEdgeDetail;
-@property int inputNoiseReductionLegacyVersion; // @synthesize inputNoiseReductionLegacyVersion=_legacyVersion;
 @property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 
 @end

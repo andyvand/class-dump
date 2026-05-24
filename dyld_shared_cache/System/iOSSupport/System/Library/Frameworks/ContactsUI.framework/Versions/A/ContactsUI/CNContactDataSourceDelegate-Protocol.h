@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactDataSourceDelegate
+
+@optional
+- (void);
 @end
 

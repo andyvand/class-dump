@@ -4,68 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICScannerDevice, ICScannerFunctionalUnit, IKImageCorrectionHandler, IKScanInfo, IKScanUIController, NSMutableDictionary, NSMutableSet, NSString, NSURL;
+@class ICScannerDevice, IKScanUIController;
 
 @interface IKScan
 {
     ICScannerDevice *_scannerDevice;
-    ICScannerFunctionalUnit *_functionalUnit;
-    unsigned char _thresholdForBlackAndWhiteScanning;
-    unsigned long long _userRequestedOverviewResolution;
-    NSURL *_postProcessingApp;
-    unsigned long long _currentScanType;
-    NSMutableDictionary *_metaData;
-    long long _numberOfSelections;
-    long long _currentSelectionIndex;
-    _Bool _transferModeMemoryBased;
-    _Bool _scanFailed;
-    int _currentScanIndex;
-    _Bool _scanInProgress;
-    _Bool _overviewScanInProgress;
-    _Bool _useScanRect;
-    _Bool _duplexScanningEnabled;
-    _Bool _createSingleDocument;
-    _Bool _scanToTempDirectory;
-    _Bool _scanComplete;
-    _Bool _scanIsICARawScan;
-    _Bool _selfTestRunning;
-    _Bool _reviewSimpleScanResults;
-    _Bool _createSingleDocumentReChecked;
-    _Bool _needsSpecialOrientationHandling;
-    _Bool _performOCR;
-    IKScanUIController *_delegate;
-    NSString *_documentName;
-    NSString *_documentDisplayName;
-    NSString *_lastDocumentName;
-    NSString *_userSpecifiedDocumentName;
-    NSURL *_documentLocation;
-    NSURL *_lastDocumentLocation;
-    NSString *_fileFormat;
-    unsigned long long _pixelDataType;
-    unsigned long long _bitDepth;
-    unsigned long long _measurementUnit;
-    unsigned long long _resolution;
-    unsigned long long _scaleFactor;
-    unsigned long long _scanRectOrientation;
-    unsigned long long _documentType;
-    unsigned long long _flatbedOrientation;
-    unsigned long long _oddPageOrientation;
-    unsigned long long _evenPageOrientation;
-    long long _autoSelection;
-    double _rotationAngle;
-    IKImageCorrectionHandler *_imageCorrectionHandler;
-    NSURL *_scannedImageURL;
-    NSURL *_finalDestURL;
-    NSMutableSet *_completedScans;
-    double _scanPercentDone;
-    long long _state;
-    unsigned long long _overviewResolution;
-    IKScanInfo *_scanInfo;
-    long long _scannerReportedError;
-    struct CGPoint _inchPosition;
-    struct CGSize _selectionSize;
-    struct CGRect _scanRect;
-    struct CGRect _scanRectNonClipped;
 }
 
 + (struct CGImage *);
@@ -73,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -93,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -127,7 +70,7 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -147,7 +90,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)Ѐ;
 - (id);
 - (struct CGPoint);
 - (id);
@@ -174,7 +117,7 @@
 - (struct __CFData *);
 - (struct CGImage *);
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *);
 - (struct CGImage *);
 - (id);
 - (_Bool);
@@ -186,7 +129,7 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -199,7 +142,7 @@
 - (void);
 - (double);
 - (unsigned long long);
-- (void);
+- (void)c}d;
 - (void);
 - (id);
 - (id);
@@ -209,56 +152,13 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)jjj8;
 - (void);
-- (unsigned long long);
+- (unsigned long long)T;
 - (void);
 
 // Remaining properties
-@property long long autoSelection; // @synthesize autoSelection=_autoSelection;
-@property unsigned long long bitDepth; // @synthesize bitDepth=_bitDepth;
-@property(retain) NSMutableSet *completedScans; // @synthesize completedScans=_completedScans;
-@property(nonatomic) _Bool createSingleDocument; // @synthesize createSingleDocument=_createSingleDocument;
-@property(nonatomic) _Bool createSingleDocumentReChecked; // @synthesize createSingleDocumentReChecked=_createSingleDocumentReChecked;
 @property(nonatomic) IKScanUIController *delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *documentDisplayName; // @synthesize documentDisplayName=_documentDisplayName;
-@property(copy, nonatomic) NSURL *documentLocation; // @synthesize documentLocation=_documentLocation;
-@property(copy, nonatomic) NSString *documentName; // @synthesize documentName=_documentName;
-@property unsigned long long documentType; // @synthesize documentType=_documentType;
-@property _Bool duplexScanningEnabled; // @synthesize duplexScanningEnabled=_duplexScanningEnabled;
-@property unsigned long long evenPageOrientation; // @synthesize evenPageOrientation=_evenPageOrientation;
-@property(copy) NSString *fileFormat; // @synthesize fileFormat=_fileFormat;
-@property(copy, nonatomic) NSURL *finalDestURL; // @synthesize finalDestURL=_finalDestURL;
-@property unsigned long long flatbedOrientation; // @synthesize flatbedOrientation=_flatbedOrientation;
-@property IKImageCorrectionHandler *imageCorrectionHandler; // @synthesize imageCorrectionHandler=_imageCorrectionHandler;
-@property struct CGPoint inchPosition; // @synthesize inchPosition=_inchPosition;
-@property(copy) NSURL *lastDocumentLocation; // @synthesize lastDocumentLocation=_lastDocumentLocation;
-@property(copy) NSString *lastDocumentName; // @synthesize lastDocumentName=_lastDocumentName;
-@property unsigned long long measurementUnit; // @synthesize measurementUnit=_measurementUnit;
-@property _Bool needsSpecialOrientationHandling; // @synthesize needsSpecialOrientationHandling=_needsSpecialOrientationHandling;
-@property unsigned long long oddPageOrientation; // @synthesize oddPageOrientation=_oddPageOrientation;
-@property(readonly) unsigned long long overviewResolution; // @synthesize overviewResolution=_overviewResolution;
-@property _Bool performOCR; // @synthesize performOCR=_performOCR;
-@property unsigned long long pixelDataType; // @synthesize pixelDataType=_pixelDataType;
-@property unsigned long long resolution; // @synthesize resolution=_resolution;
-@property _Bool reviewSimpleScanResults; // @synthesize reviewSimpleScanResults=_reviewSimpleScanResults;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property unsigned long long scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property _Bool scanComplete; // @synthesize scanComplete=_scanComplete;
-@property(retain) IKScanInfo *scanInfo; // @synthesize scanInfo=_scanInfo;
-@property _Bool scanIsICARawScan; // @synthesize scanIsICARawScan=_scanIsICARawScan;
-@property(nonatomic) double scanPercentDone; // @synthesize scanPercentDone=_scanPercentDone;
-@property(nonatomic) struct CGRect scanRect; // @synthesize scanRect=_scanRect;
-@property struct CGRect scanRectNonClipped; // @synthesize scanRectNonClipped=_scanRectNonClipped;
-@property unsigned long long scanRectOrientation; // @synthesize scanRectOrientation=_scanRectOrientation;
-@property _Bool scanToTempDirectory; // @synthesize scanToTempDirectory=_scanToTempDirectory;
-@property(copy) NSURL *scannedImageURL; // @synthesize scannedImageURL=_scannedImageURL;
-@property long long scannerReportedError; // @synthesize scannerReportedError=_scannerReportedError;
-@property struct CGSize selectionSize; // @synthesize selectionSize=_selectionSize;
-@property _Bool selfTestRunning; // @synthesize selfTestRunning=_selfTestRunning;
-@property long long state; // @synthesize state=_state;
-@property _Bool useScanRect; // @synthesize useScanRect=_useScanRect;
-@property(copy) NSString *userSpecifiedDocumentName; // @synthesize userSpecifiedDocumentName=_userSpecifiedDocumentName;
 
 @end
 

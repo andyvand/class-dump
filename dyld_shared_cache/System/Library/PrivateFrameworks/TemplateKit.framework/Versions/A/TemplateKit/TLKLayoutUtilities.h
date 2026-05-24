@@ -9,7 +9,7 @@
 }
 
 + (double);
-+ (double);
++ (double);
 + (_Bool);
 + (double);
 + (double);
@@ -23,12 +23,12 @@
 + (double);
 + (struct CGSize);
 + (void);
-+ (struct NSEdgeInsets);
++ (struct NSEdgeInsets)d�;
 + (_Bool);
 + (struct CGSize);
 + (void);
 + (double);
-+ (_Bool);
++ (_Bool)payloadEAPFASTProvisionPACAnonymously;
 + (_Bool);
 + (struct CGSize);
 

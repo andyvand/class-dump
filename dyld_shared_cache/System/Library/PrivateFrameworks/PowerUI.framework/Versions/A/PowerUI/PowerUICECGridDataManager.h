@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSObject, NSUserDefaults;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSUserDefaults;
 
 @interface PowerUICECGridDataManager
 {
     _Bool _tSavingOpportunity;
-    _Bool _tChargeNow;
-    _Bool _isDemoMode;
-    NSUserDefaults *_defaults;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_log;
-    double _refetchPeriod;
-    double _intervalDuration;
-    NSDate *_lastForecastFetchDate;
-    unsigned long long _engagementDecisionReason;
-    NSMutableArray *_cleanIntervals;
 }
 
 + (id);
@@ -66,17 +55,7 @@
 - (void)¨àh¸©P­d¯¬¯;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *cleanIntervals; // @synthesize cleanIntervals=_cleanIntervals;
 @property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(nonatomic) unsigned long long engagementDecisionReason; // @synthesize engagementDecisionReason=_engagementDecisionReason;
-@property(nonatomic) double intervalDuration; // @synthesize intervalDuration=_intervalDuration;
-@property(nonatomic) _Bool isDemoMode; // @synthesize isDemoMode=_isDemoMode;
-@property(retain, nonatomic) NSDate *lastForecastFetchDate; // @synthesize lastForecastFetchDate=_lastForecastFetchDate;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) double refetchPeriod; // @synthesize refetchPeriod=_refetchPeriod;
-@property(nonatomic) _Bool tChargeNow; // @synthesize tChargeNow=_tChargeNow;
-@property(nonatomic) _Bool tSavingOpportunity; // @synthesize tSavingOpportunity=_tSavingOpportunity;
 
 @end
 

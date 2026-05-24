@@ -5,5 +5,10 @@
 //
 
 @protocol IXClientProtocol
+- (void)P;
+- (void);
+- (void);
+- (oneway void)9N;
+- (oneway void);
 @end
 

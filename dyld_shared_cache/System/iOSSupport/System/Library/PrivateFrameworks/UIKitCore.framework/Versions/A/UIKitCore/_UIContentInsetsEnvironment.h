@@ -8,45 +8,34 @@ __attribute__((visibility("hidden")))
 @interface _UIContentInsetsEnvironment
 {
     long long _insetsReference;
-    struct NSDirectionalEdgeInsets _safeAreaInsets;
-    struct NSDirectionalEdgeInsets _layoutMarginsInsets;
-    struct NSDirectionalEdgeInsets _readableContentInsets;
-    struct NSDirectionalEdgeInsets _scrollAccessoryInsets;
-    struct NSDirectionalEdgeInsets _minimumInsets;
 }
 
 - (struct NSDirectionalEdgeInsets);
-- (id);
+- (id)setStatusSpeed:(struct CGSize)arg1;
 - (void);
 - (void);
+- (id);
 - (id);
+- (struct NSDirectionalEdgeInsets)!;
+- (id)__MPModelPropertyAlbumCleanDownloadedTrackCount__MAPPING_MISSING__;
+- (void)rtyPlaylistHasExplicitContent;
 - (id);
+- (void);
 - (struct NSDirectionalEdgeInsets);
-- (id);
-- (void);
-- (id);
-- (void);
 - (struct NSDirectionalEdgeInsets);
-- (struct NSDirectionalEdgeInsets);
-- (_Bool)etUpSearchBarSearchContainerIfNecessary;
-- (struct NSDirectionalEdgeInsets)SelectionDelegate: /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)t:(long long)arg1;
-- (void)playModeButtonItem;
+- (_Bool)setUpSearchBarSearchContainerIfNecessary;
+- (struct NSDirectionalEdgeInsets)setSelectionDelegate: /* Error: Ran out of types for this method. */;
+- (struct NSDirectionalEdgeInsets)createSlot:(long long)arg1;
+- (void)_unspecifiedStyleDisplayModeButtonItem;
 - (struct NSDirectionalEdgeInsets)setAllowsTearOff:,V__allowsTearOff /* Error: Ran out of types for this method. */;
 - (id)FeedbackBehavior,S_setEdgeFeedbackBehavior:(struct _NSZone *)arg1;
-- (long long)sFromKeyboard;
+- (long long)NotificationsFromKeyboard;
 - (struct NSDirectionalEdgeInsets)by the specified environment (e.g. `[focusSystem requestFocusUpdateToEnvironment:environment]`), outlining each step of the process for determining the next focused item. /* Error: Ran out of types for this method. */;
 - (void)å];
 - (id)àQtÿÅÙÄ`;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets effectiveInsets;
 @property(nonatomic) long long insetsReference; // @synthesize insetsReference=_insetsReference;
-@property(nonatomic) struct NSDirectionalEdgeInsets layoutMarginsInsets; // @synthesize layoutMarginsInsets=_layoutMarginsInsets;
-@property(nonatomic) struct NSDirectionalEdgeInsets minimumInsets; // @synthesize minimumInsets=_minimumInsets;
-@property(nonatomic) struct NSDirectionalEdgeInsets readableContentInsets; // @synthesize readableContentInsets=_readableContentInsets;
-@property(nonatomic) struct NSDirectionalEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
-@property(nonatomic) struct NSDirectionalEdgeInsets scrollAccessoryInsets; // @synthesize scrollAccessoryInsets=_scrollAccessoryInsets;
 
 @end
 

@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSSet;
 
 @interface PKPaymentValidationCacheKey
 {
     NSSet *_supportedNetworks;
-    unsigned long long _merchantCapabilities;
-    NSSet *_issuerCountryCodes;
-    NSString *_webDomain;
-    NSNumber *_paymentRequestType;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)nection"b1"usesRelay"b1};
 - (id);
-- (void)vationOptionForcePinCodeKey;
+- (void)PKSharingCarKeyActivationOptionForcePinCodeKey;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *issuerCountryCodes; // @synthesize issuerCountryCodes=_issuerCountryCodes;
-@property(readonly, nonatomic) unsigned long long merchantCapabilities; // @synthesize merchantCapabilities=_merchantCapabilities;
-@property(readonly, copy, nonatomic) NSNumber *paymentRequestType; // @synthesize paymentRequestType=_paymentRequestType;
 @property(readonly, copy, nonatomic) NSSet *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;
-@property(readonly, copy, nonatomic) NSString *webDomain; // @synthesize webDomain=_webDomain;
 
 @end
 

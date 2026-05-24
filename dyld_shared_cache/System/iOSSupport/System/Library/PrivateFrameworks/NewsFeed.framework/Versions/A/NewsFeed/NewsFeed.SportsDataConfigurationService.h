@@ -7,8 +7,6 @@
 @interface NewsFeed.SportsDataConfigurationService
 {
     id appConfigManager;
-    id resourceService;
-    id jsonDecoder;
 }
 
 @end

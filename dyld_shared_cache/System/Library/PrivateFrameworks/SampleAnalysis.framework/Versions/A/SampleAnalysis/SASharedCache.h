@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
-
 @interface SASharedCache
 {
     unsigned long long _slide;
-    unsigned long long _slidBaseAddress;
-    _Bool _defunct;
-    _Bool _isExclaveSharedCache;
-    int _flags;
-    unsigned int _sharedCacheID;
-    NSUUID *_uuid;
-    NSArray *_binaryLoadInfos;
 }
 
++ (void)voiceProfileDiscardedUtteranceCount;
++ (id)B	;
 + (void);
-+ (id);
 + (void);
-+ (void);
++ (id){;
++ (id)eristics:(id)arg1 %@;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)accessibilityLineForIndex:(const void *)arg1;
 + (void)tier %d, passive %d, suspended %d, darwinbg %d, idlewq %d, gfi %d, runnable %s) backfilled to %d thread states (indexes %lu-%lu)
 ;
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)resultAttributeOptions;
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long)C;
 - (unsigned long long);
 - (unsigned short);
 - (_Bool);
@@ -41,30 +32,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)8Q16;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)uh;
 - (unsigned long long)@ù
 × ;
 - (id)Ô¼;
 
 // Remaining properties
-@property(retain) NSArray *binaryLoadInfos; // @synthesize binaryLoadInfos=_binaryLoadInfos;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long endAddress;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long slidBaseAddress;
-@property(readonly) unsigned long long slide;
-@property(readonly) unsigned long long startAddress;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long textSegmentsEndAddress;
-@property(readonly) unsigned long long textSegmentsStartAddress;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

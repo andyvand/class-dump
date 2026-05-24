@@ -5,5 +5,7 @@
 //
 
 @protocol TReadWriteLockingProtocol
+- (void);
+- (void)@q!;
 @end
 

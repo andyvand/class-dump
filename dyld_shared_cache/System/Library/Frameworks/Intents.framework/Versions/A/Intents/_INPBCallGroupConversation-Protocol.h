@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallGroup, _INPBContactValue;
+@class NSArray, _INPBCallGroup;
 
 @protocol _INPBCallGroupConversation
+- (void)SoftAPBand;
+- (NSArray *);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCallGroup *callGroup;
-@property(retain, nonatomic) _INPBContactValue *caller;
-@property(copy, nonatomic) NSString *conversationId;
-@property(readonly, nonatomic) _Bool hasCallGroup;
-@property(readonly, nonatomic) _Bool hasCaller;
-@property(readonly, nonatomic) _Bool hasConversationId;
-@property(copy, nonatomic) NSArray *otherParticipants;
-@property(readonly, nonatomic) unsigned long long otherParticipantsCount;
 @end
 

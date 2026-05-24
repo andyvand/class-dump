@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewImage, CNContactStore;
+@class ABCardViewImage;
 
 @interface AKCardViewImageDataSource
 {
     ABCardViewImage *_updatedImage;
-    CNContactStore *_contactStore;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (id)G;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(retain, nonatomic) ABCardViewImage *updatedImage; // @synthesize updatedImage=_updatedImage;
 
 @end

@@ -6,16 +6,14 @@
 
 #import <SystemMigration/SMSystem_Client_Network.h>
 
-@class NSArray, NSImage, NSString;
+@class NSString;
 
 @interface SMSystem_Client_Windows : SMSystem_Client_Network
 {
     NSString *driveLetter;
-    NSArray *components;
-    NSImage *volumeIcon;
 }
 
-+ (id);
++ (id)64;
 - (id);
 - (id);
 - (void);
@@ -28,9 +26,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSArray *components; // @synthesize components;
 @property(retain) NSString *driveLetter; // @synthesize driveLetter;
-@property(retain) NSImage *volumeIcon; // @synthesize volumeIcon;
 
 @end
 

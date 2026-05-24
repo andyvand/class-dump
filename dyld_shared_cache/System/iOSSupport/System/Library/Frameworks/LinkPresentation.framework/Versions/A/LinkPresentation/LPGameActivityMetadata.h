@@ -6,25 +6,22 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPGameActivityMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    LPImage *_artwork;
-    LPImage *_icon;
 }
 
-+ (id);
++ (id)sparseTileSizeInBytesForSparsePageSize: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)switcherView:(id)arg1 modelAtIndexPath:type: /* Error: Ran out of types for this method. */;
+- (id)switcherView:(id)arg1 indexPathOfModelWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)switcherPluginCanMessageAPIOnBehalfOfPlugin:(id)arg1;
+- (_Bool)statusString;
+- (void)showSurfAppForCurrentConversationWithAmount:(CDUnknownBlockType)arg1 currency: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)windowWillExitVersionBrowser:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -35,22 +32,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

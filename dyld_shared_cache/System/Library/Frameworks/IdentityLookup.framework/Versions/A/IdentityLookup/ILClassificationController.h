@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSExtension, NSHashTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray, NSExtension;
 
 @interface ILClassificationController
 {
     NSExtension *_electedExtension;
-    NSArray *_extensions;
-    NSObject<OS_dispatch_queue> *_queue;
-    id _matchingExtensionToken;
-    NSHashTable *_delegates;
-    CDUnknownBlockType _firstMatchCompletionBlock;
 }
 
 + (_Bool);
@@ -22,31 +16,25 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)o register displayed responses but personalization is disabled.;
+- (id)LinkPresentation;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClassificationAvailable) _Bool classificationAvailable;
-@property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(copy, nonatomic) NSExtension *electedExtension; // @synthesize electedExtension=_electedExtension;
 @property(copy, nonatomic) NSArray *extensions; // @synthesize extensions=_extensions;
-@property(copy, nonatomic) CDUnknownBlockType firstMatchCompletionBlock; // @synthesize firstMatchCompletionBlock=_firstMatchCompletionBlock;
-@property(readonly, nonatomic) id matchingExtensionToken; // @synthesize matchingExtensionToken=_matchingExtensionToken;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

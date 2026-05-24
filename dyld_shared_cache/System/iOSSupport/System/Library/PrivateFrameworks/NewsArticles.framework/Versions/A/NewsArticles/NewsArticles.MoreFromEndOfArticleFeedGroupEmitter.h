@@ -7,8 +7,6 @@
 @interface NewsArticles.MoreFromEndOfArticleFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
 }
 
 @end

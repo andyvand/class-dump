@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDChart, CHDDataLabel, CHDSeriesCollection, EDCollection;
+@class CHDChart;
 
 __attribute__((visibility("hidden")))
 @interface CHDChartType
 {
     CHDChart *mChart;
-    EDCollection *mAxisIds;
-    CHDSeriesCollection *mSeries;
-    CHDDataLabel *mDefaultDataLabel;
-    _Bool mVaryColors;
 }
 
 + (_Bool);
 + (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -29,12 +25,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)UIApplication;
 - (_Bool);
 - (id);
 - (unsigned long long);

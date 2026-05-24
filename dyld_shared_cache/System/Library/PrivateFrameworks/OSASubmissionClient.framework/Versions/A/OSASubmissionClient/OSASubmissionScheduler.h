@@ -8,12 +8,12 @@
 {
 }
 
-+ (double);
++ (double);
 + (void);
-+ (id);
++ (id)enumerateIndexesUsingBlock:(id)arg1;
 + (void);
-+ (id);
-+ (void);
++ (id)saveLeadImageFromWebView:(_Bool)arg1 toLeadImageCacheRegisteredWithMetadataManager:(_Bool)arg2 completionHandler: /* Error: Ran out of types for this method. */;
++ (void);
 + (void);
 + (long long);
 + (void);

@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool)intRoutes:(id)arg1;
++ (_Bool)setIncidentsOnUserWaypointRoutes:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)d;
+- (void)ate}@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (id)WebBundleURL"b1"read_realtimeTrafficProbeURL"b1"read_resourcesURL"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_tokenAuthenticationURL"b1"read_ugcLogDiscardURL"b1"read_webModuleBaseURL"b1"read_wifiConnectionQualityProbeURL"b1"read_wifiQualityTileURL"b1"read_wifiQualityURL"b1"wrote_anyField"b1};
-- (id)loadTiles:requireWiFi:unsuccessfulKeysAccumulator:errorsAccumulator:queue:group:willLoadHandler:progressHandler: /* Error: Ran out of types for this method. */;
+- (id)_loadTiles:requireWiFi:unsuccessfulKeysAccumulator:errorsAccumulator:queue:group:willLoadHandler:progressHandler: /* Error: Ran out of types for this method. */;
 - (id)¼(;
 - (id)ce per object;
 

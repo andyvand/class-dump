@@ -5,19 +5,16 @@
 //
 
 @class SGDaemonConnection;
-@protocol SGDSuggestManagerAllProtocol;
 
 @interface SGRemoteObjectProxy
 {
     SGDaemonConnection *_connection;
-    id <SGDSuggestManagerAllProtocol> _inProcessSuggestManager;
-    _Bool _queuesRequestsIfBusy;
 }
 
-+ (id);
++ (id)9;
 - (void);
 - (id);
-- (id);
+- (id)setSubsystem:(id)arg1;
 - (void);
 - (void);
 

@@ -13,7 +13,8 @@
     NSArray *_envelope;
 }
 
-- (id);
+- (id)n
+;
 - (void);
 - (id);
 - (void);

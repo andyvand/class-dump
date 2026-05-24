@@ -9,26 +9,16 @@
 @interface GEORPFeedbackLayoutFormConfig
 {
     NSMutableArray *_layoutFields;
-    int _formType;
-    unsigned int _radius;
-    unsigned int _ttl;
-    _Bool _enabled;
-    struct {
-        unsigned int has_formType:1;
-        unsigned int has_radius:1;
-        unsigned int has_ttl:1;
-        unsigned int has_enabled:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)nfo:(id)arg1;
++ (_Bool)setJunctionInfo:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (void)getIOSLegacyIdentifierRegistrationsForRequest:(int)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)distributionListConfigs;
+- (id)dates;
+- (id)alertTones;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -37,9 +27,9 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)QA�;
 - (id);
 - (unsigned int);
 - (void);
@@ -54,8 +44,8 @@
 - (void)@36@44;
 - (id)erlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16r^v24@?32;
 - (unsigned int)fo"b1"wrote_anyField"b1};
-- (void)gingStation;
-- (id)m: /* Error: Ran out of types for this method. */;
+- (void)hasOriginalTripIncludedChargingStation;
+- (id)attributesForTransitSystem: /* Error: Ran out of types for this method. */;
 - (id)hç8èxé;
 - (id)AllFrom can only be called once per object;
 - (_Bool);
@@ -63,15 +53,7 @@
 - (_Bool)ê4¶@;
 
 // Remaining properties
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) int formType;
-@property(nonatomic) _Bool hasEnabled;
-@property(nonatomic) _Bool hasFormType;
-@property(nonatomic) _Bool hasRadius;
 @property(nonatomic) _Bool hasTtl;
-@property(retain, nonatomic) NSMutableArray *layoutFields;
-@property(nonatomic) unsigned int radius;
-@property(nonatomic) unsigned int ttl;
 
 @end
 

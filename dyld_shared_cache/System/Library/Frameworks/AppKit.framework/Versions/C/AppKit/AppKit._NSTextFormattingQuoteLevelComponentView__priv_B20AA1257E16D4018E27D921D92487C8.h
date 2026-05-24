@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)teImage;
+- (id)_standardMenuItemDirtyStateImage;
 
 @end
 

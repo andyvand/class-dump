@@ -12,15 +12,15 @@
 + (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool){;
 - (void);
+- (id)componentsSeparatedByCharactersInSet: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
-- (_Bool);
+- (_Bool)Delegate;
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property _Bool remainsVisibleOnDrag; // @synthesize remainsVisibleOnDrag=_remainsVisibleOnDrag;

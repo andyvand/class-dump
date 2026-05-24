@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSURL;
+@class NSURL;
 
 @interface XProtectUpdateBundle
 {
     NSURL *_url;
-    NSNumber *_version;
-    NSURL *_resourcesURL;
-    NSNumber *_forcedRulesPresent;
-    NSDate *installationDate;
 }
 
 - (id);
@@ -23,15 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)^@24;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool anyForcedRulesPresent;
-@property(readonly, nonatomic) NSDate *installationDate; // @synthesize installationDate;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

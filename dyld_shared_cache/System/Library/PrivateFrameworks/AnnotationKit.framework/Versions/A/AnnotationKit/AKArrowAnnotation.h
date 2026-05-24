@@ -6,23 +6,14 @@
 
 #import <AnnotationKit/AKShapeAnnotation.h>
 
-@class NSColor, NSDictionary, NSString, NSTextStorage;
-
 @interface AKArrowAnnotation : AKShapeAnnotation
 {
     unsigned long long _arrowHeadStyle;
-    NSTextStorage *_annotationText;
-    NSDictionary *_typingAttributes;
-    NSColor *_foregroundColorHDR;
-    NSColor *_foregroundColorSDR;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
-    struct CGPoint _midPoint;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
@@ -35,54 +26,29 @@
 - (id);
 - (void);
 - (void);
+- (id)he] clipboard] here;
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long)MediaSession setPlaybackState:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)HMMediaSessionRequestMessageInformationKey;
+- (struct CGPoint)gn_keys = ON;
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
+- (void)p:(struct CGPoint)arg1;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (struct CGPoint);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
 - (void);
 - (void);
 - (id);
-- (id)w;
+- (id)AKSignatureTableCellView;
 
 // Remaining properties
-@property(retain) NSTextStorage *annotationText; // @synthesize annotationText=_annotationText;
-@property unsigned long long arrowHeadStyle; // @synthesize arrowHeadStyle=_arrowHeadStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property struct CGPoint endPoint; // @synthesize endPoint=_endPoint;
-@property(copy) NSColor *foregroundColor;
-@property(retain) NSColor *foregroundColorHDR; // @synthesize foregroundColorHDR=_foregroundColorHDR;
-@property(retain) NSColor *foregroundColorSDR; // @synthesize foregroundColorSDR=_foregroundColorSDR;
-@property unsigned long long formContentType;
-@property(readonly) unsigned long long hash;
-@property(getter=isHighlighted) _Bool highlighted;
-@property _Bool isDetectedSignature;
-@property _Bool isEditingText;
-@property unsigned long long maximumNumberOfCharacters;
-@property struct CGPoint midPoint; // @synthesize midPoint=_midPoint;
-@property _Bool shouldUsePlaceholderText;
 @property struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
-@property(readonly) Class superclass;
-@property NSString *textContentType;
-@property _Bool textIsClipped;
-@property _Bool textIsFixedHeight;
-@property _Bool textIsFixedWidth;
-@property(copy) NSDictionary *typingAttributes; // @synthesize typingAttributes=_typingAttributes;
 
 @end
 

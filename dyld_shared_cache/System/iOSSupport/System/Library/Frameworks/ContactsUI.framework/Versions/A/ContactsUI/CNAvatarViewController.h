@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSharedProfileStateOracle;
-@protocol CNUIObjectViewControllerDelegate;
-
 @interface CNAvatarViewController
 {
     _Bool _isPerformingTransition;
-    _Bool _allowStaleRendering;
-    id <CNUIObjectViewControllerDelegate> objectViewControllerDelegate;
-    CNSharedProfileStateOracle *_sharedProfileStateOracle;
 }
 
 + (id);
-+ (Class);
++ (Class)1;
 + (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (void);
@@ -34,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id)on: /* Error: Ran out of types for this method. */;
+- (id)thumbnailViewWithPlaceholderProvider:completion: /* Error: Ran out of types for this method. */;
 - (void)NContactListLimitedAccessTipCellDelegate>",W,N,V_delegate;
 
 @end

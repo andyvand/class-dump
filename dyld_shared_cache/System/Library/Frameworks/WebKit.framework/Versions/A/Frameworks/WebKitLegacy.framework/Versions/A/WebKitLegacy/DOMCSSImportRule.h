@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMCSSRule.h>
 
-@class DOMCSSStyleSheet, DOMMediaList, NSString;
+@class NSString;
 
 @interface DOMCSSImportRule : DOMCSSRule
 {
@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *href;
-@property(readonly) DOMMediaList *media;
-@property(readonly) DOMCSSStyleSheet *styleSheet;
 
 @end
 

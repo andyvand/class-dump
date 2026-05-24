@@ -6,14 +6,12 @@
 
 #import <ContactsUI/CNErrorViewController.h>
 
-@class NSString;
 @protocol CNContactViewControllerPPTDelegate, CNContactViewHostProtocol;
 
 __attribute__((visibility("hidden")))
 @interface CNContactViewServiceErrorViewController : CNErrorViewController
 {
     id <CNContactViewControllerPPTDelegate> pptDelegate;
-    id <CNContactViewHostProtocol> delegate;
 }
 
 - (void);
@@ -26,18 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)iewContainerLeadingConstraint;
+- (void)_avatarViewContainerLeadingConstraint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CNContactViewHostProtocol> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CNContactViewControllerPPTDelegate> pptDelegate; // @synthesize pptDelegate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CAMSchemaCAMClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_camId;
-    NSString *_resultCandidateId;
-    int _feature;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    struct {
-        unsigned int feature:1;
-    } _has;
-    _Bool _hasCamId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasRequestId;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -33,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -43,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (_Bool);
 - (void);
 - (void);
@@ -59,9 +46,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)Bz;
 - (id)maCAMAggregateFeatureValue";
-- (id);
+- (id)ASRSchemaASRFirstSecondAfterLeadingSilenceProcessed;
 - (id)À%÷ÿä%÷ÿ&÷ÿ,&÷ÿP&÷ÿt&÷ÿ&÷ÿ¼&÷ÿà&÷ÿ'÷ÿ('÷ÿL'÷ÿp'÷ÿ'÷ÿ¸'÷ÿÜ'÷ÿ;
 - (void)Ä<®ÿNÉ´{&;
 - (void)5\+;
@@ -70,18 +57,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *camId; // @synthesize camId=_camId;
-@property(nonatomic) int feature; // @synthesize feature=_feature;
-@property(nonatomic) _Bool hasCamId; // @synthesize hasCamId=_hasCamId;
-@property(nonatomic) _Bool hasFeature;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

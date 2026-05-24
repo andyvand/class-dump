@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)turning current date, failed sanity;
 - (id);
 - (id);
 - (id);

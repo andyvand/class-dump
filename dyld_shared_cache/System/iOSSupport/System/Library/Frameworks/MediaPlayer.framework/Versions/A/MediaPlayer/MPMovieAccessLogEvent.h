@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItemAccessLogEvent, NSDate, NSString;
+@class AVPlayerItemAccessLogEvent;
 
 @interface MPMovieAccessLogEvent
 {
@@ -27,23 +27,10 @@
 - (id);
 - (id);
 - (void)Iq}{?=qiIq}},N,V_timeRange;
-- (id)fierSetCodingKeyModelKind;
+- (id)MPIdentifierSetCodingKeyModelKind;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *URI;
-@property(readonly, nonatomic) double durationWatched;
-@property(readonly, nonatomic) double indicatedBitrate;
-@property(readonly, nonatomic) long long numberOfBytesTransferred;
-@property(readonly, nonatomic) long long numberOfDroppedVideoFrames;
 @property(readonly, nonatomic) unsigned long long numberOfSegmentsDownloaded;
-@property(readonly, nonatomic) unsigned long long numberOfServerAddressChanges;
-@property(readonly, nonatomic) long long numberOfStalls;
-@property(readonly, nonatomic) double observedBitrate;
-@property(readonly, nonatomic) NSString *playbackSessionID;
-@property(readonly, nonatomic) NSDate *playbackStartDate;
-@property(readonly, nonatomic) double playbackStartOffset;
-@property(readonly, nonatomic) double segmentsDownloadedDuration;
-@property(readonly, nonatomic) NSString *serverAddress;
 
 @end
 

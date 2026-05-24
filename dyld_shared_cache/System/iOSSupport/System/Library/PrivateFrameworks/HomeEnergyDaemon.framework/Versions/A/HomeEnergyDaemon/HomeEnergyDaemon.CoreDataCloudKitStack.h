@@ -8,23 +8,11 @@
 {
     id _tokenName;
     id _transactionAuthor;
-    id _storeName;
-    id _fetchCompleteNotification;
-    id _modelIdentifier;
-    id context;
-    id supportsEncryption;
-    id _privatePersistentStore;
-    id _sharedPersistentStore;
-    id sharedServer;
-    id privateServer;
-    id $__lazy_storage_$_persistentContainer;
-    id lastHistoryToken;
-    id $__lazy_storage_$_tokenFile;
-    id $__lazy_storage_$_historyQueue;
 }
 
-- (void);
-- (void);
+- (void)CXCallDirectoryManagerIdentificationEntriesChangedNotification;
+- (void)
+;
 
 @end
 

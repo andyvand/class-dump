@@ -31,11 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool accessibilityReaderEnabled;
-@property(nonatomic) _Bool accessibilityReaderHotkeyEnabled;
 @property(readonly, nonatomic) _Bool accessibilityReaderIsSupported;
-@property(nonatomic) _Bool autoStartSpeaking;
-@property(nonatomic) _Bool hasDefaultHotkey; // @synthesize hasDefaultHotkey=_hasDefaultHotkey;
 
 @end
 

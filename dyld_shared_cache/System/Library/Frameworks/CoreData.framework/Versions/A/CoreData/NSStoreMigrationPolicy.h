@@ -4,36 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSManagedObjectModel, NSMappingModel, NSMigrationManager, NSPersistentStoreCoordinator, NSString, NSURL;
+@class NSPersistentStoreCoordinator;
 
 __attribute__((visibility("hidden")))
 @interface NSStoreMigrationPolicy
 {
     NSPersistentStoreCoordinator *_coordinator;
-    NSURL *_sourceURL;
-    NSString *_sourceConfiguration;
-    NSDictionary *_sourceOptions;
-    NSManagedObjectModel *_sourceModel;
-    NSDictionary *_sourceMetadata;
-    NSMappingModel *_mappingModel;
-    NSURL *_destinationURL;
-    NSString *_destinationType;
-    NSString *_destinationConfiguration;
-    NSDictionary *_destinationOptions;
-    NSMigrationManager *_migrationManager;
-    NSArray *_resourceBundles;
-    long long _workingWithSkewedSource;
-    _Bool _forcedMigration;
-    NSString *_stageLabel;
-    NSString *_destinationConfigurationForCloudKitValidation;
-    void *_reserved2;
-    void *_reserved3;
-    void *_reserved4;
 }
 
 + (id);
 + (int);
-+ (void);
++ (void)!;
 - (id);
 - (id);
 - (id);

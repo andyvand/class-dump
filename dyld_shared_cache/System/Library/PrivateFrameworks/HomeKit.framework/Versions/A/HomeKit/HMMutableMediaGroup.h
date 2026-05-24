@@ -6,21 +6,17 @@
 
 #import <HomeKit/HMMediaGroup.h>
 
-@class NSArray, NSString, NSUUID;
+@class NSArray;
 
 @interface HMMutableMediaGroup : HMMediaGroup
 {
 }
 
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(copy) NSUUID *associatedGroupIdentifier; // @dynamic associatedGroupIdentifier;
-@property(getter=isDefaultName) _Bool defaultName; // @dynamic defaultName;
 @property(copy) NSArray *destinationUniqueIdentifiers; // @dynamic destinationUniqueIdentifiers;
-@property(copy) NSUUID *identifier; // @dynamic identifier;
-@property(copy) NSString *name; // @dynamic name;
 
 @end
 

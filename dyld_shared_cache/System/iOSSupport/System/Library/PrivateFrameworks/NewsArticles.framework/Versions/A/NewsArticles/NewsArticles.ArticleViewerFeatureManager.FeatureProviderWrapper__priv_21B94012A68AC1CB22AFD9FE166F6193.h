@@ -7,12 +7,6 @@
 @interface NewsArticles.ArticleViewerFeatureManager.FeatureProviderWrapper__priv_21B94012A68AC1CB22AFD9FE166F6193
 {
     id feature;
-    id initialize;
-    id createTransition;
-    id shouldShowBlock;
-    id navigationBarPaletteHeightBlock;
-    id shouldShowOnScrollAppearanceBlock;
-    id pageVisibilityDidChangeBlock;
 }
 
 @end

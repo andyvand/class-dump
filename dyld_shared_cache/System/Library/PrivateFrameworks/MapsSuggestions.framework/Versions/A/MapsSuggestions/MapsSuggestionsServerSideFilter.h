@@ -11,30 +11,6 @@
 @interface MapsSuggestionsServerSideFilter : MapsSuggestionsBaseFilter
 {
     _Bool _enabledEntryTypeUnknown;
-    _Bool _enabledEntryTypeHome;
-    _Bool _enabledEntryTypeWork;
-    _Bool _enabledEntryTypeCalendarEvent;
-    _Bool _enabledEntryTypeFrequentLocation;
-    _Bool _enabledEntryTypeRecentHistory;
-    _Bool _enabledEntryTypeOldPreYukonFavorite;
-    _Bool _enabledEntryTypeParkedCar;
-    _Bool _enabledEntryTypeRestaurantReservation;
-    _Bool _enabledEntryTypeRidesharing;
-    _Bool _enabledEntryTypeCarPlayLowEnergy;
-    _Bool _enabledEntryTypeResumeRoute;
-    _Bool _enabledEntryTypeAppConnection;
-    _Bool _enabledEntryTypeHotel;
-    _Bool _enabledEntryTypeCarRental;
-    _Bool _enabledEntryTypeTravelFlight;
-    _Bool _enabledEntryTypeTicketedEvent;
-    _Bool _enabledEntryTypePortrait;
-    _Bool _enabledEntryTypeUserPlace;
-    _Bool _enabledEntryTypeSchool;
-    _Bool _enabledEntryTypeVehicleSetup;
-    _Bool _enabledEntryTypeFavoriteButton;
-    _Bool _enabledEntryTypeOrderStatus;
-    _Bool _enabledEntryTypeContactActivity;
-    _Bool _enabledEntryTypeCurrentLocationOfInterest;
 }
 
 + (_Bool);
@@ -42,13 +18,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

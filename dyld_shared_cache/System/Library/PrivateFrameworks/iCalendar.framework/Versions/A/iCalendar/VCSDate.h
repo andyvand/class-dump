@@ -9,30 +9,26 @@
 @interface VCSDate
 {
     _Bool _floating;
-    _Bool _dateOnly;
-    NSDateComponents *_components;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id)A;
+- (id)҅";
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDateComponents *components; // @synthesize components=_components;
-@property(readonly, nonatomic) _Bool dateOnly; // @synthesize dateOnly=_dateOnly;
-@property(readonly, nonatomic) _Bool floating; // @synthesize floating=_floating;
 
 @end
 

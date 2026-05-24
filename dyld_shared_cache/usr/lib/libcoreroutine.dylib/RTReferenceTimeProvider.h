@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)__objc_classlist__DATA_CONST;
 
 @end
 

@@ -15,13 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (_Bool);
+- (void)MSPTransitStorageArtwork",&,N,V_artwork;
+- (_Bool)w around %2$@.;
 - (id)l;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *ownerName; // @dynamic ownerName;
-@property(nonatomic) _Bool requiresHomeManagerUpdate; // @synthesize requiresHomeManagerUpdate=_requiresHomeManagerUpdate;
 
 @end
 

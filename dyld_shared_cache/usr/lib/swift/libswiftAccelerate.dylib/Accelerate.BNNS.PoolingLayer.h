@@ -9,8 +9,6 @@
 @interface Accelerate.BNNS.PoolingLayer : Accelerate.BNNS.Layer
 {
     id indices;
-    id indicesDescriptor;
-    id indicesBatchStride;
 }
 
 @end

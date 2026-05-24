@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (id);
-- (double)illedContextMenuConfiguration;
+- (double)_UIFulfilledContextMenuConfiguration;
 - (double)ier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 
 @end

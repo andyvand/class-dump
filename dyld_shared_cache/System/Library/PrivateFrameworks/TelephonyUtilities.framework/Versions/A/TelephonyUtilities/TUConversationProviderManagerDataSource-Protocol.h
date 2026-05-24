@@ -7,7 +7,8 @@
 @class TUHandle;
 
 @protocol TUConversationProviderManagerDataSource
-- (void)ngFaceTimeAudioCalls;
-- (void)jectsFromSet:(TUHandle *)arg1;
+- (void);
+- (void)supportsHostingFaceTimeAudioCalls;
+- (void)setByAddingObjectsFromSet:(TUHandle *)arg1;
 @end
 

@@ -9,7 +9,6 @@
 @interface LPPlayButtonPresentationProperties
 {
     _Bool _disabled;
-    NSColor *_accentColor;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *accentColor; // @synthesize accentColor=_accentColor;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
 
 @end
 

@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTimer, TIKeyboardCandidate, TISmartPunctuationController, TIWordSearch;
+@class NSString, TISmartPunctuationController, TIWordSearch;
 
 @interface TIKeyboardInputManagerLiveConversion_ja
 {
     _Bool _autoSelectFirstCandidate;
     TIWordSearch *_wordSearch;
-    NSArray *_committedSegments;
-    NSArray *_segments;
-    TISmartPunctuationController *_smartPunctuationController;
-    unsigned long long _segmentIndex;
-    TIKeyboardCandidate *_topCandidate;
-    TIKeyboardCandidate *_currentCandidate;
-    NSString *_currentDictionaryReading;
-    TIKeyboardCandidate *_remainingCandidate;
-    CDUnknownBlockType _syncKeyboardStateHandler;
-    NSTimer *_timer;
-    double _predictionThreshold;
-    unsigned long long _candidateBehavior;
-    long long _transliterationType;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)TIA;
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -42,20 +29,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)9h;
+- (void)�;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -64,11 +51,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)N*Z;
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)A9H;
 - (void);
 - (_Bool);
 - (id);
@@ -79,11 +66,11 @@
 - (void *);
 - (void);
 - (id);
-- (struct _NSRange);
-- (_Bool);
+- (struct _NSRange));
+- (_Bool);
 - (id);
-- (void);
-- (double);
+- (void);
+- (double)apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-3.3/crypto/cms/cms_kari.c;
 - (long long);
 - (void);
 - (id);
@@ -106,39 +93,21 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
+- (void)	;
+- (id)@;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)sparserendering_xhlrb_copy_back;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id)ionaryReading;
+- (id)currentDictionaryReading;
 
 // Remaining properties
-@property(nonatomic) _Bool autoSelectFirstCandidate; // @synthesize autoSelectFirstCandidate=_autoSelectFirstCandidate;
-@property(nonatomic) unsigned long long candidateBehavior; // @synthesize candidateBehavior=_candidateBehavior;
-@property(copy, nonatomic) NSArray *committedSegments; // @synthesize committedSegments=_committedSegments;
-@property(readonly, copy, nonatomic) NSString *committedSurface;
-@property(copy, nonatomic) TIKeyboardCandidate *currentCandidate; // @synthesize currentCandidate=_currentCandidate;
-@property(copy, nonatomic) NSString *currentDictionaryReading; // @synthesize currentDictionaryReading=_currentDictionaryReading;
-@property(readonly, nonatomic) NSString *displayStringForSearch;
-@property(readonly, copy, nonatomic) NSString *inputStringForHiraganaMode;
-@property(nonatomic) double predictionThreshold; // @synthesize predictionThreshold=_predictionThreshold;
-@property(readonly, nonatomic) NSString *rawInputStringForPrediction;
-@property(copy, nonatomic) TIKeyboardCandidate *remainingCandidate; // @synthesize remainingCandidate=_remainingCandidate;
 @property(copy, nonatomic) NSString *remainingInput;
-@property(nonatomic) unsigned long long segmentIndex; // @synthesize segmentIndex=_segmentIndex;
-@property(copy, nonatomic) NSArray *segments; // @synthesize segments=_segments;
-@property(readonly, nonatomic) NSArray *segmentsForPicker;
 @property(readonly, nonatomic) TISmartPunctuationController *smartPunctuationController; // @synthesize smartPunctuationController=_smartPunctuationController;
-@property(copy, nonatomic) CDUnknownBlockType syncKeyboardStateHandler; // @synthesize syncKeyboardStateHandler=_syncKeyboardStateHandler;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
-@property(copy, nonatomic) TIKeyboardCandidate *topCandidate; // @synthesize topCandidate=_topCandidate;
-@property(nonatomic) long long transliterationType; // @synthesize transliterationType=_transliterationType;
 
 @end
 

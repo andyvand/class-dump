@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)tem/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
 - (_Bool);
 - (unsigned long long);
 - (id);

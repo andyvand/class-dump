@@ -6,69 +6,52 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSAttributedString, NSColor, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPalettePushButton : NSControl
 {
     NSTextField *_titleField;
-    NSString *_title;
-    _Bool _isHighlighted;
-    double _paletteScaleFactor;
-    id _autounbinder;
 }
 
++ (id)tializing NSHTTPCookieStorage singleton;
++ (id)n;
++ (id)be set. AcceptPolicy = %lu. Cookie = %@;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)FWriteStream}ddqqC^{HTTPServerRequest}^{PendingQueue}^{ActiveResponseInfo}^{__CFData}^{LeftoverBuffer}q@@^{__CFRunLoopTimer}}8;
+- (_Bool)CName cannot be NULL when kAMFDRDecodeOptionSubCCOnly is set.;
+- (_Bool)gth (length=%u);
 - (void);
 - (double);
 - (_Bool);
+- (id)NSURLSessionTaskSubclass;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)u;
+- (id)_kCFNetworkHSTSExpiry;
+- (void)P;
 - (_Bool);
 - (double);
 - (double);
 - (double);
 - (oneway void);
 - (_Bool);
-- (void);
+- (void)D4;
 - (struct CGSize);
 - (void)3ð1Â0@ù
 × ;
 - (void)_NSRange=QQ}16@32;
-- (id)etPositionEstimated:(struct CGRect)arg1;
+- (id)setPositionEstimated:(struct CGRect)arg1;
 - (void)\;
-- (id)EcSg;
+- (id)yySo6NSViewCXEcSg;
 - (id)ÀªhyBÝhGG_Qo__¡DhQo_;
-- (id)ustedUIFeatureFlags;
+- (id)TrustedUIFeatureFlags;
 - (_Bool);
 - (void)%SÅA;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSColor *_bezelBackgroundColor;
-@property(readonly, copy) NSAttributedString *_labelFontAttributedString;
-@property(readonly) double _labelFontSize;
-@property(readonly, copy) NSColor *_labelTextColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_isHighlighted;
-@property double paletteScaleFactor; // @synthesize paletteScaleFactor=_paletteScaleFactor;
-@property(readonly) Class superclass;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

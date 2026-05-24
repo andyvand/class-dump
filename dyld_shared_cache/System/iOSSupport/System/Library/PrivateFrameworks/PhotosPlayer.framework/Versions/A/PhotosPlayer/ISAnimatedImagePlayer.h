@@ -4,64 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISAnimatedImageTimer, NSHashTable, NSString, PFAnimatedImage;
+@class NSHashTable;
 
 @interface ISAnimatedImagePlayer
 {
     NSHashTable *_weakDestinations;
-    PFAnimatedImage *_image;
-    ISAnimatedImageTimer *_timer;
-    struct CGImage *_currentImage;
-    _Bool _hasStartedAnimating;
-    _Bool _hasFinishedAnimating;
-    double _timeAccumulator;
-    double _previousFrameTime;
-    _Bool _infiniteLoop;
-    unsigned long long _remainingLoopCount;
-    _Bool _playing;
-    _Bool _allowFrameDrops;
-    unsigned long long _displayedFrameIndex;
 }
 
+- (void)_adIgnorableViewFactory;
+- (void)nge=QQ},N,V_actualRange;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (unsigned long long)ance;
+- (_Bool)N,V_expanded;
+- (void)ayout;
+- (void)verseLayout;
+- (void)backEvent;
+- (void)equestedPlayback;
+- (void)s;
+- (_Bool)UIView",R,N,V_gestureView;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)g;
+- (void)Provider.m;
 - (void);
 - (void);
 - (struct CGImage *);
-- (_Bool);
+- (_Bool)_remote_IXSCoordinatedAppInstall:setProgressHint:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)oxy;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFrameDrops; // @synthesize allowFrameDrops=_allowFrameDrops;
-@property(readonly, nonatomic) PFAnimatedImage *animatedImage;
 @property(nonatomic) struct CGImage *currentImage; // @synthesize currentImage=_currentImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayedFrameIndex; // @synthesize displayedFrameIndex=_displayedFrameIndex;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(readonly) Class superclass;
 
 @end
 

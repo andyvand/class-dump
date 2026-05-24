@@ -5,5 +5,7 @@
 //
 
 @protocol CXCallControllerHostConnectionDelegate
+- (void)lic}@;
+- (void);
 @end
 

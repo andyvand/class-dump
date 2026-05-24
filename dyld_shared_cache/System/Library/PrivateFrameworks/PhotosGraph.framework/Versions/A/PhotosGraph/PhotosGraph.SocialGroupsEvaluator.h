@@ -7,11 +7,10 @@
 @interface PhotosGraph.SocialGroupsEvaluator
 {
     id graph;
-    id photoLibrary;
 }
 
 - (id);
-- (void)lexMLAnalysis;
+- (void)wrappedFlexMLAnalysis;
 
 @end
 

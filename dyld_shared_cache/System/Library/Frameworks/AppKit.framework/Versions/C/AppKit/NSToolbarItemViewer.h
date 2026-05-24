@@ -6,55 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMapTable, NSMutableArray, NSPanGestureRecognizer, NSPortalView, NSToolbar, NSToolbarItem, NSToolbarLabelStack, NSToolbarPlatterView, NSToolbarView, _NSToolbarItemBadgeView;
+@class NSToolbarItem;
 
 @interface NSToolbarItemViewer : NSView
 {
     NSToolbarItem *_item;
-    NSToolbarView *_toolbarView;
-    NSToolbarLabelStack *_labelStack;
-    long long _priorityIndex;
-    NSMutableArray *_activeConstraints;
-    struct CGSize _maxViewerSize;
-    struct CGSize _minViewerSize;
-    struct CGSize _scalableMinIconSize;
-    struct CGSize _scalableMaxIconSize;
-    double _preferredTrailingPosition;
-    double _widthRequiredForLabelLayout;
-    NSToolbarView *_savedToolbarView;
-    NSToolbarItem *_savedItem;
-    NSToolbar *_savedToolbar;
-    _Bool _savedVisibility;
-    NSView *_selectionWidget;
-    NSMutableArray *_hiddenItemDecorationViews;
-    NSPortalView *_portalView;
-    NSPanGestureRecognizer *_panGR;
-    NSMapTable *_toolTipsToItems;
-    NSToolbarPlatterView *_associatedPlatter;
-    struct {
-        unsigned int drawsIconPart:1;
-        unsigned int drawsLabelPart:1;
-        unsigned int iconAreaIncludesLabelArea:1;
-        unsigned int labelOnlyShowsAsPopupMenu:1;
-        unsigned int needsModeConfiguration:1;
-        unsigned int inPaletteView:1;
-        unsigned int returnFocusToWindowAfterClick:1;
-        unsigned int needsInitialAutovalidation:1;
-        unsigned int accessibilityAddedDescriptionToSubelements:1;
-        unsigned int configuringForLayout:1;
-        unsigned int needsPreferredTrailingPositionUpdate:1;
-        unsigned int pressed:1;
-        unsigned int rollover:1;
-        unsigned int needsViewerSizeUpdate:1;
-        unsigned int wantsToBeCentered:1;
-        unsigned int needsToolTipUpdate:1;
-        unsigned int inEditingMode:1;
-        unsigned int inGlassSidebar:1;
-        unsigned int animatingIn:1;
-        unsigned int animatingOut:1;
-        unsigned int becomingUnhidden:1;
-    } _tbivFlags;
-    _NSToolbarItemBadgeView *_badgeView;
 }
 
 @end

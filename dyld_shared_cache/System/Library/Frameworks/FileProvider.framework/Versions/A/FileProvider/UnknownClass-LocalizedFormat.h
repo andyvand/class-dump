@@ -9,18 +9,18 @@
 @interface UnknownClass (LocalizedFormat)
 + (void);
 + (id);
-+ (struct __CFStringTokenizer *);
-+ (id);
-+ (id);
++ (struct __CFStringTokenizer *)L;
++ (id)R(;
++ (id);
 + (id);
 + (unsigned long long);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id));
++ (id);
+- (id)M;
 - (_Bool);
 - (id);
 - (id);
@@ -28,24 +28,24 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)M;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)M;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)AM;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)M;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)M;
 - (id);
-- (id);
-- (const char *);
+- (const char *)M;
 - (void);
 - (id);
 - (id);
@@ -55,7 +55,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (_Bool);
 - (id);
@@ -63,7 +63,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)E9;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fp_obfuscatedProviderDomainID;

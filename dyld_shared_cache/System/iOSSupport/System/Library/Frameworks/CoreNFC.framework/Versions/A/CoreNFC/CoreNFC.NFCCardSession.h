@@ -8,9 +8,6 @@
 {
     id $defaultActor;
     id cardSession;
-    id fieldDetectSession;
-    id eventStreamContinuation;
-    id lastReceivedAPDU;
 }
 
 @end

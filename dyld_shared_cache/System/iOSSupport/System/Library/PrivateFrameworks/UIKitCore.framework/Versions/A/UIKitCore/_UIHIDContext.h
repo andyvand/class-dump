@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIHIDContext
 {
     _UIHIDPathCollection *pathCollection;
-    unsigned long long state;
-    unsigned long long remoteTimestamp;
 }
 
 - (void)Õ©Òäh[;

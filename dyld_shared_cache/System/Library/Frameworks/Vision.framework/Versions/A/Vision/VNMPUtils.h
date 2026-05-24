@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (long long);
 + (unsigned long long);
 + (double);
-+ (void);
++ (void)C;
 + (id);
 
 @end

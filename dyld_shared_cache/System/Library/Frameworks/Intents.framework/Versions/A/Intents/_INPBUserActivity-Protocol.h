@@ -7,14 +7,12 @@
 @class NSData, NSString;
 
 @protocol _INPBUserActivity
+- (_Bool);
+- (void);
+- (NSData *);
 - (NSString *)e missing identifiers, so it can not be trusted as a source for remote truth.;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly, nonatomic) _Bool hasUri;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *uri;
 @end
 

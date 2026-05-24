@@ -6,30 +6,21 @@
 
 #import <HomeKitDaemon/HMDTrigger.h>
 
-@class NSArray, NSDate, NSDateComponents, NSString, NSTimeZone;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface HMDTimerTrigger : HMDTrigger
 {
     struct os_unfair_lock_s _lock;
-    NSDate *currentFireDate;
-    NSDate *_currentFireDate;
-    NSDate *_fireDate;
-    NSTimeZone *_fireDateTimeZone;
-    NSString *_significantEvent;
-    NSDateComponents *_significantEventOffset;
-    NSDateComponents *_fireRepeatInterval;
-    NSArray *_recurrences;
-    NSString *_timerID;
 }
 
++ (id)/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity;
++ (id)Data"16@"NSError"24;
++ (id)ipContact"24@?0@"NSString"8Q16;
++ (id)ced marker file:(id)arg1 %@;
++ (id)set no backup attribute for %@.;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)enumerateSocialGroupNodesWithRelationship:(id)arg1 usingBlock:(id)arg2;
 + (_Bool)#°#Ø#;
 + (id)(C;
 - (void);
@@ -37,12 +28,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)replaceObjectInEditableObjectsAtIndex:(id)arg1 withObject:(id)arg2;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)gate %@;
+- (id)}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (id)%{public}@, arrivedTimestamp:%{public}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (id)GEOTransitArtworkUseTypeSystem;
 - (void);
 - (void);
 - (void);
@@ -50,32 +51,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)^;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)v28@0:(id)arg1 8@16B24;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)d not find descriptor;
 - (id);
 - (unsigned long long);
 - (void);
@@ -87,19 +88,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)usChange;
-- (id);
+- (id)rootDestinationIdentfierForDestinationIdentifier:(long long)arg1;
 - (void)P>;
 - (void);
 
 // Remaining properties
-@property(readonly) NSDate *currentFireDate; // @synthesize currentFireDate=_currentFireDate;
 @property(copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(copy, nonatomic) NSTimeZone *fireDateTimeZone; // @synthesize fireDateTimeZone=_fireDateTimeZone;
-@property(copy, nonatomic) NSDateComponents *fireRepeatInterval; // @synthesize fireRepeatInterval=_fireRepeatInterval;
-@property(copy, nonatomic) NSArray *recurrences; // @synthesize recurrences=_recurrences;
-@property(copy, nonatomic) NSString *significantEvent; // @synthesize significantEvent=_significantEvent;
-@property(copy, nonatomic) NSDateComponents *significantEventOffset; // @synthesize significantEventOffset=_significantEventOffset;
-@property(retain, nonatomic) NSString *timerID; // @synthesize timerID=_timerID;
 
 @end
 

@@ -16,12 +16,12 @@
 - (unsigned int);
 - (id);
 - (id);
+- (_Bool)@9?q;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)c;
 - (void);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (void);
 - (struct CGRect);

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, WBSPublicKeyCredentialIdentifier;
+@class NSString;
 
 @interface WBSAutoFillPasskey
 {
     _Bool _shouldRequireUserVerification;
-    _Bool _requestUsedNonEmptyAllowList;
-    NSString *_username;
-    NSString *_customTitle;
-    NSString *_relyingPartyIdentifier;
-    WBSPublicKeyCredentialIdentifier *_identifier;
-    NSUUID *_operationUUID;
 }
 
 + (_Bool);
@@ -24,19 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)|;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *customTitle; // @synthesize customTitle=_customTitle;
-@property(readonly, copy, nonatomic) WBSPublicKeyCredentialIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSUUID *operationUUID; // @synthesize operationUUID=_operationUUID;
-@property(readonly, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(readonly, nonatomic) _Bool requestUsedNonEmptyAllowList; // @synthesize requestUsedNonEmptyAllowList=_requestUsedNonEmptyAllowList;
-@property(readonly, nonatomic) _Bool shouldRequireUserVerification; // @synthesize shouldRequireUserVerification=_shouldRequireUserVerification;
 @property(readonly, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

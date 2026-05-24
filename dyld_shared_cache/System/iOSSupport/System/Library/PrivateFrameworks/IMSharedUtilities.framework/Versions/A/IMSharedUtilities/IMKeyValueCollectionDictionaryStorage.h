@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface IMKeyValueCollectionDictionaryStorage
 {
@@ -17,19 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)*;
+- (id)`;
+- (void)RawValue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSDictionary *dictionary;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

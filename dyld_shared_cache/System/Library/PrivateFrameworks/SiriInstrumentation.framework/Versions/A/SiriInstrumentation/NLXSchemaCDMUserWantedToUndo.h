@@ -6,33 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMUserWantedToUndo : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)ts;
 - (id);
 - (void);
-- (void);
+- (void)o Qualifiers
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)DisambiguationSelectedApp;
-- (id)ion;
+- (id)whichSuggestion;
 - (_Bool)dTier1.metadataTier1s.appBundleId;
 - (_Bool)³ÙÿP­*";
 - (void)°Y&;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

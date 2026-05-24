@@ -9,23 +9,19 @@
 @interface _MDQueryRewrite
 {
     float _score;
-    NSString *_queryString;
-    id _searchQueryContext;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (float);
+- (float)%;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(retain, nonatomic) id searchQueryContext; // @synthesize searchQueryContext=_searchQueryContext;
 
 @end
 

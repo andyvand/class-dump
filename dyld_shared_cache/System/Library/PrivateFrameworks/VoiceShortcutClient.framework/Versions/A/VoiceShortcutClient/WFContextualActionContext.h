@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface WFContextualActionContext
 {
     _Bool _allowsExpensiveFetch;
-    unsigned long long _surface;
-    NSArray *_files;
-    NSArray *_historicalActionIdentifiers;
-    NSDate *_preciseTimestamp;
-    NSString *_staccatoInteractionType;
 }
 
-- (id);
+- (id)z;
+- (void)43|;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)r2|;
+- (_Bool);
+- (void)s;
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
@@ -36,12 +31,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsExpensiveFetch; // @synthesize allowsExpensiveFetch=_allowsExpensiveFetch;
-@property(retain, nonatomic) NSArray *files; // @synthesize files=_files;
 @property(retain, nonatomic) NSArray *historicalActionIdentifiers; // @synthesize historicalActionIdentifiers=_historicalActionIdentifiers;
-@property(retain, nonatomic) NSDate *preciseTimestamp; // @synthesize preciseTimestamp=_preciseTimestamp;
-@property(retain, nonatomic) NSString *staccatoInteractionType; // @synthesize staccatoInteractionType=_staccatoInteractionType;
-@property(nonatomic) unsigned long long surface; // @synthesize surface=_surface;
 
 @end
 

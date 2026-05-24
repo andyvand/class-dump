@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)pecify EnumValues except with Type=enum;
 - (void);
 - (void);
 - (id);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(retain) IMAPNetworkTaskHandler *handler;
-@property(retain, nonatomic) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
 
 @end
 

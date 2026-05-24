@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned short);
 - (id);
-- (id);
+- (id)startContentTransitionButtonTouchUpInside: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned short hashAlgorithm; // @synthesize hashAlgorithm=_hashAlgorithm;

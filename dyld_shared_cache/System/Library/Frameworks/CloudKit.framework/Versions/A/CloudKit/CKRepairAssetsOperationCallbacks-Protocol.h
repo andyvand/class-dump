@@ -5,5 +5,6 @@
 //
 
 @protocol CKRepairAssetsOperationCallbacks
+- (void);
 @end
 

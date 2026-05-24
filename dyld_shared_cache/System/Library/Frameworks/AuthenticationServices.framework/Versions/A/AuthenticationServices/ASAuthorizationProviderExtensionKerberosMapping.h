@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, POKerberosMapping;
+@class POKerberosMapping;
 
 @interface ASAuthorizationProviderExtensionKerberosMapping
 {
@@ -27,18 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tabDialogDidChangeInBrowserViewController:isHTTPAuthenticationDialog: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientNameKeyName;
-@property(copy, nonatomic) NSString *encryptionKeyTypeKeyName;
 @property(readonly, nonatomic) POKerberosMapping *kerberosMapping; // @synthesize kerberosMapping=_kerberosMapping;
-@property(copy, nonatomic) NSString *messageBufferKeyName;
-@property(copy, nonatomic) NSString *realmKeyName;
-@property(copy, nonatomic) NSString *serviceNameKeyName;
-@property(copy, nonatomic) NSString *sessionKeyKeyName;
-@property(copy, nonatomic) NSString *ticketKeyPath;
 
 @end
 

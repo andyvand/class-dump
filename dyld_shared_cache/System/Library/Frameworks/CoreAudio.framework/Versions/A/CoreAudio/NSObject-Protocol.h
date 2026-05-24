@@ -7,19 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)`;
+- (oneway void)n off12 instruction 0x%08X at 0x%0llX;
+- (NSString *)h;
+- (_Bool)Derive;
 - (_Bool)dRoots/4~CNqLugBJSMfXApOdfSRTL4ESLmBoEVBehqqDz6s/Library/Caches/com.apple.xbs/TemporaryDirectory.cVSWRV/Sources/AudioHAL/submodules/ahal_dsp_lib_repo/ahal_dsp_hosting_lib/src/plugin/spi-classic/ahal_dsp_spi_util_request.cpp;
-- (struct _NSZone *)pterE;
+- (struct _NSZone *)N9HALHealth7AdapterE;
 
 @optional
 - (NSString *)H5W;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

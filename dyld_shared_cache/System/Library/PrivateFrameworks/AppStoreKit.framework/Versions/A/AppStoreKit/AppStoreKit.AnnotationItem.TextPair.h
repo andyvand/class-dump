@@ -7,7 +7,6 @@
 @interface AppStoreKit.AnnotationItem.TextPair
 {
     id leadingText;
-    id trailingText;
 }
 
 @end

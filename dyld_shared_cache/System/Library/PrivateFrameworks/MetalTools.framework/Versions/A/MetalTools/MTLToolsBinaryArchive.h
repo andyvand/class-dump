@@ -6,9 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSArray, NSString;
-@protocol MTLDevice;
-
 @interface MTLToolsBinaryArchive : MTLToolsObject
 {
 }
@@ -18,7 +15,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (struct MTLPipelineCollection *);
+- (struct MTLPipelineCollection *)�;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -28,31 +25,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�A�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)c;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool) ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *keys;
-@property(copy) NSString *label;
 @property(readonly) unsigned long long options;
-@property(readonly) Class superclass;
 
 @end
 

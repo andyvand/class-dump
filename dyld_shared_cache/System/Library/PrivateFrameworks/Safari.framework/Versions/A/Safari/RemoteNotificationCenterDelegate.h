@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableSet, NSString, NSURL, NSUserNotificationCenter, RemoteNotificationCenterRequest, SafariNotificationAgentDelegate;
+@class NSMutableSet, NSString;
 
 __attribute__((visibility("hidden")))
 @interface RemoteNotificationCenterDelegate
 {
     NSMutableSet *_requests;
-    NSUserNotificationCenter *_center;
-    NSString *_websiteIdentifier;
-    RemoteNotificationCenterRequest *_pendingCenterRequest;
-    _Bool _websitePackageDataLoaded;
-    SafariNotificationAgentDelegate *_agentDelegate;
-    NSString *_referrerURLHost;
-    NSString *_name;
-    NSString *_urlFormatString;
-    NSArray *_allowedDomains;
-    NSString *_authorizationToken;
-    NSURL *_apiURL;
-    NSString *_deviceToken;
-    NSDate *_dateAdded;
 }
 
 - (id);
@@ -32,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
 - (id);
@@ -41,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -50,36 +37,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ownerPlaySoundCount;
 - (id)Ô ;
-- (void)Extras;
+- (void)SafariWKWebViewExtras;
 - (void)run:(id)arg1 dvdo defaults write com.apple.Safari %@ %@;
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allowedDomains; // @synthesize allowedDomains=_allowedDomains;
-@property(retain, nonatomic) NSURL *apiURL; // @synthesize apiURL=_apiURL;
-@property(retain, nonatomic) NSString *authorizationToken; // @synthesize authorizationToken=_authorizationToken;
-@property(retain, nonatomic) NSUserNotificationCenter *center; // @synthesize center=_center;
-@property(retain, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *urlFormatString; // @synthesize urlFormatString=_urlFormatString;
-@property(retain, nonatomic) NSString *websiteIdentifier; // @synthesize websiteIdentifier=_websiteIdentifier;
 
 @end
 

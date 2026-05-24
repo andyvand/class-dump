@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITraitCollection, _UISplitViewControllerStyle;
+@class _UISplitViewControllerAdaptiveColumn, _UISplitViewControllerStyle;
 
 @protocol _UISplitViewControllerAdaptiveLayoutDataSource
+- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns)y;
+- (_UISplitViewControllerAdaptiveColumn *);
+- (struct UIEdgeInsets)}};
 - (struct CGSize);
 - (_Bool)move layers %@ from environment:<%p:%@>. /* Error: Ran out of types for this method. */;
 - (long long)D0þÿ;
@@ -14,13 +17,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets containerInsets;
-@property(readonly, nonatomic) struct CGSize containerSize;
-@property(readonly, nonatomic) _Bool hasAppeared;
-@property(readonly, nonatomic) _Bool isRTL;
-@property(readonly, nonatomic) struct _UISplitViewControllerAdaptiveLayoutPreferredColumns preferredColumns;
-@property(readonly, nonatomic) long long primaryEdge;
-@property(readonly, nonatomic) long long style;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
-@property(readonly, nonatomic) _UISplitViewControllerStyle *visualStyle;
 @end
 

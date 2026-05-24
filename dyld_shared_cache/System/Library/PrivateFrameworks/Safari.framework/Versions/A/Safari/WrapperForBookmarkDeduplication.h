@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SafariWebBookmark;
+@class SafariWebBookmark;
 
 __attribute__((visibility("hidden")))
 @interface WrapperForBookmarkDeduplication
 {
     int _type;
-    NSString *_title;
-    NSString *_urlString;
-    _Bool _hasSyncData;
-    SafariWebBookmark *_bookmark;
 }
 
 - (_Bool);
@@ -28,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) SafariWebBookmark *bookmark; // @synthesize bookmark=_bookmark;
-@property(readonly, nonatomic) _Bool hasSyncData; // @synthesize hasSyncData=_hasSyncData;
 
 @end
 

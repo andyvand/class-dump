@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPixelFormat;
-
 @interface NUCVPixelBuffer
 {
     struct __CVBuffer *_buffer;
@@ -16,23 +14,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (CDStruct_912cb5d2);
 - (id);
 - (id)icy) [T = long];
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *CVPixelBuffer; // @synthesize CVPixelBuffer=_buffer;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
 
 @end
 

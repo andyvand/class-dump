@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPClearInputFeedback
+- (unsigned long long);
 - (void)tyQueryCommandForFeedback"16@0:(int)arg1 8;
-- (int)CaptureDeviceTokens;
+- (int)_hasCaptureDeviceTokens;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
 @end
 

@@ -7,8 +7,6 @@
 @interface PKApplicationMessageRequest
 {
     _Bool _badge;
-    _Bool _resetCreatedDate;
-    unsigned long long _priority;
 }
 
 - (void);
@@ -19,9 +17,7 @@
 - (_Bool)P;!;
 
 // Remaining properties
-@property(nonatomic) _Bool badge; // @synthesize badge=_badge;
 @property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(nonatomic) _Bool resetCreatedDate; // @synthesize resetCreatedDate=_resetCreatedDate;
 
 @end
 

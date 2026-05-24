@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface WDCitationAuthor
 {
     NSString *mFirst;
-    NSString *mLast;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_Organizer;
 - (id);
 - (void)dle resource package named %@ (caught exception:(id)arg1 %@);
 - (void)mza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/sf/SFUCryptoInputStream.m;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *first; // @synthesize first=mFirst;
-@property(retain, nonatomic) NSString *last; // @synthesize last=mLast;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol ChatKit.CKTextEffectCoordinatorDelegate
+- (void);
+- (_Bool)PC;
 @end
 

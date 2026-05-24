@@ -7,8 +7,6 @@
 @interface (extension in NotesUI):__C.ICCalculateDocumentController.Scanner
 {
     id controller;
-    id expressionDelimiter;
-    id options;
 }
 
 @end

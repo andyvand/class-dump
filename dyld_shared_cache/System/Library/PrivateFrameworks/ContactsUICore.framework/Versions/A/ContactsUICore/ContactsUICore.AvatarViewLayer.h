@@ -7,17 +7,13 @@
 @interface ContactsUICore.AvatarViewLayer
 {
     id spec;
-    id model;
-    id modelListener;
-    id foregroundLayer;
-    id backgroundLayer;
 }
 
+- (id)B;
 - (id);
-- (id);
-- (id);
+- (id)3@;
 - (void);
-- (void)oreEditingContact: /* Error: Ran out of types for this method. */;
+- (void)restoreEditingContact: /* Error: Ran out of types for this method. */;
 
 @end
 

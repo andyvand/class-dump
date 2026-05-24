@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface CalUIPopupWindowState
 {
     _Bool _allowsMultipleMonthlyDayButtons;
-    _Bool _allowsYearlyIntervalChange;
-    _Bool _allowsMultipleYearlyMonthButtons;
-    _Bool _yearlyByDaySwitch;
-    unsigned short _weeklyDayButtons;
-    int _monthlyRuleType;
-    int _monthlyOrdinalValue;
-    int _monthlyOrdinalDayValue;
-    int _yearlyOrdinalValue;
-    int _yearlyOrdinalDayValue;
-    long long _frequencySelectorValue;
-    long long _dailyIntervalValue;
-    long long _weeklyIntervalValue;
-    long long _monthlyIntervalValue;
-    NSMutableArray *_monthlyDayButtons;
-    long long _yearlyIntervalValue;
-    NSMutableArray *_yearlyMonthButtons;
 }
 
 - (int);
@@ -34,7 +16,7 @@
 - (_Bool);
 - (long long);
 - (unsigned short);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
@@ -53,10 +35,10 @@
 - (void);
 - (int);
 - (int);
-- (long long);
-- (id);
-- (long long);
-- (long long);
+- (long long);
+- (id)?	;
+- (long long);
+- (long long)a;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -64,27 +46,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property _Bool allowsMultipleMonthlyDayButtons; // @synthesize allowsMultipleMonthlyDayButtons=_allowsMultipleMonthlyDayButtons;
-@property _Bool allowsMultipleYearlyMonthButtons; // @synthesize allowsMultipleYearlyMonthButtons=_allowsMultipleYearlyMonthButtons;
-@property _Bool allowsYearlyIntervalChange; // @synthesize allowsYearlyIntervalChange=_allowsYearlyIntervalChange;
-@property long long dailyIntervalValue; // @synthesize dailyIntervalValue=_dailyIntervalValue;
 @property long long frequencySelectorValue; // @synthesize frequencySelectorValue=_frequencySelectorValue;
-@property(retain) NSMutableArray *monthlyDayButtons; // @synthesize monthlyDayButtons=_monthlyDayButtons;
-@property long long monthlyIntervalValue; // @synthesize monthlyIntervalValue=_monthlyIntervalValue;
-@property int monthlyOrdinalDayValue; // @synthesize monthlyOrdinalDayValue=_monthlyOrdinalDayValue;
-@property int monthlyOrdinalValue; // @synthesize monthlyOrdinalValue=_monthlyOrdinalValue;
-@property int monthlyRuleType; // @synthesize monthlyRuleType=_monthlyRuleType;
-@property unsigned short weeklyDayButtons; // @synthesize weeklyDayButtons=_weeklyDayButtons;
-@property long long weeklyIntervalValue; // @synthesize weeklyIntervalValue=_weeklyIntervalValue;
-@property _Bool yearlyByDaySwitch; // @synthesize yearlyByDaySwitch=_yearlyByDaySwitch;
-@property long long yearlyIntervalValue; // @synthesize yearlyIntervalValue=_yearlyIntervalValue;
-@property(retain) NSMutableArray *yearlyMonthButtons; // @synthesize yearlyMonthButtons=_yearlyMonthButtons;
-@property int yearlyOrdinalDayValue; // @synthesize yearlyOrdinalDayValue=_yearlyOrdinalDayValue;
-@property int yearlyOrdinalValue; // @synthesize yearlyOrdinalValue=_yearlyOrdinalValue;
 
 @end
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NUComposition, NUPriority, NURenderContext;
-@protocol NUDevice, NUMedia, OS_dispatch_queue;
+@class NSString;
 
 @interface NURenderRequest
 {
     long long _copiedFromRequestNumber;
-    long long _parentRequestNumber;
-    _Bool _shouldUseLowMemoryMode;
-    _Bool _isOneShot;
-    id <NUMedia> _media;
-    long long _sampleMode;
-    NSArray *_pipelineFilters;
-    id <NUDevice> _device;
-    NSString *_name;
-    long long _requestNumber;
-    NUPriority *_priority;
-    NSObject<OS_dispatch_queue> *_responseQueue;
-    NURenderContext *_renderContext;
-    NUComposition *_internalComposition;
-    double _submitTime;
-    CDUnknownBlockType _completionBlock;
-    id _voucher;
-    CDStruct_1b6d18a9 _time;
 }
 
 - (void);
@@ -58,7 +40,7 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)B,N,V_prefersCompactFullScreenControls;
 - (void);
 - (void);
 - (id);
@@ -70,39 +52,21 @@
 - (id);
 - (id);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)+;
 - (CDUnknownBlockType);
 - (void);
 - (void)!xDùâ°1Â0@ù
 × ;
-- (void)ay;
+- (void)isArray;
 - (void)hÞ;
 - (id)ediaFormat:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *additionalDebugInfo;
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy, nonatomic) NUComposition *composition;
-@property(retain, nonatomic) id <NUDevice> device; // @synthesize device=_device;
-@property(copy) NUComposition *internalComposition; // @synthesize internalComposition=_internalComposition;
-@property(nonatomic) _Bool isOneShot; // @synthesize isOneShot=_isOneShot;
-@property(retain, nonatomic) id <NUMedia> media; // @synthesize media=_media;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *pipelineFilters; // @synthesize pipelineFilters=_pipelineFilters;
-@property(retain, nonatomic) NUPriority *priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NURenderContext *renderContext; // @synthesize renderContext=_renderContext;
-@property(nonatomic) long long requestNumber; // @synthesize requestNumber=_requestNumber;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *responseQueue; // @synthesize responseQueue=_responseQueue;
-@property(nonatomic) long long sampleMode; // @synthesize sampleMode=_sampleMode;
-@property _Bool shouldCoalesceUpdates;
-@property(nonatomic) _Bool shouldUseLowMemoryMode; // @synthesize shouldUseLowMemoryMode=_shouldUseLowMemoryMode;
-@property double submitTime; // @synthesize submitTime=_submitTime;
-@property(nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
-@property(retain) id voucher; // @synthesize voucher=_voucher;
 
 @end
 

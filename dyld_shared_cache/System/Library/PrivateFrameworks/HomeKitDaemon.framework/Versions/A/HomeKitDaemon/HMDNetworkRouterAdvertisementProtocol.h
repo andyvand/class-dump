@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterAdvertisementProtocol
 {
@@ -13,26 +11,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)momentInDayHighlight;
 - (void);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
+- (_Bool)H;
 - (_Bool);
-- (_Bool);
-- (id)orkRouterInitialSetupNeeded;
+- (id)isActiveNetworkRouterInitialSetupNeeded;
 
 // Remaining properties
 @property(nonatomic) long long advertisementProtocol; // @synthesize advertisementProtocol=_advertisementProtocol;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

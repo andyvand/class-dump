@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet;
-
 @interface ABMetadataOperationSanityChecker
 {
     unsigned long long _totalBytesWritten;
-    NSCountedSet *_writeHistory;
-    unsigned long long _excessiveDataLoggingThreshold;
 }
 
-- (id);
+- (id)";
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -27,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long excessiveDataLoggingThreshold; // @synthesize excessiveDataLoggingThreshold=_excessiveDataLoggingThreshold;
 @property(nonatomic) unsigned long long totalBytesWritten; // @synthesize totalBytesWritten=_totalBytesWritten;
-@property(retain, nonatomic) NSCountedSet *writeHistory; // @synthesize writeHistory=_writeHistory;
 
 @end
 

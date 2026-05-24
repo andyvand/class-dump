@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOUSBHostControllerInterface;
-
 @interface IOUSBHostCIPortStateMachine
 {
     _Bool _powered;
-    _Bool _connected;
-    _Bool _overcurrent;
-    int _portState;
-    unsigned int _portStatus;
-    int _linkState;
-    int _speed;
-    unsigned long long _portNumber;
-    IOUSBHostControllerInterface *_controllerInterface;
 }
 
-- (_Bool);
+- (_Bool)Y;
+- (void);
+- (void);;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (int);
-- (_Bool);
-- (int);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)Boolean;
+- (_Bool)ClipThumbnailImageHeight;
+- (unsigned int)ClipThumbnailImageLength;
+- (int)ClipThumbnailFileOffset;
+- (_Bool)ClipThumbnailFilePath;
+- (int)ClipIFrameArray;
+- (_Bool)ClipInformationFileName;
+- (id)ClipTimeZoneSign;
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -40,19 +30,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void));
 - (_Bool)ation;
 
 // Remaining properties
-@property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(retain, nonatomic) IOUSBHostControllerInterface *controllerInterface; // @synthesize controllerInterface=_controllerInterface;
-@property(readonly, nonatomic) int linkState; // @synthesize linkState=_linkState;
-@property(nonatomic) _Bool overcurrent; // @synthesize overcurrent=_overcurrent;
 @property(nonatomic) unsigned long long portNumber; // @synthesize portNumber=_portNumber;
-@property(nonatomic) int portState; // @synthesize portState=_portState;
-@property(nonatomic) unsigned int portStatus; // @synthesize portStatus=_portStatus;
-@property(nonatomic) _Bool powered; // @synthesize powered=_powered;
-@property(readonly, nonatomic) int speed; // @synthesize speed=_speed;
 
 @end
 

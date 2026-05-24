@@ -7,26 +7,20 @@
 @interface _UIIdleModeLayoutAttributes
 {
     _Bool _wantsDimmingOverlay;
-    double _alphaOffset;
-    struct CGPoint _centerOffset;
-    struct CGAffineTransform _transform;
 }
 
 - (double);
+- (void)tableView:(_Bool)arg1 trailingSwipeActionsConfigurationForRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)ed loading request:%p. URL=%{public}@ dataTask=%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (void)n;
+- (_Bool)67;
+- (void)_endInteraction;
 - (void)w",&,N,V_initialDropSnapshotView;
 - (struct CGPoint)$ÿ;
 
 // Remaining properties
-@property(nonatomic) double alphaOffset; // @synthesize alphaOffset=_alphaOffset;
 @property(nonatomic) struct CGPoint centerOffset; // @synthesize centerOffset=_centerOffset;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property(nonatomic) _Bool wantsDimmingOverlay; // @synthesize wantsDimmingOverlay=_wantsDimmingOverlay;
 
 @end
 

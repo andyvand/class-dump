@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void)tAttributesForExtraLineFragment:(id)arg1;
+- (void)setAttributesForExtraLineFragment:(id)arg1;
 
 @end
 

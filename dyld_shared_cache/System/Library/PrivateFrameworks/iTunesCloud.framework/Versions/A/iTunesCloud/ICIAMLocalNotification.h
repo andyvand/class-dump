@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICIAMLocalNotification
 {
     double _date;
-    double _interval;
-    NSString *_notification;
-    int _trigger;
-    struct {
-        unsigned int date:1;
-        unsigned int interval:1;
-        unsigned int trigger:1;
-    } _has;
 }
 
 - (_Bool);
@@ -34,7 +24,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)I;
 - (void);
 - (id);
 - (void);
@@ -48,14 +38,7 @@
 - (_Bool)ad-repair-wait;
 
 // Remaining properties
-@property(nonatomic) double date; // @synthesize date=_date;
-@property(nonatomic) _Bool hasDate;
-@property(nonatomic) _Bool hasInterval;
-@property(readonly, nonatomic) _Bool hasNotification;
 @property(nonatomic) _Bool hasTrigger;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) NSString *notification; // @synthesize notification=_notification;
-@property(nonatomic) int trigger; // @synthesize trigger=_trigger;
 
 @end
 

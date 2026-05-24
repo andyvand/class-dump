@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (_Bool)loadValuesAsynchronouslyForKeys:(unsigned long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (id)componentsWithURL:(id)arg1 resolvingAgainstBaseURL:(id)arg2;
++ (id)componentsJoinedByString:(id)arg1;
++ (void)componentViewDidMoveToWindow;
++ (id)appendString:(id)arg1;
++ (id)appendPixelBuffer:(id)arg1 withPresentationTime: /* Error: Ran out of types for this method. */;
 
 @end
 

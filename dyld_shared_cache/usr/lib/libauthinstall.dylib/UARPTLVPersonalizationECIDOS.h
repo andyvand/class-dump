@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)slowKnobMovementDetected;
 
 // Remaining properties
 @property(readonly) unsigned long long ecID; // @synthesize ecID=_ecID;

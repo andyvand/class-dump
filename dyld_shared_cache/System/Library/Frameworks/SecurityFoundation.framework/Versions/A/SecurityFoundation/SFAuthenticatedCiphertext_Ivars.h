@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFAuthenticatedCiphertext_Ivars
 {
     NSData *authenticationCode;
-    NSData *initializationVector;
 }
 
 - (void);

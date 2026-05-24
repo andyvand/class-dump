@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     id _tripleDESEncryptionOperationInternal;
 }
 
-- (id);
-- (id);
+- (id)( ;
+- (id)%@);
 - (id);
 - (id);
 - (void);

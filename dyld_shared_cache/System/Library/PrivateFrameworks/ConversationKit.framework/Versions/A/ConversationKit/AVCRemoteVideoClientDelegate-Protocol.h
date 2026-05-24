@@ -5,5 +5,8 @@
 //
 
 @protocol AVCRemoteVideoClientDelegate
+
+@optional
+- (void);
 @end
 

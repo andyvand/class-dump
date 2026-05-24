@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface ACDManagedAccessOptionsKey
 {
@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSSet *owningAccountTypes; // @dynamic owningAccountTypes;
 @end
 

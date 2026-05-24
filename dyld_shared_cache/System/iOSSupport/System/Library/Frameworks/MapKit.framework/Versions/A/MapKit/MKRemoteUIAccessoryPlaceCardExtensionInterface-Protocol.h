@@ -5,5 +5,6 @@
 //
 
 @protocol MKRemoteUIAccessoryPlaceCardExtensionInterface
+- (void);
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PXLemonadeSearchIndexingStatusGenericEmptyStateViewModel
 {
     id _numberOfCollectionResults;
-    id _actionHandler;
-    id _$observationRegistrar;
 }
 
 - (id);

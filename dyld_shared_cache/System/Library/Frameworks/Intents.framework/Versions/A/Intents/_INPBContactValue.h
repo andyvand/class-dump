@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBContactHandle, _INPBImageValue, _INPBValueMetadata;
+@class NSArray;
 
 @interface _INPBContactValue
 {
@@ -14,30 +14,6 @@
         unsigned int searchProvider:1;
         unsigned int suggestionType:1;
     } _has;
-    _Bool _isContactSuggestion;
-    _Bool _isMe;
-    int _searchProvider;
-    int _suggestionType;
-    NSArray *_aliases;
-    _INPBContactHandle *_contactHandle;
-    NSString *_customIdentifier;
-    NSString *_firstName;
-    NSString *_fullName;
-    NSString *_handle;
-    _INPBImageValue *_image;
-    NSString *_lastName;
-    NSString *_middleName;
-    NSString *_namePrefix;
-    NSString *_nameSuffix;
-    NSString *_nickName;
-    NSString *_phonemeData;
-    NSString *_phoneticFirstName;
-    NSString *_phoneticLastName;
-    NSString *_phoneticMiddleName;
-    NSString *_phoneticNamePrefix;
-    NSString *_phoneticNameSuffix;
-    NSString *_relationship;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (Class);
@@ -50,7 +26,7 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (id);
+- (id))L;
 - (id);
 - (void);
 - (id);
@@ -59,48 +35,49 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Subdirectory;
+- (_Bool)*;
 - (void);
 - (void);
-- (id);
+- (id)%c;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (void)nactive connection.;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)d to %qd sectors.
+;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)th-GostR3410-94;
+- (_Bool)dsa_paramgen_q_bits;
 - (void);
 - (int);
 - (void);
 - (int);
+- (void)H;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)torDelegate>";
+- (void)ific) for network (%@);
+- (_Bool)_timeout;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id));
 - (void);
-- (_Bool);
+- (_Bool)o;
 - (void);
 - (id);
 - (void);
@@ -120,13 +97,13 @@
 - (_Bool)Q¾(Ð1Â0@ù
 × ;
 - (void)@"_INPBLocation";
-- (void)letion:(id)arg1;
-- (id);
+- (void)resolveBillPayeeForPayBill:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)_setInteraction:donate: /* Error: Ran out of types for this method. */;
 - (_Bool)Xèèlë;
 - (_Bool)@¤¸;
 - (_Bool)ty.supportsResolution == NO));
-- (void)nsionMatchingErrorDomain;
-- (void)urantGuestIntentResponse;
+- (void)INExtensionMatchingErrorDomain;
+- (void)GetRestaurantGuestIntentResponse;
 - (int)1nNZ;
 - (id);
 - (void)¨;
@@ -138,60 +115,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *aliases; // @synthesize aliases=_aliases;
-@property(readonly, nonatomic) unsigned long long aliasesCount;
-@property(retain, nonatomic) _INPBContactHandle *contactHandle; // @synthesize contactHandle=_contactHandle;
-@property(copy, nonatomic) NSString *customIdentifier; // @synthesize customIdentifier=_customIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool hasContactHandle;
-@property(readonly, nonatomic) _Bool hasCustomIdentifier;
-@property(readonly, nonatomic) _Bool hasFirstName;
-@property(readonly, nonatomic) _Bool hasFullName;
-@property(readonly, nonatomic) _Bool hasHandle;
-@property(readonly, nonatomic) _Bool hasImage;
-@property(nonatomic) _Bool hasIsContactSuggestion;
-@property(nonatomic) _Bool hasIsMe;
-@property(readonly, nonatomic) _Bool hasLastName;
-@property(readonly, nonatomic) _Bool hasMiddleName;
-@property(readonly, nonatomic) _Bool hasNamePrefix;
-@property(readonly, nonatomic) _Bool hasNameSuffix;
-@property(readonly, nonatomic) _Bool hasNickName;
-@property(readonly, nonatomic) _Bool hasPhonemeData;
-@property(readonly, nonatomic) _Bool hasPhoneticFirstName;
-@property(readonly, nonatomic) _Bool hasPhoneticLastName;
-@property(readonly, nonatomic) _Bool hasPhoneticMiddleName;
-@property(readonly, nonatomic) _Bool hasPhoneticNamePrefix;
-@property(readonly, nonatomic) _Bool hasPhoneticNameSuffix;
-@property(readonly, nonatomic) _Bool hasRelationship;
-@property(nonatomic) _Bool hasSearchProvider;
-@property(nonatomic) _Bool hasSuggestionType;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBImageValue *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isContactSuggestion; // @synthesize isContactSuggestion=_isContactSuggestion;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(copy, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(copy, nonatomic) NSString *namePrefix; // @synthesize namePrefix=_namePrefix;
-@property(copy, nonatomic) NSString *nameSuffix; // @synthesize nameSuffix=_nameSuffix;
-@property(copy, nonatomic) NSString *nickName; // @synthesize nickName=_nickName;
-@property(copy, nonatomic) NSString *phonemeData; // @synthesize phonemeData=_phonemeData;
-@property(copy, nonatomic) NSString *phoneticFirstName; // @synthesize phoneticFirstName=_phoneticFirstName;
-@property(copy, nonatomic) NSString *phoneticLastName; // @synthesize phoneticLastName=_phoneticLastName;
-@property(copy, nonatomic) NSString *phoneticMiddleName; // @synthesize phoneticMiddleName=_phoneticMiddleName;
-@property(copy, nonatomic) NSString *phoneticNamePrefix; // @synthesize phoneticNamePrefix=_phoneticNamePrefix;
-@property(copy, nonatomic) NSString *phoneticNameSuffix; // @synthesize phoneticNameSuffix=_phoneticNameSuffix;
-@property(copy, nonatomic) NSString *relationship; // @synthesize relationship=_relationship;
-@property(nonatomic) int searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(nonatomic) int suggestionType; // @synthesize suggestionType=_suggestionType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

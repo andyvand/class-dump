@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)io preview through BlastDoor for sourceURL:%@ /* Error: Ran out of types for this method. */;
 - (void)GisInTransition,V_inTransition;
 
 // Remaining properties

@@ -6,26 +6,11 @@
 
 #import <GeoServices/GEOMapFeatureLine.h>
 
-@class GEOMapFeatureJunction, GEOMultiSectionFeature, GEOVectorTile;
+@class GEOMultiSectionFeature;
 
 @interface GEOMapFeatureRoad : GEOMapFeatureLine
 {
     GEOMultiSectionFeature *_feature;
-    union {
-        unsigned long long roadID;
-        struct {
-            unsigned int flipped:1;
-            unsigned int featureIndex:14;
-            unsigned int tileY:16;
-            unsigned int tileX:16;
-            unsigned int unused:17;
-        } ;
-    } _roadKey;
-    GEOMapFeatureJunction *_junctionA;
-    GEOMapFeatureJunction *_junctionB;
-    _Bool _checkedJunctionA;
-    _Bool _checkedJunctionB;
-    GEOVectorTile *_tile;
 }
 
 @end

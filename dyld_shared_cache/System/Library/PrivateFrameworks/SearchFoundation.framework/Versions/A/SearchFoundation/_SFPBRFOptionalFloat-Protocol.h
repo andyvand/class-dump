@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBRFOptionalFloat
+- (NSData *)SDate",R,N,V_commentDate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float value;
 @end
 

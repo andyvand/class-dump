@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRConfig, NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface DRSConfigMetadata
 {
     unsigned char _state;
-    _Bool _logTelemetry;
-    _Bool _reportToDecisionServer;
-    NSString *_teamID;
-    NSUUID *_configUUID;
-    NSDate *_receivedDate;
-    unsigned long long _completionType;
-    NSDate *_appliedDate;
-    NSDate *_completedDate;
-    NSString *_completionDescription;
-    DRConfig *_config;
 }
 
 + (_Bool);
@@ -29,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -37,7 +27,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)isHandlingDeleteBackward;
 - (unsigned char);
 - (_Bool);
 - (_Bool);
@@ -46,16 +36,6 @@
 - (id)ver the accepted config count cap %lu;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *appliedDate; // @synthesize appliedDate=_appliedDate;
-@property(readonly, nonatomic) NSDate *completedDate; // @synthesize completedDate=_completedDate;
-@property(readonly, nonatomic) NSString *completionDescription; // @synthesize completionDescription=_completionDescription;
-@property(readonly, nonatomic) unsigned long long completionType; // @synthesize completionType=_completionType;
-@property(readonly, nonatomic) DRConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) NSUUID *configUUID; // @synthesize configUUID=_configUUID;
-@property(readonly, nonatomic) _Bool logTelemetry; // @synthesize logTelemetry=_logTelemetry;
-@property(readonly, nonatomic) NSDate *receivedDate; // @synthesize receivedDate=_receivedDate;
-@property(readonly, nonatomic) _Bool reportToDecisionServer; // @synthesize reportToDecisionServer=_reportToDecisionServer;
-@property(readonly, nonatomic) unsigned char state; // @synthesize state=_state;
 @property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end

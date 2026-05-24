@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 @interface CPKFont
 {
     struct __CTFont *_privateCTFont;
-    NSLock *_privateFontLock;
-    _Bool _isEmojiFont;
-    double _fontSize;
 }
 
 + (id);
@@ -28,7 +23,7 @@
 - (void);
 - (id);
 - (unsigned short);
-- (double);
+- (double)km;
 - (unsigned short);
 - (double);
 - (double);
@@ -40,11 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double ascent;
 @property(readonly) struct __CTFont *ctFont;
-@property(readonly) double descent;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly) _Bool isEmojiFont; // @synthesize isEmojiFont=_isEmojiFont;
 
 @end
 

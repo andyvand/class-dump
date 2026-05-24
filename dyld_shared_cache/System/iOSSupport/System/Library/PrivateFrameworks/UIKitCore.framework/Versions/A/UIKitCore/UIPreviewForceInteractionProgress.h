@@ -6,32 +6,21 @@
 
 #import <UIKitCore/UIInteractionProgress.h>
 
-@class NSObservation, NSString, _UIForceLevelClassifier, _UITouchForceObservable;
+@class _UITouchForceObservable;
 
 @interface UIPreviewForceInteractionProgress : UIInteractionProgress
 {
     _UITouchForceObservable *_observable;
-    long long _targetState;
-    long long _minimumState;
-    _Bool _updateMinimumStateWithTargetState;
-    _UIForceLevelClassifier *_classifier;
-    NSObservation *_classifierObservation;
-    _Bool _enteredMinimumState;
-    _Bool _didEnd;
-    NSObservation *_progressObservation;
-    NSObservation *_targetStateUpdateObservation;
-    NSObservation *_gestureBeganObservation;
-    _Bool _completesAtTargetState;
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (id)BOY **************;
+- (id)CHAT LOCK RECORD **************** OH BOY **************;
+- (id)essage in chat:(id)arg1 %@;
+- (id)MessageCreatedDate for sent scheduled message in chat:(id)arg1 %@;
+- (_Bool)sting item for updating for %@;
+- (_Bool)n for %@;
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -39,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -47,16 +36,7 @@
 - (void)¡ÿ©5Ø´e;
 
 // Remaining properties
-@property(nonatomic, setter=_setClassifierShouldRespectSystemGestureTouchFiltering:) _Bool _classifierShouldRespectSystemGestureTouchFiltering;
 @property(nonatomic, setter=_setTargetState:) long long _targetState; // @synthesize _targetState;
-@property(nonatomic) _Bool completesAtTargetState; // @synthesize completesAtTargetState=_completesAtTargetState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
-
 @interface DDScannerResult
 {
     struct __DDResult *_coreResult;
-    NSArray *_subResultsCache;
-    NSURL *_cachedURL;
-    _Bool _hasCachedURL;
 }
 
 @end

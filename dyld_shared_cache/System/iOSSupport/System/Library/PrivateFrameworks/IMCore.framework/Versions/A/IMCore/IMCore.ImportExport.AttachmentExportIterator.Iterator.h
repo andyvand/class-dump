@@ -7,10 +7,6 @@
 @interface IMCore.ImportExport.AttachmentExportIterator.Iterator
 {
     id exportOptions;
-    id exportStatistics;
-    id exportConfiguration;
-    id accountForDownloader;
-    id iterationState;
 }
 
 @end

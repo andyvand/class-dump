@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSSet, NSString;
+@class NSSet;
 
 @interface WiFiAwareDeviceCapabilities
 {
     unsigned char _supportedBands;
-    _Bool _supportsDataTransfer;
-    NSSet *_supportedFeatures;
-    NSNumber *_operatingChannel;
-    NSNumber *_operatingClass;
-    NSArray *_supportedCipherSuites;
-    NSString *_discoveryInterfaceName;
-    long long _maxPeers;
-    long long _maxPublishers;
-    long long _maxSubscribers;
-    long long _maxDatapaths;
 }
 
 + (_Bool);
@@ -34,11 +24,11 @@
 - (long long);
 - (long long);
 - (long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (unsigned char);
-- (id);
+- (unsigned char);
+- (id)ȂB�h;
 - (_Bool);
 - (id);
 - (long long);
@@ -48,17 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *discoveryInterfaceName; // @synthesize discoveryInterfaceName=_discoveryInterfaceName;
-@property(readonly, nonatomic) long long maxDatapaths; // @synthesize maxDatapaths=_maxDatapaths;
-@property(readonly, nonatomic) long long maxPeers; // @synthesize maxPeers=_maxPeers;
-@property(readonly, nonatomic) long long maxPublishers; // @synthesize maxPublishers=_maxPublishers;
-@property(readonly, nonatomic) long long maxSubscribers; // @synthesize maxSubscribers=_maxSubscribers;
-@property(readonly, nonatomic) NSNumber *operatingChannel; // @synthesize operatingChannel=_operatingChannel;
-@property(readonly, nonatomic) NSNumber *operatingClass; // @synthesize operatingClass=_operatingClass;
-@property(readonly, nonatomic) unsigned char supportedBands; // @synthesize supportedBands=_supportedBands;
-@property(readonly, nonatomic) NSArray *supportedCipherSuites; // @synthesize supportedCipherSuites=_supportedCipherSuites;
 @property(readonly, nonatomic) NSSet *supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
-@property(readonly, nonatomic) _Bool supportsDataTransfer; // @synthesize supportsDataTransfer=_supportsDataTransfer;
 
 @end
 

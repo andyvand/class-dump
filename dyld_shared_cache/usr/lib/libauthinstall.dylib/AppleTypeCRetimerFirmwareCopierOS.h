@@ -6,24 +6,20 @@
 
 #import <authinstall/AppleTypeCRetimerRestoreInfoHelperOS.h>
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AppleTypeCRetimerFirmwareCopierOS : AppleTypeCRetimerRestoreInfoHelperOS
 {
     NSString *_firmwarePathSuffix;
-    NSURL *_firmwareBundleURL;
-    NSURL *_destBundlePathURL;
-    NSData *_firmwareOverrideData;
-    NSData *_firmwareInBundleDataDict;
 }
 
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)e",R,N,V_serverMessage;
+- (id)_registerBiomeETLToCALoggerTask;
+- (_Bool)_flags;
+- (id)D",R,C,N;
+- (_Bool)_postChangeNotificationForConversationID:(id)arg1 flags:(id *)arg2 oldFlags:reason: /* Error: Ran out of types for this method. */;
+- (_Bool)_persistedBrandIDForExternalID:(id *)arg1;
 - (id);
 - (void);
 

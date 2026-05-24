@@ -11,8 +11,8 @@
     PPLocalEventStore *_localEventStore;
 }
 
-- (id);
-- (id);
+- (id)L;
+- (id)Manifest failed;
 - (void)A¡Ð!\Eù÷ð1Â0@ù
 × ;
 

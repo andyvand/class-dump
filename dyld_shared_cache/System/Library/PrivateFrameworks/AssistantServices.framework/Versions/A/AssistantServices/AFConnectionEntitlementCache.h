@@ -9,14 +9,13 @@
 @interface AFConnectionEntitlementCache
 {
     NSMutableDictionary *_cache;
-    NSMutableDictionary *_bundleIDToPIDMap;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)FHomeInfoMutation;
+- (void)_AFHomeInfoMutation;
 
 @end
 

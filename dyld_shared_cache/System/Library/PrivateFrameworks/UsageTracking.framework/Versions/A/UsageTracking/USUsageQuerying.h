@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMCoreDuetStream;
 @protocol _CDUserContext;
 
 @interface USUsageQuerying
 {
     id <_CDUserContext> _context;
-    BMCoreDuetStream *_duetStream;
 }
 
 + (void);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
@@ -36,6 +34,17 @@
 - (id);
 - (double);
 - (void);
+- (void)];
+- (id)h;
+- (id);
+- (id);
+- (id)A;
+- (void)!;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -43,27 +52,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)B;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly) id <_CDUserContext> context; // @synthesize context=_context;
-@property(readonly) BMCoreDuetStream *duetStream; // @synthesize duetStream=_duetStream;
 
 @end
 

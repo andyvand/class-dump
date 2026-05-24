@@ -9,12 +9,11 @@
 @interface TSUTemporaryDirectory
 {
     NSString *_path;
-    _Bool _leak;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)iew;
+- (id)featureName;
+- (void)configurationManager;
 - (void);
 - (void);
 - (id);

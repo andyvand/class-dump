@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSynthesisStyleInventoryStatus, NSString, NSXPCConnection;
-
 @interface CHRemoteTextSynthesizer
 {
     _Bool _shouldSkipStyleInventoryLookup;
-    _Bool _shouldSaveStyleSample;
-    _Bool _shouldForceInventoryDefaultStyle;
-    CHSynthesisStyleInventoryStatus *_cachedStyleInventoryStatus;
-    NSXPCConnection *__connection;
 }
 
 - (_Bool);
@@ -21,7 +15,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)JJHJ*]S;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -30,18 +24,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ltered results, ;
 - (id);
 - (void)Ô;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

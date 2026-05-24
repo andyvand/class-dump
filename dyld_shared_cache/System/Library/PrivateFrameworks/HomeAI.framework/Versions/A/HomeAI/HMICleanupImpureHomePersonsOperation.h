@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFaceprinter, HMIGreedyClustering, NSArray, NSDate, NSString, NSUUID;
-@protocol HMIHomePersonManagerDataSource;
+@class HMIGreedyClustering;
 
 @interface HMICleanupImpureHomePersonsOperation
 {
     int _numFailures;
-    HMIGreedyClustering *_clusterer;
-    HMIFaceprinter *_faceprinter;
-    NSDate *_targetDate;
-    NSUUID *_homeUUID;
-    id <HMIHomePersonManagerDataSource> _dataSource;
 }
 
 + (id);
@@ -26,19 +20,20 @@
 - (int);
 - (void);
 - (_Bool);
+- (id);
+- (void)/;
+- (id)9;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)}S
+;
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)#;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -46,29 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(readonly) HMIGreedyClustering *clusterer; // @synthesize clusterer=_clusterer;
-@property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMIFaceprinter *faceprinter; // @synthesize faceprinter=_faceprinter;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property int numFailures; // @synthesize numFailures=_numFailures;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly) NSDate *targetDate; // @synthesize targetDate=_targetDate;
 
 @end
 

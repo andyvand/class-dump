@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PLUSSchemaPLUSMediaSuggestionSource;
+@class PLUSSchemaPLUSMediaSuggestionSource;
 
 @interface PLUSSchemaPLUSMediaSuggestion : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSMediaSuggestionSource *_source;
-    NSArray *_contributingGroundTruths;
-    int _locality;
-    struct {
-        unsigned int locality:1;
-    } _has;
-    _Bool _hasSource;
 }
 
 - (void);
@@ -29,31 +23,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)erformingSemiSplatActivation;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)SuccessfulPercentage;
 - (void);
 - (int);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)J;
+- (_Bool):(id)arg1 Refetching CNID for ALL Aliases.;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)ationTranscriptionTokenized;
+- (id)_hasUeiDictationTranscriptionTokenized;
 - (id)B,N,V_hasGroupId;
-- (_Bool)E_UNKNOWN;
-- (void)INENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__PLAY__ARTIST;
+- (_Bool)FLOWDOMAINEXECUTIONTYPE_UNKNOWN;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__PLAY__ARTIST;
 - (void)SVUserIntentDetected;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contributingGroundTruths; // @synthesize contributingGroundTruths=_contributingGroundTruths;
-@property(nonatomic) _Bool hasLocality;
-@property(nonatomic) _Bool hasSource; // @synthesize hasSource=_hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int locality; // @synthesize locality=_locality;
 @property(retain, nonatomic) PLUSSchemaPLUSMediaSuggestionSource *source; // @synthesize source=_source;
 
 @end

@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
+- (id)H;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (void)ð;
 
 @end

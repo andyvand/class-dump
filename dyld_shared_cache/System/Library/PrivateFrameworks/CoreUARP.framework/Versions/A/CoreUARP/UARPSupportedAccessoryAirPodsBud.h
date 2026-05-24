@@ -14,7 +14,7 @@
 + (unsigned short);
 + (id);
 + (unsigned short);
-- (id);
+- (id)AMSPushParsableGenericNotification;
 
 @end
 

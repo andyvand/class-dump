@@ -7,9 +7,6 @@
 @interface BWStillImageConditionalRouterConfiguration
 {
     unsigned int _numberOfOutputs;
-    CDUnknownBlockType _shouldEmitSampleBufferDecisionProvider;
-    CDUnknownBlockType _shouldEmitNodeErrorDecisionProvider;
-    unsigned int _numberOfInputs;
 }
 
 - (CDUnknownBlockType);
@@ -19,13 +16,10 @@
 - (unsigned int);
 - (id);
 - (unsigned int);
-- (void);
+- (void)OCXStreamUtility;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int numberOfInputs; // @synthesize numberOfInputs=_numberOfInputs;
-@property(readonly, nonatomic) unsigned int numberOfOutputs; // @synthesize numberOfOutputs=_numberOfOutputs;
-@property(copy, nonatomic) CDUnknownBlockType shouldEmitNodeErrorDecisionProvider; // @synthesize shouldEmitNodeErrorDecisionProvider=_shouldEmitNodeErrorDecisionProvider;
-@property(copy, nonatomic) CDUnknownBlockType shouldEmitSampleBufferDecisionProvider; // @synthesize shouldEmitSampleBufferDecisionProvider=_shouldEmitSampleBufferDecisionProvider;
 
 @end
 

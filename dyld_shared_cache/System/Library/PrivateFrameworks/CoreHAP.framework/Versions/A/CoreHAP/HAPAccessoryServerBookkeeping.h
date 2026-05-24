@@ -7,7 +7,6 @@
 @interface HAPAccessoryServerBookkeeping
 {
     unsigned long long _initialDiscoveryMethod;
-    unsigned long long _lastDiscoveryMethod;
 }
 
 - (void);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long initialDiscoveryMethod; // @synthesize initialDiscoveryMethod=_initialDiscoveryMethod;
-@property(nonatomic) unsigned long long lastDiscoveryMethod; // @synthesize lastDiscoveryMethod=_lastDiscoveryMethod;
 
 @end
 

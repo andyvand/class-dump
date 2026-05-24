@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UIView;
+@class NSMutableArray;
 @protocol _UIAssertion;
 
 @interface _UIClientToHostRelationshipGestureInteraction
 {
     NSMutableArray *_gestureRecognizers;
-    UIView *_view;
-    NSString *_hostIdentifier;
-    id <_UIAssertion> _pointerUpdatePauseAssertion;
 }
 
 + (id);
 + (void);
 + (id);
-- (id);
-- (id);
-- (void);
+- (id)broadcastCloudKitState;
+- (id)ceLoadDate;
+- (void)called on the wrong session;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)9;
 - (id);
-- (id);
+- (id)atusController.calloutQueue;
 - (void);
 - (id)railingBarGroups;
 - (void)em.Preferences;
@@ -34,17 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *gestureRecognizers; // @synthesize gestureRecognizers=_gestureRecognizers;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *hostIdentifier; // @synthesize hostIdentifier=_hostIdentifier;
 @property(retain, nonatomic) id <_UIAssertion> pointerUpdatePauseAssertion; // @synthesize pointerUpdatePauseAssertion=_pointerUpdatePauseAssertion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

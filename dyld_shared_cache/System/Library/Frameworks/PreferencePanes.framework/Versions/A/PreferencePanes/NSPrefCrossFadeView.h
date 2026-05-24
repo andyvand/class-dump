@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)rializedMountSnapshot);
 - (id);
 
 @end

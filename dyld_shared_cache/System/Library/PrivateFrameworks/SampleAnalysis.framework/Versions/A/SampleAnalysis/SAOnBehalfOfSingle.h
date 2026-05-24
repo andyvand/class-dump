@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SAOnBehalfOfSingle
 {
     int _proximatePid;
-    int _originPid;
-    NSString *_proximateName;
-    NSString *_originName;
 }
 
 - (unsigned long long);

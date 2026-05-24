@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureInput, NSMutableArray, NSString, VCWeakObjectHolder;
+@class NSString, VCWeakObjectHolder;
 
 __attribute__((visibility("hidden")))
 @interface VCVirtualAVCaptureInputPort
 {
     VCWeakObjectHolder *_input;
-    NSString *_mediaType;
-    struct OpaqueCMClock *_clock;
-    NSMutableArray *_connections;
-    struct os_unfair_lock_s _stateLock;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)fffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}16^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}24^{ToneCurve_Control=dddfffffffBfdBBffBi^{__CFString}iiiIIIIIfffffIb1b1ffBfiBBfBBBIBffI{_AuxData=iiifffffifffB}{_TMData=iiiIiifffifffffffffffffffffBfiiff{_Percentiles_t=[8f][8f]I}BBBBBffi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_TMData=iiiIiifffifffffffffffffffffBfiiff{_Percentiles_t=[8f][8f]I}BBBBBffi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_HLGTMParam=f{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}32^{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}40^{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}48;
 - (_Bool);
 - (void);
-- (void);
+- (void)(=;
 - (struct OpaqueCMClock *)%s:%d >>>>> ERROR:Call ID is nil (in VideoConferenceManagerCategories) <<<<< /* Error: Ran out of types for this method. */;
 - (void)didStart;
 - (id)ndshakeWithMessage:topic:withOptions:] /* Error: Ran out of types for this method. */;
 - (void)ateOperatingMode:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct OpaqueCMClock *clock; // @synthesize clock=_clock;
-@property(retain, nonatomic) AVCaptureInput *input;
 @property(copy, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
 
 @end

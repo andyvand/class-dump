@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, NWEndpoint, NWInterface;
+@class NSObject;
 @protocol OS_nw_path_flow;
 
 __attribute__((visibility("hidden")))
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSObject<OS_nw_path_flow> *_internalPathFlow;
 }
 
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (id);
@@ -26,30 +26,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)d;
 - (_Bool);
 - (id);
-- (id);
+- (id)ĤoE;
 - (_Bool);
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAssigned) _Bool assigned;
-@property(readonly, nonatomic, getter=isDefunct) _Bool defunct;
-@property(readonly, nonatomic, getter=isDirect) _Bool direct;
-@property(readonly, nonatomic) NSUUID *flowID;
-@property(readonly, nonatomic) NWInterface *interface;
 @property(readonly) NSObject<OS_nw_path_flow> *internalPathFlow; // @synthesize internalPathFlow=_internalPathFlow;
-@property(readonly, nonatomic, getter=isLocal) _Bool local;
-@property(readonly, nonatomic) NWEndpoint *localEndpoint;
-@property(readonly, nonatomic) NSUUID *nexusAgent;
-@property(readonly, nonatomic) NSUUID *nexusInstance;
-@property(readonly, nonatomic) unsigned int nexusPort;
-@property(readonly, nonatomic) NWEndpoint *remoteEndpoint;
-@property(readonly, nonatomic) _Bool supportsIPv4;
-@property(readonly, nonatomic) _Bool supportsIPv6;
-@property(readonly, nonatomic, getter=isViable) _Bool viable;
 
 @end
 

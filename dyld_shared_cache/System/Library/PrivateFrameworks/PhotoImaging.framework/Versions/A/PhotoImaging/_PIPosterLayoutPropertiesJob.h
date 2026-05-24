@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, PFParallaxLayoutConfiguration, PFPosterOrientedLayout, PIPosterLayoutPropertiesRequest;
+@class PIPosterLayoutPropertiesRequest;
 @protocol PISegmentationItem;
 
 @interface _PIPosterLayoutPropertiesJob
 {
     id <PISegmentationItem> _segmentationItem;
-    CIImage *_matteImage;
-    PFPosterOrientedLayout *_layout;
-    PFParallaxLayoutConfiguration *_layoutConfiguration;
-    unsigned long long _layoutVariant;
-    double _maxClockShift;
-    struct CGRect _adaptiveVisibleFrame;
-    struct CGRect _adaptiveTimeFrame;
-    struct CGRect _visibleFrame;
 }
 
 - (void);
@@ -29,11 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (double);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)#;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,22 +37,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (struct CGRect);
 - (id);
 - (void)UImageDataClient";
 
 // Remaining properties
-@property(nonatomic) struct CGRect adaptiveTimeFrame; // @synthesize adaptiveTimeFrame=_adaptiveTimeFrame;
-@property(nonatomic) struct CGRect adaptiveVisibleFrame; // @synthesize adaptiveVisibleFrame=_adaptiveVisibleFrame;
-@property(retain, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) PFParallaxLayoutConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
 @property(readonly, nonatomic) PIPosterLayoutPropertiesRequest *layoutPropertiesRequest;
-@property(nonatomic) unsigned long long layoutVariant; // @synthesize layoutVariant=_layoutVariant;
-@property(retain, nonatomic) CIImage *matteImage; // @synthesize matteImage=_matteImage;
-@property(nonatomic) double maxClockShift; // @synthesize maxClockShift=_maxClockShift;
-@property(retain, nonatomic) id <PISegmentationItem> segmentationItem; // @synthesize segmentationItem=_segmentationItem;
-@property(nonatomic) struct CGRect visibleFrame; // @synthesize visibleFrame=_visibleFrame;
 
 @end
 

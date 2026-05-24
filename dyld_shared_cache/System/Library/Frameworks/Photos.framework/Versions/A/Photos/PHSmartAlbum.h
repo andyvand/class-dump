@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)rror"16;
++ (id)N;
 + (id)NSString",R,C,N,V_assetLocalIdentifier;
 + (id);
-- (_Bool);
+- (_Bool)n;
 
 @end
 

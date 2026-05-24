@@ -9,17 +9,9 @@
 @interface GEORPTdmUserMapsStatus
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _version;
-    _Bool _isBlocked;
-    _Bool _isTrusted;
-    struct {
-        unsigned int has_version:1;
-        unsigned int has_isBlocked:1;
-        unsigned int has_isTrusted:1;
-    } _flags;
 }
 
-+ (_Bool)tLocalizationTile:(id)arg1;
++ (_Bool)setLocalizationTile:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -29,34 +21,28 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)?;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)myriadPreventingTwoShotFeedback;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id)unknownFields"b1"read_entryPoints"b1"read_location"b1"read_placeSearchRequest"b1"wrote_anyField"b1};
-- (id)titled: /* Error: Ran out of types for this method. */;
+- (id)currentProcessIsEntitled: /* Error: Ran out of types for this method. */;
 - (id)°ø$äl4;
-- (_Bool)e_action;
+- (_Bool)lookaround_session_had_share_action;
 - (id)pe from geod on %s;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsBlocked;
-@property(nonatomic) _Bool hasIsTrusted;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool isBlocked;
-@property(nonatomic) _Bool isTrusted;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned long long version;
 
 @end
 

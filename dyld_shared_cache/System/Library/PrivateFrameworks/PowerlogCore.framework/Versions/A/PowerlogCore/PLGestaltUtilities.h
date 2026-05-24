@@ -9,29 +9,30 @@
 }
 
 + (_Bool);
++ (_Bool)M;
++ (_Bool)M;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)N;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (int);
-+ (int);
-+ (id);
 + (id);
 + (id);
 + (int);
++ (int);
++ (id);
++ (id);
++ (id);
++ (int);
 + (id);
 + (id);
 + (_Bool);
++ (_Bool)*U;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -42,25 +43,24 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
++ (_Bool)__got;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)bilityState;
-+ (_Bool)ed;
++ (_Bool)QLCacheCleanUpDatabaseThread;
++ (_Bool);
++ (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool)TranscriptVisibilityState;
++ (_Bool)GroupSessionEventEnded;
 
 @end
 

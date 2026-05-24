@@ -6,24 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMClientSetupFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    int _errorDomain;
-    int _errorCode;
-    struct {
-        unsigned int reason:1;
-        unsigned int errorDomain:1;
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)avatarViewController:presentingViewControllerForContacts: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -31,13 +22,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)libressl/libressl-2.2/crypto/pkcs7/pk7_doit.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id)_hasRescoringLinkId;
 - (id)NRODMetricDuration",&,N,V_queryDecorationTupleBuildingTime;
@@ -46,12 +37,6 @@
 - (int)Ô¥§ÿ´7¶C';
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

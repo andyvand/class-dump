@@ -13,24 +13,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)AppCanShowSiriSuggestionsBlacklist;
+- (void)32@0:8@"QLSeamlessOpener"16@"<QLPreviewItem>"24 /* Error: Ran out of types for this method. */;
+- (_Bool)ID>"24;
+- (_Bool)setCustomizationLabel:(id)arg1;
+- (void)secondaryLabelColor;
 - (void);
 - (unsigned long long);
-- (id);
+- (id)SImage"16@0:(id)arg1 8;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)°
 ;
 
 // Remaining properties
 @property(nonatomic) _Bool acceptsFirstMouse; // @synthesize acceptsFirstMouse=_acceptsFirstMouse;
-@property(nonatomic) _Bool autoforwardsScrollWheelEvents;
-@property unsigned long long controlSize;
 
 @end
 

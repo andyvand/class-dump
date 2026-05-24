@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AMSDataMigratorOptions
 {
     NSString *_currentBuildVersion;
-    NSString *_previousBuildVersion;
-    unsigned long long _scenario;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dDisplayWithRegion"b1};
 - (unsigned long long);
-- (id);
+- (id)4;
 - (void);
 - (id);
-- (void)IN;
+- (void)PURCHASE_SIGNIN;
 - (void)&ì¨b>ô°z+á¥o3ù½w×YÏAÚTÂLÅKÝSÈFÐ^4þºp,æ¢h9ó·}!ë¯eIÇQßD;
 
 // Remaining properties
 @property(copy) NSString *currentBuildVersion; // @synthesize currentBuildVersion=_currentBuildVersion;
-@property(readonly) NSArray *optionsArray;
-@property(copy) NSString *previousBuildVersion; // @synthesize previousBuildVersion=_previousBuildVersion;
-@property unsigned long long scenario; // @synthesize scenario=_scenario;
 
 @end
 

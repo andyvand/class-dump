@@ -4,17 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFCardSectionEngagementFeedback, SFStartSearchFeedback, SFVisibleResultsFeedback;
+@class SFCardSectionEngagementFeedback, SFCardViewAppearFeedback, SFEndSearchFeedback, SFStartSearchFeedback, SFVisibleResultsFeedback;
 
 @protocol SFFeedbackListener
 
 @optional
+- (void)triedConnectingOverIPv6;
+- (void)thresholdDisplayHeadroom;
+- (void)sharedCacheWithUUID:(SFEndSearchFeedback *)arg1 slide:slidBaseAddress: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)trifbCreateFactorMetadataKeyValueUsingBlock:(SFCardViewAppearFeedback *)arg1;
+- (void);
 - (void)6{_NSRange=QQ}24{_NSRange=QQ}40;
-- (void)tion:(SFVisibleResultsFeedback *)arg1;
-- (void)ColumnDidMove:(SFCardSectionEngagementFeedback *)arg1;
-- (void)r;
-- (void):(SFStartSearchFeedback *)arg1;
-- (void)w;
+- (void)toggleStateWithCompletion:(SFVisibleResultsFeedback *)arg1;
+- (void)tableViewColumnDidMove:(SFCardSectionEngagementFeedback *)arg1;
+- (void)reverseObjectEnumerator;
+- (void)overrideAppearance:(SFStartSearchFeedback *)arg1 onView: /* Error: Ran out of types for this method. */;
+- (void)SearchUIWebCardSectionView;
 - (void)inue Search with the same search query in another app;
 - (void)x
 ;

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BTAudioRoutingRequest, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MXAudioAccessoryServices
 {
     NSObject<OS_dispatch_queue> *mSerialQueue;
-    BTAudioRoutingRequest *mAudioRoutingRequest;
 }
 
 + (_Bool);

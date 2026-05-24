@@ -5,5 +5,7 @@
 //
 
 @protocol PodcastsFoundation.MTLibraryProtocol
+- (void)@@;
+- (void);
 @end
 

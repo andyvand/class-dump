@@ -7,6 +7,7 @@
 @interface HomeUtilityServices.UtilityArtwork
 {
     id icon;
+    id;
 }
 
 - (id);

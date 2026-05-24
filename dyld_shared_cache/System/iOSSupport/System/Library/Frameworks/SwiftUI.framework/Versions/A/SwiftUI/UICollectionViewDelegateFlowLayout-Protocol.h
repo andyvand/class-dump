@@ -7,6 +7,7 @@
 @protocol UICollectionViewDelegateFlowLayout
 
 @optional
+- (double);
 - (struct CGSize);
 @end
 

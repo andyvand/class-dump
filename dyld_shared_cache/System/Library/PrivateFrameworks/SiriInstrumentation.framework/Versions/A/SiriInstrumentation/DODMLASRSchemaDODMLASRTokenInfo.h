@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRToken, NSArray, NSData;
+@class ASRSchemaASRToken;
 
 @interface DODMLASRSchemaDODMLASRTokenInfo : SISchemaInstrumentationMessage
 {
     ASRSchemaASRToken *_token;
-    float _acousticCost;
-    float _silenceAcousticCost;
-    NSArray *_numBackoffs;
-    NSArray *_languageModelCosts;
-    struct {
-        unsigned int acousticCost:1;
-        unsigned int silenceAcousticCost:1;
-    } _has;
-    _Bool _hasToken;
 }
 
 - (float);
@@ -27,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned int);
 - (id);
 - (unsigned long long);
-- (float);
+- (float)c;
 - (id);
 - (_Bool);
 - (void);
@@ -47,8 +38,8 @@
 - (void);
 - (void);
 - (float);
-- (id);
-- (id);
+- (id)IAPAppAccessoryManufacturerKey;
+- (id)to XPC event stream %{public}@ for token %{public}@:(id)arg1 %s;
 - (void);
 - (void);
 - (unsigned long long);
@@ -58,20 +49,12 @@
 - (void);
 - (id);
 - (id)"middleNameRank"b1"familyNameRank"b1"fullNameRank"b1};
-- (_Bool)Time;
-- (id)putSubmitted;
+- (_Bool)_pgFullPlannerPostInferenceTime;
+- (id)ORCHSchemaORCHFlowOutputSubmitted;
 - (id)Dx;
 - (void)Ä·ÿ!þ®%;
 
 // Remaining properties
-@property(nonatomic) float acousticCost; // @synthesize acousticCost=_acousticCost;
-@property(nonatomic) _Bool hasAcousticCost;
-@property(nonatomic) _Bool hasSilenceAcousticCost;
-@property(nonatomic) _Bool hasToken; // @synthesize hasToken=_hasToken;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *languageModelCosts; // @synthesize languageModelCosts=_languageModelCosts;
-@property(copy, nonatomic) NSArray *numBackoffs; // @synthesize numBackoffs=_numBackoffs;
-@property(nonatomic) float silenceAcousticCost; // @synthesize silenceAcousticCost=_silenceAcousticCost;
 @property(retain, nonatomic) ASRSchemaASRToken *token; // @synthesize token=_token;
 
 @end

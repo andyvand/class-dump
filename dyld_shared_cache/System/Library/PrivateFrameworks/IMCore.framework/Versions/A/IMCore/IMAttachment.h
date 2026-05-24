@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface IMAttachment
 {
     _Bool _isSticker;
-    _Bool _isTransferComplete;
-    NSString *_guid;
-    NSString *_path;
-    NSDate *_createdDate;
 }
 
 @end

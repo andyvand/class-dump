@@ -4,67 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSLocale, NSLock, NSMutableArray, NSMutableDictionary, NSString, NSTimeZone, OITSUDateParserLibrary;
+@class NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface OITSULocale
 {
     NSLocale *_locale;
-    NSLocale *_gregorianCalendarLocale;
-    NSString *_languageCode;
-    NSString *_localeIdentifier;
-    NSString *_documentLanguageIdentifier;
-    _Bool _isAutoUpdating;
-    NSString *_currencyCode;
-    NSString *_decimalSeparator;
-    NSString *_currencyDecimalSeparator;
-    NSString *_groupingSeparator;
-    NSString *_currencyGroupingSeparator;
-    NSString *_listSeparator;
-    NSString *_percentSymbol;
-    long long _dateComponentOrdering;
-    NSArray *_monthSymbols;
-    NSArray *_standaloneMonthSymbols;
-    NSArray *_weekdaySymbols;
-    NSArray *_standaloneWeekdaySymbols;
-    NSArray *_shortMonthSymbols;
-    NSArray *_shortStandaloneMonthSymbols;
-    NSArray *_shortWeekdaySymbols;
-    NSArray *_shortStandaloneWeekdaySymbols;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _formattersMutex;
-    NSMutableArray *_numberFormatters;
-    NSMutableArray *_scientificNumberFormatters;
-    OITSUDateParserLibrary *_dateParserLibrary;
-    NSLock *_numberFormatterStringFromDoubleWithFormatLock;
-    struct __CFNumberFormatter *_plainFormatter;
-    struct __CFNumberFormatter *_noMinusSignPlainFormatter;
-    struct __CFNumberFormatter *_currencyFormatter;
-    struct __CFNumberFormatter *_noMinusSignCurrencyFormatter;
-    NSString *_activeCurrencyCode;
-    NSString *_activeNoMinusSignCurrencyCode;
-    unsigned long long _groupingSize;
-    NSLock *_localeSpecificStorageLock;
-    NSMutableDictionary *_localeSpecificStorage;
-    NSCache *_cachedLocalizedStrings;
-    NSString *_trueString;
-    NSString *_falseString;
-    NSString *_amString;
-    NSString *_pmString;
 }
 
-+ (id);
++ (id)A;
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)	;
++ (id)];
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)=;
 + (id);
 + (id);
 + (id);
@@ -75,7 +32,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)A@�`B;
 + (id);
 + (void);
 + (id)ìÿÿÃy\;
@@ -87,11 +44,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (_Bool);
-- (long long);
+- (long long)Q	;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (id);
@@ -102,12 +59,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (struct __CFNumberFormatter *);
+- (struct __CFNumberFormatter *);
 - (struct __CFNumberFormatter *);
 - (struct __CFLocale *);
 - (struct __CFLocale *);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -115,63 +72,32 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)	;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)@9	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)oupListViewWidthConstraint;
 - (_Bool);
 - (id);
-- (id);
+- (id)ype;
 - (id);
 - (id);
 - (id)¿;
 - (id)<8ÞÿäªÉ;
 
 // Remaining properties
-@property(readonly) NSString *amString; // @synthesize amString=_amString;
-@property(readonly) NSString *arrayRowSeparator;
-@property(readonly) struct __CFLocale *cfGregorianCalendarLocale;
-@property(readonly) struct __CFLocale *cfLocale;
-@property(readonly) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly) NSString *currencyDecimalSeparator; // @synthesize currencyDecimalSeparator=_currencyDecimalSeparator;
-@property(readonly) NSString *currencyGroupingSeparator; // @synthesize currencyGroupingSeparator=_currencyGroupingSeparator;
-@property(readonly) long long dateComponentOrdering; // @synthesize dateComponentOrdering=_dateComponentOrdering;
-@property(readonly) OITSUDateParserLibrary *dateParserLibrary; // @synthesize dateParserLibrary=_dateParserLibrary;
-@property(readonly) NSString *decimalSeparator; // @synthesize decimalSeparator=_decimalSeparator;
-@property(readonly) NSString *documentLanguageIdentifier; // @synthesize documentLanguageIdentifier=_documentLanguageIdentifier;
-@property(readonly) NSString *falseString; // @synthesize falseString=_falseString;
-@property(readonly) NSLocale *gregorianCalendarLocale; // @synthesize gregorianCalendarLocale=_gregorianCalendarLocale;
-@property(readonly) NSString *groupingSeparator; // @synthesize groupingSeparator=_groupingSeparator;
-@property(readonly) unsigned long long groupingSize; // @synthesize groupingSize=_groupingSize;
-@property(readonly) _Bool isAutoUpdating; // @synthesize isAutoUpdating=_isAutoUpdating;
-@property(readonly) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly) NSString *listSeparator; // @synthesize listSeparator=_listSeparator;
 @property(readonly) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(readonly) NSArray *monthSymbols; // @synthesize monthSymbols=_monthSymbols;
-@property(readonly) NSString *percentSymbol; // @synthesize percentSymbol=_percentSymbol;
-@property(readonly) NSString *pmString; // @synthesize pmString=_pmString;
-@property(readonly) NSArray *shortMonthSymbols; // @synthesize shortMonthSymbols=_shortMonthSymbols;
-@property(readonly) NSArray *shortStandaloneMonthSymbols; // @synthesize shortStandaloneMonthSymbols=_shortStandaloneMonthSymbols;
-@property(readonly) NSArray *shortStandaloneWeekdaySymbols; // @synthesize shortStandaloneWeekdaySymbols=_shortStandaloneWeekdaySymbols;
-@property(readonly) NSArray *shortWeekdaySymbols; // @synthesize shortWeekdaySymbols=_shortWeekdaySymbols;
-@property(readonly) NSArray *standaloneMonthSymbols; // @synthesize standaloneMonthSymbols=_standaloneMonthSymbols;
-@property(readonly) NSArray *standaloneWeekdaySymbols; // @synthesize standaloneWeekdaySymbols=_standaloneWeekdaySymbols;
-@property(readonly) NSTimeZone *timeZone;
-@property(readonly) NSString *trueString; // @synthesize trueString=_trueString;
-@property(readonly) NSArray *weekdaySymbols; // @synthesize weekdaySymbols=_weekdaySymbols;
 
 @end
 

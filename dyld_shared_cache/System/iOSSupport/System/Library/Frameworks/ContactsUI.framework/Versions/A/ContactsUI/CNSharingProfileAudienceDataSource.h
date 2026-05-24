@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSharingProfileRowItem, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNSharingProfileAudienceDataSource
 {
     _Bool _shouldShowEveryone;
-    unsigned long long _selectedSharingAudience;
-    CNSharingProfileRowItem *_selectedItem;
-    NSArray *_valuesArray;
-    NSArray *_items;
 }
 
 - (id);
@@ -30,30 +24,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`f;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)\;
 - (unsigned long long);
-- (void)s;
+- (void)_verticalConstraints;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) unsigned long long selectedIndex;
-@property(retain, nonatomic) CNSharingProfileRowItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(nonatomic) unsigned long long selectedSharingAudience; // @synthesize selectedSharingAudience=_selectedSharingAudience;
 @property(nonatomic) _Bool shouldShowEveryone; // @synthesize shouldShowEveryone=_shouldShowEveryone;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *valuesArray; // @synthesize valuesArray=_valuesArray;
 
 @end
 

@@ -6,19 +6,9 @@
 
 #import <Photos/PHObject.h>
 
-@class NSDate, NSDictionary, NSString;
-
 @interface PHQuestion : PHObject
 {
     unsigned short _type;
-    unsigned short _state;
-    unsigned short _entityType;
-    unsigned short _displayType;
-    short _questionVersion;
-    NSString *_entityIdentifier;
-    double _score;
-    NSDictionary *_additionalInfo;
-    NSDate *_creationDate;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFRichText;
+@class NSString, SFRichText;
 
 @protocol SFSectionHeaderCardSection
+- (SFRichText *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFRichText *text;
 @property(copy, nonatomic) NSString *type;
 @end
 

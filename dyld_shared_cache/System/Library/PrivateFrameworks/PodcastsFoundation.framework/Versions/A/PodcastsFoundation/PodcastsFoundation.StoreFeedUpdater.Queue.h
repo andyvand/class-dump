@@ -7,16 +7,6 @@
 @interface PodcastsFoundation.StoreFeedUpdater.Queue
 {
     id name;
-    id concurrentLimit;
-    id bagConfiguration;
-    id ctx;
-    id ingesterProvider;
-    id mediaRequestController;
-    id queue;
-    id pendingQueue;
-    id runningQueue;
-    id jobs;
-    id completionCallback;
 }
 
 @end

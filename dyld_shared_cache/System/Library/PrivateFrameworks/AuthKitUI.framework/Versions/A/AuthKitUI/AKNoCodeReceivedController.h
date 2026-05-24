@@ -4,43 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField;
+@class NSTextField;
 
 @interface AKNoCodeReceivedController
 {
     NSTextField *_titleTextField;
-    NSTextField *_messageTextField;
-    NSButton *_cancelButton;
-    NSButton *_alternativeButton;
-    NSButton *_defaultButton;
-    CDUnknownBlockType _cancelButtonAction;
-    CDUnknownBlockType _alternateButtonAction;
-    CDUnknownBlockType _defaultButtonAction;
-    NSTextField *_titleLabel;
-    NSTextField *_bodyLabel;
 }
 
 - (void);
+- (void)JY;
 - (void);
+- (void)<;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (CDUnknownBlockType);
+- (id);
+- (id);
 - (void);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void)__DATA_CONST;
 - (id);
 - (void);
 - (id);
@@ -48,16 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType alternateButtonAction; // @synthesize alternateButtonAction=_alternateButtonAction;
-@property(retain, nonatomic) NSButton *alternativeButton; // @synthesize alternativeButton=_alternativeButton;
-@property(retain, nonatomic) NSTextField *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
-@property(retain, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType cancelButtonAction; // @synthesize cancelButtonAction=_cancelButtonAction;
-@property(retain, nonatomic) NSButton *defaultButton; // @synthesize defaultButton=_defaultButton;
-@property(copy, nonatomic) CDUnknownBlockType defaultButtonAction; // @synthesize defaultButtonAction=_defaultButtonAction;
-@property(retain, nonatomic) NSTextField *messageTextField; // @synthesize messageTextField=_messageTextField;
 @property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end
 

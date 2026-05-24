@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSString, NSXPCConnection, NSXPCInterface, NSXPCListenerEndpoint;
+@class NSXPCInterface, NSXPCListenerEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface NSVBHasClientAuxiliaryConnection
 {
     NSXPCListenerEndpoint *_auxiliaryListenerEndpoint;
-    NSXPCConnection *auxiliaryServiceConnection;
 }
 
 - (void);
@@ -19,22 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)SMetadataQuery",W,V_query;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCInterface *auxiliaryInterfaceIncoming;
 @property(readonly, nonatomic) NSXPCInterface *auxiliaryInterfaceOutgoing;
-@property __weak NSXPCConnection *auxiliaryServiceConnection; // @synthesize auxiliaryServiceConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) CAContext *fenceContext;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isValid;
-@property(readonly) Class superclass;
 
 @end
 

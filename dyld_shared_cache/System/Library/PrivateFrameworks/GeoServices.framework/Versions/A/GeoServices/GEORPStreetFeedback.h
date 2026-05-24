@@ -11,22 +11,22 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)LocalUpdatedTimestamp:(id)arg1;
-- (void);
++ (_Bool)setLocalUpdatedTimestamp:(id)arg1;
+- (void)P;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dataForChannel:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)s_includeSuggestionsOnly"b1"has_includeTravelDistance"b1"has_includeTravelTime"b1"has_includeUnmatchedStrings"b1"has_isCanonicalLocationSearch"b1"has_isFromAPI"b1"has_isStrictGeocoding"b1"has_isStrictMapRegion"b1"has_isPopularNearbyRequest"b1"has_structuredSearch"b1"has_suppressResultsRequiringAttribution"b1"read_unknownFields"b1"read_additionalPlaceTypes"b1"read_businessIDs"b1"read_optionalSuppressionReasons"b1"read_additionalEnabledMarkets"b1"read_address"b1"read_businessOptions"b1"read_clientCapabilities"b1"read_deviceCountryCode"b1"read_deviceLocation"b1"read_deviceTimeZone"b1"read_deviceLocationCountryCode"b1"read_filterByBusinessCategorys"b1"read_indexFilter"b1"read_inputLanguage"b1"read_knownLocation"b1"read_limitToCountryCodeIso2s"b1"read_location"b1"read_mapRegion"b1"read_phoneticLocaleIdentifier"b1"read_preserveFields"b1"read_searchContextSubstring"b1"read_searchContext"b1"read_searchLocation"b1"read_searchSubstrings"b1"read_search"b1"read_serviceTags"b1"read_suggestionsOptions"b1"read_suggestionsPrefix"b1"read_viewportCenterCountryCode"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)sCount;
+- (id)countryRegionAllowlistsCount;
 - (id)<+,12$;<P=cØ=;
-- (id)SIMILAR;
+- (id)CATEGORY_RELATIONSHIP_TYPE_SIMILAR;
 - (void)ZHÀèP@;
 
 // Remaining properties

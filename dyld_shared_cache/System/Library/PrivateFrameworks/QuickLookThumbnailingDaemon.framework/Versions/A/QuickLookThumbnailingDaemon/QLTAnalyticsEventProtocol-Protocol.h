@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol QLTAnalyticsEventProtocol
+- (NSDictionary * (^)(void))case_header;
 
 // Remaining properties
 @property(readonly) NSString *name;
-@property(readonly) CDUnknownBlockType propertiesBuilder;
 @end
 

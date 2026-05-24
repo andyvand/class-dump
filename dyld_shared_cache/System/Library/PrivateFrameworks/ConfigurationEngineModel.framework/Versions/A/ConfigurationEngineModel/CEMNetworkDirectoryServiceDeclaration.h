@@ -6,49 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkDirectoryServiceDeclaration : CEMConfigurationBase
 {
     NSString *_payloadHostName;
-    NSString *_payloadUserName;
-    NSString *_payloadPassword;
-    NSString *_payloadClientID;
-    NSString *_payloadDescription;
-    NSString *_payloadADOrganizationalUnit;
-    NSString *_payloadADMountStyle;
-    NSNumber *_payloadADCreateMobileAccountAtLoginFlag;
-    NSNumber *_payloadADCreateMobileAccountAtLogin;
-    NSNumber *_payloadADWarnUserBeforeCreatingMAFlag;
-    NSNumber *_payloadADWarnUserBeforeCreatingMA;
-    NSNumber *_payloadADForceHomeLocalFlag;
-    NSNumber *_payloadADForceHomeLocal;
-    NSNumber *_payloadADUseWindowsUNCPathFlag;
-    NSNumber *_payloadADUseWindowsUNCPath;
-    NSNumber *_payloadADAllowMultiDomainAuthFlag;
-    NSNumber *_payloadADAllowMultiDomainAuth;
-    NSNumber *_payloadADDefaultUserShellFlag;
-    NSString *_payloadADDefaultUserShell;
-    NSNumber *_payloadADMapUIDAttributeFlag;
-    NSString *_payloadADMapUIDAttribute;
-    NSNumber *_payloadADMapGIDAttributeFlag;
-    NSString *_payloadADMapGIDAttribute;
-    NSNumber *_payloadADMapGGIDAttributeFlag;
-    NSString *_payloadADMapGGIDAttribute;
-    NSNumber *_payloadADPreferredDCServerFlag;
-    NSString *_payloadADPreferredDCServer;
-    NSNumber *_payloadADDomainAdminGroupListFlag;
-    NSArray *_payloadADDomainAdminGroupList;
-    NSNumber *_payloadADNamespaceFlag;
-    NSString *_payloadADNamespace;
-    NSNumber *_payloadADPacketSignFlag;
-    NSString *_payloadADPacketSign;
-    NSNumber *_payloadADPacketEncryptFlag;
-    NSString *_payloadADPacketEncrypt;
-    NSNumber *_payloadADRestrictDDNSFlag;
-    NSArray *_payloadADRestrictDDNS;
-    NSNumber *_payloadADTrustChangePassIntervalDaysFlag;
-    NSNumber *_payloadADTrustChangePassIntervalDays;
 }
 
 + (id);
@@ -58,6 +20,7 @@
 + (id);
 + (id);
 + (id);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -68,11 +31,10 @@
 - (void);
 - (void);
 - (void);
+- (void));
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)D;
 - (void);
 - (void);
 - (void);
@@ -133,65 +95,20 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)NSArray"16@"NSArray"24;
 - (id);
 - (id);
-- (void);
+- (void)DSA-AES256-GCM-SHA384;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadADAllowMultiDomainAuth; // @synthesize payloadADAllowMultiDomainAuth=_payloadADAllowMultiDomainAuth;
-@property(copy, nonatomic) NSNumber *payloadADAllowMultiDomainAuthFlag; // @synthesize payloadADAllowMultiDomainAuthFlag=_payloadADAllowMultiDomainAuthFlag;
-@property(copy, nonatomic) NSNumber *payloadADCreateMobileAccountAtLogin; // @synthesize payloadADCreateMobileAccountAtLogin=_payloadADCreateMobileAccountAtLogin;
-@property(copy, nonatomic) NSNumber *payloadADCreateMobileAccountAtLoginFlag; // @synthesize payloadADCreateMobileAccountAtLoginFlag=_payloadADCreateMobileAccountAtLoginFlag;
-@property(copy, nonatomic) NSString *payloadADDefaultUserShell; // @synthesize payloadADDefaultUserShell=_payloadADDefaultUserShell;
-@property(copy, nonatomic) NSNumber *payloadADDefaultUserShellFlag; // @synthesize payloadADDefaultUserShellFlag=_payloadADDefaultUserShellFlag;
-@property(copy, nonatomic) NSArray *payloadADDomainAdminGroupList; // @synthesize payloadADDomainAdminGroupList=_payloadADDomainAdminGroupList;
-@property(copy, nonatomic) NSNumber *payloadADDomainAdminGroupListFlag; // @synthesize payloadADDomainAdminGroupListFlag=_payloadADDomainAdminGroupListFlag;
-@property(copy, nonatomic) NSNumber *payloadADForceHomeLocal; // @synthesize payloadADForceHomeLocal=_payloadADForceHomeLocal;
-@property(copy, nonatomic) NSNumber *payloadADForceHomeLocalFlag; // @synthesize payloadADForceHomeLocalFlag=_payloadADForceHomeLocalFlag;
-@property(copy, nonatomic) NSString *payloadADMapGGIDAttribute; // @synthesize payloadADMapGGIDAttribute=_payloadADMapGGIDAttribute;
-@property(copy, nonatomic) NSNumber *payloadADMapGGIDAttributeFlag; // @synthesize payloadADMapGGIDAttributeFlag=_payloadADMapGGIDAttributeFlag;
-@property(copy, nonatomic) NSString *payloadADMapGIDAttribute; // @synthesize payloadADMapGIDAttribute=_payloadADMapGIDAttribute;
-@property(copy, nonatomic) NSNumber *payloadADMapGIDAttributeFlag; // @synthesize payloadADMapGIDAttributeFlag=_payloadADMapGIDAttributeFlag;
-@property(copy, nonatomic) NSString *payloadADMapUIDAttribute; // @synthesize payloadADMapUIDAttribute=_payloadADMapUIDAttribute;
-@property(copy, nonatomic) NSNumber *payloadADMapUIDAttributeFlag; // @synthesize payloadADMapUIDAttributeFlag=_payloadADMapUIDAttributeFlag;
-@property(copy, nonatomic) NSString *payloadADMountStyle; // @synthesize payloadADMountStyle=_payloadADMountStyle;
-@property(copy, nonatomic) NSString *payloadADNamespace; // @synthesize payloadADNamespace=_payloadADNamespace;
-@property(copy, nonatomic) NSNumber *payloadADNamespaceFlag; // @synthesize payloadADNamespaceFlag=_payloadADNamespaceFlag;
-@property(copy, nonatomic) NSString *payloadADOrganizationalUnit; // @synthesize payloadADOrganizationalUnit=_payloadADOrganizationalUnit;
-@property(copy, nonatomic) NSString *payloadADPacketEncrypt; // @synthesize payloadADPacketEncrypt=_payloadADPacketEncrypt;
-@property(copy, nonatomic) NSNumber *payloadADPacketEncryptFlag; // @synthesize payloadADPacketEncryptFlag=_payloadADPacketEncryptFlag;
-@property(copy, nonatomic) NSString *payloadADPacketSign; // @synthesize payloadADPacketSign=_payloadADPacketSign;
-@property(copy, nonatomic) NSNumber *payloadADPacketSignFlag; // @synthesize payloadADPacketSignFlag=_payloadADPacketSignFlag;
-@property(copy, nonatomic) NSString *payloadADPreferredDCServer; // @synthesize payloadADPreferredDCServer=_payloadADPreferredDCServer;
-@property(copy, nonatomic) NSNumber *payloadADPreferredDCServerFlag; // @synthesize payloadADPreferredDCServerFlag=_payloadADPreferredDCServerFlag;
-@property(copy, nonatomic) NSArray *payloadADRestrictDDNS; // @synthesize payloadADRestrictDDNS=_payloadADRestrictDDNS;
-@property(copy, nonatomic) NSNumber *payloadADRestrictDDNSFlag; // @synthesize payloadADRestrictDDNSFlag=_payloadADRestrictDDNSFlag;
-@property(copy, nonatomic) NSNumber *payloadADTrustChangePassIntervalDays; // @synthesize payloadADTrustChangePassIntervalDays=_payloadADTrustChangePassIntervalDays;
-@property(copy, nonatomic) NSNumber *payloadADTrustChangePassIntervalDaysFlag; // @synthesize payloadADTrustChangePassIntervalDaysFlag=_payloadADTrustChangePassIntervalDaysFlag;
-@property(copy, nonatomic) NSNumber *payloadADUseWindowsUNCPath; // @synthesize payloadADUseWindowsUNCPath=_payloadADUseWindowsUNCPath;
-@property(copy, nonatomic) NSNumber *payloadADUseWindowsUNCPathFlag; // @synthesize payloadADUseWindowsUNCPathFlag=_payloadADUseWindowsUNCPathFlag;
-@property(copy, nonatomic) NSNumber *payloadADWarnUserBeforeCreatingMA; // @synthesize payloadADWarnUserBeforeCreatingMA=_payloadADWarnUserBeforeCreatingMA;
-@property(copy, nonatomic) NSNumber *payloadADWarnUserBeforeCreatingMAFlag; // @synthesize payloadADWarnUserBeforeCreatingMAFlag=_payloadADWarnUserBeforeCreatingMAFlag;
-@property(copy, nonatomic) NSString *payloadClientID; // @synthesize payloadClientID=_payloadClientID;
-@property(copy, nonatomic) NSString *payloadDescription; // @synthesize payloadDescription=_payloadDescription;
 @property(copy, nonatomic) NSString *payloadHostName; // @synthesize payloadHostName=_payloadHostName;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
-@property(copy, nonatomic) NSString *payloadUserName; // @synthesize payloadUserName=_payloadUserName;
-@property(readonly) Class superclass;
 
 @end
 

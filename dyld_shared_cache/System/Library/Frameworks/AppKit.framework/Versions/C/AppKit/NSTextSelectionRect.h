@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAffineTransform;
-
 @interface NSTextSelectionRect
 {
 }
 
-- (long long);
+- (long long)OPzhvROZUqCZhgYMyve5BA;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (struct CGRect)"48@"NSArray"56@?<v@?@"NSArray"q>64;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isVertical;
 @property(readonly, nonatomic) struct CGRect rect;
-@property(readonly, nonatomic) NSAffineTransform *transform;
-@property(readonly, nonatomic) long long writingDirection;
 
 @end
 

@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, UITouch;
+@class UITouch;
 
 @interface CKCatalystInvisibleInkGestureRecognizer
 {
     UITouch *_firstTouch;
-    double _startTime;
-    NSTimer *_hoverExitDelayTimer;
-    struct CGPoint _startLocation;
 }
 
 - (void);
-- (id);
+- (id)Value:%@, toValue:%@, color:%@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)A�y;
 - (struct CGPoint);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (double);
@@ -31,15 +28,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)dOnCompletion;
+- (void)_requestChannelAndDisplayBackgroundOnCompletion;
 - (void)isWatchOS;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITouch *firstTouch; // @synthesize firstTouch=_firstTouch;
-@property(retain, nonatomic) NSTimer *hoverExitDelayTimer; // @synthesize hoverExitDelayTimer=_hoverExitDelayTimer;
-@property(nonatomic) struct CGPoint startLocation; // @synthesize startLocation=_startLocation;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end
 

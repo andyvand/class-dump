@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ECTwoIntegerKeyCache
 {
     OITSUIntegerKeyDictionary *mCache;
-    _Bool _assertForCollisions;
 }
 
 - (void);

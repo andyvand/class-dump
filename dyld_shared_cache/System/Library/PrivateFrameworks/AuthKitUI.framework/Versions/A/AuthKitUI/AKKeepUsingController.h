@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKKeepUsingController
 {
     _Bool _isBeingPresented;
-    NSString *_existingAccount;
-    CDUnknownBlockType _useExistingAction;
-    CDUnknownBlockType _useOtherAction;
-    long long _serviceType;
 }
 
 - (CDUnknownBlockType);
@@ -23,9 +17,9 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)XX~;
 - (void);
-- (id);
+- (id)@;
 - (long long);
 - (id);
 - (void);
@@ -33,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *existingAccount; // @synthesize existingAccount=_existingAccount;
 @property(nonatomic) _Bool isBeingPresented; // @synthesize isBeingPresented=_isBeingPresented;
-@property(nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) CDUnknownBlockType useExistingAction; // @synthesize useExistingAction=_useExistingAction;
-@property(copy, nonatomic) CDUnknownBlockType useOtherAction; // @synthesize useOtherAction=_useOtherAction;
 
 @end
 

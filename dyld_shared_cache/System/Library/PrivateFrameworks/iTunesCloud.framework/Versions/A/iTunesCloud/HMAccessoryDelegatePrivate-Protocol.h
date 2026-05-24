@@ -5,5 +5,10 @@
 //
 
 @protocol HMAccessoryDelegatePrivate
+
+@optional
+- (void)c;
+- (void);
+- (void);
 @end
 

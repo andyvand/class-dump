@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SADependencyGraphTaskNode, SATask, SATaskState, SAThread, SAThreadState;
+@class SATask;
 
 @interface SADependencyGraphNode
 {
     _Bool _isPartOfADeadlock;
-    _Bool _isBlockedByADeadlock;
-    _Bool _analyzedDependenciesAlready;
-    SATask *_task;
-    SATaskState *_taskState;
-    SAThread *_thread;
-    SAThreadState *_threadState;
-    SADependencyGraphNode *_dependency;
-    SADependencyGraphTaskNode *_taskDependency;
 }
 
 + (id);
@@ -32,14 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) __weak SADependencyGraphNode *dependency;
-@property(readonly) _Bool isBlockedByADeadlock;
-@property(readonly) _Bool isPartOfADeadlock;
 @property(readonly) SATask *task; // @synthesize task=_task;
-@property(readonly) SADependencyGraphTaskNode *taskDependency;
-@property(readonly) SATaskState *taskState; // @synthesize taskState=_taskState;
-@property(readonly) SAThread *thread; // @synthesize thread=_thread;
-@property(readonly) SAThreadState *threadState; // @synthesize threadState=_threadState;
 
 @end
 

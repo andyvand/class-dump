@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestHomeWorkProcessor
 {
@@ -12,21 +12,15 @@
 }
 
 - (_Bool);
+- (void)setSearchDelegate:(id)arg1;
+- (id);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void)ois;
+- (void)pois;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

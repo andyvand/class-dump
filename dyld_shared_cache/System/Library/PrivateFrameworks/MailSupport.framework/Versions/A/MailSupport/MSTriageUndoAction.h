@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, EMMessageRepository, NSString;
-
 @interface MSTriageUndoAction
 {
     _Bool _isValid;
-    EMMessageRepository *_messageRepository;
-    EFFuture *_changeActionFuture;
 }
 
 - (id);
@@ -18,20 +14,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)e>"8;
 
 // Remaining properties
-@property(readonly, nonatomic) EFFuture *changeActionFuture; // @synthesize changeActionFuture=_changeActionFuture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isUndoSupported;
 @property(readonly, nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly, nonatomic) EMMessageRepository *messageRepository; // @synthesize messageRepository=_messageRepository;
-@property(readonly) Class superclass;
 
 @end
 

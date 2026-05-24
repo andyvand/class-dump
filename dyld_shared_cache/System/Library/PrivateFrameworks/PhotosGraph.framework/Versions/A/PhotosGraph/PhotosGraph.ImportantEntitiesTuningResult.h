@@ -7,8 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesTuningResult
 {
     id inferredImportantEntitiesLocalIdentifiers;
-    id truePositiveImportantEntitiesLocalIdentifiers;
-    id trueNegativeImportantEntitiesLocalIdentifiers;
 }
 
 @end

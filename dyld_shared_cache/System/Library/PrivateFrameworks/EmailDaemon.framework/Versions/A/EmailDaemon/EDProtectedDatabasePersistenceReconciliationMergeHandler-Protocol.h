@@ -5,5 +5,6 @@
 //
 
 @protocol EDProtectedDatabasePersistenceReconciliationMergeHandler
+- (unsigned long long);
 @end
 

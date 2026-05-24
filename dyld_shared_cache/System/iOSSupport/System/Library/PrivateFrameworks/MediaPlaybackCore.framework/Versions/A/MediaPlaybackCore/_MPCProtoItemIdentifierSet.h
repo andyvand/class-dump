@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoItemIdentifierSet
 {
     long long _cloudID;
-    long long _delegateInfoID;
-    long long _purchaseHistoryID;
-    long long _storeAdamID;
-    long long _storeSubscriptionAdamID;
-    NSString *_cloudUniversalLibraryID;
-    NSString *_contentItemID;
-    struct {
-        unsigned int cloudID:1;
-        unsigned int delegateInfoID:1;
-        unsigned int purchaseHistoryID:1;
-        unsigned int storeAdamID:1;
-        unsigned int storeSubscriptionAdamID:1;
-    } _has;
 }
 
-- (id);
+- (id)�C;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)URLSessionPreconnecter;
 - (id);
 - (id);
 - (void)blic}@] _addAutoPlayPlaybackContext:| adding dataSource [] dataSource=%p section=%{public}@ /* Error: Ran out of types for this method. */;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SiriCloudKitAccountsNotifier
@@ -14,19 +14,12 @@
 
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)_xct_axElementForAttribute: /* Error: Ran out of types for this method. */;
+- (void)&8;
+- (void)rm_remoteManagementAccountForIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,21 +6,13 @@
 
 #import <OfficeImport/OCXReadState.h>
 
-@class CXNamespace, NSMutableDictionary, OAVReadState, OAXDrawingState, OAXTableStyleCache, PDPresentation;
+@class NSMutableDictionary;
 @protocol TCCancelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface PXPresentationState : OCXReadState
 {
     NSMutableDictionary *mModelObjects;
-    OAXDrawingState *mOfficeArtState;
-    OAVReadState *mOAVState;
-    OAXTableStyleCache *mTableStyleCache;
-    NSMutableDictionary *mSlideURLToIndexMap;
-    PDPresentation *mTgtPresentation;
-    id <TCCancelDelegate> mCancel;
-    CXNamespace *mPXPresentationMLNamespace;
-    NSMutableDictionary *mCommentAuthorIdToIndexMap;
 }
 
 + (void);
@@ -45,9 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)alone.narrow;
 
 // Remaining properties
-@property(retain, nonatomic) CXNamespace *PXPresentationMLNamespace; // @synthesize PXPresentationMLNamespace=mPXPresentationMLNamespace;
 @property(retain, nonatomic) id <TCCancelDelegate> cancelDelegate; // @synthesize cancelDelegate=mCancel;
-@property(readonly, nonatomic) NSMutableDictionary *commentAuthorIdToIndexMap; // @synthesize commentAuthorIdToIndexMap=mCommentAuthorIdToIndexMap;
 
 @end
 

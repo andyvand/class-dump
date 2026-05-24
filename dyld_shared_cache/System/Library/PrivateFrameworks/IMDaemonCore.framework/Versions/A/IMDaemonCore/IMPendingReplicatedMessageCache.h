@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSObject, NSTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMPendingReplicatedMessageCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_pendingMessages;
-    NSTimer *_timeoutTimer;
-    NSCache *_replicatedFallbackHistory;
 }
 
 + (id);
@@ -24,22 +21,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Rh;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)5;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *pendingMessages; // @synthesize pendingMessages=_pendingMessages;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSCache *replicatedFallbackHistory; // @synthesize replicatedFallbackHistory=_replicatedFallbackHistory;
-@property(retain, nonatomic) NSTimer *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
 
 @end
 

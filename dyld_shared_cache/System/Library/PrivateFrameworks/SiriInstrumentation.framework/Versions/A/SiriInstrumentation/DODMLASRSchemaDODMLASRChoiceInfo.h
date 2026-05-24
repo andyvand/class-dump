@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface DODMLASRSchemaDODMLASRChoiceInfo : SISchemaInstrumentationMessage
 {
     NSArray *_tokens;
-    float _graphCost;
-    float _acousticCost;
-    struct {
-        unsigned int graphCost:1;
-        unsigned int acousticCost:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -33,9 +27,9 @@
 - (void);
 - (void);
 - (float);
-- (float);
+- (float)P;
 - (id);
-- (id);
+- (id)preferConnectedRouteMatch;
 - (id);
 - (void);
 - (unsigned long long);
@@ -44,16 +38,11 @@
 - (void);
 - (id);
 - (id)ppContactFreqForPhoneCallUsingSiri"b1"appContactFreqForPhoneCallHaptic"b1};
-- (id)dToPause;
+- (id)NLXSchemaCDMUserWantedToPause;
 - (id)0·;
 - (void)ø;
 
 // Remaining properties
-@property(nonatomic) float acousticCost; // @synthesize acousticCost=_acousticCost;
-@property(nonatomic) float graphCost; // @synthesize graphCost=_graphCost;
-@property(nonatomic) _Bool hasAcousticCost;
-@property(nonatomic) _Bool hasGraphCost;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end

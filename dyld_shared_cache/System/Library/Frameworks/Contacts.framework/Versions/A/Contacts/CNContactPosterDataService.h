@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCListener, _ListenerDelegate;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 @interface CNContactPosterDataService
 {
     NSXPCListener *_listener;
-    _ListenerDelegate *_listenerDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void)4;
@@ -25,8 +22,6 @@
 
 // Remaining properties
 @property(readonly) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) _ListenerDelegate *listenerDelegate; // @synthesize listenerDelegate=_listenerDelegate;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

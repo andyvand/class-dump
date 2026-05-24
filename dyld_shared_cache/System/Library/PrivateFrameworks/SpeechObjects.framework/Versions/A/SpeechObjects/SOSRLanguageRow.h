@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOSRLanguageItem;
+@class NSString;
 
 @interface SOSRLanguageRow
 {
     NSString *_title;
-    unsigned long long _tableIndex;
-    _Bool _selected;
-    _Bool _groupRow;
-    SOSRLanguageItem *_srLanguageItem;
 }
 
 + (id);
@@ -25,16 +21,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)d;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(getter=isGroupRow) _Bool groupRow; // @synthesize groupRow=_groupRow;
-@property(getter=isSelected) _Bool selected;
-@property(readonly, retain) SOSRLanguageItem *srLanguageItem; // @synthesize srLanguageItem=_srLanguageItem;
-@property unsigned long long tableIndex; // @synthesize tableIndex=_tableIndex;
-@property(readonly, retain) NSString *title; // @synthesize title=_title;
 
 @end
 

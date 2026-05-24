@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface DDMLTokenType
 {
     _Bool _beginning;
-    int _classification;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)k;
 - (id);
 - (int);
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool beginning; // @synthesize beginning=_beginning;
 @property(readonly) int classification; // @synthesize classification=_classification;
 
 @end

@@ -4,50 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFPromise, ACAccountStore, ADMChangePasswordController, AIDAAccountManager, AOSUIAccountContactSetupFlowController, AOSUIAccountRecoveryContext, AOSUIRecoveryFactorController, CDPContext, CDPStateController, CDPStateUIController, ICQiCloudPurchaseStorageController, JSContext, JSValue, MMJSDialogController, MMLoadingSheetController, MMWebKitController, NSDictionary, NSImage, NSMutableDictionary, NSNumber, NSString, NSView, NSWindow, WebView;
-@protocol AIDAServiceOwnerProtocol, ICAUIDelegate, ICAWebKitViewControllerDelegate, MBICAUIDelegate;
+@class MMWebKitController, NSView;
 
 @interface MMICAWebKitViewController
 {
     MMWebKitController *_webKitController;
-    MMJSDialogController *_mmJSDialogController;
-    JSContext *_jsContext;
-    NSString *_accountID;
-    NSString *_location;
-    NSDictionary *_buttonBarDict;
-    NSDictionary *_workflowDict;
-    _Bool _supportsWindowResize;
-    unsigned long long _gsType;
-    CDPStateUIController *_cdpStateUIController;
-    CDPStateController *cdpController;
-    CDPContext *cdpContext;
-    ADMChangePasswordController *mChangePasswordController;
-    NSString *_altDSID;
-    struct {
-        unsigned int delegateDidEnd:1;
-        unsigned int delegateDidFinishLoading:1;
-        unsigned int delegateDidFail:1;
-        unsigned int delegateDidChangePassword:1;
-        unsigned int delegateDidReceiveResponse:1;
-        unsigned int padding:3;
-    } _flags;
-    AAFPromise *_pictureStorePromise;
-    id <ICAUIDelegate> _icaUIDelegate;
-    id <MBICAUIDelegate> _icaMBUIDelegate;
-    id <ICAWebKitViewControllerDelegate> _icaWebKitViewControllerDelegate;
-    NSView *_parentView;
-    NSWindow *_parentWindow;
-    AOSUIAccountRecoveryContext *_context;
-    NSImage *_displayImage;
-    ICQiCloudPurchaseStorageController *_purchaseStorageController;
-    NSMutableDictionary *_authKitData;
-    AIDAAccountManager *_accountManager;
-    id <AIDAServiceOwnerProtocol> _serviceOwnersManager;
-    ACAccountStore *_accountStore;
-    MMLoadingSheetController *_mmLoadingSheetController;
-    JSValue *_hookCallback;
-    AOSUIAccountContactSetupFlowController *_recoveryContactSetupFlowController;
-    AOSUIRecoveryFactorController *_recoveryFactorController;
 }
 
 - (void);
@@ -66,14 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)k_;
 - (void);
 - (void);
 - (void);
@@ -86,41 +40,50 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (id)2;
+- (id)3;
+- (void)	k3;
+- (void);
+- (void))	K)
+?;
+- (void);
+- (void);
+- (void);
+- (id)3;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)I	*)
+K)?1	3;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)	K))?91	3;
 - (id);
 - (unsigned long long);
 - (void);
@@ -129,66 +92,82 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)?
+k	3;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)(
+
+3;
 - (void);
+- (void)3;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)?
+k	3;
+- (void)q	3;
+- (void);
+- (id);
+- (id)q)3;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)q(3;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (id);
+- (id)/;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void)IA	*?;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -199,33 +178,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)j@9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (int);
-- (int);
+- (int)(*	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (id);
@@ -240,51 +207,51 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)5˿;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)A;
+- (id);
+- (id)׿;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id)c;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id)/CoreTransferable;
 - (id);
+- (id)DD;
 - (int);
 - (id);
 - (unsigned long long);
@@ -300,49 +267,7 @@
 - (void)H¼P¦;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *account; // @dynamic account;
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) AIDAAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSMutableDictionary *authKitData; // @synthesize authKitData=_authKitData;
-@property(retain, nonatomic, getter=icaButtonBar, setter=icaSetButtonBar:) JSValue *buttonBar; // @dynamic buttonBar;
-@property(retain, nonatomic) NSDictionary *buttonBarDict; // @synthesize buttonBarDict=_buttonBarDict;
-@property(retain, nonatomic) CDPStateUIController *cdpStateUIController; // @synthesize cdpStateUIController=_cdpStateUIController;
-@property(retain, nonatomic) AOSUIAccountRecoveryContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(readonly, nonatomic) NSDictionary *environment; // @dynamic environment;
-@property(nonatomic, setter=setGSType:) unsigned long long gsType; // @synthesize gsType=_gsType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) JSValue *hookCallback; // @synthesize hookCallback=_hookCallback;
-@property(nonatomic) id <MBICAUIDelegate> icaMBUIDelegate; // @synthesize icaMBUIDelegate=_icaMBUIDelegate;
-@property(nonatomic) id <ICAUIDelegate> icaUIDelegate; // @synthesize icaUIDelegate=_icaUIDelegate;
-@property(nonatomic) id <ICAWebKitViewControllerDelegate> icaWebKitViewControllerDelegate; // @synthesize icaWebKitViewControllerDelegate=_icaWebKitViewControllerDelegate;
-@property(readonly, nonatomic) NSNumber *isIMChangingEnabledState;
-@property(readonly, nonatomic) NSNumber *isIMEnabled;
-@property(retain, nonatomic) JSContext *jsContext; // @synthesize jsContext=_jsContext;
-@property(copy, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain) MMJSDialogController *mmJSDialogController; // @synthesize mmJSDialogController=_mmJSDialogController;
-@property(retain) MMLoadingSheetController *mmLoadingSheetController; // @synthesize mmLoadingSheetController=_mmLoadingSheetController;
-@property(readonly, nonatomic) NSString *numberOfDaysSinceIMExit;
 @property(nonatomic) NSView *parentView; // @synthesize parentView=_parentView;
-@property(nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly, nonatomic) unsigned long long protocolVersion; // @dynamic protocolVersion;
-@property(retain) ICQiCloudPurchaseStorageController *purchaseStorageController; // @synthesize purchaseStorageController=_purchaseStorageController;
-@property(retain, nonatomic) AOSUIAccountContactSetupFlowController *recoveryContactSetupFlowController; // @synthesize recoveryContactSetupFlowController=_recoveryContactSetupFlowController;
-@property(retain, nonatomic) AOSUIRecoveryFactorController *recoveryFactorController; // @synthesize recoveryFactorController=_recoveryFactorController;
-@property(retain, nonatomic) id <AIDAServiceOwnerProtocol> serviceOwnersManager; // @synthesize serviceOwnersManager=_serviceOwnersManager;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsWindowResize; // @synthesize supportsWindowResize=_supportsWindowResize;
-@property(retain) MMWebKitController *webKitController; // @synthesize webKitController=_webKitController;
-@property(readonly, nonatomic) WebView *webView;
-@property(readonly, nonatomic) NSDictionary *workflow; // @dynamic workflow;
-@property(retain, nonatomic) NSDictionary *workflowDict; // @synthesize workflowDict=_workflowDict;
 
 @end
 

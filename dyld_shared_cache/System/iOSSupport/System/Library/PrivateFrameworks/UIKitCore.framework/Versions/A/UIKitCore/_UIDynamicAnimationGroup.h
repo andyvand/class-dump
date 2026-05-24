@@ -6,18 +6,16 @@
 
 #import <UIKitCore/_UIDynamicAnimation.h>
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface _UIDynamicAnimationGroup : _UIDynamicAnimation
 {
     CDUnknownBlockType _applier;
-    NSMutableArray *_animations;
-    NSMutableArray *_runningAnimations;
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)setRecordNameToMessageItemMap:(CDUnknownBlockType)arg1;
+- (void)WhitelistEmailInternalPhishing;
+- (_Bool)urlToTransferMap;
 - (void);
 - (void);
 - (void);

@@ -6,16 +6,11 @@
 
 #import <MetalTools/MTL4ToolsCommandEncoder.h>
 
-@class NSString;
-@protocol MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer;
+@protocol MTL4ArgumentTable;
 
 @interface MTL4ToolsRenderCommandEncoder : MTL4ToolsCommandEncoder
 {
     id <MTL4ArgumentTable> _currentVertexArgumentTable;
-    id <MTL4ArgumentTable> _currentFragmentArgumentTable;
-    id <MTL4ArgumentTable> _currentTileArgumentTable;
-    id <MTL4ArgumentTable> _currentObjectArgumentTable;
-    id <MTL4ArgumentTable> _currentMeshArgumentTable;
 }
 
 - (void);
@@ -48,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,26 +68,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)u, ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandAllocator> commandAllocator;
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
-@property(readonly, nonatomic) id <MTL4ArgumentTable> currentFragmentArgumentTable; // @synthesize currentFragmentArgumentTable=_currentFragmentArgumentTable;
-@property(readonly, nonatomic) id <MTL4ArgumentTable> currentMeshArgumentTable; // @synthesize currentMeshArgumentTable=_currentMeshArgumentTable;
-@property(readonly, nonatomic) id <MTL4ArgumentTable> currentObjectArgumentTable; // @synthesize currentObjectArgumentTable=_currentObjectArgumentTable;
-@property(readonly, nonatomic) id <MTL4ArgumentTable> currentTileArgumentTable; // @synthesize currentTileArgumentTable=_currentTileArgumentTable;
-@property(readonly, nonatomic) id <MTL4ArgumentTable> currentVertexArgumentTable; // @synthesize currentVertexArgumentTable=_currentVertexArgumentTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long tileHeight;
 @property(readonly) unsigned long long tileWidth;
 
 @end

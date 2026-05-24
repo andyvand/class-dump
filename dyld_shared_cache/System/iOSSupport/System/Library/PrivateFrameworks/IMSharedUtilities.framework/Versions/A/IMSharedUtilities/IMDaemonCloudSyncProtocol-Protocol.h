@@ -5,6 +5,11 @@
 //
 
 @protocol IMDaemonCloudSyncProtocol
-- (void)laborationContactHandles;
+- (void)6;
+- (void);
+- (void);
+- (void)pA: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)CollaborationContactHandles;
 @end
 

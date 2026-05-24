@@ -8,19 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ISSpecularClassification
 {
     struct CGImage *_cgImage;
-    _Bool _useAlphaOnly;
-    struct __CFData *_data;
-    char *_ucharMask;
-    struct {
-        int width;
-        int height;
-        int padding;
-        _Bool usesUchar4LastComponent;
-        union {
-            void *uchar4Array;
-            char *ucharArray;
-        } ;
-    } _mask;
 }
 
 - (id);

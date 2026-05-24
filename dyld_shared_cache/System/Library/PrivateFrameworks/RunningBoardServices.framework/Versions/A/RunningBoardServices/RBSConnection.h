@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHashTable, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSSet, RBSProcessHandle;
-@protocol OS_dispatch_queue, OS_xpc_object, RBSConnectionServiceDelegate;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface RBSConnection
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_xpc_object> *_handleConnection;
-    RBSProcessHandle *_handle;
-    id <RBSConnectionServiceDelegate> _serviceDelegate;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _assertionLock;
-    struct os_unfair_lock_s _processExpirationLock;
-    struct os_unfair_lock_s _savedEndowmentLock;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_queue> *_handshakeQueue;
-    NSMapTable *_acquiredAssertionsByIdentifier;
-    NSHashTable *_processMonitors;
-    NSMutableDictionary *_stateByIdentity;
-    NSSet *_preventLaunchPredicates;
-    NSMutableSet *_inheritances;
-    NSHashTable *_expirationWarningClients;
-    NSMutableDictionary *_deathHandlers;
-    NSMutableArray *_savedEndowments;
-    NSDictionary *_managedEndpointByLaunchIdentifier;
-    unsigned long long _state;
 }
 
 + (void);
@@ -41,22 +22,22 @@
 - (oneway void);
 - (void);
 - (id);
+- (oneway void);
+- (id)7C;
+- (id);
+- (_Bool)j/;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (oneway void);
 - (oneway void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (oneway void);
-- (oneway void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)#q;
 - (oneway void);
 - (id);
 - (id);
@@ -65,7 +46,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (oneway void);

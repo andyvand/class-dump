@@ -7,6 +7,6 @@
 @protocol EFSQLValueCollectionExpressable;
 
 @protocol EFSQLValueCollectionExpressable
-- (id <EFSQLValueCollectionExpressable>)ricSearch:supportsLabels: /* Error: Ran out of types for this method. */;
+- (id <EFSQLValueCollectionExpressable>)initWithDatabase:gmailLabelPersistence:mailboxID:useNumericSearch:supportsLabels: /* Error: Ran out of types for this method. */;
 @end
 

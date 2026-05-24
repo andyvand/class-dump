@@ -9,16 +9,12 @@
 @interface IMDCoreSpotlightRichLinkIndexer
 {
     NSString *_specializationClassName;
-    Class _class;
-    NSString *_linkType;
-    NSString *_linkSubtype;
-    NSString *_prefix;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (void);
 + (id);
 + (id);
@@ -41,18 +37,14 @@
 - (void);
 - (void);
 - (Class);
-- (void);
-- (id);
-- (void);
+- (void)32d40;
+- (id)setPixelFormat: /* Error: Ran out of types for this method. */;
+- (void)dragInteraction:(id)arg1 sessionDidMove: /* Error: Ran out of types for this method. */;
 - (void)roup participant recovery migration...;
 - (id)c.style = 45 ;
 
 // Remaining properties
 @property(retain, nonatomic) Class class; // @synthesize class=_class;
-@property(retain, nonatomic) NSString *linkSubtype; // @synthesize linkSubtype=_linkSubtype;
-@property(retain, nonatomic) NSString *linkType; // @synthesize linkType=_linkType;
-@property(retain, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(readonly, nonatomic) NSString *specializationClassName; // @synthesize specializationClassName=_specializationClassName;
 
 @end
 

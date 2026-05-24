@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tStreamAirPlayRef, FigEndpointStreamAudioFormatDescriptionRef, Boolean *);
 - (_Bool);
 - (_Bool);
 - (void);

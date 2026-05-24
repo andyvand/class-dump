@@ -11,7 +11,6 @@
 @interface EWSGetStreamingEventsType : EWSBaseRequestType
 {
     NSArray *_SubscriptionIds;
-    long long _ConnectionTimeout;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long ConnectionTimeout; // @synthesize ConnectionTimeout=_ConnectionTimeout;
 @property(copy, nonatomic) NSArray *SubscriptionIds; // @synthesize SubscriptionIds=_SubscriptionIds;
 
 @end

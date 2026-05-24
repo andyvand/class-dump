@@ -7,8 +7,6 @@
 @interface TextToSpeech.SpokenContentSelectionProvider
 {
     id lock;
-    id didFetchSiriVoice;
-    id _selectedSiriVoice;
 }
 
 - (void);

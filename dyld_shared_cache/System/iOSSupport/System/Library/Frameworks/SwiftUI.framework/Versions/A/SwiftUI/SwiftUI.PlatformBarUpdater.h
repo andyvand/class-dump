@@ -7,10 +7,6 @@
 @interface SwiftUI.PlatformBarUpdater
 {
     id barState;
-    id configurations;
-    id delegate;
-    id toUpdate;
-    id context;
 }
 
 @end

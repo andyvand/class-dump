@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void)torage;
+- (void)Storage;
 
 @end
 

@@ -6,58 +6,19 @@
 
 #import <Photos/PHAssetChangeRequest.h>
 
-@class NSDictionary, NSManagedObjectID, NSMutableArray, NSMutableDictionary, NSNumber, NSString, PHAssetCreationAdjustmentBakeInOptions, PHAssetCreationCameraIngestOptions, PHAssetCreationDerivativeContext, PHAssetCreationMetadataCopyOptions, PHAssetResourceBag, PHCollectionShare, PHMomentShare, PHObject, PHRelationshipChangeRequestHelper, PLIndicatorFileCoordinator;
-@protocol PHShare, PLChangesForServiceHandling;
+@class NSDictionary, NSMutableArray;
 
 @interface PHAssetCreationRequest : PHAssetChangeRequest
 {
     NSMutableArray *_assetResources;
-    NSMutableDictionary *_movedFiles;
-    _Bool _duplicateAllowsPrivateMetadata;
-    _Bool _shouldCreateScreenshot;
-    unsigned long long _migrationKitSubtype;
-    _Bool _shouldUseAutomaticallyGeneratedOriginalFilename;
-    _Bool _reduceProcessingForIngest;
-    NSString *_resourceHoldingDirectoryPath;
-    PLIndicatorFileCoordinator *_fileCoordinator;
-    PHAssetCreationDerivativeContext *_derivativeContext;
-    _Bool _assetExistingWithSyndicationIdentifierIsTrashed;
-    _Bool _duplicateLivePhotoAsStill;
-    _Bool _duplicateAsOriginal;
-    _Bool _duplicateSinglePhotoFromBurst;
-    _Bool _duplicateAsAlternateAsset;
-    _Bool _useRecoverableStagingDirectory;
-    _Bool _createAsCompanionSyncedAsset;
-    unsigned short _duplicateAssetPhotoLibraryType;
-    unsigned short _bundleScope;
-    int _retryCount;
-    long long _importedBy;
-    NSString *_importSessionID;
-    NSString *_conversationID;
-    NSDictionary *_customAssetProperties;
-    PHMomentShare *_momentShare;
-    PHCollectionShare *_collectionShare;
-    NSManagedObjectID *_limitedLibraryFetchFilterObjectID;
-    NSNumber *_assetExistsWithSyndicationIdentifier;
-    long long _creationCrashType;
-    PHAssetResourceBag *_assetResourceBag;
-    PHRelationshipChangeRequestHelper *_momentShareHelper;
-    NSString *_duplicateAssetIdentifier;
-    PHAssetCreationAdjustmentBakeInOptions *_adjustmentBakeInOptions;
-    PHAssetCreationMetadataCopyOptions *_metadataCopyOptions;
-    NSString *_forcePairingIdentifier;
-    NSString *_momentShareUUID;
-    NSString *_collectionShareUUID;
-    NSString *_importedByBundleIdentifier;
-    NSString *_syndicationIdentifier;
-    PHAssetCreationCameraIngestOptions *_cameraIngestOptions;
-    CDStruct_1b6d18a9 _duplicateStillSourceTime;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)P;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -70,9 +31,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -84,7 +43,7 @@
 + (long long);
 + (id);
 + (id);
-+ (id);
++ (id)J;
 + (id);
 + (id);
 + (_Bool);
@@ -96,9 +55,9 @@
 - (void);
 - (void);
 - (void);
+- (void)M;
 - (void);
-- (void);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -107,20 +66,20 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (CDStruct_1b6d18a9);
-- (_Bool);
+- (CDStruct_198678f7);
+- (_Bool);
 - (_Bool);
 - (unsigned short);
 - (id);
@@ -131,7 +90,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)7;
 - (_Bool);
 - (id);
 - (id);
@@ -141,7 +100,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -163,22 +122,22 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (short);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
@@ -197,7 +156,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -205,7 +164,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -225,73 +184,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)u;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)yingProgressUpdates;
+- (void)_avoidDisplayingProgressUpdates;
 - (int);
 - (void);
 - (id)AÖÿÆ¨â;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *_movedFiles;
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(copy, nonatomic, setter=_setAdjustmentBakeInOptions:) PHAssetCreationAdjustmentBakeInOptions *adjustmentBakeInOptions; // @synthesize adjustmentBakeInOptions=_adjustmentBakeInOptions;
-@property(nonatomic) _Bool assetExistingWithSyndicationIdentifierIsTrashed; // @synthesize assetExistingWithSyndicationIdentifierIsTrashed=_assetExistingWithSyndicationIdentifierIsTrashed;
-@property(retain, nonatomic) NSNumber *assetExistsWithSyndicationIdentifier; // @synthesize assetExistsWithSyndicationIdentifier=_assetExistsWithSyndicationIdentifier;
-@property(retain, nonatomic) PHAssetResourceBag *assetResourceBag; // @synthesize assetResourceBag=_assetResourceBag;
-@property(nonatomic) unsigned short bundleScope; // @synthesize bundleScope=_bundleScope;
-@property(copy, nonatomic) PHAssetCreationCameraIngestOptions *cameraIngestOptions; // @synthesize cameraIngestOptions=_cameraIngestOptions;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(retain, nonatomic) PHCollectionShare *collectionShare; // @synthesize collectionShare=_collectionShare;
-@property(readonly, nonatomic) NSString *collectionShareUUID; // @synthesize collectionShareUUID=_collectionShareUUID;
-@property(retain, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
-@property(nonatomic) _Bool createAsCompanionSyncedAsset; // @synthesize createAsCompanionSyncedAsset=_createAsCompanionSyncedAsset;
-@property(nonatomic) long long creationCrashType; // @synthesize creationCrashType=_creationCrashType;
-@property(retain, nonatomic) NSDictionary *customAssetProperties; // @synthesize customAssetProperties=_customAssetProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, setter=_setDuplicateAllowsPrivateMetadata:) _Bool duplicateAllowsPrivateMetadata;
-@property(nonatomic, setter=_setDuplicateAsAlternateAsset:) _Bool duplicateAsAlternateAsset; // @synthesize duplicateAsAlternateAsset=_duplicateAsAlternateAsset;
-@property(nonatomic, setter=_setDuplicateAsOriginal:) _Bool duplicateAsOriginal; // @synthesize duplicateAsOriginal=_duplicateAsOriginal;
-@property(retain, nonatomic, setter=_setDuplicateAssetIdentifier:) NSString *duplicateAssetIdentifier; // @synthesize duplicateAssetIdentifier=_duplicateAssetIdentifier;
-@property(nonatomic, setter=_setDuplicateAssetPhotoLibraryType:) unsigned short duplicateAssetPhotoLibraryType; // @synthesize duplicateAssetPhotoLibraryType=_duplicateAssetPhotoLibraryType;
-@property(nonatomic, setter=_setDuplicateLivePhotoAsStill:) _Bool duplicateLivePhotoAsStill; // @synthesize duplicateLivePhotoAsStill=_duplicateLivePhotoAsStill;
-@property(nonatomic, setter=_setDuplicateSinglePhotoFromBurst:) _Bool duplicateSinglePhotoFromBurst; // @synthesize duplicateSinglePhotoFromBurst=_duplicateSinglePhotoFromBurst;
-@property(nonatomic, setter=_setDuplicateStillSourceTime:) CDStruct_1b6d18a9 duplicateStillSourceTime; // @synthesize duplicateStillSourceTime=_duplicateStillSourceTime;
-@property(readonly, nonatomic) NSString *forcePairingIdentifier; // @synthesize forcePairingIdentifier=_forcePairingIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *importSessionID; // @synthesize importSessionID=_importSessionID;
-@property(nonatomic) long long importedBy; // @synthesize importedBy=_importedBy;
-@property(copy, nonatomic) NSString *importedByBundleIdentifier; // @synthesize importedByBundleIdentifier=_importedByBundleIdentifier;
-@property(readonly) _Bool isNewRequest;
-@property(retain, nonatomic, getter=_limitedLibraryFetchFilterObjectID, setter=_setLimitedLibraryFetchFilterObjectID:) NSManagedObjectID *limitedLibraryFetchFilterObjectID; // @synthesize limitedLibraryFetchFilterObjectID=_limitedLibraryFetchFilterObjectID;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(copy, nonatomic, setter=_setMetadataCopyOptions:) PHAssetCreationMetadataCopyOptions *metadataCopyOptions; // @synthesize metadataCopyOptions=_metadataCopyOptions;
-@property(nonatomic, getter=_migrationKitSubtype, setter=_setMigrationKitSubtype:) unsigned long long migrationKitSubtype;
-@property(retain, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *momentShareHelper; // @synthesize momentShareHelper=_momentShareHelper;
-@property(readonly, nonatomic) NSString *momentShareUUID; // @synthesize momentShareUUID=_momentShareUUID;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(nonatomic) _Bool reduceProcessingForIngest; // @synthesize reduceProcessingForIngest=_reduceProcessingForIngest;
-@property(nonatomic) int retryCount; // @synthesize retryCount=_retryCount;
-@property(retain, nonatomic) PHObject<PHShare> *share;
-@property(nonatomic, getter=_shouldCreateScreenshot, setter=_setShouldCreateScreenshot:) _Bool shouldCreateScreenshot;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(nonatomic, getter=_shouldUseAutomaticallyGeneratedOriginalFilename, setter=_setShouldUseAutomaticallyGeneratedOriginalFilename:) _Bool shouldUseAutomaticallyGeneratedOriginalFilename;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *syndicationIdentifier; // @synthesize syndicationIdentifier=_syndicationIdentifier;
-@property(nonatomic, setter=_setUseRecoverableStagingDirectory:) _Bool useRecoverableStagingDirectory; // @synthesize useRecoverableStagingDirectory=_useRecoverableStagingDirectory;
 
 @end
 

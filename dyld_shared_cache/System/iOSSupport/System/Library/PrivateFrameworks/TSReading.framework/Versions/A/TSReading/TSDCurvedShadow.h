@@ -28,8 +28,8 @@
 - (struct CGRect);
 - (double);
 - (unsigned long long);
-- (double);
-- (id);
+- (double)&;
+- (id)H;
 - (id);
 - (_Bool);
 - (id);

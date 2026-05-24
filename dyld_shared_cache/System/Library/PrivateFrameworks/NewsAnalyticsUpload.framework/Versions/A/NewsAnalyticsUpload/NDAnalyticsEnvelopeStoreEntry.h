@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface NDAnalyticsEnvelopeStoreEntry
 {
     unsigned long long _submissionDateMillisecondsSince1970;
-    int _envelopeContentType;
-    NSString *_envelopeIdentifier;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)-;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int envelopeContentType; // @synthesize envelopeContentType=_envelopeContentType;
 @property(copy, nonatomic) NSString *envelopeIdentifier; // @synthesize envelopeIdentifier=_envelopeIdentifier;
-@property(copy, nonatomic) NSDate *envelopeSubmissionDate;
 
 @end
 

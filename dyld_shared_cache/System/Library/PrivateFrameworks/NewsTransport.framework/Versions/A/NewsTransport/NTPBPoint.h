@@ -4,47 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBPoint
 {
     double _x;
-    double _y;
-    NSString *_color;
-    struct {
-        unsigned int x:1;
-        unsigned int y:1;
-    } _has;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
+- (_Bool)dURL:] /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned long long)video to time:%@ - %f /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)FCNewsletterManager;
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (double);
+- (double)Z;
 - (double)entType;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *color; // @synthesize color=_color;
-@property(readonly, nonatomic) _Bool hasColor;
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

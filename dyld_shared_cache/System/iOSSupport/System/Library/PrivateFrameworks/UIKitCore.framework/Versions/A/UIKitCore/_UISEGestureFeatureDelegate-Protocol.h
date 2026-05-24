@@ -5,6 +5,6 @@
 //
 
 @protocol _UISEGestureFeatureDelegate
-- (void)ed;
+- (void)soundReactiveCursorEnabled;
 @end
 

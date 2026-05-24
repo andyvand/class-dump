@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTEpisode, NSData, NSNumber, NSString;
+@class MTEpisode;
 
 @interface MTChapter
 {
@@ -13,15 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *artworkBackgroundColor; // @dynamic artworkBackgroundColor;
-@property(nonatomic, retain) NSNumber *artworkHeight; // @dynamic artworkHeight;
-@property(nonatomic, copy) NSString *artworkTemplateURL; // @dynamic artworkTemplateURL;
-@property(nonatomic, retain) NSNumber *artworkWidth; // @dynamic artworkWidth;
-@property(nonatomic) long long chapterTypeIntValue; // @dynamic chapterTypeIntValue;
 @property(nonatomic, retain) MTEpisode *episode; // @dynamic episode;
-@property(nonatomic, copy) NSString *id; // @dynamic id;
-@property(nonatomic, copy) NSData *timeframesData; // @dynamic timeframesData;
-@property(nonatomic, copy) NSString *title; // @dynamic title;
 
 @end
 

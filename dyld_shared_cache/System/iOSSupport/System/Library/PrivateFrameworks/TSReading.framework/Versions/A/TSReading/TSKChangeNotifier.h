@@ -7,26 +7,22 @@
 @interface TSKChangeNotifier
 {
     struct __CFDictionary *mChangeSourceObservers;
-    struct __CFDictionary *mChangeSourceOfClassObservers;
-    struct __CFArray *mQueuedObserverListChanges;
-    unsigned long long mProcessingChanges;
-    id mQueuedObserverLock;
 }
 
-- (void);
-- (void);
+- (void)d nil;
+- (void).;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)O;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)t;
 
 @end
 

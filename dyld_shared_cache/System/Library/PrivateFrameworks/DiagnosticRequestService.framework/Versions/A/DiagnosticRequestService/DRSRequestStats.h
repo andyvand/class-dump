@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray, NSString;
 
 @interface DRSRequestStats
 {
     NSString *_descriptionString;
-    NSMutableArray *__requests;
-    NSMutableDictionary *__childStats;
 }
 
-+ (id);
++ (id)銹;
 + (Class);
 + (id);
 + (id);
@@ -27,18 +25,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)0%;
 - (void);
-- (unsigned long long)on:messageUUID:dateBroadcast:dateReceived:teamTaskings: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithVersion:messageUUID:dateBroadcast:dateReceived:teamTaskings: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_childStats; // @synthesize _childStats=__childStats;
 @property(readonly, nonatomic) NSMutableArray *_requests; // @synthesize _requests=__requests;
-@property(readonly, nonatomic) NSDictionary *childStats;
-@property(readonly, nonatomic) NSString *descriptionString; // @synthesize descriptionString=_descriptionString;
-@property(readonly, nonatomic) unsigned long long logSizeBytes;
-@property(readonly, nonatomic) unsigned long long requestCount;
-@property(readonly, nonatomic) NSArray *requests;
 
 @end
 

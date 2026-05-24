@@ -11,31 +11,25 @@ __attribute__((visibility("hidden")))
 {
     NSString *_identifier;
     double _width;
-    double _outerRingOffset;
-    double _ringThickness;
-    double _ringInterspacing;
 }
 
 + (id);
 + (id);
 - (void);
+- (void)__auth_got;
+- (void)x;
+- (double)__DATA_CONST;
+- (double);
+- (double)__swift5_mpenum;
+- (id)B;
+- (double);
 - (void);
 - (void);
-- (double);
-- (double);
-- (double);
 - (id);
-- (double);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)v;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double outerRingOffset; // @synthesize outerRingOffset=_outerRingOffset;
-@property(nonatomic) double ringInterspacing; // @synthesize ringInterspacing=_ringInterspacing;
-@property(nonatomic) double ringThickness; // @synthesize ringThickness=_ringThickness;
 @property(nonatomic) double width; // @synthesize width=_width;
 
 @end

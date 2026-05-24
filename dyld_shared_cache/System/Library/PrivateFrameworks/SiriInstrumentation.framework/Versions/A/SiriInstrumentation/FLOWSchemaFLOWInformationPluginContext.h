@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface FLOWSchemaFLOWInformationPluginContext : SISchemaInstrumentationMessage
 {
     int _eventType;
-    NSString *_executedPegasusDomain;
-    CDStruct_07059a20 _has;
-    _Bool _hasExecutedPegasusDomain;
 }
 
 - (void);
@@ -29,8 +24,8 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)=;
 - (void)
 × ;
 - (id)entSample"b1"startDatestampInDaysSince1970"b1"invocationSource"b1"motionActivity"b1"isWakeFromSleep"b1"isMediaPlaying"b1"isDeviceHandHeld"b1"audioCodec"b1"audioSource"b1"asrTask"b1"audioSkippedNumSamples"b1"isPersonalRequest"b1"isPersonalizedRequest"b1"orchCancelledReason"b1"triggerPhrase"b1};
@@ -41,10 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(copy, nonatomic) NSString *executedPegasusDomain; // @synthesize executedPegasusDomain=_executedPegasusDomain;
-@property(nonatomic) _Bool hasEventType;
-@property(nonatomic) _Bool hasExecutedPegasusDomain; // @synthesize hasExecutedPegasusDomain=_hasExecutedPegasusDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (unsigned int);
-+ (id);
++ (id)tor",&,N,V_moderator;
 - (id);
 - (id);
 - (_Bool);

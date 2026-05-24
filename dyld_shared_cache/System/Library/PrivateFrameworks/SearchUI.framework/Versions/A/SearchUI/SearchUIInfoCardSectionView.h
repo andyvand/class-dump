@@ -6,17 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSFont, NSMutableArray, NSString, NUIContainerStackView, SFInfoCardSection, TLKTextButton;
+@class SFInfoCardSection;
 
 @interface SearchUIInfoCardSectionView : SearchUICardSectionView
 {
     _Bool _isExpanded;
-    NUIContainerStackView *_baseView;
-    NUIContainerStackView *_expandedView;
-    NSMutableArray *_rowStackViews;
-    NUIContainerStackView *_showMoreStackView;
-    TLKTextButton *_showMoreButton;
-    NSFont *_labelFont;
 }
 
 + (_Bool);
@@ -26,11 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)buffer to layer %@ in espresso plan, status code %d;
+- (void));
 - (void);
 - (id);
 - (void);
@@ -43,22 +37,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NUIContainerStackView *baseView; // @synthesize baseView=_baseView;
-@property(retain, nonatomic) NUIContainerStackView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NUIContainerStackView *expandedView; // @synthesize expandedView=_expandedView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
-@property(retain, nonatomic) NSFont *labelFont; // @synthesize labelFont=_labelFont;
-@property(retain, nonatomic) NSMutableArray *rowStackViews; // @synthesize rowStackViews=_rowStackViews;
 @property(retain, nonatomic) SFInfoCardSection *section; // @dynamic section;
-@property(retain, nonatomic) TLKTextButton *showMoreButton; // @synthesize showMoreButton=_showMoreButton;
-@property(retain, nonatomic) NUIContainerStackView *showMoreStackView; // @synthesize showMoreStackView=_showMoreStackView;
-@property(readonly) Class superclass;
 
 @end
 

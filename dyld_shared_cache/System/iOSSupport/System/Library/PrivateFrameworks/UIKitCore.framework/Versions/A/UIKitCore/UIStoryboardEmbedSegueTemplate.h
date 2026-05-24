@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnknownBlockType);
-- (id);
+- (id)_listKeypoints2_metal:(id)arg1 suppressedResponseMapTexture:tileBuffer:tileCountBuffer:tileCount:thresholdsBuffer:cumulativePointsBuffer:keypointLocationsBuffer:keypointResponsesBuffer:maxRegionHeight: /* Error: Ran out of types for this method. */;
 - (void)hasBegun;
 - (void)Ú;
 - (void)©zÌc;

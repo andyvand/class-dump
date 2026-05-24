@@ -6,7 +6,7 @@
 
 #import <ContentKit/WFContentItem.h>
 
-@class INPaymentMethod, NSDictionary, NSString, WFFileType, WFObjectType;
+@class INPaymentMethod;
 
 @interface WFPaymentMethodContentItem : WFContentItem
 {
@@ -16,48 +16,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) _Bool cachesSupportedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasStringOutput;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includesFileRepresentationInSerializedItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *metadataForSerialization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
 @property(readonly, nonatomic) INPaymentMethod *paymentMethod;
-@property(readonly, nonatomic) WFFileType *preferredFileType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WFFileType",?,R,N
-
-@property(readonly, nonatomic) WFObjectType *preferredObjectType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WFObjectType",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

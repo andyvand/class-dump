@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PHDetectionTrait
 {
     short _type;
-    short _value;
-    double _score;
-    double _startTime;
-    double _duration;
-    NSString *_thumbnailIdentifier;
 }
 
 + (id);
@@ -22,25 +15,20 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (double);
 - (short);
-- (short);
+- (short)A;
 - (id);
-- (double);
+- (double);
 - (id)Q°1Â0@ù
 × ;
 - (void)pe;
 - (id)estimatedPhotosCount;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, copy, nonatomic) NSString *thumbnailIdentifier; // @synthesize thumbnailIdentifier=_thumbnailIdentifier;
 @property(readonly, nonatomic) short type; // @synthesize type=_type;
-@property(readonly, nonatomic) short value; // @synthesize value=_value;
 
 @end
 

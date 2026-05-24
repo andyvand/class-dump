@@ -7,9 +7,6 @@
 @interface NewsUI2.FollowingBrowseButton
 {
     id onTap;
-    id isEditing;
-    id deviceOffline;
-    id button;
 }
 
 - (id);

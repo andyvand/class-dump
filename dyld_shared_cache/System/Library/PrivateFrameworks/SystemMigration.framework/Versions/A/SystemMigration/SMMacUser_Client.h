@@ -6,17 +6,11 @@
 
 #import <SystemMigration/SMUser_Client.h>
 
-@class NSString, SMSystem_Client;
+@class SMSystem_Client;
 
 @interface SMMacUser_Client : SMUser_Client
 {
     _Bool isAdminUser;
-    _Bool isRoleUser;
-    _Bool isSecureTokenAuth;
-    _Bool _extraInfoIncludeFileVaultWarning;
-    _Bool _secureTokenAuth;
-    NSString *relativeHomeDir;
-    SMSystem_Client *sourceSystem;
 }
 
 + (id);
@@ -35,18 +29,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)erAnimationFactory _transactionComplete];
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property _Bool extraInfoIncludeFileVaultWarning; // @synthesize extraInfoIncludeFileVaultWarning=_extraInfoIncludeFileVaultWarning;
-@property _Bool isAdminUser; // @synthesize isAdminUser;
-@property _Bool isRoleUser; // @synthesize isRoleUser;
-@property _Bool isSecureTokenAuth; // @synthesize isSecureTokenAuth;
-@property(retain) NSString *relativeHomeDir; // @synthesize relativeHomeDir;
-@property(readonly, getter=isSecureTokenAuth) _Bool secureTokenAuth; // @synthesize secureTokenAuth=_secureTokenAuth;
 @property(retain) SMSystem_Client *sourceSystem; // @synthesize sourceSystem;
 
 @end

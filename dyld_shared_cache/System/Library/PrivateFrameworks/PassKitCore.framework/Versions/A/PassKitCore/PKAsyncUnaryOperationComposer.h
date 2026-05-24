@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PKAsyncUnaryOperationComposer
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_operations;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)tions;
+- (void)supportsDPANNotifications;
 
 @end
 

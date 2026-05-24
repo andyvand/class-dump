@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSErrorConverting)
-- (id);
+- (id)@;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol APPCDiagnosticMetricsHelping
+- (void)ContentShortcutsStorageManagerType;
 
 // Remaining properties
 @property(nonatomic) unsigned long long networkType;

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface ASDAppClusterMapping
 {
     NSString *_bundleID;
-    NSNumber *_clusterID;
-    NSNumber *_clusterVersion;
-    NSNumber *_itemID;
-    NSNumber *_launchesWeight;
-    NSNumber *_usageWeight;
 }
 
 + (_Bool);
@@ -29,7 +24,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)MNNavigationSessionManager;
 - (id);
 - (id);
 - (void);
@@ -37,11 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSNumber *clusterID; // @synthesize clusterID=_clusterID;
-@property(copy, nonatomic) NSNumber *clusterVersion; // @synthesize clusterVersion=_clusterVersion;
-@property(copy, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(copy, nonatomic) NSNumber *launchesWeight; // @synthesize launchesWeight=_launchesWeight;
-@property(copy, nonatomic) NSNumber *usageWeight; // @synthesize usageWeight=_usageWeight;
 
 @end
 

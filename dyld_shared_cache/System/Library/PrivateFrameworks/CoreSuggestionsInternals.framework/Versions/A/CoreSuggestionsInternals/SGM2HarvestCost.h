@@ -7,30 +7,19 @@
 @interface SGM2HarvestCost
 {
     int _documentSource;
-    int _harvestSource;
-    _Bool _harvestedOnBattery;
-    _Bool _highPriority;
-    _Bool _receivedOnBattery;
-    struct {
-        unsigned int documentSource:1;
-        unsigned int harvestSource:1;
-        unsigned int harvestedOnBattery:1;
-        unsigned int highPriority:1;
-        unsigned int receivedOnBattery:1;
-    } _has;
 }
 
+- (void)em/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags;
+- (void);
+- (void);
+- (void)__swift5_fieldmd__TEXT;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)_lp_URLWithUserTypedString:relativeToURL: /* Error: Ran out of types for this method. */;
+- (_Bool)__AUTH_CONST;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -39,9 +28,9 @@
 - (int);
 - (id);
 - (_Bool);
-- (int);
-- (int);
-- (int);
+- (int)@16B24@28@?36@?44;
+- (int)upManagerViewController";
+- (int)initialize;
 - (id);
 - (void);
 - (void);
@@ -51,20 +40,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (_Bool)ch.;
 
 // Remaining properties
-@property(nonatomic) int documentSource; // @synthesize documentSource=_documentSource;
-@property(nonatomic) int harvestSource; // @synthesize harvestSource=_harvestSource;
-@property(nonatomic) _Bool harvestedOnBattery; // @synthesize harvestedOnBattery=_harvestedOnBattery;
 @property(nonatomic) _Bool hasDocumentSource;
-@property(nonatomic) _Bool hasHarvestSource;
-@property(nonatomic) _Bool hasHarvestedOnBattery;
-@property(nonatomic) _Bool hasHighPriority;
-@property(nonatomic) _Bool hasReceivedOnBattery;
-@property(nonatomic) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(nonatomic) _Bool receivedOnBattery; // @synthesize receivedOnBattery=_receivedOnBattery;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NBHashBucketer, NBURLCanonicalizer, NBURLHasher, NFLazy, NSURL;
-@protocol FCCoreConfigurationManager, FCNetworkReachabilityType;
+@protocol FCCoreConfigurationManager;
 
 @interface FCWebURLResolutionEndpointConnection
 {
     id <FCCoreConfigurationManager> _configurationManager;
-    NFLazy *_lazyStoreFrontIDPromise;
-    NSURL *_cachesDirectoryURL;
-    id <FCNetworkReachabilityType> _networkReachability;
-    NBURLCanonicalizer *_canonicalizer;
-    NBURLHasher *_hasher;
-    NBHashBucketer *_bucketer;
 }
 
 + (id);
@@ -32,24 +25,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)collectionView:(long long)arg1 prepareForDragOperation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)ration: /* Error: Ran out of types for this method. */;
-- (void)ool_with_esl;
+- (id)ckMultiFetchBaseURLForConfiguration: /* Error: Ran out of types for this method. */;
+- (void)simulate_notification_pool_with_esl;
 - (id)lums;
 
 // Remaining properties
-@property(readonly, nonatomic) NBHashBucketer *bucketer; // @synthesize bucketer=_bucketer;
-@property(readonly, copy, nonatomic) NSURL *cachesDirectoryURL; // @synthesize cachesDirectoryURL=_cachesDirectoryURL;
-@property(readonly, nonatomic) NBURLCanonicalizer *canonicalizer; // @synthesize canonicalizer=_canonicalizer;
 @property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, nonatomic) NBURLHasher *hasher; // @synthesize hasher=_hasher;
-@property(readonly, nonatomic) NFLazy *lazyStoreFrontIDPromise; // @synthesize lazyStoreFrontIDPromise=_lazyStoreFrontIDPromise;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
 
 @end
 

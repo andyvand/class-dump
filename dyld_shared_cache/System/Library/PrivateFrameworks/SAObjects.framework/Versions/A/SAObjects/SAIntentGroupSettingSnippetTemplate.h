@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignment;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

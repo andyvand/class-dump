@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMNicknameEncryptionFieldTag, NSData, NSString;
+@class NSString;
 
 @interface IMNicknameEncryptionCipherRecordField
 {
     NSString *_fieldName;
-    NSData *_cipherData;
-    NSData *_IV;
-    IMNicknameEncryptionFieldTag *_fieldTag;
 }
 
 + (id);
@@ -25,14 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (void)ciatedMessageType;
-- (id)tionSMSRewards;
+- (void)associatedMessageType;
+- (id)IMMessageFilterSubActionSMSRewards;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *IV; // @synthesize IV=_IV;
-@property(retain, nonatomic) NSData *cipherData; // @synthesize cipherData=_cipherData;
 @property(retain, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(retain, nonatomic) IMNicknameEncryptionFieldTag *fieldTag; // @synthesize fieldTag=_fieldTag;
 
 @end
 

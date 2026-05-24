@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ientization"b1"read_unknownFields"b1"read_muids"b1"read_identifiers"b1"wrote_anyField"b1};
-- (id)rrorInfo;
+- (id)_errorInfo;
 - (id)x;Ä;>¼CèN;
 - (void);
 

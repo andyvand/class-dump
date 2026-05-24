@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue;
-@protocol CRKIDSAddressTranslator, CRKIDSPrimitives, CRKTimerPrimitives;
+@protocol CRKIDSPrimitives;
 
 @interface CRKPrimitiveBackedCertificateConduit
 {
     id <CRKIDSPrimitives> _IDSPrimitives;
-    id <CRKIDSAddressTranslator> _addressTranslator;
-    id <CRKTimerPrimitives> _timerPrimitives;
-    CATOperationQueue *_operationQueue;
 }
 
 + (id);
@@ -27,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(readonly, nonatomic) id <CRKIDSAddressTranslator> addressTranslator; // @synthesize addressTranslator=_addressTranslator;
-@property(readonly, nonatomic) CATOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) id <CRKTimerPrimitives> timerPrimitives; // @synthesize timerPrimitives=_timerPrimitives;
 
 @end
 

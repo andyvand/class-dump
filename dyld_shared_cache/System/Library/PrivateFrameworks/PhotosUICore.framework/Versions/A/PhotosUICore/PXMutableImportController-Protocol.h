@@ -5,13 +5,9 @@
 //
 
 @protocol PXMutableImportController
+- (_Bool)T;
 
 // Remaining properties
-@property(nonatomic, getter=isDeletingAssets) _Bool deletingAssets;
-@property(nonatomic) _Bool hasLoadedInitialBatchOfAssets;
-@property(nonatomic, getter=isImportingAssets) _Bool importingAssets;
 @property(nonatomic, getter=isLoadingContent) _Bool loadingContent;
-@property(nonatomic, getter=isLoadingInitialBatchOfAssets) _Bool loadingInitialBatchOfAssets;
-@property(nonatomic, getter=isUserRequiredToTrustHostOnSourceDevice) _Bool userRequiredToTrustHostOnSourceDevice;
 @end
 

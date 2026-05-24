@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     MKViewSwitchingSelectionAccessoryView *_accessoryView;
 }
 
-- (id);
+- (id)__DATA_CONST;
 - (void);
-- (void)ryCapacity:diskCapacity:directoryName: /* Error: Ran out of types for this method. */;
+- (void)persistedCacheWithMemoryCapacity:diskCapacity:directoryName: /* Error: Ran out of types for this method. */;
 
 @end
 

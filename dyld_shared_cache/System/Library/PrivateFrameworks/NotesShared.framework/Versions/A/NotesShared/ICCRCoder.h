@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableOrderedSet, NSOrderedSet;
+@class NSMutableOrderedSet;
 
 @interface ICCRCoder
 {
     NSMutableOrderedSet *_encodedObjects;
-    void *_currentDocument;
-    NSOrderedSet *_clusterTypeSet;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void)Found shared %@, but doing nothing;
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,11 +25,7 @@
 - (void)tDu,v´vw;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *clusterTypeSet; // @synthesize clusterTypeSet=_clusterTypeSet;
-@property(nonatomic) void *currentDocument; // @synthesize currentDocument=_currentDocument;
 @property(retain, nonatomic) NSMutableOrderedSet *encodedObjects; // @synthesize encodedObjects=_encodedObjects;
-@property(readonly, nonatomic) NSOrderedSet *typeSet;
-@property(readonly, nonatomic) NSDictionary *typeToClassDict;
 
 @end
 

@@ -7,21 +7,18 @@
 @interface IMSyncedSettingsManager_Impl
 {
     id daemonController;
-    id connection;
-    id notificationCenter;
-    id valueCache;
 }
 
+- (void)create tagCollection for pixel buffer at channel index=%d;
+- (_Bool)lJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (void)ipantID='%@';
+- (id)sage:(id)arg1 %@, symptomID:(id)arg2 %d, groupID:(id)arg3 %@;
+- (void)nil;
 - (void);
-- (_Bool);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)junk;
 
 @end
 

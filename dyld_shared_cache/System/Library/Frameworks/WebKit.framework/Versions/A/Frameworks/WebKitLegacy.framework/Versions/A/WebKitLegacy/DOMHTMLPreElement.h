@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property int width;
-@property _Bool wrap;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXActionManagerPreview;
-@protocol SXActionActivityManager, SXActionViewManager, SXPostActionHandlerManager;
+@protocol SXActionActivityManager;
 
 @interface SXActionManager
 {
     id <SXActionActivityManager> _activityManager;
-    id <SXActionViewManager> _viewManager;
-    SXActionManagerPreview *_currentPreview;
-    id <SXPostActionHandlerManager> _postActionHandlerManager;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -31,16 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionActivityManager> activityManager; // @synthesize activityManager=_activityManager;
-@property(retain, nonatomic) SXActionManagerPreview *currentPreview; // @synthesize currentPreview=_currentPreview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXPostActionHandlerManager> postActionHandlerManager; // @synthesize postActionHandlerManager=_postActionHandlerManager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXActionViewManager> viewManager; // @synthesize viewManager=_viewManager;
 
 @end
 

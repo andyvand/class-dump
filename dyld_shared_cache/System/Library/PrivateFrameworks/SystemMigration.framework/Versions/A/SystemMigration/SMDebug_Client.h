@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
-@protocol SMDDebugProtocol;
+@class NSXPCInterface;
 
 @interface SMDebug_Client
 {
     NSXPCInterface *_daemonInterface;
-    NSXPCConnection *_daemonConnection;
-    id <SMDDebugProtocol> _daemonProxy;
 }
 
 - (void);
@@ -30,9 +27,7 @@
 - (id)d at `%@';
 
 // Remaining properties
-@property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
 @property(retain) NSXPCInterface *daemonInterface; // @synthesize daemonInterface=_daemonInterface;
-@property(retain) id <SMDDebugProtocol> daemonProxy; // @synthesize daemonProxy=_daemonProxy;
 
 @end
 

@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHShimToolEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -20,21 +17,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)eting attachments older than %lld days;
 - (id);
 - (id)!4FùñÝ°1Â0@ù
 × ;
-- (id)nIndex;
+- (id)_endTokenIndex;
 - (id)ged;
-- (_Bool)OT_RESOLUTION;
-- (_Bool)HSchemaMHSelfTriggerSuppressionAudioSource;
+- (_Bool)FLOWSTATUSREASON_CANCEL_SLOT_RESOLUTION;
+- (_Bool)MHSchemaMHSelfTriggerSuppressionAudioSource;
 - (void)K²
 %;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

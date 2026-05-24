@@ -5,13 +5,11 @@
 //
 
 @protocol _UISceneLayoutPreferences
+- (void);
+- (double);
+- (double)or guid:%@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double preferredMaximumDepth;
-@property(nonatomic) double preferredMaximumHeight;
-@property(nonatomic) double preferredMaximumWidth;
-@property(nonatomic) double preferredMinimumDepth;
-@property(nonatomic) double preferredMinimumHeight;
 @property(nonatomic) double preferredMinimumWidth;
 @end
 

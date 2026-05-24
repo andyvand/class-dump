@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOComposedRoute, GEORoutePreloaderStatisticsInfo, NSArray, NSObject, NSString, geo_isolater;
-@protocol GEORoutePreloaderDelegate, OS_dispatch_queue;
+@class GEOComposedRoute, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface GEORoutePreloader
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSArray *_strategies;
-    GEOComposedRoute *_route;
-    _Bool _running;
-    unsigned long long _networkQuality;
-    struct GEOOnce_s _didTearDown;
-    GEOApplicationAuditToken *_auditToken;
-    geo_isolater *_deviceQualitiesIsolation;
-    int _batteryNotificationToken;
-    _Bool _pluggedIn;
-    GEORoutePreloaderStatisticsInfo *_statistics;
-    id <GEORoutePreloaderDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)16@24;
+- (id)setPropertiesToFetch:(id)arg1;
+- (id)setPrivateTablesChanged:(id)arg1;
+- (void)dateAtNoonGMTFromGregorianDateComponents:(long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -42,16 +32,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)mitigationLevel;
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)portedChargerPlugs: /* Error: Ran out of types for this method. */;
-- (id)_data_filter;
+- (void);
+- (void)setSupportedChargerPlugs: /* Error: Ran out of types for this method. */;
+- (id)enrichment_data_filter;
 - (void)¤;
 - (void)Ù»BAÚË¶ÓÖP@;
 - (void)/
@@ -90,17 +79,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GEORoutePreloaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long networkQuality;
 @property(readonly, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
-@property(readonly) Class superclass;
 
 @end
 

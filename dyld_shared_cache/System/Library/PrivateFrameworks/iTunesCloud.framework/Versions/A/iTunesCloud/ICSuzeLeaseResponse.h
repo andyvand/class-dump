@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary;
+@class NSDate, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ICSuzeLeaseResponse
 {
     NSDate *_requestDate;
-    NSDictionary *_responseDictionary;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)perator;
+- (void)hasRuleOperator;
 - (id)Å¼H_Ä¯Ø7|(ÿ3 öþ´}ðñ3GpëÎºß8AçATY<P³Ï;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *clientData;
-@property(readonly, copy, nonatomic) NSDate *leaseExpirationDate;
 @property(readonly, copy, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol AFBluetoothHeadphoneInEarDetectionStateMutating
+- (void);
 - (void)AvailableForLanguage:(_Bool)arg1 synchronous:] /* Error: Ran out of types for this method. */;
 @end
 

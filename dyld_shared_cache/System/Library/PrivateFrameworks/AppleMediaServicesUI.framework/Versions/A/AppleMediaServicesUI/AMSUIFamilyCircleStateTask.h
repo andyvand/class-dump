@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void)ck: /* Error: Ran out of types for this method. */;
+- (void)thenWithBinaryPromiseBlock: /* Error: Ran out of types for this method. */;
 - (id)å=yACy©å=_AAyAAy9Ó@ðµ=G2=GARtGGtGSg_
 9Ó@AAyAAyAAyAAyAAyAG¬»=G6Ó=yàã=GGANGATGATGtGGG_Qo_AHyu°=GGtGGATGÈ8Ó@G_AAyAAyAQyACyAR_AAy·8Ó@BÜ=ySbGGtGGATGATGt;
 

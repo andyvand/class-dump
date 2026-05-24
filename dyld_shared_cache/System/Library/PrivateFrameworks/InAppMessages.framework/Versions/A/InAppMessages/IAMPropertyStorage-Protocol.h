@@ -5,5 +5,6 @@
 //
 
 @protocol IAMPropertyStorage
+- (void);
 @end
 

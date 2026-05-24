@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerAnimojiProviderItem, CNPhotoPickerVariantListController, CNPhotoPickerVariantsManager;
+@class CNPhotoPickerVariantsManager;
 @protocol CNAvatarPosePickerControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarPosePickerController
 {
     id <CNAvatarPosePickerControllerDelegate> _delegate;
-    long long _numberOfItemsPerRow;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    CNPhotoPickerAnimojiProviderItem *_originalProviderItem;
-    CNPhotoPickerVariantListController *_posePickerController;
-    struct CGSize _desiredContentSize;
 }
 
+- (void)o;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)@9a
+;
 - (id);
 - (id);
 - (id);
@@ -38,11 +34,6 @@ __attribute__((visibility("hidden")))
 - (void)CardViewControllerDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNAvatarPosePickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct CGSize desiredContentSize; // @synthesize desiredContentSize=_desiredContentSize;
-@property(nonatomic) long long numberOfItemsPerRow; // @synthesize numberOfItemsPerRow=_numberOfItemsPerRow;
-@property(retain, nonatomic) CNPhotoPickerAnimojiProviderItem *originalProviderItem; // @synthesize originalProviderItem=_originalProviderItem;
-@property(retain, nonatomic) CNPhotoPickerVariantListController *posePickerController; // @synthesize posePickerController=_posePickerController;
 @property(retain, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
 
 @end

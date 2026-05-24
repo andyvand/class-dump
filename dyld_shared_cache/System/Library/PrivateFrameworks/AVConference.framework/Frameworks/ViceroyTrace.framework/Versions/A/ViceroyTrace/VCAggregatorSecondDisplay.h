@@ -6,96 +6,12 @@
 
 #import <ViceroyTrace/VCAggregatorVideoStream.h>
 
-@class NSString, VCReportingHistogram;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VCAggregatorSecondDisplay : VCAggregatorVideoStream
 {
     double _sessionTotalDuration;
-    double _lastReportedVideoStallTime;
-    double _totalVideoStallTime;
-    double _maxVideoStallInterval;
-    int _videoStallCount;
-    int _avgFramerate;
-    int _averageReceiveBitrate;
-    int _averageSendBitrate;
-    int _maxSendBitrate;
-    int _averageTargetBitrate;
-    int _maxTargetBitrate;
-    int _maxPLR;
-    int _totalFIRCounter;
-    int _videoWidth;
-    int _videoHeight;
-    int _codec;
-    int _hdrMode;
-    int _transportProtocol;
-    int _accessNetworkType;
-    int _foveationEnabled;
-    double _averageExpirationTime;
-    double _maxExpirationTime;
-    double _averageWiFiPacketDelay;
-    double _averageMaxAverageWiFiPacketDelay;
-    unsigned int _averageWiFiThroughput;
-    unsigned int _totalNACKCounter;
-    unsigned int _averageBurstyPacketLossCount;
-    unsigned int _maxBurstyPacketLossCount;
-    unsigned int _averagePacketLossRate;
-    unsigned int _averageBandwidthEstimation;
-    unsigned int _maxBandwidthEstimation;
-    unsigned int _averageJitterQueueSize;
-    unsigned int _averageJitterQueueSizeChanges;
-    double _timeSpentWithNonZeroJitterQueueSize;
-    double _timeWeightedJitterQueueSize;
-    unsigned int _maxJitterQueueSize;
-    double _averagePlaybackOffset;
-    double _maxPlaybackOffset;
-    unsigned int _accumVideoFrameErasureCount;
-    unsigned int _maxVideoFrameErasureCount;
-    unsigned int _maxVideoStallCount;
-    unsigned int _minVideoFrameRate;
-    unsigned int _captureVideoFrameCount;
-    unsigned int _encodedVideoFrameCount;
-    unsigned int _decodedVideoFrameCount;
-    unsigned int _averageRoundTripTime;
-    unsigned int _maxRoundTripTime;
-    unsigned int _averageHIDEventLatencySampleCount;
-    unsigned int _averageHIDEventLatency;
-    unsigned int _maxHIDEventLatency;
-    unsigned int _minHIDEventLatency;
-    unsigned int _videoFrameNonFECTotalCounter;
-    unsigned int _videoFrameNonFECCompleteCounter;
-    unsigned int _videoFrameDisplayedCounter;
-    unsigned int _decodedVideoFrameEnqueueCounter;
-    unsigned int _videoFrameReceivedCounter;
-    unsigned int _videoFrameExpectedCounter;
-    unsigned int _rtcpTimeoutCount;
-    unsigned int _evictedFramesTrackedCount;
-    unsigned int _evictedFramesAnalysisValidIntervals;
-    double _evictedFramesAverageLatePacketDelay;
-    unsigned int _evictedFramesRecoveredCount;
-    VCReportingHistogram *_RBR;
-    VCReportingHistogram *_TBR;
-    VCReportingHistogram *_SBR;
-    VCReportingHistogram *_VST;
-    VCReportingHistogram *_PLR;
-    VCReportingHistogram *_BPL;
-    VCReportingHistogram *_EXT;
-    VCReportingHistogram *_BWE;
-    VCReportingHistogram *_VJS;
-    VCReportingHistogram *_RTT;
-    VCReportingHistogram *_HEL;
-    int _twoPtFourGhzChannelCount;
-    int _fiveGhzChannelCount;
-    int _dfsChannelCount;
-    int _inactiveSlotCount;
-    NSString *_channelSequence;
-    CDStruct_f2f7ecfd _channelSequenceStats;
-    NSString *_previousChannelSequence;
-    CDStruct_f2f7ecfd _previousChannelSequenceStats;
-    NSString *_remoteOSBuildVersion;
-    NSString *_remoteFrameworkVersion;
-    NSString *_remoteDeviceModel;
-    unsigned int _aggregatorVideoStreamMode;
 }
 
 - (void);
@@ -112,18 +28,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)4H3;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)R;
+- (id)7;
+- (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *channelSequence; // @synthesize channelSequence=_channelSequence;
-@property(retain, nonatomic) NSString *previousChannelSequence; // @synthesize previousChannelSequence=_previousChannelSequence;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AFSpeechRecognitionPersonalEntityMention
 {
     float _score;
-    NSString *_mention;
 }
 
 + (_Bool);
@@ -24,11 +23,10 @@
 - (id);
 - (float);
 - (id);
-- (void)tyle;
+- (void)_authorizationStyle;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *mention; // @synthesize mention=_mention;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
 
 @end
 

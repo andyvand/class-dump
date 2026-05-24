@@ -4,39 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, PKPaper;
+@class NSArray;
 
 @interface PKPrintSettings
 {
     _Bool _annotationsImaged;
-    int _copies;
-    PKPaper *_paper;
-    NSURL *_printerInfoURL;
-    NSURL *_printerSuppliesURL;
-    NSString *_documentPassword;
-    NSString *_duplex;
-    NSString *_finishingTemplate;
-    NSArray *_finishings;
-    NSString *_inputSlot;
-    NSString *_mediaType;
-    NSString *_jobAccountID;
-    NSString *_jobName;
-    NSString *_orientation;
-    NSString *_outputBin;
-    NSString *_outputMode;
-    NSString *_pageScale;
-    NSString *_pageStackOrder;
-    NSString *_printQuality;
-    NSString *_thumbnailPosition;
-    NSString *_jobPresetName;
-    NSString *_fileType;
-    NSArray *_pageRanges_asStringArray;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)P;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -51,11 +29,11 @@
 - (void);
 - (void);
 - (void);
+- (void)q ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)߈;
 - (id);
 - (id);
 - (id);
@@ -63,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -86,49 +64,26 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)qA;
+- (id);
+- (id)ntercepted;
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)'k;
+- (void)trategy>",R,N,V_elementFilterStrategy;
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool annotationsImaged; // @synthesize annotationsImaged=_annotationsImaged;
-@property int copies; // @synthesize copies=_copies;
-@property(copy) NSString *documentPassword; // @synthesize documentPassword=_documentPassword;
-@property(copy) NSString *duplex; // @synthesize duplex=_duplex;
-@property(copy) NSString *fileType; // @synthesize fileType=_fileType;
-@property(copy) NSString *finishingTemplate; // @synthesize finishingTemplate=_finishingTemplate;
-@property(copy) NSArray *finishings; // @synthesize finishings=_finishings;
-@property(copy) NSString *inputSlot; // @synthesize inputSlot=_inputSlot;
-@property(copy) NSString *jobAccountID; // @synthesize jobAccountID=_jobAccountID;
-@property(copy) NSString *jobName; // @synthesize jobName=_jobName;
-@property(copy) NSString *jobPresetName; // @synthesize jobPresetName=_jobPresetName;
-@property(copy) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(copy) NSString *orientation; // @synthesize orientation=_orientation;
-@property(copy) NSString *outputBin; // @synthesize outputBin=_outputBin;
-@property(copy) NSString *outputMode; // @synthesize outputMode=_outputMode;
-@property(copy) NSArray *pageRanges;
 @property(copy) NSArray *pageRanges_asStringArray; // @synthesize pageRanges_asStringArray=_pageRanges_asStringArray;
-@property(copy) NSString *pageScale; // @synthesize pageScale=_pageScale;
-@property(copy) NSString *pageStackOrder; // @synthesize pageStackOrder=_pageStackOrder;
-@property(copy) PKPaper *paper; // @synthesize paper=_paper;
-@property(copy) NSString *printQuality; // @synthesize printQuality=_printQuality;
-@property(copy) NSURL *printerInfoURL; // @synthesize printerInfoURL=_printerInfoURL;
-@property(copy) NSURL *printerSuppliesURL; // @synthesize printerSuppliesURL=_printerSuppliesURL;
-@property(copy) NSString *thumbnailPosition; // @synthesize thumbnailPosition=_thumbnailPosition;
 
 @end
 

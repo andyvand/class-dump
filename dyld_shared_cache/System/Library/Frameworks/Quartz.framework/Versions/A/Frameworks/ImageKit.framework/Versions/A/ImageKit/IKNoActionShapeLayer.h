@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (_Bool);
+- (id)e state found in the database;
+- (_Bool);
 
 @end
 

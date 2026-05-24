@@ -11,14 +11,9 @@ __attribute__((visibility("hidden")))
 @interface CFNetworkTimer
 {
     NSObject<OS_dispatch_source> *_timer;
-    double _interval;
-    double _lastResumeTime;
-    double _lastPauseTime;
-    double _runTime;
-    int _state;
 }
 
-- (void);
+- (void)is unimplemented;
 
 @end
 

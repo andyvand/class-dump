@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NEIPv4Settings
 {
     _Bool _overridePrimary;
-    NSArray *_addresses;
-    NSArray *_subnetMasks;
-    NSString *_router;
-    NSArray *_includedRoutes;
-    NSArray *_excludedRoutes;
-    long long _configMethod;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setPreferences:forSessionWithUniqueID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -35,23 +27,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)end:(id)arg1 %##@
+;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void)g"16@?<v@?@"NSData"@"NSURL"@"NSString"@"NSString"III@"NSError">24;
-- (_Bool)perties;
+- (_Bool)properties;
 - (id)y (connect);
 
 // Remaining properties
-@property(readonly) NSArray *addresses; // @synthesize addresses=_addresses;
-@property long long configMethod; // @synthesize configMethod=_configMethod;
-@property(copy) NSArray *excludedRoutes; // @synthesize excludedRoutes=_excludedRoutes;
-@property(copy) NSArray *includedRoutes; // @synthesize includedRoutes=_includedRoutes;
 @property _Bool overridePrimary; // @synthesize overridePrimary=_overridePrimary;
-@property(copy) NSString *router; // @synthesize router=_router;
-@property(readonly) NSArray *subnetMasks; // @synthesize subnetMasks=_subnetMasks;
 
 @end
 

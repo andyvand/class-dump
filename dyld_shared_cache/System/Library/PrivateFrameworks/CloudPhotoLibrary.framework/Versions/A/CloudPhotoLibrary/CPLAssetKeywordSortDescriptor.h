@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)i;
 - (long long);
 - (id);
 - (id);

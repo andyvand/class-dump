@@ -6,12 +6,11 @@
 
 #import <NotesUI/ICAttachmentPreviewGeneratorOperation.h>
 
-@class ICAttachmentModel, NSManagedObjectContext;
+@class NSManagedObjectContext;
 
 @interface ICAttachmentPreviewGeneratorOCROperation : ICAttachmentPreviewGeneratorOperation
 {
     NSManagedObjectContext *_managedObjectContext;
-    ICAttachmentModel *_attachmentModel;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 ;
 
 // Remaining properties
-@property(retain) ICAttachmentModel *attachmentModel; // @synthesize attachmentModel=_attachmentModel;
 @property(retain) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 
 @end

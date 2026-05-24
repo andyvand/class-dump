@@ -9,18 +9,17 @@
 @interface TRIFBFactorLevelBuilder
 {
     AFBBufferBuilder *_owner;
-    struct FactorLevelBuilder *_bldr;
 }
 
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

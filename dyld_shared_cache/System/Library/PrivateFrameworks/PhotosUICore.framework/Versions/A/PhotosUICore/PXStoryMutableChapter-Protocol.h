@@ -7,12 +7,12 @@
 @class NSString;
 
 @protocol PXStoryMutableChapter
-- (NSString *)eLivePhotoViewModulator;
+- (void) x;
+- (NSString *)PXMutableLivePhotoViewModulator;
 - (void)=%ld>;
 - (NSString *)1È´!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedSubtitle;
 @property(copy, nonatomic) NSString *localizedTitle;
 @end
 

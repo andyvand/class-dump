@@ -6,24 +6,9 @@
 
 #import <GeoServices/GEOComposedRouteStep.h>
 
-@class GEOPBTransitHall, GEOPBTransitStop, GEOTransitScheduleInfo, GEOTransitStep, NSArray, NSString;
-@protocol GEOTransitArtworkDataSource, GEOTransitVehicleEntries;
-
 @interface GEOComposedTransitRouteStep : GEOComposedRouteStep
 {
     int _maneuver;
-    unsigned int _startTime;
-    unsigned int _duration;
-    GEOTransitStep *_transitStep;
-    NSArray *_routeDetailsPrimaryArtwork;
-    id <GEOTransitArtworkDataSource> _routeDetailsSecondaryArtwork;
-    NSArray *_steppingArtwork;
-    GEOPBTransitStop *_originStop;
-    GEOPBTransitStop *_destinationStop;
-    GEOPBTransitHall *_originHall;
-    GEOPBTransitHall *_destinationHall;
-    NSArray *_transitIncidents;
-    NSArray *_advisories;
 }
 
 + (_Bool)ve "%@" - %@;
@@ -43,56 +28,42 @@
 - (id);
 - (id);
 - (id);
+- (id){CGSize=dd}}16{CGSize=dd}48;
+- (id)}}16{CGSize=dd}48;
+- (id)ize=dd}}16;
+- (id)8;
+- (int)24@32^@40;
+- (_Bool)setValue:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)setCurrentProcessHasValue:forEntitlement: /* Error: Ran out of types for this method. */;
+- (id)sendResult:error:toObserver: /* Error: Ran out of types for this method. */;
+- (id)enumerateMatchesInString:(id)arg1 options:(id)arg2 range:(long long)arg3 usingBlock:(id)arg4;
+- (id)y/PrivateFrameworks/IntlPreferences.framework/IntlPreferences (%d);
+- (CDStruct_39925896)%@;
+- (unsigned long long)Users;
+- (id)tactsFoundation/AsyncSerialQueue.swift;
 - (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (CDStruct_39925896);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_ageCategory;
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)sharedClearTextAuthenticator;
 - (unsigned int);
 - (double);
 - (void);
-- (_Bool)ClientMetadata;
+- (_Bool)_parsecClientMetadata;
 - (void)85;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPBTransitHall *destinationHall; // @synthesize destinationHall=_destinationHall;
-@property(readonly, nonatomic) GEOPBTransitStop *destinationStop; // @synthesize destinationStop=_destinationStop;
-@property(readonly, nonatomic) NSString *destinationStopIntermediateListName;
-@property(readonly, nonatomic) unsigned long long destinationTransitEntityMuid;
 @property(readonly, nonatomic) int maneuver; // @synthesize maneuver=_maneuver;
-@property(readonly, nonatomic) GEOComposedTransitRouteStep *nextTransitStep;
-@property(readonly, nonatomic) GEOPBTransitHall *originHall; // @synthesize originHall=_originHall;
-@property(readonly, nonatomic) GEOPBTransitStop *originStop; // @synthesize originStop=_originStop;
-@property(readonly, nonatomic) NSString *originStopIntermediateListName;
-@property(readonly, nonatomic) unsigned long long originTransitEntityMuid;
-@property(readonly, nonatomic) GEOComposedTransitRouteStep *previousTransitStep;
-@property(readonly, nonatomic) NSArray *regionAlerts;
-@property(readonly, nonatomic) GEOTransitScheduleInfo *scheduleInfo;
-@property(readonly, nonatomic) GEOTransitStep *transitStep; // @synthesize transitStep=_transitStep;
-@property(readonly, nonatomic) id <GEOTransitVehicleEntries> vehicleEntries;
 
 @end
 

@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RRSchemaRREntityPoolResolveFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
@@ -19,19 +16,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)OS;
 - (_Bool);
-- (_Bool);
+- (_Bool), cm.message_id DESC ;
 - (void);
 - (id);
 - (id);
-- (id)pLanguageModelProfileRebuildContext;
+- (id)appLanguageModelProfileRebuildContext;
 - (id)ngRate;
-- (void)tementScores;
+- (void)turnRestatementScores;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

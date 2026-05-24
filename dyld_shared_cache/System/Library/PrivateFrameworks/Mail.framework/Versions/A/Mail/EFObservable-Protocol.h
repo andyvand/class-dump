@@ -7,6 +7,6 @@
 @protocol EFCancelable;
 
 @protocol EFObservable
-- (id <EFCancelable>)ionsUpgradeStep;
+- (id <EFCancelable>)MFRecalculateAutomatedConversationsUpgradeStep;
 @end
 

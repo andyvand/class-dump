@@ -9,16 +9,14 @@
 @interface PKBOMDirectoryEnumerator
 {
     PKBOM *_pkBom;
-    struct _BOMBomEnumerator *_be;
-    struct _BOMFSObject *_currentFSO;
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

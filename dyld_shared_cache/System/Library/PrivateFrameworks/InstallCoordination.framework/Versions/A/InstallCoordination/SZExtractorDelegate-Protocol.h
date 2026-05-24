@@ -5,5 +5,8 @@
 //
 
 @protocol SZExtractorDelegate
+
+@optional
+- (void);
 @end
 

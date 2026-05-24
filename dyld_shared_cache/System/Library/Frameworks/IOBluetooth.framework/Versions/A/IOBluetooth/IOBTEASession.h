@@ -9,27 +9,20 @@
 @interface IOBTEASession
 {
     NSMutableDictionary *mVersionStrings;
-    unsigned char _eaMatchAction;
-    _Bool _isSessionOpen;
-    _Bool _hasReceivedData;
-    NSString *_endpointUUID;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned char);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id)ey: /* Error: Ran out of types for this method. */;
+- (id)BluetoothHCILELongTermKeyRequestReply:longTermKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned char eaMatchAction; // @synthesize eaMatchAction=_eaMatchAction;
 @property(retain) NSString *endpointUUID; // @synthesize endpointUUID=_endpointUUID;
-@property _Bool hasReceivedData; // @synthesize hasReceivedData=_hasReceivedData;
-@property _Bool isSessionOpen; // @synthesize isSessionOpen=_isSessionOpen;
 
 @end
 

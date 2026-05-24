@@ -9,7 +9,6 @@
 @interface TRIXPCNamespaceManagementRequestHandler
 {
     TRIXPCServerContextPromise *_serverContextPromise;
-    CDStruct_4c969caf _auditToken;
 }
 
 + (void);
@@ -23,31 +22,31 @@
 + (void);
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-- (id);
-- (_Bool);
++ (void)appEntityRelevanceCoarseGeoHashAndCoarseTimeOfDayFeatures;
+- (id);
+- (_Bool)h failed;
 - (void);
-- (void);
+- (void)om service with error:(id)arg1 %@;
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
+- (void)NURenderJobStatistics;
+- (void)<;
+- (void)B;
+- (void);
+- (void)_assertApplicationManagerQueue;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)requestSettingsModifiersForProcessIdentity:(id)arg1 withCompletion:(id)arg2;
 - (void);
 - (void);
 - (void)0@ù

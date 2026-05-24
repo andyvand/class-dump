@@ -5,5 +5,9 @@
 //
 
 @protocol TDraggingDestinationDelegate
+
+@optional
+- (_Bool);
+- (_Bool);
 @end
 

@@ -6,16 +6,10 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface VNRecognizeObjectsRequestConfiguration : VNImageBasedRequestConfiguration
 {
     unsigned long long _imageCropAndScaleOption;
-    _Bool _useImageAnalyzerScaling;
-    float _modelMinimumDetectionConfidence;
-    float _modelNonMaximumSuppressionThreshold;
-    NSArray *_targetedIdentifiers;
 }
 
 - (_Bool);
@@ -34,10 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned long long imageCropAndScaleOption; // @synthesize imageCropAndScaleOption=_imageCropAndScaleOption;
-@property float modelMinimumDetectionConfidence; // @synthesize modelMinimumDetectionConfidence=_modelMinimumDetectionConfidence;
-@property float modelNonMaximumSuppressionThreshold; // @synthesize modelNonMaximumSuppressionThreshold=_modelNonMaximumSuppressionThreshold;
-@property(copy) NSArray *targetedIdentifiers; // @synthesize targetedIdentifiers=_targetedIdentifiers;
-@property _Bool useImageAnalyzerScaling; // @synthesize useImageAnalyzerScaling=_useImageAnalyzerScaling;
 
 @end
 

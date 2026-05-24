@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, PHCloudIdentifier;
+@class PHCloudIdentifier;
 
 @interface PHCloudIdentifierMapping
 {
     PHCloudIdentifier *_cloudIdentifier;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)rsonWithFace:options: /* Error: Ran out of types for this method. */;
+- (void)queryForPersonWithFace:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PHCloudIdentifier *cloudIdentifier; // @synthesize cloudIdentifier=_cloudIdentifier;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

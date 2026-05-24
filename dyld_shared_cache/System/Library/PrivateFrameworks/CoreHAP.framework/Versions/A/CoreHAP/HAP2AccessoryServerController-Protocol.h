@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HAP2Cancelable;
+
 @protocol HAP2AccessoryServerController
+- (void);
+- (id <HAP2Cancelable>);
 @end
 

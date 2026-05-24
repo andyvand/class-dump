@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADRouteHypothesis, EKTravelEngineHypothesis, GEORouteHypothesizer, NSString;
+@class CADRouteHypothesis, GEORouteHypothesizer;
 
 @interface CALNGEORouteHypothesizer
 {
     CADRouteHypothesis *currentCADRouteHypothesis;
-    GEORouteHypothesizer *_routeHypothesizer;
 }
 
 - (void);
@@ -19,25 +18,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (CDUnknownBlockType)",R,N,V_userNotificationCenter;
 
 // Remaining properties
-@property(retain, nonatomic) CADRouteHypothesis *currentCADRouteHypothesis; // @synthesize currentCADRouteHypothesis;
-@property(readonly, nonatomic) EKTravelEngineHypothesis *currentHypothesis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) GEORouteHypothesizer *routeHypothesizer; // @synthesize routeHypothesizer=_routeHypothesizer;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType updateHandler;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMSimulatedEntry
 {
     NSString *_groupID;
-    NSString *_chatGUID;
-    NSArray *_handles;
-    NSString *_lastAddressedHandle;
-    unsigned long long _condition;
 }
 
 + (_Bool);
@@ -20,9 +16,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)t;
+- (id);
+- (void)_fetchReason;
 - (unsigned long long);
 - (void);
 - (void);
@@ -33,18 +29,7 @@
 - (void)Tÿÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;
-@property(nonatomic) unsigned long long condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(retain, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *lastAddressedHandle; // @synthesize lastAddressedHandle=_lastAddressedHandle;
-@property(readonly) Class superclass;
 
 @end
 

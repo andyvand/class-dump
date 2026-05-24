@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBControlHomeIntentResponse
 {
     struct _has;
-    NSArray *_entityResponses;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)@@9;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)pointInterface>";
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)B40B44;
+- (void)ng keychain for %@;
 - (id);
 - (id);
-- (void)aseLocID;
+- (void)phraseLocID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *entityResponses; // @synthesize entityResponses=_entityResponses;
-@property(readonly, nonatomic) unsigned long long entityResponsesCount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

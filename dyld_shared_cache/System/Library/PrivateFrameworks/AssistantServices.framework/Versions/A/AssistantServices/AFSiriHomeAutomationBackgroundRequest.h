@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, AFSiriHomeAutomationRequestInfo;
+@class AFSiriHomeAutomationRequestInfo;
 
 @interface AFSiriHomeAutomationBackgroundRequest
 {
     AFSiriHomeAutomationRequestInfo *_requestInfo;
-    AFInstanceContext *_instanceContext;
 }
 
 - (id);

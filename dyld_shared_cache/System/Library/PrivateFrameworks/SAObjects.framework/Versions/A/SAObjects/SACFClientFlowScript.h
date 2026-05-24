@@ -6,21 +6,21 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSData, NSString, SACFScriptEncryptionParameters, SACFScriptUrlInformation;
+@class NSData;
 
 @interface SACFClientFlowScript : SABaseAceObject
 {
 }
 
 + (id);
-+ (id);
-- (id);
++ (id);
+- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -37,14 +37,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *compressedScript;
-@property(retain, nonatomic) SACFScriptEncryptionParameters *encryptionParameters;
-@property(copy, nonatomic) NSString *fileContentType;
-@property(copy, nonatomic) NSString *jsScript;
-@property(copy, nonatomic) NSData *jsScriptChecksum;
-@property(copy, nonatomic) NSString *jsScriptIdentifier;
-@property(nonatomic) _Bool shouldCacheScript;
-@property(nonatomic) _Bool shouldSkipExecution;
-@property(retain, nonatomic) SACFScriptUrlInformation *urlInformation;
 
 @end
 

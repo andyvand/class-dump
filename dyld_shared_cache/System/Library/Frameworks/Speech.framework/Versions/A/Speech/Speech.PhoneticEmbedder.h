@@ -7,14 +7,6 @@
 @interface Speech.PhoneticEmbedder
 {
     id locale;
-    id clientID;
-    id inputFormat;
-    id loadingOption;
-    id euclidActor;
-    id _syncClient;
-    id embeddingDimensions;
-    id maxWordLength;
-    id modelVersion;
 }
 
 @end

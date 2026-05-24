@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMComputeSourceClient, NSString;
+@class BMComputeSourceClient;
 
 @interface BMComputeTombstonePropagator
 {
     BMComputeSourceClient *_computeSource;
-    NSString *_streamIdentifier;
-    unsigned long long _domain;
-    unsigned int _user;
 }
 
 - (id);

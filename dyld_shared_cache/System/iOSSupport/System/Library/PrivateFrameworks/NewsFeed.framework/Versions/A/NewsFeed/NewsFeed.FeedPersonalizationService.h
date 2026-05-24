@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedPersonalizationService
 {
     id feedPersonalizingEngine;
-    id groupingPersonalizer;
 }
 
 @end

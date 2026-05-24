@@ -13,7 +13,7 @@
     NSString *_bundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
 - (id);
 - (id);
 - (void);

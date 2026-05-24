@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface WAMessageAWD
 {
     _Bool _isRootMessage;
-    NSMutableDictionary *_mutableFields;
-    NSString *_key;
-    NSString *_originalClassName;
-    NSString *_uuid;
-    unsigned long long _metricID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -28,25 +23,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id){public}@};
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)fFTBin3;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isRootMessage; // @synthesize isRootMessage=_isRootMessage;
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) unsigned long long metricID; // @synthesize metricID=_metricID;
 @property(readonly, nonatomic) NSMutableDictionary *mutableFields; // @synthesize mutableFields=_mutableFields;
-@property(readonly, nonatomic) NSString *originalClassName; // @synthesize originalClassName=_originalClassName;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

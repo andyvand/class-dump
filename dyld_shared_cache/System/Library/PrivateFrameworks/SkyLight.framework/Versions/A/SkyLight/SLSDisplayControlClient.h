@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 @interface SLSDisplayControlClient
 {
     _Bool _configured;
-    _Bool _enabled;
-    CDUnknownBlockType _notification;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (const char *);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)gate _performMetadataResetRequest:(id)arg1 ]_block_invoke;
+- (void)data.cloudkit.setup;
+- (void)NSCloudKitMirroringDelegateScanForRowsMissingFromHistoryKey;
+- (void)edicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (int)CT %@, COUNT(DISTINCT(%@)) AS COUNT;
+- (id)CREATE TRIGGER IF NOT EXISTS %@ AFTER DELETE ON %@ FOR EACH ROW;
+- (id)NEW.%@ AND (%@));;
+- (void)FTER UPDATE OF %@ ON %@ FOR EACH ROW;
+- (unsigned long long)tType and fetchBatchSize > 0 however propertiesToFetch includes sentinel value 'isDeleted' property:(unsigned long long)arg1 %@;
+- (_Bool)needsRecoveryFromUserPurge;
+- (id)FROM %@ WHERE %@ IN %@;
+- (void)(%@) FROM %@ WHERE %@ >= 16000;
+- (void)N';
+- (_Bool)_master where name = 'ZCHANGETRACK';
+- (const char *)led:(id)arg1 %s;
+- (void)OM %@ WHERE %@ = ?;
+- (void)error occurred while configuring functions in the SQLite database.;
+- (void));
+- (void)insert statements;
 - (void);
 - (void);
 - (id);
@@ -42,17 +38,7 @@
 - (_Bool);
 
 // Remaining properties
-@property _Bool configured; // @synthesize configured=_configured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType notification; // @synthesize notification=_notification;
-@property(retain) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
-@property(readonly) Class superclass;
 
 @end
 

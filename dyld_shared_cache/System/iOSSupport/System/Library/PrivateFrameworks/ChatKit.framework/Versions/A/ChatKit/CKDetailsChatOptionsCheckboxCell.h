@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKTranscriptDetailsResizableCell.h>
 
-@class NSString, UISwitch;
+@class UISwitch;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsChatOptionsCheckboxCell : CKTranscriptDetailsResizableCell
@@ -17,23 +17,16 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 - (void);
-- (id);
+- (id)Success;
 - (void);
 - (struct CGSize);
+- (void);
 - (void);
-- (void);
-- (id)On:(long long)arg1;
+- (id)appCell:(long long)arg1 wasToggledOn:(id)arg2;
 - (void)>;
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineSettingsClusterLocationVisitView
 {
     unsigned long long _timestamp;
-    int _deletionCount;
-    NSString *_sessionId;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int deletionCount:1;
-    } _has;
 }
 
 - (void);
@@ -36,16 +28,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)ful: /* Error: Ran out of types for this method. */;
-- (id)peratureNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasWasSuccessful: /* Error: Ran out of types for this method. */;
+- (id)setHasHighThermalTemperatureNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int deletionCount; // @synthesize deletionCount=_deletionCount;
-@property(nonatomic) _Bool hasDeletionCount;
-@property(readonly, nonatomic) _Bool hasSessionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -6,20 +6,17 @@
 
 #import <PhotosGraph/PGShareBackSource.h>
 
-@class NSSet, PHPhotoLibrary;
-@protocol CLSFaceIdentificationProtocol;
+@class PHPhotoLibrary;
 
 @interface PGShareBackPetSource : PGShareBackSource
 {
     PHPhotoLibrary *_photoLibrary;
-    NSSet *_petPersonLocalIdentifiersToCheck;
-    id <CLSFaceIdentificationProtocol> _faceIdentification;
 }
 
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)CGSize=dd}}32@0:(id)arg1 8@16@24;
+- (id){CGSize=dd}}48@0:(id)arg1 8@16@24@32@40;
 - (void);
 
 @end

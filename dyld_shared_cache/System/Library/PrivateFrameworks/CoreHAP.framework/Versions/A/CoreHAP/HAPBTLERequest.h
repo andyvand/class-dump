@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPBTLEControlOutputStream, HAPBTLETransactionIdentifier, HAPCharacteristic, HAPService, HMFBlockOperation, HMFTimer, NSData;
+@class HAPBTLETransactionIdentifier;
 
 __attribute__((visibility("hidden")))
 @interface HAPBTLERequest
 {
     unsigned char _type;
-    _Bool _encrypted;
-    _Bool _finished;
-    HAPBTLETransactionIdentifier *_identifier;
-    HAPService *_service;
-    HAPCharacteristic *_characteristic;
-    NSData *_body;
-    double _timeoutInterval;
-    HMFBlockOperation *_operation;
-    HAPBTLEControlOutputStream *_controlOutputStream;
-    HMFTimer *_responseTimer;
 }
 
 - (void);
@@ -30,19 +20,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned char);
+- (unsigned char);
 - (_Bool);
 - (id);
-- (id);
+- (id)leTCONDP855RestoreInfoCopyFirmware:invalid FirmwareOverride type /* Error: Ran out of types for this method. */;
 - (id)!CùQ¸ð1Â0@ù
 × ;
 - (void)APAccessoryServer"16@"NSString"24;
@@ -51,17 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)ticValueLinearTransition transitionPoints=%@, startBehavior=%@>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *body; // @synthesize body=_body;
-@property(readonly, nonatomic) HAPCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(retain, nonatomic) HAPBTLEControlOutputStream *controlOutputStream; // @synthesize controlOutputStream=_controlOutputStream;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted; // @synthesize encrypted=_encrypted;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
 @property(readonly, nonatomic) HAPBTLETransactionIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak HMFBlockOperation *operation; // @synthesize operation=_operation;
-@property(retain, nonatomic) HMFTimer *responseTimer; // @synthesize responseTimer=_responseTimer;
-@property(readonly, nonatomic) HAPService *service; // @synthesize service=_service;
-@property(readonly, nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end
 

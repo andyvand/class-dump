@@ -9,11 +9,10 @@
 @interface PTDoubleTestRecipe : PTTestRecipe
 {
     CDUnknownBlockType _increaseAction;
-    CDUnknownBlockType _decreaseAction;
 }
 
 + (id);
-+ (id);
++ (id)!;
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -21,10 +20,9 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)k;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType decreaseAction; // @synthesize decreaseAction=_decreaseAction;
 @property(copy, nonatomic) CDUnknownBlockType increaseAction; // @synthesize increaseAction=_increaseAction;
 
 @end

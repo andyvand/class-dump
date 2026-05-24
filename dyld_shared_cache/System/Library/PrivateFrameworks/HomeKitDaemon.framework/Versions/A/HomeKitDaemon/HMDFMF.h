@@ -22,13 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id)iJ;
 - (id);
-- (id);
-- (unsigned long long)lNetworkElection;
+- (unsigned long long)_startLocalNetworkElection;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *number;
-@property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

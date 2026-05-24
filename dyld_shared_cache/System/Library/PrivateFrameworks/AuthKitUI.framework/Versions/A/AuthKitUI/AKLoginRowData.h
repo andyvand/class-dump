@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface AKLoginRowData
 {
     NSImage *_iconImage;
-    NSString *_paneTitleText;
-    NSString *_titleText;
-    NSString *_detailText;
-    long long _authenticationType;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (id);
-- (id);
+- (id)b;
 - (id);
 - (id);
 - (long long);
@@ -29,18 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long loginRowAuthenticationType; // @synthesize loginRowAuthenticationType=_authenticationType;
-@property(copy, nonatomic) NSString *loginRowDetailText; // @synthesize loginRowDetailText=_detailText;
 @property(copy, nonatomic) NSImage *loginRowIconImage; // @synthesize loginRowIconImage=_iconImage;
-@property(copy, nonatomic) NSString *loginRowPaneTitleText; // @synthesize loginRowPaneTitleText=_paneTitleText;
-@property(copy, nonatomic) NSString *loginRowText; // @synthesize loginRowText=_titleText;
-@property(readonly) Class superclass;
 
 @end
 

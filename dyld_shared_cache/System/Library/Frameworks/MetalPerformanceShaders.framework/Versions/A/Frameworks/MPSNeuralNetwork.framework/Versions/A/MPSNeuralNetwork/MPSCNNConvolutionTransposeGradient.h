@@ -6,21 +6,14 @@
 
 #import <MPSNeuralNetwork/MPSCNNGradientKernel.h>
 
-@class MPSCNNConvolutionGradient;
-@protocol MPSCNNConvolutionDataSource;
-
 @interface MPSCNNConvolutionTransposeGradient : MPSCNNGradientKernel
 {
     unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _groups;
-    unsigned long long _gradientOption;
-    MPSCNNConvolutionGradient *_convolutionGradient;
 }
 
 + (const struct MPSLibraryInfo *);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)?;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -35,18 +28,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)f1632MatrixMultiplyNT_aligned;
+- (id)];
 - (id);
 - (unsigned long long)ð;
 - (id)Äø6;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MPSCNNConvolutionDataSource> dataSource;
-@property(nonatomic) unsigned long long gradientOption; // @synthesize gradientOption=_gradientOption;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
 @property(readonly, nonatomic) unsigned long long sourceGradientFeatureChannels; // @synthesize sourceGradientFeatureChannels=_inputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long sourceImageFeatureChannels; // @synthesize sourceImageFeatureChannels=_outputFeatureChannels;
 
 @end
 

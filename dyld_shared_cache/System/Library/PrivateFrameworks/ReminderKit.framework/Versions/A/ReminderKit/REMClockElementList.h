@@ -11,7 +11,7 @@
     NSArray *_elements;
 }
 
-+ (_Bool);
++ (_Bool);
 + (long long);
 - (id);
 - (id);

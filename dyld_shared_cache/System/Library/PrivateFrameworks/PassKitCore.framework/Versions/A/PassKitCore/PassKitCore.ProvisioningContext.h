@@ -7,17 +7,6 @@
 @interface PassKitCore.ProvisioningContext
 {
     id provisioningController;
-    id groupsController;
-    id flowType;
-    id managingDevice;
-    id destinationDevice;
-    id teamIdentifier;
-    id hostApplicationBundleIdentifier;
-    id referralSource;
-    id sceneIdentifier;
-    id proximitySetupLiaison;
-    id campaignAttributionReferrerIdentifier;
-    id analyticsSession;
 }
 
 @end

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface VNAsyncStatus
 {
     _Bool _completed;
-    NSError *_error;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)hingSession",R,N;
+- (id)#;
 - (id);
 - (id);
 - (_Bool)lp;
-- (void)CP;
+- (void)ringMCP;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

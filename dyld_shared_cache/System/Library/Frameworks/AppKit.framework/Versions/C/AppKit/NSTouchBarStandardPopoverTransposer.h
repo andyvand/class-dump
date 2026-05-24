@@ -6,22 +6,15 @@
 
 #import <AppKit/NSTouchBarPressAndHoldTransposer.h>
 
-@class NSView;
-
 @interface NSTouchBarStandardPopoverTransposer : NSTouchBarPressAndHoldTransposer
 {
     struct CGRect _srcFrame;
-    struct CGRect _dstFrame;
-    NSView *_contentView;
-    NSView *_hitView;
-    long long _oldHitViewInsetMitigation;
-    long long _oldHitViewRestingMitigation;
 }
 
+- (id)FaceTimeCameraSupportsHardwareFaceDetection;
+- (struct CGPoint)DeviceSupportsVirtualResearchEnvironment;
 - (id);
-- (struct CGPoint);
-- (id);
-- (void);
+- (void)_kExcessiveKeepalivesParametersEnabled;
 - (void);
 
 @end

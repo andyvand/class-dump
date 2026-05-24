@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, NSArray;
+@class NSArray;
 
 @protocol MFSearchableIndexTopHitsResultsCollectorBuilder
+- (void);
 - (void)pleted download for message %u, but we donât have a body structure for this message.;
-- (NSArray *)ate;
+- (NSArray *)InternetMessageDate;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *filterQueries;
-@property(retain, nonatomic) CSSuggestion *updatedSuggestion;
 @end
 

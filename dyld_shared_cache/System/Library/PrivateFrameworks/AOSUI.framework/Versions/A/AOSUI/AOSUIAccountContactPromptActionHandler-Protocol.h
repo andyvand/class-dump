@@ -5,5 +5,8 @@
 //
 
 @protocol AOSUIAccountContactPromptActionHandler
+
+@optional
+- (void);
 @end
 

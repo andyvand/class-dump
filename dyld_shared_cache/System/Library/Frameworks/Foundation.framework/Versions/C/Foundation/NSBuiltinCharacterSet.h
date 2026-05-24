@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSBuiltinCharacterSet : NSCharacterSet
 {
     long long offset;
-    id expandedset;
 }
 
 - (id);

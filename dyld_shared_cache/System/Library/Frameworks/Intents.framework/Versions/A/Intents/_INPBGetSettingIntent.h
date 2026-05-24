@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBSettingMetadata;
-
 @interface _INPBGetSettingIntent
 {
     struct {
         unsigned int confirmationValue:1;
     } _has;
-    int _confirmationValue;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBSettingMetadata *_settingMetadata;
 }
 
 + (_Bool);
@@ -23,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (id);
 - (int);
 - (id);
@@ -32,27 +27,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)word to the system keychain for %{public}@, returned error %{public}@;
+- (id);
 - (id);
 - (void);
 - (_Bool)pe",C;
-- (void)terName;
+- (void)INIntentParameterName;
 
 // Remaining properties
 @property(nonatomic) int confirmationValue; // @synthesize confirmationValue=_confirmationValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConfirmationValue;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata; // @synthesize settingMetadata=_settingMetadata;
-@property(readonly) Class superclass;
 
 @end
 

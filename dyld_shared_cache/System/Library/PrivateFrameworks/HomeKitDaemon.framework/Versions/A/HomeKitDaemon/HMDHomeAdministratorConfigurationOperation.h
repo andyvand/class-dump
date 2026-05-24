@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessage, HMFMessageDispatcher, NSString;
+@class HMFMessage;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeAdministratorConfigurationOperation
 {
     struct os_unfair_lock_s _lock;
-    _Bool _shouldSuspendSyncing;
-    _Bool _messageResponseHandled;
-    CDUnknownBlockType _sendCompletionBlock;
-    CDUnknownBlockType _responseHandler;
-    HMFMessage *_message;
-    HMDHome *_home;
-    HMFMessageDispatcher *_dispatcher;
 }
 
-+ (double);
++ (double)IsOwnerUser;
 + (id)ÍÏÿû­;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
+- (void)outingIncidentBadge"b1};
+- (CDUnknownBlockType)discreteProgressWithTotalUnitCount: /* Error: Ran out of types for this method. */;
+- (_Bool)MT;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -37,26 +30,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (void)mpletionHandler:(CDUnknownBlockType)arg1;
+- (void)verifyPairingWithCompletionHandler:(CDUnknownBlockType)arg1;
 - (id)|~T	@
 0\¸;
 - (void)cck;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMFMessageDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
 @property(readonly) HMFMessage *message; // @synthesize message=_message;
-@property(getter=isMessageResponseHandled) _Bool messageResponseHandled; // @synthesize messageResponseHandled=_messageResponseHandled;
-@property(copy) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(copy) CDUnknownBlockType sendCompletionBlock; // @synthesize sendCompletionBlock=_sendCompletionBlock;
-@property _Bool shouldSuspendSyncing; // @synthesize shouldSuspendSyncing=_shouldSuspendSyncing;
-@property(readonly) Class superclass;
 
 @end
 

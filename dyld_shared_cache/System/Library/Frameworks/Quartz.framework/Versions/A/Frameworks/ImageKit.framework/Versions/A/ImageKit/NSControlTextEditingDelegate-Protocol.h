@@ -4,12 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification;
+@class NSArray, NSNotification;
 
 @protocol NSControlTextEditingDelegate
 
 @optional
-- (void):(NSNotification *)arg1;
-- (_Bool)asourceVersion;
+- (void)nagement-%@;
+- (NSArray *)AskForTimeNotApprovedResposeReceivedNotificationTitle;
+- (_Bool)AskForTimeApprovedNoResourceResposeReceivedNotificationBody;
+- (void)AskForTimeApprovedResposeReceivedNotificationBody;
+- (_Bool)amountGranted;
+- (void)setCellPrototype:(NSNotification *)arg1;
+- (_Bool)bumpDatasourceVersion;
 @end
 

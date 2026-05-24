@@ -5,6 +5,8 @@
 //
 
 @protocol MKAnnotationContainerViewDelegate
-- (struct CLLocationCoordinate2D)tem;
+- (struct CGRect);
+- (struct CGRect);
+- (struct CLLocationCoordinate2D)favoriteActionItem;
 @end
 

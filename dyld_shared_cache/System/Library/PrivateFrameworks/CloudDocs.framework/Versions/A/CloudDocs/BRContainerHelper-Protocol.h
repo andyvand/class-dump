@@ -5,5 +5,6 @@
 //
 
 @protocol BRContainerHelper
+- (unsigned short);
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2SearchResultsUserSelectedContact
 {
     int _app;
-    NSString *_key;
-    _Bool _wasKnownContact;
-    _Bool _wasSuggestedContact;
-    CDStruct_73da3db5 _has;
 }
 
 - (_Bool);
@@ -23,36 +17,29 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)d;
+- (_Bool)pple.CalendarUI;
+- (id)tePicker;
+- (void)YearlyByDaySwitch:(int)arg1 %d;
+- (int);
+- (int)LAttachments;
 - (id);
 - (void);
-- (int);
-- (int);
-- (id);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mParentIndex;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool)!Ú ð!xAùql$ð1Â0@ù
 × ;
-- (void)ount:(id)arg1 negativeFeedbackCount: /* Error: Ran out of types for this method. */;
+- (void)shouldExposeWarningGivenPositiveFeedbackCount:(id)arg1 negativeFeedbackCount: /* Error: Ran out of types for this method. */;
 - (void)°ý	düÜ¤	¼	;
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool hasApp;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasWasKnownContact;
-@property(nonatomic) _Bool hasWasSuggestedContact;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool wasKnownContact; // @synthesize wasKnownContact=_wasKnownContact;
-@property(nonatomic) _Bool wasSuggestedContact; // @synthesize wasSuggestedContact=_wasSuggestedContact;
 
 @end
 

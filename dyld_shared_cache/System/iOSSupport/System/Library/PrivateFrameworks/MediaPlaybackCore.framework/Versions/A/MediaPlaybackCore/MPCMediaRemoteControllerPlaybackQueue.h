@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface MPCMediaRemoteControllerPlaybackQueue
 {
     NSArray *_identifiers;
-    NSString *_playingIdentifier;
-    NSString *_queueIdentifier;
-    NSDictionary *_queueProperties;
 }
 
+- (id)_appleIDAuthenticationAccountsMatchingAppleAccount:inStore: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)g handler with error %@;
 - (id);
 - (void)ublic}@;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, nonatomic) NSString *playingIdentifier; // @synthesize playingIdentifier=_playingIdentifier;
-@property(readonly, nonatomic) NSString *queueIdentifier; // @synthesize queueIdentifier=_queueIdentifier;
-@property(readonly, nonatomic) NSDictionary *queueProperties; // @synthesize queueProperties=_queueProperties;
 
 @end
 

@@ -9,12 +9,10 @@
 @interface ICTableTextAttachment : ICTextAttachment
 {
     double _lastAvailableWidth;
-    struct CGSize _lastAttachmentSize;
 }
 
 
 // Remaining properties
-@property(nonatomic) struct CGSize lastAttachmentSize; // @synthesize lastAttachmentSize=_lastAttachmentSize;
 @property(nonatomic) double lastAvailableWidth; // @synthesize lastAvailableWidth=_lastAvailableWidth;
 @end
 

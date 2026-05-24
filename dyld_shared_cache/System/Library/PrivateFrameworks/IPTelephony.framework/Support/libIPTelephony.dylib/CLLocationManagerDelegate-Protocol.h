@@ -5,5 +5,11 @@
 //
 
 @protocol CLLocationManagerDelegate
+
+@optional
+- (void);
+- (void)obalPreferencesFloatValue for %{public}@ = %f;
+- (void)osingRegion=(%4.2f,%4.2f);
+- (void)a;
 @end
 

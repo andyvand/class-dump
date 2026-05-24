@@ -6,48 +6,39 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureFileOutputInternal, NSURL;
+@class AVCaptureFileOutputInternal;
 @protocol AVCaptureFileOutputDelegate;
 
 @interface AVCaptureFileOutput : AVCaptureOutput
 {
     AVCaptureFileOutputInternal *_fileOutputInternal;
-    id <AVCaptureFileOutputDelegate> _delegate;
 }
 
 + (void).swift;
+- (void)MSVArtworkServiceInterface;
 - (void);
 - (void);
 - (void);
 - (void);
+- (long long)e}@;
+- (CDStruct_1b6d18a9)message:[%{public}@]%{private}@ /* Error: Ran out of types for this method. */;
+- (_Bool)askProvider %p Invalidated RBSAssertion %p;
+- (id)nded;
+- (long long)MSVSonicAssertionsWereInvalidatedNotification;
+- (long long)compress input data;
+- (CDStruct_1b6d18a9)MSVStreamWriter;
+- (_Bool)eUtilitiesCopyUTTypeForImageFormat(MSVImageFormat);
+- (id)parent is a dictionary;
 - (void);
-- (long long);
-- (CDStruct_1b6d18a9);
-- (_Bool);
+- (void)accountCredentialsDidChangeForAccountWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (long long);
-- (long long);
-- (CDStruct_1b6d18a9);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)TI,N,V_timeToFirstPhotoCapture;
 - (void);
 - (_Bool)amera-history-downplay-override-list;
 
 // Remaining properties
 @property(nonatomic) id <AVCaptureFileOutputDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) CDStruct_1b6d18a9 maxRecordedDuration;
-@property(nonatomic) long long maxRecordedFileSize;
-@property(nonatomic) long long minFreeDiskSpaceLimit;
-@property(readonly, nonatomic) NSURL *outputFileURL;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 recordedDuration;
-@property(readonly, nonatomic) long long recordedFileSize;
-@property(readonly, nonatomic, getter=isRecording) _Bool recording;
-@property(readonly, nonatomic, getter=isRecordingPaused) _Bool recordingPaused;
 
 @end
 

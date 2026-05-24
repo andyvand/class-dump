@@ -10,23 +10,23 @@
 {
 }
 
-+ (id);
-+ (long long);
-+ (id);
++ (id)apItem;
++ (long long)initWithIdentifier:imageWriter: /* Error: Ran out of types for this method. */;
++ (id)UIDs;
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)dateWithTimeInterval:sinceDate: /* Error: Ran out of types for this method. */;
++ (id),N,V_currentFrequentLocations;
++ (id)customQueryType;
++ (id)EntryPayloadID>",R,N;
++ (id)rm;
++ (id)Generation;
++ (id)ge.Request.Payload;
 + (id);
 + (void)_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
 + (id)æ: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (id);
+- (void)_UNCategoryFromNotificationType:(id)arg1;
+- (id)tEntitledForPhotoKitOrPrivatePhotosTCC,V_clientEntitledForPhotoKitOrPrivatePhotosTCC;
+- (id)back for memory %{public}@;
 
 @end
 

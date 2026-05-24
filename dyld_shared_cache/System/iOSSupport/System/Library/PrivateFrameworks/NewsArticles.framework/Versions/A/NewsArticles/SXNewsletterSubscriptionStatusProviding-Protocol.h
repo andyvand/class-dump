@@ -5,6 +5,7 @@
 //
 
 @protocol SXNewsletterSubscriptionStatusProviding
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long newsletterSubscriptionStatus;

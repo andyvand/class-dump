@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)Q?I;
 + (void);
 + (void);
-+ (void);
++ (void)	Q?;
 + (void);
 + (void);
 + (id);

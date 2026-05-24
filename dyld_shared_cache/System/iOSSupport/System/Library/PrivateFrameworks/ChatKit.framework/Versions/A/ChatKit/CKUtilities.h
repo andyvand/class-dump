@@ -8,29 +8,29 @@
 {
 }
 
-+ (_Bool);
++ (_Bool),;
 + (long long);
 + (id);
++ (id){;
++ (id)e;
++ (id)e;
++ (id)u;
++ (unsigned long long)dn't find cloud object for share %@;
++ (void)or the recipient is invalid;
++ (void)ation state to failed because the note is no longer shared or the recipient is invalid;
++ (id).count %lu;
++ (unsigned long long)ment.previewUpdateDate %@ self.attachment.previewImages.count %lu;
++ (_Bool)rd.;
++ (_Bool)r your old password first in order to set a new password.;
++ (_Bool)ord: /* Error: Ran out of types for this method. */;
++ (_Bool)previous password to view the attachment.;
++ (unsigned long long)rs not initialized;
++ (id)ed attachment from inline drawing;
++ (id)plicating note;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (void);
-+ (void);
-+ (id);
-+ (unsigned long long);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
 + (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)ICError;
 + (void);
 + (void);
 + (double);

@@ -11,9 +11,6 @@
 @interface CASDFGradientEffect : CASDFEffect
 {
     _Bool _premultiplied;
-    NSArray *_colors;
-    NSArray *_distances;
-    NSArray *_interpolations;
 }
 
 + (id);
@@ -22,20 +19,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)0:(id)arg1 8Q16;
 - (id);
 
 // Remaining properties
 @property(copy) NSArray *colors; // @synthesize colors=_colors;
-@property(copy) NSArray *distances; // @synthesize distances=_distances;
-@property(copy) NSArray *interpolations; // @synthesize interpolations=_interpolations;
-@property _Bool premultiplied; // @synthesize premultiplied=_premultiplied;
 
 @end
 

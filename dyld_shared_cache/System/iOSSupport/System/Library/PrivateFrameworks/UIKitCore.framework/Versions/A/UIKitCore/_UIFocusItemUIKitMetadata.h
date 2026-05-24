@@ -14,24 +14,17 @@ __attribute__((visibility("hidden")))
         unsigned int hasResolvedFocusMovementFlippedHorizontally:1;
         unsigned int hasResolvedSafeItemSize:1;
     } _flags;
-    _Bool _focusMovementFlippedHorizontally;
-    long long _focusTouchSensitivityStyle;
-    long long _inheritedFocusMovementStyle;
-    id <UIFocusItem> _item;
 }
 
-- (struct CGSize);
-- (_Bool);
-- (long long);
-- (long long);
+- (struct CGSize)numReadReceiptsV1NoQOIMarkedMessageAfterInitial;
+- (_Bool)maxRecipientsForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (long long)enumerateBatchedChatsFilteredUsingPredicate:block: /* Error: Ran out of types for this method. */;
+- (long long)changeGroups:account: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)dÂ[;
 - (id)X:(id)arg1 ºÿ¾F;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFocusMovementFlippedHorizontally) _Bool focusMovementFlippedHorizontally; // @synthesize focusMovementFlippedHorizontally=_focusMovementFlippedHorizontally;
-@property(readonly, nonatomic) long long focusTouchSensitivityStyle; // @synthesize focusTouchSensitivityStyle=_focusTouchSensitivityStyle;
-@property(readonly, nonatomic) long long inheritedFocusMovementStyle; // @synthesize inheritedFocusMovementStyle=_inheritedFocusMovementStyle;
 @property(readonly, nonatomic) id <UIFocusItem> item; // @synthesize item=_item;
 
 @end

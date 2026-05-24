@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)w4wT~L;
 - (id);
 - (unsigned long long)sationConfirmationAlertsDisplayConfiguration";
 

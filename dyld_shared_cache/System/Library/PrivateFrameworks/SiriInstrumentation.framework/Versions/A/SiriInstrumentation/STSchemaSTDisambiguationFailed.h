@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTFailureError;
-
 @interface STSchemaSTDisambiguationFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    STSchemaSTFailureError *_stError;
-    CDStruct_6555f803 _has;
-    _Bool _hasStError;
 }
 
 - (void);
@@ -23,27 +18,23 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setIsDSIDLess: /* Error: Ran out of types for this method. */;
+- (_Bool)ABPeoplePickerGroupListController;
+- (_Bool)rid_handle_service_index ON message(madrid_handle, madrid_service);;
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)IsWifiOn;
-- (id)asPommesKnowledgeFallbackContext;
-- (void)SEMEDIACONTENTDURATIONBUCKET_4_TO_5_MINUTES;
+- (id)deleteIsWifiOn;
+- (id)_hasPommesKnowledgeFallbackContext;
+- (void)PSEMEDIACONTENTDURATIONBUCKET_4_TO_5_MINUTES;
 - (void)isFirstTriggerOrAfterFirstTrigger;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStError; // @synthesize hasStError=_hasStError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) STSchemaSTFailureError *stError; // @synthesize stError=_stError;
 
 @end
 

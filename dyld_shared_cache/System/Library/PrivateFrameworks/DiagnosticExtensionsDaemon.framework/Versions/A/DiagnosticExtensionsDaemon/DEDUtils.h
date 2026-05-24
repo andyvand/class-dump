@@ -16,21 +16,21 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)N5raven35RavenIntegrityEstimatorActiveObjectE;
 + (_Bool);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)esence of embedded preview:invalid URL:%@ /* Error: Ran out of types for this method. */;
 + (long long);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)init;
 
 @end
 

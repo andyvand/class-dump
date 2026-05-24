@@ -7,9 +7,6 @@
 @interface AuthenticationServices.ASAuthorizationAccountCreationPlatformPublicKeyCredential
 {
     id name;
-    id credentialRegistration;
-    id email;
-    id phoneNumber;
 }
 
 + (_Bool);

@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)tes variant of newBuffer;
 - (id)0Ø;
 
 @end

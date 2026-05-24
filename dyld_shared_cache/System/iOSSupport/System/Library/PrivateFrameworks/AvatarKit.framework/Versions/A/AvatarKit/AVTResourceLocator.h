@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVTResourceLocator
 {
     NSMutableDictionary *_imageCache;
-    NSURL *_contentFrameworkResourcesURL;
-    NSURL *_resourcesURL;
-    NSURL *_environmentResourcesURL;
-    NSURL *_animojiResourcesURL;
-    NSURL *_memojiResourcesURL;
-    NSURL *_stickerResourcesURL;
-    NSURL *_poseResourcesURL;
-    NSURL *_memojiAssetsURL;
-    NSURL *_rootCacheURL;
-    NSURL *_subdivDataCacheURL;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

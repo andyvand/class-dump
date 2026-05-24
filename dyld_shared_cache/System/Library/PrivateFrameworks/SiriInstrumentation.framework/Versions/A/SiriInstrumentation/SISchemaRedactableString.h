@@ -6,46 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SISchemaRedactableString : SISchemaInstrumentationMessage
 {
     int _redactionState;
-    NSString *_value;
-    _Bool _hasRedactionState;
-    _Bool _hasValue;
-    unsigned long long _which_String;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_extensionAttributes;
+- (_Bool)eFrameworks/IntlPreferences.framework/IntlPreferences;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)om chat_handle_join WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END;;
 - (id);
 - (void);
+- (id)b;
 - (id);
-- (id);
-- (id)t;
-- (id)rtner;
-- (void)C_6_0_A;
+- (id)deleteCountPSUSAssetsMobileAsset;
+- (id)_externalPartner;
+- (void)MWTFORMATLAYOUT_EAC_6_0_A;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRedactionState; // @synthesize hasRedactionState=_hasRedactionState;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int redactionState; // @synthesize redactionState=_redactionState;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
-@property(readonly, nonatomic) unsigned long long which_String; // @synthesize which_String=_which_String;
 
 @end
 

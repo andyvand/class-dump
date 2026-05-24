@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGRequestEnded, RGSiriSchemaRGRequestFailed, RGSiriSchemaRGRequestStarted;
+@class RGSiriSchemaRGRequestStarted;
 
 @interface RGSiriSchemaRGRequestContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGRequestStarted *_startedOrChanged;
-    RGSiriSchemaRGRequestEnded *_ended;
-    RGSiriSchemaRGRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,31 +25,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ts/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurchaseRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)f *, CFStringRef *, int64_t *, CFDataRef *, int64_t *, CFStringRef *, CFDataRef *, CFStringRef *, CFStringRef *, CFStringRef *, int64_t *, CFStringRef *, CFStringRef *, CFStringRef *, CFStringRef *, int64_t *, int64_t *, int64_t *, CFStringRef *, CFStringRef *, CFStringRef *, int64_t *, int64_t *, CFStringRef *);
+- (id)?;
 - (id);
-- (id);
-- (id)VoiceShortcutAction:(id)arg1;
+- (id)addVoiceShortcutAction:(id)arg1;
 - (id)V_triggerFiredTime;
-- (void)N_COORDINATOR_ACCEPT;
+- (void)IFPLATFORMTARGET_SESSION_COORDINATOR_ACCEPT;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

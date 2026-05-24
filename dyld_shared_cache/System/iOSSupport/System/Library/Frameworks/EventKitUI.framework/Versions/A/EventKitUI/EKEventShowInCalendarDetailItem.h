@@ -6,29 +6,26 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class CUIKCalendarModel, EKDayPreviewController, EKUITableViewCell, NSDate;
+@class EKUITableViewCell, NSDate;
 
 __attribute__((visibility("hidden")))
 @interface EKEventShowInCalendarDetailItem : EKEventDetailItem
 {
     EKUITableViewCell *_cell;
-    EKDayPreviewController *_containedDayViewController;
-    CUIKCalendarModel *_model;
-    NSDate *_proposedTime;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)oardChallengeSummaryInternal";
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)accessibilityBoldTextStatusDidChange;
+- (id)updateDisclosureButtonPosition;
 - (void);
 - (id);
 - (_Bool);
-- (void)etOccurrenceLayoutTrailingInset: /* Error: Ran out of types for this method. */;
+- (void)setOccurrenceLayoutTrailingInset: /* Error: Ran out of types for this method. */;
 - (double)zä_À;
 
 // Remaining properties

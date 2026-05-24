@@ -9,7 +9,6 @@
 @interface QCSCN_Skinner
 {
     struct __C3DSkinner *_skinner;
-    struct __C3DScene *_sceneRef;
 }
 
 + (id);
@@ -19,14 +18,14 @@
 - (_Bool);
 - (void);
 - (struct __C3DScene *);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)oOut;
+- (id)projInfoOut;
 
 // Remaining properties
 @property(retain, nonatomic) QCSCN_Geometry *skinGeometry;

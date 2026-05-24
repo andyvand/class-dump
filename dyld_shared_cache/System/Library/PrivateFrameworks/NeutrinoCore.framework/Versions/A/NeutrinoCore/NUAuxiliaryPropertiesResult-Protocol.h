@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NUImageProperties;
-
 @protocol NUAuxiliaryPropertiesResult
 
 // Remaining properties
 @property(readonly) _Bool canPropagateOriginalAuxiliaryData;
-@property(readonly) id <NUImageProperties> properties;
 @end
 

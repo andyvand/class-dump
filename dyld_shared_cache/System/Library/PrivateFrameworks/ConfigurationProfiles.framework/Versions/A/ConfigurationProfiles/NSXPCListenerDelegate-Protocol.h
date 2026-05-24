@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)init plugin object for %@;
 @end
 

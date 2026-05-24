@@ -8,19 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorStreamGroupCodecConfiguration
 {
     long long _codecType;
-    unsigned int _rtpPayload;
-    unsigned long long _pTime;
-    _Bool _rtcpRTPFB_GNACKEnabled;
-    _Bool _rtcpPSFB_PLIEnabled;
-    _Bool _rtcpPSFB_FIREnabled;
-    _Bool _rtcpSREnabled;
-    _Bool _H264LevelAsymmetryAllowed;
-    _Bool _H264PacketizationMode;
-    _Bool _useInBandFEC;
-    unsigned long long _profileLevelId;
-    unsigned long long _serializedSize;
-    unsigned int _cipherSuite;
-    unsigned int _encoderUsage;
 }
 
 - (_Bool);
@@ -42,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -56,20 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool H264LevelAsymmetryAllowed; // @synthesize H264LevelAsymmetryAllowed=_H264LevelAsymmetryAllowed;
-@property(nonatomic) _Bool H264PacketizationMode; // @synthesize H264PacketizationMode=_H264PacketizationMode;
-@property(nonatomic) unsigned int cipherSuite; // @synthesize cipherSuite=_cipherSuite;
 @property(nonatomic) long long codecType; // @synthesize codecType=_codecType;
-@property(nonatomic) unsigned int encoderUsage; // @synthesize encoderUsage=_encoderUsage;
-@property(nonatomic) unsigned long long pTime; // @synthesize pTime=_pTime;
-@property(nonatomic) unsigned long long profileLevelId; // @synthesize profileLevelId=_profileLevelId;
-@property(nonatomic) _Bool rtcpPSFB_FIREnabled; // @synthesize rtcpPSFB_FIREnabled=_rtcpPSFB_FIREnabled;
-@property(nonatomic) _Bool rtcpPSFB_PLIEnabled; // @synthesize rtcpPSFB_PLIEnabled=_rtcpPSFB_PLIEnabled;
-@property(nonatomic) _Bool rtcpRTPFB_GNACKEnabled; // @synthesize rtcpRTPFB_GNACKEnabled=_rtcpRTPFB_GNACKEnabled;
-@property(nonatomic) _Bool rtcpSREnabled; // @synthesize rtcpSREnabled=_rtcpSREnabled;
-@property(nonatomic) unsigned int rtpPayload; // @synthesize rtpPayload=_rtpPayload;
-@property(nonatomic) unsigned long long serializedSize; // @synthesize serializedSize=_serializedSize;
-@property(nonatomic) _Bool useInBandFEC; // @synthesize useInBandFEC=_useInBandFEC;
 
 @end
 

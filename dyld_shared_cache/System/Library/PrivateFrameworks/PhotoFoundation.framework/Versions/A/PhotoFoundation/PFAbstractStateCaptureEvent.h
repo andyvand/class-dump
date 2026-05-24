@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PFAbstractStateCaptureEvent
 {
     unsigned int _qosClass;
-    double _startTimestamp;
-    unsigned long long _threadID;
-    double _endTimestamp;
 }
 
 + (unsigned long long);
@@ -19,28 +14,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)supportsRecurringPayments;
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (void);
+- (void)and all of the rules are unsatified;
 - (double);
 - (void);
-- (double)Label:target:buffer:queue:bufferDrainer:action: /* Error: Ran out of types for this method. */;
+- (double)coalescerWithLabel:target:buffer:queue:bufferDrainer:action: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double endTimestamp; // @synthesize endTimestamp=_endTimestamp;
-@property(readonly) NSString *eventDescription;
-@property(readonly) unsigned long long hash;
-@property unsigned int qosClass; // @synthesize qosClass=_qosClass;
 @property double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly) Class superclass;
-@property unsigned long long threadID; // @synthesize threadID=_threadID;
 
 @end
 

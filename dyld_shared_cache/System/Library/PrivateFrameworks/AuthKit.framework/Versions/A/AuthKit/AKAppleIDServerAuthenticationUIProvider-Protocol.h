@@ -5,5 +5,6 @@
 //
 
 @protocol AKAppleIDServerAuthenticationUIProvider
+- (void);
 @end
 

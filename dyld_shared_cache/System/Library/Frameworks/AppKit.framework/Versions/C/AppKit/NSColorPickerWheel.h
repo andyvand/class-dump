@@ -12,22 +12,19 @@ __attribute__((visibility("hidden")))
 @interface NSColorPickerWheel : NSColorPicker
 {
     id wheelView;
-    NSView *_containerView;
-    id brightnessSlider;
-    _Bool previouslyTracking;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool)size is 0;
+- (id)_authenticationChallengeForCFAuthChallenge:(unsigned long long)arg1 sender:(id)arg2;
+- (id)TLS Trust encountered error %ld:%d /* Error: Ran out of types for this method. */;
+- (void)ent %llu;
+- (id);
 - (double);
 - (void);
 - (long long);
-- (void)aitUntilFinished;
+- (void)waitUntilFinished;
 - (void)<ÀÚC;
 - (id)ÔñaÿqPßE;
 

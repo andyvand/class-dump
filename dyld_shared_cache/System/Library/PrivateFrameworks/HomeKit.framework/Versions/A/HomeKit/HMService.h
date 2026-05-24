@@ -4,78 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMApplicationData, HMBulletinBoardNotification, HMMutableArray, NSArray, NSDictionary, NSNumber, NSString, NSURL, NSUUID, _HMContext;
+@class NSDictionary;
 
 @interface HMService
 {
     struct os_unfair_lock_s _lock;
-    _Bool _nameModifiable;
-    _Bool _userInteractive;
-    _Bool _primaryService;
-    _Bool _mediaSourceDisplayOrderModifiable;
-    NSUUID *_uniqueIdentifier;
-    HMAccessory *_accessory;
-    NSString *_serviceType;
-    NSString *_name;
-    NSNumber *_matterEndpointID;
-    NSString *_configuredName;
-    NSString *_defaultName;
-    NSString *_associatedServiceType;
-    NSString *_serviceSubtype;
-    long long _configurationState;
-    HMApplicationData *_applicationData;
-    HMBulletinBoardNotification *_bulletinBoardNotificationInternal;
-    NSURL *_homeObjectURLInternal;
-    NSNumber *_mediaSourceIdentifier;
-    NSUUID *_accessoryUniqueIdentifier;
-    _HMContext *_context;
-    NSNumber *_instanceID;
-    HMMutableArray *_currentCharacteristics;
-    NSNumber *_lastKnownOperatingStateValue;
-    NSNumber *_lastKnownOperatingStateAbnormalReasonsValue;
-    NSUUID *_uuid;
-    NSArray *_linkedServiceInstanceIDs;
-    NSUUID *_targetAccessoryUUID;
-    NSArray *_mediaSourceDisplayOrder;
 }
 
-+ (id);
-+ (id);
++ (id)v;
++ (id)D;
 + (id);
 + (id);
 + (void);
 + (id);
 + (long long);
-+ (id);
-+ (id);
++ (id)A;
++ (id);
 + (id);
 + (_Bool);
 + (id)edAccessoryFirmwareUpdateOnboarding;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)/;
+- (void);
 - (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)I;
+- (id);
 - (unsigned long long);
 - (long long);
 - (_Bool);
@@ -83,9 +55,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -100,7 +72,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,7 +80,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -117,8 +89,8 @@
 - (long long);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)s:(id)arg1 storeType:error: /* Error: Ran out of types for this method. */;
+- (id)_privateEncryptedComputeScenesForAsset:fetchHelper:csuTaxonomyObjectStore:locale:isSensitiveLocation: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -132,13 +104,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)M		>	;
+- (_Bool)follower;
+- (id)uncertainty;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
@@ -148,56 +120,7 @@
 - (id)ublic}@Force-fetching home configuration.;
 
 // Remaining properties
-@property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSUUID *accessoryUniqueIdentifier; // @synthesize accessoryUniqueIdentifier=_accessoryUniqueIdentifier;
-@property(retain, nonatomic) HMApplicationData *applicationData; // @synthesize applicationData=_applicationData;
-@property(readonly, copy) NSUUID *applicationDataIdentifier;
-@property(copy, nonatomic) NSString *associatedServiceType; // @synthesize associatedServiceType=_associatedServiceType;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) HMBulletinBoardNotification *bulletinBoardNotificationInternal; // @synthesize bulletinBoardNotificationInternal=_bulletinBoardNotificationInternal;
-@property(readonly, copy, nonatomic) NSArray *characteristics;
-@property(nonatomic) long long configurationState; // @synthesize configurationState=_configurationState;
-@property(copy, nonatomic) NSString *configuredName; // @synthesize configuredName=_configuredName;
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) HMMutableArray *currentCharacteristics; // @synthesize currentCharacteristics=_currentCharacteristics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *defaultName; // @synthesize defaultName=_defaultName;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURL *homeObjectURLInternal; // @synthesize homeObjectURLInternal=_homeObjectURLInternal;
-@property(readonly, nonatomic) NSNumber *instanceID; // @synthesize instanceID=_instanceID;
-@property(copy, nonatomic) NSNumber *lastKnownOperatingStateAbnormalReasonsValue; // @synthesize lastKnownOperatingStateAbnormalReasonsValue=_lastKnownOperatingStateAbnormalReasonsValue;
-@property(copy, nonatomic) NSNumber *lastKnownOperatingStateValue; // @synthesize lastKnownOperatingStateValue=_lastKnownOperatingStateValue;
-@property(readonly, copy, nonatomic) NSArray *linkedServiceInstanceIDs; // @synthesize linkedServiceInstanceIDs=_linkedServiceInstanceIDs;
-@property(readonly, copy, nonatomic) NSArray *linkedServices;
-@property(readonly, copy, nonatomic) NSString *localizedDescription;
-@property(readonly, copy, nonatomic) NSNumber *matterEndpointID; // @synthesize matterEndpointID=_matterEndpointID;
-@property(retain, nonatomic) NSArray *mediaSourceDisplayOrder; // @synthesize mediaSourceDisplayOrder=_mediaSourceDisplayOrder;
-@property(nonatomic) _Bool mediaSourceDisplayOrderModifiable; // @synthesize mediaSourceDisplayOrderModifiable=_mediaSourceDisplayOrderModifiable;
-@property(retain, nonatomic) NSNumber *mediaSourceIdentifier; // @synthesize mediaSourceIdentifier=_mediaSourceIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, getter=isNameModifiable) _Bool nameModifiable; // @synthesize nameModifiable=_nameModifiable;
-@property(readonly, nonatomic, getter=isPrimaryService) _Bool primaryService; // @synthesize primaryService=_primaryService;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSDictionary *serializedDictionaryRepresentation;
-@property(copy, nonatomic) NSString *serviceSubtype; // @synthesize serviceSubtype=_serviceSubtype;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *targetAccessoryUUID; // @synthesize targetAccessoryUUID=_targetAccessoryUUID;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(nonatomic, getter=isUserInteractive) _Bool userInteractive; // @synthesize userInteractive=_userInteractive;
-@property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

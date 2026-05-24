@@ -9,7 +9,6 @@
 @interface KGGraphManagerRecord
 {
     KGGraphManager *_graphManager;
-    unsigned long long _useCount;
 }
 
 - (void);
@@ -17,13 +16,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)eiverSecurityPreferences;
 - (void);
 - (unsigned long long)Ð«ýÿ;
 
 // Remaining properties
 @property(retain, nonatomic) KGGraphManager *graphManager; // @synthesize graphManager=_graphManager;
-@property(nonatomic) unsigned long long useCount; // @synthesize useCount=_useCount;
 
 @end
 

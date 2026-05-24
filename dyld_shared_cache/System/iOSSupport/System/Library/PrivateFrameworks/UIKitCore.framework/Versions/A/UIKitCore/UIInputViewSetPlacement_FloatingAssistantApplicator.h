@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (struct UIEdgeInsets);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)_setStartTimeoutDate: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
 - (_Bool);
 - (void)0@ù

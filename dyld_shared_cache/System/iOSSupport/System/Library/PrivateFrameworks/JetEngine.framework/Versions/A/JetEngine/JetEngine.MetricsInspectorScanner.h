@@ -7,17 +7,15 @@
 @interface JetEngine.MetricsInspectorScanner
 {
     id serviceBrowser;
-    id stateLock;
-    id foundServices;
 }
 
+- (void)roviderP;
+- (void);
+- (void)So20AMSURLRequestEncoderC;
+- (void)G;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)Metrics;
 - (void);
 - (void);
 - (void)®;

@@ -33,11 +33,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)setIsNwAppInFG:(id)arg1;
 - (void);
 - (void);
 - (void);

@@ -4,18 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class Protocol;
 
 @protocol NSObject
+- (Class)setPreventFillingTopAreaInsets: /* Error: Ran out of types for this method. */;
+- (id)XZoomableInlineHeadersDataSourceManager",R,N,V_dataSourceManager;
+- (id),V_monthsDataSource;
+- (id)eInlineHeadersDataSource",R,N,V_monthsDataSource;
+- (Class)@"PXUpdater",R,N,V_updater;
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool)_startCoalescedURLification:(Protocol *)arg1 clearPreviousResults: /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 @end

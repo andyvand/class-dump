@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (LoggingSupport)
-- (id);
+- (id)tableView:(id)arg1 viewForTableColumn:(double)arg2 row:(_Bool)arg3;
 @end
 

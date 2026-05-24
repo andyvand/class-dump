@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface MSVBackgroundTaskProvider
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _lastIdentifier;
-    NSMutableDictionary *_timeoutGuards;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -28,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long lastIdentifier; // @synthesize lastIdentifier=_lastIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *timeoutGuards; // @synthesize timeoutGuards=_timeoutGuards;
 
 @end
 

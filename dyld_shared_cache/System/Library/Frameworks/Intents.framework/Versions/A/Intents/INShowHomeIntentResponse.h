@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INShowHomeIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)replyWithImageFileURL:(long long)arg1;
++ (long long)provideThumbnailForFileRequest:(int)arg1 completionHandler:(int)arg2;
++ (_Bool)pendingGenerationRequests;
 + (_Bool);
 - (void);
 - (id);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)setLongPressGesture:(id)arg1;
+- (id)E;
+- (void):(id)arg1 Updated join status (%{public}@);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)letion: /* Error: Ran out of types for this method. */;
+- (long long)handleGetVisualCode:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,47 +6,35 @@
 
 #import <AppleAccount/AACodableResponse.h>
 
-@class AALoginResponseAppleAccountInfo, AALoginResponseDataclasses, AALoginResponseiCloudTokens, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface AALoginAccountResponse : AACodableResponse
 {
     NSNumber *_status;
-    NSString *_statusMessage;
-    NSDictionary *_responseForDelegates;
-    NSString *_dsid;
-    AALoginResponseAppleAccountInfo *_appleAccountInfo;
-    AALoginResponseiCloudTokens *_iCloudTokens;
-    AALoginResponseDataclasses *_dataclasses;
 }
 
-+ (id);
++ (id)ould not be located;
 + (_Bool);
+- (id)ement current state = %s;
+- (id)et configuration state for enable;
+- (id)URL;
+- (id)System/Library/CoreServices/ManagedClient.app/Contents/PlugIns/ConfigurationProfilesUI.bundle/Contents/Resources/ProfilesPrefPane.icns;
+- (id)SetQoSConfiguration mcxUsr_setqosconfiguration returned %d;
+- (id)%d;
+- (id)ile mcxUsr_removeeapclientprofile result = %d;
+- (void)xception "%s" because "%s";
+- (id)failed for:%s (%d) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)rageURL;
+- (id)8;
+- (id)i;
+- (id);
+- (void)manageStorageURL;
 
 // Remaining properties
-@property(readonly, nonatomic) AALoginResponseAppleAccountInfo *appleAccountInfo; // @synthesize appleAccountInfo=_appleAccountInfo;
-@property(readonly, nonatomic) AALoginResponseDataclasses *dataclasses; // @synthesize dataclasses=_dataclasses;
-@property(readonly, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(readonly, nonatomic) AALoginResponseiCloudTokens *iCloudTokens; // @synthesize iCloudTokens=_iCloudTokens;
-@property(readonly, nonatomic) NSDictionary *responseForDelegates; // @synthesize responseForDelegates=_responseForDelegates;
 @property(readonly, nonatomic) NSNumber *status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSString *statusMessage; // @synthesize statusMessage=_statusMessage;
 
 @end
 

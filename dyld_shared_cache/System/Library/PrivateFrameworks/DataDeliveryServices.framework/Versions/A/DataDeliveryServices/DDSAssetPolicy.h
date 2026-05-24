@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSSet, NSString;
+@class NSDateComponents;
 
 @interface DDSAssetPolicy
 {
     _Bool _downloadOverCellular;
-    _Bool _downloadWithoutPower;
-    long long _preferredDownloadFrequency;
-    NSSet *_notificationDownloadTriggers;
-    NSString *_downloadCompletionNotification;
-    NSDateComponents *_idleUsageEvictionPeriod;
 }
 
-+ (id);
++ (id).ChecklistSummaryEvent;
 + (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)setHasConstrainedNetworkAccessRequest:(long long)arg1;
+- (void)setHasConnectionMode:(id)arg1;
+- (void)setHasConnectionEstablishmentTime:(id)arg1;
+- (void)setHasConnectionEstablishmentAttemptDelay:(id)arg1;
+- (long long)setHasConfirmationOutcome: /* Error: Ran out of types for this method. */;
+- (id)setHasConfirmationDialogName: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasCompressed_data:(id)arg1;
+- (id)setHasComparatorName: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasCommunicationType: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasCommunicationProtocol: /* Error: Ran out of types for this method. */;
+- (id)setHasCommsAppSelectionGroundTruthGenerated: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -36,18 +31,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)__TEXT;
 - (void);
-- (id);
+- (id)(H3*'
+;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *downloadCompletionNotification; // @synthesize downloadCompletionNotification=_downloadCompletionNotification;
-@property(nonatomic) _Bool downloadOverCellular; // @synthesize downloadOverCellular=_downloadOverCellular;
-@property(nonatomic) _Bool downloadWithoutPower; // @synthesize downloadWithoutPower=_downloadWithoutPower;
 @property(retain, nonatomic) NSDateComponents *idleUsageEvictionPeriod; // @synthesize idleUsageEvictionPeriod=_idleUsageEvictionPeriod;
-@property(copy, nonatomic) NSSet *notificationDownloadTriggers; // @synthesize notificationDownloadTriggers=_notificationDownloadTriggers;
-@property(nonatomic) long long preferredDownloadFrequency; // @synthesize preferredDownloadFrequency=_preferredDownloadFrequency;
 
 @end
 

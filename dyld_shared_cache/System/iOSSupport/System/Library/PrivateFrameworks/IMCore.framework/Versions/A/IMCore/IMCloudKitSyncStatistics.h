@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMCloudKitSyncStatistics
 {
     id statistics;
@@ -16,6 +14,21 @@
 + (double);
 + (id);
 + (id);
+- (long long)H;
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long)J;
+- (long long)|K;
 - (long long);
 - (long long);
 - (long long);
@@ -30,68 +43,19 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
+- (long long);
 - (double);
 - (id);
 - (id);
 - (long long);
 - (long long);
-- (long long);
+- (long long)ssionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (void)Ìö2;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double percentSynced;
-@property(nonatomic, readonly) long long remainingMessagesCount;
-@property(nonatomic, readonly) long long serverAttachmentLiveCount;
-@property(nonatomic, readonly) long long serverAttachmentTotalCount;
-@property(nonatomic, readonly) long long serverChatLiveCount;
-@property(nonatomic, readonly) long long serverChatTotalCount;
-@property(nonatomic, readonly) long long serverMessageLiveCount;
-@property(nonatomic, readonly) long long serverMessageTotalCount;
-@property(nonatomic, readonly) long long serverMessageUpdateLiveCount;
-@property(nonatomic, readonly) long long serverMessageUpdateTotalCount;
-@property(nonatomic, readonly) long long serverRecoverableMessageLiveCount;
-@property(nonatomic, readonly) long long serverRecoverableMessageTotalCount;
-@property(nonatomic, readonly) long long syncStoreWritableAttachmentCount;
-@property(nonatomic, readonly) long long syncStoreWritableChatCount;
-@property(nonatomic, readonly) long long syncStoreWritableMessageCount;
-@property(nonatomic, readonly) long long syncStoreWritableMessageUpdateCount;
-@property(nonatomic, readonly) long long syncStoreWritableRecoverableMessageCount;
-@property(nonatomic, readonly) long long syncStoreWrittenAttachmentCount;
-@property(nonatomic, readonly) long long syncStoreWrittenChatCount;
-@property(nonatomic, readonly) long long syncStoreWrittenMessageCount;
-@property(nonatomic, readonly) long long syncStoreWrittenMessageUpdateCount;
-@property(nonatomic, readonly) long long syncStoreWrittenRecoverableMessageCount;
-@property(nonatomic, readonly) long long syncedAttachmentCount;
 @property(nonatomic, readonly) long long syncedChatCount;
-@property(nonatomic, readonly) long long syncedMessageCount;
-@property(nonatomic, readonly) long long syncedRecordCount;
-@property(nonatomic, readonly) long long totalAttachmentCount;
-@property(nonatomic, readonly) long long totalChatCount;
-@property(nonatomic, readonly) long long totalMessageCount;
-@property(nonatomic, readonly) long long totalRecordCount;
-@property(nonatomic, readonly) long long unresolvedAttachmentCount;
-@property(nonatomic, readonly) long long unresolvedChatCount;
-@property(nonatomic, readonly) long long unresolvedMessageCount;
-@property(nonatomic, readonly) long long unresolvedRecordCount;
 
 @end
 

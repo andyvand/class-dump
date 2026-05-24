@@ -6,27 +6,9 @@
 
 #import <NewsCore/FCMultiStepFetchOperation.h>
 
-@class FCAssetManager, FCHeldRecords, FCTagRecordSource, NSArray;
-@protocol FCCoreConfiguration, FCTagsFetchOperationDelegate;
-
 @interface FCTagsFetchOperation : FCMultiStepFetchOperation
 {
     _Bool _includeChildren;
-    _Bool _includeParents;
-    _Bool _overrideTargetsCachePolicy;
-    _Bool _overrideChildrenCachePolicy;
-    unsigned long long _targetsCachePolicy;
-    double _targetsMaximumCachedAge;
-    unsigned long long _childrenCachePolicy;
-    double _childrenMaximumCachedAge;
-    NSArray *_tagIDs;
-    FCHeldRecords *_heldTagRecords;
-    FCHeldRecords *_heldParentTagRecords;
-    FCHeldRecords *_heldChildTagRecords;
-    FCTagRecordSource *_tagRecordSource;
-    FCAssetManager *_assetManager;
-    id <FCCoreConfiguration> _configuration;
-    id <FCTagsFetchOperationDelegate> _delegate;
 }
 
 - (void);
@@ -36,32 +18,25 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ing.framework/Versions/A/RecapPerformanceTesting;
 - (void);
 - (id);
 - (void);
 - (void);
+- (double)ementsDraggingSessionEndedAtPointDragOperation"b1"delegateImplementsPrepareForDragOperation"b1"delegateImplementsPerformDragOperation"b1"delegateImplementsDraggingEntered"b1"delegateImplementsDraggingUpdated"b1"delegateImplementsDraggingExited"b1"delegateImplementsDraggingEnded"b1};
+- (void);
+- (unsigned long long)d;
 - (double);
-- (void);
-- (unsigned long long);
-- (double);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id)calDraft;
-- (void)nValue;
+- (void)unmuteImpressionValue;
 
 // Remaining properties
-@property unsigned long long childrenCachePolicy; // @synthesize childrenCachePolicy=_childrenCachePolicy;
-@property double childrenMaximumCachedAge; // @synthesize childrenMaximumCachedAge=_childrenMaximumCachedAge;
 @property(nonatomic) _Bool includeChildren; // @synthesize includeChildren=_includeChildren;
-@property(nonatomic) _Bool includeParents; // @synthesize includeParents=_includeParents;
-@property _Bool overrideChildrenCachePolicy; // @synthesize overrideChildrenCachePolicy=_overrideChildrenCachePolicy;
-@property _Bool overrideTargetsCachePolicy; // @synthesize overrideTargetsCachePolicy=_overrideTargetsCachePolicy;
-@property unsigned long long targetsCachePolicy; // @synthesize targetsCachePolicy=_targetsCachePolicy;
-@property double targetsMaximumCachedAge; // @synthesize targetsMaximumCachedAge=_targetsMaximumCachedAge;
 
 @end
 

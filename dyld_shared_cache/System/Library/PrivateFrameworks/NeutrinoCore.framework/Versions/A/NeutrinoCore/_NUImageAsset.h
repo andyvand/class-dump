@@ -6,29 +6,24 @@
 
 #import <NeutrinoCore/_NUAsset.h>
 
-@class NSString, NSURL, NUSourceContainerNode;
-@protocol NUAssetMedia;
+@class NSURL, NUSourceContainerNode;
 
 @interface _NUImageAsset : _NUAsset
 {
     NUSourceContainerNode *_sourceContainerNode;
-    NSURL *_imageURL;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)No Wi-Fi Security (Open);
 - (void)1Â0@ù
 × ;
 - (id)getImage;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, nonatomic) id <NUAssetMedia> media;
-@property(readonly, nonatomic) long long type;
 
 @end
 

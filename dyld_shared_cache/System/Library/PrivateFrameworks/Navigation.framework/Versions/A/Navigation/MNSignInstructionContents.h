@@ -6,17 +6,16 @@
 
 #import <Navigation/MNListInstructionContents.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MNSignInstructionContents : MNListInstructionContents
 {
     NSArray *_normalInstructionStrings;
-    NSArray *_maneuverFormats;
 }
 
-+ (id);
++ (id);G4;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -29,12 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long context;
-@property(readonly, nonatomic) _Bool hasServerContent;
 @property(retain, nonatomic) NSArray *maneuverFormats; // @synthesize maneuverFormats=_maneuverFormats;
-@property(retain, nonatomic) NSString *roadName;
-@property(nonatomic) _Bool suppressFallback;
-@property(nonatomic) _Bool suppressNames;
 
 @end
 

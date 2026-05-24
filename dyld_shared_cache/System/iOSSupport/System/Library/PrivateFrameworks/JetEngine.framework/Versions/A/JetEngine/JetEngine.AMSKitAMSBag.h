@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSString;
-
 @interface JetEngine.AMSKitAMSBag
 {
     id amsKitBag;
-    void profile;
-    void profileVersion;
-    AMSProcessInfo *processInfo;
-    id $__lazy_storage_$_amsBag;
 }
 
 - (id);
@@ -21,10 +15,10 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id), destination = %@, error = %@);
 - (id);
 - (_Bool);
 - (id);
@@ -50,11 +44,7 @@ twÅÿPu
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *expirationDate;
 @property(nonatomic, readonly) _Bool expired;
-@property(nonatomic, readonly) AMSProcessInfo *processInfo; // @synthesize processInfo;
-@property(nonatomic, readonly) NSString *profile;
-@property(nonatomic, readonly) NSString *profileVersion;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface TeaUI.MemoryImageCache
 {
     id lruCache;
-    id accessor;
 }
 
 @end

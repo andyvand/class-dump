@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @protocol FCNewsAppConfigurationInternal
 - (NSDictionary *)try"8Q16^B24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *configDictionary;
-@property(readonly, nonatomic) NSDictionary *languageConfigDictionary;
-@property(readonly, copy, nonatomic) NSString *storefrontID;
 @end
 

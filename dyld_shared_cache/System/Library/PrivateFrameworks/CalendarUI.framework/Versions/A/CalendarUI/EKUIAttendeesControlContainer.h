@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIAttendeesGadget, NSString;
+@class EKUIAttendeesGadget;
 
 @interface EKUIAttendeesControlContainer
 {
@@ -12,24 +12,17 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)S0_5mutexEEE;
 - (void);
 - (id)Ô6 !@ùñÃ#Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak EKUIAttendeesGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,26 +6,17 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class NSString;
 @protocol MTL4Compiler;
 
 @interface _MTL4CompilerTask : _MTLObjectWithLabel
 {
-    struct _opaque_pthread_mutex_t _statusMutex;
-    struct _opaque_pthread_cond_t _statusCondition;
-    struct _opaque_pthread_cond_t _tokenCondition;
-    struct _opaque_pthread_cond_t _completionHandlerCondition;
-    _Bool _hasNoPendingCompletionHandlers;
-    long long _status;
-    struct weak_ptr<MTLCompileToken> _internalCompileTokenWeak;
-    _Bool _statusMutexInitialized;
-    _Bool _statusConditionInitialized;
-    _Bool _tokenConditionInitialized;
-    _Bool _completionHandlerConditionInitialized;
-    id <MTL4Compiler> _compiler;
+    struct _opaque_pthread_mutex_t {
+        long long __sig;
+        char __opaque[56];
+    } _statusMutex;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,20 +25,12 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)MTL4RenderCommandEncoderSPI;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly) id <MTL4Compiler> compiler; // @synthesize compiler=_compiler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

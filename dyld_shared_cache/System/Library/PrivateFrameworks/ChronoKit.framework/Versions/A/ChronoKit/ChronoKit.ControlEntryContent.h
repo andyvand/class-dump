@@ -7,8 +7,6 @@
 @interface ChronoKit.ControlEntryContent
 {
     id archive;
-    id hasDeveloperError;
-    id urlAttributes;
 }
 
 @end

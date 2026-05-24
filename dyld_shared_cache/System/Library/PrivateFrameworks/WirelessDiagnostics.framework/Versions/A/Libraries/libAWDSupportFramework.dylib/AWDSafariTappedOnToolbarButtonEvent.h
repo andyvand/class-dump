@@ -7,12 +7,9 @@
 @interface AWDSafariTappedOnToolbarButtonEvent
 {
     unsigned long long _timestamp;
-    int _button;
-    _Bool _usedLongTap;
-    CDStruct_9b2e609f _has;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -30,19 +27,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (id);
 - (void);
 - (int)aChannel;
 
 // Remaining properties
-@property(nonatomic) int button; // @synthesize button=_button;
-@property(nonatomic) _Bool hasButton;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUsedLongTap;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool usedLongTap; // @synthesize usedLongTap=_usedLongTap;
 
 @end
 

@@ -7,11 +7,10 @@
 @interface JetEngine.Unstable.Accounts
 {
     id backingStore;
-    id _activeiTunesAccount;
 }
 
-- (void);
-- (void);
+- (void)@"AFSiriActivationResult">;
+- (void)zR;
 
 @end
 

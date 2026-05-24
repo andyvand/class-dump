@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GEOConfigKeyHelper
 {
     id _lastValue;
-    long long _keySource;
-    NSNumber *_keyNumber;
-    NSString *_keyString;
-    CDStruct_065526f1 configKey;
 }
 
 - (id);

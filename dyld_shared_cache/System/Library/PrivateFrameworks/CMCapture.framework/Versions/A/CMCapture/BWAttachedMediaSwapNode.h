@@ -6,14 +6,11 @@
 
 #import <CMCapture/BWNode.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BWAttachedMediaSwapNode : BWNode
 {
     NSString *_primaryFormatToAttachedMediaKey;
-    NSString *_attachedMediaKeyToPrimaryFormat;
-    NSArray *_sampleBufferAttachmentsToTransfer;
-    _Bool _generatesDroppedSampleMarkerBuffers;
 }
 
 + (void)eStreams:] /* Error: Ran out of types for this method. */;

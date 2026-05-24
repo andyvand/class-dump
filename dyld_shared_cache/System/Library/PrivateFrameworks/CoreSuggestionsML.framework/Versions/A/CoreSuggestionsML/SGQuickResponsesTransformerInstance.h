@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGModelSampler, SGModelSource, SGQuickResponsesConfig;
-@protocol PMLTransformerProtocol;
+@class SGQuickResponsesConfig;
 
 @interface SGQuickResponsesTransformerInstance
 {
     SGQuickResponsesConfig *_config;
-    id <PMLTransformerProtocol> _featurizer;
-    SGModelSource *_source;
-    id <PMLTransformerProtocol> _labeler;
-    SGModelSampler *_sampler;
 }
 
 - (id);
 - (id);
+- (id)o decode did not have 16 bytes; aborting.;
+- (id)setRecommendedNetworks: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)subarrayWithRange: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SGQuickResponsesConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) id <PMLTransformerProtocol> featurizer; // @synthesize featurizer=_featurizer;
-@property(readonly, nonatomic) id <PMLTransformerProtocol> labeler; // @synthesize labeler=_labeler;
-@property(readonly, nonatomic) SGModelSampler *sampler; // @synthesize sampler=_sampler;
-@property(readonly, nonatomic) SGModelSource *source; // @synthesize source=_source;
 
 @end
 

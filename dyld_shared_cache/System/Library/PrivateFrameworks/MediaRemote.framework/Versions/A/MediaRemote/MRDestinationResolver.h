@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVEndpoint, MRAVEndpointObserver, MRDestination, MRDestinationResolverDependencies, MROrigin, MRPlayerPath, MSVVariableIntervalTimer, NSObject, NSString;
-@protocol MRDestinationResolverDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MRDestinationResolver
 {
     _Bool _resolving;
-    _Bool _registeredForNotifications;
-    _Bool _registeredForEndpointChanges;
-    _Bool _registeredForEndpointInvalidations;
-    _Bool _registeredForPlayerPathInvalidations;
-    MRDestination *_destination;
-    id <MRDestinationResolverDelegate> _delegate;
-    NSString *_label;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    MRDestinationResolverDependencies *_dependencies;
-    id _playerPathInvalidationObserver;
-    MRAVEndpointObserver *_endpointObserver;
-    NSString *_endpointObserverGroupUID;
-    MRDestination *_originalDestination;
-    MRAVEndpoint *_delegateEndpoint;
-    MROrigin *_delegateOrigin;
-    MRPlayerPath *_delegatePlayerPath;
-    MRAVEndpoint *_resolvingEndpoint;
-    MRPlayerPath *_resolvingPlayerPath;
-    MSVVariableIntervalTimer *_reconRetryTimer;
-    MSVVariableIntervalTimer *_connectionRetryTimer;
 }
 
 + (void);
@@ -62,17 +41,17 @@
 - (id);
 - (void);
 - (void);
+- (void)Z;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void):(id)arg1 ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -94,7 +73,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)R_;
 - (void);
 - (id);
 - (void);
@@ -105,10 +84,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithDuration:animationCurve: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (void)FallbackHashIsContentBased;
+- (id)D;
 - (_Bool);
 - (id);
 - (void);
@@ -127,27 +106,6 @@
 - (void)gPlayerClientRequests] %{public}@ UpdatingCache:(id)arg1 clearing contentItemArtwork for %@;
 
 // Remaining properties
-@property(retain, nonatomic) MSVVariableIntervalTimer *connectionRetryTimer; // @synthesize connectionRetryTimer=_connectionRetryTimer;
-@property(nonatomic) __weak id <MRDestinationResolverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) MRAVEndpoint *delegateEndpoint; // @synthesize delegateEndpoint=_delegateEndpoint;
-@property(retain, nonatomic) MROrigin *delegateOrigin; // @synthesize delegateOrigin=_delegateOrigin;
-@property(retain, nonatomic) MRPlayerPath *delegatePlayerPath; // @synthesize delegatePlayerPath=_delegatePlayerPath;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(retain, nonatomic) MRDestinationResolverDependencies *dependencies; // @synthesize dependencies=_dependencies;
-@property(readonly, copy, nonatomic) MRDestination *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) MRAVEndpointObserver *endpointObserver; // @synthesize endpointObserver=_endpointObserver;
-@property(retain, nonatomic) NSString *endpointObserverGroupUID; // @synthesize endpointObserverGroupUID=_endpointObserverGroupUID;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) MRDestination *originalDestination; // @synthesize originalDestination=_originalDestination;
-@property(retain, nonatomic) id playerPathInvalidationObserver; // @synthesize playerPathInvalidationObserver=_playerPathInvalidationObserver;
-@property(retain, nonatomic) MSVVariableIntervalTimer *reconRetryTimer; // @synthesize reconRetryTimer=_reconRetryTimer;
-@property(nonatomic) _Bool registeredForEndpointChanges; // @synthesize registeredForEndpointChanges=_registeredForEndpointChanges;
-@property(nonatomic) _Bool registeredForEndpointInvalidations; // @synthesize registeredForEndpointInvalidations=_registeredForEndpointInvalidations;
-@property(nonatomic) _Bool registeredForNotifications; // @synthesize registeredForNotifications=_registeredForNotifications;
-@property(nonatomic) _Bool registeredForPlayerPathInvalidations; // @synthesize registeredForPlayerPathInvalidations=_registeredForPlayerPathInvalidations;
-@property(nonatomic) _Bool resolving; // @synthesize resolving=_resolving;
-@property(retain, nonatomic) MRAVEndpoint *resolvingEndpoint; // @synthesize resolvingEndpoint=_resolvingEndpoint;
-@property(retain, nonatomic) MRPlayerPath *resolvingPlayerPath; // @synthesize resolvingPlayerPath=_resolvingPlayerPath;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end

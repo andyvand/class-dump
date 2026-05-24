@@ -7,7 +7,6 @@
 @interface PIHeadroomSettings
 {
     _Bool _useSoftLightBlendingModeForTopGradient;
-    double _blurMaskTopLocation;
 }
 
 + (id)fectivePreferredRect:validBoundsNormalized:headroomFeasible:hasTopEdgeContact:shouldConstrainLayoutToBounds:computeSpatial:spatialPadding:layoutType:allowedLayoutStrategies:layoutConfiguration: /* Error: Ran out of types for this method. */;
@@ -18,7 +17,7 @@
 - (double);
 - (double);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +41,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
 - (double);
@@ -55,32 +54,11 @@
 - (double);
 - (double);
 - (double);
-- (void);
+- (void)ontact linking:(double)arg1 %{bool}d;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double aperture;
-@property(nonatomic) double blurMaskTopLocation; // @synthesize blurMaskTopLocation=_blurMaskTopLocation;
 @property(nonatomic) double blurRadius;
-@property(nonatomic) double bottomGradientAlpha;
-@property(nonatomic) double bottomGradientBottomLocation;
-@property(nonatomic) double bottomGradientTopLocation;
-@property(nonatomic) double center;
-@property(nonatomic) double depthBottom;
-@property(nonatomic) double depthTop;
-@property(nonatomic) double falloffHeight;
-@property(nonatomic) double gradientHeight;
-@property(nonatomic) double gradientWhite;
-@property(nonatomic) double highKeyGradientWhite;
-@property(nonatomic) double noise;
-@property(nonatomic) double topGradientAlpha;
-@property(nonatomic) double topGradientBottomLocation;
-@property(nonatomic) double topGradientTopLocation;
-@property(nonatomic) _Bool useLinearBlur;
-@property(nonatomic) _Bool useSoftLightBlendingModeForTopGradient; // @synthesize useSoftLightBlendingModeForTopGradient=_useSoftLightBlendingModeForTopGradient;
-@property(nonatomic) double vignetteFalloff;
-@property(nonatomic) double vignetteIntensity;
-@property(nonatomic) double vignetteRad;
 
 @end
 

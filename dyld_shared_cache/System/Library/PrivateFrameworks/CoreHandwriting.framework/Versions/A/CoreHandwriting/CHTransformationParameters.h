@@ -7,29 +7,15 @@
 @interface CHTransformationParameters
 {
     _Bool _mergeLines;
-    _Bool _wrapLines;
-    unsigned long long _orientationBehavior;
-    double _orientationTarget;
-    double _italicsModifier;
-    double _boldModifier;
-    unsigned long long _resizeBehavior;
-    unsigned long long _textSizeTarget;
-    double _textSizeModifier;
-    unsigned long long _alignmentBehavior;
-    unsigned long long _leftMargin;
-    unsigned long long _rightMargin;
-    unsigned long long _lineSpaceBehavior;
-    unsigned long long _lineSpaceTarget;
-    struct CGPoint _insertionPoint;
 }
 
-- (_Bool);
-- (unsigned long long);
-- (double);
+- (_Bool);
+- (unsigned long long)&.B#.B`B!.B%.B`B;
+- (double)0;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -57,21 +43,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alignmentBehavior; // @synthesize alignmentBehavior=_alignmentBehavior;
-@property(nonatomic) double boldModifier; // @synthesize boldModifier=_boldModifier;
-@property(nonatomic) struct CGPoint insertionPoint; // @synthesize insertionPoint=_insertionPoint;
-@property(nonatomic) double italicsModifier; // @synthesize italicsModifier=_italicsModifier;
-@property(nonatomic) unsigned long long leftMargin; // @synthesize leftMargin=_leftMargin;
-@property(nonatomic) unsigned long long lineSpaceBehavior; // @synthesize lineSpaceBehavior=_lineSpaceBehavior;
-@property(nonatomic) unsigned long long lineSpaceTarget; // @synthesize lineSpaceTarget=_lineSpaceTarget;
-@property(nonatomic) _Bool mergeLines; // @synthesize mergeLines=_mergeLines;
 @property(nonatomic) unsigned long long orientationBehavior; // @synthesize orientationBehavior=_orientationBehavior;
-@property(nonatomic) double orientationTarget; // @synthesize orientationTarget=_orientationTarget;
-@property(nonatomic) unsigned long long resizeBehavior; // @synthesize resizeBehavior=_resizeBehavior;
-@property(nonatomic) unsigned long long rightMargin; // @synthesize rightMargin=_rightMargin;
-@property(nonatomic) double textSizeModifier; // @synthesize textSizeModifier=_textSizeModifier;
-@property(nonatomic) unsigned long long textSizeTarget; // @synthesize textSizeTarget=_textSizeTarget;
-@property(nonatomic) _Bool wrapLines; // @synthesize wrapLines=_wrapLines;
 
 @end
 

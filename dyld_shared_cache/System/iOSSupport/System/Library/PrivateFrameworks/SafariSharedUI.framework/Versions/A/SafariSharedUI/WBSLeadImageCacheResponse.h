@@ -15,9 +15,9 @@
 
 + (id);
 - (id);
+- (id)updateStartAndEndDates:(id)arg1 end: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)erWithNumberOfTrackers:privateBrowsingEnabled:privacyReportData:selectionHandler: /* Error: Ran out of types for this method. */;
+- (void)privacyReportBannerWithNumberOfTrackers:privateBrowsingEnabled:privacyReportData:selectionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *thumbnail; // @synthesize thumbnail=_thumbnail;

@@ -10,35 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _NSDisplayFadeAndCaptureAnimation : NSAnimation
 {
     unsigned long long _displayCount;
-    unsigned int *_displays;
-    struct {
-        float _field1;
-        float _field2;
-        float _field3;
-        float _field4;
-        float _field5;
-        float _field6;
-        float _field7;
-        float _field8;
-        float _field9;
-    } *_gammas;
-    _Bool _fadeOut;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)unsupported public key length:(_Bool)arg1 %lu;
+- (_Bool)RTED;
+- (void)4;
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void)that the following bars (closer to first responder) are suppressed: /* Error: Ran out of types for this method. */;
 - (void)gGGAHGGØDhSgGGAN_G;
-- (void)ey;
+- (void)NSWorkspaceVolumeLocalizedNameKey;
 - (void)MenuAttrHidden, 0);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property _Bool fadeOut; // @synthesize fadeOut=_fadeOut;
 
 @end

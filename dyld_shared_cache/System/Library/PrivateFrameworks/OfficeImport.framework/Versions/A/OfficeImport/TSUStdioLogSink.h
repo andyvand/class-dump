@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TSUStdioLogSink
 {
     NSObject<OS_dispatch_queue> *_logQueue;
-    NSDateFormatter *_dateFormatter;
 }
 
 + (id)0h;

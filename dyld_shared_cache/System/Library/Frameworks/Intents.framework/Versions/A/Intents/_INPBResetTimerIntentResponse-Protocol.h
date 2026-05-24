@@ -7,9 +7,10 @@
 @class NSArray;
 
 @protocol _INPBResetTimerIntentResponse
++ (Class);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *resetTimers;
-@property(readonly, nonatomic) unsigned long long resetTimersCount;
 @end
 

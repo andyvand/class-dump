@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ABCPbSigConfigWhitelist
 {
     NSString *_build;
-    NSString *_buildVariant;
-    NSString *_deviceModel;
-    int _globalDecision;
-    NSMutableArray *_sigConfigs;
-    CDStruct_121d7f17 _has;
 }
 
 + (Class);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (int);
@@ -33,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)TB,V_usingComplexPassphrase;
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)^;
 - (_Bool);
-- (_Bool);
+- (_Bool)%@ | Main route:(id)arg1 %@;
 - (void);
 - (id);
 - (id);
@@ -51,15 +46,7 @@ __attribute__((visibility("hidden")))
 - (id)LiaisonDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *build; // @synthesize build=_build;
-@property(retain, nonatomic) NSString *buildVariant; // @synthesize buildVariant=_buildVariant;
-@property(retain, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(nonatomic) int globalDecision; // @synthesize globalDecision=_globalDecision;
-@property(readonly, nonatomic) _Bool hasBuild;
-@property(readonly, nonatomic) _Bool hasBuildVariant;
-@property(readonly, nonatomic) _Bool hasDeviceModel;
 @property(nonatomic) _Bool hasGlobalDecision;
-@property(retain, nonatomic) NSMutableArray *sigConfigs; // @synthesize sigConfigs=_sigConfigs;
 
 @end
 

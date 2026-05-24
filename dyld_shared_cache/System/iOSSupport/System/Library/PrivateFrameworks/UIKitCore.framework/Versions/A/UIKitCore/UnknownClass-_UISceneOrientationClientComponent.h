@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISceneScrollPocketClientComponent, _UISceneZoomTransitionClientComponent, _UIViewServiceClientSceneComponent;
-@protocol _UIFBSSceneCatalystClient, _UISceneLayoutPreferencesControlling, _UISceneOrientationClientComponent;
+@protocol _UISceneOrientationClientComponent;
 
 @interface UnknownClass (_UISceneOrientationClientComponent)
-- (void);
-- (void);
+- (void)It is possible to use the Dominent phone number alias, thats awesome, lets go for it;
+- (void)e the Dominent phone number one if possible ;
+- (id)oreduet says to defer syncing;
+- (id)p. ***;
+- (id)%@;
+- (id)ng chat isFiltered failed, nil chat guid;
+- (id)t;
+- (_Bool)ght with error %@;
+- (_Bool)ge with not donated status;
+- (id)ll IMDChats;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,11 +27,6 @@
 - (id)ld not get user activity for UUID %@, error is %@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UISceneLayoutPreferencesControlling> _ui_layoutPreferencesController;
-@property(readonly, nonatomic) _UIViewServiceClientSceneComponent *_viewServiceComponent;
-@property(readonly, nonatomic) id <_UIFBSSceneCatalystClient> macCatalystComponent;
 @property(readonly, nonatomic) id <_UISceneOrientationClientComponent> ui_orientationClientSceneComponent;
-@property(readonly, nonatomic) _UISceneScrollPocketClientComponent *ui_scrollPocket;
-@property(readonly, nonatomic) _UISceneZoomTransitionClientComponent *ui_zoomTransitionComponent;
 @end
 

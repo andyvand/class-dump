@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, NSMutableArray;
+@class NSMutableArray;
 
 @interface ABShowAsCommand
 {
     NSMutableArray *_selectedMembers;
-    ABGroup *_selectedGroup;
-    long long _personType;
 }
 
 - (id);

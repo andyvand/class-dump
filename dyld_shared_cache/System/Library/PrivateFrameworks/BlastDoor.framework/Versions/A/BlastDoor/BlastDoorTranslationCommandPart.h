@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorTranslationCommandPart
 {
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long index;
-@property(nonatomic, readonly) NSAttributedString *string;
 
 @end
 

@@ -12,22 +12,22 @@ __attribute__((visibility("hidden")))
     double _componentWidth;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (long long);
 - (double);
 - (long long);
 - (void);
 - (id);
-- (void);
-- (struct _NSRange);
-- (long long);
+- (void)removeParticipants: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)otcUtilities;
+- (long long)initWithAccount:(unsigned long long)arg1;
+- (unsigned long long)historicalMessageGUIDsDeleted:(unsigned long long)arg1 chatGUIDs:queryID: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)createAndPersistLivePhotoBundleIfNecessary;
+- (long long)_messageRequestsServiceForSendingBypass:(long long)arg1;
+- (id)ngsManager;
+- (_Bool)[$]p^;
+- (_Bool)};
 - (id);
 - (double)ateSequenceItemInternal=}40@0:8r*16^v24@?32 /* Error: Ran out of types for this method. */;
 - (id)high risk of a layout feedback loop when built on iOS 13.0 or later. Problem occurs for %@;

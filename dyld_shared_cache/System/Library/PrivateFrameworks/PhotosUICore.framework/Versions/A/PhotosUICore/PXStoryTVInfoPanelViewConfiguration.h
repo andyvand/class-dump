@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryViewModel;
+@class PXStoryViewModel;
 
 @interface PXStoryTVInfoPanelViewConfiguration
 {
@@ -14,22 +14,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)title:(struct _NSZone *)arg1;
+- (id)setShowSubtitle:(struct _NSZone *)arg1;
 - (void)lyÿP@yÿx@yÿchromeVideoControlsEDRBoost;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(retain, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

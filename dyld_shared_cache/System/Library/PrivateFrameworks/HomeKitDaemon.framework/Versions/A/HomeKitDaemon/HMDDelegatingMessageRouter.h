@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSArray, NSString;
+@class HMFMessageDispatcher;
 @protocol HMDDelegatingMessageRouterDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDDelegatingMessageRouter
 {
     id <HMDDelegatingMessageRouterDataSource> _dataSource;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSArray *_routers;
 }
 
 + (id)gUÿNZ;
-- (void);
-- (void);
+- (void)SharedTripCapabilityType_Invalid. Exiting Early.;
+- (void)tactController] shareWithContactValue called for handle %@ with MSPSharedTripCapabilityType_Invalid. Exiting Early.;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)gnosticInfoVersion;
+- (void)accessoryDiagnosticInfoVersion;
 - (id);
 
 // Remaining properties
-@property __weak id <HMDDelegatingMessageRouterDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) NSArray *routers; // @synthesize routers=_routers;
-@property(readonly) Class superclass;
 
 @end
 

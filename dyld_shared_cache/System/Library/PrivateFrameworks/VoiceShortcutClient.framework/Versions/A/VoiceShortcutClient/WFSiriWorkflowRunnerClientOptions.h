@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WFSiriWorkflowRunnerClientOptions
 {
     _Bool _isOwnedByCurrentUser;
-    _Bool _disableSiriBehavior;
-    NSArray *_airPlayRouteIDs;
-    long long _executionContext;
-    NSString *_originatingDeviceIDSIdentifier;
-    NSString *_originatingDeviceRapportEffectiveIdentifier;
-    NSString *_originatingDeviceRapportMediaSystemIdentifier;
-    long long _currentDeviceIdiom;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (_Bool)Y%{;
+- (long long)z;
 - (id);
-- (_Bool);
-- (long long);
 - (id);
-- (id);
-- (long long);
-- (void);
+- (long long)vices23InvocationModelIdentity";
+- (void)account:(id)arg1 willPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *airPlayRouteIDs; // @synthesize airPlayRouteIDs=_airPlayRouteIDs;
-@property(nonatomic) long long currentDeviceIdiom; // @synthesize currentDeviceIdiom=_currentDeviceIdiom;
-@property(readonly, nonatomic) _Bool disableSiriBehavior; // @synthesize disableSiriBehavior=_disableSiriBehavior;
-@property(readonly, nonatomic) long long executionContext; // @synthesize executionContext=_executionContext;
-@property(readonly, nonatomic) _Bool isOwnedByCurrentUser; // @synthesize isOwnedByCurrentUser=_isOwnedByCurrentUser;
-@property(readonly, copy, nonatomic) NSString *originatingDeviceIDSIdentifier; // @synthesize originatingDeviceIDSIdentifier=_originatingDeviceIDSIdentifier;
-@property(readonly, copy, nonatomic) NSString *originatingDeviceRapportEffectiveIdentifier; // @synthesize originatingDeviceRapportEffectiveIdentifier=_originatingDeviceRapportEffectiveIdentifier;
-@property(readonly, copy, nonatomic) NSString *originatingDeviceRapportMediaSystemIdentifier; // @synthesize originatingDeviceRapportMediaSystemIdentifier=_originatingDeviceRapportMediaSystemIdentifier;
 
 @end
 

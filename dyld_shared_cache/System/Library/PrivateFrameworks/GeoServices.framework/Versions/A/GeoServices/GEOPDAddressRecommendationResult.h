@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)#	c;
 - (_Bool);
 - (id)t"b1"has_speedKph"b1"has_startOffset"b1"has_hidden"b1"read_geoIds"b1"read_openlr"b1"read_predictedSpeeds"b1"wrote_anyField"b1};
 - (id)equestPriority;

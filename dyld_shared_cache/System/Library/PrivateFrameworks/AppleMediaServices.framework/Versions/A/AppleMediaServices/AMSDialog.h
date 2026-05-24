@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AMSDialog
 {
     NSObject<OS_dispatch_queue> *_systemDialogQueue;
-    NSArray *_buttons;
-    CDUnknownBlockType _completionHandler;
-    NSImage *_icon;
-    NSString *_message;
-    long long _selectedButtonIndex;
-    long long _style;
-    NSArray *_textFields;
-    NSString *_title;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (long long);
+- (long long)A;
 - (void);
 - (void);
 - (void);
@@ -36,9 +28,9 @@
 - (id);
 - (long long);
 - (void);
+- (void)NewConversationReceivedResponse;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ntItem"8Q16^B24;
 - (id);
 - (void);
 - (id);
@@ -56,13 +48,6 @@
 
 // Remaining properties
 @property(copy) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy) NSImage *icon; // @synthesize icon=_icon;
-@property(copy) NSString *message; // @synthesize message=_message;
-@property long long selectedButtonIndex; // @synthesize selectedButtonIndex=_selectedButtonIndex;
-@property long long style; // @synthesize style=_style;
-@property(copy) NSArray *textFields; // @synthesize textFields=_textFields;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

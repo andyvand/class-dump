@@ -4,40 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMeasurement, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VGExternalAccessoryState
 {
     NSString *_displayName;
-    NSString *_mapsDisplayName;
-    _Bool _isCharging;
-    NSString *_name;
-    NSString *_manufacturer;
-    NSString *_model;
-    NSString *_year;
-    NSString *_colorHex;
-    NSMeasurement *_currentEVRange;
-    NSMeasurement *_maxEVRange;
-    NSString *_consumptionArguments;
-    NSString *_chargingArguments;
-    NSNumber *_batteryCharge;
-    NSMeasurement *_minBatteryCapacity;
-    NSMeasurement *_currentBatteryCapacity;
-    NSMeasurement *_maxBatteryCapacity;
-    NSNumber *_supportedConnectors;
-    NSNumber *_activeConnector;
-    NSDictionary *_powerByConnector;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -53,11 +35,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)TO;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (id);
 - (_Bool);
 - (id);
@@ -67,23 +49,7 @@ __attribute__((visibility("hidden")))
 - (id)ø$p&L*°+,-¨.Ô37d8:È?CCFLI$JôN /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *activeConnector; // @synthesize activeConnector=_activeConnector;
-@property(retain, nonatomic) NSNumber *batteryCharge; // @synthesize batteryCharge=_batteryCharge;
-@property(retain, nonatomic) NSString *chargingArguments; // @synthesize chargingArguments=_chargingArguments;
-@property(retain, nonatomic) NSString *colorHex; // @synthesize colorHex=_colorHex;
-@property(retain, nonatomic) NSString *consumptionArguments; // @synthesize consumptionArguments=_consumptionArguments;
-@property(retain, nonatomic) NSMeasurement *currentBatteryCapacity; // @synthesize currentBatteryCapacity=_currentBatteryCapacity;
-@property(retain, nonatomic) NSMeasurement *currentEVRange; // @synthesize currentEVRange=_currentEVRange;
-@property(readonly, nonatomic) _Bool isCharging; // @synthesize isCharging=_isCharging;
-@property(retain, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(retain, nonatomic) NSMeasurement *maxBatteryCapacity; // @synthesize maxBatteryCapacity=_maxBatteryCapacity;
-@property(retain, nonatomic) NSMeasurement *maxEVRange; // @synthesize maxEVRange=_maxEVRange;
-@property(retain, nonatomic) NSMeasurement *minBatteryCapacity; // @synthesize minBatteryCapacity=_minBatteryCapacity;
-@property(retain, nonatomic) NSString *model; // @synthesize model=_model;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSDictionary *powerByConnector; // @synthesize powerByConnector=_powerByConnector;
-@property(nonatomic) NSNumber *supportedConnectors; // @synthesize supportedConnectors=_supportedConnectors;
-@property(retain, nonatomic) NSString *year; // @synthesize year=_year;
 
 @end
 

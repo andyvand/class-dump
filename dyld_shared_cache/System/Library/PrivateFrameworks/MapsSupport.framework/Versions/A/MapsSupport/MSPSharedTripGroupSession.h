@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSArray, NSMutableSet, NSObject, NSString;
-@protocol MSPSharedTripGroupSessionDelegate, OS_os_transaction;
-
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripGroupSession
 {
     _Bool _joined;
-    NSString *_joinedFromHandle;
-    NSString *_joinedFromAccountIdentifier;
-    _Bool _initiator;
-    NSString *_groupID;
-    unsigned long long _nbClients;
-    NSMutableSet *_liveModeParticipantIdentifiers;
-    IDSService *_sharingIDSService;
-    NSMutableSet *_identifiers;
-    NSObject<OS_os_transaction> *_transaction;
-    NSString *_initiatorIdentifier;
-    NSString *_initiatorDisplayName;
-    id <MSPSharedTripGroupSessionDelegate> _delegate;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -55,12 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accountIdentifiers;
-@property(nonatomic) __weak id <MSPSharedTripGroupSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) _Bool inLiveMode;
-@property(copy, nonatomic) NSString *initiatorDisplayName; // @synthesize initiatorDisplayName=_initiatorDisplayName;
-@property(readonly, nonatomic) NSString *initiatorIdentifier; // @synthesize initiatorIdentifier=_initiatorIdentifier;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
-
 @interface IMDRecordBatchFetcher
 {
     id *_fastEnumerationBuffer;
-    unsigned long long _fastEnumerationBufferSize;
-    NSArray *_fastEnumerationLastBatch;
-    unsigned long long _batchSize;
-    NSPredicate *_predicate;
-    long long _lastRowID;
 }
 
 - (void);
@@ -30,9 +23,7 @@
 - (unsigned long long)4;
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
 @property(nonatomic) long long lastRowID; // @synthesize lastRowID=_lastRowID;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 
 @end
 

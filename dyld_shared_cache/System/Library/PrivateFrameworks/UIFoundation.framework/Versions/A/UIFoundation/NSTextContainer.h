@@ -4,45 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSLayoutManager, NSTextLayoutManager, NSTextViewportLayoutController, NSView;
-@protocol NSTextContainerView;
+@class NSLayoutManager;
 
 @interface NSTextContainer
 {
     NSLayoutManager *_layoutManager;
-    NSView<NSTextContainerView> *_textView;
-    struct CGSize _size;
-    double _lineFragmentPadding;
-    unsigned long long _maximumLines;
-    struct __tcFlags {
-        unsigned int widthTracksTextView:1;
-        unsigned int heightTracksTextView:1;
-        unsigned int observingFrameChanges:1;
-        unsigned int lineBreakMode:4;
-        unsigned int oldAPI:1;
-        unsigned int _reserved:8;
-    } _tcFlags;
-    NSTextLayoutManager *_textLayoutManager;
-    NSArray *_exclusionPaths;
-    struct CGPath *_cachedBoundingPath;
-    struct __CFArray *_cachedClippingAttributes;
-    struct __CFArray *_cachedBounds;
-    double _cacheBoundsMinY;
-    double _cacheBoundsMaxY;
-    double _minimumWidth;
-    long long _layoutOrientation;
-    NSDictionary *_attributesForExtraLineFragment;
-    long long _applicationFrameworkContext;
-    _Bool _textViewSupportsAdaptiveColor;
-    _Bool _textViewSupportsDowngrade;
-    _Bool _textViewHasDefaultParagraphStyle;
-    _Bool _textViewHasLinkTextAttributes;
-    _Bool _textViewHasHighlightAttributes;
-    NSTextViewportLayoutController *_textViewportLayoutController;
 }
 
 + (_Bool);
-+ (void)AdaptiveImageGlyph:attributes: /* Error: Ran out of types for this method. */;
++ (void)attributedStringWithAdaptiveImageGlyph:attributes: /* Error: Ran out of types for this method. */;
 
 @end
 

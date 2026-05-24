@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailHashtagEditorModelObject
 {
     id presenter;
-    id _hashtagLabels;
-    id _selectedHashtagLabels;
-    id _$observationRegistrar;
 }
 
 @end

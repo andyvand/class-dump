@@ -5,6 +5,7 @@
 //
 
 @protocol MKAnnotationContainerViewDelegate
-- (struct CLLocationCoordinate2D)wsIfNeeded;
+- (struct CGRect);
+- (struct CLLocationCoordinate2D)_setupCustomFeaturesForAnnotationViewsIfNeeded;
 @end
 

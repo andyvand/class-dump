@@ -12,14 +12,12 @@
 @interface EKExpandedReminderStackDismissingLayout : EKExpandedReminderStackLayout
 {
     NSObject<OS_dispatch_group> *_animationDispatchGroup;
-    CDUnknownBlockType _completionHandler;
-    _Bool _executedCompletionHandler;
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (void)art1: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1;
+- (CDUnknownBlockType)';
+- (void)setStrikethroughPart1: /* Error: Ran out of types for this method. */;
+- (id)_setupDeleteAlertForEvents:(id)arg1;
 - (id)»êÿçÞ_,;
 
 @end

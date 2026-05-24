@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NWPBServiceEndpoint
 {
     NSString *_domain;
-    NSString *_name;
-    NSString *_type;
 }
 
 - (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)xternallyVisibleActivityUUID;
+- (id)_externallyVisibleActivityUUID;
 - (id)o;
 - (void)@;
 

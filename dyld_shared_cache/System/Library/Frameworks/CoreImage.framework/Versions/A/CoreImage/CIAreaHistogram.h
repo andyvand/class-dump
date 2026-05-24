@@ -6,21 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIAreaHistogram : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputExtent;
-    NSNumber *inputScale;
-    NSNumber *inputCount;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)@-;
 - (struct IRect);
 - (_Bool);
 - (void);
@@ -34,10 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)_heiqqqqzzzz[og|fuowfsqussssrrrrWc]k\b[kzzzzvtmvNg_r|xxxxhhhh]a\aZa\hUigudwz}yyyy_jjjASLXNNEN@OGR`b`bgxxx|¦¦¦¦¨¨¨¨    [qlxeurvu||||llilR_Ya\\\\NXPYHSI\ad^hXlhseokx{yx|||||ttttnnnnopkq]soz||z|]kesbhbkhhhhcccc?XObZlix¤¤¤¤MVM[PPNP````xxxxmmimFRDXNPBSbb_byyyyrjjjjGXO[[[[[M_Xd[lhs´´´´····vKj_yllbl\i^qfxti~|j|zl§§§§¸¸¸¸ÆÆÆÆÄÃÉÉ¤·½½XjbsIO@\`bZe^tsxl}|yyyyuuuu~~~~swwwwUfahggggppppwwwwttttZieiRZQ^TZP^ajhjtttthplqmmlmllllhhhh^^^^UUSUEUNWaaaaffffggggXe`jAa[q\tswwwwcccc__V_Zlin}}}}wzzzTnluk{zqpizgws]mexJVHeYaXfoooorrrrxupxªªªª´´´´¤¤¤¤izq~bvq~Nf[t}}{}¤¤¤¤¥£¥¥d}}{{{{eqorOc_kggggbbbbcdbdqqqq}}}}~~~~yyyyiiiiW[R^`c[fr|y¢¢¢ºººº¸¸¸¸¦¦¦¦ssqsJXM`ZSDZQ\QduusupWwwlojySkfw[ro{}}}}ttrt:WGlGh^}¤¤¤¤ktqyqtqvQf`ogbZittttt}{y}nzy~drosekhk]jgjjlllllllbbbbBQJR7G<N____wwww{{{{\iejhhhhvvvvoluqyYleuoxt{Yne{Kh]z}xnqxt~zzvz|xt|q{yyywy7PAfVcZn /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputCount; // @synthesize inputCount;
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
 
 @end
 

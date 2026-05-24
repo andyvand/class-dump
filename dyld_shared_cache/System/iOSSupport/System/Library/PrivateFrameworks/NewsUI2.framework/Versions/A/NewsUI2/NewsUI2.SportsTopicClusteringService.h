@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsTopicClusteringService
 {
     id headlineService;
-    id tagService;
-    id personalizationService;
-    id subscriptionController;
 }
 
 @end

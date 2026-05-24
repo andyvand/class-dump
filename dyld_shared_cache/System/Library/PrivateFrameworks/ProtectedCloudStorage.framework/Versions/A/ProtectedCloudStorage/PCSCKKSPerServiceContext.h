@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PCSCKKSPerServiceContext
 {
     struct __CFDictionary *_rollAttributes;
-    _Bool _roll;
-    _Bool _returnedExistingIdentity;
-    int _retryLeftCount;
-    NSString *_service;
-    struct _PCSIdentityData *_currentIdentity;
-    NSData *_currentItemReference;
-    NSData *_existingItemReference;
-    NSData *_existingItemSHA1;
-    struct _PCSIdentityData *_rollIdentity;
-    NSData *_rollItemReference;
-    NSData *_rollItemSHA1;
 }
 
 - (void);
@@ -29,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -37,31 +26,21 @@
 - (struct _PCSIdentityData *);
 - (_Bool);
 - (int);
+- (void)qa;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)P;
 - (struct _PCSIdentityData *);
 - (_Bool);
-- (void);
+- (void)hite list entry path:%@ /* Error: Ran out of types for this method. */;
 - (void)tifications:(id)arg1 %lld
 ;
 
 // Remaining properties
-@property struct _PCSIdentityData *currentIdentity; // @synthesize currentIdentity=_currentIdentity;
-@property(retain) NSData *currentItemReference; // @synthesize currentItemReference=_currentItemReference;
-@property(retain) NSData *existingItemReference; // @synthesize existingItemReference=_existingItemReference;
-@property(retain) NSData *existingItemSHA1; // @synthesize existingItemSHA1=_existingItemSHA1;
-@property int retryLeftCount; // @synthesize retryLeftCount=_retryLeftCount;
-@property _Bool returnedExistingIdentity; // @synthesize returnedExistingIdentity=_returnedExistingIdentity;
-@property _Bool roll; // @synthesize roll=_roll;
-@property struct _PCSIdentityData *rollIdentity; // @synthesize rollIdentity=_rollIdentity;
-@property(retain) NSData *rollItemReference; // @synthesize rollItemReference=_rollItemReference;
-@property(retain) NSData *rollItemSHA1; // @synthesize rollItemSHA1=_rollItemSHA1;
 @property(retain) NSString *service; // @synthesize service=_service;
 
 @end

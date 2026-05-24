@@ -9,19 +9,12 @@
 @interface NEIKEv2ChildSAConfiguration
 {
     NSArray *_proposals;
-    _Bool _sequencePerTrafficClass;
-    _Bool _preferInitiatorProposalOrder;
-    _Bool _opportunisticPFS;
-    unsigned int _replayWindowSize;
-    unsigned long long _mode;
-    NSArray *_localTrafficSelectors;
-    NSArray *_remoteTrafficSelectors;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)N;
 - (void);
 - (void);
 - (void);
@@ -33,22 +26,15 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)internalLocalizedDescription;
 - (id);
 - (void);
 - (id);
-- (void)er: /* Error: Ran out of types for this method. */;
-- (id)ry;
+- (void)setPacketHandler: /* Error: Ran out of types for this method. */;
+- (id)InternalAddressExpiry;
 
 // Remaining properties
-@property(retain) NSArray *localTrafficSelectors; // @synthesize localTrafficSelectors=_localTrafficSelectors;
 @property unsigned long long mode; // @synthesize mode=_mode;
-@property _Bool opportunisticPFS; // @synthesize opportunisticPFS=_opportunisticPFS;
-@property _Bool preferInitiatorProposalOrder; // @synthesize preferInitiatorProposalOrder=_preferInitiatorProposalOrder;
-@property(retain, nonatomic) NSArray *proposals;
-@property(retain) NSArray *remoteTrafficSelectors; // @synthesize remoteTrafficSelectors=_remoteTrafficSelectors;
-@property unsigned int replayWindowSize; // @synthesize replayWindowSize=_replayWindowSize;
-@property _Bool sequencePerTrafficClass; // @synthesize sequencePerTrafficClass=_sequencePerTrafficClass;
 
 @end
 

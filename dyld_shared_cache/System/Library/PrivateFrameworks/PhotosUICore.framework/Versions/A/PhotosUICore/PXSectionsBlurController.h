@@ -7,7 +7,6 @@
 @interface PXSectionsBlurController
 {
     long long behavior;
-    id blurrableSectionsSource;
 }
 
 - (void);

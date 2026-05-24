@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PQLNameInjectionBase
 {
     unsigned long long _length;
-    char *_bytes;
 }
 
 - (void);

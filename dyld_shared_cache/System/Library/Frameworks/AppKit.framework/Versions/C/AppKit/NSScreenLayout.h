@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface NSScreenLayout
 {
     NSString *_UUIDString;
-    struct CGSize _size;
 }
 
-+ (id);
++ (id)tore]:(id)arg1 Cookie dropped since filters don't match. Cookie = %@;
 + (_Bool);
 - (id);
 - (id);
@@ -22,13 +21,12 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (id)cialCaseAttributes;
-- (id)sFirstItem:(struct _NSZone *)arg1;
+- (id)_updateSpecialCaseAttributes;
+- (id)_setIsFirstItem:(struct _NSZone *)arg1;
 - (void)x«;
 
 // Remaining properties
 @property(readonly, copy) NSString *UUIDString; // @synthesize UUIDString=_UUIDString;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)_tileRefresh;
 + (id);
-+ (id);
++ (id)d.plist;
 - (id);
 - (id);
 - (id);

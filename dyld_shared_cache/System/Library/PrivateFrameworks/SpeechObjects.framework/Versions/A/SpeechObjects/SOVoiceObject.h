@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TTSAsset;
+@class TTSAsset;
 
 @interface SOVoiceObject
 {
     TTSAsset *_voice;
-    NSMutableDictionary *_voiceAttributes;
-    unsigned long long _visibility;
-    unsigned long long _downloadStatus;
-    double _downloadPercentComplete;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 + (void);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (id);
 + (id);
@@ -49,18 +45,18 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)@0:8:16 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (void)WebExtensionContext_RuntimeWebPageSendMessage;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)ss;
 - (long long);
 - (unsigned long long);
 - (id);
@@ -68,10 +64,7 @@
 - (id);
 
 // Remaining properties
-@property double downloadPercentComplete; // @synthesize downloadPercentComplete=_downloadPercentComplete;
-@property unsigned long long downloadStatus; // @synthesize downloadStatus=_downloadStatus;
 @property unsigned long long visibility; // @synthesize visibility=_visibility;
-@property(readonly) TTSAsset *voice; // @synthesize voice=_voice;
 
 @end
 

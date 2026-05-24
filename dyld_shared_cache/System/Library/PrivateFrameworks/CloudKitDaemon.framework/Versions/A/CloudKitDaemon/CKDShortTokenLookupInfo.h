@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRoughlyEquivalentProperties, NSData, NSString;
+@class NSString;
 
 @interface CKDShortTokenLookupInfo
 {
     _Bool _shouldFetchRootRecord;
-    _Bool _forceDSRefetch;
-    NSString *_routingKey;
-    NSData *_shortSharingTokenHashData;
-    NSString *_participantID;
 }
 
 - (void);
@@ -21,9 +17,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)%{ptr}] %###s called:item [%@], afterItem [%@], completion [%{ptr}], context [%{ptr}]
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -32,12 +29,7 @@
 - (id)}@, "Received response UUID:%{public}@, but was already cancelled.  Cancelling NSURLSessionDataTask" /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;
-@property(nonatomic) _Bool forceDSRefetch; // @synthesize forceDSRefetch=_forceDSRefetch;
-@property(retain, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
 @property(retain, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) NSData *shortSharingTokenHashData; // @synthesize shortSharingTokenHashData=_shortSharingTokenHashData;
-@property(nonatomic) _Bool shouldFetchRootRecord; // @synthesize shouldFetchRootRecord=_shouldFetchRootRecord;
 
 @end
 

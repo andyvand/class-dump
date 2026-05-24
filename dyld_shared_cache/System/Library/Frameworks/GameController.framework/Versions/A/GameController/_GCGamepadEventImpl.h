@@ -4,18 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _GCGamepadEventImpl
 {
     unsigned long long _timestamp;
-    CDStruct_316e2aec _data;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)h;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,38 +54,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (float)n;
+- (float)q;
 - (float);
 - (float);
 - (float);
@@ -68,9 +67,7 @@
 - (float);
 - (float);
 - (float);
-- (float);
-- (float);
-- (float);
+- (float)o;
 - (float);
 - (float);
 - (id);
@@ -80,6 +77,9 @@
 - (float);
 - (float);
 - (float);
+- (float)d;
+- (float);
+- (float);
 - (float);
 - (float);
 - (float);
@@ -87,12 +87,9 @@
 - (float);
 - (float);
 - (float);
+- (float)8;
 - (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (float);
+- (float);
 - (float);
 - (float);
 - (float);
@@ -110,73 +107,17 @@
 - (float);
 - (float);
 - (float);
-- (float);
+- (float);
 - (void);
 - (float);
 - (float);
 - (float);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)?;
+- (id)shouldShowAccountContacts;
 - (id);
 
 // Remaining properties
-@property(nonatomic) float buttonAValue;
-@property(nonatomic) float buttonBValue;
-@property(nonatomic) float buttonBackLeftPrimary;
-@property(nonatomic) float buttonBackLeftSecondary;
-@property(nonatomic) float buttonBackRightPrimary;
-@property(nonatomic) float buttonBackRightSecondary;
-@property(nonatomic) float buttonHome;
-@property(nonatomic) float buttonLeftBumper;
-@property(nonatomic) float buttonLeftShoulder;
-@property(nonatomic) float buttonMenu;
-@property(nonatomic) float buttonOptions;
-@property(nonatomic) float buttonRightBumper;
-@property(nonatomic) float buttonRightShoulder;
-@property(nonatomic) float buttonSpecial0;
-@property(nonatomic) float buttonSpecial1;
-@property(nonatomic) float buttonSpecial10;
-@property(nonatomic) float buttonSpecial11;
-@property(nonatomic) float buttonSpecial12;
-@property(nonatomic) float buttonSpecial13;
-@property(nonatomic) float buttonSpecial14;
-@property(nonatomic) float buttonSpecial15;
-@property(nonatomic) float buttonSpecial2;
-@property(nonatomic) float buttonSpecial3;
-@property(nonatomic) float buttonSpecial4;
-@property(nonatomic) float buttonSpecial5;
-@property(nonatomic) float buttonSpecial6;
-@property(nonatomic) float buttonSpecial7;
-@property(nonatomic) float buttonSpecial8;
-@property(nonatomic) float buttonSpecial9;
-@property(nonatomic) float buttonXValue;
-@property(nonatomic) float buttonYValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float dpadDownValue;
-@property(nonatomic) float dpadLeftValue;
-@property(nonatomic) float dpadRightValue;
-@property(nonatomic) float dpadUpValue;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float leftSideButton;
-@property(nonatomic) float leftThumbstickButton;
-@property(nonatomic) float leftThumbstickDown;
-@property(nonatomic) float leftThumbstickLeft;
-@property(nonatomic) float leftThumbstickRight;
-@property(nonatomic) float leftThumbstickUp;
-@property(nonatomic) float leftTrigger;
-@property(nonatomic) float rightSideButton;
-@property(nonatomic) float rightThumbstickButton;
-@property(nonatomic) float rightThumbstickDown;
-@property(nonatomic) float rightThumbstickLeft;
-@property(nonatomic) float rightThumbstickRight;
-@property(nonatomic) float rightThumbstickUp;
-@property(nonatomic) float rightTrigger;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end

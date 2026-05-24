@@ -5,17 +5,16 @@
 //
 
 @class NSMutableDictionary;
-@protocol TSUReadChannel;
 
 @interface TSUZipArchive
 {
     NSMutableDictionary *_entries;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)fromNetwork;
+- (_Bool)purchaseController;
+- (void)feedViewStartedNewSession;
+- (void)followingView;
 - (id);
 - (id);
 - (void);
@@ -23,13 +22,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)int><NSSecureCoding>"60@0:(id)arg1 8{CGSize=dd}16@"TSDLayout"32@"<TSDHint>"40B48o^B52;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long archiveLength;
-@property(readonly, nonatomic) id <TSUReadChannel> readChannel;
 
 @end
 

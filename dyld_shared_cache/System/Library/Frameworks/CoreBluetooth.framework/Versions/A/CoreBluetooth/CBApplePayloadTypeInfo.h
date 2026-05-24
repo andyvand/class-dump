@@ -7,26 +7,22 @@
 @interface CBApplePayloadTypeInfo
 {
     unsigned char _applePayloadType;
-    BOOL _rssiThreshold;
-    unsigned char _maxAge;
 }
 
 - (void);
 - (unsigned char);
-- (id);
-- (BOOL);
-- (unsigned long long);
-- (void);
+- (id)A;
+- (BOOL)ndEvent.handover;
+- (unsigned long long)ts to go on hold;
+- (void)@;
 - (id);
 - (unsigned char);
 - (_Bool);
-- (void);
+- (void)deleteItemWithIdentifier:(id)arg1 baseVersion:options:request:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)@;
 
 // Remaining properties
 @property(nonatomic) unsigned char applePayloadType; // @synthesize applePayloadType=_applePayloadType;
-@property(nonatomic) unsigned char maxAge; // @synthesize maxAge=_maxAge;
-@property(nonatomic) BOOL rssiThreshold; // @synthesize rssiThreshold=_rssiThreshold;
 
 @end
 

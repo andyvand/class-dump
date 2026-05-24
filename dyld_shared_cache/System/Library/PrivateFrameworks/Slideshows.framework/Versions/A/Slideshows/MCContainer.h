@@ -6,15 +6,11 @@
 
 #import <Slideshows/MCObject.h>
 
-@class MCAudioPlaylist, MCPlug, NSDictionary;
+@class MCAudioPlaylist;
 
 @interface MCContainer : MCObject
 {
     unsigned short mFlags;
-    unsigned short mSpecialRetainCount;
-    MCAudioPlaylist *mAudioPlaylist;
-    NSDictionary *mInitialState;
-    MCPlug *mReferencingPlug;
 }
 
 - (void);
@@ -35,9 +31,6 @@
 
 // Remaining properties
 @property(readonly) MCAudioPlaylist *audioPlaylist; // @synthesize audioPlaylist=mAudioPlaylist;
-@property(readonly) MCAudioPlaylist *audioPlaylistCreateIfNeeded;
-@property(retain) NSDictionary *initialState; // @synthesize initialState=mInitialState;
-@property(readonly) MCPlug *referencingPlug; // @synthesize referencingPlug=mReferencingPlug;
 
 @end
 

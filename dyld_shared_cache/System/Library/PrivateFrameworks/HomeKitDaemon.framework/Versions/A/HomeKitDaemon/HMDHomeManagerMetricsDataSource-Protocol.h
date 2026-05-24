@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventCountersManager, HMDHomeManager, HMDMetricsDeviceStateManager, HMDThreadNetworkObserver, HMMDailyScheduler;
-@protocol HMMLogEventDispatching, HMMLogEventSubmitting, HMMRadarInitiating;
+@class HMDEventCountersManager, HMDHomeManager, HMDThreadNetworkObserver;
+@protocol HMMLogEventSubmitting, HMMRadarInitiating;
 
 @protocol HMDHomeManagerMetricsDataSource
+- (HMDEventCountersManager *)eHostname:] Error creating hostRef /* Error: Ran out of types for this method. */;
+- (void)P;
+- (id <HMMRadarInitiating>)ry render:error:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void)HMDSiriMultiUserNewLanguageNotificationManagerContextDelegate;
 - (HMDHomeManager *);
 - (HMDThreadNetworkObserver *)n (%@);
 - (void){public}@] Failed to retrieve the HAP accessory:(HMDHomeManager *)arg1 %@;
-- (id <HMMLogEventSubmitting>)diaSessionIdentifiersKey;
+- (id <HMMLogEventSubmitting>)kRemovedMediaSessionIdentifiersKey;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDMetricsDeviceStateManager *deviceStateManager;
 @property __weak HMDHomeManager *homeManager;
-@property(readonly, nonatomic) HMDEventCountersManager *legacyCountersManager;
-@property(readonly, nonatomic) HMMDailyScheduler *legacyDailyScheduler;
-@property(readonly, nonatomic) id <HMMLogEventDispatching> logEventDispatcher;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly, nonatomic) id <HMMRadarInitiating> radarInitiator;
-@property(readonly, nonatomic) HMDThreadNetworkObserver *threadNetworkObserver;
 @end
 

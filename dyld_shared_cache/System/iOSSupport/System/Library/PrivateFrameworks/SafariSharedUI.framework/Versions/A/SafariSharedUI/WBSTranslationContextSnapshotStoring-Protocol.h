@@ -7,6 +7,7 @@
 @class WBSTranslationContextSnapshot;
 
 @protocol WBSTranslationContextSnapshotStoring
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_safari_setTranslationContextSnapshot:) WBSTranslationContextSnapshot *_safari_translationContextSnapshot;

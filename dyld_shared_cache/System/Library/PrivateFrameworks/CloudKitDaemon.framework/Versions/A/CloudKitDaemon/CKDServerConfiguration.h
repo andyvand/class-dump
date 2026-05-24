@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary;
 
 @interface CKDServerConfiguration
 {
     NSDictionary *_values;
-    NSDate *_expiry;
-    NSMutableDictionary *_allowedAppVersionsCache;
-    long long _defaultShouldReportDeviceCapabilities;
-    long long _defaultShouldCheckDeviceCapabilities;
-    NSDictionary *_shouldReportDeviceCapabilitiesContainerOverrides;
-    NSDictionary *_shouldCheckDeviceCapabilitiesContainerOverrides;
 }
 
-- (id);
+- (id)core_WindWeatherReportItem;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (id);
@@ -32,7 +26,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -41,12 +35,12 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_inActiveUniAoS;
+- (_Bool)estamp:(id)arg1 ];
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)le_messages;
 - (unsigned long long);
 - (id);
 - (id);
@@ -59,7 +53,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)<˟;
 - (unsigned long long);
 - (long long)ÛÐ1Â0@ù
 × ;
@@ -69,19 +63,6 @@
 - (id)c}@, "Parsed a response object with no operationUUID.  Result %@";
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *allowedAppVersionsCache; // @synthesize allowedAppVersionsCache=_allowedAppVersionsCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long defaultShouldCheckDeviceCapabilities; // @synthesize defaultShouldCheckDeviceCapabilities=_defaultShouldCheckDeviceCapabilities;
-@property(nonatomic) long long defaultShouldReportDeviceCapabilities; // @synthesize defaultShouldReportDeviceCapabilities=_defaultShouldReportDeviceCapabilities;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expiry; // @synthesize expiry=_expiry;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *shouldCheckDeviceCapabilitiesContainerOverrides; // @synthesize shouldCheckDeviceCapabilitiesContainerOverrides=_shouldCheckDeviceCapabilitiesContainerOverrides;
-@property(retain, nonatomic) NSDictionary *shouldReportDeviceCapabilitiesContainerOverrides; // @synthesize shouldReportDeviceCapabilitiesContainerOverrides=_shouldReportDeviceCapabilitiesContainerOverrides;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDictionary *values; // @synthesize values=_values;
 
 @end

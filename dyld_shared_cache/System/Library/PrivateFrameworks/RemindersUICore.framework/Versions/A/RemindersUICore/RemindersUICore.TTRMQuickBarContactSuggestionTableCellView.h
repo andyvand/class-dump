@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, RemindersUICore.TTRMCNAvatarView;
-
 @interface RemindersUICore.TTRMQuickBarContactSuggestionTableCellView
 {
     id viewModel;
-    id isIndented;
-    void avatarView;
-    void avatarViewLeading;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (long long)ons (CLPlacemark) that doesn't have a name in location picker;
 
 // Remaining properties
-@property(nonatomic) __weak RemindersUICore.TTRMCNAvatarView *avatarView; // @synthesize avatarView;
-@property(nonatomic) __weak NSLayoutConstraint *avatarViewLeading; // @synthesize avatarViewLeading;
 @property(nonatomic) long long backgroundStyle;
 
 @end

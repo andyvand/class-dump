@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESProfileSliceResolutionRequestEnded, POMMESSchemaPOMMESProfileSliceResolutionRequestFailed, POMMESSchemaPOMMESProfileSliceResolutionRequestStarted, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface POMMESSchemaPOMMESProfileSliceResolutionRequestContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    POMMESSchemaPOMMESProfileSliceResolutionRequestStarted *_startedOrChanged;
-    POMMESSchemaPOMMESProfileSliceResolutionRequestEnded *_ended;
-    POMMESSchemaPOMMESProfileSliceResolutionRequestFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -35,36 +27,28 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)iginal fd %d (dup %d) for client %{public}s [%d]:(id)arg1 with errno %{errno}d;
+- (void)'%s'
+;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)RestoreApplicationsRequestResponse_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)unsuccessfuly synced attachments as needing sync;
 - (id);
 - (id);
 - (id)_requestStatus;
 - (id)_isFromResponseCache;
-- (void)YERTASKTYPE_AFFINITY;
+- (void)FLOWMEDIAPLAYERTASKTYPE_AFFINITY;
 - (void);
 - (id)À®ÖÄ#;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) POMMESSchemaPOMMESProfileSliceResolutionRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESProfileSliceResolutionRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) POMMESSchemaPOMMESProfileSliceResolutionRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchQueryContext, CSSuggestion, CSUserQueryContext, NSDictionary, NSString, OS_dispatch_queue, TUCallProviderManager;
+@class CSSearchQueryContext, OS_dispatch_queue;
 
 @interface MPSearchManager
 {
     OS_dispatch_queue *serialQueue;
     id searchItemType;
-    id kCSQueryFlags;
-    id query;
-    id userQuery;
-    id featureFlags;
-    CSUserQueryContext *userQueryContext;
-    id text;
-    void subscriptionsLabelIDByLabel;
-    CSSuggestion *suggestion;
-    TUCallProviderManager *callProviderManager;
 }
 
 - (id);
@@ -29,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -44,13 +35,8 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager;
-@property(nonatomic, readonly) NSString *logPrefix;
 @property(nonatomic, readonly) CSSearchQueryContext *queryContext;
 @property(nonatomic, readonly) OS_dispatch_queue *serialQueue; // @synthesize serialQueue;
-@property(nonatomic, copy) NSDictionary *subscriptionsLabelIDByLabel;
-@property(nonatomic, retain) CSSuggestion *suggestion; // @synthesize suggestion;
-@property(nonatomic, retain) CSUserQueryContext *userQueryContext; // @synthesize userQueryContext;
 
 @end
 

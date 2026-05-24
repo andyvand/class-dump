@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOLocationShiftFunctionResponse, NSString;
+@class GEOLocationShiftFunctionResponse;
 
 @interface GEOLocationShiftingCachedResponseFetchResponse : GEOXPCReply
 {
@@ -15,20 +15,13 @@
 
 - (id);
 - (id);
-- (_Bool);
-- (void)ex:(id)arg1 startIndex:endIndex:distanceFromStartOffset:supportPointsOnly:convertEndpointsToSupportPoints: /* Error: Ran out of types for this method. */;
-- (void)ZING;
+- (_Bool))A;
+- (void)_populateRoutingPathWithCoordinate:(id)arg1 pathIndex:startIndex:endIndex:distanceFromStartOffset:supportPointsOnly:convertEndpointsToSupportPoints: /* Error: Ran out of types for this method. */;
+- (void)VLFARGeoTrackingState_LOCALIZING;
 - (void)¡oþY5¤14;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) GEOLocationShiftFunctionResponse *function; // @synthesize function=_function;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

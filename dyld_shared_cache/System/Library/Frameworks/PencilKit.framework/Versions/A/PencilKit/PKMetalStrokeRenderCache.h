@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PKInk;
+@class NSArray, NSMutableArray;
 
 @interface PKMetalStrokeRenderCache
 {
     NSMutableArray *_buffers;
-    NSMutableArray *_secondaryBuffers;
-    unsigned long long _totalCost;
-    long long _renderZoomFactor;
-    PKInk *_ink;
 }
 
 - (id);
@@ -29,15 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *buffers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKInk *ink; // @synthesize ink=_ink;
-@property(readonly, nonatomic) NSArray *secondaryBuffers;
-@property(readonly) Class superclass;
 
 @end
 

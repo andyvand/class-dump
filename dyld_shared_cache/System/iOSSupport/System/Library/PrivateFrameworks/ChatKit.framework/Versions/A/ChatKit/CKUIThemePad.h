@@ -10,18 +10,18 @@
 {
 }
 
+- (id)ic_appearanceInfoForContent;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)i;
+- (id)Updated System Paper thumbnails {objectID:%@} /* Error: Ran out of types for this method. */;
+- (id)ause the most recent note doesn't have one;
+- (id)updated;
+- (id)set of notes;
+- (id)piry;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFWatchListItem
 {
@@ -12,80 +12,48 @@
         unsigned int isMediaContainer:1;
         unsigned int type:1;
     } _has;
-    _Bool _isMediaContainer;
-    int _type;
-    NSString *_watchListIdentifier;
-    NSString *_seasonEpisodeTextFormat;
-    NSString *_continueInTextFormat;
-    NSString *_openButtonTitle;
-    NSString *_installButtonTitle;
-    NSString *_purchaseOfferTextFormat;
-    NSString *_inUpNextText;
-    NSString *_addToUpNextText;
-    NSString *_addedToUpNextText;
-    NSString *_watchLiveTextFormat;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)R%;
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ong, std:(id)arg1:pair<const unsigned long long, id>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, id>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (int);
+- (int)silencingUserInfo;
 - (_Bool);
-- (void);
+- (void)unattenuatedReverbMix;
 - (id);
-- (id);
-- (id);
+- (id)data corrections;
+- (id)was not called back synchronously!;
 - (void);
 - (id);
 - (_Bool)
 × ;
-- (void)WithQuery:date: /* Error: Ran out of types for this method. */;
+- (void)initWithQuery:date: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *addToUpNextText; // @synthesize addToUpNextText=_addToUpNextText;
-@property(copy, nonatomic) NSString *addedToUpNextText; // @synthesize addedToUpNextText=_addedToUpNextText;
-@property(copy, nonatomic) NSString *continueInTextFormat; // @synthesize continueInTextFormat=_continueInTextFormat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *inUpNextText; // @synthesize inUpNextText=_inUpNextText;
-@property(copy, nonatomic) NSString *installButtonTitle; // @synthesize installButtonTitle=_installButtonTitle;
-@property(nonatomic) _Bool isMediaContainer; // @synthesize isMediaContainer=_isMediaContainer;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *openButtonTitle; // @synthesize openButtonTitle=_openButtonTitle;
-@property(copy, nonatomic) NSString *purchaseOfferTextFormat; // @synthesize purchaseOfferTextFormat=_purchaseOfferTextFormat;
-@property(copy, nonatomic) NSString *seasonEpisodeTextFormat; // @synthesize seasonEpisodeTextFormat=_seasonEpisodeTextFormat;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 @property(copy, nonatomic) NSString *watchListIdentifier; // @synthesize watchListIdentifier=_watchListIdentifier;
-@property(copy, nonatomic) NSString *watchLiveTextFormat; // @synthesize watchLiveTextFormat=_watchLiveTextFormat;
 
 @end
 

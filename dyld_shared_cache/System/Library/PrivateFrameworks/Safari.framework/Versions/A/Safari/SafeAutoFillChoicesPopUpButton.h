@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (void);
 - (id);
@@ -25,12 +25,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)2;
 - (void)ÿÿH(´;
 
 // Remaining properties
 @property(nonatomic) double highlightOffset;
-@property(nonatomic) double menuWidth;
 
 @end
 

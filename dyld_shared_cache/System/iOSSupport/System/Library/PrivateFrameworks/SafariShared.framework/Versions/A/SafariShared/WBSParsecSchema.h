@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface WBSParsecSchema
 {
     _Bool _optional;
-    CDUnknownBlockType _validationBlock;
-    CDUnknownBlockType _specializedSchemaBlock;
-    Class _expectedClass;
-    NSError *_associatedError;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -41,10 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *associatedError; // @synthesize associatedError=_associatedError;
-@property(retain, nonatomic) Class expectedClass; // @synthesize expectedClass=_expectedClass;
-@property(nonatomic, getter=isOptional) _Bool optional; // @synthesize optional=_optional;
-@property(copy, nonatomic) CDUnknownBlockType specializedSchemaBlock; // @synthesize specializedSchemaBlock=_specializedSchemaBlock;
 @property(copy, nonatomic) CDUnknownBlockType validationBlock; // @synthesize validationBlock=_validationBlock;
 
 @end

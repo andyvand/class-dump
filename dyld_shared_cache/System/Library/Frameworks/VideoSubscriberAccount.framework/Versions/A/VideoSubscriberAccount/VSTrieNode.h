@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VSTrieNode
 {
     NSMutableArray *_objects;
-    NSMutableDictionary *_next;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)È;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *next; // @synthesize next=_next;
 @property(retain, nonatomic) NSMutableArray *objects; // @synthesize objects=_objects;
 
 @end

@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FPStitchingSession
 {
     NSMutableDictionary *_stitchedFields;
-    NSMutableDictionary *_originalItems;
-    NSMutableDictionary *_stitchedItems;
-    NSMutableDictionary *_stitchedPlaceholders;
-    NSMutableDictionary *_placeholderReplacements;
-    NSMutableDictionary *_deletedItems;
-    _Bool _started;
-    _Bool _finished;
-    CDUnknownBlockType _placeholdersCreationBlock;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)aM;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -32,33 +24,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void)!>&Ð!ÔAù±ç)ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *deletedIDs;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) NSArray *placeholderItems;
-@property(readonly, nonatomic) NSArray *placeholderReplacementsIDs;
 @property(copy, nonatomic) CDUnknownBlockType placeholdersCreationBlock; // @synthesize placeholdersCreationBlock=_placeholdersCreationBlock;
-@property(readonly, nonatomic) NSDictionary *stitchedFieldsAndItemsByItemIDs;
-@property(readonly, nonatomic) NSDictionary *stitchedItemsByParentID;
 
 @end
 

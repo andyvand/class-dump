@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PXSharedLibraryLegacyDevicesFallbackMonitor
 {
     long long _state;
-    NSArray *_devices;
 }
 
 + (id);
@@ -23,7 +20,6 @@
 - (void)¯¹ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *devices; // @synthesize devices=_devices;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end

@@ -7,21 +7,19 @@
 @interface CNVariableChangeHelper
 {
     id _value;
-    CDUnknownBlockType _test;
 }
 
 - (void);
-- (id);
+- (id)o;
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)H;
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (id)_stringForHashingMemo;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType test; // @synthesize test=_test;
 @property(copy, nonatomic) id value; // @synthesize value=_value;
 
 @end

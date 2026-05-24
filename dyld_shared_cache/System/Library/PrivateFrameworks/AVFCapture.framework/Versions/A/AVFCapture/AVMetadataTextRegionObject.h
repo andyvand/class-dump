@@ -9,14 +9,11 @@
 @interface AVMetadataTextRegionObject : AVMetadataObject
 {
     long long _regionID;
-    float _confidence;
-    float _angularOffset;
-    struct CGRect _angularOffsetBounds;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id)keyToObjectDictionary;
+- (id),N,V_unhandledObjectDataExpectedLength;
+- (id)d,N,V_startTime;
 - (struct CGRect);
 - (float);
 - (long long);
@@ -25,9 +22,6 @@
 - (float);
 
 // Remaining properties
-@property(readonly) float angularOffset; // @synthesize angularOffset=_angularOffset;
-@property(readonly) struct CGRect angularOffsetBounds; // @synthesize angularOffsetBounds=_angularOffsetBounds;
-@property(readonly) float confidence; // @synthesize confidence=_confidence;
 @property(readonly) long long regionID; // @synthesize regionID=_regionID;
 
 @end

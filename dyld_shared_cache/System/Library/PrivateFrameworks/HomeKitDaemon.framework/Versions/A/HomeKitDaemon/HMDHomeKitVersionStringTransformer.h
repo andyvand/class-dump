@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)HomeUUID:(id)arg1 numStabilityReporters:(id *)arg2 WifiAssociations:wifiDisassociations:apChanges:gatewayChanges:numReadWrites:numReadErrors:numWriteErrors:numSessionErrors:numNetworkSignatures: /* Error: Ran out of types for this method. */;
-+ (Class)tsAnalyzer;
++ (id)initWithHomeUUID:(id)arg1 numStabilityReporters:(id *)arg2 WifiAssociations:wifiDisassociations:apChanges:gatewayChanges:numReadWrites:numReadErrors:numWriteErrors:numSessionErrors:numNetworkSignatures: /* Error: Ran out of types for this method. */;
++ (Class)_widgetTimelineRefresherEventsAnalyzer;
 + (Class);
 
 @end

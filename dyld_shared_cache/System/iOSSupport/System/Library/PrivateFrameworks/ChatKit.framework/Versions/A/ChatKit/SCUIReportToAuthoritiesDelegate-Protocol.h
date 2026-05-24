@@ -5,5 +5,8 @@
 //
 
 @protocol SCUIReportToAuthoritiesDelegate
+
+@optional
+- (void)bleArray",&,N,V_undoCommands;
 @end
 

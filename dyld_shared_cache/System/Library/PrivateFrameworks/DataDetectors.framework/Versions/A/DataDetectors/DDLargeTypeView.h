@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DDLargeTypeView
 {
     struct CGRect _windowRect;
-    struct CGRect _textRect;
-    NSString *_string;
-    NSMutableDictionary *_attributes;
 }
 
 - (struct CGRect);

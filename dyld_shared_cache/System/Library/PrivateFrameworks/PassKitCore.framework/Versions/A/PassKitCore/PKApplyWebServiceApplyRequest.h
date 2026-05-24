@@ -6,29 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSArray, NSSet, NSString, NSURL, PKApplyWebServiceRequestAuthenticationContext, PKFeatureApplicationInvitationDetails, PKPaymentDeviceMetadata, PKPaymentInstallmentConfiguration;
+@class NSString;
 
 @interface PKApplyWebServiceApplyRequest : PKApplyWebServiceRequest
 {
     NSString *_applicationIdentifier;
-    unsigned long long _featureIdentifier;
-    NSArray *_certificates;
-    NSURL *_baseURL;
-    NSString *_coreIDVNextStepToken;
-    NSString *_previousContextIdentifier;
-    NSString *_actionIdentifier;
-    PKPaymentInstallmentConfiguration *_installmentConfiguration;
-    long long _updateUserInfoSubType;
-    long long _channel;
-    long long _applicationType;
-    NSString *_accountIdentifier;
-    NSString *_referenceIdentifier;
-    PKFeatureApplicationInvitationDetails *_invitationDetails;
-    NSString *_preliminaryAssessmentIdentifier;
-    NSSet *_termsIdentifiers;
-    PKPaymentDeviceMetadata *_deviceMetadata;
-    PKApplyWebServiceRequestAuthenticationContext *_authenticationContext;
-    NSString *_odiAssessment;
 }
 
 + (_Bool)X"ð!Cùî%ð1Â0@ù
@@ -36,6 +18,9 @@
 - (long long);
 - (id);
 - (void);
+- (void);
+- (void)
+kB;
 - (void);
 - (void);
 - (void);
@@ -43,12 +28,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)b;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)Y;
 - (id);
 - (id);
 - (id);
@@ -65,37 +48,19 @@
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (unsigned long long);
-- (id)Hash;
+- (id)_transactionDataHash;
 - (id)ic}hd:URLSession:task:didCompleteWithError:Unknown task, error:%s /* Error: Ran out of types for this method. */;
 - (id)B16;
-- (void)ckgroundColor;
+- (void)secondaryBackgroundColor;
 - (void);
 - (id)q½ÿ";
 - (void);
 - (void)!ÿÝÐl;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(nonatomic) long long applicationType; // @synthesize applicationType=_applicationType;
-@property(retain, nonatomic) PKApplyWebServiceRequestAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(nonatomic) long long channel; // @synthesize channel=_channel;
-@property(copy, nonatomic) NSString *coreIDVNextStepToken; // @synthesize coreIDVNextStepToken=_coreIDVNextStepToken;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(retain, nonatomic) PKPaymentInstallmentConfiguration *installmentConfiguration; // @synthesize installmentConfiguration=_installmentConfiguration;
-@property(retain, nonatomic) PKFeatureApplicationInvitationDetails *invitationDetails; // @synthesize invitationDetails=_invitationDetails;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
-@property(copy, nonatomic) NSString *preliminaryAssessmentIdentifier; // @synthesize preliminaryAssessmentIdentifier=_preliminaryAssessmentIdentifier;
-@property(copy, nonatomic) NSString *previousContextIdentifier; // @synthesize previousContextIdentifier=_previousContextIdentifier;
-@property(copy, nonatomic) NSString *referenceIdentifier; // @synthesize referenceIdentifier=_referenceIdentifier;
-@property(copy, nonatomic) NSSet *termsIdentifiers; // @synthesize termsIdentifiers=_termsIdentifiers;
-@property(nonatomic) long long updateUserInfoSubType; // @synthesize updateUserInfoSubType=_updateUserInfoSubType;
 
 @end
 

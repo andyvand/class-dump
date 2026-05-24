@@ -6,13 +6,12 @@
 
 #import <PassKitCore/PKExtensionBaseContext.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_group, PKPaymentAuthorizationHostProtocol;
 
 @interface PKExtensionHostContext : PKExtensionBaseContext
 {
     id <PKPaymentAuthorizationHostProtocol> _delegate;
-    NSObject<OS_dispatch_group> *_delayCallbacksGroup;
 }
 
 - (id);
@@ -28,29 +27,21 @@
 - (void);
 - (void);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
+- (void)?;
+- (void)_;
 - (void);
+- (id)?	;
+- (id)̨;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)displayLimitReached;
 - (id)eeh0& ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *delayCallbacksGroup; // @synthesize delayCallbacksGroup=_delayCallbacksGroup;
-@property(nonatomic) __weak id <PKPaymentAuthorizationHostProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

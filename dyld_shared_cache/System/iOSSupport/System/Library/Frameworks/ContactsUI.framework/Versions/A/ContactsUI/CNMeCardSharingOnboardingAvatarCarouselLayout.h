@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (long long);
-- (double);
+- (long long)	;
+- (double);
 - (double);
 - (double);
 - (id);
-- (struct CGRect);
+- (struct CGRect)˿;
 
 @end
 

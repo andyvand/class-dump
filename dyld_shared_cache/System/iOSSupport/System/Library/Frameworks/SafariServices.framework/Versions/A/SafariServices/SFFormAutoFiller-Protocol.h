@@ -5,5 +5,10 @@
 //
 
 @protocol SFFormAutoFiller
+- (void)SecureCloudInviteResponseType;
+- (void);
+- (void)MessageSchemaType;
+- (void);
+- (void)lyricExcerpt;
 @end
 

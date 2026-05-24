@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindow, _UIKeyWindowSceneStack;
-@protocol BSInvalidatable;
+@class UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyWindowEvaluator
 {
     unsigned long long _countOfFBSSceneBackedScenesByShiftedIdiom[11];
-    unsigned long long _defaultEvaluationStrategyByShiftedIdiom[11];
-    _UIKeyWindowSceneStack *_keyWindowSceneStack;
-    _UIKeyWindowSceneStack *_excludedSceneStack;
-    _UIKeyWindowSceneStack *_stackForSceneMovingScreens;
-    UIWindow *_applicationKeyWindow;
-    id <BSInvalidatable> _stateCaptureToken;
 }
 
-+ (id)es: /* Error: Ran out of types for this method. */;
++ (id)_moveRowAtIndexPath:toIndexPath:usingPresentationValues: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)_presentsOptimizedUserInterfaceWhenPlayingFetchedAudioOnlyAssets;
+- (unsigned long long);
 - (void);
 - (id);
 - (unsigned long long)Ô ;
@@ -37,29 +30,22 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)nge"b1};
 - (void):(id)arg1 8^{__IOHIDEvent=}16I24;
-- (void)lock:(id)arg1;
+- (void)setVisitorBlock:(id)arg1;
 - (void)th:(long long)arg1 possibleTitles:withToolbarTintColor: /* Error: Ran out of types for this method. */;
-- (id)Name:(long long)arg1 size: /* Error: Ran out of types for this method. */;
-- (void)ayout;
-- (id)eAnimations;
+- (id)fontWithName:(long long)arg1 size: /* Error: Ran out of types for this method. */;
+- (void)_shouldUseFullScreenLayout;
+- (id)_delayBetweenSuccessiveAnimations;
 - (void)setSmallestUndimmedDetentIdentifierWhenFloating:(id)arg1;
-- (void)sentationControllerAccess;
-- (unsigned long long)pertyObserver;
-- (void)ranslateForReachability;
-- (id)ectsAndSymbols;
+- (void)UIActionSheetPresentationControllerAccess;
+- (unsigned long long)UIInterfaceActionDisplayPropertyObserver;
+- (void)UITextSelectionDidTranslateForReachability;
+- (id)UIKeyboardEmojiCategoryObjectsAndSymbols;
 - (void)y¿7y¿7_G;
-- (void)Alignment;
+- (void)__UIButtonConfigurationTitleAlignment;
 - (void)ÿÃÁÕ 0^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIWindow *applicationKeyWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

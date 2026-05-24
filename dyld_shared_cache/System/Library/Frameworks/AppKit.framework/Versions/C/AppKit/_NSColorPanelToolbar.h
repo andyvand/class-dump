@@ -6,19 +6,16 @@
 
 #import <AppKit/NSToolbar.h>
 
-@class NSColorPanel, NSString;
+@class NSColorPanel;
 
 __attribute__((visibility("hidden")))
 @interface _NSColorPanelToolbar : NSToolbar
 {
     NSColorPanel *colorPanel;
-    unsigned int _isMoving:1;
-    unsigned int _refusesToBeShown:1;
-    unsigned int _reserved:30;
 }
 
-+ (void);
-- (id);
++ (void)on;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,26 +26,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
+- (id)ject<OS_tcp_connection>";
+- (id)nnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std:(id)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (_Bool)PURLResponse"24;
+- (id)setHTTPMaximumConnectionsPerHost:(id)arg1;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)auth completion disp=%d cred=%p;
+- (void)%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (void);
 - (id);
 - (unsigned long long)t;
 - (void)g;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

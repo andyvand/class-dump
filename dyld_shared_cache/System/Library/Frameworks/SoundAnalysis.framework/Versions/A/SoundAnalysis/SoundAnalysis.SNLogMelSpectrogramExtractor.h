@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNLogMelSpectrogramExtractor
 {
     id graphImpl;
-    id blockSize;
 }
 
 @end

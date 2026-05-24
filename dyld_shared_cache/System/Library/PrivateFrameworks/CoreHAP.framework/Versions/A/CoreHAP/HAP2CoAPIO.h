@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void);
 + (id);
-+ (id);
-+ (void);
++ (id)@9;
++ (void)startRequest:(id)arg1 message:onComplete: /* Error: Ran out of types for this method. */;
 + (void);
 + (_Bool);
 + (id);

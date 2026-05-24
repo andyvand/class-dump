@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *annotationArray; // @dynamic annotationArray;
-@property(readonly, nonatomic) unsigned long long annotationArray_Count; // @dynamic annotationArray_Count;
 
 @end
 

@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTDataConnectionStatus, CTDataStatus, CTMobileEquipmentInfo, CoreTelephonyClient, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WiFiTelephonyClient
 {
     _Bool _isCellularFallbackEnabled;
-    _Bool _isIMSRegistrationActiveAndOnWiFi;
-    _Bool _isCellular5GSupported;
-    _Bool _cellular5GSupported;
-    _Bool _cellularFallbackEnabled;
-    _Bool _imsRegistrationActiveAndOnWiFi;
-    CDUnknownBlockType _cellularFallbackStatusChangedHandler;
-    CDUnknownBlockType _imsRegistrationStatusChangedHandler;
-    CDUnknownBlockType _cellularDataStatusChangedHandler;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    CoreTelephonyClient *_coreTelephonyClient;
-    CTMobileEquipmentInfo *_mobileEquipmentInfo;
-    CTDataStatus *_dataStatus;
-    CTDataConnectionStatus *_connectionStatus;
-    NSString *_radioAccessTechnology;
-    NSString *_registrationStatus;
-    NSString *_carrierName;
 }
 
 + (id)0@ù
@@ -57,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,13 +52,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)x
+;
+- (void)awdl;
 - (void);
 - (void)ñ¤Ð1Â0@ù
 × ;
@@ -82,37 +67,7 @@
 - (id)le startWatchingLogFile]_block_invoke;
 
 // Remaining properties
-@property(retain) NSString *carrierName; // @synthesize carrierName=_carrierName;
-@property(getter=isCellular5GSupported) _Bool cellular5GSupported; // @synthesize cellular5GSupported=_cellular5GSupported;
-@property(readonly, copy) NSString *cellularCarrierName;
-@property(readonly, copy) NSString *cellularDataIndicator;
-@property(copy) CDUnknownBlockType cellularDataStatusChangedHandler; // @synthesize cellularDataStatusChangedHandler=_cellularDataStatusChangedHandler;
-@property(getter=isCellularFallbackEnabled) _Bool cellularFallbackEnabled; // @synthesize cellularFallbackEnabled=_cellularFallbackEnabled;
-@property(copy) CDUnknownBlockType cellularFallbackStatusChangedHandler; // @synthesize cellularFallbackStatusChangedHandler=_cellularFallbackStatusChangedHandler;
-@property(readonly, copy) NSString *cellularICCID;
-@property(readonly, copy) NSString *cellularInterfaceName;
-@property(retain) CTDataConnectionStatus *connectionStatus; // @synthesize connectionStatus=_connectionStatus;
-@property(retain) CoreTelephonyClient *coreTelephonyClient; // @synthesize coreTelephonyClient=_coreTelephonyClient;
-@property(retain) CTDataStatus *dataStatus; // @synthesize dataStatus=_dataStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(getter=isIMSRegistrationActiveAndOnWiFi) _Bool imsRegistrationActiveAndOnWiFi; // @synthesize imsRegistrationActiveAndOnWiFi=_imsRegistrationActiveAndOnWiFi;
-@property(copy) CDUnknownBlockType imsRegistrationStatusChangedHandler; // @synthesize imsRegistrationStatusChangedHandler=_imsRegistrationStatusChangedHandler;
 @property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly) _Bool isCellular5GActive;
-@property(readonly) _Bool isCellular5GSupported; // @synthesize isCellular5GSupported=_isCellular5GSupported;
-@property(readonly) _Bool isCellularDataInRoaming;
-@property(readonly) _Bool isCellularFallbackEnabled; // @synthesize isCellularFallbackEnabled=_isCellularFallbackEnabled;
-@property(readonly) _Bool isCellularLTEActive;
-@property(readonly) _Bool isIMSRegistrationActiveAndOnWiFi; // @synthesize isIMSRegistrationActiveAndOnWiFi=_isIMSRegistrationActiveAndOnWiFi;
-@property(retain) CTMobileEquipmentInfo *mobileEquipmentInfo; // @synthesize mobileEquipmentInfo=_mobileEquipmentInfo;
-@property(retain) NSString *radioAccessTechnology; // @synthesize radioAccessTechnology=_radioAccessTechnology;
-@property(retain) NSString *registrationStatus; // @synthesize registrationStatus=_registrationStatus;
-@property(readonly) Class superclass;
 
 @end
 

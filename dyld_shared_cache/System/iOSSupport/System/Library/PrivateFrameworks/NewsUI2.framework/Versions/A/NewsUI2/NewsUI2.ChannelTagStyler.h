@@ -7,11 +7,6 @@
 @interface NewsUI2.ChannelTagStyler
 {
     id maxNameFontSize;
-    id maxCustomizeFontSize;
-    id baseStyler;
-    id feedNavImageStyler;
-    id headlineFontMetrics;
-    id subtitleFontMetrics;
 }
 
 @end

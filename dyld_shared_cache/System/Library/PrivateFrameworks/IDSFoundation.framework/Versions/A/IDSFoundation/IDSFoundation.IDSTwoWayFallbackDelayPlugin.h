@@ -7,8 +7,6 @@
 @interface IDSFoundation.IDSTwoWayFallbackDelayPlugin
 {
     id name;
-    id matchTags;
-    id protocolDelays;
 }
 
 @end

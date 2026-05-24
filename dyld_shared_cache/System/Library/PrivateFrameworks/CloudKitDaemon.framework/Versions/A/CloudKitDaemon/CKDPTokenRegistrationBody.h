@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CKDPTokenRegistrationBody
 {
     int _apnsEnv;
-    NSString *_bundleIdentifier;
-    NSData *_token;
-    _Bool _skipBundleIDCheck;
-    struct {
-        unsigned int apnsEnv:1;
-        unsigned int skipBundleIDCheck:1;
-    } _has;
 }
 
 - (_Bool);
@@ -32,8 +23,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)ptor created with shared key
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -42,19 +34,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)rides:(id)arg1;
+- (void)setUnitTestOverrides:(id)arg1;
 - (void)ä
 ¬È";
 
 // Remaining properties
-@property(nonatomic) int apnsEnv; // @synthesize apnsEnv=_apnsEnv;
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool hasApnsEnv;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(nonatomic) _Bool hasSkipBundleIDCheck;
 @property(readonly, nonatomic) _Bool hasToken;
-@property(nonatomic) _Bool skipBundleIDCheck; // @synthesize skipBundleIDCheck=_skipBundleIDCheck;
-@property(retain, nonatomic) NSData *token; // @synthesize token=_token;
 
 @end
 

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol FCFeedItemInventoryType, FCOperationThrottler;
+@protocol FCFeedItemInventoryType;
 
 @interface FCPeopleAlsoReadInventoryManager
 {
     id <FCFeedItemInventoryType> _inventory;
-    id <FCOperationThrottler> _refreshThrottler;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);
@@ -26,15 +24,7 @@
 - (void)BHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCommandQueue.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <FCFeedItemInventoryType> inventory; // @synthesize inventory=_inventory;
-@property(readonly, nonatomic) id <FCOperationThrottler> refreshThrottler; // @synthesize refreshThrottler=_refreshThrottler;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,36 +9,29 @@
 @interface NTPBPaidSubscriptionSheetIapFail
 {
     NSString *_articleId;
-    NSString *_failedIapId;
-    NSString *_sourceChannelId;
 }
 
-- (_Bool);
+- (_Bool)audioIdentifiersToHighlight;
+- (id)animationIdentifier;
+- (void)activeSignpost;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)om.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsRelevanceScorer.m;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)/swift/libswiftSpatial.dylib;
 - (unsigned long long);
 - (id);
+- (_Bool)plist;
+- (void)terestToken"16;
 - (_Bool);
-- (void);
-- (_Bool);
+- (id)A;
 - (id);
-- (id);
-- (void)IsSubscribedToSourceChannel: /* Error: Ran out of types for this method. */;
+- (void)setHasIsSubscribedToSourceChannel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSString *failedIapId; // @synthesize failedIapId=_failedIapId;
-@property(readonly, nonatomic) _Bool hasArticleId;
 @property(readonly, nonatomic) _Bool hasFailedIapId;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

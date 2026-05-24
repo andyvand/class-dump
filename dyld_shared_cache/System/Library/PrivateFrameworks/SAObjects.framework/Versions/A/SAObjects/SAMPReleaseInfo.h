@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SACalendar;
+@class SACalendar;
 
 @interface SAMPReleaseInfo : AceObject
 {
@@ -15,20 +15,12 @@
 - (long long);
 - (void);
 - (id);
-- (id);
-- (void)ayExpiryCommands;
+- (id)@;
+- (void)delayExpiryCommands;
 - (id)úúÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SACalendar *releaseDate;
-@property(nonatomic) long long releaseYear;
-@property(readonly) Class superclass;
 
 @end
 

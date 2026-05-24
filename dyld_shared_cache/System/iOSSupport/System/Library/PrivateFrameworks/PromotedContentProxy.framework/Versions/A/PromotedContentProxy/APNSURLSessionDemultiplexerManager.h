@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APOrderedMutableDictionary, APProxySessionConfigurationProvider, APUnfairRecursiveLock, NSOperationQueue;
+@class APOrderedMutableDictionary;
 
 @interface APNSURLSessionDemultiplexerManager
 {
     APOrderedMutableDictionary *_sessionDemultiplexerForIdentifier;
-    NSOperationQueue *_sessionSharedDelegateQueue;
-    APProxySessionConfigurationProvider *_sessionConfigProvider;
-    APUnfairRecursiveLock *_lock;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)TSUFlushableObject;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) APUnfairRecursiveLock *lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) APProxySessionConfigurationProvider *sessionConfigProvider; // @synthesize sessionConfigProvider=_sessionConfigProvider;
 @property(retain, nonatomic) APOrderedMutableDictionary *sessionDemultiplexerForIdentifier; // @synthesize sessionDemultiplexerForIdentifier=_sessionDemultiplexerForIdentifier;
-@property(retain, nonatomic) NSOperationQueue *sessionSharedDelegateQueue; // @synthesize sessionSharedDelegateQueue=_sessionSharedDelegateQueue;
 
 @end
 

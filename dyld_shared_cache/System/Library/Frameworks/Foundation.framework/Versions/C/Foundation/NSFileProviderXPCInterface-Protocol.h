@@ -5,6 +5,7 @@
 //
 
 @protocol NSFileProviderXPCInterface
+- (oneway void)ntByLangMatrix;
 - (void)ÿÿ ðÞÿ@ÿ(+ÿÿ;
 - (void);
 @end

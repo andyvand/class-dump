@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIVisualEffectView;
+@class UIVisualEffectView;
 
 @interface TUBackdropView
 {
     UIVisualEffectView *_backdropView;
 }
 
-- (void);
-- (id);
+- (void)dampeningStrategy;
+- (id)todayWidgetExposure;
 - (id);
 - (void)Ôùÿøùÿùÿùÿlùÿùÿùÿ´ùÿÌùÿäùÿüùÿùÿ8ùÿ\ùÿùÿ¤ùÿlùÿ¨ùÿäùÿ ùÿ\ùÿÄùÿìùÿhùÿôùÿ`ùÿtùÿ¸ùÿÜùÿ ùÿ,ùÿPùÿTùÿ`ùÿlùÿùÿ,ùÿùÿ¼ùÿøùÿd"ùÿp"ùÿ¼"ùÿ$ùÿ<$ùÿx$ùÿ$ùÿØ$ùÿä$ùÿ%ùÿ)ùÿ$+ùÿÄ+ùÿè+ùÿÜ,ùÿô,ùÿ;
 - (id)ìêÉÿUbtÊÿbT Çÿ]blÊÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *backdropView; // @synthesize backdropView=_backdropView;
-@property(readonly, nonatomic) UIView *contentView;
 
 @end
 

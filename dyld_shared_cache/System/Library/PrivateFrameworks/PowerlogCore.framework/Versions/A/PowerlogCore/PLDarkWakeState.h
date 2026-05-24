@@ -11,8 +11,8 @@
 }
 
 + (void)r:%@ /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id);
+- (_Bool)kLl;
+- (id)tensionHost:applyScreentimeSettings /* Error: Ran out of types for this method. */;
 
 @end
 

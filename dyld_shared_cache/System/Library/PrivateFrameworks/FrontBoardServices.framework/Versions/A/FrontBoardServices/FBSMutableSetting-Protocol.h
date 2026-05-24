@@ -5,6 +5,7 @@
 //
 
 @protocol FBSMutableSetting
+- (void);
 - (void)NL;
 @end
 

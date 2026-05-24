@@ -6,17 +6,11 @@
 
 #import <PackageKit/PKMutableProduct.h>
 
-@class NSMutableDictionary, NSString, PKArchive, PKDistributionContainer;
+@class PKArchive;
 
 @interface PKArchiveProduct : PKMutableProduct
 {
     PKArchive *_archive;
-    PKDistributionContainer *_container;
-    NSMutableDictionary *_packageIdentifierToURLMap;
-    NSString *_productIdentifier;
-    NSString *_productVersion;
-    NSString *_scriptsPath;
-    NSString *_installerPluginsPath;
 }
 
 + (_Bool);

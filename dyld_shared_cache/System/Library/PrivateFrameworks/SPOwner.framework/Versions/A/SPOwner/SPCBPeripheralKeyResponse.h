@@ -11,12 +11,12 @@
     NSArray *_peripherals;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)smsFilterForUK;
 - (void);
 
 // Remaining properties

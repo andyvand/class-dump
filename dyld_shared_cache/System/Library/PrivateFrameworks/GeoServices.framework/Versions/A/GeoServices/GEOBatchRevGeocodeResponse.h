@@ -4,54 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOBatchRevGeocodeResponse
 {
     PBDataReader *_reader;
-    NSMutableArray *_batchPlaceResults;
-    NSMutableArray *_clusters;
-    double _timestamp;
-    NSMutableArray *_versionDomains;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _statusCode;
-    unsigned int _ttl;
-    unsigned int _version;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int has_statusCode:1;
-        unsigned int has_ttl:1;
-        unsigned int has_version:1;
-        unsigned int read_batchPlaceResults:1;
-        unsigned int read_clusters:1;
-        unsigned int read_versionDomains:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)ndsSinceLastUpdate:(id)arg1;
++ (_Bool)setHasMinSecondsSinceLastUpdate:(id)arg1;
 + (Class)Ä
 à;
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setSuspended:(id)arg1;
+- (void)setAuditToken:(id)arg1 isFirstOrSecondPartyError: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)lic}@ after scheduling;
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -63,18 +43,18 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)(g;
 - (unsigned int);
 - (id);
 - (unsigned int);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)commandControlBehaviorMonitor:(id)arg1 didStartStreamWithContext:successfully:option: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)(;
 - (void);
 - (unsigned long long);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -83,8 +63,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)
 × ;
-- (void);
-- (id)tMode;
+- (void)setTextListField:(double)arg1;
+- (id)preferredTransportMode;
 - (id)èE;
 - (id)"%@";
 - (_Bool)ðb;
@@ -94,17 +74,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *batchPlaceResults;
-@property(retain, nonatomic) NSMutableArray *clusters;
 @property(nonatomic) _Bool hasStatusCode;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTtl;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) int statusCode;
-@property(nonatomic) double timestamp;
-@property(nonatomic) unsigned int ttl;
-@property(nonatomic) unsigned int version;
-@property(retain, nonatomic) NSMutableArray *versionDomains;
 
 @end
 

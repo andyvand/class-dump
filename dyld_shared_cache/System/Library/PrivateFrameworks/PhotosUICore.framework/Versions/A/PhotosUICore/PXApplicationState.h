@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSApplication, NSMutableSet;
+@class NSMutableSet;
 
 @interface PXApplicationState
 {
     NSMutableSet *_disabledIdleTimerTokens;
-    _Bool _needsUpdateVisibilityState;
-    _Bool _isInactive;
-    _Bool _isHidden;
-    long long _visibilityState;
-    NSApplication *_application;
 }
 
 + (long long);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,16 +39,12 @@
 - (void)!'°!ÌBùÑ:(long long)arg1 1Â0@ù
 × ;
 - (long long);
-- (id)oKeyAsset;
+- (id)_undoKeyAsset;
 - (void)lipLayout _invalidateCombinedEffect];
-- (void)moveFiltersActionPerformer;
+- (void)CuratedLibraryRemoveFiltersActionPerformer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSApplication *application; // @synthesize application=_application;
-@property(readonly, nonatomic) _Bool isHidden; // @synthesize isHidden=_isHidden;
 @property(readonly, nonatomic) _Bool isInactive; // @synthesize isInactive=_isInactive;
-@property(readonly, nonatomic) _Bool isLaunchedForTesting;
-@property(readonly, nonatomic) long long visibilityState; // @synthesize visibilityState=_visibilityState;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MFQueuePlayerItem;
+
 @protocol MFAssetLoading
+- (void)aa_isSubsetOfArray:(id <MFQueuePlayerItem>)arg1;
+- (void)aa_isPrimaryEmailVerified;
+- (void);
 @end
 

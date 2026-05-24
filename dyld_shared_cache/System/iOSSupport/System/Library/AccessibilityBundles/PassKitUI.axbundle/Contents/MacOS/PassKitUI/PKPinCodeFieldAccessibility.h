@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilityIncludeRoleDescription;
 + (void);
 - (_Bool);
 - (struct _NSRange);

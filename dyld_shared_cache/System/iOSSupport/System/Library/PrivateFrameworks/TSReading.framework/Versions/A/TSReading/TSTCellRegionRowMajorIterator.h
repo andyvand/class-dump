@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSTCellRegionRowMajorIterator
 {
     struct set<TSUColumnRowRect, TSTCellRangeRowMajorLess, std::allocator<TSUColumnRowRect>> mCellRangeSet;
-    CDStruct_0441cfb5 mCellID;
-    CDStruct_5f1f7aa9 mBoundingCellRange;
 }
 
 - (id);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 - (void);
 - (id);
 - (void)popAnimation;
 - (void)ôi;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

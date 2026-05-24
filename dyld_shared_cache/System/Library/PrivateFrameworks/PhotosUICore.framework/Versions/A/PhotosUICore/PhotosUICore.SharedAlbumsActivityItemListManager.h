@@ -7,11 +7,6 @@
 @interface PhotosUICore.SharedAlbumsActivityItemListManager
 {
     id _itemList;
-    id sharedAlbumsActivityFeedInfosManager;
-    id activityLimit;
-    id sectionInfoChangeCoalescingTimer;
-    id changeDetailsRepository;
-    id observable;
 }
 
 - (void);

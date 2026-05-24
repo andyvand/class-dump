@@ -18,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)@"NSString",?,C,N,V_title;
 - (void)ctionsServiceFamiliarRoute";
 
 // Remaining properties

@@ -7,17 +7,11 @@
 @interface RTIInputViewInfo
 {
     _Bool _shouldShowDockView;
-    unsigned int _contextId;
-    struct CGSize _size;
-    struct NSEdgeInsets _insets;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) struct NSEdgeInsets insets; // @synthesize insets=_insets;
-@property(nonatomic) _Bool shouldShowDockView; // @synthesize shouldShowDockView=_shouldShowDockView;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

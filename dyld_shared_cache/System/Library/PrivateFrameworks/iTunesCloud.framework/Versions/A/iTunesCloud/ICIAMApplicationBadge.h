@@ -9,31 +9,27 @@
 @interface ICIAMApplicationBadge
 {
     NSString *_bundleIdentifier;
-    NSString *_identifier;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)setWeightIncrementalThreshold: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)writeToFile:atomically:encoding:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Hßüà;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

@@ -6,47 +6,33 @@
 
 #import <ConversationKit/PlatformViewController.h>
 
-@class TUCall;
-@protocol CNKFaceTimeMultiwayConversationViewControllerDelegate;
-
 @interface ConversationKit.StagingAreaViewController : PlatformViewController
 {
     id videoDeviceController;
-    id wantsVideo;
-    id countdownController;
-    id conversationController;
-    id inCallControlsDismissTimer;
-    id viewContent;
-    id isHandlingMouseEnteredEvent;
-    id gridLayoutStyle;
-    void delegate;
-    TUCall *call;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)r;
 - (void);
 - (id);
-- (id);
+- (_Bool)r;
+- (id)HrQr;
+- (void)-ez;
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)8#16;
+- (void)L;
+- (void)_saveStatus:forEvent:presentationController: /* Error: Ran out of types for this method. */;
+- (void)_allDayChanged:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) TUCall *call; // @synthesize call;
-@property(nonatomic) __weak id <CNKFaceTimeMultiwayConversationViewControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) _Bool isPresentingEffectsBrowser;
 
 @end

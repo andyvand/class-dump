@@ -7,40 +7,25 @@
 @interface AWDTCPConnectionInfo
 {
     unsigned int _dnsResolutionLatency;
-    int _interfaceType;
-    unsigned int _tcpHandshakeLatency;
-    unsigned int _tcpRetransmissions;
-    unsigned int _tcpRxBytes;
-    unsigned int _tcpTxBytes;
-    unsigned int _tlsLatency;
-    struct {
-        unsigned int dnsResolutionLatency:1;
-        unsigned int interfaceType:1;
-        unsigned int tcpHandshakeLatency:1;
-        unsigned int tcpRetransmissions:1;
-        unsigned int tcpRxBytes:1;
-        unsigned int tcpTxBytes:1;
-        unsigned int tlsLatency:1;
-    } _has;
 }
 
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (void)+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)+;
 - (void);
 - (id);
 - (_Bool);
@@ -61,24 +46,11 @@
 - (void);
 - (id);
 - (id);
-- (void)tions;
-- (int)ansmissionCount;
+- (void)_percentageTransitions;
+- (int)synRetransmissionCount;
 
 // Remaining properties
-@property(nonatomic) unsigned int dnsResolutionLatency; // @synthesize dnsResolutionLatency=_dnsResolutionLatency;
 @property(nonatomic) _Bool hasDnsResolutionLatency;
-@property(nonatomic) _Bool hasInterfaceType;
-@property(nonatomic) _Bool hasTcpHandshakeLatency;
-@property(nonatomic) _Bool hasTcpRetransmissions;
-@property(nonatomic) _Bool hasTcpRxBytes;
-@property(nonatomic) _Bool hasTcpTxBytes;
-@property(nonatomic) _Bool hasTlsLatency;
-@property(nonatomic) int interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(nonatomic) unsigned int tcpHandshakeLatency; // @synthesize tcpHandshakeLatency=_tcpHandshakeLatency;
-@property(nonatomic) unsigned int tcpRetransmissions; // @synthesize tcpRetransmissions=_tcpRetransmissions;
-@property(nonatomic) unsigned int tcpRxBytes; // @synthesize tcpRxBytes=_tcpRxBytes;
-@property(nonatomic) unsigned int tcpTxBytes; // @synthesize tcpTxBytes=_tcpTxBytes;
-@property(nonatomic) unsigned int tlsLatency; // @synthesize tlsLatency=_tlsLatency;
 
 @end
 

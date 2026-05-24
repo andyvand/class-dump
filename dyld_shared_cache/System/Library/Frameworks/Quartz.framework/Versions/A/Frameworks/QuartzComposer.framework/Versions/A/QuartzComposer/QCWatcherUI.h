@@ -13,7 +13,7 @@
     NSPopUpButton *classMenu;
 }
 
-+ (id);
++ (id)qA;
 - (void);
 - (void);
 

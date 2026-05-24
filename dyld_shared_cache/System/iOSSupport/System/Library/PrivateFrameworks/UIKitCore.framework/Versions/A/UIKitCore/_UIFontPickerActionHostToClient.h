@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)setServiceCompatibleContentOn:(id)arg1 forChat:style:from:completionBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

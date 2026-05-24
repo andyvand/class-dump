@@ -9,17 +9,11 @@
 @interface HomeKitDaemon.LocalPresenceBulletinNotificationCoordinator
 {
     void messageTargetUUID;
-    id accessory;
-    id accessoryUUID;
-    id home;
-    id msgDispatcher;
-    id notificationCenter;
-    id logger;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)librarySelectionTripResetTimeout;
 - (id);
 - (id)d pairing identity;
 - (void)È®>;

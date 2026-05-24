@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, NSString;
+@class IOBluetoothDevice;
 
 @interface IOBluetoothDevicePair
 {
     IOBluetoothDevice *_device;
-    _Bool _busy;
-    _Bool _isHandlerSetup;
-    _Bool _triedSpecNULLPIN;
-    _Bool _SDPQueryComplete;
-    int _connectionCompleteStatus;
-    unsigned int _totalAttempts;
-    id _expansion;
-    _Bool _userDefinedPincode;
-    id _delegate;
-    long long _currentPairingType;
 }
 
 + (id);
@@ -28,17 +18,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)86Z;
 - (void);
 - (void);
 - (void);
 - (int);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)5;
 - (int);
 - (void);
 - (void);
@@ -52,8 +42,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,18 +64,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned short connectionPageTimeout;
 @property long long currentPairingType; // @synthesize currentPairingType=_currentPairingType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) IOBluetoothDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property _Bool userDefinedPincode; // @synthesize userDefinedPincode=_userDefinedPincode;
 
 @end
 

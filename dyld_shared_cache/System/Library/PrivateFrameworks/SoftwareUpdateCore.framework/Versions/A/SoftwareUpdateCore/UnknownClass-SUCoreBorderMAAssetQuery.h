@@ -7,7 +7,7 @@
 @interface UnknownClass (SUCoreBorderMAAssetQuery)
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (void);
 - (id);

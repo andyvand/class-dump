@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSFluidProgressAnimation;
-
 @interface WBSFluidProgressState
 {
     double _webKitProgressValue;
-    double _linearFunctionM;
-    double _linearFunctionB;
-    double _startTimeForFluidProgress;
-    double _lastTimeProgressValueWasUpdated;
-    long long _fluidProgressAnimationPhase;
-    double _previousDestinationPosition;
-    double _animationDuration;
-    double _minProgressPosition;
-    _Bool _hasCompletedLoad;
-    _Bool _hasCanceledLoad;
-    _Bool _hasCommittedLoad;
-    _Bool _shouldAnimateUsingInitialPosition;
-    double _fluidProgressValue;
-    WBSFluidProgressAnimation *_nextFluidProgressAnimation;
-    long long _fluidProgressType;
-    NSString *_loadURL;
 }
 
 + (double);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (double)A;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -44,35 +26,25 @@
 - (double);
 - (double);
 - (double);
-- (id);
+- (id);
 - (_Bool);
 - (double);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (long long);
 - (void);
-- (double);
+- (double)_cachedAtomicData;
 - (id);
 - (id);
-- (void)ionSource;
+- (void)navigationSource;
 
 // Remaining properties
-@property(nonatomic) long long fluidProgressAnimationPhase;
-@property(nonatomic) long long fluidProgressType; // @synthesize fluidProgressType=_fluidProgressType;
 @property(readonly, nonatomic) double fluidProgressValue; // @synthesize fluidProgressValue=_fluidProgressValue;
-@property(nonatomic) _Bool hasCanceledLoad; // @synthesize hasCanceledLoad=_hasCanceledLoad;
-@property(nonatomic) _Bool hasCommittedLoad; // @synthesize hasCommittedLoad=_hasCommittedLoad;
-@property(nonatomic) _Bool hasCompletedLoad; // @synthesize hasCompletedLoad=_hasCompletedLoad;
-@property(readonly, nonatomic) _Bool isFluidProgressStalled;
-@property(copy, nonatomic) NSString *loadURL; // @synthesize loadURL=_loadURL;
-@property(nonatomic) double minProgressPosition;
-@property(readonly, nonatomic) WBSFluidProgressAnimation *nextFluidProgressAnimation; // @synthesize nextFluidProgressAnimation=_nextFluidProgressAnimation;
-@property(nonatomic) _Bool shouldAnimateUsingInitialPosition; // @synthesize shouldAnimateUsingInitialPosition=_shouldAnimateUsingInitialPosition;
 
 @end
 

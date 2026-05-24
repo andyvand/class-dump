@@ -9,7 +9,7 @@
 @protocol UNUserNotificationCenterDelegate
 
 @optional
-- (void)h:(UNUserNotificationCenter *)arg1;
-- (void)tion;
+- (void)initFileURLWithPath:(UNUserNotificationCenter *)arg1;
+- (void)_intervalDuration;
 @end
 

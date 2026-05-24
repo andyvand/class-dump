@@ -6,37 +6,18 @@
 
 #import <Email/EMRepository.h>
 
-@class EFPromise, EMAccountRepository, NSMapTable, NSMutableDictionary, NSOrderedSet, NSSet, NSString;
 @protocol EFCancelable;
 
 @interface EMMailboxRepository : EMRepository
 {
     struct os_unfair_lock_s _mailboxesPromiseLock;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_mailboxesByObjectID;
-    id <EFCancelable> _registrationCancelable;
-    EFPromise *_mailboxesPromise;
-    NSMapTable *_observerMap;
-    EMAccountRepository *_accountRepository;
 }
 
 + (id);
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) EMAccountRepository *accountRepository; // @synthesize accountRepository=_accountRepository;
-@property(readonly, nonatomic) NSSet *allMailboxObjectIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSOrderedSet *mailboxesIfAvailable;
-@property(retain, nonatomic) EFPromise *mailboxesPromise; // @synthesize mailboxesPromise=_mailboxesPromise;
-@property(retain, nonatomic) NSMapTable *observerMap; // @synthesize observerMap=_observerMap;
 @property(retain) id <EFCancelable> registrationCancelable; // @synthesize registrationCancelable=_registrationCancelable;
-@property(readonly) Class superclass;
 
 @end
 

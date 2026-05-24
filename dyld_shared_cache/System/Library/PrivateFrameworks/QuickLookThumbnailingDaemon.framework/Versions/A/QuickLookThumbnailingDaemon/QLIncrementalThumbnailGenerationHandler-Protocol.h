@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol QLIncrementalThumbnailGenerationHandler
+- (void)setHasTriggerFireTimeOffsetInNs:(long long)arg1;
+- (void)setHasTrialConfirmationRate:(long long)arg1;
+- (void)setHasTranslationTTSPlayed:(NSUUID *)arg1;
 @end
 

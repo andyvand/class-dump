@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageEntryView, CKThrowAnimationManager;
+
 @protocol CKThrowAnimationManagerDelegate
+- (void);
+- (double)r;
+- (CKMessageEntryView *)record… {accountID:(CKThrowAnimationManager *)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
 @end
 

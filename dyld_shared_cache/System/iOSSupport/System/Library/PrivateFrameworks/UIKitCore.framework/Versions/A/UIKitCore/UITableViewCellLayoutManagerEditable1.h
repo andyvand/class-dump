@@ -6,35 +6,27 @@
 
 #import <UIKitCore/UITableViewCellLayoutManager.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UITableViewCellLayoutManagerEditable1 : UITableViewCellLayoutManager
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)conversationManager:(id)arg1 cameraMixedWithScreenDidChangeForConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationManager:(id)arg1 avModeChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)conversationManager:(id)arg1 activitySessionsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id)reparentable messages.;
+- (double)ompleted invitation. didAttemptInvitation:(id)arg1 %ld, wasAlreadyInvited:%ld, didShare:%ld Error:%@ /* Error: Ran out of types for this method. */;
+- (void)trieving;
+- (void)te for IMFileTransfer;
+- (void)not set keys/values on file %@  (%@:(id)arg1 %@);
+- (void)le %@;
 - (void);
 - (void);
 - (struct CGSize)ew.contentWidth;
 - (id)ands. This is a UIKit internal bug.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

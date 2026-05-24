@@ -9,25 +9,23 @@
 @interface DMFFetchRestrictionsRequest : DMFTaskRequest
 {
     _Bool _includeProfileRestrictions;
-    unsigned long long _profileFilterFlags;
 }
 
 + (Class);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)(;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
+- (id)h;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool includeProfileRestrictions; // @synthesize includeProfileRestrictions=_includeProfileRestrictions;
-@property(nonatomic) unsigned long long profileFilterFlags; // @synthesize profileFilterFlags=_profileFilterFlags;
 
 @end
 

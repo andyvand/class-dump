@@ -5,28 +5,25 @@
 //
 
 @class CNAvatarImageRenderer;
-@protocol CNAvatarImageRenderingScope;
 
 @interface CNVisualIdentityContactAvatarProvider
 {
     CNAvatarImageRenderer *_avatarImageRenderer;
-    id <CNAvatarImageRenderingScope> _renderingScope;
 }
 
-+ (id)tionPaneForAction:withActionType: /* Error: Ran out of types for this method. */;
++ (id)showEditAuthorizationPaneForAction:withActionType: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)mIOConnectIterator;
+- (id)uncalculatedLevel;
+- (void)backgroundColors;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarImageRenderer *avatarImageRenderer; // @synthesize avatarImageRenderer=_avatarImageRenderer;
-@property(retain, nonatomic) id <CNAvatarImageRenderingScope> renderingScope; // @synthesize renderingScope=_renderingScope;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface SUProductStub
 {
     NSString *_productKey;
-    NSString *_displayName;
-    NSString *_displayVersion;
 }
 
 - (id);
@@ -19,13 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)initWithRequestTimer:(id)arg1;
+- (id)Z+;
+- (id)ger.secondAlarm;
 
 // Remaining properties
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSString *displayVersion; // @synthesize displayVersion=_displayVersion;
 @property(retain) NSString *productKey; // @synthesize productKey=_productKey;
 
 @end

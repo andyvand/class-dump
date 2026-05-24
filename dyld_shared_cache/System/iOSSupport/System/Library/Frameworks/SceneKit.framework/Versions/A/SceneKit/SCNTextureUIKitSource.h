@@ -6,27 +6,18 @@
 
 #import <SceneKit/SCNTextureCoreAnimationSource.h>
 
-@class CALayer, UIView, UIWindow;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface SCNTextureUIKitSource : SCNTextureCoreAnimationSource
 {
     _Bool _windowReady;
-    id _source;
-    UIWindow *_uiWindow;
-    UIView *_uiView;
-    struct CGSize _sizeCache;
-    unsigned int _textureID;
-    CALayer *_uiWindowLayer;
-    _Bool _isOpaque;
-    struct __C3DEngineContext *_engineContext;
-    struct __C3DTextureSampler *_textureSampler;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)setAccessibilityLabel: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityIsOverridden:(id)arg1;
+- (void)setAccessibilityIsIgnored:(id)arg1;
+- (void)sessionStateDidChangeTo:isAttending: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,15 +36,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)ns;
+- (id)dimensions;
 - (void)a)Ê@ºLa?;
 
 // Remaining properties
-@property(nonatomic) _Bool isOpaque; // @synthesize isOpaque=_isOpaque;
-@property(retain, nonatomic) id source; // @synthesize source=_source;
 @property(retain, nonatomic) UIView *uiView; // @synthesize uiView=_uiView;
-@property(retain, nonatomic) UIWindow *uiWindow; // @synthesize uiWindow=_uiWindow;
-@property(retain, nonatomic) CALayer *uiWindowLayer; // @synthesize uiWindowLayer=_uiWindowLayer;
 
 @end
 

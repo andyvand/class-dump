@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSIndexSet;
+@class CKRecordID;
 
 @interface TRITreatmentRecordFetchPlan
 {
     CKRecordID *_recordId;
-    NSIndexSet *_assetIndexes;
 }
 
-+ (id);
++ (id)initWithAdjustments:(id)arg1;
+- (id)setParallaxStrategy:(id)arg1;
+- (id)saveToArchiveURL:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)renderOriginatingAssetIdentifierMetadataIdentifier;
+- (id)quicktimeMetadataCameraLensModel;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *assetIndexes; // @synthesize assetIndexes=_assetIndexes;
 @property(readonly, nonatomic) CKRecordID *recordId; // @synthesize recordId=_recordId;
 
 @end

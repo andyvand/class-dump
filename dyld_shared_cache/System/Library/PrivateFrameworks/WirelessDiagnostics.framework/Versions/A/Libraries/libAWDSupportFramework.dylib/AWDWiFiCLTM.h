@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiCLTM
 {
     unsigned long long _timestamp;
-    NSMutableArray *_sliceStats;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -20,7 +16,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (void);
 - (void);
@@ -37,8 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *sliceStats; // @synthesize sliceStats=_sliceStats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

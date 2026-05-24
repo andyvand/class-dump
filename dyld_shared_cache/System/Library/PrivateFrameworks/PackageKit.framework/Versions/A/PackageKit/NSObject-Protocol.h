@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)runPackageScript:packageSpecifier:component:scriptName:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)(;
+- (_Bool)a
+@�(;
+- (_Bool)setCompanyDepartment:(Class)arg1;
+- (id)eference to overloaded function could not be resolved; did you mean to call it%select{| with no arguments}0?;
+- (struct _NSZone *)_runPackageScript:packageSpecifier:component:scriptName:error: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol FCFeedPersonalizing;
 
 @interface FCFeedTransformationPersonalizedLimit
 {
     id <FCFeedPersonalizing> _feedPersonalizer;
-    double _timeInterval;
 }
 
 + (id);
 + (id)RecordNames:(id)arg1 ];
-- (id);
+- (id)_;
 - (void);
-- (void)nelMembershipController;
-- (double)tBlockerOverrides;
+- (void)_privateChannelMembershipController;
+- (double)webEmbedContentBlockerOverrides;
 - (void)Ëÿ;
 - (id)5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <FCFeedPersonalizing> feedPersonalizer; // @synthesize feedPersonalizer=_feedPersonalizer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
 
 @end
 

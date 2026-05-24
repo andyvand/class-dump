@@ -5,5 +5,6 @@
 //
 
 @protocol AVContentIntersectingDelegate
+- (void);
 @end
 

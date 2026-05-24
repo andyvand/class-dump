@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @protocol AAFAnalyticstRTCTransport
+- (void)_TtC6Safari30HistoryItemAutoFillViewHosting;
+- (unsigned long long)_TtCC6Safari39CompletionListCollectionViewHostingItemP33_707F0610BAA49772550BE360804BBE5524HostingAccessibilityView;
+- (void)TrackingDataControllerObjCAdapter;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *eventQueue;
-@property(nonatomic) unsigned long long sessionGracePeriod;
 @property(nonatomic) unsigned long long sessionState;
 @end
 

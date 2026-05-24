@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)dataFetcher.m;
 - (id);
 - (_Bool);
 - (void);

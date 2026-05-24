@@ -4,83 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFDialogAttribution, WFOutOfProcessWorkflowControllerStateMachine, WFRunnerConnection, WFSandboxExtensionManager, WFWorkflowDescriptor, WFWorkflowRunDescriptor, WFWorkflowRunRequest, WFWorkflowRunningContext;
-@protocol WFOutOfProcessWorkflowControllerDelegate, WFOutOfProcessWorkflowControllerVendor;
+@protocol WFOutOfProcessWorkflowControllerVendor;
 
 @interface WFOutOfProcessWorkflowController
 {
     _Bool _isAutomation;
-    struct os_unfair_lock_s _serviceConnectionLock;
-    id <WFOutOfProcessWorkflowControllerDelegate> _delegate;
-    long long _presentationMode;
-    WFWorkflowRunningContext *_runningContext;
-    id <WFOutOfProcessWorkflowControllerVendor> _runner;
-    long long _environment;
-    WFRunnerConnection *_serviceConnection;
-    WFWorkflowRunDescriptor *_runDescriptor;
-    WFWorkflowRunRequest *_runRequest;
-    WFWorkflowDescriptor *_currentWorkflow;
-    WFDialogAttribution *_currentDialogAttribution;
-    WFSandboxExtensionManager *_sandboxExtensionManager;
-    WFOutOfProcessWorkflowControllerStateMachine *_stateMachine;
 }
 
 - (oneway void);
 - (oneway void);
 - (void);
 - (void);
-- (id);
+- (id){;
 - (void);
+- (void)!{;
 - (void);
+- (void)3|;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id){;
+- (id){;
 - (oneway void);
 - (oneway void);
-- (_Bool);
+- (_Bool)3|;
 - (void);
 - (id);
+- (id)$3|;
+- (_Bool)Yz;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)2|;
+- (oneway void)|;
+- (void){;
+- (void)3|;
 - (id);
+- (id)z;
 - (_Bool);
+- (void)W3|;
+- (id);
+- (id)|;
+- (void)2|;
+- (void);
+- (void);
+- (void);
+- (void)2|;
+- (void)${;
+- (id)_{;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (oneway void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (oneway void);
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (struct os_unfair_lock_s);
+- (void),);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
@@ -91,28 +77,7 @@
 - (id)-: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) WFDialogAttribution *currentDialogAttribution; // @synthesize currentDialogAttribution=_currentDialogAttribution;
-@property(retain, nonatomic) WFWorkflowDescriptor *currentWorkflow; // @synthesize currentWorkflow=_currentWorkflow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WFOutOfProcessWorkflowControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAutomation; // @synthesize isAutomation=_isAutomation;
-@property(nonatomic) long long presentationMode; // @synthesize presentationMode=_presentationMode;
-@property(retain, nonatomic) WFWorkflowRunDescriptor *runDescriptor; // @synthesize runDescriptor=_runDescriptor;
-@property(retain, nonatomic) WFWorkflowRunRequest *runRequest; // @synthesize runRequest=_runRequest;
 @property(retain, nonatomic) id <WFOutOfProcessWorkflowControllerVendor> runner; // @synthesize runner=_runner;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly, copy, nonatomic) WFWorkflowRunningContext *runningContext; // @synthesize runningContext=_runningContext;
-@property(readonly, nonatomic) WFSandboxExtensionManager *sandboxExtensionManager; // @synthesize sandboxExtensionManager=_sandboxExtensionManager;
-@property(retain, nonatomic) WFRunnerConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(readonly, nonatomic) struct os_unfair_lock_s serviceConnectionLock; // @synthesize serviceConnectionLock=_serviceConnectionLock;
-@property(readonly, nonatomic) WFOutOfProcessWorkflowControllerStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 
 @end
 

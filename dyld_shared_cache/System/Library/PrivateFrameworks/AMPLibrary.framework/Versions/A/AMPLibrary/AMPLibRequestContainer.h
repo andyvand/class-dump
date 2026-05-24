@@ -9,7 +9,6 @@
 @interface AMPLibRequestContainer
 {
     AMPLibModelKind *_libModelKind;
-    unsigned long long _identifier;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) AMPLibModelKind *libModelKind; // @synthesize libModelKind=_libModelKind;
 
 @end

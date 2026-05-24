@@ -15,9 +15,9 @@
 + (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (unsigned long long);
-- (id);
+- (id)__MUPlacePhotoViewAccessibility_super;
 
 @end
 

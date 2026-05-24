@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMorphologyCustomPronoun, NSString;
+@class NSString;
 
 @interface BlastDoorMorphologyCustomPronounPair
 {
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long language;
-@property(nonatomic, readonly) BlastDoorMorphologyCustomPronoun *pronoun;
 
 @end
 

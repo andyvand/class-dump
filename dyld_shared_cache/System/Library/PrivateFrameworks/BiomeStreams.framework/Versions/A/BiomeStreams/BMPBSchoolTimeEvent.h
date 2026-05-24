@@ -7,11 +7,6 @@
 @interface BMPBSchoolTimeEvent
 {
     int _reason;
-    _Bool _starting;
-    struct {
-        unsigned int reason:1;
-        unsigned int starting:1;
-    } _has;
 }
 
 - (int);
@@ -21,9 +16,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)ary"8;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -31,15 +26,12 @@
 - (id);
 - (_Bool)vÐ1Â0@ù
 × ;
-- (void)ed;
+- (void)pg_query__createdb_stmt__free_unpacked;
 - (void);
 - (id)1 B;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
 @property(nonatomic) _Bool hasStarting;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) _Bool starting; // @synthesize starting=_starting;
 
 @end
 

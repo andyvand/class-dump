@@ -12,13 +12,13 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)actionControllerSetupCompleted:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)ateFrameworks/GeoServices.framework/Versions/A/GeoServices;
 - (double);
-- (id);
+- (id)_;
 - (void);
-- (id)mSuggestion:(id)arg1;
+- (id)confirmSuggestion:(id)arg1;
 - (id)roupsProperty;
 
 @end

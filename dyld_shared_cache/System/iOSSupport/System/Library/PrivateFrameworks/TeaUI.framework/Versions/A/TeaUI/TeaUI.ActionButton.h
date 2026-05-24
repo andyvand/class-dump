@@ -9,12 +9,11 @@
 @interface TeaUI.ActionButton : TeaUI.TouchInsetsButton
 {
     id onTap;
-    id onMenuPresentation;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)throttleGroup;
+- (id)setSuccesses:(struct CGRect)arg1;
 - (void);
 
 @end

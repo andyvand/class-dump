@@ -6,30 +6,26 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSDictionary, NSString;
-
 @interface CLSAdminRequestor : CLSObject
 {
     long long _state;
-    NSString *_email;
-    NSString *_verificationCode;
-    NSString *_note;
-    NSDictionary *_serverRequestHeaders;
 }
 
 + (id);
 + (long long);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_backgroundSaveAccount:withDataclassEnablement:completion: /* Error: Ran out of types for this method. */;
+- (id)ng prepare
+;
+- (void)failed result= 0x%x
+;
+- (void)%llx;
+- (id)ANEServicesProgramDestroy;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -39,15 +35,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)CUSTODIAN_MESSAGES_UPSELL_MESSAGE_DECLINE_BUTTON_LABEL;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(copy, nonatomic) NSString *note;
-@property(copy, nonatomic) NSDictionary *serverRequestHeaders; // @synthesize serverRequestHeaders=_serverRequestHeaders;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *verificationCode;
 
 @end
 

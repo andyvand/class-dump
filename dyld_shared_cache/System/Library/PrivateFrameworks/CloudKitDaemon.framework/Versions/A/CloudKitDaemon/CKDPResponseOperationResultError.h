@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPResponseOperationResultErrorAuxiliaryError, CKDPResponseOperationResultErrorClient, CKDPResponseOperationResultErrorExtension, CKDPResponseOperationResultErrorServer, NSString;
+@class CKDPResponseOperationResultErrorAuxiliaryError;
 
 @interface CKDPResponseOperationResultError
 {
     CKDPResponseOperationResultErrorAuxiliaryError *_auxiliaryError;
-    CKDPResponseOperationResultErrorClient *_clientError;
-    NSString *_errorDescription;
-    NSString *_errorInternal;
-    NSString *_errorKey;
-    CKDPResponseOperationResultErrorExtension *_extensionError;
-    int _retryAfterSeconds;
-    CKDPResponseOperationResultErrorServer *_serverError;
-    struct {
-        unsigned int retryAfterSeconds:1;
-    } _has;
 }
 
 - (_Bool);
@@ -34,12 +24,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long){ptr}] %s### Non-Numeric flushRemoteMediaTime timestamp computation:%lld; timescale:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)selfCcaSleepPerc;
+- (_Bool)queryNetworkPerformanceFeedAndSubmitToGeoWiFi;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -48,32 +38,17 @@
 - (id);
 - (id);
 - (void);
-- (void)e64EncodedString:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)initWithBase64EncodedString:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (id)¼!;
 - (void);
 - (_Bool)0;
 - (void)odified record zones.;
-- (id);
+- (id)OR;
 - (id)cord %@ to server:Protection data didn't match /* Error: Ran out of types for this method. */;
 - (void)cord PCS:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPResponseOperationResultErrorAuxiliaryError *auxiliaryError; // @synthesize auxiliaryError=_auxiliaryError;
-@property(retain, nonatomic) CKDPResponseOperationResultErrorClient *clientError; // @synthesize clientError=_clientError;
-@property(retain, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(retain, nonatomic) NSString *errorInternal; // @synthesize errorInternal=_errorInternal;
-@property(retain, nonatomic) NSString *errorKey; // @synthesize errorKey=_errorKey;
-@property(retain, nonatomic) CKDPResponseOperationResultErrorExtension *extensionError; // @synthesize extensionError=_extensionError;
-@property(readonly, nonatomic) _Bool hasAuxiliaryError;
 @property(readonly, nonatomic) _Bool hasClientError;
-@property(readonly, nonatomic) _Bool hasErrorDescription;
-@property(readonly, nonatomic) _Bool hasErrorInternal;
-@property(readonly, nonatomic) _Bool hasErrorKey;
-@property(readonly, nonatomic) _Bool hasExtensionError;
-@property(nonatomic) _Bool hasRetryAfterSeconds;
-@property(readonly, nonatomic) _Bool hasServerError;
-@property(nonatomic) int retryAfterSeconds; // @synthesize retryAfterSeconds=_retryAfterSeconds;
-@property(retain, nonatomic) CKDPResponseOperationResultErrorServer *serverError; // @synthesize serverError=_serverError;
 
 @end
 

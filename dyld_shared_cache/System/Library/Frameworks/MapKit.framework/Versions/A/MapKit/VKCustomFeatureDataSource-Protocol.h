@@ -4,10 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEOFeatureStyleAttributes, NSArray;
+
 @protocol VKCustomFeatureDataSource
 - (unsigned char);
+- (_Bool)_eventIntervals;
+- (NSArray *)ount=%lu;
+- (void)g intervals=%@;
+- (void)t sending XPC to powerlog to log intervals while in debug mode;
+- (GEOFeatureStyleAttributes *);
+- (void)߰;
 
 @optional
-- (unsigned char)CameraDidReturnToDefaultZoom: /* Error: Ran out of types for this method. */;
+- (unsigned char)mapViewNavigationCameraDidReturnToDefaultZoom: /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,21 +6,20 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolRuntimeRemoteObject;
+@class NSString;
 
 @interface RWIProtocolRuntimeInternalPropertyDescriptor : RWIProtocolJSONObject
 {
 }
 
-- (void);
+- (void)@;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *value;
 
 @end
 

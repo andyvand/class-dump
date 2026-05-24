@@ -6,14 +6,11 @@
 
 #import <HIDDisplay/HIDDisplayInterface.h>
 
-@class NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface HIDDisplayIOReportingInterface : HIDDisplayInterface
 {
     NSDictionary *_usageElementMap;
-    CDUnknownBlockType _dataHandler;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (_Bool);
@@ -22,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)autoFilledField:inForm: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

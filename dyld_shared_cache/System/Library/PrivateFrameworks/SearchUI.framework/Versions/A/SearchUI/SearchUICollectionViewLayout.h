@@ -5,12 +5,10 @@
 //
 
 @class SearchUICollectionViewLayoutConfiguration;
-@protocol SearchUICollectionViewSizingDelegate;
 
 @interface SearchUICollectionViewLayout
 {
     SearchUICollectionViewLayoutConfiguration *_snapshotConfiguration;
-    id <SearchUICollectionViewSizingDelegate> _sizingDelegate;
 }
 
 + (void);
@@ -20,7 +18,7 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void)sage",R,C,N,V_eventMessage;
 - (id);
 - (void);
 - (void);
@@ -29,7 +27,6 @@
 - (id)aÄ;
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUICollectionViewSizingDelegate> sizingDelegate; // @synthesize sizingDelegate=_sizingDelegate;
 @property(readonly) SearchUICollectionViewLayoutConfiguration *snapshotConfiguration; // @synthesize snapshotConfiguration=_snapshotConfiguration;
 
 @end

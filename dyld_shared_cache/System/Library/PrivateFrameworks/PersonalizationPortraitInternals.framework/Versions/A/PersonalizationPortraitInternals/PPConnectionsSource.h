@@ -12,10 +12,10 @@
 }
 
 + (id);
-+ (id)nfig: /* Error: Ran out of types for this method. */;
++ (id)initWithPrivateStreamIdentifier:storeConfig: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)atchSize;
+- (void)userActivityBatchSize;
 
 // Remaining properties
 @property(nonatomic) __weak id <PPConnectionsLocationSourceDelegate> delegate; // @synthesize delegate=_delegate;

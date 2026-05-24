@@ -4,56 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConcretePackage, CKDCancelTokenGroup, CKDMMCSItem, CKDMMCSRequestOptions, CKDProgressTracker, NSArray, NSError, NSObject, NSString;
-@protocol OS_dispatch_group;
+@class NSError;
 
 @interface CKDPackageUploadTask
 {
     NSError *_error;
-    CKConcretePackage *_package;
-    CKDMMCSItem *_MMCSManifestItem;
-    NSArray *_MMCSSectionItems;
-    CKDProgressTracker *_progressTracker;
-    CKDMMCSRequestOptions *_MMCSRequestOptions;
-    NSObject<OS_dispatch_group> *_group;
-    CKDCancelTokenGroup *_cancelTokens;
 }
 
-- (void);
+- (void)}S;
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (long long)JY;
+- (id)applePhotos_PhotoAttribute_PhotoAttributes120fps;
 - (id);
 - (void);
-- (void);
+- (void)u;
+- (void)downloadError;
+- (id);
+- (void);
+- (void)ata became available, starting a data source refresh;
 - (id);
 - (id);
-- (id);
+- (id)replaceWireSerializations;
 - (void);
 - (void)aiting for all record callbacks to finish before completing request <%{public}@:(id)arg1 %p; %{public}@>;
 - (id)ped uploading empty asset file with filehandle %@;
 - (id)%@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDMMCSItem *MMCSManifestItem; // @synthesize MMCSManifestItem=_MMCSManifestItem;
-@property(retain, nonatomic) CKDMMCSRequestOptions *MMCSRequestOptions; // @synthesize MMCSRequestOptions=_MMCSRequestOptions;
-@property(retain, nonatomic) NSArray *MMCSSectionItems; // @synthesize MMCSSectionItems=_MMCSSectionItems;
-@property(retain, nonatomic) CKDCancelTokenGroup *cancelTokens; // @synthesize cancelTokens=_cancelTokens;
 @property(retain) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(readonly, nonatomic) CKConcretePackage *package; // @synthesize package=_package;
-@property(retain, nonatomic) CKDProgressTracker *progressTracker; // @synthesize progressTracker=_progressTracker;
-@property(readonly, nonatomic) NSString *recordKey;
-@property(readonly, nonatomic) long long storageGroupingPolicy;
-@property(readonly, nonatomic) long long uploadRank;
 
 @end
 

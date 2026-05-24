@@ -5,13 +5,14 @@
 //
 
 @protocol TSKImportExportDelegate
+- (void)ing to load media redownload asset;
+
+@optional
+- (void)ck engine;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool importingDesignDemoDoc;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isBrowsingVersions;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
 

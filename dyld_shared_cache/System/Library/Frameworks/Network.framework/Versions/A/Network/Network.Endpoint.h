@@ -11,28 +11,9 @@
 @interface Network.Endpoint : Network.EndpointParent
 {
     id type;
-    id alternatePort;
-    id cnames;
-    id parentEndpoint;
-    id lock;
-    id addressStorage;
-    id alternativeEndpoints;
-    id associations;
-    id context;
-    id dnsFailureReason;
-    id echConfig;
-    id edges;
-    id ethernetAddressStorage;
-    id registrar;
-    id signature;
-    id storage;
-    id storageLock;
-    id _publicKeys;
-    id remoteInterfaceType;
-    id flags;
 }
 
-- (void);
+- (void)onaryRef);
 - (id);
 - (id);
 - (long long);
@@ -44,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *redactedDescription;
 
 @end
 

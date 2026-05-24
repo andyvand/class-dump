@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PTRenderPipeline;
-@protocol MTLDevice, PTRenderState;
+@class PTRenderPipeline;
+@protocol MTLDevice;
 
 @interface PIPortraitVideoRenderer
 {
     PTRenderPipeline *_renderPipeline;
-    id <PTRenderState> _renderState;
-    _Bool _inUse;
-    int _quality;
-    id <MTLDevice> _device;
-    long long _debugMode;
-    NSDate *_lastUseTime;
-    CDStruct_d58201db _colorSize;
-    CDStruct_d58201db _disparitySize;
 }
 
 + (void);
 + (void);
 - (void);
-- (id);
+- (id);
 - (CDStruct_912cb5d2);
 - (CDStruct_912cb5d2);
 - (id);
@@ -33,17 +25,11 @@
 - (void);
 - (id);
 - (long long);
-- (void)eration: /* Error: Ran out of types for this method. */;
-- (int)CropRect:analysisType:rawHomographies: /* Error: Ran out of types for this method. */;
+- (void)shouldDilateMaskForOperation: /* Error: Ran out of types for this method. */;
+- (int)initWithKeyframes:stabCropRect:analysisType:rawHomographies: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_912cb5d2 colorSize; // @synthesize colorSize=_colorSize;
-@property(readonly, nonatomic) long long debugMode; // @synthesize debugMode=_debugMode;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) CDStruct_912cb5d2 disparitySize; // @synthesize disparitySize=_disparitySize;
-@property(nonatomic, getter=isInUse) _Bool inUse; // @synthesize inUse=_inUse;
-@property(retain, nonatomic) NSDate *lastUseTime; // @synthesize lastUseTime=_lastUseTime;
-@property(readonly, nonatomic) int quality; // @synthesize quality=_quality;
 
 @end
 

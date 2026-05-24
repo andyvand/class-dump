@@ -4,43 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAVChat, IMHandle, NSArray, NSData, NSDictionary, NSMutableArray, NSString, NSTimer;
-
 @interface IMAVChatParticipant
 {
     _Bool _sendingAudio;
-    _Bool _sendingVideo;
-    _Bool _audioMuted;
-    _Bool _videoPaused;
-    _Bool _videoDegraded;
-    _Bool _mediaStalled;
-    _Bool _isInitiator;
-    _Bool _inviteDelivered;
-    _Bool _hasReinitiateCapability;
-    unsigned int _state;
-    unsigned int _cameraType;
-    unsigned int _cameraOrientation;
-    unsigned int _chatEndedReason;
-    int _chatError;
-    unsigned int _screenOrientation;
-    NSArray *_additionalPeers;
-    NSArray *_excludingPushTokens;
-    NSString *_vcPartyID;
-    IMHandle *_imHandle;
-    IMHandle *_inviter;
-    IMAVChat *_avChat;
-    NSDictionary *_properties;
-    NSString *_conferenceID;
-    NSTimer *_connectTimeoutTimer;
-    NSMutableArray *_participantsCallInfo;
-    NSData *_inFrequencyLevel;
-    NSData *_outFrequencyLevel;
-    struct CGSize _remotePortraitOrientation;
-    struct CGSize _remoteLandscapeOrientation;
-    struct CGSize _remotePIPPortraitOrientation;
-    struct CGSize _remotePIPLandscapeOrientation;
-    struct CGRect _remotePortraitContentRect;
-    struct CGRect _remoteLandscapeContentRect;
 }
 
 - (void *);
@@ -77,13 +43,13 @@
 - (unsigned int);
 - (id);
 - (long long);
-- (id);
+- (id)3;
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -132,10 +98,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)api_route;
+- (void)-[DEDDaemon startDiagnosticWithIdentifier:(_Bool)arg1 parameters:deferRunUntil:session:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)=Y;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -145,61 +111,22 @@
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)ontent type not data;
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)_untranslatedDisplayString;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)d to stop discovering:(unsigned int)arg1 %@;
 - (unsigned int);
 - (void);
 - (void *);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long _activeCallID;
-@property(retain, nonatomic, setter=_setConferenceID:) NSString *_conferenceID; // @synthesize _conferenceID;
-@property(retain, setter=_setConnectTimeoutTimer:) NSTimer *_connectTimeoutTimer; // @synthesize _connectTimeoutTimer;
-@property(setter=_setInviteDelivered:) _Bool _inviteDelivered; // @synthesize _inviteDelivered;
-@property(retain, nonatomic) NSMutableArray *_participantsCallInfo; // @synthesize _participantsCallInfo;
-@property(nonatomic, setter=_setRemoteLandscapeContentRect:) struct CGRect _remoteLandscapeContentRect; // @synthesize _remoteLandscapeContentRect;
-@property(nonatomic, setter=_setRemoteLandscapeOrientation:) struct CGSize _remoteLandscapeOrientation; // @synthesize _remoteLandscapeOrientation;
-@property(nonatomic, setter=_setRemotePIPLandscapeOrientation:) struct CGSize _remotePIPLandscapeOrientation; // @synthesize _remotePIPLandscapeOrientation;
-@property(nonatomic, setter=_setRemotePIPPortraitOrientation:) struct CGSize _remotePIPPortraitOrientation; // @synthesize _remotePIPPortraitOrientation;
-@property(nonatomic, setter=_setRemotePortraitContentRect:) struct CGRect _remotePortraitContentRect; // @synthesize _remotePortraitContentRect;
-@property(nonatomic, setter=_setRemotePortraitOrientation:) struct CGSize _remotePortraitOrientation; // @synthesize _remotePortraitOrientation;
-@property(nonatomic, setter=_setScreenOrientation:) unsigned int _screenOrientation; // @synthesize _screenOrientation;
-@property(retain, nonatomic) NSArray *additionalPeers; // @synthesize additionalPeers=_additionalPeers;
-@property(nonatomic, setter=setAVChat:) IMAVChat *avChat; // @synthesize avChat=_avChat;
-@property(setter=_setCameraOrientation:) unsigned int cameraOrientation; // @synthesize cameraOrientation=_cameraOrientation;
-@property(setter=_setCameraType:) unsigned int cameraType; // @synthesize cameraType=_cameraType;
-@property(nonatomic, setter=_setChatError:) int error; // @synthesize error=_chatError;
-@property(retain, nonatomic) NSArray *excludingPushTokens; // @synthesize excludingPushTokens=_excludingPushTokens;
-@property(readonly, nonatomic) _Bool hasConnectingSessions;
-@property(nonatomic) _Bool hasReinitiateCapability; // @synthesize hasReinitiateCapability=_hasReinitiateCapability;
-@property(readonly, nonatomic) _Bool hasUnfinishedSessions;
-@property(readonly, nonatomic) IMHandle *imHandle; // @synthesize imHandle=_imHandle;
-@property(retain, nonatomic) NSData *inFrequencyLevel; // @synthesize inFrequencyLevel=_inFrequencyLevel;
-@property(readonly, nonatomic) IMHandle *invitedBy; // @synthesize invitedBy=_inviter;
-@property(nonatomic, setter=setAudioMuted:) _Bool isAudioMuted; // @synthesize isAudioMuted=_audioMuted;
-@property(readonly, nonatomic) _Bool isInitiator; // @synthesize isInitiator=_isInitiator;
-@property(readonly, nonatomic) _Bool isLocalParticipant;
-@property(setter=setMediaStalled:) _Bool isMediaStalled; // @synthesize isMediaStalled=_mediaStalled;
-@property(readonly, nonatomic) _Bool isSendingAudio; // @synthesize isSendingAudio=_sendingAudio;
-@property(readonly, nonatomic) _Bool isSendingVideo; // @synthesize isSendingVideo=_sendingVideo;
-@property(setter=setVideoDegraded:) _Bool isVideoDegraded; // @synthesize isVideoDegraded=_videoDegraded;
-@property(nonatomic, setter=setVideoPaused:) _Bool isVideoPaused; // @synthesize isVideoPaused=_videoPaused;
-@property(readonly, nonatomic) NSString *name;
-@property(retain, nonatomic) NSData *outFrequencyLevel; // @synthesize outFrequencyLevel=_outFrequencyLevel;
-@property(retain, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) unsigned int reasonChatEnded; // @synthesize reasonChatEnded=_chatEndedReason;
-@property(nonatomic) unsigned int state; // @synthesize state=_state;
-@property(retain, setter=setVCPartyID:) NSString *vcPartyID; // @synthesize vcPartyID=_vcPartyID;
-@property(nonatomic) void *videoBackLayer;
 @property(nonatomic) void *videoLayer;
 
 @end

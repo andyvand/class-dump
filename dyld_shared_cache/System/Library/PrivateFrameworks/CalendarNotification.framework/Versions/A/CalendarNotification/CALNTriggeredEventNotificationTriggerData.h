@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKTravelEngineHypothesis, NSString;
-
 @interface CALNTriggeredEventNotificationTriggerData
 {
     _Bool _isOffsetFromTravelTimeStart;
-    unsigned long long _trigger;
-    NSString *_alarmID;
-    EKTravelEngineHypothesis *_hypothesis;
 }
 
 - (_Bool);
@@ -23,9 +18,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *alarmID; // @synthesize alarmID=_alarmID;
-@property(readonly, nonatomic) EKTravelEngineHypothesis *hypothesis; // @synthesize hypothesis=_hypothesis;
-@property(readonly, nonatomic) _Bool isOffsetFromTravelTimeStart; // @synthesize isOffsetFromTravelTimeStart=_isOffsetFromTravelTimeStart;
 @property(readonly, nonatomic) unsigned long long trigger; // @synthesize trigger=_trigger;
 
 @end

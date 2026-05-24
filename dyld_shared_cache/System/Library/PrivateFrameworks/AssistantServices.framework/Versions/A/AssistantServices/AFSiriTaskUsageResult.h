@@ -11,14 +11,14 @@
     NSString *_originatingAceID;
 }
 
-+ (_Bool);
++ (_Bool)H;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void)erFrame;
+- (void)_acousticFeatureValuePerFrame;
 
 @end
 

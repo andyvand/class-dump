@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
-
 @interface WBSCloudTabDeviceParameters
 {
     _Bool _closeRequestSupported;
-    _Bool _cloudKitBookmarkSyncingSupported;
-    _Bool _hasDuplicateName;
-    _Bool _ephemeralDevice;
-    NSString *_deviceName;
-    NSString *_deviceTypeIdentifier;
-    NSDate *_lastModified;
-    NSArray *_tabs;
 }
 
 + (id);
@@ -24,9 +15,9 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,14 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool closeRequestSupported; // @synthesize closeRequestSupported=_closeRequestSupported;
-@property(nonatomic) _Bool cloudKitBookmarkSyncingSupported; // @synthesize cloudKitBookmarkSyncingSupported=_cloudKitBookmarkSyncingSupported;
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy, nonatomic) NSString *deviceTypeIdentifier; // @synthesize deviceTypeIdentifier=_deviceTypeIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic, getter=isEphemeralDevice) _Bool ephemeralDevice; // @synthesize ephemeralDevice=_ephemeralDevice;
-@property(nonatomic) _Bool hasDuplicateName; // @synthesize hasDuplicateName=_hasDuplicateName;
-@property(copy, nonatomic) NSDate *lastModified; // @synthesize lastModified=_lastModified;
-@property(copy, nonatomic) NSArray *tabs; // @synthesize tabs=_tabs;
 
 @end
 

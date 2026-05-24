@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIInputWindowController;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIInputWindowControllerHosting
 {
     NSMutableArray *_hostingItems;
-    unsigned long long _currentState;
-    _Bool _requiresConstraintUpdate;
-    int _extraHostsRequired;
-    UIInputWindowController *_owner;
 }
 
 - (void);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)PredicateValue;
 - (void);
 - (unsigned long long);
 - (void);
@@ -30,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)Ð!ÜBùQe1Â0@ù
 × ;
-- (void)des;
-- (void)er;
-- (id)nfiguration: /* Error: Ran out of types for this method. */;
+- (void)defaultNormalizedInputModes;
+- (void)_pickerDidDismissEyedropper;
+- (id)_applyCellAccessoriesToNormalConfiguration:editingConfiguration: /* Error: Ran out of types for this method. */;
 - (void)smissing;
-- (_Bool)oFast;
+- (_Bool)swipeIsTooFast;
 - (_Bool)TightBoundingBoxLayoutGuide-right;
 - (struct CGRect)Õ"`;
 - (void)®¶´;
@@ -46,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id)Ûóod;
 - (void);
 - (void);
-- (void);
+- (void)HAf;
 - (id)1ÚlBg;
 - (void)wþ;
 - (void)ÖÿÁñÏà`g;
@@ -64,10 +60,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿZgÍ þm;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *allHostingItems;
 @property(nonatomic) int extraHostsRequired; // @synthesize extraHostsRequired=_extraHostsRequired;
-@property(nonatomic) __weak UIInputWindowController *owner; // @synthesize owner=_owner;
-@property(nonatomic) _Bool requiresConstraintUpdate; // @synthesize requiresConstraintUpdate=_requiresConstraintUpdate;
 
 @end
 

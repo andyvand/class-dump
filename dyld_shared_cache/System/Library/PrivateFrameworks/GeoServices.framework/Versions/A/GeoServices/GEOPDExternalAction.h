@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExternalAction
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_externalActionDetails;
-    int _componentType;
-    struct {
-        unsigned int has_componentType:1;
-    } _flags;
 }
 
 - (id);

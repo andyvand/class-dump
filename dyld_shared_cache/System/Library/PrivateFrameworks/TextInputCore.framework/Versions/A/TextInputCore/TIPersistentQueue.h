@@ -11,7 +11,7 @@
     NSURL *_presentedItemURL;
 }
 
-- (void);
+- (void)cachedActiveContexts;
 - (void);
 - (id);
 - (void);

@@ -9,41 +9,38 @@
 @interface GEOGuidanceImportanceMode
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _guidancePreferenceTypes;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasRoundTripTimeMin:(id)arg1;
 - (void);
-- (unsigned long long);
-- (id);
-- (int *);
+- (unsigned long long)immediateScheduler;
+- (id)ifResultIsNo:(int)arg1 setOutputError:withBlock: /* Error: Ran out of types for this method. */;
+- (int *)ifResultIsNo:setOutputError:toError: /* Error: Ran out of types for this method. */;
+- (int)ifResultIsNil:(unsigned long long)arg1 setOutputError:withBlock: /* Error: Ran out of types for this method. */;
+- (void)CNPostalAddressStreetEquivalance;
+- (void)S;
 - (int);
 - (void);
-- (void);
-- (int);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)ion:(struct _NSZone *)arg1;
-- (id)tAccessPoint;
+- (id)setIsCurrentLocation:(struct _NSZone *)arg1;
+- (id)GEOMapFeatureTransitAccessPoint;
 - (id){public}@;
 - (id)Ì
 ;
 - (void)2¡4;
 
 // Remaining properties
-@property(readonly, nonatomic) int *guidancePreferenceTypes;
 @property(readonly, nonatomic) unsigned long long guidancePreferenceTypesCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -5,5 +5,12 @@
 //
 
 @protocol NSTableViewDataSource
+
+@optional
+- (unsigned long long);
+- (void);
+- (void)؈;
+- (void);
+- (long long)onPipelineSubProcessorTypeP;
 @end
 

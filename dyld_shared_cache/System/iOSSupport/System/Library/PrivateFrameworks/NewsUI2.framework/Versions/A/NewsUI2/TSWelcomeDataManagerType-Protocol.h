@@ -7,6 +7,8 @@
 @protocol TSWelcomeDataManagerTypeDelegate;
 
 @protocol TSWelcomeDataManagerType
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <TSWelcomeDataManagerTypeDelegate> delegate;

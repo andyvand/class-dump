@@ -16,18 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)localizationToken;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)dex: /* Error: Ran out of types for this method. */;
+- (void)subchannelFormatAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NUSetting *content; // @synthesize content=_content;

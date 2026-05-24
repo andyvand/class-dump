@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)XT NOT NULL DEFAULT '';
 - (id);
 
 @end

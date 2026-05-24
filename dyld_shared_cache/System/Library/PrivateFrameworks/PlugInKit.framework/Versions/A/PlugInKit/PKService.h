@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSXPCListener, NSXPCListenerEndpoint, PKServicePersonality;
-@protocol OS_dispatch_queue, OS_dispatch_source, PKExternalProviders, PKServiceDelegate;
-
 @interface PKService
 {
     _Bool _shared;
-    _Bool _isSystemService;
-    unsigned int _extensionPointPlatform;
-    struct os_unfair_lock_s _personalityLock;
-    PKServicePersonality *_solePersonality;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    id <PKServiceDelegate> _delegate;
-    NSXPCListener *_serviceListener;
-    NSMutableDictionary *_personalities;
-    NSArray *_subsystems;
-    NSObject<OS_dispatch_source> *_terminationTimer;
-    NSObject<OS_dispatch_source> *_firstHostRequestTimer;
-    id <PKExternalProviders> _external;
 }
 
 + (int);
 + (void);
-+ (id);
++ (id)H;
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)LMNO;
+- (id)RequireParavirtualizedEncoder;
 - (id);
 - (void);
 - (struct os_unfair_lock_s);
@@ -40,8 +25,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)BpSB ;
+- (id)er lies outside the range of available tiles derived from the SIZ marker segment.;
 - (void);
 - (void);
 - (id);
@@ -60,8 +45,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)xQ;
+- (void)DoNotNotifyOtherSessionsOnNextInactive;
 - (_Bool);
 - (void);
 - (id);
@@ -74,34 +59,14 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (void);
-- (void);
+- (void)?ր;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) id <PKServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSXPCListenerEndpoint *endpoint;
 @property unsigned int extensionPointPlatform; // @synthesize extensionPointPlatform=_extensionPointPlatform;
-@property(readonly, nonatomic) id <PKExternalProviders> external; // @synthesize external=_external;
-@property(retain) NSObject<OS_dispatch_source> *firstHostRequestTimer; // @synthesize firstHostRequestTimer=_firstHostRequestTimer;
-@property(readonly) unsigned long long hash;
-@property _Bool isSystemService; // @synthesize isSystemService=_isSystemService;
-@property(retain) NSMutableDictionary *personalities; // @synthesize personalities=_personalities;
-@property(readonly) struct os_unfair_lock_s personalityLock; // @synthesize personalityLock=_personalityLock;
-@property(retain) NSXPCListener *serviceListener; // @synthesize serviceListener=_serviceListener;
-@property _Bool shared; // @synthesize shared=_shared;
-@property(retain) PKServicePersonality *solePersonality; // @synthesize solePersonality=_solePersonality;
-@property(retain) NSArray *subsystems; // @synthesize subsystems=_subsystems;
-@property(readonly) Class superclass;
-@property(retain) NSObject<OS_dispatch_source> *terminationTimer; // @synthesize terminationTimer=_terminationTimer;
-@property(readonly) NSObject<OS_dispatch_queue> *timerQueue; // @synthesize timerQueue=_timerQueue;
 
 @end
 

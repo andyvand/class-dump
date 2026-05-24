@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSLocale, NSString, SKProductSubscriptionPeriod;
+@class NSDecimalNumber;
 
 @interface SKProductDiscount
 {
@@ -14,28 +14,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)R";
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) unsigned long long numberOfPeriods;
-@property(readonly, nonatomic) unsigned long long paymentMode;
 @property(readonly, nonatomic) NSDecimalNumber *price;
-@property(readonly, nonatomic) NSLocale *priceLocale;
-@property(readonly, nonatomic) SKProductSubscriptionPeriod *subscriptionPeriod;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

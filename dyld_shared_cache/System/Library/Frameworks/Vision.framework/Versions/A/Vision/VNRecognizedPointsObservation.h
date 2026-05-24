@@ -6,24 +6,24 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSArray, NSNumber, VNRecognizedPointsSpecifier;
+@class VNRecognizedPointsSpecifier;
 
 @interface VNRecognizedPointsObservation : VNObservation
 {
     VNRecognizedPointsSpecifier *_specifier;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)fp_trashUnderFolder:(id)arg1 allowCoordination:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -32,9 +32,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *availableGroupKeys;
-@property(readonly, copy) NSArray *availableKeys;
-@property(readonly) NSNumber *groupIdentifier;
 @property(readonly) VNRecognizedPointsSpecifier *recognizedPointsSpecifier;
 
 @end

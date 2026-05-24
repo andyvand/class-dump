@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCAudioPayloadConfig;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioTier
 {
     unsigned int networkBitrate;
-    unsigned int audioCodecBitrate;
-    unsigned int packetsPerBundle;
-    unsigned int redNumPayloads;
-    unsigned int redMaxDelay20ms;
-    VCAudioPayloadConfig *payloadConfig;
-    _Bool _bundlingAppliedByCodec;
-    _Bool _isShortREDEnabled;
-    unsigned int _payloadSize;
-    unsigned int _headerSize;
-    unsigned int _redPayloadSize;
-    unsigned int _redPayloadBitrate;
 }
 
-+ (unsigned int);
++ (unsigned int)1A;
 + (unsigned int);
 + (_Bool);
 - (void);
@@ -41,18 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id)fo;
+- (id)_VTP_CanSendPacketWithSourceDestinationInfo;
 
 // Remaining properties
-@property(readonly) unsigned int audioCodecBitrate; // @synthesize audioCodecBitrate;
 @property(readonly) unsigned int networkBitrate; // @synthesize networkBitrate;
-@property(readonly) unsigned int packetsPerBundle; // @synthesize packetsPerBundle;
-@property(readonly) VCAudioPayloadConfig *payloadConfig; // @synthesize payloadConfig;
-@property(readonly) unsigned int redMaxDelay20ms; // @synthesize redMaxDelay20ms;
-@property(readonly) unsigned int redNumPayloads; // @synthesize redNumPayloads;
-@property(readonly) unsigned int redPayloadBitrate; // @synthesize redPayloadBitrate=_redPayloadBitrate;
-@property(readonly) unsigned int redPayloadSize; // @synthesize redPayloadSize=_redPayloadSize;
-@property(nonatomic) _Bool shortREDEnabled; // @synthesize shortREDEnabled=_isShortREDEnabled;
 
 @end
 

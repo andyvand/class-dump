@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)(;
+- (_Bool)copyWithReplacementRunStatus: /* Error: Ran out of types for this method. */;
+- (oneway void)MutableSet"12;
+- (id);
+- (_Bool);
+- (_Bool)!;
+- (struct _NSZone *);
+
+@optional
+- (NSString *):global:%d exPath:%{public}@ predicates:%{public}@ allow:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

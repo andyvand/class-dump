@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, _PASLock;
-@protocol OS_dispatch_queue, TRIExternalParameterProviding;
+@class NSDate;
+@protocol TRIExternalParameterProviding;
 
 @interface TRIExternalParameterManager
 {
     id <TRIExternalParameterProviding> _paramProvider;
-    _PASLock *_lock;
-    NSString *_plistPath;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
-- (id);
+- (id)isEqualToParallaxLayerStyle:(id)arg1;
+- (void)includeHDRGainMaps;
+- (id)firstVideoTrackFormatDebugDescriptionForAsset:(id)arg1;
+- (id)firstVideoTrackForAsset:resultBlock: /* Error: Ran out of types for this method. */;
+- (void)encodeContentOfDirectoryAtURL:entryPredicate:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)observableAfterDelay:scheduler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)×°!lDù1!ð1Â0@ù

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMSPIRecentEvent
 {
     NSString *_handle;
-    NSDate *_date;
-    NSString *_labelID;
 }
 
+- (id)ed %d;
+- (id)] %s:(id)arg1 %d streamIDCount=%u is greater than max=%u;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)gth != fdrDecode->assemblyID.length;
 - (id);
 - (void);
 - (id);
@@ -25,9 +23,7 @@
 - (void)hreadOriginator:(id)arg1 %@, replyCountsByPart:%@, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', wasDetonated:%@, scheduleType:%@, scheduleState:%@, pendingSatelliteSend:%@, isTimeSensitive:%@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDate *date; // @synthesize date=_date;
 @property(retain) NSString *handle; // @synthesize handle=_handle;
-@property(retain) NSString *labelID; // @synthesize labelID=_labelID;
 
 @end
 

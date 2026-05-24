@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface RFSchemaRFGradingDialogLineTier1 : SISchemaInstrumentationMessage
 {
     NSString *_dialogId;
-    _Bool _isApprovedForGrading;
-    NSString *_spokenDialog;
-    NSString *_displayedDialog;
-    struct {
-        unsigned int isApprovedForGrading:1;
-    } _has;
-    _Bool _hasDialogId;
-    _Bool _hasSpokenDialog;
-    _Bool _hasDisplayedDialog;
 }
 
 - (id);
@@ -31,39 +22,31 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)qB;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)4;
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (id);
-- (id)ameterValues;
+- (id);
+- (id);
+- (void);
+- (unsigned long long)De4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppCapabilities_macOS.m:27 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ifier = ? AND    service_name = ? ORDER BY chat.ROWID ASC;;
+- (id);
+- (id);
+- (id)actionParameterValues;
 - (id)TQ,N,V_foregroundCheckTimeInNs;
-- (void)ClientEvent;
+- (void)homeClientEvent;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dialogId; // @synthesize dialogId=_dialogId;
-@property(copy, nonatomic) NSString *displayedDialog; // @synthesize displayedDialog=_displayedDialog;
-@property(nonatomic) _Bool hasDialogId; // @synthesize hasDialogId=_hasDialogId;
-@property(nonatomic) _Bool hasDisplayedDialog; // @synthesize hasDisplayedDialog=_hasDisplayedDialog;
-@property(nonatomic) _Bool hasIsApprovedForGrading;
-@property(nonatomic) _Bool hasSpokenDialog; // @synthesize hasSpokenDialog=_hasSpokenDialog;
-@property(nonatomic) _Bool isApprovedForGrading; // @synthesize isApprovedForGrading=_isApprovedForGrading;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *spokenDialog; // @synthesize spokenDialog=_spokenDialog;
 
 @end
 

@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, SGTInput, _SGTSpotlightSuggesterTiming;
-
 __attribute__((visibility("hidden")))
 @interface _SGTLegacySpotlightQueryContext
 {
     unsigned long long queryID;
-    NSSet *attributeNames;
-    NSArray *additionalAttributeNames;
-    NSString *inputString;
-    SGTInput *input;
-    struct _NSRange NLRange;
-    _Bool isNLSearch;
-    long long NLScope;
-    _SGTSpotlightSuggesterTiming *timing;
-    _Bool hasFilterQuery;
 }
 
-- (void);
+- (void)endPoint;
 
 @end
 

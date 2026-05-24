@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationLoginChoice, AKAuthorizationScopesUserSelection, NSNumber, NSString;
 @protocol AKCredentialRequestProtocol;
 
 @interface AKAuthorizationUserResponse
 {
     _Bool _requestParentalPermission;
-    id <AKCredentialRequestProtocol> _selectedRequest;
-    AKAuthorizationScopesUserSelection *_userSelection;
-    NSNumber *_loginChoiceIndex;
-    AKAuthorizationLoginChoice *_loginChoice;
-    NSString *_rawAccountPassword;
 }
 
 + (_Bool);
-- (id);
+- (id)$.;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (_Bool);
 - (id);
@@ -38,13 +32,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSelectedSharedAccountForLogin;
-@property(retain, nonatomic) AKAuthorizationLoginChoice *loginChoice; // @synthesize loginChoice=_loginChoice;
-@property(retain, nonatomic) NSNumber *loginChoiceIndex; // @synthesize loginChoiceIndex=_loginChoiceIndex;
-@property(copy, nonatomic) NSString *rawAccountPassword; // @synthesize rawAccountPassword=_rawAccountPassword;
-@property(nonatomic) _Bool requestParentalPermission; // @synthesize requestParentalPermission=_requestParentalPermission;
 @property(retain, nonatomic) id <AKCredentialRequestProtocol> selectedRequest; // @synthesize selectedRequest=_selectedRequest;
-@property(retain, nonatomic) AKAuthorizationScopesUserSelection *userSelection; // @synthesize userSelection=_userSelection;
 
 @end
 

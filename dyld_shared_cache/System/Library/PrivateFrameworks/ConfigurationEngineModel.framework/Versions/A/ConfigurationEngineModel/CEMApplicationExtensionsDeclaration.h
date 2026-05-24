@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMApplicationExtensionsDeclaration : CEMConfigurationBase
 {
     NSArray *_payloadAllowedExtensions;
-    NSArray *_payloadDeniedExtensions;
-    NSArray *_payloadDeniedExtensionPoints;
 }
 
 + (id);
@@ -33,21 +31,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccdddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffffffffffffffffffffffffggghiiijkkkkkkkkkkll.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmommmm............mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmmmmmmmmmmmmm..................pppp.ppppppppppppppppppppppppppp.pp.p..p.pppppppppp.pppp.p.p......p....p.p.p.ppp.pp.p..p.p.p.p.p.pp.p..pppp.ppppppp.pppp.pppp.p.pppppppppp.ppppppppppppppppp.....ppp.ppppp.ppppppppppppppppp..................................................................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadAllowedExtensions; // @synthesize payloadAllowedExtensions=_payloadAllowedExtensions;
-@property(copy, nonatomic) NSArray *payloadDeniedExtensionPoints; // @synthesize payloadDeniedExtensionPoints=_payloadDeniedExtensionPoints;
-@property(copy, nonatomic) NSArray *payloadDeniedExtensions; // @synthesize payloadDeniedExtensions=_payloadDeniedExtensions;
-@property(readonly) Class superclass;
 
 @end
 

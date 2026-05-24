@@ -10,16 +10,13 @@
 - (_Bool);
 - (void)ÿÿ?;
 - (void)tMenuForTextInRange:(_Bool)arg1 suggestedActions:instead. /* Error: Ran out of types for this method. */;
-- (void)ParentStackAlignmentFrame;
-- (void)ndTransparentWhenNotCollapsed;
+- (void)hostParentStackAlignmentFrame;
+- (void)backgroundTransparentWhenNotCollapsed;
 - (void)Header/Footer;
 - (double)pshot on next launch:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double fractionComplete;
-@property(nonatomic, getter=isReversed) _Bool reversed;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
 @property(readonly, nonatomic) long long state;
 @end
 

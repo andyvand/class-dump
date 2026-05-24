@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObject, NSManagedObjectContext;
+@class NSManagedObject, NSManagedObjectContext;
 
 @interface MFSeenMessagesManager
 {
     NSManagedObject *_account;
-    NSManagedObjectContext *_managedObjectContext;
 }
 
 + (_Bool);
@@ -23,22 +22,18 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)�;
 - (id);
-- (id);
+- (id)4I;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)2;
+- (id)`B;
 - (void)4|;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSManagedObject *account; // @synthesize account=_account;
-@property(readonly, nonatomic) unsigned long long countOfSeenMessages;
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly, copy, nonatomic) NSArray *messagesToBeDeletedFromServer;
-@property(readonly, copy, nonatomic) NSArray *seenMessages;
 
 @end
 

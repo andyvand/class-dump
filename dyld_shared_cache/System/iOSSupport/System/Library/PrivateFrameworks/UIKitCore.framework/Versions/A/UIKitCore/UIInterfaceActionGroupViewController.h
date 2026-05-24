@@ -6,30 +6,26 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, UIInterfaceActionGroup, UIInterfaceActionGroupView, UIInterfaceActionVisualStyle;
-@protocol UIInterfaceActionVisualStyleProviding;
+@class UIInterfaceActionGroup;
 
 @interface UIInterfaceActionGroupViewController : UIViewController
 {
     _Bool _springLoaded;
-    id <UIInterfaceActionVisualStyleProviding> _visualStyleProvider;
-    UIInterfaceActionGroupView *_actionGroupView;
-    UIInterfaceActionGroup *_actionGroup;
 }
 
+- (void)is nil when attempting to update a message;
+- (void)ateOnLaunch:(id)arg1 %@;
+- (id)nil>;
+- (id));
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)c;
 - (id)
 × ;
-- (void)anguage:(_Bool)arg1;
+- (void)grammarGuessesForRange:(_Bool)arg1 inString:language: /* Error: Ran out of types for this method. */;
 - (void)GisBeingDismissed;
-- (void)earching;
+- (void)_UITextSearching;
 - (void)Ô Íè^;
 - (void)<5êÿ;
 - (void)äig;
@@ -37,17 +33,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIInterfaceActionGroup *actionGroup; // @synthesize actionGroup=_actionGroup;
-@property(readonly, copy, nonatomic) UIInterfaceActionGroupView *actionGroupView; // @synthesize actionGroupView=_actionGroupView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isSpringLoaded) _Bool springLoaded; // @synthesize springLoaded=_springLoaded;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIInterfaceActionVisualStyle *visualStyle;
-@property(nonatomic) __weak id <UIInterfaceActionVisualStyleProviding> visualStyleProvider; // @synthesize visualStyleProvider=_visualStyleProvider;
 
 @end
 

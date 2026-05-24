@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKClient_Modern, NSMutableArray, NSMutableDictionary, NSString, NSXPCConnection;
+@class IMKClient_Modern;
 
 __attribute__((visibility("hidden")))
 @interface IMKInputSession_Modern
 {
     IMKClient_Modern *_client;
-    NSMutableDictionary *_supportedEvents;
-    int _eventStatus;
-    struct OpaqueTSMDocumentID *_tsmDocument;
-    long long _charactersEntered;
-    struct _NSRange _markedRange;
-    _Bool _supportsDocumentAccess;
-    long long _eventPending;
-    _Bool _commiting;
-    _Bool _sessionFinishedPreviously;
-    _Bool _allowRetryOnInvalidPortException;
-    _Bool didActivate;
-    _Bool activatePending;
-    _Bool deferredActivatePending;
-    _Bool deferredActivateHaveEventsQueued;
-    _Bool deferredActivateHaveInputSessionActionsQueued;
-    NSMutableArray *queuedInputSessionActions;
-    NSMutableArray *queuedDeferredEvents;
-    NSString *deferredActivateInputMode;
-    NSMutableDictionary *placeholdersCachedWeakRef;
-    NSMutableDictionary *_pendingEvents;
-    NSXPCConnection *inputMethodXPCConnection;
-    id touchBarViewController;
 }
 
 + (void);
@@ -48,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,14 +44,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);N{;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (void);
@@ -129,9 +107,9 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
@@ -158,10 +136,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)!;
+- (void)v_;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)Nv_;
 - (void);
 - (void);
 - (void);
@@ -190,12 +168,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -237,8 +215,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)ɀ;
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -257,24 +235,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct _NSRange);
-- (struct _NSRange)y: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)initWithCapacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool _allowRetryOnInvalidPortException; // @synthesize _allowRetryOnInvalidPortException;
-@property _Bool activatePending; // @synthesize activatePending;
-@property _Bool deferredActivateHaveEventsQueued; // @synthesize deferredActivateHaveEventsQueued;
-@property _Bool deferredActivateHaveInputSessionActionsQueued; // @synthesize deferredActivateHaveInputSessionActionsQueued;
-@property(retain, nonatomic) NSString *deferredActivateInputMode; // @synthesize deferredActivateInputMode;
-@property _Bool deferredActivatePending; // @synthesize deferredActivatePending;
-@property _Bool didActivate; // @synthesize didActivate;
-@property(retain, nonatomic) NSXPCConnection *inputMethodXPCConnection; // @synthesize inputMethodXPCConnection;
-@property(retain, nonatomic) NSMutableArray *queuedDeferredEvents; // @synthesize queuedDeferredEvents;
-@property(retain, nonatomic) NSMutableArray *queuedInputSessionActions; // @synthesize queuedInputSessionActions;
-@property(retain, nonatomic) id touchBarViewController; // @synthesize touchBarViewController;
 
 @end
 

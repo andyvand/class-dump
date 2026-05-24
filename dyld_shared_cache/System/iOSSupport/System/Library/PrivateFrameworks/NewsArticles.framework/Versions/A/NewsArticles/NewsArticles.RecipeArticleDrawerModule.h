@@ -7,9 +7,6 @@
 @interface NewsArticles.RecipeArticleDrawerModule
 {
     id baseStyler;
-    id tracker;
-    id router;
-    id paidAccessChecker;
 }
 
 @end

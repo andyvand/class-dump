@@ -6,21 +6,16 @@
 
 #import <MapKit/MKPlaceCardRemoteUIHostViewController.h>
 
-@class MKMapItem;
-
 __attribute__((visibility("hidden")))
 @interface MKFullDeveloperPlaceCardRemoteUIHostViewController : MKPlaceCardRemoteUIHostViewController
 {
     _Bool _isStandAlonePlaceCard;
-    MKMapItem *_mapItem;
-    _Bool _dismissButtonDisplayed;
-    _Bool _hideInlineMap;
 }
 
-- (id);
-- (id);
+- (id)T;
+- (id)T;
 - (void);
-- (void)llStartRotating: /* Error: Ran out of types for this method. */;
+- (void)gestureControllerWillStartRotating: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)is->getImagePropertiesAtIndex() is nil
+;
 @end
 

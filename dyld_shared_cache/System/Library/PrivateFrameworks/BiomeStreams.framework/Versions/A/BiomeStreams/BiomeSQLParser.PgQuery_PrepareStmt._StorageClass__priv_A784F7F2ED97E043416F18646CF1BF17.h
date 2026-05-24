@@ -7,8 +7,6 @@
 @interface BiomeSQLParser.PgQuery_PrepareStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _name;
-    id _argtypes;
-    id _query;
 }
 
 @end

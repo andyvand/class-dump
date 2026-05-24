@@ -11,53 +11,25 @@
 @interface UIKit._UITabBarVisualProvider_Floating : _UITabBarVisualProvider
 {
     id $__lazy_storage_$_configuration;
-    id platterView;
-    id lensView;
-    id lensViewTargetPosition;
-    id lensViewFrame;
-    id isLensViewHidden;
-    id selectedContentView;
-    id auxiliaryView;
-    id suppressAuxiliarySearch;
-    id accessoryView;
-    id collapsePlatterView;
-    id collapseButton;
-    id scrollAwayInteraction;
-    id scrollPocketInteraction;
-    id itemForCollapseButton;
-    id tabBarButtons;
-    id tabBarButtonsForItem;
-    id isAnimatingCollapsedState;
-    id selectionGestureRecognizer;
-    id pointerInteraction;
-    id isCustomizingTabBar;
-    id _backgroundTransitionProgress;
-    id _useModernAppearance;
-    id highlightedItem;
-    id highlightedItemIndex;
-    id highlightAnchorPoint;
-    id shouldReselectHighlightedItemOnLift;
-    id selectionGestureInitialLocation;
-    id shouldFailSelectionOnLiftOutside;
 }
 
-+ (_Bool);
++ (_Bool)CloudKitRecordKey;
 - (void);
 - (id);
+- (void)tring"24@"NSArray"32@"NSString"40@"NSAttributedString"48@"NSString"56q64B72q76@"NSDictionary"84@?<v@?q@"NSDictionary">92;
+- (id)updateLastMessageForChat:(struct CGPoint)arg1 hintMessage:historyQuery: /* Error: Ran out of types for this method. */;
+- (_Bool)setLoginStatus:message:reason:properties: /* Error: Ran out of types for this method. */;
+- (void)groupPhotoGuid;
+- (void)databaseUpdated:(long long)arg1;
+- (void)activeAccountsAreEligibleForFilterUnknownSendersByDefault;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)_shouldBroadcastDeltas;
+- (void)__im_chatPredicateForServiceNames:(id)arg1;
+- (void)V_groupID;
+- (void)y",&,N,V_personCentricGroupedChatsCache;
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void)+;
 - (struct CGRect);
 - (id);
 - (void);
@@ -67,17 +39,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)startItemPlayParameters;
+- (void)Title;
 - (id);
 - (void);
 - (id)fð1Â0@ù
 × ;
 - (void);
-- (void):inView: /* Error: Ran out of types for this method. */;
-- (void)iewShouldAutoHide:(id)arg1;
-- (void)e:(id)arg1;
-- (id)teraction;
+- (void)showServiceForText:type:fromRect:inView: /* Error: Ran out of types for this method. */;
+- (void)setTableHeaderViewShouldAutoHide:(id)arg1;
+- (void)initFromData:(id)arg1 type:boolValue: /* Error: Ran out of types for this method. */;
+- (id)_edgeEffectViewInteraction;
 - (void)inations:(id)arg1;
 - (void)_UIVelocityIntegrator",&,N,V_locationIntegrator;
 - (void)abs;
@@ -87,7 +59,7 @@
 - (void)tionDistance may only be changed while _manualScrollEdgeAppearanceEnabled==NO;
 - (struct CGSize)source;
 - (id);
-- (id)mizedProperties;
+- (id)CustomizedProperties;
 - (void);A_;
 - (void)ðÖÝÿ&c];
 - (void)§Ïü`;
@@ -100,10 +72,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) id <_UIBarAppearanceChangeObserver> appearanceObserver;
-@property(nonatomic) double backgroundTransitionProgress;
-@property(nonatomic) long long currentMorphTarget;
-@property(nonatomic) long long hostedElements;
-@property(nonatomic) _Bool useModernAppearance;
 
 @end
 

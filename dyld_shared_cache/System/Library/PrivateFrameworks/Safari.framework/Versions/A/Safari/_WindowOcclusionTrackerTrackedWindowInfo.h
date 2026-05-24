@@ -5,27 +5,22 @@
 //
 
 @class NSWindow;
-@protocol WindowOcclusionTrackerObserver;
 
 __attribute__((visibility("hidden")))
 @interface _WindowOcclusionTrackerTrackedWindowInfo
 {
     double _ratioOfOcclusion;
-    _Bool _wasOccluded;
-    NSWindow *_window;
-    id <WindowOcclusionTrackerObserver> _observer;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)C;
 - (void) ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <WindowOcclusionTrackerObserver> observer; // @synthesize observer=_observer;
 @property(readonly, nonatomic) NSWindow *window; // @synthesize window=_window;
 
 @end

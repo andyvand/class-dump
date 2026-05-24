@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolCSSSourceRange;
+@class NSString;
 
 @interface RWIProtocolCSSProperty : RWIProtocolJSONObject
 {
@@ -20,25 +20,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)a;
 - (void);
 - (id)X;
 
 // Remaining properties
-@property(nonatomic) _Bool implicit;
 @property(copy, nonatomic) NSString *name;
-@property(nonatomic) _Bool parsedOk;
-@property(copy, nonatomic) NSString *priority;
-@property(retain, nonatomic) RWIProtocolCSSSourceRange *range;
-@property(nonatomic) long long status;
-@property(copy, nonatomic) NSString *text;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

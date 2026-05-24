@@ -4,50 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufCustomPrecisionAmount, PKProtobufNSDecimalNumber;
-
 @interface PKProtobufPaymentApplication
 {
     long long _inAppPINRequiredAmount;
-    long long _inAppPriority;
-    NSString *_apanIdentifier;
-    NSString *_apanSuffix;
-    NSString *_applicationIdentifier;
-    unsigned int _auxiliaryPaymentType;
-    PKProtobufNSDecimalNumber *_balanceInAppPINRequiredAmount;
-    PKProtobufCustomPrecisionAmount *_customPrecisionInAppPINRequiredAmount;
-    NSString *_displayName;
-    NSString *_dpanIdentifier;
-    NSString *_dpanSuffix;
-    NSString *_inAppPINRequiredCurrency;
-    unsigned int _paymentNetworkIdentifier;
-    unsigned int _paymentType;
-    NSString *_sanitizedDpan;
-    NSString *_secureElementIdenfitier;
-    unsigned int _state;
-    NSString *_suspendedReason;
-    _Bool _auxiliary;
-    _Bool _inAppPINRequired;
-    _Bool _supportsContactlessPayment;
-    _Bool _supportsInAppPayment;
-    _Bool _supportsInstantFundsIn;
-    _Bool _supportsMerchantTokens;
-    _Bool _supportsMultiTokensV2;
-    struct {
-        unsigned int inAppPINRequiredAmount:1;
-        unsigned int inAppPriority:1;
-        unsigned int auxiliaryPaymentType:1;
-        unsigned int paymentNetworkIdentifier:1;
-        unsigned int paymentType:1;
-        unsigned int state:1;
-        unsigned int auxiliary:1;
-        unsigned int inAppPINRequired:1;
-        unsigned int supportsContactlessPayment:1;
-        unsigned int supportsInAppPayment:1;
-        unsigned int supportsInstantFundsIn:1;
-        unsigned int supportsMerchantTokens:1;
-        unsigned int supportsMultiTokensV2:1;
-    } _has;
 }
 
 - (_Bool);
@@ -58,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (void);
@@ -94,19 +53,19 @@
 - (long long);
 - (_Bool);
 - (_Bool);
+- (_Bool)V;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)߈;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -122,12 +81,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -135,71 +94,22 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned int);
-- (_Bool);
+- (unsigned int)scaron;
+- (_Bool)eBand"b1"issueType"b1"hasAntConstraint"b1"isCoexBand"b1};
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
-- (_Bool)ompletion: /* Error: Ran out of types for this method. */;
-- (id)dentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)Channels;
+- (_Bool)rescindInvitations:onCredential:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)peerPaymentAccountWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)_allowedSharingChannels;
 - (_Bool)with start date:%@ end date:%@. Start date is after end date /* Error: Ran out of types for this method. */;
-- (void)RVICE_PROVIDER_UNAVAILABLE_ERROR_DESCRIPTION;
+- (void)ACCOUNT_SERVICE_PROVIDER_UNAVAILABLE_ERROR_DESCRIPTION;
 - (void)T~³ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apanIdentifier; // @synthesize apanIdentifier=_apanIdentifier;
-@property(retain, nonatomic) NSString *apanSuffix; // @synthesize apanSuffix=_apanSuffix;
-@property(retain, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(nonatomic) _Bool auxiliary; // @synthesize auxiliary=_auxiliary;
-@property(nonatomic) unsigned int auxiliaryPaymentType; // @synthesize auxiliaryPaymentType=_auxiliaryPaymentType;
-@property(retain, nonatomic) PKProtobufNSDecimalNumber *balanceInAppPINRequiredAmount; // @synthesize balanceInAppPINRequiredAmount=_balanceInAppPINRequiredAmount;
-@property(retain, nonatomic) PKProtobufCustomPrecisionAmount *customPrecisionInAppPINRequiredAmount; // @synthesize customPrecisionInAppPINRequiredAmount=_customPrecisionInAppPINRequiredAmount;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(retain, nonatomic) NSString *dpanSuffix; // @synthesize dpanSuffix=_dpanSuffix;
-@property(readonly, nonatomic) _Bool hasApanIdentifier;
-@property(readonly, nonatomic) _Bool hasApanSuffix;
-@property(readonly, nonatomic) _Bool hasApplicationIdentifier;
-@property(nonatomic) _Bool hasAuxiliary;
-@property(nonatomic) _Bool hasAuxiliaryPaymentType;
-@property(readonly, nonatomic) _Bool hasBalanceInAppPINRequiredAmount;
-@property(readonly, nonatomic) _Bool hasCustomPrecisionInAppPINRequiredAmount;
-@property(readonly, nonatomic) _Bool hasDisplayName;
 @property(readonly, nonatomic) _Bool hasDpanIdentifier;
-@property(readonly, nonatomic) _Bool hasDpanSuffix;
-@property(nonatomic) _Bool hasInAppPINRequired;
-@property(nonatomic) _Bool hasInAppPINRequiredAmount;
-@property(readonly, nonatomic) _Bool hasInAppPINRequiredCurrency;
-@property(nonatomic) _Bool hasInAppPriority;
-@property(nonatomic) _Bool hasPaymentNetworkIdentifier;
-@property(nonatomic) _Bool hasPaymentType;
-@property(readonly, nonatomic) _Bool hasSanitizedDpan;
-@property(readonly, nonatomic) _Bool hasSecureElementIdenfitier;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasSupportsContactlessPayment;
-@property(nonatomic) _Bool hasSupportsInAppPayment;
-@property(nonatomic) _Bool hasSupportsInstantFundsIn;
-@property(nonatomic) _Bool hasSupportsMerchantTokens;
-@property(nonatomic) _Bool hasSupportsMultiTokensV2;
-@property(readonly, nonatomic) _Bool hasSuspendedReason;
-@property(nonatomic) _Bool inAppPINRequired; // @synthesize inAppPINRequired=_inAppPINRequired;
-@property(nonatomic) long long inAppPINRequiredAmount; // @synthesize inAppPINRequiredAmount=_inAppPINRequiredAmount;
-@property(retain, nonatomic) NSString *inAppPINRequiredCurrency; // @synthesize inAppPINRequiredCurrency=_inAppPINRequiredCurrency;
-@property(nonatomic) long long inAppPriority; // @synthesize inAppPriority=_inAppPriority;
-@property(nonatomic) unsigned int paymentNetworkIdentifier; // @synthesize paymentNetworkIdentifier=_paymentNetworkIdentifier;
-@property(nonatomic) unsigned int paymentType; // @synthesize paymentType=_paymentType;
-@property(retain, nonatomic) NSString *sanitizedDpan; // @synthesize sanitizedDpan=_sanitizedDpan;
-@property(retain, nonatomic) NSString *secureElementIdenfitier; // @synthesize secureElementIdenfitier=_secureElementIdenfitier;
-@property(nonatomic) unsigned int state; // @synthesize state=_state;
-@property(nonatomic) _Bool supportsContactlessPayment; // @synthesize supportsContactlessPayment=_supportsContactlessPayment;
-@property(nonatomic) _Bool supportsInAppPayment; // @synthesize supportsInAppPayment=_supportsInAppPayment;
-@property(nonatomic) _Bool supportsInstantFundsIn; // @synthesize supportsInstantFundsIn=_supportsInstantFundsIn;
-@property(nonatomic) _Bool supportsMerchantTokens; // @synthesize supportsMerchantTokens=_supportsMerchantTokens;
-@property(nonatomic) _Bool supportsMultiTokensV2; // @synthesize supportsMultiTokensV2=_supportsMultiTokensV2;
-@property(retain, nonatomic) NSString *suspendedReason; // @synthesize suspendedReason=_suspendedReason;
 
 @end
 

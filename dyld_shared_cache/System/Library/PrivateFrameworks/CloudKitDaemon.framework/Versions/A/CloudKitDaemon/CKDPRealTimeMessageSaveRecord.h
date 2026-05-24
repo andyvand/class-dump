@@ -13,21 +13,20 @@
 
 - (_Bool);
 - (id);
-- (void);
+- (void)_cntrl_"^{__shared_weak_count}};
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)shouldTransmitDataImmediately(FigEndpointStreamAudioEngineRef);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)PCS;
+- (void)PrivatePCS;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRecord;
-@property(retain, nonatomic) CKDPRecord *record; // @synthesize record=_record;
 
 @end
 

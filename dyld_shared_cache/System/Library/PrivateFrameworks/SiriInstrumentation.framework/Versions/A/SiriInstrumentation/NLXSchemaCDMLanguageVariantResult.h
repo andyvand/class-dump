@@ -6,20 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMParser, NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMLanguageVariantResult : SISchemaInstrumentationMessage
 {
     NSArray *_multilingualVariants;
-    NLXSchemaCDMParser *_cdmParser;
-    _Bool _hasCdmParser;
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)�C;
 - (id);
 - (_Bool);
 - (void);
@@ -27,13 +25,13 @@
 - (id);
 - (void);
 - (void);
+- (id)D;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)RSA_ITEM_VERIFY;
+- (unsigned long long)ެ;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (id)!hBùÑÞð1Â0@ù
 × ;
 - (id)lectedSharedUserId;
@@ -41,9 +39,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaCDMParser *cdmParser; // @synthesize cdmParser=_cdmParser;
-@property(nonatomic) _Bool hasCdmParser; // @synthesize hasCdmParser=_hasCdmParser;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *multilingualVariants; // @synthesize multilingualVariants=_multilingualVariants;
 
 @end

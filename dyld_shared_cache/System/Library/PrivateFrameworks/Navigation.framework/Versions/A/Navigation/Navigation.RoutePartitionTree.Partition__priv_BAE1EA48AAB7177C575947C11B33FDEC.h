@@ -7,8 +7,6 @@
 @interface Navigation.RoutePartitionTree.Partition__priv_BAE1EA48AAB7177C575947C11B33FDEC
 {
     id _routeCoordinateRange;
-    id _bounds;
-    id _children;
 }
 
 @end

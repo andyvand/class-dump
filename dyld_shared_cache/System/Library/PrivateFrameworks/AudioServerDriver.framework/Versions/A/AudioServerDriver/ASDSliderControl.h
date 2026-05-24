@@ -6,15 +6,9 @@
 
 #import <AudioServerDriver/ASDControl.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ASDSliderControl : ASDControl
 {
     unsigned int _value;
-    struct _ASDSliderRange _range;
-    NSObject<OS_dispatch_queue> *_valueQueue;
-    _Bool _settable;
 }
 
 + (id);
@@ -27,21 +21,19 @@
 - (unsigned int);
 - (void);
 - (struct _ASDSliderRange);
-- (void);
-- (unsigned int);
+- (void)%;
+- (unsigned int)numPfail;
 - (_Bool);
-- (unsigned int);
+- (unsigned int)customConnectionProperties;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)state_data_s=I(?=b32I){os_state_data_decoder_s=[64c][64c]}[64c][0C]}16@?0^{os_state_hints_s=I*II}8;
+- (id);
 
 // Remaining properties
-@property(nonatomic) struct _ASDSliderRange range; // @dynamic range;
-@property(readonly, nonatomic, getter=isSettable) _Bool settable; // @synthesize settable=_settable;
 @property(nonatomic) unsigned int value; // @dynamic value;
 
 @end

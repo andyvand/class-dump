@@ -13,7 +13,7 @@
 - (id);
 - (int);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 

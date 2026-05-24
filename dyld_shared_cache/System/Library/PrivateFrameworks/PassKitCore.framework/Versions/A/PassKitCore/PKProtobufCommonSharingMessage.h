@@ -4,123 +4,77 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKProtobufCommonSharingMessage
 {
     NSString *_actionURL;
-    NSString *_buttonTitle;
-    NSString *_dataString;
-    NSData *_messageData;
-    NSString *_messageType;
-    NSData *_passThumbnailImage;
-    NSString *_phoneInvitation;
-    int _status;
-    NSString *_subtitle;
-    NSData *_thumbnailImage;
-    NSString *_title;
-    NSString *_topLeftTitle;
-    NSString *_topRightTitle;
-    NSString *_uniqueIdentifier;
-    unsigned int _version;
-    NSString *_watchInvitation;
-    CDStruct_47fe53f2 _has;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)V;
+- (void)ԡV;
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool)B;
+- (_Bool);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned int)@;
+- (id)�;;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned long long)@;
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool)hitTest: /* Error: Ran out of types for this method. */;
+- (_Bool)nel"b1"migrationRole"b1"peerRssi"b1"txFailureCount"b1};
+- (id)setHasBytesRetransmitted: /* Error: Ran out of types for this method. */;
+- (void)i,N,V_trainingTime;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (int);
 - (id);
 - (id)Y"ð!@GùÑð%°1Â0@ù
 × ;
-- (_Bool)loadState;
+- (_Bool)_payloadState;
 - (id)onTitle;
 - (id)a;
 - (void);
-- (int)_REWARDS_PERCENT_FORMAT;
+- (int)TRANSACTION_REWARDS_PERCENT_FORMAT;
 - (void)se App Clip or Web Page;
-- (void)enTransaction;
+- (void)isMerchantTokenTransaction;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionURL; // @synthesize actionURL=_actionURL;
-@property(retain, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(retain, nonatomic) NSString *dataString; // @synthesize dataString=_dataString;
-@property(readonly, nonatomic) _Bool hasActionURL;
-@property(readonly, nonatomic) _Bool hasButtonTitle;
-@property(readonly, nonatomic) _Bool hasDataString;
-@property(readonly, nonatomic) _Bool hasMessageData;
-@property(readonly, nonatomic) _Bool hasMessageType;
-@property(readonly, nonatomic) _Bool hasPassThumbnailImage;
-@property(readonly, nonatomic) _Bool hasPhoneInvitation;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasSubtitle;
-@property(readonly, nonatomic) _Bool hasThumbnailImage;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly, nonatomic) _Bool hasTopLeftTitle;
-@property(readonly, nonatomic) _Bool hasTopRightTitle;
-@property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(readonly, nonatomic) _Bool hasWatchInvitation;
-@property(retain, nonatomic) NSData *messageData; // @synthesize messageData=_messageData;
-@property(retain, nonatomic) NSString *messageType; // @synthesize messageType=_messageType;
-@property(retain, nonatomic) NSData *passThumbnailImage; // @synthesize passThumbnailImage=_passThumbnailImage;
-@property(retain, nonatomic) NSString *phoneInvitation; // @synthesize phoneInvitation=_phoneInvitation;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSData *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *topLeftTitle; // @synthesize topLeftTitle=_topLeftTitle;
-@property(retain, nonatomic) NSString *topRightTitle; // @synthesize topRightTitle=_topRightTitle;
-@property(retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
-@property(retain, nonatomic) NSString *watchInvitation; // @synthesize watchInvitation=_watchInvitation;
 
 @end
 

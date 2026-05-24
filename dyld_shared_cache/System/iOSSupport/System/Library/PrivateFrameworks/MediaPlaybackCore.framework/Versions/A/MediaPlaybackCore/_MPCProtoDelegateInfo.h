@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MPCProtoDelegateInfoTokenA, _MPCProtoDelegateInfoTokenB, _MPCProtoDelegateInfoTokenE;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoDelegateInfo
 {
@@ -14,24 +12,6 @@ __attribute__((visibility("hidden")))
         unsigned long long count;
         unsigned long long size;
     } _accountCapabilities;
-    unsigned long long _accountID;
-    long long _delegateInfoID;
-    NSString *_deviceGUID;
-    NSString *_deviceName;
-    NSString *_requestUserAgent;
-    int _systemReleaseType;
-    NSString *_timeZoneName;
-    _MPCProtoDelegateInfoTokenA *_tokenA;
-    _MPCProtoDelegateInfoTokenB *_tokenB;
-    _MPCProtoDelegateInfoTokenE *_tokenE;
-    NSString *_uuid;
-    _Bool _privateListeningEnabled;
-    struct {
-        unsigned int accountID:1;
-        unsigned int delegateInfoID:1;
-        unsigned int systemReleaseType:1;
-        unsigned int privateListeningEnabled:1;
-    } _has;
 }
 
 + (id);

@@ -7,6 +7,9 @@
 @protocol HMSoftwareUpdateDocumentationAssetExtractorDelegate;
 
 @protocol HMSoftwareUpdateDocumentationAssetExtractor
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <HMSoftwareUpdateDocumentationAssetExtractorDelegate> extractorDelegate;

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, NSUndoManager, PXContentPrivacyController;
+@class NSUndoManager;
 
 @interface PXUndoActionsInvalidator
 {
     _Bool _observingApplicationState;
-    _Bool _applicationIsActive;
-    _Bool _timerDidClearUndoStack;
-    NSUndoManager *_undoManager;
-    PXContentPrivacyController *_privacyController;
-    NSTimer *_undoClearingTimer;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,18 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool applicationIsActive; // @synthesize applicationIsActive=_applicationIsActive;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isObservingApplicationState) _Bool observingApplicationState; // @synthesize observingApplicationState=_observingApplicationState;
-@property(retain, nonatomic) PXContentPrivacyController *privacyController; // @synthesize privacyController=_privacyController;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool timerDidClearUndoStack; // @synthesize timerDidClearUndoStack=_timerDidClearUndoStack;
-@property(retain, nonatomic) NSTimer *undoClearingTimer; // @synthesize undoClearingTimer=_undoClearingTimer;
 @property(retain, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end

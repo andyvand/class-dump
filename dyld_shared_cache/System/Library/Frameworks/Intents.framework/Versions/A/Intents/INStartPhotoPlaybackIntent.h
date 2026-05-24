@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSString;
+@class INDateComponentsRange;
 
 @interface INStartPhotoPlaybackIntent : INIntent
 {
@@ -21,7 +21,7 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)C;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -35,32 +35,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)hh8;
 - (void);
 - (id);
+- (void);
+- (id));
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *albumName;
 @property(readonly, copy) INDateComponentsRange *dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long excludedAttributes;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long includedAttributes;
-@property(readonly, copy) CLPlacemark *locationCreated;
-@property(readonly, copy) NSArray *peopleInPhoto;
-@property(readonly) long long peopleInPhotoOperator;
-@property(readonly, copy) NSArray *searchTerms;
-@property(readonly) long long searchTermsOperator;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.WebEmbedCache
 {
     id ownerCache;
-    id prepareSize;
-    id count;
 }
 
 @end

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIOuterBevelEmbossFilterLocal
 {
     CIImage *inputImage;
-    NSNumber *inputSize;
-    NSNumber *inputAngle;
-    NSNumber *inputAltitude;
-    CIColor *inputHighlightColor;
-    CIColor *inputShadowColor;
-    NSNumber *inputSoften;
 }
 
 + (id);
+- (void))ЇR?;
+- (void);
+- (id);
+- (id);
+- (id)X;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIColor *inputHighlightColor; // @synthesize inputHighlightColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIColor *inputShadowColor; // @synthesize inputShadowColor;
-@property(retain, nonatomic) NSNumber *inputSize; // @synthesize inputSize;
-@property(retain, nonatomic) NSNumber *inputSoften; // @synthesize inputSoften;
 
 @end
 

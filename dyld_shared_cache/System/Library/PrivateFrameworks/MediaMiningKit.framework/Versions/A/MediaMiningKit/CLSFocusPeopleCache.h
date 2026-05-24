@@ -9,8 +9,6 @@
 @interface CLSFocusPeopleCache
 {
     NSSet *_personLocalIdentifiers;
-    unsigned long long _maximumNumberOfPeople;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (id);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long maximumNumberOfPeople; // @synthesize maximumNumberOfPeople=_maximumNumberOfPeople;
-@property(readonly, nonatomic) NSSet *personLocalIdentifiers; // @synthesize personLocalIdentifiers=_personLocalIdentifiers;
 @property(nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end

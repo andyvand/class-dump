@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol HMDAccessoryMediaPrivilegeCapable
+- (void)orderedSetWithArray:(NSString *)arg1;
+- (void)objectsAtIndexes:(long long)arg1;
+- (void)objectForKey:(_Bool)arg1;
 @end
 

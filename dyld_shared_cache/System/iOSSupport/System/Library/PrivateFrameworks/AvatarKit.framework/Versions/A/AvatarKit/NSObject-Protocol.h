@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (oneway void)__objc_methlist;
+- (NSString *)h_GnssPsr_RavenConvergence;
+- (unsigned long long)�;
+- (_Bool)ath;
 - (struct _NSZone *)r:[Cache] Failed to delete %@ with error %@ /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

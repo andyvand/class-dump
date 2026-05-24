@@ -9,15 +9,6 @@
 @interface GLKEffectPropertyTexGen : GLKEffectProperty
 {
     int _mode;
-    float *_plane;
-    int _coord;
-    int _modeLoc;
-    int _planeLoc;
-    int _eyePlaneByInvModelviewLoc;
-    unsigned int _textureIndex;
-    float *_eyePlaneByInvModelview;
-    char *_modeNameString;
-    char *_planeNameString;
 }
 
 - (unsigned int);
@@ -25,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t.;
 - (void);
 - (void);
 - (void);
@@ -40,24 +31,15 @@
 - (int);
 - (void);
 - (char *);
-- (float *);
-- (void);
+- (float *)) "Saving likeness for primary iCloud account...";
+- (void);
 - (int);
-- (id);
+- (id)֤;
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) int coord; // @synthesize coord=_coord;
 @property(nonatomic) float *eyePlaneByInvModelview; // @synthesize eyePlaneByInvModelview=_eyePlaneByInvModelview;
-@property(nonatomic) int eyePlaneByInvModelviewLoc; // @synthesize eyePlaneByInvModelviewLoc=_eyePlaneByInvModelviewLoc;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
-@property(nonatomic) int modeLoc; // @synthesize modeLoc=_modeLoc;
-@property(nonatomic) char *modeNameString; // @synthesize modeNameString=_modeNameString;
-@property(nonatomic) float *plane; // @synthesize plane=_plane;
-@property(nonatomic) int planeLoc; // @synthesize planeLoc=_planeLoc;
-@property(nonatomic) char *planeNameString; // @synthesize planeNameString=_planeNameString;
-@property(nonatomic) unsigned int textureIndex; // @synthesize textureIndex=_textureIndex;
 
 @end
 

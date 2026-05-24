@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface AMSContentRating
 {
     NSString *_contentRatingID;
-    NSURL *_imageURL;
-    NSString *_kind;
-    NSString *_label;
-    NSString *_name;
-    NSString *_ratingDescription;
-    NSArray *_types;
-    NSNumber *_value;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)IMMetricsCollectorFourthLevelErrorDomainKey;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)er:(id)arg1 selector:name:object: /* Error: Ran out of types for this method. */;
+- (id)addObserver:(id)arg1 selector:name:object: /* Error: Ran out of types for this method. */;
 - (id)ö;
 - (void)fÎi^$\OþãDCh'ø®âÜ>Ü9æ9M¤
 OÐÄòD	°Çw½9ÂOs¬«~*íÂYØ;
@@ -35,13 +28,6 @@ OÐÄòD	°Çw½9ÂOs¬«~*íÂYØ;
 
 // Remaining properties
 @property(readonly) NSString *contentRatingID; // @synthesize contentRatingID=_contentRatingID;
-@property(readonly) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly) NSString *kind; // @synthesize kind=_kind;
-@property(readonly) NSString *label; // @synthesize label=_label;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *ratingDescription; // @synthesize ratingDescription=_ratingDescription;
-@property(readonly) NSArray *types; // @synthesize types=_types;
-@property(readonly) NSNumber *value; // @synthesize value=_value;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, TIImageCacheClient, _UIActionWhenIdle;
+@class TIImageCacheClient, _UIActionWhenIdle;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardCache
 {
     TIImageCacheClient *_store;
-    NSSet *_layouts;
-    NSMutableSet *_activeRenderers;
-    _UIActionWhenIdle *_idleAction;
 }
 
 + (_Bool);
@@ -20,19 +17,19 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
+- (void)received Message ID Send Failure Message From Push Handler;
+- (void)to recently deleted.;
+- (void)xAttributesModified;
+- (id)roller beginPeriodicSyncWithActivity:(id)arg1 ];
+- (void)BlastDoorBasicTextMessage;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (struct CGImage *);
 - (struct CGImage *);
-- (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *)IMDInternalWorkQueue;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)LocalIdentifier;
 - (id);
 - (void);
 - (id)@ù

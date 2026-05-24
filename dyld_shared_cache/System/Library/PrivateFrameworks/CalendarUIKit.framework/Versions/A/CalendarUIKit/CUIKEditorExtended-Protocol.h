@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol CUIKEditorExtended
-- (_Bool)Lí|)Ë©ø?;
-- (void)ª%«àª#«;
-- (void)ªÑïò1	?×á;
-- (void);
-- (void)ªâª¶Wø¸~ý³Vø¸Tøôà6p;
-- (_Bool)ë@;
-- (void)àªáªñªQ?þò1	?×;
-- (void)ôª`;
-- (_Bool)ÚñªñGÁÚë@;
+- (void)<;
+- (void)=;
+- (void)h:(NSSet *)arg1;
 @end
 

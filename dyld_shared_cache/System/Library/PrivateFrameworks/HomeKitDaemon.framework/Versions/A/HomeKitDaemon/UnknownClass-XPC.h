@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStoreTransactionActions, HMDRemoteMessageSenderContext, NSString;
-
 @interface UnknownClass (XPC)
 + (id);
 + (id);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -33,16 +31,6 @@
 - (void)øÕÙäÙÜÜ$àà è;
 
 // Remaining properties
-@property(nonatomic, getter=isInternal) _Bool internal;
-@property(nonatomic, getter=isRemote) _Bool remote;
-@property(nonatomic) _Bool remoteDisallowsIDSRacing;
-@property(nonatomic) unsigned long long remoteRestriction;
-@property(retain, nonatomic) HMDRemoteMessageSenderContext *remoteSenderContext;
-@property(retain, nonatomic) NSString *remoteSourceID;
-@property(retain, nonatomic) NSString *remoteToID;
-@property(nonatomic) _Bool requiresNoSPIEntitlement;
 @property(nonatomic) _Bool requiresSPIEntitlement;
-@property(nonatomic, getter=isSecureRemote) _Bool secureRemote;
-@property(retain) HMDBackingStoreTransactionActions *transactionResult;
 @end
 

@@ -6,34 +6,20 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, AMSUIWebLoadingPageModel, AMSUIWebNavigationBarModel, NSDictionary, NSString;
-@protocol AMSUIWebPageProvider;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFlowAction : AMSUIWebAction
 {
     _Bool _deferredPresentation;
-    id _actionData;
-    long long _animationType;
-    NSString *_backgroundColor;
-    AMSUIWebLoadingPageModel *_loadingPage;
-    NSDictionary *_metrics;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    long long _popToRelativeIndex;
-    long long _presentationType;
-    id <AMSUIWebPageProvider> _replacementPage;
-    long long _replacementType;
-    struct CGSize _modalWindowSize;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
+- (void)ublic}@;
+- (void)sets (%{public}@) for query:(id)arg1 %{public}@;
+- (void)llowed regions:(long long)arg1 %@;
+- (void)p trial for query:(struct CGSize)arg1 %@;
+- (void)%{public}@ with error:(_Bool)arg1 %{public}@;
+- (id)hangs.;
+- (long long)Retried;
+- (id)"8@"NSSet"16^B24;
 - (id);
 - (_Bool);
 - (id);
@@ -44,39 +30,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (long long);
+- (id);
+- (void)NSt3__120__shared_ptr_emplaceIN3fst8internal15SymbolTableImplENS_9allocatorIS3_EEEE;
+- (void)DL;
 - (void);
 - (id);
+- (void);
+- (id)ailed and AppleConnect is installed, retrying with SSO enabled;
 - (long long);
 - (void)ethodUpdate"@"PKApplePayTrustSignatureRequest">32;
 - (id)Ð;
 
 // Remaining properties
 @property(retain) id actionData; // @synthesize actionData=_actionData;
-@property long long animationType; // @synthesize animationType=_animationType;
-@property(retain) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool deferredPresentation; // @synthesize deferredPresentation=_deferredPresentation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSUIWebLoadingPageModel *loadingPage; // @synthesize loadingPage=_loadingPage;
-@property(retain) NSDictionary *metrics; // @synthesize metrics=_metrics;
-@property struct CGSize modalWindowSize; // @synthesize modalWindowSize=_modalWindowSize;
-@property(retain) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property long long popToRelativeIndex; // @synthesize popToRelativeIndex=_popToRelativeIndex;
-@property long long presentationType; // @synthesize presentationType=_presentationType;
-@property(retain) id <AMSUIWebPageProvider> replacementPage; // @synthesize replacementPage=_replacementPage;
-@property long long replacementType; // @synthesize replacementType=_replacementType;
-@property(readonly) Class superclass;
 
 @end
 

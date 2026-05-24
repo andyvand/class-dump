@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _EXQueryController;
+@class NSObject, _EXQueryController;
 @protocol OS_dispatch_queue;
 
 @interface PMPrintServiceExtension_Browser
 {
     _EXQueryController *_queryController;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _foundPrinters;
-    CDUnknownBlockType _foundBrowserNode;
 }
 
 - (void);
@@ -24,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)s Posted UnlikelyToKeepUp;
 - (id);
 - (void);
 - (void);
@@ -33,16 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType foundBrowserNode; // @synthesize foundBrowserNode=_foundBrowserNode;
-@property(copy) CDUnknownBlockType foundPrinters; // @synthesize foundPrinters=_foundPrinters;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

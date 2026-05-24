@@ -5,5 +5,7 @@
 //
 
 @protocol CKDistributedTimestampVector
+- (_Bool);
+- (long long)Q;
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MAAutoAssetSetInstanceDescriptor
 {
     _Bool _isFullyDownloaded;
-    _Bool _neverBeenLocked;
-    _Bool _downloadUserInitiated;
-    _Bool _stagedPriorToAvailable;
-    NSString *_clientDomainName;
-    NSString *_assetSetIdentifier;
-    NSArray *_atomicInstanceEntries;
-    long long _downloadedNetworkBytes;
-    long long _downloadedFilesystemBytes;
 }
 
 + (id);
@@ -31,28 +23,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)loadConfigurationsWithCompletionQueue:(id)arg1 handler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool)sPlugin:telemetry: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (id)unt;
+- (id)persistedStateCount;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
-@property(readonly, retain, nonatomic) NSArray *atomicInstanceEntries; // @synthesize atomicInstanceEntries=_atomicInstanceEntries;
 @property(readonly, retain, nonatomic) NSString *clientDomainName; // @synthesize clientDomainName=_clientDomainName;
-@property(readonly, nonatomic) _Bool downloadUserInitiated; // @synthesize downloadUserInitiated=_downloadUserInitiated;
-@property(readonly, nonatomic) long long downloadedFilesystemBytes; // @synthesize downloadedFilesystemBytes=_downloadedFilesystemBytes;
-@property(readonly, nonatomic) long long downloadedNetworkBytes; // @synthesize downloadedNetworkBytes=_downloadedNetworkBytes;
-@property(readonly, nonatomic) _Bool isFullyDownloaded; // @synthesize isFullyDownloaded=_isFullyDownloaded;
-@property(readonly, nonatomic) _Bool neverBeenLocked; // @synthesize neverBeenLocked=_neverBeenLocked;
-@property(readonly, nonatomic) _Bool stagedPriorToAvailable; // @synthesize stagedPriorToAvailable=_stagedPriorToAvailable;
 
 @end
 

@@ -6,26 +6,25 @@
 
 #import <AppKit/NSResponder.h>
 
-@class NSView, NSViewHostingContextRootView, NSViewHostingTraits;
+@class NSView, NSViewHostingContextRootView;
 
 __attribute__((visibility("hidden")))
 @interface NSViewHostingContext : NSResponder
 {
     NSViewHostingContextRootView *_rootView;
-    struct CGSize _containerSize;
 }
 
-+ (id);
++ (id)_suggestionsByRange;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (void)5;
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)@;
 - (void);
 - (_Bool);
 - (id)ñà31Â0@ù
@@ -36,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
 @property(readonly) NSView *contentView;
-@property(readonly) NSResponder *firstResponder;
-@property(copy) NSViewHostingTraits *hostingTraits;
-@property(readonly, getter=isInKeyWindow) _Bool inKeyWindow;
-@property(readonly) struct CGSize intrinsicContentSize;
-@property(readonly) NSView *rootView;
 
 @end
 

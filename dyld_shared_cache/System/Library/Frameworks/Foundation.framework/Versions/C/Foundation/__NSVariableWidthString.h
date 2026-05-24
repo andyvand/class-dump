@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface __NSVariableWidthString : NSString
 {
     NSDictionary *_variants;
-    NSString *_defaultString;
 }
 
 - (id);

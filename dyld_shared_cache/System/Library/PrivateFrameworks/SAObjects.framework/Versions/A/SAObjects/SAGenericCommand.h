@@ -14,12 +14,11 @@
 
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *className;
-@property(readonly, nonatomic) NSString *group;
 
 @end
 

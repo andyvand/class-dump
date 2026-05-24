@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageEditDSHandler, IKImageEditFrame, IKImageEditView, IKTabView;
+@class IKImageEditFrame;
 
 @interface IKImageEditPanelPrivateData
 {
     IKImageEditFrame *_backgroundView;
-    id _imageView;
-    IKTabView *_tabView;
-    IKImageEditView *_currentTab;
-    struct CGPoint _mouseDownLocation;
-    _Bool _mouseDownMovesWindow;
-    IKImageEditDSHandler *_dsHandler;
-    id _dataSource;
-    _Bool _dataSourceIsIKImageView;
-    _Bool _hasAdjustMode;
-    _Bool _hasEffectsMode;
-    _Bool _hasDetailsMode;
 }
 
 - (void);
@@ -43,23 +32,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)filterImage:(id)arg1;
 - (id);
 - (void)_mode;
 
 // Remaining properties
 @property IKImageEditFrame *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property IKImageEditView *currentTab; // @synthesize currentTab=_currentTab;
-@property id dataSource; // @synthesize dataSource=_dataSource;
-@property _Bool dataSourceIsIKImageView; // @synthesize dataSourceIsIKImageView=_dataSourceIsIKImageView;
-@property IKImageEditDSHandler *dsHandler; // @synthesize dsHandler=_dsHandler;
-@property _Bool hasAdjustMode; // @synthesize hasAdjustMode=_hasAdjustMode;
-@property _Bool hasDetailsMode; // @synthesize hasDetailsMode=_hasDetailsMode;
-@property _Bool hasEffectsMode; // @synthesize hasEffectsMode=_hasEffectsMode;
-@property id imageView; // @synthesize imageView=_imageView;
-@property struct CGPoint mouseDownLocation; // @synthesize mouseDownLocation=_mouseDownLocation;
-@property _Bool mouseDownMovesWindow; // @synthesize mouseDownMovesWindow=_mouseDownMovesWindow;
-@property IKTabView *tabView; // @synthesize tabView=_tabView;
 
 @end
 

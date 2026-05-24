@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSPersistentStore;
+@class NSManagedObjectContext;
 
 @interface CNCDMigrator
 {
     NSManagedObjectContext *_context;
-    NSPersistentStore *_store;
 }
 
 - (id);
-- (id);
+- (id)XPCCacheFlush;
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly) NSPersistentStore *store; // @synthesize store=_store;
 
 @end
 

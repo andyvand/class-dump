@@ -6,29 +6,20 @@
 
 #import <Montreal/MontrealNNDescription.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface MontrealNNModelQuantization : MontrealNNDescription
 {
     NSString *_weightStorage;
-    NSNumber *_weightStorageRange;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSString *weightStorage; // @synthesize weightStorage=_weightStorage;
-@property(readonly) NSNumber *weightStorageRange; // @synthesize weightStorageRange=_weightStorageRange;
 
 @end
 

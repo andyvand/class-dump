@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSFileHandle, NSMutableData, NSObject, NSString, NSThread, NSURLResponse;
+@class NSObject, NSURLResponse;
 @protocol OS_dispatch_queue;
 
 @interface _PKURLSessionDelegate
 {
     NSObject<OS_dispatch_queue> *_notifyQueue;
-    NSThread *_notifyThread;
-    NSString *_destinationDirectory;
-    CDUnknownBlockType _notifyBlock;
-    CDUnknownBlockType _challengeBlock;
-    CDUnknownBlockType _redirectResponseBlock;
-    CDUnknownBlockType _bytesReceivedBlock;
-    _Bool _taskCompleted;
-    _Bool _inBackground;
-    NSURLResponse *_response;
-    NSMutableData *_data;
-    NSFileHandle *_fileHandle;
-    long long _fullDownloadSize;
-    NSData *_resumeData;
-    NSError *_mostRecentError;
 }
 
 - (_Bool);
@@ -33,47 +19,33 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (_Bool)@9;
+- (long long)(;
+- (void)#;
+- (void)@9;
+- (void)@9;
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)	;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)versationLinkOriginator",&,N,V_originator;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void):(id)arg1;
+- (void)0 redeclared without %1 attribute:(id)arg1 previous %1 ignored;
 - (id);
 
 // Remaining properties
-@property(retain) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property long long fullDownloadSize; // @synthesize fullDownloadSize=_fullDownloadSize;
-@property(readonly) unsigned long long hash;
-@property _Bool inBackground; // @synthesize inBackground=_inBackground;
-@property(retain) NSError *mostRecentError; // @synthesize mostRecentError=_mostRecentError;
 @property(retain) NSURLResponse *response; // @synthesize response=_response;
-@property(retain) NSData *resumeData; // @synthesize resumeData=_resumeData;
-@property(readonly) Class superclass;
-@property _Bool taskCompleted; // @synthesize taskCompleted=_taskCompleted;
 
 @end
 

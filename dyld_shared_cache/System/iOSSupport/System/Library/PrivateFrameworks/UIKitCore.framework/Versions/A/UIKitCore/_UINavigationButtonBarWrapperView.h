@@ -6,16 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, UIKit.NavigationBarTransitionContainer, UIKit.NavigationButtonBar;
+@class UIKit.NavigationButtonBar;
 
 @interface _UINavigationButtonBarWrapperView : UIView
 {
     UIKit.NavigationButtonBar *buttonBar;
-    UIKit.NavigationBarTransitionContainer *transitionContainer;
-    _Bool animatesNextUpdate;
 }
 
-- (id);
+- (id)d processing of batch %@ with %lld messages, (batch %lld/%lld) removing tracker;
 - (void);
 - (void);
 - (id);
@@ -27,15 +25,11 @@
 - (void);
 - (struct CGSize)!üDùQ\ð1Â0@ù
 × ;
-- (id)ew;
+- (id)_UITableViewHeaderFooterContentView;
 - (void)xVl;
 
 // Remaining properties
-@property(nonatomic) _Bool animatesNextUpdate; // @synthesize animatesNextUpdate;
-@property(nonatomic, copy) NSArray *barSections;
 @property(nonatomic, readonly) UIKit.NavigationButtonBar *buttonBar; // @synthesize buttonBar;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) UIKit.NavigationBarTransitionContainer *transitionContainer; // @synthesize transitionContainer;
 
 @end
 

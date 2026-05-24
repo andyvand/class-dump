@@ -7,8 +7,6 @@
 @interface NewsPersonalization.CollabEmbeddingManager.CollabEmbedding
 {
     id dimensions;
-    id targets;
-    id notTargets;
 }
 
 @end

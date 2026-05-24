@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSLazyFetchingArray
 {
     NSMutableArray *_objects;
-    NSIndexSet *_fetchedIndexes;
-    unsigned long long _batchSize;
-    id _owner;
-    _Bool _shouldFetchAllRanges;
-    _Bool _hasChanges;
-    _Bool _madeMutable;
 }
 
 - (void);
@@ -24,21 +18,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)removeCredential:(id)arg1 forProtectionSpace:options: /* Error: Ran out of types for this method. */;
+- (void)initWithAVAggregateAssetDownloadChildDownloadSessionIdentifier:assetTitle:assetArtworkData:options:taskIdentifier:uniqueIdentifier:bundleID:sessionID: /* Error: Ran out of types for this method. */;
+- (void)ownloadTask from background transfer daemon:%@ /* Error: Ran out of types for this method. */;
+- (void)adTask from background transfer daemon:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)v;;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void)
 × ;

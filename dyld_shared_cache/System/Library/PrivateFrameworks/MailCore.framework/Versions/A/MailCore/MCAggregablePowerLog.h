@@ -6,34 +6,22 @@
 
 #import <MailCore/MCPowerLog.h>
 
-@class NSLock, NSMutableDictionary, NSString, _MCBatchingTimer;
+@class NSLock;
 
 @interface MCAggregablePowerLog : MCPowerLog
 {
     NSLock *_aggregationLock;
-    NSMutableDictionary *_aggregatedEventDictionary;
-    _MCBatchingTimer *_timer;
-    CDUnknownBlockType _aggregationBlock;
-    double _aggregationPeriod;
 }
 
 - (void);
 - (double);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)+;
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType aggregationBlock; // @synthesize aggregationBlock=_aggregationBlock;
-@property(readonly, nonatomic) double aggregationPeriod; // @synthesize aggregationPeriod=_aggregationPeriod;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

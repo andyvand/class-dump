@@ -6,28 +6,24 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceBankLookupRequest : PKAccountWebServiceRequest
 {
     NSString *_countryCode;
-    NSString *_query;
-    NSURL *_baseURL;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)manifestFileExistsForRegion: /* Error: Ran out of types for this method. */;
 - (void)pass from %{public}@ to %{public}@;
-- (void)erConditionString;
+- (void)destinationWeatherConditionString;
 - (void);
 - (id)è8;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 @property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
 
 @end
 

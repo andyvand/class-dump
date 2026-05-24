@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, NSVisualEffectView;
+@class NSView;
 
 @interface IMKUIPanel
 {
     NSView *_accessibilityHitTestView;
-    NSView *_clipView;
-    NSVisualEffectView *_effectView;
 }
 
 - (void);
@@ -20,24 +18,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)RTraceDebugBreak() called.
+;
+- (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSView *accessibilityHitTestView; // @synthesize accessibilityHitTestView=_accessibilityHitTestView;
 @property(retain, nonatomic) NSView *clipView; // @synthesize clipView=_clipView;
-@property(retain, nonatomic) NSVisualEffectView *effectView; // @synthesize effectView=_effectView;
 
 @end
 

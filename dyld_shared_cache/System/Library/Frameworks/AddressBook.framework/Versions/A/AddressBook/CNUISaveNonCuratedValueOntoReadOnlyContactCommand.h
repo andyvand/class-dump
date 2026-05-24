@@ -6,13 +6,9 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNContactStore, CNLabeledValue;
-
 @interface CNUISaveNonCuratedValueOntoReadOnlyContactCommand : CNUIUndoableCommand
 {
     CNUIUndoableCommand *_command;
-    CNContactStore *_contactStore;
-    CNLabeledValue *_labeledValue;
 }
 
 - (id);
@@ -30,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNUIUndoableCommand *command; // @synthesize command=_command;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNLabeledValue *labeledValue; // @synthesize labeledValue=_labeledValue;
 
 @end
 

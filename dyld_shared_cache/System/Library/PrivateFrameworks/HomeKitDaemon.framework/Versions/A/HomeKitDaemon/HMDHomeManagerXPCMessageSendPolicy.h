@@ -10,25 +10,21 @@ __attribute__((visibility("hidden")))
 @interface HMDHomeManagerXPCMessageSendPolicy : HMDXPCMessageSendPolicy
 {
     _Bool _active;
-    unsigned long long _options;
-    unsigned long long _entitlements;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool),;
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long)0@ù
 × ;
-- (id)outputVoiceLanguageCode:(struct _NSZone *)arg1 outputVoiceGenderCode:voiceName: /* Error: Ran out of types for this method. */;
+- (id)initWithInputLanguageCode:(struct _NSZone *)arg1 outputVoiceLanguageCode:outputVoiceGenderCode:voiceName: /* Error: Ran out of types for this method. */;
 - (id)dentifier is not available;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) unsigned long long entitlements; // @synthesize entitlements=_entitlements;
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end

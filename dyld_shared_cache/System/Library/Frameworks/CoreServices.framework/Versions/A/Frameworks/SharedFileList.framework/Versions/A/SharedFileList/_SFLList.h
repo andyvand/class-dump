@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface _SFLList
 {
     NSString *_identifier;
-    unsigned long long _seed;
-    NSArray *_items;
-    NSDictionary *_properties;
 }
 
 + (_Bool);
 - (id);
+- (id)delCreateWithDataImpl;
+- (void);
+- (id);
+- (void)blic}@ (user-version:(id)arg1 0x%lx);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long)ionaryForKey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_SFL_dictionaryForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSArray *items; // @synthesize items=_items;
-@property(readonly) NSDictionary *properties; // @synthesize properties=_properties;
-@property unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

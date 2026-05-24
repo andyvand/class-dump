@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface TIUserModelDataStoreDurableEntry
 {
     NSDate *_creationDate;
-    NSDate *_lastUpdateDate;
-    NSString *_key;
-    NSNumber *_value;
 }
 
 - (id);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly) NSString *key; // @synthesize key=_key;
-@property(readonly) NSDate *lastUpdateDate; // @synthesize lastUpdateDate=_lastUpdateDate;
-@property(readonly) NSNumber *value; // @synthesize value=_value;
 
 @end
 

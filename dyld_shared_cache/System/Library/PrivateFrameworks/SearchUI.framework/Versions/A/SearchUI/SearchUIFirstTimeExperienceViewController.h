@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, NSTextView, NUIContainerStackView;
 @protocol SearchUIFirstTimeExperienceDelegate;
 
 @interface SearchUIFirstTimeExperienceViewController
 {
     id <SearchUIFirstTimeExperienceDelegate> _delegate;
-    unsigned long long _sizeClass;
-    NSArray *_supportedDomains;
-    NSString *_learnMoreString;
-    NSString *_explanationString;
-    NSString *_continueButtonString;
-    NSLayoutConstraint *_textHeight;
-    NSLayoutConstraint *_verticalCentering;
-    NSTextView *_fteText;
-    NUIContainerStackView *_fteImages;
 }
 
 - (id);
@@ -43,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)issing required baseband parameters;
 - (id);
 - (id);
 - (void);
@@ -53,23 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *continueButtonString; // @synthesize continueButtonString=_continueButtonString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SearchUIFirstTimeExperienceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *explanationString; // @synthesize explanationString=_explanationString;
-@property(retain, nonatomic) NUIContainerStackView *fteImages; // @synthesize fteImages=_fteImages;
-@property(retain, nonatomic) NSTextView *fteText; // @synthesize fteText=_fteText;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *learnMoreString; // @synthesize learnMoreString=_learnMoreString;
 @property(nonatomic) unsigned long long sizeClass; // @synthesize sizeClass=_sizeClass;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedDomains; // @synthesize supportedDomains=_supportedDomains;
-@property(retain, nonatomic) NSLayoutConstraint *textHeight; // @synthesize textHeight=_textHeight;
-@property(retain, nonatomic) NSLayoutConstraint *verticalCentering; // @synthesize verticalCentering=_verticalCentering;
 
 @end
 

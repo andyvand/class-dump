@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, PMLMutableDenseVector;
+@class PMLMutableDenseVector;
 
 @interface PMLGradientResults
 {
     PMLMutableDenseVector *_gradient;
-    NSNumber *_loss;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PMLMutableDenseVector *gradient; // @synthesize gradient=_gradient;
-@property(readonly, nonatomic) NSNumber *loss; // @synthesize loss=_loss;
 
 @end
 

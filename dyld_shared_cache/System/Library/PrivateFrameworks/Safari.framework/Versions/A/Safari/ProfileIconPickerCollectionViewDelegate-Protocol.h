@@ -5,5 +5,8 @@
 //
 
 @protocol ProfileIconPickerCollectionViewDelegate
+
+@optional
+- (void);
 @end
 

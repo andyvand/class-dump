@@ -7,8 +7,6 @@
 @interface NewsUI2.FeedMastheadModel
 {
     id feedDescriptor;
-    id bundleSubscriptionManager;
-    id featureAvailability;
 }
 
 @end

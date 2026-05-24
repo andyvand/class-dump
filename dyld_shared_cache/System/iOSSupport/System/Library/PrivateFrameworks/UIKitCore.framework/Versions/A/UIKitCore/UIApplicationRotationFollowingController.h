@@ -11,14 +11,14 @@
     _Bool _sizesWindowToScene;
 }
 
-- (void);
-- (void);
+- (void)*-------calling into acceptChatToPeerDevicesForMessageGUID:(id)arg1 from service that doesn't support it. File a radar-------*/;
+- (void)ommand and cleaning up:(_Bool)arg1 %@;
 - (id);
-- (long long);
+- (long long)ѡ#ѣ";
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)adAutofillSignUp;
+- (_Bool)shouldLoadAutofillSignUp;
 - (_Bool),V_allowsKeyboardShortcuts;
 - (_Bool)¬Ìe;
 - (unsigned long long)ôGÿ,ÎðÈg;

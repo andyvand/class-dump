@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRShowTodayGroupsMonitorableDataView
 {
     id store;
-    id grouped;
-    id currentLocation;
-    id countCompleted;
-    id sortingStyle;
-    id showCompleted;
-    id remindersToPrefetchCount;
 }
 
 @end

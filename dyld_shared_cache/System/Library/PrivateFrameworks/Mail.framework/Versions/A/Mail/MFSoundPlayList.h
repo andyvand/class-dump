@@ -9,7 +9,6 @@
 @interface MFSoundPlayList
 {
     NSMutableArray *_soundsToPlay;
-    _Bool _playingSound;
 }
 
 + (void);
@@ -17,7 +16,7 @@
 + (id)h©;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

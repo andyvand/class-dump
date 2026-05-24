@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHStrokeGroup, CHStrokeGroupRecognitionResult, CHTokenizedTextResult, NSString;
+@class CHStrokeGroupRecognitionResult, CHTokenizedTextResult;
 
 @interface CHContextualTextResult
 {
     CHStrokeGroupRecognitionResult *_strokeGroupResult;
-    CHTokenizedTextResult *_textResult;
-    CHStrokeGroup *_strokeGroup;
-    NSString *_terminatingSpecialCharacter;
 }
 
 + (id);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CHStrokeGroup *strokeGroup; // @synthesize strokeGroup=_strokeGroup;
-@property(retain, nonatomic) CHStrokeGroupRecognitionResult *strokeGroupResult; // @synthesize strokeGroupResult=_strokeGroupResult;
-@property(retain, nonatomic) NSString *terminatingSpecialCharacter; // @synthesize terminatingSpecialCharacter=_terminatingSpecialCharacter;
 @property(retain, nonatomic) CHTokenizedTextResult *textResult; // @synthesize textResult=_textResult;
 
 @end

@@ -6,19 +6,17 @@
 
 #import <SkyLight/SLSSynchronousBridgedWindowManagementOperation.h>
 
-@class NSDictionary;
-
 @interface SLSBridgedSpaceCreateTileOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    NSDictionary *_values;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)tContext:(unsigned long long)arg1 andObservedStore:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)HERE %@ IS NULL AND %@ IS NULL;
+- (id)inter value:(unsigned long long)arg1 %@
+	pointer:(id)arg2 %p;
+- (unsigned long long);
 - (id);
 - (void);
 - (id);
@@ -26,7 +24,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly, copy) NSDictionary *values; // @synthesize values=_values;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKDevice, NSString, NSUUID;
+@class NSString;
 
 @interface BKAccessoryGroup
 {
     unsigned int _type;
-    NSUUID *_uuid;
-    NSString *_name;
-    BKDevice *_device;
 }
 
 - (id);
@@ -23,11 +20,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BKDevice *device; // @synthesize device=_device;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableDictionary, NSString, NSTimer, UIImage, UIMenu;
+@class NSArray, UIMenu;
 
 @interface PKTextInputLanguageSelectionController
 {
     UIMenu *_cachedLanguageMenu;
-    NSMutableDictionary *_observers;
-    NSTimer *_iconDisplayTimer;
-    NSHashTable *_languageSelectionControllerObservers;
-    NSArray *__cachedLanguageIdentifiers;
-    NSArray *__cachedLanguageIdentifiersForEmojiAlternatives;
 }
 
 + (id);
@@ -64,24 +59,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)portingEnabled;
+- (void)@;
+- (void)statusReportingEnabled;
 - (void)ityObserver;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *_cachedLanguageIdentifiers; // @synthesize _cachedLanguageIdentifiers=__cachedLanguageIdentifiers;
-@property(copy, nonatomic) NSArray *_cachedLanguageIdentifiersForEmojiAlternatives; // @synthesize _cachedLanguageIdentifiersForEmojiAlternatives=__cachedLanguageIdentifiersForEmojiAlternatives;
-@property(readonly, copy, nonatomic) NSArray *currentLanguageIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *currentLanguageIdentifiersForEmojiAlternatives;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *languageIdentificationIcon;
-@property(readonly, nonatomic) UIMenu *languageSelectionMenu;
-@property(readonly) Class superclass;
 
 @end
 

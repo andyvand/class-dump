@@ -8,9 +8,6 @@
 {
     id _sandboxExtensionHandles;
     id sandboxExtensionHandlesLock;
-    id _activeLifecycleCount;
-    id activeLifecycleCountLock;
-    id session;
 }
 
 @end

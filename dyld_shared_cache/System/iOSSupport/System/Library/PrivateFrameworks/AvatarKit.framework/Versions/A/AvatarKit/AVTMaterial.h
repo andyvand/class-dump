@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface AVTMaterial
 {
     UIColor *_baseColor;
-    NSDictionary *_additionalPropertyColors;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)H;
+- (id)0R;
+- (id)_against, %s, has an invalid speed,validity,%d,speed,%.2lf. Cannot proceed with speed check or position check. Marking the RavenSolution as unhealthy. Exiting with check passed return value.;
+- (id)*;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalPropertyColors; // @synthesize additionalPropertyColors=_additionalPropertyColors;
 @property(retain, nonatomic) UIColor *baseColor; // @synthesize baseColor=_baseColor;
 
 @end

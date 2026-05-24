@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface UnknownClass (SafariWBTabExtras)
 - (id);
@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *safari_attributedStringForPasteboard;
-@property(readonly, copy, nonatomic) NSString *safari_nsStringForPasteboard;
 @end
 

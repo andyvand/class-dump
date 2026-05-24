@@ -10,25 +10,21 @@ __attribute__((visibility("hidden")))
 @interface PLQuickEnergySnapshot
 {
     NSDate *_timestamp;
-    double _cpuEnergy;
-    double _networkEnergy;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fp_dataWithLastUsedDate:(id)arg1;
 - (void);
 - (double);
 - (double);
-- (double);
-- (void);
+- (double)qBugCyv9YMTIqsUYMnm7-zmLRYkLPQOXJR3C4/Library/Caches/com.apple.xbs/TemporaryDirectory.9AiAP5/Sources/AppleKeyStore_libs/platform/platform.c;
+- (void)r spin-up);
 - (double);
 - (void);
 
 // Remaining properties
-@property double cpuEnergy; // @synthesize cpuEnergy=_cpuEnergy;
-@property double networkEnergy; // @synthesize networkEnergy=_networkEnergy;
 @property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

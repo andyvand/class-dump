@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol EMFDPReportingDelegate, OS_dispatch_queue;
+@protocol EMFDPReportingDelegate;
 
 @interface EMFDPEventDispatcher
 {
     id <EMFDPReportingDelegate> _reportingDelegate;
-    NSObject<OS_dispatch_queue> *_reportingBackgroundQueue;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)user if they want to allow a website to initiate a call;
+- (void)website has been blocked from automatically starting a call.;
+- (void)ialog;
 - (id);
 - (id);
 - (void);

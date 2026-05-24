@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     NSString *_destinationText;
 }
 
+- (void)allowsWritingToDisk;
+- (_Bool)_updateNameOnlyUpdateForMessage:(id)arg1 fromHandleID:(int)arg2;
+- (id)_encrypted;
+- (id)setIsListening:(int)arg1;
+- (void)er",&,N,V_accountController;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (void)©WÒ|c;
 
 // Remaining properties

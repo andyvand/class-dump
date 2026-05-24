@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItemMetadataAudioFormat, NSString;
+@class MRContentItemMetadataAudioFormat;
 
 @interface MPNowPlayingInfoAudioFormat
 {
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)finalDeserial;
 - (id);
 - (long long);
 - (void);
@@ -34,16 +34,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)onAction. Got:(long long)arg1 %d, expected:%d /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
-- (id);
+- (long long)amework/Versions/A/IMFoundation;
+- (id)__kIMMessageErrorDomain;
 - (id);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)registerMailConsumer:levelOfService: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (id);
@@ -56,23 +56,10 @@
 - (unsigned int);
 - (long long);
 - (id);
-- (void)tionStoreUbiquitousIdentifier__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaybackPositionStoreUbiquitousIdentifier__MAPPING_MISSING__;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *audioChannelLayoutDescription;
-@property(readonly, nonatomic) long long badging;
-@property(nonatomic) long long bitDepth;
-@property(nonatomic) long long bitrate;
-@property(nonatomic) unsigned int channelLayout;
-@property(nonatomic) unsigned int codec;
-@property(copy, nonatomic) NSString *groupID;
 @property(readonly, nonatomic) MRContentItemMetadataAudioFormat *mediaRemoteAudioFormat; // @synthesize mediaRemoteAudioFormat=_mediaRemoteAudioFormat;
-@property(nonatomic, getter=isMultiChannel) _Bool multiChannel;
-@property(nonatomic) long long renderingMode;
-@property(nonatomic) long long sampleRate;
-@property(nonatomic, getter=isSpatialized) _Bool spatialized;
-@property(copy, nonatomic) NSString *stableVariantID;
-@property(nonatomic) long long tier;
 
 @end
 

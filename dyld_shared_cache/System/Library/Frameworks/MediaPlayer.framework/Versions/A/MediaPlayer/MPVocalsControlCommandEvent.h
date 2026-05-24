@@ -11,11 +11,10 @@
 @interface MPVocalsControlCommandEvent : MPRemoteCommandEvent
 {
     NSNumber *_active;
-    NSNumber *_level;
 }
 
 - (id);
-- (void)enIdentifiersLookupStatement;
+- (void)_tokenIdentifiersLookupStatement;
 - (id)as missing mapping for MPModelPropertyTVSeasonHasExplicitContent;
 - (id)I×m¤¬eßAû2y°Ã
 ].çï&UË¸qHVÇJPF}{KáüéÆRõ¦´-Á¤Þö4P½.+tÒ]>yÈñ!CXe µ5.Â8f:GÍR©`æÞ<÷xèå)ô}Ùã×*îÜ¬ÊÊÂömù^Ý&¼øE§
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *active; // @synthesize active=_active;
-@property(readonly, nonatomic) NSNumber *level; // @synthesize level=_level;
 
 @end
 

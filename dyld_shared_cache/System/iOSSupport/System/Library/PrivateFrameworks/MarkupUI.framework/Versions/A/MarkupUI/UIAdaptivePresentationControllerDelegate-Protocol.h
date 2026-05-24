@@ -9,6 +9,6 @@
 @optional
 - (long long)!`Eù±°1Â0@ù
 × ;
-- (void)idDisappear;
+- (void)imageAnalysisPopoverDidDisappear;
 @end
 

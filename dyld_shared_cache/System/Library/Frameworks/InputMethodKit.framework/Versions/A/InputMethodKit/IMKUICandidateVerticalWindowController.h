@@ -6,20 +6,9 @@
 
 #import <InputMethodKit/IMKUICandidateWindowController.h>
 
-@class IMKUICandidateListContainingView, IMKUIFastTrackVerticalLayout, IMKUISingleCandidateListView, NSArray;
-
 @interface IMKUICandidateVerticalWindowController : IMKUICandidateWindowController
 {
     double _accumulatedLengthOfCandidates;
-    _Bool _annotationMarginCalculated;
-    _Bool _changesSizeWhenScrolling;
-    struct CGSize _currentSize;
-    IMKUIFastTrackVerticalLayout *_fastTrackVerticalLayout;
-    _Bool _hasAnnotations;
-    IMKUISingleCandidateListView *_listView;
-    NSArray *_visibleLineIndices;
-    _Bool _updatingCandidates;
-    IMKUICandidateListContainingView *_listContainerView;
 }
 
 - (id);
@@ -30,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)9m2;
 - (void);
 - (void);
 - (void);
@@ -55,9 +44,9 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (_Bool);
 - (id);
@@ -67,22 +56,22 @@
 - (double);
 - (void);
 - (_Bool);
+- (void)2;
 - (void);
-- (void);
-- (id);
+- (id)g;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)U;
 - (void);
 - (void);
 - (long long);
 - (id);
+- (void)R;
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
+- (id)backgroundReplacementSupported;
+- (struct CGSize)mbleFail=%d;
 - (void);
 - (void);
 - (void);
@@ -90,15 +79,6 @@
 
 // Remaining properties
 @property(nonatomic) double accumulatedLengthOfCandidates; // @synthesize accumulatedLengthOfCandidates=_accumulatedLengthOfCandidates;
-@property(nonatomic) _Bool annotationMarginCalculated; // @synthesize annotationMarginCalculated=_annotationMarginCalculated;
-@property(nonatomic) _Bool changesSizeWhenScrolling; // @synthesize changesSizeWhenScrolling=_changesSizeWhenScrolling;
-@property(nonatomic) struct CGSize currentSize; // @synthesize currentSize=_currentSize;
-@property(retain, nonatomic) IMKUIFastTrackVerticalLayout *fastTrackVerticalLayout; // @synthesize fastTrackVerticalLayout=_fastTrackVerticalLayout;
-@property(nonatomic) _Bool hasAnnotations; // @synthesize hasAnnotations=_hasAnnotations;
-@property(retain, nonatomic) IMKUICandidateListContainingView *listContainerView; // @synthesize listContainerView=_listContainerView;
-@property(retain, nonatomic) IMKUISingleCandidateListView *listView; // @synthesize listView=_listView;
-@property(nonatomic) _Bool updatingCandidates; // @synthesize updatingCandidates=_updatingCandidates;
-@property(retain, nonatomic) NSArray *visibleLineIndices; // @synthesize visibleLineIndices=_visibleLineIndices;
 
 @end
 

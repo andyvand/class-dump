@@ -6,13 +6,11 @@
 
 #import <ProactiveSupport/_PASSqliteCollectionsCursor.h>
 
-@class NSEnumerator, NSSet;
+@class NSSet;
 
 @interface _PASSqliteNSSetCursor : _PASSqliteCollectionsCursor
 {
     NSSet *_set;
-    id _currentValue;
-    NSEnumerator *_valuesEnumerator;
 }
 
 + (const char *);
@@ -20,12 +18,12 @@
 + (const char *);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)NSSharingServicePickerToolbarItemDelegate;
+- (_Bool)HandlePowerLogSetting unable to switch mode;
+- (void)bleString";
+- (void)__AUTH_CONST;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *collection; // @dynamic collection;

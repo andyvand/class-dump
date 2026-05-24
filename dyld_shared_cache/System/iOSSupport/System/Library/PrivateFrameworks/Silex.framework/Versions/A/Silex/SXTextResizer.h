@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXColumnLayout, SXComponentTextStyle;
-
 @interface SXTextResizer
 {
     _Bool _fontScalingEnabled;
-    SXColumnLayout *_columnLayout;
-    SXComponentTextStyle *_defaultTextStyle;
 }
 
 - (void)áÝ°!\BùïÐ1Â0@ù

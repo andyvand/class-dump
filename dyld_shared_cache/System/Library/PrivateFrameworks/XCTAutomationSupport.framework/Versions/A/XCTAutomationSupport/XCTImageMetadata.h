@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface XCTImageMetadata
 {
     double _scale;
-    NSString *_name;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)B;
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)v@?@"HKMCExperienceModel"@"NSError">;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 
 @end

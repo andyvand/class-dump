@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFRSAKeySpecifier;
+@class _SFRSAKeySpecifier;
 
 __attribute__((visibility("hidden")))
 @interface SFRSAEncryptionOperation
@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id)ATTR_kMDItemEventFlightArrivalTerminal;
 - (id);
 - (id);
 - (id);
@@ -26,14 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) _SFRSAKeySpecifier *encryptionKeySpecifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

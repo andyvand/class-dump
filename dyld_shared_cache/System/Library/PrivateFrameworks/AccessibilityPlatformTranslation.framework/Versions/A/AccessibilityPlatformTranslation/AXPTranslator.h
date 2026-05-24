@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXPTranslationObject, NSMutableDictionary, NSObject;
-@protocol AXPTranslationDelegateHelper, AXPTranslationRuntimeHelper, AXPTranslationSystemAppDelegate, AXPTranslationTokenDelegateHelper, OS_dispatch_queue;
+@class AXPTranslationObject, NSMutableDictionary;
 
 @interface AXPTranslator
 {
     AXPTranslationObject *_textEditingTranslationObj;
-    _Bool _accessibilityEnabled;
-    _Bool _supportsDelegateTokens;
-    id <AXPTranslationDelegateHelper> _bridgeDelegate;
-    id <AXPTranslationTokenDelegateHelper> _bridgeTokenDelegate;
-    unsigned long long _requestResolvingBehavior;
-    unsigned long long _cachedTreeClientType;
-    id <AXPTranslationRuntimeHelper> _runtimeDelegate;
-    id <AXPTranslationSystemAppDelegate> _systemAppDelegate;
-    NSMutableDictionary *_fakeElementCache;
-    NSMutableDictionary *_bridgeDelegateTokenToTreeDumpLookup;
-    NSObject<OS_dispatch_queue> *_axTreeDumpSharedBackgroundQueue;
 }
 
 + (id);
@@ -41,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,7 +55,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -81,12 +69,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
+- (void)b;
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -98,17 +86,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool accessibilityEnabled; // @synthesize accessibilityEnabled=_accessibilityEnabled;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *axTreeDumpSharedBackgroundQueue; // @synthesize axTreeDumpSharedBackgroundQueue=_axTreeDumpSharedBackgroundQueue;
-@property(nonatomic) __weak id <AXPTranslationDelegateHelper> bridgeDelegate; // @synthesize bridgeDelegate=_bridgeDelegate;
-@property(retain, nonatomic) NSMutableDictionary *bridgeDelegateTokenToTreeDumpLookup; // @synthesize bridgeDelegateTokenToTreeDumpLookup=_bridgeDelegateTokenToTreeDumpLookup;
-@property(nonatomic) __weak id <AXPTranslationTokenDelegateHelper> bridgeTokenDelegate; // @synthesize bridgeTokenDelegate=_bridgeTokenDelegate;
-@property(nonatomic) unsigned long long cachedTreeClientType; // @synthesize cachedTreeClientType=_cachedTreeClientType;
 @property(retain, nonatomic) NSMutableDictionary *fakeElementCache; // @synthesize fakeElementCache=_fakeElementCache;
-@property(nonatomic) unsigned long long requestResolvingBehavior; // @synthesize requestResolvingBehavior=_requestResolvingBehavior;
-@property(nonatomic) __weak id <AXPTranslationRuntimeHelper> runtimeDelegate; // @synthesize runtimeDelegate=_runtimeDelegate;
-@property(nonatomic) _Bool supportsDelegateTokens; // @synthesize supportsDelegateTokens=_supportsDelegateTokens;
-@property(nonatomic) __weak id <AXPTranslationSystemAppDelegate> systemAppDelegate; // @synthesize systemAppDelegate=_systemAppDelegate;
 
 @end
 

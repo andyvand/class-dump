@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol SAAceCommand
+- (NSString *)o;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceId;
-@property(copy, nonatomic) NSString *refId;
 @end
 

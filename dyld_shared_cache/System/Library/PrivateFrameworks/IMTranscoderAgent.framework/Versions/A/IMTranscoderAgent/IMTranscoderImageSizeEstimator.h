@@ -7,17 +7,16 @@
 @interface IMTranscoderImageSizeEstimator
 {
     struct CGSize _originalSize;
-    double _normalizedInputFactor;
 }
 
-+ (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (double);
-- (double);
-- (struct CGSize);
-- (double);
++ (id)void apPlayback_unsubscribeMetadataEvents(FigEndpointPlaybackSessionRef);
+- (id)ackSessionAuthorizeItemCompletion, void *);
+- (id)ataRef, CFStringRef, FigEndpointPlaybackSessionAuthorizeItemCompletion, void *);
+- (unsigned long long)[%{ptr}] Rapport device mediaRouteIdentifier:(id)arg1 %@;
+- (double)evicePresenceConfiguration:(id)arg1 %@;
+- (double)ion];
+- (struct CGSize)snapInUseCoarseEstimation;
+- (double)Manager loadAcceptableTargets];
 
 @end
 

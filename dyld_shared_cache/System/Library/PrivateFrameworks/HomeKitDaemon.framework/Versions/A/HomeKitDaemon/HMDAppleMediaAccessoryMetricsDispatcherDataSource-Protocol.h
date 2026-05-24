@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol HMDAppleMediaAccessoryMetricsDispatcherDataSource
+- (NSString *)Will fire external post-checkin block when checkin is completed;
+- (void)%{public}@] removeParticipant %{private}@ from %{public}@/%{public}@;
 @end
 

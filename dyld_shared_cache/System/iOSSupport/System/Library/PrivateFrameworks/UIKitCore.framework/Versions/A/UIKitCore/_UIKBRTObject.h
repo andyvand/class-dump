@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_syncQueue;
 }
 
-- (id);
+- (id)Button: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)setVisualStyleOverrideActionHighlightAttributes: /* Error: Ran out of types for this method. */;
+- (id)_setVisualStyleOverrideActionHighlightAttributes: /* Error: Ran out of types for this method. */;
 - (void)dh;
 
 @end

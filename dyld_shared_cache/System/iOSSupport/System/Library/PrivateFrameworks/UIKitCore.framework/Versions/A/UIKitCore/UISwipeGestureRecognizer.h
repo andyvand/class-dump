@@ -6,41 +6,21 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMutableArray, NSString;
-
 @interface UISwipeGestureRecognizer : UIGestureRecognizer
 {
     double _maximumDuration;
-    double _minimumPrimaryMovement;
-    double _maximumPrimaryMovement;
-    double _minimumSecondaryMovement;
-    double _maximumSecondaryMovement;
-    double _maximumOppositeMovement;
-    double _minimumPrimaryMovementRate;
-    double _rateOfMinimumMovementDecay;
-    double _rateOfMaximumMovementDecay;
-    unsigned long long _numberOfTouchesRequired;
-    NSMutableArray *_touches;
-    unsigned long long _direction;
-    struct CGPoint _startLocation;
-    struct CGPoint _previousLocation;
-    struct CGPoint *_startLocations;
-    double _startTime;
-    struct CGPoint *_previousLocations;
-    double _previousTime;
-    _Bool _failed;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool)ing;
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)patchControlPointCount;
 - (void);
-- (double);
+- (double)6;
 - (double);
 - (unsigned long long);
 - (double)! Cù\1Â0@ù
@@ -51,26 +31,26 @@
 - (double)!GùÑcÐ1Â0@ù
 × ;
 - (void)_UITabModel"16@"_UITabCustomizationStore"24;
-- (id)IntoBoundaryWithInsets:(id)arg1;
-- (double)ansition: /* Error: Ran out of types for this method. */;
-- (void)tring;
-- (struct CGPoint)ansformWithInteractionProgress:(id)arg1 forLocation:inView:containerView: /* Error: Ran out of types for this method. */;
-- (void)Storage:(id)arg1;
-- (void)yerForBackgroundEffects;
-- (void)tWithBehaviors:(id)arg1;
-- (_Bool)on;
-- (void)houldSuppressHDRDuringPresentation;
+- (id)setTranslatesReferenceBoundsIntoBoundaryWithInsets:(id)arg1;
+- (double)setFinishingModalTransition: /* Error: Ran out of types for this method. */;
+- (void)hashString;
+- (struct CGPoint)configureRevealTransformWithInteractionProgress:(id)arg1 forLocation:inView:containerView: /* Error: Ran out of types for this method. */;
+- (void)beginEditingWithTextStorage:(id)arg1;
+- (void)_layerForBackgroundEffects;
+- (void)_initWithBehaviors:(id)arg1;
+- (_Bool)__textViewConfiguration;
+- (void)__shouldSuppressHDRDuringPresentation;
 - (void)ndowSceneActivationEffect",&,N,V_activeEffect;
 - (_Bool)UIViewControllerTransitionCoordinator>",N,R;
-- (void)fo;
-- (void)egate;
+- (void)_UIFocusMovementInfo;
+- (void)UIKBRTIPartnerDelegate;
 - (struct CGPoint)0<À>p?	ø?|@A;
 - (_Bool)g focus update for %.2g seconds due to too many failed focus updates.;
 - (void)contentSizeCategory %lu while updating button configuration. The button this configuration is applied to will likely look wrong.;
 - (unsigned long long);
-- (double)Keyboard;
+- (double)_UIScrollKeyboard;
 - (double)ullwidth;
-- (void)Destination;
+- (void)sessionDestination;
 - (void)QR0)13Tq;
 - (void);
 - (void);
@@ -79,25 +59,7 @@
 - (void)¬<Ë\Óh;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long direction; // @synthesize direction=_direction;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maximumDuration; // @synthesize maximumDuration=_maximumDuration;
-@property(nonatomic) double maximumOppositeMovement; // @synthesize maximumOppositeMovement=_maximumOppositeMovement;
-@property(nonatomic) double maximumPrimaryMovement; // @synthesize maximumPrimaryMovement=_maximumPrimaryMovement;
-@property(nonatomic) double maximumSecondaryMovement; // @synthesize maximumSecondaryMovement=_maximumSecondaryMovement;
 @property(nonatomic) double minimumPrimaryMovement; // @synthesize minimumPrimaryMovement=_minimumPrimaryMovement;
-@property(nonatomic) double minimumPrimaryMovementRate; // @synthesize minimumPrimaryMovementRate=_minimumPrimaryMovementRate;
-@property(nonatomic) double minimumSecondaryMovement; // @synthesize minimumSecondaryMovement=_minimumSecondaryMovement;
-@property(nonatomic) unsigned long long numberOfTouchesRequired; // @synthesize numberOfTouchesRequired=_numberOfTouchesRequired;
-@property(nonatomic) double rateOfMaximumMovementDecay; // @synthesize rateOfMaximumMovementDecay=_rateOfMaximumMovementDecay;
-@property(nonatomic) double rateOfMinimumMovementDecay; // @synthesize rateOfMinimumMovementDecay=_rateOfMinimumMovementDecay;
-@property(readonly, nonatomic) struct CGPoint startPoint;
-@property(readonly) Class superclass;
 
 @end
 

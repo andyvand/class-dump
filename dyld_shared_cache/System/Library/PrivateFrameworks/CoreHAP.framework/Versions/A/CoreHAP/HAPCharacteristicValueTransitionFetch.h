@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCharacteristicValueTransitionFetch
 {
@@ -18,20 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)newStreamDefaultConfigurationForPublicStream:(id)arg1;
 - (_Bool);
 - (id);
 - (void)@16@24Q32Q40^@48;
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *HAPInstanceID; // @synthesize HAPInstanceID=_HAPInstanceID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

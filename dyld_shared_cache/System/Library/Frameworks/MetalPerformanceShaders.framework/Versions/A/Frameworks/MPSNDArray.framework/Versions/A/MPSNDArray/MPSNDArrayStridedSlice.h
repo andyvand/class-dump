@@ -13,10 +13,10 @@
 
 + (const struct MPSLibraryInfo *);
 - (id);
-- (unsigned long long);
+- (unsigned long long)*;
 - (id);
 - (void);
-- (CDStruct_f52b1b8f);
+- (CDStruct_f52b1b8f);
 - (id);
 
 // Remaining properties

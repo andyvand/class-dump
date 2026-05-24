@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKiCDPDeviceValidationFlowViewController, IASPickerViewController, NSArray, NSLayoutConstraint, NSString, NSTextField, NSView, OBTemplateView;
+@class AKiCDPDeviceValidationFlowViewController;
 
 @interface AKiCDPEnrollmentDeviceListViewController
 {
     _Bool _forgotAllPasswordsAndPasscodesButtonEnabled;
-    unsigned long long _deviceSelection;
-    NSView *_devicePickerPlaceholderView;
-    NSTextField *_headerTextField;
-    NSLayoutConstraint *_headerDefaultTrailingConstraint;
-    NSLayoutConstraint *_headerDefaultLeadingConstraint;
-    NSLayoutConstraint *_headerDefaultCenterXConstraint;
-    NSString *_chooseDeviceString;
-    NSString *_forgotDevicesString;
-    AKiCDPDeviceValidationFlowViewController *_flowController;
-    IASPickerViewController *_devicePickerController;
-    NSArray *_devices;
-    OBTemplateView *_templateView;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)SPPreferenceStaticApplications;
 - (void);
 - (void);
 - (void);
@@ -37,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (_Bool);
 - (id);
@@ -60,26 +48,7 @@
 - (void)­mU¼S;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *chooseDeviceString; // @synthesize chooseDeviceString=_chooseDeviceString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IASPickerViewController *devicePickerController; // @synthesize devicePickerController=_devicePickerController;
-@property(nonatomic) NSView *devicePickerPlaceholderView; // @synthesize devicePickerPlaceholderView=_devicePickerPlaceholderView;
-@property unsigned long long deviceSelection; // @synthesize deviceSelection=_deviceSelection;
-@property(copy, nonatomic) NSArray *devices; // @synthesize devices=_devices;
 @property(nonatomic) AKiCDPDeviceValidationFlowViewController *flowController; // @synthesize flowController=_flowController;
-@property(nonatomic) _Bool forgotAllPasswordsAndPasscodesButtonEnabled; // @synthesize forgotAllPasswordsAndPasscodesButtonEnabled=_forgotAllPasswordsAndPasscodesButtonEnabled;
-@property(retain, nonatomic) NSString *forgotDevicesString; // @synthesize forgotDevicesString=_forgotDevicesString;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSLayoutConstraint *headerDefaultCenterXConstraint; // @synthesize headerDefaultCenterXConstraint=_headerDefaultCenterXConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *headerDefaultLeadingConstraint; // @synthesize headerDefaultLeadingConstraint=_headerDefaultLeadingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *headerDefaultTrailingConstraint; // @synthesize headerDefaultTrailingConstraint=_headerDefaultTrailingConstraint;
-@property NSTextField *headerTextField; // @synthesize headerTextField=_headerTextField;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
 
 @end
 

@@ -6,23 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GRRSchemaGRRSource, NSData;
+@class GRRSchemaGRRSource;
 
 @interface GRRSchemaGRRFeatureExtractionStarted : SISchemaInstrumentationMessage
 {
     GRRSchemaGRRSource *_source;
-    _Bool _hasSource;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)orHandle:%@:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ed";
 - (id)Types;
@@ -32,8 +31,6 @@
 - (void){$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSource; // @synthesize hasSource=_hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GRRSchemaGRRSource *source; // @synthesize source=_source;
 
 @end

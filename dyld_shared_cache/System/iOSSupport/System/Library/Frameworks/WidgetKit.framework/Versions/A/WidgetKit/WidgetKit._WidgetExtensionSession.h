@@ -7,49 +7,32 @@
 @interface WidgetKit._WidgetExtensionSession
 {
     id _exExtensionIdentity;
-    id _exExtensionProcess;
-    id sessionUUID;
-    id $__lazy_storage_$_loggingIdentifier;
-    id lock;
-    id subscriptions;
-    id watchdogTimeoutQueue;
-    id watchdogTimeoutProvider;
-    id rbsInterface;
-    id suspensionObserver;
-    id shouldTakeExtensionAssertion;
-    id widgetExtensionAssertion;
-    id boostedWidgetExtensionAssertion;
-    id schedulingPriority;
-    _Bool boostToForegroundPriority;
-    id lock_invalidated;
-    id connection;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)addObserverForName:(id)arg1 object:(CDUnknownBlockType)arg2 queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)addMaxLenToDictionaryRef:(id)arg1;
+- (void)addLayoutManager:(_Bool)arg1;
+- (void)addAnnotation:(id)arg1 withUndo:(CDUnknownBlockType)arg2;
+- (void)addAlternateFieldNameToDictionaryRef:(id)arg1;
+- (void)addAdditionalActionsToDictionaryRef:(id)arg1;
+- (void)addAction:(id)arg1;
+- (void)activeTextStorage;
+- (void)activeAnnotation;
+- (void)activateConstraints:(id)arg1;
+- (void)activateAnnotation:(CDUnknownBlockType)arg1;
+- (void)actionWithTitle:(CDUnknownBlockType)arg1 style:handler: /* Error: Ran out of types for this method. */;
+- (void)actionWithTitle:(id)arg1 image:(CDUnknownBlockType)arg2 identifier:handler: /* Error: Ran out of types for this method. */;
+- (void)actionWithActionDictionary:(CDUnknownBlockType)arg1 forDocument:forPage: /* Error: Ran out of types for this method. */;
+- (void)accessibilityTitleUIElement;
+- (void)accessibilityNode;
+- (void)_zoomToRect:(id)arg1;
+- (_Bool)_zoomChangeScheduled;
+- (void)_widgetOnStateString;
 - (int);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool boostToForegroundPriority; // @synthesize boostToForegroundPriority;
-@property(nonatomic, readonly) int pid;
 
 @end
 

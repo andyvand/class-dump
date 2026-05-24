@@ -9,9 +9,10 @@
 @interface FCEdgeCacheHint
 {
     NSString *_groupName;
-    NSString *_cacheControlKey;
 }
 
++ (id)!;
++ (id)ɚ;
 + (id);
 + (id);
 + (id);
@@ -25,21 +26,18 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)an EV Charger;
 + (id);
 + (id);
 + (id)0@ù
 × ;
 - (id);
+- (id)neTransform=dddddd}16;
 - (id);
 - (id);
-- (id);
-- (void)user_id;
+- (void)report_concern_user_id;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *cacheControlKey; // @synthesize cacheControlKey=_cacheControlKey;
 @property(readonly, copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
 
 @end

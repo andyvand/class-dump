@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AVHapticPlayerParameterCurve
 {
     unsigned long long _type;
-    double _time;
-    unsigned long long _shape;
-    NSArray *_controlPoints;
 }
 
-+ (_Bool);
++ (_Bool))@@;
+- (id),;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)A;
 - (unsigned long long);
+- (void);
+- (unsigned long long)@;
 - (void);
-- (unsigned long long);
-- (void);
-- (double);
+- (double)Light;
 - (void);
 - (void)x4;
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *controlPoints;
-@property unsigned long long shape; // @synthesize shape=_shape;
-@property double time; // @synthesize time=_time;
 @property unsigned long long type; // @synthesize type=_type;
 
 @end

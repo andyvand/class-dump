@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, _UIHIDContext, _UIHIDPathCollection;
+@class _UIHIDContext;
 
 __attribute__((visibility("hidden")))
 @interface _UIHIDTransformer
 {
     _UIHIDContext *_hidContext;
-    NSMutableArray *_hidEvents;
-    NSMutableDictionary *_hidContextByContextId;
-    unsigned int _contextId;
-    struct __IOHIDEvent *_hidEvent;
-    struct CGSize _canvasSize;
-    struct CGAffineTransform _eventTransform;
 }
 
 - (id);
 - (id);
-- (void);
-- (struct CGSize);
+- (void)__AUTH_CONST;
+- (struct CGSize)_MPModelShimRequestMiddlewareOperation;
 - (struct CGAffineTransform);
 - (struct __IOHIDEvent *);
 - (id)
 × ;
-- (void)tionBarSearchFieldSizing:(id)arg1;
+- (void)setNavigationBarSearchFieldSizing:(id)arg1;
 - (id),S_setHasActiveMenuPresentation:(struct __IOHIDEvent *)arg1;
 - (id)L,NðQ\R´R;
 - (void)finished:(struct CGSize)arg1 %@;
@@ -35,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) struct CGSize canvasSize; // @synthesize canvasSize=_canvasSize;
-@property(nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) struct CGAffineTransform eventTransform; // @synthesize eventTransform=_eventTransform;
 @property(readonly, nonatomic) struct __IOHIDEvent *hidEvent; // @synthesize hidEvent=_hidEvent;
-@property(readonly, nonatomic) _UIHIDPathCollection *pathCollection;
 
 @end
 

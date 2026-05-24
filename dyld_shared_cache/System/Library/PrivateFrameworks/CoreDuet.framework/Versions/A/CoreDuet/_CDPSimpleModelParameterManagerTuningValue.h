@@ -7,26 +7,20 @@
 @interface _CDPSimpleModelParameterManagerTuningValue
 {
     float _lambda;
-    float _w0;
-    float _threshold;
-    float _score;
 }
 
 + (_Bool);
 - (float);
 - (float);
+- (id)cz;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (float);
 - (float)%@=public.email-message || %@= com.apple.mail.emlx);
 
 // Remaining properties
 @property(readonly, nonatomic) float lambda; // @synthesize lambda=_lambda;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
-@property(readonly, nonatomic) float threshold; // @synthesize threshold=_threshold;
-@property(readonly, nonatomic) float w0; // @synthesize w0=_w0;
 
 @end
 

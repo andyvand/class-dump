@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBCondition
 {
     struct {
         unsigned int conditionalOperator:1;
     } _has;
-    int _conditionalOperator;
 }
 
 + (_Bool);
-- (void);
+- (void)3;
 - (void);
 - (_Bool);
 - (id);
 - (int);
 - (int);
-- (id);
+- (id)";
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)v@?>24;
+- (void)FAILED with error %d;
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int conditionalOperator; // @synthesize conditionalOperator=_conditionalOperator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConditionalOperator;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

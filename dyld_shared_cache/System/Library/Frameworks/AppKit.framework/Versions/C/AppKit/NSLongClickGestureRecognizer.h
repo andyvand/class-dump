@@ -10,17 +10,15 @@
 {
 }
 
-- (void);
-- (unsigned long long);
-- (void)ateEffectiveAppearance;
+- (void);
+- (unsigned long long)lineHTTP;
+- (void)_updateEffectiveAppearance;
 - (double)t^;ø;
 - (void)Dh;
-- (double)CpuSecondsUnits;
+- (double)userCpuSecondsUnits;
 
 // Remaining properties
-@property double allowableMovement;
 @property unsigned long long buttonMask;
-@property double minimumPressDuration;
 
 @end
 

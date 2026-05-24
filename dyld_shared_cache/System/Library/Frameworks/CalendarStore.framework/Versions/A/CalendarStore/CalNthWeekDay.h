@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (_Bool);
 - (id);
@@ -24,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long dayOfTheWeek;
 @property(retain, nonatomic) EKRecurrenceDayOfWeek *ekRecurrenceDayOfWeek; // @synthesize ekRecurrenceDayOfWeek=_ekRecurrenceDayOfWeek;
-@property(readonly) long long weekNumber;
 
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSData;
 
 @protocol SFAudioData
-- (NSNumber *);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *audioBuffer;
-@property(copy, nonatomic) NSNumber *bitsPerChannel;
-@property(copy, nonatomic) NSNumber *bytesPerFrame;
-@property(copy, nonatomic) NSNumber *bytesPerPacket;
-@property(copy, nonatomic) NSNumber *channelsPerFrame;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *formatFlags;
-@property(copy, nonatomic) NSString *formatID;
-@property(copy, nonatomic) NSNumber *framesPerPacket;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *reserved;
-@property(nonatomic) double sampleRate;
 @end
 

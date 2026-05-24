@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol FMDSharedConfigurationXPCInterface
+- (void)0:(NSArray *)arg1 8{CGAffineTransform=dddddd}16;
+- (void)@0:(NSString *)arg1 8@16@?24@?32;
+- (void)dddddd}24@0:(NSString *)arg1 8Q16;
+- (void)ansform=dddddd}16{CGPoint=dd}64;
 @end
 

@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBLocation;
+@class NSArray, NSString, _INPBLocation;
 
 @protocol _INPBCalendarEvent
+- (void);
+- (_Bool)m;
+- (NSArray *)tadata>";
 - (NSString *)
 × ;
 - (_INPBLocation *)Q¾(ð1Â0@ù
 × ;
-- (_Bool)omeIntent;
+- (_Bool)INConfigureHomeIntent;
 - (void)<.;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *calendarPunchoutURI;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *dateTimeRange;
-@property(copy, nonatomic) NSString *eventIdentifier;
-@property(readonly, nonatomic) _Bool hasCalendarPunchoutURI;
-@property(readonly, nonatomic) _Bool hasDateTimeRange;
-@property(readonly, nonatomic) _Bool hasEventIdentifier;
-@property(nonatomic) _Bool hasIsContactBirthday;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(nonatomic) _Bool isContactBirthday;
-@property(retain, nonatomic) _INPBLocation *location;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(copy, nonatomic) NSString *title;
 @end
 

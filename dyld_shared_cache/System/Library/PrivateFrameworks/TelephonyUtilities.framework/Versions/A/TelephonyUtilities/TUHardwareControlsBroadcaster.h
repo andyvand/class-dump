@@ -9,15 +9,14 @@
 @interface TUHardwareControlsBroadcaster
 {
     struct __IOHIDEventSystemClient *_hidEventSystemClientRef;
-    NSString *_eventTypeToIgnore;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)iateScene;
+- (void)shouldAssociateScene;
 
 // Remaining properties
 @property(retain) NSString *eventTypeToIgnore; // @synthesize eventTypeToIgnore=_eventTypeToIgnore;

@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol INSpeakable
-- (NSString *)sender: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *)chat:chatPersonCentricID:displayNameUpdated:sender: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *alternativeSpeakableMatches;
-@property(readonly) NSString *identifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *pronunciationHint;
 @property(readonly) NSString *spokenPhrase;
-@property(readonly) NSString *vocabularyIdentifier;
 @end
 

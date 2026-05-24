@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol TCollectionViewDelegateProtocol;
 
 __attribute__((visibility("hidden")))
 @interface FI_TCollectionView
 {
     struct TNSWeakPtr<NSObject<TCollectionViewDelegateProtocol>> _weakCollectionViewDelegate;
-    _Bool tornDown;
-    _Bool _suppressInputContext;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (struct TFENode);
 - (struct TFENode);
@@ -28,37 +26,37 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void))A;
+- (void);
+- (unsigned long long)	;
+- (unsigned long long);
+- (void);
 - (id);
+- (void)tachmentCell>"24Q32;
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
+- (void)16@24;
+- (_Bool)16@?0@"NSString"8;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)shouldResetDynamicAccountConfiguration;
 - (void);
 - (struct CGSize);
 - (void);
@@ -66,25 +64,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (unsigned long long)nge: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setTruncateInRange: /* Error: Ran out of types for this method. */;
 - (void)ormat param in '%{public}';
 - (void)ÿÿ;
 - (void)ü;
 - (void);
-- (void)seIFvbEEE;
+- (void)NSt3__110__function6__baseIFvbEEE;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<TCollectionViewDelegateProtocol> *collectionViewDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressInputContext; // @synthesize suppressInputContext=_suppressInputContext;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
 
 @end
 

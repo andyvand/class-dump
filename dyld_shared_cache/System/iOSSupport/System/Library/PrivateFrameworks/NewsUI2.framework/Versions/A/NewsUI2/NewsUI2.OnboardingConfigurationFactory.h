@@ -7,7 +7,6 @@
 @interface NewsUI2.OnboardingConfigurationFactory
 {
     id locationManager;
-    id userInfo;
 }
 
 @end

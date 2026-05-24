@@ -5,5 +5,6 @@
 //
 
 @protocol INDoubleResolutionResultExport
++ (id);
 @end
 

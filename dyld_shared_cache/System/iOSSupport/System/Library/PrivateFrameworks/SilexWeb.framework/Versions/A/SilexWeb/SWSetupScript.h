@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKUserScript;
+@class NSString;
 
 @interface SWSetupScript
 {
     _Bool queueable;
-    NSString *executableScript;
 }
 
 - (_Bool);
@@ -19,17 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *executableScript; // @synthesize executableScript;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool queueable; // @synthesize queueable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WKUserScript *userScript;
 
 @end
 

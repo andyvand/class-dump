@@ -5,7 +5,7 @@
 //
 
 @protocol _UIPassthroughScrollInteractionDelegate
-- (_Bool)questOptions;
+- (_Bool)PUPhotoPickerRemoteViewControllerRequestOptions;
 - (_Bool)wVz;
 @end
 

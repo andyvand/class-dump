@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDNearbySearchFilter, GEOPDViewportInfo, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDNearbySearchParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDNearbySearchFilter *_nearbySearchFilter;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _maxResults;
-    int _sortOrder;
-    struct {
-        unsigned int has_maxResults:1;
-        unsigned int has_sortOrder:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_nearbySearchFilter:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)P;
+- (id)etion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24q32Q40;
-- (id)blemStatusSize;
+- (id)_hasConstrainedProblemStatusSize;
 - (id)pxz	tì¼\,üà§;
 - (void)ffffffþ?q=
 ×£p@;

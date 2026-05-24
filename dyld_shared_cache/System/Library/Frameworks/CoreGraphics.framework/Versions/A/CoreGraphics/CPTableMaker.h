@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPTable, CPZone;
+@class CPZone;
 
 __attribute__((visibility("hidden")))
 @interface CPTableMaker
 {
     CPZone *tableZone;
-    CPTable *table;
-    unsigned int cellIndex;
-    CDStruct_c3b9c2ee *rowYIntervals;
-    CDStruct_c3b9c2ee *columnXIntervals;
 }
 
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)6a;
 - (id);
 - (id);
 - (void);

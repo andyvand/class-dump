@@ -9,20 +9,18 @@
 @interface CTNetwork
 {
     NSString *_name;
-    NSString *_plmn;
-    NSString *_rat;
 }
 
-+ (_Bool);
++ (_Bool)reciseDurationAndTiming;
+- (void);
+- (id)ؗ#;
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Connection",&,N,V_bleConnection;
 - (_Bool);
-- (void);
+- (void)encodeWithACLCoder:(id)arg1;
 - (id);
 - (void);
 - (void)0@ù
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *plmn; // @synthesize plmn=_plmn;
-@property(retain, nonatomic) NSString *rat; // @synthesize rat=_rat;
 
 @end
 

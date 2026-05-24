@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MTSchemaMTBatchRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)r documentation asset in-flight download:(_Bool)arg1 %{public}@;
 - (id);
 - (void);
-- (void);
+- (void)3qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/evp/m_sigver.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (id)!Fù1ß°1Â0@ù
 × ;
 - (id)UndoResponse;
-- (id)leteL;
+- (id)deleteL;
 - (_Bool)t.cnvUsoGraphTier1.usoGraphTier1.linkedUsoNodeDatas.normalizedStringPayloads;
 - (_Bool)Ì^;
 - (void)a;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAPhoneCallConfirmationSnippet : SAUISnippet
 {
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *confirmationDisplayText;
-@property(copy, nonatomic) NSArray *persons;
 
 @end
 

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject;
-@protocol OS_dispatch_queue;
+@class NSNumber;
 
 @interface PPAppLaunchMonitorRegistrationContext
 {
     NSNumber *_token;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handler;
 }
 
-- (void)Algorithm;
+- (void)topicAlgorithm;
 
 @end
 

@@ -6,6 +6,6 @@
 
 @interface UnknownClass (GameKit)
 - (void);
-- (void);
+- (void)';
 @end
 

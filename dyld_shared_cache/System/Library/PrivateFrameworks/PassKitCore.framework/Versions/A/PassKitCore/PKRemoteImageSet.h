@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PKRemoteImageSet
 {
     NSString *_name;
-    NSSet *_images;
 }
 
-+ (_Bool);
++ (_Bool)__TEXT;
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id)	;
+- (void);
+- (id)#;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void)o;
-- (void);
+- (void)_jitterBufferResidencyTimeHistograms;
+- (id);
+- (void)peerPaymentMemo;
+- (void)arrivalgate;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *images; // @synthesize images=_images;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

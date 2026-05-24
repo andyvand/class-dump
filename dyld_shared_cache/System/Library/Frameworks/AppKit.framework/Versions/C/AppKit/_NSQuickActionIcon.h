@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSQuickActionIcon
 {
     CDUnknownBlockType _imageProvider;
-    id _imageCache;
 }
 
 - (id);
@@ -19,11 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)-;
-- (void)ractionAvailable;
+- (void)kGameControllerSystemStatusControllerInteractionAvailable;
 
 // Remaining properties
 @property(retain) id imageCache; // @synthesize imageCache=_imageCache;
-@property(readonly, copy, nonatomic) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;
 
 @end
 

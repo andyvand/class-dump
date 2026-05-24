@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSString, SFCredentialIdentity, SFSafariCredential;
+@class SFCredentialIdentity;
 
 @interface WBSCredentialIdentityMatch
 {
     SFCredentialIdentity *_credentialIdentity;
-    NSExtension *_extension;
-    SFSafariCredential *_resolvedCredential;
 }
 
 - (id);
@@ -18,21 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id):completionHandler: /* Error: Ran out of types for this method. */;
+- (id)runTest:bundle:storeResultsIn:tryCount:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)¼	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *completion;
 @property(readonly, nonatomic) SFCredentialIdentity *credentialIdentity; // @synthesize credentialIdentity=_credentialIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SFSafariCredential *resolvedCredential; // @synthesize resolvedCredential=_resolvedCredential;
-@property(readonly) Class superclass;
 
 @end
 

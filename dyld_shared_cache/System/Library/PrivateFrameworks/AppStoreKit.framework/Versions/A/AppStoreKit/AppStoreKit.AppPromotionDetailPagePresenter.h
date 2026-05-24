@@ -9,7 +9,6 @@
 @interface AppStoreKit.AppPromotionDetailPagePresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id appPromotionDetailPage;
 }
 
 @end

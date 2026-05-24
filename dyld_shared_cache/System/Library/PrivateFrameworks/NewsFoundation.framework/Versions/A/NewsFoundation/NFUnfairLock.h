@@ -7,10 +7,9 @@
 @interface NFUnfairLock
 {
     struct os_unfair_lock_s _unfairLock;
-    unsigned int _unfairLockOptions;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

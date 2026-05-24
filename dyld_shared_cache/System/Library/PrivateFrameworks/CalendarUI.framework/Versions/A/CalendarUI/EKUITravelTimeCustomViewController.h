@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, IGPopupWindowController, NSPopUpButton, NSTextField;
+@class EKEvent;
 
 @interface EKUITravelTimeCustomViewController
 {
     EKEvent *_event;
-    IGPopupWindowController *_popup;
-    NSPopUpButton *_customUnit;
-    NSTextField *_customDuration;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSTextField *customDuration; // @synthesize customDuration=_customDuration;
-@property(retain) NSPopUpButton *customUnit; // @synthesize customUnit=_customUnit;
 @property __weak EKEvent *event; // @synthesize event=_event;
-@property(retain) IGPopupWindowController *popup; // @synthesize popup=_popup;
 
 @end
 

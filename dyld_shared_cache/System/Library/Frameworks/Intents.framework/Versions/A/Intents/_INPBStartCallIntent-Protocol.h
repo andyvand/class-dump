@@ -4,41 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallRecordFilter, _INPBCallRecordValue, _INPBIntentMetadata, _INPBStartCallRequestMetadata;
+@class NSString, _INPBIntentMetadata;
 
 @protocol _INPBStartCallIntent
+- (NSString *);
+- (void)ai;
+- (void)q;
+- (void);
+- (_Bool);
+- (int)K;
+- (void)setMinimumBackgroundFetchInterval:(_Bool)arg1 forApp: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)(;
+- (_INPBIntentMetadata *)tMountedVolumesMap;
+- (NSString *)SOExtensionServiceConnection;
+- (void)R;
 - (_Bool)initWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int audioRoute;
-@property(nonatomic) int callCapability;
-@property(copy, nonatomic) NSArray *callGroups;
-@property(readonly, nonatomic) unsigned long long callGroupsCount;
-@property(retain, nonatomic) _INPBCallRecordFilter *callRecordFilter;
-@property(retain, nonatomic) _INPBCallRecordValue *callRecordToCallBack;
-@property(retain, nonatomic) _INPBStartCallRequestMetadata *callRequestMetadata;
-@property(copy, nonatomic) NSArray *contacts;
-@property(readonly, nonatomic) unsigned long long contactsCount;
-@property(nonatomic) int destinationType;
-@property(copy, nonatomic) NSString *faceTimeLink;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(nonatomic) _Bool hasCallCapability;
-@property(readonly, nonatomic) _Bool hasCallRecordFilter;
-@property(readonly, nonatomic) _Bool hasCallRecordToCallBack;
-@property(readonly, nonatomic) _Bool hasCallRequestMetadata;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasFaceTimeLink;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsGroupCall;
-@property(readonly, nonatomic) _Bool hasNotificationThreadIdentifier;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(nonatomic) _Bool hasRecordTypeForRedialing;
-@property(nonatomic) _Bool hasTtyType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool isGroupCall;
-@property(copy, nonatomic) NSString *notificationThreadIdentifier;
-@property(nonatomic) int preferredCallProvider;
-@property(nonatomic) int recordTypeForRedialing;
-@property(nonatomic) int ttyType;
 @end
 

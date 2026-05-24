@@ -11,10 +11,10 @@
     NSCharacterSet *_dotCharacterSet;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
 - (id);
-- (id)ion:(id)arg1 withTolerance: /* Error: Ran out of types for this method. */;
+- (id)applyPlatformConfiguration:(id)arg1 withTolerance: /* Error: Ran out of types for this method. */;
 - (void)0t;
 
 @end

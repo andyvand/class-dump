@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface UIKit.NavigationBarLargeTitleReparentingHelper
 {
     id container;
-    id scrollView;
-    struct CGRect frameInGlobalCoordinateSpace;
-    id scrollViewWithTemporaryDonatedTitle;
-    _Bool contributesToPocketContentRect;
-    UIView *view;
 }
 
 - (void);
@@ -22,15 +15,13 @@
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)BundleSize;
 - (id);
 - (id)ÀþÑÿÑD£dÿÑ(`ÿÑÜÚ°ÿÑx÷èÿÑ°(üÿÑX\;
 - (void)ÜÝzþ*ÛÐ¸§l;
 
 // Remaining properties
-@property(nonatomic) _Bool contributesToPocketContentRect; // @synthesize contributesToPocketContentRect;
 @property(nonatomic) struct CGRect frameInGlobalCoordinateSpace; // @synthesize frameInGlobalCoordinateSpace;
-@property(nonatomic, readonly) UIView *view; // @synthesize view;
 
 @end
 

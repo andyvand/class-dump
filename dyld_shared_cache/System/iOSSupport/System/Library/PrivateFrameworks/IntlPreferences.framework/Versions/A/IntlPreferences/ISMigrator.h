@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ISMigrator
 {
     _Bool _newUserAccount;
-    unsigned long long _platform;
-    NSString *_previousVersion;
-    NSString *_currentVersion;
-    unsigned long long _previousSchemaVersion;
 }
 
 + (id);
@@ -26,7 +20,7 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -34,14 +28,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id)y;
+- (id)remoteObjectProxy;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currentVersion; // @synthesize currentVersion=_currentVersion;
-@property(nonatomic) _Bool newUserAccount; // @synthesize newUserAccount=_newUserAccount;
 @property(nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(nonatomic) unsigned long long previousSchemaVersion; // @synthesize previousSchemaVersion=_previousSchemaVersion;
-@property(copy, nonatomic) NSString *previousVersion; // @synthesize previousVersion=_previousVersion;
 
 @end
 

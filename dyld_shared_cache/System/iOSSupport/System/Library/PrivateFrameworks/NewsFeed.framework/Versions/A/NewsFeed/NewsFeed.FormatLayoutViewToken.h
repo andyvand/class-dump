@@ -9,7 +9,7 @@
     id children;
 }
 
-- (id);
+- (id)A;
 - (void)N:ÈY /* Error: Ran out of types for this method. */;
 
 @end

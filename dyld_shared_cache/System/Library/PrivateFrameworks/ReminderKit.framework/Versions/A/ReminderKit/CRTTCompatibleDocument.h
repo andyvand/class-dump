@@ -6,17 +6,15 @@
 
 #import <ReminderKit/CRDocument.h>
 
-@class NSMutableArray, TTCRVectorMultiTimestamp;
+@class TTCRVectorMultiTimestamp;
 
 @interface CRTTCompatibleDocument : CRDocument
 {
     TTCRVectorMultiTimestamp *_sharedTopotextTimestamp;
-    NSMutableArray *_stringsWithClocksNeedingUpdating;
-    NSMutableArray *_stringsWithClocksToResetAfterRealizingLocalChanges;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TTCRVectorMultiTimestamp *sharedTopotextTimestamp; // @synthesize sharedTopotextTimestamp=_sharedTopotextTimestamp;
-@property(retain, nonatomic) NSMutableArray *stringsWithClocksNeedingUpdating; // @synthesize stringsWithClocksNeedingUpdating=_stringsWithClocksNeedingUpdating;
-@property(retain, nonatomic) NSMutableArray *stringsWithClocksToResetAfterRealizingLocalChanges; // @synthesize stringsWithClocksToResetAfterRealizingLocalChanges=_stringsWithClocksToResetAfterRealizingLocalChanges;
 
 @end
 

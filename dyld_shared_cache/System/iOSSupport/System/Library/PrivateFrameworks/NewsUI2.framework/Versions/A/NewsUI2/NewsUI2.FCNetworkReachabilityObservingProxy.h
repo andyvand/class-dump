@@ -9,7 +9,7 @@
     id delegate;
 }
 
-- (id);
+- (id);
 - (void)y;
 
 @end

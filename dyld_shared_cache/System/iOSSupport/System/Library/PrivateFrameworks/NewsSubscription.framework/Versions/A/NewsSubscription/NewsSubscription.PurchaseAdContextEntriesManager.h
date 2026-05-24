@@ -7,8 +7,6 @@
 @interface NewsSubscription.PurchaseAdContextEntriesManager
 {
     id lazyStore;
-    id purchaseAdContexts;
-    id accessLock;
 }
 
 @end

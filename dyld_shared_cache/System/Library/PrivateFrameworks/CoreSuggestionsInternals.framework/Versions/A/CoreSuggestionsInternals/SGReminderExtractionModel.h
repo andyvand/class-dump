@@ -6,36 +6,31 @@
 
 #import <CoreSuggestionsInternals/SGExtractionModel.h>
 
-@class NSDictionary, _PASLock, _PASNotificationToken;
+@class _PASNotificationToken;
 
 @interface SGReminderExtractionModel : SGExtractionModel
 {
     _PASNotificationToken *_assetUpdateToken;
-    NSDictionary *_enrichments;
-    NSDictionary *_inputTokenMapping;
-    NSDictionary *_outputConfig;
-    NSDictionary *_reminderOverrides;
-    _PASLock *_lock;
 }
 
 + (id);
++ (id)24@0:(id)arg1 8@"WKWebView"16;
 + (id);
-+ (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)__TEXT;
 - (_Bool);
 - (id);
 - (void);
 - (struct _NSRange);
 - (void);
+- (id)setObject:forKey: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 @end

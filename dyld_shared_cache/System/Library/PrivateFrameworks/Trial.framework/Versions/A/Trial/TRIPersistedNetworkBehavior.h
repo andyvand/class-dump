@@ -12,11 +12,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCellular; // @dynamic allowsCellular;
-@property(nonatomic) _Bool boostPriority; // @dynamic boostPriority;
-@property(nonatomic) _Bool hasAllowsCellular; // @dynamic hasAllowsCellular;
-@property(nonatomic) _Bool hasBoostPriority; // @dynamic hasBoostPriority;
-@property(nonatomic) _Bool hasNetworkBehavior; // @dynamic hasNetworkBehavior;
-@property(nonatomic) int networkBehavior; // @dynamic networkBehavior;
 
 @end
 

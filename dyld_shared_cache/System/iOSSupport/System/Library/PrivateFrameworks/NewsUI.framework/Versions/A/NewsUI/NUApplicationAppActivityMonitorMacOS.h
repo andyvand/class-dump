@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet, NSNotificationCenter, NSString;
+@class NSNotificationCenter;
 
 @interface NUApplicationAppActivityMonitorMacOS
 {
     _Bool _windowIsForeground;
-    _Bool _becomingActive;
-    NSNotificationCenter *_notificationCenter;
-    NSHashTable *_observers;
-    NSString *_windowBecameFrontmostNotificationName;
-    NSString *_windowLostFrontmostNotificationName;
-    NSMutableSet *_foregroundObserverBlocks;
-    NSMutableSet *_backgroundObserverBlocks;
-    NSMutableSet *_windowForegroundObserverBlocks;
-    NSMutableSet *_windowBackgroundObserverBlocks;
 }
 
 - (id);
@@ -29,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -37,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)unknown;
 - (void);
 - (void);
 - (void);
@@ -46,7 +37,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -56,27 +47,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *backgroundObserverBlocks; // @synthesize backgroundObserverBlocks=_backgroundObserverBlocks;
-@property(nonatomic, getter=isBecomingActive) _Bool becomingActive; // @synthesize becomingActive=_becomingActive;
-@property(readonly, nonatomic) long long currentApplicationState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableSet *foregroundObserverBlocks; // @synthesize foregroundObserverBlocks=_foregroundObserverBlocks;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableSet *windowBackgroundObserverBlocks; // @synthesize windowBackgroundObserverBlocks=_windowBackgroundObserverBlocks;
-@property(readonly, copy, nonatomic) NSString *windowBecameFrontmostNotificationName; // @synthesize windowBecameFrontmostNotificationName=_windowBecameFrontmostNotificationName;
-@property(readonly, nonatomic) NSMutableSet *windowForegroundObserverBlocks; // @synthesize windowForegroundObserverBlocks=_windowForegroundObserverBlocks;
-@property(nonatomic, getter=isWindowForeground) _Bool windowIsForeground; // @synthesize windowIsForeground=_windowIsForeground;
-@property(readonly, copy, nonatomic) NSString *windowLostFrontmostNotificationName; // @synthesize windowLostFrontmostNotificationName=_windowLostFrontmostNotificationName;
 
 @end
 

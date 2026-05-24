@@ -7,10 +7,6 @@
 @interface ControlCenter.WeatherPreferences
 {
     id loginItemDefinition;
-    id loginItemController;
-    id pathToLoginItem;
-    id bundleIdentifier;
-    id cancellables;
 }
 
 @end

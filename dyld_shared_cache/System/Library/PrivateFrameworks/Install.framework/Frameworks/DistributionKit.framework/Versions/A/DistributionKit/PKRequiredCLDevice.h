@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface PKRequiredCLDevice
 {
     struct _cl_device_id *_device;
-    NSArray *_extensions;
-    NSDictionary *_symbolTable;
 }
 
 - (id);
@@ -25,9 +21,6 @@
 - (id)oring Error:Unknown limits parameter name "%s" used in CL requirement /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain) NSArray *extensions;
-@property(readonly, retain) NSDictionary *limits;
-@property(readonly, retain) NSString *vendorName;
 @property(readonly) double version;
 
 @end

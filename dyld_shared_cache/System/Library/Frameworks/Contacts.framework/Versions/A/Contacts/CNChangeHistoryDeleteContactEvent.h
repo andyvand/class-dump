@@ -11,8 +11,6 @@
 @interface CNChangeHistoryDeleteContactEvent : CNChangeHistoryEvent
 {
     NSString *_contactIdentifier;
-    NSString *_externalURI;
-    NSString *_externalModificationTag;
 }
 
 + (unsigned long long);
@@ -23,7 +21,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)ill use the only fork by default;
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,8 +31,6 @@
 - (void)withLockedContext_convertContactImplsToContacts;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy, nonatomic) NSString *externalModificationTag; // @synthesize externalModificationTag=_externalModificationTag;
 @property(readonly, copy, nonatomic) NSString *externalURI; // @synthesize externalURI=_externalURI;
 
 @end

@@ -14,13 +14,13 @@
 }
 
 + (id);
-- (id);
+- (id)_soundFiles;
 - (void);
 - (id);
+- (void)preprocessor;
+- (id)__AUTH_CONST;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)ows time zone from standard name (%@).;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *privileges; // @synthesize privileges=_privileges;

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, UITabBarControllerSidebar;
+@class UITabBarControllerSidebar;
 
 __attribute__((visibility("hidden")))
 @interface _UITabSidebarTransaction
 {
     _Bool _committed;
-    UITabBarControllerSidebar *_sidebar;
-    NSMutableDictionary *_tabsByIdentifier;
-    NSMutableSet *_tabsBecomingVisible;
-    NSMutableSet *_tabsBecomingHidden;
-    NSMutableDictionary *_updatedDisplayOrderForGroup;
 }
 
 - (id);
@@ -26,29 +21,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)D9i;
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (void)N,V_isSendEnabled;
+- (id);
+- (id);
+- (id)essage) ;
+- (void)push:(id)arg1 %@;
+- (_Bool)setStatusOrganizationInfo: /* Error: Ran out of types for this method. */;
 - (void)tLocationY;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isCommitted) _Bool committed; // @synthesize committed=_committed;
 @property(readonly, nonatomic) __weak UITabBarControllerSidebar *sidebar; // @synthesize sidebar=_sidebar;
-@property(retain, nonatomic) NSMutableSet *tabsBecomingHidden; // @synthesize tabsBecomingHidden=_tabsBecomingHidden;
-@property(retain, nonatomic) NSMutableSet *tabsBecomingVisible; // @synthesize tabsBecomingVisible=_tabsBecomingVisible;
-@property(readonly, nonatomic) NSMutableDictionary *tabsByIdentifier; // @synthesize tabsByIdentifier=_tabsByIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *updatedDisplayOrderForGroup; // @synthesize updatedDisplayOrderForGroup=_updatedDisplayOrderForGroup;
 
 @end
 

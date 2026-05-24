@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSHitTestRegion
 {
     struct CGRect _rect;
-    struct CGRect _exclusiveTouchNormalizedSubRect;
-    struct CGRect _exclusiveTouchNormalizedSubRectInReferenceSpace;
 }
 
 + (_Bool);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)24@0:(id)arg1 8:16 /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)inationCreateWithData failed;
 - (_Bool);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (void);
@@ -31,17 +27,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(nonatomic) struct CGRect exclusiveTouchNormalizedSubRect; // @synthesize exclusiveTouchNormalizedSubRect=_exclusiveTouchNormalizedSubRect;
-@property(readonly, nonatomic, getter=_exclusiveTouchNormalizedSubRectInReferenceSpace) struct CGRect exclusiveTouchNormalizedSubRectInReferenceSpace; // @synthesize exclusiveTouchNormalizedSubRectInReferenceSpace=_exclusiveTouchNormalizedSubRectInReferenceSpace;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly) Class superclass;
 
 @end
 

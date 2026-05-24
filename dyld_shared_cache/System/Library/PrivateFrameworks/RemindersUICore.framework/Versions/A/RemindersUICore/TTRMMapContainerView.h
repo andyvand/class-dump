@@ -15,7 +15,7 @@
 - (id);
 - (void)ýÿ;
 - (void),7D}iÿ;
-- (void)sViewModelSource;
+- (void)TTRSECreateRemindersViewModelSource;
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;

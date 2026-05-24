@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRListBadgeView.EmojiView__priv_3DF80B16FE3BCF93F419A82E393676A4
 {
     id emoji;
-    id fontSize;
-    id textAttributes;
-    id textSize;
 }
 
 - (id);

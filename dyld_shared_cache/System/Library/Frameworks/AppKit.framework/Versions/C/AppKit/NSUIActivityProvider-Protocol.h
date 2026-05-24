@@ -7,7 +7,12 @@
 @class NSUserActivity;
 
 @protocol NSUIActivityProvider
-- (NSUserActivity *)playPopoverUsingBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)to read AP ticket:(NSUserActivity *)arg1 %d;
+- (void)registerClass: /* Error: Ran out of types for this method. */;
+- (void)_xCredsInitComplete;
+- (void)ructProxyList():(NSUserActivity *)arg1 proxy list already constructed!;
+- (NSUserActivity *)_requestViewControllerForDocumentTitlebarPopover:thenDisplayPopoverUsingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSUserActivity *userActivity;

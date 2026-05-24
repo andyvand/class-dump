@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFileManager, NSNumber, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @interface BMFileBackedCounter
 {
     NSString *_filePath;
-    NSString *_lockFilePath;
-    int _protectionClass;
-    unsigned long long _domain;
-    BMFileManager *_fileManager;
-    NSNumber *_lastObservedCount;
-    _Bool _readOnly;
-    NSUUID *_fileUUID;
 }
 
 + (id);

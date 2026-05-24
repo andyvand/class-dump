@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFConfirmationOutcomeDescriptor
 {
     _Bool _confirmed;
-    unsigned long long _behaviorOverrides;
 }
 
 + (_Bool);
@@ -18,19 +15,11 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)v;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long behaviorOverrides; // @synthesize behaviorOverrides=_behaviorOverrides;
 @property(nonatomic) _Bool confirmed; // @synthesize confirmed=_confirmed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

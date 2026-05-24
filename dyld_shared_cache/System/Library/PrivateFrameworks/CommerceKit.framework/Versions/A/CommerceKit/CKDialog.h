@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CKDialog
 {
     BOOL _kind;
-    BOOL _defaultButton;
-    _Bool _checkboxChecked;
-    _Bool _showsHelp;
-    NSString *_messageText;
-    NSString *_informativeText;
-    NSString *_okButtonTitle;
-    NSString *_cancelButtonTitle;
-    NSString *_otherButtonTitle;
-    NSString *_checkboxTitle;
-    NSString *_helpAnchor;
-    NSMutableDictionary *_buttonActions;
 }
 
 + (id);
@@ -31,46 +20,38 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)BJ
+;
+- (_Bool).EDJ
+;
+- (void)D2DF'
+;
 - (id);
 - (void);
 - (id);
 - (void);
 - (BOOL);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)requestQuickFaceIdentificationForPhotoLibraryURL:withOptions:andCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)rangeAtIndex:(_Bool)arg1;
+- (void)performSelector:(id)arg1 withObject:afterDelay: /* Error: Ran out of types for this method. */;
+- (id)frequentLocationsDidChangeFromUpdateWithMoments: /* Error: Ran out of types for this method. */;
+- (void)fingerprint for asset:(id)arg1 %@ - %@;
+- (void)ue = %@;
+- (id)x_extension_consume failed with error %@;
+- (id)ht index at path:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (BOOL);
+- (void);
+- (id);
+- (void);
+- (id);
+- (BOOL)plIfEEEENS1_17DefaultCacheStoreIS7_EENS1_10ComposeFstIS7_S9_EEEEE27__shared_ptr_default_deleteISC_SC_EE;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *buttonActions; // @synthesize buttonActions=_buttonActions;
-@property(copy) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property _Bool checkboxChecked; // @synthesize checkboxChecked=_checkboxChecked;
-@property(copy) NSString *checkboxTitle; // @synthesize checkboxTitle=_checkboxTitle;
-@property BOOL defaultButton; // @synthesize defaultButton=_defaultButton;
-@property(copy) NSString *helpAnchor; // @synthesize helpAnchor=_helpAnchor;
-@property(copy) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property BOOL kind; // @synthesize kind=_kind;
-@property(copy) NSString *messageText; // @synthesize messageText=_messageText;
-@property(copy) NSString *okButtonTitle; // @synthesize okButtonTitle=_okButtonTitle;
-@property(copy) NSString *otherButtonTitle; // @synthesize otherButtonTitle=_otherButtonTitle;
-@property _Bool showsHelp; // @synthesize showsHelp=_showsHelp;
 
 @end
 

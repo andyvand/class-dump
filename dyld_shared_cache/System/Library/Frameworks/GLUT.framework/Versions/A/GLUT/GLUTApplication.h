@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMenuItem, NSMutableSet, NSString;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface GLUTApplication
 {
     NSMenuItem *_aboutMenuItem;
-    NSMenuItem *_hideMenuItem;
-    NSMenuItem *_quitMenuItem;
-    NSDate *_distantFuture;
-    NSDate *_distantPast;
-    NSMutableSet *_viewStorage;
-    _Bool _isPackaged;
 }
 
 - (void);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)llbackStatusCell(CKChatItem) configureForChatItem:(id)arg1 context:animated:animationDuration:animationCurve:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -32,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

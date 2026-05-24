@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSelectedRTPParameters, HMDVideoAttributes, HMDVideoCodec, HMDVideoCodecParameters, NSData;
+@class HMDVideoCodec;
 
 __attribute__((visibility("hidden")))
 @interface HMDSelectedVideoParameters
 {
     HMDVideoCodec *_codec;
-    HMDVideoCodecParameters *_codecParameters;
-    HMDVideoAttributes *_videoAttributes;
-    HMDSelectedRTPParameters *_rtpParameters;
 }
 
 + (_Bool)Ô×;
@@ -23,17 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)HouseholdArrivalPredictionPerformanceLogEventFactory;
+- (id)P not using replay detection;
+- (void);
+- (id)_TtC13HomeKitDaemon52HouseholdArrivalPredictionPerformanceLogEventFactory;
 - (void)nection"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDVideoCodec *codec; // @synthesize codec=_codec;
-@property(readonly, copy, nonatomic) HMDVideoCodecParameters *codecParameters; // @synthesize codecParameters=_codecParameters;
-@property(readonly, copy, nonatomic) HMDSelectedRTPParameters *rtpParameters; // @synthesize rtpParameters=_rtpParameters;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) HMDVideoAttributes *videoAttributes; // @synthesize videoAttributes=_videoAttributes;
 
 @end
 

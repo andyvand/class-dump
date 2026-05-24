@@ -11,7 +11,6 @@
 @interface ICTTOrderedSetVersionedDocument : ICTTVersionedDocument
 {
     ICCROrderedSet *_orderedSet;
-    ICCRDocument *_document;
 }
 
 + (unsigned int);
@@ -19,14 +18,13 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)ÿÿÿÿP;
 - (id)¨/;
 
 // Remaining properties
 @property(readonly) ICCRDocument *document; // @synthesize document=_document;
-@property(retain, nonatomic) ICCROrderedSet *orderedSet; // @synthesize orderedSet=_orderedSet;
 
 @end
 

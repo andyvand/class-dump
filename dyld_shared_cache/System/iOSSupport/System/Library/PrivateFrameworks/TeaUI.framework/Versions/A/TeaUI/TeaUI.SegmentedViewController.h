@@ -7,10 +7,6 @@
 @interface TeaUI.SegmentedViewController
 {
     id delegate;
-    id style;
-    id segmentedControl;
-    id segmentViewControllers;
-    id $__lazy_storage_$_barButtonItem;
 }
 
 - (void);

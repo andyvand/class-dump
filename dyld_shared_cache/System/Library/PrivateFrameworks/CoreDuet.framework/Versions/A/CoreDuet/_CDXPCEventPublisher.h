@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_log, OS_xpc_event_publisher, _CDXPCEventPublisherDelegate;
+@class NSObject;
+@protocol OS_xpc_event_publisher;
 
 @interface _CDXPCEventPublisher
 {
     NSObject<OS_xpc_event_publisher> *_publisher;
-    NSString *_streamName;
-    id <_CDXPCEventPublisherDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_log;
-    const char *_os_variant_diagnostic_subsystem;
-    NSMutableArray *_pendingSendEvents;
 }
 
 + (id);
-+ (id);
++ (id)kVgV;
 - (id);
 - (void);
-- (id);
+- (id)supportsImageBlockSampleCoverageControl;
 - (const char *);
+- (void);
+- (id);
+- (void)$;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)1Â0@ù
 × ;
-- (void)tRecipientNames:(id)arg1;
+- (void)setRecipientNames:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDXPCEventPublisherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) const char *os_variant_diagnostic_subsystem; // @synthesize os_variant_diagnostic_subsystem=_os_variant_diagnostic_subsystem;
-@property(retain, nonatomic) NSMutableArray *pendingSendEvents; // @synthesize pendingSendEvents=_pendingSendEvents;
 @property(retain, nonatomic) NSObject<OS_xpc_event_publisher> *publisher; // @synthesize publisher=_publisher;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSString *streamName; // @synthesize streamName=_streamName;
 
 @end
 

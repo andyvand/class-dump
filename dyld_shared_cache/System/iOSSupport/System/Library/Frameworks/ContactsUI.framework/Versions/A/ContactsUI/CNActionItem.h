@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface CNActionItem
 {
     _Bool _disabled;
-    NSString *_type;
-    UIImage *_image;
-    NSString *_title;
 }
 
 - (id);
-- (id);
+- (id)clientCommittedAcceptedChangesWithNextAnchors: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)lockedIcon: /* Error: Ran out of types for this method. */;
+- (void)setBlockedIcon: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)-;
 
 // Remaining properties
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

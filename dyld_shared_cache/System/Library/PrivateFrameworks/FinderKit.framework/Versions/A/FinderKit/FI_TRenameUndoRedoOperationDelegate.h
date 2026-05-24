@@ -10,14 +10,10 @@ __attribute__((visibility("hidden")))
 @interface FI_TRenameUndoRedoOperationDelegate : FI_TRenameOperationDelegate
 {
     struct unique_ptr<TRenameUndoRedoOperationHelper, std::default_delete<TRenameUndoRedoOperationHelper>> _actionHelper;
-    _Bool _needToReselectNode;
-    int _renameOpCount;
-    _Bool _isUndo;
-    struct optional_bool _pendingIsUndo;
 }
 
-+ (id);
-- (void);
++ (id)qA;
+- (void)R;
 - (void);
 - (int);
 - (int);

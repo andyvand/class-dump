@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibrary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface ML3AccountCacheDatabase
 {
     NSMutableDictionary *_propertiesCache;
-    NSObject<OS_dispatch_queue> *accessQueue;
-    ML3MusicLibrary *_library;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)humbnailIndex;
+- (_Bool)nimumNumberOfObjects;
+- (_Bool)ring",C,V_containerIdentifier;
+- (void)",C,D,N;
+- (id)PhotoKitAddService_applyChangesRequest:(unsigned long long)arg1 libraryToken:reply: /* Error: Ran out of types for this method. */;
+- (id)_needsWidgetTimelineReload;
+- (id)mpted to enable opportunistic tasks when not disabled;
 - (void)@ WHERE %@;
 
 @end

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _PFWeakReference;
-
 __attribute__((visibility("hidden")))
 @interface _PFFetchedResultOrderedSetWrapper
 {
     int _cd_rc;
-    NSArray *_underlyingArray;
-    _PFWeakReference *_weakmoc;
 }
 
 + (id)%@ FROM (%@) WHERE %@ IS NULL AND %@ IS NULL;
@@ -28,19 +24,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H;
 - (_Bool);
 - (id);
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)mpromised by API violation:vnode %s while in use:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -51,13 +47,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ondToPushNotification:(CDStruct_70511ce9 *)arg1 forSubscription:(id *)arg2 ]_block_invoke;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRUpdateActiveSystemEndpointRequestProtobuf
 {
     double _disableDuration;
-    unsigned long long _type;
-    int _changeType;
-    NSString *_outputDeviceUID;
-    NSString *_previousOutputDeviceUID;
-    NSString *_reason;
-    _Bool _demoteWhenSyncingToCompanion;
-    _Bool _pairedDeviceSync;
-    struct {
-        unsigned int disableDuration:1;
-        unsigned int type:1;
-        unsigned int changeType:1;
-        unsigned int demoteWhenSyncingToCompanion:1;
-        unsigned int pairedDeviceSync:1;
-    } _has;
 }
 
 - (id);
@@ -37,24 +21,24 @@
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (id);
+- (id)";
+- (_Bool)defuseNicknameCommand:senderContext:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned long long)ld guids are not yet downloaded, out of %ld total requested:%s /* Error: Ran out of types for this method. */;
+- (_Bool)es:groupID:chatPersonCentricID:statusChanged:handleInfo:) /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (int);
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)PFStateCaptureEventDescription;
+- (int)setPath:(id)arg1;
+- (_Bool)bargeInOverHomeAnnouncementPlayback;
+- (void)profile;
+- (id)irm.request.sent;
 - (void);
 - (void);
 - (void);
@@ -64,27 +48,12 @@
 - (void);
 - (_Bool)!Cù&1Â0@ù
 × ;
-- (void)lectedDeviceNames:(_Bool)arg1;
-- (void)dentifierHierarchys;
+- (void)setUserSelectedDeviceNames:(_Bool)arg1;
+- (void)clearExtendedBundleIdentifierHierarchys;
 - (id)tableArray",&,N,V_packetDescriptions;
 
 // Remaining properties
-@property(nonatomic) int changeType; // @synthesize changeType=_changeType;
-@property(nonatomic) _Bool demoteWhenSyncingToCompanion; // @synthesize demoteWhenSyncingToCompanion=_demoteWhenSyncingToCompanion;
-@property(nonatomic) double disableDuration; // @synthesize disableDuration=_disableDuration;
-@property(nonatomic) _Bool hasChangeType;
-@property(nonatomic) _Bool hasDemoteWhenSyncingToCompanion;
-@property(nonatomic) _Bool hasDisableDuration;
 @property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(nonatomic) _Bool hasPairedDeviceSync;
-@property(readonly, nonatomic) _Bool hasPreviousOutputDeviceUID;
-@property(readonly, nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(nonatomic) _Bool pairedDeviceSync; // @synthesize pairedDeviceSync=_pairedDeviceSync;
-@property(retain, nonatomic) NSString *previousOutputDeviceUID; // @synthesize previousOutputDeviceUID=_previousOutputDeviceUID;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

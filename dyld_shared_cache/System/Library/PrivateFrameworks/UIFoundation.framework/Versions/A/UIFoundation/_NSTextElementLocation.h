@@ -7,30 +7,25 @@
 #import <UIFoundation/NSCountableTextLocation.h>
 
 @class NSTextElement;
-@protocol NSTextLocation;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextElementLocation : NSCountableTextLocation
 {
     NSTextElement *_textElement;
-    id <NSTextLocation> _baseLocation;
-    long long _offset;
 }
 
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
-- (_Bool);
+- (_Bool)CAMELLIA-128-CBC;
 - (long long);
 - (id);
-- (long long)heKeyWithDesign:weight:width:pointSize:monospacedDigits: /* Error: Ran out of types for this method. */;
+- (long long)newSystemFontCacheKeyWithDesign:weight:width:pointSize:monospacedDigits: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <NSTextLocation> baseLocation; // @synthesize baseLocation=_baseLocation;
-@property(readonly) long long offset; // @synthesize offset=_offset;
 @property NSTextElement *textElement; // @synthesize textElement=_textElement;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSMutableArray, NSMutableAttributedString;
+@class NSMutableArray, NSMutableAttributedString;
 
 @interface AppKitToSuperParserContext
 {
     NSMutableAttributedString *_superFormat;
-    NSColor *_bodyBackgroundColor;
-    NSColor *_bodyForegroundColor;
-    long long _baseWritingDirection;
-    _Bool _didAddBodyAttributes;
-    NSMutableArray *_mutableFileTransferGUIDs;
 }
 
 - (void);
@@ -28,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *fileTransferGUIDs; // @dynamic fileTransferGUIDs;
 @property(readonly) NSMutableArray *mutableFileTransferGUIDs; // @synthesize mutableFileTransferGUIDs=_mutableFileTransferGUIDs;
 
 @end

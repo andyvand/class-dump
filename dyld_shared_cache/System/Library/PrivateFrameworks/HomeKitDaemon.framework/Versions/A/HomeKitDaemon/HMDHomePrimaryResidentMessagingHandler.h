@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFFuture, HMFMessageDispatcher, NSError, NSMapTable, NSNotificationCenter, NSString, NSUUID;
-@protocol HMDResidentDeviceManager, HMFTimerManager;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePrimaryResidentMessagingHandler
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_homeUUID;
-    NSString *_logIdentifier;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDResidentDeviceManager> _residentDeviceManager;
-    NSNotificationCenter *_notificationCenter;
-    id <HMFTimerManager> _timerManager;
-    NSMapTable *_pendingMessages;
-    NSError *_destinationIsCurrentDeviceError;
-    NSError *_repeatedDestinationError;
-    HMFFuture *_discoveryFuture;
-    NSError *_lastPrimaryResidentDiscoveryError;
 }
 
 + (id)f]ÿ§ ªB;
-- (void);
-- (void);
+- (void)initWithMaximumNumberOfNotifications:(id)arg1;
+- (void)initWithMachServiceName:(id)arg1 options:(id)arg2;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -44,15 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)ed pairing server;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
 @property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

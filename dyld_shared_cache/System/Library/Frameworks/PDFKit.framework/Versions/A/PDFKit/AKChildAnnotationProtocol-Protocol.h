@@ -7,6 +7,7 @@
 @class AKAnnotation;
 
 @protocol AKChildAnnotationProtocol
+- (AKAnnotation *)initWithFrameWidth:sourceframeHeight:scaleFactor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak AKAnnotation *parentAnnotation;

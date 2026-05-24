@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUndoManager, VSRemoteNotifier;
+@class NSUndoManager, VSRemoteNotifier;
 
 @interface VSPrivacyVoucherLockbox
 {
     NSUndoManager *_undoManager;
-    VSRemoteNotifier *_remoteNotifier;
 }
 
 + (id);
-- (id);
+- (id)I;
 - (void);
 - (void);
 - (void);
@@ -22,24 +21,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)iewController buttonPressed:(id)arg1 ]E3$_2vJEEE;
 - (id);
 - (id);
-- (void);
+- (void)Ԑ_";
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) VSRemoteNotifier *remoteNotifier; // @synthesize remoteNotifier=_remoteNotifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
-@property(readonly, copy, nonatomic) NSArray *unredeemedVouchers;
 
 @end
 

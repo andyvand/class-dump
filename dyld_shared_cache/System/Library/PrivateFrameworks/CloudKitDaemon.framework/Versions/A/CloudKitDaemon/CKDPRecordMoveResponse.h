@@ -9,7 +9,6 @@
 @interface CKDPRecordMoveResponse
 {
     CKDPRecord *_moveMarker;
-    CKDPRecord *_movedRecord;
 }
 
 - (void);
@@ -21,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)llback(CMSampleBufferRef, CMItemCount, void *);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMoveMarker;
-@property(readonly, nonatomic) _Bool hasMovedRecord;
-@property(retain, nonatomic) CKDPRecord *moveMarker; // @synthesize moveMarker=_moveMarker;
-@property(retain, nonatomic) CKDPRecord *movedRecord; // @synthesize movedRecord=_movedRecord;
 
 @end
 

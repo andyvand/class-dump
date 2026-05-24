@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VCSessionParticipantAudioStreamConfig : VCAudioStreamConfig
 {
     VCAudioRuleCollection *_audioRules;
-    VCAudioRuleCollection *_audioRulesNegotiated;
 }
 
 - (void);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) VCAudioRuleCollection *audioRules; // @synthesize audioRules=_audioRules;
-@property(retain, nonatomic) VCAudioRuleCollection *audioRulesNegotiated; // @synthesize audioRulesNegotiated=_audioRulesNegotiated;
 
 @end
 

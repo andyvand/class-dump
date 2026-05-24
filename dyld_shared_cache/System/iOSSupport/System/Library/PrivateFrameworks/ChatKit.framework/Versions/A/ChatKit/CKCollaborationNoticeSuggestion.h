@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntity, IMCollaborationNotice, NSString;
-@protocol CKCollaborationNoticeSuggestionDelegate, SGSuggestionDelegate;
+@class CKEntity;
 
 __attribute__((visibility("hidden")))
 @interface CKCollaborationNoticeSuggestion
 {
     _Bool _wantsInlineReplyStyle;
-    id <SGSuggestionDelegate> suggestionDelegate;
-    IMCollaborationNotice *_notice;
-    CKEntity *_senderEntity;
-    id <CKCollaborationNoticeSuggestionDelegate> _delegate;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)_isTogglingItalics;
+- (id)perNotesImmediately;
+- (id)lazy_storage_$_didUpdateSystemPaperNotesImmediately;
+- (id)uery",R,N;
+- (id)NotesWithCoalescingAndDelay;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)DidInvalidateObject;
 - (void);
 - (id);
-- (id);
+- (id)of the share in didStopSharing:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
@@ -35,17 +30,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
+- (id)P;
 - (id);
 - (id);
+- (id)+;
+- (id);
+- (id)&;
+- (id)$$;
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (long long);
@@ -57,18 +52,7 @@ __attribute__((visibility("hidden")))
 - (void)|Eÿ­j|Eÿj|Eÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKCollaborationNoticeSuggestionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IMCollaborationNotice *notice; // @synthesize notice=_notice;
 @property(readonly, nonatomic) CKEntity *senderEntity; // @synthesize senderEntity=_senderEntity;
-@property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate; // @synthesize suggestionDelegate;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsInlineReplyStyle; // @synthesize wantsInlineReplyStyle=_wantsInlineReplyStyle;
 
 @end
 

@@ -7,7 +7,13 @@
 @class PKPass;
 
 @protocol PKPassLibraryExportedInterface
-- (void)hEligibilityResponse:(PKPass *)arg1;
+- (void)8;
+- (void);
+- (void)?;
+- (void)setCustomProxyConfigured:(long long)arg1;
+- (void)R;
+- (void)_;
+- (void)initWithEligibilityResponse:(PKPass *)arg1;
 - (void)T@"NSString",&,N,V_state;
 @end
 

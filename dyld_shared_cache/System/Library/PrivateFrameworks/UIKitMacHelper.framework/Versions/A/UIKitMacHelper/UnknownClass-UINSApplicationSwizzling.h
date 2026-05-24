@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (UINSApplicationSwizzling)
-+ (void)etVisibilityPriority: /* Error: Ran out of types for this method. */;
++ (void)setVisibilityPriority: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -16,6 +16,6 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)e manager isPluggedIn:(SEL)arg1 %d, notificationsEnabled:(id)arg2 %d;
 @end
 

@@ -14,7 +14,7 @@
 + (double);
 + (double);
 + (double);
-+ (void)undingBoxForStrokes: /* Error: Ran out of types for this method. */;
++ (void)_boundingBoxForStrokes: /* Error: Ran out of types for this method. */;
 
 @end
 

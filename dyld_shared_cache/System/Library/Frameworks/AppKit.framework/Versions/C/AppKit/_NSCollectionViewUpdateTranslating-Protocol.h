@@ -7,8 +7,9 @@
 @class NSIndexPath, NSString;
 
 @protocol _NSCollectionViewUpdateTranslating
+- (struct _NSRange);
 - (NSIndexPath *)@0:(NSString *)arg1 8{CGPoint=dd}16q32i40d44;
 - (long long);
-- (long long)pG;
+- (long long)SayypG;
 @end
 

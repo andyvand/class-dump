@@ -5,5 +5,6 @@
 //
 
 @protocol HMFMerging
+- (_Bool);
 @end
 

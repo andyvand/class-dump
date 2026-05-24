@@ -14,51 +14,47 @@
 }
 
 + (id);
-- (double);
+- (double)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (int)dictionaryWithDictionary:defaultValue: /* Error: Ran out of types for this method. */;
+- (struct CGRect)dictionaryWithDictionary: /* Error: Ran out of types for this method. */;
+- (double)allowedClasses;
+- (_Bool)_unhandledPartialData;
+- (int)_outputReadyForWriting: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_outputPipe;
+- (id)_bindInt32Array:(id)arg1 length:(CDStruct_1b6d18a9)arg2 toParameterAtIndex:(CDStruct_1b6d18a9)arg3;
+- (id)instrumentalBreak;
+- (id)_finished;
+- (id)setSourceImage:(id)arg1;
+- (_Bool)Object<OS_nw_protocol_definition>",R,N,V_framerDefinition;
+- (_Bool)rce>",&,N,V_timer;
+- (_Bool)"NSObject<OS_dispatch_source>",&,N,V_timer;
+- (_Bool)h_queue>",R,N,V_delegateQueue;
+- (_Bool)read:maxLength: /* Error: Ran out of types for this method. */;
+- (_Bool)parseWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)dispatch_queue>",&,N,V_dispatchQueue;
+- (_Bool)osition;
+- (_Bool)umber",&,N,V_gradientColorStartPosition;
+- (_Bool)"NSNumber",&,D,N;
+- (_Bool)utableText;
+- (long long)ame;
+- (id)8@"NSError"12;
 - (int);
-- (struct CGRect);
-- (double);
-- (_Bool);
-- (int);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (int);
-- (_Bool);
-- (double);
-- (double);
-- (_Bool);
+- (_Bool)l __strong, NSData * _Nonnull __strong, NSError *__autoreleasing  _Nullable * _Nullable);
+- (double)predefinedTableStyleSheet;
+- (double)EMR_SETCOLORADJUSTMENT;
+- (_Bool)ʬ;
 - (_Bool);
 - (void);
 - (id);
-- (double);
+- (double)a;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id),;
 - (double);
 
 // Remaining properties
 @property(readonly) long long faceID;
-@property(readonly) _Bool hasRollAngle;
-@property(readonly) _Bool hasYawAngle;
-@property(readonly) double rollAngle;
-@property(readonly) double yawAngle;
 
 @end
 

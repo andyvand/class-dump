@@ -9,26 +9,22 @@
 @interface KTStaticKeyPeer
 {
     NSSet *_otherNames;
-    NSString *_peer;
-    NSString *_lastUsedAddressOfMe;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)!;
 - (id);
 - (void);
-- (id);
+- (id)tions;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *lastUsedAddressOfMe; // @synthesize lastUsedAddressOfMe=_lastUsedAddressOfMe;
-@property(retain) NSSet *otherNamesForPeer;
 @property(retain) NSString *peer; // @synthesize peer=_peer;
 
 @end

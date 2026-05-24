@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MTLBuiltInArgument : MTLBindingInternal
 {
     unsigned short _builtInType;
-    unsigned short _builtInDataType;
 }
 
 - (id);

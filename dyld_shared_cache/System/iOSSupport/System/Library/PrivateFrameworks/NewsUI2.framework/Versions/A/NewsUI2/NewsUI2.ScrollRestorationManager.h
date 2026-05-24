@@ -7,7 +7,6 @@
 @interface NewsUI2.ScrollRestorationManager
 {
     id userActivity;
-    id userActivityDeserializer;
 }
 
 @end

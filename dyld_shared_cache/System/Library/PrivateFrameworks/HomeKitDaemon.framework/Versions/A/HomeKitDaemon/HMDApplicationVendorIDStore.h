@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDApplicationVendorIDStore
 {
     NSMutableDictionary *_applicationVendorIDMapping;
-    NSMutableDictionary *_applicationMachUUIDMapping;
-    NSObject<OS_dispatch_queue> *_clientQueue;
 }
 
 + (id)EventBus";
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)neNumbers;
 - (void);
 - (id);
 - (id);
@@ -35,15 +32,13 @@ __attribute__((visibility("hidden")))
 - (void)1Â0@ù
 × ;
 - (id)";
-- (void)r;
+- (void)_reevaluateTimer;
 - (id)@, type:%@ /* Error: Ran out of types for this method. */;
 - (void)ask.hash}@;
-- (void)PresenceObserver;
+- (void)DefaultAccessoryPresenceObserver;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *applicationMachUUIDMapping; // @synthesize applicationMachUUIDMapping=_applicationMachUUIDMapping;
 @property(readonly, nonatomic) NSMutableDictionary *applicationVendorIDMapping; // @synthesize applicationVendorIDMapping=_applicationVendorIDMapping;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
 
 @end
 

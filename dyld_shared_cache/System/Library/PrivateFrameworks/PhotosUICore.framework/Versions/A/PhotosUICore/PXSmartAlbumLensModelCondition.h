@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumEXIFCondition.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PXSmartAlbumLensModelCondition : PXSmartAlbumEXIFCondition
 {
@@ -20,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *lensModel;
 @property(readonly, nonatomic) NSArray *lensModels;
 
 @end

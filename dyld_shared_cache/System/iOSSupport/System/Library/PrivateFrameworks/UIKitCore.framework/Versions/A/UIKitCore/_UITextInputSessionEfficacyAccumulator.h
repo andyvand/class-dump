@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
+@class NSDictionary, NSMutableDictionary, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UITextInputSessionEfficacyAccumulator
 {
     NSMutableDictionary *_entries;
-    NSString *_language;
-    NSString *_region;
-    NSString *_keyboardVariant;
-    NSString *_keyboardLayout;
-    NSString *_keyboardType;
-    _Bool _sessionIsModeless;
-    NSMutableSet *_sessionErrors;
-    unsigned long long _largestSessionInsertionLength;
-    unsigned long long _largestSessionDeletionLength;
-    long long _sessionNetCharacters;
-    _Bool _insertionObservedInSession;
-    unsigned long long _charsRemovedBeforeFirstInsertionCount;
-    unsigned long long _emojisRemovedBeforeFirstInsertionCount;
-    NSString *_name;
-    NSDictionary *_keyboardTrialParameters;
 }
 
 + (id);
@@ -35,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)payloadWeekdayCurfew;
+- (void)vorite"b1"isDisliked"b1"dateFavorited"b1"storeRedownloadable"b1"isPinned"b1"artist"{?="identifiers"b1"name"b1}"genre"{?="identifiers"b1"name"b1}};
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)inerAdapterView;
+- (id)_UIIndexBarScrollAccessoryContainerAdapterView;
 - (void)g;
 - (void)øõnþ13Äüÿm13èõnþm13üþu13àô¸þ;
 

@@ -7,8 +7,6 @@
 @interface SwiftUI.ScrollEnvironmentStorage
 {
     id _baseProperties;
-    id _transform;
-    id _$observationRegistrar;
 }
 
 @end

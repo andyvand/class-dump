@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)";
+- (void)payloadAllowExplicitContent;
+- (void)m;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)erties:(id)arg1 imageState:options: /* Error: Ran out of types for this method. */;
+- (void)setImage:(id)arg1 imageProperties:imageState:options: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

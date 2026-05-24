@@ -6,28 +6,20 @@
 
 #import <Photos/PHContentEditingInputRequestContext.h>
 
-@class NSProgress, PHVideoRequest, PLPhotoEditRenderer;
-@protocol PHMediaRequestLiveRenderingOptions;
-
 @interface PHLiveRenderEditingInputRequestContext : PHContentEditingInputRequestContext
 {
     struct os_unfair_lock_s _renderLock;
-    PLPhotoEditRenderer *_renderer;
-    CDUnknownBlockType _renderedVideoHandler;
-    id <PHMediaRequestLiveRenderingOptions> _liveRenderOptions;
-    PHVideoRequest *_onDemandRenderRequest;
-    NSProgress *_onDemandRenderProgress;
 }
 
 + (id);
 + (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id)t;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)angeRequestHelper",R,N,V_participantsHelper;
 - (CDUnknownBlockType)ons;

@@ -5,5 +5,8 @@
 //
 
 @protocol HMAccessoryInfoDataProviderDelegate
+
+@optional
+- (void);
 @end
 

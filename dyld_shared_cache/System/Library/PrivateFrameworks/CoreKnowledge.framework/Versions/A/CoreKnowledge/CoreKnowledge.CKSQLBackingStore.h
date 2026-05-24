@@ -7,7 +7,6 @@
 @interface CoreKnowledge.CKSQLBackingStore
 {
     id name;
-    id connection;
 }
 
 + (void);

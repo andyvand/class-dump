@@ -4,92 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString;
+@class NSArray, NSDictionary;
 
 @interface DESRecipe
 {
     NSDictionary *_recipeUserInfo;
-    NSData *_certificate;
-    NSArray *_attachments;
-    NSArray *_attachmentSignatures;
-    NSArray *_attachmentPaths;
-    NSDictionary *_parametersUsed;
-    NSString *_recipeID;
-    NSString *_bundleIdentifier;
-    NSDictionary *_predicate;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (_Bool)lts.payload.outcome.success.returnValue.collection.values.entity.typeIdentifier.custom.bundleId;
++ (_Bool)meration.typeIdentifier.custom.bundleId;
++ (_Bool)payload.outcome.success.returnValue.collection.values.enumeration.typeIdentifier.custom.bundleId;
++ (_Bool)ayload.outcome.success.returnValue.collection.values.primitive.app.bundleId;
++ (_Bool)lvedParameterSets.parameters.candidate.value.collection.typeIdentifier.custom.bundleId;
++ (_Bool)undleId;
++ (_Bool)!;
+- (_Bool)e.parameterCandidatesNotFounds.value.value.primitive.app.bundleId;
+- (_Bool)nRequest.statementResults.payload.outcome.parameterCandidatesNotFounds.value.value.primitive.app.bundleId;
+- (_Bool)es.query.typeIdentifier.custom.bundleId;
+- (_Bool)oad.outcome.parameterNotAllowed.value.collection.values.query.typeIdentifier.custom.bundleId;
+- (_Bool)terNotAllowed.value.collection.values.entity.typeIdentifier.custom.bundleId;
 - (void);
+- (id)mentResults.payload.outcome.parameterDisambiguation.items.collection.values.query.typeIdentifier.custom.bundleId;
+- (id)ion.items.collection.values.entity.typeIdentifier.custom.bundleId;
+- (_Bool)tion.typeIdentifier.custom.bundleId;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id).outcome.parameterDisambiguation.items.collection.values.primitive.app.bundleId;
+- (_Bool)come.parameterDisambiguation.items.value.query.typeIdentifier.custom.bundleId;
+- (_Bool)Request.statementResults.payload.outcome.parameterDisambiguation.items.value.query.typeIdentifier.custom.bundleId;
+- (id)ion.values.enumeration.typeIdentifier.custom.bundleId;
+- (id).outcome.parameterConfirmation.item.collection.values.primitive.app.bundleId;
+- (id)nerationRequest.statementResults.payload.outcome.success.returnValue.value.primitive.app.bundleId;
+- (id)stom.bundleId;
+- (id).values.enumeration.typeIdentifier.custom.bundleId;
+- (id).collection.values.primitive.app.bundleId;
+- (id)ResolverRequestCreated.unresolvedParameterSets.parameters.candidate.value.collection.values.primitive.app.bundleId;
+- (id)te.value.collection.typeIdentifier.custom.bundleId;
+- (id)tionResolverRequestCreated.unresolvedParameterSets.parameters.candidate.value.collection.typeIdentifier.custom.bundleId;
+- (id)lue.value.query.typeIdentifier.custom.bundleId;
+- (id)nresolvedParameterSets.parameters.candidate.value.value.primitive.app.bundleId;
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)8h+8K;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)"NSUUID",R,C,N,V_identifier;
 - (void);
 - (void);
 - (id);
 - (void)a by %@, for key:(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *approximateStaleness;
-@property(copy, nonatomic) NSArray *attachmentPaths; // @synthesize attachmentPaths=_attachmentPaths;
-@property(copy, nonatomic) NSArray *attachmentSignatures; // @synthesize attachmentSignatures=_attachmentSignatures;
 @property(copy, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSData *certificate; // @synthesize certificate=_certificate;
-@property(readonly, nonatomic) NSNumber *federatedBufferDownScalingFactor;
-@property(readonly, nonatomic) _Bool isFederatedBufferStaled;
-@property(readonly, nonatomic) NSNumber *maxNorm;
-@property(readonly, nonatomic) NSNumber *normBinCount;
-@property(readonly, copy, nonatomic) NSDictionary *parametersUsed; // @synthesize parametersUsed=_parametersUsed;
-@property(readonly, nonatomic) _Bool pluginShouldAddNoiseAndEncryptResult;
-@property(readonly, nonatomic) NSDictionary *predicate; // @synthesize predicate=_predicate;
-@property(readonly, nonatomic) NSString *privacyIdentifier;
-@property(readonly, nonatomic) NSString *privacyIdentifierExt;
-@property(copy, nonatomic) NSString *recipeID; // @synthesize recipeID=_recipeID;
-@property(readonly, copy, nonatomic) NSDictionary *recipeUserInfo; // @synthesize recipeUserInfo=_recipeUserInfo;
-@property(readonly, nonatomic) _Bool transportIsDedisco;
-@property(readonly, nonatomic) _Bool useAdaptiveClipping;
-@property(readonly, nonatomic) _Bool useAggregatableMetadata;
-@property(readonly, nonatomic) _Bool useFederatedBuffer;
-@property(readonly, nonatomic) _Bool useSparsification;
 
 @end
 

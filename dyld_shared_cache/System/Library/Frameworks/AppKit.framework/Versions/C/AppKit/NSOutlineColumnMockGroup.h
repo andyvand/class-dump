@@ -4,46 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTableColumn;
-
 __attribute__((visibility("hidden")))
 @interface NSOutlineColumnMockGroup
 {
     long long _row;
-    NSTableColumn *_tableColumn;
 }
 
 + (id);
 + (id);
+- (id)U;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)B,V_isWebSearchContent;
+- (id)V_allowsMultipathTCP;
+- (id)setTLSMaximumSupportedProtocol: /* Error: Ran out of types for this method. */;
+- (void)responseHeaders;
+- (id)_wrappedRequest;
+- (id)ing",C,N,V_APSRelayTopic;
+- (id)tions;
+- (void)_didIssueWaitingForConnectivity;
+- (id)NSArray",C,V_proxyConfigurations;
+- (_Bool)startMonitoring;
+- (_Bool)setRequiresNetworkConnectivity: /* Error: Ran out of types for this method. */;
+- (_Bool),V_authenticator;
+- (_Bool)"NSURL",C,N,V_siteForCookies;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)ishingURL;
+- (_Bool)SString",R,V_partition;
+- (_Bool)T@"NSString",C,V_avAssetDownloadChildDownloadSessionIdentifier;
+- (_Bool)",C,V_HTTPAdditionalHeaders;
+- (_Bool)R,C;
+- (id)e_ivar;
+- (id),V_trackerContext;
+- (long long)__NSHostExtraIvars;
+- (id)__NSCFBackgroundAVAssetDownloadTask;
+- (id)__NSCFBackgroundDownloadTask;
+- (id)NSURLSessionAVAggregateAssetDownloadTask;
+- (id)NSURLSessionAVAssetDownloadTask;
+- (id)NSURLSessionDownloadTask;
 - (struct CGRect);
 - (id);
 - (id);

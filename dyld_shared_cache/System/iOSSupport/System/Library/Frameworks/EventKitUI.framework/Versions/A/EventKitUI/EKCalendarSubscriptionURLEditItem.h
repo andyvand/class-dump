@@ -7,48 +7,33 @@
 #import <EventKitUI/EKCalendarEditItem.h>
 
 @class NSString, UITableViewCell;
-@protocol EKCalendarSubscriptionURLEditItemDelegate;
 
 @interface EKCalendarSubscriptionURLEditItem : EKCalendarEditItem
 {
     UITableViewCell *_cell;
-    NSString *_urlString;
-    _Bool _inWaitPeriodSinceLastChange;
-    NSString *_lastNotifiedURLString;
-    _Bool _editable;
-    id <EKCalendarSubscriptionURLEditItemDelegate> _urlEditItemDelegate;
 }
 
 - (id);
 - (void);
+- (_Bool)H&s;
+- (void);
+- (void)x*s;
+- (id);
+- (void);
+- (void);
+- (long long)Z%s;
+- (_Bool);
+- (void)؞3m;
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void)m;
-- (id)ifyCurrentEvent:withAutocompleteResult: /* Error: Ran out of types for this method. */;
+- (void)openAttendeesDetailItem;
+- (id)_modifyCurrentEvent:withAutocompleteResult: /* Error: Ran out of types for this method. */;
 - (double)Òïÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool editable; // @synthesize editable=_editable;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <EKCalendarSubscriptionURLEditItemDelegate> urlEditItemDelegate; // @synthesize urlEditItemDelegate=_urlEditItemDelegate;
 @property(retain, nonatomic) NSString *urlString;
 
 @end

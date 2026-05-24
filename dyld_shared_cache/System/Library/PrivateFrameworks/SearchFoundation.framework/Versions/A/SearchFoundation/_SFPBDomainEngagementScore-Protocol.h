@@ -7,12 +7,9 @@
 @class NSData;
 
 @protocol _SFPBDomainEngagementScore
+- (NSData *)PHSearchEntityCategoryTypeFromPHSearchSuggestionCategoriesType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int domain;
-@property(nonatomic) float iFunScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float score;
-@property(nonatomic) int scoreConfidence;
 @end
 

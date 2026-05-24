@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSDate, NSString;
+@class NSString;
 
 @interface IDSFirewallEntry
 {
     _Bool _isDonated;
-    IDSURI *_uri;
-    NSDate *_lastSeen;
-    NSString *_mergeID;
 }
 
 + (_Bool);
@@ -23,18 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)dedToKVS:(id)arg1 %@; ktAccountKeyTimestamp:%@; ktOptInTimestamp:%@; ktOptInStatus:%lu; ktOptInAbsentReason:%@; ktAccountKeyAbsentReason:%@ > /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (void);
 - (id)¬;
 
 // Remaining properties
-@property(nonatomic) _Bool isDonated; // @synthesize isDonated=_isDonated;
-@property(readonly, nonatomic) NSDate *lastSeen; // @synthesize lastSeen=_lastSeen;
 @property(retain, nonatomic) NSString *mergeID; // @synthesize mergeID=_mergeID;
-@property(readonly, nonatomic) IDSURI *uri; // @synthesize uri=_uri;
 
 @end
 

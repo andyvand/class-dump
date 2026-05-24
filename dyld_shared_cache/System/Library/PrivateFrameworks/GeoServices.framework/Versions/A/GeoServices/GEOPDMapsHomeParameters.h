@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCollectionSuggestionParameters, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMapsHomeParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOPDCollectionSuggestionParameters *_collectionSuggestionParameters;
-    _Bool _shouldPopulateExploreGuidesEntry;
-    struct {
-        unsigned int has_shouldPopulateExploreGuidesEntry:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (id)ld"b1};
-- (id)nsitPointWithID:near:type:pointHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_findTransitPointWithID:near:type:pointHandler:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)<,Ôæ;
 

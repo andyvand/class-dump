@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFFactItemImageRightCardSection
 {
     _SFPBRFTextProperty *_number;
-    _SFPBRFTextProperty *_text_1;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
 - (void);
-- (id);
+- (id)value pairs);
 - (void);
 - (void);
 - (id);
@@ -23,25 +21,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)ons:(id)arg1;
+- (id)@, error:%@, code:%ld, domain:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number; // @synthesize number=_number;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

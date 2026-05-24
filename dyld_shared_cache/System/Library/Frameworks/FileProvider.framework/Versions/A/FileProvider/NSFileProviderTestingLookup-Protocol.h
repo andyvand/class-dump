@@ -10,7 +10,6 @@
 - (NSString *)ActionOperationLocator.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *itemIdentifier;
 @property(readonly, nonatomic) unsigned long long side;
 @end
 

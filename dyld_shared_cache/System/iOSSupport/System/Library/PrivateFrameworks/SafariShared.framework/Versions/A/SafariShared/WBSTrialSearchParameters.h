@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface WBSTrialSearchParameters
 {
     _Bool _isProvider1Enabled;
-    _Bool _isProvider2Enabled;
-    _Bool _isCFSearch;
-    _Bool _isForVoiceSearch;
-    _Bool _isResultFilteringDisabled;
-    _Bool _isDedupeThroughAlternativeURLsEnabled;
-    _Bool _strengthenAutocompleteTriggerExtensionMatching;
-    _Bool _enableCompletionListHistoryDeduplicationValue;
-    _Bool _enableCompletionListHistoryDeduplicationSwitchToTabValue;
-    _Bool _isSearchSuggestionImagesEnabled;
-    _Bool _isGraphicIconsInCompletionListEnabled;
-    _Bool _enableRecentSearchSortingByVisitCountScore;
-    _Bool _enableRecentSearchSortingUsingExponentialWeighting;
-    double _CFSearchTimeout;
-    long long _characterThresholdForAnywhereInTitleOrURL;
-    double _percentageThresholdForAnywhereInTitle;
-    double _percentageThresholdForAnywhereInURL;
-    long long _characterThresholdForStartOfURLPathComponent;
-    long long _matchingWordsInTitleThreshold;
-    long long _characterThresholdForStartOfTitle;
-    long long _characterThresholdForStartOfTitleWord;
-    long long _characterThresholdForStartOfTitleWordMatchLongEnoughForTopHit;
-    long long _characterThresholdForStartOfURL;
-    double _normalizedTopSitesScoreAndVisitCountMultiplier;
-    long long _maxBookmarksAndHistoryItems;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (void);
@@ -50,6 +24,7 @@
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -58,12 +33,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (double);
-- (double);
+- (double)P;
 - (long long);
 - (long long);
 - (_Bool);
@@ -86,39 +60,13 @@
 - (void);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)lu;
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double CFSearchTimeout; // @synthesize CFSearchTimeout=_CFSearchTimeout;
-@property(nonatomic) long long characterThresholdForAnywhereInTitleOrURL; // @synthesize characterThresholdForAnywhereInTitleOrURL=_characterThresholdForAnywhereInTitleOrURL;
-@property(nonatomic) long long characterThresholdForStartOfTitle; // @synthesize characterThresholdForStartOfTitle=_characterThresholdForStartOfTitle;
-@property(nonatomic) long long characterThresholdForStartOfTitleWord; // @synthesize characterThresholdForStartOfTitleWord=_characterThresholdForStartOfTitleWord;
-@property(nonatomic) long long characterThresholdForStartOfTitleWordMatchLongEnoughForTopHit; // @synthesize characterThresholdForStartOfTitleWordMatchLongEnoughForTopHit=_characterThresholdForStartOfTitleWordMatchLongEnoughForTopHit;
-@property(nonatomic) long long characterThresholdForStartOfURL; // @synthesize characterThresholdForStartOfURL=_characterThresholdForStartOfURL;
-@property(nonatomic) long long characterThresholdForStartOfURLPathComponent; // @synthesize characterThresholdForStartOfURLPathComponent=_characterThresholdForStartOfURLPathComponent;
-@property(readonly, nonatomic) _Bool checkServerCompletionForPrefixNavigationalIntent;
-@property(nonatomic) _Bool enableCompletionListHistoryDeduplicationSwitchToTabValue; // @synthesize enableCompletionListHistoryDeduplicationSwitchToTabValue=_enableCompletionListHistoryDeduplicationSwitchToTabValue;
-@property(nonatomic) _Bool enableCompletionListHistoryDeduplicationValue; // @synthesize enableCompletionListHistoryDeduplicationValue=_enableCompletionListHistoryDeduplicationValue;
-@property(readonly, nonatomic) _Bool enableRecentSearchSortingByVisitCountScore; // @synthesize enableRecentSearchSortingByVisitCountScore=_enableRecentSearchSortingByVisitCountScore;
-@property(readonly, nonatomic) _Bool enableRecentSearchSortingUsingExponentialWeighting; // @synthesize enableRecentSearchSortingUsingExponentialWeighting=_enableRecentSearchSortingUsingExponentialWeighting;
-@property(nonatomic) _Bool isCFSearch; // @synthesize isCFSearch=_isCFSearch;
-@property(nonatomic) _Bool isDedupeThroughAlternativeURLsEnabled; // @synthesize isDedupeThroughAlternativeURLsEnabled=_isDedupeThroughAlternativeURLsEnabled;
-@property(nonatomic) _Bool isForVoiceSearch; // @synthesize isForVoiceSearch=_isForVoiceSearch;
-@property(readonly, nonatomic) _Bool isGraphicIconsInCompletionListEnabled; // @synthesize isGraphicIconsInCompletionListEnabled=_isGraphicIconsInCompletionListEnabled;
 @property(readonly, nonatomic) _Bool isProvider1Enabled; // @synthesize isProvider1Enabled=_isProvider1Enabled;
-@property(readonly, nonatomic) _Bool isProvider2Enabled; // @synthesize isProvider2Enabled=_isProvider2Enabled;
-@property(nonatomic) _Bool isResultFilteringDisabled; // @synthesize isResultFilteringDisabled=_isResultFilteringDisabled;
-@property(readonly, nonatomic) _Bool isSearchSuggestionImagesEnabled; // @synthesize isSearchSuggestionImagesEnabled=_isSearchSuggestionImagesEnabled;
-@property(nonatomic) long long matchingWordsInTitleThreshold; // @synthesize matchingWordsInTitleThreshold=_matchingWordsInTitleThreshold;
-@property(nonatomic) long long maxBookmarksAndHistoryItems; // @synthesize maxBookmarksAndHistoryItems=_maxBookmarksAndHistoryItems;
-@property(nonatomic) double normalizedTopSitesScoreAndVisitCountMultiplier; // @synthesize normalizedTopSitesScoreAndVisitCountMultiplier=_normalizedTopSitesScoreAndVisitCountMultiplier;
-@property(nonatomic) double percentageThresholdForAnywhereInTitle; // @synthesize percentageThresholdForAnywhereInTitle=_percentageThresholdForAnywhereInTitle;
-@property(nonatomic) double percentageThresholdForAnywhereInURL; // @synthesize percentageThresholdForAnywhereInURL=_percentageThresholdForAnywhereInURL;
-@property(readonly, nonatomic) NSNumber *prefixNavigationalIntentThreshold;
-@property(nonatomic) _Bool strengthenAutocompleteTriggerExtensionMatching; // @synthesize strengthenAutocompleteTriggerExtensionMatching=_strengthenAutocompleteTriggerExtensionMatching;
 
 @end
 

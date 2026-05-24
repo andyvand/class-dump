@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDLibnetcoreMPTCPStatsReport, AWDLibnetcoreMbufStatsReport, AWDLibnetcoreNetworkdStatsReport, AWDLibnetcoreTCPECNStatsReport, AWDLibnetcoreTCPStatsReport, AWDLibnetcoreTCPTFOStatsReport, AWDNWAPIUsage, NSMutableArray;
-
 @interface AWDLibnetcoreStatsReport
 {
     unsigned long long _timestamp;
-    AWDLibnetcoreMbufStatsReport *_mbufStatisticsReport;
-    AWDLibnetcoreMPTCPStatsReport *_mptcpStatisticsReport;
-    AWDLibnetcoreNetworkdStatsReport *_networkdStatisticsReport;
-    AWDNWAPIUsage *_nwAPIUsageReport;
-    unsigned int _reportReason;
-    NSMutableArray *_tcpECNInterfaceReports;
-    AWDLibnetcoreTCPECNStatsReport *_tcpECNStatisticsReport;
-    AWDLibnetcoreTCPStatsReport *_tcpStatisticsReport;
-    AWDLibnetcoreTCPTFOStatsReport *_tcpTFOStatisticsReport;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int reportReason:1;
-    } _has;
 }
 
 + (Class);
@@ -33,9 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)A;
+- (id)J
+);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -49,48 +35,30 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
-- (_Bool);
+- (void)16q24B32;
+- (unsigned int)setIntercellSpacing: /* Error: Ran out of types for this method. */;
+- (_Bool)|N;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMbufStatisticsReport;
-@property(readonly, nonatomic) _Bool hasMptcpStatisticsReport;
-@property(readonly, nonatomic) _Bool hasNetworkdStatisticsReport;
-@property(readonly, nonatomic) _Bool hasNwAPIUsageReport;
-@property(nonatomic) _Bool hasReportReason;
-@property(readonly, nonatomic) _Bool hasTcpECNStatisticsReport;
-@property(readonly, nonatomic) _Bool hasTcpStatisticsReport;
-@property(readonly, nonatomic) _Bool hasTcpTFOStatisticsReport;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) AWDLibnetcoreMbufStatsReport *mbufStatisticsReport; // @synthesize mbufStatisticsReport=_mbufStatisticsReport;
-@property(retain, nonatomic) AWDLibnetcoreMPTCPStatsReport *mptcpStatisticsReport; // @synthesize mptcpStatisticsReport=_mptcpStatisticsReport;
-@property(retain, nonatomic) AWDLibnetcoreNetworkdStatsReport *networkdStatisticsReport; // @synthesize networkdStatisticsReport=_networkdStatisticsReport;
-@property(retain, nonatomic) AWDNWAPIUsage *nwAPIUsageReport; // @synthesize nwAPIUsageReport=_nwAPIUsageReport;
-@property(nonatomic) unsigned int reportReason; // @synthesize reportReason=_reportReason;
-@property(retain, nonatomic) NSMutableArray *tcpECNInterfaceReports; // @synthesize tcpECNInterfaceReports=_tcpECNInterfaceReports;
-@property(retain, nonatomic) AWDLibnetcoreTCPECNStatsReport *tcpECNStatisticsReport; // @synthesize tcpECNStatisticsReport=_tcpECNStatisticsReport;
-@property(retain, nonatomic) AWDLibnetcoreTCPStatsReport *tcpStatisticsReport; // @synthesize tcpStatisticsReport=_tcpStatisticsReport;
-@property(retain, nonatomic) AWDLibnetcoreTCPTFOStatsReport *tcpTFOStatisticsReport; // @synthesize tcpTFOStatisticsReport=_tcpTFOStatisticsReport;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

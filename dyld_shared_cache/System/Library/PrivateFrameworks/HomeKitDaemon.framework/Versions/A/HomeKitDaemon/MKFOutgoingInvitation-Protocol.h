@@ -4,25 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, MKFOutgoingInvitationDatabaseID, NSArray, NSDate, NSNumber, NSString;
-@protocol MKFHome, MKFUser;
+@class NSArray, NSNumber, NSString, NSUUID;
+@protocol MKFAccessory, MKFAirPlayAccessory, MKFAppleMediaAccessory, MKFHAPAccessory, MKFHome;
 
 @protocol MKFOutgoingInvitation
+- (id <MKFAccessory>);
+- (id <MKFHAPAccessory>)unsubscribeFromSharedTripUpdatesWithIdentifier:(NSUUID *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id <MKFAppleMediaAccessory>)unsignedIntValue;
+- (id <MKFAirPlayAccessory>)unregisterMapsInstallStateObserver:(NSUUID *)arg1;
+- (id <MKFHAPAccessory>)sPath;
+- (id <MKFAppleMediaAccessory>)"NSString",R,N,V_geoBookmarksSettingsPath;
+- (id <MKFAirPlayAccessory>),N,V_failedSearchesSettingsPath;
+- (id <MKFAccessory>)NSString",R,N,V_failedGeoSearchesSettingsPath;
+- (NSNumber *)ction interrupted:%@ /* Error: Ran out of types for this method. */;
+- (NSNumber *)ndle %@;
+- (NSArray *)ces yet;
+- (void)authorised for Contacts;
 - (id <MKFHome>)0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessCode;
-@property(readonly, retain, nonatomic) NSArray *allowedAccessories;
-@property(copy, nonatomic) NSNumber *announceAccessLevel;
-@property(copy, nonatomic) NSNumber *cameraAccessLevel;
-@property(readonly, copy, nonatomic) MKFOutgoingInvitationDatabaseID *databaseID;
-@property(copy, nonatomic) NSDate *dateSent;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *inviteeUserID;
-@property(retain, nonatomic) id <MKFUser> pendingUser;
-@property(copy, nonatomic) NSNumber *privilege;
-@property(copy, nonatomic) NSNumber *remoteAccessAllowed;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *shareToken;
 @end
 

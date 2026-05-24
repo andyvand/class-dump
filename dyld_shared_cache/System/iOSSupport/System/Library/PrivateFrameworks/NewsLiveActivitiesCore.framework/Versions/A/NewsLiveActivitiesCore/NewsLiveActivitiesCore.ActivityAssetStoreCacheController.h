@@ -8,10 +8,6 @@
 {
     id $defaultActor;
     id liveActivityManager;
-    id assetStore;
-    id activityDownloader;
-    id liveActivityController;
-    id missingAssetDetector;
 }
 
 @end

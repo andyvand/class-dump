@@ -9,8 +9,6 @@
 @interface _MRGroupSessionMemberSyncMessageProtobuf
 {
     NSMutableArray *_members;
-    NSMutableArray *_participants;
-    NSMutableArray *_pendingParticipants;
 }
 
 + (Class);
@@ -19,7 +17,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -38,17 +36,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)SWYAttachmentsEnabled;
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)announce_live_activity_alerts;
+- (void)_mediaControlsStyleForRouteSharingPolicy: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *members; // @synthesize members=_members;
 @property(retain, nonatomic) NSMutableArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) NSMutableArray *pendingParticipants; // @synthesize pendingParticipants=_pendingParticipants;
 
 @end
 

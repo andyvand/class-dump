@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CLLocationManager;
+
 @protocol CLLocationManagerDelegate
+
+@optional
+- (_Bool)launching any forced sync task;
+- (void)r:(CLLocationManager *)arg1 %@;
+- (void)has no transport user identifier;
+- (void)ng to launch a forced setup twice;
+- (void)pending %@ because we must launch %@;
+- (void)are closed;
+- (void)is cleaned;
+- (void)B;
+- (void)*;
 @end
 

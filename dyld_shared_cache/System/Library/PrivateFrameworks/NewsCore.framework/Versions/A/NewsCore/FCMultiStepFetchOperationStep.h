@@ -7,17 +7,15 @@
 @interface FCMultiStepFetchOperationStep
 {
     _Bool _isCritical;
-    SEL _fetchSelector;
 }
 
 - (void);
-- (void);
+- (void);
 - (SEL);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) SEL fetchSelector; // @synthesize fetchSelector=_fetchSelector;
-@property(nonatomic) _Bool isCritical; // @synthesize isCritical=_isCritical;
 
 @end
 

@@ -13,7 +13,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_processAllAcceptedClientRecords:(id)arg1 deletedRecordIds:(id)arg2 filteredRecordIds: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

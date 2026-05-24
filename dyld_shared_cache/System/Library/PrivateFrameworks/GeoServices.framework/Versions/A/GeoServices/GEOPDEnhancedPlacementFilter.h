@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id)a"b1"read_clientRankingFeatureMetadatas"b1"read_parsecQueryRankingFeatures"b1"read_placeSummaryLayoutMetadata"b1"read_sections"b1"read_sortPriorityMappings"b1"wrote_anyField"b1};
-- (id)D;
+- (id)_curatedCollectionMUID;
 - (id)Ì§ ¨ ¨;
 - (void)ÔÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿéÿÿÿêÿÿÿëÿÿÿîÿÿÿèÿÿÿíÿÿÿìÿÿÿçÿÿÿÞÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿüÿÿÿõÿÿÿòÿÿÿôÿÿÿàÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿËÿÿÿÿÿÿÿ;
 

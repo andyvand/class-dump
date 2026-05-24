@@ -7,28 +7,21 @@
 @interface AWDWiFiMetricsManagerBlacklistingInstanceInfo
 {
     unsigned long long _blacklistingTimestamp;
-    unsigned int _blacklistingReason;
-    unsigned int _reservedInfo;
-    struct {
-        unsigned int blacklistingTimestamp:1;
-        unsigned int blacklistingReason:1;
-        unsigned int reservedInfo:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (void);
+- (void)�;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -39,12 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int blacklistingReason; // @synthesize blacklistingReason=_blacklistingReason;
-@property(nonatomic) unsigned long long blacklistingTimestamp; // @synthesize blacklistingTimestamp=_blacklistingTimestamp;
 @property(nonatomic) _Bool hasBlacklistingReason;
-@property(nonatomic) _Bool hasBlacklistingTimestamp;
-@property(nonatomic) _Bool hasReservedInfo;
-@property(nonatomic) unsigned int reservedInfo; // @synthesize reservedInfo=_reservedInfo;
 
 @end
 

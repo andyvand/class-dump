@@ -9,7 +9,6 @@
 @interface WBSSiriIntelligenceDonorPersonalizationData
 {
     NSString *_searchQuery;
-    unsigned long long _position;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)rror:(unsigned long long)arg1;
+- (void)schemaWithExpectedClass:(unsigned long long)arg1 associatedError: /* Error: Ran out of types for this method. */;
 - (void)`;
 
 // Remaining properties
-@property(nonatomic) unsigned long long position; // @synthesize position=_position;
 @property(copy, nonatomic) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
 
 @end

@@ -6,24 +6,20 @@
 
 #import <AudioSession/AVAudioHardwareControl.h>
 
-@class AVAudioFloatRange;
-
 @interface AVAudioHardwareLevelControl : AVAudioHardwareControl
 {
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (float);
-- (float);
-- (float);
-- (float);
-- (id);
+- (id)ata",R,V_metadata;
+- (_Bool)NEIPCWrapper;
+- (_Bool)NEGuardProxyProvider;
+- (float)NEIKEv2CertificateRequestPayload;
+- (float)NEIKEv2CertificatePayload;
+- (float)_TtCE16NetworkExtensionCSo27NEExtensionBaseProviderHost21NEAppExtensionProcess;
+- (float)_TtC16NetworkExtension27NEAppExtensionConfiguration;
+- (id)_TtC16NetworkExtension27NEAppExtensionConfiguration;
 
 // Remaining properties
-@property(readonly, nonatomic) AVAudioFloatRange *decibelRange;
-@property(readonly, nonatomic) float decibelValue;
 @property(readonly, nonatomic) float scalarValue;
 
 @end

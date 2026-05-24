@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, NSDictionary;
+@class ABGroup;
 
 @interface ABImportedGroupInfo
 {
     ABGroup *group;
-    NSDictionary *cardRep;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSDictionary *cardRep; // @synthesize cardRep;
 @property(retain) ABGroup *group; // @synthesize group;
 
 @end

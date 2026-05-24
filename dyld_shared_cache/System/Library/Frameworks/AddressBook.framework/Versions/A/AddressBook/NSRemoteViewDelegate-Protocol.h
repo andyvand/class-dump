@@ -9,6 +9,8 @@
 @protocol NSRemoteViewDelegate
 
 @optional
+- (_Bool);
+- (void);
 - (NSXPCInterface *)!AÐ!äEùª°1Â0@ù
 × ;
 

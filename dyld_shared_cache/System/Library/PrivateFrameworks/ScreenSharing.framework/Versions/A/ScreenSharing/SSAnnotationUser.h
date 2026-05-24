@@ -9,18 +9,16 @@
 @interface SSAnnotationUser
 {
     NSString *_userID;
-    NSString *_appleID;
 }
 
-+ (id);
++ (id)U;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)b;
 
 // Remaining properties
-@property(retain) NSString *appleID; // @synthesize appleID=_appleID;
 @property(retain) NSString *userID; // @synthesize userID=_userID;
 
 @end

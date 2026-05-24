@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)rtItemsAtIndexPaths:(id)arg1;
+- (_Bool)insertItemsAtIndexPaths:(id)arg1;
 
 @end
 

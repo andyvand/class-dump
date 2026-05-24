@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, WBSCloudHistory, WBSCloudHistoryConfiguration, WBSHistoryService;
-@protocol OS_dispatch_queue;
+@class WBSHistoryService;
 
 @interface WBSHistoryConnection
 {
     WBSHistoryService *_historyService;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSCloudHistory *_cloudHistory;
-    WBSCloudHistoryConfiguration *_cloudHistoryConfiguration;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol NSComboBoxDataSource
+
+@optional
+- (unsigned long long);
 @end
 

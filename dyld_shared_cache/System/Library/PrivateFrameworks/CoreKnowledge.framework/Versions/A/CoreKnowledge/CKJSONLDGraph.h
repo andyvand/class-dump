@@ -9,7 +9,6 @@
 @interface CKJSONLDGraph
 {
     id _entities;
-    id queue;
 }
 
 - (void);

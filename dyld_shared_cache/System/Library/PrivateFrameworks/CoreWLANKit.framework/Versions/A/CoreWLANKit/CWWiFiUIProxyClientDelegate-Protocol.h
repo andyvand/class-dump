@@ -5,5 +5,8 @@
 //
 
 @protocol CWWiFiUIProxyClientDelegate
+
+@optional
+- (void);
 @end
 

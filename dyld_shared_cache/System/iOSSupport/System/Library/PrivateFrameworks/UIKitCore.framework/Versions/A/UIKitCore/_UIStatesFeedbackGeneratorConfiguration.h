@@ -14,12 +14,12 @@
     NSString *_initialState;
 }
 
-+ (id);
++ (id)%;
 - (id);
 - (void);
 - (void);
 - (id)ate"b1"isPresentingOrDismissingKeyboard"b1};
-- (id)y;
+- (id)_affinity;
 - (id)°;
 - (void)433333Ó?ffffffæ?Ù?333333ã?333333ã?Ù?;
 

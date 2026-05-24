@@ -7,15 +7,11 @@
 @interface PromotedContentUI.SafariViewController
 {
     id notificationObserver;
-    id notificationCloseObserver;
-    id notificationOpenObserver;
-    id backgroundedTime;
-    id actionDelegate;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)begin;
 - (void);
 - (void);
 - (long long)êÿx+;

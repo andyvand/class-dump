@@ -6,19 +6,14 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGWallpaperQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
 - (id);
-- (unsigned short);
+- (unsigned short)`;
 - (id);
 - (unsigned short);
 - (unsigned short);

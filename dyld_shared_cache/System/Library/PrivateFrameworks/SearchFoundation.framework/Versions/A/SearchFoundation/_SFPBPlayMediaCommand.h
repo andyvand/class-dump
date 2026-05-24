@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAudioData, _SFPBMediaMetadata;
+@class _SFPBMediaMetadata;
 
 @interface _SFPBPlayMediaCommand
 {
     _Bool _shouldPause;
-    int _playbackLocation;
-    _SFPBMediaMetadata *_mediaMetadata;
-    _SFPBAudioData *_audioData;
 }
 
 - (void);
 - (void);
 - (int);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)preferredCurationType;
+- (id)n:found a matching suggestion (%@) - suggestion that matches the most participants in the group thread /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)e"b1};
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBAudioData *audioData; // @synthesize audioData=_audioData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
-@property(nonatomic) int playbackLocation; // @synthesize playbackLocation=_playbackLocation;
-@property(nonatomic) _Bool shouldPause; // @synthesize shouldPause=_shouldPause;
-@property(readonly) Class superclass;
 
 @end
 

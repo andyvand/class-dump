@@ -7,9 +7,6 @@
 @interface CoreML.IOSurfaceStorage
 {
     id ioSurface;
-    id descriptor;
-    id asyncEvent;
-    id deallocator;
 }
 
 @end

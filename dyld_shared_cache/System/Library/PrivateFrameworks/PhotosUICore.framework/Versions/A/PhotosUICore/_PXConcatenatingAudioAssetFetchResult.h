@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol PXAudioAsset;
 
 @interface _PXConcatenatingAudioAssetFetchResult
 {
     NSArray *_fetchResults;
-    long long *_startIndexes;
-    long long _subFetchResultsCount;
-    long long _count;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)cksPersonalization,Weather,WeatherTests;
 - (id);
 - (void);
 - (_Bool);
@@ -30,16 +27,7 @@
 - (id)¸ýÛÿ×KhC;;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <PXAudioAsset> firstObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXAudioAsset> lastObject;
-@property(readonly) Class superclass;
 
 @end
 

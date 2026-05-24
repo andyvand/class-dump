@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class)E;
 + (Class);
 - (id);
-- (id)RateUnit:(id)arg1;
+- (id)StringAsHeartRateUnit:(id)arg1;
 
 @end
 

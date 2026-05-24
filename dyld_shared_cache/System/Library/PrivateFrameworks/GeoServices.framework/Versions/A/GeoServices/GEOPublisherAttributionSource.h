@@ -4,67 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOPublisherAttributionSource
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_appAdamID;
-    NSMutableArray *_localizedAttributions;
-    NSString *_websiteURL;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_appAdamID:1;
-        unsigned int read_localizedAttributions:1;
-        unsigned int read_websiteURL:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class)CNDefaultsDebugDescriptionObfuscation;
++ (_Bool)setIsLabelingShown:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)setBirthday:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)`;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id)recordingWillStartGroup;
+- (void):(id)arg1 %{public}@;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)_hasCurrentOperatingHours;
+- (_Bool);
 - (id);
 - (void);
 - (id)@"GEOPDCaptionedPhoto";
-- (id)ManifestUpdateOnReachabilityChange;
+- (id)_wantsManifestUpdateOnReachabilityChange;
 - (id);
-- (id)teID;
+- (id)routeID;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appAdamID;
-@property(readonly, nonatomic) _Bool hasAppAdamID;
-@property(readonly, nonatomic) _Bool hasWebsiteURL;
 @property(retain, nonatomic) NSMutableArray *localizedAttributions;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *websiteURL;
 
 @end
 

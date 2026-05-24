@@ -9,13 +9,12 @@
 @interface AppKit._NSTextFormattingFontSizeComponentView__priv_B20AA1257E16D4018E27D921D92487C8 : AppKit._NSTextFormattingBasePopUpButton__priv_B20AA1257E16D4018E27D921D92487C8
 {
     id widthConstraint;
-    id widthIncreaseFactor;
 }
 
-- (void);
+- (void):(id)arg1 jU;
 - (id);
 - (id);
-- (id)LayoutFragmentAvailable;
+- (id)_stagingDrawTextHighlightBackgroundForTextLayoutFragmentAvailable;
 - (void)[E;
 
 @end

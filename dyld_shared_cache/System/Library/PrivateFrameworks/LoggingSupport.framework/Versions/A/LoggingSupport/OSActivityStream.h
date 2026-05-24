@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCompoundPredicate, NSMutableSet, OSLogDevice, _OSLogStreamFilter;
-@protocol OSActivityStreamDelegate, OSDeviceDelegate;
-
 @interface OSActivityStream
 {
     struct os_activity_stream_s *_stream;
-    NSMutableSet *_pids;
-    NSMutableSet *_uids;
-    void *_deviceSearchSession;
-    void *_deviceEventSession;
-    _Bool _delegateStreamErrorLess;
-    _Bool _delegateStreamWithError;
-    _Bool _delegateHasDidFail;
-    _OSLogStreamFilter *_streamFilter;
-    id <OSDeviceDelegate> _deviceDelegate;
-    id <OSActivityStreamDelegate> _delegate;
-    unsigned long long _options;
-    unsigned long long _eventFilter;
-    NSCompoundPredicate *_predicate;
-    OSLogDevice *_device;
 }
 
 - (_Bool);
@@ -34,36 +17,30 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (void)drawingStrokesFromStrokes:inDrawing: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned long long)owser;
+- (void);
 - (void);
+- (id);
+- (unsigned long long)fae`db;
 - (void);
-- (void);
+- (void)A;
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <OSActivityStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) OSLogDevice *device; // @synthesize device=_device;
-@property(nonatomic) __weak id <OSDeviceDelegate> deviceDelegate; // @synthesize deviceDelegate=_deviceDelegate;
-@property(nonatomic) unsigned long long eventFilter; // @synthesize eventFilter=_eventFilter;
-@property(nonatomic) unsigned long long events;
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSCompoundPredicate *predicate; // @synthesize predicate=_predicate;
 
 @end
 

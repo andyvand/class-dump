@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSummaryItemAttribution
 {
     _SFPBRFTextProperty *_text;
-    _SFPBRFTextProperty *_text_compact;
-    _SFPBRFTextProperty *_text_minimal;
 }
 
 - (id);
@@ -22,26 +20,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)replaceCustomUserAssetsAtIndexes:(id)arg1 withAssets: /* Error: Ran out of types for this method. */;
+- (id)QueryIdentificationBlock;
 - (id);
 - (void);
 - (id);
 - (void)ction"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text; // @synthesize text=_text;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_compact; // @synthesize text_compact=_text_compact;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_minimal; // @synthesize text_minimal=_text_minimal;
 
 @end
 

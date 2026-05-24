@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, _DPDataProtectionMaster;
+@class _DPDataProtectionMaster;
 
 @interface _DPDataProtectionStateMonitor
 {
     CDUnknownBlockType _changeHandler;
-    _DPDataProtectionMaster *_master;
-    NSUUID *_handlerUUID;
 }
 
 + (id);
@@ -23,11 +21,9 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)SPSafariPlatformSupport;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;
-@property(readonly) NSUUID *handlerUUID; // @synthesize handlerUUID=_handlerUUID;
 @property(readonly, nonatomic) _DPDataProtectionMaster *master; // @synthesize master=_master;
 
 @end

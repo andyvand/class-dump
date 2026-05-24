@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FCItemExposure
 {
     void itemID;
-    void clusterID;
-    void firstExposedAt;
-    void lastExposedAt;
-    long long maxExposedVersion;
-    void maxExposedVersionFirstExposedAt;
 }
 
 - (long long);
@@ -29,17 +24,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)tificationsBaseUrl;
+- (void)newsNotificationsBaseUrl;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *clusterID;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSDate *firstExposedAt;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *itemID;
-@property(nonatomic, readonly) NSDate *lastExposedAt;
-@property(nonatomic, readonly) long long maxExposedVersion; // @synthesize maxExposedVersion;
-@property(nonatomic, readonly) NSDate *maxExposedVersionFirstExposedAt;
 
 @end
 

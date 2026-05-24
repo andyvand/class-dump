@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WFShareSheetWorkflow
 {
     unsigned short _glyphCharacter;
-    NSString *_identifier;
-    NSString *_name;
-    struct CGImage *_iconImage;
-    double _iconScale;
 }
 
 + (_Bool);
@@ -20,10 +14,10 @@
 - (void);
 - (id);
 - (unsigned short);
-- (id);
+- (id)TAccountMetadataClassC";
 - (struct CGImage *);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void)!U°!ÔGùÑ^°1Â0@ù
@@ -31,10 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short glyphCharacter; // @synthesize glyphCharacter=_glyphCharacter;
-@property(readonly, nonatomic) struct CGImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(readonly, nonatomic) double iconScale; // @synthesize iconScale=_iconScale;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

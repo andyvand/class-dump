@@ -5,5 +5,8 @@
 //
 
 @protocol NSPasteboardItemDataProvider_Private
+
+@optional
+- (void);
 @end
 

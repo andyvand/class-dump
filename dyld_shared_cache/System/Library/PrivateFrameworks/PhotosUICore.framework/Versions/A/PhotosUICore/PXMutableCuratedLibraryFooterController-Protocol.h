@@ -5,9 +5,9 @@
 //
 
 @protocol PXMutableCuratedLibraryFooterController
+- (_Bool)@;
 
 // Remaining properties
-@property(nonatomic) double footerMaskVerticalOffset;
 @property(nonatomic) _Bool wantsFooterMask;
 @end
 

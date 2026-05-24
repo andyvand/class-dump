@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSticker, NSDate, NSString;
+@class IMSticker, NSString;
 
 @protocol CKStickerDetailsItem
+- (_Bool)pressedItem;
+- (IMSticker *)lling back to share from metadata %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canDeleteFromStickerDetails;
-@property(readonly, nonatomic) IMSticker *saveableSticker;
-@property(readonly, nonatomic) NSDate *stickerDetailsDateAdded;
-@property(readonly, nonatomic) NSString *stickerDetailsSubtitleText;
 @property(readonly, nonatomic) NSString *stickerDetailsTitleText;
-@property(readonly, nonatomic) NSString *stickerDetailsTransferGUID;
 @end
 

@@ -6,33 +6,19 @@
 
 #import <CoreDuet/_DKQuery.h>
 
-@class NSArray, NSObject, NSPredicate, NSSet;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _DKEventQuery : _DKQuery
 {
     NSObject<OS_dispatch_queue> *_defaultQueue;
-    _Bool _readMetadata;
-    _Bool _deduplicateValues;
-    _Bool _returnsDistinctResults;
-    _Bool _disableBiomeShim;
-    NSPredicate *_predicate;
-    NSArray *_eventStreams;
-    NSArray *_sortDescriptors;
-    unsigned long long _limit;
-    unsigned long long _offset;
-    NSSet *_deviceIDs;
-    long long _resultType;
-    NSArray *_groupByProperties;
-    CDUnknownBlockType _resultsHandler;
-    NSArray *_excludedMetadataKeys;
 }
 
 + (id);
 + (id);
++ (id)llation;
 + (id);
-+ (id);
-+ (id);
++ (id)R	a;
 + (id);
 + (id);
 + (_Bool);
@@ -45,16 +31,16 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)!;
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id)xpc connection to setup the background session:%@ /* Error: Ran out of types for this method. */;
+- (void)@;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
@@ -69,11 +55,11 @@
 - (void)ù
 × ;
 - (CDUnknownBlockType)16q24@32@40B48;
-- (id)cludesPropertyValues: /* Error: Ran out of types for this method. */;
-- (void)onAdviceEngineWithStore:(_Bool)arg1;
-- (id)itWithCoreDuetDatabase;
-- (_Bool)nSat;
-- (id)riptionRedacted: /* Error: Ran out of types for this method. */;
+- (id)setIncludesPropertyValues: /* Error: Ran out of types for this method. */;
+- (void)interactionAdviceEngineWithStore:(_Bool)arg1;
+- (id)initWithCoreDuetDatabase;
+- (_Bool)firstPartyMsgNoonSat;
+- (id)descriptionRedacted: /* Error: Ran out of types for this method. */;
 - (void)antStatus;
 - (void)y",R,N,V_allEventStreams;
 - (unsigned long long)@D;
@@ -81,20 +67,7 @@
 - (id)q: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool deduplicateValues; // @synthesize deduplicateValues=_deduplicateValues;
-@property(retain) NSSet *deviceIDs; // @synthesize deviceIDs=_deviceIDs;
-@property _Bool disableBiomeShim; // @synthesize disableBiomeShim=_disableBiomeShim;
-@property(retain) NSArray *eventStreams; // @synthesize eventStreams=_eventStreams;
-@property(retain) NSArray *excludedMetadataKeys; // @synthesize excludedMetadataKeys=_excludedMetadataKeys;
-@property(retain) NSArray *groupByProperties; // @synthesize groupByProperties=_groupByProperties;
-@property unsigned long long limit; // @synthesize limit=_limit;
-@property unsigned long long offset; // @synthesize offset=_offset;
-@property(retain) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property _Bool readMetadata; // @synthesize readMetadata=_readMetadata;
 @property long long resultType; // @synthesize resultType=_resultType;
-@property(copy) CDUnknownBlockType resultsHandler; // @synthesize resultsHandler=_resultsHandler;
-@property _Bool returnsDistinctResults; // @synthesize returnsDistinctResults=_returnsDistinctResults;
-@property(retain) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

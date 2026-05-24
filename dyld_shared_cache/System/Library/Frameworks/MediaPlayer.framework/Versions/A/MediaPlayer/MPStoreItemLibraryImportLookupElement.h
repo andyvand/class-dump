@@ -11,13 +11,12 @@
 @interface MPStoreItemLibraryImportLookupElement : MPStoreItemLibraryImportElement
 {
     ICStorePlatformMetadata *_storeItem;
-    NSDictionary *_lookupDictionary;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)ubtype;
+- (void)_routeSubtype;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;

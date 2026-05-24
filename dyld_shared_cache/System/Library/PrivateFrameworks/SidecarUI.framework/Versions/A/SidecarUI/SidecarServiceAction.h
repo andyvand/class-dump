@@ -4,95 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSKeyboardShortcut, NSMutableSet, NSSet, NSString, NSUUID, SidecarService;
+@class SidecarService;
 
 __attribute__((visibility("hidden")))
 @interface SidecarServiceAction
 {
     SidecarService *_sidecarService;
-    NSKeyboardShortcut *_keyboardShortcut;
-    NSMutableSet *_presentationModes;
-    NSUUID *_uuid;
 }
 
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (id)etion: /* Error: Ran out of types for this method. */;
+- (void)alignmentControllerMoveItemByDistance:(_Bool)arg1;
+- (_Bool)akSystemPurpleColor;
 - (void);
 - (void);
+- (void)9#;
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)RHeadroom;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)Libraries: /* Error: Ran out of types for this method. */;
+- (id)d%;
+- (id)setMediaLibraries: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *availablePresentationModes;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSString *bundlePath;
-@property(readonly, nonatomic) NSString *categoryTitle;
-@property(readonly, nonatomic) NSArray *combinedSendTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSKeyboardShortcut *defaultKeyboardShortcut;
-@property(readonly, copy, nonatomic) NSSet *defaultPresentationModes;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBackgroundColor;
-@property(readonly, nonatomic) _Bool hasCustomIcon;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAvailableInContextMenu;
-@property(nonatomic) _Bool isAvailableInServicesMenu;
-@property(readonly, nonatomic) _Bool isRestricted;
-@property(readonly, nonatomic) _Bool isShortcut;
-@property(readonly, nonatomic) _Bool isSpellChecker;
-@property(readonly, nonatomic) _Bool isWorkflow;
-@property(copy, nonatomic) NSString *keyEquivalent;
-@property(copy, nonatomic) NSKeyboardShortcut *keyboardShortcut;
-@property(readonly, nonatomic) NSString *localizedCategoryTitle;
-@property(readonly, nonatomic) NSString *localizedServiceDescription;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(copy, nonatomic) NSSet *presentationModes;
-@property(readonly, nonatomic) NSString *qualifiedServiceMessage;
-@property(readonly, nonatomic) NSArray *returnTypes;
-@property(readonly, nonatomic) NSArray *sendFileTypes;
-@property(readonly, nonatomic) NSUUID *serviceUUID;
-@property(readonly, nonatomic) NSString *shortcutIdentifier;
 @property(readonly, nonatomic) SidecarService *sidecarService;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

@@ -10,17 +10,16 @@
 @interface ACDAccountNotifier
 {
     NSObject<OS_dispatch_queue> *_notificationEntryQueue;
-    NSArray *_notificationEntries;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)e"16;
 - (id);
 - (_Bool);
 - (void);

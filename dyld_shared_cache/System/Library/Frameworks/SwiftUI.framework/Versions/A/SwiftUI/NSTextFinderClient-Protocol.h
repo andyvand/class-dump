@@ -4,43 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @protocol NSTextFinderClient
 
 @optional
-- (NSArray *);
-- (void)Value;
-- (void)le;
+- (_Bool);
+- (_Bool)(;
+- (void)RawValue;
+- (void)SubviewSizingHandlingForUniformTemplateInTable;
 
 // Remaining properties
-@property(readonly) _Bool allowsMultipleSelection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisEditable
-
-@property(readonly) struct _NSRange firstSelectedRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{_NSRange=QQ},?,R
-
 @property(readonly, getter=isSelectable) _Bool selectable;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,GisSelectable
-
-@property(copy) NSArray *selectedRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C
-
-@property(readonly) NSString *string;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly, copy) NSArray *visibleCharacterRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
 
 @end
 

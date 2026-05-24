@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)SBTransientOverlayWindow;
 + (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)3;
+- (_Bool)},R,N,V_capabilitiesLock;
 - (unsigned long long);
 - (id);
 

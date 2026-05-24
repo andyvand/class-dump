@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedIdentifierListItemEntry, NSMutableSet;
+@class MPSectionedIdentifierListItemEntry;
 
 __attribute__((visibility("hidden")))
 @interface _MPSectionedIdentifierListCloneIndexEntry
 {
     MPSectionedIdentifierListItemEntry *_rootEntry;
-    NSMutableSet *_clonedEntries;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)pe;
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (void)ultSortDescriptorsForModelKind: /* Error: Ran out of types for this method. */;
+- (void)_defaultSortDescriptorsForModelKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *clonedEntries; // @synthesize clonedEntries=_clonedEntries;
 @property(retain, nonatomic) MPSectionedIdentifierListItemEntry *rootEntry; // @synthesize rootEntry=_rootEntry;
 
 @end

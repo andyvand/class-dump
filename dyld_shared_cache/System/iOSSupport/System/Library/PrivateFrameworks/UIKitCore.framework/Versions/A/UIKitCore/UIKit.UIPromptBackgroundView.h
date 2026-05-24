@@ -9,18 +9,13 @@
 @interface UIKit.UIPromptBackgroundView : UIView
 {
     id configuration;
-    id intrinsicHeight;
-    id effectView;
-    id fresnelView;
-    id latencyEffectView;
-    id focusChangesEffect;
 }
 
+- (void)v8@?0;
+- (id);
 - (void);
-- (id);
-- (void);
-- (double)ionDurationUp: /* Error: Ran out of types for this method. */;
-- (id)olvesNaturalAlignmentWithBaseWritingDirection;
+- (double)setAnimationDurationUp: /* Error: Ran out of types for this method. */;
+- (id)UITraitResolvesNaturalAlignmentWithBaseWritingDirection;
 - (void)D>÷ÿ!Ý;
 
 // Remaining properties

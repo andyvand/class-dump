@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, PRMonogramColor;
-
 @interface CNUILikenessRenderingScope
 {
     _Bool _rightToLeft;
-    _Bool _excludePointSizeInEqualityCheck;
-    double _scale;
-    double _strokeWidth;
-    struct CGColor *_strokeColor;
-    unsigned long long _style;
-    unsigned long long _backgroundStyle;
-    PRMonogramColor *_color;
-    NSIndexSet *_maskedAvatarIndices;
-    struct CGSize _pointSize;
 }
 
 + (id);

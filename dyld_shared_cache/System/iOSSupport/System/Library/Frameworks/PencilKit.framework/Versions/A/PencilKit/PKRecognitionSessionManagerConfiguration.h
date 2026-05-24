@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface PKRecognitionSessionManagerConfiguration
 {
     _Bool _sessionCaching;
-    _Bool _smartSelectionQuery;
-    NSUUID *_sessionCacheIdentifier;
 }
 
 + (id);
@@ -26,9 +22,7 @@
 - (void)astScrollViewDelegateBeforeScrollingToolToVisible;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *sessionCacheIdentifier; // @synthesize sessionCacheIdentifier=_sessionCacheIdentifier;
 @property(nonatomic) _Bool sessionCaching; // @synthesize sessionCaching=_sessionCaching;
-@property(nonatomic) _Bool smartSelectionQuery; // @synthesize smartSelectionQuery=_smartSelectionQuery;
 
 @end
 

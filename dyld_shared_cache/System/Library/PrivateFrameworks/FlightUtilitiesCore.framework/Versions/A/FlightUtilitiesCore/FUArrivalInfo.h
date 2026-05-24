@@ -11,7 +11,6 @@
 @interface FUArrivalInfo : FUBaseStopInfo
 {
     NSString *_baggageClaim;
-    FUAirport *_divertedAirport;
 }
 
 + (_Bool);
@@ -22,13 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)ing*;
 - (void);
 
 // Remaining properties
-@property(copy) NSString *baggageClaim; // @synthesize baggageClaim=_baggageClaim;
 @property(retain) FUAirport *divertedAirport; // @synthesize divertedAirport=_divertedAirport;
 
 @end

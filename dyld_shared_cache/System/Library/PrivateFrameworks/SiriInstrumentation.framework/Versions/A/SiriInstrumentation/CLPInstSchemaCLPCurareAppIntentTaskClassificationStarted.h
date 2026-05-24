@@ -6,27 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaAsset;
-
 @interface CLPInstSchemaCLPCurareAppIntentTaskClassificationStarted : SISchemaInstrumentationMessage
 {
     int _classifierModelType;
-    SISchemaAsset *_classifierModelAsset;
-    SISchemaAsset *_nlv4AssetVersion;
-    SISchemaAsset *_nlv4AssetVersionOverride;
-    struct {
-        unsigned int classifierModelType:1;
-    } _has;
-    _Bool _hasClassifierModelAsset;
-    _Bool _hasNlv4AssetVersion;
-    _Bool _hasNlv4AssetVersionOverride;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -48,22 +37,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)WLINKEntityDisambiguationFailed";
-- (id)vent;
+- (id)FLSchemaFLClientEvent;
 - (id);
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaAsset *classifierModelAsset; // @synthesize classifierModelAsset=_classifierModelAsset;
 @property(nonatomic) int classifierModelType; // @synthesize classifierModelType=_classifierModelType;
-@property(nonatomic) _Bool hasClassifierModelAsset; // @synthesize hasClassifierModelAsset=_hasClassifierModelAsset;
-@property(nonatomic) _Bool hasClassifierModelType;
-@property(nonatomic) _Bool hasNlv4AssetVersion; // @synthesize hasNlv4AssetVersion=_hasNlv4AssetVersion;
-@property(nonatomic) _Bool hasNlv4AssetVersionOverride; // @synthesize hasNlv4AssetVersionOverride=_hasNlv4AssetVersionOverride;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaAsset *nlv4AssetVersion; // @synthesize nlv4AssetVersion=_nlv4AssetVersion;
-@property(retain, nonatomic) SISchemaAsset *nlv4AssetVersionOverride; // @synthesize nlv4AssetVersionOverride=_nlv4AssetVersionOverride;
 
 @end
 

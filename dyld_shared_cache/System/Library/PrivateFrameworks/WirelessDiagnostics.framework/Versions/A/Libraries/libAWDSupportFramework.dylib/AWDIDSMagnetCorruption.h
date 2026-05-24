@@ -7,20 +7,15 @@
 @interface AWDIDSMagnetCorruption
 {
     long long _corrupted;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int corrupted:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)7v7v7(;
+- (_Bool)";
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)c;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -29,14 +24,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long corrupted; // @synthesize corrupted=_corrupted;
-@property(nonatomic) _Bool hasCorrupted;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -15,9 +15,9 @@
 
 - (long long);
 - (id);
-- (void);
+- (void)NSSecurityScopedURLWrapper"16@"NSFileProviderItemVersion"24Q32@?<v@?@"NSFileProviderItemVersion"@"NSError">40;
 - (id);
-- (void)r;
+- (void)CKShareAccessRequester;
 
 // Remaining properties
 @property(readonly, nonatomic) CKSyncEngineSendChangesContext *context; // @synthesize context=_context;

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol ASExportViewControllerDelegate;
+@class NSData;
 
 @interface ASExportViewController
 {
     _Bool _didLaunchDestinationApp;
-    NSData *_exportedCredentialData;
-    NSString *_exporterBundleID;
-    id <ASExportViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -22,14 +18,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (long long);
+- (long long)startingOffset;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <ASExportViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool didLaunchDestinationApp; // @synthesize didLaunchDestinationApp=_didLaunchDestinationApp;
 @property(copy, nonatomic) NSData *exportedCredentialData; // @synthesize exportedCredentialData=_exportedCredentialData;
-@property(readonly, copy, nonatomic) NSString *exporterBundleID; // @synthesize exporterBundleID=_exporterBundleID;
 
 @end
 

@@ -10,10 +10,10 @@
 
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
++ (void)accountWithIdentifier:(CDUnknownBlockType)arg1;
++ (void)accountType;
++ (id)leView;
++ (id)setMessageText:(Class)arg1;
 + (void);
 
 @end

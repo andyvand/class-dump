@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _NSSimpleLRUCacheKeyValuePair
 {
     id _key;
-    id _value;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)tainerViewHorizontalCenteringConstraint;
+- (id)_titleContainerViewHorizontalCenteringConstraint;
 - (void)unModalOpenPanelForMoving:thenContinue:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id key; // @synthesize key=_key;
-@property(readonly) id value; // @synthesize value=_value;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCameraCalibrationData, NSDictionary, NSString, NUColorSpace, NUPixelFormat;
-@protocol NUAuxiliaryImage;
+@class NSDictionary;
 
 @interface NUCGAuxiliaryImageProperties
 {
     id _imageSource;
-    NUPixelFormat *_pixelFormat;
-    NSString *_auxiliaryImageTypeCGIdentifier;
-    struct CGImageMetadata *_compatibilityMetadata;
-    NSDictionary *_auxCGInfoDictionary;
-    id <NUAuxiliaryImage> _auxImage;
-    AVCameraCalibrationData *_depthCamCalibrationData;
-    id _auxDataInfoMetadata;
-    NUColorSpace *_auxInfoColorSpace;
-    CDStruct_d58201db _size;
 }
 
 - (void);
@@ -27,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)8?;
 - (id);
 - (id);
 - (struct CGImageMetadata *);
@@ -46,27 +36,11 @@
 - (id);
 - (CDStruct_912cb5d2);
 - (id);
-- (void)or: /* Error: Ran out of types for this method. */;
+- (void)tryLoadPersistentURL:error: /* Error: Ran out of types for this method. */;
 - (id)dataType;
 
 // Remaining properties
 @property(retain) NSDictionary *auxCGInfoDictionary; // @synthesize auxCGInfoDictionary=_auxCGInfoDictionary;
-@property(retain) id auxDataInfoMetadata; // @synthesize auxDataInfoMetadata=_auxDataInfoMetadata;
-@property(retain) id <NUAuxiliaryImage> auxImage; // @synthesize auxImage=_auxImage;
-@property(retain) NUColorSpace *auxInfoColorSpace; // @synthesize auxInfoColorSpace=_auxInfoColorSpace;
-@property(readonly) NSString *auxiliaryImageTypeCGIdentifier; // @synthesize auxiliaryImageTypeCGIdentifier=_auxiliaryImageTypeCGIdentifier;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(retain, nonatomic) struct CGImageMetadata *compatibilityMetadata; // @synthesize compatibilityMetadata=_compatibilityMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) AVCameraCalibrationData *depthCamCalibrationData; // @synthesize depthCamCalibrationData=_depthCamCalibrationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

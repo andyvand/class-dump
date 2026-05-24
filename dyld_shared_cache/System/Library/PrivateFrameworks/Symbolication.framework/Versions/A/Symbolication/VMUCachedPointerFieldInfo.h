@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VMUFieldInfo;
-
 __attribute__((visibility("hidden")))
 @interface VMUCachedPointerFieldInfo
 {
     unsigned int _leafOffsetInRootField;
-    VMUFieldInfo *_rootField;
-    VMUFieldInfo *_leafField;
 }
 
 - (id);

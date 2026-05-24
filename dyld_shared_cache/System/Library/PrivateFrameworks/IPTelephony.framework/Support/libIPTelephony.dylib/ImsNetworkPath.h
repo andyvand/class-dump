@@ -10,13 +10,10 @@ __attribute__((visibility("hidden")))
 @interface ImsNetworkPath
 {
     NWPathEvaluator *_pathEvaluator;
-    weak_ptr_030f1409 _delegate;
-    basic_string_cc40eacf _ifaceName;
-    _Bool _observingPath;
 }
 
 - (id);
-- (basic_string_cc40eacf);
+- (basic_string_23c5cf75);
 - (void);
 - (void);
 - (void);

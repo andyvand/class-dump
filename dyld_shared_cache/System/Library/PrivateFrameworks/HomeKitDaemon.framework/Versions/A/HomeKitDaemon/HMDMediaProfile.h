@@ -6,27 +6,24 @@
 
 #import <HomeKitDaemon/HMDAccessoryProfile.h>
 
-@class HMDMediaSession, NSDictionary, NSNotificationCenter, NSString;
-@protocol HMEEventForwarder;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaProfile : HMDAccessoryProfile
 {
     struct hmf_unfair_data_lock_s _lock;
-    HMDMediaSession *_mediaSession;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)deleteAllMemoryNodesAndEdgesForMemoryCategories:(id)arg1;
 + (id);
 + (_Bool)ìÉÊÊ;
 + (id)yB;
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)initWithKeyOptions:(id)arg1 valueOptions:(id)arg2 capacity:(_Bool *)arg3;
 - (id);
 - (id);
 - (void);
@@ -49,31 +46,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (unsigned long long);
 - (void);
 - (void);
-- (void)pe:ecosystemName:isAffectedUser:flow: /* Error: Ran out of types for this method. */;
-- (void)OARDING_MESSAGE;
+- (void)insertBulletinForLockUserChange:lockDataType:dataOperationType:ecosystemName:isAffectedUser:flow: /* Error: Ran out of types for this method. */;
+- (void)BULLETIN_LOCK_ONBOARDING_MESSAGE;
 - (id)000-0026BB765291;
-- (void)ollerRunStateNotRunningDueToStopped;
+- (void)HMDMultiUserSettingsLogEventBackingStoreControllerRunStateNotRunningDueToStopped;
 - (id)um violet red;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *assistantObject;
-@property(readonly, nonatomic) unsigned long long capability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) __weak id <HMEEventForwarder> eventForwarder;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *mediaRouteID;
-@property(retain) HMDMediaSession *mediaSession; // @synthesize mediaSession=_mediaSession;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *urlString;
 
 @end

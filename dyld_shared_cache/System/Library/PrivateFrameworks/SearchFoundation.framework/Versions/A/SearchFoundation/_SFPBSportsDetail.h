@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBSportsDetail
 {
@@ -15,24 +15,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)p table;
 - (id);
 - (id);
 - (void)@"_SFPBFillToolAppParameterCommand"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *requested_entity_type; // @synthesize requested_entity_type=_requested_entity_type;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,14 +11,12 @@
 @interface PGMeaningfulEventCollectionTrait : PGMeaningfulEventTrait
 {
     PGGraphNodeCollection *_nodes;
-    PGGraphNodeCollection *_negativeNodes;
-    CDUnknownBlockType _additionalMatchingBlock;
 }
 
 - (void);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (id)_signalForElement:(id)arg1 stringInserted:(id)arg2 wordCompleted:editTracker: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)r;
 - (id);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 - (void)ons/Survey/AgeCategory/PGAgeCategoryQuestionFactory.m;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType additionalMatchingBlock; // @synthesize additionalMatchingBlock=_additionalMatchingBlock;
-@property(readonly, nonatomic) PGGraphNodeCollection *negativeNodes; // @synthesize negativeNodes=_negativeNodes;
 @property(readonly, nonatomic) PGGraphNodeCollection *nodes; // @synthesize nodes=_nodes;
 
 @end

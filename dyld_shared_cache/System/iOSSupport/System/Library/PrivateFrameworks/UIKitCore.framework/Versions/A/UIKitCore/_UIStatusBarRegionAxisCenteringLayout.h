@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIStatusBarRegionAxisCenteringLayout
 {
     double _interspace;
-    double _margin;
-    long long _maxNumberOfItems;
 }
 
 - (long long);
-- (id);
+- (id)rver %p> monitorForCurrentUser:currentUser=nil /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (_Bool)1Â0@ù
 × ;
-- (void)rix;
+- (void)computeEditsFromMatrix;
 - (id)¼O;
-- (void)nFloating;
+- (void)marginsWhenFloating;
 - (_Bool)_;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canOverflowItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double interspace; // @synthesize interspace=_interspace;
-@property(nonatomic) double margin; // @synthesize margin=_margin;
-@property(nonatomic) long long maxNumberOfItems; // @synthesize maxNumberOfItems=_maxNumberOfItems;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNChangeHistoryPreferredContactForImageEvent;
+
 @protocol CNChangeHistoryEventVisitorPrivate
+- (void);
+- (void)n:(CNChangeHistoryPreferredContactForImageEvent *)arg1;
 @end
 

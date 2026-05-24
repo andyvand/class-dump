@@ -6,20 +6,12 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSArray, NSObject, RTDarwinNotificationHelper, RTLearnedLocationStore, RTLifeCycleManager, RTPlatform, RTVisitStore, RTXPCActivityManager;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface RTPurgeManager : RTService
 {
     NSObject<OS_dispatch_source> *_memoryWarningDispatchSource;
-    long long _pressureState;
-    RTDarwinNotificationHelper *_notificationHelper;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLifeCycleManager *_lifeCycleManager;
-    RTPlatform *_platform;
-    NSArray *_purgers;
-    RTVisitStore *_visitStore;
-    RTXPCActivityManager *_xpcActivityManager;
 }
 
 + (id);
@@ -29,26 +21,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (long long)UseiMessageCallerID;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)<IDSGroupContextControllerDelegate>";
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)8;
 - (id);
 - (id);
 - (void);
@@ -64,7 +56,7 @@
 × ;
 - (id)x1E;
 - (void)tion _onTimerExpiryForTimerIdentifier:] /* Error: Ran out of types for this method. */;
-- (void)tanceToClosestHome;
+- (void)Rank4DistanceToClosestHome;
 - (void)e from placeStats object, %{sensitive}@;
 - (void)ic}d,confirmedALOIMatchedWithZDRType,%{public}d;
 - (id)alling back to revgeo confidence.;
@@ -72,15 +64,7 @@
 - (void)uracy locations, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(nonatomic) __weak RTLifeCycleManager *lifeCycleManager; // @synthesize lifeCycleManager=_lifeCycleManager;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *memoryWarningDispatchSource; // @synthesize memoryWarningDispatchSource=_memoryWarningDispatchSource;
-@property(retain, nonatomic) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(nonatomic) long long pressureState; // @synthesize pressureState=_pressureState;
-@property(retain, nonatomic) NSArray *purgers; // @synthesize purgers=_purgers;
-@property(retain, nonatomic) RTVisitStore *visitStore; // @synthesize visitStore=_visitStore;
-@property(readonly, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTIDMSDevice, KTLoggableData, NSError;
+@class KTIDMSDevice;
 
 @interface KTDeviceStatus
 {
     KTIDMSDevice *_idms;
-    KTLoggableData *_loggableData;
-    NSError *_loggableDataError;
 }
 
 + (_Bool);
+- (void)";
 - (void);
 - (void);
-- (void);
+- (id)d;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)r still image extraction for %@;
+- (void):(id)arg1 8q16;
 - (void);
 
 // Remaining properties
 @property(retain) KTIDMSDevice *idms; // @synthesize idms=_idms;
-@property(retain) KTLoggableData *loggableData; // @synthesize loggableData=_loggableData;
-@property(retain) NSError *loggableDataError; // @synthesize loggableDataError=_loggableDataError;
 
 @end
 

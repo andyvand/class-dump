@@ -11,8 +11,6 @@
 @interface MPSNDArrayGatherNDGradient : MPSNDArrayBinaryPrimaryGradientKernel
 {
     MPSNDArrayIdentity *_identity;
-    unsigned long long _batchDimensions;
-    _Bool _allowNegativeIndices;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -21,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
 - (id);
 - (id);
@@ -29,7 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowNegativeIndices; // @synthesize allowNegativeIndices=_allowNegativeIndices;
 @property(nonatomic) unsigned long long batchDimensions; // @synthesize batchDimensions=_batchDimensions;
 
 @end

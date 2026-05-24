@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)zableProtocol;
+- (void)PMLPlistAndChunksSerializableProtocol;
 - (id)abel, address, airportCode, latitude, longitude, accuracy, quality, handle FROM locations WHERE id = ?;
 
 // Remaining properties

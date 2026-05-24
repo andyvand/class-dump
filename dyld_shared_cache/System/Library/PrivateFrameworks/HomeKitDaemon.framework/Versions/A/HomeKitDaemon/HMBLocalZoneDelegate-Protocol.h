@@ -7,6 +7,6 @@
 @protocol HMBLocalZoneDelegate
 
 @optional
-- (void)s;
+- (void)significantEventOffsetSeconds;
 @end
 

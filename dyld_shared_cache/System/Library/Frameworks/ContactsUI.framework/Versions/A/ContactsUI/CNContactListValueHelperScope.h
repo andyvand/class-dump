@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class CNContact;
 
 @interface CNContactListValueHelperScope
 {
     CNContact *_contact;
-    NSString *_key;
-    NSString *_identifier;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *key; // @synthesize key=_key;
 
 @end
 

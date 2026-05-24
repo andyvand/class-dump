@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, NSDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudShareInvitation
 {
     NSURL *_url;
-    CKDeviceToDeviceShareInvitationToken *_token;
 }
 
 - (id);
 - (id)
 × ;
-- (id)tingsToCoreData:managedObjectContext:rootShareObject: /* Error: Ran out of types for this method. */;
-- (id)RunStateRegular;
+- (id)_saveSharedUserSettingsToCoreData:managedObjectContext:rootShareObject: /* Error: Ran out of types for this method. */;
+- (id)HMDCompositeSettingControllerManagerRunStateRegular;
 - (void)No demo mode application data found for ;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *content;
-@property(readonly) CKDeviceToDeviceShareInvitationToken *token; // @synthesize token=_token;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

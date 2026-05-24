@@ -6,7 +6,6 @@
 
 #import <CallKit/CXProviderExtensionContext.h>
 
-@class NSString;
 @protocol CXProviderExtensionVendorContextDelegate;
 
 @interface CXProviderExtensionVendorContext : CXProviderExtensionContext
@@ -35,18 +34,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CXProviderExtensionVendorContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

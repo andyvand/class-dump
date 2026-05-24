@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber, NSString;
+
 @protocol SISchemaProvisional
-- (_Bool)asRaw_message;
+- (NSNumber *)actionPreflightPersonalize:error: /* Error: Ran out of types for this method. */;
+- (NSString *)^;
+- (_Bool)_hasRaw_message;
 @end
 

@@ -11,11 +11,11 @@
     unsigned long long _spaceID;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool);
+- (void)GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitImportZoneContext.m;
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)$;
+- (id)h;
 - (void);
 
 // Remaining properties

@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSDynamicPropertyContainer;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueDependencyContext
 {
     CDUnknownBlockType _invalidationHandler;
-    unsigned long long _invalidationCount;
 }
 
-+ (id);
-+ (id)atScrollPosition: /* Error: Ran out of types for this method. */;
++ (id)uthConns(%ld) = {
+;
++ (id)_contentOffsetForScrollingToItemAtIndexPath:atScrollPosition: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)0@ù
 × ;
@@ -33,9 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property id <NSDynamicPropertyContainer> container;
-@property(readonly) unsigned long long invalidationCount; // @synthesize invalidationCount=_invalidationCount;
-@property(readonly, copy) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy) NSString *key;
 
 @end
 

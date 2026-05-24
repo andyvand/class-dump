@@ -6,45 +6,32 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class CNPhoneNumber, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNPhoneNumberContactPredicate : CNPredicate
 {
     _Bool _returnsMultipleResults;
-    CNPhoneNumber *_phoneNumber;
-    NSString *_prefixHint;
-    NSString *_digits;
-    NSString *_countryCode;
-    NSArray *_groupIdentifiers;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)AccessNetworkRefreshDelayMilliseconds;
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)encodeInt:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_pairingPerformActionClassic:withOptions:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

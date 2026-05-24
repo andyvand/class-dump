@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPTrialWrapper, _PASLRUCache, _PASLock, _PASNotificationToken;
+@class _PASLock;
 
 @interface PPConfiguration
 {
     _PASLock *_lock;
-    _PASNotificationToken *_assetUpdateHandlerToken;
-    _PASLRUCache *_cachedAlgorithms;
-    PPTrialWrapper *_trialWrapper;
 }
 
-+ (id)dEarliestStartTime:shouldConsiderAlarms:withOptions:trialWrapper: /* Error: Ran out of types for this method. */;
++ (id)initWithPastEventTitlesAndParticipants:andEarliestStartTime:shouldConsiderAlarms:withOptions:trialWrapper: /* Error: Ran out of types for this method. */;
 + (void)Id;
-- (double);
+- (double)query.RowCompareExpr;
 - (_Bool);
-- (id);
-- (double);
+- (id);
+- (double)!";
 - (id);
 - (_Bool);
 - (_Bool);
 - (double);
 - (int);
-- (float);
+- (float)h;
 - (id);
-- (void);
+- (void)h;
 - (_Bool);
 - (_Bool);
-- (float);
-- (_Bool);
+- (float)B;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -57,27 +54,27 @@
 - (void);
 - (double);
 - (unsigned char);
-- (void);
+- (void)__AUTH_CONST;
 - (id);
-- (unsigned char);
-- (double);
+- (unsigned char)getTimeSyncTimeRateRatioNumerator:denominator:timeSyncAnchor:andDomainAnchor:forGrandmasterIdentity:portNumber:withError: /* Error: Ran out of types for this method. */;
+- (double)t;
 - (double);
 - (void);
 - (float);
 - (int);
-- (_Bool);
-- (double);
-- (void);
+- (_Bool).framework/Versions/A/IOSurface;
+- (double)ionState: /* Error: Ran out of types for this method. */;
+- (void)IMFindChatProcessingPipelineComponent;
 - (unsigned long long);
 - (double);
-- (float);
-- (id);
+- (float)alize FMLSession in a non-Messages process, or when lockdown is enabled. This check is in place to prevent FindMyLocate from crashing your process with a fatalError if you do not have the required entitlement.;
+- (id)Failed to update chat services table with service %@ for chat with guid %@ error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)Enablement;
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned int);
+- (void)֟;
+- (unsigned int)\Q;
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -94,17 +91,17 @@
 - (float);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)W;
 - (unsigned int);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id)callDuration;
 - (id);
 - (unsigned char);
-- (void);
-- (unsigned int);
-- (_Bool);
+- (void)updateChatItemsSynchronouslyIfAsyncUpdateIsPending;
+- (unsigned int)dateEdited;
+- (_Bool)ExportCombinableReportP;
 - (void);
 - (double);
 - (float);
@@ -124,10 +121,10 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (float);
+- (float)P;
 - (double);
 - (double);
-- (void)ventWithPropertyValues:value: /* Error: Ran out of types for this method. */;
+- (void)trackEventWithPropertyValues:value: /* Error: Ran out of types for this method. */;
 - (_Bool)ÈX";
 - (int)r:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)eleteAllTopicsFromSourcesWithBundleId:groupId:olderThanDate: /* Error: Ran out of types for this method. */;

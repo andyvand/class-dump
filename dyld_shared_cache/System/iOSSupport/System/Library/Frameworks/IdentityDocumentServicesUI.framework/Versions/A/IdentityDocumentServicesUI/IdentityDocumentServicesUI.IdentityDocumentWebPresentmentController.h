@@ -8,7 +8,6 @@
 {
     id delegate;
     id presentationContextProvider;
-    id _performTask;
 }
 
 @end

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface STSchemaDocumentAttributes : SISchemaInstrumentationMessage
 {
     NSString *_bundleId;
-    unsigned int _documentChunkCount;
-    struct {
-        unsigned int documentChunkCount:1;
-    } _has;
-    _Bool _hasBundleId;
 }
 
 - (void);
@@ -24,28 +19,24 @@
 - (unsigned int);
 - (void);
 - (void);
+- (void)˿;
+- (id)<;
+- (id);
 - (void);
+- (unsigned long long)runsOnIntel;
+- (_Bool)ABUserActivityScoring;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)PiTunesMediaPodcastEpisodeMetadataClass(void)_block_invoke;
 - (id);
 - (id);
 - (void)us"b1};
-- (id)ameMatch;
+- (id)deleteIsPartialNameMatch;
 - (_Bool)addEdges: /* Error: Ran out of types for this method. */;
-- (id)ptGenerationSignalsCaptured;
-- (void)_UNKNOWN_INVOCATION_SOURCE;
+- (id)_hasNlRouterPromptGenerationSignalsCaptured;
+- (void)INVOCATIONSOURCE_UNKNOWN_INVOCATION_SOURCE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) unsigned int documentChunkCount; // @synthesize documentChunkCount=_documentChunkCount;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasDocumentChunkCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

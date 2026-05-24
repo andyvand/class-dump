@@ -6,84 +6,19 @@
 
 #import <CMCapture/FigCaptureSourcePipeline.h>
 
-@class BWFanOutNode, BWFigVideoCaptureDevice, BWMemoryPool, BWMultiStreamCameraSourceNode, BWNodeOutput, BWSlaveFrameSynchronizerNode, FigCaptureCameraSourcePipelineConfiguration, FigCaptureSourceDepthDataFormat, FigCaptureSourceVideoFormat, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
-@protocol BWCinematicFramingStatesProvider, BWSmartCropHomographyProvider;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureCameraSourcePipeline : FigCaptureSourcePipeline
 {
     _Bool _useCaptureOutputForPreview;
-    _Bool _hostingSupported;
-    int _deviceType;
-    int _devicePosition;
-    FigCaptureCameraSourcePipelineConfiguration *_configuration;
-    NSMutableArray *_sourceNodes;
-    BWMultiStreamCameraSourceNode *_sourceNode;
-    BWMultiStreamCameraSourceNode *_telephotoSourceNode;
-    BWMultiStreamCameraSourceNode *_superWideSourceNode;
-    BWMultiStreamCameraSourceNode *_infraredSourceNode;
-    BWNodeOutput *_sourceFormatReferenceOutput;
-    NSMutableArray *_synchronizerNodes;
-    BWSlaveFrameSynchronizerNode *_slaveFrameSynchronizerNode;
-    NSArray *_previewFilters;
-    NSMutableDictionary *_backgroundBlurNodesBySourceDeviceType;
-    NSDictionary *_previewOutputsArrayBySourceDeviceType;
-    NSDictionary *_stillImageOutputsByPortType;
-    NSDictionary *_stillImageSensorRawOutputsByPortType;
-    NSDictionary *_videoCaptureOutputsArrayBySourceDeviceType;
-    NSDictionary *_numberOfFaceTrackingConnectionConfigurationsBySourceDeviceType;
-    unsigned int _nextVideoCaptureOutputIndexBySourceDeviceType[21];
-    unsigned int _nextPreviewOutputIndexBySourceDeviceType[21];
-    NSArray *_pointCloudOutputs;
-    unsigned int _nextPointCloudOutputIndex;
-    NSMutableDictionary *_metadataOutputsByCategoryAndSourceDeviceType;
-    NSDictionary *_visionDataOutputsBySourceDeviceType;
-    BWNodeOutput *_depthOutput;
-    NSMutableArray *_sourceDeviceTypesWithLightSourceMaskEnabledOnVideoCaptureOutputs;
-    NSMutableArray *_sourceDeviceTypesWithKeypointDescriptorDataEnabledOnVideoCaptureOutputs;
-    NSDictionary *_semanticMasksOutputsBySourceDeviceType;
-    NSMutableDictionary *_metadataOutputsByCategoryForSessionIDAndSourceDeviceType;
-    NSMutableDictionary *_metadataConnectionConfigurationBySessionID;
-    BWFigVideoCaptureDevice *_captureDevice;
-    struct OpaqueFigCaptureSource *_captureSource;
-    FigCaptureSourceVideoFormat *_captureSourceVideoFormat;
-    FigCaptureSourceDepthDataFormat *_captureSourceDepthDataFormat;
-    _Bool _stillImageOutputDerivesFromVideoCaptureOutput;
-    BWMemoryPool *_memoryPool;
-    _Bool _overCapturePercentage;
-    int _depthType;
-    _Bool _hardwareDepthFilteringEnabled;
-    _Bool _videoHDRImageStatisticsEnabled;
-    int _maxFrameRateClientOverride;
-    NSMutableDictionary *_metadataFanOutNodeByMetadataCategory;
-    BWFanOutNode *_videoCaptureSplitterNode;
-    id <BWSmartCropHomographyProvider> _smartCropHomographyProvider;
-    _Bool _enableSlaveFrameSynchronizerForZoomPIPOnly;
-    _Bool _powerOptimizedVISOverscanEnabled;
-    NSMutableDictionary *_smartStyleLearningNodesBySourceDeviceType;
-    NSMutableDictionary *_smartStyleMetadataSynchronizerNodesBySourceDeviceType;
-    _Bool _trueVideoCaptureEnabled;
-    _Bool _preLTMThumbnailEnabled;
-    _Bool _postColorProcessingThumbnailEnabled;
-    _Bool _weightSegmentMapEnabled;
-    _Bool _lowLatencyStabilizationEnabled;
-    int _stillImageOutputRetainedBufferCountOverride;
-    id <BWCinematicFramingStatesProvider> _cinematicFramingCameraStatesProvider;
 }
 
 + (void)lt-in_video:9 /* Error: Ran out of types for this method. */;
-- (void);
+- (void)onTarget",&,N;
 - (id);
 - (void)dÿÿZdÿYmÿYnÿZnÿ!Zoÿ(Zoÿ/[pÿ6[qÿ>[rÿE\sÿM\tÿU]uÿ]]tÿe]rÿo]pÿz]mÿ]kÿ]jÿ]iÿ¢]hÿ«]gÿµ]fÿ¾]fÿÇ^eÿÑ^eÿÚ^eÿã_eÿì_eÿõ`dÿþ`eÿÿaeÿÿaeÿÿbeÿajÿakÿakÿ$blÿ+bmÿ2bnÿ9coÿ@cpÿGdqÿOdsÿVeuÿ]evÿdfvÿmftÿxfpÿfnÿelÿejÿ¡eiÿ«ehÿ´ehÿ½fgÿÇfgÿÑffÿÚffÿãgfÿìgfÿõgeÿþheÿÿhfÿÿifÿÿifÿjgÿjgÿ"jgÿ(jhÿ.jiÿ6kjÿ=kkÿDllÿKlmÿSmoÿYmpÿ`nrÿfouÿlowÿupvÿoqÿonÿomÿ¡okÿªojÿ´oiÿ½oiÿÆohÿÑohÿÚogÿãpgÿëpgÿõpgÿþqgÿÿqgÿÿrgÿÿrgÿqdÿ!qdÿ&reÿ+reÿ1rfÿ9rfÿ@sgÿGshÿNtiÿVtkÿ]ulÿdumÿkvoÿrwpÿxxsÿzzzÿxqÿwoÿ wmÿªwlÿ³wkÿ½wjÿÆwjÿÐwiÿÙwhÿâxhÿëxhÿõxhÿþyhÿÿygÿÿygÿÿzhÿ ybÿ$ybÿ)ycÿ.zcÿ4zdÿ<zdÿCzeÿJ{fÿQ{gÿY|hÿ`|iÿg}jÿn}lÿv~lÿ}oÿrÿsÿqÿoÿ©mÿ³lÿ¼lÿÆkÿÐjÿÙjÿâiÿëiÿõiÿþhÿÿhÿÿhÿÿhÿ#aÿ(aÿ,bÿ1bÿ7cÿ>cÿEdÿLeÿSfÿ]eÿdfÿkgÿriÿykÿmÿoÿqÿrÿpÿ©oÿ³nÿ¼mÿÅlÿÐkÿÙkÿâjÿëjÿõjÿþiÿÿiÿÿiÿÿiÿ/^ÿ2^ÿ5^ÿ:(id)arg1 _ÿ?_ÿE`ÿLaÿRbÿYcÿadÿheÿogÿvhÿ}jÿlÿnÿoÿqÿ¡qÿªpÿ³oÿ¼nÿÅmÿÐmÿÙlÿâlÿëkÿõkÿþkÿÿjÿÿjÿÿjÿ6^ÿ9^ÿ<^ÿ@_ÿD_ÿK`ÿPaÿWbÿ]bÿedÿleÿsfÿzgÿiÿkÿmÿnÿpÿ¤pÿ«pÿ´pÿ½oÿÆnÿÐnÿÙmÿâmÿëlÿõlÿþkÿÿkÿÿkÿÿkÿ>^ÿ@^ÿC^ÿF_ÿK_ÿP`ÿVaÿ\aÿbbÿicÿpdÿvfÿ}gÿhÿjÿlÿmÿ nÿ§ pÿ®¡pÿ¶¡pÿ¾¡pÿÆ¡oÿÐ¡oÿÙ¡nÿâ¡nÿë¡mÿõ¡mÿþ¢lÿÿ¢lÿÿ¢lÿÿ¢lÿF£^ÿH£^ÿJ£_ÿM£_ÿQ¤_ÿV¤`ÿ[¤aÿa¤aÿg¥bÿm¥cÿt¥dÿz¦eÿ¦gÿ¦hÿ§iÿ§kÿ§lÿ¢¨nÿª¨oÿ±¨pÿ¸©pÿÀ©pÿÈ©pÿÑ©oÿÚ©oÿã©nÿì©nÿö©nÿþªmÿÿªmÿÿªmÿÿªlÿM«_ÿO«_ÿQ«_ÿT«_ÿW¬`ÿ\¬`ÿa¬aÿf¬aÿk­bÿr­cÿx­dÿ~­eÿ®fÿ®gÿ®iÿ¯jÿ¯lÿ¦¯mÿ­°nÿ´°oÿ»°pÿÂ±pÿÊ±pÿÓ±pÿÛ±pÿã±oÿì±oÿö±nÿÿ²nÿÿ²nÿÿ²mÿÿ²mÿU´_ÿW´_ÿY´_ÿ[´`ÿ^µ`ÿbµ`ÿgµaÿlµbÿqµbÿw¶cÿ}¶dÿ¶eÿ·fÿ·gÿ·hÿ·jÿ£¸kÿ©¸lÿ±¸mÿ·¹nÿ¾¹oÿÅ¹pÿÌ¹pÿÕºpÿÜºpÿåºpÿíºoÿ÷ºoÿÿºoÿÿºoÿÿºnÿÿ»nÿ\¼_ÿ^¼_ÿ_¼`ÿb¼`ÿd½`ÿh½aÿl½aÿq½bÿv½bÿ|¾cÿ¾dÿ¾eÿ¾fÿ¿gÿ¿hÿ ¿iÿ¦¿jÿ­Àlÿ´ÀmÿºÀnÿÁÁoÿÈÁoÿÏÁpÿ×ÁpÿÞÂpÿæÂpÿîÂpÿ÷ÂpÿÿÂoÿÿÂoÿÿÂoÿÿÂoÿcÄ`ÿdÄ`ÿfÄ`ÿhÄ`ÿjÅaÿnÅaÿrÅaÿvÅbÿ{ÅcÿÅcÿÆdÿÆeÿÆfÿÆgÿÇhÿ£ÇiÿªÇjÿ°Èkÿ·Èlÿ½ÈmÿÄÈnÿÊÉoÿÑÉpÿÙÉpÿàÉpÿèÊpÿðÊpÿøÊpÿÿÊpÿÿÊpÿÿÊoÿÿÊoÿjÌ`ÿkÌ`ÿlÌ`ÿnÌaÿpÌaÿtÍaÿwÍbÿ{ÍbÿÍcÿÍcÿÎdÿÎeÿÎfÿÎgÿ¡Ïhÿ§Ïiÿ­Ïjÿ³ÏkÿºÐlÿÀÐmÿÇÐnÿÍÐoÿÔÑoÿÜÑpÿãÑpÿêÑpÿñÑqÿúÒpÿÿÒpÿÿÒpÿÿÒpÿÿÒpÿqÕaÿrÕaÿsÕaÿuÕaÿwÕaÿzÕbÿ}ÖbÿÖcÿÖcÿÖdÿÖdÿ×eÿ×fÿ×gÿ¥×hÿ«×iÿ±Øiÿ·Øjÿ¾ØkÿÄØlÿÊÙmÿÑÙnÿ×ÙoÿßÙoÿåÚpÿìÚpÿóÚqÿüÚqÿÿÚqÿÿÚqÿÿÚpÿÿÚpÿwÝaÿxÝaÿyÝaÿzÝbÿ|ÝbÿÝbÿÝbÿÞcÿÞcÿÞdÿÞeÿÞeÿßfÿ£ßgÿ©ßhÿ®ßhÿ´ßiÿºàjÿÁàkÿÇàlÿÍàmÿÓànÿÚánÿááoÿèápÿïápÿöápÿþâqÿÿâqÿÿâqÿÿâqÿÿâqÿ}åbÿ~åbÿåbÿåbÿåbÿåcÿåcÿåcÿådÿædÿæeÿæeÿ¡æfÿ¦ægÿ­çhÿ²çhÿ¸çiÿ¾çjÿÄèkÿÊèlÿÐèmÿÖèmÿÝènÿäèoÿêéoÿñépÿøépÿÿéqÿÿéqÿÿéqÿÿéqÿÿéqÿìbÿìbÿíbÿícÿícÿícÿícÿídÿídÿíeÿîeÿ¡îfÿ¥îfÿªîgÿ°îhÿ¶ïhÿ»ïiÿÁïjÿÇïkÿÍïlÿÓïlÿÙðmÿàðnÿçðnÿíðoÿóðpÿúðpÿÿðpÿÿñqÿÿñqÿÿñqÿÿñqÿõcÿõcÿõcÿõcÿõcÿõdÿõdÿödÿödÿöeÿ¡öeÿ¦öfÿªöfÿ¯÷gÿµ÷hÿº÷hÿ¿÷iÿÅ÷jÿËøkÿÑøkÿ×ølÿÝømÿãømÿêønÿðùoÿöùoÿýùpÿÿùpÿÿùpÿÿùpÿÿùqÿÿùqÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

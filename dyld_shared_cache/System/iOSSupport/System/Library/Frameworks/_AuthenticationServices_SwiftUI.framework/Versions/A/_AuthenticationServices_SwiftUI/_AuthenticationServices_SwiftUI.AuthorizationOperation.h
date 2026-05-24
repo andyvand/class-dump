@@ -8,27 +8,22 @@
 {
     id authorizationCompletionHandler;
     id presentationAnchorProvider;
-    id requestContext;
-    id stateStorage;
-    id authorizationController;
-    id presentationContextProvider;
 }
 
 - (id);
+- (void)lly began approval flow;
 - (void);
+- (id)calculateETAWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)lw;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)1;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool asynchronous;
 @property(nonatomic, readonly) _Bool executing;
-@property(nonatomic, readonly) _Bool finished;
 
 @end
 

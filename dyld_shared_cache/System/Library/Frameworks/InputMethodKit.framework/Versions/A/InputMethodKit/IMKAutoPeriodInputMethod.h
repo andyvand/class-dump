@@ -6,13 +6,11 @@
 
 #import <InputMethodKit/IMKAbstractInputMethod.h>
 
-@class IMKKey, NSString;
+@class IMKKey;
 
 @interface IMKAutoPeriodInputMethod : IMKAbstractInputMethod
 {
     IMKKey *_previousPressedKey;
-    _Bool _autoPeriodEnabled;
-    NSString *_replacementString;
 }
 
 - (void);
@@ -21,14 +19,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAutoPeriodEnabled) _Bool autoPeriodEnabled; // @synthesize autoPeriodEnabled=_autoPeriodEnabled;
 @property(retain, nonatomic) IMKKey *previousPressedKey; // @synthesize previousPressedKey=_previousPressedKey;
-@property(retain) NSString *replacementString; // @synthesize replacementString=_replacementString;
 
 @end
 

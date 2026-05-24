@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTMapItemProviderReverseGeocodeParameters, RTMapServiceManager;
+@class RTMapServiceManager;
 
 @interface RTMapItemProviderReverseGeocode
 {
     RTMapServiceManager *_mapServiceManager;
-    RTMapItemProviderReverseGeocodeParameters *_parameters;
 }
 
 - (id);
+- (id)__objc_classlist__DATA_CONST;
+- (id)water;
 - (id);
-- (id);
-- (id);
-- (double);
-- (_Bool);
+- (double)ice type %@ missing in memory keyset;
+- (_Bool)$;
 - (id);
 - (id);
 - (void);
@@ -27,15 +26,7 @@
 - (void)nt prior visits found for LOI:%@ and day of week:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTMapItemProviderReverseGeocodeParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

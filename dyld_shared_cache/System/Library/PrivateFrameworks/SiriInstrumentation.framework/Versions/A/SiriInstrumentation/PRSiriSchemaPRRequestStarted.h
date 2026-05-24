@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface PRSiriSchemaPRRequestStarted : SISchemaInstrumentationMessage
 {
     unsigned int _originTaskStatementId;
-    unsigned int _actionStatementId;
-    unsigned int _statementId;
-    SISchemaUUID *_planCycleId;
-    struct {
-        unsigned int originTaskStatementId:1;
-        unsigned int actionStatementId:1;
-        unsigned int statementId:1;
-    } _has;
-    _Bool _hasPlanCycleId;
 }
 
 - (unsigned int);
@@ -27,7 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ySh
+;
 - (void);
 - (id);
 - (unsigned int);
@@ -45,25 +35,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)brary/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Services/InstallApps/Metadata/ASDWatchAppMetadata.m:167 :Unsupported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)t on disk '%s';
 - (id);
 - (id);
-- (id)riPegasusMetadata;
+- (id)_siriPegasusMetadata;
 - (id)sTimerActive;
-- (void)NEIN;
+- (void)FLOWSPORTSUSECASE_SPORTS_TUNEIN;
 
 // Remaining properties
-@property(nonatomic) unsigned int actionStatementId; // @synthesize actionStatementId=_actionStatementId;
-@property(nonatomic) _Bool hasActionStatementId;
-@property(nonatomic) _Bool hasOriginTaskStatementId;
-@property(nonatomic) _Bool hasPlanCycleId; // @synthesize hasPlanCycleId=_hasPlanCycleId;
-@property(nonatomic) _Bool hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int originTaskStatementId; // @synthesize originTaskStatementId=_originTaskStatementId;
-@property(retain, nonatomic) SISchemaUUID *planCycleId; // @synthesize planCycleId=_planCycleId;
-@property(nonatomic) unsigned int statementId; // @synthesize statementId=_statementId;
 
 @end
 

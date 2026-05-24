@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface CUFileWriteRequest
 {
     CDUnknownBlockType _completionHandler;
-    NSData *_data;
-    unsigned long long _offset;
 }
 
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (unsigned long long)reateWithBytesNoCopy:length:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)createWithBytesNoCopy:length:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 
 @end
 

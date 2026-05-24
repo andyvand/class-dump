@@ -11,15 +11,14 @@
     REMList *_list;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)*(;
+- (id)%p { nextDeploymentNumber = %lu, aggregationsByDataNumber = %@ }>;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) REMList *list; // @synthesize list=_list;
-@property(readonly, nonatomic) _Bool shouldAutoCategorizeItems;
 
 @end
 

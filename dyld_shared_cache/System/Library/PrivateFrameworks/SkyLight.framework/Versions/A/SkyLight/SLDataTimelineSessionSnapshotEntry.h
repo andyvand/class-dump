@@ -7,40 +7,28 @@
 #import <SkyLight/SLDataTimelineSessionEntry.h>
 
 @class NSArray;
-@protocol SLDataTimelineSessionProcessCollection;
 
 __attribute__((visibility("hidden")))
 @interface SLDataTimelineSessionSnapshotEntry : SLDataTimelineSessionEntry
 {
     int _foregroundAppPID;
-    double _sessionSnapshotTimestamp;
-    unsigned long long _sessionSnapshotIndex;
-    NSArray *_processesArray;
 }
 
-+ (id);
-- (double);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (id);
++ (id)RIMARY KEY;
+- (double)LModel initalized with a configuration name (%@) - the configuration will be ignored.;
+- (unsigned long long)ions;
+- (id)found for entity;
+- (void)SBatchInsertRequest;
+- (id)s for transaction;
+- (int)strainedValuesForRow, rows processed = %d.  Row was updated.;
+- (_Bool)option at path:%@ /* Error: Ran out of types for this method. */;
+- (id)e on %@/%@') FROM ZCTE_INTERMEDIATE T0 WHERE (0 == (SELECT COUNT(*) FROM %@ T1 where T1.%@ = T0.%@ and T1.%@ != OLD.Z_PK));
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int auditID; // @dynamic auditID;
-@property(readonly, nonatomic) unsigned int cgID; // @dynamic cgID;
-@property(readonly, nonatomic) _Bool currentSnapshotMember;
-@property(readonly, nonatomic) int foregroundAppPID; // @synthesize foregroundAppPID=_foregroundAppPID;
-@property(readonly, nonatomic) id <SLDataTimelineSessionProcessCollection> processData;
-@property(readonly, nonatomic) NSArray *processes;
 @property(readonly, nonatomic) NSArray *processesArray; // @synthesize processesArray=_processesArray;
-@property(readonly, nonatomic) unsigned long long sessionSnapshotIndex; // @synthesize sessionSnapshotIndex=_sessionSnapshotIndex;
-@property(readonly, nonatomic) double sessionSnapshotTimestamp; // @synthesize sessionSnapshotTimestamp=_sessionSnapshotTimestamp;
 
 @end
 

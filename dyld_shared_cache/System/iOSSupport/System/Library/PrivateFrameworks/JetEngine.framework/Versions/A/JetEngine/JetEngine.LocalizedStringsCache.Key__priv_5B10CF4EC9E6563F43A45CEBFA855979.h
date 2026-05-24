@@ -7,13 +7,12 @@
 @interface JetEngine.LocalizedStringsCache.Key__priv_5B10CF4EC9E6563F43A45CEBFA855979
 {
     id key;
-    id domain;
 }
 
-- (id);
+- (id)automationMetadata;
 - (long long);
 - (_Bool);
-- (void)tTimeOutError;
+- (void)JSRequestTimeOutError;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

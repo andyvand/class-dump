@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface VCMediaStreamConfigRemoteDeviceInfo
 {
     NSString *_deviceName;
-    NSString *_deviceUID;
-    NSString *_modelUID;
 }
 
 - (void);
 - (id);
 - (id)d %@(%p) Failed to allocate formatter;
-- (id)ultValue;
-- (void)ecode;
+- (id)_VCConnectionManager_ChecklocalRATTypeOverrideDefaultValue;
+- (void)_VideoReceiver_DequeueAndDecode;
 - (void);
 - (void);
 - (id)L+ÊÿíéÏ&;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy, nonatomic) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(copy, nonatomic) NSString *modelUID; // @synthesize modelUID=_modelUID;
 
 @end
 

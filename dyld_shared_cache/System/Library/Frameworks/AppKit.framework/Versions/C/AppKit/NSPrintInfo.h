@@ -9,23 +9,22 @@
 @interface NSPrintInfo
 {
     NSMutableDictionary *_attributes;
-    id _moreVars;
 }
 
 + (struct CGSize);
-+ (void);
-+ (void);
++ (void)uploadTaskWithRequest:(id)arg1 originalRequest:fromFile:sandboxExtensionData:identifier:uniqueIdentifier:potentialCredentials:reply: /* Error: Ran out of types for this method. */;
++ (void)allbacks:(id)arg1 reply: /* Error: Ran out of types for this method. */;
 + (id);
++ (id)le;
++ (void)@;
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (id)@;
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (id)@;
 + (struct CGSize);
 + (id);
 + (id);

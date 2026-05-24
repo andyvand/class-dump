@@ -6,12 +6,9 @@
 
 #import <CloudKit/CKNotification.h>
 
-@class CKRecordZoneID, NSString;
-
 @interface CKDatabaseNotification : CKNotification
 {
     long long _databaseScope;
-    CKRecordZoneID *_recordZoneID;
 }
 
 + (_Bool);
@@ -29,14 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CKRecordZoneID *recordZoneID; // @synthesize recordZoneID=_recordZoneID;
-@property(readonly) Class superclass;
 
 @end
 

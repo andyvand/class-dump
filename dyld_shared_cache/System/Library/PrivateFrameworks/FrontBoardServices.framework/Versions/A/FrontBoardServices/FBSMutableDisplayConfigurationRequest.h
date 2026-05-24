@@ -11,22 +11,16 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)N3fst13VectorFstImplINS_11VectorStateINS_10ReverseArcINS_6ArcTplINS_25LatticeWeightWithStateTplINS_16LatticeWeightTplIfEEfNSt3__16vectorIfNS7_9allocatorIfEEEEEEiEEEENS9_ISE_EEEEEE;
+- (void)ectorIfNS6_9allocatorIfEEEEEEiEEEEEE;
+- (void)N3fst16ImplToMutableFstINS_13VectorFstImplINS_11VectorStateINS_10ReverseArcINS_6ArcTplINS_25LatticeWeightWithStateTplINS_16LatticeWeightTplIfEEfNSt3__16vectorIfNS8_9allocatorIfEEEEEEiEEEENSA_ISF_EEEEEENS_10MutableFstISF_EEEE;
+- (void)fEEfNSt3__16vectorIfNS6_9allocatorIfEEEEEEiEENS8_ISC_EEEEEE;
+- (void)N3fst15ArcIteratorBaseINS_10ReverseArcINS_9GallicArcINS_6ArcTplINS_17TropicalWeightTplIfEEiEELNS_10GallicTypeE0EEEEEEE;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool disableFrameDoubling; // @dynamic disableFrameDoubling;
-@property(nonatomic) long long hdrMode; // @dynamic hdrMode;
-@property(nonatomic) struct CGSize logicalScale; // @dynamic logicalScale;
-@property(nonatomic) struct CGSize nativePixelSize; // @dynamic nativePixelSize;
 @property(nonatomic) long long overscanCompensation; // @dynamic overscanCompensation;
-@property(nonatomic) double pointScale; // @dynamic pointScale;
-@property(nonatomic) double refreshRate; // @dynamic refreshRate;
 
 @end
 

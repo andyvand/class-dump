@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AUParameterGroup, NSString;
+@class NSString;
 
 @interface AUParameterNode
 {
     NSString *_identifier;
-    NSString *_displayName;
-    unsigned long long _indexInGroup;
-    AUParameterGroup *_parentNode;
-    void *_observerList;
-    CDUnknownBlockType _impl_implementorValueObserver;
-    CDUnknownBlockType _impl_implementorValueProvider;
-    CDUnknownBlockType _impl_implementorStringFromValueCallback;
-    CDUnknownBlockType _impl_implementorValueFromStringCallback;
-    CDUnknownBlockType _impl_implementorDisplayNameWithLengthCallback;
 }
 
 - (void *);
-- (void *);
+- (void *);
 - (void);
 - (void);
 - (void);
@@ -32,15 +23,15 @@
 - (void);
 - (void);
 - (void);
+- (void)4 ;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void *);
+- (void *)T8;
 - (id);
 - (unsigned long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)v;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -55,10 +46,10 @@
 - (id);
 - (void *);
 - (void *);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)P;
+- (id)t;
+- (id)!;
+- (void)eERNS2_4Core13Operation_SetEE3$_3FRNS_8functionIFvjEEERNS2_5Graph9Node_ProcEEEE;
 - (_Bool);
 - (id);
 - (void);
@@ -68,22 +59,7 @@
 - (void)X`;
 
 // Remaining properties
-@property(readonly, copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) CDUnknownBlockType impl_implementorDisplayNameWithLengthCallback; // @synthesize impl_implementorDisplayNameWithLengthCallback=_impl_implementorDisplayNameWithLengthCallback;
-@property(copy) CDUnknownBlockType impl_implementorStringFromValueCallback; // @synthesize impl_implementorStringFromValueCallback=_impl_implementorStringFromValueCallback;
-@property(copy) CDUnknownBlockType impl_implementorValueFromStringCallback; // @synthesize impl_implementorValueFromStringCallback=_impl_implementorValueFromStringCallback;
-@property(copy) CDUnknownBlockType impl_implementorValueObserver; // @synthesize impl_implementorValueObserver=_impl_implementorValueObserver;
-@property(copy) CDUnknownBlockType impl_implementorValueProvider; // @synthesize impl_implementorValueProvider=_impl_implementorValueProvider;
-@property(copy) CDUnknownBlockType implementorDisplayNameWithLengthCallback;
-@property(copy) CDUnknownBlockType implementorStringFromValueCallback;
-@property(copy) CDUnknownBlockType implementorValueFromStringCallback;
 @property(copy) CDUnknownBlockType implementorValueObserver;
-@property(copy) CDUnknownBlockType implementorValueProvider;
-@property(nonatomic) unsigned long long indexInGroup; // @synthesize indexInGroup=_indexInGroup;
-@property(readonly, copy) NSString *keyPath;
-@property(nonatomic) void *observerList; // @synthesize observerList=_observerList;
-@property(nonatomic) __weak AUParameterGroup *parentNode; // @synthesize parentNode=_parentNode;
 
 @end
 

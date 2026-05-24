@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISplitViewControllerAdaptiveLayoutTransition;
-@protocol UIViewControllerTransitionCoordinator, _UISplitViewControllerAdaptiveLayout;
+@protocol _UISplitViewControllerAdaptiveLayout;
 
 @interface _UISplitViewControllerAdaptiveLayoutTransitionController
 {
     id mutablePreviousLayout;
-    id mutableScheduledTransition;
-    id mutableUpcomingTransition;
-    id updates;
 }
 
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)with Guid %@ contains attachments, uploading to MMCS;
+- (void)e recipients was an emergency number, this message should not be relayed;
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,10 +38,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) id <_UISplitViewControllerAdaptiveLayout> previousLayout;
-@property(nonatomic, readonly) id <_UISplitViewControllerAdaptiveLayout> scheduledLayout;
-@property(nonatomic, readonly) _UISplitViewControllerAdaptiveLayoutTransition *scheduledTransition;
-@property(nonatomic, readonly) id <UIViewControllerTransitionCoordinator> transitionCoordinator;
-@property(nonatomic, readonly) _UISplitViewControllerAdaptiveLayoutTransition *upcomingTransition;
 
 @end
 

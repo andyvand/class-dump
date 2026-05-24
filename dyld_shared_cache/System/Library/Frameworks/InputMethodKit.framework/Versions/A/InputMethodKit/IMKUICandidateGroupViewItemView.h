@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUICandidateLayoutTraits, NSString;
+@class IMKUICandidateLayoutTraits;
 
 @interface IMKUICandidateGroupViewItemView
 {
     IMKUICandidateLayoutTraits *_layoutTraits;
-    NSString *_title;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)audioFlushPacketCount;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

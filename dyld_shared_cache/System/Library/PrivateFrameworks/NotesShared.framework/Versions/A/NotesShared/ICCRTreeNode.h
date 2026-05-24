@@ -6,17 +6,16 @@
 
 #import <NotesShared/ICCRObject.h>
 
-@class ICCRTree, ICCRWeakReference, NSArray;
+@class ICCRTree;
 
 @interface ICCRTreeNode : ICCRObject
 {
     ICCRTree *_tree;
-    NSArray *_children;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,17 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)%;
+- (void);
 - (void) 
 8£¼£;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(nonatomic) __weak ICCRTreeNode *parent;
-@property(retain, nonatomic) ICCRWeakReference *parentRef; // @dynamic parentRef;
 @property(nonatomic) __weak ICCRTree *tree; // @synthesize tree=_tree;
-@property(retain, nonatomic) id value; // @dynamic value;
 
 @end
 

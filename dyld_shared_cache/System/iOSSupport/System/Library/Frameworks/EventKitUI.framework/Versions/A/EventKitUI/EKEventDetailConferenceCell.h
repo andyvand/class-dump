@@ -6,45 +6,36 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class NSArray, NSObject, NSURL, UIButton, UIListContentView, UIView;
+@class NSObject, UIButton;
 @protocol ConferenceCellDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKEventDetailConferenceCell : EKEventDetailCell
 {
     UIButton *_openURLButton;
-    UIButton *_shareButton;
-    unsigned long long _actionButtonType;
-    UIListContentView *_listView;
-    UIView *_topSeparator;
-    UIView *_bottomSeparator;
-    NSArray *_constraints;
-    NSObject<ConferenceCellDelegate> *_delegate;
-    NSURL *_cachedNormalizedEventURL;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)s;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)8&s;
+- (void)s;
+- (id)m;
+- (id);
 - (_Bool);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
+- (void)E;
+- (double)SelectedCheckboxFromIcon__generated__Input;
 - (void);
-- (double);
-- (void);
-- (void)dentifier: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *cachedNormalizedEventURL; // @synthesize cachedNormalizedEventURL=_cachedNormalizedEventURL;
 @property(nonatomic) __weak NSObject<ConferenceCellDelegate> *delegate; // @synthesize delegate=_delegate;
 
 @end

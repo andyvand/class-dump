@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSAccessibilityInfo
 {
     NSString *_accessibilityValue;
-    NSString *_accessibilityLabel;
-    NSString *_accessibilityHint;
 }
 
 - (id);
@@ -19,15 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void).;
 - (void);
 - (id)DùÑ'Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityHint; // @synthesize accessibilityHint=_accessibilityHint;
 @property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(copy, nonatomic) NSString *accessibilityValue; // @synthesize accessibilityValue=_accessibilityValue;
 
 @end
 

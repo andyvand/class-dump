@@ -7,44 +7,32 @@
 @interface AWDIDSRegistrationAuthenticationParametersReceived
 {
     unsigned long long _timeIntervalSinceRequest;
-    unsigned long long _timestamp;
-    int _error;
-    struct {
-        unsigned int timeIntervalSinceRequest:1;
-        unsigned int timestamp:1;
-        unsigned int error:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int);
 - (id);
 - (void);
 - (void);
+- (unsigned long long)5A;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)*;
 - (_Bool);
-- (void);
-- (void);
+- (void)o;
+- (void));
 - (void);
 - (id);
 - (id);
 - (void)mberOfSMSSent;
-- (_Bool)eraction;
+- (_Bool)interaction;
 
 // Remaining properties
-@property(nonatomic) int error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasTimeIntervalSinceRequest;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timeIntervalSinceRequest; // @synthesize timeIntervalSinceRequest=_timeIntervalSinceRequest;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

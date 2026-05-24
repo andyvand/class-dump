@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBString;
+@class NSArray;
 
 @interface _INPBGeographicalFeature
 {
     struct _has;
-    NSArray *_geographicalFeatureDescriptors;
-    _INPBString *_geographicalFeatureType;
 }
 
 + (Class);
@@ -27,25 +25,15 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)ة;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)@;
 - (id);
-- (id);
+- (id);
 - (void)WithURL:width:height:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *geographicalFeatureDescriptors; // @synthesize geographicalFeatureDescriptors=_geographicalFeatureDescriptors;
-@property(readonly, nonatomic) unsigned long long geographicalFeatureDescriptorsCount;
-@property(retain, nonatomic) _INPBString *geographicalFeatureType; // @synthesize geographicalFeatureType=_geographicalFeatureType;
-@property(readonly, nonatomic) _Bool hasGeographicalFeatureType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

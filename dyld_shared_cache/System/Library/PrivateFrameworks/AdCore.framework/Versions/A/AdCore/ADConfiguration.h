@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ADConfiguration
 {
     double _expirationDate;
-    NSString *_baseUrl;
-    NSString *_bundleId;
-    int _requestType;
-    _Bool _isTest;
-    struct {
-        unsigned int expirationDate:1;
-        unsigned int requestType:1;
-        unsigned int isTest:1;
-    } _has;
 }
 
 - (id);
+- (void) ;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)version.;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)f?;
 - (void);
 - (id);
 - (_Bool);
@@ -42,24 +31,15 @@
 - (double);
 - (void);
 - (void);
+- (_Bool)initWithName:type:value:originalValue: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)IncomingCallsTTYPreference;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *baseUrl; // @synthesize baseUrl=_baseUrl;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) double expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool hasBaseUrl;
 @property(readonly, nonatomic) _Bool hasBundleId;
-@property(nonatomic) _Bool hasExpirationDate;
-@property(nonatomic) _Bool hasIsTest;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool isTest; // @synthesize isTest=_isTest;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end
 

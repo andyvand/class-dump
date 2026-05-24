@@ -5,6 +5,6 @@
 //
 
 @protocol CKCache
-- (void)tionTintColor;
+- (void)presentationTintColor;
 @end
 

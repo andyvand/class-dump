@@ -12,14 +12,14 @@
 + (struct CGRect);
 + (struct CGRect);
 + (double);
-+ (unsigned long long);
-+ (float);
++ (unsigned long long) *;
++ (float);
 + (CDStruct_8727d297);
 + (_Bool);
 + (struct CGRect);
 + (struct CGRect);
 + (double);
-+ (CDStruct_60d9add8);
++ (CDStruct_33757645);
 + (id);
 + (id);
 + (struct CGRect);
@@ -30,7 +30,7 @@
 + (struct CGRect);
 + (struct CGRect);
 + (struct CGRect);
-+ (_Bool);
++ (_Bool)";
 
 @end
 

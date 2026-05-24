@@ -8,18 +8,14 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
+- (NSString *);
+- (id <MTLDevice>)J;
+- (unsigned long long)-;
+- (void);
 - (id <MTLHeap>)eak:%p (label=%s)
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

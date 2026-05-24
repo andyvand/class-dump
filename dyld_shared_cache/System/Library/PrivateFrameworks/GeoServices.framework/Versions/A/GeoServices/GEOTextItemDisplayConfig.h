@@ -7,7 +7,6 @@
 @interface GEOTextItemDisplayConfig
 {
     unsigned int _maxItemsPerRow;
-    unsigned int _maxRowCount;
 }
 
 - (unsigned int);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int maxItemsPerRow; // @synthesize maxItemsPerRow=_maxItemsPerRow;
-@property(readonly, nonatomic) unsigned int maxRowCount; // @synthesize maxRowCount=_maxRowCount;
 
 @end
 

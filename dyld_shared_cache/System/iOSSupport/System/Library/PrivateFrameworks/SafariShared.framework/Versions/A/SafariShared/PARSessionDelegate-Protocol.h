@@ -5,5 +5,9 @@
 //
 
 @protocol PARSessionDelegate
+- (void)_representedTag;
+
+@optional
+- (void);
 @end
 

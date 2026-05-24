@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMComputePublisherStorage, NSCountedSet;
+@class NSCountedSet;
 
 @interface BMComputeSubscriptionMarkerManager
 {
     NSCountedSet *_activelySubscribedStreams;
-    BMComputePublisherStorage *_systemStorage;
-    BMComputePublisherStorage *_userStorage;
-    unsigned long long _domain;
 }
 
 - (id);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSCountedSet *activelySubscribedStreams; // @synthesize activelySubscribedStreams=_activelySubscribedStreams;
-@property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) BMComputePublisherStorage *systemStorage; // @synthesize systemStorage=_systemStorage;
-@property(readonly, nonatomic) BMComputePublisherStorage *userStorage; // @synthesize userStorage=_userStorage;
 
 @end
 

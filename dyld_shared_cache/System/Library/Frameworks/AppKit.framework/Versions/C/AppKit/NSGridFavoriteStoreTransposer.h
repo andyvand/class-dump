@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NSGridFavoriteStoreTransposer : NSFavoriteColorsStore
 {
     NSFavoriteColorsStore *_backingStore;
-    long long _numRows;
-    long long _numColumns;
 }
 
-+ (_Bool);
++ (_Bool)_customReadBufferSize;
 - (_Bool);
-- (id);
-- (id);
+- (id)nection"16@"NSCachedURLResponse"24@?<v@?@"NSCachedURLResponse">32;
+- (id)__NSCFURLLocalStreamTaskFromDataTask;
 - (void);
 - (void);
 

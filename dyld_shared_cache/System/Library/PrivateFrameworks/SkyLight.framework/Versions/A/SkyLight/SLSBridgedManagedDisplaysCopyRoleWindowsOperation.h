@@ -11,14 +11,13 @@
 @interface SLSBridgedManagedDisplaysCopyRoleWindowsOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     NSArray *_displayIdentifiers;
-    unsigned long long _role;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)il here;
+- (id)@;
+- (id)ist_count;
+- (id)SQL;
 - (id);
 - (void);
 - (unsigned long long);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *displayIdentifiers; // @synthesize displayIdentifiers=_displayIdentifiers;
-@property(readonly) unsigned long long role; // @synthesize role=_role;
 
 @end
 

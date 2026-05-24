@@ -7,11 +7,10 @@
 @interface TSUNetworkReachability
 {
     struct __SCNetworkReachability *_reachabilityRef;
-    _Bool _localWiFi;
 }
 
 + (id);
-+ (long long);
++ (long long)legateP;
 + (long long);
 + (long long);
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool connectionRequired;
-@property(readonly, nonatomic) long long status;
 
 @end
 

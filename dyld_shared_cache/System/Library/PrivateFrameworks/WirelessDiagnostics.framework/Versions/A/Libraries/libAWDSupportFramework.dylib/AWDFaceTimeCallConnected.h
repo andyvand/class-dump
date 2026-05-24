@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallConnected
 {
     unsigned long long _timestamp;
-    unsigned int _connectDuration;
-    unsigned int _connectionType;
-    unsigned int _currentNatType;
-    NSString *_guid;
-    unsigned int _isVideo;
-    unsigned int _localNetworkConnection;
-    unsigned int _onLockScreen;
-    unsigned int _relayConnectDuration;
-    unsigned int _remoteNatType;
-    unsigned int _remoteNetworkConnection;
-    unsigned int _usesRelay;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectDuration:1;
-        unsigned int connectionType:1;
-        unsigned int currentNatType:1;
-        unsigned int isVideo:1;
-        unsigned int localNetworkConnection:1;
-        unsigned int onLockScreen:1;
-        unsigned int relayConnectDuration:1;
-        unsigned int remoteNatType:1;
-        unsigned int remoteNetworkConnection:1;
-        unsigned int usesRelay:1;
-    } _has;
 }
 
 - (void);
@@ -40,9 +14,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,12 +31,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)y,;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (unsigned int)I";
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
@@ -73,7 +47,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void))1@9?;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
@@ -83,7 +57,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -96,30 +70,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectDuration; // @synthesize connectDuration=_connectDuration;
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) unsigned int currentNatType; // @synthesize currentNatType=_currentNatType;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasConnectDuration;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasCurrentNatType;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasLocalNetworkConnection;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasRelayConnectDuration;
-@property(nonatomic) _Bool hasRemoteNatType;
-@property(nonatomic) _Bool hasRemoteNetworkConnection;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUsesRelay;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int localNetworkConnection; // @synthesize localNetworkConnection=_localNetworkConnection;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned int relayConnectDuration; // @synthesize relayConnectDuration=_relayConnectDuration;
-@property(nonatomic) unsigned int remoteNatType; // @synthesize remoteNatType=_remoteNatType;
-@property(nonatomic) unsigned int remoteNetworkConnection; // @synthesize remoteNetworkConnection=_remoteNetworkConnection;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int usesRelay; // @synthesize usesRelay=_usesRelay;
 
 @end
 

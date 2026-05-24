@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)turn_state_detector_maximum_threshold_to_trigger_not_turning_low_confidence_dps;
 @end
 

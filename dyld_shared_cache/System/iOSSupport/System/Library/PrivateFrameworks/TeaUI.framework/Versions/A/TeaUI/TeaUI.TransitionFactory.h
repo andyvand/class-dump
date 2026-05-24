@@ -7,7 +7,6 @@
 @interface TeaUI.TransitionFactory
 {
     id factory;
-    id fallbackTransition;
 }
 
 @end

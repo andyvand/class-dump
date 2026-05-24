@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSMediaGroundTruth, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSMediaGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalRequestId;
-    PLUSSchemaPLUSMediaGroundTruth *_groundTruth;
-    _Bool _hasOriginalRequestId;
-    _Bool _hasGroundTruth;
 }
 
 - (void);
@@ -22,28 +19,24 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)2;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)v;
 - (_Bool);
-- (_Bool);
+- (_Bool)er:(id)arg1 _updateAliasToCNIDMap returning aliasIDMap;
 - (id);
 - (id)
 × ;
-- (id)ntext;
+- (id)_hasTypeToSiriContext;
 - (id)nTag;
-- (void)NENAMEDENTITYPARAMETER__GEO__GETTINGDIRECTIONS__SPOKENLOCATIONNAME;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__GEO__GETTINGDIRECTIONS__SPOKENLOCATIONNAME;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSMediaGroundTruth *groundTruth; // @synthesize groundTruth=_groundTruth;
-@property(nonatomic) _Bool hasGroundTruth; // @synthesize hasGroundTruth=_hasGroundTruth;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 
 @end

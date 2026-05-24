@@ -10,12 +10,12 @@
 {
 }
 
++ (id)B8;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)it usage;
 
 @end
 

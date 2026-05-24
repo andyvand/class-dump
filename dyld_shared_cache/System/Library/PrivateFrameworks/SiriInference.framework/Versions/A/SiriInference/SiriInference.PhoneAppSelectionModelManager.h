@@ -7,9 +7,6 @@
 @interface SiriInference.PhoneAppSelectionModelManager
 {
     id defaultModelLoadSignpostName;
-    id trialModelLoadSignpostName;
-    id trialCompiledModelFactor;
-    id trialManager;
 }
 
 @end

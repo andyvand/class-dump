@@ -6,49 +6,39 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMAnyPayload, NSNumber, NSString;
+@class NSString;
 
 @interface CEMApplicationInstallDeclaration : CEMConfigurationBase
 {
     NSString *_payloadApplication;
-    NSNumber *_payloadMandatory;
-    NSNumber *_payloadInstallWhenActivated;
-    NSNumber *_payloadRemoveWhenDeactivated;
-    NSNumber *_payloadManageData;
-    NSString *_payloadVPNUUID;
-    NSString *_payloadCellularSliceUUID;
-    NSString *_payloadContentFilterUUID;
-    NSString *_payloadDNSProxyUUID;
-    NSNumber *_payloadPreventDataBackup;
-    CEMAnyPayload *_payloadConfiguration;
 }
 
++ (id)T;
++ (id)"`;
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)퇹;
+- (void)hh8;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)~ac;
 - (id);
 - (id);
 - (id);
+- (id)b;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -57,29 +47,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)bbbbbbbbbbbbbbbbbbbbcccccccccdddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffffffffffffffffffffffffffffggghiiijkkkkkkkkkkll.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmommmm............mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmmmmmmmmmmmmm..................pppp.ppppppppppppppppppppppppppp.pp.p..p.pppppppppp.pppp.p.p......p....p.p.p.ppp.pp.p..p.p.p.p.p.pp.p..pppp.ppppppp.pppp.pppp.p.pppppppppp.ppppppppppppppppp.....ppp.ppppp.ppppppppppppppppp..................................................................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadApplication; // @synthesize payloadApplication=_payloadApplication;
-@property(copy, nonatomic) NSString *payloadCellularSliceUUID; // @synthesize payloadCellularSliceUUID=_payloadCellularSliceUUID;
-@property(copy, nonatomic) CEMAnyPayload *payloadConfiguration; // @synthesize payloadConfiguration=_payloadConfiguration;
-@property(copy, nonatomic) NSString *payloadContentFilterUUID; // @synthesize payloadContentFilterUUID=_payloadContentFilterUUID;
-@property(copy, nonatomic) NSString *payloadDNSProxyUUID; // @synthesize payloadDNSProxyUUID=_payloadDNSProxyUUID;
-@property(copy, nonatomic) NSNumber *payloadInstallWhenActivated; // @synthesize payloadInstallWhenActivated=_payloadInstallWhenActivated;
-@property(copy, nonatomic) NSNumber *payloadManageData; // @synthesize payloadManageData=_payloadManageData;
-@property(copy, nonatomic) NSNumber *payloadMandatory; // @synthesize payloadMandatory=_payloadMandatory;
-@property(copy, nonatomic) NSNumber *payloadPreventDataBackup; // @synthesize payloadPreventDataBackup=_payloadPreventDataBackup;
-@property(copy, nonatomic) NSNumber *payloadRemoveWhenDeactivated; // @synthesize payloadRemoveWhenDeactivated=_payloadRemoveWhenDeactivated;
-@property(copy, nonatomic) NSString *payloadVPNUUID; // @synthesize payloadVPNUUID=_payloadVPNUUID;
-@property(readonly) Class superclass;
 
 @end
 

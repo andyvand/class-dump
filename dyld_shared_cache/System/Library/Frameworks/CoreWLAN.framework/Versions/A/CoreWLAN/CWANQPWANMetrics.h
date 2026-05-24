@@ -9,16 +9,9 @@
 @interface CWANQPWANMetrics : CWANQPElement
 {
     long long _linkStatus;
-    _Bool _hasSymmetricLink;
-    _Bool _isAtCapacity;
-    long long _downlinkSpeed;
-    long long _uplinkSpeed;
-    long long _downlinkLoad;
-    long long _uplinkLoad;
-    long long _loadMeasurementDuration;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (long long);
 - (long long);
@@ -29,10 +22,10 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (long long);
@@ -43,14 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long downlinkLoad; // @synthesize downlinkLoad=_downlinkLoad;
-@property(nonatomic) long long downlinkSpeed; // @synthesize downlinkSpeed=_downlinkSpeed;
-@property(nonatomic) _Bool hasSymmetricLink; // @synthesize hasSymmetricLink=_hasSymmetricLink;
-@property(nonatomic) _Bool isAtCapacity; // @synthesize isAtCapacity=_isAtCapacity;
 @property(nonatomic) long long linkStatus; // @synthesize linkStatus=_linkStatus;
-@property(nonatomic) long long loadMeasurementDuration; // @synthesize loadMeasurementDuration=_loadMeasurementDuration;
-@property(nonatomic) long long uplinkLoad; // @synthesize uplinkLoad=_uplinkLoad;
-@property(nonatomic) long long uplinkSpeed; // @synthesize uplinkSpeed=_uplinkSpeed;
 
 @end
 

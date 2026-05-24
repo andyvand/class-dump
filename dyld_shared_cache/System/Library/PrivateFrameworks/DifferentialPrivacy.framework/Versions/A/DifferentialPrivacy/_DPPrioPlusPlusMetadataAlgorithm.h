@@ -7,19 +7,17 @@
 @interface _DPPrioPlusPlusMetadataAlgorithm
 {
     unsigned long long _dimension;
-    CDStruct_586f72be *_prioMemory;
 }
 
 + (id);
 - (id);
-- (CDStruct_586f72be *);
+- (CDStruct_586f72be *);
 - (id);
-- (void);
+- (void)$;
 - (unsigned long long)p«;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dimension; // @synthesize dimension=_dimension;
-@property(readonly, nonatomic) CDStruct_586f72be *prioMemory; // @synthesize prioMemory=_prioMemory;
 
 @end
 

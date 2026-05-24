@@ -6,22 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTActionParameterContext, NSData;
+@class IFTSchemaIFTActionParameterContext;
 
 @interface IFTSchemaIFTParameterQuery : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTActionParameterContext *_context;
-    _Bool _hasContext;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)in (select cm.message_id as message_id, cm.message_date as message_date from message m INDEXED BY message_idx_cache_has_attachments join chat_message_join cm where m.cache_has_attachments = 1 AND cm.chat_id AND cm.chat_id IN (%@) AND m.rowid = cm.message_id) as tmp where ma.message_id = tmp.message_id) as tmp2 where a.rowid = tmp2.a_id AND a.hide_attachment == 0 AND (a.ck_sync_state == 1 OR a.ck_sync_state == 4) AND a.transfer_state == 0 ORDER BY tmp2.m_date ASC;;
 - (_Bool);
 - (void);
 - (id);
@@ -29,13 +28,11 @@
 × ;
 - (id)iDictationVoiceCommandKeyboardAction;
 - (id);
-- (_Bool)Reported;
+- (_Bool)dictationExperimentDigestsReported;
 - (void)¿;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTActionParameterContext *context; // @synthesize context=_context;
-@property(nonatomic) _Bool hasContext; // @synthesize hasContext=_hasContext;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

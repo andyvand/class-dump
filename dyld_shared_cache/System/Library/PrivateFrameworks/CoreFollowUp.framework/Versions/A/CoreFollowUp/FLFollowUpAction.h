@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface FLFollowUpAction
 {
     NSString *_identifier;
-    NSString *_label;
-    NSURL *_url;
-    NSDictionary *_userInfo;
-    NSURL *_launchActionURL;
-    NSData *_launchActionArguments;
-    unsigned long long _eventSource;
-    unsigned long long _sqlID;
 }
 
 + (id);
@@ -23,8 +16,8 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)blic}d,isValidLoc,%{public}d;
+- (id)@:hindsight learning executed, trainError:%{public}@. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -32,18 +25,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)O;
 - (id);
 - (void);
-- (void);
+- (void)setIASUCatalogURLWithValue:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool)dtrue == true ;
+- (void)t create the new object;
 - (unsigned long long);
 - (void);
 - (void);
@@ -51,16 +44,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *_userInfoData;
-@property(nonatomic) _Bool destructive;
 @property(nonatomic) unsigned long long eventSource; // @synthesize eventSource=_eventSource;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSData *launchActionArguments; // @synthesize launchActionArguments=_launchActionArguments;
-@property(copy) NSURL *launchActionURL; // @synthesize launchActionURL=_launchActionURL;
-@property(nonatomic) unsigned long long sqlID; // @synthesize sqlID=_sqlID;
-@property(copy) NSURL *url; // @synthesize url=_url;
-@property(copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

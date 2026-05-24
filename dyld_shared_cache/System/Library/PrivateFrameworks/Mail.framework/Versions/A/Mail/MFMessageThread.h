@@ -4,50 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMessage, MFMailbox, NSArray, NSAttributedString, NSIndexSet, NSMutableArray, NSMutableDictionary, NSSet, NSString;
+@class NSMutableArray;
 
 @interface MFMessageThread
 {
     NSMutableArray *_orderedMessages;
-    NSMutableDictionary *_pendingChanges;
-    MCMessage *_newestMessage;
-    MCMessage *_oldestMessage;
-    MCMessage *_newestReceivedMessage;
-    MCMessage *_newestSentMessage;
-    MCMessage *_newestReadMessage;
-    MCMessage *_snippetMessage;
-    MCMessage *_messageWithHighestLibraryID;
-    NSIndexSet *_primaryMessageIndexes;
-    unsigned int _unreadMessageCount;
-    unsigned int _flaggedMessageCount;
-    unsigned int _junkMessageCount;
-    unsigned int _deletedMessageCount;
-    unsigned int _repliedMessageCount;
-    unsigned int _forwardedMessageCount;
-    unsigned int _redirectedMessageCount;
-    unsigned int _actedOnByExtensionCount;
-    unsigned int _attachmentCount;
-    NSAttributedString *_cachedEmailAttributedSendersString;
-    _Bool _isThreadOpen;
 }
 
 + (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)	;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
+- (_Bool)?%qA;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b  `h;
 - (id);
 - (id);
 - (id);
@@ -55,7 +35,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (_Bool);
@@ -70,9 +50,9 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
@@ -85,16 +65,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned int);
-- (id);
+- (unsigned int)?;
+- (id)`;
 - (id);
 - (unsigned long long);
 - (id);
+- (id)qa;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)RWIProtocolRuntimeRemoteObject;
 - (unsigned long long);
 - (id);
 - (id)° ;
@@ -107,24 +87,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allContainingLabelsAndMailboxes;
-@property(readonly) unsigned long long conversationFlags;
-@property(readonly) long long conversationID;
-@property(readonly) unsigned long long countOfOrderedMessages;
-@property(readonly, copy) NSAttributedString *emailAttributedSendersString;
-@property _Bool isOpen;
 @property _Bool isThreadOpen; // @synthesize isThreadOpen=_isThreadOpen;
-@property(readonly, nonatomic) MFMailbox *mailbox;
-@property(readonly) MCMessage *messageWithHighestLibraryID;
-@property(readonly) MCMessage *newestMessage;
-@property(readonly) MCMessage *newestReadMessage;
-@property(readonly) MCMessage *newestSentMessage;
-@property(readonly) MCMessage *oldestMessage;
-@property(readonly, copy) NSArray *orderedMessages;
-@property(readonly, copy) NSArray *reverseOrderedMessages;
-@property(readonly, copy) NSString *sendersString;
-@property(readonly) MCMessage *snippetMessage;
-@property(readonly) unsigned int unreadMessageCount;
 
 @end
 

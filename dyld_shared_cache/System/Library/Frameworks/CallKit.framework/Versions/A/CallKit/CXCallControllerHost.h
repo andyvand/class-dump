@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, NSXPCListener;
-@protocol CXCallControllerHostDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CXCallControllerHost
 {
     int _clientsShouldConnectToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CXCallControllerHostDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSXPCListener *_xpcListener;
-    NSMutableDictionary *_callUUIDToCallMap;
-    NSMutableDictionary *_callUUIDToPublicCallUUIDMap;
-    NSMutableSet *_connections;
 }
 
 - (void);
@@ -29,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +32,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)AskToManageContactsApprovedResponseReceivedNotificationTitle;
 - (id);
 - (void);
 - (id);
@@ -50,21 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *callUUIDToCallMap; // @synthesize callUUIDToCallMap=_callUUIDToCallMap;
-@property(retain, nonatomic) NSMutableDictionary *callUUIDToPublicCallUUIDMap; // @synthesize callUUIDToPublicCallUUIDMap=_callUUIDToPublicCallUUIDMap;
-@property(readonly, nonatomic) int clientsShouldConnectToken; // @synthesize clientsShouldConnectToken=_clientsShouldConnectToken;
-@property(retain, nonatomic) NSMutableSet *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXCallControllerHostDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
 
 @end
 

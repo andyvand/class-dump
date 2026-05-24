@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSMutableSet, NSObject, NSSet;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface CKDPCSNotifier
 {
     NSObject<OS_dispatch_source> *_pcsUpdateSource;
-    NSObject<OS_dispatch_queue> *_synchronizeQueue;
-    NSMutableDictionary *_missingIdentitiesContextMap;
-    NSMutableDictionary *_cloudCoreIdentityContextsMap;
-    NSMutableSet *_mutableServicesNeedingDBRReauthentication;
-    NSMutableDictionary *_testOverrides;
-    NSHashTable *_weakUnscopedIdentityChangeWatchers;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)appEntit;
 - (id);
 - (id);
 - (id);
@@ -28,18 +22,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)_userCreatedMailboxIDs;
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -59,14 +53,7 @@
 - (void)pping fetch of zones from the server for operation %{public}@ because it has dontFetchFromServer set;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *cloudCoreIdentityContextsMap; // @synthesize cloudCoreIdentityContextsMap=_cloudCoreIdentityContextsMap;
-@property(retain, nonatomic) NSMutableDictionary *missingIdentitiesContextMap; // @synthesize missingIdentitiesContextMap=_missingIdentitiesContextMap;
-@property(retain, nonatomic) NSMutableSet *mutableServicesNeedingDBRReauthentication; // @synthesize mutableServicesNeedingDBRReauthentication=_mutableServicesNeedingDBRReauthentication;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *pcsUpdateSource; // @synthesize pcsUpdateSource=_pcsUpdateSource;
-@property(readonly, nonatomic) NSSet *servicesNeedingDBRReauthentication;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *synchronizeQueue; // @synthesize synchronizeQueue=_synchronizeQueue;
-@property(retain, nonatomic) NSMutableDictionary *testOverrides; // @synthesize testOverrides=_testOverrides;
-@property(retain, nonatomic) NSHashTable *weakUnscopedIdentityChangeWatchers; // @synthesize weakUnscopedIdentityChangeWatchers=_weakUnscopedIdentityChangeWatchers;
 
 @end
 

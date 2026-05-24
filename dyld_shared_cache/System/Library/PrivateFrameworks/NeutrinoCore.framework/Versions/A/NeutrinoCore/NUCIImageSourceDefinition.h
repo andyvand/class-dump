@@ -11,20 +11,18 @@
 @interface NUCIImageSourceDefinition : NUSingleSourceDefinition
 {
     CIImage *_image;
-    long long _orientation;
 }
 
 - (id);
-- (id);
+- (id)qa;
 - (long long);
 - (id);
 - (id);
 - (long long);
-- (void)n:error: /* Error: Ran out of types for this method. */;
+- (void)validateChannelExpression:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CIImage *image; // @synthesize image=_image;
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
 
 @end
 

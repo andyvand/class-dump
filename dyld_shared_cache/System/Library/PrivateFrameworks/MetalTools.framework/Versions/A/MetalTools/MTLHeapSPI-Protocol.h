@@ -12,18 +12,11 @@
 × ;
 
 @optional
-- (unsigned long long)lice;
+- (unsigned long long);
+- (_Bool)k;
+- (unsigned long long)slice;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) unsigned long long memoryPoolId;
-@property(readonly, nonatomic) unsigned long long protectionOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 @property(readonly) unsigned long long unfilteredResourceOptions;
 @end
 

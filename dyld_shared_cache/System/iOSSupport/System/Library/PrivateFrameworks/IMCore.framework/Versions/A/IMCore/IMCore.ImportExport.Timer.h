@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.Timer
 {
     id startTime;
-    id endTime;
 }
 
 @end

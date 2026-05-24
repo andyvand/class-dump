@@ -4,60 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SSRVTUITrainingManager;
-@protocol CSAudioProviderSelecting, SSRVTUITrainingServiceDelegate;
+@class SSRVTUITrainingManager;
+@protocol SSRVTUITrainingServiceDelegate;
 
 @interface SSRVTUITrainingMessageHandler
 {
     id <SSRVTUITrainingServiceDelegate> _remoteObjectProxy;
-    SSRVTUITrainingManager *_trainingManager;
-    NSString *_siriSharedUserId;
-    id <CSAudioProviderSelecting> _audioProviderSelector;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)-$;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)erationCallbacks><CKDOperationCallbackProxy>",&,D,N;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)ZN11cnframework12ActiveObjectIN5raven31RavenDeviceAttitudeActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_13UserGaitEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
 - (void);
 - (void)Failed to teardown AVVC :(id)arg1 %{public}@;
 - (void)leManager hasVoiceProfileIniCloudForLanguageCode:(id)arg1 ];
 
 // Remaining properties
-@property(retain, nonatomic) id <CSAudioProviderSelecting> audioProviderSelector; // @synthesize audioProviderSelector=_audioProviderSelector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SSRVTUITrainingServiceDelegate> remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
-@property(retain, nonatomic) NSString *siriSharedUserId; // @synthesize siriSharedUserId=_siriSharedUserId;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) SSRVTUITrainingManager *trainingManager; // @synthesize trainingManager=_trainingManager;
 
 @end

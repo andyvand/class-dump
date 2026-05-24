@@ -7,7 +7,6 @@
 @interface _CHSDynamicColorKey
 {
     unsigned long long _colorScheme;
-    unsigned long long _displayGamut;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)j4x;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long colorScheme; // @synthesize colorScheme=_colorScheme;
-@property(readonly, nonatomic) unsigned long long displayGamut; // @synthesize displayGamut=_displayGamut;
 
 @end
 

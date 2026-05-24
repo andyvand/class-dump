@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISWrappedAVPlayer, NSArray, NSImage, PXVideoView, UXImageView;
+@class PXVideoView;
 @protocol PXVideoPlayerViewDelegate;
 
 @interface PXVideoPlayerView
 {
     PXVideoView *_videoView;
-    NSArray *_videoViewConstraints;
-    UXImageView *_previewImageView;
-    NSArray *_previewImageViewConstraints;
-    long long _placeholderVisibilityRequestID;
-    CDUnknownBlockType _visibilityChangeCompletionHandler;
-    _Bool _displayingPlaceholder;
-    _Bool _allowsEdgeAntialiasing;
-    _Bool _toneMapToStandardDynamicRange;
-    id <PXVideoPlayerViewDelegate> _delegate;
-    ISWrappedAVPlayer *_player;
-    NSImage *_placeholderImage;
-    NSArray *_placeholderImageFilters;
-    double _videoAppearanceCrossfadeDuration;
-    long long _placeholderDisplayMode;
-    long long _videoViewContentMode;
-    struct CGRect _placeholderImageContentsRect;
 }
 
 - (long long);
@@ -53,27 +37,29 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)/* mask */ 
+		DeclareForeColorU; 
+		uniform mediump float uFactorX, uFactorY; 
+		void main() 
+		{ 
+			lowp vec4 color = SampleTexture1; 
+			lowp vec4 textColor = SampleTexture0; 
+			lowp float selectedColor = abs(mod(vTextureCoordinates1.s * uFactorX + vTextureCoordinates1.t * uFactorY, 16.) - 8.) - 3.5; 
+			color.rgb = mix(color.rgb, textColor.rgb * selectedColor * vec3(1., 1., 0.), textColor.a * (1.-SampleTexture2.r)); 
+			color.a = 1.; 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (id);
 - (id)°!xDù<ð1Â0@ù
 × ;
 - (id)16@"PXSectionedDataSource"48@"UXViewController"56;
-- (void)CurrentUserActivity:(id)arg1;
+- (void)setCurrentUserActivity:(id)arg1;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEdgeAntialiasing; // @synthesize allowsEdgeAntialiasing=_allowsEdgeAntialiasing;
 @property(nonatomic) __weak id <PXVideoPlayerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isDisplayingPlaceHolder) _Bool displayingPlaceholder; // @synthesize displayingPlaceholder=_displayingPlaceholder;
-@property(nonatomic) long long placeholderDisplayMode; // @synthesize placeholderDisplayMode=_placeholderDisplayMode;
-@property(retain, nonatomic) NSImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(nonatomic) struct CGRect placeholderImageContentsRect; // @synthesize placeholderImageContentsRect=_placeholderImageContentsRect;
-@property(copy, nonatomic) NSArray *placeholderImageFilters; // @synthesize placeholderImageFilters=_placeholderImageFilters;
-@property(retain, nonatomic) ISWrappedAVPlayer *player; // @synthesize player=_player;
-@property(nonatomic) _Bool toneMapToStandardDynamicRange; // @synthesize toneMapToStandardDynamicRange=_toneMapToStandardDynamicRange;
-@property(nonatomic) double videoAppearanceCrossfadeDuration; // @synthesize videoAppearanceCrossfadeDuration=_videoAppearanceCrossfadeDuration;
-@property(nonatomic) long long videoViewContentMode; // @synthesize videoViewContentMode=_videoViewContentMode;
 
 @end
 

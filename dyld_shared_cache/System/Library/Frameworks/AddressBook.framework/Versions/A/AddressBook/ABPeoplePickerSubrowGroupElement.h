@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPeoplePickerTableView;
-
 @interface ABPeoplePickerSubrowGroupElement
 {
     id _parent;
-    ABPeoplePickerTableView *_tableView;
-    long long _row;
 }
 
 - (id);
@@ -23,7 +19,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)˿;
 - (id);
 - (id);
 - (id);
@@ -34,15 +30,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -51,15 +47,13 @@
 - (id);
 - (id);
 - (long long);
+- (void)A;
 - (void);
-- (void);
-- (void)ateWithinDateTense;
-- (id);
+- (void)updateWithinDateTense;
+- (id)abRunWithGlobalAPILockInFile:line:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) id parent; // @synthesize parent=_parent;
-@property long long row; // @synthesize row=_row;
-@property __weak ABPeoplePickerTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

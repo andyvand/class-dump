@@ -13,12 +13,12 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (struct CGImage *);
++ (struct CGImage *)?;
 + (struct CGImage *);
 + (id);
-+ (double);
++ (double)";
 + (_Bool);
-+ (_Bool);
++ (_Bool)#;
 + (id);
 + (id);
 + (struct CGRect);

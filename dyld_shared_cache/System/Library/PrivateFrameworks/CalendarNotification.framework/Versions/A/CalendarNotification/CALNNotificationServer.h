@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol CALNAnalyticsHandler, CALNNotificationStorage, CALNUserNotificationCenter, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CALNNotificationServer
 {
     _Bool _active;
-    _Bool _isProtectedDataAvailable;
-    id <CALNUserNotificationCenter> _userNotificationCenter;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_notificationSourceMap;
-    id <CALNNotificationStorage> _storage;
-    id <CALNAnalyticsHandler> _analyticsHandler;
 }
 
 - (id);
@@ -24,19 +18,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)ss than kDataConnectionTotal in read_rest_value;
+- (id)kCTDataConnectionServiceTypeOTAActivation;
 - (id);
 - (void);
 - (_Bool);
@@ -60,20 +54,6 @@
 - (void):(id)arg1 8;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) id <CALNAnalyticsHandler> analyticsHandler; // @synthesize analyticsHandler=_analyticsHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isProtectedDataAvailable; // @synthesize isProtectedDataAvailable=_isProtectedDataAvailable;
-@property(retain, nonatomic) NSMutableDictionary *notificationSourceMap; // @synthesize notificationSourceMap=_notificationSourceMap;
-@property(readonly, nonatomic) NSArray *notificationSources;
-@property(retain, nonatomic) id <CALNNotificationStorage> storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CALNUserNotificationCenter> userNotificationCenter; // @synthesize userNotificationCenter=_userNotificationCenter;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

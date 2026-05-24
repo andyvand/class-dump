@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface StartPageCollectionViewControllerItemRegister
 {
     NSMutableDictionary *_collectionViewItemDefinitions;
-    NSMutableDictionary *_supplementaryViewDefinitions;
 }
 
 - (void);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)d;
 - (void);
 
 @end

@@ -9,15 +9,6 @@
 @interface TUAnimationAffineTransformFunction
 {
     CAMediaTimingFunction *_timingFunction;
-    double _speed;
-    TUAnimationFloatFunction *_aFunction;
-    TUAnimationFloatFunction *_bFunction;
-    TUAnimationFloatFunction *_cFunction;
-    TUAnimationFloatFunction *_dFunction;
-    TUAnimationFloatFunction *_txFunction;
-    TUAnimationFloatFunction *_tyFunction;
-    struct CGAffineTransform _startValue;
-    struct CGAffineTransform _endValue;
 }
 
 - (id);
@@ -39,23 +30,14 @@
 - (void);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
-- (void);
+- (void)_autoFavoriteTagFavorabilityExponent;
 - (double);
 - (id);
-- (void);
+- (void)T	;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) TUAnimationFloatFunction *aFunction; // @synthesize aFunction=_aFunction;
-@property(retain, nonatomic) TUAnimationFloatFunction *bFunction; // @synthesize bFunction=_bFunction;
-@property(retain, nonatomic) TUAnimationFloatFunction *cFunction; // @synthesize cFunction=_cFunction;
-@property(retain, nonatomic) TUAnimationFloatFunction *dFunction; // @synthesize dFunction=_dFunction;
-@property(nonatomic) struct CGAffineTransform endValue; // @synthesize endValue=_endValue;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) struct CGAffineTransform startValue; // @synthesize startValue=_startValue;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
-@property(retain, nonatomic) TUAnimationFloatFunction *txFunction; // @synthesize txFunction=_txFunction;
-@property(retain, nonatomic) TUAnimationFloatFunction *tyFunction; // @synthesize tyFunction=_tyFunction;
 
 @end
 

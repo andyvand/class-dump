@@ -9,19 +9,17 @@
 @interface SILogicalTimestampInternal
 {
     void clockIdentifier;
-    unsigned long long nanosecondsSinceBoot;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void)¨Ý¤ÿ®²Ü[';
 
 // Remaining properties
 @property(nonatomic, readonly) NSUUID *clockIdentifier;
-@property(nonatomic, readonly) unsigned long long nanosecondsSinceBoot; // @synthesize nanosecondsSinceBoot;
 
 @end
 

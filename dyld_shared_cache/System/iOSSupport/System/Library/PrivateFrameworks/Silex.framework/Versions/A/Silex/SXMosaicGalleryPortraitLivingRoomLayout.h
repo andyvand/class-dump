@@ -16,7 +16,7 @@
 - (struct _NSRange);
 - (struct _NSRange);
 - (struct _NSRange);
-- (id);
+- (id);
 - (double);
 
 @end

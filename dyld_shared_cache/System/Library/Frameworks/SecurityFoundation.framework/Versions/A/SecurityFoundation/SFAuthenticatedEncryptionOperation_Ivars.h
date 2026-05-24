@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFAuthenticatedEncryptionOperation_Ivars
 {
     _SFAESKeySpecifier *keySpecifier;
-    long long authenticationMode;
-    long long authenticationCodeLength;
 }
 
 - (void);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@protocol IMAnimatedImageProtocol;
 
 @protocol IMAnimatedImageProtocol
+- (id <IMAnimatedImageProtocol>);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *durations;
-@property(readonly, nonatomic) NSArray *frames;
-@property(readonly, nonatomic) double scale;
 @property(readonly, nonatomic) struct CGSize size;
 @end
 

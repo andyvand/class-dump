@@ -8,19 +8,19 @@
 {
 }
 
-+ (_Bool)fidenceLevel:(id)arg1;
-- (void);
++ (_Bool)setMerchantCleanConfidenceLevel:(id)arg1;
+- (void)J$;
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)getConnectedBluetoothDeviceAddressesWithCompletion:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)rrection";
-- (id)setCm;
-- (id);
+- (id)hasStartOffsetCm;
+- (id)GEOClientRankingFeatureUnitExponentPair;
 - (id)e per object;
 
 @end

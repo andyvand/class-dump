@@ -6,33 +6,26 @@
 
 #import <AVFCapture/AVCaptureControl.h>
 
-@class AVCaptureDevice, NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class AVCaptureDevice;
 
 @interface AVCaptureSystemLensSelector : AVCaptureControl
 {
     AVCaptureDevice *_device;
-    CDUnknownBlockType _action;
-    NSDictionary *_displayValuesByZoomFactorValue;
-    struct os_unfair_lock_s _actionLock;
-    _Bool _observing;
-    _Bool _changesVideoZoomFactor;
-    NSObject<OS_dispatch_queue> *_actionQueue;
 }
 
-+ (void)bolg;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
++ (void)gulpbolg;
+- (void)beginEncodingPartialTopLevelObject:(_Bool)arg1;
+- (void)_serviceThrottlingOperationQueue;
+- (void)_parentTextElement;
+- (_Bool)R,N,V_primaryDropShadowColor;
+- (void)lowercaseString;
+- (id)_MSVConcatArrayEnumerator;
 - (id);
+- (_Bool)… | failed to create mutable connection [] error=%{public}@;
+- (id)parent is a dictionary;
+- (void)%02x;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)"16@"NSDictionary"24@?<v@?B@"NSError">32;
 - (id);
 - (void);
 - (id);
@@ -40,8 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool changesVideoZoomFactor;
-@property(copy, nonatomic) NSDictionary *displayValuesByZoomFactorValue;
-@property(nonatomic) _Bool pickerChangesVideoZoomFactor;
 
 @end
 

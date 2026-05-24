@@ -6,38 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface ODDSiriSchemaODDAssetBringUpStatus : SISchemaInstrumentationMessage
 {
     _Bool _assetBringUpState;
-    int _assetBringUpType;
-    NSString *_assetSetIdentifier;
-    NSString *_assetSetName;
-    NSString *_previousBuildVersion;
-    NSString *_assetBringUpErrorDomain;
-    NSString *_assetBringUpErrorDescription;
-    unsigned int _assetBringUpErrorCode;
-    unsigned int _countOfPSUSAssetsPromotedInCurrentOS;
-    unsigned long long _timeInSecondsSinceSoftwareUpdate;
-    int _uafAssetSource;
-    unsigned int _countOfAssetsInAssetSet;
-    unsigned long long _totalSizeOfAssetsInAssetSet;
-    struct {
-        unsigned int assetBringUpState:1;
-        unsigned int assetBringUpType:1;
-        unsigned int assetBringUpErrorCode:1;
-        unsigned int countOfPSUSAssetsPromotedInCurrentOS:1;
-        unsigned int timeInSecondsSinceSoftwareUpdate:1;
-        unsigned int uafAssetSource:1;
-        unsigned int countOfAssetsInAssetSet:1;
-        unsigned int totalSizeOfAssetsInAssetSet:1;
-    } _has;
-    _Bool _hasAssetSetIdentifier;
-    _Bool _hasAssetSetName;
-    _Bool _hasPreviousBuildVersion;
-    _Bool _hasAssetBringUpErrorDomain;
-    _Bool _hasAssetBringUpErrorDescription;
 }
 
 - (int);
@@ -54,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -71,12 +42,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -89,23 +60,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (unsigned int);
 - (int);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)__AUTH_CONST;
 - (unsigned long long);
-- (void);
+- (void)0;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -115,36 +86,10 @@
 - (id)ionResolverRequests;
 - (id)&,N,V_cancelled;
 - (id)Ð;
-- (void)CODE_QA;
+- (void)ISOCOUNTRYCODE_QA;
 
 // Remaining properties
-@property(nonatomic) unsigned int assetBringUpErrorCode; // @synthesize assetBringUpErrorCode=_assetBringUpErrorCode;
-@property(copy, nonatomic) NSString *assetBringUpErrorDescription; // @synthesize assetBringUpErrorDescription=_assetBringUpErrorDescription;
-@property(copy, nonatomic) NSString *assetBringUpErrorDomain; // @synthesize assetBringUpErrorDomain=_assetBringUpErrorDomain;
 @property(nonatomic) _Bool assetBringUpState; // @synthesize assetBringUpState=_assetBringUpState;
-@property(nonatomic) int assetBringUpType; // @synthesize assetBringUpType=_assetBringUpType;
-@property(copy, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
-@property(copy, nonatomic) NSString *assetSetName; // @synthesize assetSetName=_assetSetName;
-@property(nonatomic) unsigned int countOfAssetsInAssetSet; // @synthesize countOfAssetsInAssetSet=_countOfAssetsInAssetSet;
-@property(nonatomic) unsigned int countOfPSUSAssetsPromotedInCurrentOS; // @synthesize countOfPSUSAssetsPromotedInCurrentOS=_countOfPSUSAssetsPromotedInCurrentOS;
-@property(nonatomic) _Bool hasAssetBringUpErrorCode;
-@property(nonatomic) _Bool hasAssetBringUpErrorDescription; // @synthesize hasAssetBringUpErrorDescription=_hasAssetBringUpErrorDescription;
-@property(nonatomic) _Bool hasAssetBringUpErrorDomain; // @synthesize hasAssetBringUpErrorDomain=_hasAssetBringUpErrorDomain;
-@property(nonatomic) _Bool hasAssetBringUpState;
-@property(nonatomic) _Bool hasAssetBringUpType;
-@property(nonatomic) _Bool hasAssetSetIdentifier; // @synthesize hasAssetSetIdentifier=_hasAssetSetIdentifier;
-@property(nonatomic) _Bool hasAssetSetName; // @synthesize hasAssetSetName=_hasAssetSetName;
-@property(nonatomic) _Bool hasCountOfAssetsInAssetSet;
-@property(nonatomic) _Bool hasCountOfPSUSAssetsPromotedInCurrentOS;
-@property(nonatomic) _Bool hasPreviousBuildVersion; // @synthesize hasPreviousBuildVersion=_hasPreviousBuildVersion;
-@property(nonatomic) _Bool hasTimeInSecondsSinceSoftwareUpdate;
-@property(nonatomic) _Bool hasTotalSizeOfAssetsInAssetSet;
-@property(nonatomic) _Bool hasUafAssetSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *previousBuildVersion; // @synthesize previousBuildVersion=_previousBuildVersion;
-@property(nonatomic) unsigned long long timeInSecondsSinceSoftwareUpdate; // @synthesize timeInSecondsSinceSoftwareUpdate=_timeInSecondsSinceSoftwareUpdate;
-@property(nonatomic) unsigned long long totalSizeOfAssetsInAssetSet; // @synthesize totalSizeOfAssetsInAssetSet=_totalSizeOfAssetsInAssetSet;
-@property(nonatomic) int uafAssetSource; // @synthesize uafAssetSource=_uafAssetSource;
 
 @end
 

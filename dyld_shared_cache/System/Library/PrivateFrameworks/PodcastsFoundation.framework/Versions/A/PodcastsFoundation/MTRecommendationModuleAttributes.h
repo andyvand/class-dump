@@ -9,7 +9,6 @@
 @interface MTRecommendationModuleAttributes
 {
     MTRecommendationModuleTitle *title;
-    id resourceTypes;
 }
 
 - (id);

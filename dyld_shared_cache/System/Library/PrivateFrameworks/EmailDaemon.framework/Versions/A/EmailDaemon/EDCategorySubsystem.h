@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDActivityPersistence, EDBiomeInteractionEventLog, EDBusinessPersistence, EDCategoryCoreAnalyticsLogger, EDCategoryPersistence, EDCoreAnalyticsBiomeInteractionEventLog, EDInteractionLogger, EDMessageAuthenticator, EDMessageCategorizer, EDMessagePersistence, NSString;
-@protocol EDAccountsProvider;
+@class EDBiomeInteractionEventLog, EDMessagePersistence;
 
 @interface EDCategorySubsystem
 {
     EDMessagePersistence *_messagePersistence;
-    EDInteractionLogger *_interactionLogger;
-    EDCategoryPersistence *_categoryPersistence;
-    EDBusinessPersistence *_businessPersistence;
-    EDMessageCategorizer *_messageCategorizer;
-    EDActivityPersistence *_activityPersistence;
-    EDMessageAuthenticator *_messageAuthenticator;
-    EDBiomeInteractionEventLog *_biomeLog;
-    EDCategoryCoreAnalyticsLogger *_coreAnalyticsLogger;
-    EDCoreAnalyticsBiomeInteractionEventLog *_coreAnalyticsBiomeEventLog;
-    id <EDAccountsProvider> _accountsProvider;
 }
 
 + (id)tð!$@ù³ð1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)JA;
+- (void);
+- (id)rencePhotoMemoryFilter_uso_unknown_entity;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)bytes pointer or zero length provided;
+- (id)SEEMConfiguration;
 - (void);
 - (void);
 - (void);
@@ -46,28 +35,11 @@
 - (void);
 - (id)átð!@ù´ð1Â0@ù
 × ;
-- (id)bleUpgradeStep;
+- (id)EDRemoveRebuildTableUpgradeStep;
 - (void)dataClass(void)_block_invoke;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(readonly, nonatomic) EDActivityPersistence *activityPersistence; // @synthesize activityPersistence=_activityPersistence;
 @property(readonly, nonatomic) EDBiomeInteractionEventLog *biomeLog; // @synthesize biomeLog=_biomeLog;
-@property(readonly, nonatomic) EDBusinessPersistence *businessPersistence; // @synthesize businessPersistence=_businessPersistence;
-@property(readonly, nonatomic) EDCategoryPersistence *categoryPersistence; // @synthesize categoryPersistence=_categoryPersistence;
-@property(readonly, nonatomic) EDCoreAnalyticsBiomeInteractionEventLog *coreAnalyticsBiomeEventLog; // @synthesize coreAnalyticsBiomeEventLog=_coreAnalyticsBiomeEventLog;
-@property(readonly, nonatomic) EDCategoryCoreAnalyticsLogger *coreAnalyticsLogger; // @synthesize coreAnalyticsLogger=_coreAnalyticsLogger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDInteractionLogger *interactionLogger; // @synthesize interactionLogger=_interactionLogger;
-@property(readonly, nonatomic) EDMessageAuthenticator *messageAuthenticator; // @synthesize messageAuthenticator=_messageAuthenticator;
-@property(readonly, nonatomic) EDMessageCategorizer *messageCategorizer; // @synthesize messageCategorizer=_messageCategorizer;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) Class superclass;
 
 @end
 

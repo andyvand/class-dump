@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (const void *);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);

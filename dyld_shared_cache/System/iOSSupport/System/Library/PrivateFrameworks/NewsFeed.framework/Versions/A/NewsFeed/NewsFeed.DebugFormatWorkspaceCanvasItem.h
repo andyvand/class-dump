@@ -7,11 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceCanvasItem
 {
     id identifier;
-    id workspace;
-    id group;
-    id canvas;
-    id device;
-    id state;
 }
 
 @end

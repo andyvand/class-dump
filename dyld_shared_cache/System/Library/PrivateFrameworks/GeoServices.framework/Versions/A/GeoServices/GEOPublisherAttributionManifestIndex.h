@@ -4,59 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOPublisherAttributionManifestIndex
 {
     PBDataReader *_reader;
-    NSMutableArray *_publisherAttributionFiles;
-    NSMutableDictionary *_publisherToFileIndex;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_publisherAttributionFiles:1;
-        unsigned int read_publisherToFileIndex:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)lInstall:(id)arg1;
++ (_Bool)setIsInternalInstall:(id)arg1;
+- (void)ePreparationRequest"16;
+- (void)uture";
+- (void)r";
+- (unsigned int)8;
+- (unsigned long long)ingGrammar"16@?0@"ABCDUnknownProperty"8;
+- (id)knownProperty"8;
+- (unsigned long long)name;
+- (id)s not a valid argument;
+- (id)bitwiseAnd:with: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (unsigned int);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void);
+- (id)recordDeviceInfoWithStreamHandleId:recordDeviceIndicator: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 speakerProfile passed is nil - Bailing out;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)te_anyField"b1};
-- (id)upportedFeatures;
+- (id)_walkingSupportedFeatures;
 - (id)tÐ	|¡è¥§(¨°ì°²´³hµÐ¶·è·Ì¹;
-- (id);
+- (id)drivingSide;
 - (void)yçPªL@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *publisherAttributionFiles;
-@property(retain, nonatomic) NSMutableDictionary *publisherToFileIndex;
 
 @end
 

@@ -7,13 +7,10 @@
 @interface NewsUI2.AggregateAdSegmentProvider
 {
     id needsUpdate;
-    id appConfigurationManager;
-    id aggregateStoreProvider;
-    id readerAdSegmentLastUpdatedKey;
 }
 
 - (id);
-- (void)Data;
+- (void)SportsMastheadTagFeedGroupConfigData;
 
 @end
 

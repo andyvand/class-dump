@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewPropertyAnimator;
+@class UIViewPropertyAnimator;
 
 __attribute__((visibility("hidden")))
 @interface CKBrowserFullscreenRevealAnimationController
 {
     _Bool _presenting;
-    UIViewPropertyAnimator *_ascentDescentAnimator;
 }
 
 - (void);
-- (id);
+- (id)>݋
+;
 - (_Bool);
 - (void);
 - (id);
@@ -24,14 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIViewPropertyAnimator *ascentDescentAnimator; // @synthesize ascentDescentAnimator=_ascentDescentAnimator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPresenting) _Bool presenting; // @synthesize presenting=_presenting;
-@property(readonly) Class superclass;
 
 @end
 

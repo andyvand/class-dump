@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRFindMyDeviceProvider
 {
     id store;
-    id findMyDeviceOperationManager;
 }
 
 @end

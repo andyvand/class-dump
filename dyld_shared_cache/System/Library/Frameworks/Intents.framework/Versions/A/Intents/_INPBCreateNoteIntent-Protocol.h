@@ -7,19 +7,13 @@
 @class _INPBDataString, _INPBIntentMetadata, _INPBNoteContent;
 
 @protocol _INPBCreateNoteIntent
-- (_INPBDataString *);
-- (_INPBNoteContent *)tId;
-- (_Bool)addPairCustomObject: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)termine volume UUID for path '%@', error:%@ /* Error: Ran out of types for this method. */;
 - (void);
+- (_INPBDataString *);
+- (_INPBNoteContent *)endpointId;
+- (_Bool)addPairCustomObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBNoteContent *content;
-@property(retain, nonatomic) _INPBDataString *groupName;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *title;
 @end
 

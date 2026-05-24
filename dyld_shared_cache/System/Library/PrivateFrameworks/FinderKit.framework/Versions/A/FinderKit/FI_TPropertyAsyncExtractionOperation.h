@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_IPropertyValueExtractor;
-
 __attribute__((visibility("hidden")))
 @interface FI_TPropertyAsyncExtractionOperation
 {
     struct TNSWeakPtr<FI_IPropertyValueController> _viewController;
-    FI_IPropertyValueExtractor *_valueExtractor;
-    struct TFENodeVector _nodes;
 }
 
 - (id);
 - (_Bool);
 - (const void *);
-- (id);
+- (id)commandCounter;
 - (id);
 - (void);
 - (void);

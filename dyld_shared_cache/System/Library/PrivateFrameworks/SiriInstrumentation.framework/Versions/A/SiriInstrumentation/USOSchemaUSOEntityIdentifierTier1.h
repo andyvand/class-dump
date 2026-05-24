@@ -6,53 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface USOSchemaUSOEntityIdentifierTier1 : SISchemaInstrumentationMessage
 {
     unsigned int _index;
-    NSString *_value;
-    NSString *_backingAppBundleId;
-    CDStruct_bde79ab9 _has;
-    _Bool _hasValue;
-    _Bool _hasBackingAppBundleId;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)( @9 ;
+- (void)Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_filterPredicate;
+- (_Bool)Z	;
+- (_Bool)s_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m WHERE   m.is_from_me = 1   AND m.is_sent = 0   AND m.error = 0   AND m.item_type = 0   AND m.schedule_type = 0   AND m.ROWID > ? ;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)SiriUODMode;
-- (unsigned int)ionInMs;
-- (id)LaunchesLastTenMinutes;
-- (void)ntsMetadata;
+- (id)deleteSiriUODMode;
+- (unsigned int)deleteOptimizationDurationInMs;
+- (id)_numAppLaunchesLastTenMinutes;
+- (void)topKGSAIntentsMetadata;
 - (void)statementEvaluated.payload.outcome.parameterNotAllowed.value.value.primitive.app.bundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *backingAppBundleId; // @synthesize backingAppBundleId=_backingAppBundleId;
-@property(nonatomic) _Bool hasBackingAppBundleId; // @synthesize hasBackingAppBundleId=_hasBackingAppBundleId;
-@property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
 @property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

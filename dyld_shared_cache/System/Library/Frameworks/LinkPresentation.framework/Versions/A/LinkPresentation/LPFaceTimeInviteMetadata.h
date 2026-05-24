@@ -15,31 +15,24 @@
 
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)participant %@:(id)arg1 %@;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)playing;
 - (id);
 - (id);
 - (void)°! BùHÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

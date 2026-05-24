@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKPeerPaymentIdentityVerificationRequest : PKPeerPaymentWebServiceRequest
 {
     _Bool _devSigned;
-    NSArray *_certificates;
-    NSString *_prerequisiteIdentifier;
-    long long _verificationContext;
 }
 
 - (long long);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(nonatomic) _Bool devSigned; // @synthesize devSigned=_devSigned;
-@property(copy, nonatomic) NSString *prerequisiteIdentifier; // @synthesize prerequisiteIdentifier=_prerequisiteIdentifier;
-@property(nonatomic) long long verificationContext; // @synthesize verificationContext=_verificationContext;
 
 @end
 

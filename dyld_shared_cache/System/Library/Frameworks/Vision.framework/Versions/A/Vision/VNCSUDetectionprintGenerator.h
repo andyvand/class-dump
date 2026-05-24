@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNCSUDetectionprintGenerator : VNDetector
 {
     CSUDetectionPrintNetwork *_network;
-    unsigned int _inputImagePixelFormat;
-    unsigned long long _inputImagePixelWidth;
-    unsigned long long _inputImagePixelHeight;
-    unsigned long long _inputImageMinimumDimension;
 }
 
 + (long long);
@@ -27,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)%;
 - (id);
 - (void)swift;
 

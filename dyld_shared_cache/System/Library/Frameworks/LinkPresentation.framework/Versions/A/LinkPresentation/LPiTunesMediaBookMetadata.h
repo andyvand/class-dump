@@ -6,17 +6,9 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
-
 @interface LPiTunesMediaBookMetadata : LPSpecializationMetadata
 {
     _Bool _hasSpineOnRight;
-    NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_author;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
@@ -24,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,12 +26,12 @@
 - (id);
 - (void);
 - (id);
+- (void)J;
+- (id)%@ object from data;
+- (id)etching PCS data for that record;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)C;
 - (_Bool);
 - (void);
 - (void);
@@ -47,23 +39,10 @@
 - (void);
 - (void);
 - (id);
-- (id)redObject;
+- (id)SharedObject;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasSpineOnRight; // @synthesize hasSpineOnRight=_hasSpineOnRight;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

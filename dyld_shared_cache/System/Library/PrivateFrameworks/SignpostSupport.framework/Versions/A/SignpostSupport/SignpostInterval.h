@@ -11,58 +11,54 @@
 @interface SignpostInterval : SignpostObject
 {
     SignpostEvent *_beginEvent;
-    SignpostEvent *_endEvent;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
-- (float);
+- (float);
 - (id);
 - (_Bool);
+- (int)P;
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (unsigned long long)= ;
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (int);
 - (int);
 - (id);
-- (_Bool);
+- (long long);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (id)C;
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (int);
-- (int);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)onSeconds;
+- (id)maxDurationSeconds;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_intervalTypeString;
-@property(retain, nonatomic) SignpostEvent *beginEvent; // @synthesize beginEvent=_beginEvent;
-@property(retain, nonatomic) SignpostEvent *endEvent; // @synthesize endEvent=_endEvent;
-@property(readonly, nonatomic) _Bool isSyntheticInterval;
 
 @end
 

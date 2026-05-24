@@ -7,11 +7,6 @@
 @interface AWDCoreRoutineRoadClassItem
 {
     int _percentage;
-    int _roadClass;
-    struct {
-        unsigned int percentage:1;
-        unsigned int roadClass:1;
-    } _has;
 }
 
 - (void);
@@ -25,18 +20,15 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPercentage;
 @property(nonatomic) _Bool hasRoadClass;
-@property(nonatomic) int percentage; // @synthesize percentage=_percentage;
-@property(nonatomic) int roadClass; // @synthesize roadClass=_roadClass;
 
 @end
 

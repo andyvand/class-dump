@@ -5,5 +5,11 @@
 //
 
 @protocol NSTextViewDelegate
+
+@optional
+- (void);
+- (struct _NSRange)9;
+- (void);
+- (void)P;
 @end
 

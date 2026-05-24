@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLFollowUpActionHandler, FLFollowUpController, FLTopLevelViewModel, NSWindow;
+@class FLFollowUpController;
 
 @interface FLFollowUpSystemSettingsController
 {
     FLFollowUpController *_followupController;
-    FLFollowUpActionHandler *_actionHandler;
-    NSWindow *_sheet;
-    NSWindow *_parentWindow;
-    FLTopLevelViewModel *_topLevelViewModel;
 }
 
 + (id);
@@ -27,19 +23,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C3DAnimationManagerContainsSystemTimeBasedAnimation;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)rowid;
+- (void)R;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) FLFollowUpActionHandler *actionHandler; // @synthesize actionHandler=_actionHandler;
 @property(retain, nonatomic) FLFollowUpController *followupController; // @synthesize followupController=_followupController;
-@property(retain, nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(retain, nonatomic) NSWindow *sheet; // @synthesize sheet=_sheet;
-@property(retain, nonatomic) FLTopLevelViewModel *topLevelViewModel; // @synthesize topLevelViewModel=_topLevelViewModel;
 
 @end
 

@@ -13,18 +13,18 @@
     NSString *_importSessionID;
 }
 
++ (id);
++ (id)getCachedUserTokenForDeveloperToken:requestContext:completion: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id)e;
++ (id)_firstSyncCompletionDate;
 + (_Bool)<}Ü~ì~;
 + (id);
 - (id);
 - (id);
 - (id);
-- (void)sIgnoreiTunes: /* Error: Ran out of types for this method. */;
+- (void)syncProgressAlbumsIgnoreiTunes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *importSessionID; // @synthesize importSessionID=_importSessionID;

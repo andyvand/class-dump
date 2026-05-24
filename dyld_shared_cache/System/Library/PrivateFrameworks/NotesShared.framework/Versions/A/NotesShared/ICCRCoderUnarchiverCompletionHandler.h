@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ICCRCoderUnarchiverCompletionHandler
 {
     CDUnknownBlockType block;
-    id dependency;
-    id value;
 }
 
 - (void);
@@ -22,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block;
-@property(nonatomic) __weak id dependency; // @synthesize dependency;
-@property(nonatomic) __weak id value; // @synthesize value;
 
 @end
 

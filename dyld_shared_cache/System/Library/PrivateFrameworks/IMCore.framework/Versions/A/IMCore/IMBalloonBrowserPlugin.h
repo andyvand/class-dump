@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)sage encryption is enabled but remote participant '%@' sends un-encrypted messages. Dropping un-encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!);
+- (id)s] %s:(id)arg1 %d addStreamOutput for type audio error=%@;
+- (id)StreamOutput for type screen error=%@;
+- (id)_screenStream=%@;
 - (id);
 
 @end

@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/NUChannelData.h>
 
-@class NSString, NUChannel;
+@class NSString;
 
 @interface NUChannelElementData : NUChannelData
 {
     NSString *_dataIdentifier;
-    NUChannelElementData *_parentData;
-    NUChannel *_channel;
 }
 
 - (id);
@@ -28,9 +26,7 @@
 - (void)6^q24o^@32;
 
 // Remaining properties
-@property(readonly, nonatomic) NUChannel *channel; // @synthesize channel=_channel;
 @property(readonly, copy, nonatomic) NSString *dataIdentifier; // @synthesize dataIdentifier=_dataIdentifier;
-@property(readonly, nonatomic) NUChannelElementData *parentData; // @synthesize parentData=_parentData;
 
 @end
 

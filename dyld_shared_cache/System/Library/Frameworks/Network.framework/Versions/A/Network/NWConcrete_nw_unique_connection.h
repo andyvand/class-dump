@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NWConcrete_nw_connection;
+@class NSObject;
 @protocol OS_nw_endpoint;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_unique_connection
 {
     NSObject<OS_nw_endpoint> *endpoint;
-    char service[436];
-    unsigned long long receivedSequenceNumber;
-    unsigned long long uniqueID;
-    unsigned char uuid[16];
-    NWConcrete_nw_connection *connection;
-    int dupedSocketFD;
-    unsigned int isIncoming:1;
-    unsigned int usesASQUIC:1;
 }
 
-- (void);
+- (void)CUIShapeEffectInnerGlow;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSString;
+@class NSBundle;
 
 @interface BSPluginManager
 {
     NSBundle *_bundle;
-    NSString *_pluginDirectory;
-    NSArray *_pluginBundles;
 }
 
 + (id);
@@ -18,15 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)4;
 
 // Remaining properties
 @property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, copy, nonatomic) NSArray *pluginBundles; // @synthesize pluginBundles=_pluginBundles;
-@property(readonly, copy, nonatomic) NSString *pluginDirectory; // @synthesize pluginDirectory=_pluginDirectory;
 
 @end
 

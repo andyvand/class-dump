@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPNFCAccessDeviceCredentialKeyRequest, HAPNFCAccessDeviceCredentialKeyResponse, HAPNFCAccessIssuerKeyRequest, HAPNFCAccessIssuerKeyResponse, HAPNFCAccessOperationTypeWrapper, HAPNFCAccessReaderKeyRequest, HAPNFCAccessReaderKeyResponse, NSString;
+@class HAPNFCAccessOperationTypeWrapper;
 
 @interface HAPNFCAccessControl
 {
     HAPNFCAccessOperationTypeWrapper *_operationType;
-    HAPNFCAccessIssuerKeyRequest *_issuerKeyRequest;
-    HAPNFCAccessIssuerKeyResponse *_issuerKeyResponse;
-    HAPNFCAccessDeviceCredentialKeyRequest *_deviceCredentialKeyRequest;
-    HAPNFCAccessDeviceCredentialKeyResponse *_deviceCredentialKeyResponse;
-    HAPNFCAccessReaderKeyRequest *_readerKeyRequest;
-    HAPNFCAccessReaderKeyResponse *_readerKeyResponse;
 }
 
 + (id);
@@ -29,33 +23,20 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)4W;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)@0:(id)arg1 8I16;
 - (_Bool);
 - (id);
 - (id);
 - (void)***Q*Q}*Qi*QCQCi}CiC*QQQ[1000C]*^{?}*Q[2{iovec=^vQ}]^{iovec}iQiii^v^v^v^v^v^v^?^?@?iCq*iQI*}16@?24;
-- (void)cs:(id)arg1;
+- (void)groupingsForReadRequestsForCharacteristics:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPNFCAccessDeviceCredentialKeyRequest *deviceCredentialKeyRequest; // @synthesize deviceCredentialKeyRequest=_deviceCredentialKeyRequest;
-@property(retain, nonatomic) HAPNFCAccessDeviceCredentialKeyResponse *deviceCredentialKeyResponse; // @synthesize deviceCredentialKeyResponse=_deviceCredentialKeyResponse;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPNFCAccessIssuerKeyRequest *issuerKeyRequest; // @synthesize issuerKeyRequest=_issuerKeyRequest;
-@property(retain, nonatomic) HAPNFCAccessIssuerKeyResponse *issuerKeyResponse; // @synthesize issuerKeyResponse=_issuerKeyResponse;
 @property(retain, nonatomic) HAPNFCAccessOperationTypeWrapper *operationType; // @synthesize operationType=_operationType;
-@property(retain, nonatomic) HAPNFCAccessReaderKeyRequest *readerKeyRequest; // @synthesize readerKeyRequest=_readerKeyRequest;
-@property(retain, nonatomic) HAPNFCAccessReaderKeyResponse *readerKeyResponse; // @synthesize readerKeyResponse=_readerKeyResponse;
-@property(readonly) Class superclass;
 
 @end
 

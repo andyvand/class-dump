@@ -5,5 +5,8 @@
 //
 
 @protocol AVCaptureAudioDataOutputSampleBufferDelegate_Tundra
+
+@optional
+- (void)de",W,N,V_prev;
 @end
 

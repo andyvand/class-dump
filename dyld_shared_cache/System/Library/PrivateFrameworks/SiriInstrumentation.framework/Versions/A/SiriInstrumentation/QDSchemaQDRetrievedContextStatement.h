@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, QDSchemaQDEntityType, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface QDSchemaQDRetrievedContextStatement : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sessionScopedUniqueId;
-    int _contextType;
-    QDSchemaQDEntityType *_valueType;
-    struct {
-        unsigned int contextType:1;
-    } _has;
-    _Bool _hasSessionScopedUniqueId;
-    _Bool _hasValueType;
 }
 
 - (void);
@@ -29,32 +22,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)UMacControllerPreferences] Found value for DeviceReleaseType:(id)arg1 %{public}@;
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)@C;
+- (void)__objc_stubs;
 - (int);
-- (unsigned long long);
+- (unsigned long long)ts/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppClusterMapping_macOS.m:40 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)NSFontAttributeName;
+- (id);
 - (id);
 - (void)lysisEnabled"b1};
-- (id)ction;
+- (id)_ueiDictationVoiceCommandUndoTapAction;
 - (id)biguationsLastOneHour;
 - (void)createSessionContext;
 
 // Remaining properties
-@property(nonatomic) int contextType; // @synthesize contextType=_contextType;
-@property(nonatomic) _Bool hasContextType;
-@property(nonatomic) _Bool hasSessionScopedUniqueId; // @synthesize hasSessionScopedUniqueId=_hasSessionScopedUniqueId;
-@property(nonatomic) _Bool hasValueType; // @synthesize hasValueType=_hasValueType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *sessionScopedUniqueId; // @synthesize sessionScopedUniqueId=_sessionScopedUniqueId;
-@property(retain, nonatomic) QDSchemaQDEntityType *valueType; // @synthesize valueType=_valueType;
 
 @end
 

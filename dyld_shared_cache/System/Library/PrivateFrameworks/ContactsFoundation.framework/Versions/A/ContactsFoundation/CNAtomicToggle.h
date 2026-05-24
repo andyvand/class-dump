@@ -14,7 +14,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ble:(_Bool)arg1;
+- (id)addCancelable:(_Bool)arg1;
 
 @end
 

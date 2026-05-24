@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString, PXAppleMusicAsset;
+@class PXAppleMusicAsset;
 
 @interface PXAppleMusicArtworkAsset
 {
@@ -13,7 +13,7 @@
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (long long);
@@ -23,12 +23,12 @@
 - (struct CGRect);
 - (unsigned long long);
 - (_Bool);
-- (long long);
+- (long long);
 - (float);
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (long long);
 - (id);
@@ -36,128 +36,14 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)edLayouts: /* Error: Ran out of types for this method. */;
-- (id)llectionList:(struct _NSZone *)arg1 movedObjects:targetObject: /* Error: Ran out of types for this method. */;
-- (_Bool)ayback;
+- (_Bool)setQualifiedLayouts: /* Error: Ran out of types for this method. */;
+- (id)initWithCollectionList:(struct _NSZone *)arg1 movedObjects:targetObject: /* Error: Ran out of types for this method. */;
+- (_Bool)_prefersExportLayoutMatchesPlayback;
 - (id)µ§;
 - (void)LemonadeSheetConfiguration;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect acceptableCropRect;
-@property(readonly, nonatomic) double aspectRatio;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) float audioScore;
-@property(readonly, nonatomic) unsigned long long burstSelectionTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) long long compactSCSensitivityAnalysis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) Class defaultImageProviderClass;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) struct CGRect faceAreaRect;
-@property(readonly, nonatomic, getter=isFavorite) _Bool favorite;
-@property(readonly, nonatomic) NSData *fetchColorNormalizationData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) NSNumber *focalLength;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,R,N
-
-@property(readonly, nonatomic) NSNumber *focalLengthIn35mm;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,R,N
-
-@property(readonly, nonatomic) _Bool hasPeopleSceneMidOrGreaterConfidence;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *hdrGain;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,R,N
-
-@property(readonly, nonatomic) NSDate *importDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,N
-
-@property(readonly, nonatomic) _Bool isAutoPlaybackEligibilityEstimated;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isContentAnalyzedAsPreviewable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isEligibleForAutoPlayback;
-@property(readonly, nonatomic) _Bool isInCloud;
-@property(readonly, nonatomic) _Bool isInSharedLibrary;
-@property(readonly, nonatomic) _Bool isSpatialMedia;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSpatialPresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) CDStruct_1b6d18a9 livePhotoStillDisplayTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{?=qiIq},?,R,N
-
-@property(readonly, nonatomic) CDStruct_1b6d18a9 livePhotoVideoDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{?=qiIq},?,R,N
-
-@property(readonly, nonatomic) NSDate *localCreationDate;
-@property(readonly, nonatomic) NSString *localizedGeoDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) unsigned long long mediaSubtypes;
-@property(readonly, nonatomic) long long mediaType;
 @property(readonly, nonatomic) PXAppleMusicAsset *musicAsset; // @synthesize musicAsset=_musicAsset;
-@property(readonly, nonatomic) _Bool needsSensitivityProtection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long originalFileSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) unsigned long long pixelHeight;
-@property(readonly, nonatomic) unsigned long long pixelWidth;
-@property(readonly, nonatomic) long long playbackStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) unsigned short playbackVariation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TS,?,R,N
-
-@property(readonly, nonatomic) struct CGRect preferredCropRect;
-@property(readonly, nonatomic) _Bool representsBurst;
-@property(readonly, nonatomic) unsigned long long sensitivityAnalysisState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long thumbnailIndex;
-@property(readonly, nonatomic) unsigned long long thumbnailVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) NSString *uuid;
 
 @end
 

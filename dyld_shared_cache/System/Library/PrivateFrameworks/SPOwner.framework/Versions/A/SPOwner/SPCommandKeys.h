@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDateInterval, NSString, SPBeaconingKey;
+@class SPBeaconingKey;
 
 @interface SPCommandKeys
 {
     SPBeaconingKey *_beaconingKey;
-    NSData *_commandKey;
-    NSData *_connectionToken;
-    NSData *_nearbyToken;
 }
 
 + (_Bool);
@@ -28,24 +25,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)AlwaysTTRForClientState;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *address;
 @property(copy, nonatomic) SPBeaconingKey *beaconingKey; // @synthesize beaconingKey=_beaconingKey;
-@property(copy, nonatomic) NSData *commandKey; // @synthesize commandKey=_commandKey;
-@property(copy, nonatomic) NSData *connectionToken; // @synthesize connectionToken=_connectionToken;
-@property(readonly, copy, nonatomic) NSDateInterval *dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *nearbyToken; // @synthesize nearbyToken=_nearbyToken;
-@property(readonly) Class superclass;
 
 @end
 

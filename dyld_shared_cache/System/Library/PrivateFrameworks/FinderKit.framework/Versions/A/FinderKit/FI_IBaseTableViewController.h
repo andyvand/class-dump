@@ -12,19 +12,16 @@ __attribute__((visibility("hidden")))
 @interface FI_IBaseTableViewController : FI_TViewController
 {
     NSObjectController *_dataSource;
-    NSIndexSet *_columnIndexesToResizeToFitContents;
-    TNSWeakPtr_db0eab6c _updateColumnWidthsToFitContentsToken;
-    struct TKeyValueObserver _arrangedObjectsObserver;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (Class);
 - (id);
-- (void);
+- (void)setAttributedSearchText: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

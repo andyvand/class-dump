@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPStreamingAssetIdentifier, CKDPStreamingAssetRetrieveAssetResponse, CKDPStreamingAssetSaveAssetRequest, CKDPStreamingAssetSaveAssetResponse;
+@class CKDPStreamingAssetIdentifier;
 
 @interface CKDPStreamingAsset
 {
     CKDPStreamingAssetIdentifier *_assetId;
-    CKDPStreamingAssetRetrieveAssetResponse *_retrieveAssetResponse;
-    CKDPStreamingAssetSaveAssetRequest *_saveAssetRequest;
-    CKDPStreamingAssetSaveAssetResponse *_saveAssetResponse;
 }
 
 - (void);
@@ -28,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)APSNetworkClockRef, CFDictionaryRef, FigEndpointStreamAudioEngineRef *);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,14 +35,7 @@
 - (void)d;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPStreamingAssetIdentifier *assetId; // @synthesize assetId=_assetId;
 @property(readonly, nonatomic) _Bool hasAssetId;
-@property(readonly, nonatomic) _Bool hasRetrieveAssetResponse;
-@property(readonly, nonatomic) _Bool hasSaveAssetRequest;
-@property(readonly, nonatomic) _Bool hasSaveAssetResponse;
-@property(retain, nonatomic) CKDPStreamingAssetRetrieveAssetResponse *retrieveAssetResponse; // @synthesize retrieveAssetResponse=_retrieveAssetResponse;
-@property(retain, nonatomic) CKDPStreamingAssetSaveAssetRequest *saveAssetRequest; // @synthesize saveAssetRequest=_saveAssetRequest;
-@property(retain, nonatomic) CKDPStreamingAssetSaveAssetResponse *saveAssetResponse; // @synthesize saveAssetResponse=_saveAssetResponse;
 
 @end
 

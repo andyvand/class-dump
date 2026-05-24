@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, TIInputContextHistory;
+@class NSEvent;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextSmartReplyLastClosedContext
 {
     NSEvent *_event;
-    TIInputContextHistory *_history;
-    double _releaseTimestamp;
-    long long _dismissType;
 }
 
 - (void);
 - (void);
-- (double);
+- (double)HasBaseband;
 - (id);
 - (_Bool);
 - (long long);
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)ü²@;
 
 // Remaining properties
-@property(nonatomic) long long dismissType; // @synthesize dismissType=_dismissType;
 @property(copy, nonatomic) NSEvent *event; // @synthesize event=_event;
-@property(copy, nonatomic) TIInputContextHistory *history; // @synthesize history=_history;
-@property(nonatomic) double releaseTimestamp; // @synthesize releaseTimestamp=_releaseTimestamp;
 
 @end
 

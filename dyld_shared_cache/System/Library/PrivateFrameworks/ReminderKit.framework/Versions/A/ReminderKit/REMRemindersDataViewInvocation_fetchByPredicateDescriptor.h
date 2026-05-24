@@ -6,21 +6,19 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSArray, REMReminderFetchOptions, REMReminderPredicateDescriptor;
+@class REMReminderPredicateDescriptor;
 
 @interface REMRemindersDataViewInvocation_fetchByPredicateDescriptor : REMStoreInvocation
 {
     REMReminderPredicateDescriptor *_predicateDescriptor;
-    NSArray *_sortDescriptors;
-    REMReminderFetchOptions *_options;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)8B;
+- (id)@;
 - (id);
 - (_Bool);
 - (void);
@@ -29,9 +27,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) REMReminderFetchOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) REMReminderPredicateDescriptor *predicateDescriptor; // @synthesize predicateDescriptor=_predicateDescriptor;
-@property(readonly, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

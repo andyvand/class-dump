@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSafariPageViewEvent
 {
     double _absoluteTimestamp;
-    NSString *_content;
-    NSString *_contentProtection;
-    NSString *_domainId;
-    NSString *_personaId;
-    NSString *_title;
-    NSString *_uniqueId;
-    NSString *_url;
-    _Bool _contentIsReaderText;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int contentIsReaderText:1;
-    } _has;
 }
 
 - (void);
@@ -29,9 +15,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)!;
+- (void)dA
+AaA;
+- (void)thError:(id)arg1 ];
 - (_Bool);
 - (id);
 - (id);
@@ -65,24 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(nonatomic) _Bool contentIsReaderText; // @synthesize contentIsReaderText=_contentIsReaderText;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(nonatomic) _Bool hasContentIsReaderText;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasDomainId;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasUniqueId;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
-@property(retain, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

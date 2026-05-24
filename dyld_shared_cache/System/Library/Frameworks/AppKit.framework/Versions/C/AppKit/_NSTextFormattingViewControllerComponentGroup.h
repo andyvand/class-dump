@@ -20,7 +20,7 @@
 × ;
 - (void)!Eùñá3ð1Â0@ù
 × ;
-- (id)originalAttributes: /* Error: Ran out of types for this method. */;
+- (id)_fetchPreferredAttributesInView:originalAttributes: /* Error: Ran out of types for this method. */;
 - (id)_buttonCell;
 - (void)ßu<nE;
 

@@ -6,21 +6,17 @@
 
 #import <DaemonUtils/Request.h>
 
-@class LACClientInfo, NSDictionary, NSNumber, NSString, NSUUID;
+@class LACClientInfo;
 @protocol LACXPCClient;
 
 @interface DomainStateRequest : Request
 {
     id <LACXPCClient> _client;
-    LACClientInfo *_clientInfo;
-    NSUUID *_contextID;
-    unsigned long long _originatorId;
-    NSDictionary *_options;
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)setValidSuffixes: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -30,20 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <LACXPCClient> client; // @synthesize client=_client;
 @property(retain, nonatomic) LACClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, nonatomic) NSUUID *contextID; // @synthesize contextID=_contextID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int identifier;
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic) unsigned long long originatorId; // @synthesize originatorId=_originatorId;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSNumber *userID;
 
 @end
 

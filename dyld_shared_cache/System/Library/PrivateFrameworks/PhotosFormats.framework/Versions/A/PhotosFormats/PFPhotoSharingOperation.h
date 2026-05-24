@@ -4,53 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSError, NSObject, NSString, NSURL, PFAssetAdjustments;
+@class NSObject, NSURL;
 @protocol OS_dispatch_queue;
 
 @interface PFPhotoSharingOperation
 {
     NSObject<OS_dispatch_queue> *_externalIsolation;
-    NSError *_operationError;
-    _Bool _operationComplete;
-    _Bool _operationSuccess;
-    _Bool _shouldStripLocation;
-    _Bool _shouldStripCaption;
-    _Bool _shouldStripAccessibilityDescription;
-    _Bool _shouldConvertToSRGB;
-    _Bool _shouldStripMetadata;
-    NSURL *_outputDirectoryURL;
-    NSString *_outputFilename;
-    CLLocation *_customLocation;
-    NSDate *_customDate;
-    NSString *_customCaption;
-    NSString *_customAccessibilityLabel;
-    NSURL *_imageURL;
-    NSURL *_resultingFileURL;
-    PFAssetAdjustments *__adjustments;
 }
 
 + (id);
 + (_Bool);
+- (_Bool)ework/Versions/A/CoreSpotlight;
+- (_Bool)framework/Versions/A/CoreServices;
+- (void);
+- (void);
+- (void);
+- (id)vImageBuffer;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,8 +41,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)led; pre-transformation GetFullStateEstimate() failed.;
 - (float);
 - (_Bool);
 - (void);
@@ -67,23 +50,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAdjustments:) PFAssetAdjustments *_adjustments; // @synthesize _adjustments=__adjustments;
-@property(copy, nonatomic) NSString *customAccessibilityLabel; // @synthesize customAccessibilityLabel=_customAccessibilityLabel;
-@property(copy, nonatomic) NSString *customCaption; // @synthesize customCaption=_customCaption;
-@property(copy, nonatomic) NSDate *customDate; // @synthesize customDate=_customDate;
-@property(copy, nonatomic) CLLocation *customLocation; // @synthesize customLocation=_customLocation;
 @property(copy, nonatomic, setter=_setImageURL:) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, nonatomic) NSError *operationError;
-@property(copy, nonatomic) NSURL *outputDirectoryURL; // @synthesize outputDirectoryURL=_outputDirectoryURL;
-@property(copy, nonatomic) NSString *outputFilename; // @synthesize outputFilename=_outputFilename;
-@property(readonly, nonatomic) float progress;
-@property(readonly, copy, nonatomic) NSURL *resultingFileURL; // @synthesize resultingFileURL=_resultingFileURL;
-@property(nonatomic) _Bool shouldConvertToSRGB; // @synthesize shouldConvertToSRGB=_shouldConvertToSRGB;
-@property(nonatomic) _Bool shouldStripAccessibilityDescription; // @synthesize shouldStripAccessibilityDescription=_shouldStripAccessibilityDescription;
-@property(nonatomic) _Bool shouldStripCaption; // @synthesize shouldStripCaption=_shouldStripCaption;
-@property(nonatomic) _Bool shouldStripLocation; // @synthesize shouldStripLocation=_shouldStripLocation;
-@property(nonatomic) _Bool shouldStripMetadata; // @synthesize shouldStripMetadata=_shouldStripMetadata;
-@property(readonly, nonatomic) _Bool success;
 
 @end
 

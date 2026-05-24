@@ -12,18 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileToModalTransitionOverlayWindow : _NSFullScreenTileResizeCrossfadeOverlayWindow
 {
     CALayer *_tabHeaderLayer;
-    CALayer *_tabHeaderBackgroundLayer;
-    CALayer *_afterTabBarBackgroundLayer;
-    CALayer *_afterTabBarDividerLayer;
-    struct CGRect _remainingTileStartingFrame;
-    struct CGRect _tabBarScreenRect;
-    struct CGRect _tileToolbarStartingFrame;
-    struct CGRect _tabWindowScreenRect;
 }
 
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);

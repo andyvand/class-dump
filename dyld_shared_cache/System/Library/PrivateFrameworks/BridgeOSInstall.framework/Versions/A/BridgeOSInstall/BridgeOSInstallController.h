@@ -23,7 +23,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)topHitCandidacyThresholdingForAppSection:(id)arg1;
 - (void);
 
 // Remaining properties

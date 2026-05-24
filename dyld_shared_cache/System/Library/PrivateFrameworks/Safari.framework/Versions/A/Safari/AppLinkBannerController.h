@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppLinkBanner, NSString, WBSAppLink;
+@class AppLinkBanner, WBSAppLink;
 
 __attribute__((visibility("hidden")))
 @interface AppLinkBannerController
 {
     AppLinkBanner *_appLinkBanner;
-    WBSAppLink *_appLink;
 }
 
 - (id);
@@ -23,13 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) WBSAppLink *appLink; // @synthesize appLink=_appLink;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

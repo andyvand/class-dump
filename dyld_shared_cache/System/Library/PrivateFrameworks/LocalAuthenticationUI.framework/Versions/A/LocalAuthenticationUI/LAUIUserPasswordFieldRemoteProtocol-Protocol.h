@@ -5,5 +5,10 @@
 //
 
 @protocol LAUIUserPasswordFieldRemoteProtocol
+- (void)4;
+
+@optional
+- (void);
+- (void)A;
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol CRKCardViewControllerDelegate
+
+@optional
+- (_Bool);
+- (_Bool)C;
+- (void);
 @end
 

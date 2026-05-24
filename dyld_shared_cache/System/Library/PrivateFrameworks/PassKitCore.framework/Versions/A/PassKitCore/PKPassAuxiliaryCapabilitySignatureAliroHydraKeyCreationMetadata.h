@@ -6,31 +6,27 @@
 
 #import <PassKitCore/PKPassAuxiliaryCapabilityKeyCreationMetadata.h>
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface PKPassAuxiliaryCapabilitySignatureAliroHydraKeyCreationMetadata : PKPassAuxiliaryCapabilityKeyCreationMetadata
 {
     NSData *_readerGroupIdentifier;
-    NSData *_readerGroupPublicKey;
-    NSDictionary *_serverParameters;
 }
 
 + (_Bool);
+- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
+- (void)NW_L2_RADIO_TECHNOLOGY_TYPE_WIFITURBOG;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)sts;
+- (id)allowsPaymentRequests;
 - (void)ethodPass, PKPassSharingMethodURL;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *readerGroupIdentifier; // @synthesize readerGroupIdentifier=_readerGroupIdentifier;
-@property(readonly, nonatomic) NSData *readerGroupPublicKey; // @synthesize readerGroupPublicKey=_readerGroupPublicKey;
-@property(readonly, nonatomic) NSDictionary *serverParameters; // @synthesize serverParameters=_serverParameters;
 
 @end
 

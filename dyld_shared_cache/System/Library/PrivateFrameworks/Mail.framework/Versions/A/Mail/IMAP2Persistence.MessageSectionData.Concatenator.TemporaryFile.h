@@ -7,7 +7,6 @@
 @interface IMAP2Persistence.MessageSectionData.Concatenator.TemporaryFile
 {
     id fd;
-    id count;
 }
 
 @end

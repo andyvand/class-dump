@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAsset, NSMutableArray;
+@class CKDPAsset;
 
 @interface CKDPPackage
 {
     CKDPAsset *_manifest;
-    NSMutableArray *_sections;
 }
 
 + (Class);
@@ -17,9 +16,9 @@
 - (void);
 - (id);
 - (id);
+- (void)serializedHPKEWithData:(id)arg1 publicKey:scheme:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_createTargetVBROptions_block_invoke;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasManifest;
-@property(retain, nonatomic) CKDPAsset *manifest; // @synthesize manifest=_manifest;
-@property(retain, nonatomic) NSMutableArray *sections; // @synthesize sections=_sections;
 
 @end
 

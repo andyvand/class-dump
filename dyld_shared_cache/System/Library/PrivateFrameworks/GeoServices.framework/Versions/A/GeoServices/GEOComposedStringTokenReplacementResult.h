@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
-
 @interface GEOComposedStringTokenReplacementResult
 {
     _Bool success;
-    int type;
-    NSString *string;
-    NSAttributedString *attributedString;
-    struct _NSRange range;
 }
 
-- (id);
-- (int);
-- (struct _NSRange);
-- (id)playRemainingTimeToDestination:(struct _NSZone *)arg1;
+- (id)h;
+- (int)_setRequiresSystemGesturesToFail: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)update for %@ <muid:%llu> (isActive:%s, date:%@) /* Error: Ran out of types for this method. */;
+- (id)setDisplayRemainingTimeToDestination:(struct _NSZone *)arg1;
 - (id) ¤HØ8 !À#X$x%	h)+l/;
 - (_Bool)AõL/1ëO@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(readonly, nonatomic) NSString *string;
 @property(readonly, nonatomic) _Bool success;
-@property(readonly, nonatomic) int type;
 
 @end
 

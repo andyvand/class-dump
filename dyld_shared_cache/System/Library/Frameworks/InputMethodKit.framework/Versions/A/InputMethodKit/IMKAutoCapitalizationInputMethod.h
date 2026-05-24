@@ -9,22 +9,18 @@
 @interface IMKAutoCapitalizationInputMethod : IMKAbstractInputMethod
 {
     unsigned int _lastAutoCapCharacter;
-    _Bool _previousPressedKeyWasShift;
-    _Bool _shiftLocked;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (_Bool)ticRange: /* Error: Ran out of types for this method. */;
+- (_Bool)markChromaticRange: /* Error: Ran out of types for this method. */;
 - (void)ì';
 
 // Remaining properties
 @property(nonatomic) unsigned int lastAutoCapCharacter; // @synthesize lastAutoCapCharacter=_lastAutoCapCharacter;
-@property(nonatomic) _Bool previousPressedKeyWasShift; // @synthesize previousPressedKeyWasShift=_previousPressedKeyWasShift;
-@property(nonatomic, getter=isShiftLocked) _Bool shiftLocked; // @synthesize shiftLocked=_shiftLocked;
 
 @end
 

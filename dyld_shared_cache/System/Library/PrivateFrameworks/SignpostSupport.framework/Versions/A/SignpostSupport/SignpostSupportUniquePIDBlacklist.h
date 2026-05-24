@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)le Factory Debug to fuse.;
 
 @end
 

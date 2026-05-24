@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDDeviceAndUsageAppTaskCounts : SISchemaInstrumentationMessage
 {
     unsigned int _completedSiriAppTaskCount;
-    unsigned int _failedSiriAppTaskCount;
-    unsigned int _cancelledSiriAppTaskCount;
-    unsigned int _completedUIAppTaskCount;
-    struct {
-        unsigned int completedSiriAppTaskCount:1;
-        unsigned int failedSiriAppTaskCount:1;
-        unsigned int cancelledSiriAppTaskCount:1;
-        unsigned int completedUIAppTaskCount:1;
-    } _has;
 }
 
 - (void);
@@ -31,19 +20,19 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (unsigned int)R";
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void)%;
 - (void);
 - (id);
-- (void);
+- (void)3kmXfug8VcxLI5yEmsqQKw;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -51,18 +40,10 @@
 - (id)¡r°!´FùqÞ°1Â0@ù
 × ;
 - (id)_acousticCost;
-- (id)sUsed;
+- (id)_isUsed;
 
 // Remaining properties
-@property(nonatomic) unsigned int cancelledSiriAppTaskCount; // @synthesize cancelledSiriAppTaskCount=_cancelledSiriAppTaskCount;
 @property(nonatomic) unsigned int completedSiriAppTaskCount; // @synthesize completedSiriAppTaskCount=_completedSiriAppTaskCount;
-@property(nonatomic) unsigned int completedUIAppTaskCount; // @synthesize completedUIAppTaskCount=_completedUIAppTaskCount;
-@property(nonatomic) unsigned int failedSiriAppTaskCount; // @synthesize failedSiriAppTaskCount=_failedSiriAppTaskCount;
-@property(nonatomic) _Bool hasCancelledSiriAppTaskCount;
-@property(nonatomic) _Bool hasCompletedSiriAppTaskCount;
-@property(nonatomic) _Bool hasCompletedUIAppTaskCount;
-@property(nonatomic) _Bool hasFailedSiriAppTaskCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

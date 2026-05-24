@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SearchState
 {
     NSString *_query;
-    NSURL *_resultURL;
-    NSDate *_searchDate;
-    NSArray *_parsecSearchResults;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *parsecSearchResults; // @synthesize parsecSearchResults=_parsecSearchResults;
 @property(readonly, copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) NSURL *resultURL; // @synthesize resultURL=_resultURL;
-@property(readonly, nonatomic) NSDate *searchDate; // @synthesize searchDate=_searchDate;
 
 @end
 

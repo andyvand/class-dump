@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
-
 @interface _MKGradientView
 {
     _Bool _shouldReduceTransparency;
-    UIColor *_accessibilityColor;
-    NSArray *_colors;
-    NSArray *_locations;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
 }
 
 + (Class);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct CGPoint);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id)P;
 - (void);
 - (struct CGPoint);
-- (void)imaryButtonHighlightedColor;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)Y;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (void)headerPrimaryButtonHighlightedColor;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *accessibilityColor; // @synthesize accessibilityColor=_accessibilityColor;
-@property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(nonatomic) struct CGPoint endPoint; // @synthesize endPoint=_endPoint;
-@property(copy, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 @property(nonatomic) _Bool shouldReduceTransparency; // @synthesize shouldReduceTransparency=_shouldReduceTransparency;
-@property(nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
 
 @end
 

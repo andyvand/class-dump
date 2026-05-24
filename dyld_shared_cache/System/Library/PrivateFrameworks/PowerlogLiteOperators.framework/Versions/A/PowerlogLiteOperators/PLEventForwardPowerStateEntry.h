@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PLEventForwardPowerStateEntry
 {
 }
 
 + (id);
-+ (void)s;
++ (void)PMPPerfDrivers;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (short);
 - (short);
 
 // Remaining properties
-@property(readonly) short event;
-@property(readonly) _Bool isBasebandWake;
-@property(readonly) NSArray *reason;
 @property(readonly) short state;
 
 @end

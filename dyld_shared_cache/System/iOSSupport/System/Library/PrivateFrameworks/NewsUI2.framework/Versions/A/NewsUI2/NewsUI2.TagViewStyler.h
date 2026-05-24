@@ -7,7 +7,6 @@
 @interface NewsUI2.TagViewStyler
 {
     id headlineFontMetrics;
-    id subtitleFontMetrics;
 }
 
 @end

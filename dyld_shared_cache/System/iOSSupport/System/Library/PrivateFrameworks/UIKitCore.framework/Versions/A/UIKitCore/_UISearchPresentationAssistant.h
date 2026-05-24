@@ -4,67 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDimmingView, UIPresentationController, UIView;
-@protocol UIViewControllerTransitionCoordinator, _UISearchControllerPresenting;
+@class UIPresentationController;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchPresentationAssistant
 {
     UIPresentationController *_searchPresentationController;
-    UIView *_searchBarContainerView;
-    UIDimmingView *_dimmingView;
-    _Bool _isFormSheetPresentation;
-    _Bool _presentationWasAnimated;
-    UIPresentationController<_UISearchControllerPresenting> *_adaptivePresentationController;
-    id <UIViewControllerTransitionCoordinator> _transitioningToSizeCoordinator;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double)CEMSystemDiskRecordingDeclaration;
 - (id);
 - (struct CGRect);
 - (struct CGRect);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)__max_load_factor_"f}}};
 - (void);
 - (_Bool)Bù±_1Â0@ù
 × ;
 - (id)0@ù
 × ;
-- (void)Frame:(id)arg1 andShiftKeys:scale: /* Error: Ran out of types for this method. */;
-- (_Bool)ntation:animated: /* Error: Ran out of types for this method. */;
-- (id)rmat:precomposed: /* Error: Ran out of types for this method. */;
+- (void)insertKey:(id)arg1 withFrame:andShiftKeys:scale: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateToInterfaceOrientation:animated: /* Error: Ran out of types for this method. */;
+- (id)_applicationIconImageForFormat:precomposed: /* Error: Ran out of types for this method. */;
 - (id)dBeginHandler;
 - (struct CGSize)É;
 - (double)writeAnalytics for sessionIdentifier=%@;
 - (_Bool);
 - (void);
-- (_Bool)icePhotos;
-- (_Bool)ator;
+- (_Bool)kTCCServicePhotos;
+- (_Bool)UIShowsHorizontalScrollIndicator;
 - (void)UIPointerShape"8@?0;
-- (void)heetsTearable;
+- (void)MakeAllSheetsTearable;
 - (void)p for %@ of row at index path %@;
-- (double)ss;
-- (id)TraitTokenProtocol_p;
-- (id)ortC;
+- (double)UIProgress;
+- (id)So28_UICGFloatTraitTokenProtocol_p;
+- (id)So37_UITextViewAnimatedPlaceholderSupportC;
 - (id)´Ãþ	13ÀÃþ;
-- (_Bool)ChangeMessage;
+- (_Bool)InvertColorsStatusDidChangeMessage;
 
 // Remaining properties
-@property(nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController; // @synthesize adaptivePresentationController=_adaptivePresentationController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool presentationWasAnimated; // @synthesize presentationWasAnimated=_presentationWasAnimated;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <UIViewControllerTransitionCoordinator> transitioningToSizeCoordinator; // @synthesize transitioningToSizeCoordinator=_transitioningToSizeCoordinator;
 
 @end
 

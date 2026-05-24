@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface OBBulletIconTextView
 {
     NSImageView *_iconView;
-    NSTextField *_textLabel;
-    double _padding;
-    double _baselineFromBoundsTop;
-    struct CGSize _iconSize;
 }
 
 - (id);
@@ -27,16 +23,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void);
-- (void);
+- (void) ;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineFromBoundsTop; // @synthesize baselineFromBoundsTop=_baselineFromBoundsTop;
-@property(nonatomic) struct CGSize iconSize; // @synthesize iconSize=_iconSize;
 @property(retain, nonatomic) NSImageView *iconView; // @synthesize iconView=_iconView;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) NSTextField *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

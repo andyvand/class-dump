@@ -7,6 +7,7 @@
 @interface FamilyCircleUI.AgeRangeGlobalSharedState
 {
     id _isUpdated;
+    id ;
 }
 
 @end

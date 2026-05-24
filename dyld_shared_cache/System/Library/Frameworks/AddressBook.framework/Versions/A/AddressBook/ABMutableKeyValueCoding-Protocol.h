@@ -5,5 +5,8 @@
 //
 
 @protocol ABMutableKeyValueCoding
+
+@optional
+- (void);
 @end
 

@@ -9,8 +9,6 @@
 @interface NewsFeed.PuzzleAlertController__priv_B3216C832986877D01E235539593604B
 {
     id handler;
-    id events;
-    id commands;
 }
 
 - (void);
@@ -21,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFirstResponder;
 @property(nonatomic, readonly) NSArray *keyCommands;
 
 @end

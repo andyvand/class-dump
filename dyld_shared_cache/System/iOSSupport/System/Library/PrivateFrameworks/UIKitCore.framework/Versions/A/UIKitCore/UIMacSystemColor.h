@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)was:(id)arg1 %@, requested guids was:(SEL)arg2 %@;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool)ider;
-- (id)nt;
+- (unsigned long long);
+- (_Bool)itemPrimaryColorProvider;
+- (id)_UIViewServiceHostSceneComponent;
 - (void)'8Û;
 - (id)ä¨k;
 

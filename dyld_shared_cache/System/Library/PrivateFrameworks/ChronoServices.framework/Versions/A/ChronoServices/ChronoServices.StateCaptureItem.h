@@ -7,9 +7,6 @@
 @interface ChronoServices.StateCaptureItem
 {
     id title;
-    id identifier;
-    id captureHandler;
-    id _invalidatable;
 }
 
 - (void);

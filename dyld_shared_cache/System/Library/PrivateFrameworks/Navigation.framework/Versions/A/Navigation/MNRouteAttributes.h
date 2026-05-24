@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, VGVehicle, geo_isolater;
+@class NSArray;
 
 @interface MNRouteAttributes
 {
     NSArray *_latLngs;
-    _Bool _forceUpdate;
-    _Bool _isStepping;
-    VGVehicle *_vehicle;
-    NSError *_vgError;
-    geo_isolater *_vehicleIsolator;
-    _Bool _hasResolvedRules;
-    NSArray *_lprRules;
-    NSError *_lprError;
 }
 
 + (void);
 + (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)SelectionShapeStyle;
 - (_Bool);
 - (void);
 - (void);
@@ -32,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

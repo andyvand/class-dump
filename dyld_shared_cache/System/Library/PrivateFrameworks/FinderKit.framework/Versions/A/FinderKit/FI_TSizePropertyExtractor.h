@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)	;
 - (id);
 - (id)ar-event || kMDItemContentTypeTree = com.apple.ical.bookmark;
 - (id)$_10FvRK7TFENodebbEEE;

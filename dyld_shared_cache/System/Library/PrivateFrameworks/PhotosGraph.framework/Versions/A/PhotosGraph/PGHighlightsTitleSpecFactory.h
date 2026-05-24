@@ -8,15 +8,15 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)addObserverBlock:(_Bool)arg1;
++ (id)addObserver:(_Bool)arg1 selector:name:element:application:queue: /* Error: Ran out of types for this method. */;
++ (id)_setLastCursorLocation:(_Bool)arg1 forScreen:(_Bool)arg2;
++ (id)_setKeyboardFocusedApplicationController: /* Error: Ran out of types for this method. */;
++ (id)_setKeyboardFocusedApplicationController: /* Error: Ran out of types for this method. */;
++ (id)_setHorizontallyOrderedChildControllers:(_Bool)arg1;
++ (id)_setFrontmostApplicationController: /* Error: Ran out of types for this method. */;
++ (id)_setFocusedTextElementController: /* Error: Ran out of types for this method. */;
++ (id)_setCurrentInputMethodWindow:(id)arg1;
 + (id);
 + (id);
 

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (id);
+- (_Bool)bundleIdentifier;
+- (id)eting messages %@;
+- (struct UIEdgeInsets)rting;
+- (void)/;
+- (id)t=%@ context=%p token={ .tokenID=%lld, .tokenRevision=%d, .databaseStorage={ .options={%d}, .occurrenceCount=%d } };
 - (void)1\°1Â0@ù
 × ;
 - (void)g revert with newModifcationDate:(_Bool)arg1 %@ and oldModificationDate:%@ /* Error: Ran out of types for this method. */;

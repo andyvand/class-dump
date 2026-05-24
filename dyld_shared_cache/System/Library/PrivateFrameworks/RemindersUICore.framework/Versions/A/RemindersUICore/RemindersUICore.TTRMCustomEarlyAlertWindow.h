@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (_Bool)AttachmentsComponent;
+- (_Bool)TTRMComponentViewAttachmentsComponent;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeKeyWindow;

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface SAIntentGroupBatchSlotResolutionResult : AceObject
 {
@@ -25,21 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (id)o_8000Hz;
+- (id)OPUS_Mono_8000Hz;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *base64EncodedIntent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *jsonEncodedIntent;
-@property(copy, nonatomic) NSDictionary *slotResolutionMap;
-@property(copy, nonatomic) NSArray *stepResults;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *typeName;
 
 @end
 

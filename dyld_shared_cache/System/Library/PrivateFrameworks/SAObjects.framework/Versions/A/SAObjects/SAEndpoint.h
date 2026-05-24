@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SAEndpoint : AceObject
 {
@@ -17,23 +17,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *operations;
-@property(copy, nonatomic) NSString *providerId;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAuthentication;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <NaturalLanguage/NLDataInstance.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NLClassifierModelDataInstance : NLDataInstance
 {
     NSString *_string;
-    NSString *_label;
-    NSArray *_tokens;
 }
 
 + (id);
@@ -26,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 
 @end

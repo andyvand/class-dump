@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)rHost exist already, reconfigure not supported currently;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol ICUpdateContentTasteRequestListener
+- (void);
 @end
 

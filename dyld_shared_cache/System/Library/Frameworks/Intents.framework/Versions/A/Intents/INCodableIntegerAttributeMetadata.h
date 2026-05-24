@@ -10,7 +10,7 @@
 {
 }
 
-- (void)erredCallProvider:(id)arg1;
+- (void)successWithResolvedPreferredCallProvider:(id)arg1;
 
 @end
 

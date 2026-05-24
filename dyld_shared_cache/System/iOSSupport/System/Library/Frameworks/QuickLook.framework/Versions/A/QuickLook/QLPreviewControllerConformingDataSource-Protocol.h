@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol QLPreviewControllerConforming, QLPreviewItem;
+
 @protocol QLPreviewControllerConformingDataSource
+- (id <QLPreviewItem>)retainCount;
+- (long long)_startRecognitionHoldingStateWithTransitionIndex:(id <QLPreviewControllerConforming>)arg1;
 @end
 

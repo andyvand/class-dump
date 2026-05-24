@@ -8,12 +8,10 @@
 @protocol MTLDevice;
 
 @protocol MTLArgumentEncoder
-- (void);
+- (id <MTLDevice>)Zedescendercyrillic;
+- (void)writeGenericBVHStructureOfAccelerationStructure:(NSString *)arg1 into: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long alignment;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long encodedLength;
-@property(copy) NSString *label;
 @end
 

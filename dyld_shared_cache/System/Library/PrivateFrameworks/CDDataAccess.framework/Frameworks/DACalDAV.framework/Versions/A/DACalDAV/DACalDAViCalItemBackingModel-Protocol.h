@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMObjectID;
+@class REMObjectID;
+@protocol DACalDAViCalItemUpdatableBackingModel;
 
 @protocol DACalDAViCalItemBackingModel
+- (id <DACalDAViCalItemUpdatableBackingModel>);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *daCalendarItemUniqueIdentifier;
-@property(readonly, nonatomic) NSString *externalModificationTag;
 @property(readonly, nonatomic) REMObjectID *objectID;
 @end
 

@@ -11,14 +11,14 @@
 }
 
 + (void);
-+ (void);
++ (void)1;
 + (unsigned long long);
-+ (_Bool);
++ (_Bool)P;
 + (id);
 - (id);
 - (long long);
-- (id);
-- (id)etCollectionFeatureSpecification;
+- (id)resetState;
+- (id)PGAssetCollectionFeatureSpecification;
 
 @end
 

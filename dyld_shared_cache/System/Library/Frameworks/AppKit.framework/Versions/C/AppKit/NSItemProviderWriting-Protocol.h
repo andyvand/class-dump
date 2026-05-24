@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSProgress;
 
 @protocol NSItemProviderWriting
 + (NSArray *)T@"NSObject<NSContextMenuWindowProtocol>",R,W;
+- (NSProgress *);
 
 @optional
 + (long long)!í/!ØCùâ31Â0@ù
 × ;
 - (long long)!XCùQâ31Â0@ù
 × ;
-- (NSArray *)hAppearanceNamed:bundle: /* Error: Ran out of types for this method. */;
+- (NSArray *)initWithAppearanceNamed:bundle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;

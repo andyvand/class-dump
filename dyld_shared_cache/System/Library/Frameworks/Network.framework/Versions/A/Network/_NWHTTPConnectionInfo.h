@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NWURLSessionDelegateWrapper;
+@class NSObject;
 @protocol OS_nw_protocol_metadata;
 
 __attribute__((visibility("hidden")))
 @interface _NWHTTPConnectionInfo
 {
     NSObject<OS_nw_protocol_metadata> *_connectionMetadata;
-    NWURLSessionDelegateWrapper *_delegateWrapper;
 }
 
-+ (_Bool);
++ (_Bool)nge in progress stack;
 - (_Bool);
 - (void);
 - (_Bool)´;

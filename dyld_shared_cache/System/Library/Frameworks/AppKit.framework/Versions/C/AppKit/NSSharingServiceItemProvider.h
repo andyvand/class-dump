@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSSharingServiceItemProvider
 {
     id placeholderItem;
-    id providedItem;
-    NSString *sharingServiceName;
 }
 
 - (id);
@@ -19,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ing hostname and address;
 - (void);
 - (id);
 - (id);
@@ -28,17 +24,7 @@
 - (void)M;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id item;
 @property(retain) id placeholderItem; // @synthesize placeholderItem;
-@property(retain) id providedItem; // @synthesize providedItem;
-@property(copy, setter=_setSharingServiceName:) NSString *sharingServiceName; // @synthesize sharingServiceName;
-@property(readonly) Class superclass;
 
 @end
 

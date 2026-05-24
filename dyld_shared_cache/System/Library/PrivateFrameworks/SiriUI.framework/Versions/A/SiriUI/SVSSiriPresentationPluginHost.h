@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface SVSSiriPresentationPluginHost
 {
     _Bool _loaded;
-    NSURL *_URL;
-    NSMutableDictionary *_bundleURLsByBundleIdentifier;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)`B;
 - (void);
 - (void);
 - (void);
@@ -37,8 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_URL) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic, getter=_bundleURLsByBundleIdentifier) NSMutableDictionary *bundleURLsByBundleIdentifier; // @synthesize bundleURLsByBundleIdentifier=_bundleURLsByBundleIdentifier;
-@property(nonatomic, getter=_isLoaded, setter=_setLoaded:) _Bool loaded; // @synthesize loaded=_loaded;
 
 @end
 

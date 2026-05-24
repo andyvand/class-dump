@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLocationManager, MKMapItem, MKSearchFoundationBusinessHoursAndDistanceRichText, MKSearchFoundationRichText, NSArray, NSBundle, NSData, NSMutableArray, NSString, SFActionItem, SFImage, SFText;
+@class NSData;
 
 @interface MKSearchFoundationResult
 {
     _Bool _optionSmallerScreen;
-    NSData *_mapsData;
-    MKMapItem *_mapItem;
-    MKSearchFoundationRichText *_secondLineDisplayedText;
-    NSArray *_descriptions;
-    MKSearchFoundationBusinessHoursAndDistanceRichText *_thirdLineDisplayedText;
-    unsigned long long _iconSize;
-    unsigned long long _mksfResultType;
-    NSBundle *_bundle;
-    NSString *_bundleID;
-    MKLocationManager *_locationManager;
-    MKSearchFoundationRichText *_fourthLineDisplayedText;
-    NSMutableArray *_thirdLineText;
-    id _attributionObserver;
-    SFText *_title;
-    SFImage *_thumbnail;
-    SFActionItem *_action;
 }
 
-+ (id);
++ (id)R0;
+- (id)chedPermissionForClientID:notification %@ registration failed :%d /* Error: Ran out of types for this method. */;
+- (id)Registering for %@ notification;
+- (void)Logs/MajorVersion;
+- (void)/Archives/;
+- (void)GenerativeFunctionMetrics:(id)arg1:assetLoad /* Error: Ran out of types for this method. */;
+- (void)BLMLogType;
+- (void)gybudgetingdebug.queryPowerlog;
+- (void)PowerlogTimestampLast;
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -61,18 +45,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_parseSpatialInteractionPtr:end: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)nonHiddenAccountWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)nviDirectionalityEndingChannelId;
 - (void);
 - (id);
 - (id);
@@ -83,30 +67,11 @@
 - (void);
 - (id)
 × ;
-- (void)ons: /* Error: Ran out of types for this method. */;
+- (void)placeItemWithMapItem:options: /* Error: Ran out of types for this method. */;
 - (void)4@?0@"MKAnnotationView"8@"NSDictionary"16;
 
 // Remaining properties
-@property(retain, nonatomic) id attributionObserver; // @synthesize attributionObserver=_attributionObserver;
-@property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MKSearchFoundationRichText *fourthLineDisplayedText; // @synthesize fourthLineDisplayedText=_fourthLineDisplayedText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long iconSize; // @synthesize iconSize=_iconSize;
-@property(retain, nonatomic) MKLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
 @property(retain, nonatomic) NSData *mapsData; // @synthesize mapsData=_mapsData;
-@property(nonatomic) unsigned long long mksfResultType; // @synthesize mksfResultType=_mksfResultType;
-@property(nonatomic) _Bool optionSmallerScreen; // @synthesize optionSmallerScreen=_optionSmallerScreen;
-@property(retain, nonatomic) MKSearchFoundationRichText *secondLineDisplayedText; // @synthesize secondLineDisplayedText=_secondLineDisplayedText;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MKSearchFoundationBusinessHoursAndDistanceRichText *thirdLineDisplayedText; // @synthesize thirdLineDisplayedText=_thirdLineDisplayedText;
-@property(retain, nonatomic) NSMutableArray *thirdLineText; // @synthesize thirdLineText=_thirdLineText;
 
 @end
 

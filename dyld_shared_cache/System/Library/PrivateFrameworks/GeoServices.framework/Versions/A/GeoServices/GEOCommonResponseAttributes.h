@@ -9,41 +9,35 @@
 @interface GEOCommonResponseAttributes
 {
     PBUnknownFields *_unknownFields;
-    int _elevationModel;
-    struct {
-        unsigned int has_elevationModel:1;
-    } _flags;
 }
 
-+ (_Bool)tensions:(id)arg1;
++ (_Bool)setHasNumberOfAvailableExtensions:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ile lock;
+- (id)Micronesia;
+- (int)Islands;
 - (int);
-- (int);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)tureLatencyDistribution:(id)arg1 additionalMetrics:trailingSilenceDurationAtEndpoint:requestId:osdFeatures:asrFeatures:isRequestTimeOut:assetConfigVersion:blkHepAudioOrigin:vtExtraAudioAtStartInMs:firstAudioSampleSensorTimestamp:isAnchorTimeBuffered:endpointHostTime:audioDeliveryHostTimeDelta:endpointerThreshold:endpointerScore: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)`;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)Arrival;
+- (id)scheduledArrival;
 - (id)XP;
 - (id)lled once per object;
 - (id);
 - (void)G37x)7;
 
 // Remaining properties
-@property(nonatomic) int elevationModel;
 @property(nonatomic) _Bool hasElevationModel;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

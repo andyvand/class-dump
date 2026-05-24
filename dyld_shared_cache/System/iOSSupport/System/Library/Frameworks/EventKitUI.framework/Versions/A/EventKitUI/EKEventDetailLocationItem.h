@@ -4,47 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKTextViewWithLabelTextMetrics, NSString, NSURL, UITapGestureRecognizer;
+@class EKTextViewWithLabelTextMetrics;
 
 @interface EKEventDetailLocationItem
 {
     EKTextViewWithLabelTextMetrics *_locationView;
-    NSURL *_locationURL;
-    UITapGestureRecognizer *_locationTapRecognizer;
-    _Bool _locationIsAttendee;
-    long long _locationStatus;
-    NSString *_locationComment;
-    _Bool _hasMapItemLaunchOptionFromTimeToLeaveNotification;
-    NSString *_locationTitle;
-    UITapGestureRecognizer *_tapRecognizer;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)s;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)in;
 - (void);
-- (_Bool);
-- (void)etAttendees: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)e;
+- (void)setAttendees: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool hasMapItemLaunchOptionFromTimeToLeaveNotification; // @synthesize hasMapItemLaunchOptionFromTimeToLeaveNotification=_hasMapItemLaunchOptionFromTimeToLeaveNotification;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *locationTitle; // @synthesize locationTitle=_locationTitle;
-@property(readonly) Class superclass;
-@property(retain) UITapGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
 
 @end
 

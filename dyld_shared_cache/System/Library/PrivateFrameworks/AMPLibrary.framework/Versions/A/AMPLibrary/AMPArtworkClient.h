@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol AMPArtworkEventsProtocol, OS_dispatch_queue, OS_os_log;
+@class NSObject, NSXPCConnection;
+@protocol OS_os_log;
 
 @interface AMPArtworkClient
 {
     NSObject<OS_os_log> *_logHandle;
-    id <AMPArtworkEventsProtocol> _eventsDelegate;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSMutableDictionary *_openedFolders;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (id);
 - (_Bool);
 - (void);
@@ -45,14 +41,10 @@
 - (void);
 - (void);
 - (void);
-- (void)ngKeyScopedContainers;
+- (void)AMPLibRequestCodingKeyScopedContainers;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) __weak id <AMPArtworkEventsProtocol> eventsDelegate; // @synthesize eventsDelegate=_eventsDelegate;
-@property(retain, nonatomic) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(retain, nonatomic) NSMutableDictionary *openedFolders; // @synthesize openedFolders=_openedFolders;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
 
 @end
 

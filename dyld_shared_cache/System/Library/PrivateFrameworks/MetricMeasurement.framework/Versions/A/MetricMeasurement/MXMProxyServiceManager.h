@@ -22,16 +22,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
-- (id);
+- (id)__swift5_typeref__TEXT;
 - (void);
 
 // Remaining properties
 @property(readonly) id <MetricMeasurementHelperProtocol_Internal> _proxyObject;
-@property(readonly) NSXPCConnection *_serviceConnection; // @synthesize _serviceConnection=__serviceConnection;
 
 @end
 

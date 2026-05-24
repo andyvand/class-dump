@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SXComponent;
 
 @interface SXPastBodyComponentInsertionCondition
 {
     id <SXComponent> _firstBodyComponent;
-    struct CGPoint _firstBodyComponentThreshold;
 }
 
 - (_Bool);
@@ -24,15 +22,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <SXComponent> firstBodyComponent; // @synthesize firstBodyComponent=_firstBodyComponent;
-@property(nonatomic) struct CGPoint firstBodyComponentThreshold; // @synthesize firstBodyComponentThreshold=_firstBodyComponentThreshold;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

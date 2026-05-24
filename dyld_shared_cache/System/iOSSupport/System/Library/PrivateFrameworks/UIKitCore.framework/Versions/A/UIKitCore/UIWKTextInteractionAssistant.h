@@ -6,26 +6,11 @@
 
 #import <UIKitCore/UITextInteractionAssistant.h>
 
-@class NSString, UILongPressGestureRecognizer, UITapGestureRecognizer, UITextChecker, _UIBurnableBlock, _UITextServiceSession;
-@protocol UITextCursorAssertion, UIWKTextInteractionAssistantDelegate;
+@class NSString;
 
 @interface UIWKTextInteractionAssistant : UITextInteractionAssistant
 {
     long long _selectionOperation;
-    _UITextServiceSession *_definitionSession;
-    _UITextServiceSession *_learnSession;
-    _UITextServiceSession *_shareSession;
-    _UITextServiceSession *_lookupSession;
-    _UITextServiceSession *_translateSession;
-    UITextChecker *_textChecker;
-    unsigned long long _options;
-    _UIBurnableBlock *_prepareToInvalidateLoupeSessionBlock;
-    _Bool _isEndingRangeAdjustmentInteraction;
-    id <UITextCursorAssertion> _blinkAssertion;
-    id <UIWKTextInteractionAssistantDelegate> _delegate;
-    _Bool _shouldDelayActivatingSelectionView;
-    NSString *_wordBeforeTap;
-    struct CGRect _caretBeforeTap;
 }
 
 - (void);
@@ -33,28 +18,29 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void):3) == (unsigned int)s->init_num /* Error: Ran out of types for this method. */;
+- (id)payloadAllowMusicService;
+- (void)dDNSName;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)documentVisibleRect;
 - (_Bool);
 - (void);
 - (void);
+- (_Bool)wrappedKey for chunkEncryptionSignature;
+- (void);
+- (struct CGRect))}
+		k(;
+- (_Bool)initWithKeys:value:comparisonType: /* Error: Ran out of types for this method. */;
+- (void)_transitionStyle;
+- (_Bool);
+- (void)| timed out [waiting for delivery for %0.2gs];
+- (void)=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld dataRequest.requestedLength=%lu;
 - (_Bool);
 - (void);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
@@ -72,16 +58,16 @@
 × ;
 - (void)ð!ü@ùÑf°1Â0@ù
 × ;
-- (void)nController;
-- (id)etVisibilityOnScrollDistance: /* Error: Ran out of types for this method. */;
-- (void)cedTimestamps:(id)arg1 startingAt:endingAt: /* Error: Ran out of types for this method. */;
-- (void)d:(id)arg1 tracking:(struct CGPoint)arg2 orientation:(struct CGPoint)arg3 wantsFence: /* Error: Ran out of types for this method. */;
-- (id)d;
+- (void)textSelectionController;
+- (id)setVisibilityOnScrollDistance: /* Error: Ran out of types for this method. */;
+- (void)movieScrubber:(id)arg1 evenlySpacedTimestamps:startingAt:endingAt: /* Error: Ran out of types for this method. */;
+- (void)initWithKeyboardFrame:(id)arg1 onScreen:(struct CGPoint)arg2 animated:(struct CGPoint)arg3 tracking:orientation:wantsFence: /* Error: Ran out of types for this method. */;
+- (id)findInteractionEnabled;
 - (void)assistantWriteboard;
-- (void)I:(id)arg1 showFailure:(struct CGRect)arg2 useSmallBars: /* Error: Ran out of types for this method. */;
-- (Class)cation: /* Error: Ran out of types for this method. */;
+- (void)_updateWithRaw:(id)arg1 bars:(struct CGRect)arg2 enableRSSI:showFailure:useSmallBars: /* Error: Ran out of types for this method. */;
+- (Class)_handleGetterInvocation: /* Error: Ran out of types for this method. */;
 - (void)selineToBottom;
-- (void)yP3Color;
+- (void)UIDisplayP3Color;
 - (void)M;
 - (void)´®;
 - (void);
@@ -108,19 +94,6 @@
 - (void)]Ý>g;
 
 // Remaining properties
-@property(nonatomic) struct CGRect caretBeforeTap; // @synthesize caretBeforeTap=_caretBeforeTap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIWKTextInteractionAssistantDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *forcePressGesture; // @dynamic forcePressGesture;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *loupeGesture; // @dynamic loupeGesture;
-@property(nonatomic) _Bool shouldDelayActivatingSelectionView; // @synthesize shouldDelayActivatingSelectionView=_shouldDelayActivatingSelectionView;
-@property(readonly, nonatomic) UITapGestureRecognizer *singleTapGesture; // @dynamic singleTapGesture;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *wordBeforeTap; // @synthesize wordBeforeTap=_wordBeforeTap;
 
 @end

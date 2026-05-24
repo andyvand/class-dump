@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)_associatedObjectIdentifier;
+- (_Bool),N,V_shouldConvertTablesToTabs;
+- (id)ctionIdentifiersToButtonIdentifiers;
 
 @end
 

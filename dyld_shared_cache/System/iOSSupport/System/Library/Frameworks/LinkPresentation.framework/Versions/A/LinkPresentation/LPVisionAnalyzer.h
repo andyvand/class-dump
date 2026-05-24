@@ -11,10 +11,10 @@
     id _sessionBox;
 }
 
-- (struct CGImage *);
-- (id);
-- (id);
-- (id);
+- (struct CGImage *)splitViewControllerPreferredInterfaceOrientationForPresentation:(id)arg1;
+- (id)showFunCamera;
+- (id);
+- (id)_hintText;
 - (void)ð1Â0@ù
 × ;
 

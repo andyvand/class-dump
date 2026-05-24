@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFilePresenterProxy, NSObject, NSString;
-@protocol NSFilePresenter, OS_dispatch_queue;
+@protocol NSFilePresenter;
 
 __attribute__((visibility("hidden")))
 @interface NSFilePresenterXPCMessenger
 {
     id <NSFilePresenter> _filePresenter;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSFilePresenterProxy *_filePresenterProxy;
 }
 
 - (oneway void);
@@ -20,56 +17,50 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (oneway void);
-- (void);
-- (void);
-- (oneway void);
-- (oneway void);
-- (void);
-- (oneway void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)h";
+- (oneway void)_;
+- (oneway void);
 - (void);
 - (oneway void);
-- (id);
-- (id);
+- (void);
+- (void)Devanagari-Thin;
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
+- (oneway void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (oneway void);
+- (void)~�t^;
 - (id);
+- (void);
+- (void);
+- (void);
+- (oneway void);
+- (id)!;
 - (oneway void);
 - (void);
-- (void);
-- (void);
+- (void)R;
+- (void);
 - (void);
 - (void);
 - (oneway void)Ô ;
 - (void)× ;
 - (oneway void)
 × ;
-- (void)tData:(id)arg1 encoding:(id)arg2;
+- (void)_setData:(id)arg1 encoding:(id)arg2;
 - (oneway void)_Nonnull)(NSRange, __attribute__((noescape)) void (^)(id _Nullable, NSRange, BOOL * _Nonnull)), void (^ _Nonnull)(NSRange, __attribute__((noescape)) void (^)(NSLocalizedNumberFormatRule *, NSRange, BOOL * _Nonnull)), void (^ _Nonnull)(NSAttributedStringKey, NSRange), BOOL (^ _Nonnull)(NSRange), id  _Nullable (^ _Nonnull)(NSAttributedStringKey, NSRange), NSString *(^ _Nonnull)(NSRange), void (^ _Nonnull)(NSRange, __attribute__((noescape)) void (^)(NSString * _Nullable, NSRange, BOOL * _Nonnull)), void (^ _Nonnull)(NSRange, id), void (^ _Nonnull)(NSRange, NSAttributedStringKey, id), id  _Nullable (^ _Nonnull)(id))_block_invoke;
-- (void)or;
+- (void)Error;
 - (oneway void)ª««««««¬¬¬­­®®¯°°°°±²³´µµµ¶¶¶¶····¸¸¹¹º»»»»¼½½½½¾¿ÀÁÂÂÃÃÃÄÅÅÆÆÇÈÉÉÉÉÉÉÊÊËÌÍÍÍÍÍÍÍÍÎÏÏÏÐÑÑÒÒÒÒÒÓÓÓÓÓÓÔÕÖÖÖ×××ØÙÙÙÚÛÜÝÝÝÞßßàááââãäååææææææææççèééêëëëëììííîïðððñòóôõõö÷÷øùúûüüüýýýþÿ;
 - (oneway void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

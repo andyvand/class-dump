@@ -4,6 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UINavigationBar, UINavigationItem, UISearchController, UIWindow, _UIScrollPocketCollectorInteraction;
+
 @protocol _UINavigationBarDelegatePrivate
+
+@optional
+- (void);
+- (_Bool)setAddedObserverForUnexpectedlyLoggedOut:(UINavigationItem *)arg1;
+- (_Bool)serviceIdentifier;
+- (_Bool)serviceForClientIdentifier: /* Error: Ran out of types for this method. */;
+- (_UIScrollPocketCollectorInteraction *)onBlock:(UINavigationBar *)arg1;
+- (void)_trustKitSpamReport;
+- (_Bool)_latestActiveDate;
+- (void)_lastReplicationSinceLoadDate;
+- (void)_lastNotifiedUnreadCount;
+- (UIWindow *)_itemIsEligibleForStorageControllerWithInput:(UINavigationBar *)arg1;
+- (void)_itemClassShouldUpdateTransferForItem:(UINavigationBar *)arg1;
+- (void)_isUsingCentralizedModel;
+- (void)_isUsableForSending;
+- (_Bool)_isRegisteredForCTPhoneNumberNotifications;
+- (UINavigationBar *)_isRecordingReplayDB;
+- (_Bool)_isMessageSentFromMe;
+- (_Bool)_isMessageMMS:(UINavigationBar *)arg1 forChat: /* Error: Ran out of types for this method. */;
+- (void)_isMessageFromPairedDeviceFromIdentifier:(UINavigationBar *)arg1 toIdentifier:fromToken:checkFor: /* Error: Ran out of types for this method. */;
+- (_Bool)_isLastFromStorage;
+- (void)_isFetchingExitForEnablement;
+- (void)_isDoingDeleteRecoverySync;
+- (void)_isDiskSpaceAvailableForSyncType:(UINavigationBar *)arg1 currentBatchCount: /* Error: Ran out of types for this method. */;
+- (void)_isDeviceRegisteredForAccount:(UINavigationBar *)arg1;
+- (void)_isDeviceRegistered;
+- (void)_isCoreDuetSyncForMaxBatchCount:(UINavigationBar *)arg1 activity: /* Error: Ran out of types for this method. */;
+- (NSArray *)_isAcknowledgmentMessage:(UINavigationBar *)arg1;
+- (void)_inviteSenderHandleID:(UINavigationBar *)arg1 fromHandleID:(UINavigationItem *)arg2;
+- (void)_insertChatUsingSyncData:(UINavigationBar *)arg1;
+- (void)_initializeFindMySessionIfInAllowedProcess;
+- (void)tionCallerID:(UINavigationBar *)arg1 fromMe:(UINavigationItem *)arg2;
+- (void)_initWithType:(UINavigationBar *)arg1 sender:(UINavigationItem *)arg2 service:groupID:originalGroupID:guid:destinationCallerID:fromMe: /* Error: Ran out of types for this method. */;
+- (void)ype:(UINavigationBar *)arg1 hfsCreator:(UINavigationItem *)arg2 hfsFlags:isIncoming: /* Error: Ran out of types for this method. */;
+- (double)_initWithGUID:(UINavigationBar *)arg1 filename:(CDStruct_bd34ff7f)arg2 isDirectory:localURL:account:otherPerson:totalBytes:hfsType:hfsCreator:hfsFlags:isIncoming: /* Error: Ran out of types for this method. */;
+- (void)_initWithBlastDoorMessage:(UINavigationBar *)arg1;
+- (void)_initResyncForDeleteRecovery;
+- (_Bool)_indexChatAndMessagesToSpotlightWithReason:(UINavigationBar *)arg1;
+- (struct CGRect)tActiveDate;
+- (_Bool)NSCacheDelegate;
+- (UISearchController *)X;
+- (UISearchController *)(U;
+- (double);
+- (struct NSDirectionalEdgeInsets);
+- (_Bool)};
 @end
 

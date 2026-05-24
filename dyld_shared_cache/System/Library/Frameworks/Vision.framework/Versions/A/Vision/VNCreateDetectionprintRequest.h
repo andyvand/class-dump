@@ -6,28 +6,20 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNCreateDetectionprintRequest : VNImageBasedRequest
 {
 }
 
-+ (Class);
++ (Class)(;
 + (const CDStruct_3a02d5a8 *);
 - (id);
 - (id)V;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *supportedImageSizeSet;
 
 @end
 

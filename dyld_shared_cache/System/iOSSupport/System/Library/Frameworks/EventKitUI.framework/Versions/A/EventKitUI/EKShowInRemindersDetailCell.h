@@ -13,10 +13,10 @@
     UILabel *_titleLabel;
 }
 
-- (id);
+- (id)X%s;
 - (void);
 - (void);
-- (void)dIncludeConferenceRoom: /* Error: Ran out of types for this method. */;
+- (void)shouldIncludeConferenceRoom: /* Error: Ran out of types for this method. */;
 
 @end
 

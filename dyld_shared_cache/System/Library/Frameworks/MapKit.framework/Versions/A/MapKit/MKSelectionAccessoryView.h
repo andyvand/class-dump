@@ -5,34 +5,31 @@
 //
 
 @class NSButton;
-@protocol MKPlaceCardContentSizeDelegate, MKSelectionAccessoryViewDelegate;
+@protocol MKPlaceCardContentSizeDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MKSelectionAccessoryView
 {
     NSButton *_dismissButton;
-    id <MKPlaceCardContentSizeDelegate> _placeCardContentSizeDelegate;
-    id <MKSelectionAccessoryViewDelegate> _delegate;
 }
 
 + (id);
-- (void);
+- (void)AVG;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ǧ;
 - (void);
-- (void);
-- (void);
+- (void)oundation;
 - (id);
 - (void);
-- (id);
-- (void)lacecardLayoutData;
+- (id)am :(struct CGRect)arg1 %{public}@;
+- (void)placecardLayoutData;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKSelectionAccessoryViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak id <MKPlaceCardContentSizeDelegate> placeCardContentSizeDelegate; // @synthesize placeCardContentSizeDelegate=_placeCardContentSizeDelegate;
 
 @end

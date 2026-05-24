@@ -9,12 +9,10 @@
 @interface IMDownloadingPendingMessagesChatItem : IMTranscriptChatItem
 {
     unsigned long long _pendingIncomingSatelliteMessageCount;
-    unsigned long long _totalSatelliteMessageCount;
 }
 
 
 // Remaining properties
 @property(nonatomic, setter=_setPendingIncomingSatelliteMessageCount:) unsigned long long pendingIncomingSatelliteMessageCount; // @synthesize pendingIncomingSatelliteMessageCount=_pendingIncomingSatelliteMessageCount;
-@property(nonatomic, setter=_setTotalSatelliteMessageCount:) unsigned long long totalSatelliteMessageCount; // @synthesize totalSatelliteMessageCount=_totalSatelliteMessageCount;
 @end
 

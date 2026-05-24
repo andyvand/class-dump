@@ -5,5 +5,7 @@
 //
 
 @protocol EFSQLInsertStatementValue
+- (void);
+- (id);
 @end
 

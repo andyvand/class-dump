@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @protocol _SFPBButtonListCardSection
+- (void)P;
+- (void);
+- (_Bool)environmentMonitorDidChangePower: /* Error: Ran out of types for this method. */;
+- (_Bool)endObservingPrivacyAcknowledgementForIdentifier:withToken: /* Error: Ran out of types for this method. */;
+- (void)TLToneManager;
 - (int)F;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *SectionTitle;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(copy, nonatomic) NSArray *buttons;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *showMoreButtonTitle;
-@property(copy, nonatomic) NSString *type;
 @end
 

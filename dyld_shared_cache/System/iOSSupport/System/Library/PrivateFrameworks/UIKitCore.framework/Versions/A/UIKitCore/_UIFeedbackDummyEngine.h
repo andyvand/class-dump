@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (id)!;
+- (void)rror %@;
 - (void);
+- (void)SNumber",C,N,V_payloadCCPMPPE40Enabled;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void),&,D,N;
 - (void)
 × ;
 - (CDUnknownBlockType)0@ù
 × ;
-- (_Bool)outAdjustmentsForManagedViewWithPosition:(id)arg1;
+- (_Bool)_applyLayoutAdjustmentsForManagedViewWithPosition:(id)arg1;
 - (void)y connection for %{public}@ has been abandoned, skipping connection setup;
 - (void);
 - (id);

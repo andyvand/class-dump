@@ -11,13 +11,12 @@
 @interface IMRuntimeTestSuiteTestRun : IMRuntimeTestRun
 {
     NSMutableArray *_testRuns;
-    NSArray *_testRun;
 }
 
 - (id);
 - (void);
 - (id);
-- (void)edMessageEffect;
+- (void)associatedMessageEffect;
 
 // Remaining properties
 @property(readonly, copy) NSArray *testRuns; // @synthesize testRuns=_testRun;

@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)c;
++ (id)synchronousRemoteObjectProxyWithErrorHandler:(unsigned long long)arg1;
 - (id);
 - (id);
 

@@ -13,7 +13,7 @@
     NSString *_sender;
 }
 
-- (id);
+- (id)p=%u, frameTimeInSec=%f, rtpTimestampRate=%u;
 - (id);
 - (void)$ '+;
 

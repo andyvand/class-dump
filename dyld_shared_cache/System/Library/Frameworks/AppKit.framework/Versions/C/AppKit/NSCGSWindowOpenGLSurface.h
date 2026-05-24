@@ -11,13 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)sp=%d cred=%p;
+- (void)0;
 
 // Remaining properties
 @property struct CGColorSpace *colorSpace; // @dynamic colorSpace;
-@property(getter=isOpaque) _Bool opaque; // @dynamic opaque;
-@property double scale; // @dynamic scale;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface NewsArticles.InterstitialAdPreviewInteractor
 {
     id delegate;
-    id preview;
-    id contextBuilder;
-    id adManager;
-    id dataManager;
-    id viewManager;
-    id token;
 }
 
 @end

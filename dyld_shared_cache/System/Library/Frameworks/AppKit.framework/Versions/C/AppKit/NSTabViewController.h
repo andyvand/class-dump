@@ -11,18 +11,11 @@
 @interface NSTabViewController : NSViewController
 {
     NSTabView *_tabView;
-    id _tabViewControllerPrivateData;
-    struct {
-        unsigned int _changingSelection:1;
-        unsigned int _addingInitialTabViewItems:1;
-        unsigned int _tabBarIsDrivingTabMove:1;
-        unsigned int __extra:29;
-    } _tabViewControllerFlags;
 }
 
 + (unsigned long long);
-+ (_Bool);
-+ (id);
++ (_Bool)_delegate_conditionalRequirementsChanged;
++ (id)@;
 + (id);
 + (Class);
 

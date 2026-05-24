@@ -9,20 +9,15 @@
 @interface TESMatchResult
 {
     NSString *_sourceString;
-    long long _effectType;
-    long long _matchType;
-    unsigned long long _suggestionBehavior;
-    NSString *_matcherClass;
-    struct _NSRange _matchRange;
 }
 
-+ (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
++ (id)24@?0@"SafariWebBookmark"8@"SafariWebBookmark"16;
+- (unsigned long long)WebBookmarkLeaf"16@?0@"NSString"8;
+- (void)data Cache;
+- (void)Thumbnails;
+- (void)ndleToken"8@"NSError"16;
+- (id)"WBTab"16@?0@"BrowserTabPersistentState"8;
+- (id)tory and Keep Website Data);
 - (id);
 - (void);
 - (void);
@@ -34,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long effectType; // @synthesize effectType=_effectType;
-@property(nonatomic) struct _NSRange matchRange; // @synthesize matchRange=_matchRange;
-@property(nonatomic) long long matchType; // @synthesize matchType=_matchType;
 @property(retain, nonatomic) NSString *matcherClass; // @synthesize matcherClass=_matcherClass;
-@property(readonly, nonatomic) NSString *matchingSubString;
-@property(nonatomic) __weak NSString *sourceString; // @synthesize sourceString=_sourceString;
-@property(nonatomic) unsigned long long suggestionBehavior; // @synthesize suggestionBehavior=_suggestionBehavior;
 
 @end
 

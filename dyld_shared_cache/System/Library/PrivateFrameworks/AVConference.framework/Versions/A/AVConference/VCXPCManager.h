@@ -6,21 +6,20 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCXPCManager : VCObject
 {
     NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    NSMutableArray *_registeredServices;
 }
 
 + (void);
 + (void);
 + (void);
 + (void);
-+ (id)RateControlAlogirthmLowLatencyNOWRD_DoRateControl;
++ (id)_VCRateControlAlogirthmLowLatencyNOWRD_DoRateControl;
 - (void);
 - (unsigned long long);
 - (void);
@@ -29,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)] %s:%d _isRedundancyRequested set to YES by forceFECRepairStream /* Error: Ran out of types for this method. */;
-- (id)onBucketSize;
+- (id)VCVideoJitterBuffer_GetJitterDistributionBucketSize;
 
 @end
 

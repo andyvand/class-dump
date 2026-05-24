@@ -5,5 +5,6 @@
 //
 
 @protocol IMDPersistenceService
+- (void)P;
 @end
 

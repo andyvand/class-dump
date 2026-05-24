@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
+@class NSObject, PGHighlightItemList;
 @protocol OS_os_log;
 
 @protocol PGHighlightItemEnrichmentRule
-- (NSObject<OS_os_log> *)Year;
+- (double);
+- (void)performBlockOnApplicationQueue:(PGHighlightItemList *)arg1 completionHandler:(unsigned short)arg2;
+- (NSObject<OS_os_log> *)wedgeOfYear;
+
+@optional
+- (void)hasRowBasedChildControllers;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection;

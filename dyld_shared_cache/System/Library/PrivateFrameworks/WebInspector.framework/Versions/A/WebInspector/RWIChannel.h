@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RWIDebuggable, RWIManager;
+@class NSString;
 @protocol RWIChannelDelegate;
 
 @interface RWIChannel
 {
     NSString *_uuid;
-    RWIManager *_manager;
-    RWIDebuggable *_debuggable;
-    id <RWIChannelDelegate> _delegate;
 }
 
 - (id);
@@ -28,17 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RWIDebuggable *debuggable; // @synthesize debuggable=_debuggable;
 @property(nonatomic) __weak id <RWIChannelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RWIManager *manager; // @synthesize manager=_manager;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

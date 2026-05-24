@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWDisplayedScanResult, NSButton, NSImageView, NSTextField;
+@class CWDisplayedScanResult;
 
 @interface CWErrorDialog
 {
     CWDisplayedScanResult *_scanResult;
-    NSTextField *_title;
-    NSTextField *_description;
-    NSButton *_runDiagnosticsButton;
-    NSButton *_okButton;
-    NSButton *_cancelButton;
-    NSImageView *_imageView;
-    id _delegate;
-    _Bool _installerContext;
 }
 
 - (void);
@@ -25,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A^;
 - (id);
 - (void);
 - (void);
@@ -33,7 +25,6 @@
 
 // Remaining properties
 @property __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) CWDisplayedScanResult *scanResult; // @synthesize scanResult=_scanResult;
 
 @end
 

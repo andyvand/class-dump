@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineCategoriesPickerStyler
 {
     id baseStyler;
-    id colorPaletteProvider;
-    id defaultTitleFontSize;
-    id defaultHeaderFontSize;
 }
 
 @end

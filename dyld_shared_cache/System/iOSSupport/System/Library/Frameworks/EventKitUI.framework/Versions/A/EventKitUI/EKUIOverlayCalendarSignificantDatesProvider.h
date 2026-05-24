@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDateRange, NSDate, NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class CalDateRange;
 
 @interface EKUIOverlayCalendarSignificantDatesProvider
 {
     CalDateRange *_cachedDateRange;
-    CalDateRange *_cachedCentralYear;
-    NSDictionary *_cachedFirstsOfMonths;
-    NSDictionary *_cachedFirstsOfYears;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _currentGeneration;
-    NSDate *_currentRequest;
-    _Bool _loadPending;
-    CDUnknownBlockType _significantDatesChangedHandler;
 }
 
 - (void);
@@ -28,7 +19,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)ontrollerForPresentingAlerts;
+- (void)viewControllerForPresentingAlerts;
 - (void)EÔ¸;
 
 // Remaining properties

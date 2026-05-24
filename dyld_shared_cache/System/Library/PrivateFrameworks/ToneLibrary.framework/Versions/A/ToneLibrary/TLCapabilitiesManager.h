@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface TLCapabilitiesManager
 {
     _Bool _isInternalInstall;
-    NSDictionary *_deviceCodeNameSimplicationMapping;
 }
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ecorated with both a developer token and a user token:%{public}@. /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)16f24q28d36;
+- (_Bool)c}@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAlertToneStoreAvailable) _Bool alertToneStoreAvailable;
-@property(readonly, nonatomic) NSString *deviceCodeName;
-@property(readonly, nonatomic) _Bool hasCellularTelephonyCapability;
-@property(readonly, nonatomic) _Bool hasFaceIDCapability;
-@property(readonly, nonatomic) _Bool hasUserGeneratedVibrationsCapability;
-@property(readonly, nonatomic) _Bool hasVibratorCapability;
-@property(readonly, nonatomic, getter=isHomePod) _Bool homePod;
-@property(readonly, nonatomic, getter=isInternalInstall) _Bool internalInstall;
 @property(readonly, nonatomic, getter=isRingtoneStoreAvailable) _Bool ringtoneStoreAvailable;
-@property(readonly, nonatomic) NSString *simplifiedDeviceCodeName;
-@property(readonly, nonatomic) _Bool supportsMediaExperienceAlarmVolume;
-@property(readonly, nonatomic) _Bool supportsReflectionRemixes;
-@property(readonly, nonatomic) _Bool wantsModernDefaultRingtone;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)e;
+- (void)kMediaContainerConfigurationContainerType;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *executionSessionID; // @synthesize executionSessionID=_executionSessionID;

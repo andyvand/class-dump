@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MTL4RenderCommandEncoder;
+
 @protocol MTL4CommandBufferSPI
+- (id <MTL4RenderCommandEncoder>)s;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentGeneration;

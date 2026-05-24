@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFAnnotation;
-
 __attribute__((visibility("hidden")))
 @interface PDFAnnotationChangePrivate
 {
     int changeType;
-    PDFAnnotation *annotation;
-    unsigned long long changeTimestamp;
 }
 
 - (void);

@@ -9,10 +9,6 @@
 @interface MapsSuggestions.MapsSuggestionsFakeStreamer : MapsSuggestions.MapsSuggestionsEventStreamer
 {
     void callBackBlock;
-    _Bool simpleCallBack;
-    _Bool tenSecondEvent;
-    _Bool alreadyStartedEvent;
-    _Bool doubleEvent;
 }
 
 - (_Bool);
@@ -21,21 +17,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
-- (void)serHasAPaymentCard;
+- (void);
+- (void)userHasAPaymentCard;
 
 // Remaining properties
-@property(nonatomic) _Bool alreadyStartedEvent; // @synthesize alreadyStartedEvent;
 @property(nonatomic, copy) CDUnknownBlockType callBackBlock;
-@property(nonatomic) _Bool doubleEvent; // @synthesize doubleEvent;
-@property(nonatomic) _Bool simpleCallBack; // @synthesize simpleCallBack;
-@property(nonatomic) _Bool tenSecondEvent; // @synthesize tenSecondEvent;
 
 @end
 

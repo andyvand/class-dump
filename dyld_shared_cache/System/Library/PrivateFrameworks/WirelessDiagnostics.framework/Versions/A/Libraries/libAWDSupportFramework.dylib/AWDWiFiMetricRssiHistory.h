@@ -7,18 +7,6 @@
 @interface AWDWiFiMetricRssiHistory
 {
     CDStruct_95bda58d _bcnFrmsHistorys;
-    CDStruct_95bda58d _bcnPerHistorys;
-    CDStruct_95bda58d _fwTxFrmsHistorys;
-    CDStruct_95bda58d _fwTxPerHistorys;
-    CDStruct_95bda58d _rssiHistorys;
-    CDStruct_95bda58d _txFrmsHistorys;
-    CDStruct_95bda58d _txPerHistorys;
-    unsigned long long _timestamp;
-    unsigned int _gatewayARPHistory;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int gatewayARPHistory:1;
-    } _has;
 }
 
 - (void);
@@ -31,17 +19,17 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long)ȣ;
 - (void);
 - (unsigned long long);
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)%;
 - (void);
 - (void);
 - (void);
@@ -53,54 +41,37 @@
 - (int *);
 - (unsigned int);
 - (void);
-- (int);
+- (int));
 - (void);
 - (void);
-- (void);
+- (void)i;
 - (int *);
 - (void);
 - (void);
 - (id);
+- (void)R;
 - (void);
+- (int)4;
+- (unsigned long long)h;
 - (void);
-- (int);
-- (unsigned long long);
-- (void);
-- (int);
+- (int);
 - (id);
-- (int *);
+- (int *)";
 - (void);
 - (int *);
-- (void);
-- (int *);
+- (void)J;
+- (int *);
 - (int *);
 - (int *);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)Week;
 - (unsigned long long);
-- (int)probeResults;
+- (int)_probeResults;
 - (void)N,V_bin;
 
 // Remaining properties
-@property(readonly, nonatomic) int *bcnFrmsHistorys;
-@property(readonly, nonatomic) unsigned long long bcnFrmsHistorysCount;
-@property(readonly, nonatomic) int *bcnPerHistorys;
-@property(readonly, nonatomic) unsigned long long bcnPerHistorysCount;
-@property(readonly, nonatomic) int *fwTxFrmsHistorys;
-@property(readonly, nonatomic) unsigned long long fwTxFrmsHistorysCount;
-@property(readonly, nonatomic) int *fwTxPerHistorys;
-@property(readonly, nonatomic) unsigned long long fwTxPerHistorysCount;
-@property(nonatomic) unsigned int gatewayARPHistory; // @synthesize gatewayARPHistory=_gatewayARPHistory;
-@property(nonatomic) _Bool hasGatewayARPHistory;
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) int *rssiHistorys;
-@property(readonly, nonatomic) unsigned long long rssiHistorysCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) int *txFrmsHistorys;
-@property(readonly, nonatomic) unsigned long long txFrmsHistorysCount;
-@property(readonly, nonatomic) int *txPerHistorys;
-@property(readonly, nonatomic) unsigned long long txPerHistorysCount;
 
 @end
 

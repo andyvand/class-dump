@@ -9,10 +9,6 @@
 @interface MPSNDArrayAffineQuantizationDescriptor : MPSNDArrayQuantizationDescriptor
 {
     _Bool _hasZeroPoint;
-    _Bool _hasMinValue;
-    _Bool _hasDoubleQuantScale;
-    _Bool _hasDoubleQuantMinVal;
-    _Bool _signedAsUnsigned;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,11 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasDoubleQuantMinVal; // @synthesize hasDoubleQuantMinVal=_hasDoubleQuantMinVal;
 @property(nonatomic) _Bool hasDoubleQuantScale; // @synthesize hasDoubleQuantScale=_hasDoubleQuantScale;
-@property(nonatomic) _Bool hasMinValue; // @synthesize hasMinValue=_hasMinValue;
-@property(nonatomic) _Bool hasZeroPoint; // @synthesize hasZeroPoint=_hasZeroPoint;
-@property(nonatomic) _Bool implicitZeroPoint; // @synthesize implicitZeroPoint=_signedAsUnsigned;
 
 @end
 

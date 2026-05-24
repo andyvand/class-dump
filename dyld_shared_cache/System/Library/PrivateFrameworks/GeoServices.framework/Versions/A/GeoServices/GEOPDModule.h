@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDModuleOptions, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDModule
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_moduleDebugDescription;
-    GEOPDModuleOptions *_options;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _moduleConfigurationIndex;
-    int _type;
-    struct {
-        unsigned int has_moduleConfigurationIndex:1;
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_moduleDebugDescription:1;
-        unsigned int read_options:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tIconChecksums:(id)arg1;
++ (_Bool)setIconChecksums:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -37,15 +21,15 @@
 - (void);
 - (void);
 - (id);
+- (id)P;
+- (void);
+- (void);
+- (void);
+- (id)_currentAsset;
+- (void)etion:(id)arg1 ];
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (id);
 - (int);
@@ -53,8 +37,8 @@
 - (id);
 - (void);
 - (id)elds"b1"read_locations"b1"read_wifiAccessPoints"b1"wrote_anyField"b1};
-- (void)imit:(int)arg1 memoryCacheCostLimit: /* Error: Ran out of types for this method. */;
-- (id)lFilter;
+- (void)_updateMemoryCacheCountLimit:(int)arg1 memoryCacheCostLimit: /* Error: Ran out of types for this method. */;
+- (id)_groundViewLabelFilter;
 - (int)Ì;
 - (id)k;
 - (id)SCHEDULECARD_TRAY;
@@ -64,15 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasModuleConfigurationIndex;
-@property(readonly, nonatomic) _Bool hasModuleDebugDescription;
-@property(readonly, nonatomic) _Bool hasOptions;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int moduleConfigurationIndex;
-@property(retain, nonatomic) NSString *moduleDebugDescription;
-@property(retain, nonatomic) GEOPDModuleOptions *options;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

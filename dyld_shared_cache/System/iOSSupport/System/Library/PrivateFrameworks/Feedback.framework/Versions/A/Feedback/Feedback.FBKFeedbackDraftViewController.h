@@ -8,23 +8,18 @@
 {
     id form;
     id delegate;
-    id presentationDelegate;
-    id extensionObserver;
-    id extensionKitQueryDelegate;
-    id _xpcConnection;
-    id showsCompletionPage;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)setUserInterfaceType:(id)arg1;
 - (id);
 - (void);
 

@@ -7,7 +7,6 @@
 @interface XavierNews.AggregateContext
 {
     id updatedAt;
-    id aggregates;
 }
 
 @end

@@ -7,6 +7,8 @@
 @protocol EDCategoryChangeHookResponder
 
 @optional
+- (void);
+- (void);
 - (void)¦;
 @end
 

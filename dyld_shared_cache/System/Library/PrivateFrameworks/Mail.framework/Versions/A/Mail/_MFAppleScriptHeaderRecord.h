@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMessage, NSString;
+@class NSString;
 
 @interface _MFAppleScriptHeaderRecord
 {
     NSString *_name;
-    id _content;
-    MCMessage *_message;
 }
 
+- (id)J;
+- (void)_createDocumentFragmentWithMarkupString:(id)arg1 baseURLString: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)rename;
 - (id)(SELECT count() FROM messages INNER JOIN labels ON labels.message_id = messages.ROWID WHERE labels.mailbox_id = mailboxes.ROWID AND messages.mailbox = mailboxes.source AND messages.flags&%lld = 0 AND messages.flags&%lld = 0 AND messages.message_id != 0 GROUP BY messages.message_id) +                                                         (SELECT count() FROM messages INNER JOIN labels ON labels.message_id = messages.ROWID WHERE labels.mailbox_id = mailboxes.ROWID AND messages.mailbox = mailboxes.source AND messages.flags&%lld = 0 AND messages.flags&%lld = 0 AND messages.message_id = 0) AS unread_count_adjusted_for_duplicates                                                         FROM messages JOIN labels ON labels.message_id = messages.ROWID JOIN mailboxes ON messages.mailbox = mailboxes.source                                                         WHERE labels.mailbox_id = mailboxes.ROWID AND mailboxes.source NOTNULL;
 - (void)¨ì;
 
 // Remaining properties
-@property(retain, nonatomic) id content; // @synthesize content=_content;
-@property(retain, nonatomic) MCMessage *message; // @synthesize message=_message;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

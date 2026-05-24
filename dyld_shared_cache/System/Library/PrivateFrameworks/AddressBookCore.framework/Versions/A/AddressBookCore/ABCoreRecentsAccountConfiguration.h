@@ -11,7 +11,6 @@
 @interface ABCoreRecentsAccountConfiguration : ABInMemoryAccountConfiguration
 {
     _Bool _isAcceptedIntrosAccount;
-    NSString *_accountIdentifier;
 }
 
 - (_Bool);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) _Bool isAcceptedIntrosAccount; // @synthesize isAcceptedIntrosAccount=_isAcceptedIntrosAccount;
 
 @end
 

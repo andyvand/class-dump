@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MRRapportTransportConfiguration
 {
     NSString *_deviceUID;
-    NSString *_sessionUID;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *sessionUID; // @synthesize sessionUID=_sessionUID;
 
 @end
 

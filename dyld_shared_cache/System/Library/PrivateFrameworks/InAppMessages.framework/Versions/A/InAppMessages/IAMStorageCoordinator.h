@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAMICStorageProvider, NSSet, NSString;
-@protocol IAMMessageEntryProvider, IAMMessageMetadataStorage, IAMPropertyStorage, IAMStorageCoordinatorDelegate;
+@class IAMICStorageProvider;
+@protocol IAMMessageEntryProvider;
 
 @interface IAMStorageCoordinator
 {
     id <IAMMessageEntryProvider> _messageEntryProvider;
-    id <IAMMessageMetadataStorage> _messageMetadataStorage;
-    id <IAMPropertyStorage> _propertyStorage;
-    NSSet *_messageBundleIdentifiers;
-    IAMICStorageProvider *_iTunesCloudStorageProvider;
-    id <IAMStorageCoordinatorDelegate> _delegate;
 }
 
 + (id);
@@ -34,20 +29,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void):(id)arg1;
+- (void)_additionalTelemetry;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IAMStorageCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IAMICStorageProvider *iTunesCloudStorageProvider; // @synthesize iTunesCloudStorageProvider=_iTunesCloudStorageProvider;
-@property(readonly) Class superclass;
 
 @end
 

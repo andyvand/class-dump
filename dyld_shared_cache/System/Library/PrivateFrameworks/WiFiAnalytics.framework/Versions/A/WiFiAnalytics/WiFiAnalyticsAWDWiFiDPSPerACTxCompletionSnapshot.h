@@ -7,38 +7,15 @@
 @interface WiFiAnalyticsAWDWiFiDPSPerACTxCompletionSnapshot
 {
     unsigned int _chipModeError;
-    unsigned int _dropped;
-    unsigned int _expired;
-    unsigned int _firmwareFreePacket;
-    unsigned int _forceLifetimeExp;
-    unsigned int _maxRetries;
-    unsigned int _noAck;
-    unsigned int _noBuf;
-    unsigned int _noResources;
-    unsigned int _success;
-    unsigned int _txFailure;
-    struct {
-        unsigned int chipModeError:1;
-        unsigned int dropped:1;
-        unsigned int expired:1;
-        unsigned int firmwareFreePacket:1;
-        unsigned int forceLifetimeExp:1;
-        unsigned int maxRetries:1;
-        unsigned int noAck:1;
-        unsigned int noBuf:1;
-        unsigned int noResources:1;
-        unsigned int success:1;
-        unsigned int txFailure:1;
-    } _has;
 }
 
 - (unsigned int);
 - (void);
 - (void);
+- (void)__constg_swiftt;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ontainer size mismatch for SingleValueDecodingContainer4OptionalPrimitive;
+- (void)DecodingContainer;
 - (void);
 - (void);
 - (void);
@@ -58,16 +35,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)C;
 - (void);
-- (unsigned int);
+- (unsigned int)n;
 - (void);
-- (id);
+- (id)t_if(!remStore) -- REMDAChangeTrackingHelper:remStore is nil when trying to _fetchModelObjectsOfClass:withObjectIDs: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -79,37 +56,16 @@
 - (unsigned int);
 - (void);
 - (void);
+- (id)const T), size_t) const [T = float];
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int)I;
 - (unsigned int);
 - (void);
 - (void)ÁMð! Aù× ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned int chipModeError; // @synthesize chipModeError=_chipModeError;
-@property(nonatomic) unsigned int dropped; // @synthesize dropped=_dropped;
-@property(nonatomic) unsigned int expired; // @synthesize expired=_expired;
-@property(nonatomic) unsigned int firmwareFreePacket; // @synthesize firmwareFreePacket=_firmwareFreePacket;
-@property(nonatomic) unsigned int forceLifetimeExp; // @synthesize forceLifetimeExp=_forceLifetimeExp;
-@property(nonatomic) _Bool hasChipModeError;
-@property(nonatomic) _Bool hasDropped;
-@property(nonatomic) _Bool hasExpired;
-@property(nonatomic) _Bool hasFirmwareFreePacket;
-@property(nonatomic) _Bool hasForceLifetimeExp;
-@property(nonatomic) _Bool hasMaxRetries;
-@property(nonatomic) _Bool hasNoAck;
-@property(nonatomic) _Bool hasNoBuf;
-@property(nonatomic) _Bool hasNoResources;
 @property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool hasTxFailure;
-@property(nonatomic) unsigned int maxRetries; // @synthesize maxRetries=_maxRetries;
-@property(nonatomic) unsigned int noAck; // @synthesize noAck=_noAck;
-@property(nonatomic) unsigned int noBuf; // @synthesize noBuf=_noBuf;
-@property(nonatomic) unsigned int noResources; // @synthesize noResources=_noResources;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned int txFailure; // @synthesize txFailure=_txFailure;
 
 @end
 

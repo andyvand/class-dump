@@ -4,60 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMuninViewState, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPGroundViewFeedbackContext
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _visiblePlaceMuids;
-    NSString *_imageId;
-    unsigned long long _imdataId;
-    NSMutableArray *_onscreenImageResources;
-    GEOPDMuninViewState *_viewState;
-    NSMutableArray *_visibleFeatureHandles;
-    NSString *_webViewStateUrl;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _metadataTileBuildId;
-    struct {
-        unsigned int has_imdataId:1;
-        unsigned int has_metadataTileBuildId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_visiblePlaceMuids:1;
-        unsigned int read_imageId:1;
-        unsigned int read_onscreenImageResources:1;
-        unsigned int read_viewState:1;
-        unsigned int read_visibleFeatureHandles:1;
-        unsigned int read_webViewStateUrl:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
-+ (_Bool)ocation:(id)arg1;
++ (Class)rom sealed box %@;
++ (_Bool)setLastKnownRoadLocation:(id)arg1;
 - (unsigned long long);
 - (unsigned long long *);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned int);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned int);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,8 +53,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)uncompressedAudioLogging;
+- (void)CSSmartSiriVolumeClient;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -94,21 +70,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImageId;
-@property(nonatomic) _Bool hasImdataId;
-@property(nonatomic) _Bool hasMetadataTileBuildId;
 @property(readonly, nonatomic) _Bool hasViewState;
-@property(readonly, nonatomic) _Bool hasWebViewStateUrl;
-@property(retain, nonatomic) NSString *imageId;
-@property(nonatomic) unsigned long long imdataId;
-@property(nonatomic) unsigned int metadataTileBuildId;
-@property(retain, nonatomic) NSMutableArray *onscreenImageResources;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDMuninViewState *viewState;
-@property(retain, nonatomic) NSMutableArray *visibleFeatureHandles;
-@property(readonly, nonatomic) unsigned long long *visiblePlaceMuids;
-@property(readonly, nonatomic) unsigned long long visiblePlaceMuidsCount;
-@property(retain, nonatomic) NSString *webViewStateUrl;
 
 @end
 

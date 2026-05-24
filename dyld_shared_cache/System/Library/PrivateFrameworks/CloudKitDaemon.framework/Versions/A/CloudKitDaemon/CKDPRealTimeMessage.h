@@ -9,10 +9,6 @@
 @interface CKDPRealTimeMessage
 {
     NSMutableArray *_associatedMergeableDeltas;
-    NSMutableArray *_deleteRecordids;
-    NSMutableArray *_saveRecords;
-    int _version;
-    CDStruct_f20694ce _has;
 }
 
 + (Class);
@@ -31,7 +27,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void),;
 - (void);
 - (id);
 - (void);
@@ -39,24 +35,20 @@
 - (int);
 - (id);
 - (void);
+- (void)@44^@52;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)Sending(FigEndpointStreamAudioEngineRef, Boolean, Boolean *);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)EDSearchableIndexState;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)eURLsToInstalledBundleIDsOperation;
+- (void)CKDMapShareURLsToInstalledBundleIDsOperation;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *associatedMergeableDeltas; // @synthesize associatedMergeableDeltas=_associatedMergeableDeltas;
-@property(retain, nonatomic) NSMutableArray *deleteRecordids; // @synthesize deleteRecordids=_deleteRecordids;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSMutableArray *saveRecords; // @synthesize saveRecords=_saveRecords;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

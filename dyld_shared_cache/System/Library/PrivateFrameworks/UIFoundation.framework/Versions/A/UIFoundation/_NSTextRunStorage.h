@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableRLEArray, NSStorage, NSTextRange;
-@protocol NSTextLocation, __NSTextRunStorageDataSource;
+@protocol __NSTextRunStorageDataSource;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextRunStorage
 {
     id <__NSTextRunStorageDataSource> _dataSource;
-    NSMutableRLEArray *_RLEArray;
-    NSStorage *_elements;
-    NSTextRange *_seedRange;
-    NSTextRange *_contentRange;
-    long long _seedElementIndex;
-    _Bool _isCountable;
-    _Bool _hasBaseLocation;
-    _Bool _mapsLocationOffset;
-    id <NSTextLocation> _baseLocation;
 }
 
 - (void);
-- (void);
+- (void)}!H;
 - (id);
 - (id);
 - (long long);
@@ -36,10 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) long long baseIndex;
-@property(readonly) id <NSTextLocation> baseLocation;
-@property(readonly, retain) NSTextRange *contentRange;
-@property(readonly) id <__NSTextRunStorageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) _Bool isEmpty;
 
 @end
 

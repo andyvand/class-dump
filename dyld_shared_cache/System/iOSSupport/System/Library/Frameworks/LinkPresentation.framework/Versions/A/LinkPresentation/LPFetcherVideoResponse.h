@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     LPVideo *_video;
 }
 
-+ (id);
-- (id);
++ (id)suggestionsLayoutSectionForEnvironment:(id)arg1;
+- (id)suggestionComparator;
 - (id);
 - (void);
 

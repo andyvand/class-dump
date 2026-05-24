@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol _CPFeedbackUUID
+- (NSString *)FaceTimeScreenSharing;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *uuid;

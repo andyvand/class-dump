@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaControls, MPMediaControlsConfiguration, NSString;
-@protocol MPMediaControlsViewControllerDelegate;
+@class MPMediaControls, MPMediaControlsConfiguration;
 
 @interface MPMediaControlsViewController
 {
     MPMediaControlsConfiguration *_configuration;
-    CDUnknownBlockType _didDismissHandler;
-    id <MPMediaControlsViewControllerDelegate> _delegate;
-    MPMediaControls *_mediaControls;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -42,17 +38,7 @@
 - (void)odelID;
 
 // Remaining properties
-@property(readonly, nonatomic) MPMediaControlsConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPMediaControlsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didDismissHandler; // @synthesize didDismissHandler=_didDismissHandler;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) MPMediaControls *mediaControls; // @synthesize mediaControls=_mediaControls;
-@property(readonly) Class superclass;
 
 @end
 

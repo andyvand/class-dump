@@ -9,7 +9,6 @@
 @interface ICTintedLayer
 {
     NSColor *_tintColor;
-    id _originalContents;
 }
 
 - (void);
@@ -17,12 +16,11 @@
 - (void);
 - (void);
 - (id);
-- (void)ate: /* Error: Ran out of types for this method. */;
+- (void)authenticationStateDidDeauthenticate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id originalContents; // @synthesize originalContents=_originalContents;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

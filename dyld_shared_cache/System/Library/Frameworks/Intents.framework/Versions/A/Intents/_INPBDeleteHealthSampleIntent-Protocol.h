@@ -7,12 +7,12 @@
 @class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBDeleteHealthSampleIntent
-- (_Bool)dPayloadNoteContent: /* Error: Ran out of types for this method. */;
+- (NSArray *);
+- (void);
+- (_INPBIntentMetadata *)get*/Data/SystemData/com.apple.chrono/*;
+- (_Bool)addPayloadNoteContent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *sampleUuids;
-@property(readonly, nonatomic) unsigned long long sampleUuidsCount;
 @end
 

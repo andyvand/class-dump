@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString;
 
 @protocol IMServiceReachabilityControllerDelegate
+- (NSArray *)d Failed to retrieve interface;
+- (NSString *)e the float converter;
+- (NSArray *)djust:(NSString *)arg1 %f;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *serviceNamesForSending;

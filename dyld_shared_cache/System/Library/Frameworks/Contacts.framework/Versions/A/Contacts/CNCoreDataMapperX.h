@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDChangeHistoryStore, CNCDPersistenceStack, NSString;
-@protocol CNContactPosterDataStore;
+@class CNCDChangeHistoryStore, CNCDPersistenceStack;
 
 @interface CNCoreDataMapperX
 {
     CNCDPersistenceStack *_persistenceStack;
-    id <CNContactPosterDataStore> _posterDataStore;
-    CNCDChangeHistoryStore *_changeHistoryStore;
 }
 
-+ (id);
++ (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)ITE error for message send trx ;
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)eventPropertiesToMatch;
+- (_Bool)qF;
 - (id);
 - (id);
 - (id);
@@ -37,11 +34,11 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)SetWithIndexesInRange: /* Error: Ran out of types for this method. */;
-- (_Bool)ededAtDefaultLocation:(id)arg1;
-- (id)s;
+- (id)indexSetWithIndexesInRange: /* Error: Ran out of types for this method. */;
+- (_Bool)createStoreDirectoryIfNeededAtDefaultLocation:(id)arg1;
+- (id)_includeGroupChanges;
 - (id)V_donationIdentifier;
-- (id)ntacts;
+- (id)_avatarContacts;
 - (id);
 - (_Bool);
 - (id)with provider identifier %{public}s for %{public}s app;
@@ -53,30 +50,6 @@
 
 // Remaining properties
 @property(readonly) CNCDChangeHistoryStore *changeHistoryStore; // @synthesize changeHistoryStore=_changeHistoryStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *legacyTetheredSyncComputerAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSString *legacyTetheredSyncDeviceAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(readonly) _Bool shouldLogContactsAccess;
-@property(readonly, nonatomic) _Bool shouldLogPrivacyAccountingAccessEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly) _Bool userMightHaveUnconfiguredPersistenceStack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

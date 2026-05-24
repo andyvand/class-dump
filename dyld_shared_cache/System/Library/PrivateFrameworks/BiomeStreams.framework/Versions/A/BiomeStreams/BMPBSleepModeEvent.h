@@ -7,13 +7,6 @@
 @interface BMPBSleepModeEvent
 {
     double _expectedEndDate;
-    int _sleepModeChangeReason;
-    int _sleepModeState;
-    struct {
-        unsigned int expectedEndDate:1;
-        unsigned int sleepModeChangeReason:1;
-        unsigned int sleepModeState:1;
-    } _has;
 }
 
 - (void);
@@ -23,32 +16,27 @@
 - (void);
 - (double);
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)a;
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (int);
 - (id);
 - (int);
 
 // Remaining properties
-@property(nonatomic) double expectedEndDate; // @synthesize expectedEndDate=_expectedEndDate;
-@property(nonatomic) _Bool hasExpectedEndDate;
-@property(nonatomic) _Bool hasSleepModeChangeReason;
 @property(nonatomic) _Bool hasSleepModeState;
-@property(nonatomic) int sleepModeChangeReason; // @synthesize sleepModeChangeReason=_sleepModeChangeReason;
-@property(nonatomic) int sleepModeState; // @synthesize sleepModeState=_sleepModeState;
 
 @end
 

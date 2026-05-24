@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSProgress, NSURL;
+@class NSURL;
 
 @interface OSLogEventStore
 {
     NSURL *_archiveURL;
-    NSURL *_directoryURL;
-    NSArray *_relativeFilePaths;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _upgradeHandler;
-    NSProgress *_progress;
 }
 
 + (id);
@@ -34,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -46,11 +41,11 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Versions/A/Accounts;
 - (id);
 - (_Bool);
 - (struct _os_timesync_db_s *);
-- (void);
+- (void)G;
 - (id);
 - (void);
 - (id);
@@ -59,11 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *_archiveURL; // @synthesize _archiveURL;
-@property(retain, nonatomic) NSURL *_directoryURL; // @synthesize _directoryURL;
-@property(retain, nonatomic) NSProgress *_progress; // @synthesize _progress;
-@property(copy, nonatomic) CDUnknownBlockType _progressHandler; // @synthesize _progressHandler;
-@property(retain, nonatomic) NSArray *_relativeFilePaths; // @synthesize _relativeFilePaths;
-@property(copy, nonatomic) CDUnknownBlockType _upgradeHandler; // @synthesize _upgradeHandler;
 
 @end
 

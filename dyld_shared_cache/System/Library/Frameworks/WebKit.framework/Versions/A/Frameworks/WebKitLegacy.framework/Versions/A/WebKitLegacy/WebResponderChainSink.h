@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WebResponderChainSink
 {
     NSResponder *_lastResponderInChain;
-    _Bool _receivedUnhandledCommand;
 }
 
 - (_Bool);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)!tEù'ð1Â0@ù
 × ;
-- (void)ouldPrintExceptions:(SEL)arg1;
+- (void)setShouldPrintExceptions:(SEL)arg1;
 
 @end
 

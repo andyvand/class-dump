@@ -9,16 +9,12 @@
 @interface RBSLegacyAttribute : RBSAttribute
 {
     unsigned long long _reason;
-    unsigned long long _requestedReason;
-    unsigned long long _flags;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long flags;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) unsigned long long requestedReason;
 
 @end
 

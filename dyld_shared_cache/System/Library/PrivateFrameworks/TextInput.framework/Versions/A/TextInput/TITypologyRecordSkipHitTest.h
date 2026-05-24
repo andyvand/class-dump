@@ -6,16 +6,14 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class TIKeyboardLayout, TIKeyboardState, TIKeyboardTouchEvent;
+@class TIKeyboardTouchEvent;
 
 @interface TITypologyRecordSkipHitTest : TITypologyRecord
 {
     TIKeyboardTouchEvent *_touchEvent;
-    TIKeyboardState *_keyboardState;
-    TIKeyboardLayout *_keyLayout;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -23,20 +21,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_identifier, score FROM groups WHERE rowid IN matchingIds AND category IN matchingValues;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)¨
 Á
 
 ;
-- (id)portable;
-- (void)king;
+- (id)unsupportable;
+- (void)spelunking;
 
 // Remaining properties
-@property(retain, nonatomic) TIKeyboardLayout *keyLayout; // @synthesize keyLayout=_keyLayout;
-@property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
 @property(retain, nonatomic) TIKeyboardTouchEvent *touchEvent; // @synthesize touchEvent=_touchEvent;
 
 @end

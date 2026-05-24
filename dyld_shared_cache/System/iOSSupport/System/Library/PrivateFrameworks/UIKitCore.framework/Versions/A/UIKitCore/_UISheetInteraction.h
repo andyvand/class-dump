@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIPanGestureRecognizer, UIView, _UIHyperAsymmetricExtender, _UIHyperInteractor, _UIHyperOutOfProcessViewAnimator, _UIHyperrectangle, _UIHyperregionUnion;
-@protocol NSObject, _UISheetInteractionDelegate;
+@class UIView;
 
 @interface _UISheetInteraction
 {
     double _previousMaxTopOffset;
-    struct {
-        unsigned int isUpdatingSheetOffset:1;
-    } _flags;
-    struct {
-        unsigned int sheetInteractionShouldInteractWithQuicklyScrollingDescendentScrollView:1;
-    } _delegateFlags;
-    _Bool _scrollingExpandsToLargerDetentWhenScrolledToEdge;
-    _Bool _enabled;
-    _Bool _scrollInteractionEnabled;
-    _Bool _generatingAnimations;
-    CDUnknownBlockType _numberOfDetentsGetter;
-    CDUnknownBlockType _detentGetter;
-    long long _indexOfCurrentDetent;
-    CDUnknownBlockType _indexOfCurrentDetentGetter;
-    CDUnknownBlockType _currentOffsetWasInvalidated;
-    CDUnknownBlockType _rubberBandExtentBeyondMinimumOffsetGetter;
-    CDUnknownBlockType _rubberBandExtentBeyondMaximumOffsetGetter;
-    id <_UISheetInteractionDelegate> _delegate;
-    UIView *_view;
-    NSMutableArray *_registeredPanGestureRecognizers;
-    UIPanGestureRecognizer *_backgroundGestureRecognizer;
-    _UIHyperInteractor *_interactor;
-    NSMutableArray *_detentPoints;
-    _UIHyperregionUnion *_detentUnion;
-    _UIHyperrectangle *_detentContinuum;
-    _UIHyperAsymmetricExtender *_extender;
-    _UIHyperOutOfProcessViewAnimator *_animator;
-    id <NSObject> _dragSource;
 }
 
 - (CDUnknownBlockType);
@@ -48,23 +19,23 @@
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)CEMPredicateCompositeBudget_TimeBudgetItem;
+- (void)onlyMount;
+- (CDUnknownBlockType)ordpolicy;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)LabelForColoredGlyphs;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)tent encryption between registerItem->signature and registerItem->chunks[%llu]->signature.;
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)numberOfSectionsInCollectionView:(CDUnknownBlockType)arg1;
+- (_Bool)importSubscriptionAlbumArtworkForPersistentID:(id)arg1 artworkVariantType:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)layer instances.;
+- (void)userMoved;
 - (struct CGPoint);
 - (CDUnknownBlockType);
 - (void);
@@ -100,24 +71,24 @@
 × ;
 - (_Bool)Point=dd}48B64;
 - (struct CGPoint)r";
-- (id)d:withIndexPath: /* Error: Ran out of types for this method. */;
-- (void):(long long)arg1 to: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType);
-- (id)eValueMode: /* Error: Ran out of types for this method. */;
-- (_Bool)andleActionSelectionGestureRecognizer:(id)arg1;
-- (_Bool)rabberLumaTrackingEnabled;
+- (id)layoutAttributesForDecorationViewOfKind:withIndexPath: /* Error: Ran out of types for this method. */;
+- (void)didFinishTranslationFromPlacement:(long long)arg1 to: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)applyToString: /* Error: Ran out of types for this method. */;
+- (id)_setVariableValueMode: /* Error: Ran out of types for this method. */;
+- (_Bool)_handleActionSelectionGestureRecognizer:(id)arg1;
+- (_Bool)_grabberLumaTrackingEnabled;
 - (CDUnknownBlockType)me:additionalContentInset:zIndex: /* Error: Ran out of types for this method. */;
 - (id)idth;
 - (_Bool)wController;
-- (void)keningTintMaskViewContainer;
+- (void)_darkeningTintMaskViewContainer;
 - (void)indow:(CDUnknownBlockType)arg1 <%@:%p>; keyWindowCandidate:<%@:%p>; windowScene:%p; scene identity:%@ /* Error: Ran out of types for this method. */;
 - (void)rent platform.;
 - (void);
 - (void);
-- (_Bool)urceDisplay;
+- (_Bool)SourceDisplay;
 - (id);
 - (void)rface orientation.;
-- (void)ist;
+- (void)UIKBTreePropertyHighlightedVariantsList;
 - (void)ystem/Library/PrivateFrameworks/TextInputUI.framework;
 - (void)x.floatValue;
 - (void)ned at this point;
@@ -125,45 +96,13 @@
 - (id);
 - (void)y¹;
 - (void)Í? Ï?PPPPPPÐ?î?àßßßßßï?À¿¿¿¿¿ï?á?ø÷÷÷÷÷ç?è?ÙØØØØØè?ü©Ñ>î|>¦¾;
-- (void)oundConfiguration;
+- (void)UIBackgroundConfiguration;
 - (_Bool);
 - (struct CGPoint){þ¥33Àpþ33;
 - (_Bool);
-- (id)f_;
+- (id)df_;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIHyperOutOfProcessViewAnimator *animator; // @synthesize animator=_animator;
-@property(readonly, nonatomic) struct CGPoint attachmentPoint;
-@property(readonly, nonatomic) UIPanGestureRecognizer *backgroundGestureRecognizer; // @synthesize backgroundGestureRecognizer=_backgroundGestureRecognizer;
-@property(readonly, nonatomic) struct CGPoint currentOffset;
-@property(copy, nonatomic) CDUnknownBlockType currentOffsetWasInvalidated; // @synthesize currentOffsetWasInvalidated=_currentOffsetWasInvalidated;
-@property(readonly, nonatomic) struct CGPoint currentVelocity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UISheetInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _UIHyperrectangle *detentContinuum; // @synthesize detentContinuum=_detentContinuum;
-@property(copy, nonatomic) CDUnknownBlockType detentGetter; // @synthesize detentGetter=_detentGetter;
-@property(readonly, nonatomic) NSMutableArray *detentPoints; // @synthesize detentPoints=_detentPoints;
-@property(readonly, nonatomic) _UIHyperregionUnion *detentUnion; // @synthesize detentUnion=_detentUnion;
-@property(retain, nonatomic) id <NSObject> dragSource; // @synthesize dragSource=_dragSource;
-@property(readonly, nonatomic, getter=isDragging) _Bool dragging;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) _UIHyperAsymmetricExtender *extender; // @synthesize extender=_extender;
-@property(nonatomic, getter=isGeneratingAnimations) _Bool generatingAnimations; // @synthesize generatingAnimations=_generatingAnimations;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long indexOfCurrentDetent; // @synthesize indexOfCurrentDetent=_indexOfCurrentDetent;
-@property(copy, nonatomic) CDUnknownBlockType indexOfCurrentDetentGetter; // @synthesize indexOfCurrentDetentGetter=_indexOfCurrentDetentGetter;
-@property(readonly, nonatomic) _UIHyperInteractor *interactor; // @synthesize interactor=_interactor;
-@property(copy, nonatomic) CDUnknownBlockType numberOfDetentsGetter; // @synthesize numberOfDetentsGetter=_numberOfDetentsGetter;
-@property(readonly, nonatomic) NSMutableArray *registeredPanGestureRecognizers; // @synthesize registeredPanGestureRecognizers=_registeredPanGestureRecognizers;
-@property(copy, nonatomic) CDUnknownBlockType rubberBandExtentBeyondMaximumOffsetGetter; // @synthesize rubberBandExtentBeyondMaximumOffsetGetter=_rubberBandExtentBeyondMaximumOffsetGetter;
-@property(copy, nonatomic) CDUnknownBlockType rubberBandExtentBeyondMinimumOffsetGetter; // @synthesize rubberBandExtentBeyondMinimumOffsetGetter=_rubberBandExtentBeyondMinimumOffsetGetter;
-@property(nonatomic, getter=isScrollInteractionEnabled) _Bool scrollInteractionEnabled; // @synthesize scrollInteractionEnabled=_scrollInteractionEnabled;
-@property(nonatomic) _Bool scrollingExpandsToLargerDetentWhenScrolledToEdge; // @synthesize scrollingExpandsToLargerDetentWhenScrolledToEdge=_scrollingExpandsToLargerDetentWhenScrolledToEdge;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

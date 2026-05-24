@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface VirtualCameraWarpingStates
 {
     VCCamera *_inputCamera;
-    VCCamera *_outputCamera;
-    struct CGRect _outputROI;
 }
 
-- (void);
+- (void)le",W,VmNextStyle;
 
 @end
 

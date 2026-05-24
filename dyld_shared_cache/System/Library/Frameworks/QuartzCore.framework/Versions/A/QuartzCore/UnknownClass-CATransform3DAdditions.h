@@ -18,8 +18,8 @@
 - (struct CACornerRadii);
 - (struct CAColorMatrix);
 - (unsigned long long);
-- (unsigned long long);
-- (struct Object *);
+- (unsigned long long)registerForAssetUploadRequests: /* Error: Ran out of types for this method. */;
+- (struct Object *)@24@32@40@?48;
 - (void);
 - (double);
 - (id);

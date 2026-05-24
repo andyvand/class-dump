@@ -5,5 +5,6 @@
 //
 
 @protocol CKQuickReplyAnimationProvider
+- (void)APGATGG;
 @end
 

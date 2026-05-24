@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICMediaTime
 {
     unsigned char _days;
-    unsigned char _hours;
-    unsigned char _minutes;
-    unsigned char _seconds;
-    unsigned char _centiseconds;
-    _Bool _negative;
 }
 
 - (void);
@@ -21,7 +14,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned char);
 - (id);
 - (void);
@@ -31,20 +24,13 @@
 - (_Bool);
 - (unsigned char);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char)X;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned char centiseconds; // @synthesize centiseconds=_centiseconds;
 @property(nonatomic) unsigned char days; // @synthesize days=_days;
-@property(readonly, nonatomic) NSString *durationDescription;
-@property(nonatomic) unsigned char hours; // @synthesize hours=_hours;
-@property(readonly, nonatomic) _Bool isZero;
-@property(nonatomic) unsigned char minutes; // @synthesize minutes=_minutes;
-@property(nonatomic, getter=isNegative) _Bool negative; // @synthesize negative=_negative;
-@property(nonatomic) unsigned char seconds; // @synthesize seconds=_seconds;
 
 @end
 

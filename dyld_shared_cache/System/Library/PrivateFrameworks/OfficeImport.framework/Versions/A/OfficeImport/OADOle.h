@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface OADOle
 {
     _Bool mIconic;
-    NSString *mCLSID;
-    NSString *mAnsiUserType;
-    NSString *mAnsiClipboardFormatName;
-    unsigned int mWinClipboardFormat;
-    NSString *mMacClipboardFormat;
-    NSString *mAnsiProgID;
-    NSString *mUnicodeUserType;
-    NSString *mUnicodeClipboardFormatName;
-    NSString *mUnicodeProgID;
-    id mObject;
 }
 
 + (_Bool);
@@ -29,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -39,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);

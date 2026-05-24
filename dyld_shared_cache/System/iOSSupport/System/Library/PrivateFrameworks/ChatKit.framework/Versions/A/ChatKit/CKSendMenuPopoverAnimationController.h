@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendMenuPopoverPresentationConfiguration, CKSendMenuPopoverPresentationControllerAnchorItem, NSString;
+@class CKSendMenuPopoverPresentationControllerAnchorItem;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverAnimationController
 {
     _Bool _presenting;
-    CKSendMenuPopoverPresentationConfiguration *_configuration;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)ections:(id)arg1 %s;
+- (void)pdate recent System Paper thumbnail because the most recent note doesn't have one;
+- (id)ted for set of notes;
 - (_Bool);
 - (void);
 - (double);
@@ -27,15 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CKSendMenuPopoverPresentationControllerAnchorItem *anchorItem;
-@property(retain, nonatomic) CKSendMenuPopoverPresentationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPresenting) _Bool presenting; // @synthesize presenting=_presenting;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,12 +11,9 @@ __attribute__((visibility("hidden")))
 @interface VCXPCServerUser
 {
     NSObject<OS_dispatch_queue> *queue;
-    CDUnknownBlockType block;
-    CDUnknownBlockType _authorizationBlock;
-    int _eventLogLevel;
 }
 
-- (void);
+- (void)H';
 - (CDUnknownBlockType);
 - (int);
 - (id);
@@ -28,9 +25,6 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType):%d done /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType authorizationBlock; // @synthesize authorizationBlock=_authorizationBlock;
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block;
-@property(nonatomic) int eventLogLevel; // @synthesize eventLogLevel=_eventLogLevel;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue;
 
 @end

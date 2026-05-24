@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UIKit.Implementation__priv_EC84B326E0A5500F8664F11F62EDB993
 {
     id scrollView;
-    id collectorInteraction;
-    id edge;
-    id requiresPocket;
-    id style;
-    id rect;
-    id cornerRadii;
-    id isCapsular;
-    id insets;
-    id view;
-    id geometryObservingView;
-    id targetedReceivers;
 }
 
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
+- (id)em->requestedRangeSignature && "only allowed if this isn't a ranged request";
 - (id);
-- (id);
-- (void)porting;
+- (void)NSProgressReporting;
 - (void)P<ÓÀ!_;
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _requiresPocket;
 @property(nonatomic, readonly) long long _style;
-@property(nonatomic, readonly) struct UIEdgeInsets _visualInsets;
-@property(nonatomic, readonly) NSString *description;
 
 @end
 

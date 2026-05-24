@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface ASDRepairOptions
 {
     _Bool _isBackground;
-    _Bool _forceRevoke;
-    _Bool _forceUpsell;
-    int _fairplayStatus;
-    NSString *_bundleID;
-    NSString *_bundlePath;
-    NSNumber *_accountDSID;
-    long long _claimStyle;
-    unsigned long long _exitReason;
-    NSDictionary *_relaunchOptions;
 }
 
 + (_Bool);
@@ -38,24 +27,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)K(;
 - (id);
-- (id);
+- (id)O realtime_transit_updates (timestamp, response_error_data) VALUES (?, ?);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *accountDSID; // @synthesize accountDSID=_accountDSID;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSString *bundlePath; // @synthesize bundlePath=_bundlePath;
-@property(readonly, nonatomic) long long claimStyle; // @synthesize claimStyle=_claimStyle;
-@property(nonatomic) unsigned long long exitReason; // @synthesize exitReason=_exitReason;
-@property(nonatomic) int fairplayStatus; // @synthesize fairplayStatus=_fairplayStatus;
 @property(nonatomic) _Bool forceRevoke; // @synthesize forceRevoke=_forceRevoke;
-@property(nonatomic) _Bool forceUpsell; // @synthesize forceUpsell=_forceUpsell;
-@property(nonatomic) _Bool isBackground; // @synthesize isBackground=_isBackground;
-@property(copy, nonatomic) NSDictionary *relaunchOptions; // @synthesize relaunchOptions=_relaunchOptions;
 
 @end
 

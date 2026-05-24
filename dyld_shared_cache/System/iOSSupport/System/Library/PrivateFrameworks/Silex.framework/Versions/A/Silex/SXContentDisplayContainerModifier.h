@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface SXContentDisplayContainerModifier
 {
@@ -13,19 +13,12 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)ngierInteractiveCanvasController"16@"TSWPHyperlinkField"24@"SXTextTangierFlowInfo"32{_NSRange=QQ}40{CGPoint=dd}56B72;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *containers; // @synthesize containers=_containers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

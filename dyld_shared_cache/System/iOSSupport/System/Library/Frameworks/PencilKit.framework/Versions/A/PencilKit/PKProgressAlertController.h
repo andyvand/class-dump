@@ -9,7 +9,6 @@
 @interface PKProgressAlertController
 {
     id <PKProgressAlertControllerDelegate> _delegate;
-    double _progress;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PKProgressAlertControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
 
 @end
 

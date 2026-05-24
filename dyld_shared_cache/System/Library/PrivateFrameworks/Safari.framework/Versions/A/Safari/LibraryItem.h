@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSImage, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface LibraryItem
 {
     _Bool _isExpandable;
-    NSUUID *_identifier;
-    long long _type;
-    NSString *_title;
-    NSString *_originalTitle;
-    long long _badgeCount;
-    NSArray *_children;
-    NSAttributedString *_attributedTitle;
 }
 
 + (id);
 + (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)P;
+- (_Bool);
 - (_Bool);
 - (long long);
 - (void);
@@ -35,11 +28,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (long long);
+- (id)LastAddressedSIMID;
+- (long long);
 - (_Bool);
-- (id);
-- (void);
+- (id)updatedNotificationState:forCharacteristic:inService:withPeripheral: /* Error: Ran out of types for this method. */;
+- (void)f len %d, seqNum %d, pLen %d, status %d;
 - (void)0@ù
 × ;
 - (id)bility: /* Error: Ran out of types for this method. */;
@@ -52,21 +45,7 @@ __attribute__((visibility("hidden")))
 - (void),;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityIdentifier;
-@property(readonly, copy, nonatomic) NSString *accessibilityLabel;
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(nonatomic) long long badgeCount; // @synthesize badgeCount=_badgeCount;
-@property(readonly, nonatomic) _Bool canShowContextMenu;
-@property(readonly, nonatomic) _Bool canShowTrailingButton;
-@property(copy, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, nonatomic) NSImage *icon;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isExpandable; // @synthesize isExpandable=_isExpandable;
-@property(readonly, nonatomic) _Bool isMovable;
-@property(copy, nonatomic) NSString *originalTitle; // @synthesize originalTitle=_originalTitle;
-@property(readonly, nonatomic) _Bool requiresHiddenToolbar;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate;
+@class _SFPBDate;
 
 @interface _SFPBFlightDateDescriptor
 {
     float _bufferMinutes;
-    _SFPBDate *_scheduled;
-    _SFPBDate *_current;
 }
 
 - (void);
-- (float);
+- (float)!;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)managedObjectContext:(id)arg1 didExecuteFetchRequest:withSQLString:bindVariables:rowCount: /* Error: Ran out of types for this method. */;
+- (id)an't fetch curated asset IDs for %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)setRfPrimaryHeaderRichCardSection: /* Error: Ran out of types for this method. */;
 - (id)8;
 
 // Remaining properties
-@property(nonatomic) float bufferMinutes; // @synthesize bufferMinutes=_bufferMinutes;
-@property(retain, nonatomic) _SFPBDate *current; // @synthesize current=_current;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBDate *scheduled; // @synthesize scheduled=_scheduled;
-@property(readonly) Class superclass;
 
 @end
 

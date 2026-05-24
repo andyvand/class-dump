@@ -6,17 +6,10 @@
 
 #import <OfficeImport/EBState.h>
 
-@class ECColumnWidthConvertor, OABReaderState;
-
 __attribute__((visibility("hidden")))
 @interface EBReaderState : EBState
 {
     void *mXlReader;
-    void *mXlSheetInfoTable;
-    ECColumnWidthConvertor *mColumnWidthConvertor;
-    struct XlEshObjectFactory *mXlEshObjectFactory;
-    OABReaderState *mOAState;
-    _Bool mImportCSV;
 }
 
 - (void *);

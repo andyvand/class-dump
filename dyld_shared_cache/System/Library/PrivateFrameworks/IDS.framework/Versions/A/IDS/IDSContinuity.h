@@ -16,18 +16,18 @@
 - (void);
 - (void);
 - (void);
+- (void)Ѳ;
+- (void)nary=},V_stableMetadata;
+- (void)supportsPasses;
+- (void);
+- (void);
+- (long long)_wantsLocalReflectedSend;
+- (void)initWithCommand:(id)arg1 underlyingData: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id)!´Cù,ð1Â0@ù
 × ;
 - (void);

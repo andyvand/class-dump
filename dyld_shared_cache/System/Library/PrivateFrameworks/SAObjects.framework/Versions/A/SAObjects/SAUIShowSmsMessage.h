@@ -6,14 +6,12 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class SASmsSms;
-
 @interface SAUIShowSmsMessage : SAUISnippet
 {
 }
 
 + (id);
-+ (id);
++ (id)q9;
 - (_Bool);
 - (void);
 - (void);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool showAsDraft;
-@property(retain, nonatomic) SASmsSms *sms;
 
 @end
 

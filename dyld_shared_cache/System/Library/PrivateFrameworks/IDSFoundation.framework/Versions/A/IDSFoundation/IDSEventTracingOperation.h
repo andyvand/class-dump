@@ -9,20 +9,13 @@
 @interface IDSEventTracingOperation
 {
     id name;
-    id uniqueIdentifier;
-    id fields;
-    id subOperations;
-    id stopped;
-    id start;
-    id stopTime;
-    id error;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,11 +24,10 @@
 - (id);
 - (id)!Bùæ+°1Â0@ù
 × ;
-- (void)onFailed;
+- (void)SecondaryEncryptionFailed;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *description;
 
 @end
 

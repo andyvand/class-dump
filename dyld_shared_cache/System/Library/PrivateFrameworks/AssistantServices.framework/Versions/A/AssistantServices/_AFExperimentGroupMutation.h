@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFExperimentGroup, NSDictionary, NSString;
+@class AFExperimentGroup;
 
 @interface _AFExperimentGroupMutation
 {
     AFExperimentGroup *_base;
-    NSString *_identifier;
-    unsigned long long _allocation;
-    NSDictionary *_properties;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasIdentifier:1;
-        unsigned int hasAllocation:1;
-        unsigned int hasProperties:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -26,18 +17,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id)omDirectTrigger;
-- (void)r;
+- (void)hasEmbeddedJPEGSuitableForDerivativesInImageAtURL:(id)arg1 metadata:error: /* Error: Ran out of types for this method. */;
+- (id)startAdvertisingFromDirectTrigger;
+- (void)_legacyDirectActionIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

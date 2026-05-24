@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSURL;
+@class NSArray, NSURL;
 
 @interface UARPHeySiriModel
 {
     NSURL *_url;
-    NSMutableArray *_newModels;
-    NSMutableArray *_fallbackModels;
-    NSMutableArray *_downloadedModels;
-    NSMutableArray *_preInstalledModels;
-    unsigned long long _engineType;
-    unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
 }
 
 + (id);
-+ (id);
++ (id)eeting word count;
+- (id)};
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)}};
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void),I;
 
 // Remaining properties
-@property(readonly, copy) NSArray *downloadedModels;
-@property(readonly) unsigned long long engineType; // @synthesize engineType=_engineType;
-@property(readonly, copy) NSArray *fallbackModels;
-@property(readonly) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly) unsigned long long minorVersion; // @synthesize minorVersion=_minorVersion;
 @property(readonly, copy) NSArray *newModels;
-@property(readonly, copy) NSArray *preInstalledModels;
 
 @end
 

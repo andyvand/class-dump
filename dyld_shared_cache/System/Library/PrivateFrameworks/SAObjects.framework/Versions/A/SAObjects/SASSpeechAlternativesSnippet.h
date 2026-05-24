@@ -6,17 +6,15 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSString, SASRecognition;
-
 @interface SASSpeechAlternativesSnippet : SAUISnippet
 {
 }
 
 + (id);
-+ (id);
++ (id)P;
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) long long maxEntryToShow;
-@property(retain, nonatomic) SASRecognition *recognition;
-@property(copy, nonatomic) NSString *sessionId;
 
 @end
 

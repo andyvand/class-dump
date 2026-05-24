@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id)thumbnailIconForRequest:(long long)arg1;
 - (void);
 - (id);
 - (id);

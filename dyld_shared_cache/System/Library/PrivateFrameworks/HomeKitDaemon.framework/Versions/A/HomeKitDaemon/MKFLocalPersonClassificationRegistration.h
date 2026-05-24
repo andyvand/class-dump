@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class MKFLocalPersonClassificationSettings, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface MKFLocalPersonClassificationRegistration : HMDManagedObject
 {
@@ -18,8 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @dynamic enabled;
-@property(copy, nonatomic) NSUUID *personUUID; // @dynamic personUUID;
-@property(retain, nonatomic) MKFLocalPersonClassificationSettings *settings; // @dynamic settings;
 
 @end
 

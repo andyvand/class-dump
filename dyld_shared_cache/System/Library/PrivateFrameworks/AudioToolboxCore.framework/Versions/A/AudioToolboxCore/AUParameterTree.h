@@ -6,68 +6,48 @@
 
 #import <AudioToolboxCore/AUParameterGroup.h>
 
-@class AUAudioUnit_XH, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface AUParameterTree : AUParameterGroup
 {
     struct shared_ptr<AUObserverController> _observerController;
-    int __autoCreatedForV2AU;
-    int _numRecorders;
-    NSObject<OS_dispatch_queue> *_observationQueue;
-    NSObject<OS_dispatch_queue> *_valueAccessQueue;
-    AUAudioUnit_XH *__auXH;
-    struct AURemoteParameterObserver *_remoteObserverToken;
-    struct AURemoteParameterObserver *_remoteRecorderToken;
-    NSXPCConnection *_remoteParameterSynchronizerXPCConnection;
-    vector_16888c79 _addrToParamIndex;
 }
 
 + (id);
++ (id)operty data size for kAudioDevicePropertyIOThreadOSWorkgroup;
++ (id);
++ (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-+ (id);
-+ (id);
 - (void);
 - (void);
-- (struct AURemoteParameterObserver *);
+- (struct AURemoteParameterObserver *);
 - (void);
-- (void);
-- (void);
+- (void)$;
+- (void)Frameworks/LocalAuthentication.framework/LocalAuthentication;
 - (id);
 - (int);
 - (void);
 - (id);
-- (void *);
-- (void);
-- (id);
+- (void *)hC;
+- (void)for the device;
+- (id)e for the return value, Error:(unsigned long long)arg1 0x%X;
 - (int);
-- (void);
+- (void)ionEE_FbSJ_EEE;
 - (id);
 - (void);
 - (struct AURemoteParameterObserver *);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (vector_16888c79);
+- (vector_cb25d47f);
 - (id);
 - (void)xd;
 
 // Remaining properties
-@property(nonatomic) __weak AUAudioUnit_XH *_auXH; // @synthesize _auXH=__auXH;
-@property(nonatomic) int _autoCreatedForV2AU; // @synthesize _autoCreatedForV2AU=__autoCreatedForV2AU;
-@property(nonatomic) vector_16888c79 addrToParamIndex; // @synthesize addrToParamIndex=_addrToParamIndex;
-@property(nonatomic) int numRecorders; // @synthesize numRecorders=_numRecorders;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *observationQueue; // @synthesize observationQueue=_observationQueue;
-@property(nonatomic) struct AURemoteParameterObserver *remoteObserverToken; // @synthesize remoteObserverToken=_remoteObserverToken;
-@property(nonatomic) __weak NSXPCConnection *remoteParameterSynchronizerXPCConnection; // @synthesize remoteParameterSynchronizerXPCConnection=_remoteParameterSynchronizerXPCConnection;
-@property(nonatomic) struct AURemoteParameterObserver *remoteRecorderToken; // @synthesize remoteRecorderToken=_remoteRecorderToken;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *valueAccessQueue; // @synthesize valueAccessQueue=_valueAccessQueue;
+@property(nonatomic) vector_cb25d47f addrToParamIndex; // @synthesize addrToParamIndex=_addrToParamIndex;
 
 @end
 

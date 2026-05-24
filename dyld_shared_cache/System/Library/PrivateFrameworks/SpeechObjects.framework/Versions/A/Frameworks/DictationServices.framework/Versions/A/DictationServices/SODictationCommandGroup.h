@@ -4,48 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface SODictationCommandGroup
 {
     NSString *_identifier;
-    NSMutableArray *_commandsArray;
-    NSString *_displayString;
-    _Bool _isEnabled;
-    _Bool _isCustom;
-    unsigned long long _searchScore;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)5v;
+- (void)D %{public}@ from PCS %@;
+- (_Bool)one %@ with new PCS object;
+- (void)`;
+- (id)(;
+- (_Bool);
+- (_Bool);
+- (void)setShareInvitationTokensByShareURL:(id)arg1;
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (void)remoteRecordDidStopRecordingWithWithStreamHandleId:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)__AUTH_CONST;
 - (void)× ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *commandsArray; // @synthesize commandsArray=_commandsArray;
-@property(retain, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isCustom; // @synthesize isCustom=_isCustom;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) _Bool isGroup;
-@property(nonatomic) unsigned long long searchScore; // @synthesize searchScore=_searchScore;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol AFClockAlarmSnapshotMutating
+- (void);
+- (void)0:(NSDictionary *)arg1 8@"NSString"16Q24@"NSString"32i40@"NSDictionary"44;
+- (void)IMCloudKitSyncJobStateImporting;
 @end
 

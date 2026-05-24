@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKSendLaterPluginInfo;
+
 @protocol CKSendLaterPluginInfoObserver
+- (void)initForAttachment:(CKSendLaterPluginInfo *)arg1 preferredSize:scale:appearanceInfo: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)isTopHit;
 @end
 

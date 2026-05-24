@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSOperationQueue, NSURL;
+@class NSFileManager;
 
 @interface CRKConcreteFileSystemPrimitives
 {
     NSFileManager *_fileManager;
-    NSOperationQueue *_accessQueue;
 }
 
 + (_Bool);
@@ -41,13 +40,11 @@
 - (void);
 - (id)±S1Â0@ù
 × ;
-- (_Bool)mation:(id)arg1;
+- (_Bool)setStudentInformation:(id)arg1;
 - (id)m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOperationQueue *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(readonly, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly, nonatomic) NSURL *temporaryDirectoryURL;
 
 @end
 

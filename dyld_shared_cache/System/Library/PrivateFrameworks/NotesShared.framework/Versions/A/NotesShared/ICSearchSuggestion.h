@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, ICSearchToken, NSString;
+@class CSSuggestion;
 
 @interface ICSearchSuggestion
 {
     CSSuggestion *_csSuggestion;
-    unsigned long long _type;
-    NSString *_suggestionItemTitle;
-    ICSearchToken *_token;
-    NSString *_subQueryString;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)name to a C-string;
+- (id)m keychain item at index %ld:%d
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)sions/A/OpenDirectory;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)l;
 - (id);
 - (void)<;
 
 // Remaining properties
 @property(retain, nonatomic) CSSuggestion *csSuggestion; // @synthesize csSuggestion=_csSuggestion;
-@property(readonly, nonatomic) NSString *iconImageName;
-@property(readonly, nonatomic) NSString *subQueryString; // @synthesize subQueryString=_subQueryString;
-@property(readonly, nonatomic) NSString *suggestionItemTitle; // @synthesize suggestionItemTitle=_suggestionItemTitle;
-@property(readonly, nonatomic) ICSearchToken *token; // @synthesize token=_token;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

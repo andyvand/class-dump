@@ -5,5 +5,8 @@
 //
 
 @protocol ICCloudServerProtocol
+- (void);
+- (void);
+- (void);
 @end
 

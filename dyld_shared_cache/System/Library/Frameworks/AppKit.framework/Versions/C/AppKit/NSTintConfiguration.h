@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface NSTintConfiguration
 {
     _Bool _allowsAccentOverride;
-    long long _type;
-    NSColor *_tintColor;
 }
 
 + (id);
@@ -19,28 +15,23 @@
 + (id);
 + (_Bool)d;
 - (id);
-- (id);
+- (id)s idle for too long;
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)rusWithResumeData:(_Bool)arg1 originalRequest: /* Error: Ran out of types for this method. */;
+- (_Bool)storagePartitionIdentifier;
+- (void)`;
 - (id);
 - (id);
 - (void);
-- (id)cessibilityColumnsAttribute;
+- (id)accessibilityColumnsAttribute;
 - (void);
 - (id)ÿà_ÿ¤;
 - (void)argetElement:(long long)arg1 %@ ;
 - (long long)evice.m;
 
 // Remaining properties
-@property(setter=_setAllowsAccentOverride:) _Bool _allowsAccentOverride; // @synthesize _allowsAccentOverride;
-@property(copy, setter=_setTintColor:) NSColor *_tintColor; // @synthesize _tintColor;
 @property(setter=_setType:) long long _type; // @synthesize _type;
-@property(readonly) _Bool adaptsToUserAccentColor;
-@property(readonly) NSColor *baseTintColor;
-@property(readonly) NSColor *equivalentContentTintColor;
 
 @end
 

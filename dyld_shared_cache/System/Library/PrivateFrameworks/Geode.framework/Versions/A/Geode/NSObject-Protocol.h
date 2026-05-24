@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class Protocol;
 
 @protocol NSObject
+- (_Bool)assetClient:(Protocol *)arg1 didUpdateComposition: /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)<+
 ö¿8½÷@U[r @2w-!ôÀ?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

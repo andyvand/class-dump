@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, LAUIAuthenticationViewController, NSObject, NSString;
-@protocol InlineAuthorizationViewControllerDelegate;
+@class LAContext, LAUIAuthenticationViewController;
 
 __attribute__((visibility("hidden")))
 @interface InlineAuthorizationViewController
 {
     LAUIAuthenticationViewController *_laViewController;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_subtitleNoTouchID;
-    NSString *_dfrMessage;
-    NSObject<InlineAuthorizationViewControllerDelegate> *_delegate;
 }
 
 + (id);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -37,19 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<InlineAuthorizationViewControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) LAContext *localAuthenticationContext;
-@property(readonly, nonatomic) double minimumPaneHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

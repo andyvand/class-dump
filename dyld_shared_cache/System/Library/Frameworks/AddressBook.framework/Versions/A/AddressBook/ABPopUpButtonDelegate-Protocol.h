@@ -5,5 +5,8 @@
 //
 
 @protocol ABPopUpButtonDelegate
+
+@optional
+- (void);
 @end
 

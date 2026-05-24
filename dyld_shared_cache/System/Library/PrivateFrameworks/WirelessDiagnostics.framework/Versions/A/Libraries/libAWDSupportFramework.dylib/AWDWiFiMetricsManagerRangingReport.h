@@ -4,51 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiMetricsManagerRangingReport
 {
     unsigned long long _timestamp;
-    unsigned int _awdlLatency;
-    unsigned int _numMeasurements;
-    unsigned int _peerMasterChannel;
-    unsigned int _peerPreferredChannel;
-    unsigned int _peerPreferredChannelFlags;
-    unsigned int _protocolVersion;
-    unsigned int _rangingBandwidth;
-    unsigned int _rangingChannel;
-    unsigned int _rangingChannelQuality;
-    unsigned int _rangingLatency;
-    unsigned int _resultFlags;
-    unsigned int _resultStatus;
-    NSMutableArray *_rttSamples;
-    unsigned int _selfMasterChannel;
-    unsigned int _selfPreferredChannel;
-    unsigned int _selfPreferredChannelFlags;
-    unsigned int _validCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int awdlLatency:1;
-        unsigned int numMeasurements:1;
-        unsigned int peerMasterChannel:1;
-        unsigned int peerPreferredChannel:1;
-        unsigned int peerPreferredChannelFlags:1;
-        unsigned int protocolVersion:1;
-        unsigned int rangingBandwidth:1;
-        unsigned int rangingChannel:1;
-        unsigned int rangingChannelQuality:1;
-        unsigned int rangingLatency:1;
-        unsigned int resultFlags:1;
-        unsigned int resultStatus:1;
-        unsigned int selfMasterChannel:1;
-        unsigned int selfPreferredChannel:1;
-        unsigned int selfPreferredChannelFlags:1;
-        unsigned int validCount:1;
-    } _has;
 }
 
-+ (Class);
++ (Class);
 - (unsigned int);
+- (void)Y8;
 - (void);
 - (void);
 - (void);
@@ -65,26 +28,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)`;
 - (unsigned int);
 - (id);
-- (id);
+- (id)R: /* Error: Ran out of types for this method. */;
+- (unsigned int)C;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -95,21 +57,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)nM9;
 - (_Bool);
+- (_Bool)B;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (unsigned int)#;
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned int);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)H7X;
 - (void);
 - (unsigned int);
-- (void);
+- (void)t;
 - (_Bool);
 - (void);
 - (void);
@@ -134,41 +96,7 @@
 - (_Bool)LTECoexDurationMS;
 
 // Remaining properties
-@property(nonatomic) unsigned int awdlLatency; // @synthesize awdlLatency=_awdlLatency;
-@property(nonatomic) _Bool hasAwdlLatency;
-@property(nonatomic) _Bool hasNumMeasurements;
-@property(nonatomic) _Bool hasPeerMasterChannel;
-@property(nonatomic) _Bool hasPeerPreferredChannel;
-@property(nonatomic) _Bool hasPeerPreferredChannelFlags;
-@property(nonatomic) _Bool hasProtocolVersion;
-@property(nonatomic) _Bool hasRangingBandwidth;
-@property(nonatomic) _Bool hasRangingChannel;
-@property(nonatomic) _Bool hasRangingChannelQuality;
-@property(nonatomic) _Bool hasRangingLatency;
-@property(nonatomic) _Bool hasResultFlags;
-@property(nonatomic) _Bool hasResultStatus;
-@property(nonatomic) _Bool hasSelfMasterChannel;
-@property(nonatomic) _Bool hasSelfPreferredChannel;
-@property(nonatomic) _Bool hasSelfPreferredChannelFlags;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasValidCount;
-@property(nonatomic) unsigned int numMeasurements; // @synthesize numMeasurements=_numMeasurements;
-@property(nonatomic) unsigned int peerMasterChannel; // @synthesize peerMasterChannel=_peerMasterChannel;
-@property(nonatomic) unsigned int peerPreferredChannel; // @synthesize peerPreferredChannel=_peerPreferredChannel;
-@property(nonatomic) unsigned int peerPreferredChannelFlags; // @synthesize peerPreferredChannelFlags=_peerPreferredChannelFlags;
-@property(nonatomic) unsigned int protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(nonatomic) unsigned int rangingBandwidth; // @synthesize rangingBandwidth=_rangingBandwidth;
-@property(nonatomic) unsigned int rangingChannel; // @synthesize rangingChannel=_rangingChannel;
-@property(nonatomic) unsigned int rangingChannelQuality; // @synthesize rangingChannelQuality=_rangingChannelQuality;
-@property(nonatomic) unsigned int rangingLatency; // @synthesize rangingLatency=_rangingLatency;
-@property(nonatomic) unsigned int resultFlags; // @synthesize resultFlags=_resultFlags;
-@property(nonatomic) unsigned int resultStatus; // @synthesize resultStatus=_resultStatus;
-@property(retain, nonatomic) NSMutableArray *rttSamples; // @synthesize rttSamples=_rttSamples;
-@property(nonatomic) unsigned int selfMasterChannel; // @synthesize selfMasterChannel=_selfMasterChannel;
-@property(nonatomic) unsigned int selfPreferredChannel; // @synthesize selfPreferredChannel=_selfPreferredChannel;
-@property(nonatomic) unsigned int selfPreferredChannelFlags; // @synthesize selfPreferredChannelFlags=_selfPreferredChannelFlags;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int validCount; // @synthesize validCount=_validCount;
 
 @end
 

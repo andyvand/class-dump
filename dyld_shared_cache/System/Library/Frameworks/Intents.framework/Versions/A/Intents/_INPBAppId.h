@@ -9,17 +9,16 @@
 @interface _INPBAppId
 {
     struct _has;
-    NSString *_bundleId;
 }
 
 + (_Bool);
-- (id);
+- (id)ontrollerComponent>";
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)U;
+- (_Bool)userNotificationCenter:(id)arg1 willPresentNotification:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)ected=%lu, actual=%lu);
 - (id);
 - (id);
 - (void);
@@ -28,14 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBundleId;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIFocusSystem, _UIFocusEventRecognizer, _UIFocusMovementRequest;
+
 @protocol _UIFocusEventRecognizerDelegate
+- (_Bool)0:(_UIFocusEventRecognizer *)arg1 8@16@24C32B36@?40;
+- (UIFocusSystem *)isUnknownSenderBlastDoorEnabled;
+- (_Bool)initWithBDBasic:(_UIFocusEventRecognizer *)arg1 idsTrustedData:(_UIFocusMovementRequest *)arg2;
 @end
 

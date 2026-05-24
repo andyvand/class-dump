@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MRCompanionLinkClientEvent
 {
     NSString *_eventID;
-    NSDictionary *_userInfo;
-    NSString *_destination;
-    NSString *_uid;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)ger",&,V_trmPortManager;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void),V_clientCallbackPriorityQueue;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destination; // @synthesize destination=_destination;
 @property(retain, nonatomic) NSString *eventID; // @synthesize eventID=_eventID;
-@property(retain, nonatomic) NSString *uid; // @synthesize uid=_uid;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

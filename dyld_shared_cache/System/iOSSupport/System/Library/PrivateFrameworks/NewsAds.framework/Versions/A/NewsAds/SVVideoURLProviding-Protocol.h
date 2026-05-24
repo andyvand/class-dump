@@ -5,5 +5,6 @@
 //
 
 @protocol SVVideoURLProviding
+- (void (^)(void))rary/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayModule.swift;
 @end
 

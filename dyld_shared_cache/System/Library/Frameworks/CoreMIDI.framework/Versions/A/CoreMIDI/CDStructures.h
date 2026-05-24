@@ -10,8 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct CIAsyncTransaction;
-
 struct CallbackData {
     CDUnknownBlockType mUserReceiveBlock;
     struct lf_read_synchronized_write<applesauce::dispatch::block<void (const MIDIEventList *, void *)>> mReceiveTapBlock;
@@ -30,11 +28,11 @@ struct InternalUMPCI_ProcessInquiryReport {
 };
 
 struct MIDICIDeviceIdentification {
-    unsigned char manufacturer[3];
-    unsigned char family[2];
-    unsigned char modelNumber[2];
-    unsigned char revisionLevel[4];
-    unsigned char reserved[5];
+    unsigned char _field1[3];
+    unsigned char _field2[2];
+    unsigned char _field3[2];
+    unsigned char _field4[4];
+    unsigned char _field5[5];
 };
 
 struct MIDIEventList {
@@ -115,15 +113,6 @@ struct lf_read_synchronized_write<applesauce::dispatch::block<void (const MIDIEv
     struct array<caulk::concurrent::lf_read_synchronized_write<applesauce::dispatch::block<void (const MIDIEventList *, void *)>>::T_storage, 2UL> mValues;
 };
 
-struct messenger;
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
-
 struct nak_view {
     struct sysex7 *_field1;
 };
@@ -138,11 +127,6 @@ struct optional<std::pair<MIDICIDevice *, MIDIUMPCIProfile *>> {
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
 };
 
 struct pair<MIDICIDevice *, MIDIUMPCIProfile *> {
@@ -180,27 +164,9 @@ struct unfair_lock {
     struct os_unfair_lock_s m_lock;
 };
 
-struct unfair_recursive_lock {
-    struct os_unfair_recursive_lock_s m_lock;
-};
-
 struct unique_ptr<MIDICI::SysexCollector, std::default_delete<MIDICI::SysexCollector>> {
     struct {
         struct SysexCollector *__ptr_;
-    } ;
-};
-
-struct unique_ptr<caulk::concurrent::messenger, std::default_delete<caulk::concurrent::messenger>> {
-    struct {
-        struct messenger *__ptr_;
-    } ;
-};
-
-struct vector<CIAsyncTransaction, std::allocator<CIAsyncTransaction>> {
-    struct CIAsyncTransaction *__begin_;
-    struct CIAsyncTransaction *__end_;
-    struct {
-        struct CIAsyncTransaction *__cap_;
     } ;
 };
 
@@ -215,12 +181,12 @@ typedef struct {
 } CDStruct_de0e5961;
 
 typedef struct {
-    unsigned char sysExIDByte[3];
-} CDStruct_8bc9909c;
+    unsigned char _field1[3];
+} CDStruct_8356e4f6;
 
 typedef struct {
-    unsigned char revisionLevel[4];
-} CDStruct_0583a8e1;
+    unsigned char _field1[4];
+} CDStruct_6c2d3932;
 
 // Template types
 typedef struct block<void (const MIDIEventList *, void *)> {

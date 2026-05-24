@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFCallStateSnapshot, AFClockAlarmSnapshot, AFClockTimerSnapshot, AFDeviceContextMetadata, AFHomeAnnouncementSnapshot, AFLocationSnapshot, AFMediaPlaybackStateSnapshot, AFMultiUserStateSnapshot, AFPeerInfo, AFSystemStateSnapshot, NSData, NSMutableDictionary, NSString, NSUUID;
+@class AFClockAlarmSnapshot;
 
 @interface AFDeviceContext
 {
     _Bool _fromLocalDevice;
-    NSUUID *_identifier;
-    AFPeerInfo *_deviceInfo;
-    long long _privacyClass;
-    NSMutableDictionary *_serializedBackingStore;
-    long long _dirtyFlags;
-    NSString *_cachedDescription;
-    struct os_unfair_lock_s _cachedDescriptionLock;
-    NSString *_contextCollectorSource;
 }
 
 + (_Bool);
@@ -27,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -36,13 +28,13 @@
 - (id);
 - (id);
 - (id);
+- (id));
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -79,31 +71,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AFClockAlarmSnapshot *alarmSnapshot;
-@property(readonly, nonatomic) AFDeviceContextMetadata *alarmSnapshotMetadata;
-@property(readonly, nonatomic) AFDeviceContextMetadata *callStateMetadata;
-@property(readonly, nonatomic) AFCallStateSnapshot *callStateSnapshot;
-@property(readonly, nonatomic) NSString *contextCollectorSource; // @synthesize contextCollectorSource=_contextCollectorSource;
-@property(readonly, nonatomic) AFPeerInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(readonly, nonatomic) _Bool fromLocalDevice; // @synthesize fromLocalDevice=_fromLocalDevice;
-@property(readonly, nonatomic) long long heardVoiceTrigger;
-@property(readonly, nonatomic) AFDeviceContextMetadata *heardVoiceTriggerMetadata;
-@property(readonly, nonatomic) AFHomeAnnouncementSnapshot *homeAnnouncementSnapshot;
-@property(readonly, nonatomic) AFDeviceContextMetadata *homeAnnouncementSnapshotMetadata;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) AFDeviceContextMetadata *locationMetadata;
-@property(readonly, nonatomic) AFLocationSnapshot *locationSnapshot;
-@property(readonly, nonatomic) AFDeviceContextMetadata *multiUserStateMetadata;
-@property(readonly, nonatomic) AFMultiUserStateSnapshot *multiUserStateSnapshot;
-@property(readonly, nonatomic) NSData *myriadAdvertisementContext;
-@property(readonly, nonatomic) AFDeviceContextMetadata *playbackStateMetadata;
-@property(readonly, nonatomic) AFMediaPlaybackStateSnapshot *playbackStateSnapshot;
-@property(readonly, nonatomic) long long privacyClass; // @synthesize privacyClass=_privacyClass;
-@property(readonly, nonatomic) unsigned long long siriClientState;
-@property(readonly, nonatomic) AFDeviceContextMetadata *siriClientStateMetadata;
-@property(readonly, nonatomic) AFDeviceContextMetadata *systemStateMetadata;
-@property(readonly, nonatomic) AFSystemStateSnapshot *systemStateSnapshot;
-@property(readonly, nonatomic) AFClockTimerSnapshot *timerSnapshot;
-@property(readonly, nonatomic) AFDeviceContextMetadata *timerSnapshotMetadata;
 
 @end
 

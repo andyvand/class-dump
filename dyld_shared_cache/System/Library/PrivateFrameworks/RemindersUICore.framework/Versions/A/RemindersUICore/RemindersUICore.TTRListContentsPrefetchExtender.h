@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRListContentsPrefetchExtender
 {
     id prefetchCountNeeded;
-    id sCurrentIndexMap;
 }
 
 @end

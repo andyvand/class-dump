@@ -11,7 +11,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID;
 @property(readonly, copy, nonatomic) NSString *processName;
 @end
 

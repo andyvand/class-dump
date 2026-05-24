@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ICPAAudioQualityDictionary
 {
     long long _bitDepth;
-    long long _bitRate;
-    long long _sampleRate;
-    NSString *_channelLayoutDescription;
-    unsigned int _codec;
-    _Bool _isSpatialized;
-    struct {
-        unsigned int bitDepth:1;
-        unsigned int bitRate:1;
-        unsigned int sampleRate:1;
-        unsigned int codec:1;
-        unsigned int isSpatialized:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void)pLevelEvents;
+- (void)_topLevelEvents;
 
 @end
 

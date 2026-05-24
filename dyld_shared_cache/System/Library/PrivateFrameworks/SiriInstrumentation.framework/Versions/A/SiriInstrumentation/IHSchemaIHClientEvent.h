@@ -6,20 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class IHSchemaIHClientEventMetadata, IHSchemaIHModelEvaluationContext, NSData, SISchemaInstrumentationMessage;
+@class IHSchemaIHClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface IHSchemaIHClientEvent : SISchemaTopLevelUnionType
 {
     IHSchemaIHClientEventMetadata *_eventMetadata;
-    IHSchemaIHModelEvaluationContext *_modelEvaluationContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasModelEvaluationContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
-+ (id);
-- (unsigned long long);
++ (id);
+- (unsigned long long)@n;
 - (void);
 - (void);
 - (void);
@@ -29,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)/www.icloud.com/settings/#customdomain;
 - (void);
 - (id);
 - (id);
@@ -42,21 +38,15 @@
 - (id);
 - (id)1à°1Â0@ù
 × ;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)setContactFullNamePhoneticScore: /* Error: Ran out of types for this method. */;
 - (unsigned long long)onnectedAudioDevice;
 - (id)hemaFLOWLINKActionPromptForValueStarted",&,N,V_startedOrChanged;
-- (id)SchemaIASiriMissEvaluationEnded;
-- (int)MATCHER;
+- (id)IASchemaIASiriMissEvaluationEnded;
+- (int)CDMSERVICENAME_SIRI_VOCABULARY_SPAN_MATCHER;
 - (void)(²Õÿq;
 
 // Remaining properties
-@property(retain, nonatomic) IHSchemaIHClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasModelEvaluationContext; // @synthesize hasModelEvaluationContext=_hasModelEvaluationContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IHSchemaIHModelEvaluationContext *modelEvaluationContext; // @synthesize modelEvaluationContext=_modelEvaluationContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

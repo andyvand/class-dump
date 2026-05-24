@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, SPOwnerSessionState;
+@class NSSet;
 
 @protocol SPOwnerSessionProtocol
+- (void);
+- (void)ethod is already swizzled:(NSSet *)arg1 %@;
+- (void)@;
 - (void)SPServiceSettingsChangedLocalNotification;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allBeacons;
-@property(copy, nonatomic) CDUnknownBlockType beaconAddedBlock;
-@property(copy, nonatomic) CDUnknownBlockType beaconRemovedBlock;
-@property(copy, nonatomic) CDUnknownBlockType beaconsChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType latestLocationsUpdatedBlock;
 @property(copy, nonatomic) NSSet *locationSources;
-@property(readonly, copy, nonatomic) SPOwnerSessionState *ownerSessionState;
-@property(copy, nonatomic) CDUnknownBlockType ownerSessionStateUpdatedBlock;
 @end
 

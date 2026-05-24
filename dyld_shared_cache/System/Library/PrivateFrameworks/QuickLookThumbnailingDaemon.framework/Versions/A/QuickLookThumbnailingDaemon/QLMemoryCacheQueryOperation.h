@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, QLTGeneratorThumbnailRequest, _QLCacheThread;
-@protocol OS_dispatch_queue;
+@class QLTGeneratorThumbnailRequest;
 
 @interface QLMemoryCacheQueryOperation
 {
     QLTGeneratorThumbnailRequest *_generatorRequest;
-    _QLCacheThread *_cacheThread;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)Trigger;
+- (id);
 - (void);
 - (void);
 - (void);

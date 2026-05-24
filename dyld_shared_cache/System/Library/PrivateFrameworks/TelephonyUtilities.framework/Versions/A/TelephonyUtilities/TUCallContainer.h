@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TUCall;
+@class NSArray;
 
 @interface TUCallContainer
 {
@@ -12,45 +12,45 @@
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)|�;
 - (id);
 - (id);
 - (unsigned long long);
+- (id)A;
 - (id);
+- (id);
+- (unsigned long long);
+- (id)J;
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
+- (id))W9;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)`B;
+- (id);
+- (id)	;
+- (void)@;
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)}';
 - (id);
 - (void);
-- (void)rovider:cameraBlurEnabledDidChange: /* Error: Ran out of types for this method. */;
+- (void)provider:cameraBlurEnabledDidChange: /* Error: Ran out of types for this method. */;
 - (id)initWithUUID:accountUUID:localizedName:localizedShortName:localizedServiceName:handle: /* Error: Ran out of types for this method. */;
 - (id)¬Ù;
 - (id)llservicesd;
@@ -58,10 +58,10 @@
 ;
 - (_Bool)er;
 - (id)lephonyutilities.callservicesd.FaceTimeProvider;
-- (id)erKey;
-- (id)SharingFromMessages;
+- (id)TUShouldCreateSuperBoxProviderKey;
+- (id)usesModernScreenSharingFromMessages;
 - (id)lass(void)_block_invoke;
-- (id);
+- (id)length;
 - (id)cesdaemon.callcapabilities;
 - (id)ce Is Unsupported;
 - (id)offOngoing=%d;
@@ -83,45 +83,7 @@
 - (id));
 
 // Remaining properties
-@property(readonly, nonatomic) TUCall *activeVideoCall;
-@property(readonly, nonatomic) _Bool anyCallIsEndpointOnCurrentDevice;
-@property(readonly, nonatomic) _Bool anyCallIsHostedOnCurrentDevice;
 @property(readonly, copy) NSArray *bargeCalls;
-@property(readonly, nonatomic) unsigned long long callCountOnDefaultPairedDevice;
-@property(readonly, copy, nonatomic) NSArray *callGroupsOnDefaultPairedDevice;
-@property(copy, nonatomic) NSArray *calls; // @synthesize calls=_calls;
-@property(readonly, copy, nonatomic) NSArray *callsHostedElsewhere;
-@property(readonly, copy, nonatomic) NSArray *callsHostedOrAnEndpointElsewhere;
-@property(readonly, copy, nonatomic) NSArray *callsOnDefaultPairedDevice;
-@property(readonly, copy, nonatomic) NSArray *callsWithAnEndpointElsewhere;
-@property(readonly, copy, nonatomic) NSArray *conferenceParticipantCalls;
-@property(readonly, nonatomic) unsigned long long currentAudioAndVideoCallCount;
-@property(readonly, copy, nonatomic) NSArray *currentAudioAndVideoCallGroups;
-@property(readonly, copy, nonatomic) NSArray *currentAudioAndVideoCalls;
-@property(readonly, nonatomic) unsigned long long currentCallCount;
-@property(readonly, copy, nonatomic) NSArray *currentCallGroups;
-@property(readonly, copy, nonatomic) NSArray *currentCalls;
-@property(readonly, nonatomic) TUCall *currentVideoCall;
-@property(readonly, nonatomic) unsigned long long currentVideoCallCount;
-@property(readonly, copy, nonatomic) NSArray *currentVideoCalls;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *displayedAudioAndVideoCalls;
-@property(readonly, copy, nonatomic) NSArray *displayedCalls;
-@property(readonly, nonatomic) TUCall *frontmostBargeCall;
-@property(readonly, nonatomic) _Bool hasCurrentAudioCalls;
-@property(readonly, nonatomic) _Bool hasCurrentCalls;
-@property(readonly, nonatomic) _Bool hasCurrentVideoCalls;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TUCall *incomingCall;
-@property(readonly, copy, nonatomic) NSArray *incomingCalls;
-@property(readonly, nonatomic) TUCall *incomingVideoCall;
-@property(readonly, nonatomic) TUCall *pendingUpgradeCall;
-@property(readonly, nonatomic) TUCall *screeningCall;
-@property(readonly) Class superclass;
 
 @end
 

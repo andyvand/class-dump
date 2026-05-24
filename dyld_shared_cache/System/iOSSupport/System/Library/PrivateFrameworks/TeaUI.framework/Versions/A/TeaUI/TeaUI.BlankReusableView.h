@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)setThumbnailMediumMetadata:(struct CGRect)arg1;
 
 @end
 

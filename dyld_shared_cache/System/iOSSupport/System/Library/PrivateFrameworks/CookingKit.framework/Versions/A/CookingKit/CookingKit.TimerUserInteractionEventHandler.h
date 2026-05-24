@@ -7,6 +7,7 @@
 @interface CookingKit.TimerUserInteractionEventHandler
 {
     id _$scope;
+    id;
 }
 
 @end

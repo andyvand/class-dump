@@ -6,19 +6,14 @@
 
 #import <HomeKitDaemon/HMDCameraRecordingLogEvent.h>
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingFragmentAnalyzedEvent : HMDCameraRecordingLogEvent
 {
     _Bool _isSuccess;
-    _Bool _motionActive;
-    int _recordingReason;
-    NSUUID *_clipModelID;
 }
 
-- (void);
-- (void);
+- (void)ill out, waiting for route update;
+- (void)to contact, but Maps is not authorised for Contacts;
 - (_Bool);
 - (id);
 - (id);
@@ -26,39 +21,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id)match timeout for %@ seconds;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(retain) NSUUID *clipModelID; // @synthesize clipModelID=_clipModelID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property _Bool isSuccess; // @synthesize isSuccess=_isSuccess;
-@property(getter=isMotionActive) _Bool motionActive; // @synthesize motionActive=_motionActive;
-@property int recordingReason; // @synthesize recordingReason=_recordingReason;
-@property(readonly) Class superclass;
 
 @end
 

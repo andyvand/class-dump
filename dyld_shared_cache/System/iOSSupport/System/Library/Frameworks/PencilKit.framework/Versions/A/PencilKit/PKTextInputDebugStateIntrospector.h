@@ -5,12 +5,10 @@
 //
 
 @class PKTextInputInteraction;
-@protocol PKTextInputDebugStateIntrospectorDelegate;
 
 @interface PKTextInputDebugStateIntrospector
 {
     PKTextInputInteraction *_interaction;
-    id <PKTextInputDebugStateIntrospectorDelegate> _delegate;
 }
 
 + (id);
@@ -32,7 +30,6 @@
 - (void)ButtonItem",&,N;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKTextInputDebugStateIntrospectorDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) __weak PKTextInputInteraction *interaction; // @synthesize interaction=_interaction;
 
 @end

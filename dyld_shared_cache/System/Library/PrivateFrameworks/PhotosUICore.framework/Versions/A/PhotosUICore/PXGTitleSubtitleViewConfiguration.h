@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXTitleSubtitleLabelSpec;
+@class NSString;
 
 @interface PXGTitleSubtitleViewConfiguration
 {
     NSString *_title;
-    NSString *_subtitle;
-    PXTitleSubtitleLabelSpec *_spec;
-    long long _floatingAxis;
 }
 
 - (long long);
@@ -25,26 +22,12 @@
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)Assets;
+- (id)numberOfAssets;
 - (id)etCollectionPlayMovieActionPerformer.m;
 - (void)SharedAlbumsActivityNotificationCell_Previews;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long floatingAxis; // @synthesize floatingAxis=_floatingAxis;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) PXTitleSubtitleLabelSpec *spec; // @synthesize spec=_spec;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 
 @end
 

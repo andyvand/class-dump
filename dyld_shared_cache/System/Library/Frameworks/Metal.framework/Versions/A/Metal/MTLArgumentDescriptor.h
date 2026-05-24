@@ -11,15 +11,10 @@
 + (id);
 + (id)ð;
 + (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long access; // @dynamic access;
-@property(nonatomic) unsigned long long arrayLength; // @dynamic arrayLength;
-@property(nonatomic) unsigned long long constantBlockAlignment; // @dynamic constantBlockAlignment;
 @property(nonatomic) unsigned long long dataType; // @dynamic dataType;
-@property(nonatomic) unsigned long long index; // @dynamic index;
-@property(nonatomic) unsigned long long textureType; // @dynamic textureType;
 
 @end
 

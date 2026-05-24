@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)nt-side-encryption-manager;
 @end
 

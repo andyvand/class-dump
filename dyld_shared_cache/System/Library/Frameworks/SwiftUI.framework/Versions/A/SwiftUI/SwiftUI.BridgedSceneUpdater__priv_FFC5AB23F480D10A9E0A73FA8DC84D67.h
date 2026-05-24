@@ -7,9 +7,6 @@
 @interface SwiftUI.BridgedSceneUpdater__priv_FFC5AB23F480D10A9E0A73FA8DC84D67
 {
     id sceneListVersion;
-    id namespace;
-    id menuBarExtrasController;
-    id dialogController;
 }
 
 @end

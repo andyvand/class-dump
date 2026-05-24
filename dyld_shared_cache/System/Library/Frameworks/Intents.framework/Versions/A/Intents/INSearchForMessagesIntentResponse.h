@@ -6,16 +6,16 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface INSearchForMessagesIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)t={CGPoint=dd}{CGSize=dd}}40i72q76B84@88;
++ (int)isContentTypeAudioOnly:(long long)arg1;
++ (long long)initWithItem:(int)arg1 maximumSize:(int)arg2 minimumSize:(_Bool)arg3 scale:options:generationData: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithContentsOfURL:(long long)arg1 options:error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
@@ -25,27 +25,18 @@
 - (long long);
 - (void);
 - (id);
+- (id)parseForceForKey:(id)arg1 normlaizedWithMinimumValue:maxiumumValue: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)allowAutoHotspotFallback;
+- (void)ms-based state (%{public}@);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (long long)AddMediaIntentMediaDestinationUnsupportedReason: /* Error: Ran out of types for this method. */;
+- (long long)StringAsAddMediaIntentMediaDestinationUnsupportedReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *messages;
 @property(copy) NSArray *searchResults;
-@property(readonly) Class superclass;
 
 @end
 

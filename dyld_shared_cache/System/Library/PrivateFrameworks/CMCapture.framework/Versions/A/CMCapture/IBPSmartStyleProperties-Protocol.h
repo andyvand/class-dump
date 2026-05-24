@@ -7,11 +7,12 @@
 @class NSString;
 
 @protocol IBPSmartStyleProperties
+- (void);
+- (void)}Q;
+- (float);
+- (float);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cast;
-@property(nonatomic) float colorBias;
-@property(nonatomic) float intensity;
-@property(nonatomic) float toneBias;
 @end
 

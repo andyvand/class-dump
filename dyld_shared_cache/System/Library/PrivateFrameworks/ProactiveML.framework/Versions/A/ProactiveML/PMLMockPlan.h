@@ -9,10 +9,6 @@
 @interface PMLMockPlan
 {
     PMLTrainingStore *_store;
-    _Bool _returnValue;
-    _Bool _didRun;
-    NSString *_planId;
-    unsigned long long _version;
 }
 
 + (void);
@@ -25,26 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void));
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didRun; // @synthesize didRun=_didRun;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *planId; // @synthesize planId=_planId;
-@property(readonly) Class superclass;
-@property unsigned long long version; // @synthesize version=_version;
 
 @end
 

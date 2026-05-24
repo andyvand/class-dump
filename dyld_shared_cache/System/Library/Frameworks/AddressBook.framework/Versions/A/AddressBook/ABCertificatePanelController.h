@@ -9,7 +9,6 @@
 @interface ABCertificatePanelController
 {
     NSError *_error;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (_Bool);
@@ -23,7 +22,7 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)tly has access control, new client (%{public}@) context should be updated for control:(id)arg1 %{public}@;
 - (id);
 - (void)ªð1Â0@ù
 × ;

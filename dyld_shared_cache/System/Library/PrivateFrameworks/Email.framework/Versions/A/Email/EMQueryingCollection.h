@@ -6,30 +6,20 @@
 
 #import <Email/EMRepositoryObject.h>
 
-@class EFFuture, EFLocked, EFPromise, EMQuery, NSMutableOrderedSet, NSMutableSet, NSOrderedSet, NSString;
-@protocol EFCancelable, EFScheduler;
+@class NSMutableOrderedSet;
+@protocol EFCancelable;
 
 @interface EMQueryingCollection : EMRepositoryObject
 {
     NSMutableOrderedSet *_itemIDs;
-    NSMutableSet *_itemIDsAnticipatingDelete;
-    NSOrderedSet *_recoveringItemIDs;
-    EFPromise *_allItemIDsPromise;
-    struct os_unfair_lock_s _itemIDsLock;
-    _Bool _foundAllItemIDs;
-    _Bool _foundFirstBatch;
-    EMQuery *_query;
-    id <EFCancelable> _cancelationToken;
-    EFLocked *_changeObservers;
-    id <EFScheduler> _observerScheduler;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,31 +29,31 @@
 - (void);
 - (void);
 - (void);
+- (void)ActionSetTriggerDeletionDailySummaryLogEvent;
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)TaskConfiguration;
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)WeakWrapper;
+- (void)Delegate;
+- (void)HindsightDigestController;
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)HomeIntelligenceProtoPETActivityLoggerAppleMediaAccessoryStateEvent;
+- (id)HomeIntelligenceProtoPETActivityLoggerHAPAccessoryEvent;
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)QuotaManagement;
 - (id);
 - (void);
 - (void);
@@ -72,7 +62,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)fo;
 - (void);
 - (id);
 - (void);
@@ -80,7 +70,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)E;
 - (unsigned long long);
 - (void);
 - (void);
@@ -90,25 +80,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EFFuture *allItemIDs;
 @property(retain, nonatomic) id <EFCancelable> cancelationToken; // @synthesize cancelationToken=_cancelationToken;
-@property(retain, nonatomic) EFLocked *changeObservers; // @synthesize changeObservers=_changeObservers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <EFScheduler> observerScheduler; // @synthesize observerScheduler=_observerScheduler;
-@property(readonly, nonatomic) EMQuery *query; // @synthesize query=_query;
-@property(readonly, nonatomic) id <EFScheduler> queryScheduler;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 
 @end
 

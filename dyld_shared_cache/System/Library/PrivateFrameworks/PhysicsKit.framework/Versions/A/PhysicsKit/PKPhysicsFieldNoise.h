@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)mTerminateSearchThread;
 - (void);
 - (float);
 - (id);
@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) float animationSpeed;
 @property(nonatomic) float smoothness;
 
 @end

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id)arrayByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (Class)ÔAq&!tDù1*ð1Â0@ù
 × ;

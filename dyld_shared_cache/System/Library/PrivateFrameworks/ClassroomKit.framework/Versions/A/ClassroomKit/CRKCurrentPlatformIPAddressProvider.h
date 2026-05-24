@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CRKNetworkPathMonitor;
+@class NSString;
 
 @interface CRKCurrentPlatformIPAddressProvider
 {
     NSString *_IPAddress;
-    NSObject<CRKNetworkPathMonitor> *_pathMonitor;
 }
 
-+ (id);
++ (id);;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *IPAddress; // @synthesize IPAddress=_IPAddress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<CRKNetworkPathMonitor> *pathMonitor; // @synthesize pathMonitor=_pathMonitor;
-@property(readonly) Class superclass;
 
 @end
 

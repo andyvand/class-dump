@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CTFuzzyMatch
 {
     long long _CTdistance;
-    NSArray *_CTdata;
-    NSString *_CTvalue;
 }
 
 - (id);
@@ -18,13 +14,11 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)dataWithBytes:length: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *data;
 @property(readonly, nonatomic) long long distance;
-@property(readonly, copy, nonatomic) NSString *value;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSCRDTPosition;
+@class NSArray;
 
 @interface _WBSCRDTPositionGeneratorStride
 {
     NSArray *_recordNames;
-    WBSCRDTPosition *_beforePosition;
-    WBSCRDTPosition *_afterPosition;
 }
 
 - (id);
@@ -18,11 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void)and;
+- (void)Holland;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) WBSCRDTPosition *afterPosition; // @synthesize afterPosition=_afterPosition;
-@property(readonly, copy, nonatomic) WBSCRDTPosition *beforePosition; // @synthesize beforePosition=_beforePosition;
 @property(readonly, copy, nonatomic) NSArray *recordNames; // @synthesize recordNames=_recordNames;
 
 @end

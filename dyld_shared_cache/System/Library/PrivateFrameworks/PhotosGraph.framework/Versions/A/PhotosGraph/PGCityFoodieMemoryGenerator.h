@@ -10,7 +10,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)M7;
 - (void);
 
 @end

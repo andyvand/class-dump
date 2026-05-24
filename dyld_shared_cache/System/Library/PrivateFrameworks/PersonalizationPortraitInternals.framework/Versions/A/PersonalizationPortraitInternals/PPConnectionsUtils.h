@@ -11,11 +11,11 @@
 + (id);
 + (id);
 + (_Bool);
-+ (unsigned char);
++ (unsigned char);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 
 @end
 

@@ -11,18 +11,16 @@
 @interface BSXPCServiceConnectionChildContext : BSXPCServiceConnectionContext
 {
     BSXPCServiceConnectionRootContext *_parent;
-    _Bool _remote;
-    unsigned long long _identifier;
 }
 
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (id)encryptData:secKeyAlgorithm:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

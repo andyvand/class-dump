@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (_Bool);
++ (id)mountWithOptionsDictionary:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)";
 - (id);
 - (_Bool);
 - (id);

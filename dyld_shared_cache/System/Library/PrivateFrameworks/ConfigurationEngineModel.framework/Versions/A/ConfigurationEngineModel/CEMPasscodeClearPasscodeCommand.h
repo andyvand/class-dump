@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CEMPasscodeClearPasscodeCommand : CEMCommandBase
 {
@@ -17,25 +17,18 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)fgheF;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)pdate.SIRI_TEXT_TO_SPEECH;
 - (id);
-- (void);
+- (void)cert not for key agreement;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *payloadUnlockToken; // @synthesize payloadUnlockToken=_payloadUnlockToken;
-@property(readonly) Class superclass;
 
 @end
 

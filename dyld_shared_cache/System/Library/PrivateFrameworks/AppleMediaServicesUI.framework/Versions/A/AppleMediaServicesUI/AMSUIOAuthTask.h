@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASWebAuthenticationSessionCallback, NSString, NSURL, NSViewController;
+@class NSURL;
 
 @interface AMSUIOAuthTask
 {
     NSURL *_oAuthURL;
-    ASWebAuthenticationSessionCallback *_callback;
-    NSViewController *_presentingViewController;
 }
 
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
@@ -26,16 +24,7 @@
 - (void)@9viewModel_t;
 
 // Remaining properties
-@property(retain) ASWebAuthenticationSessionCallback *callback; // @synthesize callback=_callback;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSURL *oAuthURL; // @synthesize oAuthURL=_oAuthURL;
-@property(retain) NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(readonly) Class superclass;
 
 @end
 

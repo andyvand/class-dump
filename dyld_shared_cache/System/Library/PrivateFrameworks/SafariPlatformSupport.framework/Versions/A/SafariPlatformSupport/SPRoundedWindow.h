@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)shouldVisitFavoriteInResponseToKeyEvent: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

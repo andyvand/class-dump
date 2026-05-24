@@ -6,22 +6,21 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SASyncSiriKitAppVocabulary : SADomainObject
 {
 }
 
-- (void);
+- (void)C;
 - (id);
-- (id);
+- (id)yh;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId;
-@property(copy, nonatomic) NSDictionary *customVocabularyMap;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAnalyticsLogger, NSDictionary, OS_dispatch_queue;
+@class NSDictionary;
 
 @interface CSSearchMetrics
 {
     void startTimeDict;
     void searchLatencyDict;
-    id logLatencySubject;
-    id logLatencyCancellable;
-    OS_dispatch_queue *searchLatencyDictQueue;
-    MPAnalyticsLogger *analyticsLogger;
 }
 
 + (id);
@@ -32,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) MPAnalyticsLogger *analyticsLogger; // @synthesize analyticsLogger;
 @property(nonatomic, copy) NSDictionary *searchLatencyDict;
-@property(nonatomic, readonly) OS_dispatch_queue *searchLatencyDictQueue; // @synthesize searchLatencyDictQueue;
 @property(nonatomic, copy) NSDictionary *startTimeDict;
 
 @end

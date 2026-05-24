@@ -4,54 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatusChannelPriorityUpdateLogEvent
 {
     _Bool _receivedUpdatedDataFromChannel;
-    unsigned long long _priority;
-    double _durationForOverride;
-    double _durationForFirstUpdate;
 }
 
-- (_Bool);
-- (id);
-- (double);
-- (double);
+- (_Bool)ork/Versions/A/BiomeLibrary;
+- (id)ageAttribution",&,N,V_transitAttribution;
+- (double)K;
+- (double);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)arted:%d  %d /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long)°ø	dí=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double durationForFirstUpdate; // @synthesize durationForFirstUpdate=_durationForFirstUpdate;
-@property(readonly, nonatomic) double durationForOverride; // @synthesize durationForOverride=_durationForOverride;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) _Bool receivedUpdatedDataFromChannel; // @synthesize receivedUpdatedDataFromChannel=_receivedUpdatedDataFromChannel;
-@property(readonly) Class superclass;
 
 @end
 

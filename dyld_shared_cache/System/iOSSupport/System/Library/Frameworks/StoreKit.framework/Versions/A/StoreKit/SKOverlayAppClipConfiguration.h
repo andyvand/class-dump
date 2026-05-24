@@ -12,12 +12,12 @@
 {
 }
 
+- (void)ile does not exist yet;
+- (id)hreadFormatter;
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -29,10 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *campaignToken; // @dynamic campaignToken;
-@property(retain, nonatomic) NSString *customProductPageIdentifier;
-@property(retain, nonatomic) NSString *latestReleaseID;
-@property(nonatomic) long long position; // @dynamic position;
-@property(retain, nonatomic) NSString *providerToken;
 
 @end
 

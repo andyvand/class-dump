@@ -9,37 +9,30 @@
 @interface _MRAppEntityPathProtobuf
 {
     NSString *_bundleIdentifier;
-    NSString *_instanceIdentifier;
-    NSString *_typeIdentifier;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)updateConstraints;
+- (void)B,N,V_wasDetectedAsSWYSpam;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)ences _registerForDictationEnablementChangeNotifications]_block_invoke;
+- (void)haring TV Has Been Opted Out;
 - (id);
 - (void);
 - (void)Timestamp;
 - (id) ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasInstanceIdentifier;
-@property(readonly, nonatomic) _Bool hasTypeIdentifier;
-@property(retain, nonatomic) NSString *instanceIdentifier; // @synthesize instanceIdentifier=_instanceIdentifier;
-@property(retain, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end
 

@@ -7,8 +7,8 @@
 @interface UnknownClass (IOGPUFamilySupport)
 - (_Bool);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)T;
+- (unsigned int)@-;
 - (unsigned int);
 - (unsigned int);
 @end

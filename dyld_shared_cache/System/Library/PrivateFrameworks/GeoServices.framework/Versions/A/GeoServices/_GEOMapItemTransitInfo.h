@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOPDTransitInfo, GEOPDTransitNearbySchedule, GEOPDTransitSchedule, NSArray, NSDate, NSMapTable, NSString, NSTimeZone;
-@protocol GEOTransitNearbySchedule;
+@class GEOPDTransitInfo, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapItemTransitInfo
 {
     GEOPDTransitInfo *_transitInfo;
-    GEOPDTransitSchedule *_transitSchedule;
-    NSArray *_systems;
-    NSArray *_lines;
-    NSArray *_departureSequences;
-    NSTimeZone *_timeZone;
-    NSArray *_incidents;
-    _Bool _hasTransitIncidentComponent;
-    NSDate *_incidentExpirationDate;
-    NSArray *_connections;
-    NSString *_displayName;
-    NSMapTable *_cachedHeadSignsForLine;
-    CDStruct_2c43369c _coordinate;
-    NSArray *_transitStops;
-    GEOComposedRoute *_composedRoute;
-    GEOPDTransitNearbySchedule *_unprocessedNearbySchedule;
-    id <GEOTransitNearbySchedule> _nearbySchedule;
 }
 
 - (id);
@@ -48,47 +31,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setProviderIdentifier:(id)arg1;
+- (id)setPropertiesToFetch:(id)arg1;
+- (id)_destroyPersistentStoreAtURL:(id)arg1 withType:(id)arg2 options:(_Bool)arg3 error:(id)arg4;
+- (id)_databaseURL;
+- (id)_TtCC19ContactsPersistence19CNCDFileSystemPhotoP33_7DF0F0C34F4DC3D385D6DC9AAC3F043E12CodingHelper;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (double)ypeOrder;
-- (id)LOCAL_IMPACT;
+- (double)trailingEntityTypeOrder;
+- (id)MODERATE_LOCAL_IMPACT;
 - (void);
 - (id)¾ÙæÆôP@;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedRoute *composedRoute;
-@property(readonly, nonatomic) NSArray *connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *departureSequences;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool hasTransitIncidentComponent; // @synthesize hasTransitIncidentComponent=_hasTransitIncidentComponent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *incidents;
-@property(readonly, nonatomic) _Bool isTransitIncidentsTTLExpired;
 @property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) NSDate *lastFullScheduleValidDate;
-@property(readonly, nonatomic) NSArray *lines;
-@property(readonly, nonatomic) unsigned long long linesCount;
-@property(readonly, nonatomic) id <GEOTransitNearbySchedule> nearbySchedule;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *systems;
-@property(readonly, nonatomic) unsigned long long systemsCount;
-@property(readonly, nonatomic) double timeToLive;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSArray *transitTripStops;
 
 @end
 

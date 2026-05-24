@@ -15,12 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)WAL;
 - (id);
 - (void);
+- (id);
+- (id)bundleIdentifierForDataUsage;
+- (void),C;
 - (id);
 - (void);
 - (id);

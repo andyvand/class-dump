@@ -7,23 +7,6 @@
 @interface PhotosUICore.GenerativeStoryAmbiguityManager
 {
     id delegate;
-    id _hasScheduledDisambiguationMenuPresentation;
-    id _currentlyResolvingAmbiguity;
-    id _forceDisambiguatedTexts;
-    id _currentPeoplePickerSelection;
-    id _tokenToPeoplePickerSelection;
-    id _selectedLocationAssetsUUIDs;
-    id _isPresentingPeoplePicker;
-    id _isPresentingEventPicker;
-    id _isPresentingLocationsPicker;
-    id _unresolvedAmbiguityData;
-    id logger;
-    id _disambiguationSession;
-    id _userSuggestionByTokenString;
-    id _eventAmbiguityDataSource;
-    id _dateAmbiguityDataSource;
-    id $__lazy_storage_$_appleMusicUnavailableHandler;
-    id _$observationRegistrar;
 }
 
 @end

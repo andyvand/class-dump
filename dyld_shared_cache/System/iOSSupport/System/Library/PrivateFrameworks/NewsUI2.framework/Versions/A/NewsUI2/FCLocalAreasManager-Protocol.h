@@ -7,7 +7,8 @@
 @protocol FCLocalAreasProvider;
 
 @protocol FCLocalAreasManager
-- (void)zationService;
+- (id <FCLocalAreasProvider>)addObserver:selector:name:object: /* Error: Ran out of types for this method. */;
+- (void)personalizationService;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCLocalAreasProvider> cachedLocalAreasProvider;

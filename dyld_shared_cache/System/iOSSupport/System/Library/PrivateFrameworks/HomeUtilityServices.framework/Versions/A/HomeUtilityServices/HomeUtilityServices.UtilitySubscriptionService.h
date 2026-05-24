@@ -11,10 +11,9 @@
 {
     id sessionID;
     HomeUtilityServices.UtilityConfiguration *configuration;
-    id <HomeUtilityServices.UtilitySubscriptionService.DecryptionDelegate> decryptionDelegate;
 }
 
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -33,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

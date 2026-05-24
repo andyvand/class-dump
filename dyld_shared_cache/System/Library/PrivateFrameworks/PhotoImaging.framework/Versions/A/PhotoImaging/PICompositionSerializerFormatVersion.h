@@ -11,11 +11,11 @@
 + (id);
 + (id);
 + (id);
++ (_Bool)u:(id)arg1;
 + (_Bool);
-+ (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)N5degas23SortAttributeValueTableE;
 
 @end
 

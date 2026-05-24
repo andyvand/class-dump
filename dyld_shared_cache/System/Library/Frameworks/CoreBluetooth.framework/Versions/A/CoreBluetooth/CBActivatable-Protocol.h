@@ -8,9 +8,10 @@
 @protocol OS_dispatch_queue;
 
 @protocol CBActivatable
+- (void)H;
+- (void (^)(void))le of 512;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler;
 @end
 

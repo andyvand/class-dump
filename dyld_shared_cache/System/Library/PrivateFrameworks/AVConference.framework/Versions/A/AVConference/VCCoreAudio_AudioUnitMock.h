@@ -12,12 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VCCoreAudio_AudioUnitMock : VCObject
 {
     NSMutableDictionary *_audioUnitInstanceMap;
-    _Bool _isMockingEnabled;
-    struct tagVCRealTimeThread *_micThread;
-    _Bool _terminateMicThread;
-    double _startTime;
-    short _cycleCount;
-    struct _opaque_pthread_rwlock_t _callbackLock;
 }
 
 + (id)on init];
@@ -27,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (id);
 - (_Bool);
@@ -42,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

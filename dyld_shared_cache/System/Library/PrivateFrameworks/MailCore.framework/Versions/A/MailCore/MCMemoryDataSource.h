@@ -4,73 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMessage, MCMessageDecoder, NSData, NSMutableSet, NSString;
-@protocol MCMailAccount, MCMailbox;
+@class NSData, NSMutableSet;
 
 @interface MCMemoryDataSource
 {
     NSMutableSet *_uniqueStrings;
-    NSData *_data;
-    NSData *_separator;
-    MCMessageDecoder *_decoder;
 }
 
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void)B;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)i;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)C;
 - (void);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MCMailAccount> account;
-@property(readonly, nonatomic) _Bool canCompact;
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) MCMessageDecoder *decoder; // @synthesize decoder=_decoder;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isReadOnly;
-@property(readonly, nonatomic) id <MCMailbox> mailbox;
-@property(readonly, nonatomic) MCMessage *message;
-@property(readonly, copy, nonatomic) NSData *separator; // @synthesize separator=_separator;
-@property(readonly) Class superclass;
 
 @end
 

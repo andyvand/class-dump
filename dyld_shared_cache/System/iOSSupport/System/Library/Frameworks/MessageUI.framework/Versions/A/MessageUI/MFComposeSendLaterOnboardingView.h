@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UIImageView, UILabel;
+@class UIButton, UILabel;
 
 @interface MFComposeSendLaterOnboardingView
 {
     UIButton *_cancelButton;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UIImageView *_sendLaterImageView;
 }
 
 - (void);
@@ -19,15 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id));
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) UIImageView *sendLaterImageView; // @synthesize sendLaterImageView=_sendLaterImageView;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

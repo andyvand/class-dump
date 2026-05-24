@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFWatchListItem;
+@class SFImage, SFWatchListItem;
 
 @protocol SFPlayWatchListItemButtonItem
+- (void)ayerPlayParameters initWithDictionary:(SFImage *)arg1 ] id or kind missing from playParams dictionary. Returning nil.;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *title;
 @property(retain, nonatomic) SFWatchListItem *watchListItem;
 @end
 

@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSRunningApplication, NSString, _NSQuickActionTouchBarController;
+@class NSRunningApplication;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarService
 {
     NSRunningApplication *_frontmostApplication;
-    NSMapTable *_connectionsByApplication;
-    NSMapTable *_applicationsByConnection;
-    _NSQuickActionTouchBarController *_touchBarController;
-    CDUnknownBlockType _timeoutHandler;
-    int _registrationToken;
-    _Bool _touchBarIsShowing;
-    _Bool _dismissOnApplicationSwitch;
 }
 
 - (void);
-- (void);
+- (void)RegionalBehaviorShutterClick;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)DownEndColor;
+- (void)_NSTabBarInactiveTabMouseDownEndColor;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

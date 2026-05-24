@@ -13,10 +13,10 @@
     CKOrganicImageLayoutRecipe *_layoutRecipe;
 }
 
+- (void)_totalRecordingDuration;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)Coordinator;
+- (void)d;
 - (id);
 - (double);
 - (void)}};

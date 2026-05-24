@@ -19,8 +19,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)unlockWithCondition:(id)arg1;
+- (id)@0:(id)arg1 8;
 - (void)ñ^Ð1Â0@ù
 × ;
 

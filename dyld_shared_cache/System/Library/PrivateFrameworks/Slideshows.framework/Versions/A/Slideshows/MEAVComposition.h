@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioMix, AVComposition;
+@class AVComposition;
 
 @interface MEAVComposition
 {
     AVComposition *_composition;
-    AVAudioMix *_audioMix;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AVAudioMix *audioMix; // @synthesize audioMix=_audioMix;
 @property(readonly, nonatomic) AVComposition *composition; // @synthesize composition=_composition;
 
 @end

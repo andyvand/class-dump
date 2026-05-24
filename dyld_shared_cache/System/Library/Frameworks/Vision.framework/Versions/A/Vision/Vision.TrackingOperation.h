@@ -7,7 +7,6 @@
 @interface Vision.TrackingOperation
 {
     id requests;
-    id options;
 }
 
 @end

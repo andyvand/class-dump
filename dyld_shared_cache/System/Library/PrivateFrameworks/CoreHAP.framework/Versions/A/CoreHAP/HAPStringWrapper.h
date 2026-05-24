@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void)yServerSecureTransport>"16Q24@"NSError"32;
-- (id)cReadData:characteristicFormat:supportsAdditionalAuthentication:error: /* Error: Ran out of types for this method. */;
+- (id)deserializeCharacteristicReadData:characteristicFormat:supportsAdditionalAuthentication:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *field; // @synthesize field=_field;

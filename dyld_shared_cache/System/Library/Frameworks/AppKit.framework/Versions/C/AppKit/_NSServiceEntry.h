@@ -4,86 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSKeyboardShortcut, NSSet, NSString, NSUUID, WFServicesWorkflow;
+@class NSString;
 
 @interface _NSServiceEntry
 {
     NSString *menuItemTitle;
-    NSSet *_availablePresentationModes;
-    NSSet *_defaultPresentationModes;
-    NSSet *_presentationModes;
-    NSString *_iconName;
-    NSString *_backgroundColorName;
-    NSString *bundleIdentifier;
-    NSString *bundlePath;
-    NSString *executablePath;
-    NSString *originalTitle;
-    NSString *defaultTitle;
-    NSString *localizedTitleWithoutSubstitutions;
-    NSKeyboardShortcut *defaultKeyboardShortcut;
-    NSKeyboardShortcut *keyboardShortcut;
-    NSString *message;
-    NSString *filter;
-    NSString *portName;
-    NSArray *sendPasteboardTypes;
-    NSArray *sendFileTypes;
-    NSArray *returnTypes;
-    NSString *userData;
-    NSArray *languages;
-    WFServicesWorkflow *_backingShortcut;
-    _NSServiceEntry *_originalEntry;
-    NSArray *_serviceFilters;
-    NSString *localizedServiceDescription;
-    float timeout;
-    unsigned char uuid[16];
-    struct {
-        unsigned int track:1;
-        unsigned int hadServiceFilterInPlist:1;
-        unsigned int isSpellChecker:1;
-        unsigned int filterRequireFilePath:1;
-        unsigned int isWorkflow:1;
-        unsigned int showApplicationNameWithMenuItemTitle:1;
-        unsigned int serviceCategory:5;
-        unsigned int checkedServiceDescription:1;
-        unsigned int restricted:1;
-        unsigned int shouldActivateForServiceRequest:2;
-        unsigned int reserved:18;
-    } _flags;
 }
 
-- (void);
+- (void)/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
+- (void)agsDataClasses (%d) earlyKeyBagsAllowUnsealed (%d);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)c%c%c%c;
+- (void)is in RestoreOS;
+- (id)nature must be non NULL and publicKeyLsignatureLengthength must be non 0;
+- (id)ror 0x%016llX;
+- (void)DeviceVariantGuess;
+- (void)DeviceSupportsWirelessChargingEnergyUseNotification;
+- (id)3vKp+IPdzLG4NrA;
+- (id)KizANb5o/dWqSP2GC23g;
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -102,56 +62,23 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (long long);
+- (long long)ounts or Private Acccess Tokens;
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)mponents;
-- (_Bool)ndowFrameFromContentSize;
+- (id)hostComponents;
+- (_Bool)_setInitialWindowFrameFromContentSize;
 - (id);
 - (id)ÿÿ¦Zýÿ²Zýÿ:ýÿ /* Error: Ran out of types for this method. */;
 - (id)ýÿù`ÿÿ;
-- (id)tationOptions;
+- (id)NSFullScreenModeApplicationPresentationOptions;
 - (id)}³hÈýJÿ;
 - (id)Jÿ«Ä©@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *availablePresentationModes; // @synthesize availablePresentationModes=_availablePresentationModes;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier;
-@property(readonly, nonatomic) NSString *bundlePath; // @synthesize bundlePath;
-@property(readonly, nonatomic) NSString *categoryTitle;
-@property(readonly, nonatomic) NSArray *combinedSendTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSKeyboardShortcut *defaultKeyboardShortcut; // @synthesize defaultKeyboardShortcut;
-@property(readonly, copy, nonatomic) NSSet *defaultPresentationModes; // @synthesize defaultPresentationModes=_defaultPresentationModes;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBackgroundColor;
-@property(readonly, nonatomic) _Bool hasCustomIcon;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAvailableInContextMenu;
-@property(nonatomic) _Bool isAvailableInServicesMenu;
-@property(readonly, nonatomic) _Bool isRestricted;
-@property(readonly, nonatomic) _Bool isShortcut;
-@property(readonly, nonatomic) _Bool isSpellChecker;
-@property(readonly, nonatomic) _Bool isWorkflow;
-@property(copy, nonatomic) NSString *keyEquivalent;
-@property(copy, nonatomic) NSKeyboardShortcut *keyboardShortcut; // @synthesize keyboardShortcut;
-@property(readonly, nonatomic) NSString *localizedCategoryTitle;
-@property(readonly, nonatomic) NSString *localizedServiceDescription;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(copy, nonatomic) NSSet *presentationModes; // @synthesize presentationModes=_presentationModes;
 @property(readonly, nonatomic) NSString *qualifiedServiceMessage;
-@property(readonly, nonatomic) NSArray *returnTypes;
-@property(readonly, nonatomic) NSArray *sendFileTypes;
-@property(readonly, nonatomic) NSUUID *serviceUUID;
-@property(readonly, nonatomic) NSString *shortcutIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=defaultTitle;
 
 @end
 

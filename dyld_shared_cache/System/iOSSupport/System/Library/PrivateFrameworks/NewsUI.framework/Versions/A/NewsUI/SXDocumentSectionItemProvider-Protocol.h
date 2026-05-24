@@ -5,5 +5,8 @@
 //
 
 @protocol SXDocumentSectionItemProvider
+
+@optional
+- (void)=;
 @end
 

@@ -5,5 +5,13 @@
 //
 
 @protocol AMSEngagementObserver
+- (void)foldermetadata;
+- (void)ier UTI-EQUALS %@;
+- (void)niformTypeIdentifier UTI-CONFORMS-TO %@;
+
+@optional
+- (void)PLSortedChangedObjects *__strong, NSIndexSet *__autoreleasing *, NSIndexSet *__autoreleasing *, NSIndexSet *__autoreleasing *, CFArrayRef *, NSMutableIndexSet *__autoreleasing *);
+- (void)AssetResourceUploadJobRequest;
+- (void)SPRING;
 @end
 

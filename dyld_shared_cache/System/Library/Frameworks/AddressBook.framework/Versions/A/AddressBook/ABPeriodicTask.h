@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 @interface ABPeriodicTask
 {
     CDUnknownBlockType _task;
-    NSObject<OS_dispatch_source> *_source;
-    double _interval;
 }
 
 + (id);

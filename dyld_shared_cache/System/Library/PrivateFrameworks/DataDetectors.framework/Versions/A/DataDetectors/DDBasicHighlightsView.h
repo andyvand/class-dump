@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, DDHighlightButton, DDHighlightObject, NSDate, NSString, NSTimer;
+@class DDHighlightObject;
 
 __attribute__((visibility("hidden")))
 @interface DDBasicHighlightsView
 {
     struct __DDHighlight *_highlight;
-    DDHighlightButton *_button;
-    int _state;
-    DDHighlightObject *_highlightObject;
-    unsigned long long _highlightStyle;
-    struct CGRect _globalVisibleRect;
-    NSString *_toolTipString;
-    _Bool _layerOnly;
-    struct OpaqueWKBundlePageOverlay *_overlay;
-    _Bool _mouseDown;
-    NSTimer *_timer;
-    NSDate *_startDate;
-    double _targetOpacity;
-    double _initialOpacity;
-    CAMediaTimingFunction *_timingFunction;
 }
 
 + (id);
@@ -38,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -51,13 +37,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)0:(struct OpaqueWKBundlePageOverlay *)arg1 8@16@24q32q40;
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
-- (struct OpaqueWKBundlePageOverlay *);
+- (struct OpaqueWKBundlePageOverlay *)ncode ;
 - (id);
 - (void);
 - (int);
@@ -68,11 +54,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) DDHighlightObject *highlightObject; // @synthesize highlightObject=_highlightObject;
-@property(nonatomic) unsigned long long highlightStyle; // @synthesize highlightStyle=_highlightStyle;
-@property(nonatomic) _Bool layerOnly; // @synthesize layerOnly=_layerOnly;
-@property(nonatomic) _Bool mouseDown; // @synthesize mouseDown=_mouseDown;
-@property struct OpaqueWKBundlePageOverlay *overlay; // @synthesize overlay=_overlay;
-@property(retain, nonatomic) NSString *toolTipString; // @synthesize toolTipString=_toolTipString;
 
 @end
 

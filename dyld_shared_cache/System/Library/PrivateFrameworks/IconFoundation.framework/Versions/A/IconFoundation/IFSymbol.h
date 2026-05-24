@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICatalog, NSString, NSURL;
-
 @interface IFSymbol
 {
     struct os_unfair_lock_s _lock;
-    CUICatalog *_catalog;
-    NSURL *_bundleURL;
-    NSString *_name;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)y2;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)E4F1H',/;
+- (id)'F;
 - (void);
+- (id);
 - (id);
 - (id);
+- (id),;
 - (id);
+- (id))C;
+- (void)OptionSetSingleWriterKey must be a CFBooleanRef;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s)MIY;
 - (void);
 - (void);
 

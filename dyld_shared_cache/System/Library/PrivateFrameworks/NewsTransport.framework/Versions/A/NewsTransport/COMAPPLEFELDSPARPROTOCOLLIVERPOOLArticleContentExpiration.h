@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration
 {
     long long _globalExpireUtcTime;
-    NSMutableArray *_tagsExpirationLists;
-    CDStruct_4039bf57 _has;
 }
 
 + (Class);
@@ -23,22 +19,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)mework/Versions/A/DiskImages;
+- (id)N,V_newspaperSectionGroupHeadlineScoringOutputName;
+- (void)CurrentAudioContentFetchOperation validateOperation];
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_accessibilityAutoscrollScrollToBottom;
 - (void);
-- (void)eIDs;
+- (void)clearHeroArticleIDs;
 
 // Remaining properties
-@property(nonatomic) long long globalExpireUtcTime; // @synthesize globalExpireUtcTime=_globalExpireUtcTime;
 @property(nonatomic) _Bool hasGlobalExpireUtcTime;
-@property(retain, nonatomic) NSMutableArray *tagsExpirationLists; // @synthesize tagsExpirationLists=_tagsExpirationLists;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTVerifierResult, NSData, NSDate, NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface IDSQueryKeyTransparencyContext
 {
     NSUUID *_ticket;
-    KTVerifierResult *_verifierResult;
-    NSData *_accountKey;
-    NSDate *_queryResponseTime;
-    unsigned long long _ktOptIn;
-    NSDictionary *_ktOptions;
 }
 
 + (_Bool);
@@ -25,21 +20,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)(;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)24C28;
 - (void);
 - (id);
 - (void)sed the connection, cleaning up;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *accountKey; // @synthesize accountKey=_accountKey;
-@property(readonly, nonatomic) unsigned long long ktOptIn; // @synthesize ktOptIn=_ktOptIn;
-@property(readonly, nonatomic) NSDictionary *ktOptions; // @synthesize ktOptions=_ktOptions;
-@property(readonly, nonatomic) NSDate *queryResponseTime; // @synthesize queryResponseTime=_queryResponseTime;
 @property(readonly, nonatomic) NSUUID *ticket; // @synthesize ticket=_ticket;
-@property(readonly, nonatomic) KTVerifierResult *verifierResult; // @synthesize verifierResult=_verifierResult;
 
 @end
 

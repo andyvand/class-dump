@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNExceptionDetector
 {
     id graphStorage;
-    id exceptionLocation;
 }
 
 @end

@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(copy) NSArray *weekDayRules; // @dynamic weekDayRules;
-@property(copy) NSArray *yearDayRules; // @dynamic yearDayRules;
 
 @end
 

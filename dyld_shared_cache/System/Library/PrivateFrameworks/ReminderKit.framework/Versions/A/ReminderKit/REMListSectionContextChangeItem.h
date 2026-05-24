@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMListChangeItem, REMMemberships;
+@class REMListChangeItem;
 
 @interface REMListSectionContextChangeItem
 {
@@ -14,21 +14,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void)
 × ;
-- (void)sImmediatelyWithTimeout:(_Bool)arg1;
+- (void)test_handleIncompleteGroceryOperationQueueItemsImmediatelyWithTimeout:(_Bool)arg1;
 - (id)ation;
 - (id)vôÿ;;
 
 // Remaining properties
 @property(retain, nonatomic) REMListChangeItem *listChangeItem; // @synthesize listChangeItem=_listChangeItem;
-@property(nonatomic) _Bool shouldUpdateSectionsOrdering;
-@property(retain, nonatomic) REMMemberships *unsavedMembershipsOfRemindersInSections;
-@property(retain, nonatomic) NSArray *unsavedSectionIDsOrdering;
 
 @end
 

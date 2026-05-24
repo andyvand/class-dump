@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBQueryUnderstandingParse
 {
     _Bool _hasUnspecifiedTokens;
-    _Bool _hasSortCriteriaTokens;
-    _Bool _hasLocationTokens;
-    _Bool _hasActionTokens;
-    _Bool _hasMediaTypeTokens;
-    _Bool _hasVisualQualityTokens;
-    _Bool _hasNounTokens;
-    _Bool _hasTimeTokens;
-    _Bool _hasEventTokens;
-    _Bool _hasGenericLocationTokens;
-    _Bool _hasCaptureDeviceTokens;
-    _Bool _hasFavoritedTokens;
-    _Bool _hasSourceAppTokens;
-    _Bool _hasPersonTokens;
-    _Bool _hasPersonSenderTokens;
-    _Bool _isUnsafeQuery;
-    _Bool _isBlocklistedQuery;
-    int _queryIntentType;
-    int _spotlightQueryIntent;
 }
 
 - (void);
@@ -45,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -63,48 +43,22 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)processIdenticalDuplicatesWithProcessingType:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)URL:%@, cancelled:%@, info:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasActionTokens; // @synthesize hasActionTokens=_hasActionTokens;
-@property(nonatomic) _Bool hasCaptureDeviceTokens; // @synthesize hasCaptureDeviceTokens=_hasCaptureDeviceTokens;
-@property(nonatomic) _Bool hasEventTokens; // @synthesize hasEventTokens=_hasEventTokens;
-@property(nonatomic) _Bool hasFavoritedTokens; // @synthesize hasFavoritedTokens=_hasFavoritedTokens;
-@property(nonatomic) _Bool hasGenericLocationTokens; // @synthesize hasGenericLocationTokens=_hasGenericLocationTokens;
-@property(nonatomic) _Bool hasLocationTokens; // @synthesize hasLocationTokens=_hasLocationTokens;
-@property(nonatomic) _Bool hasMediaTypeTokens; // @synthesize hasMediaTypeTokens=_hasMediaTypeTokens;
-@property(nonatomic) _Bool hasNounTokens; // @synthesize hasNounTokens=_hasNounTokens;
-@property(nonatomic) _Bool hasPersonSenderTokens; // @synthesize hasPersonSenderTokens=_hasPersonSenderTokens;
-@property(nonatomic) _Bool hasPersonTokens; // @synthesize hasPersonTokens=_hasPersonTokens;
-@property(nonatomic) _Bool hasSortCriteriaTokens; // @synthesize hasSortCriteriaTokens=_hasSortCriteriaTokens;
-@property(nonatomic) _Bool hasSourceAppTokens; // @synthesize hasSourceAppTokens=_hasSourceAppTokens;
-@property(nonatomic) _Bool hasTimeTokens; // @synthesize hasTimeTokens=_hasTimeTokens;
-@property(nonatomic) _Bool hasUnspecifiedTokens; // @synthesize hasUnspecifiedTokens=_hasUnspecifiedTokens;
-@property(nonatomic) _Bool hasVisualQualityTokens; // @synthesize hasVisualQualityTokens=_hasVisualQualityTokens;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isBlocklistedQuery; // @synthesize isBlocklistedQuery=_isBlocklistedQuery;
-@property(nonatomic) _Bool isUnsafeQuery; // @synthesize isUnsafeQuery=_isUnsafeQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int queryIntentType; // @synthesize queryIntentType=_queryIntentType;
-@property(nonatomic) int spotlightQueryIntent; // @synthesize spotlightQueryIntent=_spotlightQueryIntent;
-@property(readonly) Class superclass;
 
 @end
 

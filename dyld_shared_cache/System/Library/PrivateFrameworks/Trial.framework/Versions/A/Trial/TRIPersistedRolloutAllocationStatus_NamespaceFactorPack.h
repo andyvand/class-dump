@@ -13,9 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *factorPack; // @dynamic factorPack;
-@property(nonatomic) _Bool hasFactorPack; // @dynamic hasFactorPack;
-@property(nonatomic) _Bool hasNamespace_p; // @dynamic hasNamespace_p;
 @property(copy, nonatomic) NSString *namespace_p; // @dynamic namespace_p;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseTrigger.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface MapsSuggestionsXPCActivityTimer : MapsSuggestionsBaseTrigger
 {
     CDUnknownBlockType _block;
-    NSString *_activityIdentifier;
-    NSDate *_firesAt;
-    unsigned long long _estimatedDownloadInBytes;
-    unsigned long long _estimatedUploadInBytes;
-    struct atomic<bool> _taskExpired;
-    struct atomic<bool> _taskCompleted;
 }
 
 - (void);
@@ -27,20 +21,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)countByEnumeratingWithState:(struct Duration)arg1 objects:(struct Duration)arg2 count: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)ggestionsResourceDepot>"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

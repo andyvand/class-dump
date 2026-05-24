@@ -4,59 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECDKIMMessageHeader, NSArray, NSError;
-
 @interface ECMessageAuthenticationResult
 {
     _Bool _dkimAttemptedHeaderVerification;
-    _Bool _dkimHeadersVerified;
-    _Bool _dkimAttemptedBodyVerification;
-    _Bool _dkimBodyVerified;
-    ECDKIMMessageHeader *_bestDKIMSignatureHeader;
-    NSError *_dkimError;
-    NSArray *_dkimServerStatements;
-    long long _dmarcStatus;
-    long long _dmarcReceiverPolicy;
-    long long _dmarcIdentifierAlignment;
-    long long _dmarcServerStatus;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)er view.;
+- (void)abView is already a subview of another view.;
+- (void)leChromelessControlsView.;
+- (void)ew.;
+- (void)a subview of another view.;
+- (void)ryControlsView is already a subview of another view.;
+- (void)playbackState:(_Bool)arg1 %@;
+- (void)te:(_Bool)arg1 %@;
+- (void)ng client completion handler with playback state:(_Bool)arg1 %@;
+- (void)ed %@ before creating playback controls view!;
+- (long long)el to the AirPlay receiver (if there is one).;
+- (long long)message; we don't have a channel to the AirPlay receiver (if there is one).;
+- (long long)onse object (%@);
+- (long long)sponse...;
+- (id)d, now waiting for/reading the response...;
+- (_Bool)ing %ld bytes...;
+- (id)stream closed;
+- (_Bool)rror occurred;
+- (_Bool)ver received;
+- (id)ng backward instead;
+- (void)";
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ECDKIMMessageHeader *bestDKIMSignatureHeader; // @synthesize bestDKIMSignatureHeader=_bestDKIMSignatureHeader;
-@property(nonatomic) _Bool dkimAttemptedBodyVerification; // @synthesize dkimAttemptedBodyVerification=_dkimAttemptedBodyVerification;
 @property(nonatomic) _Bool dkimAttemptedHeaderVerification; // @synthesize dkimAttemptedHeaderVerification=_dkimAttemptedHeaderVerification;
-@property(nonatomic) _Bool dkimBodyVerified; // @synthesize dkimBodyVerified=_dkimBodyVerified;
-@property(retain, nonatomic) NSError *dkimError; // @synthesize dkimError=_dkimError;
-@property(nonatomic) _Bool dkimHeadersVerified; // @synthesize dkimHeadersVerified=_dkimHeadersVerified;
-@property(copy, nonatomic) NSArray *dkimServerStatements; // @synthesize dkimServerStatements=_dkimServerStatements;
-@property(nonatomic) long long dmarcIdentifierAlignment; // @synthesize dmarcIdentifierAlignment=_dmarcIdentifierAlignment;
-@property(nonatomic) long long dmarcReceiverPolicy; // @synthesize dmarcReceiverPolicy=_dmarcReceiverPolicy;
-@property(nonatomic) long long dmarcServerStatus; // @synthesize dmarcServerStatus=_dmarcServerStatus;
-@property(nonatomic) long long dmarcStatus; // @synthesize dmarcStatus=_dmarcStatus;
 
 @end
 

@@ -7,7 +7,7 @@
 @interface UnknownClass (AddressBookUI)
 + (void);
 - (void);
-- (id);
+- (id)i_;
 - (id);
 - (id);
 @end

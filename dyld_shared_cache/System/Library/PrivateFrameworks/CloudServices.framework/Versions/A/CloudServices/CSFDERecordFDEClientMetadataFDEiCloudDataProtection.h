@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)@, unNotificationContent = %@;
+- (_Bool)s;
 - (_Bool);
 - (void);
 - (id);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasWrappedKeys;
-@property(retain, nonatomic) NSData *wrappedKeys; // @synthesize wrappedKeys=_wrappedKeys;
 
 @end
 

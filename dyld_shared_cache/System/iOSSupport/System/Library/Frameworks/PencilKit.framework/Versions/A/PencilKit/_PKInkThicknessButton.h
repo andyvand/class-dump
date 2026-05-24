@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage, UIImageView;
+@class UIImageView;
 
 @interface _PKInkThicknessButton
 {
     double _weight;
-    UIColor *_imageTintColorOverride;
-    UIImageView *_inkImageView;
-    UIImage *_assetImage;
-    struct CGSize _buttonSize;
-    struct CGRect _lastRenderedBounds;
 }
 
 - (void);
@@ -34,7 +29,7 @@
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -42,19 +37,7 @@
 - (void)MenuInteraction;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *assetImage; // @synthesize assetImage=_assetImage;
-@property(readonly, nonatomic) struct CGSize buttonSize; // @synthesize buttonSize=_buttonSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *imageTintColorOverride; // @synthesize imageTintColorOverride=_imageTintColorOverride;
 @property(retain, nonatomic) UIImageView *inkImageView; // @synthesize inkImageView=_inkImageView;
-@property(nonatomic) struct CGRect lastRenderedBounds; // @synthesize lastRenderedBounds=_lastRenderedBounds;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double weight; // @synthesize weight=_weight;
 
 @end
 

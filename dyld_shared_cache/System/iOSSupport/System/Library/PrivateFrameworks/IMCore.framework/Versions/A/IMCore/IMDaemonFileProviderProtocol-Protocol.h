@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonFileProviderProtocol
+- (void)P;
 @end
 

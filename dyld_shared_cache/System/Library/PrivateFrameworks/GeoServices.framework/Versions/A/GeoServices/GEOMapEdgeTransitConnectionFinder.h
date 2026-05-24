@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)isInteger:(CDUnknownBlockType)arg1 equalToOther:(_Bool)arg2;
+- (void)isGregorianDerivedCalendarIdentifier:(CDUnknownBlockType)arg1;
 
 @end
 

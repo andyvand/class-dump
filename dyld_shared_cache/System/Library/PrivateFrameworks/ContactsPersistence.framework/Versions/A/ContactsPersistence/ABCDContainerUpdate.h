@@ -9,7 +9,6 @@
 @interface ABCDContainerUpdate
 {
     NSString *_key;
-    id _value;
 }
 
 + (id);
@@ -22,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
-@property(retain) id value; // @synthesize value=_value;
 
 @end
 

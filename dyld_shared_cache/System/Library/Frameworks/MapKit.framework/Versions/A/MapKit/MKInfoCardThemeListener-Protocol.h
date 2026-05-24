@@ -5,5 +5,6 @@
 //
 
 @protocol MKInfoCardThemeListener
+- (void)LastChargeLevel;
 @end
 

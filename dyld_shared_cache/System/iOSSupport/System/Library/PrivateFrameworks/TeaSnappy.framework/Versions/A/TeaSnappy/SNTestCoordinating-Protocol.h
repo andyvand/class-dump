@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol SNTestCoordinating
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *launchTestName;

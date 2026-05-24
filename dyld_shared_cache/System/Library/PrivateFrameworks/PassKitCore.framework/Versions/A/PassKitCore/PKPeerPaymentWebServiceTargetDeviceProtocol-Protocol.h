@@ -4,8 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, PKPeerPaymentAccount;
+
 @protocol PKPeerPaymentWebServiceTargetDeviceProtocol
+- (PKPeerPaymentAccount *)1;
+- (void);
+- (NSArray *);
+- (_Bool)eDelta"b1"timestamp"b1"linkType"b1"priorLinkType"b1};
+- (void)_tcpECNIntOffTotalRxmtPkts;
+- (void)@;
 - (void)±î%Ð1Â0@ù
 × ;
+
+@optional
+- (void)@;
+- (void)h;
 @end
 

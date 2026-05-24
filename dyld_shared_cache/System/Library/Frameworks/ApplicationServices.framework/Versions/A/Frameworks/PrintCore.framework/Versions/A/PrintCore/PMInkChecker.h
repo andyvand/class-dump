@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface PMInkChecker
 {
     struct OpaquePMPrinter *_printer;
-    NSDictionary *_supplies;
-    NSArray *_consumables;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -29,8 +25,8 @@
 - (id);
 - (id);
 - (int);
-- (void);
-- (void);
+- (void)a;
+- (void)gs = %d, sendSeekToTimeNotification = %d, seekID = %d pendingSeekID=%d ;
 - (void);
 - (struct OpaquePMPrinter *);
 

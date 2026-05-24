@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTLResource;
-
 @interface MPSState
 {
     void *_resources;
-    unsigned long long _resourceCount;
-    unsigned long long _readCount;
-    NSString *_label;
-    unsigned short _flags;
-    _Bool _updatedAlready;
 }
 
 + (id);
@@ -30,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void),;
 - (id);
 - (void);
 - (id);
@@ -44,10 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isTemporary;
-@property(copy) NSString *label;
-@property(nonatomic) unsigned long long readCount; // @synthesize readCount=_readCount;
-@property(readonly, retain, nonatomic) id <MTLResource> resource;
 @property(readonly, nonatomic) unsigned long long resourceCount; // @synthesize resourceCount=_resourceCount;
 
 @end

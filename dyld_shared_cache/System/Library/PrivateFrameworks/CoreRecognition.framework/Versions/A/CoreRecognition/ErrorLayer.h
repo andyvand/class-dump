@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATextLayer, NSString;
+@class CATextLayer;
 
 @interface ErrorLayer
 {
     struct CGColor *glowColor;
-    NSString *text;
-    double textOpacity;
-    CATextLayer *_topTextLayer;
-    CATextLayer *_textLayer1;
-    CATextLayer *_textLayer2;
-    CATextLayer *_textLayer3;
 }
 
 - (id);
@@ -24,28 +18,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)4);
 - (struct CGColor *);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)*;
+- (id)INSTALLTYPE_TRANSFER_WEBURL;
 - (id);
 - (double);
-- (void);
+- (void)LQ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGColor *glowColor; // @dynamic glowColor;
-@property(retain, nonatomic) NSString *text; // @synthesize text;
-@property(retain, nonatomic) CATextLayer *textLayer1; // @synthesize textLayer1=_textLayer1;
-@property(retain, nonatomic) CATextLayer *textLayer2; // @synthesize textLayer2=_textLayer2;
-@property(retain, nonatomic) CATextLayer *textLayer3; // @synthesize textLayer3=_textLayer3;
-@property(nonatomic) double textOpacity; // @synthesize textOpacity;
 @property(retain, nonatomic) CATextLayer *topTextLayer; // @synthesize topTextLayer=_topTextLayer;
 
 @end

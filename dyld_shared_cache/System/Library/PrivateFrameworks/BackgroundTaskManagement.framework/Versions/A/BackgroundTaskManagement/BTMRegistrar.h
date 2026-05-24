@@ -9,7 +9,6 @@
 @interface BTMRegistrar
 {
     NSArray *_UIDs;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *UIDs; // @synthesize UIDs=_UIDs;
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end

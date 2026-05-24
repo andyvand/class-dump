@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIGlow : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    NSNumber *inputBiasAmount;
-    CIColor *inputColor;
-    NSNumber *inputSDFScale;
-    NSNumber *inputSDFZero;
-    NSNumber *inputMaskOpposite;
 }
 
 + (id);
@@ -25,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)R(;
 - (id);
 - (void);
 - (id);
@@ -38,13 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)[plxv}Qa\i:K=Vffcfªªª±±±±{O^SfGP@ZDUIbxwuxg|z|j{{}_rpyhwv}|}}}}ptozQcYrismyk¡¡¡¡u=VGj%A,X>P@W``\``ljl||||]sszF^WmUb\g^^\^AL@Q>J=SV`ZePjhr_mktyyyy}}}}ppppWWOX(:)H+=-JRVNXbbbb^^^^HTNVYYYYffffyyyy««««¥¥¥¥jcrkyttttuuuuixty{¦««¶¶¶¶¨¨¨¨wwpwepgue\ngwhmfo_nioPg_mnnnnttqtNnfso|Vpj}|^rqzfc[h\_UdZjdq]vsF^UqBRG_=H:WHZT`oooorrrrSe_kM_Tjorkv~x\ojxPc[pzwuz    kxtk}{ctoxrrmrxxsx¤¤¤¤««««££££}}}}vvvvZc^i<QE^XkgoUpnLVIdXUIX[[[[``^`N^VbRbZennnnw}|}YoiYlfz{{z{||{|{yw{zywzbtqyyyyywwwwfzx~¥¥¥¥£¢££]}xisk|PjdvSbZmyyyy~~~~ssss\d\lwwtws{wyn_|z~w~~~vvvvtrot~k|wo{§£§§·¼½½¾¿ÀÀ¦©®µ¢¥±¶¶¶¶°°°°r~ynxs~~_{x~~^tnz¢¢¢¢ªªªª}¢¦s{{{{nnnncd]dO^S`Y_Tf}y££££¼¼¼¼ÁÁÁÁ¶¶¶¶¡¡¡¡zQof`xsxxxxIYP]:I<RY[U[hhhhhpnpvvvvwwww /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputBiasAmount; // @synthesize inputBiasAmount;
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputMaskOpposite; // @synthesize inputMaskOpposite;
-@property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(copy, nonatomic) NSNumber *inputSDFScale; // @synthesize inputSDFScale;
-@property(copy, nonatomic) NSNumber *inputSDFZero; // @synthesize inputSDFZero;
 
 @end
 

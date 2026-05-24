@@ -6,15 +6,12 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebBusinessChatAction : AMSUIWebAction
 {
     NSString *_body;
-    NSString *_businessID;
-    NSString *_businessGroupID;
-    NSString *_intentID;
 }
 
 - (void);
@@ -25,24 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setRawCompletionCandidates: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)24@"AMSProcessInfo"32@?<v@?@"NSError">40;
 
 // Remaining properties
 @property(retain) NSString *body; // @synthesize body=_body;
-@property(retain) NSString *businessGroupID; // @synthesize businessGroupID=_businessGroupID;
-@property(retain) NSString *businessID; // @synthesize businessID=_businessID;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *intentID; // @synthesize intentID=_intentID;
-@property(readonly) Class superclass;
 
 @end
 

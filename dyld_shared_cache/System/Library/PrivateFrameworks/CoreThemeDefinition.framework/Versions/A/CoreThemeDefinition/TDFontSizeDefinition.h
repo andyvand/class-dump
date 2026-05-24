@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, TDMetafontSizeSelector;
+@class NSDate;
 
 @interface TDFontSizeDefinition
 {
@@ -13,7 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *dateOfLastChange; // @dynamic dateOfLastChange;
-@property(retain, nonatomic) NSNumber *pointSize; // @dynamic pointSize;
-@property(retain, nonatomic) TDMetafontSizeSelector *selector; // @dynamic selector;
 @end
 

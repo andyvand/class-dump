@@ -14,9 +14,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long), OSStatus);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

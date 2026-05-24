@@ -5,5 +5,8 @@
 //
 
 @protocol TSXDaemonServiceServerProtocol
+- (void)=;
+- (void)@;
+- (void);
 @end
 

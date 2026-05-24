@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, TSDRep;
+@class TSDRep;
 
 @interface TSDMagicMoveMatchObject
 {
     TSDRep *_rep;
-    long long _zOrder;
-    NSMutableDictionary *_attributes;
-    NSString *_stringValue;
-    NSString *_name;
-    struct CGPoint _position;
-    struct _NSRange _stringRange;
 }
 
 + (id);
 + (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)lic}@;
 - (void);
-- (long long);
+- (long long)RB;
 - (void);
 - (void);
 - (id);
@@ -34,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (struct CGPoint);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (void);
@@ -43,13 +37,7 @@
 - (void)32;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) struct CGPoint position; // @synthesize position=_position;
 @property(retain, nonatomic) TSDRep *rep; // @synthesize rep=_rep;
-@property(nonatomic) struct _NSRange stringRange; // @synthesize stringRange=_stringRange;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) long long zOrder; // @synthesize zOrder=_zOrder;
 
 @end
 

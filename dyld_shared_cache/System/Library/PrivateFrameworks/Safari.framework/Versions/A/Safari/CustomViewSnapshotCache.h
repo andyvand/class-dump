@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSPointerArray;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CustomViewSnapshotCache
 {
     NSObject<OS_dispatch_queue> *_snapshotRequestProcessingQueue;
-    NSMutableDictionary *_snapshotProviderIdentifiersToThumbnailTypes;
-    NSMutableDictionary *_thumbnailTypesToSnapshotProviderArrays;
-    NSMutableDictionary *_thumbnailTypesToPendingRequestBlocks;
-    NSMutableDictionary *_thumbnailTypesToCachedSnapshots;
-    unsigned long long _disableSnapshottingCount;
-    NSPointerArray *_updatesObservers;
 }
 
 - (void);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);

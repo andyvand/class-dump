@@ -12,14 +12,12 @@
 }
 
 - (id);
-- (id);
-- (struct _NSRange);
-- (long long);
+- (id)#;
+- (struct _NSRange)showsLanguageSelection;
+- (long long)c;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long direction;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

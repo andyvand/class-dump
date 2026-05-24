@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);

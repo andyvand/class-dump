@@ -9,23 +9,21 @@
 @interface TUReceptionistSession
 {
     NSString *_summary;
-    NSString *_predictedName;
 }
 
-+ (_Bool);
++ (_Bool)s;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (void)tvDeviceDisappeared: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *predictedName; // @synthesize predictedName=_predictedName;
 @property(readonly, nonatomic) NSString *summary; // @synthesize summary=_summary;
 
 @end

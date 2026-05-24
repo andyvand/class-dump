@@ -18,15 +18,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)I;
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)raseEnabledStatus;
+- (void);
+- (void)multiPhraseEnabledStatus;
 
 // Remaining properties
 @property(retain, nonatomic) CoreSpeechXPCFakeModelMonitor *fakeAssetMonitor; // @synthesize fakeAssetMonitor=_fakeAssetMonitor;

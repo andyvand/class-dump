@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCommandQueue, FCUserInfo, NSString;
-@protocol FCCoreConfigurationManager;
+@class FCUserInfo;
 
 @interface FCNotificationController
 {
     _Bool _publisherNotificationsAllowed;
-    _Bool _appleNewsNotificationsAllowed;
-    int _deviceDigestMode;
-    NSString *_notificationsUserID;
-    NSString *_deviceToken;
-    FCUserInfo *_userInfo;
-    FCCommandQueue *_commandQueue;
-    id <FCCoreConfigurationManager> _configurationManager;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -34,44 +26,30 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)_extractor;
+- (_Bool)(?h?;
+- (_Bool)7;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)te unique mountPoint:(_Bool)arg1 %@ due to:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ficationInputConfiguration",R,N,V_nonBundleInputConfiguration;
 - (_Bool)rovider init];
-- (void)dowLatestStoriesTopicsConfig;
+- (void)shadowLatestStoriesTopicsConfig;
 - (void)dObserver:] /* Error: Ran out of types for this method. */;
 - (void)History.m;
-- (id);
+- (id)_channelID;
 
 // Remaining properties
-@property(nonatomic) _Bool appleNewsNotificationsAllowed; // @synthesize appleNewsNotificationsAllowed=_appleNewsNotificationsAllowed;
-@property(retain, nonatomic) FCCommandQueue *commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(retain, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int deviceDigestMode; // @synthesize deviceDigestMode=_deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *notificationsUserID; // @synthesize notificationsUserID=_notificationsUserID;
-@property(nonatomic) _Bool publisherNotificationsAllowed; // @synthesize publisherNotificationsAllowed=_publisherNotificationsAllowed;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) FCUserInfo *userInfo; // @synthesize userInfo=_userInfo;
 
 @end

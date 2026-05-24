@@ -6,15 +6,12 @@
 
 #import <UIKitCore/_UIClickPresentation.h>
 
-@class NSArray, NSString, _UIContextMenuUIController, _UIFulfilledContextMenuConfiguration;
 @protocol _UIContextMenuPresentationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuPresentation : _UIClickPresentation
 {
     _Bool _suppressInputViewDuringPresentation;
-    id <_UIContextMenuPresentationDelegate> _delegate;
-    _UIContextMenuUIController *_uiController;
 }
 
 - (id);
@@ -22,30 +19,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void)retryTranscriptBackgroundUpload:(id)arg1 chatIdentifier:style:transferID: /* Error: Ran out of types for this method. */;
+- (void)sh:(id)arg1;
+- (void)orPredicateWithSubpredicates:(id)arg1;
+- (void)metadataByRecordNameMap;
+- (id)initWithOutgoingMessage:(id)arg1 transportType:serviceType:recipients:sendingHandle: /* Error: Ran out of types for this method. */;
+- (void)initWithFilteringController: /* Error: Ran out of types for this method. */;
+- (id)informOfCancelledMessageWithMessageGUID:(id)arg1 success:cancelType:error: /* Error: Ran out of types for this method. */;
+- (id)createCKRecordForUpdateT1:zoneID:salt: /* Error: Ran out of types for this method. */;
+- (id)compressedProtobufDataForUpdateT3:(id)arg1;
+- (id)_proxyHost;
+- (void)replaceReports:(id)arg1;
+- (void)handlePriorityMessageCommandWithPipeline:(id)arg1 input:(id)arg2 completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (id)d message type for item %@;
+- (void);
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -55,18 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UIContextMenuPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIFulfilledContextMenuConfiguration *menuConfiguration;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressInputViewDuringPresentation; // @synthesize suppressInputViewDuringPresentation=_suppressInputViewDuringPresentation;
-@property(readonly, nonatomic) _UIContextMenuUIController *uiController; // @synthesize uiController=_uiController;
-@property(readonly, nonatomic) NSArray *visibleMenus;
 
 @end
 

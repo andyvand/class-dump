@@ -8,9 +8,6 @@
 {
     id policy;
     id cachedActivePolicyNodes;
-    id isPolicyApplied;
-    id _parent;
-    id children;
 }
 
 @end

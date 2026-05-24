@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAudioPlaylist, FCIssueReadingHistory, FCPrivateChannelMembershipController, FCPuzzleHistory, FCPuzzleTypeSettings, FCReadingHistory, FCReadingList, FCRecipeUserEventHistory, FCShortcutList, FCSubscriptionList, FCTagSettings, FCUserEventHistory, FCUserInfo, NSString;
-@protocol FCNetworkBehaviorMonitor, FCPrivateDataContextInternal, FCPushNotificationHandling;
+@class FCAudioPlaylist, FCIssueReadingHistory, FCPrivateChannelMembershipController, FCPuzzleTypeSettings;
+@protocol FCPrivateDataContextInternal, FCPushNotificationHandling;
 
 @protocol FCPrivateDataContext
+- (FCPrivateChannelMembershipController *);
 - (id <FCPrivateDataContextInternal>)æ!¼@ùöð1Â0@ù
 × ;
 - (id <FCPushNotificationHandling>)1Â0@ù
 × ;
 - (FCPuzzleTypeSettings *);
-- (FCAudioPlaylist *);
+- (FCAudioPlaylist *)array;
 
 // Remaining properties
-@property(readonly, nonatomic) FCAudioPlaylist *audioPlaylist;
-@property(readonly, nonatomic) id <FCPrivateDataContextInternal> internalPrivateDataContext;
 @property(readonly, nonatomic) FCIssueReadingHistory *issueReadingHistory;
-@property(readonly, nonatomic) id <FCNetworkBehaviorMonitor> networkBehaviorMonitor;
-@property(readonly, nonatomic) FCPrivateChannelMembershipController *privateChannelMembershipController;
-@property(readonly, copy, nonatomic) NSString *privateDataDirectory;
-@property(readonly, nonatomic, getter=isPrivateDataSyncingEnabled) _Bool privateDataSyncingEnabled;
-@property(readonly, nonatomic) id <FCPushNotificationHandling> privatePushNotificationHandler;
-@property(readonly, nonatomic) FCPuzzleHistory *puzzleHistory;
-@property(readonly, nonatomic) FCPuzzleTypeSettings *puzzleTypeSettings;
-@property(readonly, nonatomic) FCReadingHistory *readingHistory;
-@property(readonly, nonatomic) FCReadingList *readingList;
-@property(readonly, nonatomic) FCRecipeUserEventHistory *recipeUserEventHistory;
-@property(readonly, nonatomic) FCShortcutList *shortcutList;
-@property(readonly, nonatomic) FCSubscriptionList *subscriptionList;
-@property(readonly, nonatomic) FCTagSettings *tagSettings;
-@property(readonly, nonatomic) FCUserEventHistory *userEventHistory;
-@property(readonly, nonatomic) FCUserInfo *userInfo;
 @end
 

@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PCTDFA;
+@class PCTDFA;
 
 @interface CTFuzzyIndex
 {
     PCTDFA *_CTindex;
-    NSMutableDictionary *_CTdata;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (int);

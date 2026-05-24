@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface BrightnessSequenceQueue
 {
     double _timeFactor;
-    double _sequenceStartTime;
-    unsigned long long _currentUpdateID;
-    NSArray *_flipbook;
 }
 
 - (void);
@@ -22,13 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned long long currentUpdateID; // @synthesize currentUpdateID=_currentUpdateID;
-@property(readonly) NSArray *flipbook; // @synthesize flipbook=_flipbook;
-@property(readonly) _Bool isDone;
 @property double sequenceStartTime; // @synthesize sequenceStartTime=_sequenceStartTime;
 
 @end

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBalloonView, CKSendAnimationSupplementaryViews;
+@class CKBalloonView;
 
 @interface CKThrowBalloonViewAttributes
 {
     CKBalloonView *_throwBalloonView;
-    CKSendAnimationSupplementaryViews *_supplementaryViews;
-    struct CGRect _startFrame;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)setNonScalableDeviceInfo: /* Error: Ran out of types for this method. */;
+- (void)isPassphraseCorrect:(id)arg1;
+- (void)isDescendantOfFolder:(id)arg1;
 - (struct CGRect);
 - (void);
 - (void)Ìh;
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGRect startFrame; // @synthesize startFrame=_startFrame;
-@property(retain, nonatomic) CKSendAnimationSupplementaryViews *supplementaryViews; // @synthesize supplementaryViews=_supplementaryViews;
 @property(retain, nonatomic) CKBalloonView *throwBalloonView; // @synthesize throwBalloonView=_throwBalloonView;
 
 @end

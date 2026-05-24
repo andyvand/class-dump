@@ -7,25 +7,10 @@
 #import <Metal/MTLAccelerationStructureGeometryDescriptor.h>
 
 @class NSArray;
-@protocol MTLBuffer;
 
 @interface MTLAccelerationStructureMotionCurveGeometryDescriptor : MTLAccelerationStructureGeometryDescriptor
 {
     NSArray *_controlPointBuffers;
-    unsigned long long _controlPointCount;
-    unsigned long long _controlPointStride;
-    unsigned long long _controlPointFormat;
-    NSArray *_radiusBuffers;
-    unsigned long long _radiusFormat;
-    unsigned long long _radiusStride;
-    id <MTLBuffer> _indexBuffer;
-    unsigned long long _indexBufferOffset;
-    unsigned long long _indexType;
-    unsigned long long _segmentCount;
-    unsigned long long _segmentControlPointCount;
-    long long _curveBasis;
-    long long _curveType;
-    long long _endCaps;
 }
 
 + (id);
@@ -33,12 +18,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)
+;
 - (void);
 - (void);
 - (void);
@@ -65,26 +51,11 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (id);
+- (id)`;
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *controlPointBuffers; // @synthesize controlPointBuffers=_controlPointBuffers;
-@property(nonatomic) unsigned long long controlPointCount; // @synthesize controlPointCount=_controlPointCount;
-@property(nonatomic) unsigned long long controlPointFormat; // @synthesize controlPointFormat=_controlPointFormat;
-@property(nonatomic) unsigned long long controlPointStride; // @synthesize controlPointStride=_controlPointStride;
-@property(nonatomic) long long curveBasis; // @synthesize curveBasis=_curveBasis;
-@property(nonatomic) long long curveEndCaps; // @synthesize curveEndCaps=_endCaps;
-@property(nonatomic) long long curveType; // @synthesize curveType=_curveType;
 @property(nonatomic) long long endCaps;
-@property(retain, nonatomic) id <MTLBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexBufferOffset; // @synthesize indexBufferOffset=_indexBufferOffset;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(copy, nonatomic) NSArray *radiusBuffers; // @synthesize radiusBuffers=_radiusBuffers;
-@property(nonatomic) unsigned long long radiusFormat; // @synthesize radiusFormat=_radiusFormat;
-@property(nonatomic) unsigned long long radiusStride; // @synthesize radiusStride=_radiusStride;
-@property(nonatomic) unsigned long long segmentControlPointCount; // @synthesize segmentControlPointCount=_segmentControlPointCount;
-@property(nonatomic) unsigned long long segmentCount; // @synthesize segmentCount=_segmentCount;
 
 @end
 

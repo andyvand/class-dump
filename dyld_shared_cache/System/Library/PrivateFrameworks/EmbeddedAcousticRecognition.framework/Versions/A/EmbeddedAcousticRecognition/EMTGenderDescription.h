@@ -7,17 +7,15 @@
 @interface EMTGenderDescription
 {
     unsigned long long _gender;
-    unsigned long long _defaultGender;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (unsigned long long)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long defaultGender; // @synthesize defaultGender=_defaultGender;
 @property(readonly, nonatomic) unsigned long long gender; // @synthesize gender=_gender;
 
 @end

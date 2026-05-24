@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, WFOutOfProcessWorkflowController, WFRunnerPrewarmManager, WFWorkflowRunDescriptor, WFWorkflowRunRequest, WFWorkflowRunViewSource, WFWorkflowRunningContext;
-@protocol OS_dispatch_queue, WFWorkflowRunnerClientDelegate;
+@class WFRunnerPrewarmManager;
 
 @interface WFWorkflowRunnerClient
 {
     WFWorkflowRunnerClient *_strongSelf;
-    WFRunnerPrewarmManager *_prewarmManager;
-    id <WFWorkflowRunnerClientDelegate> _delegate;
-    WFWorkflowRunViewSource *_runViewSource;
-    id _progressSubscriber;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    WFWorkflowRunDescriptor *_descriptor;
-    WFWorkflowRunRequest *_runRequest;
-    WFWorkflowRunningContext *_context;
-    WFOutOfProcessWorkflowController *_workflowController;
 }
 
-+ (id);
++ (id)];
 - (id);
 - (void);
 - (void);
@@ -30,33 +20,33 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)l;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)2|;
 - (id);
-- (id);
+- (void){;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)/;
 - (id);
 - (void)Uð!HEù±^Ð1Â0@ù
 × ;
@@ -64,23 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WFWorkflowRunningContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WFWorkflowRunnerClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) WFWorkflowRunDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WFRunnerPrewarmManager *prewarmManager; // @synthesize prewarmManager=_prewarmManager;
-@property(retain, nonatomic) id progressSubscriber; // @synthesize progressSubscriber=_progressSubscriber;
-@property(retain, nonatomic) WFWorkflowRunRequest *runRequest; // @synthesize runRequest=_runRequest;
-@property(copy, nonatomic) WFWorkflowRunViewSource *runViewSource; // @synthesize runViewSource=_runViewSource;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) WFOutOfProcessWorkflowController *workflowController; // @synthesize workflowController=_workflowController;
 
 @end
 

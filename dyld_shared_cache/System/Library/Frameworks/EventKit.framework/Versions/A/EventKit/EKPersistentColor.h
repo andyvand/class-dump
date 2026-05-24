@@ -12,20 +12,20 @@
 
 + (Class);
 + (id);
-+ (id);
-- (_Bool);
++ (id)@;
+- (_Bool)Added:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)}@, batch:(id)arg1 %@);
+- (void);
+- (id)removeDeliveredNotificationsWithIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)al/Tests/AppleNeuralEngine/AppleNeuralEngine_tests-Runner.app/Contents/PlugIns/AppleNeuralEngine_tests.xctest;
 - (void);
 - (void);
-- (id)e;
+- (id)_attemptToUpdateComplexRecurrenceRule;
 
 @end
 

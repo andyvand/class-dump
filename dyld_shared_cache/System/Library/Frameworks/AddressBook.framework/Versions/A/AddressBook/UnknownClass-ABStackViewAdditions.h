@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSView;
+@class NSArray;
 
 @interface UnknownClass (ABStackViewAdditions)
 - (_Bool);
@@ -13,7 +13,5 @@
 
 // Remaining properties
 @property(readonly) NSArray *_ab_attachedViews;
-@property(readonly) NSView *_ab_firstAttachedView;
-@property(readonly) _Bool _ab_hasAttachedViews;
 @end
 

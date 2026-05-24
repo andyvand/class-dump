@@ -9,20 +9,18 @@
 @interface FCNewsPersonalizationFeaturePriorsConfiguration
 {
     FCNewsPersonalizationFeaturePrior *_baselineFeaturePrior;
-    FCNewsPersonalizationFeaturePrior *_generalFeaturePrior;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Hr;
 - (void);
 - (id);
 - (void)query;
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsPersonalizationFeaturePrior *baselineFeaturePrior; // @synthesize baselineFeaturePrior=_baselineFeaturePrior;
-@property(retain, nonatomic) FCNewsPersonalizationFeaturePrior *generalFeaturePrior; // @synthesize generalFeaturePrior=_generalFeaturePrior;
 
 @end
 

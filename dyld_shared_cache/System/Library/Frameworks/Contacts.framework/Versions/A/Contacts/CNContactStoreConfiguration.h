@@ -4,70 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactsEnvironment, CNManagedConfiguration, NSObject;
-@protocol OS_tcc_identity;
+@class CNContactsEnvironment;
 
 @interface CNContactStoreConfiguration
 {
     _Bool _includeLocalContacts;
-    _Bool _includeSuggestedContacts;
-    _Bool _includeDonatedContacts;
-    _Bool _includeIncludeManagedAppleIDs;
-    _Bool _includeAcceptedIntroductions;
-    _Bool _includeSharedPhotoContacts;
-    _Bool _useOutOfProcessMapperExclusively;
-    _Bool _useInProcessMapperExclusively;
-    _Bool _isContactProvider;
-    _Bool _leaveSingleStoresUnwrapped;
-    NSObject<OS_tcc_identity> *_assumedIdentity;
-    CNContactsEnvironment *_environment;
-    CNManagedConfiguration *_managedConfiguration;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id)g ;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void);
+- (void)?G;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool),N,V_isManaged;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)j;
 - (void);
+- (_Bool)S;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)setUniqueIdentifier:(_Bool)arg1;
 - (id);
 - (void);
 - (id);
 - (void)on"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)act:(_Bool)arg1 subsetOfContact:forMultiValueProperty: /* Error: Ran out of types for this method. */;
+- (void)isContact:(_Bool)arg1 subsetOfContact:forMultiValueProperty: /* Error: Ran out of types for this method. */;
 - (id)Àä,;
 - (void)dden contact for change history.;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_tcc_identity> *assumedIdentity; // @synthesize assumedIdentity=_assumedIdentity;
 @property(retain, nonatomic) CNContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) _Bool includeAcceptedIntroductions; // @synthesize includeAcceptedIntroductions=_includeAcceptedIntroductions;
-@property(nonatomic) _Bool includeDonatedContacts; // @synthesize includeDonatedContacts=_includeDonatedContacts;
-@property(nonatomic) _Bool includeIncludeManagedAppleIDs; // @synthesize includeIncludeManagedAppleIDs=_includeIncludeManagedAppleIDs;
-@property(nonatomic) _Bool includeLocalContacts; // @synthesize includeLocalContacts=_includeLocalContacts;
-@property(nonatomic) _Bool includeSharedPhotoContacts; // @synthesize includeSharedPhotoContacts=_includeSharedPhotoContacts;
-@property(nonatomic) _Bool includeSuggestedContacts; // @synthesize includeSuggestedContacts=_includeSuggestedContacts;
-@property(nonatomic) _Bool isContactProvider; // @synthesize isContactProvider=_isContactProvider;
-@property(nonatomic) _Bool leaveSingleStoresUnwrapped; // @synthesize leaveSingleStoresUnwrapped=_leaveSingleStoresUnwrapped;
-@property(retain, nonatomic) CNManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
-@property(nonatomic) _Bool useInProcessMapperExclusively; // @synthesize useInProcessMapperExclusively=_useInProcessMapperExclusively;
-@property(nonatomic) _Bool useOutOfProcessMapperExclusively; // @synthesize useOutOfProcessMapperExclusively=_useOutOfProcessMapperExclusively;
 
 @end
 

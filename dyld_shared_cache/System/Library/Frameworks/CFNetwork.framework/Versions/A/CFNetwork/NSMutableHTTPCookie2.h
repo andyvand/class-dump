@@ -6,7 +6,7 @@
 
 #import <CFNetwork/NSHTTPCookie2.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSMutableHTTPCookie2 : NSHTTPCookie2
@@ -17,28 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
+- (void)Z;
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void)dBuffer;
+- (void)_readBuffer;
 - (void)Âà;
 
 // Remaining properties
-@property(retain) NSString *domain; // @dynamic domain;
-@property(retain) NSDate *expirationDate; // @dynamic expirationDate;
-@property _Bool hostOnly; // @dynamic hostOnly;
-@property _Bool httpOnly; // @dynamic httpOnly;
 @property(retain) NSString *name; // @dynamic name;
-@property(retain) NSString *partition; // @dynamic partition;
-@property(retain) NSString *path; // @dynamic path;
-@property long long sameSite; // @dynamic sameSite;
-@property _Bool secure; // @dynamic secure;
-@property long long source; // @dynamic source;
-@property(retain) NSString *value; // @dynamic value;
 
 @end
 

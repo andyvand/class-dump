@@ -13,7 +13,7 @@
     NSString *_stateKey;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (_Bool);
@@ -28,8 +28,6 @@
 - (id)ollection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysNotifies;
-@property(nonatomic) _Bool recordsTime;
 @property(copy) NSString *stateKey; // @synthesize stateKey=_stateKey;
 
 @end

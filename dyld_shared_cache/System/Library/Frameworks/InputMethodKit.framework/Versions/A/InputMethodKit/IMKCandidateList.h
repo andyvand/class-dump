@@ -11,19 +11,18 @@
     NSArray *_candidates;
 }
 
-+ (id);
-+ (id);
++ (id)i;
++ (id)kb;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)_shouldEnableMLEnhance;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(readonly, nonatomic) _Bool hasCandidate;
 
 @end
 

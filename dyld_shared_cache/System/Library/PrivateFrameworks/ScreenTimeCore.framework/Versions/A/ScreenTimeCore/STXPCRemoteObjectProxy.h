@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)ed, vpp_org_id, vpp_org_name FROM item_store;
++ (void)TO genre;
++ (void)DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
++ (void)'', has_alternate_audio INTEGER NOT NULL DEFAULT 0, has_subtitles INTEGER NOT NULL DEFAULT 0, audio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
 
 @end
 

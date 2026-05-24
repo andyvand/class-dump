@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PCNativeColor;
+@class PCNativeColor;
 
 @interface PCNativeShadowStyle
 {
     PCNativeColor *_color;
-    double _opacity;
-    double _radius;
-    NSArray *_offsets;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)CKReportSpamReasonContoller;
+- (id)CKBalloonTextViewConfiguration;
 - (id);
 - (void);
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PCNativeColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSArray *offsets; // @synthesize offsets=_offsets;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
 
 @end
 

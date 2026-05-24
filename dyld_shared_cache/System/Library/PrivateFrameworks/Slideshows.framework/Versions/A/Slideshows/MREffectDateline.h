@@ -6,35 +6,11 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRImageProvider, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectDateline : MREffect
 {
     NSMutableDictionary *mSprites;
-    NSDictionary *mJournal;
-    NSMutableArray *mLengths;
-    NSMutableArray *mChapterDurations;
-    NSMutableArray *mChapters;
-    NSMutableDictionary *mText;
-    NSMutableDictionary *mChapterDates;
-    NSMutableDictionary *mChapterNumDate;
-    NSMutableArray *mIndicies;
-    NSMutableDictionary *mWeatherImages;
-    NSMutableDictionary *mDayImages;
-    NSMutableDictionary *mBreakInformation;
-    NSMutableDictionary *mMovieProviders;
-    NSArray *mSlideInformation;
-    _Bool mIsLoaded;
-    _Bool mIsRotating;
-    _Bool mIsVertical;
-    MRImageProvider *mTextBackground;
-    MRImageProvider *mQuoteOpen;
-    MRImageProvider *mQuoteClose;
-    MRImageProvider *mQuoteBox;
-    MRImageProvider *mWeatherWindowMask;
-    MRImageProvider *mDateWindowMask;
-    MRImage *mGrayImage;
-    MRCroppingSprite *mChapterSprite;
 }
 
 + (id);
@@ -45,12 +21,12 @@
 + (void)&;
 - (double);
 - (double);
-- (_Bool);
-- (double);
-- (double);
+- (_Bool)NSString"16@0:8 /* Error: Ran out of types for this method. */;
+- (double)setObserver:(unsigned long long)arg1;
+- (double)setLock:(unsigned long long)arg1;
 - (void);
-- (_Bool);
-- (double);
+- (_Bool)er=%{public}@;
+- (double)vicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
 - (_Bool);
 - (double);
 - (double);
@@ -64,7 +40,7 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -73,16 +49,16 @@
 - (id);
 - (id);
 - (double);
-- (double);
-- (struct CGSize);
+- (double)5;
+- (struct CGSize);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)	;
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (struct _NSRange);
 - (long long);
@@ -96,9 +72,7 @@
 - (void)ng;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration;
 @property(readonly, nonatomic) double phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration;
 
 @end
 

@@ -11,7 +11,7 @@
     _PASLock *_lock;
 }
 
-- (void);
+- (void)embeddedJPEGSuitableForDerivativesInImageOfType:(id)arg1 url:imageProperties: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool)0@ù

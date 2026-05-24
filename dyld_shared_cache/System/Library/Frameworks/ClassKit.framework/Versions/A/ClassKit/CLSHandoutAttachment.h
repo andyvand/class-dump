@@ -6,35 +6,15 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class CLSHandout, CLSSurvey, NSArray, NSDate, NSString, NSURL;
-
 @interface CLSHandoutAttachment : CLSObject
 {
     int _shareType;
-    int _permissionType;
-    NSURL *_URL;
-    NSArray *_contextPath;
-    NSString *_title;
-    NSString *_bundleIdentifier;
-    NSString *_applicationName;
-    NSString *_contentStoreIdentifier;
-    NSString *_contextSummary;
-    NSString *_contextCustomTypeName;
-    _Bool _contextSourceIsCatalog;
-    int _completionStatus;
-    long long _displayOrder;
-    long long _contextType;
-    NSDate *_dateLastCompleted;
-    double _timeExpectation;
-    _Bool _locked;
-    int _type;
-    NSString *_storeIdentifier;
 }
 
 + (id);
-+ (_Bool);
-- (id);
-- (int);
++ (_Bool)_custodianSetupToken;
+- (id)__AUTH_CONST;
+- (int)__objc_selrefs;
 - (void);
 - (void);
 - (void);
@@ -45,84 +25,59 @@
 - (void);
 - (void);
 - (void);
-- (int);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (int)r different program!! programHandle:0x%llx, req->transactionID=0x%llx, reqCb->transactionID=0x%llx
+ /* Error: Ran out of types for this method. */;
+- (void)g to load firmware
+;
+- (id)dAddr=%llx;
+- (void)AD_SCHED_RR_INFO failed
+;
+- (id)size:%d, No action
+ /* Error: Ran out of types for this method. */;
+- (id)read_attr_setschedparam() failed. Error:%d
+ /* Error: Ran out of types for this method. */;
+- (_Bool)IOServiceMatched;
+- (id)SetupDeviceController;
+- (id)_signature=1 for loading customer FW;
+- (id)adFirmware:Privilege violation,  add boot-args amfi_allow_any_signature=1 for loading customer FW /* Error: Ran out of types for this method. */;
+- (id)turned 0x%08x 
+;
+- (void)itInfo *);
+- (void)inComputeProgramGetMutableKernelSectionForProcedure(const ZinComputeProgram *, uint32_t, ZinComputeProgramSection **);
 - (double);
 - (void);
-- (id);
+- (id)d;
 - (_Bool);
+- (void)U layers;
+- (int)to be implemented to call modify_gradient;
 - (void);
-- (int);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)?;
 - (long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (long long);
 - (int);
+- (void)d;;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id)te: /* Error: Ran out of types for this method. */;
+- (id)initWithObjectType:predicate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL;
-@property(copy, nonatomic) NSString *applicationName;
-@property(readonly, nonatomic) NSArray *assets;
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSArray *collaborationStates;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(nonatomic) int completionStatus;
-@property(copy, nonatomic) NSString *contentStoreIdentifier;
-@property(copy, nonatomic) NSString *contextCustomTypeName;
-@property(copy, nonatomic) NSArray *contextPath;
-@property(nonatomic) _Bool contextSourceIsCatalog;
-@property(copy, nonatomic) NSString *contextSummary;
-@property(nonatomic) long long contextType;
-@property(retain, nonatomic) NSDate *dateLastCompleted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayOrder;
 @property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(readonly, nonatomic) CLSHandout *parent; // @dynamic parent;
-@property(readonly, nonatomic) NSString *parentObjectID; // @dynamic parentObjectID;
-@property(nonatomic) int permissionType;
-@property(nonatomic) int shareType;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) CLSSurvey *survey;
-@property(nonatomic) double timeExpectation;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

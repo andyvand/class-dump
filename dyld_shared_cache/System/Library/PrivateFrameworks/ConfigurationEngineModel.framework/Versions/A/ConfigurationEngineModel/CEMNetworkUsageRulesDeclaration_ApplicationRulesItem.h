@@ -6,18 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface CEMNetworkUsageRulesDeclaration_ApplicationRulesItem : CEMPayloadBase
 {
     NSArray *_payloadAppIdentifierMatches;
-    NSNumber *_payloadAllowRoamingCellularData;
-    NSNumber *_payloadAllowCellularData;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)work/Versions/A/WiFiPeerToPeer;
++ (id)rk/Versions/A/NetworkScore;
 - (void);
 - (void);
 - (id);
@@ -25,13 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)peechManager _speechJobFinished:(id)arg1 action:(id *)arg2 ];
 - (id);
-- (void);
+- (void)AESGCM(128);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadAllowCellularData; // @synthesize payloadAllowCellularData=_payloadAllowCellularData;
-@property(copy, nonatomic) NSNumber *payloadAllowRoamingCellularData; // @synthesize payloadAllowRoamingCellularData=_payloadAllowRoamingCellularData;
 @property(copy, nonatomic) NSArray *payloadAppIdentifierMatches; // @synthesize payloadAppIdentifierMatches=_payloadAppIdentifierMatches;
 
 @end

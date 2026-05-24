@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSErrorVariableConstraint : NSLayoutConstraint
 {
     NSISVariable *_errorVariable;
-    double _errorValue;
 }
 
 - (id);

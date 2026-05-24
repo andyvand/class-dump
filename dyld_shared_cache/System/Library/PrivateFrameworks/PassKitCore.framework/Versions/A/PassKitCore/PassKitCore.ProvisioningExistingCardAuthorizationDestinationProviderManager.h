@@ -7,13 +7,6 @@
 @interface PassKitCore.ProvisioningExistingCardAuthorizationDestinationProviderManager
 {
     id sid;
-    id queue;
-    id coordinator;
-    id managedProviders;
-    id unsupportedCredentials;
-    id commonCompletion;
-    id discoveryCompletion;
-    id performProximityVerification;
 }
 
 @end

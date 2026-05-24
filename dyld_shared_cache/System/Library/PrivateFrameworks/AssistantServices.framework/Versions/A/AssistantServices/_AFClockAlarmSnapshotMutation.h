@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFClockAlarmSnapshot, NSDate, NSDictionary, NSOrderedSet, NSString;
+@class AFClockAlarmSnapshot;
 
 @interface _AFClockAlarmSnapshotMutation
 {
     AFClockAlarmSnapshot *_base;
-    unsigned long long _generation;
-    NSDate *_date;
-    NSDictionary *_alarmsByID;
-    NSOrderedSet *_notifiedFiringAlarmIDs;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasGeneration:1;
-        unsigned int hasDate:1;
-        unsigned int hasAlarmsByID:1;
-        unsigned int hasNotifiedFiringAlarmIDs:1;
-    } _mutationFlags;
 }
 
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)thumbnailModeAfterDownloadSuccess:(id)arg1;
+- (void)pw;
 - (id);
 - (id);
 - (void);
-- (id)setVersion;
-- (void)rDNDMode;
+- (id)spIdAssetVersion;
+- (void)_isDeviceInCarDNDMode;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

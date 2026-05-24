@@ -4,99 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUErrorView, FUFlightView, FULoadingView, NSArray, NSDate, NSNumber, NSString;
-@protocol FUFlightViewControllerDelegate;
+@class FUFlightView;
 
 @interface FUFlightViewController
 {
     _Bool _loadingFlight;
-    NSDate *_startLoadingDate;
-    unsigned long long _displayStyle;
-    id <FUFlightViewControllerDelegate> _delegate;
-    _Bool _requiresDataLoad;
-    _Bool _viewLoaded;
-    FUFlightView *_regularFlightView;
-    FUFlightView *_compactFlightView;
-    _Bool _landscape;
-    _Bool _highlightCurrentFlightLeg;
-    _Bool _showInfoPanel;
-    NSArray *_flights;
-    FUFlightView *_horizontalFlightView;
-    FUErrorView *_errorView;
-    FULoadingView *_loadingView;
-    NSNumber *_flightCode;
-    NSString *_airlineCode;
 }
 
+- (_Bool)ryPtr:NULL outside of range for frames, frameNumber=%d for segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)eV2ForBytes:offsetTableEntryPtr:NULL outside of range for frames, frameNumber=%d for segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)for segment:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)beyond the original timestamp:(long long)arg1 %f to:%f /* Error: Ran out of types for this method. */;
+- (void)mestamp:(id)arg1 timestamp was adjusted more than %d seconds beyond the original timestamp:%f to:%f /* Error: Ran out of types for this method. */;
+- (void)offset:(id)arg1 %u frame size:%u reverse:%d /* Error: Ran out of types for this method. */;
+- (void):(_Bool)arg1 %d, frame number:%d, segment:%{public}@ offset:%u frame size:%u reverse:%d /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 %u in segment:(long long)arg2 %{public}@;
+- (void)erFrame:(id)arg1 %d  segment:%@ /* Error: Ran out of types for this method. */;
+- (void)y the currentFrameCount:(id)arg1 %d  segment:%@ /* Error: Ran out of types for this method. */;
+- (long long)e:%zu in segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (long long)larger than the segmentSize:%zu in segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)eWithOptions:byteAfterLastFramesDataAtEnumerationStart:%u is larger than the segmentSize:%zu in segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)frameNumber=%d for segment:(id)arg1 %{public}@;
+- (id)alue:(id)arg1 %d in the last offsetTableEntry (offset):%ld beyond the data space size:%zu /* Error: Ran out of types for this method. */;
+- (id)%zu;
+- (id)ll, and has an EOF, fileSize:(id)arg1 %zu;
+- (id)to open %{public}@ for writing but the file is already full, and has an EOF, fileSize:%zu /* Error: Ran out of types for this method. */;
+- (_Bool)n offsetTable with %d frames;
+- (void)rrno}d.;
+- (id)blic}@ error %{darwin.errno}d.;
+- (void)blic}@;
+- (id)%{public}@;
+- (void)eState (%d) for frame %d in segment:(long long)arg1 %@;
+- (void)is in user domain.;
+- (void)to End of File instead;
+- (void);
+- (id);
+- (void)nection idle timer...;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)@;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)_AXFLaunchServicesProvider;
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)l;
 
 // Remaining properties
-@property(retain) NSString *airlineCode; // @synthesize airlineCode=_airlineCode;
-@property(retain) FUFlightView *compactFlightView; // @synthesize compactFlightView=_compactFlightView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak FUErrorView *errorView; // @synthesize errorView=_errorView;
-@property(retain) NSNumber *flightCode; // @synthesize flightCode=_flightCode;
-@property(readonly, nonatomic) FUFlightView *flightView;
-@property(retain, nonatomic) NSArray *flights; // @synthesize flights=_flights;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlightCurrentFlightLeg; // @synthesize highlightCurrentFlightLeg=_highlightCurrentFlightLeg;
-@property(retain) FUFlightView *horizontalFlightView; // @synthesize horizontalFlightView=_horizontalFlightView;
-@property __weak FULoadingView *loadingView; // @synthesize loadingView=_loadingView;
 @property(retain) FUFlightView *regularFlightView; // @synthesize regularFlightView=_regularFlightView;
-@property(nonatomic) long long selectedFlight;
-@property(nonatomic) long long selectedLeg;
-@property(nonatomic) _Bool showInfoPanel; // @synthesize showInfoPanel=_showInfoPanel;
-@property(readonly) Class superclass;
 
 @end
 

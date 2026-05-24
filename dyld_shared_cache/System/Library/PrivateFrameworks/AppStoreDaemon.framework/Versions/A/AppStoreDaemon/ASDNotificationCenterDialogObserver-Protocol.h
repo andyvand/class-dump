@@ -5,5 +5,6 @@
 //
 
 @protocol ASDNotificationCenterDialogObserver
+- (void);
 @end
 

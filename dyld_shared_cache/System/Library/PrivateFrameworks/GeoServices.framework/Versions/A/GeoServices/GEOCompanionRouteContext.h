@@ -7,57 +7,45 @@
 @interface GEOCompanionRouteContext
 {
     double _timestamp;
-    unsigned int _legacyTimestamp;
-    int _origin;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int has_legacyTimestamp:1;
-        unsigned int has_origin:1;
-    } _flags;
 }
 
-+ (int);
++ (int)@;
 + (id);
-+ (_Bool)erOfReroutes:(id)arg1;
++ (_Bool)setHasNumberOfReroutes:(id)arg1;
 - (void);
 - (void);
 - (void);
+- (_Bool)initWithAuditToken:(id)arg1 assumedIdentity: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)R;
 - (_Bool);
 - (unsigned int);
 - (int);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)installedAssetOfType:(id)arg1 withLanguage:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (double);
 - (id);
+- (_Bool)m;
 - (_Bool);
 - (_Bool);
+- (void)`!;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void)trictions;
-- (id)uerySequenceNumber;
-- (int)urantReservationLinkFilter;
+- (void)supportsLicensePlateRestrictions;
+- (id)selectionFromQuerySequenceNumber;
+- (int)_restaurantReservationLinkFilter;
 - (void)pItemAttribution",R,N;
 - (id)¨°;
-- (id)ssion;
+- (id)table_booked_session;
 - (long long)¨ÜÔ;
 - (id)°;
 
 // Remaining properties
 @property(nonatomic) _Bool hasLegacyTimestamp;
-@property(nonatomic) _Bool hasOrigin;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int legacyTimestamp;
-@property(nonatomic) int origin;
-@property(nonatomic) double timestamp;
 
 @end
 

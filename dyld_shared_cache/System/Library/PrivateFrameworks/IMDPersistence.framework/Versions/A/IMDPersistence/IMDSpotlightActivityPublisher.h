@@ -9,11 +9,10 @@
 @interface IMDSpotlightActivityPublisher
 {
     OS_dispatch_queue *queue;
-    id monitors;
 }
 
 + (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);

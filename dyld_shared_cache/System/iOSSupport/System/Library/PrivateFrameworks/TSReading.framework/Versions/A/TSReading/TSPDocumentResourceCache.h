@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface TSPDocumentResourceCache
 {
     NSURL *_cacheURL;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_entries;
-    long long _maxCacheSizeInBytes;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)de policy %@;
+- (void)anged;
+- (void)play status] event=;
+- (void)playbackRateDidChange: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)f;
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)àDìGhK(MOPRtRShS;
 

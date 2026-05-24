@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _UIPopoverLayoutInfo
 {
     struct UIEdgeInsets _contentInset;
-    double _arrowHeight;
-    double _arrowOffset;
-    struct CGSize _preferredContentSize;
-    unsigned long long _preferredArrowDirections;
-    struct CGRect _containingFrame;
-    struct UIEdgeInsets _containingFrameInsets;
-    struct CGRect _sourceViewRect;
-    _Bool _canOverlapSourceViewRect;
-    struct CGRect _frame;
-    double _offset;
-    unsigned long long _arrowDirection;
-    _Bool _preferLandscapeOrientations;
-    _Bool _updatesEnabled;
-    NSMutableArray *_candidates;
-    _Bool _isRTL;
-    long long _preferredHorizontalAlignment;
 }
 
 + (id);
@@ -38,33 +20,33 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (unsigned long long);
 - (_Bool);
-- (struct UIEdgeInsets);
-- (void);
+- (struct UIEdgeInsets)localizedShortName;
+- (void)IMHoldOffGridDeliveryReceiptPipelineComponent;
 - (struct CGSize);
-- (struct CGRect);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
+- (struct CGRect)e received registration status changed:%@ (%@) /* Error: Ran out of types for this method. */;
+- (void)rotobufDataForMessageP2 (reply data) called on object %@ %@;
+- (void)ssage through Blastdoor name=(%@); reason=(%@);
+- (struct CGRect)ing %lu attachment downloads %@;
+- (_Bool)sync state & last sync date after received user deleted zone error;
 - (void);
 - (void);
 - (id);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)d;
 - (id);
-- (id);
+- (id)MPModelPropertyPlaylistTrackCount;
 - (struct UIEdgeInsets);
 - (void);
 - (struct CGSize)ð! GùÑbÐ1Â0@ù
 × ;
-- (struct CGRect)FieldClass;
-- (void)pletion:inRect: /* Error: Ran out of types for this method. */;
-- (double)rPath;
+- (struct CGRect)textFieldClass;
+- (void)setTextCompletion:inRect: /* Error: Ran out of types for this method. */;
+- (double)_boltMaskBezierPath;
 - (id)},R,N;
-- (_Bool)Rate;
-- (unsigned long long)pacity;
+- (_Bool)updateRate;
+- (unsigned long long)inputShadowOpacity;
 - (void)SayySo27CAPresentationModifierGroupCcG;
 - (_Bool);
 - (void);
@@ -72,21 +54,6 @@ __attribute__((visibility("hidden")))
 - (void)>c¼Ç^;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;
-@property(nonatomic) double arrowHeight; // @synthesize arrowHeight=_arrowHeight;
-@property(nonatomic) double arrowOffset; // @synthesize arrowOffset=_arrowOffset;
-@property(nonatomic) _Bool canOverlapSourceViewRect; // @synthesize canOverlapSourceViewRect=_canOverlapSourceViewRect;
-@property(nonatomic) struct CGRect containingFrame; // @synthesize containingFrame=_containingFrame;
-@property(nonatomic) struct UIEdgeInsets containingFrameInsets; // @synthesize containingFrameInsets=_containingFrameInsets;
-@property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(readonly, nonatomic) double offset; // @synthesize offset=_offset;
-@property(nonatomic) _Bool preferLandscapeOrientations; // @synthesize preferLandscapeOrientations=_preferLandscapeOrientations;
-@property(nonatomic) unsigned long long preferredArrowDirections; // @synthesize preferredArrowDirections=_preferredArrowDirections;
-@property(nonatomic) struct CGSize preferredContentSize; // @synthesize preferredContentSize=_preferredContentSize;
-@property(nonatomic) long long preferredHorizontalAlignment; // @synthesize preferredHorizontalAlignment=_preferredHorizontalAlignment;
-@property(nonatomic) struct CGRect sourceViewRect; // @synthesize sourceViewRect=_sourceViewRect;
 @property(nonatomic, getter=_updatesEnabled, setter=_setUpdatesEnabled:) _Bool updatesEnabled; // @synthesize updatesEnabled=_updatesEnabled;
 
 @end

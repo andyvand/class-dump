@@ -17,18 +17,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)tHash<WTF:(id)arg1:WeakRef<WebKit::WebStorageNamespaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>>::validateKey(const ValueType &) [Key = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Value = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Traits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (double);
-- (void)llowedForMouseOverRegion:(id)arg1 allowedResizeTargets: /* Error: Ran out of types for this method. */;
+- (id);
+- (double)7;
+- (void)_draggingAllowedForMouseOverRegion:(id)arg1 allowedResizeTargets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *backgroundColor;
-@property(retain, nonatomic) NSColor *borderColor;
-@property(nonatomic) double borderWidth;
-@property(nonatomic) _Bool frameSpansAllScreens; // @synthesize frameSpansAllScreens=_frameSpansAllScreens;
 
 @end
 

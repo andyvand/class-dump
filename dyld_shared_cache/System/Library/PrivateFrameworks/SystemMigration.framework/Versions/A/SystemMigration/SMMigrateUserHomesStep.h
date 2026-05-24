@@ -6,13 +6,11 @@
 
 #import <SystemMigration/SMEngineStep.h>
 
-@class NSArray, NSError, SMCopyEngine;
+@class SMCopyEngine;
 
 @interface SMMigrateUserHomesStep : SMEngineStep
 {
     SMCopyEngine *_fileCopyEngine;
-    NSArray *_usersToReplace;
-    NSError *_processError;
 }
 
 + (_Bool);
@@ -49,11 +47,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) _Bool copiesHomeDirectories;
-@property(readonly) NSArray *copyPaths;
 @property(retain) SMCopyEngine *fileCopyEngine; // @synthesize fileCopyEngine=_fileCopyEngine;
-@property(retain) NSError *processError; // @synthesize processError=_processError;
-@property(retain) NSArray *usersToReplace; // @synthesize usersToReplace=_usersToReplace;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol UISwitchControl
+- (void);
 @end
 

@@ -6,15 +6,11 @@
 
 #import <MediaPlayer/MPRemoteCommand.h>
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface MPSetPlaybackQueueCommand : MPRemoteCommand
 {
     NSMutableDictionary *_registeredSpecializedQueues;
-    NSMutableSet *_registeredQueueTypes;
-    NSMutableSet *_registeredCustomQueueIdentifiers;
-    struct os_unfair_lock_s _lock;
-    long long _upNextItemCount;
 }
 
 - (void);
@@ -24,10 +20,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)noSuchColumnOfType;
 - (void);
 - (long long);
-- (void)NG_MISSING__;
+- (void)__MPModelRelationshipTVSeasonShow__MAPPING_MISSING__;
 
 // Remaining properties
 @property(nonatomic) long long upNextItemCount; // @synthesize upNextItemCount=_upNextItemCount;

@@ -6,14 +6,11 @@
 
 #import <HomeKit/HMCameraControl.h>
 
-@class HMCameraSnapshot, NSString, _HMCameraSnapshotControl;
-@protocol HMCameraSnapshotControlDelegate;
+@class _HMCameraSnapshotControl;
 
 @interface HMCameraSnapshotControl : HMCameraControl
 {
     struct os_unfair_lock_s _lock;
-    id <HMCameraSnapshotControlDelegate> _delegate;
-    _HMCameraSnapshotControl *_snapshotControl;
 }
 
 - (void);
@@ -24,21 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)''()*+,-;
+- (void)candidateByReplacingWithSourceMask:(id)arg1;
 - (void)ð;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMCameraSnapshotControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMCameraSnapshot *mostRecentSnapshot;
 @property(readonly) _HMCameraSnapshotControl *snapshotControl; // @synthesize snapshotControl=_snapshotControl;
-@property(readonly) Class superclass;
 
 @end
 

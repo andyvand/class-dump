@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetCache, AVAssetClientURLRequestHelper, AVAssetCustomURLAuthentication, AVAssetCustomURLBridgeForNSURLProtocol, AVAssetInspectorLoader, AVAssetResourceLoader, AVDispatchOnce, AVMediaExtensionProperties, AVWeakReference, NSArray, NSDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class AVAssetInspectorLoader;
 
 __attribute__((visibility("hidden")))
 @interface AVURLAssetInternal
 {
     AVAssetInspectorLoader *loader;
-    AVAssetClientURLRequestHelper *URLRequestHelper;
-    AVAssetCustomURLBridgeForNSURLProtocol *customURLBridgeForNSURLProtocol;
-    AVAssetCustomURLAuthentication *customURLAuthenticationUsingKeychain;
-    NSURL *URL;
-    NSArray *tracks;
-    AVAssetResourceLoader *resourceLoader;
-    AVDispatchOnce *makeOneResourceLoaderOnly;
-    AVAssetCache *assetCache;
-    AVDispatchOnce *makeOneMediaExtensionPropertiesLoaderOnly;
-    AVMediaExtensionProperties *mediaExtensionProperties;
-    NSURL *sidecarURL;
-    AVDispatchOnce *makeOneAssetDownloadCacheOnly;
-    NSObject<OS_dispatch_queue> *tracksAccessQueue;
-    NSDictionary *initializationOptions;
-    _Bool hasInstanceIdentifierMapping;
-    _Bool requiresSecurityScopeRelease;
-    _Bool allowsExpensiveNetworkAccess;
-    _Bool allowsConstrainedNetworkAccess;
-    AVWeakReference *sessionReference;
 }
 
 @end

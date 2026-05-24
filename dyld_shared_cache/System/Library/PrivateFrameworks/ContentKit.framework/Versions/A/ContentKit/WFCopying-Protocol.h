@@ -5,5 +5,6 @@
 //
 
 @protocol WFCopying
+- (id);
 @end
 

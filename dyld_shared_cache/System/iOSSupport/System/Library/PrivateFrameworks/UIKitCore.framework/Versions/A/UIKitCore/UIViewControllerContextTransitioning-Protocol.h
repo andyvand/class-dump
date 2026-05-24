@@ -7,10 +7,12 @@
 @class NSString, UIView, UIViewController;
 
 @protocol UIViewControllerContextTransitioning
-- (void)idth: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ingPolicy:(_Bool)arg1 withInterface:withSetupModes:withPriority:withEnableIPv6:withTLSCertificateRequired:withProxyServer:withProxyServerPort:withProxyUsername:withProxyPassword:withProxyPACURL:withProxyPACFallbackAllowed: /* Error: Ran out of types for this method. */;
+- (void)_setLeftOffset:gapWidth: /* Error: Ran out of types for this method. */;
 - (_Bool)è;
 - (UIView *)y);
-- (long long)lorWhite_Alpha25;
+- (long long)UIKBColorWhite_Alpha25;
 - (struct CGRect)iner(__strong id<UIFocusEnvironment> _Nonnull, BOOL);
 - (UIViewController *)queueConfiguredReusableSupplementaryViewWithRegistration:(NSString *)arg1 forIndexPath:or -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)UITabBarItem.m;
@@ -18,11 +20,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimated) _Bool animated;
 @property(readonly, nonatomic) UIView *containerView;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) _Bool transitionWasCancelled;
 @end
 

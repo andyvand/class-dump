@@ -14,11 +14,11 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void){;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)ActionDialVideo;
+- (void)P;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *recordsInfo; // @synthesize recordsInfo=_recordsInfo;

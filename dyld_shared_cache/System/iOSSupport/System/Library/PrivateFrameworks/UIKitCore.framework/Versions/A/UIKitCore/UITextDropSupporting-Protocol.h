@@ -5,6 +5,11 @@
 //
 
 @protocol UITextDropSupporting
+- (void);
+- (void);
+
+@optional
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffsetForSameViewDrops;

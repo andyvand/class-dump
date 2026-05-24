@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDisparitySmoothing : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputNumIterations;
 }
 
 + (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy) NSNumber *inputNumIterations; // @synthesize inputNumIterations;
 
 @end
 

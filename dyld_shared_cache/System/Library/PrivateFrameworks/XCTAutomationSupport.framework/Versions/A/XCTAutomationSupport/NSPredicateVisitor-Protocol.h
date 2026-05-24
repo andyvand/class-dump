@@ -7,7 +7,7 @@
 @class NSExpression;
 
 @protocol NSPredicateVisitor
-- (void)vedDataWithRootObject:(NSExpression *)arg1 requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
+- (void)archivedDataWithRootObject:(NSExpression *)arg1 requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
 - (void)ys need to contain the same number of values.;
 - (void)@;
 @end

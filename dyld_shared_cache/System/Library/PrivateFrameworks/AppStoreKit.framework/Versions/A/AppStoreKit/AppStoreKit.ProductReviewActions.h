@@ -9,8 +9,6 @@
 @interface AppStoreKit.ProductReviewActions : AppStoreKit.ProductRatingsAndReviewsComponent
 {
     id tapToRate;
-    id writeReviewAction;
-    id supportAction;
 }
 
 @end

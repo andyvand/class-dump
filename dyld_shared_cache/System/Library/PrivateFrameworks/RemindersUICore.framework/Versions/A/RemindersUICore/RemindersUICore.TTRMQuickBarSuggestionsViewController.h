@@ -7,12 +7,11 @@
 @interface RemindersUICore.TTRMQuickBarSuggestionsViewController
 {
     id presenter;
-    id $__lazy_storage_$_buttonView;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)`Ç\ÿü¤;
 

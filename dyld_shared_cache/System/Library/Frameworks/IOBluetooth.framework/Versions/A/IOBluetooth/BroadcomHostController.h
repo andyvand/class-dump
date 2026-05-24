@@ -27,6 +27,7 @@
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -37,6 +38,7 @@
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -56,6 +58,7 @@
 - (int);
 - (int);
 - (int);
+- (int)B;
 - (int);
 - (int);
 - (int);
@@ -82,21 +85,18 @@
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);

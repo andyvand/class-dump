@@ -9,7 +9,6 @@
 @interface IDSTransactionQueue
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_transactions;
 }
 
 - (void);
@@ -23,12 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (struct os_unfair_lock_s)b8standardSb11lightweightt;
+- (struct os_unfair_lock_s)SS7groupID_Sb8standardSb11lightweightt;
 - (void)session-info request %@ timed out after %d seconds.;
 - (void)elayed, send SKE data immediately.;
 
 // Remaining properties
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSMutableArray *transactions; // @synthesize transactions=_transactions;
 
 @end

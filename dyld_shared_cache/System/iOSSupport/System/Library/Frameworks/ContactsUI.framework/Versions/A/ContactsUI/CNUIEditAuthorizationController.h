@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
 @protocol CNUIEditAuthorizationControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNUIEditAuthorizationController
 {
     _Bool _animated;
-    id <CNUIEditAuthorizationControllerDelegate> _delegate;
-    id _sender;
-    UIViewController *_guardedViewController;
 }
 
 - (void);
@@ -26,17 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)#;
+- (id)e"8@"NSDictionary"16^B24;
 - (_Bool);
 - (void);
-- (void)enderingWithMatchingContextToken;
+- (void)allowStaleRenderingWithMatchingContextToken;
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated=_animated;
 @property(nonatomic) __weak id <CNUIEditAuthorizationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak UIViewController *guardedViewController; // @synthesize guardedViewController=_guardedViewController;
-@property(nonatomic) __weak id sender; // @synthesize sender=_sender;
 
 @end
 

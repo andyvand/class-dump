@@ -6,27 +6,19 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOLocationShiftingPruneCacheRequest : GEOXPCRequest
 {
 }
 
-+ (Class);
++ (Class)_callCompletionWithAuthIdentity:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)Block;
+- (void)_preSubmitUpdateRequestBlock;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

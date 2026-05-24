@@ -9,25 +9,21 @@
 @interface EKDayOccurrenceResizeHandleView
 {
     EKDayOccurrenceView *_occurrenceView;
-    UIColor *_baseColor;
-    double _radius;
 }
 
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)m%s;
 - (void);
-- (id);
+- (id),{;
 - (void);
 - (void);
-- (void);
-- (double);
-- (void)iew: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (void)pickerView:viewForRow:forComponent:reusingView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *baseColor; // @synthesize baseColor=_baseColor;
-@property(readonly, nonatomic) __weak EKDayOccurrenceView *occurrenceView; // @synthesize occurrenceView=_occurrenceView;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
 
 @end
 

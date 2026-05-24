@@ -10,39 +10,32 @@ __attribute__((visibility("hidden")))
 @interface OADTableCellBorderStyle
 {
     OADStroke *mLeftStroke;
-    OADStroke *mRightStroke;
-    OADStroke *mTopStroke;
-    OADStroke *mBottomStroke;
-    OADStroke *mHorzInsideStroke;
-    OADStroke *mVertInsideStroke;
-    OADStroke *mTopLeftToBottomRightStroke;
-    OADStroke *mBottomLeftToTopRightStroke;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
+- (void)q ;
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)T;
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void)S;
+- (id);
+- (void);
+- (id);
+- (id)HѰ;
 - (void)A;
 
 @end

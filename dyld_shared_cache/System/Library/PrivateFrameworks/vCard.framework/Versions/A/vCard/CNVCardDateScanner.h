@@ -9,17 +9,16 @@
 @interface CNVCardDateScanner
 {
     NSString *_string;
-    unsigned long long _position;
 }
 
 + (id);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)5;
 - (unsigned short);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)BM;
 - (id);
 - (void);
 

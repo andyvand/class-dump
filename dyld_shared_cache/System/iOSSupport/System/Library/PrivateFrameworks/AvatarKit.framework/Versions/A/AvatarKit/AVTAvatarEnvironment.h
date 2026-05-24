@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, NSString, VFXMaterial, VFXNode, VFXWorld;
-@protocol VFXWorldRenderer;
+@class NSString, VFXWorld;
 
 __attribute__((visibility("hidden")))
 @interface AVTAvatarEnvironment
 {
     VFXWorld *_scene;
-    id <VFXWorldRenderer> _renderer;
-    AVTAvatar *_avatar;
-    VFXMaterial *_shadowPlaneMaterial;
-    VFXNode *_whitePlane;
-    VFXNode *_environmentNode;
-    VFXNode *_defaultPointOfView;
-    NSString *_framingMode;
-    VFXNode *_animojiCamera;
-    VFXNode *_memojiCameraGroup;
-    VFXNode *_customCamera;
-    VFXNode *_specializedLightingNode;
-    VFXNode *_defaultLightingNode;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)Rb;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)b;
 - (id);
 - (float);
 - (_Bool);
@@ -45,15 +32,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) VFXNode *currentPointOfView;
-@property(readonly, nonatomic) VFXNode *defaultPointOfView;
-@property(readonly, nonatomic) VFXNode *environmentNode;
-@property(readonly, nonatomic) _Bool faceIsFullyVisible;
-@property(nonatomic) float fadeFactor;
 @property(copy, nonatomic) NSString *framingMode;
 
 @end

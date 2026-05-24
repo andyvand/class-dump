@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSDictionary, NSPopUpButton;
+@class NSPopUpButton;
 
 __attribute__((visibility("hidden")))
 @interface WFFinderConvertImageActionConfigurationViewController
 {
     _Bool _sizesAreApproximate;
-    NSPopUpButton *_formatPicker;
-    NSPopUpButton *_imageSizePicker;
-    NSButton *_preservesMetadataButton;
-    NSButton *_convertButton;
-    NSButton *_cancelButton;
-    CDUnknownBlockType _formatChangedBlock;
-    CDUnknownBlockType _descriptorSelectedBlock;
-    NSDictionary *_sizes;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)1*T;
 - (void);
 - (id);
-- (void);
+- (void)*T;
 - (id);
 - (_Bool);
 - (id);
@@ -35,26 +27,18 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)*T;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)h7;
 
 // Remaining properties
-@property(readonly, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, nonatomic) NSButton *convertButton; // @synthesize convertButton=_convertButton;
-@property(copy, nonatomic) CDUnknownBlockType descriptorSelectedBlock; // @synthesize descriptorSelectedBlock=_descriptorSelectedBlock;
-@property(copy, nonatomic) CDUnknownBlockType formatChangedBlock; // @synthesize formatChangedBlock=_formatChangedBlock;
 @property(readonly, nonatomic) NSPopUpButton *formatPicker; // @synthesize formatPicker=_formatPicker;
-@property(readonly, nonatomic) NSPopUpButton *imageSizePicker; // @synthesize imageSizePicker=_imageSizePicker;
-@property(readonly, nonatomic) NSButton *preservesMetadataButton; // @synthesize preservesMetadataButton=_preservesMetadataButton;
-@property(retain, nonatomic) NSDictionary *sizes; // @synthesize sizes=_sizes;
-@property(nonatomic) _Bool sizesAreApproximate; // @synthesize sizesAreApproximate=_sizesAreApproximate;
 
 @end
 

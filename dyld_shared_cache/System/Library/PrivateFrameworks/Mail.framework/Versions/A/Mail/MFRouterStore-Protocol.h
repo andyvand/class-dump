@@ -5,5 +5,7 @@
 //
 
 @protocol MFRouterStore
+- (void);
+- (void);
 @end
 

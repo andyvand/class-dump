@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, NSURLSessionDataTask, NSURLSessionTask;
-@protocol OS_nw_context, OS_nw_protocol_metadata;
+@class NSObject, NSURLSessionTask;
+@protocol OS_nw_protocol_metadata;
 
 @protocol NWURLLoaderClient
+- (void);
+- (void);
+- (NSURLSessionTask *)h;
+- (void);
+- (void);
 - (NSObject<OS_nw_protocol_metadata> *)with null resolution_report;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_nw_protocol_metadata> *clientMetadata;
-@property(readonly, nonatomic) _Bool isWebSocket;
-@property(readonly, nonatomic) void *joiningContext;
-@property(readonly, nonatomic) NSURLSessionDataTask *loaderDataTask;
-@property(readonly, nonatomic) NSURLSessionTask *loaderTask;
-@property(readonly, nonatomic) CDStruct_561ed401 logDescription;
-@property(readonly, nonatomic) NSObject<OS_nw_context> *networkContext;
-@property(readonly, nonatomic) _Bool supportsResumableUpload;
-@property(readonly, nonatomic) NSURL *uploadResumeURL;
+@property(readonly, nonatomic) CDStruct_3a052286 logDescription;
 @end
 

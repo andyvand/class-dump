@@ -7,9 +7,10 @@
 @class NSData;
 
 @protocol _SFPBFlightCheckinCommand
+- (_Bool);
+- (NSData *)S,R,N,V_status;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool placeHolderProperty;
 @end
 

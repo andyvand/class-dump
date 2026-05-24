@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface _MLDataSource
 {
     NSDictionary *_dataTensorDictionary;
 }
 
-- (void);
-- (unsigned long long);
-- (id);
+- (void)extractMTLGenericBVHHeaderKernel_1_0;
+- (unsigned long long)FunctionConstant;
+- (id)idation;
 - (id);
 - (id);
 - (void)ayesianProbitRegression;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *dataTensorDictionary; // @synthesize dataTensorDictionary=_dataTensorDictionary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

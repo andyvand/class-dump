@@ -6,19 +6,9 @@
 
 #import <WeatherFoundation/WFTask.h>
 
-@class NSData, NSDate, NSDateComponents, NSLocale, NSString, WFLocation;
-
 @interface WFForecastRequest : WFTask
 {
     _Bool _attachRawAPIData;
-    WFLocation *_location;
-    NSDate *_onDate;
-    CDUnknownBlockType _completionHandler;
-    NSDateComponents *_date;
-    unsigned long long _forecastType;
-    NSData *_rawAPIData;
-    NSLocale *_locale;
-    NSString *_trackingParameter;
 }
 
 + (id);
@@ -40,11 +30,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)isible-ink;
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (void);
@@ -55,15 +45,7 @@
 - (void)¤¥þÿº@0Ä;
 
 // Remaining properties
-@property(nonatomic) _Bool attachRawAPIData; // @synthesize attachRawAPIData=_attachRawAPIData;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) NSDateComponents *date; // @synthesize date=_date;
-@property(nonatomic) unsigned long long forecastType; // @synthesize forecastType=_forecastType;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) WFLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSDate *onDate; // @synthesize onDate=_onDate;
-@property(retain, nonatomic) NSData *rawAPIData; // @synthesize rawAPIData=_rawAPIData;
-@property(retain, nonatomic) NSString *trackingParameter; // @synthesize trackingParameter=_trackingParameter;
 
 @end
 

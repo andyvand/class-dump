@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
-@protocol HMFLogging;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistration
 {
     NSMutableSet *_registeredNotifications;
-    id <HMFLogging> _registerer;
 }
 
 + (id)B;
 - (id);
-- (id);
+- (id)stop any sharing...;
 - (void);
 - (id);
 - (id);
-- (void)tityTransformer;
+- (void)HMDIdentityTransformer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableSet *registeredNotifications; // @synthesize registeredNotifications=_registeredNotifications;
-@property(readonly, nonatomic) __weak id <HMFLogging> registerer; // @synthesize registerer=_registerer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,24 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGFrequentLocationQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
-- (double);
+- (double)crypto_generateKeyFromSharedInfo;
 - (id);
 - (unsigned short);
 - (id);
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
-- (id)pe:confidence:localeIdentifier:dateInterval:synonyms: /* Error: Ran out of types for this method. */;
+- (unsigned short);
+- (id)addAssetSearchEntityWithLabel:identifier:type:confidence:localeIdentifier:dateInterval:synonyms: /* Error: Ran out of types for this method. */;
 - (void)ahn/PGAmbientPetWallpaperSuggester.m;
 
 @end

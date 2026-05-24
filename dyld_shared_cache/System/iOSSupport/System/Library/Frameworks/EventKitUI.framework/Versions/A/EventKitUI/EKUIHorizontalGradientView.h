@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, UIColor;
+@class CAGradientLayer;
 
 @interface EKUIHorizontalGradientView
 {
     CAGradientLayer *_gradientLayer;
-    UIColor *_startColor;
-    UIColor *_endColor;
-    double _startPoint;
-    double _endPoint;
 }
 
 - (id);
 - (void);
 - (void);
-- (void)dReturn: /* Error: Ran out of types for this method. */;
+- (void)textFieldShouldReturn: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -8,21 +8,16 @@ __attribute__((visibility("hidden")))
 @interface GEOTFCompactPredictedSpeed
 {
     unsigned int _deltaMinutesInFuture;
-    unsigned int _speedKph;
-    struct {
-        unsigned int has_deltaMinutesInFuture:1;
-        unsigned int has_speedKph:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)b;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)tripOrigin"b1"read_userIncidentReports"b1"read_waypointRoute"b1"read_waypointTypeds"b1"read_xpcUuid"b1"wrote_anyField"b1};
-- (id)sPaymentIsApplePay;
-- (id)rInternalInfo;
+- (id)hasPaymentIsApplePay;
+- (id)GEOPathMatcherInternalInfo;
 
 @end
 

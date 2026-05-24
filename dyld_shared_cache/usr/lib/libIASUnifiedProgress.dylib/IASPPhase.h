@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface IASPPhase
 {
     float _percentage;
-    NSString *_name;
-    long long _delay;
 }
 
 + (id);
@@ -22,19 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)g delegate:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id);
+- (void)tionStatus;
+- (id)SSSearchableWebsiteResultBuilder;
 - (void);
 
 // Remaining properties
-@property(readonly) long long delay; // @synthesize delay=_delay;
-@property(readonly) NSDictionary *info;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) float percentage; // @synthesize percentage=_percentage;
 
 @end
 

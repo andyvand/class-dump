@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ObjectTableDataSource
 {
     NSMutableArray *_data;
-    _Bool _readOnly;
-    NSString *_lastSortHeader;
-    int _comparisonType;
-    _Bool _descendingSort;
-    id _delegate;
 }
 
 - (void);
@@ -32,28 +27,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)window starting at %@;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ndars with no paths. Sending these calendars to the server:(long long)arg1 %@;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)lineToPoint: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long count;
 @property(retain) NSMutableArray *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly) Class superclass;
 
 @end
 

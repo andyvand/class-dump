@@ -4,50 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIBezierPath, UIColor, _UIPreviewParametersCornerRadii;
+@class NSArray;
 
 @interface UIPreviewParameters
 {
     NSArray *_textLineRects;
-    _Bool _hiddenDuringDrag;
-    _Bool _appliesShadow;
-    _Bool _hidesSourceViewDuringDropAnimation;
-    _Bool _isUsingCustomBackgroundColor;
-    double _textPathCornerRadius;
-    UIColor *_overrideBackgroundColor;
-    _UIPreviewParametersCornerRadii *_overrideCornerRadii;
-    UIBezierPath *_visiblePath;
-    UIBezierPath *_shadowPath;
-    UIColor *_backgroundColor;
-    long long _previewMode;
-    CDStruct_bd34ff7f _placeholderContentSize3D;
-    struct UIEdgeInsets _textPathInsets;
 }
 
-- (id);
+- (id)eEnabled;
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)ata_connection_ready:%@:%@ /* Error: Ran out of types for this method. */;
+- (id)geFromStoragePipelineComponent> Started processing type (%@) for guid %@;
+- (_Bool)inished processing message %@;
+- (id)@ in IMDChatRegistry for messageGUID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)nput hint? %{BOOL}d;
 - (double);
-- (id);
+- (id)CloudDeletionErrrors;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (CDStruct_39925896);
+- (CDStruct_bd34ff7f);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
@@ -55,32 +42,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ubtype:(id)arg1 displayGamut:layoutDirection:sizeClassHorizontal:sizeClassVertical:appearanceName:locale: /* Error: Ran out of types for this method. */;
-- (void)nitWithFrame:(id)arg1 privateStyle: /* Error: Ran out of types for this method. */;
-- (void)ing:(id)arg1 withName:skipIfEmpty: /* Error: Ran out of types for this method. */;
+- (_Bool)namedLookupWithName:(id)arg1 scaleFactor:deviceIdiom:deviceSubtype:displayGamut:layoutDirection:sizeClassHorizontal:sizeClassVertical:appearanceName:locale: /* Error: Ran out of types for this method. */;
+- (void)initWithFrame:(id)arg1 privateStyle: /* Error: Ran out of types for this method. */;
+- (void)appendString:(id)arg1 withName:skipIfEmpty: /* Error: Ran out of types for this method. */;
 - (id)ment;
 - (id)ontrollerTransitionContext"8B16;
 - (id)s-iOS-All.xctrunner;
 - (void):0 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *_effectiveBackgroundColor;
-@property(nonatomic, getter=_isHiddenDuringDrag, setter=_setHiddenDuringDrag:) _Bool _hiddenDuringDrag; // @synthesize _hiddenDuringDrag;
-@property(copy, nonatomic, setter=_setOverrideBackgroundColor:) UIColor *_overrideBackgroundColor; // @synthesize _overrideBackgroundColor;
-@property(retain, nonatomic) _UIPreviewParametersCornerRadii *_overrideCornerRadii; // @synthesize _overrideCornerRadii;
-@property(nonatomic, setter=_setPlaceholderContentSize3D:) CDStruct_39925896 _placeholderContentSize3D; // @synthesize _placeholderContentSize3D;
-@property(retain, nonatomic, getter=_textLineRects, setter=_setTextLineRects:) NSArray *_textLineRects; // @synthesize _textLineRects;
-@property(nonatomic, getter=_textPathCornerRadius, setter=_setTextPathCornerRadius:) double _textPathCornerRadius; // @synthesize _textPathCornerRadius;
-@property(nonatomic, getter=_textPathInsets, setter=_setTextPathInsets:) struct UIEdgeInsets _textPathInsets; // @synthesize _textPathInsets;
-@property(nonatomic) _Bool appliesShadow; // @synthesize appliesShadow=_appliesShadow;
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) UIBezierPath *effectiveShadowPath;
-@property(nonatomic) _Bool hidesSourceViewDuringDropAnimation; // @synthesize hidesSourceViewDuringDropAnimation=_hidesSourceViewDuringDropAnimation;
-@property(readonly, nonatomic) _Bool isUsingCustomBackgroundColor; // @synthesize isUsingCustomBackgroundColor=_isUsingCustomBackgroundColor;
 @property(nonatomic, getter=_previewMode, setter=_setPreviewMode:) long long previewMode; // @synthesize previewMode=_previewMode;
-@property(copy, nonatomic) UIBezierPath *shadowPath; // @synthesize shadowPath=_shadowPath;
-@property(readonly, nonatomic, getter=_isSingleLineText) _Bool singleLineText;
-@property(copy, nonatomic) UIBezierPath *visiblePath; // @synthesize visiblePath=_visiblePath;
 
 @end
 

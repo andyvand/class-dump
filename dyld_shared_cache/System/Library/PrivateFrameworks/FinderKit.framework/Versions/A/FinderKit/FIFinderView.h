@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FIFinderViewGutsController, NSArray, NSStackView, NSURL;
+@class FIFinderViewGutsController;
 @protocol FIFinderViewDelegate;
 
 @interface FIFinderView
 {
     id <FIFinderViewDelegate> _delegate;
-    FIFinderViewGutsController *_controller;
-    _Bool _downloadsUbiquitousContents;
-    struct TNotificationCenterObserver _windowDidBecomeKeyObserver;
 }
 
 + (id);
@@ -23,6 +20,8 @@
 + (id);
 + (id);
 + (id);
++ (id)@9;
++ (id)	;
 + (id);
 + (id);
 + (id);
@@ -31,9 +30,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id))A;
 + (id);
 + (id);
 + (void);
@@ -56,38 +53,38 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (struct CGSize);
 - (void);
 - (id);
 - (id);
-- (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (int)@;
+- (id)__objc_protolist__DATA_CONST;
+- (_Bool)reportTopHitSelected: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithCalendarIdentifier:(id)arg1;
+- (_Bool)tachmentsIndexed:indexableAttachments: /* Error: Ran out of types for this method. */;
+- (_Bool)highImpactChange;
+- (_Bool)countInstances:(id)arg1 usingPredicate: /* Error: Ran out of types for this method. */;
+- (_Bool)B,R,N,V_isSelectAll;
+- (void);
+- (void)MSSearchResultsSectionSnapshot;
+- (void);
+- (void).flight.arrivalTime;
+- (void)ageIcon;
+- (void)eMessageView.mailboxListController;
+- (void)Button;
+- (void)t.saveDraft;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
-- (struct CGRect);
+- (id);
+- (void);
+- (id);
+- (struct CGRect)3;
 - (id);
 - (void);
 - (_Bool);
@@ -101,69 +98,41 @@
 - (_Bool);
 - (void);
 - (double);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)@"WKWebView"16@"NSString"24@?<v@?B>32;
+- (id)WebView"16@"NSDictionary"24;
+- (_Bool)setDoesRelativeDateFormatting: /* Error: Ran out of types for this method. */;
+- (id)setAccessibilityWarningValue: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)";
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
+- (void);
+- (void);
+- (id)ruleForMessage:(id)arg1 usingMessageActionProvider:fetchBody: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id)alMenuDownloadEntry;
+- (id)allowsContextualMenuDownloadEntry;
 - (void);
 - (void);
 - (double)10shared_ptrIT_EEDpOT0_E19MakeInstanceEnabler;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsExpandingMultipleDirectories;
-@property(nonatomic) _Bool allowsMultipleSelection;
-@property(readonly, nonatomic) NSStackView *bottomBrowserStackView;
-@property(readonly, nonatomic) NSStackView *browserStackView;
-@property(nonatomic) _Bool canClickDisabledFiles;
-@property(readonly, nonatomic) _Bool canCreateNewFolder;
-@property(readonly, nonatomic) _Bool canSaveNewDocument;
 @property(retain, nonatomic) FIFinderViewGutsController *controller; // @synthesize controller=_controller;
-@property(nonatomic) __weak id <FIFinderViewDelegate> delegate;
-@property(retain, nonatomic) NSURL *directoryURL;
-@property(nonatomic) _Bool downloadsUbiquitousContents; // @synthesize downloadsUbiquitousContents=_downloadsUbiquitousContents;
-@property(readonly, nonatomic) _Bool hasCollapseButton;
-@property(nonatomic) _Bool hideExtension;
-@property(nonatomic) _Bool hidesSharedSection;
-@property(readonly, nonatomic) _Bool isNewFolderDialogRunning;
-@property(nonatomic) _Bool isSavePanel;
-@property(readonly, nonatomic) struct CGSize minimumViewSize;
-@property(nonatomic) _Bool offersHideExtension;
-@property(nonatomic) _Bool resolvesAliases;
-@property(retain, nonatomic) NSURL *rootDirectoryURL;
-@property(readonly, nonatomic) NSArray *selectedRawURLs;
-@property(copy, nonatomic) NSArray *selectedURLs;
-@property(nonatomic) _Bool showsHiddenFiles;
-@property(nonatomic) _Bool showsNewDocumentButton;
-@property(nonatomic) _Bool showsSidebar;
-@property(readonly, nonatomic) double sidebarWidth;
-@property(readonly, nonatomic) NSStackView *topBrowserStackView;
-@property(nonatomic) _Bool treatsFilePackagesAsDirectories;
-@property(nonatomic) int viewStyle;
 
 @end
 

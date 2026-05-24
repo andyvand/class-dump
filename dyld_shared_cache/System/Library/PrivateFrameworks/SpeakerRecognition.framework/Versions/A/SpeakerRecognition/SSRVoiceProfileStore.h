@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SSRVoiceProfileStorePrefs;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SSRVoiceProfileStore
 {
     NSObject<OS_dispatch_queue> *_queue;
-    SSRVoiceProfileStorePrefs *_storePrefs;
 }
 
 + (id);
@@ -21,45 +20,44 @@
 - (id);
 - (id);
 - (id);
+- (void)`;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)/$;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)es:] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SSRVoiceProfileStorePrefs *storePrefs; // @synthesize storePrefs=_storePrefs;
 
 @end
 

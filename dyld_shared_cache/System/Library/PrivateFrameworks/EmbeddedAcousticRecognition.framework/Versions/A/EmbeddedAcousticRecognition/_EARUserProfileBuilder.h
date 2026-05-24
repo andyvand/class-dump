@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, _EARPeopleSuggesterConfig;
+@class NSString, _EARPeopleSuggesterConfig;
 
 @interface _EARUserProfileBuilder
 {
     NSString *_language;
-    struct LmePackedUserData _userData;
-    struct shared_ptr<quasar::LmeDataFactory> _dataFactory;
-    unique_ptr_32eee79d _tokenizer;
-    struct unique_ptr<quasar::G2P, std::default_delete<quasar::G2P>> _g2p;
-    struct unique_ptr<quasar::G2Embedding, std::default_delete<quasar::G2Embedding>> _g2emb;
-    struct shared_ptr<quasar::PronCache<std::string, std::vector<std::string>>> _pronCache;
-    struct BasicTextSanitizer _sanitizer;
-    struct unique_ptr<quasar::PersonalizationRecipe, std::default_delete<quasar::PersonalizationRecipe>> _personalizationRecipe;
-    shared_ptr_4c8a54ee _quasarLmeData;
-    _Bool _reuseProfile;
-    struct unique_ptr<quasar::WordPronCache, std::default_delete<quasar::WordPronCache>> _outPronCache;
-    int _outPronCacheHits;
-    int _outPronCacheMisses;
-    int _wordsRejected;
-    int _wordsAccepted;
-    struct unordered_map<std::string, int, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, int>>> _quasarTemplate2Count;
-    struct set<std::vector<std::string>, quasar::NameEnumerator::EnumComparator, std::allocator<std::vector<std::string>>> _contactEnumSet;
-    struct shared_ptr<quasar::PronCache<std::string, std::vector<std::string>>> _embeddingCache;
-    struct unique_ptr<quasar::WordPronCache, std::default_delete<quasar::WordPronCache>> _outEmbeddingCache;
-    int _outEmbeddingCacheHits;
-    int _outEmbeddingCacheMisses;
-    struct map<std::string, long long, std::less<std::string>, std::allocator<std::pair<const std::string, long long>>> _templateToVersion;
-    struct set<std::string, std::less<std::string>, std::allocator<std::string>> _experimentIds;
-    NSString *_userId;
 }
 
 + (_Bool);
@@ -74,16 +50,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)on %@;
 - (id);
 - (id);
 - (void)à;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *experimentIds;
 @property(readonly, nonatomic) _EARPeopleSuggesterConfig *peopleSuggesterConfig;
-@property(copy, nonatomic) NSDictionary *templateToVersion;
-@property(copy, nonatomic) NSString *userId; // @synthesize userId=_userId;
 
 @end
 

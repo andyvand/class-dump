@@ -11,7 +11,7 @@
     long long _cloudSyncAuthorizationState;
 }
 
-- (id);
+- (id)ash mismatch;
 - (long long);
 
 // Remaining properties

@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIDICIDevice, MIDIUMPEndpoint, NSString;
+@class NSString;
 
 @interface MIDIUMPFunctionBlock
 {
     NSString *_name;
-    unsigned char _functionBlockID;
-    int _direction;
-    unsigned char _firstGroup;
-    unsigned char _totalGroupsSpanned;
-    unsigned char _maxSysEx8Streams;
-    int _MIDI1Info;
-    int _UIHint;
-    MIDIUMPEndpoint *_UMPEndpoint;
-    _Bool _isEnabled;
-    unsigned int _objectRef;
-    unsigned int _ownerClientRef;
-    struct unfair_recursive_lock mMutex;
 }
 
 + (id);
-- (unsigned char);
+- (unsigned char)ֈ@9;
 - (void);
 - (void);
 - (id);
@@ -39,7 +27,7 @@
 - (unsigned char);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)6t;
 - (id);
 - (void);
 - (_Bool);
@@ -48,19 +36,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) int MIDI1Info;
-@property(readonly, nonatomic) int UIHint;
-@property(readonly, nonatomic) __weak MIDIUMPEndpoint *UMPEndpoint;
-@property(readonly, nonatomic) int direction;
-@property(readonly, nonatomic) unsigned char firstGroup;
-@property(readonly, nonatomic) unsigned char functionBlockID;
-@property(readonly, nonatomic) _Bool isEnabled;
-@property(readonly, nonatomic) _Bool isMine;
-@property(readonly, nonatomic) unsigned char maxSysEx8Streams;
-@property(readonly, nonatomic) __weak MIDICIDevice *midiCIDevice;
-@property(readonly, nonatomic) NSString *name;
 @property(nonatomic) unsigned int objectRef; // @synthesize objectRef=_objectRef;
-@property(readonly, nonatomic) unsigned char totalGroupsSpanned;
 
 @end
 

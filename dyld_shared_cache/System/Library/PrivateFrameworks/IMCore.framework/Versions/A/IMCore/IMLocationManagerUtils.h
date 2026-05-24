@@ -9,7 +9,7 @@
 }
 
 + (id)¨jïÿ(n;
-- (void);
+- (void)localParticipantID=%@, transportToken=%@;
 
 @end
 

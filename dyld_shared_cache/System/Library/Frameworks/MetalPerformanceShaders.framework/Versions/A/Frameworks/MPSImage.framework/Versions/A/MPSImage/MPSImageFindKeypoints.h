@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageHistogram;
-
 @interface MPSImageFindKeypoints
 {
     CDStruct_5a9dc70e _keypointRangeInfo;
-    MPSImageHistogram *histogramKernel;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -19,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)initWithAllKnownItems:(id)arg1 itemsNeedingDonation:donatedItems:partiallyDonatedItems:itemsNeedingDonationForRedonationRequests: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

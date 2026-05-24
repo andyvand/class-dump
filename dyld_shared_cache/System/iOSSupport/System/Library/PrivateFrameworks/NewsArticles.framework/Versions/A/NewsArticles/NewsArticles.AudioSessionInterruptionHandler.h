@@ -7,10 +7,9 @@
 @interface NewsArticles.AudioSessionInterruptionHandler
 {
     id currentlyPlayingObservable;
-    id commandCenter;
 }
 
-- (void);
+- (void)A;
 
 @end
 

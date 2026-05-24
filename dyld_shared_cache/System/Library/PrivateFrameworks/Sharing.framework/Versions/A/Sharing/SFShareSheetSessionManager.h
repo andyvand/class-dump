@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFShareSheetConnectionContext, SFShareSheetService;
+@class SFShareSheetService;
 @protocol SFShareSheetSessionManagerDelegate;
 
 @interface SFShareSheetSessionManager
 {
     id <SFShareSheetSessionManagerDelegate> _delegate;
-    SFShareSheetService *_service;
-    SFShareSheetConnectionContext *_connectionContext;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
@@ -31,7 +29,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)N;
 - (void);
 - (void);
 - (id);
@@ -50,16 +48,7 @@
 - (void)Task updateTaskWithBundle:(id)arg1 error:isFallback:isImperfectMatch:isCached:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SFShareSheetConnectionContext *connectionContext; // @synthesize connectionContext=_connectionContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFShareSheetSessionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SFShareSheetService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

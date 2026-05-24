@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol _CDContextPersisting
+- (NSDictionary *)C;
 - (void);
 @end
 

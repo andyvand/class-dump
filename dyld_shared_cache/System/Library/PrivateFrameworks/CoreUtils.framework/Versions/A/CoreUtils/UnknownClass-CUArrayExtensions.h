@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CUArrayExtensions)
-- (id);
+- (id);
 @end
 

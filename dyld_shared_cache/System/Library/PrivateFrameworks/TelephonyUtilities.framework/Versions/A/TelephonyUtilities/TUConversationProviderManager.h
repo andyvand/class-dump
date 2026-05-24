@@ -13,16 +13,16 @@
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)bToken: /* Error: Ran out of types for this method. */;
-- (void)rticipantCount;
-- (void)le;
+- (void)setReportingHierarchySubToken: /* Error: Ran out of types for this method. */;
+- (void)remoteParticipantCount;
+- (void)isLiveLookupAvailable;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TUConversationProviderManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;

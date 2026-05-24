@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (_Bool);
-- (unsigned long long);
+- (void)_checkInWithLaunchd;
+- (shared_ptr_9dbb0ac9)=[8I]},R;
+- (shared_ptr_9dbb0ac9)dContent;
+- (shared_ptr_9dbb0ac9)wellKnownPhotoLibraryIdentifier;
+- (_Bool)text;
+- (unsigned long long)job:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

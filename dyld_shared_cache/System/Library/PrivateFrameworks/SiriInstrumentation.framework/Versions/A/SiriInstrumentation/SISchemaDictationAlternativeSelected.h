@@ -6,27 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaLocaleIdentifier;
-
 @interface SISchemaDictationAlternativeSelected : SISchemaInstrumentationMessage
 {
     int _countOfWordsReplaced;
-    int _countOfAlternativesAvailable;
-    int _alternativeListPosition;
-    SISchemaLocaleIdentifier *_alternativesLocale;
-    struct {
-        unsigned int countOfWordsReplaced:1;
-        unsigned int countOfAlternativesAvailable:1;
-        unsigned int alternativeListPosition:1;
-    } _has;
-    _Bool _hasAlternativesLocale;
 }
 
 - (void);
+- (void)*;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)r;
 - (int);
 - (int);
 - (id);
@@ -45,25 +34,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ilities;
+- (_Bool)ken"8;
+- (_Bool)issed call;
 - (id);
 - (id);
-- (id)stantDaemonAudioRecordingFailureInsufficientPriority;
-- (id)s;
-- (void)cEndOfSentenceLikelihood;
+- (id)deleteAssistantDaemonAudioRecordingFailureInsufficientPriority;
+- (id)_choiceDependentSignals;
+- (void)rcEndOfSentenceLikelihood;
 
 // Remaining properties
-@property(nonatomic) int alternativeListPosition; // @synthesize alternativeListPosition=_alternativeListPosition;
-@property(retain, nonatomic) SISchemaLocaleIdentifier *alternativesLocale; // @synthesize alternativesLocale=_alternativesLocale;
-@property(nonatomic) int countOfAlternativesAvailable; // @synthesize countOfAlternativesAvailable=_countOfAlternativesAvailable;
 @property(nonatomic) int countOfWordsReplaced; // @synthesize countOfWordsReplaced=_countOfWordsReplaced;
-@property(nonatomic) _Bool hasAlternativeListPosition;
-@property(nonatomic) _Bool hasAlternativesLocale; // @synthesize hasAlternativesLocale=_hasAlternativesLocale;
-@property(nonatomic) _Bool hasCountOfAlternativesAvailable;
-@property(nonatomic) _Bool hasCountOfWordsReplaced;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface AppStoreKit.VideoCard
 {
     id video;
-    id lockup;
-    id overlayStyle;
-    id clickAction;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

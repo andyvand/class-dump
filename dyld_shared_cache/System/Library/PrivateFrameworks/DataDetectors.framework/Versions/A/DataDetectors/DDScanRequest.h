@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DDScanRequest
 {
     NSString *_identifier;
-    NSDictionary *_context;
-    NSArray *_results;
 }
 
 - (id);
@@ -22,9 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *context; // @synthesize context=_context;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSArray *results; // @synthesize results=_results;
 
 @end
 

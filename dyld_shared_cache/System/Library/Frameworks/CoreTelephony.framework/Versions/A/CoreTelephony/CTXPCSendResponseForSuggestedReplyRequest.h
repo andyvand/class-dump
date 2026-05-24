@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliChatBotResponseForSuggestedReply, CTLazuliDestination, CTLazuliMessageID;
+@class CTLazuliDestination;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendResponseForSuggestedReplyRequest : CTXPCSubscriptionContextRequest
@@ -15,17 +15,15 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
+- (id),ؗ;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)BKDisplayBrightnessAbsoluteOverride;
 - (int);
-- (id)ttingsModelFetchLinePresentationValue;
+- (id)kSettingsModelFetchLinePresentationValue;
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliMessageID *messageID;
-@property(readonly, nonatomic) CTLazuliChatBotResponseForSuggestedReply *response;
 
 @end
 

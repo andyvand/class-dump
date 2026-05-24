@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDSupportedVideoStreamConfiguration
@@ -13,18 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)ä*ú+û<,|,ü(-;
-- (id);
+- (id)tring",R,N,V_initiatorIdentifier;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)devices %d;
 - (void);
-- (void)ssibility_vision_speakingRateSection_speakingRate_readVersion;
+- (void)root_general_accessibility_vision_speakingRateSection_speakingRate_readVersion;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *codecConfigurations; // @synthesize codecConfigurations=_codecConfigurations;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

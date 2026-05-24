@@ -5,5 +5,8 @@
 //
 
 @protocol NSVB_ViewService_FencingControlInterface
+
+@optional
+- (void);
 @end
 

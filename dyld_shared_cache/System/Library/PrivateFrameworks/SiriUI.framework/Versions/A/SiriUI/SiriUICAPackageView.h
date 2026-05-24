@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAStateController, NSArray, NSDictionary, NSObject, NSString;
-@protocol CAStateControllerDelegate;
+@class CAStateController, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SiriUICAPackageView
 {
     CAStateController *_stateController;
-    NSObject<CAStateControllerDelegate> *_stateControllerDelegate;
-    CALayer *_rootLayer;
-    struct CGSize _originalSize;
-    NSString *_pendingCompletionToState;
-    NSString *_pendingCompletionFromState;
-    CDUnknownBlockType _pendingCompletion;
-    NSDictionary *_publishedObjectMap;
-    long long _contentMode;
 }
 
 - (_Bool);
@@ -32,21 +23,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)dataWithPropertyList:(id)arg1 format:(_Bool)arg2 options:(double)arg3 error:(CDUnknownBlockType)arg4;
 - (void);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
 @property(readonly, copy, nonatomic) NSArray *publishedObjectNames;
-@property(nonatomic) __weak NSObject<CAStateControllerDelegate> *stateControllerDelegate;
 
 @end
 

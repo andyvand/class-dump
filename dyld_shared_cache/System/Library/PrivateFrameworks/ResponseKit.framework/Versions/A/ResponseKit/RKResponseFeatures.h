@@ -9,15 +9,6 @@
 @interface RKResponseFeatures
 {
     int _count;
-    int _sameRecipientCount;
-    NSString *_response;
-    double _numOfElapsedDays;
-    double _normalizedSourceAppCount;
-    double _normalizedSourceNotificationCount;
-    double _normalizedInputMethodCannedCount;
-    double _normalizedInputMethodScribbleCount;
-    double _normalizedInputMethodDictationCount;
-    unsigned long long _responseLength;
 }
 
 - (int);
@@ -27,23 +18,14 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)k;
 - (id);
 - (id);
-- (int);
-- (void);
+- (int)joinSharedCalendarWithSourceClientIdentifier: /* Error: Ran out of types for this method. */;
+- (void)dO;
 
 // Remaining properties
-@property(readonly) int count; // @synthesize count=_count;
-@property(readonly) double normalizedInputMethodCannedCount; // @synthesize normalizedInputMethodCannedCount=_normalizedInputMethodCannedCount;
-@property(readonly) double normalizedInputMethodDictationCount; // @synthesize normalizedInputMethodDictationCount=_normalizedInputMethodDictationCount;
-@property(readonly) double normalizedInputMethodScribbleCount; // @synthesize normalizedInputMethodScribbleCount=_normalizedInputMethodScribbleCount;
-@property(readonly) double normalizedSourceAppCount; // @synthesize normalizedSourceAppCount=_normalizedSourceAppCount;
-@property(readonly) double normalizedSourceNotificationCount; // @synthesize normalizedSourceNotificationCount=_normalizedSourceNotificationCount;
-@property(readonly) double numOfElapsedDays; // @synthesize numOfElapsedDays=_numOfElapsedDays;
 @property(readonly) NSString *response; // @synthesize response=_response;
-@property(readonly) unsigned long long responseLength; // @synthesize responseLength=_responseLength;
-@property(readonly) int sameRecipientCount; // @synthesize sameRecipientCount=_sameRecipientCount;
 
 @end
 

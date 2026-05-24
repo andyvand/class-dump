@@ -6,23 +6,9 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSArray, NSString, PKDynamicProvisioningPageLearnMoreContent, PKPeerPaymentAccount;
-
 @interface PKPeerPaymentIdentityVerificationResponse : PKPeerPaymentWebServiceResponse
 {
     _Bool _complete;
-    _Bool _useDeviceValidation;
-    PKPeerPaymentAccount *_account;
-    NSString *_title;
-    NSString *_subtitle;
-    PKDynamicProvisioningPageLearnMoreContent *_learnMore;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSArray *_requiredFieldsByPage;
-    NSArray *_acceptableDocuments;
-    NSArray *_encryptionCertificates;
-    NSString *_encryptionVersion;
-    long long _verificationContext;
 }
 
 - (long long);
@@ -43,19 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *acceptableDocuments; // @synthesize acceptableDocuments=_acceptableDocuments;
-@property(readonly, nonatomic) PKPeerPaymentAccount *account; // @synthesize account=_account;
 @property(readonly, nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(readonly, copy, nonatomic) NSArray *encryptionCertificates; // @synthesize encryptionCertificates=_encryptionCertificates;
-@property(readonly, copy, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
-@property(readonly, copy, nonatomic) PKDynamicProvisioningPageLearnMoreContent *learnMore; // @synthesize learnMore=_learnMore;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, copy, nonatomic) NSArray *requiredFieldsByPage; // @synthesize requiredFieldsByPage=_requiredFieldsByPage;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) _Bool useDeviceValidation; // @synthesize useDeviceValidation=_useDeviceValidation;
-@property(nonatomic) long long verificationContext; // @synthesize verificationContext=_verificationContext;
 
 @end
 

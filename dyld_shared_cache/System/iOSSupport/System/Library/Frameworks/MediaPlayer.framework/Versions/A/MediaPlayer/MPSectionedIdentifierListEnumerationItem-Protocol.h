@@ -10,8 +10,6 @@
 - (NSString *)ssing mapping for MPModelRelationshipSongGenre;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *itemIdentifier;
-@property(readonly, nonatomic, getter=isRemoved) _Bool removed;
 @property(readonly, nonatomic) NSString *sectionIdentifier;
 @end
 

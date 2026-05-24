@@ -4,38 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBRecommendationProvider
 {
     NSString *_providerId;
-    NSMutableArray *_tagRecommendations;
 }
 
-+ (Class);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
++ (Class)anyAlbumValue;
+- (unsigned long long)infoForItem:childIndex: /* Error: Ran out of types for this method. */;
+- (id)infoForFirstVideoTrackOfAsset:(unsigned long long)arg1;
+- (id)infoForAssetCollection: /* Error: Ran out of types for this method. */;
+- (void)icqActionType;
+- (void)cancelButtonHandler;
+- (void)bookmarksDataSectionManagerForLibrary:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ge;
+- (_Bool)-[SMSystem_Daemon_RemoteDiskShare mountNetAuth:(id)arg1 ];
 - (_Bool);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setPremiumSubscriptionActivationImpressionValueBaseline: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasProviderId;
-@property(retain, nonatomic) NSString *providerId; // @synthesize providerId=_providerId;
-@property(retain, nonatomic) NSMutableArray *tagRecommendations; // @synthesize tagRecommendations=_tagRecommendations;
 
 @end
 

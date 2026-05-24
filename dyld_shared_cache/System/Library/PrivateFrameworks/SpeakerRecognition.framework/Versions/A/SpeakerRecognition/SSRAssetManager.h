@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSOnDeviceCompilationHandler, NSArray, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, SSRAssetManagerDelegate, SSRAssetProviding;
+@class NSArray;
+@protocol SSRAssetManagerDelegate;
 
 @interface SSRAssetManager
 {
     id <SSRAssetManagerDelegate> _delegate;
-    NSArray *_assetProviders;
-    NSString *_currentLanguageCode;
-    CSOnDeviceCompilationHandler *_onDeviceCompilationHandler;
-    NSMutableSet *_compiledAssets;
-    id <SSRAssetProviding> _mobileAssetProvider;
-    id <SSRAssetProviding> _uafAssetProvider;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -32,10 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (float);
 - (id);
@@ -48,31 +41,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)2@?0@"NSString"8@"NSMutableDictionary"16^B24;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *assetProviders; // @synthesize assetProviders=_assetProviders;
-@property(retain, nonatomic) NSMutableSet *compiledAssets; // @synthesize compiledAssets=_compiledAssets;
-@property(retain, nonatomic) NSString *currentLanguageCode; // @synthesize currentLanguageCode=_currentLanguageCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SSRAssetManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SSRAssetProviding> mobileAssetProvider; // @synthesize mobileAssetProvider=_mobileAssetProvider;
-@property(retain, nonatomic) CSOnDeviceCompilationHandler *onDeviceCompilationHandler; // @synthesize onDeviceCompilationHandler=_onDeviceCompilationHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <SSRAssetProviding> uafAssetProvider; // @synthesize uafAssetProvider=_uafAssetProvider;
 
 @end
 

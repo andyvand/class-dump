@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKPeerPaymentProfileAppearanceData
 {
     NSString *_displayName;
-    NSData *_imageData;
 }
 
 + (_Bool);
-- (id);
+- (id)߈;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)b1"selfPeerRssi24G"b1"selfPeerRssi5G"b1"remotefIsSDB"b1"selfIsSDB"b1};
+- (id)setPathTriggerMilliseconds: /* Error: Ran out of types for this method. */;
+- (void)unt;
 - (void)Recurring line item;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 
 @end
 

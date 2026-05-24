@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MLE5ExecutionStreamOperation;
+
 @protocol MLE5ExecutionStreamOperationPool
+- (MLE5ExecutionStreamOperation *)questReply=Q@^{?}@}8;
+- (void)copyMTLBVHHeaderKernel;
+- (_Bool)encodeMTLInstanceBVHResourceIDsUserIDKernel;
+- (id)stencilAttachmentPixelFormat;
 @end
 

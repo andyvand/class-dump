@@ -9,13 +9,9 @@
 @interface GEOLogMsgEventMapsInteraction
 {
     PBUnknownFields *_unknownFields;
-    int _interactionType;
-    struct {
-        unsigned int has_interactionType:1;
-    } _flags;
 }
 
-+ (_Bool)tIndex:(id)arg1;
++ (_Bool)setHasStartIndex:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
@@ -29,11 +25,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)odified for ioData buffer;
 - (_Bool);
 - (int);
 - (void);
-- (id)s:(struct _NSZone *)arg1;
+- (id)setSuccessDetails:(struct _NSZone *)arg1;
 - (id)ompleteEntry;
 - (id)zilch points. Count:%{private}d /* Error: Ran out of types for this method. */;
 - (id);
@@ -41,8 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasInteractionType;
-@property(nonatomic) int interactionType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface CookingKit.IngredientClassifier
 {
     id $defaultActor;
+    id;
 }
 
 @end

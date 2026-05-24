@@ -6,21 +6,19 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AASecondaryAuthenticationResponse : AAResponse
 {
     NSString *_secondFactorToken;
-    NSData *_buddyML;
 }
 
+- (id)rofile '%s' does not contain any payloads;
+- (id)%d) = %d (%s);
 - (id);
-- (id);
-- (id);
-- (void)pletionHandler: /* Error: Ran out of types for this method. */;
+- (void)scheduleTask:shouldRetry:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *buddyML; // @synthesize buddyML=_buddyML;
 @property(readonly, nonatomic) NSString *secondFactorToken; // @synthesize secondFactorToken=_secondFactorToken;
 
 @end

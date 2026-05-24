@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSScriptingInternalCounting)
-+ (id);
++ (id)6;
 + (_Bool);
 - (id);
 - (void);
@@ -13,8 +13,8 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);

@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface MTLVertexBufferLayoutDescriptorInternal : MTLVertexBufferLayoutDescriptor
 {
     unsigned long long _stride;
-    unsigned long long _stepFunction;
-    unsigned long long _instanceStepRate;
 }
 
 - (unsigned long long);
 - (void);
+- (unsigned long long)'%04X', dataOffset (%08X) with length = %d is outside the bounds of the APP1 marker (%08X - %08X)
+;
+- (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void);
 - (void);

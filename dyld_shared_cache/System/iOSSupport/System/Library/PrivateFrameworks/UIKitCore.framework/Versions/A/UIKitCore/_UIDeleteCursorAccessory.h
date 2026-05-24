@@ -10,11 +10,11 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)licationAccount;
+- (id)/;
+- (id)g;
 - (unsigned long long);
-- (void)hlighted;
+- (void)rightHighlighted;
 - (id),
 Ñ\L
 Ñ¼\

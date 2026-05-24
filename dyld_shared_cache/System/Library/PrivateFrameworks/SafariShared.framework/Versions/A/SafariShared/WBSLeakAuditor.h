@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, WBSLeakAuditorReporterDelegate;
+@protocol WBSLeakAuditorReporterDelegate;
 
 @interface WBSLeakAuditor
 {
     _Bool _running;
-    _Bool _reportLeaksToSystemLogs;
-    NSArray *_rules;
-    NSMapTable *_instanceCounts;
-    NSMapTable *_violations;
-    NSMutableSet *_detectedLeaks;
-    NSObject<OS_dispatch_queue> *_bookkeeperQueue;
-    NSObject<OS_dispatch_queue> *_enforcerQueue;
-    NSObject<OS_dispatch_source> *_enforcerDispatchSource;
-    id <WBSLeakAuditorReporterDelegate> _reporterDelegate;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

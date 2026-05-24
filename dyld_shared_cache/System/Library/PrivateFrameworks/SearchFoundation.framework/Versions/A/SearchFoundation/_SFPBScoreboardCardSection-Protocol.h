@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBSportsTeam;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBScoreboardCardSection
-- (int);
+- (void);
+- (void);
+- (_Bool)setCarousel: /* Error: Ran out of types for this method. */;
+- (_Bool)setAllowFallbackToStreamingKeys: /* Error: Ran out of types for this method. */;
+- (NSString *)eRestrictions:hasAppStorePasscodeRestrictions:hasIntelligenceAndSiriRestrictions:hasAskToBuyEnabled:hasLimitsEnabled:numberOfAppLimits:hasLimitWithCustomSchedule:hasLimitWithBlockEnabled:hasAppInMoreThanOneLimit:hasAlwaysAllowedAppInLimit:hasCategoryLimits:hasAllAppsAndCategoriesLimit:hasSocialLimit:hasGamesLimit:hasEntertainmentLimit:hasCreativityLimit:hasProductivityAndFinanceLimit:hasEducationLimit:hasInformationAndReadingLimit:hasHealthAndFitnessLimit:hasUtilitiesLimit:hasShoppingAndFoodLimit:hasTravelLimit:hasDowntimeEnabled:hasDowntimeWithCustomSchedule:hasDowntimeWithBlockEnabled:isDowntimeOvernight:isDowntimeDifferentForWeekendsAndWeekdays:hasCommunicationLimits:hasiCloudContactsEnabled:hasManagedContacts:result: /* Error: Ran out of types for this method. */;
+- (void)_;
+- (NSData *)NSString",R,N,V_uniformTypeIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSString *eventStatus;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *subtitle;
-@property(retain, nonatomic) _SFPBSportsTeam *team1;
-@property(retain, nonatomic) _SFPBSportsTeam *team2;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

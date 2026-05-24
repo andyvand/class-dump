@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSActionManager, AXSSKeyboardCommandInfo, AXSSKeyboardCommandMap, NSDictionary;
-@protocol AXSSKeyFilterDelegate;
+@class NSDictionary;
 
 @interface AXSSEventManager
 {
     _Bool _shouldSuppressCommands;
-    _Bool _passthroughModeEnabled;
-    _Bool __tabKeyPressed;
-    _Bool __performedActionWhileTabComboPressed;
-    AXSSActionManager *_actionManager;
-    unsigned long long _searchType;
-    AXSSKeyboardCommandMap *_commandMap;
-    id <AXSSKeyFilterDelegate> _filterDelegate;
-    NSDictionary *__commandInfos;
-    double __lastTabPressTime;
-    AXSSKeyboardCommandInfo *__lastDownAndUpCommandInfo;
-    double _minimumDelayUntilRepeat;
 }
 
 - (_Bool);
@@ -54,26 +42,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)$)�'')5;
+- (unsigned long long);
+- (void)cards but found no match.;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *_commandInfos; // @synthesize _commandInfos=__commandInfos;
-@property(retain, nonatomic) AXSSKeyboardCommandInfo *_lastDownAndUpCommandInfo; // @synthesize _lastDownAndUpCommandInfo=__lastDownAndUpCommandInfo;
-@property(nonatomic) double _lastTabPressTime; // @synthesize _lastTabPressTime=__lastTabPressTime;
-@property(nonatomic) _Bool _performedActionWhileTabComboPressed; // @synthesize _performedActionWhileTabComboPressed=__performedActionWhileTabComboPressed;
-@property(nonatomic) _Bool _tabKeyPressed; // @synthesize _tabKeyPressed=__tabKeyPressed;
-@property(retain, nonatomic) AXSSActionManager *actionManager; // @synthesize actionManager=_actionManager;
-@property(retain, nonatomic) AXSSKeyboardCommandMap *commandMap; // @synthesize commandMap=_commandMap;
-@property(nonatomic) __weak id <AXSSKeyFilterDelegate> filterDelegate; // @synthesize filterDelegate=_filterDelegate;
-@property(nonatomic) double minimumDelayUntilRepeat; // @synthesize minimumDelayUntilRepeat=_minimumDelayUntilRepeat;
-@property(nonatomic, getter=isPassthroughModeEnabled) _Bool passthroughModeEnabled; // @synthesize passthroughModeEnabled=_passthroughModeEnabled;
-@property(nonatomic) unsigned long long searchType; // @synthesize searchType=_searchType;
-@property(nonatomic) _Bool shouldSuppressCommands; // @synthesize shouldSuppressCommands=_shouldSuppressCommands;
 
 @end
 

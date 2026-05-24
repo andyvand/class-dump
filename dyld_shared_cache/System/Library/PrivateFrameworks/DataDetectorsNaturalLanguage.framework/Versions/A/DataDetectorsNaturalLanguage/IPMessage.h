@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPPerson, NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray, NSString;
 
 @interface IPMessage
 {
     NSMutableArray *_messageUnits;
-    NSMutableDictionary *_keywordsDictionary;
-    NSString *_lowercaseSubject;
-    _Bool _isReply;
-    _Bool _isSent;
-    _Bool _isGroupConversation;
-    _Bool _isSenderSignificant;
-    NSString *_identifier;
-    NSString *_threadIdentifier;
-    NSString *_subject;
-    IPPerson *_sender;
-    NSArray *_recipients;
-    NSDate *_dateSent;
-    NSString *_type;
-    NSString *_htmlContent;
-    unsigned long long _messageUnitsTextLength;
 }
 
 - (void);
@@ -31,7 +16,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)qky;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -39,9 +24,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)J	;
 - (id);
 - (id);
 - (id);
@@ -59,8 +44,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)retain;
+- (void)NSString",R,N,V_hostname;
 - (_Bool);
 - (id);
 - (void);
@@ -68,21 +53,7 @@
 - (id)0;
 
 // Remaining properties
-@property(retain) NSDate *dateSent; // @synthesize dateSent=_dateSent;
-@property(retain) NSString *htmlContent; // @synthesize htmlContent=_htmlContent;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isGroupConversation; // @synthesize isGroupConversation=_isGroupConversation;
-@property _Bool isReply; // @synthesize isReply=_isReply;
-@property _Bool isSenderSignificant; // @synthesize isSenderSignificant=_isSenderSignificant;
-@property _Bool isSent; // @synthesize isSent=_isSent;
-@property(readonly) NSString *lowercaseSubject;
-@property(retain, nonatomic) NSArray *messageUnits;
-@property(readonly) unsigned long long messageUnitsTextLength; // @synthesize messageUnitsTextLength=_messageUnitsTextLength;
-@property(retain) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain) IPPerson *sender; // @synthesize sender=_sender;
-@property(retain) NSString *subject; // @synthesize subject=_subject;
-@property(retain) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(retain) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -6,44 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHVoiceTriggerFirstPassStatistic : SISchemaInstrumentationMessage
 {
     float _firstPassPeakScoreHS;
-    float _firstPassPeakScoreJS;
-    int _firstPassTriggerSource;
-    float _recognizerScoreHS;
-    float _recognizerScoreJS;
-    float _triggerScoreHS;
-    float _triggerScoreJS;
-    float _mitigationScore;
-    int _invocationTypeId;
-    long long _secondsSinceEpoch;
-    float _repetitionSimilarityScore;
-    float _tdSpeakerRecognizerCombinedScore;
-    float _keywordThresholdHS;
-    float _keywordThresholdJS;
-    float _tdSpeakerRecognizerCombinedThresholdHS;
-    float _tdSpeakerRecognizerCombinedThresholdJS;
-    struct {
-        unsigned int firstPassPeakScoreHS:1;
-        unsigned int firstPassPeakScoreJS:1;
-        unsigned int firstPassTriggerSource:1;
-        unsigned int recognizerScoreHS:1;
-        unsigned int recognizerScoreJS:1;
-        unsigned int triggerScoreHS:1;
-        unsigned int triggerScoreJS:1;
-        unsigned int mitigationScore:1;
-        unsigned int invocationTypeId:1;
-        unsigned int secondsSinceEpoch:1;
-        unsigned int repetitionSimilarityScore:1;
-        unsigned int tdSpeakerRecognizerCombinedScore:1;
-        unsigned int keywordThresholdHS:1;
-        unsigned int keywordThresholdJS:1;
-        unsigned int tdSpeakerRecognizerCombinedThresholdHS:1;
-        unsigned int tdSpeakerRecognizerCombinedThresholdJS:1;
-    } _has;
 }
 
 - (float);
@@ -60,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -85,7 +50,7 @@
 - (void);
 - (long long);
 - (float);
-- (float);
+- (float)	?צ;
 - (float);
 - (float);
 - (float);
@@ -127,7 +92,7 @@
 - (void);
 - (float);
 - (id);
-- (void);
+- (void)pport routines;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -139,38 +104,6 @@
 
 // Remaining properties
 @property(nonatomic) float firstPassPeakScoreHS; // @synthesize firstPassPeakScoreHS=_firstPassPeakScoreHS;
-@property(nonatomic) float firstPassPeakScoreJS; // @synthesize firstPassPeakScoreJS=_firstPassPeakScoreJS;
-@property(nonatomic) int firstPassTriggerSource; // @synthesize firstPassTriggerSource=_firstPassTriggerSource;
-@property(nonatomic) _Bool hasFirstPassPeakScoreHS;
-@property(nonatomic) _Bool hasFirstPassPeakScoreJS;
-@property(nonatomic) _Bool hasFirstPassTriggerSource;
-@property(nonatomic) _Bool hasInvocationTypeId;
-@property(nonatomic) _Bool hasKeywordThresholdHS;
-@property(nonatomic) _Bool hasKeywordThresholdJS;
-@property(nonatomic) _Bool hasMitigationScore;
-@property(nonatomic) _Bool hasRecognizerScoreHS;
-@property(nonatomic) _Bool hasRecognizerScoreJS;
-@property(nonatomic) _Bool hasRepetitionSimilarityScore;
-@property(nonatomic) _Bool hasSecondsSinceEpoch;
-@property(nonatomic) _Bool hasTdSpeakerRecognizerCombinedScore;
-@property(nonatomic) _Bool hasTdSpeakerRecognizerCombinedThresholdHS;
-@property(nonatomic) _Bool hasTdSpeakerRecognizerCombinedThresholdJS;
-@property(nonatomic) _Bool hasTriggerScoreHS;
-@property(nonatomic) _Bool hasTriggerScoreJS;
-@property(nonatomic) int invocationTypeId; // @synthesize invocationTypeId=_invocationTypeId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float keywordThresholdHS; // @synthesize keywordThresholdHS=_keywordThresholdHS;
-@property(nonatomic) float keywordThresholdJS; // @synthesize keywordThresholdJS=_keywordThresholdJS;
-@property(nonatomic) float mitigationScore; // @synthesize mitigationScore=_mitigationScore;
-@property(nonatomic) float recognizerScoreHS; // @synthesize recognizerScoreHS=_recognizerScoreHS;
-@property(nonatomic) float recognizerScoreJS; // @synthesize recognizerScoreJS=_recognizerScoreJS;
-@property(nonatomic) float repetitionSimilarityScore; // @synthesize repetitionSimilarityScore=_repetitionSimilarityScore;
-@property(nonatomic) long long secondsSinceEpoch; // @synthesize secondsSinceEpoch=_secondsSinceEpoch;
-@property(nonatomic) float tdSpeakerRecognizerCombinedScore; // @synthesize tdSpeakerRecognizerCombinedScore=_tdSpeakerRecognizerCombinedScore;
-@property(nonatomic) float tdSpeakerRecognizerCombinedThresholdHS; // @synthesize tdSpeakerRecognizerCombinedThresholdHS=_tdSpeakerRecognizerCombinedThresholdHS;
-@property(nonatomic) float tdSpeakerRecognizerCombinedThresholdJS; // @synthesize tdSpeakerRecognizerCombinedThresholdJS=_tdSpeakerRecognizerCombinedThresholdJS;
-@property(nonatomic) float triggerScoreHS; // @synthesize triggerScoreHS=_triggerScoreHS;
-@property(nonatomic) float triggerScoreJS; // @synthesize triggerScoreJS=_triggerScoreJS;
 
 @end
 

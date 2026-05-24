@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _GCThumbstickHIDEventParser : _GCHIDEventParser
 {
     unsigned long long _xAxisKey;
-    unsigned long long _yAxisKey;
-    unsigned long long _requiredOrdinal;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (unsigned long long);
 - (id);
 - (id);

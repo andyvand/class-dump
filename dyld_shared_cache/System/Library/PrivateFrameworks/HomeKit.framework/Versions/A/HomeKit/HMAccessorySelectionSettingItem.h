@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySelectionSetting, NSString, NSUUID;
+@class HMAccessorySelectionSetting;
 
 @interface HMAccessorySelectionSettingItem
 {
     unsigned char _identifierUUIDBytes[16];
-    NSString *_title;
-    HMAccessorySelectionSetting *_setting;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)exponentialWithMultiplierForArguments: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)endocannibalism;
 - (void);
 - (id);
 - (id);
@@ -31,11 +29,7 @@
 - (id)-[HMHome(HMActionSet) addActionSetWithName:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *identifier;
-@property(readonly, copy) NSString *keyPath;
-@property(readonly, copy) NSString *localizedTitle;
 @property __weak HMAccessorySelectionSetting *setting; // @synthesize setting=_setting;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end
 

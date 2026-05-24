@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)UIInvertColorsDoubleInvertPrivateKey;
 + (void);
-- (_Bool);
+- (_Bool)start30fpsUpdatesWithHandler:identificationLog: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

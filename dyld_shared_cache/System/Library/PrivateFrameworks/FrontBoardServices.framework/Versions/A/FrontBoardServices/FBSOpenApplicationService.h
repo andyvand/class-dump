@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, BSServiceDispatchQueue;
+@class BSServiceDispatchQueue;
 
 @interface FBSOpenApplicationService
 {
     BSServiceDispatchQueue *_callbackQueue;
-    BSServiceConnection *_connection;
 }
 
 @end

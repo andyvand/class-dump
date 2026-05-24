@@ -5,13 +5,10 @@
 //
 
 @protocol _INPBColor
+- (void)JIHJ;
+- (double);
 
 // Remaining properties
 @property(nonatomic) double blue;
-@property(nonatomic) double green;
-@property(nonatomic) _Bool hasBlue;
-@property(nonatomic) _Bool hasGreen;
-@property(nonatomic) _Bool hasRed;
-@property(nonatomic) double red;
 @end
 

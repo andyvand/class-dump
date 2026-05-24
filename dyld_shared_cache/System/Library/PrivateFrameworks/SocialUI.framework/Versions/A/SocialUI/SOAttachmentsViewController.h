@@ -6,12 +6,11 @@
 
 #import <SocialUI/SOChatViewController.h>
 
-@class NSArray, NSLayoutConstraint, NSString;
+@class NSArray;
 
 @interface SOAttachmentsViewController : SOChatViewController
 {
     NSArray *_attachments;
-    NSLayoutConstraint *_preferredHeightConstraint;
 }
 
 + (struct CGSize);
@@ -27,21 +26,12 @@
 - (id);
 - (void);
 - (void);
-- (id)PopUpButtonViewController;
-- (_Bool)actSilhouetteWithOptions:(id)arg1;
+- (id)screenSharingPopUpButtonViewController;
+- (_Bool)imageWithContactSilhouetteWithOptions:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool hasAttachments;
-@property(readonly) unsigned long long hash;
-@property(retain) NSLayoutConstraint *preferredHeightConstraint; // @synthesize preferredHeightConstraint=_preferredHeightConstraint;
-@property(readonly) Class superclass;
 
 @end
 

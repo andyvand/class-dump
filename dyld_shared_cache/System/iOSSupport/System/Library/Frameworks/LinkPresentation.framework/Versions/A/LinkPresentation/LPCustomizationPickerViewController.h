@@ -5,19 +5,10 @@
 //
 
 @class UIImage;
-@protocol LPCustomizationPickerViewControllerDelegate;
 
 @interface LPCustomizationPickerViewController
 {
     id source;
-    UIImage *mask;
-    void customizationDelegate;
-    id titleLabel;
-    id $__lazy_storage_$_allVariantViews;
-    id $__lazy_storage_$_stackView;
-    id $__lazy_storage_$_scrollView;
-    id $__lazy_storage_$_innerRootViewController;
-    id $__lazy_storage_$_blurBackground;
 }
 
 - (void);
@@ -25,23 +16,22 @@
 - (void);
 - (id);
 - (id);
+- (id)setShouldCascadeWindows:(id)arg1;
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)A;
 - (void)á÷ð!ÐFùqð1Â0@ù
 × ;
-- (id)ix:(id)arg1;
+- (id)_lp_hasCaseInsensitiveSuffix:(id)arg1;
 - (void)¤ãòÿÍÚüP/;
 
 // Remaining properties
-@property(nonatomic) __weak id <LPCustomizationPickerViewControllerDelegate> customizationDelegate; // @synthesize customizationDelegate;
 @property(nonatomic, retain) UIImage *mask; // @synthesize mask;
 
 @end

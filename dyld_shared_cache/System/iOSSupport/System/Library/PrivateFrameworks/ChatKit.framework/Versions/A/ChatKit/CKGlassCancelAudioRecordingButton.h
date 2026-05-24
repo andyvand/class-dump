@@ -10,13 +10,13 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void)rovider;
+- (id)`B;
+- (void)CKInlineMediaTextAttachmentViewProvider;
 
 @end
 

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BackgroundColorView, NSImage, NSMutableArray, NSView;
+@class BackgroundColorView, NSView;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerShadowTileView
 {
     BackgroundColorView *_headerBackgroundView;
-    NSView *_sidebarView;
-    NSView *_toolbarView;
-    NSView *_borderView;
-    NSMutableArray *_sidebarAndToolbarAnimations;
-    BackgroundColorView *_headerOverlayView;
-    NSView *_containerView;
-    NSImage *_toolbarSnapshot;
-    NSView *_toolbarSnapshotBackgroundView;
 }
 
 - (id);
@@ -25,19 +17,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool));
 - (void);
 - (id);
 - (void);
@@ -46,10 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) NSView *headerView;
-@property(readonly) double safeAreaMargin;
-@property(retain, nonatomic) NSImage *toolbarSnapshot; // @synthesize toolbarSnapshot=_toolbarSnapshot;
-@property(readonly, nonatomic) NSView *toolbarSnapshotBackgroundView; // @synthesize toolbarSnapshotBackgroundView=_toolbarSnapshotBackgroundView;
 
 @end
 

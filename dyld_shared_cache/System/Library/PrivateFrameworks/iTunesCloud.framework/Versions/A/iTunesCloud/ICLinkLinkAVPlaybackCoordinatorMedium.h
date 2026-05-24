@@ -6,7 +6,7 @@
 
 #import <iTunesCloud/ICLiveLinkPlaybackCoordinatorMedium.h>
 
-@class AVPlayerPlaybackCoordinator, NSString;
+@class AVPlayerPlaybackCoordinator;
 
 __attribute__((visibility("hidden")))
 @interface ICLinkLinkAVPlaybackCoordinatorMedium : ICLiveLinkPlaybackCoordinatorMedium
@@ -21,22 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)c;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)equest;
+- (void)ICMediaRedownloadRequest;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AVPlayerPlaybackCoordinator *playbackCoordinator; // @synthesize playbackCoordinator=_playbackCoordinator;
-@property(readonly) Class superclass;
 
 @end
 

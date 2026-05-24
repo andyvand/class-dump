@@ -7,9 +7,6 @@
 @interface AppStoreKit.ProductMediaItem
 {
     id screenshot;
-    id video;
-    id id;
-    id automationMetadata;
 }
 
 @end

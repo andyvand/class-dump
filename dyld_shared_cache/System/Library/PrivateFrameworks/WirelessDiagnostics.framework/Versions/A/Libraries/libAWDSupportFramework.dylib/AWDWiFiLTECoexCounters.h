@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiLTECoexBin;
-
 @interface AWDWiFiLTECoexCounters
 {
     unsigned long long _timestamp;
-    AWDWiFiLTECoexBin *_heavyLTECoexBin;
-    AWDWiFiLTECoexBin *_lightLTECoexBin;
-    AWDWiFiLTECoexBin *_noLTECoexBin;
-    CDStruct_b5306035 _has;
 }
 
-- (void);
-- (void);
+- (void)?;
+- (void)T;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)	;
+- (id)(@9	;
 - (_Bool);
 - (void);
 - (id);
@@ -31,23 +25,16 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)(	;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)?qi;
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasHeavyLTECoexBin;
-@property(readonly, nonatomic) _Bool hasLightLTECoexBin;
-@property(readonly, nonatomic) _Bool hasNoLTECoexBin;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) AWDWiFiLTECoexBin *heavyLTECoexBin; // @synthesize heavyLTECoexBin=_heavyLTECoexBin;
-@property(retain, nonatomic) AWDWiFiLTECoexBin *lightLTECoexBin; // @synthesize lightLTECoexBin=_lightLTECoexBin;
-@property(retain, nonatomic) AWDWiFiLTECoexBin *noLTECoexBin; // @synthesize noLTECoexBin=_noLTECoexBin;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

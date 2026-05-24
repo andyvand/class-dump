@@ -9,31 +9,7 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -47,6 +23,30 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)setObject:(double)arg1 forKey: /* Error: Ran out of types for this method. */;
++ (id)payload;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)removeProfileWithIdentifier:(double)arg1;
++ (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -54,7 +54,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 
 @end

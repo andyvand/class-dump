@@ -12,7 +12,7 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void)sß;
 

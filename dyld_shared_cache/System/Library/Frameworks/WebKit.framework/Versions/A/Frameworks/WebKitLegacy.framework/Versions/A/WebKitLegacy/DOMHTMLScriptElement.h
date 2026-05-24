@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (void);
+- (void)e8";
 - (void);
 - (id);
 - (void);
@@ -29,18 +29,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)drain_depth_p_0_25_at_charge_start_soc_curr_dynamic_bin_8;
 - (id)rapperBase<void>, std::default_delete<WTF::Detail::CallableWrapperBase<void>>>=""{?="__ptr_"^v}}}} /* Error: Ran out of types for this method. */;
 - (void)\7$;
 
 // Remaining properties
-@property(copy) NSString *charset;
-@property _Bool defer;
-@property(copy) NSString *event;
-@property(copy) NSString *htmlFor;
-@property(copy) NSString *src;
 @property(copy) NSString *text;
-@property(copy) NSString *type;
 
 @end
 

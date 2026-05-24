@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKCalendar, EKEventEditViewController;
+
 @protocol EKEventEditViewDelegate
+- (void)stringByRemovingCharactersInSet:(EKEventEditViewController *)arg1;
+
+@optional
+- (EKCalendar *)subTintColorUpdatedToColor:(EKEventEditViewController *)arg1;
 @end
 

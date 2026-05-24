@@ -5,6 +5,6 @@
 //
 
 @protocol _UIIVCResponseDelegateImpl
-- (void);
+- (void)CoreListMetricsColor;
 @end
 

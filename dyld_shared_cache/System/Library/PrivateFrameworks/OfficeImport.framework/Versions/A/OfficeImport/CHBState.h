@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CHBState
 {
     CHDChart *mChart;
-    struct __CFArray *mXlChartDataSeriesCollection;
-    int mXlSeriesCount;
-    int mXlCurrentSeriesIndex;
-    _Bool mHasPrimaryMixedArea;
-    _Bool mHasPrimaryMixedColumn;
-    _Bool mHasPrimaryMixedLine;
-    _Bool mHasSecondaryMixedArea;
-    _Bool mHasSecondaryMixedColumn;
-    _Bool mHasSecondaryMixedLine;
 }
 
 - (int);
@@ -26,6 +17,7 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (void *);
 - (id);
+- (void)c@9;
 - (void);
 - (void);
 - (void);
@@ -34,13 +26,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (_Bool);
 - (void);
 - (unsigned int);

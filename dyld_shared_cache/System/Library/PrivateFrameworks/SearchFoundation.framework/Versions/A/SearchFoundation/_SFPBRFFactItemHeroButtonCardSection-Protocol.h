@@ -7,12 +7,12 @@
 @class NSData, _SFPBButtonItem, _SFPBRFTextProperty;
 
 @protocol _SFPBRFFactItemHeroButtonCardSection
-- (_SFPBButtonItem *);
+- (void);
+- (_SFPBRFTextProperty *)ontext=}24;
+- (NSData *)y",&,N,V_importantPersons;
+- (_SFPBButtonItem *)clearMarkers;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBButtonItem *button;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
 @end
 

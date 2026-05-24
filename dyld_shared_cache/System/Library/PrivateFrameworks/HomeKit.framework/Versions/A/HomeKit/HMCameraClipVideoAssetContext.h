@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMCameraClipAssetContext.h>
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface HMCameraClipVideoAssetContext : HMCameraClipAssetContext
 {
@@ -14,40 +14,23 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)logophobia;
+- (id)UIKBBuildTreeNamed_;
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSData *hlsPlaylist; // @synthesize hlsPlaylist=_hlsPlaylist;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

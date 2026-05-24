@@ -7,12 +7,6 @@
 @interface CNImageUtilsBitmapFormat
 {
     unsigned int _bitmapInfo;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _bitsPerComponent;
-    unsigned long long _bitsPerPixel;
-    unsigned long long _bytesPerRow;
-    struct CGColorSpace *_colorSpace;
 }
 
 + (id);
@@ -22,10 +16,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned int);
+- (void)startObservingValueAtKeyPath:(unsigned long long)arg1 withoutKeepingAliveObservedObject:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)otification_CurrentItemDidChange, already current. No need to advance current item to match Fig (FigPlaybackItem = %p);
+- (unsigned long long)>> %s:%{public}@ kFigPlayerNotification_CurrentItemDidChange, already current. No need to advance current item to match Fig (FigPlaybackItem = %p) /* Error: Ran out of types for this method. */;
+- (unsigned int)err %d;
 - (unsigned long long);
 - (id);
 - (struct CGColorSpace *);
@@ -33,17 +27,11 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)a	;
 - (void);
 - (void);
 
 // Remaining properties
-@property unsigned int bitmapInfo; // @synthesize bitmapInfo=_bitmapInfo;
-@property unsigned long long bitsPerComponent; // @synthesize bitsPerComponent=_bitsPerComponent;
-@property unsigned long long bitsPerPixel; // @synthesize bitsPerPixel=_bitsPerPixel;
-@property unsigned long long bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
-@property(retain) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property unsigned long long height; // @synthesize height=_height;
 @property unsigned long long width; // @synthesize width=_width;
 
 @end

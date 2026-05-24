@@ -5,5 +5,7 @@
 //
 
 @protocol LoginUserServiceProtocol
+- (void);
+- (void);
 @end
 

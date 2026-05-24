@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODMSiriSchemaODMSiriTurnRestatementScore : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_currentTurnId;
-    SISchemaUUID *_nextTurnId;
-    _Bool _isUserRequest;
-    double _utteranceRestatementScore;
-    double _phoneticRestatementScore;
-    struct {
-        unsigned int isUserRequest:1;
-        unsigned int utteranceRestatementScore:1;
-        unsigned int phoneticRestatementScore:1;
-    } _has;
-    _Bool _hasCurrentTurnId;
-    _Bool _hasNextTurnId;
 }
 
 - (double);
@@ -33,12 +22,12 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)`;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -64,16 +53,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *currentTurnId; // @synthesize currentTurnId=_currentTurnId;
-@property(nonatomic) _Bool hasCurrentTurnId; // @synthesize hasCurrentTurnId=_hasCurrentTurnId;
-@property(nonatomic) _Bool hasIsUserRequest;
-@property(nonatomic) _Bool hasNextTurnId; // @synthesize hasNextTurnId=_hasNextTurnId;
-@property(nonatomic) _Bool hasPhoneticRestatementScore;
-@property(nonatomic) _Bool hasUtteranceRestatementScore;
-@property(nonatomic) _Bool isUserRequest; // @synthesize isUserRequest=_isUserRequest;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *nextTurnId; // @synthesize nextTurnId=_nextTurnId;
-@property(nonatomic) double phoneticRestatementScore; // @synthesize phoneticRestatementScore=_phoneticRestatementScore;
-@property(nonatomic) double utteranceRestatementScore; // @synthesize utteranceRestatementScore=_utteranceRestatementScore;
 
 @end
 

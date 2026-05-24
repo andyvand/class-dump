@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMyriadContext, AFMyriadGoodnessScoreOverrideState, AFMyriadPerceptualAudioHash, NSString;
+@class AFMyriadContext;
 
 @interface _AFMyriadContextMutation
 {
     AFMyriadContext *_base;
-    unsigned long long _timestamp;
-    AFMyriadPerceptualAudioHash *_perceptualAudioHash;
-    AFMyriadGoodnessScoreOverrideState *_overrideState;
-    long long _activationSource;
-    unsigned long long _activationExpirationTime;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasTimestamp:1;
-        unsigned int hasPerceptualAudioHash:1;
-        unsigned int hasOverrideState:1;
-        unsigned int hasActivationSource:1;
-        unsigned int hasActivationExpirationTime:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -35,17 +22,11 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id)riggerWithContext:(id)arg1;
-- (void)nIdentifier;
+- (id)startWatchAdvertisingFromVoiceTriggerWithContext:(id)arg1;
+- (void)_onDeviceDictationUIInteractionIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

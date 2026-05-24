@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSURLAuthenticationChallenge, NSURLRequest, WebDataSource, WebView;
+
 @protocol WebResourceLoadDelegate
+
+@optional
+- (void)er.Open-Recents;
+- (void)ple.finder.Open-Computer;
+- (void)e.finder;
+- (void);
+- (NSURLRequest *)_handle_SQLITE_IOERR_DIR_CLOSE:(WebView *)arg1 onError:(id)arg2 db:(NSURLRequest *)arg3;
+- (void)_handle_SQLITE_IOERR_DELETE:(WebView *)arg1 onError:(id)arg2 db:(NSURLAuthenticationChallenge *)arg3;
+- (void)_handle_SQLITE_IOERR_CONVPATH:(WebView *)arg1 onError:(id)arg2 db:(WebDataSource *)arg3;
+- (void)_handle_SQLITE_IOERR_CHECKRESERVEDLOCK:(WebView *)arg1 onError:(id)arg2 db:(NSError *)arg3;
+- (id)_handle_SQLITE_IOERR_BLOCKED:(WebView *)arg1 onError:(NSURLRequest *)arg2 db:(WebDataSource *)arg3;
 @end
 

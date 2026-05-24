@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHCollection, PHFetchResult;
+@class PHCollection;
 
 @interface CNAvatarPickerPhotoAssetCollection
 {
     _Bool _isCollectionList;
-    PHCollection *_collection;
-    PHFetchResult *_subCollections;
 }
 
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -22,15 +20,12 @@
 - (long long);
 - (void);
 - (id);
-- (void)erColor;
+- (void)_borderColor;
 - (id)_authorizationResult;
 - (id)À;
 
 // Remaining properties
 @property(retain, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) _Bool isCollectionList; // @synthesize isCollectionList=_isCollectionList;
-@property(readonly, nonatomic) long long subCollectionCount;
-@property(retain, nonatomic) PHFetchResult *subCollections; // @synthesize subCollections=_subCollections;
 
 @end
 

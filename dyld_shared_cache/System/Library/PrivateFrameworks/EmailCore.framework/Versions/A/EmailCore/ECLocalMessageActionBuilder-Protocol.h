@@ -7,11 +7,11 @@
 @class ECLocalMessageActionID, NSURL;
 
 @protocol ECLocalMessageActionBuilder
-- (void)naDomain;
+- (NSURL *);
+- (ECLocalMessageActionID *)m;
+- (void)idnaDomain;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *mailboxURL;
 @property(retain, nonatomic) ECLocalMessageActionID *persistentID;
-@property(nonatomic) _Bool userInitiated;
 @end
 

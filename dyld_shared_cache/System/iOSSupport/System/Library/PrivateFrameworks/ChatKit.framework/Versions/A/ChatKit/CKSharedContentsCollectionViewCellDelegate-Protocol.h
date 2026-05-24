@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKSharedContentsCollectionViewCell;
+
 @protocol CKSharedContentsCollectionViewCellDelegate
+- (void)56@0:(CKSharedContentsCollectionViewCell *)arg1 8@"WKWebView"16@"NSString"24@"NSString"32@"NSDictionary"40@?<v@?B>48;
+- (void)ic_nonCurrentUserParticipants;
 @end
 

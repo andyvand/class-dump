@@ -5,5 +5,7 @@
 //
 
 @protocol _GCSystemButtonClientInterface
+- (oneway void);
+- (oneway void)!;
 @end
 

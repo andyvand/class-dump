@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCoreSpotlightShareItem, _SFPBURLShareItem;
+@class _SFPBURLShareItem;
 
 @interface _SFPBShareItem
 {
     _SFPBURLShareItem *_urlShareItem;
-    _SFPBCoreSpotlightShareItem *_spotlightShareItem;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
@@ -23,24 +21,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)setArray:(id)arg1;
+- (id)ap, loading orientation;
+- (id);
 - (id);
 - (void)lculationCommand"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBCoreSpotlightShareItem *spotlightShareItem; // @synthesize spotlightShareItem=_spotlightShareItem;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBURLShareItem *urlShareItem; // @synthesize urlShareItem=_urlShareItem;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

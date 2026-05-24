@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTToolDefinition : SISchemaInstrumentationMessage
 {
     NSString *_toolId;
-    int _toolType;
-    struct {
-        unsigned int toolType:1;
-    } _has;
-    _Bool _hasToolId;
 }
 
 - (int);
@@ -38,15 +33,11 @@
 - (id)!XEù1àÐ1Â0@ù
 × ;
 - (id)V_transcriptionMetrics;
-- (id)LActionEvaluationContext;
+- (id)FLSchemaFLActionEvaluationContext;
 - (void)ÔÿqJ¶#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(nonatomic) _Bool hasToolType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
-@property(nonatomic) int toolType; // @synthesize toolType=_toolType;
 
 @end
 

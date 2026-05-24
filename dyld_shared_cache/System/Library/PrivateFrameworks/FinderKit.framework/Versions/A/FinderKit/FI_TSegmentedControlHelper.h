@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TSegmentedControlHelper
 {
     function_e88ba8d7 _clickHandler;
-    struct TString _keyEquivalent;
-    unsigned long long _modifierFlags;
 }
 
 - (void);

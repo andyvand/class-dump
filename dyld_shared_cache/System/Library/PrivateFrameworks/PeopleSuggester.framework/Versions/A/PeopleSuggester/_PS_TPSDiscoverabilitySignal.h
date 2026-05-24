@@ -9,25 +9,22 @@
 @interface _PS_TPSDiscoverabilitySignal
 {
     NSString *_identifier;
-    NSString *_bundleIdentifier;
-    NSString *_context;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)_availableDictationKeyboards;
 - (id);
 - (void);
-- (void);
+- (id);
+- (id)Name         [mMCXRecord recordName]=%s, [mMCXRecord recordType]=%s, [mMCXRecord uuidString]=%s parents=%lu;
+- (id);
+- (void)'E/*J
+;
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *context; // @synthesize context=_context;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

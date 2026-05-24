@@ -4,104 +4,87 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKEditingContextGroup, CUIKEditingManager, EKEventStore, NSArray, NSError, NSSet, NSString;
-@protocol CUIKActionDelegate, CUIKCommitDelegate, CUIKDecisionDelegate, CUIKEditingContextObserver, CUIKUndoDelegate;
+@class NSArray;
 
 @interface CUIKEditingContext
 {
     NSArray *_objectsBeingEdited;
-    EKEventStore *_eventStore;
-    _Bool _isActive;
-    _Bool _isOpen;
-    CUIKEditingContextGroup *_group;
-    CUIKEditingManager *_editingManager;
-    unsigned long long _interfaceType;
-    id <CUIKDecisionDelegate> _decisionDelegate;
-    id <CUIKActionDelegate> _actionDelegate;
-    id <CUIKUndoDelegate> _undoDelegate;
-    id <CUIKCommitDelegate> _commitDelegate;
-    id <CUIKEditingContextObserver> _observer;
-    NSError *_error;
-    NSSet *_originalIdentifiersForObjectsBeingEdited;
-    NSSet *_originalEventOccurrenceIDsForObjectsBeingEdited;
-    NSArray *_pendingObserverUpdates;
-    NSArray *_pendingGroupUpdates;
 }
 
-+ (long long) .;
++ (long long);
 + (unsigned long long);
-+ (void)R¿ëã;
-- (_Bool)`­aW­a­aU­a­`Âa´uÐ âªÕ;
-- (void);
-- (void)ªáªôª=c ;
-- (void)ªâªñªéò	?×èª	AøôªàªáªñªQüò1	?×ô;
-- (void);
-- (void)ñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (_Bool)ª	Føô;
-- (_Bool)ªáªñª±æò1	?×;
-- (void)_øðªñ	ªñÇåò0ÁÚñªñGÁÚë@;
-- (_Bool)7·ö;
-- (id)øýÕ;
-- (id)ýàªáªñªQuäò1?×÷;
-- (id)àªáªñªñûò1	?×$;
-- (id) uÐ;
-- (id)ë³Xø;
-- (id)ÿ ;
-- (id)èª´Yøàªáªñ	ªQ9øòQ	?×¢uðB`;
-- (void);
-- (_Bool)Ñ	þõª¿CÑý{E©ôOD©÷[C©ùcB©ûkA©üFøÿ_Öñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (void)øðªñªñÇåò0ÁÚñªñGÁÚë@;
-- (void)=;
-- (void)_Ö#Õý{¿©ý;
-- (void)ÑÈuð;
-- (_Bool)ÖÈuð;
-- (_Bool)ãªâªó;
-- (void)´õª;
-- (_Bool)Õÿó;
-- (_Bool)Ëý{F©ôOE©öWD©ø_C©ÿÃÿ#ÕÐÊP;
-- (_Bool)ª»þÿ ;
-- (_Bool)Rô	ª;
-- (_Bool)c;
-- (_Bool)®@9ßÁ;
-- (unsigned long long)´	;
++ (void);
 - (_Bool);
-- (void)¡ÇÑ÷ªèªâªã;
-- (void)àª(;
-- (void)ª\öò	?×õªÕ»Wøh@øàª(;
-- (_Bool)ò	?×è@øàªáªñªàò	?×õª¿Ñý{F©ôOE©÷[D©ùcC©ûkB©ü@ùé£@mêGüÿ_Ö#ÕöW½©ôO©ý{©ý;
-- (_Bool) Ñ³VøâªôªµYøÑùª©Vø(@øàªáªñ	ªàò	?×è@øàªáªñªàò	?×õª¿Ñý{F©ôOE©÷[D©ùcC©ûkB©ü@ùé£@mêGüÿ_Ö#ÕöW½©ôO©ý{©ý;
-- (_Bool)àu;
-- (_Bool)ÐÊP;
-- (unsigned long long)©ýC;
-- (id);
-- (_Bool)C;
-- (long long)Î­;
-- (void)üÒJ®R r;
-- (void)ÒAg;
-- (_Bool);
-- (_Bool)9Á;
-- (_Bool)?;
-- (void)ÕôO¾©ý{©ýC;
-- (_Bool)Òïí®òÏÀò­?;
-- (void)Çåò0ÁÚAøàªáªPwüò	?×àªý{A©ôOÂ¨ÿ_Ö#ÕôO¾©ý{©ýC;
-- (unsigned long long)Ý#Õý{¿©ý;
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
+- (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)A;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned long long);
 - (id);
+- (_Bool);
+- (long long);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (id)ords here;
+- (void)L %@;
+- (void)ory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLSyncStep.m;
+- (void)c.updatescope;
+- (void)<v@?>16^B24;
+- (_Bool)or"16;
+- (_Bool)ask"8;
+- (_Bool)6@?0@"CPLEngineResourceDownloadTask"8;
+- (_Bool)portResourcesDownloadTask>"8;
+- (id)es:%@> /* Error: Ran out of types for this method. */;
+- (id)batches while session is not idle;
+- (void)UploadThrottledErrorCount;
+- (id)onization is disabled. Will download resource in background;
+- (unsigned long long)kCLLocationCodingKeyHorizontalAccuracy;
+- (void)na_indexPathStartingAtPosition:(id)arg1;
+- (void)na_any:(id)arg1;
+- (id)na_addNotificationBlockObserverForName:object:queue:usingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -110,13 +93,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)ingPredicate:keysToFetch: /* Error: Ran out of types for this method. */;
+- (void)unifiedContactsMatchingPredicate:keysToFetch: /* Error: Ran out of types for this method. */;
 - (void)Ô;
 - (void)õÿÿâýÿD±çÿX;
 - (void)acOS, returning icon with type CalIconDateNameFormatTypeMonth;
@@ -127,29 +110,7 @@
 - (_Bool)È;
 
 // Remaining properties
-@property __weak id <CUIKActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property __weak id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CUIKDecisionDelegate> decisionDelegate; // @synthesize decisionDelegate=_decisionDelegate;
-@property(readonly, copy) NSString *description;
-@property __weak CUIKEditingManager *editingManager; // @synthesize editingManager=_editingManager;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property __weak CUIKEditingContextGroup *group; // @synthesize group=_group;
-@property(readonly) unsigned long long hash;
 @property unsigned long long interfaceType; // @synthesize interfaceType=_interfaceType;
-@property _Bool isActive; // @synthesize isActive=_isActive;
-@property _Bool isOpen; // @synthesize isOpen=_isOpen;
-@property(retain) NSArray *objectsBeingEdited;
-@property __weak id <CUIKEditingContextObserver> observer; // @synthesize observer=_observer;
-@property(retain) NSSet *originalEventOccurrenceIDsForObjectsBeingEdited; // @synthesize originalEventOccurrenceIDsForObjectsBeingEdited=_originalEventOccurrenceIDsForObjectsBeingEdited;
-@property(retain) NSSet *originalIdentifiersForObjectsBeingEdited; // @synthesize originalIdentifiersForObjectsBeingEdited=_originalIdentifiersForObjectsBeingEdited;
-@property(retain) NSArray *pendingGroupUpdates; // @synthesize pendingGroupUpdates=_pendingGroupUpdates;
-@property(retain) NSArray *pendingObserverUpdates; // @synthesize pendingObserverUpdates=_pendingObserverUpdates;
-@property(readonly) Class superclass;
-@property __weak id <CUIKUndoDelegate> undoDelegate; // @synthesize undoDelegate=_undoDelegate;
 
 @end
 

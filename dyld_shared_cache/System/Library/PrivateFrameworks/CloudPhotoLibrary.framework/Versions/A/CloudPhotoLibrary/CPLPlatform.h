@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMapTable, NSString;
 
 @interface CPLPlatform
 {
     NSMapTable *_abstractClassToImplementation;
-    NSObject<OS_dispatch_queue> *_lock;
-    NSString *_suffix;
 }
 
 + (void);

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, NSMutableArray, NSMutableData, NSRunStorage;
+@class NSAttributedString;
 
 @interface NSDocFormatWriter
 {
     NSAttributedString *_attrStr;
-    NSDictionary *_documentAttrs;
-    NSMutableData *_primaryData;
-    NSMutableData *_secondaryData;
-    NSMutableData *_primaryIndex;
-    NSMutableData *_secondaryIndex;
-    NSMutableData *_tableOfContents;
-    NSMutableData *_documentData;
-    NSMutableData *_tableData;
-    NSMutableData *_charData;
-    NSMutableData *_parData;
-    NSMutableData *_summaryInfoData;
-    NSMutableData *_documentSummaryInfoData;
-    NSMutableArray *_fontArray;
-    NSRunStorage *_charFlags;
-    _Bool _needsTrailingBreak;
 }
 
 - (_Bool);

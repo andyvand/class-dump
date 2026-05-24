@@ -7,9 +7,6 @@
 @interface SPShared.QueuePool
 {
     id name;
-    id workers;
-    id completionQueue;
-    id workQueues;
 }
 
 @end

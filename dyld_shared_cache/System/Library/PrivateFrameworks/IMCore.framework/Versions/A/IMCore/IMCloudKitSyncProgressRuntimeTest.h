@@ -9,25 +9,21 @@
 @interface IMCloudKitSyncProgressRuntimeTest : IMCloudKitEventNotificationManagerRuntimeTest
 {
     unsigned long long _progressCount;
-    unsigned long long _maxProgressCount;
-    double _progressRescheduleDelay;
 }
 
-- (void);
-- (void);
-- (double);
-- (unsigned long long);
-- (id);
-- (void);
+- (void)o audio paused[%d];
+- (void)ge to audio paused[%d];
+- (double)d Failed to allocate framesHistory with size=%zu;
+- (unsigned long long)yer [%s] %s:%d holeDetectionThreshold=%f /* Error: Ran out of types for this method. */;
+- (id)ceived connection for %s, connectionType = %d, constraint %d, expensive %d, videoFullHD %d;
+- (void)ayer parameter;
 - (void);
 - (void);
 - (unsigned long long);
 - (void)one(%@), rampedIntoTruthZone(%@);
 
 // Remaining properties
-@property unsigned long long maxProgressCount; // @synthesize maxProgressCount=_maxProgressCount;
 @property unsigned long long progressCount; // @synthesize progressCount=_progressCount;
-@property double progressRescheduleDelay; // @synthesize progressRescheduleDelay=_progressRescheduleDelay;
 
 @end
 

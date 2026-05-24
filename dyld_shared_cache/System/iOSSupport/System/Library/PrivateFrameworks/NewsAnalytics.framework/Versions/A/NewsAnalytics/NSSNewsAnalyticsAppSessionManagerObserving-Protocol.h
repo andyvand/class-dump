@@ -5,5 +5,7 @@
 //
 
 @protocol NSSNewsAnalyticsAppSessionManagerObserving
+- (void)to write it out to disk;
+- (void)apSearchLandingPageSession;
 @end
 

@@ -21,15 +21,15 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (id);
-- (id);
-- (id);
+- (id)primaryEarbudSide;
+- (id)apple.assistant.contextprovider.%@;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
@@ -46,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (id)°·ÌNPc¬üÀqs,Wctß7¨7;?æN[B¸ðr§[ã|z¿©|ÏH­ds;,¶tÑ*oÉr6ÙgÅ¢biþ¶÷§§ô|	hÂSh3Ù®(PÅ|ÍôúÍ¹x\g-±ôd·Â¡{à¥sáÜ¢ð±ÎA="ÐKYiq%0_°¾ÑÝt:(id *)arg1 )KS.$/ÚâPoÀï*üùìïf6x¯¤èm4 -èmó±=N©¿Ç6qy.XXåJ­îð÷Ìîô»­ËçGs-~N\ýUxÈ+|-qþaÀnxó Á:XGrYYp©¸×ëtÃ³9£îøeûànõIÓû)jÙ åJó³r/òß¬ZïêW&nfBÁÁRu[¥%v>Àvdn'ú¼õ$Ä]u©øªªýâ¡Î²5/çÃ,ÉmöéIûGbu[ãïUnwí2ëýß84áWN]:du ~ÀÆ3r¡$bîVYÖÖ.ùþEßWw±Ü¢ô])´t¿=YÆd`î´âN#þö7Ã-¼cÏþ²HÕh9À÷xY>âaj©[v=«$D§lu,ñ!å¶wGïÕ¿Ï÷°:3!ÖÑuJ6Ì:X!Ñý`(:å#:ÒW úÎ~µdXQKUÒ1*L¬6¾¢{,ê´RU%­ =¶ëÛâ`.^§]4¹#¯öÎ8áI4F*©¼]Øà2V<ÿ*CK ãZÝxÇ­-ÛszÃsÚ·ÁRI
 KÝ^¼Pî)c=r¥¹ðÍj°'¦wÂWßf xÜê<ºÌI	_bÏÎøÿ¦Ký¯°>Ë¿B34ü06¬ÐMËGÉ±m?oi¡| 1y-ÅÖØùk3}s©pA-pHßùÂ<.Æèçû{)8J®¸ø6Gl~¢{ÒÃáä!g=HÉ£çøz(òKOR¢îÅ«s#nYXp!Â Ënæv(
 ..VP:tcæf:'Æz9ù÷kî(Dos¬@E.~ìÙeD¾äoVZ·lè¢á:<_uYusà@)¿ñ×Ã­ÏkºÚp^áp>c¡Ru5ïßE³¿{	ZÃ¤'"v /* Error: Ran out of types for this method. */;
-- (void)erIDRotate;
+- (void)AMSMetricsConsumerIDRotate;
 - (void);
 
 @end

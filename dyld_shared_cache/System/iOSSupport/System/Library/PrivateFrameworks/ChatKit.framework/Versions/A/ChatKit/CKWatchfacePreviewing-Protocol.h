@@ -5,5 +5,6 @@
 //
 
 @protocol CKWatchfacePreviewing
++ (void)disableAddingExtraLinesIfNeeded;
 @end
 

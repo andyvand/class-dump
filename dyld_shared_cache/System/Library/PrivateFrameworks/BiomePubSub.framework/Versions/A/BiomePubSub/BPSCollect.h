@@ -7,39 +7,34 @@
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
 @class NSMutableArray;
-@protocol BPSPublisher;
 
 @interface BPSCollect : BMBookmarkablePublisher
 {
     _Bool _returned;
-    id <BPSPublisher> _upstream;
-    NSMutableArray *_results;
 }
 
 + (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_lp_isEqualToAnyIgnoringCase: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)c}@ with health metrics from %d enrollment utterances;
+- (void);
 - (id);
+- (id)6Q24I32;
 - (id);
 - (id)ð1Â0@ù
 × ;
-- (void)tionCIegg_;
+- (void)So13BPSCompletionCIegg_;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(nonatomic) _Bool returned; // @synthesize returned=_returned;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SRUIFSpeechRequestHandlerDelegate
+- (_Bool);
 @end
 

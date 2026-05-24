@@ -23,12 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_pluginDevMode;
-@property(nonatomic, readonly) _Bool has_pluginStream;
-@property(nonatomic, readonly) NSString *pluginConfig;
-@property(nonatomic, readonly) _Bool pluginDevMode;
-@property(nonatomic, readonly) NSString *pluginName;
-@property(nonatomic, readonly) long long pluginStream;
 
 @end
 

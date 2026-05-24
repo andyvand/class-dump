@@ -21,12 +21,12 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +38,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
@@ -50,7 +50,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void).;
 - (id);
 - (id);
 - (id);
@@ -71,7 +71,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)OutBytes;
 - (id);
 - (id);
 - (void);

@@ -7,32 +7,29 @@
 @interface GEOPDPlaceSummaryLayoutUnitFactoid
 {
     unsigned int _factoidIndex;
-    struct {
-        unsigned int has_factoidIndex:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
-- (void);
++ (_Bool)setIncidentIndexs:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (void)C;
 - (void);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)z;
+- (void)d evt code %lu 
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)rsion"b1};
-- (id)eHint;
+- (id)_latitudeHint;
 - (id)Ä`!Ð"¼#¸/@1 2H>	B;
-- (id)ionParameters;
+- (id)searchBrowseCategorySuggestionParameters;
 
 // Remaining properties
-@property(nonatomic) unsigned int factoidIndex;
 @property(nonatomic) _Bool hasFactoidIndex;
 
 @end

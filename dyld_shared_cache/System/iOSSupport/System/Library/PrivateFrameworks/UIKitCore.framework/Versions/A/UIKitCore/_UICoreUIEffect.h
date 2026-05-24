@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-- (id);
+- (id)_removeDeviceFromAllowedSMSRelay:(long long)arg1;
 
 @end
 

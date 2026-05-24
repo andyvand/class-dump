@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAction, UIButtonConfiguration, UIMenu;
+@class UIButtonConfiguration;
 
 @interface UIContentUnavailableButtonProperties
 {
@@ -13,23 +13,16 @@
         unsigned int hasCustomizedRole:1;
         unsigned int hasCustomizedMinimumSize:1;
     } _buttonFlags;
-    _Bool _enabled;
-    UIButtonConfiguration *_configuration;
-    UIAction *_primaryAction;
-    UIMenu *_menu;
-    long long _role;
-    UIButtonConfiguration *_defaultConfiguration;
-    struct CGSize _minimumSize;
 }
 
-+ (_Bool)derView;
-- (void);
-- (void);
++ (_Bool)UITableSectionHeaderView;
+- (void)e/;
+- (void)_boxBlur_metal:(long long)arg1 inputImageTexture:boxBlurredTexture: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)}s;
 - (_Bool);
 - (id);
-- (void);
+- (void)MPModelResponseDetailedKeepLocalStatusRequesting;
 - (id);
 - (id);
 - (unsigned long long);
@@ -39,14 +32,14 @@
 - (_Bool);
 - (void)× ;
 - (_Bool)× ;
-- (_Bool):forCalendarUnit: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)tIsAccessibilityElement:(struct CGSize)arg1;
-- (void)justment:(id)arg1 forState: /* Error: Ran out of types for this method. */;
-- (_Bool)ementalLexiconIdentifiers;
-- (struct CGSize)MessageInvocationBuffer;
-- (void)ContentDimensionVariablesForConstraintLowering;
-- (void)ctiveRenamerSession;
+- (_Bool)validateValue:forCalendarUnit: /* Error: Ran out of types for this method. */;
+- (id)updateSelectionWithExtentPoint:executionContext: /* Error: Ran out of types for this method. */;
+- (void)setIsAccessibilityElement:(struct CGSize)arg1;
+- (void)setBadgePositionAdjustment:(id)arg1 forState: /* Error: Ran out of types for this method. */;
+- (_Bool)enabledSupplementalLexiconIdentifiers;
+- (struct CGSize)_writingToolsDelegateMessageInvocationBuffer;
+- (void)_useContentDimensionVariablesForConstraintLowering;
+- (void)_activeRenamerSession;
 - (void)witchToggleBlock;
 - (id);
 - (id)º;
@@ -69,18 +62,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setConfiguration:) UIButtonConfiguration *_configuration; // @synthesize _configuration;
-@property(retain, nonatomic) UIButtonConfiguration *_defaultConfiguration; // @synthesize _defaultConfiguration;
-@property(nonatomic, setter=_setEnabled:) _Bool _enabled; // @synthesize _enabled;
-@property(copy, nonatomic, setter=_setMenu:) UIMenu *_menu; // @synthesize _menu;
-@property(nonatomic, setter=_setMinimumSize:) struct CGSize _minimumSize; // @synthesize _minimumSize;
-@property(copy, nonatomic, setter=_setPrimaryAction:) UIAction *_primaryAction; // @synthesize _primaryAction;
-@property(nonatomic, setter=_setRole:) long long _role; // @synthesize _role;
-@property(retain, nonatomic) UIButtonConfiguration *configuration;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) UIMenu *menu;
-@property(nonatomic) struct CGSize minimumSize;
-@property(copy, nonatomic) UIAction *primaryAction;
-@property(nonatomic) long long role;
 
 @end
 

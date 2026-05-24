@@ -9,44 +9,48 @@
 @interface NSCarbonWindow : NSWindow
 {
     struct OpaqueWindowPtr *_windowRef;
-    _Bool _windowRefIsOwned;
-    CDUnknownFunctionPointerType _handleEventUPP;
-    struct OpaqueEventHandlerRef *_eventHandler;
-    _Bool _passingCarbonWindowActivationEvents;
-    _Bool _forceNotKeyWindowForInputContext;
-    _Bool _handlingCarbonWindowActivationEvents;
-    unsigned int _cwFlags;
 }
 
-+ (void);
++ (void)set_connectionTiming:(struct OpaqueWindowPtr *)arg1;
 + (Class);
 - (_Bool);
 - (struct OpaqueWindowPtr *);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned char);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)@"NSError";
+- (void)set_disablesOutOfProcessDirectWiFiUsage:(id)arg1;
+- (_Bool)set_TLSMaximumSupportedProtocolVersion: /* Error: Ran out of types for this method. */;
+- (_Bool)domainResolutionProtocol;
+- (_Bool)AVAssetDownloadTaskForURLAsset:destinationURL:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)U;
 - (struct CGRect);
 - (struct CGRect);
 - (unsigned int);
 - (_Bool);
 - (void);
+- (void)Connection(%p);
+- (Class)ateAssetDownloadTask does not support originalRequest property;
+- (void)fline.;
+- (void)cceeiioo0	00(01	11(12	22(2a	aa(a00
+0000)08011
+1111)18122
+2222)282aa
+aaaa)a8ac	cc(ce	ee(ei	ii(io	oo(occ
+cccc)c8cee
+eeee)e8eii
+iiii)i8ioo
+oooo)o8osstt;
 - (void);
-- (Class);
 - (void);
 - (void);
 - (void);
@@ -54,10 +58,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (_Bool);
@@ -68,7 +69,7 @@
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (_Bool);
 - (void);
@@ -76,7 +77,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (void);
@@ -86,8 +87,8 @@
 × ;
 - (void)
 × ;
-- (void)w:forwardingAxis: /* Error: Ran out of types for this method. */;
-- (void)nimumSegmentSizeWithOptions:(id)arg1;
+- (void)constantDataWithScrollView:forwardingAxis: /* Error: Ran out of types for this method. */;
+- (void)_minimumSegmentSizeWithOptions:(id)arg1;
 - (void);
 - (_Bool)«G;
 - (void)hõG;

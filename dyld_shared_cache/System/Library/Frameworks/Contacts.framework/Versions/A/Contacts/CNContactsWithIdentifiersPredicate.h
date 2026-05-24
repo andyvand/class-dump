@@ -6,44 +6,36 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CNContactsWithIdentifiersPredicate : CNPredicate
 {
     NSMutableDictionary *_internalIdentifiers;
-    NSArray *_identifiers;
 }
 
 + (_Bool);
+- (id)setOverriddenInterfaceCostInexpensive:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)e - ;
+- (id)18IMSWrapperDelegate;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)_item:(id)arg1 isCollectionRootForObservedItemID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)nfigData;
 - (id);
 - (void)?@"NSError">32;
 - (id)d its snapshot should both be non-unified.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly) Class superclass;
 
 @end
 

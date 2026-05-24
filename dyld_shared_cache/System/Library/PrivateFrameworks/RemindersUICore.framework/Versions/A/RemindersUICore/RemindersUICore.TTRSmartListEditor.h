@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRSmartListEditor
 {
     id changeItem;
-    id undoContext;
-    id unitTest_oneShotSyncSaveForUndo;
 }
 
 @end

@@ -8,12 +8,12 @@
 {
 }
 
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)@0:(id)arg1 8q16@24@32;
++ (void)tent"24@?<v@?BB>32;
++ (id):(_Bool)arg1 8@"NSString"16@"NSError"24;
++ (id)4;
++ (void)4@0:8Q16 /* Error: Ran out of types for this method. */;
++ (id)willStartWithSession: /* Error: Ran out of types for this method. */;
 + (id);
 
 @end

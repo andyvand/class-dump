@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventCommuteWindow
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_predictedDestinations;
-    double _startTime;
-    unsigned int _duration;
-    int _endReason;
-    unsigned int _numberOfAlertingResponses;
-    unsigned int _numberOfDoomRoutingRequests;
-    unsigned int _predictedExitTime;
-    struct {
-        unsigned int has_startTime:1;
-        unsigned int has_duration:1;
-        unsigned int has_endReason:1;
-        unsigned int has_numberOfAlertingResponses:1;
-        unsigned int has_numberOfDoomRoutingRequests:1;
-        unsigned int has_predictedExitTime:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool):(id)arg1;
++ (Class);
++ (_Bool)setHasSignedIntoIcloud:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -46,10 +31,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (int);
+- (void)dateFormat;
+- (void)_events;
+- (void)F;
+- (int)ABUseExtraTokenizations;
 - (void);
 - (id);
 - (double);
@@ -66,9 +51,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (int)meInterval: /* Error: Ran out of types for this method. */;
-- (_Bool)ty: /* Error: Ran out of types for this method. */;
+- (id)setRichProviderId:(struct _NSZone *)arg1;
+- (int)dateByAddingTimeInterval: /* Error: Ran out of types for this method. */;
+- (_Bool)attributionForPlaceDataEntity: /* Error: Ran out of types for this method. */;
 - (id)fo",R,N,V_enrichmentInfo;
 - (id)ecksum not found in extended attributes for '%{private}@'. Calculating instead...;
 - (id)´;
@@ -78,20 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int duration;
-@property(nonatomic) int endReason;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasEndReason;
-@property(nonatomic) _Bool hasNumberOfAlertingResponses;
-@property(nonatomic) _Bool hasNumberOfDoomRoutingRequests;
-@property(nonatomic) _Bool hasPredictedExitTime;
 @property(nonatomic) _Bool hasStartTime;
-@property(nonatomic) unsigned int numberOfAlertingResponses;
-@property(nonatomic) unsigned int numberOfDoomRoutingRequests;
-@property(retain, nonatomic) NSMutableArray *predictedDestinations;
-@property(nonatomic) unsigned int predictedExitTime;
-@property(nonatomic) double startTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

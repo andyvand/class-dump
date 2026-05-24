@@ -11,7 +11,7 @@
     id <RBBundlePropertiesLSProviderDelegate> _delegate;
 }
 
-- (id);
+- (id)utableArray",R,N,V_longSystemwideClientDrawableIntervals;
 - (id);
 - (id);
 - (void);

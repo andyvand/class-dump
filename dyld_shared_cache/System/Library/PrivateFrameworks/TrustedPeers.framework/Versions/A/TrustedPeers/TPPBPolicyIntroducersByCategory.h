@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TPPBPolicyIntroducersByCategory
 {
     NSString *_category;
-    NSMutableArray *_introducers;
 }
 
 + (Class);
 + (id);
 - (void);
-- (id);
+- (id)a";
 - (unsigned long long);
 - (id);
 - (void);
@@ -26,18 +25,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)d 4 bytes;
+- (id), but no handler registered for this data
+;
+- (id){ptr}] (%s) that empty data packet is available
+;
+- (_Bool)rMediaRemoteSoftLinking.h;
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *category; // @synthesize category=_category;
 @property(readonly, nonatomic) _Bool hasCategory;
-@property(retain, nonatomic) NSMutableArray *introducers; // @synthesize introducers=_introducers;
 
 @end
 

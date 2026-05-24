@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSCFDictionary : NSMutableDictionary
 {
     unsigned char _cfinfo[4];
-    unsigned int _rc;
-    unsigned int _bits[4];
-    void *_callbacks;
-    id *_values;
-    id *_keys;
 }
 
 + (_Bool);
@@ -28,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)Dispatch Threadgroups With Indirect Buffer Validation;
+- (_Bool);
+- (id)ć;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void)onicalizedPathCacheLock;
+- (void)_uncanonicalizedPathCacheLock;
 - (void)
 ;
 - (unsigned long long);

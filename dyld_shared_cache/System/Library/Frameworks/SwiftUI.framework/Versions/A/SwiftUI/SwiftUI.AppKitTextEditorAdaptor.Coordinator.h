@@ -9,17 +9,14 @@
 @interface SwiftUI.AppKitTextEditorAdaptor.Coordinator : SwiftUI.AppKitTextEditorCoordinatorBase
 {
     id text;
-    id selection;
-    id selectionStorage;
-    id undoManager;
 }
 
 - (id);
 - (void);
 - (void);
+- (id)deleteRecoveryKeyForVolumeID:(id)arg1 serialNumber:(id)arg2 completion:(id)arg3;
 - (id);
-- (id);
-- (void);
+- (void)mentouA;
 - (void)ÙY7ÐÿÉY7Ôÿ;
 
 @end

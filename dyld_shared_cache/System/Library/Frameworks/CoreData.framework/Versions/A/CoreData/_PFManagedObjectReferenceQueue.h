@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext;
-
 __attribute__((visibility("hidden")))
 @interface _PFManagedObjectReferenceQueue
 {
     int _cd_rc;
-    struct os_unfair_lock_s _spinLock;
-    int _flags;
-    int _signalRunloop;
-    NSManagedObjectContext *_context;
-    struct __CFArray *_queue;
-    struct __CFRunLoopObserver *_rlObserver;
-    int _processing;
 }
 
 - (unsigned long long);
 - (void);
-- (oneway void);
+- (oneway void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)H;
 
 @end
 

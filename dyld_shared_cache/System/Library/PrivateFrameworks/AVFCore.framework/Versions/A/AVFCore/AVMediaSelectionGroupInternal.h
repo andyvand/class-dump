@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSString;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVMediaSelectionGroupInternal
 {
     AVWeakReference *weakReference;
-    NSString *currentBundleIdentifier;
 }
 
 @end

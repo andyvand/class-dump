@@ -6,49 +6,26 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSArray, NSLayoutXAxisAnchor, NSMapTable, NSMutableSet, NSOrderedSet, NSTouchBarItemContainerView, NSTouchBarItemTree, NSTouchBarLayout;
+@class NSTouchBarItemTree;
 
 @interface NSTouchBarView : NSView
 {
     NSTouchBarItemTree *_itemTree;
-    NSMapTable *_itemsToViews;
-    NSMapTable *_oldBarsToIdentifiers;
-    NSMapTable *_newBarsToIdentifiers;
-    NSArray *_visibleBars;
-    NSArray *_arrangedViews;
-    NSMutableSet *_detachedViews;
-    NSOrderedSet *_centerViews;
-    NSLayoutXAxisAnchor *_visualCenterAnchor;
-    NSTouchBarLayout *_layoutManager;
-    NSMapTable *_itemsToAttributes;
-    double _defaultItemPadding;
-    NSTouchBarItemContainerView *_itemChangingPositions;
-    _Bool _isMissingEscKeyReplacement;
-    unsigned int _layingOut:1;
-    unsigned int _suppressesTransitionAnimations:1;
-    unsigned int _arrangedViewsNeedsUpdate:1;
-    unsigned int _isInCustomizationPalette:1;
-    unsigned int _requiresTrueCenterLayout:1;
-    unsigned int _overlayRequiresTrueCenterLayout:1;
-    _Bool _requiresReducedMetricsCompression;
-    CALayer *_clipIndicator;
-    CALayer *_escIndicator;
-    struct CGRect _contentRect;
 }
 
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)ingle, SysConfigData *__single);
+- (id)DecodeSysConfig3ParseAndPopulateMetadataSequence(DERDecodedInfo *__single, _Bool *__single, void *__single);
+- (id)DeviceSupportsGammaContrastPreservation;
+- (_Bool)4fh9efw4o1yaFqkXNCXoeA;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (id);
 - (_Bool);
@@ -57,44 +34,36 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)set_connectionPoolName:(id)arg1;
+- (void)setHTTPShouldUsePipelining: /* Error: Ran out of types for this method. */;
+- (void)checked__didReceiveDownloadResponse;
+- (void)_local_immutable_configuration_ivar;
+- (void)a",R,C;
+- (void)ateInterval",R,C;
+- (_Bool)_NSURLAppSSOProtocol;
 - (void);
+- (void)since in an error state with no error and no connection;
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)kCFHTTPAuthenticationPropertyMethod;
+- (void)RROR:(id)arg1 NSURLStorageURLCacheDB _setDBSchema:DB=%@ response create - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)";
 - (id);
 - (void);
-- (id)ickness:(struct CGRect)arg1;
+- (id)setRuleThickness:(struct CGRect)arg1;
 - (void)atingVisibleRows.;
 - (void)MOV;
-- (void)ionMinInset;
+- (void)NSTouchBarInsetMitigationMinInset;
 
 // Remaining properties
-@property _Bool allowsTransitionAnimations;
 @property double defaultItemPadding; // @synthesize defaultItemPadding=_defaultItemPadding;
-@property _Bool isInCustomizationPalette;
-@property(copy) NSTouchBarItemTree *itemTree;
-@property(readonly) _Bool layingOutSubviews;
-@property(getter=isMissingEscKeyReplacement) _Bool missingEscKeyReplacement; // @synthesize missingEscKeyReplacement=_isMissingEscKeyReplacement;
-@property _Bool requiresReducedMetricsCompression; // @synthesize requiresReducedMetricsCompression=_requiresReducedMetricsCompression;
-@property(retain) NSArray *touchBars;
-@property(readonly) NSLayoutXAxisAnchor *visualCenterXAnchor;
 
 @end
 

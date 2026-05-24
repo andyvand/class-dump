@@ -6,13 +6,11 @@
 
 #import <AuthKit/AKSimpleProfileContext.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AKSimpleProfileContextCreate : AKSimpleProfileContext
 {
     NSString *_profileName;
-    NSNumber *_imageID;
-    long long _ageCategory;
 }
 
 + (_Bool);
@@ -20,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`1;
 - (id);
 - (void);
 - (void);
@@ -30,10 +28,7 @@
 íS<ÄGñ_0ïqËÃ	. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long ageCategory; // @synthesize ageCategory=_ageCategory;
-@property(retain, nonatomic) NSNumber *imageID; // @synthesize imageID=_imageID;
 @property(copy, nonatomic) NSString *profileName; // @synthesize profileName=_profileName;
-@property(readonly, copy, nonatomic) NSString *sponsorAltDSID;
 
 @end
 

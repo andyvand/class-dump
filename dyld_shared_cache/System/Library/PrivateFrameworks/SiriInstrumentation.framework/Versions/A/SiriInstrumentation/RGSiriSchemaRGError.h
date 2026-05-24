@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface RGSiriSchemaRGError : SISchemaInstrumentationMessage
 {
     NSString *_errorDomain;
-    int _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorDomain;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)3llu since boot );
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDDebug_macOS.m:42 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)sync_deleted_attachments;
+- (id)the notification request %@;
 - (id);
 - (id);
-- (id);
-- (id)erpolationWeights:(id)arg1;
+- (id)addLanguageModelInterpolationWeights:(id)arg1;
 - (id)t;
-- (void)NICATIONPROTOCOL_MATTER;
-- (void)onDisambiguationsLastTwoMinutes;
+- (void)HKACCESSORYCOMMUNICATIONPROTOCOL_MATTER;
+- (void)numActionDisambiguationsLastTwoMinutes;
 - (int)|¤Õÿ=³²z#;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

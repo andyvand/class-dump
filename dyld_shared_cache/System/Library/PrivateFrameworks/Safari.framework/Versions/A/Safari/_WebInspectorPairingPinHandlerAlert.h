@@ -6,36 +6,23 @@
 
 #import <Safari/Alert.h>
 
-@class AKPinFieldView, NSDictionary, NSString, RWITarget;
+@class AKPinFieldView, RWITarget;
 
 __attribute__((visibility("hidden")))
 @interface _WebInspectorPairingPinHandlerAlert : Alert
 {
     AKPinFieldView *_pinField;
-    CDUnknownBlockType _pinHandler;
-    RWITarget *_target;
-    long long _reason;
-    NSDictionary *_options;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (void)¸;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) RWITarget *target; // @synthesize target=_target;
 
 @end

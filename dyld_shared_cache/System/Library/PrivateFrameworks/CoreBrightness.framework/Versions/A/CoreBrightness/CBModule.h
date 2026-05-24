@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
-
 __attribute__((visibility("hidden")))
 @interface CBModule
 {
     CDUnknownBlockType _notificationBlock;
-    NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)S(,;
 
 @end
 

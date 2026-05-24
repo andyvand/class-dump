@@ -9,7 +9,6 @@
 @interface _DPTokenFetcher
 {
     NSString *_taskName;
-    unsigned long long _taskPeriodSeconds;
 }
 
 + (unsigned long long);
@@ -19,12 +18,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)t over XPC;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *taskName; // @synthesize taskName=_taskName;
-@property(nonatomic) unsigned long long taskPeriodSeconds; // @synthesize taskPeriodSeconds=_taskPeriodSeconds;
 
 @end
 

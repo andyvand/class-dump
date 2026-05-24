@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardFloatingTransitionState
 {
     UIView *_inputView;
-    double _borderWidth;
-    UIColor *_borderColor;
-    double _cornerRadius;
-    struct CGPoint _scale;
-    struct CGRect _inputViewFrame;
-    struct CGRect _platterViewFrame;
-    struct UIEdgeInsets _platterInsets;
-    struct CGAffineTransform _initialInputViewTransform;
-    struct CGAffineTransform _finalInputViewTransform;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct UIEdgeInsets);
-- (struct CGRect);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
-- (void);
+- (void)ed, returning forced junk result instead of performing TrustKit inference;
+- (void)ollaborationIdentifier:(struct CGAffineTransform)arg1 %s, %@;
+- (void)bool}d] incoming [%s %s rcptVer %ld hadQOI %{bool}d];
+- (struct CGRect)ommand %@;
+- (struct UIEdgeInsets)d message update command processing;
+- (struct CGRect)on service %@ with context %@;
+- (struct CGAffineTransform)d again on next sync;
+- (struct CGAffineTransform)ansfer name:%@ /* Error: Ran out of types for this method. */;
+- (void)ensureLayoutForTextContainer:(double)arg1;
 - (struct CGPoint);
 - (void)chor",R,N,V_centerYAnchor;
 - (id)p$4x,<¼Ü;
 - (void);
-- (double)ment;
+- (double)ButtonBarElement;
 - (id)PaÒìZ[;
 - (void)<ª^;
 - (double)£a;
@@ -44,16 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) struct CGAffineTransform finalInputViewTransform; // @synthesize finalInputViewTransform=_finalInputViewTransform;
-@property(nonatomic) struct CGAffineTransform initialInputViewTransform; // @synthesize initialInputViewTransform=_initialInputViewTransform;
 @property(retain, nonatomic) UIView *inputView; // @synthesize inputView=_inputView;
-@property(nonatomic) struct CGRect inputViewFrame; // @synthesize inputViewFrame=_inputViewFrame;
-@property(nonatomic) struct UIEdgeInsets platterInsets; // @synthesize platterInsets=_platterInsets;
-@property(nonatomic) struct CGRect platterViewFrame; // @synthesize platterViewFrame=_platterViewFrame;
-@property(nonatomic) struct CGPoint scale; // @synthesize scale=_scale;
 
 @end
 

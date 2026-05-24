@@ -9,19 +9,16 @@
 @interface IKCacheDatabaseUIDInfo
 {
     IKImageWrapper *_image;
-    unsigned long long _version;
-    unsigned long long _index;
-    _Bool _invalid;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ntifier:(id)arg1 ];
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)9;
 - (unsigned long long);
-- (void);
+- (void)o;
 - (void)|;
 
 @end

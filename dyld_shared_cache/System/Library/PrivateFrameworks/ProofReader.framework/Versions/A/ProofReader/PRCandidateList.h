@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, PRErrorModel;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface PRCandidateList
 {
     NSMutableArray *_candidates;
-    unsigned long long _maxCount;
-    struct _NSRange _defaultReplacementRange;
-    PRErrorModel *_errorModel;
-    NSArray *_capitalizationDictionaryArray;
 }
 
 - (id);
@@ -29,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

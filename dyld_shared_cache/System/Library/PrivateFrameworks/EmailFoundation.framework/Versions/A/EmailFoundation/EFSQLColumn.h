@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
-
 @interface EFSQLColumn
 {
     long long _index;
-    struct sqlite3_stmt *_statement;
 }
 
 - (id);
-- (id);
-- (_Bool);
+- (id)logClassNamed:(struct sqlite3_stmt *)arg1;
+- (_Bool)_checkAndSaveImageData:sourceURL:inFormat:withMaxByteSize:actualSize:usedLengthIndex:currentIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (long long);
@@ -30,19 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool boolValue;
-@property(readonly, copy, nonatomic) NSData *dataValue;
-@property(readonly, nonatomic) long long databaseIDValue;
-@property(readonly, nonatomic) NSDate *dateValue;
-@property(readonly, nonatomic) double doubleValue;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) long long int64Value;
-@property(readonly, nonatomic) long long integerValue;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSNumber *numberValue;
-@property(readonly, copy, nonatomic) id objectValue;
 @property(readonly, nonatomic) struct sqlite3_stmt *statement; // @synthesize statement=_statement;
-@property(readonly, copy, nonatomic) NSString *stringValue;
 
 @end
 

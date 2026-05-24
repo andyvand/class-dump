@@ -13,9 +13,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)_didReceiveDistributedNotification: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 
 @end
 

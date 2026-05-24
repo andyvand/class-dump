@@ -10,21 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSCGSWindowCornerImageMask : NSCGSWindowCornerMask
 {
     struct CGImage *_image;
-    double _imageScale;
-    struct CGRect _center;
-    _Bool _hasTrivialEdges;
-    _Bool _clipsWindowContents;
-    _Bool _definesShadowShape;
-    double _cornerRadius;
-    struct CGImage *_cachedImage;
-    double _cachedImageScale;
 }
 
-- (id);
+- (id)8O;
 - (struct CGImage *);
+- (_Bool)= %d;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)h;
 - (struct CGPath *)}};
 - (double)ectory.tLhrrW/Sources/AppKit/AppKit.subproj/NSRulerView.m;
 

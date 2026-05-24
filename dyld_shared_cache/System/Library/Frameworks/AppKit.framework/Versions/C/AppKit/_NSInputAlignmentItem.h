@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol NSInputAlignmentItem;
 
 @interface _NSInputAlignmentItem
 {
     id <NSInputAlignmentItem> _item;
-    NSArray *_representativeGuides;
 }
 
 - (void);

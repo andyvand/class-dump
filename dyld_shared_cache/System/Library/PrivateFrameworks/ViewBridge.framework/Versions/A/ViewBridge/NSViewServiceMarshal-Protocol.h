@@ -5,5 +5,10 @@
 //
 
 @protocol NSViewServiceMarshal
+- (void)T);
+- (void);
+- (void);
+- (void)jN;
+- (void);
 @end
 

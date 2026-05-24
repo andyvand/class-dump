@@ -6,18 +6,15 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString, _UIRepeatingGestureClock;
+@class _UIRepeatingGestureClock;
 
 @interface _UIRepeatingPressGestureRecognizer : UIGestureRecognizer
 {
     unsigned long long _numberOfTouchesRequired;
-    double _force;
-    unsigned long long _changeCount;
-    _UIRepeatingGestureClock *_clock;
 }
 
 - (void);
-- (void);
+- (void)Centralized Cache Delete for %@;
 - (double);
 - (long long);
 - (void);
@@ -27,11 +24,11 @@
 - (void);
 - (id)iew"16@"UIMenu"24;
 - (void)requiresColorStatistics;
-- (void)raitOverrideWithSectionContentInsets:(id)arg1;
-- (void)ctiveThemeChangeFromTraitCollection:(id)arg1;
+- (void)_updateListEnvironmentTraitOverrideWithSectionContentInsets:(id)arg1;
+- (void)_forceEffectiveThemeChangeFromTraitCollection:(id)arg1;
 - (_Bool)NSExtension",&,N,V_photosExtension;
 - (_Bool)ÌÊ¤ËÏ;
-- (id)es;
+- (id)surfaces;
 - (void);
 - (void); supplementary view:(id)arg1 %@;
 - (void)%d_barStyle:(id)arg1 %d_searchBarStyle:(id)arg2 %lu_backdropStyle:%lu /* Error: Ran out of types for this method. */;
@@ -42,18 +39,7 @@
 - (void)¤x×ÿ´ëË;
 
 // Remaining properties
-@property(nonatomic, setter=_setButtonType:) long long _buttonType;
-@property(readonly, nonatomic) double _force; // @synthesize _force;
-@property(nonatomic) unsigned long long changeCount; // @synthesize changeCount=_changeCount;
 @property(retain, nonatomic) _UIRepeatingGestureClock *clock; // @synthesize clock=_clock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long numberOfTouchesRequired; // @synthesize numberOfTouchesRequired=_numberOfTouchesRequired;
-@property(readonly) Class superclass;
 
 @end
 

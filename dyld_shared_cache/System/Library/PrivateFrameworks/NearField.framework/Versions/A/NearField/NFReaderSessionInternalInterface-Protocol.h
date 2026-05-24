@@ -5,5 +5,14 @@
 //
 
 @protocol NFReaderSessionInternalInterface
+- (oneway void)ACTION_SHOW_SUGGESTED_FROM_INFO;
+- (oneway void)CNPostalAddressSubLocalityKey(void);
+- (oneway void)kABConverterTitleKey;
+- (oneway void)KeyToObjectDictionary;
+- (oneway void)SDate"16@?0@"ABPersonEntry"8;
+- (oneway void)dar-name-%@;
+- (oneway void).xbs/TemporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBookUI/ABAllSmartGroup.m;
+- (oneway void)ABUserActivityConstants.m;
+- (oneway void)ntriesFactory.m;
 @end
 

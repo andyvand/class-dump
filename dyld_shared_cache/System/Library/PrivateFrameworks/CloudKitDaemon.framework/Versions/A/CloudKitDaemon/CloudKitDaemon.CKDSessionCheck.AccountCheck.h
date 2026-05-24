@@ -7,11 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.AccountCheck
 {
     id sessionConfiguration;
-    id entitlements;
-    id testDeviceReferenceProtocol;
-    id actor;
-    id tccChecker;
-    id accountFactory;
 }
 
 @end

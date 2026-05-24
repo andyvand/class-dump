@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary;
+@class NSCache;
 
 @interface WBSFaviconProviderPrivateCache
 {
     NSCache *_uuidToImageDataCache;
-    NSMutableDictionary *_pageURLStringToIconInfoDict;
-    NSMutableDictionary *_iconURLStringToIconInfoDict;
-    NSMutableDictionary *_urlStringToRejectedResourceIconInfoDict;
 }
 
 - (void);
@@ -26,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)es: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (void)mobileAssetController:didBecomeAvailable:withAttributes: /* Error: Ran out of types for this method. */;
 
 @end
 

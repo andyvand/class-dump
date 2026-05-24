@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, WBSReaderFontManager;
+@class NSDictionary;
 
 @interface WBSReaderConfigurationManager
 {
     long long _theme;
-    NSMutableDictionary *_fontFamilyNameForLanguageTag;
-    WBSReaderFontManager *_fontManager;
-    _Bool _prefersLargerDefaultFontSize;
-    _Bool _javaScriptEnabled;
-    _Bool _isOLEDDisplay;
-    long long _textZoomIndex;
 }
 
 - (void);
@@ -31,27 +25,20 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)0;
 - (long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)rds;
+- (void)percentageOfFlaggedPasswords;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canMakeTextBigger;
-@property(readonly, nonatomic) _Bool canMakeTextSmaller;
 @property(readonly, nonatomic) NSDictionary *configurationToSave;
-@property(readonly, nonatomic) NSDictionary *configurationToSendToWebPage;
-@property(nonatomic) _Bool isOLEDDisplay; // @synthesize isOLEDDisplay=_isOLEDDisplay;
-@property(nonatomic) _Bool javaScriptEnabled; // @synthesize javaScriptEnabled=_javaScriptEnabled;
-@property(readonly, nonatomic) _Bool resettingTextSizeWouldHaveEffect;
-@property(nonatomic) long long textZoomIndex; // @synthesize textZoomIndex=_textZoomIndex;
 
 @end
 

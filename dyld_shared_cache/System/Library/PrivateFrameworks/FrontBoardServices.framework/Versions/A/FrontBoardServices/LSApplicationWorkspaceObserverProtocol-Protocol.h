@@ -5,5 +5,11 @@
 //
 
 @protocol LSApplicationWorkspaceObserverProtocol
+
+@optional
+- (void);
+- (void)y;
+- (void)`;
+- (void));
 @end
 

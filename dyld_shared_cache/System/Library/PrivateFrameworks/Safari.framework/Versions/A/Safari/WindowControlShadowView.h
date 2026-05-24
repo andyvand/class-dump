@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImageView;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface WindowControlShadowView
 {
     NSImageView *_shadowImageView;
-    NSArray *_controlRelativeFrames;
 }
 
 + (id);

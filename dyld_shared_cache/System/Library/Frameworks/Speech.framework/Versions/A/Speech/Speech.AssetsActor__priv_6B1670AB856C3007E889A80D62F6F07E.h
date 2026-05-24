@@ -7,13 +7,6 @@
 @interface Speech.AssetsActor__priv_6B1670AB856C3007E889A80D62F6F07E
 {
     id $defaultActor;
-    id assetConfig;
-    id clientID;
-    id modelOverridePath;
-    id isSpelling;
-    id shouldSubscribe;
-    id _assetsService;
-    id _modelProperties;
 }
 
 @end

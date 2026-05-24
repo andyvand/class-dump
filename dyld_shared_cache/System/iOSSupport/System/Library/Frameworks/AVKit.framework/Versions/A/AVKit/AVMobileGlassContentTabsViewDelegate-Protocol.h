@@ -5,5 +5,9 @@
 //
 
 @protocol AVMobileGlassContentTabsViewDelegate
+
+@optional
+- (void);
+- (void)P;
 @end
 

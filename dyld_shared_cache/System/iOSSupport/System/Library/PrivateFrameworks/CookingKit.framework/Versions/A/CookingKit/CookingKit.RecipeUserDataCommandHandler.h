@@ -8,8 +8,6 @@
 {
     id _recipeFeaturesConfiguration;
     id state;
-    id _$scope;
-    id manager;
 }
 
 @end

@@ -7,15 +7,6 @@
 @interface PhotosGraph.PGSharedLibrarySimulationParameter
 {
     id name;
-    id librarySelectionAutoOnResetTimeout;
-    id librarySelectionUserChoiceResetTimeout;
-    id librarySelectionTripResetTimeout;
-    id librarySelectionSameLocationResetTimeout;
-    id maximumVelocityInKmhToResetAfterLaunch;
-    id distanceThresholdForSameEvent;
-    id minDistanceThresholdForHomeLocation;
-    id maxDistanceThresholdForHomeLocation;
-    id minDistanceThresholdForTripLocation;
 }
 
 @end

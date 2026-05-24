@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__VKKeyboardCameraGuidanceViewAccessibility_super;
 + (void);
 - (void);
 - (void);

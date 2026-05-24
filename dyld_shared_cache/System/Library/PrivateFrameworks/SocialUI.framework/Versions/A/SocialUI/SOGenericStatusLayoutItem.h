@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMTranscriptBubbleSizeCache, IMTranscriptChatItem, NSString, SOGenericStatusItemCollectionViewItem;
+@class SOGenericStatusItemCollectionViewItem;
 @protocol SOGenericStatusLayoutItemDelegate;
 
 @interface SOGenericStatusLayoutItem
 {
     SOGenericStatusItemCollectionViewItem *_referenceViewController;
-    IMTranscriptBubbleSizeCache *_bubbleSizeCache;
-    IMTranscriptChatItem *_chatTranscriptItem;
-    id <SOGenericStatusLayoutItemDelegate> _delegate;
-    struct NSEdgeInsets _textMargins;
 }
 
 + (id);
@@ -23,25 +19,14 @@
 - (long long);
 - (struct CGSize);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
 - (long long)1;
 
 // Remaining properties
-@property(retain, nonatomic) IMTranscriptChatItem *chatTranscriptItem; // @synthesize chatTranscriptItem=_chatTranscriptItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SOGenericStatusLayoutItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long layoutClassification;
-@property(readonly, nonatomic) long long layoutOrientation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_textMargins) struct NSEdgeInsets textMargins; // @synthesize textMargins=_textMargins;
 
 @end
 

@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (void)ocationGroupAnimated: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_addShareLocationGroupAnimated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) GKContactRelationshipResult *relationshipResult; // @synthesize relationshipResult=_relationshipResult;

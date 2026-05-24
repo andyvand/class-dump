@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, PXExtendedTraitCollection;
+@class PXExtendedTraitCollection;
 
 @interface PXStoryChromeButtonSpec
 {
     _Bool _shouldDimWhenHighlighted;
-    PXExtendedTraitCollection *_extendedTraitCollection;
-    double _systemImageSizeWithoutBackground;
-    double _systemImageSizeWithBackground;
-    double _systemImageWeightWithoutBackground;
-    double _systemImageWeightWithBackground;
-    long long _systemImageScale;
-    double _badgeSystemImageWeight;
-    NSColor *_defaultTintColor;
-    NSColor *_defaultFocusedTintColor;
-    NSDictionary *_labelAttributes;
-    long long _blurEffectStyle;
-    long long _highlightedBlurEffectStyle;
-    long long _textOnlyBlurEffectStyle;
-    double _roundedRectCornerRadius;
-    long long _systemImageStyle;
-    double _shadowRadius;
-    double _focusedShadowOpacity;
-    long long _backgroundStyle;
-    struct CGSize _defaultImageSize;
-    struct CGSize _badgeImageSize;
-    struct CGSize _focusedShadowOffset;
-    struct NSEdgeInsets _labelPadding;
 }
 
 - (long long);
@@ -51,39 +29,17 @@
 - (double);
 - (id);
 - (double);
-- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (long long);
+- (long long)j@;
 - (id);
 - (void)qdÿ@;
 - (long long);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(readonly, nonatomic) struct CGSize badgeImageSize; // @synthesize badgeImageSize=_badgeImageSize;
-@property(readonly, nonatomic) double badgeSystemImageWeight; // @synthesize badgeSystemImageWeight=_badgeSystemImageWeight;
-@property(readonly, nonatomic) long long blurEffectStyle; // @synthesize blurEffectStyle=_blurEffectStyle;
-@property(readonly, nonatomic) NSColor *defaultFocusedTintColor; // @synthesize defaultFocusedTintColor=_defaultFocusedTintColor;
-@property(readonly, nonatomic) struct CGSize defaultImageSize; // @synthesize defaultImageSize=_defaultImageSize;
-@property(readonly, nonatomic) NSColor *defaultTintColor; // @synthesize defaultTintColor=_defaultTintColor;
 @property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection; // @synthesize extendedTraitCollection=_extendedTraitCollection;
-@property(readonly, nonatomic) struct CGSize focusedShadowOffset; // @synthesize focusedShadowOffset=_focusedShadowOffset;
-@property(readonly, nonatomic) double focusedShadowOpacity; // @synthesize focusedShadowOpacity=_focusedShadowOpacity;
-@property(readonly, nonatomic) long long highlightedBlurEffectStyle; // @synthesize highlightedBlurEffectStyle=_highlightedBlurEffectStyle;
-@property(readonly, nonatomic) NSDictionary *labelAttributes; // @synthesize labelAttributes=_labelAttributes;
-@property(readonly, nonatomic) struct NSEdgeInsets labelPadding; // @synthesize labelPadding=_labelPadding;
-@property(readonly, nonatomic) double roundedRectCornerRadius; // @synthesize roundedRectCornerRadius=_roundedRectCornerRadius;
-@property(readonly, nonatomic) double shadowRadius; // @synthesize shadowRadius=_shadowRadius;
-@property(readonly, nonatomic) _Bool shouldDimWhenHighlighted; // @synthesize shouldDimWhenHighlighted=_shouldDimWhenHighlighted;
-@property(readonly, nonatomic) long long systemImageScale; // @synthesize systemImageScale=_systemImageScale;
-@property(readonly, nonatomic) double systemImageSizeWithBackground; // @synthesize systemImageSizeWithBackground=_systemImageSizeWithBackground;
-@property(readonly, nonatomic) double systemImageSizeWithoutBackground; // @synthesize systemImageSizeWithoutBackground=_systemImageSizeWithoutBackground;
-@property(readonly, nonatomic) long long systemImageStyle; // @synthesize systemImageStyle=_systemImageStyle;
-@property(readonly, nonatomic) double systemImageWeightWithBackground; // @synthesize systemImageWeightWithBackground=_systemImageWeightWithBackground;
-@property(readonly, nonatomic) double systemImageWeightWithoutBackground; // @synthesize systemImageWeightWithoutBackground=_systemImageWeightWithoutBackground;
-@property(readonly, nonatomic) long long textOnlyBlurEffectStyle; // @synthesize textOnlyBlurEffectStyle=_textOnlyBlurEffectStyle;
 
 @end
 

@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUBrushStroke;
-
 @interface PIBrushStrokeHistoryEntry
 {
     _Bool _closedShape;
-    _Bool _skipSegmentationIntersections;
-    _Bool _needsFacePixellation;
-    unsigned long long _entryType;
-    NUBrushStroke *_brushStroke;
-    double _subjectHitTestRadius;
-    struct CGPoint _objectRemovalPoint;
 }
 
 - (double);
 - (_Bool);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (void);
+- (void);
 - (struct CGPoint);
 - (_Bool);
 - (id);
@@ -31,20 +23,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)inearModelFromInnerDictionary:(unsigned long long)arg1 bad or missing keys for model.;
 - (unsigned long long);
 - (id);
 - (id);
-- (void)eLabel;
+- (void)platedFoodSceneLabel;
 
 // Remaining properties
-@property(retain, nonatomic) NUBrushStroke *brushStroke; // @synthesize brushStroke=_brushStroke;
-@property(nonatomic) _Bool closedShape; // @synthesize closedShape=_closedShape;
 @property(nonatomic) unsigned long long entryType; // @synthesize entryType=_entryType;
-@property(nonatomic) _Bool needsFacePixellation; // @synthesize needsFacePixellation=_needsFacePixellation;
-@property(nonatomic) struct CGPoint objectRemovalPoint; // @synthesize objectRemovalPoint=_objectRemovalPoint;
-@property(nonatomic) _Bool skipSegmentationIntersections; // @synthesize skipSegmentationIntersections=_skipSegmentationIntersections;
-@property(nonatomic) double subjectHitTestRadius; // @synthesize subjectHitTestRadius=_subjectHitTestRadius;
 
 @end
 

@@ -7,15 +7,14 @@
 @interface PPEvictingMinPriorityQueue
 {
     unsigned long long _capacity;
-    void *_queue;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)shouldAttemptMiCOnByDefaultWithError:retryFallback: /* Error: Ran out of types for this method. */;
+- (id)ee Container;
 - (unsigned long long);
 - (void);
 - (double);

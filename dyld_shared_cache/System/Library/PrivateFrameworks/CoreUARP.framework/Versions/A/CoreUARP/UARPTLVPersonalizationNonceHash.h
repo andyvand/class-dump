@@ -14,15 +14,15 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (unsigned int);
++ (id)}};
++ (id);
++ (unsigned int)s]:Starting task to download from remote path:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)NSSecureCoding_Temporary;
 - (void);
 
 // Remaining properties

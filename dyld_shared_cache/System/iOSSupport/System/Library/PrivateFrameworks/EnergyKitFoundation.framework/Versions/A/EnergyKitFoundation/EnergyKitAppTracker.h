@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSUUID;
+@class NSDictionary, NSString;
 
 @interface EnergyKitAppTracker
 {
@@ -15,9 +15,6 @@
 // Remaining properties
 @property(nonatomic, copy) NSString *appID; // @dynamic appID;
 @property(nonatomic, copy) NSDictionary *gridIDs; // @dynamic gridIDs;
-@property(nonatomic) _Bool includeCost; // @dynamic includeCost;
-@property(nonatomic, copy) NSDate *lastUpdated; // @dynamic lastUpdated;
-@property(nonatomic, copy) NSUUID *siteID; // @dynamic siteID;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScreen;
+@class UIScreen;
 
 __attribute__((visibility("hidden")))
 @interface _UIScreenFixedCoordinateSpace
@@ -24,14 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, setter=_setScreen:) UIScreen *_screen; // @synthesize _screen;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, NUAutoCalculator;
+@class NUAutoCalculator;
 
 @interface PAAutoCalculatorEntry
 {
     NUAutoCalculator *_calculator;
-    NSUUID *_operationUUID;
-    NSString *_operationIdentifier;
-    NSString *_autoIdentifier;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
@@ -21,19 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)__DATA;
 
 // Remaining properties
-@property(retain) NSString *autoIdentifier; // @synthesize autoIdentifier=_autoIdentifier;
 @property(retain) NUAutoCalculator *calculator; // @synthesize calculator=_calculator;
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain) NSString *operationIdentifier; // @synthesize operationIdentifier=_operationIdentifier;
-@property(retain) NSUUID *operationUUID; // @synthesize operationUUID=_operationUUID;
 
 @end
 

@@ -9,23 +9,19 @@
 @interface _CDInBedDetection
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    double _confidence;
 }
 
 - (double);
 - (id);
 - (id);
+- (void)@;
+- (double);
 - (void);
-- (double);
-- (void);
-- (void);
+- (void)`;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property double confidence; // @synthesize confidence=_confidence;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

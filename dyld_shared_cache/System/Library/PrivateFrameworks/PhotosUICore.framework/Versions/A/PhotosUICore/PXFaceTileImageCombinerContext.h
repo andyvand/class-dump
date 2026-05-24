@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface PXFaceTileImageCombinerContext
 {
     _Bool _isRTL;
-    _Bool _isAscending;
-    double _displayScale;
-    double _imageSize;
-    double _imageOffset;
-    NSColor *_backgroundColor;
-    NSColor *_borderColor;
-    double _borderWidth;
 }
 
 - (id);
@@ -23,22 +14,15 @@
 - (double);
 - (double)±<1Â0@ù
 × ;
-- (id)sFinalChapterCollectionBeenProduced;
+- (id)_hasFinalChapterCollectionBeenProduced;
 - (id);
-- (_Bool)nagerC;
+- (_Bool)So17CLLocationManagerC;
 - (double)eneration because there's unresolved ambiguity:%{sensitive}s, user query:`%{sensitive}s` /* Error: Ran out of types for this method. */;
 - (double)[;
 - (void),¶;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(readonly, nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
 @property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(readonly, nonatomic) double imageOffset; // @synthesize imageOffset=_imageOffset;
-@property(readonly, nonatomic) double imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, nonatomic) _Bool isAscending; // @synthesize isAscending=_isAscending;
-@property(readonly, nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
 
 @end
 

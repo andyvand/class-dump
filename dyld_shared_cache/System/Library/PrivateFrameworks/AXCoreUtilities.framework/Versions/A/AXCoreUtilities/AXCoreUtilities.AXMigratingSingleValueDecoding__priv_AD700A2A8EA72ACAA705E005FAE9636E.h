@@ -7,7 +7,6 @@
 @interface AXCoreUtilities.AXMigratingSingleValueDecoding__priv_AD700A2A8EA72ACAA705E005FAE9636E
 {
     id codingPath;
-    id data;
 }
 
 @end

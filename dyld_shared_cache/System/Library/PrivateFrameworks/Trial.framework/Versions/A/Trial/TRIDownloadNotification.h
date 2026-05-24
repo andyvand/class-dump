@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface TRIDownloadNotification
 {
     unsigned long long _type;
-    unsigned long long _progress;
-    NSError *_error;
 }
 
 + (void);
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id)_controlQueue;
++ (_Bool)nfig",R,N,V_availabilityConfig;
 + (id);
 + (id);
 + (_Bool);
@@ -36,16 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) unsigned long long progressMaxValue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

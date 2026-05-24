@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)_TtC16CallsAppServices30ParticipantContactDetailsCache;
+- (id);
 - (id);
 - (id);
 

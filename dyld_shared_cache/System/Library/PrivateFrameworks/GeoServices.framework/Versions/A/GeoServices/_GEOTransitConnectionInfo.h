@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOPDTransitConnection, NSArray, NSString, NSURL;
+@class GEOPDTransitConnection, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitConnectionInfo
 {
     GEOPDTransitConnection *_connection;
-    int _providerID;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)or is confident:%{private}d of the detected language:'%{private}@' with language code likelihood:%{private}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (int)¬BAq>?8L@;
 - (id)©àAA;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEOMapItemIdentifier *itemIdentifier;
-@property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) unsigned long long muid;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) int providerID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *urlToOpen;
 
 @end
 

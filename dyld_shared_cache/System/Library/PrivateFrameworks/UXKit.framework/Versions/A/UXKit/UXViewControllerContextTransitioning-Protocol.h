@@ -5,6 +5,7 @@
 //
 
 @protocol UXViewControllerContextTransitioning
+- (_Bool)otosIntelligenceCore;
 - (void);
 - (void)e>",W,D;
 

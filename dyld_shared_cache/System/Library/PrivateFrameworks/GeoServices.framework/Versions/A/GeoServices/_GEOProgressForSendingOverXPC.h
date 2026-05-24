@@ -6,16 +6,13 @@
 
 #import <GeoServices/_GEOMirroredProgress.h>
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface _GEOProgressForSendingOverXPC : _GEOMirroredProgress
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_xpc_object> *_endpoint;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_remoteConnections;
 }
 
 - (void);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)tegory_id;
+- (id)maps_alt_category_id;
 - (void);
 
 // Remaining properties

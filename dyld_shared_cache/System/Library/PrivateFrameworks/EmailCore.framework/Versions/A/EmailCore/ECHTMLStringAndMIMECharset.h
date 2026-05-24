@@ -5,17 +5,14 @@
 //
 
 @class NSString;
-@protocol ECMIMECharset;
 
 @interface ECHTMLStringAndMIMECharset
 {
     NSString *_string;
-    id <ECMIMECharset> _charset;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) id <ECMIMECharset> charset; // @synthesize charset=_charset;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 @end
 

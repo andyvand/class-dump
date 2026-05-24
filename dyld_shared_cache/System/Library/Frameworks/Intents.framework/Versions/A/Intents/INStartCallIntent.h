@@ -6,37 +6,15 @@
 
 #import <Intents/INIntent.h>
 
-@class INCallRecord, INCallRecordFilter, INStartCallRequestMetadata, NSArray, NSNumber, NSString;
-
 @interface INStartCallIntent : INIntent
 {
 }
 
-+ (id);
++ (id);
 + (_Bool);
 
 // Remaining properties
-@property(readonly) long long audioRoute;
-@property(readonly) long long callCapability;
-@property(copy) NSArray *callGroups;
-@property(readonly, copy) INCallRecordFilter *callRecordFilter;
-@property(readonly, copy) INCallRecord *callRecordToCallBack;
-@property(copy) INStartCallRequestMetadata *callRequestMetadata;
-@property(readonly, copy) NSArray *contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long destinationType;
-@property(copy) NSString *faceTimeLink;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *isGroupCall;
-@property(copy) NSString *notificationThreadIdentifier;
-@property long long preferredCallProvider;
-@property(readonly) long long recordTypeForRedialing;
-@property(readonly) Class superclass;
-@property(setter=setTTYType:) long long ttyType;
+@property long long recordTypeForRedialing;
 
 @end
 

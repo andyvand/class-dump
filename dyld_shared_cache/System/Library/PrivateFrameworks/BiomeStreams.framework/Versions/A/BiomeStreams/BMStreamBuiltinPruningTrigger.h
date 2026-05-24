@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSString;
 
 @interface BMStreamBuiltinPruningTrigger
 {
     NSString *_identifier;
-    NSPredicate *_triggerCondition;
-    NSPredicate *_pruningPredicate;
 }
 
 - (id);
@@ -18,14 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)i!ɚ;
 - (id);
 - (void)ÄÅÆ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSPredicate *pruningPredicate; // @synthesize pruningPredicate=_pruningPredicate;
-@property(readonly, nonatomic) NSPredicate *triggerCondition; // @synthesize triggerCondition=_triggerCondition;
 
 @end
 

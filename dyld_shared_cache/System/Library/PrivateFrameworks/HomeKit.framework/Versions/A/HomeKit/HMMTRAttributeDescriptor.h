@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSNumber;
 
 @interface HMMTRAttributeDescriptor
 {
     NSNumber *_nodeID;
-    NSSet *_attributePaths;
-    NSString *_controllerID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Tv;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)prosecutor;
 - (void);
 - (id);
 - (void)´S;
 
 // Remaining properties
-@property(readonly, copy) NSSet *attributePaths; // @synthesize attributePaths=_attributePaths;
-@property(readonly, copy) NSString *controllerID; // @synthesize controllerID=_controllerID;
 @property(readonly, copy) NSNumber *nodeID; // @synthesize nodeID=_nodeID;
 
 @end

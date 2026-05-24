@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MSHistoryEvDirectionsItem
 
 // Remaining properties
 @property(readonly, nonatomic) double requiredBatteryCharge;
-@property(readonly, copy, nonatomic) NSString *vehicleIdentifier;
 @end
 

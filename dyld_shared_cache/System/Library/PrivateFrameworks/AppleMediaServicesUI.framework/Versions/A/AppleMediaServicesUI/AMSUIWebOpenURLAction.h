@@ -6,18 +6,17 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebOpenURLAction : AMSUIWebAction
 {
     NSURL *_URL;
-    long long _type;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)Did not handle trial client did stop:%@ /* Error: Ran out of types for this method. */;
+- (id)>;
 - (void);
 - (id);
 - (long long);
@@ -25,15 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)eHandlerWithReply><WKURLSchemeHandler><AMSUIWebSafariWebDelegate>";
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property long long type; // @synthesize type=_type;
 
 @end

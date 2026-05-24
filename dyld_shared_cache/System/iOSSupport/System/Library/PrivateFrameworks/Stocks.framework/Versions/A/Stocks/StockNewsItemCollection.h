@@ -9,19 +9,17 @@
 @interface StockNewsItemCollection
 {
     NSArray *_newsItems;
-    double _expirationTime;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)isMultiRowTable;
 
 // Remaining properties
-@property(nonatomic) double expirationTime; // @synthesize expirationTime=_expirationTime;
 @property(retain, nonatomic) NSArray *newsItems; // @synthesize newsItems=_newsItems;
 
 @end

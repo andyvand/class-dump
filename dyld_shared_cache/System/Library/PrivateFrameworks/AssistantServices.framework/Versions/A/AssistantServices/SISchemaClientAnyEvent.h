@@ -9,10 +9,6 @@
 @interface SISchemaClientAnyEvent
 {
     NSData *_eventData;
-    int _eventType;
-    struct {
-        unsigned int eventType:1;
-    } _has;
 }
 
 - (id);
@@ -31,13 +27,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ryInitializationBlock;
+- (void)_factoryInitializationBlock;
 - (void)$¶;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *eventData; // @synthesize eventData=_eventData;
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasEventData;
 @property(nonatomic) _Bool hasEventType;
 
 @end

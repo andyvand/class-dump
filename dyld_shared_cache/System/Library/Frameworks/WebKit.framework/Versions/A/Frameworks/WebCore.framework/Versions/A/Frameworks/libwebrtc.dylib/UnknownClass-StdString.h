@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (StdString)
-+ (id);
-+ (basic_string_23c5cf75);
-- (basic_string_23c5cf75);
++ (id)KugDSBqHPySrpIDrOH-23Ov2kd1KJv88U1zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/PathImpl.cpp;
++ (basic_string_23c5cf75)leInternal/Library/BuildRoots/4~COGKugDSBqHPySrpIDrOH-23Ov2kd1KJv88U1zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/PathImpl.cpp;
+- (basic_string_23c5cf75)BuildRoots/4~COGKugDSBqHPySrpIDrOH-23Ov2kd1KJv88U1zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/PathImpl.cpp;
 
 // Remaining properties
 @property(readonly, nonatomic) basic_string_23c5cf75 rtcStdString;

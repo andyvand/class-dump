@@ -7,10 +7,6 @@
 @interface PhotoAnalysis.PhotoLibraryWorker
 {
     id $defaultActor;
-    id photoLibraryManager;
-    id taskRecorder;
-    id changeReader;
-    id requirements;
 }
 
 @end

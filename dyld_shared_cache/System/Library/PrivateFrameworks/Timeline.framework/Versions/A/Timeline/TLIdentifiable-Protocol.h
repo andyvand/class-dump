@@ -5,5 +5,6 @@
 //
 
 @protocol TLIdentifiable
+- (_Bool);
 @end
 

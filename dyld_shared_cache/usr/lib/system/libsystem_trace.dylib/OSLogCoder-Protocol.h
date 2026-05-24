@@ -5,5 +5,8 @@
 //
 
 @protocol OSLogCoder
+- (void)@"NSString"40@?<v@?@"NSData"@"NSString"@"NSError">48;
+- (void)om;
+- (void);
 @end
 

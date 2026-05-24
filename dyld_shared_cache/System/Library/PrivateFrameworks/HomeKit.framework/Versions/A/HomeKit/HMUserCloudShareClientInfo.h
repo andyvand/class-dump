@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void)iaSystemSettingEventTopic;
+- (void)HMParsedMediaSystemSettingEventTopic;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *accountAuthToken; // @synthesize accountAuthToken=_accountAuthToken;

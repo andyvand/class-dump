@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSOutputStream, NSURL, PBDataWriter;
+@class NSURL;
 
 @interface FCPBMessageStreamWriter
 {
     NSURL *_URL;
-    NSOutputStream *_outputStream;
-    PBDataWriter *_dataWriter;
-    char *_varIntBuffer;
-    unsigned long long _currentOffset;
-    NSError *_error;
 }
 
 - (_Bool);
 - (char *);
 - (_Bool);
-- (void);
+- (void)#;
 - (void);
 - (struct _NSRange);
 - (id);
@@ -30,17 +25,12 @@
 - (id);
 - (void);
 - (id);
-- (void)guration: /* Error: Ran out of types for this method. */;
-- (_Bool)dMultiplierPostBaselineCurvature;
+- (void)sessionWithConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)personalizedMultiplierPostBaselineCurvature;
 - (void).apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArticleHeadlinesFetchOperation.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) unsigned long long currentOffset; // @synthesize currentOffset=_currentOffset;
-@property(readonly, nonatomic) PBDataWriter *dataWriter; // @synthesize dataWriter=_dataWriter;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly, nonatomic) char *varIntBuffer; // @synthesize varIntBuffer=_varIntBuffer;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.PageTab
 {
     id action;
-    id title;
-    id id;
 }
 
 @end

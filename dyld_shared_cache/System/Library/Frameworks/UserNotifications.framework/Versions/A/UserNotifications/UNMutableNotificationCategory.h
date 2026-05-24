@@ -6,8 +6,6 @@
 
 #import <UserNotifications/UNNotificationCategory.h>
 
-@class NSArray, NSString, UNNotificationAction;
-
 @interface UNMutableNotificationCategory : UNNotificationCategory
 {
 }
@@ -16,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)+%;
 - (void);
 - (void);
 - (void);
@@ -26,15 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *actions; // @dynamic actions;
-@property(copy) NSString *actionsMenuTitle; // @dynamic actionsMenuTitle;
-@property(copy) UNNotificationAction *alternateAction; // @dynamic alternateAction;
-@property unsigned long long backgroundStyle; // @dynamic backgroundStyle;
-@property(copy) NSString *categorySummaryFormat; // @dynamic categorySummaryFormat;
-@property(copy) NSString *hiddenPreviewsBodyPlaceholder; // @dynamic hiddenPreviewsBodyPlaceholder;
-@property(copy) NSArray *intentIdentifiers; // @dynamic intentIdentifiers;
-@property unsigned long long listPriority; // @dynamic listPriority;
-@property(copy) NSArray *minimalActions; // @dynamic minimalActions;
 @property unsigned long long options; // @dynamic options;
 
 @end

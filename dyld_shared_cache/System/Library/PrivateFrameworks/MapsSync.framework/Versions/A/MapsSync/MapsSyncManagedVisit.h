@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSyncManagedVisitedLocation, NSDate, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedVisit
@@ -16,12 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic) _Bool hidden; // @dynamic hidden;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, retain) MapsSyncManagedVisitedLocation *location; // @dynamic location;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic, copy) NSDate *startDate; // @dynamic startDate;
-@property(nonatomic) short visitClassification; // @dynamic visitClassification;
 
 @end
 

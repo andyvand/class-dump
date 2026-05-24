@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSTimer;
+@class NSMutableSet;
 
 @interface LUINetworkStatus
 {
     _Bool _parentNetworkExistsInternal;
-    _Bool _hasParentNetworkInternal;
-    _Bool _updateNetworkStatus;
-    NSMutableSet *_targets;
-    unsigned long long _networkStatusInternal;
-    struct __ODTrigger *_onlineTrigger;
-    struct __ODTrigger *_offlineTrigger;
-    struct __ODTrigger *_addTrigger;
-    struct __ODTrigger *_deleteTrigger;
-    NSMutableDictionary *_remoteNodes;
-    NSTimer *_notifyTimer;
 }
 
 + (id);
@@ -28,10 +18,10 @@
 - (void);
 - (void);
 - (void);
+- (void)Q	;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id));
 - (_Bool);
 - (_Bool);
 - (struct __ODTrigger *);
@@ -59,17 +49,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property struct __ODTrigger *addTrigger; // @synthesize addTrigger=_addTrigger;
-@property struct __ODTrigger *deleteTrigger; // @synthesize deleteTrigger=_deleteTrigger;
-@property _Bool hasParentNetworkInternal; // @synthesize hasParentNetworkInternal=_hasParentNetworkInternal;
-@property unsigned long long networkStatusInternal; // @synthesize networkStatusInternal=_networkStatusInternal;
-@property(retain) NSTimer *notifyTimer; // @synthesize notifyTimer=_notifyTimer;
-@property struct __ODTrigger *offlineTrigger; // @synthesize offlineTrigger=_offlineTrigger;
-@property struct __ODTrigger *onlineTrigger; // @synthesize onlineTrigger=_onlineTrigger;
-@property _Bool parentNetworkExistsInternal; // @synthesize parentNetworkExistsInternal=_parentNetworkExistsInternal;
-@property(retain) NSMutableDictionary *remoteNodes; // @synthesize remoteNodes=_remoteNodes;
 @property(retain) NSMutableSet *targets; // @synthesize targets=_targets;
-@property _Bool updateNetworkStatus; // @synthesize updateNetworkStatus=_updateNetworkStatus;
 
 @end
 

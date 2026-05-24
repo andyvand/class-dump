@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MTMaterialVersioning
 
 // Remaining properties
 @property(readonly, nonatomic) long long materialSettingsVersion;
-@property(readonly, copy, nonatomic) NSString *recipeName;
 @end
 

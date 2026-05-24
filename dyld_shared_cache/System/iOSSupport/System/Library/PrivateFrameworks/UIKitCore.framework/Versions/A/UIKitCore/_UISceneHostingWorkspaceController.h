@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSceneWorkspace, NSString;
+@class FBSceneWorkspace;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneHostingWorkspaceController
@@ -16,24 +16,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)et}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)},N,V_hc;
+- (id)ITLibModelSongKind;
 - (id)!ð!lDùñcð1Â0@ù
 × ;
-- (void)yer:(id)arg1;
-- (void)ingScrollerIncludingSelf;
+- (void)set_directFeedbackPlayer:(id)arg1;
+- (void)_enclosingScrollerIncludingSelf;
 - (id)_restorationIdentifierPathForRestorableObject(id<UIStateRestoring>);
 - (void)b;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) FBSceneWorkspace *sceneWorkspace; // @synthesize sceneWorkspace=_sceneWorkspace;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol BrowserDataImportingService
-- (void)x: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)candidateListBarItemController:labelForCandidateAtIndex: /* Error: Ran out of types for this method. */;
 @end
 

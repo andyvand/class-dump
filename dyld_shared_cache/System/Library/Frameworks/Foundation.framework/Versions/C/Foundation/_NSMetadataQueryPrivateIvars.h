@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _NSMetadataQueryResultArray;
+@class _NSMetadataQueryResultArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSMetadataQueryPrivateIvars
 {
     _NSMetadataQueryResultArray *resultArray;
-    NSObject *pendingKVONotificationArray;
 }
 
 @end

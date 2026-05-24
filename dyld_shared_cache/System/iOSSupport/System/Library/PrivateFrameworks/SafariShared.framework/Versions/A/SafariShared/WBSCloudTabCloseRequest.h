@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSURL, NSUUID;
+@class NSUUID;
 
 @interface WBSCloudTabCloseRequest
 {
     NSUUID *_sourceDeviceUUID;
-    NSUUID *_requestUUID;
-    NSUUID *_destinationDeviceUUID;
-    NSUUID *_tabUUID;
-    NSURL *_url;
-    NSDate *_lastModified;
 }
 
-+ (_Bool);
++ (_Bool)=;
 + (id);
 + (id);
 - (_Bool);
@@ -29,16 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (id)enSearchURLTemplate;
+- (id)WBSOpenSearchURLTemplate;
 - (void)4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *destinationDeviceUUID; // @synthesize destinationDeviceUUID=_destinationDeviceUUID;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSDate *lastModified; // @synthesize lastModified=_lastModified;
 @property(readonly, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly, nonatomic) NSUUID *tabUUID; // @synthesize tabUUID=_tabUUID;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

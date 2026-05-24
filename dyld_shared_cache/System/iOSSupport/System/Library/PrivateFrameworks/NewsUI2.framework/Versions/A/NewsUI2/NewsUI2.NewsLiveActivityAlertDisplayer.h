@@ -7,8 +7,6 @@
 @interface NewsUI2.NewsLiveActivityAlertDisplayer
 {
     id followedAlertsThreshold;
-    id scheduledAlertsThreshold;
-    id navigator;
 }
 
 @end

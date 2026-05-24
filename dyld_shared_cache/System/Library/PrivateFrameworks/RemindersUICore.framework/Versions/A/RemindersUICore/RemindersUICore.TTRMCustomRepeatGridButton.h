@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMCustomRepeatGridButton
 {
     id drawLeadingEdge;
-    id drawTopEdge;
-    id drawBottomEdge;
 }
 
 - (id);

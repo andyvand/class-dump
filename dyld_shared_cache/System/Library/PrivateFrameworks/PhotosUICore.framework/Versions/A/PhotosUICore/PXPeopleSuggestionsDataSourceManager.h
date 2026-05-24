@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXPeopleSuggestionsDataSource, PXPeopleSuggestionsMediaProvider;
+@class PXPeopleSuggestionsDataSource;
 
 @interface PXPeopleSuggestionsDataSourceManager
 {
@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXPeopleSuggestionsDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy, nonatomic) PXPeopleSuggestionsMediaProvider *mediaProvider;
 
 @end
 

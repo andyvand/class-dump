@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface _DASPredictionTimeline
 {
     NSDate *_startDate;
-    NSArray *_values;
-    NSArray *_transitionDates;
 }
 
 + (_Bool);
@@ -18,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)p;
 - (id);
 - (void);
 - (id);
@@ -31,10 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSArray *transitionDates; // @synthesize transitionDates=_transitionDates;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

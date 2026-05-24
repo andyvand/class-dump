@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface TextRecognition.CRLayoutParagraph
 {
     void uuid;
-    void text;
-    void subregions;
-    CRNormalizedQuad *boundingQuad;
-    _Bool canWrapToNextGroup;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_titleForDestructiveDeletionAlert: /* Error: Ran out of types for this method. */;
+- (id)_titleFieldTrailingConstraintWhenActionButtonIsVisible;
+- (void)_test_k2KeyFromEntrySalt:(id)arg1 temporaryKey:combinedHashedPassword: /* Error: Ran out of types for this method. */;
+- (id)_strictDescendantsOfBookmarkList:inDisplayedBookmarks: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void)TextTypeDetection: /* Error: Ran out of types for this method. */;
+- (void)setDisableTextTypeDetection: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic, retain) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad;
-@property(nonatomic) _Bool canWrapToNextGroup; // @synthesize canWrapToNextGroup;
-@property(nonatomic, readonly) unsigned long long layoutDirection;
-@property(nonatomic, copy) NSArray *subregions;
-@property(nonatomic, copy) NSString *text;
-@property(nonatomic, readonly) unsigned long long textRegionType;
 @property(nonatomic, copy) NSUUID *uuid;
 
 @end

@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, NSArray, NSString;
+@class FCAssetHandle, NSString;
 
 @interface FCANFContent
 {
     NSString *_identifier;
-    NSArray *_fontResourceIDs;
-    FCAssetHandle *_mainDocumentAssetHandle;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)from;
+- (id)LL_STATS_TXNOBUFFCOUNT;
 - (id);
 - (_Bool);
 - (id);
-- (id)alue;
-- (void)rceId;
+- (id)integerValue;
+- (void)userVectorWhitelistResourceId;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *anfDocumentAssetHandles;
-@property(readonly, nonatomic) NSArray *fontResourceIDs; // @synthesize fontResourceIDs=_fontResourceIDs;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isANFDocumentCached;
 @property(readonly, nonatomic) FCAssetHandle *mainDocumentAssetHandle; // @synthesize mainDocumentAssetHandle=_mainDocumentAssetHandle;
 
 @end

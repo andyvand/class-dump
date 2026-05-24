@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSLayoutConstraint;
+@class NSImage;
 
 @interface SOPreviewingWaveformView
 {
     NSImage *_waveform;
-    NSLayoutConstraint *_waveformWidthLayoutConstraint;
-    NSImage *_unplayedWaveform;
-    NSImage *_playedWaveform;
 }
 
 - (id);
@@ -27,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *playedWaveform; // @synthesize playedWaveform=_playedWaveform;
 @property(retain, nonatomic) NSImage *unplayedWaveform; // @synthesize unplayedWaveform=_unplayedWaveform;
-@property(retain, nonatomic) NSImage *waveform; // @synthesize waveform=_waveform;
-@property(retain, nonatomic) NSLayoutConstraint *waveformWidthLayoutConstraint; // @synthesize waveformWidthLayoutConstraint=_waveformWidthLayoutConstraint;
 
 @end
 

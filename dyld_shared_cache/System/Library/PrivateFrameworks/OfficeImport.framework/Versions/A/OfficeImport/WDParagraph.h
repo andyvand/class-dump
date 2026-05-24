@@ -6,14 +6,12 @@
 
 #import <OfficeImport/WDBlock.h>
 
-@class NSMutableArray, WDParagraphProperties;
+@class WDParagraphProperties;
 
 __attribute__((visibility("hidden")))
 @interface WDParagraph : WDBlock
 {
     WDParagraphProperties *mProperties;
-    NSMutableArray *mRuns;
-    unsigned long long identifier;
 }
 
 - (id);
@@ -25,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (_Bool);
-- (_Bool);
+- (_Bool))	;
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
@@ -41,18 +39,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (id);
-- (id);
+- (id)C;
 - (int);
 - (id);
 - (void);
+- (id)me;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)NSExtensionAdditionsInternal;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)memHeaderTypeKernelCommandList;
 - (void)ficeParser/shared/utility/sf/SFUFileOutputStream.m;
 
 // Remaining properties

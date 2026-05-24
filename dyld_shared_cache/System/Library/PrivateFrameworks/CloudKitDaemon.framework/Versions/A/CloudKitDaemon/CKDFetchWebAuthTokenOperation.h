@@ -7,12 +7,10 @@
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
 @class NSString;
-@protocol CKFetchWebAuthTokenOperationCallbacks><CKDOperationCallbackProxy;
 
 @interface CKDFetchWebAuthTokenOperation : CKDDatabaseOperation
 {
     NSString *_webAuthToken;
-    NSString *_APIToken;
 }
 
 - (id);
@@ -21,13 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)NOT_SYNCABLE;
 - (id);
 - (void)g a manatee decryption failure due to behavior option override;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *APIToken; // @synthesize APIToken=_APIToken;
-@property(retain, nonatomic) id <CKFetchWebAuthTokenOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
 @property(copy, nonatomic) NSString *webAuthToken; // @synthesize webAuthToken=_webAuthToken;
 
 @end

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, UnitsInfo;
-
 __attribute__((visibility("hidden")))
 @interface CalculateUnitOutput
 {
     int _count;
-    CDStruct_a734b2e2 *_lengths;
-    NSLocale *_locale;
-    UnitsInfo *_unitsInfo;
 }
 
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (CDStruct_a734b2e2 *);
+- (CDStruct_a734b2e2 *);
 - (void);
 - (void);
 - (id);
@@ -29,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)<<nô£7c{;
 
 // Remaining properties
-@property(nonatomic) int count; // @synthesize count=_count;
 @property(nonatomic) CDStruct_a734b2e2 *lengths; // @synthesize lengths=_lengths;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) UnitsInfo *unitsInfo; // @synthesize unitsInfo=_unitsInfo;
 
 @end
 

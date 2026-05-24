@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene;
+@class NSString;
 
 @interface _UISuperlayerSecurityAnalysisSceneComponent
 {
     id __hostBundleIdentifier;
-    id __hostSDKVersion;
-    id __hostIsInternal;
-    id __scene;
 }
 
 - (id);
@@ -20,7 +17,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id)Ð ÿêàÎ\j;
 - (void)d°¥ÿ§ÝØHDl;
 - (id)$~Aÿ¼AÎÔo;
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *_hostBundleIdentifier;
-@property(nonatomic, readonly) _Bool _hostIsInternal;
-@property(nonatomic, readonly) NSString *_hostSDKVersion;
-@property(nonatomic) __weak UIScene *_scene;
 
 @end
 

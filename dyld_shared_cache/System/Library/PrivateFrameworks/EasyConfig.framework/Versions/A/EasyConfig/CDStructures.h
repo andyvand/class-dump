@@ -104,26 +104,26 @@ struct iovec {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    double startTime;
-    unsigned char userChangedFriendlyName;
-    unsigned char playPasswordSet;
-    unsigned char adminPasswordSet;
-    unsigned char destinationNetworkRecommendationUsed;
-    double secondsToGetLinkUpOnSWAP;
-    int wifiJoinSWAPError;
-    unsigned char hitJoiningTargetSWAPTimeout;
-    int rssiOfSWAP;
-    unsigned int snrOfSWAP;
-    unsigned int channelOfSWAP;
-} CDStruct_56123b44;
+    double _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+    unsigned char _field5;
+    double _field6;
+    int _field7;
+    unsigned char _field8;
+    int _field9;
+    unsigned int _field10;
+    unsigned int _field11;
+} CDStruct_5d5efd95;
 
 typedef struct {
-    double secondsToGetLinkUpOnDestination;
-    int wifiJoinDestinationAPError;
-    unsigned char destinationNetworkPSKInKeychain;
-    unsigned char hitJoiningDestinationAPTimeout;
-    int rssiOfDestinationAP;
-    unsigned int snrOfDestinationAP;
-    unsigned int channelOfDestinationAP;
-} CDStruct_6a23f5a0;
+    double _field1;
+    int _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+    int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+} CDStruct_c0f661a2;
 

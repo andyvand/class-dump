@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCFirstFailureDetector, NSMutableArray, NSObject, NSString;
-@protocol MPCSamplesRecorderDelegate, OS_dispatch_queue;
+@protocol MPCSamplesRecorderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MPCSamplesRecorder
 {
     int _k;
-    double _Q;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _storingSamples;
-    int _glitches;
-    int _thermalLevel;
-    id <MPCSamplesRecorderDelegate> _delegate;
-    NSString *_recordID;
-    NSString *_modelID;
-    double _min;
-    double _max;
-    double _mean;
-    double _rms;
-    NSMutableArray *_samples;
-    MPCFirstFailureDetector *_firstFailureDetector;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (double);
 - (id);
@@ -41,26 +26,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (id);
-- (double);
-- (double): /* Error: Ran out of types for this method. */;
+- (id));
+- (double)workQueue;
+- (double)numberWithFloat: /* Error: Ran out of types for this method. */;
 - (void)thout processing any event;
 - (int)ÌÌÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCSamplesRecorderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) MPCFirstFailureDetector *firstFailureDetector; // @synthesize firstFailureDetector=_firstFailureDetector;
-@property(readonly, nonatomic) int glitches; // @synthesize glitches=_glitches;
-@property(readonly, nonatomic) double max; // @synthesize max=_max;
-@property(readonly, nonatomic) double mean; // @synthesize mean=_mean;
-@property(readonly, nonatomic) double min; // @synthesize min=_min;
-@property(readonly, copy, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;
-@property(readonly, nonatomic) int numberOfSamples;
-@property(readonly, copy, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(readonly, nonatomic) double rms; // @synthesize rms=_rms;
-@property(readonly, nonatomic) NSMutableArray *samples; // @synthesize samples=_samples;
-@property(readonly, nonatomic, getter=isStoringSamples) _Bool storingSamples; // @synthesize storingSamples=_storingSamples;
-@property(readonly, nonatomic) int thermalLevel; // @synthesize thermalLevel=_thermalLevel;
 
 @end
 

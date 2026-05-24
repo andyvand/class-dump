@@ -4,38 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2StreamGroupPayload
 {
     unsigned int _cipherSuite;
-    unsigned int _codecType;
-    unsigned int _encoderUsage;
-    unsigned int _mediaFlags;
-    unsigned int _pTime;
-    NSData *_packedPayload;
-    unsigned int _profileLevelId;
-    unsigned int _rtcpFlags;
-    unsigned int _rtpPayload;
-    unsigned int _rtpSampleRate;
-    struct {
-        unsigned int cipherSuite:1;
-        unsigned int codecType:1;
-        unsigned int encoderUsage:1;
-        unsigned int mediaFlags:1;
-        unsigned int pTime:1;
-        unsigned int profileLevelId:1;
-        unsigned int rtcpFlags:1;
-        unsigned int rtpPayload:1;
-        unsigned int rtpSampleRate:1;
-    } _has;
 }
 
-+ (unsigned int);
-+ (unsigned int);
++ (unsigned int);
++ (unsigned int);
 + (id);
-+ (void);
++ (void)9;
 + (unsigned int);
 + (int);
 + (unsigned char);
@@ -44,7 +22,7 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned int);
 + (id);
 + (id);
@@ -57,17 +35,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -77,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)k;
 - (unsigned int);
 - (id);
 - (id);
@@ -85,22 +63,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (unsigned int);
-- (unsigned int);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (unsigned int)!;
 - (unsigned int);
 - (void);
-- (id);
+- (void)osanalytics_jetsam;
+- (_Bool)02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x;
+- (void);
+- (unsigned int);
+- (void)B;
+- (id)K;
 - (void);
 - (void);
 - (unsigned long long);
@@ -108,29 +86,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)s;
 
 // Remaining properties
-@property(nonatomic) unsigned int cipherSuite; // @synthesize cipherSuite=_cipherSuite;
-@property(nonatomic) unsigned int codecType; // @synthesize codecType=_codecType;
-@property(nonatomic) unsigned int encoderUsage; // @synthesize encoderUsage=_encoderUsage;
-@property(nonatomic) _Bool hasCipherSuite;
 @property(nonatomic) _Bool hasCodecType;
-@property(nonatomic) _Bool hasEncoderUsage;
-@property(nonatomic) _Bool hasMediaFlags;
-@property(nonatomic) _Bool hasPTime;
-@property(readonly, nonatomic) _Bool hasPackedPayload;
-@property(nonatomic) _Bool hasProfileLevelId;
-@property(nonatomic) _Bool hasRtcpFlags;
-@property(nonatomic) _Bool hasRtpPayload;
-@property(nonatomic) _Bool hasRtpSampleRate;
-@property(nonatomic) unsigned int mediaFlags; // @synthesize mediaFlags=_mediaFlags;
-@property(nonatomic) unsigned int pTime; // @synthesize pTime=_pTime;
-@property(retain, nonatomic) NSData *packedPayload; // @synthesize packedPayload=_packedPayload;
-@property(nonatomic) unsigned int profileLevelId; // @synthesize profileLevelId=_profileLevelId;
-@property(nonatomic) unsigned int rtcpFlags; // @synthesize rtcpFlags=_rtcpFlags;
-@property(nonatomic) unsigned int rtpPayload; // @synthesize rtpPayload=_rtpPayload;
-@property(nonatomic) unsigned int rtpSampleRate; // @synthesize rtpSampleRate=_rtpSampleRate;
 
 @end
 

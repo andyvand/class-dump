@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLazyPurgeableResult;
+@class NSString;
 
 @interface SGMultiLabelEspressoClassifierWrapper
 {
     NSString *_espressoModelFile;
-    _PASLazyPurgeableResult *_classifier;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)dBySymptomsDNSFailCount;
+- (id)NSt3__110__function6__funcIZN11cnframework12ActiveObjectIN5raven35RavenIntegrityEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_20ARSessionStatusEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _PASLazyPurgeableResult *classifier; // @synthesize classifier=_classifier;
 @property(retain, nonatomic) NSString *espressoModelFile; // @synthesize espressoModelFile=_espressoModelFile;
 
 @end

@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)dFile;
+- (id)gZip Error supplying bytes to extractor:(long long)arg1 %@ [%ld] for task %@;
+- (void)1.2;
 
 @end
 

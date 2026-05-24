@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface HMBModelFieldOptionQueryable : HMBModelFieldOption
 {
     CDUnknownBlockType _encodingBlock;
-    CDUnknownBlockType _decodingBlock;
-    CDUnknownBlockType _descriptionBlock;
 }
 
-- (void);
-- (id);
+- (void)_CKParseBetweenFiltersWithTranslator:(CDUnknownBlockType)arg1 withError: /* Error: Ran out of types for this method. */;
+- (id)d persona;
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)%@.;
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType decodingBlock; // @synthesize decodingBlock=_decodingBlock;
-@property(copy, nonatomic) CDUnknownBlockType descriptionBlock; // @synthesize descriptionBlock=_descriptionBlock;
 @property(copy, nonatomic) CDUnknownBlockType encodingBlock; // @synthesize encodingBlock=_encodingBlock;
 
 @end

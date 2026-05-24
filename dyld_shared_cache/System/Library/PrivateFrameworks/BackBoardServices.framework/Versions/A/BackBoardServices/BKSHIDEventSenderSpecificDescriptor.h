@@ -9,16 +9,15 @@
 @interface BKSHIDEventSenderSpecificDescriptor : BKSHIDEventDescriptor
 {
     unsigned long long _senderID;
-    BKSHIDEventDescriptor *_sourceDescriptor;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)9�;
+- (id)updateLimit:(id)arg1 forActivity:forLimiterWithName: /* Error: Ran out of types for this method. */;
+- (void)infoLabelType;
 - (_Bool);
-- (_Bool);
+- (_Bool)f (CNContactNicknameKey) (*)(void))0)()) getCNContactNicknameKey(void);
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long senderID; // @synthesize senderID=_senderID;
 @property(retain, nonatomic) BKSHIDEventDescriptor *sourceDescriptor; // @synthesize sourceDescriptor=_sourceDescriptor;
 
 @end

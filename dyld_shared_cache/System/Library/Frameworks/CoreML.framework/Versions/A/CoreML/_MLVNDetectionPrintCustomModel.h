@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, MLModelDescription, NSDictionary;
+@class MLModelDescription;
 
 __attribute__((visibility("hidden")))
 @interface _MLVNDetectionPrintCustomModel
 {
     MLModelDescription *_modelDescription;
-    unsigned long long _detectionPrintRequestRevision;
-    NSDictionary *_expectedOutputShapeV1;
-    MLModelConfiguration *_configuration;
 }
 
-- (id);
+- (id)[reqID=;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)D;
 - (id);
 - (id);
 - (void)chPredictionQueue;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) unsigned long long detectionPrintRequestRevision; // @synthesize detectionPrintRequestRevision=_detectionPrintRequestRevision;
-@property(readonly, nonatomic) NSDictionary *expectedOutputShapeV1; // @synthesize expectedOutputShapeV1=_expectedOutputShapeV1;
 @property(readonly, nonatomic) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
 
 @end

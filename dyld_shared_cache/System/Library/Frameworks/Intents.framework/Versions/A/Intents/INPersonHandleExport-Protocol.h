@@ -10,8 +10,6 @@
 - (void),N,V_title;
 
 // Remaining properties
-@property(copy) NSString *label;
-@property long long type;
 @property(copy) NSString *value;
 @end
 

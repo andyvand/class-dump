@@ -9,7 +9,6 @@
 @protocol CRKIDSAccount
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
 @property(readonly, copy, nonatomic) NSString *loginID;
 @end
 

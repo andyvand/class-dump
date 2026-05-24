@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSOperationQueue *_queue;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)nloadBatchSize;
+- (id)Z;
+- (void)_videoSegmentsDownloadBatchSize;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol EKEventEditViewHostInterface
+- (void);
+- (void)x?%s;
 @end
 

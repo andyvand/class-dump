@@ -6,57 +6,38 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, NSArray, NSDate, NSObject, NSString;
+@class CPLPlatformObject, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CPLEngineResourceDownloadQueue : CPLEngineStorage
 {
     NSObject<OS_dispatch_queue> *_downloadLock;
-    NSArray *_allQueues;
-    NSArray *_allHighPriorityQueues;
-    NSArray *_allLowPriorityQueues;
-    NSArray *_bestCancellableHighPriorityQueues;
-    NSArray *_bestCancellableLowPriorityQueues;
-    CDUnknownBlockType _highPriorityQueuePerResourceTypeAndTransferIntent;
-    CDUnknownBlockType _lowPriorityQueuePerResourceTypeAndTransferIntent;
-    unsigned long long _inflightTransferTasksCount;
-    unsigned long long _transferTasksBurstCount;
-    unsigned long long _lastTransferTasksBurstCount;
-    NSDate *_lastTransferTaskBurstDate;
-    _Bool _shouldRequestABackgroundDownloadSyncPhase;
 }
 
-+ (_Bool)?;
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long)t open;
-- (id)ª»Àýª£õ;
-- (id)ìÿµ;
-- (_Bool)°Að£©õ';
-- (id);
-- (_Bool);
+- (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (_Bool)15TLogicException;
+- (id);
+- (id)W;
 - (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void)
 × ;
-- (void)gerprintSchemeForMasterIdentifier: /* Error: Ran out of types for this method. */;
+- (void)fingerprintSchemeForMasterIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

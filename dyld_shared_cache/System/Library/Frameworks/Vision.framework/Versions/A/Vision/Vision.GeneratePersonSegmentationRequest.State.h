@@ -7,9 +7,6 @@
 @interface Vision.GeneratePersonSegmentationRequest.State
 {
     id imageWidth;
-    id imageHeight;
-    id lastResult;
-    id lastAnalyzedTimeStamp;
 }
 
 @end

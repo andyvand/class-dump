@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDStruct_4c969caf);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)g;
 - (id);
 - (id);
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
 @protocol HMIPersonManagerDataSource;
 
 @interface HMIFetchFaceprintsForFaceCropsOperation
 {
     id <HMIPersonManagerDataSource> _dataSource;
-    NSSet *_faceCropUUIDs;
-    NSSet *_faceprints;
 }
 
 + (id);
@@ -27,26 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(readonly) id <HMIPersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSSet *faceCropUUIDs; // @synthesize faceCropUUIDs=_faceCropUUIDs;
-@property(readonly) NSSet *faceprints; // @synthesize faceprints=_faceprints;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

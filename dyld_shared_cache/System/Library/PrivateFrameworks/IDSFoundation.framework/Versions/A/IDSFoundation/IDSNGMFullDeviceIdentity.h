@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSNGMFullDeviceIdentity
 {
 }
 
 + (id);
-+ (id);
++ (id)t64);
 - (void);
 - (id);
 - (void);
 - (void);
+- (_Bool)9h;
+- (id)P;
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool)êÿjêÿLnêÿ°pêÿ}êÿðêÿ`êÿÌêÿÄÚÿ8Ñêÿ´Ùêÿ¸ÛêÿÄÚÿÄÚÿÌóêÿìùêÿìÿxÄÚÿ8ëÿ 	ëÿëÿhÄÚÿ\ëÿ¸#ëÿä%ëÿXÄÚÿ0ëÿ(:ëÿ$<ëÿHÄÚÿJëÿÀXëÿ[ëÿ¬ìÿhëÿ¼qëÿìÿìÿ@|ëÿëÿ¼ëÿÄÚÿ ëÿ°¤ëÿè¦ëÿÄÚÿÄÚÿ /* Error: Ran out of types for this method. */;
 - (void)tCellInterfaceName:(id)arg1 updating interfaces...;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

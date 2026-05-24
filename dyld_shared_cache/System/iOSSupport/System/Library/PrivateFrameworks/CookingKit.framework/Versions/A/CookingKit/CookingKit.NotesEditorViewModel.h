@@ -8,11 +8,6 @@
 {
     id _$scope;
     id _recipeID;
-    id _notes;
-    id _modifiedAt;
-    id _appleAccountInfo;
-    id _isDeleting;
-    id _$observationRegistrar;
 }
 
 @end

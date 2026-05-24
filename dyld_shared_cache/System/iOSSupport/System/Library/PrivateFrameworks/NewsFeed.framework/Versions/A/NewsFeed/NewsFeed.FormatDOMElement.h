@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatDOMElement
 {
     id tag;
-    id nodes;
 }
 
 @end

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 @interface TLKAppearance
 {
     _Bool _isDark;
-    _Bool _isVibrant;
-    unsigned long long _style;
-    NSString *_name;
-    NSColor *_backgroundColor;
-    NSColor *_groupedBackgroundColor;
-    id _compositingFilter;
-    double _accessibilityContrastColorBoost;
 }
 
 + (id);
@@ -29,7 +20,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (unsigned long long);
 - (id);
 - (id);
@@ -53,29 +44,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)D;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) double accessibilityContrastColorBoost; // @synthesize accessibilityContrastColorBoost=_accessibilityContrastColorBoost;
-@property(readonly) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(readonly) id compositingFilter; // @synthesize compositingFilter=_compositingFilter;
-@property(readonly) NSColor *groupedBackgroundColor; // @synthesize groupedBackgroundColor=_groupedBackgroundColor;
-@property(readonly) _Bool isDark; // @synthesize isDark=_isDark;
-@property(readonly) _Bool isVibrant; // @synthesize isVibrant=_isVibrant;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSColor *platterColor;
-@property(readonly) NSColor *primaryButtonColor;
-@property(readonly) NSColor *primaryColor;
-@property(readonly) NSColor *quaternaryButtonColor;
-@property(readonly) NSColor *quaternaryColor;
-@property(readonly) NSColor *quinaryColor;
-@property(readonly) NSColor *secondaryButtonColor;
-@property(readonly) NSColor *secondaryColor;
-@property(readonly) unsigned long long style; // @synthesize style=_style;
-@property(readonly) NSColor *tertiaryButtonColor;
-@property(readonly) NSColor *tertiaryColor;
 
 @end
 

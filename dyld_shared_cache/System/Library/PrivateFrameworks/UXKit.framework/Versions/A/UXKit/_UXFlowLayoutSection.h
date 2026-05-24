@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, _UXFlowLayoutInfo;
+@class NSMutableArray;
 
 @interface _UXFlowLayoutSection
 {
     NSMutableArray *_items;
-    NSMutableArray *_rows;
-    struct NSEdgeInsets _sectionMagins;
-    double _verticalInterstice;
-    double _horizontalInterstice;
-    struct CGRect _headerFrame;
-    struct CGRect _footerFrame;
-    double _headerDimension;
-    double _footerDimension;
-    _Bool _isValid;
-    struct CGRect _frame;
-    NSDictionary *_rowAlignmentOptions;
-    _Bool _fixedItemSize;
-    struct CGSize _itemSize;
-    double _otherMargin;
-    double _beginMargin;
-    double _endMargin;
-    double _actualGap;
-    double _lastRowBeginMargin;
-    double _lastRowEndMargin;
-    double _lastRowActualGap;
-    _Bool _lastRowIncomplete;
-    long long _itemsCount;
-    long long _itemsByRowCount;
-    long long _indexOfImcompleteRow;
-    _UXFlowLayoutInfo *_layoutInfo;
-    struct NSEdgeInsets _sectionMargins;
 }
 
 - (void);
@@ -42,8 +16,8 @@
 - (void);
 - (long long);
 - (double);
-- (void);
-- (void);
+- (void);
+- (void);
 - (double);
 - (id);
 - (void);
@@ -58,9 +32,9 @@
 - (_Bool);
 - (id);
 - (double);
-- (struct CGRect);
+- (struct CGRect)!;
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGSize);
 - (void);
 - (double);
@@ -86,31 +60,7 @@
 - (id)E;
 
 // Remaining properties
-@property(readonly, nonatomic) double actualGap; // @synthesize actualGap=_actualGap;
-@property(readonly, nonatomic) double beginMargin; // @synthesize beginMargin=_beginMargin;
-@property(readonly, nonatomic) double endMargin; // @synthesize endMargin=_endMargin;
-@property(nonatomic) _Bool fixedItemSize; // @synthesize fixedItemSize=_fixedItemSize;
-@property(nonatomic) double footerDimension; // @synthesize footerDimension=_footerDimension;
-@property(nonatomic) struct CGRect footerFrame; // @synthesize footerFrame=_footerFrame;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) double headerDimension; // @synthesize headerDimension=_headerDimension;
-@property(nonatomic) struct CGRect headerFrame; // @synthesize headerFrame=_headerFrame;
-@property(nonatomic) double horizontalInterstice; // @synthesize horizontalInterstice=_horizontalInterstice;
-@property(readonly, nonatomic) long long indexOfImcompleteRow; // @synthesize indexOfImcompleteRow=_indexOfImcompleteRow;
-@property(nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
 @property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) long long itemsByRowCount; // @synthesize itemsByRowCount=_itemsByRowCount;
-@property(nonatomic) long long itemsCount; // @synthesize itemsCount=_itemsCount;
-@property(readonly, nonatomic) double lastRowActualGap; // @synthesize lastRowActualGap=_lastRowActualGap;
-@property(readonly, nonatomic) double lastRowBeginMargin; // @synthesize lastRowBeginMargin=_lastRowBeginMargin;
-@property(readonly, nonatomic) double lastRowEndMargin; // @synthesize lastRowEndMargin=_lastRowEndMargin;
-@property(readonly, nonatomic) _Bool lastRowIncomplete; // @synthesize lastRowIncomplete=_lastRowIncomplete;
-@property(nonatomic) _UXFlowLayoutInfo *layoutInfo; // @synthesize layoutInfo=_layoutInfo;
-@property(readonly, nonatomic) double otherMargin; // @synthesize otherMargin=_otherMargin;
-@property(retain, nonatomic) NSDictionary *rowAlignmentOptions; // @synthesize rowAlignmentOptions=_rowAlignmentOptions;
-@property(readonly, nonatomic) NSMutableArray *rows; // @synthesize rows=_rows;
-@property(nonatomic) struct NSEdgeInsets sectionMargins; // @synthesize sectionMargins=_sectionMargins;
-@property(nonatomic) double verticalInterstice; // @synthesize verticalInterstice=_verticalInterstice;
 
 @end
 

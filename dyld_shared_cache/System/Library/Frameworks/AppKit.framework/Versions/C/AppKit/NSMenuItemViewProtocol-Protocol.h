@@ -7,13 +7,11 @@
 @class NSMenuItem;
 
 @protocol NSMenuItemViewProtocol
+- (NSMenuItem *)_CTServerConnectionCopyCarrierBundleInfoArray;
 - (void)AÂ;
 - (_Bool)namicModifiedColor.m;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeHighlighted;
-@property(nonatomic, setter=setHighlighted:) _Bool isHighlighted;
 @property(readonly, nonatomic) __weak NSMenuItem *menuItem;
-@property(readonly, nonatomic) _Bool wantsSelectionMaterial;
 @end
 

@@ -7,23 +7,10 @@
 @interface NewsUI2.TagFeedRecipeCatalogSearchCoordinator
 {
     id delegate;
-    id searchController;
-    id isSearchPresented;
-    id showSearchNavigationItems;
-    id feedDescriptor;
-    id commandCenter;
-    id tracker;
-    id recipeCatalogFilterResultProvider;
-    id recipeCatalogFilterSelectionManager;
-    id recipeCatalogSearchViewController;
-    id $__lazy_storage_$_filterBarButtonItem;
-    id $__lazy_storage_$_stateFilterBarButtonItem;
-    id $__lazy_storage_$_recipeBoxBarButtonItem;
-    id $__lazy_storage_$_cancelSearchBarButtonItem;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (float);
+- (float)_setUnreadCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float confidenceCheckTimeout; // @synthesize confidenceCheckTimeout=_confidenceCheckTimeout;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAFamilyMember, NSArray;
+@class FAFamilyMember;
 
 @interface CNUICoreFamilyElement
 {
     FAFamilyMember *_familyMember;
-    NSArray *_matchingContacts;
 }
 
 - (id);
@@ -19,13 +18,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)OnCell:inRect: /* Error: Ran out of types for this method. */;
+- (void)textView:clickedOnCell:inRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
-@property(readonly, nonatomic) _Bool hasMatchingContacts;
-@property(readonly, nonatomic) _Bool isParent;
-@property(readonly, nonatomic) NSArray *matchingContacts; // @synthesize matchingContacts=_matchingContacts;
 
 @end
 

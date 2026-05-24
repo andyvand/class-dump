@@ -7,14 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)C;
+- (NSString *)PKInputPoint, std::allocator<PKInputPoint>>=^{?}^{?}{?=^{?}}}16 /* Error: Ran out of types for this method. */;
+- (_Bool)Z;
+
+@optional
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol UIAccessibilityIdentification
+- (NSString *)onToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityIdentifier;

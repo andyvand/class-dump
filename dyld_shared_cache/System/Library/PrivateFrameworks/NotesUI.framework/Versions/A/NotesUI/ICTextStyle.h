@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ICTextStyle
 {
     unsigned int _ttStyle;
-    NSDictionary *_attributes;
-    NSString *_name;
 }
 
-+ (unsigned int);
++ (unsigned int);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (void);
@@ -31,7 +29,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)ntVersion;
 + (id);
 - (void);
 - (_Bool);
@@ -41,17 +39,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SError"32;
 - (void);
 - (void)nder: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *attributedName;
 @property(retain) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly) _Bool isTextList;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *styleID;
-@property unsigned int ttStyle; // @synthesize ttStyle=_ttStyle;
 
 @end
 

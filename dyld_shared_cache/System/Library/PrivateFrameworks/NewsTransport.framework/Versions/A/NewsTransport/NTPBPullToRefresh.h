@@ -9,34 +9,29 @@
 @interface NTPBPullToRefresh
 {
     NSString *_viewId;
-    int _viewType;
-    CDStruct_372a990c _has;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)importItemProviders:(int)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)counterWidthConstraint;
+- (_Bool)countUpdateChange;
+- (void)assetsProducer;
+- (int)assetCollectionsCountForSection:(id)arg1;
 - (void);
+- (id);
+- (void)`n;
+- (id);
+- (void);
+- (void)3;
+- (unsigned long long)P,;
+- (_Bool)error %@;
 - (int);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (int);
-- (_Bool);
+- (_Bool)FeedItemCursor;
 - (id);
 - (id);
-- (void)p: /* Error: Ran out of types for this method. */;
+- (void)setLinkTap: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasViewId;
 @property(nonatomic) _Bool hasViewType;
-@property(retain, nonatomic) NSString *viewId; // @synthesize viewId=_viewId;
-@property(nonatomic) int viewType; // @synthesize viewType=_viewType;
 
 @end
 

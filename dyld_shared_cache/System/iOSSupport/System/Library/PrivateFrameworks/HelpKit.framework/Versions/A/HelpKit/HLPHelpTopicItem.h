@@ -6,41 +6,34 @@
 
 #import <HelpKit/HLPHelpItem.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface HLPHelpTopicItem : HLPHelpItem
 {
     NSString *_anchor;
     NSString *_hrefID;
-    NSString *_glossaryIdentifierString;
-    NSArray *_categories;
 }
 
 - (void);
-- (void);
+- (void);
+- (_Bool);
+- (_Bool)sS;
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void)nges:(id)arg1 withHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (void)registerForTraitChanges:(id)arg1 withHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;
-@property(copy, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(readonly, nonatomic, getter=isCopyright) _Bool copyright; // @dynamic copyright;
-@property(readonly, nonatomic, getter=isGlossary) _Bool glossary; // @dynamic glossary;
-@property(copy, nonatomic) NSString *glossaryIdentifierString; // @synthesize glossaryIdentifierString=_glossaryIdentifierString;
 @property(copy, nonatomic) NSString *hrefID; // @synthesize hrefID=_hrefID;
-@property(readonly, nonatomic, getter=isPassionPoints) _Bool passionPoints; // @dynamic passionPoints;
 
 @end
 

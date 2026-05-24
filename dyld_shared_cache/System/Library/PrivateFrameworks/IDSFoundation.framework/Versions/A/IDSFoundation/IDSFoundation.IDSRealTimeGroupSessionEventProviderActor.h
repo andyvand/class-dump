@@ -7,9 +7,6 @@
 @interface IDSFoundation.IDSRealTimeGroupSessionEventProviderActor
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
-    id _provider;
 }
 
 @end

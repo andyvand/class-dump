@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BTMManager, NSArray, NSMutableSet, NSSet;
+@class BTMManager, NSArray;
 
 @interface BTMList
 {
     BTMManager *_manager;
-    NSSet *_containers;
-    struct os_unfair_lock_s _observersLock;
-    unsigned int _uid;
-    long long _type;
-    NSArray *_items;
-    NSMutableSet *_observers;
 }
 
 + (_Bool);
@@ -32,11 +26,11 @@
 - (id);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool)ax];
 - (long long);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)oraryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSMatrix/LinearAlgebra/MPSMatrixFindTopK.mm;
 - (id);
 - (void);
 - (id);
@@ -45,9 +39,6 @@
 
 // Remaining properties
 @property(retain) NSArray *items; // @synthesize items=_items;
-@property(readonly) NSMutableSet *observers; // @synthesize observers=_observers;
-@property(readonly) long long type; // @synthesize type=_type;
-@property unsigned int uid; // @synthesize uid=_uid;
 
 @end
 

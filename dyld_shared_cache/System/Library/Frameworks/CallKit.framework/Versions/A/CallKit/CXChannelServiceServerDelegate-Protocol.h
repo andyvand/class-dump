@@ -5,5 +5,7 @@
 //
 
 @protocol CXChannelServiceServerDelegate
+- (void);
+- (void)Source.loadingTileDataAccessQueue;
 @end
 

@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIInputViewControllerOutput
 {
     _Bool _shouldDismiss;
-    _Bool _proceedShouldReturn;
-    _Bool _shouldAdvanceInputMode;
-    _Bool _setMarkedText;
-    _Bool _unmarkText;
-    _Bool _requiresInputManagerSync;
-    _Bool _shouldAdvanceResponder;
-    _Bool _shouldPostReturnKeyNotification;
-    NSArray *_keyboardOutputs;
-    NSString *_primaryLanguage;
-    NSNumber *_hasDictation;
-    NSString *_markedText;
-    long long _inputModeListTouchPhase;
-    double _inputModeListTouchBegan;
-    long long _source;
-    struct _NSRange _selectedRange;
-    struct CGPoint _inputModeListFromLocation;
-    struct CGPoint _inputModeListUpdatePoint;
 }
 
 + (_Bool)efault contents:%d
@@ -49,29 +32,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (long long);
-- (double);
-- (struct CGPoint);
+- (_Bool)Error"24;
+- (_Bool)erDelegate>";
+- (struct CGPoint)relayMessage:chat:didSendSMS:attemptingReplication:forceReflection:relayToWatchOnly:shouldDisableScreenTimeRestrictions:callerID:iMessageCapability:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (long long)relayMessage:chat:didSendSMS:attemptingReplication:forceReflection:relayToWatchOnly:shouldDisableScreenTimeRestrictions:callerID:iMessageCapability:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (double)relayLegacySatelliteMessage:toChat:localWatchOnly: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)relayEnrollmentController;
+- (void)",R,N,V_password;
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)ord from class %@ ******;
+- (id)ssageTapbackPipelineParameter %p> { guid:%@, assocatedMessageType:%lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (_Bool)deleteIncomingMessages;
 - (void);
 - (id);
-- (void);
+- (id);
+- (void)!;
+- (id);
+- (void)MPModelLibraryRequestPropertyFilterCodingKeyComparisonType;
 - (id);
 - (void);
-- (_Bool)etion;
-- (void)lter:(id)arg1;
-- (void)getsOnContentOffsetChanges;
-- (void)Controller:didChangeToState:withSize: /* Error: Ran out of types for this method. */;
+- (_Bool)transitionCompletion;
+- (void)setDisableFloatingKeyboardFilter:(id)arg1;
+- (void)adjustsTargetsOnContentOffsetChanges;
+- (void)_unspecifiedStylePanelController:didChangeToState:withSize: /* Error: Ran out of types for this method. */;
 - (id)V_shadowFadesToBottom;
 - (long long)stureRecognizer",&,N,V_pressGR;
 - (struct _NSRange)gKeyboardTrackingElement;
@@ -81,24 +64,7 @@ __attribute__((visibility("hidden")))
 - (id)zb;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *hasDictation; // @synthesize hasDictation=_hasDictation;
-@property(nonatomic) struct CGPoint inputModeListFromLocation; // @synthesize inputModeListFromLocation=_inputModeListFromLocation;
-@property(nonatomic) double inputModeListTouchBegan; // @synthesize inputModeListTouchBegan=_inputModeListTouchBegan;
-@property(nonatomic) long long inputModeListTouchPhase; // @synthesize inputModeListTouchPhase=_inputModeListTouchPhase;
-@property(nonatomic) struct CGPoint inputModeListUpdatePoint; // @synthesize inputModeListUpdatePoint=_inputModeListUpdatePoint;
 @property(retain, nonatomic) NSArray *keyboardOutputs; // @synthesize keyboardOutputs=_keyboardOutputs;
-@property(copy, nonatomic) NSString *markedText; // @synthesize markedText=_markedText;
-@property(copy, nonatomic) NSString *primaryLanguage; // @synthesize primaryLanguage=_primaryLanguage;
-@property(nonatomic) _Bool proceedShouldReturn; // @synthesize proceedShouldReturn=_proceedShouldReturn;
-@property(nonatomic) _Bool requiresInputManagerSync; // @synthesize requiresInputManagerSync=_requiresInputManagerSync;
-@property(nonatomic) struct _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
-@property(nonatomic) _Bool setMarkedText; // @synthesize setMarkedText=_setMarkedText;
-@property(nonatomic) _Bool shouldAdvanceInputMode; // @synthesize shouldAdvanceInputMode=_shouldAdvanceInputMode;
-@property(nonatomic) _Bool shouldAdvanceResponder; // @synthesize shouldAdvanceResponder=_shouldAdvanceResponder;
-@property(nonatomic) _Bool shouldDismiss; // @synthesize shouldDismiss=_shouldDismiss;
-@property(nonatomic) _Bool shouldPostReturnKeyNotification; // @synthesize shouldPostReturnKeyNotification=_shouldPostReturnKeyNotification;
-@property(nonatomic) long long source; // @synthesize source=_source;
-@property(nonatomic) _Bool unmarkText; // @synthesize unmarkText=_unmarkText;
 
 @end
 

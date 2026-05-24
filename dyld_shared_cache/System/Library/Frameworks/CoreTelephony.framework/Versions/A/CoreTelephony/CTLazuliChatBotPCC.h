@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotOrgDetails, NSString;
+@class CTLazuliChatBotOrgDetails;
 
 @interface CTLazuliChatBotPCC
 {
     CTLazuliChatBotOrgDetails *_orgDetails;
-    NSString *_pccType;
 }
 
-+ (_Bool);
++ (_Bool)networkTransactionMetrics;
 - (void);
 - (void);
 - (id);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliChatBotOrgDetails *orgDetails; // @synthesize orgDetails=_orgDetails;
-@property(retain, nonatomic) NSString *pccType; // @synthesize pccType=_pccType;
 
 @end
 

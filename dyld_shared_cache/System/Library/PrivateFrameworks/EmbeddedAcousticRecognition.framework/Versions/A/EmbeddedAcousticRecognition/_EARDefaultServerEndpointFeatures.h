@@ -7,10 +7,6 @@
 @interface _EARDefaultServerEndpointFeatures
 {
     float _endOfSentenceLikelihood;
-    float _acousticEndpointerScore;
-    float _silencePosterior;
-    long long _wordCount;
-    long long _trailingSilenceDuration;
 }
 
 - (id);
@@ -19,18 +15,14 @@
 - (float);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
-- (float);
+- (float)�;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) float acousticEndpointerScore; // @synthesize acousticEndpointerScore=_acousticEndpointerScore;
-@property(nonatomic) float endOfSentenceLikelihood; // @synthesize endOfSentenceLikelihood=_endOfSentenceLikelihood;
-@property(nonatomic) float silencePosterior; // @synthesize silencePosterior=_silencePosterior;
-@property(nonatomic) long long trailingSilenceDuration; // @synthesize trailingSilenceDuration=_trailingSilenceDuration;
 @property(nonatomic) long long wordCount; // @synthesize wordCount=_wordCount;
 
 @end

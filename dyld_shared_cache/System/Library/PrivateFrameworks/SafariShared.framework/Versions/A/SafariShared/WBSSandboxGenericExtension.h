@@ -11,7 +11,6 @@
 @interface WBSSandboxGenericExtension : WBSSandboxExtension
 {
     struct optional<long long> _handle;
-    NSString *_extensionToken;
 }
 
 - (id);

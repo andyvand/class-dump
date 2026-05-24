@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CLLocationManager;
 
 __attribute__((visibility("hidden")))
 @interface CoreLocationDelegate
 {
     CLLocationManager *_locationManager;
-    struct atomic<CLAuthorizationStatus> _authStatus;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)sionId=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

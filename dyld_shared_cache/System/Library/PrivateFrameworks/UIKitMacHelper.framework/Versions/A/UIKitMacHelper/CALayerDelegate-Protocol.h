@@ -9,6 +9,7 @@
 @protocol CALayerDelegate
 
 @optional
+- (void)ontrolcenter;
 - (id <CAAction>)istration status;
 @end
 

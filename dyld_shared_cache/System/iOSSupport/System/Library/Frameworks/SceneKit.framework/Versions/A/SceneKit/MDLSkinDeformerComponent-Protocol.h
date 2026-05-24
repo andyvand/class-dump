@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 @protocol MDLSkinDeformerComponent
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jointBindTransforms;
 @property(readonly, nonatomic) NSArray *jointPaths;
-@property(readonly, nonatomic) CDStruct_95fa7c00 meshBindTransform;
 @end
 

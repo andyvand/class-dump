@@ -4,69 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOOutOfMapsAlertsInfo, GEORestrictionZoneInfo, GEORoutePlanningInfo, GEOTraversalTimes, GEOWaypointRouteFeatures, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOWaypointRoute
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _initialPromptTypes;
-    NSMutableArray *_arrivalParameters;
-    GEOWaypointRouteFeatures *_feature;
-    NSMutableArray *_incidentsOnRouteLegs;
-    NSMutableArray *_names;
-    GEOOutOfMapsAlertsInfo *_outOfMapsAlertsInfo;
-    GEORestrictionZoneInfo *_restrictionZoneInfo;
-    NSMutableArray *_routeLegs;
-    GEORoutePlanningInfo *_routePlanningInfo;
-    NSMutableArray *_trafficBannerTexts;
-    NSMutableArray *_trafficCameras;
-    NSMutableArray *_trafficSignals;
-    GEOTraversalTimes *_traversalTimes;
-    GEOTraversalTimes *_tripTimes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _distanceMeters;
-    int _drivingSide;
-    unsigned int _identifier;
-    int _transportType;
-    int _type;
-    _Bool _isFamiliarRoute;
-    struct {
-        unsigned int has_distanceMeters:1;
-        unsigned int has_drivingSide:1;
-        unsigned int has_identifier:1;
-        unsigned int has_transportType:1;
-        unsigned int has_type:1;
-        unsigned int has_isFamiliarRoute:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_initialPromptTypes:1;
-        unsigned int read_arrivalParameters:1;
-        unsigned int read_feature:1;
-        unsigned int read_incidentsOnRouteLegs:1;
-        unsigned int read_names:1;
-        unsigned int read_outOfMapsAlertsInfo:1;
-        unsigned int read_restrictionZoneInfo:1;
-        unsigned int read_routeLegs:1;
-        unsigned int read_routePlanningInfo:1;
-        unsigned int read_trafficBannerTexts:1;
-        unsigned int read_trafficCameras:1;
-        unsigned int read_trafficSignals:1;
-        unsigned int read_traversalTimes:1;
-        unsigned int read_tripTimes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
++ (Class)echEndpointMarshAssets;
 + (Class);
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setOpenHours:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -87,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -113,73 +65,73 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)__objc_methtype;
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
+- (void)shouldWorkAroundMisconfiguredSandbox;
+- (void)shouldRedactLoggingDescription;
+- (void)shouldLogCropRectReadError: /* Error: Ran out of types for this method. */;
+- (void)setPropertiesToFetch: /* Error: Ran out of types for this method. */;
+- (void)setClasses:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)setByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
+- (void)primitiveCreationDateYearless;
+- (unsigned long long)fetchUncontainedObjectsWithEntityName:containerRelationshipName: /* Error: Ran out of types for this method. */;
+- (id)fetchRequestForStoresMatchingDescriptors:(unsigned long long)arg1;
+- (id)fetchRequestForStoresMatchingDescriptors: /* Error: Ran out of types for this method. */;
+- (void)connection;
+- (void)componentsInTimeZone:(id)arg1 fromDate: /* Error: Ran out of types for this method. */;
+- (void)componentsFromDate:(id)arg1;
+- (void)affectedStores;
+- (void)_notificationSource;
+- (void)_needsMovedAside;
+- (void);
+- (id)@h;
+- (id);
+- (void);
+- (int)changeTypeNumber;
+- (_Bool)scription>"8;
+- (int);
+- (void);
+- (unsigned int)VNFaceBBoxAligner";
 - (void);
 - (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (void)setSecondPassLastAudioPacketReceptionTime:(id)arg1;
+- (id)rEvent:secondPassRequest:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (int);
 - (_Bool);
 - (int);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (int);
-- (void);
+- (void)cInfoAttribution;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (int);
 - (void)'ð!Gù1¸*1Â0@ù
 × ;
 - (id)ñ¹*°1Â0@ù
 × ;
 - (id);
-- (void)ellNrRSRP:(int)arg1;
-- (id)sForListView;
-- (unsigned int)ifiers;
+- (void)setCellNrRSRP:(int)arg1;
+- (id)instructionStringsForListView;
+- (unsigned int)_clientIdentifiers;
 - (int)ssionData;
 - (id)N,V_bodyData;
-- (_Bool);
+- (_Bool)GEOJunction;
 - (id)SYNESS tile style not defined.;
-- (void);
+- (void)critical_battery_charge;
 - (void)ÿÿ;
 - (id)ÿÿ;
 - (_Bool)ÿÿ,t;
@@ -197,47 +149,7 @@ deprecated! (:false_
 - (id)¿;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *arrivalParameters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int distanceMeters;
-@property(nonatomic) int drivingSide;
-@property(retain, nonatomic) GEOWaypointRouteFeatures *feature;
-@property(nonatomic) _Bool hasDistanceMeters;
-@property(nonatomic) _Bool hasDrivingSide;
-@property(readonly, nonatomic) _Bool hasFeature;
-@property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIsFamiliarRoute;
-@property(readonly, nonatomic) _Bool hasOutOfMapsAlertsInfo;
-@property(readonly, nonatomic) _Bool hasRestrictionZoneInfo;
-@property(readonly, nonatomic) _Bool hasRoutePlanningInfo;
-@property(nonatomic) _Bool hasTransportType;
-@property(readonly, nonatomic) _Bool hasTraversalTimes;
-@property(readonly, nonatomic) _Bool hasTripTimes;
-@property(nonatomic) _Bool hasType;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int identifier;
-@property(retain, nonatomic) NSMutableArray *incidentsOnRouteLegs;
-@property(readonly, nonatomic) int *initialPromptTypes;
-@property(readonly, nonatomic) unsigned long long initialPromptTypesCount;
-@property(nonatomic) _Bool isFamiliarRoute;
-@property(retain, nonatomic) NSMutableArray *names;
-@property(retain, nonatomic) GEOOutOfMapsAlertsInfo *outOfMapsAlertsInfo;
-@property(retain, nonatomic) GEORestrictionZoneInfo *restrictionZoneInfo;
-@property(retain, nonatomic) NSMutableArray *routeLegs;
-@property(retain, nonatomic) GEORoutePlanningInfo *routePlanningInfo;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *trafficBannerTexts;
-@property(retain, nonatomic) NSMutableArray *trafficCameras;
-@property(retain, nonatomic) NSMutableArray *trafficSignals;
-@property(nonatomic) int transportType;
-@property(retain, nonatomic) GEOTraversalTimes *traversalTimes;
-@property(retain, nonatomic) GEOTraversalTimes *tripTimes;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

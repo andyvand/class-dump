@@ -6,27 +6,24 @@
 
 #import <C2/C2MultipeerConnection.h>
 
-@class NSMutableData, NSObject;
+@class NSObject;
 @protocol OS_nw_connection;
 
 __attribute__((visibility("hidden")))
 @interface C2MultipeerNetworkConnection : C2MultipeerConnection
 {
     int _connectionState;
-    NSObject<OS_nw_connection> *_connection;
-    NSMutableData *_receiveLengthBuffer;
-    NSMutableData *_receiveMessageBuffer;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id){;
 - (id);
+- (void)A;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)and adjusted kernel size ((kernel_size - 1) * dilation_rate + 1) (;
 - (void);
 - (int);
 - (void);
@@ -35,9 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(nonatomic) int connectionState; // @synthesize connectionState=_connectionState;
-@property(retain, nonatomic) NSMutableData *receiveLengthBuffer; // @synthesize receiveLengthBuffer=_receiveLengthBuffer;
-@property(retain, nonatomic) NSMutableData *receiveMessageBuffer; // @synthesize receiveMessageBuffer=_receiveMessageBuffer;
 
 @end
 

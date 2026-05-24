@@ -6,18 +6,11 @@
 
 #import <PhotosUICore/PXAudioSession.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, PXAppleMusicPlayerController;
+@class NSString;
 
 @interface PXAppleMusicAudioSession : PXAudioSession
 {
     _Bool _stateQueue_isPreparingToPlay;
-    _Bool _stateQueue_hasSeekedOrPlayed;
-    _Bool _stateQueue_shouldPlayWhenPrepared;
-    NSString *_playerClientIdentifier;
-    id <PXAppleMusicPlayerController> _playerController;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    long long _stateQueue_playerPlaybackState;
 }
 
 - (_Bool);
@@ -36,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
@@ -51,27 +44,14 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)_commonInit;
 - (void)¨þÿ0·éÿÌS1ÿDA;
 - (void);
 - (void);
 - (void)À ÿÀ>Käy>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *playerClientIdentifier; // @synthesize playerClientIdentifier=_playerClientIdentifier;
-@property(retain, nonatomic) id <PXAppleMusicPlayerController> playerController; // @synthesize playerController=_playerController;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property(nonatomic) _Bool stateQueue_hasSeekedOrPlayed; // @synthesize stateQueue_hasSeekedOrPlayed=_stateQueue_hasSeekedOrPlayed;
-@property(nonatomic) _Bool stateQueue_isPreparingToPlay; // @synthesize stateQueue_isPreparingToPlay=_stateQueue_isPreparingToPlay;
-@property(nonatomic) long long stateQueue_playerPlaybackState; // @synthesize stateQueue_playerPlaybackState=_stateQueue_playerPlaybackState;
-@property(nonatomic) _Bool stateQueue_shouldPlayWhenPrepared; // @synthesize stateQueue_shouldPlayWhenPrepared=_stateQueue_shouldPlayWhenPrepared;
-@property(readonly) Class superclass;
 
 @end
 

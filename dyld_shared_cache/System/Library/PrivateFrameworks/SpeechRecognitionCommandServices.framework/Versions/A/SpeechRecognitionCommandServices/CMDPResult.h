@@ -7,13 +7,10 @@
 @interface CMDPResult
 {
     struct unique_ptr<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>, std::default_delete<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>>> _resultFst;
-    struct unique_ptr<CMDPNormalizer, std::default_delete<CMDPNormalizer>> _normalizer;
-    struct vector<std::unique_ptr<CMDPToken>, std::allocator<std::unique_ptr<CMDPToken>>> _resultNodes;
-    struct set<std::string, std::less<std::string>, std::allocator<std::string>> _symbol_set;
 }
 
-+ (vector_bc136a2d);
-+ (vector_bc136a2d);
++ (vector_b6235956);
++ (vector_b6235956);
 - (id);
 - (id);
 - (id);

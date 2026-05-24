@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MechanismBase, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_os_log;
 
 @interface MechanismAssertion
 {
     NSString *_mechanismInitialDescription;
-    _Bool _acquired;
-    _Bool _monitoring;
-    MechanismBase *_mechanism;
-    NSObject<OS_os_log> *_log;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)p;
+- (void)ow_size must be positive-valued;
+- (void)ions;
+- (id)t get position, file %s is not open;
+- (_Bool)64File:(id)arg1:(id *)arg2 readLine() - file "%s" not opened in read mode;
+- (void)t write mode "%s";
+- (void)er (NULL);
+- (id)ew frame can be fed before the buffer (m_queue) has been emptied (call reset());
+- (void)elWin2MFCC:(id)arg1:init() has to be called before running /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -36,7 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) __weak MechanismBase *mechanism; // @synthesize mechanism=_mechanism;
 
 @end
 

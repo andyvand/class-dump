@@ -7,19 +7,16 @@
 @interface Navigation.MNTraceSelectStatementBuilder
 {
     id _trace;
-    id _tableName;
-    id _columns;
-    id _joinClauses;
 }
 
 - (id);
-- (void);
+- (void)NavigationPaneModifier;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)onnectFromVehicle: /* Error: Ran out of types for this method. */;
+- (void)vehicleMonitorDidDisconnectFromVehicle: /* Error: Ran out of types for this method. */;
 
 @end
 

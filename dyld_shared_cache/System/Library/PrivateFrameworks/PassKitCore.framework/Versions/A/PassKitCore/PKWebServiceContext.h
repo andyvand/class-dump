@@ -12,8 +12,8 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
-- (_Bool)GEBACK_CREDIT;
+- (void)clearNetworksExcludedFromAJDueToThresholds;
+- (_Bool)TRANSACTION_ADJUSTMENT_SUBTYPE_CHARGEBACK_CREDIT;
 - (void);
 
 @end

@@ -7,16 +7,11 @@
 @interface NewsUI2.LocalUnonboardedView
 {
     id mediaView;
-    id titleLabel;
-    id subtitleLabel;
-    id locationButtonHostingController;
-    id locationButton;
-    id onLocationButtonTapped;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)_emitNetworkOperationWithPerformanceMetrics:operationType:reason:blocksPlayback: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

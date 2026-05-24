@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface MDSObject
 {
     _Bool _deferShutdown;
-    _Bool _shutDown;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    unsigned long long _queueToken;
-    NSString *_activityRegistrationObjectId;
-    NSMutableDictionary *_registeredActivities;
-    struct _opaque_pthread_mutex_t _activityRegistrationLock;
-    NSMutableSet *_darwinNotificationMembershipSet;
-    _Bool _dealloced;
-    _Bool _gotShutdown;
-    _Bool _started;
 }
 
 + (struct __asl_object_s *);
@@ -53,7 +40,7 @@
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void)"NSArray",R,N,V_inputIndexArray;
 
 @end
 

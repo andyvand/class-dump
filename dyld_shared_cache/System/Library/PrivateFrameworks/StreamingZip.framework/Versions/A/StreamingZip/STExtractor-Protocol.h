@@ -7,12 +7,17 @@
 @protocol STExtractorDelegate;
 
 @protocol STExtractor
+- (void).xbs/TemporaryDirectory.OZFslg/Sources/ASEFramework/ASECalculateControlSettingV3.m" at line 142
+;
+- (void)JeTYdbBp4TQ6c/Library/Caches/com.apple.xbs/TemporaryDirectory.OZFslg/Sources/ASEFramework/ASEProcessingT1.m" at line 1903 goto EXIT
+;
+- (void)brary/BuildRoots/4~CNqLugDeO74yC6P4BXCqU2t86IJeTYdbBp4TQ6c/Library/Caches/com.apple.xbs/TemporaryDirectory.OZFslg/Sources/ASEFramework/ASEProcessingT1.m" at line 1903 goto EXIT
+;
+
+@optional
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool doesConsumeExtractedData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) __weak id <STExtractorDelegate> extractorDelegate;
 @end
 

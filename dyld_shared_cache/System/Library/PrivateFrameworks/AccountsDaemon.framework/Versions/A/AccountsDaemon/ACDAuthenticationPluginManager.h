@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACDAuthenticationPluginLoader, ACDQueueDictionary, ACRateLimiter, NSLock, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class ACDAuthenticationPluginLoader, ACRateLimiter;
 
 @interface ACDAuthenticationPluginManager
 {
     ACDAuthenticationPluginLoader *_authPluginLoader;
-    ACDQueueDictionary *_verificationHandlerQueues;
-    ACDQueueDictionary *_renewalHandlerQueues;
-    ACDQueueDictionary *_discoveryHandlerQueues;
-    NSMutableSet *_keysForRateExceededBugSent;
-    NSLock *_verificationHandlersLock;
-    NSLock *_renewalHandlersLock;
-    NSLock *_discoveryHandlersLock;
-    NSMutableDictionary *_authenticationPluginsByType;
-    NSObject<OS_dispatch_queue> *_authenticationPluginQueue;
 }
 
-+ (id);
++ (id)|
+;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)linkedLikenessesModelForNewLikeness:(id)arg1 currentLikenessesModel:(id)arg2 contact:(id)arg3;
+- (void)rator;
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)setTranslatesAutoresizingMaskIntoConstraints:(id)arg1;
+- (id)setKeepParentheses:(id)arg1;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)}[2@]B}16@0:(id)arg1 8;
+- (id)tc_stringByFixingUnpairedSurrogateCharactersInString:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);

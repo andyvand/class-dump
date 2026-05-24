@@ -7,11 +7,6 @@
 @interface PKBitmapConversionDescriptor
 {
     _Bool _floatingComponents;
-    unsigned char _bitsPerComponent;
-    unsigned int _byteOrder;
-    CDUnknownBlockType _alphaInfoTransform;
-    struct CGColorSpace *_colorSpace;
-    CDUnknownBlockType _colorTransformPolicy;
 }
 
 + (id);
@@ -23,25 +18,21 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)_;
+- (id)4
+;
 - (CDUnknownBlockType);
 - (unsigned int);
 - (CDUnknownBlockType);
 - (_Bool);
-- (unsigned char);
+- (unsigned char)@9_q ;
 - (void);
 - (id);
 - (struct CGColorSpace *);
-- (void)ieldEmailAddress;
+- (void)PKPassPersonalizationFieldEmailAddress;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType alphaInfoTransform; // @synthesize alphaInfoTransform=_alphaInfoTransform;
-@property(readonly, nonatomic) unsigned char bitsPerComponent; // @synthesize bitsPerComponent=_bitsPerComponent;
-@property(readonly, nonatomic) unsigned int byteOrder; // @synthesize byteOrder=_byteOrder;
-@property(readonly, nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, copy, nonatomic) CDUnknownBlockType colorTransformPolicy; // @synthesize colorTransformPolicy=_colorTransformPolicy;
-@property(nonatomic) _Bool floatingComponents; // @synthesize floatingComponents=_floatingComponents;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLDisqualifiedColumnExpression, NSString;
+@class NSString;
 
 @interface EFSQLColumnExpression
 {
     NSString *_name;
-    NSString *_tableName;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)#;
 - (id);
 - (id);
 - (id);
@@ -23,23 +22,23 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,24 +51,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)InDirectory:(id)arg1;
+- (void)_ensureCustomLogFileInDirectory:(id)arg1;
 - (id)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) EFSQLDisqualifiedColumnExpression *disqualified;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

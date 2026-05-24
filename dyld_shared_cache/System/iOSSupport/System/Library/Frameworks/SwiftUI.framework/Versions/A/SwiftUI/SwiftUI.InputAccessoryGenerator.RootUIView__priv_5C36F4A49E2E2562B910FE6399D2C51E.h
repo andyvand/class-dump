@@ -11,7 +11,7 @@
 
 - (struct CGSize);
 - (id);
-- (void);
+- (void)L;
 - (struct CGSize);
 - (id);
 - (void);

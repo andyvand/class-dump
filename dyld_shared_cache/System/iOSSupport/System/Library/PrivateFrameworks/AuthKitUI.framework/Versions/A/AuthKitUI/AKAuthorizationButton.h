@@ -11,7 +11,7 @@
     UILabel *_titleLabel;
 }
 
-- (void);
+- (void)4'A9+A9;
 - (void);
 - (id);
 - (void);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buttonText;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

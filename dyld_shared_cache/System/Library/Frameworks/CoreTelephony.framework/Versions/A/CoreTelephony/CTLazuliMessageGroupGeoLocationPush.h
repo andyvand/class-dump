@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliCustomMetaData, CTLazuliGroupChatInformation, CTLazuliLocationCoordinates;
+@class CTLazuliGroupChatInformation;
 
 @interface CTLazuliMessageGroupGeoLocationPush
 {
     CTLazuliGroupChatInformation *_chatInformation;
-    CTLazuliLocationCoordinates *_coordinates;
-    CTLazuliCustomMetaData *_metaData;
 }
 
-+ (_Bool);
++ (_Bool)mVariant:%@ toVariant:%@ videoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -22,9 +20,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)l;
 - (_Bool);
-- (void);
+- (void)Tq,R,N;
 - (id);
 - (id);
 - (void)ª)°1Â0@ù
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliGroupChatInformation *chatInformation; // @synthesize chatInformation=_chatInformation;
-@property(retain, nonatomic) CTLazuliLocationCoordinates *coordinates; // @synthesize coordinates=_coordinates;
-@property(retain, nonatomic) CTLazuliCustomMetaData *metaData; // @synthesize metaData=_metaData;
 
 @end
 

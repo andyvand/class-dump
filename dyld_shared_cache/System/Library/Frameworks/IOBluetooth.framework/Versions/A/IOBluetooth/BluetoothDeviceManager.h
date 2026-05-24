@@ -17,7 +17,7 @@
 - (void);
 - (unsigned char);
 - (unsigned char);
-- (void);
+- (void);
 - (int);
 - (id);
 - (int);
@@ -26,11 +26,11 @@
 - (void);
 - (int);
 - (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (id);
-- (id);
+- (id)b;
 - (int);
 - (void);
 - (id);

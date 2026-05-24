@@ -11,13 +11,13 @@
     NSArray *_accessoryButtons;
 }
 
-+ (id);
-+ (id);
++ (id)ed=YES but noteData.hasChanges=NO. Telling noteData that it has changes.;
++ (id)fier;
 - (void);
-- (id);
+- (id)plicating note;
 - (struct CGSize);
 - (void);
-- (struct CGSize)ownChat;
+- (struct CGSize)isKnownChat;
 - (void)ìÀ;
 
 // Remaining properties

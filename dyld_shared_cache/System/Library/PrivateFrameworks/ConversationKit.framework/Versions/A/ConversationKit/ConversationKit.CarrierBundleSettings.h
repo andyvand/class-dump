@@ -7,7 +7,6 @@
 @interface ConversationKit.CarrierBundleSettings
 {
     id logger;
-    id ctClient;
 }
 
 @end

@@ -7,11 +7,6 @@
 @interface NewsFeed.FeaturePromotionPresenter
 {
     id viewFactory;
-    id tabBarAccessoryManager;
-    id featureAvailability;
-    id presentationArchive;
-    id presentationTask;
-    id hostSessionRecord;
 }
 
 @end

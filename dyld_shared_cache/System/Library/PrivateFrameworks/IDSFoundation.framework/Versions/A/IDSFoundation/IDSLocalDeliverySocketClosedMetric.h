@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSLocalDeliverySocketClosedMetric
 {
     _Bool _isToDefaultPairedDevice;
-    NSString *_service;
-    unsigned long long _closeError;
-    unsigned long long _socketError;
-    unsigned long long _bytesSent;
-    unsigned long long _packetsSent;
-    unsigned long long _bytesReceived;
-    unsigned long long _packetsReceived;
 }
 
 - (unsigned long long);
@@ -25,30 +18,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id)|: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)%@; qualifiedEmergencyHandles = %@; qualifiedEmergencyHandlesIML = %@>;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bytesReceived; // @synthesize bytesReceived=_bytesReceived;
-@property(readonly, nonatomic) unsigned long long bytesSent; // @synthesize bytesSent=_bytesSent;
-@property(readonly, nonatomic) unsigned long long closeError; // @synthesize closeError=_closeError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isToDefaultPairedDevice; // @synthesize isToDefaultPairedDevice=_isToDefaultPairedDevice;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned long long packetsReceived; // @synthesize packetsReceived=_packetsReceived;
-@property(readonly, nonatomic) unsigned long long packetsSent; // @synthesize packetsSent=_packetsSent;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) unsigned long long socketError; // @synthesize socketError=_socketError;
-@property(readonly) Class superclass;
 
 @end
 

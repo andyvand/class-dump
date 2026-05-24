@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-@protocol MTLCommandQueue, MTLComputePipelineState, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 @interface SpatialAnalysisMetal
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    id <MTLComputePipelineState> _spatialAnalysisSumSad;
-    id <MTLComputePipelineState> _spatialAnalysisVariance;
-    id <MTLComputePipelineState> _spatialAnalysisDistance;
-    _Bool _supportsSIMDPermute;
-    _Bool _supportsQuadPermute;
-    struct MetalBufferPool _sumBufferPool;
-    struct MetalBufferPool _sadBufferPool;
-    struct MetalBufferPool _sumVarBufferPool;
-    struct CF<__CVMetalTextureCache *> _textureCacheLuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheChroma;
-    struct CF<__CVMetalTextureCache *> _textureCacheRGBALuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheRGBAChroma;
-    NSDictionary *_readAttributes;
-    NSDictionary *_writeAttributes;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (int);
 - (void);
 - (id);

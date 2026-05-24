@@ -11,10 +11,10 @@
 }
 
 + (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
 - (void);
-- (long long);
+- (long long)e work to do, but is throttled;
 - (_Bool)dampingSet"b1"frequencySet"b1"lengthSet"b1};
 
 // Remaining properties

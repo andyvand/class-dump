@@ -7,8 +7,6 @@
 @interface UIKit._UISceneKeyValueStorageComponent
 {
     id $__lazy_storage_$_controller;
-    id $__lazy_storage_$_hostInterface;
-    id $__lazy_storage_$_clientInterface;
 }
 
 - (id);

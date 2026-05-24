@@ -13,10 +13,10 @@
     NSString *_testMessage;
 }
 
-+ (id)erateDerivativesCancellationHandler: /* Error: Ran out of types for this method. */;
++ (id)_installGenerateDerivativesCancellationHandler: /* Error: Ran out of types for this method. */;
+- (id)appEntityRelevanceMicroLocationAndTimeOfDayFeatures;
 - (id);
-- (id);
-- (id);
+- (id)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
 - (void)±ð1Â0@ù
 × ;
 

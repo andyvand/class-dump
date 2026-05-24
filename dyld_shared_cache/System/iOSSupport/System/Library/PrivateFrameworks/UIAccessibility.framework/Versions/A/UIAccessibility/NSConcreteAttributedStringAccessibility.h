@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)@0:8B16 /* Error: Ran out of types for this method. */;
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

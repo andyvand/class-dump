@@ -5,13 +5,10 @@
 //
 
 @protocol PXGMutableDisplayAssetVideoPresentationController_Private
-- (CDStruct_1b6d18a9)alidateLayoutHelper;
+- (CDStruct_1b6d18a9)`;
+- (CDStruct_1b6d18a9)_invalidateLayoutHelper;
 
 // Remaining properties
-@property(nonatomic) long long actualPlayState;
-@property(nonatomic) CDStruct_1b6d18a9 actualTime;
-@property(nonatomic) _Bool isAtEnd;
 @property(nonatomic) _Bool isReadyForImmediatePlayback;
-@property(nonatomic) CDStruct_1b6d18a9 videoDuration;
 @end
 

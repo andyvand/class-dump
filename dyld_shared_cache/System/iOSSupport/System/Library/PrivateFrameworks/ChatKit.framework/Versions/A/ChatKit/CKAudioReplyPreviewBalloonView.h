@@ -11,19 +11,18 @@
 @interface CKAudioReplyPreviewBalloonView : CKColoredBalloonView
 {
     double _duration;
-    long long _waveformContentMode;
-    CKWaveformProgressView *_waveformProgressView;
 }
 
-- (id);
-- (long long);
+- (id)troller;
+- (long long)ashtagController",W,N,V_hashtagController;
 - (struct CGSize);
 - (void);
 - (void);
+- (void)cade-3146.121.7
+;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)"@m;
 - (void);
 - (double);
 - (void);
@@ -32,8 +31,6 @@
 - (void)SendMenuCellBlurContainerView;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) long long waveformContentMode; // @synthesize waveformContentMode=_waveformContentMode;
 @property(retain, nonatomic) CKWaveformProgressView *waveformProgressView; // @synthesize waveformProgressView=_waveformProgressView;
 
 @end

@@ -9,16 +9,13 @@
 @interface SFSpeechAnalyzerLanguageDetectorOptions
 {
     _Bool _useVAD;
-    NSArray *_languageConstraints;
-    unsigned long long _alternativeCount;
-    unsigned long long _resultReportingFrequency;
 }
 
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long);
+- (void)rxDecodingErrorsOverRxStart;
+- (id)sessionDidStart;
 - (id);
 - (void);
 - (_Bool);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alternativeCount; // @synthesize alternativeCount=_alternativeCount;
 @property(copy, nonatomic) NSArray *languageConstraints; // @synthesize languageConstraints=_languageConstraints;
-@property(readonly, nonatomic) unsigned long long resultReportingFrequency; // @synthesize resultReportingFrequency=_resultReportingFrequency;
-@property(nonatomic) _Bool useVAD; // @synthesize useVAD=_useVAD;
 
 @end
 

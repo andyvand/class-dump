@@ -5,5 +5,6 @@
 //
 
 @protocol SXAnalyticsReporting
+- (void);
 @end
 

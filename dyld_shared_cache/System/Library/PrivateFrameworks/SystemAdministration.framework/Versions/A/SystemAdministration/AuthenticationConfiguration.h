@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AdminAuthenticator, NSMutableArray, NSMutableSet, NSObject, NSString, SFAuthorization;
-@protocol OS_dispatch_queue;
+@class AdminAuthenticator, NSMutableArray;
 
 @interface AuthenticationConfiguration
 {
     NSMutableArray *_authStrings;
-    AdminAuthenticator *_authenticator;
-    SFAuthorization *_authorization;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_nameOverride;
-    NSString *_subtitleOverride;
-    NSString *_iconPathOverride;
-    NSMutableSet *_openAuthentications;
 }
 
 + (void);
@@ -34,16 +26,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)/;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) AdminAuthenticator *authenticator; // @synthesize authenticator=_authenticator;
-@property SFAuthorization *authorization; // @synthesize authorization=_authorization;
-@property(copy) NSString *iconPathOverride; // @synthesize iconPathOverride=_iconPathOverride;
-@property(copy) NSString *nameOverride; // @synthesize nameOverride=_nameOverride;
-@property(copy) NSString *subtitleOverride; // @synthesize subtitleOverride=_subtitleOverride;
 
 @end
 

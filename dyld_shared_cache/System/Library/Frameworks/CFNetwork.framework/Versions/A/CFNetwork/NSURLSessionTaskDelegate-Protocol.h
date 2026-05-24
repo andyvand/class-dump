@@ -7,7 +7,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void))ih8;
+- (void)k;
 - (void);
-- (void)nPropertyAllowHTTP3;
+- (void)_kCFURLConnectionPropertyAllowHTTP3;
 @end
 

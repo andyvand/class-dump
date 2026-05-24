@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBImageValue, _INPBPrivateMediaItemValueData, _INPBValueMetadata;
+@class NSArray, NSString, _INPBScoredValue, _INPBValueMetadata;
 
 @protocol _INPBMediaItemValue
-- (NSString *)tion:(int)arg1;
-- (NSArray *)etoothIdentifier;
-- (_Bool)tentResponseCodableDescriptionCurrencyCodeKey;
++ (Class);
+- (void);
+- (_INPBScoredValue *)M;
+- (NSString *)Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/err/err.c;
+- (void);
+- (NSString *)resolveDeleteMultipleForDeleteTimer:(int)arg1 completion: /* Error: Ran out of types for this method. */;
+- (NSArray *)hasBluetoothIdentifier;
+- (_Bool)__INIntentResponseCodableDescriptionCurrencyCodeKey;
 - (_Bool)&,N,V_focusStatus;
 - (void)_trueDisplayNameID;
-- (_Bool)NIMUM_TRANSFER_AMOUNT;
+- (_Bool)MINIMUM_TRANSFER_AMOUNT;
 - (void)utIntentResponse;
 - (_INPBValueMetadata *)SearchForMediaIntentResponse;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist;
-@property(retain, nonatomic) _INPBImageValue *artwork;
-@property(copy, nonatomic) NSString *assetInfo;
-@property(readonly, nonatomic) _Bool hasArtist;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasAssetInfo;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPrivateMediaItemValueData;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSArray *namedEntities;
-@property(readonly, nonatomic) unsigned long long namedEntitiesCount;
-@property(retain, nonatomic) _INPBPrivateMediaItemValueData *privateMediaItemValueData;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSArray *topics;
-@property(readonly, nonatomic) unsigned long long topicsCount;
-@property(nonatomic) int type;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

@@ -9,8 +9,6 @@
 @interface TIKeyboardShortcut
 {
     NSString *_keyEquivalent;
-    unsigned long long _modifierFlags;
-    NSString *_displayStringOverride;
 }
 
 + (id);
@@ -24,10 +22,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@"NSURL",R;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)predicatesForFacesNeedingFaceCropGeneration;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -37,9 +35,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayStringOverride; // @synthesize displayStringOverride=_displayStringOverride;
 @property(retain, nonatomic) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
-@property unsigned long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
 
 @end
 

@@ -12,16 +12,16 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)C;
 + (id);
-+ (void)tesChannelID;
-- (id);
++ (void)SoCStatsDeviceStatesChannelID;
+- (id)=;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_didSiriSessionStart;
 - (void);
 
 @end

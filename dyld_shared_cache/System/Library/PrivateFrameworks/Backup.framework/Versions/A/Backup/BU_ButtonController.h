@@ -6,25 +6,12 @@
 
 #import <Backup/BU_TViewController.h>
 
-@class BU_Button, BU_DateText, BU_TBackupView, NSLayoutConstraint, NSVisualEffectView;
+@class BU_Button, BU_TBackupView;
 
 __attribute__((visibility("hidden")))
 @interface BU_ButtonController : BU_TViewController
 {
     BU_TBackupView *_backupView;
-    NSVisualEffectView *_bottomButtonsVisualEffectView;
-    NSVisualEffectView *_sideButtonsVisualEffectView;
-    NSLayoutConstraint *_previousXConstraint;
-    NSLayoutConstraint *_previousYConstraint;
-    NSLayoutConstraint *_restoreXConstraint;
-    NSLayoutConstraint *_restoreYConstraint;
-    NSLayoutConstraint *_dateYConstraint;
-    NSLayoutConstraint *_dateWidthConstraint;
-    BU_Button *_cancelButton;
-    BU_Button *_restoreButton;
-    BU_Button *_previousButton;
-    BU_Button *_nextButton;
-    BU_DateText *_dateText;
 }
 
 + (id);
@@ -33,25 +20,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);@9(;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void)!;
+- (id);
+- (void)3;
 
 // Remaining properties
 @property(nonatomic) __weak BU_Button *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) __weak BU_DateText *dateText; // @synthesize dateText=_dateText;
-@property(nonatomic) __weak BU_Button *nextButton; // @synthesize nextButton=_nextButton;
-@property(nonatomic) __weak BU_Button *previousButton; // @synthesize previousButton=_previousButton;
-@property(nonatomic) __weak BU_Button *restoreButton; // @synthesize restoreButton=_restoreButton;
 
 @end
 

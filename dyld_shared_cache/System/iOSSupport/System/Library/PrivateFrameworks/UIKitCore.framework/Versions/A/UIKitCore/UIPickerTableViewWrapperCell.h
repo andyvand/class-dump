@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UIPickerTableViewWrapperCell : UIPickerTableViewCell
 {
     UIView *_wrappedView;
-    UIView *_wrappedViewContainer;
-    struct CGSize _wrappedViewSize;
-    struct UIEdgeInsets _wrappedViewInsets;
 }
 
 - (void);
@@ -24,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)!@ùq`°1Â0@ù
 × ;
 - (id)eometry={NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
-- (void);
+- (void)_hitTestedView;
 - (struct UIEdgeInsets)alue;
 - (id);
 - (id)er:but the completion handler was never called. /* Error: Ran out of types for this method. */;

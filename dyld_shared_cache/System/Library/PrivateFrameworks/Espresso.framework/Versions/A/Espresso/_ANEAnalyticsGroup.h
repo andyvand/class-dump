@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface _ANEAnalyticsGroup
 {
     NSNumber *_groupID;
-    NSArray *_layerInfo;
-    NSArray *_taskInfo;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)__shift) & 0x3F ; }))==(inval&0x3F);
+- (id);
 - (id)àà;
 - (void)¨;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) NSArray *layerInfo; // @synthesize layerInfo=_layerInfo;
-@property(readonly, nonatomic) NSArray *taskInfo; // @synthesize taskInfo=_taskInfo;
 
 @end
 

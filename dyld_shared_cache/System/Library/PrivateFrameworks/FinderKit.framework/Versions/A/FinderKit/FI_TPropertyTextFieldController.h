@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (_Bool):constrainSplitPosition:ofSubviewAt: /* Error: Ran out of types for this method. */;
++ (id)7;
+- (_Bool)splitView:constrainSplitPosition:ofSubviewAt: /* Error: Ran out of types for this method. */;
 
 @end
 

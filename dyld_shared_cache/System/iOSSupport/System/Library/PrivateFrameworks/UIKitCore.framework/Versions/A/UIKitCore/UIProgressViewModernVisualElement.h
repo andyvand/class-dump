@@ -6,41 +6,32 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, UIImageView, UIProgressView, UIVisualEffectView;
+@class UIProgressView;
 
 __attribute__((visibility("hidden")))
 @interface UIProgressViewModernVisualElement : UIView
 {
     UIView *_contentView;
-    UIImageView *_trackView;
-    UIImageView *_progressView;
-    _Bool _isAnimating;
-    NSArray *_trackColors;
-    NSArray *_progressColors;
-    UIVisualEffectView *_effectView;
-    UIView *_shadowView;
-    double _currentCornerRadius;
-    UIProgressView *_progressControlView;
 }
 
-+ (_Bool);
++ (_Bool)Started processing;
 + (struct CGSize);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned long long);
-+ (void);
++ (void);
+- (void);
+- (void)708;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)d;
+- (void)BlastDoorDeliveredQuietlyReceipt;
+- (void)for 1-1 chat did not match the participant's handle ID.;
 - (_Bool);
 - (_Bool);
 - (double);

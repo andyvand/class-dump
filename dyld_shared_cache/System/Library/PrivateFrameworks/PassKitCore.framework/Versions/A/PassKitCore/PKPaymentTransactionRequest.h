@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSSet, NSString, PKMerchant;
+@class NSSet;
 
 @interface PKPaymentTransactionRequest
 {
     _Bool _disputesOnly;
-    NSSet *_transactionSourceIdentifiers;
-    NSSet *_excludedTransactionSourceIdentifiers;
-    NSArray *_transactionTypes;
-    NSArray *_transactionSources;
-    NSArray *_transactionStatuses;
-    long long _peerPaymentSubType;
-    long long _topUpSubtype;
-    unsigned long long _peerPaymentPaymentMode;
-    NSString *_peerPaymentRequestToken;
-    NSDecimalNumber *_rewardsValue;
-    unsigned long long _rewardsValueUnit;
-    PKMerchant *_merchant;
-    long long _merchantCategory;
-    NSArray *_regions;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    long long _dateOrder;
-    NSDate *_startStatusChangeDate;
-    NSDate *_endStatusChangeDate;
-    NSString *_currencyCode;
-    NSArray *_amountComparisons;
-    NSSet *_tags;
-    NSString *_panIdentifier;
-    NSArray *_fundingSourceTypes;
-    NSArray *_excludedPeerPaymentPaymentModes;
-    long long _limit;
-    unsigned long long _hasBackingData;
-    unsigned long long _originatedByDevice;
 }
 
 + (_Bool)qî%°1Â0@ù
@@ -44,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ԡV;
 - (long long);
 - (id);
 - (void);
@@ -55,6 +27,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,78 +35,49 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)9�';
 - (id);
 - (long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)W;
 - (long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)os;
 - (id);
 - (void);
 - (long long);
 - (id)8;
 - (void)¬l;
-- (void)stReviewPromptDateKey;
-- (void)ken;
+- (void)PKLastReviewPromptDateKey;
+- (void)PKPeerPaymentInformalRequestToken;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *amountComparisons; // @synthesize amountComparisons=_amountComparisons;
-@property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) long long dateOrder; // @synthesize dateOrder=_dateOrder;
-@property(nonatomic) _Bool disputesOnly; // @synthesize disputesOnly=_disputesOnly;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSDate *endStatusChangeDate; // @synthesize endStatusChangeDate=_endStatusChangeDate;
-@property(retain, nonatomic) NSArray *excludedPeerPaymentPaymentModes; // @synthesize excludedPeerPaymentPaymentModes=_excludedPeerPaymentPaymentModes;
-@property(retain, nonatomic) NSSet *excludedTransactionSourceIdentifiers; // @synthesize excludedTransactionSourceIdentifiers=_excludedTransactionSourceIdentifiers;
-@property(retain, nonatomic) NSArray *fundingSourceTypes; // @synthesize fundingSourceTypes=_fundingSourceTypes;
-@property(nonatomic) unsigned long long hasBackingData; // @synthesize hasBackingData=_hasBackingData;
-@property(nonatomic) long long limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) PKMerchant *merchant; // @synthesize merchant=_merchant;
-@property(nonatomic) long long merchantCategory; // @synthesize merchantCategory=_merchantCategory;
-@property(nonatomic) unsigned long long originatedByDevice; // @synthesize originatedByDevice=_originatedByDevice;
-@property(retain, nonatomic) NSString *panIdentifier; // @synthesize panIdentifier=_panIdentifier;
-@property(nonatomic) unsigned long long peerPaymentPaymentMode; // @synthesize peerPaymentPaymentMode=_peerPaymentPaymentMode;
-@property(retain, nonatomic) NSString *peerPaymentRequestToken; // @synthesize peerPaymentRequestToken=_peerPaymentRequestToken;
-@property(nonatomic) long long peerPaymentSubType; // @synthesize peerPaymentSubType=_peerPaymentSubType;
-@property(retain, nonatomic) NSArray *regions; // @synthesize regions=_regions;
-@property(retain, nonatomic) NSDecimalNumber *rewardsValue; // @synthesize rewardsValue=_rewardsValue;
-@property(nonatomic) unsigned long long rewardsValueUnit; // @synthesize rewardsValueUnit=_rewardsValueUnit;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSDate *startStatusChangeDate; // @synthesize startStatusChangeDate=_startStatusChangeDate;
-@property(retain, nonatomic) NSSet *tags; // @synthesize tags=_tags;
-@property(nonatomic) long long topUpSubtype; // @synthesize topUpSubtype=_topUpSubtype;
 @property(retain, nonatomic) NSSet *transactionSourceIdentifiers; // @synthesize transactionSourceIdentifiers=_transactionSourceIdentifiers;
-@property(retain, nonatomic) NSArray *transactionSources; // @synthesize transactionSources=_transactionSources;
-@property(retain, nonatomic) NSArray *transactionStatuses; // @synthesize transactionStatuses=_transactionStatuses;
-@property(retain, nonatomic) NSArray *transactionTypes; // @synthesize transactionTypes=_transactionTypes;
 
 @end
 

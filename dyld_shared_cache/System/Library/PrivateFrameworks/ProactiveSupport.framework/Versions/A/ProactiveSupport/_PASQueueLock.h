@@ -10,16 +10,15 @@
 @interface _PASQueueLock
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id _guardedData;
 }
 
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (unsigned char);
 - (id);
-- (void);
+- (void)symbolicColorForLegacyRGB: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface UMLogMessage
 {
     NSMutableArray *_publicStrings;
-    NSMutableArray *_privateStrings;
 }
 
 - (id);

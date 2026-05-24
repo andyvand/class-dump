@@ -6,18 +6,14 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSItemResponseShapeType, EWSTargetFolderIdType, NSArray, NSString;
+@class EWSItemResponseShapeType;
 
 @interface EWSSyncFolderItemsType : EWSBaseRequestType
 {
     EWSItemResponseShapeType *_ItemShape;
-    EWSTargetFolderIdType *_SyncFolderId;
-    NSArray *_Ignore;
-    NSString *_SyncState;
-    long long _MaxChangesReturned;
 }
 
-+ (id);
++ (id)HySbGG;
 - (void);
 - (void);
 - (void);
@@ -31,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *Ignore; // @synthesize Ignore=_Ignore;
 @property(retain, nonatomic) EWSItemResponseShapeType *ItemShape; // @synthesize ItemShape=_ItemShape;
-@property(nonatomic) long long MaxChangesReturned; // @synthesize MaxChangesReturned=_MaxChangesReturned;
-@property(retain, nonatomic) EWSTargetFolderIdType *SyncFolderId; // @synthesize SyncFolderId=_SyncFolderId;
-@property(copy, nonatomic) NSString *SyncState; // @synthesize SyncState=_SyncState;
 
 @end
 

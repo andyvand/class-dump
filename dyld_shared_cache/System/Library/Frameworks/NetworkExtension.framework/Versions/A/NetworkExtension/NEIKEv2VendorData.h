@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void)ction: /* Error: Ran out of types for this method. */;
+- (void)updateFlow:withVerdict:forDirection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSData *vendorData; // @synthesize vendorData=_vendorData;

@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterLANFirewallRuleList
 {
     NSMutableArray *_multicastBridgingRules;
-    NSMutableArray *_staticPortRules;
-    NSMutableArray *_dynamicPortRules;
-    NSMutableArray *_staticICMPRules;
 }
 
-+ (id);
++ (id)momentOfCounty;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)predicateForContactsMatchingHandleStrings: /* Error: Ran out of types for this method. */;
+- (id)ssages;
 - (id);
 - (id);
 - (id);
@@ -31,20 +28,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)Shed;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *dynamicPortRules; // @synthesize dynamicPortRules=_dynamicPortRules;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *multicastBridgingRules; // @synthesize multicastBridgingRules=_multicastBridgingRules;
-@property(retain, nonatomic) NSMutableArray *staticICMPRules; // @synthesize staticICMPRules=_staticICMPRules;
-@property(retain, nonatomic) NSMutableArray *staticPortRules; // @synthesize staticPortRules=_staticPortRules;
-@property(readonly) Class superclass;
 
 @end
 

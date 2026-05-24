@@ -12,14 +12,10 @@ __attribute__((visibility("hidden")))
         unsigned long long count;
         unsigned long long size;
     } _events;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (void);
 - (void);
@@ -40,10 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *events;
-@property(readonly, nonatomic) unsigned long long eventsCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

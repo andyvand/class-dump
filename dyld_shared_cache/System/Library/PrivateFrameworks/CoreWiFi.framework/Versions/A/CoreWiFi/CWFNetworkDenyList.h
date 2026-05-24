@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface CWFNetworkDenyList
 {
     unsigned long long _profile;
-    NSMutableArray *_denyList;
-    _Bool _enabled;
-    CDUnknownBlockType _batteryInfoHandler;
-    CDUnknownBlockType _isUserModeInteractiveHandler;
-    CDUnknownBlockType _denyListDidUpdateHandler;
-    NSArray *_SSIDThresholds;
-    NSArray *_BSSIDThresholds;
-    double _wowDenyListExpiry;
-    double _autoJoinkDenyListExpiry;
-    double _BSSDenyListExpiry;
 }
 
 - (double);
@@ -40,10 +28,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -58,7 +46,7 @@
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -66,7 +54,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (double);
 - (id);
@@ -76,15 +64,7 @@
 - (void)_tdNetwork;
 
 // Remaining properties
-@property double BSSDenyListExpiry; // @synthesize BSSDenyListExpiry=_BSSDenyListExpiry;
-@property(retain) NSArray *BSSIDThresholds; // @synthesize BSSIDThresholds=_BSSIDThresholds;
-@property(retain) NSArray *SSIDThresholds; // @synthesize SSIDThresholds=_SSIDThresholds;
-@property double autoJoinkDenyListExpiry; // @synthesize autoJoinkDenyListExpiry=_autoJoinkDenyListExpiry;
 @property(copy) CDUnknownBlockType batteryInfoHandler; // @synthesize batteryInfoHandler=_batteryInfoHandler;
-@property(copy) CDUnknownBlockType denyListDidUpdateHandler; // @synthesize denyListDidUpdateHandler=_denyListDidUpdateHandler;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) CDUnknownBlockType isUserModeInteractiveHandler; // @synthesize isUserModeInteractiveHandler=_isUserModeInteractiveHandler;
-@property double wowDenyListExpiry; // @synthesize wowDenyListExpiry=_wowDenyListExpiry;
 
 @end
 

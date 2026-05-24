@@ -13,11 +13,12 @@
 }
 
 + (id);
-+ (id);
++ (id)(
+;
 + (id);
 - (id);
-- (id);
-- (id)ectionViewWillProgrammaticallyScroll:animated: /* Error: Ran out of types for this method. */;
+- (id)decodeIntegerForKey:(struct CGRect)arg1;
+- (id)collectionViewWillProgrammaticallyScroll:animated: /* Error: Ran out of types for this method. */;
 - (void)¨;
 
 // Remaining properties

@@ -11,24 +11,18 @@
 @interface AASetupAssistantCreateResponse : AAResponse
 {
     NSString *_HSAAction;
-    NSString *_HSAData;
 }
 
+- (id)CXLockFileInHomeDir() lockFileDescriptor = %d, removeLockFile = %d;
+- (id)pUser unable to find _mcxlpadmin group (%ld:%s) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)responseIdentifier:fireAndForget:requiredCapabilities:lackingCapabilities:error: /* Error: Ran out of types for this method. */;
+- (void)sendMessage:destinations:sendFromHandleUri:responseIdentifier:fireAndForget:requiredCapabilities:lackingCapabilities:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *HSAAction; // @synthesize HSAAction=_HSAAction;
-@property(readonly, nonatomic) NSString *HSAData; // @synthesize HSAData=_HSAData;
-@property(readonly, nonatomic) NSString *appleID;
-@property(readonly, nonatomic) NSString *personID;
 @property(readonly, nonatomic) NSNumber *status;
-@property(readonly, nonatomic) NSString *statusMessage;
 
 @end
 

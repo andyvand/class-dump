@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTimer;
-@protocol SO_AXCyclingViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface SO_AXCyclingView
 {
     _Bool _isCycling;
-    _Bool _shouldReduceMotion;
-    double _interval;
-    id <SO_AXCyclingViewDelegate> _delegate;
-    unsigned long long _cycleIndex;
-    NSTimer *_cycleTimer;
 }
 
 - (id);
@@ -35,18 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)mainQueue;
+- (id)SSRVoiceProfileManagerDelegate;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long cycleIndex; // @synthesize cycleIndex=_cycleIndex;
-@property(retain, nonatomic) NSTimer *cycleTimer; // @synthesize cycleTimer=_cycleTimer;
-@property(nonatomic) __weak id <SO_AXCyclingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
 @property(nonatomic) _Bool isCycling; // @synthesize isCycling=_isCycling;
-@property(nonatomic) _Bool shouldReduceMotion; // @synthesize shouldReduceMotion=_shouldReduceMotion;
-@property(readonly, nonatomic) NSArray *viewsInCycle;
 
 @end
 

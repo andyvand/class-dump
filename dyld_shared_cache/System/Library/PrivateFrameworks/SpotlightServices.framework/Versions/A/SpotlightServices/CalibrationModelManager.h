@@ -9,32 +9,26 @@
 @interface CalibrationModelManager
 {
     _Bool _loaded;
-    unsigned long long _chunkSize;
-    unsigned long long _batchSize;
-    calibration *_model;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)setLabel:(id)arg1;
+- (void)setCumulative:(id)arg1;
+- (id)initWithData:(unsigned long long)arg1 MIMEType:(unsigned long long)arg2;
+- (id)initWithCuratorID:(unsigned long long)arg1;
+- (id)countByEnumeratingWithState:(id)arg1 objects:(unsigned long long)arg2 count:(long long)arg3;
+- (id)_willStartFetchingMetadata;
+- (void)setMaximumNumberOfLogFiles:(unsigned long long)arg1;
+- (unsigned long long)maximumNumberOfLogFiles;
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)RISQLiteCKDatabase";
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void)parsedArgSearchTermFromQU;
+- (void)_parsedArgSearchTermFromQU;
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) unsigned long long chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(readonly) _Bool loaded; // @synthesize loaded=_loaded;
 @property(retain, nonatomic) calibration *model; // @synthesize model=_model;
 
 @end

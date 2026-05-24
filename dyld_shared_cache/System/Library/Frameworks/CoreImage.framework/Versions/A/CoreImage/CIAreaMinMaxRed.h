@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)hCGLContext:pixelFormat:options: /* Error: Ran out of types for this method. */;
+- (id)c;
+- (id)initWithCGLContext:pixelFormat:options: /* Error: Ran out of types for this method. */;
 
 @end
 

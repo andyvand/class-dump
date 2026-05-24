@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSExtensionsController, WKWebView;
+@class WKWebView;
 
 @interface WBSSafariExtensionStateObserver
 {
     WKWebView *_webView;
-    WBSExtensionsController *_extensionsController;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
+- (_Bool)Tv;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)	;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)N,V_scriptName;
 

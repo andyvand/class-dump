@@ -9,10 +9,6 @@
 @interface CKDApplicationID
 {
     NSString *_applicationBundleIdentifier;
-    NSString *_applicationBundleIdentifierOverrideForContainerAccess;
-    NSString *_applicationBundleIdentifierOverrideForNetworkAttribution;
-    NSString *_applicationBundleIdentifierOverrideForPushTopicGeneration;
-    NSString *_applicationBundleIdentifierOverrideForTCC;
 }
 
 + (_Bool);
@@ -20,12 +16,12 @@
 - (id);
 - (id);
 - (void);
+- (id)decodeContractStructure46: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long)SessionRef);
+- (_Bool)8q16q24;
+- (void)tG;
 - (id);
 - (id);
 - (id);
@@ -39,17 +35,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *applicationBundleIdentifierOverrideForContainerAccess; // @synthesize applicationBundleIdentifierOverrideForContainerAccess=_applicationBundleIdentifierOverrideForContainerAccess;
-@property(readonly, copy, nonatomic) NSString *applicationBundleIdentifierOverrideForNetworkAttribution; // @synthesize applicationBundleIdentifierOverrideForNetworkAttribution=_applicationBundleIdentifierOverrideForNetworkAttribution;
-@property(readonly, copy, nonatomic) NSString *applicationBundleIdentifierOverrideForPushTopicGeneration; // @synthesize applicationBundleIdentifierOverrideForPushTopicGeneration=_applicationBundleIdentifierOverrideForPushTopicGeneration;
-@property(readonly, copy, nonatomic) NSString *applicationBundleIdentifierOverrideForTCC; // @synthesize applicationBundleIdentifierOverrideForTCC=_applicationBundleIdentifierOverrideForTCC;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

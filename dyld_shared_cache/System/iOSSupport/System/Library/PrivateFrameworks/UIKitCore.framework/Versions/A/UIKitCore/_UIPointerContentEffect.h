@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPointerInteractionAnimator, UIPointerRegion, UIPointerStyle;
-@protocol _UIContentEffectDescriptor;
+@class UIPointerRegion;
 
 __attribute__((visibility("hidden")))
 @interface _UIPointerContentEffect
 {
     UIPointerRegion *_region;
-    UIPointerStyle *_style;
-    UIPointerInteractionAnimator *_entranceAnimator;
-    UIPointerInteractionAnimator *_exitAnimator;
-    double _liftProgress;
-    struct CGPoint _hoverLocation;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
+- (id)0@0:(id)arg1 8@"NSString"16{CGSize=dd}24;
+- (struct CGPoint)userNotificationCenter:openSettingsForNotification: /* Error: Ran out of types for this method. */;
+- (id)setNumReadReceiptsNoMessage: /* Error: Ran out of types for this method. */;
+- (id)setInterruptionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGPoint);
-- (id);
-- (id);
-- (id);
-- (void)hDefaultShadow;
-- (void)stedVerticalOffsetPinnedToScrollableBounds: /* Error: Ran out of types for this method. */;
+- (void)configureWithDefaultShadow;
+- (void)_adjustedVerticalOffsetPinnedToScrollableBounds: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)¨v^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <_UIContentEffectDescriptor> descriptor;
-@property(retain, nonatomic) UIPointerInteractionAnimator *entranceAnimator; // @synthesize entranceAnimator=_entranceAnimator;
-@property(retain, nonatomic) UIPointerInteractionAnimator *exitAnimator; // @synthesize exitAnimator=_exitAnimator;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint hoverLocation; // @synthesize hoverLocation=_hoverLocation;
-@property(nonatomic) double liftProgress; // @synthesize liftProgress=_liftProgress;
 @property(readonly, nonatomic) UIPointerRegion *region; // @synthesize region=_region;
-@property(readonly, nonatomic) UIPointerStyle *style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

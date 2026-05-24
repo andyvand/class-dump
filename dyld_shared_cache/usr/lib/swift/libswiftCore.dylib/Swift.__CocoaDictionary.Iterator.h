@@ -9,10 +9,6 @@
 @interface Swift.__CocoaDictionary.Iterator : Swift._SwiftObject
 {
     id _fastEnumerationState;
-    id _fastEnumerationStackBuf;
-    id base;
-    id itemIndex;
-    id itemCount;
 }
 
 @end

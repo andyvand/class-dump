@@ -7,21 +7,6 @@
 @interface ContactsUICore.ContactCardLabeledPropertyViewModel
 {
     id _label;
-    id _value;
-    id _hideValue;
-    id _originAppLabel;
-    id _isSuggestion;
-    id _trailingImage;
-    id _shouldBeVerbatim;
-    id _useCaseSensitivePunctuation;
-    id shouldStar;
-    id badgeText;
-    id highlightedColor;
-    id _isVerified;
-    id symbolName;
-    id _mapTile;
-    id allowsAction;
-    id _$observationRegistrar;
 }
 
 @end

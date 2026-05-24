@@ -7,7 +7,6 @@
 @interface ContactsFoundation.CNKeychainFacadeTestDouble
 {
     id keychainEnabled;
-    id keyDict;
 }
 
 - (id);

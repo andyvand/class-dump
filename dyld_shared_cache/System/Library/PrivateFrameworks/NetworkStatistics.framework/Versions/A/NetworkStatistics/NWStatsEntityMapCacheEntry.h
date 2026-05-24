@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface NWStatsEntityMapCacheEntry
 {
     NSDate *_expiryTime;
-    NSObject *_entityName;
 }
 
+- (void)setGridView:(id)arg1;
+- (id)networkBasedDictationSupportedLanguages;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)TRIWKMSBAAAuthenticationProvider;
 - (void);
 - (id)Ñ°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSObject *entityName; // @synthesize entityName=_entityName;
 @property(retain) NSDate *expiryTime; // @synthesize expiryTime=_expiryTime;
 
 @end

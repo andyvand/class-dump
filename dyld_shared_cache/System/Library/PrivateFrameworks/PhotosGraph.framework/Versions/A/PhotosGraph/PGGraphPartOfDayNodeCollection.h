@@ -14,7 +14,7 @@
 
 + (id);
 + (Class);
-- (id);
+- (id)isPluggedIn;
 - (void);
 
 // Remaining properties

@@ -4,53 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface EKUICalendarListContentConfiguration
 {
     _Bool _useAccessibilityLayoutForAltCalendarText;
-    NSString *_mainText;
-    NSString *_mainTextAbbr;
-    NSString *_altCalendarText;
-    NSString *_weekNumberText;
-    UIColor *_mainTextColor;
-    UIColor *_secondaryTextColor;
 }
 
+- (id)s;
+- (_Bool)s;
+- (void);
+- (void);
+- (void)s;
+- (void)&s;
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
-- (id);
-- (void)pdatingLocation;
+- (id)enumerateAttribute:(struct _NSZone *)arg1 inRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)stopUpdatingLocation;
 - (id)_keyboard;
 - (id)|£	ø¯L¶D·¸Ä¿@ÀhÃ¼ÃôÃ¼Ä,Å;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altCalendarText; // @synthesize altCalendarText=_altCalendarText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *mainText; // @synthesize mainText=_mainText;
-@property(copy, nonatomic) NSString *mainTextAbbr; // @synthesize mainTextAbbr=_mainTextAbbr;
-@property(retain, nonatomic) UIColor *mainTextColor; // @synthesize mainTextColor=_mainTextColor;
-@property(retain, nonatomic) UIColor *secondaryTextColor; // @synthesize secondaryTextColor=_secondaryTextColor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useAccessibilityLayoutForAltCalendarText; // @synthesize useAccessibilityLayoutForAltCalendarText=_useAccessibilityLayoutForAltCalendarText;
-@property(copy, nonatomic) NSString *weekNumberText; // @synthesize weekNumberText=_weekNumberText;
 
 @end
 

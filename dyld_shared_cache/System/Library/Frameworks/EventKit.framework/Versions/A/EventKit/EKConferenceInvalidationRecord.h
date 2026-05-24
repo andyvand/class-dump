@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface EKConferenceInvalidationRecord
 {
     NSURL *_validURL;
-    NSMutableSet *_replacementForURLs;
-    NSMutableArray *_waitingCompletionHandlers;
 }
 
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)teDetector] %@:DataSource says output device %@ is %@ /* Error: Ran out of types for this method. */;
+- (void)iring device %@...;
+- (void)ientProperties %{public}@;
 - (void)á#°!ÐCù±2'1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *replacementForURLs; // @synthesize replacementForURLs=_replacementForURLs;
 @property(retain, nonatomic) NSURL *validURL; // @synthesize validURL=_validURL;
-@property(retain, nonatomic) NSMutableArray *waitingCompletionHandlers; // @synthesize waitingCompletionHandlers=_waitingCompletionHandlers;
 
 @end
 

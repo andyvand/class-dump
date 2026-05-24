@@ -7,11 +7,6 @@
 @interface TPPBPeerStableInfoSetting
 {
     unsigned long long _clock;
-    _Bool _value;
-    struct {
-        unsigned int clock:1;
-        unsigned int value:1;
-    } _has;
 }
 
 - (void);
@@ -20,23 +15,20 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)i~;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)gth %u;
+- (void)handleFailureInFunction:(_Bool)arg1 file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (id)apEndpointRemoteControlSession_ensureAndCopyTransportStreams;
+- (_Bool)apsession_connect;
+- (id)a;
 - (void);
 - (unsigned long long);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long clock; // @synthesize clock=_clock;
 @property(nonatomic) _Bool hasClock;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

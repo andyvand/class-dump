@@ -7,16 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CommonTableExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _ctename;
-    id _aliascolnames;
-    id _ctematerialized;
-    id _ctequery;
-    id _location;
-    id _cterecursive;
-    id _cterefcount;
-    id _ctecolnames;
-    id _ctecoltypes;
-    id _ctecoltypmods;
-    id _ctecolcollations;
 }
 
 @end

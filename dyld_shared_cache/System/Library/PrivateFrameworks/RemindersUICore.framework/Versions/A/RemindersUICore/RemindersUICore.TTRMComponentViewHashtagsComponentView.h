@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)BlueprintHorizontalScrollShimView;
 - (id);
 - (id);
 - (void);

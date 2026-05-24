@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)C;
 + (Class);
-- (id);
+- (id);
 
 @end
 

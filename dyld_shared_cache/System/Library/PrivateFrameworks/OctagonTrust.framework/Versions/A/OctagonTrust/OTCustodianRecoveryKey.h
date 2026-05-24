@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface OTCustodianRecoveryKey
 {
     NSUUID *_uuid;
-    NSData *_wrappingKey;
-    NSData *_wrappedKey;
-    NSString *_recoveryString;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)9;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)9;
 - (id);
 - (_Bool);
 - (void);
@@ -31,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *recoveryString; // @synthesize recoveryString=_recoveryString;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) NSData *wrappedKey; // @synthesize wrappedKey=_wrappedKey;
-@property(readonly, nonatomic) NSData *wrappingKey; // @synthesize wrappingKey=_wrappingKey;
 
 @end
 

@@ -6,15 +6,13 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface SMSessionStore : RTStore
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)generateAndRestorePersonaContextWithPersonaUniqueString:(id)arg1;
++ (id)submit;
++ (_Bool)n't use public key;
 - (void);
 - (void);
 - (void);
@@ -26,6 +24,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,38 +38,25 @@
 - (void);
 - (void);
 - (void);
+- (void)@0:(id)arg1 8@16@24@32@40;
+- (void)<v@?B@"NSError">32;
+- (void)Dictionary"24B32;
+- (void)ing"56@?<v@?B@"PCSMTT"@"NSError">64;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)i32@0:(CDUnknownBlockType)arg1 8@16@24;
+- (void)setCurrentItemReference:(id)arg1;
+- (void)setCurrentItemNegativeCache:(id)arg1;
+- (void)setCurrentIdentity:(id)arg1 persistentReference:(CDUnknownBlockType)arg2;
+- (void)setContext:(id)arg1;
+- (void)setClasses:(id)arg1 forSelector:(CDUnknownBlockType)arg2 argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)setCanSendMetrics:(id)arg1;
+- (void)hasHsmBlob;
+- (void)getRecordIDData:(CDUnknownBlockType)arg1;
+- (void)getPCSIdentities:(CDUnknownBlockType)arg1 forServiceID:result: /* Error: Ran out of types for this method. */;
 - (id)0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

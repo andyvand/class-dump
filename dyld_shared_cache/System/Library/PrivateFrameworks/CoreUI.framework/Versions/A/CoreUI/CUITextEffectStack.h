@@ -16,7 +16,7 @@
 - (struct CGColor *);
 - (id);
 - (double);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);

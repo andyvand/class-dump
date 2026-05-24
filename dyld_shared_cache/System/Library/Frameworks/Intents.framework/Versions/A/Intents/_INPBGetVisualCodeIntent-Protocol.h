@@ -7,12 +7,11 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBGetVisualCodeIntent
-- (_Bool)lsType;
+- (void);
+- (_INPBIntentMetadata *)to build backup storage directory. error %@;
+- (_Bool)billsType;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasVisualCodeType;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int visualCodeType;
 @end
 

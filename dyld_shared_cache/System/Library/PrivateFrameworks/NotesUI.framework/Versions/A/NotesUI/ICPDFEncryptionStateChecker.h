@@ -9,7 +9,6 @@
 @interface ICPDFEncryptionStateChecker
 {
     NSURL *_pdfURL;
-    unsigned long long _encryptionState;
 }
 
 - (void);
@@ -17,11 +16,10 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)anel:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:runWebAuthenticationPanel:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long encryptionState; // @synthesize encryptionState=_encryptionState;
-@property(readonly, copy, nonatomic) NSURL *pdfURL; // @synthesize pdfURL=_pdfURL;
 
 @end
 

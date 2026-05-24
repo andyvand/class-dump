@@ -9,20 +9,17 @@
 @interface PLThreadStats
 {
     NSDictionary *_processThreadMap;
-    double _absoluteTimeFilter;
-    unsigned long long _percentTimeFilter;
-    NSDictionary *_currentSnapshot;
 }
 
 + (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)0;
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -32,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property double absoluteTimeFilter; // @synthesize absoluteTimeFilter=_absoluteTimeFilter;
-@property(retain) NSDictionary *currentSnapshot; // @synthesize currentSnapshot=_currentSnapshot;
-@property unsigned long long percentTimeFilter; // @synthesize percentTimeFilter=_percentTimeFilter;
 @property(retain) NSDictionary *processThreadMap; // @synthesize processThreadMap=_processThreadMap;
 
 @end

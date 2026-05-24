@@ -7,6 +7,6 @@
 @interface UnknownClass (BSTimeUtilities)
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8E;
 @end
 

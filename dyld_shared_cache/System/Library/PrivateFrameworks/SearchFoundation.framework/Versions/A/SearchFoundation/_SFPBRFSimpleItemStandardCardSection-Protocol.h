@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSimpleItemStandardCardSection
+- (_SFPBRFTextProperty *)B;
+- (_SFPBRFTextProperty *);
+- (void);
+- (void)$;
+- (_SFPBRFTextProperty *)="__cap_"^{PDFDetectedFormRow}}};
+- (NSData *)iveAssetResourcesRequest;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(copy, nonatomic) NSArray *text_4s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6;
 @end
 

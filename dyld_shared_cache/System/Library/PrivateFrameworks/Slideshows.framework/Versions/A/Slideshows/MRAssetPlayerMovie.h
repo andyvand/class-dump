@@ -6,32 +6,15 @@
 
 #import <Slideshows/MRAssetPlayer.h>
 
-@class AVPlayer, AVPlayerItem, AVPlayerItemVideoOutput, NSConditionLock, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AVPlayer;
 
 @interface MRAssetPlayerMovie : MRAssetPlayer
 {
     AVPlayer *_avPlayer;
-    AVPlayerItem *_playerItem;
-    AVPlayerItemVideoOutput *_videoOutput;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    double _movieDuration;
-    NSConditionLock *_semaphore;
-    unsigned char _orientation;
-    _Bool _newImageIsAvailable;
-    _Bool _movieIsReadyToPlay;
-    _Bool _imageIsThumbnail;
-    _Bool _isPlaying;
-    _Bool _isMuted;
-    double _startTime;
-    double _duration;
-    double _fadeInDuration;
-    double _fadeOutDuration;
-    double _volume;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)EnvelopeContentTypesFromEntries(NSArray<id<NDAnalyticsEnvelopeStoreEntry>> *__strong _Nonnull);
 - (void);
 - (id);
 - (id);
@@ -39,13 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (double);
 - (double);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)T;
 - (double);
 - (void);
 - (void);
@@ -57,21 +40,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration=_fadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(nonatomic) _Bool isPlaying; // @synthesize isPlaying=_isPlaying;
 @property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(nonatomic) double time;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
 
 @end
 

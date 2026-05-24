@@ -6,22 +6,20 @@
 
 #import <LocalAuthentication/LARight.h>
 
-@class LAPrivateKey, LASecret, NSArray;
+@class LAPrivateKey, NSArray;
 
 @interface LAPersistedRight : LARight
 {
     NSArray *_secrets;
-    NSArray *_privateKeys;
 }
 
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LAPrivateKey *key;
-@property(readonly, nonatomic) LASecret *secret;
 
 @end
 

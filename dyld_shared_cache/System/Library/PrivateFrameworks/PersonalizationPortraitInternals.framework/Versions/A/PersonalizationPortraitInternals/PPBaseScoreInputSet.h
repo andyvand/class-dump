@@ -9,27 +9,25 @@
 @interface PPBaseScoreInputSet
 {
     _PASLock *_scalarMap;
-    _PASLock *_arrayMap;
-    _PASLock *_objectMap;
 }
 
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long)essage as unread that wasn't the last message:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (void)topicDecayHalfLifeSeconds;
 
 @end
 

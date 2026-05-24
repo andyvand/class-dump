@@ -4,75 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddress, GEOBusiness, GEOLatLng, GEOMapRegion, GEOStructuredAddress, GEOTimezone, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    long long _uID;
-    GEOAddress *_address;
-    double _area;
-    NSMutableArray *_business;
-    GEOLatLng *_center;
-    GEOMapRegion *_displayMapRegion;
-    NSMutableArray *_entryPoints;
-    long long _geoId;
-    GEOMapRegion *_mapRegion;
-    NSString *_name;
-    GEOAddress *_phoneticAddress;
-    NSString *_phoneticLocaleIdentifier;
-    NSString *_phoneticName;
-    NSMutableArray *_roadAccessPoints;
-    NSString *_spokenAddress;
-    NSString *_spokenName;
-    GEOStructuredAddress *_spokenStructuredAddress;
-    GEOTimezone *_timezone;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _addressGeocodeAccuracy;
-    int _localSearchProviderID;
-    int _referenceFrame;
-    int _type;
-    _Bool _isDisputed;
-    struct {
-        unsigned int has_uID:1;
-        unsigned int has_area:1;
-        unsigned int has_geoId:1;
-        unsigned int has_addressGeocodeAccuracy:1;
-        unsigned int has_localSearchProviderID:1;
-        unsigned int has_referenceFrame:1;
-        unsigned int has_type:1;
-        unsigned int has_isDisputed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_address:1;
-        unsigned int read_business:1;
-        unsigned int read_center:1;
-        unsigned int read_displayMapRegion:1;
-        unsigned int read_entryPoints:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_name:1;
-        unsigned int read_phoneticAddress:1;
-        unsigned int read_phoneticLocaleIdentifier:1;
-        unsigned int read_phoneticName:1;
-        unsigned int read_roadAccessPoints:1;
-        unsigned int read_spokenAddress:1;
-        unsigned int read_spokenName:1;
-        unsigned int read_spokenStructuredAddress:1;
-        unsigned int read_timezone:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (id);
 + (Class);
++ (id);
 + (id);
++ (id)n`;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)inate;
 + (id);
 + (Class);
 + (id);
@@ -80,8 +26,8 @@
 + (id)
 × ;
 + (id);
-+ (_Bool)rruptionHandler:(id)arg1;
-+ (id)DisplayHeader;
++ (_Bool)setInterruptionHandler:(id)arg1;
++ (id)resultDisplayHeader;
 + (id)´@ídÔ´ôdì´ùd´he´(e0´àeD´eX´\el´e´|e´<e¨´`2e¼´ÄFe ´ÄMe4´ìRed´¼Sex´¨Ve¬´XaeÀ´ eÔ´eè´Üe	´¸eH	´üe\	´´ep	´Ä e	´°e	´`´e¬	´P¸eØ	´Ðºe
 ´Æe 
 ´àÇe4
@@ -93,58 +39,7 @@
 + (id)@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAddress *address;
-@property(nonatomic) int addressGeocodeAccuracy;
-@property(nonatomic) double area;
-@property(retain, nonatomic) NSMutableArray *business;
-@property(retain, nonatomic) GEOLatLng *center;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOMapRegion *displayMapRegion;
-@property(retain, nonatomic) NSMutableArray *entryPoints;
-@property(readonly, nonatomic) GEOBusiness *firstBusiness;
-@property(nonatomic) long long geoId;
-@property(readonly, nonatomic) _Bool hasAddress;
-@property(nonatomic) _Bool hasAddressGeocodeAccuracy;
-@property(nonatomic) _Bool hasArea;
-@property(readonly, nonatomic) _Bool hasCenter;
-@property(readonly, nonatomic) _Bool hasDisplayMapRegion;
-@property(nonatomic) _Bool hasGeoId;
-@property(nonatomic) _Bool hasIsDisputed;
-@property(nonatomic) _Bool hasLocalSearchProviderID;
-@property(readonly, nonatomic) _Bool hasMapRegion;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasPhoneticAddress;
-@property(readonly, nonatomic) _Bool hasPhoneticLocaleIdentifier;
-@property(readonly, nonatomic) _Bool hasPhoneticName;
-@property(nonatomic) _Bool hasReferenceFrame;
-@property(readonly, nonatomic) _Bool hasSpokenAddress;
-@property(readonly, nonatomic) _Bool hasSpokenName;
-@property(readonly, nonatomic) _Bool hasSpokenStructuredAddress;
-@property(readonly, nonatomic) _Bool hasTimezone;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasUID;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDisputed;
-@property(nonatomic) int localSearchProviderID;
-@property(retain, nonatomic) GEOMapRegion *mapRegion;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) GEOAddress *phoneticAddress;
-@property(retain, nonatomic) NSString *phoneticLocaleIdentifier;
-@property(retain, nonatomic) NSString *phoneticName;
-@property(nonatomic) int referenceFrame;
-@property(retain, nonatomic) NSMutableArray *roadAccessPoints;
-@property(retain, nonatomic) NSString *spokenAddress;
-@property(retain, nonatomic) NSString *spokenName;
-@property(retain, nonatomic) GEOStructuredAddress *spokenStructuredAddress;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEOTimezone *timezone;
-@property(nonatomic) int type;
-@property(nonatomic) long long uID;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

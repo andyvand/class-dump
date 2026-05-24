@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKSharingMessage.h>
 
-@class NSArray, NSString, PKPassShareActivationOptions, PKSharingMesageProprietaryData;
+@class NSArray;
 
 @interface PKSharingPushProvisioningInvitation : PKSharingMessage
 {
     NSArray *_metadatas;
-    PKPassShareActivationOptions *_activationOptions;
-    PKSharingMesageProprietaryData *_proprietaryData;
 }
 
 + (_Bool);
@@ -27,10 +25,7 @@
 - (void)ovisioningContext:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPassShareActivationOptions *activationOptions; // @synthesize activationOptions=_activationOptions;
 @property(readonly, nonatomic) NSArray *metadatas; // @synthesize metadatas=_metadatas;
-@property(readonly, nonatomic) PKSharingMesageProprietaryData *proprietaryData; // @synthesize proprietaryData=_proprietaryData;
-@property(readonly, nonatomic) NSString *provisioningCredentialHash;
 
 @end
 

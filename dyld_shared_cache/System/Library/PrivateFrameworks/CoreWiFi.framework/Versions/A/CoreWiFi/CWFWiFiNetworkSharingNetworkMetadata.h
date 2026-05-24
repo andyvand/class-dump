@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface CWFWiFiNetworkSharingNetworkMetadata
 {
     _Bool _waitingForAssociation;
-    NSDate *_firstSharedDate;
-    NSDate *_mostRecentlySharedDate;
-    long long _askToShareStatus;
-    NSDate *_askToShareStatusUpdatedTimestamp;
-    NSDate *_lastModifiedDate;
 }
 
 + (_Bool);
@@ -22,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -34,17 +27,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)e_copy_device_with_uuid_and_trust_level:(struct _NSZone *)arg1 device not found;
 - (id);
 - (void);
 - (void)Measurements;
 
 // Remaining properties
-@property long long askToShareStatus; // @synthesize askToShareStatus=_askToShareStatus;
-@property(copy) NSDate *askToShareStatusUpdatedTimestamp; // @synthesize askToShareStatusUpdatedTimestamp=_askToShareStatusUpdatedTimestamp;
-@property(copy) NSDate *firstSharedDate; // @synthesize firstSharedDate=_firstSharedDate;
-@property(copy) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(copy) NSDate *mostRecentlySharedDate; // @synthesize mostRecentlySharedDate=_mostRecentlySharedDate;
 @property _Bool waitingForAssociation; // @synthesize waitingForAssociation=_waitingForAssociation;
 
 @end

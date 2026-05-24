@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface ADBackgroundTaskRequest
 {
     _Bool _performDeferralCheck;
-    NSObject<OS_xpc_object> *_activity;
-    NSString *_requestIdentifier;
-    NSObject<OS_xpc_object> *_criteria;
-    NSDate *_startDate;
 }
 
-- (void);
+- (void)!;
 - (double);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (_Bool);
-- (void);
+- (void)NSt3__110__function6__funcIZN11cnframework12ActiveObjectIN5raven37RavenConvergenceEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_25PositionContextStateEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
 - (_Bool);
 - (void);
@@ -32,31 +28,31 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (long long);
+- (id)connectionForMachService: /* Error: Ran out of types for this method. */;
+- (id)@];
+- (id)yet, skipping population;
+- (void);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)int=dd}24;
+- (_Bool)_hasFlexibleContentSize;
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)encodeFloat:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (long long);
@@ -69,27 +65,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(nonatomic) _Bool allowBattery;
-@property(nonatomic) long long backgroundTaskRetryCount;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *criteria; // @synthesize criteria=_criteria;
-@property(nonatomic) long long delay;
-@property(nonatomic) long long gracePeriod;
-@property(nonatomic) _Bool isCPUIntensive;
-@property(nonatomic) _Bool isRepeating;
-@property(nonatomic) _Bool performDeferralCheck; // @synthesize performDeferralCheck=_performDeferralCheck;
-@property(retain, nonatomic) NSString *priority;
-@property(readonly, copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(nonatomic) _Bool requireBuddyComplete;
-@property(nonatomic) _Bool requireClassCData;
-@property(nonatomic) _Bool requireSleep;
-@property(nonatomic) _Bool requiresNetworkConnectivity;
-@property(readonly, nonatomic) _Bool shouldDefer;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

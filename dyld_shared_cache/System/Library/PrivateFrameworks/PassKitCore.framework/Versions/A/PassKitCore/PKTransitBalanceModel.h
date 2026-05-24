@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, PKPaymentPass, PKTransitPassProperties;
+@class NSDictionary, PKPaymentPass;
 
 @interface PKTransitBalanceModel
 {
     NSDictionary *_balancesByID;
-    PKTransitPassProperties *_transitProperties;
-    NSArray *_dynamicPlans;
-    NSMutableDictionary *_dynamicPlansByUniqueId;
-    PKPaymentPass *_pass;
-    NSArray *_displayableBalances;
-    NSArray *_displayableCurrencyBalances;
-    NSArray *_displayablePointsBalances;
-    NSArray *_displayableCommutePlanBalances;
-    NSArray *_transitCommutePlans;
-    NSArray *_displayableCommutePlans;
-    NSArray *_displayableCommutePlanActions;
-    NSMutableArray *_balanceFields;
 }
 
 + (_Bool);
@@ -36,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)k@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -46,39 +34,21 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void)Alert;
+- (void)factaExtendedAlert;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *balanceFields; // @synthesize balanceFields=_balanceFields;
-@property(readonly, nonatomic) NSDictionary *balancesAndCountPlansByID;
-@property(readonly, nonatomic) NSArray *displayableBalances; // @synthesize displayableBalances=_displayableBalances;
-@property(readonly, nonatomic) NSArray *displayableCommutePlanActions; // @synthesize displayableCommutePlanActions=_displayableCommutePlanActions;
-@property(readonly, nonatomic) NSArray *displayableCommutePlanBalances; // @synthesize displayableCommutePlanBalances=_displayableCommutePlanBalances;
-@property(readonly, nonatomic) NSString *displayableCommutePlanCount;
-@property(readonly, nonatomic) NSArray *displayableCommutePlans; // @synthesize displayableCommutePlans=_displayableCommutePlans;
-@property(readonly, nonatomic) NSArray *displayableCurrencyBalances; // @synthesize displayableCurrencyBalances=_displayableCurrencyBalances;
-@property(readonly, nonatomic) NSString *displayableListOfBalances;
-@property(readonly, nonatomic) NSArray *displayablePointsBalances; // @synthesize displayablePointsBalances=_displayablePointsBalances;
-@property(readonly, nonatomic) _Bool hasBalanceContent;
-@property(readonly, nonatomic) _Bool hasCommutePlanContent;
-@property(readonly, nonatomic) _Bool hasCurrencyBalance;
-@property(readonly, nonatomic) _Bool hasDeviceBoundCommutePlans;
-@property(readonly, nonatomic) _Bool hasPointsBalance;
-@property(readonly, nonatomic) _Bool hasPositiveBalance;
 @property(readonly, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(readonly, nonatomic) NSString *primaryDisplayableBalance;
-@property(readonly, nonatomic) NSArray *transitCommutePlans; // @synthesize transitCommutePlans=_transitCommutePlans;
 
 @end
 

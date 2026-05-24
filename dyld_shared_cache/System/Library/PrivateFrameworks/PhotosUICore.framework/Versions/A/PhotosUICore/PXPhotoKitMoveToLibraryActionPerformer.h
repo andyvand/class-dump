@@ -6,7 +6,6 @@
 
 #import <PhotosUICore/PXPhotoKitAssetActionPerformer.h>
 
-@class NSString;
 @protocol PXMemoryAssetsActionFactory;
 
 @interface PXPhotoKitMoveToLibraryActionPerformer : PXPhotoKitAssetActionPerformer
@@ -21,17 +20,10 @@
 - (id)VORITE_MEMORIES_INTENT_PARAMETER_SUMMARY ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<PXMemoryAssetsActionFactory>",?,R,N
 
-@property(readonly) Class superclass;
 
 @end
 

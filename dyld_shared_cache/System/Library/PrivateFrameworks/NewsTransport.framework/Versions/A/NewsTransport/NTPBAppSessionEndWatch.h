@@ -7,27 +7,23 @@
 @interface NTPBAppSessionEndWatch
 {
     long long _watchAppSessionDuration;
-    struct {
-        unsigned int watchAppSessionDuration:1;
-    } _has;
 }
 
-- (long long);
-- (void);
-- (void);
-- (_Bool);
+- (long long)canceled;
+- (void)bodyContentLayout;
+- (void)allowsTransition:(_Bool)arg1 withEndPoint: /* Error: Ran out of types for this method. */;
+- (_Bool)_timerStopPlanResultsExecution;
 - (id);
-- (void);
+- (void)#.;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 
 // Remaining properties
 @property(nonatomic) _Bool hasWatchAppSessionDuration;
-@property(nonatomic) long long watchAppSessionDuration; // @synthesize watchAppSessionDuration=_watchAppSessionDuration;
 
 @end
 

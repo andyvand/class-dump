@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)finished with code=%d;
 
 @end
 

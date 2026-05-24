@@ -6,7 +6,6 @@
 
 #import <UIKitCore/_UIRemoteViewController.h>
 
-@class NSString;
 @protocol UIKeyboardMediaServiceRemoteViewControllerDelegate;
 
 @interface UIKeyboardMediaServiceRemoteViewController : _UIRemoteViewController
@@ -20,16 +19,16 @@
 + (_Bool);
 + (id);
 + (id)xxÿ;
+- (void)6IegHr_;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ord.;
+- (void)d to find matching replication account with possible numbers %@;
+- (void)D %@;
+- (void)from associatedMessageGUID;
+- (void)called on the wrong session;
+- (void)** This is my email, ignoring;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -43,14 +42,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=_isShownInline, setter=_setShownInline:) _Bool _shownInline; // @synthesize _shownInline;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIKeyboardMediaServiceRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,20 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IDENTITYSchemaIDENTITYIdentityRequestFailed, NSData;
+@class IDENTITYSchemaIDENTITYIdentityRequestFailed;
 
 @interface IDENTITYSchemaIDENTITYIdentityRequestContext : SISchemaInstrumentationMessage
 {
     IDENTITYSchemaIDENTITYIdentityRequestFailed *_failed;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -27,7 +25,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)getCurrentTrackedHandles: /* Error: Ran out of types for this method. */;
 - (id)!dBùàð1Â0@ù
 × ;
 - (id)CohortsReported;
@@ -36,9 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IDENTITYSchemaIDENTITYIdentityRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

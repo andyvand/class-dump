@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISSlotStyle, _UISSecureControlCategory;
+@class NSString, _UISSecureControlCategory;
 
 @interface _UISSecureControlSizeSpec
 {
     NSString *_localization;
-    union {
-        unsigned short all;
-        struct {
-            unsigned int arrangeVertically:1;
-            unsigned int accessibilityContrast:1;
-            unsigned int displayScale:3;
-            unsigned int layoutDirection:1;
-            unsigned int legibilityWeight:1;
-            unsigned int preferredContentSizeCategory:4;
-            unsigned int userInterfaceIdiom:3;
-        } ;
-    } _fields;
-    _UISSecureControlCategory *_category;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)rsions/A/CMCapture;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)V;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool arrangeVertically;
 @property(readonly, nonatomic) _UISSecureControlCategory *category; // @synthesize category=_category;
-@property(readonly, nonatomic) UISSlotStyle *style;
 
 @end
 

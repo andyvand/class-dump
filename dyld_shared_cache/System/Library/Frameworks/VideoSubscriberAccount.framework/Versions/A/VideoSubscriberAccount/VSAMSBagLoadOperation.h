@@ -6,27 +6,23 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSError, NSString;
+@class NSString;
 
 @interface VSAMSBagLoadOperation : VSAsyncOperation
 {
     NSString *_bagKey;
-    id _value;
-    NSError *_error;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)shouldCancelPendingInvoke;
 - (void);
 - (void);
-- (void);
+- (void)x;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bagKey; // @synthesize bagKey=_bagKey;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end

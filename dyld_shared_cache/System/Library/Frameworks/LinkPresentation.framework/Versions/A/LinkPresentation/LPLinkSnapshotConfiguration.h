@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkRendererSizeClassParameters, NSAppearance, NSColor;
+@class NSAppearance;
 
 @interface LPLinkSnapshotConfiguration
 {
     _Bool _showDebugIndicators;
-    NSAppearance *_appearance;
-    unsigned long long _preferredSizeClass;
-    LPLinkRendererSizeClassParameters *_sizeClassParameters;
-    double _scale;
-    NSColor *_overrideBackgroundColor;
-    struct CGSize _size;
-    struct CGSize _maximumSize;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)b;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)Couldn't create new PCS for zone %@ (owner key:(id)arg1 %@);
 - (id);
 - (double);
-- (struct CGSize);
+- (struct CGSize)q;
 - (void);
 - (struct CGSize);
-- (void);
+- (void)/CoreSuggestionsML;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(readonly, nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;
-@property(retain, nonatomic) NSColor *overrideBackgroundColor; // @synthesize overrideBackgroundColor=_overrideBackgroundColor;
-@property(readonly, nonatomic) unsigned long long preferredSizeClass; // @synthesize preferredSizeClass=_preferredSizeClass;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool showDebugIndicators; // @synthesize showDebugIndicators=_showDebugIndicators;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(retain, nonatomic) LPLinkRendererSizeClassParameters *sizeClassParameters; // @synthesize sizeClassParameters=_sizeClassParameters;
 
 @end
 

@@ -6,28 +6,22 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSDictionary, NSMutableDictionary, NSString, UIColor, UILabel, _UIBadgeVisualStyle;
+@class NSString, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UIBadgeView : UIView
 {
     UILabel *_label;
-    NSMutableDictionary *_mergedTextAttributes;
-    NSString *_text;
-    NSDictionary *_textAttributes;
-    UIColor *_badgeColor;
-    _UIBadgeVisualStyle *_style;
-    struct UIOffset _textOffset;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
+- (void)CEMCredentialCertificateIdentityDeclaration_Status;
+- (id)SMIMEEnablePerMessageSwitch;
+- (struct CGSize)bundleIdentifier;
 - (struct UIOffset);
-- (void);
+- (void)(}AHJ;
 - (id)1Â0@ù
 × ;
 - (void);
@@ -40,11 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)S;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *badgeColor; // @synthesize badgeColor=_badgeColor;
-@property(retain, nonatomic) _UIBadgeVisualStyle *style; // @synthesize style=_style;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) NSDictionary *textAttributes; // @synthesize textAttributes=_textAttributes;
-@property(nonatomic) struct UIOffset textOffset; // @synthesize textOffset=_textOffset;
 
 @end
 

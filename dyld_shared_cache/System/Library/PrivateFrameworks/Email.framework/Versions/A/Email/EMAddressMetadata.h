@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface EMAddressMetadata
 {
     _Bool _supportsEncryptedSubject;
-    NSArray *_capabilities;
-    NSDate *_date;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void)AccessoryPresenceDetector;
 - (id);
 - (id);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *capabilities; // @synthesize capabilities=_capabilities;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) _Bool supportsEncryptedSubject; // @synthesize supportsEncryptedSubject=_supportsEncryptedSubject;
 
 @end
 

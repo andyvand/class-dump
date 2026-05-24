@@ -7,9 +7,6 @@
 @interface PFFairPlayKeyLoader
 {
     id sessionProvider;
-    id activeSessionStore;
-    id internalQueue;
-    id $__lazy_storage_$_logPrefix;
 }
 
 - (void);

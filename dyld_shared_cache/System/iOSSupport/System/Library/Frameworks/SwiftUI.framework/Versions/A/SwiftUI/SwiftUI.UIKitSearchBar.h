@@ -7,20 +7,15 @@
 @interface SwiftUI.UIKitSearchBar
 {
     id ensureVibrancy;
-    id isActive;
-    id pendingIsFirstResponder;
-    id customScopeBarView;
-    id customScopeBarHost;
-    id customScopeBarVisibility;
 }
 
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)o;
+- (_Bool)objectIDURIRepresentationForFolderMentionedInLegacyShowHTMLFolderURL: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)`;
 - (void)erStyle;
 
 @end

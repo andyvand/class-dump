@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (_Bool)neCatalogBlueprintLayoutBuilder;
+- (id)N;
+- (Class)b;
+- (unsigned long long)_kind;
+- (_Bool)updated its visibility status to %@.;
+- (_Bool)_TtC7NewsUI237MagazineCatalogBlueprintLayoutBuilder;
 - (id)XU;
 - (_Bool)message when the saved feed is not available due to device obsoletion;
 - (struct _NSZone *);
 
 @optional
-- (NSString *);
+- (oneway void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

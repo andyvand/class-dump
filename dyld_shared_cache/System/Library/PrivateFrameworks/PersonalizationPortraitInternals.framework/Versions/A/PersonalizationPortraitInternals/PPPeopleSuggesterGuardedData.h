@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDate, _PSSuggester;
+@class _PSSuggester;
 
 @interface PPPeopleSuggesterGuardedData
 {
     _PSSuggester *_suggester;
-    NSCache *_cache;
-    NSDate *_lastCacheSweepDate;
 }
 
 - (void);

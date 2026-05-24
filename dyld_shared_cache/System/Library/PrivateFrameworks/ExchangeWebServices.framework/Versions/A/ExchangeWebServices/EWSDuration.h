@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface EWSDuration
 {
     NSDateComponents *_StartTime;
-    NSDateComponents *_EndTime;
 }
 
 + (id);
@@ -17,18 +16,10 @@
 - (id);
 - (void);
 - (void);
-- (void)age;
+- (void)FindFolderResponseMessage;
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *EndTime; // @synthesize EndTime=_EndTime;
 @property(retain, nonatomic) NSDateComponents *StartTime; // @synthesize StartTime=_StartTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLE5ProgramLibrary, MLModelConfiguration, MLModelDescription, MLVersionInfo, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class MLE5ProgramLibrary;
 
 __attribute__((visibility("hidden")))
 @interface MLE5EnumeratedShapeExecutionStreamOperationPool
 {
     MLE5ProgramLibrary *_programLibrary;
-    MLModelConfiguration *_configuration;
-    NSString *_milEntryFunctionName;
-    NSSet *_milFunctionNames;
-    MLModelDescription *_modelDescription;
-    NSMutableDictionary *_functionNameToPoolMap;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned long long _modelSignpostId;
-    MLVersionInfo *_compilerVersionInfo;
 }
 
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) P;
 - (id);
 - (id);
 - (void);
@@ -40,22 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)each feature. Feature '%@' has %@ values. Expected %@;
 
 // Remaining properties
-@property(readonly, nonatomic) MLVersionInfo *compilerVersionInfo; // @synthesize compilerVersionInfo=_compilerVersionInfo;
-@property(readonly, nonatomic) MLModelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *functionNameToPoolMap; // @synthesize functionNameToPoolMap=_functionNameToPoolMap;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *milEntryFunctionName; // @synthesize milEntryFunctionName=_milEntryFunctionName;
-@property(readonly, nonatomic) NSSet *milFunctionNames; // @synthesize milFunctionNames=_milFunctionNames;
-@property(readonly, nonatomic) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(readonly, nonatomic) unsigned long long modelSignpostId; // @synthesize modelSignpostId=_modelSignpostId;
 @property(readonly, nonatomic) MLE5ProgramLibrary *programLibrary; // @synthesize programLibrary=_programLibrary;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

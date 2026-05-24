@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDAdaptiveVolumeProperties : SISchemaInstrumentationMessage
 {
     _Bool _isAdaptiveVolumeEnabled;
-    int _adaptiveVolume;
-    _Bool _isPermanentOffsetEnabled;
-    float _permanentOffsetFactor;
-    struct {
-        unsigned int isAdaptiveVolumeEnabled:1;
-        unsigned int adaptiveVolume:1;
-        unsigned int isPermanentOffsetEnabled:1;
-        unsigned int permanentOffsetFactor:1;
-    } _has;
 }
 
 - (void);
@@ -41,7 +30,7 @@
 - (int);
 - (void);
 - (void);
-- (float);
+- (float)scopeTypeToMediaItemsMap;
 - (id);
 - (void);
 - (unsigned long long);
@@ -54,15 +43,7 @@
 - (id)aExecutorAppIntentMetrics",&,N,V_executorAppIntentMetrics;
 
 // Remaining properties
-@property(nonatomic) int adaptiveVolume; // @synthesize adaptiveVolume=_adaptiveVolume;
-@property(nonatomic) _Bool hasAdaptiveVolume;
-@property(nonatomic) _Bool hasIsAdaptiveVolumeEnabled;
-@property(nonatomic) _Bool hasIsPermanentOffsetEnabled;
-@property(nonatomic) _Bool hasPermanentOffsetFactor;
 @property(nonatomic) _Bool isAdaptiveVolumeEnabled; // @synthesize isAdaptiveVolumeEnabled=_isAdaptiveVolumeEnabled;
-@property(nonatomic) _Bool isPermanentOffsetEnabled; // @synthesize isPermanentOffsetEnabled=_isPermanentOffsetEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float permanentOffsetFactor; // @synthesize permanentOffsetFactor=_permanentOffsetFactor;
 
 @end
 

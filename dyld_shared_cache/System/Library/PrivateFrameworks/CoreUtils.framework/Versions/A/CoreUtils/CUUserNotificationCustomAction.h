@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface CUUserNotificationCustomAction
 {
     UNNotificationAction *_action;
-    CDUnknownBlockType _handler;
-    long long _index;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (long long);
 - (id);
-- (void);
+- (void)eraseDatabaseWithAuthorization:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ndler;
 
 // Remaining properties
 @property(retain, nonatomic) UNNotificationAction *action; // @synthesize action=_action;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic) long long index; // @synthesize index=_index;
 
 @end
 

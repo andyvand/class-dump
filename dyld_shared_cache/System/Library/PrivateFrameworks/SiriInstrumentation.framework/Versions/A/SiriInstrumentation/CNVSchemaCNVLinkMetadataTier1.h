@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVLinkMetadataTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_appBundleId;
-    _Bool _hasLinkId;
-    _Bool _hasAppBundleId;
 }
 
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void)y;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)>;
+- (void)h;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)m;
 - (id);
 - (id);
 - (void)s"b1"userSamplingIdRotationTimestampMs"b1"userSamplingIdExpirationTimestampMs"b1};
-- (id)nAudioSessionSetActiveContext;
+- (id)MHSchemaMHAssistantDaemonAudioSessionSetActiveContext;
 - (id)tÇ°Ç;
 - (id)©´«¬À­¯;
 - (void)l­´ÿB¬ê%;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool hasAppBundleId; // @synthesize hasAppBundleId=_hasAppBundleId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

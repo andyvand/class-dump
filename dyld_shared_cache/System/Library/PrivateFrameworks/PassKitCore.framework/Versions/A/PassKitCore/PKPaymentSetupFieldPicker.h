@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentSetupField.h>
 
-@class NSArray, NSString, PKPaymentSetupFieldPickerItem;
+@class NSArray;
 
 @interface PKPaymentSetupFieldPicker : PKPaymentSetupField
 {
     NSArray *_pickerItems;
-    unsigned long long _pickerType;
-    NSString *_localizedDescription;
 }
 
 + (id);
@@ -27,20 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void)eneService.peer-payment-registration;
-- (id)dressUnservicable;
+- (id)shippingAddressUnservicable;
 - (void)Ð$lÞ;
 
 // Remaining properties
-@property(copy, nonatomic) PKPaymentSetupFieldPickerItem *currentValue; // @dynamic currentValue;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(copy, nonatomic) NSArray *pickerItems; // @synthesize pickerItems=_pickerItems;
-@property(nonatomic) unsigned long long pickerType; // @synthesize pickerType=_pickerType;
 
 @end
 

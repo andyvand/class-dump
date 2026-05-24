@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface AKBitmapFIFO
 {
     char *_bitmapDataPtr;
-    struct CGContext *_bitmapContext;
-    struct CGImage *_bitmapImage;
-    struct CGPath *_cachedPath;
-    UIView *_view;
-    _Bool _isInLiveDraw;
-    _Bool _bitmapSizeHasBeenUpdatedOnceForLiveDraw;
-    double _bitmapSizeMultiplier;
-    double _shadowRadiusInView;
-    struct CGSize _bitmapSize;
-    id _lastPoint;
-    struct CGRect _unionDirtyRect;
-    struct CGAffineTransform _viewToBitmapTransform;
 }
 
 - (struct CGAffineTransform);
 - (struct CGRect);
-- (double);
+- (double);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPath *);
-- (_Bool);
+- (void);
+- (struct CGPath *)d;
+- (_Bool);
 - (struct CGImage *);
-- (double);
+- (double)o;
 - (_Bool);
 - (struct CGSize);
 - (struct CGRect);
@@ -48,30 +34,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)traction Control;
 - (void);
 
 // Remaining properties
 @property struct CGSize bitmapSize; // @synthesize bitmapSize=_bitmapSize;
-@property _Bool bitmapSizeHasBeenUpdatedOnceForLiveDraw; // @synthesize bitmapSizeHasBeenUpdatedOnceForLiveDraw=_bitmapSizeHasBeenUpdatedOnceForLiveDraw;
-@property double bitmapSizeMultiplier; // @synthesize bitmapSizeMultiplier=_bitmapSizeMultiplier;
-@property(nonatomic) _Bool isInLiveDraw; // @synthesize isInLiveDraw=_isInLiveDraw;
-@property id lastPoint; // @synthesize lastPoint=_lastPoint;
-@property double shadowRadiusInView; // @synthesize shadowRadiusInView=_shadowRadiusInView;
-@property struct CGRect unionDirtyRect; // @synthesize unionDirtyRect=_unionDirtyRect;
-@property(retain, nonatomic) UIView *view; // @synthesize view=_view;
-@property struct CGAffineTransform viewToBitmapTransform; // @synthesize viewToBitmapTransform=_viewToBitmapTransform;
 
 @end
 

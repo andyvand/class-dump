@@ -9,15 +9,9 @@
 @interface GEOTransitTransferInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _transferMuid;
-    unsigned int _transferTime;
-    struct {
-        unsigned int has_transferMuid:1;
-        unsigned int has_transferTime:1;
-    } _flags;
 }
 
-+ (_Bool)gationType:(id)arg1;
++ (_Bool)setNavigationType:(id)arg1;
 - (unsigned int);
 - (unsigned long long);
 - (void);
@@ -30,12 +24,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)hB9;
+- (void)notifyDidStopStream:(id)arg1 reason:withEventUUID:forAccessory: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)xF;
 - (void);
 - (id);
 - (id)Significance:transitLineColor:startDistance:lengthScaleFactor:fallbackStartCoordinate:fallbackEndCoordinate: /* Error: Ran out of types for this method. */;
@@ -45,10 +39,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTransferMuid;
-@property(nonatomic) _Bool hasTransferTime;
-@property(nonatomic) unsigned long long transferMuid;
-@property(nonatomic) unsigned int transferTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

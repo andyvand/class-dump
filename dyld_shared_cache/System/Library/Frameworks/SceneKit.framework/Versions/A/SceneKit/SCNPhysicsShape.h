@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface SCNPhysicsShape
 {
     id _referenceObject;
-    NSDictionary *_options;
-    NSArray *_transforms;
-    void *_cachedObject;
-    struct btCollisionShape *_collisionShape;
 }
 
 + (id);
@@ -28,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)'%@' (extension:%d), supplementalItemIDs:[%@]> /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -77,8 +73,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) id sourceObject; // @synthesize sourceObject=_referenceObject;
-@property(readonly, nonatomic) NSArray *transforms;
 
 @end
 

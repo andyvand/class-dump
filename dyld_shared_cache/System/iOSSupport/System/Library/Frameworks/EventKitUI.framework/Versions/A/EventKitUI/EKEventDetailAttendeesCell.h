@@ -6,34 +6,27 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class EKEventDetailAttendeesCellModel, EKEventDetailAttendeesListView, NSLayoutConstraint, NSObject, NSString, UIImageView, UILabel;
+@class NSObject, UILabel;
 @protocol EKEventDetailAttendeeCellDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKEventDetailAttendeesCell : EKEventDetailCell
 {
     UILabel *_titleLabel;
-    UILabel *_countLabel;
-    UIImageView *_disclosure;
-    NSLayoutConstraint *_listHeight;
-    EKEventDetailAttendeesListView *_attendeesListView;
-    EKEventDetailAttendeesCellModel *_model;
-    _Bool _loadingAttendees;
-    NSObject<EKEventDetailAttendeeCellDelegate> *_attendeeCellDelegate;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (void);
-- (_Bool);
+- (_Bool)&s;
 - (double);
-- (id);
+- (id)XV&s;
+- (double)08*s;
 - (double);
-- (double);
 - (void);
 - (id);
-- (id);
+- (id)s;
 - (void);
-- (void);
+- (void)&s;
 - (double);
 - (_Bool);
 - (void);
@@ -41,14 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak NSObject<EKEventDetailAttendeeCellDelegate> *attendeeCellDelegate; // @synthesize attendeeCellDelegate=_attendeeCellDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool loadingAttendees; // @synthesize loadingAttendees=_loadingAttendees;
-@property(readonly) Class superclass;
 
 @end
 

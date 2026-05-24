@@ -4,60 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSMutableDictionary, NSObject, PKDaemonClient;
-@protocol OS_dispatch_queue, PKExternalProviders;
+@class NSDictionary, NSMutableDictionary;
 
 @interface PKHost
 {
     NSDictionary *_hostInfoPlist;
-    NSMutableDictionary *_activePlugIns;
-    NSMutableDictionary *_activeOneShots;
-    NSMapTable *_discoveryMap;
-    NSObject<OS_dispatch_queue> *_hostQueue;
-    PKDaemonClient *_daemon;
-    id <PKExternalProviders> _external;
 }
 
 + (id);
+- (id);
 - (id);
-- (id);
+- (void)>>BhBN>
+'BN;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)Aӄ;
+- (void);
+- (void);
+- (id)ributes must exist, which have the same index (instance) value.  Thus, for example, if `Catk=3', you must also supply a value for `Kreversible:(id)arg1 I3' and/or `Krev_steps:I3' or `Kirv_steps:I3', as appropriate.  This information allows the internal machinery to deduce whether the transform is reversible or not.  The ATK information in these parameter attributes can also be tile-specific.
+		[Default is 0] /* Error: Ran out of types for this method. */;
+- (id);
+- (void));
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *activeOneShots; // @synthesize activeOneShots=_activeOneShots;
 @property(retain) NSMutableDictionary *activePlugIns; // @synthesize activePlugIns=_activePlugIns;
-@property(retain) PKDaemonClient *daemon; // @synthesize daemon=_daemon;
-@property(retain) NSMapTable *discoveryMap; // @synthesize discoveryMap=_discoveryMap;
-@property(readonly) id <PKExternalProviders> external; // @synthesize external=_external;
-@property(readonly) NSDictionary *hostInfoPlist; // @synthesize hostInfoPlist=_hostInfoPlist;
-@property(retain) NSObject<OS_dispatch_queue> *hostQueue; // @synthesize hostQueue=_hostQueue;
 
 @end
 

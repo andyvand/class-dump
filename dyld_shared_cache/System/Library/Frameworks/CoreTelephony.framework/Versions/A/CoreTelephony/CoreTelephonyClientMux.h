@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FrameworkCache, MuxNotificationSink, NSError, NSSet, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol SystemConfigurationProviding;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface CoreTelephonyClientMux
 {
     struct map<__unsafe_unretained id, (anonymous namespace)::DelegateContext, std::less<__unsafe_unretained id>, std::allocator<std::pair<const __unsafe_unretained id, (anonymous namespace)::DelegateContext>>> _delegates;
-    NSSet *_currentSelectorSet;
-    struct map<__CTAssertionType *, std::pair<dispatch::queue, void (^)(NSError *)>, std::less<__CTAssertionType *>, std::allocator<std::pair<__CTAssertionType *const, std::pair<dispatch::queue, void (^)(NSError *)>>>> _clientCallback;
-    FrameworkCache *_cache;
-    id <SystemConfigurationProviding> _systemConfigProvider;
-    NSXPCConnection *_connection;
-    struct queue _xpcQueue;
-    NSXPCListenerEndpoint *_endpoint;
-    MuxNotificationSink *_notificationSink;
-    NSError *_reconnectError;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)( A9;
 - (void);
 - (void);
 - (void);
@@ -33,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -48,9 +38,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setEvaluatedPolicyDomainState:(struct dispatch_queue_s *)arg1;
 - (struct __CTAssertionType *);
-- (void);
+- (void)FBSSceneIdentityToken;
 - (void);
 - (id);
 - (id);
@@ -66,10 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(retain, nonatomic) MuxNotificationSink *notificationSink; // @synthesize notificationSink=_notificationSink;
-@property(retain, nonatomic) NSError *reconnectError; // @synthesize reconnectError=_reconnectError;
-@property(nonatomic) struct queue xpcQueue; // @synthesize xpcQueue=_xpcQueue;
 
 @end
 

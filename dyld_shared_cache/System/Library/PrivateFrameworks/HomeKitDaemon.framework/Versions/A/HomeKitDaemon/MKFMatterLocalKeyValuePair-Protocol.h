@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFMatterLocalKeyValuePairDatabaseID, NSData, NSString;
+@class NSData, NSString;
 @protocol MKFHome;
 
 @protocol MKFMatterLocalKeyValuePair
@@ -13,9 +13,6 @@
 - (NSData *)figurationVersion:configurationVersion:lastSyncedConfigurationVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFMatterLocalKeyValuePairDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
 @property(readonly, copy, nonatomic) NSString *key;
-@property(retain, nonatomic) NSData *value;
 @end
 

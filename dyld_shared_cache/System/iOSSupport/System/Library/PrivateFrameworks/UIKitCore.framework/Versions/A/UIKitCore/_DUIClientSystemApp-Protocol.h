@@ -5,5 +5,6 @@
 //
 
 @protocol _DUIClientSystemApp
+- (oneway void)IMAuxVideoProviderChangedState;
 @end
 

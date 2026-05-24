@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXCMMInvitationsDataSource, PXMediaProvider;
+@class PXCMMInvitationsDataSource;
 
 @interface PXCMMInvitationsDataSourceManager
 {
@@ -22,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMInvitationsDataSource *dataSource; // @dynamic dataSource;
-@property(nonatomic) long long filter; // @synthesize filter=_filter;
-@property(readonly, copy, nonatomic) PXMediaProvider *mediaProvider;
 
 @end
 

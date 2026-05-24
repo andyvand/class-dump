@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFStoryClusteringProperties;
-@protocol PXStoryMemoryMomentClusteringDistanceCalculator;
-
 @interface PXStoryAutoEditConcreteMomentsStatistics
 {
     unsigned long long _minimumAssetCount;
-    unsigned long long _maximumAssetCount;
-    double _averageAssetCount;
-    NSString *_memoryCategoryName;
-    double _clusteringDuration;
-    PFStoryClusteringProperties *_clusteringProperties;
-    id <PXStoryMemoryMomentClusteringDistanceCalculator> _clusteringDistanceCalculator;
 }
 
 - (void);
@@ -24,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
@@ -35,20 +26,7 @@
 - (void)ParallaxAssetOverlapTestArea;
 
 // Remaining properties
-@property(nonatomic) double averageAssetCount; // @synthesize averageAssetCount=_averageAssetCount;
-@property(retain, nonatomic) id <PXStoryMemoryMomentClusteringDistanceCalculator> clusteringDistanceCalculator; // @synthesize clusteringDistanceCalculator=_clusteringDistanceCalculator;
-@property(nonatomic) double clusteringDuration; // @synthesize clusteringDuration=_clusteringDuration;
-@property(retain, nonatomic) PFStoryClusteringProperties *clusteringProperties; // @synthesize clusteringProperties=_clusteringProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maximumAssetCount; // @synthesize maximumAssetCount=_maximumAssetCount;
-@property(copy, nonatomic) NSString *memoryCategoryName; // @synthesize memoryCategoryName=_memoryCategoryName;
 @property(nonatomic) unsigned long long minimumAssetCount; // @synthesize minimumAssetCount=_minimumAssetCount;
-@property(readonly) Class superclass;
 
 @end
 

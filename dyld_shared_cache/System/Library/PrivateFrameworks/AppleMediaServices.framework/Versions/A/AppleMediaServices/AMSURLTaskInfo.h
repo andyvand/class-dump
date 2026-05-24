@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSContiguousActionPerformer, AMSURLAction, AMSURLRequestProperties, AMSURLSession, NSData, NSError, NSMutableData, NSMutableSet, NSObject, NSSet, NSURLResponse, NSURLSessionTask, NSURLSessionTaskMetrics;
-@protocol OS_dispatch_queue;
+@class NSMutableData;
 
 __attribute__((visibility("hidden")))
 @interface AMSURLTaskInfo
 {
     NSMutableData *_data;
-    NSMutableSet *_retryIdentifiers;
-    _Bool _performingBlockWithDataAccess;
-    CDUnknownBlockType _completionBlock;
-    NSError *_error;
-    NSURLSessionTaskMetrics *_metrics;
-    unsigned long long _previousAuthorizationCredentialSource;
-    AMSURLRequestProperties *_properties;
-    AMSURLAction *_receivedAction;
-    NSURLResponse *_response;
-    long long _retryCount;
-    AMSURLSession *_session;
-    NSURLResponse *_originalResponse;
-    unsigned long long _signpostID;
-    NSURLSessionTask *_task;
-    struct os_unfair_recursive_lock_s _taskLock;
-    NSObject<OS_dispatch_queue> *_taskQueue;
-    AMSContiguousActionPerformer *_contiguousActionPerformer;
 }
 
-+ (id);
-+ (id);
++ (id)A;
++ (id)an item that is not contained in the conversation;
 + (id);
 + (id);
 + (void);
@@ -49,31 +31,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (unsigned long long)ns:inDialogPhase:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)RAVOutputContext";
+- (void)_bonjourServiceType;
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)T5;
 - (void);
 - (id);
 - (void);
 - (struct os_unfair_recursive_lock_s);
 - (void);
 - (unsigned long long);
-- (void)odel;
-- (void)WithError:(id)arg1 subtypeContext: /* Error: Ran out of types for this method. */;
-- (void)terface;
+- (void)hardwareModel;
+- (void)_sendAutoBugCaptureReportWithError:(id)arg1 subtypeContext: /* Error: Ran out of types for this method. */;
+- (void)_onDeviceDataInterface;
 - (CDUnknownBlockType)£ÿ;
 - (void)PasswordSettingsTask needs authentication;
-- (id)eOptionsIgnoreAccountConversion;
+- (id)AMSAuthenticateOptionsIgnoreAccountConversion;
 - (void)òt$e½'Ëx¢ÕÌ¼ÍªæBÙ«ëz]«hÈ3Hû çãHÁ´6ÃåecºÑf«ÈWydsÖ²{½~yå]¥PeûG±7½äw&W_àvb4Ç\_"|cOWÈM×$lj­^lÏpcW¤Õ,ü¨ø¶+¡µÞ,ß§ü¬2ÁÃ·&å:(unsigned long long)arg1 È`SOþ´ÐÎ»Üó_ZT.·¾XüËµ¡O[fâ|<¾Æ|AÝ5Ni/ÑÌ¹O"º}SMOØtÿéå(õ+ÒÛ¶×6\_¶qÔÑ;
 - (void)§¹¹=³YÌ§y¹ùê­Ùp§9³c¬y¸Y²¹ù¦.¸ß¬9E¦Ù´²ù.²ß¦9E¬Ù´¸ùc¦y²Y¸¹ù¬§£¹V·Ì½y=©Yê·Ù£ù©p½9ê½Ù©ù£p·9§©¹V½Ì·y=£Yc´y Yª¹ù¾. ß´9E¾Ù´ªù.ªß¾9E´Ù´ ùc¾yªY ¹ù´§»¹V¯Ì¥y=±Yê¯Ù»ù±p¥9ê¥Ù±ù»p¯9§±¹V¥Ì¯y=»Yß¤9.°´ºùE®Ù°Yc¤yù®º¹ºYc®yù¤°¹ß®9.º´°ùE¤Ù«ùê¿Ùpµ9¡V¿§«¹=¡YÌµyVµ§¡¹=«YÌ¿y¡ùêµÙp¿9«ù¢¶¹¼Yc¨y´¶ùE¢Ùß¨9.¼´¼ùE¨Ùß¢9.¶ù¨¼¹¶Yc¢y=­YÌ¹yV³§§¹p¹9­§ùê³Ùp³9§­ùê¹Ù=§YÌ³yV¹§­¹E²Ù´¦ù.¬ß¸9¦¹ù²c¸y¬Y¬¹ù¸c²y¦YE¸Ù´¬ù.¦ß²9½p©9ê£Ù·ùÌ©y=½Y§·¹V£Ì£y=·Y§½¹V©·p£9ê©Ù½ùEªÙ´¾ù.´ß 9¾¹ùªc y´Y´¹ù cªy¾YE Ù´´ù.¾ßª9¥p±9ê»Ù¯ùÌ±y=¥Y§¯¹V»Ì»y=¯Y§¥¹V±¯p»9ê±Ù¥ùùº®¹¤Yc°y´®ùEºÙß°9.¤´¤ùE°Ùßº9.®ù°¤¹®Ycºy=µYÌ¡yV«§¿¹p¡9µ¿ùê«Ùp«9¿µùê¡Ù=¿YÌ«yV¡§µ¹Ùí°{ªg°Ó°>û° z°4ð°åM°Ge°ÍÇ¬°oï&°X°*¾Ò°´Y;°q±°ñÏ°S E°´Y+°q¡°ñß°S U°ÍÇ¼°oï6°H°*¾Â° j°4à°åM°Ge°Ùý°{ªw°Ó	°>û°È°*¾B°ÍÇ<°oï¶°ñ_°S Õ°´Y«°q!°Ó°>û°Ù}°{ª÷°åM°Ge° ê°4`°åM°Ge° ú°4p°Ó°>û°Ùm°{ªç°ñO°S Å°´Y»°q1°Ø°*¾R°ÍÇ,°oï¦°>ûs°Óù°{ª°Ù°Geä°åMn°4° °*¾2°¸°oïÆ°ÍÇL°S ¥°ñ/°qQ°´YÛ°S µ°ñ?°qA°´YË°*¾"°¨°oïÖ°ÍÇ\°Geô°åM~°4;
 - (void)>ùH¡f×:(CDUnknownBlockType)arg1 ýL¸	Î#äUT"åÏ¹~M;üÖ gó4Bh¯Ùê-[q¶ÀÁp·Zë,Øi®Cò5±´27nkíècfàå¼¹?:ª¯),upöóx}ûþ§¢$! /* Error: Ran out of types for this method. */;
@@ -88,23 +70,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly) AMSContiguousActionPerformer *contiguousActionPerformer; // @synthesize contiguousActionPerformer=_contiguousActionPerformer;
-@property(readonly) NSData *data;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSURLSessionTaskMetrics *metrics; // @synthesize metrics=_metrics;
-@property(retain) NSURLResponse *originalResponse; // @synthesize originalResponse=_originalResponse;
-@property unsigned long long previousAuthorizationCredentialSource; // @synthesize previousAuthorizationCredentialSource=_previousAuthorizationCredentialSource;
-@property(retain) AMSURLRequestProperties *properties; // @synthesize properties=_properties;
-@property(retain) AMSURLAction *receivedAction; // @synthesize receivedAction=_receivedAction;
-@property(retain) NSURLResponse *response; // @synthesize response=_response;
-@property long long retryCount; // @synthesize retryCount=_retryCount;
-@property(readonly) NSSet *retryIdentifiers;
-@property(retain) AMSURLSession *session; // @synthesize session=_session;
-@property unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(readonly) NSURLSessionTask *task; // @synthesize task=_task;
 @property(readonly) struct os_unfair_recursive_lock_s taskLock; // @synthesize taskLock=_taskLock;
-@property(readonly) NSObject<OS_dispatch_queue> *taskQueue; // @synthesize taskQueue=_taskQueue;
 
 @end
 

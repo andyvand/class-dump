@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDEvent.h>
 
-@class HMDMatterPath, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterAttributeEventBase : HMDEvent
@@ -18,16 +18,17 @@ __attribute__((visibility("hidden")))
 + (_Bool)ô@;
 + (id)ÆB;
 - (void);
+- (id)MSPReceiverETAController;
+- (id)MSPPlaceDisplay;
+- (_Bool)ORAGE] _saveSendingRules write error %@;
 - (id);
-- (id);
+- (void)c;
 - (_Bool);
-- (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)ppressed by directive) - close session;
+- (id)2
+;
 - (id);
 - (_Bool);
 - (void);
@@ -35,7 +36,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDMatterPath *matterPath;
 @property(retain) NSUUID *matterPathUUID; // @synthesize matterPathUUID=_matterPathUUID;
 
 @end

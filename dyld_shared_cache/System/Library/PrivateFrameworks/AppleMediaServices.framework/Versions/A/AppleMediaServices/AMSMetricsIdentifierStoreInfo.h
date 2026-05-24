@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsIdentifierStoreInfo
 {
     _Bool _crossDeviceSync;
-    _Bool _deleted;
-    NSString *_account;
-    double _resetInterval;
-    NSDate *_started;
-    NSString *_storeKey;
-    NSString *_storeUUID;
-    NSDate *_lastSync;
-    NSDate *_modified;
 }
 
-- (id);
+- (id)der",&,V_continuity_ServiceProvider;
 - (void);
+- (_Bool)observeLaunchProhibitedApps;
+- (id)%s is already complete, but we attempted to complete it again with a new result. This is a programmer error.;
+- (id)ThanDate = ;
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)AFBTHeadunitsConnectedInLast24Hours_block_invoke;
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
-- (void):(id)arg1;
+- (void)setIVProc:(_Bool)arg1 withContext: /* Error: Ran out of types for this method. */;
+- (void)_dataWithFairPlayBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
 - (void)ùæçC² q (ÁB½¶¨ñ¶³\ÉÍ®Dµ2§å×ª	Hdö¨¶ssc#uÀAb{À¥õð7áÇûR
 îÙÞºèÿ«ºªõjëÍj6
 !¸ßØ3«WqjÐû¢ÛP¢õ¡mþgÐEcæ¾©Eñ¦ÙjÌ¸Å0±èD È½á×gDÄ±o[¥¤B2wé$åQ;
@@ -45,14 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSString *account; // @synthesize account=_account;
-@property _Bool crossDeviceSync; // @synthesize crossDeviceSync=_crossDeviceSync;
-@property _Bool deleted; // @synthesize deleted=_deleted;
-@property(retain) NSDate *lastSync; // @synthesize lastSync=_lastSync;
-@property(retain) NSDate *modified; // @synthesize modified=_modified;
-@property double resetInterval; // @synthesize resetInterval=_resetInterval;
-@property(retain) NSDate *started; // @synthesize started=_started;
-@property(retain) NSString *storeKey; // @synthesize storeKey=_storeKey;
-@property(retain) NSString *storeUUID; // @synthesize storeUUID=_storeUUID;
 
 @end
 

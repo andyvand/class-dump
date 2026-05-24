@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _MPModelLibraryRequestPropertyFilter
 {
     NSArray *_keys;
-    NSString *_value;
-    long long _comparisonType;
 }
 
 + (_Bool);
@@ -21,14 +19,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)pLayerVPNMapping;
 - (long long);
-- (void)Token;
+- (void)_creditsTimeObserverToken;
 
 // Remaining properties
-@property(readonly, nonatomic) long long comparisonType; // @synthesize comparisonType=_comparisonType;
 @property(readonly, copy, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

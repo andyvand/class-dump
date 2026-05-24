@@ -9,25 +9,18 @@
 @interface GEORPFeedbackQueryResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_feedbackInfos;
-    unsigned int _maxResults;
-    _Bool _isResultTruncated;
-    struct {
-        unsigned int has_maxResults:1;
-        unsigned int has_isResultTruncated:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)tResolvedTypeDeprecateds:(id)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)setKnownClientResolvedTypeDeprecateds:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
+- (void)userHasOptedOutOfPreference:(_Bool)arg1;
+- (void)shouldLogCropRectReadError:(_Bool)arg1;
+- (void)initWithName:(id)arg1 type:writable: /* Error: Ran out of types for this method. */;
+- (unsigned int)lic}@;
+- (_Bool)memojiMetadata;
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -47,18 +40,13 @@
 - (_Bool);
 - (void);
 - (id)GEOTileKey>, std:(struct _NSZone *)arg1:allocator<_GEOTileKey>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<_GEOTileKey, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<_GEOTileKey, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<_GEOTileKey, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<_GEOTileKey, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)ile;
+- (id)baseTile;
 - (id);
 - (id)ly be called once per object;
 - (void)¸: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *feedbackInfos;
-@property(nonatomic) _Bool hasIsResultTruncated;
-@property(nonatomic) _Bool hasMaxResults;
-@property(nonatomic) _Bool isResultTruncated;
-@property(nonatomic) unsigned int maxResults;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

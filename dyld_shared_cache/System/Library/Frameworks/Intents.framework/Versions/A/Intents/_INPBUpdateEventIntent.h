@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBLocation;
+@class NSArray;
 
 @interface _INPBUpdateEventIntent
 {
@@ -12,20 +12,11 @@
         unsigned int removeLocation:1;
         unsigned int updateAllOccurrences:1;
     } _has;
-    _Bool _removeLocation;
-    _Bool _updateAllOccurrences;
-    NSArray *_addParticipants;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_removeParticipants;
-    _INPBDateTimeRangeValue *_setDateTimeRange;
-    _INPBLocation *_setLocation;
-    NSString *_setTitle;
-    NSString *_targetEventIdentifier;
 }
 
 + (Class);
 + (Class);
-+ (_Bool);
++ (_Bool)c;
 - (_Bool);
 - (id);
 - (void);
@@ -37,8 +28,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)5;
+- (id)6;
 - (void);
 - (unsigned long long);
 - (id);
@@ -63,40 +54,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool)nitKey;
-- (void)tentResponseCodeFailureOtherWithReason;
+- (_Bool)__INCodableTimeIntervalAttributeMetadataMinimumUnitKey;
+- (void)INSetLabeledSettingIntentResponseCodeFailureOtherWithReason;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addParticipants; // @synthesize addParticipants=_addParticipants;
-@property(readonly, nonatomic) unsigned long long addParticipantsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasRemoveLocation;
-@property(readonly, nonatomic) _Bool hasSetDateTimeRange;
-@property(readonly, nonatomic) _Bool hasSetLocation;
-@property(readonly, nonatomic) _Bool hasSetTitle;
-@property(readonly, nonatomic) _Bool hasTargetEventIdentifier;
-@property(nonatomic) _Bool hasUpdateAllOccurrences;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) _Bool removeLocation; // @synthesize removeLocation=_removeLocation;
-@property(copy, nonatomic) NSArray *removeParticipants; // @synthesize removeParticipants=_removeParticipants;
-@property(readonly, nonatomic) unsigned long long removeParticipantsCount;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *setDateTimeRange; // @synthesize setDateTimeRange=_setDateTimeRange;
-@property(retain, nonatomic) _INPBLocation *setLocation; // @synthesize setLocation=_setLocation;
-@property(copy, nonatomic) NSString *setTitle; // @synthesize setTitle=_setTitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *targetEventIdentifier; // @synthesize targetEventIdentifier=_targetEventIdentifier;
-@property(nonatomic) _Bool updateAllOccurrences; // @synthesize updateAllOccurrences=_updateAllOccurrences;
 
 @end
 

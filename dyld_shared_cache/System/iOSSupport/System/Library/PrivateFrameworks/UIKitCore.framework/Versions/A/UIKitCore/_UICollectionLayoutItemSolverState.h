@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, _UIRTree;
-@protocol _UICollectionLayoutAuxillaryOffsets;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutItemSolverState
 {
     NSArray *_itemFrames;
-    NSArray *_auxillaryFrames;
-    NSDictionary *_supplementaryDictByKindIndex;
-    id <_UICollectionLayoutAuxillaryOffsets> _supplementaryFrameOffsets;
-    _UIRTree *_geometricIndexer;
-    NSArray *_solutionFrames;
-    long long _itemFrameCount;
-    long long _supplementaryFrameCount;
-    NSArray *_preferredSizeGroupingRanges;
-    NSString *_errorDescription;
-    struct CGPoint _additionalOffsetForOutermostGroup;
-    struct CGRect _solvedFittingFrame;
 }
 
 - (id);
@@ -32,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (id)equest:errorHandler: /* Error: Ran out of types for this method. */;
+- (id)activateSceneSessionForRequest:errorHandler: /* Error: Ran out of types for this method. */;
 - (id):¬kÑÀ:ØkÑ;XlÑ|;lÑ;¨lÑè¥; mÑð <oÑ;<4oÑÌ<<LoÑL<doÑ([<pÑ<ppÑÄ<¨pÑ+=¸pÑ-=ÈpÑ|.=àpÑô7=,qÑ¸9=<qÑ;=PqÑ0x=´qÑ¨z=rÑ¤{=@rÑ`Ö=lwÑxî=¼wÑÄ+>øwÑ¸G>yÑy>yÑ(æ?ìzÑ|ÿ?4{Ñ@t{Ñ@{Ñ(@{Ñè@°{ÑX@à{ÑØ@D}ÑÈ?@\}ÑèË@°}ÑÀ /* Error: Ran out of types for this method. */;
 - (void)hint for a third-argument type of id, %{public}@];
 - (struct CGPoint)ponents in the ended or cancelled phase can be removed.;
@@ -42,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (void).^;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint additionalOffsetForOutermostGroup; // @synthesize additionalOffsetForOutermostGroup=_additionalOffsetForOutermostGroup;
-@property(readonly, nonatomic) NSArray *auxillaryFrames; // @synthesize auxillaryFrames=_auxillaryFrames;
-@property(readonly, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(readonly, nonatomic) _UIRTree *geometricIndexer; // @synthesize geometricIndexer=_geometricIndexer;
-@property(readonly, nonatomic) long long itemFrameCount; // @synthesize itemFrameCount=_itemFrameCount;
-@property(readonly, nonatomic) NSArray *itemFrames; // @synthesize itemFrames=_itemFrames;
-@property(readonly, nonatomic) NSArray *preferredSizeGroupingRanges; // @synthesize preferredSizeGroupingRanges=_preferredSizeGroupingRanges;
 @property(readonly, nonatomic) NSArray *solutionFrames; // @synthesize solutionFrames=_solutionFrames;
-@property(readonly, nonatomic) struct CGRect solvedFittingFrame; // @synthesize solvedFittingFrame=_solvedFittingFrame;
-@property(readonly, nonatomic) NSDictionary *supplementaryDictByKindIndex; // @synthesize supplementaryDictByKindIndex=_supplementaryDictByKindIndex;
-@property(readonly, nonatomic) long long supplementaryFrameCount; // @synthesize supplementaryFrameCount=_supplementaryFrameCount;
-@property(readonly, nonatomic) id <_UICollectionLayoutAuxillaryOffsets> supplementaryFrameOffsets; // @synthesize supplementaryFrameOffsets=_supplementaryFrameOffsets;
 
 @end
 

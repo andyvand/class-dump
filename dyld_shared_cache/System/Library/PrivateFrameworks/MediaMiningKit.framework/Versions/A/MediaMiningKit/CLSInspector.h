@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CLSInspector
 {
     NSArray *_profileClasses;
-    NSMutableDictionary *_profileClassesByIdentifier;
-    NSArray *_informantClasses;
-    NSMutableDictionary *_informantClassesByIdentifier;
-    NSMutableDictionary *_informantClassesByFamilyIdentifier;
 }
 
 - (id);
 - (Class);
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (Class);
-- (id);
-- (void);
+- (id)...;
+- (void);
 
 @end
 

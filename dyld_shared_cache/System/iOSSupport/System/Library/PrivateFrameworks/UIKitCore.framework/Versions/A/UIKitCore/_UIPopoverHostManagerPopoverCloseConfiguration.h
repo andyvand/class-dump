@@ -5,13 +5,10 @@
 //
 
 @class UIWindow;
-@protocol UIViewControllerTransitionCoordinator;
 
 @interface _UIPopoverHostManagerPopoverCloseConfiguration
 {
     UIWindow *_popoverWindow;
-    UIWindow *_parentWindow;
-    id <UIViewControllerTransitionCoordinator> _transitionCoordinator;
 }
 
 - (void);
@@ -23,9 +20,7 @@
 - (id)µ­;
 
 // Remaining properties
-@property(retain, nonatomic) UIWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
 @property(retain, nonatomic) UIWindow *popoverWindow; // @synthesize popoverWindow=_popoverWindow;
-@property(retain, nonatomic) id <UIViewControllerTransitionCoordinator> transitionCoordinator; // @synthesize transitionCoordinator=_transitionCoordinator;
 
 @end
 

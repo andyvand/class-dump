@@ -28,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)a valid plist;
+- (void)p;
 - (id);
-- (void)iewCache;
+- (void)_contactViewCache;
 
 // Remaining properties
 @property(retain, nonatomic) CNMeCardSharedProfileCellContentView *meCardSharedProfileContentView; // @synthesize meCardSharedProfileContentView=_meCardSharedProfileContentView;

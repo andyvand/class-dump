@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (id)transportIsDedisco: /* Error: Ran out of types for this method. */;
 @end
 

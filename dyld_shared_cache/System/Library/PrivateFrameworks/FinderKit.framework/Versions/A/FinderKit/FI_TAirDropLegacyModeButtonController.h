@@ -6,22 +6,20 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TAirDropDiscoveryController, FI_TAirDropLegacyModePopoverViewController, NSString;
+@class FI_TAirDropDiscoveryController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropLegacyModeButtonController : FI_TViewController
 {
     FI_TAirDropDiscoveryController *_discoveryController;
-    FI_TAirDropLegacyModePopoverViewController *_popoverViewController;
-    struct TNotificationCenterObserver _popoverWillCloseObserver;
 }
 
 + (id);
 + (id);
 - (_Bool);
+- (void)setFrame:display: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)setSelectedMailboxes:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -29,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *buttonTitle;
 @property(readonly) FI_TAirDropDiscoveryController *discoveryController; // @synthesize discoveryController=_discoveryController;
-@property(readonly, getter=isLegacyModeSupported) _Bool legacyModeSupported;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface FLOWSchemaFLOWKGQAExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_primaryEntities;
-    NSArray *_secondaryEntities;
-    NSString *_answerId;
-    _Bool _hasAnswerId;
 }
 
 - (void);
@@ -25,21 +22,21 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id)?="error"b1};
@@ -48,11 +45,7 @@
 - (void)l;®^ë$;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *answerId; // @synthesize answerId=_answerId;
-@property(nonatomic) _Bool hasAnswerId; // @synthesize hasAnswerId=_hasAnswerId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *primaryEntities; // @synthesize primaryEntities=_primaryEntities;
-@property(copy, nonatomic) NSArray *secondaryEntities; // @synthesize secondaryEntities=_secondaryEntities;
 
 @end
 

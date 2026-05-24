@@ -6,21 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, AMSURLSession, NSDictionary, NSString;
-@protocol AMSBagProtocol, AMSRequestPresentationDelegate;
+@protocol AMSBagProtocol;
 
 @interface AMSBiometricsTokenUpdateTask : AMSTask
 {
     _Bool _shouldGenerateKeysOnly;
-    _Bool _shouldRequestConfirmation;
-    _Bool _userInitiated;
-    _Bool _shouldPromptUser;
-    ACAccount *_account;
-    NSDictionary *_additionalDialogMetrics;
-    AMSProcessInfo *_clientInfo;
-    id <AMSRequestPresentationDelegate> _presentationDelegate;
-    id <AMSBagProtocol> _bag;
-    AMSURLSession *_session;
 }
 
 + (id);
@@ -30,7 +20,7 @@ xÃ(EñpëG G°¾e>vòØáÉbâF]¢BØ>FQÇsi¡}/D>¤Wd
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,7 +33,7 @@ xÃ(EñpëG G°¾e>vòØáÉbâF]¢BØ>FQÇsi¡}/D>¤Wd
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)dataForEmojiImageWithFileURL returned nil.;
 - (id);
 - (void);
 - (id);
@@ -59,23 +49,7 @@ xÃ(EñpëG G°¾e>vòØáÉbâF]¢BØ>FQÇsi¡}/D>¤Wd
 - (void);
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSDictionary *additionalDialogMetrics; // @synthesize additionalDialogMetrics=_additionalDialogMetrics;
 @property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) id <AMSRequestPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
-@property(retain) AMSURLSession *session; // @synthesize session=_session;
-@property _Bool shouldGenerateKeysOnly; // @synthesize shouldGenerateKeysOnly=_shouldGenerateKeysOnly;
-@property _Bool shouldPromptUser; // @synthesize shouldPromptUser=_shouldPromptUser;
-@property _Bool shouldRequestConfirmation; // @synthesize shouldRequestConfirmation=_shouldRequestConfirmation;
-@property(readonly) Class superclass;
-@property(getter=isUserInitiated) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

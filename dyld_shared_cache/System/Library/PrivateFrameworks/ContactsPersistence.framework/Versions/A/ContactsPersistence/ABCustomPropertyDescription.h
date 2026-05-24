@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSManagedObjectID;
 
 @interface ABCustomPropertyDescription
 {
     NSManagedObjectID *_objectID;
-    NSString *_propertyName;
-    NSString *_recordType;
-    long long _valueType;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id);
+- (id)setColorInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, copy) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(readonly, copy) NSString *recordType; // @synthesize recordType=_recordType;
-@property(readonly) long long valueType; // @synthesize valueType=_valueType;
 
 @end
 

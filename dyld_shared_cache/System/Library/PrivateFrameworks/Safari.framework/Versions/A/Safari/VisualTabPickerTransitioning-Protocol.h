@@ -5,5 +5,9 @@
 //
 
 @protocol VisualTabPickerTransitioning
+- (void);;
+
+@optional
+- (void);
 @end
 

@@ -9,7 +9,6 @@
 @interface PXStoryRelatedMusicCurationParameters
 {
     NSSet *_recentlyUsedFlexSongIDs;
-    NSSet *_recentlyUsedAppleMusicSongIDs;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void)4òþÍ&´@òþ'´Lòþ­&´Xòþ­&´dòþõ&´pòþ-'´xòþý&´òþ;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *recentlyUsedAppleMusicSongIDs; // @synthesize recentlyUsedAppleMusicSongIDs=_recentlyUsedAppleMusicSongIDs;
 @property(copy, nonatomic) NSSet *recentlyUsedFlexSongIDs; // @synthesize recentlyUsedFlexSongIDs=_recentlyUsedFlexSongIDs;
 
 @end

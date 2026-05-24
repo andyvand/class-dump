@@ -6,33 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UINavigationController, UIViewController, _UIBarBackground, _UIBarBackgroundLayoutLegacy;
+@class UIViewController, _UIBarBackground;
 
 @interface _UINavigationControllerPalette : UIView
 {
     _UIBarBackground *_backgroundView;
-    _UIBarBackgroundLayoutLegacy *_backgroundViewLayout;
-    double _backgroundUnderlapHeight;
-    struct {
-        unsigned int isAttached:1;
-        unsigned int attachmentIsChanging:1;
-        unsigned int restartPaletteTransitionIfNecessary:1;
-        unsigned int pinned:1;
-        unsigned int pinningBarShadowIsHidden:1;
-        unsigned int paletteShadowIsHidden:1;
-        unsigned int pinningBarShadowWasHidden:1;
-    } _paletteFlags;
-    _Bool __paletteOverridesPinningBar;
-    _Bool _visibleWhenPinningBarIsHidden;
-    _Bool __palettePinningBarHidden;
-    unsigned long long _boundaryEdge;
-    UINavigationController *_navController;
-    UIViewController *__unpinnedController;
-    id __pinningBar;
-    NSArray *__constraints;
-    NSArray *__backgroundConstraints;
-    struct CGSize __size;
-    struct UIEdgeInsets _preferredContentInsets;
 }
 
 - (void);
@@ -41,8 +19,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)sortTitlePropertyForGroupingType: /* Error: Ran out of types for this method. */;
+- (id)(;
 - (id);
 - (void);
 - (void);
@@ -59,16 +37,16 @@
 - (_Bool)
 °!@ùg°1Â0@ù
 × ;
-- (void)eedback:(struct CGSize)arg1;
-- (void):(id)arg1 contentSizeForZoomScale:withProposedSize: /* Error: Ran out of types for this method. */;
-- (void)erForFailureRelationship;
-- (id)lSnapshot:initialSectionSnapshots: /* Error: Ran out of types for this method. */;
+- (void)setdetentFeedback:(struct CGSize)arg1;
+- (void)scrollView:(id)arg1 contentSizeForZoomScale:withProposedSize: /* Error: Ran out of types for this method. */;
+- (void)previewingGestureRecognizerForFailureRelationship;
+- (id)initWithInitialSnapshot:finalSnapshot:initialSectionSnapshots: /* Error: Ran out of types for this method. */;
 - (void)tionFilter;
 - (void)DateComponents",&,N;
 - (id)8+;
 - (_Bool)P;87ÑÌQh7ÑÜh7Ñ ¨7Ñ@Ä7ÑTGØ7Ñ01ô7Ñm8Ñ{D8Ñ8åh:ÑDúx:ÑÔ:ÑtÜ:Ñ¸¨@;Ñ¬«x;Ñ4®¤;Ñ¼i ô;Ñ¸s <ÑXx ,<Ñà%!T<Ñà3!¤<Ñà8!`=ÑTN!¼=ÑxS!Ð=ÑÈ[!ä=Ñ!>Ñ´!D>Ñ(©!p>ÑXÐ! /* Error: Ran out of types for this method. */;
 - (void)view controller must call -[super initWithCoder:] when created from -[%@ %@] /* Error: Ran out of types for this method. */;
-- (_Bool)gSessionByType;
+- (_Bool)itemsTotalInDragSessionByType;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -104,31 +82,7 @@
 - (void)pOa;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_attachmentIsChanging) _Bool _attachmentIsChanging;
-@property(retain, nonatomic, setter=_setBackgroundConstraints:) NSArray *_backgroundConstraints; // @synthesize _backgroundConstraints=__backgroundConstraints;
-@property(retain, nonatomic, setter=_setBackgroundView:) UIView *_backgroundView;
-@property(retain, nonatomic, setter=_setConstraints:) NSArray *_constraints; // @synthesize _constraints=__constraints;
-@property(nonatomic, setter=_setPaletteOverridesPinningBar:) _Bool _paletteOverridesPinningBar; // @synthesize _paletteOverridesPinningBar=__paletteOverridesPinningBar;
-@property(nonatomic, getter=_isPalettePinningBarHidden, setter=_setPalettePinningBarHidden:) _Bool _palettePinningBarHidden; // @synthesize _palettePinningBarHidden=__palettePinningBarHidden;
-@property(nonatomic, setter=_setPinningBar:) id _pinningBar; // @synthesize _pinningBar=__pinningBar;
-@property(nonatomic, setter=_setRestartPaletteTransitionIfNecessary:) _Bool _restartPaletteTransitionIfNecessary;
-@property(nonatomic, setter=_setSize:) struct CGSize _size; // @synthesize _size=__size;
 @property(nonatomic) UIViewController *_unpinnedController; // @synthesize _unpinnedController=__unpinnedController;
-@property(readonly, nonatomic) unsigned long long boundaryEdge; // @synthesize boundaryEdge=_boundaryEdge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UINavigationController *navController; // @synthesize navController=_navController;
-@property(nonatomic) _Bool paletteShadowIsHidden;
-@property(nonatomic, getter=isPinned) _Bool pinned;
-@property(nonatomic) _Bool pinningBarShadowIsHidden;
-@property(nonatomic) _Bool pinningBarShadowWasHidden;
-@property(nonatomic) struct UIEdgeInsets preferredContentInsets; // @synthesize preferredContentInsets=_preferredContentInsets;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isVisibleWhenPinningBarIsHidden) _Bool visibleWhenPinningBarIsHidden; // @synthesize visibleWhenPinningBarIsHidden=_visibleWhenPinningBarIsHidden;
 
 @end
 

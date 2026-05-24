@@ -9,13 +9,12 @@
 @interface EKSubscribedCalendarDescriptionHeader
 {
     UILabel *_label;
-    double _lastParentWidth;
 }
 
 - (_Bool);
-- (id);
-- (id);
-- (void)uldShowNextButton;
+- (id)s;
+- (id)&s;
+- (void)shouldShowNextButton;
 
 @end
 

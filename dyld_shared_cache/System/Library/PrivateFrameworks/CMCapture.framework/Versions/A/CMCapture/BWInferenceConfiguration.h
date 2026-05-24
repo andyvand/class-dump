@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface BWInferenceConfiguration
 {
     int _inferenceType;
-    unsigned int _priority;
-    float _maximumFramesPerSecond;
-    _Bool _propagatesFrameRatePrevention;
-    NSDictionary *_tuningParameters;
 }
 
 - (id);
@@ -26,14 +20,10 @@
 - (void);
 - (void);
 - (id);
-- (unsigned int)ce;
+- (unsigned int)capturecmioextensionprovider_trace;
 
 // Remaining properties
 @property(readonly, nonatomic) int inferenceType; // @synthesize inferenceType=_inferenceType;
-@property(nonatomic) float maximumFramesPerSecond; // @synthesize maximumFramesPerSecond=_maximumFramesPerSecond;
-@property(nonatomic) unsigned int priority; // @synthesize priority=_priority;
-@property(nonatomic) _Bool propagatesFrameRatePrevention; // @synthesize propagatesFrameRatePrevention=_propagatesFrameRatePrevention;
-@property(copy, nonatomic) NSDictionary *tuningParameters; // @synthesize tuningParameters=_tuningParameters;
 
 @end
 

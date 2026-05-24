@@ -11,7 +11,7 @@
     NSString *_accountID;
 }
 
-+ (Class);
++ (Class)@"NSError"@"NSDictionary">36;
 - (id);
 - (id);
 - (void)ñXÐ1Â0@ù

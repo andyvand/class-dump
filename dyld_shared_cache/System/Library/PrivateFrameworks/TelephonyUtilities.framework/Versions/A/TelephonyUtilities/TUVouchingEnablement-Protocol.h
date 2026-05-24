@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) _Bool shouldForceVerificationFailures;
 @end
 

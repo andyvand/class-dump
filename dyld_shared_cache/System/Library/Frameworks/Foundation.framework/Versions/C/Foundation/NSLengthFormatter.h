@@ -6,18 +6,17 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSNumberFormatter, NSString, NSUnitFormatter;
+@class NSUnitFormatter;
 
 @interface NSLengthFormatter : NSFormatter
 {
     NSUnitFormatter *_unitFormatter;
-    _Bool _isForPersonHeight;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -25,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -36,16 +35,7 @@
 - (void)èÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isForPersonHeightUse) _Bool forPersonHeightUse;
 @property(readonly) unsigned long long hash;
-@property(copy) NSNumberFormatter *numberFormatter;
-@property(readonly) Class superclass;
-@property long long unitStyle;
 
 @end
 

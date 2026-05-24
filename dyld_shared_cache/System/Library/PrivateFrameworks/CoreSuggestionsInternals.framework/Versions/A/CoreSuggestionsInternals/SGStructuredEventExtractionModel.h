@@ -6,15 +6,11 @@
 
 #import <CoreSuggestionsInternals/SGExtractionModel.h>
 
-@class NSDictionary, _PASNotificationToken;
+@class _PASNotificationToken;
 
 @interface SGStructuredEventExtractionModel : SGExtractionModel
 {
     _PASNotificationToken *_assetUpdateToken;
-    NSDictionary *_inputMapping;
-    NSDictionary *_outputMapping;
-    NSDictionary *_supportedProviders;
-    NSDictionary *_engineConfig;
 }
 
 + (id);
@@ -33,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);

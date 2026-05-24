@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (Class);
-+ (id);
++ (id)debugDescription;
 + (id);
 - (id);
 - (_Bool);

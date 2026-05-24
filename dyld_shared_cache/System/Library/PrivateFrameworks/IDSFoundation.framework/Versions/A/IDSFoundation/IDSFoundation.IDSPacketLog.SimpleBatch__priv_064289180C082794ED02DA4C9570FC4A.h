@@ -7,9 +7,6 @@
 @interface IDSFoundation.IDSPacketLog.SimpleBatch__priv_064289180C082794ED02DA4C9570FC4A
 {
     id kind;
-    id linkInfo;
-    id linkInfoID;
-    id state;
 }
 
 @end

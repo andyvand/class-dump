@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHSWidgetMargins
 {
     struct CHSEdgeInsets _safeAreaInsets;
-    struct CHSEdgeInsets _layoutInsets;
-    struct CHSEdgeInsets _contentMargins;
-    struct CHSEdgeInsets _backgroundRemovedContentMargins;
 }
 
 + (_Bool);
@@ -21,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (struct CHSEdgeInsets);
 - (id);
 - (_Bool);
@@ -33,23 +28,12 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)ing waitTimer.;
 - (struct CHSEdgeInsets);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CHSEdgeInsets backgroundRemovedContentMargins; // @synthesize backgroundRemovedContentMargins=_backgroundRemovedContentMargins;
-@property(readonly, nonatomic) struct CHSEdgeInsets contentMargins; // @synthesize contentMargins=_contentMargins;
 @property(readonly, nonatomic, getter=isDawnCompatible) _Bool dawnCompatible;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CHSEdgeInsets layoutInsets; // @synthesize layoutInsets=_layoutInsets;
-@property(readonly, nonatomic) struct CHSEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
-@property(readonly) Class superclass;
 
 @end
 

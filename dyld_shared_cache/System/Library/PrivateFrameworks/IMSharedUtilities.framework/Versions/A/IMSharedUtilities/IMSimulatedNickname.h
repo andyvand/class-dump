@@ -6,44 +6,36 @@
 
 #import <IMSharedUtilities/IMSimulatedEntry.h>
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface IMSimulatedNickname : IMSimulatedEntry
 {
     NSString *_recordID;
-    NSData *_decryptionKey;
-    NSString *_sender;
-    NSDate *_date;
-    NSString *_cachedGUID;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)q;
+- (id)_;
 - (id);
 - (id);
+- (id)ta"8;
+- (id)total amount to be charged in the final payment summary item, even if the total item is pending.;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)omeAvailable: /* Error: Ran out of types for this method. */;
+- (id)serviceSpaceDidBecomeAvailable: /* Error: Ran out of types for this method. */;
 - (void)mùH¼:ùÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *cachedGUID; // @synthesize cachedGUID=_cachedGUID;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSData *decryptionKey; // @synthesize decryptionKey=_decryptionKey;
-@property(retain, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) NSString *sender; // @synthesize sender=_sender;
 
 @end
 

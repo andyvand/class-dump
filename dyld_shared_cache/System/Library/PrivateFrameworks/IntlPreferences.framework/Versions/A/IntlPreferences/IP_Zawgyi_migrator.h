@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)ontext:(id)arg1;
+- (id)animationWithMDLTransform:(id)arg1;
 
 @end
 

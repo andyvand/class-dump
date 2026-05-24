@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateResult, NSString;
+@class CalculateResult;
 
 @interface WBSCalculationResult
 {
@@ -24,11 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCalculation) _Bool calculation;
-@property(readonly, nonatomic, getter=isCurrencyConversion) _Bool currencyConversion;
-@property(readonly, nonatomic) NSString *formattedEquation;
-@property(readonly, nonatomic) NSString *formattedExpression;
-@property(readonly, nonatomic) NSString *formattedResult;
-@property(readonly, nonatomic) NSString *sectionTitle;
 
 @end
 

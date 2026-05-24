@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, PXPeopleProgressDataSource;
-
 @interface PXPeopleProgressManager
 {
     _Bool _monitoringProgress;
-    struct os_unfair_lock_s _progressLock;
-    PXPeopleProgressDataSource *_dataSource;
-    double _updateInterval;
-    double _progress;
-    long long _processingStatus;
-    NSTimer *_statusTimer;
-    long long _mockSubstantialProcessingCount;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -30,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (long long);
@@ -43,10 +34,23 @@
 - (void);
 - (_Bool);
 - (struct os_unfair_lock_s);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)L3;
+- (id)toast confirmation.;
+- (id)k;
+- (void)dow; /* this is shadowSize, shadowHardness */ 
+		uniform highp vec2			invRadii; 
+		varying lowp vec2			borderAlphaXY; 
+		varying lowp vec2			shadowStrengthXY; 
+		void main() 
+		{ 
+			ComputeVertex; 
+			ComputeTextureCoordinates0; 
+			highp vec2 absP1 = abs(shadow.xy * aTextureCoordinates0.st * .5); 
+			highp vec2 absP2 = absP1 * (1. / shadow.xy); 
+			borderAlphaXY = 1. + (.5 - absP1) * invRadii; 
+			shadowStrengthXY = 1. + (absP2 - .5) * shadow.zw; 
+		} 
+		;
 - (void);
 - (double):%@, from shared library:%@ /* Error: Ran out of types for this method. */;
 - (void)ert_Title_%@;
@@ -54,16 +58,7 @@
 - (double)b>;
 
 // Remaining properties
-@property(readonly, nonatomic) PXPeopleProgressDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) _Bool featureUnlocked;
-@property(nonatomic) long long mockSubstantialProcessingCount; // @synthesize mockSubstantialProcessingCount=_mockSubstantialProcessingCount;
-@property(nonatomic) _Bool monitoringProgress; // @synthesize monitoringProgress=_monitoringProgress;
-@property(nonatomic) long long processingStatus; // @synthesize processingStatus=_processingStatus;
 @property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) struct os_unfair_lock_s progressLock; // @synthesize progressLock=_progressLock;
-@property(readonly, nonatomic) _Bool shouldUseInterstitial;
-@property(retain, nonatomic) NSTimer *statusTimer; // @synthesize statusTimer=_statusTimer;
-@property(nonatomic) double updateInterval; // @synthesize updateInterval=_updateInterval;
 
 @end
 

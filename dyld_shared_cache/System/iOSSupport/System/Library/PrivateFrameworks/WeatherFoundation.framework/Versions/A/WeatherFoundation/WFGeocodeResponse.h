@@ -15,9 +15,9 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)kTranscriptJoinCallButtonClicked;
+- (void);
 - (id);
 - (void);
 

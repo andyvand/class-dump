@@ -6,23 +6,21 @@
 
 #import <IMAP/IMAPResponse.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMAPOtherResponse : IMAPResponse
 {
     NSString *_responseName;
-    NSArray *_parameters;
 }
 
-- (void);
+- (void)6k`;
 - (id);
-- (id);
+- (id)i;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
 @property(copy, nonatomic) NSString *responseName; // @synthesize responseName=_responseName;
 
 @end

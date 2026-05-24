@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAuthenticationCertificate, NSData, NSString;
+@class NSString;
 
 @interface IDSAuthenticationCertificateSignature
 {
     NSString *_subscriptionIdentifier;
-    IDSAuthenticationCertificate *_authenticationCertificate;
-    NSData *_signature;
-    NSString *_serverVerifiableEncoding;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (void)credentials.idslaunchnotification;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSAuthenticationCertificate *authenticationCertificate; // @synthesize authenticationCertificate=_authenticationCertificate;
-@property(readonly, nonatomic) NSString *serverVerifiableEncoding; // @synthesize serverVerifiableEncoding=_serverVerifiableEncoding;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
 @property(readonly, nonatomic) NSString *subscriptionIdentifier; // @synthesize subscriptionIdentifier=_subscriptionIdentifier;
 
 @end

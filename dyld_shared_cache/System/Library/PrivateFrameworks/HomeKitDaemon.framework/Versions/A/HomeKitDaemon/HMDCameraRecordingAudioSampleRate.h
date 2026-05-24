@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
-- (id)atabaseID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)findFaceprintWithDatabaseID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;

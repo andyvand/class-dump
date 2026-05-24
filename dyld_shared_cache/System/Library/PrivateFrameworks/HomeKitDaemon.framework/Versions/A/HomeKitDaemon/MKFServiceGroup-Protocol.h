@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFServiceGroupDatabaseID, NSArray, NSDate, NSString;
-@protocol MKFApplicationData, MKFHome;
+@class NSArray, NSString;
+@protocol MKFHome;
 
 @protocol MKFServiceGroup
+- (void)participantDidJoin %@;
+- (NSArray *)n %0.2fs;
 - (id <MKFHome>)
 × ;
 - (void)lk-send listener trivially (stream setting up, but this was not part of it);
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFApplicationData> applicationData;
-@property(readonly, copy, nonatomic) MKFServiceGroupDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
 @property(copy, nonatomic) NSString *name;
-@property(readonly, retain, nonatomic) NSArray *services;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

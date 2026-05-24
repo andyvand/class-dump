@@ -6,27 +6,14 @@
 
 #import <InternetAccounts/IAAccountSetupResult.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface IAEWSAccountSetupResult : IAAccountSetupResult
 {
     NSString *_fullName;
-    NSString *_email;
-    NSString *_internalHost;
-    NSString *_internalPath;
-    _Bool _internalUseSSL;
-    long long _internalPort;
-    NSString *_externalHost;
-    NSString *_externalPath;
-    _Bool _externalUseSSL;
-    long long _externalPort;
-    NSURL *_internalURL;
-    NSURL *_externalURL;
-    NSString *_rootFolderID;
-    NSURL *_autodiscoverURL;
 }
 
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -42,7 +29,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (id);
@@ -50,27 +37,14 @@
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)s;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *autodiscoverURL; // @synthesize autodiscoverURL=_autodiscoverURL;
-@property(retain) NSString *email; // @synthesize email=_email;
-@property(retain) NSString *externalHost; // @synthesize externalHost=_externalHost;
-@property(retain) NSString *externalPath; // @synthesize externalPath=_externalPath;
-@property long long externalPort; // @synthesize externalPort=_externalPort;
-@property(retain) NSURL *externalURL; // @synthesize externalURL=_externalURL;
-@property _Bool externalUseSSL; // @synthesize externalUseSSL=_externalUseSSL;
 @property(retain) NSString *fullName; // @synthesize fullName=_fullName;
-@property(retain) NSString *internalHost; // @synthesize internalHost=_internalHost;
-@property(retain) NSString *internalPath; // @synthesize internalPath=_internalPath;
-@property long long internalPort; // @synthesize internalPort=_internalPort;
-@property(retain) NSURL *internalURL; // @synthesize internalURL=_internalURL;
-@property _Bool internalUseSSL; // @synthesize internalUseSSL=_internalUseSSL;
-@property(retain) NSString *rootFolderID; // @synthesize rootFolderID=_rootFolderID;
 
 @end
 

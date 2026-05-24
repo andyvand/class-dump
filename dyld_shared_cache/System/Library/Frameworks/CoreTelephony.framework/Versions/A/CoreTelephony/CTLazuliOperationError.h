@@ -9,14 +9,14 @@
     long long _value;
 }
 
-+ (_Bool);
++ (_Bool)ount:%ld timeSpentRecoveringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_invalidateCachedExternalizedContextWithError:(id)arg1;
 - (id);
 - (long long);
 

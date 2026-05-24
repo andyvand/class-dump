@@ -5,5 +5,6 @@
 //
 
 @protocol PodcastsFoundation.EpisodeDownloadsRemover
+- (void);
 @end
 

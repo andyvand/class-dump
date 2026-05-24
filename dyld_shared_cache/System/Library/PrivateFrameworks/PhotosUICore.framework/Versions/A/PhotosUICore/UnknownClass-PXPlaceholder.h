@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (PXPlaceholder)
-- (void);
+- (void);
 - (void);
 - (void);
 @end

@@ -6,33 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, RTAuthorizationManager, RTCompanionLinkManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationManager, RTLearnedLocationStore, RTLocation, RTLocationManager, RTMapItem, RTPlaceInference, RTPlaceInferenceManager, RTPlatform, RTTimer, RTTimerManager, RTVisitManager;
+@class RTAuthorizationManager;
 
 @interface RTLocationContextManager : RTService
 {
     _Bool _routineEnabled;
-    _Bool _locationContextMonitoringEnabled;
-    _Bool _inLowConfidenceVisit;
-    _Bool _inHighConfidenceVisit;
-    RTAuthorizationManager *_authorizationManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationManager *_locationManager;
-    RTPlaceInferenceManager *_placeInferenceManager;
-    RTPlatform *_platform;
-    RTTimerManager *_timerManager;
-    RTVisitManager *_visitManager;
-    RTCompanionLinkManager *_companionLinkManager;
-    RTLocation *_latestValidLocation;
-    RTLocation *_lastPublishedLocation;
-    RTPlaceInference *_lastPublishedPlaceInference;
-    RTMapItem *_lastSyncedPOIMapItem;
-    RTMapItem *_lastSyncedAOIMapItem;
-    RTTimer *_timer;
-    NSDate *_aoiSyncDate;
-    NSDate *_poiSyncDate;
 }
 
 - (void);
@@ -50,29 +28,29 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)^{sqlite3_stmt=};
+- (_Bool)0:8^{sqlite3_stmt=}16 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)token from keychain of length:%lu /* Error: Ran out of types for this method. */;
+- (_Bool)expose;
+- (_Bool)irrorKeys    FOR EACH ROW BEGIN        DELETE FROM SyncedKeys WHERE OLD.rowid = SyncedKeys.pubkeyNumber ;    END  ; CREATE TABLE IF NOT EXISTS UpdateLimits ( updateType TEXT PRIMARY KEY NOT NULL, mod_date DATETIME DEFAULT CURRENT_TIMESTAMP, counter INTEGER, digest TEXT);;
+- (void)Primary Guitarfish Record. Account needs PCSGuitarfishSetupIdentities or migration.;
+- (void)gths of input keys:(id)arg1 %lu, %lu;
+- (id)tings;
+- (id)ash:(id)arg1 %@;
+- (id)ry creation;
+- (_Bool)ccess-groups"] = "%@";
+- (void)kPCSSetupVerifierIterationCount;
+- (void)RFVlAoZMSbwKlGRubuRTsR8EKAA6pKDTo=;
+- (void)ize_t)CFDataGetLength(unwrappedKey);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)nnection>",&,N,V_cachedConnection;
 - (id);
 - (_Bool);
 - (id);
@@ -86,7 +64,7 @@
 - (id)h;
 - (id);
 - (void);
-- (id)goriesToSuppressContainingPOIs;
+- (id)RTDefaultsMapItemProviderBluePOIAOICategoriesToSuppressContainingPOIs;
 - (void)used early, fused map item, %{sensitive}@;
 - (void)s, Invalid status, %@;
 - (void)tiplier, %.3f, sigma, %.3f, threshold, %.3f, pedometerData, %@, currentLOI, %{sensitive}@;
@@ -94,29 +72,7 @@
 - (void)U;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *aoiSyncDate; // @synthesize aoiSyncDate=_aoiSyncDate;
 @property(readonly, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, nonatomic) RTCompanionLinkManager *companionLinkManager; // @synthesize companionLinkManager=_companionLinkManager;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(nonatomic) _Bool inHighConfidenceVisit; // @synthesize inHighConfidenceVisit=_inHighConfidenceVisit;
-@property(nonatomic) _Bool inLowConfidenceVisit; // @synthesize inLowConfidenceVisit=_inLowConfidenceVisit;
-@property(retain, nonatomic) RTLocation *lastPublishedLocation; // @synthesize lastPublishedLocation=_lastPublishedLocation;
-@property(retain, nonatomic) RTPlaceInference *lastPublishedPlaceInference; // @synthesize lastPublishedPlaceInference=_lastPublishedPlaceInference;
-@property(retain, nonatomic) RTMapItem *lastSyncedAOIMapItem; // @synthesize lastSyncedAOIMapItem=_lastSyncedAOIMapItem;
-@property(retain, nonatomic) RTMapItem *lastSyncedPOIMapItem; // @synthesize lastSyncedPOIMapItem=_lastSyncedPOIMapItem;
-@property(retain, nonatomic) RTLocation *latestValidLocation; // @synthesize latestValidLocation=_latestValidLocation;
-@property(readonly, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(nonatomic) _Bool locationContextMonitoringEnabled; // @synthesize locationContextMonitoringEnabled=_locationContextMonitoringEnabled;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTPlaceInferenceManager *placeInferenceManager; // @synthesize placeInferenceManager=_placeInferenceManager;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSDate *poiSyncDate; // @synthesize poiSyncDate=_poiSyncDate;
-@property(nonatomic) _Bool routineEnabled; // @synthesize routineEnabled=_routineEnabled;
-@property(retain, nonatomic) RTTimer *timer; // @synthesize timer=_timer;
-@property(readonly, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

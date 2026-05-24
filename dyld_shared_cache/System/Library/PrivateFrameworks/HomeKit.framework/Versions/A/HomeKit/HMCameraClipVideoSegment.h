@@ -4,49 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface HMCameraClipVideoSegment
 {
     unsigned long long _byteLength;
-    unsigned long long _byteOffset;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)VCCommandDocumentation;
+- (id);
+- (unsigned long long)style will be handled in background OTA restore phase;
+- (unsigned long long);
+- (id);
+- (id)Ȋ@9;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)maduro;
+- (id)backspaceIntoAutocorrection;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(readonly) unsigned long long byteLength; // @synthesize byteLength=_byteLength;
-@property(readonly) unsigned long long byteOffset; // @synthesize byteOffset=_byteOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

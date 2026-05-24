@@ -9,11 +9,10 @@
 @interface _RTZip
 {
     NSArray *_firstInput;
-    NSArray *_secondInput;
 }
 
 - (id);
-- (id);
+- (id)neReset;
 - (void)RL:error:] /* Error: Ran out of types for this method. */;
 
 @end

@@ -7,15 +7,12 @@
 @interface WidgetKit.PlaceholderRequest
 {
     id extensionIdentity;
-    id kind;
-    id environment;
-    id fileHandle;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)initWithDate:(id)arg1 distance:averageSpeed:verticalDescent:runCount:maximumSpeed: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

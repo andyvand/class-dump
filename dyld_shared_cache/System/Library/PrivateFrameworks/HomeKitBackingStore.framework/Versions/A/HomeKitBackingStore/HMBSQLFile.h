@@ -11,7 +11,7 @@
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)isArticle:(id)arg1;
 + (void);
 + (void);
 

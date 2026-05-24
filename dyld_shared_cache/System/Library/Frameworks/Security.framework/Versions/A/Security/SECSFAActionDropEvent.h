@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SECSFAActionDropEvent
 {
     _Bool _excludeCount;
-    _Bool _excludeEvent;
-    struct {
-        unsigned int excludeCount:1;
-        unsigned int excludeEvent:1;
-    } _has;
 }
 
 - (void);
@@ -25,18 +20,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool excludeCount; // @synthesize excludeCount=_excludeCount;
-@property(nonatomic) _Bool excludeEvent; // @synthesize excludeEvent=_excludeEvent;
-@property(nonatomic) _Bool hasExcludeCount;
 @property(nonatomic) _Bool hasExcludeEvent;
 
 @end

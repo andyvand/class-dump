@@ -4,38 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSComboBox, NSMatrix, NSPopUpButton, NSProgressIndicator, NSSlider, NSTableView, NSTextField, NSView, SFEntropyBarView, SFPasswordAsstModel, SFPasswordErrorSource;
+@class NSMatrix;
 
 @interface SFPasswordAsstController
 {
     NSMatrix *_errorTable;
-    SFPasswordAsstModel *_model;
-    SFEntropyBarView *_entropyBar;
-    NSTextField *_newPassword;
-    NSTextField *_verifyPassword;
-    NSTextField *_originalPassword;
-    NSTextField *_hint;
-    SFPasswordErrorSource *_errorSource;
-    NSView *_view;
-    NSButton *suggestButton;
-    NSProgressIndicator *progressIndicator;
-    NSSlider *lengthSlider;
-    NSPopUpButton *algorithmPopup;
-    NSTextField *lengthDisplayField;
-    NSComboBox *choicesCombo;
-    NSButton *suggestDiscloseButton;
-    NSTableView *_tableView;
-    int desiredLength;
-    int previousDesiredLength;
-    int previousAlgorithmIndex;
-    struct CGRect originalWindowFrame;
-    _Bool _closingAssistant;
-    NSBox *_box;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,15 +35,16 @@
 - (void);
 - (void);
 - (id);
+- (void)sh (%@) for %@ :%@ :%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)A;
 - (void);
 - (double);
 - (void);
+- (id);
 - (id);
-- (id);
-- (double);
+- (double)s...
+;
 - (void);
 
 @end

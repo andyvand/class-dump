@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSValue, UIDragPreviewParameters, UIView, _DUIPreview;
+@class NSValue;
 
 @interface UIDragPreview
 {
     NSValue *_preferredAnchorPoint;
-    _Bool _preventAfterScreenUpdatesSnapshot;
-    _Bool _avoidAnimation;
-    UIView *_view;
-    UIDragPreviewParameters *_parameters;
-    NSDictionary *__springboardParameters;
 }
 
-+ (struct CGSize);
++ (struct CGSize)d for message %@;
 + (id);
 + (id);
 + (struct CGSize);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (id);
+- (void)essages.RelayReachabilityRequest;
+- (void)group mutation message:(id)arg1 %@;
+- (void)ly Deleted:(struct CGPoint)arg1 returning nil record. recordID nil for metadata:%@ /* Error: Ran out of types for this method. */;
+- (void)OL}d;
+- (struct CGPoint)date has been modified from %@ to %@, attempting to toggle icloud settings toggle;
+- (id)BackfillAttachmentSync;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)<˟;
 - (id);
 - (id)¸qàrt0udvXx~;
 - (id)adaptiveImageGlyph is nil;
@@ -40,14 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _DUIPreview *_duiPreview;
-@property(copy, nonatomic) NSDictionary *_springboardParameters; // @synthesize _springboardParameters=__springboardParameters;
-@property(nonatomic) _Bool _springboardPlatterStyle;
-@property(nonatomic) _Bool avoidAnimation; // @synthesize avoidAnimation=_avoidAnimation;
-@property(readonly, copy, nonatomic) UIDragPreviewParameters *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) struct CGPoint preferredAnchorPoint;
 @property(nonatomic, getter=_preventAfterScreenUpdatesSnapshot, setter=_setPreventAfterScreenUpdatesSnapshot:) _Bool preventAfterScreenUpdatesSnapshot; // @synthesize preventAfterScreenUpdatesSnapshot=_preventAfterScreenUpdatesSnapshot;
-@property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

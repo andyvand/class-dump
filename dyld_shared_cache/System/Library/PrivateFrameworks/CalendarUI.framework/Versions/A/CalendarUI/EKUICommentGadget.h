@@ -6,33 +6,25 @@
 
 #import <CalendarUI/EKUILabledTextFieldGadget.h>
 
-@class NSString;
-
 @interface EKUICommentGadget : EKUILabledTextFieldGadget
 {
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)Y;
 - (double);
 - (_Bool)A6 ð!$BùqÄ#°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

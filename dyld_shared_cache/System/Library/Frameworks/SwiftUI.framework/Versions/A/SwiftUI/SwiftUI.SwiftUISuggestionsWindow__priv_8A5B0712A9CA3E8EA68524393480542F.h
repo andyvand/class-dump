@@ -8,8 +8,8 @@
 {
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)F;
+- (id)C�;
 - (id);
 
 // Remaining properties

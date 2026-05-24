@@ -6,19 +6,12 @@
 
 #import <IMDaemonCore/IMDCKAbstractSyncController.h>
 
-@class CKServerChangeToken, IMDCKMessageSyncCKOperationFactory, IMDRecordZoneManager, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, SyncTokenStoreProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMDCKMessageSyncController : IMDCKAbstractSyncController
 {
     _Bool _encounteredIncompatibleMessage;
-    CKServerChangeToken *_archivedRecordSyncToken;
-    NSObject<OS_dispatch_queue> *_ckQueue;
-    IMDRecordZoneManager *_recordZoneManager;
-    id <SyncTokenStoreProviding> _syncTokenStore;
-    IMDCKMessageSyncCKOperationFactory *_CKOperationFactory;
-    unsigned long long _deviceConditionsToCheck;
-    NSMutableDictionary *_visitedChats;
 }
 
 + (id)te an unused chat identifier!;
@@ -31,12 +24,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)!00琐搆;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)o;
 - (void);
 - (void);
 - (id);
@@ -47,21 +40,21 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)E9;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)a;
 - (unsigned long long);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -70,23 +63,21 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)K;
+- (_Bool)@9;
+- (_Bool)k;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (id)c!`!@bAE;
+- (id);
+- (id);
+- (id);
+- (id)H9;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -95,9 +86,11 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)BMNotificationEvent;
 - (long long);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void)@ù
@@ -105,15 +98,7 @@
 - (void)°H;
 
 // Remaining properties
-@property(retain, nonatomic) IMDCKMessageSyncCKOperationFactory *CKOperationFactory; // @synthesize CKOperationFactory=_CKOperationFactory;
-@property(retain, nonatomic) CKServerChangeToken *archivedRecordSyncToken; // @synthesize archivedRecordSyncToken=_archivedRecordSyncToken;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
-@property(nonatomic) unsigned long long deviceConditionsToCheck; // @synthesize deviceConditionsToCheck=_deviceConditionsToCheck;
-@property(nonatomic) _Bool encounteredIncompatibleMessage; // @synthesize encounteredIncompatibleMessage=_encounteredIncompatibleMessage;
-@property(retain, nonatomic) CKServerChangeToken *latestSyncToken;
-@property(retain, nonatomic) IMDRecordZoneManager *recordZoneManager; // @synthesize recordZoneManager=_recordZoneManager;
-@property(retain, nonatomic) id <SyncTokenStoreProviding> syncTokenStore; // @synthesize syncTokenStore=_syncTokenStore;
-@property(retain, nonatomic) NSMutableDictionary *visitedChats; // @synthesize visitedChats=_visitedChats;
 
 @end
 

@@ -15,9 +15,9 @@
 
 + (Class);
 - (id);
-- (id);
-- (void):fromID:context: /* Error: Ran out of types for this method. */;
-- (id)g;
+- (id)s/A/SystemConfiguration;
+- (void)service:account:incomingData:fromID:context: /* Error: Ran out of types for this method. */;
+- (id)AASaveOptionAnisetteRouting;
 
 @end
 

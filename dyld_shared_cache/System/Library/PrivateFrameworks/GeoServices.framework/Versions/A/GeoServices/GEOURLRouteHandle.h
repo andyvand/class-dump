@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBDataReader;
+@class PBDataReader;
 
 @interface GEOURLRouteHandle
 {
     PBDataReader *_reader;
-    NSData *_directionsResponseID;
-    NSData *_routeID;
-    NSData *_transitData;
-    NSData *_zilchPoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_directionsResponseID:1;
-        unsigned int read_routeID:1;
-        unsigned int read_transitData:1;
-        unsigned int read_zilchPoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setNextAnnouncementStage:(id)arg1 timeUntilNextAnnouncement: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -34,15 +20,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)preparePersistentStore:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)ABCDAlertTone;
+- (void)ABCDURLAddress;
 - (void);
 - (id);
+- (id);
 - (void);
+- (id)8Q16;
+- (void)recognizerScoreScaleFactor;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -51,20 +37,13 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)eeded:traits: /* Error: Ran out of types for this method. */;
+- (id)initWithLatLngs:shiftLocationsIfNeeded:traits: /* Error: Ran out of types for this method. */;
 - (id)nsitShield",&,N;
-- (id)GIN;
+- (id)UNKNOWN_ORIGIN;
 - (void)¢E¶óýA@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *directionsResponseID;
 @property(readonly, nonatomic) _Bool hasDirectionsResponseID;
-@property(readonly, nonatomic) _Bool hasRouteID;
-@property(readonly, nonatomic) _Bool hasTransitData;
-@property(readonly, nonatomic) _Bool hasZilchPoints;
-@property(retain, nonatomic) NSData *routeID;
-@property(retain, nonatomic) NSData *transitData;
-@property(retain, nonatomic) NSData *zilchPoints;
 
 @end
 

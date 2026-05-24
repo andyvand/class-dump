@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDoubleLinkedList, NSCountedSet, NSMutableDictionary;
+@class NSCountedSet;
 
 @interface CKCurrentConversationsManager
 {
     NSCountedSet *_currentConversations;
-    NSMutableDictionary *_idToNodeDictionary;
-    IMDoubleLinkedList *_orderedKeys;
 }
 
-+ (id)Background;
++ (id)ButtonWithUIViewBackground;
+- (void)$,;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)e;
 - (id);
-- (id);
-- (void);
+- (void)W;
 - (void);
 - (_Bool);
 - (void);
@@ -33,10 +31,7 @@
 - (unsigned long long)±IjD»Øÿ¹IjP»Øÿ©Ij\»ØÿIjh»Øÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cacheSize;
 @property(retain, nonatomic) NSCountedSet *currentConversations; // @synthesize currentConversations=_currentConversations;
-@property(retain, nonatomic) NSMutableDictionary *idToNodeDictionary; // @synthesize idToNodeDictionary=_idToNodeDictionary;
-@property(retain, nonatomic) IMDoubleLinkedList *orderedKeys; // @synthesize orderedKeys=_orderedKeys;
 
 @end
 

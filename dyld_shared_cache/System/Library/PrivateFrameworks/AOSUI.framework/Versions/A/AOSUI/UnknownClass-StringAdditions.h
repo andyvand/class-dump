@@ -7,7 +7,7 @@
 @interface UnknownClass (StringAdditions)
 + (id);
 + (id);
-+ (id);
++ (id)?;
 - (id);
 - (id);
 @end

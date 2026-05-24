@@ -7,6 +7,7 @@
 @protocol MFExternalPlaybackConfigurable;
 
 @protocol MFPlaybackStackController_IPI
+- (id <MFExternalPlaybackConfigurable>)allowListedDataclassesForAppleAccountClassBasic;
 
 // Remaining properties
 @property(nonatomic, readonly) id <MFExternalPlaybackConfigurable> externalPlaybackConfigurablePlayer;

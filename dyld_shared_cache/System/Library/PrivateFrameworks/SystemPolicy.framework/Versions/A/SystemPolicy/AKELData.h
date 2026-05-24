@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BundleData, NSDictionary;
+@class BundleData;
 
 @interface AKELData
 {
     BundleData *_bundle;
-    NSDictionary *_signatureExceptionData;
-    NSDictionary *_timestampExceptionData;
 }
 
 - (_Bool);

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, OspreyConnectionPreferences, OspreyPreferences;
+@class OspreyConnectionPreferences;
 
 __attribute__((visibility("hidden")))
 @interface OspreyDeviceAuthentication
 {
     OspreyConnectionPreferences *_connectionPreferences;
-    OspreyPreferences *_allPreferences;
-    NSDictionary *_strategies;
-    unsigned long long _currentStrategyVersion;
-    _Bool _hasCurrentStrategyVersion;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -26,13 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentStrategyVersion; // @synthesize currentStrategyVersion=_currentStrategyVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

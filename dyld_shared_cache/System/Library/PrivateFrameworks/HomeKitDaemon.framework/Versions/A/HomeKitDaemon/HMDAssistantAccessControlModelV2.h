@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantAccessControlModelV2
 {
 }
 
-+ (id);
++ (id)SQLITE_IOERR_GETTEMPPATH;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accessoryUUIDs; // @dynamic accessoryUUIDs;
-@property(copy, nonatomic) NSNumber *activityNotificationsEnabledForPersonalRequests; // @dynamic activityNotificationsEnabledForPersonalRequests;
-@property(copy, nonatomic) NSNumber *requiresAuthenticationForSecureRequests; // @dynamic requiresAuthenticationForSecureRequests;
-@property(copy, nonatomic) NSArray *siriEndpointAccessoryUUIDs; // @dynamic siriEndpointAccessoryUUIDs;
 
 @end
 

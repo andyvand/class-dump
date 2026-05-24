@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TableHeaderView
 {
     NSDictionary *_referenceColumnWidths;
-    _Bool _noSeparatorLines;
 }
 
 + (id);

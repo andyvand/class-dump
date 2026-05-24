@@ -13,7 +13,7 @@
 - (struct CGSize);
 - (double);
 - (double);
-- (id);
+- (id)allocDispatchedStreamOutputWithStreamToken:clientPid:options:errorCode: /* Error: Ran out of types for this method. */;
 
 @end
 

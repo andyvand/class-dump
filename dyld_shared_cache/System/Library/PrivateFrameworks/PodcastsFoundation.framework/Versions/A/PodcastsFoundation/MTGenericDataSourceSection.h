@@ -7,7 +7,6 @@
 @interface MTGenericDataSourceSection
 {
     id storedTitle;
-    void shouldIncludeSeeAllBlock;
 }
 
 - (CDUnknownBlockType);

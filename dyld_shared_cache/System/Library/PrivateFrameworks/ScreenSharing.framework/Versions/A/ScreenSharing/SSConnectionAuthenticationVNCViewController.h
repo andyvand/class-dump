@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)shareBackSuggesterForCMMWithLoggingConnection:(id)arg1 photoLibrary:(id)arg2 graph: /* Error: Ran out of types for this method. */;
 
 @end
 

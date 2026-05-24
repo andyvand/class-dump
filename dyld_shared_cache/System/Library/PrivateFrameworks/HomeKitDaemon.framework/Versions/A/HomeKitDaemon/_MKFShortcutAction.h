@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFAction.h>
 
-@class MKFShortcutActionDatabaseID, NSData, NSDate, NSString, NSUUID;
-@protocol MKFActionSet, MKFHome;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _MKFShortcutAction : _MKFAction
@@ -18,33 +17,13 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (id);
 + (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Aá°!àDùñÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
 @property(retain, nonatomic) NSData *data; // @dynamic data;
-@property(readonly, copy, nonatomic) MKFShortcutActionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

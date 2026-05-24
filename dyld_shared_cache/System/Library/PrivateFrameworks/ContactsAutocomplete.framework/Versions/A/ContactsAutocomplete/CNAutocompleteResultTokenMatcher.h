@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CNAutocompleteResultTokenMatcher
 {
     NSArray *_tokens;
-    NSString *_countryCode;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)T;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);

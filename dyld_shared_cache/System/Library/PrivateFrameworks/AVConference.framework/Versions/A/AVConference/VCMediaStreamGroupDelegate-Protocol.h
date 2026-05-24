@@ -5,5 +5,6 @@
 //
 
 @protocol VCMediaStreamGroupDelegate
+- (void);
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSchedulerProvider, NSString;
-@protocol CNDowntimeWhitelistContainerFetching, CNScheduler, CNUICoreContactStoreFacade, CNUICoreFamilyInfoFetching;
+@protocol CNUICoreContactStoreFacade;
 
 @interface CNUICoreFamilyMemberContactsModelRetriever
 {
     id <CNUICoreContactStoreFacade> _contactStore;
-    id <CNUICoreFamilyInfoFetching> _familyInfoFetcher;
-    id <CNDowntimeWhitelistContainerFetching> _downtimeContainerFetcher;
-    CNSchedulerProvider *_schedulerProvider;
 }
 
 + (long long);
@@ -21,31 +17,20 @@
 - (id);
 - (id);
 - (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void):identifier: /* Error: Ran out of types for this method. */;
-- (id)r;
+- (void)thirdPartyActionsForContact:propertyKey:identifier: /* Error: Ran out of types for this method. */;
+- (id)ContactCardBackdropGroupContainerModifier;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNScheduler> backgroundOrImmediateScheduler;
 @property(readonly, nonatomic) id <CNUICoreContactStoreFacade> contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CNDowntimeWhitelistContainerFetching> downtimeContainerFetcher; // @synthesize downtimeContainerFetcher=_downtimeContainerFetcher;
-@property(readonly, nonatomic) id <CNUICoreFamilyInfoFetching> familyInfoFetcher; // @synthesize familyInfoFetcher=_familyInfoFetcher;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CNSchedulerProvider *schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

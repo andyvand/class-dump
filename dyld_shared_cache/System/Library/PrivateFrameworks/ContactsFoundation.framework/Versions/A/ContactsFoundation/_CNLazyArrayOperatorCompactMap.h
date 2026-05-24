@@ -11,7 +11,7 @@
     CDUnknownBlockType _transform;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

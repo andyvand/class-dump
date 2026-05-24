@@ -7,7 +7,6 @@
 @interface NewsArticles.EndOfArticleRouter
 {
     id router;
-    id contextBuilder;
 }
 
 @end

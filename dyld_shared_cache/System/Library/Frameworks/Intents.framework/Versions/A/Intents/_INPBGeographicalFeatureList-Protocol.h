@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCondition;
+@class _INPBCondition, _INPBGeographicalFeature;
 
 @protocol _INPBGeographicalFeatureList
+- (_INPBGeographicalFeature *);
+- (_INPBCondition *)jW;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition;
-@property(copy, nonatomic) NSArray *geographicalFeatures;
-@property(readonly, nonatomic) unsigned long long geographicalFeaturesCount;
-@property(readonly, nonatomic) _Bool hasCondition;
 @end
 

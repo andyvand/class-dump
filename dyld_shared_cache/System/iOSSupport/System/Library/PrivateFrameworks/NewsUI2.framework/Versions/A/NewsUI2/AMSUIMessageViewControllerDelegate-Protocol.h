@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UIPopoverPresentationControllerSourceItem;
+
 @protocol AMSUIMessageViewControllerDelegate
+
+@optional
+- (id <UIPopoverPresentationControllerSourceItem>)).isShutdownPending() == true, dropping event and exiting
+;
+- (_Bool);
+- (void);
 @end
 

@@ -11,14 +11,15 @@
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)R;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)H
+;
 - (void);
 
 @end

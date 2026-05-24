@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ImportedFirefoxCredential
 {
     NSString *_base64EncodedEncryptedUsername;
-    NSString *_base64EncodedEncryptedPassword;
 }
 
-+ (_Bool)ropOperation;
++ (_Bool)inDragDropOperation;
 - (id);
 - (id);
 - (id);
@@ -26,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)Ô;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *base64EncodedEncryptedPassword; // @synthesize base64EncodedEncryptedPassword=_base64EncodedEncryptedPassword;
 @property(readonly, copy, nonatomic) NSString *base64EncodedEncryptedUsername; // @synthesize base64EncodedEncryptedUsername=_base64EncodedEncryptedUsername;
-@property(readonly, copy, nonatomic) NSData *encryptedPassword;
-@property(readonly, copy, nonatomic) NSData *encryptedUsername;
 
 @end
 

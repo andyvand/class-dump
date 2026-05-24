@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface __NSConstantDictionaryEnumerator : NSEnumerator
 {
     NSConstantDictionary *_underlyingDictionary;
-    unsigned long long _currentIndex;
-    _Bool _isForKeys;
 }
 
 - (id);

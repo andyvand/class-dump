@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHFastPathCharacterPersonalizerInterface, CHRemotePowerLogger, CHSynthesisStyleInventory, CHSynthesisStyleInventoryStatus;
 @protocol CHSynthesizingText><CHSynthesizingTextInternal;
 
 @interface CHSynthesisRequestConcreteHandler
 {
     id <CHSynthesizingText><CHSynthesizingTextInternal> _textSynthesizer;
-    CHFastPathCharacterPersonalizerInterface *_fastPathCharacterPersonalizer;
-    CHSynthesisStyleInventory *_styleInventory;
-    CHRemotePowerLogger *_modelPowerLogger;
-    CDUnknownBlockType _styleComputeBlock;
 }
 
 - (void);
@@ -32,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -48,11 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPersonalizationAvailable;
-@property(readonly, nonatomic) _Bool hasStyleInventory;
-@property(readonly, nonatomic) CHSynthesisStyleInventoryStatus *inventoryStatus;
 @property(readonly, nonatomic) _Bool isReadyForCharacterInventorySynthesis;
-@property(readonly, nonatomic) double lastInventoryCharacterStyleTimeStamp;
 
 @end
 

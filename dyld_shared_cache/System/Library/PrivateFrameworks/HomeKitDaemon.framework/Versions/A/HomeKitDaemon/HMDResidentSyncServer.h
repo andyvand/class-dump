@@ -6,28 +6,21 @@
 
 #import <HomeKitDaemon/HMDResidentSyncController.h>
 
-@class HMFMessageDispatcher, NSPersistentHistoryToken, NSPersistentStore, NSString;
-@protocol HMDResidentDeviceManager, HMDResidentSyncServerDataSource, HMMLogEventSubmitting;
+@class HMFMessageDispatcher;
+@protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSyncServer : HMDResidentSyncController
 {
     HMFMessageDispatcher *_dispatcher;
-    id <HMDResidentDeviceManager> _residentDeviceManager;
-    NSPersistentStore *_store;
-    NSPersistentHistoryToken *_storeExemplarToken;
-    _Bool _isPrimaryResident;
-    NSPersistentHistoryToken *_currentToken;
-    id <HMDResidentSyncServerDataSource> _dataSource;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)routeInfo;
+- (id)MSPTransitStorageIncidentEntity;
+- (void)oReceive:(id)arg1 %@;
+- (void)tContentsUsingBarrierBlock:(id)arg1 context:completionQueue:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)torageTypes:(id)arg1 withCompletionQueue:completion:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
@@ -37,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)~&Ài;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCNearbyServiceAdvertiser, MCPeerID, MCSession, NSString;
+@class MCSession, NSString;
 
 @interface DEDRequestAdvertiser
 {
     NSString *_hostIdentifier;
-    CDUnknownBlockType _onPeerJoin;
-    MCSession *_session;
-    MCPeerID *_peerID;
-    MCNearbyServiceAdvertiser *_advertiser;
 }
 
-+ (id);
++ (id)S;
 - (void);
 - (id);
 - (void);
@@ -24,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)overlaidCKEntitlements;
+- (void)plicationContainerEnvironment;
 - (id);
 - (void);
 - (void);
@@ -41,18 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) MCNearbyServiceAdvertiser *advertiser; // @synthesize advertiser=_advertiser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *hostIdentifier; // @synthesize hostIdentifier=_hostIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType onPeerJoin; // @synthesize onPeerJoin=_onPeerJoin;
-@property(retain) MCPeerID *peerID; // @synthesize peerID=_peerID;
 @property(retain) MCSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

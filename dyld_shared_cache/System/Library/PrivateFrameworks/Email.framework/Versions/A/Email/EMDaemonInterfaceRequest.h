@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EMDaemonInterfaceRequest
 {
 }
 
-+ (id);
-+ (unsigned long long);
++ (id);
++ (unsigned long long)%B;
 + (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 
 @end
 

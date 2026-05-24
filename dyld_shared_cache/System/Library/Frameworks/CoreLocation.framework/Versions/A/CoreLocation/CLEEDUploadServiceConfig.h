@@ -7,8 +7,6 @@
 @interface CLEEDUploadServiceConfig
 {
     long long _numInFlightUploads;
-    long long _maxUploadFileSizeMB;
-    long long _maxUploadQuotaMB;
 }
 
 + (_Bool);
@@ -16,14 +14,13 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
-- (id);
+- (void)range  [0x%02X]
+;
+- (id)$;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long maxUploadFileSizeMB; // @synthesize maxUploadFileSizeMB=_maxUploadFileSizeMB;
-@property(readonly, nonatomic) long long maxUploadQuotaMB; // @synthesize maxUploadQuotaMB=_maxUploadQuotaMB;
 @property(readonly, nonatomic) long long numInFlightUploads; // @synthesize numInFlightUploads=_numInFlightUploads;
 
 @end

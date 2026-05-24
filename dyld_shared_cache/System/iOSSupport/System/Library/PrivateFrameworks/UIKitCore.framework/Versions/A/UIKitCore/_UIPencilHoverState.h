@@ -11,21 +11,16 @@
 }
 
 + (id);
+- (double)batchCompletedWithTransfers: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (struct CGVector);
-- (double);
-- (double);
+- (struct CGVector)-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (double)%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (double)problem archiving unknown sender payload update for key %@ error %@;
 - (struct CGPoint);
-- (id);
+- (id)MPModelPropertyArtistCleanSongCount;
 
 // Remaining properties
-@property(readonly, nonatomic) double _altitudeAngle;
-@property(readonly, nonatomic) double _azimuthAngle;
-@property(readonly, nonatomic) struct CGVector _azimuthUnitVector;
 @property(readonly, nonatomic) struct CGPoint _location;
-@property(readonly, nonatomic) double _rollAngle;
-@property(readonly, nonatomic) double _zOffset;
 
 @end
 

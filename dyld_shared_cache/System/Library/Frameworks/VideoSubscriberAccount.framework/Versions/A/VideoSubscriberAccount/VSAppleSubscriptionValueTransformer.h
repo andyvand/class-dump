@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)24B32B36;
 - (id);
 
 @end

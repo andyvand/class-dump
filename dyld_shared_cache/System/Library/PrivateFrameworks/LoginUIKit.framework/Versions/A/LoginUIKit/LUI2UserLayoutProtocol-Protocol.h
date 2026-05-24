@@ -5,5 +5,6 @@
 //
 
 @protocol LUI2UserLayoutProtocol
+- (_Bool);
 @end
 

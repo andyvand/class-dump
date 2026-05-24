@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, MMWebKitViewController, NSString, NSWindow;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface iCloudAccountSubscriptionFeaturesController
 {
     ACAccount *_account;
-    NSWindow *_window;
-    MMWebKitViewController *_webKitViewController;
 }
 
 - (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -32,15 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
-@property(nonatomic) __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

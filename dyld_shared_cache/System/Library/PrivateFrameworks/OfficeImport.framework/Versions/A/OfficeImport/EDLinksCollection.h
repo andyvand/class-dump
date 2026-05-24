@@ -10,23 +10,22 @@ __attribute__((visibility("hidden")))
 @interface EDLinksCollection
 {
     NSMutableArray *mLinks;
-    NSMutableArray *mReferences;
 }
 
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
+- (void)/;
+- (unsigned long long)T;
 - (id);
-- (id);
+- (id)FinishTaskUninterruptable;
 - (unsigned long long);
 - (void);
 

@@ -6,21 +6,11 @@
 
 #import <PhotosUICore/PXAssetsSelectionAction.h>
 
-@class NSArray, NSMutableArray, NSProgress, NSString, PHFetchResult;
+@class NSMutableArray;
 
 @interface PXDuplicateAssetsAction : PXAssetsSelectionAction
 {
     NSMutableArray *_originalAssets;
-    long long _assetCount;
-    _Bool _didCheckDuplicateCapabilities;
-    _Bool _canExtractStill;
-    NSArray *_createdAssetLocalIdentifiers;
-    PHFetchResult *_createdAssets;
-    _Bool _duplicatesOriginal;
-    _Bool _duplicatesAsStill;
-    NSProgress *_actionProgress;
-    CDUnknownBlockType _downloadCompletionHandler;
-    CDStruct_1b6d18a9 _stillImageTime;
 }
 
 + (_Bool);
@@ -29,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(=;
 - (id);
 - (id);
 - (id);
@@ -47,21 +37,11 @@
 - (CDUnknownBlockType);
 - (long long);
 - (void);
-- (id)allbackMessage;
+- (id)fallbackMessage;
 - (void)ÉÅ·%ÿ¹Å·%ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSProgress *actionProgress; // @synthesize actionProgress=_actionProgress;
 @property(readonly, nonatomic) _Bool canExtractStill;
-@property(readonly, nonatomic) PHFetchResult *createdAssets;
-@property(copy, nonatomic) CDUnknownBlockType downloadCompletionHandler; // @synthesize downloadCompletionHandler=_downloadCompletionHandler;
-@property(nonatomic) _Bool duplicatesAsStill; // @synthesize duplicatesAsStill=_duplicatesAsStill;
-@property(nonatomic) _Bool duplicatesOriginal; // @synthesize duplicatesOriginal=_duplicatesOriginal;
-@property(readonly, copy, nonatomic) NSString *extractStillConfirmationAlertAsLiveButtonTitle;
-@property(readonly, copy, nonatomic) NSString *extractStillConfirmationAlertAsStillButtonTitle;
-@property(readonly, copy, nonatomic) NSString *extractStillConfirmationAlertCancelButtonTitle;
-@property(readonly, copy, nonatomic) NSString *extractStillConfirmationAlertTitle;
-@property(nonatomic) CDStruct_1b6d18a9 stillImageTime; // @synthesize stillImageTime=_stillImageTime;
 
 @end
 

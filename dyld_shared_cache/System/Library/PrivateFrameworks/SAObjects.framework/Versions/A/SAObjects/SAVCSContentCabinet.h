@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSNumber, SAUIConfirmationView, SAUITemplateButton;
-
 @interface SAVCSContentCabinet : SAUISnippet
 {
 }
@@ -16,7 +14,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -24,15 +22,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)?;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool browseResults;
-@property(retain, nonatomic) SAUIConfirmationView *confirmationView;
-@property(retain, nonatomic) SAUITemplateButton *foregroundAppButton;
-@property(copy, nonatomic) NSNumber *fullScreenEnabled;
-@property(copy, nonatomic) NSArray *shelves;
 
 @end
 

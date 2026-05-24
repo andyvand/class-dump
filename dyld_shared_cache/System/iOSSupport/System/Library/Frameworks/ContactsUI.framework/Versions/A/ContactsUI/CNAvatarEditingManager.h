@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTStickerConfiguration, CNPhotoPickerAnimojiProviderItem, CNPhotoPickerVariantsManager, NSString, UIImage, UIViewController;
 @protocol AVTAvatarRecord, CNAvatarEditingManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarEditingManager
 {
     id <CNAvatarEditingManagerDelegate> _delegate;
-    CNPhotoPickerAnimojiProviderItem *_originalItem;
-    UIViewController *_viewController;
-    id <AVTAvatarRecord> _avatarRecord;
-    AVTStickerConfiguration *_poseConfiguration;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    UIImage *_imageWithAlpha;
 }
 
 + (id)0@ù
@@ -28,46 +21,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)/;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (struct CGRect)/;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void));
+- (void);
+- (id)publicNamespaces;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNAvatarEditingManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *imageWithAlpha; // @synthesize imageWithAlpha=_imageWithAlpha;
-@property(retain, nonatomic) CNPhotoPickerAnimojiProviderItem *originalItem; // @synthesize originalItem=_originalItem;
-@property(retain, nonatomic) AVTStickerConfiguration *poseConfiguration; // @synthesize poseConfiguration=_poseConfiguration;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
-@property(retain, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

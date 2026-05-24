@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WDDocument, WDTablePropertiesValues;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDTableProperties
 {
     unsigned int mOriginal:1;
-    unsigned int mTracked:1;
-    unsigned int mResolved:1;
-    WDTablePropertiesValues *mOriginalProperties;
-    WDTablePropertiesValues *mTrackedProperties;
-    WDDocument *mDocument;
 }
 
 - (int);
@@ -22,6 +17,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (void)
++;
 - (void);
 - (void);
 - (void);
@@ -38,23 +35,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (id);
 - (int);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned short);
 - (long long);
 - (id);
 - (int);
 - (_Bool);
+- (_Bool)`;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)T);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,12 +68,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)3;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -89,12 +85,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)T<;
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
 - (int);
-- (short);
+- (short);
 - (int);
 - (int);
 - (id);
@@ -103,7 +99,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	k;
 - (void);
 - (long long);
 - (id);
@@ -113,11 +109,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (int);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (int);
-- (void);
+- (void);
 - (_Bool);
 - (long long);
 - (void);

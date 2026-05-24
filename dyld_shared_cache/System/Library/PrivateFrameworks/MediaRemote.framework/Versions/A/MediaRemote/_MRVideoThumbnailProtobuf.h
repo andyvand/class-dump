@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _MRVideoThumbnailProtobuf
 {
     double _time;
-    NSData *_imageData;
-    struct {
-        unsigned int time:1;
-    } _has;
 }
 
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)_state;
+- (_Bool)isAccountManateeCapable;
 - (id);
 - (void);
 - (void);
@@ -25,19 +19,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
-- (id);
-- (id);
+- (id)_lastUpdateResetSequenceNumber;
+- (id)n.begin;
 - (double);
 - (void);
-- (void)ompletion;
+- (void)commandCompletion;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasImageData;
-@property(nonatomic) _Bool hasTime;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) double time; // @synthesize time=_time;
 
 @end
 

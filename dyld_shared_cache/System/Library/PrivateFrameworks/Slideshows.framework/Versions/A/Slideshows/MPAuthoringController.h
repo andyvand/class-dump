@@ -4,44 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, MPWeighter, NSLock, NSMutableDictionary, NSRecursiveLock;
-
 @interface MPAuthoringController
 {
     _Bool _isAuthoring;
-    MPDocument *_authoredDocument;
-    unsigned long long _seed;
-    NSRecursiveLock *_beatLock;
-    NSMutableDictionary *_cachedROIInformation;
-    NSLock *_cachedROILock;
-    NSLock *_authorLock;
-    MPWeighter *_weighter;
-    MPWeighter *_transitionWeighter;
-    MPWeighter *_shuffleWeighter;
-    NSMutableDictionary *_stats;
-    id _delegate;
-    long long _logLevel;
-    double _logTiming;
-    double _placesDistanceSeperation;
-    _Bool _placesDebug;
-    _Bool _cancelAuthoring;
-    _Bool _skipApplyingSettings;
 }
 
 + (void);
 + (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)So8NSObjectC;
+- (id)will push events for %lu telemetry event groups;
+- (id)}@;
+- (void)nal/Library/BuildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (id)EnvelopeStoreEntry.m;
+- (id)terEnvelopeContentTypesAsUploaded:(id)arg1 ];
+- (id)racker registerEnvelopesAsCreated:(id)arg1 ];
+- (void)aches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
+- (void)ctory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
+- (void)AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadAssembler.m;
+- (void)TelemetryEvent;
 - (void);
 - (void);
 - (void);
@@ -56,7 +37,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,8 +55,8 @@
 - (long long);
 - (id);
 - (_Bool);
-- (void);
-- (long long);
+- (void)	?רC;
+- (long long)(;
 - (_Bool);
 - (id);
 - (void);
@@ -91,12 +72,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
+- (id)h;
 - (id);
-- (id);
-- (id);
+- (id)&;
 - (void);
 - (id);
 - (void);
@@ -125,14 +106,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)7;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)T#;
 - (long long);
 - (id);
 - (id);

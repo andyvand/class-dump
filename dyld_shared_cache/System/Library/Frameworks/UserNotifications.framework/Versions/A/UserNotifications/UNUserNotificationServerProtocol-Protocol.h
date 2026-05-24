@@ -5,5 +5,11 @@
 //
 
 @protocol UNUserNotificationServerProtocol
+- (void);
+- (void);
+- (void)!;
+
+@optional
+- (void)( ;
 @end
 

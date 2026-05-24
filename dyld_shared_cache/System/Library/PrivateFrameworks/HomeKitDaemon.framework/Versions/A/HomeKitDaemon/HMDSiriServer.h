@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNotificationRegistration, HMDSiriAccessoryMonitor, HMDSiriRemoteInputServer, HMDSiriSession, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriServer
 {
     unsigned int _targetControlIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMDNotificationRegistration *_notificationRegistration;
-    HMDSiriAccessoryMonitor *_siriAccessoryMonitor;
-    HMDSiriRemoteInputServer *_siriInputServer;
-    HMDSiriSession *_siriUISession;
 }
 
 + (id);
@@ -32,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ons:(id)arg1 completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)o;
+- (void)dTripService sharedTripDidClose:(id)arg1 ];
 - (void);
 - (void);
 - (void);
@@ -54,23 +49,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)eConnectionFactory;
 - (void)@;
-- (void)ryPairingOperation;
+- (void)HMDAddAccessoryPairingOperation;
 - (void)onse Timeout;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDNotificationRegistration *notificationRegistration; // @synthesize notificationRegistration=_notificationRegistration;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) HMDSiriAccessoryMonitor *siriAccessoryMonitor; // @synthesize siriAccessoryMonitor=_siriAccessoryMonitor;
-@property(retain, nonatomic) HMDSiriRemoteInputServer *siriInputServer; // @synthesize siriInputServer=_siriInputServer;
-@property(retain, nonatomic) HMDSiriSession *siriUISession; // @synthesize siriUISession=_siriUISession;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int targetControlIdentifier; // @synthesize targetControlIdentifier=_targetControlIdentifier;
 
 @end
 

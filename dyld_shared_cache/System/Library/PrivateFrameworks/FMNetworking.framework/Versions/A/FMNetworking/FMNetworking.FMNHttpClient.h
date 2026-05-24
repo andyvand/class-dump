@@ -7,20 +7,11 @@
 @interface FMNetworking.FMNHttpClient
 {
     id authenticationChallengeHandler;
-    id bundleIdentifierFallback;
-    id httpSuccessCodeMin;
-    id httpSuccessCodeMax;
-    id credential;
-    id urlSessionFactory;
-    id statusCodeHandlers;
-    id statusCodeHandlerQueue;
-    id session;
-    id sessionLock;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)TravelFlight;
 - (void);
 
 @end

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WBSBlockCoalescer
 {
     double _minimumTimeIntervalBeforeExecution;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
 }
 
 - (id);

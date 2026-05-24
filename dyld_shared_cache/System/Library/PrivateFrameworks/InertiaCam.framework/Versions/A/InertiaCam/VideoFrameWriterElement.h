@@ -7,12 +7,10 @@
 @interface VideoFrameWriterElement
 {
     struct __CVBuffer *_pixelBuffer;
-    CDStruct_1b6d18a9 _frameTime;
-    long long _frameNumber;
 }
 
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
 - (void);
 - (void);
@@ -21,8 +19,6 @@
 - (struct __CVBuffer *);
 
 // Remaining properties
-@property(nonatomic) long long frameNumber; // @synthesize frameNumber=_frameNumber;
-@property(nonatomic) CDStruct_1b6d18a9 frameTime; // @synthesize frameTime=_frameTime;
 @property(nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
 
 @end

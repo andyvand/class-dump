@@ -5,5 +5,6 @@
 //
 
 @protocol CSMediaPlayingMonitorDelegate
+- (void);
 @end
 

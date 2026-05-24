@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface INModifyRelationship
 {
     NSString *_targetRelationship;
-    NSNumber *_isRemoval;
 }
 
-+ (id);
++ (id);
 + (_Bool);
+- (id);
 - (id);
 - (id);
+- (id)_startDeviceMotionUpdates;
+- (id);
+- (unsigned long long)K;
+- (_Bool)cancelScansForInterfaceName:(id)arg1;
+- (void)arget.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:(id)arg1 true}); }); await p; return p;;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)ivateAddMediaIntentDatas;
-- (void)Home:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)clearPayloadPrivateAddMediaIntentDatas;
+- (void)provideTimeOptionsForControlHome:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *isRemoval; // @synthesize isRemoval=_isRemoval;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *targetRelationship; // @synthesize targetRelationship=_targetRelationship;
 
 @end

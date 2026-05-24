@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)jsonSerializeDictionary: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize)ss getEMFEmojiPreferencesClientClass(void)_block_invoke;
 - (void)s>"8;

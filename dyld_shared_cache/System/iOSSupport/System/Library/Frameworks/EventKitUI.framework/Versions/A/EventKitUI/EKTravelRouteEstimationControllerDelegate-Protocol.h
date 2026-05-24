@@ -5,5 +5,10 @@
 //
 
 @protocol EKTravelRouteEstimationControllerDelegate
+
+@optional
+- (void)&s;
+- (void);
+- (void);
 @end
 

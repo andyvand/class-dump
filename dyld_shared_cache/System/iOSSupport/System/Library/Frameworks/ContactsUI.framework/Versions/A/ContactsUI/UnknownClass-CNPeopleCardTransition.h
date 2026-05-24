@@ -17,10 +17,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ab_isDirectlyInPopover;
-@property(readonly, nonatomic) _Bool ab_isInPopover;
-@property(readonly, nonatomic) _Bool ab_isInSheet;
 @property(readonly, nonatomic) _Bool ab_shouldShowNavBarButtons;
-@property(readonly, nonatomic) _Bool ab_shouldUseTransparentBackgroundInPopovers;
 @end
 

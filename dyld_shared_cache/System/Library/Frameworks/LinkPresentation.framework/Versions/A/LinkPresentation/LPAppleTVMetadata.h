@@ -6,30 +6,28 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPAppleTVMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    LPImage *_artwork;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)DisallowRecordPCSToBeCreated;
+- (id)odifying records. Sending that callback now with error %@;
 - (unsigned long long);
-- (id);
+- (id)h*C9;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)6@?0@"NSAnimationContext"8;
 - (void);
 - (id);
 - (id);
@@ -37,16 +35,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

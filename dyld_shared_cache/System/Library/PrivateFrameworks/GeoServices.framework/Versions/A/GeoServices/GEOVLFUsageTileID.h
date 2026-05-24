@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOVLFUsageTileID
 {
     PBUnknownFields *_unknownFields;
-    NSString *_buildId;
-    double _uncertainty;
-    double _xCoordinate;
-    double _yCoordinate;
-    struct {
-        unsigned int has_uncertainty:1;
-        unsigned int has_xCoordinate:1;
-        unsigned int has_yCoordinate:1;
-    } _flags;
 }
 
-+ (_Bool)cript:(id)arg1;
++ (_Bool)setObject:(id)arg1 atIndexedSubscript: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void);
@@ -30,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)NPersistentStoreCoordinatorCacheEntry"16@?0@"NSURL"8;
 - (void);
 - (void);
 - (void);
@@ -39,8 +30,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setDetectedToken:(id)arg1;
+- (id)eMyriadVoiceTriggerMetaData"16^B24;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -49,21 +40,13 @@
 - (void);
 - (id)º*1Â0@ù
 × ;
-- (id);
+- (id)initWithResultRefinementSortElement: /* Error: Ran out of types for this method. */;
 - (id)peActionBar",&,N;
 - (id)Geocoder Versions;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildId;
 @property(readonly, nonatomic) _Bool hasBuildId;
-@property(nonatomic) _Bool hasUncertainty;
-@property(nonatomic) _Bool hasXCoordinate;
-@property(nonatomic) _Bool hasYCoordinate;
-@property(nonatomic) double uncertainty;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) double xCoordinate;
-@property(nonatomic) double yCoordinate;
 
 @end
 

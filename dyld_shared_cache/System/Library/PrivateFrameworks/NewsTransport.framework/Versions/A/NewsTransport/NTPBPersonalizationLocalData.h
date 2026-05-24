@@ -4,62 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NTPBPersonalizationLocalData
 {
     NSMutableArray *_aggregates;
-    NSMutableArray *_closedChangeGroups;
-    NSString *_currentInstanceIdentifier;
-    NSMutableArray *_openChangeGroupDeltas;
-    NSData *_remoteRecordData;
 }
 
-+ (Class);
-+ (Class);
-+ (Class);
-- (void);
-- (void);
-- (void);
-- (void);
++ (Class)_songsConfiguration;
++ (Class)_preloadingEstimationStrategy;
++ (Class)_persistedSongResult;
+- (void)extractStillConfirmationAlertCancelButtonTitle;
+- (void)enumerateStoryConfigurationsUsingBlock:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)createAnchorForScrollingToInitialPosition;
+- (void)copyWithZone:(id)arg1;
+- (void)contentRegionOfInterest;
+- (id)containsMultipleAssets;
+- (unsigned long long)composeRecipientValidationManager:didUpdateValidationWithChangedIndexes: /* Error: Ran out of types for this method. */;
+- (id)composeRecipientSelectionManager:(unsigned long long)arg1 didUpdateSelectionSnapshotWithChangeDetails: /* Error: Ran out of types for this method. */;
+- (id)composeRecipientSelectionManager:didUpdateSelectionSnapshotWithChangeDetails: /* Error: Ran out of types for this method. */;
+- (_Bool)changeDetailsForChildDataSectionManagersChangeDetails: /* Error: Ran out of types for this method. */;
+- (_Bool)audioSessionCategory;
+- (id)appendData: /* Error: Ran out of types for this method. */;
+- (unsigned long long)animatedOverlayBehavior;
+- (id)animatedImageLoadingProgress;
+- (id)animatedImageAsset;
+- (void)ambiguousTokensBlockStoryGeneration;
+- (void)alphaDidChange;
+- (id);
+- (id)aggregationRange;
+- (void)addressKind;
+- (void)addTransientDraftAnnotationToMemoryCreationRequest:(id)arg1;
+- (void)addSpriteCount:(id)arg1 withInitialState: /* Error: Ran out of types for this method. */;
+- (void)addChapterWithAssetRange:configuration: /* Error: Ran out of types for this method. */;
+- (unsigned long long)addBoundaryTimeObserverForTimes:queue:usingBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)CConnection was invalidated.;
+- (_Bool)So13NSMutableDataCSg;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *aggregates; // @synthesize aggregates=_aggregates;
-@property(retain, nonatomic) NSMutableArray *closedChangeGroups; // @synthesize closedChangeGroups=_closedChangeGroups;
-@property(retain, nonatomic) NSString *currentInstanceIdentifier; // @synthesize currentInstanceIdentifier=_currentInstanceIdentifier;
-@property(readonly, nonatomic) _Bool hasCurrentInstanceIdentifier;
-@property(readonly, nonatomic) _Bool hasRemoteRecordData;
 @property(retain, nonatomic) NSMutableArray *openChangeGroupDeltas; // @synthesize openChangeGroupDeltas=_openChangeGroupDeltas;
-@property(retain, nonatomic) NSData *remoteRecordData; // @synthesize remoteRecordData=_remoteRecordData;
 
 @end
 

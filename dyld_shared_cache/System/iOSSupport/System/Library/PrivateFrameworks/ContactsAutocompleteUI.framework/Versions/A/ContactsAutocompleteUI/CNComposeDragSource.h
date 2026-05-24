@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDragInteraction, UIView;
 @protocol CNComposeDragSourceDelegate;
 
 @interface CNComposeDragSource
@@ -20,10 +19,6 @@
         _Bool respondsToIsRestrictedToMail;
         _Bool respondsToDataOwner;
     } _delegateFlags;
-    _Bool _allowsDragOverridingMasterSwitch;
-    UIView *_sourceView;
-    id <CNComposeDragSourceDelegate> _delegate;
-    UIDragInteraction *_dragInteraction;
 }
 
 - (void);
@@ -35,25 +30,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)i;
 - (_Bool);
-- (id);
-- (void);
+- (id)?;
+- (void)h;
 - (long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDragOverridingMasterSwitch; // @synthesize allowsDragOverridingMasterSwitch=_allowsDragOverridingMasterSwitch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CNComposeDragSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
 
 @end
 

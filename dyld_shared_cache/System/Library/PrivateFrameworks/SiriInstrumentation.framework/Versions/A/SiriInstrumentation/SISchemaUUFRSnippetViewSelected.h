@@ -6,33 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaUUFRSnippetViewSelected : SISchemaInstrumentationMessage
 {
     NSString *_snippetAceId;
-    _Bool _hasSnippetAceId;
 }
 
-- (id);
+- (id)V;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)initWithViewIdentifier:configuration: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/IMDIndexes.m;
 - (id);
 - (id);
-- (id)hesisId;
-- (id)orIdentifierQueryCallContext;
-- (void)ed;
+- (id)deleteHypothesisId;
+- (id)_hasExecutorIdentifierQueryCallContext;
+- (void)rejected;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSnippetAceId; // @synthesize hasSnippetAceId=_hasSnippetAceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *snippetAceId; // @synthesize snippetAceId=_snippetAceId;
 
 @end

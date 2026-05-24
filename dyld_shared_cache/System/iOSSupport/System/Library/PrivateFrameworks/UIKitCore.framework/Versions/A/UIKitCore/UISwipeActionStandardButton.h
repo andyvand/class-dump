@@ -10,14 +10,10 @@ __attribute__((visibility("hidden")))
 @interface UISwipeActionStandardButton : UISwipeActionButton
 {
     double _buttonWidth;
-    struct {
-        unsigned int isInLayoutSubviews:1;
-    } _flags;
-    double _extensionLength;
 }
 
 - (void);
-- (double);
+- (double)to deleted sync table;
 - (double);
 - (void);
 - (id)pleting:(struct CGRect)arg1;

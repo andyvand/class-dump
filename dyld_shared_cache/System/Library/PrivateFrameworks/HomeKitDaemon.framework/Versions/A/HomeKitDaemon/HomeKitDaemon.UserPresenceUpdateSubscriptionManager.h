@@ -9,9 +9,6 @@
 @interface HomeKitDaemon.UserPresenceUpdateSubscriptionManager
 {
     id $defaultActor;
-    id clientConnections;
-    id uuid;
-    id messageDispatcher;
 }
 
 - (void);

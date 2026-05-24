@@ -10,20 +10,20 @@
 + (Class);
 + (id);
 + (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
+- (id)K-bQ6x4VpErDymejfsBXW5gK4DTQ/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/System/iOSSupport/usr/local/include/wtf/Deque.h;
 - (id);
-- (id);
-- (id);
+- (id);
 @end
 

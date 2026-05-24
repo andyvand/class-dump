@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel, UILongPressGestureRecognizer, UITextField, UIView, _UIContentViewEditingConfiguration, _UIPassthroughScrollInteraction;
-@protocol _UIListContentTextPropertiesInternal;
+@class UILongPressGestureRecognizer, UITextField;
 
 __attribute__((visibility("hidden")))
 @interface _UIContentViewEditingController
 {
     UILongPressGestureRecognizer *_longPressRecognizer;
-    _UIPassthroughScrollInteraction *_passthroughInteraction;
-    _Bool _hasEdits;
-    UIView *_contentView;
-    UILabel *_editableLabel;
-    UITextField *_textInputView;
-    _UIContentViewEditingConfiguration *_editingConfiguration;
-    id <_UIListContentTextPropertiesInternal> _labelProperties;
 }
 
 - (void);
@@ -32,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void):errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (_Bool)broadcasterForACConferenceListenersSupportingService:(CDUnknownBlockType)arg1;
+- (void)batchOfRecordIDsToDeleteWithLimit:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldPassthroughIncomingMessageOnService:command:message: /* Error: Ran out of types for this method. */;
+- (id)_constructRecoverableMessageRecordIDUsingTombStoneDictionary:(id)arg1;
+- (id)_myNumberString;
+- (id)_markCurrentNicknameAsArchived:incrementPendingNicknameVersion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -51,18 +43,6 @@ __attribute__((visibility("hidden")))
 - (id)À6c;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisplayingEditedText) _Bool displayingEditedText;
-@property(readonly, nonatomic) UILabel *editableLabel; // @synthesize editableLabel=_editableLabel;
-@property(readonly, nonatomic) _UIContentViewEditingConfiguration *editingConfiguration; // @synthesize editingConfiguration=_editingConfiguration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <_UIListContentTextPropertiesInternal> labelProperties; // @synthesize labelProperties=_labelProperties;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITextField *textInputView; // @synthesize textInputView=_textInputView;
 
 @end

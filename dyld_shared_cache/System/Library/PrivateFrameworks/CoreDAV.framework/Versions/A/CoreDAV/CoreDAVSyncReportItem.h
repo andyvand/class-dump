@@ -15,8 +15,8 @@
 
 + (id);
 - (void);
-- (id);
-- (void);
+- (id)alignView:toView:withAttribute:constant: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 
 // Remaining properties

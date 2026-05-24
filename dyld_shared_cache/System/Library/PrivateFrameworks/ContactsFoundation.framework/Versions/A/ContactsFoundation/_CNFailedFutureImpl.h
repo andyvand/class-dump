@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSError;
 
 @interface _CNFailedFutureImpl
 {
     NSError *_error;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)setClasses:(id)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (void)ateInfo;
+- (void)CNDelegateInfo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol RBImageRenderer
+- (struct CGImage *);
 @end
 

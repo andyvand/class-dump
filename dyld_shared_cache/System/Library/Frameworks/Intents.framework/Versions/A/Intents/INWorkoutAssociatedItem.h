@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSString;
-
 @interface INWorkoutAssociatedItem
 {
     long long _itemLabel;
-    NSString *_itemID;
-    long long _contentRating;
-    INSpeakableString *_itemName;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)+u;
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)ential"{?="sourcesSlot"Q"deltaChangedHandlerSlot"Q"deltaSlot"Q"timestampSlot"Q});
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setUCMExtProfile:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)ndable;
 - (id);
 - (id);
-- (id);
-- (id)BundleIdentifier:(unsigned long long)arg1 kind:intentClassName:actionIntentType: /* Error: Ran out of types for this method. */;
-- (id)rkoutGoalUnitTypes;
-- (void)ResponseCodeReady;
+- (id);
+- (id)initWithExtensionBundleIdentifier:(unsigned long long)arg1 kind:intentClassName:actionIntentType: /* Error: Ran out of types for this method. */;
+- (id)_payloadWorkoutGoalUnitTypes;
+- (void)INAddTasksIntentResponseCodeReady;
 - (id)ÄuÊÿò8O;
 
 // Remaining properties
-@property(readonly) long long contentRating; // @synthesize contentRating=_contentRating;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *itemID; // @synthesize itemID=_itemID;
 @property(readonly) long long itemLabel; // @synthesize itemLabel=_itemLabel;
-@property(readonly, copy) INSpeakableString *itemName; // @synthesize itemName=_itemName;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void)ñ^Ð1Â0@ù
 × ;
 - (void);
-- (void)eactivate:(id)arg1 withContext: /* Error: Ran out of types for this method. */;
+- (void)sceneWillDeactivate:(id)arg1 withContext: /* Error: Ran out of types for this method. */;
 
 @end
 

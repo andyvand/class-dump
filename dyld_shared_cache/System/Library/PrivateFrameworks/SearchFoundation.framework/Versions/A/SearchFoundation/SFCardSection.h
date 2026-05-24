@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFUserReportRequest;
-
 @interface SFCardSection
 {
     struct {
@@ -14,43 +12,6 @@
         unsigned int hasBottomPadding:1;
         unsigned int separatorStyle:1;
     } _has;
-    _Bool _hasBottomPadding;
-    _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hideDivider;
-    _Bool _shouldHideInAmbientMode;
-    _Bool _forceEnable3DTouch;
-    _Bool _shouldShowInSmartDialog;
-    int _separatorStyle;
-    int _increasedContrastMode;
-    int _requiredLevelOfDetail;
-    NSString *_type;
-    SFCard *_nextCard;
-    NSArray *_commands;
-    NSString *_punchoutPickerTitle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerDismissText;
-    NSArray *_parameterKeyPaths;
-    NSString *_cardSectionId;
-    SFColor *_backgroundColor;
-    NSString *_resultIdentifier;
-    SFUserReportRequest *_userReportRequest;
-    SFCommand *_command;
-    SFCommand *_previewCommand;
-    NSArray *_previewButtonItems;
-    NSString *_commandDetail;
-    NSString *_cardSectionDetail;
-    NSString *_previewButtonItemsTitle;
-    NSArray *_leadingSwipeButtonItems;
-    NSArray *_trailingSwipeButtonItems;
-    NSArray *_referencedCommands;
-    SFAppEntityAnnotation *_appEntityAnnotation;
-    NSString *_emphasisSubjectId;
-    SFCommand *_secondaryCommand;
-    NSString *_racFeedbackSubfeatureId;
-    NSMutableDictionary *_racFeedbackLoggingContent;
-    SFCopyItem *_copyableItems;
-    NSString *_applicationBundleIdentifier;
 }
 
 @end

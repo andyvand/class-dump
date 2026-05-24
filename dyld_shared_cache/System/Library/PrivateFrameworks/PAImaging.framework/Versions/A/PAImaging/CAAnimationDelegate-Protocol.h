@@ -9,6 +9,6 @@
 @optional
 - (void)1Â0@ù
 × ;
-- (void);
+- (void)_logger;
 @end
 

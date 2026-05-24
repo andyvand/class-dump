@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSProgressIndicator *_activityIndicatorView;
 }
 
-- (id);
-- (void)ate: /* Error: Ran out of types for this method. */;
+- (id)ollowing face and torsoprint revisions:%lu and %lu and algorithm type:%@ /* Error: Ran out of types for this method. */;
+- (void)filteredArrayUsingPredicate: /* Error: Ran out of types for this method. */;
 
 @end
 

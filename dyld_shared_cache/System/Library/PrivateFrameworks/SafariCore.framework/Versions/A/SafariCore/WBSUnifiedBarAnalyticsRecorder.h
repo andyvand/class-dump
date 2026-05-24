@@ -11,9 +11,9 @@
     id <WBSUnifiedBarAnalyticsRecorderDelegate> _delegate;
 }
 
-- (id);
+- (id)setTestingCursorController: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)g",R,N,V_amsBag;
 - (void);
 - (void)!×Ð!ÌCùXÐ1Â0@ù
 × ;

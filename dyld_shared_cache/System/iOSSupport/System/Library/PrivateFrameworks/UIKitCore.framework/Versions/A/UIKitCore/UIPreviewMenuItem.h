@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIImage;
+@class NSString;
 
 @interface UIPreviewMenuItem
 {
     NSString *identifier;
-    NSString *_title;
-    CDUnknownBlockType _handler;
-    long long _style;
-    NSArray *__subitems;
-    UIImage *_image;
-    UIColor *_color;
 }
 
 + (id);
@@ -22,19 +16,19 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (void);
+- (void)<0;
 - (id)ù
 × ;
 - (void)A
 ð!ÄAùÑf°1Â0@ù
 × ;
-- (void)ion:(CDUnknownBlockType)arg1;
-- (void)AttributedHint:(id)arg1;
-- (void)afeArea;
-- (CDUnknownBlockType)ngLoadedInteractions;
+- (void)_setAllowsAutorotation:(CDUnknownBlockType)arg1;
+- (void)_internalSetAccessibilityAttributedHint:(id)arg1;
+- (void)__ignoredEdgesForSafeArea;
+- (CDUnknownBlockType)_removeSpringLoadedInteractions;
 - (id)daptiveTransitionContext,S_setAdaptiveTransitionContext:(struct _NSZone *)arg1 ,V_adaptiveTransitionContext;
 - (id);
 - (void):(id)arg1 %p presses:%@> /* Error: Ran out of types for this method. */;
@@ -43,13 +37,7 @@
 - (id)Àäe;
 
 // Remaining properties
-@property(copy, nonatomic, getter=_subitems, setter=_setSubitems:) NSArray *_subitems; // @synthesize _subitems=__subitems;
-@property(retain, nonatomic, getter=_color, setter=_setColor:) UIColor *color; // @synthesize color=_color;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WBSSingleFieldTelemetryData
 {
     _Bool _isAutoFilled;
-    _Bool _isManuallyFilledByUser;
-    long long _fieldType;
-    unsigned long long _elementType;
-    NSString *_fieldID;
-    unsigned long long _modificationType;
-    unsigned long long _autoFillOfferedType;
 }
 
 - (_Bool);
@@ -34,14 +26,7 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long autoFillOfferedType; // @synthesize autoFillOfferedType=_autoFillOfferedType;
-@property(readonly, nonatomic) unsigned long long elementType; // @synthesize elementType=_elementType;
-@property(readonly, copy, nonatomic) NSString *fieldID; // @synthesize fieldID=_fieldID;
 @property(nonatomic) long long fieldType; // @synthesize fieldType=_fieldType;
-@property(nonatomic) _Bool isAutoFilled; // @synthesize isAutoFilled=_isAutoFilled;
-@property(nonatomic) _Bool isManuallyFilledByUser; // @synthesize isManuallyFilledByUser=_isManuallyFilledByUser;
-@property(nonatomic) unsigned long long modificationType; // @synthesize modificationType=_modificationType;
-@property(readonly, nonatomic) _Bool wasPreviouslyAutoFilled;
 
 @end
 

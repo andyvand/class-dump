@@ -7,8 +7,6 @@
 @interface NewsUI2.OfflineAlertControllerFactory
 {
     id baseStyler;
-    id bundleSubscriptionManager;
-    id featureAvailability;
 }
 
 @end

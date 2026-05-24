@@ -7,18 +7,16 @@
 @interface CPDistributedMessagingDelayedReplyContext
 {
     unsigned int _replyPort;
-    _Bool _portPassing;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) _Bool portPassing; // @synthesize portPassing=_portPassing;
 @property(nonatomic) unsigned int replyPort; // @synthesize replyPort=_replyPort;
 
 @end

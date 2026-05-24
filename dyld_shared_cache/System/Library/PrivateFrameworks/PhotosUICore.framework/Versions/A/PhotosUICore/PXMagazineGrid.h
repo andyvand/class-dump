@@ -7,9 +7,6 @@
 @interface PXMagazineGrid
 {
     unsigned long long _numberOfColumns;
-    long long *_table;
-    unsigned long long _tableSizeInBytes;
-    long long _maxRows;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (long long);
 - (long long);
@@ -34,7 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentRowsUsed;
-@property(readonly, nonatomic) unsigned long long endingType;
 
 @end
 

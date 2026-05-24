@@ -11,14 +11,12 @@
 @interface EKCalendarSuggestionNotification : EKCalendarResourceChangeNotification
 {
     SGEvent *_suggestedEvent;
-    NSString *_originAppName;
 }
 
 + (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *originAppName;
-@property(readonly, nonatomic) SGEvent *suggestedEvent;
 
 @end
 

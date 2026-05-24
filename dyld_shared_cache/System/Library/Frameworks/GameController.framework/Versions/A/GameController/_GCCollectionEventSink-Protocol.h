@@ -5,5 +5,6 @@
 //
 
 @protocol _GCCollectionEventSink
+- (void);
 @end
 

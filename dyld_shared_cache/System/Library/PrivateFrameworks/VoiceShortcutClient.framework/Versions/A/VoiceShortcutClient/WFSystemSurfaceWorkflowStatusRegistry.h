@@ -13,10 +13,10 @@
 
 - (unsigned long long);
 - (id);
+- (_Bool)z;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);

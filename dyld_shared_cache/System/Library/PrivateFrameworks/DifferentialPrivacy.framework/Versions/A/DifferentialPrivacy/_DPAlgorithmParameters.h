@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *parameterDictionary; // @synthesize parameterDictionary=_parameterDictionary;

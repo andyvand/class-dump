@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUserDefaults;
-@protocol HMDFetchedSettingsDriverDelegate, OS_dispatch_queue;
+@protocol HMDFetchedSettingsDriverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDFetchedSettingsDriverPreferences
 {
     id <HMDFetchedSettingsDriverDelegate> delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUserDefaults *_userDefaults;
-    NSString *_prefix;
 }
 
 + (id)¤Îÿ$ðýB;
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)16@0:(id)arg1 8;
 - (void);
 - (id);
 - (void);
@@ -30,14 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)e.HomeKit.MobileAssetManager;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDFetchedSettingsDriverDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

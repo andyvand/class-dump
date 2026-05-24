@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INMediaItem, INMediaSearch, INPrivatePlayMediaIntentData, NSArray, NSDate, NSNumber, NSString;
+@class NSArray;
 
 @interface INPlayMediaIntent : INIntent
 {
@@ -16,30 +16,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(copy) NSArray *alternativeResults;
-@property(copy) NSArray *audioSearchResults;
-@property(copy) NSArray *buckets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDate *expirationDate;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *hashedRouteUIDs;
-@property(readonly, copy) INMediaItem *mediaContainer;
 @property(readonly, copy) NSArray *mediaItems;
-@property(readonly, copy) INMediaSearch *mediaSearch;
-@property long long parsecCategory;
-@property(readonly, copy) NSNumber *playShuffled;
-@property(readonly) long long playbackQueueLocation;
-@property(readonly) long long playbackRepeatMode;
-@property(readonly, copy) NSNumber *playbackSpeed;
-@property(copy) INPrivatePlayMediaIntentData *privatePlayMediaIntentData;
-@property(copy) NSString *proxiedBundleIdentifier;
-@property(copy) NSString *recoID;
-@property(readonly, copy) NSNumber *resumePlayback;
-@property(readonly) Class superclass;
 
 @end
 

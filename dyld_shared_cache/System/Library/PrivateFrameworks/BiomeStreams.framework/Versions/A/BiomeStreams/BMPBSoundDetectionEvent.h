@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSoundDetectionEvent
 {
     double _absoluteTimestamp;
-    NSString *_name;
-    NSString *_soundDetectionType;
-    CDStruct_d3e759b0 _has;
 }
 
 - (id);
-- (void);
+- (void)rTԂ;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)k;
+- (_Bool)c;
 - (_Bool);
 - (void);
 - (id);
@@ -36,12 +31,7 @@
 - (void)ü;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasSoundDetectionType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *soundDetectionType; // @synthesize soundDetectionType=_soundDetectionType;
 
 @end
 

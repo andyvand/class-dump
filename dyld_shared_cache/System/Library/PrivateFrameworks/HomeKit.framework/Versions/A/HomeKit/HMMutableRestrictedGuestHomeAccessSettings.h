@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMRestrictedGuestHomeAccessSettings.h>
 
-@class HMRestrictedGuestHomeAccessSchedule, NSSet;
+@class NSSet;
 
 @interface HMMutableRestrictedGuestHomeAccessSettings : HMRestrictedGuestHomeAccessSettings
 {
@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(copy) NSSet *accessAllowedToAccessories; // @dynamic accessAllowedToAccessories;
-@property(copy) HMRestrictedGuestHomeAccessSchedule *guestAccessSchedule; // @dynamic guestAccessSchedule;
 
 @end
 

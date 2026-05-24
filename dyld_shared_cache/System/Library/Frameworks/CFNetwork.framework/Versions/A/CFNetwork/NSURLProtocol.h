@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCachedURLResponse, NSURLProtocolInternal, NSURLRequest, NSURLSessionTask;
+@class NSURLProtocolInternal;
 @protocol NSURLProtocolClient;
 
 @interface NSURLProtocol
 {
     NSURLProtocolInternal *_internal;
-    NSURLSessionTask *_task;
-    _Bool _inInitWithTask;
 }
 
 + (void);
@@ -26,22 +24,21 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)@!;
+- (id);
+- (id);
+- (void)
+;
+- (id);
+- (void)Enghecyrillic;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)I;
+- (id)2iI;
 
 // Remaining properties
-@property(readonly, copy) NSCachedURLResponse *cachedResponse;
 @property(readonly, retain) id <NSURLProtocolClient> client;
-@property(readonly, copy) NSURLRequest *request;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface IMCore.ImportExport.ConversationArchiver
 {
     id conversation;
-    id archivingOptions;
-    id conversationFileRelativePath;
-    id conversationExporter;
-    id conversationDirectories;
 }
 
 @end

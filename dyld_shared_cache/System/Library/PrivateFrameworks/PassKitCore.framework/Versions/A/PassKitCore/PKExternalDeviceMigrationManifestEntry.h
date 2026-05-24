@@ -9,12 +9,6 @@
 @interface PKExternalDeviceMigrationManifestEntry
 {
     NSString *_identifier;
-    NSString *_passUniqueIdentifier;
-    NSString *_fpanDescriptorIdentifier;
-    NSString *_title;
-    NSString *_subtitle;
-    unsigned long long _transferSize;
-    unsigned long long _estimatedOnDiskSize;
 }
 
 + (_Bool)î%°1Â0@ù
@@ -23,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)b;
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,21 +25,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)memoryDumps;
+- (void);
 - (id);
-- (id);
+- (id)\;
 - (id)l;
 - (void)24@?0@"PKHowToUseWalletCard"8^B16;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long estimatedOnDiskSize; // @synthesize estimatedOnDiskSize=_estimatedOnDiskSize;
-@property(readonly, nonatomic) NSString *fpanDescriptorIdentifier; // @synthesize fpanDescriptorIdentifier=_fpanDescriptorIdentifier;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned long long transferSize; // @synthesize transferSize=_transferSize;
 
 @end
 

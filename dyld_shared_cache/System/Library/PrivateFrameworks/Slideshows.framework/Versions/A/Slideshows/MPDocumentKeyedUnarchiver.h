@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, NSDictionary;
 @protocol MPAssetKeyDelegate;
 
 @interface MPDocumentKeyedUnarchiver
 {
     id <MPAssetKeyDelegate> _assetKeyDelegate;
-    NSDictionary *_mediaProperties;
-    MPDocument *_parentDocument;
 }
 
-- (void);
-- (void);
+- (void)NDAppConfigAnalyticsPayloadAssemblerConfigProvider init];
+- (void);
 - (id);
-- (void);
+- (void)<\?;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) id <MPAssetKeyDelegate> assetKeyDelegate; // @synthesize assetKeyDelegate=_assetKeyDelegate;
-@property(nonatomic) NSDictionary *mediaProperties; // @synthesize mediaProperties=_mediaProperties;
-@property(nonatomic) MPDocument *parentDocument; // @synthesize parentDocument=_parentDocument;
 
 @end
 

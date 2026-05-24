@@ -6,16 +6,10 @@
 
 #import <FinderKit/FI_TLayer.h>
 
-@class NSColor;
-
 __attribute__((visibility("hidden")))
 @interface FI_TCircularProgressLayer : FI_TLayer
 {
     function_e88ba8d7 _progressDidCompleteHandler;
-    _Bool _isProgressAnimationCompleted;
-    double _animationDuration;
-    NSColor *_fillColor;
-    double _endAngle;
 }
 
 + (_Bool);
@@ -29,22 +23,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)D;
 - (id);
 - (double)ù
 × ;
 - (id)ue_func<int (NSObject *, const TFENodeVector &)>=(type=[24C])^v}}16@0:8 /* Error: Ran out of types for this method. */;
 - (void)deRef}}16B24;
-- (void)tories;
+- (void)keyPathsForValuesAffectingAllowsExpandingMultipleDirectories;
 - (double)ÿÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
 @property double endAngle; // @synthesize endAngle=_endAngle;
-@property(retain, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(nonatomic) double fractionComplete;
-@property(readonly, nonatomic) _Bool isProgressAnimationCompleted; // @synthesize isProgressAnimationCompleted=_isProgressAnimationCompleted;
 
 @end
 

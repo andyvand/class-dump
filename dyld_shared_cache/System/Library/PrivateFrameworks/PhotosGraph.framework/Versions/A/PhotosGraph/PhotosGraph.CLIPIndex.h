@@ -7,9 +7,6 @@
 @interface PhotosGraph.CLIPIndex
 {
     id clipprintByMomentUUID;
-    id clusterByMomentUUID;
-    id dataSampler;
-    id featureVectorLength;
 }
 
 @end

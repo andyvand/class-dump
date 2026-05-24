@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)AddNewContactRow;
+- (void)_shouldDisplayAddNewContactRow;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *previousValue; // @synthesize previousValue=_previousValue;

@@ -5,5 +5,6 @@
 //
 
 @protocol PLJournalEntryPayloadInsertAdapter
+- (id)NCURSES_ASSUMED_COLORS;
 @end
 

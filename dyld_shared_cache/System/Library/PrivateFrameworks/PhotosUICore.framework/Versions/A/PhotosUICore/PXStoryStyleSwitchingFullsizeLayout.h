@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSMutableIndexSet, NSString, PXCArrayStore, PXGPageControlConfiguration, PXStoryChromeButtonConfiguration, PXStoryFullsizeLayout, PXStoryModel, PXStoryStyleSelectionDataSource;
-@protocol PXGAXResponder;
+@class PXStoryStyleSelectionDataSource;
 
 @interface PXStoryStyleSwitchingFullsizeLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    unsigned int _styleSwitcherTitleSpriteIndex;
-    unsigned int _pageControlSpriteIndex;
-    unsigned int _restartButtonSpriteIndex;
-    unsigned int _spriteCount;
-    NSMutableIndexSet *_axSpriteIndexes;
-    id <PXGAXResponder> axNextResponder;
-    PXStoryModel *_model;
-    double _relativeZPositionAboveLegibilityGradients;
-    PXStoryStyleSelectionDataSource *_dataSource;
-    NSArray *_displayedStyleInfos;
-    PXCArrayStore *_fullsizeFrameRectsStore;
-    NSAttributedString *_styleSwitcherTitleString;
-    long long _styleSwitcherTitleVersion;
-    PXStoryChromeButtonConfiguration *_restartButtonConfiguration;
-    long long _restartButtonVersion;
-    PXGPageControlConfiguration *_pageControlConfiguration;
-    long long _pageControlVersion;
-    struct _NSRange _displayedStyleRange;
 }
 
 - (void);
-- (id);
+- (id)=;
 - (Class);
 - (long long);
 - (long long);
@@ -39,10 +20,10 @@
 - (id);
 - (id);
 - (void);
+- (void)T4;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -56,11 +37,11 @@
 - (_Bool);
 - (id);
 - (struct CGSize);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (struct _NSRange);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (id);
@@ -84,7 +65,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -97,43 +78,23 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)ntrolItems: /* Error: Ran out of types for this method. */;
-- (void)Count:(id)arg1;
+- (id)setAdditionalLensControlItems: /* Error: Ran out of types for this method. */;
+- (void)fetchResultCountObserver:(id)arg1 didChangeFetchResultCount: /* Error: Ran out of types for this method. */;
 - (id)vel;
-- (id)dexPaths:(id)arg1;
+- (id)forceIncludeAssetsAtIndexPaths:(id)arg1;
 - (void)PXCNAutocompleteResultDataSourceManager toggleDisclosureForResultAtIndexPath:(id)arg1 ];
-- (void)eAXAlbumsAlbumFallbackLabel;
+- (void)LemonadeAXAlbumsAlbumFallbackLabel;
 - (void)Ñ`²ù;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder;
 @property(retain, nonatomic) PXStoryStyleSelectionDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *displayedStyleInfos; // @synthesize displayedStyleInfos=_displayedStyleInfos;
-@property(nonatomic) struct _NSRange displayedStyleRange; // @synthesize displayedStyleRange=_displayedStyleRange;
-@property(readonly, nonatomic) PXStoryFullsizeLayout *dominantFullsizePlayerLayout;
-@property(readonly, nonatomic) PXCArrayStore *fullsizeFrameRectsStore; // @synthesize fullsizeFrameRectsStore=_fullsizeFrameRectsStore;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(copy, nonatomic) PXGPageControlConfiguration *pageControlConfiguration; // @synthesize pageControlConfiguration=_pageControlConfiguration;
-@property(nonatomic) long long pageControlVersion; // @synthesize pageControlVersion=_pageControlVersion;
-@property(nonatomic) double relativeZPositionAboveLegibilityGradients; // @synthesize relativeZPositionAboveLegibilityGradients=_relativeZPositionAboveLegibilityGradients;
-@property(copy, nonatomic) PXStoryChromeButtonConfiguration *restartButtonConfiguration; // @synthesize restartButtonConfiguration=_restartButtonConfiguration;
-@property(nonatomic) long long restartButtonVersion; // @synthesize restartButtonVersion=_restartButtonVersion;
-@property(copy, nonatomic) NSAttributedString *styleSwitcherTitleString; // @synthesize styleSwitcherTitleString=_styleSwitcherTitleString;
-@property(nonatomic) long long styleSwitcherTitleVersion; // @synthesize styleSwitcherTitleVersion=_styleSwitcherTitleVersion;
-@property(readonly) Class superclass;
 
 @end
 

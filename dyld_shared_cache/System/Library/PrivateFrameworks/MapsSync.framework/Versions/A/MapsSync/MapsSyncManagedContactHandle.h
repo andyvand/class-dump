@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSyncManagedFavoriteItem, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedContactHandle
@@ -14,7 +14,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) MapsSyncManagedFavoriteItem *favoriteItem; // @dynamic favoriteItem;
 @property(nonatomic, copy) NSString *handle; // @dynamic handle;
 
 @end

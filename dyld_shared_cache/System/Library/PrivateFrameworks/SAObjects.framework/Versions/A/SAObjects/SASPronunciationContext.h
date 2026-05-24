@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface SASPronunciationContext : AceObject
 {
@@ -27,22 +27,10 @@
 - (id);
 - (void);
 - (id);
-- (void)a:(id)arg1;
+- (void)setClientMetadata:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSURL *domainObjectIdentifier;
-@property(copy, nonatomic) NSString *domainObjectPropertyIdentifier;
-@property(copy, nonatomic) NSString *fullName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSString *orthography;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *tokenOffset;
 
 @end
 

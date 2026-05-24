@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSSet;
+@class NSArray;
 
 @interface NAUniqueArrayDiff
 {
     NSArray *_fromArray;
-    NSArray *_toArray;
-    NSIndexSet *_deletedIndexes;
-    NSIndexSet *_insertedIndexes;
-    NSIndexSet *_changedIndexes;
-    NSSet *_movedIndexes;
 }
 
 + (id);
@@ -26,7 +21,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)uarr;
 - (void);
 - (void);
 - (id);
@@ -38,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexSet *changedIndexes; // @synthesize changedIndexes=_changedIndexes;
-@property(retain, nonatomic) NSIndexSet *deletedIndexes; // @synthesize deletedIndexes=_deletedIndexes;
 @property(retain, nonatomic) NSArray *fromArray; // @synthesize fromArray=_fromArray;
-@property(retain, nonatomic) NSIndexSet *insertedIndexes; // @synthesize insertedIndexes=_insertedIndexes;
-@property(retain, nonatomic) NSSet *movedIndexes; // @synthesize movedIndexes=_movedIndexes;
-@property(readonly, nonatomic) unsigned long long numberOfOperations;
-@property(retain, nonatomic) NSArray *toArray; // @synthesize toArray=_toArray;
 
 @end
 

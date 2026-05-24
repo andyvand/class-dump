@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSView;
+@class NSView;
 
 @interface RemindersUICore.TTRMCustomRepeatYearsView
 {
     void monthsOfTheYearContainerView;
-    void onTheToggleButton;
-    void weekAndDayContainerView;
-    id customRepeatYears;
-    id monthsOfTheYearGridView;
-    id weekAndDayView;
 }
 
 - (id);
@@ -31,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSView *monthsOfTheYearContainerView; // @synthesize monthsOfTheYearContainerView;
-@property(nonatomic) __weak NSButton *onTheToggleButton; // @synthesize onTheToggleButton;
-@property(nonatomic) __weak NSView *weekAndDayContainerView; // @synthesize weekAndDayContainerView;
 
 @end
 

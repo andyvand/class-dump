@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SCNNode *chainRootNode;
-@property(nonatomic) struct SCNVector3 targetPosition;
 @end
 

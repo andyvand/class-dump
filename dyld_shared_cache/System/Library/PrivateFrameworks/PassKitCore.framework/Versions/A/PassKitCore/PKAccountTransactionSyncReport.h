@@ -20,11 +20,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)addAdditionalUniqueIDs:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)passSerialNumber;
 
 @end
 

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSString;
+@class CDPContext;
 
 @interface CDPDOctagonTrustProxyImpl
 {
     CDPContext *_cdpContext;
 }
 
-+ (_Bool);
++ (_Bool)ReadingListTableViewLiveResizeDelegate;
 - (void);
 - (id);
 - (void);
@@ -19,12 +19,12 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)initWithTableGroups:(id)arg1 textRegions:(CDUnknownBlockType)arg2;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)I;
 - (void);
 - (void);
 - (_Bool);
@@ -34,13 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

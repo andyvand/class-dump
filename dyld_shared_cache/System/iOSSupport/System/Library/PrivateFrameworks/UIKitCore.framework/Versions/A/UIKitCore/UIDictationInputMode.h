@@ -6,15 +6,11 @@
 
 #import <UIKitCore/UISpecializedInputMode.h>
 
-@class NSMutableDictionary, UIKeyboardInputMode, UITouch;
+@class NSMutableDictionary, UITouch;
 
 @interface UIDictationInputMode : UISpecializedInputMode
 {
     NSMutableDictionary *_cachedIcons;
-    _Bool _usingTypeAndTalk;
-    _Bool _isCurrentDictationLanguageOnDevice;
-    UITouch *_triggeringTouch;
-    UIKeyboardInputMode *_currentInputModeForDictation;
 }
 
 + (_Bool);
@@ -27,18 +23,15 @@
 - (_Bool)±c°1Â0@ù
 × ;
 - (_Bool)0:8@"_UISelectionInteraction"16 /* Error: Ran out of types for this method. */;
-- (Class)etLeadingOverlayWidth: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 forWidth:lineBreakMode: /* Error: Ran out of types for this method. */;
+- (Class)_setLeadingOverlayWidth: /* Error: Ran out of types for this method. */;
+- (void)_legacy_sizeWithFont:(id)arg1 minFontSize:actualFontSize:forWidth:lineBreakMode: /* Error: Ran out of types for this method. */;
 - (void)tartDismiss;
 - (id);
 - (_Bool);
 - (void)ÐÝìh;
 
 // Remaining properties
-@property(retain, nonatomic) UIKeyboardInputMode *currentInputModeForDictation; // @synthesize currentInputModeForDictation=_currentInputModeForDictation;
-@property(nonatomic) _Bool isCurrentDictationLanguageOnDevice; // @synthesize isCurrentDictationLanguageOnDevice=_isCurrentDictationLanguageOnDevice;
 @property(retain, nonatomic) UITouch *triggeringTouch; // @synthesize triggeringTouch=_triggeringTouch;
-@property(nonatomic) _Bool usingTypeAndTalk; // @synthesize usingTypeAndTalk=_usingTypeAndTalk;
 
 @end
 

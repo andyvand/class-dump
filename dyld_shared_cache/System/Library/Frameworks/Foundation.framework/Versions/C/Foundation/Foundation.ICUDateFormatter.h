@@ -7,7 +7,6 @@
 @interface Foundation.ICUDateFormatter
 {
     id udateFormat;
-    id lenientParsing;
 }
 
 @end

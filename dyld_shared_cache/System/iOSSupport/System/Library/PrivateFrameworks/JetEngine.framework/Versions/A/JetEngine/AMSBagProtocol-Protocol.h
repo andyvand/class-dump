@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSString;
+@class NSString;
 
 @protocol AMSBagProtocol
+- (NSString *)apshot:elapsedTime:%f, duration:%f, playbackRate:%f /* Error: Ran out of types for this method. */;
 
 @optional
-- (AMSProcessInfo *);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *expirationDate;
 @property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *profile;
-@property(readonly, copy, nonatomic) NSString *profileVersion;
 @end
 

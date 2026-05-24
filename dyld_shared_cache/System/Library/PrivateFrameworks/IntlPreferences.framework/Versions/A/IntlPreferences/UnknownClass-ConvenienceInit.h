@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ConvenienceInit)
-+ (id);
++ (id)archivedDataWithRootObject:(long long)arg1 requiringSecureCoding:(long long)arg2 error: /* Error: Ran out of types for this method. */;
 @end
 

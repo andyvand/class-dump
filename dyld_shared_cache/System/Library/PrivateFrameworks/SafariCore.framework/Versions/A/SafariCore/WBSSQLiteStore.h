@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, WBSSQLiteDatabase;
-@protocol OS_dispatch_queue, WBSSQLiteStoreDelegate;
+@class WBSSQLiteDatabase;
 
 @interface WBSSQLiteStore
 {
     long long _databaseLockingPolicy;
-    long long _protectionType;
-    int _databaseCoordinationLockFileDescriptor;
-    _Bool _fallBackToMemoryStoreIfError;
-    NSURL *_databaseURL;
-    id <WBSSQLiteStoreDelegate> _delegate;
-    WBSSQLiteDatabase *_database;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
 }
 
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -34,14 +26,14 @@
 - (int);
 - (int);
 - (int);
+- (int)__objc_classname__TEXT;
 - (int);
-- (int);
 - (void);
-- (void);
+- (void)accessibilityTitle;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)setBuildingFontFamilyMenu: /* Error: Ran out of types for this method. */;
+- (void)ICDelegateAccountStoreWriter;
 - (id);
 - (id);
 - (void);
@@ -51,10 +43,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WBSSQLiteDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *databaseQueue; // @synthesize databaseQueue=_databaseQueue;
-@property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(nonatomic) __weak id <WBSSQLiteStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isOpen;
 
 @end
 

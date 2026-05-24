@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)@24@0:8:16 /* Error: Ran out of types for this method. */;
 - (id)× ;
 
 // Remaining properties

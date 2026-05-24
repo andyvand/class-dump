@@ -6,14 +6,11 @@
 
 #import <ClassroomKit/CRKASMRosterProviderDecoratorBase.h>
 
-@class CRKASMSuspendableRosterProvider, CRKClassKitCurrentUserProvider, NSNumber;
+@class CRKASMSuspendableRosterProvider;
 
 @interface CRKASMClassicAdHocSwitchReadingRosterProvider : CRKASMRosterProviderDecoratorBase
 {
     _Bool _overridingIsPopulatedToYES;
-    CRKASMSuspendableRosterProvider *_suspendableProvider;
-    CRKClassKitCurrentUserProvider *_currentUserProvider;
-    NSNumber *_previousValueOfAdHocModeEnabled;
 }
 
 + (id);
@@ -36,9 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CRKClassKitCurrentUserProvider *currentUserProvider; // @synthesize currentUserProvider=_currentUserProvider;
-@property(nonatomic) _Bool overridingIsPopulatedToYES; // @synthesize overridingIsPopulatedToYES=_overridingIsPopulatedToYES;
-@property(retain, nonatomic) NSNumber *previousValueOfAdHocModeEnabled; // @synthesize previousValueOfAdHocModeEnabled=_previousValueOfAdHocModeEnabled;
 @property(readonly, nonatomic) CRKASMSuspendableRosterProvider *suspendableProvider; // @synthesize suspendableProvider=_suspendableProvider;
 
 @end

@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKey64ValueDoublePair
 {
     unsigned long long _key;
-    double _value;
-    CDStruct_a4cc0a70 _flags;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)ing;
+- (unsigned long long)v";
 - (_Bool);
 - (_Bool);
 - (id)ance"b1"has_objectGroupId"b1"has_priority"b1"has_type"b1"has_zilchPathIndex"b1"read_unknownFields"b1"read_guidances"b1"read_objectIdentifier"b1"read_routeAnnotation"b1"wrote_anyField"b1};
-- (id)ntHandler;
+- (id)_pointHandler;
 - (id)Ì¥`§Ü¨Ä©\«;
 
 @end

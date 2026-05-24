@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKTransitAppletPlan
 {
     NSString *_commutePlanIdentifier;
-    NSDate *_expirationDate;
 }
 
-+ (_Bool);
++ (_Bool)\;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)autoFillInteractionType;
 - (id);
-- (id);
-- (id)aymentRingInstrumentationRecordAsString;
+- (id)�;
+- (id)paymentRingInstrumentationRecordAsString;
 - (void)tionCertificates:[
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *commutePlanIdentifier; // @synthesize commutePlanIdentifier=_commutePlanIdentifier;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 
 @end
 

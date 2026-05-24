@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @protocol GPURawCounterSourceGroup
+- (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned int acceleratorPort;
-@property(readonly, copy) NSDictionary *features;
 @property(readonly) NSString *name;
-@property(copy) NSDictionary *options;
-@property(readonly) unsigned long long sampleMarker;
-@property(readonly) NSArray *sourceList;
 @end
 

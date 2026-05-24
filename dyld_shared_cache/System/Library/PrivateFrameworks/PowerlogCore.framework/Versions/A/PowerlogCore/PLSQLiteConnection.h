@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, PLSQLStatement;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface PLSQLiteConnection
 {
     _Bool _metadataStmtCreated;
-    int _transactionInProgress;
-    int _entryCacheStorageSize;
-    NSString *_filePath;
-    struct sqlite3 *_dbConnection;
-    NSObject<OS_dispatch_semaphore> *_dbSem;
-    NSMutableDictionary *_preparedStatements;
-    NSMutableDictionary *_preparedUpdateStatements;
-    NSMutableDictionary *_preparedDynamicStatements;
-    NSString *_transactionLock;
-    NSString *_cachedClassName;
-    long long _cacheSize;
-    PLSQLStatement *_metadataStmt;
 }
 
 + (id);
@@ -31,17 +16,17 @@
 + (void);
 + (id);
 + (double);
-+ (id);
++ (id)e;
 - (void);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -62,13 +47,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)g location with me:%{bool}d /* Error: Ran out of types for this method. */;
+- (_Bool)CHECKLIST_SHARED_CALENDAR_SHARING_DESCRIPTION;
+- (void)PARENTAL_CONTROLS_CONFIRMATION_NO_BUTTON;
 - (id);
-- (_Bool);
+- (void)~";
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,7 +61,7 @@
 - (int);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -103,15 +88,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)BridgeOSSoftwareUpdateStateIdle;
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void)NFContactlessPaymentSession;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)hain. { uuid=;
 - (id);
 - (void);
 - (void);
@@ -119,15 +104,20 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ECF
+;
+- (void)'
+;
+- (void)GJF'
+;
+- (void)**C1GJ
+;
+- (id)'1'K
+;
+- (void)e;
+- (void)n;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)e;
 - (int);
 - (void);
 - (_Bool);
@@ -146,25 +136,12 @@
 - (id)Ñ¬Ð1Â0@ù
 × ;
 - (_Bool),R,V_services;
-- (void)6;
+- (void)LanesEng_6;
 - (void)ge writeEntry:(long long)arg1 ];
 - (void)etQueryForAggregateEntryKey:withMatchingKeyToValue:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long cacheSize; // @synthesize cacheSize=_cacheSize;
-@property(retain) NSString *cachedClassName; // @synthesize cachedClassName=_cachedClassName;
 @property struct sqlite3 *dbConnection; // @synthesize dbConnection=_dbConnection;
-@property(retain) NSObject<OS_dispatch_semaphore> *dbSem; // @synthesize dbSem=_dbSem;
-@property int entryCacheStorageSize; // @synthesize entryCacheStorageSize=_entryCacheStorageSize;
-@property(copy, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(retain) PLSQLStatement *metadataStmt; // @synthesize metadataStmt=_metadataStmt;
-@property _Bool metadataStmtCreated; // @synthesize metadataStmtCreated=_metadataStmtCreated;
-@property(retain) NSMutableDictionary *preparedDynamicStatements; // @synthesize preparedDynamicStatements=_preparedDynamicStatements;
-@property(retain) NSMutableDictionary *preparedStatements; // @synthesize preparedStatements=_preparedStatements;
-@property(retain) NSMutableDictionary *preparedUpdateStatements; // @synthesize preparedUpdateStatements=_preparedUpdateStatements;
-@property int transactionInProgress; // @synthesize transactionInProgress=_transactionInProgress;
-@property(retain) NSString *transactionLock; // @synthesize transactionLock=_transactionLock;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue;
 
 @end
 

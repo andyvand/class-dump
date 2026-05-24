@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PHFetchResult, PHPhotoLibrary, PHQuery;
+@class PHFetchResult;
 
 @interface PHTransientAssetCollectionOptions
 {
     long long _type;
-    long long _subtype;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_titleFontName;
-    NSString *_identifier;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    long long _keyAssetsPosition;
-    Class _assetCollectionClass;
-    PHFetchResult *_fetchResult;
-    PHQuery *_query;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (void);
@@ -34,40 +22,28 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)Date";
+- (id);
+- (id));
 - (long long);
 - (void);
 - (id);
+- (void)CKContextExtractionUtil;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setPhraseSpotterEnabled:(long long)arg1 sender: /* Error: Ran out of types for this method. */;
+- (void)th %{public}@ %{public}@;
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void)Á!Fùq1Â0@ù
 × ;
-- (void)djustmentData: /* Error: Ran out of types for this method. */;
+- (void)_baseVersionForAdjustmentData:canHandleAdjustmentData: /* Error: Ran out of types for this method. */;
 - (id)assets in the library:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) Class assetCollectionClass; // @synthesize assetCollectionClass=_assetCollectionClass;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long keyAssetsPosition; // @synthesize keyAssetsPosition=_keyAssetsPosition;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) PHQuery *query; // @synthesize query=_query;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(nonatomic) long long subtype; // @synthesize subtype=_subtype;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *titleFontName; // @synthesize titleFontName=_titleFontName;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CNRecentLikenessesDataSource
+- (void)H;
+- (void);
+- (void);
 @end
 

@@ -9,9 +9,6 @@
 @interface _INPBAirport
 {
     struct _has;
-    NSString *_iataCode;
-    NSString *_icaoCode;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -21,33 +18,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)6@?<v@?@>24;
 - (_Bool);
 - (void);
-- (id);
+- (id)rameworks/CorePhoneNumbers.framework/Versions/A/CorePhoneNumbers;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)supportedChannelsWithCountryCode:(id)arg1;
+- (void)o get HW MAC address from SCNetworkInterface, falling back to network stack (intf=%{public}@);
 - (id);
 - (id);
-- (void)ues:(id)arg1;
+- (void)setPayloadPaymentMethodValues:(id)arg1;
 - (void)coordinate.longitude;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIataCode;
-@property(readonly, nonatomic) _Bool hasIcaoCode;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *iataCode; // @synthesize iataCode=_iataCode;
-@property(copy, nonatomic) NSString *icaoCode; // @synthesize icaoCode=_icaoCode;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

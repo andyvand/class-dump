@@ -5,18 +5,18 @@
 //
 
 @interface UnknownClass (ChineseJapanese)
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)RTTCannedMessageWhatsUp;
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)$;
+- (_Bool);
+- (id)hash_params;
 - (unsigned short *);
 @end
 

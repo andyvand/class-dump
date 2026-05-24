@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiSDB
 {
     unsigned long long _timestamp;
-    unsigned int _realTimeSessionStateResultingInSubmission;
-    NSMutableArray *_sliceStats;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int realTimeSessionStateResultingInSubmission:1;
-    } _has;
 }
 
 + (Class);
@@ -24,31 +16,27 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void)$�;
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRealTimeSessionStateResultingInSubmission;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int realTimeSessionStateResultingInSubmission; // @synthesize realTimeSessionStateResultingInSubmission=_realTimeSessionStateResultingInSubmission;
-@property(retain, nonatomic) NSMutableArray *sliceStats; // @synthesize sliceStats=_sliceStats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

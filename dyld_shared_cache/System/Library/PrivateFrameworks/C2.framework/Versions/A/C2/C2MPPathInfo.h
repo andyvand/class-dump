@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface C2MPPathInfo
 {
     unsigned long long _applicationBytesReceived;
-    unsigned long long _applicationBytesSent;
-    unsigned long long _transportSmoothedRttMillis;
-    NSString *_interfaceType;
-    NSString *_radioType;
-    struct {
-        unsigned int applicationBytesReceived:1;
-        unsigned int applicationBytesSent:1;
-        unsigned int transportSmoothedRttMillis:1;
-    } _has;
 }
 
 - (void);
@@ -28,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)d9;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)b;
 - (_Bool);
 - (void);
 - (void);
@@ -46,21 +35,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ror"32;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long applicationBytesReceived; // @synthesize applicationBytesReceived=_applicationBytesReceived;
-@property(nonatomic) unsigned long long applicationBytesSent; // @synthesize applicationBytesSent=_applicationBytesSent;
-@property(nonatomic) _Bool hasApplicationBytesReceived;
-@property(nonatomic) _Bool hasApplicationBytesSent;
 @property(readonly, nonatomic) _Bool hasInterfaceType;
-@property(readonly, nonatomic) _Bool hasRadioType;
-@property(nonatomic) _Bool hasTransportSmoothedRttMillis;
-@property(retain, nonatomic) NSString *interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(retain, nonatomic) NSString *radioType; // @synthesize radioType=_radioType;
-@property(nonatomic) unsigned long long transportSmoothedRttMillis; // @synthesize transportSmoothedRttMillis=_transportSmoothedRttMillis;
 
 @end
 

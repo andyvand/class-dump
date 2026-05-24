@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _OnDiskArchiveReader
 {
     NSArray *_layerInfos;
-    NSString *_modelPath;
-    NSDictionary *_netJson;
-    NSDictionary *_shapeJson;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id));
++ (id)<^a;
++ (id)lwN;
 + (id);
-- (id);
+- (id)enerateWayPointsOnTheRoute,null road,trip,%{public}s;
 - (id);
 - (void);
 - (id);
@@ -31,17 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)÷ÐÓ¯ç7ègìo×ÃçÔïî?èwØïî×;çóéãØ÷Ó_ÓØ¿çwèóÒWíïÑwÕîçÿèÓÇêéÖÕÿÕ3Ö/ëì/íÓÕ#íÔ#ÐÔOÕÑï«êsÑ[ÖØî÷×_í'×³ëîKèGÔãî#ÖÖgçéÒ+í;ç¯ÕÓíÃÕ;Ö»Ö·ëgÕßíKéÇÑ£ìsÕ/Ò»çSëßïóÒÃî«çÒÐ÷ì§ÑÛéÔ[ÓKì[ØïãïïcØsçoÑéÏ×ÿë?ÐËí÷ï'êÑ+ïOÐkÔíû×óìëoï¯ê³êëîCè_ÑgÓc×3Ô/è¯Ôß×ç_íë7ÔWîèsÒÛïèçÐÖçcÔéSÕÒÐ/ÑØÿé³ÑóìWèçé#Ñ¿×§í×ß×ÛÕ7è/Ð§ØWÐÃÖÿÖ_ÓÏíkíÇÓ§ëGîûØ7Ñ3Ô§ÔíìÓ£ÔëÖ¿îÏØ/ØÏêãÓ»îÓÖçÐséOÒûØ3é'ìécè÷ésÐC×Ø×Óê¯é[çÓØÐ_Ð;Ó/Õê3ë«ïËÓ³èí#îßîÿÒ[é¿ÔÃë[êçïêÔ¯í³ÑCØgèoéûéçïì¯íGÑ;ÓßêÓwèíÑcçGØc××ìwÓSïéé£ØÕkØ#èÏé_ç;ìûÖóÔî/ÕãÐOìëìGë§ç·êéËéÛÔSìËëûïï¿êÔÕoØ'ìSîSíëÕ?×«éÕïìÒ¯ÒÇÖSÒ£é;Ñ/ÖÏëÒÕ{ÕcíÿëîÃêÛØ{Øícè3éÿÕÓÒçÖïÑ7Ð»ÓÒÖîéÖCëïSîóÒí£îëØÛç÷ÕÛÐÿØÒkïïíOÒÓGîç×î{èÇì×S×K×»ï³ê×Öèã×¯çë¯í«ÕìcÔëìïÖãéØkÓïKî£Ô³éßè;Ø[é×íío×'ÕwØÖGé·ÑîïÐØ×éì'ç/Óï#×ÓèÛëëëOèOÒOÖ§ì×·éëï£ê·îoí×Ð·ØßÓ+Ó?×éÃïÛÑßè³ÑêOì_ÖçêÒCØØOÑOÕóÒ?ÓCê¿ë;èÿÓ«Ô'Õ«Ò/Ö?ìîí·ëïêÒoÕÏ×ËÔwë×î§êûÓó×¿Ñé/ÐÇéÓÐéØSÑ×ûìç×Cç×wï/ç[Ñ³ëwÑoÔÓÑ×ïÔ«ç»çCë£íw×këcÓÿÕ§î[Ò;Ò{Õ¯Õê××ïÕî3î;Ôcë#ÖOÕ³ÖíËØêÕêêÖsé3ïCÖ3ïûÓÕçÇÓÃÐ«ÔïgÑÇìó×ëÕ×ÑîçsÐÔ;ÕsÔkëÏìç×îOÐ[ë³ÖÛè7í3Ó{Ö÷Ö{ÐÐÐÓì××ÒíSÖßÒ·é§ÖkØé?éwï?ëkØëÐSÕèûéïÏÕïÖWÐ{ÑØoìgê;Õèë'çÒ#ÐÏëÕG×WÕË×cëØÓÕSÕÔgÑÓ×êÿØ£ëÔÇëÃÖë÷Ô×Õ»ÖÃÖ³çWÕû××÷íãçêé»ØÑËçè{Ö'ÓOÖ[ì;ë{ÓÕ[Ò×ãèîçÖcÒÑ?ÕçÓãÕKÔKØKékÔçØØC×Ô3Ó×çÔ»éïèØ_Ô?íWïÖëÐóêGïçãîî·ç3î_ÖÖ×èËÒÑWÖî+éoçOïçßéëÒ³Ø+ÕOîÓ÷ÕCÐgíCÐ7ÑÕïÃÐé{ÒÓgÐã×+Ôîç?ïîÛÓÑ§ÐWçêËØ»ëÿÑSêí×Ñï×gÓsîG×íó×{çî'ÓËê7î7íÛÒ3Ò7í[íÓëÖ¯ççìÛì»Ø³ê[ÑçÖwÔsØìÑÃçûèÖî³ÔìÓÒïÒGçÏëÓêgêóØ?ÖÒ«è#Ñ·é÷Ö#ïÿÓÓÐì¿ìCÒ_ïëÖ;ÕéïíÓkêkÑçÛï§ïGÒ'Õ'ì×GèÓí?ëîgí»Õèßì7Ô{ï×sç«×/Ñ#íÏÒóëÑKìÃÐÑ{í¯×£è×ÕÇïsÖ+è§ëCØãê?ë/×ÇéGÒsÒÒSÔ÷è?çïÓèîwÓ·ç£êßí/×êÓëÔì{ê«ç{è«êí¿í§ÔÑÐçÔ®!ÓsåM²R²²Ò²³R³³Ò³°R°°Ò°±R±±Ò±¶R¶¶Ò¶·R··Ò·´R´´Ò´µRµµÒµºRººÒº»R»»Ò»¸R¸¸Ò¸¹R¹¹Ò¹¾R¾¾Ò¾¿R¿¿Ò¿¼R¼¼Ò¼½R½½Ò½¢R¢¢Ò¢£R££Ò£ R  Ò ¡R¡¡Ò¡¦R¦¦Ò¦§R§§Ò§¤R¤¤Ò¤¥R¥¥Ò¥ªRªªÒª«R««Ò«¨R¨¨Ò¨©R©©Ò©®R®®Ò®¯R¯¯Ò¯¬R¬¬Ò¬­R­­Ò­RÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒRÒ¢*ßn~d£;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *layerInfos; // @synthesize layerInfos=_layerInfos;
-@property(readonly, copy, nonatomic) NSString *modelPath; // @synthesize modelPath=_modelPath;
 @property(readonly, copy, nonatomic) NSDictionary *netJson; // @synthesize netJson=_netJson;
-@property(readonly, copy, nonatomic) NSDictionary *shapeJson; // @synthesize shapeJson=_shapeJson;
-@property(readonly) Class superclass;
 
 @end
 

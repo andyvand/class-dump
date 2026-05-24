@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)ateFrameworks/MediaAnalysis.framework/Versions/A/MediaAnalysis;
 
 // Remaining properties
 @property(readonly) CDUnknownBlockType handler; // @synthesize handler=_handler;

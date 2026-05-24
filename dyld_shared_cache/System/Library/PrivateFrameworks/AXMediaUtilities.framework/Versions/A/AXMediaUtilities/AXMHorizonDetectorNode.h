@@ -13,13 +13,13 @@
     VNDetectHorizonRequest *__detectHorizonRequest;
 }
 
-+ (_Bool);
++ (_Bool)interaction;
 + (id);
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

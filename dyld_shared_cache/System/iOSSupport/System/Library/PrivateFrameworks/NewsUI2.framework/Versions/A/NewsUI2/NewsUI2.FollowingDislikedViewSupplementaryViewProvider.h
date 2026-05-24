@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingDislikedViewSupplementaryViewProvider
 {
     id followingHeaderViewRenderer;
-    id messageHeaderViewRenderer;
 }
 
 @end

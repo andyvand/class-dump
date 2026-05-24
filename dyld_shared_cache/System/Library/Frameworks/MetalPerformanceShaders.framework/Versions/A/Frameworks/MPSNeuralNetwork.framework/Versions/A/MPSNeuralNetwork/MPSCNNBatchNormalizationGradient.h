@@ -7,25 +7,23 @@
 #import <MPSNeuralNetwork/MPSCNNGradientKernel.h>
 
 @class MPSNNNeuronDescriptor;
-@protocol MTLBuffer;
 
 @interface MPSCNNBatchNormalizationGradient : MPSCNNGradientKernel
 {
     MPSNNNeuronDescriptor *_fusedNeuronDescriptor;
-    id <MTLBuffer> _preluBuffer;
 }
 
-+ (const struct MPSLibraryInfo *);
-- (id);
++ (const struct MPSLibraryInfo *);
+- (id)K;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)D;
 
 @end
 

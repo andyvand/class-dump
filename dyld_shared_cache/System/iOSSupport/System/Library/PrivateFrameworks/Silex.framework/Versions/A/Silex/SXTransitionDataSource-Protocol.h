@@ -9,14 +9,6 @@
 @protocol SXTransitionDataSource
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isTransitionable;
-@property(readonly, nonatomic) struct CGRect transitionContainerFrame;
 @property(readonly, nonatomic) UIView *transitionContainerView;
-@property(readonly, nonatomic) struct CGRect transitionContentFrame;
-@property(readonly, nonatomic) UIView *transitionContentView;
-@property(readonly, nonatomic) _Bool transitionViewIsVisible;
-@property(readonly, nonatomic) _Bool transitionViewShouldFadeInContent;
-@property(readonly, nonatomic) _Bool transitionViewUsesThumbnail;
-@property(readonly, nonatomic) struct CGRect transitionVisibleFrame;
 @end
 

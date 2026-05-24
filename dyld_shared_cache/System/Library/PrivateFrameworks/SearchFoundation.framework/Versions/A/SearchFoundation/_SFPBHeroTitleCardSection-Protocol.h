@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBRichText;
+@class NSArray, NSData;
 
 @protocol _SFPBHeroTitleCardSection
+- (void)4;
+- (_Bool)initWithItemIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBundleIdentifier:allowPlaceholder:error: /* Error: Ran out of types for this method. */;
+- (void)isAlertActivationAssertionAcquired;
+- (NSData *),V_colorNormalizationData;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(copy, nonatomic) NSArray *buttonItems;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxVisibleButtonItems;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

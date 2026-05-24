@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOPlaceDailyNormalizedHours
 {
     long long _weekday;
-    NSArray *_localTimeIntervals;
-    double _closingSoonThresholdSeconds;
-    double _openingSoonThresholdSeconds;
-    _Bool _openToMidnight;
-    _Bool _openFromMidnight;
 }
 
 + (long long);
@@ -31,11 +24,6 @@
 - (void){ø2QTK@;
 
 // Remaining properties
-@property(nonatomic) double closingSoonThresholdSeconds; // @synthesize closingSoonThresholdSeconds=_closingSoonThresholdSeconds;
-@property(readonly, nonatomic) NSArray *localTimeIntervals; // @synthesize localTimeIntervals=_localTimeIntervals;
-@property(readonly, nonatomic) _Bool openFromMidnight; // @synthesize openFromMidnight=_openFromMidnight;
-@property(readonly, nonatomic) _Bool openToMidnight; // @synthesize openToMidnight=_openToMidnight;
-@property(nonatomic) double openingSoonThresholdSeconds; // @synthesize openingSoonThresholdSeconds=_openingSoonThresholdSeconds;
 @property(readonly, nonatomic) long long weekday; // @synthesize weekday=_weekday;
 
 @end

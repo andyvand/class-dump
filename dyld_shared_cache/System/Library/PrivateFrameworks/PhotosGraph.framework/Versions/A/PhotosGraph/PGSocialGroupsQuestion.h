@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGSocialGroupsQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
@@ -23,8 +18,8 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)ventSource:localFactoryScore: /* Error: Ran out of types for this method. */;
-- (void)sneyOrlando;
+- (id)initWithAssetUUID:publicEventMUID:publicEventName:publicEventSource:localFactoryScore: /* Error: Ran out of types for this method. */;
+- (void)DisneyOrlando;
 
 @end
 

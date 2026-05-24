@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBEDRModulator;
-
 __attribute__((visibility("hidden")))
 @interface CBEDR
 {
     unsigned long long _rampPolicy;
-    float _requestedHeadroom;
-    float _currentMaxBrightness;
-    float _currentHeadroom;
-    float _panelMax;
-    float _brightnessCap;
-    float _sdrBrightness;
-    float _referenceHeadroom;
-    float _minHeadroom;
-    float _maxHeadroom;
-    float _secondsPerStop;
-    float _secondsPerStopExit;
-    CBEDRModulator *_headroomModulator;
 }
 
 + (float);
 + (float);
 + (float);
-+ (float);
-+ (float);
++ (float)D9i;
++ (float);
 + (float);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)q;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (float);
 - (float);
@@ -62,15 +48,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property float brightnessCap; // @synthesize brightnessCap=_brightnessCap;
-@property(retain) CBEDRModulator *headroomModulator; // @synthesize headroomModulator=_headroomModulator;
-@property float maxHeadroom; // @synthesize maxHeadroom=_maxHeadroom;
-@property float minHeadroom; // @synthesize minHeadroom=_minHeadroom;
 @property float panelMax; // @synthesize panelMax=_panelMax;
-@property float referenceHeadroom; // @synthesize referenceHeadroom=_referenceHeadroom;
-@property float sdrBrightness; // @synthesize sdrBrightness=_sdrBrightness;
-@property float secondsPerStop; // @synthesize secondsPerStop=_secondsPerStop;
-@property float secondsPerStopExit; // @synthesize secondsPerStopExit=_secondsPerStopExit;
 
 @end
 

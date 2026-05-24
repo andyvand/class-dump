@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineCategoriesPickerDataManager
 {
     id magazineCategoryConfigService;
-    id magazineCategoryService;
 }
 
 @end

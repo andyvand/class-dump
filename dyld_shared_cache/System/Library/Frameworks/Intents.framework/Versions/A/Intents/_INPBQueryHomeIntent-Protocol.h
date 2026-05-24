@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata;
+@class NSArray;
 
 @protocol _INPBQueryHomeIntent
-- (_Bool)onalOperator;
+- (_Bool)hasConditionalOperator;
 - (NSArray *)O£;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entities;
-@property(readonly, nonatomic) unsigned long long entitiesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

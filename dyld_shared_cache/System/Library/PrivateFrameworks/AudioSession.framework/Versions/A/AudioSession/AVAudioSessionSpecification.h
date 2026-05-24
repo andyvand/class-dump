@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AVAudioSecureSessionProtocol;
-
 __attribute__((visibility("hidden")))
 @interface AVAudioSessionSpecification
 {
     _Bool autoReconnect;
-    unsigned int sourceSessionID;
-    unsigned int useCaseIdentifier;
-    unsigned long long sessionType;
-    NSString *clientIdentifier;
-    id <AVAudioSecureSessionProtocol> publishingSession;
-    CDStruct_4c969caf _clientAuditToken;
 }
 
-+ (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
++ (_Bool)uybsbolgartdbolgnvilbolgenogbolghnmpbolgdnwotpni;
+- (id)ilterLocationsOfInterests:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)rrentState:(id)arg1 %{public, signpost.telemetry:string2}s} /* Error: Ran out of types for this method. */;
+- (id)(;
 - (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (unsigned int)A;
 - (void);
 - (void);
 - (_Bool);
+- (void)UnitGetProperty( (*iter)->GetCMIOUnitInstance(), kCMIOUnitProperty_BusCount, kCMIOUnitScope_Input, 0, &numInputBusses, sizeof(numInputBusses), __null ) == 0 ;
 - (void);
 - (void);
-- (void);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) _Bool autoReconnect; // @synthesize autoReconnect;
-@property(nonatomic) CDStruct_4c969caf clientAuditToken; // @synthesize clientAuditToken=_clientAuditToken;
-@property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier;
-@property(nonatomic) __weak id <AVAudioSecureSessionProtocol> publishingSession; // @synthesize publishingSession;
 @property(nonatomic) unsigned long long sessionType; // @synthesize sessionType;
-@property(nonatomic) unsigned int sourceSessionID; // @synthesize sourceSessionID;
-@property(nonatomic) unsigned int useCaseIdentifier; // @synthesize useCaseIdentifier;
 
 @end
 

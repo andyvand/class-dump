@@ -7,15 +7,17 @@
 @class NSTextFieldBezelConfiguration;
 
 @protocol NSTextFieldVisualProvider
-- (CDStruct_507282ca)ô;
+- (void);
+- (void);
+- (int)to decode manifestOverride;
+- (id)I4TfkcdXWazwTr1al8Ml5w;
+- (NSTextFieldBezelConfiguration *);
+- (void)#;
+- (CDStruct_c3b9c2ee)ô;
 - (void)utUnitProperty_ChannelMap) failed with error %ld;
-- (struct NSEdgeInsets)eCodingCall;
+- (struct NSEdgeInsets)NSRequiresDirectKeyValueCodingCall;
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) _Bool allowsTextTightening;
-@property(readonly) double bezelCellSizeHeightPadding;
-@property(copy) NSTextFieldBezelConfiguration *bezelConfiguration;
 @property(readonly) _Bool wantsSeparatedSubviews;
 @end
 

@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ControlWidgetConfigurationModifier;
 - (id);
 - (CDStruct_3f2a7a20);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (long long);
 
 @end

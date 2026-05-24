@@ -7,15 +7,9 @@
 @interface AppStoreKit.PlaybackCoordinator
 {
     id parentViewController;
-    id visibilityTracker;
-    id playableViews;
-    id visiblePlayableIds;
-    id isActive;
-    id playbackCoalescingWaitTime;
-    id playbackWorkItem;
 }
 
-- (void);
+- (void)o;
 - (void);
 - (id);
 - (void)y]+Ò	_G;

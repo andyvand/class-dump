@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCListener;
-@protocol DDSAssetProviding, DDSManaging, OS_dispatch_queue;
+@protocol DDSManaging;
 
 @interface DDSServer
 {
     id <DDSManaging> _manager;
-    NSXPCListener *_listener;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_clientConnections;
-    id <DDSAssetProviding> _provider;
 }
 
 + (id);
@@ -27,25 +22,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)/J
+;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *clientConnections; // @synthesize clientConnections=_clientConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
 @property(readonly, nonatomic) id <DDSManaging> manager; // @synthesize manager=_manager;
-@property(readonly) id <DDSAssetProviding> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

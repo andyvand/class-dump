@@ -5,25 +5,22 @@
 //
 
 @class HMDAccountRegistry;
-@protocol HMDFeaturesDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernMessagingHandlerDefaultContextFactory
 {
     HMDAccountRegistry *_accountRegistry;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
 - (id);
 - (id);
-- (id)ingOnResident: /* Error: Ran out of types for this method. */;
+- (id)auditKeyChainEntryForAccessory:isRunningOnResident: /* Error: Ran out of types for this method. */;
 - (id)able Multi-User;
 - (id)due to non-xpc backingstore transaction;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMDAccountRegistry *accountRegistry; // @synthesize accountRegistry=_accountRegistry;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
 
 @end
 

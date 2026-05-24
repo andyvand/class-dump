@@ -11,19 +11,19 @@
     NSMutableArray *_logMessages;
 }
 
-+ (_Bool)ShowTransitSchedules:(id)arg1;
++ (_Bool)setHasShowTransitSchedules:(id)arg1;
 + (Class);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
+- (id)C;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);

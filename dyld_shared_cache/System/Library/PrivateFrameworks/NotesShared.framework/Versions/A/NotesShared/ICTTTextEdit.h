@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSDate;
 
 @interface ICTTTextEdit
 {
     unsigned long long _hash;
-    NSDate *_timestamp;
-    NSUUID *_replicaID;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -22,13 +19,11 @@
 - (unsigned long long);
 - (id);
 - (struct _NSRange);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)l;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly, copy, nonatomic) NSUUID *replicaID; // @synthesize replicaID=_replicaID;
 @property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

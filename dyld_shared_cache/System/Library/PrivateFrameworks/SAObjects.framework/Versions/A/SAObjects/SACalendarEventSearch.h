@@ -6,15 +6,15 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface SACalendarEventSearch : SADomainCommand
 {
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
+- (void)~B;
 - (id);
 - (void);
 - (id);
@@ -25,24 +25,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_	?֠;
+- (id);
+- (void)qA
+;
+- (id)=;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void)·ýÿ§{;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *endDate;
-@property(copy, nonatomic) NSNumber *limit;
-@property(copy, nonatomic) NSString *location;
-@property(copy, nonatomic) NSString *notes;
-@property(copy, nonatomic) NSArray *participants;
-@property(copy, nonatomic) NSDate *startDate;
-@property(copy, nonatomic) NSString *timeZoneId;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSString, PHAssetCollection, PHObjectPlaceholder, PHRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class PHAssetCollection;
 
 @interface PHAssetCollectionChangeRequest : PHChangeRequest
 {
     PHAssetCollection *_originalAssetCollection;
-    PHRelationshipChangeRequestHelper *_assetsHelper;
-    PHRelationshipChangeRequestHelper *_customKeyAssetHelper;
 }
 
 + (id);
@@ -25,7 +22,7 @@
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)@9	kb;
 - (_Bool);
 - (void);
 - (void);
@@ -37,19 +34,19 @@
 - (id);
 - (void);
 - (void);
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned int);
 - (_Bool);
+- (id)h;
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (_Bool)1NQnQN;
+- (void)#;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -57,9 +54,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)7(7;
+- (void)PDFKIT_LOG_ANNOTATIONS;
+- (void)ry URL %{public}@;
 - (void);
 - (id);
 - (void);
@@ -68,35 +65,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)#;
 - (void)uestDelegate>",R,W,N;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *assetsHelper; // @synthesize assetsHelper=_assetsHelper;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *customKeyAssetHelper; // @synthesize customKeyAssetHelper=_customKeyAssetHelper;
-@property(nonatomic) _Bool customSortAscending;
-@property(nonatomic) unsigned int customSortKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @property(retain, nonatomic) PHAssetCollection *originalAssetCollection; // @synthesize originalAssetCollection=_originalAssetCollection;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedAssetCollection;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSLegacyServiceQuickActionPreferences
 {
     NSString *_legacyServicePresentationMode;
-    NSMutableSet *_legacyServiceActions;
 }
 
-+ (id);
-- (void);
-- (id);
++ (id)NWStreamPair;
+- (void)CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MobileGestaltCache.c;
+- (id);
 - (id);
 - (void)le path.;
 - (void)NSColorPickerSliders;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

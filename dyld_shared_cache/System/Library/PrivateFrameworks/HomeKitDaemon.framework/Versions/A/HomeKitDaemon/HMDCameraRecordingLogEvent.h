@@ -10,23 +10,18 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingLogEvent
 {
     NSUUID *_sessionID;
-    unsigned long long _sequenceNumber;
-    NSUUID *_cameraID;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (unsigned long long);
 - (id);
 - (id)iaAccessory;
 - (void),ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *cameraID; // @synthesize cameraID=_cameraID;
-@property(readonly, copy) NSUUID *ephemeralCameraID;
-@property unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 @property(readonly, copy) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
 
 @end

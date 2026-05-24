@@ -7,7 +7,6 @@
 @interface NSAttributedStringMarkdownSourcePosition
 {
     CDStruct_ef77fe6d _startOffsets;
-    CDStruct_ef77fe6d _endOffsets;
 }
 
 + (CDStruct_ef77fe6d);
@@ -21,19 +20,16 @@
 - (CDStruct_ef77fe6d);
 - (long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)UICTFontTextStyleItalicCaption1;
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id)ms:(struct _NSZone *)arg1;
-- (long long)sConstrainedNetworkAccess;
+- (id)setPercentEncodedQueryItems:(struct _NSZone *)arg1;
+- (long long)allowsConstrainedNetworkAccess;
 - (id)¹¹ºº»»»¼¼¼½½¾¾¿ÀÁÁÁÁÁÁÁÁÂÃÃÃÃÃÃÃÄÅÅÅÆÇÇÈÈÉÊÊËÌÌÌÍÍÎÏÐÑÑÑÑÒÓÓÔÕÖÖÖÖ××ØØØØØÙÙÙÚÚÚÛÛÜÝÞßßàáââããããääåæææçççèéééééêêêëìííîïïïïïððððñòòòóóóôõõõõö÷øùúûûûüýýýþþþþÿÿ;
 - (id);
 
 // Remaining properties
-@property(readonly) long long endColumn;
-@property(readonly) long long endLine;
-@property(readonly) long long startColumn;
 @property(readonly) long long startLine;
 
 @end

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_pool;
 }
 
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);

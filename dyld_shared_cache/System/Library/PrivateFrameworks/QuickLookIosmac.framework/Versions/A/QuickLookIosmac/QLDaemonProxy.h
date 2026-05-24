@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol QLDaemonProxyProtocol;
+@class NSXPCConnection;
 
 @interface QLDaemonProxy
 {
     NSXPCConnection *_connection;
-    NSObject<QLDaemonProxyProtocol> *_proxy;
 }
 
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id))A;
 - (void);
 
 @end

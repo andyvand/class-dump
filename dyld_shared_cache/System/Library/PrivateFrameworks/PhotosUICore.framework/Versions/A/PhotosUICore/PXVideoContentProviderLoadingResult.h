@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, NSError, NSString, NSURL, PFSlowMotionTimeRangeMapper;
+@class AVPlayerItem;
 
 @interface PXVideoContentProviderLoadingResult
 {
     AVPlayerItem *_playerItem;
-    NSURL *_url;
-    NSError *_error;
-    long long _priority;
-    NSString *_resultDebugDescription;
-    PFSlowMotionTimeRangeMapper *_timeRangeMapper;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (id);
@@ -24,19 +18,13 @@
 - (id);
 - (id)7°1Â0@ù
 × ;
-- (id)setInfoUpdateQueue;
-- (CDStruct_e83c9415)tosPersonIdentifier;
+- (id)mainAssetInfoUpdateQueue;
+- (CDStruct_e83c9415)photosPersonIdentifier;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) AVPlayerItem *playerItem; // @synthesize playerItem=_playerItem;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSString *resultDebugDescription; // @synthesize resultDebugDescription=_resultDebugDescription;
-@property(readonly, nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
-@property(readonly, nonatomic) PFSlowMotionTimeRangeMapper *timeRangeMapper; // @synthesize timeRangeMapper=_timeRangeMapper;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

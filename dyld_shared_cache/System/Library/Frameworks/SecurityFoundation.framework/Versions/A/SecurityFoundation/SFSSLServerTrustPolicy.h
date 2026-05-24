@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void);
+- (void):(id)arg1 @;
 - (id);
 - (id);
-- (id);
+- (id)24;
 - (void);
 - (id);
 - (void);

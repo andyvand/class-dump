@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol HMDControlsConfigurationReaderInterface, HMDWidgetConfigurationReaderInterface;
+@protocol HMDWidgetConfigurationReaderInterface;
 
 __attribute__((visibility("hidden")))
 @interface HMDWidgetConfigurationReader
 {
     id <HMDWidgetConfigurationReaderInterface> _widgetInterface;
-    id <HMDControlsConfigurationReaderInterface> _controlsInterface;
-    NSString *_bundleIdentifier;
-    NSSet *_lockScreenWidgetKinds;
 }
 
 + (id)B;
+- (id)__auth_got;
 - (id);
+- (long long)_supportsPassingClosureReasons;
+- (id)ice request with error %@;
+- (void)}@;
 - (id);
-- (long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)UID;
+- (void)cameraUUID;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) id <HMDControlsConfigurationReaderInterface> controlsInterface; // @synthesize controlsInterface=_controlsInterface;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSSet *lockScreenWidgetKinds; // @synthesize lockScreenWidgetKinds=_lockScreenWidgetKinds;
-@property(readonly) Class superclass;
 @property(readonly) id <HMDWidgetConfigurationReaderInterface> widgetInterface; // @synthesize widgetInterface=_widgetInterface;
 
 @end

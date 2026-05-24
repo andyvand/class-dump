@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileCache, NSObject, NSString, geo_isolater;
-@protocol OS_dispatch_source;
+@class NSString;
 
 @interface MKTileOverlay
 {
     NSString *_URLTemplate;
-    struct CGSize _tileSize;
-    _Bool _geometryFlipped;
-    long long _minimumZ;
-    long long _maximumZ;
-    _Bool _canReplaceMapContent;
-    unsigned int _providerID;
-    GEOTileCache *_tileCache;
-    GEOTileCache *_minimumLifetimeTileCache;
-    geo_isolater *_minimumLifetimeTileCacheEvictionTimerIsolation;
-    NSObject<OS_dispatch_source> *_minimumLifetimeTileCacheEvictionTimer;
-    NSObject<OS_dispatch_source> *_memoryNotificationEventSource;
-    _Bool _needsAdditionalMinimumLifetimeCleanup;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)werlog.PLSQL;
+- (void)rts/;
+- (void)PLFrameworkEnergyBudgetingWorkQueue;
 - (long long);
 - (long long);
 - (void);
@@ -34,52 +21,29 @@
 - (_Bool);
 - (int);
 - (id);
-- (void);
+- (void)I;
 - (unsigned int);
 - (void);
 - (void);
-- (struct _GEOTileKey);
+- (struct _GEOTileKey);
 - (void);
 - (void);
 - (void);
 - (id);
-- (CDStruct_02837cd9);
+- (CDStruct_2f492f29);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)faceIDConfidence;
 - (_Bool);
 - (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)fetchRemoteMetaOfType:allowRetry: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
-- (void)ccuracy:timestamp: /* Error: Ran out of types for this method. */;
+- (void)recordCompassHeading:magneticHeading:accuracy:timestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *URLTemplate; // @synthesize URLTemplate=_URLTemplate;
-@property(readonly, nonatomic) CDStruct_02837cd9 boundingMapRect;
-@property(nonatomic) _Bool canReplaceMapContent; // @synthesize canReplaceMapContent=_canReplaceMapContent;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isGeometryFlipped) _Bool geometryFlipped; // @synthesize geometryFlipped=_geometryFlipped;
-@property(readonly) unsigned long long hash;
-@property long long maximumZ; // @synthesize maximumZ=_maximumZ;
-@property long long minimumZ; // @synthesize minimumZ=_minimumZ;
 @property(readonly, nonatomic, getter=_providerID) unsigned int providerID; // @synthesize providerID=_providerID;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property struct CGSize tileSize; // @synthesize tileSize=_tileSize;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

@@ -7,9 +7,6 @@
 @interface Calculate.NumberFormatterObserver
 {
     id observer;
-    id didChange;
-    id willChange;
-    id id;
 }
 
 @end

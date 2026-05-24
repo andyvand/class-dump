@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)LegacyPluginQuirkForMailSignaturesEnabled;
 + (Class);
-- (id);
+- (id)h;
 
 @end
 

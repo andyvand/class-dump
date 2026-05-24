@@ -6,21 +6,9 @@
 
 #import <NotesShared/ICNoteContainer.h>
 
-@class ICAccountProxy, ICFolder, NSDate, NSPersonNameComponents, NSString;
-
 @interface ICAccount : ICNoteContainer
 {
     _Bool _didAddObservers;
-    _Bool _didAddTrashObservers;
-    ICFolder *_defaultFolder;
-    ICFolder *_trashFolder;
-    ICAccountProxy *_accountProxy;
-    NSDate *_lastSyncDate;
-    NSString *_dsid;
-    NSString *_altDSID;
-    NSString *_username;
-    NSPersonNameComponents *fullName;
-    NSString *primaryEmail;
 }
 
 @end

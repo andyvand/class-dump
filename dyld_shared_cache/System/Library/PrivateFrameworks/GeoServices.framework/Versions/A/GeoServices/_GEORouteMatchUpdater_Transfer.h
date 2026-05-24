@@ -6,24 +6,18 @@
 
 #import <GeoServices/_GEORouteMatchUpdater.h>
 
-@class GEOComposedRouteStep, GEOPBTransitStation, GEOPBTransitStop;
+@class GEOPBTransitStation;
 
 __attribute__((visibility("hidden")))
 @interface _GEORouteMatchUpdater_Transfer : _GEORouteMatchUpdater
 {
     GEOPBTransitStation *_alightStation;
-    GEOPBTransitStation *_boardStation;
-    GEOPBTransitStop *_alightStop;
-    GEOPBTransitStop *_boardStop;
-    GEOComposedRouteStep *_alightStep;
-    GEOComposedRouteStep *_transferStep;
-    GEOComposedRouteStep *_boardStep;
 }
 
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)r:(id)arg1;
+- (_Bool)initWithPersistenceBackend:(id)arg1 managedObjectContext:(id)arg2 owningAddressBook:changesNotifier: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

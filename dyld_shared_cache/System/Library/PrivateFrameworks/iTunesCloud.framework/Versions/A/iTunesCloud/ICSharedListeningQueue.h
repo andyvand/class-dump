@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLink, MSVSectionedCollection, NSArray, NSString, _ICLLPlaybackControlSettings;
+@class ICLiveLink, NSString;
 
 @interface ICSharedListeningQueue
 {
     NSString *_identifier;
-    long long _explicitContentState;
-    MSVSectionedCollection *_tracklist;
-    ICLiveLink *_liveLink;
-    long long _serverRevision;
-    NSString *_serverQueueContext;
-    _ICLLPlaybackControlSettings *_playbackControlSettings;
 }
 
 - (void);
@@ -46,27 +40,17 @@
 - (id);
 - (void);
 - (long long);
-- (long long);
+- (long long)B36;
+- (id);
+- (id);
+- (id)`B;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ationDidEnterBackground: /* Error: Ran out of types for this method. */;
+- (void)_applicationDidEnterBackground: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long explicitContentState; // @synthesize explicitContentState=_explicitContentState;
-@property(readonly, nonatomic) _Bool hasActiveRadioStation;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isAutoPlayAvailable;
-@property(readonly, nonatomic) _Bool isAutoPlayEnabled;
-@property(readonly, copy, nonatomic) NSArray *items;
 @property(nonatomic) __weak ICLiveLink *liveLink; // @synthesize liveLink=_liveLink;
-@property(readonly, nonatomic) _ICLLPlaybackControlSettings *playbackControlSettings; // @synthesize playbackControlSettings=_playbackControlSettings;
-@property(readonly, copy, nonatomic) NSString *serverQueueContext; // @synthesize serverQueueContext=_serverQueueContext;
-@property(readonly, nonatomic) long long serverRevision; // @synthesize serverRevision=_serverRevision;
-@property(readonly, copy, nonatomic) MSVSectionedCollection *tracklist; // @synthesize tracklist=_tracklist;
 
 @end
 

@@ -7,6 +7,9 @@
 @class NSString;
 
 @protocol HMDCloudShareParticipantManaging
+- (void)@9;
+- (void)_droppedPinCoordinate;
+- (void)_cleanupIfNecessary;
 
 // Remaining properties
 @property(readonly, copy) NSString *logIdentifier;

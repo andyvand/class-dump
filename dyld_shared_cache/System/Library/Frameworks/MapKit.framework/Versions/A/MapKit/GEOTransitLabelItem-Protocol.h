@@ -8,10 +8,10 @@
 @protocol GEOTransitArtworkDataSource;
 
 @protocol GEOTransitLabelItem
+- (NSString *)setDevicesBufferedHandler: /* Error: Ran out of types for this method. */;
+- (id <GEOTransitArtworkDataSource>)setDeviceIDTimestampLsbsTruncated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> labelArtwork;
-@property(readonly, nonatomic) NSString *labelString;
 @property(readonly, nonatomic) unsigned long long type;
 @end
 

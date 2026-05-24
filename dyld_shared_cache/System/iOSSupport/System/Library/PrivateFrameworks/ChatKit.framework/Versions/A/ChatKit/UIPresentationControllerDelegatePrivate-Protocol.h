@@ -5,5 +5,8 @@
 //
 
 @protocol UIPresentationControllerDelegatePrivate
+
+@optional
+- (void);
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet;
-
 @interface AccountsPrefFormatter
 {
     long long _maxLength;
-    NSCharacterSet *_characterSet;
 }
 
 + (id);
@@ -19,10 +16,10 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 
 @end
 

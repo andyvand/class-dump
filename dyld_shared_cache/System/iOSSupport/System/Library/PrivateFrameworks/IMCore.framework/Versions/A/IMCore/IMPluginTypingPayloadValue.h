@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMPluginTypingPayloadValue
 {
     NSString *_pluginBundleID;
-    NSString *_type;
-    NSData *_typingIndicatorIcon;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (void)ÖpÖ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *pluginBundleID; // @synthesize pluginBundleID=_pluginBundleID;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) NSData *typingIndicatorIcon; // @synthesize typingIndicatorIcon=_typingIndicatorIcon;
 
 @end
 

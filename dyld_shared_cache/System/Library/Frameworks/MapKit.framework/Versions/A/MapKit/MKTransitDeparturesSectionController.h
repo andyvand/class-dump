@@ -6,46 +6,37 @@
 
 #import <MapKit/MKTransitSectionController.h>
 
-@class MKTransitDepartureServiceGapFormatter, NSArray, NSDictionary, NSMapTable, NSString;
+@class MKTransitDepartureServiceGapFormatter, NSString;
 
 @interface MKTransitDeparturesSectionController : MKTransitSectionController
 {
     NSString *_direction;
-    NSString *_departureSequenceContainer;
-    NSArray *_sequences;
-    NSMapTable *_sequencesToInclude;
-    NSDictionary *_serviceGapStrings;
-    _Bool _needsFindRowForServiceGap;
-    _Bool _needsFindDeparturesAreVehicleSpecific;
-    _Bool _departuresAreVehicleSpecific;
-    MKTransitDepartureServiceGapFormatter *_serviceGapFormatter;
 }
 
+- (_Bool)- %@
+;
+- (void)TotalAccumulatedEnergy=%f, ENERGY_DIFF=%f;
+- (void)GenerativeFunctionMetrics:(id)arg1:tgiExecuteRequest /* Error: Ran out of types for this method. */;
+- (id)totalAccumulatedEnergy;
+- (id)CPUEnergyCurrent;
+- (id)CPUEnergyLast;
+- (id)PowerlogTimestampLast;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
+- (void)R;
+- (_Bool)C prefs;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void)estsAlternateRoutes;
+- (id)VNFaceBBoxAlignerProcessOption_FaceRawBoxInImageCoordinatesMagnified_Height;
+- (void)requestsAlternateRoutes;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool departuresAreVehicleSpecific; // @synthesize departuresAreVehicleSpecific=_departuresAreVehicleSpecific;
 @property(retain, nonatomic) MKTransitDepartureServiceGapFormatter *serviceGapFormatter; // @synthesize serviceGapFormatter=_serviceGapFormatter;
-@property(readonly, nonatomic) _Bool showOperatingHours;
 
 @end
 

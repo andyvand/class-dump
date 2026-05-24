@@ -7,13 +7,6 @@
 @interface AppStoreKit.RibbonBarItem
 {
     id artwork;
-    id artworkTintColor;
-    id accessibilityLabel;
-    id title;
-    id clickAction;
-    id impressionMetrics;
-    id id;
-    id automationMetadata;
 }
 
 @end

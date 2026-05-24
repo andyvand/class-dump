@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSMutableOrderedSet;
+@class NSManagedObjectContext;
 
 @interface CNCustomPropertyMigrationTask
 {
     NSManagedObjectContext *_context;
-    NSMutableOrderedSet *_customPropertyDefinitionsToDelete;
-    NSMutableOrderedSet *_customPropertyValuesToDelete;
 }
 
 + (id);
@@ -28,16 +26,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_CopyfileCallbackCtx;
+- (id)%@;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSMutableOrderedSet *customPropertyDefinitionsToDelete; // @synthesize customPropertyDefinitionsToDelete=_customPropertyDefinitionsToDelete;
-@property(readonly, nonatomic) NSMutableOrderedSet *customPropertyValuesToDelete; // @synthesize customPropertyValuesToDelete=_customPropertyValuesToDelete;
 
 @end
 

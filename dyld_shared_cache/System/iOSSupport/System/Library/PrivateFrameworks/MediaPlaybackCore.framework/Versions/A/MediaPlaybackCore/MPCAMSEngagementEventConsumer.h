@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagement, NSString;
 @protocol MPCPlaybackEngineEventStreamSubscription;
 
 __attribute__((visibility("hidden")))
 @interface MPCAMSEngagementEventConsumer
 {
     id <MPCPlaybackEngineEventStreamSubscription> _subscription;
-    AMSEngagement *_engagement;
 }
 
-+ (unsigned int);
++ (unsigned int)findPhotoLibraryIdentifiersMatchingSearchCriteria:error: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
-- (void);
+- (void)&;
 - (_Bool);
 - (id);
 - (id);
@@ -25,15 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)ic}@ - Error initializing audio unit:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AMSEngagement *engagement; // @synthesize engagement=_engagement;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

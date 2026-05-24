@@ -7,17 +7,6 @@
 @interface SwiftUI.FocusBridge
 {
     id flags;
-    id _host;
-    id focusStore;
-    id currentEnvironment;
-    id _focusedItem;
-    id parentFocusBridge;
-    id headKeyView;
-    id tailKeyView;
-    id $__lazy_storage_$_keyViewProxyCache;
-    id keyViewLoopSeed;
-    id $__lazy_storage_$_navigator;
-    id ignoreTextFocusEvents;
 }
 
 @end

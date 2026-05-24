@@ -5,5 +5,9 @@
 //
 
 @protocol MSPSharedTripCapabilityLevelFetcherObserver
+
+@optional
+- (void);
+- (void)T;
 @end
 

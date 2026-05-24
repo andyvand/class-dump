@@ -7,7 +7,6 @@
 @interface CoreML.MLModelTensorAsyncEvent
 {
     id sharedEvent;
-    id eventValue;
 }
 
 @end

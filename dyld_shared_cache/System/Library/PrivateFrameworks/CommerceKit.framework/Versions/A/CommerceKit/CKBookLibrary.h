@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKStoreDAAPLibrary, NSArray, NSMutableDictionary, NSPredicate, NSString;
-@protocol CKBookLibraryDelegate;
+@class CKStoreDAAPLibrary;
 
 @interface CKBookLibrary
 {
     long long _libraryType;
-    NSArray *_sortDescriptors;
-    NSPredicate *_searchPredicate;
-    id <CKBookLibraryDelegate> _delegate;
-    CKStoreDAAPLibrary *_library;
-    NSMutableDictionary *_observers;
-    id _token;
 }
 
 + (id);
@@ -42,7 +35,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ndleDirectoryName is not available; dropping this option.;
 - (void);
 - (id);
 - (id);
@@ -52,20 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBookLibraryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) CKStoreDAAPLibrary *library; // @synthesize library=_library;
-@property(readonly) long long libraryType; // @synthesize libraryType=_libraryType;
-@property(retain) NSMutableDictionary *observers; // @synthesize observers=_observers;
-@property(copy) NSPredicate *searchPredicate; // @synthesize searchPredicate=_searchPredicate;
-@property(copy) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
-@property(readonly) Class superclass;
-@property(retain) id token; // @synthesize token=_token;
 
 @end
 

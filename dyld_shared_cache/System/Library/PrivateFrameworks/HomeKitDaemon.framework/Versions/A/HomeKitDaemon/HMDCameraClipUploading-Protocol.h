@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
-@protocol HMDCameraClipUploadingDelegate;
+@class NSData, NSDictionary, NSUUID;
 
 @protocol HMDCameraClipUploading
+- (void)ve BAA certificate and signature with error %@;
+- (void)-:(NSData *)arg1;
+- (void);
 - (NSDictionary *)@?0@"HMDCameraStreamControlMessageHandler"8;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *clipUUID;
-@property __weak id <HMDCameraClipUploadingDelegate> delegate;
-@property(readonly, copy) NSDictionary *stateDump;
 @end
 

@@ -9,18 +9,12 @@
 @interface DGiPhotoAntiqueEffect
 {
     CIFilter *_saturationFilter;
-    CIFilter *_temperatureFilter;
-    CIFilter *_blackAndWhitePointFilter;
-    float _level;
-    float _saturation;
-    float _temperature;
-    float _whitePoint;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (void);
 

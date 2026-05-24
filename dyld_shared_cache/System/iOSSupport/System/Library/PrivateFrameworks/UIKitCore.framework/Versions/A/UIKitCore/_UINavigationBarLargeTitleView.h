@@ -6,43 +6,24 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSAttributedString, NSDictionary, NSString, _UINavigationBarLargeTitleViewLayout, _UIPointerInteractionAssistant;
+@class _UIPointerInteractionAssistant;
 @protocol _UINavigationBarTransitionContextProtocol;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarLargeTitleView : UIView
 {
     id <_UINavigationBarTransitionContextProtocol> _transitionContext;
-    NSArray *_titleCandidates;
-    NSAttributedString *__effectiveTitle;
-    _Bool _providesExtraSpaceForExcessiveLineHeights;
-    _Bool _alignAccessoryViewToTitleBaseline;
-    NSDictionary *_effectiveTitleAttributes;
-    _UIPointerInteractionAssistant *_assistant;
-    long long _titleType;
-    NSAttributedString *_attributedTitle;
-    UIView *_titleView;
-    NSArray *_alternateTitles;
-    NSDictionary *_titleAttributes;
-    NSDictionary *_subtitleAttributes;
-    NSString *_subtitle;
-    NSAttributedString *_attributedSubtitle;
-    UIView *_subtitleView;
-    unsigned long long _twoLineMode;
-    UIView *_accessoryView;
-    unsigned long long _accessoryViewHorizontalAlignment;
-    _UINavigationBarLargeTitleViewLayout *_layout;
 }
 
+- (void);
+- (struct CGSize);
+- (void);
+- (id)setPayloadMinutesUntilFailedLoginReset: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (double);
+- (double)removeItemsAtIndexes:inPlaylistWithIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
@@ -56,11 +37,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (void)@"_UILabelScaledMetrics";
-- (void)xcludeDotFilesFromResults;
-- (id)ntationInteraction: /* Error: Ran out of types for this method. */;
-- (void)tistics;
-- (void)meSession;
-- (id)otation:(struct CGRect)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)excludeDotFilesFromResults;
+- (id)activationStyleForClickPresentationInteraction: /* Error: Ran out of types for this method. */;
+- (void)_preparationCountStatistics;
+- (void)_inActiveRenameSession;
+- (id)_finishedFullRotation:(struct CGRect)arg1 context: /* Error: Ran out of types for this method. */;
 - (id)@"NSSet",C,N,V_highlights;
 - (id)"<_UICollectionViewUpdateTranslating>",R,N,V_updateTranslator;
 - (id)À7;
@@ -71,10 +52,10 @@ __attribute__((visibility("hidden")))
 - (id)ets: /* Error: Ran out of types for this method. */;
 - (void)?0@8@16;
 - (_Bool)e number of sections inserted or deleted (%d inserted, %d deleted). Collection view:%@ /* Error: Ran out of types for this method. */;
-- (void)ifeCycle;
+- (void)UICollectionViewCellLifeCycle;
 - (id)yle should not be nil by now.;
 - (void)tension=%f;
-- (void);
+- (void)Push;
 - (void)for the content view when trying to remove clipping view;
 - (id);
 - (unsigned long long);
@@ -103,33 +84,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)¤?åþ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *accessibilityTitleView;
-@property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(nonatomic) unsigned long long accessoryViewHorizontalAlignment; // @synthesize accessoryViewHorizontalAlignment=_accessoryViewHorizontalAlignment;
-@property(nonatomic) _Bool alignAccessoryViewToTitleBaseline; // @synthesize alignAccessoryViewToTitleBaseline=_alignAccessoryViewToTitleBaseline;
-@property(retain, nonatomic) NSArray *alternateTitles; // @synthesize alternateTitles=_alternateTitles;
 @property(nonatomic) __weak _UIPointerInteractionAssistant *assistant; // @synthesize assistant=_assistant;
-@property(copy, nonatomic) NSAttributedString *attributedSubtitle; // @synthesize attributedSubtitle=_attributedSubtitle;
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *effectiveTitleAttributes; // @synthesize effectiveTitleAttributes=_effectiveTitleAttributes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UINavigationBarLargeTitleViewLayout *layout; // @synthesize layout=_layout;
-@property(nonatomic) _Bool providesExtraSpaceForExcessiveLineHeights; // @synthesize providesExtraSpaceForExcessiveLineHeights=_providesExtraSpaceForExcessiveLineHeights;
-@property(readonly, nonatomic) double restingHeightOfTitleView;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSDictionary *subtitleAttributes; // @synthesize subtitleAttributes=_subtitleAttributes;
-@property(retain, nonatomic) UIView *subtitleView; // @synthesize subtitleView=_subtitleView;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSDictionary *titleAttributes; // @synthesize titleAttributes=_titleAttributes;
-@property(nonatomic) long long titleType; // @synthesize titleType=_titleType;
-@property(retain, nonatomic) UIView *titleView; // @synthesize titleView=_titleView;
-@property(nonatomic) unsigned long long twoLineMode; // @synthesize twoLineMode=_twoLineMode;
 
 @end
 

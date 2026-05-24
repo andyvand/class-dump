@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface OS_remote_device_browser
 {
     _Bool _canceled;
-    _Bool _canceling;
-    unsigned int _device_type;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_cbq;
-    CDUnknownBlockType _callback;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)setShouldAutomaticallySaveSignInResults:(_Bool)arg1;
+- (_Bool);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)ERE ROWID = ?;;
+- (void)b;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
-@property(nonatomic) _Bool canceling; // @synthesize canceling=_canceling;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *cbq; // @synthesize cbq=_cbq;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
 @property(nonatomic) unsigned int device_type; // @synthesize device_type=_device_type;
 
 @end

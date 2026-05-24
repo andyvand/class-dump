@@ -9,39 +9,27 @@
 @interface _INPBOpenSettingIntentResponse
 {
     struct _has;
-    NSString *_errorDetail;
-    NSString *_punchoutUrl;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)y;
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)DisplayName;
+- (void)INEnumValueDisplayName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *errorDetail; // @synthesize errorDetail=_errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasPunchoutUrl;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *punchoutUrl; // @synthesize punchoutUrl=_punchoutUrl;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (FPCaching)
-+ (id);
++ (id);
 + (id);
 @end
 

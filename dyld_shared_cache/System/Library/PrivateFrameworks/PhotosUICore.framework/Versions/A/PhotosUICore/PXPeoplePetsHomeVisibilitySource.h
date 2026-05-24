@@ -7,16 +7,16 @@
 @interface PXPeoplePetsHomeVisibilitySource
 {
     unsigned long long visibility;
-    id humans;
-    id pets;
-    id defaults;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)1. + (.5 - absP1) * invRadii; 
+			shadowStrengthXY = 1. + (absP2 - .5) * shadow.zw; 
+		} 
+		;
 - (unsigned long long)GGGAMyAAyANyAfDGAQGGGAGGAEyÉØ¤GG;
-- (void);
+- (void)PXCPLUIStatusChanged;
 - (void)Ñ°·i;
 
 // Remaining properties

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface DOTRenderer
 {
@@ -31,12 +29,6 @@ __attribute__((visibility("hidden")))
         int _field19;
         long long _field20;
     } *file;
-    NSURL *fileURL;
-    NSString *fileTitle;
-    NSMutableString *contents;
-    _Bool drawEdgesFirst;
-    int direction;
-    struct CGSize separation;
 }
 
 - (struct __CFString *);
@@ -920,16 +912,7 @@ using namespace coreimage;
 cojrBTGaISF\Wb^biiii]ihjggggbbbb[b_bkkkk\pmvhrnxYh_qXdYlppppqqqqmlemqqqq~~~~azy}HbXpSh_q¦ª­­¶¶¶¶²²²²¦¦¦¦klil>J;WESG]kkhnbsrxzxwz~~~~~~~~Zmhxj{y¦¦¦¦¯¯¯¯¦¨¨¨rul{ssjs_pit[jarC]Pljjbnwwwwtxxxssosv|z|uusu;PCYSSGSaa_awwww{{{{Rc\p\icoqqqq]f`kWbZfcdadP_Y`ETIV?H8PARD[lvswbto~ookoiiiiXd[jmrkyv¦¬¬¸¸¸¸····®®®®££££SlitJ_YePTIV6E6Q<OC\onjoq|||{{{{ppppjjejqqqqsookoJXNbbgbndxwUe]qjibjXd\jghap~~~~n~s~sdmdw\og~p¢¢¢¢}}}}Wc\oyyyy~~~~rttunnnneeee8QE[X[Pb{{{{y||||bvvzSlhvJc]pdd^kig`ickfnxxxx}}}}vvvvmmim`f_o|{z}fohvXmdyJf]xGVGjrrrrvvvv?ZPe3G8XZ_V`ZiekWc^mJ]UhQ`Zehhhhssrsz    ³³³³³³³³||u|y~ycog{xxvxnsmsllfl]jbm{{{{~~||||^olo]f`jYkfry~~~zzzzL\Re9J;UXXSXaa\aXgam¡ªªªª¢¨¬£¨kohrsslsp§§§§¨¨¨¨qjzx||||rrrrSd]jmmgmttttpzw|jljdn,F7TTTOTddddnnnnqqqq_rrtzzzz}}}}zvqzaof}xxxxVbZj5THh]rpw¥¥¥¥auq|uuuujjfjEUK_O^V`iiiiYmjm^icnilgqfrnuwurwOg_tqi`qxunxr¨¨¨¨····¦ª¬¬rrgv^h\sg}zQpi}heZhBTE_ThbovvuvP[Oc@SC_=YJi\qiz~}yTf[vE_Qpssns]merA]Rnmnhsvqywbwu}ipppbbbbYYYYVVVVLZWZeeee_onoxxxxvzyzJkg}u~yyyyMdZrHf\{bh`j=N?[P^Uexxxx~~~~rrrr1QGbATK_ffcfnmjnkxyz{zv{Tldw{zv{w}Pe\p_f_gVc[dTaYhwwwwaxu`tomuoz¡¡¡¡qxxxdnlq~~~~ªªªª¢¢¢¢D^Wg7K=V8L>Wge^g}}}}gxuxsmx|~~~|jyylsqykkkkcc`cjjhj}}}}¥¥¥¥££££¡¡¡§§§§[qjylrmxezyvurvuuuuxxxxxxxxyyyy}}}}v}}tz}Voj<aZsppppjjjjX_X_OVK^lror|H^Tjcc]clllltttt]mlrgkgonnknRg`qgtq~{~~~cqluL`WoXharuvrxzwv|l{|~yyyyjjjj]]X]T]Uarttts`Yoiwce^jZZQ\TTNTWWSWff_f||||z¡§§§§~Y^PjAVFcsssscojrBTGa /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property int direction; // @synthesize direction;
-@property _Bool drawEdgesFirst; // @synthesize drawEdgesFirst;
-@property(readonly) unsigned long long hash;
-@property struct CGSize separation; // @synthesize separation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,9 @@
 @interface PKProximitySetupSourceClient
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isValid;
-    _Bool _bootstrapped;
 }
 
-- (_Bool);
+- (_Bool)	j;
 - (id);
 - (void);
 

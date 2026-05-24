@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, PLEntryNotificationOperatorComposition, PLNSNotificationOperatorComposition, PLStateTrackingComposition, PLTimer;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLCoalitionAgent
 {
     PLEntryNotificationOperatorComposition *_batteryLevelChanged;
-    PLEntryNotificationOperatorComposition *_batteryEntryLogged;
-    NSDictionary *_lastCoalitionObjectDictionary;
-    NSDate *_lastDate;
-    NSDate *_currentDate;
-    NSString *_driveCapacity;
-    PLEntryNotificationOperatorComposition *_focalAppSwitch;
-    NSDate *_lastFocalSampleDate;
-    PLTimer *_focalSwitchFilterTimer;
-    PLNSNotificationOperatorComposition *_thermalMonitorListener;
-    NSDate *_reportMemoryStatsAfterTime;
-    NSDate *_reportHighFrequencyMemoryStatsAfterTime;
-    PLStateTrackingComposition *_stateTracker;
-    PLTimer *_osMetricMonitorTimer;
-    double _osMetricMonitorCadence;
 }
 
 + (id);
@@ -32,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (void)medOut;
++ (void)ResponseTimedOut;
 - (_Bool);
 - (void);
 - (void);
@@ -66,14 +52,14 @@
 - (id);
 - (void);
 - (void);
+- (double);
 - (double);
-- (double);
-- (double);
+- (double);
 - (void);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)(=;
 - (id);
 - (id);
 - (id);
@@ -87,33 +73,19 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void)sage with a different type. to:(id)arg1;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)%}S	;
 - (void);
 - (void)@]ä`a´b;
 - (id)readAlgoPassWithHardAfterAcq(4104):Error adding 1 elements to context /* Error: Ran out of types for this method. */;
-- (void)eDSOverWrLogSizeCnts_;
+- (void)wcacheDSOverWrLogSizeCnts_;
 
 // Remaining properties
-@property(retain) PLEntryNotificationOperatorComposition *batteryEntryLogged; // @synthesize batteryEntryLogged=_batteryEntryLogged;
 @property(retain) PLEntryNotificationOperatorComposition *batteryLevelChanged; // @synthesize batteryLevelChanged=_batteryLevelChanged;
-@property(retain) NSDate *currentDate; // @synthesize currentDate=_currentDate;
-@property(retain) NSString *driveCapacity; // @synthesize driveCapacity=_driveCapacity;
-@property(retain) PLEntryNotificationOperatorComposition *focalAppSwitch; // @synthesize focalAppSwitch=_focalAppSwitch;
-@property(retain) PLTimer *focalSwitchFilterTimer; // @synthesize focalSwitchFilterTimer=_focalSwitchFilterTimer;
-@property(retain) NSDictionary *lastCoalitionObjectDictionary; // @synthesize lastCoalitionObjectDictionary=_lastCoalitionObjectDictionary;
-@property(retain) NSDate *lastDate; // @synthesize lastDate=_lastDate;
-@property(retain) NSDate *lastFocalSampleDate; // @synthesize lastFocalSampleDate=_lastFocalSampleDate;
-@property double osMetricMonitorCadence; // @synthesize osMetricMonitorCadence=_osMetricMonitorCadence;
-@property(retain) PLTimer *osMetricMonitorTimer; // @synthesize osMetricMonitorTimer=_osMetricMonitorTimer;
-@property(retain) NSDate *reportHighFrequencyMemoryStatsAfterTime; // @synthesize reportHighFrequencyMemoryStatsAfterTime=_reportHighFrequencyMemoryStatsAfterTime;
-@property(retain) NSDate *reportMemoryStatsAfterTime; // @synthesize reportMemoryStatsAfterTime=_reportMemoryStatsAfterTime;
-@property(retain) PLStateTrackingComposition *stateTracker; // @synthesize stateTracker=_stateTracker;
-@property(retain) PLNSNotificationOperatorComposition *thermalMonitorListener; // @synthesize thermalMonitorListener=_thermalMonitorListener;
 
 @end
 

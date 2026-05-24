@@ -7,8 +7,6 @@
 @interface NewsUI2.NewsdDownloadServiceProxy
 {
     id _connectionStatus;
-    id _interruptionCount;
-    id _lastSubmission;
 }
 
 @end

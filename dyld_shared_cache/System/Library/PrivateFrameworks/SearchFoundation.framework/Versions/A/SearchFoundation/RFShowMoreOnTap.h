@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFOptionalBool;
+@class NSString;
 
 @interface RFShowMoreOnTap
 {
     NSString *_affordanceLabel;
-    RFOptionalBool *_shows_without_truncation;
 }
 
 + (_Bool);
@@ -17,28 +16,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)loadArtworkInfoForSubscriptionItemPersistentID:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)suggestion;
+- (id)"NSNumber"8@"NSArray"16^B24;
 - (id);
 - (id);
 - (void),N;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceLabel; // @synthesize affordanceLabel=_affordanceLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFOptionalBool *shows_without_truncation; // @synthesize shows_without_truncation=_shows_without_truncation;
-@property(readonly) Class superclass;
 
 @end
 

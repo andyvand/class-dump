@@ -6,18 +6,18 @@
 
 @interface UnknownClass (QLUtilsAdditions)
 + (id);
-+ (int);
-+ (double);
++ (int);
++ (double)K;
 + (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (struct CGRect);
 - (long long);
-- (double);
+- (double)1;
 - (id);
 - (id);
-- (double);
-- (_Bool);
+- (double)2;
+- (_Bool);
 - (int);
 @end
 

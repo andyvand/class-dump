@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface ATLFieldInformation
 {
     unsigned short _fieldProperties;
-    unsigned short _typeFSystemCode;
-    NSData *_ecpPayload;
 }
 
 - (id);
 - (id);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short)create asset collection index. Error:%{public}s /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *ecpPayload; // @synthesize ecpPayload=_ecpPayload;
 @property(readonly) unsigned short fieldProperties; // @synthesize fieldProperties=_fieldProperties;
-@property(readonly) unsigned short typeFSystemCode; // @synthesize typeFSystemCode=_typeFSystemCode;
 
 @end
 

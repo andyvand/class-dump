@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface _NUObservation
 {
     id _observer;
-    long long _key;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
 }
 
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)D;
 - (id);
 - (CDUnknownBlockType);
 - (void)!XGùñá1Â0@ù
@@ -26,10 +20,7 @@
 - (id)teVideoPropertiesWithSourceOptions not implemented;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) long long key; // @synthesize key=_key;
 @property(readonly, nonatomic) __weak id observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

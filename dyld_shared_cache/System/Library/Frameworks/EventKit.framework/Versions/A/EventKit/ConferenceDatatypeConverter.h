@@ -9,15 +9,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
++ (id)shouldForceRemoteControlabillity;
++ (id)em.targetQueue;
++ (id)xternalDeviceGetNetworkPort(MRExternalDeviceRef);
++ (unsigned long long)ion(MRExternalDeviceRef);
++ (id)local-hosted:(id)arg1 //%@/%@;
++ (unsigned long long)MRAVEndpointDeviceInfoUserInfoKey;
++ (id)MRAVEndpointOutputDeviceUserInfoKey;
++ (id)yingClientAppendBundleIdentifier(MRNowPlayingClientRef, CFStringRef);
++ (id)PlayingVisibility(MRNowPlayingClientRef, MRNowPlayingClientVisibility);
 
 @end
 

@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)@?0@"NSString"8@"NSArray"16^B24;
 - (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool isLocked;
-@property(readonly) _Bool isPasscodeEnabled;
-@property(readonly) _Bool isUnlockedWithAutoLoginOrAutoLockDisabled;
 
 @end
 

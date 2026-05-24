@@ -5,5 +5,9 @@
 //
 
 @protocol VTUITrainingViewControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

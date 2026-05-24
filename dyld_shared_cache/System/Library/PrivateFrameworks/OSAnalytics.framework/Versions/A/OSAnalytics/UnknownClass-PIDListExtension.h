@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (PIDListExtension)
-- (id);
+- (id)TLKImageView",&,N,V_snapshotView;
 @end
 

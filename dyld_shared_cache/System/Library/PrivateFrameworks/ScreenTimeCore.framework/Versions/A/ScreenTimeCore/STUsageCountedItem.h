@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, STUsageBlock;
+@class NSString;
 
 @interface STUsageCountedItem
 {
 }
 
-+ (id);
-+ (id);
++ (id)pid, composer, sort_composer, grouping_key, cloud_status, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT composer_pid, composer, sort_composer, grouping_key, cloud_status, representative_item_pid, artwork_cache_id, keep_local, keep_local_status FROM composer;
++ (id)epresentative_item_pid, artist_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, representative_item_pid, artist_artwork_cache_id, keep_local, keep_local_status FROM item_artist;
 
 // Remaining properties
-@property(readonly, nonatomic) STUsageBlock *block; // @dynamic block;
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(readonly, nonatomic) long long numberOfNotifications; // @dynamic numberOfNotifications;
-@property(readonly, nonatomic) long long numberOfPickups; // @dynamic numberOfPickups;
-@property(readonly, nonatomic) _Bool usageTrusted; // @dynamic usageTrusted;
 
 @end
 

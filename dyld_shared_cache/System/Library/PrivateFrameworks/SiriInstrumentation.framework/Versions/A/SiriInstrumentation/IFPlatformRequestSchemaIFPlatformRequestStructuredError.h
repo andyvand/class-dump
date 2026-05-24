@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFPlatformRequestSchemaIFPlatformRequestStructuredError : SISchemaInstrumentationMessage
 {
@@ -19,14 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)mapImageForLocation:radius:width:height:cache:andCompletion: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (id)enceFlowRequestFailed",&,N,V_failed;
@@ -35,7 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

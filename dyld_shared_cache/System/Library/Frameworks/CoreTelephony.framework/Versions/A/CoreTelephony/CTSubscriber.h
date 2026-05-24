@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol CTSubscriberDelegate;
+@class NSData;
 
 @interface CTSubscriber
 {
     _Bool _SIMInserted;
-    id <CTSubscriberDelegate> _delegate;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, getter=isSIMInserted) _Bool SIMInserted; // @synthesize SIMInserted=_SIMInserted;
 @property(readonly, retain, nonatomic) NSData *carrierToken;
-@property(nonatomic) __weak id <CTSubscriberDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *identifier;
 
 @end
 

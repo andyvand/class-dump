@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface PKBeacon
 {
     NSUUID *_proximityUUID;
-    NSNumber *_major;
-    NSNumber *_minor;
-    NSString *_name;
-    NSString *_relevantText;
 }
 
 + (_Bool);
@@ -31,14 +27,10 @@
 - (void);
 - (id);
 - (void)@«;
-- (void)ReloadKey;
+- (void)DismissedSetUpAutoReloadKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *major; // @synthesize major=_major;
-@property(retain, nonatomic) NSNumber *minor; // @synthesize minor=_minor;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSUUID *proximityUUID; // @synthesize proximityUUID=_proximityUUID;
-@property(retain, nonatomic) NSString *relevantText; // @synthesize relevantText=_relevantText;
 
 @end
 

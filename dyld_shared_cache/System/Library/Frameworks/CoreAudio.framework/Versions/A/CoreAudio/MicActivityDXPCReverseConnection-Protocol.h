@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSXPCListenerEndpoint;
+
 @protocol MicActivityDXPCReverseConnection
+- (NSXPCListenerEndpoint *)entitlements with context %p;
 @end
 

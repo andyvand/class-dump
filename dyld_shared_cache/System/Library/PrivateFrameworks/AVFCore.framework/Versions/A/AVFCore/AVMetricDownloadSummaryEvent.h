@@ -6,21 +6,16 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVMetricErrorEvent, NSArray;
+@class AVMetricErrorEvent;
 
 @interface AVMetricDownloadSummaryEvent : AVMetricEvent
 {
     AVMetricErrorEvent *_errorEvent;
-    long long _recoverableErrorCount;
-    long long _mediaResourceRequestCount;
-    long long _bytesDownloadedCount;
-    double _downloadDuration;
-    NSArray *_variants;
 }
 
 + (_Bool);
 - (long long);
-- (long long);
+- (long long)<;
 - (id);
 - (id);
 - (double);
@@ -29,15 +24,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) long long bytesDownloadedCount;
-@property(readonly) double downloadDuration;
 @property(readonly) AVMetricErrorEvent *errorEvent;
-@property(readonly) long long mediaResourceRequestCount;
-@property(readonly) long long recoverableErrorCount;
-@property(readonly) NSArray *variants;
 
 @end
 

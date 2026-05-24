@@ -9,47 +9,42 @@
 @interface TSDTransformGradient : TSDGradient
 {
     struct CGPoint mStart;
-    struct CGPoint mEnd;
-    struct CGSize mBaseNaturalSize;
-    struct CGAffineTransform mTransformBeforeUpgrade;
 }
 
-- (struct CGAffineTransform);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGAffineTransform)TimeContinuity;
+- (struct CGPoint)start item asset] event=;
+- (void)d];
+- (void);
+- (void)TransitionOffsetData;
 - (void);
 - (struct CGPoint);
+- (struct CGPoint);
+- (void);
+- (struct CGPoint)QueueControllerBehaviorPodcastsIdentifierComponents;
 - (long long);
 - (id);
+- (_Bool)MPCPlaybackEngineEventDeviceMetadataKey;
 - (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (double);
+- (double): /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (struct CGSize);
+- (struct CGSize)ʬ;
 - (struct CGSize);
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void)q;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (struct CGPoint)"40@0:8@"NSXMLParser"16@"NSString"24@"NSString"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGSize baseNaturalSize; // @synthesize baseNaturalSize=mBaseNaturalSize;
-@property(nonatomic) struct CGPoint endPoint; // @synthesize endPoint=mEnd;
 @property(nonatomic) struct CGPoint startPoint; // @synthesize startPoint=mStart;
 
 @end

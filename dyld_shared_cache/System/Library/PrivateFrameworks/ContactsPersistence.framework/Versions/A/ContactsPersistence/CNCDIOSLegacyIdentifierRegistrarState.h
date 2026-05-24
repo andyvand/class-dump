@@ -9,11 +9,6 @@
 @interface CNCDIOSLegacyIdentifierRegistrarState
 {
     NSString *_namespaceIdentifier;
-    unsigned long long _maxContactSequenceNumberInUse;
-    unsigned long long _maxGroupSequenceNumberInUse;
-    unsigned long long _maxContainerSequenceNumberInUse;
-    unsigned long long _maxInfoSequenceNumberInUse;
-    unsigned long long _maxMultivalueSequenceNumberInUse;
 }
 
 - (void);
@@ -25,18 +20,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void)a;
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxContactSequenceNumberInUse; // @synthesize maxContactSequenceNumberInUse=_maxContactSequenceNumberInUse;
-@property(nonatomic) unsigned long long maxContainerSequenceNumberInUse; // @synthesize maxContainerSequenceNumberInUse=_maxContainerSequenceNumberInUse;
-@property(nonatomic) unsigned long long maxGroupSequenceNumberInUse; // @synthesize maxGroupSequenceNumberInUse=_maxGroupSequenceNumberInUse;
-@property(nonatomic) unsigned long long maxInfoSequenceNumberInUse; // @synthesize maxInfoSequenceNumberInUse=_maxInfoSequenceNumberInUse;
-@property(nonatomic) unsigned long long maxMultivalueSequenceNumberInUse; // @synthesize maxMultivalueSequenceNumberInUse=_maxMultivalueSequenceNumberInUse;
 @property(copy, nonatomic) NSString *namespaceIdentifier; // @synthesize namespaceIdentifier=_namespaceIdentifier;
 
 @end

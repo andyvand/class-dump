@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface TPMachineID
 {
     NSString *_machineID;
-    unsigned long long _status;
-    NSDate *_modified;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly) NSString *machineID; // @synthesize machineID=_machineID;
-@property(readonly) NSDate *modified; // @synthesize modified=_modified;
-@property(readonly) unsigned long long status; // @synthesize status=_status;
 
 @end
 

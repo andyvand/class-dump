@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, AVWeakReferencingDelegateStorage, NSArray, NSDate, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReferencingDelegateStorage;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerItemMetadataCollectorInternal
 {
     AVWeakReferencingDelegateStorage *delegateStorage;
-    NSObject<OS_dispatch_queue> *ivarAccessQueue;
-    NSArray *identifiers;
-    NSArray *classifyingLabels;
-    NSDate *mostRecentlyModifiedMetadataGroupTimestamp;
-    AVWeakReference *weakReferenceToPlayerItem;
 }
 
 @end

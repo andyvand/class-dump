@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol MRGroupSessionClientXPCProtocol, OS_dispatch_queue;
+@protocol MRGroupSessionClientXPCProtocol;
 
 __attribute__((visibility("hidden")))
 @interface MRGroupSessionXPCConnection
 {
     id <MRGroupSessionClientXPCProtocol> _clientObject;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)T;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)"#;
 - (id);
 - (CDUnknownBlockType);
 - (void)V_packetDescriptions;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MRGroupSessionClientXPCProtocol> clientObject; // @synthesize clientObject=_clientObject;
-@property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

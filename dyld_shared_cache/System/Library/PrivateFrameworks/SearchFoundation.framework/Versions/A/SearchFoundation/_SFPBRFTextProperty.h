@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBRFTextProperty
 {
     _Bool _is_safe_for_logging;
-    NSArray *_text_elements;
 }
 
 - (unsigned long long);
@@ -25,22 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)requestURLForVideo:(id)arg1 options:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)ities] Select preview asset:%@, cropScore:(%.4f, avg:%.4f), curationScore:(%.4f, avg:%.4f), aestheticScore:(%.4f, avg:%.4f) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)rCardSection"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool is_safe_for_logging; // @synthesize is_safe_for_logging=_is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *text_elements; // @synthesize text_elements=_text_elements;
 
 @end

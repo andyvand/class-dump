@@ -7,20 +7,6 @@
 @interface EventKitUI._AppExtensionEventEditHostView.Configuration
 {
     id identity;
-    id sceneID;
-    id event;
-    id eventStore;
-    id layoutDirection;
-    id sizeCategory;
-    id viewHierarchy;
-    id changedCustomViewConfigurationDictionary;
-    id _customViewConfigurationChangedPublisher;
-    id _navigationDoneButtonTapPublisher;
-    id cancelEditingCallback;
-    id getHasUnsavedChangesAction;
-    id focusAndSelectTitleCallback;
-    id focusAndSelectStartDateCallback;
-    id focusTitleCallback;
 }
 
 @end

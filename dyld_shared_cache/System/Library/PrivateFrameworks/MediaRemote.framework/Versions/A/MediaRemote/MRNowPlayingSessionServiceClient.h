@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)@;
+- (id)d;
 - (void)eMessageProtobuf",&,N,V_adjustVolumeMessage;
 
 @end

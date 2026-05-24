@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface WBSCloudHistoryFetchResult
 {
     NSMutableDictionary *_mutableVisitsPerProfile;
-    NSMutableDictionary *_mutableTombstonesPerProfile;
-    NSMutableDictionary *_mutableClientVersions;
-    NSData *_serverChangeTokenData;
 }
 
 - (id);
@@ -27,17 +24,13 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id)ͣ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *clientVersions;
 @property(readonly, nonatomic) NSSet *profiles;
-@property(readonly, nonatomic) NSData *serverChangeTokenData; // @synthesize serverChangeTokenData=_serverChangeTokenData;
-@property(readonly, nonatomic) unsigned long long tombstoneCount;
-@property(readonly, nonatomic) unsigned long long visitCount;
 
 @end
 

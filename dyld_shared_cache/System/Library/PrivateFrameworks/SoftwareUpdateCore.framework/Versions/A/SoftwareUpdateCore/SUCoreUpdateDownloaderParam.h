@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, SUCoreProgress;
+@class SUCoreProgress;
 
 @interface SUCoreUpdateDownloaderParam
 {
     int _type;
-    SUCoreProgress *_progress;
-    NSError *_error;
-    NSString *_note;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_metadataStore;
 - (id);
 - (id);
 - (id);
@@ -25,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, retain, nonatomic) NSString *note; // @synthesize note=_note;
 @property(readonly, retain, nonatomic) SUCoreProgress *progress; // @synthesize progress=_progress;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SOStickerViewerControllerDelegate
+- (void);
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactListViewControllerDelegateInternal
+
+@optional
+- (_Bool)downloadLimitPodcast;
 @end
 

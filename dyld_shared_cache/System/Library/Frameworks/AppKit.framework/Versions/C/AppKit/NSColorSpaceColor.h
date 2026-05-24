@@ -11,48 +11,44 @@
 @interface NSColorSpaceColor : NSColor
 {
     NSColorSpace *colorSpace;
-    struct CGColor *_cachedCGColor;
-    long long numComponents;
-    double _headroom;
-    double components[0];
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)pp Transport Security has blocked a cleartext HTTP connection to %@ since it is insecure. Use HTTPS instead or add this domain to Exception Domains in your Info.plist.%{xcode:(id)arg1 text-backtrace}.*P;
++ (id)ption %{public}@ is not a valid CIDR notation.;
++ (id)ns);
 - (double);
 - (double);
 - (double);
-- (double);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (double);
+- (double)propertyList;
+- (_Bool)closeFile;
+- (id)ks;
+- (id)V_respectsAllowsCellularAccessForDiscretionaryTasks;
+- (double)protectionSpace;
+- (double)__NSCFLocalDownloadFileOpener;
+- (void)hd;
 - (void);
-- (void);
-- (double);
+- (double)%{errno}d;
+- (id)s config %p;
 - (id);
-- (id);
-- (double);
-- (double);
-- (double);
+- (double)lu:activity(%p) will be canceled /* Error: Ran out of types for this method. */;
+- (double)ty (%ld elements);
+- (double)viability advisory(%c);
 - (void);
-- (double);
+- (double)?;
 - (id);
 - (id);
 - (struct CGColor *);
 - (void);
 - (id);
 - (Class);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long);
 - (_Bool);
 - (void)¡ë/!ÌBùà31Â0@ù
 × ;
-- (long long)Controller;
-- (double)tor;
+- (long long)_contentViewController;
+- (double)NSNibControlConnector;
 - (struct CGColor *)talogName:%@> /* Error: Ran out of types for this method. */;
 - (void)0nE;
 - (void)`NhF;

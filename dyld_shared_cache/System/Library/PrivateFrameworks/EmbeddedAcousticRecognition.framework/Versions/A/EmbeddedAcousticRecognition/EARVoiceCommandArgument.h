@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
-
 @interface EARVoiceCommandArgument
 {
     BOOL _presence;
-    NSIndexSet *_indexes;
-    NSIndexSet *_adpositionIndexes;
-    NSString *_text;
 }
 
 + (_Bool);
 - (BOOL);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setPayloadWorkoutLocationTypes:count: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -30,10 +25,7 @@
 - (void)ÜS;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSIndexSet *adpositionIndexes; // @synthesize adpositionIndexes=_adpositionIndexes;
-@property(readonly, copy, nonatomic) NSIndexSet *indexes; // @synthesize indexes=_indexes;
 @property(readonly, nonatomic) BOOL presence; // @synthesize presence=_presence;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

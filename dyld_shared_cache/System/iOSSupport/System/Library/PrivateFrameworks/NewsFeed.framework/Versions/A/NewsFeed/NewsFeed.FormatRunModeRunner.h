@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatRunModeRunner
 {
     id seenOnce;
-    id seenOnceSinceRefresh;
-    id seenOnceOnScreen;
 }
 
 - (void)resolve template reference '%{public}s' but will continue attempts, error=%{public}@;

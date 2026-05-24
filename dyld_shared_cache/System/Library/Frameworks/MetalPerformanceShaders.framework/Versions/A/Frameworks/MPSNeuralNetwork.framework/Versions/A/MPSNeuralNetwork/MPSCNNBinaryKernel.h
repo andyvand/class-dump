@@ -4,44 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSExternalCNNBinary;
-@protocol MPSImageAllocator, MPSNNPadding;
-
 @interface MPSCNNBinaryKernel
 {
     CDStruct_d6af7fc0 _primaryOffset;
-    CDStruct_d6af7fc0 _secondaryOffset;
-    CDStruct_1e3be3a8 _clipRect;
-    unsigned long long _destinationFeatureChannelOffset;
-    unsigned long long _primarySourceFeatureChannelOffset;
-    unsigned long long _secondarySourceFeatureChannelOffset;
-    unsigned long long _primarySourceFeatureChannelMaxCount;
-    unsigned long long _secondarySourceFeatureChannelMaxCount;
-    MPSExternalCNNBinary *_plugin;
-    _Bool _pluginSupportsBatchEncode;
-    unsigned long long _primaryKernelWidth;
-    unsigned long long _primaryKernelHeight;
-    unsigned long long _secondaryKernelWidth;
-    unsigned long long _secondaryKernelHeight;
-    unsigned long long _primaryStrideInPixelsX;
-    unsigned long long _primaryStrideInPixelsY;
-    unsigned long long _secondaryStrideInPixelsX;
-    unsigned long long _secondaryStrideInPixelsY;
-    unsigned long long _primaryDilationRateX;
-    unsigned long long _primaryDilationRateY;
-    unsigned long long _secondaryDilationRateX;
-    unsigned long long _secondaryDilationRateY;
-    _Bool _isBackwards;
-    _Bool _supportsBroadcasting;
-    id <MPSNNPadding> _padding;
-    unsigned long long _primaryEdgeMode;
-    unsigned long long _secondaryEdgeMode;
-    int _checkFlags;
-    CDUnknownFunctionPointerType _encode;
-    CDUnknownFunctionPointerType _batchEncode;
-    void *_encodeData;
-    id <MPSImageAllocator> _destinationImageAllocator;
-    unsigned long long _pluginOptions;
 }
 
 - (id);
@@ -50,6 +15,7 @@
 - (void);
 - (void);
 - (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -57,11 +23,10 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)m	;
 - (unsigned long long);
 - (struct MPSRegion);
 - (unsigned long long);
@@ -77,14 +42,14 @@
 - (unsigned long long);
 - (struct MPSRegion);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (CDStruct_d6af7fc0);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -95,17 +60,17 @@
 - (id);
 - (void);
 - (id);
+- (void)x;
+- (id);
+- (void)Kt;
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -124,10 +89,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)setSummarizationContentTopLine: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id)useNesterovMomentum:%d
  /* Error: Ran out of types for this method. */;
@@ -135,32 +100,7 @@
 - (id)xT;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1e3be3a8 clipRect; // @synthesize clipRect=_clipRect;
-@property(nonatomic) unsigned long long destinationFeatureChannelOffset; // @synthesize destinationFeatureChannelOffset=_destinationFeatureChannelOffset;
-@property(retain, nonatomic) id <MPSImageAllocator> destinationImageAllocator; // @synthesize destinationImageAllocator=_destinationImageAllocator;
-@property(readonly, nonatomic) _Bool isBackwards; // @synthesize isBackwards=_isBackwards;
-@property(readonly, nonatomic) _Bool isStateModified;
-@property(retain, nonatomic) id <MPSNNPadding> padding; // @synthesize padding=_padding;
-@property(readonly, nonatomic) unsigned long long primaryDilationRateX; // @synthesize primaryDilationRateX=_primaryDilationRateX;
-@property(readonly, nonatomic) unsigned long long primaryDilationRateY; // @synthesize primaryDilationRateY=_primaryDilationRateY;
-@property(nonatomic) unsigned long long primaryEdgeMode; // @synthesize primaryEdgeMode=_primaryEdgeMode;
-@property(readonly, nonatomic) unsigned long long primaryKernelHeight; // @synthesize primaryKernelHeight=_primaryKernelHeight;
-@property(readonly, nonatomic) unsigned long long primaryKernelWidth; // @synthesize primaryKernelWidth=_primaryKernelWidth;
 @property(nonatomic) CDStruct_d6af7fc0 primaryOffset; // @synthesize primaryOffset=_primaryOffset;
-@property(nonatomic) unsigned long long primarySourceFeatureChannelMaxCount; // @synthesize primarySourceFeatureChannelMaxCount=_primarySourceFeatureChannelMaxCount;
-@property(nonatomic) unsigned long long primarySourceFeatureChannelOffset; // @synthesize primarySourceFeatureChannelOffset=_primarySourceFeatureChannelOffset;
-@property(nonatomic) unsigned long long primaryStrideInPixelsX; // @synthesize primaryStrideInPixelsX=_primaryStrideInPixelsX;
-@property(nonatomic) unsigned long long primaryStrideInPixelsY; // @synthesize primaryStrideInPixelsY=_primaryStrideInPixelsY;
-@property(readonly, nonatomic) unsigned long long secondaryDilationRateX; // @synthesize secondaryDilationRateX=_secondaryDilationRateX;
-@property(readonly, nonatomic) unsigned long long secondaryDilationRateY; // @synthesize secondaryDilationRateY=_secondaryDilationRateY;
-@property(nonatomic) unsigned long long secondaryEdgeMode; // @synthesize secondaryEdgeMode=_secondaryEdgeMode;
-@property(readonly, nonatomic) unsigned long long secondaryKernelHeight; // @synthesize secondaryKernelHeight=_secondaryKernelHeight;
-@property(readonly, nonatomic) unsigned long long secondaryKernelWidth; // @synthesize secondaryKernelWidth=_secondaryKernelWidth;
-@property(nonatomic) CDStruct_d6af7fc0 secondaryOffset; // @synthesize secondaryOffset=_secondaryOffset;
-@property(nonatomic) unsigned long long secondarySourceFeatureChannelMaxCount; // @synthesize secondarySourceFeatureChannelMaxCount=_secondarySourceFeatureChannelMaxCount;
-@property(nonatomic) unsigned long long secondarySourceFeatureChannelOffset; // @synthesize secondarySourceFeatureChannelOffset=_secondarySourceFeatureChannelOffset;
-@property(nonatomic) unsigned long long secondaryStrideInPixelsX; // @synthesize secondaryStrideInPixelsX=_secondaryStrideInPixelsX;
-@property(nonatomic) unsigned long long secondaryStrideInPixelsY; // @synthesize secondaryStrideInPixelsY=_secondaryStrideInPixelsY;
 
 @end
 

@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTVisitHyperParameter, RTVisitTrajectorySequenceClassifierBatchMode;
+@class RTVisitTrajectorySequenceClassifierBatchMode;
 
 @interface RTVisitModelControllerBatchMode
 {
     void *_espressoContext;
-    void *_espressoPlan;
-    CDStruct_0a65202a _inputBuffer;
-    CDStruct_0a65202a _outputBuffer;
-    RTVisitHyperParameter *_hyperParameter;
-    RTVisitTrajectorySequenceClassifierBatchMode *_model;
 }
 
 - (const float *);
 - (const float *);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)"16@"NSError"24@"NSArray"32;
 - (id);
 - (void)companion device, %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) RTVisitTrajectorySequenceClassifierBatchMode *model; // @synthesize model=_model;
-@property(readonly) Class superclass;
 
 @end
 

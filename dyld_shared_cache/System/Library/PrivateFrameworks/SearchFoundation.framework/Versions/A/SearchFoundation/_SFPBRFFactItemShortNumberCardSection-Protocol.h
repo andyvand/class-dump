@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFFactItemShortNumberCardSection
-- (_SFPBRFTextProperty *)mStandardCardSection;
+- (void);
+- (void)_;
+- (_SFPBRFTextProperty *)2@?40;
+- (NSData *)ons;
+- (_SFPBRFTextProperty *)_SFPBRFFactItemStandardCardSection;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2s;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
-@property(retain, nonatomic) _SFPBRFTextProperty *unit;
 @end
 

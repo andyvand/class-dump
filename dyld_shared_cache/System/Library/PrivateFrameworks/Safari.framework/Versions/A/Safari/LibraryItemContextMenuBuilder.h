@@ -4,35 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface LibraryItemContextMenuBuilder
 {
     _Bool _hideTabOverview;
-    _Bool _hideTabsinSidebar;
-    _Bool _currentUserIsTabGroupOwner;
-    CDUnknownBlockType _renameHandler;
-    CDUnknownBlockType _deleteHandler;
-    CDUnknownBlockType _createTabGroupFromThisWindowHandler;
-    CDUnknownBlockType _tabOverviewHandler;
-    CDUnknownBlockType _copyLinksHandler;
-    CDUnknownBlockType _openTabGroupFavoriteHandler;
-    CDUnknownBlockType _showHideTabsHandler;
-    CDUnknownBlockType _duplicateTabHandler;
-    CDUnknownBlockType _closeTabHandler;
-    CDUnknownBlockType _moveToNewTabGroupHandler;
-    CDUnknownBlockType _closeOtherTabsHandler;
-    CDUnknownBlockType _closeTabsBelowHandler;
-    CDUnknownBlockType _moveTabToNewWindowHandler;
-    CDUnknownBlockType _copyLinkForTabHandler;
-    CDUnknownBlockType _sortByTitleHandler;
-    CDUnknownBlockType _sortByWebsiteHandler;
-    CDUnknownBlockType _moveToTabGroupHandler;
-    CDUnknownBlockType _goToTabHandler;
-    NSString *_titleForCreateTabGroupFromThisWindowItem;
-    CDUnknownBlockType _shareTabGroupHandler;
-    CDUnknownBlockType _moveToProfileHandler;
 }
 
 - (id);
@@ -51,6 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -60,8 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -76,8 +51,12 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -89,46 +68,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (id)@mAm";
+- (CDUnknownBlockType)ate;
 - (void)ÿÿ ;
 - (void)ÿ)JÆ?.;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType closeOtherTabsHandler; // @synthesize closeOtherTabsHandler=_closeOtherTabsHandler;
-@property(copy, nonatomic) CDUnknownBlockType closeTabHandler; // @synthesize closeTabHandler=_closeTabHandler;
-@property(copy, nonatomic) CDUnknownBlockType closeTabsBelowHandler; // @synthesize closeTabsBelowHandler=_closeTabsBelowHandler;
-@property(copy, nonatomic) CDUnknownBlockType copyLinkForTabHandler; // @synthesize copyLinkForTabHandler=_copyLinkForTabHandler;
-@property(copy, nonatomic) CDUnknownBlockType copyLinksHandler; // @synthesize copyLinksHandler=_copyLinksHandler;
-@property(copy, nonatomic) CDUnknownBlockType createTabGroupFromThisWindowHandler; // @synthesize createTabGroupFromThisWindowHandler=_createTabGroupFromThisWindowHandler;
-@property(nonatomic) _Bool currentUserIsTabGroupOwner; // @synthesize currentUserIsTabGroupOwner=_currentUserIsTabGroupOwner;
-@property(copy, nonatomic) CDUnknownBlockType deleteHandler; // @synthesize deleteHandler=_deleteHandler;
-@property(copy, nonatomic) CDUnknownBlockType duplicateTabHandler; // @synthesize duplicateTabHandler=_duplicateTabHandler;
-@property(copy, nonatomic) CDUnknownBlockType goToTabHandler; // @synthesize goToTabHandler=_goToTabHandler;
-@property(nonatomic) _Bool hideTabOverview; // @synthesize hideTabOverview=_hideTabOverview;
-@property(nonatomic) _Bool hideTabsinSidebar; // @synthesize hideTabsinSidebar=_hideTabsinSidebar;
-@property(copy, nonatomic) CDUnknownBlockType moveTabToNewWindowHandler; // @synthesize moveTabToNewWindowHandler=_moveTabToNewWindowHandler;
-@property(copy, nonatomic) CDUnknownBlockType moveToNewTabGroupHandler; // @synthesize moveToNewTabGroupHandler=_moveToNewTabGroupHandler;
-@property(copy, nonatomic) CDUnknownBlockType moveToProfileHandler; // @synthesize moveToProfileHandler=_moveToProfileHandler;
-@property(copy, nonatomic) CDUnknownBlockType moveToTabGroupHandler; // @synthesize moveToTabGroupHandler=_moveToTabGroupHandler;
-@property(copy, nonatomic) CDUnknownBlockType openTabGroupFavoriteHandler; // @synthesize openTabGroupFavoriteHandler=_openTabGroupFavoriteHandler;
 @property(copy, nonatomic) CDUnknownBlockType renameHandler; // @synthesize renameHandler=_renameHandler;
-@property(copy, nonatomic) CDUnknownBlockType shareTabGroupHandler; // @synthesize shareTabGroupHandler=_shareTabGroupHandler;
-@property(copy, nonatomic) CDUnknownBlockType showHideTabsHandler; // @synthesize showHideTabsHandler=_showHideTabsHandler;
-@property(copy, nonatomic) CDUnknownBlockType sortByTitleHandler; // @synthesize sortByTitleHandler=_sortByTitleHandler;
-@property(copy, nonatomic) CDUnknownBlockType sortByWebsiteHandler; // @synthesize sortByWebsiteHandler=_sortByWebsiteHandler;
-@property(copy, nonatomic) CDUnknownBlockType tabOverviewHandler; // @synthesize tabOverviewHandler=_tabOverviewHandler;
-@property(copy, nonatomic) NSString *titleForCreateTabGroupFromThisWindowItem; // @synthesize titleForCreateTabGroupFromThisWindowItem=_titleForCreateTabGroupFromThisWindowItem;
 
 @end
 

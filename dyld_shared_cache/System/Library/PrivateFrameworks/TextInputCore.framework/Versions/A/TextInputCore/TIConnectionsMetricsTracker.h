@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)v40@0:(_Bool)arg1 8@"WKWebView"16@"NSURLAuthenticationChallenge"24@?<v@?B>32;
 - (void);
 
 // Remaining properties

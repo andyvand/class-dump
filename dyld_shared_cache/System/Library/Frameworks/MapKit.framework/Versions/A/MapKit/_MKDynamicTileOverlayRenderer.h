@@ -11,28 +11,25 @@
 @interface _MKDynamicTileOverlayRenderer : MKOverlayRenderer
 {
     VKCustomTileOverlayProviderData *_customDataProvider;
-    _Bool _usesTileScale;
-    _Bool _useNativeDisplayRate;
-    _Bool _forceContinuousLayout;
-    unsigned long long _desiredDisplayRate;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)fallbackDefaultBatteryEnergyCapacity;
+- (void)_powerlevel2Duration;
+- (void)_numberOfBytesDownloadedWiFi;
+- (void)g duration = %f;
+- (void)l) 	 Set Timer at %@
+;
+- (_Bool)stered.%d.%@.start;
+- (void)PermissionDenied;
+- (unsigned long long)ryForClientID:(id)arg1 withKey:(id)arg2 withPayload:] /* Error: Ran out of types for this method. */;
+- (void)PLXPCBatchedMessage;
+- (void)lastEventDate;
+- (void):(id)arg1 completion:(const CDStruct_7523a67d *)arg2 ]_block_invoke;
+- (void)tLogger permissionForClientID:(id)arg1 withKey:(const CDStruct_7523a67d *)arg2 withType:(_Bool)arg3 completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)PLXPCConnectionReturnDict;
+- (void)XPCMetrics:(const CDStruct_cbb88d5e *)arg1:(unsigned long long)arg2 OngoingRestore;
 - (_Bool);
 - (id);
 - (id);
@@ -46,24 +43,18 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (unsigned char);
-- (_Bool);
+- (_Bool)?;
 - (void);
-- (_Bool);
+- (_Bool)f;
 - (CDStruct_cbb88d5e);
 - (void);
 - (unsigned char);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)setExpectedArrivalDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char anisotropy;
-@property(nonatomic) unsigned long long desiredDisplayRate; // @synthesize desiredDisplayRate=_desiredDisplayRate;
 @property(readonly, nonatomic, getter=isFallbackEnabled) _Bool fallbackEnabled;
-@property(nonatomic) _Bool forceContinuousLayout; // @synthesize forceContinuousLayout=_forceContinuousLayout;
-@property(readonly, nonatomic) _Bool useMetalTexture;
-@property(nonatomic) _Bool useNativeDisplayRate; // @synthesize useNativeDisplayRate=_useNativeDisplayRate;
-@property(nonatomic) _Bool usesTileScale; // @synthesize usesTileScale=_usesTileScale;
 
 @end
 

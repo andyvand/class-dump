@@ -7,21 +7,17 @@
 @interface AXProfileTransaction
 {
     long long _attribute;
-    struct __AXUIElement *_element;
-    double _start;
 }
 
-- (double);
+- (double);
 - (void);
-- (struct __AXUIElement *);
+- (struct __AXUIElement *)_;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long attribute; // @synthesize attribute=_attribute;
-@property(nonatomic) struct __AXUIElement *element; // @synthesize element=_element;
-@property(nonatomic) double start; // @synthesize start=_start;
 
 @end
 

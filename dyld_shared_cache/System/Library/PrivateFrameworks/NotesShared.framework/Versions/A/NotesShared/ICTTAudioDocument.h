@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString;
-
 @interface ICTTAudioDocument
 {
     id document;
@@ -14,9 +12,9 @@
 + (id);
 + (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)e kerberos ticket for principal %s;
+- (id)principal %s;
+- (id)set the password in the kerberos credential context for principal %s;
 - (void);
 - (void);
 - (void);
@@ -24,16 +22,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)PrivateFrameworks/CommonAuth.framework/Versions/A/CommonAuth;
+- (id)removeValue:(id)arg1 fromAttribute:(id)arg2 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)q;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)notificationIdentifier;
 - (void);
 - (unsigned long long);
 - (id);
@@ -43,20 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) NSDate *callRecordingStartTime;
-@property(nonatomic) unsigned long long callType;
-@property(nonatomic, retain) id document; // @synthesize document;
-@property(nonatomic, retain) NSString *externalModelAttributionProviderName;
-@property(nonatomic, retain) NSString *externalModelAttributionSymbolName;
 @property(nonatomic, readonly) _Bool hasToplineSummary;
-@property(nonatomic) _Bool isCallRecording;
-@property(nonatomic, retain) NSString *localSpeakerHandle;
-@property(nonatomic, readonly) NSArray *orderedFragmentUUIDs;
-@property(nonatomic, readonly) NSString *recordingSummaryAsPlainText;
-@property(nonatomic, retain) NSString *remoteSpeakerHandle;
-@property(nonatomic, readonly) NSString *topLineSummaryAsPlainText;
-@property(nonatomic, readonly) NSString *transcriptAsPlainText;
-@property(nonatomic, readonly) NSNumber *transcriptVersion;
 
 @end
 

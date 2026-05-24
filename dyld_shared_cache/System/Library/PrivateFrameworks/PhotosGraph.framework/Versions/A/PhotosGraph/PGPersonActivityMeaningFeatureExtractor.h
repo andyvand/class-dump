@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)suppressionButtonVisible;
+- (id)";
 - (id);
 
 @end

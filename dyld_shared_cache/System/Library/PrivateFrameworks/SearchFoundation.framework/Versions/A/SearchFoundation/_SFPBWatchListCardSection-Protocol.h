@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBWatchListItem;
+@class NSArray, NSData;
 
 @protocol _SFPBWatchListCardSection
-- (int)tedEntityType;
+- (_Bool);
+- (void);
+- (_Bool)setShouldPlaybackRequireOnlineKeys: /* Error: Ran out of types for this method. */;
+- (_Bool)setReactionString: /* Error: Ran out of types for this method. */;
+- (void)eteWithError:(int)arg1 task finished with error:%{public}@ dataTask=%{public}@ /* Error: Ran out of types for this method. */;
+- (void)xtension context, terminating... ;
+- (NSData *)OriginalFilename,S_setShouldUseAutomaticallyGeneratedOriginalFilename: /* Error: Ran out of types for this method. */;
+- (int)_requestedEntityType;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) _SFPBWatchListItem *watchListItem;
 @end
 

@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMUserActionPredictionDuetPredictionValue
 {
     double _legacyScore;
-    double _score;
-    NSString *_homeIdentifier;
-    int _predictionType;
-    NSString *_reason;
-    NSString *_targetAccessoryServiceIdentifier;
-    NSString *_targetIdentifier;
-    _Bool _mapIsValid;
-    _Bool _modelHasSignificantData;
-    struct {
-        unsigned int legacyScore:1;
-        unsigned int score:1;
-        unsigned int predictionType:1;
-        unsigned int mapIsValid:1;
-        unsigned int modelHasSignificantData:1;
-    } _has;
 }
 
 - (id);
@@ -37,7 +20,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)H;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -48,48 +31,31 @@
 - (_Bool);
 - (void);
 - (int);
-- (int);
+- (int)ard collection activity ('%@')...;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)`;
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)refreshed;
 - (void);
-- (void);
+- (void)remoteObjectProxy;
 - (void);
 - (id);
 - (id);
 - (double);
 - (void);
-- (void)CloudShareManager;
+- (void)HMUserCloudShareManager;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHomeIdentifier;
-@property(nonatomic) _Bool hasLegacyScore;
-@property(nonatomic) _Bool hasMapIsValid;
-@property(nonatomic) _Bool hasModelHasSignificantData;
-@property(nonatomic) _Bool hasPredictionType;
-@property(readonly, nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) _Bool hasTargetAccessoryServiceIdentifier;
-@property(readonly, nonatomic) _Bool hasTargetIdentifier;
-@property(retain, nonatomic) NSString *homeIdentifier; // @synthesize homeIdentifier=_homeIdentifier;
-@property(nonatomic) double legacyScore; // @synthesize legacyScore=_legacyScore;
-@property(nonatomic) _Bool mapIsValid; // @synthesize mapIsValid=_mapIsValid;
-@property(nonatomic) _Bool modelHasSignificantData; // @synthesize modelHasSignificantData=_modelHasSignificantData;
-@property(nonatomic) int predictionType; // @synthesize predictionType=_predictionType;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) NSString *targetAccessoryServiceIdentifier; // @synthesize targetAccessoryServiceIdentifier=_targetAccessoryServiceIdentifier;
-@property(retain, nonatomic) NSString *targetIdentifier; // @synthesize targetIdentifier=_targetIdentifier;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface CKKSCurrentItemQuery
 {
     NSString *_identifier;
-    NSString *_accessGroup;
-    NSString *_zoneID;
 }
 
 + (_Bool);
@@ -23,13 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)¨è´P;
 
 // Remaining properties
-@property(retain) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

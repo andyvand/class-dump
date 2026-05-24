@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _DPPrivacyBudget;
+@class _DPPrivacyBudget;
 
 @interface _DPNamespaceParameters
 {
     _DPPrivacyBudget *_budget;
-    NSArray *_allowedDataTypes;
 }
 
 + (id);
@@ -22,10 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)beginSheet:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allowedDataTypes; // @synthesize allowedDataTypes=_allowedDataTypes;
 @property(readonly, nonatomic) _DPPrivacyBudget *budget; // @synthesize budget=_budget;
 
 @end

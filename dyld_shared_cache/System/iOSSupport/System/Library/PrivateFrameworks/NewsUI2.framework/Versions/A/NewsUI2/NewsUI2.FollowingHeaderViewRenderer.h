@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingHeaderViewRenderer
 {
     id styler;
-    id titleViewRenderer;
 }
 
 @end

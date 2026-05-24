@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTDisambiguationEnded, STSchemaSTDisambiguationFailed, STSchemaSTDisambiguationStarted;
+@class STSchemaSTDisambiguationStarted;
 
 @interface STSchemaSTDisambiguationContext : SISchemaInstrumentationMessage
 {
     STSchemaSTDisambiguationStarted *_startedOrChanged;
-    STSchemaSTDisambiguationEnded *_ended;
-    STSchemaSTDisambiguationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -34,28 +28,21 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)PEM_X509_INFO_read_bio;
+- (unsigned long long)setIAdAttribution: /* Error: Ran out of types for this method. */;
+- (_Bool)ABActionIgnoreSuggestedValue;
+- (_Bool)omname_index.;
 - (id);
 - (id);
-- (id)iterated;
-- (id)ggesterQueried;
-- (void)DISAMBIGUATE;
+- (id)deleteIsTransliterated;
+- (id)_hasPlusSuggesterQueried;
+- (void)RESPONSECATEGORY_DISAMBIGUATE;
 
 // Remaining properties
-@property(retain, nonatomic) STSchemaSTDisambiguationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) STSchemaSTDisambiguationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) STSchemaSTDisambiguationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

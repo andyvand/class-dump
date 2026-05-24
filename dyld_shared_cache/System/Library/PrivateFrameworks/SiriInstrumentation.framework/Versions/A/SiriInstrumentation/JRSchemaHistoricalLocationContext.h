@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface JRSchemaHistoricalLocationContext : SISchemaInstrumentationMessage
 {
     float _logOfTimeElapsedInSeconds;
-    SISchemaUUID *_anonymizedLocationNameId;
-    SISchemaUUID *_anonymizedLocationTypeId;
-    int _bucketedDistance;
-    struct {
-        unsigned int logOfTimeElapsedInSeconds:1;
-        unsigned int bucketedDistance:1;
-    } _has;
-    _Bool _hasAnonymizedLocationNameId;
-    _Bool _hasAnonymizedLocationTypeId;
 }
 
 - (void);
@@ -36,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)I;
 - (id);
 - (id);
 - (void);
@@ -50,19 +39,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)NamePhoneticScore;
-- (id)lResolveContext;
+- (id)hasContactLastNamePhoneticScore;
+- (id)RRSchemaRREntityPoolResolveContext;
 - (void)o.";
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *anonymizedLocationNameId; // @synthesize anonymizedLocationNameId=_anonymizedLocationNameId;
-@property(retain, nonatomic) SISchemaUUID *anonymizedLocationTypeId; // @synthesize anonymizedLocationTypeId=_anonymizedLocationTypeId;
-@property(nonatomic) int bucketedDistance; // @synthesize bucketedDistance=_bucketedDistance;
-@property(nonatomic) _Bool hasAnonymizedLocationNameId; // @synthesize hasAnonymizedLocationNameId=_hasAnonymizedLocationNameId;
-@property(nonatomic) _Bool hasAnonymizedLocationTypeId; // @synthesize hasAnonymizedLocationTypeId=_hasAnonymizedLocationTypeId;
-@property(nonatomic) _Bool hasBucketedDistance;
-@property(nonatomic) _Bool hasLogOfTimeElapsedInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float logOfTimeElapsedInSeconds; // @synthesize logOfTimeElapsedInSeconds=_logOfTimeElapsedInSeconds;
 
 @end

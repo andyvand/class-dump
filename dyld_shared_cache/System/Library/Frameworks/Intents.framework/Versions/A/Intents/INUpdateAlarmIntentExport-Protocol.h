@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAlarm, INAlarmSearch, INDateComponentsRange, INSpeakableString;
+@class INAlarmSearch;
 
 @protocol INUpdateAlarmIntentExport
-- (long long)ctionForCreateNote:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)provideContentOptionsCollectionForCreateNote:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)OD;
 
 // Remaining properties
-@property(copy) INAlarm *alarm;
 @property(copy) INAlarmSearch *alarmSearch;
-@property long long operation;
-@property(copy) INSpeakableString *proposedLabel;
-@property(copy) INDateComponentsRange *proposedTime;
 @end
 

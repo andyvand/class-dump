@@ -4,6 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol CKDetailsControllerDelegate
+- (void)removeObjectsInRange:(_Bool)arg1;
+- (_Bool)_mathNotesNotesInSource;
+- (void);
+
+@optional
+- (UIViewController *)modifierFlags;
+- (void)lockedAttachmentViewLayout;
+- (void)ic_systemFieldsValueTransformer;
+- (void)@"ICSearchResultRegexMatchFinder",&,N,V_highlightPatternRegexFinder;
+- (void),V_encryptionStateChecker;
+- (void)noteContext;
+- (void)atePicker;
+- (void),N,R;
+- (void);
+- (void)ngAndDelay;
+- (void)",&,N,V_pieLayer;
 @end
 

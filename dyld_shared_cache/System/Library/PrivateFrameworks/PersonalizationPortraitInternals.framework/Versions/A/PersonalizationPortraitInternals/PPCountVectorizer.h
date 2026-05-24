@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface PPCountVectorizer
 {
     NSString *_inputName;
-    NSString *_outputName;
-    NSMutableDictionary *_vocabulary;
 }
 
 - (id);
 - (id);
-- (void)WithClient:timeoutInSeconds:block: /* Error: Ran out of types for this method. */;
+- (void)writeTransactionWithClient:timeoutInSeconds:block: /* Error: Ran out of types for this method. */;
 
 @end
 

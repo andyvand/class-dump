@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (LSInstallProgressAdditions)
 + (id);
 + (id);
@@ -13,19 +11,16 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)9q`;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long installPhase;
-@property(readonly, nonatomic) NSString *installPhaseString;
 @property(nonatomic) unsigned long long installState;
-@property(nonatomic, setter=ls_setExpectedFinalInstallPhase:) unsigned long long ls_expectedFinalInstallPhase;
 @end
 

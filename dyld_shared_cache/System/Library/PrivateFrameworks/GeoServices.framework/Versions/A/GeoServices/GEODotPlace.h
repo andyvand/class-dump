@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapItemIdentifier, GEOStyleAttributes, NSString;
+@class GEOMapItemIdentifier;
 
 @interface GEODotPlace
 {
     GEOMapItemIdentifier *_identifier;
-    GEOLatLng *_latLng;
-    GEOStyleAttributes *_styleAttributes;
-    NSString *_name;
 }
 
+- (id)successWithValue:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)imeout:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)èw;
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapItemIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) GEOLatLng *latLng; // @synthesize latLng=_latLng;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
 
 @end
 

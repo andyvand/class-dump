@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface SAConnectionPolicy : AceObject
 {
@@ -32,32 +32,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)N5boost10wrapexceptINS_2io13too_many_argsEEE;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSNumber *disableMPTCP;
-@property(copy, nonatomic) NSNumber *enableOptimisticDNS;
-@property(copy, nonatomic) NSNumber *enableTLS13;
-@property(copy, nonatomic) NSNumber *enableTLS13ZeroRTT;
-@property(copy, nonatomic) NSNumber *enableTcpFastOpen;
-@property(nonatomic) _Bool enabled;
-@property(copy, nonatomic) NSNumber *globalTimeout;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *mptcpFallbackPort;
-@property(copy, nonatomic) NSString *policyId;
-@property(copy, nonatomic) NSArray *routes;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *timeToLive;
 
 @end
 

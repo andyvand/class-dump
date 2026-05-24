@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IFImage;
+
 @protocol ISScalableCompositorResource
+- (IFImage *)	;
 
 // Remaining properties
 @property _Bool usesExternalCompositor;

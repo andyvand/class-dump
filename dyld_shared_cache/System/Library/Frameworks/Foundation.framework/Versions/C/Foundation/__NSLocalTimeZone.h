@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)e;
++ (_Bool)NSConstantValueClassName;
 - (id);
 - (id);
 - (Class);
-- (id);
+- (id)M;
 - (void);
 
 @end

@@ -6,28 +6,23 @@
 
 #import <QuartzComposer/GFTooltipView.h>
 
-@class NSString, NSTimer, NSView, QCPort;
+@class QCPort;
 
 @interface QCPortTooltipView : GFTooltipView
 {
     QCPort *_port;
-    unsigned long long _timestamp;
-    NSView *_extensionView;
-    NSTimer *_timer;
-    struct CGSize _baseSize;
-    NSString *_valueString;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)D,;
 
 @end

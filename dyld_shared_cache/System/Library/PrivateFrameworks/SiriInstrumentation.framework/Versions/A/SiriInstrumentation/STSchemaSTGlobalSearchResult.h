@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface STSchemaSTGlobalSearchResult : SISchemaInstrumentationMessage
 {
     int _STGlobalSearchResultId;
-    int _requestType;
-    NSString *_pegasusDomain;
-    struct {
-        unsigned int STGlobalSearchResultId:1;
-        unsigned int requestType:1;
-    } _has;
-    _Bool _hasPegasusDomain;
 }
 
 - (void);
@@ -33,27 +24,21 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setUsesNonWebKitBrowserEnginesAsSteward: /* Error: Ran out of types for this method. */;
+- (_Bool)nt;
+- (_Bool)N madrid_handle TEXT;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)ollmentSpeakerSimilarityScoreCounts;
-- (id)ntext;
+- (id)deleteLowEnrollmentSpeakerSimilarityScoreCounts;
+- (id)_hasRequestedVoiceContext;
 - (void)eiDictationToolTipDisplayContext;
-- (void)ID_COM_APPLE_INCALLSERVICE;
+- (void)ODDTASKAPPBUNDLEID_COM_APPLE_INCALLSERVICE;
 - (void)l.siri.flow.link.FLOWLINKClientEvent.FLOWLINKAppShortcutFirstRunConfirmationContext;
 - (int);
 
 // Remaining properties
 @property(nonatomic) int STGlobalSearchResultId; // @synthesize STGlobalSearchResultId=_STGlobalSearchResultId;
-@property(nonatomic) _Bool hasPegasusDomain; // @synthesize hasPegasusDomain=_hasPegasusDomain;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasSTGlobalSearchResultId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pegasusDomain; // @synthesize pegasusDomain=_pegasusDomain;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end
 

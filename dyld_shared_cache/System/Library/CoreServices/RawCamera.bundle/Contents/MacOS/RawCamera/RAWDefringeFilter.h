@@ -6,18 +6,15 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface RAWDefringeFilter : RAWFilter
 {
     CIImage *inputImage;
-    NSNumber *inputWidth;
-    NSNumber *inputAxialWidth;
-    id inputColorSpace;
 }
 
 - (id);
-- (void);
+- (void);
 
 @end
 

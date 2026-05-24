@@ -10,7 +10,7 @@
 }
 
 + (id);
-- (void);
+- (void)the config download reply for %{public}@, response:(id)arg1 %ld (%{public}@);
 - (id);
 - (void);
 - (void);
@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(=;
 - (_Bool);
 - (void);
 

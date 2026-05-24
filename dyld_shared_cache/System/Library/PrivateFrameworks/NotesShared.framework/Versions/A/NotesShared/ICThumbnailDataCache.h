@@ -11,13 +11,13 @@
     ICCache *_imageCache;
 }
 
+- (void)t for principal %s;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)warm MMCS connection;
 - (void)¸Ùæÿÿÿÿÿp;
 
 // Remaining properties

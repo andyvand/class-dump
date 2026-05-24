@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaPickerController, MPMusicMediaPickerRemoteViewController, NSString, UIViewController, _UIResilientRemoteViewContainerViewController;
+@class MPMediaPickerController, _UIResilientRemoteViewContainerViewController;
 
 __attribute__((visibility("hidden")))
 @interface MPMediaPickerController_Appex
 {
     _UIResilientRemoteViewContainerViewController *_remoteViewContainerViewController;
-    MPMusicMediaPickerRemoteViewController *_musicRemoteViewController;
-    MPMediaPickerController *_mediaPickerController;
 }
 
 - (void);
@@ -24,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)nCategory;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak MPMediaPickerController *mediaPickerController; // @synthesize mediaPickerController=_mediaPickerController;
-@property(readonly, nonatomic) UIViewController *remoteViewController;
-@property(readonly) Class superclass;
 
 @end
 

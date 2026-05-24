@@ -11,11 +11,13 @@
 
 @optional
 - (void);
+- (_Bool);
+- (void);
 - (NSCollectionViewTransitionLayout *)0@ù
 × ;
 - (void)! Eù1£°1Â0@ù
 × ;
-- (id <NSPasteboardWriting>)xtView;
+- (id <NSPasteboardWriting>)descriptionTextView;
 - (void)Tlh Ø¡\¥0¦©;
 - (_Bool)r;
 @end

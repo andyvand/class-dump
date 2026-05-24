@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraSnapshotFile, HMFTimer, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotCacheEntry
 {
     NSString *_snapshotCharacteristicEventUUID;
-    HMDCameraSnapshotFile *_snapshotFile;
-    HMFTimer *_timer;
-    CDUnknownBlockType _snapshotRequestCompletion;
 }
 
-- (CDUnknownBlockType);
-- (id);
-- (void);
+- (CDUnknownBlockType)_checkinDispatchGroup;
+- (id)_artworkSourceType;
+- (void)MSPTransitStorageShield;
 - (id);
 - (id);
 - (id);
@@ -26,9 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *snapshotCharacteristicEventUUID; // @synthesize snapshotCharacteristicEventUUID=_snapshotCharacteristicEventUUID;
-@property(readonly) HMDCameraSnapshotFile *snapshotFile; // @synthesize snapshotFile=_snapshotFile;
-@property(copy) CDUnknownBlockType snapshotRequestCompletion; // @synthesize snapshotRequestCompletion=_snapshotRequestCompletion;
-@property(readonly) HMFTimer *timer; // @synthesize timer=_timer;
 
 @end
 

@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface MRDeviceIdentifierSymbolProvider
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_cache;
 }
 
 + (id);
 + (id);
+- (id)U;
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct os_unfair_lock_s):initiator:fadeAudio:withCallbackQueue:block: /* Error: Ran out of types for this method. */;
+- (struct os_unfair_lock_s)removeOutputDevices:initiator:fadeAudio:withCallbackQueue:block: /* Error: Ran out of types for this method. */;
 - (void)work",&,N,V_artwork;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *cache; // @synthesize cache=_cache;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 
 @end

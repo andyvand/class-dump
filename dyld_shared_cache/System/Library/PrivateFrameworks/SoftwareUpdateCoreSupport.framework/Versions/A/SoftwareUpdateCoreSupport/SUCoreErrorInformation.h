@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUCoreErrorInformation
 {
     NSObject<OS_dispatch_queue> *_informationQueue;
-    NSMutableDictionary *_layerInformation;
-    NSMutableDictionary *_errorInformation;
-    NSArray *_safeUserInfoValues;
 }
 
 + (void);
-+ (long long);
++ (long long);
 + (id);
 + (void);
 + (void);
@@ -33,7 +30,7 @@
 + (id);
 + (id);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);
@@ -49,10 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *errorInformation; // @synthesize errorInformation=_errorInformation;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *informationQueue; // @synthesize informationQueue=_informationQueue;
-@property(readonly, nonatomic) NSMutableDictionary *layerInformation; // @synthesize layerInformation=_layerInformation;
-@property(readonly, nonatomic) NSArray *safeUserInfoValues; // @synthesize safeUserInfoValues=_safeUserInfoValues;
 
 @end
 

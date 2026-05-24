@@ -6,32 +6,31 @@
 
 #import <HomeKitDaemon/_MKFInvitation.h>
 
-@class CKDeviceToDeviceShareInvitationToken, MKFOutgoingInvitationDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFHome, MKFUser;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFOutgoingInvitation : _MKFInvitation
 {
 }
 
-+ (id);
++ (id)7;
 + (id);
 + (Class);
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_performBlockOnAllCachedStatus:(id)arg1;
+- (id)ndWaypoint,V_endWaypoint;
+- (id)Waypoint",&,N,V_startWaypoint;
+- (id)nit];
+- (id)%@, %lu inflight:(id)arg1 %@>;
+- (id)Maps.SharedTrip.CapabilityFetching.Queue.%@;
+- (id)droppedPinCoordinate;
+- (id)?;
 - (id);
 - (id);
 - (void);
@@ -40,41 +39,10 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessCode; // @dynamic accessCode;
-@property(readonly, retain, nonatomic) NSArray *allowedAccessories;
-@property(retain, nonatomic) NSSet *allowedAccessories_; // @dynamic allowedAccessories_;
-@property(copy, nonatomic) NSNumber *announceAccessLevel; // @dynamic announceAccessLevel;
-@property(copy, nonatomic) NSNumber *cameraAccessLevel; // @dynamic cameraAccessLevel;
-@property(readonly, copy, nonatomic) MKFOutgoingInvitationDatabaseID *databaseID;
-@property(copy, nonatomic) NSDate *dateSent; // @dynamic dateSent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *expiryDate;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(copy, nonatomic) NSUUID *idsIdentifier;
-@property(copy, nonatomic) NSNumber *invitationState;
-@property(copy, nonatomic) NSString *inviteeUserID; // @dynamic inviteeUserID;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(retain, nonatomic) id <MKFUser> pendingUser; // @dynamic pendingUser;
-@property(copy, nonatomic) NSNumber *privilege; // @dynamic privilege;
-@property(copy, nonatomic) NSNumber *remoteAccessAllowed; // @dynamic remoteAccessAllowed;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *shareToken; // @dynamic shareToken;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSArray *weekDayScheduleRules;
-@property(copy, nonatomic) NSDate *writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *yearDayScheduleRules;
 
 @end
 

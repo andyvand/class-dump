@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBFindMyLocationChangeEvent
 {
     double _latitude;
-    double _longitude;
-    int _activityState;
-    NSString *_idsHandle;
-    int _locationChangeType;
-    NSString *_name;
-    struct {
-        unsigned int latitude:1;
-        unsigned int longitude:1;
-        unsigned int activityState:1;
-        unsigned int locationChangeType:1;
-    } _has;
 }
 
 - (void);
@@ -36,42 +23,31 @@
 - (int);
 - (int);
 - (int);
-- (id);
+- (id)�&;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)totalVideoStallTimeAlt;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)imageSizeCache;
 - (id);
 - (void);
 - (id);
-- (void);
-- (double);
+- (void)iftCoreLocation.dylib;
+- (double));
 - (void)`;
-- (_Bool)ids;
-- (void)KEN__BACKWARD;
+- (_Bool)atDropOids;
+- (void)PG_QUERY__TOKEN__BACKWARD;
 - (void)íîïðñ÷óôõö÷øùúû;
 - (void)ÿÿÿÿÿÿ~ÿÿÿÿÈÿÿÿÿÿÿ»;
 - (double)t²;
 
 // Remaining properties
-@property(nonatomic) int activityState; // @synthesize activityState=_activityState;
-@property(nonatomic) _Bool hasActivityState;
 @property(readonly, nonatomic) _Bool hasIdsHandle;
-@property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLocationChangeType;
-@property(nonatomic) _Bool hasLongitude;
-@property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *idsHandle; // @synthesize idsHandle=_idsHandle;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) int locationChangeType; // @synthesize locationChangeType=_locationChangeType;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

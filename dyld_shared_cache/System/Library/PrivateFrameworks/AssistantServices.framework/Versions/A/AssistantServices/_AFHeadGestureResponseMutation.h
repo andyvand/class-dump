@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHeadGestureResponse, NSDate, NSString;
+@class AFHeadGestureResponse;
 
 @interface _AFHeadGestureResponseMutation
 {
     AFHeadGestureResponse *_base;
-    long long _userIntent;
-    long long _gestureType;
-    unsigned long long _activeContexts;
-    NSDate *_timestamp;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasUserIntent:1;
-        unsigned int hasGestureType:1;
-        unsigned int hasActiveContexts:1;
-        unsigned int hasTimestamp:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -30,18 +19,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id)ntext:(id)arg1;
-- (void)tId:cdaId: /* Error: Ran out of types for this method. */;
+- (id)K;
+- (id)startAdvertisingFromVoiceTriggerWithGoodnessScoreContext:(id)arg1 withContext: /* Error: Ran out of types for this method. */;
+- (void)_logRequestLinkMessageRequestId:cdaId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

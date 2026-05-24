@@ -10,14 +10,14 @@ __attribute__((visibility("hidden")))
     struct __CFDictionary *_registry;
 }
 
-+ (id)rticleAngularVelocity: /* Error: Ran out of types for this method. */;
++ (id)setParticleAngularVelocity: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 
 @end
 

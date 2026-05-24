@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _UIDebugReportComponents
 {
     NSString *_header;
-    NSString *_body;
-    NSString *_footer;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)R,N;
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)vironment:(id)arg1;
+- (void)_setCanBeParentTraitEnvironment:(id)arg1;
 - (void)zÜ4`;
-- (id)c;
+- (id)Ddc;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(copy, nonatomic) NSString *footer; // @synthesize footer=_footer;
 @property(copy, nonatomic) NSString *header; // @synthesize header=_header;
 
 @end

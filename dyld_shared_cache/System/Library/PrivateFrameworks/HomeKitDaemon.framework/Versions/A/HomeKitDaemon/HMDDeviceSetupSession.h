@@ -4,73 +4,244 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, HMDDeviceSetupSessionInternal, HMDHomeManager, HMFActivity, NSError, NSObject, NSString, NSUUID;
-@protocol HMDDeviceSetupSessionDelegate, OS_dispatch_queue;
+@class HMFActivity, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceSetupSession
 {
     HMFActivity *_activity;
-    struct os_unfair_lock_s _lock;
-    _Bool _open;
-    NSUUID *_accessoryUUID;
-    HMAccessoryCategory *_accessoryCategory;
-    NSString *_accessoryIDSIdentifier;
-    NSString *_setupClientBundleID;
-    unsigned long long _startTime;
-    NSError *_sessionError;
-    unsigned long long _endTime;
-    NSString *_category;
-    id <HMDDeviceSetupSessionDelegate> _delegate;
-    NSUUID *_identifier;
-    HMDHomeManager *_homeManager;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    HMDDeviceSetupSessionInternal *_internal;
-    CDUnknownBlockType _upSecondsFactory;
 }
 
 + (_Bool);
 + (id)úB;
 - (void);
 - (CDUnknownBlockType);
+- (id)removeObjectsForKeys: /* Error: Ran out of types for this method. */;
+- (id)refreshReceivedTripsWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)hasContentsTimestamp;
+- (void)ntIdentifier:(id)arg1;
+- (void);
 - (id);
+- (id))U;
 - (id);
 - (void);
+- (void)[;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)shouldAddQuestion:toAlreadyGeneratedQuestions: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)pix.rgb, vec3(.3333)),0.0,1.0); 
+ vec3 high = pow(pix.rgb, vec3(3.0 - 2.0*highAmt)); 
+ float pivot = 0.8; 
+ vec3 pix1 = (high - pivot)*(4.0 - 3.0*highAmt) + pivot; 
+ float h = highAmt*highAmt*highAmt*highAmt; 
+ float a = (4.0 - 3.0*h); 
+ vec3 pix2 = (lum-pivot)*a+pivot + high.rgb -lum; 
+ high = mix(pix2, pix1, sat); 
+ pix.rgb = mix(pix.rgb, high, lum*lum); 
+ pix.rgb = pix.rgb + neg + pos; 
+ return pix; 
+ };
+- (id)(0.0, 0.0));
+vec2 dy = samplerTransform(src, vec2(-2.0, 1.0)) - samplerTransform(src, vec2(0.0, 0.0));
+coord = samplerTransform(src, destCoord() + vec2(-1.0, -1.0));
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dy;
+pix3 = sample(src, coord);	coord = coord + dx;
+coord = coord + dx;
+pix5 = sample(src, coord);	coord = coord + dy;
+pix6 = sample(src, coord);	coord = coord + dx;
+pix7 = sample(src, coord);	coord = coord + dx;
+pix8 = sample(src, coord);
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights12.y);
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights12.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights12.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights12.x) + sum;
+sum =                                        center                            + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights12.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix6 - center)))) * (pix6 * weights12.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix7 - center)))) * (pix7 * weights12.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix8 - center)))) * (pix8 * weights12.y) + sum;
+return vec4(sum.rgb / sum.a, 1.0);
+}
+kernel vec4 bilateralLoop5(sampler src, float slope, vec4 weights1245)
+{
+vec2  coord;
+vec4  center = sample(src, samplerCoord(src));
+vec4  sum;
+vec4  pix0, pix1, pix2, pix3, pix4;
+vec2 dx = samplerTransform(src, vec2( 1.0, 0.0)) - samplerTransform(src, vec2(0.0, 0.0));
+vec2 dy = samplerTransform(src, vec2(-4.0, 1.0)) - samplerTransform(src, vec2(0.0, 0.0));
+coord = samplerTransform(src, destCoord() + vec2(-1.0, -2.0));
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx + dy;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.w);
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.w) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.w) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights1245.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.x) + sum;
+sum =                                        center                              + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.z) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dx + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.w) + sum;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.w) + sum;
+return vec4(sum.rgb / sum.a, 1.0);
+}
+kernel vec4 bilateralLoop11(sampler src, float slope, vec4 weights1245, vec4 weights89AD)
+{
+vec2  coord;
+vec4  center = sample(src, samplerCoord(src));
+vec4  sum;
+vec4  pix0, pix1, pix2, pix3, pix4, pix5, pix6;
+vec2 dx = samplerTransform(src, vec2( 1.0, 0.0)) - samplerTransform(src, vec2(0.0, 0.0));
+vec2 dy = samplerTransform(src, vec2(-6.0, 1.0)) - samplerTransform(src, vec2(0.0, 0.0));
+coord = samplerTransform(src, destCoord() + vec2(-2.0, -3.0));
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dx;
+pix5 = sample(src, coord);	coord = coord + dx + dy;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights89AD.w);
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights89AD.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights89AD.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights89AD.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights89AD.w) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dx;
+pix5 = sample(src, coord);	coord = coord + dx;
+pix6 = sample(src, coord);	coord = coord + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights89AD.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights89AD.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights89AD.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix6 - center)))) * (pix6 * weights89AD.w) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dx;
+pix5 = sample(src, coord);	coord = coord + dx;
+pix6 = sample(src, coord);	coord = coord + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights89AD.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix6 - center)))) * (pix6 * weights89AD.z) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx + dx;
+pix4 = sample(src, coord);	coord = coord + dx;
+pix5 = sample(src, coord);	coord = coord + dx;
+pix6 = sample(src, coord);	coord = coord + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights89AD.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.x) + sum;
+sum =                                        center                              + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights1245.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix6 - center)))) * (pix6 * weights89AD.y) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dx;
+pix5 = sample(src, coord);	coord = coord + dx;
+pix6 = sample(src, coord);	coord = coord + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights89AD.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix6 - center)))) * (pix6 * weights89AD.z) + sum;
+pix0 = sample(src, coord);	coord = coord + dx;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dx;
+pix5 = sample(src, coord);	coord = coord + dx;
+pix6 = sample(src, coord);	coord = coord + dx + dy;
+sum = (1.0 - min(1.0, (slope * length(pix0 - center)))) * (pix0 * weights89AD.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights89AD.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights1245.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights1245.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights89AD.x) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix6 - center)))) * (pix6 * weights89AD.w) + sum;
+pix1 = sample(src, coord);	coord = coord + dx;
+pix2 = sample(src, coord);	coord = coord + dx;
+pix3 = sample(src, coord);	coord = coord + dx;
+pix4 = sample(src, coord);	coord = coord + dx;
+pix5 = sample(src, coord);
+sum = (1.0 - min(1.0, (slope * length(pix1 - center)))) * (pix1 * weights89AD.w) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix2 - center)))) * (pix2 * weights89AD.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix3 - center)))) * (pix3 * weights89AD.y) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix4 - center)))) * (pix4 * weights89AD.z) + sum;
+sum = (1.0 - min(1.0, (slope * length(pix5 - center)))) * (pix5 * weights89AD.w) + sum;
+return vec4(sum.rgb / sum.a, 1.0);
+}
+
+;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void)@�i;
 - (_Bool);
 - (id)±°1Â0@ù
 × ;
 - (id);
-- (unsigned long long)readCapabilities;
+- (unsigned long long)threadCapabilities;
 - (id)h_Ð_$`k¨lÜq,r;
 - (void)public}@Did not find any settings model for user;
 - (id)ntifier %@ is %@;
 - (id)ublic}@Using firewall configuration %@ for accessory %@;
 - (id)[%@] Accessory connectivity wait timer has fired;
 - (long long)è×;
-- (void)til;
+- (void)tvsetuputil;
 - (void)StatusChannelAnalyzer;
 - (id)þ;
 - (id)¤f@;
@@ -80,34 +251,7 @@ __attribute__((visibility("hidden")))
 - (void)d°;
 
 // Remaining properties
-@property(copy) HMAccessoryCategory *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(copy) NSString *accessoryIDSIdentifier; // @synthesize accessoryIDSIdentifier=_accessoryIDSIdentifier;
-@property(copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(copy) NSString *category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDDeviceSetupSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property unsigned long long endTime; // @synthesize endTime=_endTime;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) HMDDeviceSetupSessionInternal *internal; // @synthesize internal=_internal;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(nonatomic, getter=isOpen) _Bool open; // @synthesize open=_open;
-@property(readonly) long long role;
-@property(copy) NSError *sessionError; // @synthesize sessionError=_sessionError;
-@property(copy) NSString *setupClientBundleID; // @synthesize setupClientBundleID=_setupClientBundleID;
-@property unsigned long long startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(readonly) CDUnknownBlockType upSecondsFactory; // @synthesize upSecondsFactory=_upSecondsFactory;
 
 @end
 

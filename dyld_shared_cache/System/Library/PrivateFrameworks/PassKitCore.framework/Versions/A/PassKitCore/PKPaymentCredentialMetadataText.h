@@ -10,7 +10,7 @@
 {
 }
 
-- (id)nStateDirty:(id)arg1;
+- (id)setApplicationStateDirty:(id)arg1;
 
 @end
 

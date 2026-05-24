@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface CTDataConnectionAgentData
 {
     int _registrationStatus;
-    int _dataPlanTier;
-    NSNumber *_inHomeCountry;
 }
 
 + (_Bool);
@@ -18,22 +14,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)?נ;
 - (id);
 - (int);
-- (id);
+- (id)h;
 - (id);
 - (int);
 - (void);
-- (void);
+- (void)volumeUuid:(id)arg1 %{public}@ on %{public}@ cid:%u returned %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)ȗ;
 - (void)±ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) int dataPlanTier; // @synthesize dataPlanTier=_dataPlanTier;
-@property(retain, nonatomic) NSNumber *inHomeCountry; // @synthesize inHomeCountry=_inHomeCountry;
 @property(nonatomic) int registrationStatus; // @synthesize registrationStatus=_registrationStatus;
 
 @end

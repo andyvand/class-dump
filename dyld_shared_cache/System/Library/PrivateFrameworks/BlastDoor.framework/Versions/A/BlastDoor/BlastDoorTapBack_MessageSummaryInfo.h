@@ -20,11 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long contentType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *pluginBundleID;
-@property(nonatomic, readonly) NSString *pluginDisplayName;
-@property(nonatomic, readonly) NSString *summary;
 
 @end
 

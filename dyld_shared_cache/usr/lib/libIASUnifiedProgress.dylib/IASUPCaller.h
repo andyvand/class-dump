@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     id _caller;
 }
 
-- (void);
-- (id);
+- (void)UTOINCREMENT,     type TEXT NOT NULL,     specifier TEXT NOT NULL,     version TEXT NOT NULL,     reason TEXT NOT NULL );;
+- (id)kMDItemPhotosBusinessCategories_TermFrequencies_Min_Prefix;
 
 // Remaining properties
 @property id caller; // @synthesize caller=_caller;

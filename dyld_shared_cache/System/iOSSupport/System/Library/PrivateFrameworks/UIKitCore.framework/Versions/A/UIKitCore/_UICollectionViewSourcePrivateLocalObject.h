@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     UICollectionView *_collectionView;
 }
 
-- (id);
+- (id)_constructMessageRecordIDUsingTombStoneDictionary:(id)arg1;
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)wAnimator;
+- (void)keyViewAnimator;
 - (void)@;
 - (void)Èÿ' Ü°];
 

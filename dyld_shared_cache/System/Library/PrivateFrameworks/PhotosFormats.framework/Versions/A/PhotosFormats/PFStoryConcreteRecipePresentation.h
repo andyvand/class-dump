@@ -9,23 +9,19 @@
 @interface PFStoryConcreteRecipePresentation
 {
     NSString *_identifier;
-    NSArray *_clips;
 }
 
 - (_Bool);
-- (id);
+- (id)_TtCO10Accelerate4BNNS12PaddingLayer;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)constraintEqualToConstant: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long clipCount;
 @property(readonly, copy, nonatomic) NSArray *clips; // @synthesize clips=_clips;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

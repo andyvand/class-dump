@@ -8,5 +8,8 @@
 
 @protocol TSWPTextDelegate
 - (TSWPPadding *)rameRep updateCALayer:toRect:withRepLayer:maskLayer:viewScale:maskLayerTransform:] /* Error: Ran out of types for this method. */;
+
+@optional
+- (_Bool)SkippingTransitionState;
 @end
 

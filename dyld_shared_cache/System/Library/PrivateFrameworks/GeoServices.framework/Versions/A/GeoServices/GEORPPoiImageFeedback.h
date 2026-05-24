@@ -4,58 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPPoiImageFeedbackContext, GEORPPoiImageFeedbackCorrections, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPoiImageFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPPoiImageFeedbackContext *_poiImageContext;
-    GEORPPoiImageFeedbackCorrections *_poiImageCorrections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_poiImageContext:1;
-        unsigned int read_poiImageCorrections:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etLengthScaleFactor:(id)arg1;
++ (_Bool)setLengthScaleFactor:(id)arg1;
 - (void);
 - (void);
-- (id);
+- (id)_cn_tail;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)@"NSString"24;
+- (void)feedRemoteVAD:(id)arg1 startSampleCount: /* Error: Ran out of types for this method. */;
+- (id)C;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)1"read_transitLineField"b1"read_uintField"b1"read_ulongField"b1"read_ulongListField"b1"wrote_anyField"b1};
 - (id)clearSignDetails;
 - (id)Å;
-- (id)upCategoryCommunity;
+- (id)GEOSpatialEventLookupCategoryCommunity;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPoiImageContext;
-@property(readonly, nonatomic) _Bool hasPoiImageCorrections;
-@property(retain, nonatomic) GEORPPoiImageFeedbackContext *poiImageContext;
-@property(retain, nonatomic) GEORPPoiImageFeedbackCorrections *poiImageCorrections;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

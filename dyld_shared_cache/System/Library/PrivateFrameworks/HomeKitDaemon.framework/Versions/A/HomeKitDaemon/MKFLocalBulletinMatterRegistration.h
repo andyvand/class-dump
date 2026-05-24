@@ -15,13 +15,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
++ (id)E;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *attributeID; // @dynamic attributeID;
-@property(copy, nonatomic) NSNumber *clusterID; // @dynamic clusterID;
-@property(copy, nonatomic) NSNumber *endpointID; // @dynamic endpointID;
-@property(copy, nonatomic) NSNumber *eventID; // @dynamic eventID;
 
 @end
 

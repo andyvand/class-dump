@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol PGAssetCollectionFeature
+- (NSString *)idx on ;
 - (unsigned long long)q24@?0@"NSArray"8@"NSArray"16;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *featureIdentifier;
 @property(readonly, nonatomic) unsigned long long featureType;
 @end
 

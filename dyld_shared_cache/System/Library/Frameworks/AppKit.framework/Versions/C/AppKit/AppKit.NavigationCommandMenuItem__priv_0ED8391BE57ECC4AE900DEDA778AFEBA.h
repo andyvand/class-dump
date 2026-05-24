@@ -11,7 +11,7 @@
     id command;
 }
 
-- (id);
+- (id)c;
 - (id);
 - (void);
 - (_Bool)@Ã¤J;

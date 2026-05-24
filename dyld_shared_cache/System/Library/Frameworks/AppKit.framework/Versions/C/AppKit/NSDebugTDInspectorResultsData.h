@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDebugTDViewHierarchyItem, NSIndexSet, NSMutableArray, NSMutableIndexSet;
+@class NSDebugTDViewHierarchyItem, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDInspectorResultsData
 {
     NSMutableArray *_resultLinesArray;
-    NSMutableIndexSet *_indicesToUpdateOnTextChange;
-    NSMutableIndexSet *_indicesToUpdateOnSelectionChange;
-    NSMutableIndexSet *_indicesToUpdateOnBoundsChange;
-    NSDebugTDViewHierarchyItem *_item;
 }
 
 - (void);
@@ -21,21 +17,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)_newerThanCreationDate;
+- (id)_netServiceBrowser;
+- (id)_negotiatedTLSProtocolVersion;
+- (void);
 - (id);
 - (void);
 - (id);
 - (void)øÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexSet *indicesToUpdateOnBoundsChange; // @synthesize indicesToUpdateOnBoundsChange=_indicesToUpdateOnBoundsChange;
-@property(retain, nonatomic) NSIndexSet *indicesToUpdateOnSelectionChange; // @synthesize indicesToUpdateOnSelectionChange=_indicesToUpdateOnSelectionChange;
-@property(retain, nonatomic) NSIndexSet *indicesToUpdateOnTextChange; // @synthesize indicesToUpdateOnTextChange=_indicesToUpdateOnTextChange;
 @property(nonatomic) __weak NSDebugTDViewHierarchyItem *item; // @synthesize item=_item;
-@property(retain, nonatomic) NSArray *resultLinesArray; // @synthesize resultLinesArray=_resultLinesArray;
 
 @end
 

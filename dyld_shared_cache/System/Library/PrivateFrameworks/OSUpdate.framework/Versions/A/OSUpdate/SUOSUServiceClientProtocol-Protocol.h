@@ -5,5 +5,9 @@
 //
 
 @protocol SUOSUServiceClientProtocol
+- (void)C;
+
+@optional
+- (void)A;
 @end
 

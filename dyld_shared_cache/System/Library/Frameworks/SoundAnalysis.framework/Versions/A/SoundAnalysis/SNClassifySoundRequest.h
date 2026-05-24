@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SNTimeDurationConstraint, _SNClassifySoundRequest;
+@class _SNClassifySoundRequest;
 
 @interface SNClassifySoundRequest
 {
     _SNClassifySoundRequest *_impl;
 }
 
-+ (id);
++ (id)G;
 + (id);
 + (_Bool);
 - (id);
@@ -33,17 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *knownClassifications; // @dynamic knownClassifications;
 @property double overlapFactor; // @dynamic overlapFactor;
-@property(readonly) Class superclass;
-@property CDStruct_198678f7 windowDuration; // @dynamic windowDuration;
-@property(readonly) SNTimeDurationConstraint *windowDurationConstraint; // @dynamic windowDurationConstraint;
 
 @end
 

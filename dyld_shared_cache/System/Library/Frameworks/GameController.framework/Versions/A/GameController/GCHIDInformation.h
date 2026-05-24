@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, _GCControllerManagerAppClient;
-@protocol NSObject><NSCopying><NSSecureCoding;
+@class NSNumber, _GCControllerManagerAppClient;
 
 @interface GCHIDInformation
 {
     _GCControllerManagerAppClient *_manager;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    NSNumber *_registryID;
 }
 
 - (id);
@@ -23,15 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy) NSNumber *registryID; // @synthesize registryID=_registryID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKProtobufCustomPrecisionAmount, PKProtobufNSDecimalNumber;
+@class PKProtobufCustomPrecisionAmount;
 
 @interface PKProtobufAutomaticReloadPaymentSummaryItem
 {
     PKProtobufCustomPrecisionAmount *_thresholdAmount;
-    PKProtobufNSDecimalNumber *_thresholdDecimalAmount;
 }
 
 - (id);
@@ -17,23 +16,20 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ount"b1"txPathMuteCount"b1"txPriorityCount"b1"txaONCount"b1"txaPORCount"b1"txaTimeoutCount"b1};
+- (void);
 - (id);
-- (id);
-- (void)TITLE;
+- (id)p;
+- (void)PROVISIONING_RED_FLOW_TITLE;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasThresholdAmount;
-@property(readonly, nonatomic) _Bool hasThresholdDecimalAmount;
-@property(retain, nonatomic) PKProtobufCustomPrecisionAmount *thresholdAmount; // @synthesize thresholdAmount=_thresholdAmount;
-@property(retain, nonatomic) PKProtobufNSDecimalNumber *thresholdDecimalAmount; // @synthesize thresholdDecimalAmount=_thresholdDecimalAmount;
 
 @end
 

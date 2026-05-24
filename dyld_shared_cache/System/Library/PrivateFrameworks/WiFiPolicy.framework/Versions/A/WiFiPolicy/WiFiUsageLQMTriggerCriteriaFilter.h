@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSPredicate;
+@class NSPredicate;
 
 @interface WiFiUsageLQMTriggerCriteriaFilter
 {
     NSPredicate *_filterSamplesPredicate;
-    NSMutableArray *_criterias;
-    NSMutableSet *_features;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)lderProtocol_common_OffsetDateP;
 - (id);
 - (void);
 - (void);
@@ -25,8 +23,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *criterias; // @synthesize criterias=_criterias;
-@property(retain, nonatomic) NSMutableSet *features; // @synthesize features=_features;
 @property(retain, nonatomic) NSPredicate *filterSamplesPredicate; // @synthesize filterSamplesPredicate=_filterSamplesPredicate;
 
 @end

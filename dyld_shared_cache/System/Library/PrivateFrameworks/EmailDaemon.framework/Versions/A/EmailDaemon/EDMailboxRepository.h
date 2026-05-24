@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMailboxPersistence, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class EDMailboxPersistence;
 
 @interface EDMailboxRepository
 {
     EDMailboxPersistence *_mailboxPersistence;
-    NSObject<OS_dispatch_queue> *_serializationQueue;
 }
 
 + (id)³ð1Â0@ù
@@ -21,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -37,15 +35,7 @@
 - (void)sformer) ed_transformSearchableIndexPredicateWithSuggestion:searchableIndexManager:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) EDMailboxPersistence *mailboxPersistence; // @synthesize mailboxPersistence=_mailboxPersistence;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serializationQueue; // @synthesize serializationQueue=_serializationQueue;
-@property(readonly) Class superclass;
 
 @end
 

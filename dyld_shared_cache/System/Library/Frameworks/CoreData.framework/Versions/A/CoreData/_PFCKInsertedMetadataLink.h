@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCKRecordMetadata, NSManagedObject;
+@class NSCKRecordMetadata;
 
 __attribute__((visibility("hidden")))
 @interface _PFCKInsertedMetadataLink
 {
     NSCKRecordMetadata *_recordMetadata;
-    NSManagedObject *_insertedObject;
 }
 
-- (void);
+- (void)e;
 - (id);
 
 @end

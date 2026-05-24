@@ -7,17 +7,6 @@
 @interface IMCore.ImportExport.MessageAttachmentDownloadProgress
 {
     id totalMessageCount;
-    id totalAttachmentCount;
-    id totalAttachmentSizeOnDisk;
-    id messageCount;
-    id attachmentCount;
-    id attachmentSizeOnDisk;
-    id timer;
-    id conversationCount;
-    id participantCount;
-    id totalConversationCount;
-    id totalParticipantCount;
-    id moreProgressValues;
 }
 
 @end

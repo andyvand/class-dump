@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIKBRTTouchHistoryInfo
 {
     _Bool _isLeftHand;
-    _Bool _isActive;
-    _Bool _ignoreForDrift;
-    _Bool _ignoreTouch;
-    id _touchIdentifier;
-    double _touchTime;
-    struct CGPoint _actualLocation;
-    struct CGPoint _errorVector;
 }
 
 - (double);
@@ -22,31 +15,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)setIsFromMe: /* Error: Ran out of types for this method. */;
+- (_Bool)loadUnreadChatsWithLastMessageOlderThan:predicate:limit:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (struct CGPoint);
-- (void);
-- (void);
+- (struct CGPoint)generateAndPersistSpamDetectionPreviewImage:senderContext:maxPxWidth:scale:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)__im_localizedStringForKey: /* Error: Ran out of types for this method. */;
+- (void)ceValue %@ enabledValue %@ nameForked %@ imageForked %@;
+- (void)"IMNickname"8@"NSError"16;
 - (id);
 - (id);
 - (_Bool)¡Ð!`GùñaÐ1Â0@ù
 × ;
 - (void)0:(id)arg1 8q16@?24;
-- (id);
+- (id)defaultExpansionFactor;
 - (void)u43Ï;
 - (void)ö;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint actualLocation; // @synthesize actualLocation=_actualLocation;
-@property(nonatomic) struct CGPoint errorVector; // @synthesize errorVector=_errorVector;
-@property(nonatomic) _Bool ignoreForDrift; // @synthesize ignoreForDrift=_ignoreForDrift;
-@property(nonatomic) _Bool ignoreTouch; // @synthesize ignoreTouch=_ignoreTouch;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) _Bool isLeftHand; // @synthesize isLeftHand=_isLeftHand;
 @property(retain, nonatomic) id touchIdentifier; // @synthesize touchIdentifier=_touchIdentifier;
-@property(nonatomic) double touchTime; // @synthesize touchTime=_touchTime;
 
 @end
 

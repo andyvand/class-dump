@@ -6,27 +6,25 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKApplyWebServiceApplicationDeleteRequest : PKApplyWebServiceRequest
 {
     NSString *_applicationIdentifier;
-    NSURL *_baseURL;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)lRewardsAmount;
-- (void)assbookBulletinPassUniqueIdentifierKey;
+- (void)#;
+- (id)_totalRewardsAmount;
+- (void)PKPassbookBulletinPassUniqueIdentifierKey;
 - (void);
 - (id)à;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

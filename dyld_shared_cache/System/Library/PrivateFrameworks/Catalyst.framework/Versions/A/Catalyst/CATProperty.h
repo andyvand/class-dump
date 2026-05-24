@@ -9,15 +9,6 @@
 @interface CATProperty
 {
     _Bool _readOnly;
-    _Bool _nonAtomic;
-    _Bool _weakReference;
-    NSString *_name;
-    NSString *_instanceVariableName;
-    long long _type;
-    Class _objectClass;
-    long long _association;
-    SEL _customGetterSelector;
-    SEL _customSetterSelector;
 }
 
 + (id);
@@ -38,16 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long association; // @synthesize association=_association;
-@property(readonly, nonatomic) SEL customGetterSelector; // @synthesize customGetterSelector=_customGetterSelector;
-@property(readonly, nonatomic) SEL customSetterSelector; // @synthesize customSetterSelector=_customSetterSelector;
-@property(readonly, copy, nonatomic) NSString *instanceVariableName; // @synthesize instanceVariableName=_instanceVariableName;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isNonAtomic) _Bool nonAtomic; // @synthesize nonAtomic=_nonAtomic;
-@property(readonly, nonatomic) Class objectClass; // @synthesize objectClass=_objectClass;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic, getter=isWeakReference) _Bool weakReference; // @synthesize weakReference=_weakReference;
 
 @end
 

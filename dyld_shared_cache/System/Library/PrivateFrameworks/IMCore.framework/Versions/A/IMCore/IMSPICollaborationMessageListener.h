@@ -9,17 +9,15 @@
 @interface IMSPICollaborationMessageListener
 {
     void delegate;
-    id listenerID;
-    id connection;
 }
 
-- (id);
+- (id)setupNetworkQualityDegradedMessage message is nil;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)nts;
+- (void)keyPathsForValuesAffectingPropertyUpdateQueue;
+- (void)_parsePartsFromDictionaryRepresentation: /* Error: Ran out of types for this method. */;
+- (void)participants;
 - (void)Ã;;
 
 // Remaining properties

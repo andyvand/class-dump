@@ -9,15 +9,14 @@
 @interface PISegmentationGatingRanges
 {
     NSDictionary *_ranges;
-    NSArray *_scoreKeys;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)Value: /* Error: Ran out of types for this method. */;
+- (id).;
+- (void)stringSettingForKey:defaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *scoreKeys; // @synthesize scoreKeys=_scoreKeys;

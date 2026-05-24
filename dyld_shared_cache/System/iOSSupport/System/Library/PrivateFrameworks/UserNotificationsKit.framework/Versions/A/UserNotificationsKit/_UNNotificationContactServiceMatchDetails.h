@@ -10,22 +10,20 @@
 {
     _Bool _isSuggestedMatch;
     NSString *_cnContactIdentifier;
-    NSString *_cnContactFullname;
 }
 
+- (void)omain trust;
+- (_Bool))_block_invoke;
+- (id)cutionOutgoingAlertSession sendToDestinations:(id)arg1 options:(id)arg2 ];
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cnContactFullname; // @synthesize cnContactFullname=_cnContactFullname;
 @property(copy, nonatomic) NSString *cnContactIdentifier; // @synthesize cnContactIdentifier=_cnContactIdentifier;
-@property(nonatomic) _Bool isSuggestedMatch; // @synthesize isSuggestedMatch=_isSuggestedMatch;
 
 @end
 

@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRSendCommandMessageProtobuf;
+@class _MRSendCommandMessageProtobuf;
 
 @interface _MRSendCommandResultHandlerDialogActionProtobuf
 {
     _MRSendCommandMessageProtobuf *_event;
-    NSString *_title;
-    int _type;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
+- (int)ld;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)CDATRUMPREASON_UNKNOWN;
+- (id)vtSatScore;
 - (int);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (int);
-- (id);
-- (id);
-- (void)Key:toEventID: /* Error: Ran out of types for this method. */;
+- (void)addEventOutput:withKey:toEventID: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _MRSendCommandMessageProtobuf *event; // @synthesize event=_event;
-@property(readonly, nonatomic) _Bool hasEvent;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

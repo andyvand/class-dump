@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification, NSWindow;
+
 @protocol NSPopoverDelegate
+
+@optional
+- (_Bool);
+- (_Bool);
+- (NSWindow *)appViewController;
+- (void)removeObject:(NSNotification *)arg1;
 @end
 

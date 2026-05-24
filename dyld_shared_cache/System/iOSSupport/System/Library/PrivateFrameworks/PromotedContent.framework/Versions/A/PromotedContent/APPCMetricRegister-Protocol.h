@@ -5,5 +5,6 @@
 //
 
 @protocol APPCMetricRegister
+- (void);
 @end
 

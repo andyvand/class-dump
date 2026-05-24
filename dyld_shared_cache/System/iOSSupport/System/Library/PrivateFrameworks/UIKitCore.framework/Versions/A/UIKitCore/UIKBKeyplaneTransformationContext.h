@@ -4,49 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKBScreenTraits, UIKBTree;
-@protocol UIKBKeyplaneTransformationContextKeyboardLoader;
+@class UIKBTree;
 
 __attribute__((visibility("hidden")))
 @interface UIKBKeyplaneTransformationContext
 {
     _Bool _usesScriptSwitch;
-    UIKBTree *_activeKeyboard;
-    UIKBTree *_activeKeyplane;
-    NSString *_currentKeyplaneName;
-    UIKBScreenTraits *_screenTraits;
-    double _resizingOffset;
-    id <UIKBKeyplaneTransformationContextKeyboardLoader> _additionalKeyboardLoader;
-    struct CGSize _keyboardSize;
 }
 
 - (_Bool);
 - (void);
+- (void)ished sync with name:(struct CGSize)arg1 %@, identifier:%@, and error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (void)default paired device to allowed list;
+- (void)SRelay:(id)arg1 newAllowedDeviceUUIDs count:%d allowedDeviceUUIDs count:%d /* Error: Ran out of types for this method. */;
+- (void)ce for relay. Relaying current SMS Filtering settings.;
+- (struct CGSize)ice session, message guid:%@ /* Error: Ran out of types for this method. */;
+- (id)MatchStringPosition;
 - (id);
 - (id);
 - (id);
 - (void)writingStrokePointFIFO";
-- (id);
+- (id)UseNewPopoverAnimations;
 - (void)èþIÿ;
 - (double)Üf;
 - (void)g;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBTree *activeKeyboard; // @synthesize activeKeyboard=_activeKeyboard;
-@property(retain, nonatomic) UIKBTree *activeKeyplane; // @synthesize activeKeyplane=_activeKeyplane;
-@property(nonatomic) id <UIKBKeyplaneTransformationContextKeyboardLoader> additionalKeyboardLoader; // @synthesize additionalKeyboardLoader=_additionalKeyboardLoader;
-@property(retain, nonatomic) NSString *currentKeyplaneName; // @synthesize currentKeyplaneName=_currentKeyplaneName;
-@property(nonatomic) struct CGSize keyboardSize; // @synthesize keyboardSize=_keyboardSize;
-@property(nonatomic) double resizingOffset; // @synthesize resizingOffset=_resizingOffset;
-@property(retain, nonatomic) UIKBScreenTraits *screenTraits; // @synthesize screenTraits=_screenTraits;
-@property(nonatomic) _Bool usesScriptSwitch; // @synthesize usesScriptSwitch=_usesScriptSwitch;
 
 @end
 

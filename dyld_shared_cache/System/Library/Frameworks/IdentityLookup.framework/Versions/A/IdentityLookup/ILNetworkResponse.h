@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSHTTPURLResponse;
+@class NSHTTPURLResponse;
 
 @interface ILNetworkResponse
 {
     NSHTTPURLResponse *_urlResponse;
-    NSData *_data;
 }
 
-+ (_Bool);
++ (_Bool)iewController",&,N,V_secondScreenViewController;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)Galileo Conversion to UTC not available,SV,%s;
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(copy, nonatomic) NSHTTPURLResponse *urlResponse; // @synthesize urlResponse=_urlResponse;
 
 @end

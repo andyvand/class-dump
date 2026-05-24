@@ -11,7 +11,7 @@
     double leadOutOpacity;
 }
 
-+ (id);
++ (id);
 + (void)pressedWithDeepmap2(vImage_Buffer, vImageDeepmap2PixelFormat, vImageDeepmap2CompressionOptions);
 - (double);
 - (double);

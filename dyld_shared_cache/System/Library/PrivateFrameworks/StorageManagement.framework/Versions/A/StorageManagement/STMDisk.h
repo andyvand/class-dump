@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface STMDisk
 {
     _Bool _isInternal;
-    NSString *_name;
-    NSArray *_volumes;
 }
 
 + (_Bool);
@@ -25,9 +23,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool isInternal; // @synthesize isInternal=_isInternal;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSArray *volumes; // @synthesize volumes=_volumes;
 
 @end
 

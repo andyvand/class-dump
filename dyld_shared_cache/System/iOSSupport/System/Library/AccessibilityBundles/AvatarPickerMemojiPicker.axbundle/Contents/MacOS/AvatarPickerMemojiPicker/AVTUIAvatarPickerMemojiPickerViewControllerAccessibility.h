@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)}}8@?0;
 - (void);
 - (id);
 - (void);

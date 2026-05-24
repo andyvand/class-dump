@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _ICLLParticipant
 {
     long long _participantId;
-    NSString *_externalId;
-    NSString *_participantUUID;
-    int _storefront;
-    int _unreliablePlaybackSyncStatus;
-    struct {
-        unsigned int participantId:1;
-        unsigned int storefront:1;
-        unsigned int unreliablePlaybackSyncStatus:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`r;
 - (_Bool);
 - (_Bool);
 - (id);

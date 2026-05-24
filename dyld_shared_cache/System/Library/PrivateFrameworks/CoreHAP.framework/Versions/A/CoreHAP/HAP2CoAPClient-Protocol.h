@@ -10,9 +10,6 @@
 - (_Bool)};
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool connected;
 @property(nonatomic) __weak id <HAP2CoAPClientDelegate> delegate;
-@property(readonly, nonatomic) double initialACKTimeout;
-@property(readonly, nonatomic) unsigned long long maxTransmitAttempts;
 @end
 

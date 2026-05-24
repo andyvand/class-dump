@@ -4,44 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAEligibilityRequirements, FAFamilyCloudKitProperties, FAFamilyMember, NSArray, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class FAFamilyMember;
 
 @interface FAFamilyCircle
 {
     _Bool _sharedPayementEnabled;
-    _Bool _shouldBadgeOrganizer;
-    _Bool _shouldBadgeInvitee;
-    _Bool _shouldShowInvites;
-    _Bool _canAddMembers;
-    _Bool _showAddMemberButton;
-    _Bool _showLocationSplashScreen;
-    _Bool _showRUIPages;
-    int _ageCategoryEnum;
-    NSArray *_members;
-    NSString *_childCutOffAge;
-    NSArray *_allowedSubscriptions;
-    NSArray *_pendingMembers;
-    NSArray *_pendingMembersWithAllStatues;
-    NSArray *_invites;
-    FAFamilyMember *_me;
-    NSString *_familyID;
-    long long _ageCategory;
-    NSString *_checklistRankingBucketType;
-    NSString *_checklistRankingVersion;
-    NSArray *_childBotAllowlistedParents;
-    NSArray *_parentAllowlistedChildBots;
-    FAEligibilityRequirements *_eligibilityRequirements;
-    FAFamilyCloudKitProperties *_cloudKitProperties;
-    FAFamilyMember *_remoteGuardianPerson;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    NSDictionary *__serverResponse;
-    NSString *_addMemberButtonLabel;
-    NSString *_familyMembersFooterLabel;
 }
 
 + (_Bool);
-- (id);
+- (id)selectMediaPresentationSetting:(id)arg1 forMediaSelectionGroup: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -50,11 +21,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)isEqualToCTLazuliOperationStatus: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ing invite failure statusCode ;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -62,66 +33,34 @@
 - (int);
 - (id);
 - (_Bool);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)ra9	;
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)setAuthenticationIcloudEnvironment: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
+- (id)_queryDescriptor;
 - (id);
 - (id);
-- (id);
+- (_Bool)MapSchemeForDisk:error:] /* Error: Ran out of types for this method. */;
+- (id)R;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)@3;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (long long)FAFamilyCircleC;
+- (id)_responseType;
+- (long long)So14FAFamilyCircleC;
 
 // Remaining properties
-@property(readonly) NSDictionary *_serverResponse; // @synthesize _serverResponse=__serverResponse;
-@property(readonly, copy, nonatomic) NSString *addMemberButtonLabel; // @synthesize addMemberButtonLabel=_addMemberButtonLabel;
-@property(readonly, nonatomic) long long ageCategory; // @synthesize ageCategory=_ageCategory;
-@property(readonly, nonatomic) int ageCategoryEnum; // @synthesize ageCategoryEnum=_ageCategoryEnum;
-@property(readonly, nonatomic) NSArray *allowedSubscriptions; // @synthesize allowedSubscriptions=_allowedSubscriptions;
-@property(readonly, nonatomic) _Bool canAddMembers; // @synthesize canAddMembers=_canAddMembers;
-@property(readonly, copy, nonatomic) NSString *checklistRankingBucketType; // @synthesize checklistRankingBucketType=_checklistRankingBucketType;
-@property(readonly, copy, nonatomic) NSString *checklistRankingVersion; // @synthesize checklistRankingVersion=_checklistRankingVersion;
-@property(readonly, nonatomic) NSArray *childBotAllowlistedParents; // @synthesize childBotAllowlistedParents=_childBotAllowlistedParents;
-@property(readonly, nonatomic) NSString *childCutOffAge; // @synthesize childCutOffAge=_childCutOffAge;
-@property(readonly) FAFamilyCloudKitProperties *cloudKitProperties; // @synthesize cloudKitProperties=_cloudKitProperties;
-@property(readonly) _Bool currentUserIsU13;
-@property(readonly) FAEligibilityRequirements *eligibilityRequirements; // @synthesize eligibilityRequirements=_eligibilityRequirements;
-@property(readonly) _Bool familyHasU13Member;
-@property(readonly, copy, nonatomic) NSString *familyID; // @synthesize familyID=_familyID;
-@property(readonly, copy, nonatomic) NSString *familyMembersFooterLabel; // @synthesize familyMembersFooterLabel=_familyMembersFooterLabel;
-@property(readonly, copy, nonatomic) NSArray *firstNames;
-@property(readonly, copy, nonatomic) NSArray *invites; // @synthesize invites=_invites;
-@property(readonly, nonatomic) FAFamilyMember *me; // @synthesize me=_me;
-@property(readonly) NSArray *members; // @synthesize members=_members;
-@property(readonly, nonatomic) NSArray *parentAllowlistedChildBots; // @synthesize parentAllowlistedChildBots=_parentAllowlistedChildBots;
-@property(readonly, copy, nonatomic) NSArray *pendingMembers; // @synthesize pendingMembers=_pendingMembers;
-@property(readonly, copy, nonatomic) NSArray *pendingMembersWithAllStatues; // @synthesize pendingMembersWithAllStatues=_pendingMembersWithAllStatues;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(readonly) FAFamilyMember *remoteGuardian;
 @property(retain) FAFamilyMember *remoteGuardianPerson; // @synthesize remoteGuardianPerson=_remoteGuardianPerson;
-@property(readonly, nonatomic) _Bool sharedPaymentEnabled; // @synthesize sharedPaymentEnabled=_sharedPayementEnabled;
-@property(readonly, nonatomic) _Bool shouldBadgeInvitee; // @synthesize shouldBadgeInvitee=_shouldBadgeInvitee;
-@property(readonly, nonatomic) _Bool shouldBadgeOrganizer; // @synthesize shouldBadgeOrganizer=_shouldBadgeOrganizer;
-@property(readonly, nonatomic) _Bool shouldShowInvites; // @synthesize shouldShowInvites=_shouldShowInvites;
-@property(readonly, nonatomic) _Bool showAddMemberButton; // @synthesize showAddMemberButton=_showAddMemberButton;
-@property(readonly, nonatomic) _Bool showLocationSplashScreen; // @synthesize showLocationSplashScreen=_showLocationSplashScreen;
-@property(readonly, nonatomic) _Bool showRUIPages; // @synthesize showRUIPages=_showRUIPages;
 
 @end
 

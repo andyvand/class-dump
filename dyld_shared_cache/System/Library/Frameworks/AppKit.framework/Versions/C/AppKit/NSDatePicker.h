@@ -6,56 +6,52 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSCalendar, NSColor, NSDate, NSLocale, NSTimeZone, _NSDatePickerCalendarOverlay;
-@protocol NSDatePickerCellDelegate;
+@class _NSDatePickerCalendarOverlay;
 
 @interface NSDatePicker : NSControl
 {
     _Bool _isShowingCalendarOverlay;
-    _Bool _isInOverlay;
-    _Bool _presentsCalendarOverlay;
-    _NSDatePickerCalendarOverlay *_calendarOverlay;
 }
 
-+ (id);
++ (id)connect to background transfer daemon;
 + (void)H;
 - (_Bool);
+- (void)read-metadata;
+- (void)le.networkextension.tracker-info;
+- (void)ess;
 - (void);
 - (void);
+- (void)Ta;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)IMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)g_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)q}}88;
+- (_Bool)nextDateAfterDate:matchingUnit:value:options: /* Error: Ran out of types for this method. */;
+- (_Bool)nextDateAfterDate:matchingUnit:value:options: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
+- (id)4;
 - (id);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_NSURLErrorNWResolutionReportKey;
+- (_Bool)taskKind;
+- (_Bool)16^{__CFError=}24;
+- (void)e shared CFHTTPCookieStorage after it has already been faulted in!;
+- (void)allowsExpensiveNetworkAccess;
+- (void)he certificate for this server has expired. You might be connecting to a server that is pretending to be "%@" which could put your confidential information at risk.;
+- (void)AVAssetDownloadTaskClientIsCatalyst;
+- (void)Store;
+- (void)dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (void)8MVY75cgOXU89QjVkA4cJVp7wmWVPiJRYDos2NhHvdfza2PM5uAi3wxpj3u4SUvWdrnl3T6mGIvzP+rle+osabo+votkD6bewAYPgzIHmZ8EdbzjADBsziSQGZu7zVU6nxm/6dfsRkX368s/jnIhAjZjLp34o5uTqA4LfSzuUf4zC5hE1q/PSD8DNTK/LH4pMApZqCN03hbugMsf2Ya1irOY/7/uHsfA0Vv/GbsQmbXxDfdao3H5iiAolGCJZqEyxafxOqywa0BoVO0J/6CjX0BqQh3jed8yax1Jz71vxPMoMGweNpCNI1ulpb4kMsImqVk0LJjNxxE46KwfK/zsmXvuc6yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
 - (void);
 - (void);
 - (_Bool);
@@ -73,8 +69,8 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)3;
+- (id)boringssl_metrics_log_metric_block_invoke;
 - (void);
 - (void);
 - (_Bool);
@@ -83,22 +79,22 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (CDStruct_507282ca);
+- (CDStruct_c3b9c2ee);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A/CoreUI;
 - (void)ë/!ÔEùQà3ð1Â0@ù
 × ;
 - (void)
 × ;
-- (id)a;
-- (id)BatchForIndexes: /* Error: Ran out of types for this method. */;
+- (id)collectionViewData;
+- (id)_fetchBatchForIndexes: /* Error: Ran out of types for this method. */;
 - (id)Àðÿ¼ÿ ;
-- (id)PTypeCornerInsets;
+- (id)cons_NSDP_NSDPTypeCornerInsets;
 - (void)tem at (%ld,%ld);
 - (void)Size='%@'>;
-- (void)howMovePanel;
+- (void)DidShowMovePanel;
 - (_Bool);
 - (_Bool)@;
 - (double)";
@@ -112,25 +108,6 @@
 
 // Remaining properties
 @property(retain) _NSDatePickerCalendarOverlay *_calendarOverlay; // @synthesize _calendarOverlay;
-@property _Bool _isInOverlay; // @synthesize _isInOverlay;
-@property _Bool _isShowingCalendarOverlay; // @synthesize _isShowingCalendarOverlay;
-@property(copy) NSColor *backgroundColor;
-@property(getter=isBezeled) _Bool bezeled;
-@property(getter=isBordered) _Bool bordered;
-@property(copy) NSCalendar *calendar;
-@property unsigned long long datePickerElements;
-@property unsigned long long datePickerMode;
-@property unsigned long long datePickerStyle;
-@property(copy) NSDate *dateValue;
-@property __weak id <NSDatePickerCellDelegate> delegate;
-@property _Bool drawsBackground;
-@property(copy) NSLocale *locale;
-@property(copy) NSDate *maxDate;
-@property(copy) NSDate *minDate;
-@property _Bool presentsCalendarOverlay; // @synthesize presentsCalendarOverlay=_presentsCalendarOverlay;
-@property(copy) NSColor *textColor;
-@property double timeInterval;
-@property(copy) NSTimeZone *timeZone;
 
 @end
 

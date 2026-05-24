@@ -7,6 +7,7 @@
 @class NSString, NSURL;
 
 @protocol QLPreviewItem
+- (NSURL *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *previewItemTitle;

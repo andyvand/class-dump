@@ -5,5 +5,6 @@
 //
 
 @protocol NEVPNPluginDriver
+- (void)RB;
 @end
 

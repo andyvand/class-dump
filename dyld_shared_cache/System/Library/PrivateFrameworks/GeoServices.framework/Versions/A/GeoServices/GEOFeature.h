@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, GEOVectorTile;
+@class GEOVectorTile;
 
 @interface GEOFeature
 {
     GEOVectorTile *_containingTile;
-    void *_feature;
-    int _type;
-    GEOFeatureStyleAttributes *_cached_attributes;
-    struct once_flag _initAttributesFlag;
 }
 
 - (float);
 - (void);
 - (unsigned long long);
-- (const char *);
+- (const char *);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)first (in %lld/%lld out %lld/%lld) last (in %lld/%lld out %lld/%lld)]sending %u bytes to the next filter;
 - (unsigned long long);
 - (id);
-- (id);
-- (int);
+- (id)erDelegate>";
+- (int)displayString;
 - (id);
 - (id);
 - (unsigned long long);
@@ -37,20 +33,7 @@
 - (void *)<;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOFeatureStyleAttributes *attributes;
-@property(readonly, nonatomic) unsigned long long businessID;
 @property(readonly, nonatomic) GEOVectorTile *containingTile;
-@property(readonly, nonatomic) unsigned long long featureID;
-@property(readonly, nonatomic) unsigned long long flyoverAnimationID;
-@property(readonly, nonatomic) _Bool hasBusinessID;
-@property(readonly, nonatomic) unsigned long long labelCount;
-@property(readonly, nonatomic) unsigned long long labelOffset;
-@property(readonly, nonatomic) float minZoomRank;
-@property(readonly, nonatomic) const char *name;
-@property(readonly, nonatomic) unsigned long long shieldCount;
-@property(readonly, nonatomic) unsigned long long shieldOffset;
-@property(readonly, nonatomic) unsigned int styleID;
-@property(readonly, nonatomic) int type;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSView, SOAdjustableLayoutView, SOFlexibleScrollView, SOTokenField;
+@class NSLayoutConstraint, SOFlexibleScrollView;
 
 @interface SORecipientBarView
 {
     SOFlexibleScrollView *_recipientScrollView;
-    SOTokenField *_recipientTokenField;
-    SOAdjustableLayoutView *_recipientActionsView;
-    NSView *_displayedRecipientActionsView;
-    NSLayoutConstraint *_recipientActionsLeadingLock;
 }
 
 + (_Bool);
@@ -27,20 +23,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)\;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *displayedRecipientActionsView; // @synthesize displayedRecipientActionsView=_displayedRecipientActionsView;
 @property(retain) NSLayoutConstraint *recipientActionsLeadingLock; // @synthesize recipientActionsLeadingLock=_recipientActionsLeadingLock;
-@property(retain) SOAdjustableLayoutView *recipientActionsView; // @synthesize recipientActionsView=_recipientActionsView;
-@property(retain) SOFlexibleScrollView *recipientScrollView; // @synthesize recipientScrollView=_recipientScrollView;
-@property(retain) SOTokenField *recipientTokenField; // @synthesize recipientTokenField=_recipientTokenField;
 
 @end
 

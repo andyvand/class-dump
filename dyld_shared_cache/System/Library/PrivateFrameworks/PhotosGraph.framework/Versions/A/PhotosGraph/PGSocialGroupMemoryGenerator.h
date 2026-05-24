@@ -6,16 +6,11 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGGraphMeNodeCollection, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
+@class PGGraphMeNodeCollection;
 
 @interface PGSocialGroupMemoryGenerator : PGOverTimeMemoryGenerator
 {
     PGGraphMeNodeCollection *_meNodeAsCollection;
-    _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
 - (id);
@@ -31,12 +26,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)accessibilityRows;
+- (void)_predicate;
+- (unsigned long long)_descriptionForAttributedString:forContainingElement:type:singleCharCheck: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_descriptionForAttributedString:forContainingElement:type:singleCharCheck: /* Error: Ran out of types for this method. */;
+- (id){CGPoint=dd}{CGSize=dd}},N,V_editingLineFrame;
+- (id)s:(id)arg1 %s:called.
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)e != %d;
 

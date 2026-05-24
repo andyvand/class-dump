@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineFeedRoundRobinColorPicker
 {
     id colors;
-    id darkStyleColors;
-    id currentColorIndex;
 }
 
 @end

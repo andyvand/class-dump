@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface CPProfile
 {
     NSString *name;
-    NSString *organization;
-    NSString *configurationDescription;
-    NSString *profileIdentifier;
-    NSString *profileUUID;
-    unsigned long long profileVersion;
-    NSString *profileType;
-    _Bool removaldisallowed;
-    NSDate *installationDate;
-    NSString *assignedUserName;
-    NSString *assignedUserGUID;
-    NSMutableDictionary *internalData;
-    NSArray *configurationItems;
-    _Bool verificationStateCalculated;
-    int verificationState;
-    unsigned long long indexOfFailedVerificationSigner;
-    NSString *signerName;
-    struct AuthorizationOpaqueRef *authorizationRef;
 }
 
 + (id);
@@ -33,21 +16,21 @@
 + (int);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool)4K	>;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
+- (id)>;
 - (id);
 - (id);
-- (id);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -75,15 +58,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)R1;
 - (id);
 - (_Bool);
 - (id);
@@ -92,6 +67,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)J;
 - (id);
 - (id);
 - (_Bool);
@@ -108,49 +91,24 @@
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)uL;
 - (void);
-- (struct AuthorizationOpaqueRef *);
+- (struct AuthorizationOpaqueRef *)_drain_depth_count_at_charge_start_soc_curr_dynamic_bin_4;
 - (void);
-- (id);
+- (id)_validURLForConferenceURL:(id)arg1 previousURLs:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)@0;
+- (unsigned long long)+;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *assignedUserGUID; // @synthesize assignedUserGUID;
-@property(retain) NSString *assignedUserName; // @synthesize assignedUserName;
-@property(nonatomic) struct AuthorizationOpaqueRef *authorizationRef;
-@property(readonly, retain) NSString *configurationDescription; // @synthesize configurationDescription;
-@property(readonly, retain) NSArray *configurationItems; // @synthesize configurationItems;
-@property(readonly, retain) NSDictionary *consentText;
-@property(readonly) _Bool containsComputerItems;
-@property(readonly, nonatomic) NSDate *effectiveRemovalDate;
-@property(retain) NSDate *installationDate; // @synthesize installationDate;
-@property(retain) NSMutableDictionary *internalData;
 @property(readonly, retain) NSString *name; // @synthesize name;
-@property(readonly, retain) NSString *organization; // @synthesize organization;
-@property(readonly, nonatomic) NSDate *payloadExpirationDate;
-@property(readonly, nonatomic) _Bool payloadIsExpired;
-@property(readonly, retain) NSString *profileIdentifier; // @synthesize profileIdentifier;
-@property(readonly, retain) NSString *profileScope;
-@property(readonly, retain) NSString *profileType; // @synthesize profileType;
-@property(readonly, retain) NSString *profileUUID; // @synthesize profileUUID;
-@property(readonly) unsigned long long profileVersion; // @synthesize profileVersion;
-@property(readonly) _Bool removaldisallowed; // @synthesize removaldisallowed;
-@property(readonly) _Bool requiresAdministratorAuthorizationToInstall;
-@property(readonly, retain) NSString *signerName;
-@property(readonly) long long targetDeviceType;
-@property(readonly) int verificationState;
-@property(readonly) _Bool verificationStateCalculated; // @synthesize verificationStateCalculated;
-@property(readonly, nonatomic) _Bool wasEncrypted;
 
 @end
 

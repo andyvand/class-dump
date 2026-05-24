@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, NSCloudKitMirroringDelegateOptions;
+@class CKDatabase;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitExporterOptions
 {
     CKDatabase *_database;
-    NSCloudKitMirroringDelegateOptions *_mirroringDelegateOptions;
-    unsigned long long _perOperationBytesThreshold;
-    unsigned long long _perOperationObjectThreshold;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id)Data+CloudKit:%s(%d):%@ for store %@ observed '%@'. /* Error: Ran out of types for this method. */;
 

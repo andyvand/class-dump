@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarAssigneePickerViewController
 {
     id presenter;
-    id pickerView;
-    id suggestionMenuUtils;
 }
 
 - (id);

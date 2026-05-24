@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingEvalMetrics, AWDProactiveModelFittingMinibatchStats, AWDProactiveModelFittingModelInfo, NSMutableArray;
-
 @interface AWDProactiveModelFittingEvaluation
 {
     unsigned long long _timestamp;
-    AWDProactiveModelFittingEvalMetrics *_evaluationMetrics;
-    AWDProactiveModelFittingMinibatchStats *_minibatchStats;
-    AWDProactiveModelFittingModelInfo *_modelInfo;
-    NSMutableArray *_precisionAtKs;
-    struct {
-        unsigned int timestamp:1;
-    } _has;
 }
 
 + (Class);
@@ -27,7 +18,7 @@
 - (id);
 - (float);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -35,31 +26,23 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)signatureWithDomain:type:subType:detectedProcess:triggerThresholdValues: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)k;
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)20@0:8I16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) AWDProactiveModelFittingEvalMetrics *evaluationMetrics; // @synthesize evaluationMetrics=_evaluationMetrics;
-@property(readonly, nonatomic) _Bool hasEvaluationMetrics;
-@property(readonly, nonatomic) _Bool hasMinibatchStats;
-@property(readonly, nonatomic) _Bool hasModelInfo;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) AWDProactiveModelFittingMinibatchStats *minibatchStats; // @synthesize minibatchStats=_minibatchStats;
-@property(retain, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(retain, nonatomic) NSMutableArray *precisionAtKs; // @synthesize precisionAtKs=_precisionAtKs;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

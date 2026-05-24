@@ -4,23 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BKCatacomb
 {
     NSString *_catacombDir;
-    NSDictionary *_writeAttributes;
 }
 
 + (id);
 - (id);
 - (int);
 - (int);
-- (id);
-- (id);
-- (int);
+- (id)R(;
 - (id);
 - (int);
+- (id);
+- (int)protobuf.Option";
+Option
+name (	#
+value (2.google.protobuf.Any*.
+Syntax
+SYNTAX_PROTO2;
 - (int);
 - (int);
 - (int);

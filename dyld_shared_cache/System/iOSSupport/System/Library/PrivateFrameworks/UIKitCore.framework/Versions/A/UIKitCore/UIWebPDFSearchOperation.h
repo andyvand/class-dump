@@ -4,62 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, UIPDFDocument;
+@class NSMutableArray, NSObject;
 @protocol UIWebPDFSearchOperationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIWebPDFSearchOperation
 {
     NSMutableArray *_results;
-    unsigned long long _pageIndex;
-    unsigned long long _numberOfResultsToSkip;
-    unsigned long long _totalResultsCount;
-    unsigned long long _currentPageResultCount;
-    _Bool _complete;
-    unsigned long long startingPageIndex;
-    UIPDFDocument *documentToSearch;
-    NSObject<UIWebPDFSearchOperationDelegate> *searchDelegate;
-    double documentScale;
-    NSString *searchString;
-    unsigned long long resultLimit;
 }
 
+- (unsigned long long)sendReadReceiptForMessageGUID:timeRead: /* Error: Ran out of types for this method. */;
+- (void)items;
+- (void)initWithMemberStatus:(id)arg1 forHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (void)fileTransfer:(unsigned long long)arg1 createdWithProperties: /* Error: Ran out of types for this method. */;
+- (void)callHistoryManager;
+- (void)calculateServiceForSendingToChat:(double)arg1 accounts:forceServerRefresh:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)_newestGroupChatMatchingParticipants:displayName:strictDisplayNameMatching:serviceName:toIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_kickOffWriteIfNeededForSyncType:(id)arg1 activity:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)S_dispatch_queue>",&,N,V_internalQueue;
+- (id);
+- (double)|;
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (double);
-- (unsigned long long);
-- (void);
+- (void)age:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (struct __CTFont *);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)ppropriate fallback;
 - (id);
 - (void);
-- (void)ngInsert: /* Error: Ran out of types for this method. */;
-- (void)ting;
-- (unsigned long long)istenceIdentifierForScene: /* Error: Ran out of types for this method. */;
+- (void)indexPathsAfterShadowUpdates:allowAppendingInsert: /* Error: Ran out of types for this method. */;
+- (void)_isTerminating;
+- (unsigned long long)_persistenceIdentifierForScene: /* Error: Ran out of types for this method. */;
 - (void)\>ÿ;
 - (id)¸êÇÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentPageIndex; // @synthesize currentPageIndex=_pageIndex;
-@property(readonly, nonatomic) unsigned long long currentPageResultCount; // @synthesize currentPageResultCount=_currentPageResultCount;
-@property(nonatomic) double documentScale; // @synthesize documentScale;
-@property(retain) UIPDFDocument *documentToSearch; // @synthesize documentToSearch;
-@property(nonatomic) unsigned long long numberOfResultsToSkip; // @synthesize numberOfResultsToSkip=_numberOfResultsToSkip;
-@property(nonatomic) unsigned long long resultLimit; // @synthesize resultLimit;
 @property NSObject<UIWebPDFSearchOperationDelegate> *searchDelegate; // @synthesize searchDelegate;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString;
-@property(nonatomic) unsigned long long startingPageIndex; // @synthesize startingPageIndex;
 
 @end
 

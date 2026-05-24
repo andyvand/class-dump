@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapServiceTraits, NSProgress, NSString;
+@class NSProgress;
 @protocol GEOMapServiceFeedbackReportTicket;
 
 @interface MSPFeedbackSubmissionTicket
 {
     id <GEOMapServiceFeedbackReportTicket> _ticket;
-    NSString *_sessionIdentifier;
-    _Bool _cancelled;
-    NSProgress *_fakeProgress;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)dataSpansMultipleSegments;
 - (id);
 - (void);
 - (void);
@@ -28,16 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSProgress *fakeProgress; // @synthesize fakeProgress=_fakeProgress;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end
 

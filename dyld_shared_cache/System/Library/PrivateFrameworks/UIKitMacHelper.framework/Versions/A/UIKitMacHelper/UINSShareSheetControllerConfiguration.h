@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-@protocol UINSActivityItemsConfigurationReading;
-
 @interface UINSShareSheetControllerConfiguration
 {
     CDUnknownBlockType _completionWithItemsHandler;
-    CDUnknownBlockType _activitySelectedHandler;
-    id <UINSActivityItemsConfigurationReading> _activityItemsConfiguration;
-    NSArray *_items;
-    NSArray *_applicationActivities;
-    NSArray *_excludedActivityTypes;
-    NSDictionary *_shareKitInfo;
-    unsigned long long _collaborationMode;
 }
 
 - (void);
@@ -30,22 +20,15 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)empt: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)completedGather;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <UINSActivityItemsConfigurationReading> activityItemsConfiguration; // @synthesize activityItemsConfiguration=_activityItemsConfiguration;
-@property(copy, nonatomic) CDUnknownBlockType activitySelectedHandler; // @synthesize activitySelectedHandler=_activitySelectedHandler;
-@property(retain, nonatomic) NSArray *applicationActivities; // @synthesize applicationActivities=_applicationActivities;
-@property(nonatomic) unsigned long long collaborationMode; // @synthesize collaborationMode=_collaborationMode;
 @property(copy, nonatomic) CDUnknownBlockType completionWithItemsHandler; // @synthesize completionWithItemsHandler=_completionWithItemsHandler;
-@property(retain, nonatomic) NSArray *excludedActivityTypes; // @synthesize excludedActivityTypes=_excludedActivityTypes;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) NSDictionary *shareKitInfo; // @synthesize shareKitInfo=_shareKitInfo;
 
 @end
 

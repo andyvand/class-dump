@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiRecipeScoringConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiRecipeScoringEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiRecipeScoringConfiguration *_configuration;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void)entDatabase:contentDirectory:appActivityMonitor:backgroundTaskable:defaultTTL:experimentalizableFieldsPostfix:activeTreatmentID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiRecipeScoringConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

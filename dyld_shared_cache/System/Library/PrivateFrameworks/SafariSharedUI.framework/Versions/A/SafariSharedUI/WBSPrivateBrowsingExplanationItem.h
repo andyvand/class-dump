@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface WBSPrivateBrowsingExplanationItem
 {
     _Bool _limitedToPrivateBrowsing;
-    NSImage *_image;
-    NSString *_message;
-    NSString *_title;
 }
 
 + (id);
@@ -20,16 +17,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)e;
 - (id);
 - (id);
-- (void)les:url:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setWebpageLocaleWithExtractedTextSamples:url:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic, getter=isLimitedToPrivateBrowsing) _Bool limitedToPrivateBrowsing; // @synthesize limitedToPrivateBrowsing=_limitedToPrivateBrowsing;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

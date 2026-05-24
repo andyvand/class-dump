@@ -6,34 +6,12 @@
 
 #import <AVConference/VCMediaStreamSendGroup.h>
 
-@class AVCBasebandCongestionDetector, VCAudioStreamGroupCommon, VCSystemAudioCaptureSession;
+@class VCAudioStreamGroupCommon;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioStreamSendGroup : VCMediaStreamSendGroup
 {
     _Bool _isCurrentDTXEnabled;
-    AVCBasebandCongestionDetector *_basebandCongestionDetector;
-    unsigned int _cellularUniqueTag;
-    VCAudioStreamGroupCommon *_common;
-    _Bool _lastEnqueuedStreamUpdateEventWasEmpty;
-    struct opaqueCMSimpleQueue *_audioStreamUpdateEventQueue;
-    struct opaqueCMSimpleQueue *_audioRedundancyChangeEventQueue;
-    struct tagVCMemoryPool *_audioStreamUpdatePool;
-    struct tagVCMemoryPool *_audioRedundancyEventPool;
-    struct tagVCMediaQueue *_mediaQueue;
-    unsigned char _lastAudioPriority;
-    _Bool _forcedAudioPriorityEnabled;
-    unsigned char _forcedAudioPriorityValue;
-    double _forcedAudioPriorityLastUpdateTime;
-    struct opaqueVCVoiceDetector *_voiceDetector;
-    VCSystemAudioCaptureSession *_systemAudioCaptureSession;
-    struct tagVCAudioDucker *_audioDucker;
-    _Bool _shouldScheduleMediaQueue;
-    float _averageInputPower;
-    _Bool _audioControllerSupportsVoiceActivityDetection;
-    _Bool _shouldModulateSampleBufferTimestamp;
-    unsigned int _timestampModulationOffset;
-    _Bool _isVADFilteringEnabled;
 }
 
 - (id);
@@ -45,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (void);
 - (void);
@@ -62,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)x;
 - (_Bool);
 - (void);
 - (void);
@@ -72,37 +50,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)J;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void)foGeneratorType;
 - (id)etProperty succeeded to set property kAudioCodecPrivatePropertyEVSSIDPeriod evsSIDPeriod=%u ;
 - (_Bool)cameraAvailabilityDidChange:] /* Error: Ran out of types for this method. */;
-- (id)P_RecvFromDatagramSocket;
+- (id)_VTP_RecvFromDatagramSocket;
 
 // Remaining properties
-@property(retain, nonatomic) AVCBasebandCongestionDetector *basebandCongestionDetector; // @synthesize basebandCongestionDetector=_basebandCongestionDetector;
-@property(nonatomic) unsigned int cellularUniqueTag; // @synthesize cellularUniqueTag=_cellularUniqueTag;
 @property(readonly) VCAudioStreamGroupCommon *common; // @synthesize common=_common;
-@property(readonly, nonatomic) int deviceRole;
-@property(nonatomic, setter=setCurrentDTXEnabled:) _Bool isCurrentDTXEnabled; // @synthesize isCurrentDTXEnabled=_isCurrentDTXEnabled;
-@property(nonatomic, setter=setMuted:) _Bool isMuted;
-@property(setter=setPowerSpectrumEnabled:) _Bool isPowerSpectrumEnabled;
-@property(nonatomic, setter=setVADFilteringEnabled:) _Bool isVADFilteringEnabled; // @synthesize isVADFilteringEnabled=_isVADFilteringEnabled;
-@property(readonly, nonatomic) int operatingMode;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol NUBufferImage, NUMutableBufferImage;
+@protocol NUMutableBufferImage;
 
 @interface PIRetouchSourceNode
 {
     id <NUMutableBufferImage> _retouchImage;
-    id <NUBufferImage> _renderedImage;
-    NSArray *_strokes;
-    NSString *_cacheKey;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void)caleKey;
+- (void)startScaleKey;
 
 @end
 

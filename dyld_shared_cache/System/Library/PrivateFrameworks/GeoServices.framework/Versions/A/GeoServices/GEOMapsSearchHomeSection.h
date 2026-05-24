@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOBrowseCategorySuggestionResult, GEOCollectionSuggestionResult, GEOGuideLocationSuggestionResults, GEOPlaceSuggestionResult, GEOPublisherSuggestionResult, NSString;
+@class GEOCollectionSuggestionResult, NSString;
 
 @interface GEOMapsSearchHomeSection
 {
     GEOCollectionSuggestionResult *_collectionSuggestions;
-    NSString *_name;
-    GEOPublisherSuggestionResult *_publisherSuggestions;
-    GEOBrowseCategorySuggestionResult *_browseCategorySuggestions;
-    GEOGuideLocationSuggestionResults *_guideLocationSuggestsions;
-    GEOPlaceSuggestionResult *_placeSuggestions;
-    unsigned long long _sectionType;
 }
 
 - (id);
@@ -30,13 +24,7 @@
 - (unsigned long long)8;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOBrowseCategorySuggestionResult *browseCategorySuggestions; // @synthesize browseCategorySuggestions=_browseCategorySuggestions;
-@property(readonly, nonatomic) GEOCollectionSuggestionResult *collectionSuggestions; // @synthesize collectionSuggestions=_collectionSuggestions;
-@property(readonly, nonatomic) GEOGuideLocationSuggestionResults *guideLocationSuggestsions; // @synthesize guideLocationSuggestsions=_guideLocationSuggestsions;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) GEOPlaceSuggestionResult *placeSuggestions; // @synthesize placeSuggestions=_placeSuggestions;
-@property(readonly, nonatomic) GEOPublisherSuggestionResult *publisherSuggestions; // @synthesize publisherSuggestions=_publisherSuggestions;
-@property(readonly, nonatomic) unsigned long long sectionType; // @synthesize sectionType=_sectionType;
 
 @end
 

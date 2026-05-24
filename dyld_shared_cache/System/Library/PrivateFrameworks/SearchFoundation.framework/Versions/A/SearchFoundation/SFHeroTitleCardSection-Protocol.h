@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFRichText;
+@class NSString, SFRichText;
 
 @protocol SFHeroTitleCardSection
+- (void)setDefaultConnection:(SFRichText *)arg1;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *buttonItems;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxVisibleButtonItems;
-@property(retain, nonatomic) SFRichText *subtitle;
-@property(retain, nonatomic) SFRichText *title;
 @property(copy, nonatomic) NSString *type;
 @end
 

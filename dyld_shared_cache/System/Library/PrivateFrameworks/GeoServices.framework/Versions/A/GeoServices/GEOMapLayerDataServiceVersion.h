@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOMapLayerDataServiceVersion
 {
     unsigned int _dataVersion;
-    unsigned int _formatVersion;
-    unsigned int _patchVersion;
-    struct {
-        unsigned int has_dataVersion:1;
-        unsigned int has_formatVersion:1;
-        unsigned int has_patchVersion:1;
-    } _flags;
 }
 
 - (id);
@@ -22,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)nueLabel:(struct _NSZone *)arg1;
-- (id);
+- (id)venueLabel:(struct _NSZone *)arg1;
+- (id)_wifiQualityURL;
 - (id)äË­Ä~B;
 
 @end

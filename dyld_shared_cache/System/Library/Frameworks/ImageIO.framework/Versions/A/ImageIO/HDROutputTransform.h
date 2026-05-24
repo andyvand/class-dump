@@ -33,13 +33,11 @@ __attribute__((visibility("hidden")))
 - (const CDStruct_25324c71 *);
 - (void);
 - (id);
-- (const CDStruct_443d536e *);
+- (const CDStruct_443d536e *)i;
 - (unsigned int);
 - (CDStruct_9b5d4d35 *);
 
 // Remaining properties
-@property(readonly, nonatomic) const CDStruct_25324c71 *gainMap;
-@property(readonly, nonatomic) const CDStruct_443d536e *image;
 @property(readonly, nonatomic) CDStruct_9b5d4d35 *storage;
 
 @end

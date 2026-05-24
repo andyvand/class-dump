@@ -9,7 +9,7 @@
     id customAcceptsFirstMouse;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAKnowledgeGetValuesForKeys : SABaseClientBoundCommand
 {
@@ -15,27 +15,18 @@
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)it>;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)38TDwarfReadDW_FORM_Data4AttributeActionI5DwarfI7Dwarf329Pointer6412LittleEndianEE;
+- (id);
 - (_Bool);
-- (void)nchOut;
+- (void)leagueAppPunchOut;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *keys;
-@property(copy, nonatomic) NSString *storeName;
-@property(copy, nonatomic) NSString *storeType;
-@property(readonly) Class superclass;
 
 @end
 

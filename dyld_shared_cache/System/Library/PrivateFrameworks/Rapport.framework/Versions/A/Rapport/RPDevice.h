@@ -4,48 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUMobileDevice, CUPairedPeer, CURangingMeasurement, NSData, NSDate, NSDictionary, NSString, NSUUID, SFDevice;
+@class SFDevice;
 
 @interface RPDevice
 {
     _Bool _idsDeviceIdentifierConflict;
-    unsigned char _deviceActionType;
-    _Bool _needsSetup;
-    int _activityLevel;
-    unsigned int _flags;
-    int _proximity;
-    unsigned int _blePairState;
-    int _rawRSSI;
-    int _smoothedRSSI;
-    unsigned int _systemPairState;
-    unsigned int _wifiDeviceIEFlags;
-    NSString *_accountID;
-    NSDate *_activityLevelTimeStamp;
-    NSData *_bleAuthTag;
-    NSString *_contactID;
-    NSString *_identifier;
-    NSString *_idsDeviceIdentifier;
-    NSString *_model;
-    NSString *_name;
-    CURangingMeasurement *_relativeLocation;
-    SFDevice *_bleDevice;
-    CUMobileDevice *_mobileDevice;
-    NSData *_authTag;
-    NSData *_bleAdvertisementData;
-    NSData *_bleDeviceAddress;
-    NSUUID *_identifierUUID;
-    CUPairedPeer *_pairedPeer;
-    NSUUID *_pairingIdentifier;
-    NSData *_txtData;
-    NSDictionary *_txtDictionary;
-    NSString *_udid;
-    NSData *_wifiAddress;
-    NSData *_wifiBSSID;
-    NSData *_wifiDeviceIEDeviceID;
-    NSData *_wifiDeviceIEName;
-    NSData *_wifiIEData;
-    id _wifiPlatformObject;
-    NSString *_wifiSSID;
 }
 
 + (_Bool);
@@ -92,17 +55,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (int);
+- (id)eChainOutput. Doing nothing.;
+- (int).  The purpose is to get rid of peaks in the delta-pitch caused by discretization of pitch values.;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)k+;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (int);
 - (id);
 - (id);
@@ -115,48 +78,11 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)y;
+- (_Bool)_synchronousRemoteObjectProxy;
 - (id)on setFlowControlReadEnabled:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) int activityLevel; // @synthesize activityLevel=_activityLevel;
-@property(readonly, nonatomic) NSDate *activityLevelTimeStamp; // @synthesize activityLevelTimeStamp=_activityLevelTimeStamp;
-@property(readonly, copy, nonatomic) NSData *authTag; // @synthesize authTag=_authTag;
-@property(readonly, copy, nonatomic) NSData *bleAdvertisementData; // @synthesize bleAdvertisementData=_bleAdvertisementData;
-@property(readonly, copy, nonatomic) NSData *bleAuthTag; // @synthesize bleAuthTag=_bleAuthTag;
 @property(retain, nonatomic) SFDevice *bleDevice; // @synthesize bleDevice=_bleDevice;
-@property(readonly, copy, nonatomic) NSData *bleDeviceAddress; // @synthesize bleDeviceAddress=_bleDeviceAddress;
-@property(readonly, nonatomic) unsigned int blePairState; // @synthesize blePairState=_blePairState;
-@property(readonly, copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(readonly, nonatomic) unsigned char deviceActionType; // @synthesize deviceActionType=_deviceActionType;
-@property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSUUID *identifierUUID; // @synthesize identifierUUID=_identifierUUID;
-@property(readonly, copy, nonatomic) NSString *idsDeviceIdentifier; // @synthesize idsDeviceIdentifier=_idsDeviceIdentifier;
-@property(readonly, nonatomic) _Bool idsDeviceIdentifierConflict; // @synthesize idsDeviceIdentifierConflict=_idsDeviceIdentifierConflict;
-@property(retain, nonatomic) CUMobileDevice *mobileDevice; // @synthesize mobileDevice=_mobileDevice;
-@property(readonly, copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool needsSetup; // @synthesize needsSetup=_needsSetup;
-@property(retain, nonatomic) CUPairedPeer *pairedPeer; // @synthesize pairedPeer=_pairedPeer;
-@property(copy, nonatomic) NSUUID *pairingIdentifier; // @synthesize pairingIdentifier=_pairingIdentifier;
-@property(readonly, nonatomic) int proximity; // @synthesize proximity=_proximity;
-@property(readonly, nonatomic) int rawRSSI; // @synthesize rawRSSI=_rawRSSI;
-@property(retain) CURangingMeasurement *relativeLocation; // @synthesize relativeLocation=_relativeLocation;
-@property(readonly, nonatomic) int smoothedRSSI; // @synthesize smoothedRSSI=_smoothedRSSI;
-@property(nonatomic) unsigned int systemPairState; // @synthesize systemPairState=_systemPairState;
-@property(readonly, copy, nonatomic) NSData *txtData; // @synthesize txtData=_txtData;
-@property(readonly, copy, nonatomic) NSDictionary *txtDictionary; // @synthesize txtDictionary=_txtDictionary;
-@property(copy, nonatomic) NSString *udid; // @synthesize udid=_udid;
-@property(copy, nonatomic) NSData *wifiAddress; // @synthesize wifiAddress=_wifiAddress;
-@property(copy, nonatomic) NSData *wifiBSSID; // @synthesize wifiBSSID=_wifiBSSID;
-@property(copy, nonatomic) NSData *wifiDeviceIEDeviceID; // @synthesize wifiDeviceIEDeviceID=_wifiDeviceIEDeviceID;
-@property(readonly, nonatomic) unsigned int wifiDeviceIEFlags; // @synthesize wifiDeviceIEFlags=_wifiDeviceIEFlags;
-@property(copy, nonatomic) NSData *wifiDeviceIEName; // @synthesize wifiDeviceIEName=_wifiDeviceIEName;
-@property(copy, nonatomic) NSData *wifiIEData; // @synthesize wifiIEData=_wifiIEData;
-@property(retain, nonatomic) id wifiPlatformObject; // @synthesize wifiPlatformObject=_wifiPlatformObject;
-@property(copy, nonatomic) NSString *wifiSSID; // @synthesize wifiSSID=_wifiSSID;
 
 @end
 

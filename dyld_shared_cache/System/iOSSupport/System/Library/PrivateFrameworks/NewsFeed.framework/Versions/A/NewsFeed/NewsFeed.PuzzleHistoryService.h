@@ -7,9 +7,6 @@
 @interface NewsFeed.PuzzleHistoryService
 {
     id puzzleHistory;
-    id configurationManager;
-    id puzzleService;
-    id puzzleHistoryObservers;
 }
 
 - (void);

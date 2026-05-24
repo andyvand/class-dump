@@ -6,18 +6,11 @@
 
 #import <PhotosUICore/PXAssetsAction.h>
 
-@class NSArray, PHAsset, PHAssetCollection, PHFetchResult, PHPhotoLibrary, PXContentSyndicationPhotoKitAssetGroup;
-@protocol PXFastEnumeration;
+@class PHPhotoLibrary;
 
 @interface PXAddAssetsToAssetCollectionAction : PXAssetsAction
 {
     _Bool _shouldSortAssetsByCreationDate;
-    PXContentSyndicationPhotoKitAssetGroup *_assetGroup;
-    PHAssetCollection *_assetCollection;
-    PHAsset *_dropTargetAsset;
-    PHPhotoLibrary *_targetPhotoLibrary;
-    PHFetchResult *_existingAssets;
-    id <PXFastEnumeration> _addedAssets;
 }
 
 - (id);
@@ -31,25 +24,17 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)z;
+- (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void)Q¹Ä^ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXFastEnumeration> addedAssets; // @synthesize addedAssets=_addedAssets;
-@property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) PXContentSyndicationPhotoKitAssetGroup *assetGroup; // @synthesize assetGroup=_assetGroup;
-@property(retain, nonatomic) PHAsset *dropTargetAsset; // @synthesize dropTargetAsset=_dropTargetAsset;
-@property(readonly, nonatomic) PHFetchResult *existingAssets; // @synthesize existingAssets=_existingAssets;
-@property(nonatomic) _Bool shouldSortAssetsByCreationDate; // @synthesize shouldSortAssetsByCreationDate=_shouldSortAssetsByCreationDate;
 @property(readonly, nonatomic) PHPhotoLibrary *targetPhotoLibrary; // @synthesize targetPhotoLibrary=_targetPhotoLibrary;
-@property(readonly, nonatomic) NSArray *unsavedSyndicatedAssets;
-@property(readonly, nonatomic) NSArray *userLibraryAssets;
 
 @end
 

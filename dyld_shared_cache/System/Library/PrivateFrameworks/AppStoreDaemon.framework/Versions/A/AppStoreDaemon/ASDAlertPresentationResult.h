@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSUUID;
+@class NSError;
 
 @interface ASDAlertPresentationResult
 {
     NSError *_error;
-    NSUUID *_selectedActionIdentifier;
 }
 
 + (_Bool);
@@ -18,13 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSUUID *selectedActionIdentifier; // @synthesize selectedActionIdentifier=_selectedActionIdentifier;
 
 @end
 

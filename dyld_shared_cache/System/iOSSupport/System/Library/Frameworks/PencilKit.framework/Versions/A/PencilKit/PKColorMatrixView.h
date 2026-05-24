@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor;
-@protocol _PKColorPickerImplementationDelegate;
+@class NSArray, UIColor;
 
 @interface PKColorMatrixView
 {
     UIColor *selectedColor;
-    id <_PKColorPickerImplementationDelegate> _colorPickerDelegate;
-    long long _colorUserInterfaceStyle;
-    NSArray *_colorMatrix;
-    NSArray *_darkColorMatrix;
-    NSArray *_colorButtons;
 }
 
 + (id);
@@ -49,23 +43,11 @@
 - (id);
 - (id);
 - (id);
-- (void)keSpaceRect:(id)arg1 strokeTransform:useLayerContext:completion: /* Error: Ran out of types for this method. */;
+- (void)drawStrokesAfterClear:(id)arg1 clippedToStrokeSpaceRect:strokeTransform:useLayerContext:completion: /* Error: Ran out of types for this method. */;
 - (void)¨ß;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *colorButtons; // @synthesize colorButtons=_colorButtons;
 @property(retain, nonatomic) NSArray *colorMatrix; // @synthesize colorMatrix=_colorMatrix;
-@property(nonatomic) __weak id <_PKColorPickerImplementationDelegate> colorPickerDelegate; // @synthesize colorPickerDelegate=_colorPickerDelegate;
-@property(nonatomic) long long colorUserInterfaceStyle; // @synthesize colorUserInterfaceStyle=_colorUserInterfaceStyle;
-@property(retain, nonatomic) NSArray *darkColorMatrix; // @synthesize darkColorMatrix=_darkColorMatrix;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *selectedColor; // @synthesize selectedColor;
-@property(readonly) Class superclass;
 
 @end
 

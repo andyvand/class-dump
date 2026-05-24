@@ -15,16 +15,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)t;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool bookstoreDisabled;
 @property(nonatomic) __weak id <BKSecurePreferencesDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool explicitContentRestricted;
 
 @end
 

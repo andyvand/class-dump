@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath;
+@class NSString;
 
 @interface ChatKit.CKTranscriptBackgroundBalloonAttributes
 {
     void chatItemGuid;
-    struct CGPoint center;
-    struct CGSize size;
-    _Bool hasBalloonShape;
-    UIBezierPath *bubblePath;
 }
 
 - (id);
@@ -27,12 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) UIBezierPath *bubblePath; // @synthesize bubblePath;
-@property(nonatomic, readonly) struct CGPoint center; // @synthesize center;
 @property(nonatomic, readonly) NSString *chatItemGuid;
-@property(nonatomic, readonly) struct CGRect frame;
-@property(nonatomic, readonly) _Bool hasBalloonShape; // @synthesize hasBalloonShape;
-@property(nonatomic, readonly) struct CGSize size; // @synthesize size;
 
 @end
 

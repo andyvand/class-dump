@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact;
+@class _INPBContact;
 
 @interface _INPBContactEventTrigger
 {
     struct _has;
-    _INPBContact *_triggerContact;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)calDevice"16@?<v@?@"NSArray">24;
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (unsigned long long)yhj9;
+- (_Bool)@;
+- (_Bool)q16@24@32;
+- (void)pported channels for scan manager on interface:(id)arg1 %@ error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)atforms;
+- (void)supported_platforms;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasTriggerContact;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _INPBContact *triggerContact; // @synthesize triggerContact=_triggerContact;
 
 @end

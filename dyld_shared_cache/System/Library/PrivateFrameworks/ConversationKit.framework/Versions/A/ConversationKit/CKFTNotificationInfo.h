@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface CKFTNotificationInfo
 {
     NSString *_title;
-    NSString *_message;
-    NSString *_actionButtonTitle;
-    NSImage *_appIcon;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ProcessWorkflowController workflowDidPause];
 - (id);
 - (id);
-- (id);
+- (id)G;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;
-@property(readonly, nonatomic) NSImage *appIcon; // @synthesize appIcon=_appIcon;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

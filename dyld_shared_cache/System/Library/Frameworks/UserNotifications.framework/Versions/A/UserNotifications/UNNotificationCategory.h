@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UNNotificationAction;
+@class NSArray;
 
 @interface UNNotificationCategory
 {
     NSArray *_actions;
-    NSArray *_minimalActions;
-    NSArray *_intentIdentifiers;
-    NSString *_identifier;
-    NSString *_hiddenPreviewsBodyPlaceholder;
-    NSString *_categorySummaryFormat;
-    NSString *_actionsMenuTitle;
-    UNNotificationAction *_alternateAction;
-    unsigned long long _options;
-    unsigned long long _backgroundStyle;
-    unsigned long long _listPriority;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)( ;
++ (id) Iq;
 + (id);
 + (_Bool);
 + (id);
@@ -40,7 +30,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -50,17 +40,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy) NSString *actionsMenuTitle; // @synthesize actionsMenuTitle=_actionsMenuTitle;
-@property(readonly, copy) UNNotificationAction *alternateAction; // @synthesize alternateAction=_alternateAction;
-@property(readonly) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(readonly, copy) NSString *categorySummaryFormat; // @synthesize categorySummaryFormat=_categorySummaryFormat;
-@property(readonly, copy) NSString *hiddenPreviewsBodyPlaceholder; // @synthesize hiddenPreviewsBodyPlaceholder=_hiddenPreviewsBodyPlaceholder;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSArray *intentIdentifiers; // @synthesize intentIdentifiers=_intentIdentifiers;
-@property(readonly) unsigned long long listPriority; // @synthesize listPriority=_listPriority;
 @property(readonly, copy) NSArray *minimalActions; // @synthesize minimalActions=_minimalActions;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
 
 @end
 

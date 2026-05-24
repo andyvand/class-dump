@@ -10,32 +10,24 @@ __attribute__((visibility("hidden")))
 @interface _UIDatePickerComponent
 {
     unsigned long long _equivalentUnit;
-    NSString *_formatString;
-    unsigned long long _calendarUnit;
-    double _width;
-    struct _NSRange _unitRange;
 }
 
 + (id);
 + (id);
 - (struct _NSRange);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)N,V_recordsRead;
+- (unsigned long long)0;
+- (id)@:(id)arg1 Finished sync task for %@ service. Error:(unsigned long long)arg2 %@;
 - (id);
 - (double)!Dù±cð1Â0@ù
 × ;
-- (void)tionForWindowHostingScene:(double)arg1;
-- (id);
+- (void)executeActionForWindowHostingScene:(double)arg1;
+- (id)_UITextInputSessionEfficacyAccumulatorEntry;
 - (void)_;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long calendarUnit; // @synthesize calendarUnit=_calendarUnit;
-@property(readonly, nonatomic) unsigned long long equivalentUnit;
 @property(readonly, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
-@property(nonatomic) struct _NSRange unitRange; // @synthesize unitRange=_unitRange;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

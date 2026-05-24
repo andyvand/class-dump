@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (struct __DDResult *);
++ (struct __DDResult *))5;
 + (unsigned long long);
 + (_Bool);
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface TIAnalyticsEventSpec
 {
     _Bool _isInputModeRequired;
-    NSDictionary *_fieldSpecsByName;
-    NSString *_name;
-    NSArray *_fieldSpecs;
 }
 
 + (id);
@@ -33,10 +30,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *fieldSpecs; // @synthesize fieldSpecs=_fieldSpecs;
 @property(readonly, nonatomic) NSDictionary *fieldSpecsByName; // @synthesize fieldSpecsByName=_fieldSpecsByName;
-@property(readonly, nonatomic) _Bool isInputModeRequired; // @synthesize isInputModeRequired=_isInputModeRequired;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

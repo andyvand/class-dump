@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator, NSMutableArray, NSString;
+@class NSArray, NSEnumerator;
 
 @interface _CDContactChangeHistoryEventVisitor
 {
     NSEnumerator *_changeEnumerator;
-    NSMutableArray *_deletedContactIdentifiers;
-    unsigned long long _count;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)t;;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)UserAssignedDeviceName;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) NSArray *deletedContactIdentifiers;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

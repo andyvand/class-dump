@@ -4,65 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureInput, AVMetadataObject, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVMetadataObjectInternal
 {
     CDStruct_1b6d18a9 _time;
-    CDStruct_1b6d18a9 _duration;
-    struct CGRect _bounds;
-    NSString *_type;
-    AVCaptureInput *_input;
-    AVMetadataObject *_originalMetadataObject;
-    long long _groupID;
-    long long _objectID;
-    unsigned long long _syntheticFocusMode;
-    long long _detectionSource;
-    long long _cinematicVideoFocusMode;
-    _Bool _fixedFocus;
 }
 
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (long long);
-- (long long);
+- (unsigned long long)returnString: /* Error: Ran out of types for this method. */;
+- (void)numberWithUnsignedLong:(unsigned long long)arg1;
+- (void)msv_downloadTaskWithRequest:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)isEqualToImageColor:(_Bool)arg1;
+- (void)initWithRunningRBSDomain:(long long)arg1 name:invalidationDuration: /* Error: Ran out of types for this method. */;
+- (void)initWithInterval:(long long)arg1 repeats:queue:block: /* Error: Ran out of types for this method. */;
+- (id)bindNullValueToParameterAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_numberOfArguments;
+- (long long)acquireWithInvalidationHandler: /* Error: Ran out of types for this method. */;
+- (long long)ring"8@"NSCoder<MSVSegmentedSubEncoder>"16^B24;
 - (void);
 - (CDStruct_1b6d18a9);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)5F;
+- (id)erNode >>>> %s:%p:no input sample buffer found in queue /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (id);
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (long long);
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property struct CGRect bounds; // @synthesize bounds=_bounds;
-@property long long cinematicVideoFocusMode; // @synthesize cinematicVideoFocusMode=_cinematicVideoFocusMode;
-@property long long detectionSource; // @synthesize detectionSource=_detectionSource;
-@property CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(getter=isFixedFocus) _Bool fixedFocus; // @synthesize fixedFocus=_fixedFocus;
-@property long long groupID; // @synthesize groupID=_groupID;
-@property(retain) AVCaptureInput *input; // @synthesize input=_input;
-@property long long objectID; // @synthesize objectID=_objectID;
-@property(retain) AVMetadataObject *originalMetadataObject; // @synthesize originalMetadataObject=_originalMetadataObject;
-@property unsigned long long syntheticFocusMode; // @synthesize syntheticFocusMode=_syntheticFocusMode;
 @property CDStruct_1b6d18a9 time; // @synthesize time=_time;
-@property(retain) NSString *type; // @synthesize type=_type;
 
 @end
 

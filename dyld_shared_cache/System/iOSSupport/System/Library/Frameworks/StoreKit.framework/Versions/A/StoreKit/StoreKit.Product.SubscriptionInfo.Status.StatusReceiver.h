@@ -7,11 +7,6 @@
 @interface StoreKit.Product.SubscriptionInfo.Status.StatusReceiver
 {
     id $defaultActor;
-    id logKey;
-    id continuation;
-    id hasInvalidatedCache;
-    id serializationStream;
-    id serializationContinuation;
 }
 
 - (void);

@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface NSFileProviderItemVersion
 {
     _Bool _conflictResolved;
-    NSArray *_equivalentContentVersions;
-    NSArray *_equivalentMetadataVersions;
-    NSData *_contentVersion;
-    NSData *_metadataVersion;
-    NSString *_lastEditorDeviceName;
 }
 
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property _Bool conflictResolved; // @synthesize conflictResolved=_conflictResolved;
-@property(readonly, nonatomic) NSData *contentVersion; // @synthesize contentVersion=_contentVersion;
 @property(readonly, copy, nonatomic) NSArray *equivalentContentVersions; // @synthesize equivalentContentVersions=_equivalentContentVersions;
-@property(readonly, copy, nonatomic) NSArray *equivalentMetadataVersions; // @synthesize equivalentMetadataVersions=_equivalentMetadataVersions;
-@property(readonly, copy) NSString *lastEditorDeviceName; // @synthesize lastEditorDeviceName=_lastEditorDeviceName;
-@property(readonly, nonatomic) NSData *metadataVersion; // @synthesize metadataVersion=_metadataVersion;
 
 @end
 

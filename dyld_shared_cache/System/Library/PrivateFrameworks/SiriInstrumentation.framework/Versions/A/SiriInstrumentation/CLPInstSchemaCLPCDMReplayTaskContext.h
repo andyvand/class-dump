@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CLPInstSchemaCLPCDMReplayTaskEnded, CLPInstSchemaCLPCDMReplayTaskStarted, NSData;
+@class CLPInstSchemaCLPCDMReplayTaskStarted;
 
 @interface CLPInstSchemaCLPCDMReplayTaskContext : SISchemaInstrumentationMessage
 {
     CLPInstSchemaCLPCDMReplayTaskStarted *_startedOrChanged;
-    CLPInstSchemaCLPCDMReplayTaskEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -36,17 +32,12 @@
 - (_Bool);
 - (id);
 - (id)EntityMatcherCallEnded";
-- (id)ecutionUsed;
+- (id)FLOWLINKSchemaFLOWLINKAppShortcutGeneralizedExecutionUsed;
 - (id)ðz`{{`|;
 - (void)ë±¿B&;
 
 // Remaining properties
-@property(retain, nonatomic) CLPInstSchemaCLPCDMReplayTaskEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CLPInstSchemaCLPCDMReplayTaskStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

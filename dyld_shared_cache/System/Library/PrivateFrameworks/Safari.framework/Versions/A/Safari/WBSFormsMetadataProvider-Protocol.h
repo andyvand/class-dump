@@ -5,6 +5,7 @@
 //
 
 @protocol WBSFormsMetadataProvider
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long formCount;

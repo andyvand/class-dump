@@ -10,7 +10,7 @@
 
 @optional
 - (_Bool);
-- (long long)egate;
+- (long long)AVMediaSelectionMenuDelegate;
 - (void)alystGlassPlaybackControlsController setShowsShowTextControl:(UIPresentationController *)arg1 ];
 @end
 

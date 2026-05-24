@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WKWebView, _WKApplicationManifest;
+@class NSArray;
 
 @interface WBSApplicationManifestFetcher
 {
     NSArray *_completionHandlers;
-    _WKApplicationManifest *_manifest;
-    WKWebView *_webView;
-    long long _state;
 }
 
 + (long long);
 + (long long);
 + (double);
 + (void);
-- (void);
-- (id);
+- (void)-I	;
+- (id)r/lib/swift/libswiftsimd.dylib;
 - (void)1;
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace;
-
 @interface NUAuxiliaryImageRawBuffer
 {
     long long _auxiliaryImageType;
-    struct __CVBuffer *_pixelBuffer;
-    struct CGImageMetadata *_metadata;
-    NUColorSpace *_colorSpace;
-    struct CGImageMetadata *_compatibilityMetadata;
-    NSString *_cgAuxIdentifier;
 }
 
-- (void);
+- (void)hi8J;
 - (void);
 - (id);
 - (struct __CVBuffer *);
@@ -37,22 +30,10 @@
 - (void);
 - (struct __CVBuffer *);
 - (void);
-- (void)emBuildVersion;
+- (void)systemBuildVersion;
 
 // Remaining properties
-@property(readonly) long long auxiliaryImageType; // @synthesize auxiliaryImageType=_auxiliaryImageType;
-@property(copy, nonatomic) NSString *cgAuxIdentifier; // @synthesize cgAuxIdentifier=_cgAuxIdentifier;
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(retain, nonatomic) struct CGImageMetadata *compatibilityMetadata; // @synthesize compatibilityMetadata=_compatibilityMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) struct CGImageMetadata *metadata; // @synthesize metadata=_metadata;
 @property(nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property(readonly) Class superclass;
 
 @end
 

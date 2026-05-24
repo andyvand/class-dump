@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol NSObject, OS_dispatch_group;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 @interface RCOperationNotificationRetrySignal
 {
     NSObject<OS_dispatch_group> *_group;
-    unsigned long long _timeoutTime;
-    id <NSObject> _notificationObserver;
-    NSString *_notificationName;
-    double _timeout;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

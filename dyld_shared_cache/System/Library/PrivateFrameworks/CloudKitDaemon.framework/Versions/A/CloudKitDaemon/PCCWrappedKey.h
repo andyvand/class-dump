@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PCCWrappedKey
 {
     struct pcc_wrapped_invocation_key *_wrappedInvocationKey;
-    NSData *_routingToken;
 }
 
 - (struct pcc_wrapped_invocation_key *);
@@ -23,7 +20,6 @@
 - (void)àx;
 
 // Remaining properties
-@property(retain) NSData *routingToken; // @synthesize routingToken=_routingToken;
 @property struct pcc_wrapped_invocation_key *wrappedInvocationKey; // @synthesize wrappedInvocationKey=_wrappedInvocationKey;
 
 @end

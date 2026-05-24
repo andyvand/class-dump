@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     double _paletteScaleFactor;
 }
 
-+ (id);
++ (id)Dark wake power assertion failed (result = %d);
 - (_Bool);
 - (_Bool);
 - (void);
 - (double);
 - (void);
-- (id)ndler:(struct CGRect)arg1;
+- (id)validatePresentedItemRemoteDeletionWithCompletionHandler:(struct CGRect)arg1;
 - (void);
 - (void)²A;
 

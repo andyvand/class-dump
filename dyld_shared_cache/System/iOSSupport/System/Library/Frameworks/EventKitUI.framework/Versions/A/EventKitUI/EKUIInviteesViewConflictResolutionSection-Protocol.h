@@ -5,5 +5,11 @@
 //
 
 @protocol EKUIInviteesViewConflictResolutionSection
+- (void)s;
+- (void)%s;
+- (void);
+- (_Bool);
+- (void)&s;
+- (void)zC{;
 @end
 

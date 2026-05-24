@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _ECSubjectFormatterContext;
-
 @interface ECSubjectFormatter
 {
     long long _style;
-    _ECSubjectFormatterContext *_replyContext;
-    _ECSubjectFormatterContext *_forwardContext;
 }
 
++ (id)ithAttributes:(id)arg1 ];
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -26,12 +22,12 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)leGlassControlsView.;
+- (id)enPlaceholderIndicatorScale - %ld;
+- (id)liveEdgeContentTagView should only be set once on an AVMobileChromelessControlsView.;
+- (id)iew should only be set once on an AVMobileGlassControlsView.;
 - (long long);
-- (id);
+- (id)_omitStacksWithECore;
 - (_Bool);
 - (void);
 - (void);
@@ -40,16 +36,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _ECSubjectFormatterContext *forwardContext; // @synthesize forwardContext=_forwardContext;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _ECSubjectFormatterContext *replyContext; // @synthesize replyContext=_replyContext;
 @property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

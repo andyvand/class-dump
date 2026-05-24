@@ -7,24 +7,10 @@
 @interface PHAWhimsicalPromptSuggestionTask
 {
     id version;
-    id shouldRecordCompletion;
-    id name;
-    id identifier;
-    id priority;
-    id periodicity;
-    id incrementalKey;
-    id worker;
-    id taskProductivityReporter;
-    id recordsInserted;
-    id logger;
-    id loggerEvents;
-    id photoLibrary;
-    id promptProvider;
-    id persister;
 }
 
 - (id);
-- (void)fSamples:error: /* Error: Ran out of types for this method. */;
+- (void)_filterDataSamples:filters:numberOfSamples:error: /* Error: Ran out of types for this method. */;
 
 @end
 

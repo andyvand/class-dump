@@ -6,28 +6,15 @@
 
 #import <UIKitCore/UIDynamicBehavior.h>
 
-@class NSMutableArray, PKPhysicsBody;
-
 @interface UISnapBehavior : UIDynamicBehavior
 {
     struct CGPoint _anchorPoint;
-    double _damping;
-    double _distance;
-    double _frequency;
-    struct {
-        unsigned int attachedToView:1;
-        unsigned int dampingSet:1;
-        unsigned int frequencySet:1;
-        unsigned int lengthSet:1;
-    } _stateFlags;
-    NSMutableArray *_joints;
-    PKPhysicsBody *_anchorBody;
 }
 
 + (_Bool);
-- (struct CGPoint);
+- (struct CGPoint)_setPendingNetworkMonitorUpdate;
 - (void);
-- (id);
+- (id)yle:(id)arg1 %hhu;
 - (void);
 - (void);
 - (double);

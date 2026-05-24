@@ -7,7 +7,6 @@
 @interface _DPApproximateDP
 {
     double _epsilon;
-    double _delta;
 }
 
 + (_Bool);
@@ -19,7 +18,6 @@
 - (double)ictionary"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double delta; // @synthesize delta=_delta;
 @property(readonly, nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
 
 @end

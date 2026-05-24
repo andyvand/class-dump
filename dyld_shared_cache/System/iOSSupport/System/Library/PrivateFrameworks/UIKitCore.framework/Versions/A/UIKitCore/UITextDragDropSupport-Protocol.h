@@ -7,15 +7,13 @@
 @class UIDragInteraction, UIDropInteraction;
 
 @protocol UITextDragDropSupport
+- (_Bool)mmcs_perform_run_loop_target_create_timer;
 - (_Bool)Ña1Â0@ù
 × ;
 - (UIDropInteraction *)¸ÿÿÿ`áéÿàôcþÈ¹þÿ;
 - (UIDragInteraction *);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDragActive) _Bool dragActive;
 @property(readonly, nonatomic) UIDragInteraction *dragInteraction;
-@property(readonly, nonatomic, getter=isDropActive) _Bool dropActive;
-@property(readonly, nonatomic) UIDropInteraction *dropInteraction;
 @end
 

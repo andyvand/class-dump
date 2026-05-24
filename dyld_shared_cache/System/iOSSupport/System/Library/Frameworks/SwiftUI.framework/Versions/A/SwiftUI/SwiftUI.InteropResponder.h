@@ -9,8 +9,8 @@
 }
 
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)treeDumpCacheResultDataForAttributeTypeRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

@@ -5,5 +5,15 @@
 //
 
 @protocol KernelExtensionPolicyAPI
+- (void)PersistenceAdditions;
+- (void)PKToolPickerInkingItem;
+- (void)PKHandwritingSynthesisGenerationLogEntry;
+- (void)PKHandwritingSynthesisProofreadingLogEntry;
+- (void)PKModifyStrokesGroupIDCommand;
+- (void)PKMetalStrokeRenderCache;
+- (void)PKAlternativeStrokesAnimation;
+- (void)PKDataDetectorItemDelegate;
+- (void);
+- (void)%;
 @end
 

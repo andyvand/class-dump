@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MXRoutingContextModificationMetrics, NSArray, NSString;
+@class NSString;
 
 @interface MXRoutingContextModificationResult
 {
     NSString *_routeConfigUpdateReason;
-    MXRoutingContextModificationMetrics *_modificationMetrics;
-    NSArray *_previousRouteDescriptors;
-    NSArray *_currentRouteDescriptors;
 }
 
 - (id);
+- (id)kL;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)E;
+- (id);
+- (id)ation threshold overriden from capabilities:%f /* Error: Ran out of types for this method. */;
+- (id)unmount;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *currentRouteDescriptors; // @synthesize currentRouteDescriptors=_currentRouteDescriptors;
-@property(readonly, retain, nonatomic) MXRoutingContextModificationMetrics *modificationMetrics; // @synthesize modificationMetrics=_modificationMetrics;
-@property(readonly, retain, nonatomic) NSArray *previousRouteDescriptors; // @synthesize previousRouteDescriptors=_previousRouteDescriptors;
 @property(readonly, retain, nonatomic) NSString *routeConfigUpdateReason; // @synthesize routeConfigUpdateReason=_routeConfigUpdateReason;
 
 @end

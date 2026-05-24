@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.FairPlayAVAssetMock
 {
     id urlAssetHandler;
-    id fairPlayIdentifierHandler;
 }
 
 @end

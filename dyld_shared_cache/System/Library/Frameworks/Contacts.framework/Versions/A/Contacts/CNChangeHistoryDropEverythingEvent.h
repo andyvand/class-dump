@@ -14,8 +14,8 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)ot sending SessionAcknowledged event;
+- (unsigned long long)H#;
 - (_Bool);
 - (void);
 

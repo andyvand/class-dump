@@ -7,13 +7,6 @@
 @interface (extension in UIKit):__C.UIView.CornerCenterLayoutGuides__priv_17B53E6B37083F827808D3D6C806BD10
 {
     id topLeft;
-    id topRight;
-    id bottomLeft;
-    id bottomRight;
-    id topLeading;
-    id topTrailing;
-    id bottomLeading;
-    id bottomTrailing;
 }
 
 @end

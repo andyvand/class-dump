@@ -7,11 +7,6 @@
 @interface AWDSafariInteractedWithGeneratedPasswordEvent
 {
     unsigned long long _timestamp;
-    int _generatedPasswordInteractionType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int generatedPasswordInteractionType:1;
-    } _has;
 }
 
 - (void);
@@ -19,26 +14,23 @@
 - (_Bool);
 - (id);
 - (int);
-- (int);
-- (id);
+- (int);
+- (id)?;
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool),;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)l;
 
 // Remaining properties
-@property(nonatomic) int generatedPasswordInteractionType; // @synthesize generatedPasswordInteractionType=_generatedPasswordInteractionType;
-@property(nonatomic) _Bool hasGeneratedPasswordInteractionType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

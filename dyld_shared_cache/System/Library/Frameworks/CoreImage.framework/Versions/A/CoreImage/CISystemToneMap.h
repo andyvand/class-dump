@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber, NSString;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISystemToneMap : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputDisplayHeadroom;
-    NSString *inputPreferredDynamicRange;
 }
 
 + (id);
@@ -26,9 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)xuqxUngzh}|YaVjOVFcPj`w®®®®£§§}}}}jjjjZ_V`FZPettttzzzzXliqgc\hUaZgffalapmv~~~~z~}~oooo^bYeHZOgRjdt|}t~~~~~jplp]e]n[ts}Rtpi}{frhyXaWhAVKcmmmmooooSa\dhhdh¦¦¦¦¦¦¦¦kjbk7K;VHZP_ssss}}}}~~~~|xs|zg}{uhhhh1F7OOM>PITGZ=RDdJe]v||||uuuussospplrssssuuuudplvWmivsqnsVc\nenjtVgcl@RF\QVJ^Ye_knpmuGc\tPaZnL_XiF]U`TTTT9H7LJO@X^spwvf    dttzKc^j^d_dF\Vfcigpkz}~fwxyEWNe[a[guuuussssPYQ_0G:W````]gggffffddddffffmpppzzzzZppp5KAW'=.IBK@NR\T_colz    uUjaywriwj~|¡¡¡¡««««¯¯¯¯¤¥¥u©©©©´´´´¯°³³¨¨¨¨nuozppmpnnnngggg[d[fvvvv ¡¡¡££££w~grluFf]s\rm~y}~{xxxx]olvr{£¡¥¥¨¨¨¨   }]vo~\ldvXkewjxv|~~~~{zy{~~}}{}zpn|yz¥¥¥¥¥¥¥¥{}zgkcy_tpp}}}Za[cTTMTKUJZanjq||||`mjmaa[a\\\\PYO^fe]ivwtzg{yv{{{{nnnncc_cddadjmkm\qou{{{{~~~~sª¯¯¹¹¹¹µµµµ¢§««¤¥¥¥¥¥¤¤¤¤i~{k|{rrrr=UHade^i¤¤¤¤    ezw|zus}xourvJaXmZkeqzzzzm|{{~}|wc~|²²²²³³³³©©©©¤¤¤¤¢¢¢¢m|Mpe¡¡¡¡l~{~~~~~{~~~~Xmgy¤¤¤¤¤¤¤¤e{uvzbvo}muoz{yv|[tr~syyykkkk=SH_W_Wg{{{{`yyjpkxttpt /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputDisplayHeadroom; // @synthesize inputDisplayHeadroom;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSString *inputPreferredDynamicRange; // @synthesize inputPreferredDynamicRange;
 
 @end
 

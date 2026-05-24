@@ -6,23 +6,28 @@
 
 #import <PhotosUICore/PXVideoContentProvider.h>
 
-@class NSString, PXVideoContentProviderLoadingResult;
+@class PXVideoContentProviderLoadingResult;
 
 @interface PXSimpleVideoContentProvider : PXVideoContentProvider
 {
     PXVideoContentProviderLoadingResult *_loadingResult;
-    NSString *_contentIdentifier;
-    double _loadingProgress;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
+- (id)initWithOrderedSet: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (double);
+- (double)alfVector), 0.); 
+					highp float specular = pow(dotProd2, kShininess); 
+					specularLight = specular * specularLightColor; 
+				} 
+			else 
+				specularLight = vec3(0.); 
+		} 
+		;
 - (void)þÿÿ;
 - (void);
 

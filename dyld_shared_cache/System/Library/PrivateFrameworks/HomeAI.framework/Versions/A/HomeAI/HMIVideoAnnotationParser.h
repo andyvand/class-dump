@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)I!ɚ*;
 - (id);
 - (id);
 - (id);
@@ -20,7 +20,6 @@
 - (id)Ì;
 
 // Remaining properties
-@property(readonly) CDStruct_1b6d18a9 lastKnownTimeStamp;
 @property(readonly) NSArray *tracks; // @synthesize tracks=_tracks;
 
 @end

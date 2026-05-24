@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentTransaction;
+@class PKPaymentTransaction;
 
 @interface PKSearchTransactionResult
 {
     PKPaymentTransaction *_transaction;
-    NSString *_passUniqueIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)m;
 - (void);
 - (_Bool);
-- (void);
-- (void)S_TITLE;
+- (void)_peerLosPeakRatio;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_SIX_MONTHS_TITLE;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
 @property(retain, nonatomic) PKPaymentTransaction *transaction; // @synthesize transaction=_transaction;
 
 @end

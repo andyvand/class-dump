@@ -6,20 +6,13 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class NLModelConfiguration, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NLModelImplL : NLModelImpl
 {
     const void *_maxEntModel;
-    NLModelConfiguration *_configuration;
-    NSDictionary *_labelMap;
-    NSDictionary *_vocabularyMap;
-    NSDictionary *_documentFrequencyMap;
-    unsigned long long _numberOfTrainingInstances;
 }
 
-- (id);
+- (id)deviceRegion;
 - (id);
 - (id);
 - (unsigned long long);
@@ -28,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addNewAssetsToCollectionShareWithAssetSource:(id)arg1 withBatchCommentText:(unsigned long long)arg2 outNewAssetIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_connectedToACOverride;
 - (void);
 
 @end

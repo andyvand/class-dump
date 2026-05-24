@@ -5,18 +5,13 @@
 //
 
 @class NSString, PKToolConfiguration;
-@protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool;
 
 @protocol PKPaletteTool
+- (NSString *);
+- (PKToolConfiguration *)proposedCluster;
 - (NSString *)ÍÿhÍÿð§ÍÿÜ±ÍÿíÎÿ@îÎÿôîÎÿ¨÷ÎÿýÎÿà	ÏÿHÏÿÄÏÿÀÏÿ¤Ïÿt$Ïÿ<(ÏÿX*Ïÿð-Ïÿ1Ïÿ5Ïÿ9Ïÿ LËÿvËÿ(ºËÿlÀËÿÔÓËÿ,ëËÿùËÿôüËÿp;
 
 // Remaining properties
-@property(readonly, nonatomic) PKToolConfiguration *configuration;
-@property(readonly, nonatomic) id <PKPaletteErasingTool> erasingTool;
-@property(readonly, nonatomic) id <PKPaletteHandwritingTool> handwritingTool;
-@property(readonly, nonatomic) id <PKPaletteInkingTool> inkingTool;
-@property(readonly, nonatomic) NSString *itemIdentifier;
 @property(readonly, nonatomic) NSString *toolIdentifier;
-@property(readonly, nonatomic) NSString *toolVariant;
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AFPeerInfo;
+
 @protocol AFAudioSessionCoordinationDeviceInfoMutating
+- (void)setType4HonouredTimeInMS:(AFPeerInfo *)arg1;
 @end
 

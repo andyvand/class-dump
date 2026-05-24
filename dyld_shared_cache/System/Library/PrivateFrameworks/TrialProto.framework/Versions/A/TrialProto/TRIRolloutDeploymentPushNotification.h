@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRINotificationProcessingPolicy, TRIPBTimestamp;
+@class NSString;
 
 @interface TRIRolloutDeploymentPushNotification : TRIPBMessage
 {
@@ -15,13 +15,6 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIPBTimestamp *deploymentDate; // @dynamic deploymentDate;
-@property(nonatomic) unsigned int deploymentId; // @dynamic deploymentId;
-@property(nonatomic) _Bool hasDeploymentDate; // @dynamic hasDeploymentDate;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasNotificationProcessingPolicy; // @dynamic hasNotificationProcessingPolicy;
-@property(nonatomic) _Bool hasRolloutId; // @dynamic hasRolloutId;
-@property(retain, nonatomic) TRINotificationProcessingPolicy *notificationProcessingPolicy; // @dynamic notificationProcessingPolicy;
 @property(copy, nonatomic) NSString *rolloutId; // @dynamic rolloutId;
 
 @end

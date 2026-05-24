@@ -9,7 +9,6 @@
 @interface QCURLConnection
 {
     NSURL *_url;
-    id _delegate;
 }
 
 - (id);

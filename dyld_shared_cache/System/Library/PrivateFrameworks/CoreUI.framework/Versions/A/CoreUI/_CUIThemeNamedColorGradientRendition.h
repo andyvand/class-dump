@@ -12,26 +12,18 @@ __attribute__((visibility("hidden")))
 @interface _CUIThemeNamedColorGradientRendition : CUIThemeRendition
 {
     NSArray *_colorNames;
-    NSArray *_colorStops;
-    long long _gradientType;
-    struct CGPoint _gradientStart;
-    struct CGPoint _gradientEnd;
 }
 
-- (id);
+- (id);
 - (id);
 - (long long);
-- (struct CGPoint);
+- (struct CGPoint)(;
 - (struct CGPoint);
 - (void);
 - (id)que;
-- (id)ThreePartHUniform;
+- (id)kCoreThemeThreePartHUniform;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *colorNames; // @synthesize colorNames=_colorNames;
-@property(readonly, nonatomic) NSArray *colorStops; // @synthesize colorStops=_colorStops;
-@property(readonly, nonatomic) struct CGPoint gradientEndPoint; // @synthesize gradientEndPoint=_gradientEnd;
-@property(readonly, nonatomic) struct CGPoint gradientStartPoint; // @synthesize gradientStartPoint=_gradientStart;
 @property(readonly, nonatomic) long long gradientType; // @synthesize gradientType=_gradientType;
 
 @end

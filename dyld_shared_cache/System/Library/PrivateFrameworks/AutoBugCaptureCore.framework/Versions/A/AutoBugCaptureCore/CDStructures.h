@@ -8,26 +8,3 @@
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
-#pragma mark Typedef'd Structures
-
-typedef struct {
-    int *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_95bda58d;
-
-typedef struct {
-    long long *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_5df41632;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int globalDecision:1;
-} CDStruct_121d7f17;
-
-typedef struct {
-    unsigned int ver:1;
-} CDStruct_aabecbda;
-

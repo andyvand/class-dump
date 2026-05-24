@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (id)�;
+- (_Bool)_	;
+- (oneway void)!;
+- (_Bool);
 - (struct _NSZone *)query exception:%@ /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)early_output_handler;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

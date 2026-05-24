@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBMediaDestination, _INPBMediaSearch, _INPBPrivateAddMediaIntentData;
+@class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBAddMediaIntent
-- (_Bool)plateForLanguage:requiresSiriCompatibility: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSArray *);
+- (_INPBIntentMetadata *)s/4~COUiugCUeOdUPJKBmC2cje3Ex1DzGwiw5z-foFo/Library/Caches/com.apple.xbs/TemporaryDirectory.ecuqJw/Sources/backupd/TimeMachine-Framework/DisksAndFilesystems/TMFSUtilities.m;
+- (_Bool)_responseTemplateForLanguage:requiresSiriCompatibility: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMediaDestination;
-@property(readonly, nonatomic) _Bool hasMediaSearch;
-@property(readonly, nonatomic) _Bool hasPrivateAddMediaIntentData;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBMediaDestination *mediaDestination;
-@property(copy, nonatomic) NSArray *mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
-@property(retain, nonatomic) _INPBMediaSearch *mediaSearch;
-@property(retain, nonatomic) _INPBPrivateAddMediaIntentData *privateAddMediaIntentData;
 @end
 

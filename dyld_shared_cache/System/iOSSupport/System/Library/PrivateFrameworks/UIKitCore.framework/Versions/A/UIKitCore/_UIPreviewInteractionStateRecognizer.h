@@ -8,51 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionStateRecognizer
 {
     unsigned long long _deepPressCount;
-    double _smoothedForce;
-    double _maximumForce;
-    double _previousEffectiveTouchForce;
-    double _timeMark;
-    double _currentTime;
-    double _previousTime;
-    double _popOffsetInitial;
-    double _popOffsetLongterm;
-    double _popOffsetDecayAlpha;
-    double _lowpassForceAlpha;
-    double _popDecayingOffset;
-    double _popReductionForce;
-    double _progressToStrongThreshold;
-    _Bool _allowsPopOffsetDecay;
-    double _popForceReductionThreshold;
-    double _popAlwaysThreshold;
-    double _highPopThreshold;
-    double _previousPopThreshold;
-    double _saturationForce;
-    double _revealThreshold;
-    double _standardThreshold;
-    double _strongThreshold;
-    double _hintAndPeekInterval;
-    double _hintReductionForce;
-    double _actualHintForce;
-    double _actualPeekForce;
-    double _actualPopForce;
-    double _actualHintTime;
-    double _actualPeekTime;
-    double _actualPopTime;
-    _Bool _shouldDelayReveal;
-    long long _currentState;
-    double _minimumPreviewDuration;
-    double _currentTouchForce;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (double);
 - (double);
-- (void);
-- (id);
+- (void)dataSourceInsertItemsAtHead:(id)arg1 inSection: /* Error: Ran out of types for this method. */;
+- (id)rson.m;
 - (double);
 - (double);
 - (void);
@@ -61,18 +27,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)!PCùñb1Â0@ù
 × ;
-- (double)DisplaySize: /* Error: Ran out of types for this method. */;
-- (double)ndToViewsForDisappearanceTransition;
+- (double)setPreferSmallerDisplaySize: /* Error: Ran out of types for this method. */;
+- (double)_shouldFlipFromAndToViewsForDisappearanceTransition;
 - (void)ä¼¤;
 - (void)|¼;
 - (long long);
 
 // Remaining properties
 @property(nonatomic) long long currentState; // @synthesize currentState=_currentState;
-@property(nonatomic) double currentTouchForce; // @synthesize currentTouchForce=_currentTouchForce;
-@property(nonatomic) double minimumPreviewDuration; // @synthesize minimumPreviewDuration=_minimumPreviewDuration;
-@property(nonatomic) _Bool shouldDelayReveal; // @synthesize shouldDelayReveal=_shouldDelayReveal;
-@property(readonly, nonatomic) double velocity; // @dynamic velocity;
 
 @end
 

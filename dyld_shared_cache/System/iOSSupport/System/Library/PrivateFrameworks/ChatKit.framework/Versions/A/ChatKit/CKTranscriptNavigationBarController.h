@@ -4,56 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChatKit.CKTranscriptNavigationBarViewProxy, ChatKit.NavigationBarState, UINavigationItem;
-@protocol CKTranscriptNavigationBarDelegate;
+@class UINavigationItem;
 
 @interface CKTranscriptNavigationBarController
 {
     id navigationItem;
-    UINavigationItem *backNavigationItem;
-    id findMySessionCoordinator;
-    void delegate;
-    id contextProviders;
-    ChatKit.NavigationBarState *currentState;
-    id titleView;
-    long long overrideUserInterfaceStyle;
 }
 
-+ (void);
++ (void)UI) textStorageForColumn:(CDUnknownBlockType)arg1 ];
+- (id)0@"NSWindow"8;
+- (void)webView:shouldGoToBackForwardListItem:willUseInstantBack:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_authorHighlightsController;
+- (void)Reachable;
+- (void)olderListSectionIdentifiersToButtonIdentifiers;
+- (id)ry",C,N,V_surroundingAttributes;
+- (void)ICCopyModernNotesToLegacyAccountOperation;
 - (id);
 - (void);
 - (void);
+- (void)dispatch_queueCGShyA1_GGA4_GSg;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (void);
+- (void)c;
+- (void)i;
+- (id)a;
+- (struct CGRect)O;
+- (void)s;
 - (void);
 - (void);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)_;
+- (id);
 - (void);
-- (void)tem:(id)arg1 inView: /* Error: Ran out of types for this method. */;
+- (void)_previewCenterForVisibleItem:(id)arg1 inView: /* Error: Ran out of types for this method. */;
 - (id)$;
-- (void)torColor1;
+- (void)CKFSMPickerPageIndicatorColor1;
 
 // Remaining properties
 @property(nonatomic, readonly) UINavigationItem *backNavigationItem; // @synthesize backNavigationItem;
-@property(nonatomic, retain) ChatKit.NavigationBarState *currentState; // @synthesize currentState;
-@property(nonatomic) __weak id <CKTranscriptNavigationBarDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) long long overrideUserInterfaceStyle; // @synthesize overrideUserInterfaceStyle;
-@property(nonatomic, readonly) ChatKit.CKTranscriptNavigationBarViewProxy *viewProxy;
 
 @end
 

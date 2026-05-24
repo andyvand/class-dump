@@ -6,17 +6,13 @@
 
 #import <CoreRoutine/RTEnumerationOptions.h>
 
-@class NSDate;
-
 @interface RTAuthorizedLocationConfirmationStatusEnumerationOptions : RTEnumerationOptions
 {
     unsigned long long _batchSize;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-- (id);
-- (id);
+- (id)[;
+- (id)tionMatrix";
 - (id);
 - (id);
 - (void);
@@ -26,12 +22,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

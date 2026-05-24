@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSServiceManager, MABinaryAdjacency, NSDictionary, NSObject, PGGraphLocationHelper, PGGraphMomentNodeCollection, PGGraphYearNodeCollection, PGMemoryMomentNodesWithBlockedFeatureCache, PGMemoryProcessedScenesAndFacesCache;
-@protocol OS_os_log;
+@class PGGraphMomentNodeCollection, PGMemoryProcessedScenesAndFacesCache;
 
 @interface PGMemoryGenerationContext
 {
     PGGraphMomentNodeCollection *_momentNodesAtSensitiveLocations;
-    PGGraphMomentNodeCollection *_momentNodesForProcessingWindow;
-    PGGraphMomentNodeCollection *_momentNodesInterestingWithAlternateJunking;
-    PGGraphMomentNodeCollection *_momentNodesInterestingForMemories;
-    NSDictionary *_numberOfAssetsInExtendedCurationByMomentNodeIdentifier;
-    NSDictionary *_contentScoreByMomentNodeIdentifier;
-    MABinaryAdjacency *_yearNodesByMomentNode;
-    NSDictionary *_yearByYearNodeIdentifier;
-    PGGraphYearNodeCollection *_yearNodes;
-    PGMemoryProcessedScenesAndFacesCache *_processedScenesAndFacesCache;
-    PGMemoryMomentNodesWithBlockedFeatureCache *_momentNodesWithBlockedFeatureCache;
-    PGGraphLocationHelper *_locationHelper;
-    CLSServiceManager *_serviceManager;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 - (id);
@@ -33,23 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)tokenizerWithString:unit:locale: /* Error: Ran out of types for this method. */;
+- (id)performSelector:(id)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
+- (id)performBlockOnApplicationQueue:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)axk_elementControllerForElement:(id)arg1;
+- (id)applicationWithProcessIdentifier:(id)arg1 applicationIdentifier:(id)arg2;
 - (double);
 - (id);
-- (void)hlightUpdateTypePropertyDate;
-- (id)an;
-- (id)ay;
+- (void)PGGraphHighlightUpdateTypePropertyDate;
+- (id)minimumImportantLocationPresenceRatioInLifespan;
+- (id)ZKWPeopleBirthday;
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphLocationHelper *locationHelper; // @synthesize locationHelper=_locationHelper;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) PGMemoryMomentNodesWithBlockedFeatureCache *momentNodesWithBlockedFeatureCache; // @synthesize momentNodesWithBlockedFeatureCache=_momentNodesWithBlockedFeatureCache;
 @property(readonly, nonatomic) PGMemoryProcessedScenesAndFacesCache *processedScenesAndFacesCache; // @synthesize processedScenesAndFacesCache=_processedScenesAndFacesCache;
-@property(readonly, nonatomic) CLSServiceManager *serviceManager; // @synthesize serviceManager=_serviceManager;
 
 @end
 

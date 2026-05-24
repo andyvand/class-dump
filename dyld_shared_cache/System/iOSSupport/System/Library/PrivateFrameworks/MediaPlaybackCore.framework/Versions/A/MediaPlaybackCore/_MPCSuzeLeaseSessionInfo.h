@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSuzeLeaseSession, MPCSuzeLeaseSession;
-
 __attribute__((visibility("hidden")))
 @interface _MPCSuzeLeaseSessionInfo
 {
     _Bool _shouldStopWhenFinished;
-    long long _clientCount;
-    ICSuzeLeaseSession *_icLeaseSession;
-    MPCSuzeLeaseSession *_mpcLeaseSession;
 }
 
 - (_Bool);
-- (void);
+- (void)ent"24@"ACDAccountStore"32^@40;
 - (id);
 - (id);
-- (id);
+- (id)brary/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (long long);
 - (void);
 - (void)=Error;
 
 // Remaining properties
 @property(nonatomic) long long clientCount; // @synthesize clientCount=_clientCount;
-@property(readonly, nonatomic) ICSuzeLeaseSession *icLeaseSession; // @synthesize icLeaseSession=_icLeaseSession;
-@property(readonly, nonatomic) MPCSuzeLeaseSession *mpcLeaseSession; // @synthesize mpcLeaseSession=_mpcLeaseSession;
-@property(nonatomic) _Bool shouldStopWhenFinished; // @synthesize shouldStopWhenFinished=_shouldStopWhenFinished;
 
 @end
 

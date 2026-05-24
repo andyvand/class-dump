@@ -6,7 +6,7 @@
 
 #import <AVFCapture/AVMetadataObject.h>
 
-@class AVMetadataMachineReadableCodeObjectInternal, CIBarcodeDescriptor, NSArray, NSString;
+@class AVMetadataMachineReadableCodeObjectInternal, CIBarcodeDescriptor;
 
 @interface AVMetadataMachineReadableCodeObject : AVMetadataObject
 {
@@ -15,10 +15,10 @@
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)timeoutInterval;
+- (id)TB,N,V_isBackgroundVocal;
+- (id)ished;
+- (id)t<OS_nw_protocol_options>"8;
 - (void);
 - (id);
 - (id);
@@ -26,9 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *corners;
 @property(readonly) CIBarcodeDescriptor *descriptor;
-@property(readonly) NSString *stringValue;
 
 @end
 

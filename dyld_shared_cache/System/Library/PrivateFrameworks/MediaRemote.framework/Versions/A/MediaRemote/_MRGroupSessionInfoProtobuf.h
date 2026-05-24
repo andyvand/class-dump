@@ -9,28 +9,20 @@
 @interface _MRGroupSessionInfoProtobuf
 {
     NSString *_equivalentMediaIdentifier;
-    NSString *_hostDisplayName;
-    NSString *_identifier;
-    int _routeType;
-    _Bool _hosted;
-    _Bool _placeholder;
-    struct {
-        unsigned int placeholder:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)d;
 - (int);
-- (void);
-- (int);
+- (void)_fkUserTransactionInsight;
+- (int)_failedRequiredRemoteAssetDownloadsByTaskIdentifier;
 - (id);
 - (void);
 - (void);
@@ -41,21 +33,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)0;
+- (id)notify_connection_issues;
 - (void);
 - (id);
-- (void)vicesFound;
+- (void)_localMatchingDevicesFound;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *equivalentMediaIdentifier; // @synthesize equivalentMediaIdentifier=_equivalentMediaIdentifier;
-@property(readonly, nonatomic) _Bool hasEquivalentMediaIdentifier;
-@property(nonatomic) _Bool hasPlaceholder;
-@property(retain, nonatomic) NSString *hostDisplayName; // @synthesize hostDisplayName=_hostDisplayName;
-@property(nonatomic) _Bool hosted; // @synthesize hosted=_hosted;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool placeholder; // @synthesize placeholder=_placeholder;
-@property(nonatomic) int routeType; // @synthesize routeType=_routeType;
 
 @end
 

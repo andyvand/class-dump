@@ -6,26 +6,18 @@
 
 #import <DaemonUtils/PreflightCacheInvalidationSource.h>
 
-@class NSString;
-
 @interface WatchInvalidationSource : PreflightCacheInvalidationSource
 {
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)(%@) Delaying %@s before executing incoming task within coalescing window - (%@);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

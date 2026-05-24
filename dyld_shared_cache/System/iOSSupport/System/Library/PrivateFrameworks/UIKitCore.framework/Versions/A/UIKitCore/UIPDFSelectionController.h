@@ -5,75 +5,51 @@
 //
 
 @class UIPDFPageView;
-@protocol UIPDFSelectionWidget, UIPDFSelectionWidget><NSObject;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFSelectionController
 {
     UIPDFPageView *_pageView;
-    _Bool _rangeMode;
-    id <UIPDFSelectionWidget><NSObject> _selectionWidget;
-    _Bool _resizingWidget;
-    struct CGPoint _selectionFixedPoint;
-    struct CGRect _selectionBounds;
-    _Bool _preceeds;
-    _Bool _isTracking;
-    struct CGPoint _adjustedPoint;
-    _Bool _hiding;
-    long long _firstIndex;
-    long long _lastIndex;
-    struct CGPoint _startPoint;
-    _Bool _needsLayout;
-    _Bool _cancelled;
-    _Bool _instantModeIsSuspended;
-    _Bool _instantHighlightMode;
 }
 
-- (_Bool);
+- (_Bool)IMDMessageFromStorageMonitor;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (_Bool);
+- (void) +H,|-;
 - (void);
 - (_Bool);
-- (struct CGPoint);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (struct CGPoint);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint)L;
+- (_Bool)future. %s vs now %s;
+- (void)fetching lock record %@;
+- (_Bool)stInfo %@;
+- (struct CGPoint)ation was for {%@}, currently {%@}.;
+- (void)casting unreadCountChanged;
+- (void)geWithCacheDelete -bool YES;
+- (void)bAction for category:(struct CGPoint)arg1 %ld. Resetting subCategory to None;
+- (struct CGPoint)OL}d;
+- (struct CGPoint)eZone;
+- (void)l;
+- (void)RelayRouting;
+- (id)˟;
 - (id);
-- (id);
-- (void);
+- (void)_payloadAuthEAPPlugins;
 - (id);
 - (id);
 - (_Bool)¼b;
 - (void)t²Ùÿ®@,;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint adjustedPoint; // @synthesize adjustedPoint=_adjustedPoint;
-@property(readonly, nonatomic) struct CGPoint currentSelectionPoint;
-@property(readonly, nonatomic) struct CGPoint initialSelectionPoint;
-@property(nonatomic) _Bool instantHighlightMode; // @synthesize instantHighlightMode=_instantHighlightMode;
-@property(readonly, nonatomic) _Bool isTracking; // @synthesize isTracking=_isTracking;
 @property(nonatomic) UIPDFPageView *pageView; // @synthesize pageView=_pageView;
-@property(readonly, nonatomic) _Bool rangeMode; // @synthesize rangeMode=_rangeMode;
-@property(readonly, nonatomic) id <UIPDFSelectionWidget> selectionWidget; // @synthesize selectionWidget=_selectionWidget;
 
 @end
 

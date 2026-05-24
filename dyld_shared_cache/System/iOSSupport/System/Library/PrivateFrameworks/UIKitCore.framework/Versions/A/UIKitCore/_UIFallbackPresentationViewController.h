@@ -6,39 +6,32 @@
 
 #import <UIKitCore/UIApplicationRotationFollowingController.h>
 
-@class UIWindow, _UIFallbackPresentationWindow;
+@class _UIFallbackPresentationWindow;
 
 @interface _UIFallbackPresentationViewController : UIApplicationRotationFollowingController
 {
     _UIFallbackPresentationWindow *_presentationWindow;
-    _Bool _hasPreservedKeyboardInputViews;
-    _Bool _hasDismissCompletionHandler;
-    UIWindow *_rotationDecider;
-    CDUnknownBlockType _presentationPreparationBlock;
 }
 
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tring"16;
+- (CDUnknownBlockType)scheduleMessageGUIDsInChatRowIDs:afterDate:flag:lane:reason:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateWatchdogTimerWithInterval: /* Error: Ran out of types for this method. */;
+- (_Bool)letionBlock: /* Error: Ran out of types for this method. */;
+- (void)Value %s to local key:(_Bool)arg1 %s;
+- (void)ar-------*/;
+- (void)a mention with a person identity for highlight:(id)arg1 %@. Attempting to find the handle for the mentioned identity.;
+- (void)noring edit message command for message:(int)arg1 %@;
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
-- (void)rchControllerWantsDefaultNavigationBarHidingBehavior;
+- (void)UISearchControllerWantsDefaultNavigationBarHidingBehavior;
 - (void)(³\;
 
 // Remaining properties
-@property(nonatomic) _Bool hasDismissCompletionHandler; // @synthesize hasDismissCompletionHandler=_hasDismissCompletionHandler;
 @property(nonatomic) _Bool hasPreservedKeyboardInputViews; // @synthesize hasPreservedKeyboardInputViews=_hasPreservedKeyboardInputViews;
-@property(copy, nonatomic) CDUnknownBlockType presentationPreparationBlock; // @synthesize presentationPreparationBlock=_presentationPreparationBlock;
-@property(retain, nonatomic) UIWindow *rotationDecider; // @synthesize rotationDecider=_rotationDecider;
 
 @end
 

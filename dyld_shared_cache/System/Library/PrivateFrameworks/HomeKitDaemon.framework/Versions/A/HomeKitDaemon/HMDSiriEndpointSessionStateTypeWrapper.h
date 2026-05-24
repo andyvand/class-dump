@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointSessionStateTypeWrapper
 {
     long long _value;
 }
 
-+ (id);
++ (id)numberOfAssetClusters100mPlusFromCenter;
 - (id);
-- (void);
+- (void)a;
 - (id);
-- (id);
-- (_Bool);
+- (id)(;
+- (_Bool)@;
 - (_Bool);
 - (id);
 - (long long)tanceID:managedObjectContext: /* Error: Ran out of types for this method. */;
 - (id)@Accessory returned incorrect data for readCurrentCleanModeValues, cannot submit clean modes in RVCUsageLogEvent. readCurrentCleanModeValues=%@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
 
 @end

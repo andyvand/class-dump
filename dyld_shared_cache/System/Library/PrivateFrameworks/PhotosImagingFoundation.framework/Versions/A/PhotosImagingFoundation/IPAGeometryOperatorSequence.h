@@ -6,28 +6,25 @@
 
 #import <PhotosImagingFoundation/IPAGeometryOperator.h>
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IPAGeometryOperatorSequence : IPAGeometryOperator
 {
     NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSMutableDictionary *map_identifierToOperator;
-    NSMutableDictionary *map_identifierToIndex;
-    NSMutableArray *_operators;
 }
 
-+ (id);
++ (id)0;
 + (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)TaggedPixelBufferGroupReceiver;
+- (_Bool)AVCaptureSynchronizedDataCollection;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)processStill;
 
 @end
 

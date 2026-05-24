@@ -4,69 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, UIImage;
-@protocol CNPhotoPickerProviderItemDelegate, CNScheduler;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerProviderItem
 {
     _Bool _allowsEditing;
-    NSData *_imageData;
-    NSData *_thumbnailImageData;
-    NSString *_recentsIdentifier;
-    NSString *_assetIdentifier;
-    NSString *_localizedVariantDisplayName;
-    id <CNScheduler> _renderingQueue;
-    id <CNScheduler> _callbackQueue;
-    NSDate *_sortDate;
-    id <CNPhotoPickerProviderItemDelegate> _delegate;
-    UIImage *_fullSizeImage;
-    UIImage *_croppedFullSizeImage;
-    UIImage *_thumbnailImage;
-    UIImage *_loadingPlaceholderImage;
-    NSData *_fullscreenImageData;
-    NSData *_filteredImageData;
-    NSString *_imageFilterName;
-    struct CGRect _cropRect;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
+- (void)W;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Q%;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)@;
+- (id);
+- (id);
+- (id);
+- (id)qa;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)Tf;
+- (id)9;
 - (void);
 - (id);
 - (void);
@@ -79,48 +61,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)(%Țh;
+- (id)eted=1, generation=? where tupleid=?;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void)ogramItem;
-- (struct CGRect)reenPopoverTestBackground;
+- (void)_monogramItem;
+- (struct CGRect)ShouldUseGreenPopoverTestBackground;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(readonly, nonatomic) _Bool allowsMoveAndScale;
-@property(readonly, nonatomic) _Bool allowsVariants;
-@property(retain, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(readonly, nonatomic) id <CNScheduler> callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(retain, nonatomic) UIImage *croppedFullSizeImage; // @synthesize croppedFullSizeImage=_croppedFullSizeImage;
-@property(nonatomic) __weak id <CNPhotoPickerProviderItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSData *filteredImageData; // @synthesize filteredImageData=_filteredImageData;
 @property(retain, nonatomic) UIImage *fullSizeImage; // @synthesize fullSizeImage=_fullSizeImage;
-@property(retain, nonatomic) NSData *fullscreenImageData; // @synthesize fullscreenImageData=_fullscreenImageData;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSString *imageFilterName; // @synthesize imageFilterName=_imageFilterName;
-@property(readonly, nonatomic) unsigned long long imageType;
-@property(retain, nonatomic) UIImage *loadingPlaceholderImage; // @synthesize loadingPlaceholderImage=_loadingPlaceholderImage;
-@property(retain, nonatomic) NSString *localizedVariantDisplayName; // @synthesize localizedVariantDisplayName=_localizedVariantDisplayName;
-@property(readonly, nonatomic) NSString *localizedVariantsTitle;
-@property(readonly, nonatomic) NSData *originalImageData;
-@property(retain, nonatomic) NSString *recentsIdentifier; // @synthesize recentsIdentifier=_recentsIdentifier;
-@property(readonly, nonatomic) id <CNScheduler> renderingQueue; // @synthesize renderingQueue=_renderingQueue;
-@property(readonly, nonatomic) _Bool shouldShowCaption;
-@property(retain, nonatomic) NSDate *sortDate; // @synthesize sortDate=_sortDate;
-@property(retain, nonatomic) UIImage *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
-@property(retain, nonatomic) NSData *thumbnailImageData; // @synthesize thumbnailImageData=_thumbnailImageData;
-@property(readonly, nonatomic) NSString *variantIdentifier;
 
 @end
 

@@ -7,17 +7,13 @@
 @interface ChatKit.CKCloudSyncNavBarStatusView
 {
     id placement;
-    id progressView;
-    id syncStatusLabel;
-    id hasFinishedFirstLayoutPass;
-    id activeStatusSubview;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)snapshotForMetadata:(_Bool)arg1 configurations:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)snapshotForMetadata:(id)arg1 configurations:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)loadNibNamed:owner:topLevelObjects: /* Error: Ran out of types for this method. */;
+- (_Bool)_disclaimerHeightConstraint;
 - (void);
 - (struct CGSize);
 - (id);

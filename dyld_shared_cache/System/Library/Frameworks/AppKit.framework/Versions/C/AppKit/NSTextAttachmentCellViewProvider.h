@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)iderTargetMinMaxSizes:forController: /* Error: Ran out of types for this method. */;
+- (void)considerTargetMinMaxSizes:forController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSViewTextAttachmentCell *textAttachmentCell; // @synthesize textAttachmentCell=_textAttachmentCell;

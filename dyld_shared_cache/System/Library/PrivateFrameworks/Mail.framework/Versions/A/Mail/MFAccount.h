@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ECAccount, ECAuthScheme, NSArray, NSDate, NSImage, NSString;
+@class NSDate;
 
 @interface MFAccount
 {
     _Bool _primitiveIsOffline;
-    _Bool _primitiveIsWillingToGoOnline;
-    _Bool _autosynchronizingEnabled;
-    NSArray *emailAddressStrings;
-    ACAccount *_systemAccount;
-    ECAccount *_baseAccount;
-    NSDate *_lastConnectionValidationTime;
 }
 
 + (void);
@@ -23,14 +17,14 @@
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)7;
++ (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)Le;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -43,8 +37,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)k;
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -59,7 +53,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -67,7 +61,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -77,7 +71,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (_Bool);
 - (_Bool);
@@ -95,7 +89,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ab;
 - (id);
 - (id);
 - (id);
@@ -110,7 +104,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)d ;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -119,38 +113,38 @@
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (id)p>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::RefPtr<WebViewGroup>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebViewGroup>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebViewGroup>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::RefPtr<WebViewGroup>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)Party Cookie Blocking (ITP);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)AUTH3_NACK;
 - (id);
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long);
-- (void);
-- (long long);
+- (void);
+- (long long)@"NSDate",R,V_targetDate;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)Ȧ_9);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
+- (id)H;
 - (id);
 - (id);
 - (id);
+- (_Bool)9h;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool)eatedFolders;
+- (_Bool)createdFolders;
 - (void);
 - (id);
 - (id)%{public}@ Received an error while syncing:%{public}@ /* Error: Ran out of types for this method. */;
@@ -167,76 +161,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *accountTypeIdentifier;
-@property(readonly, copy) NSString *accountTypeString;
-@property _Bool allowInsecureAuthentication;
-@property(readonly, copy) NSString *altDSID;
-@property(readonly, copy) NSString *appleAuthenticationToken;
-@property(readonly, copy) NSString *applePersonID;
-@property(copy) NSString *authenticationScheme;
-@property(nonatomic) _Bool autosynchronizingEnabled; // @synthesize autosynchronizingEnabled=_autosynchronizingEnabled;
-@property(readonly, copy) NSString *base64EncodedAppleAuthenticationToken2;
-@property(readonly) ECAccount *baseAccount; // @synthesize baseAccount=_baseAccount;
-@property(readonly, nonatomic) _Bool canGoOffline;
-@property(copy) NSString *canonicalEmailAddress;
-@property(readonly, copy) NSString *clientInfo;
-@property _Bool configureDynamically;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) long long defaultPortNumber;
-@property(readonly, nonatomic) long long defaultSecurePortNumber;
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy) NSArray *emailAddressStrings; // @synthesize emailAddressStrings;
-@property(readonly, copy, nonatomic) NSDate *expiryDate;
-@property(copy) NSString *externalHostname;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C
-
-@property(readonly) _Bool hasPasswordCredential;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *hostname;
-@property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isActive;
-@property(readonly) _Bool isAppleAccount;
-@property(nonatomic) _Bool isEnabled;
-@property(readonly) _Bool isGmailAccount;
-@property _Bool isOffline;
-@property _Bool isWillingToGoOnline;
-@property(readonly) _Bool isYahooAccount;
 @property(retain) NSDate *lastConnectionValidationTime; // @synthesize lastConnectionValidationTime=_lastConnectionValidationTime;
-@property(readonly, copy) NSString *machineID;
-@property(readonly, copy) NSString *oauthToken;
-@property(readonly, copy) NSString *offlineDisplayName;
-@property(readonly, copy) NSString *oneTimePassword;
-@property(readonly, copy) NSString *parentAccountIdentifier;
-@property(copy) NSString *password;
-@property long long portNumber;
-@property(retain) ECAuthScheme *preferredAuthScheme;
-@property(readonly) _Bool primaryiCloudAccount;
-@property _Bool primitiveIsOffline; // @synthesize primitiveIsOffline=_primitiveIsOffline;
-@property _Bool primitiveIsWillingToGoOnline; // @synthesize primitiveIsWillingToGoOnline=_primitiveIsWillingToGoOnline;
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-@property(readonly, copy, nonatomic) NSString *saslProfileName;
-@property long long securityLayerType;
-@property _Bool shouldUseAuthentication;
-@property(readonly) NSImage *squareIcon;
-@property(readonly, copy, nonatomic) NSArray *standardPorts;
-@property(readonly, copy, nonatomic) NSArray *standardSSLPorts;
-@property(readonly, copy, nonatomic) NSString *statisticsKind;
-@property(copy) NSString *storedDisplayName;
-@property(readonly) Class superclass;
-@property(retain) ACAccount *systemAccount; // @synthesize systemAccount=_systemAccount;
-@property(copy) NSString *username;
-@property(readonly) _Bool usesParentAuthentication;
-@property _Bool usesSSL;
 
 @end
 

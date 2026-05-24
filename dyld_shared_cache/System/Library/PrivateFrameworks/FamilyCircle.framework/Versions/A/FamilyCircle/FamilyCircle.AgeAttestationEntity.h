@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FamilyCircle.AgeAttestationEntity
 {
@@ -14,13 +14,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *altDSID; // @dynamic altDSID;
-@property(nonatomic, copy) NSString *bundleID; // @dynamic bundleID;
-@property(nonatomic, copy) NSDate *createdAt; // @dynamic createdAt;
-@property(nonatomic, copy) NSDate *invalidatedAt; // @dynamic invalidatedAt;
-@property(nonatomic) int lowerbound; // @dynamic lowerbound;
-@property(nonatomic) int response; // @dynamic response;
-@property(nonatomic) int responseType; // @dynamic responseType;
-@property(nonatomic) int upperbound; // @dynamic upperbound;
 
 @end
 

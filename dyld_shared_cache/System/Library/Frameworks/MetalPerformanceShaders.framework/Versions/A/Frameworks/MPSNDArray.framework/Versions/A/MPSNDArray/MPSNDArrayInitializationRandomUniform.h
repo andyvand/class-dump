@@ -9,7 +9,6 @@
 @interface MPSNDArrayInitializationRandomUniform : MPSNDArrayInitialization
 {
     float _minimum;
-    float _maximum;
 }
 
 - (unsigned long long);
@@ -21,7 +20,6 @@
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) float maximum; // @synthesize maximum=_maximum;
 @property(readonly, nonatomic) float minimum; // @synthesize minimum=_minimum;
 
 @end

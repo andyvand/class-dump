@@ -18,7 +18,6 @@
 - (void):â¦ | unable to create events database [] url=%{public}@ error=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsChangingCurrentItem; // @dynamic allowsChangingCurrentItem;
 @property(readonly, copy, nonatomic) NSString *targetContentItemID; // @synthesize targetContentItemID=_targetContentItemID;
 
 @end

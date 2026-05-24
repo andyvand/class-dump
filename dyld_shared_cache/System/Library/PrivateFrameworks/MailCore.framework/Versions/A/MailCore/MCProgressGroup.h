@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCDiscretionaryWorkScheduler, NSMutableDictionary, NSProgress;
+@class MCDiscretionaryWorkScheduler, NSProgress;
 
 @interface MCProgressGroup
 {
     MCDiscretionaryWorkScheduler *_workScheduler;
-    NSMutableDictionary *_progressBySlice;
-    NSProgress *_parent;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak NSProgress *parent; // @synthesize parent=_parent;
-@property(retain, nonatomic) MCDiscretionaryWorkScheduler *workScheduler;
 
 @end
 

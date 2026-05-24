@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)';
 - (double)w keyboard with no descriptor;
 
 @end

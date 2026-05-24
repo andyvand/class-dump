@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSString;
+@class NSFileManager;
 
 @interface IMDGroupPhotoDonationManager
 {
@@ -19,18 +19,11 @@
 - (void)count = redonation_count - CASE WHEN OLD.index_state = 3 THEN 1 ELSE 0 END
     WHERE id = 1;
 END;;
-- (void)hmentWithROWIDWithSyncState_IPCAction;
+- (void)IMDAttachmentRecordMarkAttachmentWithROWIDWithSyncState_IPCAction;
 - (id)Øäpä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

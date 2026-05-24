@@ -5,5 +5,8 @@
 //
 
 @protocol DDLogFormatter
+
+@optional
+- (void)Tw;
 @end
 

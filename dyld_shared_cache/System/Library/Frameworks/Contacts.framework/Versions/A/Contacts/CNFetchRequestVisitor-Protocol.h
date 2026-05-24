@@ -5,5 +5,7 @@
 //
 
 @protocol CNFetchRequestVisitor
+- (void);
+- (void);
 @end
 

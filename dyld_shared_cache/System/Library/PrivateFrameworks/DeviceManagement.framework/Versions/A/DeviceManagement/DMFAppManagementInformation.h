@@ -9,10 +9,6 @@
 @interface DMFAppManagementInformation
 {
     unsigned long long _state;
-    unsigned long long _options;
-    NSString *_redemptionCode;
-    NSString *_unusedRedemptionCode;
-    NSString *_displayName;
 }
 
 + (id);
@@ -27,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -36,10 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSString *redemptionCode; // @synthesize redemptionCode=_redemptionCode;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *unusedRedemptionCode; // @synthesize unusedRedemptionCode=_unusedRedemptionCode;
 
 @end
 

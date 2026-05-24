@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSMutableArray, NUPurgeableStoragePool, PIParallaxColorAnalysisRequest;
+@class NUPurgeableStoragePool, PIParallaxColorAnalysisRequest;
 
 @interface _PIParallaxColorAnalysisJob
 {
     NUPurgeableStoragePool *_storagePool;
-    NSMutableArray *_renderResources;
-    CIImage *_hueChromaImage;
-    long long _alphaCount;
-    double _medianLuminance;
-    NSArray *_dominantHues;
-    NSArray *_dominantGrays;
-    NSArray *_dominantColors;
-    CDStruct_996ac03c _imageRect;
 }
 
 - (void);
@@ -33,7 +25,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -47,22 +39,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (CDStruct_996ac03c);
+- (CDStruct_0973877e);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)8o^@56;
 
 // Remaining properties
-@property(nonatomic) long long alphaCount; // @synthesize alphaCount=_alphaCount;
 @property(readonly, nonatomic) PIParallaxColorAnalysisRequest *colorAnalysisRequest;
-@property(copy, nonatomic) NSArray *dominantColors; // @synthesize dominantColors=_dominantColors;
-@property(copy, nonatomic) NSArray *dominantGrays; // @synthesize dominantGrays=_dominantGrays;
-@property(copy, nonatomic) NSArray *dominantHues; // @synthesize dominantHues=_dominantHues;
-@property(retain, nonatomic) CIImage *hueChromaImage; // @synthesize hueChromaImage=_hueChromaImage;
-@property(nonatomic) CDStruct_996ac03c imageRect; // @synthesize imageRect=_imageRect;
-@property(nonatomic) double medianLuminance; // @synthesize medianLuminance=_medianLuminance;
 
 @end
 

@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol GCSystemGestureXPCProxyRemoteClientEndpointInterface, GCSystemGestureXPCProxyServerEndpointDelegate, NSObject><NSCopying><NSSecureCoding, _GCControllerComponentDescription, _GCIPCEndpointConnection;
+@protocol GCSystemGestureXPCProxyRemoteClientEndpointInterface, _GCControllerComponentDescription;
 
 __attribute__((visibility("hidden")))
 @interface GCSystemGestureXPCProxyServerEndpoint
 {
     id <GCSystemGestureXPCProxyRemoteClientEndpointInterface> _clientEndpoint;
-    id <_GCIPCEndpointConnection> _connection;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    unsigned long long _pendingUpdates;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    id <GCSystemGestureXPCProxyServerEndpointDelegate> _delegate;
-    id _userInfo;
 }
 
 - (id);
+- (void)';
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)Ќ;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)updateBlock;
 - (void);
 - (void);
 - (void);
@@ -36,17 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GCSystemGestureXPCProxyServerEndpointDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) id <_GCControllerComponentDescription> receiverDescription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

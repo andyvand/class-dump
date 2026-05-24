@@ -9,18 +9,16 @@
 @interface COMAPPLEFELDSPARPROTOCOLANALYTICSEVENTSPurchaseOffersItem
 {
     NSString *_purchaseId;
-    int _purchaseType;
-    CDStruct_53d4ade2 _has;
 }
 
+- (void)_videoQueue_updateCurrentPixelBuffer;
+- (id)_thumbnailAutoplayTimeRange;
+- (_Bool)_possiblePerformerClassForActionType:assetCollectionReference: /* Error: Ran out of types for this method. */;
+- (int)_playbackState;
 - (void);
-- (id);
-- (_Bool);
-- (int);
-- (void);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 - (void);
@@ -30,14 +28,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)unt;
+- (id)P;
+- (void)channelTagsCount;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPurchaseId;
-@property(nonatomic) _Bool hasPurchaseType;
-@property(retain, nonatomic) NSString *purchaseId; // @synthesize purchaseId=_purchaseId;
-@property(nonatomic) int purchaseType; // @synthesize purchaseType=_purchaseType;
 
 @end
 

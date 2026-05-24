@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _CFPasteboardCache, _CFPasteboardClientInstanceID;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface _CFPasteboardStore
 {
     struct __CFString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    _CFPasteboardCache *_cache;
-    NSObject<OS_dispatch_queue> *_patternDetectionQueue;
-    unsigned char _restrictSandboxExtension;
-    int _allowedSandboxExtensionPID;
-    CDStruct_4c969caf _allowedSandboxExtensionAuditToken;
-    _CFPasteboardClientInstanceID *_owner;
-    unsigned char _ownerHasPendingChanges;
-    _CFPasteboardClientInstanceID *_destinationProcessID;
-    struct __CFDictionary *_clientInstancesByUUID;
-    struct __CFSet *_clientInstancesWithCacheInfoForCurrentGeneration;
-    NSObject<OS_dispatch_source> *_expirationTimer;
-    unsigned char _isExcludedFromHistory;
-    double _detectionLastDialogRequestTime;
-    long long _detectionLastDialogGeneration;
-    unsigned char _detectionLastDialogResponse;
 }
 
 + (id);
-+ (struct __CFString *);
-+ (struct __CFArray *);
++ (struct __CFString *);
++ (struct __CFArray *)qA;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (unsigned char);
-- (int);
+- (int)n,;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
@@ -47,21 +34,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void).;
+- (void);
+- (void);
+- (void)R	;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)o;
 - (const struct __CFArray *);
 - (void);
 - (void);
@@ -78,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qA;
 - (void);
 - (void);
 - (id);

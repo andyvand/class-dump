@@ -9,58 +9,49 @@
 @interface GEORPFeedbackTextListField
 {
     PBDataReader *_reader;
-    NSMutableArray *_addeds;
-    NSMutableArray *_originals;
-    NSMutableArray *_removeds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_c0dca870 _flags;
 }
 
++ (Class)0h;
 + (Class);
 + (Class);
-+ (Class);
-+ (_Bool);
++ (_Bool)setLaneClosureType:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (void)associatedServiceName;
+- (unsigned long long)setAllAccounts: /* Error: Ran out of types for this method. */;
+- (id)StoreCoordinator",R;
+- (unsigned long long)cropRects;
+- (id)logger;
+- (id)NOpenDirectoryFacadeProtocolP;
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (unsigned long long)t;
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)supportJarvisVoiceTrigger;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (void);
 - (id)has_serverOverriddenPosition"b1"has_sortType"b1"has_enableServerOverriddenPositioning"b1"has_selectionFromQuery"b1};
-- (id)nt;
+- (id)byteCompletedCount;
 - (id)øãÈäÐå;
-- (id)USE_UNKNOWN;
+- (id)ARTWORK_USE_UNKNOWN;
 - (void)a§X5N@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *addeds;
-@property(retain, nonatomic) NSMutableArray *originals;
-@property(retain, nonatomic) NSMutableArray *removeds;
 
 @end
 

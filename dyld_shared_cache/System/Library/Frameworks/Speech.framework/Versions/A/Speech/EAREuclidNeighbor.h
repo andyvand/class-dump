@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface EAREuclidNeighbor
 {
     NSString *_name;
-    NSNumber *_distance;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)worldWithName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *distance; // @synthesize distance=_distance;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

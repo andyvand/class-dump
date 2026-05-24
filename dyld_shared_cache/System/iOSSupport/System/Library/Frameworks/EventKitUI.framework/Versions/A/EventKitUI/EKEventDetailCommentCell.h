@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
+- (_Bool)2DB928B56DC222LLP;
 
 @end
 

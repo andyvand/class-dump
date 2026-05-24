@@ -5,5 +5,6 @@
 //
 
 @protocol PLPhotoAnalysisServiceProviderProtocol
+- (id)Ƴr;
 @end
 

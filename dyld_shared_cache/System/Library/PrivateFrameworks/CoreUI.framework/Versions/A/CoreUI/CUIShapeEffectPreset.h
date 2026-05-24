@@ -7,12 +7,9 @@
 @interface CUIShapeEffectPreset
 {
     CDStruct_c57d91d4 _parameterList[125];
-    unsigned int _effectIndex[26];
-    double _scaleFactor;
-    float _minimumShadowSpread;
 }
 
-+ (struct _CUIVibrantColorMatrixOptions);
++ (struct _CUIVibrantColorMatrixOptions);
 + (struct _CUIVibrantColorMatrixOptions);
 + (id);
 + (struct _CUIVibrantColorMatrixOptions);
@@ -24,11 +21,15 @@
 - (void);
 - (float);
 - (id);
-- (id);
+- (id));
 - (id);
 - (void);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -39,26 +40,22 @@
 - (void);
 - (void);
 - (void);
+- (void)(ja;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)?;
+- (id)@%;
 - (id);
-- (id);
-- (id);
-- (double)adowCount;
+- (id)le to establish %@ as delegate of %@;
+- (double)_extraShadowCount;
 
 // Remaining properties
 @property float minimumShadowSpread; // @synthesize minimumShadowSpread=_minimumShadowSpread;

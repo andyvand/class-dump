@@ -5,7 +5,11 @@
 //
 
 @interface UnknownClass (SiriCoreUtilities)
-- (_Bool);
-- (_Bool);
+- (_Bool)Mailboxes:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)collectionItemIDBySections;
 @end
 

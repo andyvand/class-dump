@@ -7,37 +7,28 @@
 @interface CKDPFieldCryptoFeatureSet
 {
     int _assetKeyEncryptionType;
-    int _encryptedFieldContextType;
-    int _minimumSchemaVersion;
-    int _mmcsVersion;
-    struct {
-        unsigned int assetKeyEncryptionType:1;
-        unsigned int encryptedFieldContextType:1;
-        unsigned int minimumSchemaVersion:1;
-        unsigned int mmcsVersion:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (int);
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)g;
 - (_Bool);
 - (int);
 - (int);
 - (void);
 - (id);
+- (void)getDontWaitForEOT:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)r}] cryptor ID:0x%llx /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,14 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int assetKeyEncryptionType; // @synthesize assetKeyEncryptionType=_assetKeyEncryptionType;
-@property(nonatomic) int encryptedFieldContextType; // @synthesize encryptedFieldContextType=_encryptedFieldContextType;
-@property(nonatomic) _Bool hasAssetKeyEncryptionType;
-@property(nonatomic) _Bool hasEncryptedFieldContextType;
 @property(nonatomic) _Bool hasMinimumSchemaVersion;
-@property(nonatomic) _Bool hasMmcsVersion;
-@property(nonatomic) int minimumSchemaVersion; // @synthesize minimumSchemaVersion=_minimumSchemaVersion;
-@property(nonatomic) int mmcsVersion; // @synthesize mmcsVersion=_mmcsVersion;
 
 @end
 

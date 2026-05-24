@@ -7,7 +7,6 @@
 @interface NewsFeed.OpenSportsEventInAppleTVCommandHandler
 {
     id urlHandler;
-    id appConfigManager;
 }
 
 @end

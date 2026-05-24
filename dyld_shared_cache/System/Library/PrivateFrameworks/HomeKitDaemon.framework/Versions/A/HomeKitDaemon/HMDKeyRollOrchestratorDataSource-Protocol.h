@@ -5,20 +5,14 @@
 //
 
 @class NSNotificationCenter;
-@protocol HAPKeyStore, HAPSystemKeychainStore;
+@protocol HAPKeyStore;
 
 @protocol HMDKeyRollOrchestratorDataSource
 - (id <HAPKeyStore>)°!EùñÐ1Â0@ù
 × ;
-- (NSNotificationCenter *)riteFailure;
+- (NSNotificationCenter *)readWriteFailure;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDesignatedFMFDevice;
-@property(readonly, nonatomic) _Bool isHH2KeyRollingEnabled;
-@property(readonly, nonatomic) _Bool isTinkerWatch;
 @property(readonly, nonatomic) _Bool isiOSDevice;
-@property(readonly, nonatomic) id <HAPKeyStore> keyStore;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) id <HAPSystemKeychainStore> systemKeychainStore;
 @end
 

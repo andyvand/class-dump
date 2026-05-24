@@ -7,7 +7,6 @@
 @interface (extension in MediaPlaybackCore):__C._MPCProtoSetPlaybackSessionResponse._TimeContinuity
 {
     id elapsedTime;
-    id scheduledRateChangeTime;
 }
 
 - (id);

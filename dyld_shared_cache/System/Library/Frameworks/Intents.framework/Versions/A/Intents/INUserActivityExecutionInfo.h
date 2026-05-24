@@ -14,11 +14,11 @@
 }
 
 + (void)dIßÿ6%;
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (id);
-- (void)ts;
+- (void)definedIntents;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *userActivityType; // @synthesize userActivityType=_userActivityType;

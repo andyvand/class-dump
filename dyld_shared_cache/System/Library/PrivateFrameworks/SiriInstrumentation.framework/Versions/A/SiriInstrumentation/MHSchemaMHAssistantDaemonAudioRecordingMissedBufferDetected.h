@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioRecordingMissedBufferDetected : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)(prepared update for another client);
 - (id);
 - (void);
-- (void);
+- (void)2d_pr.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -26,14 +23,12 @@
 × ;
 - (id)entInteractionEngagement",&,N,V_engagementSignal;
 - (id)V_startedOrChanged;
-- (_Bool)OCOUNTRYCODE_JO;
+- (_Bool)ISOCOUNTRYCODE_JO;
 - (_Bool)¿;
 - (void)½²¬5(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

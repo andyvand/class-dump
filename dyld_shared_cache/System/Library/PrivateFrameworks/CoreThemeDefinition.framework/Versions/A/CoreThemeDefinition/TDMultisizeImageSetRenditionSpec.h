@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class NSSet, TDMultisizeImageSetProduction;
+@class TDMultisizeImageSetProduction;
 
 @interface TDMultisizeImageSetRenditionSpec : TDRenditionSpec
 {
@@ -16,7 +16,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *multisizeImageRenditions; // @dynamic multisizeImageRenditions;
 @property(retain, nonatomic) TDMultisizeImageSetProduction *multisizeImageSetProduction; // @dynamic multisizeImageSetProduction;
 
 @end

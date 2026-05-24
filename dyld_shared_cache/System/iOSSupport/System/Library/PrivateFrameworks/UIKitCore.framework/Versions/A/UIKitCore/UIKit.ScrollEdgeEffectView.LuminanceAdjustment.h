@@ -9,29 +9,12 @@
 @interface UIKit.ScrollEdgeEffectView.LuminanceAdjustment : UIView
 {
     id preferredUserInterfaceStyle;
-    id backgroundGroupName;
-    id backgroundScale;
-    id backgroundReplay;
-    id darkeningView;
-    id parameters;
-    id lumaStyle;
-    id useHardEdges;
-    id useHeavyReplay;
-    id enableDimming;
-    id prefersSolidColorHardPocket;
-    id captureColor;
-    id captureColorLuminance;
-    id pocketMaskPortal;
-    id showingBackgroundReplay;
-    id scrollVelocity;
-    id hasFloatingElements;
-    id alphaValues;
 }
 
 - (id);
 - (void);
-- (id)iew;
-- (void)Title5;
+- (id)_UIStatusBarPersistentAnimationView;
+- (void)UICTFontTextStyleTitle5;
 - (void)\Ífþ¾MÎðl;
 
 @end

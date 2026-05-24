@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSArray, NSString;
 
 @interface OSLogPreferencesManager
 {
     NSString *_name;
-    NSString *_prefsFile;
-    NSMutableDictionary *_prefs;
 }
 
 + (id);
@@ -29,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long enabledLevel;
-@property(nonatomic) long long persistedLevel;
 @property(readonly, nonatomic) NSArray *processes;
-@property(readonly, nonatomic) NSArray *subsystems;
 
 @end
 

@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPM2NamedEntityDonationError
 {
     long long _errorCode;
-    NSString *_errorMessage;
-    int _source;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int source:1;
-    } _has;
 }
 
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)ets=dddd}16;
+- (_Bool)!;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -35,19 +27,14 @@
 - (id);
 - (_Bool);
 - (void)4;
-- (void)ackDomainStatus:(_Bool)arg1;
-- (void)anDate:(long long)arg1 atLeastOneTopicRemoved:deletedCount:error: /* Error: Ran out of types for this method. */;
+- (void)stringifyFeedbackDomainStatus:(_Bool)arg1;
+- (void)deleteAllTopicsOlderThanDate:(long long)arg1 atLeastOneTopicRemoved:deletedCount:error: /* Error: Ran out of types for this method. */;
 - (id)ü;
 - (int)calling block for occurrence:(id)arg1 %{private}@ %{sensitive}@;
-- (long long);
+- (long long)NotInDomain;
 
 // Remaining properties
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorMessage;
 @property(nonatomic) _Bool hasSource;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

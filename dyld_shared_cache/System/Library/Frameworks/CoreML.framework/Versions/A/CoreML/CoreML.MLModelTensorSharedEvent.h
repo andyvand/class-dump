@@ -7,12 +7,6 @@
 @interface CoreML.MLModelTensorSharedEvent
 {
     id dispatchQueue;
-    id modelKey;
-    id sharedEvent;
-    id metalSharedEvent;
-    id sharedEventListener;
-    id sharedEventID;
-    id eventValue;
 }
 
 @end

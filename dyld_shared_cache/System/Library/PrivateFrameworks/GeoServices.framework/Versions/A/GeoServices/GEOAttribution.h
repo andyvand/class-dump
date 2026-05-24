@@ -4,107 +4,73 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAttribution
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOTileSetRegion *_regions;
-    unsigned long long _regionsCount;
-    unsigned long long _regionsSpace;
-    NSString *_badgeChecksum;
-    NSString *_badge;
-    NSString *_logoChecksum;
-    NSString *_logo;
-    NSString *_name;
-    NSData *_plainTextURLSHA256Checksum;
-    NSString *_plainTextURL;
-    NSMutableArray *_resources;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _dataSet;
-    unsigned int _linkDisplayStringIndex;
-    struct {
-        unsigned int has_dataSet:1;
-        unsigned int has_linkDisplayStringIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_regions:1;
-        unsigned int read_badgeChecksum:1;
-        unsigned int read_badge:1;
-        unsigned int read_logoChecksum:1;
-        unsigned int read_logo:1;
-        unsigned int read_name:1;
-        unsigned int read_plainTextURLSHA256Checksum:1;
-        unsigned int read_plainTextURL:1;
-        unsigned int read_resources:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasMetadataType:(id)arg1;
 + (Class)fþË6Fø<;
-- (_Bool);
+- (_Bool);
+- (void);
+- (id)c;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (struct GEOTileSetRegion *);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (struct GEOTileSetRegion *);
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (void)45;
+- (void)*;
 - (id);
-- (unsigned long long);
+- (void);
+- (void)audioPlaybackService:(id)arg1 didStartRequest: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)qJ;
+- (_Bool);
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id)igEEEE;
 - (unsigned int);
+- (_Bool)_userTrackingControlSize;
+- (_Bool)PlaceEnrichmentShare;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)ݭ;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)nName:(id)arg1 %@/confidence:%f/hasSpaceAfter:%d/hasSpaceBefore:%d/ipaPhoneSequence:%@ /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
 - (_Bool)tionPreferences"b1"read_poiEnrichment"b1"read_rapInfo"b1"read_thirdPartyPhotoSharingPreferences"b1"wrote_anyField"b1};
 - (void)uery";
 - (void)=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@24@?32;
-- (id)rtureSequenceUsageDirection;
-- (id)ncidentsOnUserWaypointRoute: /* Error: Ran out of types for this method. */;
-- (id)cations;
+- (id)placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection;
+- (id)addIncidentsOnUserWaypointRoute: /* Error: Ran out of types for this method. */;
+- (id)GEORecentLocations;
 - (id)o¼opÈp;
 - (struct GEOTileSetRegion)hÉ;
-- (id)_TYPE_REVGEO;
+- (id)OFFLINE_SERVICE_TYPE_REVGEO;
 - (_Bool)e per object;
-- (void)AIRS;
+- (void)FOW_STAIRS;
 - (id);
 - (id);
 - (void);
@@ -113,30 +79,7 @@
 - (id)lP=;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *badge;
-@property(retain, nonatomic) NSString *badgeChecksum;
-@property(nonatomic) unsigned int dataSet;
 @property(readonly, nonatomic) _Bool hasBadge;
-@property(readonly, nonatomic) _Bool hasBadgeChecksum;
-@property(nonatomic) _Bool hasDataSet;
-@property(nonatomic) _Bool hasLinkDisplayStringIndex;
-@property(readonly, nonatomic) _Bool hasLogo;
-@property(readonly, nonatomic) _Bool hasLogoChecksum;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasPlainTextURL;
-@property(readonly, nonatomic) _Bool hasPlainTextURLSHA256Checksum;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(nonatomic) unsigned int linkDisplayStringIndex;
-@property(retain, nonatomic) NSString *logo;
-@property(retain, nonatomic) NSString *logoChecksum;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *plainTextURL;
-@property(retain, nonatomic) NSData *plainTextURLSHA256Checksum;
-@property(readonly, nonatomic) struct GEOTileSetRegion *regions;
-@property(readonly, nonatomic) unsigned long long regionsCount;
-@property(retain, nonatomic) NSMutableArray *resources;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

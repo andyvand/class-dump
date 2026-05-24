@@ -10,14 +10,13 @@
 @interface RBSXPCMessageContext
 {
     NSObject<OS_xpc_object> *_handoffToken;
-    NSObject<OS_xpc_object> *_connection;
 }
 
 + (void);
 + (void);
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

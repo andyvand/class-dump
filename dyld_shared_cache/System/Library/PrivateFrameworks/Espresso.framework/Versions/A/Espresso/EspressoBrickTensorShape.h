@@ -7,21 +7,16 @@
 @interface EspressoBrickTensorShape
 {
     int _width;
-    int _height;
-    int _channels;
-    int _batch;
-    int _sequence;
-    int _rank;
 }
 
 - (void);
 - (void);
 - (void);
 - (int);
-- (int);
-- (int);
-- (void);
-- (int);
+- (int);
+- (int);
+- (void)helpBook;
+- (int):Unexpected sender:%@ (expected:%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (int)rm_network_implement_input_preprocessing:scale=%f bias=%f /* Error: Ran out of types for this method. */;
@@ -29,11 +24,6 @@
 ;
 
 // Remaining properties
-@property int batch; // @synthesize batch=_batch;
-@property int channels; // @synthesize channels=_channels;
-@property int height; // @synthesize height=_height;
-@property int rank; // @synthesize rank=_rank;
-@property int sequence; // @synthesize sequence=_sequence;
 @property int width; // @synthesize width=_width;
 
 @end

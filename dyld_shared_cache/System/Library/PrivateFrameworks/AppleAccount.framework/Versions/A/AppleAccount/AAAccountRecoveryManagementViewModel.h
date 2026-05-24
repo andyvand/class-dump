@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AAAccountRecoveryManagementViewModel
 {
 }
 
+- (id)IG_RemoveWifiProxies returned %d (%d);
+- (id)IG_RemoveWifiProxies data len = %d;
+- (id)Proxies found agent port %d;
+- (id)returned %d (%d);
+- (id)MIG_AddWifiProxies found agent port %d;
+- (id)Usr_removewifinetworkprofile kern_result returned %d;
+- (id)MIG_RemoveWifiNetworkProfile;
+- (id)rationWithCompletionBlock no connection;
+- (id)etionBlock call through;
+- (id)iguration.fetchConfigurationWithCompletionBlock call through;
+- (id)ithErrorHandler failed;
+- (id)MDM:%d  inDEP:%s  DEP+MDM:%d  Super:%d /* Error: Ran out of types for this method. */;
+- (id)ToMCXlpadminGroup user:%s /* Error: Ran out of types for this method. */;
+- (id)files bypassing cert checks;
+- (id)said it had identity, but couldn't retrieve key;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)N,Vattribute;
 - (id)lowup.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appleDataRecoveryLabel;
-@property(readonly, copy, nonatomic) NSString *details;
-@property(readonly, copy, nonatomic) NSString *detailsForIneligibleAccount;
-@property(readonly, copy, nonatomic) NSURL *footerLearnMoreURL;
-@property(readonly, copy, nonatomic) NSString *learnMore;
-@property(readonly, copy, nonatomic) NSURL *learnMoreURL;
-@property(readonly, copy, nonatomic) NSString *myRecoveryContactsAdd;
-@property(readonly, copy, nonatomic) NSString *myRecoveryContactsFooter;
-@property(readonly, copy, nonatomic) NSString *myRecoveryContactsFooterForIneligibleAccount;
-@property(readonly, copy, nonatomic) NSString *myRecoveryContactsGroupTitle;
-@property(readonly, copy, nonatomic) NSString *printableSummaryFooter;
-@property(readonly, copy, nonatomic) NSString *printableSummaryLabel;
-@property(readonly, copy, nonatomic) NSString *recoveryContactForGroupTitle;
-@property(readonly, copy, nonatomic) NSString *recoveryKeyDetails;
-@property(readonly, copy, nonatomic) NSString *recoveryKeyLabel;
-@property(readonly, copy, nonatomic) NSURL *recoveryKeyLearnMoreURL;
 @property(readonly, copy, nonatomic) NSString *title;
 
 @end

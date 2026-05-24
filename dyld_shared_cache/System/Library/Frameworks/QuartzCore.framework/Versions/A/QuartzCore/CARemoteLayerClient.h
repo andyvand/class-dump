@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
-
 @interface CARemoteLayerClient
 {
     id _impl;
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(readonly) unsigned int clientId;
-@property(retain) CALayer *layer;
 
 @end
 

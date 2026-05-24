@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt64FloatDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ה;
 - (void);
 - (_Bool);
 - (void);
@@ -30,8 +29,8 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void)ppEcomPaymentButtons;
+- (void)י;
+- (void)WalletAppEcomPaymentButtons;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

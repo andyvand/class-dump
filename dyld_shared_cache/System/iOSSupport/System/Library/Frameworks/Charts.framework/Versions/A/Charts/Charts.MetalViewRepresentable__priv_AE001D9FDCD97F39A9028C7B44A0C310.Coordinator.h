@@ -8,7 +8,6 @@
 {
     id _realityRenderer;
     id snapshotRenderingEvent;
-    id snapshotRenderingValue;
 }
 
 - (void);

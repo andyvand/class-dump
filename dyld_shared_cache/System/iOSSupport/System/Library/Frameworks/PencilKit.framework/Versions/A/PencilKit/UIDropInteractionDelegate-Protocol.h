@@ -5,6 +5,7 @@
 //
 
 @class UIDropInteraction, UIDropProposal, UITargetedDragPreview;
+@protocol UIDropSession;
 
 @protocol UIDropInteractionDelegate
 
@@ -13,8 +14,8 @@
 × ;
 - (UITargetedDragPreview *)ÔÁ	ð!DEù1(Ð1Â0@ù
 × ;
-- (void)ePageSize:(UIDropInteraction *)arg1;
-- (void)ter;
+- (void)newBufferWithLength:(UIDropInteraction *)arg1 options:(id <UIDropSession>)arg2 placementSparsePageSize: /* Error: Ran out of types for this method. */;
+- (void)_endDelayFilter;
 - (void);
 @end
 

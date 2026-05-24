@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSError, NSString, WCUserInfo;
+@class WCUserInfo;
 
 @interface WCSessionUserInfoTransfer
 {
     _Bool _currentComplicationInfo;
-    _Bool _transferring;
-    WCUserInfo *_userInfoStorage;
-    NSDate *_creationDate;
-    NSError *_transferError;
-    NSString *_transferIdentifier;
-    NSString *_complicationTransferIdentifier;
 }
 
 + (_Bool);
@@ -40,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -52,14 +46,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *complicationTransferIdentifier; // @synthesize complicationTransferIdentifier=_complicationTransferIdentifier;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic, getter=isCurrentComplicationInfo) _Bool currentComplicationInfo; // @synthesize currentComplicationInfo=_currentComplicationInfo;
-@property(retain) NSError *transferError; // @synthesize transferError=_transferError;
-@property(copy) NSString *transferIdentifier; // @synthesize transferIdentifier=_transferIdentifier;
-@property(nonatomic, getter=isTransferring) _Bool transferring; // @synthesize transferring=_transferring;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo;
-@property(readonly, copy) NSData *userInfoData;
 @property(retain, nonatomic) WCUserInfo *userInfoStorage; // @synthesize userInfoStorage=_userInfoStorage;
 
 @end

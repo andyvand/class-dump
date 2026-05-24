@@ -9,12 +9,11 @@
 @interface AVEventWaiter
 {
     NSCondition *_condition;
-    _Bool _eventCompleted;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 
 @end

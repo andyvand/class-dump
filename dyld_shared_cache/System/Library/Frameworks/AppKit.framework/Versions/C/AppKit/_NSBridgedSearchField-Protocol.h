@@ -7,13 +7,12 @@
 @class NSString;
 
 @protocol _NSBridgedSearchField
-- (NSString *)ewsWidthChanged: /* Error: Ran out of types for this method. */;
-- (void)ntWordHighlightInfoKey;
+- (_Bool)g1gP4TOlkv84ezeaZrUgFg;
+- (unsigned long long);
+- (NSString *)_relayoutSubviewsWidthChanged: /* Error: Ran out of types for this method. */;
+- (void)currentWordHighlightInfoKey;
 
 // Remaining properties
-@property(setter=_setFocusRingAnimationType:) long long _focusRingAnimationType;
-@property unsigned long long controlSize;
 @property(getter=isEnabled) _Bool enabled;
-@property(readonly) NSString *stringValue;
 @end
 

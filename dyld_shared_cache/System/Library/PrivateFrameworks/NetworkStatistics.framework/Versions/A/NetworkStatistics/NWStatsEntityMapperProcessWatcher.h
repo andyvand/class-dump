@@ -6,14 +6,12 @@
 
 #import <NetworkStatistics/NWStatsEntityMapper.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NWStatsEntityMapperProcessWatcher : NWStatsEntityMapper
 {
     NSMutableDictionary *_uuidProcessNameMap;
-    NSString *_niluuidProcessName;
-    _Bool _canonicalizedNames;
 }
 
 - (void);

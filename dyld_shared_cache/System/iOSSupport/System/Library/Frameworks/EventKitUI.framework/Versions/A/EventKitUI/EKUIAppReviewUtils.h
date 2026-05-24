@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (_Bool);
++ (void)%s;
++ (_Bool)s;
++ (_Bool)s;
 + (id);
-+ (void);
++ (void)`;
 + (id);
 
 @end

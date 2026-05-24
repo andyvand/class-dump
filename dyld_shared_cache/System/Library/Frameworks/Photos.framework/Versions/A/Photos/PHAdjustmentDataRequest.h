@@ -6,16 +6,12 @@
 
 #import <Photos/PHMediaRequest.h>
 
-@class NSObject, PHAdjustmentDataRequestBehaviorSpec, PHAdjustmentDataResult, PLCPLDownloadContext;
-@protocol OS_dispatch_semaphore, PHAdjustmentDataRequestDelegate;
+@class PLCPLDownloadContext;
+@protocol PHAdjustmentDataRequestDelegate;
 
 @interface PHAdjustmentDataRequest : PHMediaRequest
 {
     PLCPLDownloadContext *_legacyDownloadContext;
-    PHAdjustmentDataResult *_adjustmentDataResult;
-    NSObject<OS_dispatch_semaphore> *_syncDownloadWaitSemaphore;
-    id <PHAdjustmentDataRequestDelegate> _adjustmentDataDelegate;
-    PHAdjustmentDataRequestBehaviorSpec *_behaviorSpec;
 }
 
 - (id);
@@ -26,11 +22,10 @@
 - (id);
 - (void);
 - (void);
-- (void)ivePhotoRequestContext;
+- (void)PHLivePhotoRequestContext;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PHAdjustmentDataRequestDelegate> adjustmentDataDelegate; // @synthesize adjustmentDataDelegate=_adjustmentDataDelegate;
-@property(readonly, nonatomic) PHAdjustmentDataRequestBehaviorSpec *behaviorSpec; // @synthesize behaviorSpec=_behaviorSpec;
 
 @end
 

@@ -11,20 +11,17 @@
 @interface IMMessageActionChatItem : IMTranscriptChatItem
 {
     IMHandle *_sender;
-    IMHandle *_otherHandle;
 }
 
-- (id);
-- (id);
+- (id)llocate temporal streamIDs;
+- (id)#;
 - (long long);
-- (id);
+- (id);
 - (id);
 - (void)Ø;
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionType;
-@property(readonly, nonatomic) IMHandle *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
 
 @end
 

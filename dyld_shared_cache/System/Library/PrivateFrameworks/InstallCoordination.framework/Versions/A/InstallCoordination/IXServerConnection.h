@@ -4,65 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface IXServerConnection
 {
     NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableDictionary *_coordinatorInstances;
-    NSMutableDictionary *_promiseInstances;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
+- (id)(;
+- (oneway void);
+- (oneway void);
+- (void);
+- (id);
+- (oneway void);
+- (id);
+- (void);
 - (id);
 - (oneway void);
 - (oneway void);
 - (void);
-- (id);
 - (oneway void);
-- (id);
+- (oneway void);
+- (oneway void);
+- (void)uncachedResponseForBuffer:(id)arg1 scaled:(_Bool)arg2 cgImageProperties:colorProfile:masterToRasterOrientation:rasterToDisplayOrientation:requestedSubsampleFactor:forKey:invalidationKey:request: /* Error: Ran out of types for this method. */;
+- (id)taProviderForContiguous:(CDUnknownBlockType)arg1;
 - (void);
-- (id);
-- (oneway void);
-- (oneway void);
-- (void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (void);
-- (id);
-- (void);
+- (oneway void)setToolbarVerticalConstraint:(id)arg1;
+- (id);
+- (id)bids:%{public}s. Start coordinate is invalid. Returning CLLocationDistanceMax. /* Error: Ran out of types for this method. */;
 - (oneway void);
 - (id);
-- (id);
-- (oneway void);
-- (id);
-- (oneway void);
+- (oneway void)C;
 - (void);
 - (void);
 - (oneway void);
 - (id);
 - (void);
-- (void);
+- (void)J;
 - (oneway void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *coordinatorInstances; // @synthesize coordinatorInstances=_coordinatorInstances;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly, nonatomic) NSMutableDictionary *promiseInstances; // @synthesize promiseInstances=_promiseInstances;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath;
-
 @interface ChatKit.CKBubblePath
 {
     id bubblePath;
@@ -14,7 +12,7 @@
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (double);
-- (id);
+- (id)<;
 - (double);
 - (const struct CGPath *);
 - (id);
@@ -23,11 +21,7 @@
 - (void)%¬ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) UIBezierPath *bezierPath;
 @property(nonatomic, readonly) const struct CGPath *cgPath;
-@property(nonatomic, readonly) double cornerRadius;
-@property(nonatomic, readonly) double strokeDashLength;
-@property(nonatomic, readonly) double strokeDashPhase;
 
 @end
 

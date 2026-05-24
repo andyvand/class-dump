@@ -7,12 +7,6 @@
 @interface PhotosUICore.TimelineVFXEngineDataSource
 {
     id _imageManager;
-    id _placeholderAssets;
-    id _assets;
-    id _orderedAssets;
-    id _cachedAssets;
-    id signposter;
-    id _$observationRegistrar;
 }
 
 @end

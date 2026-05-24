@@ -5,5 +5,11 @@
 //
 
 @protocol VKMapViewDelegate
+
+@optional
+- (void);
+- (void)`;
+- (void)qH;
+- (void)?;
 @end
 

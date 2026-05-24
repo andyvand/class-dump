@@ -7,9 +7,6 @@
 @interface TeaTemplate.LayoutContextRecord
 {
     id identifier;
-    id kind;
-    id startTime;
-    id endTime;
 }
 
 @end

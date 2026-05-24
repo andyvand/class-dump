@@ -6,27 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSInferencePluginCompleted : SISchemaInstrumentationMessage
 {
     unsigned int _numberOfConversationsReviewed;
-    unsigned int _numberOfGroundTruthsGenerated;
-    unsigned int _numberOfContactSuggestionsGenerated;
-    unsigned int _numberOfContactSuggestionsUpdated;
-    unsigned int _numberOfContactSuggestionsRemoved;
-    unsigned int _numberOfTurnsReviewed;
-    struct {
-        unsigned int numberOfConversationsReviewed:1;
-        unsigned int numberOfGroundTruthsGenerated:1;
-        unsigned int numberOfContactSuggestionsGenerated:1;
-        unsigned int numberOfContactSuggestionsUpdated:1;
-        unsigned int numberOfContactSuggestionsRemoved:1;
-        unsigned int numberOfTurnsReviewed:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -59,27 +44,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)Y
+;
+- (_Bool)%@ to %@ succeeded:(id)arg1 %@;
 - (id);
 - (id);
-- (id)perties;
+- (id)_hasSuggestedProperties;
 - (id)tyMatcherCallContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumberOfContactSuggestionsGenerated;
-@property(nonatomic) _Bool hasNumberOfContactSuggestionsRemoved;
-@property(nonatomic) _Bool hasNumberOfContactSuggestionsUpdated;
-@property(nonatomic) _Bool hasNumberOfConversationsReviewed;
-@property(nonatomic) _Bool hasNumberOfGroundTruthsGenerated;
-@property(nonatomic) _Bool hasNumberOfTurnsReviewed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numberOfContactSuggestionsGenerated; // @synthesize numberOfContactSuggestionsGenerated=_numberOfContactSuggestionsGenerated;
-@property(nonatomic) unsigned int numberOfContactSuggestionsRemoved; // @synthesize numberOfContactSuggestionsRemoved=_numberOfContactSuggestionsRemoved;
-@property(nonatomic) unsigned int numberOfContactSuggestionsUpdated; // @synthesize numberOfContactSuggestionsUpdated=_numberOfContactSuggestionsUpdated;
 @property(nonatomic) unsigned int numberOfConversationsReviewed; // @synthesize numberOfConversationsReviewed=_numberOfConversationsReviewed;
-@property(nonatomic) unsigned int numberOfGroundTruthsGenerated; // @synthesize numberOfGroundTruthsGenerated=_numberOfGroundTruthsGenerated;
-@property(nonatomic) unsigned int numberOfTurnsReviewed; // @synthesize numberOfTurnsReviewed=_numberOfTurnsReviewed;
 
 @end
 

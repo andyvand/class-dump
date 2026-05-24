@@ -7,23 +7,6 @@
 @interface NewsUI2.PaidBundleViaOfferUIHandler
 {
     id _hardwareSheetLastShownFromLinkedSheet;
-    id notificationService;
-    id offerManager;
-    id appConfigurationManager;
-    id paidBundleViaOfferHandler;
-    id presentationOperationManager;
-    id appLaunchMethodChecker;
-    id userInfo;
-    id featureAvailability;
-    id bundleSubscriptionManager;
-    id tracker;
-    id router;
-    id sessionBadgeState;
-    id sessionBadgeSource;
-    id sessionBadgeMetrics;
-    id sessionBadgeActionMetricsEvent;
-    id engagementEnqueueHandler;
-    id $__lazy_storage_$_paidBundleViaOfferConfig;
 }
 
 - (id);

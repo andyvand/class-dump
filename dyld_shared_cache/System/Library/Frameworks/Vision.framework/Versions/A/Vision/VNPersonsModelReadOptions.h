@@ -12,14 +12,14 @@
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id)fp_isInSyncableRootFast;
+- (void)deleteSearchableItemsWithIdentifiers:(id)arg1 reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)MultiDetectorType;
+- (void)VNFaceAnalyzerMultiDetectorType;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *acceptableVersions; // @synthesize acceptableVersions=_acceptableVersions;

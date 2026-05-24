@@ -7,9 +7,6 @@
 @interface AppStoreKit.FastImpressionsTracker
 {
     id delegate;
-    id impressionableThreshold;
-    id mainTracker;
-    id fastTracker;
 }
 
 @end

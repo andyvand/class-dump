@@ -6,55 +6,20 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSButton, NSLayoutConstraint, NSTimer, NSTouchBarItem, NSView;
-@protocol NSTextInputClient;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface NSCandidateListViewController : NSViewController
 {
     NSButton *_button;
-    NSLayoutConstraint *_minWidthConstraint;
-    NSLayoutConstraint *_maxWidthConstraint;
-    id _leftCandidate;
-    id _middleCandidate;
-    id _rightCandidate;
-    NSArray *_splitRightArray;
-    struct CGPoint _location;
-    NSTouchBarItem *_touchBarItem;
-    id _delegate;
-    NSView<NSTextInputClient> *_client;
-    NSView *_viewForLocation;
-    NSViewController *_accessoryViewController;
-    CDUnknownBlockType _formattingBlock;
-    CDUnknownBlockType _completionHandler;
-    unsigned long long _trackingIndex;
-    long long _sequenceNumber;
-    double _lastUpdateTime;
-    double _pendingTransitionDuration;
-    NSTimer *_updateTimer;
-    unsigned long long _delayedCollapseCount;
-    struct {
-        unsigned int _shouldUsePanel:1;
-        unsigned int _isTracking:1;
-        unsigned int _hasCorrection:1;
-        unsigned int _hasQuotes:1;
-        unsigned int _collapsed:1;
-        unsigned int _allowsCollapsing:1;
-        unsigned int _allowsCandidateVariation:1;
-        unsigned int _processingUserCollapse:1;
-        unsigned int _processingCollapse:1;
-        unsigned int _hasEmoji:1;
-        unsigned int _limitsNumberOfCandidates:1;
-        unsigned int _reserved:21;
-    } _flags;
 }
 
-+ (double);
-+ (id);
++ (double){__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (id)shouldCancelOnDisconnect;
+- (void)-have-local-network-entitlements;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!,k	;
 - (id);
 - (void);
 - (void);
@@ -75,27 +40,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)32@0:8@?16r*24 /* Error: Ran out of types for this method. */;
+- (id)64@0:8@16@24q32@40@48@56 /* Error: Ran out of types for this method. */;
+- (_Bool)relevantHTTPStatusCodes;
+- (_Bool)URLSession:dataTask:didBecomeDownloadTask: /* Error: Ran out of types for this method. */;
+- (id)URLSession:aggregateAssetDownloadTask:willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)upported certificate;
+- (void)TED:close of sql read connection result=%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
 - (id);
 - (void);
 - (void);
@@ -107,7 +72,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)å3ð1Â0@ù
 × ;
-- (void)bleRectForView: /* Error: Ran out of types for this method. */;
+- (void)_oldDisplayRectIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView: /* Error: Ran out of types for this method. */;
 - (void)asteboard.promised-file-url;
 - (_Bool)NSUpdateCycle was already initialized.;
 - (void);
@@ -115,21 +80,7 @@ __attribute__((visibility("hidden")))
 - (void)@H;
 
 // Remaining properties
-@property(retain) NSViewController *accessoryViewController;
-@property _Bool allowsCollapsing;
-@property(readonly, copy) NSArray *candidates;
-@property __weak NSView<NSTextInputClient> *client;
-@property(getter=isCollapsed) _Bool collapsed;
-@property(copy) CDUnknownBlockType completionHandler;
-@property __weak id delegate;
-@property(copy) CDUnknownBlockType formattingBlock;
 @property(copy) id leftCandidate;
-@property _Bool limitsNumberOfCandidates;
-@property(copy) id middleCandidate;
-@property(readonly) _Bool processingUserExpand;
-@property(copy) id rightCandidate;
-@property(readonly) _Bool shouldAnimateNextLayoutPass;
-@property __weak NSTouchBarItem *touchBarItem;
 
 @end
 

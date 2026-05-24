@@ -6,29 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class _UIDatePickerOverlayPresentation, _UIPassthroughScrollInteraction;
+@class _UIDatePickerOverlayPresentation;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerContainerView : UIView
 {
     _Bool _lastHitTestWasPassedThrough;
-    _UIDatePickerOverlayPresentation *_presentation;
-    _UIPassthroughScrollInteraction *_passthroughInteraction;
-    UIView *_contentView;
 }
 
-- (void);
-- (id);
-- (_Bool);
+- (void)ring"40@"NSString"48@"NSString"56C64;
+- (id)ategory:spamExtensionName: /* Error: Ran out of types for this method. */;
+- (_Bool)dateBySettingHour:minute:second:ofDate:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id)1Â0@ù
 × ;
 - (void):(struct CGRect)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)ckdropInUse;
+- (id)_clientBackdropInUse;
 - (void),W,N,V_targetView;
-- (void)onContext;
+- (void)_UIDelayedPresentationContext;
 - (void)H
 °àÈ;
 - (void);
@@ -37,9 +34,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ý;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) _Bool lastHitTestWasPassedThrough; // @synthesize lastHitTestWasPassedThrough=_lastHitTestWasPassedThrough;
-@property(retain, nonatomic) _UIPassthroughScrollInteraction *passthroughInteraction; // @synthesize passthroughInteraction=_passthroughInteraction;
 @property(retain, nonatomic) _UIDatePickerOverlayPresentation *presentation; // @synthesize presentation=_presentation;
 
 @end

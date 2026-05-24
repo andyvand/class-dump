@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemDashboardDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadWhiteListEnabled;
-    NSArray *_payloadWhiteList;
 }
 
 + (id);
@@ -29,21 +28,13 @@
 - (_Bool);
 - (id);
 - (int);
-- (id);
-- (_Bool);
-- (id);
+- (id)g %s. Attaching observer.;
+- (_Bool)ring.;
+- (id)SoundAnalysis40ImplSharedReformattedAudioSourceProviderP;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *payloadWhiteList; // @synthesize payloadWhiteList=_payloadWhiteList;
 @property(copy, nonatomic) NSNumber *payloadWhiteListEnabled; // @synthesize payloadWhiteListEnabled=_payloadWhiteListEnabled;
-@property(readonly) Class superclass;
 
 @end
 

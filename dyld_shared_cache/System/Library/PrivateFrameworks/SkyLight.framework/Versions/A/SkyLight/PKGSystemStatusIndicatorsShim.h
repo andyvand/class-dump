@@ -8,37 +8,26 @@ __attribute__((visibility("hidden")))
 @interface PKGSystemStatusIndicatorsShim
 {
     id ccFrameMetadata;
-    id displayItemGenerator;
-    id windowSize;
-    id suppressIndicatorsOnExternalDisplays;
-    id displaysNeedingSecureIndicatorFlush;
-    id lastRebuiltIndicators;
-    id containers;
-    id hasBuiltInDisplay;
-    id needsLayerRebuild;
-    _Bool suspendUpdates;
-    _Bool globalEnableSecureIndicators;
 }
 
-+ (double);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (double)= %@ - 1 WHERE Z_PK = OLD.%@%@;;
+- (void)master where name = 'ZCHANGETRACK';
+- (_Bool)ATRANSACTIONSTRING;
+- (void)?;
+- (void)igration statements;
+- (void)d schema migration statements;
+- (unsigned int)locking failure for %@. During updateRow.  Original row = %p context version match = %d;
+- (void)ateRow.  Original row = %@ New Row = %@ context version match = %d;
+- (void)g failure for %@.  During updateRow.  Original row = %@ New Row = %@ context version match = %d;
+- (void)d to set file locking on source database;
+- (_Bool)E TEMPORARY TRIGGER IF NOT EXISTS ZQ_%@_TRIGGER AFTER DELETE ON %@ FOR EACH ROW BEGIN %@%@ END;
+- (_Bool)UNDEFINED;
+- (_Bool)@ FOR EACH ROW WHEN (OLD.%@ NOT NULL);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool globalEnableSecureIndicators; // @synthesize globalEnableSecureIndicators;
 @property(nonatomic) _Bool suspendUpdates; // @synthesize suspendUpdates;
 
 @end

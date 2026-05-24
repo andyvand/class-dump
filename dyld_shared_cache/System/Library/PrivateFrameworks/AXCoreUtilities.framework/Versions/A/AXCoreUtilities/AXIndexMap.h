@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (unsigned long long *);
-- (id);
+- (id)R;
 - (void);
 - (id);
 - (id);
@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);

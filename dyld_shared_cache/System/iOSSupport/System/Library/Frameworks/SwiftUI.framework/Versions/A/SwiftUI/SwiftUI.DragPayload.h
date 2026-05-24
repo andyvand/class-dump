@@ -7,8 +7,6 @@
 @interface SwiftUI.DragPayload
 {
     id dragItemGroupID;
-    id modifier;
-    id cachedContext;
 }
 
 @end

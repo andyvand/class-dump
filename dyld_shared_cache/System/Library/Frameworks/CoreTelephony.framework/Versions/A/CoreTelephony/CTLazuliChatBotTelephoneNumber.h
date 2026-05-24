@@ -11,14 +11,14 @@
     NSString *_number;
 }
 
-+ (_Bool);
++ (_Bool)segmentDuration;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)LAKeyStoreBackendQueryBuilder;
 - (id);
 - (id);
 - (void)0@ù

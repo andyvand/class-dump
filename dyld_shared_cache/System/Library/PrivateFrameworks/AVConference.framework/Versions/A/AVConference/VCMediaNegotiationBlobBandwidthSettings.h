@@ -8,24 +8,19 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobBandwidthSettings
 {
     int _configuration;
-    int _configurationExtension;
-    unsigned int _maxBandwidth;
-    struct {
-        unsigned int configurationExtension:1;
-    } _has;
 }
 
 + (int);
 + (int);
++ (int)K;
 + (int);
 + (int);
 + (int);
 + (int);
++ (int)@;
 + (int);
-+ (int);
-+ (int);
-- (void);
-- (void);
+- (void)7;
+- (void)M;
 - (void);
 - (id);
 - (unsigned int);
@@ -34,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (int);
+- (int);
 - (int);
 - (id);
 - (void);
@@ -50,9 +45,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) int configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) int configurationExtension; // @synthesize configurationExtension=_configurationExtension;
-@property(nonatomic) _Bool hasConfigurationExtension;
-@property(nonatomic) unsigned int maxBandwidth; // @synthesize maxBandwidth=_maxBandwidth;
 
 @end
 

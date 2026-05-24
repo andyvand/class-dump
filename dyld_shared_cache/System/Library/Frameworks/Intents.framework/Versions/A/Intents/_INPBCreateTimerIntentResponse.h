@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBTimer;
+@class _INPBTimer;
 
 @interface _INPBCreateTimerIntentResponse
 {
     struct _has;
-    _INPBTimer *_createdTimer;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)q;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)t valid %{public}@;
+- (id)(;
 - (id);
 - (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBTimer *createdTimer; // @synthesize createdTimer=_createdTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCreatedTimer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

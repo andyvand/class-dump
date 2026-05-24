@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKSidecarSignatureRequest, AKSignatureDescriptionViewController_Mac, AKSignatureOutputView_Mac, NSButton, NSSegmentedControl, NSString, NSTextField, SidecarDevice;
+@class AKSidecarSignatureRequest, AKSignatureOutputView_Mac;
 
 @interface AKSignatureSidecarCaptureViewController_Mac
 {
     AKSidecarSignatureRequest *_request;
-    SidecarDevice *_selectedDevice;
-    NSString *_signatureDescription;
-    AKController *_controller;
-    CDUnknownBlockType _actionBlock;
-    CDUnknownBlockType _appearanceBlock;
-    AKSignatureOutputView_Mac *_signatureView;
-    NSButton *_cancelButton;
-    NSButton *_clearButton;
-    NSButton *_doneButton;
-    NSTextField *_bottomInstructions;
-    NSSegmentedControl *_devicePickerButton;
-    AKSignatureDescriptionViewController_Mac *_signatureDescriptionViewController;
 }
 
 - (id);
@@ -34,52 +22,125 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void);
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)e_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (void)dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[5].offset;
+                geometry.texcoords[5] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD6) && (OSD_TEXCOORD6_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[6].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[6].offset;
+                geometry.texcoords[6] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD7) && (OSD_TEXCOORD7_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[7].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[7].offset;
+                geometry.texcoords[7] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+        }
+    }
+    
+#else 
+    
+#if OSD_IS_ADAPTIVE
+    int3 fvarPatchParam = osdFaceVaryingPatchParams[patchIndex];
+    bool isRegular = OsdGetPatchIsRegular(fvarPatchParam);
+    
+    int4 patchArray = osdFaceVaryingPatchArray;
+    int patchStride = OsdGetPatchNumControlVertices(patchArray.x);
+    int patchType = select(patchArray.x, int(6), isRegular);
+    int patchCVs = OsdGetPatchNumControlVertices(patchType);
+    
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+    
+    if (patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 6) {
+        int boundaryMask = OsdGetPatchBoundaryMask(fvarPatchParam);
+        OsdGetBSplinePatchWeights(uv.x, uv.y, 1.0f, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+#else
+    float wP[4], wDs[4], wDt[4], wDss[4], wDst[4], wDtt[4];
+    int patchCVs = 4;
+    int patchStride = patchCVs;
+    OsdGetBilinearPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+#endif
+    
+    for (int i = 0; i < patchCVs; ++i) {
+        int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * OSD_FVAR_WIDTH + 0 ;
+#if defined(HAS_VERTEX_COLOR) && (OSD_COLOR_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.color += wP[i] * float4(osdFaceVaryingData[index], osdFaceVaryingData[index+1], osdFaceVaryingData[index+2], osdFaceVaryingData[index+3]);
+        index += 4;
+#endif
+#if defined(NEED_IN_TEXCOORD0) && (OSD_TEXCOORD0_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[0] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD1) && (OSD_TEXCOORD1_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[1] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD2) && (OSD_TEXCOORD2_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[2] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD3) && (OSD_TEXCOORD3_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[3] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD4) && (OSD_TEXCOORD4_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[4] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD5) && (OSD_TEXCOORD5_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[5] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD6) && (OSD_TEXCOORD6_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[6] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD7) && (OSD_TEXCOORD7_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[7] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+    }
+#endif 
+}
+#endif 
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)awing:(id)arg1;
+- (void)paintLineEnd:(id)arg1 atPoint:atAngle:withScale:inContext:useFastDrawing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(copy) CDUnknownBlockType appearanceBlock; // @synthesize appearanceBlock=_appearanceBlock;
-@property(retain) NSTextField *bottomInstructions; // @synthesize bottomInstructions=_bottomInstructions;
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain) NSButton *clearButton; // @synthesize clearButton=_clearButton;
-@property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSSegmentedControl *devicePickerButton; // @synthesize devicePickerButton=_devicePickerButton;
-@property(retain) NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly) unsigned long long hash;
-@property(retain) AKSignatureDescriptionViewController_Mac *signatureDescriptionViewController; // @synthesize signatureDescriptionViewController=_signatureDescriptionViewController;
 @property(retain) AKSignatureOutputView_Mac *signatureView; // @synthesize signatureView=_signatureView;
-@property(readonly) Class superclass;
 
 @end
 

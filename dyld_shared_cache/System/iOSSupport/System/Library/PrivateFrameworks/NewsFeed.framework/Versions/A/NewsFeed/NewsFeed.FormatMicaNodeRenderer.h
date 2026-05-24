@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatMicaNodeRenderer
 {
     id micaRenderer;
-    id runModeRunner;
 }
 
 @end

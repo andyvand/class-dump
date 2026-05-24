@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSImage, PXImageRequestOptions;
-@protocol PXDisplayAsset, PXUIImageProvider;
+@protocol PXUIImageProvider;
 
 @interface PXImageRequest
 {
     _Bool _gotFullQualityImage;
-    _Bool _resultIsInCloud;
-    _Bool _canceled;
-    id <PXUIImageProvider> _mediaProvider;
-    id <PXDisplayAsset> _asset;
-    PXImageRequestOptions *_options;
-    long long _requestID;
-    NSImage *_image;
-    NSError *_error;
-    struct CGSize _targetSize;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)M;
 - (_Bool);
 - (id);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)e highp vec2 aInSpriteCoordinates; varying highp vec2 vInSpriteCoordinates 
+		#define DeclareForeColor				attribute lowp vec4 aColor; varying lowp vec4 vColor 
+		#define ComputeVertex					gl_Position = uModelViewProjectionMatrix * aVertex 
+		#define ComputeTextureCoordinates0		vTextureCoordinates0 = (uTextureMatrix0 * aTextureCoordinates0).st 
+		#define ComputeTextureCoordinates1		vTextureCoordinates1 = (uTextureMatrix1 * aTextureCoordinates1).st 
+		#define ComputeTextureCoordinates2		vTextureCoordinates2 = (uTextureMatrix2 * aTextureCoordinates2).st 
+		#define ComputeInSpriteCoordinates		vInSpriteCoordinates = aInSpriteCoordinates 
+		#define ComputeForeColor				vColor = aColor 
+		;
 - (struct CGSize);
 - (id);
 - (void);
@@ -40,20 +38,11 @@
 - (void)t
 ;
 - (id)sing Creation Date ##;
-- (_Bool)Color;
-- (void)Mask;
+- (_Bool)AreaColor;
+- (void)AnimatedMask;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic, getter=isCanceled) _Bool canceled; // @synthesize canceled=_canceled;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool gotFullQualityImage; // @synthesize gotFullQualityImage=_gotFullQualityImage;
-@property(nonatomic) NSImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) id <PXUIImageProvider> mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) PXImageRequestOptions *options; // @synthesize options=_options;
-@property(nonatomic) long long requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) _Bool resultIsInCloud; // @synthesize resultIsInCloud=_resultIsInCloud;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOpenGLContext, NSOpenGLPixelFormat, NSView;
+@class NSView;
 
 @interface NSOpenGLLayer
 {
@@ -15,25 +15,23 @@
 - (oneway void);
 - (id);
 - (id);
+- (void)ion"^{__CFURLStorageSession}};
+- (void)ss"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (struct _CGLPixelFormatObject *)set_qos:(unsigned int)arg1;
+- (struct _CGLContextObject *)set_proxySession:(struct _CGLPixelFormatObject *)arg1;
+- (_Bool)checked_didWriteData;
+- (_Bool)checked_didReceiveResponse;
+- (void)@;
 - (void);
+- (void)2w1;
 - (void);
-- (struct _CGLPixelFormatObject *);
-- (struct _CGLContextObject *);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)rWindowID: /* Error: Ran out of types for this method. */;
-- (void)ct:(_Bool)arg1;
-- (id)Size: /* Error: Ran out of types for this method. */;
+- (void)lB�;
+- (void);
+- (void)managerForWindowID: /* Error: Ran out of types for this method. */;
+- (void)archivedDataWithRootObject:(_Bool)arg1;
+- (id)_intrinsicSizeWithinSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSOpenGLContext *openGLContext; // @dynamic openGLContext;
-@property(retain) NSOpenGLPixelFormat *openGLPixelFormat; // @dynamic openGLPixelFormat;
 @property __weak NSView *view;
 
 @end

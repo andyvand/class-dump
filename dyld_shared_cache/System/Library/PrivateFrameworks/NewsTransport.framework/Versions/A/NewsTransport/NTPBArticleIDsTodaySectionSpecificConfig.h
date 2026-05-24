@@ -14,19 +14,19 @@
 + (Class);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)PerformanceTestingHelpers;
 - (id);
+- (void))!;
 - (void);
-- (void);
-- (void);
+- (void)useLegacyBehavior;
 - (unsigned long long);
+- (_Bool)DGs+;
+- (id)nicheContentDefaultFlowRate;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *articles; // @synthesize articles=_articles;

@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
+- (id)_copilotConfigurations;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id)s\ in_6;
 - (void)ü;

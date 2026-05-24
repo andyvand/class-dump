@@ -11,28 +11,25 @@
 @interface SISchemaTypingRequestTrace : SISchemaInstrumentationMessage
 {
     NSData *_keyboardAppearanceBringUpTurnID;
-    _Bool _hasKeyboardAppearanceBringUpTurnID;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_value;
 - (_Bool);
-- (_Bool);
+- (_Bool)id   ;;
 - (id);
 - (id);
-- (id)InSeconds;
-- (id)sActionIdentifierName;
-- (void)eived;
+- (id)deleteDurationSelfTriggerSuppressionWasActiveInSeconds;
+- (id)_hasActionIdentifierName;
+- (void)bytesReceived;
 
 // Remaining properties
-@property(nonatomic) _Bool hasKeyboardAppearanceBringUpTurnID; // @synthesize hasKeyboardAppearanceBringUpTurnID=_hasKeyboardAppearanceBringUpTurnID;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *keyboardAppearanceBringUpTurnID; // @synthesize keyboardAppearanceBringUpTurnID=_keyboardAppearanceBringUpTurnID;
 
 @end

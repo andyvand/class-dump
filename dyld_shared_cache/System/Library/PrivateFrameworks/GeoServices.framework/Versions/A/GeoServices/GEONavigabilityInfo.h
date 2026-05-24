@@ -9,29 +9,23 @@
 @interface GEONavigabilityInfo
 {
     PBUnknownFields *_unknownFields;
-    _Bool _isBlocked;
-    _Bool _isEvFeasible;
-    struct {
-        unsigned int has_isBlocked:1;
-        unsigned int has_isEvFeasible:1;
-    } _flags;
 }
 
-+ (_Bool)ressiveEstimate:(id)arg1;
-- (void);
++ (_Bool)setHasTravelTimeAggressiveEstimate:(id)arg1;
+- (void)i;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@16@24@32@40@?48;
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)initWithBlock:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)r Asset Query Queue;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -44,11 +38,7 @@
 - (void)L±Eÿ°X;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsBlocked;
 @property(nonatomic) _Bool hasIsEvFeasible;
-@property(nonatomic) _Bool isBlocked;
-@property(nonatomic) _Bool isEvFeasible;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

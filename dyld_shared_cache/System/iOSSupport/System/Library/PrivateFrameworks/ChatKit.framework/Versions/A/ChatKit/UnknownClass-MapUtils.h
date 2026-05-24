@@ -7,6 +7,6 @@
 @interface UnknownClass (MapUtils)
 + (id);
 - (_Bool);
-- (void);
+- (void)ification Early invalid media size:(CDUnknownBlockType)arg1 %@;
 @end
 

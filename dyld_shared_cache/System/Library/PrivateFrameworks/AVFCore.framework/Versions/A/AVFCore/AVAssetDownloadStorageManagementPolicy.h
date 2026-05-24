@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetDownloadStorageManagementPolicyInternal, NSDate, NSString;
+@class AVAssetDownloadStorageManagementPolicyInternal, NSString;
 
 @interface AVAssetDownloadStorageManagementPolicy
 {
@@ -26,7 +26,6 @@
 - (id)Ü;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *expirationDate;
 @property(readonly, copy, nonatomic) NSString *priority;
 
 @end

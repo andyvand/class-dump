@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCopyItem;
+@class _SFPBCopyItem;
 
 @interface _SFPBCopyCommand
 {
     _SFPBCopyItem *_copyableItem;
-    NSArray *_copyableItems;
 }
 
 - (void);
@@ -25,23 +24,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)isPromptSuggestedForGenerativeMemory:(id)arg1;
+- (id)blic}@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)trings: /* Error: Ran out of types for this method. */;
+- (void)setHighlighted_substrings: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCopyItem *copyableItem; // @synthesize copyableItem=_copyableItem;
-@property(copy, nonatomic) NSArray *copyableItems; // @synthesize copyableItems=_copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

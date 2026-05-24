@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
+@class NSCollectionViewItem, NSView;
 
 @protocol NSCollectionViewDataSource
-- (long long)ntBestScore;
+- (NSCollectionViewItem *);
+- (long long)_currentBestScore;
 
 @optional
-- (long long)Duration;
+- (long long)screenEdgeSwipeSlideDownDuration;
 - (NSView *)(;
 @end
 

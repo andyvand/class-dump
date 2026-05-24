@@ -9,7 +9,6 @@
 @interface INJSONEncoderConfiguration
 {
     _Bool _locationIncludesTimestamp;
-    NSString *_languageCode;
 }
 
 - (_Bool);
@@ -18,11 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (void)ile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideShareModeOptionsForShareFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(nonatomic) _Bool locationIncludesTimestamp; // @synthesize locationIncludesTimestamp=_locationIncludesTimestamp;
 
 @end
 

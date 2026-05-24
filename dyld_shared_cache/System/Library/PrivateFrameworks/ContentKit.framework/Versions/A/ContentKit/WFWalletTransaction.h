@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCurrencyAmount, INPaymentMethod, NSString, WFWalletMerchant;
+@class NSString;
 
 @interface WFWalletTransaction
 {
     NSString *_identifier;
-    NSString *_transactionDescription;
-    WFWalletMerchant *_merchant;
-    INCurrencyAmount *_currencyAmount;
-    INPaymentMethod *_paymentMethod;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)[;
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) INCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) WFWalletMerchant *merchant; // @synthesize merchant=_merchant;
-@property(readonly, copy, nonatomic) INPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(readonly, copy, nonatomic) NSString *transactionDescription; // @synthesize transactionDescription=_transactionDescription;
-@property(readonly, copy, nonatomic) NSString *wfName;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AFAnnounceBinaryOutcomeUseCaseV2UpdateSmartRoutingMutating
+- (void)*;
 @end
 

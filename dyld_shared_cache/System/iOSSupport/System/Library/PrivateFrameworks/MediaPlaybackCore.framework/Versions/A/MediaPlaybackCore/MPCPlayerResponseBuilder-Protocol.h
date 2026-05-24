@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ICMusicSubscriptionStatus, MPCPlayerAudioFormat, MPMiddlewareChain, MPModelGenericObject, NSString;
+
 @protocol MPCPlayerResponseBuilder
+
+@optional
+- (_Bool)__TEXT;
+- (ICMusicSubscriptionStatus *);
+- (MPCPlayerAudioFormat *)credentialForAccount:(MPCPlayerAudioFormat *)arg1 client:(MPMiddlewareChain *)arg2;
+- (float)v;
+- (_Bool);
+- (NSString *);
+- (_Bool);
+- (NSString *)RE;
+- (_Bool);
+- (MPModelGenericObject *)rk/Versions/A/DeviceManagement;
+- (double);
+- (long long)__objc_protolist__DATA_CONST;
 @end
 

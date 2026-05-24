@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIKeyboardTextSelectionController;
+@class _UIKeyboardTextSelectionController;
 
 __attribute__((visibility("hidden")))
 @interface UITextRefinementCursorBehavior
@@ -13,28 +13,22 @@ __attribute__((visibility("hidden")))
     id _grabberHandleSuppressionAssertion;
 }
 
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (void);
-- (struct CGPoint);
-- (_Bool);
+- (_Bool)recordIDUsingName:zoneID: /* Error: Ran out of types for this method. */;
+- (_Bool)logDictionary:(id)arg1;
+- (struct CGPoint)logCloudKitSyncToPowerLogForSyncType:(id)arg1 isCoreDuetSync:(id)arg2 didCompleteChatSync:didSucceedSyncingChats:didCompleteMessageSync:didSucceedSyncingMessages:didCompleteAttachmentSync:didSucceedSyncingAttachments:didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (void)initWithProtobufData:(id)arg1 type:(long long)arg2 isResponse:(CDUnknownBlockType)arg3;
+- (struct CGPoint)exportWithOptions:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationManager:(id)arg1 updatedIncomingPendingConversations:(id)arg2;
 - (_Bool);
 - (Class);
-- (void);
-- (void);
-- (void);
+- (void)marked message guids in chat %s as read:(id)arg1 %s;
+- (void)%s) and returning:(id)arg1 %ld;
+- (void)undMessagingAPITargetHandler failed to find process handle for %d;
 - (struct CGPoint);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

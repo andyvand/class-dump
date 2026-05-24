@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactEventTrigger, _INPBDataString, _INPBDateTime, _INPBSpatialEventTrigger, _INPBTemporalEventTrigger;
+@class _INPBContactEventTrigger;
 
 @interface _INPBTask
 {
@@ -14,18 +14,6 @@
         unsigned int taskReference:1;
         unsigned int taskType:1;
     } _has;
-    int _priority;
-    int _status;
-    int _taskReference;
-    int _taskType;
-    _INPBContactEventTrigger *_contactEventTrigger;
-    _INPBDateTime *_createdDateTime;
-    NSString *_identifier;
-    _INPBDateTime *_modifiedDateTime;
-    NSString *_parentIdentifier;
-    _INPBSpatialEventTrigger *_spatialEventTrigger;
-    _INPBTemporalEventTrigger *_temporalEventTrigger;
-    _INPBDataString *_title;
 }
 
 + (_Bool);
@@ -53,7 +41,7 @@
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)k;
 - (int);
 - (int);
 - (void);
@@ -64,62 +52,32 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)s;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (int);
+- (int);
 - (id);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (_Bool);
 - (id)1Â0@ù
 × ;
-- (void)tionRequiredWithTemperatureToConfirm:(_Bool)arg1;
-- (int)m;
+- (void)confirmationRequiredWithTemperatureToConfirm:(_Bool)arg1;
+- (int)SearchAlarm;
 - (void)mediaSubItems;
 - (int)SNFý;
 - (int);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContactEventTrigger *contactEventTrigger; // @synthesize contactEventTrigger=_contactEventTrigger;
-@property(retain, nonatomic) _INPBDateTime *createdDateTime; // @synthesize createdDateTime=_createdDateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasContactEventTrigger;
-@property(readonly, nonatomic) _Bool hasCreatedDateTime;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasModifiedDateTime;
-@property(readonly, nonatomic) _Bool hasParentIdentifier;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasSpatialEventTrigger;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasTaskReference;
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _INPBDateTime *modifiedDateTime; // @synthesize modifiedDateTime=_modifiedDateTime;
-@property(copy, nonatomic) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) _INPBSpatialEventTrigger *spatialEventTrigger; // @synthesize spatialEventTrigger=_spatialEventTrigger;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(nonatomic) int taskReference; // @synthesize taskReference=_taskReference;
-@property(nonatomic) int taskType; // @synthesize taskType=_taskType;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger; // @synthesize temporalEventTrigger=_temporalEventTrigger;
-@property(retain, nonatomic) _INPBDataString *title; // @synthesize title=_title;
 
 @end
 

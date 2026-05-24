@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString;
+@class NSString;
 
 @interface CNContactFilter
 {
     _Bool _rankSortedResults;
-    NSString *_fullTextString;
 }
 
 - (void);
-- (void);
+- (void)@9;
 - (_Bool);
 - (id);
-- (id);
+- (id)stringWithFormat: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -27,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *fullTextString; // @synthesize fullTextString=_fullTextString;
-@property(readonly, nonatomic) NSPredicate *predicate;
-@property(nonatomic) _Bool rankSortedResults; // @synthesize rankSortedResults=_rankSortedResults;
-@property(readonly, nonatomic) _Bool supportsSections;
 
 @end
 

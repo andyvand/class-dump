@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)predicateForPrimaryMessages;
 - (_Bool);
 - (void);
 - (void);

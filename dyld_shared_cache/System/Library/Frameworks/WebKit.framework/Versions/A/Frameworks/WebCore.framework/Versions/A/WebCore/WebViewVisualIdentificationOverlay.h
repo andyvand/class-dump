@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WebViewVisualIdentificationOverlay
 {
     struct RetainPtr<NSView> _view;
-    struct RetainPtr<CALayer> _layer;
-    struct RetainPtr<NSString> _kind;
 }
 
 + (_Bool);
 + (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)æáÓÏòà¯DïáÚªyalmaéàÄaðáürogresóáÓ¸îá±áíaÇcdonááÕìé	àþ)fetimåá	äáÇeéàKÑaâáü3haòáúkoèáÙinsidehigèá£ìèa©qÁÁïáíá)_bbyloâájëcááWEfåá·\äàDollaòàËgenåá[Êã_páphe÷áÙáà¾öâá×Îâá°+áa±µà*7áá¥PutïáÆ
 mtòáSìdéáÒÆaskááÓÍgardåáÁemplïáqõcoîàÉnectéá.&áÏø®áÛhaâáÕ~­haãàµ©eäáã
@@ -46,13 +42,7 @@ hAKcÊã,èöbêìëütuâï±óëðÛoïçþ¤eøå5ðpÍàD/ra
 j§|eÕëàX­ôÃouôÏdeòðÂá	`	ð)proððÌneçí­méìxÓinteractiva.canaìäìPìpÆ¾EõFÇì	cüm]?Øtarifnumíð /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

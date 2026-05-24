@@ -7,13 +7,10 @@
 @interface NewsFeed.DebugFormatRulerIndicatorView
 {
     id selections;
-    id direction;
-    id lines;
-    id fill;
 }
 
-- (id);
-- (void);
+- (id)SearchResultsReturnedEvent;
+- (void)[TSUNetworkReachability status];
 - (id)1Â0@ù
 × ;
 - (void)\óÿþåM:\óÿþåM:p®wþåM:Tæ$ÿ /* Error: Ran out of types for this method. */;

@@ -10,15 +10,6 @@
 {
     id layout;
     id xRange;
-    id yRange;
-    id viewportXRange;
-    id viewportYRange;
-    id rasterizationScale;
-    id startLocation;
-    id endLocation;
-    id direction;
-    id valueLocationStart;
-    id valueLocationEnd;
 }
 
 @end

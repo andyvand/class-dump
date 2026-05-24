@@ -12,7 +12,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)moryAppropriateScore;
+- (void)unitagMemoryAppropriateScore;
 
 @end
 

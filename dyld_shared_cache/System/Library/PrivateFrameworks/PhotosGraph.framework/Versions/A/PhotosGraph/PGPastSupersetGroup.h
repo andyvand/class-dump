@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, PGGraphLocationCityNodeCollection, PGGraphLocationNodeCollection, PGGraphLocationStateNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGPastSupersetGroup
 {
     PGGraphMomentNodeCollection *_momentNodes;
-    NSDateInterval *_dateInterval;
-    PGGraphLocationCityNodeCollection *_supersetCityNodes;
-    PGGraphLocationNodeCollection *_densestCloseLocationNodes;
-    PGGraphLocationStateNodeCollection *_stateNodeAsCollection;
 }
 
 + (id);
@@ -29,11 +25,7 @@
 - (id)lexml-analysis;
 
 // Remaining properties
-@property(retain) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(retain) PGGraphLocationNodeCollection *densestCloseLocationNodes; // @synthesize densestCloseLocationNodes=_densestCloseLocationNodes;
 @property(retain) PGGraphMomentNodeCollection *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(retain) PGGraphLocationStateNodeCollection *stateNodeAsCollection; // @synthesize stateNodeAsCollection=_stateNodeAsCollection;
-@property(retain) PGGraphLocationCityNodeCollection *supersetCityNodes; // @synthesize supersetCityNodes=_supersetCityNodes;
 
 @end
 

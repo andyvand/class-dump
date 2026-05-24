@@ -9,9 +9,6 @@
 @interface MURandom : MUPoolObject
 {
     long long _state[31];
-    long long *_frontPtr;
-    long long *_rearPtr;
-    long long *_endPtr;
 }
 
 + (id);
@@ -19,7 +16,7 @@
 + (_Bool);
 - (long long);
 - (double);
-- (void);
+- (void)nager _handleDroppedEnvelopesForLocalReasons:(unsigned long long)arg1 ]_block_invoke;
 
 @end
 

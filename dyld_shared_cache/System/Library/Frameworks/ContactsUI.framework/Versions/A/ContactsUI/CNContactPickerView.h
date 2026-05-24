@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABBookSearchField, CNContactListView, CNContactPickerBorderView, CNContactPickerViewLayout, CNGroupListView, NSArray, NSMutableDictionary, NSScrollView, NSView, NSVisualEffectView;
+@class NSScrollView;
 
 @interface CNContactPickerView
 {
     _Bool _groupListVisible;
-    _Bool _searchFieldVisible;
-    _Bool _contactCardVisible;
-    _Bool _shouldSetFirstResponder;
-    CNContactListView *_contactListView;
-    CNGroupListView *_groupListView;
-    ABBookSearchField *_searchField;
-    NSView *_contactCardView;
-    NSScrollView *_contactListScrollView;
-    NSView *_groupListScrollView;
-    CNContactPickerBorderView *_verticalBorderView;
-    CNContactPickerBorderView *_contactCardBorderView;
-    NSVisualEffectView *_sideBarVisualEffectView;
-    NSView *_searchFieldRowView;
-    NSView *_mainRowView;
-    CNContactPickerViewLayout *_pickerLayout;
-    NSMutableDictionary *_sections;
-    NSView *_contentView;
-    NSView *_rightTopBarView;
-    NSArray *_customConstraints;
 }
 
 - (id);
@@ -37,6 +18,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,8 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -61,7 +42,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -69,13 +50,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)usageBoundsForTextContainer;
 - (id);
 - (void);
 - (void);
@@ -86,26 +67,7 @@
 - (void)¿;
 
 // Remaining properties
-@property(retain) CNContactPickerBorderView *contactCardBorderView; // @synthesize contactCardBorderView=_contactCardBorderView;
-@property(retain, nonatomic) NSView *contactCardView; // @synthesize contactCardView=_contactCardView;
-@property(nonatomic, getter=isContactCardVisible) _Bool contactCardVisible; // @synthesize contactCardVisible=_contactCardVisible;
 @property(retain) NSScrollView *contactListScrollView; // @synthesize contactListScrollView=_contactListScrollView;
-@property(nonatomic) __weak CNContactListView *contactListView; // @synthesize contactListView=_contactListView;
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(retain) NSArray *customConstraints; // @synthesize customConstraints=_customConstraints;
-@property(retain) NSView *groupListScrollView; // @synthesize groupListScrollView=_groupListScrollView;
-@property(nonatomic) __weak CNGroupListView *groupListView; // @synthesize groupListView=_groupListView;
-@property(nonatomic, getter=isGroupListVisible) _Bool groupListVisible; // @synthesize groupListVisible=_groupListVisible;
-@property(retain) NSView *mainRowView; // @synthesize mainRowView=_mainRowView;
-@property(retain) CNContactPickerViewLayout *pickerLayout; // @synthesize pickerLayout=_pickerLayout;
-@property(retain, nonatomic) NSView *rightTopBarView; // @synthesize rightTopBarView=_rightTopBarView;
-@property(retain, nonatomic) ABBookSearchField *searchField; // @synthesize searchField=_searchField;
-@property(retain) NSView *searchFieldRowView; // @synthesize searchFieldRowView=_searchFieldRowView;
-@property(nonatomic, getter=isSearchFieldVisible) _Bool searchFieldVisible; // @synthesize searchFieldVisible=_searchFieldVisible;
-@property(retain) NSMutableDictionary *sections; // @synthesize sections=_sections;
-@property _Bool shouldSetFirstResponder; // @synthesize shouldSetFirstResponder=_shouldSetFirstResponder;
-@property(retain) NSVisualEffectView *sideBarVisualEffectView; // @synthesize sideBarVisualEffectView=_sideBarVisualEffectView;
-@property(retain) CNContactPickerBorderView *verticalBorderView; // @synthesize verticalBorderView=_verticalBorderView;
 
 @end
 

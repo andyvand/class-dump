@@ -13,10 +13,10 @@
     REMReminder *_reminder;
 }
 
+- (id)s;
 - (id);
-- (id);
-- (void);
-- (void)ion:sizeCategory:sourceAccountManagement:sourceBundleID:isLegacyClient: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setupViewContextWithViewHierarchy:layoutDirection:sizeCategory:sourceAccountManagement:sourceBundleID:isLegacyClient: /* Error: Ran out of types for this method. */;
 
 @end
 

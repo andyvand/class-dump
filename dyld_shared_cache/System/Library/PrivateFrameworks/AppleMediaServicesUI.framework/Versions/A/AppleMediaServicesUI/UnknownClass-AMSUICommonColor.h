@@ -7,26 +7,26 @@
 @interface UnknownClass (AMSUICommonColor)
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)];
++ (id);
++ (id);
++ (id);
++ (id);
++ (id):�H /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)c^;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -43,7 +43,5 @@
 
 // Remaining properties
 @property(readonly, getter=ams_isDark) _Bool ams_dark;
-@property(readonly, getter=ams_isLight) _Bool ams_light;
-@property(readonly) double ams_luminance;
 @end
 

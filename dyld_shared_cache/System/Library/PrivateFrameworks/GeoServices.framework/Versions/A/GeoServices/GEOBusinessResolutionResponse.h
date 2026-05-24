@@ -10,18 +10,12 @@ __attribute__((visibility("hidden")))
 @interface GEOBusinessResolutionResponse
 {
     NSString *_businessName;
-    unsigned long long _businessUID;
-    int _status;
-    struct {
-        unsigned int has_businessUID:1;
-        unsigned int has_status:1;
-    } _flags;
 }
 
-+ (_Bool)eURLUsesStatusCodes:(id)arg1;
++ (_Bool)setHasMultiTileURLUsesStatusCodes:(id)arg1;
 - (void);
-- (void);
-- (_Bool);
+- (void)startObservingWithOptions:(id)arg1;
+- (_Bool)ge;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -29,19 +23,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)sertion>";
+- (void)deactivateForReason:(id)arg1 options:context:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)r;
+- (_Bool);
 - (void)!'ð!ÀGùñ¶*ð1Â0@ù
 × ;
-- (id)esAtIndex:(struct _NSZone *)arg1;
-- (int)asMatchedUsingOrganization: /* Error: Ran out of types for this method. */;
+- (id)publisherAttributionFilesAtIndex:(struct _NSZone *)arg1;
+- (int)setHasMatchedUsingOrganization: /* Error: Ran out of types for this method. */;
 - (id)¼û¼;
 - (id)ITH RECURSIVE children_of_recursive(X) AS (    SELECT @region_id        UNION            SELECT child FROM region_relationship_mapping            JOIN children_of_recursive ON parent=X AND (areas & @areas) != 0)SELECT region_id, iso_code, type, sort_order, time_zone_name, name, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id != @region_id AND region_id IN children_of_recursive    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
-- (id)icit_query_intro_tip_for_hiking;
+- (id)implicit_query_intro_tip_for_hiking;
 - (id)ØÌ;
 - (_Bool)¼;
 - (void)Ház®<@;
@@ -49,12 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)>k6;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *businessName;
-@property(nonatomic) unsigned long long businessUID;
-@property(readonly, nonatomic) _Bool hasBusinessName;
-@property(nonatomic) _Bool hasBusinessUID;
 @property(nonatomic) _Bool hasStatus;
-@property(nonatomic) int status;
 
 @end
 

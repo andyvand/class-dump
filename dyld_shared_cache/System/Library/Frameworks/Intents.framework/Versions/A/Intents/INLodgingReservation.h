@@ -6,21 +6,15 @@
 
 #import <Intents/INReservation.h>
 
-@class CLPlacemark, INDateComponentsRange, NSNumber;
+@class CLPlacemark;
 
 @interface INLodgingReservation : INReservation
 {
     CLPlacemark *_lodgingBusinessLocation;
-    INDateComponentsRange *_reservationDuration;
-    NSNumber *_numberOfAdults;
-    NSNumber *_numberOfChildren;
 }
 
 
 // Remaining properties
 @property(readonly, copy) CLPlacemark *lodgingBusinessLocation; // @synthesize lodgingBusinessLocation=_lodgingBusinessLocation;
-@property(readonly, copy) NSNumber *numberOfAdults; // @synthesize numberOfAdults=_numberOfAdults;
-@property(readonly, copy) NSNumber *numberOfChildren; // @synthesize numberOfChildren=_numberOfChildren;
-@property(readonly, copy) INDateComponentsRange *reservationDuration; // @synthesize reservationDuration=_reservationDuration;
 @end
 

@@ -4,59 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NTPBTodayWidgetConfig
 {
     double _liveCoverageActiveWindow;
-    long long _minimumArticleExposureDurationToBePreseen;
-    double _prerollLoadingTimeout;
-    long long _widgetSystemReloadInterval;
-    long long _widgetSystemReloadJitterMax;
-    NSString *_audioIndicatorColor;
-    NSString *_backgroundColorDark;
-    NSString *_backgroundColorLight;
-    NSData *_externalAnalyticsConfigurationsData;
-    unsigned int _minimumNumberOfTimesPreseenToBeSeen;
-    _Bool _contentPrefetchEnabled;
-    _Bool _widgetBackgroundInteractionEnabled;
-    struct {
-        unsigned int liveCoverageActiveWindow:1;
-        unsigned int minimumArticleExposureDurationToBePreseen:1;
-        unsigned int prerollLoadingTimeout:1;
-        unsigned int widgetSystemReloadInterval:1;
-        unsigned int widgetSystemReloadJitterMax:1;
-        unsigned int minimumNumberOfTimesPreseenToBeSeen:1;
-        unsigned int contentPrefetchEnabled:1;
-        unsigned int widgetBackgroundInteractionEnabled:1;
-    } _has;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *audioIndicatorColor; // @synthesize audioIndicatorColor=_audioIndicatorColor;
-@property(retain, nonatomic) NSString *backgroundColorDark; // @synthesize backgroundColorDark=_backgroundColorDark;
-@property(retain, nonatomic) NSString *backgroundColorLight; // @synthesize backgroundColorLight=_backgroundColorLight;
-@property(nonatomic) _Bool contentPrefetchEnabled; // @synthesize contentPrefetchEnabled=_contentPrefetchEnabled;
-@property(retain, nonatomic) NSData *externalAnalyticsConfigurationsData; // @synthesize externalAnalyticsConfigurationsData=_externalAnalyticsConfigurationsData;
-@property(readonly, nonatomic) _Bool hasAudioIndicatorColor;
-@property(readonly, nonatomic) _Bool hasBackgroundColorDark;
-@property(readonly, nonatomic) _Bool hasBackgroundColorLight;
-@property(nonatomic) _Bool hasContentPrefetchEnabled;
-@property(readonly, nonatomic) _Bool hasExternalAnalyticsConfigurationsData;
-@property(nonatomic) _Bool hasLiveCoverageActiveWindow;
 @property(nonatomic) _Bool hasMinimumArticleExposureDurationToBePreseen;
-@property(nonatomic) _Bool hasMinimumNumberOfTimesPreseenToBeSeen;
-@property(nonatomic) _Bool hasPrerollLoadingTimeout;
-@property(nonatomic) _Bool hasWidgetBackgroundInteractionEnabled;
-@property(nonatomic) _Bool hasWidgetSystemReloadInterval;
-@property(nonatomic) _Bool hasWidgetSystemReloadJitterMax;
-@property(nonatomic) double liveCoverageActiveWindow; // @synthesize liveCoverageActiveWindow=_liveCoverageActiveWindow;
-@property(nonatomic) long long minimumArticleExposureDurationToBePreseen; // @synthesize minimumArticleExposureDurationToBePreseen=_minimumArticleExposureDurationToBePreseen;
-@property(nonatomic) unsigned int minimumNumberOfTimesPreseenToBeSeen; // @synthesize minimumNumberOfTimesPreseenToBeSeen=_minimumNumberOfTimesPreseenToBeSeen;
-@property(nonatomic) double prerollLoadingTimeout; // @synthesize prerollLoadingTimeout=_prerollLoadingTimeout;
-@property(nonatomic) _Bool widgetBackgroundInteractionEnabled; // @synthesize widgetBackgroundInteractionEnabled=_widgetBackgroundInteractionEnabled;
-@property(nonatomic) long long widgetSystemReloadInterval; // @synthesize widgetSystemReloadInterval=_widgetSystemReloadInterval;
-@property(nonatomic) long long widgetSystemReloadJitterMax; // @synthesize widgetSystemReloadJitterMax=_widgetSystemReloadJitterMax;
 @end
 

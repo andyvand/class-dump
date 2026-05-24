@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface XCTFilteringTransformerIterator : XCTMatchingElementIterator
 {
     NSEnumerator *_inputEnumerator;
-    XCTElementFilteringTransformer *_filteringTransformer;
 }
 
 - (id);
-- (id);
+- (id)k!;
 - (id);
 - (void);
 

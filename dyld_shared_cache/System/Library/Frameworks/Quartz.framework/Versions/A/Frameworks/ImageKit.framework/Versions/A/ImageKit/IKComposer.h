@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKFilterChain, IKImageBackgroundLayer, IKImageLayer, IKImageView, IKRootLayer, NSColor, NSMutableArray, NSMutableDictionary, NSURL;
+@class IKImageView;
 
 @interface IKComposer
 {
     IKImageView *_view;
-    id _viewDelegate;
-    IKRootLayer *_rootLayer;
-    IKImageBackgroundLayer *_imageBackgroundLayer;
-    IKImageLayer *_imageLayer;
-    CALayer *_userOverlayImage;
-    CALayer *_userOverlayRoot;
-    CALayer *_mouseDownLayer;
-    NSMutableArray *_layers;
-    NSMutableDictionary *_registeredLayers;
-    NSURL *_URL;
-    IKFilterChain *_filterChain;
-    long long _toolMode;
-    long long _oldToolMode;
-    int _selectionType;
-    int _annotationType;
-    int _maxTextureSize;
-    NSColor *_backgroundColor;
-    struct CGColor *_cgBackgroundColor;
-    _Bool _viewDelegateRespondsToWillChange;
-    _Bool _viewDelegateRespondsToDidChange;
-    _Bool _viewDelegateRespondsToDidChangeWithParameters;
-    _Bool _viewDelegateRespondsToUndoManagerForOperation;
-    _Bool _needToCreateImageForImageState;
-    _Bool _reuseImageLayer;
-    _Bool _isOpaque;
 }
 
 + (struct CGImage *);
@@ -55,6 +30,7 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -62,10 +38,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ʢ;
 - (void);
 - (void);
 - (void);
@@ -96,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�(;
 - (struct CGImage *);
 - (id);
 - (struct CGImage *);
@@ -105,7 +80,7 @@
 - (struct CGPoint);
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
+- (void)@9?k@;
 - (struct CGImage *);
 - (struct CGImage *);
 - (struct CGColor *);
@@ -132,10 +107,10 @@
 - (id);
 - (int);
 - (void);
+- (void)_hasGamesLimit;
+- (void),N,V_familyMemberType;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)ce Activity data is unavailable for user:(id)arg1 %{public}s;
 - (void);
 - (void);
 - (int);
@@ -146,7 +121,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)@a L`l(a!@e;
 - (struct CGImage *);
 - (void);
 - (void);
@@ -158,16 +133,14 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (id)racters:length: /* Error: Ran out of types for this method. */;
+- (id)stringWithCharacters:length: /* Error: Ran out of types for this method. */;
 - (id)nced;
 - (id)ÈÅ;
 - (void)XÄÀ;
-- (void)ectRatio;
+- (void)inputAspectRatio;
 - (void)ÿ_;
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property _Bool isOpaque; // @synthesize isOpaque=_isOpaque;
 @property _Bool reuseImageLayer; // @synthesize reuseImageLayer=_reuseImageLayer;
 
 @end

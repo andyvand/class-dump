@@ -7,18 +7,15 @@
 @class UIColor, UIView;
 
 @protocol _UIScrollViewScrollIndicatorVisualStyle
+- (struct CGRect);
 - (double);
-- (_Bool)FromRight;
-- (UIColor *)ltHeaderFooterLayoutMarginsForTableViewStyle:(long long)arg1 isHeader:(_Bool)arg2 isFirstSection: /* Error: Ran out of types for this method. */;
-- (CDStruct_f413d7fe)ssary;
+- (_Bool)transitionFromRight;
+- (UIColor *)defaultHeaderFooterLayoutMarginsForTableViewStyle:(long long)arg1 isHeader:(_Bool)arg2 isFirstSection: /* Error: Ran out of types for this method. */;
+- (CDStruct_f413d7fe)assertCurrentInputModeIfNecessary;
 - (struct UIEdgeInsets)mageSingleNamedLayerImage",&,N,V_layerImage;
 - (UIView *)<nüoq(r;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clipsToBounds;
-@property(readonly, nonatomic) struct UIEdgeInsets cursorHitTestingInsets;
-@property(readonly, nonatomic) _Bool doesExpand;
-@property(readonly, nonatomic) double staticDimensionExpandedSize;
 @property(readonly, nonatomic) double staticDimensionSize;
 @end
 

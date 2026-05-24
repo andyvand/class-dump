@@ -6,25 +6,23 @@
 
 #import <HomeKitDaemon/HMDNotificationRegistryRequest.h>
 
-@class NSMutableSet, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistryMediaPropertiesRequest : HMDNotificationRegistryRequest
 {
     NSUUID *_mediaProfileUUID;
-    NSMutableSet *_mediaProperties;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)moveContentsObjectAtIndex:toIndex: /* Error: Ran out of types for this method. */;
+- (id)endingObserver:(_Bool)arg1 ];
 - (id);
 - (id)edSettingValue (%@) for keypath %@, accessory:%@, is not of bool setting type /* Error: Ran out of types for this method. */;
 - (void)ia.Destination.Controller.MetricsEventDispatcher;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *mediaProfileUUID; // @synthesize mediaProfileUUID=_mediaProfileUUID;
-@property(retain) NSMutableSet *mediaProperties; // @synthesize mediaProperties=_mediaProperties;
 
 @end
 

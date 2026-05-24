@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, OBPrivacyFlow, OBPrivacySplashListView, UIImageView, UIView;
-
 __attribute__((visibility("hidden")))
 @interface OBPrivacyCombinedRowView
 {
     _Bool _underlineLinks;
-    _Bool _showingPrivacyText;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
-    OBPrivacyFlow *_privacyFlow;
-    OBPrivacySplashListView *_listView;
-    UIImageView *_disclosureImageView;
-    UIView *_headerView;
-    NSLayoutConstraint *_chevronWidthConstraint;
 }
 
 - (_Bool);
@@ -34,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)M9;
 - (unsigned long long);
 - (id);
 - (void);
@@ -48,15 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)straintToImageContainer;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *chevronWidthConstraint; // @synthesize chevronWidthConstraint=_chevronWidthConstraint;
-@property(retain, nonatomic) UIImageView *disclosureImageView; // @synthesize disclosureImageView=_disclosureImageView;
-@property unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property(retain) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
-@property(retain, nonatomic) UIView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) OBPrivacySplashListView *listView; // @synthesize listView=_listView;
-@property(retain, nonatomic) OBPrivacyFlow *privacyFlow; // @synthesize privacyFlow=_privacyFlow;
 @property(nonatomic) _Bool showingPrivacyText; // @synthesize showingPrivacyText=_showingPrivacyText;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
 
 @end
 

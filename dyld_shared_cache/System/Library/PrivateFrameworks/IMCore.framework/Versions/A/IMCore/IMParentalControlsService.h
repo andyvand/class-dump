@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface IMParentalControlsService
 {
     _Bool _disableService;
-    _Bool _forceAllowlist;
-    NSSet *_allowlist;
-    NSString *_name;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)ticipant already started;
+- (void)d VCVideoRules:(_Bool)arg1 Failed to create supported payload array;
+- (void)VCVideoStream [%s] %s:(id)arg1 %d @:@ AVCVideoStream-didStop (%p) /* Error: Ran out of types for this method. */;
+- (_Bool)s:%d Recomputed tier table. isRedundancyEnabled=%d /* Error: Ran out of types for this method. */;
+- (_Bool)nBlock:strongSelf == nil /* Error: Ran out of types for this method. */;
+- (id)=%u lost=%u) Reporting interval(Received=%u expected=%u lost=%u);
 - (void);
 - (id);
 - (void);
 - (void)¸Äèx;
 
 // Remaining properties
-@property(retain) NSSet *allowlist; // @synthesize allowlist=_allowlist;
 @property _Bool disableService; // @synthesize disableService=_disableService;
-@property _Bool forceAllowlist; // @synthesize forceAllowlist=_forceAllowlist;
-@property(retain) NSString *name; // @synthesize name=_name;
 
 @end
 

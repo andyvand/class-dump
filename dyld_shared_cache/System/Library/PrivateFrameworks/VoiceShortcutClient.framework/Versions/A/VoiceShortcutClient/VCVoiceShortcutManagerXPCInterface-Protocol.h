@@ -5,6 +5,33 @@
 //
 
 @protocol VCVoiceShortcutManagerXPCInterface
+- (void)s;
+- (void)h{;
+- (void);
+- (void)t3|;
+- (void){;
+- (void)3|;
+- (void)|;
+- (void)|;
+- (void)z;
+- (void);
+- (void).|;
+- (void)�P3|;
+- (void)1({;
+- (void)lz;
+- (void);
+- (void)@;
+- (void)bject";
+- (void)}};
+- (void)s">;
+- (void)ctPropertyAddress=III}};
+- (void);
+- (void);
+- (void)E;
+- (void);
+- (void);
+- (void);
+- (void)%;
 - (void)8@16@24@32@40B48B52@56@64;
 @end
 

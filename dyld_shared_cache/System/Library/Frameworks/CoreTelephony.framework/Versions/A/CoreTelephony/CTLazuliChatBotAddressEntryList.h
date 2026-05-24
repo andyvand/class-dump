@@ -11,15 +11,15 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)lready been added to another AVAssetReader;
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)-;
 - (_Bool);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (void)±ª)1Â0@ù
 × ;

@@ -7,15 +7,12 @@
 @interface PhotosUICore.LemonadeMemoriesCreationButtonValidation
 {
     id photoLibrary;
-    id $__lazy_storage_$_availabilityManager;
-    id logger;
-    id updateHandlers;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (void)x8Ô¶: /* Error: Ran out of types for this method. */;
 

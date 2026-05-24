@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface AVFragmentedAssetMinderInternal
 {
     NSMutableSet *assets;
-    NSObject<OS_dispatch_queue> *accessSerializer;
-    double mindingInterval;
 }
 
 @end

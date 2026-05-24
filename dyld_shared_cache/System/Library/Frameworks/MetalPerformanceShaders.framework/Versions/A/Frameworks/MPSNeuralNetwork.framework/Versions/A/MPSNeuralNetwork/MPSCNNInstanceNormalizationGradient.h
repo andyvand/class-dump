@@ -11,10 +11,10 @@
 }
 
 + (const struct MPSLibraryInfo *);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)t matrix size.;
 - (id)lu
 	zero pad size Y:(id)arg1 %lu;
 

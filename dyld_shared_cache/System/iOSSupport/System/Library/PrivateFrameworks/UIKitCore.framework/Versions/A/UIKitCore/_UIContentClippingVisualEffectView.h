@@ -12,31 +12,25 @@ __attribute__((visibility("hidden")))
 @interface _UIContentClippingVisualEffectView : UIVisualEffectView
 {
     _Bool _clipsContentToSafeArea;
-    UIView *_contentClippingView;
-    UIView *_contentClippingLayoutView;
-    struct UIEdgeInsets _additionalClippingInsets;
 }
 
-- (void);
-- (void);
+- (void)resolveChatConflictUsingSyncData:(id)arg1 localGUID: /* Error: Ran out of types for this method. */;
+- (void)resetTransfer:(id)arg1 andPostError: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)context %@;
+- (void)haring location group chat %@;
 - (_Bool);
 - (struct UIEdgeInsets);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)on:(struct CGRect)arg1;
+- (id)_buttonBarWidthForTraitCollection:(struct CGRect)arg1 interfaceOrientation: /* Error: Ran out of types for this method. */;
 - (void)æÒþ­°j];
 - (id)+hÎc;
 
 // Remaining properties
-@property(nonatomic, setter=_setAdditionalClippingInsets:) struct UIEdgeInsets _additionalClippingInsets; // @synthesize _additionalClippingInsets;
-@property(nonatomic, setter=_setClipsContentToSafeArea:) _Bool _clipsContentToSafeArea; // @synthesize _clipsContentToSafeArea;
-@property(retain, nonatomic) UIView *contentClippingLayoutView; // @synthesize contentClippingLayoutView=_contentClippingLayoutView;
 @property(retain, nonatomic) UIView *contentClippingView; // @synthesize contentClippingView=_contentClippingView;
 
 @end

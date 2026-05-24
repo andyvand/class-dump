@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSString, UINavigationBar, UIView, UIViewController, UTType;
-@protocol MUContentViewControllerProtocol;
+@class AKController, NSString;
 
 @protocol MarkupViewControllerProtocol
+- (void)/;
+- (void)RU/;
+- (void);
+- (_Bool)earbySessionMessage.encodeGroupMessage;
+- (_Bool);
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic) _Bool allEditingDisabled;
 @property(readonly, nonatomic) AKController *annotationController;
-@property(nonatomic) _Bool annotationEditingEnabled;
-@property(readonly) UIViewController<MUContentViewControllerProtocol> *contentViewController;
-@property(nonatomic) _Bool formFillingEnabled;
-@property(retain, nonatomic) UINavigationBar *navBar;
-@property(nonatomic, getter=isNavigationModeHorizontal) _Bool navigationModeHorizontal;
-@property(readonly, nonatomic) UTType *outputContentType;
-@property(readonly, nonatomic) NSString *outputType;
-@property(nonatomic) _Bool pencilAlwaysDraws;
-@property(nonatomic) _Bool showThumbnailViewForMultipage;
-@property(nonatomic, getter=isThumbnailViewHidden) _Bool thumbnailViewHidden;
-@property(readonly, nonatomic) UIView *toolbar;
-@property(nonatomic, getter=isToolbarHidden) _Bool toolbarHidden;
-@property(nonatomic) long long toolbarPosition;
 @end
 

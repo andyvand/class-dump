@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioStream, NSHashTable, NSMutableSet, NSObject, NSString;
-@protocol CSAudioAlertProvidingDelegate, CSAudioSessionProvidingDelegate, CSAudioStreamProvidingDelegate, CSXPCClientDelegate, OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol CSAudioSessionProvidingDelegate, OS_xpc_object;
 
 @interface CSXPCClient
 {
     id <CSAudioSessionProvidingDelegate> _audioSessionProvidingDelegate;
-    id <CSAudioStreamProvidingDelegate> _audioStreamProvidingDelegate;
-    id <CSAudioAlertProvidingDelegate> _audioAlertProvidingDelegate;
-    id <CSXPCClientDelegate> _delegate;
-    NSString *_UUID;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_xpcReplyQueue;
-    NSObject<OS_dispatch_queue> *_xpcClientQueue;
-    CSAudioStream *_audioStream;
-    NSMutableSet *_activationAssertions;
-    NSHashTable *_audioSessionInfoObservers;
-    unsigned long long _xpcClientType;
 }
 
 + (id);
@@ -32,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)handleContactsChanged;
 - (void);
 - (void);
 - (void);
@@ -44,9 +33,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)vable";
+- (void)predicateForLeft:(id)arg1 notEqualToRight: /* Error: Ran out of types for this method. */;
+- (void)
+;
 - (id);
 - (void);
 - (void);
@@ -58,7 +48,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)T&;
 - (void);
 - (void);
 - (void);
@@ -68,19 +58,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)faceCountsForPersonsWithUniqueIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)predictedPersonUniqueIdentifier;
+- (void)VNImageAnalyzerMultiDetectorVN1JC7R3k4455fKQz0dY1VhQConfiguration;
+- (id)VNGenerateInstanceMaskGatingRequestConfiguration;
+- (void)@-;
+- (void)hv_;
 - (void);
 - (void);
-- (id);
+- (void)B;
+- (id)CalculateExposureScoreRequest;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (_Bool);
 - (id);
@@ -107,9 +97,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long);
+- (void);
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -117,12 +107,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id),R,V_connection;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)vedWithRemoteVADASBD;
+- (void)lpcmMonoNonInterleavedWithRemoteVADASBD;
 - (void)is nil - Bailing out;
 - (void)BTLE AudioPayload ringBuffer startpoint:%{public}lld toEnd, activeChannel:%{public}tu /* Error: Ran out of types for this method. */;
 - (void)egin.;
@@ -134,7 +124,7 @@
 - (id)rSecondPass[%{public}@]:Second pass set to analyze %{public}tu samples (%{public}.2fs) from %{public}tu to %{public}tu /* Error: Ran out of types for this method. */;
 - (_Bool)Audio:toDeviceWithUUID:withNumChannels:withUserIntentOptions:handlingDaemon:started:]_block_invoke /* Error: Ran out of types for this method. */;
 - (float)kListnerTestService opportuneSpeakListener:(unsigned long long)arg1 hasVADAvailable:] /* Error: Ran out of types for this method. */;
-- (_Bool)audioRecordType;
+- (_Bool)CSAttendingOptions:(long long)arg1::audioRecordType /* Error: Ran out of types for this method. */;
 - (void)er:(unsigned int)arg1 finalizationHandler:(float)arg2 ];
 - (float)e.siri.acousticsignature;
 - (void).apple.assistant.queue-monitor;
@@ -142,29 +132,11 @@
 - (id)_block_invoke;
 - (_Bool)IOS _isAudioRouteIneligibleForAP];
 - (_Bool)mpletion:(id)arg1 ]_block_invoke;
-- (id)ility;
+- (id)clientSilenceProbability;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSMutableSet *activationAssertions; // @synthesize activationAssertions=_activationAssertions;
-@property(nonatomic) __weak id <CSAudioAlertProvidingDelegate> audioAlertProvidingDelegate; // @synthesize audioAlertProvidingDelegate=_audioAlertProvidingDelegate;
-@property(retain, nonatomic) NSHashTable *audioSessionInfoObservers; // @synthesize audioSessionInfoObservers=_audioSessionInfoObservers;
-@property(nonatomic) __weak id <CSAudioSessionProvidingDelegate> audioSessionProvidingDelegate; // @synthesize audioSessionProvidingDelegate=_audioSessionProvidingDelegate;
-@property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(nonatomic) __weak id <CSAudioStreamProvidingDelegate> audioStreamProvidingDelegate; // @synthesize audioStreamProvidingDelegate=_audioStreamProvidingDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSXPCClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcClientQueue; // @synthesize xpcClientQueue=_xpcClientQueue;
-@property(nonatomic) unsigned long long xpcClientType; // @synthesize xpcClientType=_xpcClientType;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcReplyQueue; // @synthesize xpcReplyQueue=_xpcReplyQueue;
 
 @end
 

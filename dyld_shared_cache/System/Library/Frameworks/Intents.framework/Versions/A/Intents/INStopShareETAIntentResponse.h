@@ -6,28 +6,26 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INStopShareETAIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setCompletionHandler:(long long)arg1;
++ (long long)saveBestRepresentationForRequest:(int)arg1 toFileAtURL:(int)arg2 asContentType:(_Bool)arg3 allowingThumbnailDownloads:completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool)removeThumbnailForURL:(long long)arg1 completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)!;
 - (id);
-- (long long);
+- (long long);
 - (unsigned long long);
 - (id);
+- (id)styli;
 - (id);
-- (id);
-- (void);
+- (void)AUTO-JOIN:(id)arg1 Recent Channels (%lu) :%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -36,15 +34,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long mediums;
-@property(copy) NSArray *recipients;
-@property(readonly) Class superclass;
 
 @end
 

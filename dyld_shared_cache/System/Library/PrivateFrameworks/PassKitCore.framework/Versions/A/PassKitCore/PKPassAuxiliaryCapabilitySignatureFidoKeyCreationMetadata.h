@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPassAuxiliaryCapabilityKeyCreationMetadata.h>
 
-@class NSData, PKFidoProfile;
+@class PKFidoProfile;
 
 @interface PKPassAuxiliaryCapabilitySignatureFidoKeyCreationMetadata : PKPassAuxiliaryCapabilityKeyCreationMetadata
 {
     PKFidoProfile *_fidoProfile;
-    NSData *_fidoChallenge;
-    NSData *_externalizedAuth;
 }
 
 + (_Bool)î%1Â0@ù
@@ -23,15 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)responseLatencyMs;
 - (id);
 - (id);
-- (id)veAction;
+- (id)alternativeAction;
 - (void)known set of personalization field keys.;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *externalizedAuth; // @synthesize externalizedAuth=_externalizedAuth;
-@property(readonly, nonatomic) NSData *fidoChallenge; // @synthesize fidoChallenge=_fidoChallenge;
 @property(readonly, nonatomic) PKFidoProfile *fidoProfile; // @synthesize fidoProfile=_fidoProfile;
 
 @end

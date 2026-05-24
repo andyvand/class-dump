@@ -7,7 +7,6 @@
 @interface Mail.InProgressMessageDownload.AttachmentDecoderAndWriter.Decoder
 {
     id mediaType;
-    id encoding;
 }
 
 @end

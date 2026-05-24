@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (id);
+- (void)t: /* Error: Ran out of types for this method. */;
+- (id)animationWithSCNAnimation:(id)arg1;
 
 @end
 

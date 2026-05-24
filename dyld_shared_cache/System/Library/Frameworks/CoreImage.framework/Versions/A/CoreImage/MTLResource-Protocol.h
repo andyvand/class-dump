@@ -8,6 +8,8 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
+- (NSString *)<;
+- (id <MTLDevice>)w;
 - (unsigned long long)XaCPEYca[cuuuu}}}}ttttPgdnssssqqoq4QGfCVMc^dadT`\`TZSZVYP\N_Viovrys{w]xs}}}}bqkrOkcvxt}d|z£££^pgzFh_y||||wwwwpqkzs¡¡¡¡±±±±¬§¯°|§^wujstzrrrriiii^`[`hf_hfzyv¨¨¨¨qqqq:F8G&-106$75E7L@SJdoz|}`vvv1J<Y?G5P[]Scscts{Khbuuyx{Rtr]tr|ttttiiiiU`[`^^^^J_VcOiatp~zs§¥§§££££aoevMbUnZmcu|g~x«¬²²ÃÃÃÃ¿¿¿¿ £¦h}u\wopuuuu[[W[.B1NZZP]kpntiwv}[lgw6TGiMVIbT`XdWg`kyywy¥¥¥¥®®®®­­­­§§§§bulfodyGbUsDaVpmmmmWc\d@VM]ddddllllWgfkccccXXWXVVPVddddxxxxyqvu~Sb\nde`jqssswwwwinkr_gaqrxxxjvvvff`h=RF^`a\aeeeeddadfe_fpppp||||sqzy}}}|~C`WqelgovvvvqtttkkkkO\OeE]On¥¥¥¥¬¬¬¬¡¡¡¡J_Wh=NAXZaYazzzz||{|mmfmJ_Vj]qnxwwwwIXNcac^diiiiggggI\Ui}~uuuuggegH`Wluuuu]e_gffefrrrrzzzzqqqqIVK]>I:R\\W\pppp{|||yyyyUkeqfpkuttttddddNXNX>J:U5RDdu|yx}rslvzzvzh}{hs^wt       n|||Ue`iKSGZAPBZhhahyyyycxt~{uo{`tp{i~~zzzz]\Pf6RDl¥¥¥¥¡¡¡¡x~~~GRD_1F6TH^Wbqqqqppppccbc^^W^cf_i||||zOdYpF\OjssssxxxxuwwwxxxxvvvvmmmmXbXeSbWlhxt{ /* Error: Ran out of types for this method. */;
 - (unsigned long long)^bINCS=F8NDUMYnnnnnhoosdiiicdddS_Zftxy|°°°°§¤§§~uuuuZc\da[Rajkhkzzzz~~~~\uq|zzzzwwwwuuuuttttqqqq[mhs~}{~gj`pScUsªªªª¥¥¥¥pamfxfzz{||||ssssnmgnqyx{Rh`wbpkxkzx{cnftrrlrwwww£§ªª±±±±©©©©©©©©¬¬¬¬z~ssps9WMdccccllllssssvvvv~|{ah`qUbXn||}}}}lsssoooooooommmmTf_m`lhmhhhhggcgtttty}}y¡¡¡¡lngpR_Sfmkcmh|z}Nrkp{wwopiy_ofzci]{RdXt{xl;
 - (unsigned long long)e
@@ -1550,14 +1552,6 @@ kernel vec4 _faceMaskCalculator(sampler image, vec4 lex, vec4 ley, vec4 cx, vec4
 - (id <MTLHeap>)>;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

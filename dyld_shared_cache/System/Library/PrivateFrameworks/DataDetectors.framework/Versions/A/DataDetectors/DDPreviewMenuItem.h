@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDActionContext, NSString;
-@protocol QLPreviewItem;
-
 __attribute__((visibility("hidden")))
 @interface DDPreviewMenuItem
 {
     _Bool _vkAutoTargetHack;
-    _Bool _beingDisplayed;
-    DDActionContext *_context;
-    id <QLPreviewItem> _ddPreviewItem;
 }
 
 - (id);
@@ -34,13 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,45 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene, FBSceneWorkspace, NSSceneHostingView, NSString;
-@protocol FBSceneClientProcess, NSSceneHostingControllerDelegate;
+@class NSSceneHostingView;
 
 @interface NSSceneHostingController
 {
     NSSceneHostingView *hostingView;
-    void sceneIdentifier;
-    FBScene *scene;
-    FBSceneWorkspace *workspace;
-    id <FBSceneClientProcess> client;
-    void delegate;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)orAttributeCompositorP33_E1D15EF5DAE0C93790587E8A66CA638F11FlattenInfo;
+- (void);
+- (void);
+- (void)"Manifest.dtd">
+<manifest:(id)arg1 manifest xmlns:(id)arg2 manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0">
+ <manifest:file-entry manifest:media-type="application/vnd.oasis.opendocument.text" manifest:full-path="/"/>
+ <manifest:file-entry manifest:media-type="text/xml" manifest:full-path="content.xml"/>
+ <manifest:file-entry manifest:media-type="text/xml" manifest:full-path="styles.xml"/>
+ <manifest:file-entry manifest:media-type="text/xml" manifest:full-path="meta.xml"/>
+</manifest:manifest> /* Error: Ran out of types for this method. */;
+- (void)on != NSNotFound;
+- (id);
+- (void)_TtCC6AppKit26NSColorAttributeCompositorP33_E1D15EF5DAE0C93790587E8A66CA638F11FlattenInfo;
 - (id)ItK;
 - (void)Øô;
 - (id)ateIfAutomaticallyTerminable;
 - (void)pÐ´fu¨hø·;
 
 // Remaining properties
-@property(nonatomic, readonly) id <FBSceneClientProcess> client; // @synthesize client;
-@property(nonatomic) __weak id <NSSceneHostingControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) NSSceneHostingView *hostingView; // @synthesize hostingView;
-@property(nonatomic, retain) FBScene *scene; // @synthesize scene;
-@property(nonatomic, readonly) NSString *sceneIdentifier;
-@property(nonatomic, readonly) FBSceneWorkspace *workspace; // @synthesize workspace;
 
 @end
 

@@ -5,16 +5,15 @@
 //
 
 @class NSMenu, NSObject;
-@protocol NSMenuContextProtocol, NSMenuLifecycleDelegate;
+@protocol NSMenuContextProtocol;
 
 @protocol NSMenuLifecycleProtocol
-- (NSObject<NSMenuContextProtocol> *)tension: /* Error: Ran out of types for this method. */;
-- (NSMenu *)rientation;
+- (_Bool)z;
+- (void);
+- (NSObject<NSMenuContextProtocol> *)setHideExtension: /* Error: Ran out of types for this method. */;
+- (NSMenu *)AXVerticalOrientation;
 
 // Remaining properties
-@property __weak NSObject<NSMenuLifecycleDelegate> *delegate;
-@property(readonly) __weak NSMenu *menu;
 @property(retain) NSObject<NSMenuContextProtocol> *presentationContext;
-@property(readonly) _Bool shouldSendLifecycleNotifications;
 @end
 

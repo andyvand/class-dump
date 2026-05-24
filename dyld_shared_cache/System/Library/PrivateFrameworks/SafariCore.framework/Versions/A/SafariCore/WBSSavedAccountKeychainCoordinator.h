@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface WBSSavedAccountKeychainCoordinator
 {
     _Bool _isForTesting;
@@ -24,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (void);
 - (_Bool);
 - (void);
@@ -51,7 +49,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -64,7 +62,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -79,7 +77,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -107,13 +105,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allGeneratedPasswordItems;
-@property(readonly, nonatomic) NSArray *allPasswordCredentialItemsInPersonalKeychain;
-@property(readonly, nonatomic) NSDictionary *allPasswordCredentials;
-@property(readonly, nonatomic) NSArray *allPersonalSidecarsInPersonalKeychain;
-@property(readonly, nonatomic) NSArray *allRecentlyDeletedPasskeyCredentialItemsInPersonalKeychain;
-@property(readonly, nonatomic) NSArray *allRecentlyDeletedPasswordCredentialItemsInPersonalKeychain;
-@property(readonly, nonatomic) NSArray *allRecentlyDeletedPersonalSidecarsInPersonalKeychain;
 @property(readonly, nonatomic) _Bool isForTesting; // @synthesize isForTesting=_isForTesting;
 
 @end

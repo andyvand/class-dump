@@ -7,6 +7,7 @@
 @class PXStoryAutoEditMomentsProvider;
 
 @protocol PXStoryAutoEditDecisionListsProducer
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryAutoEditMomentsProvider *diagnosticsMomentsProvider;

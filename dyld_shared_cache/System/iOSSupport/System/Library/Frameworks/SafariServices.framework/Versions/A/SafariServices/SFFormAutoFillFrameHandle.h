@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSURL, NSUUID, WBSGlobalFrameIdentifier, _WKFrameHandle;
+@class NSURL, _WKFrameHandle;
 
 __attribute__((visibility("hidden")))
 @interface SFFormAutoFillFrameHandle
 {
     NSURL *_URL;
-    struct __SecTrust *_serverTrust;
-    NSNumber *_pageID;
-    NSUUID *_documentIdentifier;
-    _WKFrameHandle *_frameHandle;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)safari_hasLocalizedCaseInsensitivePrefix: /* Error: Ran out of types for this method. */;
 - (struct __SecTrust *);
 - (id);
-- (id);
+- (id)FamilyShareEnvelopeV1;
 - (id);
 - (id);
 - (id);
@@ -35,18 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _WKFrameHandle *frameHandle; // @synthesize frameHandle=_frameHandle;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *serializedData;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WBSGlobalFrameIdentifier *webFrameIdentifier;
-@property(readonly, nonatomic) NSURL *webui_URL;
-@property(readonly, nonatomic) struct __SecTrust *webui_serverTrust;
 
 @end
 

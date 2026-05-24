@@ -6,6 +6,8 @@
 
 @interface CookingSupport.CookingSupportAppIntentsController
 {
+    id _multicaster;
+    id;
 }
 
 @end

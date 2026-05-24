@@ -11,7 +11,6 @@
 @interface PKTranscriptionQuery : PKQuery
 {
     NSString *_transcription;
-    CHTranscriptionQuery *_transcriptionQuery;
 }
 
 - (id);
@@ -23,10 +22,9 @@
 - (void);
 - (void);
 - (void);
-- (void)lFormat: /* Error: Ran out of types for this method. */;
+- (void)setPixelFormat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *transcription; // @synthesize transcription=_transcription;
 @property(retain, nonatomic) CHTranscriptionQuery *transcriptionQuery; // @synthesize transcriptionQuery=_transcriptionQuery;
 
 @end

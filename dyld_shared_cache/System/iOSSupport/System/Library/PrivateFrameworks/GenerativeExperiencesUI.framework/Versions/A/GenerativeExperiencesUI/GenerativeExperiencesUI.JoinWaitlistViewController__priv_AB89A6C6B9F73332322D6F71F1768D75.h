@@ -8,8 +8,6 @@
 {
     id config;
     id onDismiss;
-    id onWaitlistStatusChange;
-    id makeOnWaitlistViewControllerRepresentable;
 }
 
 - (void);

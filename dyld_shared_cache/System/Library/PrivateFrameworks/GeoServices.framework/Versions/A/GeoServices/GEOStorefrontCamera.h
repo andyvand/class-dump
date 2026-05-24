@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOStorefrontCamera
 {
     int _cameraNumber;
-    struct CGSize _imageSize;
-    struct GEOOrientedPosition _position;
-    unsigned char _lensType;
-    struct GEOLensModel _projection;
-    NSArray *_textureIds;
 }
 
 - (id);
@@ -22,17 +15,12 @@
 - (id);
 - (int);
 - (id);
-- (struct GEOOrientedPosition);
-- (struct CGSize)YPE_VENUES;
+- (struct GEOOrientedPosition)24;
+- (struct CGSize)ANNOUNCEMENT_TYPE_VENUES;
 - (void)'¾ÚQQ@;
 
 // Remaining properties
 @property(readonly, nonatomic) int cameraNumber; // @synthesize cameraNumber=_cameraNumber;
-@property(readonly, nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, nonatomic) unsigned char lensType; // @synthesize lensType=_lensType;
-@property(readonly, nonatomic) struct GEOOrientedPosition position; // @synthesize position=_position;
-@property(readonly, nonatomic) struct GEOLensModel projection; // @synthesize projection=_projection;
-@property(readonly, nonatomic) NSArray *textureIds; // @synthesize textureIds=_textureIds;
 
 @end
 

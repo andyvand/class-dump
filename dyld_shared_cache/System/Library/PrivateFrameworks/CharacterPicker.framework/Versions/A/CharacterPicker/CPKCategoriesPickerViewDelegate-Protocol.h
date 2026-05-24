@@ -5,5 +5,6 @@
 //
 
 @protocol CPKCategoriesPickerViewDelegate
+- (void);
 @end
 

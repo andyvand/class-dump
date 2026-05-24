@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _MKMapLayerHostingView *_hostView;
 }
 
-- (id)celeratorCompletionString;
+- (id)queryAcceleratorCompletionString;
 - (void)initForAddress:(id)arg1 abPersonID:abAddressID:cnContactIdentifier:cnAddressIdentifier: /* Error: Ran out of types for this method. */;
 - (void)ansparent:transitmode: /* Error: Ran out of types for this method. */;
 

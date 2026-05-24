@@ -10,10 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *encodedIntent;
-@property(copy, nonatomic) NSString *encodedIntentResponse;
-@property(nonatomic) int encodingFormat;
-@property(readonly, nonatomic) _Bool hasEncodedIntent;
-@property(readonly, nonatomic) _Bool hasEncodedIntentResponse;
-@property(nonatomic) _Bool hasEncodingFormat;
 @end
 

@@ -4,99 +4,65 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CKSyndicationSharedWithYouViewController, NSMutableArray, UIView;
+@class CKSyndicationSharedWithYouViewController;
 
 @interface CKSyndicationContentViewController
 {
     CKSyndicationSharedWithYouViewController *_sharedWithYouViewController;
-    unsigned long long _onboardingPage;
-    NSMutableArray *_constraints;
-    UIView *_highlightsView1;
-    UIView *_micropillView1;
-    UIView *_highlightsView2;
-    UIView *_micropillView2;
-    UIView *_combinedHighlightsView;
-    UIView *_tvLinkBalloonView;
-    UIView *_podcastLinkBalloonView;
-    UIView *_musicLinkBalloonView;
-    UIView *_tvPinIconView;
-    UIView *_podcastPinIconView;
-    UIView *_gradientView;
-    CAGradientLayer *_gradientLayer;
-    double _photoShortSide;
-    double _photoLongSide;
-    struct CGSize _maxContentSize;
 }
 
-- (void);
+- (void)unarchiveEvernoteResourceFromArchiveId:resourceArchiveId:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)styleForModelAttributes: /* Error: Ran out of types for this method. */;
+- (id)styleFontInAttributedString:inRange:contentSizeCategory: /* Error: Ran out of types for this method. */;
+- (id)lastUndoEditRange;
+- (void)isAppStore;
+- (void)isActive;
+- (void)isAboveExistingHighlights;
+- (void)insertionController;
+- (void)insertedText:(id)arg1 replacementRange:inTextView:languageHasSpaces: /* Error: Ran out of types for this method. */;
+- (void)ic_interpolateSelectedObjectsWithArrangedObject:(id)arg1;
+- (void)ic_insertSubview:(id)arg1 belowSubview: /* Error: Ran out of types for this method. */;
+- (void)ic_fontDescriptorForSystemFontOfSize:(double)arg1 useSingleLineA:bold: /* Error: Ran out of types for this method. */;
+- (void)ic_fontByAddingSymbolicTraits:(double)arg1;
+- (void)ic_attributedStringByReplacingNewlineCharactersWithWhiteSpace;
+- (void)htmlStringByFixingDashedListsInHTMLString:(id)arg1;
+- (void)highlightWithLevel:(id)arg1;
+- (void)highlightRangeForTextFindingMatchRange:(id)arg1;
+- (void)enumerateLinguisticTagsInRange:(id)arg1 scheme:options:orthography:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)enumerateLinguisticTagsInRange:(id)arg1 scheme:options:orthography:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)constraintWithItem:(id)arg1 attribute:relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id)ontext;
+- (id)edObjectContext",&,V_managedObjectContext;
+- (double)ionAnalyticsTracker",&,N,V_collaborationAnalyticsTracker;
+- (double)ewGeneratorOperationQueue",&,N,V_generatorQueue;
+- (unsigned long long)iersToManagedObjectIDs;
+- (id)er",&,N,V_progressWindowController;
+- (id)_collaborationAnalyticsDelegate;
+- (id)ct;
+- (id)fileManager;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (double);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)dating passphrase for diverged notes in account… {account:(id)arg1 %@}%s:(id)arg2 %d;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (struct CGSize)9;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id)aü°!;
 - (void)=dd}24;
 - (void)},R,N;
-- (void)tions;
+- (void)spaceTakenByUnsyncedConversations;
 - (void)¤ Ä;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *combinedHighlightsView; // @synthesize combinedHighlightsView=_combinedHighlightsView;
-@property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;
-@property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(retain, nonatomic) UIView *gradientView; // @synthesize gradientView=_gradientView;
-@property(retain, nonatomic) UIView *highlightsView1; // @synthesize highlightsView1=_highlightsView1;
-@property(retain, nonatomic) UIView *highlightsView2; // @synthesize highlightsView2=_highlightsView2;
-@property(nonatomic) struct CGSize maxContentSize; // @synthesize maxContentSize=_maxContentSize;
-@property(retain, nonatomic) UIView *micropillView1; // @synthesize micropillView1=_micropillView1;
-@property(retain, nonatomic) UIView *micropillView2; // @synthesize micropillView2=_micropillView2;
-@property(retain, nonatomic) UIView *musicLinkBalloonView; // @synthesize musicLinkBalloonView=_musicLinkBalloonView;
-@property(nonatomic) unsigned long long onboardingPage; // @synthesize onboardingPage=_onboardingPage;
-@property(nonatomic) double photoLongSide; // @synthesize photoLongSide=_photoLongSide;
-@property(nonatomic) double photoShortSide; // @synthesize photoShortSide=_photoShortSide;
-@property(retain, nonatomic) UIView *podcastLinkBalloonView; // @synthesize podcastLinkBalloonView=_podcastLinkBalloonView;
-@property(retain, nonatomic) UIView *podcastPinIconView; // @synthesize podcastPinIconView=_podcastPinIconView;
 @property(retain, nonatomic) CKSyndicationSharedWithYouViewController *sharedWithYouViewController; // @synthesize sharedWithYouViewController=_sharedWithYouViewController;
-@property(retain, nonatomic) UIView *tvLinkBalloonView; // @synthesize tvLinkBalloonView=_tvLinkBalloonView;
-@property(retain, nonatomic) UIView *tvPinIconView; // @synthesize tvPinIconView=_tvPinIconView;
 
 @end
 

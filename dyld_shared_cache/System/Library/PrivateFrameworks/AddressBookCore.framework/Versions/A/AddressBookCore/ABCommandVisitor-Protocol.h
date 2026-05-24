@@ -5,5 +5,6 @@
 //
 
 @protocol ABCommandVisitor
+- (void);
 @end
 

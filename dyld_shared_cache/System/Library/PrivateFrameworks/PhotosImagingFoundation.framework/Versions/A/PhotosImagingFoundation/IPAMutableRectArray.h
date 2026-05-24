@@ -10,10 +10,10 @@
 {
 }
 
+- (void)status;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)CommonCryptoError;
 - (void);
 - (id);
 

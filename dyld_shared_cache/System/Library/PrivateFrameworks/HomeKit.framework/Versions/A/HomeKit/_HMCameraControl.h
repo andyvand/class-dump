@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID, _HMCameraProfile, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface _HMCameraControl
 {
     struct os_unfair_lock_s _lock;
-    _HMContext *_context;
-    _HMCameraProfile *_cameraProfile;
-    NSUUID *_profileUniqueIdentifier;
 }
 
 + (id)ome(Wallet) fetchExistingWalletKeyUUIDWithCompletion:] /* Error: Ran out of types for this method. */;
@@ -28,21 +24,7 @@
 - (void)eManagerDelegate>",W,V_delegate;
 
 // Remaining properties
-@property __weak _HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;
 @property(retain) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) NSUUID *profileUniqueIdentifier; // @synthesize profileUniqueIdentifier=_profileUniqueIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

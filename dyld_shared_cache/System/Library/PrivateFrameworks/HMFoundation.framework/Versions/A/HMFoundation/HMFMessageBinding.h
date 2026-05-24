@@ -6,30 +6,23 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSString;
-@protocol HMFMessageReceiver;
+@class NSString;
 
 @interface HMFMessageBinding : HMFObject
 {
     NSString *_name;
-    NSArray *_policies;
-    SEL _selector;
-    id <HMFMessageReceiver> _messageReceiver;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (SEL);
+- (id)1;
+- (id)gerOwnedActionSets;
+- (SEL)";
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <HMFMessageReceiver> messageReceiver; // @synthesize messageReceiver=_messageReceiver;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *policies; // @synthesize policies=_policies;
-@property(readonly) SEL selector; // @synthesize selector=_selector;
 
 @end
 

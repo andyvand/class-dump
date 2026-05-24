@@ -9,7 +9,6 @@
 @interface BMPathEnumerator
 {
     NSString *_path;
-    struct _NSRange _range;
 }
 
 - (id);

@@ -6,6 +6,6 @@
 
 @interface UnknownClass (WBSNSMapTableExtras)
 - (id);
-- (id);
+- (id)`;
 @end
 

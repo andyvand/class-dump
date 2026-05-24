@@ -13,15 +13,13 @@
     AVCaptureSynchronizedDepthDataInternal_Tundra *_internal;
 }
 
-- (long long);
-- (_Bool);
-- (void);
-- (id);
+- (long long)&;
+- (_Bool)icAssertion] Invalidating existing RBSAssertion %p;
+- (void)2;
+- (id)c;
 
 // Remaining properties
 @property(readonly) AVDepthData *depthData;
-@property(readonly) _Bool depthDataWasDropped;
-@property(readonly) long long droppedReason;
 
 @end
 

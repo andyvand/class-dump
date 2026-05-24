@@ -6,24 +6,11 @@
 
 #import <MetalTools/MTLToolsTexture.h>
 
-@class MTLDebugDevice, MTLDebugResource;
+@class MTLDebugResource;
 
 @interface MTLDebugTexture : MTLToolsTexture
 {
     struct MTLPixelFormatInfo _pixelFormatInfo;
-    MTLDebugDevice *_debugDevice;
-    unsigned long long _usageRequired;
-    struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
-    struct mutex _subViewUseLock;
-    struct unordered_map<SubView, unsigned long, SubView::hash_t, SubView::equal_t, std::allocator<std::pair<const SubView, unsigned long>>> _activeSubViews;
-    _Bool _isLinearTexture;
-    MTLDebugResource *_common;
-    unsigned long long _offset;
-    unsigned long long _bytesPerRow;
-    unsigned long long _bytesPerImage;
-    unsigned long long _plane;
-    long long _placementSparsePageSize;
 }
 
 - (void);
@@ -40,11 +27,11 @@
 - (id);
 - (id);
 - (void);
+- (id)>;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);
@@ -67,19 +54,13 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)c@;
 - (void)tries"[32{GPUDebugThreadgroupTableEntry="offset"I"length"I}]"needsFlush"B};
 - (unsigned long long)ted by device;
 - (long long)ount (%lu) is not supported by device.;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bytesPerImage; // @synthesize bytesPerImage=_bytesPerImage;
-@property(readonly, nonatomic) unsigned long long bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
 @property(readonly, nonatomic) MTLDebugResource *common; // @synthesize common=_common;
-@property(readonly, nonatomic) _Bool isLinearTexture; // @synthesize isLinearTexture=_isLinearTexture;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) long long placementSparsePageSize; // @synthesize placementSparsePageSize=_placementSparsePageSize;
-@property(readonly, nonatomic) unsigned long long plane; // @synthesize plane=_plane;
 
 @end
 

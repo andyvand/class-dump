@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ChromeCredentialDecrypter
 {
     NSData *_rawKey;
-    NSData *_version;
-    NSData *_chromeSaltKey;
-    NSString *_safeStorageKey;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)C;
 - (_Bool);
 - (id);
 - (id);
@@ -26,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSafeStorageKeyCorrect;
-@property(copy, nonatomic) NSString *safeStorageKey; // @synthesize safeStorageKey=_safeStorageKey;
 
 @end
 

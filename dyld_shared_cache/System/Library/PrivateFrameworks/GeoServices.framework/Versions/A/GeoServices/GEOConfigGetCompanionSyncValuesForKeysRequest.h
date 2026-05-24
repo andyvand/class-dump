@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOConfigGetCompanionSyncValuesForKeysRequest : GEOXPCRequest
 {
     NSArray *_keyStrings;
 }
 
-+ (Class);
++ (Class)SLWebAuthRequest_Internal;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)ngeTileGroupInterval;
+- (_Bool)initWithTypes:error: /* Error: Ran out of types for this method. */;
+- (void)_constantlyChangeTileGroupInterval;
 - (id)hasGuid;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *keyStrings; // @synthesize keyStrings=_keyStrings;
-@property(readonly) Class superclass;
 
 @end
 

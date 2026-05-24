@@ -7,11 +7,6 @@
 @interface SGMIMetricsMissingElementPrediction
 {
     float _predictedMissingElementScore;
-    _Bool _foundMatchingElement;
-    struct {
-        unsigned int predictedMissingElementScore:1;
-        unsigned int foundMatchingElement:1;
-    } _has;
 }
 
 - (void);
@@ -20,23 +15,20 @@
 - (void);
 - (float);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)lX;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)find entitlement for KVS store;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool foundMatchingElement; // @synthesize foundMatchingElement=_foundMatchingElement;
-@property(nonatomic) _Bool hasFoundMatchingElement;
 @property(nonatomic) _Bool hasPredictedMissingElementScore;
-@property(nonatomic) float predictedMissingElementScore; // @synthesize predictedMissingElementScore=_predictedMissingElementScore;
 
 @end
 

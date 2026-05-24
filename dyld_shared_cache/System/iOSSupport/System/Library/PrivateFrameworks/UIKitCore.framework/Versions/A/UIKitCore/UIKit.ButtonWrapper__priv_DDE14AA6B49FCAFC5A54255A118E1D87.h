@@ -9,9 +9,6 @@
 @interface UIKit.ButtonWrapper__priv_DDE14AA6B49FCAFC5A54255A118E1D87 : UIView
 {
     id button;
-    id coordinator;
-    id appearanceDelegate;
-    id buttonAppearance;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (struct CGSize)1Â0@ù
 × ;
 - (struct UIEdgeInsets)atePrivate>"24@0:8@"UINavigationItem"16 /* Error: Ran out of types for this method. */;
-- (id)attingViewProviding;
+- (id)_UITextFormattingViewProviding;
 - (void)JÉDl;
 
 // Remaining properties

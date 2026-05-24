@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface ICAgeVerifier
 {
     long long _status;
-    NSDate *_verificationExpirationDate;
 }
 
 - (id);
@@ -24,9 +21,7 @@
 - (void)Þ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isExplicitContentAllowed) _Bool explicitContentAllowed;
 @property(nonatomic) long long status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSDate *verificationExpirationDate; // @synthesize verificationExpirationDate=_verificationExpirationDate;
 
 @end
 

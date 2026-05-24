@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDService, NSArray;
+@class IMDService;
 
 @protocol IMDRelayPushHandlerListener
 
-// Remaining properties
-@property(readonly, nonatomic) NSArray *accounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
+@optional
+- (void);
+- (void);
+- (void)g;
 
+// Remaining properties
 @property(readonly, nonatomic) IMDService *service;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"IMDService",?,R,N

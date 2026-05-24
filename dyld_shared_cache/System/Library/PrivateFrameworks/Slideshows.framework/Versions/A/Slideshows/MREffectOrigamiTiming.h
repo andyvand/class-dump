@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MREffectOrigamiTiming
 {
     NSString *_effectID;
-    NSArray *_description;
-    NSArray *_animationTimeBounds;
-    double _durationStretchFactor;
-    double _slideTimings[8][2];
-    double _phaseInDuration;
-    double _mainDuration;
-    double _phaseOutDuration;
-    double _defaultPhaseInDuration;
-    double _defaultMainDuration;
-    double _defaultPhaseOutDuration;
 }
 
 - (double);
 - (double);
-- (void);
+- (void)setEnvelopeDroppedCountDueToSizeLimit:(double)arg1;
 - (double);
-- (double);
-- (double);
-- (id);
+- (double)scheduleBackgroundUploadInWindow:] /* Error: Ran out of types for this method. */;
+- (double)Session:task:didCompleteWithError:] /* Error: Ran out of types for this method. */;
+- (id)irectoryFileURL:(id)arg1 URLSessionQueue:] /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration; // @synthesize mainDuration=_mainDuration;
 @property(readonly, nonatomic) double phaseInDuration; // @synthesize phaseInDuration=_phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @synthesize phaseOutDuration=_phaseOutDuration;
 
 @end
 

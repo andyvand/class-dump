@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)ty, %s, requireNetworkConnectivity, %@, requireInexpensiveNetworkConnectivity, %@, networkTransferDirection, %s, allowBattery, %@, powerNap, %@, expectedDuration, %.2f, cpuIntensive, %@, userRequestedBackgroundTask, %@, postInstall, %@, requiresBuddyComplete, %@, uploadSize, %d, downloadSize, %d, requireBatteryLevel, %@, requiresClassB, %@, requiresClassA, %@;
+- (oneway void)tate:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)%{errno}d;
+- (id)nt (SPS! force bit 6) (Amps) (IZDM);
+- (_Bool)ing mode size invalid or not available;
+
+@optional
+- (Class);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

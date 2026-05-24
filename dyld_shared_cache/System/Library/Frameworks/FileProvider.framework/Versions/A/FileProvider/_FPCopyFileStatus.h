@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSProgress;
+@class NSProgress;
 
 __attribute__((visibility("hidden")))
 @interface _FPCopyFileStatus
 {
     _Bool _shouldCopyAppleDouble;
-    _Bool _rootWasCopied;
-    int _copyError;
-    NSProgress *_progress;
-    NSMutableDictionary *_lastBytesCopiedByFile;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)M;
 - (void);
 - (void);
 - (void);
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property int copyError; // @synthesize copyError=_copyError;
-@property(retain) NSMutableDictionary *lastBytesCopiedByFile; // @synthesize lastBytesCopiedByFile=_lastBytesCopiedByFile;
 @property(retain) NSProgress *progress; // @synthesize progress=_progress;
-@property _Bool rootWasCopied; // @synthesize rootWasCopied=_rootWasCopied;
-@property _Bool shouldCopyAppleDouble; // @synthesize shouldCopyAppleDouble=_shouldCopyAppleDouble;
 
 @end
 

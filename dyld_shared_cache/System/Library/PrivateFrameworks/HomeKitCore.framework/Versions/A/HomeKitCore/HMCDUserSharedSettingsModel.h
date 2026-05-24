@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCDUserModel, NSUUID;
+@class NSUUID;
 
 @interface HMCDUserSharedSettingsModel
 {
@@ -13,14 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isDolbyAtmosEnabled; // @dynamic isDolbyAtmosEnabled;
-@property(nonatomic) _Bool isExplicitContentAllowed; // @dynamic isExplicitContentAllowed;
-@property(nonatomic) _Bool isLosslessMusicEnabled; // @dynamic isLosslessMusicEnabled;
-@property(nonatomic) _Bool isPlaybackInfluencesEnabled; // @dynamic isPlaybackInfluencesEnabled;
-@property(nonatomic) _Bool isSiriIdentifyVoiceEnabled; // @dynamic isSiriIdentifyVoiceEnabled;
-@property(nonatomic) _Bool isiTunesAccountAllowed; // @dynamic isiTunesAccountAllowed;
 @property(nonatomic, copy) NSUUID *modelID; // @dynamic modelID;
-@property(nonatomic, retain) HMCDUserModel *user; // @dynamic user;
 
 @end
 

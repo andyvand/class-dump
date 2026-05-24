@@ -11,8 +11,8 @@
     NSURLSession *_urlSession;
 }
 
-+ (id);
-- (void);
++ (id)` a%;
+- (void)3;
 - (id);
 - (void)QY1Â0@ù
 × ;

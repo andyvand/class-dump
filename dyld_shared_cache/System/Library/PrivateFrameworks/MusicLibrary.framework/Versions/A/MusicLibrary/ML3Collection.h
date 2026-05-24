@@ -10,24 +10,24 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
++ (_Bool)signalAgainDate;
++ (id)setMaximumSize: /* Error: Ran out of types for this method. */;
++ (_Bool)itationGUID;
++ (id)NSSet",C,N,V_assetsForWidgetFavoriteAlbumRemoval;
++ (id)setsForDuetDelete;
++ (_Bool),V_updatedContent;
++ (id)anager;
++ (_Bool)CSSceneTypeForPLSceneClassificationType:(id)arg1;
++ (_Bool)shareWithScopeIdentifier:(long long)arg1 includeTrashed:(id)arg2 inManagedObjectContext: /* Error: Ran out of types for this method. */;
++ (id)shareWithScopeIdentifier:includeTrashed:inManagedObjectContext: /* Error: Ran out of types for this method. */;
++ (_Bool)TaxonomyProvider;
++ (id)setCurrentCloudAssetCollection: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (void)istinguished_kind, date_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, reserved6, keep_local, keep_local_status FROM container;
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_abortIfCalledOnBaseClass;
+- (void)_abortFromMocExecFail_NSMOC_SQLITE_OTHER_withCode:(id)arg1;
+- (void)_abortFromMocExecFail_NSMOC_SQLITE_INTERRUPT_9_withCode: /* Error: Ran out of types for this method. */;
+- (id)oLibraryOptions",R,N,V_options;
 
 @end
 

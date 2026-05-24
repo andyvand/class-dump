@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSMutableDictionary, NSString, _MKUserTrackingButtonController;
-@protocol MKUserTrackingView;
+@class _MKUserTrackingButtonController;
 
 @interface _MKUserTrackingButton
 {
     _MKUserTrackingButtonController *_controller;
-    NSMutableDictionary *_customImages;
-    NSMutableDictionary *_customLandscapeImagePhones;
-    NSMutableDictionary *_customImageEdgeInsets;
-    _Bool _selectsWhenTracking;
-    _Bool _explicitlyEnabled;
-    _Bool _internallyEnabled;
-    _Bool _applyDefaultImageIfNeeded;
-    _Bool _inMiniBar;
-    unsigned long long _controlSize;
 }
 
 + (id);
@@ -35,7 +25,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)TG4;
 - (id);
 - (_Bool);
 - (id);
@@ -50,32 +40,19 @@
 - (void);
 - (struct CGSize);
 - (unsigned long long);
-- (void);
-- (id);
+- (void);
+- (id)on't be called.;
 - (long long);
 - (void);
 - (id);
-- (void)ceItem:layout: /* Error: Ran out of types for this method. */;
-- (id)eScaleAtIndex: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ntsCloseUpView;
-- (void)createOverlayRendererDictionaryIfNeeded;
+- (void)initWithPlaceItem:layout: /* Error: Ran out of types for this method. */;
+- (id)activeScaleAtIndex: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_wantsCloseUpView;
+- (void)_createOverlayRendererDictionaryIfNeeded;
 - (void)ionProviderDisplayName;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long behavior;
-@property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
 @property(readonly, nonatomic) _MKUserTrackingButtonController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool inMiniBar; // @synthesize inMiniBar=_inMiniBar;
-@property(nonatomic) __weak MKMapView *mapView;
-@property(nonatomic, getter=_selectsWhenTracking, setter=_setSelectsWhenTracking:) _Bool selectsWhenTracking; // @synthesize selectsWhenTracking=_selectsWhenTracking;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <MKUserTrackingView> userTrackingView;
 
 @end
 

@@ -10,39 +10,30 @@
 @interface MapsSuggestionsBaseSource
 {
     NSString *_name;
-    id <MapsSuggestionsSourceDelegate> _delegate;
 }
 
-+ (_Bool);
++ (_Bool);
 + (unsigned long long);
 - (double);
 - (id);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)1;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)indexPathForItemAtGlobalIndex:(id)arg1;
+- (id);
 - (void)tedDictionary";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

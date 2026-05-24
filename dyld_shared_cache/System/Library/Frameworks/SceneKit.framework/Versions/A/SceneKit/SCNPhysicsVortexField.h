@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (struct c3dPhysicsField *);
 - (id);
-- (struct SCNVector3);
+- (struct SCNVector3)H;
 - (void);
 
 @end

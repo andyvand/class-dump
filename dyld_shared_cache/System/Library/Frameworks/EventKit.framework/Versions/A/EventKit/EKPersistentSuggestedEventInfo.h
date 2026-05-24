@@ -6,13 +6,13 @@
 
 #import <EventKit/EKPersistentObject.h>
 
-@class EKPersistentEvent, NSDate, NSString;
+@class EKPersistentEvent;
 
 @interface EKPersistentSuggestedEventInfo : EKPersistentObject
 {
 }
 
-+ (id);
++ (id)est %{public}@ responded to asset request with item %{public}@;
 + (Class);
 + (id);
 - (void);
@@ -21,26 +21,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)d;
 - (_Bool);
-- (id);
+- (id)g command;
 - (unsigned long long);
 - (id);
 - (void);
 - (int);
-- (id);
-- (id);
+- (id)_charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4;
+- (id)vider>",&,N,V_inputFeatures;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long changedFields; // @dynamic changedFields;
-@property(nonatomic) _Bool changesAcknowledged; // @dynamic changesAcknowledged;
-@property(copy, nonatomic) NSString *extractionGroupIdentifier; // @dynamic extractionGroupIdentifier;
-@property(copy, nonatomic) NSString *opaqueKey; // @dynamic opaqueKey;
 @property(nonatomic) EKPersistentEvent *owner; // @dynamic owner;
-@property(copy, nonatomic) NSDate *timestamp; // @dynamic timestamp;
-@property(copy, nonatomic) NSString *uniqueKey; // @dynamic uniqueKey;
 
 @end
 

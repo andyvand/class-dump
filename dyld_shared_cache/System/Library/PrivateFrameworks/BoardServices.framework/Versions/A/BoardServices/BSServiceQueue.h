@@ -11,15 +11,15 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)N5kaldi6quasar25SeevaInferenceTensorNamesE;
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
+- (void)Rx;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)!';
 
 @end
 

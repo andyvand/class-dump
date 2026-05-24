@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)attributedDescriptionForElement:type: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)È;
 

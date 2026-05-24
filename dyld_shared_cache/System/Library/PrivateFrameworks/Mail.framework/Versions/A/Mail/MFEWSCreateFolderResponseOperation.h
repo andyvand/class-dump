@@ -6,7 +6,7 @@
 
 #import <Mail/MFEWSResponseOperation.h>
 
-@class EWSCreateFolderResponseType, NSString;
+@class NSString;
 
 @interface MFEWSCreateFolderResponseOperation : MFEWSResponseOperation
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy) NSString *createdFolderId; // @synthesize createdFolderId=_createdFolderId;
-@property(retain) EWSCreateFolderResponseType *response;
 
 @end
 

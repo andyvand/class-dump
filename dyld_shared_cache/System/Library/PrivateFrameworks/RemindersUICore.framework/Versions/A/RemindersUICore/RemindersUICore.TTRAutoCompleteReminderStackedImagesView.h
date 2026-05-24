@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRAutoCompleteReminderStackedImagesView
 {
     id images;
-    id configuration;
-    id firstImageView;
-    id secondImageView;
-    id $__lazy_storage_$_maskLayer;
 }
 
 - (id);

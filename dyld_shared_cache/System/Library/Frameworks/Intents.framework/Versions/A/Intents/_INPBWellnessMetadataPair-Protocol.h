@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBString, _INPBValueMetadata, _INPBWellnessMetadataValue;
+@class _INPBString, _INPBValueMetadata;
 
 @protocol _INPBWellnessMetadataPair
+- (void)h;
+- (_INPBString *)ry/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/engine/eng_fat.c;
+- (_Bool)w;
 - (_Bool)staurantGuest"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)ata;
-- (_Bool):completion: /* Error: Ran out of types for this method. */;
-- (void)es:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)chForMedia:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)hasWholeHouseAudioMetadata;
+- (_Bool)_findAppsWithAnyIntentsExtensionCheckingSiriEnabledUseFilter:completion: /* Error: Ran out of types for this method. */;
+- (void)provideSpeakableGroupNamesOptionsCollectionForSearchForMessages:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideMediaItemsOptionsCollectionForSearchForMedia:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(retain, nonatomic) _INPBString *key;
-@property(retain, nonatomic) _INPBWellnessMetadataValue *value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

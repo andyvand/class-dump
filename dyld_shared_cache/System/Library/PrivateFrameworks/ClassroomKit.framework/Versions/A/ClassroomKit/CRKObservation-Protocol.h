@@ -5,5 +5,6 @@
 //
 
 @protocol CRKObservation
+- (void);
 @end
 

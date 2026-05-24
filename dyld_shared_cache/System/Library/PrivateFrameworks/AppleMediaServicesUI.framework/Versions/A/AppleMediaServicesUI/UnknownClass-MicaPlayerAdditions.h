@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (MicaPlayerAdditions)
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (void)V;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
 - (void);
 @end

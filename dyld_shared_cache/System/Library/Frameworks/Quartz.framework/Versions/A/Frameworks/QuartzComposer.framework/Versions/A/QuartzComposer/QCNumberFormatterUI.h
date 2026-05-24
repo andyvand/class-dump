@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSPopUpButton, NSTextField;
+@class NSPopUpButton;
 
 @interface QCNumberFormatterUI : QCInspector
 {
     NSPopUpButton *styleMenu;
-    NSTextField *formatField;
 }
 
 + (id);

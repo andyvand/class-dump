@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Photos)
-- (void);
+- (void)qA;
 - (id);
 - (id);
 @end

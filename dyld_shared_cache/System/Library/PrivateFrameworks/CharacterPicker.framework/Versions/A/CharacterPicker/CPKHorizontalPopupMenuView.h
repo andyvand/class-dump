@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKHorizontalPopupMenu, CPKHorizontalPopupMenuButton, NSArray;
+@class CPKHorizontalPopupMenu;
 
 __attribute__((visibility("hidden")))
 @interface CPKHorizontalPopupMenuView
 {
     _Bool _selected;
-    _Bool _trackingCanceled;
-    _Bool _doubleClicked;
-    _Bool _isRTLLayout;
-    CPKHorizontalPopupMenu *_parentMenu;
-    NSArray *_buttons;
-    double _cellGap;
-    double _dividerGap;
-    double _menuOpenedTime;
-    unsigned long long _rowCount;
-    CPKHorizontalPopupMenuButton *_highlightedButton;
-    struct CGSize _cellSize;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -33,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)k+;
 - (_Bool);
 - (double);
 - (void);
@@ -42,7 +31,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)h
+;
 - (double);
 - (id);
 - (void);
@@ -51,28 +41,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct CGSize);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool)eferencingURL: /* Error: Ran out of types for this method. */;
+- (_Bool)initByReferencingURL: /* Error: Ran out of types for this method. */;
 - (void)òÔ;
 
 // Remaining properties
-@property(retain) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(readonly) double cellGap; // @synthesize cellGap=_cellGap;
-@property(readonly) struct CGSize cellSize; // @synthesize cellSize=_cellSize;
-@property(readonly) double dividerGap; // @synthesize dividerGap=_dividerGap;
-@property _Bool doubleClicked; // @synthesize doubleClicked=_doubleClicked;
-@property(readonly) CPKHorizontalPopupMenuButton *highlightedButton; // @synthesize highlightedButton=_highlightedButton;
-@property _Bool isRTLLayout; // @synthesize isRTLLayout=_isRTLLayout;
-@property double menuOpenedTime; // @synthesize menuOpenedTime=_menuOpenedTime;
 @property CPKHorizontalPopupMenu *parentMenu; // @synthesize parentMenu=_parentMenu;
-@property unsigned long long rowCount; // @synthesize rowCount=_rowCount;
-@property _Bool selected; // @synthesize selected=_selected;
-@property _Bool trackingCanceled; // @synthesize trackingCanceled=_trackingCanceled;
 
 @end
 

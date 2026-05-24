@@ -6,15 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CMSchemaCMClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_cmId;
-    _Bool _hasCmId;
 }
 
-- (void);
+- (void)@yIA	*?;
 - (void);
 - (void);
 - (id);
@@ -23,18 +22,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool)a;
 - (id);
 - (id)};
-- (id)ionDecisionReported;
+- (id)IDENTITYSchemaIDENTITYAskUserForDisambiguationDecisionReported;
 - (id) ;
 - (void)µµâ%&;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *cmId; // @synthesize cmId=_cmId;
-@property(nonatomic) _Bool hasCmId; // @synthesize hasCmId=_hasCmId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -18,14 +18,14 @@
 + (id);
 + (id);
 + (struct __CFString *);
-+ (void)electCandidate:confirm: /* Error: Ran out of types for this method. */;
++ (void)selectCandidate:confirm: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (void);
@@ -38,18 +38,18 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)ח;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (_Bool);
@@ -59,7 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0 ;
 - (_Bool);
 - (void);
 - (id);
@@ -71,7 +71,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -82,8 +82,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id));
+- (id);
 - (id);
 - (id);
 - (id);
@@ -132,12 +132,12 @@
 - (oneway void);
 - (void);
 - (oneway void);
-- (void);
+- (void)3;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (oneway void);
+- (oneway void)8;
 - (void);
 - (_Bool);
 - (void);
@@ -147,26 +147,26 @@
 - (oneway void);
 - (void);
 - (oneway void);
-- (void);
+- (void)(;
 - (oneway void);
 - (_Bool);
 - (oneway void);
-- (void);
-- (void);
+- (void);
+- (void)Ex;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct __CFString *);
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void)setDuplicationLinkID:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
-- (id)mentalSearch;
+- (id)_isUsingIncrementalSearch;
 
 @end
 

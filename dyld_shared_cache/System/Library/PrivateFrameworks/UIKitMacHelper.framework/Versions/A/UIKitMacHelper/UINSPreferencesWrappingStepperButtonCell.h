@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
+- (_Bool)JB;
 - (struct CGRect);
 - (void);
-- (struct CGSize);
+- (struct CGSize)setDrain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:(struct CGRect)arg1;
 
 // Remaining properties
 @property(nonatomic, getter=isAltKeyDown) _Bool altKeyDown; // @synthesize altKeyDown=_altKeyDown;

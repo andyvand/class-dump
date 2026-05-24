@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEvernoteNote, ICEvernoteResource, NSError, NSMutableArray, NSMutableDictionary, NSMutableString, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface ICEvernoteNoteParser
 {
     _Bool _shouldCountOnly;
-    _Bool _shouldIgnoreCurrentNote;
-    unsigned long long _noteCount;
-    NSObject<OS_dispatch_queue> *_parseQueue;
-    NSObject<OS_dispatch_semaphore> *_parseSemaphore;
-    NSError *_parseError;
-    NSMutableString *_bufferString;
-    long long _contentLevel;
-    NSMutableString *_contentString;
-    NSMutableArray *_notes;
-    ICEvernoteNote *_currentNote;
-    ICEvernoteResource *_currentResource;
-    NSURL *_currentImportDirectory;
-    NSMutableDictionary *_currentImportItem;
-    NSMutableArray *_importItems;
 }
 
 - (id);
@@ -33,21 +16,21 @@
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)initByCreatingNewLocaleWithName: /* Error: Ran out of types for this method. */;
+- (void)hasBeenLocalified:(id)arg1;
+- (unsigned long long)n ldapi node:%@ (%d) /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -59,46 +42,24 @@
 - (long long);
 - (void);
 - (id);
+- (void)setAdditionalSafeAreaInsets:(id)arg1;
+- (id)scrollToItemWhileTraversing;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)WKURLSchemeHandler;
 - (void);
 - (void);
 - (void)Í;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableString *bufferString; // @synthesize bufferString=_bufferString;
-@property(nonatomic) long long contentLevel; // @synthesize contentLevel=_contentLevel;
-@property(retain, nonatomic) NSMutableString *contentString; // @synthesize contentString=_contentString;
-@property(retain, nonatomic) NSURL *currentImportDirectory; // @synthesize currentImportDirectory=_currentImportDirectory;
-@property(retain, nonatomic) NSMutableDictionary *currentImportItem; // @synthesize currentImportItem=_currentImportItem;
-@property(retain, nonatomic) ICEvernoteNote *currentNote; // @synthesize currentNote=_currentNote;
-@property(retain, nonatomic) ICEvernoteResource *currentResource; // @synthesize currentResource=_currentResource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURL *importDirectory;
-@property(retain, nonatomic) NSMutableArray *importItems; // @synthesize importItems=_importItems;
-@property(nonatomic) unsigned long long noteCount; // @synthesize noteCount=_noteCount;
-@property(retain, nonatomic) NSMutableArray *notes; // @synthesize notes=_notes;
-@property(retain, nonatomic) NSError *parseError; // @synthesize parseError=_parseError;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *parseQueue; // @synthesize parseQueue=_parseQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *parseSemaphore; // @synthesize parseSemaphore=_parseSemaphore;
 @property(nonatomic) _Bool shouldCountOnly; // @synthesize shouldCountOnly=_shouldCountOnly;
-@property(nonatomic) _Bool shouldIgnoreCurrentNote; // @synthesize shouldIgnoreCurrentNote=_shouldIgnoreCurrentNote;
-@property(readonly) Class superclass;
 
 @end
 

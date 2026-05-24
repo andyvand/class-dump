@@ -5,5 +5,6 @@
 //
 
 @protocol UsageMOProtocol
++ (unsigned long long)A;
 @end
 

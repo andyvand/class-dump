@@ -7,14 +7,10 @@
 @class NSString;
 
 @protocol PSGResponseSuggestionsExpConfigProtocol
+- (NSString *);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *espressoBinFilePath;
-@property(readonly, nonatomic) NSString *inferenceModelConfigPath;
-@property(readonly, nonatomic) NSString *inferenceModelFilePath;
-@property(readonly, nonatomic) _Bool isMLModelEnabled;
-@property(readonly, nonatomic) NSString *language;
 @property(readonly, nonatomic) NSString *treatmentName;
-@property(readonly, nonatomic) NSString *vocabFilePath;
 @end
 

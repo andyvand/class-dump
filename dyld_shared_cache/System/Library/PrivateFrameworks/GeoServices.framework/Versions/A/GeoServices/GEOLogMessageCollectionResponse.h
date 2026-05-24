@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool):(id)arg1;
-- (void);
++ (_Bool)setHasShowTransitSchedules:(id)arg1;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -17,8 +17,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)Notification:(struct _NSZone *)arg1;
+- (void)o-;
+- (id)setReceivedRNFNotification:(struct _NSZone *)arg1;
 - (id):openingThreshold:closingThreshold:shouldGoOverMidnight: /* Error: Ran out of types for this method. */;
 - (id)nge;
 - (id);

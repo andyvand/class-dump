@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisVoice, AXSSAudioDeviceManager, AXSSAudioInputDevice, AXSSSpeechSynthesisQueue, AXSSSpeechSynthesizer, NSString;
-@protocol AXSSSpeechSynthesisControllerDelegate;
+@class AXSSSpeechSynthesizer;
 
 @interface AXSSSpeechSynthesisController
 {
     _Bool _speakToDefaultOutputDevice;
-    int _speechSynthesisBehavior;
-    id <AXSSSpeechSynthesisControllerDelegate> _delegate;
-    AXSSSpeechSynthesizer *_synth;
-    AXSSSpeechSynthesisQueue *_speechQueue;
-    AXSSAudioDeviceManager *_audioDeviceManager;
-    AXSSAudioInputDevice *_currentInputDeviceCache;
-    AVSpeechSynthesisVoice *_voice;
 }
 
 + (id);
@@ -45,9 +37,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -58,22 +50,7 @@
 - (void)ecordIDsToDelete;
 
 // Remaining properties
-@property(retain, nonatomic) AXSSAudioDeviceManager *audioDeviceManager; // @synthesize audioDeviceManager=_audioDeviceManager;
-@property(retain, nonatomic) AXSSAudioInputDevice *currentInputDeviceCache; // @synthesize currentInputDeviceCache=_currentInputDeviceCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXSSSpeechSynthesisControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool speakToDefaultOutputDevice; // @synthesize speakToDefaultOutputDevice=_speakToDefaultOutputDevice;
-@property(readonly, nonatomic, getter=isSpeaking) _Bool speaking;
-@property(readonly, nonatomic) __weak AXSSSpeechSynthesisQueue *speechQueue; // @synthesize speechQueue=_speechQueue;
-@property(nonatomic) int speechSynthesisBehavior; // @synthesize speechSynthesisBehavior=_speechSynthesisBehavior;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) AXSSSpeechSynthesizer *synth; // @synthesize synth=_synth;
-@property(retain, nonatomic) AVSpeechSynthesisVoice *voice; // @synthesize voice=_voice;
 
 @end
 

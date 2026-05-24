@@ -9,7 +9,6 @@
 @interface ChatKit.DetailsViewBlockContactSection.ViewModel : ChatKit.DetailsConfiguredViewModel
 {
     id _isPresentingBlockAlert;
-    id _$observationRegistrar;
 }
 
 @end

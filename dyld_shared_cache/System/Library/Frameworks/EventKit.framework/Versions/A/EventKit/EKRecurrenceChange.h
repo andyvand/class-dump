@@ -15,7 +15,7 @@
 
 + (int);
 - (id);
-- (id);
+- (id)setDisableGrouping: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 

@@ -12,7 +12,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)setPictureInPictureEnabled:(id)arg1;
 - (long long);
 
 // Remaining properties

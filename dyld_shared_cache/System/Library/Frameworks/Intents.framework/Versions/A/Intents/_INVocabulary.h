@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INVocabularyUpdater, NSObject, _INVocabularyValidator;
-@protocol OS_dispatch_queue;
+@class INVocabularyUpdater;
 
 @interface _INVocabulary
 {
     INVocabularyUpdater *_vocabularyUpdater;
-    _INVocabularyValidator *_validator;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -29,8 +26,8 @@
 - (void);
 - (void);
 - (id);
-- (void)nProgress;
-- (id)ponseCodeSuccess;
+- (void)INUpdateAlarmIntentResponseCodeInProgress;
+- (id)INTransferMoneyIntentResponseCodeSuccess;
 
 @end
 

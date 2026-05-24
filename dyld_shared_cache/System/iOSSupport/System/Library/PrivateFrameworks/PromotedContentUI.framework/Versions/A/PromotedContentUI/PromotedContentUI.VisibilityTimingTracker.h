@@ -7,18 +7,6 @@
 @interface PromotedContentUI.VisibilityTimingTracker
 {
     id visibilityImpressionThresholdInSeconds;
-    id visibilityThresholdInPercent;
-    id adamId;
-    id metadata;
-    id metricHelper;
-    id visibilityTiming;
-    id visibilityTimingLock;
-    id hasImpressed;
-    id frequencyStorageType;
-    id searchAdsFacade;
-    id visibilityStartedAt;
-    id impressionTimer;
-    id disableTimer;
 }
 
 @end

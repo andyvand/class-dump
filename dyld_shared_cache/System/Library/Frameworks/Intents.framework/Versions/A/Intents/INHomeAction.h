@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface INHomeAction
 {
     _Bool _boolValue;
-    long long _type;
-    long long _valueType;
-    double _doubleValue;
-    long long _integerValue;
-    NSString *_stringValue;
 }
 
 + (_Bool);
@@ -22,26 +15,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)s;
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (long long);
-- (_Bool);
+- (long long)C7;
+- (_Bool)_cachedShortSSID;
 - (double);
-- (void);
+- (void)networkSecurityType;
 - (id);
 - (id);
-- (void)tingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideTemperatureOptionsForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(readonly) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(readonly) long long integerValue; // @synthesize integerValue=_integerValue;
-@property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
 @property(readonly) long long type; // @synthesize type=_type;
-@property(readonly) long long valueType; // @synthesize valueType=_valueType;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface UIHoverEffectLayer
 {
     id _hoverStyle;
-    id backgroundSublayers;
-    id overlaySublayers;
-    id shape;
-    void containerView;
 }
 
 + (_Bool);

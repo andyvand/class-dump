@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)assetWithURL: /* Error: Ran out of types for this method. */;
 + (Class);
 - (id);
 - (id);

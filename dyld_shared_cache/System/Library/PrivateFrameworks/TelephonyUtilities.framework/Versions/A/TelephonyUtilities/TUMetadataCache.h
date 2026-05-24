@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TUMetadataCache
 {
     NSArray *_providers;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
++ (id)valueForEntitlement: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (void);
@@ -28,20 +27,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)esForLink;
+- (void)standardInvitationPreferencesForLink;
 - (id)to nil;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *providers; // @synthesize providers=_providers;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

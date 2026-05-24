@@ -6,29 +6,15 @@
 
 #import <DeviceManagement/DMFAppRequest.h>
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface DMFMDMv1StartManagingAppRequest : DMFAppRequest
 {
     NSString *_originator;
-    unsigned long long _managementOptions;
-    NSString *_VPNUUIDString;
-    NSString *_cellularSliceUUIDString;
-    NSString *_contentFilterUUIDString;
-    NSString *_DNSProxyUUIDString;
-    NSString *_relayUUIDString;
-    NSArray *_associatedDomains;
-    NSNumber *_associatedDomainsEnableDirectDownloads;
-    NSNumber *_removable;
-    NSNumber *_tapToPayScreenLock;
-    NSNumber *_allowUserToHide;
-    NSNumber *_allowUserToLock;
-    NSDictionary *_configuration;
-    NSNumber *_internal;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class);
++ (_Bool)(';
 + (_Bool);
 + (_Bool);
 + (id);
@@ -55,34 +41,20 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)edResults;
 - (id)32@40@48Q56Q64B72B76B80B84@88@96;
 - (void):(id)arg1 %@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *DNSProxyUUIDString; // @synthesize DNSProxyUUIDString=_DNSProxyUUIDString;
-@property(copy, nonatomic) NSString *VPNUUIDString; // @synthesize VPNUUIDString=_VPNUUIDString;
-@property(copy, nonatomic) NSNumber *allowUserToHide; // @synthesize allowUserToHide=_allowUserToHide;
-@property(copy, nonatomic) NSNumber *allowUserToLock; // @synthesize allowUserToLock=_allowUserToLock;
-@property(copy, nonatomic) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;
-@property(copy, nonatomic) NSNumber *associatedDomainsEnableDirectDownloads; // @synthesize associatedDomainsEnableDirectDownloads=_associatedDomainsEnableDirectDownloads;
-@property(copy, nonatomic) NSString *cellularSliceUUIDString; // @synthesize cellularSliceUUIDString=_cellularSliceUUIDString;
-@property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(copy, nonatomic) NSString *contentFilterUUIDString; // @synthesize contentFilterUUIDString=_contentFilterUUIDString;
-@property(copy, nonatomic) NSNumber *internal; // @synthesize internal=_internal;
-@property(nonatomic) unsigned long long managementOptions; // @synthesize managementOptions=_managementOptions;
 @property(copy, nonatomic) NSString *originator; // @synthesize originator=_originator;
-@property(copy, nonatomic) NSString *relayUUIDString; // @synthesize relayUUIDString=_relayUUIDString;
-@property(copy, nonatomic) NSNumber *removable; // @synthesize removable=_removable;
-@property(copy, nonatomic) NSNumber *tapToPayScreenLock; // @synthesize tapToPayScreenLock=_tapToPayScreenLock;
 
 @end
 

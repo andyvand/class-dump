@@ -4,39 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEventStore;
+@class EKEventStore;
 @protocol EKCalendarEditItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKCalendarEditItem
 {
     EKEventStore *_store;
-    EKCalendar *_calendar;
-    id <EKCalendarEditItemDelegate> _delegate;
 }
 
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)S%s;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)s;
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)0
+1;
+- (unsigned long long)_TtC20SiriOntologyProtobufP33_1BD0235EFF2BD689021FD71BBD298C6C10InternPool;
 - (id);
 - (void);
 - (id);
-- (void)onView:didChangeDragState:fromOldState: /* Error: Ran out of types for this method. */;
+- (void)mapView:annotationView:didChangeDragState:fromOldState: /* Error: Ran out of types for this method. */;
 - (id)ÿë`H;
 - (double)'À;
 - (void)âÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) EKCalendar *calendar; // @synthesize calendar=_calendar;
 @property(nonatomic) __weak id <EKCalendarEditItemDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

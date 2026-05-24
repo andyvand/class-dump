@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface BSXPCCodingArray
 {
@@ -17,24 +17,18 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)sions/A/RunningBoardServices;
 - (void);
 - (unsigned long long)nitorSystemSleepRequestAborted -> observer:(CDStruct_70511ce9 *)arg1 %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

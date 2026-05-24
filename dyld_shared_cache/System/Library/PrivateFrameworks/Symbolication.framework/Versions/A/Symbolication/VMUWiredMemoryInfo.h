@@ -7,12 +7,6 @@
 @interface VMUWiredMemoryInfo
 {
     struct mach_zone_name *zone_names;
-    unsigned int zone_names_count;
-    struct mach_zone_info_data *zone_info;
-    unsigned int zone_info_count;
-    struct mach_memory_info *wired_info;
-    unsigned int wired_info_count;
-    _Bool ownsMachInfo;
 }
 
 - (void);
@@ -21,10 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (id),;
+- (id)not be called on ISyncSessionDriver, but rather on its concrete subclass, ISyncConcreteSessionDriver;
+- (_Bool)RetriggerableDeferred;
 
 @end
 

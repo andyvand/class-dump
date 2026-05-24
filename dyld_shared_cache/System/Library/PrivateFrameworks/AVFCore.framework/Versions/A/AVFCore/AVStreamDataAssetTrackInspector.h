@@ -12,19 +12,18 @@ __attribute__((visibility("hidden")))
 @interface AVStreamDataAssetTrackInspector : AVAssetTrackInspector
 {
     AVWeakReference *_weakReferenceToAsset;
-    int _trackID;
 }
 
-- (id);
+- (id)erpretationIndices;
 - (unsigned int);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)Storage;
 - (id);
 - (CDStruct_e83c9415);
 - (struct CGSize);
-- (struct CGSize)alidTopLevelAtom;
+- (struct CGSize)AVAssetAnalysisMovieParsingMessageTypeInvalidTopLevelAtom;
 - (int)ÿÿ(È;
 
 @end

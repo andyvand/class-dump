@@ -12,10 +12,10 @@
 }
 
 - (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -25,8 +25,8 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)B;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long elementCount; // @synthesize elementCount=_elementCount;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBContactEventTrigger, _INPBIntent, _INPBIntentMetadata, _INPBSpatialEventTrigger, _INPBTaskList, _INPBTemporalEventTrigger;
+@class _INPBContactEventTrigger;
 
 @interface _INPBAddTasksIntent
 {
@@ -12,16 +12,6 @@
         unsigned int priority:1;
         unsigned int taskReference:1;
     } _has;
-    int _priority;
-    int _taskReference;
-    _INPBContactEventTrigger *_contactEventTrigger;
-    _INPBIntent *_intent;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBSpatialEventTrigger *_spatialEventTrigger;
-    _INPBTaskList *_targetTaskList;
-    NSArray *_targetTaskListMembers;
-    NSArray *_taskTitles;
-    _INPBTemporalEventTrigger *_temporalEventTrigger;
 }
 
 + (Class);
@@ -48,7 +38,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)l;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -60,7 +50,7 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)<GCDeviceSpatial>"16@0:(id)arg1 8;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -70,43 +60,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)stopMonitoringAllEvents;
+- (void)i] @[%llu.%06llu] Using default interface role '%{public}@' based on '%{public}@' request type;
 - (id);
 - (id);
 - (void);
-- (_Bool)ntResponseCodeFormatStringDictionary;
+- (_Bool)__INIntentResponseCodableCodeINIntentResponseCodeFormatStringDictionary;
 - (void)cabularyGenerationDocument initWithContentsOfFile:] /* Error: Ran out of types for this method. */;
 - (int): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContactEventTrigger *contactEventTrigger; // @synthesize contactEventTrigger=_contactEventTrigger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasContactEventTrigger;
-@property(readonly, nonatomic) _Bool hasIntent;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasSpatialEventTrigger;
-@property(readonly, nonatomic) _Bool hasTargetTaskList;
-@property(nonatomic) _Bool hasTaskReference;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntent *intent; // @synthesize intent=_intent;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) _INPBSpatialEventTrigger *spatialEventTrigger; // @synthesize spatialEventTrigger=_spatialEventTrigger;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTaskList *targetTaskList; // @synthesize targetTaskList=_targetTaskList;
-@property(copy, nonatomic) NSArray *targetTaskListMembers; // @synthesize targetTaskListMembers=_targetTaskListMembers;
-@property(readonly, nonatomic) unsigned long long targetTaskListMembersCount;
-@property(nonatomic) int taskReference; // @synthesize taskReference=_taskReference;
-@property(copy, nonatomic) NSArray *taskTitles; // @synthesize taskTitles=_taskTitles;
-@property(readonly, nonatomic) unsigned long long taskTitlesCount;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger; // @synthesize temporalEventTrigger=_temporalEventTrigger;
 
 @end
 

@@ -9,7 +9,7 @@
     int _notifyToken;
 }
 
-+ (id)ulingStop;
++ (id)_numTrailingSamplesAfterSchedulingStop;
 - (id);
 - (void);
 - (void);

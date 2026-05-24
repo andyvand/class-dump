@@ -5,5 +5,6 @@
 //
 
 @protocol PowerUISignalMonitorDelegate
+- (void);
 @end
 

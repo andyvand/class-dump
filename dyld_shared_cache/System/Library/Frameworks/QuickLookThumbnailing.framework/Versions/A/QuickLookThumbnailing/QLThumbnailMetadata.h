@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface QLThumbnailMetadata
 {
     _Bool _isLowQuality;
-    _Bool _hasIconModeApplied;
-    int _inlinePreviewMode;
-    int _iconFlavor;
-    long long _baseline;
-    NSString *_extensionBadge;
-    NSDictionary *_additionalProperties;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (int);
 - (_Bool);
@@ -35,19 +27,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalProperties; // @synthesize additionalProperties=_additionalProperties;
-@property(nonatomic) long long baseline; // @synthesize baseline=_baseline;
-@property(copy, nonatomic) NSString *extensionBadge; // @synthesize extensionBadge=_extensionBadge;
-@property(nonatomic) _Bool hasIconModeApplied; // @synthesize hasIconModeApplied=_hasIconModeApplied;
-@property(nonatomic) int iconFlavor; // @synthesize iconFlavor=_iconFlavor;
 @property(nonatomic) int inlinePreviewMode; // @synthesize inlinePreviewMode=_inlinePreviewMode;
-@property(nonatomic) _Bool isLowQuality; // @synthesize isLowQuality=_isLowQuality;
 
 @end
 

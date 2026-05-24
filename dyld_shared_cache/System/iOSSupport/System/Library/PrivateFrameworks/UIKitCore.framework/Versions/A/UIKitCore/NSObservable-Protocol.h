@@ -10,6 +10,7 @@
 @protocol NSObservable
 
 @optional
+- (void)c;
 - (void)að1Â0@ù
 × ;
 - (void);

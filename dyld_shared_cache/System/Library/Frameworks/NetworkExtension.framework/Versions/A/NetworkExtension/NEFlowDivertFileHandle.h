@@ -6,30 +6,28 @@
 
 #import <NetworkExtension/NEFileHandle.h>
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 @interface NEFlowDivertFileHandle : NEFileHandle
 {
     NSNumber *_controlUnit;
-    NSData *_keyMaterial;
 }
 
+- (id)controlsUITiming;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@@@@iISQBBBS[0C]}16S24S28@32@40d48;
+- (id)essionID:(_Bool)arg1 ];
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
+- (id)id state manager collaborator {error:%@} /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)etFilterPacketProviderBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setFilterPacketProviderBundleIdentifier: /* Error: Ran out of types for this method. */;
 - (id)er-based configurations;
 
 // Remaining properties
 @property(readonly) NSNumber *controlUnit; // @synthesize controlUnit=_controlUnit;
-@property(readonly) NSData *keyMaterial; // @synthesize keyMaterial=_keyMaterial;
 
 @end
 

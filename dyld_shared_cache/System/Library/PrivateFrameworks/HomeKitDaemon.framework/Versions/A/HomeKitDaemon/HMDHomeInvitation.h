@@ -4,67 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, HMDHome, HMFTimer, HMHomeInvitationData, NSArray, NSDate, NSObject, NSString, NSURL, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeInvitation
 {
     long long _invitationState;
-    HMDHome *_home;
-    HMHomeInvitationData *_invitationData;
-    NSUUID *_idsInvitationUUID;
-    NSURL *_shareURL;
-    CKDeviceToDeviceShareInvitationToken *_shareToken;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    CDUnknownBlockType _resolutionHandler;
-    CDUnknownBlockType _expirationHandler;
-    HMFTimer *_timer;
-    NSArray *_operations;
 }
 
 + (id);
 + (_Bool)ðÐ;
 - (void);
 - (void);
+- (void)updateWaypointsFromComposedRoute:(id)arg1;
+- (_Bool)closedTimestamp;
+- (void)ing to start sharing:(id)arg1 %{public}@;
+- (id);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)usicCuration;
+- (CDUnknownBlockType)xternalActionLinks;
+- (void)cEventFetchHelper:(long long)arg1 Failed to open syndicated library:%@ /* Error: Ran out of types for this method. */;
+- (long long)NodeCollection"16^B24;
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)Rect={CGPoint=dd}{CGSize=dd}}48@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
 - (CDUnknownBlockType);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id);
+- (id)e Private Key;
+- (id)b2;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)0@ù
 × ;
-- (_Bool)ActivityState: /* Error: Ran out of types for this method. */;
+- (_Bool)handleUserRequestToUpdateHomeActivityState: /* Error: Ran out of types for this method. */;
 - (id)ÔÕÖ;
 - (double)Ô,d´Ü<d´ìDl¤Ìô$L|¤ÌôT|¤ÌôD|´ìL¼äT|´Ü4d¼äDlÌôDt°äD|¤ÌôD|´ì$\¼ô,dÌ<d¼äD|¬Ü < l  ¼ ì !`!!Ì!"D""°"Ø";
 - (id)entication failed. (%@). Error:%@ /* Error: Ran out of types for this method. */;
@@ -76,32 +65,7 @@ __attribute__((visibility("hidden")))
 - (void)í?;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAccepted) _Bool accepted;
-@property(readonly, nonatomic) double age;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=isDeclined) _Bool declined;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *endDate;
-@property(copy, nonatomic) CDUnknownBlockType expirationHandler; // @synthesize expirationHandler=_expirationHandler;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy, nonatomic) NSUUID *identifier;
-@property(retain, nonatomic) NSUUID *idsInvitationUUID; // @synthesize idsInvitationUUID=_idsInvitationUUID;
-@property(retain, nonatomic) HMHomeInvitationData *invitationData; // @synthesize invitationData=_invitationData;
-@property(nonatomic) long long invitationState; // @synthesize invitationState=_invitationState;
-@property(retain, nonatomic) NSArray *operations; // @synthesize operations=_operations;
-@property(readonly, nonatomic, getter=isPending) _Bool pending;
-@property(copy, nonatomic) CDUnknownBlockType resolutionHandler; // @synthesize resolutionHandler=_resolutionHandler;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *shareToken; // @synthesize shareToken=_shareToken;
-@property(retain, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly, copy, nonatomic) NSDate *startDate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMFTimer *timer; // @synthesize timer=_timer;
 
 @end
 

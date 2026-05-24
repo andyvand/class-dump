@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id);
+- (id)m;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)B;
 
 // Remaining properties
 @property(readonly, nonatomic) long long fontStyle; // @synthesize fontStyle=_fontStyle;

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, _KSCloudKitManager, _KSControlFileController, _KSRequestThrottle, _KSSystemTask;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _KSUserWordsSynchroniser
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    _KSCloudKitManager *_cloudKitManager;
-    _KSControlFileController *_controlFile;
-    _KSSystemTask *_pushTask;
-    _Bool _taskRun;
-    NSArray *_languagesIfOffline;
-    _Bool _attemptingConnection;
-    _Bool _retryPending;
-    _Bool _needRetry;
-    _KSRequestThrottle *_identityThrottle;
 }
 
 + (id);
@@ -28,33 +19,33 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)@"CNContactListController",R,N,V_contactListController;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)15LSMLegacyParser;
+- (void)EWSItemQueryTraversalTypeDefinition;
+- (void)EWSIsLessThanOrEqualToType;
+- (void)readPointTypeFromNode:(id)arg1;
+- (void)mapCellPropertiesWithState:textAnchor: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)tial;
+- (void)ientificFormat;
 - (void);
+- (_Bool)	;
 - (void);
-- (void);
-- (void);
+- (id)O!;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ԧ;
 - (void);
 
 // Remaining properties

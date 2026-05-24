@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaLogicalTimestamp, SISchemaUUID;
+@class SISchemaLogicalTimestamp;
 
 @interface SISchemaCommonEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaLogicalTimestamp *_timestamp;
-    SISchemaUUID *_testFingerprint;
-    SISchemaUUID *_eventId;
-    long long _emitTimestamp;
-    struct {
-        unsigned int emitTimestamp:1;
-    } _has;
-    _Bool _hasTimestamp;
-    _Bool _hasTestFingerprint;
-    _Bool _hasEventId;
 }
 
 - (void);
@@ -36,33 +27,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)eworks/AppleMediaServices.framework/Contents/MacOS/AppleMediaServices;
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)hideUserPrompts;
 - (id);
+- (_Bool)*getCNContactPhoneNumbersKey(void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)tifier FROM   chat c WHERE   c.style = 45   AND c.chat_identifier != lower(c.chat_identifier) ;
+- (void)_t);
 - (void);
 - (id);
-- (id);
+- (id)kCGColorTRCParametricType1;
 - (id)deleteAppIntentSignalGenerated;
-- (id)ilabilityStatus;
+- (id)_availabilityStatus;
 - (void)m.apple.aiml.siri.mh.MHClientEvent.MHUserEngagementFalseTriggerMitigationEvaluationContext;
 
 // Remaining properties
-@property(nonatomic) long long emitTimestamp; // @synthesize emitTimestamp=_emitTimestamp;
-@property(retain, nonatomic) SISchemaUUID *eventId; // @synthesize eventId=_eventId;
-@property(nonatomic) _Bool hasEmitTimestamp;
-@property(nonatomic) _Bool hasEventId; // @synthesize hasEventId=_hasEventId;
-@property(nonatomic) _Bool hasTestFingerprint; // @synthesize hasTestFingerprint=_hasTestFingerprint;
-@property(nonatomic) _Bool hasTimestamp; // @synthesize hasTimestamp=_hasTimestamp;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *testFingerprint; // @synthesize testFingerprint=_testFingerprint;
 @property(retain, nonatomic) SISchemaLogicalTimestamp *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

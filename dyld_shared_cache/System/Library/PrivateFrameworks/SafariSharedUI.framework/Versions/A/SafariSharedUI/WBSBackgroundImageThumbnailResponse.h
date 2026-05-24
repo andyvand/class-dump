@@ -11,17 +11,15 @@
 @interface WBSBackgroundImageThumbnailResponse : WBSSiteMetadataResponse
 {
     NSArray *_images;
-    long long _selectedIndex;
 }
 
 - (id);
 - (id);
 - (long long);
-- (void)uest;
+- (void)WBSSVGImageRenderingRequest;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationNavigationController, AKAuthorizationPresentationContext, AKAuthorizationScopeChoices, NSString;
-@protocol AKAuthorizationViewControllerDelegate;
+@class AKAuthorizationNavigationController, AKAuthorizationPresentationContext;
 
 @interface AKAuthorizationViewController
 {
     AKAuthorizationPresentationContext *_presentationContext;
-    id <AKAuthorizationViewControllerDelegate> _delegate;
-    AKAuthorizationNavigationController *_navigationController;
-    AKAuthorizationScopeChoices *_scopeChoices;
 }
 
 - (void);
@@ -26,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +32,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -45,30 +41,80 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)earliestOccurrence;
 - (void);
 - (id);
+- (id)that this page is locale '%{public}@; won't fire detection notification again; URL:(id)arg1 %{sensitive}@;
+- (id);
+- (void)2 v_tcDepth0;
+varying vec2 v_tcDepth1;
+varying vec2 v_tcDepth2;
+varying vec2 v_tcDepth3;
+
+vec4 saturate(vec4 val)
+{
+    return clamp(val, vec4(0.), vec4(1.));
+}
+
+void main (void)
+{
+    
+
+    vec4 dofRowDelta = vec4(0., 1., 2., 3.) * u_inversePixelSize.y * 0.25;
+    vec2 rowOfs[4];
+    rowOfs[0] = dofRowDelta.xx; 
+    rowOfs[1] = dofRowDelta.xy;
+    rowOfs[2] = dofRowDelta.xz;
+    rowOfs[3] = dofRowDelta.xw;
+    
+    
+    vec3 color;
+    color  = texture2D( colorSampler, v_tcColor0.xy ).rgb;
+    color += texture2D( colorSampler, v_tcColor1.xy ).rgb;
+    color += texture2D( colorSampler, v_tcColor0.xy + rowOfs[2] ).rgb;
+    color += texture2D( colorSampler, v_tcColor1.xy + rowOfs[2] ).rgb;
+    color *= 0.25;
+    
+    vec4 depth;
+    depth[0] = texture2D( depthSampler, v_tcDepth0.xy + rowOfs[0] ).r;
+    depth[1] = texture2D( depthSampler, v_tcDepth1.xy + rowOfs[0] ).r;
+    depth[2] = texture2D( depthSampler, v_tcDepth2.xy + rowOfs[0] ).r;
+    depth[3] = texture2D( depthSampler, v_tcDepth3.xy + rowOfs[0] ).r;
+    vec4 coc = abs(depth * CocScaleBias.x + CocScaleBias.y);
+
+    depth[0] = texture2D( depthSampler, v_tcDepth0.xy + rowOfs[1] ).r;
+    depth[1] = texture2D( depthSampler, v_tcDepth1.xy + rowOfs[1] ).r;
+    depth[2] = texture2D( depthSampler, v_tcDepth2.xy + rowOfs[1] ).r;
+    depth[3] = texture2D( depthSampler, v_tcDepth3.xy + rowOfs[1] ).r;
+    coc 	 = max(coc, abs(depth * CocScaleBias.x + CocScaleBias.y));
+    
+    depth[0] = texture2D( depthSampler, v_tcDepth0.xy + rowOfs[2] ).r;
+    depth[1] = texture2D( depthSampler, v_tcDepth1.xy + rowOfs[2] ).r;
+    depth[2] = texture2D( depthSampler, v_tcDepth2.xy + rowOfs[2] ).r;
+    depth[3] = texture2D( depthSampler, v_tcDepth3.xy + rowOfs[2] ).r;
+    coc 	 = max(coc, abs(depth * CocScaleBias.x + CocScaleBias.y));
+    
+    depth[0] = texture2D( depthSampler, v_tcDepth0.xy + rowOfs[3] ).r;
+    depth[1] = texture2D( depthSampler, v_tcDepth1.xy + rowOfs[3] ).r;
+    depth[2] = texture2D( depthSampler, v_tcDepth2.xy + rowOfs[3] ).r;
+    depth[3] = texture2D( depthSampler, v_tcDepth3.xy + rowOfs[3] ).r;
+    coc 	 = max(coc, abs(depth * CocScaleBias.x + CocScaleBias.y));
+
+    float maxCoc = max( max( coc.x, coc.y ), max( coc.z, coc.w ) );
+
+    
+    
+	gl_FragColor = vec4(color, maxCoc);
+}
+;
 - (id);
 - (id);
+- (long long)setScreenCaptureFileName: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (void)0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAuthorizationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AKAuthorizationNavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(retain, nonatomic) AKAuthorizationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(readonly, nonatomic) AKAuthorizationScopeChoices *scopeChoices; // @synthesize scopeChoices=_scopeChoices;
-@property(readonly) Class superclass;
 
 @end
 

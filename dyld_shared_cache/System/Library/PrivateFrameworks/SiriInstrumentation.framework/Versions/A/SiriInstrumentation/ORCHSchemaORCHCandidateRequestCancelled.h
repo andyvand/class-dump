@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHCandidateRequestCancelled : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)32@0:(_Bool)arg1 8@"NSDictionary"16@?<v@?@"NSDictionary"@"NSError">24;
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!CùÞð1Â0@ù
 × ;
-- (id);
-- (id)ameMatch;
-- (_Bool)e;
+- (id)_appLaunchTimeInSecondsSince2001;
+- (id)isNicknameMatch;
+- (_Bool)hasCurrentHome;
 - (_Bool)W®¦R!;
 - (void)c%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

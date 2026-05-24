@@ -9,7 +9,6 @@
 @interface PXCuratedLibraryActionPerformer
 {
     PXCuratedLibraryViewModel *_viewModel;
-    long long _actionZoomLevel;
 }
 
 - (_Bool);
@@ -23,7 +22,6 @@
 - (id)ø­>;
 
 // Remaining properties
-@property(readonly, nonatomic) long long actionZoomLevel; // @synthesize actionZoomLevel=_actionZoomLevel;
 @property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

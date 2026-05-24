@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTSliceInterfaceInfo
 {
     NSString *_interface;
-    NSArray *_trafficDescriptors;
 }
 
-+ (_Bool);
++ (_Bool)ch time range must be numeric - see CMTIME_IS_NUMERIC;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)makeChallengeWithSalt:(id)arg1 publicKeyB: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *interface; // @synthesize interface=_interface;
-@property(retain, nonatomic) NSArray *trafficDescriptors; // @synthesize trafficDescriptors=_trafficDescriptors;
 
 @end
 

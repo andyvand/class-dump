@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionListener, NSMutableArray, NSObject, NSString;
-@protocol CHSWidgetEventServiceListenerDelegate, OS_dispatch_queue;
+@class BSServiceConnectionListener;
+@protocol CHSWidgetEventServiceListenerDelegate;
 
 @interface CHSWidgetEventServiceListener
 {
     BSServiceConnectionListener *_connectionListener;
-    NSMutableArray *_connections;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSString *_serviceDomain;
-    id <CHSWidgetEventServiceListenerDelegate> _delegate;
 }
 
-- (oneway void);
-- (oneway void);
+- (oneway void);
+- (oneway void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
+- (void)F;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void),p;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CHSWidgetEventServiceListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKColorMatrixView, PKColorPickerCrosshairView, UIColor, UIPanGestureRecognizer;
 @protocol _PKColorPickerViewDelegate;
 
 @interface _PKColorPickerView
 {
     id <_PKColorPickerViewDelegate> _delegate;
-    UIColor *_selectedColor;
-    UIColor *_initialColor;
-    UIPanGestureRecognizer *_crosshairPanGR;
-    PKColorPickerCrosshairView *_crosshairView;
-    PKColorMatrixView *_gridColorPicker;
 }
 
 - (void);
@@ -35,24 +29,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)nstraint:(id)arg1;
+- (id);
+- (void)setPaletteContainerCompactBottomConstraint:(id)arg1;
 - (void)letteViewDelegateProxy;
 
 // Remaining properties
-@property(retain, nonatomic) UIPanGestureRecognizer *crosshairPanGR; // @synthesize crosshairPanGR=_crosshairPanGR;
-@property(retain, nonatomic) PKColorPickerCrosshairView *crosshairView; // @synthesize crosshairView=_crosshairView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_PKColorPickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKColorMatrixView *gridColorPicker; // @synthesize gridColorPicker=_gridColorPicker;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *initialColor; // @synthesize initialColor=_initialColor;
-@property(retain, nonatomic) UIColor *selectedColor; // @synthesize selectedColor=_selectedColor;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface NewsFeed.FeedAdPipelineProcessor
 {
     id integrator;
-    id bannerAdRequester;
-    id prerollAdRequester;
-    id nativeAdManager;
-    id layoutEnvironmentProvider;
-    id rendererEnvironment;
-    id journal;
 }
 
 @end

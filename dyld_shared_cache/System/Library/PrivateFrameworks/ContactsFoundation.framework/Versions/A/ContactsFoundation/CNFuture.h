@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
 @protocol CNFutureImpl;
 
 @interface CNFuture
 {
     id <CNFutureImpl> _impl;
-    NSMutableArray *_calculationDependencies;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)storeImportCookieData:(CDUnknownBlockType)arg1 forVolumeURL:(id)arg2 reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -36,25 +34,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id)0@ù
 × ;
 - (id)@*Ð1Â0@ù
 × ;
-- (_Bool)cessHasError:(id)arg1 forEntitlement: /* Error: Ran out of types for this method. */;
+- (_Bool)setCurrentProcessHasError:(id)arg1 forEntitlement: /* Error: Ran out of types for this method. */;
 - (void)ë;
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

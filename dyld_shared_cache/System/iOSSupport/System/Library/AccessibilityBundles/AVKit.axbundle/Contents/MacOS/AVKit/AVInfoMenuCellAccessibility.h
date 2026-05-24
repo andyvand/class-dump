@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void):(id)arg1 8@16;
 - (id);
 - (_Bool);
 - (unsigned long long);

@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface CEMPredicateCompositeBudget_TimeBudgetItem : CEMPayloadBase
 {
     NSNumber *_payloadSeconds;
-    NSArray *_payloadDays;
 }
 
 + (id);
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)sk expired by system;
 - (id);
-- (void);
+- (void)routines;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *payloadDays; // @synthesize payloadDays=_payloadDays;
 @property(copy, nonatomic) NSNumber *payloadSeconds; // @synthesize payloadSeconds=_payloadSeconds;
 
 @end

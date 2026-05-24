@@ -16,7 +16,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)diagnostic_timestamp;
 - (id);
 - (void);
 

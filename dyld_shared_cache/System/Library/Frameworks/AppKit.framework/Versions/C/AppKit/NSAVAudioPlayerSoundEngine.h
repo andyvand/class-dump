@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayer, NSString;
 @protocol NSSoundEngineDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSAVAudioPlayerSoundEngine
 {
     id <NSSoundEngineDelegate> _delegate;
-    AVAudioPlayer *_audioPlayer;
 }
 
 - (void);
+- (void)_initWithCFURLCredentialStorage: /* Error: Ran out of types for this method. */;
+- (_Bool)ailers;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)count actual:%u; exponential moving average:%.3f /* Error: Ran out of types for this method. */;
+- (void)CertificateVerify;
 - (void);
 - (void);
 - (double);
 - (void);
-- (id)ontainer:(id)arg1;
-- (void)t:(double)arg1;
+- (id)boundingRectForGlyphRange:(id)arg1 inTextContainer: /* Error: Ran out of types for this method. */;
+- (void)_selectPart:(double)arg1;
 - (_Bool)enderingColor;
 - (double)	
 ;
@@ -34,15 +32,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)pÀÑH;
 
 // Remaining properties
-@property double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

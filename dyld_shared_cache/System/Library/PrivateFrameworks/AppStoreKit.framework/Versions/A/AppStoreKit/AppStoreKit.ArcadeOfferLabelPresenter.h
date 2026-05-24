@@ -7,10 +7,6 @@
 @interface AppStoreKit.ArcadeOfferLabelPresenter
 {
     id subscribedText;
-    id nonsubscribedText;
-    id subscriptionManager;
-    id offerLabelText;
-    id view;
 }
 
 @end

@@ -11,12 +11,12 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (void);
 + (id)@/%@:%@ /* Error: Ran out of types for this method. */;
 

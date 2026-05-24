@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)ingZipReader:(id)arg1 archive_read unable to set supported formats:(id *)arg2 %s.;
 
 @end
 

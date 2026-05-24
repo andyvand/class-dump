@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor;
-
 @interface TSAViewController
 {
     _Bool _viewDidAppear;
-    _Bool _showFirstLaunchCoachingTipAfterViewAppears;
-    _Bool _firstLaunchCoachingTipsWereShowingBeforeRotation;
-    _Bool _coachingTipsWereShowingBeforeRotation;
-    _Bool _shouldShowHelpOnAppear;
-    NSArray *_leftApplicationToolbarItems;
-    NSArray *_rightApplicationToolbarItems;
-    double _leftToolbarItemsInset;
-    double _rightToolbarItemsInset;
-    double _leftToolbarItemsMaximumWidth;
-    double _rightToolbarItemsMaximumWidth;
 }
 
+- (void)PlayerItemTransition;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)ikelyToKeepUp;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -45,15 +33,15 @@
 - (void);
 - (void);
 - (double);
+- (double);
+- (id);
+- (void);
+- (void)T;
+- (void);
+- (_Bool);
+- (double);
 - (double);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (double);
-- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -66,40 +54,21 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool) ;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void)»;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *applicationBackgroundColor;
-@property(readonly, nonatomic) UIColor *applicationToolbarBackgroundColor;
-@property(readonly, nonatomic) UIColor *applicationToolbarTintColor;
-@property(readonly, nonatomic) UIColor *applicationToolbarTitleColor;
-@property(readonly, nonatomic) id coachingTipsButton;
-@property(nonatomic) _Bool coachingTipsWereShowingBeforeRotation; // @synthesize coachingTipsWereShowingBeforeRotation=_coachingTipsWereShowingBeforeRotation;
-@property(nonatomic) _Bool firstLaunchCoachingTipsWereShowingBeforeRotation; // @synthesize firstLaunchCoachingTipsWereShowingBeforeRotation=_firstLaunchCoachingTipsWereShowingBeforeRotation;
-@property(readonly, nonatomic) _Bool isLayoutBelowApplicationToolbar;
-@property(readonly, nonatomic) _Bool isViewVisible;
-@property(retain, nonatomic) NSArray *leftApplicationToolbarItems; // @synthesize leftApplicationToolbarItems=_leftApplicationToolbarItems;
-@property(readonly, nonatomic) double leftToolbarItemsInset; // @synthesize leftToolbarItemsInset=_leftToolbarItemsInset;
-@property(nonatomic) double leftToolbarItemsMaximumWidth; // @synthesize leftToolbarItemsMaximumWidth=_leftToolbarItemsMaximumWidth;
-@property(readonly, nonatomic, getter=isPresentingModalViewController) _Bool presentingModalViewController;
-@property(retain, nonatomic) NSArray *rightApplicationToolbarItems; // @synthesize rightApplicationToolbarItems=_rightApplicationToolbarItems;
-@property(readonly, nonatomic) double rightToolbarItemsInset; // @synthesize rightToolbarItemsInset=_rightToolbarItemsInset;
-@property(nonatomic) double rightToolbarItemsMaximumWidth; // @synthesize rightToolbarItemsMaximumWidth=_rightToolbarItemsMaximumWidth;
-@property(nonatomic) _Bool shouldShowHelpOnAppear; // @synthesize shouldShowHelpOnAppear=_shouldShowHelpOnAppear;
-@property(nonatomic) _Bool showFirstLaunchCoachingTipAfterViewAppears; // @synthesize showFirstLaunchCoachingTipAfterViewAppears=_showFirstLaunchCoachingTipAfterViewAppears;
-@property(readonly, nonatomic) NSString *toolbarButtonModalGearImageName;
 @property(nonatomic) _Bool viewDidAppear; // @synthesize viewDidAppear=_viewDidAppear;
 
 @end

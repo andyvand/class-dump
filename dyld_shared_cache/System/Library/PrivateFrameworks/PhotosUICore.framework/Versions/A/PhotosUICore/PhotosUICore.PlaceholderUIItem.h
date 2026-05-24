@@ -7,11 +7,6 @@
 @interface PhotosUICore.PlaceholderUIItem
 {
     id id;
-    id accessibilityLabel;
-    id accessibilityIdentifier;
-    id zIndex;
-    id view;
-    id detailsNavigationDestination;
 }
 
 @end

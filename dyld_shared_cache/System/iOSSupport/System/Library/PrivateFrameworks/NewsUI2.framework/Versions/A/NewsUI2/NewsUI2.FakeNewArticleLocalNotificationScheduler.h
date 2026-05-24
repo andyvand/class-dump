@@ -7,7 +7,6 @@
 @interface NewsUI2.FakeNewArticleLocalNotificationScheduler
 {
     id headlineService;
-    id notificationService;
 }
 
 - (id);

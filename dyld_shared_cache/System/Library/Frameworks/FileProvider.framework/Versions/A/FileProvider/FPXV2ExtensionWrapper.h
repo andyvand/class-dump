@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderExtension, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FPXV2ExtensionWrapper
 {
     Class _extensionClass;
-    NSFileProviderExtension *_extension;
 }
 
 - (id);
@@ -19,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)%s:(id)arg1 FigPlaybackCoordinator trying to fetch timeline state but coordination medium delegate is nil.  Clearing delegate and calling completion handler.;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,21 +30,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)UIKit.activity.AirDrop;
+- (void)T;
 - (Class);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSFileProviderExtension *extension; // @synthesize extension=_extension;
 @property(retain, nonatomic) Class extensionClass; // @synthesize extensionClass=_extensionClass;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

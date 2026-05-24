@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, NSValue;
+@class NSString;
 
 @interface RKSentenceClassifier
 {
     _Bool _sentenceIsTerminated;
-    _Bool _sentenceIsAllSymbols;
-    _Bool _sentenceHasQuestionTerminator;
-    _Bool _sentenceHasAlternativeConjunction;
-    NSArray *_sentenceEntities;
-    NSArray *_matchedRanges;
-    NSString *_languageIdentifier;
-    NSMutableDictionary *_partofSpeechAvailabilityByLanguage;
-    NSMutableDictionary *_lemmaAvailabilityByLanguage;
-    NSString *_sentenceStringOriginal;
-    NSString *_sentenceString;
-    NSValue *_sentenceTag;
-    NSArray *_inversions;
-    NSArray *_interrogatives;
-    NSArray *_choiceDelimiters;
-    NSArray *_alternatives;
-    NSArray *_appreciations;
-    NSArray *_dataDetected;
-    NSString *_RKLinguisticTagDataDetected;
 }
 
-+ (Class);
++ (Class)k;
 + (Class);
 + (id);
 + (id);
@@ -38,9 +20,12 @@
 + (id);
 + (id);
 + (_Bool);
++ (id);
 + (id);
 + (id);
-+ (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,13 +34,10 @@
 - (void);
 - (void);
 - (void);
+- (void)j;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)J;
 - (id);
 - (id);
 - (_Bool);
@@ -63,10 +45,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)#;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -82,32 +64,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSString *RKLinguisticTagDataDetected; // @synthesize RKLinguisticTagDataDetected=_RKLinguisticTagDataDetected;
-@property(readonly) NSArray *alternativeConjunctions;
-@property(retain) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(retain) NSArray *appreciations; // @synthesize appreciations=_appreciations;
-@property(retain) NSArray *choiceDelimiters; // @synthesize choiceDelimiters=_choiceDelimiters;
-@property(retain) NSArray *dataDetected; // @synthesize dataDetected=_dataDetected;
-@property(retain) NSArray *interrogatives; // @synthesize interrogatives=_interrogatives;
-@property(retain) NSArray *inversions; // @synthesize inversions=_inversions;
 @property(readonly) NSString *languageIdentifier; // @synthesize languageIdentifier=_languageIdentifier;
-@property(retain) NSMutableDictionary *lemmaAvailabilityByLanguage; // @synthesize lemmaAvailabilityByLanguage=_lemmaAvailabilityByLanguage;
-@property(retain) NSArray *matchedRanges; // @synthesize matchedRanges=_matchedRanges;
-@property(retain) NSMutableDictionary *partofSpeechAvailabilityByLanguage; // @synthesize partofSpeechAvailabilityByLanguage=_partofSpeechAvailabilityByLanguage;
-@property(retain) NSArray *sentenceEntities; // @synthesize sentenceEntities=_sentenceEntities;
-@property _Bool sentenceHasAlternativeConjunction; // @synthesize sentenceHasAlternativeConjunction=_sentenceHasAlternativeConjunction;
-@property _Bool sentenceHasQuestionTerminator; // @synthesize sentenceHasQuestionTerminator=_sentenceHasQuestionTerminator;
-@property _Bool sentenceIsAllSymbols; // @synthesize sentenceIsAllSymbols=_sentenceIsAllSymbols;
-@property _Bool sentenceIsTerminated; // @synthesize sentenceIsTerminated=_sentenceIsTerminated;
-@property(retain) NSString *sentenceString; // @synthesize sentenceString=_sentenceString;
-@property(retain) NSString *sentenceStringOriginal; // @synthesize sentenceStringOriginal=_sentenceStringOriginal;
-@property(retain) NSValue *sentenceTag; // @synthesize sentenceTag=_sentenceTag;
 
 @end
 

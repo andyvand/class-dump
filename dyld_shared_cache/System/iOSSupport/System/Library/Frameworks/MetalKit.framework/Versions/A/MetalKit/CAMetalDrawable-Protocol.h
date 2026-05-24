@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMetalLayer;
 @protocol MTLTexture;
 
 @protocol CAMetalDrawable
+- (id <MTLTexture>);
 
 // Remaining properties
-@property(readonly) CAMetalLayer *layer;
 @property(readonly) id <MTLTexture> texture;
 @end
 

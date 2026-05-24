@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMethodSignature;
-
 @interface AFMultiArgumentSafetyBlock
 {
     struct atomic_flag _hasInvoked;
-    id _block;
-    NSMethodSignature *_blockMethodSignature;
-    NSArray *_defaultValueArray;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (void)elegate;
 - (_Bool)nvoke;
 

@@ -6,16 +6,11 @@
 
 #import <CoreDuet/_DKSyncContextObject.h>
 
-@class NSDate, NSMutableArray, NSMutableDictionary, _DKKnowledgeStorage, _DKSyncPeer;
+@class NSMutableDictionary, _DKKnowledgeStorage;
 
 @interface _DKSyncPeerStatusTracker : _DKSyncContextObject
 {
     NSMutableDictionary *_peerInfos;
-    _DKSyncPeer *_pseudoPeer;
-    NSMutableArray *_observers;
-    NSMutableDictionary *_lastSuccessfulActivityDates;
-    NSDate *_firstForeignPeersCountDate;
-    _DKKnowledgeStorage *_storage;
 }
 
 + (id);
@@ -30,7 +25,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ECSkyLightEventAuthenticationMessage;
 - (unsigned long long);
 - (long long);
 - (id);
@@ -44,9 +39,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void){;
+- (id);
+- (id);
 - (void)á¶/!DùÑ©3ð1Â0@ù
 × ;
 

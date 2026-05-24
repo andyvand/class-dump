@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)eRecipientTextView";
 - (id)backgroundSolidStroke;
 
 @end

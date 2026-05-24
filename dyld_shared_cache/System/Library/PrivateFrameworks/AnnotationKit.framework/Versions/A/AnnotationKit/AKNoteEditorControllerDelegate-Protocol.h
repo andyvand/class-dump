@@ -5,5 +5,6 @@
 //
 
 @protocol AKNoteEditorControllerDelegate
+- (_Bool);
 @end
 

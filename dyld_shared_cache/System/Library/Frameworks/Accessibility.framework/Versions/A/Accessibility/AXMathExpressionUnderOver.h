@@ -9,23 +9,19 @@
 @interface AXMathExpressionUnderOver : AXMathExpression
 {
     AXMathExpression *_baseExpression;
-    AXMathExpression *_underExpression;
-    AXMathExpression *_overExpression;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)zero fitinlong timeoutToUse=%ld;
+- (void)outputting outDict from LOCTXIfExists=%p;
+- (void)callyOwnedContext for return in almost all cases;
+- (id)info on child disk;
+- (id)hould now unschedule session;
+- (id)IsRevertInProgressOrPlanned;
+- (id)nverting=%d;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXMathExpression *baseExpression; // @synthesize baseExpression=_baseExpression;
-@property(retain, nonatomic) AXMathExpression *overExpression; // @synthesize overExpression=_overExpression;
-@property(retain, nonatomic) AXMathExpression *underExpression; // @synthesize underExpression=_underExpression;
 
 @end
 

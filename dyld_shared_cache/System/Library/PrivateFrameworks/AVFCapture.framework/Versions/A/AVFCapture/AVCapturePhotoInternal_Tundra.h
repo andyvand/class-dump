@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCapturePhotoSettings_Tundra, AVCaptureResolvedPhotoSettings_Tundra;
-
 __attribute__((visibility("hidden")))
 @interface AVCapturePhotoInternal_Tundra
 {
     struct opaqueCMSampleBuffer *sampleBuffer;
-    AVCaptureResolvedPhotoSettings_Tundra *resolvedSettings;
-    AVCapturePhotoSettings_Tundra *unresolvedSettings;
 }
 
 @end

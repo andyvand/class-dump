@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSPredicate, NSSet, NSString, PBCodable, TBLocalFetchRequestDescriptor;
+@class NSPredicate;
 
 @interface TBLocationFetchRequestDescriptor
 {
     NSPredicate *_localFetchPredicate;
-    PBCodable *_remoteRequest;
-    unsigned long long _type;
-    NSDate *_maxCacheAge;
-    TBLocalFetchRequestDescriptor *_localFetchDescriptor;
-    TBLocalFetchRequestDescriptor *_preferLocalFetchDescriptor;
-    NSSet *_tileItems;
-    unsigned long long _primaryTileKey;
-    double _latitude;
-    double _longitude;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)typesWithTag:tagClass:conformingToType: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)kBuilder_ReferencePhotoCollectionFilter_uso_unknown_entity;
 - (void);
 - (unsigned long long);
 - (id);
@@ -37,37 +28,20 @@
 - (id);
 - (Class);
 - (void);
-- (id);
+- (id)esn't expect processEndOfTransaction;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (double);
 - (id);
 - (void)afð!<Bù1¥°1Â0@ù
 × ;
-- (void)uousSSIDs;
+- (void)_ambiguousSSIDs;
 - (double)reason:andStatus:andLatency:andRoamData:andPingPongStats:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(retain, nonatomic) TBLocalFetchRequestDescriptor *localFetchDescriptor; // @synthesize localFetchDescriptor=_localFetchDescriptor;
 @property(retain, nonatomic) NSPredicate *localFetchPredicate; // @synthesize localFetchPredicate=_localFetchPredicate;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSDate *maxCacheAge; // @synthesize maxCacheAge=_maxCacheAge;
-@property(retain, nonatomic) TBLocalFetchRequestDescriptor *preferLocalFetchDescriptor; // @synthesize preferLocalFetchDescriptor=_preferLocalFetchDescriptor;
-@property(nonatomic) unsigned long long primaryTileKey; // @synthesize primaryTileKey=_primaryTileKey;
-@property(readonly, nonatomic) PBCodable *remoteRequest; // @synthesize remoteRequest=_remoteRequest;
-@property(readonly, nonatomic) Class remoteRequestClass;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSSet *tileItems; // @synthesize tileItems=_tileItems;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

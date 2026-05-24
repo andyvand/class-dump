@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
-
 @interface _INPBDeleteEventIntent
 {
     struct {
         unsigned int deleteAllOccurrences:1;
     } _has;
-    _Bool _deleteAllOccurrences;
-    _INPBIntentMetadata *_intentMetadata;
-    NSString *_targetEventIdentifier;
 }
 
 + (_Bool);
@@ -21,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)0;
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (id);
@@ -30,27 +25,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)reable network for clientID (clientID=%{public}@, knownNetwork=%{public}@);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)7;
 - (_Bool)dTimers;
 - (void)onship.Assistant;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) _Bool deleteAllOccurrences; // @synthesize deleteAllOccurrences=_deleteAllOccurrences;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasDeleteAllOccurrences;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetEventIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *targetEventIdentifier; // @synthesize targetEventIdentifier=_targetEventIdentifier;
 
 @end
 

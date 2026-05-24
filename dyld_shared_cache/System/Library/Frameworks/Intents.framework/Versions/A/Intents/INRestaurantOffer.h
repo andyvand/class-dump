@@ -9,37 +9,26 @@
 @interface INRestaurantOffer
 {
     NSString *_offerTitleText;
-    NSString *_offerDetailText;
-    NSString *_offerIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)initWithClient:(id)arg1 queue: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)isNetworkServiceEnabled;
+- (void)pre AJ[%@];
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)ile:(unsigned long long)arg1;
-- (void)askAttribute:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)dictionaryWithContentsOfFile:(unsigned long long)arg1;
+- (void)providePriorityOptionsForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *offerDetailText; // @synthesize offerDetailText=_offerDetailText;
-@property(copy) NSString *offerIdentifier; // @synthesize offerIdentifier=_offerIdentifier;
 @property(copy) NSString *offerTitleText; // @synthesize offerTitleText=_offerTitleText;
-@property(readonly) Class superclass;
 
 @end
 

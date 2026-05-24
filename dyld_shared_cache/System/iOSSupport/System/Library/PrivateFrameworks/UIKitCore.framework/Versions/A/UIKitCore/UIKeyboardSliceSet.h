@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableSet, NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardSliceSet
 {
     NSString *_ssid;
-    NSMutableSet *_slices;
-    struct CGRect _startRect;
-    struct CGRect _endRect;
-    double _leftWidth;
-    double _rightWidth;
-    double _mergePoint;
-    NSMutableDictionary *_controlKeys;
 }
 
-+ (id);
++ (id)ActionPipelineParameter Failed to create SyndicationAction from BlastDoorSyndicationAction data;
 - (struct CGRect);
+- (id)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double)match up.;
+- (double)lts to fetch archived records;
+- (double)f from nil IMFileTransfer.;
+- (id)knames - We had a problem archiving ignored list for key %@ error %@;
+- (id)IMDRelayUtilities;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id){;
 - (struct CGRect);
 - (void)mdj;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *controlKeys; // @synthesize controlKeys=_controlKeys;
-@property struct CGRect endRect; // @synthesize endRect=_endRect;
-@property double leftWidth; // @synthesize leftWidth=_leftWidth;
-@property double mergePoint; // @synthesize mergePoint=_mergePoint;
-@property double rightWidth; // @synthesize rightWidth=_rightWidth;
-@property(retain) NSString *sliceSetID; // @synthesize sliceSetID=_ssid;
 @property(readonly) NSMutableSet *slices; // @synthesize slices=_slices;
-@property struct CGRect startRect; // @synthesize startRect=_startRect;
 
 @end
 

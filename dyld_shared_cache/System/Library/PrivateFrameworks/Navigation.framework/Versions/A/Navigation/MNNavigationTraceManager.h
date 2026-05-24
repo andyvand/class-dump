@@ -4,27 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNTraceNetworkEvent, MNTracePlayer, MNTraceRecorder, NSString;
-@protocol GEOMotionContextProviderDelegate, MNLocationProviderDelegate, MNNavigationTraceManagerDelegate, MNVirtualGarageProviderDelegate;
+@class MNTracePlayer;
+@protocol MNNavigationTraceManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationTraceManager
 {
     MNTracePlayer *_tracePlayer;
-    MNTraceRecorder *_traceRecorder;
-    _Bool _isSimulation;
-    MNTraceNetworkEvent *_initialNetworkState;
-    long long _navigationType;
-    id <MNNavigationTraceManagerDelegate> _traceManagerDelegate;
-    id <MNLocationProviderDelegate> _locationProviderDelegate;
-    id <GEOMotionContextProviderDelegate> _motionContextProviderDelegate;
-    id <MNVirtualGarageProviderDelegate> _virtualGarageProviderDelegate;
-    NSString *_hardwareModel;
-    _Bool _isStarted;
 }
 
-+ (void);
-+ (void);
++ (void)ScrollActionDispatcher;
++ (void)AnyTabContent;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)KZ7`S
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)74V
+;
+- (void)BundleCodingKeys;
+- (void)AbsoluteCodingKeys;
+- (void);
+- (void)WidgetAuxiliaryURLPreferenceKey;
 - (id);
 - (id);
 - (void);
@@ -32,35 +45,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)FormAccessoryReader;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)#G4;
 - (id);
 - (void);
 - (void);
@@ -75,22 +67,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
+- (void)a;
 - (id);
 - (_Bool);
-- (void);
+- (void)?;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (double);
+- (double)nSource;
 - (void);
 - (void)1Â0@ù
 × ;
 - (void)MNGuidanceJunctionViewInfo"24;
-- (void)uteUpdater:willUpdateTransitForRouteIDs: /* Error: Ran out of types for this method. */;
-- (_Bool)eading:accuracy: /* Error: Ran out of types for this method. */;
-- (void)_stringByEscapingHTML;
+- (void)transitRouteUpdater:willUpdateTransitForRouteIDs: /* Error: Ran out of types for this method. */;
+- (_Bool)navigationService:didUpdateHeading:accuracy: /* Error: Ran out of types for this method. */;
+- (void)_navigation_stringByEscapingHTML;
 - (void)ServerSessionStateInfo",R,N;
 - (void)	
 ;
@@ -293,30 +285,7 @@ CREATE VIEW route_creation_actions_view AS
 - (id)ÀÂ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool assumesFullCharge;
-@property(readonly, nonatomic) _Bool coarseModeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MNLocationProviderDelegate> delegate; // @synthesize delegate=_locationProviderDelegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int headingOrientation;
-@property(readonly, nonatomic) _Bool isAuthorized;
-@property(readonly, nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
-@property(readonly, nonatomic) _Bool isTracePlayer;
-@property(nonatomic) __weak id <GEOMotionContextProviderDelegate> motionDelegate; // @synthesize motionDelegate=_motionContextProviderDelegate;
-@property(nonatomic) long long navigationType; // @synthesize navigationType=_navigationType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeScale;
 @property(nonatomic) __weak id <MNNavigationTraceManagerDelegate> traceManagerDelegate; // @synthesize traceManagerDelegate=_traceManagerDelegate;
-@property(readonly, nonatomic) MNTracePlayer *tracePlayer; // @synthesize tracePlayer=_tracePlayer;
-@property(readonly, nonatomic) MNTraceRecorder *traceRecorder; // @synthesize traceRecorder=_traceRecorder;
-@property(readonly, nonatomic) unsigned long long traceVersion;
-@property(readonly, nonatomic) unsigned long long vehiclesCount;
-@property(nonatomic) __weak id <MNVirtualGarageProviderDelegate> virtualGarageDelegate; // @synthesize virtualGarageDelegate=_virtualGarageProviderDelegate;
 
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraProfile, NSObject, NSString;
-@protocol HMDCameraRecordingSessionFactory, OS_dispatch_queue;
+@class HMDCameraProfile, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipImporter
 {
     NSString *_logIdentifier;
-    HMDCameraProfile *_cameraProfile;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDCameraRecordingSessionFactory> _factory;
 }
 
 + (id)C;
 - (id);
-- (id);
-- (id);
+- (id)setSuggestionSubtypeWhitelist:(id)arg1;
+- (id)returnContextualKeyAssetForHighlightNode:yearHighlight:sharingFilter:score:inPhotoLibrary:loggingConnection:usingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)
@@ -28,16 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMDCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDCameraRecordingSessionFactory> factory; // @synthesize factory=_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

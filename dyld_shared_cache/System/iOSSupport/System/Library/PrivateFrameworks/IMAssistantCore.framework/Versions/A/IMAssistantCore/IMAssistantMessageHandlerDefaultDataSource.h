@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSCache, NSString;
-@protocol IMAssistantAccountDataSource, IMAssistantChatDataSource, IMAssistantCommSafetyManager, IMAssistantContactsDataSource, IMAssistantCoreTelephonySubscriptionsDataSource, IMAssistantFileManager, IMFileTransferCenter, IMLocationManager;
+@class CNContactStore;
 
 @interface IMAssistantMessageHandlerDefaultDataSource
 {
@@ -16,7 +15,7 @@
 + (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -33,33 +32,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (id)ÑæÐ1â
 0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMAssistantAccountDataSource> accountDataSource;
-@property(readonly, nonatomic) id <IMAssistantChatDataSource> chatDataSource;
-@property(readonly, nonatomic) id <IMAssistantCommSafetyManager> commSafetyDataSource;
-@property(readonly, nonatomic) NSCache *contactIdentifierToUnifiedContactIdentifierCache;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) id <IMAssistantContactsDataSource> contactsDataSource;
-@property(readonly, nonatomic) id <IMAssistantCoreTelephonySubscriptionsDataSource> coreTelephonySubscriptionsDataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool didRegisterForContactStoreChangeNotifications; // @synthesize didRegisterForContactStoreChangeNotifications=_didRegisterForContactStoreChangeNotifications;
-@property(readonly, nonatomic) id <IMAssistantFileManager> fileManagerDataSource;
-@property(readonly, nonatomic) id <IMFileTransferCenter> fileTransferCenterDataSource;
-@property(readonly, nonatomic) NSCache *handleToContactIdentifierCache;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInternationalSpamFilteringEnabled;
-@property(readonly, nonatomic) id <IMLocationManager> locationManagerDataSource;
-@property(readonly, nonatomic) NSCache *spiHandleToPersonCache;
-@property(readonly) Class superclass;
 
 @end
 

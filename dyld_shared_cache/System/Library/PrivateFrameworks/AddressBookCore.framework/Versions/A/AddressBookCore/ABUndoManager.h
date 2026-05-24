@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface ABUndoManager
 {
     _Bool _inCreationUndoGrouping;
-    _Bool _checkpointSet;
-    NSMutableArray *_commandTargetsSinceCheckpoint;
 }
 
 + (id);
 + (id);
-+ (void)entifierWithProperty:contactIdentifier:groupIdentifier: /* Error: Ran out of types for this method. */;
++ (void)fetchDistributionListIdentifierWithProperty:contactIdentifier:groupIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)B;
 
 @end
 

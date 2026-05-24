@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id)rackingArea;
++ (id)_updateTrackingArea;
 - (const struct IOBluetoothDeviceSearchAttributes *);
 - (id);
 - (id);
@@ -25,12 +25,12 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int)8k;
 - (void);
-- (id);
+- (id)g;
+- (void)kJk;
 - (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 
 @end

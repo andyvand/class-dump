@@ -11,11 +11,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)2;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)esn't support GetState;
+- (id)ControlSession.%{ptr}.teardownQueue;
 - (id);
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICRadioContentReference, MPIdentifierSet;
+@class ICRadioContentReference;
 
 @interface MPCModelRadioContentReference
 {
     ICRadioContentReference *_ICRadioContentReference;
-    MPIdentifierSet *_referenceModelObjectIdentifiers;
 }
 
 + (id);
@@ -17,16 +16,15 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)initWithAppleID:password: /* Error: Ran out of types for this method. */;
+- (id)canSaveAccount:inStore: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (void)ublic}@ %2i %{public}@  â discNumber:%ld :trackNumber:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ICRadioContentReference *ICRadioContentReference; // @synthesize ICRadioContentReference=_ICRadioContentReference;
-@property(readonly, nonatomic) MPIdentifierSet *referenceModelObjectIdentifiers; // @synthesize referenceModelObjectIdentifiers=_referenceModelObjectIdentifiers;
 
 @end
 

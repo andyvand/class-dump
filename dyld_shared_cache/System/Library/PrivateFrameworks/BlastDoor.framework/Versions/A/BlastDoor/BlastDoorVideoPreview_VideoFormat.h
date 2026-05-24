@@ -11,16 +11,14 @@
     id videoPreview_VideoFormat;
 }
 
-- (id);
+- (id)oint=dd}{CGSize=dd}}24B56B60B64;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *codec;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *formatName;
 
 @end
 

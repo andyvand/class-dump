@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface NEIKEv2Payload
 {
     _Bool _isInbound;
-    NSData *_payloadSubHeader;
-    NSArray *_payloadDataVector;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)iAuthV3;
 - (id);
 - (unsigned long long);
-- (void)ntifier;
+- (void)sourceAppUniqueIdentifier;
 - (id)s:(int)arg1 ];
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRequiredFields;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) NSString *typeDescription;
 
 @end
 

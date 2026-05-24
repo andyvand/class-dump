@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObjectContext, NSObject;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICCompatibilityController
 {
     NSArray *_fakeDevices;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSManagedObjectContext *_workerContext;
 }
 
-+ (id);
++ (id)refreshAllOfNoteWithIdentifier:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -22,7 +20,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)R%;
 - (void);
 - (id);
 - (id);
@@ -32,10 +30,7 @@
 - (void)p);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *fakeDevices; // @synthesize fakeDevices=_fakeDevices;
-@property(nonatomic) _Bool fakesIncompatibleDevicesForDebugging;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSManagedObjectContext *workerContext; // @synthesize workerContext=_workerContext;
 
 @end
 

@@ -7,29 +7,21 @@
 @interface _MTLIndirectDrawArguments
 {
     unsigned long long _primitiveType;
-    unsigned long long _vertexStart;
-    unsigned long long _vertexCount;
-    unsigned long long _instanceCount;
-    unsigned long long _baseInstance;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)uffers;
+- (unsigned long long)vertexBuffers;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long baseInstance; // @synthesize baseInstance=_baseInstance;
-@property(nonatomic) unsigned long long instanceCount; // @synthesize instanceCount=_instanceCount;
 @property(nonatomic) unsigned long long primitiveType; // @synthesize primitiveType=_primitiveType;
-@property(nonatomic) unsigned long long vertexCount; // @synthesize vertexCount=_vertexCount;
-@property(nonatomic) unsigned long long vertexStart; // @synthesize vertexStart=_vertexStart;
 
 @end
 

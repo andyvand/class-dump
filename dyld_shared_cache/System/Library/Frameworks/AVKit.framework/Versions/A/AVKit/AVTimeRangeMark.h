@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AVTimeRangeMarkUIProvider;
-
 @interface AVTimeRangeMark
 {
     float _startValue;
-    float _endValue;
-    NSString *_identifer;
-    id <AVTimeRangeMarkUIProvider> _markUIProvider;
 }
 
 + (id);
@@ -25,9 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) float endValue; // @synthesize endValue=_endValue;
-@property(readonly, nonatomic) NSString *identifer; // @synthesize identifer=_identifer;
-@property(readonly, nonatomic) __weak id <AVTimeRangeMarkUIProvider> markUIProvider; // @synthesize markUIProvider=_markUIProvider;
 @property(readonly, nonatomic) float startValue; // @synthesize startValue=_startValue;
 
 @end

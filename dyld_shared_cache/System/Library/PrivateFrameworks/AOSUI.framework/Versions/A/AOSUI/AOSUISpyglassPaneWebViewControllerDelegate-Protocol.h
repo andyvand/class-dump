@@ -5,5 +5,8 @@
 //
 
 @protocol AOSUISpyglassPaneWebViewControllerDelegate
+
+@optional
+- (_Bool)�2;
 @end
 

@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.PodcastEpisodeOffer
 {
     id type;
-    id kind;
-    id hlsUrl;
-    id durationInMilliseconds;
-    id alternateAssets;
 }
 
 @end

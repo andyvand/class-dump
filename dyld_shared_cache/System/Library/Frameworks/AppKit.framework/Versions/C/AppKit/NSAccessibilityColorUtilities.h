@@ -10,18 +10,17 @@
 
 + (double);
 + (double);
-+ (double);
-+ (double);
-+ (double);
-+ (id);
-+ (double);
-+ (double);
-+ (double);
-+ (double);
-+ (double);
-+ (double);
++ (double)6;
++ (double)g algorithm was coded incorrectly;
 + (double);
 + (id);
++ (double);
++ (double);
++ (double)_offqueue_open;
++ (double)NSURLDownloadBytesReceived;
++ (double)asset-download entitlement;
++ (double)yService;
++ (double);
 + (id);
 + (id);
 + (id);
@@ -33,6 +32,7 @@
 + (id);
 + (id);
 + (id);
++ (id)6jA;
 
 @end
 

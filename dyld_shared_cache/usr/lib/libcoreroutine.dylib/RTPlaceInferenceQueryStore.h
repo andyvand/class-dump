@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)allbackStingrayRecord:(id)arg1 Successfully enrolled Fallback Stingray Record;
+- (void)adapt;
 
 @end
 

@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (unsigned long long);
-- (void);
++ (id)submenuForIndividualParticipantWithHandle:(id)arg1 forConversation:includeAddToContactsAction:includeRemoveAction: /* Error: Ran out of types for this method. */;
++ (unsigned long long) k %;
+- (void)smsComposeControllerEntryViewContentInserted;
 - (void);
 
 @end

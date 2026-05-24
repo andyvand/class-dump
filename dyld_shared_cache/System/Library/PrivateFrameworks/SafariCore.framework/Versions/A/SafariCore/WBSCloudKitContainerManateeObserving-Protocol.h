@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol WBSCloudKitContainerManateeObserving
+- (void);
 - (NSString *)o;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *containerIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType stateChangeObserver;
 @end
 

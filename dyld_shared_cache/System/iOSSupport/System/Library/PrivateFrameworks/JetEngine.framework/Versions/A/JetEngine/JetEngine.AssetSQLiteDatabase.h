@@ -7,10 +7,6 @@
 @interface JetEngine.AssetSQLiteDatabase
 {
     id url;
-    id mode;
-    id db;
-    id transactionCount;
-    id keepAlive;
 }
 
 @end

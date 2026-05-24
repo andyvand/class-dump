@@ -7,23 +7,21 @@
 @interface VNPersonsModelWriteOptions
 {
     _Bool _readOnly;
-    unsigned long long _version;
 }
 
 + (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ror">72;
+- (id)fp_isNonSandboxedConnection;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool)3DetectorNoFBBA;
+- (_Bool)VNDetectFaceRectanglesRequestPrivateRevisionANOD3DetectorNoFBBA;
 - (void)Ì([ZÑ? 2þ}Æå?Bç5vÐ?k¨û;
 
 // Remaining properties
-@property(nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

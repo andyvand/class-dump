@@ -6,31 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LCServiceLoggingParameters, NSArray, NSData;
+@class LCServiceLoggingParameters;
 
 @interface LCServiceLoggingConfiguration : SISchemaInstrumentationMessage
 {
     LCServiceLoggingParameters *_defaultParameters;
-    int _configurationVersion;
-    NSArray *_applications;
-    NSArray *_blacklistedBundleIdentifiers;
-    NSArray *_denyListedCategories;
-    struct {
-        unsigned int configurationVersion:1;
-    } _has;
-    _Bool _hasDefaultParameters;
 }
 
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)=;
 - (_Bool);
 - (unsigned long long);
 - (int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,33 +40,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)O;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)/\;
 - (int);
-- (id);
+- (id)P;
 - (id)r°!`Bù1Þð1Â0@ù
 × ;
 - (id)
 × ;
 - (id)ODDSiriSchemaODDiOSAccessibilityProperties",&,N,V_accessibility;
-- (id)tSpeechContext;
+- (id)TTSSchemaTTSClientSpeechContext;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *applications; // @synthesize applications=_applications;
-@property(copy, nonatomic) NSArray *blacklistedBundleIdentifiers; // @synthesize blacklistedBundleIdentifiers=_blacklistedBundleIdentifiers;
-@property(nonatomic) int configurationVersion; // @synthesize configurationVersion=_configurationVersion;
 @property(retain, nonatomic) LCServiceLoggingParameters *defaultParameters; // @synthesize defaultParameters=_defaultParameters;
-@property(copy, nonatomic) NSArray *denyListedCategories; // @synthesize denyListedCategories=_denyListedCategories;
-@property(nonatomic) _Bool hasConfigurationVersion;
-@property(nonatomic) _Bool hasDefaultParameters; // @synthesize hasDefaultParameters=_hasDefaultParameters;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

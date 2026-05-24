@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AKBundleInformation
 {
     NSString *_bundleIdentifier;
-    NSString *_bundleName;
-    NSString *_bundleDescription;
-    unsigned long long _bundleType;
-    NSDictionary *_otherInfo;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (unsigned long long);
 - (id);
@@ -28,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleDescription; // @synthesize bundleDescription=_bundleDescription;
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *bundleName; // @synthesize bundleName=_bundleName;
-@property(readonly, nonatomic) unsigned long long bundleType; // @synthesize bundleType=_bundleType;
-@property(readonly, copy, nonatomic) NSDictionary *otherInfo; // @synthesize otherInfo=_otherInfo;
 
 @end
 

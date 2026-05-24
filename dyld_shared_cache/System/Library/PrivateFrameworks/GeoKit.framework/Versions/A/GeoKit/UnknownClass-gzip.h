@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (gzip)
-- (id);
-- (id);
+- (id)%{public}@] Starting sync with type:%ld account:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)eybag data;
 @end
 

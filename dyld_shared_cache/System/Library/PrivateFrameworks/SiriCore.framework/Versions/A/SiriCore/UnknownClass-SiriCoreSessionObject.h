@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SiriCoreSessionObject)
-- (_Bool);
-- (_Bool);
+- (_Bool)Predicate:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)istItemChange"16^B24;
 @end
 

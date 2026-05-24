@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RFSchemaRFGClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_rfId;
-    _Bool _hasRfId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ableApp_macOS.m:50 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE    chat_identifier = ? ORDER BY chat.ROWID ASC;;
 - (id);
-- (id);
-- (id)Index:(id)arg1;
+- (id);
+- (id)actionCandidateBoostsAtIndex:(id)arg1;
 - (id)lyDetectFiredTimeOffsetInNs;
-- (void)elTotalInferenceLatencyMillis;
+- (void)draftModelTotalInferenceLatencyMillis;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRfId; // @synthesize hasRfId=_hasRfId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *rfId; // @synthesize rfId=_rfId;
 
 @end

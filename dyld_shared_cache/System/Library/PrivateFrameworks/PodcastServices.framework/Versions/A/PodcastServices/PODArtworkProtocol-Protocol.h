@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @protocol PODArtworkProtocol
+- (NSURL *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *imageData;
 @property(readonly, nonatomic) NSURL *imageUrl;
 @end
 

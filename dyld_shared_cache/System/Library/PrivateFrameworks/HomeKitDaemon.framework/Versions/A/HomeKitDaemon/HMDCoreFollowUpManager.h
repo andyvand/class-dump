@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSString;
-@protocol HMDCoreFollowUpManagerDataSource, OS_dispatch_queue;
+@protocol HMDCoreFollowUpManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreFollowUpManager
 {
     struct os_unfair_lock_s _lock;
-    id <HMDCoreFollowUpManagerDataSource> _dataSource;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSOperationQueue *_followUpOperationQueue;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
+- (void)persister;
+- (void)kMAOptionsBAAOIDNonce;
 - (id);
 - (void);
-- (id);
+- (id)PIAutoCalculatorUtils;
 - (id);
 - (id);
 - (void);
@@ -30,19 +26,10 @@ __attribute__((visibility("hidden")))
 - (void)ñ1Â0@ù
 × ;
 - (id)gistration and session creation complete;
-- (void)ationEnabledCount;
+- (void)cleanEnergyAutomationEnabledCount;
 
 // Remaining properties
 @property(readonly) id <HMDCoreFollowUpManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSOperationQueue *followUpOperationQueue; // @synthesize followUpOperationQueue=_followUpOperationQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

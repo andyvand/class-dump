@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTPNRContextInfo
 {
     _Bool _isReady;
-    NSString *_plmn;
-    NSString *_imsi;
-    NSString *_phoneNumber;
-    NSString *_phoneNumberOnSIM;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)must match receiver's media type ("%@");
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,21 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)errorWithDomain:(id)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *imsi; // @synthesize imsi=_imsi;
 @property(nonatomic) _Bool isReady; // @synthesize isReady=_isReady;
-@property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(retain, nonatomic) NSString *phoneNumberOnSIM; // @synthesize phoneNumberOnSIM=_phoneNumberOnSIM;
-@property(retain, nonatomic) NSString *plmn; // @synthesize plmn=_plmn;
 
 @end
 

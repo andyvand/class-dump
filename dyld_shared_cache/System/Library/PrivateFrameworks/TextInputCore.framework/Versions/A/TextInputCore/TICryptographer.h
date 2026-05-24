@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
+@class NSData, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TICryptographer
 {
     NSData *_deviceSalt;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_cachedRecipientName;
-    NSString *_cachedRecipientDigest;
 }
 
 + (id);
-+ (void);
++ (void)initWithPhoto:(id)arg1 query:matchInfo:keyboardLanguage: /* Error: Ran out of types for this method. */;
 + (id);
+- (id)addObserver:forKeyPath:options:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tri_majorVersionForBundleId: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)i°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cachedRecipientDigest; // @synthesize cachedRecipientDigest=_cachedRecipientDigest;
-@property(copy, nonatomic) NSString *cachedRecipientName; // @synthesize cachedRecipientName=_cachedRecipientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSData *deviceSalt;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

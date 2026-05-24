@@ -11,7 +11,6 @@
 @interface CEMSecurityCertificatePreferenceDeclaration : CEMConfigurationBase
 {
     NSString *_payloadName;
-    NSString *_payloadCertificateIdentifier;
 }
 
 + (id);
@@ -30,20 +29,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)or key:(id)arg1 ';
 - (id);
-- (void);
+- (void)hers;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadCertificateIdentifier; // @synthesize payloadCertificateIdentifier=_payloadCertificateIdentifier;
 @property(copy, nonatomic) NSString *payloadName; // @synthesize payloadName=_payloadName;
-@property(readonly) Class superclass;
 
 @end
 

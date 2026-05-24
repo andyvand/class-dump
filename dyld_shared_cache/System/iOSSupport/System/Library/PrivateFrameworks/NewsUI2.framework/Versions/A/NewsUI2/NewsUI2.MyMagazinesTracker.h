@@ -7,10 +7,6 @@
 @interface NewsUI2.MyMagazinesTracker
 {
     id tracker;
-    id viewerObserver;
-    id channelDataFactory;
-    id sectionPositionProvider;
-    id contentAvailabilityValidator;
 }
 
 @end

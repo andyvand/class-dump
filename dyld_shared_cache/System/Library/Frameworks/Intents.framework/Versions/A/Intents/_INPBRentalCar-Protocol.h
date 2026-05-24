@@ -7,18 +7,11 @@
 @class NSString;
 
 @protocol _INPBRentalCar
-- (_Bool)ma:error: /* Error: Ran out of types for this method. */;
+- (NSString *):A9 /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_Bool)_initWithIdentifier:backingStore:schema:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMake;
-@property(readonly, nonatomic) _Bool hasModel;
-@property(readonly, nonatomic) _Bool hasRentalCarDescription;
-@property(readonly, nonatomic) _Bool hasRentalCompanyName;
-@property(readonly, nonatomic) _Bool hasType;
 @property(copy, nonatomic) NSString *make;
-@property(copy, nonatomic) NSString *model;
-@property(copy, nonatomic) NSString *rentalCarDescription;
-@property(copy, nonatomic) NSString *rentalCompanyName;
-@property(copy, nonatomic) NSString *type;
 @end
 

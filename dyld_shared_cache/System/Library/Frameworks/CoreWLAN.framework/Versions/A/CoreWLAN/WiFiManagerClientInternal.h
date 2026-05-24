@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWWiFiClient, NSCountedSet, NSMutableDictionary;
+@class CWWiFiClient;
 
 __attribute__((visibility("hidden")))
 @interface WiFiManagerClientInternal
 {
     CWWiFiClient *_wifiClient;
-    NSCountedSet *_eventCounters;
-    struct __CFRunLoop *_runLoopRef;
-    struct __CFString *_runLoopMode;
-    NSMutableDictionary *_mutableDeviceMap;
-    struct WiFiManagerClientInternalCallbacks _callbacks;
 }
 
 - (void);
@@ -34,13 +29,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct WiFiManagerClientInternalCallbacks *)ountExceededCount;
+- (struct WiFiManagerClientInternalCallbacks *)_psnullRetryCountExceededCount;
 
 // Remaining properties
-@property struct WiFiManagerClientInternalCallbacks *callbacks; // @dynamic callbacks;
-@property(readonly) NSMutableDictionary *mutableDeviceMap; // @synthesize mutableDeviceMap=_mutableDeviceMap;
-@property struct __CFString *runLoopMode; // @synthesize runLoopMode=_runLoopMode;
-@property struct __CFRunLoop *runLoopRef; // @synthesize runLoopRef=_runLoopRef;
 @property(readonly) CWWiFiClient *wifiClient; // @synthesize wifiClient=_wifiClient;
 
 @end

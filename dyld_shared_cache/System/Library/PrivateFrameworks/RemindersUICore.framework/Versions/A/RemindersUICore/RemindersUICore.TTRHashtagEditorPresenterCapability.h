@@ -7,14 +7,6 @@
 @interface RemindersUICore.TTRHashtagEditorPresenterCapability
 {
     id moduleState;
-    id initialSelectedHashtagLabels;
-    id hashtagLabelCollection;
-    id selectedHashtagLabels;
-    id viewModelUpdater;
-    id interactor;
-    id deferredAction;
-    id savesOnCommit;
-    id $__lazy_storage_$_newHashtagCommittingCharacters;
 }
 
 @end

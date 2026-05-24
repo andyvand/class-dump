@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksUndoController, NSURL;
+@class BookmarksUndoController;
 @protocol BookmarkMergeDriverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkMergeDriver
 {
     BookmarksUndoController *_bookmarksUndoController;
-    _Bool _delegateImplementsShouldMergeTitles;
-    id <BookmarkMergeDriverDelegate> _delegate;
-    NSURL *_davHomeURL;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ameters {error:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *davHomeURL; // @synthesize davHomeURL=_davHomeURL;
 @property(nonatomic) __weak id <BookmarkMergeDriverDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

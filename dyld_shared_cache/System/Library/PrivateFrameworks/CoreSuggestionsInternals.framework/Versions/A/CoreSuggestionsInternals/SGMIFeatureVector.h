@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString, SGMIBiomeReducedMessageEvents, SGMailClientUtil, SGSimpleMailMessage, SGSqlEntityStore;
+@class NSString;
 
 @interface SGMIFeatureVector
 {
     NSString *_messageId;
-    SGSimpleMailMessage *_mailMessage;
-    NSMutableDictionary *_features;
-    SGMailClientUtil *_mailClientUtil;
-    SGMIBiomeReducedMessageEvents *_biomeMessageSummary;
-    NSNumber *_senderConnectionScore;
-    _Bool _filledWithInformationRetrievedThroughMaild;
-    NSString *_spotlightIdentifier;
-    _Bool _hasHashedMessageId;
-    SGSqlEntityStore *_store;
 }
 
+- (void)/Versions/A/CoreServices;
 - (void);
+- (void)CategoryBundle.dylib;
+- (void)raph;
+- (id)__objc_classlist__DATA_CONST;
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (void);
+- (_Bool)*;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)__DATA_CONST;
 - (long long);
 - (long long);
 - (long long);
@@ -42,7 +33,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)t;
 - (id);
 - (id);
 - (id);
@@ -50,11 +41,7 @@
 - (void),(¢ð¥¤¦ª ª;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasHashedMessageId; // @synthesize hasHashedMessageId=_hasHashedMessageId;
-@property(readonly, nonatomic) SGSimpleMailMessage *mailMessage; // @synthesize mailMessage=_mailMessage;
-@property(readonly, nonatomic) NSString *mailboxId;
 @property(readonly, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
-@property(readonly, nonatomic) SGSqlEntityStore *store; // @synthesize store=_store;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 @protocol CGRemotePDFPageProtocol><NSXPCProxyCreating;
 
 @interface CGRemotePDFPageProxy
@@ -14,17 +14,15 @@
 
 - (struct CGRect);
 - (id);
-- (id);
+- (id)$@�!;
 - (id);
 - (void);
-- (long long);
+- (long long)type in index;
 - (id);
 - (void)Â;
 
 // Remaining properties
 @property(readonly) NSUUID *identifier;
-@property(readonly) NSString *pageText;
-@property(readonly) long long rotation;
 
 @end
 

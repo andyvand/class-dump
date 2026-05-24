@@ -6,48 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString, VCAudioIO, VCAudioMachineLearningCoordinator, VCAudioPowerSpectrumSource;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioStreamGroupCommon : VCObject
 {
     _Bool _isMediaPriorityEnabled;
-    struct tagVCAudioStreamGroupStream *_audioStreams;
-    struct opaqueVCAudioBufferList *_sampleBuffer;
-    struct VCAudioStreamGroupSyncDestinationList _syncDestinationList;
-    double _externalLatency;
-    VCAudioIO *_audioIO;
-    int _processID;
-    _Bool _isGKVoiceChat;
-    unsigned int _preferredIOSampleRate;
-    unsigned int _preferredIOSamplesPerFrame;
-    unsigned int _audioSessionID;
-    int _deviceRole;
-    int _operatingMode;
-    unsigned int _audioType;
-    unsigned long long _spatialAudioSourceID;
-    _Bool _isMuted;
-    long long _powerSpectrumStreamToken;
-    long long _captionsToken;
-    NSString *_participantUUID;
-    unsigned char _direction;
-    unsigned int _audioChannelIndex;
-    unsigned int _maxChannelCount;
-    _Bool _isVoiceActivityEnabled;
-    void *_context;
-    unsigned int _streamGroupID;
-    CDUnknownFunctionPointerType _callback;
-    VCAudioPowerSpectrumSource *_audioPowerSpectrumSource;
-    _Bool _isPowerSpectrumEnabled;
-    unsigned int _processedFramesCount;
-    struct opaqueCMSimpleQueue *_syncDestinationChangeEventQueue;
-    struct tagVCMemoryPool *_syncDestinationChangeEventPool;
-    VCAudioMachineLearningCoordinator *_audioMachineLearningCoordinator;
-    _Bool _didRegisterAsAudioSessionObserver;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    double _audioPlayoutDelay;
-    _Bool _isVADFilteringEnabled;
 }
 
 + (_Bool);
@@ -55,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)	k;
 - (void);
 - (_Bool);
 - (void);
@@ -70,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)kA;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -95,8 +57,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void *);
+- (id)@: /* Error: Ran out of types for this method. */;
+- (void *)Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm" at line 168
+;
 - (void);
 - (id);
 - (void)PerFrame;
@@ -105,24 +68,7 @@ __attribute__((visibility("hidden")))
 - (void)ºþÿÿ¢þÿÿiþÿÿnÿÿÿòÿÿÿ;
 
 // Remaining properties
-@property unsigned int audioChannelIndex; // @synthesize audioChannelIndex=_audioChannelIndex;
-@property(readonly) VCAudioIO *audioIO; // @synthesize audioIO=_audioIO;
-@property(readonly) struct tagVCAudioStreamGroupStream *audioStreams;
 @property(nonatomic) CDUnknownFunctionPointerType callback; // @synthesize callback=_callback;
-@property(nonatomic) void *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int deviceRole; // @synthesize deviceRole=_deviceRole;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=setMuted:) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(setter=setPowerSpectrumEnabled:) _Bool isPowerSpectrumEnabled;
-@property(nonatomic, setter=setVADFilteringEnabled:) _Bool isVADFilteringEnabled; // @synthesize isVADFilteringEnabled=_isVADFilteringEnabled;
-@property(readonly, nonatomic) int operatingMode; // @synthesize operatingMode=_operatingMode;
-@property(nonatomic) unsigned long long spatialAudioSourceID; // @synthesize spatialAudioSourceID=_spatialAudioSourceID;
-@property(readonly) Class superclass;
 
 @end
 

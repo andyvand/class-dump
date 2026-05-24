@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlaybackContentContainerView, NSString, NSValue;
-@protocol AVPlaybackContentTransitioningViewDelegate;
+@class NSValue;
 
 __attribute__((visibility("hidden")))
 @interface AVPlaybackContentTransitioningView
 {
     _Bool _playingOnSecondScreen;
-    _Bool _transitionInteractive;
-    AVPlaybackContentContainerView *_activeContentView;
-    long long _transitionState;
-    long long _transitionDirection;
-    double _transitionProgress;
-    id <AVPlaybackContentTransitioningViewDelegate> _contentTransitioningDelegate;
-    AVPlaybackContentContainerView *_incomingContentView;
-    NSValue *_targetContentOffset;
-    NSString *_stateDescription;
-    long long _boundsOrContentSizeAdjustmentCount;
-    struct CGRect _frameForActiveContentView;
-    struct CGRect _frameForTransitioningContentView;
 }
 
 - (void);
@@ -36,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (long long);
+- (long long)D;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)>;
+- (id);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -49,23 +36,23 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)om.apple.SafariShared.CloudTabs;
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CAReportingClientCreateReporterIDFromSessionID;
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (double);
-- (void);
-- (id);
+- (void)_sparseQuantizedFeatures;
+- (id)EXISTS sessions (                      id integer PRIMARY KEY AUTOINCREMENT NOT NULL,             creationTimestamp real NOT NULL,                           modelHandleId integer NOT NULL,                            label integer NOT NULL,                                    covariatesLength integer NOT NULL,                         covariatesIndices blob,                                    covariatesValues blob,                                     FOREIGN KEY (modelHandleId) REFERENCES modelHandles (id)               ON DELETE CASCADE                                        );
 - (void);
 - (void);
 - (void);
@@ -76,28 +63,7 @@ __attribute__((visibility("hidden")))
 - (id)ÜØ;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPlaybackContentContainerView *activeContentView; // @synthesize activeContentView=_activeContentView;
-@property(nonatomic) long long boundsOrContentSizeAdjustmentCount; // @synthesize boundsOrContentSizeAdjustmentCount=_boundsOrContentSizeAdjustmentCount;
-@property(nonatomic) _Bool canShowStatusBarBackgroundGradientWhenStatusBarVisible;
-@property(nonatomic) __weak id <AVPlaybackContentTransitioningViewDelegate> contentTransitioningDelegate; // @synthesize contentTransitioningDelegate=_contentTransitioningDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect frameForActiveContentView; // @synthesize frameForActiveContentView=_frameForActiveContentView;
-@property(nonatomic) struct CGRect frameForTransitioningContentView; // @synthesize frameForTransitioningContentView=_frameForTransitioningContentView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVPlaybackContentContainerView *incomingContentView; // @synthesize incomingContentView=_incomingContentView;
-@property(nonatomic, getter=isPlayingOnSecondScreen) _Bool playingOnSecondScreen; // @synthesize playingOnSecondScreen=_playingOnSecondScreen;
-@property(copy, nonatomic) NSString *stateDescription; // @synthesize stateDescription=_stateDescription;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSValue *targetContentOffset; // @synthesize targetContentOffset=_targetContentOffset;
-@property(readonly, nonatomic) long long transitionDirection; // @synthesize transitionDirection=_transitionDirection;
-@property(nonatomic, getter=isTransitionInteractive) _Bool transitionInteractive; // @synthesize transitionInteractive=_transitionInteractive;
-@property(readonly, nonatomic) double transitionProgress; // @synthesize transitionProgress=_transitionProgress;
-@property(readonly, nonatomic) long long transitionState; // @synthesize transitionState=_transitionState;
-@property(nonatomic) struct CGRect videoContentFrame;
 
 @end
 

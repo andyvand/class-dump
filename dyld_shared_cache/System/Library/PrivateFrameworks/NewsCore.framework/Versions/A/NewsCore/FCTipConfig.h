@@ -4,73 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCTipConfig
 {
     long long _contentShortcutsBubbleTipPresentationsQuiescenceInterval;
-    long long _contentShortcutsOnboardingTipMaxPresentationCount;
-    long long _contentShortcutsOnboardingTipQuiescenceInterval;
-    NSString *_contentShortcutsOnboardingTipTitle;
-    NSString *_contentShortcutsOnboardingTipBody;
-    NSString *_contentShortcutsOnboardingTipIconUrl;
-    long long _maxLocalHubLocationsBubbleTipPresentations;
-    long long _localHubLocationsBubbleTipPresentationsQuiescenceInterval;
-    NSString *_localHubLocationsBubbleTipTitle;
-    NSString *_localHubLocationsBubbleTipBody;
-    NSString *_localHubLocationsBubbleTipIconUrl;
-    long long _maxLocalHubAutoFollowEnticeBubbleTipPresentations;
-    long long _localHubAutoFollowEnticeBubbleTipPresentationsQuiescenceInterval;
-    NSString *_localHubAutoFollowEnticeBubbleTipTitle;
-    NSString *_localHubAutoFollowEnticeBubbleTipBody;
-    NSString *_localHubAutoFollowEnticeBubbleTipIconUrl;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)Tz;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (void)edBaselineImpressionValue;
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id)de.prototype.mf_traverseNextNodeStayingWithin=function(t){let e=this.firstChild;if(e)return e;if(this.isSameNode(t))return undefined;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling},Node.prototype.mf_traverseNextSiblingStayingWithin=function(t){let e;if(this.isSameNode(t))return e;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling},Node.prototype.mf_topmostContainingNodeWithNameInArray=function(t){let e,n=this;for(;n&&!n.mf_isBody();)-1!==t.indexOf(n.nodeName.toLowerCase())&&(e=n),n=n.parentNode;return e},Node.prototype.mf_containsOnlySelectionMarkers=function(){let t=!1;if(this.firstChild){let e=this.firstChild;for(t=!0;e;)e instanceof HTMLElement&&"span"===e.tagName.toLowerCase()&&e.className===MFHtmlTemporaryEditingElement&&!e.firstChild||(t=!1),e=t?e.nextSibling:(id)arg1 undefined}else t=!0;return t},Node.prototype.mf_isDescendantOfNode=function(t){let e=this,n=!1;for(;!n&&e;)e===t&&(n=!0),e=e.parentNode;return n},Node.prototype.mf_containingBlockQuote=function(){let t=this;for(;t&&!t.mf_quoteLevelDelta();)t=t.parentNode;return t},Node.prototype.mf_isAtBeginningOfContainerNode=function(t){let e=t;for(;e&&e!==this;)e=e.firstChild;return!!e},Node.prototype.mf_isAtEndOfContainerNode=function(t){let e=t;for(;e&&e!==this;)e=e.lastChild;return!!e},Node.prototype.mf_nextSiblingOrAunt=function(){let t,e=this;for(;!t&&e;)(t=e.nextSibling)||(e=e.parentNode);return t},Node.prototype.mf_expectsNewline=function(){return this instanceof HTMLParagraphElement||this instanceof HTMLDivElement||this instanceof HTMLTableRowElement},Node.prototype.mf_isEmptyNode=function(){return this.nodeType===Node.TEXT_NODE&&0==this.nodeValue.trim().length},Node.prototype.mf_highestContainingBlockQuote=function(){let t,e=this.mf_containingBlockQuote();for(;e&&(t=e.parentNode.mf_containingBlockQuote());)e=t;return e},Node.prototype.mf_firstDescendantBlockQuote=function(){let t;if(this.mf_quoteLevelDelta()>0)t=this;else{let e,n=this.childNodes,i=n.length;for(e=0;!t&&e<i;e++)t=n.item(e).mf_firstDescendantBlockQuote()}return t},Node.prototype.mf_blockNodeAncestor=function(){let t=this;for(;!isBlockLevelNode(t)&&"li"!==t.nodeName.toLowerCase();)t=t.parentNode;return t},Node.prototype.mf_findElement=function(t,e,n){t=t.toLowerCase();let i,o,r;if(this instanceof HTMLDocument?(r=this,o=this.body):(r=this.ownerDocument,o=this),o){let s,a=r.createNodeIterator(o,NodeFilter.SHOW_ELEMENT);for(;!i&&(s=a.nextNode());){let o=!0;t&&!(o=o&&s.nodeName.toLowerCase()===t)||(e&&!(o=o&&s.className===e)||n&&!(o=o&&s.id===n)||o&&(i=s))}}return i},Node.prototype.mf_attachmentIdentifier=function(){return this instanceof HTMLAttachmentElement?this.uniqueIdentifier:this instanceof HTMLImageElement?this.src.startsWith("http")?undefined:this.attachmentIdentifier:document.isInlineGenmojiEnabled&&this instanceof HTMLSourceElement&&this.parentElement instanceof HTMLPictureElement?this.attachmentIdentifier:undefined},Node.prototype.mf_childrenRequirePlainTextConversion=function(){for(let t of this.childNodes)if(!(t instanceof Text||t.mf_attachmentIdentifier()!==undefined||t instanceof HTMLBRElement))return!0;return!1},Node.prototype.mf_isRichLinkPreview=function(){return this instanceof HTMLImageElement&&this.className.includes(MFLPRichLinkClassPrefix)},Node.prototype.hasNoSignificantContents=function(){let t=!1,e=this instanceof Text?this:this.firstChild,n=!1;for(;e&&!t;)({nodeIsSignificantContent:t,mayContainSignificantContent:n}=nodeIsSignificantContent(e)),t||(e=n?e._mail_traverseNextNodeStayingWithin(this):e._mail_traverseNextSiblingStayingWithin(this));return!t},Node.prototype._mail_traverseNextNodeStayingWithin=function(t){let e=this.firstChild;if(e)return e;if(this.isSameNode(t))return null;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling},Node.prototype._mail_traverseNextSiblingStayingWithin=function(t){let e=null;if(this.isSameNode(t))return e;if(e=this.nextSibling)return e;for(e=this;e&&!e.nextSibling&&(!t||!e.parentNode.isSameNode(t));)e=e.parentNode;return e.nextSibling};const nodeIsSignificantContent=function(t){let e=t.nodeName;return"SPAN"===e||"DIV"===e||"FONT"===e||"STYLE"===e||"P"===e||"PRE"===e?{nodeIsSignificantContent:!1,mayContainSignificantContent:!0}:"BR"===e?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:t instanceof Text&&(0===t.length||t.data.containsOnlyWhitespace)?{nodeIsSignificantContent:!1,mayContainSignificantContent:!1}:{nodeIsSignificantContent:!0,mayContainSignificantContent:!1}}; /* Error: Ran out of types for this method. */;
+- (void)trackFinishedBaselineImpressionValue;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentShortcutsBubbleTipPresentationsQuiescenceInterval; // @synthesize contentShortcutsBubbleTipPresentationsQuiescenceInterval=_contentShortcutsBubbleTipPresentationsQuiescenceInterval;
-@property(copy, nonatomic) NSString *contentShortcutsOnboardingTipBody; // @synthesize contentShortcutsOnboardingTipBody=_contentShortcutsOnboardingTipBody;
-@property(copy, nonatomic) NSString *contentShortcutsOnboardingTipIconUrl; // @synthesize contentShortcutsOnboardingTipIconUrl=_contentShortcutsOnboardingTipIconUrl;
-@property(readonly, nonatomic) long long contentShortcutsOnboardingTipMaxPresentationCount; // @synthesize contentShortcutsOnboardingTipMaxPresentationCount=_contentShortcutsOnboardingTipMaxPresentationCount;
-@property(readonly, nonatomic) long long contentShortcutsOnboardingTipQuiescenceInterval; // @synthesize contentShortcutsOnboardingTipQuiescenceInterval=_contentShortcutsOnboardingTipQuiescenceInterval;
-@property(copy, nonatomic) NSString *contentShortcutsOnboardingTipTitle; // @synthesize contentShortcutsOnboardingTipTitle=_contentShortcutsOnboardingTipTitle;
-@property(copy, nonatomic) NSString *localHubAutoFollowEnticeBubbleTipBody; // @synthesize localHubAutoFollowEnticeBubbleTipBody=_localHubAutoFollowEnticeBubbleTipBody;
-@property(copy, nonatomic) NSString *localHubAutoFollowEnticeBubbleTipIconUrl; // @synthesize localHubAutoFollowEnticeBubbleTipIconUrl=_localHubAutoFollowEnticeBubbleTipIconUrl;
-@property(readonly, nonatomic) long long localHubAutoFollowEnticeBubbleTipPresentationsQuiescenceInterval; // @synthesize localHubAutoFollowEnticeBubbleTipPresentationsQuiescenceInterval=_localHubAutoFollowEnticeBubbleTipPresentationsQuiescenceInterval;
-@property(copy, nonatomic) NSString *localHubAutoFollowEnticeBubbleTipTitle; // @synthesize localHubAutoFollowEnticeBubbleTipTitle=_localHubAutoFollowEnticeBubbleTipTitle;
-@property(copy, nonatomic) NSString *localHubLocationsBubbleTipBody; // @synthesize localHubLocationsBubbleTipBody=_localHubLocationsBubbleTipBody;
-@property(copy, nonatomic) NSString *localHubLocationsBubbleTipIconUrl; // @synthesize localHubLocationsBubbleTipIconUrl=_localHubLocationsBubbleTipIconUrl;
-@property(readonly, nonatomic) long long localHubLocationsBubbleTipPresentationsQuiescenceInterval; // @synthesize localHubLocationsBubbleTipPresentationsQuiescenceInterval=_localHubLocationsBubbleTipPresentationsQuiescenceInterval;
-@property(copy, nonatomic) NSString *localHubLocationsBubbleTipTitle; // @synthesize localHubLocationsBubbleTipTitle=_localHubLocationsBubbleTipTitle;
-@property(readonly, nonatomic) long long maxLocalHubAutoFollowEnticeBubbleTipPresentations; // @synthesize maxLocalHubAutoFollowEnticeBubbleTipPresentations=_maxLocalHubAutoFollowEnticeBubbleTipPresentations;
-@property(readonly, nonatomic) long long maxLocalHubLocationsBubbleTipPresentations; // @synthesize maxLocalHubLocationsBubbleTipPresentations=_maxLocalHubLocationsBubbleTipPresentations;
 
 @end
 

@@ -4,53 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSButtonCell, NSImageView, NSMatrix, NSString, NSTableView, NSTextField, NSTouchBar, NSWindow, iCloudTouchBarController;
+@class NSWindow, iCloudTouchBarController;
 
 __attribute__((visibility("hidden")))
 @interface iCloudFollowUpSuggestion
 {
     NSWindow *_suggestionSheet;
-    NSTableView *_emailAddressTable;
-    NSButton *_continueButton;
-    NSButton *_cancelButton;
-    NSTextField *_titleText;
-    NSTextField *_informativeText;
-    NSImageView *_iconView;
-    NSMatrix *_radioMatrix;
-    NSButtonCell *_firstActionRadioButton;
-    NSButtonCell *_secondActionRadioButton;
-    NSButtonCell *_thirdActionRadionButton;
-    CDUnknownBlockType _completionHandler;
-    NSWindow *_parentWindow;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)(K�2;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id)2;
 - (id);
 - (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)C;
+- (void)@
+;
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -65,27 +53,6 @@ __attribute__((visibility("hidden")))
 - (id)thCompletionHandler for service %@ returned with dictionary %@;
 
 // Remaining properties
-@property __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property __weak NSButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak NSTableView *emailAddressTable; // @synthesize emailAddressTable=_emailAddressTable;
-@property __weak NSButtonCell *firstActionRadioButton; // @synthesize firstActionRadioButton=_firstActionRadioButton;
-@property(readonly) unsigned long long hash;
-@property __weak NSImageView *iconView; // @synthesize iconView=_iconView;
-@property __weak NSTextField *informativeText; // @synthesize informativeText=_informativeText;
-@property NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property __weak NSMatrix *radioMatrix; // @synthesize radioMatrix=_radioMatrix;
-@property __weak NSButtonCell *secondActionRadioButton; // @synthesize secondActionRadioButton=_secondActionRadioButton;
-@property(retain) NSWindow *suggestionSheet; // @synthesize suggestionSheet=_suggestionSheet;
-@property(readonly) Class superclass;
-@property __weak NSButtonCell *thirdActionRadionButton; // @synthesize thirdActionRadionButton=_thirdActionRadionButton;
-@property __weak NSTextField *titleText; // @synthesize titleText=_titleText;
-@property(readonly) NSTouchBar *touchBar;
 @property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end

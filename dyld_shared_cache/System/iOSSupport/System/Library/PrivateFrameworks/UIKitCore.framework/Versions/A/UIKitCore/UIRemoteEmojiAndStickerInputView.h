@@ -6,47 +6,41 @@
 
 #import <UIKitCore/UIKBViewControllerBackedKeyView.h>
 
-@class NSString, STKEmojiAndStickerCollectionViewController, TUIEmojiSearchInputViewController, TUIEmojiSearchTextField, UIKBTree;
+@class STKEmojiAndStickerCollectionViewController;
 
 __attribute__((visibility("hidden")))
 @interface UIRemoteEmojiAndStickerInputView : UIKBViewControllerBackedKeyView
 {
     STKEmojiAndStickerCollectionViewController *_viewController;
-    UIKBTree *_keyplane;
-    _Bool _isInSearchPopover;
-    _Bool _focusingCollectionView;
-    id _emojiKeyManager;
-    TUIEmojiSearchInputViewController *_emojiSearchInputViewController;
-    TUIEmojiSearchTextField *_emojiSearchField;
 }
 
-- (void);
-- (void);
+- (void)_beginNicknameUpload: /* Error: Ran out of types for this method. */;
+- (void)_attemptToMigrateACAccountEnablementOnce;
 - (_Bool);
 - (void);
+- (void)X;
 - (void);
 - (void);
+- (_Bool)uld reconnect flag = YES);
+- (id)ade/routing check. Is the account and service set correctly?;
+- (_Bool)r chat match for groupID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)e:(id)arg1 %@  does not support a database;
+- (id)h (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)ritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)ding nickname version to %@;
+- (void)moved from list %@;
+- (void)@;
+- (void)nsitionedList doesn't contain nickname %@;
+- (void)ture is not enabled;
 - (void);
-- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)ber",C,N,V_payloadDynamicPowerStep;
 - (void)Ð!ÔGùÑa°1Â0@ù
 × ;
 - (id)
 × ;
-- (void)t:(id)arg1;
-- (void):(id)arg1;
+- (void)driver:(id)arg1 shouldBeginAtPoint: /* Error: Ran out of types for this method. */;
+- (void)_setAlwaysAllowsEdgeAttached:(id)arg1;
 - (void);
 - (void);
 - (id)Hò[;
@@ -54,18 +48,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)PZh;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak id emojiKeyManager; // @synthesize emojiKeyManager=_emojiKeyManager;
-@property(retain, nonatomic) TUIEmojiSearchTextField *emojiSearchField; // @synthesize emojiSearchField=_emojiSearchField;
-@property(retain, nonatomic) TUIEmojiSearchInputViewController *emojiSearchInputViewController; // @synthesize emojiSearchInputViewController=_emojiSearchInputViewController;
-@property(nonatomic) _Bool focusingCollectionView; // @synthesize focusingCollectionView=_focusingCollectionView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInSearchPopover; // @synthesize isInSearchPopover=_isInSearchPopover;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBLaunchTracker, RBLaunchdJobManager;
-@protocol RBLaunchManagerDelegate;
+@class RBLaunchdJobManager;
 
 @interface RBLaunchManager
 {
     RBLaunchdJobManager *_jobManager;
-    id <RBLaunchManagerDelegate> _delegate;
-    RBLaunchTracker *_launchTracker;
 }
 
 - (id);

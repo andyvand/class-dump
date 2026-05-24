@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBRFMonogramImage
 {
     int _image_style;
-    NSString *_letters;
 }
 
 - (int);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool);
+- (void)relationshipName;
+- (id)queryForSuggestionsWithTypes:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)y string:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)"b1"separatorStyle"b1};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *letters; // @synthesize letters=_letters;
-@property(readonly) Class superclass;
 
 @end
 

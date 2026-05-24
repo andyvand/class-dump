@@ -7,14 +7,12 @@
 @interface ContactsPersistence.CNCDMeCardMacBuddyImporter
 {
     id context;
-    id dict;
-    id contact;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

@@ -10,7 +10,7 @@
 
 + (void);
 + (_Bool);
-- (id);
+- (id);
 - (void)Score: /* Error: Ran out of types for this method. */;
 
 @end

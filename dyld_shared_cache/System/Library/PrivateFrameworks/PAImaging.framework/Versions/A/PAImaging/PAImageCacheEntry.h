@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAColorProfile, NSDictionary, NSError, NSString, NSURL, PA2DBuffer, PAImageCacheEntrySharedValid, PAImageRequest;
+@class PAImageCacheEntrySharedValid;
 
 @interface PAImageCacheEntry
 {
     PAImageCacheEntrySharedValid *_sharedValid;
-    PAImageRequest *_imageRequest;
-    id _cacheKey;
-    id _invalidationKey;
-    NSError *_error;
-    PA2DBuffer *_buffer;
-    _Bool _scaled;
-    NSDictionary *_cgImageProperties;
-    IPAColorProfile *_colorProfile;
-    int _format;
-    long long _masterToRasterOrientation;
-    long long _rasterToDisplayOrientation;
-    unsigned long long _requestedSubsampleFactor;
-    _Bool _endAccessOnDealloc;
-    NSURL *_imageURL;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)k>;
 - (void);
 - (void);
 - (unsigned long long);
@@ -60,27 +46,7 @@
 - (void)J¿;
 
 // Remaining properties
-@property(readonly) PA2DBuffer *buffer;
-@property(readonly) id cacheKey;
-@property(readonly) NSDictionary *cgImageProperties;
-@property(readonly) IPAColorProfile *colorProfile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool endAccessOnDealloc; // @synthesize endAccessOnDealloc=_endAccessOnDealloc;
-@property int format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(readonly) PAImageRequest *imageRequest;
-@property(retain, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
 @property(retain) id invalidationKey; // @synthesize invalidationKey=_invalidationKey;
-@property long long masterToRasterOrientation; // @synthesize masterToRasterOrientation=_masterToRasterOrientation;
-@property long long rasterToDisplayOrientation; // @synthesize rasterToDisplayOrientation=_rasterToDisplayOrientation;
-@property(readonly) unsigned long long requestedSubsampleFactor;
-@property(readonly) _Bool scaled;
-@property(readonly) struct PFIntSize_st size;
-@property(readonly) Class superclass;
 
 @end
 

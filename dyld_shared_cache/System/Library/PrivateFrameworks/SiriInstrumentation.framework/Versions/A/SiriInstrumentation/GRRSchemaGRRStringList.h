@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface GRRSchemaGRRStringList : SISchemaInstrumentationMessage
 {
@@ -20,10 +20,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)epStarted";
@@ -32,7 +32,6 @@
 - (void)Çÿìê;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *stringNames; // @synthesize stringNames=_stringNames;
 
 @end

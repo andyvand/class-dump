@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPass, PKPassView;
+@class PKPass;
 
 @interface PKPassTextFieldCell
 {
@@ -14,13 +14,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly) PKPass *pass;
-@property(readonly) PKPassView *passView;
 
 @end
 

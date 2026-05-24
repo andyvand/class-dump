@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPacketTracker, NSNumber, NSString;
+@class NSString;
 
 @interface IMBatchMessageTrackingContext
 {
     NSString *_batchIdentifier;
-    IMPacketTracker *_messageTracker;
-    long long _totalMessagesExpected;
-    NSNumber *_batchNumber;
-    NSNumber *_totalBatchCount;
 }
 
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)%`;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)q ;
 - (id);
 - (void)te delay;
 - (_Bool)ttachment as synced, to skip to;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *batchIdentifier; // @synthesize batchIdentifier=_batchIdentifier;
-@property(readonly, nonatomic) NSNumber *batchNumber; // @synthesize batchNumber=_batchNumber;
-@property(retain, nonatomic) IMPacketTracker *messageTracker; // @synthesize messageTracker=_messageTracker;
-@property(readonly, nonatomic) NSNumber *totalBatchCount; // @synthesize totalBatchCount=_totalBatchCount;
-@property(nonatomic) long long totalMessagesExpected; // @synthesize totalMessagesExpected=_totalMessagesExpected;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CKTranscriptActionButtonCellDelegate
+- (void)ICSystemPaperTextAttachmentNotesEditorBridgeWorkaround;
 @end
 

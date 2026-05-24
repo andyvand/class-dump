@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackgroundOperationManager, NSString;
-@protocol HMDAccessoryPairingAuditorDataSource, HMDBackgroundSystemTaskSchedulerInterfacing;
+@class HMDBackgroundOperationManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryPairingAuditor
 {
     HMDBackgroundOperationManager *_operationManager;
-    id <HMDAccessoryPairingAuditorDataSource> _dataSource;
-    id <HMDBackgroundSystemTaskSchedulerInterfacing> _scheduler;
 }
 
 + (id)C;
 - (_Bool);
-- (id);
+- (id)}l;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -31,21 +28,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)CISmartBlackAndWhite;
 - (void)%@ for participant accessory uuids:%@ /* Error: Ran out of types for this method. */;
 - (void)ÛÓ1T!=;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDAccessoryPairingAuditorDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak HMDBackgroundOperationManager *operationManager; // @synthesize operationManager=_operationManager;
-@property(readonly, nonatomic) id <HMDBackgroundSystemTaskSchedulerInterfacing> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

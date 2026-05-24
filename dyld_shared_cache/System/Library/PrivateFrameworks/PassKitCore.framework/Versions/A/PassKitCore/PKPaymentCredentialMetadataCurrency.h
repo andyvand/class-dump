@@ -13,13 +13,13 @@
     NSString *_currencyCode;
 }
 
-- (_Bool);
+- (_Bool)Jqk;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setHasTcpiRttcur:(id)arg1;
 - (id)NSDictionary"@"NSError">28;
-- (id):(id)arg1;
-- (void)ER_PAYMENT_UNSUPPORTED_PAYMENT_METHOD_ERROR_TITLE;
-- (id)ption;
+- (id)setApplicationData:(id)arg1;
+- (void)PEER_PAYMENT_UNSUPPORTED_PAYMENT_METHOD_ERROR_TITLE;
+- (id)usageDescription;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;

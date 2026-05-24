@@ -9,9 +9,6 @@
 @interface CHSTimelineReloadRequest
 {
     _Bool _allowCostOverride;
-    NSString *_kind;
-    NSString *_extensionBundleIdentifier;
-    NSString *_reason;
 }
 
 + (id);
@@ -23,15 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowCostOverride; // @synthesize allowCostOverride=_allowCostOverride;
-@property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
 @property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.DefaultHomeStorage
 {
     id $defaultActor;
-    id home;
-    id logID;
 }
 
 @end

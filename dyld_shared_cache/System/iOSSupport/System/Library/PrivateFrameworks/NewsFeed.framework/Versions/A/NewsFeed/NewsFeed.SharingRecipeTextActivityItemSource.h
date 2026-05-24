@@ -7,9 +7,6 @@
 @interface NewsFeed.SharingRecipeTextActivityItemSource
 {
     id shareURL;
-    id title;
-    id publisherName;
-    id shortExcerpt;
 }
 
 - (id);

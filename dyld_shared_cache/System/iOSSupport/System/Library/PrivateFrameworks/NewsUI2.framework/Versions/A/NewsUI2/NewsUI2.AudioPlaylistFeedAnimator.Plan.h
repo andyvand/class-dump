@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedAnimator.Plan
 {
     id beforeSnapshot;
-    id afterSnapshot;
-    id context;
-    id items;
 }
 
 @end

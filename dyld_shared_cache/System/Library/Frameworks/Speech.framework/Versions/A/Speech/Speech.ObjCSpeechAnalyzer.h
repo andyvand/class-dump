@@ -7,13 +7,6 @@
 @interface Speech.ObjCSpeechAnalyzer
 {
     id queue;
-    id inputStreamBuilder;
-    id normalizedTranscriber;
-    id contextualizedTranscriber;
-    id endpointDetector;
-    id speechAnalyzer;
-    id languageDetector;
-    id speechDetector;
 }
 
 + (void);

@@ -9,19 +9,12 @@
 @interface AVCCaptionsConfig
 {
     NSLocale *_locale;
-    unsigned char _taskHint;
-    unsigned char _usage;
-    _Bool _explicitLanguageFilterEnabled;
-    unsigned char _callType;
-    _Bool _formatForNewLinesEnabled;
-    _Bool _languageDetectorEnabled;
-    unsigned long long _languageDetectorReportingFrequency;
 }
 
 + (unsigned char);
-+ (unsigned char);
++ (unsigned char);
 + (id);
-+ (id);
++ (id)R";
 + (id);
 + (id);
 + (unsigned char);
@@ -31,30 +24,23 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned char);
+- (unsigned char)��;
 - (void);
 - (void);
 - (id);
 - (unsigned char);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned char);
 - (void)à¤êÁï&;
 
 // Remaining properties
-@property(nonatomic) unsigned char callType; // @synthesize callType=_callType;
-@property(nonatomic, getter=isExplicitLanguageFilterEnabled) _Bool explicitLanguageFilterEnabled; // @synthesize explicitLanguageFilterEnabled=_explicitLanguageFilterEnabled;
-@property(nonatomic, getter=isFormatForNewLinesEnabled) _Bool formatForNewLinesEnabled; // @synthesize formatForNewLinesEnabled=_formatForNewLinesEnabled;
-@property(nonatomic) _Bool languageDetectorEnabled; // @synthesize languageDetectorEnabled=_languageDetectorEnabled;
-@property(nonatomic) unsigned long long languageDetectorReportingFrequency; // @synthesize languageDetectorReportingFrequency=_languageDetectorReportingFrequency;
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) unsigned char taskHint; // @synthesize taskHint=_taskHint;
-@property(nonatomic) unsigned char usage; // @synthesize usage=_usage;
 
 @end
 

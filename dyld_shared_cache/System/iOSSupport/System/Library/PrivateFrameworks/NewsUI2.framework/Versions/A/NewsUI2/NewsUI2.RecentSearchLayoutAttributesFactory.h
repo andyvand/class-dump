@@ -7,7 +7,6 @@
 @interface NewsUI2.RecentSearchLayoutAttributesFactory
 {
     id styler;
-    id cache;
 }
 
 @end

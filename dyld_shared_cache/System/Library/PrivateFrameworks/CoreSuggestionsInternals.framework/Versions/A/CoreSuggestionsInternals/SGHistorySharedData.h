@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSMutableArray, NSMutableSet, NSUbiquitousKeyValueStore;
+@class NSMutableSet;
 
 @interface SGHistorySharedData
 {
     NSMutableSet *confirmedEventHashes;
-    NSMutableSet *confirmedEventWithoutTimestampHashes;
-    NSMutableSet *rejectedEventHashes;
-    NSMutableSet *confirmedReminderHashes;
-    NSMutableSet *rejectedReminderHashes;
-    NSMutableSet *contactHashes;
-    NSMutableSet *confirmedEventFieldHashes;
-    NSMutableSet *confirmedEventWithoutTimestampFieldHashes;
-    NSMutableSet *storageDetailHashes;
-    NSMutableSet *dontUpdate;
-    NSArray *resetInfo;
-    NSMutableArray *observers;
-    NSData *cachedSalt;
-    NSData *cachedSaltLegacyManatee;
-    NSUbiquitousKeyValueStore *migrateFromStore;
-    _Bool isMigrating;
-    NSDate *lastMigrationAttempt;
 }
 
 - (void)z4;

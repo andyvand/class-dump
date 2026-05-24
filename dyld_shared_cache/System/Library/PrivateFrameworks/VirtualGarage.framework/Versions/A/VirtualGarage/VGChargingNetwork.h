@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VGChargingNetwork
 {
     unsigned long long _globalBrandID;
-    NSString *_name;
 }
 
 + (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)q;
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
-- (void);
+- (void)containsString:(id)arg1;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long globalBrandID; // @synthesize globalBrandID=_globalBrandID;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

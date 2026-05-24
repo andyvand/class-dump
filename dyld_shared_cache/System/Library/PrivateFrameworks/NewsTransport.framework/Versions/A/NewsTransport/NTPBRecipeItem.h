@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBRecipeRecord;
-
 @interface NTPBRecipeItem
 {
     long long _order;
-    NTPBRecipeRecord *_recipeRecord;
-    NSString *_surfacedBy;
-    CDStruct_6432192c _has;
 }
 
+- (id)incrementByTime: /* Error: Ran out of types for this method. */;
+- (void)headerTitleOverContentColor;
+- (void)handleFailureInFunction:(id)arg1 file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)createCGImageWithTargetSize:contentMode: /* Error: Ran out of types for this method. */;
+- (_Bool)assetsSectionLayoutSpec;
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (void);
+- (unsigned long long)formanceDiagnosticsSettings",&,N,V_performanceDiagnosticsSettings;
+- (_Bool)accepted to connect to access point.;
+- (_Bool)rankedAllSubscribedTagIDs;
+- (void);
 - (id);
+- (id);
 - (long long);
 - (void)V_isPaidSubscriberFromNews;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOrder;
 @property(readonly, nonatomic) _Bool hasRecipeRecord;
-@property(readonly, nonatomic) _Bool hasSurfacedBy;
-@property(nonatomic) long long order; // @synthesize order=_order;
-@property(retain, nonatomic) NTPBRecipeRecord *recipeRecord; // @synthesize recipeRecord=_recipeRecord;
-@property(retain, nonatomic) NSString *surfacedBy; // @synthesize surfacedBy=_surfacedBy;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSLayoutConstraint, UIColor, UIImageView, UILabel, UIView;
+@class UIImageView;
 
 @interface EKDayOccurrenceTravelTimeView
 {
     _Bool _animatingAlpha;
-    UIColor *_elementColor;
-    UIColor *_lineColor;
-    UIColor *_colorBarColor;
-    long long _routingMode;
-    UIImageView *_travelTimeIcon;
-    UILabel *_travelTimeLabel;
-    UIView *_horizontalLineView;
-    UIView *_colorBarView;
-    NSLayoutConstraint *_travelTimeLabelToTrailingEdgeConstraint;
 }
 
 + (double);
@@ -26,46 +17,36 @@
 - (id);
 - (void);
 - (void);
+- (void)8t&s;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))s;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (double);
+- (void);
+- (id)b%s;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)z;
+- (void)B{;
+- (id);
+- (void)`w;
+- (long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
+- (void)QaL U;
+- (id):(struct CGRect)arg1 8@16i24@28@36@44B52;
 - (void);
 - (id)0@ù
 × ;
-- (void)ttonConfiguration;
+- (void)plainButtonConfiguration;
 
 // Remaining properties
-@property _Bool animatingAlpha; // @synthesize animatingAlpha=_animatingAlpha;
-@property(retain, nonatomic) UIColor *colorBarColor; // @synthesize colorBarColor=_colorBarColor;
-@property(retain) UIView *colorBarView; // @synthesize colorBarView=_colorBarView;
-@property(retain, nonatomic) UIColor *elementColor; // @synthesize elementColor=_elementColor;
-@property(retain) UIView *horizontalLineView; // @synthesize horizontalLineView=_horizontalLineView;
-@property(retain, nonatomic) UIColor *lineColor; // @synthesize lineColor=_lineColor;
-@property(nonatomic) long long routingMode; // @synthesize routingMode=_routingMode;
 @property(retain) UIImageView *travelTimeIcon; // @synthesize travelTimeIcon=_travelTimeIcon;
-@property(retain) UILabel *travelTimeLabel; // @synthesize travelTimeLabel=_travelTimeLabel;
-@property(retain) NSLayoutConstraint *travelTimeLabelToTrailingEdgeConstraint; // @synthesize travelTimeLabelToTrailingEdgeConstraint=_travelTimeLabelToTrailingEdgeConstraint;
-@property(copy, nonatomic) NSAttributedString *travelTimeString;
 
 @end
 

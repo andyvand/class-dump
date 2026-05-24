@@ -7,13 +7,11 @@
 @interface CTLazuliOperationStatus
 {
     long long _registrationState;
-    long long _switchState;
-    long long _cellularDataRequirement;
 }
 
-+ (_Bool);
++ (_Bool)meWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
+- (void));
 - (void);
 - (_Bool);
 - (id);
@@ -22,14 +20,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_performInvalidationBlocks:(id)arg1;
 - (long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long cellularDataRequirement; // @synthesize cellularDataRequirement=_cellularDataRequirement;
 @property(nonatomic) long long registrationState; // @synthesize registrationState=_registrationState;
-@property(nonatomic) long long switchState; // @synthesize switchState=_switchState;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface TIUserModelDataStoreEntry
 {
     NSDate *_timestamp;
-    NSString *_key;
-    NSString *_inputMode;
-    NSNumber *_value;
-    NSNumber *_secondaryValue;
-    NSNumber *_realValue;
-    NSData *_properties;
 }
 
 - (void);
@@ -23,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)I16@0:(id)arg1 8;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)j;
 - (id);
 - (void)&M0;
 - (void)¾
@@ -35,16 +29,10 @@
 ;
 - (void)
 ;
-- (id)lly;
+- (id)methodically;
 
 // Remaining properties
-@property(retain) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(retain) NSString *key; // @synthesize key=_key;
-@property(retain) NSData *properties; // @synthesize properties=_properties;
-@property(retain) NSNumber *realValue; // @synthesize realValue=_realValue;
-@property(retain) NSNumber *secondaryValue; // @synthesize secondaryValue=_secondaryValue;
 @property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain) NSNumber *value; // @synthesize value=_value;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Foundation_Extensions)
-- (id);
+- (id)!D9	;
 @end
 

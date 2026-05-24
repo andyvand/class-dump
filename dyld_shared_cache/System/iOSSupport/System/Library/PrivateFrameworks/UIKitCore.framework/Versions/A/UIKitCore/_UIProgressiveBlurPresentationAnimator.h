@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIProgressiveBlurPresentationAnimator
 {
     _Bool _presenting;
 }
 
-+ (id);
-+ (id);
++ (id)ationBehavior:%ld /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
-- (id);
+- (id)16@"NSDictionary"24;
 - (double);
 - (void)_setDragDataOwner:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isPresenting) _Bool presenting; // @synthesize presenting=_presenting;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,34 +6,25 @@
 
 #import <AppKit/NSColorSpaceSliders.h>
 
-@class NSColor, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSHSBSliders : NSColorSpaceSliders
 {
     id hueSlider;
-    id saturationSlider;
-    id brightnessSlider;
-    id hueText;
-    id saturationText;
-    id brightnessText;
-    NSView *_hsbView;
-    NSColor *currColor;
-    NSColor *backgroundColor;
-    id sliderMatrix;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)__TEXT;
 - (void);
 - (id);
+- (id);
+- (id)connection:willSendRequestForEstablishedConnection:properties: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (void)@;
 - (struct CGSize);
 - (void);
 

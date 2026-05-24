@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSUUID, NSValue;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface UIKBTouchOrderedTaskList
 {
     NSUUID *_touchUUID;
-    NSObject<OS_dispatch_queue> *_touchStateTasksQueue;
-    NSMutableArray *_touchStateTasks;
-    NSValue *_currentTouchPoint;
-    _Bool _ignoredOnBegin;
-    unsigned long long _pathIndex;
-    double _originalStartTime;
 }
 
-+ (id);
-- (void);
-- (void);
-- (double);
-- (_Bool);
++ (id)nor phoneNumber are valid to send with;
+- (void)for:(_Bool)arg1 %@ but registration status was wrong. Saving for later;
+- (void)enFetchFailed %@;
+- (double)* Please file a radar!!!!!!!!!!! *******************************;
+- (_Bool)******* Error while deleting attachments %@;
+- (id)s stored.;
+- (_Bool)Began generating passwordsIcon;
+- (_Bool)e does not exist;
+- (id)r"28;
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)DataURL;
 - (unsigned long long)
 × ;
 - (void)tContainerView";
@@ -38,11 +31,6 @@ __attribute__((visibility("hidden")))
 - (void)PÇf;
 
 // Remaining properties
-@property(readonly, nonatomic) NSValue *currentTouchPoint; // @synthesize currentTouchPoint=_currentTouchPoint;
-@property(readonly, nonatomic) _Bool hasTasks;
-@property(nonatomic) _Bool ignoredOnBegin; // @synthesize ignoredOnBegin=_ignoredOnBegin;
-@property(readonly, nonatomic) double originalStartTime; // @synthesize originalStartTime=_originalStartTime;
-@property(readonly, nonatomic) unsigned long long pathIndex; // @synthesize pathIndex=_pathIndex;
 @property(readonly, nonatomic) NSUUID *touchUUID; // @synthesize touchUUID=_touchUUID;
 
 @end

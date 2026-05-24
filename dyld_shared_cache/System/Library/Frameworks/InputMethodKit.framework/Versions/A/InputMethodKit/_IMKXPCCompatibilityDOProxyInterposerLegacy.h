@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -26,11 +26,11 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)arning:unknown matrix_coeffs=%d, sets to Rec709=%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)setFollowSystemCameraEnabled:(id)arg1;
 - (id);
 - (struct _NSRange);
 - (struct _NSRange)±=°1Â0@ù

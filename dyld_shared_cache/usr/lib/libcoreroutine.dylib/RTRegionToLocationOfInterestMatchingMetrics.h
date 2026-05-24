@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, RTDistanceCalculator, RTLearnedLocationOfInterest, RTLocation;
+@class RTDistanceCalculator, RTLocation;
 
 @interface RTRegionToLocationOfInterestMatchingMetrics
 {
     RTDistanceCalculator *_distanceCalculator;
-    RTLocation *_region;
-    RTLearnedLocationOfInterest *_locationOfInterest;
-    NSError *_matchingError;
-    unsigned long long _numberOfMatches;
 }
 
 + (void);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)setQueue: /* Error: Ran out of types for this method. */;
+- (unsigned long long)@;
+- (id);
 - (void);
 - (void)ted, from, %d, to, %d;
 - (id), %@, fetched %lu learned location of interest from learned location store;
 
 // Remaining properties
-@property(readonly, nonatomic) RTLearnedLocationOfInterest *locationOfInterest; // @synthesize locationOfInterest=_locationOfInterest;
-@property(readonly, nonatomic) NSError *matchingError; // @synthesize matchingError=_matchingError;
-@property(readonly, nonatomic) unsigned long long numberOfMatches; // @synthesize numberOfMatches=_numberOfMatches;
 @property(readonly, nonatomic) RTLocation *region; // @synthesize region=_region;
 
 @end

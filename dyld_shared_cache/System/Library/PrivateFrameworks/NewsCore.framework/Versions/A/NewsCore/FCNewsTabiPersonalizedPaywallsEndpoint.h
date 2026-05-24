@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, FCNewsTabiPersonalizedPaywallsConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiPersonalizedPaywallsEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiPersonalizedPaywallsConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -26,8 +24,6 @@
 >;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiPersonalizedPaywallsConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

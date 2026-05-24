@@ -6,19 +6,16 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TTagEditorController, FI_TTaggingTokenField, FI_TTextField, FI_TUpdateLayerView;
+@class FI_TTaggingTokenField, FI_TTextField;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTaggingPopoverContentViewController : FI_TViewController
 {
     FI_TTextField *_titleField;
-    FI_TTagEditorController *_tagEditorController;
-    struct TNSWeakPtr<FI_TTaggingTokenField> _weakTokenField;
-    FI_TUpdateLayerView *_suggestionsTableViewWrapper;
 }
 
-- (id);
-- (void);
+- (id)createTFoot;
+- (void)_web_originalDataAsString;
 - (void);
 - (void);
 - (id);

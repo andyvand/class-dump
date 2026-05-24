@@ -4,62 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, GEOPDPlace, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteEntryBusiness
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _distance;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned long long _muid;
-    GEOPDPlace *_place;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _resultProviderId;
-    struct {
-        unsigned int has_distance:1;
-        unsigned int has_muid:1;
-        unsigned int has_resultProviderId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_mapsId:1;
-        unsigned int read_place:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)iceSettings:(id)arg1;
++ (_Bool)setHasWalkingVoiceSettings:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)+;
+- (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)CSBluetoothWirelessSplitterMonitorDelegate;
+- (void)eBeepWithRecordRoute:(id)arg1 playbackRoute:supportsEchoCancellation:speechRecordingMode:recordingInfo:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)nnection for delegate class %llu;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ject<NSSecureCoding>"16@"NSObject<_MXExtensionRequestDispatching><NSSecureCoding>"24@?<v@?@"NSObject<NSSecureCoding>"@"NSError">32;
 - (double);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)1b1b1b1b1b1b1b1b1b1b1b1b1}}16;
-- (void)asPoiFieldName:(id)arg1;
-- (_Bool)tWithRoadMatch:location: /* Error: Ran out of types for this method. */;
-- (id)ationSearchesType;
-- (int)s;
-- (id)RLForMapFrameWithCenter:distance:heading:pitch: /* Error: Ran out of types for this method. */;
+- (void)setHasPoiFieldName:(id)arg1;
+- (_Bool)matchResultWithRoadMatch:location: /* Error: Ran out of types for this method. */;
+- (id)locationSearchesType;
+- (int)_subTaskUsedInterfaces;
+- (id)URLForMapFrameWithCenter:distance:heading:pitch: /* Error: Ran out of types for this method. */;
 - (id)H ²$ 0²" D²l+ X²T, h²¨4 ¬²ÄD Ô²F ì²¬O ;
 - (id)tion_pk;;
 - (id)Ä­;
@@ -76,17 +58,7 @@
 - (void)o92Å3;
 
 // Remaining properties
-@property(nonatomic) double distance;
-@property(nonatomic) _Bool hasDistance;
-@property(readonly, nonatomic) _Bool hasMapsId;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(nonatomic) _Bool hasResultProviderId;
-@property(retain, nonatomic) GEOPDMapsIdentifier *mapsId;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(nonatomic) int resultProviderId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

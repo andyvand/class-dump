@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBPhotosLibraryImage
 {
     _Bool _isSyndicated;
-    NSString *_photoIdentifier;
-    NSArray *_peopleInPhotos;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (void);
@@ -30,27 +27,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)predicateToExcludeNonVisibleStackedAssets;
+- (id)_contextualVideoThumbnailImageDataByIdentifier;
+- (id)participant %@ between message context and suggestion %@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)$;
+- (void)c;
 - (void)untBigramPrefixMatchInAttachmentTypes"b1"countNgramPrefixMatchInAttachmentTypes"b1"countUnigramMatchInAttachmentNames"b1"countBigramMatchInAttachmentNames"b1"countNgramMatchInAttachmentNames"b1"countUnigramPrefixMatchInAttachmentNames"b1"countBigramPrefixMatchInAttachmentNames"b1"countNgramPrefixMatchInAttachmentNames"b1};
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSyndicated; // @synthesize isSyndicated=_isSyndicated;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *peopleInPhotos; // @synthesize peopleInPhotos=_peopleInPhotos;
 @property(copy, nonatomic) NSString *photoIdentifier; // @synthesize photoIdentifier=_photoIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

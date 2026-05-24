@@ -11,16 +11,13 @@ __attribute__((visibility("hidden")))
 @interface AVFullScreenViewController
 {
     UIViewController<AVFullScreenViewControllerDelegate> *_delegate;
-    AVFullScreenViewController *_associatedFullScreenViewController;
-    AVFullScreenViewController *_sourceFullScreenViewController;
-    UIView *_contentView;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (_Bool);
 - (long long);
@@ -30,11 +27,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (_Bool)h&G)
+;
+- (void);
+- (void)(;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -43,15 +41,12 @@ __attribute__((visibility("hidden")))
 - (void)0@ù
 × ;
 - (void)er"40@0:(id)arg1 8@"UIViewController"16@"UIViewController"24@"UIViewController"32;
-- (id)dius;
-- (id)rolsIncludeStartContentTransitionButtons;
+- (id)_normalizedCornerRadius;
+- (id)playbackControlsIncludeStartContentTransitionButtons;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) __weak AVFullScreenViewController *associatedFullScreenViewController; // @synthesize associatedFullScreenViewController=_associatedFullScreenViewController;
 @property(nonatomic) __weak UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) __weak UIViewController<AVFullScreenViewControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak AVFullScreenViewController *sourceFullScreenViewController; // @synthesize sourceFullScreenViewController=_sourceFullScreenViewController;
 
 @end
 

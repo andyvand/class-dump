@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOAuthorizationCore;
+@class SOAuthorizationCore;
 
 @interface SOAuthorizationWrapper
 {
     SOAuthorizationCore *_authorization;
-    CDUnknownBlockType _authorizationCompletion;
 }
 
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
@@ -27,13 +26,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType authorizationCompletion; // @synthesize authorizationCompletion=_authorizationCompletion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

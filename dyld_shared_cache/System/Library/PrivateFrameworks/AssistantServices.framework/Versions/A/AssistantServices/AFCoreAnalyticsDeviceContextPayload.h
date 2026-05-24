@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AFCoreAnalyticsDeviceContextPayload
 {
     NSString *_nearbyProductType;
-    NSString *_proximity;
-    NSNumber *_alarmFiring;
-    NSNumber *_timerFiring;
-    NSString *_playbackState;
-    NSNumber *_playbackRecency;
-    NSString *_homeAnnouncementState;
-    NSNumber *_homeAnnouncementRecency;
-    NSString *_nearbyDevicesRequestIdentifier;
-    NSString *_targetedResult;
-    NSString *_contextIdentifier;
 }
 
 + (id);
@@ -32,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)mber",&,N,SsetIsMerchantTokenTransaction:(CDUnknownBlockType)arg1 ,V_isMerchantTokenTransaction;
+- (id)PKGenerateStoreDemoTransactionsDaily;
 - (id);
 - (id);
 - (id);
@@ -43,31 +33,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)OS_LOG_TYPE_ERROR;
 - (id);
 - (id);
 - (void)lRank;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *alarmFiring; // @synthesize alarmFiring=_alarmFiring;
-@property(readonly, copy, nonatomic) NSString *contextIdentifier; // @synthesize contextIdentifier=_contextIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSNumber *homeAnnouncementRecency; // @synthesize homeAnnouncementRecency=_homeAnnouncementRecency;
-@property(readonly, copy, nonatomic) NSString *homeAnnouncementState; // @synthesize homeAnnouncementState=_homeAnnouncementState;
-@property(readonly, copy, nonatomic) NSString *nearbyDevicesRequestIdentifier; // @synthesize nearbyDevicesRequestIdentifier=_nearbyDevicesRequestIdentifier;
 @property(readonly, copy, nonatomic) NSString *nearbyProductType; // @synthesize nearbyProductType=_nearbyProductType;
-@property(readonly, copy, nonatomic) NSNumber *playbackRecency; // @synthesize playbackRecency=_playbackRecency;
-@property(readonly, copy, nonatomic) NSString *playbackState; // @synthesize playbackState=_playbackState;
-@property(readonly, copy, nonatomic) NSString *proximity; // @synthesize proximity=_proximity;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *targetedResult; // @synthesize targetedResult=_targetedResult;
-@property(readonly, copy, nonatomic) NSNumber *timerFiring; // @synthesize timerFiring=_timerFiring;
 
 @end
 

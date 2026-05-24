@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SecTapToRadar
 {
     NSString *_componentID;
-    NSString *_componentName;
-    NSString *_componentVersion;
-    NSString *_reason;
-    NSString *_alert;
-    NSString *_radarDescription;
-    NSString *_radarnumber;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_created;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (void);
 + (_Bool);
 + (void)4EùÑÕ4°1Â0@ù
 × ;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)qa;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -53,14 +44,6 @@
 
 // Remaining properties
 @property(retain) NSString *alert; // @synthesize alert=_alert;
-@property(retain, nonatomic) NSString *componentID; // @synthesize componentID=_componentID;
-@property(retain, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(retain, nonatomic) NSString *componentVersion; // @synthesize componentVersion=_componentVersion;
-@property(retain) NSDate *created; // @synthesize created=_created;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSString *radarDescription; // @synthesize radarDescription=_radarDescription;
-@property(retain) NSString *radarnumber; // @synthesize radarnumber=_radarnumber;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface NSPServerClient
 {
     struct os_unfair_lock_s lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_xpc_object> *_fetchTokenConnection;
 }
 
 - (void);
@@ -27,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
@@ -41,6 +35,7 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -55,7 +50,6 @@
 - (void);
 - (void);
 - (void);
-- (void)Þ;
 - (void);
 - (void);
 - (void);
@@ -68,15 +62,15 @@
 - (void);
 - (void);
 - (void);
+- (void));
+- (void);
+- (void);
+- (void)Records";
+- (void)th these library options (%@);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -88,13 +82,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

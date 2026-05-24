@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void);
+- (void),N,V_subOperation;
 
 @end
 

@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTextLink
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLocalizedString *_text;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_text:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)eCount:(id)arg1;
++ (_Bool)setMaxRouteCount:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)(=;
 - (void);
 - (id);
+- (void)dataWithCapacity:(id)arg1;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)attributionFrame;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)ventDirectionsRequestDetails";
 - (id)sult"b1"wrote_anyField"b1};
-- (id)me;
-- (id)ectionsServiceRequestBuilder_DodgeballOutsideOfMaps;
+- (id)hasPredictedExitTime;
+- (id)_GEODirectionsServiceRequestBuilder_DodgeballOutsideOfMaps;
 - (void)D¡;
-- (id)SED;
+- (id)FEEDBACK_FIELD_OPTION_TRAIL_CLOSED;
 - (_Bool)ÿÿ;
 - (void)¡¹N#-4Q@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasText;
 @property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) GEOLocalizedString *text;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

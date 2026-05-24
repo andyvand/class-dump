@@ -7,17 +7,14 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBEnergyValue
+- (void)q;
+- (double);
 - (_Bool)ntityConfidenceSignalsFrequencyDenominatorProd;
 - (void)g strategy without the sent helper;
 - (_INPBValueMetadata *)s Failed to copy INCodable %@ due to data error:%@ /* Error: Ran out of types for this method. */;
 - (int)lic}@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double magnitude;
-@property(nonatomic) int unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

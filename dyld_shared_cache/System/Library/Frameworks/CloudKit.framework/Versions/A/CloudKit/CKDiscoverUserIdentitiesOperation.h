@@ -6,15 +6,11 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKDiscoverUserIdentitiesOperationInfo, NSArray, NSMutableSet, NSString;
-@protocol CKDiscoverUserIdentitiesOperationCallbacks;
+@class NSMutableSet;
 
 @interface CKDiscoverUserIdentitiesOperation : CKOperation
 {
     CDUnknownBlockType _userIdentityDiscoveredBlock;
-    CDUnknownBlockType _discoverUserIdentitiesCompletionBlock;
-    NSArray *_userIdentityLookupInfos;
-    NSMutableSet *_discoveredLookupInfos;
 }
 
 + (SEL);
@@ -27,7 +23,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -39,19 +35,7 @@
 - (void)ÄOáÿêE;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKDiscoverUserIdentitiesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discoverUserIdentitiesCompletionBlock; // @synthesize discoverUserIdentitiesCompletionBlock=_discoverUserIdentitiesCompletionBlock;
 @property(retain, nonatomic) NSMutableSet *discoveredLookupInfos; // @synthesize discoveredLookupInfos=_discoveredLookupInfos;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKDiscoverUserIdentitiesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType userIdentityDiscoveredBlock; // @synthesize userIdentityDiscoveredBlock=_userIdentityDiscoveredBlock;
-@property(copy, nonatomic) NSArray *userIdentityLookupInfos; // @synthesize userIdentityLookupInfos=_userIdentityLookupInfos;
 
 @end
 

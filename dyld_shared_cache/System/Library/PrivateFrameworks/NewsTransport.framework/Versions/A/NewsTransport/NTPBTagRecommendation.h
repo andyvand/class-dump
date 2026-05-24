@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBTagRecommendation
 {
     double _score;
-    NSString *_tagId;
-    CDStruct_4b1634df _has;
 }
 
-- (_Bool);
+- (_Bool)detailsNavigationSettings;
+- (void)/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/paimaging/PAImaging.m;
+- (id);
+- (_Bool)dItemList>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_changeUsageStateIfNeeded:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned long long)_updatePlayerItemLoadingTarget;
+- (_Bool)to write incompatible app folder data file.;
+- (_Bool)failed to prune feed items, error=%{public}@;
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
+- (double);
+- (void)shouldBeginTransitionToExpandedContentModule;
 - (void)subscribeUnsubscribeSurfaceReason;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
 @property(readonly, nonatomic) _Bool hasTagId;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end
 

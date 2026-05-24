@@ -6,30 +6,23 @@
 
 #import <AOSUI/AOSUISpyglassBaseViewController.h>
 
-@class AAOBCustodiansListViewModel, AOSUIAccountContactsTableViewController, AOSUIAccountRecoveryContext, AOSUIContactsProvider, NSButton, NSStackView, NSWindow;
+@class AOSUIAccountRecoveryContext, NSButton;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIWalrusAccountContactsViewController : AOSUISpyglassBaseViewController
 {
     AOSUIAccountRecoveryContext *_context;
-    AAOBCustodiansListViewModel *_viewModel;
-    AOSUIContactsProvider *_contactProvider;
-    AOSUIAccountContactsTableViewController *_custodianTableViewController;
-    NSStackView *_stackViewContainer;
-    NSButton *_continueButton;
-    NSButton *_cancelButton;
-    NSButton *_manageButton;
-    NSWindow *_modalWindow;
-    NSWindow *_hostWindow;
 }
 
 - (id);
 - (void);
+- (void)
+uq3;
+- (void)(b@(`;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)?
+k	3;
+- (void)1*3;
 - (id);
 - (void);
 - (void);
@@ -52,12 +45,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property __weak NSButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property __weak NSButton *manageButton; // @synthesize manageButton=_manageButton;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property __weak NSStackView *stackViewContainer; // @synthesize stackViewContainer=_stackViewContainer;
 
 @end
 

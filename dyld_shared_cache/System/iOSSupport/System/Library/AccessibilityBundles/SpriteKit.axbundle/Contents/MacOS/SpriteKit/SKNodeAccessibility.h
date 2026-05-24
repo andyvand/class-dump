@@ -11,15 +11,15 @@
 }
 
 + (Class);
-+ (id);
++ (id)methodForSelector: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (long long);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
-- (struct CGRect);
+- (id)port/System/Library/Frameworks/OpenGLES.framework/Versions/A/Resources/GLRendererFloat.bundle/GLRendererFloat;
+- (struct CGRect)vice supportsUrsa:%u /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

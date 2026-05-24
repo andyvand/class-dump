@@ -7,20 +7,11 @@
 @interface RemindersUICore.TTRLocationChangeMonitor
 {
     id locationChange;
-    id lastResult;
-    id locationManager;
-    id changeRadius;
-    id timerInterval;
-    id hasStarted;
-    id state;
-    id locationChangePassthroughSubject;
-    id authorizationTracker;
-    id timer;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)B;

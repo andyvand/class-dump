@@ -9,10 +9,6 @@
 @interface ABPersonListDragExportHelper
 {
     NSArray *_personIdentifiers;
-    NSArray *_names;
-    int _options;
-    NSArray *_people;
-    NSURL *_destinationFolder;
 }
 
 - (_Bool);

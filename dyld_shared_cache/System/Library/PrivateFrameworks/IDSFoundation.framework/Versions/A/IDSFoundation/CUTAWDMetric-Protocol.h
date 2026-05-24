@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBCodable;
-@protocol NSCopying;
-
 @protocol CUTAWDMetric
 
 // Remaining properties
 @property(readonly) unsigned int awdIdentifier;
-@property(readonly) PBCodable<NSCopying> *awdRepresentation;
 @end
 

@@ -6,21 +6,9 @@
 
 #import <SafariShared/WBSHistoryServiceObject.h>
 
-@class NSString;
-
 @interface WBSHistoryServiceVisit : WBSHistoryServiceObject
 {
     _Bool _loadSuccessful;
-    _Bool _httpNonGet;
-    _Bool _synthesized;
-    int _score;
-    long long _itemID;
-    NSString *_title;
-    double _visitTime;
-    long long _redirectSource;
-    long long _redirectDestination;
-    long long _origin;
-    long long _attributes;
 }
 
 + (_Bool);
@@ -29,7 +17,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)+;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -43,25 +31,15 @@
 - (long long);
 - (void);
 - (int);
-- (long long);
+- (long long)_sourceIdentifier;
 - (id)!äAùQS ð1Â0@ù
 × ;
-- (void)tomaticTabClosingIntervalPreference;
+- (void)resetAutomaticTabClosingIntervalPreference;
 - (id)y Safari;
 - (void)¸;
 
 // Remaining properties
-@property(nonatomic) long long attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) _Bool httpNonGet; // @synthesize httpNonGet=_httpNonGet;
 @property(readonly, nonatomic) long long itemID; // @synthesize itemID=_itemID;
-@property(readonly, nonatomic) _Bool loadSuccessful; // @synthesize loadSuccessful=_loadSuccessful;
-@property(nonatomic) long long origin; // @synthesize origin=_origin;
-@property(nonatomic) long long redirectDestination; // @synthesize redirectDestination=_redirectDestination;
-@property(nonatomic) long long redirectSource; // @synthesize redirectSource=_redirectSource;
-@property(nonatomic) int score; // @synthesize score=_score;
-@property(readonly, nonatomic) _Bool synthesized; // @synthesize synthesized=_synthesized;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) double visitTime; // @synthesize visitTime=_visitTime;
 
 @end
 

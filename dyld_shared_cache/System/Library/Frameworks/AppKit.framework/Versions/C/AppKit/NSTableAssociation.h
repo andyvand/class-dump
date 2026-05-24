@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NSTableAssociation
 {
     NSView *_view;
-    long long _column;
 }
 
-+ (id);
++ (id)ct for FS data failed:(id)arg1 %s ErrCode:(long long)arg2 %d.;
 - (void);
 - (void);
 - (id);
 - (long long);
+- (void)P;
 - (void);
-- (void);
-- (id)eRect;
+- (id)_resetThePreparedContentRectToTheVisibleRect;
 
 // Remaining properties
-@property(nonatomic) long long column; // @synthesize column=_column;
 @property(retain, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end

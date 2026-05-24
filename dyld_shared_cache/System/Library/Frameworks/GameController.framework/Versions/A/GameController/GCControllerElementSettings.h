@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GCControllerElementSettings
 {
     _Bool _invertHorizontally;
-    _Bool _invertVertically;
-    _Bool _swapAxes;
-    NSString *_mappingKey;
-    CDUnknownBlockType _changedHandler;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool)$Ќ;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)Ќ;
+- (id)Ќ;
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType changedHandler; // @synthesize changedHandler=_changedHandler;
 @property(readonly, nonatomic, getter=isCustomized) _Bool customized;
-@property(nonatomic) _Bool invertHorizontally; // @synthesize invertHorizontally=_invertHorizontally;
-@property(nonatomic) _Bool invertVertically; // @synthesize invertVertically=_invertVertically;
-@property(readonly, nonatomic) NSString *mappingKey; // @synthesize mappingKey=_mappingKey;
-@property(nonatomic) _Bool swapAxes; // @synthesize swapAxes=_swapAxes;
 
 @end
 

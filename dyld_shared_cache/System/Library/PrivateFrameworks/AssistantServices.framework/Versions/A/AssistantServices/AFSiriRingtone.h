@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFVoiceInfo, NSArray, NSString;
+@class NSArray;
 
 @interface AFSiriRingtone
 {
     _Bool _languageMismatch;
-    NSString *_voiceLanguage;
-    _Bool _shouldAppendAutoAnswerTip;
-    NSArray *_contacts;
-    NSString *_displayedCallerID;
-    long long _callerIDType;
-    NSString *_callServiceSpeakableName;
-    NSString *_callDestinationID;
-    long long _callDestinationIDType;
-    AFVoiceInfo *_voiceInfo;
 }
 
 - (id);
@@ -44,25 +35,17 @@
 - (id);
 - (id);
 - (id);
+- (id)q;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_resultSendFailureCount;
 - (id);
 - (void);
 - (id);
 - (void)rContext=QQQ},R,N,V_ttsPolicy;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *callDestinationID; // @synthesize callDestinationID=_callDestinationID;
-@property(nonatomic) long long callDestinationIDType; // @synthesize callDestinationIDType=_callDestinationIDType;
-@property(copy, nonatomic) NSString *callServiceSpeakableName; // @synthesize callServiceSpeakableName=_callServiceSpeakableName;
-@property(nonatomic) long long callerIDType; // @synthesize callerIDType=_callerIDType;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(copy, nonatomic) NSString *displayedCallerID; // @synthesize displayedCallerID=_displayedCallerID;
-@property(nonatomic) _Bool shouldAppendAutoAnswerTip; // @synthesize shouldAppendAutoAnswerTip=_shouldAppendAutoAnswerTip;
-@property(readonly, nonatomic) NSString *textToSpeak;
-@property(readonly, nonatomic) AFVoiceInfo *voiceInfo; // @synthesize voiceInfo=_voiceInfo;
 
 @end
 

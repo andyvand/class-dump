@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPDataStreamTransportParameters
 {
     HAPTLVUnsignedNumberValue *_tcpListeningPort;
-    HAPTLVUnsignedNumberValue *_sessionIdentifier;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)_videoOperation;
+- (void)stillImageDisplayTimeDictionary;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)saveMetadata:(id)arg1;
 - (_Bool);
 - (id);
 - (void)HAP2AccessoryServerTransportRequest";
 - (id)ory Server %@ %@] Unable to read pairing features characteristic;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *tcpListeningPort; // @synthesize tcpListeningPort=_tcpListeningPort;
 
 @end

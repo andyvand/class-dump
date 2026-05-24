@@ -5,6 +5,8 @@
 //
 
 @protocol CATActiveIDSServiceConnectionMessageContent
+- (long long)nfiguration:forUser:withOptions:%p(TouchIDEnabled:%d,UnlockEnabled:%d,IdentificationEnabled:%d,LoginEnabled:%d,UnlockTokenMaxLifetime:%d), %p(AuthWCS:%p,AuthWAT:%p))
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentType;

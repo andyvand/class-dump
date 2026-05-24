@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDAnalyticsHAPServiceData
 {
     _Bool _isPrimary;
-    _Bool _ownerUser;
-    NSString *_serviceType;
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)setNumberOfMeaningfulMomentsCelebrationWedding: /* Error: Ran out of types for this method. */;
+- (_Bool)A;
+- (id)VSSubscriptionFetchOptionSources;
 - (void)ìçèþÅM&4éþ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
-@property(readonly, nonatomic) _Bool ownerUser; // @synthesize ownerUser=_ownerUser;
 @property(readonly, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end

@@ -15,7 +15,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)UITextRangeAdjustmentInteractionDelegate;
 - (id)Ðßr;
 - (void)p;
 

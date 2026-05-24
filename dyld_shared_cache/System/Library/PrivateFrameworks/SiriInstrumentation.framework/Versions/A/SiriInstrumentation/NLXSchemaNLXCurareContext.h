@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaNLXCurareContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_curareId;
-    _Bool _hasCurareId;
 }
 
 - (void);
@@ -30,12 +29,10 @@
 × ;
 - (id)ciseLocationDisabled;
 - (id)CLPInstSchemaCLPCurareAppIntentSampleClassificationStarted",&,N,V_startedOrChanged;
-- (void);
+- (void)CHCONVERSATIONQUALITYISSUECATEGORY_GRAMMATICAL_LINGUISTIC_ERROR;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *curareId; // @synthesize curareId=_curareId;
-@property(nonatomic) _Bool hasCurareId; // @synthesize hasCurareId=_hasCurareId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

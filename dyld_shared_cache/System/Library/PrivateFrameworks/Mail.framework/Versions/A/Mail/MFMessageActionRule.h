@@ -9,13 +9,12 @@
 @interface MFMessageActionRule : MFMessageRule
 {
     _Bool _isMessageActionRule;
-    _Bool _needsBody;
 }
 
 - (void);
+- (_Bool)J;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 

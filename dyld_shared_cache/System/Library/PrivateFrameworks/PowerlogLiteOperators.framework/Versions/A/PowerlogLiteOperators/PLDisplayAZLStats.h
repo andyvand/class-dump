@@ -9,15 +9,11 @@
 @interface PLDisplayAZLStats
 {
     NSNumber *_AvgPower;
-    NSNumber *_azlAccum;
-    NSNumber *_nitsAccum;
-    NSNumber *_blUpdateCount;
-    NSNumber *_blFrameCount;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (id);
@@ -29,10 +25,6 @@
 
 // Remaining properties
 @property(retain) NSNumber *AvgPower; // @synthesize AvgPower=_AvgPower;
-@property(retain) NSNumber *azlAccum; // @synthesize azlAccum=_azlAccum;
-@property(retain) NSNumber *blFrameCount; // @synthesize blFrameCount=_blFrameCount;
-@property(retain) NSNumber *blUpdateCount; // @synthesize blUpdateCount=_blUpdateCount;
-@property(retain) NSNumber *nitsAccum; // @synthesize nitsAccum=_nitsAccum;
 
 @end
 

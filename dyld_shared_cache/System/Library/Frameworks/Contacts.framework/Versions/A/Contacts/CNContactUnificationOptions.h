@@ -7,11 +7,9 @@
 @interface CNContactUnificationOptions
 {
     _Bool _shouldIncludeMainStoreContacts;
-    _Bool _shouldFreezeMutableContacts;
-    long long _labeledValueUnificationThreshold;
 }
 
-+ (id)criptDetection;
++ (id)requiredPropertiesForPhoneticNameScriptDetection;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -23,8 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long labeledValueUnificationThreshold; // @synthesize labeledValueUnificationThreshold=_labeledValueUnificationThreshold;
-@property(nonatomic) _Bool shouldFreezeMutableContacts; // @synthesize shouldFreezeMutableContacts=_shouldFreezeMutableContacts;
 @property(nonatomic) _Bool shouldIncludeMainStoreContacts; // @synthesize shouldIncludeMainStoreContacts=_shouldIncludeMainStoreContacts;
 
 @end

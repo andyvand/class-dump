@@ -7,7 +7,6 @@
 @interface SiriInference.DateTimeConstraintGenerator
 {
     id definedDateTimeRangeStore;
-    id definedTimeStore;
 }
 
 @end

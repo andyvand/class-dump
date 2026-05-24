@@ -11,18 +11,17 @@
 @interface NEIKEv2StringAttribute : NEIKEv2ConfigurationAttribute
 {
     NSString *_stringValue;
-    unsigned long long _customType;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)nassertAgentWithOptions: /* Error: Ran out of types for this method. */;
+- (void)unassertAgentWithOptions: /* Error: Ran out of types for this method. */;
 - (id)e child;
 
 // Remaining properties

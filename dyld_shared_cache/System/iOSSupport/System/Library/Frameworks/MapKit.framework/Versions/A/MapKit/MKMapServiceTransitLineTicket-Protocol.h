@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceTransitLineTicket
+- (void)_chatItemsForItem:(void (^)(NSArray *, NSError *))arg1 previousItems:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

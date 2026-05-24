@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)dictionary;
++ (id)to get audio sending state:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);

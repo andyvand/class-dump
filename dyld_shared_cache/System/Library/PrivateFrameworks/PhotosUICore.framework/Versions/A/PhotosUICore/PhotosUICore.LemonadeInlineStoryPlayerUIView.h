@@ -7,16 +7,11 @@
 @interface PhotosUICore.LemonadeInlineStoryPlayerUIView
 {
     id underlyingPlayer;
-    id $__lazy_storage_$_player;
-    id $__lazy_storage_$_contentPlayerView;
-    id keyAsset;
-    id placeholderKenBurnsEffect;
-    id $__lazy_storage_$_placeholderView;
 }
 
-- (id);
+- (id);
 - (void);
-- (id)kEndDarkening;
+- (id)targetPlaybackEndDarkening;
 - (void)¦;
 
 @end

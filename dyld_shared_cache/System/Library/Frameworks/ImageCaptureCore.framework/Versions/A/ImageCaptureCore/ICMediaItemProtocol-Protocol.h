@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol ICMediaItemProtocol
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *mediaItemType;
 @property(readonly, nonatomic) unsigned long long unsignedIntegerValue;
 @end
 

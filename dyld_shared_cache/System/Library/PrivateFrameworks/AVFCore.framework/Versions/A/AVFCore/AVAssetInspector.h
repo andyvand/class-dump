@@ -6,8 +6,6 @@
 
 #import <AVFCore/AVFigObjectInspector.h>
 
-@class AVMetadataItem, NSArray, NSData, NSDictionary, NSString, NSURL, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface AVAssetInspector : AVFigObjectInspector
 {
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (id);
 - (int);
 - (id);
@@ -38,9 +36,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool)setActions: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)KeyboardSwitchMode;
 - (id);
 - (id);
 - (_Bool);
@@ -48,11 +46,11 @@ __attribute__((visibility("hidden")))
 - (CDStruct_1b6d18a9);
 - (_Bool);
 - (_Bool);
-- (float);
-- (_Bool);
+- (float)_beginMonitoringConstraints;
+- (_Bool)t;
 - (id);
 - (struct CGAffineTransform);
-- (float)or:didCollectDateRangeMetadataGroups:indexesOfNewGroups:indexesOfModifiedGroups: /* Error: Ran out of types for this method. */;
+- (float)metadataCollector:didCollectDateRangeMetadataGroups:indexesOfNewGroups:indexesOfModifiedGroups: /* Error: Ran out of types for this method. */;
 - (id)erredMediaCharacteristics must contain only items of type NSString;
 - (struct CGSize)meRateConversionAlgorithm must be an NSString;
 - (id)l status %d;
@@ -63,49 +61,7 @@ __attribute__((visibility("hidden")))
 - (long long)ðÿ#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *SHA1Digest;
-@property(readonly, nonatomic) NSArray *alternateTrackGroups;
-@property(readonly, nonatomic, getter=_assetAnalysisMessages) NSArray *assetAnalysisMessages;
-@property(readonly, nonatomic) NSArray *availableMetadataFormats;
-@property(readonly, nonatomic) NSArray *availableVideoDynamicRanges;
-@property(readonly, nonatomic) _Bool canContainFragments;
-@property(readonly, nonatomic) NSArray *commonMetadata;
-@property(readonly, nonatomic, getter=isCompatibleWithAirPlayVideo) _Bool compatibleWithAirPlayVideo;
-@property(readonly, nonatomic, getter=isCompatibleWithSavedPhotosAlbum) _Bool compatibleWithSavedPhotosAlbum;
-@property(readonly, nonatomic, getter=isComposable) _Bool composable;
-@property(readonly, nonatomic) _Bool containsFragments;
-@property(readonly, nonatomic) AVMetadataItem *creationDate;
-@property(readonly, nonatomic, getter=_customMediaSelectionScheme) NSArray *customMediaSelectionScheme;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(readonly, nonatomic, getter=isExportable) _Bool exportable;
-@property(readonly, nonatomic) long long firstFragmentSequenceNumber;
-@property(readonly, nonatomic) long long fragmentCount;
-@property(readonly, nonatomic) NSUUID *httpSessionIdentifier;
-@property(readonly, nonatomic) NSString *identifyingTag;
-@property(readonly, nonatomic) NSString *identifyingTagClass;
-@property(readonly, nonatomic, getter=_localizedMediaSelectionOptionDisplayNames) NSDictionary *localizedMediaSelectionOptionDisplayNames;
-@property(readonly, nonatomic) NSString *lyrics;
-@property(readonly, nonatomic) struct CGSize maximumVideoResolution;
-@property(readonly, nonatomic, getter=_mediaSelectionGroupDictionaries) NSArray *mediaSelectionGroupDictionaries;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 minimumTimeOffsetFromLive;
-@property(readonly, nonatomic, getter=_moovAtomSize) long long moovAtomSize;
-@property(readonly, nonatomic) struct CGSize naturalSize;
-@property(readonly, nonatomic) int naturalTimeScale;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 overallDurationHint;
-@property(readonly, nonatomic, getter=isPlayable) _Bool playable;
-@property(readonly, nonatomic) float preferredRate;
-@property(readonly, nonatomic) float preferredSoundCheckVolumeNormalization;
-@property(readonly, nonatomic) struct CGAffineTransform preferredTransform;
-@property(readonly, nonatomic) float preferredVolume;
-@property(readonly, nonatomic) id propertyListForProxy;
-@property(readonly, nonatomic) _Bool providesPreciseDurationAndTiming;
-@property(readonly, nonatomic, getter=isReadable) _Bool readable;
-@property(readonly, nonatomic) NSURL *sidecarURL;
-@property(readonly, nonatomic) _Bool supportsAnalysisReporting;
-@property(readonly, nonatomic) long long trackCount;
-@property(readonly, nonatomic) NSArray *trackIDs;
-@property(readonly, nonatomic) NSDictionary *trackReferences;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

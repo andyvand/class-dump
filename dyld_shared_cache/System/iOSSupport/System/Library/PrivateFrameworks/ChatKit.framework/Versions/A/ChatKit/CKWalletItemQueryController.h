@@ -11,14 +11,14 @@
 }
 
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)isTitleQueryEnabled;
+- (id)ic_decodeInBackground;
+- (id)ic_componentsForSearchHighlighting;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)KBrowserSwitcherFooterAccessoryCell;
-- (id)ectionViewController;
+- (id)CKBrowserSwitcherFooterAccessoryCell;
+- (id)CKTranscriptCollectionViewController;
 
 @end
 

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayIdentity, NSString;
+@class FBSDisplayIdentity;
 
 __attribute__((visibility("hidden")))
 @interface _UIRemoteViewControllerSceneContext
 {
     _Bool _isCapturingContentForAdditionalRenderingDestination;
-    NSString *_systemShellHostingSpaceIdentifier;
-    NSString *_systemDisplayIdentifier;
-    FBSDisplayIdentity *_displayIdentity;
-    long long _screenReferenceDisplayModeStatus;
-    double _systemReferenceAngle;
-    unsigned long long _systemReferenceAngleMode;
-    NSString *_hardwareKeyboardExclusivityIdentifier;
 }
 
 + (id);
-+ (_Bool)cludeFromHitTesting;
++ (_Bool)contextIDsToExcludeFromHitTesting;
 - (id);
-- (unsigned long long);
-- (double);
+- (unsigned long long);
+- (double);
 - (id);
 - (long long);
 - (_Bool);
@@ -33,27 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool)2@0:(id)arg1 8@"_UIDatePickerCalendarTimeView"16@"_UIDatePickerCalendarTime"24;
-- (void)er:(id)arg1;
+- (void)setStateBlinkTimer:(id)arg1;
 - (id)d},?,N,V_selectionEdgeInsets;
 - (void)f;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) FBSDisplayIdentity *displayIdentity; // @synthesize displayIdentity=_displayIdentity;
-@property(readonly, copy, nonatomic) NSString *hardwareKeyboardExclusivityIdentifier; // @synthesize hardwareKeyboardExclusivityIdentifier=_hardwareKeyboardExclusivityIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCapturingContentForAdditionalRenderingDestination; // @synthesize isCapturingContentForAdditionalRenderingDestination=_isCapturingContentForAdditionalRenderingDestination;
-@property(nonatomic) _Bool prefersContentProtection;
-@property(readonly, nonatomic) long long screenReferenceDisplayModeStatus; // @synthesize screenReferenceDisplayModeStatus=_screenReferenceDisplayModeStatus;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *systemDisplayIdentifier; // @synthesize systemDisplayIdentifier=_systemDisplayIdentifier;
-@property(readonly, nonatomic) double systemReferenceAngle; // @synthesize systemReferenceAngle=_systemReferenceAngle;
-@property(readonly, nonatomic) unsigned long long systemReferenceAngleMode; // @synthesize systemReferenceAngleMode=_systemReferenceAngleMode;
-@property(readonly, nonatomic) NSString *systemShellHostingSpaceIdentifier; // @synthesize systemShellHostingSpaceIdentifier=_systemShellHostingSpaceIdentifier;
 
 @end
 

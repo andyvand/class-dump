@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, NSString;
-@protocol IMKUICandidateAccessibilityTarget;
+@class IMKCandidate;
 
 @interface IMKUICandidateAccessibilityElement
 {
     IMKCandidate *_candidate;
-    struct CGRect _frame;
-    id <IMKUICandidateAccessibilityTarget> _target;
 }
 
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (struct CGRect);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)A;
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (struct CGRect);
+- (id);
+- (struct CGRect);
+- (id);
+- (unsigned long long)for audio IO stop!;
 - (void);
-- (void);
+- (id);
+- (id);
+- (_Bool);
+- (struct CGRect);
+- (void);
+- (void)�jh8);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) IMKCandidate *candidate; // @synthesize candidate=_candidate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <IMKUICandidateAccessibilityTarget> target; // @synthesize target=_target;
 
 @end
 

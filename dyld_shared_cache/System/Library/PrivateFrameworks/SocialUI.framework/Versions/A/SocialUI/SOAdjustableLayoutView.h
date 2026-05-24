@@ -9,7 +9,7 @@
     struct NSEdgeInsets _alignmentRectInsets;
 }
 
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)__objc_nlcatlist__DATA_CONST;
 - (void)tachmentCollectionView",R;
 
 // Remaining properties

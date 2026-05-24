@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputSensorInputParameters : _GCDevicePhysicalInputViewParameters
 {
     float _minimumValue;
-    float _maximumValue;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)setProtocolClasses:(struct _NSZone *)arg1;
 
 @end
 

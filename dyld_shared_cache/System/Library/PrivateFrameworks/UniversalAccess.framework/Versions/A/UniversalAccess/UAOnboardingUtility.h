@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (float);
++ (id)emaFLOWLanguageConfidenceMatrix";
++ (id)ntainerResult"b1};
++ (id)contentSource"b1};
++ (id)laylistContext";
++ (id)aPlayerRadioStationContext";
++ (_Bool)1"airPlayRouteSettingStatus"b1"userPersona"b1"wasOnScreenItemSelected"b1};
++ (float)aFLOWNotificationContext";
 
 @end
 

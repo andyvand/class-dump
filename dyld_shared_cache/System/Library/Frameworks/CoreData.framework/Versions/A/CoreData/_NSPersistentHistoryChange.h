@@ -6,19 +6,10 @@
 
 #import <CoreData/NSPersistentHistoryChange.h>
 
-@class NSData, NSDictionary, NSManagedObjectID, NSPersistentHistoryTransaction, NSSQLEntity;
-
 __attribute__((visibility("hidden")))
 @interface _NSPersistentHistoryChange : NSPersistentHistoryChange
 {
     long long _changeID;
-    NSManagedObjectID *_changedObjectID;
-    long long _changeType;
-    NSDictionary *_tombstone;
-    NSPersistentHistoryTransaction *_transaction;
-    NSData *_columns;
-    NSSQLEntity *_sqlEntity;
-    NSManagedObjectID *_backingObjectID;
 }
 
 + (_Bool);
@@ -27,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)saveAccount:withDataclassActions:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 

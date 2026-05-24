@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary;
+@class NSHashTable;
 
 @interface IDSCTAdapter
 {
     NSHashTable *_listeners;
-    id _coreTelephonyClient;
-    id _cache;
-    NSMutableDictionary *_registrationStateByLabelID;
-    struct os_unfair_lock_s _lock;
-    _Bool _supportsSMS;
 }
 
 + (_Bool);
@@ -29,25 +24,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)ent(void);
 - (_Bool);
 - (id)¸1;
 - (_Bool)reason;
-- (void)ndDownTime;
+- (void)OnDemandDownTime;
 - (void)¸´ÿ9Ö1»¬;
 - (void)ìÍÿåî0HØ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool doesAnySIMSupportsSimultaneousVoiceAndDataRightNow;
 @property(readonly, nonatomic) _Bool dualSIMCapabilityEnabled;
-@property(readonly, nonatomic) _Bool hasMultipleSIMs;
-@property(readonly, nonatomic) _Bool isAnySIMInserted;
-@property(readonly, nonatomic) _Bool isAnySIMUsable;
-@property(readonly, nonatomic) _Bool supportsIdentification;
-@property(readonly, nonatomic) _Bool supportsSMS; // @synthesize supportsSMS=_supportsSMS;
 
 @end
 

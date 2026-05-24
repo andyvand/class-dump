@@ -22,8 +22,8 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (_Bool);
-- (double);
+- (_Bool)logger;
+- (double)<IMEventNotificationQueueDelegate>",W,V_delegate;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,41 +35,13 @@
 - (_Bool);
 - (_Bool)&Ð1Â0@ù
 × ;
-- (_Bool)a;
+- (_Bool)includeMetadata;
 - (double)Íÿ;
 - (double)÷ÿ;
 - (_Bool)ùÿ÷;
 
 // Remaining properties
-@property(readonly, nonatomic) double afterRoutingCompleteTimeout;
-@property(readonly, nonatomic) _Bool allowSingleRoomExpandedRows;
-@property(readonly, nonatomic) double autoRouteInactiveTimeout;
-@property(readonly, nonatomic) _Bool canHostMultiplayerStream;
-@property(readonly, nonatomic) double lockScreenAPLRatio;
-@property(readonly, nonatomic) double lockScreenAPLTarget;
 @property(readonly, nonatomic, getter=isMultiplayerAware) _Bool multiplayerAware;
-@property(readonly, nonatomic, getter=isMultiplayerHost) _Bool multiplayerHost;
-@property(readonly, nonatomic) double oneTapSuggestionInactiveTimeout;
-@property(readonly, nonatomic) double quickControlsInactiveTimeout;
-@property(readonly, nonatomic) _Bool showMembersInsteadOfRooms;
-@property(readonly, nonatomic) _Bool staticWaveform;
-@property(readonly, nonatomic) _Bool supportAirPlayLeaderInfoSync;
-@property(readonly, nonatomic) _Bool supportGroupSession;
-@property(readonly, nonatomic) _Bool supportGroupSessionHome;
-@property(readonly, nonatomic) _Bool supportGroupSessionHomePodBoop;
-@property(readonly, nonatomic) _Bool supportLockScreenBackground;
-@property(readonly, nonatomic) _Bool supportManyRecommendationsPlatters;
-@property(readonly, nonatomic) _Bool supportNanoStandalone;
-@property(readonly, nonatomic) _Bool supportNowPlayingDrivenAgent;
-@property(readonly, nonatomic) _Bool supportNowPlayingSessionDataSource;
-@property(readonly, nonatomic) _Bool supportPTOTRefactorPart2;
-@property(readonly, nonatomic) _Bool supportSessionBasedLockScreenPlatter;
-@property(readonly, nonatomic) _Bool supportSessionBasedUI;
-@property(readonly, nonatomic) _Bool supportShowMore;
-@property(readonly, nonatomic) _Bool supportSystemGroupSession;
-@property(readonly, nonatomic) _Bool suppressScreenMirroringErrors;
-@property(readonly, nonatomic) _Bool verboseImageLoadingLogging;
-@property(readonly, nonatomic) _Bool verboseMediaControlLogging;
 
 @end
 

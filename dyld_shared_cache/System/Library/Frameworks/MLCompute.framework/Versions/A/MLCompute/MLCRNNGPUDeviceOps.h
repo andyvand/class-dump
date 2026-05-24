@@ -11,42 +11,9 @@
 @interface MLCRNNGPUDeviceOps : MLCGPUDeviceOps
 {
     _Bool _isBidirectional;
-    _Bool _batchFirst;
-    _Bool _returnsSequences;
-    float _lstmDropout;
-    NSMutableArray *_rnnTrainableWeights;
-    NSMutableArray *_rnnTrainableWeightGradients;
-    NSMutableArray *_rnnTrainableStates;
-    NSMutableArray *_rnnBuffers;
-    NSMutableArray *_rnnExportedWeightMatrices;
-    NSMutableArray *_rnnExportedBiasTerms;
-    NSMutableArray *_rnnStackedLayersResults;
-    NSMutableArray *_rnnStackedLayersBufferResults;
-    NSMutableArray *_rnnExportedInputWeightGradientMatrices;
-    NSMutableArray *_rnnExportedHiddenWeightGradientMatrices;
-    NSMutableArray *_rnnExportedBiasGradientMatrices;
-    NSMutableArray *_rnnMomentumMatrices;
-    NSMutableArray *_rnnVelocityMatrices;
-    NSMutableArray *_rnnCenterWeightMatrices;
-    unsigned long long _hiddenSize;
-    unsigned long long _inputSize;
-    unsigned long long _numLayers;
-    id _forwardTimeGradientResult;
-    id _reverseTimeGradientResult;
-    id _biDirectionalGradientResult;
-    id _biDirectionalSumKernel;
-    NSMutableArray *_lstmDropoutForwardKernel;
-    NSMutableArray *_lstmDropoutGradientKernel;
-    NSMutableArray *_lstmDropoutSource;
-    NSMutableArray *_lstmDropoutState;
-    NSMutableArray *_auxiliaryWeightsMemory;
-    NSMutableArray *_auxiliaryMomentumMemory;
-    NSMutableArray *_auxiliaryVelocityMemory;
-    NSMutableArray *_auxiliaryCenterWeightMemory;
-    id _lstmMultiGPUChildOps;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -66,11 +33,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T,;
 - (void);
 - (void);
 - (void);
@@ -86,9 +53,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)?;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -102,13 +69,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id)SlQ+ ;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -116,43 +83,10 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)hilox";
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *auxiliaryCenterWeightMemory; // @synthesize auxiliaryCenterWeightMemory=_auxiliaryCenterWeightMemory;
-@property(retain, nonatomic) NSMutableArray *auxiliaryMomentumMemory; // @synthesize auxiliaryMomentumMemory=_auxiliaryMomentumMemory;
-@property(retain, nonatomic) NSMutableArray *auxiliaryVelocityMemory; // @synthesize auxiliaryVelocityMemory=_auxiliaryVelocityMemory;
-@property(retain, nonatomic) NSMutableArray *auxiliaryWeightsMemory; // @synthesize auxiliaryWeightsMemory=_auxiliaryWeightsMemory;
-@property(nonatomic) _Bool batchFirst; // @synthesize batchFirst=_batchFirst;
-@property(retain, nonatomic) id biDirectionalGradientResult; // @synthesize biDirectionalGradientResult=_biDirectionalGradientResult;
-@property(retain, nonatomic) id biDirectionalSumKernel; // @synthesize biDirectionalSumKernel=_biDirectionalSumKernel;
-@property(retain, nonatomic) id forwardTimeGradientResult; // @synthesize forwardTimeGradientResult=_forwardTimeGradientResult;
-@property(nonatomic) unsigned long long hiddenSize; // @synthesize hiddenSize=_hiddenSize;
-@property(nonatomic) unsigned long long inputSize; // @synthesize inputSize=_inputSize;
-@property(nonatomic) _Bool isBidirectional; // @synthesize isBidirectional=_isBidirectional;
-@property(nonatomic) float lstmDropout; // @synthesize lstmDropout=_lstmDropout;
-@property(retain, nonatomic) NSMutableArray *lstmDropoutForwardKernel; // @synthesize lstmDropoutForwardKernel=_lstmDropoutForwardKernel;
-@property(retain, nonatomic) NSMutableArray *lstmDropoutGradientKernel; // @synthesize lstmDropoutGradientKernel=_lstmDropoutGradientKernel;
-@property(retain, nonatomic) NSMutableArray *lstmDropoutSource; // @synthesize lstmDropoutSource=_lstmDropoutSource;
-@property(retain, nonatomic) NSMutableArray *lstmDropoutState; // @synthesize lstmDropoutState=_lstmDropoutState;
-@property(retain, nonatomic) id lstmMultiGPUChildOps; // @synthesize lstmMultiGPUChildOps=_lstmMultiGPUChildOps;
-@property(nonatomic) unsigned long long numLayers; // @synthesize numLayers=_numLayers;
-@property(nonatomic) _Bool returnsSequences; // @synthesize returnsSequences=_returnsSequences;
-@property(retain, nonatomic) id reverseTimeGradientResult; // @synthesize reverseTimeGradientResult=_reverseTimeGradientResult;
-@property(retain, nonatomic) NSMutableArray *rnnBuffers; // @synthesize rnnBuffers=_rnnBuffers;
-@property(retain, nonatomic) NSMutableArray *rnnCenterWeightMatrices; // @synthesize rnnCenterWeightMatrices=_rnnCenterWeightMatrices;
-@property(retain, nonatomic) NSMutableArray *rnnExportedBiasGradientMatrices; // @synthesize rnnExportedBiasGradientMatrices=_rnnExportedBiasGradientMatrices;
-@property(retain, nonatomic) NSMutableArray *rnnExportedBiasTerms; // @synthesize rnnExportedBiasTerms=_rnnExportedBiasTerms;
-@property(retain, nonatomic) NSMutableArray *rnnExportedHiddenWeightGradientMatrices; // @synthesize rnnExportedHiddenWeightGradientMatrices=_rnnExportedHiddenWeightGradientMatrices;
-@property(retain, nonatomic) NSMutableArray *rnnExportedInputWeightGradientMatrices; // @synthesize rnnExportedInputWeightGradientMatrices=_rnnExportedInputWeightGradientMatrices;
-@property(retain, nonatomic) NSMutableArray *rnnExportedWeightMatrices; // @synthesize rnnExportedWeightMatrices=_rnnExportedWeightMatrices;
-@property(retain, nonatomic) NSMutableArray *rnnMomentumMatrices; // @synthesize rnnMomentumMatrices=_rnnMomentumMatrices;
-@property(retain, nonatomic) NSMutableArray *rnnStackedLayersBufferResults; // @synthesize rnnStackedLayersBufferResults=_rnnStackedLayersBufferResults;
-@property(retain, nonatomic) NSMutableArray *rnnStackedLayersResults; // @synthesize rnnStackedLayersResults=_rnnStackedLayersResults;
-@property(retain, nonatomic) NSMutableArray *rnnTrainableStates; // @synthesize rnnTrainableStates=_rnnTrainableStates;
-@property(retain, nonatomic) NSMutableArray *rnnTrainableWeightGradients; // @synthesize rnnTrainableWeightGradients=_rnnTrainableWeightGradients;
 @property(retain, nonatomic) NSMutableArray *rnnTrainableWeights; // @synthesize rnnTrainableWeights=_rnnTrainableWeights;
-@property(retain, nonatomic) NSMutableArray *rnnVelocityMatrices; // @synthesize rnnVelocityMatrices=_rnnVelocityMatrices;
 
 @end
 

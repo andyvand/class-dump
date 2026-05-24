@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
+@class NSData, NSString;
 
 @protocol HAPTLVCreateParse
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSData *tlvData;

@@ -11,7 +11,7 @@
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -21,7 +21,6 @@ Expected ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfUnits;
-@property(readonly, nonatomic) unsigned long long unit;
 
 @end
 

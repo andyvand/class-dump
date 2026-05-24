@@ -6,16 +6,10 @@
 
 #import <HomeKitBackingStore/HMBSQLQueryIterator.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneQueryResultAllOfTypeRaw : HMBSQLQueryIterator
 {
     int _zoneRowBindOffset;
-    int _modelTypeBindOffset;
-    unsigned long long _returning;
-    unsigned long long _zoneRow;
-    NSString *_modelType;
 }
 
 - (int);
@@ -29,11 +23,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *modelType; // @synthesize modelType=_modelType;
-@property(readonly, nonatomic) int modelTypeBindOffset; // @synthesize modelTypeBindOffset=_modelTypeBindOffset;
 @property(readonly, nonatomic) unsigned long long returning; // @synthesize returning=_returning;
-@property(readonly, nonatomic) unsigned long long zoneRow; // @synthesize zoneRow=_zoneRow;
-@property(readonly, nonatomic) int zoneRowBindOffset; // @synthesize zoneRowBindOffset=_zoneRowBindOffset;
 
 @end
 

@@ -5,23 +5,17 @@
 //
 
 @class NSObject;
-@protocol MTLCommandQueue, MTLDevice, MTLDeviceSPI, OS_dispatch_queue, OS_dispatch_semaphore, TXRBufferAllocator;
+@protocol MTLDevice, OS_dispatch_queue;
 
 @interface MTKTextureLoader
 {
     NSObject<OS_dispatch_queue> *_loadQueue;
-    NSObject<OS_dispatch_queue> *_uploadQueue;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    NSObject<OS_dispatch_semaphore> *_loadSemaphore;
-    id <MTLCommandQueue> _blitQueue;
-    id <TXRBufferAllocator> _bufferAllocator;
-    id <MTLDeviceSPI> _device;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (id);
@@ -29,7 +23,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -45,7 +39,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)U;
 - (id);
 - (id);
 

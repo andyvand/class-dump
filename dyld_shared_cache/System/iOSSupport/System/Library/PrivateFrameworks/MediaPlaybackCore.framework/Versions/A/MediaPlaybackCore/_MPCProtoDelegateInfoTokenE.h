@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoDelegateInfoTokenE
 {
     double _expirationDate;
-    unsigned long long _sessionID;
-    NSData *_playerDelegateInfoData;
-    NSString *_storefront;
-    struct {
-        unsigned int expirationDate:1;
-        unsigned int sessionID:1;
-    } _has;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id) ;
 - (id);
 - (void)=%{public}@;
 

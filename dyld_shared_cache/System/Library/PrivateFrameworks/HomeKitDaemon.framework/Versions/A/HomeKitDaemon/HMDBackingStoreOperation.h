@@ -4,47 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStore, NSString, NSUUID;
+@class HMDBackingStore;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreOperation
 {
     CDUnknownBlockType _resultBlock;
-    NSUUID *_operationUUID;
-    CDUnknownBlockType _operationFinishBlock;
-    HMDBackingStore *_store;
 }
 
 + (id)Y\ÿÆ`1;
-- (void);
+- (void)last_updated_datetime;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)s;
 - (id);
-- (id);
+- (id)setP;
 - (id)
 × ;
 - (id)ñ°1Â0@ù
 × ;
 - (void);
-- (CDUnknownBlockType)uteSinceFinishedStartingUp: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)setHasBeenOneMinuteSinceFinishedStartingUp: /* Error: Ran out of types for this method. */;
 - (void)results have been received for Apple Media Accessory get-action-types, calling result handler;
 - (void)Ó;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType operationFinishBlock; // @synthesize operationFinishBlock=_operationFinishBlock;
-@property(readonly, nonatomic) NSUUID *operationUUID; // @synthesize operationUUID=_operationUUID;
-@property(copy, nonatomic) CDUnknownBlockType resultBlock; // @synthesize resultBlock=_resultBlock;
 @property(retain, nonatomic) HMDBackingStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

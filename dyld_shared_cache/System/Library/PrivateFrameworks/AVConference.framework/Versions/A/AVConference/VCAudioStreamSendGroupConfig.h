@@ -6,14 +6,12 @@
 
 #import <AVConference/VCMediaStreamSendGroupConfig.h>
 
-@class NSString, VCAudioStreamGroupCommonConfig, VCSystemAudioCaptureSession;
+@class VCAudioStreamGroupCommonConfig, VCSystemAudioCaptureSession;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioStreamSendGroupConfig : VCMediaStreamSendGroupConfig
 {
     VCAudioStreamGroupCommonConfig *_audioStreamGroupConfig;
-    _Bool _shouldScheduleMediaQueue;
-    VCSystemAudioCaptureSession *_systemAudioCaptureSession;
 }
 
 - (id);
@@ -26,15 +24,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) VCAudioStreamGroupCommonConfig *audioStreamGroupConfig; // @synthesize audioStreamGroupConfig=_audioStreamGroupConfig;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldScheduleMediaQueue; // @synthesize shouldScheduleMediaQueue=_shouldScheduleMediaQueue;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) VCSystemAudioCaptureSession *systemAudioCaptureSession; // @synthesize systemAudioCaptureSession=_systemAudioCaptureSession;
 
 @end

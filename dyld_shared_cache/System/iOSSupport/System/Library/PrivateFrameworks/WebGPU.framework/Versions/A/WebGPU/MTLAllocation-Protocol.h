@@ -7,6 +7,9 @@
 @protocol MTLAllocation
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: Q16@0:8
+// Property attributes: (null)
+
 @property(readonly) unsigned long long allocatedSize;
 @end
 

@@ -9,8 +9,6 @@
 @interface AFSpeechRecordingAlertPolicy
 {
     AFSpeechRecordingAlertBehavior *_startingAlertBehavior;
-    AFSpeechRecordingAlertBehavior *_stoppedAlertBehavior;
-    AFSpeechRecordingAlertBehavior *_stoppedWithErrorAlertBehavior;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ry",R,C,N,V_annotations;
 - (id);
 - (id);
 - (id);
@@ -27,14 +25,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)GA;
 - (id);
-- (void)dphoneCase;
+- (void)_batteryLevelHeadphoneCase;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) AFSpeechRecordingAlertBehavior *startingAlertBehavior; // @synthesize startingAlertBehavior=_startingAlertBehavior;
-@property(readonly, copy, nonatomic) AFSpeechRecordingAlertBehavior *stoppedAlertBehavior; // @synthesize stoppedAlertBehavior=_stoppedAlertBehavior;
-@property(readonly, copy, nonatomic) AFSpeechRecordingAlertBehavior *stoppedWithErrorAlertBehavior; // @synthesize stoppedWithErrorAlertBehavior=_stoppedWithErrorAlertBehavior;
 
 @end
 

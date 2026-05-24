@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WBSReaderFontManager
 {
     NSArray *_validatedFonts;
-    NSString *_languageTag;
 }
 
 - (void);
@@ -26,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *fonts;
-@property(readonly, copy, nonatomic) NSString *languageTag; // @synthesize languageTag=_languageTag;
-@property(readonly, nonatomic) NSArray *possibleFonts;
 
 @end
 

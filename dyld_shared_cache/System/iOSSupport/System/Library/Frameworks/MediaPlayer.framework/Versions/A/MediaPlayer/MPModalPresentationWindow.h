@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (id);
+- (id)ComponentAttributeSoCECID;
 - (id);
 - (void);
 - (_Bool);

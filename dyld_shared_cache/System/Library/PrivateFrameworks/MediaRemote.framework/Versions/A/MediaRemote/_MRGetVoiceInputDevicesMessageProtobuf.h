@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)uod_enabled_for_macos;
 
 @end
 

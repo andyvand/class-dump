@@ -9,7 +9,6 @@
 @interface PKPaymentCredentialProvisioningMethod
 {
     _Bool _supportsFrictionlessProvisioning;
-    NSArray *_actions;
 }
 
 + (_Bool);
@@ -19,11 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (void)YMENT_WOULD_EXCEED_CUMULATIVE_LIMIT_ERROR_DESCRIPTION_FORMAT;
+- (void)PEER_PAYMENT_WOULD_EXCEED_CUMULATIVE_LIMIT_ERROR_DESCRIPTION_FORMAT;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) _Bool supportsFrictionlessProvisioning; // @synthesize supportsFrictionlessProvisioning=_supportsFrictionlessProvisioning;
 
 @end
 

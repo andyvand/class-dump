@@ -11,15 +11,13 @@
 
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)rangeWithLocation:length: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)C;
 - (_Bool);
-- (id)e;
+- (id)requiresSmile;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isActive; // @dynamic isActive;
-@property(readonly, nonatomic) _Bool isMatchingRequired; // @dynamic isMatchingRequired;
 @property(nonatomic) double minimumScore; // @synthesize minimumScore=_minimumScore;
 
 @end

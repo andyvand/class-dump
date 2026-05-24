@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface VMUAnalyzerSummaryField
 {
     int _fieldType;
-    NSString *_key;
-    unsigned long long _numericalValue;
-    NSObject *_objectValue;
-    NSString *_formattedValue;
 }
 
 - (void);
@@ -23,18 +19,14 @@
 - (void);
 - (id);
 - (int);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (id)%d  path:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int fieldType; // @synthesize fieldType=_fieldType;
-@property(retain, nonatomic) NSString *formattedValue; // @synthesize formattedValue=_formattedValue;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) unsigned long long numericalValue; // @synthesize numericalValue=_numericalValue;
-@property(retain, nonatomic) NSObject *objectValue; // @synthesize objectValue=_objectValue;
 
 @end
 

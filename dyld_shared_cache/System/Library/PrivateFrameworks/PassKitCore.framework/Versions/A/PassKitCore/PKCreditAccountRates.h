@@ -18,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasPrefNetsCount;
 - (void);
 - (id);
-- (id)r;
+- (id)_previousStepIdentifier;
 - (void)ces;
 
 // Remaining properties

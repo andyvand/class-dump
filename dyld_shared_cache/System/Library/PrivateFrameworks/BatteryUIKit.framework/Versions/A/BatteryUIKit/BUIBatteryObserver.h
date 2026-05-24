@@ -9,26 +9,22 @@
 @interface BUIBatteryObserver
 {
     BUIViewController *_viewController;
-    CDUnknownBlockType _observerBlock;
-    struct __CFRunLoopSource *_runLoopSourceRef;
 }
 
 + (id);
 - (void);
 - (void);
-- (struct __CFRunLoopSource *);
+- (struct __CFRunLoopSource *);
 - (id);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@];
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
-@property struct __CFRunLoopSource *runLoopSourceRef; // @synthesize runLoopSourceRef=_runLoopSourceRef;
 @property(retain) BUIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

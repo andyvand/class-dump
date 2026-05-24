@@ -5,13 +5,15 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue;
+@protocol HMDCompositeSettingsModel, OS_dispatch_queue;
 
 @protocol HMDCompositeSettingsDatabaseAdapter
-- (NSObject<OS_dispatch_queue> *)iveNetworkRouterUUID;
+- (void);
+- (id <HMDCompositeSettingsModel>)_droppedPinCoordinate;
+- (id <HMDCompositeSettingsModel>)_collectionDescription;
+- (NSObject<OS_dispatch_queue> *)_activeNetworkRouterUUID;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly, nonatomic) __weak id rawDatabase;
 @end
 

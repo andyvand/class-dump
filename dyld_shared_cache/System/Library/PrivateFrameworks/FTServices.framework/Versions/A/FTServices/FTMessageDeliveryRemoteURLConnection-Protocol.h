@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLRequest;
+@class NSURLRequest;
 
 @protocol FTMessageDeliveryRemoteURLConnection
+- (int);
+- (_Bool)_subsystemCategoryFilter;
+- (NSURLRequest *)7;
+- (void);
+- (void)imageBoundingRect;
+- (void){CGRect={CGPoint=dd}{CGSize=dd}}48d80@88@96;
+- (void)zationCorrections:(_Bool)arg1 outBestTokenIndex:outFoundTokenInLexicon:outFoundCaseMatchingTokenInLexicon:outCorrectionFromOutOfContextEntry: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property _Bool allowsUltraConstrainedNetworks;
-@property(copy) CDUnknownBlockType block;
-@property(retain) NSString *bundleIdentifierForDataUsage;
-@property int concurrentConnections;
-@property _Bool disableKeepAlive;
-@property _Bool forceCellularIfPossible;
-@property int keepAliveCell;
-@property int keepAliveWifi;
-@property(retain) NSURLRequest *request;
 @property _Bool requireIDSHost;
-@property _Bool shouldReturnTimingData;
-@property _Bool shouldUsePipelining;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SEMSpanMatcher;
+@class NSString;
 
 @interface CKVocabularySearcher
 {
     NSString *_userId;
-    SEMSpanMatcher *_spanMatcher;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

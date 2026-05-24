@@ -7,8 +7,6 @@
 @interface NewsUI2.LocalOnboardingURLHandler
 {
     id patterns;
-    id navigator;
-    id featureAvailability;
 }
 
 @end

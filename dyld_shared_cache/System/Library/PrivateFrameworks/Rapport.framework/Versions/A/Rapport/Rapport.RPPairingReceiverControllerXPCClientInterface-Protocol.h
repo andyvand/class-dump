@@ -5,5 +5,6 @@
 //
 
 @protocol Rapport.RPPairingReceiverControllerXPCClientInterface
+- (void);
 @end
 

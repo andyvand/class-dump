@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNClassifyImageRequestConfiguration : VNImageBasedRequestConfiguration
 {
     VNClassificationCustomHierarchy *_customHierarchy;
-    unsigned long long _maximumLeafObservations;
-    unsigned long long _maximumHierarchicalObservations;
-    unsigned long long _imageCropAndScaleOption;
 }
 
 - (void);
@@ -31,9 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) VNClassificationCustomHierarchy *customHierarchy; // @synthesize customHierarchy=_customHierarchy;
-@property(nonatomic) unsigned long long imageCropAndScaleOption; // @synthesize imageCropAndScaleOption=_imageCropAndScaleOption;
-@property(nonatomic) unsigned long long maximumHierarchicalObservations; // @synthesize maximumHierarchicalObservations=_maximumHierarchicalObservations;
-@property(nonatomic) unsigned long long maximumLeafObservations; // @synthesize maximumLeafObservations=_maximumLeafObservations;
 
 @end
 

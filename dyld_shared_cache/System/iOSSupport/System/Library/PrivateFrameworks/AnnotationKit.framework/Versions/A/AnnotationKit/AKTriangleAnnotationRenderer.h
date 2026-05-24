@@ -15,8 +15,8 @@
 + (struct CGRect);
 + (void);
 + (struct CGRect);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)C;
++ (_Bool)R;
 + (struct CGRect);
 + (struct CGSize);
 

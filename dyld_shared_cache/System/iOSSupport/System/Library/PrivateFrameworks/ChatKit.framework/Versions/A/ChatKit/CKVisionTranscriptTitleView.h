@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarButton, CKVisionKTBadgeView;
+@class CKAvatarButton;
 
 __attribute__((visibility("hidden")))
 @interface CKVisionTranscriptTitleView
 {
     CKAvatarButton *_avatarButton;
-    CKVisionKTBadgeView *_ktBadgeImageView;
-    CDUnknownBlockType _tapHandler;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)setCompletedUnitCount:(id)arg1;
+- (void)notesContainingHashtagWithStandarizedContent:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)SRange=QQ},N,V_ic_range;
+- (id)Section;
 - (id);
 - (CDUnknownBlockType);
+- (void)9];
 - (void);
-- (void);
-- (void)ticsSessionStartDate;
+- (void)SearchAnalyticsSessionStartDate;
 
 // Remaining properties
 @property(retain, nonatomic) CKAvatarButton *avatarButton; // @synthesize avatarButton=_avatarButton;
-@property(retain, nonatomic) CKVisionKTBadgeView *ktBadgeImageView; // @synthesize ktBadgeImageView=_ktBadgeImageView;
-@property(copy, nonatomic) CDUnknownBlockType tapHandler; // @synthesize tapHandler=_tapHandler;
 
 @end
 

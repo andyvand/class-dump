@@ -11,10 +11,10 @@
 }
 
 + (_Bool);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)lProbabilityForWord:(id)arg1 context:] is not valid for this language model /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

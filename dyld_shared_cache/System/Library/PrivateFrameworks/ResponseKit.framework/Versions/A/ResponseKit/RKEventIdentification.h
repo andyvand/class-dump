@@ -9,7 +9,6 @@
 @interface RKEventIdentification
 {
     NSArray *_tokenSequences;
-    float *_probabilities;
 }
 
 - (CDStruct_cd0cafa4);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)rQ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *tokenSequences; // @synthesize tokenSequences=_tokenSequences;

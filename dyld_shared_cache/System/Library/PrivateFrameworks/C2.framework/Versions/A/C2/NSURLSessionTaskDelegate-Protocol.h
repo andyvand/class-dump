@@ -7,8 +7,10 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void);
 - (void)	
 ;
-- (void)etryForBackgroundDataTasks;
+- (void)allowsRetryForBackgroundDataTasks;
 @end
 

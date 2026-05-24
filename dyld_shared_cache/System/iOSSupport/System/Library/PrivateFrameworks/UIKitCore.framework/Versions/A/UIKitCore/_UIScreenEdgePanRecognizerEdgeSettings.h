@@ -10,21 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _UIScreenEdgePanRecognizerEdgeSettings : _UISettings
 {
     double _hysteresis;
-    double _edgeRegionSize;
-    double _bottomEdgeRegionSize;
-    double _edgeAngleWindow;
-    double _edgeAngleWindowDecayTime;
-    double _maximumSwipeDuration;
 }
 
++ (id);
 + (id);
-+ (id);
 - (void);
+- (double)16@24@32@40@48B56^@60;
+- (double)q;
+- (void);
 - (double);
-- (double);
-- (void);
-- (double);
-- (void);
+- (void);
 - (double);
 - (double);
 - (void);
@@ -32,18 +27,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)ailViewController"b1"delegatePrimaryViewControllerForCollapsingSplitViewController"b1"delegatePrimaryViewControllerForExpandingSplitViewController"b1"delegateCollapseSecondaryViewControllerOntoPrimaryViewController"b1"delegateSeparateSecondaryViewControllerFromPrimaryViewController"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
 - (double)d}64;
-- (void)s: /* Error: Ran out of types for this method. */;
+- (void)setShouldShowFileExtensions: /* Error: Ran out of types for this method. */;
 - (void)%{public}s -> %{public}s;
 - (void)not load NIB in bundle:(double)arg1 '%@' with name '%@';
 
 // Remaining properties
-@property(nonatomic) double bottomEdgeRegionSize; // @synthesize bottomEdgeRegionSize=_bottomEdgeRegionSize;
-@property(nonatomic) double edgeAngleWindow; // @synthesize edgeAngleWindow=_edgeAngleWindow;
-@property(nonatomic) double edgeAngleWindowDecayTime; // @synthesize edgeAngleWindowDecayTime=_edgeAngleWindowDecayTime;
-@property(nonatomic) double edgeAngleWindowDegreees;
-@property(nonatomic) double edgeRegionSize; // @synthesize edgeRegionSize=_edgeRegionSize;
 @property(nonatomic) double hysteresis; // @synthesize hysteresis=_hysteresis;
-@property(nonatomic) double maximumSwipeDuration; // @synthesize maximumSwipeDuration=_maximumSwipeDuration;
 
 @end
 

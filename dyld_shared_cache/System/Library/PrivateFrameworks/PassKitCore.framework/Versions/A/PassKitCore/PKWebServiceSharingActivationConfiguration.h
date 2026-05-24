@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKOSVersionRequirementRange;
+@class NSString;
 
 @interface PKWebServiceSharingActivationConfiguration
 {
     NSString *_channelBundleIdentifier;
-    long long _channelRiskLevel;
-    long long _accessPassType;
-    PKOSVersionRequirementRange *_versionRange;
-    NSString *_manufacturerIdentifier;
-    long long _codeLength;
-    unsigned long long _defaultState;
-    long long _trustLevel;
-    NSArray *_blockedSharingChannels;
-    NSArray *_allowedSharingChannels;
 }
 
-- (long long);
+- (long long);
 - (unsigned long long);
 - (long long);
 - (id);
@@ -28,23 +19,14 @@
 - (id);
 - (long long);
 - (long long);
+- (id)�;
 - (id);
 - (id);
-- (id);
-- (id)ns;
-- (void)allaxEmitterImage;
+- (id)pendingTransactions;
+- (void)backgroundParallaxEmitterImage;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessPassType; // @synthesize accessPassType=_accessPassType;
-@property(readonly, nonatomic) NSArray *allowedSharingChannels; // @synthesize allowedSharingChannels=_allowedSharingChannels;
-@property(readonly, nonatomic) NSArray *blockedSharingChannels; // @synthesize blockedSharingChannels=_blockedSharingChannels;
 @property(readonly, nonatomic) NSString *channelBundleIdentifier; // @synthesize channelBundleIdentifier=_channelBundleIdentifier;
-@property(readonly, nonatomic) long long channelRiskLevel; // @synthesize channelRiskLevel=_channelRiskLevel;
-@property(readonly, nonatomic) long long codeLength; // @synthesize codeLength=_codeLength;
-@property(readonly, nonatomic) unsigned long long defaultState; // @synthesize defaultState=_defaultState;
-@property(readonly, nonatomic) NSString *manufacturerIdentifier; // @synthesize manufacturerIdentifier=_manufacturerIdentifier;
-@property(readonly, nonatomic) long long trustLevel; // @synthesize trustLevel=_trustLevel;
-@property(readonly, nonatomic) PKOSVersionRequirementRange *versionRange; // @synthesize versionRange=_versionRange;
 
 @end
 

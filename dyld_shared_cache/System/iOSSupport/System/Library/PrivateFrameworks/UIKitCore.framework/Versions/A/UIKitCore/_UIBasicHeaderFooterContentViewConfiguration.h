@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIContentViewLabelConfiguration;
-
 @interface _UIBasicHeaderFooterContentViewConfiguration
 {
     struct {
         unsigned int hasCustomizedAxesPreservingSuperviewLayoutMargins:1;
         unsigned int hasCustomizedDirectionalLayoutMargins:1;
     } _configurationFlags;
-    unsigned long long _axesPreservingSuperviewLayoutMargins;
-    long long _defaultStyle;
-    _UIContentViewLabelConfiguration *_textLabel;
-    struct NSDirectionalEdgeInsets _directionalLayoutMargins;
 }
 
 + (id);
@@ -27,26 +21,26 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)Alpha;
++ (_Bool)TVAlert_DarkModeBackgroundHairlineAlpha;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)conversationManager:linkChangedForConversation: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)hed all tasks;
+- (void)M;
 - (void);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (id);
-- (void);
+- (void)utes.heroArtwork;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool)
 × ;
 - (id)1Â0@ù
 × ;
-- (_Bool)itch:(id)arg1;
+- (_Bool)setReplaceToggleSwitch:(id)arg1;
 - (void)performIntentTransition:(id)arg1;
 - (id)earchController;
 - (unsigned long long)P;
@@ -61,19 +55,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setAxesPreservingSuperviewLayoutMargins:) unsigned long long _axesPreservingSuperviewLayoutMargins; // @synthesize _axesPreservingSuperviewLayoutMargins;
-@property(nonatomic) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setDirectionalLayoutMargins:) struct NSDirectionalEdgeInsets _directionalLayoutMargins; // @synthesize _directionalLayoutMargins;
-@property(nonatomic) unsigned long long axesPreservingSuperviewLayoutMargins;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool resetsVerticalLayoutMargins;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIContentViewLabelConfiguration *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

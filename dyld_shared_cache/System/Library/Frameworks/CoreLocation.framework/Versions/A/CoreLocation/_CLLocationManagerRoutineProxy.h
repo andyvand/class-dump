@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManagerRoutine, NSObject, NSString, NSXPCConnection;
+@class NSObject, NSXPCConnection;
 @protocol OS_dispatch_queue;
 
 @interface _CLLocationManagerRoutineProxy
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _updating;
-    NSXPCConnection *_connection;
-    id _delegate;
-    id _inertialDelegate;
-    CLLocationManagerRoutine *_locationManagerRoutine;
 }
 
+- (void)alid ContinuousCodestreamBox count (%u)
+;
+- (id)[HDRImageConverter_SIMD computeGainMap:transform:outputImage:transform:fromBaseImage:transform:alternateImage:transform:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setInternalLogBufferResidencySet:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -37,17 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) id inertialDelegate; // @synthesize inertialDelegate=_inertialDelegate;
-@property(nonatomic) CLLocationManagerRoutine *locationManagerRoutine; // @synthesize locationManagerRoutine=_locationManagerRoutine;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool updating; // @synthesize updating=_updating;
 
 @end
 

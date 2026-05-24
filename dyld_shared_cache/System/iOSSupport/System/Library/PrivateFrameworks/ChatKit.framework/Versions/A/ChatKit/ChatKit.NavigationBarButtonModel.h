@@ -7,9 +7,6 @@
 @interface ChatKit.NavigationBarButtonModel
 {
     id content;
-    id onTapAction;
-    id wantsGlassPlatter;
-    id identifier;
 }
 
 - (id);

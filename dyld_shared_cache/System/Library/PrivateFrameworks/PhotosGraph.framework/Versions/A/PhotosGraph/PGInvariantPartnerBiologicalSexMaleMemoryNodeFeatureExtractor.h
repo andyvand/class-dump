@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)imageURL;
 - (id);
 
 @end

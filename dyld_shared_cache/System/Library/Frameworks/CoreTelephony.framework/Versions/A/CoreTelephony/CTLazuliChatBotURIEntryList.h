@@ -11,14 +11,14 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)%p %@ contentKeySpecifier:%@ mediaType:%@ isClientInitiated:%d mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
+- (_Bool)9	;
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)LAEnvironmentMechanismCompanion;
 - (id);
 - (void);
 - (void)&ð!@Eùª)ð1Â0@ù

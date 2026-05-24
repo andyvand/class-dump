@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PXLibraryFilterState, PXSharedLibraryAssistantViewModel, PXSharedLibraryFaceTileImageProvider, PXSharedLibraryLegacyDevicesFallbackMonitor, PXSharedLibraryLegacyDevicesRemoteController, PXSharedLibraryStatusProvider;
-@protocol PXSharedLibrary;
+@class NSMutableDictionary, PXSharedLibraryFaceTileImageProvider;
 
 @interface PXSharedLibraryAssistantContext
 {
     PXSharedLibraryFaceTileImageProvider *_faceTileImageProvider;
-    PXSharedLibraryLegacyDevicesFallbackMonitor *_legacyDevicesFallbackMonitor;
-    PXSharedLibraryLegacyDevicesRemoteController *_legacyDevicesRemoteController;
-    PXSharedLibraryStatusProvider *_statusProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    id <PXSharedLibrary> _sharedLibrary;
-    PXSharedLibraryAssistantViewModel *_viewModel;
-    NSMutableDictionary *_stepContextIdentifiersToContexts;
 }
 
 + (id);
@@ -67,20 +59,7 @@
 - (id)CÔÿ,pMãÏ=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXSharedLibraryLegacyDevicesFallbackMonitor *legacyDevicesFallbackMonitor; // @synthesize legacyDevicesFallbackMonitor=_legacyDevicesFallbackMonitor;
-@property(readonly, nonatomic) PXSharedLibraryLegacyDevicesRemoteController *legacyDevicesRemoteController; // @synthesize legacyDevicesRemoteController=_legacyDevicesRemoteController;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) id <PXSharedLibrary> sharedLibrary; // @synthesize sharedLibrary=_sharedLibrary;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *statusProvider; // @synthesize statusProvider=_statusProvider;
 @property(readonly, nonatomic) NSMutableDictionary *stepContextIdentifiersToContexts; // @synthesize stepContextIdentifiersToContexts=_stepContextIdentifiersToContexts;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

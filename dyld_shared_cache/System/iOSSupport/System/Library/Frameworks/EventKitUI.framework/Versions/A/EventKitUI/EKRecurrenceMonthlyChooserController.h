@@ -6,35 +6,29 @@
 
 #import <EventKitUI/EKRecurrenceChooserController.h>
 
-@class EKRecurrenceMonthDayChooserController, EKRecurrenceOrdinalChooserController, UITableViewCell;
-@protocol EKRecurrenceChooserControllerDelegate;
+@class EKRecurrenceMonthDayChooserController;
 
 @interface EKRecurrenceMonthlyChooserController : EKRecurrenceChooserController
 {
     EKRecurrenceMonthDayChooserController *_monthDayChooser;
-    EKRecurrenceOrdinalChooserController *_ordinalChooser;
-    id <EKRecurrenceChooserControllerDelegate> _delegate;
-    long long _selectedRow;
-    UITableViewCell *_onEachCell;
-    UITableViewCell *_onTheCell;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (id)X%s;
+- (id)$&s;
+- (void)c{;
+- (void)dentity";
+- (_Bool)@"NSString";
+- (void)_doHSADeviceProvisioningWithDSID:(id)arg1 data: /* Error: Ran out of types for this method. */;
+- (void)CVNLPCaptionScaleMethodCGInterpolationNone;
 - (id);
 - (id);
 - (long long);
-- (void)w;
+- (void)setupAsEmptyView;
 - (long long)_Èï;
 
 // Remaining properties

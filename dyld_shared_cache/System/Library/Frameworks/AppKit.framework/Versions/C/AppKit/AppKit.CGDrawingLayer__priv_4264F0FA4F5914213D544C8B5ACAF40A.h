@@ -7,7 +7,6 @@
 @interface AppKit.CGDrawingLayer__priv_4264F0FA4F5914213D544C8B5ACAF40A
 {
     id content;
-    id state;
 }
 
 - (id);

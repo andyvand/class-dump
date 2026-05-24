@@ -7,18 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.ViewModel
 {
     id conversation;
-    id faceTimeViewModel;
-    id handleSelectionModel;
-    id togglesViewModel;
-    id locationViewModel;
-    id keyTransparencyViewModel;
-    id purgedAttachmentsViewModel;
-    id _supportedComponents;
-    id actionHandlers;
-    id coordinator;
-    id configuration;
-    id encryptionFooterViewModel;
-    id _$observationRegistrar;
 }
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol AFEnablementConfigurationProviderParametersMutating
+- (void);
+- (void)_;
+- (void)_surfaceEntryPointShader;
 @end
 

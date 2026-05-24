@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUICoreContactEditingSession, NSString;
+@class CNUICoreContactEditingSession;
 
 __attribute__((visibility("hidden")))
 @interface CNUIEditingSessionSaveExecutor
@@ -13,20 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)<;
 - (id);
 - (id);
-- (id);
-- (void)rFaceTracking;
+- (void)allowsAvatarFaceTracking;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CNUICoreContactEditingSession *editingSession; // @synthesize editingSession=_editingSession;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

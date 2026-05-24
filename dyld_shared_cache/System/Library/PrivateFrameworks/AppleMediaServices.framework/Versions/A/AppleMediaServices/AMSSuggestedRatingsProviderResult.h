@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AMSSuggestedRatingsProviderResult
 {
     void dataObject;
-    void ageGroupContentPolicies;
-    void storeFront;
-    id response;
 }
 
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -24,9 +21,7 @@
 -s¤n´eå¤ºlßÍêQ´c©Ð^s¢"Gc}«r`GüÎ}óÞêÎÐ´¦:ßÂ»5ÉI,Àª¸$ÁÜ¥+×W2ÞÕÇà[¾i£ÚTy¨(Miw¡ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *ageGroupContentPolicies;
 @property(nonatomic, readonly) NSArray *dataObject;
-@property(nonatomic, readonly) NSString *storeFront;
 
 @end
 

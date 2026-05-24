@@ -4,49 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray, NSString;
+@class NSString;
 
 @protocol FCAppleAccount
+- (NSString *);
+- (_Bool)widgetForYouFromDaemonEnabled;
+- (NSString *)expirePinnedArticlesAfter;
+- (_Bool)H;
 - (NSString *)áæ°!BùÑöÐ1Â0@ù
 × ;
 - (NSString *)32@0:8@"UIPageViewController"16@"UIViewController"24 /* Error: Ran out of types for this method. */;
-- (long long)alueForTraitCollection:size: /* Error: Ran out of types for this method. */;
+- (long long)valueForTraitCollection:size: /* Error: Ran out of types for this method. */;
 - (NSString *)loader did finish, articleID=%{public}@, duration=%f;
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *DSID;
-@property(readonly, nonatomic) ACAccount *activeiTunesAccount;
-@property(readonly, nonatomic) long long ageCategory;
-@property(readonly, nonatomic) NSArray *allEmailAddresses;
-@property(readonly, nonatomic) NSString *altDSID;
-@property(readonly, nonatomic) NSString *appStoreEmailAddress;
-@property(readonly, nonatomic) NSString *contentStoreFrontID;
-@property(readonly, nonatomic) long long dynamicSupportedContentLanguage;
-@property(readonly, nonatomic) NSString *endpointConnectionClientID;
-@property(readonly, nonatomic) NSString *firstName;
-@property(readonly, nonatomic) NSString *formattedUsername;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool isContentStoreFrontSupported;
-@property(readonly, nonatomic) _Bool isFamilyEligible;
-@property(readonly, nonatomic) _Bool isFamilySuspended;
-@property(readonly, nonatomic) _Bool isSignedInStoreFrontSupported;
-@property(readonly, nonatomic) _Bool isSuspended;
-@property(readonly, nonatomic) _Bool isiCloudSuspended;
-@property(readonly, nonatomic) NSString *lastName;
-@property(readonly, nonatomic) NSString *localizedContentStoreFrontID;
-@property(readonly, nonatomic) NSString *middleName;
-@property(readonly, nonatomic) NSString *normalizedPersonId;
-@property(readonly, nonatomic) NSString *personID;
-@property(readonly, nonatomic) NSArray *preferredLanguageCodes;
-@property(readonly, nonatomic) NSString *primaryEmailAddress;
-@property(readonly, nonatomic) NSString *primaryLanguageCode;
-@property(readonly, nonatomic, getter=isPrivateDataSyncingEnabled) _Bool privateDataSyncingEnabled;
-@property(readonly, nonatomic) long long supportedContentLanguage;
-@property(readonly, nonatomic) NSString *supportedContentStoreFrontID;
-@property(readonly, nonatomic) NSString *supportedLocalizedContentStoreFrontID;
-@property(readonly, nonatomic, getter=isUserSignedInToiCloud) _Bool userSignedInToiCloud;
-@property(readonly, nonatomic) NSString *userStoreFrontID;
-@property(readonly, nonatomic) NSString *username;
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBFlight;
+@class NSArray;
 
 @interface _SFPBFlightCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    unsigned int _selectedLegIndex;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBFlight *_flight;
 }
 
 - (void);
@@ -30,16 +20,16 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ICSQLiteStatement;
 - (_Bool);
 - (id);
 - (void);
@@ -49,35 +39,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)loopingLivePhotoWithResourceFileURLs:(id)arg1 skipInstantiatingImageAndAVAsset:error: /* Error: Ran out of types for this method. */;
+- (id)urceLocalAvailabilityRequest] Will fulfill on-demand resource:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setReviewNewLine: /* Error: Ran out of types for this method. */;
 - (int):s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBFlight *flight; // @synthesize flight=_flight;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) unsigned int selectedLegIndex; // @synthesize selectedLegIndex=_selectedLegIndex;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

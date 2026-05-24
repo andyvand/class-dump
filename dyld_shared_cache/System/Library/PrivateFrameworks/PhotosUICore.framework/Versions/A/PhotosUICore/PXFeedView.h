@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXFeedContentLayout, PXFeedTitleLayout, PXFeedViewModel, PXGSplitLayout, PXGView, PXGViewCoordinator;
-@protocol NSObject><NSCopying, PXGAXResponder;
+@class PXGSplitLayout;
 
 @interface PXFeedView
 {
     _Bool _isActive;
-    id <PXGAXResponder> _axNextResponder;
-    PXGSplitLayout *_splitLayout;
-    PXFeedTitleLayout *_titleLayout;
-    PXFeedContentLayout *_feedContentLayout;
-    CDUnknownBlockType _currentTouchCompletion;
-    CDUnknownBlockType _currentHoverCompletion;
-    id <NSObject><NSCopying> _hoveredItemObjectID;
-    PXFeedViewModel *_viewModel;
-    PXGViewCoordinator *_tungstenViewCoordinator;
 }
 
 - (id);
@@ -39,7 +29,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,36 +40,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ommon/XML/DDXMLNode.m;
 - (id)ll"24^{CGRect={CGPoint=dd}{CGSize=dd}}32@"NSTableColumn"40q48{CGPoint=dd}56;
-- (void);
-- (void)ionTypeString;
-- (id)ormer;
+- (void)preferredFocusLayouts;
+- (void)_selectionTypeString;
+- (id)_TtC12PhotosUICore35SocialGroupAddPeopleActionPerformer;
 - (void)þIP´âøþiP´X¦Xÿ;
 - (void)© ¾ô)ÿ;
 - (void)>;
 - (id)pï=;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder=_axNextResponder;
-@property(copy, nonatomic) CDUnknownBlockType currentHoverCompletion; // @synthesize currentHoverCompletion=_currentHoverCompletion;
-@property(copy, nonatomic) CDUnknownBlockType currentTouchCompletion; // @synthesize currentTouchCompletion=_currentTouchCompletion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXFeedContentLayout *feedContentLayout; // @synthesize feedContentLayout=_feedContentLayout;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <NSObject><NSCopying> hoveredItemObjectID; // @synthesize hoveredItemObjectID=_hoveredItemObjectID;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) struct CGRect px_platformSpecificFullScreenReferenceRect;
 @property(readonly, nonatomic) PXGSplitLayout *splitLayout; // @synthesize splitLayout=_splitLayout;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXFeedTitleLayout *titleLayout; // @synthesize titleLayout=_titleLayout;
-@property(readonly, nonatomic) PXGView *tungstenView;
-@property(readonly, nonatomic) PXGViewCoordinator *tungstenViewCoordinator; // @synthesize tungstenViewCoordinator=_tungstenViewCoordinator;
-@property(readonly, nonatomic) PXFeedViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

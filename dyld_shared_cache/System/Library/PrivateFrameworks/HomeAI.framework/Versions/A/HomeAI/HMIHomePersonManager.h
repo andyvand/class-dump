@@ -6,18 +6,11 @@
 
 #import <HomeAI/HMIPersonManager.h>
 
-@class HMFTimer, HMIHomePersonManagerSettings, NSMutableDictionary, NSOperationQueue, NSString;
-@protocol HMIHomePersonManagerDataSource;
+@class NSOperationQueue;
 
 @interface HMIHomePersonManager : HMIPersonManager
 {
     struct os_unfair_lock_s _lock;
-    id <HMIHomePersonManagerDataSource> _dataSource;
-    HMIHomePersonManagerSettings *_settings;
-    NSOperationQueue *_operationQueue;
-    HMFTimer *_watchdogTimer;
-    HMFTimer *_analyticsTimer;
-    NSMutableDictionary *_unknownFacesSavedCounts;
 }
 
 + (id);
@@ -29,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@@y	?%@qa;
 - (void);
 - (void);
 - (void);
@@ -44,24 +37,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)liveRegionStatus;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) HMFTimer *analyticsTimer; // @synthesize analyticsTimer=_analyticsTimer;
-@property(nonatomic) __weak id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) HMIHomePersonManagerSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *unknownFacesSavedCounts; // @synthesize unknownFacesSavedCounts=_unknownFacesSavedCounts;
-@property(readonly) HMFTimer *watchdogTimer; // @synthesize watchdogTimer=_watchdogTimer;
 
 @end
 

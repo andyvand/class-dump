@@ -4,43 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAlertControllerDescriptor, UIInterfaceActionVisualStyle, UITraitCollection, UIWindow;
+@class UIAlertControllerDescriptor;
 
 @interface UIAlertControllerVisualStyle
 {
     UIAlertControllerDescriptor *_descriptor;
-    long long _forcedInterfaceIdiom;
-    UIInterfaceActionVisualStyle *_interfaceActionVisualStyle;
-    UITraitCollection *_traitCollection;
-    UIWindow *_window;
 }
 
 + (void);
 + (long long);
+- (id)auto reply;
+- (_Bool)lay:(long long)arg1 newAllowedDeviceUUIDs count:(id)arg2 %d allowedDeviceUUIDs count:%d /* Error: Ran out of types for this method. */;
+- (double)Received Request To Enroll ourselves for SMS Relay;
+- (id)ivedRecordsFetchCompletionZoneID serverChangeToken %@ moreComing %@ recordZoneError %@;
+- (double)empty chat GUID.;
+- (double)find chat for message guid:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)IL or empty message GUID.;
+- (id)pying chats from sorted identifiers %@:(id)arg1 %@;
+- (_Bool)nd recordID %@ on disk;
+- (_Bool)y list data to load;
+- (_Bool)%@, deleting old avatar image at path during mark as updated %@;
+- (void)data of length:(long long)arg1 %d   to path:%@ /* Error: Ran out of types for this method. */;
+- (id)InitialMessageSyncFailed;
 - (id);
-- (_Bool);
-- (double);
-- (id);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)ReadReceiptTracker;
+- (_Bool)StringPositionMetadata;
 - (long long);
 - (double);
-- (double);
+- (double);
 - (struct CGSize);
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (long long);
 - (long long);
 - (double);
@@ -48,17 +44,17 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)e;
 - (double);
 - (Class);
 - (id);
-- (id);
+- (id)];
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)#;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)wA;
+- (id);
 - (double);
 - (double);
 - (double);
@@ -67,7 +63,7 @@
 - (struct UIEdgeInsets);
 - (double);
 - (_Bool);
-- (double);
+- (double);d;
 - (id);
 - (_Bool);
 - (void);
@@ -78,8 +74,8 @@
 - (double);
 - (double);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
+- (struct UIEdgeInsets);
+- (double)E;
 - (double);
 - (double);
 - (_Bool);
@@ -101,17 +97,17 @@
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@9	@9;
 - (double);
 - (id);
 - (id);
 - (id)°!øFù_Ð1Â0@ù
 × ;
 - (double)NSTextLayoutManager"16@"<NSTextLocation>"24B32;
-- (_Bool)ion:(id)arg1;
+- (_Bool)currentStateHasEqualRect:(id)arg1 andIAVPosition: /* Error: Ran out of types for this method. */;
 - (void)¨È´Ê;
 - (id)L:(struct _NSZone *)arg1;
-- (id)y;
+- (id)Body;
 - (id)Ûÿé¹;
 - (double)a;
 - (void)èµÿ;
@@ -121,11 +117,7 @@
 - (void)°²q;
 
 // Remaining properties
-@property(retain, nonatomic) UIAlertControllerDescriptor *descriptor; // @synthesize descriptor=_descriptor;
 @property(nonatomic) long long forcedInterfaceIdiom; // @synthesize forcedInterfaceIdiom=_forcedInterfaceIdiom;
-@property(readonly, nonatomic) UIInterfaceActionVisualStyle *interfaceActionVisualStyle; // @synthesize interfaceActionVisualStyle=_interfaceActionVisualStyle;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
-@property(nonatomic) __weak UIWindow *window; // @synthesize window=_window;
 
 @end
 

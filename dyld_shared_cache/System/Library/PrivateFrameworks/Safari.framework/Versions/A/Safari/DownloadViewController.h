@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DownloadTableView, NSMutableArray, NSString;
-@protocol DownloadViewControllerDataSource, DownloadViewControllerDelegate;
+@class DownloadTableView, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface DownloadViewController
 {
     DownloadTableView *_tableView;
-    NSMutableArray *_downloadEntries;
-    id <DownloadViewControllerDataSource> _dataSource;
-    id <DownloadViewControllerDelegate> _delegate;
 }
 
 - (id);
@@ -26,38 +22,38 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)4HE;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (struct CGSize);
 - (id);
 - (id);
@@ -72,7 +68,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)%s] didn't have a file size to check. Bypassing the file size check, but this may be unexpected.;
 - (void);
 - (void);
 - (void);
@@ -84,16 +80,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak id <DownloadViewControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <DownloadViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableArray *downloadEntries; // @synthesize downloadEntries=_downloadEntries;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

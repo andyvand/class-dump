@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol OABPropertiesManager
+- (_Bool);
+- (NSString *);
+- (_Bool);
+- (_Bool)"IAProvider",&,V_provider;
 @end
 

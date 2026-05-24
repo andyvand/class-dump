@@ -4,41 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSParagraphStyle, NSString, _NSOptimalLineBreaker;
+@class NSAttributedString;
 
 @interface NSParagraphArbitrator
 {
     NSAttributedString *_attributedString;
-    struct _NSRange _paragraphRange;
-    struct __CTLine *_paragraphLine;
-    double _textContainerWidth;
-    struct __CFStringTokenizer *_tokenizer;
-    struct UBreakIterator *_breaker;
-    NSString *_breakerString;
-    NSString *_breakerLanguage;
-    unsigned long long _usesOptimalLayout;
-    int _lineBreakStyle;
-    _Bool _languageSupportsLineBreakStyle;
-    _Bool _needsOptimalLayout;
-    _NSOptimalLineBreaker *_optimalLineBreaker;
-    NSParagraphStyle *_defaultParagraphStyle;
-    _Bool _breaksLinesForInteractiveText;
-    _Bool _textContainerIsSimple;
-    unsigned long long _maximumNumberOfLines;
-    CDUnknownBlockType _lineWidth;
-    CDUnknownBlockType _validateLineBreakContext;
-    unsigned long long _lineBreakStrategy;
-    double _hyphenationFactor;
-    long long _typesetterBehavior;
-    NSString *_preferredLanguage;
-    struct _NSRange _previousLineRange;
 }
 
 + (id);
 + (int);
-+ (int);
-+ (_Bool)dex: /* Error: Ran out of types for this method. */;
-+ (void)achment;
++ (int)ode",R,N,V_subjectNode;
++ (_Bool)objectAtIndex: /* Error: Ran out of types for this method. */;
++ (void)attachment;
 - (int);
 - (void);
 - (void);
@@ -59,24 +36,24 @@
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
+- (void)6H_;
 - (_Bool);
 - (void);
 - (struct __CTLine *);
 - (struct _NSRange);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (double);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)receiveArchivedItemsDescriptors:(CDUnknownBlockType)arg1 placeholderName:placeholderTypeIdentifier: /* Error: Ran out of types for this method. */;
 - (CDStruct_f03de906);
-- (id);
+- (id)}@;
 - (id);
 - (void);
 - (_Bool);
@@ -84,11 +61,11 @@
 - (CDUnknownBlockType);
 - (void);
 - (void)32;
-- (_Bool)lectionAnchorLocation: /* Error: Ran out of types for this method. */;
+- (_Bool)setSelectionAnchorLocation: /* Error: Ran out of types for this method. */;
 - (void)awingToScreen;
 - (unsigned long long);
 - (double);
-- (void);
+- (void)0;
 - (long long);
 - (struct __CFStringTokenizer *)Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/><Override PartName="/word/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/><Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/><Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/></Types> /* Error: Ran out of types for this method. */;
 - (void)ndocument.text" manifest:(double)arg1 full-path="/"/>
@@ -101,23 +78,6 @@
 
 // Remaining properties
 @property(retain) NSAttributedString *attributedString;
-@property _Bool breaksLinesForInteractiveText; // @synthesize breaksLinesForInteractiveText=_breaksLinesForInteractiveText;
-@property(readonly) NSString *debugString;
-@property(copy) NSParagraphStyle *defaultParagraphStyle;
-@property double hyphenationFactor; // @synthesize hyphenationFactor=_hyphenationFactor;
-@property unsigned long long lineBreakStrategy; // @synthesize lineBreakStrategy=_lineBreakStrategy;
-@property(copy) CDUnknownBlockType lineWidth; // @synthesize lineWidth=_lineWidth;
-@property unsigned long long maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
-@property(readonly) _Bool mayCompressLines;
-@property struct __CTLine *paragraphLine;
-@property struct _NSRange paragraphRange;
-@property(copy) NSString *preferredLanguage; // @synthesize preferredLanguage=_preferredLanguage;
-@property struct _NSRange previousLineRange; // @synthesize previousLineRange=_previousLineRange;
-@property _Bool textContainerIsSimple; // @synthesize textContainerIsSimple=_textContainerIsSimple;
-@property double textContainerWidth;
-@property(readonly) struct __CFStringTokenizer *tokenizer; // @synthesize tokenizer=_tokenizer;
-@property long long typesetterBehavior; // @synthesize typesetterBehavior=_typesetterBehavior;
-@property(copy) CDUnknownBlockType validateLineBreakContext; // @synthesize validateLineBreakContext=_validateLineBreakContext;
 
 @end
 

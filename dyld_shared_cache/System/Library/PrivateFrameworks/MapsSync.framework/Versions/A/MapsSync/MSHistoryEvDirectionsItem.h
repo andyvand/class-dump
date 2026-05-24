@@ -9,10 +9,9 @@
 @interface MSHistoryEvDirectionsItem : MSHistoryDirectionsItem
 {
     id _requiredCharge;
-    id _vehicleIdentifier;
 }
 
-+ (Class);
++ (Class)T;
 
 @end
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSMutableDictionary, NSString, NSXPCConnection;
 @protocol NSObject><IMKTextInput><IMKUnicodeTextInput><IMTSMSupport;
 
 @interface _IPMDServerClientWrapperModern
 {
     id <NSObject><IMKTextInput><IMKUnicodeTextInput><IMTSMSupport> _clientDOProxy;
-    NSXPCConnection *_xpcConnection;
-    _Bool _usesXPC;
-    _Bool _inserting;
-    unsigned long long _markedCharacterCount;
-    long long _documentIDCache;
-    struct CGRect _touchBarAvailableFrameCache;
-    NSString *_markedTextCache;
-    _Bool _currentAttributesCacheValid;
-    _Bool _currentIndexZeroAttributeCacheValid;
-    long long _keyboardType;
-    NSMutableDictionary *_validEvents;
-    double _replyTimeout;
-    _Bool _isForcedSilentCommitComposition;
-    int _windowLevel_Cache;
-    NSString *_bundleIdentifier_Cache;
-    NSAppearance *_viewEffectiveAppearance_Cache;
-    NSMutableDictionary *_attributes_Cache;
 }
 
 + (void);
@@ -39,33 +21,33 @@
 - (id);
 - (double);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)^  ;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)_;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)x;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (void)=a;
 - (void);
-- (void);
+- (_Bool);
+- (id)A;
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)9);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -74,7 +56,7 @@
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id)(=;
 - (id);
 - (id);
 - (void);
@@ -96,6 +78,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)Ni;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -103,11 +86,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)9	m;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
@@ -122,23 +104,24 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)RA;
 - (long long);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)h;
 - (unsigned long long);
 - (void);
 - (double);
-- (id);
-- (void);
+- (id)yv6YGTkX35bTGSZommcUtxVPEtFxhE/Library/Caches/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm" at line 477
+;
+- (void);
 - (id);
 - (long long);
-- (void);
+- (void)setHasEncodeFormats:(id)arg1;
 - (id);
 - (void);
-- (int);
+- (int);
 - (struct _NSRange);
 - (struct _NSRange)
 × ;
@@ -146,17 +129,10 @@
 × ;
 - (void)ù1>ð1Â0@ù
 × ;
-- (void)te: /* Error: Ran out of types for this method. */;
+- (void)setMultitapKeyboardState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *attributes_Cache; // @synthesize attributes_Cache=_attributes_Cache;
-@property(copy, nonatomic) NSString *bundleIdentifier_Cache; // @synthesize bundleIdentifier_Cache=_bundleIdentifier_Cache;
-@property(nonatomic) _Bool currentAttributesCacheValid; // @synthesize currentAttributesCacheValid=_currentAttributesCacheValid;
-@property(nonatomic) _Bool currentIndexZeroAttributeCacheValid; // @synthesize currentIndexZeroAttributeCacheValid=_currentIndexZeroAttributeCacheValid;
 @property(nonatomic) long long documentIDCache; // @synthesize documentIDCache=_documentIDCache;
-@property(nonatomic) struct CGRect touchBarAvailableFrameCache; // @synthesize touchBarAvailableFrameCache=_touchBarAvailableFrameCache;
-@property(retain, nonatomic) NSAppearance *viewEffectiveAppearance_Cache; // @synthesize viewEffectiveAppearance_Cache=_viewEffectiveAppearance_Cache;
-@property(nonatomic) int windowLevel_Cache; // @synthesize windowLevel_Cache=_windowLevel_Cache;
 
 @end
 

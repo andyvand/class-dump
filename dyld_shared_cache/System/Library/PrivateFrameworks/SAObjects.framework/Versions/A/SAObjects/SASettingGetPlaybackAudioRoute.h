@@ -13,12 +13,12 @@
 }
 
 + (id);
-+ (id);
++ (id)T;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)hW;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *audioCategory;

@@ -6,28 +6,19 @@
 
 #import <UIKitCore/UIAnimation.h>
 
-@class CABasicAnimation;
-
 __attribute__((visibility("hidden")))
 @interface UIScrollViewScrollAnimation : UIAnimation
 {
     struct CGPoint _originalOffset;
-    struct CGPoint _targetOffset;
-    _Bool _targetOffsetValidAtStart;
-    double _accuracy;
-    _Bool _adjustsForContentOffsetDelta;
-    CABasicAnimation *_customAnimation;
-    _Bool _revealsHorizontalScrollIndicator;
-    _Bool _revealsVerticalScrollIndicator;
 }
 
-- (void);
+- (void)payloadQoSMarkingWhitelistedAppIdentifiers;
 - (float);
 - (void)1`ð1Â0@ù
 × ;
 - (void);
 - (_Bool)sionInputModeHasDictation;
-- (void)9A7AC459E3971D298134A7167432_UIViewDynamicLayoutGuideSupport;
+- (void)_TtC5UIKitP33_AADD5A9A7AC459E3971D298134A7167432_UIViewDynamicLayoutGuideSupport;
 - (_Bool)s non-default values for the following traits that cannot represent unspecified values:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
 - (void)ÝW23vþ;
 - (void)qÎác;

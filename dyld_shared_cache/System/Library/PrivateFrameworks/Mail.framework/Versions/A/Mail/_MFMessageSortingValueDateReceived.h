@@ -13,7 +13,7 @@
 
 - (void);
 - (double);
-- (id);
+- (id)release;
 
 // Remaining properties
 @property(nonatomic) double dateReceivedAsTimeIntervalSince1970; // @synthesize dateReceivedAsTimeIntervalSince1970=_dateReceivedAsTimeIntervalSince1970;

@@ -6,35 +6,27 @@
 
 #import <AppKit/_NSValueBinderPlugin.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSSelectionBinderPlugin : _NSValueBinderPlugin
 {
 }
 
-- (Class);
+- (Class)__data;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)AppleDiagnosticDataAccessReadOnly;
+- (void)ik8OQ5JoYhyK8AoTx29MuA;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)@;
 - (void);
 - (_Bool);
 - (Class);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

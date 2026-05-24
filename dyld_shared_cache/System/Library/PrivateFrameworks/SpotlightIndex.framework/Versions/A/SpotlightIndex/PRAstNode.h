@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PRAstNode
 {
     _Bool _isLastToken;
-    NSString *_sourceToken;
 }
 
 - (id);
@@ -20,10 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)+93,S9;
 
 // Remaining properties
-@property(nonatomic) _Bool isLastToken; // @synthesize isLastToken=_isLastToken;
 @property(retain, nonatomic) NSString *sourceToken; // @synthesize sourceToken=_sourceToken;
 
 @end

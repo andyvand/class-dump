@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (id);
-+ (_Bool);
-+ (id);
++ (void)voiceCountForRecognitionLanguage;
++ (void)valueForKey: /* Error: Ran out of types for this method. */;
++ (id)updateWithTargetVoice: /* Error: Ran out of types for this method. */;
++ (_Bool)ationActive:(id *)arg1 cursorInVisibleText:favorCommandSuppression:abortCommandSuppression:undoEvent: /* Error: Ran out of types for this method. */;
++ (id)updateSpeechSynthesisRecord: /* Error: Ran out of types for this method. */;
 + (void);
 
 @end

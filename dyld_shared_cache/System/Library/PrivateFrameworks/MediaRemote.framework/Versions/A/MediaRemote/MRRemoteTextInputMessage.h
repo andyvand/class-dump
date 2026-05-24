@@ -6,19 +6,16 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSData;
-
 @interface MRRemoteTextInputMessage : MRProtocolMessage
 {
 }
 
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)mberOfSyncAttempts %@;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
 @property(readonly, nonatomic) unsigned long long version;
 
 @end

@@ -7,18 +7,14 @@
 @interface NewsArticles.SharedWithYouHeaderViewController
 {
     id attributionView;
-    id renderer;
-    id sharedItem;
-    id sharedItemManager;
-    id headerDelegate;
 }
 
 - (id);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)ider;
+- (void)colorPaletteProvider;
 
 @end
 

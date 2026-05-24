@@ -6,16 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSSlider, NSString, UISlider, UISliderDataModel, _UINSView;
+@class NSSlider, UISlider;
 
 __attribute__((visibility("hidden")))
 @interface _UISliderMacVisualElement : UIView
 {
     NSSlider *_nsSlider;
-    _UINSView *_bridge;
-    UISliderDataModel *_data;
-    unsigned int _animating:1;
-    UISlider *_slider;
 }
 
 - (void);
@@ -29,27 +25,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)8@"MTLTextureDescriptor"16;
 - (void);
-- (void);
+- (void)CEMNetworkVPNAppToAppLayerMappingDeclaration_AppLayerVPNMappingItem;
 - (id);
 - (_Bool);
+- (void)";
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)Chunkserver__GetChunkKeysResponse;
+- (void)egister item %lld in chunk store:%{public}@. /* Error: Ran out of types for this method. */;
+- (void)ype:(id)arg1 ,V_avItemType;
+- (void)lts;
+- (void)MPQueueFeeder;
+- (id)MPPlaybackUserDefaultsMusicShuffleTypeDidChangeNotification;
+- (id);
 - (void);
 - (id);
 - (void);
+- (id)`;
 - (void);
-- (id);
+- (void);
+- (id);
 - (void)!(CùZ1Â0@ù
 × ;
 - (void)!pCù]1Â0@ù
@@ -68,42 +64,30 @@ __attribute__((visibility("hidden")))
 - (void)nterfaceActionViewState"16;
 - (struct UIEdgeInsets)ectionReusableView"40@0:8@"UICollectionView"16@"NSString"24@"NSIndexPath"32 /* Error: Ran out of types for this method. */;
 - (_Bool)setNikeEntry: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ivelyForReordering:(struct CGRect)arg1 propertyAnimator:(struct CGRect)arg2 collectionViewAnimator:(float)arg3;
-- (id)PropertiesQuick:(struct CGRect)arg1 compareText: /* Error: Ran out of types for this method. */;
-- (void)sBackButton;
+- (struct CGRect)_updateWithItems:(struct CGRect)arg1 tentativelyForReordering:(struct CGRect)arg2 propertyAnimator:(float)arg3 collectionViewAnimator: /* Error: Ran out of types for this method. */;
+- (id)_isEqualToPropertiesQuick:(struct CGRect)arg1 compareText: /* Error: Ran out of types for this method. */;
+- (void)_hasBackButton;
 - (id)&,N,VsceneViewController;
 - (struct CGRect)>",&,N,V_context;
-- (void)ragSupporting;
+- (void)UITextDragSupporting;
 - (struct CGSize)l;
 - (void)â¼ãÜã´ä;
 - (struct CGRect)in-progress paste of "%@" to %@;
 - (_Bool)þÿ;
 - (_Bool)llerAdaptiveImpl _updatePreferredColumnsSplitBehavior:(id)arg1 ];
-- (struct CGRect)erHorizontalHi;
-- (void)l;
+- (struct CGRect)UITextMagnifierHorizontalHi;
+- (void)curl;
 - (id)internal bug:Attempting to add an update animation completion block without an inflight animation:%@ /* Error: Ran out of types for this method. */;
 - (id)rchController = %@;
 - (void)yAAy.3y×.3aÐ.3GÓ.3Gí.3G;
 - (void)R¸ëQà?ffffffö?;
 - (struct CGRect);
-- (struct UIEdgeInsets)eHostingKeyboardTrackingElement;
+- (struct UIEdgeInsets)UICoreHostingKeyboardTrackingElement;
 - (void);
 - (_Bool)¼ÚÕ¼®\;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalTrackingViews;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) UISliderDataModel *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UISlider *slider; // @synthesize slider=_slider;
-@property(readonly) Class superclass;
 
 @end
 

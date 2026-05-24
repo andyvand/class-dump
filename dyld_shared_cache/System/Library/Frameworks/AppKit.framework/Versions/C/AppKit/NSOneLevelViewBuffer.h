@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface NSOneLevelViewBuffer : NSViewBuffer
 {
     NSWindow *_window;
-    struct CGLayer *_cgLayer;
 }
 
-- (_Bool);
+- (_Bool)backgroundTask:(struct CGRect)arg1 didReceiveResponse:transactionMetrics:reply: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)_DKIntentMetadataKey__direction;
 - (void);
 - (id);
 

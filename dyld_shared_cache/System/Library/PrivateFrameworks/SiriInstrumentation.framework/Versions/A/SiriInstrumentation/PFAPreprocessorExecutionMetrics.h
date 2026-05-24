@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PFAPreprocessorExecutionMetrics : SISchemaInstrumentationMessage
 {
     unsigned long long _executionTimeInNs;
-    unsigned int _stagedMessageCount;
-    unsigned int _processedMessageCount;
-    struct {
-        unsigned int executionTimeInNs:1;
-        unsigned int stagedMessageCount:1;
-        unsigned int processedMessageCount:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -39,21 +30,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ifier using AskTo bits. Looking in URL for request identifier instead.;
 - (id);
 - (id)±Ý1Â0@ù
 × ;
-- (id)MultiKeyboards;
+- (id)_hasMultiKeyboards;
 - (id)EngineCompilationContext;
 
 // Remaining properties
 @property(nonatomic) unsigned long long executionTimeInNs; // @synthesize executionTimeInNs=_executionTimeInNs;
-@property(nonatomic) _Bool hasExecutionTimeInNs;
-@property(nonatomic) _Bool hasProcessedMessageCount;
-@property(nonatomic) _Bool hasStagedMessageCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int processedMessageCount; // @synthesize processedMessageCount=_processedMessageCount;
-@property(nonatomic) unsigned int stagedMessageCount; // @synthesize stagedMessageCount=_stagedMessageCount;
 
 @end
 

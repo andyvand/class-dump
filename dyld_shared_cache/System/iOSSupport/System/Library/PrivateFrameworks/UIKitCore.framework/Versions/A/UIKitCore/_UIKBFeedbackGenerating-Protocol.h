@@ -7,7 +7,7 @@
 @protocol _UIKBFeedbackGenerating
 - (_Bool)0@ù
 × ;
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void)setInitialTouchPoint: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)y",C,N,V_defaultConstraints;
 - (void)s to be wrong

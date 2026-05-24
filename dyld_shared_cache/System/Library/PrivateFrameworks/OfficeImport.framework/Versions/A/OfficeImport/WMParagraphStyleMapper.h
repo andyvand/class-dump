@@ -6,25 +6,23 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class WDParagraph, WDParagraphProperties, WMParagraphStyle;
+@class WDParagraphProperties;
 
 __attribute__((visibility("hidden")))
 @interface WMParagraphStyleMapper : CMMapper
 {
     WDParagraphProperties *wdParaProperties;
-    WDParagraph *wdParagraph;
-    WMParagraphStyle *mStyle;
 }
 
 - (void);
 - (void);
+- (void)@y;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (_Bool);
@@ -33,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)_addConditionOfType:value:data:] /* Error: Ran out of types for this method. */;
 
 @end

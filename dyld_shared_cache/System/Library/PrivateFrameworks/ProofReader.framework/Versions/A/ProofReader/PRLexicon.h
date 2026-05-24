@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PRLexicon
 {
     NSString *_localization;
-    NSString *_unigramsPath;
-    NSString *_deltaPath;
-    NSString *_name;
-    const void *_lexicon;
 }
 
 + (id);
@@ -26,19 +22,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (struct _LXLexicon *);
+- (struct _LXLexicon *);
 
 // Remaining properties
 @property(readonly) NSString *name;

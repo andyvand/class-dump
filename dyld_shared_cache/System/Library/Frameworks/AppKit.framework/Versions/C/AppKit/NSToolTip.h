@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCell, NSDictionary, NSString, NSView;
-
 @interface NSToolTip
 {
     long long trackingNum;
-    NSView *view;
-    id owner;
-    struct {
-        unsigned int ownerIsDisplayDelegate:1;
-        unsigned int fadesOutWhenInactive:1;
-        unsigned int isExpansionToolTip:1;
-        unsigned int reserved:29;
-    } ttFlags;
-    NSCell *_cell;
-    NSString *_string;
-    NSDictionary *_dataDictionary;
-    void *_weakData;
-    struct CGRect _trackingRect;
 }
 
-- (struct CGRect);
-- (long long);
+- (struct CGRect)4W7X4OWHjri5PGaAGsCWxw;
+- (long long)g8KDO//lXaLwp+URGP6DA;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)er_data WHERE entry_ID in (SELECT entry_ID FROM cfurl_cache_response WHERE time_stamp >= "%s");
 - (void);
 - (id);
-- (id);
+- (id)ch events request for up to %@ events;
 - (id);
 - (void);
 - (void *);
@@ -43,18 +28,10 @@
 × ;
 - (void)
 × ;
-- (id)pping;
+- (id)_shouldDoAdaptiveColorMapping;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCell *cell; // @synthesize cell=_cell;
 @property(nonatomic) void *data;
-@property(readonly, nonatomic) _Bool fadesOutWhenInactive;
-@property(readonly, nonatomic) id owner; // @synthesize owner;
-@property(nonatomic) _Bool ownerIsDisplayDelegate;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(nonatomic) long long trackingNum; // @synthesize trackingNum;
-@property(readonly, nonatomic) struct CGRect trackingRect; // @synthesize trackingRect=_trackingRect;
-@property(readonly, nonatomic) NSView *view; // @synthesize view;
 
 @end
 

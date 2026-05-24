@@ -6,18 +6,11 @@
 
 #import <CoreSuggestionsUI/SGSuggestionPresenter.h>
 
-@class NSArray, _PASLock;
-@protocol NSObject;
+@class NSArray;
 
 @interface SGFoundInSuggestionPresenter : SGSuggestionPresenter
 {
     CDUnknownBlockType _filterBlock;
-    NSArray *_searchableItems;
-    unsigned long long _contentOptions;
-    id <NSObject> _contactStoreObserverToken;
-    _Bool _loadScheduled;
-    NSArray *_existingSuggestions;
-    _PASLock *_lock;
 }
 
 - (void);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (void);

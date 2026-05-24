@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface IMMessageNotificationTimeManager
 {
     NSMutableDictionary *_chatsStartTimeDictionary;
-    NSString *_latestIDSTokenURI;
 }
 
 + (id)¬üìôø´;
@@ -27,11 +26,10 @@
 - (long long);
 - (long long);
 - (void);
-- (id);
+- (id)stationCodeProvidersUsingLocalLookup;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *chatsStartTimeDictionary; // @synthesize chatsStartTimeDictionary=_chatsStartTimeDictionary;
-@property(retain, nonatomic) NSString *latestIDSTokenURI; // @synthesize latestIDSTokenURI=_latestIDSTokenURI;
 
 @end
 

@@ -4,48 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
-
 @interface BTMLoginItem
 {
     _Bool _hidden;
-    NSUUID *_identifier;
-    NSData *_bookmark;
-    NSData *_installerBookmark;
-    unsigned long long _type;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)MPSCNNNormalization_YFast_tex2d_tex2d_LCNNorm0x3;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSData *bookmark; // @synthesize bookmark=_bookmark;
-@property _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSData *installerBookmark; // @synthesize installerBookmark=_installerBookmark;
-@property(readonly) NSString *name;
 @property unsigned long long type; // @synthesize type=_type;
 
 @end

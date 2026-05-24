@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSChronoServicesConnection, CHSWidgetExtensionProviderOptions, CHSWidgetExtensionSet, NSDictionary, NSHashTable, NSSet, NSString;
-@protocol BSInvalidatable, CHSIconResolving;
+@class CHSWidgetExtensionSet;
 
 @interface CHSWidgetExtensionProvider
 {
     CDUnknownBlockType _eduModeProvider;
-    id <CHSIconResolving> _iconResolver;
-    struct os_unfair_lock_s _lock;
-    CHSWidgetExtensionSet *_lock_extensionSet;
-    CHSChronoServicesConnection *_lock_connection;
-    id <BSInvalidatable> _lock_subscription;
-    _Bool _lock_invalidated;
-    CHSWidgetExtensionProviderOptions *_lock_providerOptions;
-    NSHashTable *_lock_observers;
-    NSDictionary *_lock_iconVersionByExtensionIdentity;
 }
 
 + (id);
@@ -26,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)bJ?;
+- (id)N?;
 - (id);
 - (id);
 - (id);
@@ -58,17 +48,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CHSWidgetExtensionSet *_widgetExtensionSet;
-@property(retain, nonatomic) CHSChronoServicesConnection *connection; // @synthesize connection=_lock_connection;
-@property(readonly, nonatomic) NSSet *containers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType eduModeProvider; // @synthesize eduModeProvider=_eduModeProvider;
-@property(readonly, nonatomic) NSSet *extensions;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

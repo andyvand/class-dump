@@ -7,23 +7,6 @@
 @interface AppStoreKit.ProductTopLockup
 {
     id lockup;
-    id uber;
-    id developerName;
-    id badges;
-    id theme;
-    id isSidePacked;
-    id offerAction;
-    id offerDisplayProperties;
-    id offerSubtitlesOverride;
-    id expandedOfferTitles;
-    id hasExpandedOfferDetails;
-    id askToBuyBanner;
-    id banner;
-    id secondaryBanner;
-    id tertiaryTitle;
-    id id;
-    id segue;
-    id impressionMetrics;
 }
 
 @end

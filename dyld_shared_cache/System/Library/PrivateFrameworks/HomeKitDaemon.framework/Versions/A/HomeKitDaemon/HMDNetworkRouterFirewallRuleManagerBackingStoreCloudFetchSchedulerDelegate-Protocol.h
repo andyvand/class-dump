@@ -5,5 +5,10 @@
 //
 
 @protocol HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchSchedulerDelegate
+- (void)_saveReceivingRules;
+
+@optional
+- (void)apRegion;
+- (void)_sharedSessions;
 @end
 

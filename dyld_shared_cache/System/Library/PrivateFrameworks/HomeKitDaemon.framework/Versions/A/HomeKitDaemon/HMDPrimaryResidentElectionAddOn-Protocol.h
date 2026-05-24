@@ -7,6 +7,9 @@
 @protocol HMDPrimaryResidentElectionAddOnDelegate;
 
 @protocol HMDPrimaryResidentElectionAddOn
+- (_Bool)tableHistoryEntryRoute"8;
+- (void)entifier;
+- (id <HMDPrimaryResidentElectionAddOnDelegate>)?;
 - (void)<%@%@, Target = %@, Home UUID = %@, Queue Timeout = %@>;
 
 // Remaining properties

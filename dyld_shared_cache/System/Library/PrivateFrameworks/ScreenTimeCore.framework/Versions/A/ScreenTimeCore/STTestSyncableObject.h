@@ -6,30 +6,19 @@
 
 #import <ScreenTimeCore/STUniquedManagedObject.h>
 
-@class NSSet, NSString;
-
 @interface STTestSyncableObject : STUniquedManagedObject
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (_Bool);
-- (void);
+- (void)te current linked manifest tag for %s;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool enabled; // @dynamic enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSSet *subobjects; // @dynamic subobjects;
-@property(readonly) Class superclass;
 
 @end
 

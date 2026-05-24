@@ -5,5 +5,9 @@
 //
 
 @protocol WFDialogListItemStore
+- (void)s;
+- (void);
+- (void);
+- (void)zU3|;
 @end
 

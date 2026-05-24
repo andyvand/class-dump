@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UIView;
+@class UIView;
 
 @protocol SVVideoAdProviding
 
+@optional
+- (void);
+- (UIView *)o users sports favorites;
+
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) UIView *metricsView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) double prerollReadyToPlayTimeout;
-@property(readonly, nonatomic) UIButton *privacyMarker;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIButton",?,R,N
-
 @property(readonly, nonatomic) unsigned long long skipThreshold;
 @end
 

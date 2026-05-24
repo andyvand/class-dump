@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol MEMessageDecoder_Private;
 
 @interface EDSelectedDecoder
 {
     NSString *_decoderID;
-    id <MEMessageDecoder_Private> _decoder;
 }
 
 - (id);
@@ -19,7 +17,6 @@
 - (void)ROP VIEW IF EXISTS temp_thread_scope_message;;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MEMessageDecoder_Private> decoder; // @synthesize decoder=_decoder;
 @property(readonly, nonatomic) NSString *decoderID; // @synthesize decoderID=_decoderID;
 
 @end

@@ -7,15 +7,12 @@
 @class NSArray, _INPBTimestamp;
 
 @protocol _INPBListRideOptionsIntentResponse
+- (_Bool);
+- (_Bool);
+- (void)setPenaltyTracker:(NSArray *)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBTimestamp *expirationDate;
-@property(readonly, nonatomic) _Bool hasExpirationDate;
-@property(nonatomic) _Bool hasSupportsApplePayForPayment;
-@property(copy, nonatomic) NSArray *paymentMethods;
-@property(readonly, nonatomic) unsigned long long paymentMethodsCount;
-@property(copy, nonatomic) NSArray *rideOptions;
-@property(readonly, nonatomic) unsigned long long rideOptionsCount;
-@property(nonatomic) _Bool supportsApplePayForPayment;
 @end
 

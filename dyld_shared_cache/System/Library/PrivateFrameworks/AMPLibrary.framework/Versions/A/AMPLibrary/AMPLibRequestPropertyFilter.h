@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AMPLibRequestPropertyFilter
 {
     NSArray *_keys;
-    NSString *_value;
-    long long _comparisonType;
 }
 
 + (_Bool);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (void);
@@ -27,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long comparisonType; // @synthesize comparisonType=_comparisonType;
 @property(retain, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

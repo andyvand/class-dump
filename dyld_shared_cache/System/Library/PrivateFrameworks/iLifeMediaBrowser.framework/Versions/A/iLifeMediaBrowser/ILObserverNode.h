@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)`;
+- (id)framework/MobileKeyBag;
 
 @end
 

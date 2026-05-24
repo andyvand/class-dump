@@ -5,6 +5,7 @@
 //
 
 @protocol SecEscrowRequestable
+- (_Bool)illegalScrapFlavorFlagsErr;
 - (_Bool);
 @end
 

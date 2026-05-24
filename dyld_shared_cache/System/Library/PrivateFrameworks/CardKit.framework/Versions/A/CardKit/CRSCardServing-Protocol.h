@@ -5,5 +5,6 @@
 //
 
 @protocol CRSCardServing
+- (_Bool);
 @end
 

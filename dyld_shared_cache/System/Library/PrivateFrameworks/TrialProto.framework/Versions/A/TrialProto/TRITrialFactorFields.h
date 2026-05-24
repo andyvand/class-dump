@@ -9,31 +9,27 @@
 @interface TRITrialFactorFields
 {
     NSString *_clientFactorPackId;
-    NSString *_namespaceName;
 }
 
 - (_Bool);
+- (id);
 - (id);
-- (id);
+- (void)ce"16@"NSUUID"24@"NSData"32q40;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)ry">24;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)rning the RAW anyway;
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)_largeTitleDetailedRowCardSection;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id) `@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientFactorPackId; // @synthesize clientFactorPackId=_clientFactorPackId;
 @property(readonly, nonatomic) _Bool hasClientFactorPackId;
-@property(readonly, nonatomic) _Bool hasNamespaceName;
-@property(retain, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
 
 @end
 

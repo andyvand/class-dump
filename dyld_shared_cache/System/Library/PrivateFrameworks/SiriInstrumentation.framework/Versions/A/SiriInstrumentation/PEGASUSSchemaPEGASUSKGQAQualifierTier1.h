@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSKGQAQualifierTier1 : SISchemaInstrumentationMessage
 {
     NSString *_propId;
-    NSString *_value;
-    _Bool _hasPropId;
-    _Bool _hasValue;
 }
 
 - (void);
@@ -22,28 +19,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ntentWithPolicy;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)initWithItemIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)empted to get record identifier for NULL handle record:(id)arg1 %@;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)ported;
-- (id);
+- (id)_hasAudioTopologyReported;
+- (id)taskSuccessType;
 - (void)essages.siriEventTypeUnion.asrClientEvent.finalAudioPacketContainingSpeechReceived.loggableSharedUserId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPropId; // @synthesize hasPropId=_hasPropId;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *propId; // @synthesize propId=_propId;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

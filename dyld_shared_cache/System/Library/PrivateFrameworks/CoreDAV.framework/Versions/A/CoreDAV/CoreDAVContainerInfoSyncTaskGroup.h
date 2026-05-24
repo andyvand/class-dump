@@ -6,34 +6,26 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSString, NSURL;
+@class NSString;
 @protocol CoreDAVContainerInfoSyncProvider;
 
 @interface CoreDAVContainerInfoSyncTaskGroup : CoreDAVTaskGroup
 {
     NSString *_previousSyncToken;
-    NSURL *_containerURL;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)pple.accessibility.guidedaccess.activate;
+- (id)_setViewHandlesEvents: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (Class);
-- (void);
+- (void)10 seconds ago.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CoreDAVContainerInfoSyncProvider> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

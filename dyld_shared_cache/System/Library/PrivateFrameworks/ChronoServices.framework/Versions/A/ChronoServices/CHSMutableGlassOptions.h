@@ -6,8 +6,6 @@
 
 #import <ChronoServices/CHSGlassOptions.h>
 
-@class NSString;
-
 @interface CHSMutableGlassOptions : CHSGlassOptions
 {
 }
@@ -19,10 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backdropGroupName; // @dynamic backdropGroupName;
-@property(nonatomic) _Bool wantsHighlightsDisplayAngle; // @dynamic wantsHighlightsDisplayAngle;
 @property(nonatomic) _Bool wantsSubduedGlass; // @dynamic wantsSubduedGlass;
-@property(nonatomic) _Bool wantsWhitePointBoost; // @dynamic wantsWhitePointBoost;
 
 @end
 

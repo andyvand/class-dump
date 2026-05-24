@@ -6,45 +6,33 @@
 
 #import <AccessibilityVisuals/AXVView.h>
 
-@class AXVHighlightView, AXVScrollMenuSuggestedEventPayload, NSColor, NSDictionary, NSString;
 @protocol AXVScrollMenuDelegate;
 
 @interface AXVScrollMenu : AXVView
 {
     id <AXVScrollMenuDelegate> _delegate;
-    NSColor *_activeItemBorderColor;
-    NSColor *_activeItemBackgroundColor;
-    NSColor *_inactiveItemBorderColor;
-    NSColor *_inactiveItemBackgroundColor;
-    AXVHighlightView *_backgroundView;
-    unsigned long long _activeDirection;
-    double _preferredScrollItemRadius;
-    AXVView *__contentView;
-    NSDictionary *__items;
-    NSDictionary *__backgroundItems;
-    AXVScrollMenuSuggestedEventPayload *__nextPayload;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)T(;
 - (void);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -53,36 +41,18 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *_backgroundItems; // @synthesize _backgroundItems=__backgroundItems;
 @property(retain, nonatomic) AXVView *_contentView; // @synthesize _contentView=__contentView;
-@property(retain, nonatomic) NSDictionary *_items; // @synthesize _items=__items;
-@property(retain, nonatomic) AXVScrollMenuSuggestedEventPayload *_nextPayload; // @synthesize _nextPayload=__nextPayload;
-@property(nonatomic) unsigned long long activeDirection; // @synthesize activeDirection=_activeDirection;
-@property(retain, nonatomic) NSColor *activeItemBackgroundColor; // @synthesize activeItemBackgroundColor=_activeItemBackgroundColor;
-@property(retain, nonatomic) NSColor *activeItemBorderColor; // @synthesize activeItemBorderColor=_activeItemBorderColor;
-@property(retain, nonatomic) AXVHighlightView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXVScrollMenuDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSColor *inactiveItemBackgroundColor; // @synthesize inactiveItemBackgroundColor=_inactiveItemBackgroundColor;
-@property(retain, nonatomic) NSColor *inactiveItemBorderColor; // @synthesize inactiveItemBorderColor=_inactiveItemBorderColor;
-@property(nonatomic) double preferredScrollItemRadius; // @synthesize preferredScrollItemRadius=_preferredScrollItemRadius;
-@property(readonly) Class superclass;
 
 @end
 

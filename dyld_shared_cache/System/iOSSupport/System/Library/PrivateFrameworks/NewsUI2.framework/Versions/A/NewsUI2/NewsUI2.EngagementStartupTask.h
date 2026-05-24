@@ -7,8 +7,6 @@
 @interface NewsUI2.EngagementStartupTask
 {
     id engagementUpsellOfferManager;
-    id appReviewRequestManager;
-    id bannerPropertiesProvider;
 }
 
 @end

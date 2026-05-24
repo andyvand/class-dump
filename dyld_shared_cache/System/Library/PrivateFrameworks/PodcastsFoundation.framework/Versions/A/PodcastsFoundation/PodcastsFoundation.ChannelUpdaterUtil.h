@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.ChannelUpdaterUtil
 {
     id ctx;
-    id workQueue;
-    id mediaRequestController;
 }
 
 @end

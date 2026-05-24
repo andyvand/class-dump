@@ -8,9 +8,6 @@
 {
     id request;
     id callCenter;
-    id dismissalHandler;
-    id $__lazy_storage_$_contact;
-    id _$observationRegistrar;
 }
 
 @end

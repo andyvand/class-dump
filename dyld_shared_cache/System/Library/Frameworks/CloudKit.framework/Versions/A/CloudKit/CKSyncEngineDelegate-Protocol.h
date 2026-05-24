@@ -5,5 +5,6 @@
 //
 
 @protocol CKSyncEngineDelegate
+- (void);
 @end
 

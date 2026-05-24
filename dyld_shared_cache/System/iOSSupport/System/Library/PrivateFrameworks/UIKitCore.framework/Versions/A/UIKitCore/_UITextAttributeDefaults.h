@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSParagraphStyle, NSShadow, NSString, UIColor, UIFont, _UIMutableTextAttributeDictionary, _UITextAttributeDictionary;
+@class UIColor, _UIMutableTextAttributeDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UITextAttributeDefaults
@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 + (id)tocorrectionContext">16;
 - (id);
 - (void);
+- (id)_compactKeypointsBuffer;
 - (id);
-- (id);
-- (id);
+- (id)N;
 - (unsigned long long);
 - (_Bool)eIsPressed"b1"willBeginEditing"b1"editing"b1"editingHandle"I"rotationDisabled"I"isInNavigationBar"b1"delegateValueDidChange"b1"delegateStartValueDidChange"b1"delegateEndValueDidChange"b1"delegateWillBeginRequestingThumbnails"b1"delegateDidFinishRequestingThumbnails"b1"delegateWillBeginEditing"b1"delegateDidBeginEditing"b1"delegateDidCancelEditing"b1"delegateEditingAnimationFinished"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
-- (void)ueForPreferenceKey:(id)arg1;
-- (void)l:(id)arg1;
-- (id)sions;
+- (void)valueForPreferenceKey:(id)arg1;
+- (void)_modern_layoutSubviewsOfCell:(id)arg1;
+- (id)_availablePermissions;
 - (id);
 - (void):(id)arg1 %@;
 - (id)_support_compression_all(struct ui_archive *);
@@ -33,18 +33,7 @@ __attribute__((visibility("hidden")))
 - (id)3ÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) _UITextAttributeDictionary *_attributes;
-@property(retain, nonatomic, setter=_setFont:) UIFont *_font;
-@property(retain, nonatomic, setter=_setParagraphStyle:) NSParagraphStyle *_paragraphStyle;
-@property(retain, nonatomic, setter=_setShadow:) NSShadow *_shadow;
 @property(retain, nonatomic, setter=_setTextColor:) UIColor *_textColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

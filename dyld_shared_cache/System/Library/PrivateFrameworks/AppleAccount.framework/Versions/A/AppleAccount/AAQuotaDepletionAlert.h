@@ -8,9 +8,9 @@
 {
 }
 
-- (void);
-- (_Bool);
-- (id);
+- (void)eturned:(CDUnknownBlockType)arg1 %d;
+- (_Bool)le to NSKeyArchive profile:(CDUnknownBlockType)arg1 %s  Error:%s /* Error: Ran out of types for this method. */;
+- (id)ePolicy kPasscodeAllowSimple newpolicy = %s;
 - (id);
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol OADProperties3DParent
+- (void));
 @end
 

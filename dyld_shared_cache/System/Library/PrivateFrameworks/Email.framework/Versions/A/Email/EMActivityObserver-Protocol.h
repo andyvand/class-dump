@@ -5,5 +5,6 @@
 //
 
 @protocol EMActivityObserver
+- (void)twareVersion;
 @end
 

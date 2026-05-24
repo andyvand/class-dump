@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EQKitLayoutElementaryStackLineRow
 {
     unsigned long long mLength;
-    double mThickness;
-    long long mAlignmentShift;
-    unsigned long long mFirstColumnIndex;
-    double mFollowingSpace;
 }
 
 - (_Bool);
+- (void)RateDidChangeReason;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (double);
 - (unsigned long long);
@@ -27,17 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long alignmentShift; // @synthesize alignmentShift=mAlignmentShift;
-@property(readonly, nonatomic) unsigned long long columnCount; // @synthesize columnCount=mLength;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long firstColumnIndex; // @synthesize firstColumnIndex=mFirstColumnIndex;
-@property(readonly, nonatomic) double followingSpace; // @synthesize followingSpace=mFollowingSpace;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool spansStack;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,27 +6,23 @@
 
 #import <HomeKitDaemon/HMDMessageFilter.h>
 
-@class HMDAppleAccountManager, HMFMessageDestination, NSArray;
-@protocol HAPKeyStore;
+@class HMDAppleAccountManager, HMFMessageDestination;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteAccountMessageFilter : HMDMessageFilter
 {
     HMFMessageDestination *_target;
-    NSArray *_allowedMessages;
-    HMDAppleAccountManager *_appleAccountManager;
-    id <HAPKeyStore> _systemKeychainStore;
 }
 
 + (id)k¤|{B;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)nodeWithInput:(id)arg1 recipe:error: /* Error: Ran out of types for this method. */;
+- (id)mporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPortraitNode.m;
+- (id);
 - (id);
 - (id);
 - (id)es with UUIDs:(id)arg1 %@;
@@ -34,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)emoteSession.m;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allowedMessages; // @synthesize allowedMessages=_allowedMessages;
 @property(retain, nonatomic) HMDAppleAccountManager *appleAccountManager; // @synthesize appleAccountManager=_appleAccountManager;
-@property(retain, nonatomic) id <HAPKeyStore> systemKeychainStore; // @synthesize systemKeychainStore=_systemKeychainStore;
-@property(readonly) HMFMessageDestination *target; // @synthesize target=_target;
 
 @end
 

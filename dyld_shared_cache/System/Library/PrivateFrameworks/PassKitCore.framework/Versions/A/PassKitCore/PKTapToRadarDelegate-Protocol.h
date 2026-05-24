@@ -5,5 +5,6 @@
 //
 
 @protocol PKTapToRadarDelegate
+- (void)Ȳ8;
 @end
 

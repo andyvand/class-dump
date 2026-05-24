@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableArray, UIColor, UIFont;
+@class NSMutableArray, UIColor;
 
 @interface TSKSegmentedControl
 {
     NSMutableArray *mItems;
-    NSMutableArray *mButtonSegments;
-    NSIndexSet *mSelectedSegmentIndices;
-    _Bool mAllowsMultipleSelection;
-    _Bool mAllowsEmptySelection;
-    long long mLastPressedSegmentIndex;
-    void *mUserData;
-    UIFont *mFont;
-    int mStyle;
-    int _segmentedControlStyle;
-    UIColor *mSelectedTintColor;
 }
 
+- (void)mart Crossfade;
+- (void);
+- (void)EnableTransitionTeardownCompletionHandler;
+- (id)ESSED   〔;
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)TransitionState;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (long long)QueueControllerBehaviorPodcastsIdentifierComponents;
 - (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)AVMusicAppBehaviorContextUserAction;
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)personalized email newsletter;
+- (void)controller result.;
+- (void)blic}@;
 - (id);
 - (int);
 - (unsigned long long);
@@ -62,15 +52,7 @@
 - (void)*:;v'w'x'y'z'{'|'}'~''ë$ì$í$î$ï$ð$ñ$ò$ó$ô$Ð$Ñ$Ò$Ó$Ô$Õ$Ö$×$Ø$Ù$Ú$Û$Ü$Ý$Þ$ß$à$á$â$ã$ä$å$æ$ç$è$é$Q B `$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$.""V'&, /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEmptySelection; // @synthesize allowsEmptySelection=mAllowsEmptySelection;
-@property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=mAllowsMultipleSelection;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=mFont;
-@property(readonly, nonatomic) long long lastPressedSegmentIndex; // @synthesize lastPressedSegmentIndex=mLastPressedSegmentIndex;
-@property(readonly, nonatomic) unsigned long long numberOfSegments;
-@property(readonly, nonatomic) int segmentedControlStyle; // @synthesize segmentedControlStyle=_segmentedControlStyle;
-@property(copy, nonatomic) NSIndexSet *selectedSegmentIndices; // @synthesize selectedSegmentIndices=mSelectedSegmentIndices;
 @property(retain, nonatomic) UIColor *selectedTintColor; // @synthesize selectedTintColor=mSelectedTintColor;
-@property(nonatomic) void *userData; // @synthesize userData=mUserData;
 
 @end
 

@@ -7,19 +7,13 @@
 @interface ContactsUI.FindMyLocateSession
 {
     void friendshipUpdateCallback;
-    id _session;
-    id isInitialized;
-    id initContinuations;
-    id friendsUpdateTask;
-    id serialQueue;
-    id logger;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (long long);
 - (void);

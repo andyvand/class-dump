@@ -5,5 +5,10 @@
 //
 
 @protocol UIActionSheetDelegate
+
+@optional
+- (void);
+- (void)�,;
+- (void)%S,;
 @end
 

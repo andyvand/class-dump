@@ -11,7 +11,7 @@
 
 - (void);
 - (id);
-- (void)nt:fromCoordinateSpace: /* Error: Ran out of types for this method. */;
+- (void)convertPoint:fromCoordinateSpace: /* Error: Ran out of types for this method. */;
 - (long long)@;
 
 // Remaining properties

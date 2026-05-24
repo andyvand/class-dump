@@ -11,22 +11,18 @@
 @interface NSAsynchronousFetchRequest : NSPersistentStoreRequest
 {
     NSFetchRequest *_fetchRequest;
-    id _requestCompletionBlock;
-    long long _estimatedResultCount;
 }
 
 - (id);
 - (void);
+- (id)(r;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)requesterWillSendRequestForEstablishedConnection:callback: /* Error: Ran out of types for this method. */;
 - (unsigned long long)AnalyzerObjectState>"16;
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_requestCompletionBlock;
-@property(nonatomic) long long estimatedResultCount; // @synthesize estimatedResultCount=_estimatedResultCount;
 @property(readonly) NSFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
 
 @end

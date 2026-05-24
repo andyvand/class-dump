@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)`";
 + (id)\Öÿ;
-- (id)presentable;
+- (id)RemoteIntentBaseDictionaryRepresentable;
 
 @end
 

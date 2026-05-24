@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEBackgroundContactHandleSignalSet : SISchemaInstrumentationMessage
 {
     float _peopleSuggesterScore;
-    struct {
-        unsigned int peopleSuggesterScore:1;
-    } _has;
 }
 
 - (void);
@@ -25,16 +20,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)j;
+- (id);
 - (id)0@ù
 × ;
 - (id)N,V_profileSwitchContext;
 - (id)IFTSchemaIFTCandidatePromptStatus;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPeopleSuggesterScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float peopleSuggesterScore; // @synthesize peopleSuggesterScore=_peopleSuggesterScore;
 
 @end

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface IMActionShowLocation
 {
     NSNumber *latitude;
-    NSNumber *longitude;
-    void query;
-    void label;
-    void fallbackUrl;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%;
 - (long long);
 - (id);
 - (_Bool);
@@ -29,12 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *label;
 @property(nonatomic, readonly) NSNumber *latitude; // @synthesize latitude;
-@property(nonatomic, readonly) NSNumber *longitude; // @synthesize longitude;
-@property(nonatomic, readonly) NSString *query;
 
 @end
 

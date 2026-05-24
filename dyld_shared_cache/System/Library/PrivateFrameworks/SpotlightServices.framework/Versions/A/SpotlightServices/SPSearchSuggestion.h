@@ -4,39 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface SPSearchSuggestion
 {
     NSString *_completion;
-    NSString *_spotlightQuery;
-    NSDictionary *_categories;
-    NSDictionary *_terms;
-    _Bool _isSingleThread;
-    _Bool _hasUsedDate;
-    _Bool _isShortcut;
-    _Bool _hasMultipleResults;
-    int _weight;
-    int _parentWeight;
-    int _rootWeight;
-    int _completionType;
-    int _prefixLen;
-    float _fieldWeight;
-    unsigned long long _queryLen;
-    unsigned long long _queryFragmentCount;
-    unsigned long long _queryCompletionCount;
-    unsigned long long _fragments;
-    double _age;
-    double _prob;
-    unsigned long long _maxscore;
-    double _phraseScore;
-    double _punishment;
-    double _compositeScore;
-    NSArray *_bundleIDs;
 }
 
++ (id)ror"32;
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
@@ -58,62 +34,41 @@
 - (double);
 - (double);
 - (int);
-- (double);
+- (double)48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
+- (int)Loader"16@"NSURLAuthenticationChallenge"24;
+- (unsigned long long)8;
+- (_Bool)webView:didFailNavigation:withError: /* Error: Ran out of types for this method. */;
+- (id)trailingBottomCaption;
+- (id)setVideoCount:(id)arg1;
+- (_Bool)setProgressIndicatorStyle: /* Error: Ran out of types for this method. */;
+- (float)setHeightTracksTextView: /* Error: Ran out of types for this method. */;
+- (double)ruleDictionaryForStyle: /* Error: Ran out of types for this method. */;
+- (void)initWithStyle:(double)arg1 presentationProperties:themePath:generator: /* Error: Ran out of types for this method. */;
+- (void)ignoreSafeAreaInset;
+- (void);
+- (void);
 - (int);
 - (unsigned long long);
 - (_Bool);
+- (void);
+- (_Bool)ng",C,N,V_name;
 - (id);
-- (id);
-- (_Bool);
-- (float);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
+- (Class)q}32@48@56;
+- (id)ate:pipelineSettings:sourceSettings:error:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (void);
-- (_Bool);
-- (id);
-- (Class);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (void)%{public}@ has missing factor name.;
 - (int);
 - (void);
 - (double);
 - (long long);
 - (void);
-- (void)kens:answer:maxSnippetLength: /* Error: Ran out of types for this method. */;
-- (id)usage_last_month;
+- (void)createFormattedSnippetWithQuery:fullText:queryTokens:answer:maxSnippetLength: /* Error: Ran out of types for this method. */;
+- (id)local_resultset_max_usage_last_month;
 
 // Remaining properties
-@property double age; // @synthesize age=_age;
-@property(retain) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property int completionType; // @synthesize completionType=_completionType;
-@property double compositeScore; // @synthesize compositeScore=_compositeScore;
-@property float fieldWeight; // @synthesize fieldWeight=_fieldWeight;
-@property unsigned long long fragments; // @synthesize fragments=_fragments;
-@property _Bool hasMultipleResults; // @synthesize hasMultipleResults=_hasMultipleResults;
-@property _Bool hasUsedDate; // @synthesize hasUsedDate=_hasUsedDate;
-@property _Bool isShortcut; // @synthesize isShortcut=_isShortcut;
-@property _Bool isSingleThread; // @synthesize isSingleThread=_isSingleThread;
-@property unsigned long long maxscore; // @synthesize maxscore=_maxscore;
-@property int parentWeight; // @synthesize parentWeight=_parentWeight;
-@property double phraseScore; // @synthesize phraseScore=_phraseScore;
-@property int prefixLen; // @synthesize prefixLen=_prefixLen;
-@property double prob; // @synthesize prob=_prob;
-@property double punishment; // @synthesize punishment=_punishment;
-@property unsigned long long queryCompletionCount; // @synthesize queryCompletionCount=_queryCompletionCount;
-@property unsigned long long queryFragmentCount; // @synthesize queryFragmentCount=_queryFragmentCount;
 @property unsigned long long queryLen; // @synthesize queryLen=_queryLen;
-@property int rootWeight; // @synthesize rootWeight=_rootWeight;
-@property(readonly, nonatomic) NSArray *searchEntities;
-@property int weight; // @synthesize weight=_weight;
 
 @end
 

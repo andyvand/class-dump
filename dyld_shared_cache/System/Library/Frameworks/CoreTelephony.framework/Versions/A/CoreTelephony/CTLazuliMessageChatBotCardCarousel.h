@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotSuggestedChipList, CTLazuliMessageChatBotCardCarouselLayout, NSArray;
+@class CTLazuliMessageChatBotCardCarouselLayout;
 
 @interface CTLazuliMessageChatBotCardCarousel
 {
     CTLazuliMessageChatBotCardCarouselLayout *_layout;
-    NSArray *_content;
-    CTLazuliChatBotSuggestedChipList *_chipList;
 }
 
 + (_Bool);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_activeModuleId;
 - (id);
 - (void);
 - (void);
@@ -30,8 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliChatBotSuggestedChipList *chipList; // @synthesize chipList=_chipList;
-@property(retain, nonatomic) NSArray *content; // @synthesize content=_content;
 @property(retain, nonatomic) CTLazuliMessageChatBotCardCarouselLayout *layout; // @synthesize layout=_layout;
 
 @end

@@ -6,39 +6,37 @@
 
 #import <AppKit/NSScrollView.h>
 
-@class NSColorPickerPageableNameList, NSColorPickerSpectrumScrollerView, NSString;
+@class NSColorPickerPageableNameList;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerPageableNameListScrollView : NSScrollView
 {
     NSColorPickerPageableNameList *picker;
-    NSColorPickerSpectrumScrollerView *spectrumView;
-    long long _partMouseDown;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)@0:(id)arg1 8@"__NSCFURLSessionConnection"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32;
+- (void)ssessment"^{__CFDictionary}"fSSLCertContext"^{__CFDictionary}"fRecommendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (long long)xpiration"d"fCreationTime"d"fDownloadAssessment"^{__CFDictionary}"fSSLCertContext"^{__CFDictionary}"fRecommendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (void)SURLSessionConfiguration";
+- (_Bool)_sqlUpdateResponseStmt;
+- (long long)null;
+- (id)errno:(id)arg1 %d, desc:%s /* Error: Ran out of types for this method. */;
+- (id)INK download file:%s, errno:%d, desc:%s /* Error: Ran out of types for this method. */;
+- (void)old. Falling back to builtin;
+- (_Bool);
 - (void);
-- (long long);
+- (long long)@;
 - (void);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
 - (void);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (_Bool);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (long long);
+- (void)ssage.value;
+- (long long);
 - (void)TransformAnimation";
 - (id);
 - (void)$£Úÿ;
@@ -46,13 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)õI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

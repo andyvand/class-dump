@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationController, NSString;
+@class AKAppleIDAuthenticationController;
 @protocol AKFollowUpProvider;
 
 @interface AKFollowUpSynchronizer
 {
     id <AKFollowUpProvider> _followupProvider;
-    AKAppleIDAuthenticationController *_controller;
 }
 
 + (void);
@@ -22,20 +21,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)4e5e;
+- (id);
 - (void)Ø©;
 
 // Remaining properties
 @property(retain, nonatomic) AKAppleIDAuthenticationController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <AKFollowUpProvider> followupProvider; // @synthesize followupProvider=_followupProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNDetectTrajectoriesRequestConfiguration : VNStatefulRequestConfiguration
 {
     float _objectMinimumNormalizedRadius;
-    float _objectMaximumNormalizedRadius;
-    long long _trajectoryLength;
-    CDStruct_1b6d18a9 _targetFrameTime;
 }
 
 - (long long);
@@ -22,14 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (float);
-- (CDStruct_1b6d18a9);
-- (id);
+- (CDStruct_198678f7);
+- (id)P;
 - (id));;
 
 // Remaining properties
-@property(nonatomic) float objectMaximumNormalizedRadius; // @synthesize objectMaximumNormalizedRadius=_objectMaximumNormalizedRadius;
-@property(nonatomic) float objectMinimumNormalizedRadius; // @synthesize objectMinimumNormalizedRadius=_objectMinimumNormalizedRadius;
-@property(nonatomic) CDStruct_1b6d18a9 targetFrameTime; // @synthesize targetFrameTime=_targetFrameTime;
 @property(nonatomic) long long trajectoryLength; // @synthesize trajectoryLength=_trajectoryLength;
 
 @end

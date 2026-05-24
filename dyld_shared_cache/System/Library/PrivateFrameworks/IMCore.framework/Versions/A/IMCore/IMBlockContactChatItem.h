@@ -11,7 +11,7 @@
     unsigned char _chatStyle;
 }
 
-- (id);
+- (id)ideoStream received redundancyController update redundancyControler=%@ redundancyArrayCount=%u;
 - (unsigned char);
 - (void)ù
 × ;

@@ -13,7 +13,7 @@
     NSView *_containerView;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)p;
 - (id);
 - (void);
 - (void);

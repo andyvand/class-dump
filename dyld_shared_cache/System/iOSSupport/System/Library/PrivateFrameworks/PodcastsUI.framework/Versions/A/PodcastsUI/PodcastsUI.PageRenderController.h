@@ -7,9 +7,6 @@
 @interface PodcastsUI.PageRenderController
 {
     id eventName;
-    id pipeline;
-    id presenter;
-    id state;
 }
 
 @end

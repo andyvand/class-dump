@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString;
-
 @interface SXConditionalHints : SXJSONObject
 {
 }
@@ -17,25 +15,12 @@
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long autoplacement; // @dynamic autoplacement;
-@property(readonly, nonatomic) long long componentLayouts; // @dynamic componentLayouts;
-@property(readonly, nonatomic) long long componentStyles; // @dynamic componentStyles;
-@property(readonly, nonatomic) long long componentTextStyles; // @dynamic componentTextStyles;
-@property(readonly, nonatomic) long long components; // @dynamic components;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long documentStyle; // @dynamic documentStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long textStyles; // @dynamic textStyles;
 
 @end
 

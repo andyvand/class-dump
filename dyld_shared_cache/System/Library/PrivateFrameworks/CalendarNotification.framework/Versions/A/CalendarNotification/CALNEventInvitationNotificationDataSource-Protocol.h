@@ -5,5 +5,6 @@
 //
 
 @protocol CALNEventInvitationNotificationDataSource
+- (void);
 @end
 

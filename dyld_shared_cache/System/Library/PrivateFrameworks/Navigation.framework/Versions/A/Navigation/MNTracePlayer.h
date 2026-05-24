@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, MNLocation, MNTrace, MNTracePlayerETAUpdateRequester, MNTracePlayerScheduler, MNTracePlayerTimelineStream, NSMutableArray, NSString;
+@class MNTrace;
 
 @interface MNTracePlayer
 {
     MNTrace *_trace;
-    double _traceStartTimestamp;
-    GEOObserverHashTable *_observers;
-    MNTracePlayerScheduler *_scheduler;
-    MNTracePlayerTimelineStream *_locationStream;
-    MNLocation *_lastReportedLocation;
-    _Bool _isPlaying;
-    _Bool _isPaused;
-    double _duration;
-    double _speedMultiplier;
-    _Bool _shouldUpdateRouteWhenJumping;
-    _Bool _shouldPlayETARequests;
-    MNTracePlayerTimelineStream *_etaUpdatesStream;
-    _Bool _shouldPlayNetworkEvents;
-    MNTracePlayerTimelineStream *_networkEventsStream;
-    NSMutableArray *_processedWaypointEvents;
-    MNTracePlayerETAUpdateRequester *_etaUpdateRequester;
 }
 
 - (void);
 - (void);
 - (void);
+- (_Bool)EscapeCodingKeys;
 - (_Bool);
 - (_Bool);
+- (void)Z7;
+- (void);
+- (void);
+- (void)CodableAccessibilityActionList;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)Accessories;
+- (id)SingleIDDragContainerDataProviderInput;
 - (id);
-- (id);
-- (id);
+- (id)n
+;
 - (id);
 - (id);
 - (id);
@@ -52,7 +37,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
@@ -68,27 +53,10 @@
 - (void)1Â0@ù
 × ;
 - (void)changing announcementStage from %lu to %lu;
-- (id)tionStartWaypoint;
+- (id)SimulationStartWaypoint;
 - (_Bool)¨­;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) MNTracePlayerETAUpdateRequester *etaUpdateRequester; // @synthesize etaUpdateRequester=_etaUpdateRequester;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPaused; // @synthesize isPaused=_isPaused;
-@property(readonly, nonatomic) _Bool isPlaying; // @synthesize isPlaying=_isPlaying;
-@property(readonly, nonatomic) double position;
-@property(nonatomic) _Bool shouldPlayETARequests; // @synthesize shouldPlayETARequests=_shouldPlayETARequests;
-@property(nonatomic) _Bool shouldPlayNetworkEvents; // @synthesize shouldPlayNetworkEvents=_shouldPlayNetworkEvents;
-@property(nonatomic) _Bool shouldUpdateRouteWhenJumping; // @synthesize shouldUpdateRouteWhenJumping=_shouldUpdateRouteWhenJumping;
-@property(nonatomic) double speedMultiplier; // @synthesize speedMultiplier=_speedMultiplier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) MNTrace *trace; // @synthesize trace=_trace;
 
 @end

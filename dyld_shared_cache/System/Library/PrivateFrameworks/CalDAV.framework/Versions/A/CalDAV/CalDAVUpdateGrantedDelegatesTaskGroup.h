@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVGetGrantedDelegatesTaskGroup, NSSet, NSString;
-
 @interface CalDAVUpdateGrantedDelegatesTaskGroup
 {
     int _state;
-    NSSet *_addWriteURLs;
-    NSSet *_addReadURLs;
-    NSSet *_removeURLs;
-    NSSet *_updatedWriteURLs;
-    NSSet *_updatedReadURLs;
-    CalDAVGetGrantedDelegatesTaskGroup *_getGrantedDelegatesTaskGroup;
 }
 
 - (id);
@@ -37,25 +29,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (int);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *addReadURLs; // @synthesize addReadURLs=_addReadURLs;
-@property(retain, nonatomic) NSSet *addWriteURLs; // @synthesize addWriteURLs=_addWriteURLs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CalDAVGetGrantedDelegatesTaskGroup *getGrantedDelegatesTaskGroup; // @synthesize getGrantedDelegatesTaskGroup=_getGrantedDelegatesTaskGroup;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *removeURLs; // @synthesize removeURLs=_removeURLs;
 @property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSSet *updatedReadURLs; // @synthesize updatedReadURLs=_updatedReadURLs;
-@property(retain, nonatomic) NSSet *updatedWriteURLs; // @synthesize updatedWriteURLs=_updatedWriteURLs;
 
 @end
 

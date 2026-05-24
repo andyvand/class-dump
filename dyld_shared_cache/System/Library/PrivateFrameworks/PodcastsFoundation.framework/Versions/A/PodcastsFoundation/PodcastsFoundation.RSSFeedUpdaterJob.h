@@ -7,16 +7,6 @@
 @interface PodcastsFoundation.RSSFeedUpdaterJob
 {
     id state;
-    id request;
-    id workQueue;
-    id completion;
-    id metricsData;
-    id updaterJobUUID;
-    id feedUniquenessHash;
-    id externalFeedDownloader;
-    id ingesterProvider;
-    id ctx;
-    id fullJobInterval;
 }
 
 @end

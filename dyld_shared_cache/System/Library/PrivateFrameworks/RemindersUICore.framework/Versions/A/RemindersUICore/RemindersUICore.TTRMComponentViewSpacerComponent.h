@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewSpacerComponent
 {
     id height;
-    id spacerView;
-    id heightConstraint;
 }
 
 - (id);

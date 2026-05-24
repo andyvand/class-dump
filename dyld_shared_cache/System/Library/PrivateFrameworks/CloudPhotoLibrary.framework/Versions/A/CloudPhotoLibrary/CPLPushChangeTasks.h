@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface CPLPushChangeTasks
 {
     NSDictionary *_tasksByType;
-    NSMutableDictionary *_mutableTasksByType;
 }
 
-+ (id);
++ (id)DItemShortcutLastUsedDate, 0, $time.now(-%dd)));
 + (_Bool);
+- (void)SWCollaborationIdentifier;
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id)t;
-- (id)mïÿÓ8;
 - (void);
 - (id);
 - (_Bool);

@@ -11,25 +11,24 @@
 @interface SPApplicationQueryResult : SPMetadataResult
 {
     id _score;
-    NSArray *_displayNameInitials;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)yOriginData, WTF:(id)arg1:RefPtr<WebCore::StorageNamespace>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebCore::Page>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id);
+- (void)IVFVectorIndex_s_block_invoke;
+- (id);
+- (id)T;
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)3;
 - (void);
 
 // Remaining properties

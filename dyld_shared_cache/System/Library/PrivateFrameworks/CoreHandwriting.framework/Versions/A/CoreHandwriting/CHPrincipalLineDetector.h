@@ -24,7 +24,7 @@
 + (double);
 + (id);
 + (id);
-+ (double);
++ (double)r>;
 + (double);
 + (id);
 + (CDStruct_9bc45644);

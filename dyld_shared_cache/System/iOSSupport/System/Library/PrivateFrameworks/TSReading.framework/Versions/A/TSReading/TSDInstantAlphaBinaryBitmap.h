@@ -7,12 +7,9 @@
 @interface TSDInstantAlphaBinaryBitmap
 {
     long long mWidth;
-    long long mHeight;
-    long long mRowBytes;
-    char *mData;
 }
 
-- (void);
+- (void)player item did become ready to play:(id)arg1;
 - (id);
 - (void);
 

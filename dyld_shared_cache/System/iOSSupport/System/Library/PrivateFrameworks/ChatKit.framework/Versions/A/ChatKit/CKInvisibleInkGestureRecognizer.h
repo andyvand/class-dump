@@ -9,11 +9,10 @@
 @interface CKInvisibleInkGestureRecognizer
 {
     UITouch *_firstTouch;
-    double _startTime;
-    struct CGPoint _startLocation;
 }
 
-- (_Bool);
+- (_Bool)()\*
+;
 - (void);
 - (id);
 - (struct CGPoint);
@@ -24,8 +23,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)cs",R,N,V_metrics;
+- (_Bool))%Ӛ�;
 - (void);
 - (void);
 - (void)ding entry view while the screentime lockout view is being shown;
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UITouch *firstTouch; // @synthesize firstTouch=_firstTouch;
-@property(nonatomic) struct CGPoint startLocation; // @synthesize startLocation=_startLocation;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end
 

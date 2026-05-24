@@ -7,11 +7,6 @@
 @interface NewsUI2.TodayConfigData
 {
     id recordID;
-    id source;
-    id fetchInterval;
-    id headlines;
-    id tags;
-    id localNewsArticles;
 }
 
 @end

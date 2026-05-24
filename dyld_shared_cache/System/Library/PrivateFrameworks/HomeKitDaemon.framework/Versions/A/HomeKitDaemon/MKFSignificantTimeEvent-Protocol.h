@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFSignificantTimeEventDatabaseID, NSNumber, NSString;
+@class NSNumber, NSString;
 @protocol MKFHome;
 
 @protocol MKFSignificantTimeEvent
+- (void);
+- (NSString *)_cnPostalAddressForGDLocationAddress: /* Error: Ran out of types for this method. */;
 - (id <MKFHome>)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFSignificantTimeEventDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *offsetSeconds;
-@property(copy, nonatomic) NSString *significantEvent;
 @end
 

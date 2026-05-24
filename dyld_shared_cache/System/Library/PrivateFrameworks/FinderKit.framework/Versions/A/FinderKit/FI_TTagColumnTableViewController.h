@@ -6,30 +6,22 @@
 
 #import <FinderKit/FI_TTableViewController.h>
 
-@class FI_TContainerLayoutManager, NSObject, NSString;
-@protocol TTagColumnTableViewControllerDelegate;
+@class FI_TContainerLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTagColumnTableViewController : FI_TTableViewController
 {
     struct TNSWeakPtr<NSObject<TTagColumnTableViewControllerDelegate>> _weakDelegate;
-    struct TFENode _selectedNode;
-    struct TFENode _clickedNodeForMenuEvent;
-    struct TFENode _editedNode;
-    struct TKeyValueObserver _selectedObjectsObserver;
-    struct TKeyValueObserver _contentInsetsDidChangeObserver;
-    FI_TContainerLayoutManager *_containerLayoutManager;
-    _Bool tornDown;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@qa;
+- (void)q`;
 - (long long);
 - (id);
 - (struct TFENode);
@@ -40,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (id);
 - (double);
@@ -48,26 +40,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)[{%.*hx}-%{sensitive,mask.mailbox}s] Got %ld flag/label changes.;
+- (id)A;
+- (id);
 - (void);
 - (void)T;
 - (_Bool)E3$_2;
 
 // Remaining properties
 @property(retain, nonatomic) FI_TContainerLayoutManager *containerLayoutManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<TTagColumnTableViewControllerDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct TFENode editedNode; // @synthesize editedNode=_editedNode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct TFENode selectedNode; // @synthesize selectedNode=_selectedNode;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
 
 @end
 

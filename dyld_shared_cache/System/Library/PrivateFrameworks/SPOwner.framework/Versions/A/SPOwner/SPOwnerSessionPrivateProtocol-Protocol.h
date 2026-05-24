@@ -5,9 +5,11 @@
 //
 
 @protocol SPOwnerSessionPrivateProtocol
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType maintainedBeaconsChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType maintainedUnknownBeaconsChangedBlock;
 @end
 

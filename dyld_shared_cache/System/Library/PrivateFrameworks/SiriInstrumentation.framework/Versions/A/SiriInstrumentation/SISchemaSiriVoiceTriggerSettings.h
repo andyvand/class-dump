@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaSiriVoiceTriggerSettings : SISchemaInstrumentationMessage
 {
     _Bool _isHeySiriTriggerPhraseEnabled;
-    _Bool _isJustSiriTriggerPhraseEnabled;
-    _Bool _isEnrollmentReprompted;
-    struct {
-        unsigned int isHeySiriTriggerPhraseEnabled:1;
-        unsigned int isJustSiriTriggerPhraseEnabled:1;
-        unsigned int isEnrollmentReprompted:1;
-    } _has;
 }
 
 - (void);
@@ -33,26 +24,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)I;
+- (unsigned long long)_previousExternalVersionID;
 - (_Bool);
-- (_Bool);
+- (_Bool)?);
 - (id);
-- (id);
-- (id)gOutput;
-- (id)teStaging;
+- (id);
+- (id)deleteDialogOutput;
+- (id)_fromPreSoftwareUpdateStaging;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEnrollmentReprompted;
-@property(nonatomic) _Bool hasIsHeySiriTriggerPhraseEnabled;
-@property(nonatomic) _Bool hasIsJustSiriTriggerPhraseEnabled;
-@property(nonatomic) _Bool isEnrollmentReprompted; // @synthesize isEnrollmentReprompted=_isEnrollmentReprompted;
 @property(nonatomic) _Bool isHeySiriTriggerPhraseEnabled; // @synthesize isHeySiriTriggerPhraseEnabled=_isHeySiriTriggerPhraseEnabled;
-@property(nonatomic) _Bool isJustSiriTriggerPhraseEnabled; // @synthesize isJustSiriTriggerPhraseEnabled=_isJustSiriTriggerPhraseEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

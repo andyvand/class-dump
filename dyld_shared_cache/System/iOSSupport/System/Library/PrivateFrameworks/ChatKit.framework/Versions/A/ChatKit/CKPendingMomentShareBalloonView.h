@@ -10,10 +10,10 @@
 {
 }
 
-- (struct CGSize);
-- (_Bool);
-- (BOOL);
-- (struct CKBalloonDescriptor_t);
+- (struct CGSize)ic_fontWithSingleLineA;
+- (_Bool)g biometrics — falling back to password…;
+- (BOOL)ting and falling back to PDF (error:%@) /* Error: Ran out of types for this method. */;
+- (struct CKBalloonDescriptor_t)C;
 - (id);
 - (void);
 - (BOOL);

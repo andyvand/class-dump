@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDeviceAddress, NSSet;
+@class NSSet;
 @protocol HMDHomeMember;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSyncCodingContext
 {
     NSSet *_relevantTriggers;
-    NSSet *_relevantBulletinRegistrations;
-    _Bool _targetIsResident;
-    id <HMDHomeMember> _targetUser;
-    HMDDeviceAddress *_targetDeviceAddress;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)hasReferenceFrame;
 - (_Bool);
 - (void)ve.tpk;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDDeviceAddress *targetDeviceAddress; // @synthesize targetDeviceAddress=_targetDeviceAddress;
-@property(readonly, nonatomic) _Bool targetIsResident; // @synthesize targetIsResident=_targetIsResident;
 @property(readonly, nonatomic) id <HMDHomeMember> targetUser; // @synthesize targetUser=_targetUser;
 
 @end

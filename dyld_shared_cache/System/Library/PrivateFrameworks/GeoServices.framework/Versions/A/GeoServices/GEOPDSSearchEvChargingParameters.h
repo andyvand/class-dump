@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSSearchEvChargingParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _preferredBrands;
-    NSMutableArray *_networks;
-    NSMutableArray *_ports;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_preferredBrands:1;
-        unsigned int read_networks:1;
-        unsigned int read_ports:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)assetHandlerFactoryWithDisableOnDeviceCompilation: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (id);
 - (id)ksumType"b1"has_requestStyle"b1"has_timeToLiveSeconds"b1"has_updateBehavior"b1"has_useAuthProxy"b1"read_unknownFields"b1"read_availableTiles"b1"read_baseURL"b1"read_countryRegionAllowlists"b1"read_deviceSKUAllowlists"b1"read_localizationURL"b1"read_sentinelTiles"b1"read_supportedLanguages"b1"wrote_anyField"b1};

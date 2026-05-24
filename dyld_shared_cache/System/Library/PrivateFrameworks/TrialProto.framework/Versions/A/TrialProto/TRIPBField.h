@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
-
 @interface TRIPBField : TRIPBMessage
 {
 }
@@ -15,17 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int cardinality; // @dynamic cardinality;
-@property(copy, nonatomic) NSString *defaultValue; // @dynamic defaultValue;
-@property(copy, nonatomic) NSString *jsonName; // @dynamic jsonName;
 @property(nonatomic) int kind; // @dynamic kind;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) int number; // @dynamic number;
-@property(nonatomic) int oneofIndex; // @dynamic oneofIndex;
-@property(retain, nonatomic) NSMutableArray *optionsArray; // @dynamic optionsArray;
-@property(readonly, nonatomic) unsigned long long optionsArray_Count; // @dynamic optionsArray_Count;
-@property(nonatomic) _Bool packed; // @dynamic packed;
-@property(copy, nonatomic) NSString *typeURL; // @dynamic typeURL;
 
 @end
 

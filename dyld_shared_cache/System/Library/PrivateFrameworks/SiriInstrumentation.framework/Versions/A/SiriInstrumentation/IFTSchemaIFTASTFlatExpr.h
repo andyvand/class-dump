@@ -6,96 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaASTExprContinuePlanningVariant, IFTSchemaASTFlatExprCallVariant, IFTSchemaASTFlatExprCancelVariant, IFTSchemaASTFlatExprConfirmVariant, IFTSchemaASTFlatExprDotVariant, IFTSchemaASTFlatExprIndexVariant, IFTSchemaASTFlatExprInfixVariant, IFTSchemaASTFlatExprPickOneVariant, IFTSchemaASTFlatExprPickVariant, IFTSchemaASTFlatExprPrefixVariant, IFTSchemaASTFlatExprRejectVariant, IFTSchemaASTFlatExprResolveToolVariant, IFTSchemaASTFlatExprSayVariant, IFTSchemaASTFlatExprSearchVariant, IFTSchemaASTFlatExprUndoVariant, IFTSchemaASTFlatExprUpdateParametersVariant, IFTSchemaASTFlatExprUpdateVariant, IFTSchemaASTFlatValue, NSData;
+@class IFTSchemaASTFlatValue;
 
 @interface IFTSchemaIFTASTFlatExpr : SISchemaInstrumentationMessage
 {
     IFTSchemaASTFlatValue *_value;
-    IFTSchemaASTFlatExprPrefixVariant *_prefix;
-    IFTSchemaASTFlatExprInfixVariant *_infix;
-    IFTSchemaASTFlatExprDotVariant *_dot;
-    IFTSchemaASTFlatExprIndexVariant *_index;
-    IFTSchemaASTFlatExprCallVariant *_call;
-    IFTSchemaASTFlatExprUpdateVariant *_update;
-    _Bool _endOfPlan;
-    IFTSchemaASTFlatExprSayVariant *_say;
-    IFTSchemaASTFlatExprPickVariant *_pick;
-    IFTSchemaASTFlatExprConfirmVariant *_confirm;
-    IFTSchemaASTFlatExprSearchVariant *_search;
-    IFTSchemaASTFlatExprPickOneVariant *_pickOne;
-    _Bool _noMatchingTool;
-    IFTSchemaASTFlatExprUndoVariant *_undo;
-    IFTSchemaASTFlatExprResolveToolVariant *_resolveTool;
-    IFTSchemaASTFlatExprRejectVariant *_reject;
-    IFTSchemaASTFlatExprCancelVariant *_cancel;
-    IFTSchemaASTExprContinuePlanningVariant *_continuePlanning;
-    IFTSchemaASTFlatExprUpdateParametersVariant *_updateParameters;
-    _Bool _hasValue;
-    _Bool _hasPrefix;
-    _Bool _hasInfix;
-    _Bool _hasDot;
-    _Bool _hasIndex;
-    _Bool _hasCall;
-    _Bool _hasUpdate;
-    _Bool _hasEndOfPlan;
-    _Bool _hasSay;
-    _Bool _hasPick;
-    _Bool _hasConfirm;
-    _Bool _hasSearch;
-    _Bool _hasPickOne;
-    _Bool _hasNoMatchingTool;
-    _Bool _hasUndo;
-    _Bool _hasResolveTool;
-    _Bool _hasReject;
-    _Bool _hasCancel;
-    _Bool _hasContinuePlanning;
-    _Bool _hasUpdateParameters;
-    unsigned long long _whichOneof_Astflatexpr;
 }
 
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -119,6 +43,42 @@
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -130,11 +90,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)addArrangedSubview:(id)arg1;
+- (void)setBubbleLabel:(_Bool)arg1;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)SECONDARY_SERVICESVIEW_TITLE;
+- (void)CodingKeys;
 - (void);
 - (id);
 - (id);
@@ -147,69 +107,28 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)nt, m.account_guid, m.error, m.date, m.date_read, m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.ROWID > ?  AND m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.ROWID DESC;;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)stringFromPotentiallySuggestedContact:relatedToProperty: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id)à1Â0@ù
 × ;
 - (id)ueiDictationVoiceCommandExecuted;
-- (id)ToolQueryType:(id)arg1;
-- (id)viceProximity;
+- (id)setExecutorSearchToolQueryType:(id)arg1;
+- (id)deviceProximity;
 - (id)lhHp¸t¼, Ì"#ô#%ð%8&ô')ô)<*`+ð+<-Ì-ð.8/(1p1l2D3h4°4ü5D6´7ü7¸9H:ä;t<4A|A\BìBDXD|EFGàG°KøK|OÄO4QRÀSPT UèU4WÄWèXxY[`[L]]t^¼^à_(`aPacTcPdàdfLf¼gh|iTjÈkXlÌmnôn<op¬prdrPtt4vÄv w0xyÈyÄzT{0|x|T}¼~,tT|Äè0T,è08X8¤4¤`ðÄÈÐ¨ Ð °¡ø¡´£D¤4¥ä¦l¨´¨$ªlªL««­L­p® /* Error: Ran out of types for this method. */;
-- (id)sAvailable;
+- (id)numAudioFilesAvailable;
 - (void)i²#;
 - (void)N(;
 - (id){ÿT9²«+;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaASTFlatExprCallVariant *call; // @synthesize call=_call;
-@property(retain, nonatomic) IFTSchemaASTFlatExprCancelVariant *cancel; // @synthesize cancel=_cancel;
-@property(retain, nonatomic) IFTSchemaASTFlatExprConfirmVariant *confirm; // @synthesize confirm=_confirm;
-@property(retain, nonatomic) IFTSchemaASTExprContinuePlanningVariant *continuePlanning; // @synthesize continuePlanning=_continuePlanning;
-@property(retain, nonatomic) IFTSchemaASTFlatExprDotVariant *dot; // @synthesize dot=_dot;
-@property(nonatomic) _Bool endOfPlan; // @synthesize endOfPlan=_endOfPlan;
-@property(nonatomic) _Bool hasCall; // @synthesize hasCall=_hasCall;
-@property(nonatomic) _Bool hasCancel; // @synthesize hasCancel=_hasCancel;
-@property(nonatomic) _Bool hasConfirm; // @synthesize hasConfirm=_hasConfirm;
-@property(nonatomic) _Bool hasContinuePlanning; // @synthesize hasContinuePlanning=_hasContinuePlanning;
-@property(nonatomic) _Bool hasDot; // @synthesize hasDot=_hasDot;
-@property(nonatomic) _Bool hasEndOfPlan; // @synthesize hasEndOfPlan=_hasEndOfPlan;
-@property(nonatomic) _Bool hasIndex; // @synthesize hasIndex=_hasIndex;
-@property(nonatomic) _Bool hasInfix; // @synthesize hasInfix=_hasInfix;
-@property(nonatomic) _Bool hasNoMatchingTool; // @synthesize hasNoMatchingTool=_hasNoMatchingTool;
-@property(nonatomic) _Bool hasPick; // @synthesize hasPick=_hasPick;
-@property(nonatomic) _Bool hasPickOne; // @synthesize hasPickOne=_hasPickOne;
-@property(nonatomic) _Bool hasPrefix; // @synthesize hasPrefix=_hasPrefix;
-@property(nonatomic) _Bool hasReject; // @synthesize hasReject=_hasReject;
-@property(nonatomic) _Bool hasResolveTool; // @synthesize hasResolveTool=_hasResolveTool;
-@property(nonatomic) _Bool hasSay; // @synthesize hasSay=_hasSay;
-@property(nonatomic) _Bool hasSearch; // @synthesize hasSearch=_hasSearch;
-@property(nonatomic) _Bool hasUndo; // @synthesize hasUndo=_hasUndo;
-@property(nonatomic) _Bool hasUpdate; // @synthesize hasUpdate=_hasUpdate;
-@property(nonatomic) _Bool hasUpdateParameters; // @synthesize hasUpdateParameters=_hasUpdateParameters;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(retain, nonatomic) IFTSchemaASTFlatExprIndexVariant *index; // @synthesize index=_index;
-@property(retain, nonatomic) IFTSchemaASTFlatExprInfixVariant *infix; // @synthesize infix=_infix;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool noMatchingTool; // @synthesize noMatchingTool=_noMatchingTool;
-@property(retain, nonatomic) IFTSchemaASTFlatExprPickVariant *pick; // @synthesize pick=_pick;
-@property(retain, nonatomic) IFTSchemaASTFlatExprPickOneVariant *pickOne; // @synthesize pickOne=_pickOne;
-@property(retain, nonatomic) IFTSchemaASTFlatExprPrefixVariant *prefix; // @synthesize prefix=_prefix;
-@property(retain, nonatomic) IFTSchemaASTFlatExprRejectVariant *reject; // @synthesize reject=_reject;
-@property(retain, nonatomic) IFTSchemaASTFlatExprResolveToolVariant *resolveTool; // @synthesize resolveTool=_resolveTool;
-@property(retain, nonatomic) IFTSchemaASTFlatExprSayVariant *say; // @synthesize say=_say;
-@property(retain, nonatomic) IFTSchemaASTFlatExprSearchVariant *search; // @synthesize search=_search;
-@property(retain, nonatomic) IFTSchemaASTFlatExprUndoVariant *undo; // @synthesize undo=_undo;
-@property(retain, nonatomic) IFTSchemaASTFlatExprUpdateVariant *update; // @synthesize update=_update;
-@property(retain, nonatomic) IFTSchemaASTFlatExprUpdateParametersVariant *updateParameters; // @synthesize updateParameters=_updateParameters;
 @property(retain, nonatomic) IFTSchemaASTFlatValue *value; // @synthesize value=_value;
-@property(readonly, nonatomic) unsigned long long whichOneof_Astflatexpr; // @synthesize whichOneof_Astflatexpr=_whichOneof_Astflatexpr;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface WidgetKit.WidgetURLHandler
 {
     id sessionIdentifier;
-    id descriptors;
-    id completion;
-    id id;
-    id group;
 }
 
 @end

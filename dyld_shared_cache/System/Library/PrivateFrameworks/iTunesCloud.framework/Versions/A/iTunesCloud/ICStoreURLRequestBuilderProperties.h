@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegateToken, ICURLBag, NSNumber, NSString;
+@class NSString;
 
 @interface ICStoreURLRequestBuilderProperties
 {
     NSString *_iCloudPersonID;
-    ICURLBag *_URLBag;
-    NSNumber *_DSID;
-    NSString *_storefrontIdentifier;
-    NSNumber *_delegatedDSID;
-    NSString *_delegatedStorefrontIdentifier;
-    ICDelegateToken *_delegateToken;
-    ICURLBag *_delegatedURLBag;
 }
 
 - (id);
 - (void);
+- (id)DMesh}^v^v}{?=CfIC(?={?=ff}{?=f}{?=f}{?=Cb1b1})}C}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)X&;
 - (void);
 - (id);
 - (void)@"NSArray",R,N,V_errorDSIDs;
 - (id)lowed class name for remoteRequestOperation:%@. /* Error: Ran out of types for this method. */;
-- (void)ntent;
+- (void)AgeVerificationRequiredForExplicitContent;
 - (void)ICMusicSubscriptionStatusCacheDidChangeNotification;
 - (id):B:6:u::L
 É
@@ -198,14 +191,7 @@ F
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(retain, nonatomic) ICURLBag *URLBag; // @synthesize URLBag=_URLBag;
-@property(copy, nonatomic) ICDelegateToken *delegateToken; // @synthesize delegateToken=_delegateToken;
-@property(copy, nonatomic) NSNumber *delegatedDSID; // @synthesize delegatedDSID=_delegatedDSID;
-@property(copy, nonatomic) NSString *delegatedStorefrontIdentifier; // @synthesize delegatedStorefrontIdentifier=_delegatedStorefrontIdentifier;
-@property(retain, nonatomic) ICURLBag *delegatedURLBag; // @synthesize delegatedURLBag=_delegatedURLBag;
 @property(copy, nonatomic) NSString *iCloudPersonID; // @synthesize iCloudPersonID=_iCloudPersonID;
-@property(copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 
 @end
 

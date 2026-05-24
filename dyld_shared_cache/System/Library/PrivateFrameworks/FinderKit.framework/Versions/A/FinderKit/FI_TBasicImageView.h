@@ -6,21 +6,15 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class NSArray, NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBasicImageView : FI_TUpdateLayerView
 {
     NSImage *_imageForDrawing;
-    NSImage *_imageForComparison;
-    NSArray *_dimmedFilters;
-    struct TriStateBool _animatingFrameSizeLarger;
-    unsigned long long _animatingFrameSizeCount;
-    _Bool _isDimmed;
-    _Bool _acceptsFirstMouse;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -28,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)showRelativeToRect:ofView:preferredEdge: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)messageListSectionDataSource:handleRowSelectionAfterMovingMessagesWithItemIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)isInitialCellConfigurationCompleted;
+- (_Bool)initWithRawString:(id)arg1;
+- (void)specifier;
 - (void);
 - (void);
 - (id);
@@ -48,19 +42,10 @@ __attribute__((visibility("hidden")))
 - (void)¬;
 - (void);
 - (id);
-- (_Bool)JPS0_EENSt3__110shared_ptrIT_EEDpOT0_E19MakeInstanceEnabler;
+- (_Bool)ZL10MakeSharedIN20TBaseICloudDriveNode16TLibraryObserverEJPS0_EENSt3__110shared_ptrIT_EEDpOT0_E19MakeInstanceEnabler;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptsFirstMouse; // @synthesize acceptsFirstMouse=_acceptsFirstMouse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDimmed) _Bool dimmed; // @synthesize dimmed=_isDimmed;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSImage *image;
-@property(readonly) Class superclass;
 
 @end
 

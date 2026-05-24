@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PLSubmissionConfig;
+@class PLSubmissionConfig;
 
 @interface PLSubmissionFile
 {
     _Bool _iCloudUploadEnabled;
-    PLSubmissionConfig *_taskingConfig;
-    NSString *_directory;
-    NSString *_fileName;
 }
 
 - (id);
@@ -32,17 +29,15 @@
 - (void);
 - (id);
 - (id);
+- (void)runStatement:(id)arg1 withBoundRowIds:count:startingAtIndex:stepHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)('9/
+;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *directory; // @synthesize directory=_directory;
-@property(retain) NSString *fileName; // @synthesize fileName=_fileName;
-@property _Bool iCloudUploadEnabled; // @synthesize iCloudUploadEnabled=_iCloudUploadEnabled;
 @property(retain) PLSubmissionConfig *taskingConfig; // @synthesize taskingConfig=_taskingConfig;
 
 @end

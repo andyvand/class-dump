@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)e;
 - (struct __CFDictionary *);
 - (long long);
 

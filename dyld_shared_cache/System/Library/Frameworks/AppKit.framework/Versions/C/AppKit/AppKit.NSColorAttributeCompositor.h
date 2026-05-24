@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)@> will reconnect to existing state by requesting pending callbacks;
+- (void)work/Versions/A/StreamingZip;
 - (id);
 - (void)0nE;
 

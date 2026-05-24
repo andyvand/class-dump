@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CNContactProviderSupportDomain
 {
     _Bool _registered;
-    _Bool _enabled;
-    NSString *_domainIdentifier;
-    NSString *_displayName;
-    NSDictionary *_userInfo;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
@@ -24,8 +19,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void))A;
 - (id);
 - (void)@16@24^@32@?40;
 - (void)ch managed duplicates from store;
@@ -33,12 +28,7 @@
 - (id)Øz;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isRegistered) _Bool registered; // @synthesize registered=_registered;
-@property(readonly, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

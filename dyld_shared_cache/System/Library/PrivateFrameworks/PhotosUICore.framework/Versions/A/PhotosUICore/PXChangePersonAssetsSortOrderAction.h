@@ -11,8 +11,6 @@
 @interface PXChangePersonAssetsSortOrderAction : PXPhotosAction
 {
     PHPerson *_person;
-    long long _sortOrder;
-    long long _originalSortOrder;
 }
 
 - (long long);
@@ -26,8 +24,6 @@
 - (void)GenerativeMemoriesListManagerOptions;
 
 // Remaining properties
-@property(readonly, nonatomic) long long originalSortOrder; // @synthesize originalSortOrder=_originalSortOrder;
-@property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
 @property(readonly, nonatomic) long long sortOrder; // @synthesize sortOrder=_sortOrder;
 
 @end

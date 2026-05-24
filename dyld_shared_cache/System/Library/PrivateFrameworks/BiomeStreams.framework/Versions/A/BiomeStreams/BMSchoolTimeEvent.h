@@ -6,18 +6,15 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMSchoolTimeEvent : BMEventBase
 {
     _Bool _starting;
-    unsigned long long _reason;
 }
 
-+ (id);
++ (id);
+- (id)sultDict[%s];
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned int);
 - (unsigned long long);
 - (id);
@@ -28,20 +25,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)am_stmt__pack_to_buffer;
-- (id)e_set_stmt__get_packed_size;
+- (void)pg_query__create_am_stmt__pack_to_buffer;
+- (id)pg_query__alter_database_set_stmt__get_packed_size;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 @property(nonatomic, getter=isStarting) _Bool starting; // @synthesize starting=_starting;
-@property(readonly) Class superclass;
 
 @end
 

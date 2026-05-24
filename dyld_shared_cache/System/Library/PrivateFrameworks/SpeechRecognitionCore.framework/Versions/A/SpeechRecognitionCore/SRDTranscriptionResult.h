@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString, SRDMachTime;
+@class NSLocale;
 
 @interface SRDTranscriptionResult
 {
     _Bool _isPartialResult;
-    NSLocale *_locale;
-    NSArray *_tokenSausage;
-    NSArray *_nBestResults;
-    NSString *_firstBestResult;
-    NSArray *_preITN_tokenSausage;
-    NSArray *_preITN_nBestResults;
-    NSString *_preITN_firstBestResult;
-    unsigned long long _utteranceID;
-    SRDMachTime *_timeAsrResultReceived;
-    SRDMachTime *_timeUtteranceStart;
-    SRDMachTime *_timeUtteranceEnd;
-    SRDMachTime *_timeMatchedUtteranceSilenceStart;
-    SRDMachTime *_timeSRDResponseSent;
-    SRDMachTime *_timeCommandExecutionStarted;
-    SRDMachTime *_timeCommandExecutionEnded;
 }
 
-+ (_Bool);
-- (unsigned long long);
++ (_Bool)6b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@0:8 /* Error: Ran out of types for this method. */;
+- (unsigned long long)Ӷ"�;
 - (void);
 - (id);
 - (id);
@@ -41,9 +26,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,35 +38,20 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)iggerSecondPass _setStartAnalyzeTime:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *firstBestResult; // @synthesize firstBestResult=_firstBestResult;
-@property(nonatomic) _Bool isPartialResult; // @synthesize isPartialResult=_isPartialResult;
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSArray *nBestResults; // @synthesize nBestResults=_nBestResults;
-@property(retain, nonatomic) NSString *preITN_firstBestResult; // @synthesize preITN_firstBestResult=_preITN_firstBestResult;
-@property(retain, nonatomic) NSArray *preITN_nBestResults; // @synthesize preITN_nBestResults=_preITN_nBestResults;
-@property(retain, nonatomic) NSArray *preITN_tokenSausage; // @synthesize preITN_tokenSausage=_preITN_tokenSausage;
-@property(retain, nonatomic) SRDMachTime *timeAsrResultReceived; // @synthesize timeAsrResultReceived=_timeAsrResultReceived;
-@property(retain, nonatomic) SRDMachTime *timeCommandExecutionEnded; // @synthesize timeCommandExecutionEnded=_timeCommandExecutionEnded;
-@property(retain, nonatomic) SRDMachTime *timeCommandExecutionStarted; // @synthesize timeCommandExecutionStarted=_timeCommandExecutionStarted;
-@property(retain, nonatomic) SRDMachTime *timeMatchedUtteranceSilenceStart; // @synthesize timeMatchedUtteranceSilenceStart=_timeMatchedUtteranceSilenceStart;
-@property(retain, nonatomic) SRDMachTime *timeSRDResponseSent; // @synthesize timeSRDResponseSent=_timeSRDResponseSent;
-@property(retain, nonatomic) SRDMachTime *timeUtteranceEnd; // @synthesize timeUtteranceEnd=_timeUtteranceEnd;
-@property(retain, nonatomic) SRDMachTime *timeUtteranceStart; // @synthesize timeUtteranceStart=_timeUtteranceStart;
-@property(retain, nonatomic) NSArray *tokenSausage; // @synthesize tokenSausage=_tokenSausage;
-@property(nonatomic) unsigned long long utteranceID; // @synthesize utteranceID=_utteranceID;
 
 @end
 

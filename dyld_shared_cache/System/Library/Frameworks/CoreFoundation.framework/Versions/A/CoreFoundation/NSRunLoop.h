@@ -9,11 +9,6 @@
 @interface NSRunLoop
 {
     id _rl;
-    id _dperf;
-    id _perft;
-    id _info;
-    id _ports;
-    NSString *_currentMode;
 }
 
 

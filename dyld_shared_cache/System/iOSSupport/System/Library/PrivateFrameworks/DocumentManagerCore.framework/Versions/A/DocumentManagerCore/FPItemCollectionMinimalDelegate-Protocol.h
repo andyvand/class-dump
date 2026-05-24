@@ -5,5 +5,8 @@
 //
 
 @protocol FPItemCollectionMinimalDelegate
+
+@optional
+- (void);
 @end
 

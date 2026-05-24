@@ -8,9 +8,9 @@
 {
 }
 
-- (double);
-- (id);
-- (id);
+- (double)conversationManager:activeRemoteParticipantsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)overArtworkRecipe;
 - (long long)1Â0@ù
 × ;
 - (long long)þZÀ;

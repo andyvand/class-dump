@@ -7,6 +7,6 @@
 @interface UnknownClass (ISInvocationAdditions)
 - (id);
 - (id);
-- (id);
+- (id);
 @end
 

@@ -11,8 +11,8 @@
     long long _carKitConnectionState;
 }
 
-- (id);
-- (long long);
+- (id)B;
+- (long long)ictionary;
 
 // Remaining properties
 @property(readonly, nonatomic) long long carKitConnectionState; // @synthesize carKitConnectionState=_carKitConnectionState;

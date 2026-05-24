@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, RTDefaultsManager;
+@class RTDefaultsManager;
 
 @interface RTDailyTrainingSessionCounter
 {
     RTDefaultsManager *_defaultsManager;
-    NSMutableArray *_metrics;
 }
 
 - (_Bool);
+- (id)Փ;
+- (void);
+- (void)outside;
+- (id)dog;
+- (void);
+- (id)didate %@.;
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)uration;
+- (id)actualDuration;
 - (void)exceeded maximum, %ld;
 - (id)ic}d):(id)arg1 %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) NSMutableArray *metrics; // @synthesize metrics=_metrics;
 
 @end
 

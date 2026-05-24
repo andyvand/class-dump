@@ -6,25 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTEntityValue, IFTSchemaIFTEnumerationValue, IFTSchemaIFTPrimitiveValue, IFTSchemaIFTQueryValue, NSData;
+@class IFTSchemaIFTPrimitiveValue;
 
 @interface IFTSchemaIFTValue : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTPrimitiveValue *_primitive;
-    IFTSchemaIFTEnumerationValue *_enumeration;
-    IFTSchemaIFTEntityValue *_entity;
-    IFTSchemaIFTQueryValue *_query;
-    _Bool _hasPrimitive;
-    _Bool _hasEnumeration;
-    _Bool _hasEntity;
-    _Bool _hasQuery;
-    unsigned long long _whichOneof_Value;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,9 +30,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)24B32;
 - (id);
-- (id);
+- (id)u;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -50,23 +42,14 @@
 - (id)!ÀFù1à°1Â0@ù
 × ;
 - (id)d;
-- (id)e;
+- (id)GRRSchemaGRRSource;
 - (void)	
 ;
 - (id)°x<z;
 - (void)¥Õÿ`W®Úû";
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTEntityValue *entity; // @synthesize entity=_entity;
-@property(retain, nonatomic) IFTSchemaIFTEnumerationValue *enumeration; // @synthesize enumeration=_enumeration;
-@property(nonatomic) _Bool hasEntity; // @synthesize hasEntity=_hasEntity;
-@property(nonatomic) _Bool hasEnumeration; // @synthesize hasEnumeration=_hasEnumeration;
-@property(nonatomic) _Bool hasPrimitive; // @synthesize hasPrimitive=_hasPrimitive;
-@property(nonatomic) _Bool hasQuery; // @synthesize hasQuery=_hasQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTPrimitiveValue *primitive; // @synthesize primitive=_primitive;
-@property(retain, nonatomic) IFTSchemaIFTQueryValue *query; // @synthesize query=_query;
-@property(readonly, nonatomic) unsigned long long whichOneof_Value; // @synthesize whichOneof_Value=_whichOneof_Value;
 
 @end
 

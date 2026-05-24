@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatPuzzleEmbedData
 {
     id identifier;
-    id feedPuzzle;
-    id config;
-    id routeOptions;
 }
 
 @end

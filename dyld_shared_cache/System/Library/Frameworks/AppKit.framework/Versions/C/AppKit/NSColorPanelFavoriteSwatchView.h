@@ -6,23 +6,22 @@
 
 #import <AppKit/NSView.h>
 
-@class NSAppearance, NSColor, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPanelFavoriteSwatchView : NSView
 {
     NSColor *_color;
-    NSAppearance *_appearanceForRenderingColor;
 }
 
-+ (id);
++ (id)led to obtain the Caches directory for this user-context. We will not be able to download.;
 + (struct CGSize);
-- (_Bool);
+- (_Bool)setEnableCoprocessorInterface: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (void);
+- (void)Q;
 - (id);
 - (_Bool);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (struct CGSize);
@@ -30,16 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)verticalGroupWithLayoutSize:(id)arg1 subitems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSAppearance *appearanceForRenderingColor; // @synthesize appearanceForRenderingColor=_appearanceForRenderingColor;
 @property(copy) NSColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(readonly) Class superclass;
 
 @end
 

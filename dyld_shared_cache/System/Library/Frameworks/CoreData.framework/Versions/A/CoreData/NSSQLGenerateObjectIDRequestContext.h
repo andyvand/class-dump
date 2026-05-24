@@ -6,13 +6,12 @@
 
 #import <CoreData/NSSQLStoreRequestContext.h>
 
-@class NSDictionary, NSSQLModel;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLGenerateObjectIDRequestContext : NSSQLStoreRequestContext
 {
     NSDictionary *_entitiesAndCounts;
-    NSSQLModel *_model;
 }
 
 - (void);

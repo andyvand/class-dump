@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_feedbackComponents;
-    NSString *_feedbackId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_feedbackComponents:1;
-        unsigned int read_feedbackId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)IsoCountryCode:(id)arg1;
-- (void);
-- (void);
-- (_Bool);
++ (_Bool)setIsoCountryCode:(id)arg1;
+- (void)encodeInteger:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)enabledPersistentAccounts;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
@@ -37,13 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
+- (void)5;
 - (void);
-- (void);
-- (id);
+- (id)setVoiceTriggerSampleCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -52,8 +38,8 @@
 - (id);
 - (void);
 - (id)"b1"read_headsign"b1"wrote_anyField"b1};
-- (int);
-- (id)yWithCapacity: /* Error: Ran out of types for this method. */;
+- (int)platformType;
+- (id)arrayWithCapacity: /* Error: Ran out of types for this method. */;
 - (id)Ü;
 - (id)cache container.;
 - (id)InformationReadAllFrom can only be called once per object;
@@ -63,12 +49,7 @@
 - (void)þd³½M@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *feedbackComponents;
-@property(retain, nonatomic) NSString *feedbackId;
 @property(readonly, nonatomic) _Bool hasFeedbackId;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) int status;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

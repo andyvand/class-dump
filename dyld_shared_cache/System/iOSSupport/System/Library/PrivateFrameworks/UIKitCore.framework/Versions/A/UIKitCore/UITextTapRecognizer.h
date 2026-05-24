@@ -15,12 +15,12 @@
 }
 
 - (double);
-- (id);
+- (id)prepareToPlay;
 - (void)! Gù1dÐ1Â0@ù
 × ;
 - (id)tableView:(id)arg1 performPrimaryActionForRowAtIndexPath:(SEL)arg2;
-- (void)thTimeIntervalSinceNow:(id)arg1;
-- (void)_UIIntelligenceRimHighlightEffectRegion;
+- (void)dateWithTimeIntervalSinceNow:(id)arg1;
+- (void)N_UIIntelligenceRimHighlightEffectRegion;
 - (void)Å`;
 - (void)ò`;
 

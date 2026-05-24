@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMobileChromelessContentTabsView, AVMobileContentTab, NSArray, NSString, UIViewController, UIViewPropertyAnimator;
-@protocol AVMobileChromelessContentTabsViewControllerDelegate, AVMobileControlsStyleFontsSheet;
+@class AVMobileChromelessContentTabsView;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessContentTabsViewController
 {
     AVMobileChromelessContentTabsView *_view;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    UIViewController *_selectedCustomInfoViewController;
-    UIViewController *_activeCustomInfoViewController;
-    UIViewController *_upcomingCustomInfoViewController;
-    UIViewController *_replacingCustomInfoViewController;
-    UIViewPropertyAnimator *_contentViewScrollViewAnimator;
-    unsigned long long _selectionChangedReason;
-    long long _initialContentTabIndex;
-    NSArray *_customInfoViewControllers;
-    AVMobileContentTab *_upcomingContentTab;
-    unsigned long long _transitionState;
-    long long _currentContentTabIndex;
-    id <AVMobileChromelessContentTabsViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -32,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
@@ -44,29 +30,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id));
 - (void);
 - (void);
-- (void);
+- (void)HERE lastUsed < %f AND timesAccessed < %lu) ;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) long long currentContentTabIndex; // @synthesize currentContentTabIndex=_currentContentTabIndex;
-@property(copy, nonatomic) NSArray *customInfoViewControllers; // @synthesize customInfoViewControllers=_customInfoViewControllers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileChromelessContentTabsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIViewController *selectedCustomInfoViewController;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long transitionState; // @synthesize transitionState=_transitionState;
-@property(retain, nonatomic) AVMobileContentTab *upcomingContentTab; // @synthesize upcomingContentTab=_upcomingContentTab;
-@property(readonly, nonatomic) UIViewController *upcomingCustomInfoViewController;
 
 @end
 

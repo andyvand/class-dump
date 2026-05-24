@@ -7,7 +7,6 @@
 @interface TeaUI.MotionDisplayLinkAnimator__priv_784EF69C785F90080E9E264D82E9F374
 {
     id $__lazy_storage_$_displayLink;
-    id block;
 }
 
 @end

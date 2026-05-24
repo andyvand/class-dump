@@ -9,18 +9,14 @@
 @interface AppKit._NSTextFormattingBasePopUpButton__priv_B20AA1257E16D4018E27D921D92487C8 : NSPopUpButton
 {
     id $__lazy_storage_$_titleItem;
-    id titleImage;
-    id componentKey;
-    id componentSize;
-    id layoutVariant;
 }
 
-- (void);
+- (void)6ju;
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
-- (id)Number;
+- (id)_squeezeWindowNumber;
 - (id)mentView"8^B16;
 - (void)fE;
 

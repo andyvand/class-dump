@@ -6,75 +6,54 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, TTSSchemaTTSSpeechCancelled, TTSSchemaTTSSpeechEnded, TTSSchemaTTSSpeechFailed, TTSSchemaTTSSpeechStarted;
+@class SISchemaUUID;
 
 @interface TTSSchemaTTSClientSpeechContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    TTSSchemaTTSSpeechStarted *_startedOrChanged;
-    TTSSchemaTTSSpeechEnded *_ended;
-    TTSSchemaTTSSpeechFailed *_failed;
-    TTSSchemaTTSSpeechCancelled *_cancelled;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)setLibraryFilePath:(_Bool)arg1;
+- (_Bool);
+- (id);
+- (id)locatedRecoveryOSVersion;
+- (id);
+- (id);
+- (void);
+- (_Bool)NqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_utl.c;
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)shouldPruneKey:(id)arg1;
+- (_Bool).service, m.account, m.account_guid, m.error, m.date, m.date_read, m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join j ON   m.ROWID = j.message_id INNER JOIN chat c ON   c.ROWID = j.chat_id WHERE   c.room_name = ?   AND c.service_name = ? ORDER BY   m.ROWID DESC LIMIT ?;
 - (id);
 - (id);
 - (void)
 × ;
-- (id)teRecognitionHardware;
-- (id)bledOnCarPlay;
-- (void)OWERCONTEXTPOLICY_UNKNOWN;
+- (id)deleteRecognitionHardware;
+- (id)_isShowAppsBehindSiriEnabledOnCarPlay;
+- (void)ORCHASRPOWERCONTEXTPOLICY_UNKNOWN;
 - (void);
-- (id)LECollectionStatus;
+- (id)ODSAMPLESiriSchemaODSAMPLECollectionStatus;
 
 // Remaining properties
-@property(retain, nonatomic) TTSSchemaTTSSpeechCancelled *cancelled; // @synthesize cancelled=_cancelled;
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) TTSSchemaTTSSpeechEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) TTSSchemaTTSSpeechFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) TTSSchemaTTSSpeechStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

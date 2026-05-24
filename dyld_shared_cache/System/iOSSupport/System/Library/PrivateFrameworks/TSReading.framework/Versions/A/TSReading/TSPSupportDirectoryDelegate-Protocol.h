@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @protocol TSPSupportDirectoryDelegate
+
+@optional
+- (NSURL *)tityProperties"8@"NSError"16;
 @end
 

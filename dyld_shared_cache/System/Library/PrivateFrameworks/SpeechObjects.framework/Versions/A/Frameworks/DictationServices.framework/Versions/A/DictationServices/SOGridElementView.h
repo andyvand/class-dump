@@ -9,7 +9,6 @@
 @interface SOGridElementView
 {
     SOLabeledBadgeWindowController *_badgeWindowController;
-    unsigned long long _badgeNumber;
 }
 
 - (void);
@@ -18,13 +17,12 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (struct CGSize);
+- (struct CGSize)#;
 - (void);
-- (unsigned long long);
+- (unsigned long long)progressHandler;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long badgeNumber; // @synthesize badgeNumber=_badgeNumber;
 @property(retain) SOLabeledBadgeWindowController *badgeWindowController; // @synthesize badgeWindowController=_badgeWindowController;
 
 @end

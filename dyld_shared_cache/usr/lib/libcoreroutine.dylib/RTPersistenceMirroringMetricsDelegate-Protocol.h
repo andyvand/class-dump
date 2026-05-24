@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class RTPersistenceMirroringManager, RTPersistenceMirroringRequest;
+
 @protocol RTPersistenceMirroringMetricsDelegate
+- (void)initWithConversationGroup:(RTPersistenceMirroringManager *)arg1 deviceIdentity:(RTPersistenceMirroringRequest *)arg2 participants: /* Error: Ran out of types for this method. */;
+- (void)ad %p, not %p;
 @end
 

@@ -6,23 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRSampledAudioFileDeletionFailed : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    int _errorCode;
-    NSString *_errorDomain;
-    int _underlyingErrorCode;
-    NSString *_underlyingErrorDomain;
-    CDStruct_2818be66 _has;
-    _Bool _hasOriginalAsrId;
-    _Bool _hasErrorDomain;
-    _Bool _hasUnderlyingErrorDomain;
 }
 
 - (void);
-- (void);
+- (void)�H;
 - (id);
 - (_Bool);
 - (void);
@@ -37,21 +29,101 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)i;
 - (id);
-- (int);
+- (int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)- directions
+
+CREATE VIEW directions_view AS
+    SELECT
+        id,
+        PRINTF("%.3f", request_timestamp) AS request_time,
+        PRINTF("%.3f", response_timestamp) AS response_time,
+        LENGTH(request_data) AS request,
+        LENGTH(response_data) AS response,
+        LENGTH(response_error_data) AS error,
+        LENGTH(waypoints_data) AS waypoints,
+        selected_route_index
+    FROM
+        directions;
+         
+-- eta_traffic_updates
+
+CREATE VIEW etau_view AS
+    SELECT
+        id,
+        PRINTF("%.3f", request_timestamp) AS request_time,
+        PRINTF("%.3f", response_timestamp) AS response_time,
+        LENGTH(request_data) AS request,
+        LENGTH(response_data) AS response,
+        LENGTH(response_error_data) AS error,
+        destination_name AS destination
+    FROM
+        eta_traffic_updates;
+
+-- navigation_events
+
+CREATE VIEW navigation_events_view AS
+    SELECT
+        PRINTF("%.3f", relative_timestamp) AS relative_time,
+        PRINTF("%d", absolute_timestamp) AS absolute_time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS time,
+        last_location_id AS location,
+        event_name,
+        event_description
+    FROM
+        navigation_events INNER JOIN navigation_event_types ON navigation_events.event_id = navigation_event_types.event_id;
+
+-- ev_data
+
+CREATE VIEW ev_data_view as
+    SELECT
+        PRINTF("%.1f", relative_timestamp) AS time,
+        strftime('%H:%M:%S', time(absolute_timestamp, 'unixepoch', 'localtime')) AS date,
+        PRINTF("%.0f%%", battery_percentage * 100) AS "battery%",
+        PRINTF("%.1f", current_range_m) AS "range (meters)",
+        PRINTF("%.1f", current_battery_capacity_kwh) AS "capacity (kwh)",
+        is_charging,
+        CASE WHEN length(vehicle_data) > 0 THEN identifier END as identifier
+    FROM
+        ev_data;
+
+-- custom_route_creation_actions
+
+CREATE VIEW route_creation_actions_view AS
+    SELECT
+        rowid AS 'Index',
+        PRINTF("%.3f", request_timestamp) AS 'Request Time',
+        PRINTF("%.3f", response_timestamp) AS 'Response Time',
+        LENGTH(request_data) AS 'Request',
+        LENGTH(response_data) AS 'Response',
+        LENGTH(response_error_data) AS 'Error',
+        LENGTH(anchor_points_data) AS 'Anchor Points',
+        CASE action
+            WHEN 0 THEN 'Unset'
+            WHEN 1 THEN 'Append Anchor'
+            WHEN 2 THEN 'Delete Anchor'
+            WHEN 101 THEN 'Reverse'
+            WHEN 102 THEN 'Out and Back'
+            WHEN 103 THEN 'Close Loop'
+            WHEN 1001 THEN 'Undo'
+            WHEN 1002 THEN 'Redo'
+            ELSE 'Unknown'
+        END AS 'Action'
+    FROM
+        custom_route_creation_actions;
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)fT;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)ingCount;
+- (id)unacknowledgedPingCount;
 - (id)¤¾ì¾È¿À4Á|Á\Â¤ÂÃLÄ,Å°ÅÆØÆüÇDÈ$É´ÉÊØÊüËDÌ´ÍüÍLÏÏ ÑèÑÈÒÓðÓ8Ô¸Ö;
 - (id);
 - (void)É&;
@@ -59,17 +131,7 @@
 - (int)tð`ÿ;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(nonatomic) _Bool hasUnderlyingErrorCode;
-@property(nonatomic) _Bool hasUnderlyingErrorDomain; // @synthesize hasUnderlyingErrorDomain=_hasUnderlyingErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
-@property(nonatomic) int underlyingErrorCode; // @synthesize underlyingErrorCode=_underlyingErrorCode;
-@property(copy, nonatomic) NSString *underlyingErrorDomain; // @synthesize underlyingErrorDomain=_underlyingErrorDomain;
 
 @end
 

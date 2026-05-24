@@ -5,5 +5,6 @@
 //
 
 @protocol PLFeatureAvailabilityTransitionDelegate
+- (id)P;
 @end
 

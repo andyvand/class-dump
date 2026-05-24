@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNGeminiHandle
 {
     long long _handleType;
-    NSString *_stringValue;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (long long)fier: /* Error: Ran out of types for this method. */;
+- (long long)predicatesForBundleIdentifier: /* Error: Ran out of types for this method. */;
 - (id)ôçøçLè;
 
 // Remaining properties
 @property(readonly, nonatomic) long long handleType; // @synthesize handleType=_handleType;
-@property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

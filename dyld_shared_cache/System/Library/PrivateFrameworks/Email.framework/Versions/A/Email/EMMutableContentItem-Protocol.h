@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMailDropMetadata, NSArray, NSString;
+@class EMMailDropMetadata, NSArray;
 
 @protocol EMMutableContentItem
+- (void);
+- (void)DemoModeConfigurationData;
+- (void);
+- (EMMailDropMetadata *)AliroVersion;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *availableRepresentations;
-@property(copy, nonatomic) NSString *contentID;
-@property(nonatomic) long long dataTransferByteCount;
-@property(copy, nonatomic) NSString *displayName;
-@property(nonatomic) int exchangeEventUID;
-@property(nonatomic) _Bool isAvailableLocally;
-@property(copy, nonatomic) EMMailDropMetadata *mailDropMetadata;
-@property(nonatomic) long long storageByteCount;
-@property(copy, nonatomic) NSString *uniformTypeIdentifier;
 @end
 

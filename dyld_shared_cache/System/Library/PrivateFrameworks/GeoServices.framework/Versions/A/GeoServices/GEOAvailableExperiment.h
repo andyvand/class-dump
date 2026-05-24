@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface GEOAvailableExperiment
 {
     NSString *_identifier;
-    NSString *_name;
-    NSMutableArray *_branches;
 }
 
 - (id);
@@ -23,9 +21,7 @@
 - (void)Lêþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *branches; // @synthesize branches=_branches;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

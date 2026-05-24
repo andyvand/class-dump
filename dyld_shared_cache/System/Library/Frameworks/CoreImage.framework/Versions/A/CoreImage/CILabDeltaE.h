@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface CILabDeltaE : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputImage2;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)|%;
 - (id);
 - (void);
 - (id)½¿¿¿¶¸½½ªªªªp{yyyyyo|||gtuvBTKZ5?1EBB7BLPGPefdfrvwwj{}qg¡¡¡¡|pyrx{uhwwwwkkek]e^efaXfQg`qk||||s|||r~|wsxr6WGp^i_syyyyrqix[ne|¬¬¬¬µµµµ¨°±±¢£©ª¤««°°°°©©©©||y|rpirttny~yNlc|o|v}zzzznnnnblhlvusvs|~doku^jdr}}}}Mni||||^c\gSTGYZZUZ`hch~zw~yªªªª¬¬¬¬¥¦¦esovllllllllsurvs}}xxxxMaZgT\Shtzy{¢¢¢¢OrjMfYvWi^tguoqmyyy8J=Y>F8LPSKSJZS^]d`jnsssnnnnKWOY5A2GCD7DGM@Odfefsx§§§§¡©®®¨¨¨¨Rld{mzw|u{{{{hhhhYYYYXXXXddddqqqqwwwwxxxxm}p}Qc]pRYP[OOGO9L@Ullll{{{{lrovbh`puutuyyyyftsxvvvvssssppnpssssuuuullllH[SerrprQphvyrl}s{yGhaxkrnwi{z|yuzv~zwpzXvo©©©©nnnnV_VbkkkkUicrVZO`KSGVZZTZ`ebeimipXpk^zxoevrxxxxO`Xe[bYf||||vsYjduqqqqqqqqtttttyx|l~cyyjxw~h{|~viyy~bsoybnguwpgww~¦¦¦¦zzzzL_XcAK=VP\Uc}}}}¢¢¢¢ftn}?UEjNdZpZurzmmgmenhp~~~~sspsVibs¡¡¡¡¢¢¢^vt}}}}Wh`p_cZkepjpnzzzeqoxiidlbb_bMXP\^`Z``gakQnj~°°°°¥¯¯l}zapjssrs8PB_AQE[eeeefihiU`Yd;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputImage2; // @synthesize inputImage2;
 
 @end
 

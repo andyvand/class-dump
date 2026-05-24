@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSArray, NSData, NSString, _CHSExtensionIdentityBuf;
+@class AFBBufRef, _CHSExtensionIdentityBuf;
 
 @interface _CHSWidgetRelevancePropertiesBuf
 {
     AFBBufRef *_br;
-    const struct WidgetRelevancePropertiesBuf *_ptr;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (double);
 - (id);
@@ -24,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,20 +34,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)i;
 
 // Remaining properties
 @property(readonly, nonatomic) _CHSExtensionIdentityBuf *extensionIdentity;
-@property(readonly, nonatomic) _Bool hasIsDeletion;
-@property(readonly, nonatomic) _Bool hasLastRelevanceUpdate;
-@property(readonly, nonatomic) _Bool hasSupportsBackgroundRefresh;
-@property(readonly, nonatomic) _Bool isDeletion;
-@property(readonly, nonatomic) NSString *kind;
-@property(readonly, nonatomic) const char *kindAsCString;
-@property(readonly, nonatomic) NSData *kindAsData;
-@property(readonly, nonatomic) double lastRelevanceUpdate;
-@property(readonly, nonatomic) NSArray *relevances;
-@property(readonly, nonatomic) _Bool supportsBackgroundRefresh;
 
 @end
 

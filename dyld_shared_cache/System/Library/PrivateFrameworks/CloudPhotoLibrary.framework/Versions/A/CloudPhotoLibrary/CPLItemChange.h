@@ -13,12 +13,12 @@
     NSArray *_containerRelations;
 }
 
-+ (_Bool)iptionForSetupTasks;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)setIsStreaming:(id)arg1;
+- (id)pple.SSSnippetHighlightTool.TextHighlightAttribute;
 - (id);
 - (void)ñÐ1Â0@ù
 × ;

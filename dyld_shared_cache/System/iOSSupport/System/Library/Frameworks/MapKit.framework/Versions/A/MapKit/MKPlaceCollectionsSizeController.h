@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MKPlaceCollectionsSizeController
 {
     _Bool _isSingleCollection;
-    _Bool _isMarzipan;
-    double _defaultCollectionHeight;
-    double _defaultCollectionWidth;
-    CDStruct_7ddafc85 _collectionsConfiguration;
-    struct UIEdgeInsets _sectionInset;
 }
 
 - (struct CGSize);
@@ -22,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)g;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,23 +24,11 @@
 - (double);
 - (CDStruct_7ddafc85);
 - (struct UIEdgeInsets);
-- (void);
+- (void);
 - (struct UIEdgeInsets);
 
 // Remaining properties
-@property(nonatomic) CDStruct_7ddafc85 collectionsConfiguration; // @synthesize collectionsConfiguration=_collectionsConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double defaultCollectionHeight; // @synthesize defaultCollectionHeight=_defaultCollectionHeight;
-@property(nonatomic) double defaultCollectionWidth; // @synthesize defaultCollectionWidth=_defaultCollectionWidth;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMarzipan; // @synthesize isMarzipan=_isMarzipan;
-@property(nonatomic) _Bool isSingleCollection; // @synthesize isSingleCollection=_isSingleCollection;
 @property(nonatomic) struct UIEdgeInsets sectionInset; // @synthesize sectionInset=_sectionInset;
-@property(readonly) Class superclass;
 
 @end
 

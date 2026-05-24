@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBulletin, AceObject, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface AFApplicationContext
 {
     NSString *_associatedBundleIdentifier;
-    AFBulletin *_bulletin;
-    AceObject *_aceContext;
-    NSDictionary *_contextDictionary;
-    NSArray *_aceContexts;
 }
 
 + (id);
 + (_Bool);
+- (id)O$;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)2
+	=;
+- (id)addMailboxURLs:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)transitionToMouseInteractionForView:(id)arg1;
 - (void);
 - (id);
-- (void);
+- (void)AFRemoteRequest;
 - (id)tent When Active;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AceObject *aceContext; // @synthesize aceContext=_aceContext;
-@property(readonly, copy, nonatomic) NSArray *aceContexts; // @synthesize aceContexts=_aceContexts;
 @property(readonly, copy, nonatomic) NSString *associatedBundleIdentifier; // @synthesize associatedBundleIdentifier=_associatedBundleIdentifier;
-@property(readonly, copy, nonatomic) AFBulletin *bulletin; // @synthesize bulletin=_bulletin;
-@property(readonly, copy, nonatomic) NSDictionary *contextDictionary; // @synthesize contextDictionary=_contextDictionary;
 
 @end
 

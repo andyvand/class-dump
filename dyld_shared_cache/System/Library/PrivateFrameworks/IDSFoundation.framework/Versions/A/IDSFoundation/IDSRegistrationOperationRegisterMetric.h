@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSRegistrationOperationRegisterMetric
 {
     _Bool _success;
-    _Bool _isHeartbeatRegister;
-    unsigned int _connectionType;
-    unsigned int _resultCode;
-    unsigned int _registrationError;
-    NSString *_guid;
-    NSNumber *_heartbeatDelay;
-    NSNumber *_genericError;
-    NSNumber *_URLError;
-    NSNumber *_POSIXError;
 }
 
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (unsigned int);
-- (id);
+- (unsigned int)S [%{ptr}] Submitting NAN Issue Report '%@';
+- (id)i!ɚ;
 - (id);
 - (_Bool);
 - (id);
@@ -36,25 +27,7 @@
 - (id)04RealcdE12HTTPResponseVGAA0bcdeQ5ErrorOGSS_AA0scdE11HTTPRequestVtYaKFTE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *POSIXError; // @synthesize POSIXError=_POSIXError;
-@property(readonly, nonatomic) NSNumber *URLError; // @synthesize URLError=_URLError;
-@property(readonly, nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSNumber *genericError; // @synthesize genericError=_genericError;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *heartbeatDelay; // @synthesize heartbeatDelay=_heartbeatDelay;
-@property(readonly, nonatomic) _Bool isHeartbeatRegister; // @synthesize isHeartbeatRegister=_isHeartbeatRegister;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned int registrationError; // @synthesize registrationError=_registrationError;
-@property(readonly, nonatomic) unsigned int resultCode; // @synthesize resultCode=_resultCode;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

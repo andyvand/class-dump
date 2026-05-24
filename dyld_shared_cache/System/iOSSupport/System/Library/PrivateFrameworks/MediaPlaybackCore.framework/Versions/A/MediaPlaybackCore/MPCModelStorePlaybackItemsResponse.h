@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, MPCModelStorePlaybackItemsRequestAccumulation, MPStoreLibraryPersonalizationResponse, NSString;
-@protocol MPCModelStorePlaybackItemsRequestAccumulator;
+@class MPCModelStorePlaybackItemsRequestAccumulation;
 
 @interface MPCModelStorePlaybackItemsResponse
 {
     MPCModelStorePlaybackItemsRequestAccumulation *_accumulation;
-    _Bool _finalResponse;
-    MPStoreLibraryPersonalizationResponse *_personalizationResponse;
-    long long _pendingIDsCount;
-    long long _failedIDsCount;
-    long long _invalidationReason;
-    id <MPCModelStorePlaybackItemsRequestAccumulator> _accumulator;
-    ICURLAggregatedPerformanceMetrics *_performanceMetrics;
 }
 
 - (_Bool);
-- (id);
-- (id);
+- (id)m/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (id)dation;
+- (long long);
+- (void)32@0:(id)arg1 8@"ACAccount"16@"ACDAccountStore"24;
+- (id)6;
+- (void);
 - (long long);
 - (void);
-- (id);
-- (void);
-- (long long);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)systemImageNamed:withConfiguration: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -38,21 +30,7 @@
 - (void)ic}@ %{public}@ %2i %{public}@  â° cached:%{BOOL}u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MPStoreLibraryPersonalizationResponse *_personalizationResponse; // @synthesize _personalizationResponse;
-@property(readonly, nonatomic) id <MPCModelStorePlaybackItemsRequestAccumulator> accumulator; // @synthesize accumulator=_accumulator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long failedIDsCount; // @synthesize failedIDsCount=_failedIDsCount;
-@property(nonatomic, getter=isFinalResponse) _Bool finalResponse; // @synthesize finalResponse=_finalResponse;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isInvalidForPersonalization) _Bool invalidForPersonalization;
-@property(readonly, nonatomic) long long invalidationReason; // @synthesize invalidationReason=_invalidationReason;
-@property(readonly, nonatomic) long long pendingIDsCount; // @synthesize pendingIDsCount=_pendingIDsCount;
-@property(retain, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics; // @synthesize performanceMetrics=_performanceMetrics;
-@property(readonly) Class superclass;
 
 @end
 

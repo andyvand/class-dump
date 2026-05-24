@@ -5,5 +5,8 @@
 //
 
 @protocol BSXPCAutoCoding
+
+@optional
++ (void);
 @end
 

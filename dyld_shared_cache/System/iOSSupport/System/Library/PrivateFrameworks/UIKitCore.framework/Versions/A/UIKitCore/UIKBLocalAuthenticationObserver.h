@@ -4,59 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-@protocol UIKeyInput;
-
 __attribute__((visibility("hidden")))
 @interface UIKBLocalAuthenticationObserver
 {
     _Bool _isListeningForLAUINotifications;
-    _Bool _localAuthenticationPresented;
-    _Bool _isRestoringPreLocalAuthenticationDelegate;
-    _Bool _inputUIResuming;
-    _Bool _isRestoringInputViews;
-    id <UIKeyInput> _delegateResignedDuringLocalAuthentication;
-    NSUUID *_uuidOfDelegateResignedDuringLocalAuthentication;
-    NSUUID *_uuidOfSessionEndedDuringLocalAuthentication;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)gy_;
+- (id)!;
 - (id);
 - (void);
 - (void);
+- (void)have an IMDCKSyncController when trying report _PCSTestBackupStateDidChange;
+- (void)old message from %@ with date:(_Bool)arg1 %@;
+- (void)t processing validation token "%@" for old message from %@ with date:(_Bool)arg1 %@;
+- (void)t support it. File a radar-------*/;
+- (void)ng it as clean and moving on.;
+- (id)pot;
+- (_Bool)a write because cachedSalt is not present.;
+- (_Bool)after fetching messages;
+- (_Bool)cord - OH BOY;
+- (_Bool)sNeedingSync %@;
+- (void)eplicated message;
+- (void)LastCompleteDBCKSyncWasNotWithin7Days;
+- (id)__kIMDBadgeUtilitiesOperationalAccountsChangedNotification;
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (void)Øg;
 
 // Remaining properties
-@property(nonatomic) __weak id <UIKeyInput> delegateResignedDuringLocalAuthentication; // @synthesize delegateResignedDuringLocalAuthentication=_delegateResignedDuringLocalAuthentication;
-@property(nonatomic) _Bool inputUIResuming; // @synthesize inputUIResuming=_inputUIResuming;
-@property(nonatomic) _Bool isRestoringInputViews; // @synthesize isRestoringInputViews=_isRestoringInputViews;
-@property(nonatomic) _Bool isRestoringPreLocalAuthenticationDelegate; // @synthesize isRestoringPreLocalAuthenticationDelegate=_isRestoringPreLocalAuthenticationDelegate;
 @property _Bool localAuthenticationPresented; // @synthesize localAuthenticationPresented=_localAuthenticationPresented;
-@property(retain, nonatomic) NSUUID *uuidOfDelegateResignedDuringLocalAuthentication; // @synthesize uuidOfDelegateResignedDuringLocalAuthentication=_uuidOfDelegateResignedDuringLocalAuthentication;
-@property(retain, nonatomic) NSUUID *uuidOfSessionEndedDuringLocalAuthentication; // @synthesize uuidOfSessionEndedDuringLocalAuthentication=_uuidOfSessionEndedDuringLocalAuthentication;
 
 @end
 

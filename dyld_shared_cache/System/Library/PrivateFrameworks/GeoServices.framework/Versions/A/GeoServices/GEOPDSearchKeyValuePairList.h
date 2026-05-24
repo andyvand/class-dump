@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)PTDomainSettingsProxyDefinitionKey;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ds"b1"read_countStopsText"b1"read_departureBar"b1"read_drivingWalkingListInstruction"b1"read_drivingWalkingSignInstruction"b1"read_drivingWalkingSpokenInstruction"b1"read_genericInstruction"b1"read_transitListInstruction"b1"read_transitSignInstruction"b1"wrote_anyField"b1};
-- (id)argeType;
+- (id)_preferredSurchargeType;
 - (id)D¤ì¥\°D²³h´@¶0·Ø¸P»à¼,¿¤À;
 - (void);
 

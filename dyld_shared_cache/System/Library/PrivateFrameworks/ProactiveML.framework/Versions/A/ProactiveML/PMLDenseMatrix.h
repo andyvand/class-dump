@@ -9,12 +9,10 @@
 @interface PMLDenseMatrix
 {
     PMLDenseVector *_data;
-    unsigned long long _numberOfRows;
-    unsigned long long _numberOfColumns;
 }
 
 + (id);
-+ (id);
++ (id)4;
 - (id);
 - (void);
 - (const float *);
@@ -23,7 +21,6 @@
 - (unsigned long long)iatesIndices blob, covariatesValues blob, isAppleInternal integer(1) NOT NULL DEFAULT 0, source blob, FOREIGN KEY (sessionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE );
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 @property(readonly, nonatomic) unsigned long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
 
 @end

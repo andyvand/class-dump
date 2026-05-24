@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CKLocationSharingClient;
+
 @protocol CKLocationSharingDelegate
+- (void)attachmentPreviewImagesDidUpdateNotification:(id <CKLocationSharingClient>)arg1;
 @end
 

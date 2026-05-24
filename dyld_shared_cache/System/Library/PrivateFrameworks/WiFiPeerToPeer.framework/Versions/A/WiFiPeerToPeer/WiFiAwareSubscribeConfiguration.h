@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString, WiFiAwareFastDiscoveryConfiguration, WiFiAwareMulticastConfiguration, WiFiChannel, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwareSubscribeConfiguration
 {
     NSString *_serviceName;
-    NSData *_serviceSpecificInfo;
-    WiFiMACAddress *_multicastAddress;
-    unsigned long long _timeoutAfterSeconds;
-    long long _authenticationType;
-    WiFiAwareFastDiscoveryConfiguration *_fastDiscoveryConfiguration;
-    NSSet *_allowedDeviceIDs;
-    long long _discoveryMode;
-    WiFiChannel *_channelInfo;
-    NSString *_countryCode;
-    WiFiAwareMulticastConfiguration *_multicastConfiguration;
 }
 
 + (_Bool);
@@ -31,9 +21,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,17 +50,7 @@
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *allowedDeviceIDs; // @synthesize allowedDeviceIDs=_allowedDeviceIDs;
-@property(nonatomic) long long authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(copy, nonatomic) WiFiChannel *channelInfo; // @synthesize channelInfo=_channelInfo;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(nonatomic) long long discoveryMode; // @synthesize discoveryMode=_discoveryMode;
-@property(copy, nonatomic) WiFiAwareFastDiscoveryConfiguration *fastDiscoveryConfiguration; // @synthesize fastDiscoveryConfiguration=_fastDiscoveryConfiguration;
-@property(copy, nonatomic) WiFiMACAddress *multicastAddress; // @synthesize multicastAddress=_multicastAddress;
-@property(copy, nonatomic) WiFiAwareMulticastConfiguration *multicastConfiguration; // @synthesize multicastConfiguration=_multicastConfiguration;
 @property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(copy, nonatomic) NSData *serviceSpecificInfo; // @synthesize serviceSpecificInfo=_serviceSpecificInfo;
-@property(nonatomic) unsigned long long timeoutAfterSeconds; // @synthesize timeoutAfterSeconds=_timeoutAfterSeconds;
 
 @end
 

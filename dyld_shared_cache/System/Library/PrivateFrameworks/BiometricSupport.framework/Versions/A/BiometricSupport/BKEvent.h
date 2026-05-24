@@ -8,17 +8,10 @@ __attribute__((visibility("hidden")))
 @interface BKEvent
 {
     unsigned char _cls;
-    _Bool _isStart;
-    _Bool _isTerminal;
-    _Bool _isMetadata;
-    _Bool _isSmartKeyboard;
-    _Bool _isHigh;
-    _Bool _isLow;
-    unsigned int _event;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -27,19 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned int);
-- (unsigned char);
-- (_Bool);
+- (unsigned char);
+- (_Bool)tervals(1535):Cannot add 10 elements to context /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
 @property(readonly) unsigned char cls; // @synthesize cls=_cls;
-@property(readonly) unsigned int event; // @synthesize event=_event;
-@property(readonly) _Bool isHigh; // @synthesize isHigh=_isHigh;
-@property(readonly) _Bool isLow; // @synthesize isLow=_isLow;
-@property(readonly) _Bool isMetadata; // @synthesize isMetadata=_isMetadata;
-@property(readonly) _Bool isSmartKeyboard; // @synthesize isSmartKeyboard=_isSmartKeyboard;
-@property(readonly) _Bool isStart; // @synthesize isStart=_isStart;
-@property(readonly) _Bool isTerminal; // @synthesize isTerminal=_isTerminal;
 
 @end
 

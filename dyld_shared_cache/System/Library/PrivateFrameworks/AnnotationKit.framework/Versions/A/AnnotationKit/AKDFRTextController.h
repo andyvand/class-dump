@@ -6,14 +6,11 @@
 
 #import <AnnotationKit/AKDFRAnnotationPropertiesController.h>
 
-@class AKDFRTextAttributesViewController, AKDFRTextColorController, NSColorPickerTouchBarItem, NSCustomTouchBarItem, NSPopoverTouchBarItem;
+@class NSPopoverTouchBarItem;
 
 @interface AKDFRTextController : AKDFRAnnotationPropertiesController
 {
     NSPopoverTouchBarItem *_textAttributesItem;
-    NSColorPickerTouchBarItem *_textColorPopoverItem;
-    AKDFRTextColorController *_textColorPickerController;
-    NSCustomTouchBarItem *_textAttributesContentItem;
 }
 
 - (id);
@@ -32,11 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSCustomTouchBarItem *textAttributesContentItem; // @synthesize textAttributesContentItem=_textAttributesContentItem;
 @property(retain) NSPopoverTouchBarItem *textAttributesItem; // @synthesize textAttributesItem=_textAttributesItem;
-@property(readonly) AKDFRTextAttributesViewController *textAttributesViewController;
-@property(retain) AKDFRTextColorController *textColorPickerController; // @synthesize textColorPickerController=_textColorPickerController;
-@property(retain) NSColorPickerTouchBarItem *textColorPopoverItem; // @synthesize textColorPopoverItem=_textColorPopoverItem;
 
 @end
 

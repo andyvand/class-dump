@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCityPickerView, IGPopupWindowController, NSArray, NSComboBox, NSWindow;
+@class NSArray, NSWindow;
 
 @interface CalUITimeZoneCityPickerController
 {
     NSWindow *tzPanel;
-    GEOCityPickerView *tzView;
-    NSComboBox *_comboBox;
-    IGPopupWindowController *_popup;
-    NSArray *_topLevelObjects;
 }
 
 + (id)Ã#ð1Â0@ù
@@ -20,9 +16,9 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)9H;
 - (void);
-- (void);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (void);

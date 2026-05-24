@@ -7,8 +7,6 @@
 @interface NewsUI2.OpenSportEventCommandHandler
 {
     id navigator;
-    id featureAvailability;
-    id offlineProvider;
 }
 
 @end

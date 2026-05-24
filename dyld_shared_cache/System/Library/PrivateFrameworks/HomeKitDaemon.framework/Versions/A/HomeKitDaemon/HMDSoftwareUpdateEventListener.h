@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSoftwareUpdateEventListenerContext, HMSoftwareUpdateDescriptor, NSString;
+@class HMDSoftwareUpdateEventListenerContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdateEventListener
@@ -16,26 +16,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)performers;
 - (id);
 - (id);
-- (void)d;
+- (void)lightWhenUsingSiriEnabled;
 - (void);
 - (id)route due to no receiver for groups backup data message:(id)arg1 %@;
 - (void)%@ BLEInfo:%@, WLANInfos:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) HMDSoftwareUpdateEventListenerContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSoftwareUpdateAvailable;
-@property(readonly) _Bool isSoftwareUpdateDownloadedAndReadyForInstallation;
-@property(readonly) HMSoftwareUpdateDescriptor *softwareUpdateDescriptorForLastEvent;
-@property(readonly) Class superclass;
 
 @end
 

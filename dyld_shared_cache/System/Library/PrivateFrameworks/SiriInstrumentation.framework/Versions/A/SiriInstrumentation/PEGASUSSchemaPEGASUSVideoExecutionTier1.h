@@ -6,20 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface PEGASUSSchemaPEGASUSVideoExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_resultEntityIds;
-    NSString *_videoTitle;
-    _Bool _isNlsResult;
-    struct {
-        unsigned int isNlsResult:1;
-    } _has;
-    _Bool _hasVideoTitle;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -41,21 +35,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)dConnection failed, aborting!;
 - (id);
 - (id)
 × ;
-- (id)ontext;
+- (id)_hasExecutorRequestContext;
 - (id)iatedSchemaIdentifier;
-- (void)ketReadyUpstream;
+- (void)firstAudioPacketReadyUpstream;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsNlsResult;
-@property(nonatomic) _Bool hasVideoTitle; // @synthesize hasVideoTitle=_hasVideoTitle;
-@property(nonatomic) _Bool isNlsResult; // @synthesize isNlsResult=_isNlsResult;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *resultEntityIds; // @synthesize resultEntityIds=_resultEntityIds;
-@property(copy, nonatomic) NSString *videoTitle; // @synthesize videoTitle=_videoTitle;
 
 @end
 

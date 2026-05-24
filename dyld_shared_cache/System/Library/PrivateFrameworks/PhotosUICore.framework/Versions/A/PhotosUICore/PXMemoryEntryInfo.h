@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface PXMemoryEntryInfo
 {
     NSDate *_representativeDate;
-    NSArray *_memories;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (long long);
@@ -19,23 +16,20 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)prefersDominantHeroForZoomLevel:(struct _NSZone *)arg1;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, copy, nonatomic) NSArray *memories; // @synthesize memories=_memories;
 @property(readonly, nonatomic) NSDate *representativeDate; // @synthesize representativeDate=_representativeDate;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

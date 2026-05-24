@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSendMessageIntent, NSAttributedString, NSString;
+@class INSendMessageIntent;
 
 @interface UNNotificationAttributedMessageContext
 {
     INSendMessageIntent *_sendMessageIntent;
-    NSAttributedString *_attributedContent;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)5;
 
 // Remaining properties
-@property(copy) NSAttributedString *attributedContent; // @synthesize attributedContent=_attributedContent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) INSendMessageIntent *sendMessageIntent; // @synthesize sendMessageIntent=_sendMessageIntent;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDaemonListener, IMDaemonQueryController, IMDistributingProxy, IMMultiplexedDaemonConnection, NSArray, NSDictionary, NSMapTable, NSMutableDictionary, NSString;
-@protocol IMDaemonConnectionManaging, IMDaemonProtocol;
-
 @interface IMDaemonController
 {
     _Bool __blocksConnectionAtResume;
-    _Bool _blockMainThreadForNewSetup;
-    struct os_unfair_lock_s _lock;
-    id _delegate;
-    IMDaemonListener *_listener;
-    NSString *_listenerID;
-    IMDaemonQueryController *_queryController;
-    NSArray *__servicesToAllow;
-    NSArray *__servicesToDeny;
-    NSDictionary *_processContext;
-    unsigned long long _processCapabilities;
-    id <IMDaemonConnectionManaging> _connection;
-    NSMapTable *_multiplexedConnections;
-    NSMutableDictionary *_retainedMultiplexedConnections;
-    IMMultiplexedDaemonConnection *_anonymousMultiplexedConnection;
-    IMDistributingProxy *_remoteDaemonProxy;
 }
 
 + (void);
@@ -43,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -55,7 +37,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -69,9 +51,9 @@
 - (void);
 - (id);
 - (id);
+- (id)g",C,N,V_partition;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ionData:returning std::nullopt because there's no web page /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -83,42 +65,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)	;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)Hd;
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (struct os_unfair_lock_s)icateWithSubpredicates: /* Error: Ran out of types for this method. */;
+- (struct os_unfair_lock_s)andPredicateWithSubpredicates: /* Error: Ran out of types for this method. */;
 - (void)ü'3;
 
 // Remaining properties
-@property(nonatomic, setter=_setBlocksConnectionAtResume:) _Bool _blocksConnectionAtResume; // @synthesize _blocksConnectionAtResume=__blocksConnectionAtResume;
-@property(retain, setter=_setServicesToAllow:) NSArray *_servicesToAllow; // @synthesize _servicesToAllow=__servicesToAllow;
-@property(retain, setter=_setServicesToDeny:) NSArray *_servicesToDeny; // @synthesize _servicesToDeny=__servicesToDeny;
-@property(retain, nonatomic) IMMultiplexedDaemonConnection *anonymousMultiplexedConnection; // @synthesize anonymousMultiplexedConnection=_anonymousMultiplexedConnection;
-@property(nonatomic) _Bool blockMainThreadForNewSetup; // @synthesize blockMainThreadForNewSetup=_blockMainThreadForNewSetup;
-@property(readonly, nonatomic) unsigned int capabilities;
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic) id <IMDaemonConnectionManaging> connection; // @synthesize connection=_connection;
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isConnecting;
-@property(readonly, nonatomic) IMDaemonListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic, setter=_setListenerID:) NSString *listenerID; // @synthesize listenerID=_listenerID;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSMapTable *multiplexedConnections; // @synthesize multiplexedConnections=_multiplexedConnections;
-@property(nonatomic) unsigned long long processCapabilities; // @synthesize processCapabilities=_processCapabilities;
-@property(readonly, nonatomic) NSDictionary *processContext; // @synthesize processContext=_processContext;
-@property(readonly, nonatomic) IMDaemonQueryController *queryController; // @synthesize queryController=_queryController;
-@property(readonly, nonatomic) id <IMDaemonProtocol> remoteDaemon;
-@property(readonly, nonatomic) IMDistributingProxy *remoteDaemonProxy; // @synthesize remoteDaemonProxy=_remoteDaemonProxy;
-@property(readonly, nonatomic) id <IMDaemonProtocol> replyingRemoteDaemon;
-@property(readonly, nonatomic) NSMutableDictionary *retainedMultiplexedConnections; // @synthesize retainedMultiplexedConnections=_retainedMultiplexedConnections;
-@property(readonly, nonatomic) id <IMDaemonProtocol> synchronousRemoteDaemon;
-@property(readonly, nonatomic) id <IMDaemonProtocol> synchronousReplyingRemoteDaemon;
 
 @end
 

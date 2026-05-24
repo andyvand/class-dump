@@ -6,33 +6,24 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface GEOCountryConfigFetchGeoIPReply : GEOXPCReply
 {
     NSString *_countryCode;
-    NSDate *_timestamp;
 }
 
 - (id);
 - (id);
-- (_Bool);
-- (void)lacecard;
-- (void)entStep;
-- (id)a;
+- (_Bool)rangeOfString:options: /* Error: Ran out of types for this method. */;
+- (void)viewedDetailsFromPlacecard;
+- (void)_currentStep;
+- (id)categorySuggestionEntryMetadata;
 - (void)-ÅBA#õÊiHQ@;
 - (void)Rv5;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

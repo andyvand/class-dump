@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CNCollationLanguage
 {
     NSArray *_sections;
-    NSString *_lastCharacter;
-    NSString *_firstCharacterAfterLanguage;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)#;
 
 // Remaining properties
-@property(readonly) NSString *firstCharacterAfterLanguage; // @synthesize firstCharacterAfterLanguage=_firstCharacterAfterLanguage;
-@property(readonly) NSString *lastCharacter; // @synthesize lastCharacter=_lastCharacter;
 @property(readonly) NSArray *sections; // @synthesize sections=_sections;
 
 @end

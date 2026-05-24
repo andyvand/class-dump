@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFMediaMetadata
+- (NSString *);
+- (int)_localRevision;
+- (void)setFormerlySharedSavedAccountMarker:(NSString *)arg1;
+- (NSString *)requestDataForAssetResource:options:dataReceivedHandler:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumName;
-@property(copy, nonatomic) NSString *artistName;
-@property(copy, nonatomic) NSArray *bundleIdentifiersToExclude;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *disambiguationTitle;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *mediaIdentifier;
 @property(copy, nonatomic) NSString *mediaName;
-@property(copy, nonatomic) NSArray *mediaPunchouts;
-@property(nonatomic) int mediaType;
 @end
 

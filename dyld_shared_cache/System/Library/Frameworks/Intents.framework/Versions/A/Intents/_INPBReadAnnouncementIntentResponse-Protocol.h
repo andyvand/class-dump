@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol _INPBReadAnnouncementIntentResponse
+- (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *announcementRecords;
-@property(readonly, nonatomic) unsigned long long announcementRecordsCount;
 @end
 

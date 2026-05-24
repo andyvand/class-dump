@@ -6,26 +6,24 @@
 
 #import <TextInputCore/TIWordSearchOperation.h>
 
-@class TILanguageModelAdaptationContext, TIMecabraWrapper;
+@class TIMecabraWrapper;
 
 __attribute__((visibility("hidden")))
 @interface TIWordSearchOperationSetLanguageModelAdaptationContext : TIWordSearchOperation
 {
     TIMecabraWrapper *_mecabraWrapper;
-    TILanguageModelAdaptationContext *_adaptationContext;
 }
 
-- (id);
+- (id)recreateTTYDevice:(id)arg1;
 - (void);
 - (id);
 - (void);
+- (void)er.document;
 - (void);
 - (void);
-- (void);
-- (id)andidate: /* Error: Ran out of types for this method. */;
+- (id)partiallyCommitInlineCandidate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) TILanguageModelAdaptationContext *adaptationContext; // @synthesize adaptationContext=_adaptationContext;
 @property(retain, nonatomic) TIMecabraWrapper *mecabraWrapper; // @synthesize mecabraWrapper=_mecabraWrapper;
 
 @end

@@ -6,37 +6,11 @@
 
 #import <PassKitCore/PKPassContent.h>
 
-@class NSArray, NSDictionary, NSString, NSURL, PKDynamicLayerConfiguration, PKPassAuxiliaryRegistrationRequirements, PKSiriIntentsConfiguration;
+@class NSString;
 
 @interface PKPaymentPassContent : PKPassContent
 {
     _Bool _supportsTransitOnly;
-    NSString *_cobrandName;
-    NSURL *_transactionServiceURL;
-    NSURL *_transactionServiceRegistrationURL;
-    NSString *_transactionPushTopic;
-    NSURL *_messageServiceURL;
-    NSURL *_messageServiceRegistrationURL;
-    NSString *_messagePushTopic;
-    NSString *_appURLScheme;
-    NSString *_customerServiceIdentifier;
-    NSDictionary *_localizedSuspendedReasonsByAID;
-    NSDictionary *_paymentApplicationStateDashboardMessageOverridesByAID;
-    NSDictionary *_paymentApplicationStateNotificationMessageOverridesByAID;
-    NSArray *_availableActions;
-    NSDictionary *_actionLocalizations;
-    NSArray *_actionGroups;
-    NSArray *_transitCommutePlans;
-    unsigned long long _transitCommutePlanType;
-    NSArray *_upgradeRequests;
-    NSString *_shippingAddressSeed;
-    NSString *_speakableMake;
-    NSString *_speakableModel;
-    PKSiriIntentsConfiguration *_supportedSiriIntents;
-    PKPassAuxiliaryRegistrationRequirements *_auxiliaryRegistrationRequirements;
-    PKDynamicLayerConfiguration *_dynamicLayerConfiguration;
-    long long _identityType;
-    long long _paymentType;
 }
 
 + (_Bool)áW"ð!HDùqî%Ð1Â0@ù
@@ -45,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)kB;
 - (_Bool);
 - (id);
 - (id);
@@ -66,11 +40,11 @@
 - (void);
 - (void);
 - (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -88,46 +62,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)ounterVIBE;
 - (void);
 - (long long);
 - (void)apple.passbook.webservices.error.unnecessary_push;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionGroups; // @synthesize actionGroups=_actionGroups;
-@property(copy, nonatomic) NSDictionary *actionLocalizations; // @synthesize actionLocalizations=_actionLocalizations;
-@property(copy, nonatomic) NSString *appURLScheme; // @synthesize appURLScheme=_appURLScheme;
-@property(retain, nonatomic) PKPassAuxiliaryRegistrationRequirements *auxiliaryRegistrationRequirements; // @synthesize auxiliaryRegistrationRequirements=_auxiliaryRegistrationRequirements;
-@property(copy, nonatomic) NSArray *availableActions; // @synthesize availableActions=_availableActions;
 @property(copy, nonatomic) NSString *cobrandName; // @synthesize cobrandName=_cobrandName;
-@property(copy, nonatomic) NSString *customerServiceIdentifier; // @synthesize customerServiceIdentifier=_customerServiceIdentifier;
-@property(retain, nonatomic) PKDynamicLayerConfiguration *dynamicLayerConfiguration; // @synthesize dynamicLayerConfiguration=_dynamicLayerConfiguration;
-@property(nonatomic) long long identityType; // @synthesize identityType=_identityType;
-@property(copy, nonatomic) NSDictionary *localizedSuspendedReasonsByAID; // @synthesize localizedSuspendedReasonsByAID=_localizedSuspendedReasonsByAID;
-@property(copy, nonatomic) NSString *messagePushTopic; // @synthesize messagePushTopic=_messagePushTopic;
-@property(copy, nonatomic) NSURL *messageServiceRegistrationURL; // @synthesize messageServiceRegistrationURL=_messageServiceRegistrationURL;
-@property(copy, nonatomic) NSURL *messageServiceURL; // @synthesize messageServiceURL=_messageServiceURL;
-@property(copy, nonatomic) NSDictionary *paymentApplicationStateDashboardMessageOverridesByAID; // @synthesize paymentApplicationStateDashboardMessageOverridesByAID=_paymentApplicationStateDashboardMessageOverridesByAID;
-@property(copy, nonatomic) NSDictionary *paymentApplicationStateNotificationMessageOverridesByAID; // @synthesize paymentApplicationStateNotificationMessageOverridesByAID=_paymentApplicationStateNotificationMessageOverridesByAID;
-@property(nonatomic) long long paymentType; // @synthesize paymentType=_paymentType;
-@property(copy, nonatomic) NSString *shippingAddressSeed; // @synthesize shippingAddressSeed=_shippingAddressSeed;
-@property(copy, nonatomic) NSString *speakableMake; // @synthesize speakableMake=_speakableMake;
-@property(copy, nonatomic) NSString *speakableModel; // @synthesize speakableModel=_speakableModel;
-@property(copy, nonatomic) PKSiriIntentsConfiguration *supportedSiriIntents; // @synthesize supportedSiriIntents=_supportedSiriIntents;
-@property(nonatomic) _Bool supportsTransitOnly; // @synthesize supportsTransitOnly=_supportsTransitOnly;
-@property(copy, nonatomic) NSString *transactionPushTopic; // @synthesize transactionPushTopic=_transactionPushTopic;
-@property(copy, nonatomic) NSURL *transactionServiceRegistrationURL; // @synthesize transactionServiceRegistrationURL=_transactionServiceRegistrationURL;
-@property(copy, nonatomic) NSURL *transactionServiceURL; // @synthesize transactionServiceURL=_transactionServiceURL;
-@property(nonatomic) unsigned long long transitCommutePlanType; // @synthesize transitCommutePlanType=_transitCommutePlanType;
-@property(copy, nonatomic) NSArray *transitCommutePlans; // @synthesize transitCommutePlans=_transitCommutePlans;
-@property(copy, nonatomic) NSArray *upgradeRequests; // @synthesize upgradeRequests=_upgradeRequests;
 
 @end
 

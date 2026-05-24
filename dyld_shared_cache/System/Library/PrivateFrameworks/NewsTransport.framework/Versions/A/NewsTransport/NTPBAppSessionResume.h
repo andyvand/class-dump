@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void);
+- (void).;
 - (void);
 - (unsigned long long);
 - (_Bool);

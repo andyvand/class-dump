@@ -6,13 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HMFKey : HMFObject
 {
     NSString *_type;
-    NSData *_data;
-    unsigned long long _size;
 }
 
 + (_Bool);
@@ -20,20 +18,18 @@
 - (id);
 - (id);
 - (id);
+- (unsigned long long)	>	(	(	>	;
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)t vocabulary entries by going to Settings > Accessibility > Voice Control > Vocabulary. {CommonSection.AvailabilityRequiresTextArea};
+- (id)phrase.;
 - (void);
-- (id);
+- (id)HMHomePerformMediaGroupReadinessCheckMessage;
 - (void);
-- (_Bool)refix:(id)arg1;
+- (_Bool)hasPrefix:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSData *data; // @synthesize data=_data;
 @property(readonly) unsigned long long size; // @synthesize size=_size;
-@property(readonly, copy) NSString *type; // @synthesize type=_type;
 
 @end
 

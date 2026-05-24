@@ -7,11 +7,6 @@
 @interface SwiftUI.AppKitTokenAttachmentCell
 {
     id platformItem;
-    id lastColorScheme;
-    id isPresentingMenu;
-    id _scopeState;
-    id _menuImage;
-    id scopeMenu;
 }
 
 - (_Bool);
@@ -25,7 +20,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)Q;
 - (void)Ä</·¶þ;
 - (_Bool);
 

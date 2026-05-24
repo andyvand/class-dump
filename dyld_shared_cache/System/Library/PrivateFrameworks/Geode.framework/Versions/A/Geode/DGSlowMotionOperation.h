@@ -9,8 +9,6 @@
 @interface DGSlowMotionOperation : DGOperation
 {
     double _rate;
-    CDStruct_1b6d18a9 _startTime;
-    CDStruct_1b6d18a9 _endTime;
 }
 
 + (id);
@@ -22,13 +20,11 @@
 - (void);
 - (CDStruct_1b6d18a9);
 - (void);
-- (double)b: /* Error: Ran out of types for this method. */;
+- (double)convertIPT:torgb: /* Error: Ran out of types for this method. */;
 - (id)?;
 - (void)¾;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1b6d18a9 endTime; // @synthesize endTime=_endTime;
-@property(nonatomic) double rate; // @synthesize rate=_rate;
 @property(nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
 
 @end

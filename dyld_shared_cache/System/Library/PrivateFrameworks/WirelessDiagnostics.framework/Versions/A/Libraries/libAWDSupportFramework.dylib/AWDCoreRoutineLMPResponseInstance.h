@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineLMPResponseInstance
 {
     unsigned long long _timestamp;
-    NSString *_eventId;
-    int _interaction;
-    _Bool _selected;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int interaction:1;
-        unsigned int selected:1;
-    } _has;
 }
 
 @end

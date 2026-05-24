@@ -6,25 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALForceFetchFailed : SISchemaInstrumentationMessage
 {
     int _failureReason;
-    CDStruct_ebe11093 _has;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)MMMobileDocumentsService;
+- (_Bool)r from error dictionary for should not be nil.;
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)setContactCardControllerDelegate:(int)arg1;
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (int);
-- (id);
+- (id)onImageQueue;
 - (id)±àÐ1Â0@ù
 × ;
 - (id)",C,N,V_dialogId;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool hasFailureReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

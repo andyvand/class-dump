@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NewsUI2.FollowingNotificationsDisabledView
 {
     id titleLabel;
-    id subtitleLabel;
-    id button;
-    id onButtonTap;
 }
 
 - (void);
@@ -26,12 +21,9 @@
 - (id);
 - (void)e
 _;
-- (id)ngsButtonViewRenderer;
+- (id)FollowingSettingsButtonViewRenderer;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint accessibilityActivationPoint;
-@property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic, copy) NSString *accessibilityLabel;
 @property(nonatomic) _Bool isAccessibilityElement;
 
 @end

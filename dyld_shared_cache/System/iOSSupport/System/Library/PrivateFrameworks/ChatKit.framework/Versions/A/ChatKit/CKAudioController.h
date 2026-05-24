@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAudioPlayer, CKConversation, CKMediaObject, NSArray, NSMutableArray, NSString;
-@protocol CKAudioControllerDelegate;
+@class CKAudioPlayer;
 
 @interface CKAudioController
 {
     CKAudioPlayer *_listenAudioPlayer;
-    _Bool _shouldUseSpeaker;
-    _Bool _shouldStopPlayingWhenSilent;
-    _Bool _shouldDuckOthers;
-    _Bool _shouldUseAVPlayer;
-    _Bool _playing;
-    _Bool _paused;
-    _Bool _interrupted;
-    NSMutableArray *_mediaObjects;
-    id <CKAudioControllerDelegate> _delegate;
-    CKAudioPlayer *_audioPlayer;
-    unsigned long long _currentIndex;
-    CKConversation *_conversation;
 }
 
+- (void)pV;
+- (void));
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)098ARGGGtGGACyADyAG_AEyADyAG_AJyAJyAJyApQyM8GGAWGb48GA2fGtGGAGtGGGG;
+- (void)d **%@**;
+- (id)d-%@;
 - (void);
 - (void);
 - (void);
@@ -53,9 +40,9 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (double);
@@ -71,14 +58,14 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)IR;
+- (void)eue;
 - (float);
 - (void)Áú°!Cù±Ð1Â0@ù
 × ;
 - (id)
 × ;
-- (_Bool)EXT_NOT_VERIFIED_GROUP;
+- (_Bool)KT_FOOTER_TEXT_NOT_VERIFIED_GROUP;
 - (void);
 - (void)Ì+lÿP8ü®0;
 - (void)1;
@@ -87,31 +74,7 @@
 - (_Bool)Q4ñ3;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setMediaObjects:) NSMutableArray *_mediaObjects; // @synthesize _mediaObjects;
-@property(retain, nonatomic) CKAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(nonatomic) unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(readonly, nonatomic) CKMediaObject *currentMediaObject;
-@property(readonly, nonatomic) double currentMediaObjectDuration;
-@property(readonly, nonatomic) double currentMediaObjectTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKAudioControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool interrupted; // @synthesize interrupted=_interrupted;
-@property(readonly, nonatomic) NSArray *mediaObjects;
 @property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly, nonatomic) double playbackSpeed;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(nonatomic) _Bool shouldDuckOthers; // @synthesize shouldDuckOthers=_shouldDuckOthers;
-@property(nonatomic) _Bool shouldStopPlayingWhenSilent; // @synthesize shouldStopPlayingWhenSilent=_shouldStopPlayingWhenSilent;
-@property(nonatomic) _Bool shouldUseAVPlayer; // @synthesize shouldUseAVPlayer=_shouldUseAVPlayer;
-@property(nonatomic) _Bool shouldUseSpeaker; // @synthesize shouldUseSpeaker=_shouldUseSpeaker;
-@property(readonly) Class superclass;
-@property(nonatomic) float volume;
 
 @end
 

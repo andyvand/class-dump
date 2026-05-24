@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface PTOutlet
 {
     unsigned long long _nextToken;
-    NSMutableDictionary *_actionsByToken;
 }
 
 + (_Bool);
@@ -18,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)### ADMDSNode initWithNodeName got NULL name. %@;
 - (id);
 
 @end

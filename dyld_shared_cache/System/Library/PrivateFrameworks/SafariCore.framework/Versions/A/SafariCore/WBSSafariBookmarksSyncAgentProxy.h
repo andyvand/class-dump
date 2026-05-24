@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface WBSSafariBookmarksSyncAgentProxy
 {
@@ -13,6 +13,10 @@
 
 + (id);
 - (void);
+- (void)!);
+- (void);
+- (void)addAppearanceCharacteristicsToDictionaryRef: /* Error: Ran out of types for this method. */;
+- (void)nceCharacteristics (%d key-value pairs);
 - (void);
 - (void);
 - (void);
@@ -23,14 +27,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -41,21 +39,24 @@
 - (void);
 - (void);
 - (void);
+- (void)q;
+- (void);
+- (void);
+- (void);
+- (void),V_allUserStates;
+- (void)ICPlayActivityEventItemIDsReportingAdamID;
+- (void)st:(CDUnknownBlockType)arg1 true
+;
+- (void);
+- (void)TL;
+- (id)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)asMusicPlaybackContextWithOptions:(CDUnknownBlockType)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -67,13 +68,6 @@
 
 // Remaining properties
 @property(retain) NSXPCConnection *_safariBookmarksSyncAgentConnection; // @synthesize _safariBookmarksSyncAgentConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

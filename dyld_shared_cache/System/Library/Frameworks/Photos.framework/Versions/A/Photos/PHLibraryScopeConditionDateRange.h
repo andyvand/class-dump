@@ -14,7 +14,6 @@
 
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *endDate; // @dynamic endDate;
 @property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
 @end
 

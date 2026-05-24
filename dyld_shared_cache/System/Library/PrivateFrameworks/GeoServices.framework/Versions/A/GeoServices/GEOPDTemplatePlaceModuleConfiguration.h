@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTemplatePlaceModuleConfiguration
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_sectionTitles;
-    int _layoutType;
-    int _numberOfRows;
-    int _orientation;
-    int _templatePlaceComponentId;
-    struct {
-        unsigned int has_layoutType:1;
-        unsigned int has_numberOfRows:1;
-        unsigned int has_orientation:1;
-        unsigned int has_templatePlaceComponentId:1;
-    } _flags;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)increaseAction;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16^Q24;
-- (id)uteTrafficCondition;
+- (id)_routeTrafficCondition;
 - (id)è¤;
 - (void);
 

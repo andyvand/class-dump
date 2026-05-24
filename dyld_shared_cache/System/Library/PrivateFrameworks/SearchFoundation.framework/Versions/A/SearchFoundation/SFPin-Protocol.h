@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFColor, SFLatLng;
+@class SFLatLng;
 
 @protocol SFPin
 - (void)¶;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label;
 @property(retain, nonatomic) SFLatLng *location;
-@property(copy, nonatomic) NSData *mapsData;
-@property(nonatomic) int pinBehavior;
-@property(retain, nonatomic) SFColor *pinColor;
-@property(copy, nonatomic) NSString *pinText;
-@property(copy, nonatomic) NSString *resultID;
 @end
 

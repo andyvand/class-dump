@@ -5,5 +5,9 @@
 //
 
 @protocol MKPlaceAttributionCellDelegate
+- (void)E;
+
+@optional
+- (void);
 @end
 

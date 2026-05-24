@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSURL;
 
 @interface BOSDownloadCacheProduct
 {
     NSURL *_productURL;
-    NSArray *_packageReferences;
 }
 
 - (id);
@@ -18,13 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)de:auxiliaryImageType:auxiliaryImageProperties:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)from package, retrying:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *packageReferences; // @synthesize packageReferences=_packageReferences;
 @property(retain) NSURL *productURL; // @synthesize productURL=_productURL;
 
 @end

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TKRegisteredTokenManager
 {
     struct os_unfair_lock_s _lock;
-    NSString *_lastUsedRegisteredTokenID;
-    _Bool _wasPINCredentialInitiallySet;
-    _Bool _wasPINCredentialProvidedByPINUI;
 }
 
 + (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)"8@"NSError"16;
 
 @end
 

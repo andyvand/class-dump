@@ -5,6 +5,6 @@
 //
 
 @protocol SPMaintenanceConnectionProtocol
-- (void)ateBeaconUUID:firmwareUpdateState:systemVersion:error:completion: /* Error: Ran out of types for this method. */;
+- (void)updateBeaconUUID:firmwareUpdateState:systemVersion:error:completion: /* Error: Ran out of types for this method. */;
 @end
 

@@ -11,28 +11,26 @@
 @interface TSDSmartStroke : TSDStroke
 {
     NSString *mStrokeName;
-    double mDeprecatedPatternOffsetDistance;
 }
 
 + (Class);
 + (id);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
+- (_Bool)RTION              ;
+- (long long)CMTimeFlags;
+- (id)NMPCPlaybackEngineInternalErrorCode;
+- (id)]p];
 - (id);
 - (_Bool);
 - (_Bool);
 - (double);
 - (id);
-- (void);
+- (void)Ps;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double deprecatedPatternOffsetDistance; // @synthesize deprecatedPatternOffsetDistance=mDeprecatedPatternOffsetDistance;
 @property(readonly, copy, nonatomic) NSString *strokeName;
 
 @end

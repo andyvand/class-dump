@@ -4,57 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputSettings, NSArray, NSDictionary, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputConfigurationState
 {
     NSString *_mediaType;
-    AVOutputSettings *_outputSettings;
-    struct opaqueCMFormatDescription *_sourceFormatHint;
-    int _trackID;
-    NSDictionary *_sourcePixelBufferAttributes;
-    NSArray *_metadataItems;
-    struct CGAffineTransform _transform;
-    int _mediaTimeScale;
-    _Bool _expectsMediaDataInRealTime;
-    struct CGSize _naturalSize;
-    NSString *_languageCode;
-    NSString *_extendedLanguageTag;
-    _Bool _marksOutputTrackAsEnabled;
-    float _preferredVolume;
-    long long _layer;
-    short _alternateGroupID;
-    short _provisionalAlternateGroupID;
-    NSDictionary *_trackReferences;
-    _Bool _performsMultiPassEncodingIfSupported;
-    CDStruct_1b6d18a9 _chunkDuration;
-    long long _chunkAlignment;
-    long long _chunkSize;
-    NSString *_mediaDataLocation;
-    NSURL *_sampleReferenceBaseURL;
-    _Bool _maximizePowerEfficiency;
 }
 
 - (short);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (struct CGAffineTransform);
+- (void)b;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)deletePasswordHintForUserWithUUID:(struct CGAffineTransform)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (short);
 - (void);
 - (void);
-- (void);
+- (void)serviceQuality;
 - (long long);
 - (void);
 - (id);
@@ -72,51 +48,27 @@ __attribute__((visibility("hidden")))
 - (id)
 × ;
 - (void)"AVAssetWriterInputPixelBufferAdaptorInternal";
-- (float)e: /* Error: Ran out of types for this method. */;
-- (id)cessContentKeyResponseError:forTrackID: /* Error: Ran out of types for this method. */;
-- (void)ations:(id)arg1 minimumPresentationTime: /* Error: Ran out of types for this method. */;
-- (_Bool)icationPayloadForFigRateChangeReason:rateChangeIdentifier:rateChangeOriginator: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)overscanSubtitleSupportEnabled;
-- (id)r;
-- (long long)nal;
+- (float)removeFragmentedMovie: /* Error: Ran out of types for this method. */;
+- (id)processContentKeyResponseError:forTrackID: /* Error: Ran out of types for this method. */;
+- (void)_setUpcomingPresentationTimeExpectations:(id)arg1 minimumPresentationTime: /* Error: Ran out of types for this method. */;
+- (_Bool)_rateDidChangeNotificationPayloadForFigRateChangeReason:rateChangeIdentifier:rateChangeOriginator: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)_overscanSubtitleSupportEnabled;
+- (id)figSampleCursor;
+- (long long)AVAssetFragmentInternal;
 - (_Bool)umber. (AVVideoCompositing=%p);
 - (struct opaqueCMFormatDescription *)ePersistableContentKey:options:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
-- (int)uexxxx;
-- (void)ToLoadSampleData;
+- (int)xxxxDefaultValuexxxx;
+- (void)AVErrorFailedToLoadSampleData;
 - (struct CGSize)ts returned by AVPlayerInterstitialEventMonitor are not mutable; modify a copy instead;
 - (id)imeRange of an existing transform ramp.;
-- (void)eavedWithMainMediaData;
+- (void)AVAssetWriterInputMediaDataLocationSparselyInterleavedWithMainMediaData;
 - (_Bool)on:%@ loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
-- (void)risticsWithMediaSelectionOptions;
+- (void)availableMediaCharacteristicsWithMediaSelectionOptions;
 - (int)Íóÿ$Øt;
 - (_Bool)üaúÿY²;
 
 // Remaining properties
-@property(nonatomic) short alternateGroupID; // @synthesize alternateGroupID=_alternateGroupID;
-@property(nonatomic) _Bool expectsMediaDataInRealTime; // @synthesize expectsMediaDataInRealTime=_expectsMediaDataInRealTime;
-@property(copy, nonatomic) NSString *extendedLanguageTag; // @synthesize extendedLanguageTag=_extendedLanguageTag;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(nonatomic) long long layer; // @synthesize layer=_layer;
-@property(nonatomic) _Bool marksOutputTrackAsEnabled; // @synthesize marksOutputTrackAsEnabled=_marksOutputTrackAsEnabled;
-@property(nonatomic) _Bool maximizePowerEfficiency; // @synthesize maximizePowerEfficiency=_maximizePowerEfficiency;
-@property(copy, nonatomic) NSString *mediaDataLocation; // @synthesize mediaDataLocation=_mediaDataLocation;
-@property(nonatomic) int mediaTimeScale; // @synthesize mediaTimeScale=_mediaTimeScale;
 @property(copy, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(copy, nonatomic) NSArray *metadataItems; // @synthesize metadataItems=_metadataItems;
-@property(nonatomic) struct CGSize naturalSize; // @synthesize naturalSize=_naturalSize;
-@property(copy, nonatomic) AVOutputSettings *outputSettings; // @synthesize outputSettings=_outputSettings;
-@property(nonatomic) _Bool performsMultiPassEncodingIfSupported; // @synthesize performsMultiPassEncodingIfSupported=_performsMultiPassEncodingIfSupported;
-@property(nonatomic) long long preferredMediaChunkAlignment; // @synthesize preferredMediaChunkAlignment=_chunkAlignment;
-@property(nonatomic) CDStruct_1b6d18a9 preferredMediaChunkDuration; // @synthesize preferredMediaChunkDuration=_chunkDuration;
-@property(nonatomic) long long preferredMediaChunkSize; // @synthesize preferredMediaChunkSize=_chunkSize;
-@property(nonatomic) float preferredVolume; // @synthesize preferredVolume=_preferredVolume;
-@property(nonatomic) short provisionalAlternateGroupID; // @synthesize provisionalAlternateGroupID=_provisionalAlternateGroupID;
-@property(copy, nonatomic) NSURL *sampleReferenceBaseURL; // @synthesize sampleReferenceBaseURL=_sampleReferenceBaseURL;
-@property(retain, nonatomic) struct opaqueCMFormatDescription *sourceFormatHint; // @synthesize sourceFormatHint=_sourceFormatHint;
-@property(copy, nonatomic) NSDictionary *sourcePixelBufferAttributes; // @synthesize sourcePixelBufferAttributes=_sourcePixelBufferAttributes;
-@property(nonatomic) int trackID; // @synthesize trackID=_trackID;
-@property(copy, nonatomic) NSDictionary *trackReferences; // @synthesize trackReferences=_trackReferences;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

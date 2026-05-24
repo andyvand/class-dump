@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSLock;
 
 @interface CPNetworkObserver
 {
     NSLock *_lock;
-    NSMutableDictionary *_reachabilityRequests;
-    unsigned int _networkReachability;
-    struct __SCNetworkReachability *_networkReach;
-    struct __CFDictionary *_networkObservers;
-    struct __SCPreferences *_wifiPreferences;
-    struct __CFDictionary *_wifiObservers;
-    _Bool _networkNotified;
-    _Bool _networkReachable;
-    _Bool _wifiNotified;
-    _Bool _wifiEnabled;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@i;
 - (id);
 - (void);
 - (void);
+- (void)h ID %@ and params %@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)survey;
 - (void);
 - (_Bool);
 - (_Bool);

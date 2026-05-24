@@ -5,5 +5,6 @@
 //
 
 @protocol FPActionLocatorAccess
+- (void);
 @end
 

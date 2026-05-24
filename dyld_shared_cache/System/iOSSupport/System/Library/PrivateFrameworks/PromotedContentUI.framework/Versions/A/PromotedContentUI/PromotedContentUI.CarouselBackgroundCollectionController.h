@@ -7,7 +7,6 @@
 @interface PromotedContentUI.CarouselBackgroundCollectionController
 {
     id elements;
-    id contentSize;
 }
 
 - (id);

@@ -6,15 +6,9 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSArray, NSAttributedString, NSColor, NSMenu, NSPathControlAuxiliary, NSPathControlItem, NSString, NSURL;
-@protocol NSPathControlDelegate;
-
 @interface NSPathControl : NSControl
 {
     unsigned long long _draggingSourceOperationMaskForLocal;
-    unsigned long long _draggingSourceOperationMaskForNonLocal;
-    id _delegate;
-    NSPathControlAuxiliary *_pathAux;
 }
 
 + (Class);
@@ -22,71 +16,72 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)*;
+- (id)directory hash for %d:%s /* Error: Ran out of types for this method. */;
+- (id)properties:address is IN6ADDR_ANY_INIT /* Error: Ran out of types for this method. */;
+- (_Bool)e.networkextension;
+- (long long)CriticalDomains;
+- (id)n;
+- (id)cket-remoteaddr;
+- (void).networkextension.uuidcache;
+- (void)c;
 - (id);
-- (id);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (SEL);
+- (void)taskKind;
+- (id)setPreClearedMode: /* Error: Ran out of types for this method. */;
+- (_Bool)_suspendLoading;
+- (void)NSURLSessionTaskLocalHTTPAuthenticator;
 - (void);
+- (void);
+- (void);
+- (void)previous error [%ld];
+- (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)_allowsTLSSessionTickets;
+- (void)nil request;
 - (struct CGRect);
-- (_Bool);
+- (_Bool)kCFStreamPropertyFTPFileTransferOffset;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (id);
-- (CDStruct_507282ca);
+- (id);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id)(;
+- (CDStruct_c3b9c2ee)s different enclosure colors, please file a firmware radar.
+;
+- (void)_contentsDictionary;
 - (void);
 - (void)0@ù
 × ;
 - (void)@"NSScrollingAnimator"16{CGPoint=dd}24{CGPoint=dd}40;
-- (id)ts:(struct CGRect)arg1 underlyingResult: /* Error: Ran out of types for this method. */;
-- (void)playInRect:(id)arg1 force: /* Error: Ran out of types for this method. */;
+- (id)initWithRange:(struct CGRect)arg1 components:underlyingResult: /* Error: Ran out of types for this method. */;
+- (void)_setKeyboardFocusRingNeedsDisplayInRect:(id)arg1 force: /* Error: Ran out of types for this method. */;
 - (id)e6T¨;
 - (void)d call to replyToApplicationShouldTerminate:(id)arg1 NO;
 - (id)À÷üÿ6öüÿ;
@@ -98,18 +93,7 @@
 - (id)¨B;
 
 // Remaining properties
-@property(copy) NSURL *URL;
-@property(copy) NSArray *allowedTypes;
-@property(copy) NSColor *backgroundColor;
-@property(readonly) NSPathControlItem *clickedPathItem;
-@property __weak id <NSPathControlDelegate> delegate;
-@property SEL doubleAction;
 @property(getter=isEditable) _Bool editable;
-@property(retain) NSMenu *menu;
-@property(copy) NSArray *pathItems;
-@property long long pathStyle;
-@property(copy) NSAttributedString *placeholderAttributedString;
-@property(copy) NSString *placeholderString;
 
 @end
 

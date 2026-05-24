@@ -7,18 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailPresenterCapability_swiftUI
 {
     id endTextEditingHandler;
-    id visibleDatePicker;
-    id isCustomRecurrenceToggledOn;
-    id isEarlyAlertWarningToggledOn;
-    id isPendingLocationSelection;
-    id isPersonToggledOn;
-    id earlyAlert;
-    id interactor;
-    id privacyChecker;
-    id displayUpdater;
-    id contactsProvider;
-    id timeZoneProvider;
-    id attachmentThumbnailsManager;
 }
 
 @end

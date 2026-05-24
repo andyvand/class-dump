@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface UnknownClass (IMAVPlayer)
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)menuForTypingInSlotTemplateView: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -18,15 +18,10 @@
 - (double);
 - (void);
 - (id)Ä;
-- (id)CSgSo7NSErrorCSgIeyByy_Sg;
+- (id)So5NSURLCSgSo7NSErrorCSgIeyByy_Sg;
 - (void)UITraitCollection;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containerIdentifier;
-@property(retain, nonatomic) NSString *containerTitle;
-@property(nonatomic) double currentTime;
-@property(retain, nonatomic) NSString *itemIdentifier;
 @property(retain, nonatomic) NSString *itemTitle;
-@property(retain, nonatomic) NSNumber *storeTrackID;
 @end
 

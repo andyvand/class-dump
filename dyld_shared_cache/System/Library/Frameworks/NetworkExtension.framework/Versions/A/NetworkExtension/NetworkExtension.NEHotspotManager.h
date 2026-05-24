@@ -7,9 +7,6 @@
 @interface NetworkExtension.NEHotspotManager
 {
     id queue;
-    id configuration;
-    id configurationManager;
-    id hasLoaded;
 }
 
 @end

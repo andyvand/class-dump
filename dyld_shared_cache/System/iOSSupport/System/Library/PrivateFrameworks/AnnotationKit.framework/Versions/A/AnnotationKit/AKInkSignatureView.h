@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKCanvasView, PKDrawing, PKTool, UIColor;
+@class PKCanvasView;
 
 @interface AKInkSignatureView
 {
     _Bool _hasStrokes;
-    UIColor *_strokeColor;
-    PKCanvasView *_canvasView;
-    PKTool *_tool;
-    PKDrawing *_latestDrawing;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (struct CGPath *);
 - (void);
 - (void);
 - (void);
+- (id)s Found;
 - (id);
-- (id);
-- (void);
+- (void)WBSExtensionsOnboardingIconView;
 - (id);
 - (void);
 - (void);
@@ -38,17 +34,6 @@
 
 // Remaining properties
 @property(retain) PKCanvasView *canvasView; // @synthesize canvasView=_canvasView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasStrokes; // @synthesize hasStrokes=_hasStrokes;
-@property(readonly) unsigned long long hash;
-@property(retain) PKDrawing *latestDrawing; // @synthesize latestDrawing=_latestDrawing;
-@property(retain, nonatomic) UIColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(readonly) Class superclass;
-@property(copy) PKTool *tool; // @synthesize tool=_tool;
 
 @end
 

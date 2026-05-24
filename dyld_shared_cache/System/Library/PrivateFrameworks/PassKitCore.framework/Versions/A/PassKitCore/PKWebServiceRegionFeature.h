@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKOSVersionRequirementRange;
+@class NSString;
 
 @interface PKWebServiceRegionFeature
 {
     _Bool _automaticRegister;
-    float _enablementThreshold;
-    NSString *_region;
-    long long _featureType;
-    long long _registrationType;
-    PKOSVersionRequirementRange *_versionRange;
 }
 
 + (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (void)lback;
-- (long long)AYMENT_CANNOT_DELETE_PAYMENT_ERROR_MESSAGE;
-- (long long)seKey;
-- (float)query;
+- (long long)ACCOUNT_SERVICE_SCHEDULE_PAYMENT_CANNOT_DELETE_PAYMENT_ERROR_MESSAGE;
+- (long long)PKSharingForceErrorAfterBrokerReturnsRegisterCredentialResponseKey;
+- (float)_query;
 - (id)@'; ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool automaticRegister; // @synthesize automaticRegister=_automaticRegister;
-@property(readonly, nonatomic) float enablementThreshold; // @synthesize enablementThreshold=_enablementThreshold;
-@property(readonly, nonatomic) long long featureType; // @synthesize featureType=_featureType;
 @property(readonly, copy, nonatomic) NSString *region; // @synthesize region=_region;
-@property(readonly, nonatomic) long long registrationType; // @synthesize registrationType=_registrationType;
-@property(readonly, nonatomic) PKOSVersionRequirementRange *versionRange; // @synthesize versionRange=_versionRange;
 
 @end
 

@@ -6,16 +6,14 @@
 
 #import <CoreHandwriting/CHTokenizedMathResultToken.h>
 
-@class NSIndexSet, NSString;
+@class NSString;
 
 @interface CHMutableTokenizedMathResultToken : CHTokenizedMathResultToken
 {
     NSString *_string;
-    NSIndexSet *_strokeIndexes;
-    struct CGRect _bounds;
 }
 
-+ (_Bool);
++ (_Bool)_flashColor;
 - (id);
 - (void);
 - (void);
@@ -25,23 +23,17 @@
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)rollout id:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)renderStrokeRenderCacheBuffers:(struct CGRect)arg1 renderEncoder:animatingStroke:indexed: /* Error: Ran out of types for this method. */;
+- (void)_generatePentagon:(id)arg1 sourceStroke:inputScale:averageInputPoint: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)');
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds; // @dynamic bounds;
-@property(copy, nonatomic) NSString *maskedAlternative; // @dynamic maskedAlternative;
-@property(nonatomic) double maskedAlternativeScore; // @dynamic maskedAlternativeScore;
-@property(nonatomic) unsigned long long properties; // @dynamic properties;
-@property(nonatomic) double score; // @dynamic score;
 @property(copy, nonatomic) NSString *string; // @dynamic string;
-@property(copy, nonatomic) NSIndexSet *strokeIndexes; // @dynamic strokeIndexes;
 
 @end
 

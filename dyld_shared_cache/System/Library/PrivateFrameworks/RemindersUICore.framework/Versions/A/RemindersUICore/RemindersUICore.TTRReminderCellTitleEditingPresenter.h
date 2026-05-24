@@ -7,20 +7,6 @@
 @interface RemindersUICore.TTRReminderCellTitleEditingPresenter
 {
     id delegate;
-    id presenterManager;
-    id item;
-    id parentType;
-    id isSingleReminderEditingMode;
-    id animatesReminderCreationForReturnKey;
-    id inlineHashtagEditingPresenter;
-    id titleAttributesInteractor;
-    id titleAttributesCancellable;
-    id titleEditingSession;
-    id shouldSkipSavingEditingSession;
-    id titleSuggestedAttributeAcceptance;
-    id isCommittingForShowReminderDetail;
-    id attachmentThumbnailsManager;
-    id state;
 }
 
 @end

@@ -9,18 +9,16 @@
 @interface CerberusQuerySignals
 {
     _Bool _isPQA;
-    NSArray *_cerberusPreferredTypes;
 }
 
-- (void);
-- (_Bool);
+- (void)itleButtonView";
+- (_Bool)menuItem:viewAtScreenPoint: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void)rmatter;
+- (void)er has missed the call;
+- (void)_personNameComponentsFormatter;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cerberusPreferredTypes; // @synthesize cerberusPreferredTypes=_cerberusPreferredTypes;
-@property(nonatomic) _Bool isPQA; // @synthesize isPQA=_isPQA;
 
 @end
 

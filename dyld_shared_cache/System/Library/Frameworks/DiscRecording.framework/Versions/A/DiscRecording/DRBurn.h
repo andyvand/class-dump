@@ -10,7 +10,7 @@
 }
 
 + (void);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (void);
@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
@@ -31,20 +31,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)'y;
+- (void)^: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)ivate, mask.hash}sinitializing %s registration policy;
 - (_Bool);
+- (void);
+- (id);
+- (id)finishEnumeratingChangesUpToSyncAnchor:moreComing: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)tor-16;
 - (void);
 - (id);
 

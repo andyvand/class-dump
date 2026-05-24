@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLDownloadDelegate
+
+@optional
+- (void);
 @end
 

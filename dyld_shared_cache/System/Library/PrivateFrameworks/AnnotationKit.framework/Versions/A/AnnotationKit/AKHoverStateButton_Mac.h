@@ -7,19 +7,17 @@
 @interface AKHoverStateButton_Mac
 {
     _Bool _eventsCurrentlyInside;
-    id _viewEventMonitor;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool eventsCurrentlyInside; // @synthesize eventsCurrentlyInside=_eventsCurrentlyInside;
 @property(retain) id viewEventMonitor; // @synthesize viewEventMonitor=_viewEventMonitor;
 
 @end

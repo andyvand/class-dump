@@ -6,7 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXJSONArray, SXJSONLinearGradient, UIColor;
+@class UIColor;
 
 @interface SXDocumentStyle : SXJSONObject
 {
@@ -15,20 +15,7 @@
 + (CDUnknownBlockType);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;
-@property(readonly, nonatomic) SXJSONArray *conditional; // @dynamic conditional;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SXJSONArray",?,R,D,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIColor *topBackgroundColor; // @dynamic topBackgroundColor;
-@property(readonly, nonatomic) SXJSONLinearGradient *topBackgroundGradient; // @dynamic topBackgroundGradient;
 
 @end
 

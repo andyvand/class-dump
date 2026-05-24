@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)fontCollectionWithAllAvailableDescriptors;
 - (void);
 
 // Remaining properties

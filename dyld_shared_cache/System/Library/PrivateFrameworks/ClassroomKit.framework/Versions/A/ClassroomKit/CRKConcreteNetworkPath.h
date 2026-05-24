@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_nw_path;
 
 @interface CRKConcreteNetworkPath
 {
     NSArray *_interfaces;
-    NSObject<OS_nw_path> *_underlyingPath;
 }
 
 - (id);
@@ -20,15 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *interfaces; // @synthesize interfaces=_interfaces;
-@property(readonly, nonatomic, getter=isSatisfied) _Bool satisfied;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<OS_nw_path> *underlyingPath; // @synthesize underlyingPath=_underlyingPath;
 
 @end

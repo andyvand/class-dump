@@ -7,7 +7,6 @@
 @interface JetUI.PartialLayoutView
 {
     id measurable;
-    id layoutView;
 }
 
 @end

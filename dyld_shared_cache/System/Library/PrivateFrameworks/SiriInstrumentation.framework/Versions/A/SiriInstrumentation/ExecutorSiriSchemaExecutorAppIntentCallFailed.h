@@ -6,36 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ExecutorSiriSchemaExecutorAppIntentCallFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    int _errorKind;
-    NSArray *_errors;
-    struct {
-        unsigned int reason:1;
-        unsigned int errorKind:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)nCopyNMEAData received an XPC_ERROR_CONNECTION_INVALID error.
+;
 - (int);
 - (_Bool);
-- (id);
+- (id)d:(id)arg1 %{public}@;
 - (void);
-- (void);
+- (void)t
+;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -43,17 +37,12 @@
 - (void);
 - (id);
 - (id)kerRecognizerCombinedThresholdHS"b1"tdSpeakerRecognizerCombinedThresholdJS"b1};
-- (id)ntityPoolResolveContext;
+- (id)RRSchemaRREntityPoolResolveContext;
 - (id)¨cäc;
 - (void)ÃÀ´i÷#;
 - (void)Ô^ºÿÃ¯^%;
 
 // Remaining properties
-@property(nonatomic) int errorKind; // @synthesize errorKind=_errorKind;
-@property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(nonatomic) _Bool hasErrorKind;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

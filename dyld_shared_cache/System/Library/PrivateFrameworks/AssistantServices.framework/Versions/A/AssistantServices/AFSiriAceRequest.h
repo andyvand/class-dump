@@ -10,12 +10,10 @@
 @interface AFSiriAceRequest
 {
     NSObject<OS_xpc_object> *_startRequestData;
-    NSObject<OS_xpc_object> *_startLocalRequestData;
-    unsigned long long _requestOptions;
 }
 
 - (id);
-- (id);
+- (id)';
 - (id);
 - (void);
 - (void)olumeTTSType;

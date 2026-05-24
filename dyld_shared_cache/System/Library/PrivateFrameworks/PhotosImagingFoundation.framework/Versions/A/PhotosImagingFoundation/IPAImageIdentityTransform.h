@@ -11,7 +11,7 @@
 }
 
 - (struct Vector2d);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 

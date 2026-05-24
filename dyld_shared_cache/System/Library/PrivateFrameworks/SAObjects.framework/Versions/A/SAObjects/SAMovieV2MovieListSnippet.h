@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, SALocalSearchBusiness2;
+@class NSArray;
 
 @interface SAMovieV2MovieListSnippet : SAUISnippet
 {
@@ -19,11 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *movieListCells;
-@property(retain, nonatomic) SALocalSearchBusiness2 *theater;
 
 @end
 

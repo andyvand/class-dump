@@ -17,10 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dialogIdentifier;
-@property(nonatomic) long long errorCode;
-@property(copy, nonatomic) NSString *recognition;
-@property(copy, nonatomic) NSString *userFacingReasonDescription;
-@property(copy, nonatomic) NSString *userFacingReasonTitle;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface ContactsUICore.ContactLikenessStore.InMemoryCacheImpl
 {
     id logger;
-    id next;
-    id cache;
 }
 
 @end

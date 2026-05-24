@@ -20,8 +20,6 @@ struct MSRHcuHeader_t {
     unsigned int _field2;
 };
 
-struct _ASEHcuCacheNodeCommon;
-
 struct aseConfigurationUnitsV1_t {
     struct MSRHcuHeader_t _field1;
     struct MSRHcuEntryHeader_t _field2;
@@ -214,17 +212,6 @@ typedef struct {
     unsigned int _field3;
     unsigned int _field4;
 } CDStruct_792488cc;
-
-typedef struct {
-    unsigned int _field1;
-    struct _ASEHcuCacheNodeCommon *_field2;
-    struct _ASEHcuCacheNodeCommon *_field3;
-    struct {
-        unsigned long long _field1;
-        unsigned long long _field2;
-        unsigned long long _field3;
-    } _field4;
-} CDStruct_3450fab9;
 
 typedef struct {
     CDStruct_869f9c67 _field1[32];

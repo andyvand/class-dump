@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)migrateAuxKCForVolumeGroupUUID:withMigrationSuccess:withReplyBlock: /* Error: Ran out of types for this method. */;
 @end
 

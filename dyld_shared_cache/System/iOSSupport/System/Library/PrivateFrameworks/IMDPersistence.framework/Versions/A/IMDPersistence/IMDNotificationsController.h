@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, IMBusinessNameManager, NSSet, UNNotificationCategory, UNUserNotificationCenter;
+@class UNUserNotificationCenter;
 
 @interface IMDNotificationsController
 {
     long long _lastAlertedMessageDate;
-    long long _lastAlertedFailedMessageDate;
-    UNUserNotificationCenter *_notificationCenter;
-    UNNotificationCategory *_incomingMessageNotificationCategory;
-    UNNotificationCategory *_incomingFilesNotificationCategory;
-    IMBusinessNameManager *_businessNameManager;
-    CNContact *_meContact;
-    NSSet *_meTokens;
-    NSSet *_activeAccountAliases;
 }
 
 + (int);
@@ -62,7 +54,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`	;
 - (id);
 - (id);
 - (long long);
@@ -99,7 +91,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -136,7 +128,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (id);
 - (id);
@@ -155,21 +147,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -177,34 +156,39 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool)_overrideAllowsOpeningSensitiveURLs;
 - (void)$;
 - (id)tchBucket"8Q16^B24;
 - (void).chat_id JOIN message AS m  ON m.ROWID = crmj.message_id WHERE crmj.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'   UNION ALL SELECT c.guid, rmp.message_id, m.guid, rmp.delete_date, rmp.part_index, rmp.part_text  FROM recoverable_message_part AS rmp  JOIN chat AS c   ON c.ROWID = rmp.chat_id  JOIN message AS m   ON m.ROWID = rmp.message_id  WHERE rmp.ck_sync_state = 0 AND balloon_bundle_id == 'com.apple.messages.chatbot'  LIMIT ?;;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *activeAccountAliases; // @synthesize activeAccountAliases=_activeAccountAliases;
-@property(retain, nonatomic) IMBusinessNameManager *businessNameManager; // @synthesize businessNameManager=_businessNameManager;
-@property(retain, nonatomic) UNNotificationCategory *incomingFilesNotificationCategory; // @synthesize incomingFilesNotificationCategory=_incomingFilesNotificationCategory;
-@property(retain, nonatomic) UNNotificationCategory *incomingMessageNotificationCategory; // @synthesize incomingMessageNotificationCategory=_incomingMessageNotificationCategory;
-@property long long lastAlertedFailedMessageDate;
-@property long long lastAlertedMessageDate;
-@property(retain, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
-@property(retain, nonatomic) NSSet *meTokens; // @synthesize meTokens=_meTokens;
 @property(retain, nonatomic) UNUserNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 
 @end

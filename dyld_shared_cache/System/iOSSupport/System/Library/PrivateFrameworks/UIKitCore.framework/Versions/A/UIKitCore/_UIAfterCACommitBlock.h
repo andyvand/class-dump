@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _UIAfterCACommitBlock
 {
     _UIAfterCACommitBlock *_next;
-    CDUnknownBlockType _block;
-    _Atomic _Bool _transactionCleared;
 }
 
-+ (id)rationHandler:(CDUnknownBlockType)arg1 reuseIdentifier: /* Error: Ran out of types for this method. */;
++ (id)initWithSupplementaryClass:(CDUnknownBlockType)arg1 supplementaryNib:elementKind:configurationHandler:reuseIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)èdÿ;

@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMSearchQueryState, NSObject, NSString;
-@protocol EMBiomeStreamSearchQueryPruner, EMBiomeStreamSearchQuerySource, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EMMailSearchQueryBiomeLogger
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <EMBiomeStreamSearchQuerySource> _source;
-    id <EMBiomeStreamSearchQueryPruner> _pruner;
-    EMSearchQueryState *_state;
 }
 
 + (id);
 + (id)A;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)RestrictedGuestInfoLogEvent;
+- (void)=;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -44,17 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <EMBiomeStreamSearchQueryPruner> pruner; // @synthesize pruner=_pruner;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id <EMBiomeStreamSearchQuerySource> source; // @synthesize source=_source;
-@property(retain, nonatomic) EMSearchQueryState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

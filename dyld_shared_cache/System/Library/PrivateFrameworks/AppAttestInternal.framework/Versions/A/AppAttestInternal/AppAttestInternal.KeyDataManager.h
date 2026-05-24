@@ -7,9 +7,6 @@
 @interface AppAttestInternal.KeyDataManager
 {
     id auditToken;
-    id $__lazy_storage_$_bundleRecordController;
-    id $__lazy_storage_$_keychainController;
-    id logger;
 }
 
 @end

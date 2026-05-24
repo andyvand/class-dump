@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUFitHeightScalePolicy
 {
     long long _height;
 }
 
 - (CDStruct_912cb5d2);
-- (id);
+- (id)@0:(long long)arg1 8@"AVAssetResourceLoader"16@"AVAssetResourceLoadingRequest"24;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

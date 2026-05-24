@@ -7,16 +7,6 @@
 @interface PhotosUICore.PhotosDynamicHeaderMockGeometryModel
 {
     id _viewportSize;
-    id _safeAreaInsets;
-    id _verticalContentOffset;
-    id _fractionFloating;
-    id _mainContentInsets;
-    id _floatingInsets;
-    id _maximumFloatingAreaInsets;
-    id spec;
-    id wantsBlur;
-    id wantsTitleLegibilityGradient;
-    id _$observationRegistrar;
 }
 
 @end

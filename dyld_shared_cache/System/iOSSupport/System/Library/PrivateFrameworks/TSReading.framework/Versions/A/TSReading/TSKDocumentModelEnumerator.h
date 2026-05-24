@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol TSKModel;
 
 @interface TSKDocumentModelEnumerator
 {
     _Bool _stop;
-    _Bool _filterBeforeAddingChildren;
-    id <TSKModel> _root;
-    NSMutableArray *_enumeratorStack;
-    CDUnknownBlockType _filter;
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)〔;
+- (void)ation or timeout);
+- (_Bool)|;
 - (void);
 - (id);
 - (id);
@@ -28,13 +23,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)WithTouch:(CDUnknownBlockType)arg1 returningRep: /* Error: Ran out of types for this method. */;
-- (id)angeVisibility;
+- (void)hitKnobWithTouch:(CDUnknownBlockType)arg1 returningRep: /* Error: Ran out of types for this method. */;
+- (id)changeVisibility;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *enumeratorStack; // @synthesize enumeratorStack=_enumeratorStack;
-@property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;
-@property(nonatomic) _Bool filterBeforeAddingChildren; // @synthesize filterBeforeAddingChildren=_filterBeforeAddingChildren;
 @property(retain, nonatomic) id <TSKModel> root; // @synthesize root=_root;
 
 @end

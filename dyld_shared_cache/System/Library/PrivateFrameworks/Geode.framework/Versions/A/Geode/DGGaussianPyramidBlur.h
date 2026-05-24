@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGGaussianPyramidBlur
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    NSNumber *inputAspectRatio;
 }
 
++ (id){;
 + (id);
-+ (id);
-+ (void)ionFilter;
++ (void)DGColorCastCorrectionFilter;
 - (struct CGRect);
 - (struct CGRect);
 - (id);

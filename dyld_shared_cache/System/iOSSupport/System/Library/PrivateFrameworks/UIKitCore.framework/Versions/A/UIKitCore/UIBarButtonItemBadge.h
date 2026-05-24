@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIFont;
+@class NSString;
 
 @interface UIBarButtonItemBadge
 {
@@ -16,14 +16,14 @@
 + (id);
 + (_Bool)limited;
 - (id);
+- (id)requestsAllDataToEndOfResource;
 - (id);
-- (id);
-- (_Bool)lection:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)UseOverlay:(id)arg1;
-- (void)edPresentationSourceItem;
+- (_Bool)adjustSelection:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_setPanelConfigurationWithIsPrimaryShown:(id)arg1 shouldUseOverlay: /* Error: Ran out of types for this method. */;
+- (void)_preferredPresentationSourceItem;
 - (id)ÄSðT@V$cpcqäqlu(y;
 - (id)smart replies for responseContextDidChange;
-- (id)FinishInitialization;
+- (id)_UIFocusSystemSceneComponentDidFinishInitialization;
 - (id);
 - (void)$çþS;
 - (void)¸ól;
@@ -31,10 +31,6 @@
 - (id)óþ;
 
 // Remaining properties
-@property(nonatomic, retain) UIColor *backgroundColor;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, retain) UIFont *font;
-@property(nonatomic, retain) UIColor *foregroundColor;
 @property(nonatomic, readonly) NSString *stringValue;
 
 @end

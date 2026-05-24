@@ -7,14 +7,12 @@
 @interface CoreCDPUI.MacOSWrappedPinEntryView
 {
     id secret;
-    id maxLength;
-    id delegate;
 }
 
 - (id);
-- (void);
+- (void)T;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties

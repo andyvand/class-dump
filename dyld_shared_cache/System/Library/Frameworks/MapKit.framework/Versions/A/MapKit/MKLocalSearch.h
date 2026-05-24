@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLocalPointsOfInterestRequest, MKLocalSearchRequest;
-@protocol MKMapServiceSpatialPlaceLookupTicket, MKMapServiceTicket;
+@class MKLocalSearchRequest;
 
 @interface MKLocalSearch
 {
     MKLocalSearchRequest *_request;
-    id <MKMapServiceTicket> _ticket;
-    MKLocalPointsOfInterestRequest *_pointsOfInterestRequest;
-    id <MKMapServiceSpatialPlaceLookupTicket> _spatialPlaceLookupTicket;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _searching;
-    _Bool _cancelled;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)_dispatch_queue>";
 - (void);
-- (void);
-- (id);
+- (id)FLMs_AlgnBBoxH;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void)maryButtonNormalColor;
+- (id)locationManagerDidPauseLocationUpdates:(id)arg1;
+- (void)headerPrimaryButtonNormalColor;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isSearching) _Bool searching;

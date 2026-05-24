@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, WebHistoryItemPrivate;
+@class NSString, WebHistoryItemPrivate;
 
 @interface WebHistoryItem
 {
@@ -13,7 +13,7 @@
 
 + (id);
 + (void);
-+ (void)uresEnabled;
++ (void)LegacyPluginQuirkForMailSignaturesEnabled;
 - (void);
 - (struct CGPoint);
 - (id);
@@ -29,11 +29,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)hasVirtualDeviceID;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)initWithAccountType: /* Error: Ran out of types for this method. */;
+- (void)@;
 - (id);
 - (id);
 - (id);
@@ -41,20 +41,15 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)"16@"UARPAssetID"24;
+- (void)r2EndpointIDInfo}S^{uarpDownstreamEndpointObj}I^{uarpMemoryTracker}},R;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)parentBackground;
+- (id)h;
+- (id)urfacesMapper";
+- (id)transparentBackground;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *URLString;
-@property(copy, nonatomic) NSString *alternateTitle;
-@property(readonly, nonatomic) NSImage *icon;
-@property(readonly, nonatomic) double lastVisitedTimeInterval;
 @property(readonly, copy, nonatomic) NSString *originalURLString;
-@property(readonly, copy, nonatomic) NSString *title;
 
 @end
 

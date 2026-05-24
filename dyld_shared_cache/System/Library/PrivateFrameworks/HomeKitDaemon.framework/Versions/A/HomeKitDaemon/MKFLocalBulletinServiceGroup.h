@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class MKFLocalBulletinServiceRegistration, NSSet;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface MKFLocalBulletinServiceGroup : HMDManagedObject
@@ -17,8 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *associatedServiceUUIDs; // @dynamic associatedServiceUUIDs;
-@property(retain, nonatomic) MKFLocalBulletinServiceRegistration *bulletinServiceRegistration; // @dynamic bulletinServiceRegistration;
-@property(retain, nonatomic) NSSet *cameraProfileUUIDs; // @dynamic cameraProfileUUIDs;
 
 @end
 

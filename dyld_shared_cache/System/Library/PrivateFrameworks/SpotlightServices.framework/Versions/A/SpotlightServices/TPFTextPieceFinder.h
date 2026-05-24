@@ -9,25 +9,19 @@
 @interface TPFTextPieceFinder
 {
     NSString *_originalFullText;
-    NSString *_searchableFullText;
-    unsigned long long _maxLength;
-    unsigned long long _maxNumCandidates;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)sk"16@"NSError"24;
+- (id)SURLRequest";
 - (void)LMQUIntentFlightEvent:com_apple_mobilemail_LLMQUIntentHotelEvent:com_apple_MobileSMS_LLMQUIntentPartyEvent:com_apple_MobileSMS_LLMQUIntentTicketTransportEvent:com_apple_mobilemail_LLMQUIntentTicketTransportEvent:com_apple_mobilemail_LLMQUIntentCarRentalEvent:com_apple_MobileSMS_LLMQUIntentConversation:com_apple_mobilecal_LLMQUIntentPartyEvent:com_apple_mobileslideshow_LLMQUIntentPhone:com_apple_MobileSMS_LLMQUIntentHotelEvent:com_apple_mobileslideshow_LLMQUIntentEvent:other_bundle_LLMQUIntentTicketTransportEvent:com_apple_MobileSMS_LLMQUIntentCarRentalEvent:com_apple_mobilecal_LLMQUIntentTicketTransportEvent:com_apple_mobilecal_LLMQUIntentCarRentalEvent:com_apple_mobilemail_LLMQUIntentConversation:com_apple_mobilemail_LLMQUIntentPartyEvent:com_apple_mobilecal_LLMQUIntentCalendar:com_apple_mobileslideshow_LLMQUIntentWallet:com_apple_mobileslideshow_LLMQUIntentPhoto:com_apple_MobileSMS_LLMQUIntentCalendar:com_apple_MobileSMS_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentPhoto:other_bundle_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentPhoto:other_bundle_LLMQUIntentWallet:other_bundle_LLMQUIntentPhoto:other_bundle_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentWallet:com_apple_mobilecal_LLMQUIntentPhoto:com_apple_mobilemail_LLMQUIntentSharedLink:com_apple_MobileSMS_LLMQUIntentSharedLink:com_apple_mobilemail_LLMQUIntentSafari:com_apple_mobilecal_LLMQUIntentSharedLink: /* Error: Ran out of types for this method. */;
-- (unsigned long long)tio_last_day;
+- (unsigned long long)bundle_engagement_ratio_last_day;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long maxLength; // @synthesize maxLength=_maxLength;
-@property(readonly, nonatomic) unsigned long long maxNumCandidates; // @synthesize maxNumCandidates=_maxNumCandidates;
 @property(readonly, copy, nonatomic) NSString *originalFullText; // @synthesize originalFullText=_originalFullText;
-@property(readonly, copy, nonatomic) NSString *searchableFullText; // @synthesize searchableFullText=_searchableFullText;
 
 @end
 

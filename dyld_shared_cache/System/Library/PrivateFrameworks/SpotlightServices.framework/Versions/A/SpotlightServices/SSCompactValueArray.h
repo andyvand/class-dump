@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet;
+@class NSArray;
 
 @interface SSCompactValueArray
 {
     NSArray *_objects;
-    NSIndexSet *_indexes;
 }
 
 + (id);
 - (id);
-- (void)ToSearch: /* Error: Ran out of types for this method. */;
+- (void)didGoToSearch: /* Error: Ran out of types for this method. */;
 
 @end
 

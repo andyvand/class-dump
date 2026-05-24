@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)NSCachedURLResponse"32@?<v@?@"NSCachedURLResponse">40;
 - (_Bool)øij¸jPk;
 - (_Bool)>;
 

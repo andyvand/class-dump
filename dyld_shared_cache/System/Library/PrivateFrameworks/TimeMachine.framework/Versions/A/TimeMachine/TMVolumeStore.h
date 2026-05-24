@@ -11,33 +11,29 @@
 @interface TMVolumeStore : TMStructure
 {
     NSString *_name;
-    NSString *_persistentUUID;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)c;
++ (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)aT;
 - (id);
 - (_Bool);
-- (id);
+- (id)FOLLOWUP_LAST_CUSTODIAN_NO_LIVENESS_BUTTON_PRIMARY;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *mountPoint;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) NSString *persistentUUID; // @synthesize persistentUUID=_persistentUUID;
-@property(readonly, copy) NSString *volumeUUID;
 
 @end
 

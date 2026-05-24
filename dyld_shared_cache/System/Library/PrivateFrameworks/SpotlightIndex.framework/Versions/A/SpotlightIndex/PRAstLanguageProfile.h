@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PRAstLanguageProfile
 {
     _Bool _isSpaceDelimited;
-    NSString *_languageCode;
-    NSDictionary *_keywordInfo;
 }
 
 - (void);
@@ -22,15 +20,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (void);
-- (id);
+- (id)zQvw;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)importSetProgressValue;
 
 // Remaining properties
-@property(nonatomic) _Bool isSpaceDelimited; // @synthesize isSpaceDelimited=_isSpaceDelimited;
-@property(retain, nonatomic) NSDictionary *keywordInfo; // @synthesize keywordInfo=_keywordInfo;
 @property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
 
 @end

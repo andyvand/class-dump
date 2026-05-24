@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _EFBackgroundProcessingAssertion, _EFProtectedFile;
+@class _EFProtectedFile;
 
 @interface EFProtectedFile
 {
     _EFProtectedFile *_file;
-    _EFBackgroundProcessingAssertion *_assertion;
 }
 
 - (id);
@@ -22,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _EFBackgroundProcessingAssertion *assertion; // @synthesize assertion=_assertion;
-@property(readonly, nonatomic) _Bool backgroundProcessingIsAllowed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _EFProtectedFile *file; // @synthesize file=_file;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,13 +5,11 @@
 //
 
 @class FigMetalContext;
-@protocol MTLComputePipelineState;
 
 __attribute__((visibility("hidden")))
 @interface FigDepthValueMultiplier
 {
     FigMetalContext *_metalContext;
-    id <MTLComputePipelineState> _pipelineState;
 }
 
 + (void)p-SecureMetadata;

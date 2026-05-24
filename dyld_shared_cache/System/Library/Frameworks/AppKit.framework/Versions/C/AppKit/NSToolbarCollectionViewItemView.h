@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)ureRecognizer;
-- (void)ngControllerLogSettings;
+- (void)_panGestureRecognizer;
+- (void)NSSceneHostingControllerLogSettings;
 - (id)` eÿ6hB;
 
 // Remaining properties

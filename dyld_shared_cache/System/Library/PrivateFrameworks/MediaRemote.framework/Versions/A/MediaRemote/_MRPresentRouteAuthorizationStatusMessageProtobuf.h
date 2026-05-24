@@ -9,37 +9,30 @@
 @interface _MRPresentRouteAuthorizationStatusMessageProtobuf
 {
     _MRAVOutputDeviceDescriptorProtobuf *_route;
-    int _status;
-    struct {
-        unsigned int status:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)C:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (int);
-- (id);
-- (id);
+- (int)AFIntelligenceFlowLocationAccuracyActionDescriptor;
+- (id)hasVoiceCommandAfterReranking;
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (int)hannelCount;
-- (void)uid;
+- (int)channelCount;
+- (void)_uid;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRoute;
-@property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) _MRAVOutputDeviceDescriptorProtobuf *route; // @synthesize route=_route;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

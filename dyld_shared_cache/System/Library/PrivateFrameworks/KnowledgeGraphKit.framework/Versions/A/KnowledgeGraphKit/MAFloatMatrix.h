@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id)c;
 + (Class);
 - (float);
 - (id);
@@ -26,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (float);
 - (_Bool);
@@ -42,15 +42,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)findLongestPassingSegmentInFrameFlags:startIndex:endIndex:startOfRun:gatingFailures: /* Error: Ran out of types for this method. */;
+- (void)8r;
 - (long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long columns;
-@property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) long long rows;
 @property(readonly, nonatomic) KnowledgeGraphKit.MAFloatMatrixWrapper *wrapper; // @synthesize wrapper=_wrapper;
 
 @end

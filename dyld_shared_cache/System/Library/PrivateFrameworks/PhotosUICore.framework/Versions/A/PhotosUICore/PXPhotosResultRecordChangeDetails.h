@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHFetchResultChangeDetails, PXPhotosResultRecord;
+@class PXPhotosResultRecord;
 
 @interface PXPhotosResultRecordChangeDetails
 {
     PXPhotosResultRecord *_resultRecordBeforeChanges;
-    PXPhotosResultRecord *_resultRecordAfterChanges;
-    PHFetchResultChangeDetails *_exposedFetchResultChangeDetails;
-    PHFetchResultChangeDetails *_keyAssetsFetchResultChangeDetails;
 }
 
 + (id);
@@ -24,9 +21,6 @@
 - (void)$Sÿp;
 
 // Remaining properties
-@property(readonly, nonatomic) PHFetchResultChangeDetails *exposedFetchResultChangeDetails; // @synthesize exposedFetchResultChangeDetails=_exposedFetchResultChangeDetails;
-@property(readonly, nonatomic) PHFetchResultChangeDetails *keyAssetsFetchResultChangeDetails; // @synthesize keyAssetsFetchResultChangeDetails=_keyAssetsFetchResultChangeDetails;
-@property(readonly, nonatomic) PXPhotosResultRecord *resultRecordAfterChanges; // @synthesize resultRecordAfterChanges=_resultRecordAfterChanges;
 @property(readonly, nonatomic) PXPhotosResultRecord *resultRecordBeforeChanges; // @synthesize resultRecordBeforeChanges=_resultRecordBeforeChanges;
 
 @end

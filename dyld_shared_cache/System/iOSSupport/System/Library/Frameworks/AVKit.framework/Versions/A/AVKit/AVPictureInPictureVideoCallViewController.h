@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPictureInPictureController, AVPictureInPictureControllerContentSource, AVPictureInPictureViewController, AVVideoCallPlayerController, NSString, NSTimer, UIWindow;
+@class AVPictureInPictureViewController;
 
 @interface AVPictureInPictureVideoCallViewController
 {
     _Bool _lastKnownIsVisible;
-    AVVideoCallPlayerController *_videoCallPlayerController;
-    AVPictureInPictureViewController *_pictureInPictureViewController;
-    NSTimer *_observeSourceViewTimer;
-    AVPictureInPictureController *_pictureInPictureController;
-    AVPictureInPictureControllerContentSource *_contentSource;
-    struct CGRect _lastKnownVideoRectInWindow;
 }
 
 - (id);
@@ -27,11 +21,11 @@
 - (id);
 - (struct CGRect);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -46,32 +40,15 @@
 - (long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)uploadReceiptExpiration;
+- (void)H{;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool avkit_isVisible;
-@property(readonly, nonatomic) struct CGRect avkit_playerLayerRectInWindow;
-@property(readonly, nonatomic) struct CGRect avkit_videoRectInWindow;
-@property(readonly, nonatomic) UIWindow *avkit_window;
-@property(nonatomic) __weak AVPictureInPictureControllerContentSource *contentSource; // @synthesize contentSource=_contentSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool lastKnownIsVisible; // @synthesize lastKnownIsVisible=_lastKnownIsVisible;
-@property(nonatomic) struct CGRect lastKnownVideoRectInWindow; // @synthesize lastKnownVideoRectInWindow=_lastKnownVideoRectInWindow;
-@property(retain, nonatomic) NSTimer *observeSourceViewTimer; // @synthesize observeSourceViewTimer=_observeSourceViewTimer;
-@property(nonatomic) __weak AVPictureInPictureController *pictureInPictureController; // @synthesize pictureInPictureController=_pictureInPictureController;
 @property(nonatomic) __weak AVPictureInPictureViewController *pictureInPictureViewController; // @synthesize pictureInPictureViewController=_pictureInPictureViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVVideoCallPlayerController *videoCallPlayerController; // @synthesize videoCallPlayerController=_videoCallPlayerController;
 
 @end
 

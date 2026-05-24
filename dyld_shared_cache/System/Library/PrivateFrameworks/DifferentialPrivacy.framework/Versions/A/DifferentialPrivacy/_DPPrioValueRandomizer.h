@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface _DPPrioValueRandomizer
 {
     _Bool _dynamicVectorSize;
-    double _defaultLocalEpsilon;
-    NSDictionary *_plistParameters;
-    unsigned long long _p;
 }
 
 + (id);
@@ -23,27 +18,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (id)Th
+;
+- (id);
+- (void)setView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultLocalEpsilon; // @synthesize defaultLocalEpsilon=_defaultLocalEpsilon;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool dynamicVectorSize; // @synthesize dynamicVectorSize=_dynamicVectorSize;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long p; // @synthesize p=_p;
-@property(readonly, nonatomic) NSDictionary *plistParameters; // @synthesize plistParameters=_plistParameters;
-@property(readonly) Class superclass;
 
 @end
 

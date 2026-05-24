@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaSSUBackgroundUpdateAppCategoryInfo : SISchemaInstrumentationMessage
 {
     int _categoryType;
-    unsigned int _numAppExamplesPositive;
-    unsigned int _numAppExamplesNegative;
-    int _cacheAction;
-    struct {
-        unsigned int categoryType:1;
-        unsigned int numAppExamplesPositive:1;
-        unsigned int numAppExamplesNegative:1;
-        unsigned int cacheAction:1;
-    } _has;
 }
 
 - (void);
@@ -40,8 +29,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)Hs;
 - (void);
 - (unsigned long long);
 - (int);
@@ -54,15 +43,7 @@
 - (id)titySimilarity;
 
 // Remaining properties
-@property(nonatomic) int cacheAction; // @synthesize cacheAction=_cacheAction;
 @property(nonatomic) int categoryType; // @synthesize categoryType=_categoryType;
-@property(nonatomic) _Bool hasCacheAction;
-@property(nonatomic) _Bool hasCategoryType;
-@property(nonatomic) _Bool hasNumAppExamplesNegative;
-@property(nonatomic) _Bool hasNumAppExamplesPositive;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numAppExamplesNegative; // @synthesize numAppExamplesNegative=_numAppExamplesNegative;
-@property(nonatomic) unsigned int numAppExamplesPositive; // @synthesize numAppExamplesPositive=_numAppExamplesPositive;
 
 @end
 

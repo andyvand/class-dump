@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)shouldPlaceInCorner;
 + (void);
 - (id);
 - (id);

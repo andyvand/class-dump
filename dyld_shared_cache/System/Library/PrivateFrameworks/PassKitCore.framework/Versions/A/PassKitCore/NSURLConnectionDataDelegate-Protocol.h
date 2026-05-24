@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLConnection, NSURLRequest;
+@class NSCachedURLResponse, NSURLConnection, NSURLRequest;
 
 @protocol NSURLConnectionDataDelegate
 
 @optional
+- (NSCachedURLResponse *);
+- (void);
 - (void)0@ù
 × ;
-- (NSURLRequest *)x;
-- (void)RequestID:(NSURLConnection *)arg1;
+- (NSURLRequest *)suffix;
+- (void)setRequestID:(NSURLConnection *)arg1;
 @end
 

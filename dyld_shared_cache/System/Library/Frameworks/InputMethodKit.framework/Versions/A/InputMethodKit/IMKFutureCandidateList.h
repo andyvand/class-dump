@@ -6,24 +6,16 @@
 
 #import <InputMethodKit/IMKCandidateList.h>
 
-@class NSObject;
-@protocol OS_dispatch_group;
-
 @interface IMKFutureCandidateList : IMKCandidateList
 {
     _Bool _hasCompleted;
-    NSObject<OS_dispatch_group> *_dispatchGroup;
-    CDUnknownBlockType _evaluation;
-    IMKCandidateList *_cachedCandidates;
-    double _timeout;
-    long long _evaluationStrategy;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (long long);

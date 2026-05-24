@@ -7,7 +7,6 @@
 @interface NewsUI2.TagFeedModelFactory
 {
     id feedModelFactory;
-    id feedDescriptor;
 }
 
 @end

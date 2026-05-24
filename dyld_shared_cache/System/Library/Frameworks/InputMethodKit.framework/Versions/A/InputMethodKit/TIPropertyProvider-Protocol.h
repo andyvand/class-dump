@@ -5,5 +5,7 @@
 //
 
 @protocol TIPropertyProvider
+- (_Bool);
+- (int)c=;
 @end
 

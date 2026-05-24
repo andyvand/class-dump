@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol NURenderStatistics;
+@class NSDictionary;
 
 @interface _PISliderNetAdjustmentsResult
 {
     float _similarityScore;
-    NSDictionary *_adjustments;
 }
 
 - (void);
@@ -22,15 +20,6 @@
 
 // Remaining properties
 @property(copy) NSDictionary *adjustments; // @synthesize adjustments=_adjustments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property float similarityScore; // @synthesize similarityScore=_similarityScore;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

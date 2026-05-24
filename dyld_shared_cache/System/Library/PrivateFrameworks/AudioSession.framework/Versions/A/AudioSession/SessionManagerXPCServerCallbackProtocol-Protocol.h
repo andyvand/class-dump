@@ -5,5 +5,7 @@
 //
 
 @protocol SessionManagerXPCServerCallbackProtocol
+- (void)startInstallingUpdates:(unsigned int)arg1 notifyOn:(_Bool)arg2 usingForeground:progress:finish: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

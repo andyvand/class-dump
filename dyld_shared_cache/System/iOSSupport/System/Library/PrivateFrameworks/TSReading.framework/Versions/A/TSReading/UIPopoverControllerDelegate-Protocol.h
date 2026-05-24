@@ -5,5 +5,10 @@
 //
 
 @protocol UIPopoverControllerDelegate
+
+@optional
+- (_Bool);
+- (void)ing up the open/close web article test suite;
+- (void)ule;
 @end
 

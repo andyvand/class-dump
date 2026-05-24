@@ -16,22 +16,22 @@ struct CGSize {
 };
 
 struct IMAssociatedMessageGeometryDescriptor {
-    unsigned long long layoutIntent;
-    unsigned long long associatedLayoutIntent;
-    double parentPreviewWidth;
-    double xScalar;
-    double yScalar;
-    double scale;
-    double rotation;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
 };
 
 struct LSVersionNumber {
-    unsigned char _opaque[32];
+    unsigned char _field1[32];
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {

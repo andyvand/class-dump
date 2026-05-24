@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAdaptiveVolumeProperties;
+@class ODDSiriSchemaODDAdaptiveVolumeProperties;
 
 @interface ODDSiriSchemaODDHomePodProperties : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAdaptiveVolumeProperties *_adaptiveVolume;
-    _Bool _isPersonalDomainsEnabled;
-    struct {
-        unsigned int isPersonalDomainsEnabled:1;
-    } _has;
-    _Bool _hasAdaptiveVolume;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -32,8 +27,8 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
@@ -43,10 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDAdaptiveVolumeProperties *adaptiveVolume; // @synthesize adaptiveVolume=_adaptiveVolume;
-@property(nonatomic) _Bool hasAdaptiveVolume; // @synthesize hasAdaptiveVolume=_hasAdaptiveVolume;
-@property(nonatomic) _Bool hasIsPersonalDomainsEnabled;
-@property(nonatomic) _Bool isPersonalDomainsEnabled; // @synthesize isPersonalDomainsEnabled=_isPersonalDomainsEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

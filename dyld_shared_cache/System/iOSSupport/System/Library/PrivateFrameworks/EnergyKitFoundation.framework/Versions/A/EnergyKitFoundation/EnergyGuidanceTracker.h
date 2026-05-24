@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @interface EnergyGuidanceTracker
 {
@@ -15,11 +15,6 @@
 // Remaining properties
 @property(nonatomic, copy) NSString *gridID; // @dynamic gridID;
 @property(nonatomic, copy) NSUUID *guidanceID; // @dynamic guidanceID;
-@property(nonatomic) short guidanceType; // @dynamic guidanceType;
-@property(nonatomic, copy) NSDate *lastAccessed; // @dynamic lastAccessed;
-@property(nonatomic, copy) NSString *ratePlan; // @dynamic ratePlan;
-@property(nonatomic, copy) NSString *timeZone; // @dynamic timeZone;
-@property(nonatomic, copy) NSString *utilityID; // @dynamic utilityID;
 
 @end
 

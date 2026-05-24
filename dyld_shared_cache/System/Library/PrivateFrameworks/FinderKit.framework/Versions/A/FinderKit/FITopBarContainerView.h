@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)exceptionWithName:(id)arg1 reason:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

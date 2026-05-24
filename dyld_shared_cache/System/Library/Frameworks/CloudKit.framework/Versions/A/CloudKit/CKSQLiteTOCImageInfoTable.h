@@ -15,7 +15,7 @@
 + (unsigned long long);
 + (id);
 - (id);
-- (id);
+- (id)ш;
 - (id);
 - (id);
 - (id);

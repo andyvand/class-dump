@@ -6,39 +6,33 @@
 
 #import <UIKitCore/UIWindow.h>
 
-@class NSMutableArray, UIDebuggingInformationOverlayViewController, UIDebuggingInformationRootTableViewController, UIEvent;
+@class UIEvent;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationOverlay : UIWindow
 {
     _Bool _isFullscreen;
-    _Bool _checkingTouches;
-    _Bool _touchCaptureEnabled;
-    NSMutableArray *_touchObservers;
-    UIWindow *_inspectedWindow;
-    UIEvent *_lastTouch;
-    struct CGPoint _drawingOrigin;
 }
 
 + (void);
-+ (id);
-- (id);
++ (id)d event [invalidated] %@;
+- (id)emCount:%{public}ld mask:%{public}ld itemIdentifiers:%s /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (struct CGPoint);
-- (id);
+- (void)ical lane for %{public}s has exhausted allotted time, and will be deferred until %s;
+- (void)ogress, not allowing any reparenting tasks.;
+- (void)nt service:(id)arg1 %@ vs %@;
+- (void)for guid:(_Bool)arg1 %@;
+- (void)defaults to fetch archived records;
+- (void)alid guid %@;
+- (void)le %@;
+- (void)%@ with handles:(id)arg1 %@ on services:%@ /* Error: Ran out of types for this method. */;
+- (void)th error %@;
+- (void)ad, as we could not find an associated message;
+- (id)(%@) or chat (%@) for transfer %@;
+- (id)Creating persistent session with ID:%@ /* Error: Ran out of types for this method. */;
+- (id)dID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (id);
 - (_Bool);
 - (id);
 - (void)Ôáð!¨AùQb°1Â0@ù
@@ -49,15 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool checkingTouches; // @synthesize checkingTouches=_checkingTouches;
-@property(nonatomic) struct CGPoint drawingOrigin; // @synthesize drawingOrigin=_drawingOrigin;
-@property(retain, nonatomic) UIWindow *inspectedWindow; // @synthesize inspectedWindow=_inspectedWindow;
-@property(nonatomic) _Bool isFullscreen; // @synthesize isFullscreen=_isFullscreen;
 @property(retain, nonatomic) UIEvent *lastTouch; // @synthesize lastTouch=_lastTouch;
-@property(readonly, nonatomic) UIDebuggingInformationOverlayViewController *overlayViewController;
-@property(retain, nonatomic) UIDebuggingInformationRootTableViewController *rootTableViewController;
-@property(nonatomic) _Bool touchCaptureEnabled; // @synthesize touchCaptureEnabled=_touchCaptureEnabled;
-@property(retain, nonatomic) NSMutableArray *touchObservers; // @synthesize touchObservers=_touchObservers;
 
 @end
 

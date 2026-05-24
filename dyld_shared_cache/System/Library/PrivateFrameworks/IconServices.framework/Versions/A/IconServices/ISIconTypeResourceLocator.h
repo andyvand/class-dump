@@ -14,13 +14,13 @@
 }
 
 + (_Bool);
-- (id);
+- (id)__objc_protolist__DATA_CONST;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void));
 - (id);
 - (void);
 

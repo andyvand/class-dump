@@ -12,21 +12,21 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)9;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id)h;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long)eplacingCharactersInSet:(CDStruct_70511ce9 *)arg1 withCharacter:(id *)arg2;
+- (unsigned long long)tsu_stringByReplacingCharactersInSet:(CDStruct_70511ce9 *)arg1 withCharacter:(id *)arg2;
 
 @end
 

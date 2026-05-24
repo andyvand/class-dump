@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDEventSystemClient, HIDServiceClient, NSObject;
-@protocol HIDVirtualEventServiceDelegate, OS_dispatch_queue;
+@class HIDEventSystemClient;
 
 @interface HIDVirtualEventService
 {
     _Atomic int _state;
-    id <HIDVirtualEventServiceDelegate> _delegate;
-    HIDEventSystemClient *_client;
-    HIDServiceClient *_serviceClient;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
-- (id);
+- (id)appendAttributedString: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -37,10 +32,6 @@
 
 // Remaining properties
 @property(retain) HIDEventSystemClient *client; // @synthesize client=_client;
-@property __weak id <HIDVirtualEventServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) HIDServiceClient *serviceClient; // @synthesize serviceClient=_serviceClient;
-@property(readonly) unsigned long long serviceID;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface Speech.FullPayloadCorrectorActor__priv_62876FE84B3142C220F84970CC8D7F00
 {
     id $defaultActor;
-    id locale;
-    id clientID;
-    id _fullPayloadCorrectorService;
 }
 
 @end

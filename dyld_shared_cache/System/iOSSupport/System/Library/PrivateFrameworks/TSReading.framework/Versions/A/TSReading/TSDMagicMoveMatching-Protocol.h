@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, TSDRep;
+
 @protocol TSDMagicMoveMatching
+
+@optional
++ (NSArray *)entQueueControllerItem:(NSArray *)arg1;
++ (double)ting restoration of overlapped outgoing item:(TSDRep *)arg1;
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWMotionSampleRingBuffer
 {
     BWRingBuffer *_ringBuffer;
-    double _maxDuration;
-    int _maxCount;
 }
 
 - (void);

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKReusableVideoPlayer;
+
 @protocol CKReusableVideoPlayerDelegate
+- (void)passesVisibilityTesting:(CKReusableVideoPlayer *)arg1 forSearchResult: /* Error: Ran out of types for this method. */;
+- (void)participants;
+- (void)participantHighlightRegexMatchFinder;
+- (void)participantColors;
 @end
 

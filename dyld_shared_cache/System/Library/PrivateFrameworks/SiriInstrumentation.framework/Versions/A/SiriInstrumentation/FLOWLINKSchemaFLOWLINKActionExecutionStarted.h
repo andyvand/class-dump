@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLINKActionExecutionStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)e text error;
+- (void);
+- (unsigned long long)mE;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)nce"b1"fullRepetitionConfidence"b1"partialRepetitionConfidence"b1};
-- (id)TMSchemaTTMNeuralCombinerRequestStarted;
+- (id)TTMSchemaTTMNeuralCombinerRequestStarted;
 - (id)Àòó;
 - (_Bool)©²¯O#;
 - (_Bool)¡ÿ5Q¯ª¦';
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

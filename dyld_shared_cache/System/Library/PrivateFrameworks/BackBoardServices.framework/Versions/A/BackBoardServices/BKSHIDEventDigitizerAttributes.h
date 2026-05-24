@@ -6,20 +6,9 @@
 
 #import <BackBoardServices/BKSHIDEventBaseAttributes.h>
 
-@class NSArray;
-
 @interface BKSHIDEventDigitizerAttributes : BKSHIDEventBaseAttributes
 {
     unsigned char _touchStreamIdentifier;
-    _Bool _systemGesturesPossible;
-    _Bool _systemGestureStateChange;
-    float _maximumForce;
-    double _maximumPositionZ;
-    NSArray *_pathAttributes;
-    double _initialTouchTimestamp;
-    long long _activeModifiers;
-    long long _sceneTouchBehavior;
-    struct CGSize _digitizerSurfaceSize;
 }
 
 + (id);
@@ -33,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,23 +38,12 @@
 - (double);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long activeModifiers; // @synthesize activeModifiers=_activeModifiers;
-@property(nonatomic) double digitizerSurfaceHeight; // @dynamic digitizerSurfaceHeight;
-@property(nonatomic) struct CGSize digitizerSurfaceSize; // @synthesize digitizerSurfaceSize=_digitizerSurfaceSize;
-@property(nonatomic) double digitizerSurfaceWidth; // @dynamic digitizerSurfaceWidth;
-@property(nonatomic) double initialTouchTimestamp; // @synthesize initialTouchTimestamp=_initialTouchTimestamp;
 @property(nonatomic) float maximumForce; // @synthesize maximumForce=_maximumForce;
-@property(nonatomic) double maximumPositionZ; // @synthesize maximumPositionZ=_maximumPositionZ;
-@property(retain, nonatomic) NSArray *pathAttributes; // @synthesize pathAttributes=_pathAttributes;
-@property(nonatomic) long long sceneTouchBehavior; // @synthesize sceneTouchBehavior=_sceneTouchBehavior;
-@property(nonatomic) _Bool systemGestureStateChange; // @synthesize systemGestureStateChange=_systemGestureStateChange;
-@property(nonatomic) _Bool systemGesturesPossible; // @synthesize systemGesturesPossible=_systemGesturesPossible;
-@property(nonatomic) unsigned char touchStreamIdentifier; // @synthesize touchStreamIdentifier=_touchStreamIdentifier;
 
 @end
 

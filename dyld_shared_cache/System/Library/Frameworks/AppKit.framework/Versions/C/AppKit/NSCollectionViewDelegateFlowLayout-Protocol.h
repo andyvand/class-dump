@@ -9,10 +9,10 @@
 @protocol NSCollectionViewDelegateFlowLayout
 
 @optional
-- (double)ifySelection:(NSCollectionView *)arg1;
-- (struct NSEdgeInsets)ToScreen:(NSCollectionView *)arg1 anchorIfNeeded:(NSCollectionViewLayout *)arg2 animate:(long long)arg3;
-- (double)ByReuseIdentifier;
-- (struct CGSize)sOfSubsystem:(NSCollectionView *)arg1;
+- (double)moveToEndOfParagraphAndModifySelection:(NSCollectionView *)arg1;
+- (struct NSEdgeInsets)_setFrame:(NSCollectionView *)arg1 fromAdjustmentToScreen:(NSCollectionViewLayout *)arg2 anchorIfNeeded:(long long)arg3 animate: /* Error: Ran out of types for this method. */;
+- (double)_registeredCellClassesByReuseIdentifier;
+- (struct CGSize)_checkForObserversOfSubsystem:(NSCollectionView *)arg1;
 - (struct CGSize)(Ü;
 @end
 

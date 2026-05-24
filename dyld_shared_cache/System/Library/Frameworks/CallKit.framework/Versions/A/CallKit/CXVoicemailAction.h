@@ -20,8 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)storeDownloaderAccountID;
+- (id)إ
+;
 - (id);
 - (void);
 

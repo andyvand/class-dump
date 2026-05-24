@@ -6,75 +6,60 @@
 
 #import <AVFCapture/AVCaptureOutput_Tundra.h>
 
-@class AVCaptureStillImageOutputInternal_Tundra, NSArray, NSDictionary;
+@class AVCaptureStillImageOutputInternal_Tundra, NSDictionary;
 
 @interface AVCaptureStillImageOutput_Tundra : AVCaptureOutput_Tundra
 {
     AVCaptureStillImageOutputInternal_Tundra *_internal;
-    _Bool _stillImageStabilizationSupported;
-    _Bool _automaticallyEnablesStillImageStabilizationWhenAvailable;
-    _Bool _stillImageStabilizationActive;
-    _Bool _highResolutionStillImageOutputEnabled;
-    _Bool _cameraSensorOrientationCompensationSupported;
-    _Bool _cameraSensorOrientationCompensationEnabled;
 }
 
 + (id);
 + (id);
 + (void);
+- (id)groupSessionOptions;
+- (int)groupSessionEnded:(id)arg1 withReason:error: /* Error: Ran out of types for this method. */;
+- (_Bool)didEncounterErrorBlock;
+- (_Bool)dictionaryWithObjectsAndKeys:(id)arg1;
+- (_Bool)dictionaryWithDictionary:(id)arg1 defaultValue: /* Error: Ran out of types for this method. */;
+- (_Bool)dictionaryWithDictionary:(id)arg1;
+- (_Bool)dictionaryWithCapacity:(id)arg1 defaultValue: /* Error: Ran out of types for this method. */;
+- (void)_processInput:(_Bool)arg1 generatingDecompressedData: /* Error: Ran out of types for this method. */;
+- (void)_disarmed;
+- (void)URLByAppendingPathComponent:(id)arg1 isDirectory:(struct OpaqueCMIOGraph *)arg2;
+- (_Bool)kupTable;
+- (_Bool)SAttributedString",C,N,V_primaryVocalText;
+- (long long)hString:(id)arg1 … | creating implicit transaction [mutating sql statement];
+- (unsigned int)g process assertion [database transaction] assertion=%{public}@;
+- (int)to acquire process assertion [database transaction];
+- (void)}@:(id)arg1 %p] initWithConnection:… name:%{public}@… | taking process assertion [database transaction] /* Error: Ran out of types for this method. */;
+- (void)ection] <%p> Header did not contain valid message type %{public}@;
+- (_Bool)Identity() invalid input - returning nil. [clientIdentity=nil];
+- (id)ansliterations>;
+- (id)ing:<transliteration> element must be inside <transliterations> /* Error: Ran out of types for this method. */;
+- (_Bool)iterations> element should be inside <iTunesMetadata>;
+- (_Bool)rror:(id)arg1 %{public}@;
+- (_Bool)ackgroundTaskProvider %p RBSAssertion %p invalidated with error:(id)arg1 %{public}@;
+- (id)Task #%ld expired;
+- (_Bool)a;
+- (id)VBackgroundTaskProvider] Background Task #%ld expired (%{public}@);
+- (void)Provider %p Task #%ld [%{public}@] started;
+- (void)NSError"8;
+- (void)* _Nullable);
+- (void)en 0..<1 and cannot be 1;
+- (id)leadingSilence;
+- (_Bool)erviceResizeOperation.m;
+- (void)ck_s="_os_unfair_lock_opaque"I};
+- (_Bool);
+- (_Bool)f existing query:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (unsigned int);
-- (int);
-- (void);
-- (void);
-- (_Bool);
+- (void)_allowedLiveConfigurationID;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool)yClient;
-- (id)ayload: /* Error: Ran out of types for this method. */;
+- (_Bool)activeVideoMinFrameDurationSetByClient;
+- (id)_handleLiveReconfigurationCompletionWithPayload: /* Error: Ran out of types for this method. */;
 - (void)DJ;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyEnablesStillImageStabilizationWhenAvailable; // @synthesize automaticallyEnablesStillImageStabilizationWhenAvailable=_automaticallyEnablesStillImageStabilizationWhenAvailable;
-@property(readonly, nonatomic) NSArray *availableImageDataCVPixelFormatTypes;
-@property(readonly, nonatomic) NSArray *availableImageDataCodecTypes;
-@property(nonatomic, getter=isCameraSensorOrientationCompensationEnabled) _Bool cameraSensorOrientationCompensationEnabled; // @synthesize cameraSensorOrientationCompensationEnabled=_cameraSensorOrientationCompensationEnabled;
-@property(readonly, nonatomic, getter=isCameraSensorOrientationCompensationSupported) _Bool cameraSensorOrientationCompensationSupported; // @synthesize cameraSensorOrientationCompensationSupported=_cameraSensorOrientationCompensationSupported;
-@property(readonly, getter=isCapturingStillImage) _Bool capturingStillImage;
-@property(nonatomic, getter=isHighResolutionStillImageOutputEnabled) _Bool highResolutionStillImageOutputEnabled; // @synthesize highResolutionStillImageOutputEnabled=_highResolutionStillImageOutputEnabled;
 @property(copy, nonatomic) NSDictionary *outputSettings;
-@property(readonly, nonatomic, getter=isStillImageStabilizationActive) _Bool stillImageStabilizationActive; // @synthesize stillImageStabilizationActive=_stillImageStabilizationActive;
-@property(readonly, nonatomic, getter=isStillImageStabilizationSupported) _Bool stillImageStabilizationSupported; // @synthesize stillImageStabilizationSupported=_stillImageStabilizationSupported;
 
 @end
 

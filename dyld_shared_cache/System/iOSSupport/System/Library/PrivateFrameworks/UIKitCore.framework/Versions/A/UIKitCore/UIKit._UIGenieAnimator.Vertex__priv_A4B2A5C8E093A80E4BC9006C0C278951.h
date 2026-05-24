@@ -7,8 +7,6 @@
 @interface UIKit._UIGenieAnimator.Vertex__priv_A4B2A5C8E093A80E4BC9006C0C278951
 {
     id originalPoint;
-    id xAnimatableProperty;
-    id yAnimatableProperty;
 }
 
 @end

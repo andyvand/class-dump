@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
-
 @interface ETDataTensor
 {
     void *_dataPointer;
-    NSArray *_dataArray;
-    unsigned long long _type;
-    NSArray *_shape;
-    NSArray *_strides;
-    NSNumber *_maxNumberOfElements;
-    shared_ptr_619761a4 _blob;
-    vector_1354944f _allocatedImageData;
-    struct float_buffer_t _float_buffer;
-    struct vImage_Buffer _imageBuffer;
 }
 
 - (void);
@@ -26,39 +15,30 @@
 - (id);
 - (id);
 - (id);
-- (struct float_buffer_t);
-- (vector_1354944f);
+- (struct float_buffer_t)#;
+- (vector_f019daed);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)adjustRelativeAlarmsForEvent:whenConvertingToIsAllDay: /* Error: Ran out of types for this method. */;
 - (void);
-- (shared_ptr_619761a4);
-- (void);
+- (shared_ptr_5fe32275);
+- (void);
+- (id)ime is %llu);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (struct vImage_Buffer);
+- (unsigned long long)s]  :error from _AOSAccountPerformMembershipCheck %@ /* Error: Ran out of types for this method. */;
+- (struct vImage_Buffer)%;
 - (void *);
 - (id);
 - (void);
 - (void)ð;
-- (void)cast_params_tEEE;
+- (void)N8Espresso20kernel_with_uniformsINS_18broadcast_params_tEEE;
 
 // Remaining properties
-@property vector_1354944f allocatedImageData; // @synthesize allocatedImageData=_allocatedImageData;
-@property shared_ptr_619761a4 blob; // @synthesize blob=_blob;
-@property(retain, nonatomic) NSArray *dataArray; // @synthesize dataArray=_dataArray;
-@property(nonatomic) void *dataPointer; // @synthesize dataPointer=_dataPointer;
-@property struct float_buffer_t float_buffer; // @synthesize float_buffer=_float_buffer;
 @property struct vImage_Buffer imageBuffer; // @synthesize imageBuffer=_imageBuffer;
-@property(retain, nonatomic) NSNumber *maxNumberOfElements; // @synthesize maxNumberOfElements=_maxNumberOfElements;
-@property(retain, nonatomic) NSArray *shape; // @synthesize shape=_shape;
-@property(retain, nonatomic) NSArray *strides; // @synthesize strides=_strides;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

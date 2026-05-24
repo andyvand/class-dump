@@ -5,5 +5,8 @@
 //
 
 @protocol AVTouchBarMediaSelectionViewControllerDelegate
+
+@optional
+- (void);
 @end
 

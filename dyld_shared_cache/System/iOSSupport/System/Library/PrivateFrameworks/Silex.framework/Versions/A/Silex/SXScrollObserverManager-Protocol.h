@@ -5,5 +5,6 @@
 //
 
 @protocol SXScrollObserverManager
+- (void)canvases;
 @end
 

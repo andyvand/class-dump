@@ -10,8 +10,6 @@
 - (NSUUID *):%@> <Home:%@> <Away:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accessoryEventTopicSuffixID;
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
 @property(readonly, nonatomic) NSUUID *homeUUID;
 @end
 

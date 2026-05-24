@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSArray *_children;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id)m;
+- (id)m;
 - (id);
 - (id);
 - (id);
@@ -27,12 +27,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *mathMLAttributes;
 @property(readonly, nonatomic) NSString *mathMLTag;
 
 @end

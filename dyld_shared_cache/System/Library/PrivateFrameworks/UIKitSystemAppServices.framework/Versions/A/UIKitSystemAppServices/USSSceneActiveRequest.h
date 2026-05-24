@@ -9,23 +9,19 @@
 @interface USSSceneActiveRequest
 {
     _Bool _foreground;
-    _Bool _active;
-    NSString *_identifier;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic, getter=isForeground) _Bool foreground; // @synthesize foreground=_foreground;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

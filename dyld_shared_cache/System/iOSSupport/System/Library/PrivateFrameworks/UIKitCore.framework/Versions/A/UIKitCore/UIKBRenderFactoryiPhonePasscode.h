@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double);
+- (double)missing GUID;
+- (id)ning empty array;
+- (id)Manager;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)`';
 
 @end
 

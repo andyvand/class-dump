@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface DEDExtensionIdentifierManager
 {
@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)N3qmi11ClientProxy5StateE;
 + (id);
 - (void);
 - (void);
@@ -21,24 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (id);
+- (id)a non-manatee service identity:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)entEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *identifierTable; // @synthesize identifierTable=_identifierTable;
-@property(readonly) Class superclass;
 
 @end
 

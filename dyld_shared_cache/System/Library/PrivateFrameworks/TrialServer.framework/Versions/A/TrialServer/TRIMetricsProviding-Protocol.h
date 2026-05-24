@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRITrialSystemTelemetry;
+@class NSArray, TRITrialSystemTelemetry;
 
 @protocol TRIMetricsProviding
+- (NSArray *);
 - (TRITrialSystemTelemetry *)!ð1Â0@ù
 × ;
 @end

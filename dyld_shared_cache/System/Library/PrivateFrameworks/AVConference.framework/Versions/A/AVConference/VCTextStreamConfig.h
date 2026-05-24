@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCTextStreamConfig : VCMediaStreamConfig
 {
     unsigned char _numRedundantPayloads;
-    _Bool _redEnabled;
-    float _txIntervalMin;
 }
 
 - (float);
@@ -23,9 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned char numRedundantPayloads; // @synthesize numRedundantPayloads=_numRedundantPayloads;
 @property(readonly, nonatomic, getter=isRedEnabled) _Bool redEnabled; // @synthesize redEnabled=_redEnabled;
-@property(nonatomic) float txIntervalMin; // @synthesize txIntervalMin=_txIntervalMin;
 
 @end
 

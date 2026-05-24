@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol AXMVisionEngineNodeConnectionDelegate, OS_dispatch_queue;
-
 @interface AXMVisionEngineNode
 {
     _Bool _connected;
-    _Bool _enabled;
-    id <AXMVisionEngineNodeConnectionDelegate> _delegate;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_nodeQueue;
 }
 
-+ (_Bool);
++ (_Bool)view;
 + (id);
 + (_Bool);
 - (_Bool);
@@ -24,16 +17,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)F\|;
+- (void);
 - (_Bool);
-- (void);
+- (void)N;
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)SString";
 - (void);
 - (void);
 - (id);
@@ -44,20 +37,7 @@
 - (void),V_additionalValues;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool areDiagnosticsEnabled;
 @property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXMVisionEngineNodeConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *nodeQueue; // @synthesize nodeQueue=_nodeQueue;
-@property(readonly, nonatomic) _Bool requiresVisionFramework;
-@property(readonly) Class superclass;
 
 @end
 

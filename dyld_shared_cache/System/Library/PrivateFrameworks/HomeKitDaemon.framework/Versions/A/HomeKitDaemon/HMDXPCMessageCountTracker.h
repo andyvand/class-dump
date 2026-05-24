@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSDate, NSDictionary, NSMutableDictionary, NSString;
 @protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCMessageCountTracker
 {
     struct os_unfair_lock_s _lock;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSMutableDictionary *_acceptedRequests;
-    NSMutableDictionary *_erroredRequests;
-    NSMutableDictionary *_sentNotifications;
-    HMFTimer *_submissionTimer;
-    NSDate *_lastResetDate;
 }
 
 + (id);
@@ -30,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)ð1Â0@ù
 × ;
-- (void): /* Error: Ran out of types for this method. */;
-- (id)nServer;
+- (void)initWithCKShareParticipant:clientIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_persistentConnectionServer;
 - (id)È¢¨8¨;
 - (id)ïûùü`úýdÿþl;
 - (void)for session %@;
@@ -40,23 +33,10 @@ __attribute__((visibility("hidden")))
 - (void)' operation:(id)arg1 Unable to retrieve HAPAccessory for linkType %@;
 - (void)ystem.Component;
 - (id)sons;
-- (id)otificationRequestKey;
+- (id)kCharacteristicEnableNotificationRequestKey;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *acceptedRequests; // @synthesize acceptedRequests=_acceptedRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSMutableDictionary *erroredRequests; // @synthesize erroredRequests=_erroredRequests;
-@property(readonly) unsigned long long hash;
-@property(copy) NSDate *lastResetDate; // @synthesize lastResetDate=_lastResetDate;
 @property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) NSMutableDictionary *sentNotifications; // @synthesize sentNotifications=_sentNotifications;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) HMFTimer *submissionTimer; // @synthesize submissionTimer=_submissionTimer;
-@property(readonly) Class superclass;
 
 @end
 

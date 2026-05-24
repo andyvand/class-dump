@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationRecord, NSString;
+@class NSString;
 @protocol VGOEMAppSOCStreaming;
 
 @protocol VGOEMApplication
+- (id <VGOEMAppSOCStreaming>)H;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) LSApplicationRecord *applicationRecord;
-@property(nonatomic) __weak id <VGOEMAppSOCStreaming> chargeStreamingDelegate;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(readonly, nonatomic) NSString *identifier;
 @end
 

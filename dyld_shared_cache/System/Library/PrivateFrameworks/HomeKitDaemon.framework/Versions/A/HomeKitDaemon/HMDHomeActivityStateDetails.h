@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateDetails
 {
     _Bool _holdActive;
-    unsigned long long _state;
-    NSDate *_holdExpiryTime;
-    NSDate *_transitionalStateEndDate;
 }
 
-- (id);
+- (id)__DATA;
 - (_Bool);
-- (_Bool);
+- (_Bool)e;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,11 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)"NSUUID"8@"HMDUserActivityReport"16;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isHoldActive) _Bool holdActive; // @synthesize holdActive=_holdActive;
-@property(readonly, nonatomic) NSDate *holdExpiryTime; // @synthesize holdExpiryTime=_holdExpiryTime;
-@property(readonly, nonatomic, getter=isHomeOccupied) _Bool homeOccupied;
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSDate *transitionalStateEndDate; // @synthesize transitionalStateEndDate=_transitionalStateEndDate;
 
 @end
 

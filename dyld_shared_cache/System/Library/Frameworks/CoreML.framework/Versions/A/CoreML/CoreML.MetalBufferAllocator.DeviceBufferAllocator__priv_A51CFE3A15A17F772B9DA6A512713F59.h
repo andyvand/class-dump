@@ -7,10 +7,6 @@
 @interface CoreML.MetalBufferAllocator.DeviceBufferAllocator__priv_A51CFE3A15A17F772B9DA6A512713F59
 {
     id cacheKeyAlignment;
-    id cache;
-    id cacheSize;
-    id lowWatermarkLimit;
-    id deviceRegistryID;
 }
 
 @end

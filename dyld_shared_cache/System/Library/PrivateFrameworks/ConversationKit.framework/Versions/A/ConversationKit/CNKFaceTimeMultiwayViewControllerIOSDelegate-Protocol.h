@@ -5,5 +5,9 @@
 //
 
 @protocol CNKFaceTimeMultiwayViewControllerIOSDelegate
+- (_Bool)z;
+- (_Bool);
+- (void)Tz;
+- (_Bool);
 @end
 

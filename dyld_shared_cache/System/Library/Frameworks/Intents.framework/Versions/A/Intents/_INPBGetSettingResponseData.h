@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBNumericSettingValue, _INPBSettingMetadata;
-
 @interface _INPBGetSettingResponseData
 {
     struct {
         unsigned int binaryValue:1;
         unsigned int boundedValue:1;
     } _has;
-    int _binaryValue;
-    int _boundedValue;
-    NSString *_labeledValue;
-    _INPBNumericSettingValue *_numericValue;
-    _INPBSettingMetadata *_settingMetadata;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)9h;
 - (id);
 - (int);
 - (id);
@@ -37,8 +30,8 @@
 - (_Bool);
 - (int);
 - (int);
-- (void);
-- (void);
+- (void)rkloadCategory:(id)arg1 expectedValue:withHandler: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (int);
 - (id);
@@ -46,29 +39,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)lic}@, returned error %{public}@;
 - (id);
-- (id);
-- (void)eterSupportsResolution;
+- (id);
+- (void)INIntentResponseParameterSupportsResolution;
 
 // Remaining properties
 @property(nonatomic) int binaryValue; // @synthesize binaryValue=_binaryValue;
-@property(nonatomic) int boundedValue; // @synthesize boundedValue=_boundedValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBinaryValue;
-@property(nonatomic) _Bool hasBoundedValue;
-@property(readonly, nonatomic) _Bool hasLabeledValue;
-@property(readonly, nonatomic) _Bool hasNumericValue;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *labeledValue; // @synthesize labeledValue=_labeledValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *numericValue; // @synthesize numericValue=_numericValue;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata; // @synthesize settingMetadata=_settingMetadata;
-@property(readonly) Class superclass;
 
 @end
 

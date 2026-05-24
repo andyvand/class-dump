@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CLSManagedPublicEventServerVersion
 {
 }
 
-+ (id)antPast;
++ (id)distantPast;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *dateOfLastCachedVersion; // @dynamic dateOfLastCachedVersion;
-@property(retain, nonatomic) NSDate *dateOfScheduledCacheInvalidationForVersion; // @dynamic dateOfScheduledCacheInvalidationForVersion;
-@property(retain, nonatomic) NSDate *dateOfServerUpdate; // @dynamic dateOfServerUpdate;
-@property(nonatomic) long long sourceService; // @dynamic sourceService;
 @property(retain, nonatomic) NSString *version; // @dynamic version;
 
 @end

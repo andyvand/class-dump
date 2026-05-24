@@ -9,13 +9,10 @@
 @interface UARPAccessoryHardwareBluetooth : UARPAccessoryHardwareID
 {
     unsigned short _vendorID;
-    unsigned short _productID;
-    unsigned short _productVersion;
-    long long _vendorIDSource;
 }
 
 - (id);
-- (id);
+- (id)AMSActionContext;
 - (id);
 - (_Bool);
 - (unsigned short);
@@ -24,9 +21,6 @@
 - (unsigned short);
 
 // Remaining properties
-@property(readonly) unsigned short productID; // @synthesize productID=_productID;
-@property(readonly) unsigned short productVersion; // @synthesize productVersion=_productVersion;
-@property(readonly) unsigned short vendorID; // @synthesize vendorID=_vendorID;
 @property(readonly) long long vendorIDSource; // @synthesize vendorIDSource=_vendorIDSource;
 
 @end

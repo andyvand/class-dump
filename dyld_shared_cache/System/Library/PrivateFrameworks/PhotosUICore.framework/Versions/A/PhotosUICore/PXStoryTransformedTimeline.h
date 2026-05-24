@@ -11,8 +11,6 @@
 @interface PXStoryTransformedTimeline : PXStoryDerivedTimeline
 {
     PXCArrayStore *_transformedRectsStore;
-    PXCArrayStore *_transformedClipInfosStore;
-    struct CGAffineTransform _transform;
 }
 
 - (id);
@@ -28,12 +26,10 @@
 - (id);
 - (struct CGAffineTransform);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)*;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property(readonly, nonatomic) PXCArrayStore *transformedClipInfosStore; // @synthesize transformedClipInfosStore=_transformedClipInfosStore;
 @property(readonly, nonatomic) PXCArrayStore *transformedRectsStore; // @synthesize transformedRectsStore=_transformedRectsStore;
 
 @end

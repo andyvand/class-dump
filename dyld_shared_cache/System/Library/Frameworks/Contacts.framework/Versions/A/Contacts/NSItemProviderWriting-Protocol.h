@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString;
 
 @protocol NSItemProviderWriting
++ (NSArray *)alManager:willRestoreState:method /* Error: Ran out of types for this method. */;
+
+@optional
++ (long long)isDefragmentationEnabledForContainer:(NSString *)arg1 enabled: /* Error: Ran out of types for this method. */;
+- (long long)setLabelForPartition:(NSString *)arg1 label:options: /* Error: Ran out of types for this method. */;
+- (NSArray *)ser _activateDirectStart]_block_invoke_2;
 
 // Remaining properties
 @property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;

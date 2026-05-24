@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPSupportedDiagnosticsSnapshot, HMDService, NSString;
+@class HMDService;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDiagnosticsSettings
 {
     HMDService *_diagnosticsService;
-    HAPSupportedDiagnosticsSnapshot *_currentSnapshot;
-    NSString *_transport;
 }
 
 - (id);
@@ -23,9 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)pa=;
 
 // Remaining properties
-@property(retain) HAPSupportedDiagnosticsSnapshot *currentSnapshot; // @synthesize currentSnapshot=_currentSnapshot;
 @property(readonly) HMDService *diagnosticsService; // @synthesize diagnosticsService=_diagnosticsService;
-@property(readonly) NSString *transport; // @synthesize transport=_transport;
 
 @end
 

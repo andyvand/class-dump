@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SXJSONDictionary;
+@class NSURL;
 
 @interface SXLinkAction
 {
     _Bool _openInBrowser;
-    NSURL *_URL;
-    SXJSONDictionary *_analytics;
 }
 
 - (id);
-- (id);
+- (id)arteSubscriptionCount:(id)arg1 Monthly metered count for a la carte subscriptions incremented to %@.;
 - (_Bool);
 - (id);
 - (id);
@@ -25,16 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics=_analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool openInBrowser; // @synthesize openInBrowser=_openInBrowser;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

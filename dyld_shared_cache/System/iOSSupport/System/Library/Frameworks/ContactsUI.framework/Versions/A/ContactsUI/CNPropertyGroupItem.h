@@ -6,38 +6,25 @@
 
 #import <ContactsUI/CNCardGroupItem.h>
 
-@class CNCardPropertyGroup, CNContact, CNContactProperty, CNContactStore, CNLabeledValue, CNMutableContact, CNUIContactsEnvironment, NSArray, NSString, NSURL;
-@protocol CNPropertyGroupItemDelegate;
+@class NSString;
 
 @interface CNPropertyGroupItem : CNCardGroupItem
 {
     _Bool _allowsIMessage;
-    _Bool _allowsPhone;
-    _Bool _allowsTTY;
-    _Bool _allowsEmail;
-    CNLabeledValue *_labeledValue;
-    CNCardPropertyGroup *_group;
-    NSString *_property;
-    CNContact *_contact;
-    CNContactStore *_contactStore;
-    id <CNPropertyGroupItemDelegate> _delegate;
-    CNLabeledValue *_originalLabeledValue;
-    CNUIContactsEnvironment *_environment;
-    unsigned long long _policyFlags;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)h;
 + (id);
-+ (id);
-+ (id);
++ (id);;
 + (id);
 + (void);
 + (Class);
+- (id)i;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -46,11 +33,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -74,7 +61,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (_Bool);
 - (id);
 - (id);
@@ -83,69 +70,36 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (id)predicateForEpisodesPublishedAfterDate: /* Error: Ran out of types for this method. */;
+- (_Bool)reader.;
+- (id)cation = false, not force fetching latest channel updates;
+- (id);
+- (void)%ٚ;
+- (void)6;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)on ;
+- (id);
+- (_Bool)`;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id)ñsð1Â0@ù
 × ;
-- (void)onGestureRecognizerDelegate;
+- (void)_selectionGestureRecognizerDelegate;
 - (void)T@"UIColor",&,N,V_startColor;
 - (_Bool)Ð§;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEmail; // @synthesize allowsEmail=_allowsEmail;
-@property(nonatomic) _Bool allowsIMessage; // @synthesize allowsIMessage=_allowsIMessage;
-@property(nonatomic) _Bool allowsPhone; // @synthesize allowsPhone=_allowsPhone;
-@property(nonatomic) _Bool allowsTTY; // @synthesize allowsTTY=_allowsTTY;
-@property(readonly, nonatomic) _Bool canRemove;
-@property(readonly, nonatomic) _Bool canReorder;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) CNContactProperty *contactProperty;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSURL *defaultActionURL;
-@property(nonatomic) __weak id <CNPropertyGroupItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *displayLabel;
-@property(readonly, nonatomic) NSString *displayValue;
-@property(readonly, nonatomic) NSString *editingStringValue;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) CNUIContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) __weak NSArray *extendedLabels;
-@property(readonly, nonatomic, getter=isFavorite) _Bool favorite;
-@property(readonly, nonatomic) __weak CNCardPropertyGroup *group; // @synthesize group=_group;
-@property(retain, nonatomic) CNLabeledValue *labeledValue; // @synthesize labeledValue=_labeledValue;
-@property(readonly, nonatomic) _Bool modified;
-@property(readonly, nonatomic) CNMutableContact *mutableContact;
-@property(readonly, nonatomic) id normalizedValue;
-@property(retain, nonatomic) CNLabeledValue *originalLabeledValue; // @synthesize originalLabeledValue=_originalLabeledValue;
-@property(readonly, nonatomic) NSString *placeholderString;
-@property(nonatomic) unsigned long long policyFlags; // @synthesize policyFlags=_policyFlags;
-@property(readonly, nonatomic) __weak NSArray *promotedExtendedLabels;
 @property(retain, nonatomic) NSString *property; // @synthesize property=_property;
-@property(readonly, nonatomic, getter=isReadonly) _Bool readonly;
-@property(readonly, nonatomic) _Bool shouldDisableLabelButton;
-@property(readonly, nonatomic) _Bool showValueWithLabelStyle;
-@property(readonly, nonatomic) __weak NSArray *standardLabels;
-@property(readonly, nonatomic, getter=isSuggested) _Bool suggested;
-@property(readonly, nonatomic) _Bool supportsLabel;
 
 @end
 

@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterLANFirewall, HMDNetworkRouterLANFirewallRuleList, NSString;
+@class HMDNetworkRouterLANFirewall;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterLANFirewallConfiguration
 {
     HMDNetworkRouterLANFirewall *_type;
-    HMDNetworkRouterLANFirewallRuleList *_ruleList;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)momentNodesWithSearchConfidenceAssets;
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (id);
@@ -31,14 +30,6 @@ __attribute__((visibility("hidden")))
 - (void)Bathroom;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterLANFirewallRuleList *ruleList; // @synthesize ruleList=_ruleList;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HMDNetworkRouterLANFirewall *type; // @synthesize type=_type;
 
 @end

@@ -6,23 +6,11 @@
 
 #import <CalendarUIKit/CUIKOccurrenceCacheDataSource.h>
 
-@class EKSpotlightSearch, NSArray, NSMutableDictionary, NSString;
+@class EKSpotlightSearch;
 
 @interface CUIKOccurrenceCacheSearchDataSource : CUIKOccurrenceCacheDataSource
 {
     EKSpotlightSearch *_narrowSearch;
-    EKSpotlightSearch *_distantFutureSearch;
-    EKSpotlightSearch *_distantPastSearch;
-    NSString *_searchTerm;
-    NSMutableDictionary *_processingCachedDays;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _resultsLock;
-    NSArray *_sortedDays;
-    _Bool _sortedDaysUpdated;
-    _Bool _scrolledToToday;
-    int _searchSeed;
 }
 
 - (_Bool);
@@ -37,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void)tedOccurrence: /* Error: Ran out of types for this method. */;
+- (void)setSelectedOccurrence: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _VNCoreMLOperationPoints : VNOperationPoints
 {
     NSArray *_classLabels;
-    NSArray *_precisionRecallCurves;
 }
 
 - (id);

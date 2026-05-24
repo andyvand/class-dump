@@ -4,33 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSPObject, TSWPColumnStyle, TSWPListStyle, TSWPParagraphStyle, TSWPStorage;
-
 @interface TSWPStoragePasteRules
 {
     unsigned int _flags;
-    unsigned int _actionFlags[4];
-    unsigned int _lastFlag;
-    struct _NSRange _srcLeadRange;
-    struct _NSRange _srcTrailRange;
-    _Bool _mapDestTrailCS;
-    TSWPStorage *_destStorage;
-    unsigned long long _sourceColumnStyleCount;
-    unsigned long long _sourceSectionCount;
-    struct {
-        TSWPParagraphStyle *parStyle;
-        TSPObject *section;
-        TSWPColumnStyle *columnStyle;
-        TSWPListStyle *listStyle;
-        CDStruct_8a5ee6e3 parData;
-        CDStruct_8a5ee6e3 parStartData;
-        CDStruct_8a5ee6e3 parBidiData;
-    } _paragraphs[4];
 }
 
-- (void);
-- (void);
-- (void);
+- (void)TimeoutPlaceholderItem;
+- (void)called;
+- (void)asset flag for:(int)arg1;
 - (void);
 - (void);
 - (void);

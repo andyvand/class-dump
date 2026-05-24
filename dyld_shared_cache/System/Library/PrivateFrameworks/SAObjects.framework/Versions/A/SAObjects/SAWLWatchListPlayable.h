@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL, SAWLWatchListChannelDetails;
+@class SAWLWatchListChannelDetails;
 
 @interface SAWLWatchListPlayable : AceObject
 {
@@ -16,9 +16,9 @@
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -27,16 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAWLWatchListChannelDetails *channelDetails;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool entitled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool installed;
-@property(copy, nonatomic) NSURL *playURL;
-@property(readonly) Class superclass;
 
 @end
 

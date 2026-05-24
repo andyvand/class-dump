@@ -6,7 +6,7 @@
 
 #import <DifferentialPrivacy/_DPCMSSequenceMO.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _DPCMSWordMO : _DPCMSSequenceMO
 {
@@ -15,8 +15,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *fragment; // @dynamic fragment;
-@property(nonatomic) short fragmentHashIndex; // @dynamic fragmentHashIndex;
-@property(nonatomic) short fragmentPosition; // @dynamic fragmentPosition;
-@property(retain, nonatomic) NSString *plainFragment; // @dynamic plainFragment;
 @end
 

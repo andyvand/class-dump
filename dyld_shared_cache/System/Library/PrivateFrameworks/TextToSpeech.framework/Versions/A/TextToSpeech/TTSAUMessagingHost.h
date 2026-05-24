@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
 @protocol AUMessageChannel;
 
 @interface TTSAUMessagingHost
 {
     id <AUMessageChannel> _channel;
-    NSDictionary *_methods;
-    NSSet *_allowedClasses;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)stenerSuspend] Listener connection suspended and invalidated.;
 - (id);
 - (void);
 - (void)ÄvóÿÿÿÿÿL;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allowedClasses; // @synthesize allowedClasses=_allowedClasses;
 @property(retain, nonatomic) id <AUMessageChannel> channel; // @synthesize channel=_channel;
-@property(retain, nonatomic) NSDictionary *methods; // @synthesize methods=_methods;
 
 @end
 

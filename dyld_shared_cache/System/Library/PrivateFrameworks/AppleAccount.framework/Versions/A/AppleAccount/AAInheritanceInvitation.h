@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface AAInheritanceInvitation
 {
     NSUUID *_beneficiaryID;
-    NSString *_beneficiaryHandle;
-    NSString *_beneficiaryFirstName;
-    NSString *_beneficiaryLastName;
-    NSString *_beneficiaryDisplayName;
-    long long _status;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)e/var/db/ConfigurationProfiles/Store;
+- (id)YES;
+- (id)sr_createeapclientprofile;
+- (id)found agent port %d;
+- (id)gument:num_ports does not match number of ports in Execution Stream operation. /* Error: Ran out of types for this method. */;
+- (id)PopulatePortNames;
+- (id)ument:num_ports is NULL. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)Ab;
 - (id);
 - (void);
-- (id);
+- (id)_extensionBundleID;
 - (long long);
-- (void)yContactMessage;
+- (void)isYourRecoveryContactMessage;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *beneficiaryDisplayName; // @synthesize beneficiaryDisplayName=_beneficiaryDisplayName;
-@property(readonly, copy, nonatomic) NSString *beneficiaryFirstName; // @synthesize beneficiaryFirstName=_beneficiaryFirstName;
-@property(readonly, copy, nonatomic) NSString *beneficiaryHandle; // @synthesize beneficiaryHandle=_beneficiaryHandle;
 @property(readonly, nonatomic) NSUUID *beneficiaryID; // @synthesize beneficiaryID=_beneficiaryID;
-@property(readonly, copy, nonatomic) NSString *beneficiaryLastName; // @synthesize beneficiaryLastName=_beneficiaryLastName;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

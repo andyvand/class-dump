@@ -9,19 +9,9 @@
 @interface GEOARSessionThermalPressure
 {
     PBUnknownFields *_unknownFields;
-    double _timestamp;
-    int _chargingState;
-    int _collectionTrigger;
-    unsigned int _thermalPressure;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int has_chargingState:1;
-        unsigned int has_collectionTrigger:1;
-        unsigned int has_thermalPressure:1;
-    } _flags;
 }
 
-+ (_Bool)MapSettingsSpeedLimitEnabled:(id)arg1;
++ (_Bool)setHasMapSettingsSpeedLimitEnabled:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -31,45 +21,37 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_keywordAnalyzer;
+- (void)~�;
 - (id);
 - (unsigned long long);
 - (double);
+- (_Bool)�;
 - (_Bool);
+- (void)dd}32;
+- (id)externalTransitLookupParameters;
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (_Bool)ù
 × ;
 - (int)nericContainerWeakReferenceTag, 0, 0>:(id)arg1:_value_ptr>, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (void)inateIndex:(double)arg1;
-- (id)ndSessionHadMoveAction;
+- (void)setMatchedCoordinateIndex:(double)arg1;
+- (id)lookaroundSessionHadMoveAction;
 - (id)_displayedEta;
 - (id)ßüâ;
 - (int)Ø;
 - (void)ààU;
-- (id)Placecards;
+- (id)PreloadTransitPlacecards;
 - (int);
 - (id)Ø(Ð;
 - (void)pX+ÿ;
 - (void)J¦>;
 
 // Remaining properties
-@property(nonatomic) int chargingState;
-@property(nonatomic) int collectionTrigger;
-@property(nonatomic) _Bool hasChargingState;
-@property(nonatomic) _Bool hasCollectionTrigger;
 @property(nonatomic) _Bool hasThermalPressure;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int thermalPressure;
-@property(nonatomic) double timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

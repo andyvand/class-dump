@@ -9,7 +9,6 @@
 @interface PXFlexMusicPathfinder
 {
     NSArray *_renditions;
-    FMSong *_song;
 }
 
 - (id);

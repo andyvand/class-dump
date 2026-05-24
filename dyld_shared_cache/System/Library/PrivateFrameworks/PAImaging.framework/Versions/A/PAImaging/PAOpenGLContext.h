@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAColorProfile, PAGLFramebuffer, PAOpenGLDevice;
+@class PAOpenGLDevice;
 
 @interface PAOpenGLContext
 {
     PAOpenGLDevice *_device;
-    struct _CGLContextObject *_context;
-    PAGLFramebuffer *_fbo;
-    PAGLFramebuffer *_readFBO;
-    PAGLFramebuffer *_drawFBO;
-    double _targetScaleFactor;
-    IPAColorProfile *_targetColorProfile;
-    unsigned int _threadId;
 }
 
 + (id);
@@ -28,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
@@ -45,22 +38,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void) ;
 - (unsigned int);
 - (id);
 - (void);
 - (id)Rect={CGPoint=dd}{CGSize=dd}}16@48;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _CGLContextObject *CGLContext; // @synthesize CGLContext=_context;
-@property(readonly, nonatomic) struct _CGLPixelFormatObject *CGLPixelFormat;
-@property(readonly, nonatomic) __weak PAOpenGLDevice *device; // @synthesize device=_device;
-@property(readonly, nonatomic) PAGLFramebuffer *drawBuffer; // @synthesize drawBuffer=_drawFBO;
-@property(readonly, nonatomic) PAGLFramebuffer *framebuffer; // @synthesize framebuffer=_fbo;
-@property(readonly, nonatomic) PAGLFramebuffer *readBuffer; // @synthesize readBuffer=_readFBO;
-@property(retain, nonatomic) IPAColorProfile *targetColorProfile;
 @property(nonatomic) double targetScaleFactor;
-@property unsigned int threadID;
 
 @end
 

@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateFormatter, _CDInteraction, _PSCNAutocompleteFeedbackInteractionIterator, _PSCNAutocompleteFeedbackSessionAccumulator;
+@class NSDate, _PSCNAutocompleteFeedbackInteractionIterator;
 
 @interface _PSCNAutocompleteFeedbackTracker
 {
     _PSCNAutocompleteFeedbackInteractionIterator *_interactionIterator;
-    long long _maxSecondsBetweenImpressionAndAction;
-    _Bool _shouldInferEnterAndExit;
-    CDUnknownBlockType _impressionLogger;
-    CDUnknownBlockType _submodelImpressionLogger;
-    CDUnknownBlockType _actionLogger;
-    _Bool _defaultForIsImplicit;
-    NSDateFormatter *_dateFormatter;
-    _CDInteraction *_followingInteractionPrevious;
-    _CDInteraction *_followingInteraction;
-    _PSCNAutocompleteFeedbackSessionAccumulator *_accumulator;
-    _Bool _inActionWindow;
-    NSDate *_stopTime;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id),N,V_directAction;
++ (id)viceType;
++ (id)te;
+- (void)_contactSuggestionOutcome;
+- (void)_contactSuggestionGenerated;
+- (void)_checkerHSRejectBeforeActivationTimeDiffInNs;
+- (void)_changeType;
+- (id)_beepLocation;
+- (void)_aggregationInterval;
+- (void)_aggregatedMetrics;
+- (void)esponseMode;
+- (void)dPlusInferredContactComparison;
 - (id);
 - (void);
 - (id);

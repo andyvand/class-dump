@@ -9,8 +9,6 @@
 @interface MediaPlaybackCore.BackgroundTaskController
 {
     id provider;
-    id reporter;
-    id tasks;
 }
 
 - (void);

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSMutableSet, NSString;
+@class NSString;
 
 @interface CoreDAVItem
 {
     NSString *_name;
-    NSString *_nameSpace;
-    NSMutableSet *_attributes;
-    NSMutableArray *_extraChildItems;
-    NSData *_payload;
-    _Bool _useCDATA;
 }
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (void);
 - (id);
@@ -27,41 +22,34 @@
 - (long long);
 - (id);
 - (id);
+- (id)K;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)R;
+- (id)_updateSelectedTimeSuggestionCheckbox;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)_;
+- (id)CALNTriggeredEventNotificationSnooze15MinutesActionIdentifier;
+- (id);
+- (id);
+- (id)ؿ;
 - (void);
 - (void);
-- (_Bool);
+- (void)8;
+- (void);
+- (_Bool)%@;
+    displayName = %@;
+    internalURL = %@;
+    externalURL = %@;
+    autodiscover URL used = %@;
+};
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *attributes; // @synthesize attributes=_attributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *extraChildItems; // @synthesize extraChildItems=_extraChildItems;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *nameSpace; // @synthesize nameSpace=_nameSpace;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCDATA; // @synthesize useCDATA=_useCDATA;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSInputStream, NSOutputStream, _IDSDeviceConnection;
+@class _IDSDeviceConnection;
 
 @interface IDSDeviceConnection
 {
@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void)
@@ -30,11 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _IDSDeviceConnection *_internal;
-@property(readonly, nonatomic) NSInputStream *inputStream;
-@property(readonly, nonatomic) NSDictionary *metrics;
-@property(readonly, nonatomic) unsigned long long mtu;
-@property(readonly, nonatomic) NSOutputStream *outputStream;
-@property(readonly, nonatomic) int socket;
 
 @end
 

@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNVCardParsedLine
 {
     NSString *_name;
-    id _value;
-    NSArray *_parameters;
-    NSString *_grouping;
-    _Bool _isPrimary;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)NL@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *grouping; // @synthesize grouping=_grouping;
-@property _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(copy) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(retain) id value; // @synthesize value=_value;
 
 @end
 

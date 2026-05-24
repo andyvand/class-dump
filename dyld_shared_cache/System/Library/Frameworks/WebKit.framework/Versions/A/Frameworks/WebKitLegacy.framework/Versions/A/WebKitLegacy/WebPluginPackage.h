@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (Class);
-- (void);
+- (void)@:[%{public}@] Commencing continue authorization /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool)cked: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)setVerticalScrollingModeLocked: /* Error: Ran out of types for this method. */;
 
 @end
 

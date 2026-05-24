@@ -6,7 +6,6 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString;
 @protocol _UIPassthroughGestureDelegate;
 
 __attribute__((visibility("hidden")))
@@ -23,24 +22,16 @@ __attribute__((visibility("hidden")))
 ð!ÜEùQgÐ1Â0@ù
 × ;
 - (id)b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}24i32;
-- (void);
-- (_Bool)gAppearance;
+- (void)registeredForNotifications;
+- (_Bool)floatingAppearance;
 - (void)_videoWidth;
 - (void)_ui_encodeTextAttributes:(id)arg1 forKey:(id)arg2;
-- (_Bool)referredIndexPath;
+- (_Bool)_delegatePreferredIndexPath;
 - (_Bool)ldScaleContentViewToAspectFitPlatter;
-- (_Bool)ocessID;
+- (_Bool)HostProcessID;
 
 // Remaining properties
-@property(nonatomic, getter=_acceptsFailureRequirements, setter=_setAcceptsFailureRequirements:) _Bool acceptsFailureRequirements; // @synthesize acceptsFailureRequirements=_acceptsFailureRequirements;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UIPassthroughGestureDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

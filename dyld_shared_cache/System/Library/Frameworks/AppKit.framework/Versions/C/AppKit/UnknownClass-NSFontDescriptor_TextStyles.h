@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (NSFontDescriptor_TextStyles)
-+ (id);
-+ (id);
++ (id)L.;
++ (id)ted for reporting;
 + (id);
 @end
 

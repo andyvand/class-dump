@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSDateValue, NSString;
+@class NSString;
 
 @interface CalDAVCalendarServerDeletedDetailsItem
 {
     _Bool _hadMoreInstances;
-    NSString *_componentType;
-    NSString *_summary;
-    NSString *_displayName;
-    ICSDateValue *_nextInstance;
 }
 
 - (void);
@@ -21,25 +17,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)%@;
 - (id);
-- (id);
-- (id);
+- (id)charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *componentType; // @synthesize componentType=_componentType;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hadMoreInstances; // @synthesize hadMoreInstances=_hadMoreInstances;
-@property(retain, nonatomic) ICSDateValue *nextInstance; // @synthesize nextInstance=_nextInstance;
-@property(retain, nonatomic) NSString *summary; // @synthesize summary=_summary;
 
 @end
 

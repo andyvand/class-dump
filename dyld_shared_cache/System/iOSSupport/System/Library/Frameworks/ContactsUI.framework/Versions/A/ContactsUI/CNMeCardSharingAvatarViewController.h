@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CNAvatarViewController, UIImageView, UILabel, UITapGestureRecognizer, UIView;
-@protocol CNAvatarImageProvider, CNMeCardSharingAvatarProvider, CNMeCardSharingAvatarViewControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingAvatarViewController
 {
     _Bool _isWaitingForPosterPreviews;
-    _Bool _hasImage;
-    _Bool _posterPreviewsGenerationTimedOut;
-    _Bool _needsReload;
-    id <CNMeCardSharingAvatarViewControllerDelegate> _delegate;
-    UIView *_avatarContainerView;
-    CAShapeLayer *_circularLayer;
-    UIImageView *_imageView;
-    UILabel *_addPhotoLabel;
-    id <CNMeCardSharingAvatarProvider> _avatarProvider;
-    id <CNAvatarImageProvider> _fallbackImageProvider;
-    CNAvatarViewController *_avatarViewController;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    long long _mode;
 }
 
 - (void);
-- (void);
+- (void)T,;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (struct CGSize);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (id);
@@ -63,40 +47,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)objects:(_Bool)arg1 %@;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)onogramWithKnockoutMask;
+- (void)appendQuotedPrintableDataForHeaderBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (void)_copyMonogramWithKnockoutMask;
 - (void)/ContactsUI_iosmac/Framework/CNPropertyAction.m;
 - (void)º$;
 - (_Bool)fÀ$o;
 - (void)')T;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *addPhotoLabel; // @synthesize addPhotoLabel=_addPhotoLabel;
-@property(retain, nonatomic) UIView *avatarContainerView; // @synthesize avatarContainerView=_avatarContainerView;
-@property(retain, nonatomic) id <CNMeCardSharingAvatarProvider> avatarProvider; // @synthesize avatarProvider=_avatarProvider;
-@property(retain, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) CAShapeLayer *circularLayer; // @synthesize circularLayer=_circularLayer;
-@property(nonatomic) __weak id <CNMeCardSharingAvatarViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) id <CNAvatarImageProvider> fallbackImageProvider; // @synthesize fallbackImageProvider=_fallbackImageProvider;
-@property(nonatomic) _Bool hasImage; // @synthesize hasImage=_hasImage;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) _Bool isPosterAnimationPausable;
-@property(readonly, nonatomic) _Bool isPosterAnimationPaused;
 @property(nonatomic) _Bool isWaitingForPosterPreviews; // @synthesize isWaitingForPosterPreviews=_isWaitingForPosterPreviews;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) _Bool needsReload; // @synthesize needsReload=_needsReload;
-@property(nonatomic) _Bool posterPreviewsGenerationTimedOut; // @synthesize posterPreviewsGenerationTimedOut=_posterPreviewsGenerationTimedOut;
-@property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface IPABestFitShortSideWithLongSideLimit : IPAImageSizePolicy
 {
     long long _nominalShortSide;
-    long long _minLongSide;
-    long long _maxLongSide;
 }
 
 - (double);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

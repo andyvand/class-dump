@@ -7,6 +7,7 @@
 @class ABAddressBook;
 
 @protocol ABAssistantSyncHandler
+- (ABAddressBook *);
 
 // Remaining properties
 @property(retain, nonatomic) ABAddressBook *addressBook;

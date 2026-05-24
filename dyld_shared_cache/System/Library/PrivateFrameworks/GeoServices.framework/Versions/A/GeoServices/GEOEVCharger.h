@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOEVChargerAvailability, NSArray;
+@class NSArray;
 
 @interface GEOEVCharger
 {
     NSArray *_plugs;
-    GEOEVChargerAvailability *_aggregatedAvailabilityInfo;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)vableWithResult: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOEVChargerAvailability *aggregatedAvailabilityInfo; // @synthesize aggregatedAvailabilityInfo=_aggregatedAvailabilityInfo;
 @property(readonly, nonatomic) NSArray *plugs; // @synthesize plugs=_plugs;
 
 @end

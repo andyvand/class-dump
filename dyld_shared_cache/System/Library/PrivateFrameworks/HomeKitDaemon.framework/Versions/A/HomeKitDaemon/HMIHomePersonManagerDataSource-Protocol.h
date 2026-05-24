@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol HMIHomePersonManagerDataSource
+- (void)rEnabled:(NSSet *)arg1 %@, hasValidAccount:(void (^)(NSError *))arg2 %@, mapsIsInstalled:%@, hasContactsAuthorisation:%@, processEntitledToShare:%@, processEntitledToReceive:%@ /* Error: Ran out of types for this method. */;
+- (void)Available;
+- (void)ainer;
+- (void);
+- (void);
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ABPackedImage
 {
     NSString *_path;
-    NSMutableDictionary *_rectMap;
-    NSMutableDictionary *_cached;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (id);
 - (void)!XCùñ©Ð1Â0@ù
 × ;
-- (id)tring:(id)arg1;
+- (id)appendString:(id)arg1;
 
 @end
 

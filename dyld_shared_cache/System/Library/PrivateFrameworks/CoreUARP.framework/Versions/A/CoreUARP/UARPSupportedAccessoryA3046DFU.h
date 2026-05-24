@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (unsigned short);
-- (id);
+- (id)AMSPromiseCompletionBlocks;
 - (void);
 
 @end

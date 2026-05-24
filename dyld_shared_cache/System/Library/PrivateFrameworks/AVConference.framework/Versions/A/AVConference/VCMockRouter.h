@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ech;
++ (id)VCConnection_SetRemoteCellTech;
 - (_Bool);
 
 @end

@@ -13,21 +13,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)faults;
++ (_Bool)hostModuleWasInitializedFromDefaults;
 - (id);
 - (Class);
 - (Class);
 - (id);
 - (Class);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) Class bookmarkImportEngineClass;
 @property(readonly, nonatomic) NSBundle *browserBundle; // @synthesize browserBundle=_browserBundle;
-@property(readonly, nonatomic) Class credentialImporterClass;
-@property(readonly, nonatomic) Class historyImporterClass;
 
 @end
 

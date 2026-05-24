@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
-@protocol CATInitializingIDSServiceConnectionMessageContent;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface CATInitializingServiceConnectionIDSMessage
 {
     NSUUID *_invitationIdentifier;
-    id <CATInitializingIDSServiceConnectionMessageContent> _content;
 }
 
-+ (id);
++ (id)B;
 - (id);
-- (id);
+- (id)includesToManyRelationship:entity: /* Error: Ran out of types for this method. */;
 - (long long);
-- (id);
+- (id)ockoutStateForUser:-> %ld
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)d;
+- (id)_invalidated;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CATInitializingIDSServiceConnectionMessageContent> content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, nonatomic) NSUUID *invitationIdentifier; // @synthesize invitationIdentifier=_invitationIdentifier;
-@property(readonly, nonatomic) long long messageType;
 
 @end
 

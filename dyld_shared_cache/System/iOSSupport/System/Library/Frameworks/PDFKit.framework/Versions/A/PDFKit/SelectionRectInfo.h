@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SelectionRectInfo
 {
     PDFSelection *selection;
-    struct CGRect rect;
-    struct CGAffineTransform transform;
-    long long type;
 }
 
 - (void);

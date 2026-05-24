@@ -7,11 +7,6 @@
 @interface TeaCharts.ColumnChartCoordinateProvider
 {
     id valueCoordinateCalculator;
-    id coordinateSpace;
-    id size;
-    id options;
-    id seriesDictionary;
-    id lock;
 }
 
 @end

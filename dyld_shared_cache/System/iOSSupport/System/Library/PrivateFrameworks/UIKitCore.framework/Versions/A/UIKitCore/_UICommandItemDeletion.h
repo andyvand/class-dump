@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)So13NSXPCListenerC;
+- (id)CLAP_audioCodingKeys;
 
 // Remaining properties
 @property(readonly, nonatomic) _UICommandIdentifier *anchor; // @dynamic anchor;

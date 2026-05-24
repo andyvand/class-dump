@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBConnectedCall;
+@class NSString;
 
 @protocol _INPBStartCallIntentResponse
+- (void);
+- (unsigned long long);
+- (NSString *);
 
 // Remaining properties
 @property(nonatomic) int confirmationReason;
-@property(nonatomic) _Bool hasConfirmationReason;
-@property(nonatomic) _Bool hasShouldDoEmergencyCountdown;
-@property(readonly, nonatomic) _Bool hasStartedCall;
-@property(copy, nonatomic) NSArray *restrictedContacts;
-@property(readonly, nonatomic) unsigned long long restrictedContactsCount;
-@property(nonatomic) _Bool shouldDoEmergencyCountdown;
-@property(retain, nonatomic) _INPBConnectedCall *startedCall;
 @end
 

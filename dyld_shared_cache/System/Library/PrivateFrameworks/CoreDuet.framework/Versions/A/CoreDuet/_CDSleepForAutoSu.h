@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CDAutoSuConfig;
 @protocol _DKKnowledgeQuerying;
 
 @interface _CDSleepForAutoSu
 {
     _Bool _enableCaching;
-    id <_DKKnowledgeQuerying> _knowledgeStore;
-    _CDAutoSuConfig *_autoSuConfig;
 }
 
 + (id);
@@ -22,19 +19,19 @@
 - (void);
 - (id);
 - (id);
+- (id)no;
+- (id);
+- (id)ak;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)[8;
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (void);
@@ -43,8 +40,6 @@
 - (id)lightReceiver.framework/SpotlightReceiver;
 
 // Remaining properties
-@property(retain) _CDAutoSuConfig *autoSuConfig; // @synthesize autoSuConfig=_autoSuConfig;
-@property _Bool enableCaching; // @synthesize enableCaching=_enableCaching;
 @property(retain, nonatomic) id <_DKKnowledgeQuerying> knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
 
 @end

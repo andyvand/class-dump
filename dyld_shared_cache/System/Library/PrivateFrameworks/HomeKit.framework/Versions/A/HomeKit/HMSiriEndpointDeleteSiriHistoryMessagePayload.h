@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMSiriEndpointDeleteSiriHistoryMessagePayload
 {
@@ -19,32 +19,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)supplier;
+- (id)arable;
 - (id);
 - (id);
-- (id);
-- (void)rentMediaGroup;
+- (void)HMCurrentMediaGroup;
 - (id)HMHomeManager checkName:inHome:withValidationOptions:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

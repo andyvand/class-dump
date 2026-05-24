@@ -13,9 +13,9 @@
 
 + (_Bool):%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)v24@0:8@"<UIInteractionEffect>"16 /* Error: Ran out of types for this method. */;
-- (void)ContentTitle:(CDUnknownBlockType)arg1;
-- (_Bool)imationCoordinator:(id)arg1;
-- (long long)nsitionToHighlight;
+- (void)setLargeContentTitle:(CDUnknownBlockType)arg1;
+- (_Bool)didUpdateFocusInContext:(id)arg1 withAnimationCoordinator: /* Error: Ran out of types for this method. */;
+- (long long)_handleDidTransitionToHighlight;
 - (id)t;
 - (_Bool)ason:(id)arg1 %{public}@.;
 - (id)²ç;

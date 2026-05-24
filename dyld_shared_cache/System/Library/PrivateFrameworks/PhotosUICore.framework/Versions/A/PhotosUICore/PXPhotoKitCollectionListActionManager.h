@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, PHCollectionList;
+@class NSDictionary, PHCollectionList;
 
 @interface PXPhotoKitCollectionListActionManager
 {
     PHCollectionList *_collectionList;
-    NSDictionary *_performerClassByType;
-    NSDictionary *_collectionListActionTypeByGenericType;
-    NSArray *_primaryActionTypes;
-    NSArray *_secondaryActionTypes;
-    NSArray *_internalActionTypes;
 }
 
 - (id);
@@ -26,21 +21,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
 - (long long);
-- (id)led:(id)arg1;
+- (id)setAuthenticationAttemptDidFailOrWasCancelled:(id)arg1;
 - (id)to show for ambiguity:(id)arg1 %{sensitive}s;
 - (void)øgJÿ<hJÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;
-@property(readonly, nonatomic) NSDictionary *collectionListActionTypeByGenericType; // @synthesize collectionListActionTypeByGenericType=_collectionListActionTypeByGenericType;
-@property(readonly, nonatomic) NSArray *internalActionTypes; // @synthesize internalActionTypes=_internalActionTypes;
 @property(readonly, nonatomic) NSDictionary *performerClassByType; // @synthesize performerClassByType=_performerClassByType;
-@property(readonly, nonatomic) NSArray *primaryActionTypes; // @synthesize primaryActionTypes=_primaryActionTypes;
-@property(readonly, nonatomic) NSArray *secondaryActionTypes; // @synthesize secondaryActionTypes=_secondaryActionTypes;
 
 @end
 

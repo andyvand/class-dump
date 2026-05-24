@@ -5,5 +5,8 @@
 //
 
 @protocol SFContinuityScannerClient
+- (void);
+- (void)@;
+- (void)@;
 @end
 

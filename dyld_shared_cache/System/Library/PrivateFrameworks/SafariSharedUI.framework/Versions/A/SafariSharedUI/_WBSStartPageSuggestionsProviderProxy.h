@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WBSStartPageSuggestionsProviderBroadcaster;
+@class WBSStartPageSuggestionsProviderBroadcaster;
 @protocol WBSStartPageSuggestionsProviderDelegate;
 
 @interface _WBSStartPageSuggestionsProviderProxy
 {
     id <WBSStartPageSuggestionsProviderDelegate> _suggestionsProviderDelegate;
-    WBSStartPageSuggestionsProviderBroadcaster *_owner;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (void)Strings;
+- (id);
+- (void)_cancelledRequestsForRetainedURLStrings;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak WBSStartPageSuggestionsProviderBroadcaster *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) NSString *providerSectionIdentifier;
-@property(readonly, copy, nonatomic) NSArray *suggestions;
-@property(nonatomic) __weak id <WBSStartPageSuggestionsProviderDelegate> suggestionsProviderDelegate; // @synthesize suggestionsProviderDelegate=_suggestionsProviderDelegate;
-@property(readonly) Class superclass;
 
 @end
 

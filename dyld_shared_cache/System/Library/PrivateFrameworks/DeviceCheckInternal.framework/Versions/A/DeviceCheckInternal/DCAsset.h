@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface DCAsset
 {
     unsigned long long _version;
-    double _publicKeyRefreshInterval;
-    NSData *_publicKey;
 }
 
-+ (id);
-- (void);
-- (double);
++ (id)initWithAccount:(id)arg1 forSignaturePurpose: /* Error: Ran out of types for this method. */;
+- (void)initWithBag:(double)arg1 caller:keyProfile: /* Error: Ran out of types for this method. */;
+- (double)initWithAuthorization:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(nonatomic) double publicKeyRefreshInterval; // @synthesize publicKeyRefreshInterval=_publicKeyRefreshInterval;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

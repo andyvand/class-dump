@@ -11,7 +11,7 @@
     IDSIncomingBatchMessageContext *_batchMessageContext;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);

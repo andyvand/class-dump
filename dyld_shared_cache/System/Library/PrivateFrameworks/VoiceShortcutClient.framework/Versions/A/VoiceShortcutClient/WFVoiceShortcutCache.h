@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface WFVoiceShortcutCache
 {
     struct os_unfair_lock_s _lock;
-    _Bool _enabled;
-    NSArray *_voiceShortcuts;
-    NSMutableArray *_waitingFetchRequests;
-    unsigned long long _state;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)@"NSDictionary";
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 @property(copy, nonatomic) NSArray *voiceShortcuts; // @synthesize voiceShortcuts=_voiceShortcuts;
-@property(readonly, copy, nonatomic) NSMutableArray *waitingFetchRequests; // @synthesize waitingFetchRequests=_waitingFetchRequests;
 
 @end
 

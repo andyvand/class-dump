@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKSignature;
-
 @interface AKSignatureOutputView_Mac
 {
     _Bool _showsOutput;
-    AKSignature *_signature;
 }
 
 - (void);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property _Bool showsOutput; // @synthesize showsOutput=_showsOutput;
-@property(copy, nonatomic) AKSignature *signature; // @synthesize signature=_signature;
 
 @end
 

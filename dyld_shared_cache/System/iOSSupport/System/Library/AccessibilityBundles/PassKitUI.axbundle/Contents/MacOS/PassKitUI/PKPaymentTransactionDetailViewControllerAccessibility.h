@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCCornerLookupButtonAccessibility;
 + (void);
 - (id);
 - (id);

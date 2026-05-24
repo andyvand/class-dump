@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void);
+- (void)transformFromCGAffineTransform: /* Error: Ran out of types for this method. */;
 - (id)to rotate PortraitEffectsMatte %@ for backwards compatibility for captureID:%lld /* Error: Ran out of types for this method. */;
 
 // Remaining properties

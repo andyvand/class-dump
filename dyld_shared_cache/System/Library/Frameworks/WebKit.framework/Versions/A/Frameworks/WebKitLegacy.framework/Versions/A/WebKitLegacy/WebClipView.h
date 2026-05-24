@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebClipView
 {
     _Bool _haveAdditionalClip;
-    _Bool _isScrolling;
-    _Bool _currentScrollIsBlit;
-    struct CGRect _additionalClip;
 }
 
 - (void);

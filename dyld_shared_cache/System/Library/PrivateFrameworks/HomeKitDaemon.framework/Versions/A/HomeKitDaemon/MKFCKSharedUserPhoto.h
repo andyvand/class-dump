@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKSharedUserData.h>
 
-@class MKFCKSharedUserDataRoot, NSData, NSValue;
+@class NSValue;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKSharedUserPhoto : MKFCKSharedUserData
@@ -17,8 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSValue *cropRect; // @dynamic cropRect;
-@property(retain, nonatomic) NSData *photoData; // @dynamic photoData;
-@property(retain, nonatomic) MKFCKSharedUserDataRoot *root; // @dynamic root;
 
 @end
 

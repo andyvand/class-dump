@@ -7,19 +7,10 @@
 @class FCAssetHandle, FCColor;
 
 @protocol FCSportsTheming
+- (FCColor *)LqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/UT_Never/MapsSuggestionsRealMapsSyncConnector.m;
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) FCColor *sportsEventNavigationForegroundColor;
-@property(readonly, nonatomic) FCAssetHandle *sportsLogoAltImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *sportsLogoAltImageCompactAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *sportsLogoAltImageLargeAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *sportsLogoImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *sportsLogoImageCompactAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *sportsLogoImageLargeAssetHandle;
-@property(readonly, nonatomic) long long sportsLogoMastheadHorizontalPaddingOffset;
-@property(readonly, nonatomic) long long sportsLogoMastheadLeadingOffset;
-@property(readonly, nonatomic) unsigned long long sportsLogoMastheadVisibility;
-@property(readonly, nonatomic) FCColor *sportsPrimaryColor;
-@property(readonly, nonatomic) FCColor *sportsSecondaryColor;
 @end
 

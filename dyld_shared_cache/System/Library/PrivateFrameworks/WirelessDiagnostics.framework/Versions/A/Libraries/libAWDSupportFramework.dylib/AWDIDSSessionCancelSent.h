@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSSessionCancelSent
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    unsigned int _numberOfRecipients;
-    unsigned int _remoteSessionEndReason;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int numberOfRecipients:1;
-        unsigned int remoteSessionEndReason:1;
-    } _has;
 }
 
 - (void);
@@ -24,36 +14,29 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)R	;
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)!;
 - (void);
 - (id);
-- (void);
+- (void)?};
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)W;
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
-- (id);
+- (id)?=;
 - (_Bool);
 - (id)ginRssi"b1"profileType"b1"reason"b1"roamScanDuration"b1"securityType"b1"status"b1"targetAKMs"b1"targetChannel"b1"targetEnhancedSecurityType"b1"targetPhyMode"b1"targetRssi"b1"lateRoam"b1"voipActive"b1};
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasNumberOfRecipients;
-@property(nonatomic) _Bool hasRemoteSessionEndReason;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int numberOfRecipients; // @synthesize numberOfRecipients=_numberOfRecipients;
-@property(nonatomic) unsigned int remoteSessionEndReason; // @synthesize remoteSessionEndReason=_remoteSessionEndReason;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

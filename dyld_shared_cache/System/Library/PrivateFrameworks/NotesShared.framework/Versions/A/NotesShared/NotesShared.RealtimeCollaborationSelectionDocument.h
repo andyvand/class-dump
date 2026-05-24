@@ -9,7 +9,6 @@
 @interface NotesShared.RealtimeCollaborationSelectionDocument : ICCRDocument
 {
     id localParticipantID;
-    id selections;
 }
 
 - (unsigned long long);

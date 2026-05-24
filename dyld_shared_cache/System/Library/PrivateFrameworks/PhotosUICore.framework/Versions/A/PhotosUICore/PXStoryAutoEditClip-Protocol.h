@@ -7,17 +7,10 @@
 @class NSArray, NSDictionary;
 
 @protocol PXStoryAutoEditClip
+- (CDStruct_2f782ce9);
 - (NSDictionary *)_actionConfirmationAlertSubtitle;
-- (CDStruct_618113c1);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_273850af audioInfo;
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
 @property(readonly, nonatomic) NSArray *displayAssets;
-@property(readonly, nonatomic) CDStruct_c8943d03 durationInfo;
-@property(readonly, nonatomic) CDStruct_3ac0dd7e moduleInfo;
-@property(readonly, nonatomic) CDStruct_b8e7e30c motionInfo;
-@property(readonly, nonatomic) long long playbackStyle;
-@property(readonly, nonatomic) CDStruct_618113c1 transitionInfo;
 @end
 

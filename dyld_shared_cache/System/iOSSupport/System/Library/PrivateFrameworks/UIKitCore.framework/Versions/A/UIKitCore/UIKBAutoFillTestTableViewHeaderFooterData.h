@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIKBAutoFillTestTableViewHeaderFooterData
 {
     NSString *_title;
-    UIView *_headerFooterView;
-    double _height;
 }
 
-- (id);
-- (id);
+- (id)%@;
+- (id)IMDMessageHistorySyncNotifyReplayControllerWantsSync;
 - (id);
 - (double)1Â0@ù
 × ;
-- (void)Duration;
+- (void)appliesOutputSettingsAnimationDuration;
 - (id)|{[;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *headerFooterView; // @synthesize headerFooterView=_headerFooterView;
-@property(readonly, nonatomic) double height; // @synthesize height=_height;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

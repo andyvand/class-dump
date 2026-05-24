@@ -4,55 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAttributeEditorAnimationCoordinator, AVTAvatarAttributeEditorDataSource, AVTAvatarAttributeEditorModelManager, AVTAvatarEditorColorsState, AVTAvatarRecord, AVTBodyCarouselController, AVTCollapsibleHeaderController, AVTGroupDial, AVTGroupListCollectionView, AVTImageTransitioningContainerView, AVTMemoji, AVTShadowView, AVTTransition, AVTUIEnvironment, AVTViewCarouselLayout, AVTViewSession, AVTViewSessionProvider, CALayer, NSDate, NSString, UICollectionView, UILabel, UITapGestureRecognizer, UIView, _AVTAvatarRecordImageProvider;
-@protocol AVTAvatarAttributeEditorLayout, AVTAvatarAttributeEditorViewControllerDelegate, AVTTaskScheduler;
+@protocol AVTAvatarAttributeEditorLayout;
 
 @interface AVTAvatarAttributeEditorViewController
 {
     _Bool _disableAvatarSnapshotting;
-    _Bool _shouldHideUserInfoView;
-    _Bool _isCreating;
-    _Bool _hasMadeAnySelection;
-    _Bool _isAnimatingHighlight;
-    _Bool _allowFacetracking;
-    _Bool _collectionViewIsPerformingBatchUpdates;
-    id <AVTAvatarAttributeEditorViewControllerDelegate> _delegate;
-    unsigned long long _editorPresentationContext;
-    id <AVTAvatarAttributeEditorLayout> _currentLayout;
-    AVTAvatarAttributeEditorModelManager *_modelManager;
-    id <AVTTaskScheduler> _imageProviderScheduler;
-    UIView *_attributesContainerView;
-    UIView *_sideGroupContainerView;
-    UIView *_groupDialContainerView;
-    AVTGroupDial *_groupDial;
-    AVTGroupListCollectionView *_groupListView;
-    AVTBodyCarouselController *_bodyEditorHeaderViewController;
-    UIView *_attributesCollectionViewMaskingView;
-    UIView *_headerMaskingView;
-    UIView *_headerContainerView;
-    AVTShadowView *_shadowView;
-    UICollectionView *_attributesCollectionView;
-    AVTAvatarAttributeEditorDataSource *_dataSource;
-    AVTAttributeEditorAnimationCoordinator *_animationCoordinator;
-    UILabel *_alphaAssetsLabel;
-    UIView *_verticleRuleContainer;
-    CALayer *_verticleRule;
-    AVTViewSessionProvider *_avtViewSessionProvider;
-    AVTViewSession *_avtViewSession;
-    AVTCollapsibleHeaderController *_collapsibleHeaderController;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    AVTUIEnvironment *_environment;
-    AVTAvatarEditorColorsState *_colorsState;
-    CDUnknownBlockType _postSessionDidBecomeActiveHandler;
-    AVTImageTransitioningContainerView *_transitioningContainer;
-    AVTTransition *_currentTransition;
-    NSDate *_lastPosedAvatarImageRenderingTime;
-    CDUnknownBlockType _pendingUnhighlightBlock;
-    _AVTAvatarRecordImageProvider *_headerPreviewImageRenderer;
-    id <AVTTaskScheduler> _headerPreviewScheduler;
-    CDUnknownBlockType _pendingCollectionViewReloadDataBlock;
-    unsigned long long _previewModeType;
-    AVTViewCarouselLayout *_avtViewLayout;
 }
 
 + (id);
@@ -63,12 +19,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,7 +65,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -157,7 +113,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -194,101 +150,49 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ncept for quantity value.;
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void)getDeviceHardwareState:(id)arg1 withClient: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (void);
+- (void)deleteSearchableItemsWithPersonaIds:(id)arg1 completionHandler:(id)arg2;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
+- (void)="_super"{__MSSPCContext="owner"^v"personID"^{__CFString}"authToken"^{__CFString}"deviceInfo"^{__CFDictionary}"clientHeadersRef"^{__CFDictionary}"connectionTimeout"d"__didReceiveDataCallback"^?"__didFinishCallback"^?"__didFailAuthenticationCallback"^?"__didReceiveServerSideConfigVersionCallback"^?"__didReceiveRetryAfterCallback"^?"__client"^{CFURLConnectionClient_V1}"__connection"^{_CFURLConnection}"__responseData"^{__CFData}"__response"^{__CFHTTPMessage}"__error"^{__CFError}}"finishedCallback"^?"authFailedCallback"^?"didReceiveServerSideConfigurationVersionCallback"^?"didReceiveRetryAfterCallback"^?};
 - (struct CGSize);
-- (long long);
+- (long long)rCount = ? where GUID = ?;;
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setFractionCompleted:(id)arg1;
+- (void)_attribute;
+- (struct CGSize)uture",&,V_emailAddressCacheFuture;
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)e;
-- (id)pdateWithRecord:(id)arg1;
-- (id)Item;
+- (void)ons/A/CFNetwork;
+- (void)minimumContentSize;
+- (id)carouselController:(id)arg1 didUpdateWithRecord:(id)arg2;
+- (id)AVTAvatarAttributeEditorSectionItem;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFacetracking; // @synthesize allowFacetracking=_allowFacetracking;
-@property(retain, nonatomic) UILabel *alphaAssetsLabel; // @synthesize alphaAssetsLabel=_alphaAssetsLabel;
-@property(retain, nonatomic) AVTAttributeEditorAnimationCoordinator *animationCoordinator; // @synthesize animationCoordinator=_animationCoordinator;
-@property(retain, nonatomic) UICollectionView *attributesCollectionView; // @synthesize attributesCollectionView=_attributesCollectionView;
-@property(retain, nonatomic) UIView *attributesCollectionViewMaskingView; // @synthesize attributesCollectionViewMaskingView=_attributesCollectionViewMaskingView;
-@property(retain, nonatomic) UIView *attributesContainerView; // @synthesize attributesContainerView=_attributesContainerView;
-@property(readonly, nonatomic) AVTMemoji *avatar;
-@property(readonly, nonatomic) AVTAvatarRecord *avatarRecord;
-@property(retain, nonatomic) AVTViewCarouselLayout *avtViewLayout; // @synthesize avtViewLayout=_avtViewLayout;
-@property(retain, nonatomic) AVTViewSession *avtViewSession; // @synthesize avtViewSession=_avtViewSession;
-@property(readonly, nonatomic) AVTViewSessionProvider *avtViewSessionProvider; // @synthesize avtViewSessionProvider=_avtViewSessionProvider;
-@property(retain, nonatomic) AVTBodyCarouselController *bodyEditorHeaderViewController; // @synthesize bodyEditorHeaderViewController=_bodyEditorHeaderViewController;
-@property(retain, nonatomic) AVTCollapsibleHeaderController *collapsibleHeaderController; // @synthesize collapsibleHeaderController=_collapsibleHeaderController;
-@property(nonatomic) _Bool collectionViewIsPerformingBatchUpdates; // @synthesize collectionViewIsPerformingBatchUpdates=_collectionViewIsPerformingBatchUpdates;
-@property(retain, nonatomic) AVTAvatarEditorColorsState *colorsState; // @synthesize colorsState=_colorsState;
 @property(retain, nonatomic) id <AVTAvatarAttributeEditorLayout> currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(retain, nonatomic) AVTTransition *currentTransition; // @synthesize currentTransition=_currentTransition;
-@property(retain, nonatomic) AVTAvatarAttributeEditorDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarAttributeEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAvatarSnapshotting; // @synthesize disableAvatarSnapshotting=_disableAvatarSnapshotting;
-@property(nonatomic) unsigned long long editorPresentationContext; // @synthesize editorPresentationContext=_editorPresentationContext;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) AVTGroupDial *groupDial; // @synthesize groupDial=_groupDial;
-@property(retain, nonatomic) UIView *groupDialContainerView; // @synthesize groupDialContainerView=_groupDialContainerView;
-@property(retain, nonatomic) AVTGroupListCollectionView *groupListView; // @synthesize groupListView=_groupListView;
-@property(nonatomic) _Bool hasMadeAnySelection; // @synthesize hasMadeAnySelection=_hasMadeAnySelection;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *headerContainerView; // @synthesize headerContainerView=_headerContainerView;
-@property(retain, nonatomic) UIView *headerMaskingView; // @synthesize headerMaskingView=_headerMaskingView;
-@property(retain, nonatomic) _AVTAvatarRecordImageProvider *headerPreviewImageRenderer; // @synthesize headerPreviewImageRenderer=_headerPreviewImageRenderer;
-@property(readonly, nonatomic) id <AVTTaskScheduler> headerPreviewScheduler; // @synthesize headerPreviewScheduler=_headerPreviewScheduler;
-@property(readonly, nonatomic) id <AVTTaskScheduler> imageProviderScheduler; // @synthesize imageProviderScheduler=_imageProviderScheduler;
-@property(nonatomic) _Bool isAnimatingHighlight; // @synthesize isAnimatingHighlight=_isAnimatingHighlight;
-@property(readonly, nonatomic) _Bool isCreating; // @synthesize isCreating=_isCreating;
-@property(retain, nonatomic) NSDate *lastPosedAvatarImageRenderingTime; // @synthesize lastPosedAvatarImageRenderingTime=_lastPosedAvatarImageRenderingTime;
-@property(readonly, nonatomic) AVTAvatarAttributeEditorModelManager *modelManager; // @synthesize modelManager=_modelManager;
-@property(copy, nonatomic) CDUnknownBlockType pendingCollectionViewReloadDataBlock; // @synthesize pendingCollectionViewReloadDataBlock=_pendingCollectionViewReloadDataBlock;
-@property(copy, nonatomic) CDUnknownBlockType pendingUnhighlightBlock; // @synthesize pendingUnhighlightBlock=_pendingUnhighlightBlock;
-@property(copy, nonatomic) CDUnknownBlockType postSessionDidBecomeActiveHandler; // @synthesize postSessionDidBecomeActiveHandler=_postSessionDidBecomeActiveHandler;
-@property(nonatomic) unsigned long long previewModeType; // @synthesize previewModeType=_previewModeType;
-@property(retain, nonatomic) AVTShadowView *shadowView; // @synthesize shadowView=_shadowView;
-@property(nonatomic) _Bool shouldHideUserInfoView; // @synthesize shouldHideUserInfoView=_shouldHideUserInfoView;
-@property(retain, nonatomic) UIView *sideGroupContainerView; // @synthesize sideGroupContainerView=_sideGroupContainerView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
-@property(retain, nonatomic) AVTImageTransitioningContainerView *transitioningContainer; // @synthesize transitioningContainer=_transitioningContainer;
-@property(retain, nonatomic) CALayer *verticleRule; // @synthesize verticleRule=_verticleRule;
-@property(retain, nonatomic) UIView *verticleRuleContainer; // @synthesize verticleRuleContainer=_verticleRuleContainer;
 
 @end
 

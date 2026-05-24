@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SecExperimentConfig
 {
     unsigned int _fleetSampleRate;
-    unsigned int _deviceSampleRate;
-    NSString *_identifier;
-    NSDictionary *_configurationData;
-    NSDictionary *_config;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (unsigned int);
+- (void)%;
+- (_Bool)0;
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (id);
@@ -33,12 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)¨;
 
 // Remaining properties
-@property(retain) NSDictionary *config; // @synthesize config=_config;
-@property(retain) NSDictionary *configurationData; // @synthesize configurationData=_configurationData;
-@property unsigned int deviceSampleRate; // @synthesize deviceSampleRate=_deviceSampleRate;
-@property unsigned int fleetSampleRate; // @synthesize fleetSampleRate=_fleetSampleRate;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isSampled;
 
 @end
 

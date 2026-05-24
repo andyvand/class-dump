@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IOAccelMemorySurfaceInfo
 {
     unsigned int surfaceID;
-    unsigned int width;
-    unsigned int height;
-    NSString *pixelFormat;
-    NSString *surfaceBuffer;
-    id _expansionData;
 }
 
 - (id);
@@ -21,7 +14,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (void);
 - (void);
@@ -29,11 +22,7 @@
 - (id);
 
 // Remaining properties
-@property unsigned int height; // @synthesize height;
-@property(retain) NSString *pixelFormat; // @synthesize pixelFormat;
-@property(retain) NSString *surfaceBuffer; // @synthesize surfaceBuffer;
 @property unsigned int surfaceID; // @synthesize surfaceID;
-@property unsigned int width; // @synthesize width;
 
 @end
 

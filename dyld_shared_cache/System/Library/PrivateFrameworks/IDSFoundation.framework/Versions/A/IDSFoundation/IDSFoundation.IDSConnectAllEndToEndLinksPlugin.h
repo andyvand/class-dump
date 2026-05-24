@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSConnectAllEndToEndLinksPlugin
 {
     id name;
-    id state;
 }
 
 @end

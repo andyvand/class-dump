@@ -9,19 +9,17 @@
 @interface IMSPIOutgoingAttachmentObject
 {
     _Bool _isSensitive;
-    NSString *_fileURL;
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void)cyNumbers;
+- (void)emergencyNumbers;
 - (void);
 - (id).;
 
 // Remaining properties
 @property(retain) NSString *fileURL; // @synthesize fileURL=_fileURL;
-@property _Bool isSensitive; // @synthesize isSensitive=_isSensitive;
 
 @end
 

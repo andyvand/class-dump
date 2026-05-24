@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface SPPeripheral
 {
     unsigned char _partIdentifier;
-    _Bool _managedByFindMy;
-    NSUUID *_userIdentifier;
-    NSUUID *_beaconIdentifier;
-    NSUUID *_groupIdentifier;
-    NSString *_name;
-    NSString *_serialNumber;
-    NSData *_lastConnectedLEMAC;
-    NSArray *_allowedSessions;
-    NSDictionary *_longTermKeyMap;
-    NSDictionary *_dictionaryRepresentation;
-    unsigned long long _primaryIndex;
-    NSDictionary *_ltkIndexMap;
 }
 
 + (_Bool);
@@ -52,7 +40,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)rties:(struct _NSZone *)arg1 buddyPictures:) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -62,20 +50,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allowedSessions; // @synthesize allowedSessions=_allowedSessions;
-@property(copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation; // @synthesize dictionaryRepresentation=_dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSUUID *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *identifier;
-@property(readonly, copy, nonatomic) NSArray *keyAddressPairs;
-@property(copy, nonatomic) NSData *lastConnectedLEMAC; // @synthesize lastConnectedLEMAC=_lastConnectedLEMAC;
-@property(copy, nonatomic) NSDictionary *longTermKeyMap; // @synthesize longTermKeyMap=_longTermKeyMap;
-@property(copy, nonatomic) NSDictionary *ltkIndexMap; // @synthesize ltkIndexMap=_ltkIndexMap;
-@property(nonatomic) _Bool managedByFindMy; // @synthesize managedByFindMy=_managedByFindMy;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned char partIdentifier; // @synthesize partIdentifier=_partIdentifier;
-@property(nonatomic) unsigned long long primaryIndex; // @synthesize primaryIndex=_primaryIndex;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 @property(copy, nonatomic) NSUUID *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end

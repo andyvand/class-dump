@@ -10,22 +10,20 @@
 @interface MFCalendarCollectionViewCell
 {
     id <MFCalendarCollectionViewCellDelegate> _delegate;
-    UIDatePicker *_datePicker;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)1b1b1b4b1b1b1{BSDTimeStructCopy=iiiiiiiiiiI}{BSDTimeStructCopy=iiiiiiiiiiI}{BSDTimeStructCopy=iiiiiiiiiiI}IIISSS}16^{PWMoreAccessFeatures=II[64c]IIb1b1b1b1b1b1b1b1b3b1b1b1b1b1}24;
+- (id)_privateResourceHandler;
+- (void){;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(nonatomic) __weak id <MFCalendarCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

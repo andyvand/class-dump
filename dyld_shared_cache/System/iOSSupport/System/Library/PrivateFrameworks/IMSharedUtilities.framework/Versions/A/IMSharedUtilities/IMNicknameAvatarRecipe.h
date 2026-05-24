@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)9;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)opertiesData;
+- (void)_propertiesData;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *recipeData; // @synthesize recipeData=_recipeData;

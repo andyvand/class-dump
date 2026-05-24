@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)FCVASReaderSession _callbackDidBecomeActive];
 - (void);
-- (id);
+- (id)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
 
 @end
 

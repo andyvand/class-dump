@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriRequest, NSString, NSXPCListenerEndpoint;
+@class AFSiriRequest;
 
 @interface AFSiriTask
 {
     AFSiriRequest *_request;
-    NSXPCListenerEndpoint *_remoteResponseListenerEndpoint;
-    NSXPCListenerEndpoint *_usageResultListenerEndpoint;
 }
 
 + (_Bool);
@@ -20,26 +18,21 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)	=;
+- (id);
+- (void)n:(id)arg1 %@ 
+;
+- (void)@;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)owedCharacterSet;
+- (void)URLPathAllowedCharacterSet;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

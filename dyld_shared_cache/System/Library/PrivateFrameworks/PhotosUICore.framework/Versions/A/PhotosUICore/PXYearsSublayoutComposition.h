@@ -9,19 +9,17 @@
 @interface PXYearsSublayoutComposition
 {
     PXYearsLayoutGenerator *_layoutGenerator;
-    PXYearsLayoutMetrics *_metrics;
 }
 
-- (long long);
+- (long long)׸;
 - (id);
 - (struct NSEdgeInsets);
 - (id);
-- (void)AnimationVariableOpacityDurationMin;
+- (void)_dropAnimationVariableOpacityDurationMin;
 - (void)¨ÁÉ;
 
 // Remaining properties
 @property(copy, nonatomic) PXYearsLayoutMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) long long presentedNumberOfColumns;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsSubscription.FlexiblePaywallFailsafeViewProvider
 {
     id view;
-    id primaryViewProvider;
-    id fallbackViewProvider;
-    id activeViewProvider;
 }
 
 @end

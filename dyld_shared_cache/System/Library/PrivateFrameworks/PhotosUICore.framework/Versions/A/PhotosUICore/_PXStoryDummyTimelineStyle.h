@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PXStoryDummyStyle, PXStoryMultipartPanoramaParameters;
-@protocol PXStoryTimelineSpec;
+@class PXStoryDummyStyle;
 
 @interface _PXStoryDummyTimelineStyle
 {
     PXStoryDummyStyle *_style;
-    id <PXStoryTimelineSpec> _spec;
-    NSArray *_allowedClipCompositions;
 }
 
 - (CDStruct_cac3ced6);
@@ -22,24 +19,21 @@
 - (long long);
 - (void);
 - (void);
-- (CDStruct_bb38be21);
+- (CDStruct_e96db414);
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (CDStruct_4cef5b45);
+- (CDStruct_b9de0efa);
 - (double);
 - (id);
-- (CDStruct_273850af);
+- (CDStruct_2f782ce9);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void)433333Ó?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsIncompleteTimelines;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 defaultDisplayAssetPresentationDuration;
-@property(readonly, nonatomic) PXStoryMultipartPanoramaParameters *defaultHorizontalMultipartPanoramaParameters;
-@property(readonly, nonatomic) PXStoryMultipartPanoramaParameters *defaultVerticalMultipartPanoramaParameters;
 
 @end
 

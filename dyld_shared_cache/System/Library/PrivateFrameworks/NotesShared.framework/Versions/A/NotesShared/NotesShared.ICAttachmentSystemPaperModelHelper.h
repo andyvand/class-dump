@@ -8,7 +8,7 @@
 {
 }
 
-+ (long long);
++ (long long)ks/Noticeboard.framework/Versions/A/Noticeboard;
 + (_Bool);
 - (id);
 

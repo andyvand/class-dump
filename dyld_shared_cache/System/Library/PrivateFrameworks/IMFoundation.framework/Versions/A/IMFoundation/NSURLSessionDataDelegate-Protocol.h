@@ -5,5 +5,10 @@
 //
 
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)urceUnit, kCMIOUnitProperty_BusCount, kCMIOUnitScope_Output, 0, &numOutputBuses, sizeof(numOutputBuses), __null ) == 0 ;
+- (void)ZN5caulk3xpc12sync_messageIU8__strongPU37objcproto26CAReportingServiceProtocol11objc_objectJbEEC1EP15NSXPCConnectionEUlP7NSErrorONSt3__15tupleIJbEEEE_;
+- (void)Error setting output stream format (%s), err = %d;
 @end
 

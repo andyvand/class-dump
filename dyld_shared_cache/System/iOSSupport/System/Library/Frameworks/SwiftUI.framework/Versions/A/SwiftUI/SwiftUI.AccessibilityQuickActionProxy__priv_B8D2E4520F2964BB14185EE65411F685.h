@@ -7,11 +7,6 @@
 @interface SwiftUI.AccessibilityQuickActionProxy__priv_B8D2E4520F2964BB14185EE65411F685
 {
     id _state;
-    id label;
-    id isActive;
-    id action;
-    id isEnabled;
-    id style;
 }
 
 @end

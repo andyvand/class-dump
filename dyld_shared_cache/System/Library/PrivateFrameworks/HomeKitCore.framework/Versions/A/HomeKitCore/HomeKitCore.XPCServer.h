@@ -7,9 +7,6 @@
 @interface HomeKitCore.XPCServer
 {
     id homesStore;
-    id listener;
-    id storeServer;
-    id proxies;
 }
 
 - (id);

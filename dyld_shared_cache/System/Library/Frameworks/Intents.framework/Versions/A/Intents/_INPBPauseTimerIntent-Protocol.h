@@ -7,14 +7,11 @@
 @class _INPBIntentMetadata, _INPBTimer;
 
 @protocol _INPBPauseTimerIntent
-- (_Bool)ntityTypes;
+- (_INPBTimer *);
+- (void);
+- (_Bool)entityTypes;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPauseMultiple;
-@property(readonly, nonatomic) _Bool hasTargetTimer;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool pauseMultiple;
-@property(retain, nonatomic) _INPBTimer *targetTimer;
 @end
 

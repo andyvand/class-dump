@@ -28,19 +28,12 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id)4;
 + (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *biography; // @dynamic biography;
-@property(copy, nonatomic) NSString *handle; // @dynamic handle;
-@property(nonatomic) _Bool hasLightweightProfile; // @dynamic hasLightweightProfile;
-@property(nonatomic) long long pendingRequestsCount; // @dynamic pendingRequestsCount;
-@property(nonatomic, getter=isPrivate) _Bool privatePerson; // @dynamic privatePerson;
 @property(copy, nonatomic) NSString *uncensoredName; // @dynamic uncensoredName;
-@property(nonatomic, getter=isVerified) _Bool verified; // @dynamic verified;
 
 @end
 

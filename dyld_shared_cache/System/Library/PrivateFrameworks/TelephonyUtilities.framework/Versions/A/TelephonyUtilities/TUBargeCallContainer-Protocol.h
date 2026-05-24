@@ -7,12 +7,12 @@
 @class NSArray, TUCall;
 
 @protocol TUBargeCallContainer
+- (TUCall *);
 - (NSArray *), outputCountryCode=%@, options=%@);
 - (NSArray *)=%ld wantsPreview=%d;
-- (TUCall *)tesChangedNotification;
+- (TUCall *)TUCallSupportsDTMFUpdatesChangedNotification;
 
 // Remaining properties
 @property(readonly, copy) NSArray *bargeCalls;
-@property(readonly, nonatomic) TUCall *frontmostBargeCall;
 @end
 

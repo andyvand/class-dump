@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BPSPublisher
 {
 }
@@ -16,6 +14,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,14 +27,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)romServerBlock;
+- (id)rrorFromClientValidationBlock;
+- (id).;
 - (id);
 - (id);
 - (id);
@@ -44,21 +42,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)lowsCellularAccessForMirrorOutput;
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)triggerSource:(id)arg1 audioInput:otherBiometricResult:containsPayload: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

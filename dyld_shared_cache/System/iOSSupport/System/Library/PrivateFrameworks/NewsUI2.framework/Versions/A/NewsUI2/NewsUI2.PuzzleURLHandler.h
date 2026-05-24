@@ -7,12 +7,6 @@
 @interface NewsUI2.PuzzleURLHandler
 {
     id patterns;
-    id navigator;
-    id puzzleService;
-    id offlineManager;
-    id contentAvailabilityValidator;
-    id offlineAlertControllerFactory;
-    id featureAvailability;
 }
 
 @end

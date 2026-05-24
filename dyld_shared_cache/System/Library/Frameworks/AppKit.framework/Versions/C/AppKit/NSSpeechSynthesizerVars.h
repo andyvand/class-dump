@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _NSPeriodicInvoker;
 @protocol NSSpeechSynthesizerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSSpeechSynthesizerVars
 {
     struct SpeechChannelRecord *_speechChannel;
-    _NSPeriodicInvoker *_speechFeedbackServicesInvoker;
-    unsigned int _speechFeedbackServicesRef;
-    NSString *_currentVoice;
-    float _normalSpeakingRate;
-    _Bool _usingDefaultVoice;
-    _Bool _usesFeedbackWindow;
-    _Bool _speakingSpeechFeedbackServices;
-    _Bool _needsResyncWithDefaultVoice;
-    _Bool _speechFinishedSuccessfully;
-    _Bool _synthesizerIsRetained;
-    id <NSSpeechSynthesizerDelegate> _delegate;
 }
 
 + (id);
 + (_Bool);
+- (_Bool)J
+h)8;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)w;
 - (_Bool);
 - (unsigned int);
 - (id);
@@ -46,25 +35,15 @@ __attribute__((visibility("hidden")))
 - (float);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (void);
+- (void)ell%lu">
+;
 - (void)chÐµ-ÿchÌµ-ÿ;
 
 // Remaining properties
-@property(copy) NSString *currentVoiceIdentifier;
 @property __weak id <NSSpeechSynthesizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool needsResyncWithDefaultVoice;
-@property(readonly) float normalSpeakingRate;
-@property _Bool speakingSpeechFeedbackServices;
-@property(readonly) struct SpeechChannelRecord *speechChannel;
-@property(retain) _NSPeriodicInvoker *speechFeedbackServicesInvoker;
-@property(readonly) unsigned int speechFeedbackServicesRef;
-@property _Bool speechFinishedSuccessfully;
-@property _Bool synthesizerIsRetained;
-@property _Bool usesFeedbackWindow;
-@property _Bool usingDefaultVoice;
 
 @end
 

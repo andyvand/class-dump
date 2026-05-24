@@ -6,16 +6,12 @@
 
 #import <DictationServices/SO_AXCyclingView.h>
 
-@class NSArray, NSMutableArray, SO_AXElementItemStyleProvider;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SO_AXElementNamesCyclingView : SO_AXCyclingView
 {
     _Bool _didUpdateItems;
-    SO_AXElementItemStyleProvider *_styleProvider;
-    NSMutableArray *_containers;
-    NSArray *_items;
-    struct CGRect _safeScreenArea;
 }
 
 - (id);
@@ -28,20 +24,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)sideburns_long_shadow;
+- (id)SSRUafAssetProvider;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *containers; // @synthesize containers=_containers;
-@property(nonatomic) _Bool didUpdateItems; // @synthesize didUpdateItems=_didUpdateItems;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) struct CGRect safeScreenArea; // @synthesize safeScreenArea=_safeScreenArea;
-@property(retain, nonatomic) SO_AXElementItemStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
 
 @end
 

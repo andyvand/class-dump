@@ -12,23 +12,19 @@
 @interface MFEWSBodyPersistOperation : MFEWSPersistenceTaskOperation
 {
     id <MFEWSBodyPersistOperationDelegate> _delegate;
-    NSDictionary *_bodiesByMessage;
-    NSDictionary *_calendarEventsByMessage;
 }
 
 - (id);
+- (id)67;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)control:(id)arg1 textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *bodiesByMessage; // @synthesize bodiesByMessage=_bodiesByMessage;
-@property(readonly, copy, nonatomic) NSDictionary *calendarEventsByMessage; // @synthesize calendarEventsByMessage=_calendarEventsByMessage;
-@property(nonatomic) __weak id <MFEWSBodyPersistOperationDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

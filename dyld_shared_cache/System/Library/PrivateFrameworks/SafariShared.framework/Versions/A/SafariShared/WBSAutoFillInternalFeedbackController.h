@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOrderedSet, NSString, NSURL, WBSAutoFillInternalFeedbackDiagnosticsData;
+@class NSMutableDictionary, WBSAutoFillInternalFeedbackDiagnosticsData;
 
 @interface WBSAutoFillInternalFeedbackController
 {
     NSMutableDictionary *_detailResponses;
-    _Bool _regression;
-    WBSAutoFillInternalFeedbackDiagnosticsData *_diagnosticsData;
-    unsigned long long _selectedFeedbackCategory;
-    NSString *_knownWorkingBuild;
-    unsigned long long _selectedAttachmentsType;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -35,7 +30,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)J	;
 - (id);
 - (_Bool);
 - (id);
@@ -44,15 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *attachmentDetailsText;
-@property(readonly, nonatomic) _Bool canContinueInTapToRadar;
-@property(readonly, copy, nonatomic) NSURL *continueInTapToRadarURL;
-@property(readonly, copy, nonatomic) NSOrderedSet *detailTypesForSelectedFeedbackCategory;
 @property(readonly, copy, nonatomic) WBSAutoFillInternalFeedbackDiagnosticsData *diagnosticsData; // @synthesize diagnosticsData=_diagnosticsData;
-@property(copy, nonatomic) NSString *knownWorkingBuild; // @synthesize knownWorkingBuild=_knownWorkingBuild;
-@property(nonatomic, getter=isRegression) _Bool regression; // @synthesize regression=_regression;
-@property(nonatomic) unsigned long long selectedAttachmentsType; // @synthesize selectedAttachmentsType=_selectedAttachmentsType;
-@property(nonatomic) unsigned long long selectedFeedbackCategory; // @synthesize selectedFeedbackCategory=_selectedFeedbackCategory;
 
 @end
 

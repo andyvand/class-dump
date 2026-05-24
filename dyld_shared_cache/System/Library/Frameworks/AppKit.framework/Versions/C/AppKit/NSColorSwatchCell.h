@@ -6,39 +6,35 @@
 
 #import <AppKit/NSTextFieldCell.h>
 
-@class NSAppearance, NSColor;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSColorSwatchCell : NSTextFieldCell
 {
     NSColor *_swatchColor;
-    struct CGSize _swatchSize;
-    NSAppearance *_appearanceForRenderingColor;
 }
 
-- (struct CGRect);
-- (struct CGSize);
-- (id);
+- (struct CGRect)__cstring;
+- (struct CGSize)ailed;
+- (id)issing interface name, add redirected address failed;
+- (void)A;
+- (void);
+- (unsigned long long)connection:(id)arg1 _willSendRequestForEstablishedConnection:(struct CGRect)arg2 completion:(id)arg3;
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
+- (id)`;
+- (struct CGRect)NSURLSessionDownloadTaskResumeData;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ary/Caches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/crypto/fipsmodule/digest/digest.c.inc;
 - (id);
 - (void)!Cùà31Â0@ù
 × ;
-- (id)ookmarksAffectedByResolveItems:(struct _NSZone *)arg1;
+- (id)_indexesOfBookmarksAffectedByResolveItems:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(retain) NSAppearance *appearanceForRenderingColor; // @synthesize appearanceForRenderingColor=_appearanceForRenderingColor;
 @property(retain) NSColor *swatchColor; // @synthesize swatchColor=_swatchColor;
-@property struct CGSize swatchSize; // @synthesize swatchSize=_swatchSize;
 
 @end
 

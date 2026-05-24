@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection;
+@class NSLock;
 
 @interface SKServiceBroker
 {
     NSLock *_serviceConnectionLock;
-    NSXPCConnection *_serviceConnection;
 }
 
 + (id);
 + (id);
 - (id);
+- (id)b
+;
 - (id);
 - (id);
 - (id);
@@ -22,9 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)%;
 - (id);
 - (void);
 

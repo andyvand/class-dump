@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRAudioSpeechPacketArrivalEnded, ASRSchemaASRAudioSpeechPacketArrivalStarted, NSData;
+@class ASRSchemaASRAudioSpeechPacketArrivalStarted;
 
 @interface ASRSchemaASRAudioSpeechPacketArrivalContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRAudioSpeechPacketArrivalStarted *_startedOrChanged;
-    ASRSchemaASRAudioSpeechPacketArrivalEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -25,28 +21,23 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)_lock_s=I}16@0:(id)arg1 8;
+- (void)unsignedLongLongValue;
 - (id);
-- (id);
+- (id)_enqueuedNMEATimestamps;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)DisplayContext: /* Error: Ran out of types for this method. */;
+- (id)setUeiDictationToolTipDisplayContext: /* Error: Ran out of types for this method. */;
 - (id)(2¬2`3;
 - (id);
 - (void)!è¬0,';
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRAudioSpeechPacketArrivalEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRAudioSpeechPacketArrivalStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

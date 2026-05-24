@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ITLibraryArtworkVisualIdenticalityIdentifier
 {
     long long _artworkType;
-    unsigned long long _libraryID;
-    NSString *_artworkUUID;
 }
 
 - (id);
 - (id);
 - (long long);
+- (id)+;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)deleteAllTopicsFromSourcesWithBundleId:groupIds:algorithm:deletedCount:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)reID;
+- (void)playbackStoreID;
 
 // Remaining properties
 @property(readonly, nonatomic) long long artworkType; // @synthesize artworkType=_artworkType;
-@property(readonly, nonatomic) NSString *artworkUUID; // @synthesize artworkUUID=_artworkUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long libraryID; // @synthesize libraryID=_libraryID;
-@property(readonly) Class superclass;
 
 @end
 

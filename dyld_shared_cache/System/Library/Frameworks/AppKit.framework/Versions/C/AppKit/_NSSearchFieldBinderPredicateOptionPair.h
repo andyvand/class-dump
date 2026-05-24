@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString, _NSFilterPredicateVisitor;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSSearchFieldBinderPredicateOptionPair
 {
     NSString *_predicateString;
-    NSString *_predicateName;
-    NSPredicate *_predicate;
-    _NSFilterPredicateVisitor *_visitor;
 }
 
-- (void);
-- (void);
+- (void)copyStringFromDeviceTree:(id)arg1 withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
+- (void)copyStringFromDeviceTree:(id)arg1 withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
+- (id)Q;
+- (id)Dark wake power assertion failed (result = %d);
+- (id)oxy authentication state;
+- (void)I
+;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)`;
 
 @end
 

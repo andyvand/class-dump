@@ -7,6 +7,6 @@
 @protocol _UITextServicesResponderProxyDelegate
 - (void)Ð1Â0@ù
 × ;
-- (_Bool)tion;
+- (_Bool)autorepeatsAnimation;
 @end
 

@@ -10,18 +10,18 @@
 
 + (unsigned char);
 + (double);
-+ (struct CGPoint);
++ (struct CGPoint)5;
 + (double);
 + (_Bool);
 + (struct CGSize);
-+ (double);
++ (double)(;
 + (id);
 + (id);
 + (id);
 + (unsigned char);
 + (struct CGPoint);
-+ (id);
-+ (_Bool);
++ (id)4;
++ (_Bool)msv_compactDescription;
 + (id)xÿdÑ¸%l;
 - (id);
 

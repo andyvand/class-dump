@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface STWeatherHourlyForecast
 {
     long long _timeIndex;
-    long long _conditionCode;
-    NSNumber *_temperature;
-    NSNumber *_chanceOfPrecipitation;
 }
 
-+ (_Bool);
++ (_Bool)`lg;
 - (id);
 - (long long);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)蔯e;
 - (id);
-- (void);
+- (void)(=;
 
 @end
 

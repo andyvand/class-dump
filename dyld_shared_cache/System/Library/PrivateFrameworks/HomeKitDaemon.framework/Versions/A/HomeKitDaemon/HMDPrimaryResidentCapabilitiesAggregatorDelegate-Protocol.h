@@ -5,5 +5,13 @@
 //
 
 @protocol HMDPrimaryResidentCapabilitiesAggregatorDelegate
+- (void)MSPUGCTimeIntervalToCacheBAACertificatesForRAPRequestsKey;
+- (void)MSPUGCShouldCacheBAACertificatesForRAPRequestsKey;
+- (void)MSPUGCLogDiscardShouldReuseExistingKeyKey;
+- (void)MSPUGCLogDiscardCertificateDurationInMinutesKey;
+- (void)MSPShareETABlockedIDSStatusTTLKey;
+- (void)MSPShareETABlockedTripShouldClearKVSAfterMigrationKey;
+- (void)MSPShareETABlockedTripShouldAlwaysMigrateFromKVSKey;
+- (void)MSPShareETAIncludeMockClosedTripWithPastETAForUITestingKey;
 @end
 

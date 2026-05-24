@@ -7,13 +7,6 @@
 @interface ConversationKit.TranscriptionViewModel
 {
     id _callUUID;
-    id _callerDisplayName;
-    id _state;
-    id _isGibberish;
-    id _captions;
-    id _hidePrivacySensitiveContent;
-    id _initialScreeningResponse;
-    id config;
 }
 
 @end

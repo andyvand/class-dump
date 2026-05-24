@@ -6,22 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UINavigationItem, _UIPointerInteractionAssistant, _UIScrollPocketInteraction;
+@class NSString, _UIScrollPocketInteraction;
 
 @interface _UINavigationBarPalette : UIView
 {
     _UIScrollPocketInteraction *_scrollPocketInteraction;
-    _Bool _transitioning;
-    _Bool _pinned;
-    _Bool __displaysWhenSearchActive;
-    UIView *_contentView;
-    double _preferredHeight;
-    double _minimumHeight;
-    NSString *_assistantIdentifier;
-    _UIPointerInteractionAssistant *_assistant;
-    UINavigationItem *_owningNavigationItem;
-    unsigned long long __contentViewMarginType;
-    long long __layoutPriority;
 }
 
 - (void);
@@ -30,25 +19,25 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ionHash=%{public}@;
+- (void)tifierSet [missing personID, defaulting to 'Unknown-PersonID'];
 - (id);
 - (void);
-- (void);
+- (void)h	;
 - (void);
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (void)htArrowTopEndCapView;
-- (void)ems;
+- (void)rightArrowTopEndCapView;
+- (void)movableItems;
 - (_Bool);
 - (void)reference to UICollectionView could not be resolved to strong reference.;
 - (id);
 - (double)B16@?0@"UIKBTree"8;
 - (id)earchField:(id)arg1 ];
-- (void)plicationShortcutIconTypeLocation;
+- (void)UIApplicationShortcutIconTypeLocation;
 - (void)nentPlacementCG;
-- (id)MenuElementCSg;
+- (id)So21UIDeferredMenuElementCSg;
 - (void);
 - (void)Hæ;
 - (void)ØF[;
@@ -62,24 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setContentViewMarginType:) unsigned long long _contentViewMarginType; // @synthesize _contentViewMarginType=__contentViewMarginType;
-@property(nonatomic, setter=_setDisplaysWhenSearchActive:) _Bool _displaysWhenSearchActive; // @synthesize _displaysWhenSearchActive=__displaysWhenSearchActive;
-@property(nonatomic, setter=_setLayoutPriority:) long long _layoutPriority; // @synthesize _layoutPriority=__layoutPriority;
-@property(nonatomic) __weak _UIPointerInteractionAssistant *assistant; // @synthesize assistant=_assistant;
 @property(copy, nonatomic) NSString *assistantIdentifier; // @synthesize assistantIdentifier=_assistantIdentifier;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double minimumHeight; // @synthesize minimumHeight=_minimumHeight;
-@property(nonatomic) __weak UINavigationItem *owningNavigationItem; // @synthesize owningNavigationItem=_owningNavigationItem;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(nonatomic) double preferredHeight; // @synthesize preferredHeight=_preferredHeight;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool transitioning; // @synthesize transitioning=_transitioning;
 
 @end
 

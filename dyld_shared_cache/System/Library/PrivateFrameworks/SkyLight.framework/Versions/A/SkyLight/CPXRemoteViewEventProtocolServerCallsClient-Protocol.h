@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol CPXRemoteViewEventProtocolServerCallsClient
+- (oneway void)RecordID:(NSData *)arg1 ]_block_invoke;
 @end
 

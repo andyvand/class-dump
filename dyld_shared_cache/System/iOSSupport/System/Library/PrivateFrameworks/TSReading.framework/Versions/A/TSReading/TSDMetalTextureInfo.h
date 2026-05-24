@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLTexture;
-
 @interface TSDMetalTextureInfo
 {
     _Bool _containsMipmaps;
-    unsigned int _height;
-    unsigned int _width;
-    id <MTLTexture> _name;
 }
 
 + (id);
@@ -23,15 +18,11 @@
 - (struct CGSize);
 - (unsigned int);
 - (unsigned int);
-- (void);
-- (void)cked12;
+- (void);
+- (void)TSTiOSCheckboxChecked12;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsMipmaps; // @synthesize containsMipmaps=_containsMipmaps;
-@property(readonly, nonatomic) unsigned int height; // @synthesize height=_height;
-@property(readonly, nonatomic) id <MTLTexture> name; // @synthesize name=_name;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

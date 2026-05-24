@@ -7,7 +7,6 @@
 @interface ContactsUICore.ContactLikenessStore
 {
     id logger;
-    id impl;
 }
 
 @end

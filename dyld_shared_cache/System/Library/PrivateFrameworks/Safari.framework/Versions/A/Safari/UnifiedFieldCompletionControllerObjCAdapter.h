@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CompletionWindow, NSCache, NSDictionary, NSMutableSet, NSString, NSView, Safari.CompletionListCollectionViewController, WBSFaviconRequestsController;
-@protocol WBSParsecSearchSession;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldCompletionControllerObjCAdapter
 {
     double _lastKnownUnifiedFieldWidth;
-    double _lastKnownWindowBackingScaleFactor;
-    void *_completionController;
-    NSMutableSet *_completionAbortingNotificationNames;
-    _Bool _shouldPostAccessibilityRefreshNotification;
-    CompletionWindow *_completionWindow;
-    WBSFaviconRequestsController *_requestsController;
-    NSCache *_searchUICellViewCache;
-    NSCache *_pegasusImageByURLCache;
-    _Bool _isPresentingItemDeletionAlert;
-    NSDictionary *_searchQueriesCalculatedFromDedupedHistoryItems;
-    Safari.CompletionListCollectionViewController *_collectionViewController;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
 - (_Bool);
@@ -57,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -83,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -111,29 +99,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (long long);
-- (void);
-- (id)tlyUsed: /* Error: Ran out of types for this method. */;
-- (void)der:(id)arg1;
+- (long long)mbm;
+- (void)copyRegistrationDisplayStatus:error: /* Error: Ran out of types for this method. */;
+- (id)markCreditCardDataAsMostRecentlyUsed: /* Error: Ran out of types for this method. */;
+- (void)_shouldShowSectionWithProvider:(id)arg1;
 - (void)Ü;
 
 // Remaining properties
-@property(readonly, nonatomic) Safari.CompletionListCollectionViewController *collectionViewController; // @synthesize collectionViewController=_collectionViewController;
-@property(readonly, nonatomic) _Bool completionListIsVisible;
-@property(readonly, nonatomic) double completionListWidth;
 @property(readonly, nonatomic) NSView *completionWindowContentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPresentingItemDeletionAlert; // @synthesize isPresentingItemDeletionAlert=_isPresentingItemDeletionAlert;
-@property(readonly, nonatomic) _Bool isRecentSearchesShowing;
-@property(readonly, nonatomic) id <WBSParsecSearchSession> parsecSearchSession;
-@property(retain, nonatomic) NSDictionary *searchQueriesCalculatedFromDedupedHistoryItems; // @synthesize searchQueriesCalculatedFromDedupedHistoryItems=_searchQueriesCalculatedFromDedupedHistoryItems;
-@property(readonly, nonatomic) long long selectedIndex;
-@property(readonly) Class superclass;
 
 @end
 

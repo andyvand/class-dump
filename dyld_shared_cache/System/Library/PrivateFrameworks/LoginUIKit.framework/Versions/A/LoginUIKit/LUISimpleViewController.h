@@ -6,38 +6,30 @@
 
 #import <LoginUIKit/LUIPopoverViewController.h>
 
-@class NSLayoutConstraint, NSString, NSTextField;
+@class NSString, NSTextField;
 
 @interface LUISimpleViewController : LUIPopoverViewController
 {
     NSString *_message;
-    NSString *_information;
-    NSTextField *_messageTextField;
-    NSTextField *_informationTextField;
-    NSLayoutConstraint *_constraint;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)A;
+- (id);
+- (id)B;
+- (void);
 
 // Remaining properties
-@property(retain) NSLayoutConstraint *constraint; // @synthesize constraint=_constraint;
-@property(copy) NSString *information; // @synthesize information=_information;
-@property(retain) NSTextField *informationTextField; // @synthesize informationTextField=_informationTextField;
-@property(copy) NSString *message; // @synthesize message=_message;
 @property(retain) NSTextField *messageTextField; // @synthesize messageTextField=_messageTextField;
 
 @end

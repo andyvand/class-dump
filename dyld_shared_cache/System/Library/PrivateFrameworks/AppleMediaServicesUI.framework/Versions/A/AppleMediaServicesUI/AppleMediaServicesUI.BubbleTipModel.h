@@ -9,7 +9,6 @@
 @interface AppleMediaServicesUI.BubbleTipModel : AppleMediaServicesUI.MessagingModel
 {
     id _inlineAnchorInfo;
-    id _preferredAppearance;
 }
 
 @end

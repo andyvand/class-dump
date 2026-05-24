@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSProgress, NSString, NSURL, PXStoryExportConfiguration;
+@class NSProgress, NSString;
 
 @protocol PXStoryExportRequest
+- (id)(=;
 - (NSString *);
-- (long long)gationHeader;
-- (NSProgress *)onadeHorizontalSizeClass;
+- (long long)enableNavigationHeader;
+- (NSProgress *)_lemonadeHorizontalSizeClass;
 - (_Bool)s.CPAnalytics.cmmPublishFromDetailViewMenuAction;
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryExportConfiguration *configuration;
-@property(readonly, nonatomic) NSURL *destinationURL;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) _Bool isCancelled;
-@property(readonly, nonatomic) NSProgress *progress;
-@property(readonly, nonatomic) long long status;
 @property(readonly, nonatomic) NSString *uniqueIdentifier;
 @end
 

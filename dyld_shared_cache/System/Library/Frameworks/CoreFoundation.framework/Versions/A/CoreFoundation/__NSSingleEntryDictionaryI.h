@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSSingleEntryDictionaryI : NSDictionary
 {
     id _obj;
-    id _key;
 }
 
 + (_Bool)^^v;
@@ -24,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)>40;
 - (void)-streams.icloud.com:(id *)arg1 443;
 - (unsigned long long);
-- (void)ToCore29SendableMessageComposeRequest;
+- (void)_TtC9AskToCore29SendableMessageComposeRequest;
 - (id);
 - (unsigned long long)Ù1;
 

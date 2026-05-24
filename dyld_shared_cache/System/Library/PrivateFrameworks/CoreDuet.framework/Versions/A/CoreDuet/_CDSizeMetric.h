@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, _CDSizeMetricFamily;
-
 @interface _CDSizeMetric
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _scale;
-    unsigned long long _count;
-    unsigned long long _firstSize;
-    unsigned long long _lastSize;
-    unsigned long long _minimumSize;
-    unsigned long long _maximumSize;
-    unsigned long long _totalSizes;
-    NSDate *_firstUpdate;
-    NSDate *_lastUpdate;
-    NSString *_name;
-    NSString *_string;
-    _CDSizeMetricFamily *_family;
 }
 
-- (id);
+- (id)[;
 - (void);
 
 @end

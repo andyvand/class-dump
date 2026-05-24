@@ -9,8 +9,6 @@
 @interface MPArtworkRepresentationCollection
 {
     MPArtworkRepresentation *_imageRepresentation;
-    MPArtworkRepresentation *_videoRepresentation;
-    unsigned long long _bestRepresentationKinds;
 }
 
 + (id);
@@ -20,15 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)arrayBounds;
 - (unsigned long long);
 - (id);
 - (void)ayerPlayParameters",&,N,V_startItemPlayParameters;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bestRepresentationKinds; // @synthesize bestRepresentationKinds=_bestRepresentationKinds;
 @property(retain, nonatomic) MPArtworkRepresentation *imageRepresentation; // @synthesize imageRepresentation=_imageRepresentation;
-@property(retain, nonatomic) MPArtworkRepresentation *videoRepresentation; // @synthesize videoRepresentation=_videoRepresentation;
 
 @end
 

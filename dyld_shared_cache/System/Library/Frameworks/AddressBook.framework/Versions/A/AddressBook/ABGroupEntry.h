@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABGroup, NSArray, NSString;
+@class NSString;
 
 @interface ABGroupEntry
 {
     NSString *_name;
-    NSString *_identifier;
-    _Bool _isRestricted;
 }
 
 + (id);
@@ -26,34 +24,24 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (_Bool)yA;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -64,36 +52,37 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (double);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)eText;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (double)on in place - issuing error to older completion;
+- (_Bool);
+- (id);
+- (_Bool)s/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs7/pk7_doit.c;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id)_tonePickerSectionMenuItemWasSelected: /* Error: Ran out of types for this method. */;
 - (void)!ÀGùª1Â0@ù
 × ;
-- (long long)ue;
+- (long long)boolValue;
 
 // Remaining properties
-@property(readonly, copy) NSString *accessibilityDescription;
-@property(readonly, retain) ABAccount *account;
-@property(readonly, copy) NSString *accountIdentifier;
-@property(readonly, copy) NSArray *children;
-@property(readonly, retain) ABGroup *group;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isProvisional;
-@property(readonly) _Bool isRestricted; // @synthesize isRestricted=_isRestricted;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
 
 @end
 

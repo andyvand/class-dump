@@ -9,14 +9,11 @@
 @interface DAAccountLoader
 {
     NSMutableDictionary *_acAccountTypeToAccountFrameworkSubpath;
-    NSMutableDictionary *_acAccountTypeToAccountDaemonBundleSubpath;
-    NSMutableDictionary *_acAccountTypeToClassNames;
-    NSMutableDictionary *_acParentAccountTypeToChildAccountTypes;
 }
 
 + (void);
 + (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -33,14 +30,11 @@
 - (void);
 - (Class);
 - (Class);
-- (id);
+- (id)5!;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *acAccountTypeToAccountDaemonBundleSubpath; // @synthesize acAccountTypeToAccountDaemonBundleSubpath=_acAccountTypeToAccountDaemonBundleSubpath;
 @property(retain, nonatomic) NSMutableDictionary *acAccountTypeToAccountFrameworkSubpath; // @synthesize acAccountTypeToAccountFrameworkSubpath=_acAccountTypeToAccountFrameworkSubpath;
-@property(retain, nonatomic) NSMutableDictionary *acAccountTypeToClassNames; // @synthesize acAccountTypeToClassNames=_acAccountTypeToClassNames;
-@property(retain, nonatomic) NSMutableDictionary *acParentAccountTypeToChildAccountTypes; // @synthesize acParentAccountTypeToChildAccountTypes=_acParentAccountTypeToChildAccountTypes;
 
 @end
 

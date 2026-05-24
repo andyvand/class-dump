@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFMoreResults
 {
@@ -14,30 +14,21 @@
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)setQuaternaryTextColor:(id)arg1;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)tor:(id)arg1 (%{public}@) isForMusicPlayback:(%{BOOL}d). alertForAudioEnvironmentSetup = %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)homeLocations;
 - (id);
 - (id);
 - (void)
 × ;
-- (void)n;
+- (void)_rfFactItemHeroButtonCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface TSULinkedPointerSetReverseEnumerator
 {
     TSULinkedPointerSetEntry *mTail;
-    TSULinkedPointerSetEntry *mLastUsed;
 }
 
 - (id);

@@ -9,60 +9,43 @@
 @interface AppStoreKit.ClickableView : AppStoreKit.BaseView
 {
     void target;
-    SEL action;
-    void clickHandler;
-    _Bool isEnabled;
-    _Bool isHighlighted;
-    _Bool isUserInteractionEnabled;
-    _Bool isTrackingMouse;
-    _Bool refusesFirstResponder;
 }
 
 - (struct CGRect);
 - (void);
 - (void);
+- (void)zo;
 - (void);
-- (void);
-- (void);
+- (void)n;
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
+- (id)",&,V_avatar;
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (void);
 - (id);
 - (SEL);
-- (void)Resource:(SEL)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)didLoadResource:(SEL)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)Y_YRzYRz	YRz
 YRzã2Ò	RzlXX;
-- (_Bool)nces;
+- (_Bool)RateLimitedActionPreferences;
 - (_Bool);
 - (void);
 - (void)¹ÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool acceptsFirstResponder;
-@property(nonatomic) SEL action; // @synthesize action;
-@property(nonatomic, copy) CDUnknownBlockType clickHandler;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled;
-@property(nonatomic) _Bool isHighlighted; // @synthesize isHighlighted;
-@property(nonatomic) _Bool isTrackingMouse; // @synthesize isTrackingMouse;
-@property(nonatomic) _Bool isUserInteractionEnabled; // @synthesize isUserInteractionEnabled;
-@property(nonatomic, readonly) _Bool needsPanelToBecomeKey;
-@property(nonatomic) _Bool refusesFirstResponder; // @synthesize refusesFirstResponder;
 @property(nonatomic) __weak id target; // @synthesize target;
-@property(nonatomic, readonly) struct CGRect trackingBounds;
 
 @end
 

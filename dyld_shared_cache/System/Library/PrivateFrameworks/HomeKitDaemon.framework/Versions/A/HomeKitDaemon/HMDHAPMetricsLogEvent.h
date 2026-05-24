@@ -8,31 +8,18 @@ __attribute__((visibility("hidden")))
 @interface HMDHAPMetricsLogEvent
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _sentHTTPRequests;
-    unsigned long long _receivedHTTPResponses;
-    unsigned long long _receivedHTTPEvents;
-    unsigned long long _accessoryServerInvalidations;
-    unsigned long long _btleConnections;
-    unsigned long long _btleDiscoveries;
-    unsigned long long _btleConnectionPerReasons;
 }
 
 - (void);
+- (unsigned long long)isFailedRequest;
+- (unsigned long long)to back off, will retry in %#.1lfs;
+- (unsigned long long)#.1lfs to go;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accessoryServerInvalidations; // @synthesize accessoryServerInvalidations=_accessoryServerInvalidations;
-@property(readonly, nonatomic) unsigned long long btleConnectionPerReasons; // @synthesize btleConnectionPerReasons=_btleConnectionPerReasons;
-@property(readonly, nonatomic) unsigned long long btleConnections; // @synthesize btleConnections=_btleConnections;
-@property(readonly, nonatomic) unsigned long long btleDiscoveries; // @synthesize btleDiscoveries=_btleDiscoveries;
-@property(readonly, nonatomic) unsigned long long receivedHTTPEvents; // @synthesize receivedHTTPEvents=_receivedHTTPEvents;
-@property(readonly, nonatomic) unsigned long long receivedHTTPResponses; // @synthesize receivedHTTPResponses=_receivedHTTPResponses;
 @property(readonly, nonatomic) unsigned long long sentHTTPRequests; // @synthesize sentHTTPRequests=_sentHTTPRequests;
 
 @end

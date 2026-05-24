@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CALayer, NSAttributedString, NSString, _MKPlaceActionButtonController;
+@class CALayer;
 
 @interface MKCatalystButton
 {
     _Bool _isPrimaryButton;
-    _MKPlaceActionButtonController *_buttonController;
-    double _tallHeight;
-    double _shortHeight;
-    CALayer *_extraShadowLayer;
-    CAGradientLayer *_gradientLayer;
-    NSAttributedString *_title;
-    NSAttributedString *_subTitle;
 }
 
 + (struct CGColor *);
@@ -32,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Q;
 - (void);
 - (void);
 - (void);
@@ -49,30 +42,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)r business with brandURI:(id)arg1 %@;
 - (double);
 - (void);
-- (void);
+- (void)@;
 - (id);
-- (void)wControllerWithInterfaceStyleCheck: /* Error: Ran out of types for this method. */;
+- (void)_presentViewControllerWithInterfaceStyleCheck: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak _MKPlaceActionButtonController *buttonController; // @synthesize buttonController=_buttonController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CALayer *extraShadowLayer; // @synthesize extraShadowLayer=_extraShadowLayer;
-@property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isPrimaryButton; // @synthesize isPrimaryButton=_isPrimaryButton;
-@property(nonatomic) double shortHeight; // @synthesize shortHeight=_shortHeight;
-@property(retain, nonatomic) NSAttributedString *subTitle; // @synthesize subTitle=_subTitle;
-@property(readonly) Class superclass;
-@property(nonatomic) double tallHeight; // @synthesize tallHeight=_tallHeight;
-@property(retain, nonatomic) NSAttributedString *title; // @synthesize title=_title;
 
 @end
 

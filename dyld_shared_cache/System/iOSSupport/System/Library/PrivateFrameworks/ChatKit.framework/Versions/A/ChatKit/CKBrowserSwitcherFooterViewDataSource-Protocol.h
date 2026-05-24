@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKBrowserSwitcherFooterView;
+
 @protocol CKBrowserSwitcherFooterViewDataSource
+- (unsigned long long)editedRange:(CKBrowserSwitcherFooterView *)arg1 changeInLength:(unsigned long long)arg2;
 @end
 

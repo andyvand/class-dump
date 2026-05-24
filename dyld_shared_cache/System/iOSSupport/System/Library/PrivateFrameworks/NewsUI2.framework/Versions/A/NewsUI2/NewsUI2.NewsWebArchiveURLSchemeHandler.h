@@ -9,14 +9,13 @@
 @interface NewsUI2.NewsWebArchiveURLSchemeHandler
 {
     id <WKURLSchemeTask> task;
-    id webArchiveService;
 }
 
 - (id);
 - (id);
+- (void)Looper.m;
 - (void);
-- (void);
-- (void);
+- (void)=;
 - (void)ý°	µ7_v;
 
 // Remaining properties

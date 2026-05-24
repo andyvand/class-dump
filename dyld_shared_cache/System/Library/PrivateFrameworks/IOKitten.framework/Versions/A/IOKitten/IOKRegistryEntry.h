@@ -6,20 +6,18 @@
 
 #import <IOKitten/IOKObject.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IOKRegistryEntry : IOKObject
 {
 }
 
-+ (id);
-+ (id);
++ (id)`";
++ (id);
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long entryID;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSDictionary *properties;
 
 @end
 

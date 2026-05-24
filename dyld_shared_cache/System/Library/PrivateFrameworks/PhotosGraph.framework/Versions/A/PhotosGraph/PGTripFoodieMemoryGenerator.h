@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)setAccessibilitySelected:(id)arg1;
 
 @end
 

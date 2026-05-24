@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBButtonItem;
+@class _SFPBButtonItem;
 
 @interface _SFPBRFBinaryButtonCardSection
 {
     _SFPBButtonItem *_primary_button;
-    _SFPBButtonItem *_secondary_button;
 }
 
-- (void);
+- (void)R;
 - (void);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)ive:(id)arg1;
+- (id)ession open for device %@;
 - (id);
 - (id);
 - (void)rdCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBButtonItem *primary_button; // @synthesize primary_button=_primary_button;
-@property(retain, nonatomic) _SFPBButtonItem *secondary_button; // @synthesize secondary_button=_secondary_button;
-@property(readonly) Class superclass;
 
 @end
 

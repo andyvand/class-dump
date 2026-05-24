@@ -7,14 +7,6 @@
 @interface UISlidingBarStateRequest
 {
     _Bool _userInitiated;
-    double _leadingWidth;
-    double _leadingOffscreenWidth;
-    double _trailingWidth;
-    double _trailingOffscreenWidth;
-    double _supplementaryWidth;
-    double _supplementaryOffscreenWidth;
-    double _rubberBandInset;
-    double _mainWidth;
 }
 
 - (double);
@@ -24,7 +16,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)setMDoneButton:(id)arg1;
 - (id);
 - (id);
 - (double);
@@ -38,9 +30,9 @@
 - (void)1Â0@ù
 × ;
 - (void)setTabsBecomingHidden:(double)arg1;
-- (_Bool)rredDefaultSceneSessionRole;
-- (id)idReplaceWithCandidate:(id)arg1;
-- (double)ngDefaultDampedSpringWithDelay:initialSpringVelocity:options:animations:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)preferredDefaultSceneSessionRole;
+- (id)didReplaceWithCandidate:(id)arg1;
+- (double)_animateUsingDefaultDampedSpringWithDelay:initialSpringVelocity:options:animations:completion: /* Error: Ran out of types for this method. */;
 - (id)iftLockTouchIDs;
 - (void);
 - (void)right bounds;
@@ -50,14 +42,6 @@
 - (void)ÕØ×h;
 
 // Remaining properties
-@property(nonatomic) double leadingOffscreenWidth; // @synthesize leadingOffscreenWidth=_leadingOffscreenWidth;
-@property(nonatomic) double leadingWidth; // @synthesize leadingWidth=_leadingWidth;
-@property(nonatomic) double mainWidth; // @synthesize mainWidth=_mainWidth;
-@property(nonatomic) double rubberBandInset; // @synthesize rubberBandInset=_rubberBandInset;
-@property(nonatomic) double supplementaryOffscreenWidth; // @synthesize supplementaryOffscreenWidth=_supplementaryOffscreenWidth;
-@property(nonatomic) double supplementaryWidth; // @synthesize supplementaryWidth=_supplementaryWidth;
-@property(nonatomic) double trailingOffscreenWidth; // @synthesize trailingOffscreenWidth=_trailingOffscreenWidth;
-@property(nonatomic) double trailingWidth; // @synthesize trailingWidth=_trailingWidth;
 @property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end

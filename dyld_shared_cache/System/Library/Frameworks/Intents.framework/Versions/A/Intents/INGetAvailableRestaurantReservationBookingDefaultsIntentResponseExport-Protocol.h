@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSDate, NSNumber;
-
 @protocol INGetAvailableRestaurantReservationBookingDefaultsIntentResponseExport
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSDate *defaultBookingDate;
 @property(readonly) unsigned long long defaultPartySize;
-@property(copy) NSNumber *maximumPartySize;
-@property(copy) NSNumber *minimumPartySize;
-@property(copy) INImage *providerImage;
 @end
 

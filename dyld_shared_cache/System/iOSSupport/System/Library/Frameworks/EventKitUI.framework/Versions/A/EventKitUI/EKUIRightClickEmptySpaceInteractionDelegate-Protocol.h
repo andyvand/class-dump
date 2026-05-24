@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol EKUIRightClickEmptySpaceInteractionDelegate
+- (void);
+- (NSString *)esult=BBBdddBBB{SteadinessEvent=ddi}ddd};
+- (_Bool);
+- (_Bool)eturn result;
 @end
 

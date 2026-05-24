@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplicationSceneDeactivationManager;
+@class UIApplicationSceneDeactivationManager;
 
 @interface UIApplicationSceneDeactivationAssertion
 {
     long long _reason;
-    CDUnknownBlockType _predicate;
-    UIApplicationSceneDeactivationManager *_manager;
-    _Bool _acquired;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (_Bool);
@@ -25,25 +22,15 @@
 - (CDUnknownBlockType)
 × ;
 - (id)8@52{CGSize=dd}60;
-- (id)nceStorage;
-- (id)tialProjectionDeceleration;
+- (id)tabItemAppearanceStorage;
+- (id)_inertialProjectionDeceleration;
 - (id);
-- (void)LayoutManagerCSgXw;
+- (void)So29_UITabBarContentLayoutManagerCSgXw;
 - (void)hÐyþ;
 - (void)1r;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAcquired) _Bool acquired; // @synthesize acquired=_acquired;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak UIApplicationSceneDeactivationManager *manager; // @synthesize manager=_manager;
-@property(readonly, copy, nonatomic) CDUnknownBlockType predicate; // @synthesize predicate=_predicate;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 
 @end
 

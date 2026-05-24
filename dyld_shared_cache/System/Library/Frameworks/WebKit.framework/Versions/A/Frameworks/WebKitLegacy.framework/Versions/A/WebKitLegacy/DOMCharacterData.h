@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)N%;
 - (void);
 - (void);
 - (id);
@@ -25,12 +25,11 @@
 - (unsigned int);
 - (void);
 - (id);
-- (void);
-- (void)tEnabled;
+- (void)trialMacRoutineEngageModel;
+- (void)MetaViewportInteractiveWidgetEnabled;
 
 // Remaining properties
 @property(copy) NSString *data;
-@property(readonly) unsigned int length;
 
 @end
 

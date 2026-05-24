@@ -9,7 +9,6 @@
 @interface DADAMContainerIDCacheKey
 {
     NSString *_accountID;
-    long long _dataclass;
 }
 
 - (id);
@@ -17,13 +16,12 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)(#Ț;
 - (long long);
-- (void);
+- (void)v;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) long long dataclass; // @synthesize dataclass=_dataclass;
 
 @end
 

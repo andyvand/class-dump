@@ -10,27 +10,21 @@ __attribute__((visibility("hidden")))
 @interface ISLivePhotoSeekBehavior : ISBehavior
 {
     _Bool _isSeeking;
-    _Bool _needsSeek;
-    _Bool _needsTransitionToVideo;
-    unsigned long long _signpostID;
-    CDUnknownBlockType _seekCompletionHandler;
-    CDStruct_1b6d18a9 _seekTime;
 }
 
-- (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_contentOverlayBlueprint;
+- (void)_contentInsets;
+- (CDStruct_1b6d18a9)_componentBlueprintFactory;
+- (CDUnknownBlockType)_componentAnchor;
+- (id)_URLPreviewing;
+- (void)or;
+- (void)Q,N,V_numberOfImages;
+- (void),N;
+- (void)alEligible;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType seekCompletionHandler; // @synthesize seekCompletionHandler=_seekCompletionHandler;
 @property(nonatomic) CDStruct_1b6d18a9 seekTime; // @synthesize seekTime=_seekTime;
 
 @end

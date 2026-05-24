@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGBloomFilterChunkInMemory
 {
     unsigned int _count;
-    unsigned char _buf[49200];
 }
 
-- (_Bool);
+- (_Bool)arrayWithObjects:(CDUnion_e7c9147b)arg1 count: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)getSyncCountThresholdHalfLifeHours;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

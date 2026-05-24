@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKSearchOrderResult
 {
     NSString *_uri;
-    NSString *_orderTypeIdentifier;
-    NSString *_orderIdentifier;
-    NSString *_displayName;
-    NSString *_spotlightDisplayName;
-    NSString *_contentDescription;
-    NSData *_thumbnailData;
 }
 
-+ (_Bool);
++ (_Bool)__cfstring;
 - (id);
+- (void)S;
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -32,20 +26,14 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)_noAckComp;
+- (void);
 - (void)sProvisioningStepState:'%@';  /* Error: Ran out of types for this method. */;
-- (id)ioningNonce;
+- (id)provisioningNonce;
 - (id)¨;
 - (void)Æ²ÿ±mº;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentDescription; // @synthesize contentDescription=_contentDescription;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *orderIdentifier; // @synthesize orderIdentifier=_orderIdentifier;
-@property(copy, nonatomic) NSString *orderTypeIdentifier; // @synthesize orderTypeIdentifier=_orderTypeIdentifier;
-@property(copy, nonatomic) NSString *spotlightDisplayName; // @synthesize spotlightDisplayName=_spotlightDisplayName;
-@property(copy, nonatomic) NSData *thumbnailData; // @synthesize thumbnailData=_thumbnailData;
 @property(copy, nonatomic) NSString *uri; // @synthesize uri=_uri;
 
 @end

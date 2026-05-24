@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITraitCollection, UIView, UIVisualEffectView, UIWindow;
+@class UIVisualEffectView;
 
 @interface _UIVisualEffectEnvironment
 {
     _Bool _allowsDithering;
-    _Bool _useSimpleVibrancy;
-    _Bool _reducedTransperancy;
-    _Bool _reducedMotion;
-    _Bool _windowAppearsKey;
-    _Bool _windowIsFullscreen;
-    UIVisualEffectView *_effectView;
-    long long _blurQuality;
-    UITraitCollection *_traitCollection;
-    UIWindow *_window;
-    UIView *_superview;
 }
 
 - (void);
@@ -29,40 +19,29 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)lightweightPlus;
 - (_Bool);
 - (void);
-- (void);
+- (void)6X;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (_Bool)htForComponent: /* Error: Ran out of types for this method. */;
-- (_Bool)boardLayoutGuideScrollViewOffset;
-- (void)magePaddingForEdgeMarginInNavBar;
-- (void)trategy;
-- (id)lientUsesManualScrollEdgeAppearanceProgressSPI;
+- (_Bool)pickerView:rowHeightForComponent: /* Error: Ran out of types for this method. */;
+- (_Bool)keyboardLayoutGuideScrollViewOffset;
+- (void)_rightImagePaddingForEdgeMarginInNavBar;
+- (void)_currentHostingStrategy;
+- (id)_clientUsesManualScrollEdgeAppearanceProgressSPI;
 - (void);
 - (id)ted user activity to restore scene state:type = %@, title = %@, userInfo = %@ /* Error: Ran out of types for this method. */;
-- (void)pTitleInset;
+- (void)topTitleInset;
 - (_Bool);
 - (void)forEntity_áJ¾76anchort;
 - (id)H;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsBlurring;
-@property(nonatomic) _Bool allowsDithering; // @synthesize allowsDithering=_allowsDithering;
-@property(nonatomic) long long blurQuality; // @synthesize blurQuality=_blurQuality;
 @property(readonly, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(nonatomic) _Bool reducedMotion; // @synthesize reducedMotion=_reducedMotion;
-@property(nonatomic) _Bool reducedTransperancy; // @synthesize reducedTransperancy=_reducedTransperancy;
-@property(nonatomic) __weak UIView *superview; // @synthesize superview=_superview;
-@property(copy, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
-@property(nonatomic) _Bool useSimpleVibrancy; // @synthesize useSimpleVibrancy=_useSimpleVibrancy;
-@property(nonatomic) __weak UIWindow *window; // @synthesize window=_window;
-@property(nonatomic) _Bool windowAppearsKey; // @synthesize windowAppearsKey=_windowAppearsKey;
-@property(nonatomic) _Bool windowIsFullscreen; // @synthesize windowIsFullscreen=_windowIsFullscreen;
 
 @end
 

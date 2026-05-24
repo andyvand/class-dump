@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSString;
 
 @interface MPServerObjectDatabaseAsset
 {
     NSString *_identifier;
-    NSString *_hashedPersonID;
-    long long _flavor;
-    NSURL *_url;
-    NSData *_miniSINF;
-    NSArray *_sinfs;
 }
 
+- (id)pe;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)gEventSource"8@"NSError"16;
 - (id);
 - (long long);
+- (id)CEMEventBase;
 - (id);
-- (id);
-- (void)G_MISSING__;
+- (void)__MPModelRelationshipPodcastEpisodePlaybackPosition__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) long long flavor; // @synthesize flavor=_flavor;
-@property(readonly, copy, nonatomic) NSString *hashedPersonID; // @synthesize hashedPersonID=_hashedPersonID;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSData *miniSINF; // @synthesize miniSINF=_miniSINF;
-@property(readonly, copy, nonatomic) NSArray *sinfs; // @synthesize sinfs=_sinfs;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

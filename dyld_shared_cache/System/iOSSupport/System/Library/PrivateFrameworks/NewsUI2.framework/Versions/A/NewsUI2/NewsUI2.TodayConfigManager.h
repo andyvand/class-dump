@@ -7,15 +7,9 @@
 @interface NewsUI2.TodayConfigManager
 {
     id decoder;
-    id cloudContext;
-    id appConfigManager;
-    id assetManager;
-    id bundleSubscriptionManager;
-    id localNewsChannelService;
-    id testOverrides;
 }
 
-+ (void);
++ (void)Library/Frameworks/EventKit.framework/Versions/A/EventKit;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface HomeKitDaemon.HMDCameraClipRemoteUploaderSession
 {
     id $defaultActor;
-    id bufferManagementService;
-    id sessionID;
-    id lastRequestedStartDate;
-    id stateSnapshotMutex;
 }
 
 @end

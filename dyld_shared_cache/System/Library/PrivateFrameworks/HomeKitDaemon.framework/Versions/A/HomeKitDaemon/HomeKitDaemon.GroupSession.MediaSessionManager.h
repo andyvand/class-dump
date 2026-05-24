@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, OS_dispatch_queue;
+@class NSUUID;
 
 @interface HomeKitDaemon.GroupSession.MediaSessionManager
 {
     id $defaultActor;
-    id messageDispatcher;
-    id workQueue;
-    id identifier;
-    id dataSource;
-    id service;
-    id notificationCenter;
-    id timerManager;
-    id noParticipantTimerContext;
-    id noParticipantTimeOut;
-    id groupSession;
-    id notificationTasks;
 }
 
 - (void);
@@ -29,7 +18,6 @@
 - (id)ôqÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) OS_dispatch_queue *messageReceiveQueue;
 @property(nonatomic, readonly) NSUUID *messageTargetUUID;
 
 @end

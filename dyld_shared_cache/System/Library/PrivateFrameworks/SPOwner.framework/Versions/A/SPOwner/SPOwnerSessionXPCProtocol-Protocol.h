@@ -5,5 +5,19 @@
 //
 
 @protocol SPOwnerSessionXPCProtocol
+- (void);
+- (void)m4;
+- (void)`;
+- (void)a@9;
+- (void);
+- (void)`@9;
+- (void);
+- (void)i@�7;
+- (void);
+- (void));
+- (void)@;
+- (void)permanentlyDeletedMessagesInChatsWithDeletedChatGUIDsAndQueryID;
+- (void);
+- (void)X;
 @end
 

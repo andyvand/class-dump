@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _MFMessageCollector
 {
     NSMutableArray *_messages;
-    _Bool _didCancel;
 }
 
 - (_Bool);
-- (void);
+- (void)ctForFrameFunc"^?"willPerformClientRedirectToURLDelayFireDateForFrameFunc"^?"didChangeLocationWithinPageForFrameFunc"^?"didPushStateWithinPageForFrameFunc"^?"didReplaceStateWithinPageForFrameFunc"^?"didPopStateWithinPageForFrameFunc"^?"willCloseFrameFunc"^?"didStartProvisionalLoadForFrameFunc"^?"didReceiveTitleForFrameFunc"^?"didCommitLoadForFrameFunc"^?"didFailProvisionalLoadWithErrorForFrameFunc"^?"didFailLoadWithErrorForFrameFunc"^?"didFinishLoadForFrameFunc"^?"didFirstLayoutInFrameFunc"^?"didFirstVisuallyNonEmptyLayoutInFrameFunc"^?"didLayoutFunc"^?"didReceiveIconForFrameFunc"^?"didFinishDocumentLoadForFrameFunc"^?"didDisplayInsecureContentFunc"^?"didRunInsecureContentFunc"^?"didDetectXSSFunc"^?"didRemoveFrameFromHierarchyFunc"^?"webThreadDidLayoutFunc"^?};
 - (void);
 - (id);
 - (void);
@@ -23,16 +22,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool didCancel; // @synthesize didCancel=_didCancel;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *messages;
-@property(readonly) _Bool shouldCancel;
-@property(readonly) Class superclass;
 
 @end
 

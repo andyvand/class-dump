@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface TSWPIterativeAttachmentPositioningState
 {
     unsigned long long _passCount;
-    NSArray *_passPositions;
-    double _mismatch;
-    double _smallestMismatch;
-    struct CGPoint _position;
-    struct CGPoint _bestPosition;
 }
 
-- (double);
-- (void);
+- (double)ifiers [modelKind.modelClass cannot be the abstract type MPModelObject] for identifiers:%@ /* Error: Ran out of types for this method. */;
+- (void)SetAutoPlayEnabled;
 - (id);
-- (double);
+- (double)JumpScanningSubscription;
 - (_Bool);
 - (struct CGPoint);
-- (void);
+- (void)0v;
 - (unsigned long long);
 - (void);
 - (id);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint bestPosition; // @synthesize bestPosition=_bestPosition;
-@property(readonly, nonatomic) double mismatch; // @synthesize mismatch=_mismatch;
 @property(readonly, nonatomic) unsigned long long passCount; // @synthesize passCount=_passCount;
-@property(readonly, nonatomic) NSArray *passPositions; // @synthesize passPositions=_passPositions;
-@property(readonly, nonatomic) struct CGPoint position; // @synthesize position=_position;
-@property(readonly, nonatomic) double smallestMismatch; // @synthesize smallestMismatch=_smallestMismatch;
 
 @end
 

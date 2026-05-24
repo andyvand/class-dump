@@ -14,8 +14,8 @@
 }
 
 - (void);
-- (id);
-- (id);
+- (id)k;
+- (id);
 - (void)$;
 - (id)nts:wrappingDatabase:convenienceConfiguration:) /* Error: Ran out of types for this method. */;
 

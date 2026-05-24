@@ -6,71 +6,46 @@
 
 #import <PhotosPlayer/ISBehavior.h>
 
-@protocol ISLivePhotoVitalityBehaviorDelegate;
-
 __attribute__((visibility("hidden")))
 @interface ISLivePhotoVitalityBehavior : ISBehavior
 {
     id _easeOutObserver;
-    id _transitionToPhotoObserver;
-    _Bool _pauseDuringTransition;
-    _Bool _prepared;
-    _Bool _playing;
-    _Bool _playingBeyondPhoto;
-    _Bool _preparing;
-    _Bool __shouldPlayAfterPreparation;
-    float _playRate;
-    double _photoTransitionDuration;
-    unsigned long long _assetOptions;
-    CDStruct_1b6d18a9 _playbackEndTime;
-    CDStruct_1b6d18a9 _playDuration;
 }
 
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (void);
+- (void)_experimentationManager;
+- (void)_componentLayout;
+- (void)_component;
+- (double)_clippingView;
+- (_Bool)_captionView;
+- (_Bool)_animationsAndBehaviorsEnabled;
+- (id)_accessibilitySpeakThisShouldScrollTextRects;
+- (void)nvertibleValue=dQ},R,N,V_left;
+- (unsigned long long)geInsets=dddd},N,V_contentInsets;
+- (void)me;
+- (void)dd}},N;
+- (void)ct={CGPoint=dd}{CGSize=dd}},?,R,N;
+- (_Bool)enter;
+- (void)llScenario;
+- (void)_leftColumnOffset;
+- (_Bool)neHeightConstant;
+- (void)erOfItems;
+- (void),V_loopCount;
+- (void),R,N,V_componentTrait;
+- (void)R,N,V_bannerType;
+- (void)eoPlaybackEnabled;
+- (CDStruct_1b6d18a9)omponents;
+- (void)ement;
 - (CDStruct_1b6d18a9);
 - (long long);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)RKDustRemovalOperation;
+- (_Bool)acquireWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (float);
 
 // Remaining properties
-@property(nonatomic, setter=_setShouldPlayAfterPreparation:) _Bool _shouldPlayAfterPreparation; // @synthesize _shouldPlayAfterPreparation=__shouldPlayAfterPreparation;
-@property(readonly, nonatomic) unsigned long long assetOptions; // @synthesize assetOptions=_assetOptions;
-@property(nonatomic) __weak id <ISLivePhotoVitalityBehaviorDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) _Bool pauseDuringTransition; // @synthesize pauseDuringTransition=_pauseDuringTransition;
-@property(readonly, nonatomic) double photoTransitionDuration; // @synthesize photoTransitionDuration=_photoTransitionDuration;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 playDuration; // @synthesize playDuration=_playDuration;
-@property(readonly, nonatomic) float playRate; // @synthesize playRate=_playRate;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 playbackEndTime; // @synthesize playbackEndTime=_playbackEndTime;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(nonatomic, getter=isPlayingBeyondPhoto, setter=_setPlayingBeyondPhoto:) _Bool playingBeyondPhoto; // @synthesize playingBeyondPhoto=_playingBeyondPhoto;
 @property(nonatomic, getter=isPrepared, setter=_setPrepared:) _Bool prepared; // @synthesize prepared=_prepared;
-@property(nonatomic, getter=_isPreparing, setter=_setPreparing:) _Bool preparing; // @synthesize preparing=_preparing;
 
 @end
 

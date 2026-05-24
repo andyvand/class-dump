@@ -5,5 +5,6 @@
 //
 
 @protocol NSInputFeedbackPerformer
+- (void)terateTrustObjectRevokedBegin failed;
 @end
 

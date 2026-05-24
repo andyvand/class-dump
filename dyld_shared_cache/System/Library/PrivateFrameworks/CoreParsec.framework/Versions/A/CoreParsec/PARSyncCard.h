@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ierGeneric<WebCore:(id)arg1:(id)arg2 ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -24,7 +24,7 @@
 + (float);
 + (id);
 + (void *);
-+ (id);
++ (id);
 + (struct _NSRange);
 + (void *);
 + (_Bool);
@@ -34,12 +34,12 @@
 + (CDStruct_3a8d9e70 *);
 + (CDStruct_3a8d9e70 *);
 + (CDStruct_3a8d9e70 *);
-+ (id);
++ (id)R);
 + (id);
 + (id);
 + (CDStruct_3a8d9e70 *);
 + (id);
-+ (void)or: /* Error: Ran out of types for this method. */;
++ (void)writeFromBuffer:error: /* Error: Ran out of types for this method. */;
 
 @end
 

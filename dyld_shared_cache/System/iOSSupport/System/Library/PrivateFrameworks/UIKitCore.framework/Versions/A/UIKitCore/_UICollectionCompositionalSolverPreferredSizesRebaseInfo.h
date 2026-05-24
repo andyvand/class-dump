@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     _UICollectionPreferredSizes *_preferredSizes;
 }
 
-- (id)ckgroundColor:state:traitCollection: /* Error: Ran out of types for this method. */;
-- (id)PerformedPostConfigurationLayout;
+- (id)effectiveForegroundColorFromBaseColor:baseBackgroundColor:state:traitCollection: /* Error: Ran out of types for this method. */;
+- (id)_hasPerformedPostConfigurationLayout;
 - (void)\,;
 - (id)ÍaÒc;
 

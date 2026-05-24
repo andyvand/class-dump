@@ -7,14 +7,14 @@
 @class NSString, NSURL;
 
 @protocol TSUDownloadItem
++ (void)_permissionsCoordinator;
++ (void)locationDetectionManager;
++ (_Bool)pillViewLayoutAttributesFactory;
+- (long long);
+- (NSString *)LayoutDescriptor;
+- (NSURL *));
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *downloadTaskDescription;
-@property(readonly, nonatomic) NSURL *downloadURL;
-@property(readonly, nonatomic) _Bool needsDownload;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long totalBytesExpectedToBeDownloaded;
 @end
 

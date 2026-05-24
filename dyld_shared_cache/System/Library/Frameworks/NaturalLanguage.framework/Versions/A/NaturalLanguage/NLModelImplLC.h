@@ -6,21 +6,13 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class NLModelConfiguration, NSData, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NLModelImplLC : NLModelImpl
 {
     const void *_maxEntModel;
-    NLModelConfiguration *_configuration;
-    NSDictionary *_labelMap;
-    NSDictionary *_vocabularyMap;
-    NSDictionary *_documentFrequencyMap;
-    unsigned long long _numberOfTrainingInstances;
-    NSData *_modelData;
 }
 
-- (id);
+- (id)Language;
 - (id);
 - (id);
 - (unsigned long long);
@@ -28,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addObservers:(id)arg1 authorizationStatus:(unsigned long long)arg2;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)zg;
+- (id)_createSplatFollowUpItem;
 - (void);
 
 @end

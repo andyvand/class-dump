@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (id);
+- (void)NSt3__120__shared_ptr_emplaceI17CLFamiliarityDataNS_9allocatorIS1_EEEE;
+- (void);
+- (id)+;
 - (void);
 - (void)e output feature named '%@'.;
 

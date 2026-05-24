@@ -8,8 +8,6 @@
 {
     id _state;
     id _isPreviewing;
-    id player;
-    id audioSessionInterruptionNotificationTask;
 }
 
 @end

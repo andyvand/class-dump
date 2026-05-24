@@ -5,6 +5,7 @@
 //
 
 @protocol SXHost
+- (void)So47FCStatelessPersonalizationPublisherFavorabilityC;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active;

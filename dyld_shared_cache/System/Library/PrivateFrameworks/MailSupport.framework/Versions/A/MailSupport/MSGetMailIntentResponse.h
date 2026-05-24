@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MSGetMailIntentResponse
 {
     long long _code;
 }
 
 - (id);
-- (long long);
+- (long long)+;
 - (void);
 
 // Remaining properties
 @property long long code; // @synthesize code=_code;
-@property(copy, nonatomic) NSArray *mails; // @dynamic mails;
 
 @end
 

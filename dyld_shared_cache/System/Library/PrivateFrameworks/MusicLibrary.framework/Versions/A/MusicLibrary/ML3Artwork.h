@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibrary, NSDictionary, NSObject, NSString, NSURL;
+@class ML3MusicLibrary, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ML3Artwork
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    long long _artworkType;
-    long long _sourceType;
-    NSDictionary *_interestDictionary;
-    ML3MusicLibrary *_musicLibrary;
-    NSString *_artworkToken;
-    long long _variantType;
-    NSString *_relativePath;
-    NSURL *_originalFileURL;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)y;
+- (id)shouldCheckForUnintendedChanges;
+- (id)setHighlightsWithDeletedAssets: /* Error: Ran out of types for this method. */;
+- (id)setFacesAdjustmentsFingerprint:(id)arg1;
+- (id)LPhotoLibraryBundleController",N,R,VbundleController;
+- (id)toLibraryBundle",R,W,V_libraryBundle;
+- (id)Bundle",R,N,V_libraryBundle;
+- (id),D,N;
+- (id)tableArray",R,V_socialGroupRecords;
+- (void)ay",C,N,V_personUUIDs;
+- (id)AttributesTrackedForSearch;
+- (id)_connectionForListenerEndpoint:(id)arg1;
+- (id)MIMETypeForExtension:(struct CGSize)arg1;
+- (id)o fetch job configurations for analytics:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (long long);
@@ -43,14 +35,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkToken; // @synthesize artworkToken=_artworkToken;
-@property(readonly, nonatomic) long long artworkType; // @synthesize artworkType=_artworkType;
-@property(retain, nonatomic) NSDictionary *interestDictionary; // @synthesize interestDictionary=_interestDictionary;
 @property(readonly, nonatomic) ML3MusicLibrary *musicLibrary; // @synthesize musicLibrary=_musicLibrary;
-@property(readonly, nonatomic) NSURL *originalFileURL; // @synthesize originalFileURL=_originalFileURL;
-@property(readonly, nonatomic) NSString *relativePath; // @synthesize relativePath=_relativePath;
-@property(readonly, nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly, nonatomic) long long variantType; // @synthesize variantType=_variantType;
 
 @end
 

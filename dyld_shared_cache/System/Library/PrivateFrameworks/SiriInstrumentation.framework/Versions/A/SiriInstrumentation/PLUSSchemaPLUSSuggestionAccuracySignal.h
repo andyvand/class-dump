@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSSuggestionAccuracySignal : SISchemaInstrumentationMessage
 {
     int _signalType;
-    int _signalSource;
-    struct {
-        unsigned int signalType:1;
-        unsigned int signalSource:1;
-    } _has;
 }
 
 - (int);
@@ -24,25 +17,21 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)actions;
 - (void);
 - (int);
 - (id);
 - (id);
-- (id)Second;
+- (id)_imageResizingRateKBsPerSecond;
 - (id)d;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSignalSource;
-@property(nonatomic) _Bool hasSignalType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int signalSource; // @synthesize signalSource=_signalSource;
 @property(nonatomic) int signalType; // @synthesize signalType=_signalType;
 
 @end

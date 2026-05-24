@@ -12,9 +12,6 @@
         unsigned int oldValue:1;
         unsigned int updatedValue:1;
     } _has;
-    int _oldValue;
-    int _updatedValue;
-    NSString *_errorDetail;
 }
 
 + (_Bool);
@@ -35,7 +32,7 @@
 - (id);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,19 +41,7 @@
 - (void)ontacts.framework/Contents/MacOS/Contacts;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *errorDetail; // @synthesize errorDetail=_errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(nonatomic) _Bool hasOldValue;
-@property(nonatomic) _Bool hasUpdatedValue;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int oldValue; // @synthesize oldValue=_oldValue;
-@property(readonly) Class superclass;
-@property(nonatomic) int updatedValue; // @synthesize updatedValue=_updatedValue;
 
 @end
 

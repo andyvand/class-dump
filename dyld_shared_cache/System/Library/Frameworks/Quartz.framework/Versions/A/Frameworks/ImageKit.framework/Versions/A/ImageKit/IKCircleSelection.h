@@ -14,7 +14,7 @@
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (struct CGImage *);
+- (struct CGImage *)P;
 - (_Bool);
 
 @end

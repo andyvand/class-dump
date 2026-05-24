@@ -9,7 +9,6 @@
 @interface ICFallbackSystemTextAttachment
 {
     NSString *_contentIdentifier;
-    NSString *_systemClassName;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contentIdentifier; // @synthesize contentIdentifier=_contentIdentifier;
-@property(readonly, copy, nonatomic) NSString *systemClassName; // @synthesize systemClassName=_systemClassName;
 
 @end
 

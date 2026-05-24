@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _EFSQLCharacterExpression
 {
     unsigned short _character;
@@ -15,18 +13,10 @@
 - (unsigned short);
 - (id);
 - (id);
-- (void)rkForCurrentLocale;
+- (void)ef_directionalMarkForCurrentLocale;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short character; // @synthesize character=_character;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

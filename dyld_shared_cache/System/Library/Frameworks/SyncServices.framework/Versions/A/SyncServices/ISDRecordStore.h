@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDDataDatabase, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSString;
 
 @interface ISDRecordStore
 {
     NSString *_dataDirectory;
-    ISDDataDatabase *_database;
-    NSMutableDictionary *_clientData;
-    NSMutableSet *_filteredTupleReferences;
-    unsigned long long _flushCount;
-    NSMutableDictionary *_segmentNameForEntity;
-    NSMutableDictionary *_truthDatabaseForSegment;
-    NSMutableArray *_truthDatabases;
-    NSMutableSet *_formattedAwayProperties;
-    NSMutableDictionary *_recordIdentifiersToFormattedAwayProperties;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -69,7 +60,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -111,9 +102,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -129,7 +120,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)F;
 - (void);
 - (void);
 - (void);

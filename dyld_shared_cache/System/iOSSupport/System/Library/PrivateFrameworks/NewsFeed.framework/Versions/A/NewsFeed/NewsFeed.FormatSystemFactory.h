@@ -7,16 +7,9 @@
 @interface NewsFeed.FormatSystemFactory
 {
     id userInfo;
-    id featureAvailability;
-    id appConfigManager;
-    id bundleSubscriptionManager;
-    id formatVersion;
-    id offlineManager;
-    id bundleSessionManager;
-    id bundleCampaignSessionManager;
 }
 
-- (id);
+- (id)=;
 - (id);
 - (void)¨wþ/:|Ç$ÿ /* Error: Ran out of types for this method. */;
 

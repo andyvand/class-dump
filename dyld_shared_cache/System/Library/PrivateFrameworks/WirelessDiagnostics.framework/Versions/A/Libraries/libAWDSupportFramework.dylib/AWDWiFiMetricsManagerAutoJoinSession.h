@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiMetricsManagerAutoJoinSession
 {
     unsigned long long _timestamp;
-    NSMutableArray *_records;
-    CDStruct_b5306035 _has;
 }
 
-+ (Class);
++ (Class)j!;
 - (unsigned long long);
+- (void);
+- (id)$;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)N;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)?;
+- (void)hR@9;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)setHasKRxCRCGlitch:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraFragmentHandlingDelegate
+- (void)_senderStrategyController;
 @end
 

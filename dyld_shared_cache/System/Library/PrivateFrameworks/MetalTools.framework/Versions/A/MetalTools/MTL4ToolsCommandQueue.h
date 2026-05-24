@@ -7,23 +7,21 @@
 #import <MetalTools/MTLToolsObject.h>
 
 @class NSMutableArray, NSString;
-@protocol MTL4CommandBuffer, MTLDevice;
 
 @interface MTL4ToolsCommandQueue : MTLToolsObject
 {
     NSMutableArray *_addedResidencySets;
-    id <MTL4CommandBuffer> _lastCommittedCommandBuffer;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)<;
 - (void);
 - (void);
 - (void);
@@ -33,23 +31,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)USE_DEFAULT_COMPUTERNAME_WITHOUT_MODEL;
+- (id)*;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *label;
-@property(readonly, nonatomic) id <MTL4CommandBuffer> lastCommittedCommandBuffer;
-@property(readonly, nonatomic) unsigned long long lastCommittedCommandBufferGeneration;
-@property(readonly) Class superclass;
 
 @end
 

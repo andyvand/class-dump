@@ -6,28 +6,26 @@
 
 #import <IMSharedUtilities/IMSimulatedEntry.h>
 
-@class IMMessageItem, NSArray;
+@class IMMessageItem;
 
 @interface IMSimulatedMessage : IMSimulatedEntry
 {
     IMMessageItem *_item;
-    NSArray *_parts;
 }
 
 + (_Bool);
+- (id)*@;
+- (void)(;
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id)ndle: /* Error: Ran out of types for this method. */;
+- (id)removeCachedBotStatusForHandle: /* Error: Ran out of types for this method. */;
 - (void)e¢L;
 
 // Remaining properties
 @property(retain, nonatomic) IMMessageItem *item; // @synthesize item=_item;
-@property(retain, nonatomic) NSArray *parts; // @synthesize parts=_parts;
 
 @end
 

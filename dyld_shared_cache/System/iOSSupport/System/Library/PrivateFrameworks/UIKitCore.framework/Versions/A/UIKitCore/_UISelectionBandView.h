@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)erAction:(struct CGRect)arg1 withArgument: /* Error: Ran out of types for this method. */;
+- (id)_invokeEditResponderAction:(struct CGRect)arg1 withArgument: /* Error: Ran out of types for this method. */;
 - (void)UIGestureRecognizer",R,N;
 
 @end

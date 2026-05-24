@@ -6,31 +6,30 @@
 
 #import <Suggestions/SGTBaseCollector.h>
 
-@class SGTSpotlightCollectorReserved, SGTSpotlightCollectorWarmingQueryReserved;
+@class SGTSpotlightCollectorReserved;
 
 @interface SGTSpotlightCollector : SGTBaseCollector
 {
     SGTSpotlightCollectorReserved *_reserved2;
-    SGTSpotlightCollectorWarmingQueryReserved *_reservedWarming;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)0;
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)autorelease;
 
 @end
 

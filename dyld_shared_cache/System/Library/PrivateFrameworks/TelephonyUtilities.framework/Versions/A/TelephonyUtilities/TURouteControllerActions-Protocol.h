@@ -5,5 +5,6 @@
 //
 
 @protocol TURouteControllerActions
+- (void).;
 @end
 

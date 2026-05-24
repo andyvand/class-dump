@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EFStoppableScheduler, NSDate;
-@protocol EFAssertableScheduler, _EDLocalCountVerifierDelegate;
-
 @interface _EDLocalCountVerifier
 {
     _Bool _hasFailedVerification;
-    EFStoppableScheduler<EFAssertableScheduler> *_scheduler;
-    EDMessagePersistence *_messagePersistence;
-    id <_EDLocalCountVerifierDelegate> _delegate;
-    NSDate *_lastVerifiedToBeInSync;
 }
 
 - (void);

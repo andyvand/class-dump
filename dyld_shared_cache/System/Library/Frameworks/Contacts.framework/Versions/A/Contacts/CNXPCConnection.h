@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-@protocol CNContactsLogger;
-
 @interface CNXPCConnection
 {
     id _serviceProxy;
-    NSXPCConnection *_connection;
-    id <CNContactsLogger> _logger;
 }
 
 - (id);
@@ -20,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

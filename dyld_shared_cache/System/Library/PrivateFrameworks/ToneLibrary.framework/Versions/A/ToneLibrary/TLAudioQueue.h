@@ -10,7 +10,6 @@
 @interface TLAudioQueue
 {
     NSString *_assumeRunningOnAudioQueueThreadLocalStorageKey;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);

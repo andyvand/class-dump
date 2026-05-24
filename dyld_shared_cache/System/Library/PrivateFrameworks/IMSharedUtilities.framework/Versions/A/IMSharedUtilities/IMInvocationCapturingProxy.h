@@ -9,7 +9,6 @@
 @interface IMInvocationCapturingProxy
 {
     Protocol *_protocol;
-    CDUnknownBlockType _forwardingHandler;
 }
 
 - (id);
@@ -19,11 +18,10 @@
 - (id);
 - (_Bool)¡³"°!CùQL&1Â0@ù
 × ;
-- (void);
+- (void)languagesDictPrivate;
 - (id)-app-retry-time-sec;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType forwardingHandler; // @synthesize forwardingHandler=_forwardingHandler;
 @property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end

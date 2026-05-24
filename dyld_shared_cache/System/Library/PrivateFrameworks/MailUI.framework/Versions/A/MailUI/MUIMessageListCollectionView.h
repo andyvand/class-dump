@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MUIMessageListCollectionView
 {
 }
@@ -17,17 +15,14 @@
 - (id);
 - (struct NSEdgeInsets);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGPoint);
 - (long long)B40@0:(long long)arg1 8@16@24@32;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSEdgeInsets adjustedContentInset;
-@property(nonatomic) struct CGPoint contentOffset;
 @property(readonly, nonatomic) struct CGRect mui_safeVisibleBounds;
-@property(readonly, nonatomic) NSArray *visibleCells;
 
 @end
 

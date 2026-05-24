@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEODynamicContextHyperlinkDetails
 {
     PBUnknownFields *_unknownFields;
-    NSString *_displayedString;
-    int _layoutType;
-    struct {
-        unsigned int has_layoutType:1;
-    } _flags;
 }
 
-+ (_Bool)eIndex:(id)arg1;
++ (_Bool)setHasProblematicLineIndex:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)caseInsensitiveCompare: /* Error: Ran out of types for this method. */;
+- (_Bool)_cn_hasSuffix:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void);
+- (void)sharedObserver;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id)UserOffsetCm:(struct _NSZone *)arg1;
+- (id)setHasLastValidUserOffsetCm:(struct _NSZone *)arg1;
 - (int)ationAddressStrings;
-- (id)arch;
-- (id)n_DEVICE_POINTED_TOO_LOW;
+- (id)GEOPDChildActionSearch;
+- (id)VLFARGeoTrackingStateReason_DEVICE_POINTED_TOO_LOW;
 - (id);
 - (void)V#5;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayedString;
-@property(readonly, nonatomic) _Bool hasDisplayedString;
 @property(nonatomic) _Bool hasLayoutType;
-@property(nonatomic) int layoutType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

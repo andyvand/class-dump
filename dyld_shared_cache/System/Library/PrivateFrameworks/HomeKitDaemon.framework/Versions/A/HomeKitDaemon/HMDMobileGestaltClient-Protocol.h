@@ -7,13 +7,11 @@
 @class NSString;
 
 @protocol HMDMobileGestaltClient
-- (_Bool):options:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)idInfoForDestinations:service:infoTypes:options:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
 - (NSString *)broadcast Home change notification with token %{public}@;
 - (_Bool)ted object IDs for MKFCKSharedUserDataRoot;
 
 // Remaining properties
-@property(readonly) NSString *serialNumber;
-@property(readonly) _Bool supportsReceivingARCStreamOverAirPlay;
 @property(readonly) _Bool supportsSiriHub;
 @end
 

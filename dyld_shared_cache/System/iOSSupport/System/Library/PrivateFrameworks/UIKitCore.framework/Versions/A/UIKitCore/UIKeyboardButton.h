@@ -12,7 +12,7 @@
 }
 
 - (long long);
-- (id);
+- (id)sage:(long long)arg1 %@ with SyndicationAction:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long keyboardButtonStyle; // @synthesize keyboardButtonStyle=_keyboardButtonStyle;

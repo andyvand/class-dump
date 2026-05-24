@@ -4,63 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPlayerController, AVScrubbingGestureConfiguration, AVScrubbingGesturePlatformAdapter, NSString, NSTimer;
-@protocol AVScrubbingGestureControllerDelegate;
+@class AVScrubbingGesturePlatformAdapter;
 
 __attribute__((visibility("hidden")))
 @interface AVScrubbingGestureController
 {
     AVScrubbingGesturePlatformAdapter *_platformAdapter;
-    AVObservationController *_observationController;
-    AVScrubbingGestureConfiguration *_gestureConfiguration;
-    float _currentScrubRate;
-    float _startingMomentumRate;
-    float _initialNormalizedTouchTranslation;
-    float _initialNormalizedTimelinePosition;
-    NSTimer *_scrubMomentumIncrementTimer;
-    float _preScrubbingRate;
-    _Bool _scrubsHaveMomentum;
-    _Bool _enabled;
-    AVPlayerController *_playerController;
-    unsigned long long _state;
-    id <AVScrubbingGestureControllerDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)k!;
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)@32;
+- (void)y.3GkaPH/Sources/Photos/Projects/PhotosFormats/PhotosFormats/PFParallaxLayoutConfiguration.m;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)@connection:%@ didReceiveIncomingMessage:%@ /* Error: Ran out of types for this method. */;
 - (void)1[ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVScrubbingGestureControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AVScrubbingGesturePlatformAdapter *platformAdapter;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(nonatomic) _Bool scrubsHaveMomentum; // @synthesize scrubsHaveMomentum=_scrubsHaveMomentum;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

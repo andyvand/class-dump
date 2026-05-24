@@ -11,7 +11,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)nVC;
++ (id)orientationVC;
 + (double)LÊÍÌxg;
 
 @end

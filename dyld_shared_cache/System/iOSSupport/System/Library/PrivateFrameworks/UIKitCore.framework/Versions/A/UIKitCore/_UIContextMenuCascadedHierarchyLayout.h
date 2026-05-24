@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     _UIContextMenuView *_menuView;
 }
 
+- (void)subAction;
+- (void)errorsFromPartialFailure:(_Bool)arg1;
+- (void)conversationManager:(id)arg1 stateChangedForConversation:(id)arg2 fromOldConversation:(CDUnknownBlockType)arg3;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (struct CGSize);
+- (_Bool)_storageTimerInterval;
+- (id)_isDoingDeleteRecoverySync;
+- (struct CGSize),&,N,V_handlers;
 - (struct CGRect);
 - (struct CAPoint3D);
 - (void);

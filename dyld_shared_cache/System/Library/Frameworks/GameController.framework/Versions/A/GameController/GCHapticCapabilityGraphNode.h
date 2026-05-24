@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface GCHapticCapabilityGraphNode
 {
     _Bool _exposed;
-    NSString *_label;
-    NSMutableArray *_children;
-    NSMutableArray *_actuators;
 }
 
 - (void);
@@ -19,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (id);
 - (id);
@@ -27,17 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *actuators; // @synthesize actuators=_actuators;
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isExposed) _Bool exposed; // @synthesize exposed=_exposed;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
 
 @end
 

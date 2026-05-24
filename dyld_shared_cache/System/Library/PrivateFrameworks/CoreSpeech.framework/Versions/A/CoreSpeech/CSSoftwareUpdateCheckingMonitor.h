@@ -7,10 +7,9 @@
 @interface CSSoftwareUpdateCheckingMonitor
 {
     int _notifyToken;
-    _Bool _isSoftwareUpdateCheckingRunning;
 }
 
-+ (id)edBeforeAnchorTime;
++ (id)_numSamplesProcessedBeforeAnchorTime;
 - (unsigned char);
 - (void);
 - (void);

@@ -8,8 +8,6 @@
 {
     id _showScoreDetail;
     id _showScoreLevelUp;
-    id _score;
-    id _$observationRegistrar;
 }
 
 @end

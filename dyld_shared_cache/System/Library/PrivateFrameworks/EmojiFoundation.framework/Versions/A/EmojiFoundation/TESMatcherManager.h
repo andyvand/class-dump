@@ -9,14 +9,13 @@
 @interface TESMatcherManager
 {
     NSLock *_matcherCacheLock;
-    NSMutableDictionary *_matcherCache;
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)tOnDiskImageStorage"8@?0;
+- (id)@"WBMutableTab"8;
+- (id)B24;
+- (id)an error when tracking a wallet order;
 - (id);
 - (void);
 

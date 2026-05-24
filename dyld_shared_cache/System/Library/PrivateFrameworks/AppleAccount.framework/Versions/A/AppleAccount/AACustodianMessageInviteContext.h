@@ -6,26 +6,24 @@
 
 #import <AppleAccount/AAMessagesInviteContext.h>
 
-@class ACAccount, NSURL;
+@class ACAccount;
 
 @interface AACustodianMessageInviteContext : AAMessagesInviteContext
 {
     ACAccount *_appleAccount;
-    NSURL *_messageURL;
 }
 
+- (id)AcquireKerberosTicket found agent port %d;
+- (id)%d;
+- (id)d;
+- (id)eatePersistentReference for DUPLICATE cert = %d;
+- (void)t";
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)tUUID:encryptionEnvelope:appName:responseIdentities:serverInfo:urlString: /* Error: Ran out of types for this method. */;
+- (void)initWithAccount:WebSessionID:webSessionConsentUUID:encryptionEnvelope:appName:responseIdentities:serverInfo:urlString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(copy, nonatomic) NSURL *messageURL; // @synthesize messageURL=_messageURL;
 
 @end
 

@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
 @interface EDTableStylesCollection : EDCollection
 {
     NSString *mDefaultTableStyleName;
-    NSString *mDefaultPivotStyleName;
 }
 
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_handleMailOrganizerActionWithResponse:(id)arg1;
 - (void)ð;
 
 @end

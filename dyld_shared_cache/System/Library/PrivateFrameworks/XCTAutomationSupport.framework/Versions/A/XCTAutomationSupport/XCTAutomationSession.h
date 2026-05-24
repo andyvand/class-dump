@@ -4,94 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DTXConnection, DTXProxyChannel, NSMutableArray, NSObject, NSString, XCTAnimationsIdleNotifier, XCTCapabilities, XCTElementQueryProcessor, XCTMainRunLoopIdleNotifier;
-@protocol OS_dispatch_queue, XCTAccessibilityFramework, XCTElementSnapshotProvider><XCTElementSnapshotAttributeDataSource, XCTInternalEntitlementChecking;
+@class NSMutableArray;
+@protocol XCTAccessibilityFramework;
 
 @interface XCTAutomationSession
 {
     id <XCTAccessibilityFramework> _accessibilityFramework;
-    id <XCTElementSnapshotProvider><XCTElementSnapshotAttributeDataSource> _dataSource;
-    id <XCTInternalEntitlementChecking> _internalEntitlementChecker;
-    NSMutableArray *_connections;
-    XCTElementQueryProcessor *_queryProcessor;
-    NSObject<OS_dispatch_queue> *_queue;
-    XCTMainRunLoopIdleNotifier *_runLoopIdleMonitor;
-    XCTAnimationsIdleNotifier *_animationIdleNotifier;
-    DTXConnection *_dtxConnection;
-    DTXProxyChannel *_proxyChannel;
-    XCTCapabilities *_remoteInterfaceCapabilities;
 }
 
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
+- (id)+;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)J˟	;
+- (_Bool)qa;
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)Rc;
+- (id);
+- (void);
+- (id);
+- (id)x
+;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)p;
 
 // Remaining properties
-@property(readonly) id <XCTAccessibilityFramework> accessibilityFramework; // @synthesize accessibilityFramework=_accessibilityFramework;
-@property(readonly) _Bool allowsRemoteAccess;
-@property(readonly) XCTAnimationsIdleNotifier *animationIdleNotifier; // @synthesize animationIdleNotifier=_animationIdleNotifier;
 @property(readonly) NSMutableArray *connections; // @synthesize connections=_connections;
-@property(readonly) __weak id <XCTElementSnapshotProvider><XCTElementSnapshotAttributeDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) DTXConnection *dtxConnection; // @synthesize dtxConnection=_dtxConnection;
-@property(readonly) _Bool hasBannerNotificationIsStickyAttribute;
-@property(readonly) unsigned long long hash;
-@property __weak id <XCTInternalEntitlementChecking> internalEntitlementChecker; // @synthesize internalEntitlementChecker=_internalEntitlementChecker;
-@property(readonly) _Bool providesValuesForPrivilegedAttributes;
-@property(readonly) DTXProxyChannel *proxyChannel; // @synthesize proxyChannel=_proxyChannel;
-@property(readonly) XCTElementQueryProcessor *queryProcessor; // @synthesize queryProcessor=_queryProcessor;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) XCTCapabilities *remoteInterfaceCapabilities; // @synthesize remoteInterfaceCapabilities=_remoteInterfaceCapabilities;
-@property(readonly) XCTMainRunLoopIdleNotifier *runLoopIdleMonitor; // @synthesize runLoopIdleMonitor=_runLoopIdleMonitor;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsHostedViewCoordinateTransformations;
-@property(readonly) _Bool usePointTransformationsForFrameConversions;
 
 @end
 

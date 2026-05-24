@@ -6,16 +6,12 @@
 
 #import <NeutrinoCore/NURenderJob.h>
 
-@class CIRenderTask, NUCVPixelBuffer;
-@protocol NUAuxiliaryImage, NUImageProperties;
+@class CIRenderTask;
+@protocol NUImageProperties;
 
 @interface NUAuxiliaryImageRenderJob : NURenderJob
 {
     CIRenderTask *_renderTask;
-    NUCVPixelBuffer *_pixelBuffer;
-    id <NUImageProperties> _imageProperties;
-    id <NUAuxiliaryImage> _auxiliaryImage;
-    long long _auxiliaryImageType;
 }
 
 - (_Bool);
@@ -28,21 +24,19 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)Kit;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void)positionRequestFinished: /* Error: Ran out of types for this method. */;
-- (id)_evaluatedForMode: /* Error: Ran out of types for this method. */;
+- (void)testAndSetVideoCompositionRequestFinished: /* Error: Ran out of types for this method. */;
+- (id)set_evaluatedForMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) id <NUAuxiliaryImage> auxiliaryImage; // @synthesize auxiliaryImage=_auxiliaryImage;
-@property long long auxiliaryImageType; // @synthesize auxiliaryImageType=_auxiliaryImageType;
 @property(retain) id <NUImageProperties> imageProperties; // @synthesize imageProperties=_imageProperties;
 
 @end

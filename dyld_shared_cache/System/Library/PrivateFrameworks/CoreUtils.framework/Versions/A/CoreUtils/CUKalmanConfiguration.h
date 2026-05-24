@@ -7,14 +7,10 @@
 @interface CUKalmanConfiguration
 {
     double _paramR;
-    double _paramQ;
-    double _paramA;
-    double _paramB;
-    double _paramC;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)WDhgDWoJE8/Library/Caches/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/agent.cc:36:MARISA_STATE_ERROR:state_.get() != NULL /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (double);
@@ -23,10 +19,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double paramA; // @synthesize paramA=_paramA;
-@property(readonly, nonatomic) double paramB; // @synthesize paramB=_paramB;
-@property(readonly, nonatomic) double paramC; // @synthesize paramC=_paramC;
-@property(readonly, nonatomic) double paramQ; // @synthesize paramQ=_paramQ;
 @property(readonly, nonatomic) double paramR; // @synthesize paramR=_paramR;
 
 @end

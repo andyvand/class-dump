@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface EMLocalSearchInfo
 {
     _Bool _hasQueryEmbedding;
-    _Bool _hasKeywordResults;
-    _Bool _hasEmbeddingResults;
-    int _queryStatus;
-    NSDictionary *_rankingSignalsByObjectID;
 }
 
 + (_Bool);
@@ -29,11 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasEmbeddingResults; // @synthesize hasEmbeddingResults=_hasEmbeddingResults;
-@property(readonly, nonatomic) _Bool hasKeywordResults; // @synthesize hasKeywordResults=_hasKeywordResults;
-@property(readonly, nonatomic) _Bool hasQueryEmbedding; // @synthesize hasQueryEmbedding=_hasQueryEmbedding;
 @property(readonly, nonatomic) int queryStatus; // @synthesize queryStatus=_queryStatus;
-@property(readonly, copy, nonatomic) NSDictionary *rankingSignalsByObjectID; // @synthesize rankingSignalsByObjectID=_rankingSignalsByObjectID;
 
 @end
 

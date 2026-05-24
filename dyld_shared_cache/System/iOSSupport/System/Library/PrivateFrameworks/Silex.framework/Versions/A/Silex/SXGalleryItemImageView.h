@@ -15,9 +15,9 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id)I;
 - (void)TSWPColumn"32;
-- (id)aInsets;
+- (id)safeAreaInsets;
 
 // Remaining properties
 @property(readonly, nonatomic) SXGalleryItem *galleryItem; // @synthesize galleryItem=_galleryItem;

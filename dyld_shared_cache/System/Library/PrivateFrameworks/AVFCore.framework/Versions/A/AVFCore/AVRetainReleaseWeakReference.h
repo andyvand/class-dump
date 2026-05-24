@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 @interface AVRetainReleaseWeakReference : AVWeakReference
 {
     NSString *_cachedReferencedObjectDescription;
-    id _weakStorage;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Unsupported service type '%@'
+;
 - (id);
 
 @end

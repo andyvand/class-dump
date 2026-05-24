@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface ASDAppLedgerItem
 {
     NSString *_bundleID;
-    NSString *_bundleVersion;
-    NSNumber *_itemID;
-    NSNumber *_versionID;
-    NSDate *_installDate;
-    NSDate *_lastLaunchDate;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)dd}{CGSize=dd}}28d60^{CGPoint=dd}68^{CGRect={CGPoint=dd}{CGSize=dd}}76;
 - (void);
 - (id);
 - (id);
@@ -31,11 +26,6 @@
 
 // Remaining properties
 @property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly) NSDate *installDate; // @synthesize installDate=_installDate;
-@property(readonly) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(readonly) NSDate *lastLaunchDate; // @synthesize lastLaunchDate=_lastLaunchDate;
-@property(readonly) NSNumber *versionID; // @synthesize versionID=_versionID;
 
 @end
 

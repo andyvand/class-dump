@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _EDSenderAttributes
 {
     _Bool _isVIP;
-    _Bool _isContact;
-    _Bool _isCoreRecent;
-    _Bool _isPrimarySender;
 }
 
 - (void);
@@ -25,21 +20,11 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)nnot parse TLOG block without a Base Date;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isContact; // @synthesize isContact=_isContact;
-@property(nonatomic) _Bool isCoreRecent; // @synthesize isCoreRecent=_isCoreRecent;
-@property(nonatomic) _Bool isPrimarySender; // @synthesize isPrimarySender=_isPrimarySender;
-@property(nonatomic) _Bool isVIP; // @synthesize isVIP=_isVIP;
-@property(readonly) Class superclass;
 
 @end
 

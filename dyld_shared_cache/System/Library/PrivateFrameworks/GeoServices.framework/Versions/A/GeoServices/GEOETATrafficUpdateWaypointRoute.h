@@ -4,47 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavigabilityInfo, GEOTraversalTimes, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOETATrafficUpdateWaypointRoute
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_incidentsOnUserWaypointRoutes;
-    GEONavigabilityInfo *_navigabilityInfo;
-    NSMutableArray *_newWaypointRoutes;
-    NSMutableArray *_routeGeniusDescriptions;
-    NSMutableArray *_routeLegs;
-    NSMutableArray *_trafficBannerTexts;
-    GEOTraversalTimes *_traversalTimes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _identifier;
-    unsigned int _userOffsetCm;
-    struct {
-        unsigned int has_identifier:1;
-        unsigned int has_userOffsetCm:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_incidentsOnUserWaypointRoutes:1;
-        unsigned int read_navigabilityInfo:1;
-        unsigned int read_newWaypointRoutes:1;
-        unsigned int read_routeGeniusDescriptions:1;
-        unsigned int read_routeLegs:1;
-        unsigned int read_trafficBannerTexts:1;
-        unsigned int read_traversalTimes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class)guay;
++ (Class)L;
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)tHasRefreshIntervalSeconds:(id)arg1;
++ (_Bool)setHasRefreshIntervalSeconds:(id)arg1;
 - (unsigned int);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (id);
@@ -67,61 +41,48 @@
 - (id);
 - (id);
 - (id);
+- (unsigned long long)valuesForAuditToken:forEntitlements:error: /* Error: Ran out of types for this method. */;
+- (id)valueForKey:onCacheMiss: /* Error: Ran out of types for this method. */;
+- (id)value3;
+- (_Bool)setMainBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)internationalizedFormattedNumber:countryCode: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)t-map.downstream;
+- (void)endableSchedulerDecorator"8;
+- (void)n;
+- (void)//www.linkedin.com/in/%@;
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void)toString;
+- (id)apple.springboard;
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
+- (id)values;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id)oactiveItemType:(struct _NSZone *)arg1;
-- (id)Template;
+- (void)A;
+- (id)setHasProactiveItemType:(struct _NSZone *)arg1;
+- (id)GEOPDPlaceSummaryLayoutTemplate;
 - (unsigned int)qK;
 - (id);
-- (_Bool)ating_submission_details_state;
+- (_Bool)rating_submission_details_state;
 - (id);
 - (void)ÿn;
 - (void)0kÿý8&ö4;
 
 // Remaining properties
 @property(nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasNavigabilityInfo;
-@property(readonly, nonatomic) _Bool hasTraversalTimes;
-@property(nonatomic) _Bool hasUserOffsetCm;
-@property(nonatomic) unsigned int identifier;
-@property(retain, nonatomic) NSMutableArray *incidentsOnUserWaypointRoutes;
-@property(retain, nonatomic) GEONavigabilityInfo *navigabilityInfo;
-@property(retain, nonatomic) NSMutableArray *newWaypointRoutes;
-@property(retain, nonatomic) NSMutableArray *routeGeniusDescriptions;
-@property(retain, nonatomic) NSMutableArray *routeLegs;
-@property(retain, nonatomic) NSMutableArray *trafficBannerTexts;
-@property(retain, nonatomic) GEOTraversalTimes *traversalTimes;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int userOffsetCm;
 
 @end
 

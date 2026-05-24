@@ -13,18 +13,18 @@
     id <NFInternalConfigurationSessionDelegate> _delegate;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)FIRST_UNTITLED_FOLDER;
+- (id)CNContactStore;
+- (id)kABConverterTotalRecordsKey;
+- (id)rray"8@?0;
+- (id)works/CoreSpotlight.framework/Contents/MacOS/CoreSpotlight;
+- (id)CSSearchableItemActionType;
+- (id)FORMAT;
+- (id)sFactory.m;
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)'K;
 - (unsigned long long);
 - (id);
 - (void);

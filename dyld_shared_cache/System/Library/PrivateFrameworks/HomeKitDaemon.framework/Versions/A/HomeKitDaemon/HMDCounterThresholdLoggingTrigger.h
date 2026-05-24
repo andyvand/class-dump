@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol HMDEWSLogging;
-
 __attribute__((visibility("hidden")))
 @interface HMDCounterThresholdLoggingTrigger
 {
     _Bool _uploadImmediately;
-    long long _threshold;
-    NSString *_counterName;
-    id <HMDEWSLogging> _ewsLogger;
 }
 
 - (void);
@@ -28,17 +22,7 @@ __attribute__((visibility("hidden")))
 MA;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *counterName; // @synthesize counterName=_counterName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HMDEWSLogging> ewsLogger; // @synthesize ewsLogger=_ewsLogger;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long threshold; // @synthesize threshold=_threshold;
-@property(readonly, nonatomic) _Bool uploadImmediately; // @synthesize uploadImmediately=_uploadImmediately;
 
 @end
 

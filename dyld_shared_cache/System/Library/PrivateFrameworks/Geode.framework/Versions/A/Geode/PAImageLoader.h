@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PAImageLoader
 {
     _Bool _compositeOnWhiteBackground;
-    _Bool _isTiled;
-    int _blendMode;
-    struct PFIntSize_st _tileSize;
-    struct PFIntSize_st _bandSize;
-    NSDictionary *_cgImageProperties;
-    struct CGImageSource *_imageSource;
-    struct CGColorSpace *_colorSpace;
-    NSDictionary *_imageSourceOptions;
 }
 
 + (unsigned long long);
@@ -28,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (struct CGSize);
 - (struct CGContext *);
 - (id);
@@ -44,11 +34,11 @@
 - (id);
 - (id);
 - (id);
+- (id)6;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (struct CGSize);
 - (void);

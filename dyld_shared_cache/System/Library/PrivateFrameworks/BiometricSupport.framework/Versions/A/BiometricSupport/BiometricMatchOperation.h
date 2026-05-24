@@ -6,22 +6,9 @@
 
 #import <BiometricSupport/BiometricOperation.h>
 
-@class NSData;
-
 @interface BiometricMatchOperation : BiometricOperation
 {
     CDStruct_143f644f _noBioLockoutAuthData;
-    _Bool _forUnlock;
-    _Bool _forCredentialSet;
-    _Bool _forPreArm;
-    _Bool _stopOnSuccess;
-    _Bool _noBioLockout;
-    unsigned int _userID;
-    int _useCase;
-    unsigned int _noBioLockoutUserID;
-    unsigned int _processedFlags;
-    NSData *_selectedIdentitiesBlob;
-    NSData *_acmContext;
 }
 
 - (void);
@@ -33,7 +20,7 @@
 - (void);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (CDStruct_143f644f *);
 - (_Bool);
 - (_Bool);
@@ -48,22 +35,11 @@
 - (id);
 - (int);
 - (int);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *acmContext; // @synthesize acmContext=_acmContext;
-@property(nonatomic) _Bool forCredentialSet; // @synthesize forCredentialSet=_forCredentialSet;
-@property(nonatomic) _Bool forPreArm; // @synthesize forPreArm=_forPreArm;
-@property(nonatomic) _Bool forUnlock; // @synthesize forUnlock=_forUnlock;
-@property(nonatomic) _Bool noBioLockout; // @synthesize noBioLockout=_noBioLockout;
-@property(readonly, nonatomic) CDStruct_143f644f *noBioLockoutAuthData;
-@property(nonatomic) unsigned int noBioLockoutUserID; // @synthesize noBioLockoutUserID=_noBioLockoutUserID;
-@property(nonatomic) unsigned int processedFlags; // @synthesize processedFlags=_processedFlags;
-@property(retain, nonatomic) NSData *selectedIdentitiesBlob; // @synthesize selectedIdentitiesBlob=_selectedIdentitiesBlob;
-@property(nonatomic) _Bool stopOnSuccess; // @synthesize stopOnSuccess=_stopOnSuccess;
-@property(nonatomic) int useCase; // @synthesize useCase=_useCase;
 @property(nonatomic) unsigned int userID; // @synthesize userID=_userID;
 
 @end

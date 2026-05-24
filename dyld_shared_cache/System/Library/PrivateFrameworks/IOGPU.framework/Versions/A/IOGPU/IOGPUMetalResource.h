@@ -4,62 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice, NSString;
-@protocol MTLDevice, MTLHeap;
-
 @interface IOGPUMetalResource
 {
     struct _IOGPUMetalResource _res;
-    IOGPUMetalResource *next;
-    IOGPUMetalResource *prev;
-    unsigned long long uniqueId;
-    IOGPUMetalResource *weakSelf;
-    IOGPUMetalDevice<MTLDevice> *weakDevice;
-    id attachedResourceInfoTraceEmitter;
 }
 
-- (void);
+- (void);
 - (void *);
-- (id);
-- (id);
+- (id)%;
+- (id)h;
 - (id);
 - (struct __IOGPUResource *);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct __CFDictionary *);
 - (void);
-- (void);
+- (void)#;
 - (int);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (struct __CFArray *);
+- (struct __CFArray *)webView:requestDeviceOrientationAndMotionPermissionForOrigin:initiatedByFrame:decisionHandler: /* Error: Ran out of types for this method. */;
 - (void *);
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (int);
+- (id);
+- (int);
 - (unsigned long long);
 - (void);
 - (unsigned int);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void)ntrol entities:(id)arg1 [%lu];
 - (void);
 - (unsigned long long);
 - (void);
@@ -69,34 +60,7 @@
 - (id)refcnt=%d>;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
-@property(nonatomic) __weak id attachedResourceInfoTraceEmitter; // @synthesize attachedResourceInfoTraceEmitter;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) void *metadataVirtualAddress;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly, nonatomic) unsigned int resourceID;
-@property(readonly) unsigned long long resourceOptions;
 @property(readonly) struct __IOGPUResource *resourceRef;
-@property(readonly, nonatomic) unsigned long long resourceSize;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long unfilteredResourceOptions;
-@property(readonly, nonatomic) void *virtualAddress;
-@property(readonly) __weak IOGPUMetalDevice<MTLDevice> *weakDevice; // @synthesize weakDevice;
 
 @end
 

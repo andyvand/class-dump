@@ -6,47 +6,29 @@
 
 #import <HomeKitDaemon/HMDAccessoryProfile.h>
 
-@class HMFStagedValue, NSArray, NSNotificationCenter, NSNumber, NSString, NSUUID;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfile : HMDAccessoryProfile
 {
     struct os_unfair_lock_s _lock;
-    _Bool _manuallyDisabled;
-    unsigned long long _notifications;
-    long long _sessionState;
-    NSUUID *_sessionHubIdentifier;
-    NSString *_siriEndpointVersion;
-    NSArray *_profileServices;
-    HMFStagedValue *_stagedNeedsOnboarding;
-    long long _siriEnable;
-    long long _siriListening;
-    long long _siriTouchToUse;
-    long long _siriLightOnUse;
-    NSString *_siriEngineVersion;
-    NSString *_clientEndpointIdentifier;
-    NSString *_clientSettingsIdentifier;
-    NSNumber *_activeIdentifier;
-    long long _multifunctionButton;
-    NSArray *_assistants;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id);
-+ (id);
++ (id)enumerateNeighborNodesThroughOutEdgesUsingBlock:(id)arg1;
 + (id);
 + (_Bool)ä¾;
 + (void)L1¿ÿ;
 + (id)#Mÿ<;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (long long);
 - (long long);
+- (long long)b;
 - (long long);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -58,13 +40,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)searchTypeAsString:(id)arg1;
+- (id)scheduledTimerWithTimeInterval:(id)arg1 target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
+- (void)sent chunk messageUUID:(id)arg1 %{public}@;
+- (void)from routeInfo (%lu routingPathLegs);
+- (void)%lu participants, but initial state isn't ready (hasWaypoints:(id)arg1 %{public}@, hasETAInfos:%{public}@) /* Error: Ran out of types for this method. */;
+- (void)p muted id %@;
+- (void)abled flag:(id)arg1 %d;
 - (id);
 - (id);
 - (void);
@@ -112,7 +94,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (_Bool);
@@ -122,7 +104,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)ors;
+- (void)numReadErrors;
 - (void)¸Ü;
 - (void)ublic}@Failed to retrieve preferred thread network credentials for staging:(id)arg1 %@;
 - (id)remote message destination:%@ /* Error: Ran out of types for this method. */;
@@ -131,40 +113,11 @@ __attribute__((visibility("hidden")))
 - (void)lic}@Probed an unknown state;
 - (void)HMD.locallyTracked;
 - (void)e pushback;
-- (unsigned long long)MsgArgs;
+- (unsigned long long)kMsgArgs;
 - (id)MØ#9&¸;
 
 // Remaining properties
-@property(readonly, copy) NSArray *_allEndpointCharacteristicsToMonitor;
-@property(readonly, copy) NSArray *_allSettingsCharacteristicsToMonitor;
-@property(readonly) unsigned long long _capability;
-@property(copy) NSNumber *activeIdentifier; // @synthesize activeIdentifier=_activeIdentifier;
-@property(retain) NSArray *assistants; // @synthesize assistants=_assistants;
-@property(readonly) NSString *clientEndpointIdentifier; // @synthesize clientEndpointIdentifier=_clientEndpointIdentifier;
-@property(readonly) NSString *clientSettingsIdentifier; // @synthesize clientSettingsIdentifier=_clientSettingsIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool manuallyDisabled; // @synthesize manuallyDisabled=_manuallyDisabled;
-@property long long multifunctionButton; // @synthesize multifunctionButton=_multifunctionButton;
-@property(readonly) NSNumber *needsOnboarding;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property unsigned long long notifications; // @synthesize notifications=_notifications;
-@property(retain) NSArray *profileServices; // @synthesize profileServices=_profileServices;
-@property(copy) NSUUID *sessionHubIdentifier; // @synthesize sessionHubIdentifier=_sessionHubIdentifier;
-@property long long sessionState; // @synthesize sessionState=_sessionState;
-@property long long siriEnable; // @synthesize siriEnable=_siriEnable;
-@property(copy) NSString *siriEndpointVersion; // @synthesize siriEndpointVersion=_siriEndpointVersion;
-@property(copy) NSString *siriEngineVersion; // @synthesize siriEngineVersion=_siriEngineVersion;
-@property long long siriLightOnUse; // @synthesize siriLightOnUse=_siriLightOnUse;
-@property long long siriListening; // @synthesize siriListening=_siriListening;
-@property(readonly) long long siriSoundOnUse;
-@property long long siriTouchToUse; // @synthesize siriTouchToUse=_siriTouchToUse;
-@property(readonly) HMFStagedValue *stagedNeedsOnboarding; // @synthesize stagedNeedsOnboarding=_stagedNeedsOnboarding;
-@property(readonly) Class superclass;
 
 @end
 

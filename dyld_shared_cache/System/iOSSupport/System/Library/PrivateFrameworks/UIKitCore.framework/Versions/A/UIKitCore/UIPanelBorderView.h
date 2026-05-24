@@ -6,25 +6,20 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIPanelBorderReplicatingView;
+@class UIPanelBorderReplicatingView;
 
 @interface UIPanelBorderView : UIView
 {
     _Bool _draggable;
-    _Bool _renderAsShadow;
-    _Bool _observesTime;
-    long long _statusBarAvoidance;
-    UIPanelBorderReplicatingView *_replicatingView;
-    NSString *_backdropGroupName;
 }
 
 - (long long);
+- (void)j1Q;
 - (void);
-- (void);
-- (void);
+- (void)g;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)one is firing at %@;
 - (long long);
 - (id);
 - (struct CGRect);
@@ -38,12 +33,7 @@
 - (void)îd;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName=_backdropGroupName;
-@property(nonatomic, getter=isDraggable) _Bool draggable; // @synthesize draggable=_draggable;
-@property(nonatomic) _Bool observesTime; // @synthesize observesTime=_observesTime;
-@property(nonatomic) _Bool renderAsShadow; // @synthesize renderAsShadow=_renderAsShadow;
 @property(retain, nonatomic) UIPanelBorderReplicatingView *replicatingView; // @synthesize replicatingView=_replicatingView;
-@property(nonatomic) long long statusBarAvoidance; // @synthesize statusBarAvoidance=_statusBarAvoidance;
 
 @end
 

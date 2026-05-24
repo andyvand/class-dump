@@ -6,73 +6,54 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class CKMovieMediaObject, CKReusableVideoPlayer, CKVideoPlayerReusePool, ChatKit.CKBalloonMaskLayer, NSString, UIView;
-@protocol CKVideoPlayerBalloonViewDelegate;
+@class UIView;
 
 @interface CKVideoPlayerBalloonView : CKImageBalloonView
 {
     _Bool _observingSceneDisconnects;
-    CKMovieMediaObject *_mediaObject;
-    UIView *_playerView;
-    CKReusableVideoPlayer *_reusablePlayer;
-    CKVideoPlayerReusePool *_playerPool;
-    ChatKit.CKBalloonMaskLayer *_videoPlayerMaskLayer;
 }
 
 - (id);
+- (void)t={CGPoint=dd}{CGSize=dd}}24@56Q64B72;
+- (void)t={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
+- (void)textZoomFactor;
+- (void)setSectionIdentifier:(id)arg1;
+- (void)setMediaFilenameExtension:(id)arg1;
+- (void)setImageData:(_Bool)arg1 withSize:scale:appearanceType: /* Error: Ran out of types for this method. */;
+- (void)initWithAttributedString:(id)arg1 animatedRange: /* Error: Ran out of types for this method. */;
+- (void)initWithAttachmentObjectID:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)initWithAttachmentManagedObjectID: /* Error: Ran out of types for this method. */;
+- (void)initWithAttachment:textAttachment:automatic: /* Error: Ran out of types for this method. */;
+- (id)initWithAttachment:textAttachment:automatic: /* Error: Ran out of types for this method. */;
+- (id)drawInContext: /* Error: Ran out of types for this method. */;
+- (_Bool),N,V_presentation;
+- (_Bool)ICNoteEditorIconImageView;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)noteMultitaskingOccurred;
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id)_NSRange=QQ}16;
 - (_Bool);
 - (void)0@ù
 × ;
 - (_Bool)L;
 - (void)ization - likely due to service capabilities.;
-- (void)redServiceToIDMap;
+- (void)CKCallPreferredServiceToIDMap;
 - (void)eceived `%@`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKVideoPlayerBalloonViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKMovieMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(nonatomic, getter=isObservingSceneDisconnects) _Bool observingSceneDisconnects; // @synthesize observingSceneDisconnects=_observingSceneDisconnects;
-@property(retain, nonatomic) CKVideoPlayerReusePool *playerPool; // @synthesize playerPool=_playerPool;
 @property(retain, nonatomic) UIView *playerView; // @synthesize playerView=_playerView;
-@property(retain, nonatomic) CKReusableVideoPlayer *reusablePlayer; // @synthesize reusablePlayer=_reusablePlayer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *videoPlayerMaskLayer; // @synthesize videoPlayerMaskLayer=_videoPlayerMaskLayer;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDateRange, NSDate, NSTextField;
 @protocol CalUIDateItemViewDelegate;
 
 @interface CalUIDateItemView
 {
     _Bool _containsToday;
-    id <CalUIDateItemViewDelegate> _delegate;
-    unsigned long long _unit;
-    NSDate *_date;
-    CalDateRange *_dateRange;
-    NSTextField *_dateText;
 }
 
 + (id);
@@ -23,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -31,12 +25,7 @@
 - (unsigned long long)e;
 
 // Remaining properties
-@property(readonly) _Bool containsToday; // @synthesize containsToday=_containsToday;
-@property(readonly) NSDate *date; // @synthesize date=_date;
-@property(readonly) CalDateRange *dateRange; // @synthesize dateRange=_dateRange;
-@property(readonly) NSTextField *dateText; // @synthesize dateText=_dateText;
 @property(readonly) __weak id <CalUIDateItemViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) unsigned long long unit; // @synthesize unit=_unit;
 
 @end
 

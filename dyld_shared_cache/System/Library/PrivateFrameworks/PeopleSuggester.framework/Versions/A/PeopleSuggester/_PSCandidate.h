@@ -9,37 +9,30 @@
 @interface _PSCandidate
 {
     _Bool _isSystemBundleId;
-    NSString *_domainId;
-    NSString *_derivedIntentId;
-    NSString *_bundleId;
-    NSString *_recipientsId;
 }
 
-+ (id);
-+ (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)_appShortcutId;
++ (_Bool);
+- (void)_contactSuggesterSuggestionMetadataReported;
+- (_Bool)_anyEventPayload;
+- (id)N,V_targetPlugin;
+- (id)tLocale;
+- (id);
+- (id)';
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy, nonatomic) NSString *derivedIntentId; // @synthesize derivedIntentId=_derivedIntentId;
 @property(readonly, copy, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly, copy, nonatomic) NSString *recipientsId; // @synthesize recipientsId=_recipientsId;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AVTEditingPreviewModeOptions
 {
     NSString *_framingMode;
-    NSString *_bodyPosePack;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bodyPosePack; // @synthesize bodyPosePack=_bodyPosePack;
 @property(readonly, nonatomic) NSString *framingMode; // @synthesize framingMode=_framingMode;
 
 @end

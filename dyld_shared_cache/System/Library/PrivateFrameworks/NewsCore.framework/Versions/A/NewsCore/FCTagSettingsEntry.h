@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSNumber, NSString;
+@class NSString;
 
 @interface FCTagSettingsEntry
 {
     _Bool _webAccessOptIn;
-    NSString *_identifier;
-    NSString *_tagID;
-    NSNumber *_fontMultiplier;
-    NSNumber *_fontMultiplierMacOS;
-    NSNumber *_contentScale;
-    NSNumber *_contentScaleMacOS;
-    NSString *_accessToken;
 }
 
 - (_Bool);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)arePublisherDataSessionHandle"16@?<v@?q@"NSString">24;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)alue;
+- (void)dislikeImpressionValue;
 - (id)cated favorite:<%{public}@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessToken; // @synthesize accessToken=_accessToken;
-@property(readonly, nonatomic) CKRecord *asCKRecord;
-@property(readonly, copy, nonatomic) NSNumber *contentScale; // @synthesize contentScale=_contentScale;
-@property(readonly, copy, nonatomic) NSNumber *contentScaleMacOS; // @synthesize contentScaleMacOS=_contentScaleMacOS;
-@property(readonly, copy, nonatomic) NSNumber *fontMultiplier; // @synthesize fontMultiplier=_fontMultiplier;
-@property(readonly, copy, nonatomic) NSNumber *fontMultiplierMacOS; // @synthesize fontMultiplierMacOS=_fontMultiplierMacOS;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *tagID; // @synthesize tagID=_tagID;
-@property(readonly, nonatomic) _Bool webAccessOptIn; // @synthesize webAccessOptIn=_webAccessOptIn;
 
 @end
 

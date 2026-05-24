@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatTextNodeRenderer
 {
     id commandCenter;
-    id computedContext;
 }
 
 @end

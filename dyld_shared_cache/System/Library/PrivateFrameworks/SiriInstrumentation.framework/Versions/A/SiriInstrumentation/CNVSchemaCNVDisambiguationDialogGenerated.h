@@ -6,20 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface CNVSchemaCNVDisambiguationDialogGenerated : SISchemaInstrumentationMessage
 {
     NSArray *_actionCandidateIds;
-    NSString *_dialogType;
-    _Bool _hasDialogType;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)J;
 - (void);
 - (void);
 - (void);
@@ -28,22 +26,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)w;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)t";
-- (id)sult;
+- (id)IFTSchemaIFTStatementResult;
 - (id)äé¤ì;
 - (void)B³ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionCandidateIds; // @synthesize actionCandidateIds=_actionCandidateIds;
-@property(copy, nonatomic) NSString *dialogType; // @synthesize dialogType=_dialogType;
-@property(nonatomic) _Bool hasDialogType; // @synthesize hasDialogType=_hasDialogType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,14 +7,13 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBIntegerValue
+- (_Bool);
+- (void);
 - (_Bool)ommendationId;
-- (void)sageAttributeIntentResponseCodeFailureMessageAttributeNotSet;
-- (_INPBValueMetadata *)eFailureRequiringAppLaunch;
+- (void)INSetMessageAttributeIntentResponseCodeFailureMessageAttributeNotSet;
+- (_INPBValueMetadata *)INStartPhotoPlaybackIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
-@property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) int value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

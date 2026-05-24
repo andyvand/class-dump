@@ -6,33 +6,27 @@
 
 #import <AuthKitUI/AKSignInPromptViewController.h>
 
-@class AKLargeSignInTextFieldBackgroundView, NSImageView, NSStackView, NSView, NSVisualEffectView;
+@class NSStackView;
 
 @interface AKLargeSignInPromptViewController : AKSignInPromptViewController
 {
     NSStackView *_contentStackView;
-    NSImageView *_iconImageView;
-    NSView *_authPromptContainer;
-    AKLargeSignInTextFieldBackgroundView *_passwordFieldBackgroundView;
-    NSView *_separatorView;
-    NSView *_bottomBar;
-    NSVisualEffectView *_bottomBarVisualEffectView;
 }
 
+- (void)SPPreferenceSystemRules;
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
@@ -41,30 +35,24 @@
 - (void);
 - (void);
 - (void);
+- (void)1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)__objc_databytes__TEXT;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *authPromptContainer; // @synthesize authPromptContainer=_authPromptContainer;
-@property(retain, nonatomic) NSView *bottomBar; // @synthesize bottomBar=_bottomBar;
-@property(retain, nonatomic) NSVisualEffectView *bottomBarVisualEffectView; // @synthesize bottomBarVisualEffectView=_bottomBarVisualEffectView;
 @property(retain, nonatomic) NSStackView *contentStackView; // @synthesize contentStackView=_contentStackView;
-@property(retain, nonatomic) NSImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property(retain, nonatomic) AKLargeSignInTextFieldBackgroundView *passwordFieldBackgroundView; // @synthesize passwordFieldBackgroundView=_passwordFieldBackgroundView;
-@property(retain, nonatomic) NSView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end
 

@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INShareFocusStatusIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)Identifier";
++ (int)replyWithContextSize:(long long)arg1 currentContextDrawingBlock: /* Error: Ran out of types for this method. */;
++ (long long)propertiesDict;
++ (_Bool)objectForKey:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)setHapticMotor:(id)arg1 frequency:amplitude: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)k sharing UI service XPC connection;
 - (id);
 - (id);
 - (long long)entTrigger",C;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

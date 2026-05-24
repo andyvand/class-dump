@@ -7,16 +7,13 @@
 @interface UIKit._UIZoomToolbarTransitionController
 {
     id overlay;
-    id isZoomingIn;
-    id temporaryViews;
-    id toolbarSnapshot;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)olOpacities: /* Error: Ran out of types for this method. */;
+- (void)setControlOpacities: /* Error: Ran out of types for this method. */;
 - (void)÷Æÿé;
 - (void)8íþÍ¸§l;
 

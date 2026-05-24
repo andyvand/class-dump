@@ -6,7 +6,7 @@
 
 #import <AVKit/AVSecondScreenConnection.h>
 
-@class AVDisplayCriteria, AVPlayer;
+@class AVDisplayCriteria;
 
 __attribute__((visibility("hidden")))
 @interface AVSecondScreenContentViewConnection : AVSecondScreenConnection
@@ -20,11 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) AVPlayer *player; // @dynamic player;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @dynamic playing;
 @property(retain, nonatomic) AVDisplayCriteria *preferredDisplayCriteria; // @dynamic preferredDisplayCriteria;
-@property(nonatomic, getter=isReadyToConnect) _Bool readyToConnect; // @dynamic readyToConnect;
-@property(nonatomic) _Bool requiresTVOutScreen; // @dynamic requiresTVOutScreen;
 
 @end
 

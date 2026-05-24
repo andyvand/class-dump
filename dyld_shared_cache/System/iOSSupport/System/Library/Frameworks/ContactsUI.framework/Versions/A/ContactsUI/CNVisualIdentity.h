@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNWallpaper, NSArray, NSData, NSString, UIImage;
+@class NSString, UIImage;
 
 @interface CNVisualIdentity
 {
     NSString *_name;
-    NSString *_identifier;
-    NSData *_imageData;
-    NSData *_thumbnailImageData;
-    NSData *_fullscreenImageData;
-    UIImage *_avatarImage;
-    NSString *_abbreviatedName;
-    NSString *_shortenedDisplayName;
-    NSData *_imageHash;
-    NSString *_imageType;
-    NSArray *_contacts;
-    NSArray *_linkedContacts;
-    long long _identityType;
-    NSData *_memojiMetadata;
-    CNWallpaper *_wallpaper;
-    struct CGRect _cropRect;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)onType:onController:sourceView: /* Error: Ran out of types for this method. */;
++ (id)showDisambiguationControllerWithDataSource:actionType:onController:sourceView: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -46,8 +31,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)	;
+- (void)6"4;
 - (void);
 - (void);
 - (long long);
@@ -61,18 +46,18 @@
 - (id);
 - (void);
 - (void);
+- (void)/;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -80,29 +65,11 @@
 - (id);
 - (id);
 - (void);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)avatarCardController:presentationResultForLocation: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abbreviatedName; // @synthesize abbreviatedName=_abbreviatedName;
 @property(retain, nonatomic) UIImage *avatarImage; // @synthesize avatarImage=_avatarImage;
-@property(readonly, nonatomic) long long contactImageSource;
-@property(readonly, nonatomic) unsigned long long contactImageType;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(retain, nonatomic) NSData *fullscreenImageData; // @synthesize fullscreenImageData=_fullscreenImageData;
-@property(readonly, nonatomic) _Bool hasLinkedContacts;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long identityType; // @synthesize identityType=_identityType;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSData *imageHash; // @synthesize imageHash=_imageHash;
-@property(nonatomic) NSString *imageType; // @synthesize imageType=_imageType;
-@property(retain, nonatomic) NSArray *linkedContacts; // @synthesize linkedContacts=_linkedContacts;
-@property(retain, nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *shortenedDisplayName; // @synthesize shortenedDisplayName=_shortenedDisplayName;
-@property(retain, nonatomic) NSData *thumbnailImageData; // @synthesize thumbnailImageData=_thumbnailImageData;
-@property(retain, nonatomic) CNWallpaper *wallpaper; // @synthesize wallpaper=_wallpaper;
 
 @end
 

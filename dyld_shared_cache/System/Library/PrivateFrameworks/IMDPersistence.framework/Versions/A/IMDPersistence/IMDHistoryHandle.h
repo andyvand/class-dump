@@ -9,32 +9,24 @@
 @interface IMDHistoryHandle
 {
     NSString *_serviceName;
-    NSString *_ID;
-    NSString *_accountID;
-    NSString *_loginID;
-    _Bool _isAnonymous;
 }
 
 - (id);
 - (void);
 - (void);
+- (id)C,N,V_escapeAction;
 - (id);
-- (id);
+- (void)_TtC14ChronoServices16StateCaptureItem;
+- (_Bool)KeybagStateProvider;
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setHighlighted:forProperty:identifier:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)stringByRemovingPercentEncoding;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *ID; // @synthesize ID=_ID;
-@property(retain) NSString *accountID; // @synthesize accountID=_accountID;
-@property _Bool isAnonymous; // @synthesize isAnonymous=_isAnonymous;
-@property(retain) NSString *loginID; // @synthesize loginID=_loginID;
 @property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

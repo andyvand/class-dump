@@ -18,8 +18,8 @@
 + (id)Distance Factor;
 - (id);
 - (void);
-- (id)omWithOptions:sourceBarButtonItemProvider: /* Error: Ran out of types for this method. */;
-- (id)aits;
+- (id)zoomWithOptions:sourceBarButtonItemProvider: /* Error: Ran out of types for this method. */;
+- (id)autocorrectionPreferenceForTraits;
 - (void)alEvent;
 - (void);
 

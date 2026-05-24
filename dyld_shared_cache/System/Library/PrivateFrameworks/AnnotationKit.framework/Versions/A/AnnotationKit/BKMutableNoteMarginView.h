@@ -7,7 +7,6 @@
 #import <AnnotationKit/AKNoteMarginView.h>
 
 @class NSString;
-@protocol BKMutableNoteMarginViewDelegate;
 
 @interface BKMutableNoteMarginView : AKNoteMarginView
 {
@@ -15,19 +14,11 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BKMutableNoteMarginViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *mutatedText;
-@property(readonly) Class superclass;
 
 @end
 

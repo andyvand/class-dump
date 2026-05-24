@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccountRepository, NSObject, NSString;
-@protocol OS_os_log;
+@class ABAccountRepository;
 
 @interface ABSummaryOperation
 {
     ABAccountRepository *_accountRepository;
-    NSString *_accountIdentifier;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 
 @end
 

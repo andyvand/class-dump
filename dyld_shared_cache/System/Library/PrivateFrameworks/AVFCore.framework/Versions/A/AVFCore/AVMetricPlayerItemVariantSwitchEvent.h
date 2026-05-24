@@ -6,41 +6,29 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVAssetVariant, AVMetricMediaRendition, NSArray;
+@class AVAssetVariant;
 
 @interface AVMetricPlayerItemVariantSwitchEvent : AVMetricEvent
 {
     AVAssetVariant *_fromVariant;
-    AVAssetVariant *_toVariant;
-    AVMetricMediaRendition *_videoRendition;
-    AVMetricMediaRendition *_audioRendition;
-    AVMetricMediaRendition *_subtitleRendition;
-    NSArray *_loadedTimeRanges;
-    _Bool _didSucceed;
 }
 
 + (_Bool);
+- (id)y",R,C,N,V_personalEntities;
+- (id)EARVoiceCommandArgument;
+- (id);
+- (id)u;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id)aySize:refreshRate: /* Error: Ran out of types for this method. */;
+- (id)_getDisplayVideoRange:displaySize:refreshRate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) AVMetricMediaRendition *audioRendition;
-@property(readonly) _Bool didSucceed;
 @property(readonly) AVAssetVariant *fromVariant;
-@property(readonly) NSArray *loadedTimeRanges;
-@property(readonly) AVMetricMediaRendition *subtitleRendition;
-@property(readonly) AVAssetVariant *toVariant;
-@property(readonly) AVMetricMediaRendition *videoRendition;
 
 @end
 

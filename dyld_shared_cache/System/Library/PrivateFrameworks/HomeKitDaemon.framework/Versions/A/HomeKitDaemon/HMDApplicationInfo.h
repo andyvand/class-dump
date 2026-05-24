@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSHashTable, NSString, NSURL;
+@class NSData, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDApplicationInfo
 {
     NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    _Bool _independent;
-    struct os_unfair_lock_s _lock;
-    NSHashTable *_processes;
 }
 
 + (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id)1C;
++ (id)81C;
 - (id);
 - (id);
 - (id);
@@ -36,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool)°1Â0@ù
 × ;
-- (id)oupModel:message: /* Error: Ran out of types for this method. */;
+- (id)handleRemoveAccessoryNetworkProtectionGroupModel:message: /* Error: Ran out of types for this method. */;
 - (id)À
 <°¤;
 - (id){public}@Successfully removed all users from Accessory:%@ /* Error: Ran out of types for this method. */;
@@ -46,20 +42,6 @@ __attribute__((visibility("hidden")))
 - (void)1@;
 
 // Remaining properties
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSURL *bundleURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEntitledForAPIAccess) _Bool entitledForAPIAccess;
-@property(readonly, getter=isEntitledForSPIAccess) _Bool entitledForSPIAccess;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDApplicationInfo *hostApplicationInfo;
-@property(readonly, getter=isInstalled) _Bool installed;
-@property(readonly, copy) NSArray *processes;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSData *vendorIdentifier;
 
 @end

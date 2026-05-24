@@ -4,69 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, CBDevice, CBL2CAPChannel, CBPeripheral, CBReadRequest, CBServer, CBWriteRequest, NSArray, NSData, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_xpc_object;
-
 @interface CBConnection
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateCompletion;
-    NSUUID *_blePeerUUID;
-    CBCentralManager *_centralManager;
-    NSObject<OS_dispatch_source> *_connectTimeoutTimer;
-    _Bool _guardConnected;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSData *_pairingOOBData;
-    long long _pairingType;
-    CBPeripheral *_peripheral;
-    NSObject<OS_dispatch_source> *_readSource;
-    unsigned char _readSuspended;
-    CBReadRequest *_readRequestCurrent;
-    NSMutableArray *_readRequests;
-    int _socketFD;
-    int _state;
-    NSObject<OS_dispatch_source> *_writeSource;
-    unsigned char _writeSuspended;
-    CBWriteRequest *_writeRequestCurrent;
-    NSMutableArray *_writeRequests;
-    struct LogCategory *_ucat;
-    NSObject<OS_xpc_object> *_xpcCnx;
-    unsigned short _blePSM;
-    unsigned int _useCase;
-    unsigned int _connectionFlags;
-    unsigned int _serviceFlags;
-    unsigned int _clientID;
-    unsigned int _internalFlags;
-    long long _bluetoothState;
-    CDUnknownBlockType _bluetoothStateChangedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _pairingCompletedHandler;
-    CDUnknownBlockType _pairingPromptHandler;
-    NSString *_label;
-    CBDevice *_remoteDevice;
-    NSArray *_useCaseClientIDs;
-    long long _connectionLatency;
-    long long _connectionScanDutyCycle;
-    double _connectTimeoutSeconds;
-    CBDevice *_peerDevice;
-    NSData *_tempLTK;
-    NSString *_clientBundleID;
-    long long _clientUseCase;
-    double _connectedTime;
-    CBL2CAPChannel *_l2capChannel;
-    CBServer *_server;
-    CDUnknownBlockType _serverInvalidationHandler;
-    NSArray *_serviceUUIDs;
-    CDUnknownBlockType _xpcForwardMessageReceiveHandler;
-    NSObject<OS_xpc_object> *_xpcListenerEndpoint;
-    CDUnknownBlockType _xpcSendEventHandler;
 }
 
-+ (id);
++ (id)c	;
 - (void);
 - (void);
 - (void);
@@ -77,11 +20,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)dential"16@"NSURLAuthenticationChallenge"24;
+- (void)descriptionStringForVideoRangeOfFormatDescription:(id)arg1;
+- (_Bool)AVKitData;
+- (void)ol;
+- (void)currentMediaSelection;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -97,10 +40,10 @@
 - (id);
 - (void);
 - (void);
+- (void)__objc_protorefs__DATA_CONST;
+- (id)objectEnumerator;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)kCTSIMToolkitNotificationResponseSuccessNoIcon;
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -113,29 +56,29 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)e, mask.hash}swaiting for interface %s to come up;
+- (void)sponse to PRACK. Terminating session;
+- (id)@d;
+- (void);
+- (void)NSt3__120__shared_ptr_pointerIP19XcapCallerIDManagerNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)h;
+- (void);
 - (unsigned int);
 - (id);
 - (CDUnknownBlockType);
@@ -146,7 +89,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -160,9 +103,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)evictItemWithID:(id)arg1 evictionReason:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)etrieve fileID for %@;
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -176,13 +119,13 @@
 - (unsigned short);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (void)pForDisk:(id)arg1 error:(id)arg2 ];
+- (CDUnknownBlockType)e firmware supports UEFI Windows booting.;
+- (void)P;
 - (void);
 - (long long);
 - (double);
-- (unsigned int);
+- (unsigned int)t;
 - (void);
 - (void);
 - (void);
@@ -190,51 +133,13 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)hour:%@ /* Error: Ran out of types for this method. */;
+- (void)C;
 - (void);
 - (unsigned int)>Æ;
 
 // Remaining properties
-@property(nonatomic) unsigned short blePSM; // @synthesize blePSM=_blePSM;
-@property(readonly, nonatomic) long long bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler; // @synthesize bluetoothStateChangedHandler=_bluetoothStateChangedHandler;
-@property(copy, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
 @property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(nonatomic) long long clientUseCase; // @synthesize clientUseCase=_clientUseCase;
-@property(nonatomic) double connectTimeoutSeconds; // @synthesize connectTimeoutSeconds=_connectTimeoutSeconds;
-@property(nonatomic) double connectedTime; // @synthesize connectedTime=_connectedTime;
-@property(nonatomic) unsigned int connectionFlags; // @synthesize connectionFlags=_connectionFlags;
-@property(nonatomic) long long connectionLatency; // @synthesize connectionLatency=_connectionLatency;
-@property(nonatomic) long long connectionScanDutyCycle; // @synthesize connectionScanDutyCycle=_connectionScanDutyCycle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int internalFlags; // @synthesize internalFlags=_internalFlags;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) CBL2CAPChannel *l2capChannel; // @synthesize l2capChannel=_l2capChannel;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType pairingCompletedHandler; // @synthesize pairingCompletedHandler=_pairingCompletedHandler;
-@property(copy, nonatomic) CDUnknownBlockType pairingPromptHandler; // @synthesize pairingPromptHandler=_pairingPromptHandler;
-@property(retain, nonatomic) CBDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(retain, nonatomic) CBDevice *remoteDevice; // @synthesize remoteDevice=_remoteDevice;
-@property(retain, nonatomic) CBServer *server; // @synthesize server=_server;
-@property(copy, nonatomic) CDUnknownBlockType serverInvalidationHandler; // @synthesize serverInvalidationHandler=_serverInvalidationHandler;
-@property(nonatomic) unsigned int serviceFlags; // @synthesize serviceFlags=_serviceFlags;
-@property(copy, nonatomic) NSArray *serviceUUIDs; // @synthesize serviceUUIDs=_serviceUUIDs;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *tempLTK; // @synthesize tempLTK=_tempLTK;
-@property(nonatomic) unsigned int useCase; // @synthesize useCase=_useCase;
-@property(copy, nonatomic) NSArray *useCaseClientIDs; // @synthesize useCaseClientIDs=_useCaseClientIDs;
-@property(copy, nonatomic) CDUnknownBlockType xpcForwardMessageReceiveHandler; // @synthesize xpcForwardMessageReceiveHandler=_xpcForwardMessageReceiveHandler;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcListenerEndpoint; // @synthesize xpcListenerEndpoint=_xpcListenerEndpoint;
-@property(copy, nonatomic) CDUnknownBlockType xpcSendEventHandler; // @synthesize xpcSendEventHandler=_xpcSendEventHandler;
 
 @end
 

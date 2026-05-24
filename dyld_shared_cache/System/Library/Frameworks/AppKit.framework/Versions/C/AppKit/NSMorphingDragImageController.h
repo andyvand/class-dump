@@ -4,47 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAnimation, NSImage, NSMorphingDragImageView, NSString, NSTabBarItem, NSTearOffTabWindow, NSTimer, NSView, NSWindow;
-@protocol NSMorphingDragImageControllerDragSource, NSTabDraggingDestination;
+@class NSImage, NSTearOffTabWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSMorphingDragImageController
 {
     NSImage *_tabDragImage;
-    NSImage *_windowDragImage;
-    struct CGSize _maxImageSize;
-    struct CGSize _originalViewOffset;
-    NSTabBarItem *_dragItem;
-    id <NSMorphingDragImageControllerDragSource> _dragSource;
-    NSView *_sourceView;
-    NSMorphingDragImageView *_dragImageView;
-    NSAnimation *_slideBackAnimation;
-    struct CGPoint _slideBackStartTranslation;
-    struct CGPoint _slideBackEndTranslation;
-    _Bool _dragDone;
-    NSWindow *_windowUnderMouse;
-    id <NSTabDraggingDestination> _targetUnderMouse;
-    NSTimer *_springTargetWindowToFrontTimer;
-    NSTimer *_periodicEventTimer;
-    _Bool _targetAcceptsDrag;
-    _Bool _mouseOverSystemWindow;
-    NSImage *_pinnedTabDragImage;
-    NSTearOffTabWindow *_dragWindow;
 }
 
-+ (void);
-- (id);
-- (id);
++ (void);
+- (id)eSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1b1}CCCCQICB};
+- (id)taskDependencyDescriptionWithMimeType:(id)arg1 parentURLPath: /* Error: Ran out of types for this method. */;
+- (void)headers for %@ codes %@;
+- (void)> failed to create a background NSURLSessionUploadTask, as remote session is unavailable;
+- (void)plete;
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ulted in!;
+- (void)_NSURLErrorRelatedURLSessionTaskErrorKey;
+- (void)n to the DB=%@ is NOT valid.  Unable to determine schema version.;
 - (void);
 - (void);
 - (void);
@@ -69,14 +49,7 @@ __attribute__((visibility("hidden")))
 - (void)À@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSTearOffTabWindow *dragWindow; // @synthesize dragWindow=_dragWindow;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

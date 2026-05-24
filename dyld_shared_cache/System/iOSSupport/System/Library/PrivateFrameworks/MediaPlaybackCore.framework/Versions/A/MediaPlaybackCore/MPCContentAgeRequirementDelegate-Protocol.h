@@ -5,5 +5,6 @@
 //
 
 @protocol MPCContentAgeRequirementDelegate
+- (void);
 @end
 

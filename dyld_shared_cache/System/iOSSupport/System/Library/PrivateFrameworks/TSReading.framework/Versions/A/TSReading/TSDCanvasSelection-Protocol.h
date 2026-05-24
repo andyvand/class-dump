@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TSDDrawableInfo;
-@protocol TSDContainerInfo;
+@class NSSet, TSDDrawableInfo, TSKSelection;
+@protocol TSDCanvasSelection, TSDContainerInfo;
 
 @protocol TSDCanvasSelection
-- (TSDDrawableInfo<TSDContainerInfo> *)trollerForPresentation: /* Error: Ran out of types for this method. */;
++ (TSKSelection<TSDCanvasSelection> *);
+- (NSSet *)yer path.;
+- (unsigned long long)equests must have the same player path.;
+- (unsigned long long)=;
+- (id);
+- (id);
+- (TSDDrawableInfo<TSDContainerInfo> *)interactionControllerForPresentation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) TSDDrawableInfo<TSDContainerInfo> *container;
-@property(readonly, nonatomic) unsigned long long infoCount;
 @property(readonly, nonatomic) NSSet *infos;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) unsigned long long unlockedInfoCount;
-@property(readonly, nonatomic) NSSet *unlockedInfos;
 @end
 

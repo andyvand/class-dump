@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKVTaskCoalescer, CKVTaskManagerInfo, CKVTaskSettings, NSObject, NSString, NSURL;
-@protocol CCSetEnumerator, CKVDonateTaskProvider;
+@class CKVTaskManagerInfo, NSString;
 
 @interface CKVTaskManager
 {
     NSString *_managerName;
-    NSURL *_rootDirectoryURL;
-    CKVTaskSettings *_settings;
-    CKVTaskCoalescer *_coalescer;
-    NSObject<CCSetEnumerator> *_setEnumerator;
-    NSObject<CKVDonateTaskProvider> *_donateTaskProvider;
-    CKVTaskManagerInfo *_info;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)N;
++ (id)e",&,N;
 - (id);
 - (_Bool);
 - (void);
@@ -30,7 +23,7 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
@@ -38,7 +31,7 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,12 +49,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<CKVDonateTaskProvider> *donateTaskProvider; // @synthesize donateTaskProvider=_donateTaskProvider;
 @property(readonly, nonatomic) CKVTaskManagerInfo *info; // @synthesize info=_info;
-@property(readonly, nonatomic) CKVTaskSettings *settings; // @synthesize settings=_settings;
 
 @end
 

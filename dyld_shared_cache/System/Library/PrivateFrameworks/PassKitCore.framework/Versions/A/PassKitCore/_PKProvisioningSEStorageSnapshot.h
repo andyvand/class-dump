@@ -25,9 +25,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (void);
+- (void)dcpwx	;
 - (void)±Lø=;
 
 @end

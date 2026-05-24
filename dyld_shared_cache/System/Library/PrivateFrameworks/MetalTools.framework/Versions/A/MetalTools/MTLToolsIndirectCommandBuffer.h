@@ -6,9 +6,6 @@
 
 #import <MetalTools/MTLToolsResource.h>
 
-@class NSString;
-@protocol MTLDevice, MTLHeap;
-
 @interface MTLToolsIndirectCommandBuffer : MTLToolsResource
 {
 }
@@ -17,42 +14,15 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long));
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)h ;
 - (struct MTLResourceID);
 - (unsigned long long);
 - (unsigned long long)4;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceIndex; // @dynamic resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,D,N
-
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long size;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
 @property(readonly) unsigned long long uniqueIdentifier;
 
 @end

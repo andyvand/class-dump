@@ -6,31 +6,25 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSSet, RTAccount, RTAccountManager, RTAuthorizedLocationManager, RTBluePOITileManager, RTLearnedLocationManager, RTVisitManager;
+@class RTLearnedLocationManager;
 
 @interface RTVisitConsolidator : RTService
 {
     RTLearnedLocationManager *_learnedLocationManager;
-    RTVisitManager *_visitManager;
-    RTAuthorizedLocationManager *_authorizedLocationManager;
-    RTAccountManager *_accountManager;
-    RTBluePOITileManager *_bluePOITileManager;
-    RTAccount *_currentAccount;
-    NSSet *_categoryDenyList;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)series;
++ (id)dynamic;
++ (id)ta"8@"NSError"16;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void)Data}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)7;
 - (void);
 - (id);
 - (id);
@@ -46,13 +40,7 @@
 - (id)ng expiration date of place subgraph, error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) RTAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(readonly, nonatomic) RTAuthorizedLocationManager *authorizedLocationManager; // @synthesize authorizedLocationManager=_authorizedLocationManager;
-@property(readonly, nonatomic) RTBluePOITileManager *bluePOITileManager; // @synthesize bluePOITileManager=_bluePOITileManager;
-@property(retain, nonatomic) NSSet *categoryDenyList; // @synthesize categoryDenyList=_categoryDenyList;
-@property(readonly, nonatomic) RTAccount *currentAccount; // @synthesize currentAccount=_currentAccount;
 @property(readonly, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

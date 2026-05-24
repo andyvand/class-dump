@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)Migrating siblings to new groupID if needed:(id)arg1 %@;
++ (id)t based on participants and display name:(id)arg1 %@;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 
 @end
 

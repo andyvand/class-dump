@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSFDSOptions, NSNumber, NSString;
+@class ACAccount;
 
 @interface AMSFDSRequest
 {
     ACAccount *_account;
-    NSString *_logKey;
-    AMSFDSOptions *_options;
-    NSNumber *_purchaseIdentifier;
 }
 
 + (_Bool);
@@ -19,7 +16,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)exist for transfer with GUID %@;
 - (id);
 - (void);
 - (id);
@@ -39,10 +36,6 @@
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) unsigned long long accountType;
-@property(copy) NSString *logKey; // @synthesize logKey=_logKey;
-@property(readonly) AMSFDSOptions *options; // @synthesize options=_options;
-@property(readonly, copy) NSNumber *purchaseIdentifier; // @synthesize purchaseIdentifier=_purchaseIdentifier;
 
 @end
 

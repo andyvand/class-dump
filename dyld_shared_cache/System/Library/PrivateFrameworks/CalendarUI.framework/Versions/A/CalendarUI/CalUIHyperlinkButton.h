@@ -9,7 +9,7 @@
 }
 
 + (Class);
-- (void);
+- (void)_;
 
 @end
 

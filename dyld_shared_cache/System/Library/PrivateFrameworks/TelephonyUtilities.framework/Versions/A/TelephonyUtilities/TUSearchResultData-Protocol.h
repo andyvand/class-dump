@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSString;
+@class NSString;
 
 @protocol TUSearchResultData
+- (long long);
+- (NSString *);
 
 // Remaining properties
-@property(readonly) CNContact *backingContact;
-@property(readonly) NSString *backingContactId;
-@property(readonly) NSString *backingContactIdentifier;
-@property(readonly) NSString *callerId;
-@property(readonly) NSString *destinationId;
 @property(readonly) NSString *displayName;
-@property(readonly) NSArray *handles;
-@property(readonly) NSString *isoCountryCode;
-@property(readonly) long long mostRecentCallType;
-@property(readonly) _Bool mostRecentCallWasMissed;
 @end
 

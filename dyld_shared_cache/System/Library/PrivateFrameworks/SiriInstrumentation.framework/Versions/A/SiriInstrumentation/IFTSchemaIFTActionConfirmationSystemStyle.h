@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTActionConfirmationSystemStyleGenerativeAIEnablement, NSData;
+@class IFTSchemaIFTActionConfirmationSystemStyleGenerativeAIEnablement;
 
 @interface IFTSchemaIFTActionConfirmationSystemStyle : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTActionConfirmationSystemStyleGenerativeAIEnablement *_generativeAIEnablement;
-    _Bool _hasGenerativeAIEnablement;
-    unsigned long long _whichOneof_Actionconfirmationsystemstyle;
 }
 
 - (unsigned long long);
@@ -22,23 +20,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)d32d40;
 - (id)!XAùà1Â0@ù
 × ;
-- (id)nceProbability:(id)arg1;
+- (id)setHasClientSilenceProbability:(id)arg1;
 - (id)tL,tPxÀ è0ì4 ||TÄìÄ4Ä èXèX¡0¢£X£8¤È¤¨¥ð¥Ð¦§ø§@¨d©¬©Ðª«ø«@¬d­®¨¯0²T³t´äµL·¹¹ »½x¾P¿,ÀtÀ¼ÕÖäÖLØpÙHÚlÛüÛØÜ ÝDÞÔÞ°ßøßáôáãðãå|æ ç;
 - (void)Ìÿ;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTActionConfirmationSystemStyleGenerativeAIEnablement *generativeAIEnablement; // @synthesize generativeAIEnablement=_generativeAIEnablement;
-@property(nonatomic) _Bool hasGenerativeAIEnablement; // @synthesize hasGenerativeAIEnablement=_hasGenerativeAIEnablement;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichOneof_Actionconfirmationsystemstyle; // @synthesize whichOneof_Actionconfirmationsystemstyle=_whichOneof_Actionconfirmationsystemstyle;
 
 @end
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface __HMFWiFiAssertion : HMFAssertion
 {
     HMFWiFiManager *_manager;
-    unsigned long long _options;
 }
 
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) HMFWiFiManager *manager; // @synthesize manager=_manager;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
 
 @end
 

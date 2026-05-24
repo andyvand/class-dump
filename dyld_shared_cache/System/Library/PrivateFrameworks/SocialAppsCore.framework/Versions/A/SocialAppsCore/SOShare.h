@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKShare, NSSharingExtensionContext, NSString;
+@class CKShare;
 
 @interface SOShare
 {
     _Bool _canEditFlag;
-    _Bool _canInviteParticipantsFlag;
-    CKShare *_ckShare;
-    CKContainer *_ckContainer;
-    NSSharingExtensionContext *_sharingExtensionContext;
-    NSString *_sourceApplicationIdentifier;
 }
 
 - (void);
@@ -26,23 +21,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void)=;
+- (id);
+- (void)sortDescriptorWithKey:ascending: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool canEditFlag; // @synthesize canEditFlag=_canEditFlag;
-@property _Bool canInviteParticipantsFlag; // @synthesize canInviteParticipantsFlag=_canInviteParticipantsFlag;
-@property(copy) CKContainer *ckContainer; // @synthesize ckContainer=_ckContainer;
 @property(copy, setter=setCKShare:) CKShare *ckShare; // @synthesize ckShare=_ckShare;
-@property(copy) NSSharingExtensionContext *sharingExtensionContext; // @synthesize sharingExtensionContext=_sharingExtensionContext;
-@property(copy) NSString *sourceApplicationIdentifier; // @synthesize sourceApplicationIdentifier=_sourceApplicationIdentifier;
 
 @end
 

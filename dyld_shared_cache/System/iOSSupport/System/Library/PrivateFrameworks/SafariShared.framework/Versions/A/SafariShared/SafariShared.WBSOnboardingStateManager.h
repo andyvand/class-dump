@@ -7,7 +7,6 @@
 @interface SafariShared.WBSOnboardingStateManager
 {
     id stateCache;
-    id userDefaults;
 }
 
 @end

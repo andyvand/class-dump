@@ -9,16 +9,14 @@
 @interface JetUI._NSWindowTraitEnvironment
 {
     id window;
-    id viewObservations;
-    JUTraitCollection *traitCollection;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void){;
+- (void)z;
 - (void);
 - (id);
+- (void);
+- (id)DefaultUserRestrictions;
 - (void);
 
 // Remaining properties

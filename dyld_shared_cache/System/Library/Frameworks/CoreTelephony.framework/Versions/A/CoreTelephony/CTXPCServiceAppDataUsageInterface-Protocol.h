@@ -5,5 +5,8 @@
 //
 
 @protocol CTXPCServiceAppDataUsageInterface
+- (void)@4;
+- (void);
+- (void)9h;
 @end
 

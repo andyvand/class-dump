@@ -9,12 +9,12 @@
 }
 
 + (void);
++ (void)GtGGA0_GtGGA0_GA2_tGG;
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
++ (void)B32@?0@"ICSearchResult"8Q16^B24;
++ (id)html;
++ (id)ABCDEF;
 + (void);
 + (id);
 

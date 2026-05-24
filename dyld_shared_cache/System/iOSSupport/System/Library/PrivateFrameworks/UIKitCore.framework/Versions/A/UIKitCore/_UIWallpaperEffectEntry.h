@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void)AccessoriesForCompactMenu:(id)arg1;
-- (void)ns;
-- (_Bool)ate;
+- (void)setShowsAccessoriesForCompactMenu:(id)arg1;
+- (void)_textDragOptions;
+- (_Bool)UITextViewDelegate;
 - (id)son:%{public}s /* Error: Ran out of types for this method. */;
 - (void)ansfer an animation to an animation state that does not belong to a property animator.;
-- (void)nfigurationStateCSg;
+- (void)So24UIViewConfigurationStateCSg;
 
 // Remaining properties
 @property(retain) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

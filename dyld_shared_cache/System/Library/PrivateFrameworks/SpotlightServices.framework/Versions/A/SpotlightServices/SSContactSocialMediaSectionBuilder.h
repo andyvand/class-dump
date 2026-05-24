@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-- (id);
++ (id)enewalRequest"24;
+- (id)quotedTextForStyle: /* Error: Ran out of types for this method. */;
 
 @end
 

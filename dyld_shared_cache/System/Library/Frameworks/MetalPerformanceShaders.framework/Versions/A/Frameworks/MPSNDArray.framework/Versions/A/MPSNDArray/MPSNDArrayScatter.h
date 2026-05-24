@@ -6,13 +6,9 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryKernel.h>
 
-@class MPSNDArrayIdentity;
-
 @interface MPSNDArrayScatter : MPSNDArrayMultiaryKernel
 {
     int _operation;
-    unsigned long long _batchDimensions;
-    MPSNDArrayIdentity *_identity;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -29,7 +25,6 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchDimensions; // @synthesize batchDimensions=_batchDimensions;
 @property(readonly, nonatomic) int operation; // @synthesize operation=_operation;
 
 @end

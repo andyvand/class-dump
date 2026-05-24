@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (unsigned long long);
 - (unsigned long long);

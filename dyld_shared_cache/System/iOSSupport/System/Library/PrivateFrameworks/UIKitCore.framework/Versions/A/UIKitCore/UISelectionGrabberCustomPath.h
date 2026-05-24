@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface UISelectionGrabberCustomPath
 {
     double _lineWidth;
-    struct CGPoint _topPoint;
-    struct CGPoint _bottomPoint;
 }
 
-- (struct CGPoint);
+- (struct CGPoint)_canHandleSMSMessages;
 - (void);
-- (_Bool);
-- (struct CGRect);
-- (struct CGPoint);
-- (id);
+- (_Bool)rvices:%d numberOfMessagesBefore:%d numberOfMessagesAfter:%d /* Error: Ran out of types for this method. */;
+- (struct CGRect)n query request on guid:%@ for:%@ and received response actionResponse:%ld, subActionResponse:%ld /* Error: Ran out of types for this method. */;
+- (struct CGPoint)egory %ld sub category %ld;
+- (id)astDoor finished processing SMSFilteringSettingsMessage. Success = (%@), error = (%@).;
 - (void);
 - (id);
 - (id);
@@ -26,11 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint bottomPoint; // @synthesize bottomPoint=_bottomPoint;
-@property(readonly, nonatomic) struct CGRect boundingEdgeRect;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) _Bool containsZeroPoint;
-@property(nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;
 @property(nonatomic) struct CGPoint topPoint; // @synthesize topPoint=_topPoint;
 
 @end

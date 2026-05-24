@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath;
+@class UIBezierPath;
 
 @interface _UIShape
 {
     UIBezierPath *_path;
-    double _cornerRadius;
-    NSString *_cornerCurve;
-    unsigned long long _cornerMask;
-    struct CGRect _rect;
-    struct CACornerRadii _cornerRadii;
 }
 
-+ (id);
++ (id)CEMSystemWebContentFilterDeclaration;
 + (id);
 + (id);
 + (id);
@@ -30,27 +25,17 @@
 × ;
 - (_Bool)UITextInputTraits"16@0:(id)arg1 8;
 - (_Bool)er"16@"UIPress"24;
-- (struct CACornerRadii);
-- (struct CGRect)edAppKitFocus: /* Error: Ran out of types for this method. */;
-- (id)edStrokes;
+- (struct CACornerRadii)empty;
+- (struct CGRect)_sceneGainedAppKitFocus: /* Error: Ran out of types for this method. */;
+- (id)_accumulatedStrokes;
 - (id)T,@;
 - (id)èÿÀÖèÿôÖèÿ×èÿd×èÿ×èÿ¸×èÿ ÜèÿÜÜèÿàèÿ¤àèÿlãèÿäèÿääèÿ0åèÿHåèÿåèÿæèÿ@æèÿìæèÿ(çèÿLçèÿpçèÿ¼çèÿÈçèÿÌèèÿ0éèÿDêèÿêèÿíèÿ;
 - (double)plication state or doesn't implement state restoration, clearing previous saved state.;
-- (void)StateReadonlyCoreListMetricsState;
+- (void)_UICellConfigurationStateReadonlyCoreListMetricsState;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) NSString *cornerCurve; // @synthesize cornerCurve=_cornerCurve;
-@property(readonly, nonatomic) unsigned long long cornerMask; // @synthesize cornerMask=_cornerMask;
-@property(readonly, nonatomic) struct CACornerRadii cornerRadii; // @synthesize cornerRadii=_cornerRadii;
-@property(readonly, nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) _Bool isRect;
-@property(readonly, nonatomic) UIBezierPath *outline;
 @property(readonly, nonatomic) UIBezierPath *path; // @synthesize path=_path;
-@property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) _UIShape *zeroOriginShape;
 
 @end
 

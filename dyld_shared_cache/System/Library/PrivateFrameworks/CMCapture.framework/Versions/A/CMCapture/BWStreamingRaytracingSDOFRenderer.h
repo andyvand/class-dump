@@ -22,17 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ZÿîYÿ÷YÿÿYÿÿYÿÿYÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adjustsMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAnimation;
-@property(readonly, nonatomic) short type;
 
 @end
 

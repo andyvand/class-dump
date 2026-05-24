@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFUserActivityData
+- (void)isEyeReliefEnabled;
+- (void)ableIndexSet";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *userInfo;
 @end
 

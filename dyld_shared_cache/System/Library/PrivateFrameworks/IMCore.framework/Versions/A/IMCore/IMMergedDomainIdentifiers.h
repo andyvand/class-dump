@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IMMergedDomainIdentifiers
 {
     id mergedDomainIdentifiers;
 }
 
-- (void);
+- (void)r=%d, isInternalBuild=%d;
+- (id)d;
+- (id)MAlertUpdateMessage message is nil;
+- (id)etting:(id)arg1 Found experiment group. decayFactorExperimentGroup=%d;
+- (id)s:(id)arg1 %d Waiting for bag load.;
+- (id)ncedEmbeddedSpecific=%{BOOL}d, result=%{BOOL}d;
+- (id)essage=%@ with error=%@;
+- (id)ror=%@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)cted! Group Chat is missing latest identifier in iMessageGroupID domain, but groupID is non-nil:%@. Please file a radar! /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *allChatGUIDs;
-@property(nonatomic, readonly) NSArray *allIdentifiers;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isEmpty;
 
 @end
 

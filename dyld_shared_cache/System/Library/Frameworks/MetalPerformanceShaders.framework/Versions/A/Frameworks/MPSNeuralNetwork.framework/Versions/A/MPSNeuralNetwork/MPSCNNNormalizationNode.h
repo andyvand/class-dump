@@ -9,8 +9,6 @@
 @interface MPSCNNNormalizationNode : MPSNNFilterNode
 {
     float _alpha;
-    float _beta;
-    float _delta;
 }
 
 + (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float beta; // @synthesize beta=_beta;
-@property(nonatomic) float delta; // @synthesize delta=_delta;
 
 @end
 

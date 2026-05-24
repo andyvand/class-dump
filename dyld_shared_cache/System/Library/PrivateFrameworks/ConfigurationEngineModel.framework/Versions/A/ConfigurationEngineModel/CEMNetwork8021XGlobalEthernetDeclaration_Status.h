@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)__AUTH_CONST;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)json;
 
 @end
 

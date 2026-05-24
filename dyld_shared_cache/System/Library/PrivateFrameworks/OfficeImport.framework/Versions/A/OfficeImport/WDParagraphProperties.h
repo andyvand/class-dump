@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WDCharacterProperties, WDDocument, WDParagraphPropertiesValues;
+@class WDCharacterProperties, WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDParagraphProperties
 {
     WDCharacterProperties *mCharacterProperties;
-    _Bool mCharacterPropertiesOverridden;
-    unsigned int mOriginal:1;
-    unsigned int mTracked:1;
-    unsigned int mResolved:1;
-    WDParagraphPropertiesValues *mOriginalProperties;
-    WDParagraphPropertiesValues *mTrackedProperties;
-    WDDocument *mDocument;
 }
 
 - (BOOL);
@@ -37,6 +30,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,35 +50,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)
++;
 - (void);
+- (void)H;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (short)q`;
 - (short);
-- (short);
 - (id);
-- (int);
+- (int);
 - (void);
 - (int);
-- (unsigned short);
+- (unsigned short)R;
 - (void);
 - (id);
-- (id);
+- (id)B9`;
 - (id);
 - (id);
 - (id);
@@ -98,6 +92,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)K;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -118,14 +119,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -148,7 +142,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)a;
 - (short);
 - (void);
 - (_Bool);
@@ -158,7 +152,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (_Bool);
 - (id);
 - (id);
@@ -183,11 +177,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (short);
-- (CDStruct_8835774c);
+- (CDStruct_5c52f79b);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (long long);
@@ -195,14 +189,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)m;
 - (long long);
 - (void);
 - (long long);
 - (short);
 - (void);
-- (id);
-- (void);
+- (id)ended;
+- (void)!$;
 - (void);
 - (void)/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/sf/SFUGZipFileInputStream.m;
 - (id)À;

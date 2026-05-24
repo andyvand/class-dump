@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSUUID;
+@class NSString;
 
 @interface CNKNoticeRecipe
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSImage *_image;
-    NSString *_primaryActionTitle;
-    NSString *_secondaryActionTitle;
-    NSUUID *_uuid;
-    long long _type;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id);
+- (id)*;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)$;
 - (long long);
-- (void);
+- (void)accessibilityBaseColor;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSString *primaryActionTitle; // @synthesize primaryActionTitle=_primaryActionTitle;
-@property(readonly, copy, nonatomic) NSString *secondaryActionTitle; // @synthesize secondaryActionTitle=_secondaryActionTitle;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

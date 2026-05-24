@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIKaleidoscope : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputCount;
-    CIVector *inputCenter;
-    NSNumber *inputAngle;
 }
 
 + (id);
@@ -24,16 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (id);
 - (id)_so{ooooLVK\ML>QY[U[ooootzza~}]rkxzzzzJ]Re5K9]I\QizzzzxxxxO^RmQf\tpvcnfzLdZyk{zrrnr`f^j[d\hYf_jac]j^gfg]]]]2F:O8H<N[[Z[cnjq±±±±¸¸¸¸¤¤¤¤`voTi^w~~|~czxkwvzMe_kUSFX=J<SQb]dwwwwvvvv /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) NSNumber *inputCount; // @synthesize inputCount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

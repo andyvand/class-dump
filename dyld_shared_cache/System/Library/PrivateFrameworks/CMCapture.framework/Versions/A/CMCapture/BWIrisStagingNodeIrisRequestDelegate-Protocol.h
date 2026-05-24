@@ -5,6 +5,8 @@
 //
 
 @protocol BWIrisStagingNodeIrisRequestDelegate
-- (void)RawEnabled;
+- (void);
+- (void);
+- (void)temporalNoiseReductionRawEnabled;
 @end
 

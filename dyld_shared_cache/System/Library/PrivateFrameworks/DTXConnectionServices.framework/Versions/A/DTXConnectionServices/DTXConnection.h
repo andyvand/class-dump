@@ -4,51 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DTXChannel, DTXMessageParser, DTXMessageTransmitter, DTXResourceTracker, DTXTransport, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol DTXBlockCompressor, OS_dispatch_queue, OS_dispatch_semaphore;
+@class DTXChannel, NSString;
 
 @interface DTXConnection
 {
     NSString *_label;
-    NSObject<OS_dispatch_queue> *_outgoing_message_queue;
-    NSObject<OS_dispatch_queue> *_outgoing_control_queue;
-    DTXTransport *_controlTransport;
-    NSSet *_permittedBlockCompressors;
-    NSObject<OS_dispatch_queue> *_receive_queue;
-    NSObject<OS_dispatch_queue> *_handler_queue;
-    unsigned int _nextChannelCode;
-    NSMutableDictionary *_channelsByCode;
-    NSMutableDictionary *_unconfiguredChannelsByCode;
-    NSMutableDictionary *_handlersByIdentifier;
-    NSMutableArray *_protocolHandlers;
-    NSMutableDictionary *_localCapabilityVersions;
-    NSMutableDictionary *_localCapabilityClasses;
-    NSDictionary *_remoteCapabilityVersions;
-    NSMutableArray *_capabilityOverrideBlocks;
-    DTXResourceTracker *_resourceTracker;
-    DTXResourceTracker *_incomingResourceTracker;
-    NSObject<OS_dispatch_semaphore> *_firstMessageSem;
-    DTXMessageParser *_incomingParser;
-    DTXMessageTransmitter *_outgoingTransmitter;
-    DTXChannel *_defaultChannel;
-    _Bool _tracer;
-    _Bool _remoteTracer;
-    int _connectionIndex;
-    CDUnknownBlockType _channelHandler;
-    unsigned long long _logMessageCallstackSizeThreshold;
-    int _remoteCompressionCapabilityVersion;
-    int _newChannelCompressionHint;
-    int _compressionTypeForUnspecified;
-    unsigned long long _compressionMinSizeThreshold;
-    id <DTXBlockCompressor> _compressor;
 }
 
 + (void);
 + (void);
-+ (id);
++ (id);
 + (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +24,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -75,20 +43,20 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id)J;
 - (id);
-- (id);
-- (id);
+- (id)qa;
 - (void);
-- (void);
-- (id);
-- (void);
-- (int);
 - (void);
 - (id);
 - (void);
+- (int)3;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -101,7 +69,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)(X;
 - (id);
 - (id);
 - (void);
@@ -109,23 +77,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int atomicConnectionNumber; // @synthesize atomicConnectionNumber=_connectionIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, retain, nonatomic) DTXChannel *defaultChannel;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned long long maximumEnqueueSize;
-@property(nonatomic) _Bool remoteTracer; // @synthesize remoteTracer=_remoteTracer;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tracer; // @synthesize tracer=_tracer;
 
 @end
 

@@ -6,28 +6,15 @@
 
 #import <SiriUI/SiriUICollectionViewItem.h>
 
-@class AFDataStore, NCCardViewController, NSImage, NSStackView, NSString, NSView, SiriSharedUITranscriptItem, SiriUICardContentViewController, SiriUICardHeaderViewController, SiriUICardView, SiriUISnippetControllerCell, SiriUISnippetViewController;
-@protocol SiriUICardDelegate;
+@class NSStackView;
 
 @interface SiriUICard : SiriUICollectionViewItem
 {
     _Bool _hasSash;
-    NSImage *_dragOutImage;
-    NSString *_summaryTitle;
-    NSString *_summaryImagePath;
-    SiriUICardContentViewController *_contentController;
-    SiriUISnippetControllerCell *_cellView;
-    id <SiriUICardDelegate> _delegate;
-    AFDataStore *_dataStore;
-    SiriUICardView *_cardView;
-    NSStackView *_containerView;
-    NSView *_cardContent;
-    NSView *_supplementaryHeaderView;
-    NCCardViewController *_cardViewController;
 }
 
 + (id);
-+ (double);
++ (double)layoutManager:paragraphSpacingAfterGlyphAtIndex:withProposedLineFragmentRect: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -37,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -48,21 +35,21 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
+- (id)X�\�;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)cn_caplinePointFromBaselinePoint: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -73,32 +60,10 @@
 × ;
 - (void)
 × ;
-- (id)getUserVoiceProfileWithProvider: /* Error: Ran out of types for this method. */;
+- (id)controller:getUserVoiceProfileWithProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak NSView *cardContent; // @synthesize cardContent=_cardContent;
-@property __weak SiriUICardView *cardView; // @synthesize cardView=_cardView;
-@property(retain) NCCardViewController *cardViewController; // @synthesize cardViewController=_cardViewController;
-@property __weak SiriUISnippetControllerCell *cellView; // @synthesize cellView=_cellView;
 @property __weak NSStackView *containerView; // @synthesize containerView=_containerView;
-@property(retain) SiriUICardContentViewController *contentController; // @synthesize contentController=_contentController;
-@property(retain) AFDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUICardDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSImage *dragOutImage; // @synthesize dragOutImage=_dragOutImage;
-@property _Bool hasSash; // @synthesize hasSash=_hasSash;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SiriUICardHeaderViewController *headerController;
-@property(readonly) SiriUISnippetViewController *snippetViewController;
-@property(readonly) NSString *summaryImagePath; // @synthesize summaryImagePath=_summaryImagePath;
-@property(readonly) NSString *summaryTitle; // @synthesize summaryTitle=_summaryTitle;
-@property(readonly) Class superclass;
-@property __weak NSView *supplementaryHeaderView; // @synthesize supplementaryHeaderView=_supplementaryHeaderView;
-@property(readonly) SiriSharedUITranscriptItem *transcriptItem;
 
 @end
 

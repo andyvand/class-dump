@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPArtworkColorAnalysis.h>
 
-@class NSArray, NSNumber, UIColor;
+@class UIColor;
 
 @interface MPMutableArtworkColorAnalysis : MPArtworkColorAnalysis
 {
@@ -14,6 +14,7 @@
 
 - (void);
 - (void);
+- (void)34567;
 - (void);
 - (void);
 - (void);
@@ -24,23 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)/;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;
-@property(nonatomic, getter=isBackgroundColorLight) _Bool backgroundColorLight; // @dynamic backgroundColorLight;
-@property(retain, nonatomic) UIColor *gradientColor; // @dynamic gradientColor;
-@property(retain, nonatomic) NSNumber *gradientColorEndPosition; // @dynamic gradientColorEndPosition;
-@property(retain, nonatomic) NSNumber *gradientColorStartPosition; // @dynamic gradientColorStartPosition;
-@property(retain, nonatomic) NSArray *gradientTextColors; // @dynamic gradientTextColors;
-@property(retain, nonatomic) UIColor *primaryTextColor; // @dynamic primaryTextColor;
-@property(nonatomic, getter=isPrimaryTextColorLight) _Bool primaryTextColorLight; // @dynamic primaryTextColorLight;
-@property(retain, nonatomic) UIColor *quaternaryTextColor; // @dynamic quaternaryTextColor;
-@property(retain, nonatomic) UIColor *secondaryTextColor; // @dynamic secondaryTextColor;
-@property(nonatomic, getter=isSecondaryTextColorLight) _Bool secondaryTextColorLight; // @dynamic secondaryTextColorLight;
-@property(retain, nonatomic) UIColor *tertiaryTextColor; // @dynamic tertiaryTextColor;
-@property(nonatomic, getter=isTertiaryTextColorLight) _Bool tertiaryTextColorLight; // @dynamic tertiaryTextColorLight;
 
 @end
 

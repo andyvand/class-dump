@@ -9,8 +9,6 @@
 @interface UITableViewRow
 {
     long long _indentationLevel;
-    UITableViewCell *_cell;
-    double _height;
 }
 
 + (id)Ô ;
@@ -21,7 +19,7 @@
 - (long long);
 - (double)1Â0@ù
 × ;
-- (void)Identifier:(id)arg1 cellClass:handler:cellReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithIdentifier:(id)arg1 cellClass:handler:cellReuseIdentifier: /* Error: Ran out of types for this method. */;
 - (void)Ü?@;
 - (void)pÙIÿ;
 

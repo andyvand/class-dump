@@ -6,30 +6,21 @@
 
 #import <CoreData/NSStoreMapping.h>
 
-@class NSArray, NSKnownKeysDictionary, NSManagedObjectModel;
+@class NSManagedObjectModel;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLModel : NSStoreMapping
 {
     NSManagedObjectModel *_mom;
-    NSKnownKeysDictionary *_entitiesByName;
-    NSArray *_entities;
-    id *_entityDescriptionToSQLMap;
-    unsigned long long _brokenHashVersion;
-    _Bool _retainLeopardStyleDictionaries;
-    _Bool _modelHasPrecomputedKeyOrder;
-    _Bool _hasVirtualToOnes;
-    unsigned int _entityIDOffset;
-    unsigned int _lastEntityID;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)8;
 - (id);
-- (id);
-- (id);
+- (id)";
 - (_Bool);
 - (id);
 

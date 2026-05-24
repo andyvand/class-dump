@@ -9,17 +9,15 @@
 @interface CXServiceDomain
 {
     NSString *_name;
-    NSString *_machName;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)_setSidecarDictionary:passkeyAdditionsDictionary:type:credential:htmlFormProtectionSpace:groupID:fromRecentlyDeleted: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *machName; // @synthesize machName=_machName;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -13,6 +13,7 @@
 
 + (_Bool);
 - (void);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -20,8 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)setName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak AXKApplicationController *_applicationController; // @synthesize _applicationController=__applicationController;

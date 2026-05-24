@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet;
-@protocol OS_dispatch_queue;
-
 @interface FBSProfileManager
 {
     _Bool _started;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSSet *_workQueue_managedApplicationBundleIDs;
-    NSMutableDictionary *_workQueue_profilesBySignerIdentity;
 }
 
 + (id);
@@ -20,11 +14,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)b?;
+- (void)%{public}@ from now on;
 - (_Bool);
 - (void);
 

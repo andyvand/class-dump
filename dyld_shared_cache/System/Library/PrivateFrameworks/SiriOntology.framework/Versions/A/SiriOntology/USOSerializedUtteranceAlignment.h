@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface USOSerializedUtteranceAlignment
 {
     unsigned int _asrHypothesisIndex;
-    unsigned long long _nodeIndex;
-    NSArray *_spans;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned int);
 - (id);
@@ -26,9 +22,7 @@
 - (void)t_common_RecipeStep;
 
 // Remaining properties
-@property unsigned int asrHypothesisIndex; // @synthesize asrHypothesisIndex=_asrHypothesisIndex;
 @property unsigned long long nodeIndex; // @synthesize nodeIndex=_nodeIndex;
-@property(retain, nonatomic) NSArray *spans; // @synthesize spans=_spans;
 
 @end
 

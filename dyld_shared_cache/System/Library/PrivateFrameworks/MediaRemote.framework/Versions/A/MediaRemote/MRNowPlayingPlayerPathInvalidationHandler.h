@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSObject;
-@protocol OS_dispatch_queue;
+@class MRPlayerPath;
 
 __attribute__((visibility("hidden")))
 @interface MRNowPlayingPlayerPathInvalidationHandler
 {
     _Bool _invalidateImmediatlyIfInvalid;
-    MRPlayerPath *_playerPath;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _callback;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void)erviceEndpoint;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly, nonatomic) _Bool invalidateImmediatlyIfInvalid; // @synthesize invalidateImmediatlyIfInvalid=_invalidateImmediatlyIfInvalid;
 @property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

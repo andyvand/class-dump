@@ -27,11 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
-@property(copy, nonatomic) CDUnknownBlockType editorialArtworkCatalogBlock; // @dynamic editorialArtworkCatalogBlock;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *shortDescriptionText; // @dynamic shortDescriptionText;
 
 @end
 

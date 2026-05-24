@@ -5,5 +5,10 @@
 //
 
 @protocol AKSignInViewControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (_Bool)X;
 @end
 

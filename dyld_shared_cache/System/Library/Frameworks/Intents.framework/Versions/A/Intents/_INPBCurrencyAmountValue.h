@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDecimalNumberValue, _INPBValueMetadata;
+@class _INPBDecimalNumberValue;
 
 @interface _INPBCurrencyAmountValue
 {
     struct _has;
-    _INPBDecimalNumberValue *_amount;
-    NSString *_currencyCode;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -30,24 +27,12 @@
 - (id);
 - (id);
 - (_Bool),;
-- (void)lotValueTransformFromVolumeValue;
+- (void)INIntentSlotValueTransformFromVolumeValue;
 - (void);
 - (id)£ñNý»;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDecimalNumberValue *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAmount;
-@property(readonly, nonatomic) _Bool hasCurrencyCode;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

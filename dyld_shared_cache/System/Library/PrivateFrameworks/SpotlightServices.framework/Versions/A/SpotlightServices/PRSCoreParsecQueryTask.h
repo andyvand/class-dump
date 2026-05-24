@@ -6,30 +6,26 @@
 
 #import <SpotlightServices/PRSQueryTask.h>
 
-@class PARSession, PARTask, SPSearchSuggestionResult;
+@class PARSession, SPSearchSuggestionResult;
 
 @interface PRSCoreParsecQueryTask : PRSQueryTask
 {
     PARSession *_parSession;
-    _Bool _parsecEnabled;
-    SPSearchSuggestionResult *_suggestionResult;
-    PARTask *_task;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)setHyphenationFactor: /* Error: Ran out of types for this method. */;
+- (id)librarySpecificFetchOptions;
+- (void)initWithRecordID:(id)arg1 fileURL:withServerLookup: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)pType;
+- (void)_searchInAppType;
 
 // Remaining properties
 @property(retain, nonatomic) SPSearchSuggestionResult *suggestionResult; // @synthesize suggestionResult=_suggestionResult;
-@property(retain) PARTask *task; // @synthesize task=_task;
 
 @end
 

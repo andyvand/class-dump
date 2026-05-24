@@ -13,22 +13,20 @@
     CABackdropLayer *backdropLayer;
 }
 
-- (void);
+- (void)ful attachments as needing sync. Last attempt date %@;
 - (id);
 - (id);
 - (void);
-- (struct CGRect)yplaneName: /* Error: Ran out of types for this method. */;
-- (struct CGRect)teEnabled:focused:pressed: /* Error: Ran out of types for this method. */;
-- (id)setupFilterChain;
+- (struct CGRect)setPreTouchKeyplaneName: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_updateLabelColorsForStateEnabled:focused:pressed: /* Error: Ran out of types for this method. */;
+- (id)_setupFilterChain;
 - (void)WidePrimaryColumn:(struct CGRect)arg1;
-- (id)ioning_Internal;
+- (id)UIViewControllerInteractiveTransitioning_Internal;
 - (void);
 - (void)X=l;
 
 // Remaining properties
 @property(nonatomic, retain) CABackdropLayer *backdropLayer; // @synthesize backdropLayer;
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGRect frame;
 
 @end
 

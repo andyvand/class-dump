@@ -6,31 +6,26 @@
 
 #import <UIFoundation/_UIFontCacheKey.h>
 
-@class NSString, UIFontDescriptor;
+@class UIFontDescriptor;
 
 @interface _UIFontDescriptorCacheKey : _UIFontCacheKey
 {
     _Bool _textLegibility;
-    UIFontDescriptor *_fontDescriptor;
-    double _pointSize;
-    NSString *_textStyleForScaling;
-    double _pointSizeForScaling;
-    double _maximumPointSizeAfterScaling;
 }
 
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)FrontCameraOffsetFromDisplayCenter;
 - (id);
 - (void);
 - (void);
+- (double)ad beyond max size %d when deserializing;
 - (double);
-- (double);
 - (void);
 - (void);
-- (void);
+- (void)T9;
 - (double);
 - (void)!ÈDùQÑ31Â0@ù
 × ;
@@ -38,11 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) UIFontDescriptor *fontDescriptor; // @synthesize fontDescriptor=_fontDescriptor;
-@property(nonatomic) double maximumPointSizeAfterScaling; // @synthesize maximumPointSizeAfterScaling=_maximumPointSizeAfterScaling;
-@property(nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
-@property(nonatomic) double pointSizeForScaling; // @synthesize pointSizeForScaling=_pointSizeForScaling;
-@property(nonatomic) _Bool textLegibility; // @synthesize textLegibility=_textLegibility;
-@property(copy, nonatomic) NSString *textStyleForScaling; // @synthesize textStyleForScaling=_textStyleForScaling;
 
 @end
 

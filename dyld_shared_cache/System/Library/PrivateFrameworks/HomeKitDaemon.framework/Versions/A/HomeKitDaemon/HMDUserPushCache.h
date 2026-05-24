@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, NSDate;
+@class HMDDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserPushCache
 {
     HMDDevice *_device;
-    NSDate *_expirationDate;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)tÓÕþÿÿÿÿ;
 - (_Bool)t send message with policy parameters because options %@ do not contain one of the required options:%@ /* Error: Ran out of types for this method. */;
 - (void)NetworkRouterLANFirewallType %ld;
@@ -23,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDDevice *device; // @synthesize device=_device;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
 
 @end
 

@@ -11,10 +11,6 @@
 @interface SXBackgroundParallaxImageComponentBehaviorHandler : SXComponentBehaviorHandler
 {
     UIView *_windowedScrollContentView;
-    double _originalYCenter;
-    UIView *_clippingView;
-    unsigned long long _viewHierarchyIndex;
-    double _amplitude;
 }
 
 - (id);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(=;
 - (void);
 - (double);
 - (double);
@@ -35,10 +31,6 @@
 - (void)36@0:8@16Q24B32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double amplitude; // @synthesize amplitude=_amplitude;
-@property(retain, nonatomic) UIView *clippingView; // @synthesize clippingView=_clippingView;
-@property(nonatomic) double originalYCenter; // @synthesize originalYCenter=_originalYCenter;
-@property(nonatomic) unsigned long long viewHierarchyIndex; // @synthesize viewHierarchyIndex=_viewHierarchyIndex;
 @property(retain, nonatomic) UIView *windowedScrollContentView; // @synthesize windowedScrollContentView=_windowedScrollContentView;
 
 @end

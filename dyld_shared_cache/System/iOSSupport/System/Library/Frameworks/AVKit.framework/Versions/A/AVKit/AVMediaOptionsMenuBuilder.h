@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AVMediaOptionsMenuBuilderDelegate;
-
 @interface AVMediaOptionsMenuBuilder
 {
     id mediaOptionsController;
-    _Bool includesStylesSubmenu;
-    void delegate;
 }
 
 - (id);
@@ -30,17 +25,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void)@"AVPictureInPicturePlatformAdapter"16@?<v@?B>24;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *currentLanguageName;
-@property(nonatomic, readonly) NSString *currentStyleName;
-@property(nonatomic) __weak id <AVMediaOptionsMenuBuilderDelegate> delegate; // @synthesize delegate;
 @property(nonatomic) _Bool includesStylesSubmenu; // @synthesize includesStylesSubmenu;
-@property(nonatomic, readonly) long long legibleEnablementState;
 
 @end
 

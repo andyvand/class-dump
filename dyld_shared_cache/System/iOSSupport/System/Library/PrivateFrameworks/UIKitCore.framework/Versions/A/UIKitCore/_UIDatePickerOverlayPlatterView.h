@@ -6,37 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, UIDatePicker, _UIDatePickerStyle, _UIRoundedRectShadowView;
+@class _UIRoundedRectShadowView;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerOverlayPlatterView : UIView
 {
     _Bool _accessoryViewIgnoresDefaultInsets;
-    UIDatePicker *_datePicker;
-    _UIRoundedRectShadowView *_shadowView;
-    UIView *_backgroundView;
-    UIView *_accessoryView;
-    UIView *_previousContentView;
-    UIView *_contentView;
-    NSLayoutConstraint *_contentWidthConstraint;
-    NSLayoutConstraint *_contentHeightConstraint;
-    _UIDatePickerStyle *_datePickerStyle;
-    struct CGRect _contentBounds;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)storeEditedMessage:(struct CGRect)arg1 editedPartIndex:editType:previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
+- (void)setFriendshipUpdateCallback:(_Bool)arg1;
+- (void)registerForTaskWithIdentifier:(id)arg1 usingQueue:launchHandler: /* Error: Ran out of types for this method. */;
+- (id)moveMessagesWithGUIDsToRecentlyDeleted:deleteDate:queryID: /* Error: Ran out of types for this method. */;
+- (void)cceedSyncingAttachments:(id)arg1 didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (struct CGSize)loadIsDownloadingPurgedAttachmentsForIDs:style:onServices:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (id)_sendAttachmentToPeerDevice:(id)arg1 fileTransferGUID:(id)arg2 messageGuid:fileURL:useLocalPeersFileAPI:error: /* Error: Ran out of types for this method. */;
+- (void)_isSimpleString;
+- (void)CKRecordZone",R,N,V_chatRecordZone;
+- (id)IMRecoverJunkCommandPipelineParameter;
+- (id)IMPendingReplicatedMessageCache;
+- (_Bool);
+- (id);
 - (struct CGRect);
 - (id);
 - (void);
@@ -51,16 +41,6 @@ __attribute__((visibility("hidden")))
 - (id)ç;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(nonatomic) _Bool accessoryViewIgnoresDefaultInsets; // @synthesize accessoryViewIgnoresDefaultInsets=_accessoryViewIgnoresDefaultInsets;
-@property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic) struct CGRect contentBounds; // @synthesize contentBounds=_contentBounds;
-@property(readonly, nonatomic) NSLayoutConstraint *contentHeightConstraint; // @synthesize contentHeightConstraint=_contentHeightConstraint;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) NSLayoutConstraint *contentWidthConstraint; // @synthesize contentWidthConstraint=_contentWidthConstraint;
-@property(readonly, nonatomic) UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, nonatomic) _UIDatePickerStyle *datePickerStyle; // @synthesize datePickerStyle=_datePickerStyle;
-@property(readonly, nonatomic) UIView *previousContentView; // @synthesize previousContentView=_previousContentView;
 @property(readonly, nonatomic) _UIRoundedRectShadowView *shadowView; // @synthesize shadowView=_shadowView;
 
 @end

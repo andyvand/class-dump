@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTTextEditFilter, NSData, NSDate, NSSet;
+@class NSSet;
 
 @interface ICActivityStreamSelection
 {
     NSSet *_itemIDs;
-    ICTTTextEditFilter *_filter;
-    NSDate *_displayDate;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -36,9 +34,6 @@
 - (void)entedObject;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *displayDate; // @synthesize displayDate=_displayDate;
-@property(readonly, copy, nonatomic) NSData *encodedData;
-@property(copy, nonatomic) ICTTTextEditFilter *filter; // @synthesize filter=_filter;
 @property(copy, nonatomic) NSSet *itemIDs; // @synthesize itemIDs=_itemIDs;
 
 @end

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVCustomStackLayout
 {
     NSString *_debugIdentifier;
-    NSArray *_rowHeads;
-    NSMutableArray *_rowSpacing;
 }
 
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (double);
 - (id);
 - (double);
 - (id);
-- (double);
 - (id);
-- (id);
-- (id);
+- (id)lder has not been started up yet.;
 - (void);
 - (id);
 - (void)aÐ!LCù±[1Â0@ù
@@ -34,9 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)vailable = %{public}s;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
 @property(retain, nonatomic) NSArray *rowHeads; // @synthesize rowHeads=_rowHeads;
-@property(retain, nonatomic) NSMutableArray *rowSpacing; // @synthesize rowSpacing=_rowSpacing;
 
 @end
 

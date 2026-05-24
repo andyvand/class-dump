@@ -9,9 +9,9 @@
     long long _supportType;
 }
 
-+ (_Bool);
-- (long long);
-- (_Bool);
++ (_Bool)ted; you must provide CMSampleBuffers containing encoded video;
+- (long long);
+- (_Bool)ؗ`";
 - (_Bool);
 - (id);
 - (void);
@@ -19,14 +19,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)evaluatePolicy:(id)arg1 options:uiDelegate:synchronous:reply: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDisallowedByMDM) _Bool disallowedByMDM;
 @property(nonatomic) long long supportType; // @synthesize supportType=_supportType;
-@property(readonly, nonatomic, getter=isSupported) _Bool supported;
 
 @end
 

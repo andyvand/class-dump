@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray;
+@class NSArray;
 
 @interface SXComponentDependencyResolver
 {
     NSArray *_solvedComponentNodes;
-    NSMutableArray *_componentNodes;
-    NSDictionary *_mappedComponentNodes;
 }
 
 - (id);

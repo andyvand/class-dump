@@ -11,7 +11,6 @@
 @interface PKPassAuxiliaryCapabilitySignatureUnifiedAccessHomeKeyCreationMetadata : PKPassAuxiliaryCapabilityKeyCreationMetadata
 {
     NSData *_readerIdentifier;
-    NSData *_readerPublicKey;
 }
 
 + (_Bool);
@@ -20,14 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)maxServicesCount;
+- (id)$;
 - (id);
 - (void)ive path for absolute path %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
-@property(readonly, nonatomic) NSData *readerPublicKey; // @synthesize readerPublicKey=_readerPublicKey;
 
 @end
 

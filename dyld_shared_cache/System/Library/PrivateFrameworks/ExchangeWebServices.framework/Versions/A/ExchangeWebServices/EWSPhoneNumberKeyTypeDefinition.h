@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)m",&,N,V_inputStream;
 
 @end
 

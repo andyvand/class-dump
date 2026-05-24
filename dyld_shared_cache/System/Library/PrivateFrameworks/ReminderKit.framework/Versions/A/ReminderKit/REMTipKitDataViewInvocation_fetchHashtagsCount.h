@@ -14,9 +14,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)edictionsForContext:(id)arg1 maxEntriesPerPrediction:usingBlock:] is not valid for this language model /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 
 @end
 

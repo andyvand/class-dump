@@ -5,13 +5,11 @@
 //
 
 @class NSObject, REMStore;
-@protocol OS_dispatch_queue, REMXPCSuggestedAttributesPerformer;
+@protocol OS_dispatch_queue;
 
 @interface REMSuggestedAttributesPerformer
 {
     REMStore *_store;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <REMXPCSuggestedAttributesPerformer> _q_cachedXPCPerformer;
 }
 
 - (void);
@@ -19,19 +17,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void)Áêð!èCùÑr 1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <REMXPCSuggestedAttributesPerformer> q_cachedXPCPerformer; // @synthesize q_cachedXPCPerformer=_q_cachedXPCPerformer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) REMStore *store; // @synthesize store=_store;
 
 @end
 

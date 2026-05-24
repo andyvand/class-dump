@@ -4,52 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CloudBookmarksMigrationCoordinationConsul, FileChangeObserver, NSArray, NSMutableArray, NSMutableDictionary, NSString, NSTimer, NSURL, SHA256Hash, SafariWebBookmark, SafariWebBookmarkList, SpotlightBookmarksWriter, WBSManagedBookmarksController, WBSSiteMetadataManager, WebBookmarkGroup;
+@class SHA256Hash;
 
 @interface BookmarksController
 {
     _Bool _loaded;
-    NSMutableDictionary *_proxiesByIdentifier;
-    SpotlightBookmarksWriter *_spotlightBookmarksWriter;
-    WBSSiteMetadataManager *_cachedSiteMetadataManager;
-    CDUnknownBlockType _siteMetadataManagerProvider;
-    unsigned long long _bookmarksFileSize;
-    double _bookmarksFileTime;
-    unsigned long long _bookmarksGeneration;
-    struct unique_ptr<Safari::FileLocker, std::default_delete<Safari::FileLocker>> _fileLocker;
-    _Bool _waitingForLock;
-    NSMutableArray *_completionHandlersPendingLockAcquisition;
-    unsigned long long _numberOfPendingSaveRequests;
-    long long _pendingSavePriority;
-    NSTimer *_pendingSaveTimer;
-    double _pendingSaveTimerInterval;
-    FileChangeObserver *_fileChangeObserver;
-    _Bool _userIsOffline;
-    NSMutableArray *_bookmarksThatRequestedMetadataFetchWhileOffline;
-    NSURL *_builtInBookmarksURL;
-    NSMutableArray *_migratedNonSafariBookmarkFiles;
-    NSString *_bookmarksFileLockPath;
-    _Bool _isReloadingScopedBookmarks;
-    WBSManagedBookmarksController *_managedBookmarksController;
-    _Bool _isReloadingManagedBookmarks;
-    _Bool _isReadOnly;
-    _Bool _shouldResetCloudKitMigrationStateOnNextLoad;
-    _Bool _didFillWithBuiltInBookmarks;
-    _Bool _reloadingBookmarks;
-    _Bool _savePending;
-    WebBookmarkGroup *_allBookmarks;
-    SafariWebBookmarkList *_bookmarksBarCollection;
-    SafariWebBookmarkList *_bookmarksMenuCollection;
-    NSString *_bookmarksFilePath;
-    CloudBookmarksMigrationCoordinationConsul *_bookmarksMigrationCoordinationConsul;
-    SHA256Hash *_builtInBookmarksStateHash;
-    NSURL *_migratedBookmarksFolder;
 }
 
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -59,18 +24,18 @@
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void);
++ (id)C;
 + (id);
-+ (id);
-+ (id);
++ (id)enumerateDescriptorsFromEncodedString:error:usingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!`E;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
 - (void);
@@ -100,7 +65,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -116,7 +81,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -129,23 +94,16 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -155,6 +113,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)+;
 - (void);
 - (void);
 - (id);
@@ -167,16 +132,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (id);
+- (void)9;
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -196,7 +161,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id));
 - (_Bool)
 × ;
 - (void)¼;
@@ -206,30 +171,7 @@
 - (void)ÇÂä0;
 
 // Remaining properties
-@property(readonly, nonatomic) WebBookmarkGroup *allBookmarks; // @synthesize allBookmarks=_allBookmarks;
-@property(readonly, retain, nonatomic) SafariWebBookmarkList *bookmarksBarCollection; // @synthesize bookmarksBarCollection=_bookmarksBarCollection;
-@property(readonly, copy, nonatomic) NSString *bookmarksFileLockPath; // @synthesize bookmarksFileLockPath=_bookmarksFileLockPath;
-@property(readonly, copy, nonatomic) NSString *bookmarksFilePath; // @synthesize bookmarksFilePath=_bookmarksFilePath;
-@property(readonly, retain, nonatomic) SafariWebBookmarkList *bookmarksMenuCollection; // @synthesize bookmarksMenuCollection=_bookmarksMenuCollection;
-@property(readonly, nonatomic) CloudBookmarksMigrationCoordinationConsul *bookmarksMigrationCoordinationConsul; // @synthesize bookmarksMigrationCoordinationConsul=_bookmarksMigrationCoordinationConsul;
-@property(readonly, nonatomic) NSArray *bookmarksToDonate;
 @property(copy, nonatomic) SHA256Hash *builtInBookmarksStateHash; // @synthesize builtInBookmarksStateHash=_builtInBookmarksStateHash;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didFillWithBuiltInBookmarks; // @synthesize didFillWithBuiltInBookmarks=_didFillWithBuiltInBookmarks;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SafariWebBookmark *historyCollection;
-@property(nonatomic) _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly, nonatomic) SafariWebBookmarkList *lastSelectedBookmarkList;
-@property(retain, nonatomic) NSURL *migratedBookmarksFolder; // @synthesize migratedBookmarksFolder=_migratedBookmarksFolder;
-@property(nonatomic, getter=isReloadingBookmarks) _Bool reloadingBookmarks; // @synthesize reloadingBookmarks=_reloadingBookmarks;
-@property(nonatomic, getter=isSavePending) _Bool savePending; // @synthesize savePending=_savePending;
-@property(nonatomic) _Bool shouldResetCloudKitMigrationStateOnNextLoad; // @synthesize shouldResetCloudKitMigrationStateOnNextLoad=_shouldResetCloudKitMigrationStateOnNextLoad;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SafariWebBookmarkList *topBookmarkIfLoaded;
 
 @end
 

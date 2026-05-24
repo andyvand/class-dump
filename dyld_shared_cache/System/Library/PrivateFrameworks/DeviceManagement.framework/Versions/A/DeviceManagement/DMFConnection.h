@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATTaskClient, NSString;
 @protocol DMFTransportProvider;
 
 @interface DMFConnection
 {
     _Bool _isSystemConnection;
-    id <DMFTransportProvider> _transportProvider;
-    CATTaskClient *_taskClient;
-    CATOperationQueue *_operationQueue;
-    unsigned long long _connectionState;
 }
 
 + (id);
++ (id)@yh;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
@@ -30,14 +25,14 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (id);
@@ -46,17 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long connectionState; // @synthesize connectionState=_connectionState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSystemConnection; // @synthesize isSystemConnection=_isSystemConnection;
-@property(readonly, nonatomic) CATOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CATTaskClient *taskClient; // @synthesize taskClient=_taskClient;
 @property(readonly, nonatomic) __weak id <DMFTransportProvider> transportProvider; // @synthesize transportProvider=_transportProvider;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSUserScriptProvider, WKContentWorld;
+@class WKContentWorld;
 
 @interface WBSJavaScriptInjectionController
 {
     WKContentWorld *contentWorld;
-    WBSUserScriptProvider *userScriptProvider;
 }
 
 + (void);
@@ -19,11 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)initWithHistory:bannedURLStore:profileIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) WKContentWorld *contentWorld; // @synthesize contentWorld;
-@property(nonatomic, readonly) WBSUserScriptProvider *userScriptProvider; // @synthesize userScriptProvider;
 
 @end
 

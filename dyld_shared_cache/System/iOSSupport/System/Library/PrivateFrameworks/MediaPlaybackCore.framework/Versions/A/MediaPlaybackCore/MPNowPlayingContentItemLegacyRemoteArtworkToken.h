@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPExportableArtworkProperties, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPNowPlayingContentItemLegacyRemoteArtworkToken
 {
     NSString *_identifier;
-    NSString *_artworkIdentifier;
-    MPExportableArtworkProperties *_artworkProperties;
 }
 
 - (id);
@@ -19,21 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)	˟;
 - (void)ic}@] reshuffleWithTargetContentItemID:completion:| committing edit [data source replacement completed] resolvedStartingContentItemID=%{public}@ /* Error: Ran out of types for this method. */;
 - (id)À;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
-@property(readonly, copy, nonatomic) MPExportableArtworkProperties *artworkProperties; // @synthesize artworkProperties=_artworkProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

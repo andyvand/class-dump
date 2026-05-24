@@ -5,5 +5,8 @@
 //
 
 @protocol PTCinematographyScriptChanges
+
+@optional
+- (void)	;
 @end
 

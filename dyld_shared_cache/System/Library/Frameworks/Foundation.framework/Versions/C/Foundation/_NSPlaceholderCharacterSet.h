@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSPlaceholderCharacterSet : NSCharacterSet
 {
     NSCharacterSet *_original;
-    NSCharacterSet *_invertedSet;
-    struct {
-        unsigned int _inverted:1;
-        unsigned int _builtin:1;
-        unsigned int _isCF:1;
-        unsigned int _reserved:29;
-    } _flags;
 }
 
 - (id);
@@ -25,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (oneway void);
-- (id);
+- (oneway void)A;
+- (id)f connections:(id)arg1 %u, Number of out-of-process converters:%u The service will shut down if the limit is exceeded. /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool)*;

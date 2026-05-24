@@ -13,7 +13,7 @@
 + (Class);
 + (long long)C,N,V_payloadPrivatePlayMediaIntentDatas;
 - (id);
-- (id)eadUnit;
+- (id)INCarHeadUnit;
 
 @end
 

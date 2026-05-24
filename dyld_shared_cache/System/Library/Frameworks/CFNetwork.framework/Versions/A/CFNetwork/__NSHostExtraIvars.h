@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface __NSHostExtraIvars
 {
     NSString *thingToResolve;
-    int resolveType;
-    NSObject<OS_dispatch_queue> *resolveQueue;
-    NSObject<OS_dispatch_queue> *cacheAccessQueue;
-    NSObject<OS_dispatch_queue> *callbackQueue;
-    _Bool startedResolving;
 }
 
-- (void);
-- (id);
+- (void)ideographiclaborcircle;
+- (id));
 
 @end
 

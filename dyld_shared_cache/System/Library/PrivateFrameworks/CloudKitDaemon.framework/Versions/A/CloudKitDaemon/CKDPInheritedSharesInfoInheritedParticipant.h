@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPContactInformation, CKDPIdentifier, NSMutableArray;
-
 @interface CKDPInheritedSharesInfoInheritedParticipant
 {
     CDStruct_95bda58d _participantTypes;
-    CDStruct_95bda58d _permissions;
-    CKDPContactInformation *_contactInformation;
-    NSMutableArray *_customRoles;
-    CKDPIdentifier *_userId;
 }
 
 + (Class);
@@ -40,14 +34,15 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)getServiceProviderData:(id)arg1 withPackage:withModule:withPublicKey:withEncryptionScheme:withTransceiver:withContext:withError: /* Error: Ran out of types for this method. */;
+- (void)n;
+- (unsigned long long)in mixed sample rate mode
+;
+- (id)enstreamudp_handleFatalError(FigEndpointStreamRef, OSStatus, CFStringRef);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -57,15 +52,7 @@
 - (void)undInputStream:outputStream:bufferSize:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPContactInformation *contactInformation; // @synthesize contactInformation=_contactInformation;
-@property(retain, nonatomic) NSMutableArray *customRoles; // @synthesize customRoles=_customRoles;
-@property(readonly, nonatomic) _Bool hasContactInformation;
 @property(readonly, nonatomic) _Bool hasUserId;
-@property(readonly, nonatomic) int *participantTypes;
-@property(readonly, nonatomic) unsigned long long participantTypesCount;
-@property(readonly, nonatomic) int *permissions;
-@property(readonly, nonatomic) unsigned long long permissionsCount;
-@property(retain, nonatomic) CKDPIdentifier *userId; // @synthesize userId=_userId;
 
 @end
 

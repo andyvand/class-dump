@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol VCCaptionsTranscription
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *segments;

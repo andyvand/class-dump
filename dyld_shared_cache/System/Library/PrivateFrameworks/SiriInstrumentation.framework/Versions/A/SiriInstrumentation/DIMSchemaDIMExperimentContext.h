@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface DIMSchemaDIMExperimentContext : SISchemaInstrumentationMessage
 {
     NSArray *_experimentInfos;
-    unsigned int _experimentalBucketId;
-    struct {
-        unsigned int experimentalBucketId:1;
-    } _has;
 }
 
 - (void);
@@ -28,24 +24,21 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)untInUsingApp1Hr"b1"taskAbandonCountInUsingApp6Hrs"b1"taskAbandonCountInUsingApp1Day"b1"taskAbandonCountInUsingApp7Days"b1"taskAbandonCountInUsingApp14Days"b1"taskAbandonCountInUsingApp28Days"b1"taskAbandonCountInUsingAppInf"b1};
-- (id)mponentSetupEnded;
+- (id)NLRouterSchemaNLRouterSubComponentSetupEnded;
 - (id)ÖôÖ;
-- (id)TURN_TAKING_MANAGER;
+- (id)TRPREQUESTLINKSOURCE_TURN_TAKING_MANAGER;
 - (void)0Êµÿ;
 - (void)ÿ.®';
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *experimentInfos; // @synthesize experimentInfos=_experimentInfos;
-@property(nonatomic) unsigned int experimentalBucketId; // @synthesize experimentalBucketId=_experimentalBucketId;
-@property(nonatomic) _Bool hasExperimentalBucketId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

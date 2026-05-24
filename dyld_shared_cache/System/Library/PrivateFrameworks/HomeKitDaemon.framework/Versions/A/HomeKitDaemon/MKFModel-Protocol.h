@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFModelDatabaseID, NSDate, NSUUID;
+@class MKFModelDatabaseID, NSUUID;
 
 @protocol MKFModel
-- (NSUUID *)inClientConnectionDelegate;
+- (NSUUID *)MTRPluginClientConnectionDelegate;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MKFModelDatabaseID *databaseID;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

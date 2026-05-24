@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @protocol INUpdateEventIntentExport
+- (NSNumber *)@9*;
+- (void);
 
 // Remaining properties
-@property(copy) NSArray *addParticipants;
-@property(copy) NSNumber *removeLocation;
-@property(copy) NSArray *removeParticipants;
-@property(copy) INDateComponentsRange *setDateTimeRange;
-@property(copy) CLPlacemark *setLocation;
-@property(copy) NSString *setTitle;
 @property(copy) NSString *targetEventIdentifier;
-@property(copy) NSNumber *updateAllOccurrences;
 @end
 

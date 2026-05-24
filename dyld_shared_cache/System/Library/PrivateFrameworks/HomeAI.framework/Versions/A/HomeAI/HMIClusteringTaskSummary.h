@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface HMIClusteringTaskSummary
 {
     long long _numberOfFaceprintsClustered;
-    long long _numberOfClusters;
-    long long _numberOfPersonsCreated;
-    long long _numberOfUnknownFaceprintsAssociated;
-    double _faceprintingDuration;
-    double _clusteringDuration;
-    double _totalDuration;
-    NSError *_error;
 }
 
-- (void);
+- (void)72;
 - (void);
 - (void);
 - (void);
@@ -27,9 +18,9 @@
 - (long long);
 - (double);
 - (double);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (void)`;
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -39,14 +30,7 @@
 - (void);
 
 // Remaining properties
-@property double clusteringDuration; // @synthesize clusteringDuration=_clusteringDuration;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property double faceprintingDuration; // @synthesize faceprintingDuration=_faceprintingDuration;
-@property long long numberOfClusters; // @synthesize numberOfClusters=_numberOfClusters;
 @property long long numberOfFaceprintsClustered; // @synthesize numberOfFaceprintsClustered=_numberOfFaceprintsClustered;
-@property long long numberOfPersonsCreated; // @synthesize numberOfPersonsCreated=_numberOfPersonsCreated;
-@property long long numberOfUnknownFaceprintsAssociated; // @synthesize numberOfUnknownFaceprintsAssociated=_numberOfUnknownFaceprintsAssociated;
-@property double totalDuration; // @synthesize totalDuration=_totalDuration;
 
 @end
 

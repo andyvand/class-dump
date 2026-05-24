@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SiriCoreSpeechPacket
 {
     NSString *_aceId;
-    NSString *_refId;
-    NSArray *_packets;
-    long long _packetNumber;
 }
 
+- (_Bool)description of an underlying network error we hit while communicating with the mail server. The quoted text is an error description, the 2nd value is an error code.;
+- (_Bool)$@” %2$@).;
+- (void)e a secure connection to the server (”%1$@” %2$@).;
+- (id)The value is an error code.;
+- (id)nicating with the mail server. The value is an error code.;
+- (void)ing network error we hit while communicating with the mail server. The value is an error code.;
+- (_Bool)ver (%1$@).;
+- (_Bool)eate a secure connection to the server (%1$@).;
+- (_Bool)server.;
+- (void)rlying network error we hit while communicating with the mail server.;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)Qo;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @synthesize aceId=_aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long packetNumber; // @synthesize packetNumber=_packetNumber;
-@property(retain, nonatomic) NSArray *packets; // @synthesize packets=_packets;
-@property(copy, nonatomic) NSString *refId; // @synthesize refId=_refId;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,15 +6,9 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSString;
-
 @interface AKCropAnnotation : AKAnnotation
 {
     _Bool _hidden;
-    _Bool _cropApplied;
-    _Bool _showHandles;
-    struct CGColor *_color;
-    struct CGRect _rectangle;
 }
 
 + (id);
@@ -25,38 +19,27 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)y;
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)y Calendar description format in calendar's language;
 - (_Bool);
 - (id);
-- (id);
+- (id)9Z;
 - (struct CGColor *);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGColor *color; // @synthesize color=_color;
-@property _Bool cropApplied; // @synthesize cropApplied=_cropApplied;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool hidden; // @synthesize hidden=_hidden;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property _Bool showHandles; // @synthesize showHandles=_showHandles;
-@property(readonly) Class superclass;
 
 @end
 

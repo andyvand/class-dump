@@ -7,26 +7,23 @@
 @interface ChatKit.DetailsViewParticipantListSection.AddRecipientsControllerRepresentable.Coordinator
 {
     id parent;
-    id addRecipientsController;
-    id navigationController;
-    id conversation;
 }
 
 - (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
+- (_Bool)Progress format string not set;
+- (void)er record… {accountID:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)ating for iCloud account without passphrase — manually fetching user record… {accountID:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)uthenticating cloud password… {prompt:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)ice password with prompt {prompt:(id)arg1 %@, error:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)nticating device password… {prompt:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)assword with prompt {prompt:(id)arg1 %@, result:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)om password with prompt {prompt:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)ssword…;
+- (void)f possible…;
+- (void){prompt:(id)arg1 %@, error:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)native authentication…;
+- (void)cation mechanism — failing;
+- (struct UIEdgeInsets)ICNoteAnalyticsAudioRecordingStoppedNotificationDurationKey;
 - (void);
 - (void);
 - (id);

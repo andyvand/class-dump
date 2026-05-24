@@ -5,5 +5,6 @@
 //
 
 @protocol PKSharingChannelServiceExportedInterface_Client
+- (void);
 @end
 

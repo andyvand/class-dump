@@ -6,13 +6,11 @@
 
 #import <Mail/MFEWSNetworkTaskOperation.h>
 
-@class MFEWSMailboxItemsBatch;
 @protocol MFEWSFetchMessageMetadataOperationDelegate;
 
 @interface MFEWSFetchMessageMetadataOperation : MFEWSNetworkTaskOperation
 {
     id <MFEWSFetchMessageMetadataOperationDelegate> _delegate;
-    MFEWSMailboxItemsBatch *_batch;
 }
 
 + (id);
@@ -20,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fullyOnScreenRectClosestToRect:(id)arg1 consideringPriorRect: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSMailboxItemsBatch *batch; // @synthesize batch=_batch;
 @property(nonatomic) __weak id <MFEWSFetchMessageMetadataOperationDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

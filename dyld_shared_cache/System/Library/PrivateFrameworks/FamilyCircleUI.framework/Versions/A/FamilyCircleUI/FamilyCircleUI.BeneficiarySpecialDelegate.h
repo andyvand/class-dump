@@ -7,12 +7,10 @@
 @interface FamilyCircleUI.BeneficiarySpecialDelegate
 {
     id didDismiss;
-    id dismiss;
-    id onWindowDismiss;
 }
 
 - (void);
-- (void);
+- (void)yMeshing;
 - (id);
 - (void)wx;
 

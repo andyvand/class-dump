@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)lu;
 - (id);
 
 @end

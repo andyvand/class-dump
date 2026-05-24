@@ -4,6 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AKBeneficiaryManifest, NSUUID;
+@protocol AAInheritanceContact;
+
 @protocol AAInheritanceDaemonProtocol
+- (void):(AKBeneficiaryManifest *)arg1 %d;
+- (void)werLogSetting unable to switch mode;
+- (void)PersistRef;
+- (void)ported on internal builds.;
+- (void)ByIdentifier found %ld profiles;
+- (void)restart dock; status = %d;
+- (void)anager.uninstallProfile Configuration profile '%s' is locked and requires authentication to remove;
+- (void)d;
+- (void)il;
+- (void)ile matched bundle - %s;
+- (void)CPManagedClientLoginAgentCheckinNotification;
+- (void)cateIsSMIME:(void (^)(NSArray *, NSError *))arg1 SecTrustEvaluate rc:%d  result:%d /* Error: Ran out of types for this method. */;
+- (void)FindCertRefsInPayload:(id <AAInheritanceContact>)arg1 Unexpected object type (%s) for '%s';
+- (void)ation failed:(NSUUID *)arg1 %s;
+- (void)nstallerUI does not implement -expandPayloadVariables;
+- (void)cy -expandPayloadVariables:(void (^)(NSArray *, NSError *))arg1 in ConfigurationProfileInstallerUI;
+- (void)##**** DataAndBytesAndLengthFromData_VM could not allocate VM;
+- (void)@;
+- (void)%@; Cre:(void (^)(NSArray *, NSError *))arg1 %@; Mod:%@ /* Error: Ran out of types for this method. */;
 @end
 

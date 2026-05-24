@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OS_os_workgroup;
-@protocol PHASERoomCongruenceInterface, PHASESessionInterface, PHASETapInterface;
+@protocol PHASETapInterface;
 
 __attribute__((visibility("hidden")))
 @interface ATPhasePlatform
 {
     struct unique_ptr<Phase::ServerManager, std::default_delete<Phase::ServerManager>> _serverManager;
-    id _sessionInterface;
-    id _tapInterface;
-    id _roomCongruenceInterface;
 }
 
 - (id);
@@ -27,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)wG;
 - (int);
 - (id);
 - (void *);
@@ -41,39 +37,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (unsigned int);
-- (void);
+- (void)not satisfying:region (in %s:%d) /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)($;
 - (_Bool);
-- (double);
+- (double)auxprop_plugin;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int bufferFrameSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PHASERoomCongruenceInterface> roomCongruenceInterface;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PHASERoomCongruenceInterface>",?,R,N
-
-@property(readonly, nonatomic) _Bool running;
-@property(readonly, nonatomic) double sampleRate;
-@property(readonly, nonatomic) id <PHASESessionInterface> sessionInterface;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PHASESessionInterface>",?,R,N
-
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <PHASETapInterface> tapInterface; // @synthesize tapInterface=_tapInterface;
-@property(readonly, nonatomic) OS_os_workgroup *workgroup;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"OS_os_workgroup",?,R,N
-
 
 @end
 

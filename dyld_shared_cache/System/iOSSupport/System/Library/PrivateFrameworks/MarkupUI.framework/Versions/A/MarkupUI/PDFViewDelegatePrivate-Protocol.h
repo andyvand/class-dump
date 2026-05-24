@@ -5,5 +5,9 @@
 //
 
 @protocol PDFViewDelegatePrivate
+
+@optional
+- (void);
+- (void);
 @end
 

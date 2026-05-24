@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMediaLibrary, MLMediaObjectImpl, NSDate, NSDictionary, NSImage, NSString, NSURL;
+@class MLMediaLibrary, MLMediaObjectImpl;
 
 @interface MLMediaObject
 {
@@ -14,19 +14,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL;
-@property(readonly, copy) NSImage *artworkImage;
-@property(readonly, copy) NSDictionary *attributes;
-@property(readonly, copy) NSString *contentType;
-@property(readonly) unsigned long long fileSize;
-@property(readonly, copy) NSString *identifier;
 @property(readonly) MLMediaLibrary *mediaLibrary;
-@property(readonly, copy) NSString *mediaSourceIdentifier;
-@property(readonly) unsigned long long mediaType;
-@property(readonly, copy) NSDate *modificationDate;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSURL *originalURL;
-@property(readonly, copy) NSURL *thumbnailURL;
 
 @end
 

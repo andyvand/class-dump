@@ -7,7 +7,6 @@
 @interface ChatKit.CKTranslationCache
 {
     id $defaultActor;
-    id storage;
 }
 
 @end

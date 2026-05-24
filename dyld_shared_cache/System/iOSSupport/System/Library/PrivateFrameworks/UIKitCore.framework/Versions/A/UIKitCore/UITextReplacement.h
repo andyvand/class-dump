@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextRange;
+@class UITextRange;
 
 __attribute__((visibility("hidden")))
 @interface UITextReplacement
 {
     UITextRange *_range;
-    NSString *_originalText;
-    NSString *_replacementText;
-    NSString *_menuTitle;
-    _Bool _isDictationCommandReplacement;
-    unsigned int _usageTrackingMask;
-    CDUnknownBlockType _replacementCompletionBlock;
 }
 
 + (id);
-+ (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
++ (id);
+- (void)broadcasterForSentMessageListenersSupportingService:(unsigned int)arg1;
+- (void)_resetArvchivedRecordSyncToken;
+- (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -34,13 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿaì;
 
 // Remaining properties
-@property(readonly) _Bool isDictationCommandReplacement; // @synthesize isDictationCommandReplacement=_isDictationCommandReplacement;
-@property(readonly, nonatomic) NSString *menuTitle; // @synthesize menuTitle=_menuTitle;
-@property(readonly, nonatomic) NSString *originalText; // @synthesize originalText=_originalText;
 @property(readonly, nonatomic) UITextRange *range; // @synthesize range=_range;
-@property(copy, nonatomic) CDUnknownBlockType replacementCompletionBlock; // @synthesize replacementCompletionBlock=_replacementCompletionBlock;
-@property(readonly, nonatomic) NSString *replacementText; // @synthesize replacementText=_replacementText;
-@property(nonatomic) unsigned int usageTrackingMask; // @synthesize usageTrackingMask=_usageTrackingMask;
 
 @end
 

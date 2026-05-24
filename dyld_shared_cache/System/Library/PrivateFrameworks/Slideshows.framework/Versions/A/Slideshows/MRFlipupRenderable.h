@@ -6,39 +6,25 @@
 
 #import <Slideshows/MUPoolObject.h>
 
-@class MRCroppingSprite, MRImage;
+@class MRImage;
 
 @interface MRFlipupRenderable : MUPoolObject
 {
     double zPosition;
-    _Bool needsBlend;
-    _Bool isBreak;
-    float modelViewMatrix[16];
-    double color;
-    double opacity;
-    MRImage *slide;
-    MRCroppingSprite *sprite;
-    struct CGPoint position;
-    struct CGSize size;
-    float flippedModelViewMatrix[16];
-    MRCroppingSprite *reflectionSprite;
-    struct CGPoint reflectionPosition;
 }
 
-+ (CDStruct_32b7e343 *);
++ (CDStruct_32b7e343 *);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)NSURLSessionDelegate;
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) MRCroppingSprite *reflectionSprite; // @synthesize reflectionSprite;
 @property(retain, nonatomic) MRImage *slide; // @synthesize slide;
-@property(retain, nonatomic) MRCroppingSprite *sprite; // @synthesize sprite;
 
 @end
 

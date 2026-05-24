@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDVideoCodecParameters
 {
     NSArray *_h264Profiles;
-    NSArray *_levels;
-    NSArray *_packetizationModes;
 }
 
 + (_Bool)/;
 - (id);
-- (id);
-- (id);
+- (id)redTripAvailabiltyDelegate>";
+- (id)I;
 - (id);
 - (_Bool);
 - (void);
@@ -28,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *h264Profiles; // @synthesize h264Profiles=_h264Profiles;
-@property(readonly, copy, nonatomic) NSArray *levels; // @synthesize levels=_levels;
-@property(readonly, copy, nonatomic) NSArray *packetizationModes; // @synthesize packetizationModes=_packetizationModes;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

@@ -10,12 +10,12 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)";
+- (_Bool);
+- (id)error:(id)arg1;
 - (id);
-- (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (_Bool);
 - (_Bool);
 - (id);

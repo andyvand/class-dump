@@ -7,8 +7,6 @@
 @interface NewsUI2.ContentShortcutsDataManager
 {
     id delegate;
-    id shortcutsService;
-    id shortcutsConfig;
 }
 
 - (void);

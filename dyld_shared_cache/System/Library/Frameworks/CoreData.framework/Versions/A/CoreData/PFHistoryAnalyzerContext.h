@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet, NSPersistentHistoryToken, PFHistoryAnalyzerOptions;
-
 __attribute__((visibility("hidden")))
 @interface PFHistoryAnalyzerContext
 {
     _Bool _isFinished;
-    PFHistoryAnalyzerOptions *_options;
-    NSMutableDictionary *_objectIDToState;
-    NSArray *_sortedStates;
-    NSMutableSet *_processedTransactionIDs;
-    NSPersistentHistoryToken *_finalHistoryToken;
-    long long _accumulatedChangeBytes;
 }
 
 - (void);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)h;
 - (_Bool)bLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/coredatad/CloudKit/CDDCloudKitServer.m;
 
 @end

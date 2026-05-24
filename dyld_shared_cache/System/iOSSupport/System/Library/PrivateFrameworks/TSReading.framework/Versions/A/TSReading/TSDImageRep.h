@@ -6,56 +6,22 @@
 
 #import <TSReading/TSDMediaRep.h>
 
-@class CALayer, CAShapeLayer, NSCache, NSMutableArray, NSObject, NSRecursiveLock, NSString, TSDImageRepSizingState, TSDInstantAlphaTracker, TSDLayoutGeometry;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class TSDLayoutGeometry;
 
 @interface TSDImageRep : TSDMediaRep
 {
     TSDLayoutGeometry *mLastImageGeometryInRoot;
-    TSDLayoutGeometry *mLastMaskGeometryInRoot;
-    struct CGAffineTransform mLastLayoutToImageTransform;
-    struct CGRect mFrameInUnscaledCanvasRelativeToSuper;
-    _Bool mFrameInUnscaledCanvasIsValid;
-    CALayer *mContentsLayer;
-    CAShapeLayer *mMaskPathLayer;
-    CAShapeLayer *mIAMaskLayer;
-    CAShapeLayer *mMaskSublayer;
-    struct CGAffineTransform mLastPictureFrameLayerTransform;
-    _Bool mDirectlyManagesLayerContent;
-    _Bool mShowImageHighlight;
-    _Bool mInInstantAlphaMode;
-    TSDInstantAlphaTracker *mInstantAlphaTracker;
-    struct CGImage *mInstantAlphaImage;
-    struct CGAffineTransform mBaseMaskLayoutTransform;
-    NSRecursiveLock *mLayerUpdateAndSizingStateLock;
-    TSDImageRepSizingState *mSizingState;
-    _Bool mSizingStateReady;
-    NSObject<OS_dispatch_queue> *mSizedImageAccessQueue;
-    struct CGImage *mSizedImage;
-    struct CGSize mSizedImageSize;
-    long long mSizedImageOrientation;
-    _Bool mSizedImageHasMaskBakedIn;
-    _Bool mSizedImageHasAdjustmentsBakedIn;
-    struct CGPath *mSizedImageMaskPath;
-    struct CGImage *mCachedSizedImage;
-    struct CGSize mCachedSizedImageSize;
-    long long mCachedSizedImageOrientation;
-    NSCache *mHitTestCache;
-    long long mHitTestCacheOnce;
-    NSMutableArray *mUpdateFromLayoutBlocks;
-    NSObject<OS_dispatch_semaphore> *mUpdateFromLayoutBlocksLock;
-    unsigned long long mImageSizingDisabledCount;
 }
 
 + (struct CGPath *);
+- (void)eue;
+- (void)smartTransitionDidEnd: /* Error: Ran out of types for this method. */;
+- (void)playbackRateDidChangeNotified: /* Error: Ran out of types for this method. */;
+- (void)queue item:(id)arg1;
+- (void)skip=;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)set up yet.;
 - (struct CGAffineTransform);
 - (struct CGRect);
 - (_Bool);
@@ -71,12 +37,12 @@
 - (id);
 - (id);
 - (id);
+- (void)AssetReaderImplementation;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)PlaybackSessionSummaryConsumer;
 - (void);
 - (void);
 - (void);
@@ -87,37 +53,37 @@
 - (long long);
 - (_Bool);
 - (struct CGImage *);
-- (void);
+- (void)&;
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (_Bool);
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)8],;;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool)]l ;
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (int);
+- (int);
 - (struct CGPoint);
 - (_Bool);
 - (_Bool);
@@ -125,8 +91,8 @@
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (double);
-- (id);
+- (double);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -143,7 +109,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)uiredRatio=%f;
 - (_Bool);
 - (void);
 - (id);
@@ -153,14 +119,7 @@
 - (struct CGImage *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct CGImage *imageRef;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,14 +9,10 @@
 @interface UIKit._UISwitchDesignLibraryKnobView : UIView
 {
     id knobView;
-    id liquidLensKnobView;
-    id shouldLift;
-    id state;
-    id isAnimating;
 }
 
 - (id);
-- (id)ilInteractionTap;
+- (id)UIPencilInteractionTap;
 - (void)Ì;
 
 @end

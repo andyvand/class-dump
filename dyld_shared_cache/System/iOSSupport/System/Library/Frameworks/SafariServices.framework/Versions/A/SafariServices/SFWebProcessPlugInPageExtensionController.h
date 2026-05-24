@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, WKWebProcessPlugInBrowserContextController, _WKRemoteObjectInterface;
+@class WKWebProcessPlugInBrowserContextController;
 
 __attribute__((visibility("hidden")))
 @interface SFWebProcessPlugInPageExtensionController
 {
     WKWebProcessPlugInBrowserContextController *_browserContextController;
-    _WKRemoteObjectInterface *_extensionControllerInterface;
-    NSMutableDictionary *_extensionToScriptWorldMap;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)DEntity={__CFRuntimeBase=QAQ}^v^{__CFString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}8;
 - (void);
 - (void);
 - (void);

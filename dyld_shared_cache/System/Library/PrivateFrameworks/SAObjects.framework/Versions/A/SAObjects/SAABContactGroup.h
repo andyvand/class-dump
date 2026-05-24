@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, SASource;
+@class NSString;
 
 @interface SAABContactGroup : SADomainObject
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupName;
-@property(retain, nonatomic) SASource *groupSource;
 
 @end
 

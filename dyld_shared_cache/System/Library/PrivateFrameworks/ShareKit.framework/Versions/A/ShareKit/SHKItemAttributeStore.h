@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
-@protocol OS_dispatch_semaphore, SHKShareItem;
+@class NSDictionary;
+@protocol SHKShareItem;
 
 __attribute__((visibility("hidden")))
 @interface SHKItemAttributeStore
 {
     NSDictionary *_attributes;
-    id <SHKShareItem> _shareItem;
-    NSObject<OS_dispatch_semaphore> *_sem;
 }
 
 + (void);
-+ (struct __MDItem *);
++ (struct __MDItem *);
 - (void);
 - (id);
 - (void);
@@ -27,11 +25,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)MESSAGE;
+- (id)FOLDER_SHARED_SUBITEMS_MESSAGE;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain) NSObject<OS_dispatch_semaphore> *sem; // @synthesize sem=_sem;
 @property(retain, nonatomic) id <SHKShareItem> shareItem; // @synthesize shareItem=_shareItem;
 
 @end

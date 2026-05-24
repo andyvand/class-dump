@@ -6,35 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODSearch : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_searchToolId;
-    PNRODSchemaPNRODMetricDuration *_searchTotalHandleTime;
-    PNRODSchemaPNRODMetricDuration *_spotlightTotalTime;
-    PNRODSchemaPNRODMetricDuration *_answerSynthesisTime;
-    PNRODSchemaPNRODMetricDuration *_searchGlobalSearchTime;
-    PNRODSchemaPNRODMetricDuration *_searchHallucinationTime;
-    PNRODSchemaPNRODMetricDuration *_searchStartToSpotlightEnd;
-    PNRODSchemaPNRODMetricDuration *_searchStartToGlobalSearchEnd;
-    PNRODSchemaPNRODMetricDuration *_preSearchTime;
-    PNRODSchemaPNRODMetricDuration *_postSearchTime;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    _Bool _hasSearchToolId;
-    _Bool _hasSearchTotalHandleTime;
-    _Bool _hasSpotlightTotalTime;
-    _Bool _hasAnswerSynthesisTime;
-    _Bool _hasSearchGlobalSearchTime;
-    _Bool _hasSearchHallucinationTime;
-    _Bool _hasSearchStartToSpotlightEnd;
-    _Bool _hasSearchStartToGlobalSearchEnd;
-    _Bool _hasPreSearchTime;
-    _Bool _hasPostSearchTime;
-    _Bool _hasFailureInfo;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,8 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,8 +43,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)8Z;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,7 +53,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -94,37 +73,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)r %@;
 - (id);
 - (id);
-- (id)ComponentContext;
+- (id)_nlRouterBridgeSubComponentContext;
 - (id),V_hasSharedUserId;
 - (void).FLOWLINKClientEvent;
 
 // Remaining properties
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *answerSynthesisTime; // @synthesize answerSynthesisTime=_answerSynthesisTime;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasAnswerSynthesisTime; // @synthesize hasAnswerSynthesisTime=_hasAnswerSynthesisTime;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasPostSearchTime; // @synthesize hasPostSearchTime=_hasPostSearchTime;
-@property(nonatomic) _Bool hasPreSearchTime; // @synthesize hasPreSearchTime=_hasPreSearchTime;
-@property(nonatomic) _Bool hasSearchGlobalSearchTime; // @synthesize hasSearchGlobalSearchTime=_hasSearchGlobalSearchTime;
-@property(nonatomic) _Bool hasSearchHallucinationTime; // @synthesize hasSearchHallucinationTime=_hasSearchHallucinationTime;
-@property(nonatomic) _Bool hasSearchStartToGlobalSearchEnd; // @synthesize hasSearchStartToGlobalSearchEnd=_hasSearchStartToGlobalSearchEnd;
-@property(nonatomic) _Bool hasSearchStartToSpotlightEnd; // @synthesize hasSearchStartToSpotlightEnd=_hasSearchStartToSpotlightEnd;
-@property(nonatomic) _Bool hasSearchToolId; // @synthesize hasSearchToolId=_hasSearchToolId;
-@property(nonatomic) _Bool hasSearchTotalHandleTime; // @synthesize hasSearchTotalHandleTime=_hasSearchTotalHandleTime;
-@property(nonatomic) _Bool hasSpotlightTotalTime; // @synthesize hasSpotlightTotalTime=_hasSpotlightTotalTime;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *postSearchTime; // @synthesize postSearchTime=_postSearchTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *preSearchTime; // @synthesize preSearchTime=_preSearchTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *searchGlobalSearchTime; // @synthesize searchGlobalSearchTime=_searchGlobalSearchTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *searchHallucinationTime; // @synthesize searchHallucinationTime=_searchHallucinationTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *searchStartToGlobalSearchEnd; // @synthesize searchStartToGlobalSearchEnd=_searchStartToGlobalSearchEnd;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *searchStartToSpotlightEnd; // @synthesize searchStartToSpotlightEnd=_searchStartToSpotlightEnd;
 @property(retain, nonatomic) SISchemaUUID *searchToolId; // @synthesize searchToolId=_searchToolId;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *searchTotalHandleTime; // @synthesize searchTotalHandleTime=_searchTotalHandleTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *spotlightTotalTime; // @synthesize spotlightTotalTime=_spotlightTotalTime;
 
 @end
 

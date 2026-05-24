@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)C};
 - (struct CGPoint);
 - (id);
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLCommandQueue, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 @interface CommonMetal
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    _Bool _offsetsConfigured;
-    unsigned int _horizontalOffsetLuma;
-    unsigned int _horizontalOffsetChroma;
-    unsigned int _verticalOffsetLuma;
-    unsigned int _verticalOffsetChroma;
 }
 
 - (id);
@@ -27,7 +20,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CSSystemDaemonStateMonitorDelegate
+
+@optional
+- (void);
 @end
 

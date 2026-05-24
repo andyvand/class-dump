@@ -6,15 +6,14 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFResidentSelectionDatabaseID, NSArray, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFHome;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFResidentSelection : _MKFModel
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -22,20 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFResidentSelectionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
 @property(copy, nonatomic) NSNumber *mode; // @dynamic mode;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(retain, nonatomic) NSArray *preferredResidentIDSIdentifiers; // @dynamic preferredResidentIDSIdentifiers;
-@property(copy, nonatomic) NSDate *selectionTimestamp; // @dynamic selectionTimestamp;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

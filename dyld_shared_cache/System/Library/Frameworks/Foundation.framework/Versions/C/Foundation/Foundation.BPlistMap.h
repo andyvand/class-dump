@@ -7,9 +7,6 @@
 @interface Foundation.BPlistMap
 {
     id trailer;
-    id topObjectIndex;
-    id objectOffsets;
-    id dataLock;
 }
 
 @end

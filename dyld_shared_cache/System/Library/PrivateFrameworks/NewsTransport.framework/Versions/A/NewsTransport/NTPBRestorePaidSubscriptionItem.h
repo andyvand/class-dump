@@ -9,34 +9,27 @@
 @interface NTPBRestorePaidSubscriptionItem
 {
     NSString *_restoredPaidSubscriptionChannelId;
-    _Bool _isNewsAppPurchase;
-    struct {
-        unsigned int isNewsAppPurchase:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)highlightedMemoryIndexPath;
+- (void)fromContentInset;
+- (void)exposureBleedTransitionBlurRadius;
+- (id)didEndChangeHandling;
+- (_Bool)createMetalTextureWithDevice: /* Error: Ran out of types for this method. */;
+- (_Bool)constraintEqualToConstant: /* Error: Ran out of types for this method. */;
+- (_Bool)c;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_setShouldPlayAfterPreparation: /* Error: Ran out of types for this method. */;
+- (_Bool)rray"12;
+- (_Bool);
 - (id);
 - (id);
-- (void)abilityStatus: /* Error: Ran out of types for this method. */;
+- (void)setReachabilityStatus: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsNewsAppPurchase;
 @property(readonly, nonatomic) _Bool hasRestoredPaidSubscriptionChannelId;
-@property(nonatomic) _Bool isNewsAppPurchase; // @synthesize isNewsAppPurchase=_isNewsAppPurchase;
-@property(retain, nonatomic) NSString *restoredPaidSubscriptionChannelId; // @synthesize restoredPaidSubscriptionChannelId=_restoredPaidSubscriptionChannelId;
 
 @end
 

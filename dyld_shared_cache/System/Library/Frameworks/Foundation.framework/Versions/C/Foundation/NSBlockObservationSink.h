@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSBlockObservationSink : NSObservationSink
 {
     id _block;
-    int _tag;
 }
 
 - (void);

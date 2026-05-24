@@ -5,5 +5,7 @@
 //
 
 @protocol ICPeerInputStreamDelegate
+- (void)ts;
+- (void);
 @end
 

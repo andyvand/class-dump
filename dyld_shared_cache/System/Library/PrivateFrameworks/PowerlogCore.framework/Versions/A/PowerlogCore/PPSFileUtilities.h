@@ -8,12 +8,13 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (struct apfs_label_purgeable_request);
 + (id);
-+ (id);
++ (id)J/J'K
+;
 
 @end
 

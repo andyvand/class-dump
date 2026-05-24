@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODMSiriSchemaODMSiriAggregationDimensions;
+@class ODMSiriSchemaODMSiriAggregationDimensions;
 
 @interface ODMSiriSchemaODMSiriTaskCountsReported : SISchemaInstrumentationMessage
 {
     ODMSiriSchemaODMSiriAggregationDimensions *_dimensions;
-    int _taskType;
-    unsigned int _completedSiriTaskCount;
-    unsigned int _failedSiriTaskCount;
-    unsigned int _cancelledSiriTaskCount;
-    unsigned int _completedUITaskCount;
-    struct {
-        unsigned int taskType:1;
-        unsigned int completedSiriTaskCount:1;
-        unsigned int failedSiriTaskCount:1;
-        unsigned int cancelledSiriTaskCount:1;
-        unsigned int completedUITaskCount:1;
-    } _has;
-    _Bool _hasDimensions;
 }
 
 - (void);
@@ -55,7 +42,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)9o;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -64,25 +51,13 @@
 - (id)
 × ;
 - (id)tigationLevel;
-- (id)Parameter;
-- (id);
+- (id)hasCatParameter;
+- (id)VOICENAME_AXEL;
 - (void);
 - (int).;
 
 // Remaining properties
-@property(nonatomic) unsigned int cancelledSiriTaskCount; // @synthesize cancelledSiriTaskCount=_cancelledSiriTaskCount;
-@property(nonatomic) unsigned int completedSiriTaskCount; // @synthesize completedSiriTaskCount=_completedSiriTaskCount;
-@property(nonatomic) unsigned int completedUITaskCount; // @synthesize completedUITaskCount=_completedUITaskCount;
 @property(retain, nonatomic) ODMSiriSchemaODMSiriAggregationDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) unsigned int failedSiriTaskCount; // @synthesize failedSiriTaskCount=_failedSiriTaskCount;
-@property(nonatomic) _Bool hasCancelledSiriTaskCount;
-@property(nonatomic) _Bool hasCompletedSiriTaskCount;
-@property(nonatomic) _Bool hasCompletedUITaskCount;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(nonatomic) _Bool hasFailedSiriTaskCount;
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int taskType; // @synthesize taskType=_taskType;
 
 @end
 

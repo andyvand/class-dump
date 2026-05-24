@@ -9,12 +9,6 @@
 @interface NPComponentSequence
 {
     _Bool _favorite;
-    NSArray *_observation;
-    NSArray *_sequence;
-    NSArray *_oovIndices;
-    double _score;
-    double _emissionModelScore;
-    double _stateModelScore;
 }
 
 - (void);
@@ -29,24 +23,18 @@
 - (double);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)9-;
+- (void)T;
+- (id)wallpaperFromDataTransform;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property double emissionModelScore; // @synthesize emissionModelScore=_emissionModelScore;
-@property(getter=isFavorite) _Bool favorite; // @synthesize favorite=_favorite;
 @property(copy) NSArray *observation; // @synthesize observation=_observation;
-@property(copy) NSArray *oovIndices; // @synthesize oovIndices=_oovIndices;
-@property double score; // @synthesize score=_score;
-@property(copy) NSArray *sequence; // @synthesize sequence=_sequence;
-@property double stateModelScore; // @synthesize stateModelScore=_stateModelScore;
 
 @end
 

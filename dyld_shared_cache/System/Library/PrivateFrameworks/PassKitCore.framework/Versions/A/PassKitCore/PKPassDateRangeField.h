@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPassDateField.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PKPassDateRangeField : PKPassDateField
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_displayableStartDate;
-    NSString *_displayableEndDate;
 }
 
 + (_Bool)î%1Â0@ù
@@ -24,21 +21,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)	*;
+- (id)n;
+- (void)CREDIT_CARD;
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void)À ÿ$ÿä9pÿÈ"pÿ¬1ÿÀ"pÿl¡ÿ¼ÿ¥ÿH´ÿTËÿ0Îÿ1ÿ`¥ûÿ¨¥ûÿ¨ûÿl¨ûÿ¼¨ûÿÈ¼ûÿÈÅûÿxÆûÿÈÇûÿLÒûÿÒûÿÓûÿPÓûÿ@ëûÿ¨ëûÿÌëûÿdîûÿÀîûÿèîûÿ6õÿ;
-- (void)nuity;
+- (void)PKPaymentAuthorizationModeContinuity;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayableEndDate; // @synthesize displayableEndDate=_displayableEndDate;
-@property(copy, nonatomic) NSString *displayableStartDate; // @synthesize displayableStartDate=_displayableStartDate;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)staticTitle;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)has_venueType"b1"read_attributes"b1"read_authTraits"b1"read_bss"b1"read_identifier"b1"read_name"b1"read_ownerIdentifiers"b1"read_qualities"b1"wrote_anyField"b1};
-- (id)essionCreateTime: /* Error: Ran out of types for this method. */;
+- (id)_sessionCreateHourWithSessionCreateTime: /* Error: Ran out of types for this method. */;
 - (id)l+4,´-;
 - (void))êÌ=$dJ@;
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SVSSiriViewControllerServing
+- (_Bool);
 @end
 

@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     UISelectionGrabber *m_grabber;
 }
 
-- (int);
+- (int)__mainThreadPostNotificationName:object: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (struct CGRect);
 - (struct CGRect);
 - (id);
 - (id);
-- (int)on:client:global:operation: /* Error: Ran out of types for this method. */;
+- (int)_exitedDataInteraction:client:global:operation: /* Error: Ran out of types for this method. */;
 - (void)\ä¨;
 - (_Bool)ÿÿ4;
 - (void)øFc;

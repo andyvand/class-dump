@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UITextCursorAssertionController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UITextCursorAssertion
 {
     NSString *_reason;
-    unsigned long long _options;
-    UITextCursorAssertionController *_controller;
-    NSDictionary *_userInfo;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)initWithDispatchGroup:pipelineStates:errors: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -26,23 +23,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (unsigned long long)Q`Ð1Â0@ù
 × ;
-- (void)ctions:(id)arg1;
-- (void)ismissGrantingAccessToURL:(id)arg1;
-- (id)hlightedBackgroundGradientStart;
+- (void)setInteractions:(id)arg1;
+- (void)dismissGrantingAccessToURL:(id)arg1;
+- (id)UIKBLegacyCandidateGridCellHighlightedBackgroundGradientStart;
 - (void)yt¿7G;
 
 // Remaining properties
-@property(nonatomic) __weak UITextCursorAssertionController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

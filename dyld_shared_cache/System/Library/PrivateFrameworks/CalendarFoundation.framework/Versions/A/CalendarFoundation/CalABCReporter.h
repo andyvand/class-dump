@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CalABCReporter
 {
     _Bool _ignoreRateLimiting;
-    NSArray *_events;
-    NSString *_type;
-    NSString *_subtype;
-    NSString *_subtypeContext;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)rLJ;
 - (void);
 - (id);
+- (void)B;
+- (id)h;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)j;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *domain;
-@property(retain, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(nonatomic) _Bool ignoreRateLimiting; // @synthesize ignoreRateLimiting=_ignoreRateLimiting;
-@property(retain, nonatomic) NSString *subtype; // @synthesize subtype=_subtype;
-@property(retain, nonatomic) NSString *subtypeContext; // @synthesize subtypeContext=_subtypeContext;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

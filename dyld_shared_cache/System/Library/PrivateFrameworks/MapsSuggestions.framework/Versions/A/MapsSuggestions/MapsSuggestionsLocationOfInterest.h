@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, GEOMapItemStorage, NSArray, NSData, NSDate, NSString, NSUUID;
+@class NSData;
 
 @interface MapsSuggestionsLocationOfInterest
 {
     _Bool _isLOIFromMeCard;
-    NSData *_mapItemHandle;
-    GEOMapItemStorage *_mapItem;
-    CLLocation *_location;
-    NSUUID *_identifierUUID;
-    NSString *_identifierString;
-    NSString *_preferredName;
-    NSString *_customLabel;
-    NSString *_addressIdentifier;
-    long long _type;
-    unsigned long long _visitCount;
-    NSDate *_predictedStartDate;
-    NSDate *_predictedEndDate;
-    NSArray *_predictionSources;
-    NSDate *_firstVisit;
-    NSDate *_lastVisit;
-    double _probability;
 }
 
 + (_Bool);
@@ -37,19 +21,19 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (id);
 - (double);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)X;
 - (long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
@@ -57,31 +41,7 @@
 - (id)%@';
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *addressIdentifier; // @synthesize addressIdentifier=_addressIdentifier;
-@property(readonly, nonatomic) NSString *customLabel; // @synthesize customLabel=_customLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *firstVisit; // @synthesize firstVisit=_firstVisit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifierString; // @synthesize identifierString=_identifierString;
-@property(readonly, nonatomic) NSUUID *identifierUUID; // @synthesize identifierUUID=_identifierUUID;
-@property(readonly, nonatomic) _Bool isLOIFromMeCard; // @synthesize isLOIFromMeCard=_isLOIFromMeCard;
-@property(readonly, nonatomic) NSDate *lastVisit; // @synthesize lastVisit=_lastVisit;
-@property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, copy, nonatomic) GEOMapItemStorage *mapItem; // @synthesize mapItem=_mapItem;
 @property(readonly, nonatomic) NSData *mapItemHandle; // @synthesize mapItemHandle=_mapItemHandle;
-@property(readonly, nonatomic) NSDate *predictedEndDate; // @synthesize predictedEndDate=_predictedEndDate;
-@property(readonly, nonatomic) NSDate *predictedStartDate; // @synthesize predictedStartDate=_predictedStartDate;
-@property(readonly, nonatomic) NSArray *predictionSources; // @synthesize predictionSources=_predictionSources;
-@property(readonly, nonatomic) NSString *preferredName; // @synthesize preferredName=_preferredName;
-@property(readonly, nonatomic) double probability; // @synthesize probability=_probability;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *uniqueName;
-@property(readonly, nonatomic) unsigned long long visitCount; // @synthesize visitCount=_visitCount;
 
 @end
 

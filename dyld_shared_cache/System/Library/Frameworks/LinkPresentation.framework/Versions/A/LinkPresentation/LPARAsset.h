@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)?0@"CKRecord"8@"CKRecordID"16@"CKDPResponseOperationResult"24;
+- (_Bool)B;
 - (void);
 - (void)0@ù
 × ;

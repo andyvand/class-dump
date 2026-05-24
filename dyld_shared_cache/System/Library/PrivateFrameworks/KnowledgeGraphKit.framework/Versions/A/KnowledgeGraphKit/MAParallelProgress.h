@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAMutableFloatVector, MAProgressReporter;
-
 @interface MAParallelProgress
 {
     struct os_unfair_lock_s _lock;
-    MAProgressReporter *_progressReporter;
-    MAMutableFloatVector *_progressValues;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)MList"16;
 
 @end
 

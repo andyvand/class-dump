@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)performSelector:(id)arg1;
 - (id);
 - (void);
 - (void);

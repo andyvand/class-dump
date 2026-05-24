@@ -6,30 +6,22 @@
 
 #import <MetalTools/MTLGPUDebugGPULog.h>
 
-@class MTLArgument;
-@protocol MTLBuffer;
-
 @interface MTLGPUDebugBufferErrorLog : MTLGPUDebugGPULog
 {
     int _addressSpace;
-    int _operation;
-    int _specifiedUsage;
-    id <MTLBuffer> _buffer;
-    unsigned long long _offset;
-    MTLArgument *_argument;
 }
 
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)es;
+- (void)- ;
+- (id)_externalReferences;
 - (unsigned long long)n;
 - (int)%@ is not an indirect argument buffer. If %@ is expected to be an argument buffer, this could be a shader bug. Argument buffers can be distinguished from regular buffers if they contain buffers, textures, samplers, or any element with the [[id]] attribute;
 - (id)ce in the same command encoder is not allowed.;
@@ -37,11 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int addressSpace; // @synthesize addressSpace=_addressSpace;
-@property(retain, nonatomic) MTLArgument *argument; // @synthesize argument=_argument;
-@property(retain, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) int operation; // @synthesize operation=_operation;
-@property(nonatomic) int specifiedUsage; // @synthesize specifiedUsage=_specifiedUsage;
 
 @end
 

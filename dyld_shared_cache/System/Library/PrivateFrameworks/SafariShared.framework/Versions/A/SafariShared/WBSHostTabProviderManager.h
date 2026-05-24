@@ -9,15 +9,14 @@
 @interface WBSHostTabProviderManager
 {
     NSMapTable *_providerMapTable;
-    NSMapTable *_hostTabMapTable;
 }
 
-+ (id);
++ (id)agent.http-delivery;
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)H;
 - (void);
 
 @end

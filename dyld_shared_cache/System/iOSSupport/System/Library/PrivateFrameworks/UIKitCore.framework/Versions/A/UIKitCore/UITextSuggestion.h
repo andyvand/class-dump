@@ -6,74 +6,53 @@
 
 #import <UIKitCore/UIInputSuggestion.h>
 
-@class NSString, NSUUID, TIKeyboardCandidate, UIColor, UIImage;
+@class NSString;
 
 @interface UITextSuggestion : UIInputSuggestion
 {
     _Bool _displayStylePlain;
-    _Bool _canDisplayInline;
-    NSString *_inputText;
-    NSString *_searchText;
-    NSString *_displayText;
-    NSString *_headerText;
-    UIImage *_image;
-    UIColor *_foregroundColor;
-    UIColor *_backgroundColor;
-    unsigned long long _customInfoType;
-    NSUUID *_uuid;
 }
 
++ (id)eadReceipt;
++ (id)ge fromID:(id)arg1 %@, ;
++ (id)up pipeline for chat session close message fromID:(id)arg1 %@, ;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool)ntrollerDidRotateNotification;
-- (void);
-- (void);
++ (_Bool)UITextEffectsWindowViewControllerDidRotateNotification;
+- (void)_accountStore;
+- (void)rtFileTransferGUIDs;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (_Bool)}};
+- (_Bool)ld records queued for delete processing which split %ld to not delete and %ld to delete;
+- (id)h!;
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)m (%llu) %ld of %ld, duplicate item signature;
 - (id);
 - (id);
 - (id)ÔAð!AùÑZ°1Â0@ù
 × ;
 - (void)1Â0@ù
 × ;
-- (unsigned long long)InSection:heightCanBeGuessed: /* Error: Ran out of types for this method. */;
-- (void)onIndex;
-- (void)dowProvider;
-- (void)emoveSymbolEffect:(unsigned long long)arg1;
+- (unsigned long long)rectForHeaderInSection:heightCanBeGuessed: /* Error: Ran out of types for this method. */;
+- (void)insertionIndex;
+- (void)editModeBackgroundShadowProvider;
+- (void)_removeSymbolEffect:(unsigned long long)arg1;
 - (id)eenshotServiceDelegate>",W,N,V_privateDelegate;
 - (void)or;
 - (id)tor:object:] /* Error: Ran out of types for this method. */;
-- (id)eCatalogName;
+- (id)UIResourceCatalogName;
 - (void)^;
 - (void)H\ëÿN+ÖXöf;
-- (id)g;
+- (id)6g;
 
 // Remaining properties
-@property(readonly, nonatomic) TIKeyboardCandidate *_keyboardCandidate;
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canDisplayInline; // @synthesize canDisplayInline=_canDisplayInline;
-@property(nonatomic) unsigned long long customInfoType; // @synthesize customInfoType=_customInfoType;
-@property(nonatomic) _Bool displayStylePlain; // @synthesize displayStylePlain=_displayStylePlain;
-@property(copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(copy, nonatomic) UIColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(copy, nonatomic) NSString *headerText; // @synthesize headerText=_headerText;
-@property(copy, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(copy, nonatomic) NSString *inputText; // @synthesize inputText=_inputText;
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

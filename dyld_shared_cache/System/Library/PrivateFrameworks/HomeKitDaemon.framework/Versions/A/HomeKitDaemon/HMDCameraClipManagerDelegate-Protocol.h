@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDCameraClipManager, NAFuture;
+@protocol HMDCameraCloudStorageCapable;
+
 @protocol HMDCameraClipManagerDelegate
+
+@optional
+- (void)summary;
+- (void)tring",C,N,V_initiatorDisplayName;
+- (void)stripForSendingUpdatedWaypoints;
+- (void);
+- (void)mmary;
+- (void)N,V_shieldColorString;
+- (NAFuture *)er;
+- (void)setWithObjects:(HMDCameraClipManager *)arg1;
+- (id <HMDCameraCloudStorageCapable>);
 @end
 

@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, MSASAlbum, MSASStateMachine, NSMutableDictionary, NSString;
+@class MSASStateMachine;
 
 @interface MSASPhoneInvitations
 {
     MSASStateMachine *_stateMachine;
-    MSASAlbum *_album;
-    IDSService *_idsService;
-    NSMutableDictionary *_sendMessageIdentifierToPhone;
 }
 
+- (void)napshot requests during stream setup %@:(id)arg1 %@;
+- (id)waiting hh2 auto accept.;
+- (void)o indicate current account has migrated to HH2;
+- (void)weird. Erroring out.;
 - (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)¶U;
 
 // Remaining properties
-@property(retain, nonatomic) MSASAlbum *album; // @synthesize album=_album;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IDSService *idsService; // @synthesize idsService=_idsService;
-@property(retain, nonatomic) NSMutableDictionary *sendMessageIdentifierToPhone; // @synthesize sendMessageIdentifierToPhone=_sendMessageIdentifierToPhone;
 @property(retain, nonatomic) MSASStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 
 @end
 

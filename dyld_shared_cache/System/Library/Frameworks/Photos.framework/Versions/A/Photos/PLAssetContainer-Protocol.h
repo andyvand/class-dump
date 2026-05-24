@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSOrderedSet, NSString;
+@class NSDate, NSString;
 
 @protocol PLAssetContainer
-- (_Bool)eationRequest:(unsigned long long)arg1;
+- (unsigned long long)W";
+- (unsigned long long)}};
+- (_Bool)�;
+- (NSString *);
+- (_Bool)initWithAssetResources:(unsigned long long)arg1 assetCreationRequest: /* Error: Ran out of types for this method. */;
 - (NSString *):%{public}@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)bumKind_FacesSmartFolder_block_invoke_84;
-- (unsigned long long)hFocusArea;
+- (unsigned long long)PHQueryForAssetInAlbumKind_FacesSmartFolder_block_invoke_84;
+- (unsigned long long)estimatedCropQualityScorePhoneWithFocusArea;
 
 @optional
 + (NSString *)eryId:%d, BatchId:%d, isCancelled:%@, SearchText:'%@', FeaturedContentAllowed:%@, SearchOptions:%@ /* Error: Ran out of types for this method. */;
+- (NSDate *)"MPModelKind";
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long approximateCount;
-@property(readonly, retain, nonatomic) NSOrderedSet *assets;
-@property(readonly, nonatomic) unsigned long long assetsCount;
-@property(readonly, nonatomic) _Bool canShowAvalancheStacks;
-@property(readonly, nonatomic) _Bool canShowComments;
-@property(readonly, retain, nonatomic) NSDate *endDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,&,N
-
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, copy, nonatomic) NSArray *localizedLocationNames;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) unsigned long long photosCount;
-@property(readonly, retain, nonatomic) NSDate *startDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,&,N
-
-@property(readonly, retain, nonatomic) NSString *title;
 @property(readonly, retain, nonatomic) NSString *uuid;
-@property(readonly, nonatomic) unsigned long long videosCount;
 @end
 

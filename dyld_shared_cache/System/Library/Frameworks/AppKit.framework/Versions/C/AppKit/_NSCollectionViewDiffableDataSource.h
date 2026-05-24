@@ -6,28 +6,22 @@
 
 #import <AppKit/_NSDiffableDataSourceSnapshotter.h>
 
-@class NSCollectionView;
-
 @interface _NSCollectionViewDiffableDataSource : _NSDiffableDataSourceSnapshotter
 {
     CDUnknownBlockType _supplementaryReuseIdentifierProvider;
-    CDUnknownBlockType _supplementaryConfigurationHandler;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_';
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)initWithName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)xyAppendWord;
+- (void)_proxyAppendWord;
 
 // Remaining properties
-@property(readonly) __weak NSCollectionView *collectionView;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryConfigurationHandler; // @synthesize supplementaryConfigurationHandler=_supplementaryConfigurationHandler;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryReuseIdentifierProvider; // @synthesize supplementaryReuseIdentifierProvider=_supplementaryReuseIdentifierProvider;
 @property(copy) CDUnknownBlockType supplementaryViewProvider;
 
 @end

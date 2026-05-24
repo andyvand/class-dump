@@ -11,7 +11,6 @@
 @interface CKDDiscoverUserIdentitiesOperation : CKDOperation
 {
     CDUnknownBlockType _discoverUserIdentitiesProgressBlock;
-    NSArray *_userIdentityLookupInfos;
 }
 
 + (_Bool);
@@ -21,16 +20,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ilter;
 - (id);
 - (void);
-- (int);
+- (int)OUDSYNC] %s (%s:%u)null client thread or queue /* Error: Ran out of types for this method. */;
 - (id);
 - (void)vious Requests:[%@]
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType discoverUserIdentitiesProgressBlock; // @synthesize discoverUserIdentitiesProgressBlock=_discoverUserIdentitiesProgressBlock;
 @property(retain, nonatomic) NSArray *userIdentityLookupInfos; // @synthesize userIdentityLookupInfos=_userIdentityLookupInfos;
 
 @end

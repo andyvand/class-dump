@@ -9,6 +9,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isAirplaneModeEnabled;
-@property(readonly, nonatomic) _Bool isWiFiUsable;
 @end
 

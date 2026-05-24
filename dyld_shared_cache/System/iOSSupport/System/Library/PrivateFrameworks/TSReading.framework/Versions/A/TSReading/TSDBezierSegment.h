@@ -7,9 +7,6 @@
 @interface TSDBezierSegment
 {
     struct CGPoint mA;
-    struct CGPoint mOut;
-    struct CGPoint mIn;
-    struct CGPoint mB;
 }
 
 + (id);
@@ -26,11 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool bogusSegment;
 @property(readonly, nonatomic) struct CGPoint fromPoint;
-@property(readonly, nonatomic) struct CGPoint inPoint;
-@property(readonly, nonatomic) struct CGPoint outPoint;
-@property(readonly, nonatomic) struct CGPoint toPoint;
 
 @end
 

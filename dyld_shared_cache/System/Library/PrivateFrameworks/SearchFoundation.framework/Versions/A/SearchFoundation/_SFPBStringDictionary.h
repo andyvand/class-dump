@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBStringDictionary
 {
@@ -19,25 +19,17 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)l;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)lic}@;
 - (id);
 - (id);
 - (id);
 - (void)Command";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *keyValues; // @synthesize keyValues=_keyValues;
-@property(readonly) Class superclass;
 
 @end
 

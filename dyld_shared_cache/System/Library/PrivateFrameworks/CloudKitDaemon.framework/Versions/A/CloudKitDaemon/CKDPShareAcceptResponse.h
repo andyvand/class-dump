@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)t32_t, CMTime);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasShare;
-@property(retain, nonatomic) CKDPShare *share; // @synthesize share=_share;
 
 @end
 

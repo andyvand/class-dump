@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class NSString, SAConfidenceScores;
+@class NSString;
 
 @interface SAStartMultiUserTestRequest : SAStartRequest
 {
@@ -17,14 +17,13 @@
 - (id);
 - (void);
 - (void);
+- (id)a;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *expectedSelectedSharedUserId;
-@property(retain, nonatomic) SAConfidenceScores *voiceIDConfidenceScores;
 
 @end
 

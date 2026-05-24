@@ -7,7 +7,6 @@
 @interface Speech.AssetInventory.ServiceActor__priv_6F5A7C5F4F6C8D379A24A06B9F46C0E5
 {
     id $defaultActor;
-    id creationTask;
 }
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCommand, _SFPBImage;
+@class _SFPBImage;
 
 @interface _SFPBCommandButtonItem
 {
     _Bool _isDestructive;
-    _SFPBImage *_image;
-    NSString *_title;
-    _SFPBCommand *_command;
-    NSArray *_previewButtonItems;
-    unsigned long long _uniqueId;
 }
 
 - (unsigned long long);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)",R,C,N;
 - (id);
 - (void);
 - (void);
@@ -31,33 +26,20 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)numberWithBool: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
+- (id)isFailure;
+- (id)ss %{public}@;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void)16;
-- (void)ns: /* Error: Ran out of types for this method. */;
+- (void)setEnabledDomains: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommand *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isDestructive; // @synthesize isDestructive=_isDestructive;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *previewButtonItems; // @synthesize previewButtonItems=_previewButtonItems;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

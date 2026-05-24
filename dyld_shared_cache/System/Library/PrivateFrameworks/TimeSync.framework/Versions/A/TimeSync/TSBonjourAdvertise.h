@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, TSBonjourAdvertiseDelegate;
+@protocol TSBonjourAdvertiseDelegate;
 
 @interface TSBonjourAdvertise
 {
     struct _DNSServiceRef_t *_sdRef;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <TSBonjourAdvertiseDelegate> _delegate;
 }
 
 - (_Bool);

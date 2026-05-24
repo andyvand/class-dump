@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _FPLocationAgnosticID
 {
     FPItemID *_itemID;
-    FPItemID *_alternateID;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)andleAcknowledgedEvent callback for ;
 - (void);
 - (id)PendingScanningDiskNumberOfChildrenPendingSyncUpDeletion;
 

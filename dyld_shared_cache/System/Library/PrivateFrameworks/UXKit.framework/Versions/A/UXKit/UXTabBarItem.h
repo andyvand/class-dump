@@ -11,18 +11,16 @@
 @interface UXTabBarItem : UXBarItem
 {
     NSSet *_possibleTitles;
-    NSArray *_representedSegments;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)So26PXSensitivityUIOverlayViewCSgXw;
+- (id)osUICore26LemonadePickerItemProviderP;
+- (id)#;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *possibleTitles; // @synthesize possibleTitles=_possibleTitles;
 @property(copy, nonatomic) NSArray *representedSegments; // @synthesize representedSegments=_representedSegments;
 
 @end

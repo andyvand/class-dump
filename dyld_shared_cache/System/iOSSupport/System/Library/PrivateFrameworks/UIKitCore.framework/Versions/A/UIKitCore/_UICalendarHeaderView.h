@@ -6,63 +6,47 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSDateFormatter, NSString, UIButton, _UICalendarDataModel, _UICalendarHeaderTitleButton;
+@class NSDateFormatter;
 @protocol _UICalendarHeaderViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UICalendarHeaderView : UIView
 {
     NSDateFormatter *_longFormatter;
-    NSDateFormatter *_shortFormatter;
-    _UICalendarHeaderTitleButton *_monthYearButton;
-    UIButton *_previousMonthButton;
-    UIButton *_nextMonthButton;
-    _Bool _expanded;
-    id <_UICalendarHeaderViewDelegate> _delegate;
-    _UICalendarDataModel *_dataModel;
 }
 
+- (void)UID:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (id)"NSNumber",R,N,V_readTimestamp;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)};
+- (void)abled before uninstalling %@;
+- (void)invitation received, clearing cache. Subscription:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)updateWithAttributedString:(struct CGSize)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void)!dFùÑeÐ1Â0@ù
 × ;
-- (_Bool)onHorizontalPadding: /* Error: Ran out of types for this method. */;
+- (_Bool)setButtonHorizontalPadding: /* Error: Ran out of types for this method. */;
 - (void)`Ò;
 - (struct CGSize)ÑüÑ\U,Ñ0VHÑ4XlÑ´]|Ñ$^Ñ°aÑÐhÑHo(Ñ,qÑÐsüÑ,z¸Ñl|øÑØ|Ñ~0Ñ¨~PÑÐÔÑ@ÑÄ(Ñ$´Ñ¬ðÑ;
 - (id);
 - (void)fb$*^;
 
 // Remaining properties
-@property(retain, nonatomic) _UICalendarDataModel *dataModel; // @synthesize dataModel=_dataModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UICalendarHeaderViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

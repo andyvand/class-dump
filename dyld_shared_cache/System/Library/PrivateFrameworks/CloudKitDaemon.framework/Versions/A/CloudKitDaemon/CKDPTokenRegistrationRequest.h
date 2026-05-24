@@ -18,19 +18,18 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)realTimeAudioEngine_resumeSubPhase2_Internal;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)9;
 - (id);
 - (id);
-- (Class)dateCachedAccountInfo;
+- (Class)invalidateCachedAccountInfo;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTokenRegistrationBody;
-@property(retain, nonatomic) CKDPTokenRegistrationBody *tokenRegistrationBody; // @synthesize tokenRegistrationBody=_tokenRegistrationBody;
 
 @end
 

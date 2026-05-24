@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface PXPhotosDetailsBarSpec
 {
     NSDictionary *_sortPriorityByBarItemIdentifierByPlacement;
-    NSSet *_includedBarItemIdentifiers;
-    _Bool _shouldPlaceEditActionsInToolbar;
-    unsigned long long _detailsOptions;
 }
 
 - (id);

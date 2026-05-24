@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)updateStartUsingiCloudFollowupForAccountStore:account:oldAccount: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-- (id);
-- (id);
+- (id)__objc_classname__TEXT;
+- (id);
 - (id);
 - (id);
 - (void);

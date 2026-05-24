@@ -12,8 +12,8 @@
 
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)__AUTH;
+- (unsigned long long)AXHeadingSameLevelSearchKey;
 
 @end
 

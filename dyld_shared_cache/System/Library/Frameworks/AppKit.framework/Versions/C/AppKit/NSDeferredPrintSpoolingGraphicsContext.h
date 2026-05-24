@@ -6,27 +6,21 @@
 
 #import <AppKit/NSCGSContext.h>
 
-@class NSDeferredPageSpoolingOperation, NSObject, NSPrintInfo, NSPrintSpoolingGraphicsContext;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NSDeferredPrintSpoolingGraphicsContext : NSCGSContext
 {
     NSObject<OS_dispatch_queue> *_printQueue;
-    NSObject<OS_dispatch_group> *_completionGroup;
-    NSPrintInfo *_printInfo;
-    _Bool _needsToEndDocument;
-    struct CGContext *_blackHoleContext;
-    NSDeferredPageSpoolingOperation *_currentPageOperation;
-    NSPrintSpoolingGraphicsContext *_pdfContext;
 }
 
-- (id);
-- (void *);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)connection:(id)arg1 needNewBodyStream:(id)arg2;
+- (void *)_allCredentialsWithAccessControlGroup:includeLegacyKeychain: /* Error: Ran out of types for this method. */;
+- (void)geSet;
+- (void)RLAsset;
+- (void)ityProperties %@;
+- (void)work-AOSKit:(id)arg1 unable to allocate CFDataRef to hold raw token data.;
 - (void);
 - (void);
 - (void);

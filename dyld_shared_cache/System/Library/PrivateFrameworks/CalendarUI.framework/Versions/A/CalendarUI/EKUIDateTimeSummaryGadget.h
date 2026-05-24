@@ -6,15 +6,11 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class EKUISummaryTextButton, NSLayoutConstraint, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface EKUIDateTimeSummaryGadget : EKUISingleViewGadget
 {
     NSView *_container;
-    EKUISummaryTextButton *_leftTextField;
-    NSTextField *_rightTextField;
-    EKUISummaryTextButton *_bottomTimeTextField;
-    NSLayoutConstraint *_bottomFieldHeightConstraint;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -39,7 +35,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,18 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSLayoutConstraint *bottomFieldHeightConstraint; // @synthesize bottomFieldHeightConstraint=_bottomFieldHeightConstraint;
-@property(retain) EKUISummaryTextButton *bottomTimeTextField; // @synthesize bottomTimeTextField=_bottomTimeTextField;
 @property(retain) NSView *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) EKUISummaryTextButton *leftTextField; // @synthesize leftTextField=_leftTextField;
-@property(retain) NSTextField *rightTextField; // @synthesize rightTextField=_rightTextField;
-@property(readonly) Class superclass;
 
 @end
 

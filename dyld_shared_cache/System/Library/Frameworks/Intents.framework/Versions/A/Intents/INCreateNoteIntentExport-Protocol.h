@@ -7,14 +7,13 @@
 @class INNoteContent, INSpeakableString;
 
 @protocol INCreateNoteIntentExport
+- (void);
 - (INSpeakableString *)%ð!ÀEù¾(Ð1Â0@ù
 × ;
-- (INNoteContent *)adHomeEntity: /* Error: Ran out of types for this method. */;
+- (INNoteContent *)addPayloadHomeEntity: /* Error: Ran out of types for this method. */;
 - (void)ý;
 
 // Remaining properties
-@property(copy) INNoteContent *content;
-@property(copy) INSpeakableString *groupName;
 @property(copy) INSpeakableString *title;
 @end
 

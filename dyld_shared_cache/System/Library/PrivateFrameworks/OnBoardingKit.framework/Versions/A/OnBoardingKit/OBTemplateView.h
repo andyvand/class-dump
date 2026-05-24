@@ -4,53 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSButton, NSColor, NSDictionary, NSImage, NSImageView, NSLayoutConstraint, NSScrollView, NSStackView, NSString, NSTextField, NSView, OBAnimationView, OBPrivacyLinkController, OBTemplatePartLinkButton;
+@class NSTextField;
 
 @interface OBTemplateView
 {
     _Bool _needsExtraWideContent;
-    _Bool _needsExtraWideContentAreaOnly;
-    _Bool _linkButtonGoesAboveContent;
-    _Bool _usesLargeContentArea;
-    _Bool _updateTextViewToContentPaddingOnTextChange;
-    NSString *_title;
-    NSString *_bodyText;
-    NSString *_headline;
-    NSImage *_topImage;
-    NSString *_topImageSymbolName;
-    NSColor *_topImageTintColor;
-    NSView *_topContent;
-    NSView *_contentArea;
-    OBTemplatePartLinkButton *_linkButton;
-    long long _layoutStyle;
-    OBPrivacyLinkController *_privacyLinkController;
-    NSTextField *_titleView;
-    NSTextField *_headlineView;
-    NSView *_topContentView;
-    NSView *_contentView;
-    NSImageView *_iconImageView;
-    NSTextField *_bodyTextView;
-    NSAttributedString *_attributedBodyText;
-    NSView *_privacyLinkView;
-    NSButton *_privacyLinkButton;
-    NSArray *_privacyBundleIdentifiers;
-    NSLayoutConstraint *_privacyLinkBottomConstraint;
-    NSStackView *_outerContentStackView;
-    NSStackView *_innerContentStackView;
-    NSScrollView *_innerContentScrollView;
-    NSScrollView *_outerContentScrollView;
-    NSView *_bottomPocketContainerView;
-    NSDictionary *_attributesForTitle;
-    NSDictionary *_attributesForHeadline;
-    unsigned long long _templateType;
-    OBAnimationView *_animationView;
-    NSArray *_symbolEffects;
-    NSArray *_symbolEffectOptions;
-    CDUnknownBlockType _privacyLinkCallback;
-    double _topContentOverrideHeight;
 }
 
-+ (long long);
++ (long long);
 + (id);
 - (double);
 - (_Bool);
@@ -59,14 +20,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)a`9caaA8a;
 - (id);
 - (double);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)l!b;
 - (void);
 - (void);
 - (void);
@@ -79,6 +40,10 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -89,15 +54,11 @@
 - (void);
 - (void);
 - (void);
+- (void)9h;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -125,29 +86,16 @@
 - (id);
 - (long long);
 - (id);
+- (id)
+;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -155,14 +103,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (unsigned long long);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -171,58 +114,37 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (long long)setDidFetchInitialThirdPartyApplicationState: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id)!;
+- (id)tion::scoreAll() - state uninitialized /* Error: Ran out of types for this method. */;
+- (void);
+- (void)defaultDetectionTypes;
+- (void)AssetIdentifier=%@, forcePairingIdentifier=%@, duplicateLivePhotoAsStill=%d, duplicateSinglePhotoFromBurst=%d;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)TRIPBField;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) OBAnimationView *animationView; // @synthesize animationView=_animationView;
-@property(retain, nonatomic) NSAttributedString *attributedBodyText; // @synthesize attributedBodyText=_attributedBodyText;
-@property(retain, nonatomic) NSDictionary *attributesForHeadline; // @synthesize attributesForHeadline=_attributesForHeadline;
-@property(retain, nonatomic) NSDictionary *attributesForTitle; // @synthesize attributesForTitle=_attributesForTitle;
-@property(retain, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property long long bodyTextAlignment;
-@property(retain, nonatomic) NSTextField *bodyTextView; // @synthesize bodyTextView=_bodyTextView;
-@property(retain, nonatomic) NSView *bottomPocketContainerView; // @synthesize bottomPocketContainerView=_bottomPocketContainerView;
-@property(retain, nonatomic) NSView *contentArea; // @synthesize contentArea=_contentArea;
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) NSString *headline; // @synthesize headline=_headline;
-@property(retain, nonatomic) NSTextField *headlineView; // @synthesize headlineView=_headlineView;
-@property(retain, nonatomic) NSImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property(retain, nonatomic) NSScrollView *innerContentScrollView; // @synthesize innerContentScrollView=_innerContentScrollView;
-@property(retain, nonatomic) NSStackView *innerContentStackView; // @synthesize innerContentStackView=_innerContentStackView;
-@property(nonatomic) long long layoutStyle; // @synthesize layoutStyle=_layoutStyle;
-@property(retain, nonatomic) OBTemplatePartLinkButton *linkButton; // @synthesize linkButton=_linkButton;
-@property _Bool linkButtonGoesAboveContent; // @synthesize linkButtonGoesAboveContent=_linkButtonGoesAboveContent;
-@property _Bool needsExtraWideContent; // @synthesize needsExtraWideContent=_needsExtraWideContent;
-@property _Bool needsExtraWideContentAreaOnly; // @synthesize needsExtraWideContentAreaOnly=_needsExtraWideContentAreaOnly;
-@property(retain, nonatomic) NSScrollView *outerContentScrollView; // @synthesize outerContentScrollView=_outerContentScrollView;
-@property(retain, nonatomic) NSStackView *outerContentStackView; // @synthesize outerContentStackView=_outerContentStackView;
-@property(retain, nonatomic) NSArray *privacyBundleIdentifiers; // @synthesize privacyBundleIdentifiers=_privacyBundleIdentifiers;
-@property(retain, nonatomic) NSLayoutConstraint *privacyLinkBottomConstraint; // @synthesize privacyLinkBottomConstraint=_privacyLinkBottomConstraint;
-@property(retain, nonatomic) NSButton *privacyLinkButton; // @synthesize privacyLinkButton=_privacyLinkButton;
-@property(copy, nonatomic) CDUnknownBlockType privacyLinkCallback; // @synthesize privacyLinkCallback=_privacyLinkCallback;
-@property(retain, nonatomic) OBPrivacyLinkController *privacyLinkController; // @synthesize privacyLinkController=_privacyLinkController;
-@property(retain, nonatomic) NSView *privacyLinkView; // @synthesize privacyLinkView=_privacyLinkView;
-@property(retain, nonatomic) NSArray *symbolEffectOptions; // @synthesize symbolEffectOptions=_symbolEffectOptions;
-@property(retain, nonatomic) NSArray *symbolEffects; // @synthesize symbolEffects=_symbolEffects;
-@property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(retain, nonatomic) NSTextField *titleView; // @synthesize titleView=_titleView;
-@property(retain, nonatomic) NSView *topContent; // @synthesize topContent=_topContent;
-@property double topContentOverrideHeight; // @synthesize topContentOverrideHeight=_topContentOverrideHeight;
-@property(retain, nonatomic) NSView *topContentView; // @synthesize topContentView=_topContentView;
-@property(retain, nonatomic) NSImage *topImage; // @synthesize topImage=_topImage;
-@property(retain, nonatomic) NSString *topImageSymbolName; // @synthesize topImageSymbolName=_topImageSymbolName;
-@property(retain, nonatomic) NSColor *topImageTintColor; // @synthesize topImageTintColor=_topImageTintColor;
-@property(nonatomic) _Bool updateTextViewToContentPaddingOnTextChange; // @synthesize updateTextViewToContentPaddingOnTextChange=_updateTextViewToContentPaddingOnTextChange;
-@property _Bool usesLargeContentArea; // @synthesize usesLargeContentArea=_usesLargeContentArea;
 
 @end
 

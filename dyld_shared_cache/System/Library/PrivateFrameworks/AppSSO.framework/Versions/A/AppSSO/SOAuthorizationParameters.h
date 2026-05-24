@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL, SOAuthorizationParametersCore;
+@class SOAuthorizationParametersCore;
 
 @interface SOAuthorizationParameters
 {
     SOAuthorizationParametersCore *_authorizationParametersCore;
-    NSString *_impersonationBundleIdentifier;
 }
 
 - (void);
@@ -21,35 +20,24 @@
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)@?@"NSError">24;
+- (id)ProxyServiceRemoteClientInterface>"16;
+- (void)_refreshBattery;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)cationServices;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *auditTokenData;
 @property(readonly, nonatomic) SOAuthorizationParametersCore *authorizationParametersCore;
-@property(nonatomic, getter=isCFNetworkInterception, setter=setCFNetworkInterception:) _Bool cfNetworkInterception;
-@property(retain, nonatomic) NSData *httpBody;
-@property(retain, nonatomic) NSDictionary *httpHeaders;
-@property(readonly, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *impersonationBundleIdentifier; // @synthesize impersonationBundleIdentifier=_impersonationBundleIdentifier;
-@property(copy, nonatomic) NSString *operation;
-@property(nonatomic) long long responseCode;
-@property(nonatomic, getter=canShowOnCoverScreen) _Bool showOnCoverScreen;
-@property(retain, nonatomic) NSURL *url;
-@property(nonatomic) _Bool useInternalExtensions;
 
 @end
 

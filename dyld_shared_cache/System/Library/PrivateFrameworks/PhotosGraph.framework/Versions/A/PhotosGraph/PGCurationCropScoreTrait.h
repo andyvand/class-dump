@@ -11,9 +11,9 @@
     double _minimumSquareCropScore;
 }
 
-- (void);
+- (void)_zoomFocusRectForRange:(double)arg1 textElement:withElementInfo:withPreviousElementInfo: /* Error: Ran out of types for this method. */;
 - (double);
-- (id);
+- (id)8ԋ};
 - (_Bool);
 
 // Remaining properties

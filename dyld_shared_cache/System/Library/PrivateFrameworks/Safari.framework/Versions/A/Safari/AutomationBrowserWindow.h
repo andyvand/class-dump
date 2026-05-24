@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface AutomationBrowserWindow : BrowserWindow
 {
     _Bool _sendingAllowedEvent;
-    _Bool _sendingSynthesizedEvent;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)40@48Q56@64@72@80;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool sendingAllowedEvent; // @synthesize sendingAllowedEvent=_sendingAllowedEvent;
 @property(readonly, nonatomic) _Bool sendingSynthesizedEvent; // @synthesize sendingSynthesizedEvent=_sendingSynthesizedEvent;
 
 @end

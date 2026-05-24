@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITraitCollection;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UILayoutRuleRegistration
 {
     NSString *_identifier;
-    CDUnknownBlockType _evaluationHandler;
-    CDStruct_b8da1a4e _layoutInfo;
-    UITraitCollection *_parentTraitCollection;
 }
 
-- (id);
-- (void);
+- (id)setBool:(id)arg1 forDomain:(CDUnknownBlockType)arg2 forKey: /* Error: Ran out of types for this method. */;
+- (void)loadChatsFilteredUsingPredicate:(CDStruct_c59c548a)arg1 lastMessageOlderThan:(id)arg2 limit:(id)arg3 reply: /* Error: Ran out of types for this method. */;
 - (struct CGSize)A!äDùQ]ð1Â0@ù
 × ;
 - (id)°H	;
 - (struct UIEdgeInsets)ssible;
 - (struct NSDirectionalEdgeInsets);
-- (void)r;
+- (void)TextureController;
 - (struct UIEdgeInsets)à;
 - (id)ôÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) struct UIEdgeInsets layoutMargins;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsets;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
 
 @end
 

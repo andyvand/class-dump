@@ -6,13 +6,11 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class CUIThemeRendition, NSArray, NSString;
+@class NSArray;
 
 @interface CUINamedLayerStack : CUINamedLookup
 {
     NSArray *_layers;
-    CUIThemeRendition *_flattenedImageRendition;
-    CUIThemeRendition *_radiosityImageRendition;
 }
 
 + (void);
@@ -20,17 +18,7 @@
 + (struct vImage_Buffer);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGImage *flattenedImage;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *layers; // @synthesize layers=_layers;
-@property(readonly, nonatomic) struct CGImage *radiosityImage;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
 
 @end
 

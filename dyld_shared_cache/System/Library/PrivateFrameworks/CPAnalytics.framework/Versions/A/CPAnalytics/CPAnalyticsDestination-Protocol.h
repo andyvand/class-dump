@@ -5,6 +5,8 @@
 //
 
 @protocol CPAnalyticsDestination
+- (id);
+- (void)kCTOtaspOtapaStopped;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool disabled;

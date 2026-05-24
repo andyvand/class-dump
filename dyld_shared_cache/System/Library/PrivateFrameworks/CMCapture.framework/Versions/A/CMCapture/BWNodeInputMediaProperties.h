@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFormat, BWNodeInput, BWVideoFormat, NSString;
+@class BWFormat, NSString;
 
 @interface BWNodeInputMediaProperties
 {
     NSString *_associatedAttachedMediaKey;
-    BWNodeInput *_owningNodeInput;
-    BWFormat *_resolvedFormat;
-    BWFormat *_liveFormat;
 }
 
 - (void);
+- (id)G@;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)verscanOutputConfigurationsEnabled;
+- (void)ipping NL dissector:(id)arg1 allowNaturalLanguageDissector is OFF;
+- (id)B;
+- (void)";
+- (void)_powerOptimizedVISOverscanOutputConfigurationsEnabled;
 - (id)as called while running;
 
 // Remaining properties
-@property(readonly, nonatomic) BWFormat *liveFormat; // @synthesize liveFormat=_liveFormat;
-@property(readonly, nonatomic) BWVideoFormat *liveVideoFormat;
 @property(retain, nonatomic) BWFormat *resolvedFormat;
-@property(readonly, nonatomic) BWVideoFormat *resolvedVideoFormat;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationPublicKeyCredentialLargeBlobAssertionOutput, ASAuthorizationPublicKeyCredentialPRFAssertionOutput, ASCPlatformPublicKeyCredentialAssertion, NSData, NSString;
+@class ASAuthorizationPublicKeyCredentialLargeBlobAssertionOutput, ASCPlatformPublicKeyCredentialAssertion;
 
 @interface ASAuthorizationPlatformPublicKeyCredentialAssertion
 {
@@ -18,36 +18,19 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)deferralTime;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialLargeBlobAssertionOutput *__largeBlobSwift;
-@property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialPRFAssertionOutput *__prfSwift;
-@property(readonly, nonatomic) long long attachment;
-@property(readonly, nonatomic) ASCPlatformPublicKeyCredentialAssertion *coreCredential; // @synthesize coreCredential=_coreCredential;
-@property(readonly, copy, nonatomic) NSData *credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ASAuthorizationPublicKeyCredentialLargeBlobAssertionOutput *largeBlob;
-@property(readonly, nonatomic) ASAuthorizationPublicKeyCredentialPRFAssertionOutput *prf;
-@property(readonly, copy, nonatomic) NSData *rawAuthenticatorData;
-@property(readonly, copy, nonatomic) NSData *rawClientDataJSON;
-@property(readonly, copy, nonatomic) NSData *signature;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSData *userID;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface INTermsAndConditions
 {
     NSString *_localizedTermsAndConditionsText;
-    NSURL *_privacyPolicyURL;
-    NSURL *_termsAndConditionsURL;
 }
 
 + (_Bool);
@@ -18,27 +16,18 @@
 - (id);
 - (id);
 - (id);
+- (id)unpublishController:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)setNetwork:(id)arg1;
+- (void)SSID transition (%{public}@);
 - (id);
 - (id);
 - (id)gnalsMaxItemsToDisambiguate:(unsigned long long)arg1 alternativeProviderBundleIdentifier:ampPAFDataSetID: /* Error: Ran out of types for this method. */;
-- (void)nWorkflow:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideWorkflowOptionsCollectionForRunWorkflow:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *localizedTermsAndConditionsText; // @synthesize localizedTermsAndConditionsText=_localizedTermsAndConditionsText;
-@property(readonly) NSURL *privacyPolicyURL; // @synthesize privacyPolicyURL=_privacyPolicyURL;
-@property(readonly) Class superclass;
-@property(readonly) NSURL *termsAndConditionsURL; // @synthesize termsAndConditionsURL=_termsAndConditionsURL;
 
 @end
 

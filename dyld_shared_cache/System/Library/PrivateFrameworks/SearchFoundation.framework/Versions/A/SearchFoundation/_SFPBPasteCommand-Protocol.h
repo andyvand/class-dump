@@ -7,9 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBPasteCommand
+- (void);
+- (NSData *),N,V_originalColorSpace;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *copyableItems;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

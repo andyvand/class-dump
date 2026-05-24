@@ -5,5 +5,9 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void)ySo22AMSMetricsLoadURLEventCG;
+- (void);
 @end
 

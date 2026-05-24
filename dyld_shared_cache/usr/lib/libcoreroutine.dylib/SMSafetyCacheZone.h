@@ -6,14 +6,11 @@
 
 #import <coreroutine/SMCloudKitZone.h>
 
-@class CKRecord, CKRecordID, NSData, NSDate, NSString, RTDefaultsManager;
+@class NSString, RTDefaultsManager;
 
 @interface SMSafetyCacheZone : SMCloudKitZone
 {
     RTDefaultsManager *_defaultsManager;
-    NSString *_token;
-    CKRecord *_safetyCacheRecord;
-    CKRecord *_accessDataRecord;
 }
 
 - (id);
@@ -23,39 +20,30 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)sendInvitationUpdate:fromAccount:toDestination:options:identifier:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)Ø	;
 - (void)TripSegmentProvider:%@,adding trip segment that failed processing,processingErrorCode,%d,tripId,%@,tripVisitStartLoc,%{sensitive}@,tripVisitEndLoc,%{sensitive}@,tripSeq,%d,tripSeqMax,%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CKRecord *accessDataRecord; // @synthesize accessDataRecord=_accessDataRecord;
-@property(readonly, nonatomic) CKRecordID *accessDataRecordID;
-@property(readonly, nonatomic) NSData *allowReadToken;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) NSData *phoneSafetyCache;
-@property(readonly, nonatomic) NSDate *releaseTime;
-@property(retain, nonatomic) CKRecord *safetyCacheRecord; // @synthesize safetyCacheRecord=_safetyCacheRecord;
-@property(readonly, nonatomic) CKRecordID *safetyCacheRecordID;
 @property(retain, nonatomic) NSString *token; // @synthesize token=_token;
-@property(readonly, nonatomic) NSData *watchSafetyCache;
 
 @end
 

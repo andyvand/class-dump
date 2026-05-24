@@ -7,7 +7,6 @@
 #import <CoreDAV/CoreDAVTask.h>
 
 @class NSArray;
-@protocol CoreDAVACLTaskDelegate;
 
 @interface CoreDAVACLTask : CoreDAVTask
 {
@@ -16,17 +15,16 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)A;
+- (id)_registeredDragTypes;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SyncFolderHierarchy;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessControlEntities; // @synthesize accessControlEntities=_accessControlEntities;
-@property(nonatomic) __weak id <CoreDAVACLTaskDelegate> delegate; // @dynamic delegate;
 
 @end
 

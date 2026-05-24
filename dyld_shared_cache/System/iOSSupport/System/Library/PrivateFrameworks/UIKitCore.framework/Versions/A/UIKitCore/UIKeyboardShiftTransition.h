@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (double);
+- (void)sting ramp state. Is under first unlock.;
+- (double)e number, That phone number is SMS Relay enabled, we should use that ;
 
 @end
 

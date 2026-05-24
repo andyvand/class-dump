@@ -7,12 +7,6 @@
 @interface PodcastsFoundation.MediaSpaceCalculator
 {
     id _mediaDistribution;
-    id mediaPath;
-    id fileManager;
-    id managedObjectContext;
-    id requestSubject;
-    id workQueue;
-    id observerSink;
 }
 
 @end

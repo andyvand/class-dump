@@ -14,10 +14,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)N2sd26IMSSubscriberModelDelegateE;
 - (_Bool)0@ù
 × ;
 

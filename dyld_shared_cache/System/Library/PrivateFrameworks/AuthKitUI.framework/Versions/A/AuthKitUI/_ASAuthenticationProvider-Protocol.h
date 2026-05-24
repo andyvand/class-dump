@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _ASAuthenticationPresentationProvider, _ASAuthenticationProviderLoginRowData;
+@protocol _ASAuthenticationPresentationProvider;
 
 @protocol _ASAuthenticationProvider
+- (id <_ASAuthenticationPresentationProvider>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <_ASAuthenticationProviderLoginRowData> loginRowData;
 @property __weak id <_ASAuthenticationPresentationProvider> presentationProvider;
 @end
 

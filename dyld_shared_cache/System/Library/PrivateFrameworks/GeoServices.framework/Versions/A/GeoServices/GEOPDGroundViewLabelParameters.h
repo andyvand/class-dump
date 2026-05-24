@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGroundViewLabelParameters
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _locationId;
-    GEOLocation *_location;
-    struct {
-        unsigned int has_locationId:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)"read_merchantCountryCode"b1"read_merchantDoingBusinessAsName"b1"read_merchantEnhancedName"b1"read_merchantId"b1"read_merchantRawAddress"b1"read_merchantRawCity"b1"read_merchantRawState"b1"read_merchantState"b1"read_merchantType"b1"read_merchantZip"b1"wrote_anyField"b1};
-- (id)oForSegment:location:distanceFromSegment: /* Error: Ran out of types for this method. */;
+- (id)_distanceScoreInfoForSegment:location:distanceFromSegment: /* Error: Ran out of types for this method. */;
 - (id)÷ è÷|ø;
 - (void);
 

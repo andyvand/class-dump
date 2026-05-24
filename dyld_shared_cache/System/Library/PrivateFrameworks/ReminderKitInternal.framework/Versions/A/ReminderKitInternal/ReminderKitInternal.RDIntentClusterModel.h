@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.RDIntentClusterModel
 {
     id intentionVectors;
-    id embedding;
 }
 
 @end

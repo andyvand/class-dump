@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)%{public}@ (= file size %lu) timed out after %.3fs;
 
 @end
 

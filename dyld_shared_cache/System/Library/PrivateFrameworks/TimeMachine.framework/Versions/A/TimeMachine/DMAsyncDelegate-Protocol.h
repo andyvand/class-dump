@@ -5,5 +5,11 @@
 //
 
 @protocol DMAsyncDelegate
+- (void);
+- (void)9?;
+- (void);
+
+@optional
+- (void);
 @end
 

@@ -9,7 +9,6 @@
 @interface CNReputationHandle
 {
     NSString *_stringValue;
-    long long _type;
 }
 
 + (id);
@@ -18,8 +17,8 @@
 + (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)MaxReRegistrationAttempts;
+- (unsigned long long)C;
 - (long long);
 - (_Bool);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

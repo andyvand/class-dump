@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFPunchout;
+@class NSString;
 
 @interface SFAppLink
 {
     CDStruct_9f571ec0 _has;
-    int _imageAlign;
-    NSString *_title;
-    SFPunchout *_appPunchout;
-    SFImage *_image;
 }
 
 + (_Bool);
@@ -21,33 +17,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)parentRoute;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)B;
+- (id)validateAssetCollectionTitle:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)setFilterQueries:(id)arg1;
+- (id)assetUUIDsAssetsMarkedRejectedByPhotosSuggesterFromLibraryScope;
 - (id);
 - (id);
 - (id);
 - (void)ail_2;
 
 // Remaining properties
-@property(retain, nonatomic) SFPunchout *appPunchout; // @synthesize appPunchout=_appPunchout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SFImage *image; // @synthesize image=_image;
-@property(nonatomic) int imageAlign; // @synthesize imageAlign=_imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

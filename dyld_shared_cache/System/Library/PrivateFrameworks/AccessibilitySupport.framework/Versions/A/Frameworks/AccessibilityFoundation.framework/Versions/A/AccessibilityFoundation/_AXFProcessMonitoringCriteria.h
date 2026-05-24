@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _AXFProcessMonitoringCriteria
 {
     int _pid;
-    double _cpuThreshold;
-    double _cpuDuration;
-    double _memoryThreshold;
-    double _memoryDuration;
 }
 
 - (double);
@@ -23,10 +19,6 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double cpuDuration; // @synthesize cpuDuration=_cpuDuration;
-@property(readonly, nonatomic) double cpuThreshold; // @synthesize cpuThreshold=_cpuThreshold;
-@property(readonly, nonatomic) double memoryDuration; // @synthesize memoryDuration=_memoryDuration;
-@property(readonly, nonatomic) double memoryThreshold; // @synthesize memoryThreshold=_memoryThreshold;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 
 @end

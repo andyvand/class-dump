@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface iCloudAccountFeatureEligibilityRequest
 {
     ACAccount *_account;
-    NSString *_featureIdentifier;
 }
 
-+ (Class);
++ (Class)4@"NSDictionary"28@?<v@?@"NSError"@"NSDictionary">36;
 - (id);
-- (id);
+- (id))@y	;
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy, nonatomic) NSString *featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
 
 @end
 

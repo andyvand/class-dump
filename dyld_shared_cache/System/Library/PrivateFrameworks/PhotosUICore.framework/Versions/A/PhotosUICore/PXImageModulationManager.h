@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSHashTable, NSString, NSViewController, PXImageModulationSettings, PXRequestedEDRHeadroomFactorFilter;
+@class PXImageModulationSettings;
 
 @interface PXImageModulationManager
 {
@@ -20,23 +20,6 @@
         _Bool imageLayerModulators;
         _Bool currentScreenSupportsHDR;
     } _needsUpdateFlags;
-    double _lastRequestedEDRHeadroomChangeTime;
-    _Bool _lowPowerModeEnabled;
-    _Bool _applicationActive;
-    _Bool _enabledForTesting;
-    _Bool _mainScreen;
-    _Bool _enabled;
-    _Bool _active;
-    _Bool _currentScreenSupportsHDR;
-    PXImageModulationSettings *_settings;
-    NSHashTable *_imageLayerModulators;
-    PXRequestedEDRHeadroomFactorFilter *_requestedEDRHeadroomFactorFilter;
-    long long _requestedEDRHeadroomSignpost;
-    CAContext *_coreAnimationContext;
-    NSViewController *_rootViewController;
-    double _HDRFocus;
-    double _imageModulationIntensity;
-    double _requestedEDRHeadroomFactor;
 }
 
 + (CDStruct_fd7332cd);
@@ -64,8 +47,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)9O;
 - (void);
 - (void);
 - (void);
@@ -95,7 +78,7 @@
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)#;
 - (id);
 - (_Bool);
 - (void);
@@ -106,13 +89,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)longer valid, task-identifier=%{public}@;
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)CGImage=}56@0:(_Bool)arg1 8@16{CGSize=dd}24*40B48B52;
+- (_Bool)_guidelinesForSubtitleDictionary:removeStringAttributes: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)ù91Â0@ù
@@ -123,29 +106,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double HDRFocus; // @synthesize HDRFocus=_HDRFocus;
-@property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic, getter=isApplicationActive) _Bool applicationActive; // @synthesize applicationActive=_applicationActive;
-@property(retain, nonatomic) CAContext *coreAnimationContext; // @synthesize coreAnimationContext=_coreAnimationContext;
-@property(readonly, nonatomic) _Bool currentScreenSupportsHDR; // @synthesize currentScreenSupportsHDR=_currentScreenSupportsHDR;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool enabledForTesting; // @synthesize enabledForTesting=_enabledForTesting;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSHashTable *imageLayerModulators; // @synthesize imageLayerModulators=_imageLayerModulators;
-@property(readonly, nonatomic) double imageModulationIntensity; // @synthesize imageModulationIntensity=_imageModulationIntensity;
-@property(nonatomic, getter=isLowPowerModeEnabled) _Bool lowPowerModeEnabled; // @synthesize lowPowerModeEnabled=_lowPowerModeEnabled;
-@property(readonly, nonatomic, getter=isMainScreen) _Bool mainScreen; // @synthesize mainScreen=_mainScreen;
-@property(readonly, nonatomic) double requestedEDRHeadroomFactor; // @synthesize requestedEDRHeadroomFactor=_requestedEDRHeadroomFactor;
-@property(readonly, nonatomic) PXRequestedEDRHeadroomFactorFilter *requestedEDRHeadroomFactorFilter; // @synthesize requestedEDRHeadroomFactorFilter=_requestedEDRHeadroomFactorFilter;
-@property(nonatomic) long long requestedEDRHeadroomSignpost; // @synthesize requestedEDRHeadroomSignpost=_requestedEDRHeadroomSignpost;
-@property(readonly, nonatomic) __weak NSViewController *rootViewController; // @synthesize rootViewController=_rootViewController;
 @property(readonly, nonatomic) PXImageModulationSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 
 @end
 

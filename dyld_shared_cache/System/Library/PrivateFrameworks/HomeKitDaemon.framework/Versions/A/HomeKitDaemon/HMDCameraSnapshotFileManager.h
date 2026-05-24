@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraSnapshotFile, HMDCameraSnapshotSlotManager, HMFMessageDispatcher, NSDictionary, NSMapTable, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSString, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotFileManager
 {
     NSUUID *_uniqueIdentifier;
-    NSMapTable *_filledSnapshotSlotIdentifiersByProcess;
-    NSMapTable *_snapshotFilesByAssociatedProcessInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSString *_imageCacheDirectory;
-    NSNotificationCenter *_notificationCenter;
-    HMDCameraSnapshotSlotManager *_snapshotSlotManager;
-    HMDCameraSnapshotFile *_mostRecentSnapshot;
-    NSString *_logIdentifier;
 }
 
 + (id)HÂÿ½ßB;
@@ -28,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -39,16 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSDictionary *encodedMostRecentSnapshot;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

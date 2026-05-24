@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SXComponentTextRules
 {
     _Bool _shouldHyphenate;
-    _Bool _isSelectable;
-    _Bool _allowsScrollPositionRestore;
-    double _fontResizingTresholdFactor;
-    double _fontSizeConstant;
-    double _lineHeightConstant;
-    double _dropCapConstant;
-    long long _textFlow;
-    NSString *_fontTextStyle;
 }
 
 + (id);
@@ -24,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -47,15 +37,7 @@
 - (void)lueprintMarker>";
 
 // Remaining properties
-@property(nonatomic) _Bool allowsScrollPositionRestore; // @synthesize allowsScrollPositionRestore=_allowsScrollPositionRestore;
-@property(nonatomic) double dropCapConstant; // @synthesize dropCapConstant=_dropCapConstant;
 @property(nonatomic) double fontResizingTresholdFactor; // @synthesize fontResizingTresholdFactor=_fontResizingTresholdFactor;
-@property(nonatomic) double fontSizeConstant; // @synthesize fontSizeConstant=_fontSizeConstant;
-@property(copy, nonatomic) NSString *fontTextStyle; // @synthesize fontTextStyle=_fontTextStyle;
-@property(nonatomic) _Bool isSelectable; // @synthesize isSelectable=_isSelectable;
-@property(nonatomic) double lineHeightConstant; // @synthesize lineHeightConstant=_lineHeightConstant;
-@property(nonatomic) _Bool shouldHyphenate; // @synthesize shouldHyphenate=_shouldHyphenate;
-@property(nonatomic) long long textFlow; // @synthesize textFlow=_textFlow;
 
 @end
 

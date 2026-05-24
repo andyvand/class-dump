@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol BSSettingDescriptionProvider
+
+@optional
+- (NSString *)17TropicalWeightTplIfEEiEELNS_10GallicTypeE0EEEEEEEE4LinkEEE;
+- (NSString *)N3fst11MemoryArenaINS_10MemoryPoolINS_8DfsStateINS_10ReverseArcINS_9GallicArcINS_6ArcTplINS_17TropicalWeightTplIfEEiEELNS_10GallicTypeE0EEEEEEEE4LinkEEE;
+- (_Bool)t3__19allocatorISA_EEEEEE;
+- (_Bool)StoreIS8_EEEE;
 @end
 

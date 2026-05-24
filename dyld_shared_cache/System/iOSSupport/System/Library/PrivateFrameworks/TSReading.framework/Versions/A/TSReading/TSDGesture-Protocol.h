@@ -4,16 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDRep;
-@protocol TSDGestureDelegate, TSDGestureTarget;
+@class TSDRep;
+@protocol TSDGestureTarget;
 
 @protocol TSDGesture
+- (TSDRep *)Assistant;
+- (void)r podcasts;
+- (void)_loadTracksWithRequest completion called more than once;
+- (void)podcastsCustomShowSettings;
+- (struct CGPoint);
+- (void)NMPCPodcastsBehaviorErrorCode;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget;
-@property(nonatomic) id <TSDGestureDelegate> gestureDelegate;
-@property(retain, nonatomic) NSString *gestureKind;
-@property(readonly, nonatomic) int gestureState;
-@property(retain, nonatomic) TSDRep *targetRep;
 @end
 

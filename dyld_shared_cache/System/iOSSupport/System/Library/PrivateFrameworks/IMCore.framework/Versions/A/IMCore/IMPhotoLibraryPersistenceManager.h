@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSHashTable, NSMutableDictionary, NSMutableSet, NSString, PHPhotoLibrary;
+@class NSHashTable;
 
 @interface IMPhotoLibraryPersistenceManager
 {
     NSHashTable *_listeners;
-    NSMutableDictionary *_syndicationIdentifierSaveStateCache;
-    NSMutableDictionary *_syndicationIdentifierFetchResultCache;
-    NSMutableDictionary *_syndicationIdentifierToAssetUUIDCache;
-    NSMutableSet *_syndicationIdentifiersPendingFetch;
-    NSMutableSet *_syndicationIdentifiersWithActiveFetch;
-    NSCountedSet *_sessions;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ц3;
 - (id);
 - (id);
 - (id);
@@ -54,26 +47,12 @@
 - (id);
 - (void);
 - (void)¼%ü%;
-- (id)ation;
+- (id)__kIMChatRegistryWillLoadNotification;
 - (id)pÜ;
 - (void)Óÿá6fJã;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSHashTable *listeners; // @synthesize listeners=_listeners;
-@property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain, nonatomic) NSCountedSet *sessions; // @synthesize sessions=_sessions;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *syndicationIdentifierFetchResultCache; // @synthesize syndicationIdentifierFetchResultCache=_syndicationIdentifierFetchResultCache;
-@property(retain, nonatomic) NSMutableDictionary *syndicationIdentifierSaveStateCache; // @synthesize syndicationIdentifierSaveStateCache=_syndicationIdentifierSaveStateCache;
-@property(retain, nonatomic) NSMutableDictionary *syndicationIdentifierToAssetUUIDCache; // @synthesize syndicationIdentifierToAssetUUIDCache=_syndicationIdentifierToAssetUUIDCache;
-@property(retain, nonatomic) NSMutableSet *syndicationIdentifiersPendingFetch; // @synthesize syndicationIdentifiersPendingFetch=_syndicationIdentifiersPendingFetch;
-@property(retain, nonatomic) NSMutableSet *syndicationIdentifiersWithActiveFetch; // @synthesize syndicationIdentifiersWithActiveFetch=_syndicationIdentifiersWithActiveFetch;
 
 @end
 

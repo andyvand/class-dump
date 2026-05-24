@@ -9,14 +9,12 @@
 @interface TRIExperimentDeploymentTreatment
 {
     int _deploymentId;
-    NSString *_experimentId;
-    NSString *_treatmentId;
 }
 
-+ (id);
++ (id)initWithBase64EncodedString:(id)arg1 options:(int)arg2;
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)isEqualToNode:(id)arg1;
+- (id)cessing the remove event for BonjourDevice with name %@;
 - (id);
 - (id);
 - (id);
@@ -34,9 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

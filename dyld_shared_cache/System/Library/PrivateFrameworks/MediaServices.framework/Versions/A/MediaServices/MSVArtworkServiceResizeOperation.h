@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)"<CNUIIDSHandle>"16@0:8 /* Error: Ran out of types for this method. */;
 
 @end
 

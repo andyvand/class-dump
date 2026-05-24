@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString;
-@protocol OS_dispatch_queue, SPAdvertisementCacheXPCProtocol;
+@class FMXPCServiceDescription;
 
 @interface SPAdvertisementCache
 {
     FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPAdvertisementCacheXPCProtocol> _proxy;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -29,27 +25,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (void);
-- (void);
+- (void)k;
 - (id);
-- (void);
+- (void)generateSpeechClips;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SPAdvertisementCacheXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMDailyScheduler, NSString;
-@protocol HMDAppleMediaAccessoryMetricsDispatcherDataSource, HMMLogEventSubmitting;
+@protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryMetricsDispatcher
 {
     struct os_unfair_lock_s _lock;
-    NSString *_previousRoomName;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMMDailyScheduler *_dailyScheduler;
-    id <HMDAppleMediaAccessoryMetricsDispatcherDataSource> _dataSource;
 }
 
+- (void)d, but handle still blocked, will update record;
+- (void)discard invalid %@;
+- (void)-> %@ in %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)1;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)filterOptions;
 - (void)ionO05MediaE7ManagerC10DataSourceP;
 - (void);
 - (id)@;
 
 // Remaining properties
-@property(readonly) HMMDailyScheduler *dailyScheduler; // @synthesize dailyScheduler=_dailyScheduler;
-@property(readonly) __weak id <HMDAppleMediaAccessoryMetricsDispatcherDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(copy) NSString *previousRoomName; // @synthesize previousRoomName=_previousRoomName;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudClient, ICMediaUserState, NSArray, NSMutableArray, NSObject, NSXPCConnection;
+@class NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICMediaUserStateCenter
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    struct os_unfair_lock_s _lock;
-    NSXPCConnection *_xpcConnection;
-    NSMutableArray *_refreshUserStateCompletionHandlers;
-    NSObject<OS_dispatch_queue> *_completionHandlersQueue;
-    ICCloudClient *_cloudClient;
-    NSArray *_allUserStates;
 }
 
 + (id)[Lease] %s - importSubscriptionKeyBagData:leaseInfoData:completionHandler:could not get fairplay context for identifier - error=%{public}@ /* Error: Ran out of types for this method. */;
@@ -32,12 +26,11 @@
 - (void);
 - (id);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void)nPlayInfoResponseToken;
+- (void)ICDelegationPlayInfoResponseToken;
 
 // Remaining properties
-@property(readonly, nonatomic) ICMediaUserState *activeUserState;
 @property(copy, nonatomic) NSArray *allUserStates; // @synthesize allUserStates=_allUserStates;
 
 @end

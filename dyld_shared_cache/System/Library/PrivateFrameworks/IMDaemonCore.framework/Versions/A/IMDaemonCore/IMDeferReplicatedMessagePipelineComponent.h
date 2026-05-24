@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMDeferReplicatedMessagePipelineComponent
 {
     _Bool _skipDeferral;
-    NSString *_replicationSourceServiceNameOverride;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)g;
 - (id);
 - (_Bool);
 - (id);
 - (void)};
 
 // Remaining properties
-@property(retain, nonatomic) NSString *replicationSourceServiceNameOverride; // @synthesize replicationSourceServiceNameOverride=_replicationSourceServiceNameOverride;
 @property(nonatomic) _Bool skipDeferral; // @synthesize skipDeferral=_skipDeferral;
 
 @end

@@ -6,25 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHASRCallEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)ateController";
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)\;
 - (_Bool);
 - (id);
 - (id)!4Aù1Þ1Â0@ù
 × ;
-- (id)nt;
+- (id)_airPlayTargetedDevicesCount;
 - (id)tIdentifier;
 - (_Bool)W_PLAYING_SIGNAL;
 - (_Bool)a!;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

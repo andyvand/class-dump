@@ -5,5 +5,6 @@
 //
 
 @protocol MXMSProxyUncacheBeforeIteration_Internal
+- (void);
 @end
 

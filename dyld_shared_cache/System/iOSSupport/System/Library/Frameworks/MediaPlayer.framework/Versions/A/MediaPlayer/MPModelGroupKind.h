@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-- (id);
++ (id)So13BMStoreStreamCyxG;
+- (id)resultsToDiscardCount;
 
 @end
 

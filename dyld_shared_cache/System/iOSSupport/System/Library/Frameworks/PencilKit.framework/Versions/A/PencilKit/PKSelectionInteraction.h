@@ -4,52 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableOrderedSet, NSOrderedSet, NSString, PKDrawing, PKDrawingAdjustmentKnob, PKSelectionController, PKSelectionGlowRenderer, UIBezierPath, UILongPressGestureRecognizer, UIPanGestureRecognizer, UITapAndAHalfRecognizer, UITapGestureRecognizer, UIView;
-@protocol PKSelectionInteractionDelegate, PKSelectionRendering;
+@class UIView;
+@protocol PKSelectionRendering;
 
 @interface PKSelectionInteraction
 {
     id <PKSelectionRendering> _lassoRenderer;
-    PKSelectionGlowRenderer *_glowRenderer;
-    UIBezierPath *_lassoPath;
-    struct CGPoint _lastTapLocation;
-    double _lastTapTimestamp;
-    long long _currentTapCount;
-    struct CGPoint _lastDoubleTapAndDragLocation;
-    double _lastDoubleTapAndDragTimestamp;
-    NSMutableArray *_tapAndDragVelocityArray;
-    long long _tapAndDragVelocityCount;
-    long long _currentlyDraggedKnob;
-    long long _knobDragMode;
-    double _knobDragInitialTimestamp;
-    struct CGPoint _knobDragInitialLocation;
-    struct CGPoint _undraggedKnobLocationInStrokeSpace;
-    struct CGPoint _currentScrollOffset;
-    NSArray *_firstStrokesInInitialStrokes;
-    NSArray *_lastStrokesInInitialStrokes;
-    long long _modificationType;
-    NSMutableArray *_selectionViewGestures;
-    PKDrawingAdjustmentKnob *_insertSpaceAffordance;
-    UIPanGestureRecognizer *_insertSpaceAffordanceGesture;
-    _Bool _enabled;
-    _Bool __didCancelSelection;
-    _Bool _insertSpaceEnabled;
-    id <PKSelectionInteractionDelegate> _delegate;
-    UIView *_view;
-    UIPanGestureRecognizer *_lassoGestureRecognizer;
-    UITapGestureRecognizer *_noOpTapGestureRecognizer;
-    UITapGestureRecognizer *_progressiveTapGestureRecognizer;
-    UILongPressGestureRecognizer *_longPressGestureRecognizer;
-    UILongPressGestureRecognizer *_tapAndHoldToSelectLongPressGestureRecognizer;
-    UITapAndAHalfRecognizer *_modifySelectionRecognizer;
-    UILongPressGestureRecognizer *_knobBrushGestureRecognizer;
-    UIPanGestureRecognizer *_knobDragGestureRecognizer;
-    PKSelectionController *_selectionController;
-    NSMutableOrderedSet *_smartSelectedStrokes;
-    NSOrderedSet *_initialStrokeSelectionBeforeModification;
-    PKDrawing *_currentDrawing;
-    UILongPressGestureRecognizer *_pencilLongPressGestureRecognizer;
-    struct CGPoint __drawingBeganLocation;
 }
 
 - (id);
@@ -169,51 +129,23 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)id parameter certificateData = NULL;
 - (void);
 - (void);
-- (id)id;
+- (id)maxTotalThreadgroupsPerMeshGrid;
 - (void)&,N,V_paletteContainerCenterYConstraint;
 
 // Remaining properties
-@property(nonatomic) _Bool _didCancelSelection; // @synthesize _didCancelSelection=__didCancelSelection;
-@property(nonatomic) struct CGPoint _drawingBeganLocation; // @synthesize _drawingBeganLocation=__drawingBeganLocation;
-@property(retain, nonatomic) PKDrawing *currentDrawing; // @synthesize currentDrawing=_currentDrawing;
-@property(readonly, nonatomic) _Bool currentSelectionHasStrokes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKSelectionInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) _Bool hasCurrentSelection;
-@property(readonly, nonatomic) _Bool hasStrokesOrElementsSelection;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSOrderedSet *initialStrokeSelectionBeforeModification; // @synthesize initialStrokeSelectionBeforeModification=_initialStrokeSelectionBeforeModification;
-@property(nonatomic) _Bool insertSpaceEnabled; // @synthesize insertSpaceEnabled=_insertSpaceEnabled;
-@property(retain, nonatomic) UILongPressGestureRecognizer *knobBrushGestureRecognizer; // @synthesize knobBrushGestureRecognizer=_knobBrushGestureRecognizer;
-@property(retain, nonatomic) UIPanGestureRecognizer *knobDragGestureRecognizer; // @synthesize knobDragGestureRecognizer=_knobDragGestureRecognizer;
-@property(retain, nonatomic) UIPanGestureRecognizer *lassoGestureRecognizer; // @synthesize lassoGestureRecognizer=_lassoGestureRecognizer;
-@property(retain, nonatomic) UILongPressGestureRecognizer *longPressGestureRecognizer; // @synthesize longPressGestureRecognizer=_longPressGestureRecognizer;
-@property(retain, nonatomic) UITapAndAHalfRecognizer *modifySelectionRecognizer; // @synthesize modifySelectionRecognizer=_modifySelectionRecognizer;
-@property(retain, nonatomic) UITapGestureRecognizer *noOpTapGestureRecognizer; // @synthesize noOpTapGestureRecognizer=_noOpTapGestureRecognizer;
-@property(retain, nonatomic) UILongPressGestureRecognizer *pencilLongPressGestureRecognizer; // @synthesize pencilLongPressGestureRecognizer=_pencilLongPressGestureRecognizer;
-@property(retain, nonatomic) UITapGestureRecognizer *progressiveTapGestureRecognizer; // @synthesize progressiveTapGestureRecognizer=_progressiveTapGestureRecognizer;
-@property(nonatomic) __weak PKSelectionController *selectionController; // @synthesize selectionController=_selectionController;
-@property(retain, nonatomic) NSMutableOrderedSet *smartSelectedStrokes; // @synthesize smartSelectedStrokes=_smartSelectedStrokes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILongPressGestureRecognizer *tapAndHoldToSelectLongPressGestureRecognizer; // @synthesize tapAndHoldToSelectLongPressGestureRecognizer=_tapAndHoldToSelectLongPressGestureRecognizer;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

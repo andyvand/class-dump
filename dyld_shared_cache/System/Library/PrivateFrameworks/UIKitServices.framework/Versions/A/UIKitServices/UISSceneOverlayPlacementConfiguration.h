@@ -20,11 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)remoteSupportedOnly;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(readonly, nonatomic) FBSSceneIdentityToken *targetSceneIdentity; // @synthesize targetSceneIdentity=_targetSceneIdentity;

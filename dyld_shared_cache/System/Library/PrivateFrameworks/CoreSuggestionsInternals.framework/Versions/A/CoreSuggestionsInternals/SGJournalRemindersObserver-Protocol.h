@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SGStorageReminder;
+
 @protocol SGJournalRemindersObserver
+- (void);
+- (void)stringByReplacingCharactersInRange:(SGStorageReminder *)arg1 withString: /* Error: Ran out of types for this method. */;
 @end
 

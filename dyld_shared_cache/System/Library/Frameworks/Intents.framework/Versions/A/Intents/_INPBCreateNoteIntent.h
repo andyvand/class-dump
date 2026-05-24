@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata, _INPBNoteContent;
+@class _INPBNoteContent;
 
 @interface _INPBCreateNoteIntent
 {
     struct _has;
-    _INPBNoteContent *_content;
-    _INPBDataString *_groupName;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_title;
 }
 
 + (_Bool);
@@ -20,40 +16,26 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)?	;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)create ICMP socket:(id)arg1 %s (errno:%d) /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id)v24@0:8@"INMediaItem"16 /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)ata;
-- (void)ate;
+- (id)_setData:error: /* Error: Ran out of types for this method. */;
+- (_Bool)INIntentDonationMetadata;
+- (void)heartRate;
 - (void)å;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBNoteContent *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDataString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDataString *title; // @synthesize title=_title;
 
 @end
 

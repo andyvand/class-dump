@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol CUIVectorGlyhLayerDelegate
+- (struct CGSVGAttributeMap *)+\@9j;
+- (long long)t;
+- (long long);
+- (struct CGSize)h&)(;
+- (NSArray *)\@9I;
+- (struct CGSVGAttributeMap *));
 @end
 

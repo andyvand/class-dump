@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, NWNetworkAgentSession;
-@protocol NWNetworkAgent, OS_dispatch_queue, OS_dispatch_source;
-
 @interface NWNetworkAgentRegistration
 {
     int _registrationSocket;
-    Class _networkAgentClass;
-    NSObject<NWNetworkAgent> *_networkAgent;
-    NSUUID *_registeredUUID;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_readSource;
-    NWNetworkAgentSession *_session;
 }
 
 + (_Bool);
@@ -26,16 +17,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)ngRenditionKey:fromTheme:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)treamMsg due to missing ctx;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)rasterizationPrefersDisplayCompositing;
 - (int);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (int);
 - (void);
@@ -54,7 +45,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -62,7 +53,7 @@
 × ;
 - (id);
 - (id)(<;
-- (_Bool);
+- (_Bool)largestAckedPacketNumber;
 - (_Bool)eProviderP;
 - (_Bool)(_:forKey:) /* Error: Ran out of types for this method. */;
 - (id);
@@ -73,16 +64,7 @@
 - (unsigned long long)¿;
 
 // Remaining properties
-@property(retain) NSObject<NWNetworkAgent> *networkAgent; // @synthesize networkAgent=_networkAgent;
 @property Class networkAgentClass; // @synthesize networkAgentClass=_networkAgentClass;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSObject<OS_dispatch_source> *readSource; // @synthesize readSource=_readSource;
-@property(readonly, nonatomic, getter=isRegistered) _Bool registered;
-@property(retain) NSUUID *registeredUUID; // @synthesize registeredUUID=_registeredUUID;
-@property int registrationSocket; // @synthesize registrationSocket=_registrationSocket;
-@property(retain) NWNetworkAgentSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) unsigned int tokenCount;
-@property(nonatomic) unsigned long long useCount;
 
 @end
 

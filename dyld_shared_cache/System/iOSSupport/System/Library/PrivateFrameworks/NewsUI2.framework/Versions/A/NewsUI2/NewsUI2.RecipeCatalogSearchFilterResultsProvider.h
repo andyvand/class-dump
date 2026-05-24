@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeCatalogSearchFilterResultsProvider
 {
     id searchQueryProvider;
-    id searchService;
 }
 
 @end

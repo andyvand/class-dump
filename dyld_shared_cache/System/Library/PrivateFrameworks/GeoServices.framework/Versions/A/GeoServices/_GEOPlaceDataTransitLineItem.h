@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOMapRegion, NSArray, NSString;
-@protocol GEOEncyclopedicInfo, GEOMapItemTransitInfo, GEOTransitArtworkDataSource, GEOTransitAttribution, GEOTransitLine, GEOTransitSystem;
+@class NSArray;
+@protocol GEOTransitAttribution;
 
 __attribute__((visibility("hidden")))
 @interface _GEOPlaceDataTransitLineItem
 {
     id <GEOTransitAttribution> _attribution;
-    id <GEOTransitLine> _line;
-    id <GEOMapItemTransitInfo> _transitInfo;
-    GEOMapRegion *_mapRegion;
-    _Bool _hasEncyclopedicInfo;
-    id <GEOEncyclopedicInfo> _encyclopedicInfo;
 }
 
 - (_Bool);
@@ -32,12 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (id)valueForProperty: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ot supported since audio route is ineligible;
 - (unsigned long long);
 - (id);
 - (id);
@@ -45,36 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> alternateArtwork;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork;
-@property(readonly, nonatomic) id <GEOTransitAttribution> attribution;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long departureTimeDisplayStyle;
-@property(readonly, nonatomic) _Bool departuresAreVehicleSpecific;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <GEOEncyclopedicInfo> encyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasEncyclopedicInfo;
-@property(readonly, nonatomic) _Bool hasIncidentComponent;
-@property(readonly, nonatomic) _Bool hasLineColorString;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> headerArtwork;
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
-@property(readonly, nonatomic) NSArray *incidents;
-@property(readonly, nonatomic) _Bool isBus;
-@property(readonly, nonatomic) _Bool isIncidentsTTLExpired;
 @property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) NSString *lineColorString;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> modeArtwork;
-@property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSArray *operatingHours;
-@property(readonly, nonatomic) _Bool showVehicleNumber;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <GEOTransitSystem> system;
 
 @end
 

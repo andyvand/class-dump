@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDActionData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_actionLinks;
-    NSString *_actionSymbolImageName;
-    NSMutableArray *_actionTitles;
-    NSString *_categoryId;
-    NSString *_ownerAdamId;
-    NSString *_winningAdamId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionLinks:1;
-        unsigned int read_actionSymbolImageName:1;
-        unsigned int read_actionTitles:1;
-        unsigned int read_categoryId:1;
-        unsigned int read_ownerAdamId:1;
-        unsigned int read_winningAdamId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);

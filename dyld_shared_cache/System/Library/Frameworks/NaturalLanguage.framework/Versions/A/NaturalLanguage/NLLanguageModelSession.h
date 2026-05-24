@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__gcc_except_tab__TEXT;
 - (void);
 - (id);
 - (void);

@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKConversationSearchCellDelegate;
+@class CKLabel;
 
 @protocol CKConversationSearchCellProtocol
+- (void)shouldChangeTextInTextStorage:(struct UIEdgeInsets)arg1 range:replacementString: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)attachmentPresentationsForAttachments: /* Error: Ran out of types for this method. */;
+- (CKLabel *)@"NSAttributedString",&,N,V_displayingAttributedSnippet;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKConversationSearchCellDelegate> delegate;
 @property(nonatomic) struct UIEdgeInsets marginInsets;
 @end
 

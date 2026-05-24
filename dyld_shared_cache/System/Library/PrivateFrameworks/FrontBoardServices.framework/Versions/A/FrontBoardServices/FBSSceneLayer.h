@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, FBSSceneIdentityToken, NSString;
+@class CAContext;
 
 @interface FBSSceneLayer
 {
     CAContext *_context;
-    unsigned int _contextID;
-    unsigned long long _renderID;
-    double _level;
-    FBSSceneIdentityToken *_keyboardOwner;
-    long long _type;
-    long long _alignment;
-    NSString *_stringRepresentation;
 }
 
 - (void);
@@ -29,28 +22,22 @@
 - (id);
 - (unsigned long long);
 - (unsigned int);
+- (long long)>;
 - (long long);
-- (long long);
-- (id);
+- (id)deviceUniqueID;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)startRunningWithCompletionHandler:(Class)arg1;
+- (id)oneTimePassword;
+- (id);
 - (void);
 - (double):event=%@ agent=%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CAContext *CAContext;
-@property(readonly, nonatomic) long long alignment;
-@property(readonly, nonatomic) unsigned int contextID;
-@property(readonly, nonatomic) FBSSceneIdentityToken *keyboardOwner;
-@property(readonly, nonatomic) double level;
-@property(readonly, nonatomic) unsigned long long renderID;
-@property(readonly, nonatomic) long long type;
 
 @end
 

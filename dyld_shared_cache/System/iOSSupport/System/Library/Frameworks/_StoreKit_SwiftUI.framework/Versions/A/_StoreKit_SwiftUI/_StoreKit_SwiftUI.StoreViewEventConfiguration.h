@@ -8,22 +8,6 @@
 {
     id productID;
     id purchaseTimestamp;
-    id appearTimestamp;
-    id appliesSubscriptionOffer;
-    id disappearTimestamp;
-    id initializer;
-    id style;
-    id usesAnyCustomPlaceholder;
-    id usesAnyIcon;
-    id usesInAppPurchaseCompletion;
-    id usesInAppPurchaseOptions;
-    id usesInAppPurchaseStart;
-    id prefersPromotionalIcon;
-    id purchaseResult;
-    id productsRequested;
-    id productsLoaded;
-    id displaysRestorePurchases;
-    id didSendAppearEvent;
 }
 
 @end

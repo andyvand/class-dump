@@ -6,19 +6,16 @@
 
 #import <TextInputCore/TIContextChangeEvent.h>
 
-@class NSArray, NSLocale, NSString;
+@class NSArray, NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface TIGainFocusEvent : TIContextChangeEvent
 {
     NSLocale *_locale;
-    NSString *_originalDocumentText;
-    NSArray *_originalWords;
-    NSArray *_originalWordEntries;
 }
 
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void);

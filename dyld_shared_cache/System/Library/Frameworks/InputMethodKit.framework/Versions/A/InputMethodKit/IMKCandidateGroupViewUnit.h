@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMKCandidateGroupViewUnit
 {
     double _position;
-    NSString *_title;
 }
 
 + (id);
 - (void);
 - (double);
-- (void);
-- (id);
+- (void))A;
+- (id)@;
 - (void);
 
 // Remaining properties
 @property(nonatomic) double position; // @synthesize position=_position;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

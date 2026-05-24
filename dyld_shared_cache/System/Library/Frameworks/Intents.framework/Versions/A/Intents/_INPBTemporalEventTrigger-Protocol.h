@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTimeRangeValue *dateTime;
-@property(readonly, nonatomic) _Bool hasDateTime;
 @end
 

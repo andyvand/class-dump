@@ -7,9 +7,6 @@
 @interface TSMTIEMaskElement
 {
     double _a;
-    double _b;
-    double _lowerLimit;
-    double _upperLimit;
 }
 
 - (double);
@@ -22,9 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double a; // @synthesize a=_a;
-@property(readonly, nonatomic) double b; // @synthesize b=_b;
-@property(readonly, nonatomic) double lowerLimit; // @synthesize lowerLimit=_lowerLimit;
-@property(readonly, nonatomic) double upperLimit; // @synthesize upperLimit=_upperLimit;
 
 @end
 

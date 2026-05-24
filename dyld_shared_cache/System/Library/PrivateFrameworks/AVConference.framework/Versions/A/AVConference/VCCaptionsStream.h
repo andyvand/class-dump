@@ -6,20 +6,17 @@
 
 #import <AVConference/VCVideoStream.h>
 
-@class NSString, VCCaptionsReceiver;
-@protocol VCCaptionsSourceDelegate;
+@class VCCaptionsReceiver;
 
 __attribute__((visibility("hidden")))
 @interface VCCaptionsStream : VCVideoStream
 {
     VCCaptionsReceiver *_captionsReceiver;
-    id <VCCaptionsSourceDelegate> _captionsDelegate;
-    _Bool _enabled;
 }
 
 - (struct tagVCVideoReceiverDelegateRealtimeInstanceVTable);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (_Bool);
 - (void);
@@ -27,22 +24,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)KC;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool captionsEnabled;
 @property(readonly, nonatomic) _Bool captionsSupported;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

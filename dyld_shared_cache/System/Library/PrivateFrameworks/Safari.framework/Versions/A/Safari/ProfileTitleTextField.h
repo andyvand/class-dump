@@ -6,18 +6,15 @@
 
 #import <Safari/TextFieldThatSelectsAllWhenEditing.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ProfileTitleTextField : TextFieldThatSelectsAllWhenEditing
 {
     _Bool _defaultProfile;
-    NSString *_profileTitle;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)l;
 - (void);
 - (void);
 - (_Bool);
@@ -28,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isDefaultProfile) _Bool defaultProfile; // @synthesize defaultProfile=_defaultProfile;
-@property(copy, nonatomic) NSString *profileTitle; // @synthesize profileTitle=_profileTitle;
 
 @end
 

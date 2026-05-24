@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserDefaults;
-
 @interface StocksPreferences
 {
     _Bool _changeColorSwapped;
-    unsigned long long _textDirection;
-    NSUserDefaults *_sharedDefaults;
-    _Bool _textAttachmentDirectionIsRightToLeft;
 }
 
 + (id);
 + (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)z;
+- (_Bool)$m|;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)rloC;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)@@;
 - (id);
 - (_Bool);
 - (long long);
 - (void);
-- (void);
+- (void)_dispatchThreadHelper: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isChangeColorSwapped) _Bool changeColorSwapped; // @synthesize changeColorSwapped=_changeColorSwapped;
-@property(readonly, nonatomic) _Bool textAttachmentDirectionIsRightToLeft; // @synthesize textAttachmentDirectionIsRightToLeft=_textAttachmentDirectionIsRightToLeft;
-@property(readonly, nonatomic) unsigned long long textDirection; // @synthesize textDirection=_textDirection;
 
 @end
 

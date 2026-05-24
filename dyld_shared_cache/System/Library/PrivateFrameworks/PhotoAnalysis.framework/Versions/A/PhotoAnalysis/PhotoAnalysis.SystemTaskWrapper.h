@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.SystemTaskWrapper
 {
     id bgSystemTask;
-    id startTime;
 }
 
 @end

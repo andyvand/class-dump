@@ -6,16 +6,11 @@
 
 #import <SystemMigration/SMSystem_Daemon.h>
 
-@class NSImage, NSString, NSURL;
+@class NSString;
 
 @interface SMSystem_Daemon_Ineligible : SMSystem_Daemon
 {
     _Bool obsoleteSoftware;
-    NSString *systemName;
-    unsigned long long systemType;
-    NSURL *path;
-    NSImage *overrideIcon;
-    NSString *_reason;
 }
 
 - (id);
@@ -26,25 +21,20 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)j-;
+- (id);
+- (void);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (id)t;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)hostWindowForUIWindow: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool obsoleteSoftware; // @synthesize obsoleteSoftware;
-@property(retain) NSImage *overrideIcon; // @synthesize overrideIcon;
-@property(retain) NSURL *path; // @synthesize path;
-@property(readonly) NSString *reason; // @synthesize reason=_reason;
 @property(retain) NSString *systemName; // @synthesize systemName;
-@property unsigned long long systemType; // @synthesize systemType;
 
 @end
 

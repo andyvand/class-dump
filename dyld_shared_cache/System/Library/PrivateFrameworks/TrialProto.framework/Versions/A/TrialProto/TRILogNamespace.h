@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface TRILogNamespace
 {
     NSData *_hashData;
-    NSString *_latestRolloutId;
-    NSString *_name;
-    unsigned int _rolloutCount;
-    _Bool _hashIncludesDefaults;
-    struct {
-        unsigned int rolloutCount:1;
-        unsigned int hashIncludesDefaults:1;
-    } _has;
 }
 
 - (void);
@@ -25,39 +17,30 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)jw8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)a;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ts;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasHashData;
-@property(nonatomic) _Bool hasHashIncludesDefaults;
-@property(readonly, nonatomic) _Bool hasLatestRolloutId;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasRolloutCount;
-@property(retain, nonatomic) NSData *hashData; // @synthesize hashData=_hashData;
-@property(nonatomic) _Bool hashIncludesDefaults; // @synthesize hashIncludesDefaults=_hashIncludesDefaults;
-@property(retain, nonatomic) NSString *latestRolloutId; // @synthesize latestRolloutId=_latestRolloutId;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int rolloutCount; // @synthesize rolloutCount=_rolloutCount;
 
 @end
 

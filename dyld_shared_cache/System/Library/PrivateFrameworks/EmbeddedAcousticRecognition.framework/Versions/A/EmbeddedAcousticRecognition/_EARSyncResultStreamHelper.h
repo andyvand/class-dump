@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSMutableArray, NSObject, NSString;
+@class NSMutableArray, NSObject;
 @protocol OS_dispatch_semaphore;
 
 @interface _EARSyncResultStreamHelper
 {
     NSObject<OS_dispatch_semaphore> *_finishSemaphore;
-    NSError *_error;
-    NSArray *_results;
-    NSMutableArray *_taggedResults;
 }
 
 - (id);
@@ -22,21 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)initWithPersonHandle:nameComponents:displayName:image:contactIdentifier:customIdentifier:aliases:suggestionType: /* Error: Ran out of types for this method. */;
+- (id)provideResumeMultipleOptionsCollectionForResumeTimer:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)LÀ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableArray *taggedResults; // @synthesize taggedResults=_taggedResults;
 
 @end

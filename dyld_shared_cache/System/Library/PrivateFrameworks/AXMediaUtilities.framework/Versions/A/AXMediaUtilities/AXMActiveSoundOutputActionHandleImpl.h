@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMActiveSound, AXMSoundComponent, NSString;
+@class AXMActiveSound;
 
 @interface AXMActiveSoundOutputActionHandleImpl
 {
     float _rate;
-    float _pitch;
-    AXMActiveSound *_activeSound;
-    AXMSoundComponent *_soundComponent;
 }
 
-- (id);
-- (void);
+- (id)\|;
+- (void)\|;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (float);
-- (void);
+- (void)_originalCombinedCharacterLength;
 - (void);
 - (void);
 - (float)E1Â0@ù
@@ -30,16 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak AXMActiveSound *activeSound; // @synthesize activeSound=_activeSound;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float pitch; // @synthesize pitch=_pitch;
-@property(nonatomic) float rate; // @synthesize rate=_rate;
-@property(nonatomic) __weak AXMSoundComponent *soundComponent; // @synthesize soundComponent=_soundComponent;
-@property(readonly) Class superclass;
 
 @end
 

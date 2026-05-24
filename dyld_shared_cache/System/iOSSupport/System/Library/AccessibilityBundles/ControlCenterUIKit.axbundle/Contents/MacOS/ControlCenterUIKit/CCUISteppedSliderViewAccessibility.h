@@ -20,7 +20,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)kRef);
 - (void);
 
 @end

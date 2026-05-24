@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSProgress;
+@protocol FPOperationClient;
+
 @protocol FPXOperationService
+- (void)getNowPlayingQueueDetailsRemoteResponseWithDictionary:(NSArray *)arg1 context:(_Bool)arg2;
+- (NSProgress *);
+- (void);
+- (void)executePlanWithCompletionHandler:(id <FPOperationClient>)arg1;
+- (void)ionRequiredForPlayback;
+- (void)s.  deserializing...;
 @end
 

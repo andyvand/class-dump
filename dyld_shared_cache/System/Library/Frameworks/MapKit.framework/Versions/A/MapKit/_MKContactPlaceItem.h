@@ -4,46 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, EKCalendarItem, MKMapItem, NSString;
+@class MKMapItem, NSString;
 
 @interface _MKContactPlaceItem
 {
     MKMapItem *_mapItem;
-    CNContact *_contact;
-    unsigned long long _options;
 }
 
-+ (id);
-- (_Bool);
++ (id)|;
+- (_Bool)onaryIntervals=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)SSVCAUserIntentPermanentOffsetFactorLowerBound;
 - (id);
-- (id);
-- (void)dDisplayRate: /* Error: Ran out of types for this method. */;
+- (void)setDesiredDisplayRate: /* Error: Ran out of types for this method. */;
 - (id)nalTransitLookupParameters;
 
 // Remaining properties
-@property(readonly, nonatomic) EKCalendarItem *calendarItem;
-@property(readonly, nonatomic) CNContact *contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasContactOnly;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isContactPersisted;
-@property(readonly, nonatomic) _Bool isIntermediateMapItem;
-@property(readonly, nonatomic) MKMapItem *mapItem;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long options;
-@property(readonly, nonatomic) _Bool representsPerson;
-@property(readonly, nonatomic) NSString *secondaryName;
-@property(readonly) Class superclass;
 
 @end
 

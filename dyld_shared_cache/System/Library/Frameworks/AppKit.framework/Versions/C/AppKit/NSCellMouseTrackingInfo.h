@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTrackingArea, NSView;
+@class NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface NSCellMouseTrackingInfo
 {
     NSTrackingArea *trackingArea;
-    NSView *view;
 }
 
 @end

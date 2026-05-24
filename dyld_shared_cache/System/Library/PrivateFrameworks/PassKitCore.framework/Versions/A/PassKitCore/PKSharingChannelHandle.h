@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject, PKSharingMessage, PKXPCService;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKSharingChannelHandle
 {
     struct os_unfair_lock_s _lock;
-    PKXPCService *_remoteService;
-    unsigned long long _actionAssertionCount;
-    CDUnknownBlockType _didInvalidateReply;
-    CDUnknownBlockType _pendingOwnershipTransfer;
-    NSMutableArray *_invalidationCompletions;
-    unsigned long long _status;
-    PKSharingMessage *_messageBeingHandled;
-    NSMutableSet *_receivedMessageIdentifiers;
-    NSMutableArray *_outstandingMessages;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _messageReceivedHandler;
-    NSObject<OS_dispatch_queue> *_replyQueue;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void)?;
 + (id);
 + (void);
 + (void);
@@ -34,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +31,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)@9);;
 - (void);
 - (void);
 - (void);
@@ -51,7 +39,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -62,20 +50,16 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)$;
 - (id);
 - (CDUnknownBlockType)1ï%1Â0@ù
 × ;
 - (void)Í Î;
-- (void)ssistantState;
-- (void)Y_ERROR_SEND_RESTRICTION_FAMILY_RESTRICTED_MESSAGE;
+- (void)setupAssistantState;
+- (void)NEARBY_ERROR_SEND_RESTRICTION_FAMILY_RESTRICTED_MESSAGE;
 - (void)Ä"·ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOutstandingMessage;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(copy, nonatomic) CDUnknownBlockType messageReceivedHandler; // @synthesize messageReceivedHandler=_messageReceivedHandler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
 
 @end

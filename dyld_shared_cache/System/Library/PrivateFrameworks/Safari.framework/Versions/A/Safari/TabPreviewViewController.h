@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSStackView, NSString, NSTextField, NSView;
+@class NSStackView;
 @protocol TabPreviewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface TabPreviewViewController
 {
     NSStackView *_containerView;
-    NSStackView *_headerView;
-    NSTextField *_titleTextField;
-    NSTextField *_secondaryTitleTextField;
-    NSView *_thumbnailContainerView;
-    NSView *_thumbnailView;
-    id <TabPreviewDataSource> _tabPreviewDataSource;
 }
 
 - (void);
-- (id);
+- (id)ql)mJnko;
 - (void);
 - (id);
-- (id);
+- (id))E;
 - (void);
-- (void);
+- (void)@ for key:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak id <TabPreviewDataSource> tabPreviewDataSource; // @synthesize tabPreviewDataSource=_tabPreviewDataSource;
 
 @end

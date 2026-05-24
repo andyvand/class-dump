@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)imageSourceRef;
 
 // Remaining properties
 @property(copy) NSArray *mailboxList; // @synthesize mailboxList;

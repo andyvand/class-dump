@@ -7,13 +7,14 @@
 @class NSArray, NSURL;
 
 @protocol ECTransferMessageActionBuilder
+- (void);
+- (void)d;
+- (void);
+- (NSURL *)an AVMobileChromelessControlsView.;
+- (void)fore attempting to add gesture recognizers to it.;
+- (NSArray *)smissed=%i isReadyToConnect=%i isActive=%i;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *destinationMailboxURL;
-@property(retain, nonatomic) NSArray *itemsToCopy;
-@property(retain, nonatomic) NSArray *itemsToDelete;
-@property(retain, nonatomic) NSArray *itemsToDownload;
-@property(retain, nonatomic) NSURL *sourceMailboxURL;
 @property(nonatomic) long long transferType;
 @end
 

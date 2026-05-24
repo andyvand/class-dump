@@ -5,5 +5,6 @@
 //
 
 @protocol CALNMailAccounts
+- (_Bool);
 @end
 

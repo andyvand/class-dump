@@ -9,10 +9,6 @@
 @interface IMUserNotificationCenter
 {
     NSMutableDictionary *_identifierToIMUserNotificationQueueMap;
-    NSMutableDictionary *_identifierToListenerQueueMap;
-    NSMutableDictionary *_identifierToBlockQueueMap;
-    NSMutableDictionary *_identifierToRunLoopSourcesMap;
-    NSMutableDictionary *_identifierToCFUserNotificationMap;
 }
 
 + (id);
@@ -39,10 +35,11 @@
 - (void);
 - (id);
 - (void);
+- (void)atching entry %u
+;
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)beginArbitrationWithBTSessionCategory:(id)arg1 mode:flags:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -50,11 +47,7 @@
 - (void)ôUèVèWYÐY([H[;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *identifierToBlockQueueMap; // @synthesize identifierToBlockQueueMap=_identifierToBlockQueueMap;
-@property(retain, nonatomic) NSMutableDictionary *identifierToCFUserNotificationMap; // @synthesize identifierToCFUserNotificationMap=_identifierToCFUserNotificationMap;
 @property(retain, nonatomic) NSMutableDictionary *identifierToIMUserNotificationQueueMap; // @synthesize identifierToIMUserNotificationQueueMap=_identifierToIMUserNotificationQueueMap;
-@property(retain, nonatomic) NSMutableDictionary *identifierToListenerQueueMap; // @synthesize identifierToListenerQueueMap=_identifierToListenerQueueMap;
-@property(retain, nonatomic) NSMutableDictionary *identifierToRunLoopSourcesMap; // @synthesize identifierToRunLoopSourcesMap=_identifierToRunLoopSourcesMap;
 
 @end
 

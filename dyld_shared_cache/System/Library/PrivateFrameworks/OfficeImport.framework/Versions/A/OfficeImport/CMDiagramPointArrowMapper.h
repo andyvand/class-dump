@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     int mArrowType;
 }
 
-- (id);
+- (id) ;
 - (void);
 - (id);
-- (id);
+- (id)B;
 
 @end
 

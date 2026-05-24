@@ -5,35 +5,24 @@
 //
 
 @class NSString;
-@protocol TRINotificationToken;
 
 @interface TRINamespaceUpdateNotification
 {
     NSString *_namespaceName;
-    id <TRINotificationToken> _token;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)elegate>",W,N,V_delegate;
 + (id);
 + (id);
 - (id);
-- (unsigned int);
-- (id);
+- (unsigned int)@"SFGridCardSection",&,N;
+- (id)j;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned int namespaceId;
-@property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <TRINotificationToken> token; // @synthesize token=_token;
 
 @end
 

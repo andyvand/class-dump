@@ -5,5 +5,8 @@
 //
 
 @protocol SCKOperationThrottlerDelegate
+
+@optional
+- (void);
 @end
 

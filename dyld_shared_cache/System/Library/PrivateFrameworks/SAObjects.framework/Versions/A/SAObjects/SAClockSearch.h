@@ -6,34 +6,30 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface SAClockSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)ing unexpected type;
 - (void);
 - (void);
+- (id)totalCost;
+- (id)0EEEEE;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ly be used with a hashed field;
+- (void)`	;
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *alCityId;
-@property(copy, nonatomic) NSString *countryCode;
-@property(copy, nonatomic) NSURL *identifier;
-@property(copy, nonatomic) NSString *unlocalizedCityName;
-@property(copy, nonatomic) NSString *unlocalizedCountryName;
 
 @end
 

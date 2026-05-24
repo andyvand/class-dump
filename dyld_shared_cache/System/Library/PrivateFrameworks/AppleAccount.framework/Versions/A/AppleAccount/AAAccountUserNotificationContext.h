@@ -9,9 +9,6 @@
 @interface AAAccountUserNotificationContext
 {
     NSString *_title;
-    NSString *_message;
-    NSString *_altDSID;
-    long long _action;
 }
 
 + (_Bool);
@@ -21,18 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_DASActivityDependencyManagerIntrospectingServer;
+- (id)custodianStartApproval:resetEligible:callback:__JS_EXPORT_AS__custodianStartApproval: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (id);
+- (id)_trainingFile;
 - (void)familyFeatureSecondaryTitle;
 - (id)ËÒ­>±Çgw;
 
 // Remaining properties
-@property(nonatomic) long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

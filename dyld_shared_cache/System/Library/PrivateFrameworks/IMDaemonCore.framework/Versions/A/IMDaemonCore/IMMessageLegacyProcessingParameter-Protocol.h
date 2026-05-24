@@ -4,14 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChat, NSString;
+@class IMDChat, NSDictionary, NSNumber, NSString;
 
 @protocol IMMessageLegacyProcessingParameter
+- (NSString *);
+- (_Bool)s*;
+- (NSNumber *)@!  /;
+- (NSString *);
+- (NSString *);
+- (NSDictionary *)n @;
+- (_Bool)VCCallSession(Messages) setupCallingModeMessages]_block_invoke;
+- (NSString *)&;
+- (_Bool);
+- (NSString *);
 - (NSString *)q¯1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) IMDChat *chat;
-@property(nonatomic) _Bool hadChat;
 @end
 

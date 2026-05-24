@@ -18,13 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 
 @end

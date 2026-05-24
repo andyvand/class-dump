@@ -6,6 +6,6 @@
 
 @interface UnknownClass (MNRouteEditor)
 - (id);
-- (id);
+- (id)Mode;
 @end
 

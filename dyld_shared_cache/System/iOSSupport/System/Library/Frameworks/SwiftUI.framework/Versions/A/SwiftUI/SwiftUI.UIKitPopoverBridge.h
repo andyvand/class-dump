@@ -7,29 +7,9 @@
 @interface SwiftUI.UIKitPopoverBridge
 {
     id host;
-    id overrideArrowDirections;
-    id presenterOverride;
-    id barItemAnchor;
-    id tabItemAnchor;
-    id delayedPopoverPreferences;
-    id activePresentation;
-    id activeInspectorAnchor;
-    id dismissingReason;
-    id pendingDismissAction;
-    id $__lazy_storage_$_popoverPresentationDelegate;
-    id presentedVC;
-    id inspectorSeed;
-    id anchorSeed;
-    id popoverSeed;
-    id backgroundSeed;
-    id presentationOptionsSeed;
-    id lastInspectorValues;
-    id lastAnchorValues;
-    id lastPopoverPresentation;
-    id wasBackgrounded;
 }
 
-- (id);
+- (id)0@0:8@16Q24^Q32 /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)WKNavigation"24@"NSError"32;
 - (void);
 - (id);
 - (void)ÿÿ;

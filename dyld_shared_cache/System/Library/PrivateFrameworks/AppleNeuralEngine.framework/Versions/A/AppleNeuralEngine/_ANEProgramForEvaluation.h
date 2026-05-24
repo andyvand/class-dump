@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _ANEDeviceController;
-@protocol OS_dispatch_semaphore;
+@class _ANEDeviceController;
 
 @interface _ANEProgramForEvaluation
 {
     BOOL _queueDepth;
-    _ANEDeviceController *_controller;
-    unsigned long long _programHandle;
-    unsigned long long _intermediateBufferHandle;
-    NSObject<OS_dispatch_semaphore> *_requestsInFlight;
-    long long _currentAsyncRequestsInFlight;
 }
 
-+ (id);
++ (id)T;
 + (id);
 + (id);
 - (void);
@@ -31,22 +25,17 @@
 - (_Bool);
 - (id);
 - (long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ons"24;
+- (unsigned long long)?<v@?Q>16;
 - (BOOL);
 - (void);
+- (id)w;
 - (id);
-- (id);
-- (id);
+- (id)drain_depth_p_1_00_at_charge_start_soc_curr_dynamic_bin_4;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _ANEDeviceController *controller; // @synthesize controller=_controller;
-@property long long currentAsyncRequestsInFlight; // @synthesize currentAsyncRequestsInFlight=_currentAsyncRequestsInFlight;
-@property(nonatomic) unsigned long long intermediateBufferHandle; // @synthesize intermediateBufferHandle=_intermediateBufferHandle;
-@property(nonatomic) unsigned long long programHandle; // @synthesize programHandle=_programHandle;
-@property(readonly, nonatomic) BOOL queueDepth; // @synthesize queueDepth=_queueDepth;
-@property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *requestsInFlight; // @synthesize requestsInFlight=_requestsInFlight;
 
 @end
 

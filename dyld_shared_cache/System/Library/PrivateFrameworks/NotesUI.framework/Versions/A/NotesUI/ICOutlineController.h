@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTTextStorage, NSArray, NSSet, OutlineController;
+@class OutlineController;
 
 @interface ICOutlineController
 {
@@ -17,10 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (struct _NSRange);
+- (id);
+- (struct _NSRange);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -29,35 +29,26 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)C;
+- (id);
 - (struct _NSRange);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)setIndexImpressionBiasCorrectionFactor: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)n:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:requestStorageAccessPanelForDomain:underCurrentDomain:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)¼;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *collapsedUUIDs;
-@property(readonly, nonatomic) long long collapsibleSectionAffordanceUsages;
-@property(readonly, nonatomic) NSArray *invisibleRangeValues;
-@property(nonatomic) _Bool isAsynchronous;
 @property(retain, nonatomic) OutlineController *outlineControllerObject; // @synthesize outlineControllerObject=_outlineControllerObject;
-@property(readonly, nonatomic) NSArray *rangesValuesContainingCollapsedRanges;
-@property(readonly, nonatomic) NSArray *rangesValuesContainingExpandedRanges;
-@property(readonly, nonatomic) ICTTTextStorage *textStorage;
-@property(readonly, nonatomic) struct _NSRange visibleRange;
-@property(readonly, nonatomic) NSArray *visibleRangeValues;
 
 @end
 

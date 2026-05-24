@@ -12,11 +12,9 @@
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *oldExternalIdentifier; // @dynamic oldExternalIdentifier;
-@property(readonly, nonatomic) NSString *oldListIdentifier; // @dynamic oldListIdentifier;
 @property(readonly, nonatomic) NSString *reminderIdentifier; // @dynamic reminderIdentifier;
 
 @end

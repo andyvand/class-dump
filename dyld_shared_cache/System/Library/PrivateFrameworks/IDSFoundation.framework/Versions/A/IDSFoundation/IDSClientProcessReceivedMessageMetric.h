@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSClientProcessReceivedMessageMetric
 {
     NSString *_serviceIdentifier;
-    unsigned long long _messageSize;
-    unsigned long long _deltaTime;
-    unsigned long long _priority;
 }
 
-- (id);
+- (id);
+- (unsigned long long);
+- (id)$;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void)or;
+- (id)@;
+- (void)SafetyMonitor;
 - (unsigned long long)hw_version;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long deltaTime; // @synthesize deltaTime=_deltaTime;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long messageSize; // @synthesize messageSize=_messageSize;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 @property(readonly, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

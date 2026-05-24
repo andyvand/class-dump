@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)_requestedAlbumProperties;
 - (id)Â0@ù
 × ;
-- (id)ineObjectTraitWithName:(struct CGRect)arg1 identifier:defaultValue:affectsColorAppearance:defaultValueRepresentsUnspecified:isPrivate:placeholderToken: /* Error: Ran out of types for this method. */;
+- (id)_defineObjectTraitWithName:(struct CGRect)arg1 identifier:defaultValue:affectsColorAppearance:defaultValueRepresentsUnspecified:isPrivate:placeholderToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CAGradientLayer *gradientLayer;

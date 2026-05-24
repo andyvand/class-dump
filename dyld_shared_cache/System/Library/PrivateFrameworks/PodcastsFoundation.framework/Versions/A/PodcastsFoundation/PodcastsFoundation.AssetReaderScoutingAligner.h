@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.AssetReaderScoutingAligner
 {
     id assetReader;
-    id asset;
-    id session;
-    id logger;
 }
 
 @end

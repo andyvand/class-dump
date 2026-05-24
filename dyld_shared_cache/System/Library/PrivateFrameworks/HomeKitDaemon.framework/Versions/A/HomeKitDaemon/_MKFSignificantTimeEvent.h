@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFEvent.h>
 
-@class MKFSignificantTimeEventDatabaseID, NSData, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFEventTrigger, MKFHome;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _MKFSignificantTimeEvent : _MKFEvent
@@ -17,38 +16,15 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class);
 + (id);
-+ (id);
++ (id)&;
 - (id);
 - (void);
-- (id);
+- (id)9c;
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFSignificantTimeEventDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endEvent;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
 @property(retain, nonatomic) NSData *offset; // @dynamic offset;
-@property(copy, nonatomic) NSNumber *offsetSeconds; // @dynamic offsetSeconds;
-@property(copy, nonatomic) NSString *significantEvent; // @dynamic significantEvent;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFEventTrigger> trigger;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

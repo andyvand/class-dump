@@ -6,16 +6,11 @@
 
 #import <MediaPlayer/MPAVRoute.h>
 
-@class MPAVOutputDeviceRoute, MPAVRouteConnection, MPMRAVEndpointWrapper, MRAVEndpoint, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MPAVRouteConnection;
 
 @interface MPAVEndpointRoute : MPAVRoute
 {
     MPAVRouteConnection *_connection;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSString *_sortName;
-    MPMRAVEndpointWrapper *_endpointWrapper;
 }
 
 + (void);
@@ -53,14 +48,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)q>32;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id). Unable to resolve dependency between %s and %s;
 - (void);
 - (id);
 - (id);
@@ -71,7 +66,7 @@
 - (void *);
 - (void);
 - (_Bool);
-- (id);
+- (id)removeJaliscoLibraryWithCompletionHander: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -81,18 +76,12 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool)nCommand;
+- (_Bool)setPriorityForPlaybackSessionCommand;
 - (void)ntID: /* Error: Ran out of types for this method. */;
 - (_Bool)ks from library. err=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canModifyGroupMembership;
 @property(retain, nonatomic) MPAVRouteConnection *connection;
-@property(readonly, nonatomic) void *endpoint;
-@property(readonly, nonatomic) MRAVEndpoint *endpointObject;
-@property(retain, nonatomic) MPMRAVEndpointWrapper *endpointWrapper; // @synthesize endpointWrapper=_endpointWrapper;
-@property(readonly, nonatomic) MPAVOutputDeviceRoute *predictedOutputDevice;
-@property(readonly, nonatomic) NSString *sortName;
 
 @end
 

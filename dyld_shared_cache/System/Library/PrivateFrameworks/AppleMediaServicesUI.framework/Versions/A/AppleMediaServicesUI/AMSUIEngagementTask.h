@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagementRequest, AMSEngagementResult, AMSProcessInfo, AMSUIEngagementViewController, NSError, NSString, NSViewController;
-@protocol AMSBagProtocol, AMSUIEngagementTaskDelegate;
+@class NSViewController;
 
 @interface AMSUIEngagementTask
 {
     _Bool _finished;
-    _Bool _running;
-    _Bool _allowMultiplePresentations;
-    _Bool _isRootRemotePresentation;
-    _Bool _remotePresentation;
-    _Bool _presented;
-    AMSUIEngagementViewController *_taskController;
-    AMSProcessInfo *_clientInfo;
-    id <AMSUIEngagementTaskDelegate> _delegate;
-    NSViewController *_cachedNavigationController;
-    NSError *_error;
-    AMSEngagementResult *_result;
-    NSViewController *_presentingViewController;
-    id <AMSBagProtocol> _bag;
-    AMSEngagementRequest *_request;
-    struct CGSize _preferredContentSize;
 }
 
 + (id);
-+ (id)ating;
++ (id)rating;
 + (id)o_;
 + (id)ic}@ Failed to fetch AACID. Will attach empty header. error:%@ /* Error: Ran out of types for this method. */;
 - (id);
@@ -36,20 +20,20 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void)#;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (id);
-- (void);
+- (void)@9;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -66,43 +50,23 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)lume) must be specified when --useTDMDeviceIdentity is set;
 - (void);
 - (void);
-- (id);
-- (void)ithObjCTypes: /* Error: Ran out of types for this method. */;
-- (id)etClientMetricsOverlay: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)signatureWithObjCTypes: /* Error: Ran out of types for this method. */;
+- (id)setClientMetricsOverlay: /* Error: Ran out of types for this method. */;
 - (void)=yADy×=Ý=G­=G_ADyADyADy1Ó@ÊÒ=yÛ=SgGGAHGAHGtGG_Qo_f=yÜ=yACyAI_ôÜ=ADyADyAJÿ¨=GANGtGG_Qo_G;
 
 // Remaining properties
-@property _Bool allowMultiplePresentations; // @synthesize allowMultiplePresentations=_allowMultiplePresentations;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(retain) NSViewController *cachedNavigationController; // @synthesize cachedNavigationController=_cachedNavigationController;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIEngagementTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property _Bool isRootRemotePresentation; // @synthesize isRootRemotePresentation=_isRootRemotePresentation;
-@property struct CGSize preferredContentSize; // @synthesize preferredContentSize=_preferredContentSize;
-@property _Bool presented; // @synthesize presented=_presented;
-@property(retain) NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property _Bool remotePresentation; // @synthesize remotePresentation=_remotePresentation;
-@property(retain) AMSEngagementRequest *request; // @synthesize request=_request;
-@property(retain) AMSEngagementResult *result; // @synthesize result=_result;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIEngagementViewController *taskController; // @synthesize taskController=_taskController;
 
 @end
 

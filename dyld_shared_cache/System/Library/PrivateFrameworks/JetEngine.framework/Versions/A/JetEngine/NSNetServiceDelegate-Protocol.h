@@ -5,5 +5,13 @@
 //
 
 @protocol NSNetServiceDelegate
+
+@optional
+- (void);
+- (void)ooter combination;
+- (void)o decode PEM data, invalid header/footer combination;
+- (void)nd;
+- (void)ble to decode PEM data, footer not found;
+- (void)ader not found;
 @end
 

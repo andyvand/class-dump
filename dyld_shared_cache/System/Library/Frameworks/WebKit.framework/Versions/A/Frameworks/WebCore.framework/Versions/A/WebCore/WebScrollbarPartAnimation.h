@@ -8,20 +8,12 @@ __attribute__((visibility("hidden")))
 @interface WebScrollbarPartAnimation
 {
     struct WeakPtr<WebCore::Scrollbar, WTF::SingleThreadWeakPtrImpl, WTF::RawPtrTraits<WTF::SingleThreadWeakPtrImpl>> _scrollbar;
-    struct RetainPtr<NSScrollerImp> _scrollerImp;
-    int _featureToAnimate;
-    double _startValue;
-    double _endValue;
-    double _duration;
-    struct RetainPtr<NSTimer> _timer;
-    struct RetainPtr<NSDate> _startDate;
-    struct RefPtr<WebCore::CubicBezierTimingFunction, WTF::RawPtrTraits<WebCore::CubicBezierTimingFunction>, WTF::DefaultRefDerefTraits<WebCore::CubicBezierTimingFunction>> _timingFunction;
 }
 
 - (void);
-- (id);
+- (id)hf;
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void)familytreåà½è­âjõÀ rse®	âËthreåàPºpi-èà5éosíá`îodåá

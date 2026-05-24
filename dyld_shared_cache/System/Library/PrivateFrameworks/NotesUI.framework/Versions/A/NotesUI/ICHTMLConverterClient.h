@@ -10,25 +10,22 @@
 @interface ICHTMLConverterClient
 {
     NSXPCConnection *_connectionToService;
-    NSObject<OS_dispatch_queue> *_requestCountQueue;
-    unsigned long long _requestCount;
 }
 
 + (id);
+- (void)/;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id));
 - (void);
 - (id);
 - (void);
-- (void)eWidth;
+- (id);
+- (void);
+- (void)_lastAvailableWidth;
 - (unsigned long long)change the password.;
 
 // Remaining properties
-@property(nonatomic) unsigned long long requestCount; // @synthesize requestCount=_requestCount;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *requestCountQueue; // @synthesize requestCountQueue=_requestCountQueue;
 
 @end

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CVNLPCaptionRuntimeReplacements
 {
     NSString *_replacementKey;
-    NSString *_replacementValue;
-    double _replacementProb;
-    NSNumber *_genderOption;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (double);
-- (void);
+- (double)'F;
+- (void)E;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *genderOption; // @synthesize genderOption=_genderOption;
 @property(readonly, nonatomic) NSString *replacementKey; // @synthesize replacementKey=_replacementKey;
-@property(readonly, nonatomic) double replacementProb; // @synthesize replacementProb=_replacementProb;
-@property(readonly, nonatomic) NSString *replacementValue; // @synthesize replacementValue=_replacementValue;
 
 @end
 

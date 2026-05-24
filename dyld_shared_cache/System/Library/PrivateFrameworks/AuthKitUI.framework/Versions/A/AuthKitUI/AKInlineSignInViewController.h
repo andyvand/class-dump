@@ -6,32 +6,16 @@
 
 #import <AuthKitUI/AKBaseSignInViewController.h>
 
-@class AKAppleIDAuthenticationController, AKRoundLoginContainerView, NSButton, NSLayoutConstraint, NSProgressIndicator, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface AKInlineSignInViewController : AKBaseSignInViewController
 {
     _Bool _usesDarkMode;
-    _Bool _usesCenteringContainerView;
-    AKAppleIDAuthenticationController *_authenticationController;
-    _Bool _userInteractionEnabled;
-    _Bool _isCreateAppleIDAllowed;
-    _Bool _wantsAuthenticationProgress;
-    NSView *_signInView;
-    NSTextField *_usernameTextField;
-    NSTextField *_passwordTextField;
-    NSTextField *_errorTextField;
-    NSButton *_signInButton;
-    NSButton *_forgotButton;
-    NSButton *_createAccountButton;
-    AKRoundLoginContainerView *_roundLoginContainerView;
-    NSLayoutConstraint *_roundLoginContainerHeight;
-    NSProgressIndicator *_indeterminateSpinner;
-    CDUnknownBlockType _passwordHandler;
 }
 
+- (_Bool)d;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -41,65 +25,47 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (_Bool)4	;
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void)ile. error = %@, path = %@;
+- (id)tor cancel] called after block was already canceled;
 - (void);
 - (id);
+- (id)u;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)#�%¨c;
+- (void)1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *createAccountButton; // @synthesize createAccountButton=_createAccountButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSTextField *errorTextField; // @synthesize errorTextField=_errorTextField;
-@property(retain, nonatomic) NSButton *forgotButton; // @synthesize forgotButton=_forgotButton;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSProgressIndicator *indeterminateSpinner; // @synthesize indeterminateSpinner=_indeterminateSpinner;
-@property(copy, nonatomic) CDUnknownBlockType passwordHandler; // @synthesize passwordHandler=_passwordHandler;
-@property(retain, nonatomic) NSTextField *passwordTextField; // @synthesize passwordTextField=_passwordTextField;
-@property(retain, nonatomic) NSLayoutConstraint *roundLoginContainerHeight; // @synthesize roundLoginContainerHeight=_roundLoginContainerHeight;
-@property(retain, nonatomic) AKRoundLoginContainerView *roundLoginContainerView; // @synthesize roundLoginContainerView=_roundLoginContainerView;
-@property(retain, nonatomic) NSButton *signInButton; // @synthesize signInButton=_signInButton;
 @property(retain, nonatomic) NSView *signInView; // @synthesize signInView=_signInView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTextField *usernameTextField; // @synthesize usernameTextField=_usernameTextField;
-@property(nonatomic) _Bool wantsAuthenticationProgress; // @synthesize wantsAuthenticationProgress=_wantsAuthenticationProgress;
 
 @end
 

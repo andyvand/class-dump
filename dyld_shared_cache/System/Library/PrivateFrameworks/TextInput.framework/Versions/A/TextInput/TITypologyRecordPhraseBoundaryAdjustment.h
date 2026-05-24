@@ -6,14 +6,9 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class TIKeyboardConfiguration, TIKeyboardState;
-
 @interface TITypologyRecordPhraseBoundaryAdjustment : TITypologyRecord
 {
     _Bool _forwardAdjustment;
-    int _granularity;
-    TIKeyboardState *_keyboardState;
-    TIKeyboardConfiguration *_keyboardConfig;
 }
 
 + (_Bool);
@@ -24,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)matchingIds;
 - (void);
 - (void);
 - (id);
@@ -36,14 +31,11 @@
 ¨
 ¾
 ;
-- (id)antry;
-- (void);
+- (id)unpleasantry;
+- (void)smithery;
 
 // Remaining properties
 @property(nonatomic) _Bool forwardAdjustment; // @synthesize forwardAdjustment=_forwardAdjustment;
-@property(nonatomic) int granularity; // @synthesize granularity=_granularity;
-@property(retain, nonatomic) TIKeyboardConfiguration *keyboardConfig; // @synthesize keyboardConfig=_keyboardConfig;
-@property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
 
 @end
 

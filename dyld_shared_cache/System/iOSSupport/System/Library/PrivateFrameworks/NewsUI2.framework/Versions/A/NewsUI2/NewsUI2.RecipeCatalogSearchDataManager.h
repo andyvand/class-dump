@@ -7,9 +7,6 @@
 @interface NewsUI2.RecipeCatalogSearchDataManager
 {
     id searchService;
-    id filterResultsProvider;
-    id tagService;
-    id delegate;
 }
 
 @end

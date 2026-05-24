@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CKAsn1Token
 {
     unsigned char mClass;
-    unsigned long long mIdentifier;
-    NSData *mData;
 }
 
-+ (id);
-+ (id);
-- (unsigned char);
-- (id);
++ (id)performBackgroundTransactionSyncFromDate:(id)arg1 completion:(_Bool)arg2;
++ (id)performBackgroundRecordChangesSyncWithCompletion:(id)arg1;
+- (unsigned char)performInstallmentAuthorizationWithRequest:completion: /* Error: Ran out of types for this method. */;
+- (id)pendingUpdateEvents;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=mData;
-@property(readonly) unsigned long long identifier; // @synthesize identifier=mIdentifier;
 @property(readonly) unsigned char tokenClass; // @synthesize tokenClass=mClass;
 
 @end

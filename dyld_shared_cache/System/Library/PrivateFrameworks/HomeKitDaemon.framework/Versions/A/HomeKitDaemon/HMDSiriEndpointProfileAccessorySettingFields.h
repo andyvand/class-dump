@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfileAccessorySettingFields
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_serializeFields;
 }
 
 + (id);
@@ -25,16 +22,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)@Failed to send message, %@, failed to open secure session with error:%@ /* Error: Ran out of types for this method. */;
-- (void)sage;
+- (void)HMDHomeResolveLockNotificationContextIdentifierMessage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

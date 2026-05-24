@@ -6,32 +6,27 @@
 
 #import <AVFCore/AVAsset.h>
 
-@class AVAssetSynchronousInspectorLoader, AVDispatchOnce, AVStreamDataAssetInspector, AVStreamDataParser, NSArray, NSDictionary;
+@class AVStreamDataParser;
 
 __attribute__((visibility("hidden")))
 @interface AVStreamDataAsset : AVAsset
 {
     AVStreamDataParser *_weakReferenceToParser;
-    AVStreamDataAssetInspector *_inspector;
-    AVAssetSynchronousInspectorLoader *_inspectorLoader;
-    AVDispatchOnce *_tracksOnce;
-    NSArray *_tracks;
-    NSDictionary *_trackDictsByTrackID;
 }
 
+- (id)_vadGatingLevel;
+- (id)_EARSpeechRecognitionResultStream;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)h;
 - (id);
 - (Class);
-- (struct OpaqueFigFormatReader *);
-- (void)ncementFilterOptions: /* Error: Ran out of types for this method. */;
+- (struct OpaqueFigFormatReader *);
+- (void)setVideoEnhancementFilterOptions: /* Error: Ran out of types for this method. */;
 - (id)edia type %@;
 
 @end

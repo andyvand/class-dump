@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)identifyingTagClass;
++ (id)_portraitLayerStack;
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (id);
-- (id);
+- (id)stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_11CaptureFileE17AudioCapturerModeE3$_1FvP15AudioBufferListEEE;
 - (id);
 - (void);
 - (void)<­	;

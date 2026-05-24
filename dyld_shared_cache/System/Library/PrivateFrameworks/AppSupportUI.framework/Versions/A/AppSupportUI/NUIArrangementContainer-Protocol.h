@@ -5,5 +5,8 @@
 //
 
 @protocol NUIArrangementContainer
+
+@optional
+- (struct CGRect);
 @end
 

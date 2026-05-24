@@ -6,20 +6,11 @@
 
 #import <PhotosUICore/PXDataSection.h>
 
-@class NSArray, NSDictionary, NSEnumerator, NSIndexSet;
-@protocol NSFastEnumeration;
+@class NSArray;
 
 @interface PXStackedDataSection : PXDataSection
 {
     NSArray *_childDataSectionsStartIndexes;
-    NSIndexSet *_nonEmptyChildDataSectionsStartIndexSet;
-    NSDictionary *_nonEmptyChildDataSectionsIndexMap;
-    NSEnumerator *_childDataSectionsEnumerator;
-    id <NSFastEnumeration> _currentEnumerator;
-    unsigned long long _enumerationMutations;
-    unsigned long long *_currentEnumeratorMutationsPtr;
-    long long _count;
-    NSArray *_childDataSections;
 }
 
 + (id);

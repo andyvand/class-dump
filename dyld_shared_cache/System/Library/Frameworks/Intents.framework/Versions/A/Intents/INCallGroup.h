@@ -9,35 +9,26 @@
 @interface INCallGroup
 {
     NSString *_groupName;
-    NSString *_groupId;
 }
 
 + (id);
 + (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id)bclasses are not allowed :%@ /* Error: Ran out of types for this method. */;
+- (_Bool)sAutoJoin,V_autoJoin;
+- (void)SupplicantState;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)me;
+- (id)_filename;
 - (void)trieveParkingLocationIntent;
 - (id)SLOl;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *groupId; // @synthesize groupId=_groupId;
 @property(readonly, copy) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

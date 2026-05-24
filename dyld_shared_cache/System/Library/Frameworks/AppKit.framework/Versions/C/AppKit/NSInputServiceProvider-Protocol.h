@@ -5,5 +5,10 @@
 //
 
 @protocol NSInputServiceProvider
+- (_Bool);
+- (void)W5kTfIuxkKpHVdWTk42C9A;
+- (void)cOEg;
+- (void)e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MGIOMFBSupport.c;
+- (void)ϯ;
 @end
 

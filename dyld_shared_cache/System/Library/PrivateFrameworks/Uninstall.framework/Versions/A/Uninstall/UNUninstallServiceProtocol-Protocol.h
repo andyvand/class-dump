@@ -5,5 +5,6 @@
 //
 
 @protocol UNUninstallServiceProtocol
+- (void);
 @end
 

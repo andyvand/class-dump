@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFPairingIdentity, MKFAirPlayAccessoryDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString;
+@class HMFPairingIdentity, NSArray, NSDate, NSString;
+@protocol MKFUser;
 
 @protocol MKFAirPlayAccessory
-- (NSString *)g: /* Error: Ran out of types for this method. */;
-- (HMFPairingIdentity *)athsRelationWithModelID: /* Error: Ran out of types for this method. */;
+- (NSArray *);
+- (void)esUserConfirmationOfSharingIdentity failed with error:(id <MKFUser>)arg1 %@;
+- (NSString *)infoWithClass:logging: /* Error: Ran out of types for this method. */;
+- (HMFPairingIdentity *)findMatterPathsRelationWithModelID: /* Error: Ran out of types for this method. */;
 - (void)id %s;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFAirPlayAccessoryDatabaseID *databaseID;
 @property(copy, nonatomic) NSDate *lastPairingAuditTime;
-@property(copy, nonatomic) NSNumber *minimumUserPriviledge;
-@property(copy, nonatomic) NSNumber *needsPairingAudit;
-@property(readonly, retain, nonatomic) NSArray *pairedUsers;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity;
-@property(retain, nonatomic) NSSet *pairingsToRemove;
-@property(copy, nonatomic) NSString *password;
 @end
 

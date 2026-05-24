@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSTimer;
+@class NSMutableDictionary, NSString;
 
 @interface IMDFileTransferCenter
 {
     NSString *_contextStamp;
-    NSMutableDictionary *_localFileURLRetrievalWithGuidCompletionHandlers;
-    NSMutableSet *_messagesToReindexForPreviewGeneration;
-    NSMutableDictionary *_guidToTransferMap;
-    NSMutableSet *_activeTransfers;
-    NSTimer *_transferTimer;
-    NSMutableArray *_transferringTransfers;
-    NSMutableSet *_activeHubbleRequestedTransfers;
-    NSMutableDictionary *_progressMap;
 }
 
 + (id);
@@ -29,20 +21,20 @@
 - (void);
 - (void);
 - (void);
+- (void)24@0:(id)arg1 8@?<v@?@"NSDictionary">16;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithDisk:format: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -57,15 +49,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)replacement;
+- (void)duployan;
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (void);
+- (void)9;
 - (void);
-- (void);
-- (id);
+- (id)
+;
 - (void);
 - (_Bool);
 - (id);
@@ -74,42 +67,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -118,41 +76,68 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)<=>;
+- (_Bool);
+- (void);
+- (void)SQLExpressionNode;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)	k!;
+- (void);
+- (id)!;
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (id);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)stance %@ is too long;
+- (void);
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void)1°Ð1Â0@ù
 × ;
-- (id)eceiveReplaceMessageID:forChat:style: /* Error: Ran out of types for this method. */;
-- (void)essfully:(id)arg1;
+- (id)didReceiveReplaceMessageID:forChat:style: /* Error: Ran out of types for this method. */;
+- (void)account:(id)arg1 conference:(id)arg2 invitationSentSuccessfully: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ü;
 - (_Bool)sent scheduleState Update to peer devices;
 - (void)er from appLink:(id)arg1 %@ for URL:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeHubbleRequestedTransfers; // @synthesize activeHubbleRequestedTransfers=_activeHubbleRequestedTransfers;
-@property(retain, nonatomic) NSMutableSet *activeTransfers; // @synthesize activeTransfers=_activeTransfers;
-@property(retain, nonatomic) NSString *contextStamp; // @synthesize contextStamp=_contextStamp;
-@property(retain, nonatomic) NSMutableDictionary *guidToTransferMap; // @synthesize guidToTransferMap=_guidToTransferMap;
 @property(retain, nonatomic) NSMutableDictionary *localFileURLRetrievalWithGuidCompletionHandlers; // @synthesize localFileURLRetrievalWithGuidCompletionHandlers=_localFileURLRetrievalWithGuidCompletionHandlers;
-@property(retain, nonatomic) NSMutableSet *messagesToReindexForPreviewGeneration; // @synthesize messagesToReindexForPreviewGeneration=_messagesToReindexForPreviewGeneration;
-@property(retain, nonatomic) NSMutableDictionary *progressMap; // @synthesize progressMap=_progressMap;
-@property(retain, nonatomic) NSTimer *transferTimer; // @synthesize transferTimer=_transferTimer;
-@property(retain, nonatomic) NSMutableArray *transferringTransfers; // @synthesize transferringTransfers=_transferringTransfers;
 
 @end
 

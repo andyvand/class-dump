@@ -6,17 +6,15 @@
 
 #import <Contacts/CNPropertyDescription.h>
 
-@class NSString;
-
 @interface CNMemojiMetadataDescription : CNPropertyDescription
 {
 }
 
-- (void);
+- (void)0 t;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)i;
 - (_Bool);
 - (void);
 - (id);
@@ -24,13 +22,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

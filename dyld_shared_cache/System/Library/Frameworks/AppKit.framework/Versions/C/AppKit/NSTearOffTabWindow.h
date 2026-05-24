@@ -6,36 +6,51 @@
 
 #import <AppKit/NSWindow.h>
 
-@class NSMutableArray;
 @protocol NSTearOffTabWindowDelegate;
 
 @interface NSTearOffTabWindow : NSWindow
 {
     NSWindow *_tornFromWindow;
-    id <NSTearOffTabWindowDelegate> _tabDelegate;
-    _Bool _didDetachWindow;
-    id _eventMonitor;
-    NSMutableArray *_deferredEvents;
 }
 
-- (id);
+- (id)";
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)utes - domain <%{private}s>, owner <%{private}s>, tracker domain <%{private}s>;
+- (_Bool)ed to validate domain - label contains non-printable ASCII character(s);
 - (_Bool);
 - (void);
+- (void)isFinishedDecoding;
+- (void)9:(_Bool)arg1 ;
+- (void)r %@);
+- (_Bool)TimeoutSeconds;
+- (void)(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
+- (_Bool)WW(WY	YY(YUU
+UUUU)U8UVV
+VVVV)V8VWW
+WWWW)W8WYY
+YYYY)Y8Yj	jj(jk	kk(kq	qq(qv	vv(vjj
+jjjj)j8jkk
+kkkk)k8kqq
+qqqq)q8qvv
+vvvv)v8vwwxxyyzz;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(nonatomic) id <NSTearOffTabWindowDelegate> tabDelegate; // @synthesize tabDelegate=_tabDelegate;

@@ -6,37 +6,31 @@
 
 #import <AVKit/AVRoutePickerView.h>
 
-@class AVButton, AVLayoutItemAttributes, NSString;
+@class AVButton, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVPlaybackControlsRoutePickerView : AVRoutePickerView
 {
     AVButton *_customButton;
-    _Bool _secondGenerationButton;
-    _Bool _removed;
-    _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    AVLayoutItemAttributes *_layoutAttributes;
-    NSString *_currentMicaPackageName;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)?׀;
 - (struct CGSize);
-- (id);
-- (id);
+- (id);
+- (id)*;
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)tor";
 - (_Bool);
 - (void);
 - (_Bool);
@@ -49,23 +43,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ìõ;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapsed) _Bool collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
 @property(retain, nonatomic) NSString *currentMicaPackageName; // @synthesize currentMicaPackageName=_currentMicaPackageName;
-@property(readonly, nonatomic) AVButton *customButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize extrinsicContentSize;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(readonly) Class superclass;
 
 @end
 

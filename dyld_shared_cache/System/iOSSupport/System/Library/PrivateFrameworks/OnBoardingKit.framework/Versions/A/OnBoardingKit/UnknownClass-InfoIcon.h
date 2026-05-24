@@ -6,7 +6,7 @@
 
 @interface UnknownClass (InfoIcon)
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 @end

@@ -15,13 +15,12 @@
 + (id);
 + (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)edgesForLabel:domain: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDStruct_1b6d18a9);
 - (void)xa?i?¨q?Èy?é?	?)?@ ?Y¢?zª?²?ºº?ÊÂ?êÊ?úÒ?Û?*ã?Jë?Zó?zû? ? ?º ?Ê ?Ù# ?é+ ?	4 ?< ?(D ?8L ?GT ?W\ ?gd ?vl ?t ?| ?¥ ?µ ?´ ?I¡ ?Ó¤ ?â¬ ?á´ ?ñ¼ ?;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1b6d18a9 endTime;
 @property(nonatomic) CDStruct_1b6d18a9 startTime;
 
 @end

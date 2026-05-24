@@ -7,39 +7,32 @@
 @interface GEOWiFiQualityFeedback
 {
     unsigned int _maxValue;
-    int _type;
-    unsigned int _value;
-    struct {
-        unsigned int has_maxValue:1;
-        unsigned int has_type:1;
-        unsigned int has_value:1;
-    } _flags;
 }
 
-+ (_Bool)ies:(id)arg1;
++ (_Bool)setOriginalClientCapabilities:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (void);
+- (void)speechControllerDidStartRecording:(id)arg1 audioDeviceInfo:successfully:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)tableView:shouldSelectRow: /* Error: Ran out of types for this method. */;
+- (_Bool)r;
 - (void);
 - (void)ÔÁ'!4@ùñ¸*ð1Â0@ù
 × ;
 - (id)
 × ;
 - (unsigned int)actlessPaymentsRibbonItem";
-- (void)romHereToHome:(int)arg1;
-- (id);
+- (void)setDistanceFromHereToHome:(int)arg1;
+- (id)labelLineAttributesCount;
 - (int)",R,N,V_enrichmentMetadata;
 - (id)oiceVolumeUpdatedHandler;
 - (id)_downloaded    WHERE identifier = @identifier AND policy = @policy;;
@@ -48,12 +41,7 @@
 - (void)¤äôÔÌ	ä	ôì¼°¨;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxValue;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) unsigned int maxValue;
-@property(nonatomic) int type;
-@property(nonatomic) unsigned int value;
 
 @end
 

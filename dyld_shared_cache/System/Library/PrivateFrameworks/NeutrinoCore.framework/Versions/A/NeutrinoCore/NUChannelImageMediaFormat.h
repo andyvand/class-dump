@@ -15,8 +15,8 @@
 + (id);
 + (id);
 + (id);
-- (id);
-- (id);
+- (id);
+- (id)_';
 - (id);
 - (_Bool);
 - (_Bool);
@@ -24,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (_Bool);

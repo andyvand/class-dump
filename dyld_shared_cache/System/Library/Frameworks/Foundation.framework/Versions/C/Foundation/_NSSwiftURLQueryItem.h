@@ -6,8 +6,6 @@
 
 #import <Foundation/_NSURLQueryItemBridge.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSSwiftURLQueryItem : _NSURLQueryItemBridge
 {
@@ -16,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)rt SortDescriptor with Compared being non-NSObject;
 - (id);
-- (id);
-- (long long);
-- (id);
+- (id)ReadBytes failed;
+- (long long)y;
+- (id)%;
 - (_Bool);
 - (void);
 - (id)mutableSetValueForKey:(void *)arg1;
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *value;
 
 @end
 

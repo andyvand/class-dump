@@ -5,5 +5,8 @@
 //
 
 @protocol CKStoreRequestDelegate
+
+@optional
+- (void);
 @end
 

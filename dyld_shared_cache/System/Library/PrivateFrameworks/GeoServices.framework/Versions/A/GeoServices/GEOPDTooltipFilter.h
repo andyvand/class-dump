@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDTooltipFilter
 {
     PBUnknownFields *_unknownFields;
-    _Bool _isHikingSuggestion;
-    struct {
-        unsigned int has_isHikingSuggestion:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)recipeWithTitle:(id)arg1 prepareBlock:increaseAction:decreaseAction:cleanupBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (id)geo:(struct _NSZone *)arg1:PolylineCoordinate>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}} /* Error: Ran out of types for this method. */;
-- (id)esponseRelativeTimestamp;
+- (id)_searchResponseRelativeTimestamp;
 - (id)Ôt
 x
 XÐ

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)wf_blendedColorWithFirstColorSelector:(struct CGRect)arg1 secondColorSelector:(unsigned long long)arg2;
 - (_Bool);
 - (_Bool);
 - (_Bool);

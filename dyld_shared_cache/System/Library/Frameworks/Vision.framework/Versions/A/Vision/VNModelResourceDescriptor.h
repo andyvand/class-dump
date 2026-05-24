@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)8;
 - (id)\µ¶ÿ]§Thµ¶ÿ¥§Ttµ¶ÿÝ§T|µ¶ÿ­§Tµ¶ÿ;
 
 // Remaining properties

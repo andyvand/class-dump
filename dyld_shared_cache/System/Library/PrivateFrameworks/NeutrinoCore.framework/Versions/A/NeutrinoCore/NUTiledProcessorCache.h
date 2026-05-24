@@ -6,15 +6,11 @@
 
 #import <NeutrinoCore/NUProcessorCache.h>
 
-@class NUColorSpace;
 @protocol NUMutablePurgeableSurfaceImage;
 
 @interface NUTiledProcessorCache : NUProcessorCache
 {
     id <NUMutablePurgeableSurfaceImage> _cachedTiledImage;
-    CDStruct_d58201db _tileSize;
-    NUColorSpace *_colorSpace;
-    unsigned long long _textureCacheCount;
 }
 
 - (void);

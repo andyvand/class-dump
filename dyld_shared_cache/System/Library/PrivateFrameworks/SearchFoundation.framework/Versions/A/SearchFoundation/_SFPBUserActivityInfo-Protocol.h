@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class NSData;
 
 @protocol _SFPBUserActivityInfo
+- (id),;
+- (NSData *)onsQuery;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *key;
-@property(copy, nonatomic) NSString *stringValue;
-@property(retain, nonatomic) _SFPBURL *urlValue;
 @property(nonatomic) int valueType;
 @end
 

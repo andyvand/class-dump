@@ -5,6 +5,6 @@
 //
 
 @protocol NSCoding
-- (void)uttonConfiguration;
+- (void)updateButtonConfiguration;
 @end
 

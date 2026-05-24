@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     SCRCMathExpression *_divisor;
 }
 
-- (id);
-- (void);
+- (id)m;
+- (void)m;
 - (id);
 - (id);
 - (void);

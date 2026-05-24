@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLDebugInstrumentationData, NSArray, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_dispatch_data;
 
 @protocol MTLDynamicLibrarySPI
+- (_Bool);
+- (const CDStruct_5af0f983 *)U;
 - (NSArray *)¬Ô;
 
 // Remaining properties
 @property(readonly) NSObject<OS_dispatch_data> *binaryData;
-@property(retain, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly) NSArray *exportedFunctions;
-@property(readonly) NSArray *exportedVariables;
-@property unsigned long long globalConstantsBase;
-@property unsigned long long globalConstantsSize;
-@property(readonly) NSArray *importedLibraries;
-@property(readonly) NSArray *importedSymbols;
-@property(readonly) NSString *libraryPath;
-@property(readonly) const CDStruct_41a22ec7 *libraryUUID;
-@property(readonly) NSObject<OS_dispatch_data> *reflectionData;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly, nonatomic) _Bool shaderValidationEnabled;
 @end
 

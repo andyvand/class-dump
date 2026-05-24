@@ -8,6 +8,12 @@
 
 @protocol _UIRemoteSheet_Internal
 
+@optional
+- (void)sendReachabilityResponse:(struct CGPoint)arg1 requestID:(struct CGPoint)arg2 toToken:(_Bool)arg3 toIdentifier:fromIdentifier: /* Error: Ran out of types for this method. */;
+- (void)sendPlayedReceiptForMessage:(double)arg1 toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationManager:resolvedAudioVideoModeChangedForConversation: /* Error: Ran out of types for this method. */;
+- (id <_UIRemoteSheet_Internal>);
+
 // Remaining properties
 @property(readonly, nonatomic) id <_UIRemoteSheet_Internal> _containedRemoteSheet;
 // Preceding property had unknown attributes: ?

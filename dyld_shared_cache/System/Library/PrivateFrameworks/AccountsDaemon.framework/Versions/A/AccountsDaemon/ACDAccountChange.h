@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount;
-
 __attribute__((visibility("hidden")))
 @interface ACDAccountChange
 {
     int _changeType;
-    ACAccount *_account;
-    ACAccount *_oldAccount;
 }
 
 + (id);
-- (id);
+- (id)8;
 - (id);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
 @property(readonly) int changeType; // @synthesize changeType=_changeType;
-@property(readonly) ACAccount *oldAccount; // @synthesize oldAccount=_oldAccount;
 
 @end
 

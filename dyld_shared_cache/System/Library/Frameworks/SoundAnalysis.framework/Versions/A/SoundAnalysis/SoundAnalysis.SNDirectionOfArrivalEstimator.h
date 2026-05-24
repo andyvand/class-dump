@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNDirectionOfArrivalEstimator
 {
     id graphStorage;
-    id resourcePath;
 }
 
 @end

@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNClassifyJunkImageRequest : VNImageBasedRequest
 {
 }
@@ -16,8 +14,8 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)apple.contacts.provider;
+- (void);
 - (_Bool);
 - (id)T/
 ;
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long imageCropAndScaleOption;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

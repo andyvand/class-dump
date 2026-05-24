@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPointerArray, NSString, UIInterfaceAction, UIInterfaceActionVisualStyle;
+@class NSArray, NSPointerArray;
 
 @interface UIInterfaceActionGroup
 {
     NSArray *_actions;
-    UIInterfaceAction *_preferredAction;
-    NSPointerArray *_weakDisplayPropertyObservers;
-    NSString *_title;
-    NSArray *_actionsBySection;
-    UIInterfaceActionVisualStyle *_visualStyle;
-    struct CGSize _leadingImageLayoutSize;
-    struct CGSize _trailingImageLayoutSize;
 }
 
 + (_Bool);
@@ -23,49 +16,35 @@
 + (id);
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
+- (void)%@ can't modify message to timeElapsed since it's in an invalid state. %lu;
+- (void)table as CloudKit syncing is off;
+- (void)d. Setting all chats to ReadOnly.;
+- (struct CGSize)entifier %@ is empty, but we're tracking for messages, is tracking compromised?;
+- (void)not from self (%@), receipt was sent from (%@);
+- (void)t;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (id)1aÐ1Â0@ù
 × ;
-- (id)nRanges;
-- (id)iewSettingsLightKeyboard;
+- (id)_UITextInsertionRanges;
+- (id)_UIBackdropViewSettingsLightKeyboard;
 - (id)ì©[;
 - (void)éMÜ´ig;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) NSArray *actionsBySection; // @synthesize actionsBySection=_actionsBySection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize leadingImageLayoutSize; // @synthesize leadingImageLayoutSize=_leadingImageLayoutSize;
-@property(retain, nonatomic) UIInterfaceAction *preferredAction; // @synthesize preferredAction=_preferredAction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) struct CGSize trailingImageLayoutSize; // @synthesize trailingImageLayoutSize=_trailingImageLayoutSize;
-@property(retain, nonatomic, getter=_visualStyle, setter=_setVisualStyle:) UIInterfaceActionVisualStyle *visualStyle; // @synthesize visualStyle=_visualStyle;
 @property(readonly, nonatomic) NSPointerArray *weakDisplayPropertyObservers; // @synthesize weakDisplayPropertyObservers=_weakDisplayPropertyObservers;
 
 @end

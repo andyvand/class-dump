@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface TCBundleResourceManager
 {
     NSMutableDictionary *mPackageMap;
-    struct os_unfair_lock_s _lock;
 }
 
 + (void);
-+ (id);
++ (id)s	;
 - (struct _xmlDoc *);
 - (id);
 - (id);

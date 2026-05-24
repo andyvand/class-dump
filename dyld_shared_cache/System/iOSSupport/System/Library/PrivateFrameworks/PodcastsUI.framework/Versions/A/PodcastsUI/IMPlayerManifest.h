@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPlayerItem, NSObject, NSString, NSUserActivity;
-@protocol OS_dispatch_queue;
+@class NSUserActivity;
 
 @interface IMPlayerManifest
 {
     _Bool _isLoaded;
-    _Bool _isPlaceholder;
-    NSString *_title;
-    unsigned long long _currentIndex;
-    IMPlayerItem *_currentItem;
-    NSUserActivity *_activity;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_identifier;
 }
 
 + (id);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (id);
-+ (void);
++ (void)n;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id){;
 - (id);
 - (void);
 - (unsigned long long);
@@ -58,14 +50,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSUserActivity *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(retain, nonatomic) IMPlayerItem *currentItem; // @synthesize currentItem=_currentItem;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isLoaded; // @synthesize isLoaded=_isLoaded;
-@property(readonly, nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

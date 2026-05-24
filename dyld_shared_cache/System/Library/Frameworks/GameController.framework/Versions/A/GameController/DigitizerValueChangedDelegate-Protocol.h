@@ -7,6 +7,7 @@
 @class GCControllerDirectionPad;
 
 @protocol DigitizerValueChangedDelegate
+- (void)q;
 
 // Remaining properties
 @property(readonly) GCControllerDirectionPad *dpad;

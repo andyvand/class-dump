@@ -7,14 +7,12 @@
 @interface _MFMailboxChildrenEnumerator
 {
     struct __CFTree *_root;
-    struct __CFTree *_currentTree;
-    _Bool _includeHidden;
 }
 
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)`;
+- (id)`;
 - (id);
 
 // Remaining properties

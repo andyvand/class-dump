@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (UIImage_MarkupAppIcon)
-+ (id);
++ (id)7);
 @end
 

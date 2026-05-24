@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFEAPCredentials, CWFNetworkProfile, CWFScanResult, NSString, SFRemoteHotspotDevice;
+@class CWFScanResult;
 
 @interface CWFAssocParameters
 {
     _Bool _rememberUponSuccessfulAssociation;
-    _Bool _forceBSSID;
-    _Bool _has6GHzOnlyBSS;
-    _Bool _findAndJoinNetwork;
-    CWFScanResult *_scanResult;
-    CWFNetworkProfile *_knownNetworkProfile;
-    NSString *_password;
-    CWFEAPCredentials *_EAPCredentials;
-    long long _bandPreference;
-    NSString *_colocatedScopeID;
-    SFRemoteHotspotDevice *_remoteHotspotDevice;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) CWFEAPCredentials *EAPCredentials; // @synthesize EAPCredentials=_EAPCredentials;
-@property(nonatomic) long long bandPreference; // @synthesize bandPreference=_bandPreference;
-@property(copy, nonatomic) NSString *colocatedScopeID; // @synthesize colocatedScopeID=_colocatedScopeID;
-@property(nonatomic) _Bool findAndJoinNetwork; // @synthesize findAndJoinNetwork=_findAndJoinNetwork;
-@property(nonatomic) _Bool forceBSSID; // @synthesize forceBSSID=_forceBSSID;
-@property(nonatomic) _Bool has6GHzOnlyBSS; // @synthesize has6GHzOnlyBSS=_has6GHzOnlyBSS;
-@property(copy, nonatomic) CWFNetworkProfile *knownNetworkProfile; // @synthesize knownNetworkProfile=_knownNetworkProfile;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) _Bool rememberUponSuccessfulAssociation; // @synthesize rememberUponSuccessfulAssociation=_rememberUponSuccessfulAssociation;
-@property(retain, nonatomic) SFRemoteHotspotDevice *remoteHotspotDevice; // @synthesize remoteHotspotDevice=_remoteHotspotDevice;
 @property(copy, nonatomic) CWFScanResult *scanResult; // @synthesize scanResult=_scanResult;
 
 @end

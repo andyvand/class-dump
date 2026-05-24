@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RTEventManager, RTLearnedLocationManager, RTMapServiceManager;
-@protocol OS_dispatch_queue, RTEventLocationAssociationProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RTPredictedLocationOfInterestProviderCalendar
 {
     NSObject<OS_dispatch_queue> *_queue;
-    RTEventManager *_eventManager;
-    id <RTEventLocationAssociationProtocol> _eventModelProvider;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTMapServiceManager *_mapServiceManager;
 }
 
 + (_Bool)location, %{sensitive}@, access points, %lu, mapItems, %lu, error, %@;
@@ -23,39 +19,28 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ent handler for linkID %d, localLinkTechnology:(id)arg1 %d;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (id)thHandler: /* Error: Ran out of types for this method. */;
+- (id)i;
+- (id)_fetchRelationshipContactsFromMeCardWithHandler: /* Error: Ran out of types for this method. */;
 - (void)bucketedLogPriorNonPlaceholderRatio;
 - (void)DR locations;
 - (void)ensitive}@;
 - (void)d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTEventManager *eventManager; // @synthesize eventManager=_eventManager;
-@property(retain, nonatomic) id <RTEventLocationAssociationProtocol> eventModelProvider; // @synthesize eventModelProvider=_eventModelProvider;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSCodeEvaluationClientManager, LSCodeEvaluationInfo, NSDate, NSString, NSURL, NSUUID;
+@class LSCodeEvaluationClientManager;
 
 @interface LSCodeEvaluation
 {
     _Bool _lostUIConnection;
-    _Bool _haveProgress;
-    struct os_unfair_lock_s _progressLock;
-    LSCodeEvaluationInfo *_info;
-    LSCodeEvaluationClientManager *_manager;
-    CDUnknownBlockType _cancellationHandler;
-    NSDate *_lastUpdate;
 }
 
 + (_Bool);
@@ -41,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -57,29 +51,29 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)`2;
 - (void);
-- (void);
-- (id);
+- (id);
 - (long long);
 - (long long);
+- (void)@  e;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);
@@ -87,46 +81,17 @@
 - (unsigned int);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void) ;
 - (id);
-- (id);
-- (id);
+- (id)newTextureWithDescriptor: /* Error: Ran out of types for this method. */;
+- (id)vb;
 - (void);
 - (void)ôð(;
-- (id)tsKey;
+- (id)_kLSOpenOptionLaunchWhenThisProcessExitsKey;
 - (id)rallel);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType cancellationHandler; // @synthesize cancellationHandler=_cancellationHandler;
-@property long long completedUnits;
-@property(readonly) NSURL *displayBundleURL;
-@property(readonly) _Bool hasCustomIcon;
-@property _Bool haveProgress; // @synthesize haveProgress=_haveProgress;
-@property(readonly) NSUUID *identifier;
-@property(readonly) LSCodeEvaluationInfo *info; // @synthesize info=_info;
-@property(retain) NSDate *lastUpdate; // @synthesize lastUpdate=_lastUpdate;
-@property _Bool lostUIConnection; // @synthesize lostUIConnection=_lostUIConnection;
-@property(copy) NSString *malwareName;
 @property LSCodeEvaluationClientManager *manager; // @synthesize manager=_manager;
-@property(readonly) _Bool mayPresentUI;
-@property(getter=isMovedToTrash) _Bool movedToTrash;
-@property(copy) NSDate *notarizationDate;
-@property(getter=isNotarized) _Bool notarized;
-@property(copy) NSString *processSigningID;
-@property(copy) NSString *processTeamID;
-@property(copy) NSURL *processURL;
-@property struct os_unfair_lock_s progressLock; // @synthesize progressLock=_progressLock;
-@property(readonly, getter=isRenamed) _Bool renamed;
-@property(copy) NSString *responsibleSigningID;
-@property(copy) NSString *responsibleTeamID;
-@property(copy) NSURL *responsibleURL;
-@property(copy) NSString *signingID;
-@property(copy) NSString *teamID;
-@property(readonly) NSString *teamName;
-@property long long totalUnits;
-@property(copy) NSURL *trashedURL;
-@property(readonly) unsigned int uid;
-@property(readonly) NSURL *url;
 
 @end
 

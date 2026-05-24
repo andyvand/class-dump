@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface TCBundleResourcePackageEntry
 {
     OISFUZipEntry *mZipEntry;
-    struct _xmlDoc *mXmlDocument;
 }
 
 - (struct _xmlDoc *);
 - (id);
-- (void);
+- (void)+;
 - (id);
 - (void)rnParsingFormat:separator:] /* Error: Ran out of types for this method. */;
 

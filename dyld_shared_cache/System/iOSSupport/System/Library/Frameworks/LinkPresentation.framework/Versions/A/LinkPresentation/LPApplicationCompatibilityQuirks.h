@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)suggestedActions;
++ (_Bool)splitViewController:willHideViewController:withBarButtonItem:forPopoverController: /* Error: Ran out of types for this method. */;
++ (_Bool)showConversation:animate:userInitiated: /* Error: Ran out of types for this method. */;
 
 @end
 

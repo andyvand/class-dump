@@ -6,21 +6,27 @@
 
 #import <HomeKitDaemon/HMDHomeActivityStateAggregator.h>
 
-@class HMDHomeActivityHomeAwayAggregator, HMDHomeActivityVacationAggregatorState, NSString;
+@class HMDHomeActivityHomeAwayAggregator, HMDHomeActivityVacationAggregatorState;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityVacationAggregator : HMDHomeActivityStateAggregator
 {
     HMDHomeActivityHomeAwayAggregator *_homeAwayAggregator;
-    unsigned long long _state;
 }
 
 + (unsigned long long);
 + (id)ñÏÿ/;
-- (void);
-- (id);
-- (double);
-- (_Bool);
+- (void)sharedTripService:(id)arg1 sharingDidInvalidateWithError: /* Error: Ran out of types for this method. */;
+- (id):%{public}@, locallyUpdated:%{public}@
+	senderInfo:%{public}@, fromDisplayName:%{public}@ [ %{private}@ ], fromIdentifier:%{public}@ [ %{private}@ ], localName:%{public}@ [ %{private}@ ], localContactIdentifier:%{public}@ [ %{private}@ ]
+	arrived:%{public}@, arrivedTimestamp:%{public}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (double)an ETA update;
+- (_Bool)G;
 - (id);
 - (id);
 - (id);
@@ -28,19 +34,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)with instance %@;
-- (void)eryResidentReachabilityForAccessoriesMessageKey;
+- (void)HMDHomeQueryResidentReachabilityForAccessoriesMessageKey;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDHomeActivityVacationAggregatorState *aggregatedVacationState;
 @property(readonly, nonatomic) HMDHomeActivityVacationAggregatorState *computedState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDHomeActivityHomeAwayAggregator *homeAwayAggregator; // @synthesize homeAwayAggregator=_homeAwayAggregator;
-@property(readonly) Class superclass;
 
 @end
 

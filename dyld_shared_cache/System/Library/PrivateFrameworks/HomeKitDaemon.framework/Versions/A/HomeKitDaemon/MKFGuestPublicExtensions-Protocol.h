@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMRestrictedGuestHomeAccessSchedule, NSArray;
+@protocol HMDHomeMember;
+
 @protocol MKFGuestPublicExtensions
++ (id <HMDHomeMember>)fo;
+- (void)_shouldPermitFetchingHandle: /* Error: Ran out of types for this method. */;
+- (NSArray *)Info (%lu coordinates);
+- (HMRestrictedGuestHomeAccessSchedule *);
 @end
 

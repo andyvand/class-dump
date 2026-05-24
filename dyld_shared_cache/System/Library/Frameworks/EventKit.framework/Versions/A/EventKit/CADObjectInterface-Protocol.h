@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CADObjectID, NSArray;
+
 @protocol CADObjectInterface
+- (void)PlayingController] <%@> reloading due to ASE change.;
+- (void)ller] <%@> processing SupportedCommandsDidChangeNotification.;
+- (void)ontent items %@.;
+- (void)tems %@.;
+- (void)ContentItemsArtworkChangedNotification for content items %@.;
+- (void)V1NowPlayingController] <%@> processing PlaybackQueueContentItemsArtworkChangedNotification for content items %@.;
+- (void)lic}@ updating audio format content info:(NSArray *)arg1 %{public}@;
+- (void)ic}@;
+- (void)@ %{public}@;
+- (void)changed:(CADObjectID *)arg1 %{public}@;
+- (void)rnalDevice %@ %@;
+- (void);
+- (void)ory] Reusing distantExternalDevice for endpoint %@ %@;
 @end
 

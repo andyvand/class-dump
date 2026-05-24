@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     HMDHomeActivityStateLogEventAnalyzer *_analyzer;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)"MSPGroupSessionStorage";
+- (id)ct<OS_dispatch_queue>";
+- (id)%lu Text Message handles from IDS;
+- (id)@ is blocked;
 - (id);
 - (void);
 - (void);

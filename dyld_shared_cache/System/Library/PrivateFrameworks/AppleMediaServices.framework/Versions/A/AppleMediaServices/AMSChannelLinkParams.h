@@ -9,7 +9,6 @@
 @interface AMSChannelLinkParams
 {
     NSDictionary *_dictionary;
-    NSString *_linkParamsString;
 }
 
 + (id);
@@ -25,8 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSString *adamId;
-@property(readonly) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly) NSString *linkParamsString; // @synthesize linkParamsString=_linkParamsString;
 
 @end
 

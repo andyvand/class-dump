@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBStringDoubleDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -30,8 +29,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void)latformRgiPflEr;
+- (void)getExtension:(double)arg1;
+- (void)IntelligencePlatformRgiPflEr;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

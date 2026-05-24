@@ -7,25 +7,20 @@
 @interface AXMADSREnvelope
 {
     double _attackMS;
-    double _attackLevel;
-    double _decayMS;
-    double _sustainMS;
-    double _sustainLevel;
-    double _releaseMS;
 }
 
 + (id);
-- (double);
-- (double);
+- (double)z;
+- (double)\|;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)\|;
+- (void);
+- (double)\|;
+- (double);
 - (double);
-- (double);
-- (double);
-- (id);
+- (id)[|;
 - (double);
 - (double);
 - (double);
@@ -34,13 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double attackLevel; // @synthesize attackLevel=_attackLevel;
 @property(nonatomic) double attackMS; // @synthesize attackMS=_attackMS;
-@property(nonatomic) double decayMS; // @synthesize decayMS=_decayMS;
-@property(readonly, nonatomic) double lengthMS;
-@property(nonatomic) double releaseMS; // @synthesize releaseMS=_releaseMS;
-@property(nonatomic) double sustainLevel; // @synthesize sustainLevel=_sustainLevel;
-@property(nonatomic) double sustainMS; // @synthesize sustainMS=_sustainMS;
 
 @end
 

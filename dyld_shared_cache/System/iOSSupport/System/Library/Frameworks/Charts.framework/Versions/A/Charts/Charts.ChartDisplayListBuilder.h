@@ -8,7 +8,6 @@
 {
     id lineSeriesMap;
     id areaSeriesMap;
-    id stackOffsets;
 }
 
 @end

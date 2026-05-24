@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, SFPerson, SFPhotosLibraryImage, SFPunchout;
+@class SFPhotosLibraryImage;
 
 @protocol SFShowPhotosOneUpViewCommand
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *matchedPeople;
-@property(retain, nonatomic) SFPerson *matchedPerson;
-@property(copy, nonatomic) NSArray *matchedScenes;
-@property(retain, nonatomic) SFPunchout *photoFilePunchout;
 @property(retain, nonatomic) SFPhotosLibraryImage *photosLibraryImage;
 @end
 

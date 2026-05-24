@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFCriterionSearchContext, MFMailbox, NSArray, NSString;
+@class NSString;
 
 @interface MFCriterion
 {
     NSString *_criterionIdentifier;
-    long long _criterionType;
-    NSArray *_criteria;
-    _Bool _dateIsRelative;
-    _Bool _dateExpressionIsNow;
-    _Bool _allCriteriaMustBeSatisfied;
-    int _specialMailboxType;
-    NSString *_name;
-    NSString *_expression;
-    long long _qualifier;
-    NSString *_searchString;
-    long long _dateUnits;
-    unsigned long long _knownLimit;
-    MFCriterionSearchContext *_searchContext;
-    NSString *_uniqueId;
 }
 
 + (id);
@@ -32,7 +18,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (long long);
 + (id);
 - (id);
@@ -43,32 +29,32 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)a;
+- (void);
 - (void);
 - (long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (long long);
+- (id)*;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -82,29 +68,29 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
+- (id),;
+- (id);
+- (id)qA;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)@9H;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
 - (id);
@@ -115,20 +101,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (long long);
+- (void);
+- (long long);
+- (id);
+- (id)indow.open user gesture;
+- (id);
+- (id);
+- (id);
+- (id)index of where it should have been startIndex:%li /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)�;
 - (id)4 »ÿÿÿÿÿè	;
 - (id);
-- (id)tionSequence;
+- (id)modificationSequence;
 - (void)Q;
 - (void)he V2 directory;
 - (void)%lld | %@ | %@ | %@ | %lld | %d | %d;
@@ -1921,35 +1907,7 @@ $$'''''''''
 - (id)õ";
 
 // Remaining properties
-@property _Bool allCriteriaMustBeSatisfied; // @synthesize allCriteriaMustBeSatisfied=_allCriteriaMustBeSatisfied;
-@property(readonly, nonatomic) unsigned long long bestBaseTable;
-@property(readonly, nonatomic) MFCriterion *compoundCriterionBySplittingExpression;
-@property(readonly, nonatomic) _Bool containsJunkMailboxCriterion;
-@property(readonly, nonatomic) _Bool containsVIPSendersCriterion;
-@property(copy, nonatomic) NSArray *criteria;
 @property(readonly, nonatomic) MFCriterion *criterionForSQL;
-@property(readonly, nonatomic) MFCriterion *criterionForSQLIgnoringGmail;
-@property(readonly, nonatomic) MFCriterion *criterionForSpotlight;
-@property(copy, nonatomic) NSString *criterionIdentifier;
-@property(nonatomic) long long criterionType;
-@property _Bool dateExpressionIsNow; // @synthesize dateExpressionIsNow=_dateExpressionIsNow;
-@property _Bool dateIsRelative; // @synthesize dateIsRelative=_dateIsRelative;
-@property long long dateUnits; // @synthesize dateUnits=_dateUnits;
-@property(copy) NSString *expression; // @synthesize expression=_expression;
-@property(readonly, nonatomic) _Bool hasExpression;
-@property(readonly, nonatomic) _Bool hasNumberCriterion;
-@property(readonly, nonatomic) _Bool isExpressibleInTigerSchema;
-@property(readonly, nonatomic) _Bool isSpotlightCriterion;
-@property unsigned long long knownLimit; // @synthesize knownLimit=_knownLimit;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property long long qualifier; // @synthesize qualifier=_qualifier;
-@property(readonly, nonatomic) MFCriterion *reducedMailboxCriterion;
-@property(retain, nonatomic) MFCriterionSearchContext *searchContext; // @synthesize searchContext=_searchContext;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, nonatomic) MFCriterion *simplifiedCriterion;
-@property int specialMailboxType; // @synthesize specialMailboxType=_specialMailboxType;
-@property(readonly, nonatomic) MFMailbox *targetSmartMailbox;
-@property(readonly, copy, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

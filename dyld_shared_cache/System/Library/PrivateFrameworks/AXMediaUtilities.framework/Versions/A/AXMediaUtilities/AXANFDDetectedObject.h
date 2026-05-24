@@ -9,22 +9,18 @@
 @interface AXANFDDetectedObject : AXVNEspressoDetectedObject
 {
     float _rotationAngle;
-    float _yawAngle;
-    int _labelKey;
 }
 
-- (id);
-- (float);
+- (id)/{;
+- (float)K;
 - (void);
 - (void);
-- (int);
+- (int),z;
 - (void);
 - (float);
 
 // Remaining properties
-@property int labelKey; // @synthesize labelKey=_labelKey;
 @property float rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property float yawAngle; // @synthesize yawAngle=_yawAngle;
 
 @end
 

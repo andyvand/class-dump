@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)4@?0@"BMStoreEvent"8^@16;
 - (void);
 - (id);
 - (_Bool);

@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void)seChangesOperation;
+- (void)CKFetchDatabaseChangesOperation;
 
 // Remaining properties
 @property(readonly, nonatomic) CKSyncEngineFetchChangesContext *context; // @synthesize context=_context;

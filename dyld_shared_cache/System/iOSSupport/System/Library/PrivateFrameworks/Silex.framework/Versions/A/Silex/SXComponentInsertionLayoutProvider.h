@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXColumnLayout, SXLayoutBlueprint;
-@protocol SXDOMObjectProviding, SXUnitConverterFactory;
+@class SXLayoutBlueprint;
 
 @interface SXComponentInsertionLayoutProvider
 {
     SXLayoutBlueprint *_layoutBlueprint;
-    id <SXDOMObjectProviding> _DOMObjectProvider;
-    id <SXUnitConverterFactory> _unitConverterFactory;
 }
 
 - (id);
@@ -28,19 +25,7 @@
 - (void)"<SXDocumentLayout>"40d48{UIEdgeInsets=dddd}56;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(readonly, nonatomic) SXColumnLayout *columnLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGSize documentSize;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SXLayoutBlueprint *layoutBlueprint; // @synthesize layoutBlueprint=_layoutBlueprint;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXUnitConverterFactory> unitConverterFactory; // @synthesize unitConverterFactory=_unitConverterFactory;
-@property(readonly, nonatomic) struct CGSize viewportSize;
 
 @end
 

@@ -6,36 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFPlatformRequestSchemaIFPlatformRequestEnded : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_handledError;
-    _Bool _hasHandledError;
 }
 
 - (void);
 - (void);
-- (id);
+- (id){;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ateFrameworks/PlugInKit.framework/Versions/A/PlugInKit;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)A@;
+- (id)localizedTimeStringForHour:andMinute:timeStyle: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
-- (id)text;
+- (id)profileResolutionRequestContext;
 - (id)`UÌWX;
 - (void)Ð#;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *handledError; // @synthesize handledError=_handledError;
-@property(nonatomic) _Bool hasHandledError; // @synthesize hasHandledError=_hasHandledError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

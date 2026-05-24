@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SXResourceDataSource;
 
 @interface SXResourceDataSourceContainer
@@ -15,17 +14,10 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)dKeyCommand: /* Error: Ran out of types for this method. */;
+- (id)addKeyCommand: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXResourceDataSource> resourceDataSource; // @synthesize resourceDataSource=_resourceDataSource;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,78 +4,73 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPWalrusDaemonService, NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface CDPDClientHandler
 {
     NSXPCConnection *_connection;
-    NSXPCConnection *_proxService;
-    unsigned long long _entitlements;
-    unsigned long long _clientType;
-    id _notificationObject;
-    CDPWalrusDaemonService *_walrusDaemonService;
 }
 
 - (void);
 - (oneway void);
-- (void);
-- (void);
+- (void)SUCoreBorder_state;
+- (void)ifiedFields:(id)arg1 0x%llX|allowsCellular:(CDUnknownBlockType)arg2 %@|discretionary:%@|disableUI:%@|liveServerCatalogOnly:%@|skipPhase:%@|additionalOptions:%@) /* Error: Ran out of types for this method. */;
 - (oneway void);
 - (void);
-- (void);
+- (void)defaultWhitePoint;
 - (void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (void);
+- (void)c;
 - (_Bool);
+- (void)	k;
 - (void);
 - (void);
-- (void);
-- (void);
-- (oneway void);
-- (_Bool);
-- (oneway void);
-- (void);
-- (void);
-- (void);
-- (oneway void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (oneway void);
 - (void);
 - (oneway void);
 - (_Bool);
+- (oneway void);
+- (void)ring",C,N,V_privateBitValueStr;
+- (void)ild;
+- (void);
+- (oneway void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (oneway void);
+- (void);
+- (oneway void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (oneway void)(b@ ae:(id)arg1;
+- (oneway void);
+- (void);
+- (void)k*;
+- (void);
+- (void);
+- (void);
+- (oneway void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (oneway void);
-- (oneway void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (oneway void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (oneway void);
 - (void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void)$;
 - (_Bool);
 - (id);
 - (void);
 - (oneway void);
 - (_Bool);
-- (void);
+- (void)y;
 - (void);
 - (void);
 - (void);
@@ -86,17 +81,11 @@
 - (oneway void);
 - (void);
 - (void);
-- (oneway void)extFromCDPContext:(unsigned long long)arg1;
+- (oneway void)_authContextFromCDPContext:(unsigned long long)arg1;
 - (void)ext. PDP validate is not possible. CDPContext=%@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,25 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SADSchemaSADImmediateDownloadTriggered : SISchemaInstrumentationMessage
 {
     int _locale;
-    _Bool _existingAssets;
-    unsigned int _retryCount;
-    struct {
-        unsigned int locale:1;
-        unsigned int existingAssets:1;
-        unsigned int retryCount:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,27 +23,21 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)CKBBContextKeyEffectIdentifier;
+- (int)r service %@;
 - (id);
 - (id);
-- (id)s;
+- (id)candidateInteractionsShapes;
 - (id)_emergencyCallType;
 - (unsigned int);
 - (void)ÿ%2µª8";
 
 // Remaining properties
-@property(nonatomic) _Bool existingAssets; // @synthesize existingAssets=_existingAssets;
-@property(nonatomic) _Bool hasExistingAssets;
-@property(nonatomic) _Bool hasLocale;
-@property(nonatomic) _Bool hasRetryCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int locale; // @synthesize locale=_locale;
-@property(nonatomic) unsigned int retryCount; // @synthesize retryCount=_retryCount;
 
 @end
 

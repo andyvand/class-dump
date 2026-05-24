@@ -7,10 +7,6 @@
 @interface PhotosUICore.MacSyncedAssetsNotificationListManager
 {
     id statusProvider;
-    id statusObservation;
-    id changeDetailsRepository;
-    id itemList;
-    id observable;
 }
 
 @end

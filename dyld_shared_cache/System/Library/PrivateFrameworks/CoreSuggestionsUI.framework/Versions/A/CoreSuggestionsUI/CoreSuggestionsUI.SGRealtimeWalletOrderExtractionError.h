@@ -9,7 +9,6 @@
 @interface CoreSuggestionsUI.SGRealtimeWalletOrderExtractionError
 {
     void messageID;
-    int extractionSource;
 }
 
 - (void);
@@ -18,11 +17,9 @@
 - (id);
 - (void);
 - (void);
-- (id)poverController:wantsToIgnoreSuggestedEvent: /* Error: Ran out of types for this method. */;
+- (id)suggestedEventPopoverController:wantsToIgnoreSuggestedEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int extractionSource; // @synthesize extractionSource;
-@property(nonatomic, readonly) NSString *localizedDescription;
 @property(nonatomic, copy) NSString *messageID;
 
 @end

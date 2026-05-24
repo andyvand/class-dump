@@ -7,9 +7,6 @@
 @interface SwiftUI.MainMenuItemCoordinator__priv_B619265B3CBBC7F42E2392FC185432F2
 {
     id menuHost;
-    id builderContext;
-    id instructions;
-    id needsUpdate;
 }
 
 @end

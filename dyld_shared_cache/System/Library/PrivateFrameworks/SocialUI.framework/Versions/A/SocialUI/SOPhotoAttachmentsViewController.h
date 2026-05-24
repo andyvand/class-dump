@@ -27,9 +27,9 @@
 - (id);
 - (void);
 - (void);
+- (void)à<ԩ;
 - (void);
-- (void);
-- (_Bool)rDidEnd:(id)arg1;
+- (_Bool)parserDidEnd:(id)arg1;
 
 // Remaining properties
 @property(retain) IKImageBrowserView *imageBrowserView; // @synthesize imageBrowserView=_imageBrowserView;

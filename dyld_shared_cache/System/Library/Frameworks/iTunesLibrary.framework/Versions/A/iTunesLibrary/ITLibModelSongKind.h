@@ -11,7 +11,7 @@
     unsigned long long _variants;
 }
 
-- (void);
+- (void)|	;
 - (unsigned long long);
 
 // Remaining properties

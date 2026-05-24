@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSCopyOnWriteState;
 @protocol NSCopying;
 
 @interface WBSCopyOnWriteValue
 {
     struct os_unfair_lock_s _lock;
-    WBSCopyOnWriteState *_state;
-    id _value;
 }
 
 - (void);
+- (id)�;
+- (void)_documentChanged;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)edCollectionDataSource>"16;
 - (id);
 - (void)A×Ð!ÌFùÑX1Â0@ù
 × ;

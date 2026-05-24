@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface MHSchemaMHVoiceProfileOnboarded : SISchemaInstrumentationMessage
 {
     unsigned int _voiceProfilePitchInHz;
-    NSArray *_confusionScoresForEnrollmentUtterances;
-    struct {
-        unsigned int voiceProfilePitchInHz:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -22,7 +16,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -31,21 +25,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)s
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)
 × ;
 - (id),N,V_context;
 - (id)andleEnded",&,N,V_ended;
-- (void)n;
+- (void)SUGSchemaSUGTypingWindowEndReason;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *confusionScoresForEnrollmentUtterances; // @synthesize confusionScoresForEnrollmentUtterances=_confusionScoresForEnrollmentUtterances;
-@property(nonatomic) _Bool hasVoiceProfilePitchInHz;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int voiceProfilePitchInHz; // @synthesize voiceProfilePitchInHz=_voiceProfilePitchInHz;
 
 @end

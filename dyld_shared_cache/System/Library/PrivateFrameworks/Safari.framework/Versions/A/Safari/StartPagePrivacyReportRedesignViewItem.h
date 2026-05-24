@@ -6,31 +6,12 @@
 
 #import <Safari/StartPageViewItem.h>
 
-@class AccessibilityInteractableTextField, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSView, WBSPrivacyReportData, WBSPrivacyReportMetrics;
-@protocol StartPagePrivacyReportRedesignViewItemDelegate;
+@class WBSPrivacyReportData, WBSPrivacyReportMetrics;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePrivacyReportRedesignViewItem : StartPageViewItem
 {
     WBSPrivacyReportMetrics *_cachedMetrics;
-    _Bool _usesPrivateBrowsing;
-    NSView *_descriptionView;
-    NSView *_privacyDetailView;
-    NSStackView *_privacyReportStackView;
-    NSStackView *_privacyMetricsStackView;
-    NSTextField *_privacyReportDescriptionLabel;
-    NSTextField *_lastThirtyDaysTextField;
-    NSTextField *_preventedTrackersTitleTextField;
-    NSTextField *_preventedTrackersTextField;
-    NSTextField *_contactedTrackersTitleTextField;
-    NSTextField *_contactedTrackersTextField;
-    NSTextField *_mostContactedTrackersTitleTextField;
-    NSTextField *_mostContactedTrackerTextField;
-    AccessibilityInteractableTextField *_showMoreLabel;
-    NSLayoutConstraint *_showMoreLabelBottomAnchor;
-    _Bool _usesNarrowLayout;
-    WBSPrivacyReportData *_privacyReportData;
-    id <StartPagePrivacyReportRedesignViewItemDelegate> _delegate;
 }
 
 - (_Bool);
@@ -48,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -58,16 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <StartPagePrivacyReportRedesignViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) WBSPrivacyReportData *privacyReportData; // @synthesize privacyReportData=_privacyReportData;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesNarrowLayout; // @synthesize usesNarrowLayout=_usesNarrowLayout;
 
 @end
 

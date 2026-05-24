@@ -11,19 +11,18 @@
 @interface LPApplePhotosSharedLibraryInvitationMetadata : LPSpecializationMetadata
 {
     NSString *_message;
-    NSString *_originatorDisplayName;
 }
 
-+ (id);
++ (id)sortOrderStorageKey;
 + (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)supportsRelayPhoneCallsCalls;
+- (void)supplementaryKindToChatItemMap;
+- (id)stopUpdatingPower;
+- (id)stopTrackingLocationForChat:(id)arg1;
+- (id)stopSuppressingSoundsForBulletinMessagesWithChatItems:(id)arg1;
+- (id)stop;
+- (_Bool)skipBackwardCommand;
+- (id)applicationDockMenu:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -34,15 +33,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *originatorDisplayName; // @synthesize originatorDisplayName=_originatorDisplayName;
-@property(readonly) Class superclass;
 
 @end
 

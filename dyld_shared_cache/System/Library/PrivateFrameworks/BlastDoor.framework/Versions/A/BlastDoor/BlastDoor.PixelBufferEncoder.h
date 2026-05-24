@@ -7,7 +7,6 @@
 @interface BlastDoor.PixelBufferEncoder
 {
     id maxPixelDimension;
-    id configuration;
 }
 
 @end

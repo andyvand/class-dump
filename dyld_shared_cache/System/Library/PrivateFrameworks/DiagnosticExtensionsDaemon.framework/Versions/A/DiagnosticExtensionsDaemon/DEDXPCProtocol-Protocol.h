@@ -4,6 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol DEDXPCProtocol
+- (void)commandBlock;
+- (void)operation associated with this request;
+- (void)C;
+- (void)differencesBetweenDictionary:(NSDictionary *)arg1 andDictionary: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)-dd HH:(NSString *)arg1 mm:ss /* Error: Ran out of types for this method. */;
+- (void);
+- (void)(;
+- (void)};
+- (void)__objc_ivar;
 @end
 

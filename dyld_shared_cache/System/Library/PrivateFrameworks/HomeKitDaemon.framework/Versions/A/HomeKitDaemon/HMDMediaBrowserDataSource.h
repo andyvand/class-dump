@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2AccessoryServerDiscoveryBonjour, HMDDevice, HMFProductInfo, HMFSystemInfo, NSString;
+@class HAP2AccessoryServerDiscoveryBonjour, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaBrowserDataSource
@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)ries;
+- (id)';
 - (_Bool);
 - (id);
 - (id);
@@ -31,17 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)026BB765291;
 
 // Remaining properties
-@property(readonly) HAP2AccessoryServerDiscoveryBonjour *airPlayBonjourBrowser; // @synthesize airPlayBonjourBrowser=_airPlayBonjourBrowser;
-@property(readonly) unsigned long long appleMediaAccessoryVariant;
 @property(readonly) NSString *currentAccessoryMediaRouteIdentifier;
-@property(readonly) HMDDevice *currentDevice;
-@property(readonly) _Bool isAppleMediaAccessory;
-@property(readonly) HMFProductInfo *productInfo;
-@property(readonly) _Bool requiresHH2Pairing;
-@property(readonly) _Bool requiresHomePodGeneration2Pairing;
-@property(readonly) _Bool requiresHomePodMiniPairing;
-@property(readonly) unsigned long long supportedStereoPairVersions;
-@property(readonly) HMFSystemInfo *systemInfo;
 
 @end
 

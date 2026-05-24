@@ -5,7 +5,8 @@
 //
 
 @protocol PLResourceIdentity
-- (id)stimatedOutputFileLengthForDuration:exportPreset:exportProperties: /* Error: Ran out of types for this method. */;
+- (id)ovided=%d, tokenFound=%d;
+- (id)_estimatedOutputFileLengthForDuration:exportPreset:exportProperties: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)lObjectsInManagedObjectContext:options:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id)et == nil;

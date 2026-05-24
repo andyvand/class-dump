@@ -7,6 +7,7 @@
 @class NSError;
 
 @protocol ECLocalMessageActionResultsBuilder
+- (void)q.;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error;

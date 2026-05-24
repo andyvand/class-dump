@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BLDownloadQueue, BLRequest, BLUIHostServiceNonUI, NSString;
-@protocol BLDownloadQueueUIManagerProtocol;
+@class BLDownloadQueue, BLUIHostServiceNonUI;
 
 @interface BLUIHostServiceProxy
 {
     BLDownloadQueue *_downloadQueue;
     BLUIHostServiceNonUI *_fallback;
-    BLRequest *_request;
-    id <BLDownloadQueueUIManagerProtocol> _uiManagerDelegate;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)keyPathsAffectingContentInfoString;
+- (void)keyForEvent:(id)arg1 context:(CDUnknownBlockType)arg2;
+- (void)keyCommandWithInput:(id)arg1 modifierFlags:(CDUnknownBlockType)arg2 action: /* Error: Ran out of types for this method. */;
+- (void)jsonForURL:(id)arg1 success:(CDUnknownBlockType)arg2 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) __weak BLDownloadQueue *downloadQueue; // @synthesize downloadQueue=_downloadQueue;
 @property(readonly) BLUIHostServiceNonUI *fallback; // @synthesize fallback=_fallback;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak BLRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
-@property(readonly) __weak id <BLDownloadQueueUIManagerProtocol> uiManagerDelegate; // @synthesize uiManagerDelegate=_uiManagerDelegate;
 
 @end
 

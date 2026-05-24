@@ -5,5 +5,6 @@
 //
 
 @protocol ECAccountPropertyProviding
+- (id);
 @end
 

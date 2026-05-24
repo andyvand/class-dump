@@ -5,6 +5,7 @@
 //
 
 @protocol HMETimer
+- (void)h;
 - (void)e:multiHopFetchResponseMessageName:storeReadHandle:storeWriteHandle:retryIntervalProvider:logCategory: /* Error: Ran out of types for this method. */;
 - (double)CES zone_group (id) ON DELETE RESTRICT, share_id INTEGER NOT NULL CONSTRAINT record_share_id_fkey REFERENCES zone_share (id) ON DELETE RESTRICT, store_id INTEGER NOT NULL CONSTRAINT record_store_id_fkey REFERENCES store (id) ON DELETE RESTRICT, name TEXT NOT NULL, type TEXT, uuid TEXT, parent_uuid TEXT, encoding INTEGER NOT NULL, record BLOB NOT NULL, data BLOB NOT NULL, schema STRING);;
 

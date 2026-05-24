@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMIMDFREmojiListMatrixView;
-
 __attribute__((visibility("hidden")))
 @interface CPKEmojiIMAccessibleElement
 {
     unsigned long long _index;
-    EMIMDFREmojiListMatrixView *_listView;
 }
 
 - (void);
 - (id);
 - (id);
 - (struct CGRect);
-- (unsigned long long);
+- (unsigned long long)forceUppercase;
 - (void)°!<Gù1r°1Â0@ù
 × ;
 
 // Remaining properties
 @property unsigned long long index; // @synthesize index=_index;
-@property EMIMDFREmojiListMatrixView *listView; // @synthesize listView=_listView;
 
 @end
 

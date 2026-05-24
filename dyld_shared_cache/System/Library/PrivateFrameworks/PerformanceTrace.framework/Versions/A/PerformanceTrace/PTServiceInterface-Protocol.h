@@ -5,5 +5,12 @@
 //
 
 @protocol PTServiceInterface
+- (void)HTMLToSuper_I_Frame;
+- (void)HTMLToSuper_FONT_Frame;
+- (void)IMAvailabilityInvitationManager;
+- (void)IMiMessageAppPayloadDecoder;
+- (void)IMSharedUtilitiesProtoCloudKitEncryptedMessageP3;
+- (void)IMKeyValueCollectionStorage;
+- (void)IMSandboxedResource;
 @end
 

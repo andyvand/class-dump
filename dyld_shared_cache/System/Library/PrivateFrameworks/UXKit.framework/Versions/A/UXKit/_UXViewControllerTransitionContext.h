@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UXView, _UXViewControllerTransitionCoordinator;
-@protocol UXViewControllerAnimatedTransitioning, UXViewControllerInteractiveTransitioning;
-
 @interface _UXViewControllerTransitionContext
 {
     double _previousPercentComplete;
-    NSArray *_disabledViews;
-    struct {
-        unsigned int interactorImplementsCompletionSpeed:1;
-        unsigned int interactorImplementsCompletionCurve:1;
-        unsigned int transitionWasCancelled:1;
-        unsigned int transitionIsCompleting:1;
-    } _transitionContextFlags;
-    _Bool _initiallyInteractive;
-    _Bool _currentlyInteractive;
-    _Bool _animated;
-    _Bool _presentation;
-    double _completionVelocity;
-    long long _completionCurve;
-    _UXViewControllerTransitionCoordinator *__auxContext;
-    double _duration;
-    long long _state;
-    CDUnknownBlockType _interactiveUpdateHandler;
-    long long _presentationStyle;
-    double _percentOffset;
-    id <UXViewControllerAnimatedTransitioning> _animator;
-    id <UXViewControllerInteractiveTransitioning> _interactor;
-    UXView *_containerView;
-    CDUnknownBlockType _willCompleteHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (CDUnknownBlockType);
@@ -49,7 +22,7 @@
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
-- (void);
+- (void)?=Q}{?=Q}{?=cc})}8q40;
 - (void);
 - (void);
 - (void);
@@ -69,16 +42,16 @@
 - (void);
 - (_Bool);
 - (long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)peIdentifiers;
+- (void)_purgeableBuffer;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)cacheItemWithCursor:(_Bool)arg1 radius:softness:showSoftness:style:scale: /* Error: Ran out of types for this method. */;
 - (long long);
 - (struct CGRect);
 - (id);
@@ -94,39 +67,11 @@
 × ;
 - (long long)Ú°!EùðÐ1Â0@ù
 × ;
-- (void)AtIndexPath:toIndexPath: /* Error: Ran out of types for this method. */;
-- (id)tionList;
+- (void)moveRowAtIndexPath:toIndexPath: /* Error: Ran out of types for this method. */;
+- (id)AXSectionList;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAuxContext:) _UXViewControllerTransitionCoordinator *_auxContext; // @synthesize _auxContext=__auxContext;
-@property(nonatomic, getter=isAnimated) _Bool animated; // @synthesize animated=_animated;
-@property(nonatomic) __weak id <UXViewControllerAnimatedTransitioning> animator; // @synthesize animator=_animator;
-@property(copy, nonatomic) CDUnknownBlockType arbitraryTransitionCompletionHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C,N
-
-@property(nonatomic) long long completionCurve; // @synthesize completionCurve=_completionCurve;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) double completionVelocity; // @synthesize completionVelocity=_completionVelocity;
-@property(nonatomic) __weak UXView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic, getter=isCurrentlyInteractive) _Bool currentlyInteractive; // @synthesize currentlyInteractive=_currentlyInteractive;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool initiallyInteractive; // @synthesize initiallyInteractive=_initiallyInteractive;
-@property(copy, nonatomic) CDUnknownBlockType interactiveUpdateHandler; // @synthesize interactiveUpdateHandler=_interactiveUpdateHandler;
-@property(nonatomic) __weak id <UXViewControllerInteractiveTransitioning> interactor; // @synthesize interactor=_interactor;
-@property(nonatomic) double percentOffset; // @synthesize percentOffset=_percentOffset;
-@property(nonatomic, getter=isPresentation) _Bool presentation; // @synthesize presentation=_presentation;
-@property(nonatomic) long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool transitionIsInFlight;
-@property(copy, nonatomic) CDUnknownBlockType willCompleteHandler; // @synthesize willCompleteHandler=_willCompleteHandler;
 
 @end
 

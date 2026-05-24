@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateFormatter, NSError, NSString;
+@class NSDateFormatter;
 
 @interface CWFAssetPowerTableTelemetry
 {
     NSDateFormatter *_dateFormatter;
-    NSDate *_initializationDate;
-    NSString *_assetSpecifier;
-    _Bool _isSupportedChipset;
-    NSString *_deviceSKU;
-    NSString *_notificationString;
-    NSString *_assetType;
-    NSString *_assetVersion;
-    _Bool _assetAvailable;
-    NSString *_assetBuild;
-    NSDate *_assetCatalogLastTimeChecked;
-    NSDate *_assetCatalogPostedDate;
-    _Bool _assetVersionSanity;
-    _Bool _osVersionSanity;
-    _Bool _osRestoreVersionSanity;
-    _Bool _skuSanity;
-    _Bool _assetBuildSanity;
-    _Bool _transferSuccess;
-    _Bool _transferAssetAlreadyHere;
-    _Bool _transferPreviousAssetCleaned;
-    NSDate *_transferAvailableDate;
-    NSString *_assetVersionInfoVersion;
-    NSDate *_assetVersionInfoDate;
-    NSString *_assetVersionInfoDateString;
-    NSError *_lastError;
 }
 
 + (id);
@@ -40,11 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (void)@R¬;
 

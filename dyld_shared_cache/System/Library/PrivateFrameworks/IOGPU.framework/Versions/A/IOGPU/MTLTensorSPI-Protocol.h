@@ -7,10 +7,11 @@
 @protocol MTLTensor;
 
 @protocol MTLTensorSPI
+- (id <MTLTensor>);
+- (void)C;
+- (unsigned long long)q;
 
 // Remaining properties
-@property(readonly) unsigned long long offset;
-@property(readonly) id <MTLTensor> parentTensor;
 @property(readonly, nonatomic) unsigned long long resourceIndex;
 @end
 

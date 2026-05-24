@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (long long);
+- (long long)textView:willDismissEditMenuWithAnimator: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties

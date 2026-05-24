@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (long long);
+- (long long)DRUDFVersion150;
 - (unsigned long long);
 - (_Bool);
 

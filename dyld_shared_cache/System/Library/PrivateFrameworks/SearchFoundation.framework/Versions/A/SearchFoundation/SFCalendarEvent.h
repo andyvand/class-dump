@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString, NSTimeZone, NSURL, SFStructuredLocation;
+@class NSString;
 
 @interface SFCalendarEvent
 {
     struct {
         unsigned int isAllDay:1;
     } _has;
-    _Bool _isAllDay;
-    NSString *_title;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    SFStructuredLocation *_location;
-    NSString *_notes;
-    NSTimeZone *_startTimeZone;
-    NSTimeZone *_endTimeZone;
-    SFStructuredLocation *_endLocation;
-    NSURL *_url;
 }
 
 + (_Bool);
@@ -30,51 +20,33 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)playbackQueueDataSource;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id)visualSearchAlgorithmVersion;
+- (void)setIncludeAllBurstAssets:(id)arg1;
+- (void)setAutolaunchApplicationURL:(id)arg1;
+- (void)_fetchNumberOfAssetsWithType:(_Bool)arg1 predicate: /* Error: Ran out of types for this method. */;
+- (id)e Dislike;
+- (id)*bԝ;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)$;
 - (void)&,N,V_showSFCardCommand;
 - (_Bool);
 - (void)l+ÿÿø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) SFStructuredLocation *endLocation; // @synthesize endLocation=_endLocation;
-@property(copy, nonatomic) NSTimeZone *endTimeZone; // @synthesize endTimeZone=_endTimeZone;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFStructuredLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSTimeZone *startTimeZone; // @synthesize startTimeZone=_startTimeZone;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVTextStyleRuleInternal
 {
     NSString *textSelector;
-    NSDictionary *textMarkupAttributes;
 }
 
 @end

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEODataConditionalConnectionProperties
 {
     unsigned long long _workLoad;
-    double _timeWindowStartTime;
-    double _timeWindowDuration;
 }
 
 + (_Bool)update assertion for '%{public}@':%{public}@ /* Error: Ran out of types for this method. */;
@@ -17,13 +15,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (id);
+- (id)16;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double timeWindowDuration; // @synthesize timeWindowDuration=_timeWindowDuration;
-@property(readonly, nonatomic) double timeWindowStartTime; // @synthesize timeWindowStartTime=_timeWindowStartTime;
 @property(readonly, nonatomic) unsigned long long workLoad; // @synthesize workLoad=_workLoad;
 
 @end

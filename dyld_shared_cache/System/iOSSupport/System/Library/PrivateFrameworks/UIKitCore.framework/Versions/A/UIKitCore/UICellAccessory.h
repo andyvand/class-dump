@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 @interface UICellAccessory
 {
     _Bool _hidden;
-    UIColor *_backgroundColor;
-    long long _displayedState;
-    double _reservedLayoutWidth;
-    UIColor *_tintColor;
-    long long __monochromaticTreatment;
 }
 
 + (_Bool)originally to obtain the existing cell. Dequeued reuse identifier:%@; Original reuse identifier:%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)nload from RCS, error %@;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)entityWithMultiverseIdentifier:(id)arg1;
 - (id);
 - (unsigned long long);
-- (_Bool):(id)arg1 toLayout: /* Error: Ran out of types for this method. */;
-- (void)ocusedFloatingContentControlStateAnimated:(id)arg1;
-- (void)ller:(double)arg1;
-- (_Bool):activationOptions:targetSession:optionsClass:outError: /* Error: Ran out of types for this method. */;
+- (_Bool)didTransitionFromLayout:(id)arg1 toLayout: /* Error: Ran out of types for this method. */;
+- (void)_updateFocusedFloatingContentControlStateAnimated:(id)arg1;
+- (void)_setChildViewController:(double)arg1;
+- (_Bool)_optionsWithInitialClientSettings:activationOptions:targetSession:optionsClass:outError: /* Error: Ran out of types for this method. */;
 - (void)uchTypes;
-- (long long)ngReset;
+- (long long)_gestureRecognizersNeedingReset;
 - (id)¾àÀìÁ;
 - (id)(};
 - (_Bool)um size.;
@@ -46,15 +39,7 @@
 - (void)eZX$Op;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setBackgroundColor:) UIColor *_backgroundColor; // @synthesize _backgroundColor;
-@property(nonatomic, setter=_setMonochromaticTreatment:) long long _monochromaticTreatment; // @synthesize _monochromaticTreatment=__monochromaticTreatment;
-@property(nonatomic) long long displayedState; // @synthesize displayedState=_displayedState;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic, getter=_identifier) NSString *identifier;
 @property(readonly, nonatomic, getter=_isSystemType) _Bool isSystemType;
-@property(nonatomic) double reservedLayoutWidth; // @synthesize reservedLayoutWidth=_reservedLayoutWidth;
-@property(readonly, nonatomic, getter=_systemType) long long systemType;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

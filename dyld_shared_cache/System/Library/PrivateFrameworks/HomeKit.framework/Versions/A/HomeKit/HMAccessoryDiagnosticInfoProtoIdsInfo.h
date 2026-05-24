@@ -9,15 +9,11 @@
 @interface HMAccessoryDiagnosticInfoProtoIdsInfo
 {
     NSString *_idsIdentifierString;
-    int _idsState;
-    struct {
-        unsigned int idsState:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (_Bool);
@@ -26,20 +22,17 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)characterization;
+- (void)+r;
 - (id);
-- (id);
+- (id)Y;
 - (void)via merge to %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdsIdentifierString;
 @property(nonatomic) _Bool hasIdsState;
-@property(retain, nonatomic) NSString *idsIdentifierString; // @synthesize idsIdentifierString=_idsIdentifierString;
-@property(nonatomic) int idsState; // @synthesize idsState=_idsState;
 
 @end
 

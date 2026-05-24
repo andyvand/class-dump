@@ -6,8 +6,6 @@
 
 #import <CoreMediaStream/MSStreamsProtocol.h>
 
-@class NSArray;
-
 @interface MSReauthorizationProtocol : MSStreamsProtocol
 {
     struct __MSRPCContext {
@@ -17,14 +15,13 @@
         CDUnknownFunctionPointerType didReceiveRetryAfterCallback;
         CDUnknownFunctionPointerType didReceiveServerSideConfigurationVersionCallback;
     } _context;
-    NSArray *_assetsInFlight;
 }
 
+- (void)owed for characteristic:(id)arg1 %@ because message from source:%lu does not have sufficient entitlements /* Error: Ran out of types for this method. */;
+- (void)ting a snapshot session with HMDCameraSnapshotLocal;
+- (void)napshot session with HMDCameraStreamSnapshot;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (void);

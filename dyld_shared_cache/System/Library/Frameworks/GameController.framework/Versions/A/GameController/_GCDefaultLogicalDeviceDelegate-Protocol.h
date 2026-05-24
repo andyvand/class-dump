@@ -5,5 +5,8 @@
 //
 
 @protocol _GCDefaultLogicalDeviceDelegate
+
+@optional
+- (_Bool);
 @end
 

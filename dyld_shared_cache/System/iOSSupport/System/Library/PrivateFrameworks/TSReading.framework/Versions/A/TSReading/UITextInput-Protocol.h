@@ -4,74 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
+@class NSArray, NSDictionary, NSString, UIMenu, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (NSString *)WithContext:(UITextRange *)arg1 geometry:pathSource: /* Error: Ran out of types for this method. */;
+- (void)<;
+- (NSString *)initWithContext:(UITextRange *)arg1 geometry:pathSource: /* Error: Ran out of types for this method. */;
 - (NSArray *)orage;
 - (long long)WPHyperlinkField",&,N,V_hyperlink;
-- (NSDictionary *)lementAtIndex: /* Error: Ran out of types for this method. */;
-- (long long)on;
-- (UITextRange *)ternal;
+- (NSDictionary *)elementAtIndex: /* Error: Ran out of types for this method. */;
+- (long long)TSWPArchivedSelection;
+- (UITextRange *)Internal;
 - (long long)øÐ;
 - (UITextRange *)¸C;
-- (struct CGRect)anNumericDoubleParenKind;
+- (struct CGRect)kArabianNumericDoubleParenKind;
 - (void)ddenDeletionMarkup];
 - (UITextPosition *)orm! %@;
 - (UITextPosition *)xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDContentAnimation.m;
 - (UITextPosition *)UParticleSystem startingPointAtIndexPoint:] /* Error: Ran out of types for this method. */;
 - (id <UITextInputDelegate>)forLayer:forShadow:forHitTest:] /* Error: Ran out of types for this method. */;
-- (id <UITextInputTokenizer>)size;
+- (id <UITextInputTokenizer>)TSTAutoResize;
 - (void)~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/kit/TSKKeyboardMonitor.m;
 - (struct CGRect)etCancelButtonIndex:(UITextRange *)arg1 ];
 - (void)handler:]_block_invoke_4 /* Error: Ran out of types for this method. */;
 - (UITextRange *)TSP:(struct CGPoint)arg1:ObjectStateIdentifier::dataState() const /* Error: Ran out of types for this method. */;
 - (UITextRange *)%@;
-- (UITextPosition *)space;
+- (UITextPosition *)rspace;
 - (UITextPosition *)Ô	;
 - (void);
 - (void)öñX_ÂSÛVNmQNkQ]NöùX0ÁSOFÒgLcsöùX³ÃSOÓùÒgLcs;
 
 @optional
+- (UITextPosition *)hed %ld recently read issues;
+- (void)queryNewsPlusAudioEngagement;
+- (UIMenu *)e/WelcomeTracker.swift;
+- (void);
+- (struct CGAffineTransform);
+- (void);
+- (void)!;
 - (void)Preset;
 - (void)pÈ;
 - (void)x#´#à#`%Ð%;
-- (void);
+- (void)Key;
 - (UIView *)endOperation];
 - (struct CGRect)È;
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisEditable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
 @property(copy) UITextRange *selectedTextRange;
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
 @end
 

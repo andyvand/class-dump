@@ -4,57 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface AWDWiFiMetricsManagerBlacklistedNetworkInfo
 {
     NSMutableArray *_blacklistingRecords;
-    unsigned int _networkFlags;
-    unsigned int _reserverdInfo;
-    NSString *_ssidHash;
-    struct {
-        unsigned int networkFlags:1;
-        unsigned int reserverdInfo:1;
-    } _has;
 }
 
 + (Class);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)h;
+- (void)@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)c;
+- (id)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *blacklistingRecords; // @synthesize blacklistingRecords=_blacklistingRecords;
-@property(nonatomic) _Bool hasNetworkFlags;
-@property(nonatomic) _Bool hasReserverdInfo;
 @property(readonly, nonatomic) _Bool hasSsidHash;
-@property(nonatomic) unsigned int networkFlags; // @synthesize networkFlags=_networkFlags;
-@property(nonatomic) unsigned int reserverdInfo; // @synthesize reserverdInfo=_reserverdInfo;
-@property(retain, nonatomic) NSString *ssidHash; // @synthesize ssidHash=_ssidHash;
 
 @end
 

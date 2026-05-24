@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
-
 @interface NLXSchemaNLXLegacyNLContext : SISchemaInstrumentationMessage
 {
     _Bool _isDictationPrompt;
-    _Bool _isStrictPrompt;
-    NSString *_previousDomainName;
-    _Bool _isListenAfterSpeaking;
-    SISchemaUUID *_linkId;
-    int _legacyContextSource;
-    struct {
-        unsigned int isDictationPrompt:1;
-        unsigned int isStrictPrompt:1;
-        unsigned int isListenAfterSpeaking:1;
-        unsigned int legacyContextSource:1;
-    } _has;
-    _Bool _hasPreviousDomainName;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -34,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)jj8	;
+- (void)1;
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,36 +38,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t�;
+- (id);
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)	;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)CSDBRecordConstraintType;
 - (id);
 - (id)!$Aù±Þ1Â0@ù
 × ;
 - (id)searchSucceededNoMatchingTool;
 - (id)TB,N,V_hasFollowUpAccessoryType;
-- (void)T_FAILURE;
+- (void)CHCONVERSATIONQUALITYISSUECATEGORY_ON_SCREEN_CONTEXT_FAILURE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDictationPrompt;
-@property(nonatomic) _Bool hasIsListenAfterSpeaking;
-@property(nonatomic) _Bool hasIsStrictPrompt;
-@property(nonatomic) _Bool hasLegacyContextSource;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasPreviousDomainName; // @synthesize hasPreviousDomainName=_hasPreviousDomainName;
 @property(nonatomic) _Bool isDictationPrompt; // @synthesize isDictationPrompt=_isDictationPrompt;
-@property(nonatomic) _Bool isListenAfterSpeaking; // @synthesize isListenAfterSpeaking=_isListenAfterSpeaking;
-@property(nonatomic) _Bool isStrictPrompt; // @synthesize isStrictPrompt=_isStrictPrompt;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int legacyContextSource; // @synthesize legacyContextSource=_legacyContextSource;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *previousDomainName; // @synthesize previousDomainName=_previousDomainName;
 
 @end
 

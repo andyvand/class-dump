@@ -17,16 +17,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
-- (_Bool);
+- (_Bool)unspeakably;
 - (void);
 - (id);
 - (id);
 - (void)0;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *connectedClientIdentifierString; // @synthesize connectedClientIdentifierString=_connectedClientIdentifierString;
 @property(readonly, nonatomic) _Bool hasConnectedClientIdentifierString;
 
 @end

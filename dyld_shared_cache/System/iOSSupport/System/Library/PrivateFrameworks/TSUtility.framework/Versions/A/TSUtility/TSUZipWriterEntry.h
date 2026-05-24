@@ -9,26 +9,20 @@
 @interface TSUZipWriterEntry
 {
     unsigned int _CRC;
-    NSString *_name;
-    unsigned long long _size;
-    unsigned long long _offset;
 }
 
 - (unsigned int);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)mHyperlinkURL;
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 
 // Remaining properties
-@property(nonatomic) unsigned int CRC; // @synthesize CRC=_CRC;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

@@ -5,10 +5,12 @@
 //
 
 @protocol TSDMatchingAlgorithmMatch
+- (id)lay timeout for ;
+- (long long)changed for non-current item] - item: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) id incomingMatchObject;
 @property(readonly, nonatomic) long long matchCost;
-@property(readonly, nonatomic) id outgoingMatchObject;
 @end
 

@@ -7,14 +7,13 @@
 @interface ChatKit.CKLinkPreviewTextAttachmentViewProvider
 {
     id providedView;
-    id previousTextContainerSize;
 }
 
 - (id);
 - (struct CGRect);
 - (void)!àAùQÐ1Â0@ù
 × ;
-- (void)riptBackgroundBalloonAttributes;
+- (void)CKTranscriptBackgroundBalloonAttributes;
 
 @end
 

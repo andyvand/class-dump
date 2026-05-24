@@ -4,46 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSRecursiveLock, NSString;
-
 @interface MPLayerGroupInternal
 {
     double numberOfLoops;
-    unsigned long long loopingMode;
-    double durationPadding;
-    double duration;
-    double timeIn;
-    double phaseInDuration;
-    double phaseOutDuration;
-    NSString *backgroundAudioID;
-    struct CGColor *backgroundColor;
-    NSDictionary *authoredVersionInfo;
-    long long sendLiveNotification;
-    NSRecursiveLock *liveLock;
-    _Bool autoAdjustDuration;
-    _Bool isDocumentLayerGroup;
-    _Bool isTriggered;
-    _Bool startsPaused;
-    _Bool usedAllPaths;
-    double opacity;
-    struct CGPoint position;
-    double zPosition;
-    struct CGSize size;
-    double rotationAngle;
-    double xRotationAngle;
-    double yRotationAngle;
-    double scale;
-    long long zIndex;
-    NSString *uuid;
-    NSMutableDictionary *layerKeyDictionary;
-    NSDictionary *initialState;
 }
 
 - (double);
-- (double);
+- (double)endpointURL;
+- (_Bool)assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion: /* Error: Ran out of types for this method. */;
+- (double)UploadThrottler;
 - (_Bool);
-- (double);
-- (_Bool);
+- (void);
+- (void);
+- (void)regionIDs;
 - (void);
 - (void);
 - (void);
@@ -51,15 +24,12 @@
 - (void);
 - (void);
 - (void);
+- (void)s %s:(_Bool)arg1 %d %{public}@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)__strong);
+- (void)rlierDate(NSDate *__strong, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong);
+- (void)ticsUploadScheduler _uploadWithCompletion:(id)arg1 ];
+- (long long)"NSString"8Q16^B24;
 - (double);
 - (unsigned long long);
 - (id);
@@ -71,7 +41,7 @@
 - (double);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
 - (void);
@@ -80,11 +50,11 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)@;
 - (void);
 - (void);
-- (double);
-- (struct CGSize);
+- (double)!;
+- (struct CGSize)DefaultTrackVisitedAggregateModificationConfiguration;
 - (void);
 - (struct CGPoint);
 - (void);
@@ -93,42 +63,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct CGColor *);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *authoredVersionInfo; // @synthesize authoredVersionInfo;
-@property(nonatomic) _Bool autoAdjustDuration; // @synthesize autoAdjustDuration;
-@property(retain, nonatomic) NSString *backgroundAudioID; // @synthesize backgroundAudioID;
-@property(nonatomic) struct CGColor *backgroundColor; // @synthesize backgroundColor;
-@property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic) double durationPadding; // @synthesize durationPadding;
-@property(retain, nonatomic) NSDictionary *initialState; // @synthesize initialState;
-@property(nonatomic) _Bool isDocumentLayerGroup; // @synthesize isDocumentLayerGroup;
-@property(nonatomic) _Bool isTriggered; // @synthesize isTriggered;
-@property(retain, nonatomic) NSMutableDictionary *layerKeyDictionary; // @synthesize layerKeyDictionary;
-@property(retain, nonatomic) NSRecursiveLock *liveLock; // @synthesize liveLock;
-@property(nonatomic) unsigned long long loopingMode; // @synthesize loopingMode;
 @property(nonatomic) double numberOfLoops; // @synthesize numberOfLoops;
-@property(nonatomic) double opacity; // @synthesize opacity;
-@property(nonatomic) double phaseInDuration; // @synthesize phaseInDuration;
-@property(nonatomic) double phaseOutDuration; // @synthesize phaseOutDuration;
-@property(nonatomic) struct CGPoint position; // @synthesize position;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle;
-@property(nonatomic) double scale; // @synthesize scale;
-@property(nonatomic) long long sendLiveNotification; // @synthesize sendLiveNotification;
-@property(nonatomic) struct CGSize size; // @synthesize size;
-@property(nonatomic) _Bool startsPaused; // @synthesize startsPaused;
-@property(nonatomic) double timeIn; // @synthesize timeIn;
-@property(nonatomic) _Bool usedAllPaths; // @synthesize usedAllPaths;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid;
-@property(nonatomic) double xRotationAngle; // @synthesize xRotationAngle;
-@property(nonatomic) double yRotationAngle; // @synthesize yRotationAngle;
-@property(nonatomic) long long zIndex; // @synthesize zIndex;
-@property(nonatomic) double zPosition; // @synthesize zPosition;
 
 @end
 

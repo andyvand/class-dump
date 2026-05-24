@@ -6,29 +6,25 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSDate, TSUColor, TSWPChangeSession, TSWPStorage;
+@class TSWPStorage;
 
 @interface TSWPChange : TSPObject
 {
     TSWPStorage *_parentStorage;
-    int _kind;
-    TSWPChangeSession *_session;
-    NSDate *_date;
-    _Bool _hidden;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)msc_nwTime;
+- (void)msc_replacingPB;
+- (void)msc_MPT;
+- (void)a subclass of MPModelObject] for identifiers:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ommand but the target is not available in the queue.;
+- (_Bool)source is not available in the queue.;
+- (void)has a mutating subscription to %@;
+- (id)rController - resetQueue [End current item mismatch between AVPlayer and Internal Player] - keepCurrentItem: /* Error: Ran out of types for this method. */;
+- (void)nd targetContentItemID ;
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)PlayerBoundaryTimePublisher;
 - (id);
 - (_Bool);
 - (void);
@@ -45,16 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TSUColor *changeAdornmentsColor;
-@property(retain, nonatomic) NSDate *date;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) _Bool isDeletion;
-@property(readonly, nonatomic) _Bool isInsertion;
 @property(nonatomic) TSWPStorage *parentStorage; // @synthesize parentStorage=_parentStorage;
-@property(retain, nonatomic) TSWPChangeSession *session;
-@property(readonly, nonatomic) _Bool showsHiddenDeletionMarkup;
-@property(readonly, nonatomic) _Bool showsMarkup;
-@property(readonly, nonatomic) TSUColor *textMarkupColor;
 
 @end
 

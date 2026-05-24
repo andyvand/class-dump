@@ -7,7 +7,7 @@
 @interface UnknownClass (FPCopy)
 - (void);
 - (void);
-- (void);
+- (void)M;
 - (id);
 - (id);
 @end

@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, PFPosterLayout, PIParallaxStyle;
+@class NSMutableArray;
 @protocol PISegmentationItem;
 
 @interface PIParallaxCompoundLayerStackRequest
 {
     NSMutableArray *_requests;
-    NSMutableArray *_results;
-    NSError *_error;
-    _Bool _ignoreOriginalLayout;
-    _Bool _settlingEffectEnabled;
-    _Bool _spatialPhotoEnabled;
-    _Bool _userAdjustedVisibleFrame;
-    _Bool _fullPhotoLuminanceCalculationEnabled;
-    _Bool _foregroundLayerEnabled;
-    _Bool _shouldRecalculateLayoutProperties;
-    _Bool _useLegacyHeadroom;
-    _Bool _updateInactiveFrame;
-    _Bool _updateClockZPosition;
-    _Bool _updateClockAreaLuminance;
-    id <PISegmentationItem> _segmentationItem;
-    PIParallaxStyle *_style;
-    PFPosterLayout *_layout;
-    unsigned long long _layerStackOptions;
-    unsigned long long _allowedLayoutStrategies;
 }
 
 - (_Bool);
@@ -52,19 +34,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)w;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)>;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9 ;
 - (void);
 - (void);
 - (id);
@@ -84,25 +66,10 @@
 - (void);
 - (void);
 - (id);
-- (void)tMaskImage: /* Error: Ran out of types for this method. */;
+- (void)setInputMaskImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedLayoutStrategies; // @synthesize allowedLayoutStrategies=_allowedLayoutStrategies;
-@property(nonatomic, getter=isForegroundLayerEnabled) _Bool foregroundLayerEnabled; // @synthesize foregroundLayerEnabled=_foregroundLayerEnabled;
-@property(nonatomic, getter=fullPhotoLuminanceCalculationEnabled) _Bool fullPhotoLuminanceCalculationEnabled; // @synthesize fullPhotoLuminanceCalculationEnabled=_fullPhotoLuminanceCalculationEnabled;
-@property(nonatomic) _Bool ignoreOriginalLayout; // @synthesize ignoreOriginalLayout=_ignoreOriginalLayout;
-@property(nonatomic) unsigned long long layerStackOptions; // @synthesize layerStackOptions=_layerStackOptions;
-@property(retain, nonatomic) PFPosterLayout *layout; // @synthesize layout=_layout;
 @property(readonly, nonatomic) id <PISegmentationItem> segmentationItem; // @synthesize segmentationItem=_segmentationItem;
-@property(nonatomic, getter=isSettlingEffectEnabled) _Bool settlingEffectEnabled; // @synthesize settlingEffectEnabled=_settlingEffectEnabled;
-@property(nonatomic) _Bool shouldRecalculateLayoutProperties; // @synthesize shouldRecalculateLayoutProperties=_shouldRecalculateLayoutProperties;
-@property(nonatomic, getter=isSpatialPhotoEnabled) _Bool spatialPhotoEnabled; // @synthesize spatialPhotoEnabled=_spatialPhotoEnabled;
-@property(retain, nonatomic) PIParallaxStyle *style; // @synthesize style=_style;
-@property(nonatomic) _Bool updateClockAreaLuminance; // @synthesize updateClockAreaLuminance=_updateClockAreaLuminance;
-@property(nonatomic) _Bool updateClockZPosition; // @synthesize updateClockZPosition=_updateClockZPosition;
-@property(nonatomic) _Bool updateInactiveFrame; // @synthesize updateInactiveFrame=_updateInactiveFrame;
-@property(nonatomic) _Bool useLegacyHeadroom; // @synthesize useLegacyHeadroom=_useLegacyHeadroom;
-@property(nonatomic, getter=userAdjustedVisibleFrame) _Bool userAdjustedVisibleFrame; // @synthesize userAdjustedVisibleFrame=_userAdjustedVisibleFrame;
 
 @end
 

@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)@	;
+- (_Bool)Extend [the] selection [forward] [by] one character;
 - (id);
 - (void);
 - (id);

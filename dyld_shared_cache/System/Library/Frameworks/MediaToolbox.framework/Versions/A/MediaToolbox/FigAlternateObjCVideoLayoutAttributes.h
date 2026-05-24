@@ -11,7 +11,7 @@
     struct OpaqueCMTagCollection *_tagCollection;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long packingType;
-@property(readonly, nonatomic) unsigned long long projectionType;
-@property(readonly, nonatomic) unsigned long long stereoViewComponents;
 
 @end
 

@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccount, HMDDeviceAddress, HMDDeviceCapabilities, HMDHomeKitVersion, HMDRPIdentity, HMFProductInfo, NSArray, NSData, NSSet, NSString, NSUUID, Protocol;
-@protocol NSCopying;
+@class NSArray, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDDevice
 {
     NSSet *_handles;
-    struct hmf_unfair_data_lock_s _lock;
-    _Bool _dirty;
-    _Bool _locallyTracked;
-    _Bool _cloudTracked;
-    NSString *_name;
-    HMDAccount *_account;
-    HMFProductInfo *_productInfo;
-    HMDHomeKitVersion *_version;
-    HMDDeviceCapabilities *_capabilities;
-    HMDRPIdentity *_rpIdentity;
-    NSUUID *_modelIdentifier;
-    NSUUID *_identifier;
-    NSUUID *_sharedUserIDSIdentifier;
 }
 
 + (id);
@@ -36,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)publickey;
+- (id)oy.safeview;
+- (_Bool);
+- (id)b,;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)mpletion:(id)arg1;
+- (id)stmentKey;
 - (void);
 - (id);
 - (id);
@@ -57,22 +43,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (id)1Â0@ù
 × ;
 - (id);
 - (id)ettingsMessageController>";
-- (_Bool)SetupInProgress;
-- (id)ral_accessibility_interaction_ignoreRepeat_enabled_readVersion;
-- (void);
-- (_Bool):(id)arg1;
+- (_Bool)streamSetupInProgress;
+- (id)root_general_accessibility_interaction_ignoreRepeat_enabled_readVersion;
+- (void)fmfStatusWithCoder:(_Bool)arg1;
+- (_Bool)findEventsRelationOfTypeDurationEventWithModelID:(id)arg1;
 - (_Bool)_ownerDismissedTVViewingProfileOnboarding;
 - (id)firmation;
 - (id)d;
 - (id),V_bundleIdentifier;
-- (id)UUID:clipUUID:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)uploadFeedbackWithCameraProfileUUID:clipUUID:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Èhiàiklk;
 - (void);
@@ -103,46 +89,7 @@ __attribute__((visibility("hidden")))
 - (id)o?;
 
 // Remaining properties
-@property __weak HMDAccount *account; // @synthesize account=_account;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) id <NSCopying> backingModelKey;
-@property(readonly) Protocol *backingModelType;
-@property(copy) HMDDeviceCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(getter=isCloudTracked) _Bool cloudTracked; // @synthesize cloudTracked=_cloudTracked;
-@property(readonly, getter=isCurrentDevice) _Bool currentDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDeviceAddress *deviceAddress;
-@property(getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy) NSArray *identities;
-@property(readonly, copy) NSUUID *idsIdentifier;
-@property(getter=isLocallyTracked) _Bool locallyTracked; // @synthesize locallyTracked=_locallyTracked;
-@property(readonly) Class modelClass;
-@property(readonly, copy, nonatomic) NSUUID *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *modelParentIdentifier;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(copy) HMFProductInfo *productInfo; // @synthesize productInfo=_productInfo;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSData *pushToken;
-@property(readonly, copy) NSString *remoteDestinationString;
-@property(copy) HMDRPIdentity *rpIdentity; // @synthesize rpIdentity=_rpIdentity;
-@property(copy) NSUUID *sharedUserIDSIdentifier; // @synthesize sharedUserIDSIdentifier=_sharedUserIDSIdentifier;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsHH2;
-@property(readonly, copy) HMDHomeKitVersion *version; // @synthesize version=_version;
 
 @end
 

@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchContext, NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface CNAutocompleteFetchRequest
 {
     NSArray *_searchNames;
-    NSString *_priorityDomainForSorting;
-    unsigned long long _searchType;
-    CNAutocompleteFetchContext *_fetchContext;
-    NSNumber *_shouldIncludeGroupResultsImpl;
-    _Bool _includeContacts;
-    _Bool _includeRecents;
-    _Bool _includeSuggestions;
-    _Bool _includeLocalExtensions;
-    _Bool _includeDirectoryServers;
-    _Bool _includeCalendarServers;
-    _Bool _includePredictions;
-    unsigned long long _maximumResultsCount;
-    long long _addressableGroupResultStyle;
-    NSString *_triageIdentifier;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (id);
@@ -59,21 +45,21 @@
 - (void);
 - (void);
 - (void);
+- (void)6;
+- (void));
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)q`P;
+- (id);
+- (id)q;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)B;
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -81,25 +67,6 @@
 - (id);
 
 // Remaining properties
-@property long long addressableGroupResultStyle; // @synthesize addressableGroupResultStyle=_addressableGroupResultStyle;
-@property(copy) CNAutocompleteFetchContext *fetchContext; // @synthesize fetchContext=_fetchContext;
-@property _Bool includeCalendarServers; // @synthesize includeCalendarServers=_includeCalendarServers;
-@property _Bool includeContacts; // @synthesize includeContacts=_includeContacts;
-@property _Bool includeDirectoryServers; // @synthesize includeDirectoryServers=_includeDirectoryServers;
-@property _Bool includeLocalExtensions; // @synthesize includeLocalExtensions=_includeLocalExtensions;
-@property _Bool includePredictions; // @synthesize includePredictions=_includePredictions;
-@property _Bool includeRecents; // @synthesize includeRecents=_includeRecents;
-@property _Bool includeServers;
-@property _Bool includeSuggestions; // @synthesize includeSuggestions=_includeSuggestions;
-@property unsigned long long maximumResultsCount; // @synthesize maximumResultsCount=_maximumResultsCount;
-@property(copy) NSString *priorityDomainForSorting; // @synthesize priorityDomainForSorting=_priorityDomainForSorting;
-@property(copy) NSArray *searchNames; // @synthesize searchNames=_searchNames;
-@property(copy) NSString *searchString;
-@property unsigned long long searchType; // @synthesize searchType=_searchType;
-@property(readonly) NSArray *searchableProperties;
-@property(copy) NSString *sendingAddress;
-@property _Bool shouldIncludeGroupResults;
-@property(readonly) NSString *triageIdentifier; // @synthesize triageIdentifier=_triageIdentifier;
 @property(readonly, getter=isZeroKeywordSearch) _Bool zeroKeywordSearch;
 
 @end

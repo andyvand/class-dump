@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
-
 @interface ICFilterTypeSelection
 {
     long long _filterType;
-    NSManagedObjectID *_accountObjectID;
 }
 
 + (id);
@@ -20,22 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)4˟;
+- (id)i;
 - (long long);
 - (_Bool);
 - (void)x;
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObjectID *accountObjectID; // @synthesize accountObjectID=_accountObjectID;
-@property(readonly, nonatomic) NSString *emptySummary;
-@property(readonly, nonatomic) NSString *emptySummaryTitle;
-@property(readonly, nonatomic) NSString *filterName;
 @property(readonly, nonatomic) long long filterType; // @synthesize filterType=_filterType;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) NSString *rawFilterValue;
-@property(readonly, nonatomic) NSString *shortEmptySummary;
 
 @end
 

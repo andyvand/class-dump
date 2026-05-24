@@ -4,40 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDFeaturesDataSource, HMDHomeMediaSystemControllerMessageHandlerDelegate, OS_dispatch_queue;
+@protocol HMDFeaturesDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeMediaSystemControllerMessageHandler
 {
     id <HMDFeaturesDataSource> _featuresDataSource;
-    HMDHome *_home;
-    id <HMDHomeMediaSystemControllerMessageHandlerDelegate> _delegate;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id)¿©ÿ¡háB;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)brary/PrivateFrameworks/SearchFoundation.framework/Versions/A/SearchFoundation;
+- (void)navigationListener:(id)arg1 didResumeNavigatingFromWaypoint:endOfLegIndex: /* Error: Ran out of types for this method. */;
+- (void)mutableObjectContentDidUpdate:(id)arg1;
+- (void)minimalStrategyIdentifiers;
+- (void)String",R,N,V_failedDirectionsSettingsPath;
+- (id)_originalHandle;
+- (id)eturning cached SMS capability type for %@;
+- (id)no requested handles;
+- (id)nt (packet:%@, destinations %@) /* Error: Ran out of types for this method. */;
+- (void)ty"8;
+- (void)[MSPSharedTripService removeSendingObserver:(id)arg1 ];
+- (void)-[MSPSharedTripService addReceivingObserver:(id)arg1 ];
 - (id);
 - (id);
 - (void);
@@ -58,7 +53,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)merForAccessory:delay: /* Error: Ran out of types for this method. */;
+- (id)_updatePairingRetryTimerForAccessory:delay: /* Error: Ran out of types for this method. */;
 - (id)N,V_parameters;
 - (id)ccessory identifier:%@ /* Error: Ran out of types for this method. */;
 - (void)[HMDAccessoryFirmwareUpdateSession assetAvailablityUpdateForAccessory:assetID:]_block_invoke /* Error: Ran out of types for this method. */;
@@ -68,23 +63,7 @@ __attribute__((visibility("hidden")))
 - (id)±A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDHomeMediaSystemControllerMessageHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

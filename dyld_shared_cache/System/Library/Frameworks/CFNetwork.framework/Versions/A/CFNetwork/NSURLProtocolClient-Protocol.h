@@ -5,5 +5,7 @@
 //
 
 @protocol NSURLProtocolClient
+- (void)!;
+- (void);
 @end
 

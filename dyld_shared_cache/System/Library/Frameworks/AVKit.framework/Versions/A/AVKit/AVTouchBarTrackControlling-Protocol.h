@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetTrack, AVWaveform;
+@class AVAssetTrack;
 
 @protocol AVTouchBarTrackControlling
-- (AVAssetTrack *)e;
+- (_Bool)elapsed, not updating alpha;
+- (void)`;
+- (AVAssetTrack *)volumeDelegate;
 
 // Remaining properties
-@property(readonly) AVWaveform *audioWaveform;
-@property(readonly) AVAssetTrack *currentAudioTrack;
 @property(readonly) _Bool hasEnabledAudio;
-@property(readonly) _Bool hasEnabledVideo;
 @end
 

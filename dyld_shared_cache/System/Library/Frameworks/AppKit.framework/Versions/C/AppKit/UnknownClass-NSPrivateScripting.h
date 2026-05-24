@@ -5,7 +5,17 @@
 //
 
 @interface UnknownClass (NSPrivateScripting)
-+ (id);
++ (id)=9;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -13,22 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)ioButtonWithTitle:target:action: /* Error: Ran out of types for this method. */;
-- (double)ColorListNamed:forDeviceType: /* Error: Ran out of types for this method. */;
+- (id)radioButtonWithTitle:target:action: /* Error: Ran out of types for this method. */;
+- (double)_findColorListNamed:forDeviceType: /* Error: Ran out of types for this method. */;
 - (id)-;
 - (void);
 - (void);
-- (void)ar;
+- (void)sidecar;
 - (void)0C;
 - (id)»ÿéEC;
 @end

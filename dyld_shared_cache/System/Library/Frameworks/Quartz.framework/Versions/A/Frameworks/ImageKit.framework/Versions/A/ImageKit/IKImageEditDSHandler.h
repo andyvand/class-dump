@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, IKImageEditPanel, NSMutableArray;
-
 @interface IKImageEditDSHandler
 {
     id _dataSource;
-    _Bool _dataSourceIsIKImageView;
-    IKImageEditPanel *_panel;
-    struct CGImage *_dataSourceImage;
-    CIImage *_ciImage;
-    NSMutableArray *_filterArray;
 }
 
 - (void);
@@ -22,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (void);
@@ -35,12 +28,10 @@
 - (id);
 - (void);
 - (void);
-- (void)KScannerDeviceView_Advanced_PaperSizeB3ISOB3;
+- (void)kIKScannerDeviceView_Advanced_PaperSizeB3ISOB3;
 
 // Remaining properties
 @property(nonatomic) id dataSource; // @synthesize dataSource=_dataSource;
-@property _Bool dataSourceIsIKImageView; // @synthesize dataSourceIsIKImageView=_dataSourceIsIKImageView;
-@property(readonly) NSMutableArray *filterArray; // @synthesize filterArray=_filterArray;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSNumber;
+@class NSDateInterval;
 
 @interface RTStoredPredictedContextFetchOptions
 {
     NSDateInterval *_dateInterval;
-    unsigned long long _filterContextTypeMask;
-    NSArray *_resultSortDescriptors;
-    NSNumber *_limit;
 }
 
 + (_Bool);
@@ -20,8 +17,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)%ld bytes (%hhd/%hhd — %s [C%llu]);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) unsigned long long filterContextTypeMask; // @synthesize filterContextTypeMask=_filterContextTypeMask;
-@property(readonly, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) NSArray *resultSortDescriptors; // @synthesize resultSortDescriptors=_resultSortDescriptors;
 
 @end
 

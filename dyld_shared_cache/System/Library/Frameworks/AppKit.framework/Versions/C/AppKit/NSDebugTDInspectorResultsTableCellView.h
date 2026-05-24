@@ -6,42 +6,33 @@
 
 #import <AppKit/NSTableCellView.h>
 
-@class NSScrollView, NSTextField, NSTextView, _NSDebugTDLineView;
+@class _NSDebugTDLineView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDInspectorResultsTableCellView : NSTableCellView
 {
     _NSDebugTDLineView *_line;
-    NSScrollView *_scrollView;
-    _Bool _showAttributedString;
-    _Bool _isHeading;
-    NSTextField *_secondaryLabel;
-    NSTextView *_largeTextView;
-    double _rowHeight;
 }
 
-+ (double);
++ (double)kCFURLDownloadResumeBytesReceived;
 - (_Bool);
 - (void);
+- (void)a
+;
 - (void);
 - (void);
+- (id)temporaryDestinationURL;
+- (_Bool)setHttpOnly: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (double);
-- (id)SpellDocumentWithTag:(struct CGRect)arg1;
+- (double)`;
+- (id)completionDictionariesForPartialWordRange:(struct CGRect)arg1 inString:language:inSpellDocumentWithTag: /* Error: Ran out of types for this method. */;
 - (id)hÆ;
 - (void)ew][_createTabButton(buttonWidth)]|;
 - (void)èÿ Zd;
 - (void)(g_;
 
 // Remaining properties
-@property(nonatomic) _Bool isHeading; // @synthesize isHeading=_isHeading;
-@property(retain, nonatomic) NSTextView *largeTextView; // @synthesize largeTextView=_largeTextView;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(retain, nonatomic) NSTextField *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;
 @property(nonatomic) _Bool showAttributedString; // @synthesize showAttributedString=_showAttributedString;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface CATActiveIDSServiceConnectionContentClose
@@ -18,12 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id)allowlistedClassForResultObject;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end

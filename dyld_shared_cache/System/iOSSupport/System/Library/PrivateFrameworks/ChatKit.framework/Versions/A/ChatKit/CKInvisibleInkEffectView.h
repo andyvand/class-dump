@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKInvisibleInkEffectCoverageTracker, NSString, UIImage;
-@protocol CKInvisibleInkEffectViewDelegate;
+@class CKInvisibleInkEffectCoverageTracker;
 
 @interface CKInvisibleInkEffectView
 {
     _Bool _suspended;
-    _Bool _paused;
-    id <CKInvisibleInkEffectViewDelegate> _delegate;
-    UIImage *_image;
-    CKInvisibleInkEffectCoverageTracker *_coverageTracker;
 }
 
 + (void)hGÿõ4Ì£0;
 + (double)4Qÿ³<4ìE3;
+- (void)ICMPasswordEntrySheetViewController;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)o;
+- (void)/;
 - (id);
 - (void);
 - (void);
@@ -32,7 +27,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)fetchMultiConfigurationWithSettings:(_Bool)arg1 completionQueue:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)aý°!Cù1Ð1Â0@ù
@@ -42,17 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKInvisibleInkEffectCoverageTracker *coverageTracker; // @synthesize coverageTracker=_coverageTracker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKInvisibleInkEffectViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

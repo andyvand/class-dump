@@ -8,11 +8,10 @@
 @protocol MTLDevice;
 
 @protocol MTLCounterSampleBuffer
+- (NSString *)J;
 - (unsigned long long)fer:indirectBufferOffset:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long sampleCount;
 @end
 

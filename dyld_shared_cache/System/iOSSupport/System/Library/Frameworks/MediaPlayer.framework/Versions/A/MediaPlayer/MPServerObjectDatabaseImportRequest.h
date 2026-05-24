@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSDate;
+@class NSDate;
 
 @interface MPServerObjectDatabaseImportRequest
 {
     id _payload;
-    ICUserIdentity *_userIdentity;
-    NSDate *_expirationDate;
-    NSDate *_assetURLExpirationDate;
 }
 
 - (id);
+- (void)ry:(id)arg1 %tu, spam:%@, sendersUnknown:%@, responded:%@, activeTelephonyConversationUUID:%@, isChatBot:%@> /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
+- (id)ntoggledImage;
 - (id);
-- (id);
-- (void)ING__;
-- (id)k__MAPPING_MISSING__;
+- (void)__MPModelRelationshipSongLocalFileAsset__MAPPING_MISSING__;
+- (id)__MPModelPropertyRadioStationProviderUniversalLink__MAPPING_MISSING__;
 - (void)was missing mapping for MPModelPropertyMovieDuration;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *assetURLExpirationDate; // @synthesize assetURLExpirationDate=_assetURLExpirationDate;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) id payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

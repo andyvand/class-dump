@@ -6,12 +6,11 @@
 
 #import <HomeKitBackingStore/HMBModelUnindexedQuery.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface HMBModelIndexedQuery : HMBModelUnindexedQuery
 {
     NSString *_indexNameSuffix;
-    NSArray *_indexedColumns;
 }
 
 + (id);
@@ -23,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *indexName;
 @property(readonly, nonatomic) NSString *indexNameSuffix; // @synthesize indexNameSuffix=_indexNameSuffix;
-@property(readonly, copy, nonatomic) NSArray *indexedColumns; // @synthesize indexedColumns=_indexedColumns;
 
 @end
 

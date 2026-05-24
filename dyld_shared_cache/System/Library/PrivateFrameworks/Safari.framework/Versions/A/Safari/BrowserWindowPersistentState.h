@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabPersistentState, NSArray, NSData, NSDate, NSDictionary, NSSet, NSString, NSUUID, WBWindowState;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface BrowserWindowPersistentState
 {
     NSDictionary *_modifiedDictionaryRepresentationForWBWindowState;
-    _Bool _privateWindow;
-    _Bool _minimized;
-    _Bool _popupWindow;
-    _Bool _tabBarHidden;
-    _Bool _favoritesBarHidden;
-    _Bool _prefersSidebarVisible;
-    NSDate *_dateClosed;
-    NSString *_profileIdentifier;
-    WBWindowState *_windowState;
-    NSUUID *_windowUUID;
-    NSArray *_tabStates;
-    NSString *_activeTabGroupUUID;
-    unsigned long long _selectedUnpinnedTabIndex;
-    unsigned long long _selectedPinnedTabIndex;
-    NSDictionary *_tabGroupsToActiveTabs;
-    NSSet *_unnamedTabGroupUUIDs;
-    long long _unifiedSidebarMode;
-    NSString *_customUnifiedFieldText;
-    NSData *_windowRestorationArchiveData;
-    struct CGRect _windowContentRect;
 }
 
 - (id);
@@ -44,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
@@ -71,10 +51,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (_Bool)fileWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)rSession:Command:%@ finishing with error %@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ntral manager is powered on;
+- (_Bool)setCachedPrivacyReportDataOnStartPage:forProfileWithIdentifier: /* Error: Ran out of types for this method. */;
 - (long long)f5SgGGAEyÓg5GG;
 - (_Bool)%{public}@;
 - (id)CA0201216193604Z301210000000Z0u1D0BU;Apple Worldwide Developer Relations Certification Authority10	UG410U
@@ -89,43 +69,7 @@ Apple Inc.10	UUS0"0	*H÷;
 - (unsigned long long)Tÿ¬Ä0;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *activeTabGroupUUID; // @synthesize activeTabGroupUUID=_activeTabGroupUUID;
-@property(readonly, nonatomic) long long closedItemType;
-@property(readonly, copy, nonatomic) NSArray *closedTabs;
-@property(readonly, nonatomic) _Bool containsAnyURLs;
-@property(readonly, copy, nonatomic) NSString *customUnifiedFieldText; // @synthesize customUnifiedFieldText=_customUnifiedFieldText;
-@property(readonly, nonatomic) NSDate *dateClosed; // @synthesize dateClosed=_dateClosed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *extraAttributes;
-@property(readonly, nonatomic, getter=isFavoritesBarHidden) _Bool favoritesBarHidden; // @synthesize favoritesBarHidden=_favoritesBarHidden;
-@property(readonly, nonatomic) _Bool hasTabsToRestore;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMinimized) _Bool minimized; // @synthesize minimized=_minimized;
-@property(readonly, nonatomic) unsigned long long numberOfNonDisposableTabs;
-@property(readonly, nonatomic) unsigned long long numberOfTabs;
-@property(readonly, nonatomic, getter=isPopupWindow) _Bool popupWindow; // @synthesize popupWindow=_popupWindow;
-@property(readonly, nonatomic) _Bool prefersSidebarVisible; // @synthesize prefersSidebarVisible=_prefersSidebarVisible;
 @property(readonly, nonatomic, getter=isPrivateWindow) _Bool privateWindow; // @synthesize privateWindow=_privateWindow;
-@property(readonly, copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly, nonatomic) unsigned long long selectedPinnedTabIndex; // @synthesize selectedPinnedTabIndex=_selectedPinnedTabIndex;
-@property(readonly, nonatomic) BrowserTabPersistentState *selectedTab;
-@property(readonly, nonatomic) unsigned long long selectedUnpinnedTabIndex; // @synthesize selectedUnpinnedTabIndex=_selectedUnpinnedTabIndex;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isTabBarHidden) _Bool tabBarHidden; // @synthesize tabBarHidden=_tabBarHidden;
-@property(readonly, copy, nonatomic) NSDictionary *tabGroupsToActiveTabs; // @synthesize tabGroupsToActiveTabs=_tabGroupsToActiveTabs;
-@property(readonly, copy, nonatomic) NSArray *tabStates; // @synthesize tabStates=_tabStates;
-@property(readonly, copy, nonatomic) NSArray *tabStatesToRestore;
-@property(readonly, copy, nonatomic) NSArray *tabUUIDs;
-@property(readonly, nonatomic) long long unifiedSidebarMode; // @synthesize unifiedSidebarMode=_unifiedSidebarMode;
-@property(readonly, copy, nonatomic) NSSet *unnamedTabGroupUUIDs; // @synthesize unnamedTabGroupUUIDs=_unnamedTabGroupUUIDs;
-@property(readonly, nonatomic) struct CGRect windowContentRect; // @synthesize windowContentRect=_windowContentRect;
-@property(readonly, copy, nonatomic) NSData *windowRestorationArchiveData; // @synthesize windowRestorationArchiveData=_windowRestorationArchiveData;
-@property(readonly, nonatomic) WBWindowState *windowState; // @synthesize windowState=_windowState;
-@property(readonly, nonatomic) NSUUID *windowUUID; // @synthesize windowUUID=_windowUUID;
 
 @end
 

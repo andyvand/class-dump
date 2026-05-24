@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDWiFiNWActivityHistogramBin
 {
     unsigned long long _hits;
-    NSString *_bin;
-    struct {
-        unsigned int hits:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -30,14 +24,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bin; // @synthesize bin=_bin;
 @property(readonly, nonatomic) _Bool hasBin;
-@property(nonatomic) _Bool hasHits;
-@property(nonatomic) unsigned long long hits; // @synthesize hits=_hits;
 
 @end
 

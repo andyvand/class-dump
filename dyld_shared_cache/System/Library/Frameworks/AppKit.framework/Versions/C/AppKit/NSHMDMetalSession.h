@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSColorSpace, NSHMDDevice, NSHMDIOSurfaceSession, NSMapTable;
-@protocol MTLDevice;
+@class NSHMDDevice, NSHMDIOSurfaceSession;
 
 @interface NSHMDMetalSession
 {
     NSHMDIOSurfaceSession *_session;
-    struct _opaque_pthread_mutex_t _textureMutex;
-    NSCache *_strongTextures;
-    NSMapTable *_weakTextures;
-    unsigned long long _textureUsage;
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)!;
+- (void)message;
+- (void)delegate class %llu received a NULL message;
+- (void)received unknown message:(id)arg1 %s;
 - (struct CGSize);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (struct CGSize);
+- (unsigned long long)_sqlDeleteStmtResponse;
+- (unsigned long long)_sqlDeleteStmtReceiverData;
+- (id)_sourceApplicationSecondaryIdentifier;
+- (id)_myReadToHisWriteEOF;
+- (struct CGSize);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -43,17 +38,6 @@
 
 // Remaining properties
 @property(readonly) NSHMDDevice *device;
-@property(retain) NSColorSpace *drawableColorSpace;
-@property unsigned long long drawablePixelFormat;
-@property struct CGSize drawableSize;
-@property unsigned long long drawableTextureUsage;
-@property(readonly) struct CGSize maxDrawableSize;
-@property(readonly) id <MTLDevice> metalDevice;
-@property(readonly) struct CGSize minDrawableSize;
-@property(readonly) unsigned long long preferredDrawablePixelFormat;
-@property(readonly) struct CGSize preferredDrawableSize;
-@property(readonly, copy) NSArray *supportedDrawablePixelFormats;
-@property(readonly, getter=isValid) _Bool valid;
 
 @end
 

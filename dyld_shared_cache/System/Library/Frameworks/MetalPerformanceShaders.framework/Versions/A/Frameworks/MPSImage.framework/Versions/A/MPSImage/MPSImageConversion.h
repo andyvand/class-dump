@@ -11,23 +11,10 @@
 @interface MPSImageConversion : MPSUnaryImageKernel
 {
     MPSImageTransformSequence *transform;
-    id srcDecode[2];
-    id destDecode[2];
-    struct ConversionInfo_s convertInfo;
-    struct ConversionInfoPtrs_s convertInfoPtrs;
-    CDUnknownFunctionPointerType matFun;
-    CDUnknownFunctionPointerType trcFun;
-    CDUnknownFunctionPointerType lutFun;
-    CDUnknownFunctionPointerType optionsFun;
-    CDUnknownFunctionPointerType inputRangeFun;
-    CDUnknownFunctionPointerType outputRangeFun;
-    CDUnknownFunctionPointerType propertiesFun;
-    unsigned long long sourceAlpha;
-    unsigned long long destinationAlpha;
 }
 
 + (const struct MPSLibraryInfo *);
-- (unsigned long long);
+- (unsigned long long)/;
 - (id);
 - (id);
 - (void);
@@ -35,12 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)pdatingDonationProgress:(id)arg1 protectionClass:forBundleID:options:reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ÆYBÒ?Ãëx1 Å?HJèk¨?;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long destinationAlpha; // @synthesize destinationAlpha;
 @property(readonly, nonatomic) unsigned long long sourceAlpha; // @synthesize sourceAlpha;
 
 @end

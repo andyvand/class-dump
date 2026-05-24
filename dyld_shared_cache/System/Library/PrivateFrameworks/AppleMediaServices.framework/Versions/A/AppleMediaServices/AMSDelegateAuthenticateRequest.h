@@ -9,7 +9,6 @@
 @interface AMSDelegateAuthenticateRequest
 {
     NSString *_challenge;
-    NSString *_userAgent;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *challenge; // @synthesize challenge=_challenge;
-@property(readonly, copy) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

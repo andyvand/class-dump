@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSConversation, NSString, UIViewController;
-@protocol _MSMessageComposeExtensionImplProtocol, _MSMessageComposeHostImplProtocol;
+@class MSConversation;
 
 @interface _MSMessageAppExtensionContext
 {
     _Bool _becomeActiveShouldDispatchAsyncMainQueue;
-    id <_MSMessageComposeHostImplProtocol> _hostContext;
-    unsigned long long _presentationStyle;
-    unsigned long long _presentationContext;
-    id <_MSMessageComposeExtensionImplProtocol> _containingContext;
-    MSConversation *_activeConversation;
-    struct __CFRunLoopObserver *_principalObjectCreationObserver;
-    struct CGRect _initialFrameOfHostView;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -59,21 +51,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,20 +85,20 @@
 - (void);
 - (void);
 - (void);
+- (void)@"NSString"24@0:8q16 /* Error: Ran out of types for this method. */;
+- (void)onboardingPrewarmer;
+- (void)isPruningDisabled;
+- (void)articleThumbnailViewRenderer;
+- (void)lassification",R,N;
 - (void);
 - (void);
+- (void)N;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Query;
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)PXImportControllerTotalItemCount;
 - (id);
 - (unsigned int);
 - (void);
@@ -118,29 +110,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)deleteIS9_EEEEEEERNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0FvRNS2_10CTCDecoderEEEE;
 - (unsigned long long);
 - (void);
-- (id)illDismiss:(id)arg1;
+- (id)presentationControllerWillDismiss:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) MSConversation *activeConversation; // @synthesize activeConversation=_activeConversation;
-@property(nonatomic) _Bool becomeActiveShouldDispatchAsyncMainQueue; // @synthesize becomeActiveShouldDispatchAsyncMainQueue=_becomeActiveShouldDispatchAsyncMainQueue;
-@property(retain, nonatomic) id <_MSMessageComposeExtensionImplProtocol> containingContext; // @synthesize containingContext=_containingContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <_MSMessageComposeHostImplProtocol> hostContext; // @synthesize hostContext=_hostContext;
-@property(readonly, nonatomic) struct CGRect initialFrameOfHostView; // @synthesize initialFrameOfHostView=_initialFrameOfHostView;
-@property(nonatomic) unsigned long long presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(nonatomic) unsigned long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(readonly, nonatomic) struct __CFRunLoopObserver *principalObjectCreationObserver; // @synthesize principalObjectCreationObserver=_principalObjectCreationObserver;
-@property(readonly, nonatomic) __weak UIViewController *stickerViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIViewController *viewController;
 
 @end
 

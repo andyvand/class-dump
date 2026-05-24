@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (const void *);
-+ (id);
++ (id);
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CMIOExtensionHostProtocol
+- (void)$;
 @end
 

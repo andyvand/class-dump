@@ -12,7 +12,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)setCode:(id)arg1;
 - (BOOL);
 
 // Remaining properties

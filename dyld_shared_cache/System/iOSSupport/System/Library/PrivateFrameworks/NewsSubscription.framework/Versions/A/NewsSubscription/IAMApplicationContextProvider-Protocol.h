@@ -11,9 +11,5 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R
 
-@property(nonatomic) double lastMessageDisplayTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
 @end
 

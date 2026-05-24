@@ -9,27 +9,20 @@
 @interface TeaUI.DockContainerViewController
 {
     id _rootViewController;
-    id lazyDockableViewController;
-    id commandCenter;
-    id presentationMode;
-    id dockView;
-    id $__lazy_storage_$_dockHeightConstraint;
-    id $__lazy_storage_$_dockedView;
-    id $__lazy_storage_$_expandedViewController;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)9?;
+- (void);
+- (_Bool)>;
+- (id);
+- (id)le to open ldapi node:(id)arg1 %@ (%d);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)e;
 - (void);
 - (id);
 - (void)IÔÐè¸HJ;
@@ -37,9 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFirstResponder;
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
-@property(nonatomic, readonly) _Bool shouldAutorotate;
 
 @end
 

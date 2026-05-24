@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PLXPCListenerOperatorComposition, RBSProcessMonitor;
-
 @interface PLApplicationAgent
 {
     _Bool _powerlogInit;
-    void *_lsAppNotifications;
-    NSMutableDictionary *_bundleIDToVersionMap;
-    RBSProcessMonitor *_appStateMonitor;
-    PLXPCListenerOperatorComposition *_widgetStatsMacListener;
-    PLXPCListenerOperatorComposition *_widgetStatsListener;
-    PLXPCListenerOperatorComposition *_widgetUpdatesMacListener;
-    PLXPCListenerOperatorComposition *_suggestedWidgetReloadMacListener;
-    PLXPCListenerOperatorComposition *_liveActivityStatsListener;
-    PLXPCListenerOperatorComposition *_liveActivityUpdatesListener;
 }
 
 + (_Bool);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)";
 + (id);
 + (id);
 + (id);
@@ -43,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,7 +56,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (id);
 - (_Bool);
@@ -81,16 +70,7 @@
 - (void)rs(230):Cannot add 2 elements to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) RBSProcessMonitor *appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
-@property(retain) NSMutableDictionary *bundleIDToVersionMap; // @synthesize bundleIDToVersionMap=_bundleIDToVersionMap;
-@property(retain) PLXPCListenerOperatorComposition *liveActivityStatsListener; // @synthesize liveActivityStatsListener=_liveActivityStatsListener;
-@property(retain) PLXPCListenerOperatorComposition *liveActivityUpdatesListener; // @synthesize liveActivityUpdatesListener=_liveActivityUpdatesListener;
 @property void *lsAppNotifications; // @synthesize lsAppNotifications=_lsAppNotifications;
-@property _Bool powerlogInit; // @synthesize powerlogInit=_powerlogInit;
-@property(retain) PLXPCListenerOperatorComposition *suggestedWidgetReloadMacListener; // @synthesize suggestedWidgetReloadMacListener=_suggestedWidgetReloadMacListener;
-@property(retain) PLXPCListenerOperatorComposition *widgetStatsListener; // @synthesize widgetStatsListener=_widgetStatsListener;
-@property(retain) PLXPCListenerOperatorComposition *widgetStatsMacListener; // @synthesize widgetStatsMacListener=_widgetStatsMacListener;
-@property(retain) PLXPCListenerOperatorComposition *widgetUpdatesMacListener; // @synthesize widgetUpdatesMacListener=_widgetUpdatesMacListener;
 
 @end
 

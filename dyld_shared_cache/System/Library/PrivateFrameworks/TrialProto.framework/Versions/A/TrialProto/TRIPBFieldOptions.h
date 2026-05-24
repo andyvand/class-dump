@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray;
-
 @interface TRIPBFieldOptions : TRIPBMessage
 {
 }
@@ -16,19 +14,6 @@
 
 // Remaining properties
 @property(nonatomic) int ctype; // @dynamic ctype;
-@property(nonatomic) _Bool deprecated; // @dynamic deprecated;
-@property(nonatomic) _Bool hasCtype; // @dynamic hasCtype;
-@property(nonatomic) _Bool hasDeprecated; // @dynamic hasDeprecated;
-@property(nonatomic) _Bool hasJstype; // @dynamic hasJstype;
-@property(nonatomic) _Bool hasLazy; // @dynamic hasLazy;
-@property(nonatomic) _Bool hasPacked; // @dynamic hasPacked;
-@property(nonatomic) _Bool hasWeak; // @dynamic hasWeak;
-@property(nonatomic) int jstype; // @dynamic jstype;
-@property(nonatomic) _Bool lazy; // @dynamic lazy;
-@property(nonatomic) _Bool packed; // @dynamic packed;
-@property(retain, nonatomic) NSMutableArray *uninterpretedOptionArray; // @dynamic uninterpretedOptionArray;
-@property(readonly, nonatomic) unsigned long long uninterpretedOptionArray_Count; // @dynamic uninterpretedOptionArray_Count;
-@property(nonatomic) _Bool weak; // @dynamic weak;
 
 @end
 

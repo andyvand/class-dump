@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCountersManager, HMMDateProvider, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdActivityLogEventContributor : HMDLogEventAnalyzer
 {
     NSString *_householdGroupName;
-    HMDEventCountersManager *_countersManager;
-    HMMDateProvider *_dateProvider;
 }
 
 + (id)B;
@@ -22,21 +20,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)Tv;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)delegateWantsCredentialsForAuthenticationTypes: /* Error: Ran out of types for this method. */;
+- (void)ildRoots/4~CNrdugCizy9_6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/common/DNSResolver.m;
 - (void);
 - (void);
+- (void)HMDDevice;
 - (void)nfiguration.;
-- (void)eriod;
+- (void)HMDPreferenceSessionCheckPeriod;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
-@property(readonly, nonatomic) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
 @property(readonly, nonatomic) NSString *householdGroupName; // @synthesize householdGroupName=_householdGroupName;
 
 @end

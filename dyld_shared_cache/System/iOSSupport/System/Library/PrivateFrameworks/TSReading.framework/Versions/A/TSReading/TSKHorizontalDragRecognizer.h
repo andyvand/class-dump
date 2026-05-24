@@ -9,16 +9,15 @@
 @interface TSKHorizontalDragRecognizer
 {
     struct CGPoint mStartPoint;
-    UIScrollView *mContainingScrollView;
 }
 
-- (void);
+- (void)T PROCESSED    〔;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void)IsBeingReplaced;
+- (void)ܧ;
+- (void)prototypeIsBeingReplaced;
 
 // Remaining properties
 @property(nonatomic) UIScrollView *containingScrollView; // @synthesize containingScrollView=mContainingScrollView;

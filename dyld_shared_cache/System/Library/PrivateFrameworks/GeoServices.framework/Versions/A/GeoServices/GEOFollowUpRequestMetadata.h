@@ -7,19 +7,16 @@
 @interface GEOFollowUpRequestMetadata
 {
     int _requestType;
-    int _dataType;
 }
 
 - (_Bool);
 - (id);
-- (int);
-- (int);
+- (int)CGRectEqualToRect;
+- (int)ia;
 - (int)ø^;
 - (int)ÆM8;
 
 // Remaining properties
-@property(readonly, nonatomic) int dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) _Bool isSearchRequestForNearbyPlaces;
 @property(readonly, nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end

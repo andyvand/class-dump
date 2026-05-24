@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, TLAlertStoppingOptions;
+@class NSMapTable;
 
 @interface TLAlertSystemSoundStopTasksDescriptor
 {
     NSMapTable *_interruptedAlertsToSound;
-    NSArray *_playbackCompletionContextsToProcess;
-    TLAlertStoppingOptions *_options;
-    long long _playbackCompletionType;
 }
 
 - (void);
@@ -20,15 +17,12 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)setPendingServerSetupCompleteBlocks:(id)arg1;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *interruptedAlertsToSound; // @synthesize interruptedAlertsToSound=_interruptedAlertsToSound;
-@property(copy, nonatomic) TLAlertStoppingOptions *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSArray *playbackCompletionContextsToProcess; // @synthesize playbackCompletionContextsToProcess=_playbackCompletionContextsToProcess;
-@property(nonatomic) long long playbackCompletionType; // @synthesize playbackCompletionType=_playbackCompletionType;
 
 @end
 

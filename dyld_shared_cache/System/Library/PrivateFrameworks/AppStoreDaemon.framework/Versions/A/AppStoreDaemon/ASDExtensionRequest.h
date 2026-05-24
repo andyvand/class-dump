@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSObject, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface ASDExtensionRequest
 {
     NSObject<OS_dispatch_queue> *_runQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    double _serviceTime;
-    NSObject<OS_dispatch_source> *_serviceTimer;
-    double _graceTime;
-    NSObject<OS_dispatch_source> *_graceTimer;
-    NSUUID *_requestUUID;
-    id _remoteContextInterface;
-    _Bool _errorBlockCalled;
-    CDUnknownBlockType _errorBlock;
-    NSExtension *_extension;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (CDStruct_a70f6672);
 - (void);
-- (void);
+- (void)!;
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)_;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType errorBlock; // @synthesize errorBlock=_errorBlock;
-@property(readonly, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
 
 @end
 

@@ -4,56 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface AKAnnotation
 {
     CDUnknownBlockType _appearanceOverride;
-    _Bool _shouldUseAppearanceOverride;
-    _Bool _isObservingForAppearance;
-    struct CGPDFDocument *_appearanceOverridePDF;
-    _Bool _isObservingForIsEdited;
-    _Bool _isReallyObservingForIsEdited;
-    _Bool _conformsToAKStrokedAnnotationProtocol;
-    _Bool _conformsToAKFilledAnnotationProtocol;
-    _Bool _conformsToAKRectangularAnnotationProtocol;
-    _Bool _conformsToAKFlippableAnnotationProtocol;
-    _Bool _conformsToAKRotatableAnnotationProtocol;
-    _Bool _conformsToAKTextAnnotationProtocol;
-    _Bool _conformsToAKParentAnnotationProtocol;
-    _Bool _editsDisableAppearanceOverride;
-    _Bool _isEdited;
-    _Bool _isTranslating;
-    _Bool _isDraggingHandle;
-    _Bool _isFormField;
-    _Bool _isEditingText;
-    _Bool _textIsClipped;
-    _Bool _editingDisabled;
-    _Bool _isDetectedSignature;
-    _Bool _isBeingCopied;
-    _Bool _textIsFixedWidth;
-    _Bool _textIsFixedHeight;
-    _Bool _shouldUsePlaceholderText;
-    NSString *_UUID;
-    NSString *_customPlaceholderText;
-    double _originalModelBaseScaleFactor;
-    long long _originalExifOrientation;
-    NSDate *_modificationDate;
-    NSString *_author;
-    long long _akSerializationVersion;
-    long long _akSerializationPlatform;
-    AKAnnotation *_parentAnnotation;
-    AKAnnotation *_childAnnotation;
-    unsigned long long _formContentType;
-    NSString *_textContentType;
-    struct CGRect _initialDrawingBoundsForAppearanceOverride;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)HMHomeWalletKeyDeviceStateExpressEnablementConflictingPassDescription;
 + (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -101,82 +61,48 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
 - (double);
-- (id);
+- (id)'| '{' kParameterToken '}'';
+- (void)changedTimestamp;
+- (void)delegate;
+- (void)displayOrderProfileDelegateAdaptor;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (double)-[_HMCameraStreamControl startStreamWithPreferences:] /* Error: Ran out of types for this method. */;
+- (id)BulletinBoardNotification;
+- (_Bool)HMSettingLanguageValueOutputVoiceGenderCodePayloadKey;
+- (_Bool)HMSettingLanguageValueOutputVoiceLanaguageCodePayloadKey;
+- (_Bool)HMSettingLanguageValueInputLanaguageCodePayloadKey;
+- (id)81-0000-1000-8000-0026BB765291;
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (long long);
+- (void)setRendersContinuously:(id)arg1;
+- (long long)hideSpriteKitOverlaysToggled: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)L!;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool)tems: /* Error: Ran out of types for this method. */;
-- (void)poverColorWellDidActivate:(id)arg1;
-- (id)ionsWithPath:to: /* Error: Ran out of types for this method. */;
+- (_Bool)sidecarRequest:receivedItems: /* Error: Ran out of types for this method. */;
+- (void)popoverColorWellDidActivate:(id)arg1;
+- (id)addIntersectionsWithPath:to: /* Error: Ran out of types for this method. */;
 - (id)ÿðÉ_;
 
 // Remaining properties
-@property(readonly) NSString *UUID; // @synthesize UUID=_UUID;
-@property long long akSerializationPlatform; // @synthesize akSerializationPlatform=_akSerializationPlatform;
-@property long long akSerializationVersion; // @synthesize akSerializationVersion=_akSerializationVersion;
-@property(copy) CDUnknownBlockType appearanceOverride;
-@property(copy) NSString *author; // @synthesize author=_author;
-@property __weak AKAnnotation *childAnnotation; // @synthesize childAnnotation=_childAnnotation;
-@property(copy) NSString *customPlaceholderText; // @synthesize customPlaceholderText=_customPlaceholderText;
-@property(readonly) NSString *displayName;
-@property(readonly) struct CGRect drawingBounds;
-@property _Bool editingDisabled; // @synthesize editingDisabled=_editingDisabled;
-@property _Bool editsDisableAppearanceOverride; // @synthesize editsDisableAppearanceOverride=_editsDisableAppearanceOverride;
-@property unsigned long long formContentType; // @synthesize formContentType=_formContentType;
-@property(readonly) struct CGRect hitTestBounds;
-@property struct CGRect initialDrawingBoundsForAppearanceOverride; // @synthesize initialDrawingBoundsForAppearanceOverride=_initialDrawingBoundsForAppearanceOverride;
-@property(readonly) struct CGRect integralDrawingBounds;
-@property _Bool isBeingCopied; // @synthesize isBeingCopied=_isBeingCopied;
-@property _Bool isDetectedSignature; // @synthesize isDetectedSignature=_isDetectedSignature;
-@property _Bool isDraggingHandle; // @synthesize isDraggingHandle=_isDraggingHandle;
 @property _Bool isEdited; // @synthesize isEdited=_isEdited;
-@property _Bool isEditingText; // @synthesize isEditingText=_isEditingText;
-@property _Bool isFormField; // @synthesize isFormField=_isFormField;
-@property _Bool isTranslating; // @synthesize isTranslating=_isTranslating;
-@property(readonly) _Bool isUsingAppearanceOverride;
-@property(retain) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(nonatomic) long long originalExifOrientation; // @synthesize originalExifOrientation=_originalExifOrientation;
-@property(nonatomic) double originalModelBaseScaleFactor; // @synthesize originalModelBaseScaleFactor=_originalModelBaseScaleFactor;
-@property __weak AKAnnotation *parentAnnotation; // @synthesize parentAnnotation=_parentAnnotation;
-@property(readonly) _Bool shouldBurnIn;
-@property _Bool shouldObserveEdits;
-@property _Bool shouldUseAppearanceOverride;
-@property _Bool shouldUsePlaceholderText; // @synthesize shouldUsePlaceholderText=_shouldUsePlaceholderText;
-@property NSString *textContentType; // @synthesize textContentType=_textContentType;
-@property _Bool textIsClipped; // @synthesize textIsClipped=_textIsClipped;
-@property _Bool textIsFixedHeight; // @synthesize textIsFixedHeight=_textIsFixedHeight;
-@property _Bool textIsFixedWidth; // @synthesize textIsFixedWidth=_textIsFixedWidth;
 
 @end
 

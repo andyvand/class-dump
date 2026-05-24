@@ -5,5 +5,6 @@
 //
 
 @protocol CKDetailsSearchControllerDelegate
+- (void);
 @end
 

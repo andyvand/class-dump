@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ICDimensionMaxCache
 {
     NSMutableDictionary *_dimensions;
-    NSMutableArray *_sortedDimensions;
-    CDUnknownBlockType _comparator;
 }
 
 - (id);
 - (void);
 - (void);
-- (double);
+- (double){;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (CDUnknownBlockType)0@ù
 × ;
@@ -27,11 +25,7 @@
 - (void)°\°0]^øh_¼Ø;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSMutableDictionary *dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly, nonatomic) double max;
-@property(readonly, nonatomic) NSMutableArray *sortedDimensions; // @synthesize sortedDimensions=_sortedDimensions;
 
 @end
 

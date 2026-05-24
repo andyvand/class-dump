@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HMIPersonDataSourceDisk
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSURL *_sourceURL;
-    NSUUID *_homeUUID;
-    NSUUID *_sourceUUID;
 }
 
 + (id);
 + (id)%	;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,19 +28,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
-@property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

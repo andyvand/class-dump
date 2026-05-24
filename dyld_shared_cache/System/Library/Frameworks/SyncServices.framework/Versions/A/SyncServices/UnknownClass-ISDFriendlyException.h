@@ -9,6 +9,6 @@
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 @end
 

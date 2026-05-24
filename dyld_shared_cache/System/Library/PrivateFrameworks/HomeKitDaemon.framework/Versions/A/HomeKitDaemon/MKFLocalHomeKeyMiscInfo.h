@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFLocalHomeKeyMiscInfo : HMDManagedObject
@@ -15,12 +15,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)c
+;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *clientWalletKeyUUID; // @dynamic clientWalletKeyUUID;
-@property(copy, nonatomic) NSNumber *dismissedWalletKeyUWBUnlockOnboarding; // @dynamic dismissedWalletKeyUWBUnlockOnboarding;
-@property(copy, nonatomic) NSUUID *homeUUID; // @dynamic homeUUID;
 
 @end
 

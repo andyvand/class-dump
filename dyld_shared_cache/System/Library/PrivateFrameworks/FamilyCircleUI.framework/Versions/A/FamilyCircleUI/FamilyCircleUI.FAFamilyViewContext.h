@@ -7,13 +7,6 @@
 @interface FamilyCircleUI.FAFamilyViewContext
 {
     id familyCircleObservable;
-    id pictureStore;
-    id locationViewModel;
-    id familyEligibilityChecker;
-    id familyCircleStore;
-    id scrollIndexObservable;
-    id cancellables;
-    id _familyViewState;
 }
 
 - (id);

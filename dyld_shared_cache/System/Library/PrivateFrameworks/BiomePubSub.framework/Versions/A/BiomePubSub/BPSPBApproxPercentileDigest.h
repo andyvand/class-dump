@@ -11,26 +11,11 @@
         unsigned long long count;
         unsigned long long size;
     } _centroidMeans;
-    struct {
-        unsigned int *list;
-        unsigned long long count;
-        unsigned long long size;
-    } _centroidWeights;
-    unsigned int _bufferMultiplier;
-    unsigned int _centroidCount;
-    float _max;
-    float _min;
-    struct {
-        unsigned int bufferMultiplier:1;
-        unsigned int centroidCount:1;
-        unsigned int max:1;
-        unsigned int min:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,38 +33,27 @@
 - (void);
 - (void);
 - (unsigned int *);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)=a;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)__objc_protolist__DATA_CONST;
+- (_Bool)AVMobileGlassPlaybackControlsView;
 - (void);
 - (id);
 - (id);
 - (float);
-- (float);
+- (float)t;
 
 // Remaining properties
-@property(nonatomic) unsigned int bufferMultiplier; // @synthesize bufferMultiplier=_bufferMultiplier;
-@property(nonatomic) unsigned int centroidCount; // @synthesize centroidCount=_centroidCount;
-@property(readonly, nonatomic) float *centroidMeans;
-@property(readonly, nonatomic) unsigned long long centroidMeansCount;
-@property(readonly, nonatomic) unsigned int *centroidWeights;
-@property(readonly, nonatomic) unsigned long long centroidWeightsCount;
-@property(nonatomic) _Bool hasBufferMultiplier;
-@property(nonatomic) _Bool hasCentroidCount;
-@property(nonatomic) _Bool hasMax;
 @property(nonatomic) _Bool hasMin;
-@property(nonatomic) float max; // @synthesize max=_max;
-@property(nonatomic) float min; // @synthesize min=_min;
 
 @end
 

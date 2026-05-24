@@ -16,16 +16,16 @@
 + (_Bool)1Â0@ù
 × ;
 + (id);
-- (id);
+- (id)7;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (long long)roxyWithFailureHandler:(id)arg1;
+- (long long)_remoteObjectProxyWithFailureHandler:(id)arg1;
 - (void)ervice.dck.event.vehicle.did.lock;
 
 // Remaining properties

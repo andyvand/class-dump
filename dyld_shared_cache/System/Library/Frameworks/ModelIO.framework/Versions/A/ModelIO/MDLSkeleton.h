@@ -6,13 +6,11 @@
 
 #import <ModelIO/MDLObject.h>
 
-@class MDLMatrix4x4Array, NSArray;
+@class NSArray;
 
 @interface MDLSkeleton : MDLObject
 {
     NSArray *_jointPaths;
-    MDLMatrix4x4Array *_jointBindTransforms;
-    MDLMatrix4x4Array *_jointRestTransforms;
 }
 
 - (id);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MDLMatrix4x4Array *jointBindTransforms; // @synthesize jointBindTransforms=_jointBindTransforms;
 @property(readonly, nonatomic) NSArray *jointPaths; // @synthesize jointPaths=_jointPaths;
-@property(readonly, nonatomic) MDLMatrix4x4Array *jointRestTransforms; // @synthesize jointRestTransforms=_jointRestTransforms;
 
 @end
 

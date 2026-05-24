@@ -6,7 +6,7 @@
 
 #import <PhoneKit/PKRecentsItem.h>
 
-@class NSDate, NSString, UIImage;
+@class NSString, UIImage;
 
 @interface PKMutableRecentsItem : PKRecentsItem
 {
@@ -14,14 +14,7 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @dynamic date;
 @property(retain, nonatomic) UIImage *image; // @dynamic image;
-@property(nonatomic) _Bool isBlocked; // @dynamic isBlocked;
 @property(copy, nonatomic) NSString *localizedCount; // @dynamic localizedCount;
-@property(copy, nonatomic) NSString *localizedSenderIdentityTitle; // @dynamic localizedSenderIdentityTitle;
-@property(copy, nonatomic) NSString *localizedSubtitle; // @dynamic localizedSubtitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @dynamic localizedTitle;
-@property(copy, nonatomic) NSString *localizedValidHandlesTitle; // @dynamic localizedValidHandlesTitle;
-@property(nonatomic) _Bool verified; // @dynamic verified;
 @end
 

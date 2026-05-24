@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTickLabelsView;
-
 @interface NSUpActionSlider
 {
     id fUpTarget;
-    SEL fUpAction;
-    NSTickLabelsView *fTickLabelsView;
-    NSArray *fTickLabels;
 }
 
 - (void);
@@ -22,11 +17,11 @@
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void)tration.framework;
 
 @end

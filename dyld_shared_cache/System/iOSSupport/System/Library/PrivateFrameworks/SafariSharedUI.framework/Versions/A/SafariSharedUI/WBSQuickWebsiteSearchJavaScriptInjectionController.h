@@ -14,12 +14,12 @@
 }
 
 + (id);
+- (id)@;
+- (void);
+- (void)h;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)yItem:score: /* Error: Ran out of types for this method. */;
+- (void)initWithHistoryItem:score: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSQuickWebsiteSearchJavaScriptInjectionControllerDelegate> delegate; // @synthesize delegate;

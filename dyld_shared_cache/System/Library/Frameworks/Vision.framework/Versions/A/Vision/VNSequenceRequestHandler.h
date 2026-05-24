@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNRequestPerformer, VNSession;
+@class VNSession;
 
 @interface VNSequenceRequestHandler
 {
     VNSession *_session;
-    VNRequestPerformer *_requestPerformer;
 }
 
 + (void);
@@ -22,28 +21,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)fp_isAddedByCurrentUser;
+- (_Bool)soundhoundbookmark;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)"CBPeer"24;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)isContactReadOnly:(id)arg1;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)th:(id)arg1 imageHeight:(struct __CVBuffer *)arg2 tileSizeInPixels:(unsigned int)arg3 overlapFraction:(id *)arg4 aspectRatioThreshold:(id *)arg5 columns:rows:tiles:error: /* Error: Ran out of types for this method. */;
+- (_Bool)@lw;
+- (_Bool)calculateTilesForRegionOfInterest:(id)arg1 imageWidth:(struct __CVBuffer *)arg2 imageHeight:(unsigned int)arg3 tileSizeInPixels:(id *)arg4 overlapFraction:(id *)arg5 aspectRatioThreshold:columns:rows:tiles:error: /* Error: Ran out of types for this method. */;
 - (_Bool),6;
 - (_Bool)£;
 - (void)requests. It needs to be reset to restart tracking sequence;

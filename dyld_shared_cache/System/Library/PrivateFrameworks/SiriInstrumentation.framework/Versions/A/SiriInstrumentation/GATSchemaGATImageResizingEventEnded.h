@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATImageResizingEventEnded : SISchemaInstrumentationMessage
 {
     int _processedMediaType;
-    double _processedMediaSizeInKBs;
-    struct {
-        unsigned int processedMediaType:1;
-        unsigned int processedMediaSizeInKBs:1;
-    } _has;
 }
 
 - (void);
@@ -28,10 +21,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)_selectedClassicRingtoneIndex;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)="overrideType"b1};
@@ -39,10 +32,6 @@
 - (id)¸LÐÌ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProcessedMediaSizeInKBs;
-@property(nonatomic) _Bool hasProcessedMediaType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double processedMediaSizeInKBs; // @synthesize processedMediaSizeInKBs=_processedMediaSizeInKBs;
 @property(nonatomic) int processedMediaType; // @synthesize processedMediaType=_processedMediaType;
 
 @end

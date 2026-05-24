@@ -7,8 +7,6 @@
 @interface NewsFeed.LikingCompleteCommandHandler
 {
     id readingHistory;
-    id allLikedArticleIDs;
-    id allDislikedArticleIDs;
 }
 
 - (void);

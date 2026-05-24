@@ -5,6 +5,7 @@
 //
 
 @protocol BSServiceListenerConnectionRevocationEvent
+- (_Bool)`;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isExplicitInitiatorInvalidation) _Bool explicitInitiatorInvalidation;

@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (CDStruct_6b48f683);
-- (id);
+- (id)pple.sqliteConnect;
 - (void);
 
 @end

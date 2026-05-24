@@ -7,6 +7,9 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (void)a;
+- (void)IMMadridEligibilityControllerServiceInfoProviding;
+- (void);
 - (void)È4Ädt;
 - (void)î;
 - (void)\¼;

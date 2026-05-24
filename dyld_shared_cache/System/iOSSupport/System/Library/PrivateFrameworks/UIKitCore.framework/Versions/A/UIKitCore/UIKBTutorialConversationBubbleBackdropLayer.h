@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)ViewBlurBlob;
+- (void)UIGlintyStringViewBlurBlob;
 - (long long)`>ÿÄÛxëj;
 
 // Remaining properties

@@ -6,19 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWSchemaFLOWEntityTier1 : SISchemaInstrumentationMessage
 {
     NSString *_entityId;
-    _Bool _hasEntityId;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)w;
+- (id)R";
 - (id);
 - (id);
 - (void);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *entityId; // @synthesize entityId=_entityId;
-@property(nonatomic) _Bool hasEntityId; // @synthesize hasEntityId=_hasEntityId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

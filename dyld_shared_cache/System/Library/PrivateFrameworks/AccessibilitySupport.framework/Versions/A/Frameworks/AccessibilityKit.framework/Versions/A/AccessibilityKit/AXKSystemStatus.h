@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXKSystemStatus
 {
     _Bool __hasBattery;
-    double __batteryStatusLastUpdated;
-    NSString *__batteryStatus;
 }
 
 - (id);
@@ -25,17 +21,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)restartDecoderIfFormatChanges;
+- (void)setTitle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *_batteryStatus; // @synthesize _batteryStatus=__batteryStatus;
 @property(nonatomic) double _batteryStatusLastUpdated; // @synthesize _batteryStatusLastUpdated=__batteryStatusLastUpdated;
-@property(nonatomic) _Bool _hasBattery; // @synthesize _hasBattery=__hasBattery;
-@property(readonly, copy, nonatomic) NSString *batteryStatus;
-@property(readonly, copy, nonatomic) NSString *date;
-@property(readonly, copy, nonatomic) NSString *time;
-@property(readonly, copy, nonatomic) NSString *wifiStatus;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAttributionApp, GEOPDLink, GEOPlaceExternalActionLinkAppClipParams, GEOPlaceExternalActionLinkExtensionParams, GEOPlaceExternalActionLinkQuickLinkParams, GEOPlaceExternalActionWebLinkParams, GEOQuickLink, NSMapTable;
+@class GEOPDLink, GEOQuickLink;
 
 @interface GEOPlaceExternalActionLink
 {
     GEOPDLink *_actionLink;
-    NSMapTable *_attributionMap;
 }
 
 - (id);
@@ -26,14 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPlaceExternalActionLinkAppClipParams *appClipParams;
-@property(readonly, nonatomic) GEOQuickLink *appClipRepresentedAsQuickLink;
-@property(readonly, nonatomic) GEOAttributionApp *attributionAppForMapsExtension;
 @property(readonly, nonatomic) GEOQuickLink *quickLink;
-@property(readonly, nonatomic) GEOPlaceExternalActionLinkQuickLinkParams *quickLinkParams;
-@property(readonly, nonatomic) GEOPlaceExternalActionLinkExtensionParams *siriExtensionParams;
-@property(readonly, nonatomic) int type;
-@property(readonly, nonatomic) GEOPlaceExternalActionWebLinkParams *webLinkParams;
 
 @end
 

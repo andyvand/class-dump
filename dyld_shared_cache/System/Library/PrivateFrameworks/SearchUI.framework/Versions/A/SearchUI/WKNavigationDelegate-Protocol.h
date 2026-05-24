@@ -5,5 +5,11 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void)_HAPAccessoryServerBTLE200;
+- (void);
+- (void);
 @end
 

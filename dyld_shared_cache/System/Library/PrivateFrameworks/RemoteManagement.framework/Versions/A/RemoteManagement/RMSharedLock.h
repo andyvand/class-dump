@@ -9,12 +9,11 @@
 @interface RMSharedLock
 {
     NSConditionLock *_lock;
-    NSString *_lockTitle;
 }
 
 + (id);
-- (void);
-- (void);
+- (void);
+- (void)5/T#  .;
 - (id);
 - (id);
 - (void);

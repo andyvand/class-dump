@@ -9,14 +9,14 @@
 @interface CLSAggregatedValue : CLSReportItem
 {
     int _aggregateType;
-    double _value;
-    long long _totalSampleCount;
 }
 
-+ (_Bool);
-- (long long);
-- (void);
-- (void);
++ (_Bool)_beginObservingAccountStoreDidChangeNotification;
+- (long long)pected count %d), errno:%d
+ /* Error: Ran out of types for this method. */;
+- (void)viceOpen isPrivileged=%d
+;
+- (void)processStatsBuffer;
 - (double);
 - (int);
 - (void);
@@ -24,16 +24,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (double);
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) int aggregateType; // @synthesize aggregateType=_aggregateType;
-@property(readonly, nonatomic) double normalized;
-@property(nonatomic) long long totalSampleCount; // @synthesize totalSampleCount=_totalSampleCount;
 @property(nonatomic) double value; // @synthesize value=_value;
 
 @end

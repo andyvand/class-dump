@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFActivity, NSString;
-
 @interface HMBProcessingOptions
 {
     _Bool _shouldEnqueueMirrorOutput;
-    _Bool _shouldRollBackIfMirrorOutputFails;
-    _Bool _disallowsCellularAccessForMirrorOutput;
-    _Bool _requiresModelCreation;
-    _Bool _disallowsModelCreation;
-    NSString *_label;
-    long long _qualityOfService;
-    HMFActivity *_activity;
-    unsigned long long _transactionItemsBatchLimit;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)EY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,33 +19,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (long long);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)rocessedMeasurementsEvent:Sat excluded,low elevation,%.2f deg /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)hhx;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMFActivity *activity; // @synthesize activity=_activity;
-@property(nonatomic) _Bool disallowsCellularAccessForMirrorOutput; // @synthesize disallowsCellularAccessForMirrorOutput=_disallowsCellularAccessForMirrorOutput;
-@property _Bool disallowsModelCreation; // @synthesize disallowsModelCreation=_disallowsModelCreation;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 @property _Bool requiresModelCreation; // @synthesize requiresModelCreation=_requiresModelCreation;
-@property(nonatomic) _Bool shouldEnqueueMirrorOutput; // @synthesize shouldEnqueueMirrorOutput=_shouldEnqueueMirrorOutput;
-@property(nonatomic) _Bool shouldRollBackIfMirrorOutputFails; // @synthesize shouldRollBackIfMirrorOutputFails=_shouldRollBackIfMirrorOutputFails;
-@property(nonatomic) unsigned long long transactionItemsBatchLimit; // @synthesize transactionItemsBatchLimit=_transactionItemsBatchLimit;
 
 @end
 

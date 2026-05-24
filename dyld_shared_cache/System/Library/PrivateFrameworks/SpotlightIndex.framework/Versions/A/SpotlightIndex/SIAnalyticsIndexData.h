@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SIAnalyticsIndexData
 {
     NSString *_prefix;
-    NSMutableDictionary *_heartbeatData;
-    struct os_unfair_lock_s _heartbeatLock;
-    unsigned long long _configFlags;
 }
 
 - (_Bool);

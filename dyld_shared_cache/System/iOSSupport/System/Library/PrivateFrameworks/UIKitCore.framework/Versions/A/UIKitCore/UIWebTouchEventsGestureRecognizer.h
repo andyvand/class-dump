@@ -6,23 +6,9 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMapTable, NSMutableArray;
-@protocol UIWebTouchEventsGestureRecognizerDelegate;
-
 @interface UIWebTouchEventsGestureRecognizer : UIGestureRecognizer
 {
     id _touchTarget;
-    SEL _touchAction;
-    id <UIWebTouchEventsGestureRecognizerDelegate> _webTouchDelegate;
-    _Bool _passedHitTest;
-    _Bool _defaultPrevented;
-    _Bool _dispatchingTouchEvents;
-    _Bool _isPotentialTap;
-    _Bool _wasExplicitlyCancelled;
-    double _originalGestureDistance;
-    double _originalGestureAngle;
-    struct _UIWebTouchEvent _lastTouchEvent;
-    NSMapTable *_activeTouchesByIdentifier;
 }
 
 + (_Bool);
@@ -30,12 +16,12 @@
 + (void)°Ûn;
 - (void);
 - (id);
-- (void);
-- (const struct _UIWebTouchEvent *);
+- (void)ctx_length <= sizeof s->sid_ctx;
+- (const struct _UIWebTouchEvent *)identifier;
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -48,13 +34,13 @@
 - (int)1Â0@ù
 × ;
 - (id)6;
-- (_Bool)earchFieldAccessoryIsOffscreenForPresentationAnimation: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)inState:(id)arg1 whenStateReady: /* Error: Ran out of types for this method. */;
-- (void):withFrame:withItemList: /* Error: Ran out of types for this method. */;
-- (void)ionsWithBlock:(id)arg1;
+- (_Bool)setInlineSearchFieldAccessoryIsOffscreenForPresentationAnimation: /* Error: Ran out of types for this method. */;
+- (void)setBackgroundShapeInsets:(id)arg1;
+- (_Bool)recognizer:(id)arg1 beginTouchDownForTouchWithId:atPoint:forBeginState:whenStateReady: /* Error: Ran out of types for this method. */;
+- (void)initInView:withFrame:withItemList: /* Error: Ran out of types for this method. */;
+- (void)enumerateSectionDefinitionsWithBlock:(id)arg1;
 - (void)_playFeedbackForCursorMovement;
-- (id)IndexPath;
+- (id)_focusedIndexPath;
 - (void),V_color;
 - (void);
 - (void)Lsþ;
@@ -62,18 +48,7 @@
 - (void)1Å[;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *activeTouchesByIdentifier; // @synthesize activeTouchesByIdentifier=_activeTouchesByIdentifier;
 @property(nonatomic, getter=isDefaultPrevented) _Bool defaultPrevented; // @synthesize defaultPrevented=_defaultPrevented;
-@property(readonly, nonatomic, getter=isDispatchingTouchEvents) _Bool dispatchingTouchEvents; // @synthesize dispatchingTouchEvents=_dispatchingTouchEvents;
-@property(readonly, nonatomic) _Bool inJavaScriptGesture;
-@property(readonly, nonatomic) const struct _UIWebTouchEvent *lastTouchEvent;
-@property(readonly, nonatomic) struct CGPoint locationInWindow;
-@property(readonly, nonatomic) double rotation;
-@property(readonly, nonatomic) double scale;
-@property(readonly, nonatomic) NSMutableArray *touchIdentifiers;
-@property(readonly, nonatomic) NSMutableArray *touchLocations;
-@property(readonly, nonatomic) NSMutableArray *touchPhases;
-@property(readonly, nonatomic) int type;
 
 @end
 

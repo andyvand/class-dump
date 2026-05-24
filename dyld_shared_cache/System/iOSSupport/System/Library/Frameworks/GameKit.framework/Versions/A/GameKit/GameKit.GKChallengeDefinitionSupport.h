@@ -8,7 +8,6 @@
 {
     id service;
     id leaderboardLoader;
-    id localPlayerIDProvider;
 }
 
 + (id);

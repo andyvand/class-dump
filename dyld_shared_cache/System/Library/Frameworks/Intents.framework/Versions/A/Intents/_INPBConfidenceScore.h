@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _INPBConfidenceScore
 {
     struct {
         unsigned int aggregateScore:1;
     } _has;
-    float _aggregateScore;
-    NSArray *_components;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class)ler.framework/Versions/A/ANECompiler;
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (float);
 - (void);
-- (id);
+- (id)"<GCPlayerIndicatorXPCProxyServiceRemoteServerInterface>"@"NSError">24;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)y">24;
+- (void)%{public}s (%{public}s:(id)arg1 %u) IOPMAssertionRelease() FAILED;
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)NTATION;
+- (void)PRESENTATION;
 - (unsigned long long)95;
 
 // Remaining properties
 @property(nonatomic) float aggregateScore; // @synthesize aggregateScore=_aggregateScore;
-@property(copy, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) unsigned long long componentsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAggregateScore;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

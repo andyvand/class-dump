@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRLatticeResults, NSArray, NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface CRTextRecognizerResults
 {
     NSDictionary *_inputOptions;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSArray *_textFeatures;
-    NSArray *_codeMaps;
-    CRLatticeResults *_latticeResults;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (id);
 - (id);
 - (id);
@@ -29,16 +24,10 @@
 - (void);
 - (id);
 - (void)24@32@40{CGSize=dd}48;
-- (void)onC;
+- (void)So40CRTextOrientationRecognizerConfigurationC;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *codeMaps; // @synthesize codeMaps=_codeMaps;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
 @property(retain, nonatomic) NSDictionary *inputOptions; // @synthesize inputOptions=_inputOptions;
-@property(retain, nonatomic) CRLatticeResults *latticeResults; // @synthesize latticeResults=_latticeResults;
-@property(readonly) NSArray *lineFeatures;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSArray *textFeatures; // @synthesize textFeatures=_textFeatures;
 
 @end
 

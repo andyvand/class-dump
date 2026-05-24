@@ -7,44 +7,30 @@
 @interface UIKit._UINavigationBarTitleTransitionSpec
 {
     double maxScrollVelocity;
-    double bounceFactor;
-    double minDurationFactor;
-    double maxDurationFactor;
-    double fastDuration;
-    double slowDuration;
-    double blurRadius;
-    double hiddenYOffset;
 }
 
 + (id);
-- (double);
+- (double)ed by DAS;
+- (void)IMNotSyncDueToIMAuto;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (double);
 - (double);
 - (double);
 - (double);
 - (double);
+- (double);
+- (double);
 - (void);
-- (double)updateBackgroundImage;
-- (void)tInteractionState: /* Error: Ran out of types for this method. */;
+- (double)_updateBackgroundImage;
+- (void)_setInteractionState: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) double blurRadius; // @synthesize blurRadius;
-@property(nonatomic) double bounceFactor; // @synthesize bounceFactor;
-@property(nonatomic) double fastDuration; // @synthesize fastDuration;
-@property(nonatomic) double hiddenYOffset; // @synthesize hiddenYOffset;
-@property(nonatomic) double maxDurationFactor; // @synthesize maxDurationFactor;
 @property(nonatomic) double maxScrollVelocity; // @synthesize maxScrollVelocity;
-@property(nonatomic) double minDurationFactor; // @synthesize minDurationFactor;
-@property(nonatomic) double slowDuration; // @synthesize slowDuration;
 
 @end
 

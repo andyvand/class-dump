@@ -7,7 +7,6 @@
 @interface PCSShareProtectionObject
 {
     struct _OpaquePCSShareProtection *_shareProtection;
-    struct _PCSIdentityData *_identity;
 }
 
 - (id);

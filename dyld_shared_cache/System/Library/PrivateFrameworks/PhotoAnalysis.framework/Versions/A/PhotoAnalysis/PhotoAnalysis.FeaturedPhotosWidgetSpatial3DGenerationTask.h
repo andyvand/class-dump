@@ -7,17 +7,6 @@
 @interface PhotoAnalysis.FeaturedPhotosWidgetSpatial3DGenerationTask
 {
     id worker;
-    id taskProductivityReporter;
-    id periodicity;
-    id name;
-    id identifier;
-    id version;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id photoLibrary;
-    id numberOfSuggestionsProcessed;
-    id executionContext;
 }
 
 @end

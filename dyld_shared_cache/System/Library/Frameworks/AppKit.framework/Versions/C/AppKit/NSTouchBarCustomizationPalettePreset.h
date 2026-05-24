@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCandidateListTouchBarItem, NSImage, NSTouchBarItemTree;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPalettePreset
 {
     NSImage *_presetSnapshot;
-    NSTouchBarItemTree *_representedItemTree;
-    struct CGSize _size;
-    double _visualCenterXOffset;
-    NSCandidateListTouchBarItem *_collapsedItem;
 }
 
-+ (id);
-- (double);
-- (void);
++ (id)NSHTTPCookieStorageToCookie2Storage;
+- (double)to parse payload content:%d /* Error: Ran out of types for this method. */;
+- (void)A;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)owsMultipleSelection;
+- (id)allowsMultipleSelection;
 - (struct CGSize);
 - (struct CGSize)Ç¼ÿòC;
 
 // Remaining properties
 @property(readonly, copy) NSImage *presetSnapshot;
-@property(readonly) NSTouchBarItemTree *representedItemTree; // @synthesize representedItemTree=_representedItemTree;
-@property double visualCenterXOffset; // @synthesize visualCenterXOffset=_visualCenterXOffset;
 
 @end
 

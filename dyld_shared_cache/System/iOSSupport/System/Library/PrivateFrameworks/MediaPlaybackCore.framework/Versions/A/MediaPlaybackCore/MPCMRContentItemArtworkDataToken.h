@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MPCMRContentItemArtworkDataToken
 {
     NSString *_identifier;
-    NSString *_artworkIdentifier;
 }
 
 - (id);
@@ -22,15 +21,7 @@ __attribute__((visibility("hidden")))
 - (id)|éáÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

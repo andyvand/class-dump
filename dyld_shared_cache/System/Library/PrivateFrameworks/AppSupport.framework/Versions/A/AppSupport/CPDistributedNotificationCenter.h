@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CPDistributedNotificationCenter
 {
     NSString *_centerName;
-    NSLock *_lock;
-    struct __CFRunLoopSource *_receiveNotificationSource;
-    _Bool _isServer;
-    struct __CFDictionary *_sendPorts;
-    unsigned long long _startCount;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 + (struct __CFDictionary *);
 + (id);
 + (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);

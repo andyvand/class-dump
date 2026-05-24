@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol MTLBuffer, MTLResidencySet;
-
 __attribute__((visibility("hidden")))
 @interface GPUDebugRetainedReportingData
 {
     vector_c45918ac _usedBuffers;
-    id <MTLBuffer> _privateData;
-    NSMutableArray *_cbAllocations;
-    NSMutableArray *_usedPipelineStates;
-    id <MTLResidencySet> _cbResidencySet;
-    unordered_map_db0d7cf3 _encoderLabels;
 }
 
-- (id);
+- (id)U;
 - (vector_c45918ac);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unordered_map_db0d7cf3);
+- (unordered_map_70287d69);
 - (id);
 - (id);
 - (void);
@@ -34,16 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)IntersectionFunctionTable:atBufferIndex: /* Error: Ran out of types for this method. */;
+- (void)setVertexIntersectionFunctionTable:atBufferIndex: /* Error: Ran out of types for this method. */;
 - (id)X¹õÿ;
 
 // Remaining properties
-@property NSMutableArray *cbAllocations; // @synthesize cbAllocations=_cbAllocations;
-@property id <MTLResidencySet> cbResidencySet; // @synthesize cbResidencySet=_cbResidencySet;
-@property unordered_map_db0d7cf3 encoderLabels; // @synthesize encoderLabels=_encoderLabels;
-@property id <MTLBuffer> privateData; // @synthesize privateData=_privateData;
 @property vector_c45918ac usedBuffers; // @synthesize usedBuffers=_usedBuffers;
-@property NSMutableArray *usedPipelineStates; // @synthesize usedPipelineStates=_usedPipelineStates;
 
 @end
 

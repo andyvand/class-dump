@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableOrderedSet;
+@class NSArray;
 
 @interface CROrderedIndexSet
 {
     NSArray *_sourceArray;
-    NSMutableArray *_indexedObjects;
-    NSMutableOrderedSet *_indicesSet;
 }
 
 - (id);
@@ -24,18 +22,14 @@
 - (void);
 - (void);
 - (void);
+- (id)localizedSubTitleForMechanisms: /* Error: Ran out of types for this method. */;
+- (void)ublic}@ | keep=%{public}@;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)__oslogstring;
 - (void)er=}16;
-- (id)reRecognition7decoder29CharacterSegmentedPathBuilderINS0_17CombinedBeamStateEEE;
+- (id)N15CoreRecognition7decoder29CharacterSegmentedPathBuilderINS0_17CombinedBeamStateEEE;
 
 // Remaining properties
-@property(readonly) unsigned long long count;
-@property(retain) NSMutableArray *indexedObjects; // @synthesize indexedObjects=_indexedObjects;
-@property(readonly) NSArray *indices;
-@property(retain) NSMutableOrderedSet *indicesSet; // @synthesize indicesSet=_indicesSet;
 @property(retain) NSArray *sourceArray; // @synthesize sourceArray=_sourceArray;
 
 @end

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSStickerBrowserView, NSString;
+@class MSStickerBrowserView;
 
 @interface MSStickerBrowserViewController
 {
     _Bool _viewHasAppeared;
-    MSStickerBrowserView *_stickerBrowserView;
-    long long _stickerSize;
-    struct CGRect _initialFrameBeforeAppearance;
 }
 
 - (void);
 - (void);
-- (long long);
+- (long long)_ր;
 - (id);
 - (id);
 - (void);
@@ -29,13 +26,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)cookingKitTrackerManager;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,17 +40,7 @@
 - (void)MSMessageAppExtensionContext initWithInputItems:(_Bool)arg1 listenerEndpoint:contextUUID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect initialFrameBeforeAppearance; // @synthesize initialFrameBeforeAppearance=_initialFrameBeforeAppearance;
 @property(retain, nonatomic) MSStickerBrowserView *stickerBrowserView; // @synthesize stickerBrowserView=_stickerBrowserView;
-@property(readonly, nonatomic) long long stickerSize; // @synthesize stickerSize=_stickerSize;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool viewHasAppeared; // @synthesize viewHasAppeared=_viewHasAppeared;
 
 @end
 

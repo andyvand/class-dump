@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPlayerController, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVPlayerVolumeController
 {
     _Bool _prefersSystemVolumeHUDHidden;
-    _Bool _changingVolume;
-    AVPlayerController *_playerController;
-    AVObservationController *_keyValueObservationController;
 }
 
-+ (id)stureController: /* Error: Ran out of types for this method. */;
++ (id)configurationForScrubbingGestureController: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -29,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ision.VIOInertialCovarianceInfo;
 - (float);
 - (void);
 - (void)!°!lCùQ[1Â0@ù
@@ -37,18 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isChangingVolume) _Bool changingVolume; // @synthesize changingVolume=_changingVolume;
-@property(readonly, nonatomic) _Bool currentRouteHasVolumeControl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVObservationController *keyValueObservationController; // @synthesize keyValueObservationController=_keyValueObservationController;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(nonatomic) _Bool prefersSystemVolumeHUDHidden; // @synthesize prefersSystemVolumeHUDHidden=_prefersSystemVolumeHUDHidden;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) float volume;
 
 @end
 

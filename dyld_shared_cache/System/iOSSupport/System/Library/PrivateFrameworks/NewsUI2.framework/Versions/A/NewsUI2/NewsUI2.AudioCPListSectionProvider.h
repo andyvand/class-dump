@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioCPListSectionProvider
 {
     id sections;
-    id playbackState;
 }
 
 @end

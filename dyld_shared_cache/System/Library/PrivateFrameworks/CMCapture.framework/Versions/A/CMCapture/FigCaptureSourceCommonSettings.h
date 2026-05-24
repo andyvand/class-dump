@@ -10,44 +10,25 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureSourceCommonSettings
 {
     NSDictionary *_memoryPoolSizeDistributions;
-    _Bool _livePhotoVitalityScoringSupported;
-    float _livePhotoJPEGIntermediateCompressionRatioDefaultOverride;
-    int _previewRegistrationType;
-    _Bool _previewRegistrationExcludeStaticComponentFromAlignmentShiftsEnabled;
-    NSDictionary *_photoProcessingTimeRangesInMS;
-    _Bool _RGBIRStereoFusionThresholdsEnabled;
-    _Bool _flashMitigationRequired;
-    _Bool _realtimeFSDNetSupported;
-    _Bool _frameRateSwitchBasedOnMotionForVFRDisabled;
-    _Bool _videoStabilizationAdaptiveOverscanSupported;
-    _Bool _variableFrameRateVideoCaptureFromFWSupported;
-    _Bool _teleAutoVideoFrameRateAllows24FPS;
-    _Bool _highPriorityLaunchFromLockScreenSupported;
-    _Bool _metadataCameraHostingSupported;
-    int _swfrVersion;
-    int _semanticRenderingVersion;
-    int _smartStyleRenderingVersion;
-    int _subjectRelightingPreviewVersion;
-    _Bool _fineGrainThermalMonitoringEnabled;
 }
 
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)p_removeProgressObserverFromProgressInQueue;
+- (void)setPackagePart: /* Error: Ran out of types for this method. */;
+- (_Bool)P;
+- (_Bool)R;
 - (int);
 - (_Bool);
 - (int);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ive %lu, language:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)�;
 - (_Bool);
 - (int);
 - (float);
-- (int);
+- (int)|;
 - (id);
 - (_Bool)´ÿ¨´ÿ²´ÿº±ÿÂ­ÿÊªÿÒ
 ¦ÿÙ£ÿß;
@@ -55,26 +36,7 @@ __attribute__((visibility("hidden")))
 - (int)¤mÿ¥pÿ§§sÿ®¦qÿµ¤oÿ½¢mÿÄ¡jÿÌhÿÔfÿÜeÿädÿîcÿ÷cÿÿcÿÿcÿÿcÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool RGBIRStereoFusionThresholdsEnabled; // @synthesize RGBIRStereoFusionThresholdsEnabled=_RGBIRStereoFusionThresholdsEnabled;
-@property(readonly, nonatomic) _Bool fineGrainThermalMonitoringEnabled; // @synthesize fineGrainThermalMonitoringEnabled=_fineGrainThermalMonitoringEnabled;
-@property(readonly, nonatomic) _Bool flashMitigationRequired; // @synthesize flashMitigationRequired=_flashMitigationRequired;
-@property(readonly, nonatomic) _Bool frameRateSwitchBasedOnMotionForVFRDisabled; // @synthesize frameRateSwitchBasedOnMotionForVFRDisabled=_frameRateSwitchBasedOnMotionForVFRDisabled;
-@property(readonly, nonatomic) _Bool highPriorityLaunchFromLockScreenSupported; // @synthesize highPriorityLaunchFromLockScreenSupported=_highPriorityLaunchFromLockScreenSupported;
-@property(readonly, nonatomic) float livePhotoJPEGIntermediateCompressionRatioDefaultOverride; // @synthesize livePhotoJPEGIntermediateCompressionRatioDefaultOverride=_livePhotoJPEGIntermediateCompressionRatioDefaultOverride;
-@property(readonly, nonatomic) _Bool livePhotoVitalityScoringSupported; // @synthesize livePhotoVitalityScoringSupported=_livePhotoVitalityScoringSupported;
 @property(readonly, nonatomic) NSDictionary *memoryPoolSizeDistributions; // @synthesize memoryPoolSizeDistributions=_memoryPoolSizeDistributions;
-@property(readonly, nonatomic) _Bool metadataCameraHostingSupported; // @synthesize metadataCameraHostingSupported=_metadataCameraHostingSupported;
-@property(readonly, nonatomic) NSDictionary *photoProcessingTimeRangesInMS; // @synthesize photoProcessingTimeRangesInMS=_photoProcessingTimeRangesInMS;
-@property(readonly, nonatomic) _Bool previewRegistrationExcludeStaticComponentFromAlignmentShiftsEnabled; // @synthesize previewRegistrationExcludeStaticComponentFromAlignmentShiftsEnabled=_previewRegistrationExcludeStaticComponentFromAlignmentShiftsEnabled;
-@property(readonly, nonatomic) int previewRegistrationType; // @synthesize previewRegistrationType=_previewRegistrationType;
-@property(readonly, nonatomic) _Bool realtimeFSDNetSupported; // @synthesize realtimeFSDNetSupported=_realtimeFSDNetSupported;
-@property(readonly, nonatomic) int semanticRenderingVersion; // @synthesize semanticRenderingVersion=_semanticRenderingVersion;
-@property(readonly, nonatomic) int smartStyleRenderingVersion; // @synthesize smartStyleRenderingVersion=_smartStyleRenderingVersion;
-@property(readonly, nonatomic) int subjectRelightingPreviewVersion; // @synthesize subjectRelightingPreviewVersion=_subjectRelightingPreviewVersion;
-@property(readonly, nonatomic) int swfrVersion; // @synthesize swfrVersion=_swfrVersion;
-@property(readonly, nonatomic) _Bool teleAutoVideoFrameRateAllows24FPS; // @synthesize teleAutoVideoFrameRateAllows24FPS=_teleAutoVideoFrameRateAllows24FPS;
-@property(readonly, nonatomic) _Bool variableFrameRateVideoCaptureFromFWSupported; // @synthesize variableFrameRateVideoCaptureFromFWSupported=_variableFrameRateVideoCaptureFromFWSupported;
-@property(readonly, nonatomic) _Bool videoStabilizationAdaptiveOverscanSupported; // @synthesize videoStabilizationAdaptiveOverscanSupported=_videoStabilizationAdaptiveOverscanSupported;
 
 @end
 

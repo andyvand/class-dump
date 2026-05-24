@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionViewRubberband : NSView
 {
     NSColor *_frameColor;
-    NSColor *_fillColor;
 }
 
 - (_Bool);
-- (id);
+- (id)u;
 - (id);
 - (void);
-- (void);
+- (void)CrossOver;
 - (_Bool);
 - (void);
 

@@ -15,10 +15,10 @@
 + (double);
 + (unsigned long long);
 + (id);
++ (id)gt� �;
++ (id)G=S;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)(vid=%@) and domain %@ (vid=%@) volume IDs DO NOT match%@;
 + (id);
 - (id);
 - (id);
@@ -37,7 +37,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (id);
 - (id);

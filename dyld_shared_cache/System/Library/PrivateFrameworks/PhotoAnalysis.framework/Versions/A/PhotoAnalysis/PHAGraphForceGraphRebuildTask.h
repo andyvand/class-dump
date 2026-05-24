@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (int)orStorytelling;
+- (int)isGatedForStorytelling;
 
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MPCAudioFailure
 {
     long long _type;
-    double _startTime;
-    double _duration;
 }
 
 + (id);
@@ -20,8 +18,6 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

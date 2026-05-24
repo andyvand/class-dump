@@ -9,22 +9,20 @@
 @interface FMDBAAAttestation
 {
     NSData *_attestation;
-    NSData *_signature;
 }
 
 + (_Bool);
+- (id)""{?="__cap_"^{PKMetalSDFPenStrokePoint}}};
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)jW;
+- (id)spatch_queue>",&,N,V_queue;
+- (void)alid replicaUUIDIndex;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *attestation; // @synthesize attestation=_attestation;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

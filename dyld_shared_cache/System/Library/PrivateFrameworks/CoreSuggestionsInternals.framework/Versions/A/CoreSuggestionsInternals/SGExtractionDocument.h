@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface SGExtractionDocument
 {
     NSArray *_enrichedTaggedCharacterRanges;
-    NSDictionary *_modelOutput;
-    NSDictionary *_indexSetForOutputNameLabel;
 }
 
 + (struct _NSRange);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (struct _NSRange);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (struct _NSRange)Dataclass"16;
++ (id)setShowsTrustButton:(id)arg1;
++ (id)setSemaphore:(id)arg1;
++ (id)persistentDomainForName:(id)arg1;
++ (id)performsChecksInWindow:(id)arg1;
++ (id)performSelector:(id)arg1 withObject:(id)arg2 afterDelay:(id)arg3;
++ (id)hasManagingOwner;
 - (struct _NSRange);
 - (void);
-- (void);
+- (void)LPPrivate;
 - (id);
 - (id);
 - (id);
@@ -39,13 +37,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)willChangeValueForKey:(id)arg1;
 - (void)[4;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *enrichedTaggedCharacterRanges; // @synthesize enrichedTaggedCharacterRanges=_enrichedTaggedCharacterRanges;
-@property(retain, nonatomic) NSDictionary *indexSetForOutputNameLabel; // @synthesize indexSetForOutputNameLabel=_indexSetForOutputNameLabel;
-@property(retain, nonatomic) NSDictionary *modelOutput; // @synthesize modelOutput=_modelOutput;
 
 @end
 

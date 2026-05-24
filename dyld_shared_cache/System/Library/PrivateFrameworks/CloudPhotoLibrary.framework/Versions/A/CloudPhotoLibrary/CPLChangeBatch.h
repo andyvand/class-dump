@@ -4,66 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray, NSMutableArray;
 
 @interface CPLChangeBatch
 {
     NSMutableArray *_records;
-    NSMutableDictionary *_additionalRecords;
-    NSMutableDictionary *_localResources;
-    _Bool _calculateEstimatedBatchSize;
-    unsigned long long _estimatedBatchSize;
 }
 
 + (_Bool);
-- (id);
+- (id)e;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long)Â0@ù
-× ;
-- (id)×ñð1â*0@ù
-×ñð1"+0@ù
-×ñð1¢+0@ù
-×Qð1Â)0@ù
-×q°1â*0@ù
-×q°1b,0@ù
-×q°1Â70@ù
-×q°1"	0@ù
-×q°1B	0@ù
-×q°1â	0@ù
-×QÐ1(0@ù
-×ñð1",0@ù
-×ñð1B,0@ù
-×q°1Â0@ù
-×Qð1¢?0@ù
-×q1â;
-- (_Bool)àªàª@ùE'ýª%÷;
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (unsigned long long);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (unsigned long long)`z;
 - (void);
 - (void);
 - (void)!|Gù1°1Â0@ù
 × ;
-- (id)rdWithRelatedScopedIdentifier:(unsigned long long)arg1;
-- (id)edAssetIdentifiers:(id)arg1;
+- (id)hasAnyRecordWithRelatedScopedIdentifier:(unsigned long long)arg1;
+- (id)addCuratedAssetIdentifiers:(id)arg1;
 - (id),V_bodyHeight;
 - (unsigned long long)for a record we don't know or has already been deleted. Ignoring.;
 - (id)©®;

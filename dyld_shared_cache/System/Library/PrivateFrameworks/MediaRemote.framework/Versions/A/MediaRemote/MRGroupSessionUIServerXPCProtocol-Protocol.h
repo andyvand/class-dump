@@ -5,5 +5,6 @@
 //
 
 @protocol MRGroupSessionUIServerXPCProtocol
+- (void);
 @end
 

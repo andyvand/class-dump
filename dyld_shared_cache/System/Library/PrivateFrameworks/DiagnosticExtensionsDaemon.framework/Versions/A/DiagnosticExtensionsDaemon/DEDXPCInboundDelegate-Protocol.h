@@ -5,5 +5,9 @@
 //
 
 @protocol DEDXPCInboundDelegate
+- (void);
+- (void);
+- (void)(;
+- (void);
 @end
 

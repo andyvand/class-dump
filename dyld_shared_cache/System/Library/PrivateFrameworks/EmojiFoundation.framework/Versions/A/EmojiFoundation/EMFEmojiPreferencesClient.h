@@ -11,26 +11,24 @@
 @interface EMFEmojiPreferencesClient : EMFEmojiPreferences
 {
     NSXPCConnection *_connection;
-    _Bool _isValid;
-    NSString *_machName;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ase take a Sysdiagnose!;
+- (void)WebBookmark"8Q16^B24;
+- (void)expandedTableCellView;
+- (void)compactBookmarkTableCellViewIdentifier;
+- (void)AlertDialogView;
+- (void)AXSafariModalDialog;
+- (void)alertDialogTableCellIdentifier;
+- (void)to increase the current storage quota.;
+- (void)t storage quota.;
+- (void)to accept a prompt asking whether the user wants to increase the current storage quota.;
+- (void)e App Store for apps that can display RSS feeds?;
+- (void)Button to accept a prompt asking whether the user wants to always open an external app.;
+- (void)s to open an external app.;
+- (void)o accept a prompt asking whether the user wants to open an external app.;
+- (id)user if they want to allow a website to show a wallet order;
 - (void);
 - (void);
 - (void);
@@ -45,10 +43,9 @@
 - (void);
 - (void);
 - (void);
-- (void)mponentsSeparatedByString: /* Error: Ran out of types for this method. */;
+- (void)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
 @property(retain, nonatomic) NSString *machName; // @synthesize machName=_machName;
 
 @end

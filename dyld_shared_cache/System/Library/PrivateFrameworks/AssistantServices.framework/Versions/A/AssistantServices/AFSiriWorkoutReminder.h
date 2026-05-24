@@ -9,15 +9,10 @@
 @interface AFSiriWorkoutReminder
 {
     NSString *_predictionIdentifier;
-    long long _workoutType;
-    unsigned long long _workoutActivityType;
-    long long _workoutLocationType;
-    long long _workoutSwimmingLocationType;
-    long long _predictionType;
 }
 
 + (_Bool);
-- (long long);
+- (long long)*%@y_=;
 - (long long);
 - (id);
 - (id);
@@ -29,16 +24,11 @@
 - (id);
 - (void);
 - (id);
-- (void)lled;
+- (void)_activeRequestStartSpeechTimeAPICalled;
 - (unsigned long long)ener listener:shouldAcceptNewConnection:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *predictionIdentifier; // @synthesize predictionIdentifier=_predictionIdentifier;
-@property(readonly, nonatomic) long long predictionType; // @synthesize predictionType=_predictionType;
-@property(readonly, nonatomic) unsigned long long workoutActivityType; // @synthesize workoutActivityType=_workoutActivityType;
-@property(readonly, nonatomic) long long workoutLocationType; // @synthesize workoutLocationType=_workoutLocationType;
-@property(readonly, nonatomic) long long workoutSwimmingLocationType; // @synthesize workoutSwimmingLocationType=_workoutSwimmingLocationType;
-@property(readonly, nonatomic) long long workoutType; // @synthesize workoutType=_workoutType;
 
 @end
 

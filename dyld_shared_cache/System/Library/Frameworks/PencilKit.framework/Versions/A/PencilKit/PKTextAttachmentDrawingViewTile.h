@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, PKMacLinedPaperView;
-
 @interface PKTextAttachmentDrawingViewTile
 {
     _Bool _topTile;
-    _Bool _bottomTile;
-    _Bool _scheduled;
-    _Bool _valid;
-    NSImage *_image;
-    PKMacLinedPaperView *_linedPaperView;
-    struct CGRect _drawingFrame;
 }
 
 - (void);
@@ -25,9 +17,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)setDefaultActionURL:(id)arg1;
+- (void)onHandler:(struct CGRect)arg1;
+- (struct CGRect)identifier:%{public}@ from %{public}@ metadata file, readonly:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -38,20 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool bottomTile; // @synthesize bottomTile=_bottomTile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect drawingFrame; // @synthesize drawingFrame=_drawingFrame;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) PKMacLinedPaperView *linedPaperView; // @synthesize linedPaperView=_linedPaperView;
-@property(nonatomic) _Bool scheduled; // @synthesize scheduled=_scheduled;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool topTile; // @synthesize topTile=_topTile;
-@property(nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

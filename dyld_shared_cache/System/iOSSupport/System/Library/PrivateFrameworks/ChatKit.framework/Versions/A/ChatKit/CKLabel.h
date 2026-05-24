@@ -4,47 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, UIImageView;
+@class UIImageView;
 
 @interface CKLabel
 {
     _Bool _shouldHaveRotatedTitleIconImage;
-    UIImageView *_titleIconImageView;
-    long long _titleIconImageType;
-    NSSet *_titleIconImageTypesSupportingRotation;
-    struct CGRect _textRectForAccessoryImageView;
 }
 
-- (id);
-- (id);
-- (_Bool);
-- (long long);
+- (id)createToDoItemForCharacterRange:paragraphStyle:textStorage: /* Error: Ran out of types for this method. */;
+- (id)createSubattachmentForRecordingAndReturnError: /* Error: Ran out of types for this method. */;
+- (_Bool)createSubAttachmentFromDocument:(long long)arg1 imageCache:galleryAttachment: /* Error: Ran out of types for this method. */;
+- (long long)createRenderableAttributedString;
+- (struct CGRect)controlTextDidChange: /* Error: Ran out of types for this method. */;
+- (struct CGSize)addAttachmentWithFileURL: /* Error: Ran out of types for this method. */;
+- (void)seconds;
+- (void)Indexing;
+- (void)B,R,N,V_supportsPlainLink;
+- (void)V_shouldMergeNoteAfterScrolling;
+- (void)shiftIndexesStartingAtIndex:(_Bool)arg1 by:(_Bool)arg2;
+- (void)"NSString",&,N,V_csEvaluatorMatchString;
 - (struct CGRect);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
+- (_Bool)t;
 - (void);
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (void);
 - (struct CGSize);
-- (void)dleID:(struct CGRect)arg1;
+- (void)setAssociatedBalloonBundleID:(struct CGRect)arg1;
 - (void)¼
 ;
 - (void)øYGÿÝíkº©ÿ%îkìYGÿîkèYGÿ%îkäYGÿÍíkàYGÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool shouldHaveRotatedTitleIconImage; // @synthesize shouldHaveRotatedTitleIconImage=_shouldHaveRotatedTitleIconImage;
-@property(nonatomic) struct CGRect textRectForAccessoryImageView; // @synthesize textRectForAccessoryImageView=_textRectForAccessoryImageView;
-@property(nonatomic) long long titleIconImageType; // @synthesize titleIconImageType=_titleIconImageType;
-@property(retain, nonatomic) NSSet *titleIconImageTypesSupportingRotation; // @synthesize titleIconImageTypesSupportingRotation=_titleIconImageTypesSupportingRotation;
 @property(retain, nonatomic) UIImageView *titleIconImageView; // @synthesize titleIconImageView=_titleIconImageView;
 
 @end

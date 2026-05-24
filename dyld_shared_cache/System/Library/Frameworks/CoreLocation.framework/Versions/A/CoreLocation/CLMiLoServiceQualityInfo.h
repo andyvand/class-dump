@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CLMiLoServiceQualityInfo
 {
     unsigned long long _serviceQuality;
-    NSArray *_serviceQualityReasons;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)1;
+- (void)ITU_R_2020;
+- (id)N;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setFragmentStaticLinkingDescriptor:(struct _NSZone *)arg1;
 - (unsigned long long)³,ð!(AùQ0ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long serviceQuality; // @synthesize serviceQuality=_serviceQuality;
-@property(readonly, nonatomic) NSArray *serviceQualityReasons; // @synthesize serviceQualityReasons=_serviceQualityReasons;
 
 @end
 

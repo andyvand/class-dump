@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PKArchive;
+@class PKArchive;
 
 @interface PKSignedContainer
 {
     PKArchive *_archive;
-    NSDictionary *_metadata;
-    _Bool _performsAssessment;
-    unsigned long long _options;
-    _Bool _userConsentedOperation;
-    NSString *_secureAppGroupContainerIdentifier;
 }
 
 - (_Bool);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (void);
@@ -25,7 +20,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -33,16 +28,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)	;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long fileSystemCompressionFormat;
-@property unsigned long long options; // @synthesize options=_options;
 @property _Bool performsAssessmentIfNeeded; // @synthesize performsAssessmentIfNeeded=_performsAssessment;
-@property(retain) NSString *secureAppGroupContainerIdentifier; // @synthesize secureAppGroupContainerIdentifier=_secureAppGroupContainerIdentifier;
-@property _Bool userConsentedOperation; // @synthesize userConsentedOperation=_userConsentedOperation;
 
 @end
 

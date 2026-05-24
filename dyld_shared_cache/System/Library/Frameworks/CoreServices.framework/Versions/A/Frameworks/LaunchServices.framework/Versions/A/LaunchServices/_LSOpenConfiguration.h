@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, NSDictionary, NSURL, UISClickAttribution, UISPasteSharingToken;
+@class NSDictionary;
 
 @interface _LSOpenConfiguration
 {
     _Bool _ignoreAppLinkEnabledProperty;
-    _Bool _sensitive;
-    _Bool _allowURLOverrides;
-    _Bool _shouldSetHandlerOnDocumentOpen;
-    _Bool _useOneTapOpenBehavior;
-    NSDictionary *_frontBoardOptions;
-    NSURL *_referrerURL;
-    BSServiceConnectionEndpoint *_targetConnectionEndpoint;
-    UISClickAttribution *_clickAttribution;
-    UISPasteSharingToken *_pasteSharingToken;
 }
 
-+ (_Bool);
++ (_Bool)IIIIIIIIIIIIIIIIIIIIIIIIII[4I]}16@"<MTLRenderPipelineState>"24Q32;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -37,30 +28,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id) ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowURLOverrides; // @synthesize allowURLOverrides=_allowURLOverrides;
-@property(retain, nonatomic) UISClickAttribution *clickAttribution; // @synthesize clickAttribution=_clickAttribution;
 @property(copy, nonatomic) NSDictionary *frontBoardOptions; // @synthesize frontBoardOptions=_frontBoardOptions;
-@property(nonatomic) _Bool ignoreAppLinkEnabledProperty; // @synthesize ignoreAppLinkEnabledProperty=_ignoreAppLinkEnabledProperty;
-@property(nonatomic) _Bool ignoreOpenStrategy;
-@property(retain, nonatomic) UISPasteSharingToken *pasteSharingToken; // @synthesize pasteSharingToken=_pasteSharingToken;
-@property(copy, nonatomic) NSURL *referrerURL; // @synthesize referrerURL=_referrerURL;
-@property(nonatomic, getter=isSensitive) _Bool sensitive; // @synthesize sensitive=_sensitive;
-@property(nonatomic) _Bool shouldSetHandlerOnDocumentOpen; // @synthesize shouldSetHandlerOnDocumentOpen=_shouldSetHandlerOnDocumentOpen;
-@property(retain, nonatomic) BSServiceConnectionEndpoint *targetConnectionEndpoint; // @synthesize targetConnectionEndpoint=_targetConnectionEndpoint;
-@property(nonatomic) _Bool useOneTapOpenBehavior; // @synthesize useOneTapOpenBehavior=_useOneTapOpenBehavior;
 
 @end
 

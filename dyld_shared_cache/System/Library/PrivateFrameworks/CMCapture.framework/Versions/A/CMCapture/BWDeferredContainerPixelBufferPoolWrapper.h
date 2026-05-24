@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWPixelBufferPool, NSObject;
-@protocol OS_dispatch_semaphore;
+@class BWPixelBufferPool;
 
 __attribute__((visibility("hidden")))
 @interface BWDeferredContainerPixelBufferPoolWrapper
 {
     BWPixelBufferPool *_pool;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
 }
 
-- (void);
+- (void)Ը;
 - (id);
 - (void);
 - (void);

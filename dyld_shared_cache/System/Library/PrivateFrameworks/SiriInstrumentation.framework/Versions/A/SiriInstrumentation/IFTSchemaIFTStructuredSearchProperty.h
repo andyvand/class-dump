@@ -6,18 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
-
 @interface IFTSchemaIFTStructuredSearchProperty : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_previousAnswerReferenceStatementId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasPreviousAnswerReferenceStatementId;
 }
 
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (_Bool);
 - (void);
@@ -32,7 +27,7 @@
 - (id);
 - (id);
 - (id)V_hasIndex;
-- (id)eter;
+- (id)FLOWLINKSchemaFLOWLINKActionParameter;
 - (_Bool);
 - (void)#;
 - (_Bool)\¸ÿ;
@@ -40,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasPreviousAnswerReferenceStatementId; // @synthesize hasPreviousAnswerReferenceStatementId=_hasPreviousAnswerReferenceStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *previousAnswerReferenceStatementId; // @synthesize previousAnswerReferenceStatementId=_previousAnswerReferenceStatementId;
 
 @end
 

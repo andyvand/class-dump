@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODMSiriSchemaODMSiriTurnRestatementScoresReported : SISchemaInstrumentationMessage
 {
@@ -22,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,7 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *siriTurnRestatementScores; // @synthesize siriTurnRestatementScores=_siriTurnRestatementScores;
 
 @end

@@ -6,39 +6,15 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSDate, NSUUID;
-
 @interface RTTripClusterMO : RTCloudManagedObject
 {
 }
 
-+ (id);
-+ (id);
++ (id)2@0:(id)arg1 8@16^@24;
++ (id)connection tree after retry;
 
 // Remaining properties
-@property(nonatomic) double avgBikeDistance; // @dynamic avgBikeDistance;
-@property(nonatomic) double avgBikeTime; // @dynamic avgBikeTime;
-@property(nonatomic) double avgTripDistance; // @dynamic avgTripDistance;
-@property(nonatomic) double avgTripTime; // @dynamic avgTripTime;
-@property(nonatomic) double avgWalkDistance; // @dynamic avgWalkDistance;
-@property(nonatomic) double avgWalkTime; // @dynamic avgWalkTime;
-@property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;
-@property(nonatomic) short clusterOrder; // @dynamic clusterOrder;
-@property(copy, nonatomic) NSUUID *commuteID; // @dynamic commuteID;
-@property(nonatomic) short countOfBikeTraversal; // @dynamic countOfBikeTraversal;
-@property(nonatomic) unsigned short countOfTraversal; // @dynamic countOfTraversal;
-@property(nonatomic) short countOfWalkTraversal; // @dynamic countOfWalkTraversal;
-@property(nonatomic) double endLatitude; // @dynamic endLatitude;
-@property(nonatomic) double endLongitude; // @dynamic endLongitude;
-@property(nonatomic) _Bool isLocked; // @dynamic isLocked;
-@property(copy, nonatomic) NSDate *lastTimeTaken; // @dynamic lastTimeTaken;
-@property(nonatomic) double maxTripDistance; // @dynamic maxTripDistance;
-@property(nonatomic) double maxTripTime; // @dynamic maxTripTime;
-@property(nonatomic) double minTripDistance; // @dynamic minTripDistance;
-@property(nonatomic) double minTripTime; // @dynamic minTripTime;
-@property(nonatomic) unsigned short modeOfTransport; // @dynamic modeOfTransport;
 @property(nonatomic) double startLatitude; // @dynamic startLatitude;
-@property(nonatomic) double startLongitude; // @dynamic startLongitude;
 
 @end
 

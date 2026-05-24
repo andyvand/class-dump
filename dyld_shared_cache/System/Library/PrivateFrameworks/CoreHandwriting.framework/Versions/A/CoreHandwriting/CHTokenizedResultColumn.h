@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet;
+@class NSArray;
 
 @interface CHTokenizedResultColumn
 {
     NSArray *_tokenRows;
 }
 
-+ (_Bool);
++ (_Bool)_invertedVertexNormals;
 - (id);
 - (id);
 - (id);
@@ -25,14 +25,11 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)<;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *mathTokenRows;
-@property(readonly, nonatomic) NSIndexSet *strokeIndexes;
-@property(readonly, copy, nonatomic) NSArray *textTokenRows;
 @property(readonly, copy, nonatomic) NSArray *tokenRows; // @synthesize tokenRows=_tokenRows;
 
 @end

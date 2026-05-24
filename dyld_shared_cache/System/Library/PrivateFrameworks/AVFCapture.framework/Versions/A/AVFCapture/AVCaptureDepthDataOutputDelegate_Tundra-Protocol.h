@@ -5,5 +5,9 @@
 //
 
 @protocol AVCaptureDepthDataOutputDelegate_Tundra
+
+@optional
+- (void);
+- (void)V_defaultValue;
 @end
 

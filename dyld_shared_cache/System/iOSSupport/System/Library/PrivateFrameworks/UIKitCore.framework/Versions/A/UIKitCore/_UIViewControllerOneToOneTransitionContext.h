@@ -6,34 +6,22 @@
 
 #import <UIKitCore/_UIViewControllerTransitionContext.h>
 
-@class UIView, UIViewController;
+@class UIViewController;
 
 @interface _UIViewControllerOneToOneTransitionContext : _UIViewControllerTransitionContext
 {
     _Bool _isToViewSet;
-    _Bool _isFromViewSet;
-    UIView *_toView;
-    UIView *_fromView;
-    _Bool __isDeferred;
-    UIViewController *_fromViewController;
-    UIViewController *_toViewController;
-    struct CGRect _fromStartFrame;
-    struct CGRect _fromEndFrame;
-    struct CGRect _toEndFrame;
-    struct CGRect _toStartFrame;
-    struct CGAffineTransform _toEndTransform;
-    struct CGAffineTransform _fromEndTransform;
 }
 
 - (id);
 - (struct CGAffineTransform);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)$;
 - (void);
 - (id);
 - (id);
@@ -42,8 +30,8 @@
 - (struct CGRect);
 - (struct CGRect)a;
 - (struct CGRect)ntentAttribute"b1"hasCustomized_isEnabled"b1"hasCustomized_isHighlighted"b1"hasCustomized_internal"b1};
-- (id)UnitOfGranularity:inDirectionIfAtBoundary: /* Error: Ran out of types for this method. */;
-- (void)oteSize;
+- (id)enclosingTextUnitOfGranularity:inDirectionIfAtBoundary: /* Error: Ran out of types for this method. */;
+- (void)_cachedMarginNoteSize;
 - (void)imumValue;
 - (void);
 - (void)Dk;
@@ -52,22 +40,12 @@
 - (struct CGAffineTransform)ction after %lf sec.;
 - (void)8þÈzþÿ;
 - (struct CGRect)ion is already registered with event:(id)arg1 interaction:%@; event:%@ /* Error: Ran out of types for this method. */;
-- (id)S;
+- (id)XS;
 - (void)7_A3At;
 - (struct CGRect);
 
 // Remaining properties
-@property(nonatomic, setter=_setIsDeferred:) _Bool _isDeferred; // @synthesize _isDeferred=__isDeferred;
-@property(nonatomic, setter=_setFromEndFrame:) struct CGRect fromEndFrame; // @synthesize fromEndFrame=_fromEndFrame;
-@property(nonatomic, setter=_setFromEndTransform:) struct CGAffineTransform fromEndTransform; // @synthesize fromEndTransform=_fromEndTransform;
-@property(nonatomic, setter=_setFromStartFrame:) struct CGRect fromStartFrame; // @synthesize fromStartFrame=_fromStartFrame;
-@property(retain, nonatomic, getter=_fromView, setter=_setFromView:) UIView *fromView;
 @property(retain, nonatomic, setter=_setFromViewController:) UIViewController *fromViewController; // @synthesize fromViewController=_fromViewController;
-@property(nonatomic, setter=_setToEndFrame:) struct CGRect toEndFrame; // @synthesize toEndFrame=_toEndFrame;
-@property(nonatomic, setter=_setToEndTransform:) struct CGAffineTransform toEndTransform; // @synthesize toEndTransform=_toEndTransform;
-@property(nonatomic, setter=_setToStartFrame:) struct CGRect toStartFrame; // @synthesize toStartFrame=_toStartFrame;
-@property(retain, nonatomic, getter=_toView, setter=_setToView:) UIView *toView;
-@property(retain, nonatomic, setter=_setToViewController:) UIViewController *toViewController; // @synthesize toViewController=_toViewController;
 
 @end
 

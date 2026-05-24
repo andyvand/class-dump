@@ -18,8 +18,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void)ggestionsContextTagIDs;
+- (id)v40@0:(id)arg1 8@"NSDictionary"16@24@?<v@?B@"NSError">32;
+- (void)suggestionsContextTagIDs;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *accessCheckers; // @synthesize accessCheckers=_accessCheckers;

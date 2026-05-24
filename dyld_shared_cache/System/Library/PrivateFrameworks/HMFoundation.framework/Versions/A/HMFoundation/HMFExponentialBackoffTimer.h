@@ -9,9 +9,6 @@
 @interface HMFExponentialBackoffTimer : HMFTimer
 {
     _Bool _increasing;
-    double _minimumTimeInterval;
-    double _maximumTimeInterval;
-    long long _exponentialFactor;
 }
 
 - (void);
@@ -19,16 +16,13 @@
 - (void);
 - (id);
 - (double);
-- (double);
+- (double);
 - (long long);
-- (id);
+- (id)y",R,N,V_expectedValues;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) long long exponentialFactor; // @synthesize exponentialFactor=_exponentialFactor;
 @property(readonly, nonatomic, getter=isIncreasing) _Bool increasing; // @synthesize increasing=_increasing;
-@property(readonly, nonatomic) double maximumTimeInterval; // @synthesize maximumTimeInterval=_maximumTimeInterval;
-@property(readonly, nonatomic) double minimumTimeInterval; // @synthesize minimumTimeInterval=_minimumTimeInterval;
 
 @end
 

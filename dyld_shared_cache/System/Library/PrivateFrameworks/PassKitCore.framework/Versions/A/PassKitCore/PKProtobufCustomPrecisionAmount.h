@@ -7,26 +7,24 @@
 @interface PKProtobufCustomPrecisionAmount
 {
     long long _amount;
-    unsigned int _decimalDigitsMultiplier;
 }
 
 - (void);
 - (unsigned int);
-- (void);
+- (void)A9;
 - (long long);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)8;
+- (_Bool)timeUsedMinutes"b1};
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) long long amount; // @synthesize amount=_amount;
-@property(nonatomic) unsigned int decimalDigitsMultiplier; // @synthesize decimalDigitsMultiplier=_decimalDigitsMultiplier;
 
 @end
 

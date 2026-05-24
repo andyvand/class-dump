@@ -7,9 +7,6 @@
 @interface SwiftUI.NavigationSplitSidebarStateMachine
 {
     id transitionCount;
-    id lastKnownVisibility;
-    id coordinatedHost;
-    id lastKnownInspectorIsPresented;
 }
 
 @end

@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKIDSMessageOptions, NSDate, NSDictionary, NSString;
-@protocol CRKCancelable><CRKResumable, CRKIDSLocalPrimitives;
+@protocol CRKIDSLocalPrimitives;
 
 @interface CRKIDSSendMessageOperation
 {
     id <CRKIDSLocalPrimitives> _IDSLocalPrimitives;
-    NSDictionary *_message;
-    NSString *_destinationAddress;
-    NSString *_sourceAppleID;
-    CRKIDSMessageOptions *_options;
-    id <CRKCancelable><CRKResumable> _messageSendSubscription;
-    NSString *_messageSendIdentifier;
-    NSDate *_initialSendDate;
 }
 
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
@@ -30,22 +22,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void));
 - (_Bool)è,;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKIDSLocalPrimitives> IDSLocalPrimitives; // @synthesize IDSLocalPrimitives=_IDSLocalPrimitives;
-@property(readonly, copy, nonatomic) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(retain, nonatomic) NSDate *initialSendDate; // @synthesize initialSendDate=_initialSendDate;
-@property(readonly, copy, nonatomic) NSDictionary *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *messageSendIdentifier; // @synthesize messageSendIdentifier=_messageSendIdentifier;
-@property(retain, nonatomic) id <CRKCancelable><CRKResumable> messageSendSubscription; // @synthesize messageSendSubscription=_messageSendSubscription;
-@property(readonly, nonatomic) CRKIDSMessageOptions *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSString *sourceAppleID; // @synthesize sourceAppleID=_sourceAppleID;
 
 @end
 

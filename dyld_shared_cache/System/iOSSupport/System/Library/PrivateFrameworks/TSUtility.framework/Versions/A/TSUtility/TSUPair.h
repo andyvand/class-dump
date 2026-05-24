@@ -7,7 +7,6 @@
 @interface TSUPair
 {
     id mFirst;
-    id mSecond;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (void);
 - (void);

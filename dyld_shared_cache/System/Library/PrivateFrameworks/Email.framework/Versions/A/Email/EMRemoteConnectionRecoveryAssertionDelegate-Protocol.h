@@ -5,5 +5,7 @@
 //
 
 @protocol EMRemoteConnectionRecoveryAssertionDelegate
+- (void);
+- (void);
 @end
 

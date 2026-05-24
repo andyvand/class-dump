@@ -6,108 +6,23 @@
 
 #import <UIKitCore/_UIBarContentView.h>
 
-@class NSString, UIImage;
-
 @interface UIKit.NavigationBarContentView : _UIBarContentView
 {
     id delegate;
-    id _transitionContext;
-    id transitionContainer;
-    id visualProvider;
-    id resolvedContentSize;
-    id leadingBarSections;
-    id leadingItemsSupplementBackItem;
-    id centerBarSections;
-    id lastLayoutResult;
-    id customizationIdentifier;
-    id resolvedExtension;
-    id resolvedHeight;
-    id trailingBarSections;
-    id pinnedTrailingGroup;
-    id titleIconView;
-    id titleContent;
-    id inlineLargeTitleControl;
-    id inlineLargeTitleContent;
-    id inlineLargeSubtitleView;
-    id inlineLargeSubtitleContent;
-    id renderInlineLargeTitle;
-    id augmentedTitleNavigationBarTraits;
-    id inlineSearchConfiguration;
-    id titleAttributes;
-    id titlePositionAdjustment;
-    id overrideSize;
-    id leadingBarFrame;
-    id centerBarFrame;
-    id trailingBarFrame;
-    id isDeferringSearchSuggestionsMenuRefreshForGeometryChange;
-    id overflowGroup;
-    id isTitleHidden;
-    id titleEnabled;
-    id documentProperties;
-    id renameHandler;
-    id activeRenamerSession;
-    id renamingContentView;
-    id augmentedTitleViewHost;
-    id backAction;
-    id additionalItems;
-    id useInlineLargeTitleMetrics;
-    id tabBarContext;
-    id backButton;
-    id shouldAnimateNextLayout;
-    id flags;
-    id shouldPassThroughTouches;
-    id requestedContentSize;
-    id _barMetrics;
-    id toolbarStyle;
-    id staticLeadingGroupsMode;
-    id _staticLeadingBar;
-    id leadingGroupsMode;
-    id _leadingBar;
-    id centerGroupsMode;
-    id centerBarAlpha;
-    id _centerBar;
-    id trailingGroupsEnabled;
-    id _trailingBar;
-    id _overflowItem;
-    id additionalOverflowItems;
-    id overflowContainsOverflowedButtons;
-    id _titleControl;
-    id staticLeadingItemGroups;
-    id staticTrailingItemGroups;
-    id backButtonItem;
-    id backButtonHidden;
-    id _backActionItem;
-    id titleElementsHidden;
-    id inlineTitleViewAlpha;
-    id hideTitleElementsForLargeTitle;
-    id subtitleView;
-    id margins;
-    id isPerformingLayout;
-    id debugVisualizer;
-    id _backIndicatorImage;
-    id _backButtonMaximumWidth;
-    id _plainItemAppearance;
-    id _prominentItemAppearance;
-    id _backButtonAppearance;
-    id assistant;
-    id floatingTabBarPadding;
-    id largeTitleHeight;
-    id largeTitleHeightRange;
-    id scrollPocketInteraction;
 }
 
-- (id);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (double);
+- (id)otification"24@?<v@?Q>32;
+- (void)chatRepairController:(double)arg1 updateSyncStateTo:onChat: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)gClientConnectionListener;
 - (void);
 - (double);
 - (void);
-- (struct CGSize);
+- (double);
+- (void);
+- (struct CGSize)q_SgIegn_;
 - (id);
-- (id);
-- (id);
+- (id)mmcs_update_item_set_error_if_not_already_done;
+- (id)ttp message missing byte-range header;
 - (void);
 - (void);
 - (void);
@@ -122,14 +37,14 @@
 × ;
 - (void);
 - (void)CarPlayDockDataProviding>";
-- (unsigned long long)Color;
-- (double)userInterfaceStyle:(id)arg1;
-- (id)nimatingImageView;
-- (void)rgetOffset:(id)arg1;
-- (CDStruct_c3b9c2ee)ackgroundView;
-- (void)d:(id)arg1;
+- (unsigned long long)primaryActionColor;
+- (double)dragPreviewForItem:(id)arg1 userInterfaceStyle: /* Error: Ran out of types for this method. */;
+- (id)animatingImageView;
+- (void)_updateScrollAnimationForChangedTargetOffset:(id)arg1;
+- (CDStruct_c3b9c2ee)_scopeBarBackgroundView;
+- (void)_copySelectionToClipboard:(id)arg1;
 - (void)_configuredFloatableView;
-- (id)eUpdate:(struct CGRect)arg1;
+- (id)__viewServiceDismissInteractionDidIssueUpdate:(struct CGRect)arg1;
 - (void)ouchFallbackEnabled;
 - (double):(id)arg1;
 - (void)d symbol effects (effect=%@, options=%@, animated=%s);
@@ -160,15 +75,7 @@
 - (id)ä;
 
 // Remaining properties
-@property(nonatomic) double backButtonMaximumWidth;
-@property(nonatomic, retain) UIImage *backIndicatorImage;
-@property(nonatomic, readonly) long long barType;
 @property(nonatomic, readonly) _Bool compactMetrics;
-@property(nonatomic, readonly) double defaultEdgeSpacing;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) struct UIEdgeInsets layoutMargins;
 
 @end
 

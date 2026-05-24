@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDNotificationCenter, MSPSharedTripBlocklist, MSPSharedTripRelay, NSArray, NSMutableDictionary, NSMutableOrderedSet, NSObject, NSString, NSTimer;
-@protocol MSPReceiverETAControllerDelegate, OS_os_transaction;
+@class NSArray, NSObject;
+@protocol OS_os_transaction;
 
 __attribute__((visibility("hidden")))
 @interface MSPReceiverETAController
 {
     NSObject<OS_os_transaction> *_transaction;
-    NSMutableDictionary *_sharedSessions;
-    NSMutableDictionary *_sharedNavStates;
-    NSMutableDictionary *_waitingNavStates;
-    NSMutableOrderedSet *_orderedNavStateIdentifiers;
-    MDNotificationCenter *_mapsNotificationCenter;
-    MSPSharedTripRelay *_idsRelay;
-    MSPSharedTripBlocklist *_blockedList;
-    NSTimer *_cleanupTimer;
-    id <MSPReceiverETAControllerDelegate> _delegate;
 }
 
 - (void);
@@ -33,18 +24,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)FI_TDesktopGridLayout;
+- (void)uti;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -53,14 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allTrips;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MSPReceiverETAControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

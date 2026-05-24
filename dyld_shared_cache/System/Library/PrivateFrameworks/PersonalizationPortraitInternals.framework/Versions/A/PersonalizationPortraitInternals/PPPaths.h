@@ -9,8 +9,9 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)t Of Bounds) = %zu
+;
++ (id);
 + (id);
 + (id);
 + (id);

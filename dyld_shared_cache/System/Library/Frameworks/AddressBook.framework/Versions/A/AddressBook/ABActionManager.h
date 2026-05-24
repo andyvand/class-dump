@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSString;
-@protocol ABActionManagerDelegate, ABCardCollectionViewDelegate;
+@class NSString;
 
 @interface ABActionManager
 {
     NSString *_personUniqueId;
-    id <ABCardCollectionViewDelegate> _cardCollectionViewDelegate;
-    NSString *_identifier;
-    id _transitionProvider;
-    id <ABActionManagerDelegate> _delegate;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)LAXNO;
 - (void);
 - (void);
 - (id);
@@ -31,14 +26,9 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (_Bool)elationsValueTransformer;
+- (_Bool)CNUIContactRelationsValueTransformer;
 
 // Remaining properties
-@property(readonly) ABAddressBook *addressBook;
-@property(retain) id <ABCardCollectionViewDelegate> cardCollectionViewDelegate; // @synthesize cardCollectionViewDelegate=_cardCollectionViewDelegate;
-@property __weak id <ABActionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *personUniqueId; // @synthesize personUniqueId=_personUniqueId;
 @property(retain, nonatomic) id transitionProvider; // @synthesize transitionProvider=_transitionProvider;
 
 @end

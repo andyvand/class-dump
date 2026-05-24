@@ -6,18 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol HMFNetworkBrowserDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HMFNetworkBrowser : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_networkServices;
-    id <HMFNetworkBrowserDelegate> _delegate;
-    NSString *_domain;
-    NSArray *_serviceTypes;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_internalBrowsers;
 }
 
 + (id){Ð1Â0@ù
@@ -30,26 +24,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)p;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id)3*;
 - (id);
+- (id);
+- (id)CHRecentCallOriginatingUITypeGFTAsService;
+- (void);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <HMFNetworkBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSArray *foundNetworkServices;
-@property(retain, nonatomic) NSMutableArray *internalBrowsers; // @synthesize internalBrowsers=_internalBrowsers;
-@property(readonly, copy, nonatomic) NSArray *serviceTypes; // @synthesize serviceTypes=_serviceTypes;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

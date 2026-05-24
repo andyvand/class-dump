@@ -16,19 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)progressRepresentation;
 - (id);
 - (void)Tap;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *adhocServiceOverride;
-@property(nonatomic, readonly) NSString *asHttpHeader;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *responseIdentifierString;
-@property(nonatomic, readonly) NSString *splunkHint;
-@property(nonatomic, readonly) NSString *strictTransportSecurity;
-@property(nonatomic, readonly) NSString *traceId;
 
 @end
 

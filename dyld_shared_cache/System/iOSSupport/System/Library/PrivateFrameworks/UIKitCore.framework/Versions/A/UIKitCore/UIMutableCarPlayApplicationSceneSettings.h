@@ -6,30 +6,20 @@
 
 #import <UIKitCore/UIMutableApplicationSceneSettings.h>
 
-@class NSString;
-
 @interface UIMutableCarPlayApplicationSceneSettings : UIMutableApplicationSceneSettings
 {
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)Adding gatekeeper properties to:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)proto001;
 - (id);
 - (id)ansitionUpdate:(long long)arg1 forceTwoPartCrossfade:(id)arg2 completion:(unsigned long long)arg3;
-- (id)n;
+- (id)_UITextInputSessionEndAction;
 
 // Remaining properties
-@property(nonatomic) _Bool blackWallpaperModeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool disableFiveRowKeyboards;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

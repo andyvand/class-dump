@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UICandidateViewController : UIViewController
@@ -15,35 +15,24 @@ __attribute__((visibility("hidden")))
     UIView *_candidateView;
 }
 
-+ (double);
-- (void);
++ (double);
+- (void)use participants were not included in validation error user info.;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (double)Size=dd}24o^B40;
-- (_Bool)d;
-- (_Bool)compressor:(id)arg1;
-- (void)fectAlphaEntry;
+- (_Bool)standardWorld;
+- (_Bool)_setDecompressor:(id)arg1;
+- (void)_UIVisualEffectAlphaEntry;
 - (_Bool)hò;
 - (void)unexpectedly nil. self = %@, _view = %@;
-- (id)z_x_SHRzlXX;
+- (id)yxGSgXwz_x_SHRzlXX;
 - (void)tè`;
 - (void)	oþüòÉý(n;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *candidateView; // @synthesize candidateView=_candidateView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

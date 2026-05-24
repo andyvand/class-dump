@@ -7,6 +7,7 @@
 @class NSPredicate;
 
 @protocol SignpostPredicateProducer
+- (NSPredicate *)7G;
 
 // Remaining properties
 @property(readonly, nonatomic) NSPredicate *predicateEquivalent;

@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)VNBarcodeSymbologyCodabar;
 - (_Bool);
 
 @end

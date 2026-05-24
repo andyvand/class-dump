@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSSiriQueueMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    long long _numberOfTransactions;
-    NSMutableDictionary *_observersByIdentifier;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ivedEarlyDetectNDEAPIResult;
+- (void)hasReceivedEarlyDetectNDEAPIResult;
 
 @end
 

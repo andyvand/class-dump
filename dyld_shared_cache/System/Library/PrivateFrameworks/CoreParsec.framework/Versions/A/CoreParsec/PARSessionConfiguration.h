@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol PARResultFactory;
+@class NSString;
 
 @interface PARSessionConfiguration
 {
     _Bool _dontPreloadImages;
-    _Bool _enablePersonalizedRanking;
-    _Bool _parsecEnabled;
-    int _experimentDeploymentId;
-    int _experimentVersion;
-    NSString *_identifier;
-    NSString *_userAgent;
-    id <PARResultFactory> _factory;
-    NSString *_experimentNamespaceId;
-    NSString *_experimentId;
-    NSString *_experimentTreatmentId;
-    NSDictionary *_overrideFeatureFlags;
 }
 
-+ (id);
++ (id)qA;
 + (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)h";
 - (int);
 - (id);
 - (id);
@@ -42,11 +30,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -55,18 +43,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool dontPreloadImages; // @synthesize dontPreloadImages=_dontPreloadImages;
-@property _Bool enablePersonalizedRanking; // @synthesize enablePersonalizedRanking=_enablePersonalizedRanking;
-@property(nonatomic) int experimentDeploymentId; // @synthesize experimentDeploymentId=_experimentDeploymentId;
-@property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(copy, nonatomic) NSString *experimentNamespaceId; // @synthesize experimentNamespaceId=_experimentNamespaceId;
-@property(copy, nonatomic) NSString *experimentTreatmentId; // @synthesize experimentTreatmentId=_experimentTreatmentId;
-@property(nonatomic) int experimentVersion; // @synthesize experimentVersion=_experimentVersion;
-@property(readonly) id <PARResultFactory> factory; // @synthesize factory=_factory;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDictionary *overrideFeatureFlags; // @synthesize overrideFeatureFlags=_overrideFeatureFlags;
-@property _Bool parsecEnabled; // @synthesize parsecEnabled=_parsecEnabled;
-@property(readonly, copy) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

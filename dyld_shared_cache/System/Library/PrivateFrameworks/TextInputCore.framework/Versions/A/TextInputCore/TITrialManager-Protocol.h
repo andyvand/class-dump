@@ -4,7 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSLocale, NSNumber, NSURL;
+
 @protocol TITrialManager
+- (void (^)(void))__objc_protorefs__DATA_CONST;
+- (NSNumber *)updateText:(NSLocale *)arg1;
+- (NSURL *)substringFromIndex:(NSLocale *)arg1;
+- (NSNumber *)stopAudioSession;
+- (NSNumber *)conversationForCallUID:(NSLocale *)arg1;
+- (NSDictionary *)cachedSubscriptionContexts;
+- (NSDictionary *)boolValueForKey:(NSLocale *)arg1 withDefaultValue: /* Error: Ran out of types for this method. */;
+- (void)deactivationEventWithTriggerEvent:experimentRecord:additionalTelemetry: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType updateCallback;

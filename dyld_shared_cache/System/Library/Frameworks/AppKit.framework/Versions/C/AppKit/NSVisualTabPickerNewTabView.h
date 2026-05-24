@@ -6,26 +6,24 @@
 
 #import <AppKit/NSVisualTabPickerShadowTileView.h>
 
-@class NSBox, NSImageView;
+@class NSBox;
 @protocol NSVisualTabPickerNewTabViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerNewTabView : NSVisualTabPickerShadowTileView
 {
     NSBox *_contentView;
-    NSImageView *_imageView;
-    id <NSVisualTabPickerNewTabViewDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)__DATA;
+- (id)__objc_const;
 - (void);
 - (id);
-- (void);
-- (id)rvicePicker:(struct CGRect)arg1 itemForSharingServiceName: /* Error: Ran out of types for this method. */;
+- (void)setPreferredFontNames:(id)arg1;
+- (id)sharingServicePicker:(struct CGRect)arg1 itemForSharingServiceName: /* Error: Ran out of types for this method. */;
 - (void)/Library/BuildRoots/4~COGNugB11GogT2dDN7oGM_6nljmJ3P7Wm3qaFSA/Library/Caches/com.apple.xbs/TemporaryDirectory.tLhrrW/Sources/AppKit/Accessibility.subproj/NSAccessibilityAPIBridge.m;
 - (void)ÿD<¨½B;
 

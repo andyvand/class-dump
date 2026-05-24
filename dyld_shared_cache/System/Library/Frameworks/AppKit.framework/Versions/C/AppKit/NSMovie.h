@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSData;
 
 @interface NSMovie
 {
     NSData *_data;
-    NSURL *_URL;
 }
 
 - (id);
-- (id);
+- (id)1;
 - (void);
 - (id);
-- (id);
+- (id)f certificate hash algorithm (%d) is not at least SHA-256 for server:(id)arg1 %{public}s;
 - (id);
 - (id);
 - (void);

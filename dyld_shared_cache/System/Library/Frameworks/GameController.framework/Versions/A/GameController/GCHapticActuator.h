@@ -9,37 +9,26 @@
 @interface GCHapticActuator
 {
     NSString *_label;
-    long long _type;
-    unsigned long long _index;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id);
+- (void);
+- (id)initWithBase64EncodedString:(struct _NSZone *)arg1 options: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)dpointDelegate;
+- (void)GCBatteryXPCProxyServerEndpointDelegate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

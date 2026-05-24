@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AIDAAccountManager, AKAppleIDAuthenticationController, NSArray, NSError;
-@protocol AADeviceListDelegate;
+@class AKAppleIDAuthenticationController, NSArray;
 
 @interface AADeviceList
 {
     AKAppleIDAuthenticationController *_authController;
-    AIDAAccountManager *_accountManager;
-    NSArray *_devices;
-    NSError *_loadError;
-    id <AADeviceListDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)@;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
 - (void);
+- (id)�;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)tStore:firstName:lastName: /* Error: Ran out of types for this method. */;
+- (void)initWithGrandSlamAccount:accountStore:firstName:lastName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <AADeviceListDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly, nonatomic) NSError *loadError; // @synthesize loadError=_loadError;
 
 @end
 

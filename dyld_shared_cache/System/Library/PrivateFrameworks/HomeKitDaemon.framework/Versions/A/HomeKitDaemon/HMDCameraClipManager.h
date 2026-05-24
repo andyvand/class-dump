@@ -4,86 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone, HMDActiveXPCClientConnectionsPeriodicTimer, HMDCameraClipFeedbackManager, HMDCameraSignificantEventFaceClassificationResolver, HMDDatabaseZoneManager, HMDFeaturesDataSource, HMFMessageDispatcher, NSDate, NSDictionary, NSObject, NSString, NSUUID;
-@protocol HMDCameraClipManagerDelegate, HMDCameraCloudStorageManaging, HMDFileManager, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipManager
 {
     _Bool _hasWriteAccess;
-    NSString *_logIdentifier;
-    id <HMDCameraClipManagerDelegate> _delegate;
-    HMBLocalZone *_localZone;
-    HMBCloudZone *_cloudZone;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDDatabaseZoneManager *_zoneManager;
-    id <HMDCameraCloudStorageManaging> _cloudStorageManager;
-    HMDCameraSignificantEventFaceClassificationResolver *_faceClassificationResolver;
-    HMDActiveXPCClientConnectionsPeriodicTimer *_clientConnectionsTimer;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSUUID *_cameraProfileUUID;
-    HMDCameraClipFeedbackManager *_feedbackManager;
-    id <HMDFileManager> _fileManager;
-    HMDFeaturesDataSource *_featuresDataSource;
-    NSDate *_suppressNotificationsBeforeDate;
-    unsigned long long _fetchBatchLimit;
-    NSObject<OS_dispatch_queue> *_cleanupQueue;
-    CDUnknownBlockType _fetchServerFactory;
 }
 
 + (double);
 + (id)ôB;
+- (void)initWithProtocol:(id)arg1 queue: /* Error: Ran out of types for this method. */;
+- (void)initWithPersister:(id)arg1;
+- (_Bool)initWithOptions:(id)arg1 capacity:(id)arg2;
+- (void)initWithObjects:(id)arg1 indexes:(id)arg2 identifiersAtop: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)%{private}@ (stopSharingWith);
+- (void)GEOTransitIncidentIconTypeUnknown;
+- (void)d at a charging station in %@.;
+- (void)nd %@.;
+- (void)sage body (without destination);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)@9;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -100,12 +82,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)E;
 - (_Bool);
 - (id);
 - (void);
@@ -125,16 +107,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id)reviewsAttribution;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)8;
 - (void);
 - (void);
 - (id)1°1Â0@ù
 × ;
 - (id);
-- (id)sent: /* Error: Ran out of types for this method. */;
+- (id)_handleUpdatePresenceConsent: /* Error: Ran out of types for this method. */;
 - (id)etizationMode",&,N,V_selectedPacketizationMode;
 - (void)r;
 - (void)Ä&;
@@ -143,7 +125,7 @@ __attribute__((visibility("hidden")))
 - (void)d face crops because data is not available;
 - (id)}@ ;
 - (id)ller using transaction object:%@ /* Error: Ran out of types for this method. */;
-- (id)LogEvent;
+- (id)HMDCameraRecordingSessionCoordinationLogEvent;
 - (void)åþ;
 - (id);
 - (id)¼=;
@@ -151,40 +133,7 @@ __attribute__((visibility("hidden")))
 - (id)Jÿ,cYB;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *cameraProfileUUID; // @synthesize cameraProfileUUID=_cameraProfileUUID;
-@property(retain) NSObject<OS_dispatch_queue> *cleanupQueue; // @synthesize cleanupQueue=_cleanupQueue;
-@property(readonly) HMDActiveXPCClientConnectionsPeriodicTimer *clientConnectionsTimer; // @synthesize clientConnectionsTimer=_clientConnectionsTimer;
-@property(readonly) id <HMDCameraCloudStorageManaging> cloudStorageManager; // @synthesize cloudStorageManager=_cloudStorageManager;
-@property(retain) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraClipManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDCameraSignificantEventFaceClassificationResolver *faceClassificationResolver; // @synthesize faceClassificationResolver=_faceClassificationResolver;
-@property(readonly) HMDFeaturesDataSource *featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) HMDCameraClipFeedbackManager *feedbackManager; // @synthesize feedbackManager=_feedbackManager;
-@property unsigned long long fetchBatchLimit; // @synthesize fetchBatchLimit=_fetchBatchLimit;
-@property(copy) CDUnknownBlockType fetchServerFactory; // @synthesize fetchServerFactory=_fetchServerFactory;
-@property(readonly) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(nonatomic) _Bool hasWriteAccess; // @synthesize hasWriteAccess=_hasWriteAccess;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isStartedUp) _Bool isStartedUp;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) Class superclass;
-@property(copy) NSDate *suppressNotificationsBeforeDate; // @synthesize suppressNotificationsBeforeDate=_suppressNotificationsBeforeDate;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly) HMDDatabaseZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
-@property(readonly, copy) NSString *zoneName;
 
 @end
 

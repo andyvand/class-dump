@@ -11,7 +11,7 @@
     NSMutableDictionary *_cache;
 }
 
-- (void);
+- (void)E;
 - (void);
 - (id);
 - (id);

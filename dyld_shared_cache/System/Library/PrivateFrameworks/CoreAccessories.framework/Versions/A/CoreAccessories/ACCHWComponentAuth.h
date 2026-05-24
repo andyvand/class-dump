@@ -20,11 +20,11 @@
 - (void);
 - (void);
 - (void);
+- (id)c;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)or:objectID provided is nil or has the wrong entity type %{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)leSet",&,N,V_comps;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;

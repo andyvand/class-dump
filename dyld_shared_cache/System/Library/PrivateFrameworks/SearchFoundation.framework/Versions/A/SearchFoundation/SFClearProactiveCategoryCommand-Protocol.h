@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @protocol SFClearProactiveCategoryCommand
+- (_Bool)H;
 
 // Remaining properties
 @property(nonatomic) int category;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *proactiveIdentifier;
-@property(nonatomic) _Bool shouldClearWholeSection;
 @end
 

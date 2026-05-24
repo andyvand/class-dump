@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCATModel;
+@class _SFPBCATModel;
 
 @interface _SFPBShowWrapperResponseViewCommand
 {
@@ -18,22 +18,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setAttributes:(id)arg1 range: /* Error: Ran out of types for this method. */;
+- (id)player item asset %@:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)lCommand"16;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCATModel *catModel; // @synthesize catModel=_catModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

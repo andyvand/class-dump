@@ -4,80 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLLocationManager, NSDate, NSError, NSMutableArray, NSString, NSTimer;
+@class CLLocation;
 
 @interface IMLocationManager
 {
     _Bool _inRequestPreciseLocation;
-    _Bool _firstAuthorizationCallbackArrived;
-    int _authorizationStatus;
-    NSMutableArray *_handlers;
-    CLLocationManager *_locationManager;
-    NSError *_error;
-    NSDate *_locateStartTime;
-    NSTimer *_locationUpdateTimer;
-    CLLocation *_location;
 }
 
-+ (Class);
++ (Class)(%d). Required:%d /* Error: Ran out of types for this method. */;
 + (id)µúÿ´jïÿ(n;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)There are no audio streams to configure, bypassing configuration;
+- (void)configuring audioIO;
+- (void)m [%s] %s:(id)arg1 %d @:@ AVCVideoStream-didStop (%p) /* Error: Ran out of types for this method. */;
+- (void)ient %p of didStop;
+- (void)STARTCONFERENCE (client side);
+- (void)ideoStream-init;
+- (_Bool)%d setInfo failed for controlInfo type=kVCMediaControlInfoTypeSequenceNumber, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (id)rossfade. sampleCount=%d;
+- (_Bool)store the last two played samples for crossfade. sampleCount=%d;
+- (_Bool)s:%d Pointer passed for the bitrate adaptation module is NULL /* Error: Ran out of types for this method. */;
+- (_Bool)C [%s] %s:%d Added link with ssrc=0x%x at index=%d in algorithm=%p /* Error: Ran out of types for this method. */;
+- (void)..;
+- (_Bool)ssage:(id)arg1 encryption failed. Dropping the message...;
+- (void)s:(id)arg1 %d Cannot set capture framerate for captureSource=%d;
+- (void)%p) CMSimpleQueueEnqueue full;
+- (void)iled to setup delegate queue;
+- (void)led to create state queue;
+- (_Bool)l=%d;
+- (id)screen rules:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void);
+- (id)";
 - (void);
 - (id)@ù
 × ;
-- (int)dentifier:style:account: /* Error: Ran out of types for this method. */;
+- (int)setProperties:ofParticipant:inChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)gdg<jjTk¸k$l;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;
-@property(readonly, copy, nonatomic) CLLocation *currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool firstAuthorizationCallbackArrived; // @synthesize firstAuthorizationCallbackArrived=_firstAuthorizationCallbackArrived;
-@property(retain, nonatomic) NSMutableArray *handlers; // @synthesize handlers=_handlers;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inRequestPreciseLocation; // @synthesize inRequestPreciseLocation=_inRequestPreciseLocation;
-@property(retain, nonatomic) NSDate *locateStartTime; // @synthesize locateStartTime=_locateStartTime;
 @property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) _Bool locationAuthorizationDenied;
-@property(readonly, nonatomic) _Bool locationAuthorizationDetermined;
-@property(retain, nonatomic) CLLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) NSTimer *locationUpdateTimer; // @synthesize locationUpdateTimer=_locationUpdateTimer;
-@property(readonly, nonatomic) _Bool preciseLocationAuthorized;
-@property(readonly) Class superclass;
 
 @end
 

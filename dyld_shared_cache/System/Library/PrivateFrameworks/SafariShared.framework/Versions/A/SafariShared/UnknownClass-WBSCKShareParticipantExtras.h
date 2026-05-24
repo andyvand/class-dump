@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (WBSCKShareParticipantExtras)
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *safari_shareParticipantIdentifier;

@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingConstraintModel : HMDBackingStoreModelObject
@@ -14,11 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ionObjectRemoved:message: /* Error: Ran out of types for this method. */;
++ (id)dm_transactionObjectRemoved:message: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *type; // @dynamic type;
-@property(copy, nonatomic) NSData *value; // @dynamic value;
 
 @end
 

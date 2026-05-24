@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)nNumberNodeCollection;
+- (id)responseForRequest:willProvideUpdates: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationNumberNodeCollection;
 
 @end
 

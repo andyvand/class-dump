@@ -5,5 +5,8 @@
 //
 
 @protocol CALayoutManager
+
+@optional
+- (void)(}S(;
 @end
 

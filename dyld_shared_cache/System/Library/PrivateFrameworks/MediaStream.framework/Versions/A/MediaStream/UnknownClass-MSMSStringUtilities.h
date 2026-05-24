@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MSMSStringUtilities)
-+ (id);
++ (id)on;
 @end
 

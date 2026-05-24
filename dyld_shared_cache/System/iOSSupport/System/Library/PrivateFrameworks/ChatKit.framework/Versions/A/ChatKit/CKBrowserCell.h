@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBadgeView, CKBrowserSelectionLabelAccessoryView, UIImageView, UILabel, UIView;
-@protocol CKBrowserCellDelegate;
+@class UIView;
 
 @interface CKBrowserCell
 {
     _Bool _jitter;
-    _Bool _shouldShowLabel;
-    id <CKBrowserCellDelegate> _delegate;
-    CKBadgeView *_badgeView;
-    unsigned long long _shinyStatus;
-    CKBrowserSelectionLabelAccessoryView *_shinyStatusView;
-    UILabel *_browserLabel;
-    UIImageView *_borderView;
-    struct CGRect _selectionFrame;
 }
 
 + (Class);
@@ -25,8 +16,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)SaySo18CKShareParticipantCG;
+- (id)q;
 - (double);
 - (struct CGRect);
 - (_Bool);
@@ -47,21 +38,12 @@
 - (id);
 - (void)0@ù
 × ;
-- (void)age;
+- (void)grayQuestionMarkDotAckImage;
 - (void)y;
 - (_Bool)P3;
 
 // Remaining properties
-@property(retain, nonatomic) CKBadgeView *badgeView; // @synthesize badgeView=_badgeView;
-@property(retain, nonatomic) UIImageView *borderView; // @synthesize borderView=_borderView;
-@property(retain, nonatomic) UILabel *browserLabel; // @synthesize browserLabel=_browserLabel;
-@property(nonatomic) __weak id <CKBrowserCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly) UIView *iconView;
-@property(nonatomic) _Bool jitter; // @synthesize jitter=_jitter;
-@property(nonatomic) struct CGRect selectionFrame; // @synthesize selectionFrame=_selectionFrame;
-@property(nonatomic) unsigned long long shinyStatus; // @synthesize shinyStatus=_shinyStatus;
-@property(retain, nonatomic) CKBrowserSelectionLabelAccessoryView *shinyStatusView; // @synthesize shinyStatusView=_shinyStatusView;
-@property(nonatomic) _Bool shouldShowLabel; // @synthesize shouldShowLabel=_shouldShowLabel;
 
 @end
 

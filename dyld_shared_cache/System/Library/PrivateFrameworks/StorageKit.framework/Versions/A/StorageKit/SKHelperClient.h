@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SKHelperClient
 {
     _Bool _hasDaemonAccess;
-    _Bool _connectionDone;
-    NSMutableDictionary *_completionHandlers;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_recacheAbuseLimiterInfo;
-    struct AuthorizationOpaqueRef *_authRef;
 }
 
-+ (id);
++ (id)rnal/Library/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/TCPTunnelClient.m:%d:TCPTUNNEL:TCP/SSL socket is closed while accepting packets /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -58,18 +50,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -104,7 +96,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -116,9 +108,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -144,13 +136,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void).!x"hJ;
 - (struct AuthorizationOpaqueRef *);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)appX;
 - (id);
 - (id);
 - (void);
@@ -158,21 +150,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property struct AuthorizationOpaqueRef *authRef; // @synthesize authRef=_authRef;
-@property(retain) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) NSMutableDictionary *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property _Bool connectionDone; // @synthesize connectionDone=_connectionDone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasDaemonAccess; // @synthesize hasDaemonAccess=_hasDaemonAccess;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMutableDictionary *recacheAbuseLimiterInfo; // @synthesize recacheAbuseLimiterInfo=_recacheAbuseLimiterInfo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *xpcQueue; // @synthesize xpcQueue=_xpcQueue;
 
 @end
 

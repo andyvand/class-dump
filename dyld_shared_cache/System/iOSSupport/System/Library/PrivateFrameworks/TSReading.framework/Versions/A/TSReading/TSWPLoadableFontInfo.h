@@ -9,37 +9,26 @@
 @interface TSWPLoadableFontInfo
 {
     NSString *_groupUID;
-    NSString *_fontPath;
-    NSString *_fontName;
-    NSString *_fontFamily;
-    struct CGFont *_cgFont;
-    unsigned char _attemptedLoad;
-    _Bool _obfuscated;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)kMRMediaRemoteOptionDialogOptions;
+- (void)tion-statistics-samples;
+- (void)e-control-end;
+- (_Bool)networkLikelyReachableSeconds;
 - (id);
 - (void);
 - (id);
 - (struct CGFont *);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)Ignoring download %{public}@ in state %ld.;
+- (id)userContextProvider;
+- (void);
 
 // Remaining properties
-@property(nonatomic) struct CGFont *cgFont; // @synthesize cgFont=_cgFont;
-@property(copy, nonatomic) NSString *fontFamily; // @synthesize fontFamily=_fontFamily;
-@property(copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(copy, nonatomic) NSString *fontPath; // @synthesize fontPath=_fontPath;
 @property(copy, nonatomic) NSString *groupUID; // @synthesize groupUID=_groupUID;
-@property(nonatomic) _Bool obfuscated; // @synthesize obfuscated=_obfuscated;
 
 @end
 

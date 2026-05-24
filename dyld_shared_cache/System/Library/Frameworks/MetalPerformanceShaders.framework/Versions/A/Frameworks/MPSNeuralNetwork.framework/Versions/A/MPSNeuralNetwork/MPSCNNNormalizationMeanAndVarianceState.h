@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBuffer> mean;
-@property(readonly, nonatomic) id <MTLBuffer> variance;
 
 @end
 

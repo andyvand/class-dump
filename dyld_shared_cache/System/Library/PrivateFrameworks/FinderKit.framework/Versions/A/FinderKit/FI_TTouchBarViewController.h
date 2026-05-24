@@ -6,16 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class NSStackView, NSString;
+@class NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTouchBarViewController : FI_TViewController
 {
     NSStackView *_stackView;
-    function_e88ba8d7 _viewWillAppearCallback;
-    function_e88ba8d7 _viewWillDisappearCallback;
-    function_e88ba8d7 _viewDidDisappearCallback;
-    _Bool tornDown;
 }
 
 - (const void *);
@@ -37,15 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)´;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) NSStackView *stackView;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
 
 @end
 

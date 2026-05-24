@@ -4,52 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PETDistributionEventTracker, PETGoalConversionEventTracker, PETScalarEventTracker;
+@class NSObject, PETScalarEventTracker;
 @protocol OS_dispatch_queue;
 
 @interface PPConnectionsMetricsTracker
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PETScalarEventTracker *_opportunityTracker;
-    PETGoalConversionEventTracker *_conversionTracker;
-    PETScalarEventTracker *_dismissalTracker;
-    PETDistributionEventTracker *_timingTracker;
-    PETScalarEventTracker *_donationTracker;
-    PETScalarEventTracker *_pasteboardTracker;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id)gory:mostRelevantRecord: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (void);
++ (id)initWithPlacemark:category:mostRelevantRecord: /* Error: Ran out of types for this method. */;
+- (id)OPQRSTUVWXYa;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)fetchSMSReportJunkCarrierAddressForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)L;
 - (void);
 - (id);
 - (void);
-- (void)appedTopicIdentifier:mappingIdentifier:error: /* Error: Ran out of types for this method. */;
+- (void)unmapMappedTopicIdentifier:mappingIdentifier:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) PETGoalConversionEventTracker *conversionTracker; // @synthesize conversionTracker=_conversionTracker;
-@property(retain, nonatomic) PETScalarEventTracker *dismissalTracker; // @synthesize dismissalTracker=_dismissalTracker;
-@property(retain, nonatomic) PETScalarEventTracker *donationTracker; // @synthesize donationTracker=_donationTracker;
 @property(retain, nonatomic) PETScalarEventTracker *opportunityTracker; // @synthesize opportunityTracker=_opportunityTracker;
-@property(retain, nonatomic) PETScalarEventTracker *pasteboardTracker; // @synthesize pasteboardTracker=_pasteboardTracker;
-@property(retain, nonatomic) PETDistributionEventTracker *timingTracker; // @synthesize timingTracker=_timingTracker;
 
 @end
 

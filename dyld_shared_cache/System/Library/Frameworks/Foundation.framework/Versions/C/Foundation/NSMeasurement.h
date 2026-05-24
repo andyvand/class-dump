@@ -9,7 +9,6 @@
 @interface NSMeasurement
 {
     NSUnit *_unit;
-    double _doubleValue;
 }
 
 @end

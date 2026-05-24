@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface FCFeedItemsWithIDLookupResult
 {
     NSDictionary *_sectionIDsByFeedID;
-    NSArray *_feedItems;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)tStore;
+- (id)_assetStore;
 - (void)dContext shouldAssetKeyManagerSimulateUnauthorizedAssetKeys:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *feedItems; // @synthesize feedItems=_feedItems;
 @property(retain, nonatomic) NSDictionary *sectionIDsByFeedID; // @synthesize sectionIDsByFeedID=_sectionIDsByFeedID;
 
 @end

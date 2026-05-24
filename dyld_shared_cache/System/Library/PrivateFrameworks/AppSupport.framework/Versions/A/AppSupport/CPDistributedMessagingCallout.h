@@ -7,20 +7,15 @@
 @interface CPDistributedMessagingCallout
 {
     id _target;
-    SEL _selector;
-    _Bool _returnsVoid;
-    _Bool _returnsVoidIsValid;
 }
 
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)"16@"WebScriptObject"24@"WebFrame"32;
 - (id);
 - (SEL);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool returnsVoid; // @synthesize returnsVoid=_returnsVoid;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
 @property(readonly, retain, nonatomic) id target; // @synthesize target=_target;
 
 @end

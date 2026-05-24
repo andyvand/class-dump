@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface _UIShadowProperties
 {
     double _opacity;
-    UIColor *_color;
-    double _radius;
-    struct CGSize _offset;
 }
 
 + (id);
 - (id);
-- (void);
-- (id);
+- (void)restoreDefaultStoreControllerInstance;
+- (id)MPMusicPlayerControllerItemPlaybackDidEndNotification;
 - (void);
 - (id)!0AùÑe°1Â0@ù
 × ;
-- (double)nge:inSession: /* Error: Ran out of types for this method. */;
-- (void)tes;
-- (id)reshViews:(struct _NSZone *)arg1;
+- (double)initWithPosition:range:inSession: /* Error: Ran out of types for this method. */;
+- (void)_ui_attributedStringWithOriginalFontAttributes;
+- (id)_accumulateViewsFromItems:(struct _NSZone *)arg1 isLeft:refreshViews: /* Error: Ran out of types for this method. */;
 - (double)ingCustomBackgroundColor;
 - (void);
 - (void)8°;
@@ -32,10 +27,7 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(nonatomic) struct CGSize offset; // @synthesize offset=_offset;
 @property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
 
 @end
 

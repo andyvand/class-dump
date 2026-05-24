@@ -6,27 +6,19 @@
 
 #import <GeoServices/GEOBaseMapItem.h>
 
-@class GEOAddressObject, GEOMapItemClientAttributes, GEOPlace, NSDate, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface GEOMapItemCoreRoutineEvent : GEOBaseMapItem
 {
     NSDictionary *_addressDictionary;
-    GEOMapItemClientAttributes *_clientAttributes;
-    GEOPlace *_place;
-    NSString *_eventName;
-    NSString *_eventTitle;
-    NSDate *_eventDate;
-    _Bool _eventIsAllDay;
-    CDStruct_2c43369c _coordinate;
-    GEOAddressObject *_addressObject;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)RE_3D";
 - (id);
-- (id);
+- (id)N4spar8IteratorI15es_event_type_tEE;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,7 +26,7 @@
 - (CDStruct_c3b9c2ee)0@ù
 × ;
 - (id)";
-- (id)hLeg;
+- (id)pathLeg;
 - (id)L;
 - (id);
 - (void)üRXÿPY;

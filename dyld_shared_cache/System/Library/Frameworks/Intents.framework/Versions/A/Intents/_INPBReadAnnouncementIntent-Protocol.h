@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @protocol _INPBReadAnnouncementIntent
-- (_Bool)sContinueRunning;
+- (void);
+- (int)q@;
+- (_Bool);
+- (void)m;
+- (void);
+- (_Bool)hasContinueRunning;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasReadType;
-@property(readonly, nonatomic) _Bool hasStartAnnouncementIdentifier;
-@property(nonatomic) _Bool hasUserNotificationType;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int readType;
-@property(copy, nonatomic) NSString *startAnnouncementIdentifier;
-@property(nonatomic) int userNotificationType;
 @end
 

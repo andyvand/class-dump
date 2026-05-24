@@ -9,27 +9,19 @@
 @interface _PSShareSheetSuggestLessFeedback
 {
     NSString *_bundleId;
-    NSString *_conversationId;
-    NSString *_derivedIntentId;
-    NSString *_contactId;
-    NSString *_handle;
 }
 
+- (id)_domainExecutionType;
+- (id)_domainConfiguredState;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)ublic}@;
+- (id)n;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy, nonatomic) NSString *contactId; // @synthesize contactId=_contactId;
-@property(readonly, copy, nonatomic) NSString *conversationId; // @synthesize conversationId=_conversationId;
-@property(readonly, copy, nonatomic) NSString *derivedIntentId; // @synthesize derivedIntentId=_derivedIntentId;
-@property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
 
 @end
 

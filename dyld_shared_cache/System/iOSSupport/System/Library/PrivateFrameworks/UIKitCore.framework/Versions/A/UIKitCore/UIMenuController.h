@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIEditMenuInteraction, UIView;
+@class UIEditMenuInteraction;
 
 @interface UIMenuController
 {
     UIEditMenuInteraction *_currentMenuInteraction;
-    NSArray *_extraMenuItems;
-    UIView *_targetView;
-    struct CGRect _targetRect;
-    _Bool _menuNeedsUpdate;
-    long long _arrowDirection;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
+- (struct CGRect)o delete at for GUID:%@ /* Error: Ran out of types for this method. */;
+- (void)@, ;
+- (void)tion update fromID:%@,  /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGRect);
+- (struct CGRect);;
 - (_Bool);
 - (void);
 - (void);
@@ -37,7 +32,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)AllowCloudBackup;
 - (id);
 - (void)
 × ;
@@ -50,17 +45,7 @@
 - (struct CGRect)ÌGh;
 
 // Remaining properties
-@property(nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect menuFrame;
-@property(copy, nonatomic) NSArray *menuItems; // @dynamic menuItems;
 @property(nonatomic, getter=isMenuVisible) _Bool menuVisible;
-@property(readonly) Class superclass;
 
 @end
 

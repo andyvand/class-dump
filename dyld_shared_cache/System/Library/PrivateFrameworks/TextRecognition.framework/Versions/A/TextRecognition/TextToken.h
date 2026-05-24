@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TextToken
 {
     int _wordID;
-    NSString *_string;
-    double _score;
-    NSArray *_features;
-    unsigned long long _properties;
 }
 
 - (id);
@@ -24,11 +20,7 @@
 - (void)"__end_"^^v""{?="__cap_"^^v}}"__start_"Q""{?="__size_"Q}};
 
 // Remaining properties
-@property(readonly) NSArray *features; // @synthesize features=_features;
-@property(readonly, nonatomic) unsigned long long properties; // @synthesize properties=_properties;
-@property(readonly) double score; // @synthesize score=_score;
 @property(readonly) NSString *string; // @synthesize string=_string;
-@property(readonly) int wordID; // @synthesize wordID=_wordID;
 
 @end
 

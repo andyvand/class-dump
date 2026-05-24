@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)___UIBasicHeaderFooterContentViewConfigurationAccessibility_super;
++ (void)HardwareGestureActions;
 - (id);
 
 @end

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBHashBucketDetail_HashDetail
 {
     _Bool _has_summary;
-    _Bool _has_table_of_contents;
-    NSString *_full_hash;
-    NSArray *_sba_entity_types;
-    NSString *_matched_url_variant;
 }
 
-- (unsigned long long);
+- (unsigned long long)R;
 - (int);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)N;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,26 +30,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)maskForAssetsEligibleForCloudKitTransport;
+- (id)ts.;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)rKey: /* Error: Ran out of types for this method. */;
+- (void)setServerFeatures:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *full_hash; // @synthesize full_hash=_full_hash;
-@property(nonatomic) _Bool has_summary; // @synthesize has_summary=_has_summary;
-@property(nonatomic) _Bool has_table_of_contents; // @synthesize has_table_of_contents=_has_table_of_contents;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *matched_url_variant; // @synthesize matched_url_variant=_matched_url_variant;
-@property(copy, nonatomic) NSArray *sba_entity_types; // @synthesize sba_entity_types=_sba_entity_types;
-@property(readonly) Class superclass;
 
 @end
 

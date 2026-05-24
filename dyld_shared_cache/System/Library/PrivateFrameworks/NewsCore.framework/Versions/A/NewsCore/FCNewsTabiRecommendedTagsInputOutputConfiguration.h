@@ -9,8 +9,6 @@
 @interface FCNewsTabiRecommendedTagsInputOutputConfiguration
 {
     NSString *_contextFeatureKey;
-    NSString *_recommendationsOutputName;
-    NSString *_recommendationsScoreOutputName;
 }
 
 - (void);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contextFeatureKey; // @synthesize contextFeatureKey=_contextFeatureKey;
-@property(retain, nonatomic) NSString *recommendationsOutputName; // @synthesize recommendationsOutputName=_recommendationsOutputName;
-@property(retain, nonatomic) NSString *recommendationsScoreOutputName; // @synthesize recommendationsScoreOutputName=_recommendationsScoreOutputName;
 
 @end
 

@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPinchGestureRecognizer, UIView, UIWindowSceneActivationConfiguration, _UIWindowSceneActivationAnimator, _UIWindowSceneActivationEffect;
-@protocol UIInteractionEffect;
+@class UIView;
 
 @interface UIWindowSceneActivationInteraction
 {
     UIView *_view;
-    CDUnknownBlockType _configurationProvider;
-    CDUnknownBlockType _errorHandler;
-    UIWindowSceneActivationConfiguration *_activeConfiguration;
-    _UIWindowSceneActivationEffect *_activeEffect;
-    _UIWindowSceneActivationAnimator *_animator;
-    UIPinchGestureRecognizer *_pinchGR;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)initWithPipelineResources:(id)arg1;
+- (void)chat:(CDUnknownBlockType)arg1 nicknamesUpdated: /* Error: Ran out of types for this method. */;
+- (void)account:(id)arg1 buddyPictureChanged:imageData:imageHash: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (_Bool)undEndpoint:(id)arg1 %@;
+- (void);
+- (id)l sync;
+- (void)ing participant version to version received:(CDUnknownBlockType)arg1 %@;
+- (void)ier:(id)arg1 %@   chat:%@ /* Error: Ran out of types for this method. */;
+- (void)ling.;
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)orNotes"b1"explicit"b1"type"b1"subtype"b1"artwork"b1"stationGlyph"b1"editorialArtwork"b1"attributionLabel"b1"providerName"b1"live"b1"startingAirDate"b1"endingAirDate"b1"subscriptionRequired"b1};
 - (void);
 - (id)1Â0@ù
 × ;
@@ -53,24 +46,7 @@
 - (id)f;
 
 // Remaining properties
-@property(retain, nonatomic) UIWindowSceneActivationConfiguration *activeConfiguration; // @synthesize activeConfiguration=_activeConfiguration;
-@property(retain, nonatomic) _UIWindowSceneActivationEffect *activeEffect; // @synthesize activeEffect=_activeEffect;
-@property(retain, nonatomic) _UIWindowSceneActivationAnimator *animator; // @synthesize animator=_animator;
 @property(copy, nonatomic) CDUnknownBlockType configurationProvider; // @synthesize configurationProvider=_configurationProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N
-
-@property(retain, nonatomic) UIPinchGestureRecognizer *pinchGR; // @synthesize pinchGR=_pinchGR;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

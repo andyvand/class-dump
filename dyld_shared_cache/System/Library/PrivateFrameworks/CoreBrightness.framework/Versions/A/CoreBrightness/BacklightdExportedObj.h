@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemInternal, NSString, NSXPCConnection;
+@class BrightnessSystemInternal;
 
 __attribute__((visibility("hidden")))
 @interface BacklightdExportedObj
 {
     unsigned long long _clientID;
-    _Bool _clientIDSet;
-    BrightnessSystemInternal *_server;
-    NSXPCConnection *_connection;
 }
 
 - (id);
 - (void);
+- (id)2;
 - (id);
-- (id);
+- (void)ADF1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)@9';
 - (void)îÿ_Í'|j;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) BrightnessSystemInternal *server; // @synthesize server=_server;
-@property(readonly) Class superclass;
 
 @end
 

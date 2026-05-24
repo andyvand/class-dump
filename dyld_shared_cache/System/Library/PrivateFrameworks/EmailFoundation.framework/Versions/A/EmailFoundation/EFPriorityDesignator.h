@@ -13,11 +13,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)er cancelled.;
++ (id)_encrypted;
++ (id)e the peripheral keychain entry for %@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long)tableScheduler;
+- (unsigned long long)EFAssertableScheduler;
 
 // Remaining properties
 @property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;

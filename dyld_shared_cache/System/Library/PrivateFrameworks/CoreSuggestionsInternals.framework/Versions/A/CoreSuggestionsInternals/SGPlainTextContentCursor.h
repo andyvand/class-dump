@@ -9,28 +9,16 @@
 @interface SGPlainTextContentCursor
 {
     NSIndexSet *_quoted;
-    struct __CFString *_str;
-    unsigned long long _len;
-    struct {
-        unsigned short buffer[64];
-        struct __CFString *theString;
-        unsigned short *directUniCharBuffer;
-        char *directCStringBuffer;
-        CDStruct_627e0f85 rangeToBuffer;
-        long long bufferedRangeStart;
-        long long bufferedRangeEnd;
-    } _ib;
-    unsigned long long _pos;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)8;
 - (void);
 - (_Bool);
-- (void);
+- (void)};
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);

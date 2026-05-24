@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BWColorLookupCache
 {
     NSObject<OS_dispatch_queue> *_coreImageCacheIsolationQueue;
-    NSMutableDictionary *_coreImageTableCache;
 }
 
 + (void)ror];
 - (void);
+- (id)@;
 - (id);
 - (id);
+- (id)plicitAutoFillMode = YES;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)CameraUsageTypeMask: /* Error: Ran out of types for this method. */;
+- (id)setTimeOfFlightCameraUsageTypeMask: /* Error: Ran out of types for this method. */;
 
 @end
 

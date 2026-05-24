@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SFSpeechRecognitionMetadata, SFTranscription;
+@class NSArray, SFTranscription;
 
 @interface SFSpeechRecognitionResult
 {
     NSArray *_transcriptions;
-    NSArray *_rawTranscriptions;
-    _Bool _final;
-    SFTranscription *_bestTranscription;
-    SFSpeechRecognitionMetadata *_speechRecognitionMetadata;
-    SFTranscription *_rawTranscription;
 }
 
-+ (_Bool);
++ (_Bool)h0;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setLinkStateChangedCount: /* Error: Ran out of types for this method. */;
+- (id)u diff:%lu distance:%lu /* Error: Ran out of types for this method. */;
+- (id)(8p;
 - (id);
 - (id);
 - (id);
@@ -29,25 +24,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_indicesOfCorrectivesToFlattenInOtherCorrective;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SFTranscription *bestTranscription; // @synthesize bestTranscription=_bestTranscription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFinal) _Bool final; // @synthesize final=_final;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) SFTranscription *rawTranscription; // @synthesize rawTranscription=_rawTranscription;
-@property(readonly, copy, nonatomic) NSArray *rawTranscriptions;
-@property(readonly, nonatomic) SFSpeechRecognitionMetadata *speechRecognitionMetadata; // @synthesize speechRecognitionMetadata=_speechRecognitionMetadata;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *transcriptions;
 
 @end
 

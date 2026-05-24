@@ -9,7 +9,6 @@
 @interface CAMetalDisplayLink
 {
     void *_impl;
-    id <CAMetalDisplayLinkDelegate> _delegate;
 }
 
 - (void);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <CAMetalDisplayLinkDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isPaused) _Bool paused;
-@property(nonatomic) float preferredFrameLatency;
-@property(nonatomic) struct CAFrameRateRange preferredFrameRateRange;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
+- (id <NSCollectionLayoutContainer>)=;
 
 // Remaining properties
 @property(readonly) id <NSCollectionLayoutContainer> container;

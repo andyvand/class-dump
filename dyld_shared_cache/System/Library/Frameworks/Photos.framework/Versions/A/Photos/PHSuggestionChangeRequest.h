@@ -6,28 +6,26 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSString, PHObjectPlaceholder, PHRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class PHRelationshipChangeRequestHelper;
 
 @interface PHSuggestionChangeRequest : PHChangeRequest
 {
     PHRelationshipChangeRequestHelper *_keyAssetsHelper;
-    PHRelationshipChangeRequestHelper *_representativeAssetsHelper;
 }
 
 + (void);
++ (id);
 + (id);
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool)ԤN;
 - (id);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void).!%;
 - (void);
 - (void);
 - (void);
@@ -48,72 +46,45 @@
 - (id);
 - (id);
 - (unsigned short);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
+- (void);
+- (void)2;
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (id);
+- (long long)ction without preferredPlayItemId, using first itemId:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)?48;
 - (void);
 - (id);
 - (unsigned short);
+- (void)k	JK;
+- (unsigned short)savedAccountsMatchingCriteria:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)encodePasswordForHighFrequencyBucket: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned short);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)t a time (num frames = %d) ;
 - (id);
 - (unsigned short);
 - (id);
 - (void)!ôDùq1Â0@ù
 × ;
-- (void)omPLResources:includeMetadata:mediaMetadataVirtualResources:asset:photoLibrary:assetHasAdjustments:includeDerivatives:includeAdjustmentOverflowDataBlob: /* Error: Ran out of types for this method. */;
+- (void)_assetResourcesFromPLResources:includeMetadata:mediaMetadataVirtualResources:asset:photoLibrary:assetHasAdjustments:includeDerivatives:includeAdjustmentOverflowDataBlob: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(nonatomic) unsigned long long availableFeatures;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(retain, nonatomic) NSString *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned short featuredState;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
 @property(readonly, nonatomic) PHRelationshipChangeRequestHelper *keyAssetsHelper; // @synthesize keyAssetsHelper=_keyAssetsHelper;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(nonatomic) unsigned short notificationState;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedSuggestion;
-@property(retain, nonatomic) NSString *relatedCollectionUUID;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *representativeAssetsHelper; // @synthesize representativeAssetsHelper=_representativeAssetsHelper;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(retain, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

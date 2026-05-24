@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface WBSAction
 {
     CDUnknownBlockType _handler;
-    NSString *_title;
-    NSImage *_image;
-    NSString *_identifier;
-    NSString *_accessibilityIdentifier;
 }
 
 + (id);
@@ -26,12 +22,9 @@
 - (void);
 - (id);
 - (id);
-- (void)ferenceManagerDefaultsDelegate;
+- (void)WBSPerSitePreferenceManagerDefaultsDelegate;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -9,11 +9,10 @@
 @interface GEORevealedPlaceCardModuleTypeUnifiedActionRow
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_buttons;
 }
 
 + (Class);
-+ (_Bool)onHandler:(id)arg1;
++ (_Bool)setManifestToken:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -21,25 +20,25 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)SURLSession failed to convert resume data:(id)arg1 %{public}@;
+- (void)_createVoiceTriggerEventInfoString:(id)arg1;
+- (id)Z;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)mension of matrix factorization %s (%d).
+;
 - (_Bool);
 - (void);
 - (id)v72@0:(struct _NSZone *)arg1 8@16B24B28@32@40Q48@56@?64;
-- (id)RulesCount;
-- (id)xy;
+- (id)fillRulesCount;
+- (id)GEOAnalyticsDataServiceProxy;
 - (id)only be called once per object;
 - (void)sôø½MOP@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *buttons;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

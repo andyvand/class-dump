@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDMapsIdentifier, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDLinkedPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_center;
-    unsigned long long _featureId;
-    GEOPDMapsIdentifier *_mapsId;
-    NSString *_name;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_featureId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_center:1;
-        unsigned int read_mapsId:1;
-        unsigned int read_name:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
@@ -38,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id)bilitiesParameters";
-- (id)expiryUser;
+- (id)_expiryUser;
 - (id)°T,;
 - (void)`åÐ"<®@;
 

@@ -10,23 +10,23 @@
 {
 }
 
++ (id)C;
++ (id)__ICAccessibilityStringForVariablesSentinel;
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 + (Class);
 + (id);
 + (id);
 + (id);
-- (void);
-- (_Bool);
+- (void)ic_substringWithRange:(id)arg1;
+- (_Bool)_share;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)t;
 - (void);
-- (void);
-- (id);
-- (Class);
+- (void)k;
+- (id)enticateDevicePasswordWithPrompt:(id)arg1 error:(id)arg2 displayWindow:(id)arg3 completionHandler:] /* Error: Ran out of types for this method. */;
+- (Class);
 - (id);
 - (id);
 - (_Bool);

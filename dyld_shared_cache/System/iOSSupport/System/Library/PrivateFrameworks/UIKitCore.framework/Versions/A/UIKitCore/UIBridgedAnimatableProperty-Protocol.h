@@ -7,23 +7,19 @@
 @class UIView;
 
 @protocol UIBridgedAnimatableProperty
+- (void);
+- (void);
 - (id)Ôa;
 - (id)ñ`1Â0@ù
 × ;
-- (UIView *)iVersion;
+- (UIView *)_apiVersion;
 - (id)q,N,S_setTabBarSizing:,V_tabBarSizing /* Error: Ran out of types for this method. */;
-- (_Bool)ler;
+- (_Bool)VCOperatorCreateViewController;
 - (id)this will throw an exception. Returning empty values.;
 - (void)d (%lu).;
 - (void)G;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInvalidated;
-@property(nonatomic) _Bool isVelocityUsableForVFD;
-@property(retain, nonatomic) id presentationValue;
-@property(retain, nonatomic) id transformer;
 @property(retain, nonatomic) id value;
-@property(retain, nonatomic) id velocity;
-@property(readonly, nonatomic) UIView *view;
 @end
 

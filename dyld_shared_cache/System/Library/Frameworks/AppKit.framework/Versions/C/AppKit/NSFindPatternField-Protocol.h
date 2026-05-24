@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu, NSString;
 @protocol NSFindPatternManager;
 
 @protocol NSFindPatternField
+- (NSString *)of Inner Sequence found, before any valid DER.;
+- (NSMenu *)No PowerSource service property BatteryInstalledKey;
+- (_Bool);
 
 // Remaining properties
 @property id <NSFindPatternManager> findPatternManager;

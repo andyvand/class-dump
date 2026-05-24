@@ -5,5 +5,6 @@
 //
 
 @protocol MKPlaceInlineMapViewControllerDelegate
+- (_Bool)iled to set cache_spill %s;
 @end
 

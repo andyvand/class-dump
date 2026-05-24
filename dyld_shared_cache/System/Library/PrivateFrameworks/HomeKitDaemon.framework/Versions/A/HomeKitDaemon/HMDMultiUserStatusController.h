@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol HMDMultiUserStatusControllerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDMultiUserStatusController
 {
     struct os_unfair_lock_s _lock;
-    long long _multiUserState;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDMultiUserStatusControllerDelegate> _delegate;
-    unsigned long long _haveActiveSignedInAccount;
-    unsigned long long _dataSyncState;
 }
 
 + (id)|ïÿ+áHqB;
 - (void);
-- (long long);
+- (long long)@32;
 - (unsigned long long);
+- (id);
+- (unsigned long long)__objc_data;
 - (id);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void)rdToRemoveAllCoreDataFilesWithReason:(unsigned long long)arg1;
+- (void)?;
+- (void)writePostCleanupRecordToRemoveAllCoreDataFilesWithReason:(unsigned long long)arg1;
 - (id)ay",R,C,V_models;
-- (void)_;
+- (void)invitations_;
 
 // Remaining properties
-@property unsigned long long dataSyncState; // @synthesize dataSyncState=_dataSyncState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDMultiUserStatusControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long haveActiveSignedInAccount; // @synthesize haveActiveSignedInAccount=_haveActiveSignedInAccount;
-@property long long multiUserState; // @synthesize multiUserState=_multiUserState;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

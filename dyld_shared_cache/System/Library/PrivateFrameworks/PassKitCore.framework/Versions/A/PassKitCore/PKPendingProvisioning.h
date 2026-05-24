@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKSecureElementProvisioningState;
+@class NSString;
 
 @interface PKPendingProvisioning
 {
     _Bool _shouldAutoProvision;
-    NSString *_uniqueIdentifier;
-    long long _status;
-    NSDate *_createdAt;
-    unsigned long long _provisioningAttemptCounter;
-    PKSecureElementProvisioningState *_provisioningState;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)tch"b1"kRxDataErrors"b1"kRxFrames"b1"kRxGoodPLCP"b1"kRxRetryBitSet"b1"kTxFrames"b1"kTxRetransmission"b1"kdot11MultipleRetryCount"b1"kdot11RTSFailureCount"b1"kdot11RTSSuccessCount"b1"kdot11RetryCount"b1"kMACRxControlFrameMatchingRA"b1"kMACRxControlFrameOtherRA"b1};
+- (void)unt;
 - (id);
 - (void);
 - (id);
@@ -45,11 +40,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(nonatomic) unsigned long long provisioningAttemptCounter; // @synthesize provisioningAttemptCounter=_provisioningAttemptCounter;
-@property(retain, nonatomic) PKSecureElementProvisioningState *provisioningState; // @synthesize provisioningState=_provisioningState;
-@property(nonatomic) _Bool shouldAutoProvision; // @synthesize shouldAutoProvision=_shouldAutoProvision;
-@property(nonatomic) long long status; // @synthesize status=_status;
 @property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

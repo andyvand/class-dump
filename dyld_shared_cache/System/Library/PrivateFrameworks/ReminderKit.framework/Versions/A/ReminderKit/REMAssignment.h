@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, REMObjectID;
-
 @interface REMAssignment
 {
     _Bool __debug_cdAssigneeLinked;
-    _Bool __debug_cdOriginatorLinked;
-    long long _status;
-    REMObjectID *_assigneeID;
-    REMObjectID *_originatorID;
-    REMObjectID *_objectID;
-    REMObjectID *_accountID;
-    REMObjectID *_reminderID;
-    NSDate *_assignedDate;
 }
 
 + (id);
 + (CDUnknownBlockType);
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (id);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (double);
-+ (_Bool);
++ (double)iterRankedHighlightsWithLimit:(id)arg1 client:(id)arg2 variant:reason:error:block: /* Error: Ran out of types for this method. */;
++ (_Bool)from preference_values WHERE preference in (%@) AND domain LIKE ?;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -47,42 +37,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)5%;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)Immediately;
+- (id)test_refreshHashtagLabelsImmediately;
 
 // Remaining properties
-@property(nonatomic) _Bool _debug_cdAssigneeLinked; // @synthesize _debug_cdAssigneeLinked=__debug_cdAssigneeLinked;
-@property(nonatomic) _Bool _debug_cdOriginatorLinked; // @synthesize _debug_cdOriginatorLinked=__debug_cdOriginatorLinked;
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(copy, nonatomic) NSDate *assignedDate; // @synthesize assignedDate=_assignedDate;
-@property(readonly, nonatomic) REMObjectID *assigneeID; // @synthesize assigneeID=_assigneeID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *externalIdentifierForMarkedForDeletionObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) REMObjectID *originatorID; // @synthesize originatorID=_originatorID;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly, nonatomic) REMObjectID *reminderID; // @synthesize reminderID=_reminderID;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

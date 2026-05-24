@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FeedbackLoggerFBFClient, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_os_log;
+@class NSMutableDictionary;
 
 @interface FLContainerStorePathManager
 {
     NSMutableDictionary *_storeIdToContainerPathMap;
-    NSMutableArray *_sandboxExtensionTokens;
-    NSMutableDictionary *_storeIdToLastSandboxExtensionRequestMap;
-    FeedbackLoggerFBFClient *_fbf;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);
@@ -33,11 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) FeedbackLoggerFBFClient *fbf; // @synthesize fbf=_fbf;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(copy, nonatomic) NSMutableArray *sandboxExtensionTokens; // @synthesize sandboxExtensionTokens=_sandboxExtensionTokens;
 @property(copy, nonatomic) NSMutableDictionary *storeIdToContainerPathMap; // @synthesize storeIdToContainerPathMap=_storeIdToContainerPathMap;
-@property(copy, nonatomic) NSMutableDictionary *storeIdToLastSandboxExtensionRequestMap; // @synthesize storeIdToLastSandboxExtensionRequestMap=_storeIdToLastSandboxExtensionRequestMap;
 
 @end
 

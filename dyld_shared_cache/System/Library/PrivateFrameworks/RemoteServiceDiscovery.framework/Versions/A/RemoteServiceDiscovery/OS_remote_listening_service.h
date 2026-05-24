@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface OS_remote_listening_service
 {
     const char *service_name;
-    NSObject<OS_dispatch_queue> *queue;
-    NSObject<OS_xpc_object> *properties;
-    CDUnknownBlockType accept_block;
-    NSMutableArray *proxies;
-    OS_remote_listening_service *next;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)t;
 
 @end
 

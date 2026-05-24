@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSPermanentStorage, NSObject, NSString;
+@class GSPermanentStorage, NSObject;
 @protocol GSAdditionStoring;
 
 __attribute__((visibility("hidden")))
 @interface GSSystemManagedLibrary
 {
     GSPermanentStorage *_ps;
-    NSString *_clientID;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
+- (id)setUsesExternalPlaybackWhileExternalScreenIsActive: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)h;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *nameSpace;
 @property(readonly, nonatomic) NSObject<GSAdditionStoring> *storage;
 
 @end

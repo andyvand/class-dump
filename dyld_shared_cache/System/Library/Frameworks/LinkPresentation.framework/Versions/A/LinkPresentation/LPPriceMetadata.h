@@ -9,26 +9,24 @@
 @interface LPPriceMetadata
 {
     NSString *_amount;
-    NSString *_currency;
 }
 
 + (_Bool);
+- (void)setPopularityScoreValue:(id)arg1;
+- (id)getBinMpduDensity:As: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)uration=%0.3f, queueing=%0.3f, executing=%0.3f, bytesUploaded=%lu, bytesDownloaded=%lu, requests=%lu, connections=%lu, connectionsCreated=%lu;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool) ;
+- (void)hF;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
 
 @end
 

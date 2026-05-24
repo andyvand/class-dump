@@ -12,18 +12,15 @@ __attribute__((visibility("hidden")))
 @interface CKEnglishHaAcknowledgmentGlyphView : CKAcknowledgmentGlyphView
 {
     CKAcknowledgmentGlyphImageView *_h1;
-    CKAcknowledgmentGlyphImageView *_a1;
-    CKAcknowledgmentGlyphImageView *_h2;
-    CKAcknowledgmentGlyphImageView *_a2;
 }
 
 - (void);
 - (void);
+- (void)X ;
 - (void);
-- (void);
-- (id);
-- (id);
-- (struct CGPoint);
+- (id)t;
+- (id)(;
+- (struct CGPoint)e;
 - (void);
 - (long long);
 - (id);
@@ -35,10 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)èÉ[;
 
 // Remaining properties
-@property(retain, nonatomic) CKAcknowledgmentGlyphImageView *a1; // @synthesize a1=_a1;
-@property(retain, nonatomic) CKAcknowledgmentGlyphImageView *a2; // @synthesize a2=_a2;
 @property(retain, nonatomic) CKAcknowledgmentGlyphImageView *h1; // @synthesize h1=_h1;
-@property(retain, nonatomic) CKAcknowledgmentGlyphImageView *h2; // @synthesize h2=_h2;
 
 @end
 

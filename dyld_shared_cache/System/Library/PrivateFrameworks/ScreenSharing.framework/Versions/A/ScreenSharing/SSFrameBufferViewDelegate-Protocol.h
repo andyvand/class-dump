@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SSPanningScrollView;
-
 @protocol SSFrameBufferViewDelegate
+- (_Bool);
+- (void);
 
 // Remaining properties
-@property(readonly) SSPanningScrollView *scrollView;
 @property(readonly) _Bool useAVConference;
 @end
 

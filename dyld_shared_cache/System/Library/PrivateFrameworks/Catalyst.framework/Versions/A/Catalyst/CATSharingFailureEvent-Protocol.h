@@ -7,9 +7,9 @@
 @class NSError;
 
 @protocol CATSharingFailureEvent
+- (NSError *);
 
 // Remaining properties
 @property(readonly, nonatomic) long long failureType;
-@property(readonly, nonatomic) NSError *underlyingError;
 @end
 

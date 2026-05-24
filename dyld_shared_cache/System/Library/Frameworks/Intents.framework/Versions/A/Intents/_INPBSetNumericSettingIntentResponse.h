@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBNumericSettingValue;
+@class NSString;
 
 @interface _INPBSetNumericSettingIntentResponse
 {
     struct _has;
-    NSString *_errorDetail;
-    _INPBNumericSettingValue *_maxValue;
-    _INPBNumericSettingValue *_minValue;
-    _INPBNumericSettingValue *_oldValue;
-    _INPBNumericSettingValue *_updatedValue;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,35 +26,19 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setConnected_callback_self_retain: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)System/Library/PrivateFrameworks/Rapport.framework/Rapport;
 - (id);
 - (id);
-- (void);
+- (void)gentle;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *errorDetail; // @synthesize errorDetail=_errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasMaxValue;
-@property(readonly, nonatomic) _Bool hasMinValue;
-@property(readonly, nonatomic) _Bool hasOldValue;
-@property(readonly, nonatomic) _Bool hasUpdatedValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBNumericSettingValue *maxValue; // @synthesize maxValue=_maxValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *minValue; // @synthesize minValue=_minValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *oldValue; // @synthesize oldValue=_oldValue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBNumericSettingValue *updatedValue; // @synthesize updatedValue=_updatedValue;
 
 @end
 

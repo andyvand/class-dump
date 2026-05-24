@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
 @protocol CHSChronoServicesConnectionClient;
 
 @interface CHSWidgetRelevanceService
 {
     id connection;
-    id connectionClient;
-    id options;
-    id cachePath;
-    id keybagStateProvider;
-    id finishLaunchingToken;
-    id queue;
-    id queue_invalidated;
-    id queue_observers;
-    id queue_widgetRelevanceAssertion;
-    id queue_timelineEntryRelevanceAssertion;
-    id queue_timelineEntryRelevances;
-    id queue_widgetRelevanceCache;
-    id queue_cachedWidgetRelevanceProperties;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@+~N?;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
-- (void);
+- (void)er:(id)arg1 Premature runloop exit, calling cancel;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <CHSChronoServicesConnectionClient> _connectionClient;
-@property(nonatomic, readonly) NSDictionary *timelineEntryRelevances;
-@property(nonatomic, readonly) NSArray *widgetRelevanceProperties;
 
 @end
 

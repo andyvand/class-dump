@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDQueryUnderstandingTaxonomyResult, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDQueryUnderstandingResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_queryIntents;
-    GEOPDQueryUnderstandingTaxonomyResult *_taxonomyResult;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_queryIntents:1;
-        unsigned int read_taxonomyResult:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_shouldSyncToCompanion;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)rray"@"NSError">16@?<v@?B>24;
-- (id)nt;
+- (id)_maxAlternateRoutesCount;
 - (id)Í;
 - (void);
 

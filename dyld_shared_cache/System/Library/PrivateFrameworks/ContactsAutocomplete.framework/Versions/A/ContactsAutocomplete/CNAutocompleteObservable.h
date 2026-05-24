@@ -9,19 +9,17 @@
 @interface CNAutocompleteObservable
 {
     NSString *_debugDescription;
-    CNObservable *_observable;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_itemWithEventID:(id)arg1 affectedByChangesToObjects: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)rder;
+- (id)CNAutocompleteStoreReproStringRecorder;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *debugDescription; // @synthesize debugDescription=_debugDescription;
 @property(retain, nonatomic) CNObservable *observable; // @synthesize observable=_observable;
 
 @end

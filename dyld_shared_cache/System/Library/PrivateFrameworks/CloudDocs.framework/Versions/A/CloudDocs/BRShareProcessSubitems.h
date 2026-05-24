@@ -9,21 +9,18 @@
 @interface BRShareProcessSubitems : BRShareOperation
 {
     CDUnknownBlockType _processSubitemsCompletionBlock;
-    unsigned long long _maxSharedSubitemsBeforeFailure;
-    unsigned long long _processType;
 }
 
 - (void);
-- (void);
+- (void)o ;
 - (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxSharedSubitemsBeforeFailure; // @synthesize maxSharedSubitemsBeforeFailure=_maxSharedSubitemsBeforeFailure;
 @property(copy) CDUnknownBlockType processSubitemsCompletionBlock; // @synthesize processSubitemsCompletionBlock=_processSubitemsCompletionBlock;
 
 @end

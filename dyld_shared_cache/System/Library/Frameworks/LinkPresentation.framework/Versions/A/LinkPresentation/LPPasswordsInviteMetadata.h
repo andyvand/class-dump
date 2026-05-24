@@ -6,16 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPPasswordsInviteMetadata : LPSpecializationMetadata
 {
     NSString *_groupName;
-    NSString *_urlParameters;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_buttonTitle;
-    LPImage *_icon;
 }
 
 + (id);
@@ -23,45 +18,33 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id)auth token;
+- (id)p;
+- (id);
+- (void)l;
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id));
+- (id)9H;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *urlParameters; // @synthesize urlParameters=_urlParameters;
 
 @end
 

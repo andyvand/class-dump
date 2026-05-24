@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface IMMultiDict
 {
     unsigned long long _count;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -24,18 +23,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)NetworkRecovery;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ash_table<std::string, std::weak_ptr<MixTapToUplinkHost>, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>::table_impl>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"mMutationMutex"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}} /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeys;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(retain, nonatomic) NSMutableDictionary *dictionary; // @synthesize dictionary=_dictionary;
 
 @end

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface UIKBGradient
 {
     NSString *_gradientName;
-    NSString *_flatColorName;
-    NSString *_startColorName;
-    NSString *_endColorName;
-    NSArray *_colors;
-    NSArray *_middleLocations;
-    double _opacity;
-    _Bool _horizontal;
-    _Bool _usesRGBColors;
-    _Bool _didQueryRGBColors;
 }
 
 + (id);
@@ -25,29 +16,26 @@
 + (id);
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)g replicated messages from account:(id)arg1 %@, service session not configured for replicated messages;
+- (id)GUIDs provided, returning empty array;
+- (id)MarcoLoggingStringForMessageData;
 - (id);
 - (id);
 - (struct CGGradient *);
 - (_Bool);
 - (id);
-- (id);
+- (id)"NSNumber",C,N,GisCuratorPlaylist;
 - (void)Gù1d°1Â0@ù
 × ;
 - (_Bool)fier:(id)arg1 designatedMenuIdentifier: /* Error: Ran out of types for this method. */;
-- (double)originalFromValueForKey:inLayer: /* Error: Ran out of types for this method. */;
-- (id)ricsCalculating;
-- (void)imateTrackAlphaTo:(double)arg1 0;
+- (double)_originalFromValueForKey:inLayer: /* Error: Ran out of types for this method. */;
+- (id)_UISceneMetricsCalculating;
+- (void)animateTrackAlphaTo:(double)arg1 0;
 - (_Bool)nd released or never created for %@;
 - (void)è{êÿq;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *flatColorName;
-@property(nonatomic) _Bool horizontal; // @synthesize horizontal=_horizontal;
 @property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) _Bool usesRGBColors;
 
 @end
 

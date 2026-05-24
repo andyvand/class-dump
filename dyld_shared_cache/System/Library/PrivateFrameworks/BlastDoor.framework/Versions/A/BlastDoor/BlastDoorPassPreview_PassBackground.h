@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorColor, BlastDoorPassPreview_PassImage, NSString;
+@class NSString;
 
 @interface BlastDoorPassPreview_PassBackground
 {
@@ -14,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)No animation block for identifier %@;
 - (void)á60T;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorColor *color;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorPassPreview_PassImage *image;
 
 @end
 

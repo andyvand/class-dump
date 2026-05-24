@@ -7,8 +7,6 @@
 @interface NewsUI2.SubscriberAdSegmentProvider
 {
     id needsUpdate;
-    id purchaseController;
-    id tagService;
 }
 
 - (void);

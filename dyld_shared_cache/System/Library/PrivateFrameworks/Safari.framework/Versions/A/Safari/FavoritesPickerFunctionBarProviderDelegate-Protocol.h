@@ -5,5 +5,8 @@
 //
 
 @protocol FavoritesPickerFunctionBarProviderDelegate
+
+@optional
+- (void);
 @end
 

@@ -7,10 +7,6 @@
 @interface ChatKit.ViewMorphAnimator.MorphContainerView
 {
     id debug;
-    id sourceContentView;
-    id destinationContentView;
-    id sourceTransformableView;
-    id destinationTransformableView;
 }
 
 - (id);

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBContactHandle
 {
     struct {
@@ -14,12 +12,6 @@
         unsigned int suggested:1;
         unsigned int type:1;
     } _has;
-    _Bool _suggested;
-    int _emergencyType;
-    int _faceTimeType;
-    int _type;
-    NSString *_label;
-    NSString *_value;
 }
 
 + (_Bool);
@@ -28,11 +20,11 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)PhysicalInputProfile"32@0:(id)arg1 8@"_GCDefaultLogicalDevice"16@"<NSObject><NSCopying><NSSecureCoding>"24;
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
@@ -41,8 +33,8 @@
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)16q24@32^B40@48^@56;
+- (void)orewifi] %{public}s (%{public}s:(id)arg1 %u) null accessory;
 - (void);
 - (_Bool);
 - (id);
@@ -59,28 +51,10 @@
 - (_Bool)L;
 - (void);
 - (void);
-- (_Bool)rchForNotebookItems: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultLocationForSearchForNotebookItems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int emergencyType; // @synthesize emergencyType=_emergencyType;
-@property(nonatomic) int faceTimeType; // @synthesize faceTimeType=_faceTimeType;
-@property(nonatomic) _Bool hasEmergencyType;
-@property(nonatomic) _Bool hasFaceTimeType;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasSuggested;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) _Bool suggested; // @synthesize suggested=_suggested;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

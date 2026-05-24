@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKAddSecureElementPassConfiguration
 {
     NSString *_issuerIdentifier;
-    NSString *_localizedDescription;
-    long long _configurationType;
-    unsigned long long _allowManagedAppleID;
-    NSData *_analyticsArchivedParentToken;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (_Bool);
 - (id);
@@ -32,15 +28,11 @@
 - (long long);
 - (void);
 - (id);
-- (id)aymentApplicationStateMessageOverride;
-- (void)ntifier;
+- (id)PKPaymentApplicationStateMessageOverride;
+- (void)terminalReaderIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allowManagedAppleID; // @synthesize allowManagedAppleID=_allowManagedAppleID;
-@property(copy, nonatomic) NSData *analyticsArchivedParentToken; // @synthesize analyticsArchivedParentToken=_analyticsArchivedParentToken;
 @property(readonly, nonatomic) long long configurationType; // @synthesize configurationType=_configurationType;
-@property(copy, nonatomic) NSString *issuerIdentifier; // @synthesize issuerIdentifier=_issuerIdentifier;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 
 @end
 

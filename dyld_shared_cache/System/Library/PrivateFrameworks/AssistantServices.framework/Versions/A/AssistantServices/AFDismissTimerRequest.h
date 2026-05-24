@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)n;
+- (void)_virgin;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *timerURLs; // @synthesize timerURLs=_timerURLs;

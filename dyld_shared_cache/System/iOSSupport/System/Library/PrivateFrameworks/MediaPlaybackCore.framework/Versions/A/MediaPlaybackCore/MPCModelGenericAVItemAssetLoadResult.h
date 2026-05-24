@@ -4,39 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemAssetLoadResult
 {
     _Bool _allowsAssetCaching;
-    _Bool _allowsAssetInfoCaching;
-    _Bool _isHomeSharingAsset;
-    _Bool _isHLSAsset;
-    _Bool _isCloudStreamingAsset;
-    _Bool _onlineSubscriptionKeysRequired;
-    _Bool _iTunesStoreStream;
-    _Bool _downloadedAsset;
-    NSString *_assetPathExtension;
-    long long _assetProtectionType;
-    long long _assetQualityType;
-    NSURL *_assetURL;
-    NSURL *_protectedContentSupportStorageFileURL;
-    NSDictionary *_purchaseBundleDictionary;
-    NSURL *_streamingKeyCertificateURL;
-    NSURL *_streamingKeyServerURL;
-    NSString *_keyServerProtocolType;
-    NSNumber *_streamingKeyAdamID;
-    NSURL *_alternateHLSPlaylistURL;
-    NSURL *_alternateHLSKeyServerURL;
-    NSURL *_alternateHLSKeyCertificateURL;
-    id _suzeLeaseID;
-    CDUnknownBlockType _willBecomeActivePlayerItemHandler;
-    long long _audioAssetType;
-    long long _source;
 }
 
-+ (id);
++ (id)isWarmingUp;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -46,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,15 +39,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)y Photo Stream in library bundle at %@;
 - (long long);
 - (long long);
-- (long long);
+- (long long)__objc_ivar;
 - (id);
+- (id)__objc_imageinfo__DATA_CONST;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)__objc_protolist__DATA_CONST;
+- (_Bool)__DATA_CONST;
 - (_Bool);
 - (void);
 - (void);
@@ -94,31 +68,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool allowsAssetCaching; // @synthesize allowsAssetCaching=_allowsAssetCaching;
-@property(nonatomic) _Bool allowsAssetInfoCaching; // @synthesize allowsAssetInfoCaching=_allowsAssetInfoCaching;
-@property(copy, nonatomic) NSURL *alternateHLSKeyCertificateURL; // @synthesize alternateHLSKeyCertificateURL=_alternateHLSKeyCertificateURL;
-@property(copy, nonatomic) NSURL *alternateHLSKeyServerURL; // @synthesize alternateHLSKeyServerURL=_alternateHLSKeyServerURL;
-@property(copy, nonatomic) NSURL *alternateHLSPlaylistURL; // @synthesize alternateHLSPlaylistURL=_alternateHLSPlaylistURL;
-@property(copy, nonatomic) NSString *assetPathExtension; // @synthesize assetPathExtension=_assetPathExtension;
-@property(nonatomic) long long assetProtectionType; // @synthesize assetProtectionType=_assetProtectionType;
-@property(nonatomic) long long assetQualityType; // @synthesize assetQualityType=_assetQualityType;
-@property(copy, nonatomic) NSURL *assetURL; // @synthesize assetURL=_assetURL;
-@property(nonatomic) long long audioAssetType; // @synthesize audioAssetType=_audioAssetType;
-@property(nonatomic, getter=isDownloadedAsset) _Bool downloadedAsset; // @synthesize downloadedAsset=_downloadedAsset;
-@property(readonly, nonatomic) _Bool hasValidAsset;
-@property(nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream; // @synthesize iTunesStoreStream=_iTunesStoreStream;
-@property(nonatomic) _Bool isCloudStreamingAsset; // @synthesize isCloudStreamingAsset=_isCloudStreamingAsset;
-@property(nonatomic) _Bool isHLSAsset; // @synthesize isHLSAsset=_isHLSAsset;
-@property(nonatomic) _Bool isHomeSharingAsset; // @synthesize isHomeSharingAsset=_isHomeSharingAsset;
-@property(copy, nonatomic) NSString *keyServerProtocolType; // @synthesize keyServerProtocolType=_keyServerProtocolType;
-@property(nonatomic) _Bool onlineSubscriptionKeysRequired; // @synthesize onlineSubscriptionKeysRequired=_onlineSubscriptionKeysRequired;
-@property(copy, nonatomic) NSURL *protectedContentSupportStorageFileURL; // @synthesize protectedContentSupportStorageFileURL=_protectedContentSupportStorageFileURL;
-@property(copy, nonatomic) NSDictionary *purchaseBundleDictionary; // @synthesize purchaseBundleDictionary=_purchaseBundleDictionary;
-@property(nonatomic) long long source; // @synthesize source=_source;
-@property(copy, nonatomic) NSNumber *streamingKeyAdamID; // @synthesize streamingKeyAdamID=_streamingKeyAdamID;
-@property(copy, nonatomic) NSURL *streamingKeyCertificateURL; // @synthesize streamingKeyCertificateURL=_streamingKeyCertificateURL;
-@property(copy, nonatomic) NSURL *streamingKeyServerURL; // @synthesize streamingKeyServerURL=_streamingKeyServerURL;
-@property(retain, nonatomic) id suzeLeaseID; // @synthesize suzeLeaseID=_suzeLeaseID;
-@property(copy, nonatomic) CDUnknownBlockType willBecomeActivePlayerItemHandler; // @synthesize willBecomeActivePlayerItemHandler=_willBecomeActivePlayerItemHandler;
 
 @end
 

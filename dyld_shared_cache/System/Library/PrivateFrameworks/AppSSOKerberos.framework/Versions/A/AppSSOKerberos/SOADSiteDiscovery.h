@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString, SODNSSRVQuery;
+@class NSString;
 
 @interface SOADSiteDiscovery
 {
     NSString *_realm;
-    NSOperationQueue *_queue;
-    SODNSSRVQuery *_dns;
 }
 
 - (void);
@@ -19,15 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)eEngagement = positiveEngagement + :positiveEngagement, noEngagement = noEngagement - 1 /* Error: Ran out of types for this method. */;
+- (void)@-&;
+- (id)weakObjectsHashTable;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) SODNSSRVQuery *dns; // @synthesize dns=_dns;
-@property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) NSString *realm; // @synthesize realm=_realm;
 
 @end

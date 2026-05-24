@@ -7,7 +7,6 @@
 @interface AppKit.MenuRecord
 {
     id id;
-    id items;
 }
 
 @end

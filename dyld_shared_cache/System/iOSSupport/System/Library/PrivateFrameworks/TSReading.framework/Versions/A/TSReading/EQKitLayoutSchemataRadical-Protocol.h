@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EQKitLayoutNode;
+
 @protocol EQKitLayoutSchemataRadical
+- (id <EQKitLayoutNode>)temExistsForContentItemID (MPCQueueControllerBehaviorItemTypeEndOfQueuePlaceholder):%@ /* Error: Ran out of types for this method. */;
+- (id <EQKitLayoutNode>)unknown type:%@] /* Error: Ran out of types for this method. */;
 @end
 

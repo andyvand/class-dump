@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UITraitCollection;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CNTestQuickActionViewContainer
@@ -13,20 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)?G;
 - (id);
-- (id);
-- (void)calContacts: /* Error: Ran out of types for this method. */;
+- (void)addContactsOptionsSheetViewControllerDidSelectAddFromLocalContacts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *actionViewsByActionType; // @synthesize actionViewsByActionType=_actionViewsByActionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
 
 @end
 

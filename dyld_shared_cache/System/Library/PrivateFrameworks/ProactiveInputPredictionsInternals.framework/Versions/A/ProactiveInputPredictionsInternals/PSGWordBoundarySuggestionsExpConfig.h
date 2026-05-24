@@ -4,47 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIClient, TRIExperimentIdentifiers, TRIRolloutIdentifiers;
+@class NSString, TRIClient;
 
 @interface PSGWordBoundarySuggestionsExpConfig
 {
     TRIClient *_trialClient;
-    NSString *_namespaceName;
-    _Bool _isMLModelEnabled;
-    NSString *_treatmentName;
-    NSString *_inferenceModelDescription;
-    TRIRolloutIdentifiers *_rolloutIdentifiers;
-    TRIExperimentIdentifiers *_experimentIdentifiers;
-    NSString *_inferenceModelConfigPath;
-    NSString *_espressoBinFilePath;
 }
 
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)t;
 - (id);
 - (void);
 - (id);
+- (void)on;
+- (id)NSt3__110__function6__funcIZN11cnframework12ActiveObjectIN5raven31RavenDeviceAttitudeActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_18RavenSolutionEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
 - (id);
-- (void);
+- (void)@28@0:8r^d16i24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *espressoBinFilePath; // @synthesize espressoBinFilePath=_espressoBinFilePath;
-@property(readonly, nonatomic) TRIExperimentIdentifiers *experimentIdentifiers; // @synthesize experimentIdentifiers=_experimentIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *inferenceModelConfigPath; // @synthesize inferenceModelConfigPath=_inferenceModelConfigPath;
-@property(readonly, nonatomic) NSString *inferenceModelDescription; // @synthesize inferenceModelDescription=_inferenceModelDescription;
-@property(readonly, nonatomic) _Bool isMLModelEnabled; // @synthesize isMLModelEnabled=_isMLModelEnabled;
-@property(readonly, nonatomic) TRIRolloutIdentifiers *rolloutIdentifiers; // @synthesize rolloutIdentifiers=_rolloutIdentifiers;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *treatmentName; // @synthesize treatmentName=_treatmentName;
 
 @end

@@ -6,22 +6,13 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class NLModelConfiguration, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NLModelImplNX : NLModelImpl
 {
     void *_nlModel;
-    void *_modelContainer;
-    NLModelConfiguration *_configuration;
-    NSDictionary *_labelMap;
-    unsigned long long _numberOfTrainingInstances;
-    NSString *_trainingLanguage;
-    NSString *_trainingEmbeddingType;
-    NSString *_embeddingModelIdentifier;
 }
 
-- (id);
+- (id)requiresInputSourceSelectionForAttachedKeyboards];
 - (id);
 - (id);
 - (id);
@@ -31,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addSearchRankingWithLabel:(id)arg1 identifier:(unsigned long long)arg2 type:rankingScore:localeIdentifier:synonyms: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)_defaultRequiredInterval;
 - (void);
 
 @end

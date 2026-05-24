@@ -7,11 +7,12 @@
 @class NSError;
 
 @protocol CDPRPDLedger
+- (NSError *)StartPageOnboardingCollectionViewItemConfiguration;
+- (NSError *)_TtCC6Safari38CompletionListCollectionViewController20CollectionViewLayout;
+- (unsigned long long)VisualTabPickerTransitionPerformanceTracker;
+- (_Bool)WebAppIconMetrics;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOfferRPD;
-@property(readonly, nonatomic) unsigned long long escapeOffersPresented;
-@property(readonly, nonatomic) NSError *manateeRPDBlockingError;
-@property(readonly, nonatomic) NSError *rpdBlockingError;
 @end
 

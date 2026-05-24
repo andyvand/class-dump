@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface CKImageBalloonPluginDatasource
 {
     CKMediaObject *_mediaObject;
-    CKBalloonView *_balloonView;
 }
 
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)i;
+- (id)SearchIndexer;
 - (void);
 - (id);
 - (void);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CKBalloonView *balloonView; // @synthesize balloonView=_balloonView;
-@property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
 
 @end
 

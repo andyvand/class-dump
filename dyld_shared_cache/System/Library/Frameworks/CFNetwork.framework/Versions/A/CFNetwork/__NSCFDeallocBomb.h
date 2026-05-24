@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface __NSCFDeallocBomb
 {
     id object;
-    SEL method;
-    _Bool disarmed;
 }
 
-- (void);
+- (void)ecandragujarati;
 - (void)@;
 
 @end

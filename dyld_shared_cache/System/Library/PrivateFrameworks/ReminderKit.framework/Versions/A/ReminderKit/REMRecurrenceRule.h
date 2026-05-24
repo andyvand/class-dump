@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMObjectID, REMRecurrenceEnd;
+@class REMObjectID, REMRecurrenceEnd;
 
 @interface REMRecurrenceRule
 {
     REMRecurrenceEnd *_recurrenceEnd;
-    long long _frequency;
-    long long _interval;
-    long long _firstDayOfTheWeek;
-    NSArray *_daysOfTheWeek;
-    NSArray *_daysOfTheMonth;
-    NSArray *_daysOfTheYear;
-    NSArray *_weeksOfTheYear;
-    NSArray *_monthsOfTheYear;
-    NSArray *_setPositions;
-    REMObjectID *_objectID;
-    REMObjectID *_accountID;
-    REMObjectID *_reminderID;
 }
 
 + (id);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 + (id);
@@ -36,7 +24,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);
@@ -46,16 +34,16 @@
 - (id);
 - (id);
 - (id);
+- (id)m"8Q16^B24;
 - (id);
+- (long long)KEY NOT NULL,subject TEXT NOT NULL,predicate TEXT NOT NULL,object TEXT NOT NULL,count INTEGER DEFAULT 1,attributes TEXT);CREATE TABLE "intval"(k TEXT PRIMARY KEY NOT NULL,v INTEGER);CREATE TABLE "realval"(k TEXT PRIMARY KEY NOT NULL,v REAL);CREATE TABLE "textval"(k TEXT PRIMARY KEY NOT NULL,v TEXT);CREATE TABLE "blobval"(k TEXT PRIMARY KEY NOT NULL,v BLOB);PRAGMA case_sensitive_like = true;
+- (id)lect count from link where id = ?;
+- (id)outOfAppLaunchBoundaryDonationsCountByIntentTypeAndBundleId;
+- (id);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)J;
 - (id);
 - (_Bool);
 - (void);
@@ -65,24 +53,11 @@
 - (id);
 - (void)0@ù
 × ;
-- (id)on;
+- (id)showUrgentRemindersCompleteButton;
 - (long long)Result != REMClockElementsComparisonResultDescending) -- Can only update with a newer version.;
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSArray *daysOfTheMonth; // @synthesize daysOfTheMonth=_daysOfTheMonth;
-@property(readonly, nonatomic) NSArray *daysOfTheWeek; // @synthesize daysOfTheWeek=_daysOfTheWeek;
-@property(readonly, nonatomic) NSArray *daysOfTheYear; // @synthesize daysOfTheYear=_daysOfTheYear;
-@property(readonly, nonatomic) long long firstDayOfTheWeek; // @synthesize firstDayOfTheWeek=_firstDayOfTheWeek;
-@property(readonly, nonatomic) long long frequency; // @synthesize frequency=_frequency;
-@property(readonly, nonatomic) long long interval; // @synthesize interval=_interval;
-@property(readonly, nonatomic) NSArray *monthsOfTheYear; // @synthesize monthsOfTheYear=_monthsOfTheYear;
 @property(readonly, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, copy, nonatomic) REMRecurrenceEnd *recurrenceEnd; // @synthesize recurrenceEnd=_recurrenceEnd;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly, nonatomic) REMObjectID *reminderID; // @synthesize reminderID=_reminderID;
-@property(readonly, nonatomic) NSArray *setPositions; // @synthesize setPositions=_setPositions;
-@property(readonly, nonatomic) NSArray *weeksOfTheYear; // @synthesize weeksOfTheYear=_weeksOfTheYear;
 
 @end
 

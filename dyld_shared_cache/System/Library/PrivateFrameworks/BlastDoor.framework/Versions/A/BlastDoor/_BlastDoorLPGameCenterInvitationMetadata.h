@@ -6,16 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPGameCenterInvitationMetadata : _BlastDoorLPSpecializationMetadata
 {
     unsigned int _numberOfPlayers;
-    unsigned int _minimumNumberOfPlayers;
-    unsigned int _maximumNumberOfPlayers;
-    NSString *_game;
-    _BlastDoorLPImage *_image;
-    _BlastDoorLPImage *_icon;
 }
 
 + (id);
@@ -31,22 +26,17 @@
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);;
+- (id)';
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *game; // @synthesize game=_game;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) _BlastDoorLPImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned int maximumNumberOfPlayers; // @synthesize maximumNumberOfPlayers=_maximumNumberOfPlayers;
-@property(nonatomic) unsigned int minimumNumberOfPlayers; // @synthesize minimumNumberOfPlayers=_minimumNumberOfPlayers;
-@property(nonatomic) unsigned int numberOfPlayers; // @synthesize numberOfPlayers=_numberOfPlayers;
 
 @end
 

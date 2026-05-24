@@ -12,13 +12,14 @@
 }
 
 + (id);
-+ (id);
++ (id)#ll{flags} -> %#ll{flags}.
+;
 + (id);
 + (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (id)_copyPublicKeyDataForAllIdentitiesInSet:withService: /* Error: Ran out of types for this method. */;
 - (void)ú#;
 

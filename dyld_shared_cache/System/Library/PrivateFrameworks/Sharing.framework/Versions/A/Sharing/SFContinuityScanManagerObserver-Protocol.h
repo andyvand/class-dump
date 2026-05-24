@@ -5,5 +5,6 @@
 //
 
 @protocol SFContinuityScanManagerObserver
+- (void);
 @end
 

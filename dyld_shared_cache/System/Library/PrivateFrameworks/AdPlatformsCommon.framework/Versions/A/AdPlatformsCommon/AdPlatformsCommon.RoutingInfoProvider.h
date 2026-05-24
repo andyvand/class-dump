@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.RoutingInfoProvider
 {
     id storage;
-    id executionEnvironment;
 }
 
 @end

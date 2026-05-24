@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UILabelMarqueeAnimationDelegate
 {
     _Bool _started;
-    _Bool _updated;
-    _Bool _suppressEnded;
-    UILabel *_label;
 }
 
 - (_Bool);
@@ -25,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)Ø\þ?è`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UILabel *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressEnded; // @synthesize suppressEnded=_suppressEnded;
 
 @end
 

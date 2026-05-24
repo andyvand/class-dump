@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIImage;
+@class UIImage;
 
 @interface CKMediaObjectImageProvider
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_lock_requestDetailsByRequestID;
-    NSMutableDictionary *_lock_mediaObjectsPendingTransferFinalizationByRequestID;
-    NSMutableDictionary *_lock_activeRequestIDsByTransferGUID;
-    UIImage *_testImage;
 }
 
-- (id);
-- (void);
+- (id)ensureLegacyFolderIsValid:(id)arg1;
+- (void)_folderListSectionIdentifiersToButtonIdentifiers;
 - (long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ButtonMenuStyle;
 - (long long);
 - (long long);
-- (void);
+- (void)C;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long numberOfOutstandingHandlers;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UIImage *testImage; // @synthesize testImage=_testImage;
 
 @end

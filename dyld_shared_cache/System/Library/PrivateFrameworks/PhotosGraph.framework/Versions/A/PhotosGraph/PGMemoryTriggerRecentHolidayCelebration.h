@@ -10,9 +10,9 @@
 {
 }
 
+- (id)__objc_data;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)sourceBundleIdentifier;
 
 @end
 

@@ -10,8 +10,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)webQueryWithSupportedNetworkIDs:(id)arg1 merchantCapabilities:merchantCountryCode:paymentMode:paymentApplicationStates:isMultiTokensRequest:webService: /* Error: Ran out of types for this method. */;
++ (id)newAutomaticReloadPaymentRequest;
 + (id);
 + (id)ock;
 

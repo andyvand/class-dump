@@ -6,43 +6,29 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, AMSUIWebClientContext, NSArray, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebBagAction : AMSUIWebAction
 {
     ACAccount *_account;
-    NSString *_profile;
-    NSString *_profileVersion;
-    NSArray *_requestedKeys;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)EnableLinguisticDataAutoAsset;
+- (id)@;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)6;
+- (void)not create clContext with GCL_SHAREGROUP_APPLE (error code %d);
 - (void)"AMSUIDynamicViewController"16@"AMSCarrierLinkResult"24@"NSError"32;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *profile; // @synthesize profile=_profile;
-@property(retain) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
-@property(retain) NSArray *requestedKeys; // @synthesize requestedKeys=_requestedKeys;
-@property(readonly) Class superclass;
 
 @end
 

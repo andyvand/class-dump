@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)ent;
 + (void);
-- (unsigned long long);
+- (unsigned long long);
 
 @end
 

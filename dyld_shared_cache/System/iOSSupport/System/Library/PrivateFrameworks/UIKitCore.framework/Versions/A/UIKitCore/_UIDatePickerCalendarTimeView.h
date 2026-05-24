@@ -6,52 +6,37 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSCalendar, NSLocale, NSString, UILabel, _UIDatePickerCalendarTime, _UIDatePickerCompactTimeLabel, _UIDatePickerOverlayPresentation;
-@protocol _UIDatePickerCalendarTimeViewDelegate;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCalendarTimeView : UIView
 {
     _Bool _showsTimeLabel;
-    _Bool _followsSystemHourCycle;
-    NSString *_timeLocaleIdentifier;
-    NSArray *_clockLayoutConstraints;
-    _UIDatePickerOverlayPresentation *_presentation;
-    _Bool _roundsToMinuteInterval;
-    _Bool _shouldShowTimeLabel;
-    id <_UIDatePickerCalendarTimeViewDelegate> _delegate;
-    NSCalendar *_calendar;
-    NSLocale *_locale;
-    NSString *_customFontDesign;
-    long long _minuteInterval;
-    _UIDatePickerCalendarTime *_selectedTime;
-    UILabel *_timeLabel;
-    _UIDatePickerCompactTimeLabel *_timeTextField;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void)0:(long long)arg1 8@16@24{_NSRange=QQ}32@48@56@64@72@80;
+- (void)simulateDowngradeRequestFromID:(id)arg1 fromService:toService:expirationDate: /* Error: Ran out of types for this method. */;
+- (id)sendBalloonPayload:attachments:withMessageGUID:bundleID: /* Error: Ran out of types for this method. */;
+- (_Bool)pabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
+- (void)offGridModeForHandle:(id)arg1;
+- (void)offGridAvailabilitySubscriptionService;
+- (id)bleMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (long long):participants: /* Error: Ran out of types for this method. */;
+- (id)Replication;
+- (id)IMDServiceAttachmentController;
 - (void);
+- (void);
 - (void);
-- (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (void)SaySo8CKRecordCG;
+- (void)Byyy_;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)than one participant;
 - (void);
 - (void);
 - (id);
@@ -60,33 +45,17 @@ __attribute__((visibility("hidden")))
 - (void)1Â0@ù
 × ;
 - (id)"_context"^v"_name"*};
-- (void)rDidChange: /* Error: Ran out of types for this method. */;
-- (id)ent: /* Error: Ran out of types for this method. */;
-- (void)FrameWithOffsetElidedForItemWithLayoutAttributes:(id)arg1 frame: /* Error: Ran out of types for this method. */;
-- (id)dedData;
+- (void)textInputResponderDidChange: /* Error: Ran out of types for this method. */;
+- (id)setLiftForceExponent: /* Error: Ran out of types for this method. */;
+- (void)orthogonalFrameWithOffsetElidedForItemWithLayoutAttributes:(id)arg1 frame: /* Error: Ran out of types for this method. */;
+- (id)_clearLoadedData;
 - (_Bool)¾;
 - (void)¬Ðþÿ;
 - (void);
-- (id);
+- (id)Jb;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(copy, nonatomic) NSString *customFontDesign; // @synthesize customFontDesign=_customFontDesign;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIDatePickerCalendarTimeViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) long long minuteInterval; // @synthesize minuteInterval=_minuteInterval;
-@property(nonatomic) _Bool roundsToMinuteInterval; // @synthesize roundsToMinuteInterval=_roundsToMinuteInterval;
-@property(readonly, nonatomic) _UIDatePickerCalendarTime *selectedTime; // @synthesize selectedTime=_selectedTime;
-@property(nonatomic) _Bool shouldShowTimeLabel; // @synthesize shouldShowTimeLabel=_shouldShowTimeLabel;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UILabel *timeLabel; // @synthesize timeLabel=_timeLabel;
-@property(readonly, nonatomic) _UIDatePickerCompactTimeLabel *timeTextField; // @synthesize timeTextField=_timeTextField;
 
 @end
 

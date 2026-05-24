@@ -5,5 +5,14 @@
 //
 
 @protocol SKServiceProtocol
+- (void)!;
+- (void);
+- (void)@;
+- (void)zR;
+- (void)\;
+- (void)$;
+- (void)l@;
+- (void)4H;
+- (void);
 @end
 

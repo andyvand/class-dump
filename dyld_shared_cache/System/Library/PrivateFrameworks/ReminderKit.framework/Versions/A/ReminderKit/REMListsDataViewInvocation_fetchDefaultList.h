@@ -11,10 +11,10 @@
     _Bool _debug_useInMemoryPreferredDefaultListStorage;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

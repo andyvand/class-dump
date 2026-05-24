@@ -5,7 +5,7 @@
 //
 
 @protocol CPKSelectable
-- (_Bool)endMixmojiToCreationView: /* Error: Ran out of types for this method. */;
+- (_Bool)sendMixmojiToCreationView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool selected;

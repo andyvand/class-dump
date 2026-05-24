@@ -13,18 +13,18 @@
     EKUICalendarPopUpButton *_calendarPicker;
 }
 
-+ (id);
++ (id)	;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (double);
-- (double);
+- (double);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)*;
 - (id);
 - (id);
 - (double);

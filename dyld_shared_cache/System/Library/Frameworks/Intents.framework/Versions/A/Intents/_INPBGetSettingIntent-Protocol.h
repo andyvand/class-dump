@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBSettingMetadata;
+@class _INPBIntentMetadata;
 
 @protocol _INPBGetSettingIntent
-- (_Bool)ings;
+- (_INPBIntentMetadata *)o set snapshot version (%ld) on snapshot:%@ /* Error: Ran out of types for this method. */;
+- (void)C;
+- (_Bool)availableBookings;
 
 // Remaining properties
 @property(nonatomic) int confirmationValue;
-@property(nonatomic) _Bool hasConfirmationValue;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata;
 @end
 

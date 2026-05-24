@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, AXKApplicationController, NSArray;
+@class AXFUIElement;
 
 @interface AXKElementController
 {
     _Bool __didRegisterSelectedChildrenChangedNotification;
-    _Bool _isMenuController;
-    AXKApplicationController *_applicationController;
-    AXKElementController *_parentController;
-    NSArray *_childControllers;
-    NSArray *_navigationOrderChildControllers;
-    AXFUIElement *_representedElement;
-    NSArray *__horizontallyOrderedChildControllers;
-    NSArray *__verticallyOrderedChildControllers;
-    unsigned long long _layoutHash;
-    AXKElementController *_menuControllerSelectedItem;
-    AXKElementController *_menuControllerSubMenuController;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void);
 + (Class);
 + (void);
 + (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -37,10 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,80 +42,63 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
+- (_Bool)T;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)(;
+- (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id)*;
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)63;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id));
 - (id);
 - (unsigned long long);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)undoManager;
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void)setBorderedFrameCenter: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool _didRegisterSelectedChildrenChangedNotification; // @synthesize _didRegisterSelectedChildrenChangedNotification=__didRegisterSelectedChildrenChangedNotification;
-@property(retain, nonatomic, setter=_setHorizontallyOrderedChildControllers:) NSArray *_horizontallyOrderedChildControllers; // @synthesize _horizontallyOrderedChildControllers=__horizontallyOrderedChildControllers;
-@property(retain, nonatomic, setter=_setVerticallyOrderedChildControllers:) NSArray *_verticallyOrderedChildControllers; // @synthesize _verticallyOrderedChildControllers=__verticallyOrderedChildControllers;
-@property(readonly, nonatomic) __weak AXKApplicationController *applicationController; // @synthesize applicationController=_applicationController;
-@property(retain, nonatomic) NSArray *childControllers; // @synthesize childControllers=_childControllers;
-@property(readonly, nonatomic) NSArray *horizontallyOrderedChildControllers;
-@property(nonatomic) _Bool isMenuController; // @synthesize isMenuController=_isMenuController;
-@property(nonatomic) unsigned long long layoutHash; // @synthesize layoutHash=_layoutHash;
-@property(retain, nonatomic) AXKElementController *menuControllerSelectedItem; // @synthesize menuControllerSelectedItem=_menuControllerSelectedItem;
-@property(retain, nonatomic) AXKElementController *menuControllerSubMenuController; // @synthesize menuControllerSubMenuController=_menuControllerSubMenuController;
-@property(retain, nonatomic) NSArray *navigationOrderChildControllers; // @synthesize navigationOrderChildControllers=_navigationOrderChildControllers;
-@property(nonatomic) __weak AXKElementController *parentController; // @synthesize parentController=_parentController;
 @property(retain, nonatomic) AXFUIElement *representedElement; // @synthesize representedElement=_representedElement;
-@property(readonly, nonatomic, getter=isSelectable) _Bool selectable;
-@property(readonly, nonatomic, getter=isSelected) _Bool selected;
-@property(readonly, copy, nonatomic) NSArray *selectedChildControllers;
-@property(readonly, nonatomic) NSArray *supportedActions;
-@property(readonly, nonatomic) NSArray *verticallyOrderedChildControllers;
 
 @end
 

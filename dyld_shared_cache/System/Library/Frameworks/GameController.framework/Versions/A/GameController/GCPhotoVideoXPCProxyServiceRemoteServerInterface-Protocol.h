@@ -5,5 +5,7 @@
 //
 
 @protocol GCPhotoVideoXPCProxyServiceRemoteServerInterface
+- (void);
+- (void)$;
 @end
 

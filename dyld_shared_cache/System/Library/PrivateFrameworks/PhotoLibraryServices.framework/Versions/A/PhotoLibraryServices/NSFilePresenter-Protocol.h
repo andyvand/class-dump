@@ -8,6 +8,11 @@
 - (id)eration for %{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
 
 @optional
+- (id)_GNӲ:yA44_A40_GGGGADG_A19_tGADGSgtGG /* Error: Ran out of types for this method. */;
+- (id)SAFETY_SETTINGS_BODY;
+- (id)tension;
+- (id)E9'J4*J
+;
 - (id)ëÌîäî¬ïÐòPô	@øPø°ú;
 @end
 

@@ -7,12 +7,10 @@
 @interface AMSFairPlayDeviceIdentity
 {
     id persistentSessionCache;
-    id sessionType;
-    id queue;
 }
 
 + (id).|W.Ñ.~Ì..;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

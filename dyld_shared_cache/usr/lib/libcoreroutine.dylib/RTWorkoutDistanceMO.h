@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTWorkoutDistanceMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)rray"@"NSError">16;
++ (id)supportsSecureCoding;
++ (id)nding %s(%llu) %ldB;
 
 // Remaining properties
-@property(nonatomic) _Bool areBothWorkoutsDecimated; // @dynamic areBothWorkoutsDecimated;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) double distance; // @dynamic distance;
-@property(nonatomic) long long distanceMetric; // @dynamic distanceMetric;
 @property(copy, nonatomic) NSUUID *firstWorkout; // @dynamic firstWorkout;
-@property(nonatomic) _Bool isVisited; // @dynamic isVisited;
-@property(copy, nonatomic) NSUUID *secondWorkout; // @dynamic secondWorkout;
-@property(nonatomic) long long workoutActivityType; // @dynamic workoutActivityType;
 
 @end
 

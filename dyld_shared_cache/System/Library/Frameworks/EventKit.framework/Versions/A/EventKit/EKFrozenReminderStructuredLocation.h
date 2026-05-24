@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (_Bool);
++ (id)@> processing PlaybackQueueContentItemsChangedNotification for content items %@.;
++ (_Bool)ackQueueForOffset(MRPlaybackQueueRequest *__strong, NSArray<MSVCallback *> *__strong);
 + (Class);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)incomplete clusters among matching devices. Waiting for discovery updates until they are complete.;
+- (id)to fetch hosted routing XPC endpoint. %{public}@;
+- (void)volumeControlCapabilities;
 - (id);
 - (id);
 - (double);
@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (double)8NSObjectC;
+- (double)So8NSObjectC;
 - (id);
 
 // Remaining properties

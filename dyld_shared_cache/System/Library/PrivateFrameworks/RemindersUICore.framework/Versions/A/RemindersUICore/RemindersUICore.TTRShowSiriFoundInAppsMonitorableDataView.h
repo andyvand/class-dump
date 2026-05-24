@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowSiriFoundInAppsMonitorableDataView
 {
     id store;
-    id sortingStyle;
-    id remindersToPrefetchCount;
 }
 
 @end

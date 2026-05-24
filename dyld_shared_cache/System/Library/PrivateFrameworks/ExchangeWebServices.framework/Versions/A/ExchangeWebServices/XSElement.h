@@ -9,12 +9,10 @@
 @interface XSElement
 {
     NSString *_elementName;
-    NSString *_namespaceURI;
-    Class _type;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *elementName; // @synthesize elementName=_elementName;
-@property(readonly, copy, nonatomic) NSString *namespaceURI; // @synthesize namespaceURI=_namespaceURI;
-@property(readonly, nonatomic) Class type; // @synthesize type=_type;
 
 @end
 

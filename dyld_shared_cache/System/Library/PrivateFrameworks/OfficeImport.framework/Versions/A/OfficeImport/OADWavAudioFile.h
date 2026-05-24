@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface OADWavAudioFile : OADEmbeddedMediaFile
 {
     float mDuration;
-    _Bool mHasDuration;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)sB;
 - (float);
 - (void);
-- (_Bool);
-- (void)eDrawables;
+- (_Bool)authorizationURIFromHttpHeader:issuer: /* Error: Ran out of types for this method. */;
+- (void)mEntranceDrawables;
 
 // Remaining properties
 @property(nonatomic) float duration; // @synthesize duration=mDuration;
-@property(nonatomic) _Bool hasDuration; // @synthesize hasDuration=mHasDuration;
 
 @end
 

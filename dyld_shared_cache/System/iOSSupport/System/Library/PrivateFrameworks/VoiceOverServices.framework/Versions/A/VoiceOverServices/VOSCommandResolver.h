@@ -9,41 +9,32 @@
 @interface VOSCommandResolver
 {
     NSNumber *_cachedPressCount;
-    NSNumber *_cachedContext;
-    _Bool _shouldApplyRTL;
-    VOSScreenreaderMode *_screenreaderMode;
-    unsigned long long _keyboardMode;
-    unsigned long long _host;
-    unsigned long long _bsiTypingMode;
-    CDUnknownBlockType _fetchPressCountBlock;
-    CDUnknownBlockType _fetchContextBlock;
-    CDUnknownBlockType _resolvingEventOccurredBlock;
 }
 
 + (id);
 + (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)W;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)0;
+- (unsigned long long)eW;
+- (_Bool);
+- (_Bool);
+- (_Bool)I;
+- (_Bool);
+- (_Bool);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
@@ -56,26 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bsiTypingMode; // @synthesize bsiTypingMode=_bsiTypingMode;
-@property(readonly, nonatomic) unsigned long long context;
-@property(copy, nonatomic) CDUnknownBlockType fetchContextBlock; // @synthesize fetchContextBlock=_fetchContextBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchPressCountBlock; // @synthesize fetchPressCountBlock=_fetchPressCountBlock;
-@property(nonatomic) unsigned long long host; // @synthesize host=_host;
-@property(readonly, nonatomic) _Bool isAppleTV;
-@property(readonly, nonatomic) _Bool isBSIScreenreaderMode;
-@property(readonly, nonatomic) _Bool isDefaultKeyboardMode;
-@property(readonly, nonatomic) _Bool isDefaultScreenreaderMode;
-@property(readonly, nonatomic) _Bool isHandwritingScreenreaderMode;
-@property(readonly, nonatomic) _Bool isHomePod;
-@property(readonly, nonatomic) _Bool isIPad;
-@property(readonly, nonatomic) _Bool isIPhone;
-@property(readonly, nonatomic) _Bool isQuickNavKeyboardMode;
-@property(readonly, nonatomic) _Bool isWatch;
-@property(nonatomic) unsigned long long keyboardMode; // @synthesize keyboardMode=_keyboardMode;
-@property(readonly, nonatomic) long long pressCount;
-@property(copy, nonatomic) CDUnknownBlockType resolvingEventOccurredBlock; // @synthesize resolvingEventOccurredBlock=_resolvingEventOccurredBlock;
 @property(retain, nonatomic) VOSScreenreaderMode *screenreaderMode; // @synthesize screenreaderMode=_screenreaderMode;
-@property(nonatomic) _Bool shouldApplyRTL; // @synthesize shouldApplyRTL=_shouldApplyRTL;
 
 @end
 

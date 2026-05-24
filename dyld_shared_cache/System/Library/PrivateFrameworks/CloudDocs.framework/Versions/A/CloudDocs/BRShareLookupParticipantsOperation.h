@@ -11,7 +11,6 @@
 @interface BRShareLookupParticipantsOperation : BRShareOperation
 {
     NSArray *_userIdentities;
-    CDUnknownBlockType _lookupParticipantsCompletionBlock;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)J	.;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType lookupParticipantsCompletionBlock; // @synthesize lookupParticipantsCompletionBlock=_lookupParticipantsCompletionBlock;

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSData, RFTextProperty;
 
 @protocol RFSummaryItemImageRightCardSection
+- (RFTextProperty *)_isTextTypeNode: /* Error: Ran out of types for this method. */;
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFVisualProperty *thumbnail_1;
-@property(retain, nonatomic) RFVisualProperty *thumbnail_2;
 @end
 

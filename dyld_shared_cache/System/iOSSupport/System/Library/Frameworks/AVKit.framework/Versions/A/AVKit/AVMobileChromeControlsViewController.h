@@ -6,26 +6,18 @@
 
 #import <AVKit/AVMobileControlsViewController.h>
 
-@class AVMobileChromeControlsStyleSheet, AVMobileChromeControlsView, AVPlaybackControlsController, AVPlaybackControlsView, AVPlayerViewController, AVTurboModePlaybackControlsPlaceholderView, NSValue;
+@class AVPlaybackControlsController, AVPlayerViewController;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromeControlsViewController : AVMobileControlsViewController
 {
     AVPlayerViewController *_playerViewController;
-    AVMobileChromeControlsView *_controlsView;
-    AVPlaybackControlsController *_playbackControlsController;
-    AVMobileChromeControlsStyleSheet *_styleSheet;
-    _Bool _prefersCompactFullScreenControls;
-    NSValue *_embeddedInlineLayoutMargins;
-    AVPlaybackControlsView *_playbackControlsView;
-    AVTurboModePlaybackControlsPlaceholderView *_turboModeControlsView;
-    struct CGAffineTransform _transformForProminentPlayButton;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -45,24 +37,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ssion from db (row id %lu):idx %d out of bounds [0, %lu). /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)a!@ù[°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSValue *embeddedInlineLayoutMargins; // @synthesize embeddedInlineLayoutMargins=_embeddedInlineLayoutMargins;
 @property(readonly, nonatomic) AVPlaybackControlsController *playbackControlsController;
-@property(readonly, nonatomic) AVPlaybackControlsView *playbackControlsView; // @synthesize playbackControlsView=_playbackControlsView;
-@property(nonatomic) _Bool prefersCompactFullScreenControls; // @synthesize prefersCompactFullScreenControls=_prefersCompactFullScreenControls;
-@property(nonatomic) struct CGAffineTransform transformForProminentPlayButton; // @synthesize transformForProminentPlayButton=_transformForProminentPlayButton;
-@property(readonly, nonatomic) AVTurboModePlaybackControlsPlaceholderView *turboModeControlsView; // @synthesize turboModeControlsView=_turboModeControlsView;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSViewController;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSPageControllerPrivateData
 {
     NSArray *_imageViews;
-    NSViewController *_destinationTransitionViewController;
-    NSString *_destinationTransitionIdentifier;
-    long long _ignoreCompleteTransitionCount;
-    _Bool _expectingCompleteTransition;
 }
 
 - (void);

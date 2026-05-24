@@ -4,67 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutManager, NSMapTable, NSOperationQueue, NSTextContainer, NSTextContentManager, NSTextHighlightShapeProvider, NSTextParagraph, NSTextSelectionNavigation, _NSTextAttributeStorage, _NSTextLayoutFragmentStorage, _NSTextRunStorage;
-@protocol NSTextLayoutManagerDelegatePrivate, NSTextLocation, _NSTextLayoutManagerPlatformDelegate;
+@class NSTextContentManager;
 
 @interface NSTextLayoutManager
 {
     NSTextContentManager *_textContentManager;
-    NSArray *_textContainers;
-    long long _applicationFrameworkContext;
-    id <NSTextLayoutManagerDelegatePrivate> _delegate;
-    id <_NSTextLayoutManagerPlatformDelegate> _platformDelegate;
-    NSLayoutManager *_companion;
-    NSTextSelectionNavigation *_textSelectionNavigation;
-    _NSTextAttributeStorage *_temporaryAttributesTable;
-    NSTextHighlightShapeProvider *_textHighlightShapeProvider;
-    _Bool _usesFontLeading;
-    _Bool _limitsLayoutForSuspiciousContents;
-    _Bool _usesHyphenation;
-    _Bool _allowsFontSubstitutionAffectingVerticalMetrics;
-    _Bool _breaksLinesForInteractiveText;
-    _NSTextLayoutFragmentStorage *_textLayoutFragmentStorage;
-    NSMapTable *_textLayoutFragmentTable;
-    long long _maximumNumberOfCachedTextLayoutFragments;
-    NSArray *_textSelections;
-    NSTextParagraph *_textParagraphForEmptyDocument;
-    struct {
-        id _field1;
-        id _field2;
-        double _field3;
-        long long _field4;
-        long long _field5;
-        id _field6;
-        _Bool _field7;
-        _Bool _field8;
-        _Bool _field9;
-    } *_activeEnumerationCache;
-    _Bool _isProcessingRenderingAttributesMethod;
-    _NSTextRunStorage *_textAnimationContextStorage;
-    _Bool _viewProviderCreated;
-    _Bool _delegateWithTextSelectionNotification;
-    _Bool _delegateWithTextContainerQuery;
-    _Bool _delegateWithSimpleTextContainerQuery;
-    _Bool _delegateWithTruncationToken;
-    _Bool _delegateWithViewProviderInvalidationNotification;
-    _Bool _delegateWithCachedViewProviderForTextAttachment;
-    _Bool _platformDelegateWithViewProviderInvalidationNotification;
-    _Bool _platformDelegateWithCachedViewProviderForTextAttachment;
-    CDStruct_6d66e849 _lastTextContainerEntry;
-    CDStruct_6d66e849 *_textContainerEntries;
-    CDStruct_6d66e849 *_textContainerEntriesAccessHint;
-    unsigned long long _textContainerEntriesSize;
-    unsigned long long _textContainerEntriesCount;
-    id <NSTextLocation> _softInvalidationLocation;
-    _Bool _requiresCTLineRef;
-    _Bool _hasTextAnimationContextsSnapshotting;
-    _Bool _rendersBackgroundColorAttribute;
-    _Bool _resolvesNaturalAlignmentWithBaseWritingDirection;
-    CDUnknownBlockType _isSelectionOverridableColor;
-    long long _fallbackBaseWritingDirection;
-    CDUnknownBlockType _renderingAttributesValidator;
-    NSTextContainer *_templateTextContainer;
-    NSOperationQueue *_layoutQueue;
 }
 
 + (double);
@@ -77,19 +21,19 @@
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)ing session cache state;
++ (_Bool);
 + (id);
-+ (void);
++ (void)_consumerIdentifier;
 + (_Bool);
 + (Class);
-+ (id);
++ (id);
 + (void);
 + (Class);
 + (id);
 + (_Bool)
 × ;
-+ (_Bool)Width;
++ (_Bool)_paraEndElasticCharWidth;
 
 @end
 

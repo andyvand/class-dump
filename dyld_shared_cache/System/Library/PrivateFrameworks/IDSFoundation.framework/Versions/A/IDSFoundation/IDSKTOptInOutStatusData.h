@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSData, NSString;
 
 @interface IDSKTOptInOutStatusData
 {
     NSData *_publicAccountKey;
-    NSNumber *_optInStatus;
-    NSString *_ktApplication;
-    NSNumber *_optChangeReason;
-    NSString *_serviceIdentifier;
 }
 
 + (_Bool);
@@ -20,22 +16,18 @@
 - (void);
 - (void);
 - (id);
+- (id)x;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void)Weight;
+- (void)kIsLightWeight;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ktApplication; // @synthesize ktApplication=_ktApplication;
-@property(retain, nonatomic) NSNumber *optChangeReason; // @synthesize optChangeReason=_optChangeReason;
-@property(retain, nonatomic) NSNumber *optInStatus; // @synthesize optInStatus=_optInStatus;
-@property(retain, nonatomic) NSData *publicAccountKey; // @synthesize publicAccountKey=_publicAccountKey;
 @property(retain, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
 
 @end

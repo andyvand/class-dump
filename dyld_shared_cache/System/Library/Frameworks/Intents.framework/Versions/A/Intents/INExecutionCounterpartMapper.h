@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface INExecutionCounterpartMapper
 {
     _Bool _filled;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_mapping;
 }
 
 + (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -25,11 +23,9 @@ __attribute__((visibility("hidden")))
 - (struct os_unfair_lock_s);
 - (id);
 - (void);
-- (void)rStartAudioCall:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideContactsOptionsForStartAudioCall:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _filled; // @synthesize _filled;
-@property(readonly, nonatomic) struct os_unfair_lock_s _lock; // @synthesize _lock;
 @property(readonly, copy, nonatomic) NSMutableDictionary *_mapping; // @synthesize _mapping;
 
 @end

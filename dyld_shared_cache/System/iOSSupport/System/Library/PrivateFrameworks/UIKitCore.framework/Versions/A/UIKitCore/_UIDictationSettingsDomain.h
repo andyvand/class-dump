@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)tTestingInsets;
-+ (id)ationIn:withIndex: /* Error: Ran out of types for this method. */;
++ (id)cursorHitTestingInsets;
++ (id)annotationIn:withIndex: /* Error: Ran out of types for this method. */;
 + (Class)3PtnþÕ333\tnþ%433htnþµ333ttnþµ333¤©rþý333tnþ5433tnþ433¤tnþ;
 
 @end

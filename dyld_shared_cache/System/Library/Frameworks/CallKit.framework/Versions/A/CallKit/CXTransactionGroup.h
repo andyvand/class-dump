@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CXTransactionGroup
 {
     NSMutableDictionary *_callSourceIdentifierToTransaction;
-    NSMutableArray *_mutableCallSources;
-    NSMutableDictionary *_providerSourceIdentifierToTransaction;
-    NSMutableArray *_mutableProviderSources;
-    NSMutableArray *_mutableServiceClients;
-    NSMutableDictionary *_serviceClientIdentifierToTransaction;
 }
 
 - (void);
@@ -21,9 +16,17 @@
 - (id);
 - (id);
 - (id);
+- (id)setLineStylesViewController:(id)arg1;
+- (id)controllerDidExitToolMode: /* Error: Ran out of types for this method. */;
+- (id)_hasSelectedAnnotations;
 - (id);
 - (id);
+- (id)saveAccount:error: /* Error: Ran out of types for this method. */;
+- (id)ol-version;
 - (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,32 +34,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allActions;
 @property(readonly, nonatomic) NSMutableDictionary *callSourceIdentifierToTransaction; // @synthesize callSourceIdentifierToTransaction=_callSourceIdentifierToTransaction;
-@property(readonly, copy, nonatomic) NSArray *callSources;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(readonly, nonatomic) NSMutableArray *mutableCallSources; // @synthesize mutableCallSources=_mutableCallSources;
-@property(readonly, nonatomic) NSMutableArray *mutableProviderSources; // @synthesize mutableProviderSources=_mutableProviderSources;
-@property(readonly, nonatomic) NSMutableArray *mutableServiceClients; // @synthesize mutableServiceClients=_mutableServiceClients;
-@property(readonly, nonatomic) NSMutableDictionary *providerSourceIdentifierToTransaction; // @synthesize providerSourceIdentifierToTransaction=_providerSourceIdentifierToTransaction;
-@property(readonly, copy, nonatomic) NSArray *providerSources;
-@property(readonly, copy, nonatomic) NSArray *serviceClientActions;
-@property(readonly, nonatomic, getter=isServiceClientGroupComplete) _Bool serviceClientGroupComplete;
-@property(readonly, nonatomic) NSMutableDictionary *serviceClientIdentifierToTransaction; // @synthesize serviceClientIdentifierToTransaction=_serviceClientIdentifierToTransaction;
-@property(readonly, copy, nonatomic) NSArray *serviceClientTransactions;
-@property(readonly, copy, nonatomic) NSArray *serviceClients;
-@property(readonly, copy, nonatomic) NSArray *transactions;
 
 @end
 

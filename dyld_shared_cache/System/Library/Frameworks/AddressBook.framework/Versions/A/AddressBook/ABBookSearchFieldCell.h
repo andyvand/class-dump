@@ -9,10 +9,9 @@
 @interface ABBookSearchFieldCell
 {
     _Bool _showsProgress;
-    NSProgressIndicator *_progressIndicator;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(nonatomic) _Bool showsProgress; // @synthesize showsProgress=_showsProgress;
 
 @end
 

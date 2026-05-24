@@ -7,14 +7,6 @@
 @interface SwiftUI.FocusBridge
 {
     id flags;
-    id _host;
-    id focusStore;
-    id currentEnvironment;
-    id _focusedItem;
-    id parentFocusBridge;
-    id requestedFocusItem;
-    id defaultFocusNamespace;
-    id ignoreTextFocusEvents;
 }
 
 @end

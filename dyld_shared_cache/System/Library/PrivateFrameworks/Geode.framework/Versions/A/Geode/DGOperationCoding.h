@@ -13,7 +13,7 @@
 + (struct CGPoint);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 - (id);
 
 @end

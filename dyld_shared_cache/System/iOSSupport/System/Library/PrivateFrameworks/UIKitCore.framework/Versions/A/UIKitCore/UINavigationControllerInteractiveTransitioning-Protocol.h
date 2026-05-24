@@ -15,14 +15,6 @@
 - (UIPanGestureRecognizer *);
 
 // Remaining properties
-@property(retain, nonatomic) _UINavigationParallaxTransition *animationController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"_UINavigationParallaxTransition",?,&,N
-
-@property(readonly, nonatomic) UIPanGestureRecognizer *contentSwipeGestureRecognizer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIPanGestureRecognizer",?,R,N
-
 @property(readonly, nonatomic) UIPanGestureRecognizer *edgeSwipeGestureRecognizer;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIPanGestureRecognizer",?,R,N

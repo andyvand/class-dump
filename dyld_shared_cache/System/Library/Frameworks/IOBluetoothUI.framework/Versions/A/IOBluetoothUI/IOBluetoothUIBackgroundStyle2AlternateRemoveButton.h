@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)connection... (type:(id)arg1 %{coreacc:ACCConnection_Type_t}d, identifier:%@) /* Error: Ran out of types for this method. */;
 
 @end
 

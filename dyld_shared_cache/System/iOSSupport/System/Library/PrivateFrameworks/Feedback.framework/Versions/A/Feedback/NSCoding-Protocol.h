@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)setValueB:(NSCoder *)arg1;
+- (void)k;
 @end
 

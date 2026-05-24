@@ -16,18 +16,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)setAssociatedMessageEmoji: /* Error: Ran out of types for this method. */;
+- (_Bool)_isCurrentDeviceAudioAccessory;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void)on;
+- (id)ResponseFramework;
+- (void)_jsonDeviceDefinition;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

@@ -6,36 +6,14 @@
 
 #import <RemoteConfiguration/RCOperation.h>
 
-@class NSData, NSDictionary, NSError, NSHTTPURLResponse, NSNumber, NSObject, NSString, NSURL, NSURLSessionTask, RCBackgroundFetchConfiguration, RCNetworkActivity;
-@protocol OS_dispatch_queue;
+@class NSURL, NSURLSessionTask;
 
 @interface RCURLFetchOperation : RCOperation
 {
     NSURL *_URL;
-    NSData *_HTTPBody;
-    NSString *_HTTPMethod;
-    RCBackgroundFetchConfiguration *_backgroundFetchConfiguration;
-    NSString *_loggingKey;
-    NSDictionary *_additionalRequestHTTPHeaders;
-    double _URLRequestTimeoutDuration;
-    CDUnknownBlockType _configurationCompletionHandler;
-    CDUnknownBlockType _configurationDictionaryCompletionHandler;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    CDUnknownBlockType _networkEventHandler;
-    RCNetworkActivity *_networkActivity;
-    NSURLSessionTask *_requestTask;
-    NSString *_urlString;
-    NSData *_responseData;
-    NSString *_requestUUID;
-    double _taskStartTime;
-    NSString *_responseMIMEType;
-    NSHTTPURLResponse *_httpResponse;
-    unsigned long long _responseSize;
-    NSError *_error;
-    NSNumber *_maxAge;
 }
 
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -57,7 +35,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)y;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -69,7 +47,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)QI}S);
 - (id);
 - (id);
 - (void);
@@ -82,43 +60,15 @@
 - (void);
 - (unsigned long long);
 - (id)hallenge"32@?<v@?q@"NSURLCredential">40;
-- (void)ithCode:(id)arg1 description:additionalUserInfo: /* Error: Ran out of types for this method. */;
-- (void)uccess;
-- (id)ntID:bundleID:deviceInfo:debugOverrides: /* Error: Ran out of types for this method. */;
-- (void)onfigurationResource:(id)arg1 configurationSettings:allowedToReachEndpoint:cachePolicy: /* Error: Ran out of types for this method. */;
+- (void)rc_errorWithCode:(id)arg1 description:additionalUserInfo: /* Error: Ran out of types for this method. */;
+- (void)isSuccess;
+- (id)initWithRequestInfos:userID:storefrontID:bundleID:deviceInfo:debugOverrides: /* Error: Ran out of types for this method. */;
+- (void)_isValidConfigurationResource:(id)arg1 configurationSettings:allowedToReachEndpoint:cachePolicy: /* Error: Ran out of types for this method. */;
 - (_Bool)gurationSettings",&,N,V_configurationSettings;
 - (id)Fx-2RiV9oW8As/Library/Caches/com.apple.xbs/TemporaryDirectory.cih6IQ/Sources/RemoteConfiguration/RemoteConfiguration/Categories/NSArray+RCAdditions.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *HTTPBody; // @synthesize HTTPBody=_HTTPBody;
-@property(retain, nonatomic) NSString *HTTPMethod; // @synthesize HTTPMethod=_HTTPMethod;
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) double URLRequestTimeoutDuration; // @synthesize URLRequestTimeoutDuration=_URLRequestTimeoutDuration;
-@property(copy, nonatomic) NSDictionary *additionalRequestHTTPHeaders; // @synthesize additionalRequestHTTPHeaders=_additionalRequestHTTPHeaders;
-@property(retain, nonatomic) RCBackgroundFetchConfiguration *backgroundFetchConfiguration; // @synthesize backgroundFetchConfiguration=_backgroundFetchConfiguration;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(copy, nonatomic) CDUnknownBlockType configurationCompletionHandler; // @synthesize configurationCompletionHandler=_configurationCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType configurationDictionaryCompletionHandler; // @synthesize configurationDictionaryCompletionHandler=_configurationDictionaryCompletionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
-@property(copy, nonatomic) NSString *loggingKey; // @synthesize loggingKey=_loggingKey;
-@property(retain, nonatomic) NSNumber *maxAge; // @synthesize maxAge=_maxAge;
-@property(retain, nonatomic) RCNetworkActivity *networkActivity; // @synthesize networkActivity=_networkActivity;
-@property(copy, nonatomic) CDUnknownBlockType networkEventHandler; // @synthesize networkEventHandler=_networkEventHandler;
 @property(retain) NSURLSessionTask *requestTask; // @synthesize requestTask=_requestTask;
-@property(retain, nonatomic) NSString *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(retain, nonatomic) NSData *responseData; // @synthesize responseData=_responseData;
-@property(retain, nonatomic) NSString *responseMIMEType; // @synthesize responseMIMEType=_responseMIMEType;
-@property(nonatomic) unsigned long long responseSize; // @synthesize responseSize=_responseSize;
-@property(readonly) Class superclass;
-@property(nonatomic) double taskStartTime; // @synthesize taskStartTime=_taskStartTime;
-@property(retain, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

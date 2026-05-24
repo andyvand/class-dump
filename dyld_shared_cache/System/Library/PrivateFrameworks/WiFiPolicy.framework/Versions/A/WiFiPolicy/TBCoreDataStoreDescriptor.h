@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSPersistentStoreDescription, NSURL;
-
 @interface TBCoreDataStoreDescriptor
 {
     unsigned long long _type;
-    NSURL *_storeURL;
-    NSURL *_modelURL;
-    NSDictionary *_storeOptions;
-    NSPersistentStoreDescription *_storeDescription;
 }
 
 + (id);
@@ -37,10 +31,6 @@
 - (id)rmalIndex:forInterface:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(readonly, nonatomic) NSPersistentStoreDescription *storeDescription; // @synthesize storeDescription=_storeDescription;
-@property(retain, nonatomic) NSDictionary *storeOptions; // @synthesize storeOptions=_storeOptions;
-@property(retain, nonatomic) NSURL *storeURL; // @synthesize storeURL=_storeURL;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

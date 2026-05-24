@@ -11,7 +11,7 @@
     NEFilterPacketInterpose *_interpose;
 }
 
-- (void)ryIntervalMilliseconds: /* Error: Ran out of types for this method. */;
+- (void)setDeadPeerDetectionRetryIntervalMilliseconds: /* Error: Ran out of types for this method. */;
 
 @end
 

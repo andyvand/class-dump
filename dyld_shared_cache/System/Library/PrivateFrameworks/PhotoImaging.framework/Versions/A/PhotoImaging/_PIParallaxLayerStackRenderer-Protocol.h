@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PFParallaxLayer;
+@protocol NUImageBuffer;
+
 @protocol _PIParallaxLayerStackRenderer
+- (id <NUImageBuffer>);
+- (PFParallaxLayer *);
+- (PFParallaxLayer *);
 @end
 

@@ -6,13 +6,11 @@
 
 #import <Email/EMObjectID.h>
 
-@class EMThreadScope, NSString;
 @protocol EMCollectionItemID;
 
 @interface EMThreadObjectID : EMObjectID
 {
     id <EMCollectionItemID> _collectionItemID;
-    EMThreadScope *_threadScope;
 }
 
 + (_Bool);
@@ -24,7 +22,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -35,20 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <EMCollectionItemID> collectionItemID; // @synthesize collectionItemID=_collectionItemID;
-@property(readonly, nonatomic) long long conversationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
 
 @end
 

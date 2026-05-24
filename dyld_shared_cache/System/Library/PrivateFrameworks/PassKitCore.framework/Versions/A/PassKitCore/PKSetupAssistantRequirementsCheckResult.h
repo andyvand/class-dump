@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSetupAssistantRequirementsCheckResult
 {
     _Bool shouldRun;
-    unsigned long long missingRequirements;
 }
 
-- (unsigned long long);
+- (unsigned long long)q ;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) unsigned long long missingRequirements; // @synthesize missingRequirements;
 @property(nonatomic, readonly) _Bool shouldRun; // @synthesize shouldRun;
 
 @end

@@ -7,6 +7,7 @@
 @class BSServiceConnectionEndpoint;
 
 @protocol _UISceneExternalSettingsModifierHost
+- (BSServiceConnectionEndpoint *);
 
 // Remaining properties
 @property(copy, nonatomic) BSServiceConnectionEndpoint *externalSettingsModifierEndpoint;

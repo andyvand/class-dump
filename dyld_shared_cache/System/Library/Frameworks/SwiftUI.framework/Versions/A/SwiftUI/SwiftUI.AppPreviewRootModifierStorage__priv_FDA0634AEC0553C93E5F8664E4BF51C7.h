@@ -7,11 +7,6 @@
 @interface SwiftUI.AppPreviewRootModifierStorage__priv_FDA0634AEC0553C93E5F8664E4BF51C7
 {
     id sceneBridge;
-    id sceneStorageValues;
-    id windowsController;
-    id presentedWindowStyle;
-    id presentedWindowToolbarStyle;
-    id windowAppearanceViewModel;
 }
 
 @end

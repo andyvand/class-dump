@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSProxyConnection, NSString, __CFN_SocksHandshake;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _NSCFSocksProxy
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _outPort;
-    NSString *_outHost;
-    __CFN_SocksHandshake *_socksHandshake;
-    NSProxyConnection *_inbound;
-    NSProxyConnection *_outbound;
-    NSDictionary *_configuration;
 }
 
 + (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)circumflexcmb;
 - (void)ý-;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

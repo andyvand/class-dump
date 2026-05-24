@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSampleBufferVideoOutputInternal, NSObject;
-@protocol AVSampleBufferVideoOutputPullDelegate, OS_dispatch_queue;
+@class AVSampleBufferVideoOutputInternal;
+@protocol AVSampleBufferVideoOutputPullDelegate;
 
 @interface AVSampleBufferVideoOutput
 {
     AVSampleBufferVideoOutputInternal *_videoOutputInternal;
 }
 
-- (_Bool);
-- (void);
-- (id);
-- (struct __CVBuffer *);
+- (_Bool)_initWithRecognition:(id)arg1 preITNRecognition:(_Bool)arg2 unrepairedRecognition:(id *)arg3 recognitionIsFormatted:isFinal:audioAnalytics:utteranceStartMilliseconds:latticeMitigatorResult:nBestVoiceCommandInterpretations:preITNNBestVoiceCommandInterpretations:recognitionPaused: /* Error: Ran out of types for this method. */;
+- (void)_bluetoothDeviceIdFilter;
+- (id)etationIndices;
+- (struct __CVBuffer *)p;
 - (struct __CVBuffer *);
 - (struct OpaqueFigVisualContext *);
-- (void);
+- (void)wXw;
 - (void);
 - (struct __CVBuffer *);
 - (_Bool);
@@ -29,7 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
 @property(readonly, nonatomic) __weak id <AVSampleBufferVideoOutputPullDelegate> outputDelegate;
 
 @end

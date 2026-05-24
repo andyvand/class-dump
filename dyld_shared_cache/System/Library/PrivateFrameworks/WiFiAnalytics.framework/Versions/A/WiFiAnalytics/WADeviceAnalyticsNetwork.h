@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSString;
 
 @interface WADeviceAnalyticsNetwork
 {
     _Bool _isHome;
-    NSString *_ssid;
-    NSSet *_lans;
-    NSDictionary *_bssidsAndLans;
 }
 
-+ (id);
++ (id)TN;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)t modifyRecords succeeded {sharedGroceryList:%{public}@} /* Error: Ran out of types for this method. */;
+- (id)(;
 - (void);
 - (id)age:groupType:andReply:queuedInvocation:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool)ç>;
 
 // Remaining properties
-@property(readonly) NSDictionary *bssidsAndLans; // @synthesize bssidsAndLans=_bssidsAndLans;
-@property(readonly) _Bool isHome; // @synthesize isHome=_isHome;
-@property(readonly) NSSet *lans; // @synthesize lans=_lans;
 @property(readonly) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end

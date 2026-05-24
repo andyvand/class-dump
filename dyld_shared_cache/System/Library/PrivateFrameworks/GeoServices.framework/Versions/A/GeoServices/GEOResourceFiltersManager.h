@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveResourceFilters, GEOResourceManifestConfiguration, NSSet;
+@class GEOResourceManifestConfiguration;
 @protocol GEOResourceFiltersManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface GEOResourceFiltersManager
 {
     GEOResourceManifestConfiguration *_configuration;
-    GEOActiveResourceFilters *_activeFilters;
-    struct os_unfair_lock_s _lock;
-    id <GEOResourceFiltersManagerDelegate> _delegate;
 }
 
 - (void);
@@ -25,21 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)eArbitration;
 - (void);
 - (void)ù
 × ;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)setPickupDropoffType: /* Error: Ran out of types for this method. */;
 - (void)`Ò;
 - (id)etwork reachability changes;
-- (id)Object;
+- (id)impressionObject;
 - (void)ZÜ¯;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *activeNames;
-@property(readonly, nonatomic) NSSet *activeScales;
-@property(readonly, nonatomic) NSSet *activeScenarios;
 @property(nonatomic) __weak id <GEOResourceFiltersManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

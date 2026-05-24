@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, NSString;
 @protocol EDSMIMEConfigurationProvider;
 
 @interface EDSMIMEAnalyticsCollector
 {
     id <EDSMIMEConfigurationProvider> _smimeConfigurationProvider;
-    EDMessagePersistence *_messagePersistence;
 }
 
 - (id);
@@ -21,15 +19,7 @@
 - (void)opesWithDatabaseIDs:block:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
 @property(readonly, nonatomic) id <EDSMIMEConfigurationProvider> smimeConfigurationProvider; // @synthesize smimeConfigurationProvider=_smimeConfigurationProvider;
-@property(readonly) Class superclass;
 
 @end
 

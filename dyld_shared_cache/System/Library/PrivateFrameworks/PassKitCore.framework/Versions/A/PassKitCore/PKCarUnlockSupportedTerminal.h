@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSArray;
 
 @interface PKCarUnlockSupportedTerminal
 {
     NSArray *_associatedApplicationIdentifiers;
-    NSString *_partnerIdentifier;
-    NSString *_partnerName;
-    NSString *_manufacturerIdentifier;
-    NSSet *_terminalCriteria;
 }
 
 + (_Bool)î%Ð1Â0@ù
 × ;
 - (id);
+- (id)I;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)T@9_;
 - (id);
 - (void);
 - (id)gregateDictionaryProtocol>";
-- (id)ponCodeUpdates;
+- (id)_numberOfOutstandingCouponCodeUpdates;
 - (id)hðh iXilj¬k;
-- (void)rovision;
+- (void)provision;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *associatedApplicationIdentifiers; // @synthesize associatedApplicationIdentifiers=_associatedApplicationIdentifiers;
-@property(readonly, copy, nonatomic) NSString *manufacturerIdentifier; // @synthesize manufacturerIdentifier=_manufacturerIdentifier;
-@property(readonly, copy, nonatomic) NSString *partnerIdentifier; // @synthesize partnerIdentifier=_partnerIdentifier;
-@property(readonly, copy, nonatomic) NSString *partnerName; // @synthesize partnerName=_partnerName;
-@property(readonly, copy, nonatomic) NSSet *terminalCriteria; // @synthesize terminalCriteria=_terminalCriteria;
 
 @end
 

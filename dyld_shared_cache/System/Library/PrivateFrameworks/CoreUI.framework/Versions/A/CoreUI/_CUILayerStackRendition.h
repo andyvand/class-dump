@@ -6,13 +6,12 @@
 
 #import <CoreUI/_CUIRawDataRendition.h>
 
-@class CUIRenditionMetrics, NSMutableArray;
+@class CUIRenditionMetrics;
 
 __attribute__((visibility("hidden")))
 @interface _CUILayerStackRendition : _CUIRawDataRendition
 {
     CUIRenditionMetrics *_renditionMetrics;
-    NSMutableArray *_layers;
 }
 
 - (void);

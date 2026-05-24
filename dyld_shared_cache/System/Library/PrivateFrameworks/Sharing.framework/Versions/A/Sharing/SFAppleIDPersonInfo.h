@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SFAppleIDPersonInfo
 {
     _Bool _didMatchEmail;
-    _Bool _didMatchPhone;
-    NSString *_accountIdentifier;
-    NSString *_altDSID;
-    long long _certificateStatus;
-    NSString *_matchedValue;
-    NSDate *_validUntilDate;
 }
 
 + (_Bool);
@@ -26,23 +20,16 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Vu;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)readPriority, CFDictionaryRef, APTransportConnectionRef *);
 - (id);
 - (id);
 - (void);
 - (id)ertificatesFromKeychain(NSString * _Nullable __strong);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, nonatomic) long long certificateStatus; // @synthesize certificateStatus=_certificateStatus;
-@property(readonly, nonatomic) _Bool didMatchEmail; // @synthesize didMatchEmail=_didMatchEmail;
-@property(readonly, nonatomic) _Bool didMatchPhone; // @synthesize didMatchPhone=_didMatchPhone;
-@property(readonly, nonatomic) _Bool isStale;
-@property(readonly, nonatomic) NSString *matchedValue; // @synthesize matchedValue=_matchedValue;
 @property(readonly, nonatomic) NSDate *validUntilDate; // @synthesize validUntilDate=_validUntilDate;
 
 @end

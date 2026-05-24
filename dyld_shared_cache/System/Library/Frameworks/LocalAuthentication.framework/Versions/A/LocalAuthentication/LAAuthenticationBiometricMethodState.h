@@ -9,9 +9,6 @@
 @interface LAAuthenticationBiometricMethodState : LAAuthenticationMethodState
 {
     _Bool _isTouchID;
-    _Bool _isFaceID;
-    _Bool _isUserPresent;
-    unsigned long long _lockoutState;
 }
 
 - (void);
@@ -25,10 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isFaceID; // @synthesize isFaceID=_isFaceID;
 @property(nonatomic) _Bool isTouchID; // @synthesize isTouchID=_isTouchID;
-@property(nonatomic) _Bool isUserPresent; // @synthesize isUserPresent=_isUserPresent;
-@property(nonatomic) unsigned long long lockoutState; // @synthesize lockoutState=_lockoutState;
 
 @end
 

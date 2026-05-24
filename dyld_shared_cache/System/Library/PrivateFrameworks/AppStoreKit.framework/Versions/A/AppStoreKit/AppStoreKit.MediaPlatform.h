@@ -7,11 +7,6 @@
 @interface AppStoreKit.MediaPlatform
 {
     id appPlatform;
-    id systemImageName;
-    id supplementaryAppPlatforms;
-    id deviceCornerRadiusFactor;
-    id deviceBorderThickness;
-    id outerDeviceCornerRadiusFactor;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface WFNetworkRetryManager
 {
     NSMutableDictionary *_failTrackerDict;
-    NSMutableSet *_failingAPIVersionsSet;
 }
 
 - (void);
@@ -22,14 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)DELETE_SMART_LIST_ALERT_DELETE_BUTTON_ONE_LIST_N_TAGS;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *apiVersions;
 @property(readonly, nonatomic) NSMutableDictionary *failTrackerDict; // @synthesize failTrackerDict=_failTrackerDict;
-@property(readonly, nonatomic) NSArray *failingAPIVersions;
-@property(readonly, nonatomic) NSMutableSet *failingAPIVersionsSet; // @synthesize failingAPIVersionsSet=_failingAPIVersionsSet;
 
 @end
 

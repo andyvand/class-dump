@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryBulletinRegistrationInfo
 {
     _Bool _enabled;
-    NSUUID *_accessoryUUID;
-    long long _serviceInstanceID;
-    NSPredicate *_predicate;
 }
 
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)nalysis:(id)arg1 progressBlock: /* Error: Ran out of types for this method. */;
+- (void)SAccount"24@"NSString"32@"NSString"40@"NSData"48@"NSError"56;
 - (id);
 - (id);
-- (void)ategory:(id)arg1;
+- (void)setCategory:(id)arg1;
 - (_Bool)%@;
 - (void);
 - (id)B;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) long long serviceInstanceID; // @synthesize serviceInstanceID=_serviceInstanceID;
 
 @end
 

@@ -6,59 +6,43 @@
 
 #import <AXMediaUtilities/AXMSourceNode.h>
 
-@class AVCaptureSession, AXMCaptureVideoDataOutput, AXMVisionAnalysisOptions, NSObject, NSString;
-@protocol AXMAVCaptureSessionNodeDelegate, AXMAVCaptureSessionNodeFrameDelegate, OS_dispatch_queue;
+@class AVCaptureSession, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AXMAVCaptureSessionNode : AXMSourceNode
 {
     NSObject<OS_dispatch_queue> *_autotrigger_queue;
-    AXMCaptureVideoDataOutput *_axVideoDataOutput;
-    id <AXMAVCaptureSessionNodeDelegate> _captureSessionNodeDelegate;
-    id <AXMAVCaptureSessionNodeFrameDelegate> _frameDelegate;
-    AVCaptureSession *_captureSession;
-    AXMVisionAnalysisOptions *_analysisOptions;
 }
 
-+ (_Bool);
++ (_Bool)destinationLocation;
 + (id);
 + (_Bool);
+- (void)z;
+- (void)|;
+- (void);
+- (void);
+- (void)&\|;
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)|;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)";
 
 // Remaining properties
-@property(retain, nonatomic) AXMVisionAnalysisOptions *analysisOptions; // @synthesize analysisOptions=_analysisOptions;
-@property(retain, nonatomic) AXMCaptureVideoDataOutput *axVideoDataOutput; // @synthesize axVideoDataOutput=_axVideoDataOutput;
 @property(nonatomic) __weak AVCaptureSession *captureSession; // @synthesize captureSession=_captureSession;
-@property(nonatomic) __weak id <AXMAVCaptureSessionNodeDelegate> captureSessionNodeDelegate; // @synthesize captureSessionNodeDelegate=_captureSessionNodeDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <AXMAVCaptureSessionNodeFrameDelegate> frameDelegate; // @synthesize frameDelegate=_frameDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

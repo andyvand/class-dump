@@ -6,15 +6,13 @@
 
 #import <StoreKit/SKPayment.h>
 
-@class NSData, NSDictionary, NSString, SKPaymentAppleIDAuthorizationRequest, SKPaymentDiscount;
-
 @interface SKMutablePayment : SKPayment
 {
 }
 
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -26,18 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) SKPaymentAppleIDAuthorizationRequest *appleIDAuthorizationClientInfo; // @dynamic appleIDAuthorizationClientInfo;
-@property(copy, nonatomic) NSString *applicationUsername; // @dynamic applicationUsername;
 @property(nonatomic) _Bool isStoreOriginated; // @dynamic isStoreOriginated;
-@property(retain, nonatomic) NSDictionary *metricsOverlay; // @dynamic metricsOverlay;
-@property(copy, nonatomic) NSString *partnerIdentifier; // @dynamic partnerIdentifier;
-@property(copy, nonatomic) NSString *partnerTransactionIdentifier; // @dynamic partnerTransactionIdentifier;
-@property(copy, nonatomic) SKPaymentDiscount *paymentDiscount; // @dynamic paymentDiscount;
-@property(copy, nonatomic) NSString *productIdentifier; // @dynamic productIdentifier;
-@property(nonatomic) long long quantity; // @dynamic quantity;
-@property(copy, nonatomic) NSData *requestData; // @dynamic requestData;
-@property(copy, nonatomic) NSDictionary *requestParameters; // @dynamic requestParameters;
-@property(nonatomic) _Bool simulatesAskToBuyInSandbox; // @dynamic simulatesAskToBuyInSandbox;
 
 @end
 

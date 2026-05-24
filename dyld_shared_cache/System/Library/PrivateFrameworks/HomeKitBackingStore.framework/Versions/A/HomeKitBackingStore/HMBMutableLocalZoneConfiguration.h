@@ -6,19 +6,13 @@
 
 #import <HomeKitBackingStore/HMBLocalZoneConfiguration.h>
 
-@class HMBModelContainer;
-@protocol HMBLocalZoneDelegate;
-
 @interface HMBMutableLocalZoneConfiguration : HMBLocalZoneConfiguration
 {
 }
 
-- (id);
+- (id)schedule activity checking in.;
 
 // Remaining properties
-@property(nonatomic) _Bool createIfNeeded; // @dynamic createIfNeeded;
-@property(nonatomic) __weak id <HMBLocalZoneDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) HMBModelContainer *modelContainer; // @dynamic modelContainer;
 @property(nonatomic) _Bool readOnly; // @dynamic readOnly;
 
 @end

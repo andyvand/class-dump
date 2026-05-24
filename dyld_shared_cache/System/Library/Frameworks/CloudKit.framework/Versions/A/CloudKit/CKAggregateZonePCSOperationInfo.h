@@ -6,26 +6,24 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class CKRecordZone, NSArray;
+@class NSArray;
 
 @interface CKAggregateZonePCSOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_sourceZoneIDs;
-    CKRecordZone *_targetZone;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (void)8Ð;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *sourceZoneIDs; // @synthesize sourceZoneIDs=_sourceZoneIDs;
-@property(retain, nonatomic) CKRecordZone *targetZone; // @synthesize targetZone=_targetZone;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CXNetworkExtensionMessageControllerHostConnectionDelegate
+- (void);
 @end
 

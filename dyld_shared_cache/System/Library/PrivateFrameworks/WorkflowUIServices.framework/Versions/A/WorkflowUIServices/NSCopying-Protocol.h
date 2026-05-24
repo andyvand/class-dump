@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)_appleIDAuthenticationAccountsMatchingAppleAccount:(struct _NSZone *)arg1 inStore: /* Error: Ran out of types for this method. */;
 @end
 

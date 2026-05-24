@@ -7,6 +7,7 @@
 @protocol ENAccountPublicKey;
 
 @protocol ENAccountKey
+- (id <ENAccountPublicKey>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <ENAccountPublicKey> accountPublicKey;

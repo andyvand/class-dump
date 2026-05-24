@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVServerVersion, NSSet, NSURL;
+@class NSURL;
 
 @interface CalDAVGetAccountPropertiesTaskGroup
 {
     _Bool _supportsCalendarUserSearch;
-    NSURL *_delegatePrincipalURL;
-    NSURL *_homeURL;
-    NSSet *_calendarHomes;
-    NSSet *_preferredUserAddresses;
-    NSURL *_inboxURL;
-    NSURL *_outboxURL;
-    NSURL *_dropboxURL;
-    NSURL *_notificationURL;
-    NSURL *_updatedPrincipalURL;
-    CalDAVServerVersion *_serverVersion;
 }
 
 - (void);
@@ -27,14 +17,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)without plane index %u;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)ԙ;
+- (_Bool)Ref<WebCore::LocalFrame>::get() const [T = WebCore::LocalFrame, WeakPtrImpl = WTF::DefaultWeakPtrImpl] /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -45,17 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *calendarHomes; // @synthesize calendarHomes=_calendarHomes;
 @property(retain, nonatomic) NSURL *delegatePrincipalURL; // @synthesize delegatePrincipalURL=_delegatePrincipalURL;
-@property(readonly, nonatomic) NSURL *dropboxURL; // @synthesize dropboxURL=_dropboxURL;
-@property(retain, nonatomic) NSURL *homeURL; // @synthesize homeURL=_homeURL;
-@property(readonly, nonatomic) NSURL *inboxURL; // @synthesize inboxURL=_inboxURL;
-@property(readonly, nonatomic) NSURL *notificationURL; // @synthesize notificationURL=_notificationURL;
-@property(readonly, nonatomic) NSURL *outboxURL; // @synthesize outboxURL=_outboxURL;
-@property(readonly, nonatomic) NSSet *preferredUserAddresses; // @synthesize preferredUserAddresses=_preferredUserAddresses;
-@property(readonly, nonatomic) CalDAVServerVersion *serverVersion; // @synthesize serverVersion=_serverVersion;
-@property(readonly, nonatomic) _Bool supportsCalendarUserSearch; // @synthesize supportsCalendarUserSearch=_supportsCalendarUserSearch;
-@property(readonly, nonatomic) NSURL *updatedPrincipalURL; // @synthesize updatedPrincipalURL=_updatedPrincipalURL;
 
 @end
 

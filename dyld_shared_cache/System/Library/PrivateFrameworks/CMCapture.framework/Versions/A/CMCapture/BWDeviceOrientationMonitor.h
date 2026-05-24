@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol BWDeviceOrientationMonitorPortraitLandscapeUpdateDelegate, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface BWDeviceOrientationMonitor
 {
     int _orientationDispatchToken;
-    NSObject<OS_dispatch_queue> *_orientationNotificationDispatchQueue;
-    int _mostRecentPortraitLandscapeOrientation;
-    int _currentOrientation;
-    id <BWDeviceOrientationMonitorPortraitLandscapeUpdateDelegate> _portraitLandscapeUpdateDelegate;
-    struct OpaqueFigSimpleMutex *_stateMutex;
 }
 
 + (void)eStage];
@@ -23,16 +15,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (id);
-- (int);
+- (int)isAutoMaximumValue;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) int currentOrientation; // @synthesize currentOrientation=_currentOrientation;
 @property(readonly, nonatomic) int mostRecentPortraitLandscapeOrientation; // @synthesize mostRecentPortraitLandscapeOrientation=_mostRecentPortraitLandscapeOrientation;
-@property(nonatomic) id <BWDeviceOrientationMonitorPortraitLandscapeUpdateDelegate> portraitLandscapeUpdateDelegate; // @synthesize portraitLandscapeUpdateDelegate=_portraitLandscapeUpdateDelegate;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSTargetActionSliderAccessoryBehavior : NSSliderAccessoryBehavior
 {
     id _target;
-    SEL _action;
 }
 
 - (void);
@@ -20,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id)itAsHeadingWithKeyText:(struct _NSZone *)arg1;
+- (id)initAsHeadingWithKeyText:(struct _NSZone *)arg1;
 - (SEL);
 - (void)tings:showPrintPanel:delegate:didPrintSelector:contextInfo:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) SEL action; // @synthesize action=_action;
 @property(readonly) __weak id target; // @synthesize target=_target;
 
 @end

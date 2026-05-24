@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITLibMediaItem, NSNumber;
+@class ITLibMediaItem;
 
 @interface ITLibPlaylistEntry
 {
     ITLibMediaItem *_mediaItem;
-    NSNumber *_playlistEntryID;
-    NSNumber *_position;
 }
 
 + (id);
-- (void);
-- (id);
+- (void);
+- (id)arrayByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ITLibMediaItem *mediaItem; // @synthesize mediaItem=_mediaItem;
-@property(retain, nonatomic) NSNumber *playlistEntryID; // @synthesize playlistEntryID=_playlistEntryID;
-@property(retain, nonatomic) NSNumber *position; // @synthesize position=_position;
 
 @end
 

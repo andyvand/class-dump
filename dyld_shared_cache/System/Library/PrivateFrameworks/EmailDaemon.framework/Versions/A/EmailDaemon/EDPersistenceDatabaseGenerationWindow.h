@@ -7,7 +7,6 @@
 @interface EDPersistenceDatabaseGenerationWindow
 {
     long long _earliestGeneration;
-    long long _latestGeneration;
 }
 
 - (long long);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long earliestGeneration; // @synthesize earliestGeneration=_earliestGeneration;
-@property(readonly, nonatomic) long long latestGeneration; // @synthesize latestGeneration=_latestGeneration;
 
 @end
 

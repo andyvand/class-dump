@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface MAAutoAssetSet
 {
     _Bool _shortTermLocker;
-    NSString *_clientDomainName;
-    NSString *_autoAssetSetClientName;
-    NSString *_assetSetIdentifier;
-    NSArray *_autoAssetEntries;
-    NSString *_updateCategoryDesiredByClient;
-    NSObject<OS_dispatch_queue> *_completionDispatchQueue;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id)1v;
 + (_Bool);
 + (void);
 - (void);
@@ -57,34 +50,34 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id)>;
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -97,7 +90,7 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -116,17 +109,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -136,33 +129,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)initWithSigningIdentifier:(id)arg1 designatedRequirement: /* Error: Ran out of types for this method. */;
+- (void)container:didSetTunnelConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id)val;
+- (id);
+- (id);
+- (id)!;
+- (void);
+- (void);
+- (id)lockInhibitsEmergencyRemoval;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
-@property(retain, nonatomic) NSArray *autoAssetEntries; // @synthesize autoAssetEntries=_autoAssetEntries;
-@property(retain, nonatomic) NSString *autoAssetSetClientName; // @synthesize autoAssetSetClientName=_autoAssetSetClientName;
 @property(retain, nonatomic) NSString *clientDomainName; // @synthesize clientDomainName=_clientDomainName;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *completionDispatchQueue; // @synthesize completionDispatchQueue=_completionDispatchQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool shortTermLocker; // @synthesize shortTermLocker=_shortTermLocker;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *updateCategoryDesiredByClient; // @synthesize updateCategoryDesiredByClient=_updateCategoryDesiredByClient;
 
 @end
 

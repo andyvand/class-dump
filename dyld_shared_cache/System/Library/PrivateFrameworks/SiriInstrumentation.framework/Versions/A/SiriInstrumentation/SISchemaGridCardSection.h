@@ -6,20 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SISchemaGridCardSection : SISchemaInstrumentationMessage
 {
     NSArray *_resultIdentifiers;
-    int _cardSource;
-    struct {
-        unsigned int cardSource:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -30,20 +26,17 @@
 - (int);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void),;
+- (unsigned long long)identifier;
+- (_Bool)ABPersonListRowView;
+- (_Bool)IMDCustomPluginNotificationContext;
 - (id);
 - (id);
-- (id)eCdmMatchingSpanEnded;
-- (id)urrentMode;
-- (void)_ASR_PARTIAL_DISPLAYED;
+- (id)deleteCdmMatchingSpanEnded;
+- (id)_currentMode;
+- (void)MTASRSTATE_FIRST_ASR_PARTIAL_DISPLAYED;
 
 // Remaining properties
-@property(nonatomic) int cardSource; // @synthesize cardSource=_cardSource;
-@property(nonatomic) _Bool hasCardSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *resultIdentifiers; // @synthesize resultIdentifiers=_resultIdentifiers;
 
 @end

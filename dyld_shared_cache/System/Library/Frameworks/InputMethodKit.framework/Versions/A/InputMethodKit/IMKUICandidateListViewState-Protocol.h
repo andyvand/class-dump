@@ -5,5 +5,6 @@
 //
 
 @protocol IMKUICandidateListViewState
+- (unsigned long long);
 @end
 

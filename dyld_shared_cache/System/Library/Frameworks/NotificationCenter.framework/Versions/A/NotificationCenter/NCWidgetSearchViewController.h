@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol NCWidgetSearchViewDelegate;
 
 @interface NCWidgetSearchViewController
 {
     NSArray *_searchResults;
-    NSString *_searchResultsPlaceholderString;
-    id <NCWidgetSearchViewDelegate> _delegate;
-    NSString *_searchDescription;
-    NSString *_searchResultKeyPath;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)5X;
 - (void);
-- (void);
+- (id);
+- (void)rminated;
+- (void)@"NSMutableArray",R,N,V_allFrameLatencies;
 
 // Remaining properties
 @property __weak id <NCWidgetSearchViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy) NSString *searchDescription; // @synthesize searchDescription=_searchDescription;
-@property(copy) NSString *searchResultKeyPath; // @synthesize searchResultKeyPath=_searchResultKeyPath;
-@property(copy) NSArray *searchResults;
-@property(copy) NSString *searchResultsPlaceholderString;
 
 @end
 

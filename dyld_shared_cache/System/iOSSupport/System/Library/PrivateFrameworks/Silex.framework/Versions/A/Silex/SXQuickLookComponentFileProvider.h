@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDOMObjectProviding, SXDocumentShareURLProvider, SXResourceDataSourceProvider;
+@protocol SXDOMObjectProviding;
 
 @interface SXQuickLookComponentFileProvider
 {
     id <SXDOMObjectProviding> _DOMObjectProvider;
-    id <SXResourceDataSourceProvider> _resourceDataSourceProvider;
-    id <SXDocumentShareURLProvider> _shareURLProvider;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)1ïÐ1Â0@ù
@@ -25,15 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXResourceDataSourceProvider> resourceDataSourceProvider; // @synthesize resourceDataSourceProvider=_resourceDataSourceProvider;
-@property(readonly, nonatomic) id <SXDocumentShareURLProvider> shareURLProvider; // @synthesize shareURLProvider=_shareURLProvider;
-@property(readonly) Class superclass;
 
 @end
 

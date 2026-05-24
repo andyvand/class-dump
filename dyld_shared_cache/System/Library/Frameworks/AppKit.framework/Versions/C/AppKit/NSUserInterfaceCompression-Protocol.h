@@ -7,6 +7,7 @@
 @class NSUserInterfaceCompressionOptions;
 
 @protocol NSUserInterfaceCompression
+- (struct CGSize)DeviceSupportsDClr;
 
 // Remaining properties
 @property(readonly, copy) NSUserInterfaceCompressionOptions *activeCompressionOptions;

@@ -9,8 +9,6 @@
 @interface SwiftUI.AppKitModifierKeySource.Monitor__priv_C5135FE09A0B2BA4BDB027A923769EB6 : SwiftUI.ModifierKeyMonitor
 {
     id platformMonitor;
-    id becomeActiveObserver;
-    id resignActiveObserver;
 }
 
 @end

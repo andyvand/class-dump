@@ -9,8 +9,6 @@
 @interface AppStoreKit.TodayCardMediaMultiAppFallback : AppStoreKit.TodayCardMedia
 {
     id lockups;
-    id additionalText;
-    id lockupImpressionLimit;
 }
 
 @end

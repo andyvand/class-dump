@@ -11,8 +11,6 @@
 @interface IMAPLoginCommand : IMAPSingleCommand
 {
     NSString *_username;
-    NSString *_password;
-    NSString *_quotedUsername;
 }
 
 - (id);
@@ -20,19 +18,17 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ndefined objects:%@ /* Error: Ran out of types for this method. */;
+- (id)_handleScreenWillChange: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, copy, nonatomic) NSString *quotedUsername; // @synthesize quotedUsername=_quotedUsername;
 @property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

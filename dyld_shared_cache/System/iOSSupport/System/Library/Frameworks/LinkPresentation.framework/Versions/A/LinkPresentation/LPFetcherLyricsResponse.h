@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     LPLyricExcerptMetadata *_lyrics;
 }
 
-- (id);
+- (id)successfullyGeneratedPreviewForTransfer:(id)arg1;
 - (void);
 - (id);
 

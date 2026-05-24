@@ -7,7 +7,6 @@
 @interface NewsFeed.SharingActivityItemFactoryWithTracker
 {
     id tracker;
-    id factory;
 }
 
 @end

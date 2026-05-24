@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, UIColor;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSBookmarkFolderTouchIconProvider
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableDictionary *_bookmarkFolderIdentifiersToRequestSets;
-    NSMutableDictionary *_requestsToRequestInfos;
-    NSMutableDictionary *_folderUUIDsToTouchIconInfo;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
 + (_Bool);
@@ -26,15 +22,15 @@
 - (void);
 - (id);
 - (void);
+- (void)B;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -44,23 +40,10 @@
 - (id);
 - (id);
 - (id);
-- (void)PasswordForURL:inContext: /* Error: Ran out of types for this method. */;
+- (void)lastUsedUsernameWithPasswordForURL:inContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allFolderUUIDs;
-@property(readonly) UIColor *backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

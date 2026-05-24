@@ -14,20 +14,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)x
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)gRemoteChanges: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)subscriptionControllerWillStartSyncingRemoteChanges: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AppKit.NSApplicationIntelligence
 {
     id isCollecting;
-    id collectFrontAppOnly;
 }
 
 @end

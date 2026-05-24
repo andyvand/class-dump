@@ -9,28 +9,24 @@
 @interface FTRegionSupport
 {
     NSArray *_regions;
-    FTMessageDelivery *_delivery;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)copyFileURLsIfNeeded:(id)arg1 toOutputDirectory:options:originalFilenameBase:error: /* Error: Ran out of types for this method. */;
+- (void)convertVideoAtSourceURLCollection:toDestinationURLCollection:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)contextualVideoThumbnailIdentifierFromFileURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)sdfPenShaderForAttachmentIndex:(id)arg1;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)~2;
 
 // Remaining properties
 @property(retain) FTMessageDelivery *delivery; // @synthesize delivery=_delivery;
-@property(readonly) _Bool isLoaded;
-@property(readonly) _Bool isLoading;
-@property(retain) NSArray *regions; // @synthesize regions=_regions;
 
 @end
 

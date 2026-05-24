@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PHAsset;
+@class NSString;
 
 @interface PHAssetBundleExportSession
 {
     NSString *_customFilenameBase;
-    NSString *_sessionUUID;
-    PHAsset *_asset;
-    NSDictionary *_fileURLs;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)!äGù±ð1Â0@ù
 × ;
-- (void)ssetChangeRequestHelper;
+- (void)PHShareAssetChangeRequestHelper;
 - (id)os Knowledge Graph is Ready:%@
  /* Error: Ran out of types for this method. */;
 - (id)failed (hints may be stale), choosing without hints...;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(copy, nonatomic) NSString *customFilenameBase; // @synthesize customFilenameBase=_customFilenameBase;
-@property(readonly, nonatomic) NSDictionary *fileURLs; // @synthesize fileURLs=_fileURLs;
 @property(readonly, nonatomic) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end

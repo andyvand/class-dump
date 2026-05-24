@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNotificationCenter;
+@class NSNotificationCenter;
 
 @interface NSNotificationQueue
 {
     NSNotificationCenter *_notificationCenter;
-    NSMutableArray *_asapQueue;
-    NSMutableArray *_idleQueue;
 }
 
 + (id);;
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (void);

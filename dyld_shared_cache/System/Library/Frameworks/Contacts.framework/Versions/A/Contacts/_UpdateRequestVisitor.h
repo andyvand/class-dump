@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPosterDataPersistentStoreManager, NSError, NSString;
+@class CNContactPosterDataPersistentStoreManager;
 
 __attribute__((visibility("hidden")))
 @interface _UpdateRequestVisitor
 {
     _Bool _lastResult;
-    CNContactPosterDataPersistentStoreManager *_storeManager;
-    NSError *_lastError;
 }
 
 + (id);
@@ -20,27 +18,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)@;
 - (void)!TFùñ*Ð1Â0@ù
 × ;
-- (id)ingEmailAddress:groupIdentifiers:limitToOneResult: /* Error: Ran out of types for this method. */;
+- (id)predicateForContactsMatchingEmailAddress:groupIdentifiers:limitToOneResult: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(nonatomic) _Bool lastResult; // @synthesize lastResult=_lastResult;
 @property(retain, nonatomic) CNContactPosterDataPersistentStoreManager *storeManager; // @synthesize storeManager=_storeManager;
-@property(readonly) Class superclass;
 
 @end
 

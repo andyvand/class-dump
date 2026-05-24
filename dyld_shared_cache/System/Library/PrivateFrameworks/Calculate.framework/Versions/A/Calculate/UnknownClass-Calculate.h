@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Calculate)
-- (_Bool);
+- (_Bool)ySkc;
 - (_Bool);
 - (void);
 - (id);
@@ -16,7 +16,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldIgnoreChanges;
-@property(readonly, nonatomic) _Bool usesEastArabicDigits;
-@property(readonly, nonatomic) _Bool usesLatinDigits;
 @end
 

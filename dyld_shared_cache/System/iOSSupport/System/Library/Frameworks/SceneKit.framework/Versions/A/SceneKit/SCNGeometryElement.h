@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-@protocol MTLBuffer;
+@class NSData;
 
 @interface SCNGeometryElement
 {
     struct __C3DMeshElement *_meshElement;
-    NSData *_elementData;
-    long long _primitiveType;
-    long long _primitiveCount;
-    NSArray *_primitiveRanges;
-    long long _indicesChannelCount;
-    _Bool _interleavedIndicesChannels;
-    long long _bytesPerIndex;
-    float _pointSize;
-    float _minimumPointScreenSpaceRadius;
-    float _maximumPointScreenSpaceRadius;
-    id <MTLBuffer> _mtlBuffer;
 }
 
 + (id);
@@ -29,8 +17,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)creditCardCardholderFieldLabels;
 - (void);
 - (void);
 - (void);
@@ -56,25 +44,16 @@
 - (long long);
 - (void);
 - (id);
+- (id)reassignIdentifierForMessageWithGUID:newGUID:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)_hasModifiedAttendeesFromSuggestion;
 - (void);
-- (id);
+- (id)So24WBSFormsMetadataProvider_p;
 - (double)hx;
 - (void)Count;
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerIndex;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long indicesChannelCount;
-@property(readonly, nonatomic, getter=hasInterleavedIndicesChannels) _Bool interleavedIndicesChannels;
-@property(nonatomic) double maximumPointScreenSpaceRadius;
-@property(nonatomic) double minimumPointScreenSpaceRadius;
-@property(nonatomic) double pointSize;
-@property(readonly, nonatomic) long long primitiveCount;
-@property(nonatomic) struct _NSRange primitiveRange;
-@property(readonly, nonatomic) long long primitiveType;
 
 @end
 

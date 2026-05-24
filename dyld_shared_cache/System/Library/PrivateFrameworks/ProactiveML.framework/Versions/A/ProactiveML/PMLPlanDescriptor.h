@@ -9,15 +9,13 @@
 @interface PMLPlanDescriptor
 {
     NSString *_name;
-    NSString *_version;
-    NSString *_locale;
 }
 
 + (id);
 + (_Bool);
 + (id);
 - (id);
-- (id);
+- (id)_	;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

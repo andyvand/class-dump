@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ProcessMemoryUsage
 {
     _Bool _isDaemonXPCService;
-    _Bool _process_active;
-    _Bool _isLimitHard;
-    _Bool _isActiveLimit;
-    _Bool _isLimitIncreased;
-    int _jetsam_priority;
-    int _memoryLimitMB;
-    NSString *_processName;
-    NSString *_bundleId;
-    NSString *_bundleVersion;
-    NSString *_processLaunchdName;
-    unsigned long long _phys_footprint_size;
-    unsigned long long _peak_phys_footprint;
-    unsigned long long _interval_peak_phys_footprint;
-    unsigned long long _neural_footprint;
-    unsigned long long _interval_peak_neural_footprint;
-    unsigned long long _timeAtPriorityMATU;
 }
 
 - (unsigned long long);
@@ -54,7 +36,7 @@
 - (unsigned long long);
 - (void);
 - (int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -64,23 +46,7 @@
 - (void)rittenDate;
 
 // Remaining properties
-@property(retain) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property unsigned long long interval_peak_neural_footprint; // @synthesize interval_peak_neural_footprint=_interval_peak_neural_footprint;
-@property unsigned long long interval_peak_phys_footprint; // @synthesize interval_peak_phys_footprint=_interval_peak_phys_footprint;
-@property _Bool isActiveLimit; // @synthesize isActiveLimit=_isActiveLimit;
 @property _Bool isDaemonXPCService; // @synthesize isDaemonXPCService=_isDaemonXPCService;
-@property _Bool isLimitHard; // @synthesize isLimitHard=_isLimitHard;
-@property _Bool isLimitIncreased; // @synthesize isLimitIncreased=_isLimitIncreased;
-@property int jetsam_priority; // @synthesize jetsam_priority=_jetsam_priority;
-@property int memoryLimitMB; // @synthesize memoryLimitMB=_memoryLimitMB;
-@property unsigned long long neural_footprint; // @synthesize neural_footprint=_neural_footprint;
-@property unsigned long long peak_phys_footprint; // @synthesize peak_phys_footprint=_peak_phys_footprint;
-@property unsigned long long phys_footprint_size; // @synthesize phys_footprint_size=_phys_footprint_size;
-@property(retain) NSString *processLaunchdName; // @synthesize processLaunchdName=_processLaunchdName;
-@property(retain) NSString *processName; // @synthesize processName=_processName;
-@property _Bool process_active; // @synthesize process_active=_process_active;
-@property unsigned long long timeAtPriorityMATU; // @synthesize timeAtPriorityMATU=_timeAtPriorityMATU;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, FCNewsTabiRecommendedIssuesConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiRecommendedIssuesEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiRecommendedIssuesConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -23,11 +21,9 @@
 - (void);
 - (id)!ô@ùQ(	Ð1Â0@ù
 × ;
-- (void)igVersion;
+- (void)configVersion;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiRecommendedIssuesConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

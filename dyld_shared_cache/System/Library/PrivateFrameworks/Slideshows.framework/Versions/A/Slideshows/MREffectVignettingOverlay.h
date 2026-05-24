@@ -14,13 +14,13 @@
 }
 
 + (void)PB;
-- (void);
+- (void)SArray",?,R,N;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)wwan;
+- (id)EnvelopeTracker registerEnvelopesAsCreated:(id)arg1 ];
 - (void);
 - (void);
-- (void);
+- (void)Td;
 
 @end
 

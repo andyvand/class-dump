@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, PXPhotosDetailsBarSpec, PXWidgetCompositionSpec, PXWidgetSpec;
-
 @interface PXPhotosDetailsSpec
 {
     unsigned long long _detailsOptions;
-    PXWidgetCompositionSpec *_compositionSpec;
-    PXWidgetSpec *_widgetSpec;
-    PXPhotosDetailsBarSpec *_barSpec;
-    NSColor *_dimmingColor;
-    double _dimmingAlpha;
 }
 
 - (id);
@@ -26,19 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void)oLibraryContext;
+- (void)LemonadePhotoLibraryContext;
 - (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *backgroundColor;
-@property(readonly, nonatomic) PXPhotosDetailsBarSpec *barSpec; // @synthesize barSpec=_barSpec;
-@property(readonly, nonatomic) PXWidgetCompositionSpec *compositionSpec; // @synthesize compositionSpec=_compositionSpec;
 @property(readonly, nonatomic) unsigned long long detailsOptions; // @synthesize detailsOptions=_detailsOptions;
-@property(readonly, nonatomic) double dimmingAlpha; // @synthesize dimmingAlpha=_dimmingAlpha;
-@property(readonly, nonatomic) NSColor *dimmingColor; // @synthesize dimmingColor=_dimmingColor;
-@property(readonly, nonatomic) _Bool enableActionsWidget;
-@property(readonly, nonatomic) _Bool shouldInitializeBarsController;
-@property(readonly, nonatomic) PXWidgetSpec *widgetSpec; // @synthesize widgetSpec=_widgetSpec;
 
 @end
 

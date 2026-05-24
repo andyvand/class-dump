@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDNetworkRouterFirewallRuleManager, NSDate, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryAllowedHostsPreviewHelper
 {
     HMDHome *_home;
-    HMDNetworkRouterFirewallRuleManager *_firewallRuleManager;
-    struct os_unfair_lock_s _lock;
-    NSDate *_expires;
 }
 
-+ (id);
-- (id);
++ (id);
+- (id)%{public}@;
 - (void);
 - (id)ccessories added by old controller, will remove %@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

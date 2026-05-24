@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SHKBlockQueue
 {
     NSMutableArray *_blockUUIDTuples;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _maxSize;
 }
 
 - (CDUnknownBlockType);
@@ -24,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id)ccessibility description;
 - (id);
 - (unsigned long long);
 - (void);

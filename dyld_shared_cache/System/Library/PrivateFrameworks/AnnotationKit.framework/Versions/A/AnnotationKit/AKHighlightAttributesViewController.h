@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSArray, NSMutableDictionary;
+@class AKController;
 
 @interface AKHighlightAttributesViewController
 {
     CDUnknownBlockType _actionBlock;
-    AKController *_controller;
-    NSArray *_itemTags;
-    NSMutableDictionary *_partIndexesToTags;
 }
 
 - (void);
@@ -28,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(retain) NSArray *itemTags; // @synthesize itemTags=_itemTags;
-@property(retain) NSMutableDictionary *partIndexesToTags; // @synthesize partIndexesToTags=_partIndexesToTags;
 
 @end
 

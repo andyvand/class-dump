@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinNotificationRegistrationSource, HMDCameraSignificantEventBulletinNotificationRegistration;
+@class HMDCameraSignificantEventBulletinNotificationRegistration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSignificantEventBulletinNotificationRegistrationRemote
 {
     HMDCameraSignificantEventBulletinNotificationRegistration *_registration;
-    HMDBulletinNotificationRegistrationSource *_source;
 }
 
 + (_Bool)üD;@Î;
 - (id);
-- (id);
+- (id)J;
 - (_Bool);
 - (void);
-- (id);
-- (id)patcher:workQueue: /* Error: Ran out of types for this method. */;
+- (id)findTriggersRelationOfTypeEventTriggerWithModelID:(struct _NSZone *)arg1;
+- (id)configureWithHome:messageDispatcher:workQueue: /* Error: Ran out of types for this method. */;
 - (id)}@Manual mode selection completed.;
 - (void)P;
 - (id)pç[ÿN@ø?;
 
 // Remaining properties
 @property(readonly, copy) HMDCameraSignificantEventBulletinNotificationRegistration *registration; // @synthesize registration=_registration;
-@property(readonly, copy) HMDBulletinNotificationRegistrationSource *source; // @synthesize source=_source;
 
 @end
 

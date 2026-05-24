@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol SXAction;
 
 @protocol SXSubscribeAction
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inAppPurchaseIdKey;
-@property(readonly, nonatomic) id <SXAction> postPurchaseAction;
 @end
 

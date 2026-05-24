@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface EKInviteeTimeSpan
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    NSMutableArray *_conflictedParticipants;
 }
 
 - (void);
-- (id);
+- (id)] <%p> Deallocated while still holding lock screen assertion.;
 - (id);
 - (id);
 - (id);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *conflictedParticipants; // @synthesize conflictedParticipants=_conflictedParticipants;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

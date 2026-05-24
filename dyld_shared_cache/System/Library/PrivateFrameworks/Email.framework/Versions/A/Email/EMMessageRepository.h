@@ -6,57 +6,44 @@
 
 #import <Email/EMRepository.h>
 
-@class EFFuture, EFLazyCache, EFPromise, EMMailboxRepository, EMRemoteConnectionRecoveryAssertion, NSArray, NSCache, NSHashTable, NSMapTable, NSString, NSURL;
-@protocol EMVIPManager;
+@class NSArray, NSMapTable;
 
 @interface EMMessageRepository : EMRepository
 {
     NSMapTable *_observedMessageListItemCache;
-    NSMapTable *_unobservedMessageListItemCache;
-    NSMapTable *_wrappedObserversByActualObserver;
-    NSHashTable *_recoverableObservers;
-    struct os_unfair_lock_s _messageListItemCacheLock;
-    struct os_unfair_lock_s _observersLock;
-    EMRemoteConnectionRecoveryAssertion *_connectionRecoveryAssertion;
-    id <EMVIPManager> _vipManager;
-    NSCache *_queryCountCache;
-    NSURL *_cacheURL;
-    EFPromise *_remoteContentCachePromise;
-    EFLazyCache *_brandIndicatorsCache;
-    EMMailboxRepository *_mailboxRepository;
 }
 
-+ (void);
++ (void)lA;
 + (id);
 + (id);
 + (id);
 - (id);
 - (id);
+- (void)ingItemHandler;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
+- (void)DefaultHAPAccessoryClimateStorage;
+- (id);
 - (void);
+- (id)HindsightDigestController;
 - (void);
-- (void);
-- (void);
+- (id);
+- (id)E&;
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id),�;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)HasResident;
 - (id);
 - (id);
 - (void);
@@ -65,35 +52,35 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)ETWORK_CONNECTION_TYPE_ETHERNET;
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void)TB@;
+- (void);
+- (void)@;
 - (id);
+- (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)ȇ@;
 - (id);
 - (void);
-- (void);
+- (void) s@;
 - (void);
 - (void);
 - (id);
@@ -110,25 +97,11 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)dbQueueDiscardOperation:itemGUID: /* Error: Ran out of types for this method. */;
 - (void)!;
 
 // Remaining properties
-@property(retain, nonatomic) EFLazyCache *brandIndicatorsCache; // @synthesize brandIndicatorsCache=_brandIndicatorsCache;
-@property(retain, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;
 @property(readonly, copy) NSArray *currentObservers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EMMailboxRepository *mailboxRepository; // @synthesize mailboxRepository=_mailboxRepository;
-@property(retain, nonatomic) NSCache *queryCountCache; // @synthesize queryCountCache=_queryCountCache;
-@property(retain, nonatomic) EFPromise *remoteContentCachePromise; // @synthesize remoteContentCachePromise=_remoteContentCachePromise;
-@property(readonly, nonatomic) EFFuture *remoteContentURLCache;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <EMVIPManager> vipManager; // @synthesize vipManager=_vipManager;
 
 @end
 

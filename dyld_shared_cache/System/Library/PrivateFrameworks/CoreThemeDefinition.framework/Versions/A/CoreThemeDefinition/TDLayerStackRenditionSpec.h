@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class NSOrderedSet, NSString, TDImageStackAsset, TDThemeCompressionType;
+@class TDImageStackAsset;
 
 @interface TDLayerStackRenditionSpec : TDRenditionSpec
 {
@@ -24,11 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TDImageStackAsset *asset; // @dynamic asset;
-@property(nonatomic) struct CGSize canvasSize; // @dynamic canvasSize;
-@property(retain, nonatomic) NSString *canvasSizeString; // @dynamic canvasSizeString;
-@property(retain, nonatomic) TDThemeCompressionType *compressionType; // @dynamic compressionType;
-@property(retain, nonatomic) NSOrderedSet *layerReferences; // @dynamic layerReferences;
-@property(nonatomic) struct CGSize primitiveCanvasSize; // @synthesize primitiveCanvasSize;
 
 @end
 

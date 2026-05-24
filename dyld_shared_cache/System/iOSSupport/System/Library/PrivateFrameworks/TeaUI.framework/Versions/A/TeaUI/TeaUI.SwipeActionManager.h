@@ -7,26 +7,12 @@
 @interface TeaUI.SwipeActionManager
 {
     id panGestureRecognizer;
-    id tapGestureRecognizer;
-    id deferGroup;
-    id sceneStateManager;
-    id collectionView;
-    id isSwipeActionEnabled;
-    id dataSource;
-    id delegate;
-    id swipeState;
-    id rubberbandFactor;
-    id maximumSwipeVelocity;
-    id springStiffness;
-    id snapOpenPercentage;
-    id fadeDuration;
-    id fadeOffset;
 }
 
 - (void);
-- (void);
+- (void)H;
 - (_Bool);
-- (id);
+- (id)topLevelRecordIDs;
 - (void)9þÿ;
 
 @end

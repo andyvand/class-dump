@@ -9,7 +9,6 @@
 @interface KTOptInManager
 {
     NSString *_applicationIdentifier;
-    TransparencyApplication *_application;
 }
 
 + (id);
@@ -21,7 +20,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)nnection";
 - (id);
 - (void);
 - (id);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(retain) TransparencyApplication *application; // @synthesize application=_application;
-@property(readonly) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
 
 @end
 

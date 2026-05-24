@@ -9,23 +9,21 @@
 @interface IDSMessagingCapabilities
 {
     NSSet *_requiredCapabilities;
-    NSSet *_requiredMissingCapabilities;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (void);
-- (void)crypt;
+- (void)decrypt;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *requiredCapabilities; // @synthesize requiredCapabilities=_requiredCapabilities;
-@property(retain, nonatomic) NSSet *requiredMissingCapabilities; // @synthesize requiredMissingCapabilities=_requiredMissingCapabilities;
 
 @end
 

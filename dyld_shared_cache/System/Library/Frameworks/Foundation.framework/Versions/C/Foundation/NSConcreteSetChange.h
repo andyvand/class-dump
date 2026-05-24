@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSConcreteSetChange : NSSetChange
 {
     unsigned long long _changeType;
-    id _value;
 }
 
 - (id);

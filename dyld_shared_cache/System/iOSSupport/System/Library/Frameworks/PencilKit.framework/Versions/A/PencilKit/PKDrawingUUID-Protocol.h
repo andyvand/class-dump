@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol PKDrawingUUID
 
 // Remaining properties
-@property(readonly, copy) NSData *AES128Key;
 @property(readonly, copy) NSString *uniqueCacheFilePath;
 @end
 

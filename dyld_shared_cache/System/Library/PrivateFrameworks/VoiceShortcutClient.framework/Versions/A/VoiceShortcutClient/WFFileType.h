@@ -6,76 +6,62 @@
 
 #import <VoiceShortcutClient/WFType.h>
 
-@class NSArray, NSDictionary, NSString, UTType, WFImage;
+@class NSString, WFImage;
 
 @interface WFFileType : WFType
 {
     NSString *_string;
-    UTType *_utType;
-    NSDictionary *_typeDeclaration;
 }
 
 + (id);
 + (id);
++ (id)Nz;
 + (id);
 + (id);
++ (id){;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)z;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
+- (id)93|;
+- (id);
+- (id)z;
 - (id);
+- (id){;
 - (id);
+- (id)s;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)|;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)Lf ;
 - (_Bool);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (id)ss_=i};
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)getBytes:(id)arg1 range: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void)ñ^1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *MIMEType;
-@property(readonly, nonatomic) NSString *OSType;
-@property(readonly, nonatomic, getter=isCoreType) _Bool coreType;
-@property(readonly, nonatomic, getter=isDeclared) _Bool declared;
 @property(readonly, nonatomic) WFImage *documentIcon;
-@property(readonly, nonatomic, getter=isDynamic) _Bool dynamic;
-@property(readonly, nonatomic) NSString *fileExtension;
-@property(readonly, nonatomic) NSString *pboardType;
-@property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) NSDictionary *typeDeclaration; // @synthesize typeDeclaration=_typeDeclaration;
-@property(readonly, nonatomic) NSString *typeDescription;
-@property(readonly, nonatomic) NSArray *typesConformedTo;
-@property(readonly, nonatomic) UTType *utType; // @synthesize utType=_utType;
 
 @end
 

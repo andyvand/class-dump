@@ -11,15 +11,14 @@
 @interface NUPixelBufferSourceNode : NUVideoFrameSourceNode
 {
     CIImage *_image;
-    struct __CVBuffer *_pixelBuffer;
 }
 
 - (CDStruct_912cb5d2);
 - (id);
-- (id);
+- (id)7 ;
 - (id);
 - (void);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *)_schedulePowerAssertionTimer;
 - (void){CGPoint=dd}{CGSize=dd}}40{CGRect={CGPoint=dd}{CGSize=dd}}72o^@104;
 
 // Remaining properties

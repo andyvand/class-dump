@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _NSTextAttachmentLayoutContext;
-
 __attribute__((visibility("hidden")))
 @interface _NSCoreTypesetterLayoutCache
 {
     unsigned long long _count;
-    unsigned short *_glyphs;
-    struct CGSize *_advances;
-    double _elasticAdvances;
-    struct __CTFont *_resolvedFont;
-    long long _textAlignment;
-    struct __CTLine *_line;
-    _NSTextAttachmentLayoutContext *_textAttachmentLayoutContext;
-    _Bool _lineValidForDrawing;
 }
 
 - (void);

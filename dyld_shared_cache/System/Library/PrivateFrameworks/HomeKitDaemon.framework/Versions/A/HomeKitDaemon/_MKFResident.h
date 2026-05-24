@@ -6,15 +6,14 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class HMFPairingIdentity, MKFResidentDatabaseID, NSData, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFAppleMediaAccessory, MKFDevice, MKFHome;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _MKFResident : _MKFModel
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -22,26 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAppleMediaAccessory> appleMediaAccessory; // @dynamic appleMediaAccessory;
-@property(readonly, copy, nonatomic) MKFResidentDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFDevice> device; // @dynamic device;
 @property(retain, nonatomic) NSData *deviceIRKData; // @dynamic deviceIRKData;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(copy, nonatomic) NSString *idsDestination; // @dynamic idsDestination;
-@property(copy, nonatomic) NSUUID *idsIdentifier; // @dynamic idsIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(copy, nonatomic) NSNumber *reachable; // @dynamic reachable;
-@property(retain, nonatomic) NSData *residentCapabilities; // @dynamic residentCapabilities;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

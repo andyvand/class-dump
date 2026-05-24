@@ -7,10 +7,6 @@
 @interface NSScrubberLayoutAttributes
 {
     long long _itemIndex;
-    struct CGRect _frame;
-    double _alpha;
-    unsigned int _escapes:1;
-    unsigned int _reservedLayoutAttributeFlags:31;
 }
 
 + (id);
@@ -25,13 +21,11 @@
 - (unsigned long long);
 - (_Bool);
 - (struct CGRect);
-- (id)edDelegateMethods:(struct _NSZone *)arg1;
+- (id)_setSupportedDelegateMethods:(struct _NSZone *)arg1;
 - (void)crollingMomentumCalculator",&,V_momentumCalculator;
 - (double)pport permanent version storage.;
 
 // Remaining properties
-@property double alpha; // @synthesize alpha=_alpha;
-@property struct CGRect frame; // @synthesize frame=_frame;
 @property long long itemIndex; // @synthesize itemIndex=_itemIndex;
 
 @end

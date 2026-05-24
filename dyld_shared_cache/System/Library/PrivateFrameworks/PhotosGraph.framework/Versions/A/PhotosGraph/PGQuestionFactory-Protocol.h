@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long questionOptions;
-@property(readonly, nonatomic) unsigned short questionType;
 @end
 

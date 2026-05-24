@@ -6,35 +6,23 @@
 
 #import <PodcastServices/PODContentEntity.h>
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface PODPlaylist : PODContentEntity
 {
     NSString *_title;
-    NSDate *_addedDate;
-    NSArray *_episodeSyncIDs;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)';
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)widgetBudgetID;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *addedDate; // @synthesize addedDate=_addedDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *episodeSyncIDs; // @synthesize episodeSyncIDs=_episodeSyncIDs;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long syncID;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

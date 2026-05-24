@@ -4,71 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPDCircleStateObserver, NSArray, NSObject, NSString;
-@protocol CDPDCircleDelegate, CDPDCircleProxy, CDPDOctagonTrustProxy, CDPStateUIProviderInternal, OS_dispatch_queue;
+@class CDPDCircleStateObserver;
+@protocol CDPStateUIProviderInternal;
 
 @interface CDPDCircleController
 {
     CDPDCircleStateObserver *_circleJoinObserver;
-    NSObject<OS_dispatch_queue> *_requestSynchronizationQueue;
-    unsigned long long _cliqueStatusRetryCount;
-    NSArray *_retryIntervals;
-    NSObject<OS_dispatch_queue> *_cdpdCircleDefaultQueue;
-    id <CDPDCircleProxy> _circleProxy;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    id <CDPDCircleDelegate> _delegate;
-    id <CDPDOctagonTrustProxy> _octagonProxy;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)StartPageFeatureAvailabilityBrowseInSafariCollectionViewItemDelegate;
+- (void)SnapshotRequest;
+- (void)SafeAutoFillChoicesConfirmationPopoverViewController;
+- (void)BrowserMenuAdditions;
+- (void)SafariNSExtensionExtras;
+- (id)SafariLaunchAgentServiceDelegate;
+- (long long)WBSSafariSyncServiceProtocol;
+- (void)SFContentBlockerManagerDelegate;
+- (void)SafariContentBlockerAppExtensionsController;
+- (void)SafariCNAvatarCacheExtras;
+- (id)ResponsiveDesignPresetConfiguration;
+- (long long)ProfileIconPickerCollectionViewController;
+- (int)PrivateBrowsingPrivacyProtectionsBanner;
+- (id)PrivateBrowsingExplanationBanner;
+- (void)PrintSheetSuppressionManager;
+- (_Bool)NSPrintPanelAccessorizing;
+- (void)PerSitePreferencesPopoverViewController;
+- (void)OpenPageWithSimulatorMenuController;
+- (void)LibraryTableCellView;
+- (void)AnnotatedBookmarksSidebarViewControllerDelegate;
+- (void)LibraryViewControllerDelegate;
+- (void)LibrarySidebarNavigationViewController;
+- (void)LibraryItemTabGroup;
+- (id)FormCompletionAdapter;
+- (void)FavoritesPickerViewController;
+- (void)FavoritesPickerImageResponse;
+- (void)WBSCompletionListItem;
+- (void)CloudTabsPopoverOutlineView;
+- (void)inputLumFactors;
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (int);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void)ictionary"24@?<v@?B@"NSError">32;
 - (id)rd_verify_phone_subHeader_1;
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPDCircleProxy> circleProxy; // @synthesize circleProxy=_circleProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CDPDCircleDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CDPDOctagonTrustProxy> octagonProxy; // @synthesize octagonProxy=_octagonProxy;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end

@@ -5,5 +5,18 @@
 //
 
 @protocol SecureBackupProtocol
+- (void)9;
+- (void);
+- (void);
+- (void)(;
+- (void)c;
+- (void)V;
+- (void)(;
+- (void)k;
+- (void);
+- (void);
+- (void)	;
+- (void)a;
+- (void);
 @end
 

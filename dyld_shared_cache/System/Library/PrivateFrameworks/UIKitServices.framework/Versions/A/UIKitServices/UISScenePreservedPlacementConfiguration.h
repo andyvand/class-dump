@@ -12,17 +12,17 @@
 }
 
 + (unsigned long long);
++ (_Bool)NeutrinoCore;
 + (_Bool);
-+ (_Bool);
 - (void);
+- (_Bool)@9Y;
+- (id);
+- (id);
+- (id);
+- (id)_lock_shouldSilencePublisher;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(nonatomic) _Bool keepInBackground; // @synthesize keepInBackground=_keepInBackground;

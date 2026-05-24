@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGElementIdentifierSet, KnowledgeGraphKit.KGWrapperDirectedBinaryAdjacency, NSString;
+@class KnowledgeGraphKit.KGWrapperDirectedBinaryAdjacency;
 
 @interface KGDirectedBinaryAdjacency
 {
@@ -25,10 +25,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)=;
 - (id);
-- (id);
-- (id);
+- (id).;
+- (id)@;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -37,11 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *description;
 @property(readonly, nonatomic) unsigned long long hash;
-@property(readonly, nonatomic) KGElementIdentifierSet *sources;
-@property(readonly, nonatomic) unsigned long long sourcesCount;
-@property(readonly, nonatomic) KGElementIdentifierSet *targets;
 
 @end
 

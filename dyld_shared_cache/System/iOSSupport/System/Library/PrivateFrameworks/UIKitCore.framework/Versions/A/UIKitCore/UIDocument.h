@@ -4,51 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDocumentDifferenceSize, NSLock, NSMutableArray, NSMutableSet, NSObject, NSOperationQueue, NSProgress, NSSet, NSString, NSTimer, NSURL, NSUndoManager, NSUserActivity;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSDocumentDifferenceSize, NSUserActivity;
 
 @interface UIDocument
 {
     NSUserActivity *_currentUserActivity;
-    NSLock *_activityContinuationLock;
-    NSURL *_fileURL;
-    NSString *_fileBookmark;
-    NSString *_fileType;
-    NSString *_localizedName;
-    NSUndoManager *_undoManager;
-    NSDate *_fileModificationDate;
-    NSObject<OS_dispatch_queue> *_fileAccessQueue;
-    NSObject<OS_dispatch_queue> *_openingQueue;
-    NSObject<OS_dispatch_semaphore> *_fileAccessSemaphore;
-    NSOperationQueue *_filePresenterQueue;
-    id _differenceDueToRecentChanges;
-    id _differenceSincePreservingPreviousVersion;
-    id _differenceSinceSaving;
-    NSTimer *_autosavingTimer;
-    double _lastSaveTime;
-    double _lastPreservationTime;
-    id _versionWithoutRecentChanges;
-    NSMutableArray *_versions;
-    id _alertPresenter;
-    id _progressSubscriber;
-    NSMutableSet *_progresses;
-    struct __docFlags {
-        unsigned int inClose:1;
-        unsigned int isOpen:1;
-        unsigned int inOpen:1;
-        unsigned int inRevert:1;
-        unsigned int isAutosavingBecauseOfTimer:1;
-        unsigned int versionWithoutRecentChangesIsNotLastOpened:1;
-        unsigned int ignoreUndoAndRedoNotifications:1;
-        unsigned int editingTemporarilyDisabled:1;
-        unsigned int editingDisabledDueToPermissions:1;
-        unsigned int isRegisteredAsFilePresenter:1;
-        unsigned int movingFile:1;
-        unsigned int savingError:1;
-        unsigned int inConflict:1;
-        unsigned int needToStopAccessingSecurityScopedResource:1;
-        unsigned int replacedDefaultUserActivity:1;
-    } _docFlags;
 }
 
 + (id);
@@ -59,70 +19,36 @@
 + (void);
 + (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)%@  critical app name:%@   chat:%@ /* Error: Ran out of types for this method. */;
+- (void)valid to send with;
+- (void)isk on incoming:(id)arg1 %@;
+- (void)sync date to CK first time, success %@, error %@;
+- (void)Setting active accounts:(id)arg1 %@;
+- (_Bool)high-quality-photo-file-sizes;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (void)b;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -130,8 +56,43 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool)x�
+%;
+- (_Bool)setIsPendingSatelliteSend:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (id);
+- (id);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -142,23 +103,23 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id)__auth_stubs;
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)hasRepeatMode;
 - (id);
 - (void);
 - (void);
@@ -168,10 +129,10 @@
 × ;
 - (id)rawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
 - (void)e=dd}16Q32;
-- (id)seLinearLayout: /* Error: Ran out of types for this method. */;
-- (void)orForFlattening:(id)arg1;
-- (void)onstraints;
-- (void)mationsEnabled;
+- (id)_setUseLinearLayout: /* Error: Ran out of types for this method. */;
+- (void)_setColorForFlattening:(id)arg1;
+- (void)_createTitleWithAccessoryContainerConstraints;
+- (void)_areEdgeEffectAnimationsEnabled;
 - (id);
 - (id);
 - (id)joþ;
@@ -185,35 +146,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSDocumentDifferenceSize *differenceDueToRecentChanges; // @synthesize differenceDueToRecentChanges=_differenceDueToRecentChanges;
-@property(readonly, nonatomic) NSDocumentDifferenceSize *differenceSincePreservingPreviousVersion; // @synthesize differenceSincePreservingPreviousVersion=_differenceSincePreservingPreviousVersion;
-@property(readonly, nonatomic) NSDocumentDifferenceSize *differenceSinceSaving; // @synthesize differenceSinceSaving=_differenceSinceSaving;
-@property(readonly) unsigned long long documentState;
-@property(copy) NSDate *fileModificationDate;
-@property(readonly, copy) NSString *fileType;
-@property(readonly) NSURL *fileURL;
-@property(readonly, nonatomic) _Bool hasUnsavedChanges;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) NSProgress *progress;
-@property(readonly, nonatomic) NSString *savingFileType;
-@property(readonly) Class superclass;
-@property(retain) NSUndoManager *undoManager;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDStreamFormat;
-
 @protocol ASDRingBuffer
+- (long long)_accessoryPairingProgressStateMapLock;
+- (void)IOConnectMapMemory:0x%x /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAllocated) _Bool allocated;
 @property(nonatomic) long long frameCapacity;
-@property(readonly, nonatomic) CDUnknownBlockType readBlock;
-@property(copy, nonatomic) ASDStreamFormat *readFormat;
-@property(readonly, nonatomic) CDUnknownBlockType readWithZerosBlock;
-@property(readonly, nonatomic) CDUnknownBlockType writeBlock;
-@property(copy, nonatomic) ASDStreamFormat *writeFormat;
 @end
 

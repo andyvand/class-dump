@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (void)aultConversationViewingMessageCountOnAppear;
-- (void);
+- (void)BUSINESS_INITIATED_WELCOME_OPTOUT_BUTTON;
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;

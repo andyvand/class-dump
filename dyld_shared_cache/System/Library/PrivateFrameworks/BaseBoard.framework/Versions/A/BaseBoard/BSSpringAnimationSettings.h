@@ -12,18 +12,14 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)!;
 + (id);
 + (id);
 + (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double damping; // @dynamic damping;
-@property(readonly, nonatomic) double epsilon; // @dynamic epsilon;
-@property(readonly, nonatomic) double initialVelocity; // @dynamic initialVelocity;
 @property(readonly, nonatomic) double mass; // @dynamic mass;
-@property(readonly, nonatomic) double stiffness; // @dynamic stiffness;
 
 @end
 

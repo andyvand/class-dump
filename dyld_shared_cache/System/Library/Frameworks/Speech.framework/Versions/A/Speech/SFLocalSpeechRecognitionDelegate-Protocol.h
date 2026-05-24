@@ -5,5 +5,8 @@
 //
 
 @protocol SFLocalSpeechRecognitionDelegate
+
+@optional
+- (void);
 @end
 

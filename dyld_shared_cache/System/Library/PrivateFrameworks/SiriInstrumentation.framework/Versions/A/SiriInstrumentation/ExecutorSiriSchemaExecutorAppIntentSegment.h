@@ -6,33 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface ExecutorSiriSchemaExecutorAppIntentSegment : SISchemaInstrumentationMessage
 {
     int _executorAppIntentTask;
-    int _executorAppIntentAttribution;
-    long long _machTimeStart;
-    long long _machTimeEnd;
-    SISchemaUUID *_sessionUUID;
-    SISchemaUUID *_requestUUID;
-    struct {
-        unsigned int executorAppIntentTask:1;
-        unsigned int executorAppIntentAttribution:1;
-        unsigned int machTimeStart:1;
-        unsigned int machTimeEnd:1;
-    } _has;
-    _Bool _hasSessionUUID;
-    _Bool _hasRequestUUID;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -42,18 +27,19 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (int);
+- (int)z"�;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˟;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)merisRecommendedRefreshInterval received an XPC_ERROR_CONNECTION_INVALID error.
+;
+- (id)nts:(id)arg1 %{public}@;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -61,27 +47,15 @@
 - (id);
 - (id)ClientEventMetadata";
 - (void)tEventMetadata",&,N,V_eventMetadata;
-- (id)gUpState;
+- (id)SADSchemaSADAssetBringUpState;
 - (id)í;
-- (id)Event;
+- (id)CMSchemaCMClientEvent;
 - (void)ü2åÿ£­i!;
 - (void)ø;
 - (id)ÿ;
 
 // Remaining properties
-@property(nonatomic) int executorAppIntentAttribution; // @synthesize executorAppIntentAttribution=_executorAppIntentAttribution;
 @property(nonatomic) int executorAppIntentTask; // @synthesize executorAppIntentTask=_executorAppIntentTask;
-@property(nonatomic) _Bool hasExecutorAppIntentAttribution;
-@property(nonatomic) _Bool hasExecutorAppIntentTask;
-@property(nonatomic) _Bool hasMachTimeEnd;
-@property(nonatomic) _Bool hasMachTimeStart;
-@property(nonatomic) _Bool hasRequestUUID; // @synthesize hasRequestUUID=_hasRequestUUID;
-@property(nonatomic) _Bool hasSessionUUID; // @synthesize hasSessionUUID=_hasSessionUUID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long machTimeEnd; // @synthesize machTimeEnd=_machTimeEnd;
-@property(nonatomic) long long machTimeStart; // @synthesize machTimeStart=_machTimeStart;
-@property(retain, nonatomic) SISchemaUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(retain, nonatomic) SISchemaUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end
 

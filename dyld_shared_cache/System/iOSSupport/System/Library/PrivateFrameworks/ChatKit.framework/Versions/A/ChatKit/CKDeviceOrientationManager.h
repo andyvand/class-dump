@@ -11,18 +11,17 @@ __attribute__((visibility("hidden")))
 @interface CKDeviceOrientationManager
 {
     id <CKDeviceOrientationManagerDelegate> _delegate;
-    NSMutableSet *_listenerKeys;
 }
 
 - (void);
-- (id);
-- (void);
-- (long long);
+- (id)r;
+- (void)bject to JSON:(id)arg1 %@;
+- (long long)porary image file at %@. Error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (long long);
-- (void);
+- (long long);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -34,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)1;
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentDeviceOrientation;
-@property(nonatomic) __weak id <CKDeviceOrientationManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSMutableSet *listenerKeys; // @synthesize listenerKeys=_listenerKeys;
-@property(readonly, nonatomic, getter=isListeningForOrientationEvents) _Bool listeningForOrientationEvents;
 
 @end
 

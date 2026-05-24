@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, SXMosaicGalleryColumnLayout;
-@protocol SXMosaicGalleryLayouterDataSource;
-
 @interface SXMosaicGalleryLayouter
 {
     _Bool _reverseNextHorizontalLivingRoomLayout;
-    unsigned long long _numberOfItems;
-    double _width;
-    NSArray *_supportedTileTypeClusters;
-    id <SXMosaicGalleryLayouterDataSource> _dataSource;
-    SXMosaicGalleryColumnLayout *_columnLayout;
-    NSMutableArray *_layouts;
-    NSMutableArray *_clusters;
-    NSMutableArray *_items;
-    NSMutableArray *_views;
-    NSMutableArray *_frames;
-    struct CGSize _contentSize;
 }
 
 - (id);
@@ -31,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void);
@@ -41,7 +27,7 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (id);
@@ -54,18 +40,7 @@
 - (id).Í;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *clusters; // @synthesize clusters=_clusters;
-@property(readonly, nonatomic) SXMosaicGalleryColumnLayout *columnLayout; // @synthesize columnLayout=_columnLayout;
 @property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(nonatomic) __weak id <SXMosaicGalleryLayouterDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) NSMutableArray *frames; // @synthesize frames=_frames;
-@property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSMutableArray *layouts; // @synthesize layouts=_layouts;
-@property(readonly, nonatomic) unsigned long long numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(nonatomic) _Bool reverseNextHorizontalLivingRoomLayout; // @synthesize reverseNextHorizontalLivingRoomLayout=_reverseNextHorizontalLivingRoomLayout;
-@property(readonly, nonatomic) NSArray *supportedTileTypeClusters; // @synthesize supportedTileTypeClusters=_supportedTileTypeClusters;
-@property(readonly, nonatomic) NSMutableArray *views; // @synthesize views=_views;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudStoreTransactionLogEvent
 {
     NSString *_transactionAuthor;
-    NSCountedSet *_reasons;
 }
 
 + (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)ogEvent;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCountedSet *reasons; // @synthesize reasons=_reasons;
 @property(readonly, nonatomic) NSString *transactionAuthor; // @synthesize transactionAuthor=_transactionAuthor;
 
 @end

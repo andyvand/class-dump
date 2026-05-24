@@ -13,17 +13,17 @@
     NSArray *mailPriorities;
 }
 
++ (id)O;
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)deleteMessages: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSArray *mailPriorities; // @synthesize mailPriorities;

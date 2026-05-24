@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKNotificationPort, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface _TSF_IODConnection
 {
     unsigned int _clientID;
-    NSObject<OS_dispatch_queue> *_asyncCallbackQueue;
-    IOKNotificationPort *_asyncCallbackPort;
-    CDUnknownFunctionPointerType _asyncCallback;
-    unsigned long long _refcon;
 }
 
 + (void);
@@ -23,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)-;
 - (id);
 - (_Bool);
 - (id);

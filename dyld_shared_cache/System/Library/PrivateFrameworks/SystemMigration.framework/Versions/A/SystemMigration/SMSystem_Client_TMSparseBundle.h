@@ -9,8 +9,6 @@
 @interface SMSystem_Client_TMSparseBundle : SMSystem_Client
 {
     _Bool encryptedBundle;
-    long long foundSystems;
-    long long _totalSystems;
 }
 
 + (id);
@@ -22,14 +20,12 @@
 - (long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) _Bool encryptedBundle; // @synthesize encryptedBundle;
-@property(readonly) long long foundSystems; // @synthesize foundSystems;
-@property(readonly) long long totalSystems; // @synthesize totalSystems=_totalSystems;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSString;
+@class NSString;
 
 @interface INCreateEventIntent : INIntent
 {
@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -28,25 +28,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)oding band buffer
+;
 - (void);
 - (id);
 - (id);
-- (id)veBinaryValueForSetBinarySetting:withCompletion: /* Error: Ran out of types for this method. */;
-- (id)reflight;
+- (id)resolveBinaryValueForSetBinarySetting:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)requiresAppLaunchPreflight;
 - (void)#;
 
 // Remaining properties
-@property(readonly, copy) INDateComponentsRange *dateTimeRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) CLPlacemark *location;
-@property(readonly, copy) NSArray *participants;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *title;
 
 @end

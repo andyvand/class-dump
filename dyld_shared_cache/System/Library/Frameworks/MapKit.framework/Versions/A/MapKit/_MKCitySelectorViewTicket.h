@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapServiceTraits, NSString;
+@class GEOMapServiceTraits;
 @protocol GEOMapServiceCitySelectorViewTicket;
 
 __attribute__((visibility("hidden")))
@@ -13,20 +13,13 @@ __attribute__((visibility("hidden")))
     id <GEOMapServiceCitySelectorViewTicket> _ticket;
 }
 
-- (id);
+- (id)Se;
 - (id);
 - (void);
 - (void);
-- (void)etDelaysPrimaryMouseButtonEvents: /* Error: Ran out of types for this method. */;
+- (void)setDelaysPrimaryMouseButtonEvents: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

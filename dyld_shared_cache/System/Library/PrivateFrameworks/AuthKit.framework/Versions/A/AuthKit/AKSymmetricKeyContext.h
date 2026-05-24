@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AKSymmetricKeyContext
 {
     NSArray *_requestedSubdomains;
-    NSString *_clientLabel;
 }
 
 + (_Bool);
@@ -21,10 +20,9 @@
 - (id);
 - (void);
 - (id);
-- (void)uthenticationController;
+- (void)AKAppleIDAuthenticationController;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *clientLabel; // @synthesize clientLabel=_clientLabel;
 @property(readonly, copy, nonatomic) NSArray *requestedSubdomains; // @synthesize requestedSubdomains=_requestedSubdomains;
 
 @end

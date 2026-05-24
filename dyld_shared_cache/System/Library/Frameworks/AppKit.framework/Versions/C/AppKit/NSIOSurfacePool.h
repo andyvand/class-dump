@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurface, NSDictionary, NSMutableArray;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSIOSurfacePool
 {
     NSDictionary *_surfaceProperties;
-    NSMutableArray *_surfaces;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)NSSet";
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) IOSurface *nextUnusedSurface;
 @property(readonly, copy) NSDictionary *surfaceProperties;
 
 @end

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)rror using Inv:(NSCoder *)arg1 input argument %d invalid in getrf.;
 @end
 

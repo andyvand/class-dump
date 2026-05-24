@@ -6,45 +6,36 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INMessage, NSArray, NSString;
+@class INMessage;
 
 @interface INSendMessageIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)rementalThumbnailGenerationHandler>"24@?<v@?>32;
++ (int)minimumSize;
++ (long long)initWithURLWrapper:(int)arg1 parentDirectoryWrapper:(int)arg2 contentType:(_Bool)arg3;
++ (_Bool)initWithFileURL:(long long)arg1 automaticallyGenerated: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (long long);
 - (id);
 - (long long);
 - (void);
+- (id);
+- (id)readBattery;
+- (id);
+- (void)y scan completion;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)ities: /* Error: Ran out of types for this method. */;
+- (long long)StringAsPayloadTaskPriorities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) INMessage *sentMessage;
-@property(copy) NSArray *sentMessages;
-@property(readonly) Class superclass;
 
 @end
 

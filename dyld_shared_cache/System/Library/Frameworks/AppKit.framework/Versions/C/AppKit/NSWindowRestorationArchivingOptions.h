@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)nteredContent:(void *)arg1 contentHuggingPriority: /* Error: Ran out of types for this method. */;
+- (id)_boxWithCenteredContent:(void *)arg1 contentHuggingPriority: /* Error: Ran out of types for this method. */;
 
 @end
 

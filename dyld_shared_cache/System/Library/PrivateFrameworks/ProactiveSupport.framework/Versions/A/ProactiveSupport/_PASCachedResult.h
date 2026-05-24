@@ -7,15 +7,13 @@
 @interface _PASCachedResult
 {
     _Atomic _Bool _done;
-    id _data;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setDefaultProdid: /* Error: Ran out of types for this method. */;
 
 @end
 

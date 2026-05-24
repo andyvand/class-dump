@@ -4,40 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitAccessPoint
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_entranceNameDisplayString;
-    NSMutableArray *_entranceZoomNames;
-    NSString *_exitNameDisplayString;
-    NSMutableArray *_exitZoomNames;
-    GEOLatLng *_location;
-    unsigned long long _muid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _accessPointIndex;
-    unsigned int _stationIndex;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_accessPointIndex:1;
-        unsigned int has_stationIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_entranceNameDisplayString:1;
-        unsigned int read_entranceZoomNames:1;
-        unsigned int read_exitNameDisplayString:1;
-        unsigned int read_exitZoomNames:1;
-        unsigned int read_location:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool);
++ (_Bool)setHasUserReportsCount:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
@@ -48,7 +24,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -67,22 +43,22 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)ord"16;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)c]}16i24;
 - (void);
 - (id);
-- (void);
+- (void)_startSignalProvidersWithContext:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
+- (void)e;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)evel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:traits: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -97,21 +73,7 @@
 - (void)f96z9;
 
 // Remaining properties
-@property(nonatomic) unsigned int accessPointIndex;
-@property(retain, nonatomic) NSString *entranceNameDisplayString;
-@property(retain, nonatomic) NSMutableArray *entranceZoomNames;
-@property(retain, nonatomic) NSString *exitNameDisplayString;
-@property(retain, nonatomic) NSMutableArray *exitZoomNames;
 @property(nonatomic) _Bool hasAccessPointIndex;
-@property(readonly, nonatomic) _Bool hasEntranceNameDisplayString;
-@property(readonly, nonatomic) _Bool hasExitNameDisplayString;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasMuid;
-@property(nonatomic) _Bool hasStationIndex;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) unsigned long long muid;
-@property(nonatomic) unsigned int stationIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

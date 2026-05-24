@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VCSleepWorkflow
 {
     NSArray *_actions;
-    NSString *_name;
-    NSString *_summaryString;
 }
 
 + (_Bool);
+- (id)vl;
 - (id);
 - (id);
 - (id);
+- (id)SArray";
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)setObject:(id)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)AUÐ!ÀCùñ^ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifierForDisplay;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *summaryString; // @synthesize summaryString=_summaryString;
 
 @end
 

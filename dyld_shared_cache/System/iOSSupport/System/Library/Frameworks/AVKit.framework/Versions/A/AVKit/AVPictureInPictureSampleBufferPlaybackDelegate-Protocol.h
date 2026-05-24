@@ -5,5 +5,6 @@
 //
 
 @protocol AVPictureInPictureSampleBufferPlaybackDelegate
+- (_Bool);
 @end
 

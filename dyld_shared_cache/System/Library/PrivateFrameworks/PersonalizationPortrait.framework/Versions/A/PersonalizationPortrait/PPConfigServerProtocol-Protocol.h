@@ -5,5 +5,7 @@
 //
 
 @protocol PPConfigServerProtocol
+- (void)kIKScannerDeviceView_Advanced_PaperSizeTypeAPSP;
+- (void)is disabled;
 @end
 

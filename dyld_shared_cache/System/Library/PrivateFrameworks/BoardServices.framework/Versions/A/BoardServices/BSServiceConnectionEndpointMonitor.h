@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSRBSService, NSDictionary, NSMutableSet, NSString;
-@protocol BSInvalidatable, BSServiceConnectionEndpointMonitorDelegate;
+@class BSRBSService, NSString;
 
 @interface BSServiceConnectionEndpointMonitor
 {
     BSRBSService *_RBSService;
-    id <BSServiceConnectionEndpointMonitorDelegate> _lock_delegate;
-    NSDictionary *_lock_endpointToEnvironments;
-    NSMutableSet *_lock_serialCallOut_endpoints;
-    id <BSInvalidatable> _registrationLock_assertion;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _registrationLock;
-    _Bool _lock_activated;
-    _Bool _lock_invalidated;
-    NSString *_service;
 }
 
 + (id);
@@ -30,20 +20,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)buffer
+;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <BSServiceConnectionEndpointMonitorDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,30 +6,17 @@
 
 #import <Intents/INAppDescriptor.h>
 
-@class LSApplicationRecord, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface INIntentDescriptor : INAppDescriptor
 {
     NSArray *_extensions;
-    NSArray *_uiExtensions;
-    NSString *_intentClassName;
-    NSString *_displayableBundleIdentifier;
-    NSString *_uiExtensionBundleIdentifier;
-    long long _preferredCallProvider;
 }
 
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) LSApplicationRecord *applicationRecord;
-@property(readonly, nonatomic) _Bool canRunOnLocalDevice;
-@property(readonly, nonatomic) LSApplicationRecord *displayableApplicationRecord;
-@property(readonly, copy, nonatomic) NSString *displayableBundleIdentifier; // @synthesize displayableBundleIdentifier=_displayableBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasCustomUIExtension;
 @property(readonly, copy, nonatomic) NSString *intentClassName; // @synthesize intentClassName=_intentClassName;
-@property(readonly, nonatomic) LSApplicationRecord *launchableApplicationRecord;
-@property(readonly, nonatomic) long long preferredCallProvider; // @synthesize preferredCallProvider=_preferredCallProvider;
-@property(readonly, copy, nonatomic) NSString *uiExtensionBundleIdentifier; // @synthesize uiExtensionBundleIdentifier=_uiExtensionBundleIdentifier;
 
 @end
 

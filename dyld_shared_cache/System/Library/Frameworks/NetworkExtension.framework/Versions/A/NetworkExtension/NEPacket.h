@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEFilterPacketInterpose, NEFlowMetaData, NSData;
+@class NSData;
 
 @interface NEPacket
 {
     unsigned char _protocolFamily;
-    NSData *_data;
-    long long _direction;
-    NEFlowMetaData *_metadata;
-    void *_context;
-    NEFilterPacketInterpose *_interpose;
 }
 
-+ (_Bool);
++ (_Bool)setQueue: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned char);
 - (void);
@@ -25,14 +20,11 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)orParticipantIDs:invalid participantIDs size /* Error: Ran out of types for this method. */;
 - (void)NSObject<OS_dispatch_source>";
 
 // Remaining properties
 @property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly) long long direction; // @synthesize direction=_direction;
-@property(readonly) NEFlowMetaData *metadata; // @synthesize metadata=_metadata;
-@property(readonly) unsigned char protocolFamily; // @synthesize protocolFamily=_protocolFamily;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AKFidoInterface
+- (void);
 @end
 

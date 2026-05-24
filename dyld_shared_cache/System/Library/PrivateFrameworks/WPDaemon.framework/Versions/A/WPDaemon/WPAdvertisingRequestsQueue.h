@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface WPAdvertisingRequestsQueue
 {
     NSMutableArray *_queue;
-    NSMutableSet *_clientTypes;
 }
 
 - (id);
@@ -18,16 +17,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)"
+;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void)eRSSI;
+- (void)kDeviceRSSI;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *clientTypes; // @synthesize clientTypes=_clientTypes;
 @property(retain, nonatomic) NSMutableArray *queue; // @synthesize queue=_queue;
 
 @end

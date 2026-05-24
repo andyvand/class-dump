@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTimer, NSNumber;
+@class INTimer;
 
 @protocol INResetTimerIntentExport
 
 // Remaining properties
-@property(copy) NSNumber *resetMultiple;
 @property(copy) INTimer *targetTimer;
 @end
 

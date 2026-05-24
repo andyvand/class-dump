@@ -6,21 +6,20 @@
 
 #import <ViewBridge/NSServiceViewController.h>
 
-@class UINSSceneWindowController, UIViewController;
+@class UINSSceneWindowController;
 
 __attribute__((visibility("hidden")))
 @interface UINSServiceViewController : NSServiceViewController
 {
     UINSSceneWindowController *_windowController;
-    UIViewController *_rootUIViewController;
 }
 
 + (void)Ø;
 - (void);
 - (id);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
+- (_Bool)J!;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *rootUIViewController; // @synthesize rootUIViewController=_rootUIViewController;
 @property(retain, nonatomic) UINSSceneWindowController *windowController; // @synthesize windowController=_windowController;
 
 @end

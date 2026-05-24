@@ -9,11 +9,6 @@
 @interface PKImageRenderer
 {
     _Bool _extendedDynamicRange;
-    _Bool _synchronous;
-    double _scale;
-    PKMetalRendererController *_rendererController;
-    long long _cancelCount;
-    struct CGSize _size;
 }
 
 + (struct CGImage *);
@@ -51,8 +46,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (double);
+- (void)a�;
+- (double);
 - (void);
 - (struct CGSize);
 - (id);
@@ -62,14 +57,7 @@
 - (void)¨Àxp;
 
 // Remaining properties
-@property(nonatomic) long long cancelCount; // @synthesize cancelCount=_cancelCount;
-@property(readonly, nonatomic) _Bool extendedDynamicRange; // @synthesize extendedDynamicRange=_extendedDynamicRange;
-@property(nonatomic) _Bool invertColors;
 @property(retain, nonatomic) PKMetalRendererController *rendererController; // @synthesize rendererController=_rendererController;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) _Bool sixChannelBlending;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) _Bool synchronous; // @synthesize synchronous=_synchronous;
 
 @end
 

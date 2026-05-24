@@ -5,5 +5,8 @@
 //
 
 @protocol CNCDContactPredicate
+
+@optional
+- (_Bool);
 @end
 

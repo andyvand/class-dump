@@ -6,44 +6,36 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface SSLinkResultBuilder : SSResultBuilder
 {
     NSURL *_url;
-    NSString *_websiteTitle;
-    NSArray *_senders;
-    NSArray *_senderContactIdentifiers;
-    unsigned long long _syndicationStatus;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)P;
 + (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setCollaborative: /* Error: Ran out of types for this method. */;
+- (id)setCollaborationType: /* Error: Ran out of types for this method. */;
+- (id)setAppleContentID: /* Error: Ran out of types for this method. */;
+- (id)linkMediaBackgroundColor;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);;
 - (id);
 - (void);
 - (id);
 - (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *senderContactIdentifiers; // @synthesize senderContactIdentifiers=_senderContactIdentifiers;
-@property(retain, nonatomic) NSArray *senders; // @synthesize senders=_senders;
-@property(nonatomic) unsigned long long syndicationStatus; // @synthesize syndicationStatus=_syndicationStatus;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(retain, nonatomic) NSString *websiteTitle; // @synthesize websiteTitle=_websiteTitle;
 
 @end

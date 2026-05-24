@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
-
 @interface SAResultCallback : AceObject
 {
 }
@@ -17,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
@@ -25,15 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) long long code;
-@property(copy, nonatomic) NSArray *commandReferences;
-@property(copy, nonatomic) NSArray *commands;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

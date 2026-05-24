@@ -8,7 +8,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long maxAvailableAllocationSize;
 @property(readonly) unsigned long long totalSize;
 @end
 

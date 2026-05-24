@@ -6,7 +6,7 @@
 
 #import <Intents/INCodableAttributeMetadata.h>
 
-@class INCodableEnumValue, NSString;
+@class INCodableEnumValue;
 
 @interface INCodableEnumAttributeMetadata : INCodableAttributeMetadata
 {
@@ -16,31 +16,24 @@
 + (_Bool);
 + (id)teMessageWasLastRead:(id)arg1 numberOfAttachments:(id *)arg2 messageType:messageEffectType: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)_GCSonyDualSenseControllerProfile;
 - (id);
+- (id)trong)(__strong id, NSError *__strong));
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)eporter removeRequestedBlockOnWiFiABCSignature:(id)arg1 ];
 - (id);
 - (id);
 - (id);
 - (id)%°!L@ùQ¾(°1Â0@ù
 × ;
-- (void)icipant:(id)arg1;
-- (id)AirPlaySetOutputDeviceSuccess;
+- (void)successWithResolvedEventParticipant:(id)arg1;
+- (id)INSignpostSiriAirPlaySetOutputDeviceSuccess;
 - (void)t.intent.media.PlayMediaIntentResponse;
 - (id)òQã;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) INCodableEnumValue *defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

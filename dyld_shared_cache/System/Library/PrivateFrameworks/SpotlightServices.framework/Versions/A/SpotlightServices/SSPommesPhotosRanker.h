@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PFSceneTaxonomy;
-@protocol OS_dispatch_queue;
-
 @interface SSPommesPhotosRanker
 {
     _Bool _isSearchToolClient;
-    NSObject<OS_dispatch_queue> *_serial_queue;
-    PFSceneTaxonomy *_sceneTaxonomy;
 }
 
-+ (long long);
-+ (long long);
++ (long long)_lp_colorBlendedWithColor:(id)arg1;
++ (long long);
 + (id);
-+ (id)stener;
++ (id)_atxListener;
 - (void);
 - (void);
 - (void);
@@ -26,16 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)webView:(id)arg1 decidePolicyForNavigationResponse:(id)arg2 decisionHandler:(id)arg3;
+- (void)#;
 - (_Bool);
 - (void);
-- (void)tes;
+- (void)hasUpdates;
 
 // Remaining properties
 @property(nonatomic) _Bool isSearchToolClient; // @synthesize isSearchToolClient=_isSearchToolClient;
-@property(retain, nonatomic) PFSceneTaxonomy *sceneTaxonomy; // @synthesize sceneTaxonomy=_sceneTaxonomy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serial_queue; // @synthesize serial_queue=_serial_queue;
 
 @end
 

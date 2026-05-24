@@ -10,7 +10,7 @@
 
 + (id);
 + (long long);
-+ (id);
++ (id)%;
 + (long long);
 + (long long);
 + (long long);

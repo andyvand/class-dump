@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFRSSIQueue
 {
     NSMutableArray *_rssiValues;
-    NSMutableArray *_tickValues;
 }
 
 - (double);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) double velocity;
-@property(readonly, nonatomic) double velocitySmoothed;
 
 @end
 

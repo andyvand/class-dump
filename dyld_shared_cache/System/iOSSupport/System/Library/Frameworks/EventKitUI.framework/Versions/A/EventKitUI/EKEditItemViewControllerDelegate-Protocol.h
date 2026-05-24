@@ -5,8 +5,11 @@
 //
 
 @protocol EKEditItemViewControllerDelegate
+- (_Bool)o locate current bundle;
 
 @optional
+- (void)s;
+- (void);
 - (_Bool)à~;
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRestaurant, NSArray, NSDate, NSString;
+@class INRestaurant, NSArray;
 
 @protocol INRestaurantReservationBookingExport
+- (_Bool);
+- (void);
+- (void)9;
+- (NSArray *);
 
 // Remaining properties
-@property(getter=isBookingAvailable) _Bool bookingAvailable;
-@property(copy) NSDate *bookingDate;
-@property(copy) NSString *bookingDescription;
-@property(copy) NSString *bookingIdentifier;
-@property(copy) NSArray *offers;
-@property unsigned long long partySize;
-@property _Bool requiresEmailAddress;
-@property _Bool requiresManualRequest;
-@property _Bool requiresName;
-@property _Bool requiresPhoneNumber;
 @property(copy) INRestaurant *restaurant;
 @end
 

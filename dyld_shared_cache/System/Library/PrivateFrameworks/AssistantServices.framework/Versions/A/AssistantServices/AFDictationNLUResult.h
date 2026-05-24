@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFVoiceCommandGrammarParsePackage, SIRINLUEXTERNALCDMNluResponse;
+@class SIRINLUEXTERNALCDMNluResponse;
 
 @interface AFDictationNLUResult
 {
     SIRINLUEXTERNALCDMNluResponse *_nluResponse;
-    AFVoiceCommandGrammarParsePackage *_commandGrammarParsePackage;
 }
 
 + (_Bool);
@@ -26,7 +25,6 @@
 - (void)s;
 
 // Remaining properties
-@property(retain, nonatomic) AFVoiceCommandGrammarParsePackage *commandGrammarParsePackage; // @synthesize commandGrammarParsePackage=_commandGrammarParsePackage;
 @property(retain, nonatomic) SIRINLUEXTERNALCDMNluResponse *nluResponse; // @synthesize nluResponse=_nluResponse;
 
 @end

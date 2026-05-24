@@ -4,50 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, SOAuthorizationRequestParametersCore, SOClient;
-@protocol OS_dispatch_queue, SOAuthorizationCoreDelegate;
+@class SOAuthorizationRequestParametersCore, SOClient;
 
 @interface SOAuthorizationCore
 {
     SOClient *_client;
-    SOAuthorizationRequestParametersCore *_requestParametersCore;
-    _Bool _enableUserInteraction;
-    id <SOAuthorizationCoreDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateDispatchQueue;
-    NSDictionary *_authorizationOptions;
 }
 
 + (_Bool);
 + (void);
++ (void);
 + (void);
 + (void);
++ (_Bool)q;
++ (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
-+ (void);
-+ (_Bool);
-+ (_Bool);
+- (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id)H;
+- (id)EH(D;
+- (void)EH;
+- (void)3;
+- (void)yH3�H~;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)';
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)setLinearBrightness:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -55,13 +49,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)llerDisplayName;
+- (id)_localizedCallerDisplayName;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *authorizationOptions; // @synthesize authorizationOptions=_authorizationOptions;
-@property __weak id <SOAuthorizationCoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSObject<OS_dispatch_queue> *delegateDispatchQueue; // @synthesize delegateDispatchQueue=_delegateDispatchQueue;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool enableUserInteraction; // @synthesize enableUserInteraction=_enableUserInteraction;
 @property(retain) SOAuthorizationRequestParametersCore *requestParametersCore;
 
 @end

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDActiveXPCClientConnectionsManager, HMDSymptomManager, HMFMessageDispatcher, NSObject, NSSet, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySymptomHandler
 {
     NSString *_logIdentifier;
-    NSUUID *_uuid;
-    HMDAccessory *_accessory;
-    NSSet *_symptoms;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    HMDSymptomManager *_symptomManager;
-    HMDActiveXPCClientConnectionsManager *_activeClientConnectionsManager;
-    NSUUID *_sfDeviceIdentifier;
-    NSUUID *_accessoryUUID;
 }
 
 + (id)è;
-- (void);
+- (void)ived %@ closed %@;
 - (void);
 - (void);
 - (id);
@@ -42,13 +32,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)OspreyChannel;
+- (id)universalStartDates;
+- (id)tapToRadarWithTitle:description:radarComponent:isUserInitiated:displayReason:attachments: /* Error: Ran out of types for this method. */;
+- (void)suggestionsLoggingConnection;
+- (id)poiEntertainment;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)dget.CalendarListWidget;
 - (id);
 - (id);
 - (id)0@ù
@@ -61,28 +51,7 @@ __attribute__((visibility("hidden")))
 - (id)è$C;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly) HMDActiveXPCClientConnectionsManager *activeClientConnectionsManager; // @synthesize activeClientConnectionsManager=_activeClientConnectionsManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(retain, nonatomic) NSUUID *sfDeviceIdentifier; // @synthesize sfDeviceIdentifier=_sfDeviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly) HMDSymptomManager *symptomManager; // @synthesize symptomManager=_symptomManager;
-@property(copy, nonatomic) NSSet *symptoms; // @synthesize symptoms=_symptoms;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

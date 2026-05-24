@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SPExecutionHistoryItem
 {
     NSString *_execPath;
-    NSString *_mmapPath;
-    NSString *_signingID;
-    NSString *_teamID;
-    NSString *_cdHash;
-    NSString *_responsiblePath;
-    NSString *_developerName;
-    NSDate *_lastSeen;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)	8L8;
+- (id)dC;
 - (id);
 - (id);
 - (id);
@@ -30,19 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cdHash; // @synthesize cdHash=_cdHash;
-@property(readonly, nonatomic) NSString *developerName; // @synthesize developerName=_developerName;
 @property(readonly, nonatomic) NSString *execPath; // @synthesize execPath=_execPath;
-@property(readonly, nonatomic) NSDate *lastSeen; // @synthesize lastSeen=_lastSeen;
-@property(readonly, nonatomic) NSString *mmapPath; // @synthesize mmapPath=_mmapPath;
-@property(readonly, nonatomic) NSString *responsiblePath; // @synthesize responsiblePath=_responsiblePath;
-@property(readonly, nonatomic) NSString *signingID; // @synthesize signingID=_signingID;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end
 

@@ -9,17 +9,13 @@
 @interface UIKit.ScrollEdgeEffectView.PocketMask : UIView
 {
     id layout;
-    id elementStyle;
-    id containerView;
-    id layerPool;
-    id previousBarFrame;
 }
 
 - (id);
 - (void);
-- (_Bool)LayerDelegate;
+- (_Bool)_hostLayerDelegate;
 - (void)er",&,N,V_shouldPreferEndOfWord;
-- (id)er;
+- (id)Converter;
 - (void)xßÿÎórm;
 - (struct UIEdgeInsets)Ìcÿ;
 

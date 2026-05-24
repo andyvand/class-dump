@@ -5,5 +5,6 @@
 //
 
 @protocol WBSSystemNoteTakingControllerDelegate
+- (void);
 @end
 

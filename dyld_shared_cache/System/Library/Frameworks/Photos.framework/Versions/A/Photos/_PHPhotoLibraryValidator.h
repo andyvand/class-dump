@@ -16,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)calIdentifiers;
+- (void)_cloudIdentifiersByLocalIdentifiers;
 - (id)@" with error:%@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties

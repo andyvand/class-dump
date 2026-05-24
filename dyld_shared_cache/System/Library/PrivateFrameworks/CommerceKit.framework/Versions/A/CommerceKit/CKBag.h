@@ -14,23 +14,23 @@
 + (id);
 + (id);
 + (id);
++ (id)setImageForEntry:(id)arg1 withIdentifier:orIndex:photoUUID:options: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
+- (id)kMOV;
+- (id)setKeySpace:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)Library/Frameworks/CoreText.framework/Versions/A/CoreText;
 - (id);
 - (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;

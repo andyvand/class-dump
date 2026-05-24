@@ -6,22 +6,30 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSString;
-
 @interface SGStructuredEventDissector : SGPipelineDissector
 {
 }
 
-+ (_Bool);
++ (_Bool)photoImageDataForContact:(id)arg1 error: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id)egexBuilder.dylib;
 + (void);
 + (void);
 + (id);
 + (void);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)CC{UID=[16C]}}24;
++ (unsigned long long)addData:(id)arg1 queue:completion: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -29,31 +37,15 @@
 + (id);
 + (id);
 + (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
++ (id)importSampleShortcutsIfNecessary;
 + (id);
 + (id)¸;
 - (id);
-- (void);
+- (void)entTimer";
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

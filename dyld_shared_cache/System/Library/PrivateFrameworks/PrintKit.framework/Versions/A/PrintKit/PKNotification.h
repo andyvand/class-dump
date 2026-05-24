@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, PKNotifier;
-@protocol OS_dispatch_queue;
+@class PKNotifier;
 
 @interface PKNotification
 {
     int _kind;
-    NSObject<OS_dispatch_queue> *_resultQueue;
-    CDUnknownBlockType _resultHandler;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    PKNotifier *_notifier;
-    NSString *_headerString;
-    NSString *_messageString;
-    NSString *_defaultButtonTitle;
-    NSString *_alternateButtonTitle;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void),
+
+*;
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (id)l;
 - (int);
 - (CDUnknownBlockType);
-- (void);
+- (void)NSObject;
 
 // Remaining properties
-@property(retain) NSString *alternateButtonTitle; // @synthesize alternateButtonTitle=_alternateButtonTitle;
-@property(retain) NSString *defaultButtonTitle; // @synthesize defaultButtonTitle=_defaultButtonTitle;
-@property(readonly) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(retain) NSString *headerString; // @synthesize headerString=_headerString;
-@property(readonly) int kind; // @synthesize kind=_kind;
-@property(retain) NSString *messageString; // @synthesize messageString=_messageString;
 @property(readonly) PKNotifier *notifier; // @synthesize notifier=_notifier;
-@property(copy) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property NSObject<OS_dispatch_queue> *resultQueue; // @synthesize resultQueue=_resultQueue;
-@property(readonly) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

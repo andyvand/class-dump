@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void)tView;
+- (void)ChannelEngagementView;
 
 @end
 

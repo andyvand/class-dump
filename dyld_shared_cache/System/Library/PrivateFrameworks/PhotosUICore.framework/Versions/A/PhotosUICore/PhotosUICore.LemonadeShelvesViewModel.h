@@ -7,19 +7,6 @@
 @interface PhotosUICore.LemonadeShelvesViewModel
 {
     id _dataSource;
-    id _dataSourceObservation;
-    id _forceToTriggerUpdate;
-    id _availableShelves;
-    id _displayState;
-    id _shelfViewModelsMap;
-    id _onDidLoadInitialShelves;
-    id firstShelfHeaderAppearance;
-    id useCase;
-    id _hasAppearedOnce;
-    id _visibleShelves;
-    id _visibility;
-    id loader;
-    id _$observationRegistrar;
 }
 
 @end

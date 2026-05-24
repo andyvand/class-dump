@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SACalendar, SALocalSearchRating, SAUIAppPunchOut;
+@class NSString;
 
 @interface SALocalSearchReview : AceObject
 {
@@ -19,33 +19,20 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)gnmentCosts:source pos  /* Error: Ran out of types for this method. */;
+- (id)	;
 - (void);
 - (id);
+- (id)	;
+- (void);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *author;
-@property(copy, nonatomic) NSString *comment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) SACalendar *lastUpdated;
-@property(copy, nonatomic) NSString *publication;
-@property(retain, nonatomic) SAUIAppPunchOut *reviewPunchOut;
-@property(retain, nonatomic) SALocalSearchRating *reviewRating;
-@property(readonly) Class superclass;
 
 @end
 

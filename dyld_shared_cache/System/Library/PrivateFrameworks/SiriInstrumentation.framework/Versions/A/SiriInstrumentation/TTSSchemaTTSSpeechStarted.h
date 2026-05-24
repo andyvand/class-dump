@@ -6,40 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaFreeFormText, TTSSchemaTTSAudioInterface, TTSSchemaTTSVoiceContext;
-
 @interface TTSSchemaTTSSpeechStarted : SISchemaInstrumentationMessage
 {
     int _audioOutputRoute;
-    float _customerPerceivedLatencyInSecond;
-    int _synthesisSource;
-    TTSSchemaTTSVoiceContext *_voiceContext;
-    int _synthesisEffect;
-    TTSSchemaTTSAudioInterface *_audioInterface;
-    float _volume;
-    int _thermalState;
-    float _assetSelectionLatencyInSecond;
-    float _audioQueueLatencyInSecond;
-    _Bool _isWarmStart;
-    int _llmStylePrompt;
-    int _thermalLevel;
-    SISchemaFreeFormText *_textToSpeak;
-    struct {
-        unsigned int audioOutputRoute:1;
-        unsigned int customerPerceivedLatencyInSecond:1;
-        unsigned int synthesisSource:1;
-        unsigned int synthesisEffect:1;
-        unsigned int volume:1;
-        unsigned int thermalState:1;
-        unsigned int assetSelectionLatencyInSecond:1;
-        unsigned int audioQueueLatencyInSecond:1;
-        unsigned int isWarmStart:1;
-        unsigned int llmStylePrompt:1;
-        unsigned int thermalLevel:1;
-    } _has;
-    _Bool _hasVoiceContext;
-    _Bool _hasAudioInterface;
-    _Bool _hasTextToSpeak;
 }
 
 - (id);
@@ -64,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
@@ -109,51 +78,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)layed, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id INNER JOIN chat c ON   c.ROWID = cm.chat_id INNER JOIN chat_handle_join ch ON   c.ROWID = ch.chat_id WHERE   ch.handle_id = ?   AND c.room_name IS NULL ORDER BY m.ROWID DESC LIMIT ?;
 - (float);
 - (id);
 - (id);
-- (void)rimentStatusCode;
-- (id)tDuration;
-- (id)atrix;
-- (_Bool)LAPPENTITYTYPE_KEYNOTE;
-- (void)ACKQUEUELOCATION_NOW;
+- (void)hasExperimentStatusCode;
+- (id)deleteRescoringResultDuration;
+- (id)_languageConfidenceMatrix;
+- (_Bool)STLLMQUMODELAPPENTITYTYPE_KEYNOTE;
+- (void)PEGASUSAUDIOPLAYBACKQUEUELOCATION_NOW;
 - (int);
 
 // Remaining properties
-@property(nonatomic) float assetSelectionLatencyInSecond; // @synthesize assetSelectionLatencyInSecond=_assetSelectionLatencyInSecond;
-@property(retain, nonatomic) TTSSchemaTTSAudioInterface *audioInterface; // @synthesize audioInterface=_audioInterface;
 @property(nonatomic) int audioOutputRoute; // @synthesize audioOutputRoute=_audioOutputRoute;
-@property(nonatomic) float audioQueueLatencyInSecond; // @synthesize audioQueueLatencyInSecond=_audioQueueLatencyInSecond;
-@property(nonatomic) float customerPerceivedLatencyInSecond; // @synthesize customerPerceivedLatencyInSecond=_customerPerceivedLatencyInSecond;
-@property(nonatomic) _Bool hasAssetSelectionLatencyInSecond;
-@property(nonatomic) _Bool hasAudioInterface; // @synthesize hasAudioInterface=_hasAudioInterface;
-@property(nonatomic) _Bool hasAudioOutputRoute;
-@property(nonatomic) _Bool hasAudioQueueLatencyInSecond;
-@property(nonatomic) _Bool hasCustomerPerceivedLatencyInSecond;
-@property(nonatomic) _Bool hasIsWarmStart;
-@property(nonatomic) _Bool hasLlmStylePrompt;
-@property(nonatomic) _Bool hasSynthesisEffect;
-@property(nonatomic) _Bool hasSynthesisSource;
-@property(nonatomic) _Bool hasTextToSpeak; // @synthesize hasTextToSpeak=_hasTextToSpeak;
-@property(nonatomic) _Bool hasThermalLevel;
-@property(nonatomic) _Bool hasThermalState;
-@property(nonatomic) _Bool hasVoiceContext; // @synthesize hasVoiceContext=_hasVoiceContext;
-@property(nonatomic) _Bool hasVolume;
-@property(nonatomic) _Bool isWarmStart; // @synthesize isWarmStart=_isWarmStart;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int llmStylePrompt; // @synthesize llmStylePrompt=_llmStylePrompt;
-@property(nonatomic) int synthesisEffect; // @synthesize synthesisEffect=_synthesisEffect;
-@property(nonatomic) int synthesisSource; // @synthesize synthesisSource=_synthesisSource;
-@property(retain, nonatomic) SISchemaFreeFormText *textToSpeak; // @synthesize textToSpeak=_textToSpeak;
-@property(nonatomic) int thermalLevel; // @synthesize thermalLevel=_thermalLevel;
-@property(nonatomic) int thermalState; // @synthesize thermalState=_thermalState;
-@property(retain, nonatomic) TTSSchemaTTSVoiceContext *voiceContext; // @synthesize voiceContext=_voiceContext;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

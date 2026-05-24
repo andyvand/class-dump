@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface AeroMLTracerSession
 {
     NSString *_traceId;
-    NSString *_projectName;
-    NSObject<OS_os_log> *_traceSignpost;
-    NSObject<OS_os_log> *_traceChannel;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id),V_collectionIndex;
++ (id)ommesCalibratedL1Score;
+- (id)_contextMatcherSpanCount;
+- (id)_contextCollectorFetchContext;
+- (void)_commsNotificationType;
+- (void)_commsAppSelectionGroundTruthGenerated;
+- (id)_assetId;
+- (id)_after;
+- (id)_actionParameterDisambiguationContext;
+- (id)_llmStylePrompt;
+- (id)i,N,V_lengthInChars;
 - (void);
 - (id)m.apple.SafariTechnologyPreview;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *projectName; // @synthesize projectName=_projectName;
-@property(retain, nonatomic) NSObject<OS_os_log> *traceChannel; // @synthesize traceChannel=_traceChannel;
 @property(readonly, copy, nonatomic) NSString *traceId; // @synthesize traceId=_traceId;
-@property(retain, nonatomic) NSObject<OS_os_log> *traceSignpost; // @synthesize traceSignpost=_traceSignpost;
 
 @end
 

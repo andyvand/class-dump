@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void){CAFrameRateRange=fff}16S28S32;
+- (unsigned long long))	;
 - (_Bool);
 - (_Bool);
 - (id)@60;
-- (id)llPlacesForClientization;
+- (id)_shouldCallPlacesForClientization;
 - (id)³x´pµ¶·¸x¹$ÙØÚ´Ü	ßÌàâ4äÀä¬å¼æ\èøéxê;
 - (void){hJ@;
 

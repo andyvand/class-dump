@@ -9,12 +9,6 @@
 @interface HIDManager
 {
     struct __IOHIDManager *_manager;
-    CDUnknownBlockType _elementHandler;
-    CDUnknownBlockType _deviceNotificationHandler;
-    CDUnknownBlockType _inputReportHandler;
-    CDUnknownBlockType _cancelHandler;
-    _Bool _activated;
-    struct os_unfair_recursive_lock_s _handlerLock;
 }
 
 - (void);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (void);
@@ -34,9 +28,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ce;
 - (void);
-- (void);
+- (void)onnection";
 
 // Remaining properties
 @property(readonly) NSArray *devices;

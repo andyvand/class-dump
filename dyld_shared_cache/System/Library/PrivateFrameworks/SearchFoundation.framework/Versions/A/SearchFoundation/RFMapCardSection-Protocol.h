@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray, NSDictionary;
 
 @protocol RFMapCardSection
+- (_Bool);
+- (NSDictionary *)C;
 - (NSArray *)ÈÌ;
 - (void)Ç0ë;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *annotations;
-@property(nonatomic) double cameraDistance;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *markers;
-@property(copy, nonatomic) NSArray *polyline;
-@property(nonatomic) _Bool showsUserLocation;
 @property(nonatomic) int sizeFormat;
 @end
 

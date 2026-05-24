@@ -22,12 +22,6 @@ struct __SecKey {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    double *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_82f37d05;
-
-typedef struct {
     float *list;
     unsigned long long count;
     unsigned long long size;

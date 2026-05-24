@@ -9,34 +9,31 @@
 @interface _MRVoiceInputDeviceDescriptorProtobuf
 {
     _MRAudioFormatSettingsProtobuf *_defaultFormat;
-    NSMutableArray *_supportedFormats;
 }
 
 + (Class);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)';
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)dateWithTimeIntervalSinceNow:(struct _NSZone *)arg1;
+- (id)e.rendered;
 - (id)!´GùÑ&°1Â0@ù
 × ;
-- (void)tifier: /* Error: Ran out of types for this method. */;
+- (void)connectionForIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MRAudioFormatSettingsProtobuf *defaultFormat; // @synthesize defaultFormat=_defaultFormat;
-@property(readonly, nonatomic) _Bool hasDefaultFormat;
 @property(retain, nonatomic) NSMutableArray *supportedFormats; // @synthesize supportedFormats=_supportedFormats;
 
 @end

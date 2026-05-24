@@ -5,5 +5,9 @@
 //
 
 @protocol CRKCourseEnrollmentControllerObserver
+
+@optional
+- (void);
+- (void);
 @end
 

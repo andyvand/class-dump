@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray, SSScreenConfiguration, SSScreenInfo;
+@class NSMutableArray;
 
 @interface SSFrameBuffer
 {
     struct SSSize mSize;
-    double mPerceivedSessionScalingFactor;
-    unsigned long long mBitsPerComponent;
-    unsigned long long mBitsPerPixel;
-    unsigned long long mBytesPerPixel;
-    unsigned long long mBytesPerRow;
-    _Bool mShouldInterpolate;
-    _Bool mHasCursor;
-    NSData *mBuffer;
-    unsigned int mBitmapInfo;
-    struct CGColorSpace *mColorSpace;
-    struct _opaque_pthread_mutex_t mInUseMutex;
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } mInUseCondition;
-    unsigned long long mInUseCount;
-    NSMutableArray *mObservers;
-    struct _opaque_pthread_mutex_t mObserversMutex;
-    SSScreenConfiguration *mScreenConfiguration;
-    SSScreenInfo *mSelectedScreen;
-    double mContentsScale;
-    NSArray *mScreensToDraw;
-    NSMutableArray *_lingeringOldBuffers;
 }
 
-- (void);
-- (void);
+- (void)L;
+- (void))@;
 - (_Bool);
 - (void);
 - (void);
@@ -73,14 +50,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) double contentsScale;
 @property(retain) NSMutableArray *lingeringOldBuffers; // @synthesize lingeringOldBuffers=_lingeringOldBuffers;
-@property(readonly) _Bool needsCoordinateTranslations;
-@property double perceivedScalingFactor;
-@property(copy) SSScreenConfiguration *screenConfiguration; // @synthesize screenConfiguration=mScreenConfiguration;
-@property(readonly) NSArray *screensToDraw;
-@property(copy) SSScreenInfo *selectedScreen; // @synthesize selectedScreen=mSelectedScreen;
-@property(readonly) _Bool showingMultipleDisplays;
 
 @end
 

@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRImage, MRImageManager, NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface MRAssetMaster
 {
     NSMutableDictionary *_players;
-    NSMutableSet *_unusedPlayers;
-    _Bool _isEmbeddedAsset;
-    _Bool _isValid;
-    _Bool _isSupportedMovie;
-    NSString *_path;
-    MRImageManager *_imageManager;
-    MRImage *_thumbnail;
-    double _timestamp;
-    struct CGSize _originalSize;
 }
 
+- (id)numberWithUnsignedLongLong:(_Bool)arg1;
 - (id);
-- (id);
-- (void);
+- (void)ker _registerEnvelopes:(id)arg1 withEventName:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (double);
 - (void);
 - (_Bool);
@@ -39,15 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) MRImageManager *imageManager; // @synthesize imageManager=_imageManager;
-@property(readonly) _Bool isEmbeddedAsset; // @synthesize isEmbeddedAsset=_isEmbeddedAsset;
-@property(readonly) _Bool isSupportedMovie; // @synthesize isSupportedMovie=_isSupportedMovie;
-@property(readonly) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly) struct CGSize originalSize; // @synthesize originalSize=_originalSize;
 @property(readonly) NSString *path; // @synthesize path=_path;
-@property(readonly) NSDictionary *players; // @synthesize players=_players;
-@property(readonly) MRImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

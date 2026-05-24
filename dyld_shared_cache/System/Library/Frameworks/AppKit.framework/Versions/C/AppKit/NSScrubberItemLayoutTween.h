@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrubberLayout, NSSet, NSString;
+@class NSScrubberLayout;
 
 __attribute__((visibility("hidden")))
 @interface NSScrubberItemLayoutTween
 {
     NSScrubberLayout *_scrubberLayout;
-    NSSet *_cachedPrimarySelection;
-    CDStruct_11db19a6 _cachedPrimaryKey;
-    NSSet *_cachedSecondarySelection;
-    CDStruct_11db19a6 _cachedSecondaryKey;
-    CDStruct_11db19a6 _cleanState;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
+- (void)nvalid host address;
+- (CDStruct_e7e06f5e);
 - (id);
-- (void);
-- (CDStruct_11db19a6);
+- (CDStruct_e7e06f5e);
 - (id);
-- (CDStruct_11db19a6);
-- (id);
-- (CDStruct_11db19a6);
+- (CDStruct_e7e06f5e);
 - (void);
 
 // Remaining properties
-@property CDStruct_11db19a6 cachedPrimaryKey; // @synthesize cachedPrimaryKey=_cachedPrimaryKey;
-@property(copy) NSSet *cachedPrimarySelection; // @synthesize cachedPrimarySelection=_cachedPrimarySelection;
-@property CDStruct_11db19a6 cachedSecondaryKey; // @synthesize cachedSecondaryKey=_cachedSecondaryKey;
-@property(copy) NSSet *cachedSecondarySelection; // @synthesize cachedSecondarySelection=_cachedSecondarySelection;
-@property CDStruct_11db19a6 cleanState; // @synthesize cleanState=_cleanState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSScrubberLayout *scrubberLayout; // @synthesize scrubberLayout=_scrubberLayout;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsTrackingPosition;
+@property CDStruct_e7e06f5e cleanState; // @synthesize cleanState=_cleanState;
 
 @end
 

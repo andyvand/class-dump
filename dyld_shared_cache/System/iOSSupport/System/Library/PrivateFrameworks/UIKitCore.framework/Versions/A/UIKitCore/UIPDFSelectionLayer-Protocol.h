@@ -5,5 +5,6 @@
 //
 
 @protocol UIPDFSelectionLayer
+- (void);
 @end
 

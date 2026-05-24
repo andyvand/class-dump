@@ -10,11 +10,12 @@
 {
 }
 
-+ (id);
++ (id)oreCrypto - %s() succeeded, ccErr:%d.
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (long long);
+- (id)"32;
+- (id)H;
+- (long long);
 - (unsigned short);
 
 @end

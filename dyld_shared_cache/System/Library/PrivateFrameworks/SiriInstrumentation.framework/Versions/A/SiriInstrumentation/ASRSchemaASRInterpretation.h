@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ASRSchemaASRInterpretation : SISchemaInstrumentationMessage
 {
@@ -27,13 +27,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)DurationInMs;
+- (id)subPlaylistConnectionTlsHandshakeDurationInMs;
 - (id)À;
 - (id);
 - (void)q;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end

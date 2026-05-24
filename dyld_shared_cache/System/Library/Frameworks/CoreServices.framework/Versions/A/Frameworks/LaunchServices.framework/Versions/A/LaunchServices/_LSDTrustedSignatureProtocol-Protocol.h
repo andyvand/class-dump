@@ -5,5 +5,6 @@
 //
 
 @protocol _LSDTrustedSignatureProtocol
+- (void);
 @end
 

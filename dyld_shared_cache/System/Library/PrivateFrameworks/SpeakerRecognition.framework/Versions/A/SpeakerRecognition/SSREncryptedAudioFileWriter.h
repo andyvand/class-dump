@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSURL;
+@class NSURL;
 
 @interface SSREncryptedAudioFileWriter
 {
     NSURL *_fileUrl;
-    NSMutableData *_writeBuffer;
-    unsigned long long _sampleByteDepth;
 }
 
 - (id);
@@ -21,13 +19,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *fileUrl; // @synthesize fileUrl=_fileUrl;
-@property(nonatomic) unsigned long long sampleByteDepth; // @synthesize sampleByteDepth=_sampleByteDepth;
-@property(retain, nonatomic) NSMutableData *writeBuffer; // @synthesize writeBuffer=_writeBuffer;
 
 @end
 

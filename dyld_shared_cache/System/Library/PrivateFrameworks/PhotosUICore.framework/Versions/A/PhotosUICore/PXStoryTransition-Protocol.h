@@ -5,14 +5,13 @@
 //
 
 @protocol PXStoryTransition
+- (void (^)(double, double))";
+- (CDStruct_1b6d18a9)urePromotionResourceConfiguration"16@0:8 /* Error: Ran out of types for this method. */;
+- (long long)i;
 - (BOOL);
 - (void)@, IsRebuildingThumbnails:(void (^)(_Bool))arg1 %d (new);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(copy, nonatomic) CDUnknownBlockType effectAlphaHandler;
-@property(readonly, nonatomic) long long event;
 @property(readonly, nonatomic) BOOL kind;
 @end
 

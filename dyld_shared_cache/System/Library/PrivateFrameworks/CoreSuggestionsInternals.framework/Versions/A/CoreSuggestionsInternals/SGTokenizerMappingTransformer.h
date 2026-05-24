@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLazyPurgeableResult;
+@class _PASLazyPurgeableResult;
 
 @interface SGTokenizerMappingTransformer
 {
     _PASLazyPurgeableResult *_tagger;
-    _Bool _nameTagging;
-    _Bool _trustCoreNLP;
-    NSString *_punctuationMapping;
-    NSString *_personalNameMapping;
-    NSString *_locale;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)openSafariButton;
++ (id)okButton;
 - (void);
 - (void);
 - (id);
@@ -32,16 +27,10 @@
 - (void *);
 - (unsigned long long);
 - (_Bool);
-- (void)act: /* Error: Ran out of types for this method. */;
+- (void)cnContactIdentifiersForContact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_UIStatusBarCellularNetworkTypeViewAccessibility;
++ (void)AXLabelUIAccessibilityTokenDurationTimeMMSS;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ary/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore;
+- (id);
 - (unsigned long long);
 - (id);
 

@@ -7,19 +7,14 @@
 @interface ChronoKit.RemoteWidgetExtensionSession
 {
     id extensionIdentity;
-    id identifier;
-    id dataProtectionLevel;
-    _Bool boostToForegroundPriority;
-    id protectedDescriptors;
-    id $__lazy_storage_$_loggingIdentifier;
 }
 
 - (void);
 - (void);
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

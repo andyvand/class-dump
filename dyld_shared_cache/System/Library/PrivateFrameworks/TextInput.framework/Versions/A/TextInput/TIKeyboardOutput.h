@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary, NSString, TIKeyboardCandidate;
-
 @interface TIKeyboardOutput
 {
     _Bool _unmarkIfNecessary;
-    _Bool _shouldSendCurrentLocation;
-    _Bool _producedByDeleteInput;
-    TIKeyboardCandidate *_acceptedCandidate;
-    NSString *_textToCommit;
-    long long _positionOffset;
-    unsigned long long _deletionCount;
-    NSString *_insertionText;
-    unsigned long long _forwardDeletionCount;
-    NSString *_insertionTextAfterSelection;
-    TIKeyboardCandidate *_shortcutConversion;
-    NSIndexSet *_handwritingStrokesToDelete;
-    NSMutableDictionary *_customInfo;
-    NSString *_delimitingPrefix;
 }
 
-+ (_Bool);
++ (_Bool);
 
 @end
 

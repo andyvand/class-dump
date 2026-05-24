@@ -6,20 +6,17 @@
 
 #import <FinderKit/FI_TTableViewDataSource.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TTagColumnTableViewDataSource : FI_TTableViewDataSource
 {
     struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct TFENode _tagsContainerNode;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct TFENode);
@@ -29,17 +26,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

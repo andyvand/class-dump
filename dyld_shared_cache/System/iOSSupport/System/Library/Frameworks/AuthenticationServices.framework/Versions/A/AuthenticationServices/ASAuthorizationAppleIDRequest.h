@@ -11,7 +11,6 @@
 @interface ASAuthorizationAppleIDRequest : ASAuthorizationOpenIDRequest
 {
     NSString *_user;
-    struct os_unfair_lock_s _internalLock;
 }
 
 - (id);

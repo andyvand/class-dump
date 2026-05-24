@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)tifierRequestedForActiveSpeakScreenSessionAttribute set to nil;
 + (void);
-- (void);
+- (void)_axShouldMoveFocusToNavigationButton;
 
 @end
 

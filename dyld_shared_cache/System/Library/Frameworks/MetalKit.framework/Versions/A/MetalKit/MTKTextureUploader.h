@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSObject;
-@protocol MTLBlitCommandEncoder, MTLCommandBuffer, MTLDevice, OS_dispatch_queue;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface MTKTextureUploader
 {
     id <MTLDevice> _device;
-    id <MTLCommandBuffer> _commandBuffer;
-    id <MTLBlitCommandEncoder> _blit;
-    NSLock *_lock;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
 }
 
 - (id);

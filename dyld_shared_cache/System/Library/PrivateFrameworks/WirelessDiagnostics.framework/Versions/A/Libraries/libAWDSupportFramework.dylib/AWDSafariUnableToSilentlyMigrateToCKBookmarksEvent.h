@@ -7,25 +7,23 @@
 @interface AWDSafariUnableToSilentlyMigrateToCKBookmarksEvent
 {
     CDStruct_95bda58d _reasons;
-    unsigned long long _timestamp;
-    CDStruct_b5306035 _has;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
-- (int);
+- (int)T`;
 - (void);
 - (int);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)6;
+- (void)	k`-;
+- (void)\;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (int *);
@@ -36,9 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) int *reasons;
-@property(readonly, nonatomic) unsigned long long reasonsCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

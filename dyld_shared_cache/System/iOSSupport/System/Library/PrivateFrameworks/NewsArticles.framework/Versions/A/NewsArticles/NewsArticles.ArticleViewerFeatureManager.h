@@ -7,11 +7,6 @@
 @interface NewsArticles.ArticleViewerFeatureManager
 {
     id delegate;
-    id currentPage;
-    id providers;
-    id providerState;
-    id featureAvailability;
-    id tipSourceManager;
 }
 
 @end

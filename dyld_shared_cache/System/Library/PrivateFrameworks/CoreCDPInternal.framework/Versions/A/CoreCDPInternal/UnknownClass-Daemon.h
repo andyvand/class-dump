@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Daemon)
-- (id);
+- (id)PerSitePreferencesPopoverViewController;
 @end
 

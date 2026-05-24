@@ -7,12 +7,6 @@
 @interface NewsArticles.ArticleMastheadRootViewController__priv_F6C36BFF6F0AD6186D9B355F40022442
 {
     id coverViewManager;
-    id scrollViewProxyManager;
-    id rootViewController;
-    id tagMastheadProvider;
-    id parallaxXUpdateDelegate;
-    id parallaxX;
-    id lastSafeAreaInsets;
 }
 
 - (id);

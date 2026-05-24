@@ -6,23 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, NSDictionary, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSMarketingItemTask : AMSTask
 {
     _Bool _hydrateRelatedContent;
-    _Bool _includeMediaAssets;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSDictionary *_contextInfo;
-    NSString *_clientIdentifier;
-    AMSProcessInfo *_clientInfo;
-    NSString *_clientVersion;
-    NSString *_logKey;
-    NSString *_offerHints;
-    NSString *_placement;
-    NSString *_serviceType;
 }
 
 + (id);
@@ -43,16 +31,16 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id)ssion stream;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)zation;
+- (void)_authorization;
 - (void);
 - (id)âdóÓ{K°äQ4kÖ]Þ6!ÿS½Óý¢ñwÌúIËI +Ë\{oIÊ0÷xçé¹ÝÊÁ ñÉ LóHü¹Q²$ÑºtT²©¢Bà &¥4j7+Ñ îÜàÅ}Øz^ØÝ±BÀ|3ÞûzæÊÁÜûJ{Ðw=¯íÜV»êmÈóÎp­¾¬Õ2FÌN®Ðg¿û¶«ìkQÅújÇ<÷¤¿»'ùK?HP,RoÞÙR &ÕÕh¯£üÊ	Øc-;'UÜz¡vðSÇ!VSÑ;
 - (void)³£(m4é@ÿ-;
@@ -66,24 +54,6 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(copy) NSDictionary *contextInfo; // @synthesize contextInfo=_contextInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool hydrateRelatedContent; // @synthesize hydrateRelatedContent=_hydrateRelatedContent;
-@property _Bool includeMediaAssets; // @synthesize includeMediaAssets=_includeMediaAssets;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSString *offerHints; // @synthesize offerHints=_offerHints;
-@property(readonly) NSString *placement; // @synthesize placement=_placement;
-@property(readonly) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

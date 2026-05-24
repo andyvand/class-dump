@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewSet, UIInputViewSetPlacement, UIView;
+@class UIView;
 @protocol UIInputViewSetPlacementApplicator;
 
 @protocol UIInputViewSetPlacementOwner
 - (id <UIInputViewSetPlacementApplicator>)-accents;
 - (void)[%ld] outEdgesCount:[%ld] inOutEdgesCount:[%ld] %@ /* Error: Ran out of types for this method. */;
 - (_Bool)a focus update, which takes priority.;
-- (_Bool);
+- (_Bool)UISceneLayoutPreferences;
 - (struct UIEdgeInsets)f the UITransitionView for UITextEffectsWindow.;
 - (void)ccessoryView]|;
 - (_Bool)cross the letters to compose a word.;
 - (UIView *)to find element matching candidate ;
+- (long long);
 - (void)d43Ösþ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UIInputViewSetPlacementApplicator> applicator;
-@property(readonly) UIView *containerView;
-@property _Bool hideInputView;
-@property _Bool hideInputViewBackdrops;
-@property(readonly) UIView *hostView;
-@property(readonly) long long inputViewBackdropStyle;
-@property(readonly) struct UIEdgeInsets inputViewPadding;
-@property(readonly) UIInputViewSet *inputViewSet;
 @property(readonly) _Bool keyboardController;
-@property(readonly) UIInputViewSetPlacement *placement;
 @end
 

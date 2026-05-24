@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSTouchBar, NSTouchBarItem;
+
 @protocol NSTouchBarDelegate
+
+@optional
+- (NSTouchBarItem *)performTaskEnsuringAllAccountSourcesAreLoadedOnQueue:(NSTouchBar *)arg1 task:(NSString *)arg2;
 @end
 

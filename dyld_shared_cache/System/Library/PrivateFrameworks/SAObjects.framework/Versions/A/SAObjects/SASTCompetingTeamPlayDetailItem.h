@@ -6,31 +6,21 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUIDecoratedText;
-
 @interface SASTCompetingTeamPlayDetailItem : AceObject
 {
 }
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool firstEntity;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIDecoratedText *playDetail;
-@property(readonly) Class superclass;
 
 @end
 

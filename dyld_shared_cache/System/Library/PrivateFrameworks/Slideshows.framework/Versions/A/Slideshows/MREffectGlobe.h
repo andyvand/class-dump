@@ -11,16 +11,11 @@
 @interface MREffectGlobe : MREffect
 {
     MRImageProvider *mMapProvider;
-    MRImageProvider *mMarkerProvider;
-    MRImageProvider *mGradientProvider;
-    MRImageProvider *mShadingProvider;
-    MRImageProvider *mStarsLProvider;
-    MRImageProvider *mStarsRProvider;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ger _handleDroppedEnvelopesForLocalReasons:(double)arg1 ]_block_invoke;
 - (id);
 - (void);
 - (void);

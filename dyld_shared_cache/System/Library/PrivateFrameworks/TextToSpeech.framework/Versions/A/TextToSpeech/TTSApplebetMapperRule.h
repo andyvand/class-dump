@@ -9,10 +9,6 @@
 @interface TTSApplebetMapperRule
 {
     NSArray *_left;
-    NSArray *_match;
-    NSArray *_right;
-    CDUnknownBlockType _matchRule;
-    NSArray *_substitution;
 }
 
 + (id);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *left; // @synthesize left=_left;
-@property(retain, nonatomic) NSArray *match; // @synthesize match=_match;
-@property(copy, nonatomic) CDUnknownBlockType matchRule; // @synthesize matchRule=_matchRule;
-@property(retain, nonatomic) NSArray *right; // @synthesize right=_right;
-@property(retain, nonatomic) NSArray *substitution; // @synthesize substitution=_substitution;
 
 @end
 

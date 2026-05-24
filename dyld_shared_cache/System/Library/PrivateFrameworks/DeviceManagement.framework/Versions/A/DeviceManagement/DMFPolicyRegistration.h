@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface DMFPolicyRegistration
 {
     NSString *_identifier;
-    NSSet *_policyTypes;
-    CDUnknownBlockType _callback;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)E;
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)_dataSource;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSSet *policyTypes; // @synthesize policyTypes=_policyTypes;
 
 @end
 

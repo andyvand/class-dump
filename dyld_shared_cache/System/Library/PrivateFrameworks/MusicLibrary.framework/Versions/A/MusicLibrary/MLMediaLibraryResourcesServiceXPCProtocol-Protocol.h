@@ -5,5 +5,7 @@
 //
 
 @protocol MLMediaLibraryResourcesServiceXPCProtocol
+- (void)_archiveFilePath:(void (^)(NSString *))arg1;
+- (void)_appendSceneClassificationsToAsset:(void (^)(NSString *))arg1 sceneTaxonomyProvider:forAsset:fetchHelper: /* Error: Ran out of types for this method. */;
 @end
 

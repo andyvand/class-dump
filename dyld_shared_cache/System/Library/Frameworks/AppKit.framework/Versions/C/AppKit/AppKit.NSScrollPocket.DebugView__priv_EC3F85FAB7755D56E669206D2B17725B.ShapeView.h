@@ -10,9 +10,9 @@
 {
 }
 
+- (id)ered - ignoring it;
 - (id);
-- (id);
-- (id)tObservingWindowOverlaidInspectorIfNecessary;
+- (id)_startObservingWindowOverlaidInspectorIfNecessary;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol _UNNotificationExtensionHostInterface
+- (void);
+- (void);
+- (void);
 @end
 

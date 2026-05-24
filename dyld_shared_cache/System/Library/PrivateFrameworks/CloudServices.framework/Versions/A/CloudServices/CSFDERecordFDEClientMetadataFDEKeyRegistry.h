@@ -11,17 +11,17 @@
     CSFDERecordFDEClientMetadataFDEKeyRegistryFDEEntry *_serviceEntry;
 }
 
-+ (id);
++ (id)cB9;
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)	;
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tifier = %{public}@, request = %@;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -29,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasServiceEntry;
-@property(retain, nonatomic) CSFDERecordFDEClientMetadataFDEKeyRegistryFDEEntry *serviceEntry; // @synthesize serviceEntry=_serviceEntry;
 
 @end
 

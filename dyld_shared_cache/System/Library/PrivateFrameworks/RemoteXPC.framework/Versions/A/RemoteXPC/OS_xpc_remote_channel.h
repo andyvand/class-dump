@@ -5,21 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_io, OS_dispatch_queue, OS_nw_connection;
+@protocol OS_dispatch_queue;
 
 @interface OS_xpc_remote_channel
 {
     NSObject<OS_dispatch_queue> *queue;
-    NSObject<OS_nw_connection> *conn;
-    CDUnknownBlockType event_handler;
-    CDUnknownBlockType msg_handler;
-    unsigned int state;
-    int error;
-    int stream_direction;
-    NSObject<OS_dispatch_io> *stream_io;
-    NSObject<OS_dispatch_io> *parent_io;
-    _Bool tx_complete;
-    unsigned char wire_version;
 }
 
 - (void);

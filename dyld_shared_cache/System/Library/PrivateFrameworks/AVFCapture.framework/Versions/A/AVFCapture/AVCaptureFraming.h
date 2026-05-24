@@ -9,13 +9,12 @@
 @interface AVCaptureFraming
 {
     NSString *_aspectRatio;
-    float _zoomFactor;
 }
 
 + (id);
 + (void);
 - (id);
-- (void);
+- (void)accountsWithAccountType:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSString *aspectRatio;
-@property(readonly) float zoomFactor;
 
 @end
 

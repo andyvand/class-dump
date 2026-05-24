@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)talLeaksUnits;
++ (_Bool)totalLeaksUnits;
 - (id);
 - (id);
 - (void);
-- (double);
-- (unsigned long long);
-- (id);
+- (double)to, since we only need to relay it to the active watch;
+- (unsigned long long)IMDCKRecoverableMessageSyncController;
+- (id)lastScheduledMessageCreatedDate;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -32,10 +32,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGRect)AÐ!Eù\ð1Â0@ù
 × ;
-- (_Bool);
-- (_Bool)ngWithLocatable: /* Error: Ran out of types for this method. */;
-- (void)ret:(id)arg1 toPosition:withSize: /* Error: Ran out of types for this method. */;
-- (Class)tionPending;
+- (_Bool)identifierWithLocation:(id)arg1 inView: /* Error: Ran out of types for this method. */;
+- (_Bool)beginTrackingWithLocatable: /* Error: Ran out of types for this method. */;
+- (void)animateCaret:(id)arg1 toPosition:withSize: /* Error: Ran out of types for this method. */;
+- (Class)isDeliveryAnimationPending;
 - (id)r"8@"UIColor"16Q24@"UITraitCollection"32;
 - (double);
 - (_Bool)ðYðÿ;

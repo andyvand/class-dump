@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALMediaPlayerContext : SISchemaInstrumentationMessage
 {
     int _state;
-    int _type;
-    unsigned int _timeSinceLastMediaPlaybackInSeconds;
-    struct {
-        unsigned int state:1;
-        unsigned int type:1;
-        unsigned int timeSinceLastMediaPlaybackInSeconds:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -34,27 +25,21 @@
 - (_Bool);
 - (void);
 - (int);
-- (int);
+- (int)WHERE;
 - (_Bool);
 - (void);
-- (id);
+- (id)",C,V_deviceId;
 - (void)1Â0@ù
 × ;
 - (id)Atð!ÈEù±à°1Â0@ù
 × ;
 - (id)rtyAudioInterfaceProductId;
 - (id),q;
-- (_Bool)ProductArea;
+- (_Bool)PEGASUSSchemaPEGASUSProductArea;
 - (void)hàÿ@³;
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasTimeSinceLastMediaPlaybackInSeconds;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) unsigned int timeSinceLastMediaPlaybackInSeconds; // @synthesize timeSinceLastMediaPlaybackInSeconds=_timeSinceLastMediaPlaybackInSeconds;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

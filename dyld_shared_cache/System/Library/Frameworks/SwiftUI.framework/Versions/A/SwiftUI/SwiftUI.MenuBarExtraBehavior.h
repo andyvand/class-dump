@@ -7,9 +7,6 @@
 @interface SwiftUI.MenuBarExtraBehavior
 {
     id sceneID;
-    id statusItem;
-    id configuration;
-    id environment;
 }
 
 - (id);

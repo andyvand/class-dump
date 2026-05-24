@@ -7,10 +7,6 @@
 @interface NewsFeed.CategoryViewRenderer
 {
     id styler;
-    id iconImageCache;
-    id offlineProvider;
-    id featureAvailability;
-    id $__lazy_storage_$_unavailableItemAlpha;
 }
 
 @end

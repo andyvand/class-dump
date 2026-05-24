@@ -6,25 +6,21 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSData;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIColorCurves : CIFilter
 {
     CIImage *inputImage;
-    NSData *inputCurvesData;
-    CIVector *inputCurvesDomain;
-    id inputColorSpace;
-    CIImage *_curvesImage;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (id);
@@ -33,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (id)Yzz}}iplred\e[_Ve^plvh~y|z`ojxamgvc}}jrmw]aWgM]Rb[lfn¡¢¢wPhawr ¢¢¢Smf|Og^olqmqwzzz\~yjwnXtl}}}}osqtXjgrwwwwssssL\Wb1MB[ddddllllhiiicc^cCYP_]]S_bc[hetq|yxu|}|z}~~~~vqlzQnikvuyIYNi[miuwwwwoomo^f^kllfnhrns^plwo||||Re]ma`UiWg^qayvlqmvO]Ri<TGgNhas^wtYoiA^Vm8RE_cccciiiiWcYnDf[{gjcjUYN]M^V`ggggQ_VfFZNiuuuuwwwwakfkBYNfYolwlrmuDf_u[ojyHh`zIjd~{{{{_\Ta4B3M7A2H@NBSqqoqÁÁÁÁÉÉÉÉ²±²²wwwwgf^gRf`j{{{{dssu:QF_/G9VEZR`qqqq{{{{~~~~}}}}szy{uywk{{}ppnpclhlttttvvvvjf`jBQEakgbk{}}}Vhcqwwwwavs¤¤¤¤¢¢¢ttttM[V[CF8I:KAOiiii~~~~Ugcs@\Tkrrqr[d[oM[Nl|    _dXmUdWmt|¥«««¶¶¶¶]uonnnn____0J;YjlfpTqlVkexvvvvgsss[kgq\qowjtr|Sqo~x{|}uuuunnnnjoju¤¤¤¤iigiCVKZF[SdveoNsllsk|quowzzzzxtrzzziieiPZP[WWUW``[`ennnssss]mfm_f\nvwtwuuuu<XKgXYM`cc`cKaZeggfgdnknv{{{tnt~zq~~~}}}}¦¦¦¦~z¡¡¡¡©«­­¯´´´­­­­x[oh|}gzNbSuA\Mnkphvozu~rrorlljlnnnnrrrrknkpelhsPha|\vt~~~~nwq{s©©©©¯¯¯¯    bf_fRQDRLOBO^^V^huuuo|zTjcobcYc:RBc]ldz««««   zhg{v^[N^<K:Smmmm_sq|?^Uopngvt\kdtUbXjttttxxxxbkfk\\Q\WWNW<RFZKWLcMkewNqkHh`||zd|z\rmnvrz|zzzxzfrpsggggTUJU.=)H5C1MbbbbqqqqUleupxu|_up~uxs}³³³³¸¸¸¸¢¢¢¢w~~~R`XbSXM^luuuevrszxz|y¤¤¤¤°°°°¥­­¡¡¡¡krlRmgy¡¡¡¡I^StvxvyThdn?NAZ^^^^ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id inputColorSpace; // @synthesize inputColorSpace;
-@property(copy, nonatomic) NSData *inputCurvesData; // @synthesize inputCurvesData;
-@property(retain, nonatomic) CIVector *inputCurvesDomain; // @synthesize inputCurvesDomain;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

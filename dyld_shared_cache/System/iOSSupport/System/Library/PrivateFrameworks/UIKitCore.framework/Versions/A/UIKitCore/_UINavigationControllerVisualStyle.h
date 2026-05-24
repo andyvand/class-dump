@@ -5,7 +5,6 @@
 //
 
 @class UINavigationController;
-@protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning;
 
 @interface _UINavigationControllerVisualStyle
 {
@@ -15,24 +14,21 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)_syncValidity;
 - (void)
 × ;
 - (_Bool)IClickPresentation"32;
-- (id)lor;
-- (void)nsientCaches;
-- (void)illHideAlertController:(id)arg1;
-- (id)ContentBackgroundColor;
+- (id)systemGroupedBackgroundColor;
+- (void)clearTransientCaches;
+- (void)_willHideAlertController:(id)arg1;
+- (id)_webContentBackgroundColor;
 - (void)llm;
 - (void)¤+;
 - (void)sEnvironment:(id)arg1 %@  from focusItemContainer:%@ with owningEnvironment:%@ /* Error: Ran out of types for this method. */;
 - (id)UIImageAccessibilityLabel;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UIViewControllerInteractiveTransitioning> interactionController;
-@property(readonly, nonatomic) _Bool isUsingParallaxTransition;
 @property(nonatomic) UINavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(readonly, nonatomic) id <UIViewControllerAnimatedTransitioning> transitionController;
 
 @end
 

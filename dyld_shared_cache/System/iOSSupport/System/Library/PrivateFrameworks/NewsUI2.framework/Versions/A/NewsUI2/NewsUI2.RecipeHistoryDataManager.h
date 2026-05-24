@@ -7,13 +7,6 @@
 @interface NewsUI2.RecipeHistoryDataManager
 {
     id delegate;
-    id recipeHistory;
-    id recipeService;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedService;
-    id recipeAccessProvider;
-    id userActivityManager;
 }
 
 @end

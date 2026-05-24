@@ -6,41 +6,27 @@
 
 #import <EventKit/EKTravelEngineHypothesis.h>
 
-@class NSDate, NSString;
-
 @interface EKMutableTravelEngineHypothesis : EKTravelEngineHypothesis
 {
 }
 
 - (void);
 - (void);
+- (void)8;
+- (void);
+- (void);
+- (void)Th8;
+- (void)ith error <%{public}@> for %{public}@ in %.4lf seconds;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *aggressiveDepartureDate; // @dynamic aggressiveDepartureDate;
-@property(nonatomic) double aggressiveTravelTime; // @dynamic aggressiveTravelTime;
-@property(copy, nonatomic) NSDate *conservativeDepartureDate; // @dynamic conservativeDepartureDate;
-@property(nonatomic) double conservativeTravelTime; // @dynamic conservativeTravelTime;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(nonatomic) unsigned long long currentTrafficDensity; // @dynamic currentTrafficDensity;
-@property(nonatomic) double estimatedTravelTime; // @dynamic estimatedTravelTime;
-@property(copy, nonatomic) NSString *routeName; // @dynamic routeName;
-@property(copy, nonatomic) NSDate *suggestedDepartureDate; // @dynamic suggestedDepartureDate;
-@property(nonatomic) _Bool supportsLiveTraffic; // @dynamic supportsLiveTraffic;
-@property(copy, nonatomic) NSString *trafficDensityDescription; // @dynamic trafficDensityDescription;
 @property(nonatomic) int transportType; // @dynamic transportType;
-@property(nonatomic) long long travelState; // @dynamic travelState;
 
 @end
 

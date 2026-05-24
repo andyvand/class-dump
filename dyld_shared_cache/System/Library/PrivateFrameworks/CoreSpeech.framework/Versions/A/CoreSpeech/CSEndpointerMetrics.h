@@ -4,45 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSASRFeatures, NSArray, NSDictionary, NSString, OSDFeatures;
-
 @interface CSEndpointerMetrics
 {
     _Bool _isRequestTimeOut;
-    _Bool _isAnchorTimeBuffered;
-    float _endpointerThreshold;
-    float _endpointerScore;
-    double _totalAudioRecorded;
-    unsigned long long _endpointBufferHostTime;
-    NSArray *_featuresAtEndpoint;
-    long long _endpointerType;
-    NSDictionary *_asrFeatureLatencyDistribution;
-    NSDictionary *_additionalMetrics;
-    double _trailingSilenceDurationAtEndpoint;
-    NSString *_requestId;
-    OSDFeatures *_osdFeaturesAtEndpoint;
-    CSASRFeatures *_asrFeaturesAtEndpoint;
-    NSString *_assetConfigVersion;
-    double _blkHepAudioOrigin;
-    double _vtExtraAudioAtStartInMs;
-    unsigned long long _firstAudioSampleSensorTimestamp;
-    unsigned long long _endpointHostTime;
-    unsigned long long _audioDeliveryHostTimeDelta;
 }
 
 + (_Bool);
 - (double);
 - (double);
+- (void)S;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)];
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)U\;
 - (void);
 - (void);
 - (void);
@@ -66,40 +45,21 @@
 - (id);
 - (float);
 - (unsigned long long);
+- (id)24B32;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)origPixelBuffer;
 - (void);
 - (id);
 - (double);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)hannel:(id)arg1;
+- (void)connectionListener:didAddConnection: /* Error: Ran out of types for this method. */;
+- (void)setBestChannel:(id)arg1;
 - (id)aptureMonitor notifyFetchedAudioStream:successfully:] /* Error: Ran out of types for this method. */;
 - (id)+;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalMetrics; // @synthesize additionalMetrics=_additionalMetrics;
-@property(retain, nonatomic) NSDictionary *asrFeatureLatencyDistribution; // @synthesize asrFeatureLatencyDistribution=_asrFeatureLatencyDistribution;
-@property(retain, nonatomic) CSASRFeatures *asrFeaturesAtEndpoint; // @synthesize asrFeaturesAtEndpoint=_asrFeaturesAtEndpoint;
-@property(retain, nonatomic) NSString *assetConfigVersion; // @synthesize assetConfigVersion=_assetConfigVersion;
-@property(nonatomic) unsigned long long audioDeliveryHostTimeDelta; // @synthesize audioDeliveryHostTimeDelta=_audioDeliveryHostTimeDelta;
-@property(nonatomic) double blkHepAudioOrigin; // @synthesize blkHepAudioOrigin=_blkHepAudioOrigin;
-@property(nonatomic) unsigned long long endpointBufferHostTime; // @synthesize endpointBufferHostTime=_endpointBufferHostTime;
-@property(nonatomic) unsigned long long endpointHostTime; // @synthesize endpointHostTime=_endpointHostTime;
-@property(nonatomic) float endpointerScore; // @synthesize endpointerScore=_endpointerScore;
-@property(nonatomic) float endpointerThreshold; // @synthesize endpointerThreshold=_endpointerThreshold;
-@property(nonatomic) long long endpointerType; // @synthesize endpointerType=_endpointerType;
-@property(retain, nonatomic) NSArray *featuresAtEndpoint; // @synthesize featuresAtEndpoint=_featuresAtEndpoint;
-@property(nonatomic) unsigned long long firstAudioSampleSensorTimestamp; // @synthesize firstAudioSampleSensorTimestamp=_firstAudioSampleSensorTimestamp;
-@property(nonatomic) _Bool isAnchorTimeBuffered; // @synthesize isAnchorTimeBuffered=_isAnchorTimeBuffered;
-@property(nonatomic) _Bool isRequestTimeOut; // @synthesize isRequestTimeOut=_isRequestTimeOut;
-@property(retain, nonatomic) OSDFeatures *osdFeaturesAtEndpoint; // @synthesize osdFeaturesAtEndpoint=_osdFeaturesAtEndpoint;
-@property(retain, nonatomic) NSString *requestId; // @synthesize requestId=_requestId;
 @property(nonatomic) double totalAudioRecorded; // @synthesize totalAudioRecorded=_totalAudioRecorded;
-@property(nonatomic) double trailingSilenceDurationAtEndpoint; // @synthesize trailingSilenceDurationAtEndpoint=_trailingSilenceDurationAtEndpoint;
-@property(nonatomic) double vtExtraAudioAtStartInMs; // @synthesize vtExtraAudioAtStartInMs=_vtExtraAudioAtStartInMs;
 
 @end
 

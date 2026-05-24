@@ -6,17 +6,15 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemCameraDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowCamera;
-    NSNumber *_payloadAllowScreenShot;
-    NSNumber *_payloadAllowScreenRecording;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,27 +25,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)rom %s, processmultiple err:(id)arg1 %d;
+- (id)$s13SoundAnalysis31SNFeatureExtractorConfigurationP;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowCamera; // @synthesize payloadAllowCamera=_payloadAllowCamera;
-@property(copy, nonatomic) NSNumber *payloadAllowScreenRecording; // @synthesize payloadAllowScreenRecording=_payloadAllowScreenRecording;
-@property(copy, nonatomic) NSNumber *payloadAllowScreenShot; // @synthesize payloadAllowScreenShot=_payloadAllowScreenShot;
-@property(readonly) Class superclass;
 
 @end
 

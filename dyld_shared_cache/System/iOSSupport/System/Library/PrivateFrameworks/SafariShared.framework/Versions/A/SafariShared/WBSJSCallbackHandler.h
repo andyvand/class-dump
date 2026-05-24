@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSValue;
-@protocol WBSJSCallbackHandlerErrorReporter;
-
 @interface WBSJSCallbackHandler
 {
     struct OpaqueJSValue *_callbackFunction;
-    struct OpaqueJSValue *_rejectFunction;
-    id <WBSJSCallbackHandlerErrorReporter> _errorReporter;
-    struct JSRetainPtr<OpaqueJSContext *> _globalContext;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct OpaqueJSContext *);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct OpaqueJSContext *globalContext;
-@property(readonly, nonatomic) JSValue *jsValue;
 
 @end
 

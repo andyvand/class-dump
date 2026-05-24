@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)DeviceIsSupervised;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *termsString;

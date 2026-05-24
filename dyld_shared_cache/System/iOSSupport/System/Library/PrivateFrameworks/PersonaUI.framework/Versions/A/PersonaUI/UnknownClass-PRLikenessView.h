@@ -9,7 +9,7 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)C;
 - (struct CGImage *);
 @end
 

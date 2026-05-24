@@ -7,11 +7,6 @@
 @interface PromotedContentUI.VideoPlayerAccessoryView
 {
     id adMarker;
-    id button;
-    id isCompact;
-    id visualEffectView;
-    id stackView;
-    id buttonTitle;
 }
 
 - (id);

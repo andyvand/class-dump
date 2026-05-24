@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet;
+@class NSArray;
 
 @interface HMFOrderedDictionary
 {
     NSArray *_objects;
-    NSOrderedSet *_keys;
 }
 
 + (id);
-+ (id);
++ (id)artWithLookupBlock:instead. /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (id);
@@ -24,19 +23,20 @@
 - (id);
 - (id);
 - (id);
+- (id)texture2DDescriptorWithPixelFormat:width:height:mipmapped: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)';
+- (unsigned long long)M	.	K	9	(	-;
+- (id)eboard.accessibility-service;
+- (void)[double] smart quotes around {BuiltInLM.OverlayLabel} through {BuiltInLM.OverlayLabel.2};
+- (_Bool)se combines words by making all words lowercase, separated by underscores.
+Example:(id)arg1 “number of nodes” becomes “number_of_nodes”;
 - (void);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)iftIOKit.dylib;
+- (id)Ȏ;
+- (id)rdPartyAccessorySoftwareUpdateEnabled:(struct _NSZone *)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -44,8 +44,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allKeys;
-@property(readonly, copy) NSArray *allValues;
 @property(readonly) unsigned long long count;
 
 @end

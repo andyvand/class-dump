@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)lient;
 
 // Remaining properties
 @property(retain) NSDictionary *attributesDict; // @synthesize attributesDict=_attributesDict;

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSHTTPCookie2StorageFilter
 {
     _Bool _isTrusted;
-    _Bool _isTrustedCached;
-    NSString *_urlScheme;
-    _Bool _isTopLevelNavigation;
-    _Bool _isSafe;
-    _Bool _overwriteHTTPOnlyCookies;
-    NSURL *_url;
-    NSURL *_mainDocumentURL;
-    NSURL *_siteForCookies;
-    NSString *_partition;
-    unsigned long long _acceptPolicy;
 }
 
 - (id);
@@ -30,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)T';
+- (unsigned long long)9!;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)s";
 - (void);
 - (_Bool);
 - (id);
@@ -43,13 +33,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property unsigned long long acceptPolicy; // @synthesize acceptPolicy=_acceptPolicy;
-@property _Bool isSafe; // @synthesize isSafe=_isSafe;
-@property _Bool isTopLevelNavigation; // @synthesize isTopLevelNavigation=_isTopLevelNavigation;
-@property(retain, nonatomic) NSURL *mainDocumentURL; // @synthesize mainDocumentURL=_mainDocumentURL;
-@property _Bool overwriteHTTPOnlyCookies; // @synthesize overwriteHTTPOnlyCookies=_overwriteHTTPOnlyCookies;
-@property(retain, nonatomic) NSString *partition; // @synthesize partition=_partition;
-@property(retain, nonatomic) NSURL *siteForCookies; // @synthesize siteForCookies=_siteForCookies;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

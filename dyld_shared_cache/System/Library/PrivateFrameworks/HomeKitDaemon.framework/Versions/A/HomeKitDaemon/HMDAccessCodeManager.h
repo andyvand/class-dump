@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessCodeDataManager, HMDAccessoryAccessCodeReaderWriter, NSHashTable, NSObject, NSString, NSUUID;
-@protocol HMDAccessCodeManagerContext, OS_dispatch_queue;
+@protocol HMDAccessCodeManagerContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessCodeManager
 {
     _Bool _homeAppForegrounded;
-    HMDAccessCodeDataManager *_dataManager;
-    id <HMDAccessCodeManagerContext> _context;
-    Class _utilities;
-    HMDAccessoryAccessCodeReaderWriter *_accessoryReaderWriter;
-    NSHashTable *_subscribedClientConnections;
 }
 
 + (id)ñB;
-- (id);
+- (id)9O;
 - (void);
 - (id);
 - (_Bool);
@@ -27,19 +21,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,11 +67,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)@?@"OspreyMutableRequest">32@?<v@?@"NSData"@"NSError">40;
+- (void)@16@?24@?32@?40;
+- (id)URLSession:(id)arg1 task:(id)arg2 willBeginDelayedRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)n _exchangeData:(id)arg1 error:(id)arg2 ];
+- (id)SessionEstablishedStart;
 - (id);
 - (void);
 - (Class);
@@ -86,29 +80,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)ccount transactions;
 - (id)tor;
-- (void)edCount;
+- (void)expectedCount;
 - (void)ìz=;
 - (id)¤$øÿø<£à¡C;
 
 // Remaining properties
-@property(readonly) HMDAccessoryAccessCodeReaderWriter *accessoryReaderWriter; // @synthesize accessoryReaderWriter=_accessoryReaderWriter;
 @property(readonly) id <HMDAccessCodeManagerContext> context; // @synthesize context=_context;
-@property(readonly) HMDAccessCodeDataManager *dataManager; // @synthesize dataManager=_dataManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(getter=isHomeAppForegrounded) _Bool homeAppForegrounded; // @synthesize homeAppForegrounded=_homeAppForegrounded;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSHashTable *subscribedClientConnections; // @synthesize subscribedClientConnections=_subscribedClientConnections;
-@property(readonly) Class superclass;
-@property(readonly) Class utilities; // @synthesize utilities=_utilities;
 
 @end
 

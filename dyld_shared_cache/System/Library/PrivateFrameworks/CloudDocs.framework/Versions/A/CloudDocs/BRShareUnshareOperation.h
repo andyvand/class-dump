@@ -11,13 +11,13 @@
 @interface BRShareUnshareOperation : BRShareOperation
 {
     CKShare *_share;
-    CDUnknownBlockType _unshareCompletionBlock;
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void)kh;
 - (id);
-- (id);
+- (id)?k곋)
+K;
 - (void);
 - (void);
 - (void);
@@ -26,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(copy) CDUnknownBlockType unshareCompletionBlock; // @synthesize unshareCompletionBlock=_unshareCompletionBlock;
 
 @end
 

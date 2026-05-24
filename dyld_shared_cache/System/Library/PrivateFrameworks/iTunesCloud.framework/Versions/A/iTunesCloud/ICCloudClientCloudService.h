@@ -5,14 +5,12 @@
 //
 
 @class NSObject, NSXPCConnection;
-@protocol ICCloudServerListenerEndpointProviding, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICCloudClientCloudService
 {
     NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    id <ICCloudServerListenerEndpointProviding> _listenerEndpointProvider;
 }
 
 - (id);
@@ -24,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)PÊ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <ICCloudServerListenerEndpointProviding> listenerEndpointProvider; // @synthesize listenerEndpointProvider=_listenerEndpointProvider;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

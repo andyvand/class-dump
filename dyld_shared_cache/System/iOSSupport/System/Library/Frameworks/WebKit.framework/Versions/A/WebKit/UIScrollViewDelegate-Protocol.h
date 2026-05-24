@@ -9,6 +9,10 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void);
+- (_Bool)_6;
+- (void);;
 - (void)T°;
 - (UIView *)IdentifierGeneric<WebCore:(UIScrollView *)arg1:FileSystemWritableFileStreamIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemWritableFileStreamIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebKit::FileSystemStorageHandle::FileHandleWithPath>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FileSystemWritableFileStreamIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)with id %ld is invalid. `redirect` specified a non-HTTP `url`.;

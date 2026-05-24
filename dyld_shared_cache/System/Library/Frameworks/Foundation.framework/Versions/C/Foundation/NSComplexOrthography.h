@@ -6,20 +6,18 @@
 
 #import <Foundation/NSOrthography.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface NSComplexOrthography : NSOrthography
 {
     NSString *_dominantScript;
-    NSDictionary *_languageMap;
-    unsigned int _orthographyFlags;
 }
 
 + (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

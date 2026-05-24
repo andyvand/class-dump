@@ -9,11 +9,10 @@
 @interface SCNBillboardConstraint : SCNConstraint
 {
     unsigned long long _freeAxes;
-    _Bool _preserveScale;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ticPasswords.js;
 - (void);
 - (void);
 - (_Bool);

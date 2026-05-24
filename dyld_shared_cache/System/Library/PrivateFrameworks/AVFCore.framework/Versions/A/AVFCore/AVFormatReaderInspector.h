@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AVFormatReaderInspector : AVAssetInspector
 {
     struct OpaqueFigFormatReader *_formatReader;
-    _Bool didCheckForSaveRestriction;
-    _Bool hasSaveRestriction;
 }
 
 - (id);
 - (void);
-- (_Bool);
-- (CDStruct_1b6d18a9);
+- (_Bool)*;
+- (CDStruct_1b6d18a9);
 - (void);
 - (id);
 - (id);
@@ -31,21 +29,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)i ;
+- (_Bool)setResolutionType: /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)P;
 - (_Bool);
-- (float);
-- (_Bool);
+- (float)pseudoSceneWithIdentifier:specification: /* Error: Ran out of types for this method. */;
+- (_Bool)_suppressionCount;
 - (struct OpaqueFigFormatReader *);
 - (struct CGAffineTransform)0@ù
 × ;
-- (float)ScreenIsActive: /* Error: Ran out of types for this method. */;
+- (float)setUsesAirPlayVideoWhileAirPlayScreenIsActive: /* Error: Ran out of types for this method. */;
 - (id)ûüÿ_pSg;
 - (struct CGSize)ontentKeyResponseFairPlayStreaming class;
-- (id)k;
+- (id)block;
 - (id)iè;
 - (long long);
 

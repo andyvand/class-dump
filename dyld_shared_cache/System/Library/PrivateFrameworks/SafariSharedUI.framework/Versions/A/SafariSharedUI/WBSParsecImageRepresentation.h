@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, SFImage;
+@class NSImage;
 
 @interface WBSParsecImageRepresentation
 {
     NSImage *_image;
-    SFImage *_sfImage;
 }
 
 - (id);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (void):forProfileWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setCachedPrivacyReportDataOnStartPage:forProfileWithIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

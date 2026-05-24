@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSString, UIBarButtonItem, UINavigationController;
 @protocol CNContactPickerContentDelegate, NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface CNContactPickerHostViewController
 {
     id <CNContactPickerContentDelegate> _delegate;
-    id <NSCopying> _currentRequestIdentifier;
-    NSExtension *_extension;
 }
 
 + (_Bool);
@@ -23,34 +20,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)";
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)_accessibilityTextOperations;
 - (id)1Â0@ù
 × ;
 - (void)eeDTouchEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) UIBarButtonItem *addContactBarButtonItem;
 @property(retain, nonatomic) id <NSCopying> currentRequestIdentifier; // @synthesize currentRequestIdentifier=_currentRequestIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactPickerContentDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UINavigationController *navigationController;
-@property(readonly) Class superclass;
 
 @end
 

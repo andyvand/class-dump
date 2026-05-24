@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     SGTSearchFieldCell *_searchFieldCell;
 }
 
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -23,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dataRepresentationEmbeddingSourceImageAndEditModel:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak SGTSearchFieldCell *searchFieldCell; // @synthesize searchFieldCell=_searchFieldCell;

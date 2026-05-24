@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)stopModalDialog;
 - (void)dddddidi{?=dd}diIiiidB}16;
 - (id)4@0:8Q16 /* Error: Ran out of types for this method. */;
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMCourseUpdateProperties, NSString;
-@protocol CRKClassKitRosterRequirements;
+@class NSString;
 
 @interface CRKUpdateASMClassOperation
 {
     NSString *_objectID;
-    CRKASMCourseUpdateProperties *_properties;
-    id <CRKClassKitRosterRequirements> _requirements;
 }
 
 - (void);
@@ -30,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *objectID; // @synthesize objectID=_objectID;
-@property(readonly, copy, nonatomic) CRKASMCourseUpdateProperties *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) id <CRKClassKitRosterRequirements> requirements; // @synthesize requirements=_requirements;
 
 @end
 

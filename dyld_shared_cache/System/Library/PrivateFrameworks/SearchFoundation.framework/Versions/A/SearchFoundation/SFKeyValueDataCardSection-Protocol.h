@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFImage;
+@class NSString;
 
 @protocol SFKeyValueDataCardSection
+- (NSString *)F;
 
 // Remaining properties
-@property(retain, nonatomic) SFImage *accessoryImage;
-@property(copy, nonatomic) NSArray *data;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *type;
 @end
 

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)provider;
+- (void);
 
 @end
 

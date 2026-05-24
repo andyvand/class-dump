@@ -9,11 +9,10 @@
 @interface _PXVideoPlaybackCPAnalyticsEndpoint
 {
     long long _signpost;
-    NSString *loggingIdentifier;
 }
 
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void);

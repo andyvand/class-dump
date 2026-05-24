@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileCoordinate, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGroundMetadataTile
 {
     PBDataReader *_reader;
-    NSMutableArray *_buildTables;
-    NSMutableArray *_cameraMetadataTables;
-    GEOTileCoordinate *_coord;
-    NSMutableArray *_photoPositions;
-    NSMutableArray *_storefronts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _tileBuildId;
-    struct {
-        unsigned int has_tileBuildId:1;
-        unsigned int read_buildTables:1;
-        unsigned int read_cameraMetadataTables:1;
-        unsigned int read_coord:1;
-        unsigned int read_photoPositions:1;
-        unsigned int read_storefronts:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)SessionActivated;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1"read_unknownFields"b1"read_allGuidesMetadata"b1"read_citySelectorMetadata"b1"read_guidesHomeMetadata"b1"read_searchMetadata"b1"wrote_anyField"b1};
-- (id)tanceFromHereToOrigin;
+- (id)_distanceFromHereToOrigin;
 - (id)°fxggðgThPi;
 - (void);
 

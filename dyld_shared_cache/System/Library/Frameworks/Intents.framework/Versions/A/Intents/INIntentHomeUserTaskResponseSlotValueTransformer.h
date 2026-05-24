@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)etHasCallType: /* Error: Ran out of types for this method. */;
++ (long long)setHasCallType: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)portedReason:(id)arg1;
+- (id)StringAsCreateTimerIntentLabelUnsupportedReason:(id)arg1;
 
 @end
 

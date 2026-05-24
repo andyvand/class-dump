@@ -5,5 +5,6 @@
 //
 
 @protocol EKEventOrIntegrationEditViewDelegate
+- (void);
 @end
 

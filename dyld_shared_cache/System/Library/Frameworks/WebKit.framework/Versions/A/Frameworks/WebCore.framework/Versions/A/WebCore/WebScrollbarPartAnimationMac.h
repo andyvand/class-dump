@@ -8,14 +8,11 @@ __attribute__((visibility("hidden")))
 @interface WebScrollbarPartAnimationMac
 {
     struct ThreadSafeWeakPtr<WebCore::ScrollerMac, WTF::NoTaggingTraits<WebCore::ScrollerMac>> _scroller;
-    int _featureToAnimate;
-    double _startValue;
-    double _endValue;
 }
 
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void)inaðâÅÆhaproøâÈhçâ2ohuçâ¬etdââágdevoîâÕ¨ãoråà|máà¯tardïâ%ãnô§vapåá©¤ôáÍÊiråb_âàóâ±chooìâDIalôâÂãòâ¯·poweòá³èíâÑÀféâs¹årchåà¨dwheeìâÑxdraçâ¶ãáonutlåâb¶ïmputeòâ\ide.dailymaéâf­â^drõát*sporôâ­rä	timesôâlób>hà¢reröá7ìlooëâÞrinöâpâáë®âØbïà^3elyséâ)losure.sðâ±ÆipliîedhubbéàcËarywivescluââÞïgolæbà±|erninçáî'áâºYbïá¿á

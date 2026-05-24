@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SAConfidenceScores : SABaseCommand
 {
@@ -21,37 +21,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
+- (long long)A;
 - (long long);
-- (long long);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)_;
+- (_Bool);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSString *assetVersion;
-@property(copy, nonatomic) NSString *classifiedUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long lowScoreThreshold;
-@property(nonatomic) long long processedAudioDurationMilliseconds;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSArray *scores;
-@property(copy, nonatomic) NSNumber *scoringSchemeVersion;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *thresholdType;
-@property(copy, nonatomic) NSString *userIdentityClassification;
 
 @end
 

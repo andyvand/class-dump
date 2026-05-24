@@ -9,15 +9,13 @@
 @interface NAUILayoutConstraintSet
 {
     UIView *_owningView;
-    CDUnknownBlockType _builder;
-    NSArray *_constraints;
 }
 
-- (id);
+- (id){;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)o;
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -25,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, copy, nonatomic) CDUnknownBlockType builder; // @synthesize builder=_builder;
 @property(copy, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(readonly, nonatomic) __weak UIView *owningView; // @synthesize owningView=_owningView;
 
 @end
 

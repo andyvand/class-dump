@@ -14,9 +14,7 @@ __attribute__((visibility("hidden")))
 - (id)mary:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property unsigned long long colorTemperatureNotifyIntervalThresholdInMilliseconds; // @dynamic colorTemperatureNotifyIntervalThresholdInMilliseconds;
 @property unsigned long long colorTemperatureNotifyValueChangeThreshold; // @dynamic colorTemperatureNotifyValueChangeThreshold;
-@property unsigned long long colorTemperatureUpdateIntervalInMilliseconds; // @dynamic colorTemperatureUpdateIntervalInMilliseconds;
 
 @end
 

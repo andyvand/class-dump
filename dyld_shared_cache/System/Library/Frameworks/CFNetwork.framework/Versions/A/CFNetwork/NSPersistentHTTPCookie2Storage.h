@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentHTTPCookie2Storage
 {
     struct sqlite3 *persistentDb;
-    struct sqlite3_stmt *insertCookiesStmt;
-    struct sqlite3_stmt *selectDomainCookiesStmt;
-    struct sqlite3_stmt *selectAllCookiesStmt;
-    struct sqlite3_stmt *deleteCookiesStmt;
-    struct sqlite3_stmt *deleteAllCookiesStmt;
-    NSURL *_path;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)T;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)j;
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)apple.networkextension.disable-nexus;
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSURL *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
 
 @end
 

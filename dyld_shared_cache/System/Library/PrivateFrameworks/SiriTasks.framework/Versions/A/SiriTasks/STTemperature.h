@@ -7,15 +7,14 @@
 @interface STTemperature
 {
     double _value;
-    long long _units;
 }
 
-+ (_Bool);
++ (_Bool)Plg;
 - (id);
 - (id);
 - (long long);
-- (void);
-- (double);
+- (void)LHostExtensionContext";
+- (double);
 
 @end
 

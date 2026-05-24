@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NCNotificationRequest;
+@protocol NCNotificationAlertDestination;
+
 @protocol NCNotificationAlertDestinationDelegate
+- (void)Communication;
+- (void)WFCloudKitDevEnvironment;
+- (void)WFAllowDeletingLargeAmountsOfDataKey;
+
+@optional
+- (void)eQuarantinePolicyManager updatePolicyWithXPCActivity:(id <NCNotificationAlertDestination>)arg1 completionHandler:(NCNotificationRequest *)arg2 ]_block_invoke_2;
+- (void)on > %ld AND configuration = %@;
+- (void)CFBundleIdentifier;
+- (void)oudKitSyncSession setWalrusForcedEnabled:(id <NCNotificationAlertDestination>)arg1 ];
+- (void)atus];
 @end
 

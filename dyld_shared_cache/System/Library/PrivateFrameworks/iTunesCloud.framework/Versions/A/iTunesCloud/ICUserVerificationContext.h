@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, ICUserIdentityProperties, ICUserIdentityStore, NSString;
+@class ACAccount;
 
 @interface ICUserVerificationContext
 {
     long long _interactionLevel;
-    ICUserIdentityProperties *_identityProperties;
-    NSString *_debugReason;
-    ACAccount *_ACAccount;
-    ACAccountStore *_ACAccountStore;
-    ICUserIdentityStore *_identityStore;
-    long long _verificationStyle;
 }
 
 + (id);
@@ -27,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (long long);
 - (void);
@@ -37,12 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *ACAccount; // @synthesize ACAccount=_ACAccount;
-@property(retain, nonatomic) ACAccountStore *ACAccountStore; // @synthesize ACAccountStore=_ACAccountStore;
-@property(copy, nonatomic) NSString *debugReason; // @synthesize debugReason=_debugReason;
-@property(copy, nonatomic) ICUserIdentityProperties *identityProperties; // @synthesize identityProperties=_identityProperties;
-@property(retain, nonatomic) ICUserIdentityStore *identityStore; // @synthesize identityStore=_identityStore;
-@property(nonatomic) long long interactionLevel; // @synthesize interactionLevel=_interactionLevel;
-@property(nonatomic) long long verificationStyle; // @synthesize verificationStyle=_verificationStyle;
 
 @end
 

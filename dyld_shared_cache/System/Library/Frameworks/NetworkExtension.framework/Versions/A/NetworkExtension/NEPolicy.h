@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEPolicyResult, NSArray;
-
 @interface NEPolicy
 {
     unsigned int _order;
-    NEPolicyResult *_result;
-    NSArray *_conditions;
 }
 
 - (id);

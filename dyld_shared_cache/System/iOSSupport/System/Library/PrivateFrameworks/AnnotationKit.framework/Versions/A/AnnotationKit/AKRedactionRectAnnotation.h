@@ -9,16 +9,15 @@
 @interface AKRedactionRectAnnotation : AKRectangularShapeAnnotation
 {
     _Bool _isOpaque;
-    _Bool _isHighlighted;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
-- (id);
-- (_Bool);
+- (id)on title;
+- (_Bool)@;
 - (id);
 - (id);
 - (void);
@@ -26,7 +25,6 @@
 - (_Bool)Ô ;
 
 // Remaining properties
-@property _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
 @property _Bool isOpaque; // @synthesize isOpaque=_isOpaque;
 
 @end

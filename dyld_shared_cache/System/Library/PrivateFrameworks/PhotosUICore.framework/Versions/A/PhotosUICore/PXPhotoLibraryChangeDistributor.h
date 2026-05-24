@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet, NSObject, NSString, PHPhotoLibrary;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_semaphore;
+@class PHPhotoLibrary;
 
 @interface PXPhotoLibraryChangeDistributor
 {
     PHPhotoLibrary *_photoLibrary;
-    NSHashTable *_internalObservers;
-    NSHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_changeDeliverySemaphore;
-    NSObject<OS_dispatch_group> *_changePausingGroup;
-    NSMutableSet *_changePausingTokens;
 }
 
 - (void);
@@ -28,19 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)àòöþ½ÿ¸ìòöþMÿ¸øòöþMÿ¸óöþÿ¸óöþÍÿ¸óöþÿ¸(óöþ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=areChangesPaused) _Bool changesPaused;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

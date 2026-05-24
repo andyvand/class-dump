@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPArtworkCatalog;
+
 @protocol MPArtworkDataSource
+- (void);
+- (_Bool)canBecomeKeyWindow;
+
+@optional
+- (id)replaceAnnotation:(long long)arg1 withAnnotation:(MPArtworkCatalog *)arg2;
+- (_Bool)_updateStatsForResourceAtIndex:(MPArtworkCatalog *)arg1;
 @end
 

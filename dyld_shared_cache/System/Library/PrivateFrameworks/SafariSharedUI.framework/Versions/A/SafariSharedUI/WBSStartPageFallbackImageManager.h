@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable;
+@class NSCache;
 
 @interface WBSStartPageFallbackImageManager
 {
     NSCache *_identifiersToCachedImages;
-    NSMapTable *_identifiersToLiveCachedImages;
 }
 
 + (id);

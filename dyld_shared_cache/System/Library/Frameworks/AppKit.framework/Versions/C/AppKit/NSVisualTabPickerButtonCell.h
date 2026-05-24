@@ -12,8 +12,12 @@ __attribute__((visibility("hidden")))
     _Bool _useExternalHitTesting;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)
+
+
+
+				;
+- (void)k2vl1Kw;
 - (unsigned long long);
 - (_Bool);
 

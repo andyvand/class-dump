@@ -11,22 +11,22 @@
     AKAccountManager *_accountManager;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
+- (void)determine effective ID for plugIn:(long long)arg1 %s;
+- (void)NSExtension;
+- (void)DurationUntilRemoval;
+- (_Bool)ned:(id)arg1 %d;
+- (void)onfig:(id)arg1 Error returning activation profile.   Error = %ld; Datasize = %ld;
+- (void)en:(id)arg1 %s;
+- (long long)policies to clean up unused ones;
+- (long long)s -       <------------- Went through all known policies to clean up unused ones;
+- (void)stomRegex status error = %d;
+- (id)param;
+- (id)dPropertiesFromResource has no return data param;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)y:manifest:completion: /* Error: Ran out of types for this method. */;
+- (id)_DASActivityBackgroundTaskSchedulerServer;
+- (void)`A;
+- (void)removeBeneficiary:manifest:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AKAccountManager *accountManager; // @synthesize accountManager=_accountManager;

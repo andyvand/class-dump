@@ -7,8 +7,6 @@
 @interface AXCoreUtilities.Debouncer
 {
     id timer;
-    id debounce;
-    id timerQueue;
 }
 
 @end

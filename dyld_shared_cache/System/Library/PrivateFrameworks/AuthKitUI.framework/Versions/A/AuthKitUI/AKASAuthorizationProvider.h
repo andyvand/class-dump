@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCredentialRequestContext, NSObject, NSString;
-@protocol OS_dispatch_queue, _ASAuthenticationPresentationProvider, _ASAuthenticationProviderLoginRowData;
+@class AKCredentialRequestContext;
 
 @interface AKASAuthorizationProvider
 {
     AKCredentialRequestContext *_requestContext;
-    NSObject<OS_dispatch_queue> *_requestQueue;
-    CDUnknownBlockType _completionHandlerForCurrentRequest;
-    NSString *_appName;
-    _Bool _didFailWithErrorRequiringPasswordAuth;
-    id <_ASAuthenticationPresentationProvider> _presentationProvider;
 }
 
 - (void);
@@ -25,27 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)<(;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)endar.calaccessd;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <_ASAuthenticationProviderLoginRowData> loginRowData;
-@property __weak id <_ASAuthenticationPresentationProvider> presentationProvider; // @synthesize presentationProvider=_presentationProvider;
-@property(readonly) Class superclass;
 
 @end
 

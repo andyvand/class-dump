@@ -10,38 +10,37 @@
 @interface CNUserDefaults
 {
     id <CNPrimitiveUserDefaults> _primitiveDefaults;
-    NSDictionary *_registeredDefaults;
 }
 
 + (id);
 + (id);
 + (id);
 - (long long);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
+- (id)DRDevicePhysicalInterconnectLocationKey;
+- (void)`>;
+- (void);
+- (void)hkS2;
+- (void))A;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)initWithIdentifier:(id)arg1 accountIdentifier:name:type:permissions:externalIdentifier: /* Error: Ran out of types for this method. */;
 - (double);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (id)wedClasses:(id)arg1;
+- (id)_testEncodeAndDecodeObject:(id)arg1 allowedClasses: /* Error: Ran out of types for this method. */;
 - (void)Defaults;
 - (void)th;
-- (void)ervableDoOnNextBlockObserver;
+- (void)CNObservableDoOnNextBlockObserver;
 - (id);
 - (void):(id)arg1 ][:block=ARABIC:]] /* Error: Ran out of types for this method. */;
 - (long long)etic Armenia;

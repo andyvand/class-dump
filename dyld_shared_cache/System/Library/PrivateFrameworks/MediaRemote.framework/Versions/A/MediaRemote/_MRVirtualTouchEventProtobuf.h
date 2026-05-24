@@ -7,18 +7,9 @@
 @interface _MRVirtualTouchEventProtobuf
 {
     double _x;
-    double _y;
-    int _finger;
-    int _phase;
-    struct {
-        unsigned int x:1;
-        unsigned int y:1;
-        unsigned int finger:1;
-        unsigned int phase:1;
-    } _has;
 }
 
-- (void);
+- (void)8J;
 - (_Bool);
 - (void);
 - (id);
@@ -27,34 +18,27 @@
 - (void);
 - (int);
 - (int);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)T;
+- (id)boolForKey:(struct _NSZone *)arg1;
 - (_Bool);
-- (void);
-- (id);
+- (void)mediaPlaybackVolume;
+- (id)r;
 - (double);
 - (double)À	8;
 
 // Remaining properties
-@property(nonatomic) int finger; // @synthesize finger=_finger;
-@property(nonatomic) _Bool hasFinger;
-@property(nonatomic) _Bool hasPhase;
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) int phase; // @synthesize phase=_phase;
-@property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

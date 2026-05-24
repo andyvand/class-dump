@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNodeComponent;
-
 __attribute__((visibility("hidden")))
 @interface SCNNodeWeakComponent
 {
     long long type;
-    id component;
-    SCNNodeComponent *next;
 }
 
 - (id);
@@ -126,8 +122,6 @@ _output.color = float4(_surface.normal.xyz, _surface.position.z);
 - (id)E5¾ö¯D;Âi?âD5¾ZÂD;Âi?Ï~âC5¾ºC;Âi?¬WICz5¾6lxB;Âi?âB75¾PºB]Âi?çöBô4¾Ü²A]Âi?ÄVIB+4¾ìjxAÂi?uìB@3¾86A Âi?á}âAj1¾¯¹AãÂi?õ²A0/¾fÍÜ@YÃi?òAé+¾°Õ²@ßÃi?"oAt'¾KÉ@Äi?òKIA¯!¾ÑZx@Åi?«~+A7¾S@ÒÆi?@ÛAA¾Ïi6@Èi?UÈ;
 
 // Remaining properties
-@property(nonatomic) __weak id component; // @synthesize component;
-@property(retain, nonatomic) SCNNodeComponent *next; // @synthesize next;
 @property(nonatomic) long long type; // @synthesize type;
 
 @end

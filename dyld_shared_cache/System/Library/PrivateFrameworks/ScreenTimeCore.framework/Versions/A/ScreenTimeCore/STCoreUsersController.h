@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFetchedResultsController, NSManagedObjectContext, NSString, STCoreUser;
+@class NSArray, NSManagedObjectContext;
 
 @interface STCoreUsersController
 {
     NSArray *_users;
-    STCoreUser *_selectedUser;
-    unsigned long long _selectedIndex;
-    NSManagedObjectContext *_managedObjectContext;
-    NSFetchedResultsController *_localUserController;
-    NSFetchedResultsController *_childUserController;
-    NSFetchedResultsController *_settingsController;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (id);
++ (id)ache_id != 0 AND store_saga_id != 0;
++ (id)_extra JOIN item_store USING (item_pid) WHERE artwork_cache_id IS NOT NULL AND artwork_cache_id != 0 AND store_saga_id != 0;
++ (id)entity_revision INTEGER DEFAULT NULL, external_guid TEXT, feed_url TEXT, store_kind INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, store_item_id INTEGER NOT NULL DEFAULT 0, store_artist_id INTEGER NOT NULL DEFAULT 0, store_composer_id INTEGER NOT NULL DEFAULT 0, store_genre_id INTEGER NOT NULL DEFAULT 0, store_playlist_id INTEGER NOT NULL DEFAULT 0, storefront_id INTEGER NOT NULL DEFAULT 0, redownload_action_params TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, audio_format INTEGER NOT NULL DEFAULT 0, sample_rate REAL NOT NULL DEFAULT 0, duration INTEGER NOT NULL DEFAULT 0, gapless_heuristic_info INTEGER NOT NULL DEFAULT 0, gapless_encoding_delay INTEGER NOT NULL DEFAULT 0, gapless_encoding_drain INTEGER NOT NULL DEFAULT 0, gapless_last_frame_resynch INTEGER NOT NULL DEFAULT 0, analysis_inhibit_flags INTEGER NOT NULL DEFAULT 0, audio_fingerprint INTEGER NOT NULL DEFAULT 0, volume_normalization_energy INTEGER NOT NULL DEFAULT 0, is_rental INTEGER NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, has_alternate_audio INTEGER NOT NULL DEFAULT 0, has_subtitles INTEGER NOT NULL DEFAULT 0, is_hd INTEGER NOT NULL DEFAULT 0, season_number INTEGER NOT NULL DEFAULT 0, audio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, subtitle_track_id INTEGER NOT NULL DEFAULT 0, episode_id TEXT NOT NULL DEFAULT '', network_name TEXT NOT NULL DEFAULT '', extended_content_rating TEXT NOT NULL DEFAULT '', movie_info TEXT NOT NULL DEFAULT '', bit_rate INTEGER NOT NULL DEFAULT 0, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, jalisco_token INTEGER NOT NULL DEFAULT 0, codec_type INTEGER NOT NULL DEFAULT 0, codec_subtype INTEGER NOT NULL DEFAULT 0, format TEXT, data_kind INTEGER NOT NULL DEFAULT 0, data_url TEXT, has_video INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, has_chapter_data INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0;
+- (_Bool)NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (_Bool)INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)version = 1162080;;
+- (void)ount_recent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill FROM item_stats;
+- (void)fier, play_count_user, play_count_recent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill FROM item_stats;
+- (void)e_created, date_modified, name, name_order, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, keep_local, keep_local_status FROM container;
+- (void)riteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)pe INTEGER NOT NULL DEFAULT 0, cloud_artwork_token TEXT NOT NULL DEFAULT '', sync_artwork_token TEXT NOT NULL DEFAULT '', purchase_history_artwork_token TEXT NOT NULL DEFAULT '', store_artwork_token TEXT NOT NULL DEFAULT '');
+- (void)NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, cloud_status INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, downloader_account_id INTEGER NOT NULL DEFAULT 0, family_account_id INTEGER NOT NULL DEFAULT 0, is_protected INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (id)L DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (id)okmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (id)ID, base_location.path, item_extra.location FROM item JOIN item_extra USING(item_pid) JOIN base_location USING(base_location_id) WHERE item.base_location_id != 0 AND item_extra.file_size = 0;
+- (_Bool)ntifier;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -45,21 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSFetchedResultsController *childUserController; // @synthesize childUserController=_childUserController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) STCoreUser *localUser;
-@property(retain, nonatomic) NSFetchedResultsController *localUserController; // @synthesize localUserController=_localUserController;
 @property(readonly) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(nonatomic) unsigned long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(retain, nonatomic) STCoreUser *selectedUser; // @synthesize selectedUser=_selectedUser;
-@property(retain) NSFetchedResultsController *settingsController; // @synthesize settingsController=_settingsController;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *users; // @synthesize users=_users;
 
 @end
 

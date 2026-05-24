@@ -8,9 +8,6 @@
 {
     id _cAppleDeviceTrackingProvider;
     id _cAppleDeviceTrackingConfiguration;
-    id anchorUpdateIterators;
-    id unsupportedDevicesContinuations;
-    id anchorQueue;
 }
 
 @end

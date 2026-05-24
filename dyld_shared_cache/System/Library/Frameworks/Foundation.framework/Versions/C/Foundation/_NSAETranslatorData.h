@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface _NSAETranslatorData
 {
     id translator;
-    SEL selector;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)0;
 
 @end
 

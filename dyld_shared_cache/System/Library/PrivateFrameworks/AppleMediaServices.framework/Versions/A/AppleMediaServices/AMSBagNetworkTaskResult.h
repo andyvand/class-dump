@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagNetworkTaskResult
 {
     NSString *_accountIdentifier;
-    NSDictionary *_data;
-    NSDate *_expirationDate;
-    NSString *_loadedBagIdentifier;
-    NSString *_loadedBagPartialIdentifier;
-    NSString *_storefront;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (id)handler = %@ (default);
+- (id)requestedRemoteArtworkFormats;
+- (id)MRPlaybackSessionRequestMessage;
+- (_Bool)isCurrentlyPlaying;
 - (id);
 - (id);
 - (id)/usr/local/bin/ffctl %@/%@=%@ --level settings;
@@ -29,12 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly) NSDictionary *data; // @synthesize data=_data;
-@property(readonly) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) _Bool expired;
-@property(readonly) NSString *loadedBagIdentifier; // @synthesize loadedBagIdentifier=_loadedBagIdentifier;
-@property(readonly) NSString *loadedBagPartialIdentifier; // @synthesize loadedBagPartialIdentifier=_loadedBagPartialIdentifier;
-@property(readonly) NSString *storefront; // @synthesize storefront=_storefront;
 
 @end
 

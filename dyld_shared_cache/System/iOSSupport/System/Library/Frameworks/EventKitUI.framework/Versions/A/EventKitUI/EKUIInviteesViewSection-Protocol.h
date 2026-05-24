@@ -4,7 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITableViewHeaderFooterView;
+
 @protocol EKUIInviteesViewSection
-- (void);
+- (void)s;
+- (void)X%s;
+- (double)F+s;
+- (long long)D%s;
+- (_Bool)Y%s;
+- (void)`?{;
+- (unsigned long long).framework/Versions/A/CoreLocation;
+
+@optional
+- (_Bool);
+- (UITableViewHeaderFooterView *);
 @end
 

@@ -11,13 +11,13 @@
     NSDictionary *_dict;
 }
 
-+ (_Bool);
++ (_Bool)e called after the asset reader has entered a failure state;
 - (void);
-- (id);
-- (id);
+- (id)g;
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)optionMaxCredentialAge;
 - (id);
 - (void)qª)°1Â0@ù
 × ;

@@ -4,192 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMetalLayer, MTLRenderPassDescriptor, NSMutableArray, NSMutableDictionary, NSObject, NSString, SCNMTLMesh, SCNMTLMeshElement, SCNMTLRenderPipeline, SCNMTLResourceManager, SCNMTLShadable;
-@protocol CAMetalDrawable, MTLBuffer, MTLCommandBuffer, MTLCommandQueue, MTLDepthStencilState, MTLDevice, MTLRenderCommandEncoder, MTLSamplerState, MTLTexture, OS_dispatch_queue, OS_dispatch_semaphore, SCNMTLRenderContextCommandBufferStatusMonitor, SCNMTLRenderContextResourceManagerMonitor;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLRenderContext
 {
     long long _currentFrameIndex;
-    struct __C3DEngineStats *__engineStats;
-    double _superSamplingFactor;
-    struct SCNMatrix4 _screenTransform;
-    long long _sampleCount;
-    _Bool _needSuperSampling;
-    SCNMTLResourceManager *_resourceManager;
-    id <MTLDevice> _device;
-    _Bool _isValidationEnabled;
-    int _profile;
-    unsigned int _features;
-    struct __C3DEngineContext *_engineContext;
-    unsigned int _wantsWideGamut:1;
-    unsigned int _isOpaque:1;
-    unsigned int _disableLinearRendering:1;
-    unsigned int _useFunctionConstants:1;
-    unsigned int _reverseZ:1;
-    unsigned int _forceAsyncShaderCompilation:1;
-    id <MTLCommandQueue> _ownedCommandQueue;
-    NSObject<OS_dispatch_semaphore> *_inFlightSemaphore;
-    struct atomic<int> _pendingGPUFrameCount;
-    id <MTLTexture> _textureTarget;
-    CAMetalLayer *_layerTarget;
-    id <CAMetalDrawable> _drawable;
-    float _targetedFrameInterval;
-    _Bool _shouldPresentAfterMinimumDuration;
-    _Bool _shouldPresentWithTransaction;
-    MTLRenderPassDescriptor *_currentRenderPassDescriptor;
-    MTLRenderPassDescriptor *_originalRenderPassDescriptor;
-    id _renderSize;
-    id <MTLCommandBuffer> _currentCommandBuffer;
-    struct SCNMTLRenderCommandEncoder *_renderEncoder;
-    id <MTLCommandBuffer> _resourceCommandBuffer;
-    struct SCNMTLBlitCommandEncoder _resourceBlitEncoder;
-    struct SCNMTLComputeCommandEncoder _resourceComputeEncoder;
-    struct {
-        unsigned char renderSliceIndex;
-        unsigned char eyeCount;
-        unsigned char renderMode;
-        unsigned char multiVertexOutputStreamGenerator;
-        _Bool isMainPass;
-        _Bool isFinalTechnique;
-    } _renderPassParameters;
-    CDStruct_21854d8c _currentStreamBufferIndices;
-    struct SCNMTLBufferPool *_volatileBufferPools[3];
-    void *_frameVolatileBufferPool;
-    NSMutableArray *_volatileMeshes;
-    NSMutableArray *_bufferPool;
-    NSMutableArray *_usedVolatileMeshElements;
-    NSMutableArray *_freeVolatileMeshElements;
-    struct SCNMTLBufferPool *_constantBufferPools[3];
-    void *_frameConstantBufferPool;
-    void *_frameTexturePool;
-    id <MTLDepthStencilState> _defaultDepthStencilState;
-    id <MTLSamplerState> _defaultSamplerState;
-    struct __C3DFXMetalProgram *_background2DProgram[3];
-    struct __C3DFXMetalProgram *_backgroundCubeProgram[3];
-    struct __C3DFXMetalProgram *_backgroundVideoProgram;
-    struct __C3DRasterizerStates *_backgroundRasterizerStates;
-    double _initialTime;
-    NSObject<OS_dispatch_queue> *_resourceQueue;
-    id <MTLBuffer> _shadowKernelBuffer;
-    struct {
-        struct __C3DFXPassInstance *passInstance;
-        struct __C3DLightingSystem *lightingSystem;
-        struct __C3DDynamicBatchingSystem *dynamicBatchingSystem;
-        struct __C3DFXPass *pass;
-        void *renderGraphPass;
-        _Bool passRequiresLighting;
-        struct __C3DTransformTree *transformTree;
-    } _processingContext;
-    unsigned int _seed;
-    struct SCNSceneBuffer _frameUniforms[6];
-    CDStruct_deec94a8 _sceneUniforms;
-    struct {
-        id <MTLBuffer> buffer;
-        unsigned long long offset;
-        unsigned long long size;
-        id <MTLTexture> shadowMaps[256];
-        id <MTLTexture> textureMaps[256];
-        id <MTLSamplerState> samplerStates[256];
-    } _lightsData;
-    struct {
-        struct float4x4 modelTransform;
-        struct float4x4 lastFrameModelTransform;
-        struct float4x4 normalTransforms[6];
-        struct float4x4 modelViewTransforms[6];
-        struct float4x4 modelViewProjectionTransforms[6];
-        struct float2x3 boundingBox;
-        struct float2x3 worldBoundingBox;
-        struct __C3DNode *instanceNode;
-        unsigned int flags;
-        unsigned int *probeCacheIndex;
-    } _nodeUniforms;
-    struct {
-        CDStruct_c6b9131d currentLightingSet;
-        id <MTLTexture> currentShadowMaps[8];
-        id <MTLTexture> currentGoboMaps[8];
-        struct unordered_map<unsigned long long, SCNMTLLightSetData, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, SCNMTLLightSetData>>> frameLightingSetDatas;
-        unsigned long long currentLightingHashKey;
-        struct {
-            long long count;
-            struct __C3DLight *lights[8];
-            struct __C3DLightRuntimeData *lightsData[8];
-        } currentLightingDesc;
-        CDStruct_95fa7c00 currentLightingSpace;
-        CDStruct_95fa7c00 currentLightingSpaceShadow;
-        _Bool needLightingSpaceTransformation;
-        struct SCNMTLClusterSystem clusterSystem;
-        struct Info clusterInfo;
-        id <MTLTexture> reflectionProbesTextureArray;
-    } _lighting;
-    struct Cache {
-        struct __C3DRasterizerStates *rasterizerStates;
-        struct __C3DMesh *mesh;
-        SCNMTLMesh *metalMesh;
-        struct __C3DMeshElement *meshElement;
-        SCNMTLMeshElement *metalMeshElement;
-        struct __C3DFXMetalProgram *program;
-        struct __C3DMaterial *material;
-        struct __C3DGeometry *geometry;
-        SCNMTLShadable *metalShadable;
-        struct __C3DEffectCommonProfile *commonProfile;
-        struct __C3DBlendStates *blendStates;
-        unsigned char colorBufferWriteMask;
-        unsigned char primitiveTopologyClass;
-        struct __C3DNode *node;
-        struct __C3DDeformerStack *deformerStack;
-        unsigned long long vertexDescriptorHash;
-        unsigned char tessellationPipelineStateHash;
-        SCNMTLRenderPipeline *renderPipeline;
-    } _cache;
-    struct {
-        unsigned long long hash;
-        SCNMTLRenderPipeline *pipeline;
-    } _compositeRendering[2];
-    SCNMTLRenderPipeline *_downSamplePipeline;
-    struct {
-        id <MTLTexture> backgroundTexture;
-        id <MTLTexture> overlayTexture;
-        id <MTLTexture> stencilDepthTexture;
-    } _skCompositing;
-    struct {
-        unsigned long long pixelFormat;
-        unsigned long long sampleCount;
-        SCNMTLRenderPipeline *displayCubemapPipeline;
-        SCNMTLRenderPipeline *displayTexture2DPipeline;
-        SCNMTLRenderPipeline *displayDepth2DPipeline;
-        SCNMTLRenderPipeline *displayDepthCubePipeline;
-    } _debug;
-    _Bool _showsAuthoringEnvironment;
-    struct {
-        _Bool collectEnabled;
-        NSMutableDictionary *errors;
-    } _compilationIssues;
-    struct {
-        unsigned int modelTransformBindingCount;
-        unsigned int modelViewTransformBindingCount;
-        unsigned int normalTransformBindingCount;
-        unsigned int nodeOpacityBindingCount;
-    } _counters;
-    struct {
-        unsigned long long passHash;
-        struct __C3DMaterial *material;
-    } _renderGraph;
-    id <SCNMTLRenderContextResourceManagerMonitor> _resourceManagerMonitor;
-    id <SCNMTLRenderContextCommandBufferStatusMonitor> _commandBufferStatusMonitor;
-    struct os_unfair_lock_s _gpuHandlersLock;
-    id _commandBufferScheduledHandlers;
-    id _commandBufferCompletedHandlers;
-    id _drawablePresentedHandlers;
-    _Bool _enableARMode;
-    _Bool _shouldDelegateARCompositing;
-    MTLRenderPassDescriptor *_clientRenderPassDescriptor;
-    id <MTLRenderCommandEncoder> _clientRenderCommandEncoder;
-    id <MTLCommandBuffer> _clientCommandBuffer;
-    unsigned long long _debugOptions;
-    double _contentScaleFactor;
-    id <MTLCommandQueue> _clientCommandQueue;
-    NSString *_generatedTexturePath;
 }
 
 - (void);
@@ -199,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (void);
 - (void);
@@ -207,8 +25,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)(
+;
+- (id)ureRecognizer";
 - (void)D2
 attribute vec2 a_texCoord2;
 #endif
@@ -398,13 +217,7 @@ __DoTexcoord__
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

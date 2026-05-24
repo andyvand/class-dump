@@ -7,7 +7,6 @@
 @interface XPC.XPCListener
 {
     id _listener;
-    id;
 }
 
 @end

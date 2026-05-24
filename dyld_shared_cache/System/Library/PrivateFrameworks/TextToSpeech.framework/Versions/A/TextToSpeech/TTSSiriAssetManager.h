@@ -8,13 +8,13 @@
 {
 }
 
++ (id)registerForMutedTalkerNotificationWithAUIO:(id)arg1;
++ (void)%s] %s:(id)arg1 %d display height cannot be zero;
++ (id)[VCTransportSessionIDSMultiLink handleLinkDisconnectedWithInfo:(id)arg1 ];
++ (id)preferRelay;
++ (id)e-combinations;
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (long long);
++ (long long);
 + (id);
 + (id);
 + (id);
@@ -27,13 +27,13 @@
 + (void);
 + (long long);
 + (id);
-+ (id);
-+ (id);
-+ (void);
++ (id)_averageVideoTxMediaBitrate;
 + (id);
 + (void);
 + (id);
-+ (id);
++ (void);
++ (id)8MapsSync0aB23StoreControllerDelegate_p;
++ (id);
 
 @end
 

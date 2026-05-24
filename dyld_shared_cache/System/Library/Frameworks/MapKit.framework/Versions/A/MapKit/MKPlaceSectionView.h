@@ -6,27 +6,19 @@
 
 #import <MapKit/_MKStackView.h>
 
-@class MKPlaceSectionItemView, MKViewWithHairline, NSArray;
 @protocol MKPlaceSectionViewDelegate;
 
 @interface MKPlaceSectionView : _MKStackView
 {
     unsigned long long _trackingSelectForRow;
-    MKViewWithHairline *_hairLineView;
-    _Bool _highlightsTouches;
-    _Bool _showsBottomHairline;
-    id <MKPlaceSectionViewDelegate> _delegate;
-    MKPlaceSectionItemView *_headerView;
-    NSArray *_rowViews;
-    MKPlaceSectionItemView *_footerView;
 }
 
-- (_Bool);
+- (_Bool)ntCleanEnergyDB.CESQL;
+- (void)eventIntervals;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)~;
 - (void);
 - (void);
 - (void);
@@ -37,29 +29,24 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)B;
+- (void)\y;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)nectDeviceWithUUID:(struct CGRect)arg1 handlingDaemon:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ndler: /* Error: Ran out of types for this method. */;
-- (void)ctionItem;
+- (void)openURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)MKPlaceCardActionItem;
 - (id)`>éÿ;
 - (void)ÿèÏ;x;
 
 // Remaining properties
 @property(nonatomic) __weak id <MKPlaceSectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) MKPlaceSectionItemView *footerView; // @synthesize footerView=_footerView;
-@property(retain, nonatomic) MKPlaceSectionItemView *headerView; // @synthesize headerView=_headerView;
-@property(nonatomic) _Bool highlightsTouches; // @synthesize highlightsTouches=_highlightsTouches;
-@property(copy, nonatomic) NSArray *rowViews; // @synthesize rowViews=_rowViews;
-@property(nonatomic) _Bool showsBottomHairline; // @synthesize showsBottomHairline=_showsBottomHairline;
 
 @end
 

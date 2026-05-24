@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary, NSString, PKAccountEnhancedMerchantBehavior, PKAccountService;
+@class NSString;
 
 @interface PKAccountEnhancedMerchantsFetcher
 {
     NSString *_accountIdentifier;
-    PKAccountService *_accountService;
-    NSArray *_items;
-    NSArray *_orderings;
-    PKAccountEnhancedMerchantBehavior *_behavior;
-    NSDate *_lastUpdate;
-    struct os_unfair_lock_s _itemsLock;
-    NSMutableDictionary *_tokenToUpdateHandlerMap;
-    struct os_unfair_lock_s _updateHandlersLock;
 }
 
 - (void);
@@ -29,24 +21,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)A9?;
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)	;
+- (id)@!;
 - (void);
 - (id);
 - (void)zedPrimaryAccountNumber;
 - (void)tial not set properly;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface DDMenuItem
 {
     NSPopoverAnimationController *_popoverAnimationController;
-    struct CGRect _popoverPositioningRect;
-    unsigned long long _expectedPopoverAnchorEdge;
-    struct CGSize _expectedPopoverSize;
 }
 
 - (void);
@@ -27,12 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Library";
 - (void);
 
 // Remaining properties
-@property unsigned long long expectedPopoverAnchorEdge; // @synthesize expectedPopoverAnchorEdge=_expectedPopoverAnchorEdge;
-@property struct CGSize expectedPopoverSize; // @synthesize expectedPopoverSize=_expectedPopoverSize;
 @property struct CGRect popoverPositioningRect; // @synthesize popoverPositioningRect=_popoverPositioningRect;
 
 @end

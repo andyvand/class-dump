@@ -4,78 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntentResponseCodableDescription, NSArray, NSString;
+@class INIntentResponseCodableDescription;
 
 @interface INIntentResponseCodableCode
 {
     _Bool _success;
-    long long _value;
-    NSString *_name;
-    NSString *_formatString;
-    NSString *_formatStringLocID;
-    NSString *_conciseFormatString;
-    NSString *_conciseFormatStringLocID;
-    INIntentResponseCodableDescription *__codableDescription;
 }
 
-+ (_Bool);
-+ (id)ocation:(id)arg1 rideOptionName:(id *)arg2 partySize:paymentMethod: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id)initWithPickupLocation:(id)arg1 dropOffLocation:(id *)arg2 rideOptionName:partySize:paymentMethod: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)_eventTouchValueField;
+- (id)er;
+- (void);
+- (id);
+- (id)SL certificate verification failed;
+- (id)d;
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)s (%{public}s:%u) %@ is determined to be HOME from IP signatures /* Error: Ran out of types for this method. */;
+- (void)r && value){ capturedData[selector] = value; } resolve(capturedData); }, { once:(id)arg1 true }); document.addEventListener('keyup', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); document.addEventListener('input', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value && (target.type.toLowerCase() != 'checkbox' || target.checked)){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (long long)P;
+- (id)a;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id)0@ù
 × ;
 - (void)v24@0:(id)arg1 8@"_INPBWellnessMetadataPair"16;
-- (void)secCategories;
-- (void)ltPropertiesForMoveFile: /* Error: Ran out of types for this method. */;
+- (void)payloadParsecCategories;
+- (void)defaultPropertiesForMoveFile: /* Error: Ran out of types for this method. */;
 - (_Bool)%@;
 - (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setCodableDescription:) __weak INIntentResponseCodableDescription *_codableDescription; // @synthesize _codableDescription=__codableDescription;
-@property(copy, nonatomic) NSString *conciseFormatString; // @synthesize conciseFormatString=_conciseFormatString;
-@property(copy, nonatomic) NSString *conciseFormatStringLocID; // @synthesize conciseFormatStringLocID=_conciseFormatStringLocID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
-@property(copy, nonatomic) NSString *formatStringLocID; // @synthesize formatStringLocID=_formatStringLocID;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *parameterNames;
-@property(nonatomic, getter=isSuccess) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
-@property(nonatomic) long long value; // @synthesize value=_value;
 
 @end
 

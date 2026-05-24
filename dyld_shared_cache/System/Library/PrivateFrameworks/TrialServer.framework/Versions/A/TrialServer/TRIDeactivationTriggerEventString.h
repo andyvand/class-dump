@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)cIImageFromAuxiliaryImageInfo:(unsigned long long)arg1 applyingOrientation:scaleFactor: /* Error: Ran out of types for this method. */;
 
 @end
 

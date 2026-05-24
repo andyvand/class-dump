@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface RTStateWeeklyStatisticsEl
 {
     double _numOfClustEntPerWeek;
-    double _avgAggTime_s;
-    double _stdAggTime_s;
-    double _daysPerWeek;
-    NSUUID *_stateUUID;
-    double _topMedian;
 }
 
 - (double);
@@ -21,11 +14,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (double);
 - (double);
-- (double);
-- (double);
-- (void);
+- (double)personaIdentifier;
+- (void)deliver;
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -33,12 +26,7 @@
 - (void)@;
 
 // Remaining properties
-@property(nonatomic) double avgAggTime_s; // @synthesize avgAggTime_s=_avgAggTime_s;
-@property(nonatomic) double daysPerWeek; // @synthesize daysPerWeek=_daysPerWeek;
 @property(nonatomic) double numOfClustEntPerWeek; // @synthesize numOfClustEntPerWeek=_numOfClustEntPerWeek;
-@property(copy, nonatomic) NSUUID *stateUUID; // @synthesize stateUUID=_stateUUID;
-@property(nonatomic) double stdAggTime_s; // @synthesize stdAggTime_s=_stdAggTime_s;
-@property(nonatomic) double topMedian; // @synthesize topMedian=_topMedian;
 
 @end
 

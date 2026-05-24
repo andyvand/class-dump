@@ -6,16 +6,12 @@
 
 #import <FinderKit/FI_TListBaseCellView.h>
 
-@class FI_TInlineProgressView, FI_TSyncBadgeButton, NSLayoutGuide, NSString;
+@class NSLayoutGuide;
 
 __attribute__((visibility("hidden")))
 @interface FI_TICloudStatusCellView : FI_TListBaseCellView
 {
     NSLayoutGuide *_badgeViewLayoutGuide;
-    FI_TSyncBadgeButton *_syncBadgeImageButton;
-    FI_TInlineProgressView *_progressView;
-    struct TProgressStateAggregator _progressStateAggregator;
-    struct CGSize _shortTitlePreferredSize;
 }
 
 - (void);
@@ -32,14 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGSize shortTitlePreferredSize; // @synthesize shortTitlePreferredSize=_shortTitlePreferredSize;
-@property(readonly) Class superclass;
 
 @end
 

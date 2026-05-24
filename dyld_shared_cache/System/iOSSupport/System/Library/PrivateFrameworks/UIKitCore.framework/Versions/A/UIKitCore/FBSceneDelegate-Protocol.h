@@ -7,11 +7,12 @@
 @protocol FBSceneDelegate
 
 @optional
+- (void)enhancedHls;
 - (void)ù
 × ;
 - (void)@ù
 × ;
-- (void)hAutolayoutEngineForSizingInfo;
-- (void)xtent;
+- (void)_cellsShouldConferWithAutolayoutEngineForSizingInfo;
+- (void)_extent;
 @end
 

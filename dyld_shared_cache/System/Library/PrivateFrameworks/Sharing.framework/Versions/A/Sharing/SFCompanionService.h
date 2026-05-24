@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SFCompanionService
 {
     NSString *_deviceName;
-    NSString *_deviceID;
-    NSString *_serviceType;
-    NSString *_managerID;
-    NSString *_ipAddress;
-    NSString *_identifier;
-    NSNumber *_nsxpcVersion;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,16 +37,10 @@
 - (void);
 - (id);
 - (void);
-- (void)Protocol;
+- (void)_SFXPCAsyncInvocableProtocol;
 
 // Remaining properties
 @property(copy) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(copy) NSString *managerID; // @synthesize managerID=_managerID;
-@property(copy) NSNumber *nsxpcVersion; // @synthesize nsxpcVersion=_nsxpcVersion;
-@property(copy) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

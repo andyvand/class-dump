@@ -6,7 +6,7 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMSystemMigrationDeclaration : CEMConfigurationBase
 {
@@ -28,18 +28,11 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)SS3key_yp5valuetSg;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadCustomBehavior; // @synthesize payloadCustomBehavior=_payloadCustomBehavior;
-@property(readonly) Class superclass;
 
 @end
 

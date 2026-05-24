@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface QLThumbnailQueue
 {
     struct __QLThumbnailQueue *_wrapperStruct;
-    const void *_client;
-    CDUnknownFunctionPointerType _callback;
-    CDUnknownBlockType _completionBlock;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CDUnknownBlockType _completionHandler;
-    NSOperationQueue *_operationQueue;
 }
 
 - (struct __QLThumbnailQueue *);
@@ -25,32 +18,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_mergeableString;
 - (const void *);
 - (CDUnknownBlockType);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (CDUnknownFunctionPointerType);
+- (CDUnknownFunctionPointerType)J;
 - (void);
-- (void);
-- (id);
+- (void)contentSourceVideoRectInWindowChanged;
+- (id)_recordingControlsController;
 - (void);
 - (void);
 
 // Remaining properties
-@property CDUnknownFunctionPointerType callback; // @synthesize callback=_callback;
-@property(retain) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property const void *client; // @synthesize client=_client;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property struct __QLThumbnailQueue *wrapperStruct; // @synthesize wrapperStruct=_wrapperStruct;
 
 @end
 

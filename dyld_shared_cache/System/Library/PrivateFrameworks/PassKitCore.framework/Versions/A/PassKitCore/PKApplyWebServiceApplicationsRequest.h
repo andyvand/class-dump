@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ntRequestIdentifierKey;
+- (void)PKPassbookBulletinRemotePaymentRequestIdentifierKey;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *applyServiceURL; // @synthesize applyServiceURL=_applyServiceURL;

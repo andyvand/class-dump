@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     id <CKPinnedConversationContactItem> _pinnedConversationContactItem;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)attributedStringWithNSTextTablesForColumns:(id)arg1 rows:context:forPrinting: /* Error: Ran out of types for this method. */;
+- (id);
+- (void), null);
 - (id);
 - (void)ation>"16;
 - (void)¬;

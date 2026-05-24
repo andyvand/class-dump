@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDPropertySourceForModifyPrototypeChange, TSSMutablePropertySet, TSSPropertyMap;
-@protocol TSSPropertySource;
+@class TSSMutablePropertySet;
 
 @interface TSDModifyPrototypeChange
 {
     id mPrototype;
-    TSSMutablePropertySet *mChangedPropertySet;
-    TSSPropertyMap *mChangedPropertyMapBeforeChange;
-    TSSPropertyMap *mChangedPropertyMapAfterChange;
-    TSDPropertySourceForModifyPrototypeChange *mPropertySourceBeforeChange;
-    TSDPropertySourceForModifyPrototypeChange *mPropertySourceAfterChange;
-    TSSMutablePropertySet *mPropertiesWithOldValuesRecordedButNotNewValues;
 }
 
 - (_Bool);
@@ -27,33 +20,16 @@
 - (id);
 - (id);
 - (id);
+- (id)d;
 - (id);
-- (id);
-- (id);
+- (id)<A;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, retain) TSSPropertyMap *changedPropertyMapAfterChange; // @synthesize changedPropertyMapAfterChange=mChangedPropertyMapAfterChange;
-@property(readonly, retain) TSSPropertyMap *changedPropertyMapBeforeChange; // @synthesize changedPropertyMapBeforeChange=mChangedPropertyMapBeforeChange;
 @property(readonly, retain) TSSMutablePropertySet *changedPropertySet; // @synthesize changedPropertySet=mChangedPropertySet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) TSSMutablePropertySet *i_propertiesWithOldValuesRecordedButNotNewValues; // @synthesize i_propertiesWithOldValuesRecordedButNotNewValues=mPropertiesWithOldValuesRecordedButNotNewValues;
-@property(readonly, retain) id <TSSPropertySource> propertiesAfterChange;
-@property(readonly, retain) id <TSSPropertySource> propertiesBeforeChange;
-@property(readonly, retain) id prototype; // @synthesize prototype=mPrototype;
-@property(readonly) _Bool prototypeIsBeingDeleted;
-@property(readonly) _Bool prototypeIsBeingModified;
-@property(readonly) _Bool prototypeIsBeingReplaced;
-@property(readonly, retain) id replacement;
-@property(readonly) Class superclass;
 
 @end
 

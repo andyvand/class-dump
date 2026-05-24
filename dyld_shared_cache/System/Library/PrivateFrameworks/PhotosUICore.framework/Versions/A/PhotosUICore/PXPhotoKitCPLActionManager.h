@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (id)onDelegate:(id)arg1;
+- (id),T;
+- (id)setAudioSessionDelegate:(id)arg1;
 - (void)gJÿx\Ê;
 - (id)Üp"=;
 

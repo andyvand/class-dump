@@ -13,22 +13,23 @@
 
 + (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)`;
+- (id):(struct _NSZone *)arg1 failed to get backing length
+;
+- (id)JKJKJKJK
+K)
+Jk
+KkKk=HJ)1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly, copy, nonatomic) EFPathComponent *pathComponentByDeletingPathExtension;
-@property(readonly, copy, nonatomic) NSString *pathExtension;
 @property(readonly, copy, nonatomic) NSString *sanitizedString; // @synthesize sanitizedString=_sanitizedString;
 
 @end

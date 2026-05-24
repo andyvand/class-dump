@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepDeviceAssessment
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

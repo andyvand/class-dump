@@ -8,7 +8,7 @@
 @protocol UnifiedTabBarDelegate;
 
 @protocol ToolbarControllerDelegate
-- (_Bool)AlternateMenuItem;
+- (_Bool)safari_hideAlternateMenuItem;
 - (id <UnifiedTabBarDelegate>);
 - (void)ÿÿ;
 - (NSMenu *);

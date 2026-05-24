@@ -7,19 +7,6 @@
 @interface AWDWiFiMetricsManagerPowerStatsUpdateEvent
 {
     unsigned long long _timestamp;
-    unsigned int _associatedSleepDur;
-    unsigned int _roamDur;
-    unsigned int _totalDur;
-    unsigned int _type;
-    unsigned int _unassociatedSleepDur;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int associatedSleepDur:1;
-        unsigned int roamDur:1;
-        unsigned int totalDur:1;
-        unsigned int type:1;
-        unsigned int unassociatedSleepDur:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -34,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)	j;
 - (unsigned int);
 - (void);
 - (unsigned int);
@@ -57,18 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int associatedSleepDur; // @synthesize associatedSleepDur=_associatedSleepDur;
-@property(nonatomic) _Bool hasAssociatedSleepDur;
-@property(nonatomic) _Bool hasRoamDur;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTotalDur;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasUnassociatedSleepDur;
-@property(nonatomic) unsigned int roamDur; // @synthesize roamDur=_roamDur;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int totalDur; // @synthesize totalDur=_totalDur;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
-@property(nonatomic) unsigned int unassociatedSleepDur; // @synthesize unassociatedSleepDur=_unassociatedSleepDur;
 
 @end
 

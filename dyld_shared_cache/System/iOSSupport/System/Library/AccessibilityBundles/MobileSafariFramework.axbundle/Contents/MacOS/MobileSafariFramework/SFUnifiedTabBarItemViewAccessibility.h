@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)(;
++ (id)keyboardAppearance;
 + (void);
 - (void);
 - (void);
@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
 - (id);
 - (id);
@@ -37,7 +37,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)PKCredentialPairingExplanationHeaderViewAccessibility;
 
 @end
 

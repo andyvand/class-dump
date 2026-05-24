@@ -6,29 +6,27 @@
 
 #import <LoggingSupport/OSLogMessagePlaceholder.h>
 
-@class NSDictionary, _OSLogEventSerializationMetadata;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface OSLogDeserializedMessagePlaceholder : OSLogMessagePlaceholder
 {
     NSDictionary *_backingDict;
-    _OSLogEventSerializationMetadata *_metadata;
 }
 
 - (id);
 - (id);
 - (int);
+- (id)oading should never be invoked on ram nodes;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)P-;
 - (void);
 - (int);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *backingDict; // @synthesize backingDict=_backingDict;
-@property(readonly, nonatomic) _OSLogEventSerializationMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

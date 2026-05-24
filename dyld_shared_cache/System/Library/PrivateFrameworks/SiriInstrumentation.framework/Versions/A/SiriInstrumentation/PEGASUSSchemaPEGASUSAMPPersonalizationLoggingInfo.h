@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface PEGASUSSchemaPEGASUSAMPPersonalizationLoggingInfo : SISchemaInstrumentationMessage
 {
     _Bool _isPersonalizationEligible;
-    _Bool _isPersonalizedSession;
-    _Bool _isPersonalizedSessionAffected;
-    NSArray *_personalizedItemInfos;
-    struct {
-        unsigned int isPersonalizationEligible:1;
-        unsigned int isPersonalizedSession:1;
-        unsigned int isPersonalizedSessionAffected:1;
-    } _has;
 }
 
 - (void);
@@ -40,31 +30,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8@zh;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ssages with handle:(id)arg1 %@ matching body matching service:%@ matchingIsSOS:%d (Result:%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id)
 × ;
-- (id)tionEvaluatorRequest;
-- (id)sTdSpeakerRecognizerScore: /* Error: Ran out of types for this method. */;
+- (id)_executionPreconditionEvaluatorRequest;
+- (id)setHasTdSpeakerRecognizerScore: /* Error: Ran out of types for this method. */;
 - (void)wed.value.collection.values.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPersonalizationEligible;
-@property(nonatomic) _Bool hasIsPersonalizedSession;
-@property(nonatomic) _Bool hasIsPersonalizedSessionAffected;
 @property(nonatomic) _Bool isPersonalizationEligible; // @synthesize isPersonalizationEligible=_isPersonalizationEligible;
-@property(nonatomic) _Bool isPersonalizedSession; // @synthesize isPersonalizedSession=_isPersonalizedSession;
-@property(nonatomic) _Bool isPersonalizedSessionAffected; // @synthesize isPersonalizedSessionAffected=_isPersonalizedSessionAffected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *personalizedItemInfos; // @synthesize personalizedItemInfos=_personalizedItemInfos;
 
 @end
 

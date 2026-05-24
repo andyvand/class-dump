@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSSet;
+@class NSObject;
 @protocol PKCloudStoreCoding;
 
 @interface PKCloudStoreUploadItemConfiguration
 {
     unsigned long long _itemType;
-    _Bool _detectConflicts;
-    _Bool _returnRecords;
-    NSObject<PKCloudStoreCoding> *_item;
-    NSSet *_cloudStoreZones;
-    NSDictionary *_recordSpecificKeys;
-    unsigned long long _codingType;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -28,27 +22,22 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)T);
+- (_Bool)p7)t;
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)c;
+- (id)$;
+- (_Bool)hasLanHealthAfterDecision;
 - (void);
-- (void)ext;
+- (void)secureVisibleText;
 - (id)L]¤ÿ;
 - (_Bool)ÿ¿;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *cloudStoreZones; // @synthesize cloudStoreZones=_cloudStoreZones;
-@property(nonatomic) unsigned long long codingType; // @synthesize codingType=_codingType;
-@property(nonatomic) _Bool detectConflicts; // @synthesize detectConflicts=_detectConflicts;
 @property(retain, nonatomic) NSObject<PKCloudStoreCoding> *item; // @synthesize item=_item;
-@property(copy, nonatomic) NSDictionary *recordSpecificKeys; // @synthesize recordSpecificKeys=_recordSpecificKeys;
-@property(nonatomic) _Bool returnRecords; // @synthesize returnRecords=_returnRecords;
 
 @end
 

@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SCNMaterialProperty, SCNNode, SCNPhysicsWorld;
+@class NSArray, NSString, SCNMaterialProperty, SCNNode;
 
 @protocol SCNSceneJSExport
-- (SCNMaterialProperty *);
+- (void)!;
+- (id)=;
+- (id)consentVersion:(NSString *)arg1 uploadType: /* Error: Ran out of types for this method. */;
+- (double)[ML3StoreImportOperation] import operation cancelled=%d success=%d. total time = %.2fs;
+- (SCNNode *)ATE INDEX IF NOT EXISTS SortMapSortNameOrder ON sort_map (name_order ASC);
+- (id);
+- (SCNMaterialProperty *)rendererContext;
 - (void)\èG@èõ'¾?x?K?9@G¯&¾¹?û®x?¼[,@°Ê%¾Ëñ>^»x?®!@y­$¾á>ÅÊx?\Æ@$¾¶×Ò>íÔx?R@oñ ¾'Å>þx?Í?@oI¾Vï¸>"y?÷®û?Ô¾âé­>§=y?æ\î?¸¾Ô£>,ay?ú)â?¾H>ly?:(double)arg1 ×?Y¾Ý>&Ãy?Ì]Í?X¾>õy?ñFÄ?K¾¦Ð>Y3z?é)¼?ì¾ÛLu>pz?c¸´?K¾¬tg>[¶z?ôø­?¯wÿ½5^Z>eýz?Ñ§?©0ö½ÙÐM>=H{?ó:¢?µ3ì½àA>c{?6!?ýá½µÅ5>Oê{?^?³_×½ôM*>î=|?gC?ÖVÌ½>!|?4f?©gÁ½¥/>æ|?!ä?²ºµ½^i	>;}?Öª?&7ª½§çý=*}?¼?¡h½«é=¾Ú}??aT½oÕ=&~?A?i½<Â=&m~?íÒ~?<ùt½}X¯=â®~?êËz?¸\½=¢ë~?F#w?~ÃD½*ä=Ñ"?"ás?~-½&s=S?êp?³&½Q=¦}?K:n?0þ¼Çõ/='¢?aÞk?kÑ¼Î=+À?²i?Ã¥¼ñá<Ø?4¾g?|Ót¼Â¦<ê?íe?·¼Y<ö?5Ad?;ª»ZÓ;Æý?«¯b?Þ8SÉ· /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) SCNMaterialProperty *background;
-@property(nonatomic) double endTime;
-@property(retain, nonatomic) id fogColor;
-@property(nonatomic) double fogDensityExponent;
-@property(nonatomic) double fogEndDistance;
-@property(nonatomic) double fogStartDistance;
-@property(nonatomic) double frameRate;
-@property(readonly, nonatomic) SCNMaterialProperty *lightingEnvironment;
 @property(readonly) NSArray *particleSystems;
-@property(nonatomic, getter=isPaused) _Bool paused;
-@property(readonly, nonatomic) SCNPhysicsWorld *physicsWorld;
-@property(readonly, nonatomic) SCNNode *rootNode;
-@property(nonatomic) double screenSpaceReflectionMaximumDistance;
-@property(nonatomic) long long screenSpaceReflectionSampleCount;
-@property(nonatomic) double screenSpaceReflectionStride;
-@property(nonatomic) double startTime;
-@property(nonatomic) _Bool wantsScreenSpaceReflection;
 @end
 

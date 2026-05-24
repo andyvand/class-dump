@@ -5,7 +5,7 @@
 //
 
 @protocol _UIKBArbiterDelegateInputDestination
-- (void)ew:(_Bool)arg1 toHasColorView:(void (^)(void))arg2;
+- (void)_transitionFromHadColorView:(_Bool)arg1 toHasColorView:(void (^)(void))arg2;
 - (void);
 @end
 

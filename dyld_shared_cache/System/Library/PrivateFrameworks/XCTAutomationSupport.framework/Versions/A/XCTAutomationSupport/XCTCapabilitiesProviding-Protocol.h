@@ -5,5 +5,6 @@
 //
 
 @protocol XCTCapabilitiesProviding
++ (void);
 @end
 

@@ -6,23 +6,20 @@
 
 #import <Safari/TabSearchItem.h>
 
-@class NSArray, NSIndexSet, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface TabSearchGroupItem : TabSearchItem
 {
     NSMutableArray *_children;
-    NSMutableArray *_filteredChildren;
-    NSString *_type;
-    NSIndexSet *_filteredChildIndexes;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)/L`;
 - (unsigned long long);
 - (id);
 - (id);
@@ -35,15 +32,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ocalStorageKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *children;
-@property(readonly, nonatomic) NSIndexSet *filteredChildIndexes; // @synthesize filteredChildIndexes=_filteredChildIndexes;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

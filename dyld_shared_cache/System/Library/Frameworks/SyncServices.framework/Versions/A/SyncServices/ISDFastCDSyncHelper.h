@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSPersistentStore, NSRecursiveLock, NSString;
+@class NSPersistentStore;
 
 @interface ISDFastCDSyncHelper
 {
     NSPersistentStore *_persistentStore;
-    NSString *_storagePath;
-    NSManagedObjectContext *_syncContext;
-    struct sqlite3 *_db;
-    _Bool _isUpdater;
-    struct sqlite3_stmt *_updateChangeStatement;
-    struct sqlite3_stmt *_nextChangesStatement;
-    struct sqlite3_stmt *_nextChangesForEntityStatement;
-    struct sqlite3_stmt *_changeWithIdentifierStatement;
-    struct sqlite3_stmt *_removeChangeStatement;
-    struct sqlite3_stmt *_deleteAllChangesStatement;
-    struct sqlite3_stmt *_deleteAllChangesForEntityStatement;
-    struct sqlite3_stmt *_setObjectForKeyStatement;
-    struct sqlite3_stmt *_objectForKeyStatement;
-    struct sqlite3_stmt *_removeObjectForKeyStatement;
-    NSRecursiveLock *_lock;
 }
 
 - (void);
@@ -37,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSSet;
+@class NSArray;
 
 @interface _EARSpeechRecognition
 {
     NSArray *_tokenSausage;
-    NSArray *_interpretationIndices;
-    NSArray *_nBest;
-    NSSet *_endsOfSentencePunctuations;
-    NSArray *_personalEntities;
 }
 
 + (id);
@@ -33,8 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ivateFrameworks/UserManagement.framework/Versions/A/UserManagement;
+- (id)ect<OS_os_transaction>";
 - (id);
 - (void);
 - (id);
@@ -44,12 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *endsOfSentencePunctuations; // @synthesize endsOfSentencePunctuations=_endsOfSentencePunctuations;
-@property(readonly, copy, nonatomic) NSArray *interpretationIndices; // @synthesize interpretationIndices=_interpretationIndices;
-@property(copy, nonatomic) NSArray *nBest; // @synthesize nBest=_nBest;
-@property(readonly, copy, nonatomic) NSArray *personalEntities; // @synthesize personalEntities=_personalEntities;
 @property(copy, nonatomic) NSArray *tokenSausage; // @synthesize tokenSausage=_tokenSausage;
-@property(readonly, copy, nonatomic) NSNumber *utteranceLengthSamples;
 
 @end
 

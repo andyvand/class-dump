@@ -10,16 +10,12 @@ __attribute__((visibility("hidden")))
 @interface UIInputSwitcherTableCellBackgroundView : UIView
 {
     _Bool _selected;
-    _Bool _drawsOpaque;
-    _Bool _drawsBorder;
-    _Bool _usesDarkTheme;
-    unsigned long long _roundedCorners;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)ion %@;
+- (void)econnect timer instead;
+- (unsigned long long)it when Messages is uninstalled:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)(¡&ÿ8`;
 
 // Remaining properties
-@property(nonatomic) _Bool drawsBorder; // @synthesize drawsBorder=_drawsBorder;
-@property(nonatomic) _Bool drawsOpaque; // @synthesize drawsOpaque=_drawsOpaque;
-@property(nonatomic) unsigned long long roundedCorners; // @synthesize roundedCorners=_roundedCorners;
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) _Bool usesDarkTheme; // @synthesize usesDarkTheme=_usesDarkTheme;
 
 @end
 

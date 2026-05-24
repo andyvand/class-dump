@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface ASRSchemaASRFinalAudioPacketContainingSpeechReceived : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_loggableSharedUserId;
-    NSString *_resultCandidateId;
-    NSString *_loggableUserIdHash;
-    CDStruct_b33ad018 _has;
-    _Bool _hasLoggableSharedUserId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasLoggableUserIdHash;
 }
 
 - (void);
@@ -26,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +27,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setProperty:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -44,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)Scores;
+- (id)siriTurnRestatementScores;
 - (id)UY`[;
 - (id);
 - (_Bool)m¬Æ)%;
@@ -54,14 +45,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasLoggableSharedUserId; // @synthesize hasLoggableSharedUserId=_hasLoggableSharedUserId;
-@property(nonatomic) _Bool hasLoggableUserIdHash; // @synthesize hasLoggableUserIdHash=_hasLoggableUserIdHash;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(copy, nonatomic) NSString *loggableUserIdHash; // @synthesize loggableUserIdHash=_loggableUserIdHash;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end
 

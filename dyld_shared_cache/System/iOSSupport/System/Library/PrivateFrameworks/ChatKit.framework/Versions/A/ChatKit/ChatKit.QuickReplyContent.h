@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface ChatKit.QuickReplyContent
 {
     struct CGSize size;
-    void rows;
-    void rowHeights;
-    void indicesForReply;
-    long long numReplies;
-    double transcriptHeight;
 }
 
 - (double);
-- (id);
+- (id)Can't add AVAssetReaderOutput;
+- (long long)nticating;
+- (id)o;
 - (long long);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (struct CGSize);
 - (_Bool);
-- (id)uC;
+- (id)So6UIMenuC;
 - (void)$b\;
 - (id)1;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSDictionary *indicesForReply;
-@property(nonatomic, readonly) long long numReplies; // @synthesize numReplies;
-@property(nonatomic, readonly) NSArray *rowHeights;
-@property(nonatomic, readonly) NSArray *rows;
 @property(nonatomic, readonly) struct CGSize size; // @synthesize size;
-@property(nonatomic, readonly) NSArray *strings;
-@property(nonatomic, readonly) double transcriptHeight; // @synthesize transcriptHeight;
 
 @end
 

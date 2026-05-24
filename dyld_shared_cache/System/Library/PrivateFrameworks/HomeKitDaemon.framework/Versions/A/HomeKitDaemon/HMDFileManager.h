@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface HMDFileManager
@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
+- (_Bool)=;
 - (_Bool);
 - (_Bool);
+- (_Bool)to string.;
+- (_Bool)ts/4~CNrdugCizy9_6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/common/CommonUtilities.m;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)isReadyForMoreData;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -34,19 +34,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool);
 - (id)rsonUUIDs.%@;
-- (_Bool)peKey;
+- (_Bool)HMDMatterAccessoryMatterDeviceTypeKey;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSURL *heroFrameStoreDirectoryURL;
-@property(readonly, copy) NSURL *legacyHeroFrameStoreDirectoryURL;
-@property(readonly) Class superclass;
 
 @end
 

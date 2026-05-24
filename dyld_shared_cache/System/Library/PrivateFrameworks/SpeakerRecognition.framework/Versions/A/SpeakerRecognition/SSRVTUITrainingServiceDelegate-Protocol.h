@@ -5,5 +5,8 @@
 //
 
 @protocol SSRVTUITrainingServiceDelegate
+
+@optional
+- (void)A;
 @end
 

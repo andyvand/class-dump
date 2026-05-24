@@ -6,30 +6,23 @@
 
 #import <UIKitCore/UIButtonMacLegacyVisualProvider.h>
 
-@class NSString, UIButton;
-
 @interface UIButtonMacVisualProvider : UIButtonMacLegacyVisualProvider
 {
     struct {
         unsigned int needsUpdateConfiguration:1;
     } _flags;
-    _Bool hasBaseline;
-    _Bool vendsBaselineInformationToAutoLayout;
-    double previousFirstBaselineOffsetForAttributeLowering;
-    double previousLastBaselineOffsetForAttributeLowering;
-    double widthForMultilineTextLayout;
 }
 
-+ (id);
-- (void);
++ (id)kMMCSRequestOptionInsertHeaders;
+- (void)TAPBACK_INTERPRETATON_REMOVED_STRAIGHT_QUOTES;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)B40@0:8@"UITableView"16@"NSIndexPath"24@"<UISpringLoadedInteractionContext>"32 /* Error: Ran out of types for this method. */;
+- (void)homeManager:(double)arg1 residentProvisioningStatusChanged: /* Error: Ran out of types for this method. */;
 - (struct CGSize)0@ù
 × ;
-- (double)Block: /* Error: Ran out of types for this method. */;
+- (double)enumerateIndexesWithOptions:usingBlock: /* Error: Ran out of types for this method. */;
 - (struct CGSize)OOL)_block_invoke_2;
 - (double);
 - (struct CGSize)s without updating search bar to new placement. Fixing, but delegate searchBarPlacement callbacks have been skipped. navigationBar = ;
@@ -55,28 +48,7 @@
 - (_Bool)l;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidDefaultTitleAndImageLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) UIButton *button;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIButton",?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double focusSizeIncrease;
-@property(readonly, nonatomic) _Bool hasBaseline; // @synthesize hasBaseline;
-@property(readonly, nonatomic) _Bool hasMultilineText;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) double previousFirstBaselineOffsetForAttributeLowering; // @synthesize previousFirstBaselineOffsetForAttributeLowering;
-@property(nonatomic) double previousLastBaselineOffsetForAttributeLowering; // @synthesize previousLastBaselineOffsetForAttributeLowering;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool vendsBaselineInformationToAutoLayout; // @synthesize vendsBaselineInformationToAutoLayout;
-@property(nonatomic) double widthForMultilineTextLayout; // @synthesize widthForMultilineTextLayout;
 
 @end
 

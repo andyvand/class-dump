@@ -6,13 +6,12 @@
 
 #import <OfficeImport/CMState.h>
 
-@class CMOutlineState, OADTablePartStyle;
+@class CMOutlineState;
 
 __attribute__((visibility("hidden")))
 @interface PMState : CMState
 {
     CMOutlineState *mListState;
-    OADTablePartStyle *mCurrentRowStyle;
 }
 
 - (void);

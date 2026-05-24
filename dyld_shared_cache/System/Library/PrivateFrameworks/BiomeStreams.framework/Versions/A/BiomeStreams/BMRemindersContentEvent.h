@@ -9,16 +9,6 @@
 @interface BMRemindersContentEvent
 {
     _Bool _isAllDay;
-    int _priority;
-    NSString *_uniqueId;
-    NSString *_domainId;
-    NSString *_personaId;
-    double _absoluteTimestamp;
-    NSString *_title;
-    NSString *_notes;
-    double _completionDateTimestamp;
-    double _dueDateTimestamp;
-    NSString *_contentProtection;
 }
 
 + (id);
@@ -26,57 +16,35 @@
 - (id);
 - (id);
 - (id);
-- (double);
-- (double);
+- (double);
+- (double)`;
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)): /* Error: Ran out of types for this method. */;
+- (_Bool)edConnectivityData command;
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)essoryControlEvent_v1;
-- (id)ffer;
+- (id)BMHomeKitClientMediaAccessoryControlEvent_v1;
+- (id)pg_query__create_plang_stmt__pack_to_buffer;
 - (void)ùúû;
 - (_Bool)ÿÿÿÿÿÿÿÿÿÿ ¡¢£¤¥¦§ÿÿÿÿª«¬­®ÿÿÿÿ±²³´µ¶·ÿÿ¹º»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×;
 - (int)@¡5.%®1ø;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) double completionDateTimestamp; // @synthesize completionDateTimestamp=_completionDateTimestamp;
-@property(readonly, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly, nonatomic) double dueDateTimestamp; // @synthesize dueDateTimestamp=_dueDateTimestamp;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(readonly, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly, nonatomic) int priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

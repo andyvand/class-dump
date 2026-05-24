@@ -5,5 +5,8 @@
 //
 
 @protocol PTTraceSessionDelegatePrivate
+
+@optional
+- (void)IMUnlockMonitorListener;
 @end
 

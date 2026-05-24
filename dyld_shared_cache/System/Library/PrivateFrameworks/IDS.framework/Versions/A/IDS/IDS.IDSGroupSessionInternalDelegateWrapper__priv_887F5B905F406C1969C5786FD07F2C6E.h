@@ -7,9 +7,6 @@
 @interface IDS.IDSGroupSessionInternalDelegateWrapper__priv_887F5B905F406C1969C5786FD07F2C6E
 {
     id listeners;
-    id strongReferences;
-    id service;
-    id session;
 }
 
 - (void);

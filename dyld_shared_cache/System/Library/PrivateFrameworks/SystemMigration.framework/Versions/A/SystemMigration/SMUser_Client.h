@@ -6,17 +6,11 @@
 
 #import <SystemMigration/SMUser.h>
 
-@class NSObject, NSString, SMSystem_Client;
-@protocol OS_dispatch_queue;
+@class SMSystem_Client;
 
 @interface SMUser_Client : SMUser
 {
     _Bool _shouldPromoteToAdmin;
-    _Bool _passwordIsTemporary;
-    _Bool _allowFileVaultUnlock;
-    NSObject<OS_dispatch_queue> *daemonPropertyQueue;
-    SMSystem_Client *sourceSystem;
-    NSString *_clearPassword;
 }
 
 + (id);
@@ -42,13 +36,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool allowFileVaultUnlock; // @synthesize allowFileVaultUnlock=_allowFileVaultUnlock;
-@property(retain) NSString *clearPassword; // @synthesize clearPassword=_clearPassword;
-@property(retain) NSObject<OS_dispatch_queue> *daemonPropertyQueue; // @synthesize daemonPropertyQueue;
-@property(readonly) NSString *displayExtraInfo;
-@property(readonly) NSString *displayName;
-@property _Bool passwordIsTemporary; // @synthesize passwordIsTemporary=_passwordIsTemporary;
-@property _Bool shouldPromoteToAdmin; // @synthesize shouldPromoteToAdmin=_shouldPromoteToAdmin;
 @property(retain) SMSystem_Client *sourceSystem; // @synthesize sourceSystem;
 
 @end

@@ -14,7 +14,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)B;
 + (_Bool);
 + (_Bool);
 + (id);
@@ -38,18 +38,18 @@
 + (id);
 + (id);
 + (_Bool);
++ (_Bool);
++ (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)PROVISIONING_GENERIC_ID_REMOVE_OTHER_TO_ADD_MESSAGE;
 
 @end
 

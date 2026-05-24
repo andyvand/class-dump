@@ -7,7 +7,6 @@
 @interface DDXMLNode
 {
     struct _xmlKind *genericPtr;
-    struct _xmlNode *nsParentPtr;
 }
 
 + (void);
@@ -33,6 +32,7 @@
 + (void);
 + (id);
 + (id);
++ (id).;
 + (id);
 + (id);
 + (id);
@@ -42,11 +42,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)mParallelizerToEffectContainer;
++ (id)convertFromParallelizerToEffectContainer;
 + (void);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -66,7 +65,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

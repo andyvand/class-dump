@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     UILabel *_content;
 }
 
-- (id);
+- (id)makeInactive;
 - (void);
-- (id)r;
+- (id)_darkStyleGlyphColor;
 - (id)ct ui_archive_entry *);
 - (void)mÕÄº[;
 

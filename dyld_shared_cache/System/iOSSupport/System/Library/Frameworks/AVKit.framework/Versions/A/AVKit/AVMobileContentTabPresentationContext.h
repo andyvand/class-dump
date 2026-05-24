@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMobileContentTabTransitionContext, UIViewController;
-
 __attribute__((visibility("hidden")))
 @interface AVMobileContentTabPresentationContext
 {
     unsigned long long _state;
-    UIViewController *_customInfoViewController;
-    double _presentationHeight;
-    unsigned long long _presentationLayout;
-    AVMobileContentTabTransitionContext *_transitionContext;
-    UIViewController *_upcomingCustomInfoViewController;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -31,12 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)eObject:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIViewController *customInfoViewController; // @synthesize customInfoViewController=_customInfoViewController;
-@property(readonly, nonatomic) double presentationHeight; // @synthesize presentationHeight=_presentationHeight;
-@property(readonly, nonatomic) unsigned long long presentationLayout; // @synthesize presentationLayout=_presentationLayout;
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) AVMobileContentTabTransitionContext *transitionContext; // @synthesize transitionContext=_transitionContext;
-@property(readonly, nonatomic) UIViewController *upcomingCustomInfoViewController; // @synthesize upcomingCustomInfoViewController=_upcomingCustomInfoViewController;
 
 @end
 

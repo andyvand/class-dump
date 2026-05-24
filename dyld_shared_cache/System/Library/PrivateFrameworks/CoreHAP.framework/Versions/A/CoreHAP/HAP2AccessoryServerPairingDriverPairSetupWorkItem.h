@@ -6,18 +6,11 @@
 
 #import <CoreHAP/HAP2AccessoryServerPairingDriverWorkItem.h>
 
-@class HAPSRPPairSetupSession, NSError, NSString;
-@protocol HAP2AccessoryServerPairingDriverDelegate, HAP2AccessoryServerTransport;
+@protocol HAP2AccessoryServerPairingDriverDelegate;
 
 @interface HAP2AccessoryServerPairingDriverPairSetupWorkItem : HAP2AccessoryServerPairingDriverWorkItem
 {
     _Bool _invalidSetupCode;
-    id <HAP2AccessoryServerPairingDriverDelegate> _delegate;
-    id <HAP2AccessoryServerTransport> _transport;
-    HAPSRPPairSetupSession *_pairingSession;
-    unsigned long long _pairSetupType;
-    double _backoffInterval;
-    NSError *_cancelError;
 }
 
 + (id);
@@ -40,8 +33,8 @@
 - (void);
 - (void);
 - (double);
-- (void);
-- (id);
+- (void)ericEventEE_FvSA_SD_EEE;
+- (id)HandlerForActiveObjectINS4_15MountStateEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
 - (void);
 - (id);
@@ -50,20 +43,7 @@
 - (void):resolveAttempted: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double backoffInterval; // @synthesize backoffInterval=_backoffInterval;
-@property(retain, nonatomic) NSError *cancelError; // @synthesize cancelError=_cancelError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <HAP2AccessoryServerPairingDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInvalidSetupCode) _Bool invalidSetupCode; // @synthesize invalidSetupCode=_invalidSetupCode;
-@property(readonly, nonatomic) unsigned long long pairSetupType; // @synthesize pairSetupType=_pairSetupType;
-@property(retain, nonatomic) HAPSRPPairSetupSession *pairingSession; // @synthesize pairingSession=_pairingSession;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransport> transport; // @synthesize transport=_transport;
 
 @end
 

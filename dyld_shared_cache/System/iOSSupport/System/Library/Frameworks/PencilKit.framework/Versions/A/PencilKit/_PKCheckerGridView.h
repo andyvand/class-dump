@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImageView;
+@class UIImageView;
 
 @interface _PKCheckerGridView
 {
     double _tileSize;
-    UIColor *_colorA;
-    UIColor *_colorB;
-    UIImageView *_imageView;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setProductId: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -30,10 +27,7 @@
 - (void)Recognizer;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *colorA; // @synthesize colorA=_colorA;
-@property(retain, nonatomic) UIColor *colorB; // @synthesize colorB=_colorB;
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) double tileSize; // @synthesize tileSize=_tileSize;
 
 @end
 

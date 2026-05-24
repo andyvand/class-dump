@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, TSTCellRegion;
-
 @interface TSTChangeDescriptor
 {
     int mChangeDescriptor;
-    TSTCellRegion *mCellRegion;
-    CDStruct_0441cfb5 mCellID;
-    TSTCellRegion *mExpandedRegion;
-    TSTCellRegion *mStrokeRegion;
-    NSHashTable *mReferenceIdentifiers;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)�7;
 + (id);
 + (id);
 + (id);
@@ -27,30 +21,24 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
-- (CDStruct_5f1f7aa9);
+- (id)ediaPlaybackCore.MPCPlaybackEngineEventStream/access;
+- (CDStruct_f5d1269f)_MPCPlaybackEngineEventStreamMaxDeferralDuration;
 - (void);
-- (void);
+- (void)PLAYBACK_ERROR_ALERT_ASSET_REVOKED_MESSAGE;
+- (id)om request;
 - (id);
-- (id);
-- (id);
-- (CDStruct_5f1f7aa9);
+- (id);
+- (CDStruct_f5d1269f);
 - (int);
 - (id);
-- (CDStruct_5f1f7aa9);
-- (CDStruct_0441cfb5);
-- (void);
+- (CDStruct_f5d1269f);
+- (CDStruct_bd4d8e6b);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)0+;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_0441cfb5 cellID; // @synthesize cellID=mCellID;
-@property(readonly, nonatomic) TSTCellRegion *cellRegion; // @synthesize cellRegion=mCellRegion;
 @property(readonly, nonatomic) int changeDescriptor; // @synthesize changeDescriptor=mChangeDescriptor;
-@property(retain, nonatomic) TSTCellRegion *expandedRegion; // @synthesize expandedRegion=mExpandedRegion;
-@property(readonly, nonatomic) NSHashTable *referenceIdentifiers; // @synthesize referenceIdentifiers=mReferenceIdentifiers;
-@property(readonly, nonatomic) TSTCellRegion *strokeRegion; // @synthesize strokeRegion=mStrokeRegion;
 
 @end
 

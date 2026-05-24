@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void)tionsOperation;
+- (void)CKModifySubscriptionsOperation;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *ktApplicationToKTRegStatus; // @synthesize ktApplicationToKTRegStatus=_ktApplicationToKTRegStatus;

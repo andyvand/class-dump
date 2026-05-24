@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RFSchemaRFSnippetRenderingEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)nse_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool),;
+- (_Bool)led, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat LEFT OUTER JOIN chat_message_join on    chat_id == chat.rowid WHERE    group_id = ? AND    service_name = ? ORDER BY    chat_message_join.message_date DESC LIMIT    1;;
 - (id);
 - (id);
-- (id)ctiveWithin24Hours:(id)arg1;
+- (id)addAudioDevicesActiveWithin24Hours:(id)arg1;
 - (id)Size;
-- (_Bool)ADSTATUS_DOWNLOADING;
+- (_Bool)UAFSUBSCRIPTIONDOWNLOADSTATUS_DOWNLOADING;
 - (_Bool);
 - (void)è";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

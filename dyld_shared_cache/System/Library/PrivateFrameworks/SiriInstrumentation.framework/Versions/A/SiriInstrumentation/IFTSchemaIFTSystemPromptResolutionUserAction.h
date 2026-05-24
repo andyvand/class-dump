@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTSystemPromptResolutionActionCancellation, IFTSchemaIFTSystemPromptResolutionRequirementResolution, NSData;
-
 @interface IFTSchemaIFTSystemPromptResolutionUserAction : SISchemaInstrumentationMessage
 {
     _Bool _isActionConfirmed;
-    _Bool _isParameterConfirmed;
-    long long _disambiguationIndexSelected;
-    IFTSchemaIFTSystemPromptResolutionRequirementResolution *_requirementAddressed;
-    IFTSchemaIFTSystemPromptResolutionActionCancellation *_actionCanceled;
-    _Bool _hasIsActionConfirmed;
-    _Bool _hasIsParameterConfirmed;
-    _Bool _hasDisambiguationIndexSelected;
-    _Bool _hasRequirementAddressed;
-    _Bool _hasActionCanceled;
-    unsigned long long _whichOneof_Systempromptresolutionuseraction;
 }
 
 - (unsigned long long);
@@ -46,34 +34,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id)maCNVIntentEagerExecutionStarted",&,N,V_startedOrChanged;
-- (id)ExecutionFailed;
+- (id)FLOWSchemaFLOWDomainExecutionFailed;
 - (void)#;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTSystemPromptResolutionActionCancellation *actionCanceled; // @synthesize actionCanceled=_actionCanceled;
-@property(nonatomic) long long disambiguationIndexSelected; // @synthesize disambiguationIndexSelected=_disambiguationIndexSelected;
-@property(nonatomic) _Bool hasActionCanceled; // @synthesize hasActionCanceled=_hasActionCanceled;
-@property(nonatomic) _Bool hasDisambiguationIndexSelected; // @synthesize hasDisambiguationIndexSelected=_hasDisambiguationIndexSelected;
-@property(nonatomic) _Bool hasIsActionConfirmed; // @synthesize hasIsActionConfirmed=_hasIsActionConfirmed;
-@property(nonatomic) _Bool hasIsParameterConfirmed; // @synthesize hasIsParameterConfirmed=_hasIsParameterConfirmed;
-@property(nonatomic) _Bool hasRequirementAddressed; // @synthesize hasRequirementAddressed=_hasRequirementAddressed;
 @property(nonatomic) _Bool isActionConfirmed; // @synthesize isActionConfirmed=_isActionConfirmed;
-@property(nonatomic) _Bool isParameterConfirmed; // @synthesize isParameterConfirmed=_isParameterConfirmed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTSystemPromptResolutionRequirementResolution *requirementAddressed; // @synthesize requirementAddressed=_requirementAddressed;
-@property(readonly, nonatomic) unsigned long long whichOneof_Systempromptresolutionuseraction; // @synthesize whichOneof_Systempromptresolutionuseraction=_whichOneof_Systempromptresolutionuseraction;
 
 @end
 

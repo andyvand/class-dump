@@ -5,5 +5,9 @@
 //
 
 @protocol SegmentStatsDelegate
+- (unsigned int);
+- (unsigned short);
+- (double);
+- (unsigned int)?;
 @end
 

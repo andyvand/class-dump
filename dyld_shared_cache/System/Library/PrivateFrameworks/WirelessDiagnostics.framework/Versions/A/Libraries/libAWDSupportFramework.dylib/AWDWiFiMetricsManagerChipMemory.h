@@ -7,44 +7,29 @@
 @interface AWDWiFiMetricsManagerChipMemory
 {
     unsigned long long _timestamp;
-    unsigned int _heapFree;
-    unsigned int _heapFreeMax;
-    unsigned int _heapFreeMin;
-    unsigned int _heapTotal;
-    unsigned int _heapTotalMax;
-    unsigned int _heapTotalMin;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int heapFree:1;
-        unsigned int heapFreeMax:1;
-        unsigned int heapFreeMin:1;
-        unsigned int heapTotal:1;
-        unsigned int heapTotalMax:1;
-        unsigned int heapTotalMin:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int);
+- (unsigned int)5;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (_Bool);
@@ -60,23 +45,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeapFree;
-@property(nonatomic) _Bool hasHeapFreeMax;
-@property(nonatomic) _Bool hasHeapFreeMin;
-@property(nonatomic) _Bool hasHeapTotal;
-@property(nonatomic) _Bool hasHeapTotalMax;
-@property(nonatomic) _Bool hasHeapTotalMin;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int heapFree; // @synthesize heapFree=_heapFree;
-@property(nonatomic) unsigned int heapFreeMax; // @synthesize heapFreeMax=_heapFreeMax;
-@property(nonatomic) unsigned int heapFreeMin; // @synthesize heapFreeMin=_heapFreeMin;
-@property(nonatomic) unsigned int heapTotal; // @synthesize heapTotal=_heapTotal;
-@property(nonatomic) unsigned int heapTotalMax; // @synthesize heapTotalMax=_heapTotalMax;
-@property(nonatomic) unsigned int heapTotalMin; // @synthesize heapTotalMin=_heapTotalMin;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

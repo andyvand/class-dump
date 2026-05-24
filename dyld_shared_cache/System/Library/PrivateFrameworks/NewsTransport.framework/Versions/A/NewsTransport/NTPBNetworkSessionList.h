@@ -9,7 +9,6 @@
 @interface NTPBNetworkSessionList
 {
     NSMutableArray *_networkEvents;
-    NSMutableArray *_networkSessions;
 }
 
 @end

@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (struct CGSize);
-- (_Bool)AllowHorizontalSizing;
+- (_Bool)NSSimplePreferencesAllowHorizontalSizing;
 
 @end
 

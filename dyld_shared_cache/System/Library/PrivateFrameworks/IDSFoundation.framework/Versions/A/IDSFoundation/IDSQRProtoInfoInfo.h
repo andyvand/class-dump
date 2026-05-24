@@ -9,12 +9,12 @@
 }
 
 - (id);
-- (void);
+- (void)";
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)8;
+- (void)lay;
 - (id);
 - (id);
 

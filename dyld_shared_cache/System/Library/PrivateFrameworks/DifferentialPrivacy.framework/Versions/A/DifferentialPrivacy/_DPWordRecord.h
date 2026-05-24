@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface _DPWordRecord
 {
     NSNumber *_wordPosition;
-    NSString *_word;
 }
 
 + (id);
@@ -30,7 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *word; // @synthesize word=_word;
 @property(readonly, nonatomic) NSNumber *wordPosition; // @synthesize wordPosition=_wordPosition;
 
 @end

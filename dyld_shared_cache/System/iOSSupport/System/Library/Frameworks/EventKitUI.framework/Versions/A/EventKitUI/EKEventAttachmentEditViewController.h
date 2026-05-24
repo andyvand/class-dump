@@ -6,21 +6,19 @@
 
 #import <EventKitUI/EKEditItemViewController.h>
 
-@class NSArray, NSString, UITableView;
+@class UITableView;
 @protocol EKEventAttachmentEditViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKEventAttachmentEditViewController : EKEditItemViewController
 {
     UITableView *_table;
-    NSArray *_cellControllers;
-    id <EKEventAttachmentEditViewControllerDelegate> _delegate;
 }
 
+- (id)s;
 - (id);
-- (id);
-- (double);
-- (id);
+- (double)z;
+- (id)angeBatch";
 - (long long);
 - (void);
 - (void);
@@ -29,17 +27,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void):calendar: /* Error: Ran out of types for this method. */;
+- (void)roundedDateForDate:dateMode:calendar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKEventAttachmentEditViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

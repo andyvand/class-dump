@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPlaybackContentContainerView, AVPlaybackContentZoomingView, AVPlayerViewController, AVZoomingBehavior, NSString, UITapGestureRecognizer;
+@class AVZoomingBehavior;
 
 __attribute__((visibility("hidden")))
 @interface AVZoomingBehaviorContext
 {
     _Bool _usesGlassCatalystControls;
-    _Bool _zoomingEnabled;
-    AVPlayerViewController *_playerViewController;
-    AVZoomingBehavior *_behavior;
-    AVPlaybackContentZoomingView *_contentZoomingView;
-    AVObservationController *_observationController;
-    UITapGestureRecognizer *_doubleTapGestureRecognizer;
-    struct CGSize _contentAspectRatio;
 }
 
 - (void);
@@ -24,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,10 +32,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)N5raven57h_DeviceUserVelocityDifferenceMountedWithNHCArgs_RavenPNTIdEE;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)",&,V_serviceName;
 - (_Bool);
 - (id);
 - (void);
@@ -50,21 +43,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPlaybackContentContainerView *activeContentView;
 @property(nonatomic) __weak AVZoomingBehavior *behavior; // @synthesize behavior=_behavior;
-@property(nonatomic) struct CGSize contentAspectRatio; // @synthesize contentAspectRatio=_contentAspectRatio;
-@property(retain, nonatomic) AVPlaybackContentZoomingView *contentZoomingView; // @synthesize contentZoomingView=_contentZoomingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITapGestureRecognizer *doubleTapGestureRecognizer; // @synthesize doubleTapGestureRecognizer=_doubleTapGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(readonly, nonatomic) __weak AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isZoomingEnabled) _Bool zoomingEnabled; // @synthesize zoomingEnabled=_zoomingEnabled;
 
 @end
 

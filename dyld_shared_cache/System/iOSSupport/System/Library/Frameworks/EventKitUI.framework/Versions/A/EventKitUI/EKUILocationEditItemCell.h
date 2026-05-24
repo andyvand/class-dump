@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIActivityIndicatorView, UIButton, UIImageView, UILabel;
+@class UIButton, UILabel;
 
 @interface EKUILocationEditItemCell
 {
     UILabel *_title;
-    UIImageView *_image;
-    UIActivityIndicatorView *_spinner;
-    UIButton *_clearButton;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)cheme;
+- (void)urlWithAllowedScheme;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *clearButton; // @synthesize clearButton=_clearButton;

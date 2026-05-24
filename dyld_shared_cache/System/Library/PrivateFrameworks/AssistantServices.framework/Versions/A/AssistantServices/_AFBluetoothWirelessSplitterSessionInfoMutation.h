@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothWirelessSplitterSessionInfo, NSArray, NSString;
+@class AFBluetoothWirelessSplitterSessionInfo;
 
 @interface _AFBluetoothWirelessSplitterSessionInfoMutation
 {
     AFBluetoothWirelessSplitterSessionInfo *_base;
-    long long _state;
-    NSArray *_deviceAddresses;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasState:1;
-        unsigned int hasDeviceAddresses:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -23,17 +16,11 @@
 - (void);
 - (_Bool);
 - (id)ly:(id)arg1;
-- (long long)otificationsEnabled;
-- (void)AdvertisementContextRecordFromData: /* Error: Ran out of types for this method. */;
+- (long long)isAnnounceNotificationsEnabled;
+- (void)_initializeMyriadAdvertisementContextRecordFromData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,58 +6,41 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSImage, NSOperationQueue, NSString, NSVisualTabPickerRootView;
-@protocol NSVisualTabPickerDelegate;
+@class NSVisualTabPickerRootView;
 
 __attribute__((visibility("hidden")))
 @interface NSVisualTabPickerRootViewController : NSViewController
 {
     NSVisualTabPickerRootView *_rootView;
-    NSArray *_orderedTabViewItems;
-    NSArray *_filteredTabViewItems;
-    NSOperationQueue *_filterQueue;
-    NSString *_searchText;
-    _Bool _isPostponingClosingVisualTabPickerWhenNewTabIsInserted;
-    _Bool _didReportPerformSearch;
-    _Bool _isClosingBySelectingOrCreatingTab;
-    id <NSVisualTabPickerDelegate> _delegate;
-    _Bool _shouldStackThumbnails;
-    _Bool _tabsShouldBeClosable;
-    _Bool _addingNewTab;
-    NSImage *_titlebarSnapshot;
-    _Bool _shouldShowNewTabButton;
-    _Bool _shouldHighlightTiles;
-    _Bool _shouldShowCloseButtons;
-    _Bool _isClosing;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)determine DTProductType;
+- (void)get current SOC Generation string;
+- (void)Allocation failed for IOSurface dictionary.;
+- (id)ppleBCMWLANBusInterfacePCIe:(id)arg1 wifi-module-sn;
+- (void)CFDataGetBytePtr;
+- (id)ceTree failed;
+- (void)irmwareSecurityInfo returned NULL;
+- (_Bool):(id)arg1 No kIOMediaSizeKey found for disk0!;
 - (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (double);
-- (_Bool);
-- (void);
-- (double);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)ysConfig3DeleteMetadataEntryForKey(struct __SysConfig3 *__single, const char *__single __terminated_by(0));
+- (_Bool)ode->uniqueID is NULL or 0 size;
+- (void)any valid DER.;
+- (double)d for property 0x%llX;
+- (void)OceanComputeCarrierSlot;
+- (_Bool)odeFDRDataClass(const MGSysConfigPolicy_s *, const MGAPTicket_s *, CFDataRef, CFDataRef, CFDataRef);
+- (_Bool)symbols. _AMFDRSealingMapCopyInstanceForClass_fn %p;
+- (_Bool)e 'aptk';
+- (_Bool)mg4DecodeInitManifest failed with code %d (0x%X);
+- (_Bool):%@. It is not allowed to be loaded. /* Error: Ran out of types for this method. */;
+- (_Bool)llScalarMethod kAppleNVMeEANGetSize returned 0x%X);
+- (void)FindMy;
+- (void)7zSkleuS91WkyAuEEH7p2g;
+- (void)KB9enYow;
+- (void)A;
+- (void)T2/HE8oi/4LaOI+Sw;
+- (void)GXP06xOw;
 - (void);
 - (id);
 - (void);
@@ -81,40 +64,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)80@88Q96B104@?108;
+- (void)setResumeCallback: /* Error: Ran out of types for this method. */;
+- (id)_unsafeAllowedInEarlyData;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)closeRead;
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool)emoveHeartBeatView: /* Error: Ran out of types for this method. */;
-- (void)ibutes: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setRenderingAttribute:(id)arg1 value:forTextRange: /* Error: Ran out of types for this method. */;
+- (_Bool)removeHeartBeatView: /* Error: Ran out of types for this method. */;
+- (void)initWithCurrentLayoutAttributes: /* Error: Ran out of types for this method. */;
 - (void)cessibility operation.;
 - (void)tentUIStorageService elideAllWriting];
 - (_Bool)´ÿ~hxÿ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAddingNewTab) _Bool addingNewTab; // @synthesize addingNewTab=_addingNewTab;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <NSVisualTabPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isClosing; // @synthesize isClosing=_isClosing;
-@property(nonatomic) _Bool shouldHighlightTiles; // @synthesize shouldHighlightTiles=_shouldHighlightTiles;
-@property(nonatomic) _Bool shouldShowCloseButtons; // @synthesize shouldShowCloseButtons=_shouldShowCloseButtons;
-@property(nonatomic) _Bool shouldShowNewTabButton; // @synthesize shouldShowNewTabButton=_shouldShowNewTabButton;
-@property(nonatomic) _Bool shouldStackThumbnails; // @synthesize shouldStackThumbnails=_shouldStackThumbnails;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool tabsShouldBeClosable; // @synthesize tabsShouldBeClosable=_tabsShouldBeClosable;
-@property(retain, nonatomic) NSImage *titlebarSnapshot; // @synthesize titlebarSnapshot=_titlebarSnapshot;
 
 @end
 

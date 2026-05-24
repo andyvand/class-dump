@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)esolveEnableAutoModeForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
++ (long long)resolveEnableAutoModeForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)FocusStatusIntentExport;
+- (id)INShareFocusStatusIntentExport;
 
 @end
 

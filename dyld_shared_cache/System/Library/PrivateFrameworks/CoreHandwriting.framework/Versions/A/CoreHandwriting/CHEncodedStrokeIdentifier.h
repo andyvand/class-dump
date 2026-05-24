@@ -9,15 +9,14 @@
 @interface CHEncodedStrokeIdentifier
 {
     unsigned long long _savedHash;
-    NSData *_encodedStrokeIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)_extendRect:byRect: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)timeout:(id)arg1 %@ seconds;
 - (id);
 - (id);
 - (void);

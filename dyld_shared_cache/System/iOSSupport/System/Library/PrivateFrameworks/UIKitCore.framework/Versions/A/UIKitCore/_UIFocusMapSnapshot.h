@@ -4,62 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableArray, NSString, UIFocusSystem, _UIFocusMapRect, _UIFocusMovementInfo, _UIFocusRegion, _UIFocusSearchInfo;
-@protocol UICoordinateSpace, _UIFocusRegionContainer;
+@class NSMutableArray, _UIFocusSearchInfo;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusMapSnapshot
 {
     NSMutableArray *_mutableUnoccludedRegions;
-    NSHashTable *_filteredOriginalRegions;
-    struct __CFDictionary *_subregionToRegionMap;
-    struct __CFDictionary *_regionToOccludingRegionsMap;
-    struct __CFDictionary *_regionToFocusItemCache;
-    struct __CFDictionary *_regionFrameCache;
-    NSMutableArray *_stateStack;
-    NSHashTable *_eligibleEnvironments;
-    NSHashTable *_ineligibleEnvironments;
-    NSHashTable *_uncachableEnvironments;
-    NSArray *_regions;
-    NSHashTable *_visitedRegionContainers;
-    struct {
-        unsigned int didCaptureSnapshot:1;
-        unsigned int isSearchingRegionsOfInterestContainer:1;
-        unsigned int clipToSnapshotRect:1;
-        unsigned int ignoresRootContainerClippingRect:1;
-    } _flags;
-    UIFocusSystem *_focusSystem;
-    id <_UIFocusRegionContainer> _rootContainer;
-    _UIFocusMapRect *_mapArea;
-    _UIFocusRegion *_focusedRegion;
-    id <_UIFocusRegionContainer> _regionsContainer;
-    _UIFocusSearchInfo *_searchInfo;
-    _UIFocusMovementInfo *_movementInfo;
-    _UIFocusMapRect *_searchArea;
 }
 
 - (struct CGRect);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)"TUConversation"24@"TUConversationActivityEvent"32;
+- (id)8Q16Q24@32@40@48@?56;
+- (id)updatePendingReviewForChatsWithGUIDs:(id)arg1 pendingReview:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)updatePendingReviewForChatsWithGUIDs:pendingReview:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)setAllowSelfRemoval:(id)arg1;
+- (id)service:(id)arg1 didFlushCacheForRemoteURI:fromURI:guid: /* Error: Ran out of types for this method. */;
+- (id)scheduleFullReindexWithContext:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)relayMessageToPeers:forChat:serviceName:reflectOnly:requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
+- (_Bool)createRecoverableMessageZoneIfNeededWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)chatForIncomingMessageContext:createIfNotExists: /* Error: Ran out of types for this method. */;
+- (void)_ckSyncController;
+- (void)_TtC12IMDaemonCore28IMDaemonCoreSpotlightManager;
+- (void)IMDReparentingMonitor;
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)e from %@ to %@ error %@;
+- (void)MMS dictionary uploaded complected with success:%@ and error %@ /* Error: Ran out of types for this method. */;
+- (id)private.alloy.sms.watch;
+- (id)om.apple.IMDaemonCore.IMDCollaborationNoticeController.MappingHighlightsToChatsQueue;
 - (id);
 - (id);
 - (void);
@@ -73,25 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)"Ë;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak UIFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(readonly, copy, nonatomic) _UIFocusRegion *focusedRegion; // @synthesize focusedRegion=_focusedRegion;
-@property(readonly, nonatomic) _Bool hasOnlyStaticContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIFocusMapRect *mapArea; // @synthesize mapArea=_mapArea;
-@property(retain, nonatomic) _UIFocusMovementInfo *movementInfo; // @synthesize movementInfo=_movementInfo;
-@property(readonly, copy, nonatomic) NSArray *originalRegions;
-@property(readonly, copy, nonatomic) NSArray *regions;
-@property(readonly, nonatomic) __weak id <_UIFocusRegionContainer> regionsContainer; // @synthesize regionsContainer=_regionsContainer;
-@property(readonly, nonatomic) __weak id <_UIFocusRegionContainer> rootContainer; // @synthesize rootContainer=_rootContainer;
-@property(readonly, nonatomic, getter=_searchArea) _UIFocusMapRect *searchArea; // @synthesize searchArea=_searchArea;
 @property(retain, nonatomic) _UIFocusSearchInfo *searchInfo; // @synthesize searchInfo=_searchInfo;
-@property(readonly) Class superclass;
 
 @end
 

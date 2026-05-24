@@ -6,44 +6,39 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSRewrittenUtterancesReportedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_rewrittenUtterances;
-    _Bool _hasLinkId;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
+- (void)T;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)turned no errors. ;
+- (void).;
+- (id)classActionsForService:willEnable:shouldCreate:withWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)UI.FMMUpdate;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)e the message was received before the chat was marked as known;
+- (id);
 - (id);
-- (id);
-- (id)nConnectedDeviceWakeContext;
+- (id)_hasDarwinConnectedDeviceWakeContext;
 - (id)_srstClientEvent;
-- (void)E_FR_CA;
+- (void)LOCALE_FR_CA;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *rewrittenUtterances; // @synthesize rewrittenUtterances=_rewrittenUtterances;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (TRIUtils)
-+ (_Bool);
-+ (_Bool);
++ (_Bool)imageByColorMatchingColorSpaceToWorkingSpace:(id)arg1;
++ (_Bool)imageByApplyingTransform:(id)arg1;
 @end
 

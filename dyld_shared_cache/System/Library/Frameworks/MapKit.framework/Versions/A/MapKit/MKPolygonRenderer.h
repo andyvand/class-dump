@@ -11,20 +11,18 @@
 @interface MKPolygonRenderer : MKOverlayPathRenderer
 {
     VKVectorOverlayPolygonGroup *_vectorData;
-    double _strokeStart;
-    double _strokeEnd;
 }
 
 + (Class);
 + (_Bool);
-- (id);
-- (void);
+- (id)ientID:(id)arg1 _xpcConnection=%@;
+- (void)e=%@;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -35,18 +33,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)NFaceAttributes";
 - (void);
 - (id);
+- (void)endLoc;
 - (void);
-- (void);
-- (void)r;
-- (void)ghtMouseDownEvent;
+- (void)owner;
+- (void)_isInRightMouseDownEvent;
 
 // Remaining properties
 @property(readonly, nonatomic) MKPolygon *polygon;
-@property(nonatomic) double strokeEnd;
-@property(nonatomic) double strokeStart;
 
 @end
 

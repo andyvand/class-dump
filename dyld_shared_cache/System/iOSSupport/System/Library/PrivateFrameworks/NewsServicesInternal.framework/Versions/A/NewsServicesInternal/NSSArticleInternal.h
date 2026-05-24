@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, UIImage;
+@class UIImage;
 
 @interface NSSArticleInternal
 {
     UIImage *_thumbnailImage;
-    UIImage *_publisherLogoImage;
-    UIImage *_publisherLogoMaskImage;
-    NSString *_title;
-    NSString *_shortExcerpt;
-    NSDate *_publishDate;
-    NSString *_publisherName;
 }
 
 + (_Bool);
@@ -37,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;
-@property(readonly, nonatomic) UIImage *publisherLogoImage; // @synthesize publisherLogoImage=_publisherLogoImage;
-@property(readonly, nonatomic) UIImage *publisherLogoMaskImage; // @synthesize publisherLogoMaskImage=_publisherLogoMaskImage;
-@property(readonly, nonatomic) NSString *publisherName; // @synthesize publisherName=_publisherName;
-@property(readonly, nonatomic) NSString *shortExcerpt; // @synthesize shortExcerpt=_shortExcerpt;
 @property(readonly, nonatomic) UIImage *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

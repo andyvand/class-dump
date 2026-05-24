@@ -6,19 +6,17 @@
 
 #import <DiagnosticRequestService/DRSSubmitLogRequestMO.h>
 
-@class NSData, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface DRSSubmitRapidLogRequestMO : DRSSubmitLogRequestMO
 {
 }
 
-+ (id);
++ (id)recentlyDeletedList;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *cfDidSucceed; // @dynamic cfDidSucceed;
-@property(copy, nonatomic) NSString *cfFailureReason; // @dynamic cfFailureReason;
-@property(retain, nonatomic) NSData *cfReplyPayload; // @dynamic cfReplyPayload;
 
 @end
 

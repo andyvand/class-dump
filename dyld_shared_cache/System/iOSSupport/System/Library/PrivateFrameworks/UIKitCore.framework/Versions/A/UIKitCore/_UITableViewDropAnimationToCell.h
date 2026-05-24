@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)_UIZoomTransitionControllerCSgXwz_Xx;
+- (void)So27_UIZoomTransitionControllerCSgXwz_Xx;
 
 // Remaining properties
 @property(nonatomic) __weak UITableViewCell *cell; // @synthesize cell=_cell;

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol ABPopUpButtonDelegate;
 
 @interface ABPopUpButton
@@ -18,21 +17,14 @@
 - (_Bool);
 - (double);
 - (void);
-- (id);
+- (id)appendCGPoint:counterpart: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (struct NSEdgeInsets);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ABPopUpButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

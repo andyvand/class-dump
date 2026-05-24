@@ -28,19 +28,6 @@
         int _field19;
         long long _field20;
     } *mFreeListFile;
-    unsigned long long mPWFileLen;
-    struct PWFileHeader mPWFileHeader;
-    unsigned char mPWFileValidated;
-    char mPWFilePermission[10];
-    struct _CCRSACryptor *rsaKey;
-    _Bool mGotHeader;
-    char *mDirPathStr;
-    _Bool mReadOnlyFileSystem;
-    unsigned int mKerberosCacheLimit;
-    char *mSearchBase;
-    long long mPWHdrLastMod;
-    struct ldap *mLdap;
-    char *mRealm;
 }
 
 - (int);
@@ -83,7 +70,7 @@
 - (int);
 - (char *);
 - (void);
-- (int);
+- (int)C;
 - (int);
 - (void);
 - (int);

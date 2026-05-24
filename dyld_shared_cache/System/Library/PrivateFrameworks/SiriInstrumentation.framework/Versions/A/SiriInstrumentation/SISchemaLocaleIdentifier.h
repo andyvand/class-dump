@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaLocaleIdentifier : SISchemaInstrumentationMessage
 {
     NSString *_countryCode;
-    NSString *_languageCode;
-    _Bool _hasCountryCode;
-    _Bool _hasLanguageCode;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)c;
 - (void);
-- (unsigned long long);
+- (unsigned long long)rVersionsCount;
+- (_Bool)edMeContactCommand.m;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ata_detected INTEGER DEFAULT 0, was_deduplicated INTEGER DEFAULT 0, is_audio_message INTEGER DEFAULT 0, is_played INTEGER DEFAULT 0, date_played INTEGER, item_type INTEGER DEFAULT 0, other_handle INTEGER DEFAULT -1, group_title TEXT, group_action_type INTEGER DEFAULT 0, share_status INTEGER, share_direction INTEGER, is_expirable INTEGER DEFAULT 0, expire_state INTEGER DEFAULT 0, message_action_type INTEGER DEFAULT 0, message_source INTEGER DEFAULT 0);;
 - (void);
 - (id);
 - (id);
-- (id)n: /* Error: Ran out of types for this method. */;
-- (id)ount;
-- (id)liseconds;
-- (void)SessionId;
+- (id)setAppUsageCountForEntityFromSiri10Min: /* Error: Ran out of types for this method. */;
+- (id)deleteCompletedUITaskCount;
+- (id)_endMilliseconds;
+- (void)deleteSessionId;
 - (_Bool)ts;
-- (void)tSampleRate;
+- (void)formatSampleRate;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(nonatomic) _Bool hasCountryCode; // @synthesize hasCountryCode=_hasCountryCode;
-@property(nonatomic) _Bool hasLanguageCode; // @synthesize hasLanguageCode=_hasLanguageCode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
 
 @end
 

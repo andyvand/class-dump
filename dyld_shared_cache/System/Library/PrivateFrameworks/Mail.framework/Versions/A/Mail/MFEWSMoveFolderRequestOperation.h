@@ -6,34 +6,30 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class MFEWSGetFolderResponseOperation, NSArray, NSString;
+@class MFEWSGetFolderResponseOperation, NSString;
 
 @interface MFEWSMoveFolderRequestOperation : MFEWSRequestOperation
 {
     NSString *_destinationEWSFolderIdString;
-    NSArray *_originEWSFolderIdStrings;
-    MFEWSGetFolderResponseOperation *_changeKeysResponse;
 }
 
-+ (_Bool);
++ (_Bool)<;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id))	ka;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MFEWSGetFolderResponseOperation *changeKeysResponse; // @synthesize changeKeysResponse=_changeKeysResponse;
-@property(readonly, copy, nonatomic) NSString *destinationEWSFolderIdString; // @synthesize destinationEWSFolderIdString=_destinationEWSFolderIdString;
-@property(readonly, copy, nonatomic) NSArray *originEWSFolderIdStrings; // @synthesize originEWSFolderIdStrings=_originEWSFolderIdStrings;
 
 @end
 

@@ -4,33 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface EKCalendarEventInvitationNotificationAttendee
 {
     _Bool _statusChanged;
-    _Bool _commentChanged;
-    _Bool _proposedStartDateChanged;
-    _Bool _proposedStartDateDeclined;
-    _Bool _isCurrentUser;
-    NSString *_name;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_emailAddress;
-    NSString *_phoneNumber;
-    NSURL *_URL;
-    long long _participantType;
-    long long _participantStatus;
-    NSString *_comment;
-    NSDate *_proposedStartDate;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)ic}@ UpdatingCache:clearing formatted remote artworks for %@ /* Error: Ran out of types for this method. */;
+- (id)ng XPC endpoint. Will retry. %{public}@;
+- (_Bool)blic}@ for endpoint %{public}@;
+- (_Bool)ice is not paired;
+- (_Bool)associatedParticipantIdentifier;
+- (long long)provideFeedbackOnPayloadOutcome:cacheIdentifier:clearCache:completion: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (id);
@@ -45,36 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSString *comment; // @synthesize comment=_comment;
-@property(readonly, nonatomic) _Bool commentChanged; // @synthesize commentChanged=_commentChanged;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCurrentUser; // @synthesize isCurrentUser=_isCurrentUser;
-@property(readonly, nonatomic) _Bool isCurrentUserForScheduling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCurrentUserForSharing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long participantStatus; // @synthesize participantStatus=_participantStatus;
-@property(readonly, nonatomic) long long participantType; // @synthesize participantType=_participantType;
-@property(readonly, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly, nonatomic) NSDate *proposedStartDate; // @synthesize proposedStartDate=_proposedStartDate;
-@property(readonly, nonatomic) _Bool proposedStartDateChanged; // @synthesize proposedStartDateChanged=_proposedStartDateChanged;
-@property(readonly, nonatomic) _Bool proposedStartDateDeclined; // @synthesize proposedStartDateDeclined=_proposedStartDateDeclined;
-@property(readonly, nonatomic) _Bool statusChanged; // @synthesize statusChanged=_statusChanged;
-@property(readonly) Class superclass;
 
 @end
 

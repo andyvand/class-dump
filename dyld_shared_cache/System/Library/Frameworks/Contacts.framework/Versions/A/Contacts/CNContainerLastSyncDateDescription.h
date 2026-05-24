@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)creationDateForSignpost: /* Error: Ran out of types for this method. */;
+- (_Bool)teXPCStart:] /* Error: Ran out of types for this method. */;
 - (Class)ù1*ð1Â0@ù
 × ;
 

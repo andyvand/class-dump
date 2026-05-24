@@ -7,18 +7,10 @@
 @interface NewsFeed.DebugFormatSelectionView
 {
     id contentFrame;
-    id contentView;
-    id topLeftView;
-    id topRightView;
-    id bottomLeftView;
-    id bottomRightView;
-    id borderView;
-    id cornerSize;
-    id selection;
 }
 
-- (id);
-- (void);
+- (id)CodingKeys;
+- (void)SUZipWriter beginEntryWithNameImpl:size:CRC:] /* Error: Ran out of types for this method. */;
 - (id)¡îÐ!ÐGùÿ1Â0@ù
 × ;
 - (void)¬#Ô#x$ì&h';

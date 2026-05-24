@@ -7,8 +7,6 @@
 @interface NewsPersonalization.ExternalSignalAutoFavoritesProvider
 {
     id tagSuggestionsDataService;
-    id bundleIdMappingProvider;
-    id urlMappingProvider;
 }
 
 @end

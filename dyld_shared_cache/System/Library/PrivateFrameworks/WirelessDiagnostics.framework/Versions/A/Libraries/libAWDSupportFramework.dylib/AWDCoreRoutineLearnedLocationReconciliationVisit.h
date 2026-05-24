@@ -4,50 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineLearnedLocationReconciliationVisit
 {
     unsigned long long _timestamp;
-    NSMutableArray *_alternativeVisits;
-    int _datapointCount;
-    int _deviceClass;
-    int _percentageTransitions;
-    int _percentageVisits;
-    int _placeLabelType;
-    int _placeType;
-    _Bool _didUnlock;
-    _Bool _newPlace;
-    _Bool _placeAOIPOI;
-    _Bool _watchPresent;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int datapointCount:1;
-        unsigned int deviceClass:1;
-        unsigned int percentageTransitions:1;
-        unsigned int percentageVisits:1;
-        unsigned int placeLabelType:1;
-        unsigned int placeType:1;
-        unsigned int didUnlock:1;
-        unsigned int newPlace:1;
-        unsigned int placeAOIPOI:1;
-        unsigned int watchPresent:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)T;
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -59,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -71,13 +45,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)"@�;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -89,10 +63,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	*;
 - (int);
-- (void);
-- (int)umStall;
+- (void)validateSelection:(int)arg1;
+- (int)_numStall;
 - (_Bool)K;
 - (_Bool)ÿiâo 
 ;
@@ -100,29 +74,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *alternativeVisits; // @synthesize alternativeVisits=_alternativeVisits;
-@property(nonatomic) int datapointCount; // @synthesize datapointCount=_datapointCount;
-@property(nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) _Bool didUnlock; // @synthesize didUnlock=_didUnlock;
-@property(nonatomic) _Bool hasDatapointCount;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasDidUnlock;
-@property(nonatomic) _Bool hasNewPlace;
-@property(nonatomic) _Bool hasPercentageTransitions;
-@property(nonatomic) _Bool hasPercentageVisits;
-@property(nonatomic) _Bool hasPlaceAOIPOI;
-@property(nonatomic) _Bool hasPlaceLabelType;
-@property(nonatomic) _Bool hasPlaceType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasWatchPresent;
-@property(nonatomic) _Bool newPlace; // @synthesize newPlace=_newPlace;
-@property(nonatomic) int percentageTransitions; // @synthesize percentageTransitions=_percentageTransitions;
-@property(nonatomic) int percentageVisits; // @synthesize percentageVisits=_percentageVisits;
-@property(nonatomic) _Bool placeAOIPOI; // @synthesize placeAOIPOI=_placeAOIPOI;
-@property(nonatomic) int placeLabelType; // @synthesize placeLabelType=_placeLabelType;
-@property(nonatomic) int placeType; // @synthesize placeType=_placeType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) _Bool watchPresent; // @synthesize watchPresent=_watchPresent;
 
 @end
 

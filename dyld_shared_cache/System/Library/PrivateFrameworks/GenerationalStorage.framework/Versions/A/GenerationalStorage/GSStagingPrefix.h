@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface GSStagingPrefix
 {
     unsigned char _volumeUUID[16];
-    int _deviceID;
-    NSString *_path;
-    NSArray *_pathComponents;
-    NSData *_extension;
-    long long _sandboxHandle;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)�;
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)SiriKitListPosition",&,N;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_nudgeMediaDataRequesterIfAppropriate: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface BWMotionDataTimeMachine
 {
     NSMutableArray *_cache;
-    NSArray *_motionMetadataKeys;
-    NSArray *_sampleBufferAttachmentKeys;
-    unsigned long long _earliestAvailableMotionDataSerialNumber;
-    unsigned long long _latestAvailableMotionDataSerialNumber;
-    unsigned long long _capacity;
-    _Bool _synchronizedSlaveMotionDataCachingEnabled;
-    _Bool _cacheEntireMetadataDictionary;
-    struct OpaqueFigSimpleMutex *_propertyMutex;
 }
 
 + (void)input index in track reference list for %@ inputs;
-- (_Bool);
+- (_Bool)kC;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -30,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long earliestAvailableMotionDataSerialNumber;
-@property(readonly) unsigned long long latestAvailableMotionDataSerialNumber;
 @property(readonly) _Bool synchronizedSlaveMotionDataCachingEnabled;
 
 @end

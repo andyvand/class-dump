@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CRKFetchInstructorEndpointRequest
 {
     NSURL *_classroomAppBundleURL;
-    NSString *_instructordBundleIdentifier;
 }
 
 + (Class);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *classroomAppBundleURL; // @synthesize classroomAppBundleURL=_classroomAppBundleURL;
-@property(copy, nonatomic) NSString *instructordBundleIdentifier; // @synthesize instructordBundleIdentifier=_instructordBundleIdentifier;
 
 @end
 

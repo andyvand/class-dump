@@ -5,5 +5,8 @@
 //
 
 @protocol _WKWebsiteDataStoreDelegate
+
+@optional
+- (void);
 @end
 

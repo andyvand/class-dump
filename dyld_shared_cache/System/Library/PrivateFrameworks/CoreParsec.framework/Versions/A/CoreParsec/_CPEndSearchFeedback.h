@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPEndSearchFeedback
 {
     unsigned long long _timestamp;
-    NSString *_uuid;
 }
 
 - (void);
@@ -19,22 +16,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)ۏ;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -6,41 +6,33 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkCellularDeclaration_AttachAPN : CEMPayloadBase
 {
     NSString *_payloadName;
-    NSString *_payloadAuthenticationType;
-    NSString *_payloadUsername;
-    NSString *_payloadPassword;
-    NSNumber *_payloadAllowedProtocolMask;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)__data;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (_Bool)%@, Supported Languages %@, Age:(id)arg1 %li, Gender:(id *)arg2 %li, Size:%lli, Version:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)H-CAMELLIA128-SHA;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadAllowedProtocolMask; // @synthesize payloadAllowedProtocolMask=_payloadAllowedProtocolMask;
-@property(copy, nonatomic) NSString *payloadAuthenticationType; // @synthesize payloadAuthenticationType=_payloadAuthenticationType;
 @property(copy, nonatomic) NSString *payloadName; // @synthesize payloadName=_payloadName;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
-@property(copy, nonatomic) NSString *payloadUsername; // @synthesize payloadUsername=_payloadUsername;
 
 @end
 

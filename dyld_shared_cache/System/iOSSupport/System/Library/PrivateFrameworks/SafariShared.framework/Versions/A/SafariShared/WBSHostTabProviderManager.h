@@ -9,10 +9,9 @@
 @interface WBSHostTabProviderManager
 {
     NSMapTable *_providerMapTable;
-    NSMapTable *_hostTabMapTable;
 }
 
-+ (id);
++ (id)T`;
 - (void);
 - (void);
 - (id);

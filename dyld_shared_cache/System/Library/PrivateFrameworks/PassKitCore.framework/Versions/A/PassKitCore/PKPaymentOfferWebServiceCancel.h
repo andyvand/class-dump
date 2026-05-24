@@ -6,18 +6,11 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKPaymentOfferWebServiceCancel : PKPaymentOfferWebServiceRequest
 {
     NSURL *_baseURL;
-    NSString *_criteriaIdentifier;
-    NSString *_selectedOfferIdentifier;
-    NSString *_sessionIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSString *_dpanIdentifier;
-    NSString *_fpanIdentifier;
 }
 
 - (void);
@@ -28,26 +21,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)werSave"b1"percentageWcpsDisabled"b1"percentageWcpsEnabled"b1"percentageWcpsReduced"b1"timestamp"b1};
 - (void)o - Shinjuku;
-- (void)cimal_amount;
-- (id)TRANSIT_EDUCATION_BODY_LPEM_D79_DISABLEABLE;
+- (void)decimal_amount;
+- (id)EXPRESS_TRANSIT_EDUCATION_BODY_LPEM_D79_DISABLEABLE;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(copy, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(copy, nonatomic) NSString *selectedOfferIdentifier; // @synthesize selectedOfferIdentifier=_selectedOfferIdentifier;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue, SFLocalSpeechRecognitionDelegate;
 
 @interface SFLocalSpeechRecognitionClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_lsrConnection;
-    NSError *_connectionUnavailableError;
-    CDUnknownBlockType _downloadProgress;
-    CDUnknownBlockType _downloadCompletion;
-    _Bool _recognitionActive;
-    id <SFLocalSpeechRecognitionDelegate> _delegate;
 }
 
 + (void);
@@ -28,28 +22,30 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (oneway void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (oneway void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
-- (oneway void);
+- (void)
+;
 - (void);
 - (void);
 - (void);
@@ -68,25 +64,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)*4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <SFLocalSpeechRecognitionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

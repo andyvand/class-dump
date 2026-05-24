@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSUUID, RTLearnedLocationOfInterestMO;
+@class NSNumber;
 
 @interface RTLearnedLocationOfInterestVisitMO
 {
 }
 
++ (id)client_latency_ms;
 + (id);
-+ (id);
-+ (id);
++ (id)ctionIndex:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *confidence; // @dynamic confidence;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(copy, nonatomic) NSNumber *dataPointCount; // @dynamic dataPointCount;
-@property(copy, nonatomic) NSDate *entryDate; // @dynamic entryDate;
-@property(copy, nonatomic) NSDate *exitDate; // @dynamic exitDate;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(retain, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSNumber *locationAltitude; // @dynamic locationAltitude;
-@property(copy, nonatomic) NSNumber *locationHorizontalUncertainty; // @dynamic locationHorizontalUncertainty;
-@property(copy, nonatomic) NSNumber *locationLatitude; // @dynamic locationLatitude;
-@property(copy, nonatomic) NSNumber *locationLongitude; // @dynamic locationLongitude;
-@property(retain, nonatomic) RTLearnedLocationOfInterestMO *locationOfInterest; // @dynamic locationOfInterest;
-@property(copy, nonatomic) NSNumber *locationOfInterestConfidence; // @dynamic locationOfInterestConfidence;
-@property(copy, nonatomic) NSNumber *locationOfInterestSource; // @dynamic locationOfInterestSource;
-@property(copy, nonatomic) NSNumber *locationReferenceFrame; // @dynamic locationReferenceFrame;
-@property(copy, nonatomic) NSNumber *locationSourceAccuracy; // @dynamic locationSourceAccuracy;
-@property(copy, nonatomic) NSNumber *locationVerticalUncertainty; // @dynamic locationVerticalUncertainty;
 
 @end
 

@@ -4,7 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CHRecentCall, NSArray, NSNumber, NSString;
+
 @protocol CallHistoryDBClientHandleProtocol
+- (NSArray *);
+- (_Bool)ecordChange"24@0:(NSArray *)arg1 8@"PLCollectionShare"16;
+- (CHRecentCall *)_wildcardMatchResults;
+- (_Bool)_inq_rebuildAnalyticsSetupAndPublishWithLibrary:(NSString *)arg1 rebuildType:(id *)arg2 rebuildInitiatedBy:rebuildReasons:spotlightReasonForReindexingAllItems: /* Error: Ran out of types for this method. */;
+- (NSArray *)PLDeferredProcessingServiceHandler;
+- (NSNumber *)ing original resource.;
+- (_Bool)owned share %@;
+- (_Bool)yManager fetchResourcesForAsset:(NSArray *)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (NSNumber *);
+- (unsigned long long);
+- (_Bool)8d16i24;
+- (_Bool)(	G	;
 - (_Bool),;
 - (unsigned long long)ÿ;
 @end

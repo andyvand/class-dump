@@ -8,9 +8,6 @@
 {
     id _top;
     id _leading;
-    id _bottom;
-    id _trailing;
-    id _$observationRegistrar;
 }
 
 @end

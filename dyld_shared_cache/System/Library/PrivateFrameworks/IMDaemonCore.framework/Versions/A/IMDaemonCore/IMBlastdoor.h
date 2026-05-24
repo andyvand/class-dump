@@ -9,14 +9,14 @@
 }
 
 + (_Bool);
-+ (void);
++ (void);
 + (long long);
 + (void);
 + (id);
 + (id);
 + (_Bool);
 + (void);
-+ (id);
++ (id)Q;
 + (void);
 + (_Bool);
 + (void);

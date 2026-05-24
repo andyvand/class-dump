@@ -9,29 +9,23 @@
 @interface TSTTableStrokePresetData
 {
     TSDStroke *mHorizontalStroke;
-    TSDStroke *mVerticalStroke;
-    TSDStroke *mExteriorStroke;
-    unsigned int mVisibleMask;
 }
 
+- (id)atus"8@"NSError"16;
+- (void)ge;
+- (void)avSegmentsDownloadedDuration;
+- (void)amp.mediaplayer.playperf.FirstItem;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)decodingTypeMismatch;
 - (unsigned int);
-- (void)herButtonTitle:(unsigned int)arg1 otherOtherButtonTitle: /* Error: Ran out of types for this method. */;
+- (void)initWithTitle:(unsigned int)arg1 message:cancelButtonTitle:otherButtonTitle:otherOtherButtonTitle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) TSDStroke *exteriorStroke; // @synthesize exteriorStroke=mExteriorStroke;
 @property(retain, nonatomic) TSDStroke *horizontalStroke; // @synthesize horizontalStroke=mHorizontalStroke;
-@property(nonatomic) unsigned int mask; // @synthesize mask=mVisibleMask;
-@property(retain, nonatomic) TSDStroke *verticalStroke; // @synthesize verticalStroke=mVerticalStroke;
 
 @end
 

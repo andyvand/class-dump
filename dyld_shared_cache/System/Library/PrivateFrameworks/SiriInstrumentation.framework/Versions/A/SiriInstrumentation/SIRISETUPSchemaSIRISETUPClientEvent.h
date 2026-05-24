@@ -6,31 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SIRISETUPSchemaSIRISETUPClientEventMetadata, SIRISETUPSchemaSIRISETUPCoreFollowUpPosted, SIRISETUPSchemaSIRISETUPOnboardingStarted, SIRISETUPSchemaSIRISETUPPHSEnrollmentDigitalZeroDetectionCompleted, SIRISETUPSchemaSIRISETUPPHSEnrollmentSessionSummary, SIRISETUPSchemaSIRISETUPPHSEnrollmentUICompleted, SIRISETUPSchemaSIRISETUPPHSEnrollmentUIStarted, SIRISETUPSchemaSIRISETUPPHSEnrollmentUIUtteranceTrainingAttempted, SIRISETUPSchemaSIRISETUPPHSEnrollmentUtteranceCompleted, SIRISETUPSchemaSIRISETUPPHSEnrollmentUtteranceDetected, SISchemaInstrumentationMessage;
+@class SIRISETUPSchemaSIRISETUPClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface SIRISETUPSchemaSIRISETUPClientEvent : SISchemaTopLevelUnionType
 {
     SIRISETUPSchemaSIRISETUPClientEventMetadata *_eventMetadata;
-    SIRISETUPSchemaSIRISETUPPHSEnrollmentDigitalZeroDetectionCompleted *_enrollmentZeroDetectionCompleted;
-    SIRISETUPSchemaSIRISETUPPHSEnrollmentUtteranceCompleted *_enrollmentUtteranceCompleted;
-    SIRISETUPSchemaSIRISETUPPHSEnrollmentUtteranceDetected *_enrollmentUtteranceDetected;
-    SIRISETUPSchemaSIRISETUPPHSEnrollmentUIStarted *_enrollmentUIStarted;
-    SIRISETUPSchemaSIRISETUPPHSEnrollmentUIUtteranceTrainingAttempted *_enrollmentUIUtteranceTrainingAttempted;
-    SIRISETUPSchemaSIRISETUPPHSEnrollmentUICompleted *_enrollmentUICompleted;
-    SIRISETUPSchemaSIRISETUPPHSEnrollmentSessionSummary *_sessionSummary;
-    SIRISETUPSchemaSIRISETUPOnboardingStarted *_onboardingStarted;
-    SIRISETUPSchemaSIRISETUPCoreFollowUpPosted *_coreFollowUpPosted;
-    _Bool _hasEventMetadata;
-    _Bool _hasEnrollmentZeroDetectionCompleted;
-    _Bool _hasEnrollmentUtteranceCompleted;
-    _Bool _hasEnrollmentUtteranceDetected;
-    _Bool _hasEnrollmentUIStarted;
-    _Bool _hasEnrollmentUIUtteranceTrainingAttempted;
-    _Bool _hasEnrollmentUICompleted;
-    _Bool _hasSessionSummary;
-    _Bool _hasOnboardingStarted;
-    _Bool _hasCoreFollowUpPosted;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -46,13 +26,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -66,8 +46,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id)@9(;
 - (id);
 - (id);
 - (id);
@@ -85,50 +65,28 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)__TEXT;
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)with results %{public}@;
+- (_Bool);
+- (_Bool)N   SELECT verify_chat(NEW.guid); END;
 - (id);
-- (id);
+- (id)Y;
 - (id)ð!Cùqàð1Â0@ù
 × ;
-- (unsigned long long)leteSubSearchDomains;
-- (id)issPitchList;
+- (unsigned long long)deleteSubSearchDomains;
+- (id)clearNearMissPitchList;
 - (id)archCallHistoryIntent;
-- (int)rDisambiguationDecisionReported;
-- (void)TITYRESOLUTIONTYPE_MODEL_NONE;
+- (int)IDENTITYSchemaIDENTITYAskUserForDisambiguationDecisionReported;
+- (void)INFERENCEENTITYRESOLUTIONTYPE_MODEL_NONE;
 
 // Remaining properties
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPCoreFollowUpPosted *coreFollowUpPosted; // @synthesize coreFollowUpPosted=_coreFollowUpPosted;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPPHSEnrollmentUICompleted *enrollmentUICompleted; // @synthesize enrollmentUICompleted=_enrollmentUICompleted;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPPHSEnrollmentUIStarted *enrollmentUIStarted; // @synthesize enrollmentUIStarted=_enrollmentUIStarted;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPPHSEnrollmentUIUtteranceTrainingAttempted *enrollmentUIUtteranceTrainingAttempted; // @synthesize enrollmentUIUtteranceTrainingAttempted=_enrollmentUIUtteranceTrainingAttempted;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPPHSEnrollmentUtteranceCompleted *enrollmentUtteranceCompleted; // @synthesize enrollmentUtteranceCompleted=_enrollmentUtteranceCompleted;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPPHSEnrollmentUtteranceDetected *enrollmentUtteranceDetected; // @synthesize enrollmentUtteranceDetected=_enrollmentUtteranceDetected;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPPHSEnrollmentDigitalZeroDetectionCompleted *enrollmentZeroDetectionCompleted; // @synthesize enrollmentZeroDetectionCompleted=_enrollmentZeroDetectionCompleted;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCoreFollowUpPosted; // @synthesize hasCoreFollowUpPosted=_hasCoreFollowUpPosted;
-@property(nonatomic) _Bool hasEnrollmentUICompleted; // @synthesize hasEnrollmentUICompleted=_hasEnrollmentUICompleted;
-@property(nonatomic) _Bool hasEnrollmentUIStarted; // @synthesize hasEnrollmentUIStarted=_hasEnrollmentUIStarted;
-@property(nonatomic) _Bool hasEnrollmentUIUtteranceTrainingAttempted; // @synthesize hasEnrollmentUIUtteranceTrainingAttempted=_hasEnrollmentUIUtteranceTrainingAttempted;
-@property(nonatomic) _Bool hasEnrollmentUtteranceCompleted; // @synthesize hasEnrollmentUtteranceCompleted=_hasEnrollmentUtteranceCompleted;
-@property(nonatomic) _Bool hasEnrollmentUtteranceDetected; // @synthesize hasEnrollmentUtteranceDetected=_hasEnrollmentUtteranceDetected;
-@property(nonatomic) _Bool hasEnrollmentZeroDetectionCompleted; // @synthesize hasEnrollmentZeroDetectionCompleted=_hasEnrollmentZeroDetectionCompleted;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasOnboardingStarted; // @synthesize hasOnboardingStarted=_hasOnboardingStarted;
-@property(nonatomic) _Bool hasSessionSummary; // @synthesize hasSessionSummary=_hasSessionSummary;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPOnboardingStarted *onboardingStarted; // @synthesize onboardingStarted=_onboardingStarted;
-@property(retain, nonatomic) SIRISETUPSchemaSIRISETUPPHSEnrollmentSessionSummary *sessionSummary; // @synthesize sessionSummary=_sessionSummary;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

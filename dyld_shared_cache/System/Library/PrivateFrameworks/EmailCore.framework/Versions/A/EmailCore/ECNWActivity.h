@@ -5,19 +5,25 @@
 //
 
 @class NSObject;
-@protocol OS_nw_activity, OS_nw_connection;
+@protocol OS_nw_activity;
 
 @interface ECNWActivity
 {
     NSObject<OS_nw_activity> *_activity;
-    NSObject<OS_nw_connection> *_currentConnection;
 }
 
 + (void);
 + (void);
 - (void);
-- (void);
-- (id);
+- (void)ot valid. Ignoring layout.;
+- (id)racting:(unsigned int)arg1 %d
+	isPictureInPictureActive:(unsigned int)arg2 %d
+	playingOnExternalScreen:%d
+	audioOnlyContent:%d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

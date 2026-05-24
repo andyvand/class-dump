@@ -6,47 +6,42 @@
 
 #import <ChatKit/CKBalloonView.h>
 
-@class CKBalloonImageView, CKGradientView, UIView;
-@protocol CKGradientReferenceView;
+@class CKBalloonImageView;
 
 @interface CKColoredBalloonView : CKBalloonView
 {
     _Bool _wantsGradient;
-    CKGradientView *_gradientView;
-    UIView<CKGradientReferenceView> *_gradientReferenceView;
-    CKBalloonImageView *_mask;
-    CKBalloonImageView *_effectViewMask;
-    struct CGRect _gradientOverrideFrame;
 }
 
 + (Class);
-- (_Bool);
-- (_Bool);
+- (_Bool)_makeDecisionForMovingHTMLObjectsToHTMLDestination;
+- (_Bool)_localZoomFactorIndex;
+- (void)_buttonIdentifiersToTouchBarItems;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)itemCache;
+- (void)indexes;
+- (void)_currentRecordingManager;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CGRect);
-- (id);
-- (void);
+- (_Bool)h;
+- (_Bool)i;
+- (id)ock because note already has a lock — canceling;
+- (struct CGRect)mbnail;
+- (id)ICCalculateDocumentControllerRemoved;
+- (void)le Change;
 - (void);
 - (struct UIEdgeInsets);
 - (id);
-- (void);
-- (void);
+- (void)*
+;
+- (void)~;
 - (struct UIEdgeInsets);
 - (_Bool);
-- (void);
+- (void)`;
 - (struct CKBalloonDescriptor_t);
 - (void);
 - (id);
@@ -64,22 +59,15 @@
 - (id)Â0@ù
 × ;
 - (void)ransitionCoordinator"16q24q32;
-- (void)closingRange:(struct CGRect)arg1;
-- (void)ickerWithMSMessageMediaPayload:(id)arg1;
-- (void)ransparencyChanged: /* Error: Ran out of types for this method. */;
-- (id)nsertRichLinkWithURL:andData: /* Error: Ran out of types for this method. */;
-- (void)NOT_DONATED;
+- (void)textView:(struct CGRect)arg1 writingToolsIgnoredRangesInEnclosingRange: /* Error: Ran out of types for this method. */;
+- (void)stickerWithMSMessageMediaPayload:(id)arg1;
+- (void)keyTransparencyChanged: /* Error: Ran out of types for this method. */;
+- (id)insertRichLinkWithURL:andData: /* Error: Ran out of types for this method. */;
+- (void)MARKED_AS_NOT_DONATED;
 - (void)hó[;
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets balloonTypePillContentInsets;
-@property(retain, nonatomic) CKBalloonImageView *effectViewMask; // @synthesize effectViewMask=_effectViewMask;
-@property(nonatomic) struct CGRect gradientOverrideFrame; // @synthesize gradientOverrideFrame=_gradientOverrideFrame;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;
-@property(retain, nonatomic) CKGradientView *gradientView; // @synthesize gradientView=_gradientView;
-@property(readonly, nonatomic) _Bool hasBackground;
 @property(retain, nonatomic) CKBalloonImageView *mask; // @synthesize mask=_mask;
-@property(nonatomic) _Bool wantsGradient; // @synthesize wantsGradient=_wantsGradient;
 
 @end
 

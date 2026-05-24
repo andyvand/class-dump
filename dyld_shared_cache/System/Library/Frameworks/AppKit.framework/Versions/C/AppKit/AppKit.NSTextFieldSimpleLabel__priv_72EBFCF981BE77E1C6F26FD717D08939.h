@@ -9,13 +9,12 @@
 @interface AppKit.NSTextFieldSimpleLabel__priv_72EBFCF981BE77E1C6F26FD717D08939 : AppKit.NSSimpleLabel
 {
     id vibrancyBlendMode;
-    id textField;
 }
 
 - (int);
 - (id);
 - (id);
-- (id)ewUseConstraintBasedLayout;
+- (id)_splitViewUseConstraintBasedLayout;
 - (void)x¸fÿÆ@F;
 
 // Remaining properties

@@ -7,13 +7,14 @@
 #import <MailCore/MCQOSInvocation.h>
 
 @class MCActivityMonitor;
-@protocol MCActivityTarget;
 
 @interface MCMonitoredInvocation : MCQOSInvocation
 {
     MCActivityMonitor *_monitor;
 }
 
++ (id)!;
++ (id)!;
 + (id);
 + (id);
 + (id);
@@ -21,22 +22,19 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id);
+- (void)(;
 - (void);
 - (id);
 - (void);
+- (void)timeRangetGt;
+- (void)?kj;
 - (void);
-- (void);
-- (void);
-- (unsigned char)Hash;
+- (unsigned char)contentIDHash;
 - (id)chability changed! %{public}@ (%{public}@) is reachable with flags = %{public}@;
 
 // Remaining properties
 @property(retain, nonatomic) MCActivityMonitor *monitor;
-@property __weak id <MCActivityTarget> target;
 
 @end
 

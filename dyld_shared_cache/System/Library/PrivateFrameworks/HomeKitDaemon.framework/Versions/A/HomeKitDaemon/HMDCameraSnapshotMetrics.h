@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraMetricsSnapshotLogEvent, NSError;
+@class HMDCameraMetricsSnapshotLogEvent;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotMetrics
 {
     HMDCameraMetricsSnapshotLogEvent *_cameraSnapshotMetricsLogEvent;
-    NSError *_error;
 }
 
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDCameraMetricsSnapshotLogEvent *cameraSnapshotMetricsLogEvent; // @synthesize cameraSnapshotMetricsLogEvent=_cameraSnapshotMetricsLogEvent;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

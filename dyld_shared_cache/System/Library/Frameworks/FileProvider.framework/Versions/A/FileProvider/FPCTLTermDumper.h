@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle;
-
 @interface FPCTLTermDumper
 {
     int _fd;
-    unsigned long long _termWidth;
-    unsigned long long _usedTermWidth;
-    int _curAttrs;
-    int _curFg;
-    int _curBg;
-    _Bool _eightBitColor;
-    NSFileHandle *_decodedFileHandle;
-    _Bool _isatty;
-    _Bool _useColor;
-    _Bool _supportsEscapeSequences;
 }
 
-+ (void);
++ (void)C;
 + (void);
 + (_Bool);
 - (void);
@@ -34,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,7 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)AppVocabularySearchResponse;
 - (id);
 - (void);
 - (void);
@@ -74,10 +62,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) int fd; // @synthesize fd=_fd;
 @property(readonly, nonatomic) _Bool isatty; // @synthesize isatty=_isatty;
-@property(readonly, nonatomic) _Bool supportsEscapeSequences; // @synthesize supportsEscapeSequences=_supportsEscapeSequences;
-@property(readonly, nonatomic) _Bool useColor; // @synthesize useColor=_useColor;
 
 @end
 

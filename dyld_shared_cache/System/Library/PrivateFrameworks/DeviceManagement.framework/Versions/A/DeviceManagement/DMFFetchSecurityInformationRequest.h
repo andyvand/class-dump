@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (Class);
++ (Class)=;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -28,7 +28,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sult;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *infoKeys; // @synthesize infoKeys=_infoKeys;

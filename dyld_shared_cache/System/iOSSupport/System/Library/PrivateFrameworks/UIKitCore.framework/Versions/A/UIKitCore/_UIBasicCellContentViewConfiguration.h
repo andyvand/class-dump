@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIContentViewEditingConfiguration, _UIContentViewImageViewConfiguration, _UIContentViewLabelConfiguration;
-
 @interface _UIBasicCellContentViewConfiguration
 {
     struct {
@@ -13,47 +11,40 @@
         unsigned int hasCustomizedDirectionalLayoutMargins:1;
         unsigned int hasCustomizedImageToTextPadding:1;
     } _configurationFlags;
-    unsigned long long _axesPreservingSuperviewLayoutMargins;
-    double _imageToTextPadding;
-    _UIContentViewEditingConfiguration *_textLabelEditingConfiguration;
-    long long _defaultStyle;
-    _UIContentViewImageViewConfiguration *_imageView;
-    _UIContentViewLabelConfiguration *_textLabel;
-    struct NSDirectionalEdgeInsets _directionalLayoutMargins;
 }
 
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id),C,N,V_payloadFont;
 + (_Bool)ing:%@ affectedRange:%@> /* Error: Ran out of types for this method. */;
 + (id)inputFaceOpacity;
 - (id);
-- (void);
+- (void)updateRelayStatus;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)d name.;
+- (id)vent;
+- (void)1;
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (id);
-- (void);
+- (void)tes.short;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool)¡;
 - (id);
-- (void);
-- (_Bool)e:(id)arg1;
-- (void)tion:(id)arg1;
-- (double)xRange;
+- (void)titleForItemAtIndex:(double)arg1;
+- (_Bool)setRenderingMode:(id)arg1;
+- (void)performDocumentRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (double)lastVisibleIndexRange;
 - (id)llView",W,N,V_hostScrollView;
 - (id);
 - (unsigned long long)(ÂXÄÅ;
@@ -70,23 +61,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setAxesPreservingSuperviewLayoutMargins:) unsigned long long _axesPreservingSuperviewLayoutMargins; // @synthesize _axesPreservingSuperviewLayoutMargins;
-@property(nonatomic) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setDirectionalLayoutMargins:) struct NSDirectionalEdgeInsets _directionalLayoutMargins; // @synthesize _directionalLayoutMargins;
-@property(nonatomic, setter=_setImageToTextPadding:) double _imageToTextPadding; // @synthesize _imageToTextPadding;
-@property(readonly, nonatomic) _Bool _isSidebarStyle;
-@property(copy, nonatomic) _UIContentViewEditingConfiguration *_textLabelEditingConfiguration; // @synthesize _textLabelEditingConfiguration;
-@property(nonatomic) unsigned long long axesPreservingSuperviewLayoutMargins;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double imageToTextPadding;
-@property(readonly, nonatomic) _UIContentViewImageViewConfiguration *imageView; // @synthesize imageView=_imageView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIContentViewLabelConfiguration *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

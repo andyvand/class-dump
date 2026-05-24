@@ -11,8 +11,8 @@
     UIView *_colorBar;
 }
 
-- (id);
-- (void)thUnsignedInteger: /* Error: Ran out of types for this method. */;
+- (id)2%s;
+- (void)numberWithUnsignedInteger: /* Error: Ran out of types for this method. */;
 
 @end
 

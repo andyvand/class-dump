@@ -9,23 +9,22 @@
 @interface TeaUI.MultiScrollViewDelegate
 {
     id respondsToSelectorCache;
-    id delegates;
 }
 
 - (void);
 - (void);
+- (void)_runsIndependentlyOfCompanionApp;
 - (void);
+- (void)absoluteString;
 - (void);
-- (void);
+- (void)OOT TRACKING] storedRebootTime = %ld.%06d, mostRecentRebootTime = %ld.%06d, didReboot=%@;
+- (_Bool);
+- (id)NewsAppConfigurationObserving>"16;
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)eFeedsInForYouGroup;
+- (void) ;
 - (id);
 - (id)× ;
 - (void)ÀPüÿÈQüÿ°RüÿSüÿSüÿ0TüÿpTüÿTüÿ¨TüÿUüÿ0Uüÿ¸UüÿVüÿVüÿ¨VüÿWüÿdWüÿ|WüÿWüÿ¬WüÿÄWüÿÜWüÿXüÿ<XüÿdXüÿÌXüÿäXüÿüXüÿYüÿäYüÿlZüÿ¬ZüÿÐZüÿèZüÿ[üÿ]üÿÐ]üÿ8^üÿP^üÿx^üÿ^üÿ¸^üÿ_üÿ´_üÿÌ_üÿä_üÿü_üÿ$`üÿ`üÿØ`üÿaüÿÄaüÿ(büÿhbüÿ büÿpcüÿÐcüÿdüÿpdüÿ¨düÿ;

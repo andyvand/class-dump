@@ -6,41 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TContainerLayoutManager, FI_TSidebarView, NSObject, NSString;
-@protocol TSidebarViewControllerDelegate;
+@class FI_TContainerLayoutManager, FI_TSidebarView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TSidebarViewController : FI_TViewController
 {
     FI_TSidebarView *_sidebarView;
-    struct TNSWeakPtr<NSObject<TSidebarViewControllerDelegate>> _delegate;
-    struct vector<TSidebarZone, std::allocator<TSidebarZone>> _localDataSourceCopyZones;
-    struct map<TSidebarZone, TFENodeVector, std::less<TSidebarZone>, std::allocator<std::pair<const TSidebarZone, TFENodeVector>>> _localDataSourceCopy;
-    _Bool _observingShared;
-    _Bool _repopulating;
-    _Bool _suppressSelectionUpdate;
-    _Bool _selectionChangingProgrammatically;
-    _Bool _suspendRepopulation;
-    _Bool _suspendedRepopulationPending;
-    _Bool _restoringExpandedState;
-    int _dragClickStartZone;
-    struct TFENode _privateDragNode;
-    _Bool _privateDrag;
-    struct CGPoint _dragStartGlobalPoint;
-    double _dragStartTime;
-    struct TFENode _nodeToIncludeInDrop;
-    _Bool _isCurrentDragARemove;
-    double _optimalWidthCache;
-    function_e88ba8d7 _optimalWidthUpdateCallback;
-    long long _rowSizeStyleForOptimalWidthCache;
-    unsigned long long _mediaBrowserShownTypes;
-    struct TFENode _nodeBeingClicked;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationCenterObservers;
-    _Bool _recentlyOnActiveSpaceCache;
-    double _recentlyOnActiveSpaceCacheLastCheck;
-    struct shared_ptr<TFPFSGlobalProgress> _fpfsGlobalProgress;
-    _Bool _isTornDown;
-    FI_TContainerLayoutManager *_containerLayoutManager;
 }
 
 + (id);
@@ -52,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (unsigned long long);
-- (optional_a670fce5);
+- (optional_b0be1e53)	;
 - (void);
 - (void);
 - (void);
@@ -60,36 +31,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (struct TFENode);
-- (void);
-- (void);
+- (void);
+- (struct TFENode);
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
-- (optional_b5df104f);
+- (void);
+- (optional_fb5d1b84);
 - (id);
 - (struct CGRect);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (int);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -98,16 +69,16 @@ __attribute__((visibility("hidden")))
 - (struct TFENode);
 - (struct TFENode);
 - (double);
-- (pair_decfebe4);
-- (pair_decfebe4);
-- (pair_decfebe4);
-- (pair_decfebe4);
+- (pair_51d00613);
+- (pair_51d00613);
+- (pair_51d00613);
+- (pair_51d00613);
 - (id);
 - (const void *);
-- (void *);
+- (void *);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -117,8 +88,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -128,10 +99,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct TFENode);
+- (_Bool)+;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (struct TFENode);
+- (struct TFENode);
 - (id);
 - (struct CGRect);
 - (id);
@@ -144,7 +115,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (struct TString);
+- (struct TString)U;
 - (void);
 - (void);
 - (int);
@@ -155,7 +126,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)t-to-page;
 - (_Bool);
 - (void);
 - (void);
@@ -165,7 +136,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -173,16 +144,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (struct TFENode);
+- (struct TFENode),;
 - (id);
 - (void);
-- (id);
+- (id));
 - (id);
 - (id);
 - (void);
@@ -192,24 +163,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) FI_TContainerLayoutManager *containerLayoutManager; // @synthesize containerLayoutManager=_containerLayoutManager;
-@property(readonly, nonatomic) struct TFENode containerSidebarTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak NSObject<TSidebarViewControllerDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isBackupBrowser;
-@property(readonly, nonatomic) _Bool isSnapshotImageBrowser;
-@property(readonly, nonatomic) double minimumSidebarWidth;
-@property(readonly, nonatomic) double optimalHeight;
-@property(readonly, nonatomic) double optimalWidth;
-@property(nonatomic) _Bool restoringExpandedState; // @synthesize restoringExpandedState=_restoringExpandedState;
-@property(nonatomic) struct TFENode selectedNode;
-@property(readonly, nonatomic) FI_TSidebarView *sidebar;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
 
 @end
 

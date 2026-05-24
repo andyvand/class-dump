@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _SCRCStackNode
 {
     id _object;
-    _SCRCStackNode *_prev;
-    _SCRCStackNode *_next;
 }
 
 - (id);
-- (id);
+- (id)",{;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)/CoreFoundation;
 - (id)<°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) _SCRCStackNode *next; // @synthesize next=_next;
 @property(retain, nonatomic) id object; // @synthesize object=_object;
-@property(nonatomic) __weak _SCRCStackNode *prev; // @synthesize prev=_prev;
 
 @end
 

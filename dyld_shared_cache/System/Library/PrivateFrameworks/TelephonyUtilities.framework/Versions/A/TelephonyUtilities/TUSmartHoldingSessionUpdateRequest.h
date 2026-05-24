@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void):8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties

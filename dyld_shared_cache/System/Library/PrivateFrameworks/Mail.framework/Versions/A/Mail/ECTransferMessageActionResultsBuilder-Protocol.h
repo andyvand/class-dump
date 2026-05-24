@@ -7,12 +7,10 @@
 @class NSArray, NSDictionary;
 
 @protocol ECTransferMessageActionResultsBuilder
+- (NSArray *);
+- (NSDictionary *);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *completedItems;
-@property(copy, nonatomic) NSArray *createdServerMessages;
-@property(copy, nonatomic) NSDictionary *downloadedDataByCopyItems;
-@property(copy, nonatomic) NSArray *failedItems;
 @property(nonatomic) long long phaseForResults;
 @end
 

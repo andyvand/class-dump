@@ -9,27 +9,23 @@
 @interface _UIReflectingView : UIView
 {
     UIView *_containerView;
-    UIView *_gradientView;
-    double _reflectionAlpha;
 }
 
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)_updateAttachmentGUIDIfNeededAndReturnTransfersToForceMarkAsSync:transfersToSyncRowIDs: /* Error: Ran out of types for this method. */;
 - (id);
-- (double);
+- (double)narie(s) for transfer info of deleted attachment(s);
 - (void);
-- (void)ns:(id)arg1;
-- (id)owText;
+- (void)setAllowedDirections:(id)arg1;
+- (id)_hostViewBelowText;
 - (void)N,V_reuseIdentifier;
 - (void)E231¯þE231¯þE23Ä£rþE231¯þ;
 - (id);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) double reflectionAlpha;
-@property(nonatomic) double reflectionFraction;
 
 @end
 

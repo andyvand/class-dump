@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ession;
+- (void)resetSession;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *cancelError; // @synthesize cancelError=_cancelError;

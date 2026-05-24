@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (struct CGPath *);
+- (struct CGPath *)__shouldSkipPreferredClientCertificateLookup;
 - (id)ect={CGPoint=dd}{CGSize=dd}}128;
 
 @end

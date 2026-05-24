@@ -7,8 +7,6 @@
 @interface PhotosUICore.MapItemListManager
 {
     id parentItemListManager;
-    id provider;
-    id mapItemID;
 }
 
 @end

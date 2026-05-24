@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
+- (void)isFirstUnencryptedSend;
+- (_Bool)defuseLiteTextMessage:error: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (id)ayoutCallStack:(struct CGRect)arg1;
+- (id)_lfld_addSetNeedsLayoutCallStack:(struct CGRect)arg1;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface CookingKit.StepSubdivisionProcessingStep
 {
     id splitter;
+    id;
 }
 
 @end

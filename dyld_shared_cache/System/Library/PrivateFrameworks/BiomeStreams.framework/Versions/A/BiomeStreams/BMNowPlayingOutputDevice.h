@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMNowPlayingOutputDevice
 {
     unsigned long long _deviceType;
-    unsigned long long _deviceSubType;
-    NSString *_deviceId;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)SayypG;
 - (unsigned long long);
 - (id)ialize;
 - (void);
 - (unsigned long long)4Í»ÿ»×ß¤Ý;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(readonly, nonatomic) unsigned long long deviceSubType; // @synthesize deviceSubType=_deviceSubType;
 @property(readonly, nonatomic) unsigned long long deviceType; // @synthesize deviceType=_deviceType;
 
 @end

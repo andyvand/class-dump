@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDLibnetcoreCellularFallbackReport, AWDLibnetcoreConnectionStatisticsReport, NSMutableArray, NSString;
-
 @interface AWDLibnetcoreTCPConnectionReport
 {
     unsigned long long _iPAddressAttemptCount;
-    unsigned long long _timestamp;
-    AWDLibnetcoreCellularFallbackReport *_cellularFallbackReport;
-    NSString *_clientIdentifier;
-    NSMutableArray *_connectionAttemptStatisticsReports;
-    AWDLibnetcoreConnectionStatisticsReport *_connectionStatisticsReport;
-    int _reportReason;
-    NSString *_sourceAppIdentifier;
-    _Bool _delegated;
-    struct {
-        unsigned int iPAddressAttemptCount:1;
-        unsigned int timestamp:1;
-        unsigned int reportReason:1;
-        unsigned int delegated:1;
-    } _has;
 }
 
 + (Class);
@@ -33,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,37 +44,21 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)@;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
+- (void)U;
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)setNLScope: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) AWDLibnetcoreCellularFallbackReport *cellularFallbackReport; // @synthesize cellularFallbackReport=_cellularFallbackReport;
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) NSMutableArray *connectionAttemptStatisticsReports; // @synthesize connectionAttemptStatisticsReports=_connectionAttemptStatisticsReports;
-@property(retain, nonatomic) AWDLibnetcoreConnectionStatisticsReport *connectionStatisticsReport; // @synthesize connectionStatisticsReport=_connectionStatisticsReport;
-@property(nonatomic) _Bool delegated; // @synthesize delegated=_delegated;
-@property(readonly, nonatomic) _Bool hasCellularFallbackReport;
-@property(readonly, nonatomic) _Bool hasClientIdentifier;
-@property(readonly, nonatomic) _Bool hasConnectionStatisticsReport;
-@property(nonatomic) _Bool hasDelegated;
-@property(nonatomic) _Bool hasIPAddressAttemptCount;
-@property(nonatomic) _Bool hasReportReason;
-@property(readonly, nonatomic) _Bool hasSourceAppIdentifier;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long iPAddressAttemptCount; // @synthesize iPAddressAttemptCount=_iPAddressAttemptCount;
-@property(nonatomic) int reportReason; // @synthesize reportReason=_reportReason;
-@property(retain, nonatomic) NSString *sourceAppIdentifier; // @synthesize sourceAppIdentifier=_sourceAppIdentifier;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

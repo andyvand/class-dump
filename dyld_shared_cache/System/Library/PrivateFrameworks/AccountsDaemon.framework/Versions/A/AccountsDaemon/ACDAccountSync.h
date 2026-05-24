@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSObject, NSTimer;
-@protocol OS_dispatch_queue;
-
 @interface ACDAccountSync
 {
     int _circleToken;
-    int _keychainToken;
-    NSTimer *_timer;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    _Bool _enabled;
-    _Bool _duchessEnabled;
-    ACAccountStore *_store;
 }
 
 + (id);

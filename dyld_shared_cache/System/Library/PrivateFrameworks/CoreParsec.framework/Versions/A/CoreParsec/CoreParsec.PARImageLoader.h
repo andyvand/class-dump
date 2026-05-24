@@ -7,10 +7,6 @@
 @interface CoreParsec.PARImageLoader
 {
     id log;
-    id feedbackReporter;
-    id validator;
-    id idToURL;
-    id loader;
 }
 
 @end

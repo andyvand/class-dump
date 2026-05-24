@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol AFServiceDeviceContextMutating
+- (void)`;
+- (void)initWithStickerID:(NSUUID *)arg1 stickerPackID:fileURL:accessibilityLabel:accessibilityName:searchText:sanitizedPrompt:moodCategory:stickerName:textToSpeechName: /* Error: Ran out of types for this method. */;
 @end
 

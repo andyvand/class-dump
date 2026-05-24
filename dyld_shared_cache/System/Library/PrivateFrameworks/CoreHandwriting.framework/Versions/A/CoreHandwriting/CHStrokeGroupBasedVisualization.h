@@ -6,17 +6,14 @@
 
 #import <CoreHandwriting/CHVisualization.h>
 
-@class CHRecognitionSessionResult, NSSet;
 @protocol CHStrokeGroupBasedVisualizationDelegate;
 
 @interface CHStrokeGroupBasedVisualization : CHVisualization
 {
     _Bool _newGroupsDefaultToActive;
-    CHRecognitionSessionResult *_resultDrawn;
-    NSSet *_activeStrokeGroupAncestorIdentifiers;
 }
 
-- (void);
+- (void)J;
 - (id);
 - (void);
 - (_Bool);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *activeStrokeGroupAncestorIdentifiers;
 @property(nonatomic) __weak id <CHStrokeGroupBasedVisualizationDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) _Bool newGroupsDefaultToActive; // @synthesize newGroupsDefaultToActive=_newGroupsDefaultToActive;
-@property(readonly, nonatomic) CHRecognitionSessionResult *resultDrawn;
 
 @end
 

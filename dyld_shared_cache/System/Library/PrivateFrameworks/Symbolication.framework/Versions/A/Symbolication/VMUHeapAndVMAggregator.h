@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, VMUClassInfo, VMUClassPatternMatcher, VMUHeapAndVMAggregatorOptions, VMUMallocZoneAggregate;
-@protocol VMUCommonGraphInterface;
+@class VMUHeapAndVMAggregatorOptions, VMUMallocZoneAggregate;
 
 @interface VMUHeapAndVMAggregator
 {
     VMUHeapAndVMAggregatorOptions *_heapAndVMOptions;
-    id <VMUCommonGraphInterface> _graph;
-    VMUMallocZoneAggregate *_allZonesAggregate;
-    NSMutableArray *_heapZoneAggregates;
-    VMUClassInfo *_nonObjectInfo;
-    VMUClassPatternMatcher *_classFilterPatternMatcher;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)Th;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)TrackpadThreeFingerDoubleTapGesture;
+- (void)_rawValue;
 
 // Remaining properties
 @property(readonly, nonatomic) VMUMallocZoneAggregate *allZonesAggregate; // @synthesize allZonesAggregate=_allZonesAggregate;
-@property(readonly, nonatomic) NSArray *heapZoneAggregates;
 
 @end
 

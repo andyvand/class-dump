@@ -14,10 +14,10 @@
 
 + (id);
 + (id);
-- (void);
+- (void)eatures expected by the model;
+- (id)k;
 - (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *value;

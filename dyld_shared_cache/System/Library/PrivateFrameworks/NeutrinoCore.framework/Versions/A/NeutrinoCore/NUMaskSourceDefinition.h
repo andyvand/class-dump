@@ -9,19 +9,17 @@
 @interface NUMaskSourceDefinition : NUCIImageSourceDefinition
 {
     CDStruct_1e2b2e48 _scale;
-    CDStruct_996ac03c _croppedExtent;
 }
 
 - (void);
 - (id);
 - (id);
-- (CDStruct_996ac03c);
+- (CDStruct_996ac03c)b;
 - (CDStruct_912cb5d2);
 - (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_996ac03c croppedExtent; // @synthesize croppedExtent=_croppedExtent;
-@property(nonatomic) CDStruct_912cb5d2 scale; // @synthesize scale=_scale;
 
 @end
 

@@ -14,14 +14,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) EDMessageDecoder *decoder; // @synthesize decoder=_decoder;
-@property(readonly, nonatomic) _Bool isUsingDefaultDecoder;
 
 @end
 

@@ -9,12 +9,12 @@
     long long _eventType;
 }
 
-+ (_Bool);
++ (_Bool)ive infinity - see CMTIME_IS_NUMERIC;
 - (id);
-- (id);
+- (id);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)?;
+- (void)notifyEvent:(id)arg1;
 - (id);
 - (void);
 

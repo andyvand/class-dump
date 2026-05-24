@@ -4,51 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOCondition
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_conditions;
-    unsigned int _expirationTime;
-    int _type;
-    struct {
-        unsigned int has_expirationTime:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
 + (_Bool):(id)arg1;
 + (Class)ÞÐ9;
 - (id);
 - (void);
-- (id);
+- (id)subAdministrativeArea;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int)key '%@', as %@ is a struct;
+- (void)runNovDetectorWithConfig:(id)arg1 configRoot:withUrl:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
-- (int);
+- (unsigned long long)textView:draggedCell:inRect:event:atIndex: /* Error: Ran out of types for this method. */;
+- (id)8@"NSObject<OS_dispatch_queue>"16@?<v@?@"GEOMapsSearchHomeResult"@"NSError">24@?<v@?B>32;
+- (int)_shouldShowCalloutIfSelected;
 - (_Bool);
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)n:(struct _NSZone *)arg1;
+- (id)setEtaResultReferencePointOrigin:(struct _NSZone *)arg1;
 - (void)@"GEOPDResultDetourInfo",R,N,G_detourInfo,V_detourInfo;
-- (id)s;
+- (id)GEOPDCollectionSuggestionParameters;
 - (void);
 - (int)erData:(id)arg1 decoderData is nil;
-- (id)MODULE_TYPE_ACTION_FOOTER;
-- (id)_REVEAL_CARPLAY_UI;
+- (id)ElementType_MODULE_TYPE_ACTION_FOOTER;
+- (id)DIRECTIONS_PLACECARD_REVEAL_CARPLAY_UI;
 - (id)ð;
 - (void)¤¨àà¬;
 - (id);
@@ -59,21 +52,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long conditionType;
-@property(retain, nonatomic) NSMutableArray *conditions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expirationDate;
-@property(nonatomic) unsigned int expirationTime;
-@property(nonatomic) _Bool hasExpirationTime;
-@property(nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *subconditions;
-@property(readonly) Class superclass;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

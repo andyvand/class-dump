@@ -6,21 +6,12 @@
 
 #import <FinderKit/FI_TButton.h>
 
-@class CNAvatarCache, CNAvatarViewController, FIAirDropListViewItem, FIRadialProgressView, NSImage;
+@class FIRadialProgressView, NSImage;
 
 __attribute__((visibility("hidden")))
 @interface FIAirDropRadialProgressButton : FI_TButton
 {
     FIRadialProgressView *_radialProgressView;
-    CNAvatarViewController *_avatarViewController;
-    NSImage *_closeImage;
-    NSImage *_blankImage;
-    NSImage *_icon;
-    double _percentComplete;
-    _Bool _isCancellable;
-    struct vector<TKeyValueBinder, std::allocator<TKeyValueBinder>> _bindings;
-    FIAirDropListViewItem *_airDropListViewItem;
-    struct vector<TKeyValueObserver, std::allocator<TKeyValueObserver>> _keyValueObservers;
 }
 
 - (void);
@@ -34,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id));
 - (id);
 - (void);
 - (void);
@@ -42,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (double)E19TNodeAndPayloadDataNS_9allocatorIS1_EEEE;
 
 // Remaining properties
-@property(retain, nonatomic) FIAirDropListViewItem *airDropListViewItem;
-@property(readonly, retain, nonatomic) CNAvatarViewController *avatarViewController;
-@property(nonatomic, getter=isCancellable) _Bool cancellable; // @synthesize cancellable=_isCancellable;
 @property(copy, nonatomic) NSImage *icon;
-@property(nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(retain, nonatomic) CNAvatarCache *sharedAvatarCache;
 
 @end
 

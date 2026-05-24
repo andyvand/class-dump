@@ -7,35 +7,6 @@
 @interface IMDPersistence.ChatRecord
 {
     id _guid;
-    id _style;
-    id _state;
-    id _accountID;
-    id _properties;
-    id _chatIdentifier;
-    id _serviceName;
-    id _roomName;
-    id _accountLogin;
-    id _isArchived;
-    id _lastAddressedHandle;
-    id _displayName;
-    id _groupID;
-    id _filterMode;
-    id _successfulQuery;
-    id _engramID;
-    id _serverChangeToken;
-    id _ckSyncState;
-    id _originalGroupID;
-    id _lastReadMessageTimestamp;
-    id _cloudKitRecordID;
-    id _lastAddressedSIMID;
-    id _isBlackholed;
-    id _syndicationDate;
-    id _syndicationType;
-    id _isRecovered;
-    id _isDeletingIncomingMessages;
-    id _isPendingReview;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

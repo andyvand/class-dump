@@ -7,7 +7,11 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)_iso3166CountryCode;
+- (void)deferred %@
+;
+- (void)9;
 - (void)KNS_12StaticLoggerEE3$_3;
-- (void)extE;
+- (void)N3ctu32ReplyCallbackRestResourceContextE;
 @end
 

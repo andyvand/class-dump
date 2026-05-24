@@ -6,39 +6,29 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, NSString, UIAutocorrectBubble;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIAutocorrectBubbleContainer : UIView
 {
     NSString *_typedText;
-    UIAutocorrectBubble *_bubble;
-    UIView *_fakeTextSelectionHighlight;
-    UIView *_typedTextAnimationPlaceholder;
-    NSLayoutConstraint *_highlightWidthConstraint;
-    NSLayoutConstraint *_bubbleTopConstraint;
-    NSLayoutConstraint *_xConstraint;
-    NSLayoutConstraint *_yConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    struct CGRect _referenceRect;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
+- (id)king CloudKit data ******;
+- (id)ad timer.;
+- (void)preferring %@ because it does not have a creation date;
+- (void)ssed to retrieveStickerWithProperties %@;
+- (void)e operation;
+- (void)nstead;
+- (id)l:%f /* Error: Ran out of types for this method. */;
+- (void)names - We had a problem writing list update with key %@ -  %@;
+- (void)reason=(%@);
+- (void)ce protobuf fromHandle:(id)arg1 %@, notice:%@ /* Error: Ran out of types for this method. */;
+- (void)from default paired device;
+- (void)if Alias %@ is active for SMS Relay ;
+- (void)yable Devices;
+- (struct CGRect)"NSError"16;
+- (void)rameter %p> { guid:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu, participants:%@, groupID:%@, groupName:%@, originalMessageTime:%@} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -61,17 +51,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIAutocorrectBubble *bubble; // @synthesize bubble=_bubble;
-@property(retain, nonatomic) NSLayoutConstraint *bubbleTopConstraint; // @synthesize bubbleTopConstraint=_bubbleTopConstraint;
-@property(retain, nonatomic) UIView *fakeTextSelectionHighlight; // @synthesize fakeTextSelectionHighlight=_fakeTextSelectionHighlight;
-@property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *highlightWidthConstraint; // @synthesize highlightWidthConstraint=_highlightWidthConstraint;
-@property(nonatomic) struct CGRect referenceRect; // @synthesize referenceRect=_referenceRect;
 @property(retain, nonatomic) NSString *typedText; // @synthesize typedText=_typedText;
-@property(retain, nonatomic) UIView *typedTextAnimationPlaceholder; // @synthesize typedTextAnimationPlaceholder=_typedTextAnimationPlaceholder;
-@property(retain, nonatomic) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *xConstraint; // @synthesize xConstraint=_xConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *yConstraint; // @synthesize yConstraint=_yConstraint;
 
 @end
 

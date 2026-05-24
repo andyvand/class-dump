@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UIView, _UIVisualEffectBackdropView, _UIVisualEffectDescriptor, _UIVisualEffectViewBackdropCaptureGroup;
+@class NSMutableArray, UIView;
 @protocol _UIVisualEffectViewParticipating;
 
 __attribute__((visibility("hidden")))
 @interface _UIVisualEffectHost
 {
     NSMutableArray *_views;
-    _Bool _autosetSubviewLabelTintColor;
-    _Bool _contentViewRequired;
-    UIView<_UIVisualEffectViewParticipating> *_contentView;
-    _UIVisualEffectViewBackdropCaptureGroup *_primaryCaptureGroup;
-    _UIVisualEffectBackdropView *_captureView;
-    _UIVisualEffectDescriptor *_currentEffectDescriptor;
-    _UIVisualEffectDescriptor *_transitionEffectDescriptor;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)",C,N,V_payloadProviderConfiguration;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)h;
+- (id)deviceIdentifier;
 - (void);
 - (void);
 - (id);
@@ -45,34 +38,21 @@ __attribute__((visibility("hidden")))
 - (id)t";
 - (void)gPreviewShadowProperties";
 - (void);
-- (void)yingOffsetToGlobalFrameOrigin:(id)arg1;
-- (void)ured:(id)arg1;
-- (void)efaultTV;
-- (void)djustContentSizeForView:(_Bool)arg1 atScale: /* Error: Ran out of types for this method. */;
+- (void)copyByApplyingOffsetToGlobalFrameOrigin:(id)arg1;
+- (void)_setCaptured:(id)arg1;
+- (void)_defaultUnselectedTintColorForDefaultTV;
+- (void)_adjustContentSizeForView:(_Bool)arg1 atScale: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)chEvents:,V_containerIgnoresDirectTouchEvents /* Error: Ran out of types for this method. */;
 - (void)rollInitialContentOffset;
 - (id);
-- (id)IsTranslucent;
-- (void)eneStandardPlacementC;
+- (id)UISearchBarIsTranslucent;
+- (void)So30UIWindowSceneStandardPlacementC;
 - (void);
 - (id)è«[;
 
 // Remaining properties
-@property(nonatomic) __weak _UIVisualEffectBackdropView *captureView; // @synthesize captureView=_captureView;
 @property(readonly, nonatomic) UIView<_UIVisualEffectViewParticipating> *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) _Bool contentViewRequired; // @synthesize contentViewRequired=_contentViewRequired;
-@property(retain, nonatomic) _UIVisualEffectDescriptor *currentEffectDescriptor; // @synthesize currentEffectDescriptor=_currentEffectDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIVisualEffectViewBackdropCaptureGroup *primaryCaptureGroup; // @synthesize primaryCaptureGroup=_primaryCaptureGroup;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIVisualEffectDescriptor *transitionEffectDescriptor; // @synthesize transitionEffectDescriptor=_transitionEffectDescriptor;
-@property(readonly, nonatomic) NSArray *views; // @synthesize views=_views;
 
 @end
 

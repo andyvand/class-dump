@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection, NSXPCListener;
-@protocol DEDXPCConnectorDelegate, DEDXPCProtocol, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface DEDXPCConnector
 {
     _Bool _isDaemon;
-    _Bool _started;
-    NSObject<OS_os_log> *_log;
-    NSXPCConnection *_diagnosticextensionsdConnection;
-    NSMutableDictionary *_appConnections;
-    NSXPCListener *_listener;
-    unsigned long long _connType;
-    id <DEDXPCConnectorDelegate> _xpcConnectorDelegate;
-    unsigned long long _connectionRestartCount;
 }
 
 - (void);
@@ -28,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)deltasCount;
+- (id)VersionEtag;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -40,43 +32,27 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)u,%hu,%hu}, facet_ap LL, %12.7f, %12.7f;
+- (id)tHandlerForActiveObjectINS1_18ActivityStateEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (id)N14CoreNavigation3CLP8LogEntry11PrivateData41GEOMapFeatureTropicalSavanna_TreeFeaturesE;
 - (id);
 - (void);
+- (id);
+- (void)q!;
+- (_Bool);
+- (void);
+- (void)%s]
+;
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)ry"@"NSError">16;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *appConnections; // @synthesize appConnections=_appConnections;
-@property(readonly) NSArray *clientConnections;
-@property unsigned long long connType; // @synthesize connType=_connType;
-@property unsigned long long connectionRestartCount; // @synthesize connectionRestartCount=_connectionRestartCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSXPCConnection *diagnosticextensionsdConnection; // @synthesize diagnosticextensionsdConnection=_diagnosticextensionsdConnection;
-@property(readonly) id <DEDXPCProtocol> diagnosticextensionsdXPCInterface;
-@property(readonly) unsigned long long hash;
-@property _Bool isDaemon; // @synthesize isDaemon=_isDaemon;
-@property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
 @property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
-@property __weak id <DEDXPCConnectorDelegate> xpcConnectorDelegate; // @synthesize xpcConnectorDelegate=_xpcConnectorDelegate;
 
 @end
 

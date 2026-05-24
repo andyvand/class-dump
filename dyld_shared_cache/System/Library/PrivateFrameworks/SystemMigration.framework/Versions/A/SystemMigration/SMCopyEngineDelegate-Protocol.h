@@ -5,5 +5,9 @@
 //
 
 @protocol SMCopyEngineDelegate
+
+@optional
+- (void)P;
+- (void);
 @end
 

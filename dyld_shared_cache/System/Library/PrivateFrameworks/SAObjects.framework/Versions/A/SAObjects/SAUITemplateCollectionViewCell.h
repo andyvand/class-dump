@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUITemplateBaseItem.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAUITemplateCollectionViewCell : SAUITemplateBaseItem
 {
@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -28,18 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *monogramName;
-@property(nonatomic) _Bool sizeToFitImage;
-@property(copy, nonatomic) NSString *subtitleText;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *themeImages;
-@property(copy, nonatomic) NSString *titleText;
 
 @end
 

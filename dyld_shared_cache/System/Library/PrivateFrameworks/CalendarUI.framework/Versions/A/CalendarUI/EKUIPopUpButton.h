@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKViewController, NSFont, NSMutableDictionary, NSString;
+@class EKViewController, NSString;
 
 @interface EKUIPopUpButton
 {
     NSString *_deemphasizedString;
-    NSMutableDictionary *_abbreviatedTitles;
-    double _targetWidth;
-    NSFont *_titleFont;
-    EKViewController *_viewController;
 }
 
 + (void);
 + (Class);
 - (double);
-- (void);
+- (void)hb;
 - (void);
 - (id);
 - (id);
@@ -33,14 +29,10 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)!t;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *abbreviatedTitles; // @synthesize abbreviatedTitles=_abbreviatedTitles;
-@property(copy) NSString *deemphasizedString; // @synthesize deemphasizedString=_deemphasizedString;
-@property double targetWidth; // @synthesize targetWidth=_targetWidth;
-@property(retain) NSFont *titleFont; // @synthesize titleFont=_titleFont;
 @property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

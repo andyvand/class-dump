@@ -7,22 +7,15 @@
 @interface EventKit.LocationSearch.SearchModelWrapper
 {
     id store;
-    id eventID;
-    id dateRange;
-    id source;
-    id shouldIssueAvailabilityRequest;
-    id conferenceRoomNamesToExclude;
-    id searchModel;
-    id continuation;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)ngController] <%@> processing PlaybackQueueDidChangeNotification.;
+- (_Bool)ayingController] <%@> Deallocating.;
+- (_Bool)ict to %@ but %@ was accepted.;
+- (void)content item %{public}@, artwork %{public}@.;
+- (void)k %{public}@.;
+- (id)headTrackedSpatialAudioMode;
+- (id)queue_t, void (^__strong)(NSArray<NSError *> *__strong));
 - (id);
 - (void)#Ð!FùÑ2'ð1Â0@ù
 × ;

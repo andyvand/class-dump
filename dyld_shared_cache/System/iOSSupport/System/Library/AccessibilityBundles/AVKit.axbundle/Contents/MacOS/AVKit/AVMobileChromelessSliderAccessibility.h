@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (void);
-- (id);
+- (id)ConversionValueTier;
 - (id);
 - (_Bool);
 

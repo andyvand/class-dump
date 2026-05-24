@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TextGrouping
 {
     NSString *_text;
-    unsigned long long _textRegionType;
-    CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    NSArray *_subregions;
 }
 
 - (unsigned long long);
@@ -22,21 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Points;
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(readonly) NSArray *subregions; // @synthesize subregions=_subregions;
-@property(readonly) Class superclass;
 @property(readonly) NSString *text; // @synthesize text=_text;
-@property(readonly) unsigned long long textRegionType; // @synthesize textRegionType=_textRegionType;
 
 @end
 

@@ -7,11 +7,9 @@
 @protocol MTLResource;
 
 @protocol MTLGPUDebugResource
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLResource> baseObject;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) unsigned long long underlyingGPUAddress;
 @end
 

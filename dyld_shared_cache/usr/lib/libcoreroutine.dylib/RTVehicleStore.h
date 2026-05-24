@@ -6,31 +6,23 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTVehicleStore : RTStore
 {
 }
 
 + (long long);
 - (void);
+- (void)setMarkMirrorKey:(id)arg1;
+- (void)_triggerUpdate;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)dentityCollectionSetup:(id)arg1 return %@ error:(CDUnknownBlockType)arg2 %@;
 - (void);
 - (id);
 - (void);
 - (id)(in %s:(id)arg1 %d);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,23 +6,18 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImage, MRTextRenderer, NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectMagazine : MREffect
 {
     NSMutableDictionary *mSprites;
-    MRTextRenderer *mTextRenderer0;
-    MRImage *mTextImage0;
-    _Bool mIsLoaded;
-    _Bool mFitMovie;
-    NSDictionary *mCurrentInfo;
 }
 
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)nalyticsPayloadUploader initWithAppConfigurationManager:(double)arg1 ];
+- (id)?;
+- (_Bool);
 - (void);
 - (id);
 - (void);

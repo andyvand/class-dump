@@ -6,36 +6,27 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOConfigKeyChangeNotification : GEOXPCRequest
 {
     NSArray *_keyStrings;
-    unsigned long long _keyOptions;
 }
 
-+ (Class);
++ (Class)SLYahooWebAuthController;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)injectCompletedUploadWithCompletion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
-- (id)asIndustryCode;
+- (void)_containedChildrenPois;
+- (id)hasIndustryCode;
 - (void)ª5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long keyOptions; // @synthesize keyOptions=_keyOptions;
 @property(retain, nonatomic) NSArray *keyStrings; // @synthesize keyStrings=_keyStrings;
-@property(readonly) Class superclass;
 
 @end
 

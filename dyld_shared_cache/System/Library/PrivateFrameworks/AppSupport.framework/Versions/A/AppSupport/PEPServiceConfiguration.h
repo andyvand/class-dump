@@ -9,13 +9,11 @@
 @interface PEPServiceConfiguration
 {
     NSString *_cacheFilePath;
-    _Bool _shouldDownloadNetworkConfigFile;
-    double _cachedFileLastModifyDate;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void)*;
 - (id);
 - (_Bool);
 - (void);

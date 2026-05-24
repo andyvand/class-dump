@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface KTAccountPublicID
 {
     struct _PCSPublicIdentityData *_publicIdentity;
-    NSString *_publicID;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)extensionQuery;
++ (id)local_resultset_mail_user_is_sender;
++ (id)%;
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,20 +25,16 @@
 - (id);
 - (void);
 - (void);
+- (id)reate image source for %@, skipping;
 - (id);
-- (id);
-- (id);
+- (id)c;
 - (_Bool);
-- (void);
-- (id);
+- (void)@0:(id)arg1 8;
+- (id)idUpdateAssets];
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *ktStorageString;
-@property(readonly) NSString *publicAccountIdentity;
-@property(readonly) NSString *publicAccountPKI;
 @property(retain) NSString *publicID; // @synthesize publicID=_publicID;
-@property(readonly) NSData *publicKeyInfo;
 
 @end
 

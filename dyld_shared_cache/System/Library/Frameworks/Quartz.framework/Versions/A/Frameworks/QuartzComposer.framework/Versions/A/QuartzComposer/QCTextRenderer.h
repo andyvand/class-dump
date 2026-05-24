@@ -9,21 +9,11 @@
 @interface QCTextRenderer
 {
     NSString *_string;
-    int _alignmentH;
-    int _alignmentV;
-    NSString *_fontName;
-    double _fontSize;
-    double _fontKerning;
-    double _offset;
-    struct CGRect _frame;
-    void *_framesetterRef;
-    void *_frameRef;
-    struct CGRect _bounds;
 }
 
 + (void)es/com.apple.xbs/TemporaryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Animation/C3DKeyframeController.c;
 - (struct _NSRange);
-- (unsigned long long);
+- (unsigned long long)Q;
 - (void);
 - (void);
 - (double);
@@ -40,7 +30,7 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (id).base_location_id >= 300 AND item.date_downloaded != 0;
 - (struct CGRect);
 - (void);
 - (void);

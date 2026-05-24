@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, NSTrackingArea, NSView, SiriUIButton, SiriUIConfiguration, SiriUISiriStatusView;
-@protocol SiriUISiriViewDelegate;
+@class NSLayoutConstraint;
 
 @interface SiriUISiriView
 {
     _Bool _didBeginDismissalAnimation;
-    NSTrackingArea *_trackingArea;
-    NSTrackingArea *_closeButtonTrackingArea;
-    _Bool _isMouseHovering;
-    _Bool _isMouseHoveringCloseButton;
-    _Bool _disabled;
-    _Bool _statusViewHidden;
-    _Bool _keepStatusViewHidden;
-    NSView *_remoteContentView;
-    SiriUISiriStatusView *_statusView;
-    SiriUIButton *_reportBugButton;
-    SiriUIConfiguration *_configuration;
-    id <SiriUISiriViewDelegate> _delegate;
-    long long _siriSessionState;
-    long long _mode;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
-    NSLayoutConstraint *_statusViewBottomConstraint;
 }
 
 - (_Bool);
@@ -53,10 +35,10 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)T;
 - (void);
 - (void);
-- (void);
+- (void)Һ;
 - (void);
 - (void);
 - (void);
@@ -68,33 +50,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	k	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)<˟;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (id)extHistory"16;
+- (void)ContactsAutocompleteUI_Private;
+- (id);
+- (long long)iptCollectionViewController touchUpInsideCellStatusButton:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (long long);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,26 +91,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SiriUIConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUISiriViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keepStatusViewHidden; // @synthesize keepStatusViewHidden=_keepStatusViewHidden;
-@property(retain, nonatomic) NSLayoutConstraint *leadingConstraint; // @synthesize leadingConstraint=_leadingConstraint;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) NSView *remoteContentView; // @synthesize remoteContentView=_remoteContentView;
-@property __weak SiriUIButton *reportBugButton; // @synthesize reportBugButton=_reportBugButton;
-@property(nonatomic) long long siriSessionState; // @synthesize siriSessionState=_siriSessionState;
-@property(retain, nonatomic) SiriUISiriStatusView *statusView; // @synthesize statusView=_statusView;
 @property __weak NSLayoutConstraint *statusViewBottomConstraint; // @synthesize statusViewBottomConstraint=_statusViewBottomConstraint;
-@property(nonatomic) _Bool statusViewHidden; // @synthesize statusViewHidden=_statusViewHidden;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *trailingConstraint; // @synthesize trailingConstraint=_trailingConstraint;
 
 @end
 
